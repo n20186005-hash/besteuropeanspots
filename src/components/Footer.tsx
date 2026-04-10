@@ -55,9 +55,64 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/50">
-          <p>&copy; {new Date().getFullYear()} besteuropeanspots.com</p>
-          <p>100 Hidden Gems. One Continent. Endless Discovery.</p>
+        <div className="mt-12 pt-8 border-t border-white/10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            {/* Legal Links */}
+            <div>
+              <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-accent">
+                Legal
+              </h4>
+              <ul className="space-y-2 text-sm text-white/70">
+                <li>
+                  <Link href="/privacy-policy" className="hover:text-white transition-colors">
+                    Política de Privacidad
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/terms-of-service" className="hover:text-white transition-colors">
+                    Términos de Servicio
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/cookie-settings" className="hover:text-white transition-colors">
+                    Configuración de Cookies
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            {/* Support */}
+            <div>
+              <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-accent">
+                Soporte
+              </h4>
+              <ul className="space-y-2 text-sm text-white/70">
+                <li>
+                  <a href="mailto:n20186005@gmail.com" className="hover:text-white transition-colors">
+                    n20186005@gmail.com
+                  </a>
+                </li>
+                <li className="text-xs">
+                  Para soporte técnico de este sitio web
+                </li>
+              </ul>
+            </div>
+
+            {/* About */}
+            <div>
+              <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-accent">
+                Acerca de
+              </h4>
+              <p className="text-sm text-white/70 leading-relaxed">
+                Sitio independiente de información turística descubriendo las gemas ocultas de Europa.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/50 border-t border-white/10 pt-8">
+            <p>&copy; {new Date().getFullYear()} besteuropeanspots.com</p>
+            <p>100 Hidden Gems. One Continent. Endless Discovery.</p>
+          </div>
         </div>
       </div>
     </footer>
