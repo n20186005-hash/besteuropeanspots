@@ -1,0 +1,349 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '斯皮什城堡・Spiš Castle・斯洛伐克・斯皮什 | 最佳欧洲景点',
+  description: '探索斯皮什城堡，斯洛伐克东部的千年古堡，欧洲规模最大的城堡建筑群之一，2009年被列入联合国教科文组织世界文化遗产名录的中世纪城堡景观。',
+}
+
+export default function SpisCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '斯皮什城堡', href: '/attractions/spis-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">斯皮什城堡・Spiš Castle・斯洛伐克・斯皮什</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            斯皮什城堡是斯洛伐克东部的千年古堡，欧洲规模最大的城堡建筑群之一，融合哥特式、罗马式建筑风格，坐落于山丘之巅，俯瞰周边河谷与城镇。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+            <p className="text-gray-700 leading-relaxed mb-4">
+              斯皮什城堡是斯洛伐克东部的千年古堡，欧洲规模最大的城堡建筑群之一，融合哥特式、罗马式建筑风格，坐落于山丘之巅，俯瞰周边河谷与城镇。古堡留存着完整的城墙、塔楼、宫殿与地牢遗迹，见证了中世纪东欧的战乱与繁荣，18世纪因火灾沦为废墟后得以部分修缮，既有废墟的沧桑厚重，又有中世纪建筑的宏伟庄严，是感受中欧中世纪历史、欣赏古堡风光的必访之地。
+            </p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="斯皮什城堡" />
+                <InfoRow label="英文名称" value="Spiš Castle" />
+                <InfoRow label="斯洛伐克语名" value="Spišský hrad" />
+                <InfoRow label="国家" value="斯洛伐克（Slovakia）" />
+                <InfoRow label="城市" value="斯皮什（Spiš）" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="所属区域" value="斯洛伐克东部，东斯洛伐克州" />
+                <InfoRow label="地理位置" value="喀尔巴阡山脉北麓山丘之上" />
+                <InfoRow label="历史地位" value="欧洲规模最大的城堡建筑群之一" />
+                <InfoRow label="世界文化遗产" value="2009年列入联合国教科文组织名录" />
+              </div>
+            </div>
+            <div className="bg-blue-50 p-6 rounded-lg mt-6">
+              <h4 className="text-lg font-semibold text-blue-900 mb-3">详细门票信息</h4>
+              <div className="space-y-2 text-gray-700 text-sm">
+                <p><span className="font-medium">成人门票：</span>8欧元/人</p>
+                <p><span className="font-medium">学生票：</span>4欧元/人（凭学生证半价）</p>
+                <p><span className="font-medium">儿童政策：</span>6岁以下儿童免费</p>
+                <p><span className="font-medium">老年人优惠：</span>65岁以上老人5欧元/人</p>
+                <p><span className="font-medium">团体优惠：</span>10人及以上可预约团体优惠</p>
+              </div>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg mt-6">
+              <h4 className="text-lg font-semibold text-green-900 mb-3">开放时间</h4>
+              <div className="space-y-2 text-gray-700 text-sm">
+                <p><span className="font-medium">4-5月：</span>9:00-17:00（16:30停止入园）</p>
+                <p><span className="font-medium">6-8月：</span>8:30-18:00（17:30停止入园）</p>
+                <p><span className="font-medium">9-10月：</span>9:00-17:00（16:30停止入园）</p>
+                <p><span className="font-medium">11月-次年3月：</span>10:00-16:00（15:30停止入园）</p>
+              </div>
+            </div>
+            <div className="bg-yellow-50 p-6 rounded-lg mt-6">
+              <h4 className="text-lg font-semibold text-yellow-900 mb-3">交通指南</h4>
+              <div className="space-y-2 text-gray-700 text-sm">
+                <p><span className="font-medium">布拉迪斯拉发机场：</span>→斯皮什城堡（4小时车程，走D1、D11高速公路）</p>
+                <p><span className="font-medium">公共交通：</span>布拉迪斯拉发→莱沃恰（5小时火车，25欧元/人）→打车15分钟到城堡</p>
+                <p><span className="font-medium">科希策出发：</span>自驾1小时车程，城际巴士至莱沃恰（5欧元/人）</p>
+                <p><span className="font-medium">城堡交通：</span>无公交线路，需自驾或打车（莱沃恰往返15-20欧元）</p>
+                <p><span className="font-medium">停车场：</span>景区入口专用停车场，收费约3欧元/天</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <p className="text-gray-700 leading-relaxed mb-4">
+              斯皮什城堡的历史可追溯至公元12世纪，其发展历程与东欧中世纪的政治、军事、宗教变迁紧密相连，是斯洛伐克历史的重要见证者，承载着千年的战乱与繁华，也是中欧中世纪城堡建筑的杰出代表。这座城堡坐落于山丘之巅，地势险要，易守难攻，最初作为军事防御要塞而建，而后逐渐成为贵族府邸与区域行政中心，历经多次修缮与损毁，最终形成如今兼具废墟沧桑与建筑美感的独特风貌。
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              公元12世纪，匈牙利王国为加强对东部边境的控制，下令在斯皮什地区的山丘之上修建军事要塞，这便是斯皮什城堡的雏形。当时的城堡规模较小，主要由简单的石砌城墙与塔楼构成，核心功能是防御外敌入侵，守护周边的城镇与河谷交通要道，同时作为当地行政官员的办公场所，成为匈牙利王国东部边境的重要军事据点。
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              13世纪至14世纪，斯皮什城堡迎来第一次大规模扩建，随着匈牙利王国的繁荣，城堡的功能逐渐多元化，在保留军事防御功能的同时，新增了贵族宫殿、教堂、地牢等建筑，建筑风格融合了罗马式与早期哥特式，石砌墙体愈发厚重，塔楼愈发高耸，成为当时东欧地区最宏伟的城堡之一。这一时期，城堡成为斯皮什地区的政治、军事与宗教中心，匈牙利贵族在此居住，教堂则成为当地天主教信徒的重要礼拜场所，城堡周边逐渐形成聚居区，推动了当地的经济与文化发展。
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              15世纪至17世纪，斯皮什城堡进入鼎盛时期，此时的城堡规模达到顶峰，城墙环绕范围扩大，新增了多个防御塔楼与城门，宫殿内部装饰愈发精美，配备了完善的生活设施，成为匈牙利贵族的重要府邸。这一时期，东欧地区战乱频繁，斯皮什城堡凭借险要的地势与坚固的防御，多次抵御了外敌入侵，始终坚守着东部边境的安全，同时也见证了匈牙利王国的兴衰变迁。期间，城堡曾多次被不同势力占领，建筑风格也受到一定影响，逐渐融入了文艺复兴时期的元素，让古堡更具多元魅力。
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              1780年，一场突如其来的大火席卷了整个城堡，大部分木质结构与内部装饰被烧毁，宫殿、教堂等建筑遭到严重损毁，城堡逐渐被遗弃，沦为一片废墟。此后的两个多世纪里，斯皮什城堡一直处于荒废状态，石砌墙体因风雨侵蚀逐渐破损，部分塔楼坍塌，唯有厚重的城墙与部分塔楼得以留存，成为中世纪城堡废墟的典型代表。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              20世纪以来，斯洛伐克政府开始重视对斯皮什城堡的保护与修缮工作，先后投入大量资金，对破损的城墙、塔楼进行修复，清理废墟中的文物，同时保留了城堡的废墟风貌，力求在保护历史遗迹的同时，还原中世纪城堡的原始韵味。2009年，斯皮什城堡与莱沃恰老城、斯皮什卡波奇塔等景点一同被列入联合国教科文组织世界文化遗产名录，成为世界范围内中世纪城堡保护的典范。如今，斯皮什城堡不仅是斯洛伐克重要的历史文化地标，也是吸引全球游客的知名景点，每年有大量游客前来，感受其千年的历史沧桑与建筑魅力。
+            </p>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h4 className="text-lg font-semibold text-blue-900 mb-3">经典游览路线</h4>
+                <p className="text-gray-700 mb-4">全程以"历史探秘+全景观赏"为主题，难度适中，全程以步行为主，适合各类游客，建议安排2-3小时</p>
+                <div className="space-y-3 text-gray-700 text-sm">
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">起点：斯皮什城堡景区入口</h5>
+                    <p>游客咨询点旁，可领取导览手册、寄存行李，咨询游览路线</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">第一站：主城门与外城墙</h5>
+                    <p>城堡标志性入口，保留中世纪石砌城门与防御工事，欣赏厚重城墙、高耸防御塔楼，参观约20分钟</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">第二站：城堡庭院</h5>
+                    <p>核心庭院，留存废墟遗迹与部分修复建筑，观赏中世纪石砌地面、残破墙体，了解城堡布局结构，参观约30分钟</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">第三站：贵族宫殿遗迹</h5>
+                    <p>位于庭院东侧，曾是匈牙利贵族居住场所，如今虽为废墟，仍能看到宫殿轮廓、残存石柱与窗户，参观约40分钟</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">第四站：城堡教堂</h5>
+                    <p>位于庭院北侧，建于13世纪，哥特式建筑代表，内部保留部分中世纪壁画与雕塑，虽因火灾损毁但仍感受宗教建筑庄严，参观约30分钟</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">第五站：防御塔楼</h5>
+                    <p>位于城堡西侧，城堡制高点之一，登上塔楼可俯瞰整个城堡全景、周边莱沃恰老城与喀尔巴阡山脉风光，参观约20分钟</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">第六站：地牢与防御工事</h5>
+                    <p>位于城堡地下，中世纪关押囚犯与存放武器场所，保留原始地牢结构与部分武器展品，感受城堡军事功能，参观约20分钟</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">终点：景区出口</h5>
+                    <p>周边有纪念品商店，可购买当地手工艺品，也可在简易餐厅休憩，结束游览</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-yellow-50 p-6 rounded-lg">
+                <h4 className="text-lg font-semibold text-yellow-900 mb-3">温馨提示</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• 城堡内多为石板路面与上坡路段，部分区域较为陡峭，行走时需注意安全</li>
+                  <li>• 参观教堂与文物遗迹时，需保持安静，禁止大声喧哗，穿着需得体</li>
+                  <li>• 部分区域因废墟修复禁止进入，需遵守现场提示</li>
+                  <li>• 周一城堡内室内展厅闭馆，仅开放户外遗迹区域，前往前需提前确认</li>
+                </ul>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">城堡主城门外侧</h4>
+                  <p className="text-gray-700 text-sm">拍摄城堡整体轮廓绝佳机位，可完整拍摄主城门与外城墙全貌，厚重石砌墙体、高耸防御塔楼、复古城门搭配远处山脉，画面恢弘大气。最佳时间：上午10:00-11:00</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">城堡防御塔楼顶端</h4>
+                  <p className="text-gray-700 text-sm">拍摄全景核心机位，登上塔楼可360度俯瞰整个斯皮什城堡、周边莱沃恰老城、河谷与喀尔巴阡山脉，古堡废墟轮廓与自然景观交相辉映。最佳时间：午后14:00-15:00</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">贵族宫殿遗迹旁</h4>
+                  <p className="text-gray-700 text-sm">拍摄废墟细节绝佳机位，残破石柱、斑驳墙体、残存窗户都充满历史沧桑感，可近距离拍摄建筑纹理与损毁痕迹，展现中世纪城堡兴衰变迁。最佳时间：上午9:30-10:30</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">城堡庭院中央</h4>
+                  <p className="text-gray-700 text-sm">拍摄城堡布局核心机位，可拍摄庭院整体布局、周边建筑遗迹与塔楼，展现城堡规模与结构，同时可捕捉游客与古堡同框画面。最佳时间：午后15:00-16:00</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">城堡外围山坡</h4>
+                  <p className="text-gray-700 text-sm">拍摄城堡远景绝佳机位，从山坡上远眺可拍摄斯皮什城堡矗立在山丘之巅全貌，古堡与周边乡村、山脉融为一体，画面宁静优美。最佳时间：傍晚17:00-18:00</p>
+                </div>
+              </div>
+              
+              <div className="bg-purple-50 p-6 rounded-lg">
+                <h4 className="text-lg font-semibold text-purple-900 mb-3">拍照小贴士</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• 最佳拍摄时间为清晨（9:30-11:00）和傍晚（17:00-18:00），光线柔和，光影层次丰富，且游客较少</li>
+                  <li>• 建议穿着简约复古风格衣物，如黑色、卡其色、深灰色，避免过于花哨，与古堡沧桑格调、山间自然风光形成呼应</li>
+                  <li>• 拍摄建筑全景与山间风光时可使用广角镜头，展现城堡宏伟与自然景观开阔，拍摄细节时可使用长焦镜头，突出石砌纹理、雕塑、壁画等细节</li>
+                  <li>• 参观废墟区域时需注意安全，禁止攀爬破损建筑，拍摄时切勿触碰文物遗迹</li>
+                  <li>• 部分室内区域禁止拍照或需关闭闪光灯，需遵守现场提示</li>
+                </ul>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="6. 附近景点">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-3">
+                <h4 className="font-semibold text-gray-900">近距离景点</h4>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <div>
+                      <span className="font-medium">莱沃恰老城</span>
+                      <p className="text-sm text-gray-600">距离城堡约8公里，打车15分钟可达。斯皮什地区最古老城镇，2009年与城堡一同列入世界文化遗产名录，保留大量中世纪建筑</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <div>
+                      <span className="font-medium">斯皮什卡波奇塔</span>
+                      <p className="text-sm text-gray-600">距离城堡约5公里，打车10分钟可达。13世纪石砌塔楼，最初作为军事瞭望塔使用，高约30米，门票约3欧元/人</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <div>
+                      <span className="font-medium">莱沃恰圣尼古拉斯教堂</span>
+                      <p className="text-sm text-gray-600">距离城堡约8公里，位于莱沃恰老城中心。14世纪哥特式建筑代表，规模宏大，内部装饰精美，免费开放</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="space-y-3">
+                <h4 className="font-semibold text-gray-900">稍远距离景点</h4>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <div>
+                      <span className="font-medium">喀尔巴阡山脉东部观景带</span>
+                      <p className="text-sm text-gray-600">距离城堡约15公里，自驾25分钟可达。地处喀尔巴阡山脉北麓，植被茂密，设有多条徒步步道，免费开放</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <div>
+                      <span className="font-medium">科希策老城区</span>
+                      <p className="text-sm text-gray-600">距离城堡约60公里，自驾1小时可达。斯洛伐克东部最大城市，老城区保留大量中世纪建筑、教堂与广场，建议安排半天行程</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 住宿推荐">
+            <div className="space-y-6">
+              <div className="bg-yellow-50 p-6 rounded-lg">
+                <h4 className="text-lg font-semibold text-yellow-900 mb-3">住宿位置选择</h4>
+                <div className="space-y-3 text-gray-700 text-sm">
+                  <div className="border-l-4 border-yellow-400 pl-4">
+                    <h5 className="font-medium">莱沃恰老城周边</h5>
+                    <p>距离斯皮什城堡最近，打车15分钟可达，多为复古民居改造住宿，氛围古朴典雅，可深度感受中世纪古城风情</p>
+                  </div>
+                  <div className="border-l-4 border-yellow-400 pl-4">
+                    <h5 className="font-medium">斯皮什小镇</h5>
+                    <p>距离城堡约5公里，打车10分钟可达，以乡村民宿为主，环境安静，可欣赏乡村风光，适合喜欢宁静氛围的游客</p>
+                  </div>
+                  <div className="border-l-4 border-yellow-400 pl-4">
+                    <h5 className="font-medium">科希策市区</h5>
+                    <p>住宿选择更多，性价比高，距离城堡约60公里，自驾1小时可达，适合计划串联城堡与市区游览的游客</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h4 className="text-lg font-semibold text-blue-900 mb-3">住宿类型推荐</h4>
+                <div className="space-y-3 text-gray-700 text-sm">
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">特色民宿</h5>
+                    <p>莱沃恰老城周边有很多小众民宿，多由当地传统民居改造，装修融合中欧古城风格与中世纪元素，25-65欧元/晚</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">乡村民宿</h5>
+                    <p>斯皮什小镇的乡村民宿环境清幽，部分可欣赏山脉风光，设施简洁舒适，20-50欧元/晚，适合家庭或多人出行</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">精品酒店</h5>
+                    <p>莱沃恰老城与科希策市区有少量精品酒店，装修高端精致，部分具有历史底蕴，提供早餐服务，60-110欧元/晚</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h5 className="font-medium">经济型酒店</h5>
+                    <p>科希策市区有多家性价比高的酒店，设施标准化，干净整洁，提供基础住宿服务，18-35欧元/晚</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-green-50 p-6 rounded-lg">
+                <h4 className="text-lg font-semibold text-green-900 mb-3">预订注意事项</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• 斯皮什地区旅游旺季为5-9月，尤其是7-8月，游客较多，住宿紧张，建议提前1个月预订</li>
+                  <li>• 选择可免费取消的房源，以便灵活调整行程</li>
+                  <li>• 自驾出行需确认住宿周边停车场位置与收费标准（2-4欧元/天）</li>
+                  <li>• 莱沃恰老城民宿多位于石板街巷深处，部分无电梯，携带大件行李的游客可选择有行李搬运服务的住宿</li>
+                  <li>• 春秋季（4-5月、9-10月）气候最宜人，游客较少，住宿价格适中，是最佳时节</li>
+                </ul>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="8. 实用贴士">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-red-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-red-900 mb-2">最佳游览时间</h4>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• 4-5月、9-10月：气候宜人，游客较少，住宿价格适中</li>
+                    <li>• 5-9月：旅游旺季，活动丰富但游客较多</li>
+                    <li>• 11-次年2月：旅游淡季，游客稀少，部分区域可能关闭</li>
+                    <li>• 上午10:00-11:30：游客较少，光线柔和，便于拍摄</li>
+                  </ul>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">参观注意事项</h4>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• 城堡内多为石板路面与上坡路段，部分区域较为陡峭，行走时需注意安全</li>
+                    <li>• 参观教堂与文物遗迹时，需保持安静，禁止大声喧哗，穿着需得体</li>
+                    <li>• 部分区域因废墟修复禁止进入，需遵守现场提示</li>
+                    <li>• 周一城堡内室内展厅闭馆，仅开放户外遗迹区域</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-indigo-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-indigo-900 mb-2">特色体验</h4>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• 登上防御塔楼顶端，360度俯瞰整个城堡全景与周边风光</li>
+                    <li>• 探索贵族宫殿遗迹，感受中世纪城堡的兴衰变迁</li>
+                    <li>• 参观城堡教堂，欣赏哥特式建筑与留存的中世纪壁画</li>
+                    <li>• 体验地牢与防御工事，感受城堡的军事功能与历史氛围</li>
+                  </ul>
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-orange-900 mb-2">实用信息</h4>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• 当地货币：欧元，部分地方支持斯洛伐克克朗（1欧元≈21.5斯洛伐克克朗）</li>
+                    <li>• 语言：斯洛伐克语，但旅游区英语基本通行</li>
+                    <li>• 电压：230V，插头为Type F型</li>
+                    <li>• 紧急电话：112（欧洲统一紧急电话）</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

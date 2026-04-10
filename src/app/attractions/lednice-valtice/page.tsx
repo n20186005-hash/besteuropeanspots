@@ -1,0 +1,407 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '莱德尼采–瓦尔季采庄园・Lednice–Valtice・捷克・莱德尼采 | 最佳欧洲景点',
+  description: '探索莱德尼采–瓦尔季采庄园，捷克规模最大的庄园建筑群，联合国教科文组织世界文化遗产，融合巴洛克、新古典主义与新哥特式建筑风格，搭配人工湖泊、古典园林与广袤森林，被誉为"欧洲的花园"。',
+}
+
+export default function LedniceValticePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '莱德尼采–瓦尔季采庄园', href: '/attractions/lednice-valtice' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">莱德尼采–瓦尔季采庄园・Lednice–Valtice・捷克・莱德尼采</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            莱德尼采–瓦尔季采庄园是捷克规模最大的庄园建筑群，始建于13世纪，由莱德尼采城堡、瓦尔季采城堡及周边园林、湖泊、亭台楼阁组成，涵盖多种欧式建筑风格，兼具历史厚重感与自然灵秀之美。作为1996年列入名录的世界文化遗产，它是列支敦士登家族历时数百年打造的园林建筑群，既是研究欧式建筑与园林设计的重要范本，也是休闲观光、摄影赏景的绝佳去处。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+            <p className="text-gray-700 leading-relaxed mb-4">
+              莱德尼采–瓦尔季采庄园是捷克规模最大的庄园建筑群，始建于13世纪，由莱德尼采城堡、瓦尔季采城堡及周边园林、湖泊、亭台楼阁组成，涵盖多种欧式建筑风格，兼具历史厚重感与自然灵秀之美。作为1996年列入名录的世界文化遗产，它是列支敦士登家族历时数百年打造的园林建筑群，既是研究欧式建筑与园林设计的重要范本，也是休闲观光、摄影赏景的绝佳去处。
+            </p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="莱德尼采–瓦尔季采庄园" />
+                <InfoRow label="英文名称" value="Lednice–Valtice Cultural Landscape" />
+                <InfoRow label="捷克语名" value="Lednicko-valtický areál" />
+                <InfoRow label="国家" value="捷克（Czech Republic）" />
+                <InfoRow label="城市" value="莱德尼采（Lednice）" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="所属区域" value="捷克东南部南摩拉维亚地区，靠近奥地利边境" />
+                <InfoRow label="占地面积" value="约283平方公里" />
+                <InfoRow label="历史地位" value="联合国教科文组织世界文化遗产" />
+                <InfoRow label="建筑特色" value="巴洛克、新古典主义与新哥特式建筑风格融合" />
+              </div>
+            </div>
+
+            <div className="mt-6 p-6 bg-blue-50 rounded-lg">
+              <h3 className="font-semibold text-blue-900 mb-4">开放时间与门票</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-medium text-blue-800 mb-2">开放时间</h4>
+                  <p className="text-sm text-gray-700">
+                    庄园整体全天开放，核心建筑（莱德尼采城堡、瓦尔季采城堡）及室内展馆分季节调整开放时间：
+                    <br />• 4-5月、9-10月：9:00-17:00（16:30停止入场）
+                    <br />• 6-8月：8:30-18:00（17:30停止入场）
+                    <br />• 11月-次年3月：10:00-16:00（15:30停止入场）
+                    <br />• 每周一部分室内展厅闭馆，仅开放户外区域
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-medium text-blue-800 mb-2">门票信息</h4>
+                  <p className="text-sm text-gray-700">
+                    庄园户外区域免费开放，核心建筑及室内展馆单独收费：
+                    <br />• 莱德尼采城堡：成人50捷克克朗，学生25捷克克朗
+                    <br />• 瓦尔季采城堡：成人45捷克克朗，学生20捷克克朗
+                    <br />• 附属景点联票：成人60捷克克朗，学生30捷克克朗
+                    <br />• 6岁以下儿童、65岁以上老人免费
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-6 p-6 bg-green-50 rounded-lg">
+              <h3 className="font-semibold text-green-900 mb-4">地址与交通</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-medium text-green-800 mb-2">地址</h4>
+                  <p className="text-sm text-gray-700">
+                    Zámek Lednice, 691 44 Lednice, Czech Republic
+                    <br />（莱德尼采城堡入口）
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-medium text-green-800 mb-2">交通方式</h4>
+                  <p className="text-sm text-gray-700">
+                    • 自驾：从布拉格走D1转D2高速，车程约2.5小时
+                    <br />• 火车：布拉格→布尔诺→莱德尼采，车程约3.5小时
+                    <br />• 巴士：维也纳→莱德尼采，车程约1.5小时
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="text-gray-700 leading-relaxed space-y-4">
+              <p>
+                莱德尼采–瓦尔季采庄园的历史可追溯至13世纪，其发展历程与列支敦士登家族的统治、欧式建筑风格的演变及人工园林的营造紧密相连，是南摩拉维亚地区从中世纪至近代的历史缩影，1996年因其独特的建筑融合与人工景观设计，被联合国教科文组织列入《世界文化遗产名录》，被誉为"摩拉维亚的建筑瑰宝"。
+              </p>
+              
+              <p>
+                13世纪，莱德尼采地区开始出现小规模的贵族宅邸与农田，当时的建筑以哥特式风格为主，规模较小，主要用于贵族居住与农业管理。13世纪末，列支敦士登家族获得该地区的统治权，开始对宅邸进行扩建，奠定了莱德尼采庄园的雏形，此时的建筑以石砌结构为主，保留了哥特式建筑的尖拱门窗、石砌墙体等特色，周边配套简单的园林与农田。
+              </p>
+
+              <p>
+                16世纪至17世纪，列支敦士登家族势力逐渐壮大，开始大规模改造庄园，引入巴洛克建筑风格，将原有哥特式宅邸改造为巴洛克式城堡，增设华丽的雕刻、彩绘与拱形门廊，同时扩建园林，开挖人工湖泊，种植各类花卉与树木，打造出兼具居住与休闲功能的贵族庄园。这一时期，莱德尼采城堡与瓦尔季采城堡相继建成，成为庄园的核心建筑，瓦尔季采城堡还逐渐发展为列支敦士登家族在摩拉维亚地区的行政中心，兼具居住、办公与防御功能。
+              </p>
+
+              <p>
+                18世纪至19世纪，庄园迎来鼎盛时期，列支敦士登家族邀请欧洲知名建筑师，对庄园进行全面扩建与改造，引入新古典主义与新哥特式建筑风格，与原有巴洛克风格融合，形成了独特的建筑风貌。这一时期，庄园内修建了圣休伯特教堂、三美神神庙、会面亭、柱廊等众多附属建筑，园林也按照英式浪漫主义风格进行改造，增设步道、喷泉与雕塑，人工湖泊与周边森林、农田相互映衬，形成了广袤的人工景观，成为当时欧洲贵族社交与休闲的重要场所。
+              </p>
+
+              <p>
+                19世纪末至20世纪初，列支敦士登家族逐渐衰落，庄园的修缮与维护力度减弱，但整体建筑格局与景观风貌得以完整保留。20世纪中期，捷克政府接管庄园，开始加大保护与修缮力度，对受损的建筑、园林与附属设施进行系统性修复，严格保留原有建筑风格与景观布局，禁止过度商业化开发，让庄园始终保持着古朴典雅的氛围。
+              </p>
+
+              <p>
+                1996年，莱德尼采–瓦尔季采庄园因其独特的建筑融合（巴洛克、新古典主义、新哥特式）、大规模的人工园林设计，以及数百年的历史传承，被联合国教科文组织列入《世界文化遗产名录》，成为全球关注的欧式庄园典范。如今，庄园不仅是捷克重要的历史文化地标，也是欧洲知名的旅游目的地，每年吸引大量游客前来感受贵族庄园的魅力、欣赏欧式建筑与园林之美、体验当地的民俗文化。
+              </p>
+
+              <p>
+                庄园的每一座城堡、每一处亭台、每一片园林，都承载着列支敦士登家族的兴衰与欧洲建筑文化的传承，漫步其中，既能感受到贵族生活的奢华，也能领略到人工景观与自然风光的完美融合，仿佛穿越时空，置身于中世纪的欧洲贵族庄园之中。
+              </p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="text-gray-700 leading-relaxed space-y-4">
+              <p>
+                莱德尼采–瓦尔季采庄园的游览核心围绕两座城堡、古典园林、人工湖泊与附属建筑展开，路线设计以"城堡探秘+园林赏景+人文体验"为主题，难度适中，全程以步行与景区观光车结合为主，适合各类游客，建议安排4-5小时，既能深度欣赏庄园的建筑之美、感受历史底蕴，也能漫步园林、亲近自然，以下为经典游览路线，可根据自身时间灵活调整，避开周一部分室内展馆闭馆时段。
+              </p>
+
+              <div className="bg-yellow-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-yellow-900 mb-4">经典游览路线</h4>
+                <ol className="list-decimal list-inside space-y-2 text-sm">
+                  <li><strong>起点：莱德尼采游客咨询点</strong> - 可领取导览手册、寄存行李，咨询游览路线与民俗体验项目信息</li>
+                  <li><strong>第一站：莱德尼采城堡</strong> - 庄园核心建筑之一，参观城堡内部的展厅、宴会厅、卧室，欣赏巴洛克与新古典主义融合的建筑细节，了解列支敦士登家族的历史，可登上城堡塔楼俯瞰庄园全景，参观时间约1小时</li>
+                  <li><strong>第二站：莱德尼采城堡花园</strong> - 位于城堡南侧，是典型的欧式古典园林，漫步园林步道，欣赏喷泉、雕塑与各类花卉，感受园林的雅致与静谧，游览时间约40分钟</li>
+                  <li><strong>第三站：人工湖畔步道</strong> - 从城堡花园出发，沿湖畔漫步，欣赏湖面风光与周边的亭台楼阁，可投喂水鸟、拍照打卡，游览时间约30分钟</li>
+                  <li><strong>第四站：景区观光车换乘点</strong> - 乘坐观光车前往瓦尔季采城堡，车程约15分钟，途中欣赏庄园的田园与森林风光</li>
+                  <li><strong>第五站：瓦尔季采城堡</strong> - 庄园另一核心建筑，参观城堡内部的文物展览、贵族服饰与生活器具，欣赏新哥特式建筑特色，参观时间约1小时</li>
+                  <li><strong>第六站：圣休伯特教堂</strong> - 位于瓦尔季采城堡西侧，是新哥特式风格的代表建筑，内部保留着精美的壁画与雕塑，氛围庄严静谧，参观时间约25分钟</li>
+                  <li><strong>第七站：三美神神庙</strong> - 位于园林深处，新古典主义风格，设有 allegorical 雕塑，可欣赏建筑与园林的完美融合，游览时间约20分钟</li>
+                  <li><strong>第八站：民俗体验点</strong> - 位于瓦尔季采城堡周边，可体验当地传统手工艺、品尝贵族式甜点与自酿果酒，感受当地民俗文化，停留时间约30分钟</li>
+                  <li><strong>终点：庄园出口周边民俗商店</strong> - 购买当地手工艺品、特色美食，结束游览</li>
+                </ol>
+              </div>
+
+              <div className="bg-red-50 p-4 rounded-lg">
+                <h4 className="font-semibold text-red-900 mb-2">温馨提示</h4>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• 庄园内步道多为石板路与土路，部分路段坡度平缓，行走时需注意安全，老人与小孩建议有人陪同</li>
+                  <li>• 参观城堡、教堂与展馆时，需保持安静，禁止大声喧哗，尊重当地的宗教习俗与文化传统</li>
+                  <li>• 周一部分室内展馆闭馆，仅开放户外区域，前往前需提前确认</li>
+                  <li>• 旺季（6-8月）游客较多，建议错峰前往，避免拥挤</li>
+                  <li>• 湖畔步道部分路段靠近水面，需注意安全，看管好孩子</li>
+                  <li>• 庄园内部分区域无遮阳设施，夏季前往需做好防晒，携带饮用水</li>
+                </ul>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="text-gray-700 leading-relaxed space-y-6">
+              <p>
+                莱德尼采–瓦尔季采庄园以其华丽的欧式城堡、精致的古典园林、静谧的人工湖泊，成为拍照出片的绝佳之地，既有贵族庄园的奢华感，又有自然景观的灵秀之美，涵盖全景、建筑细节、园林与湖景等多种风格，无论是手机还是相机，都能拍出高质量照片，以下推荐几个经典拍照机位，帮助你捕捉庄园的独特魅力。
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">1. 莱德尼采城堡塔楼</h4>
+                  <p className="text-sm">
+                    这是拍摄庄园全景的核心机位，登上塔楼可俯瞰整个莱德尼采城堡、周边园林与人工湖泊，远处的森林与田园风光尽收眼底，能清晰展现庄园的宏伟布局与建筑风貌；最佳拍摄时间为上午10:00-11:00，光线柔和，可清晰展现建筑的雕刻与色彩细节，避开人流高峰。
+                  </p>
+                </div>
+
+                <div className="bg-pink-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-pink-900 mb-2">2. 莱德尼采城堡花园喷泉旁</h4>
+                  <p className="text-sm">
+                    这是拍摄建筑与园林结合的绝佳机位，以喷泉为前景，拍摄莱德尼采城堡的正面全景，巴洛克风格的城堡与精致的喷泉、绿植相互映衬，凸显贵族庄园的奢华感；最佳拍摄时间为上午9:30-10:00，光线柔和，光影效果极佳，适合拍摄氛围感照片。
+                  </p>
+                </div>
+
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">3. 人工湖畔中段</h4>
+                  <p className="text-sm">
+                    这是拍摄湖景与建筑倒影的绝佳机位，从湖畔步道远眺，可拍摄莱德尼采城堡与湖面的完美倒影，微风拂过湖面，波光粼粼，画面极具灵动性；最佳拍摄时间为傍晚17:00-18:00，夕阳洒在城堡与湖面上，镀上一层温暖的金色，氛围感拉满，可拍摄日落时分的倒影与剪影。
+                  </p>
+                </div>
+
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">4. 瓦尔季采城堡正门</h4>
+                  <p className="text-sm">
+                    这是拍摄新哥特式建筑细节的绝佳机位，近距离拍摄城堡的尖拱门窗、精美雕刻与高耸的塔楼，展现新哥特式建筑的庄严与华丽，也可拍摄人物与城堡的同框画面，凸显建筑的宏伟；最佳拍摄时间为午后14:00-15:00，光线充足，可清晰展现建筑的轮廓与细节，适合拍摄复古风照片。
+                  </p>
+                </div>
+
+                <div className="bg-orange-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-orange-900 mb-2">5. 三美神神庙前</h4>
+                  <p className="text-sm">
+                    这是拍摄新古典主义建筑与园林融合的绝佳机位，神庙的半圆形廊柱与周边的绿植、步道相互映衬，画面简洁雅致，可拍摄神庙全景与细节，也可拍摄人物漫步其中的画面，凸显静谧与浪漫；最佳拍摄时间为上午11:00-12:00，光线柔和，可避开强光直射，让画面更具质感。
+                  </p>
+                </div>
+
+                <div className="bg-indigo-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-indigo-900 mb-2">6. 庄园森林步道</h4>
+                  <p className="text-sm">
+                    这是拍摄小众氛围感照片的绝佳机位，茂密的森林与蜿蜒的步道相互映衬，阳光透过树叶缝隙洒下，光影斑驳，可拍摄人物漫步步道的画面，凸显庄园的静谧与自然之美；最佳拍摄时间为上午10:30-11:30，光线柔和，游客较少，便于拍摄。
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-gray-100 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-900 mb-2">拍照小贴士</h4>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• 最佳拍摄时间为清晨（9:00-11:00）和傍晚（17:00-18:00），光线柔和，光影层次丰富，且游客较少，便于拍摄</li>
+                  <li>• 建议穿着简约优雅风格的衣物，如白色、米白色、浅灰色，避免过于花哨，与贵族庄园的氛围形成呼应，更出片</li>
+                  <li>• 拍摄庄园全景与湖景时可使用广角镜头，展现庄园的宏伟与湖景的开阔，拍摄建筑细节时可使用长焦镜头，突出建筑的雕刻、彩绘与轮廓细节</li>
+                  <li>• 参观城堡、教堂内部时，部分区域禁止拍照或需关闭闪光灯，需遵守现场提示</li>
+                  <li>• 拍摄当地工作人员或居民时，需提前征得对方同意，尊重当地的风俗习惯</li>
+                </ul>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="6. 附近景点">
+            <div className="text-gray-700 leading-relaxed space-y-4">
+              <p>
+                莱德尼采–瓦尔季采庄园地处南摩拉维亚地区腹地，周边景点以历史遗迹、自然景观与民俗村落为主，游览完庄园后，可根据自身时间安排前往周边景点，既能丰富行程，也能更全面地感受南摩拉维亚地区的自然与人文魅力，以下推荐几个距离较近、值得一去的景点，均可通过步行、打车或自驾抵达，出行需提前规划。
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">1. 帕拉瓦生物圈保护区</h4>
+                  <p className="text-sm">
+                    距离庄园约10公里，自驾15分钟可达，是联合国教科文组织认定的生物圈保护区，涵盖森林、草原、湖泊等多种自然景观，可漫步步道、观赏珍稀动植物，感受自然之美，免费开放，建议游览时长1.5小时，适合喜欢自然景观、想放松休憩的游客。
+                  </p>
+                </div>
+
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">2. 布尔诺老城</h4>
+                  <p className="text-sm">
+                    距离庄园约40公里，自驾40分钟可达，是南摩拉维亚地区的首府，老城保留着大量中世纪与巴洛克风格建筑，核心景点有布尔诺广场、圣彼得和保罗大教堂、布尔诺城堡等，可游览历史建筑、逛特色商铺、品尝当地特色美食，建议安排半天行程，适合想丰富行程、串联庄园与城市游览的游客。
+                  </p>
+                </div>
+
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">3. 莱德尼采民俗村落</h4>
+                  <p className="text-sm">
+                    距离庄园约2公里，步行30分钟可达，是一座保存完好的摩拉维亚民俗村落，建筑风格古朴，可参观传统民居、体验民俗手工艺、品尝乡村美食，了解当地的民俗文化与生活方式，免费开放，建议游览时长1小时，适合喜欢乡村民俗、想深度感受当地生活的游客。
+                  </p>
+                </div>
+
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">4. 拉伊托米什尔城堡</h4>
+                  <p className="text-sm">
+                    距离庄园约50公里，自驾50分钟可达，是一座典型的巴洛克式城堡，内部保留着精美的壁画、雕塑与贵族生活器具，周边园林雅致，门票约40捷克克朗/人，建议游览时长1小时，适合喜欢欧式城堡、想深度了解巴洛克建筑风格的游客。
+                  </p>
+                </div>
+
+                <div className="bg-pink-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-pink-900 mb-2">5. 摩拉维亚葡萄酒产区</h4>
+                  <p className="text-sm">
+                    距离庄园约15公里，自驾20分钟可达，是捷克著名的葡萄酒产区，可参观酒庄、体验葡萄酒酿造过程、品尝当地特色葡萄酒，部分酒庄提供免费品鉴，建议游览时长1.5小时，适合喜欢葡萄酒、想体验田园风情的游客。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 住宿小贴士">
+            <div className="text-gray-700 leading-relaxed space-y-4">
+              <p>
+                莱德尼采–瓦尔季采庄园周边的住宿选择主要分布在庄园核心区域、莱德尼采镇、瓦尔季采镇及周边乡村，涵盖特色民俗民宿、经济型酒店、精品酒店等，整体价格适中，可根据自身预算和出行需求选择，既能方便前往庄园游览，也能感受当地的田园氛围与贵族风情，以下为详细的住宿小贴士，帮助你更好地安排住宿，提升旅行体验，贴合旅游指南的实用属性，无刻意推销感。
+              </p>
+
+              <div className="bg-gray-100 p-6 rounded-lg">
+                <h4 className="font-semibold text-gray-900 mb-4">住宿位置选择</h4>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h5 className="font-medium text-gray-800 mb-2">核心区域（推荐）</h5>
+                    <p className="text-sm">
+                      优先选择庄园核心区域周边500米范围内的住宿，距离莱德尼采城堡、游客咨询点最近，可步行抵达庄园核心景点，周边多为传统建筑改造的民宿与精品酒店，氛围古朴典雅，可深度感受贵族庄园的风情，同时方便前往周边的餐厅、民俗商店与湖畔步道。
+                    </p>
+                  </div>
+                  <div>
+                    <h5 className="font-medium text-gray-800 mb-2">周边城镇</h5>
+                    <p className="text-sm">
+                      莱德尼采镇、瓦尔季采镇的住宿距离庄园核心区域约1-2公里，以经济型酒店与民俗民宿为主，环境安静，性价比高，适合预算有限或喜欢宁静氛围的游客；周边乡村的住宿距离庄园约3-5公里，以田园民宿为主，自驾可达，可欣赏大片田园与森林风光，适合喜欢田园生活、想远离喧嚣的游客。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-blue-900 mb-4">住宿类型推荐</h4>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h5 className="font-medium text-blue-800 mb-2">特色民俗民宿</h5>
+                    <p className="text-sm">
+                      庄园周边有很多小众民宿，多由当地传统民居改造，装修融合了欧式建筑元素与现代舒适设施，保留了石砌墙体、拱形门窗等特色，房东多为当地人，可提供地道的出行建议、民俗体验指引与当地美食推荐，价格约45-85欧元/晚。
+                    </p>
+                  </div>
+                  <div>
+                    <h5 className="font-medium text-blue-800 mb-2">田园民宿</h5>
+                    <p className="text-sm">
+                      环境清幽，部分民宿自带小型花园、葡萄园，可体验采摘、酿酒等乡村活动，价格约40-80欧元/晚，适合家庭或多人出行、喜欢田园生活的游客。
+                    </p>
+                  </div>
+                  <div>
+                    <h5 className="font-medium text-blue-800 mb-2">经济型酒店</h5>
+                    <p className="text-sm">
+                      莱德尼采镇、瓦尔季采镇有多家性价比高的酒店，设施标准化，干净整洁，提供基础住宿服务，价格约25-55欧元/晚，适合预算有限的游客。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-green-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-green-900 mb-4">预订注意事项</h4>
+                <ul className="text-sm text-gray-700 space-y-2">
+                  <li>• 庄园地区旅游旺季为5-9月，尤其是7-8月与9月中旬葡萄酒丰收节期间，游客较多，住宿紧张，建议提前1个月预订，避免无房或价格上涨</li>
+                  <li>• 预订时注意查看住宿的取消政策，尽量选择可免费取消的房源，以便灵活调整行程</li>
+                  <li>• 若自驾出行，需提前确认住宿周边的停车场位置与收费标准，庄园核心区域禁止机动车通行，外围停车场收费约60-80捷克克朗/天，乡村民宿多提供免费停车位</li>
+                  <li>• 庄园周边的民宿多位于石板街巷或田园深处，部分无电梯，携带大件行李的游客可选择有行李搬运服务的住宿，或提前联系房东协助</li>
+                  <li>• 部分民俗民宿为自助入住，预订后会收到入住指南和密码，需提前查看，避免抵达后无法入住</li>
+                </ul>
+              </div>
+
+              <div className="bg-yellow-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-yellow-900 mb-4">其他注意事项</h4>
+                <ul className="text-sm text-gray-700 space-y-2">
+                  <li>• 住宿内部通常提供基本的洗漱用品，但部分小众民俗民宿不提供一次性牙刷和牙膏，建议提前自备</li>
+                  <li>• 南摩拉维亚地区夏季气温适宜，夜间凉爽，需携带薄外套，春秋季气温较低，需携带厚外套，冬季气温寒冷，多降雪，部分乡村民宿可能临时关闭</li>
+                  <li>• 莱德尼采镇、瓦尔季采镇夜间氛围宁静，照明较好，但晚归时注意安全，尽量结伴而行</li>
+                  <li>• 住宿周边有很多当地特色餐厅，可品尝摩拉维亚传统美食，如烤猪肉、奶酪饺子、炖蔬菜、自酿葡萄酒等，部分餐厅可提供外送服务</li>
+                  <li>• 大部分住宿提供免费WiFi，但乡村民宿的WiFi信号可能不稳定，预订时可确认WiFi情况</li>
+                  <li>• 当地电压为230V，插头为Type F型，若需要，可提前准备转换插头</li>
+                  <li>• 春秋季（4-5月、9-10月）气候最宜人，游客较少，住宿价格适中，是前往的最佳时节，既能避开旺季人流，又能感受庄园与田园的静谧之美，9月中旬前往还可参与葡萄酒丰收节，体验当地特色盛会</li>
+                </ul>
+              </div>
+
+              <div className="bg-gray-100 p-4 rounded-lg">
+                <p className="text-sm text-gray-700">
+                  此外，庄园核心区域的住宿整体价格高于莱德尼采镇、瓦尔季采镇及周边乡村，提前预订可获得更优惠的价格；部分民宿房东为当地人，可主动向房东咨询当地小众景点、民俗体验项目和特色美食推荐，获取更地道的游览体验；冬季（11-次年2月）为旅游淡季，部分小众民宿会临时关闭，前往前需提前确认住宿开放情况，同时注意保暖与防滑。
+                </p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="8. 实用信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-red-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-red-900 mb-2">紧急联系</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• 欧洲统一紧急电话：112</li>
+                    <li>• 当地警察：158</li>
+                    <li>• 医疗急救：155</li>
+                    <li>• 消防：150</li>
+                    <li>• 旅游咨询：+420 519 340 986</li>
+                  </ul>
+                </div>
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">货币与支付</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• 当地货币：捷克克朗（CZK）</li>
+                    <li>• 汇率参考：1欧元≈24捷克克朗</li>
+                    <li>• 支付方式：现金、信用卡、部分支持移动支付</li>
+                    <li>• ATM机：庄园入口及周边城镇均有</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">语言与沟通</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• 官方语言：捷克语</li>
+                    <li>• 旅游区英语：基本通行</li>
+                    <li>• 常用短语：Dobrý den（你好）、Děkuji（谢谢）</li>
+                    <li>• 导览服务：提供多语言导览（含中文）</li>
+                  </ul>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">其他实用信息</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• 电压：230V，插头为Type F型</li>
+                    <li>• 时区：中欧时间（CET），UTC+1</li>
+                    <li>• 饮用水：自来水可直接饮用</li>
+                    <li>• 网络：大部分区域有免费WiFi</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
