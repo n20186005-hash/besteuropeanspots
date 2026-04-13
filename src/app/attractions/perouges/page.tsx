@@ -45,7 +45,7 @@ export default function PerougesPage() {
               </div>
               <div className="space-y-4">
                 <InfoRow label="历史地位" value="法国保存最完整的中世纪古城之一" />
-                <InfoRow label="核心特色" value="被誉为\"中世纪的活化石\"" />
+                <InfoRow label="核心特色" value='被誉为"中世纪的活化石"' />
                 <InfoRow label="文化价值" value="以鹅卵石街巷、石砌民居闻名" />
                 <InfoRow label="建筑价值" value="完整的中世纪石砌建筑群" />
               </div>

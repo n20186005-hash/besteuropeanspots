@@ -45,7 +45,7 @@ export default function LesBauxDeProvencePage() {
               </div>
               <div className="space-y-4">
                 <InfoRow label="历史地位" value="普罗旺斯地区最具代表性的中世纪山城" />
-                <InfoRow label="核心特色" value="石灰岩山丘上的"石头城"" />
+                <InfoRow label="核心特色" value='石灰岩山丘上的"石头城"' />
                 <InfoRow label="文化价值" value="以嶙峋怪石、中世纪城堡废墟闻名" />
                 <InfoRow label="建筑价值" value="完整的中世纪石质建筑群" />
               </div>
