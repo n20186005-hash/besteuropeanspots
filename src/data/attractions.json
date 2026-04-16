@@ -3398,5 +3398,39 @@
     "tips": "",
     "region": "瑞士",
     "type": "要塞"
+  },
+  {
+    "name": "布德瓦老城",
+    "englishName": "Budva Old Town",
+    "country": "黑山",
+    "city": "布德瓦",
+    "slug": "budva-old-town",
+    "description": "景点简介\n布德瓦老城说大不大说小不小，慢悠悠逛一圈两小时差不多。2500多年历史的古城三面环海一面靠山，被威尼斯人修的城墙围得严严实实。石子路被踩得又光又滑，橙色屋顶层层叠叠堆上去，说实话，站在城墙上往下一看真的有点晕。早上人少的时候，阳光打在石板路上暖洋洋的，墙缝里冒出来的三角梅开得不管不顾，拍出来的照片完全不用修。",
+    "openingHours": "",
+    "ticketPrice": "",
+    "address": "",
+    "transport": "",
+    "bestSeason": "",
+    "suggestedDuration": "",
+    "tips": "",
+    "region": "黑山",
+    "type": "古城"
+  },
+  {
+    "name": "莱茵施泰因城堡",
+    "englishName": "Rheinstein Castle",
+    "country": "德国",
+    "city": "莱茵兰",
+    "slug": "rheinstein-castle",
+    "description": "莱茵施泰因城堡位于德国莱茵兰-普法尔茨州特雷希廷斯豪森，坐落在莱茵河畔90米高的陡峭岩壁上，是莱茵河谷浪漫主义城堡重建的代表作。城堡建于14世纪初，19世纪由普鲁士王子弗里德里希重建，如今是博物馆兼小型酒店，拥有500年历史的勃艮第葡萄藤和绝美河景。",
+    "openingHours": "",
+    "ticketPrice": "",
+    "address": "",
+    "transport": "",
+    "bestSeason": "",
+    "suggestedDuration": "",
+    "tips": "",
+    "region": "德国",
+    "type": "要塞"
   }
 ]

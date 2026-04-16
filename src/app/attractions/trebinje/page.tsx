@@ -111,8 +111,8 @@ export default function TrebinjePage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="Stari Grad, 89101 Trebinje, Bosnia and Herzegovina" />
+                <InfoRow icon="🚌" label="交通" value="从杜布罗夫尼克汽车总站乘跨境大巴约 1 至 1.5 小时到 Trebinje 汽车站，出站步行约 10 分钟到老城；从莫斯塔尔乘大巴约 3 小时。自驾走 M6 经 Ivanica 边检入境最方便，旺季过关排队要预留时间，老城外围河边停车后步行进入最省心。" />
               </div>
             </div>
           </div>

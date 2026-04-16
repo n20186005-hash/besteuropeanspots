@@ -100,8 +100,8 @@ export default function StavangerPage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="Gamle Stavanger, Ovre Strandgate, 4005 Stavanger, Norway" />
+                <InfoRow icon="🚌" label="交通" value="从斯塔万格机场 Sola 乘 Flybussen 机场大巴约 20 至 30 分钟到市中心，或乘 9 路公交约 30 至 35 分钟；从火车站、港口步行到老城约 10 至 15 分钟。自驾可沿 E39 进城，建议停在港口或市中心停车场后步行进入白房子区域。" />
               </div>
             </div>
           </div>

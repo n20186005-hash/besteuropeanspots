@@ -64,8 +64,8 @@ export default function MiskolcPage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="Szechenyi Istvan ut, 3525 Miskolc, Hungary" />
+                <InfoRow icon="🚌" label="交通" value="从布达佩斯 Keleti 站乘 InterCity 约 2 至 2.5 小时到 Miskolc Tiszai 站，出站可转乘 1 路电车约 10 分钟到市中心主街；自驾沿 M3 高速转 M30 进入市区，老城周边的 Szinva Terrace 和 Varoshaz ter 一带都有停车位，步行即可串联主街与教堂区。" />
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '北欧小众旅行｜林雪平老城实用攻略，新手也能轻松逛 - 最佳欧洲景点',
-  description: 'Gamla Linköping・Sweden・Linköping...',
+  description: '林雪平老城是瑞典最适合轻松慢逛的露天老城之一，红木屋、石板路和手工作坊集中在紧凑街区里，很适合安排半日悠闲散步。',
 }
 
 export default function LinkpingPage() {
@@ -32,7 +32,6 @@ export default function LinkpingPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="md:col-span-2 space-y-8">
             <Section title="景点简介">
-              <p className="text-gray-700 leading-relaxed mb-4">Gamla Linköping・Sweden・Linköping</p>
               <p className="text-gray-700 leading-relaxed mb-4">我跟你们讲实话，去林雪平老城那天，我本来是没打算去的。</p>
               <p className="text-gray-700 leading-relaxed mb-4">机票酒店全订在斯德哥尔摩，行程表打印出来三张纸，精确到小时的那种。结果呢，到斯德哥尔摩第二天就开始下雨，连着下，下得人什么都不想干。窝在酒店翻手机，翻着翻着看到一张照片——红墙木屋、石板路反着水光、天是那种洗过似的淡蓝色。Gamla Linköping。嚯，就冲这张照片，我把去乌普萨拉的计划扔了，跳上往南的火车。</p>
               <p className="text-gray-700 leading-relaxed mb-4">两个钟头不到，出站的时候雨停了。嗯，这事开头就挺顺。</p>
@@ -91,8 +90,8 @@ export default function LinkpingPage() {
                 <InfoRow icon="🎫" label="门票" value="门票这个事简单，进老城不要钱，瞎逛不要钱，坐路边椅子上晒太阳也不要钱。
 想进老房子内部需要买票，通票约120瑞典克朗，学生凭有效学生证可享受优惠，儿童免费。价格每年可能有小幅浮动——北欧整体消费水平较高，但景区票价通常不会太离谱。
 地址：谷歌地图直接搜“Gamla Linköping”，定位准确。" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="从林雪平市中心可乘公交12路，到同名站点下车即是入口。若从斯德哥尔摩出发，乘坐SJ火车约两小时出头，班次较多。抵达林雪平火车站后，建议乘坐公交（可刷卡，现金基本用不上），不建议打车，北欧出租车费用较高。" />
+                <InfoRow icon="📍" label="地址" value="Gamla Linkoping, Tunnbindaregatan 8, 582 46 Linkoping, Sweden" />
+                <InfoRow icon="🚌" label="交通" value="从斯德哥尔摩中央车站乘 SJ 火车约 1 小时 40 分至 2 小时到 Linkoping C；出站可乘市内公交 1 路或 2 路前往 Gamla Linkoping，约 10 至 15 分钟，步行约 30 分钟。自驾走 E4 高速进入 Linkoping，景区周边有停车位。" />
               </div>
             </div>
           </div>

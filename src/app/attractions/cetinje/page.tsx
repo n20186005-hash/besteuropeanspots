@@ -33,7 +33,6 @@ export default function CetinjePage() {
           <div className="md:col-span-2 space-y-8">
             <Section title="景点简介">
               <p className="text-gray-700 leading-relaxed mb-4">从科托尔沿着著名的蛇形公路上山，说实话我没想到去采蒂涅的这段路会这么绕，二十五道发卡弯一个接一个，耳膜随着海拔升高微微发胀。沿途能从高处俯瞰科托尔湾的全貌，橘红色的屋顶像积木一样层层叠叠地码在山脚下，说实话这风景绝对值回票价，不过如果容易晕车真心建议提前吃颗药，别像我一样空腹上路。差不多一个小时之后，车子驶入一片灰绿色的高原盆地，采蒂涅就这么安静地出现在眼前，跟海岸边那些挤满游人的城镇完全是两个世界，空气里弥漫着山间特有的松香和湿润泥土味，街面上行人稀稀拉拉的，偶尔有鸽子扑棱着翅膀从头顶飞过。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">景点简介</p>
               <p className="text-gray-700 leading-relaxed mb-4">采蒂涅是黑山的旧都，这座藏在洛夫琴山脚下的小城在1878年到1914年间一直是国家的政治与文化心脏，今天仍保留着黑山总统的官邸。整座小城的气质很特别，街道两旁是色调素雅的欧式老建筑，淡黄、灰白、浅蓝的墙面被岁月磨得有些斑驳，不少前外国使馆散落在其中，加上四处飘散的新鲜烘焙咖啡豆的香气，让这里既有几分没落旧王朝的矜持，又有寻常居民区的烟火气。核心街道Njegoševa是一条宽阔的步行街，基本上所有的景点都分布在这条街或附近，非常适合慢悠悠地闲逛，脚底踩在光滑的石板路上能感觉到夏日的余温。</p>
             </Section>
             <Section title="基本信息">
@@ -85,8 +84,8 @@ export default function CetinjePage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="Njegoseva, 81250 Cetinje, Montenegro" />
+                <InfoRow icon="🚌" label="交通" value="从波德戈里察汽车站乘大巴约 45 至 60 分钟直达采蒂涅；从科托尔或布德瓦过来通常约 1 小时。自驾可走 E65 或 E80 以及 Kotor serpentine 公路上山，市中心多为路边停车位，步行即可串联修道院、博物馆与旧使馆区。" />
               </div>
             </div>
           </div>

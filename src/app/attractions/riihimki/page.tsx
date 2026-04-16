@@ -91,8 +91,8 @@ export default function RiihimkiPage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="Asema-aukio, 11130 Riihimaki, Finland" />
+                <InfoRow icon="🚌" label="交通" value="从赫尔辛基中央车站乘 R、T 或 D 线列车约 45 至 55 分钟到 Riihimaki；从机场可先乘 P 线到 Tikkurila 再换乘北上列车。里希拉赫蒂市区不大，从火车站步行可到核心街区；自驾可沿 E12 高速或 54 号公路进入，市区停车整体比较方便。" />
               </div>
             </div>
           </div>

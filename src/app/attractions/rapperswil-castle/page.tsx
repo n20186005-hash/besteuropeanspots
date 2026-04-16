@@ -112,8 +112,8 @@ export default function RapperswilCastlePage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="Schloss Rapperswil, Lindenhugel, 8640 Rapperswil-Jona, Switzerland" />
+                <InfoRow icon="🚌" label="交通" value="从苏黎世中央车站乘 S5、S7 或 S15 约 35 至 40 分钟到 Rapperswil 站，出站步行约 8 分钟上城堡；从圣加仑乘 Voralpen-Express 约 50 分钟可达。自驾可走 A3 高速在 Rapperswil-Jona 下，停在 Bahnhof 或 Altstadt 周边停车场后步行进入老城。" />
               </div>
             </div>
           </div>

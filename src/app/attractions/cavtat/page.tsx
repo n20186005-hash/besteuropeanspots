@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '亚得里亚海小众旅行｜克罗地亚察夫塔特，绝美海滨小镇 - 最佳欧洲景点',
-  description: '景点简介...',
+  description: '察夫塔特是杜布罗夫尼克以南最适合慢游的海滨小镇，白墙红瓦、棕榈海湾和安静步道把亚得里亚海的松弛感拉得很满。',
 }
 
 export default function CavtatPage() {
@@ -32,7 +32,6 @@ export default function CavtatPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="md:col-span-2 space-y-8">
             <Section title="景点简介">
-              <p className="text-gray-700 leading-relaxed mb-4">景点简介</p>
               <p className="text-gray-700 leading-relaxed mb-4">从杜布罗夫尼克坐公交半小时就能到的察夫塔特，简直是亚得里亚海边被遗忘的宝藏。小镇依山面海，白色石灰岩老房子配着橘红色陶土屋顶，港口里停满了小帆船，海面静得发绿。</p>
               <p className="text-gray-700 leading-relaxed mb-4">说实话，这里游客真不多，和杜城那种人山人海完全是两个世界。</p>
               <p className="text-gray-700 leading-relaxed mb-4">沿着海岸边棕榈树掩映的林荫大道慢慢走，三三两两的当地老人在长椅上晒太阳聊天，空气里飘着烤肉香和松树清味，街角咖啡店的咖啡香让人忍不住想坐下来喝一杯。</p>
@@ -135,8 +134,8 @@ export default function CavtatPage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="Cavtat Old Town, 20210 Cavtat, Croatia" />
+                <InfoRow icon="🚌" label="交通" value="从杜布罗夫尼克汽车总站乘 10 路公交约 35 至 40 分钟到 Cavtat 终点站，步行 3 分钟入老城；杜布罗夫尼克机场距小镇约 5 公里，打车约 10 分钟。夏季也可从杜布罗夫尼克旧港坐船直达，航程约 40 至 45 分钟。" />
               </div>
             </div>
           </div>

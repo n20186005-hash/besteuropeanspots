@@ -80,8 +80,8 @@ export default function IoanninaPage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="Castle of Ioannina, Ioannina 452 21, Greece" />
+                <InfoRow icon="🚌" label="交通" value="从雅典乘 KTEL 大巴约 5.5 至 6 小时到约阿尼纳；从塞萨洛尼基约 3.5 小时。约阿尼纳机场距老城约 5 公里，打车约 10 至 15 分钟，市区公交可到湖滨和城堡周边。自驾走 Egnatia Odos 或 E90 进城，建议停在湖滨大道或城堡外停车区后步行入内。" />
               </div>
             </div>
           </div>

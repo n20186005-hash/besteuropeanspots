@@ -33,7 +33,6 @@ export default function KoicePage() {
           <div className="md:col-span-2 space-y-8">
             <Section title="景点简介">
               <p className="text-gray-700 leading-relaxed mb-4">科希策（Košice）是斯洛伐克东部最大的城市，靠近匈牙利边境，距离乌克兰也只有100多公里。作为斯洛伐克第二大城市，2013年与法国马赛共同当选欧洲文化之都。城市坐落在霍尔纳德河畔，老城保存完好，拥有斯洛伐克最大的历史中心，以圣伊丽莎白大教堂为核心的哥特式建筑群是其最大亮点。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">景点简介</p>
               <p className="text-gray-700 leading-relaxed mb-4">科希策老城以主广场（Hlavné námestie）为核心，主街（Hlavná ulica）全长约1.2公里，几乎全程步行街。老城聚集了圣伊丽莎白大教堂（斯洛伐克最大教堂）、圣迈克尔教堂、圣乌尔班钟楼、歌唱喷泉、国家剧院等历史建筑，风格涵盖哥特式、文艺复兴、巴洛克和新艺术运动。亲测逛一圈老城花不了一天，但走快了真的会错过很多细节，每条巷子拐进去都有惊喜。</p>
             </Section>
             <Section title="基本信息">
@@ -86,8 +85,8 @@ export default function KoicePage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="Hlavna, 040 01 Kosice, Slovakia" />
+                <InfoRow icon="🚌" label="交通" value="从布拉迪斯拉发乘直达火车约 4.5 至 5.5 小时到 Kosice 站，出站步行约 15 分钟可入老城，也可乘电车到 Hlavna 周边；Kosice 机场距市中心约 6 公里，打车约 10 至 15 分钟，公交 23 路可到火车站。自驾走 D1 或 E50 进城，建议停在 Aupark 或 Mlynska basta 一带后步行。" />
               </div>
             </div>
           </div>

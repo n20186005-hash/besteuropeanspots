@@ -33,7 +33,6 @@ export default function BrnoPage() {
           <div className="md:col-span-2 space-y-8">
             <Section title="景点简介">
               <p className="text-gray-700 leading-relaxed mb-4">布尔诺是捷克第二大城市，也是摩拉维亚地区的首府。比起布拉格的拥挤游客潮，这里安静太多了，石板街道上更多是当地人在慢悠悠地过日子。老城区里哥特式教堂、巴洛克宫殿和现代主义建筑挤在一起，完全不违和，随便逛逛都能感受到中欧城市特有的那种沉稳气质。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">景点简介</p>
               <p className="text-gray-700 leading-relaxed mb-4">布尔诺老城是这座城市最迷人的心脏地带，保留了从中世纪延续至今的城市肌理。石板路、拱廊、教堂钟声、咖啡馆飘出的咖啡香，构成了布尔诺旅游最核心的体验。说实话，这里没有那种让人一眼就“哇”出来的震撼景观，但逛着逛着你会发现，每条巷子都有自己的故事，每个广场都有当地人真实的生活痕迹，这种不刻意的历史感，反而是布尔诺小众城市攻略里最让人回味的部分。</p>
             </Section>
             <Section title="基本信息">
@@ -102,8 +101,8 @@ export default function BrnoPage() {
               <div className="space-y-4">
                 <InfoRow icon="🕒" label="开放时间" value="全天开放" />
                 <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow icon="📍" label="地址" value="namesti Svobody, 602 00 Brno, Czech Republic" />
+                <InfoRow icon="🚌" label="交通" value="从布拉格中央火车站乘直达列车约 2.5 小时到 Brno hlavni nadrazi，出站步行约 10 分钟到老城核心；从布尔诺机场可乘 76 路公交接驳夜线 N89 入城。自驾走 D1 高速进入 Brno-stred，建议停在 Domini Park 或 Benesova 一带停车场后步行逛老城。" />
               </div>
             </div>
           </div>
