@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '曼托瓦古城・Mantua・意大利・曼托瓦 | 最佳欧洲景点',
-  description: '探索曼托瓦古城，伦巴第的文艺复兴水城与千年人文秘境，被明乔河环绕，素有"北方威尼斯"之称，是2008年联合国教科文组织认定的世界文化遗产，承载着贡扎加家族的权力传奇与文艺复兴时期的艺术瑰宝。',
+  title: '曼托瓦老城 Mantua｜被三个湖泊温柔环绕的文艺复兴水上宝石 - 最佳欧洲景点',
+  description: '你第一眼看到曼托瓦，会怀疑自己是不是走进了一个巨大的、流动的镜厅。清晨的薄雾从三个湖泊——上湖、中湖、下湖——的水面上升起，像一层柔光滤镜，把对岸那些砖红色的塔楼、宫殿的轮廓晕染得模糊而温柔。火车站出来的路笔直通向老城，走着走着，你会突然发现脚下的土地变成了一座被水面包围的孤岛，一座桥连接着现实与梦...',
 }
 
 export default function MantuaOldTownPage() {
@@ -16,99 +16,105 @@ export default function MantuaOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '曼托瓦古城', href: '/attractions/mantua-old-town' },
+            { label: '曼托瓦老城', href: '/attractions/mantua-old-town' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">曼托瓦古城・Mantua・意大利・曼托瓦</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">曼托瓦老城・Mantua・意大利・曼托瓦</h1>
           <p className="text-lg text-gray-600 mb-6">
-            曼托瓦古城是意大利北部伦巴第大区的历史名城，被明乔河环绕，是文艺复兴时期的重要城邦。古城完整保留了中世纪与文艺复兴风格建筑，核心景点包括公爵宫、泰宫、圣安德烈亚大教堂等，藏有大量文艺复兴时期的壁画与艺术品，见证了贡扎加家族的辉煌，兼具水城灵秀与人文底蕴，是感受意大利北方历史与艺术魅力的核心地标。
+            你第一眼看到曼托瓦，会怀疑自己是不是走进了一个巨大的、流动的镜厅。清晨的薄雾从三个湖泊——上湖、中湖、下湖——的水面上升起，像一层柔光滤镜，把对岸那些砖红色的塔楼、宫殿的轮廓晕染得模糊而温柔。火车站出来的路笔直通向老城，走着走着，你会突然发现脚下的土地变成了一座被水面包围的孤岛，一座桥连接着现实与梦境。空气里有水草的腥甜，混着从咖啡馆飘出的浓缩咖啡的焦香，还有老建筑石缝里苔藓的湿润气息。鸽子扑棱棱地从你头顶的拱门飞过，翅膀的声音在狭窄的巷子里被放大。
+这不是一个被标本化、仅供参观的老城。西装革履的男士骑着老式自行车叮铃铃穿过索尔代洛广场，车篮里放着公文包；主座教堂门口，穿着时髦的老太太正慢悠悠地遛一只脾气很好的腊肠犬；而广场另一侧，菜贩的摊位上，番茄红得惊人，罗勒叶绿得发亮。文艺复兴的宏大叙事，就这样和“今天午饭吃什么”的日常琐碎无缝拼接在一起。权力与艺术曾经在这里激烈碰撞，但如今沉淀下来的，是一种近乎慵懒的、被湖水浸泡过的平静生活节奏。
+最打动人的，是那种“被包裹”的安全感。三道湖泊像母亲环抱的手臂，将城市的喧嚣与匆忙隔绝在外。你沿着湖岸散步，看天鹅一家慢条斯理地划过倒映着云彩的水面，对岸的宫殿建筑群就像漂浮在水上的海市蜃楼。这里没有佛罗伦萨的人头攒动，没有威尼斯的商业喧嚣，它安静地待在内陆，守着它曾经的辉煌和现在的惬意。走进那些宫殿，你会被铺天盖地的壁画震撼；而走出宫殿，在某个不知名的巷口转角，可能就遇上一面爬满藤蔓的旧墙，墙头探出一棵柠檬树。这就是曼托瓦的魅力——它把惊世骇俗的艺术和不动声色的生活，同时端到了你面前。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              曼托瓦古城是意大利北部伦巴第大区的历史名城，被明乔河环绕，是文艺复兴时期的重要城邦。古城完整保留了中世纪与文艺复兴风格建筑，核心景点包括公爵宫、泰宫、圣安德烈亚大教堂等，藏有大量文艺复兴时期的壁画与艺术品，见证了贡扎加家族的辉煌，兼具水城灵秀与人文底蕴，是感受意大利北方历史与艺术魅力的核心地标。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4">你第一眼看到曼托瓦，会怀疑自己是不是走进了一个巨大的、流动的镜厅。清晨的薄雾从三个湖泊——上湖、中湖、下湖——的水面上升起，像一层柔光滤镜，把对岸那些砖红色的塔楼、宫殿的轮廓晕染得模糊而温柔。火车站出来的路笔直通向老城，走着走着，你会突然发现脚下的土地变成了一座被水面包围的孤岛，一座桥连接着现实与梦境。空气里有水草的腥甜，混着从咖啡馆飘出的浓缩咖啡的焦香，还有老建筑石缝里苔藓的湿润气息。鸽子扑棱棱地从你头顶的拱门飞过，翅膀的声音在狭窄的巷子里被放大。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这不是一个被标本化、仅供参观的老城。西装革履的男士骑着老式自行车叮铃铃穿过索尔代洛广场，车篮里放着公文包；主座教堂门口，穿着时髦的老太太正慢悠悠地遛一只脾气很好的腊肠犬；而广场另一侧，菜贩的摊位上，番茄红得惊人，罗勒叶绿得发亮。文艺复兴的宏大叙事，就这样和“今天午饭吃什么”的日常琐碎无缝拼接在一起。权力与艺术曾经在这里激烈碰撞，但如今沉淀下来的，是一种近乎慵懒的、被湖水浸泡过的平静生活节奏。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">最打动人的，是那种“被包裹”的安全感。三道湖泊像母亲环抱的手臂，将城市的喧嚣与匆忙隔绝在外。你沿着湖岸散步，看天鹅一家慢条斯理地划过倒映着云彩的水面，对岸的宫殿建筑群就像漂浮在水上的海市蜃楼。这里没有佛罗伦萨的人头攒动，没有威尼斯的商业喧嚣，它安静地待在内陆，守着它曾经的辉煌和现在的惬意。走进那些宫殿，你会被铺天盖地的壁画震撼；而走出宫殿，在某个不知名的巷口转角，可能就遇上一面爬满藤蔓的旧墙，墙头探出一棵柠檬树。这就是曼托瓦的魅力——它把惊世骇俗的艺术和不动声色的生活，同时端到了你面前。</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="曼托瓦古城" />
+                <InfoRow label="中文名称" value="曼托瓦老城" />
                 <InfoRow label="英文名称" value="Mantua" />
-                <InfoRow label="国家" value="意大利（Italy）" />
-                <InfoRow label="城市" value="曼托瓦（Mantova）" />
-                <InfoRow label="所属区域" value="意大利伦巴第大区曼托瓦省" />
+                <InfoRow label="正式名称" value="Città di Mantova" />
+                <InfoRow label="国家" value="意大利" />
+                <InfoRow label="城市" value="曼托瓦" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="世界文化遗产、文艺复兴水城" />
-                <InfoRow label="核心特色" value="水城风貌、文艺复兴艺术" />
-                <InfoRow label="建筑价值" value="中世纪与文艺复兴风格融合" />
-                <InfoRow label="文化价值" value="贡扎加家族权力传奇" />
+                <InfoRow label="历史地位" value="文艺复兴时期意大利北部最耀眼的文化与权力中心之一，贡扎加家族在此统治了四个世纪。" />
+                <InfoRow label="建筑特色" value="一座由人工湖泊完美防御、融合了中世纪厚重与文艺复兴优雅的“理想城市”范本。" />
+                <InfoRow label="建筑风格" value="以中世纪罗马式与哥特式为基础，淋漓尽致地展现了文艺复兴鼎盛时期及早期巴洛克风格。" />
+                <InfoRow label="文化价值" value="一部活着的贡扎加家族兴衰史，拥有欧洲最令人惊叹的宫廷壁画群之一，被誉为“壁画之城”。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="古城整体全天开放，核心景点夏季9:00-18:00，冬季9:00-17:00；每周一多数景点闭馆" />
-              <InfoRow label="门票价格" value="古城免费开放，公爵宫成人票12欧元，优惠票6欧元；泰宫成人票10欧元，优惠票5欧元" />
-              <InfoRow label="地址" value="Centro Storico di Mantova, 46100 Mantova MN, Italy" />
-              <InfoRow label="交通方式" value="从罗马乘高铁约2.5小时直达；从米兰乘高铁约1小时直达" />
+              <InfoRow label="开放时间" value="老城公共区域全天24小时开放。城内主要景点（如公爵宫、泰宫、圣安德烈教堂等）开放时间各不相同，通常为周二至周日，上午9:00至下午7:00（夏季可能延长），周一普遍闭馆。具体景点请在出发前于官网二次确认，并注意部分景点中午有1-2小时的午休关闭时间。" />
+              <InfoRow label="门票价格" value="进入曼托瓦老城区免费。主要宫殿和博物馆需单独购票。推荐购买“曼托瓦博物馆卡”（Mantova Musei Card），价格约20欧元，有效期内可进入公爵宫、泰宫、圣塞巴斯蒂亚诺宫等多个重要景点，性价比极高。学生、老人及欧盟青年通常享有折扣，部分教堂免费参观但会鼓励捐赠。" />
+              <InfoRow label="地址" value="Piazza Sordello, 46100 Mantova MN, Italy" />
+              <InfoRow label="交通方式" value="从最近的国际机场维罗纳机场出发，乘坐机场大巴前往维罗纳新门火车站，车程约15分钟。从维罗纳新门火车站乘坐区间火车直达曼托瓦火车站，班次频繁，车程约30-40分钟。从米兰中心火车站乘坐火车前往曼托瓦约需1.5至2小时。曼托瓦火车站距离老城中心约1.5公里，可轻松步行（20分钟）穿过美丽的公共花园和湖泊沿岸，或乘坐本地小巴。建议使用意铁官网或APP提前购票，现场购票机也支持英语。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                曼托瓦古城的历史源远流长，最早可追溯至公元前6世纪，由伊特鲁里亚人建立，最初是一个小型聚居地，因地处明乔河沿岸，凭借便利的水运逐渐发展为重要的商业据点。公元前222年，曼托瓦被罗马人征服，成为罗马帝国的重要城镇，期间修建了大量公共建筑、道路与水利设施，为古城的发展奠定了基础，如今古城地下仍保留着部分罗马时期的遗迹。
-              </p>
-              <p>
-                中世纪时期，曼托瓦先后被伦巴第人、法兰克人统治，逐渐发展为一个独立的城邦。1328年，贡扎加家族夺取曼托瓦的统治权，建立了贡扎加公国，开启了对曼托瓦长达近400年的统治，这一时期也是曼托瓦历史上最辉煌的阶段。贡扎加家族不仅注重政治与经济的发展，更大力扶持文化艺术，将曼托瓦打造成意大利北部重要的文艺复兴文化中心。
-              </p>
-              <p>
-                15世纪中叶，贡扎加家族的卢多维科三世侯爵邀请著名艺术家安德烈亚·曼特尼亚、安东尼奥·皮萨内洛等前来曼托瓦，装饰宫殿与教堂，留下了大量珍贵的壁画与雕塑作品。曼特尼亚为贡扎加家族绘制的肖像画与宫廷壁画，将人文主义思想融入艺术创作，成为文艺复兴时期的艺术典范。这一时期，曼托瓦的建筑风格也逐渐从哥特式向文艺复兴式转变，公爵宫、泰宫等标志性建筑相继建成，兼具权力象征与艺术美感。
-              </p>
-              <p>
-                16世纪，贡扎加家族的权力达到顶峰，曼托瓦成为欧洲重要的政治、文化与艺术交流中心，吸引了众多学者、诗人与艺术家前来，城堡与宫殿成为文化交流的重要场所，藏书室收藏了大量珍贵的手稿、书籍与艺术品，彰显了当时的文化繁荣。但随着16世纪末欧洲战乱频繁，贡扎加家族的势力逐渐衰落，1707年，曼托瓦被纳入哈布斯堡王朝的统治范围，此后又历经拿破仑统治、意大利统一等历史变迁。
-              </p>
-              <p>
-                近代以来，曼托瓦古城虽历经战乱与岁月侵蚀，但大部分建筑与城市格局得以完整保留。2008年，曼托瓦古城与周边的萨比奥内塔古城一同被联合国教科文组织列为世界文化遗产，理由是其完整保留了中世纪至文艺复兴时期的城市风貌，以及大量珍贵的艺术遗迹，成为研究意大利北方历史、建筑与文化的重要基地。如今，曼托瓦古城不仅是意大利重要的旅游景点，更是一座活着的历史博物馆，承载着千年的人文底蕴与艺术魅力。
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">曼托瓦的故事，要从水说起。早在古罗马时代，这片被明乔河环绕的沼泽地就有人定居，但真正让它脱胎换骨的，是中世纪晚期的水利工程。12世纪，一位名叫阿尔贝托·皮特蒙特的工程师，受命于当时的统治者，设计并建造了庞大的堤坝和水闸系统，将肆虐的河水驯服，形成了今天我们看到的三个调节水位的湖泊。这一壮举不仅解决了洪涝，更将曼托瓦变成了一座易守难攻的“岛城”，为它未来的强盛打下了地理基础。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">而赋予这座城市灵魂的，是贡扎加家族。1328年，路易吉·贡扎加通过一场不算光彩的政变上台，开始了这个家族对曼托瓦长达近四百年的统治。最初的几代人更像是精明冷酷的军阀和政客，他们深谙意大利城邦政治的生存之道，通过联姻、雇佣军合同和灵活的外交，在米兰、威尼斯、佛罗伦萨这些巨头的夹缝中，小心翼翼地维持着独立与繁荣。直到15世纪，一位真正热爱艺术的统治者出现——卢多维科二世·贡扎加。他娶了勃兰登堡的 Barbara of Brandenburg，更重要的是，他将文艺复兴的春风吹进了曼托瓦的宫廷。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">卢多维科请来了当时已名满天下的建筑大师莱昂·巴蒂斯塔·阿尔伯蒂，为他设计建造了圣安德烈教堂和圣塞巴斯蒂亚诺教堂。这两座建筑彻底颠覆了中世纪的传统，比例之和谐、理念之古典，堪称文艺复兴建筑的里程碑。但真正让曼托瓦登上艺术圣殿顶峰的，是卢多维科的孙子，弗朗切斯科二世。他和妻子伊莎贝拉·德·埃斯特，可能是欧洲历史上最著名的一对艺术赞助人夫妇。伊莎贝拉本人就是一位学识渊博的人文主义者，她的“书房”里收藏着古罗马雕像、当代画作和珍贵手稿。她写信给达·芬奇、乔尔乔内、佩鲁吉诺，恳求（有时是半强迫地）他们为曼托瓦创作。虽然大师们留下的真迹不多，但那种对美的狂热追求，塑造了这座城市的基因。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">家族的巅峰在16世纪到来。费德里科二世·贡扎加公爵为了取悦他心爱的情人（后来成为妻子），决定建造一座“欢乐宫”，这就是举世闻名的泰宫。他找来的画家，是年仅二十岁、才华横溢的朱利奥·罗马诺。这位拉斐尔的高徒，在这座郊外别墅里彻底放飞了想象力。你走进“巨人厅”，会感到一阵目眩神迷——从地板到天花板，壁画描绘了奥林匹斯众神崩塌的骇人景象，扭曲的肌肉、惊恐的面容、碎裂的建筑向你压来。这是风格主义最早、最激进的宣言，它不再追求文艺复兴的和谐完美，而是刻意制造失衡、戏剧和情感冲击。泰宫，成了贡扎加家族财富、权力与叛逆艺术品味最奢侈的证明。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，盛极必衰。17世纪初，贡扎加家族主系绝嗣，引发了复杂的继承战争。曼托瓦在战火中惨遭劫掠，无数艺术珍品流散。之后，它先后落入奥地利哈布斯堡王朝和法国波旁王朝的统治之下，沦为帝国的一个边陲行省，往日的独立与光彩逐渐黯淡。直到19世纪意大利统一运动，曼托瓦才重新成为意大利的一部分。或许正是这段长达两个多世纪的“沉睡”，意外地保护了它。发展停滞，反而让老城的中世纪和文艺复兴肌理得以完整保存，没有受到工业化的大规模破坏。今天的曼托瓦，就像一颗被时光琥珀封存的珍珠，当你拂去表面的灰尘，内里贡扎加时代的光芒，依然璀璨夺目。</p>
             </div>
           </Section>
 
           <Section title="4. 游览路线">
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">精华路线（2-3小时）</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  从古城主入口进入，首先前往百草广场（Piazza delle Erbe），这是曼托瓦古城的核心广场，广场上有13世纪的法理宫（Palazzo della Ragione）与圣安德烈亚大教堂的侧面，周边环绕着复古商铺与咖啡馆，可感受古城的市井烟火气，拍摄复古街景。
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  随后前往圣安德烈亚大教堂（Basilica di Sant'Andrea di Mantova），这座融合罗马式与哥特式风格的教堂，外墙雕刻精美，内部藏有曼特尼亚等著名艺术家的壁画与雕塑，重点欣赏教堂内的圣坛与穹顶壁画，感受宗教艺术的庄严与精美。之后前往公爵宫（Palazzo Ducale），这是贡扎加家族的宫殿，内部布局恢弘，房间内摆放着中世纪至文艺复兴时期的家具、挂毯与艺术品，墙面的壁画展现了贡扎加家族的生活场景与历史事件，重点参观宫殿内的壁画展厅与藏书室。
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  最后前往明乔河滨河步道，沿河岸漫步，欣赏古城的水城风貌，远处的城堡与红瓦民居倒映在河水中，画面极具氛围感；游览结束后，可在广场周边的纪念品商店，购买壁画复制品、手工饰品等特色纪念品，结束精华游览。
+                  要真正感受曼托瓦，强烈建议你安排至少一整天的深度游览。最佳抵达时间是上午九点前，这时湖泊上的晨雾未完全散去，阳光柔和，游客稀少，老城刚刚苏醒。整体游览节奏应是“先外后内，先宏后微”：先用一个上午，沿着湖泊漫步，从外围把握这座“水上之城”的独特地理格局和天际线；下午再深入核心区域，沉浸于宫殿和教堂的内部艺术世界。傍晚时分，务必回到湖边，看夕阳将湖水、砖墙和天空染成一片金红。这样安排能让你在光影最佳的时刻看到曼托瓦最美的两面——自然的诗意与人文的辉煌。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>适合人群：</strong>时间紧张的游客，想要快速体验古城精华
+                  <strong>建议：</strong>务必提前查询主要宫殿的开放时间，周一大部分关闭，且许多景点午休时间很长（约12:30-15:00），规划行程时要巧妙避开。
+老城中心区域多为石板路和拱廊，穿着舒适耐走的鞋子至关重要，部分宫殿内部地面光滑或为古老木地板，高跟鞋会非常不便且可能不被允许。
                 </div>
               </div>
               
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-green-900 mb-3">深度路线（4-5小时）</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  在精华路线的基础上，增加泰宫、圣乔治城堡与小众景点探访，深入感受曼托瓦的历史与艺术魅力。参观完明乔河滨河步道后，前往泰宫（Palazzo Te），这座文艺复兴风格的宫殿是贡扎加家族的夏季行宫，宫殿内的壁画堪称艺术瑰宝，尤其是"巨人厅"的壁画，展现了神话故事与宫廷生活，细节精美，值得细细品味。
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  随后前往圣乔治城堡（Castello San Giorgio），这座中世纪防御城堡位于明乔河畔，是曼托瓦古城的防御核心，城堡内保留着瞭望塔、地牢、议事厅等遗迹，登上瞭望塔可俯瞰整个古城与明乔河风光，感受中世纪城堡的防御气势。之后预约古城深度导览（导览费10欧元/人，全程1小时，有意大利语、英语两种语言可选），跟随导览深入了解古城的建筑工艺、壁画历史与贡扎加家族的传奇故事，重点参观小众遗迹与隐藏的壁画展厅。
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  中午前往古城内的特色餐厅，品尝曼托瓦传统美食，如意大利烩饭、烤羊排、曼托瓦特色甜点与当地葡萄酒，体验伦巴第大区的饮食文化；下午前往维吉尔广场（Piazza Virgiliana），广场上有维吉尔雕像，可俯瞰明乔河与古城全景，适合漫步休憩、拍摄全景照；傍晚时分，返回百草广场，欣赏夕阳下的古城建筑，夕阳洒在红瓦屋顶与河面上，氛围感拉满，结束深度游览。
-                </p>
-                <div className="text-sm text-green-800 bg-green-100 p-3 rounded">
-                  <strong>适合人群：</strong>喜欢细致游览的游客，想要深度体验老城文化
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">清晨从火车站出来，别急着进城，先右转沿着Viale Piave路走向上湖湖畔，从水面的最外侧静静欣赏被三个湖泊托起的整个老城轮廓。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">穿过维托里奥·埃马努埃莱二世桥，正式进入老城岛，沿着绿树成荫的 Lungolago dei Gonzaga 湖滨道慢走，看天鹅游弋，对岸公爵宫的塔楼倒映在平静的湖水中。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从湖滨道转入老城小巷，让直觉带你乱走一会，在那些挂着晾衣绳的安静居民区感受本地生活的脉搏，直到眼前豁然开朗，抵达城市心脏——宏伟的索尔代洛广场。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在广场边的咖啡馆喝一杯地道的意式浓缩咖啡，然后转身走进那扇不起眼的小门，开启贡扎加家族权力核心“公爵宫”数小时的华丽迷失之旅。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从公爵宫侧门出来，绕过主座教堂，步行几分钟来到另一个震撼的广场——布鲁莱蒂广场，仰望阿尔伯蒂设计的圣安德烈教堂那令人屏息的巨大拱顶立面。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">沿着熙攘的维托里奥·埃马努埃莱街走走，在古老的拱廊下浏览橱窗，然后在街角百年老店买一个当地特色的南瓜馅意式馄饨作为午餐。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">下午乘坐本地巴士或租一辆自行车，前往位于城北郊区的泰宫，准备迎接朱利奥·罗马诺在“巨人厅”带给你的、颠覆感官的风格主义壁画冲击。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">日落前返回城内，登上圣乔治城堡的塔楼（如果开放）或简单地坐在湖边台阶上，看夕阳的余晖一点点为曼托瓦的砖瓦屋顶镀上温暖的金边，直到华灯初上。</p>
                 </div>
               </div>
             </div>
@@ -118,150 +124,65 @@ export default function MantuaOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 明乔河滨河步道</h4>
-                  <p className="text-sm text-gray-700">拍摄古城水城风貌的最佳机位，站在步道上，可将古城的红瓦民居、桥梁与明乔河的流水同框，河水清澈，建筑倒映在水中，画面灵动柔美。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 上湖对岸全景拍摄点</h4>
+                  <p className="text-sm text-gray-700">清晨或黄昏，站在上湖（Lago Superiore）北岸的公共花园边缘，用长焦镜头压缩空间，可以拍到宫殿群、塔楼与它们在湖中完整倒影同框的经典画面，晨雾或晚霞是绝佳加分项。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 百草广场</h4>
-                  <p className="text-sm text-gray-700">广场是拍摄古城市井氛围的绝佳机位，法理宫的哥特式塔楼、圣安德烈亚大教堂的侧面建筑与周边的复古商铺、行人相映成趣，自带古朴文艺的氛围。</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 公爵宫露台</h4>
-                  <p className="text-sm text-gray-700">公爵宫的露台是拍摄古城全景的最佳机位之一，可将整个古城的街巷格局、明乔河风光与远处的田园景色尽收眼底，红瓦屋顶错落有致，河流环绕其间。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 索尔代洛广场仰角</h4>
+                  <p className="text-sm text-gray-700">下午阳光斜射时，站在广场靠近拉乔内宫的一侧，向上仰拍公爵宫和主座教堂的钟塔，利用广场地面的石板作为引导线，能拍出建筑极具压迫感和历史纵深感的照片。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 泰宫巨人厅</h4>
-                  <p className="text-sm text-gray-700">泰宫内部的巨人厅是拍摄文艺复兴壁画的绝佳机位，壁画覆盖整个墙面与穹顶，细节精美，色彩浓郁，展现了神话故事的恢弘场景。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 圣乔治城堡桥洞框架构图</h4>
+                  <p className="text-sm text-gray-700">走到连接城堡与老城的桥下，利用古老的砖石桥洞作为天然画框，将对岸鳞次栉比的房屋和教堂塔楼框入其中，构图巧妙且富有层次感。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. 圣乔治城堡瞭望塔</h4>
-                  <p className="text-sm text-gray-700">登上瞭望塔顶端，可拍摄古城与明乔河的全景，城堡的防御城墙、远处的桥梁与河面上的船只相映成趣，既有军事建筑的雄浑，又有水城的灵动。</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">6. 古城石板街巷</h4>
-                  <p className="text-sm text-gray-700">古城内的石板街巷狭窄古朴，两侧是文艺复兴风格的民居，墙面爬满绿色藤蔓，自带复古氛围感。可站在街巷中间，拍摄街巷的延伸感。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 泰宫“巨人厅”细节捕捉</h4>
+                  <p className="text-sm text-gray-700">室内禁用闪光灯，但可调高ISO。聚焦壁画中某个戏剧性的局部，如坠落巨神惊恐的面容或碎裂的柱础，利用壁画本身的动态线条和明暗对比，拍出极具情感张力的特写。</p>
                 </div>
               </div>
+
             </div>
             
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 古城的建筑以红瓦、米白色墙面为主，搭配明乔河的湛蓝，建议穿搭素色、浅色系或复古风格衣物，形成和谐的色调</li>
-                <li>• 拍摄水城风光时，可利用水面倒影，增加画面的层次感</li>
-                <li>• 拍摄壁画时，禁止使用闪光灯，尊重当地文化</li>
-                <li>• 禁止攀爬建筑与城墙，拍摄时避免影响其他游客游览</li>
-                <li>• 傍晚时分的光线最适合拍摄，可呈现出温暖的氛围感</li>
+                <li>• 曼托瓦的光线在春秋季的清晨和黄昏最为迷人，柔和的金色光线能极大增强砖石建筑的质感与温暖色调。室内壁画拍摄务必关闭闪光灯，这是对珍贵文物最基本的保护，也是规定。尝试拍摄一些动态的生活场景，如市场色彩、湖中天鹅、巷口聊天的老人，这些画面能让你的照片更有“呼吸感”。</li>
               </ul>
             </div>
           </Section>
 
-          <Section title="6. 附近景点">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">萨比奥内塔古城</h4>
-                <p className="text-sm text-gray-700 mb-2">距离曼托瓦古城约30分钟车程，是2008年与曼托瓦一同被列入世界文化遗产的小城，保留着完整的文艺复兴时期城市格局，核心景点有萨比奥内塔城堡、市政厅、教堂等。</p>
-                <div className="text-xs text-gray-500">🚗 车程30分钟 | 🏛️ 文艺复兴古城</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">明乔河公园</h4>
-                <p className="text-sm text-gray-700 mb-2">距离曼托瓦古城约10分钟步行路程，沿明乔河修建，公园内种植着高大的树木，设有座椅与观景平台，可欣赏明乔河的流水风光与野生动物。</p>
-                <div className="text-xs text-gray-500">🚶‍♂️ 步行10分钟 | 🌊 自然景观</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">科学比比亚纳剧院</h4>
-                <p className="text-sm text-gray-700 mb-2">距离曼托瓦古城约7分钟步行路程，建于18世纪，是一座保存完好的巴洛克式剧院，内部装饰精美，可观看歌剧、音乐会等演出。</p>
-                <div className="text-xs text-gray-500">🚶‍♂️ 步行7分钟 | 🎭 艺术表演</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">曼托瓦国家考古博物馆</h4>
-                <p className="text-sm text-gray-700 mb-2">距离曼托瓦古城约8分钟步行路程，馆内收藏了曼托瓦及周边地区出土的古希腊、古罗马、中世纪时期的文物，包括陶器、雕塑、兵器、手稿等。</p>
-                <div className="text-xs text-gray-500">🚶‍♂️ 步行8分钟 | 🏺 考古文化</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">维罗纳古城</h4>
-                <p className="text-sm text-gray-700 mb-2">距离曼托瓦古城约1小时车程，是罗密欧与朱丽叶的故乡，保留着大量中世纪与文艺复兴时期的建筑，核心景点有朱丽叶故居、维罗纳竞技场、百草广场等。</p>
-                <div className="text-xs text-gray-500">🚗 车程1小时 | 🏛️ 浪漫文化</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">曼托瓦犹太区</h4>
-                <p className="text-sm text-gray-700 mb-2">距离曼托瓦古城约10分钟步行路程，是欧洲保存较完整的犹太区之一，保留着犹太教堂、民居与商铺，街巷狭窄古朴，充满独特的文化氛围。</p>
-                <div className="text-xs text-gray-500">🚶‍♂️ 步行10分钟 | 🕍 小众文化</div>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿小贴士">
+          <Section title="6. 住宿小贴士">
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">古城核心区域</h4>
-                  <p className="text-sm text-blue-800">首选区域，距离百草广场、公爵宫、圣安德烈亚大教堂等核心景点步行可达，周边有特色餐厅、咖啡馆与纪念品商店，既能便捷游览景点，又能感受古城的古朴氛围。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">精品之选</h4>
+                  <p className="text-sm text-blue-800">位于索尔代洛广场一侧由16世纪贵族宫殿改造的精品酒店，房间天花板保留着原始的壁画残片，开窗即是文艺复兴广场的日常戏剧，晚上能听见广场石砖上隐约的脚步声。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">曼托瓦火车站附近</h4>
-                  <p className="text-sm text-green-800">距离车站步行10分钟可达，周边有餐厅、便利店，生活便利，适合需要乘坐火车前往周边城市的游客。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">湖景体验</h4>
+                  <p className="text-sm text-green-800">坐落在中湖湖畔一栋经过精心修复的19世纪建筑内，房间拥有面对湖泊和圣乔治城堡的小阳台，早晨在私人阳台享用早餐，看天鹅从窗前游过，是真正融入曼托瓦水城意境的体验。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">明乔河沿岸</h4>
-                  <p className="text-sm text-yellow-800">距离古城约15分钟步行路程，可欣赏河景，环境静谧舒适，适合喜欢自然景观的游客。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">特色民宿</h4>
+                  <p className="text-sm text-yellow-800">藏匿在老城深处一条安静小巷里的家庭经营民宿，主人是一位退休的历史老师，房子本身就有数百年历史，木梁低垂，他会为你手绘地图，讲述书本上没有的贡扎加家族八卦。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">郊外庄园</h4>
+                  <p className="text-sm text-purple-800">若自驾，可选择距离老城约十分钟车程、被农田环绕的18世纪乡村庄园，体验托斯卡纳式的宁静，在花园里品尝庄园自产的葡萄酒，远眺月光下曼托瓦老城的剪影。</p>
                 </div>
               </div>
-              
-              <div className="grid md:grid-cols-4 gap-4">
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">高端文艺复兴风格景观酒店</h4>
-                  <p className="text-sm text-gray-700 mb-2">多位于古城核心区域，融合中世纪建筑元素与现代设施，自带观景露台与餐厅，部分酒店由古老宫殿改造而成，可欣赏古城全景或河景。</p>
-                  <div className="text-xs text-gray-500">💎 文艺复兴体验 | 🏞️ 景观优美</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">中端酒店</h4>
-                  <p className="text-sm text-gray-700 mb-2">多位于古城附近或车站周边，步行可达核心景点，房间干净整洁，设施齐全，部分酒店提供早餐与免费WiFi，价格约35-70欧元/晚。</p>
-                  <div className="text-xs text-gray-500">⭐ 性价比高 | 👨‍👩‍👧‍👦 家庭出游</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">经济型民宿</h4>
-                  <p className="text-sm text-gray-700 mb-2">多为家庭经营，风格温馨，部分民宿由古城民居改造而成，充满特色，价格约18-35欧元/晚，还能感受当地居民的生活氛围。</p>
-                  <div className="text-xs text-gray-500">💰 预算友好 | 🏡 家庭氛围</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">青年旅社</h4>
-                  <p className="text-sm text-gray-700 mb-2">适合独自旅行或预算有限的游客，价格实惠，通常位于交通便利的位置，可结识来自世界各地的旅行者，价格约12-25欧元/晚。</p>
-                  <div className="text-xs text-gray-500">🎒 背包客首选 | 🌍 国际交流</div>
-                </div>
-              </div>
-              
-              <div className="bg-red-50 p-4 rounded-lg">
-                <h4 className="font-semibold text-red-900 mb-2">预订建议与注意事项</h4>
-                <div className="grid md:grid-cols-2 gap-4 text-sm text-red-800">
-                  <div>
-                    <p className="mb-2"><strong>旺季（6-9月）：</strong>夏季气候宜人，游客较多，曼托瓦文艺复兴节期间，建议提前1-2个月预订</p>
-                    <p className="mb-2"><strong>淡季（12月至次年5月）：</strong>可提前1-2周预订，价格相对实惠</p>
-                    <p><strong>特色套餐：</strong>部分高端酒店推出住宿+景点联票的优惠套餐</p>
-                  </div>
-                  <div>
-                    <p className="mb-2"><strong>必备用品：</strong>意大利住宿通常不提供洗漱用品，需自带牙刷、牙膏等</p>
-                    <p className="mb-2"><strong>特殊注意：</strong>古城部分酒店位于石板街巷旁，无电梯，预订时可提前咨询</p>
-                    <p><strong>注意事项：</strong>古城及周边夜间安静，需保持安静；大部分酒店为无烟酒店</p>
-                  </div>
-                </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">老城中心住宿位置绝佳，但多数由古老建筑改造，房间可能不大且电梯稀缺，行李多或行动不便者需留意。曼托瓦治安非常好，深夜在老城散步也感到安全。夏季和重要节日（如美食节）期间住宿紧俏，务必提前数月预订，尤其是那些拥有寥寥几间房的特色住所。</p>
               </div>
             </div>
           </Section>
 
-          <Section title="8. 总结与感悟">
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                曼托瓦古城，这座被明乔河环抱的千年水城，历经两千余年的岁月沉淀，既有中世纪的古朴厚重，又有文艺复兴的艺术璀璨，承载着贡扎加家族的权力传奇与意大利北方的人文底蕴。在这里，你可以漫步在石板街巷，触摸历史的痕迹；可以走进宫殿与教堂，欣赏文艺复兴时期的艺术瑰宝；可以沿明乔河漫步，感受水城的灵秀柔美；可以品尝当地特色美食与葡萄酒，体验伦巴第大区的市井烟火。
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                无论是独自旅行、情侣出游还是家庭度假，曼托瓦古城都能给你带来难忘的旅行体验，让你在古朴静谧的氛围中，邂逅一段跨越千年的人文与艺术之约，爱上这座兼具历史厚重与文艺气息的意大利北方名城。
-              </p>
-              <p className="text-gray-700 leading-relaxed font-medium">
-                让你在古朴静谧的氛围中，邂逅一段跨越千年的人文与艺术之约。
-              </p>
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开曼托瓦许久后，我发现自己最常回忆起的，不是那些令人震撼的穹顶壁画，也不是宫殿里金碧辉煌的大厅，而是某个无所事事的午后，我坐在湖畔石阶上发呆。湖水轻轻拍打着岸边的石头，发出柔和的哗哗声，几个少年骑着自行车从身后的小路欢笑着掠过，空气里是水、泥土和阳光混合的、懒洋洋的味道。在那一刻，我忽然明白了曼托瓦最珍贵的馈赠是什么。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">它是一部伟大的历史书，但更是一处让人安心“浪费时间”的桃源。在这个追求效率、一切都被加速的世界里，曼托瓦用它温柔的湖水，把喧嚣挡在了外面。它告诉你，美不必总是高高在上、需要你费力仰望的。美可以是一面斑驳的墙，一扇生锈的窗，一个在广场上追逐鸽子的孩子，是生活本身从容不迫的节奏。贡扎加家族用权力和财富攫取了那个时代最顶尖的艺术，但他们最终留给世人的，却是一座能安放平静与诗意的城池。每一位渴望深度游的旅人，都该来曼托瓦住上几天。不为打卡，只为让自己慢下来，在水光与砖影之间，重新找回那种“感受”的能力，而不是“消费”景点的匆忙。在这里，你会和一段辉煌的历史相遇，更会与一个久违的、宁静的自己重逢。</p>
             </div>
           </Section>
         </div>

@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '米尔斯泰因修道院・Melk Abbey・奥地利・梅尔克 | 最佳欧洲景点',
-  description: '探索米尔斯泰因修道院，奥地利最负盛名的巴洛克式建筑瑰宝，坐落于多瑙河畔的山岩之上，是瓦豪河谷世界文化遗产的核心组成部分。',
+  title: '梅尔克修道院 Melk Abbey｜多瑙河畔的巴洛克明珠与千年智慧宝库 - 最佳欧洲景点',
+  description: '当你从梅尔克小镇那条蜿蜒的坡道向上走，一个转弯，它便毫无保留地撞进你的视野。那不是一座建筑，而是一座自山岩中生长出来的、金黄色的梦境。阳光下，那两座洋葱头塔楼和巨大的墨绿色穹顶，像被镀上了一层流动的蜂蜜，温暖而庄严地俯视着脚下静静流淌的蓝色多瑙河，以及两岸如波浪般起伏的葡萄园。空气中混合着古老石墙被...',
 }
 
 export default function MelkAbbeyPage() {
@@ -16,120 +16,103 @@ export default function MelkAbbeyPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '米尔斯泰因修道院', href: '/attractions/melk-abbey' },
+            { label: '梅尔克修道院', href: '/attractions/melk-abbey' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">米尔斯泰因修道院・Melk Abbey・奥地利・梅尔克</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">梅尔克修道院・Melk Abbey・奥地利・梅尔克</h1>
           <p className="text-lg text-gray-600 mb-6">
-            米尔斯泰因修道院是一座历史悠久的本笃会修道院，始建于1089年，现存巴洛克式建筑建于1702至1736年。它矗立在梅尔克镇的山岩之巅，俯瞰多瑙河与瓦豪河谷的绝美风光，以华丽的黄色外立面、金碧辉煌的教堂、珍藏无数中世纪手稿的图书馆闻名，融合了宗教信仰、艺术美学与自然景观，是奥地利中世纪至巴洛克时期文化与建筑的集大成者。
+            当你从梅尔克小镇那条蜿蜒的坡道向上走，一个转弯，它便毫无保留地撞进你的视野。那不是一座建筑，而是一座自山岩中生长出来的、金黄色的梦境。阳光下，那两座洋葱头塔楼和巨大的墨绿色穹顶，像被镀上了一层流动的蜂蜜，温暖而庄严地俯视着脚下静静流淌的蓝色多瑙河，以及两岸如波浪般起伏的葡萄园。空气中混合着古老石墙被晒暖的气息、远处森林的松香，还有一丝若有若无的、从修道院面包房飘来的酵母甜香。这不仅仅是一处景点，它是整个小镇呼吸的节奏，是本地人心中永恒的地标，是火车经过时乘客们都会不由自主望向窗外的风景。
+穿过厚重的大门，步入开阔的“前院”，喧嚣瞬间被隔绝。马蹄铁形的庭院宏阔而安静，只有你的脚步声在精致的粉色外墙与华丽的雕像间轻轻回响。继续深入，你会经过修士们日常生活的回廊，那里弥漫着一种沉淀了时间的宁静。但这一切，都只是辉煌的序曲。这座修道院最核心的魅力，在于它惊人地将神圣的虔诚与世俗的磅礴艺术结合在一起——它既是为上帝建造的圣殿，也是一座赞美人类智慧与美感的丰碑。
+而这一切感受的巅峰，在你推开大理石厅或图书馆大门的那一刻，达到了极致。那种极致的巴洛克奢华与秩序之美扑面而来，几乎让人有瞬间的窒息。金色的雕塑、天花板上倾泻而下的湿壁画、数以万计皮革封面的古老书籍所散发出的那种混合着羊皮纸、灰尘与时光的独特气味……你会明白，这里守护的不仅是信仰，更是千百年来未曾熄灭的文明之光。最后，别忘了走到修道院南侧的露台，站在那里，凭栏远眺。整个瓦豪河谷的画卷在你脚下徐徐展开，多瑙河像一条温柔的丝带，缠绕着童话般的村庄与城堡。这一刻，建筑、历史、自然与你的呼吸，达成了完美的和谐。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              米尔斯泰因修道院是一座历史悠久的本笃会修道院，始建于1089年，现存巴洛克式建筑建于1702至1736年。它矗立在梅尔克镇的山岩之巅，俯瞰多瑙河与瓦豪河谷的绝美风光，以华丽的黄色外立面、金碧辉煌的教堂、珍藏无数中世纪手稿的图书馆闻名，融合了宗教信仰、艺术美学与自然景观，是奥地利中世纪至巴洛克时期文化与建筑的集大成者。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4">当你从梅尔克小镇那条蜿蜒的坡道向上走，一个转弯，它便毫无保留地撞进你的视野。那不是一座建筑，而是一座自山岩中生长出来的、金黄色的梦境。阳光下，那两座洋葱头塔楼和巨大的墨绿色穹顶，像被镀上了一层流动的蜂蜜，温暖而庄严地俯视着脚下静静流淌的蓝色多瑙河，以及两岸如波浪般起伏的葡萄园。空气中混合着古老石墙被晒暖的气息、远处森林的松香，还有一丝若有若无的、从修道院面包房飘来的酵母甜香。这不仅仅是一处景点，它是整个小镇呼吸的节奏，是本地人心中永恒的地标，是火车经过时乘客们都会不由自主望向窗外的风景。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">穿过厚重的大门，步入开阔的“前院”，喧嚣瞬间被隔绝。马蹄铁形的庭院宏阔而安静，只有你的脚步声在精致的粉色外墙与华丽的雕像间轻轻回响。继续深入，你会经过修士们日常生活的回廊，那里弥漫着一种沉淀了时间的宁静。但这一切，都只是辉煌的序曲。这座修道院最核心的魅力，在于它惊人地将神圣的虔诚与世俗的磅礴艺术结合在一起——它既是为上帝建造的圣殿，也是一座赞美人类智慧与美感的丰碑。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">而这一切感受的巅峰，在你推开大理石厅或图书馆大门的那一刻，达到了极致。那种极致的巴洛克奢华与秩序之美扑面而来，几乎让人有瞬间的窒息。金色的雕塑、天花板上倾泻而下的湿壁画、数以万计皮革封面的古老书籍所散发出的那种混合着羊皮纸、灰尘与时光的独特气味……你会明白，这里守护的不仅是信仰，更是千百年来未曾熄灭的文明之光。最后，别忘了走到修道院南侧的露台，站在那里，凭栏远眺。整个瓦豪河谷的画卷在你脚下徐徐展开，多瑙河像一条温柔的丝带，缠绕着童话般的村庄与城堡。这一刻，建筑、历史、自然与你的呼吸，达成了完美的和谐。</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="米尔斯泰因修道院" />
-                <InfoRow label="英文名称" value="Melk Abbey (Stift Melk)" />
-                <InfoRow label="国家" value="奥地利（Austria）" />
-                <InfoRow label="城市" value="梅尔克（Melk, Lower Austria）" />
-                <InfoRow label="宗教归属" value="本笃会修道院" />
+                <InfoRow label="中文名称" value="梅尔克修道院" />
+                <InfoRow label="英文名称" value="Melk Abbey" />
+                <InfoRow label="正式名称" value="Melk Abbey (Stift Melk)" />
+                <InfoRow label="国家" value="奥地利" />
+                <InfoRow label="城市" value="梅尔克" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="始建年代" value="1089年（现存巴洛克建筑建于1702-1736年）" />
-                <InfoRow label="建筑风格" value="巴洛克式建筑" />
-                <InfoRow label="文化地位" value="瓦豪河谷世界文化遗产核心组成部分" />
-                <InfoRow label="特色" value="华丽的黄色外立面、金碧辉煌的教堂、珍藏中世纪手稿的图书馆" />
+                <InfoRow label="历史地位" value="近千年以来，它一直是奥地利乃至中欧的精神与文化灯塔，堪称多瑙河 Wachau 河谷世界文化遗产皇冠上最璀璨的宝石。" />
+                <InfoRow label="建筑特色" value="一座将信仰、权力与艺术完美融合的巴洛克建筑杰作，以其恢宏的对称布局、璀璨的金色装饰、无与伦比的图书馆和俯瞰多瑙河谷的绝佳视野而震撼人心。" />
+                <InfoRow label="建筑风格" value="以辉煌的巴洛克风格为主，由著名建筑师雅各布·普兰陶尔主持重建，其内部装饰是奥地利巴洛克鼎盛时期的巅峰体现。" />
+                <InfoRow label="文化价值" value="不仅是一座修道院，更是一座活的“思想宫殿”，其图书馆保存的浩瀚中世纪手稿与典籍，持续见证着欧洲文明的火种在此传承与闪耀。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="2026年分时段开放：4-10月09:00-17:30，其他月份时间调整" />
-              <InfoRow label="门票价格" value="修道院通票成人15欧元，学生12欧元，儿童8欧元；花园单独门票5.5欧元" />
-              <InfoRow label="地址" value="Stiftsstr. 1, 3390 Melk, Austria（梅尔克镇修道院街1号）" />
-              <InfoRow label="交通方式" value="从维也纳火车西站乘区域火车约1小时15分钟，步行10分钟抵达" />
+              <InfoRow label="开放时间" value="修道院主体对游客开放时间为每年四月初至十一月初，每日上午9:00至下午17:30（最后入场时间为16:30）。冬季（十一月至次年三月）仅接受预约团队参观，且开放区域有限。请注意，修道院仍是活跃的宗教场所，开放时间可能因宗教活动（如弥撒）临时调整，尤其是在周日和宗教节日。图书馆和某些房间在极端潮湿天气可能关闭以保护珍贵藏品。" />
+              <InfoRow label="门票价格" value="标准成人票为14.5欧元。6-18岁青少年及学生（持有效证件）票价为8欧元。家庭票（2成人+最多4名儿童）为31欧元。6岁以下儿童免费。持有“下奥地利州卡”可免费入场。门票已包含导游导览器（提供多语种选择，含中文）的费用。建议提前在官网购票以选择确切入场时段，避免旺季排队。" />
+              <InfoRow label="地址" value="Abt-Berthold-Dietmayr-Straße 1, 3390 Melk, Austria" />
+              <InfoRow label="交通方式" value="从维也纳出发最为便捷。在维也纳火车总站（Wien Hauptbahnhof）乘坐开往林茨、萨尔茨堡方向的区域快车（RJ或RE），约每小时一班，车程50-60分钟即可直达梅尔克火车站。从火车站出来，抬头就能看到山丘上的修道院，步行上山约需15分钟，是一条风景优美的缓坡路。也可以乘坐小镇的穿梭巴士，车程3分钟。自驾可将车停在山下的停车场，然后步行上山。从萨尔茨堡方向乘火车过来约需2小时。多瑙河游船也会在梅尔克停靠，码头就在小镇边，从码头步行至修道院约10分钟，这是最富诗意的抵达方式。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                米尔斯泰因修道院的历史可追溯至公元976年，最初是巴本堡家族的一座城堡，作为奥地利早期统治家族的居所，见证了奥地利地区的早期发展。1089年，奥地利藩侯利奥波德二世将这座城堡捐赠给拉姆巴赫修道院的本笃会修士，正式改建为修道院，从此开启了其近千年的宗教与文化传承之路。
-              </p>
-              <p>
-                12世纪，修道院建立了神学院，成为当时奥地利重要的学术与教育中心，同时修道院图书馆开始收集各类手稿与典籍，逐渐形成规模。15世纪，修道院发起了"梅尔克改革运动"，这场运动不仅重振了奥地利及德国南部的修道院生活，更推动了宗教文化的发展与传播。
-              </p>
-              <p>
-                17世纪末，原有建筑因年久失修逐渐衰败，1702年至1736年，在建筑师雅各布·普兰陶尔的主持下，修道院进行了彻底的重建，采用当时最流行的巴洛克风格，融合了建筑、绘画、雕塑等多种艺术形式。众多杰出艺术大师参与其中，使修道院成为巴洛克艺术的典范之作。
-              </p>
-              <p>
-                18世纪启蒙运动时期，米尔斯泰因修道院成为思想交流的重要场所，甚至曾设有共济会分会。在约瑟夫二世时期，奥地利许多修道院被没收解散，但米尔斯泰因修道院凭借其深厚的学术声誉与文化价值，成功躲过了解散的命运。
-              </p>
-              <p>
-                1996年，米尔斯泰因修道院作为"瓦豪河谷文化景观"的核心部分，被列入联合国教科文组织世界文化遗产名录，其历史与文化价值得到全球认可。此外，著名小说《玫瑰之名》中，作者翁贝托·埃科将主角命名为"梅尔克的阿德索"，以此向这座古老的修道院致敬。
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">梅尔克的故事，始于石头与信仰的交织。早在公元976年，巴本伯格家族的利奥波德一世将这座位于多瑙河战略要冲的城堡，赠予了本笃会的修士们。从那时起，刀光剑影的堡垒，逐渐化为了诵经声缭绕的圣所。最初的罗马式修道院在此扎根，梅尔克很快成为了巴本伯格王朝，乃至后来哈布斯堡王朝重要的宗教与文化中心。它像一颗种子，在乱世中默默积蓄力量，抄写员们在羊皮纸上留下一行行经文与知识，为这片土地保存着文明的星火。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，中世纪并非总是宁静。修道院经历了数次火灾与劫难，尤其是13世纪和14世纪的损毁。但真正的转折点，是一场几乎将其吞噬的灾难。1683年，奥斯曼土耳其大军第二次围攻维也纳，战火蔓延至瓦豪河谷。梅尔克修道院未能幸免，遭受了严重的破坏。这场劫难，反而催生了它最华丽的涅槃。进入18世纪初，在院长伯托尔德·迪特迈尔的宏大愿景下，修道院决定进行一场彻底的重建，他要建造一座配得上其历史地位、能够彰显天主教在反宗教改革后荣耀的“巴洛克纪念碑”。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">于是，奥地利巴洛克建筑大师雅各布·普兰陶尔被委以重任。从1702年开始，一场持续数十年的艺术盛宴拉开了帷幕。普兰陶尔没有推倒所有旧墙，而是巧妙地将原有结构融入全新的设计。他追求的是极致的和谐、对称与光影戏剧。我们今天看到的这座宏伟建筑群——那庄严的立面、环绕的翼楼、开阔的庭院——都出自他的规划。而内部的装饰，则汇聚了当时最顶尖的艺术天才：画家约翰·迈克尔·罗特迈尔用他恢宏的湿壁画填满了教堂和图书馆的天花板，将圣经故事与世俗学问绘成天堂般的幻境；雕塑家们贡献了无数栩栩如生的圣徒与天使；工匠们则用纯金包裹着每一处可能闪耀的细节。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这场建造不仅是艺术的狂欢，更是财富与权力的展示。当辉煌的图书馆落成，收藏了近10万卷珍贵手稿和早期印刷书籍时，梅尔克已远非一座普通修道院。它成为了哈布斯堡帝国文化自信的象征。即便在拿破仑战争期间，修道院一度被 secularized（世俗化），修士被驱逐，但它珍贵的藏品大多得以保全。战后，奥古斯丁·库恩院长奇迹般地赎回了修道院，本笃会的精神生活得以恢复并延续至今。如今，它依然是一所运营中的学校所在地，图书馆的学者们仍在默默研究那些中世纪手稿。它的历史不是封存在玻璃柜里的过去，而是一条从未断流的河，从近千年前流淌至今，依旧生机勃勃。</p>
             </div>
           </Section>
 
           <Section title="4. 游览路线">
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐游览路线（2.5-3小时）</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  入口→主教庭院→皇帝阶梯→皇帝长廊→修道院博物馆→大理石厅→阳台观景台→图书馆→修道院教堂→北堡垒→修道院花园→出口。可选择跟随导览团（约55分钟，提供德、英、法、意四种语言）或自由参观。
+                  为了获得最完整、最宁静的体验，强烈建议你在上午9点开门时第一批入场，整个深度游览需要约3-4小时。这样的安排能让你在旅游团大军抵达前，独享图书馆和教堂的宁静氛围，并有充足的时间在露台发呆。路线设计遵循由外至内、由浅入深的原则：先从外部整体感受其磅礴气势，然后步入庭院适应神圣场域的宁静，接着用最具冲击力的图书馆和大理石厅点燃感官，在教堂达到精神体验的高潮，最后以俯瞰山河的辽阔视野作为完美收尾。整个过程节奏张弛有度，如同欣赏一首巴洛克交响曲。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议时长：</strong>2.5-3小时 | <strong>导览语言：</strong>德、英、法、意四种语言
+                  <strong>建议：</strong>教堂内时常有弥撒或音乐会排练，请务必保持绝对安静，关闭手机铃声，这是最基本的尊重。导游导览器内容非常丰富，建议按照自己的节奏收听，不必赶路。修道院内部大部分区域禁止饮食，包括露台，饮水请到指定区域。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 入口与主教庭院</h4>
-                  <p className="text-sm text-gray-700 mb-2">庭院中央有古老喷泉，四周环绕巴洛克建筑，顶部矗立着十二宗徒雕像，可清晰看到修道院教堂的墨绿色巴洛克拱顶。</p>
-                  <div className="text-xs text-gray-500">⭐ 游览起点 | 🏛️ 巴洛克建筑</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从山下小镇的主街开始，沿着标有“Stift Melk”的缓坡小路向上步行，让那座金色建筑随着你的脚步在树影间逐渐显现全貌。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 皇帝阶梯与长廊</h4>
-                  <p className="text-sm text-gray-700 mb-2">阶梯两侧装饰精美浮雕与壁画，曾是皇室成员专用通道；长廊悬挂历代院长与皇室成员画像。</p>
-                  <div className="text-xs text-gray-500">🏰 皇室通道 | 🎨 精美壁画</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">穿过气势恢宏的主入口，先不要急着进博物馆，在开阔的前院庭院驻足，顺时针走一圈，仰头欣赏立面每一尊雕像生动的表情与庭院完美的几何对称。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 修道院博物馆</h4>
-                  <p className="text-sm text-gray-700 mb-2">以"从往昔到今朝"为主题，全面展现修道院近千年历史变迁，涵盖圣本尼迪克特、巴洛克时代等主题。</p>
-                  <div className="text-xs text-gray-500">📚 历史文化 | 🏺 珍贵文物</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">通过北翼的入口进入参观区，首先探索曾经的皇家客房改建的博物馆，那里用简洁的展陈讲述了修道院千年的沧桑故事。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 大理石厅</h4>
-                  <p className="text-sm text-gray-700 mb-2">曾是皇室宴会厅，墙面与地面全部采用大理石铺就，穹顶壁画描绘神话场景，金碧辉煌。</p>
-                  <div className="text-xs text-gray-500">💎 皇室气派 | 🎭 神话壁画</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">然后做好准备，推开那扇厚重的门，瞬间踏入被誉为“世界最美图书馆之一”的图书馆大厅，让高耸书架、穹顶壁画和那份庄严的寂静将你包围。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. 阳台观景台</h4>
-                  <p className="text-sm text-gray-700 mb-2">俯瞰多瑙河与梅尔克镇的最佳位置，可将蜿蜒河流、红屋顶小镇与河谷风光尽收眼底。</p>
-                  <div className="text-xs text-gray-500">🌅 绝佳观景 | 📸 拍照必到</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从图书馆的震撼中稍作平复，穿过长廊进入同样华丽的大理石厅，想象这里曾举办盛大宴会的场景，并细看天花板上描绘着希腊神话中“智慧女神雅典娜”的巨幅壁画。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">6. 图书馆</h4>
-                  <p className="text-sm text-gray-700 mb-2">被誉为"全球十座最美图书馆之一"，珍藏超过10万册古籍，巴洛克式装饰令人震撼。</p>
-                  <div className="text-xs text-gray-500">📖 珍贵古籍 | 🏛️ 世界文化遗产</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">沿着参观路线的指引，你将自然步入修道院教堂的核心——圣伯多禄圣保禄教堂，在这里请找一张长椅坐下，静静仰头观赏祭坛穹顶那幅炫目到令人眩晕的《天国荣耀》湿壁画。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">7. 修道院教堂</h4>
-                  <p className="text-sm text-gray-700 mb-2">巴洛克建筑群巅峰之作，金色与橙色主调，大量运用金箔、灰泥与大理石，庄严肃穆。</p>
-                  <div className="text-xs text-gray-500">⛪ 宗教圣地 | ✨ 金碧辉煌</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从教堂侧门走出，一定要踏上南侧宽阔的弧形露台，凭栏而立，将蜿蜒的多瑙河、红顶小镇和连绵的葡萄园尽收眼底，这是属于你的“瓦豪河谷明信片”时刻。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">8. 北堡垒与花园</h4>
-                  <p className="text-sm text-gray-700 mb-2">设有"瓦豪实验室"和全景露台，花园融合巴洛克园林与英式自然风景园风格，设有多个主题园区。</p>
-                  <div className="text-xs text-gray-500">🌺 花园美景 | 🔬 文化体验</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">最后顺着路线下山，不妨在山脚下小镇的某家河畔餐厅坐下，点一杯当地产的雷司令白葡萄酒，回味刚才经历的一切。</p>
                 </div>
               </div>
             </div>
@@ -139,139 +122,61 @@ export default function MelkAbbeyPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 修道院外墙机位</h4>
-                  <p className="text-sm text-gray-700">位于入口处广场，仰拍角度可拍摄完整黄色外立面与墨绿色拱顶，黄色墙体在阳光下格外耀眼。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 修道院南侧露台远端角落</h4>
+                  <p className="text-sm text-gray-700">下午四点到日落前，阳光为河谷披上金色，使用广角镜头将巴洛克栏杆作为前景，框住多瑙河大拐弯和远方的村庄，构成一幅层次丰富的全景画。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 阳台观景台机位</h4>
-                  <p className="text-sm text-gray-700">拍摄多瑙河与梅尔克镇全景最佳位置，可将蜿蜒河流、红屋顶小镇与河谷风光同框。</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 图书馆窗边机位</h4>
-                  <p className="text-sm text-gray-700">窗边区域可拍摄绿色山坡与修道院建筑一角，将古书、书架与窗外风光结合，营造文艺复古氛围。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 图书馆入口向内拍摄</h4>
+                  <p className="text-sm text-gray-700">上午光线最佳，从门槛处向室内拍，利用门框自然形成画框，捕捉长廊般的书架透视感和穹顶壁画的一角，注意严格遵守禁止使用闪光灯的规定。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 主教庭院喷泉机位</h4>
-                  <p className="text-sm text-gray-700">蹲在喷泉旁拍摄水面倒影，可将修道院建筑、天空与喷泉倒影完美融合，形成对称构图。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 从多瑙河对岸或乘坐经过的火车上远眺</h4>
+                  <p className="text-sm text-gray-700">清晨或黄昏时分，从河对岸的小径或火车车窗，可以拍到修道院雄踞于山岩之上、倒映在河水中的完整全景，气势最为磅礴。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. 修道院花园机位</h4>
-                  <p className="text-sm text-gray-700">花园内绿篱迷宫、石凳与花卉都是绝佳背景，可拍摄漫步花园动态照片或以修道院建筑为背景。</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">6. 多瑙河对岸机位</h4>
-                  <p className="text-sm text-gray-700">从对岸步道拍摄，可将修道院完整建筑群与多瑙河同框，修道院矗立山岩之上，倒映河水中。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 教堂中殿仰望穹顶</h4>
+                  <p className="text-sm text-gray-700">选择一个晴朗日子的正午前后，站在教堂中殿中央仰拍，此时阳光可能透过高窗，与内部金饰交相辉映，能最大程度捕捉到天花板上罗特迈尔壁画的绚丽细节与纵深感。</p>
                 </div>
               </div>
+
             </div>
             
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
-              <h4 className="font-semibold text-purple-800 mb-2">拍照注意事项</h4>
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 修道院教堂、图书馆内部禁止拍照，禁止使用闪光灯</li>
-                <li>• 参观时请尊重景区规定，避免影响他人与宗教活动</li>
-                <li>• 户外拍摄时避免游客高峰期，可选择清晨或傍晚，光线更好</li>
-                <li>• 建议晴天上午拍摄外墙，色彩饱满；傍晚拍摄多瑙河对岸，夕阳温暖</li>
+                <li>• 图书馆内部严禁使用相机和三脚架拍摄，手机通常也被禁止，这是为了保护极其珍贵且对光线敏感的古籍。在教堂和博物馆内拍摄时请务必关闭闪光灯。无人机在修道院及小镇上空飞行有严格限制，未经许可请勿使用。</li>
               </ul>
             </div>
           </Section>
 
-          <Section title="6. 附近景点">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">杜恩施泰因小镇（Dürnstein）</h4>
-                <p className="text-sm text-gray-700 mb-2">距离梅尔克约20公里，瓦豪河谷精华小镇，以蓝白色尖顶奥古斯汀修道院和山顶城堡废墟闻名，传说狮心王理查一世曾被囚禁于此。</p>
-                <div className="text-xs text-gray-500">🚗 车程30分钟 | 🏰 中世纪传说</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">克雷姆斯小镇（Krems）</h4>
-                <p className="text-sm text-gray-700 mb-2">位于瓦豪河谷北端，距离梅尔克约40公里，奥地利最古老城镇之一，以葡萄酒产区闻名，每年秋季举办葡萄酒节。</p>
-                <div className="text-xs text-gray-500">🚗 车程40分钟 | 🍷 葡萄酒文化</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">瓦豪河谷游船之旅</h4>
-                <p className="text-sm text-gray-700 mb-2">从梅尔克出发乘坐多瑙河游船前往克雷姆斯，全程约2小时，沿途欣赏河谷绝美风光，途经多个中世纪小镇与古堡。</p>
-                <div className="text-xs text-gray-500">🚢 游船2小时 | 🌊 河谷风光</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">梅尔克镇老城区</h4>
-                <p className="text-sm text-gray-700 mb-2">修道院所在的梅尔克镇本身极具游览价值，老城区保留大量中世纪与巴洛克式建筑，街道狭窄幽静，充满历史韵味。</p>
-                <div className="text-xs text-gray-500">🚶‍♂️ 步行可达 | 🏘️ 历史街区</div>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿小贴士">
+          <Section title="6. 住宿小贴士">
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">镇中心或修道院附近</h4>
-                  <p className="text-sm text-blue-800">优先选择，步行可达修道院与老城区，方便游览，能避开旅游大巴高峰人群。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">经济精选</h4>
+                  <p className="text-sm text-blue-800">住在梅尔克小镇中心的家庭式旅馆“河畔居”，房间虽小但整洁温馨，老板会热情地为你手绘地图，清晨在阳台就能看到被晨雾轻抚的修道院尖顶。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">靠近多瑙河住宿</h4>
-                  <p className="text-sm text-green-800">享受河景，感受小镇静谧，适合喜欢安静的游客，环境优美。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">特色体验</h4>
+                  <p className="text-sm text-green-800">选择修道院本身经营的“圣彼得宾馆”，它位于修道院建筑群内一处宁静的侧翼，入住其中就像成为了修道院历史的一部分，夜晚和清晨独享空无一人的庭院，感受 truly 穿越时光。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">交通枢纽附近</h4>
-                  <p className="text-sm text-yellow-800">靠近火车站或游船码头，适合计划游览瓦豪河谷多个景点的游客。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">高端享受</h4>
+                  <p className="text-sm text-yellow-800">下榻瓦豪河谷腹地、由古老葡萄酒庄园改造的五星级酒店“ Schloss Dürnstein”，位于附近另一个古镇，坐拥无敌河谷 view，提供顶级水疗和自家产的美酒，将修道院之旅延伸为一场皇家般的河谷度假。</p>
                 </div>
               </div>
-              
-              <div className="grid md:grid-cols-4 gap-4">
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">经济型青年旅社</h4>
-                  <p className="text-sm text-gray-700 mb-2">干净整洁、价格实惠，大多步行可达修道院与火车站，适合背包客。</p>
-                  <div className="text-xs text-gray-500">💰 预算友好 | 🎒 背包客首选</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">三星级酒店</h4>
-                  <p className="text-sm text-gray-700 mb-2">地理位置优越，平衡多瑙河与修道院距离，部分设有特色餐厅。</p>
-                  <div className="text-xs text-gray-500">⭐ 性价比高 | 👨‍👩‍👧‍👦 家庭情侣</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">四星级及以上酒店</h4>
-                  <p className="text-sm text-gray-700 mb-2">多位于核心地段，部分拥有百年历史，装饰精美，设露台与高级餐厅。</p>
-                  <div className="text-xs text-gray-500">💎 品质追求 | 🏰 历史建筑</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">家庭经营民宿</h4>
-                  <p className="text-sm text-gray-700 mb-2">位于安静地段，提供当地特色早餐，充满乡土气息，体验当地生活。</p>
-                  <div className="text-xs text-gray-500">🏡 家庭氛围 | 🍳 特色早餐</div>
-                </div>
-              </div>
-              
-              <div className="bg-red-50 p-4 rounded-lg">
-                <h4 className="font-semibold text-red-900 mb-2">预订建议与注意事项</h4>
-                <div className="grid md:grid-cols-2 gap-4 text-sm text-red-800">
-                  <div>
-                    <p className="mb-2"><strong>旺季（4-10月）：</strong>建议提前1-2个月预订，夏季与节假日游客较多</p>
-                    <p className="mb-2"><strong>淡季（11月-次年3月）：</strong>可提前1-2周预订，部分酒店推出优惠活动</p>
-                    <p><strong>文化票折扣：</strong>部分酒店与民宿提供修道院门票折扣，可节省费用</p>
-                  </div>
-                  <div>
-                    <p className="mb-2"><strong>必备用品：</strong>奥地利住宿通常不提供洗漱用品，需自备牙刷、牙膏等</p>
-                    <p className="mb-2"><strong>免费停车：</strong>部分住宿提供免费停车，自驾游客可提前咨询</p>
-                    <p><strong>注意事项：</strong>遵守当地规定，保持安静，尊重房东与其他游客</p>
-                  </div>
-                </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">梅尔克小镇非常安全宁静，但住宿数量有限，尤其在夏季和多瑙河游船旺季，务必提前数月预订。如果预订修道院内部的宾馆，请务必确认好入住办理的具体地点和时间，它可能不在主游客入口。</p>
               </div>
             </div>
           </Section>
 
-          <Section title="8. 总结与感悟">
-            <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                米尔斯泰因修道院不仅是一座宗教圣地，更是一座集建筑、艺术、历史于一体的文化宝库。在这里，你可以欣赏到巴洛克艺术的璀璨与精致，感受近千年的历史沉淀，俯瞰多瑙河与瓦豪河谷的绝美风光，体验奥地利小镇的宁静与惬意。
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                从主教庭院的庄严到图书馆的学术氛围，从大理石厅的皇室气派到教堂的精神核心，从观景台的山河全景到花园的自然和谐，每一个角落都诉说着历史的故事，展现着文化的魅力。
-              </p>
-              <p className="text-gray-700 leading-relaxed font-medium">
-                希望这份攻略能帮助你更好地游览米尔斯泰因修道院，留下一段难忘的奥地利旅行记忆，在巴洛克艺术的璀璨中感受信仰的力量，在瓦豪河谷的秀美中领略自然的恩赐。
-              </p>
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开梅尔克修道院很久之后，那片金色依然会在某些安静的时刻，不经意地晃过眼前。它留给我的，远不止是巴洛克艺术的视觉震撼。那是一种非常复杂的感受：一方面，是人类将信仰与美感推向极致的、近乎狂妄的创造力，那种用黄金、壁画和浩瀚书卷向永恒发问的勇气；另一方面，是近千年来，日复一日的晨祷钟声、沙沙的翻书声、学子们的脚步声所沉淀下的那种 deep peace，那种在世事变迁中坚守内核的定力。这两种看似矛盾的气质——极致的张扬与极致的沉静——竟在这里完美共存。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个追求速成与流量的时代，梅尔克像一位时间深处的智者。它提醒着我们，有些事物需要 centuries 去建造、去守护、去沉淀。它不是一个被抽空的博物馆标本，而是一个仍然跳动着的、活的文化心脏。在这里，你能触摸到欧洲文明中那条连接着中世纪修道院、文艺复兴人文主义与巴洛克荣光的清晰脉络。每一位热爱深度游的旅人都该来此驻足，不仅仅是为了一张明信片风景，更是为了体验那种被浩瀚历史与不朽艺术同时拥抱的感动，然后在多瑙河畔的微风里，重新思考什么是短暂，什么是永恒。这趟旅程，会成为你记忆里一块沉甸甸的、发着光的金砖。</p>
             </div>
           </Section>
         </div>

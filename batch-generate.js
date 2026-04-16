@@ -47,7 +47,8 @@ function parseText(text) {
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
     if (!line) continue;
-    const match = line.match(/^【(.+)】$/);
+    // 兼容 【标签】 或 【 标签 】 以及加粗的 **【标签】**
+    const match = line.replace(/\*\*/g, '').match(/^【\s*(.+?)\s*】$/);
     
     if (match) {
       if (currentKey) {

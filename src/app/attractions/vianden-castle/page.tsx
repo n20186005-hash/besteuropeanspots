@@ -4,11 +4,11 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '那慕尔城堡・Citadelle de Namur・比利时・那慕尔 | 最佳欧洲景点',
-  description: '探索那慕尔城堡，比利时瓦隆地区标志性的中世纪军事要塞，坐落于默兹河与桑布尔河交汇处的山丘之巅，融合多种建筑风格。',
+  title: '维安登城堡 Vianden Castle｜坐拥乌尔河谷全景的中世纪梦幻堡垒 - 最佳欧洲景点',
+  description: '车子在盘山公路上绕了几个弯，当维安登城堡毫无预警地闯入眼帘时，我还是忍不住“哇”了一声。它不像那些精雕细琢的宫殿，而是带着一种粗粝的、不容置疑的威严，从一片墨绿的森林顶端生长出来，牢牢抓住整条山脉的脊梁。清晨的薄雾还懒洋洋地缠在半山腰，阳光先一步洒在城堡高耸的塔楼和赭石色的墙壁上，给它镀上了一层温暖...',
 }
 
-export default function NamurCastlePage() {
+export default function ViandenCastlePage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
@@ -16,123 +16,113 @@ export default function NamurCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '那慕尔城堡', href: '/attractions/vianden-castle' },
+            { label: '维安登城堡', href: '/attractions/vianden-castle' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">那慕尔城堡・Citadelle de Namur・比利时・那慕尔</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">维安登城堡・Vianden Castle・卢森堡・维安登镇</h1>
           <p className="text-lg text-gray-600 mb-6">
-            那慕尔城堡是比利时那慕尔市的象征，始建于12世纪，坐落于两河交汇的山丘之上，是中世纪欧洲最坚固的军事要塞之一。城堡融合多种建筑风格，留存着完整的防御工事、瞭望塔与博物馆，陈列着中世纪武器、文物与历史资料，见证了那慕尔地区千年历史更迭，兼具军事防御价值与建筑艺术美感，是追溯欧洲中世纪历史、俯瞰城市全景的必访之地。
+            车子在盘山公路上绕了几个弯，当维安登城堡毫无预警地闯入眼帘时，我还是忍不住“哇”了一声。它不像那些精雕细琢的宫殿，而是带着一种粗粝的、不容置疑的威严，从一片墨绿的森林顶端生长出来，牢牢抓住整条山脉的脊梁。清晨的薄雾还懒洋洋地缠在半山腰，阳光先一步洒在城堡高耸的塔楼和赭石色的墙壁上，给它镀上了一层温暖的金边。那一刻的感觉很奇特，仿佛时间的流速都变慢了，你一眼望见的是整整八百年的沉默与守望。
+把车停在山脚下的小镇，决定徒步走上去。石板路陡峭，走起来能听见自己清晰的呼吸声和登山鞋的摩擦声。空气里有松针和湿润泥土的味道，混合着远处面包房飘来的黄油香气。越靠近城堡，那种压迫感就越强，巨大的石块堆砌的墙体近在咫尺，你能看清每一道风雨侵蚀的痕迹，每一块颜色深浅不一的修补。穿过吊桥，走进幽暗的门洞，外界的喧嚣瞬间被隔绝。城堡内部庭院里，有人静静地坐着素描，铅笔划过纸面的沙沙声，和屋檐下燕子归巢的呢喃交织在一起，构成了奇妙的背景音。这里不只是一个景点，更像是小镇呼吸的一部分。
+走进一个个复原的房间——宴会厅、小教堂、伯爵的寝宫——光线从高高的、狭窄的窗口射入，在古老的木地板上投下长长的光柱，你能看见尘埃在光里跳舞。房间里挂着厚重的挂毯，陈列着冷冰冰的铠甲，壁炉大到可以站进去一个人。我试着想象，几百年前的冬天，伯爵一家围坐在这个壁炉前，听着屋外山谷里呼啸的北风，会是怎样的景象。最震撼的时刻是登上最高的塔楼。风猛地灌进来，吹得人几乎站不稳。但眼前的景色让你忘了这一切：蜿蜒的乌尔河像一条银色的丝带，将红屋顶的小镇温柔地揽在怀中；远处是层层叠叠、无尽延伸的阿登森林，像一块巨大的、起伏的绿色天鹅绒。那一刻，你完全理解了“要塞”二字的全部意义——不仅是防御，更是君临天下的视野与气魄。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              那慕尔城堡是比利时那慕尔市的象征，始建于12世纪，坐落于两河交汇的山丘之上，是中世纪欧洲最坚固的军事要塞之一。城堡融合多种建筑风格，留存着完整的防御工事、瞭望塔与博物馆，陈列着中世纪武器、文物与历史资料，见证了那慕尔地区千年历史更迭，兼具军事防御价值与建筑艺术美感，是追溯欧洲中世纪历史、俯瞰城市全景的必访之地。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4">车子在盘山公路上绕了几个弯，当维安登城堡毫无预警地闯入眼帘时，我还是忍不住“哇”了一声。它不像那些精雕细琢的宫殿，而是带着一种粗粝的、不容置疑的威严，从一片墨绿的森林顶端生长出来，牢牢抓住整条山脉的脊梁。清晨的薄雾还懒洋洋地缠在半山腰，阳光先一步洒在城堡高耸的塔楼和赭石色的墙壁上，给它镀上了一层温暖的金边。那一刻的感觉很奇特，仿佛时间的流速都变慢了，你一眼望见的是整整八百年的沉默与守望。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">把车停在山脚下的小镇，决定徒步走上去。石板路陡峭，走起来能听见自己清晰的呼吸声和登山鞋的摩擦声。空气里有松针和湿润泥土的味道，混合着远处面包房飘来的黄油香气。越靠近城堡，那种压迫感就越强，巨大的石块堆砌的墙体近在咫尺，你能看清每一道风雨侵蚀的痕迹，每一块颜色深浅不一的修补。穿过吊桥，走进幽暗的门洞，外界的喧嚣瞬间被隔绝。城堡内部庭院里，有人静静地坐着素描，铅笔划过纸面的沙沙声，和屋檐下燕子归巢的呢喃交织在一起，构成了奇妙的背景音。这里不只是一个景点，更像是小镇呼吸的一部分。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">走进一个个复原的房间——宴会厅、小教堂、伯爵的寝宫——光线从高高的、狭窄的窗口射入，在古老的木地板上投下长长的光柱，你能看见尘埃在光里跳舞。房间里挂着厚重的挂毯，陈列着冷冰冰的铠甲，壁炉大到可以站进去一个人。我试着想象，几百年前的冬天，伯爵一家围坐在这个壁炉前，听着屋外山谷里呼啸的北风，会是怎样的景象。最震撼的时刻是登上最高的塔楼。风猛地灌进来，吹得人几乎站不稳。但眼前的景色让你忘了这一切：蜿蜒的乌尔河像一条银色的丝带，将红屋顶的小镇温柔地揽在怀中；远处是层层叠叠、无尽延伸的阿登森林，像一块巨大的、起伏的绿色天鹅绒。那一刻，你完全理解了“要塞”二字的全部意义——不仅是防御，更是君临天下的视野与气魄。</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="那慕尔城堡" />
-                <InfoRow label="英文名称" value="Citadelle de Namur" />
-                <InfoRow label="国家" value="比利时（Belgium）" />
-                <InfoRow label="城市" value="那慕尔（Namur）" />
-                <InfoRow label="所属区域" value="比利时瓦隆大区那慕尔省" />
+                <InfoRow label="中文名称" value="维安登城堡" />
+                <InfoRow label="英文名称" value="Vianden Castle" />
+                <InfoRow label="正式名称" value="Vianden Castle" />
+                <InfoRow label="国家" value="卢森堡" />
+                <InfoRow label="城市" value="维安登镇" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="比利时瓦隆地区标志性的中世纪军事要塞" />
-                <InfoRow label="核心特色" value="坐落于默兹河与桑布尔河交汇处的山丘之巅" />
-                <InfoRow label="文化价值" value="欧洲中世纪军事防御建筑的典范" />
-                <InfoRow label="建筑价值" value="融合罗马式、哥特式与巴洛克式建筑风格" />
+                <InfoRow label="历史地位" value="欧洲最重要且风景最优美的封建领主居所之一，见证了卢森堡从中世纪到近代的权力变迁。" />
+                <InfoRow label="建筑特色" value="防御功能与豪华居住空间完美融合，雄踞山脊，俯瞰整个乌尔河谷，气势恢宏。" />
+                <InfoRow label="建筑风格" value="以罗曼式为基础，历经数百年扩建，融入了显著的哥特式风格，是过渡时期的建筑典范。" />
+                <InfoRow label="文化价值" value="卢森堡国家身份与历史自豪感的象征，其修复工程被视为欧洲文化遗产保护的里程碑。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="淡季周二至周日10:00-16:30；旺季周一至周日9:30-17:30" />
-              <InfoRow label="门票价格" value="成人9欧元；青少年6欧元；儿童4欧元；6岁以下免费" />
-              <InfoRow label="地址" value="Citadelle de Namur, 5000 Namur, Belgium" />
-              <InfoRow label="交通方式" value="从布鲁塞尔乘火车直达那慕尔约1小时；从列日乘火车约45分钟" />
+              <InfoRow label="开放时间" value="夏季（四月至十月）：每日上午10点至下午6点，最后入场时间为下午5点。
+冬季（十一月至三月）：每日上午10点至下午4点，最后入场时间为下午3点。
+城堡于每年1月1日、11月1日和12月25日闭馆。特殊节假日如卢森堡国庆节（6月23日）可能调整开放时间，建议行前在官网确认。每年十二月，城堡内会举办温馨的圣诞市集，开放时间会延长至晚间。" />
+              <InfoRow label="门票价格" value="成人票：10欧元。
+儿童票（6-12岁）：2.5欧元。
+儿童（6岁以下）：免费。
+家庭票（2位成人+最多3名儿童）：25欧元。
+学生票（需持有效学生证）：7欧元。
+老年人票（65岁以上）：7欧元。
+门票包含语音导览器租赁（有多种语言可选，含中文）。建议提前在官网在线购票以节省排队时间，尤其是在夏季周末和公共假期。" />
+              <InfoRow label="地址" value="Montée du Château, 9408 Vianden, Luxembourg" />
+              <InfoRow label="交通方式" value="从卢森堡市（卢森堡芬德尔机场LUX或中央火车站）出发，最便捷的方式是乘坐火车。在卢森堡中央火车站乘坐开往列日的列车，在“埃特尔布吕克 (Ettelbruck)”站下车，车程约35-40分钟，班次频繁。在埃特尔布吕克火车站外，转乘570路公共巴士，前往“Vianden, Breck”站，车程约20分钟。从巴士站步行上山至城堡入口约需15-20分钟。若自驾，从卢森堡市出发沿N17公路向北，车程约45分钟，城堡山下有收费停车场。购票建议使用卢森堡全国通用的交通卡，火车与巴士可无缝换乘。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                那慕尔城堡的历史可追溯至公元前1世纪的罗马时期，最初是罗马帝国统治下的一个军事据点，因地处默兹河与桑布尔河交汇处的战略要地，成为连接罗马与北方部落的交通枢纽和军事屏障，见证了欧洲两千多年的历史更迭与时代变迁，是比利时历史最悠久的军事遗迹之一。
-              </p>
-              <p>
-                罗马时期至5世纪，是城堡的初创与发展期。公元前51年，罗马人征服比利时地区后，在两河交汇的山丘上修建了简易的军事堡垒，命名为"Namurum"，作为防御日耳曼部落入侵的前沿阵地。这一时期，堡垒逐渐形成雏形，修建了简易的城墙、瞭望塔与居住设施，主要居民为罗马士兵与当地部落居民，以农业、手工业与河运为生，成为罗马帝国北方边境的重要据点。随着罗马帝国的衰落，堡垒一度陷入混乱，先后被日耳曼部落与法兰克人占领，逐渐成为法兰克王国的一部分。
-              </p>
-              <p>
-                6世纪至11世纪，那慕尔地区进入稳定发展期，城堡成为宗教与军事并重的重要据点。6世纪，基督教传入那慕尔地区，当地在堡垒周边修建了第一座教堂，宗教文化逐渐融入城堡的发展之中。9世纪，查理曼帝国时期，城堡进行了第一次大规模修缮与扩建，加固了城墙，增设了防御工事，成为区域性的军事指挥中心。这一时期，那慕尔地区逐渐形成城镇，城堡成为城镇的核心，掌控着两河的交通与贸易，地位日益重要。
-              </p>
-              <p>
-                12世纪至16世纪，那慕尔城堡进入鼎盛时期，成为欧洲最坚固的军事要塞之一。12世纪初，那慕尔伯爵下令大规模扩建城堡，融合罗马式与哥特式建筑风格，修建了主塔楼、地牢、防御城墙、吊桥等设施，形成了"山丘筑城、两河设防"的独特格局，防御体系极为完善，大有一夫当关万夫莫开之势。随着中世纪欧洲商业的兴起，两河成为重要的贸易通道，那慕尔凭借优越的地理位置，成为河运贸易的重要中转站，商业繁荣带动了城堡的发展，城堡内逐渐修建了民居、商铺与宗教建筑，成为兼具军事防御与生活居住功能的综合性堡垒。这一时期，城堡多次抵御外敌入侵，始终保持完好，成为那慕尔地区的象征。
-              </p>
-              <p>
-                17世纪至19世纪，城堡历经战乱与动荡，逐渐走向衰落。17世纪，欧洲爆发宗教战争与三十年战争，那慕尔地区多次被战火波及，城堡的城墙、塔楼与建筑遭到严重破坏，大量文物被损毁或掠夺，军事功能逐渐弱化。1789年法国大革命爆发后，那慕尔被法国占领，城堡被改为军事营地，部分建筑被改造为公共设施，宗教建筑遭到冲击。19世纪，比利时独立后，那慕尔成为那慕尔省的首府，当地政府开始对城堡进行修复，修复受损的城墙与塔楼，恢复城堡的历史风貌，同时将部分建筑改造为博物馆，展示城堡的历史与文物，城堡逐渐成为当地的历史文化景点。
-              </p>
-              <p>
-                20世纪至今，那慕尔城堡迎来全面保护与新生。20世纪初，比利时政府将那慕尔城堡列为国家级历史文化遗产，对其进行系统性保护与修缮，严格保留城堡的中世纪军事风貌，禁止大规模现代化改造。二战期间，那慕尔虽被德国占领，但城堡核心建筑未遭到严重破坏，战后政府再次对其进行修复，完善基础设施，增设游客服务设施，提升游览体验。如今，那慕尔城堡已成为比利时著名的历史景点，吸引着世界各地的游客前来探访，既保留着中世纪的古朴威严，又融入了现代旅游的便捷服务，成为历史与现代交融的典范。
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">要说清楚维安登城堡的故事，我们得把时钟拨回到古罗马时代。你脚下这座山，可不是随便选的。早在公元4世纪，古罗马人就看中了这个易守难攻的险要位置，在这里修建了一座坚实的要塞，守护着通往特里尔的重要道路。那些深埋在地基里的罗马石块，是这座城堡最古老的记忆。而城堡真正开始书写自己的传奇，是在1064年。一份古老的羊皮纸文书上第一次出现了“维安登城堡”的名字，当时它是一座坚固的“castellum”，也就是防御性的堡垒。最初的领主们，用粗糙的石块垒起了我们今天还能看到的核心部分——那厚重的城墙和方形的塔楼，充满了早期罗曼式建筑的朴实与力量感。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">城堡的黄金时代，属于维安登伯爵家族。从12世纪到15世纪，这个家族不仅是卢森堡地区最有势力的封建领主之一，还通过联姻和战争，把影响力扩大到了遥远的法国。钱袋子鼓了，城堡也跟着“升级换代”。他们不再满足于一个单纯的军事堡垒，而是要一个配得上其地位和品味的豪华官邸。于是，建筑师们开始大刀阔斧地改建。他们引入了当时最时髦的哥特式风格——看看那些优雅的拱顶、雕刻精美的窗棂，以及采光更好的大厅。最具代表性的就是那座华丽的小教堂，它有两层，上层供伯爵家族使用，下层给仆人们祈祷，等级分明，但艺术水准同样高超。这段时期，城堡里举办过无数盛宴，回荡着游吟诗人的歌声，也密谋过影响地区格局的政治决策。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，就像所有中世纪家族的故事一样，兴盛之后难免衰落。1417年，随着最后一位维安登伯爵去世且没有直系继承人，城堡的命运迎来了转折。它被转手给了奥兰治-拿骚家族，也就是后来荷兰王室的祖先。新主人并不常驻于此，城堡更多时候是作为一个行政中心和收租的象征。更大的打击来自1688年的战争，法国国王路易十四的军队横扫了这一地区，城堡在战火中受损严重。雪上加霜的是，到了1820年，当时的荷兰国王威廉一世为了偿还债务，竟然将城堡拆解变卖！是的，你没听错，像卖废品一样，把屋顶、门窗、甚至部分墙体都拍卖了。曾经辉煌的城堡变成了一个凄凉的、对外开放的“废墟景点”，风雨无情地侵蚀着它裸露的骨架，这一荒废，就是超过一个世纪。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">转机出现在1977年。那时，城堡已经归属于卢森堡大公国。也许是被这座伟大废墟的悲壮所触动，也许是对民族历史根源的追寻，卢森堡政府做出了一个被载入史册的决定：将城堡完整地归还给国家，并启动一项宏大而精细的修复工程。这不是简单的重建，而是一次基于严谨历史考据的“再创造”。工匠们查阅了无数古老的图纸、绘画和文献，寻找散落民间的原始构件，一砖一瓦地让城堡重生。这项工程持续了多年，当城堡最终以近乎原貌的姿态重新矗立在山巅时，它不再仅仅是一座古建筑，而是整个卢森堡民族精神复活的象征。今天，当你抚摸那些新旧交融的石墙，你触摸的是一部跌宕起伏的史诗，从罗马的基石，到伯爵的荣光，再到废墟的苍凉，最终在当代人的手中获得新生。</p>
             </div>
           </Section>
 
           <Section title="4. 游览路线">
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐游览路线（3小时左右）</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  城堡入口 → 吊桥与城门 → 主塔楼 → 防御城墙与瞭望塔 → 城堡博物馆 → 中世纪庭院 → 观景平台 → 城堡出口 → 山下集市广场
+                  想要完美体验维安登城堡，我强烈建议安排一整天给维安登小镇。最佳抵达时间是早上9点半左右，这时旅行团大军尚未到达，山间晨雾未散，光线柔和，是拍照和感受城堡静谧之美的黄金时段。整体游览节奏应该是“由外至内，由上至下，最后融入小镇”。上午先用2-2.5小时深度探索城堡内部和塔楼，将最充沛的精力留给攀登和震撼的全景。中午可以在城堡内的咖啡馆简单休息，或者下山到小镇找一家河边餐厅享用午餐。下午则用1-2小时悠闲地漫步小镇，参观相关博物馆，坐在河边发呆，把城堡作为背景板来欣赏。这样的安排既能避开人流高峰，又能从不同角度、不同距离全面感受城堡的魅力，让历史感和生活气完美结合。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>可从城堡山脚入口出发，全程步行游览，路线舒缓，兼顾军事遗迹、历史文物与城市景观，可租赁语音导览（支持多语言），也可跟随当地导览团（约1.5小时，提供多语言服务）
+                  <strong>建议：</strong>尽量避开周末和卢森堡的公共假期，否则狭窄的塔楼楼梯可能会排起长队，影响体验。
+务必穿一双绝对舒适防滑的徒步鞋，城堡内外的石板路和楼梯大多原始不平，高跟鞋在这里是“灾难”。
+如果时间充裕，可以查询城堡官网，他们时常在夏季夜晚举办中世纪主题音乐会或灯光秀，那是完全不同的梦幻体验。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 城堡入口</h4>
-                  <p className="text-sm text-gray-700 mb-2">从山脚停车场或接驳车下车点步行5分钟即可抵达城堡入口，入口处保留着中世纪的石质城门，城门上雕刻着古老的铭文与军事图案，彰显着城堡的威严。</p>
-                  <div className="text-xs text-gray-500">🚶 步行5分钟 | � 中世纪城门</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从山脚小镇的集市广场出发，沿着有明显历史痕迹的陡峭石板路“蒙泰杜城堡路”缓缓步行上山，一路感受腿部酸胀并欣赏两侧古朴的民居花园。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 吊桥与城门</h4>
-                  <p className="text-sm text-gray-700 mb-2">进入入口后，首先抵达吊桥与城门，这座吊桥始建于12世纪，是中世纪城堡的标志性防御设施，桥面由石板铺成，两侧设有石质护栏，可手动升降。</p>
-                  <div className="text-xs text-gray-500">🌉 12世纪吊桥 | 🛡️ 防御设施</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">穿过那座咯吱作响的木质吊桥，步入城堡阴凉的内门洞，瞬间被古老石头的气息和巨大的空间感所包裹。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 主塔楼</h4>
-                  <p className="text-sm text-gray-700 mb-2">穿过吊桥与城门，步行8分钟即可抵达主塔楼，主塔楼是城堡的核心建筑，始建于12世纪，高约30米，融合哥特式建筑风格，墙体厚重坚固。</p>
-                  <div className="text-xs text-gray-500">🏰 核心建筑 | 🗼 30米高塔</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">拿上语音导览器，首先探索地下室的考古展览，那里陈列着从罗马时代到中世纪的基石和文物，是理解城堡千年根基的起点。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 防御城墙与瞭望塔</h4>
-                  <p className="text-sm text-gray-700 mb-2">从主塔楼下来，沿着蜿蜒的石板路前行10分钟，即可抵达防御城墙与瞭望塔。城墙始建于罗马时期，历经多次修缮，保留着中世纪的防御风貌。</p>
-                  <div className="text-xs text-gray-500">🧱 罗马时期 | � 中世纪防御</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">顺着螺旋石阶逐层向上，依次参观复原的骑士厅、宴会厅和伯爵起居室，注意观察墙壁上色彩鲜艳的古老壁画和巨大的哥特式壁炉。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. 城堡博物馆</h4>
-                  <p className="text-sm text-gray-700 mb-2">沿着城墙前行15分钟，即可抵达城堡博物馆，博物馆位于一座中世纪建筑内，前身是城堡的兵营，如今改造为展示城堡历史与那慕尔地区文化的场所。</p>
-                  <div className="text-xs text-gray-500">�️ 历史博物馆 | � 文化展示</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">一定要爬上西北角最高的塔楼，尽管楼梯狭窄盘旋，但登顶后360度无死角的乌尔河谷全景会让你觉得一切辛苦都值得。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">6. 中世纪庭院</h4>
-                  <p className="text-sm text-gray-700 mb-2">从博物馆出来，步行5分钟即可抵达中世纪庭院，庭院是当年城堡内士兵与居民的活动场所，地面由石板铺成，周边环绕着古朴的石质建筑。</p>
-                  <div className="text-xs text-gray-500">�️ 中世纪庭院 | ⛲ 古朴喷泉</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">下来后，在城堡内院的露天咖啡馆找个位置坐下，点一杯卢森堡本地啤酒或咖啡，看着燕子在高墙间穿梭，静静消化刚才看到的一切。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">7. 观景平台</h4>
-                  <p className="text-sm text-gray-700 mb-2">从庭院出发，步行10分钟即可抵达观景平台，这是城堡内观赏城市全景的最佳地点，平台视野开阔，可将那慕尔市的全貌、默兹河与桑布尔河的交汇风光尽收眼底。</p>
-                  <div className="text-xs text-gray-500">🌅 观景平台 | 🏞️ 两河交汇</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从城堡的南侧出口沿着一条更平缓的森林小径下山，这条路会带你穿过一片安静的林地，并从一个绝佳的外围角度再次回望城堡全貌。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">8. 城堡出口与山下集市广场</h4>
-                  <p className="text-sm text-gray-700 mb-2">从观景平台下来，步行15分钟即可抵达城堡出口，出口处设有纪念品商铺，可购买当地特色纪念品。出城堡后，步行10分钟即可抵达山下的集市广场。</p>
-                  <div className="text-xs text-gray-500">🛍️ 纪念品 | 🏛️ 集市广场</div>
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">下山后不要急着离开，去小镇河边的“维克多·雨果之家”博物馆看看，这位大文豪曾流亡于此并深深爱上了这里，他的视角会让你对城堡有新的理解。</p>
                 </div>
               </div>
             </div>
@@ -142,140 +132,74 @@ export default function NamurCastlePage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 吊桥全景机位</h4>
-                  <p className="text-sm text-gray-700">位于吊桥中段，采用平视角度，拍摄吊桥的全貌与城门的建筑细节，将吊桥的石板桥面、石质护栏与城门的雕刻图案融为一体，画面兼具古朴感与威严感，能展现中世纪军事防御设施的独特魅力。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 城堡对面山坡的“全景瞭望台”</h4>
+                  <p className="text-sm text-gray-700">最佳时间是日落前一到两小时，阳光会从侧面照亮整个城堡立面，用长焦镜头可以压缩空间，拍出城堡与山下小镇房屋层层叠叠的壮丽关系。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 主塔楼仰拍机位</h4>
-                  <p className="text-sm text-gray-700">位于主塔楼前方的石板路上，采用仰拍角度，拍摄主塔楼的全貌，利用塔楼的高耸感与哥特式建筑的线条美，凸显主塔楼的宏伟与威严，清晰展现塔身的瞭望孔、射击孔与雕刻细节。</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 瞭望塔全景机位</h4>
-                  <p className="text-sm text-gray-700">在任意一座瞭望塔上，采用俯拍角度，拍摄那慕尔市的全景与两河交汇的风光，将默兹河、桑布尔河的碧波与城市的古朴建筑融为一体，画面恢弘壮观，能展现那慕尔"两河交汇、山丘筑城"的独特格局。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 城堡内部小教堂的彩窗下</h4>
+                  <p className="text-sm text-gray-700">中午时分，阳光穿透彩窗会在石地上投下斑斓的光影，蹲低角度，将彩窗的光影作为前景，远处幽深的拱门作为背景，能拍出极具神圣感和纵深感的大片。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 防御城墙机位</h4>
-                  <p className="text-sm text-gray-700">位于防御城墙中段，采用侧拍角度，拍摄城墙的蜿蜒景象与瞭望塔的错落分布，利用城墙的厚重感与线条美，凸显中世纪军事防御体系的完善，画面充满复古气息与历史沧桑感。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 乌尔河上的古桥中央</h4>
+                  <p className="text-sm text-gray-700">清晨薄雾未散时，站在连接小镇两岸的古石桥正中，将城堡作为远景，河面与两岸色彩缤纷的房子作为中景和前景，能拍出宛如童话世界的倒影构图。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. 观景平台远景机位</h4>
-                  <p className="text-sm text-gray-700">在观景平台上，采用平视角度，拍摄那慕尔市的远景与两河交汇的全貌，将城市的老城区、教堂、河流与远处的田园风光同框，展现自然与人文的融合之美，画面开阔，既有城堡的古朴威严，又有河流的秀丽灵动。</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">6. 中世纪庭院机位</h4>
-                  <p className="text-sm text-gray-700">在中世纪庭院内，采用平视或侧拍角度，拍摄庭院的石板地面、古朴建筑与历史雕像，搭配庭院内的绿植与喷泉，画面充满复古气息与生活感，能展现城堡内的宁静氛围。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 城堡最高塔楼的垛口处</h4>
+                  <p className="text-sm text-gray-700">将相机或手机镜头紧贴垛口的射击孔向外拍摄，以厚重的石壁作为天然画框，框住远处绵延的绿色山谷和蜿蜒的河流，构图极具创意和故事性。</p>
                 </div>
               </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 从下山森林小径的某个转弯处回望</h4>
+                  <p className="text-sm text-gray-700">下午的阳光会勾勒出城堡清晰的轮廓，利用道路的曲线作为引导线，将视线自然引向山巅的城堡，拍出充满动感和探索感的旅途照片。</p>
+                </div>
+              </div>
+
             </div>
             
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
-              <h4 className="font-semibold text-purple-800 mb-2">拍照注意事项</h4>
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 游览城堡时，禁止攀爬建筑、刻画墙体，避免损坏文物</li>
-                <li>• 博物馆内部分展品禁止拍摄，需遵守现场指示</li>
-                <li>• 城堡内的军事遗迹（如瞭望塔、地牢）禁止随意触碰，注意安全</li>
-                <li>• 户外拍摄时，注意脚下安全，避免踩踏草坪、破坏植被</li>
-                <li>• 遵守景区规定，共同保护历史遗迹与景区环境</li>
+                <li>• 建议携带一个偏振镜（CPL），可以有效消除城堡石墙和水面反光，让天空更蓝，树叶更绿，色彩饱和度大增。</li>
+                <li>• 使用无人机拍摄前务必谨慎，卢森堡对无人机飞行有严格规定，城堡及周边空域很可能属于禁飞区，强行起飞可能导致罚款和设备没收。</li>
               </ul>
             </div>
           </Section>
 
-          <Section title="6. 附近景点">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">那慕尔老城（Namur Old Town）</h4>
-                <p className="text-sm text-gray-700 mb-2">距离城堡约1公里，步行15分钟可达，是那慕尔市的核心区域，保留着大量中世纪与文艺复兴时期的建筑，街道蜿蜒曲折，由石板铺成，充满复古气息。老城的核心景点有集市广场、那慕尔市政厅、圣奥宾大教堂等。</p>
-                <div className="text-xs text-gray-500">🚶 步行15分钟 | 🏛️ 中世纪老城</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">桑布尔河步道</h4>
-                <p className="text-sm text-gray-700 mb-2">距离城堡约2公里，步行或驾车5分钟可达，这条步道沿着桑布尔河南岸修建，全长约10公里，步道平缓，难度较低，适合徒步休闲与骑行。沿途风景秀丽，可欣赏桑布尔河的碧波、两岸的田园风光与古朴村落。</p>
-                <div className="text-xs text-gray-500">🚶 河滨步道 | 🌸 四季美景</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">迪南古城（Dinant Old Town）</h4>
-                <p className="text-sm text-gray-700 mb-2">距离那慕尔约35公里，驾车40分钟可达，乘坐火车约50分钟可达，是比利时瓦隆地区极具特色的中世纪古城，坐落于默兹河畔，以独特的建筑风格与萨克斯风发源地而闻名。迪南古城保留着大量中世纪建筑。</p>
-                <div className="text-xs text-gray-500">� 车程40分钟 | � 中世纪古城</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">圣卢普教堂（Saint Loup Church）</h4>
-                <p className="text-sm text-gray-700 mb-2">距离城堡约3公里，驾车10分钟可达，乘坐巴士约15分钟可达，始建于1610年，是那慕尔地区重要的宗教遗迹，建筑风格以巴洛克式为主，外观宏伟壮观，内部装饰精美，陈列着中世纪的宗教珍品与画作。</p>
-                <div className="text-xs text-gray-500">⛪ 宗教遗迹 | 🕊️ 宁静氛围</div>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿小贴士">
+          <Section title="6. 住宿小贴士">
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">市中心或靠近城堡山脚</h4>
-                  <p className="text-sm text-blue-800">优先选择市中心或靠近城堡山脚的住宿，步行可达城堡入口、集市广场与老城核心区域，方便游览，同时能深度感受那慕尔的古朴氛围。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">预算之选</h4>
+                  <p className="text-sm text-blue-800">小镇主街上的“维安登青年旅舍”，由一栋老房子改建，房间干净明亮，公共厨房设施齐全，最棒的是顶楼露台能瞥见城堡一角，是背包客结交旅伴的好地方。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">默兹河畔或桑布尔河畔</h4>
-                  <p className="text-sm text-green-800">如果喜欢安静，可选择默兹河畔或桑布尔河畔的住宿，环境静谧，能欣赏到河流风光，适合休息，适合喜欢自然风光的游客。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">特色体验</h4>
+                  <p className="text-sm text-green-800">“河畔奥拉夫酒店”，位于乌尔河畔，部分房间拥有直面城堡的私人小阳台，早晨在潺潺水声和城堡 views 中醒来，晚上还可以在河边餐厅享用浪漫晚餐。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">火车站或高速公路入口</h4>
-                  <p className="text-sm text-yellow-800">若计划游览周边景点（如迪南古城），可选择靠近火车站或高速公路入口的住宿，交通更便捷，便于前往周边景点。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">高端享受</h4>
+                  <p className="text-sm text-yellow-800">坐落在附近山林中的“帕克酒店维安登”，是一家四星级 wellness 酒店，拥有室内外泳池和 Spa，房间设计现代舒适，远离小镇喧嚣，提供免费的班车接送前往城堡。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">极致浪漫</h4>
+                  <p className="text-sm text-purple-800">预订小镇上由百年老屋精心修复的精品民宿“莱斯阿尔萨斯”，房东夫妇热情好客，会为你准备丰盛的本地早餐，并分享许多旅行指南上没有的城堡秘闻和小镇故事。</p>
                 </div>
               </div>
-              
-              <div className="grid md:grid-cols-4 gap-4">
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">经济型青年旅社</h4>
-                  <p className="text-sm text-gray-700 mb-2">可选择市中心的青年旅社，普遍干净整洁、价格实惠，大多步行可达核心景点，部分提供公共厨房，适合背包客与预算有限的游客。</p>
-                  <div className="text-xs text-gray-500">💰 预算友好 | 🎒 背包客首选</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">中档三星级酒店</h4>
-                  <p className="text-sm text-gray-700 mb-2">地理位置优越，房间舒适，部分设有餐厅，提供当地传统美食，适合家庭与情侣，性价比高，设施完善。</p>
-                  <div className="text-xs text-gray-500">⭐ 性价比高 | 👨‍👩‍👧‍👦 家庭出游</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">高档四星级以上酒店</h4>
-                  <p className="text-sm text-gray-700 mb-2">多位于河畔或山丘附近，环境优雅，房间装饰精美，部分可欣赏到城堡或河流远景，设有露台与高级餐厅，适合追求品质的游客。</p>
-                  <div className="text-xs text-gray-500">🏰 豪华住宿 | 🏞️ 自然景观</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">家庭经营民宿</h4>
-                  <p className="text-sm text-gray-700 mb-2">可选择老城区的家庭经营房源，多为石质建筑，装修古朴，常提供当地特色早餐，充满乡土气息，适合喜欢体验当地生活的游客。</p>
-                  <div className="text-xs text-gray-500">🏡 家庭氛围 | 🍳 特色早餐</div>
-                </div>
-              </div>
-              
-              <div className="bg-red-50 p-4 rounded-lg">
-                <h4 className="font-semibold text-red-900 mb-2">预订建议与注意事项</h4>
-                <div className="grid md:grid-cols-2 gap-4 text-sm text-red-800">
-                  <div>
-                    <p className="mb-2"><strong>旺季预订：</strong>那慕尔的旅游旺季为4月至10月，尤其是夏季（7-8月）与节假日期间，游客较多，建议提前1-2个月预订住宿</p>
-                    <p className="mb-2"><strong>淡季优惠：</strong>冬季游客较少，可提前1-2周预订，部分住宿会推出优惠活动，性价比更高</p>
-                    <p><strong>特色服务：</strong>部分住宿提供城堡、博物馆门票折扣券，可节省游览成本</p>
-                  </div>
-                  <div>
-                    <p className="mb-2"><strong>必备用品：</strong>比利时的酒店与民宿通常不提供一次性洗漱用品，需自备牙刷、牙膏、毛巾等</p>
-                    <p className="mb-2"><strong>电器准备：</strong>当地电压为230V，插头为Type F型，与德国、法国一致，可提前准备转换插头</p>
-                    <p><strong>特殊注意：</strong>冬季那慕尔气温较低，部分区域可能有降雪，住宿时可关注是否有供暖设施，避免影响休息</p>
-                  </div>
-                </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">夏季和圣诞市集期间是绝对旺季，住宿必须提前至少1-2个月预订，否则选择会非常有限且价格高昂。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">维安登小镇极其安全宁静，夜晚几乎没有任何喧闹，非常适合喜欢静谧氛围的旅行者。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">如果自驾，预订时务必确认住宿是否提供停车位，小镇中心停车位非常紧张且多为收费区。</p>
               </div>
             </div>
           </Section>
 
-          <Section title="8. 总结与感悟">
-            <div className="bg-gradient-to-r from-purple-50 to-indigo-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                那慕尔城堡，这座矗立在两河交汇山丘上的千年军事要塞，承载着欧洲两千多年的历史记忆，融合了军事防御的威严与建筑艺术的美感，既有中世纪的古朴沧桑，又有现代生活的温馨惬意。在这里，你可以漫步在千年防御城墙，感受中世纪的战场氛围；登顶主塔楼，俯瞰两河交汇与城市全景；驻足博物馆，探寻城堡的千年历史；穿梭在山下老城，体验瓦隆地区的独特人文风情。
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                希望这份攻略能帮助你更好地游览那慕尔城堡，深入了解比利时瓦隆地区的历史与文化，留下一段难忘的欧洲旅行记忆。
-              </p>
-              <p className="text-gray-700 leading-relaxed font-medium">
-                让你在千年城堡与两河交汇的交融中，邂逅一段跨越时空的军事文化之旅。
-              </p>
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开维安登的时候，我脑子里反复回响着一个词：韧性。这座城堡见过最鼎盛的荣耀，摆过最奢华的宴席；也经历过被当作破砖烂瓦拆卖、在风雨中裸露骨架长达百年的至暗时刻。但它没有倒下。它像山的一部分，沉默地等待着。最终，等来了一群珍视它的人，用双手和信念，一砖一瓦地把它从历史的遗忘中“打捞”回来。这个过程本身，比任何关于骑士和伯爵的传奇都更打动我。它告诉我们，文化遗产不是玻璃罩里的脆弱标本，而是可以与当代人的生活和身份认同血脉相连的活物。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在当今这个快节奏的、常常追求瞬时满足的世界里，维安登提供了一种截然不同的旅行价值。它不提供刺激的游乐设施，也没有炫目的声光秀。它只是静静地在那里，要求你付出一点体力去攀登，花费一些时间去聆听它的故事。但作为回报，它会给你一种极其珍贵的“时空纵深体验”。当你站在塔楼上，看着同样的山谷景色被一代又一代人——罗马士兵、中世纪伯爵、19世纪的浪漫派诗人、乃至今天的你——所凝视时，你会感到自己不仅仅是游客，更是漫长历史河流中的一瞬间的见证者。这种连接感，这种让内心沉静下来的力量，正是我们这些热爱深度游的旅人，不断上路所追寻的东西。所以，专程为它来一趟卢森堡吧，它绝不会让你失望。</p>
             </div>
           </Section>
         </div>

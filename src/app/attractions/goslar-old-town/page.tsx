@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '戈斯拉尔古城・Goslar Old Town・德国・戈斯拉尔 | 最佳欧洲景点',
-  description: '探索戈斯拉尔古城，哈尔茨山下的中世纪银都瑰宝，被誉为"没有城墙的博物馆"，以保存完好的中世纪木桁架建筑、悠久的银矿历史与浓厚的人文氛围闻名，是联合国教科文组织认定的世界文化遗产。',
+  title: '戈斯拉尔老城 Goslar｜千年帝国皇城与木筋屋的童话世界 - 最佳欧洲景点',
+  description: '第一次走进戈斯拉尔老城，你会误以为自己不小心闯进了一本立体打开的格林童话。不是那种迪士尼化的甜美，而是带着烟熏火燎历史感、真正有血有肉的古老故事。从火车站走出来，穿过一道不起眼的城门，时间“唰”地一声就慢了下来。脚下是千百年来被马蹄和脚步磨得温润发亮的黑色玄武岩鹅卵石路，踩上去有种奇特的坚实感。空气...',
 }
 
 export default function GoslarOldTownPage() {
@@ -16,96 +16,105 @@ export default function GoslarOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '戈斯拉尔古城', href: '/attractions/goslar-old-town' },
+            { label: '戈斯拉尔老城', href: '/attractions/goslar-old-town' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">戈斯拉尔古城・Goslar Old Town・德国・戈斯拉尔</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">戈斯拉尔老城・Goslar・德国・戈斯拉尔</h1>
           <p className="text-lg text-gray-600 mb-6">
-            戈斯拉尔古城是德国保存最完整的中世纪古城之一，始建于公元922年，因拉默尔斯贝格银矿崛起而兴盛。古城内遍布色彩斑斓的木桁架房屋、哥特式与罗马式教堂，留存着帝王行宫、市政厅等历史建筑，兼具银矿文化与中世纪宫廷风情，漫步其中，可沉浸式感受千年银都的辉煌与中世纪小镇的静谧，是探访德国中世纪历史、建筑与矿业文明的必游之地。
+            第一次走进戈斯拉尔老城，你会误以为自己不小心闯进了一本立体打开的格林童话。不是那种迪士尼化的甜美，而是带着烟熏火燎历史感、真正有血有肉的古老故事。从火车站走出来，穿过一道不起眼的城门，时间“唰”地一声就慢了下来。脚下是千百年来被马蹄和脚步磨得温润发亮的黑色玄武岩鹅卵石路，踩上去有种奇特的坚实感。空气里飘着复杂的味道——刚出炉的德式椒盐卷饼的碱水香气，从古老建筑木缝里透出的、略带潮湿的木头味，还有远处咖啡店飘来的醇厚焦香。
+所有感官的焦点，毫无意外地，都被那些房子夺走了。它们不是整齐划一的，而是像一群穿着五彩花衣、互相依偎着取暖的老人，挤挤挨挨地站满了每一条小巷。这就是德国最引以为傲的半木结构建筑，当地人叫它“Fachwerkhaus”。黑色的木条在白色或彩色的墙体上构成各种几何图形——菱形、十字形、太阳纹，每一栋都有自己的“表情”。有些木梁已经弯曲，仿佛承载了太多故事；有些窗台上盛开着天竺葵，鲜红的花朵在深色木头的映衬下，迸发出惊人的生命力。你几乎能听到木头在午后阳光的烘烤下，发出细微的、满足的“噼啪”声。
+市场的钟声从广场方向传来，那是老城永恒的心跳。当你走到市场广场，豁然开朗的视野会让你忍不住深吸一口气。广场中央是那座著名的帝国之鹰喷泉，水流潺潺。而广场三面，被三栋风格迥异的宏伟建筑守护着：凯撒沃思（Kaiserworth）行会建筑、市政厅，以及拥有两座不对称塔楼的集市教堂。这里是戈斯拉尔的客厅，当地人在这里碰头、购物、坐在露天咖啡座看游人如织。你会看到牵着狗的老人，追逐鸽子的孩子，还有支着画板试图捕捉光影的艺术家。这座古城不是僵死的博物馆，它呼吸着，生活着，千年的历史就沉淀在每日的面包香气和邻里寒暄里。
+最打动人心的，或许是那种奇特的“层次感”。表面上看，它是明信片般的童话小镇；但稍一深入，你就会触摸到它钢铁般的另一面——帝国皇权的威严，矿工井下艰辛的汗水，汉萨商人的精明与冒险。这种甜美与粗粝、梦幻与现实、乡土与世界性的完美交织，正是戈斯拉尔独一无二的灵魂。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              戈斯拉尔古城是德国保存最完整的中世纪古城之一，始建于公元922年，因拉默尔斯贝格银矿崛起而兴盛。古城内遍布色彩斑斓的木桁架房屋、哥特式与罗马式教堂，留存着帝王行宫、市政厅等历史建筑，兼具银矿文化与中世纪宫廷风情，漫步其中，可沉浸式感受千年银都的辉煌与中世纪小镇的静谧，是探访德国中世纪历史、建筑与矿业文明的必游之地。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4">第一次走进戈斯拉尔老城，你会误以为自己不小心闯进了一本立体打开的格林童话。不是那种迪士尼化的甜美，而是带着烟熏火燎历史感、真正有血有肉的古老故事。从火车站走出来，穿过一道不起眼的城门，时间“唰”地一声就慢了下来。脚下是千百年来被马蹄和脚步磨得温润发亮的黑色玄武岩鹅卵石路，踩上去有种奇特的坚实感。空气里飘着复杂的味道——刚出炉的德式椒盐卷饼的碱水香气，从古老建筑木缝里透出的、略带潮湿的木头味，还有远处咖啡店飘来的醇厚焦香。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">所有感官的焦点，毫无意外地，都被那些房子夺走了。它们不是整齐划一的，而是像一群穿着五彩花衣、互相依偎着取暖的老人，挤挤挨挨地站满了每一条小巷。这就是德国最引以为傲的半木结构建筑，当地人叫它“Fachwerkhaus”。黑色的木条在白色或彩色的墙体上构成各种几何图形——菱形、十字形、太阳纹，每一栋都有自己的“表情”。有些木梁已经弯曲，仿佛承载了太多故事；有些窗台上盛开着天竺葵，鲜红的花朵在深色木头的映衬下，迸发出惊人的生命力。你几乎能听到木头在午后阳光的烘烤下，发出细微的、满足的“噼啪”声。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">市场的钟声从广场方向传来，那是老城永恒的心跳。当你走到市场广场，豁然开朗的视野会让你忍不住深吸一口气。广场中央是那座著名的帝国之鹰喷泉，水流潺潺。而广场三面，被三栋风格迥异的宏伟建筑守护着：凯撒沃思（Kaiserworth）行会建筑、市政厅，以及拥有两座不对称塔楼的集市教堂。这里是戈斯拉尔的客厅，当地人在这里碰头、购物、坐在露天咖啡座看游人如织。你会看到牵着狗的老人，追逐鸽子的孩子，还有支着画板试图捕捉光影的艺术家。这座古城不是僵死的博物馆，它呼吸着，生活着，千年的历史就沉淀在每日的面包香气和邻里寒暄里。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">最打动人心的，或许是那种奇特的“层次感”。表面上看，它是明信片般的童话小镇；但稍一深入，你就会触摸到它钢铁般的另一面——帝国皇权的威严，矿工井下艰辛的汗水，汉萨商人的精明与冒险。这种甜美与粗粝、梦幻与现实、乡土与世界性的完美交织，正是戈斯拉尔独一无二的灵魂。</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="戈斯拉尔古城" />
-                <InfoRow label="英文名称" value="Goslar Old Town" />
-                <InfoRow label="国家" value="德国（Germany）" />
-                <InfoRow label="城市" value="戈斯拉尔（Goslar）" />
-                <InfoRow label="所属区域" value="德国下萨克森州（Lower Saxony）" />
+                <InfoRow label="中文名称" value="戈斯拉尔老城" />
+                <InfoRow label="英文名称" value="Goslar" />
+                <InfoRow label="正式名称" value="Goslar" />
+                <InfoRow label="国家" value="德国" />
+                <InfoRow label="城市" value="戈斯拉尔" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="世界文化遗产、千年银都" />
-                <InfoRow label="核心特色" value="中世纪木桁架建筑、银矿历史" />
-                <InfoRow label="建筑价值" value="帝王行宫、市政厅、木桁架房屋" />
-                <InfoRow label="文化价值" value="矿业文明、中世纪宫廷风情" />
+                <InfoRow label="历史地位" value="神圣罗马帝国的心脏、汉萨同盟的关键成员、德国千年采矿历史的活化石。" />
+                <InfoRow label="建筑特色" value="半木结构（木筋屋）建筑的露天博物馆，色彩斑斓的山墙鳞次栉比地排列在蜿蜒的鹅卵石街道两旁。" />
+                <InfoRow label="建筑风格" value="以中世纪晚期至文艺复兴时期的半木结构建筑为主，混杂着罗马式、哥特式及19世纪历史主义风格的宏伟公共建筑。" />
+                <InfoRow label="文化价值" value="作为保存完好的中世纪城镇典范，及其与拉默尔斯伯格矿山超过千年的共生关系，于1992年被联合国教科文组织整体列为世界文化遗产。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="古城公共区域全天免费开放；核心景点夏季10:00-17:00，冬季10:00-16:00；每周一闭馆" />
-              <InfoRow label="门票价格" value="古城免费；帝王行宫7.5欧元，拉默尔斯贝格矿山博物馆12欧元；世界遗产联票20欧元" />
-              <InfoRow label="地址" value="Altstadt Goslar, 38640 Goslar, Germany" />
-              <InfoRow label="交通方式" value="从汉堡乘德铁约2小时；从汉诺威乘德铁约1小时20分钟；可乘坐801、802路巴士直达" />
+              <InfoRow label="开放时间" value="戈斯拉尔老城街道和广场全天24小时开放。城内各博物馆和历史建筑（如皇帝行宫、市政厅、矿山博物馆）开放时间各不相同，一般为上午10点至下午5点。多数室内景点周一闭馆，或仅在下午开放。圣诞市场期间（11月底至12月23日）及夏季旅游旺季（5月至9月）部分景点会延长开放时间。出行前务必查询具体景点的官网，以防因私人活动或维修而临时关闭。" />
+              <InfoRow label="门票价格" value="漫步老城街区免费。参观核心景点需购票：皇帝行宫成人票7.5欧元，优惠票4.5欧元；市政厅历史展厅成人票5欧元；世界文化遗产Rammelsberg矿山博物馆及井下游览联票约25欧元。推荐购买“戈斯拉尔卡”（Goslar Card），可在酒店或旅游信息中心购买，包含市内公共交通和多数主要景点的折扣。6岁以下儿童普遍免费，家庭票优惠力度大。" />
+              <InfoRow label="地址" value="Markt 1, 38640 Goslar, Germany" />
+              <InfoRow label="交通方式" value="从最近的主要交通枢纽汉诺威机场出发，最便捷的方式是乘坐火车。在汉诺威机场火车站搭乘区域列车（RE或RB线）前往汉诺威中央火车站，车程约20分钟，班次密集。在汉诺威中央火车站换乘前往戈斯拉尔的直达区域列车（如RE4），车程约1小时15分钟，每小时至少1-2班。到达戈斯拉尔火车站后，老城核心区就在步行范围内，出站后沿着清晰的指示牌步行约10-15分钟即可抵达市场广场。自驾可将车停放在老城外围的停车场（如“Schuhhof”停车场），老城内部为步行区。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                戈斯拉尔古城的历史可追溯至公元922年，其崛起与衰落始终与拉默尔斯贝格银矿的命运紧密相连，历经千年风雨，见证了神圣罗马帝国的辉煌、矿业文明的兴盛与衰落，最终成为保存完整的中世纪古城典范，承载着德国中世纪的历史与文化记忆。公元922年，人们在哈尔茨山脉脚下发现了丰富的银矿资源，戈斯拉尔凭借得天独厚的地理位置，迅速成为银矿开采与贸易的核心区域，逐渐发展成为一座繁华的城镇，开启了"千年银都"的辉煌历程。
-              </p>
-              <p>
-                中世纪鼎盛时期，戈斯拉尔是神圣罗马帝国的重要城市，也是欧洲最富有的城市之一，银矿开采带来的巨额财富，推动了城市的快速发展，也吸引了神圣罗马帝国的皇帝在此修建行宫。公元1040年至1050年，帝王行宫（Kaiserpfalz）正式建成，此后的200多年里，这里成为德国乃至欧洲历史的重要舞台，多位神圣罗马帝国皇帝在此居住、理政，举办宫廷仪式，戈斯拉尔也因此获得"帝王之城"的美誉。当时，戈斯拉尔的银矿不仅供应欧洲各国的货币铸造，还支撑着神圣罗马帝国的经济与军事发展，古城内遍布富商宅邸、行会建筑与宗教场所，木桁架建筑、哥特式教堂鳞次栉比，呈现出一派繁荣景象。
-              </p>
-              <p>
-                除了银矿贸易，戈斯拉尔在中世纪还是重要的手工业与文化中心，当地的金属加工、纺织、酿酒等手工业十分发达，生产的兵器、纺织品远销欧洲各地。同时，古城内聚集了大量学者、工匠与艺术家，推动了文学、艺术、建筑等领域的发展，留存至今的木桁架建筑、教堂雕塑与壁画，都展现了中世纪欧洲的艺术成就。值得一提的是，戈斯拉尔还是中世纪欧洲"女巫审判"的重要场所，最后一位女巫于1657年在此被处决，这段历史也成为古城历史的重要组成部分。
-              </p>
-              <p>
-                16世纪至18世纪，随着银矿资源逐渐枯竭，戈斯拉尔的经济开始衰落，加上宗教改革与战争的影响，古城的发展陷入停滞，部分建筑因无人维护而受损，但核心风貌得以保留。19世纪，工业革命兴起，戈斯拉尔尝试转型，但其发展速度缓慢，也正因为如此，古城的中世纪风貌没有被大规模的工业建设所破坏，成为欧洲少有的保存完整的中世纪古城。1988年，拉默尔斯贝格矿山正式停止运作，这座拥有千年开采历史的矿山，成为记录欧洲早期矿业文明的重要遗址。
-              </p>
-              <p>
-                二战期间，戈斯拉尔古城幸运地避开了大规模轰炸，核心建筑与街巷基本完好，成为少数在二战中保存完整的德国中世纪古城。战后，当地政府对古城进行了全面修缮与保护，严格遵循原始建筑工艺，尽力保留其中世纪风貌。1992年，戈斯拉尔古城与拉默尔斯贝格矿山、上哈尔茨山水资源管理系统一同被联合国教科文组织列入世界文化遗产名录，认可其在矿业文明、建筑艺术与历史传承方面的独特价值。如今，戈斯拉尔古城不仅是一座历史遗迹，更是中世纪银矿文明与欧洲中世纪城市发展的见证者，吸引着世界各地的游客前来探寻其千年魅力。
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">说起戈斯拉尔的故事，得从地底下的宝藏开始。公元968年，在附近的拉默尔斯伯格山，人们发现了巨大的银矿脉。这个消息像野火一样传遍了欧洲，也传到了当时神圣罗马帝国皇帝奥托一世的耳朵里。财富意味着权力，皇帝们迅速行动了起来。他的儿子奥托二世和孙子奥托三世在这里修建了坚固的行宫，戈斯拉尔一夜之间从偏僻山村变成了帝国的北方中心。想象一下，在11世纪，当绝大多数欧洲人还住在简陋的茅屋时，这里已经举办着决定帝国命运的宫廷会议，来自欧洲各地的使节穿梭在初具规模的街道上。亨利三世皇帝尤其钟爱这里，他不仅扩建了行宫，更将戈斯拉尔称为“他最珍爱的住所”。那段时期，帝国的皇冠、宝剑和权杖都曾保存在这里的行宫教堂中，戈斯拉尔是不折不扣的“皇城”。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">矿藏带来的不仅是皇权，更是滚滚财富。到了12、13世纪，戈斯拉尔凭借其丰富的银、铜、铅矿，加入了强大的汉萨同盟——一个主宰北欧贸易的商业联盟。富商和行会们有钱了，他们不再满足于简陋的房屋。于是，老城里开始“生长”出我们今天看到的那些美轮美奂的木筋屋。每一栋夸张的山墙、每一扇华丽的凸窗、每一幅梁柱上的彩绘，都是主人财富和地位的炫耀。市政厅被扩建得美轮美奂，内部那个金碧辉煌的“宣誓厅”满是镀金皮革墙饰，无声地诉说着当年的富庶。戈斯拉尔成为了一个自治的城市共和国，市民的腰杆挺得比许多贵族还直。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，历史的车轮从不只走向繁荣。16世纪的宗教改革带来了动荡，三十年战争（1618-1648）的炮火更是重创了这座城市。帝国皇权早已衰落，戈斯拉尔失去了政治上的特殊地位。更致命的是，到了19世纪中期，表层矿藏逐渐枯竭，城市的经济命脉受到了威胁。戈斯拉尔仿佛一位落魄的贵族，陷入了漫长的沉睡，它的建筑也蒙上了灰尘。但塞翁失马，焉知非福。正是因为经济停滞、无力进行大规模现代化改造，戈斯拉尔老城才意外地躲过了二战炮火的毁灭和战后推土机式的重建，近乎完整地保留了其中世纪的风貌。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">转机出现在二战后。人们重新发现了这座“沉睡美人”的价值。精心的修复工作开始了，不是推倒重建，而是像修复一件古老乐器般，小心翼翼地清理每一根木梁，加固每一面墙体。1992年，联合国教科文组织将戈斯拉尔老城和拉默尔斯伯格矿山一起列入世界遗产名录，理由是它们“共同展现了欧洲采矿历史和技术发展的卓越典范”，以及“一个保存完好的中世纪历史城镇与工业景观的独特结合”。古老的矿山停止了开采，变成了讲述千年工业文明的博物馆。戈斯拉尔终于醒来，不再是依靠矿产，而是依靠它无价的历史与记忆，迎来了新的生命篇章。</p>
             </div>
           </Section>
 
           <Section title="4. 游览路线">
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">精华路线（2-3小时）</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  从戈斯拉尔火车站出发，步行10分钟到达古城入口，首先前往古城中心的市政厅广场，广场上矗立着哥特式风格的市政厅，建筑外观精美，墙面雕刻细腻，可驻足欣赏其独特的建筑风貌。随后参观帝王行宫，走进行宫内部，参观皇帝寝宫、议事大厅与博物馆，欣赏馆内收藏的中世纪文物、宫廷用品与历史资料，了解神圣罗马帝国皇帝在戈斯拉尔的活动历程，感受宫廷文化的魅力。
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  从帝王行宫出来后，漫步于古城的木桁架街巷，欣赏色彩斑斓的中世纪木桁架房屋，这些房屋大多建于16-18世纪，外观错落有致，门窗、墙面装饰精美，充满浓郁的中世纪风情，可逛逛街巷旁的复古商铺、手工艺品店与露天咖啡馆，感受古城的烟火气。之后前往圣彼得教堂（St. Peter's Church），这座建于中世纪的罗马式教堂，内部彩绘玻璃、雕塑与壁画精美，可免费进入参观，感受宗教文化的庄严与厚重。最后返回市政厅广场，购买当地特色纪念品，结束精华游览，全程路线紧凑，涵盖古城核心看点与标志性景观。
+                  要完整感受戈斯拉尔的魔力，建议预留一整天时间。最佳抵达时间是上午9点左右，这时旅游团尚未涌入，晨光斜射在木筋屋的立面上，光影效果绝佳，市场广场上的商店刚刚开门，充满本地生活气息。整体游览节奏应该是“慢走细看”，路线可以设计成一个环线，从心脏地带市场广场开始，先感受宏大的公共建筑和城市脉搏，然后深入小巷，在迷宫般的木筋屋街区中迷失，最后探访帝国权力的象征——皇帝行宫，并以矿业历史收尾。这样安排能让你从宏观到微观，从世俗生活到帝国权力，层层深入地理解这座城市。全程步行即可，务必穿一双绝对舒适的鞋子，因为鹅卵石路虽然美丽，但对脚底是个考验。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>适合人群：</strong>时间紧张的游客，想要快速体验古城精华
+                  <strong>建议：</strong>周末和夏季午后是旅游团高峰时段，市场广场和主街会非常拥挤，建议将核心广场游览安排在早晨或傍晚。参观教堂和行宫内部时，注意遵守安静礼仪，部分区域禁止拍照会有明确标识。哈尔茨山区天气多变，即使是夏天也请随身带一件防风外套或雨伞。
                 </div>
               </div>
               
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-green-900 mb-3">深度路线（4-5小时）</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  在精华路线的基础上，增加银矿文化体验与小众景点游览，深入感受戈斯拉尔的千年底蕴。参观完圣彼得教堂后，前往拉默尔斯贝格矿山博物馆，乘坐矿山电梯深入地下巷道，参观古老的采矿设备、矿道遗迹，感受中世纪矿工的劳作场景，了解银矿开采的历史与工艺，沉浸式体验千年银都的矿业文明，博物馆内还有专业讲解员，可详细了解矿山的发展历程与欧洲早期矿业的进步。
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  中午前往古城中心的特色餐厅，品尝下萨克森州的传统美食，如烤猪肉、香肠、土豆泥与当地特色的矿山风味菜肴，搭配正宗的德国啤酒或果汁，体验当地的饮食文化。下午前往茨温格塔楼，这座中世纪防御塔楼高达26米，直径26米，曾是欧洲最坚固的防御工事之一，可容纳1000人躲避围攻，登顶塔楼可俯瞰整个戈斯拉尔古城全景与哈尔茨山脉的绝美风光，感受古城与自然的和谐交融。
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  之后前往圣彼得教堂遗址（St.-Peters-Stift Ruine），距离古城中心仅241米，参观留存的教堂遗迹，感受历史的沧桑与厚重，这里也是拍摄古城人文景观的绝佳位置。傍晚时分，返回古城街巷，欣赏夕阳下的木桁架房屋与古城景观，夕阳洒在色彩斑斓的建筑上，氛围感拉满，可在街巷旁的露天咖啡馆小坐，品尝当地甜点与咖啡，感受戈斯拉尔古城的夜晚氛围，结束深度游览。
-                </p>
-                <div className="text-sm text-green-800 bg-green-100 p-3 rounded">
-                  <strong>适合人群：</strong>喜欢细致游览的游客，想要深度体验历史文化
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">清晨第一站直奔市场广场，在帝国之鹰喷泉边坐下，看着面包店开门、市政厅钟楼敲响钟声，感受老城从睡梦中苏醒的鲜活气息。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">走进市政厅内部，一定要找到那个被称为“拱顶厅”的世界遗产中心，通过现代多媒体展览快速建立起对戈斯拉尔千年历史的立体认知。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从广场东北角钻进那条名叫“霍肯街”的狭窄小巷，让身体两侧近乎相触的古老木筋屋包裹你，仔细辨认门楣上的古老铭文和梁柱上的神秘雕刻。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">沿着“护士街”漫步，寻找那栋有着精美文艺复兴雕刻的“布里斯特木筋屋”，想象16世纪一位成功商人是如何在此生活和接待宾客的。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">登上位于老城高处的皇帝行宫，站在宏伟的罗马式大厅里，凝视墙上那幅巨型帝国历史画，遥想当年皇帝和选帝侯们在此议事的景象。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从行宫的花园平台远眺，将整个老城红色屋顶的海洋和远处哈尔茨山的轮廓尽收眼底，这是理解城市地理格局的最佳视角。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">下午将时光切换到工业时代，前往市郊的拉默尔斯伯格矿山博物馆，戴上安全帽跟随向导深入古老的矿道，亲手触摸冰冷的矿石墙壁。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">傍晚时分回到老城，随意选一条白天没走过的小巷漫无目的地闲逛，等待夕阳为每一栋木筋屋镶上金边，然后找一家有数百年历史的地下餐厅享用一顿丰盛的哈尔茨山区晚餐。</p>
                 </div>
               </div>
             </div>
@@ -115,150 +124,65 @@ export default function GoslarOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 市政厅广场中央</h4>
-                  <p className="text-sm text-gray-700">这是拍摄古城核心风貌的最佳机位，可清晰捕捉市政厅的哥特式建筑全貌，背景是色彩斑斓的木桁架房屋与热闹的广场氛围，既能展现古城的庄重与繁华，又能凸显中世纪建筑的独特风格。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 市场广场东南角建筑的回廊下</h4>
+                  <p className="text-sm text-gray-700">下午三四点的光线最为理想，可以以拱廊为前景框架，拍摄广场全景、喷泉和市政厅的哥特式山墙，构图富有纵深感和层次感。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 茨温格塔楼顶端</h4>
-                  <p className="text-sm text-gray-700">这是拍摄戈斯拉尔全景的最佳机位，登顶塔楼，可360度俯瞰整个古城的木桁架街巷、帝王行宫、圣彼得教堂，远处的哈尔茨山脉连绵起伏，画面开阔优美，兼具人文与自然之美。</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 拉默尔斯贝格矿山入口</h4>
-                  <p className="text-sm text-gray-700">这是拍摄矿业文明与古城同框的绝佳机位，以矿山的古老建筑与矿道入口为前景，远处的古城木桁架房屋与哈尔茨山脉为背景，既能展现千年银矿的历史沧桑，又能凸显古城与矿业的紧密联系。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 霍肯街中段仰拍</h4>
+                  <p className="text-sm text-gray-700">正午时分阳光能勉强照进狭窄的巷子，此时抬头拍摄两侧木筋屋山墙向中间天空收拢的震撼视角，能完美体现“街道如河床”的挤压感。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 古城木桁架街巷深处</h4>
-                  <p className="text-sm text-gray-700">这是拍摄古城细节与人文氛围的绝佳机位，纵横交错的鹅卵石街巷、色彩斑斓的木桁架房屋、复古的门窗装饰，充满中世纪韵味，可捕捉街巷的静谧与烟火气。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 皇帝行宫前的台阶上</h4>
+                  <p className="text-sm text-gray-700">清晨或日落前半小时，背对行宫大门，使用广角镜头拍摄，可以将前景的行宫建筑、中景层层叠叠的老城屋顶和远景的哈尔茨山脉全部纳入画中，气势恢宏。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. 帝王行宫露台</h4>
-                  <p className="text-sm text-gray-700">这是拍摄帝王行宫与古城局部的绝佳机位，露台地势稍高，可俯瞰帝王行宫的庭院与周边的木桁架建筑，既能展现帝王行宫的庄重典雅，又能融入古城的整体风貌。</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">6. 哈尔茨山脉山脚步道</h4>
-                  <p className="text-sm text-gray-700">这是拍摄古城与自然交融的绝佳机位，以哈尔茨山脉的青山为背景，前景是戈斯拉尔古城的轮廓与木桁架建筑，画面静谧优美，兼具自然与人文之美。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 老城城墙边的“水渠小道”旁</h4>
+                  <p className="text-sm text-gray-700">这里有一条清澈的水渠沿街流淌，找一个有鲜花的窗台做近景，拍摄木筋屋倒映在水中的对称画面，尤其雨后初晴时，色彩饱和度极高。</p>
                 </div>
               </div>
+
             </div>
             
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 古城建筑以色彩斑斓的木桁架为主，风格活泼且富有层次感，周边有青山环绕，建议穿搭浅色系、复古风格或大地色系衣物，形成和谐的色调</li>
-                <li>• 拍摄博物馆内部、矿山巷道与文物展品时，禁止使用闪光灯，避免损坏文物、影响其他游客游览</li>
-                <li>• 禁止攀爬建筑、触摸雕刻与文物，拍摄时避免影响他人通行，尊重当地的游览规定</li>
-                <li>• 傍晚时分的光线最适合拍摄，可呈现出温暖的氛围感，凸显古城的浪漫与历史厚重感</li>
-                <li>• 拍摄建筑全景时，可使用广角视角，完整展现古城、矿山与哈尔茨山脉的绝美画面</li>
+                <li>• 拍摄木筋屋局部细节时，尝试寻找有特色门环、古老招牌或窗台鲜花的构图，故事感远胜于单纯拍摄建筑整体。尊重居民隐私，避免将镜头对准明显是私人居住的窗户内部。冬季雪后的戈斯拉尔宛如童话，但要注意保暖和防滑，相机电池在低温下耗电极快。</li>
               </ul>
             </div>
           </Section>
 
-          <Section title="6. 附近景点">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">拉默尔斯贝格矿山（Rammelsberg Mine）</h4>
-                <p className="text-sm text-gray-700 mb-2">距离古城约3公里，车程10分钟，步行约30分钟，是世界文化遗产的重要组成部分，拥有千年银矿开采历史，直至1988年停止运作，如今以博物馆与遗址的形式对外开放，可深入地下巷道，参观采矿设备与矿道遗迹，了解欧洲早期矿业文明。</p>
-                <div className="text-xs text-gray-500">🚗 车程10分钟 | ⛏️ 矿业文明</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">茨温格塔楼（Zwinger Tower）</h4>
-                <p className="text-sm text-gray-700 mb-2">距离古城中心约5分钟步行路程，是中世纪戈斯拉尔的重要防御工事，建于中世纪，高达26米，内部留存着防御设施与历史展品，登顶可俯瞰古城全景与哈尔茨山脉风光。</p>
-                <div className="text-xs text-gray-500">🚶 步行5分钟 | 🏰 历史建筑</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">圣彼得教堂遗址（St.-Peters-Stift Ruine）</h4>
-                <p className="text-sm text-gray-700 mb-2">距离古城中心仅241米，是戈斯拉尔的古老宗教遗迹，建于中世纪，现存部分围墙与建筑构件，充满历史沧桑感，可感受中世纪宗教文化的痕迹，也是拍摄人文景观的绝佳位置。</p>
-                <div className="text-xs text-gray-500">🚶 步行3分钟 | ⛪ 历史遗迹</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">上哈尔茨山水资源管理系统</h4>
-                <p className="text-sm text-gray-700 mb-2">距离古城约15分钟车程，是世界文化遗产的组成部分，始建于中世纪，是欧洲早期水资源管理的典范，包含水渠、水坝、水车等设施，可了解中世纪人们利用水资源进行采矿、灌溉的智慧。</p>
-                <div className="text-xs text-gray-500">🚗 车程15分钟 | 🌊 水资源管理</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">戈斯拉尔民俗博物馆（Goslar Folk Museum）</h4>
-                <p className="text-sm text-gray-700 mb-2">距离古城中心约10分钟步行路程，展示了戈斯拉尔从古代到现代的民俗文化、传统工艺与生活方式，收藏了大量民俗文物、传统服饰、手工业制品与生活器具，可了解当地的地域文化与居民生活。</p>
-                <div className="text-xs text-gray-500">🚶 步行10分钟 | 🎭 民俗文化</div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">哈尔茨山脉徒步步道</h4>
-                <p className="text-sm text-gray-700 mb-2">距离古城约10分钟车程，是哈尔茨山脉的经典徒步路线，步道沿途植被繁茂，青山环绕，可欣赏原生态的自然风光，还能俯瞰戈斯拉尔古城全景，适合喜欢自然景观、想要徒步休闲的游客。</p>
-                <div className="text-xs text-gray-500">🚗 车程10分钟 | 🥾 自然徒步</div>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿小贴士">
+          <Section title="6. 住宿小贴士">
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">古城核心区域</h4>
-                  <p className="text-sm text-blue-800">首选区域，距离市政厅、帝王行宫、木桁架街巷等核心景点步行可达，周边有特色餐厅、咖啡馆与纪念品商店，既能便捷游览景点，又能感受古城的中世纪氛围与烟火气。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">历史沉浸之选</h4>
+                  <p className="text-sm text-blue-800">入住市场广场旁一栋有500年历史的木筋屋改造的精品酒店，木梁低矮触手可及，晚上听着市政厅的钟声入睡，清晨在百年面包房的香气中醒来。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">哈尔茨山脉周边</h4>
-                  <p className="text-sm text-green-800">距离山脉徒步步道较近，可俯瞰山脉风光与古城全景，清晨能欣赏到山间日出，环境静谧舒适，适合休闲度假、喜欢自然风光的游客。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">家庭温馨之选</h4>
+                  <p className="text-sm text-green-800">老城边缘一处由传统哈尔茨风格农舍改造的家庭旅馆，主人会为你准备丰盛的农家早餐，并在壁炉边向你讲述家族世代居住于此的故事。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">火车站附近</h4>
-                  <p className="text-sm text-yellow-800">距离车站步行10分钟可达，周边有餐厅、便利店，生活便利，适合需要乘坐火车、巴士前往周边城市的游客。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">设计美学之选</h4>
+                  <p className="text-sm text-yellow-800">一间由旧矿山行政大楼改建的现代设计酒店，内部是极简工业风，却拥有俯瞰整个老城和历史矿山的无敌视野，体验历史与当代的强烈对话。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">山间静谧之选</h4>
+                  <p className="text-sm text-purple-800">位于哈尔茨山森林边缘的一间度假屋，需要短途驾车或搭乘登山小火车抵达，推开窗是满眼苍翠和鸟鸣，夜晚星空璀璨，适合寻求彻底宁静的旅人。</p>
                 </div>
               </div>
-              
-              <div className="grid md:grid-cols-4 gap-4">
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">高端精品酒店</h4>
-                  <p className="text-sm text-gray-700 mb-2">多位于古城核心区域，融合中世纪木桁架建筑元素与现代设施，自带观景露台、餐厅与休闲区，部分酒店由古老富商宅邸改造而成，可欣赏古城全景。</p>
-                  <div className="text-xs text-gray-500">🏰 历史体验 | 🏞️ 景观优美</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">中端酒店</h4>
-                  <p className="text-sm text-gray-700 mb-2">多位于古城附近或火车站周边，步行可达核心景点，房间干净整洁，设施齐全，部分酒店提供早餐与免费WiFi，部分酒店还提供拉默尔斯贝格矿山、帝王行宫门票优惠。</p>
-                  <div className="text-xs text-gray-500">⭐ 性价比高 | 👨‍👩‍👧‍👦 家庭出游</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">经济型民宿</h4>
-                  <p className="text-sm text-gray-700 mb-2">多为家庭经营，风格温馨，部分民宿由中世纪木桁架房屋改造而成，充满特色，还能感受当地居民的生活氛围，价格约25-45欧元/晚。</p>
-                  <div className="text-xs text-gray-500">💰 预算友好 | 🏡 家庭氛围</div>
-                </div>
-                <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">青年旅社</h4>
-                  <p className="text-sm text-gray-700 mb-2">适合独自旅行或预算有限的游客，价格实惠，通常位于交通便利的位置，可结识来自世界各地的游客，价格约15-25欧元/晚。</p>
-                  <div className="text-xs text-gray-500">🎒 背包客首选 | 🌍 国际交流</div>
-                </div>
-              </div>
-              
-              <div className="bg-red-50 p-4 rounded-lg">
-                <h4 className="font-semibold text-red-900 mb-2">预订建议与注意事项</h4>
-                <div className="grid md:grid-cols-2 gap-4 text-sm text-red-800">
-                  <div>
-                    <p className="mb-2"><strong>旺季（5-10月）：</strong>春季气候宜人，夏季山间风光优美，秋季色彩斑斓，游客较多，建议提前1-2个月预订</p>
-                    <p className="mb-2"><strong>淡季（11月至次年4月）：</strong>可提前1-2周预订，价格相对实惠</p>
-                    <p><strong>特色套餐：</strong>部分高端酒店推出住宿+矿山博物馆门票、住宿+山间徒步体验的优惠套餐</p>
-                  </div>
-                  <div>
-                    <p className="mb-2"><strong>必备用品：</strong>德国住宿通常不提供洗漱用品，需自带牙刷、牙膏等</p>
-                    <p className="mb-2"><strong>特殊注意：</strong>古城部分酒店位于鹅卵石街巷旁，地势有坡度且无电梯，预订时可提前咨询</p>
-                    <p><strong>注意事项：</strong>古城夜间非常安静，需保持安静；大部分酒店为无烟酒店</p>
-                  </div>
-                </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">老城核心区的酒店大多由历史建筑改造，可能没有电梯，隔音也相对一般，但氛围无与伦比。如果自驾，务必确认酒店是否提供停车位，老城内停车位稀缺且昂贵。旺季（夏季、圣诞市场期间）必须提前数月预订，平日则选择余地较大。</p>
               </div>
             </div>
           </Section>
 
-          <Section title="8. 总结与感悟">
+          <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                戈斯拉尔古城，这座矗立在哈尔茨山下的千年银都，历经千年风雨洗礼，依然保留着原始的中世纪风貌与深厚的矿业文明底蕴。在这里，你可以漫步于木桁架街巷，触摸中世纪建筑的匠心；可以走进帝王行宫，探寻神圣罗马帝国的宫廷往事；可以深入矿山巷道，感受千年银矿的辉煌；可以登顶塔楼，俯瞰古城与青山交融的绝美风光；可以逛逛古朴街巷，感受小镇的烟火气与静谧氛围。
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                无论是独自旅行、情侣出游还是家庭度假，戈斯拉尔古城都能给你带来难忘的旅行体验，让你在历史与自然的交融中，邂逅一段跨越千年的中世纪银都之约，爱上这座兼具人文之韵、矿业之魂与自然之美的千年瑰宝。
-              </p>
-              <p className="text-gray-700 leading-relaxed font-medium">
-                让你在历史与自然的交融中，邂逅一段跨越千年的中世纪银都之约。
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">离开戈斯拉尔许久，闭上眼，脑海里浮现的不是某个单独的宏伟画面，而是一种混合的、温暖的感官记忆：是鹅卵石硌着脚底的触感，是木头上阳光烘烤后的气味，是喷泉水流不息的潺潺声，是椒盐卷饼刚出炉的咸香。这座城教会我，真正的历史不是教科书上冰冷的名字和年份，而是渗透在日常生活纹理里的温度。它没有被供在神坛上，而是依然被居民用来居住、行走、买卖、庆祝。这种“活着的遗产”，比任何彻底博物馆化的古城都更有力量。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个追求效率、崇尚新奇的快节奏世界里，戈斯拉尔提供了一种截然不同的时间尺度。它提醒我们，有些价值需要千年的沉淀，有些美丽源于时光的包浆。它既是童话的，又是真实的；既是柔美的，又是坚硬的。它告诉我们，一个地方的伟大，可以不仅仅源于一场著名的战役或一位天才的艺术家，也可以源于无数代普通矿工、商人、木匠和主妇日复一日的劳作与生活。每一位热爱深度游的旅人都应该来这里，不仅仅是为了拍照，更是为了上一堂关于时间、坚韧与生活之美的，无声却深刻的课。在这里，你会找到一种罕见的、扎实的安宁。</p>
             </div>
           </Section>
         </div>

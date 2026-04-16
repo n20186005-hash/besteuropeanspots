@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '普拉竞技场・Pula Arena・克罗地亚・普拉 | 最佳欧洲景点',
-  description: '探索普拉竞技场，这座世界上保存最完整的古罗马竞技场之一，承载着古罗马帝国的辉煌记忆。',
+  title: '普拉竞技场 Pula Arena｜地中海岸边最完整的罗马圆形剧场，仍在使用的千年史诗舞台 - 最佳欧洲景点',
+  description: '你第一眼看到它，可能会愣住。它就那样毫无预兆地、完整地矗立在普拉老城的街角，紧挨着寻常的咖啡馆和冰淇淋店。它不是孤零零地立在荒原上，而是被现代生活温柔地包裹着。这种强烈的时空错位感，是普拉竞技场给你的初体验。走近了，你会闻到一股混合了海风咸味、古老石头干燥气息，还有不远处咖啡馆飘来的咖啡香的复杂味道...',
 }
 
 export default function PulaArenaPage() {
@@ -23,15 +23,17 @@ export default function PulaArenaPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">普拉竞技场・Pula Arena・克罗地亚・普拉</h1>
           <p className="text-lg text-gray-600 mb-6">
-            普拉竞技场是古罗马帝国时期遗留的圆形角斗场，建于公元前27年至公元68年，是世界上唯一完整保存了所有罗马建筑结构的竞技场。
+            你第一眼看到它，可能会愣住。它就那样毫无预兆地、完整地矗立在普拉老城的街角，紧挨着寻常的咖啡馆和冰淇淋店。它不是孤零零地立在荒原上，而是被现代生活温柔地包裹着。这种强烈的时空错位感，是普拉竞技场给你的初体验。走近了，你会闻到一股混合了海风咸味、古老石头干燥气息，还有不远处咖啡馆飘来的咖啡香的复杂味道。孩子们在它巨大的基座下追逐，海鸥在它的拱门上盘旋鸣叫，阳光把那些蜂蜜色的石灰岩晒得发烫。它不是一座冰冷的博物馆展品，而是这座城市跳动了两千年的心脏。
+抚摸那些巨大的石块，触感粗糙而温暖，你能清晰地看到上面每一个凿痕，每一处风化的纹理。阳光透过上层完好的拱廊，在内部观众席的石阶上投下长长的、不断移动的光影格子。想象一下，两千年前，这里座无虚席，人声鼎沸，空气中弥漫着沙土、汗水与狂热的气息。而如今，喧嚣褪去，只剩下风穿过72个拱门时的呜咽声，以及游客低低的、充满敬畏的惊叹声。最动人的是，它依然活着。每到夏季，当舞台灯光亮起，交响乐奏响，或电影画面投射在那古老的墙壁上时，你仿佛能看到两个时代的灵魂在此刻深情对望。
+站在竞技场中央，抬头仰望这圈由时光砌成的宏伟围墙，你会感到一种奇异的平静。它不是关于征服或毁灭的炫耀，而是一种关于“存在”本身的沉默宣告。罗马帝国早已烟消云散，而这座由当地工匠一锤一凿建起的建筑，却因为成为了社区生活的一部分而延续至今。当地人来这里散步、约会、带孩子认识历史。这种“活着的废墟”所散发出的生命力，远比任何一座被精心隔离保护的遗迹，都更直击人心。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              普拉竞技场是古罗马帝国时期遗留的圆形角斗场，建于公元前27年至公元68年，历时近百年建成，是世界上唯一完整保存了所有罗马建筑结构的竞技场，也是欧洲第三大古罗马竞技场。它矗立在普拉市中心，全部由石块筑成，呈椭圆形，规模恢弘，兼具军事防御与娱乐功能，如今既是展示古罗马建筑艺术的重要遗址，也是举办音乐会、歌剧等文化活动的重要场所，浓缩了普拉千年的历史与人文底蕴。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4">你第一眼看到它，可能会愣住。它就那样毫无预兆地、完整地矗立在普拉老城的街角，紧挨着寻常的咖啡馆和冰淇淋店。它不是孤零零地立在荒原上，而是被现代生活温柔地包裹着。这种强烈的时空错位感，是普拉竞技场给你的初体验。走近了，你会闻到一股混合了海风咸味、古老石头干燥气息，还有不远处咖啡馆飘来的咖啡香的复杂味道。孩子们在它巨大的基座下追逐，海鸥在它的拱门上盘旋鸣叫，阳光把那些蜂蜜色的石灰岩晒得发烫。它不是一座冰冷的博物馆展品，而是这座城市跳动了两千年的心脏。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">抚摸那些巨大的石块，触感粗糙而温暖，你能清晰地看到上面每一个凿痕，每一处风化的纹理。阳光透过上层完好的拱廊，在内部观众席的石阶上投下长长的、不断移动的光影格子。想象一下，两千年前，这里座无虚席，人声鼎沸，空气中弥漫着沙土、汗水与狂热的气息。而如今，喧嚣褪去，只剩下风穿过72个拱门时的呜咽声，以及游客低低的、充满敬畏的惊叹声。最动人的是，它依然活着。每到夏季，当舞台灯光亮起，交响乐奏响，或电影画面投射在那古老的墙壁上时，你仿佛能看到两个时代的灵魂在此刻深情对望。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">站在竞技场中央，抬头仰望这圈由时光砌成的宏伟围墙，你会感到一种奇异的平静。它不是关于征服或毁灭的炫耀，而是一种关于“存在”本身的沉默宣告。罗马帝国早已烟消云散，而这座由当地工匠一锤一凿建起的建筑，却因为成为了社区生活的一部分而延续至今。当地人来这里散步、约会、带孩子认识历史。这种“活着的废墟”所散发出的生命力，远比任何一座被精心隔离保护的遗迹，都更直击人心。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -39,310 +41,142 @@ export default function PulaArenaPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="普拉竞技场" />
                 <InfoRow label="英文名称" value="Pula Arena" />
-                <InfoRow label="全称" value="Amphitheatrum Pulaense" />
-                <InfoRow label="国家" value="克罗地亚（Croatia）" />
-                <InfoRow label="城市" value="普拉（Pula）" />
+                <InfoRow label="正式名称" value="Pula Arena" />
+                <InfoRow label="国家" value="克罗地亚" />
+                <InfoRow label="城市" value="普拉" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="所属区域" value="伊斯特拉半岛西南沿海" />
-                <InfoRow label="建造年代" value="公元前27年-公元68年" />
-                <InfoRow label="建筑特色" value="保存最完整的古罗马竞技场" />
-                <InfoRow label="容量规模" value="可容纳2万余名观众" />
+                <InfoRow label="历史地位" value="世界上保存最完好的六座罗马竞技场之一，也是克罗地亚境内最宏伟的罗马遗迹。" />
+                <InfoRow label="建筑特色" value="依山而建，充分利用自然坡度，外墙由当地的伊斯特拉石灰岩砌成，呈巨大的椭圆形，轮廓完整，气势恢宏。" />
+                <InfoRow label="建筑风格" value="典型的罗马帝国时期建筑，融合了功能性、纪念性与当地石材建造传统。" />
+                <InfoRow label="文化价值" value="一座从血腥角斗场成功转型为现代文化艺术殿堂的活态纪念碑，见证了从罗马帝国到克罗地亚共和国的两千年沧桑。" />
               </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-blue-900 mb-3">详细门票信息</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">成人门票：</span>约15欧元/人</p>
-                <p><span className="font-medium">学生票：</span>7.5欧元/人（凭有效证件）</p>
-                <p><span className="font-medium">儿童政策：</span>12岁以下儿童免费</p>
-                <p><span className="font-medium">老人优惠：</span>65岁以上老人免费入场</p>
-                <p><span className="font-medium">家庭套票：</span>2大1小约30欧元</p>
-              </div>
-            </div>
-            <div className="bg-green-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-green-900 mb-3">开放时间</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">4-5月：</span>8:00-21:00</p>
-                <p><span className="font-medium">6-8月：</span>8:00-22:00（21:00停止入园）</p>
-                <p><span className="font-medium">9月：</span>8:00-21:00</p>
-                <p><span className="font-medium">10月：</span>8:00-19:00</p>
-                <p><span className="font-medium">11月-次年3月：</span>9:00-17:00</p>
-              </div>
-            </div>
-            <div className="bg-yellow-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-yellow-900 mb-3">交通指南</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">普拉机场：</span>→竞技场（15分钟车程或20分钟出租车，约10欧元）</p>
-                <p><span className="font-medium">萨格勒布：</span>→普拉（4小时大巴，25欧元，每天8-10班）</p>
-                <p><span className="font-medium">威尼斯：</span>→普拉（渡轮2.5小时，35欧元/人）</p>
-                <p><span className="font-medium">市内交通：</span>步行10分钟可达，观光巴士4欧元/天</p>
-                <p><span className="font-medium">停车场：</span>周边专用停车场，收费约6欧元/天</p>
-              </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="夏季（通常为4月至10月）：上午8:00 至 午夜（开放时间会延长至深夜，尤其是举办音乐会期间）。冬季（11月至次年3月）：上午9:00 至 日落（通常下午4-5点）。具体开放时间会根据季节和当天活动频繁调整，最稳妥的方式是出发前查看官网日历。注意：在举办大型活动（如普拉电影节、音乐会）当天，常规参观可能会提前结束或完全关闭，但你可以凭活动门票入场。" />
+              <InfoRow label="门票价格" value="成人票：约10欧元（约75库纳）。优惠票（学生、儿童、团体）：约6欧元（约45库纳）。7岁以下儿童免费。持有“伊斯特拉文化卡”可免费进入。门票通常包含进入竞技场内部、二层观景台及底下的小型常设展览（关于古罗马时期橄榄油和葡萄酒生产）。现场购票即可，旺季（7-8月）建议上午早点前往以避免排队。" />
+              <InfoRow label="地址" value="Flavijevska ulica, 52100, Pula, Croatia" />
+              <InfoRow label="交通方式" value="最近的机场是普拉机场（PUY），距离竞技场约8公里。从机场出发：乘坐机场巴士（Pula Airport Bus）直达普拉巴士总站，车程约20分钟，班次与航班衔接。从巴士总站步行至竞技场约15-20分钟。从火车站出发：普拉火车站距离竞技场约1.5公里，可轻松步行（20分钟）或搭乘本地公交车（如2A路）在“Arena”站下车。自驾：竞技场位于普拉老城边缘，周边有多个收费停车场，但老城道路狭窄且多为单行线，强烈建议将车停在城区外围的停车场后步行进入。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              普拉竞技场的历史可追溯至古罗马帝国时期，其建造历程贯穿了奥古斯都与克劳狄乌斯两个王朝，是古罗马帝国在伊斯特拉半岛统治地位的重要象征，也是古罗马建筑艺术在巴尔干半岛的杰出代表，历经近2000年的沧桑，依然完整保留着当年的宏伟风貌，被誉为"古罗马帝国的活化石"。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              公元前27年，古罗马帝国征服伊斯特拉半岛后，普拉成为帝国在亚得里亚海东岸的重要军事要塞与商业重镇。为彰显帝国的强盛与威严，同时满足当地贵族与民众的娱乐需求，当时的统治者下令修建这座圆形竞技场，工程始于奥古斯都王朝，完成于克劳狄乌斯王朝，历时近百年，动用了大量的人力、物力与财力，全部采用当地出产的石灰岩砌筑而成，未使用一钉一铆，仅凭石块的咬合与重力稳固成型，展现了古罗马人高超的建筑技艺。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              在古罗马时期，普拉竞技场是举办角斗表演、野兽搏斗、战车比赛等娱乐活动的核心场所，可容纳2万余名观众，是当时伊斯特拉半岛最大的公共娱乐设施。角斗士们在这里奋力厮杀，野兽在这里激烈搏斗，战车在这里疾驰角逐，每一场表演都能引来全场观众的欢呼，成为古罗马人休闲娱乐、彰显力量的重要场所。除了娱乐功能，竞技场还兼具军事防御作用，其坚固的墙体与完善的防御体系，在战乱时期可作为防御工事，保护城内居民的安全。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              古罗马帝国衰落之后，普拉竞技场历经了多个政权的统治，先后被拜占庭帝国、威尼斯共和国、奥匈帝国等管辖，期间多次遭遇战乱、地震等自然灾害的破坏，但凭借其坚固的建筑结构与当地居民的保护，大部分建筑遗存得以完好保留。中世纪时期，威尼斯共和国统治普拉，曾将竞技场改为城堡，加固墙体、增设防御设施，用于抵御外敌入侵；16世纪，竞技场的部分石块被拆去修建普拉的教堂与城墙，导致其局部受损，但核心结构依然完整；19世纪，奥匈帝国统治时期，政府开始对竞技场进行系统性修复，严格遵循"修旧如旧"的原则，还原其古罗马时期的原貌；20世纪，克罗地亚独立后，将普拉竞技场列为国家级重点文物保护单位，投入大量资金进行修缮与保护，同时完善周边旅游配套设施，让这座千年古迹重新焕发活力。
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              如今，普拉竞技场不仅是克罗地亚的历史文化瑰宝，也是全球古罗马文化爱好者的朝圣地，每年吸引着数百万游客前来参观。同时，它还是普拉重要的文化活动举办地，夏季经常举办音乐会、歌剧、芭蕾舞表演等活动，古老的竞技场与现代文化艺术碰撞，形成了独特的人文氛围，让千年古迹在新时代焕发新的生机。此外，普拉竞技场还因独特的建筑风貌，成为众多影视作品的取景地，进一步提升了其国际知名度，成为普拉乃至克罗地亚的城市名片。
-            </p>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">故事要从公元前1世纪说起。那时，普拉还只是罗马帝国一个名为“Pietas Julia”的重要港口和殖民地。随着帝国疆域扩张和财富积累，罗马人把他们的生活方式和娱乐需求也带到了这片伊斯特拉半岛的海岸线上。建造一座竞技场，是彰显罗马文明荣耀、安抚民众、举行庆典的“标配”。但普拉竞技场的选址充满了古人的智慧。他们没有铲平山头，而是巧妙地利用了城市东北部一处天然的山坡，将一半的观众席依托山体建造，另一半则用巨大的拱廊和石墙支撑起来。这大大节省了材料和人力，也赋予了它独特而稳固的结构。建造它所用的石头，都来自附近的采石场，那种温暖的、略带金色的伊斯特拉石灰岩，从此成为了这座建筑永恒的肤色。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在它的黄金时代，这里能容纳超过23，000名观众。上演的不仅仅是残酷的角斗士对决和野兽狩猎，还有海战模拟——是的，他们有能力将场地灌满水，进行小型舰船战斗，这足以证明其惊人的工程水平。市民们按照社会等级落座，从元老、骑士到平民、奴隶，甚至妇女，每个人都有指定的区域。空气里混合着血腥、汗臭、香水味和烤肉的香气，这是一个帝国的欲望与荷尔蒙集中释放的舞台。然而，随着西罗马帝国的崩溃，竞技场的功能也随之改变。中世纪时，它一度被当地贵族和农民用作集市场所，甚至在里面搭建了临时住房和小教堂，拱廊被改造成了仓库和作坊。它的石头也未能幸免，许多被拆走去修建城内的其他建筑，包括威尼斯时期的大教堂。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">真正让它免于彻底湮灭的，是一份意想不到的“保护令”。威尼斯共和国在1331年控制了普拉，他们的一位总督敏锐地意识到这座建筑潜在的军事价值，下令禁止任何人再从这里搬走石头，并计划将其改建为要塞。虽然这个要塞计划并未完全实施，但禁令客观上阻止了进一步的破坏。随后的几个世纪，它像一个沉睡的巨人，静静地躺在那里，经历着风霜雨雪和地震的考验。到了19世纪，随着浪漫主义思潮兴起和考古学的诞生，人们开始用新的眼光审视这座庞然大物。奥匈帝国的学者们开始了最初的清理和测绘工作，它作为“文物”的价值被重新发现。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">二十世纪给它带来了最严峻的考验。二战期间，意大利占领军曾计划将它整体拆解运往意大利，幸而未果。战后，南斯拉夫时期，如何对待这座前殖民者的遗产，曾有过争论。但最终，智慧占了上风。人们意识到，它的价值超越了任何单一的民族或帝国叙事，它是全人类共同的历史遗产。从1950年代开始，系统性的修复和保护工程启动。更了不起的是，人们没有把它锁在玻璃柜里。1961年，一场歌剧表演在这里举行，标志着它作为现代文化场所的“重生”。此后，普拉电影节、无数的音乐会、戏剧表演在此安家。今天，当你坐在古老的石阶上，看着舞台上的现代艺术，你会明白，历史从未死去，它只是换了一种语言，继续歌唱。</p>
+            </div>
           </Section>
 
           <Section title="4. 游览路线">
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">经典步行游览路线</h4>
-                <p className="text-gray-700 mb-4">全程建议安排2小时左右，节奏舒缓，兼顾打卡与深度体验</p>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">起点：普拉竞技场主入口</h5>
-                    <p>设有游客中心，可领取导览手册、咨询游览路线，周边有纪念品商店与休息区</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第一站：竞技场广场（步行即刻）</h5>
-                    <p>广场上有古罗马雕塑与绿植，可拍摄竞技场全景，感受宏伟气势</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第二站：竞技场底层</h5>
-                    <p>角斗士、野兽待命区域，留存牢笼、休息室与通道，墙壁可见当年刻痕</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第三站：中层看台</h5>
-                    <p>贵族与平民观赛区域，俯瞰竞技场内部全貌，欣赏石块砌筑的拱券结构</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第四站：顶层环形走廊</h5>
-                    <p>拍摄普拉全景绝佳位置，270度俯瞰普拉市区、老城区与亚得里亚海</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第五站：竞技场博物馆（东侧）</h5>
-                    <p>免费开放，收藏古罗马文物、角斗士武器、陶器等，参观时间约20分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第六站：普拉老城区漫步（步行5分钟）</h5>
-                    <p>保留古罗马、拜占庭、威尼斯时期建筑，石板街巷蜿蜒，特色商铺遍布</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">终点：竞技场主入口（步行5分钟）</h5>
-                    <p>出口处有公交站与出租车停靠点，可前往其他景点或返回住宿地点</p>
-                  </div>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  最佳的游览时间是清晨（刚开门时）或傍晚（日落前两小时）。清晨光线柔和，游客稀少，你能独享竞技场的宁静，感受它刚从夜晚中醒来的肃穆。傍晚则能捕捉到金色的夕阳为整个建筑披上盛装的魔幻时刻，并且有机会一直待到夜幕降临，看灯光点亮古迹。整体游览建议预留至少2-3小时，节奏要慢，不要赶路。路线应从外部环绕开始，由远及近，由外向内，最后登高俯瞰，完成一次时空的沉浸式穿越。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>夏季中午时分，竞技场内部石阶毫无遮挡，酷热难当，务必携带帽子、防晒霜和充足饮水。穿一双舒适防滑的鞋子非常重要，古老的石头台阶被千万人踩踏得光滑且不平整。如果计划观看晚间演出，务必提前数月订票，并带上一件薄外套，因为入夜后石阶会变得冰凉。
                 </div>
               </div>
               
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">温馨提示</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 竞技场内部石阶较陡，部分路段较滑，建议穿舒适的防滑步行鞋</li>
-                  <li>• 参观底层通道时，光线较暗，可携带手电筒或打开手机手电筒</li>
-                  <li>• 禁止大声喧哗、随意触摸建筑墙体与文物，禁止使用闪光灯拍摄文物</li>
-                  <li>• 旺季（7-8月）游客较多，建议错峰前往，避免拥挤</li>
-                  <li>• 夏季气温较高，紫外线较强，需携带遮阳帽、防晒霜与饮用水</li>
-                </ul>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从竞技场西侧广场的咖啡馆开始，点一杯意式浓缩，坐在露天座位上，从日常生活的角度远远观察这个庞然大物，做好心理铺垫。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">顺时针沿着竞技场外围漫步，用手触摸那些巨大的石灰岩块，数一数它完整的72个拱门，感受建筑规模的震撼和工匠手艺的精细。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从南侧的主入口进入内部，瞬间置身于巨大的椭圆形空间中央，静立片刻，倾听风声和回声，想象古今声音在此交织。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">沿着古老的台阶拾级而上，走到中层观众席，找一个石阶坐下，俯瞰整个竞技场地，观察阳光在石头上移动的轨迹。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">探访位于地下层的常设展览，这里曾是关押角斗士和野兽的囚室，昏暗的灯光下了解古罗马时期伊斯特拉的农业与生活。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">攀登到最上层的观景回廊，这里是俯瞰整个普拉城市全景和远处亚得里亚海的绝佳位置，海风扑面而来。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">如果时间允许，在出口处的纪念品商店稍作停留，那里有一些关于竞技场历史和修复过程的精美书籍和画册。</p>
+                </div>
               </div>
             </div>
           </Section>
 
           <Section title="5. 拍照机位">
-            <div className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">竞技场主入口广场</h4>
-                  <p className="text-gray-700 text-sm">拍摄竞技场正面全景核心机位，灰白色石墙、高大拱券清晰可见。最佳时间：上午9:00-11:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">竞技场顶层环形走廊</h4>
-                  <p className="text-gray-700 text-sm">拍摄普拉全景最佳机位，270度俯瞰普拉市区、老城区与亚得里亚海。最佳时间：傍晚17:00-19:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">竞技场中层看台</h4>
-                  <p className="text-gray-700 text-sm">拍摄竞技场内部全景核心机位，俯瞰内部结构，欣赏拱券结构。最佳时间：上午10:00-11:30</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">竞技场底层通道</h4>
-                  <p className="text-gray-700 text-sm">拍摄氛围感大片绝佳机位，狭窄通道、斑驳石墙、昏暗光线。建议穿着深色衣物形成对比</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">普拉老城区街巷</h4>
-                  <p className="text-gray-700 text-sm">拍摄街巷与竞技场同框照片，展现古今交融韵味。最佳时间：上午9:00-10:30</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">竞技场周边海滨步道</h4>
-                  <p className="text-gray-700 text-sm">拍摄竞技场侧面与蔚蓝亚得里亚海，清新治愈画面。最佳时间：午后14:00-16:00</p>
-                </div>
-              </div>
-              
-              <div className="bg-purple-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-purple-900 mb-3">拍照小贴士</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 最佳拍摄时间：清晨（8:30-10:30）和傍晚（17:00-19:00），光线柔和，游客较少</li>
-                  <li>• 建议穿着纯色、简约风格衣物，如白色、米白色、黑色，与灰白色石墙、蔚蓝大海形成呼应</li>
-                  <li>• 拍摄建筑全景时可使用广角镜头，拍摄细节时可使用长焦镜头，突出石墙纹理、拱券结构</li>
-                  <li>• 拍摄底层通道时，可利用光影对比，增强画面氛围感</li>
-                  <li>• 禁止拍摄文物内部敏感区域，遵守当地规定，尊重历史遗存</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="6. 附近景点">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">步行可达景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">普拉老城区</span>
-                      <p className="text-sm text-gray-600">距离竞技场约5分钟步行路程，保留古罗马、拜占庭、威尼斯时期建筑，免费开放</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">罗马神庙（Temple of Augustus）</span>
-                      <p className="text-sm text-gray-600">距离竞技场约8分钟步行路程，建于公元前2年，门票约3欧元/人</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">巴拉克拉瓦海滩（Bacvice Beach）</span>
-                      <p className="text-sm text-gray-600">距离竞技场约15分钟步行路程，沙滩细腻，海水澄澈湛蓝，免费开放</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">短途出行景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">普拉城堡（Pula Castle）</span>
-                      <p className="text-sm text-gray-600">距离竞技场约10分钟步行路程，中世纪城堡，门票约5欧元/人</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">罗维尼小镇（Rovinj）</span>
-                      <p className="text-sm text-gray-600">距离普拉约40公里，大巴1小时，票价约8欧元，伊斯特拉半岛最美海滨小镇之一</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿推荐">
-            <div className="space-y-6">
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">住宿位置选择</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">竞技场周边或老城区</h5>
-                    <p>距离核心景点最近，步行即可抵达，多为传统石屋改造，氛围古朴静谧</p>
-                  </div>
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">海滨沿岸</h5>
-                    <p>视野开阔可欣赏海景，部分酒店设有海景露台，距离竞技场约10-15分钟步行</p>
-                  </div>
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">市区周边</h5>
-                    <p>性价比高，价格相对实惠，可乘坐公交或出租车前往竞技场，车程约5-10分钟</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">住宿类型推荐</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">特色民宿</h5>
-                    <p>老城区与竞技场周边有很多小众民宿，多由当地传统石屋改造，装修融合古罗马元素与地中海风格，35-80欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">自助公寓</h5>
-                    <p>设施齐全，适合家庭或多人出行，30-70欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">精品海景酒店</h5>
-                    <p>海滨沿岸有多家精品酒店，装修高端精致，部分设有私人海滩、海景泳池和露台，80-140欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">经济型酒店</h5>
-                    <p>市区周边和竞技场边缘有多家性价比高的酒店，设施标准化，干净整洁，20-40欧元/晚</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-green-900 mb-3">预订注意事项</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 普拉旅游旺季为5-9月，尤其是7-8月，游客较多，建议提前1-2个月预订</li>
-                  <li>• 选择可免费取消的房源，以便灵活调整行程</li>
-                  <li>• 自驾出行需确认住宿周边停车场位置与收费标准（5-10欧元/天）</li>
-                  <li>• 老城区内的民宿多位于小巷深处，无电梯，携带大件行李需提前确认</li>
-                  <li>• 春秋季（4-5月、9-10月）气候最宜人，游客较少，住宿价格适中，是最佳时节</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="8. 实用贴士">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-900 mb-2">最佳游览时间</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 4-5月、9-10月：气候宜人，游客较少，住宿价格适中</li>
-                    <li>• 5-9月：旅游旺季，活动丰富但游客较多</li>
-                    <li>• 11-次年2月：旅游淡季，游客稀少，部分景点关闭</li>
-                    <li>• 上午9:00-11:30：光线柔和，游客较少，便于拍摄</li>
-                  </ul>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 西侧咖啡馆视角</h4>
+                  <p className="text-sm text-gray-700">清晨或傍晚，从广场对面的咖啡馆方向拍摄，可以将竞技场宏伟的立面与现代生活的咖啡馆、行人一同纳入画面，形成强烈的古今对比。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 内部中央仰拍</h4>
+                  <p className="text-sm text-gray-700">正午时分阳光直射时，站在竞技场底部中心点，使用广角镜头垂直向上拍摄，可以完美捕捉到层层叠叠的圆形拱廊和蔚蓝天空构成的几何奇迹。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 南侧拱门框架构图</h4>
+                  <p className="text-sm text-gray-700">下午光线侧射时，走到竞技场外南侧，透过一个完整的拱门作为画框，拍摄内部另一侧的结构和观众席，营造深邃的景深感。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 顶层回廊俯瞰全景</h4>
+                  <p className="text-sm text-gray-700">日落前一小时，在顶层回廊寻找一个向东的缺口，将竞技场内部蜿蜒的阶梯、舞台与远处普拉老城的红屋顶和湛蓝大海一同收纳进镜头。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 使用三脚架在内部拍摄长时间曝光需要提前申请许可，尤其是在非活动期间。航拍飞行器在克罗地亚文化遗产上空飞行有严格规定，未经批准严禁起飞。尊重其他游客和表演活动，在演出搭建或彩排期间，避免使用闪光灯和发出巨大噪音。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">老城心跳之选</h4>
+                  <p className="text-sm text-blue-800">住在竞技场步行五分钟范围内的老城公寓里，开窗就能看见古老的石墙，夜晚听着隐约的海浪声和从竞技场飘来的音乐声入眠。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">海风与古迹兼顾</h4>
+                  <p className="text-sm text-green-800">选择位于韦尔udela半岛上的精品酒店，房间拥有无敌海景阳台，同时距离竞技场也只有十分钟车程，享受宁静与便利的完美平衡。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">沉浸式历史体验</h4>
+                  <p className="text-sm text-yellow-800">下榻由一栋19世纪奥匈帝国风格贵族宅邸改建的小型精品酒店，内部充满复古情调，步行至竞技场的路上仿佛在进行一场时空漫步。</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">参观注意事项</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 竞技场内部石阶较陡，部分路段较滑，建议穿舒适的防滑步行鞋</li>
-                    <li>• 参观底层通道时，光线较暗，可携带手电筒或打开手机手电筒</li>
-                    <li>• 禁止大声喧哗、随意触摸建筑墙体与文物，禁止使用闪光灯拍摄文物</li>
-                    <li>• 旺季（7-8月）游客较多，建议错峰前往，避免拥挤</li>
-                  </ul>
+                  <h4 className="font-semibold text-purple-900 mb-2">田园隐居之乐</h4>
+                  <p className="text-sm text-purple-800">租住在普拉郊外橄榄庄园里的石头屋，白天开车十分钟来探索古迹，晚上在星空下的私人庭院里品味本地特产的玛瓦齐亚葡萄酒，彻底放松。</p>
                 </div>
               </div>
-              <div className="space-y-4">
-                <div className="bg-indigo-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-indigo-900 mb-2">特色体验</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 登上竞技场顶层，270度俯瞰普拉市区、老城区与亚得里亚海全景</li>
-                    <li>• 参观竞技场底层通道，感受古罗马角斗士待命的历史氛围</li>
-                    <li>• 漫步普拉老城区，欣赏古罗马、拜占庭、威尼斯时期建筑</li>
-                    <li>• 在竞技场博物馆深入了解古罗马时期的历史与文化</li>
-                  </ul>
-                </div>
-                <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-900 mb-2">实用信息</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 当地货币：欧元，部分地方支持克罗地亚库纳（1欧元≈7.5库纳）</li>
-                    <li>• 语言：克罗地亚语，但旅游区英语基本通行</li>
-                    <li>• 电压：230V，插头为Type F型</li>
-                    <li>• 紧急电话：112（欧洲统一紧急电话）</li>
-                  </ul>
-                </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">7-8月旺季时，普拉住宿非常紧张且价格昂贵，至少提前三个月预订是明智之举。老城内的住宿可能面临夜间酒吧的噪音，选择时请仔细查看评价。如果你自驾，确保住宿地点提供停车位，因为老城中心停车位堪比宝藏。</p>
               </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开普拉竞技场好几天了，我脑海里反复回响的不是导游讲述的历史年份，而是一种触感——那种石灰岩在阳光下微微发烫的触感，和入夜后它迅速褪去温度、变得冰凉坚硬的触感。这座建筑像一个活生生的生命体，有自己的体温和呼吸。它完美地诠释了什么是“活着的遗产”。它没有被供起来，没有被过度修复得崭新发亮，它允许时间在它身上留下刻痕，也欣然接纳现代生活的烟火气。这种坦然与包容，有一种巨大的力量。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个追求崭新、快速和刺激的时代，普拉竞技场像一位沉默的智者，教你另一种价值观：关于持久，关于韧性，关于如何优雅地老去并在每个新时代找到自己的位置。它告诉我们，伟大的建筑不仅存在于它落成的那一刻，更存在于它穿越漫长岁月、不断被赋予新意义的过程中。对于热爱深度游的旅人而言，这里不仅仅是一个打卡点。它是一个让你停下脚步，坐下来，静静感受“时间”本身为何物的冥想空间。在这里，你触摸到的不仅是罗马帝国的石头，更是人类文明那根坚韧而绵长的脉搏。这趟旅程，会成为你记忆中一块温润的基石，每当世界过于喧嚣时，你都可以在心里回到那个阳光灿烂的午后，坐在古老的石阶上，听风穿过两千年的拱门，心中一片澄明宁静。</p>
             </div>
           </Section>
         </div>

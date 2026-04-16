@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '埃斯泰尔戈姆大教堂・Esztergom Basilica・匈牙利・埃斯泰尔戈姆 | 最佳欧洲景点',
-  description: '探索埃斯泰尔戈姆大教堂，匈牙利规模最大、级别最高的天主教堂，欧洲第二大圣母升天大教堂，承载着深厚宗教与历史底蕴的中欧建筑艺术瑰宝。',
+  title: '埃斯泰尔戈姆大教堂 Esztergom Basilica｜多瑙河畔的匈牙利信仰之巅与艺术宝库 - 最佳欧洲景点',
+  description: '朋友，想象一下，当你穿过埃斯泰尔戈姆老城那些色彩柔和的小房子，顺着缓坡向上走，一个拐角之后，整个世界突然被一堵巨大的、米白色石墙所填满。那不是一堵墙，而是一座山——一座由人类信仰与雄心垒砌成的石头之山。埃斯泰尔戈姆大教堂就这样毫无预警地、沉默而威严地耸立在城堡山的顶端，它的绿色圆顶刺破匈牙利的蓝天，...',
 }
 
 export default function EsztergomBasilicaPage() {
@@ -23,15 +23,19 @@ export default function EsztergomBasilicaPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">埃斯泰尔戈姆大教堂・Esztergom Basilica・匈牙利・埃斯泰尔戈姆</h1>
           <p className="text-lg text-gray-600 mb-6">
-            埃斯泰尔戈姆大教堂是匈牙利规模最大、级别最高的天主教堂，也是欧洲第二大圣母升天大教堂，作为匈牙利天主教的中心，承载着深厚的宗教与历史底蕴。
+            朋友，想象一下，当你穿过埃斯泰尔戈姆老城那些色彩柔和的小房子，顺着缓坡向上走，一个拐角之后，整个世界突然被一堵巨大的、米白色石墙所填满。那不是一堵墙，而是一座山——一座由人类信仰与雄心垒砌成的石头之山。埃斯泰尔戈姆大教堂就这样毫无预警地、沉默而威严地耸立在城堡山的顶端，它的绿色圆顶刺破匈牙利的蓝天，巨大的科林斯柱廊像张开的手臂，又像沉默的卫兵，俯视着脚下蜿蜒的多瑙河，和对岸的斯洛伐克土地。第一眼，你会忘记呼吸，只会感到一种纯粹的、近乎压迫的崇高感。
+走近它，感官才慢慢苏醒。脚下是宽大的石阶，被无数朝圣者和游客的脚步打磨得温润。空气里有石头的凉意，混合着远处河边飘来的淡淡水汽与青草香。偶尔，沉重的教堂大门被推开，会泄出一段管风琴浑厚的低鸣，或是唱诗班空灵的和声，那声音仿佛自带混响，在巨大的广场上萦绕。你会看到当地人并不急着进去，他们坐在广场边缘的长椅上，晒着太阳，看着孩子奔跑，好像这座庞然大物不是需要仰望的景点，而是他们生活里一个理所当然、坚实可靠的背景。这种神圣与日常的交织，正是它最动人的地方。
+踏入教堂内部，光线骤然变得幽暗而神圣。你的眼睛需要几秒钟来适应，然后，一个无比恢弘的空间在你面前展开。中殿高得让人眩晕，目光不由自主地被引向尽头那金碧辉煌的主祭坛。那上面装饰的《圣母升天图》油画，是世界上最大的单幅画作之一，在摇曳的烛光与从高处圆窗射下的光束中，仿佛真的在流动、在升腾。空气里弥漫着旧木头、熄灭的蜡烛和一丝若有若无的熏香味道。你可以找一张长椅坐下，静静聆听自己的脚步声在穹顶下产生的悠长回音，感受几个世纪以来，无数祈祷、希望与忏悔在这里沉淀下来的那份沉重而宁静的力量。
+而它最核心的魅力，在于一种“边缘的中心感”。埃斯泰尔戈姆如今是个宁静的边境小城，但这座教堂却无比雄辩地诉说着它作为匈牙利第一个首都、基督教摇篮的辉煌过往。站在这里，你不仅是在参观一座教堂，更是站在了匈牙利国家精神的源头，站在了多瑙河这条欧洲命脉的一个关键转折点上，感受着历史、信仰与地理在此处惊心动魄的交汇。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              埃斯泰尔戈姆大教堂是匈牙利规模最大、级别最高的天主教堂，也是欧洲第二大圣母升天大教堂，作为匈牙利天主教的中心，承载着深厚的宗教与历史底蕴。教堂融合新古典主义与巴洛克风格，外观宏伟庄重，内部装饰精美，留存着众多艺术珍品，与多瑙河对岸的斯洛伐克城镇隔河相望，既是宗教朝圣的圣地，也是欣赏中欧建筑艺术、感受匈牙利历史文化的必访景点。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4">朋友，想象一下，当你穿过埃斯泰尔戈姆老城那些色彩柔和的小房子，顺着缓坡向上走，一个拐角之后，整个世界突然被一堵巨大的、米白色石墙所填满。那不是一堵墙，而是一座山——一座由人类信仰与雄心垒砌成的石头之山。埃斯泰尔戈姆大教堂就这样毫无预警地、沉默而威严地耸立在城堡山的顶端，它的绿色圆顶刺破匈牙利的蓝天，巨大的科林斯柱廊像张开的手臂，又像沉默的卫兵，俯视着脚下蜿蜒的多瑙河，和对岸的斯洛伐克土地。第一眼，你会忘记呼吸，只会感到一种纯粹的、近乎压迫的崇高感。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">走近它，感官才慢慢苏醒。脚下是宽大的石阶，被无数朝圣者和游客的脚步打磨得温润。空气里有石头的凉意，混合着远处河边飘来的淡淡水汽与青草香。偶尔，沉重的教堂大门被推开，会泄出一段管风琴浑厚的低鸣，或是唱诗班空灵的和声，那声音仿佛自带混响，在巨大的广场上萦绕。你会看到当地人并不急着进去，他们坐在广场边缘的长椅上，晒着太阳，看着孩子奔跑，好像这座庞然大物不是需要仰望的景点，而是他们生活里一个理所当然、坚实可靠的背景。这种神圣与日常的交织，正是它最动人的地方。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">踏入教堂内部，光线骤然变得幽暗而神圣。你的眼睛需要几秒钟来适应，然后，一个无比恢弘的空间在你面前展开。中殿高得让人眩晕，目光不由自主地被引向尽头那金碧辉煌的主祭坛。那上面装饰的《圣母升天图》油画，是世界上最大的单幅画作之一，在摇曳的烛光与从高处圆窗射下的光束中，仿佛真的在流动、在升腾。空气里弥漫着旧木头、熄灭的蜡烛和一丝若有若无的熏香味道。你可以找一张长椅坐下，静静聆听自己的脚步声在穹顶下产生的悠长回音，感受几个世纪以来，无数祈祷、希望与忏悔在这里沉淀下来的那份沉重而宁静的力量。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">而它最核心的魅力，在于一种“边缘的中心感”。埃斯泰尔戈姆如今是个宁静的边境小城，但这座教堂却无比雄辩地诉说着它作为匈牙利第一个首都、基督教摇篮的辉煌过往。站在这里，你不仅是在参观一座教堂，更是站在了匈牙利国家精神的源头，站在了多瑙河这条欧洲命脉的一个关键转折点上，感受着历史、信仰与地理在此处惊心动魄的交汇。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -39,304 +43,149 @@ export default function EsztergomBasilicaPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="埃斯泰尔戈姆大教堂" />
                 <InfoRow label="英文名称" value="Esztergom Basilica" />
-                <InfoRow label="全称" value="Basilica of Esztergom" />
-                <InfoRow label="匈牙利语名" value="Esztergomi Bazilika" />
-                <InfoRow label="国家" value="匈牙利（Hungary）" />
-                <InfoRow label="城市" value="埃斯泰尔戈姆（Esztergom）" />
+                <InfoRow label="正式名称" value="埃斯泰尔戈姆圣座圣殿（Primatial Basilica of the Blessed Virgin Mary Assumed Into Heaven and St Adalbert）" />
+                <InfoRow label="国家" value="匈牙利" />
+                <InfoRow label="城市" value="埃斯泰尔戈姆" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="所属区域" value="匈牙利北部，科马罗姆-埃斯泰尔戈姆州首府" />
-                <InfoRow label="地理位置" value="多瑙河畔，紧邻斯洛伐克边境" />
-                <InfoRow label="历史地位" value="匈牙利旧都、天主教大主教驻地" />
-                <InfoRow label="建筑风格" value="新古典主义与巴洛克风格融合" />
+                <InfoRow label="历史地位" value="匈牙利最大、最高、最重要的天主教堂，也是该国的总主教座堂和天主教精神中心。" />
+                <InfoRow label="建筑特色" value="巍峨的新古典主义风格巨型建筑，拥有高达100米的中央圆顶，其内部祭坛装饰着世界上最大的单幅油画作品之一。" />
+                <InfoRow label="建筑风格" value="以新古典主义为主体，并融合了文艺复兴、巴洛克及新文艺复兴等多种风格的折衷主义杰作。" />
+                <InfoRow label="文化价值" value="见证了匈牙利千年基督教历史的兴衰，是民族身份与信仰的永恒象征，其建筑与艺术收藏是匈牙利文化遗产的巅峰。" />
               </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-blue-900 mb-3">详细门票信息</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">教堂主体（含主祭坛、穹顶）：</span>成人8欧元/人，学生4欧元/人，6岁以下儿童免费</p>
-                <p><span className="font-medium">教堂博物馆（含宗教文物、艺术珍品）：</span>成人5欧元/人，学生3欧元/人</p>
-                <p><span className="font-medium">穹顶登顶（俯瞰城市与多瑙河全景）：</span>成人3欧元/人，学生2欧元/人</p>
-                <p><span className="font-medium">联票（教堂主体+博物馆+穹顶）：</span>成人14欧元/人，学生7欧元/人</p>
-              </div>
-            </div>
-            <div className="bg-green-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-green-900 mb-3">开放时间</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">4-5月：</span>9:00-17:00（16:30停止入园）</p>
-                <p><span className="font-medium">6-8月：</span>8:30-18:30（18:00停止入园）</p>
-                <p><span className="font-medium">9-10月：</span>9:00-17:00（16:30停止入园）</p>
-                <p><span className="font-medium">11月-次年3月：</span>10:00-16:00（15:30停止入园）</p>
-                <p className="text-red-600 font-medium">注意：周一部分区域闭馆</p>
-              </div>
-            </div>
-            <div className="bg-yellow-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-yellow-900 mb-3">交通指南</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">布达佩斯机场：</span>→埃斯泰尔戈姆（1小时车程）</p>
-                <p><span className="font-medium">公共交通：</span>布达佩斯→埃斯泰尔戈姆（1小时火车，4.5欧元/人）</p>
-                <p><span className="font-medium">火车站距离：</span>火车站距教堂约1.2公里，步行15分钟</p>
-                <p><span className="font-medium">市内交通：</span>老城区步行游览，巴士可达核心节点（1.2欧元/人）</p>
-                <p><span className="font-medium">停车场：</span>教堂周边专用停车场，收费约4欧元/天</p>
-              </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="教堂内部开放时间一般为每日上午9:00至下午16:30，具体时间随季节微调，夏季（4月-10月）通常会延长至下午17:00或17:30。圆顶观景台和宝藏馆的开放时间较短，通常为上午10:00至下午16:00，且冬季（11月-3月）可能仅在周末开放或提前关闭。请注意，每周日上午及宗教节日期间主要举行弥撒，游客参观会受到限制。重大宗教活动如圣诞节、复活节期间，开放时间变动较大，出行前务必查看官网最新公告。" />
+              <InfoRow label="门票价格" value="进入教堂主体和地下墓穴是免费的。登顶圆顶观景台及参观教堂宝藏馆需购买联票，成人票约为1800匈牙利福林（约4.5欧元）。学生、老人享有优惠票价，约为900福林。6岁以下儿童免费。也可以选择包含导游讲解的套票，价格约在3500福林左右。门票可在教堂入口处的售票处购买，仅接受匈牙利福林现金或当地银行卡支付，建议提前备好零钱。" />
+              <InfoRow label="地址" value="Szent István tér 1, Esztergom, 2500, Hungary" />
+              <InfoRow label="交通方式" value="从布达佩斯出发最为方便。在布达佩斯“Árpád híd”巴士站乘坐长途巴士，直达埃斯泰尔戈姆，车程约1小时15分钟，班次频繁，几乎每半小时一班。也可以从布达佩斯西火车站（Budapest-Nyugati）乘坐火车，约1小时20分钟抵达埃斯泰尔戈姆火车站，但火车站距离教堂尚有2公里步行距离或需换乘本地巴士。最推荐的组合是乘坐火车欣赏多瑙河弯风景，下车后悠闲地散步过桥进城。自驾则沿11号公路向北行驶约50公里即可到达，教堂山脚下有付费停车场。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              埃斯泰尔戈姆大教堂的历史与埃斯泰尔戈姆市的兴衰紧密相连，这座教堂的发展历程，见证了匈牙利宗教文化的传承与历史的变迁，承载着千年的王室与宗教记忆，是匈牙利历史文化的重要缩影。埃斯泰尔戈姆作为匈牙利的旧都，曾是阿尔帕德王朝的首都，也是匈牙利王室的重要居所，而埃斯泰尔戈姆大教堂则是这一历史地位的重要象征。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              早在10世纪，埃斯泰尔戈姆就成为匈牙利的宗教中心，当时这里建造了第一座基督教教堂，作为匈牙利早期天主教的重要圣地。匈牙利首位国王伊什特万一世（圣伊什特万）就诞生于埃斯泰尔戈姆，他在位期间，大力推行基督教，将天主教确立为匈牙利国教，埃斯泰尔戈姆也成为匈牙利大主教的驻地，当时的教堂成为王室加冕、祈祷的重要场所，见证了匈牙利早期的统一与繁荣。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              中世纪时期，埃斯泰尔戈姆大教堂历经多次改建与扩建，最初为罗马式风格，后逐步融合哥特式元素，成为当时匈牙利规模最大、最华丽的教堂之一。但在16世纪奥斯曼帝国入侵匈牙利期间，教堂遭到严重破坏，大部分建筑被损毁，宗教活动一度中断，教堂沦为奥斯曼军队的驻扎地，许多宗教文物被掠夺、损毁，昔日的辉煌逐渐衰落。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              17世纪末，匈牙利摆脱奥斯曼帝国的统治，开始重建埃斯泰尔戈姆大教堂，历经数十年的修复，教堂逐步恢复原貌，但规模与装饰仍未达到昔日水平。1822年，匈牙利王室决定重建大教堂，邀请当时著名的建筑师希尔德·约瑟夫主持设计，采用新古典主义风格，融合部分巴洛克元素，历时47年，于1869年正式竣工，成为如今我们看到的埃斯泰尔戈姆大教堂。这座教堂的竣工，不仅恢复了埃斯泰尔戈姆作为宗教中心的地位，也成为匈牙利民族复兴的象征。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              1856年，埃斯泰尔戈姆大教堂举行了隆重的献堂典礼，著名音乐家李斯特·费伦茨专门为此谱写了《大弥撒曲》作为献礼，并亲自担任献堂弥撒的音乐指挥，这一事件也成为埃斯泰尔戈姆大教堂历史上的重要里程碑。此后，大教堂历经多次修缮，尤其是20世纪末的全面修复，不仅保留了原有建筑的风貌，还完善了内部的艺术装饰，留存了大量的壁画、雕塑、stained glass（彩色玻璃）等艺术珍品，成为匈牙利宗教艺术的集大成者。
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              如今，埃斯泰尔戈姆大教堂不仅是匈牙利天主教的中心，也是匈牙利重要的历史文化地标，每年吸引着大量游客与朝圣者前来，它承载着匈牙利千年的宗教信仰与历史记忆，见证了匈牙利从分裂到统一、从衰落至复兴的全过程，成为中欧宗教建筑与历史文化融合的典范。
-            </p>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">要说清楚这座教堂的故事，我们得把时钟拨回一千多年前。公元10世纪末，匈牙利大公盖佐在此修建了城堡和教堂，他的儿子，也就是后来被尊为圣人的伊什特万一世，正是在埃斯泰尔戈姆受洗，并在公元1000年于此加冕，成为匈牙利第一位国王。从那时起，埃斯泰尔戈姆就是匈牙利王国的首都和总主教区，是基督教在这片土地扎根的起点。早期的罗马式大教堂屹立在山巅，见证着阿尔帕德王朝的荣光。你可以想象，中世纪的工匠、骑士、主教和各国使节，在这座俯瞰多瑙河的城堡与教堂里进进出出，决定着王国的命运。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，历史的剧本从不缺少跌宕。16世纪，奥斯曼土耳其帝国的铁蹄横扫匈牙利。1526年莫哈奇战役的惨败后，土耳其人最终在1543年攻占了埃斯泰尔戈姆。那座象征着匈牙利天主教心脏的古老大教堂，未能幸免于难，被摧毁殆尽，只剩断壁残垣。在此后的近一个半世纪里，教堂遗址上甚至建起了一座清真寺，十字架被新月取代，钟声被宣礼声覆盖。这段被占领的岁月，是匈牙利民族记忆中一道深深的伤疤，埃斯泰尔戈姆的沦陷，标志着王国黄金时代的彻底终结。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">转机出现在17世纪末，哈布斯堡王朝领导的军队逐步将土耳其人赶出匈牙利。1699年，埃斯泰尔戈姆重归基督教世界。但光复的喜悦很快被现实的荒凉冲淡——昔日宏伟的教堂只剩一堆废墟。整个18世纪，教会都在断断续续地进行小规模重建，在原址上建起了一座巴洛克风格的教堂，但它规模较小，似乎无法承载民族复兴的雄心。直到19世纪初，随着匈牙利民族意识的觉醒和浪漫主义思潮的兴起，一个宏大的构想终于破土而出：要在祖先的圣地、民族的发源地，建造一座配得上匈牙利历史和天主教信仰的、空前宏伟的大教堂。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">于是，在1822年，总主教捐出了第一笔钱，奠基仪式隆重举行。设计任务交给了当时杰出的建筑师帕尔·库恩和亚诺什·帕克。他们抛弃了巴洛克风格，选择了更庄严、更古典的新古典主义，灵感来源于罗马的圣彼得大教堂。建造过程本身就是一部史诗，跨越了近半个世纪，历经资金短缺、设计修改（比如圆顶最初设计得更像柏林大教堂，后来才改为现在的新文艺复兴风格）、政治动荡，甚至1848年革命的战火。一代又一代的工匠、雕刻家、画家将心血倾注于此。最终，在1869年，这座巨构在主保圣人圣阿达尔伯特的纪念日由总主教祝圣启用。它不仅仅是一座宗教建筑，更成为了匈牙利民族从废墟中站立起来、重建身份与荣耀的宣言。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">20世纪，它继续承受着历史的考验。二战末期的围城战给它的墙壁留下了弹孔，共产主义时期，宗教活动受到严格限制，但它作为国家象征的地位无法撼动。1991年，教宗若望保禄二世到访，在此举行弥撒，数十万人聚集在山坡和多瑙河畔，那场面仿佛中世纪全盛时期的再现。今天，你看到的每一块石头，都浸透着这段跨越千年的故事——从建国荣光到沦陷之痛，从废墟到重生，它静静地屹立着，本身就是一部石头写成的匈牙利史书。</p>
+            </div>
           </Section>
 
           <Section title="4. 游览路线">
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">经典游览路线</h4>
-                <p className="text-gray-700 mb-4">全程以"宗教艺术+历史人文"为主题，难度适中，建议安排1.5-2小时</p>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">起点：埃斯泰尔戈姆大教堂入口</h5>
-                    <p>设有售票窗口与游客中心，可购买门票、领取导览手册、寄存行李</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第一站：教堂前广场</h5>
-                    <p>广场中央有圣伊什特万雕像，周边是新古典主义风格附属建筑，可拍摄教堂正面全景，参观约15分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第二站：教堂主体大厅</h5>
-                    <p>首先映入眼帘的是宏伟的主祭坛，祭坛上方是巨大的穹顶，穹顶壁画精美，两侧是对称的侧祭坛，参观约40分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第三站：教堂博物馆</h5>
-                    <p>位于教堂西侧，展示了大量宗教文物、中世纪手稿、雕塑、绘画等珍品，参观约25分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第四站：穹顶登顶</h5>
-                    <p>乘坐电梯或步行登上穹顶，可360度俯瞰埃斯泰尔戈姆市区全景，远眺多瑙河对岸的斯洛伐克城镇，参观约20分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第五站：教堂周边街巷漫步</h5>
-                    <p>漫步在老城区的石板街巷，欣赏两侧的复古民居、特色商铺与咖啡馆，购买当地手工艺品，感受当地烟火气</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">终点：教堂入口</h5>
-                    <p>周边有当地特色餐厅，可品尝匈牙利传统美食，结束游览</p>
-                  </div>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  要完整领略埃斯泰尔戈姆大教堂的层次与灵魂，我建议你安排至少半天时间（4-5小时）。最好在上午9点开门时就抵达，这时游客尚少，光线柔和，你能享受到教堂内部最宁静神圣的时刻。整体游览节奏应该是“由外至内，由下至上，再由内至外”。先从外部广场感受其宏观气势和地理环境，然后进入教堂主体，沉浸于内部的艺术与虔诚，接着挑战登顶，获取震撼的全景视角，最后参观宝藏馆并漫步周边遗迹。这样的安排能让你从视觉、心灵到体力，都经历一次完整的“朝圣”体验，逐步揭开这座圣殿的每一层面纱。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>周日中午前以及重要宗教节日期间，教堂主要区域用于举行弥撒，游客参观会受到严格限制，最好避开这些时间段前往。进入教堂内部，即便天气炎热，也请避免穿着无袖上衣、短裤或过短的裙子，以示对宗教场所的尊重，门口有时会提供围巾供游客临时使用。教堂内部的灯光为了营造氛围较为昏暗，参观壁画和细节时可能需要一点耐心，也可以携带一个小型手电筒辅助观看。
                 </div>
               </div>
               
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">温馨提示</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 参观教堂时，需保持安静，禁止大声喧哗，穿着需得体，避免短裤、短裙、背心等过于随意的服装</li>
-                  <li>• 教堂内部部分区域禁止拍照或需关闭闪光灯，需遵守现场提示</li>
-                  <li>• 穹顶登顶的楼梯部分较陡，步行登顶需注意安全，老人与小孩建议乘坐电梯</li>
-                  <li>• 周一教堂博物馆闭馆，仅开放教堂主体与穹顶区域，前往前需提前确认</li>
-                </ul>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从多瑙河畔的玛丽·瓦莱里亚桥开始你的朝圣之路，回望对岸斯洛伐克，然后沿着蜿蜒的坡道缓缓走向城堡山上的教堂，让它的形象随着你的脚步逐渐变大、变得完整。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在教堂前广阔的观景平台上驻足，背对着宏伟的科林斯柱廊正面，将整个多瑙河湾、对岸的斯洛伐克小镇施图罗沃以及连接两国的桥梁尽收眼底。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">轻轻推开那扇厚重的青铜大门，让眼睛适应内部昏暗的光线，然后沿着中殿的红色地毯慢慢走向主祭坛，仰头感受那高达71.5米的穹顶空间和世界上最大的祭坛画带来的视觉冲击。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在中殿右侧寻找通往地下墓穴的入口，走下旋转石阶，进入凉爽而肃穆的地下空间，这里安葬着许多位匈牙利历代总主教，气氛庄严而神秘。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从地下室返回后，挑战那狭窄的393级旋转台阶（或选择付费乘坐一小段电梯），登上教堂的圆顶外部回廊，在百米高空让狂风拂面，享受360度无死角的绝美全景。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">下山时不要错过教堂右侧的城堡博物馆与遗迹，在那些残留的中世纪城墙和地窖里，触摸埃斯泰尔戈姆最早作为匈牙利首都时的历史断层。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">游览结束前，去教堂后方山坡下那家有着露天座位的传统餐厅，点一份地道的匈牙利炖牛肉，一边享用美食一边再次仰望山巅的教堂，回味一整天的旅程。</p>
+                </div>
               </div>
             </div>
           </Section>
 
           <Section title="5. 拍照机位">
-            <div className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">教堂前广场圣伊什特万雕像旁</h4>
-                  <p className="text-gray-700 text-sm">拍摄教堂正面全景最佳机位，可完整拍摄大教堂正面轮廓，新古典主义风格立柱、高耸穹顶、精致雕塑清晰可见。最佳时间：上午10:00-11:30</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">教堂穹顶顶层露台</h4>
-                  <p className="text-gray-700 text-sm">拍摄埃斯泰尔戈姆全景与多瑙河风光核心机位，登顶后可360度俯瞰整个城市，大教堂屋顶、老城区复古街巷、蜿蜒多瑙河尽收眼底。最佳时间：傍晚17:00-18:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">教堂内部主祭坛前</h4>
-                  <p className="text-gray-700 text-sm">拍摄教堂内部宏伟感绝佳机位，可拍摄到穹顶全貌与主祭坛细节，穹顶壁画、彩色玻璃光影、祭坛雕塑相互映衬。最佳时间：上午10:00-11:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">多瑙河畔观景台</h4>
-                  <p className="text-gray-700 text-sm">拍摄教堂与多瑙河同框最佳机位，大教堂宏伟建筑与蜿蜒多瑙河相互呼应，远处是斯洛伐克城镇轮廓。最佳时间：午后14:00-15:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">老城区石板街巷</h4>
-                  <p className="text-gray-700 text-sm">拍摄人文烟火气与复古氛围绝佳机位，蜿蜒石板街巷、两侧复古民居、特色商铺与咖啡馆，搭配远处教堂穹顶。最佳时间：午后15:00-16:00</p>
-                </div>
-              </div>
-              
-              <div className="bg-purple-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-purple-900 mb-3">拍照小贴士</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 最佳拍摄时间为清晨（9:30-11:30）和傍晚（17:00-18:00），光线柔和，光影层次丰富，且游客较少</li>
-                  <li>• 建议穿着简约大气的衣物，如黑色、米白色、卡其色，避免过于花哨，与教堂庄重氛围形成呼应</li>
-                  <li>• 拍摄建筑全景时可使用广角镜头，展现建筑宏伟与布局，拍摄细节时可使用长焦镜头，突出壁画、雕塑等细节</li>
-                  <li>• 参观教堂内部时，需遵守相关规定，禁止拍照的区域切勿拍摄</li>
-                  <li>• 拍摄多瑙河与教堂同框时，可利用河流的线条，增强画面的纵深感</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="6. 附近景点">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">步行可达景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">埃斯泰尔戈姆城堡遗址</span>
-                      <p className="text-sm text-gray-600">距大教堂约800米，步行12分钟。中世纪时期埃斯泰尔戈姆王室居所，保留城堡残垣断壁、城墙与塔楼，免费开放</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">多瑙河游船码头</span>
-                      <p className="text-sm text-gray-600">距大教堂约600米，步行10分钟。可乘坐游船游览多瑙河，欣赏两岸风光，远眺斯洛伐克布拉迪斯拉发城堡</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">圣安娜教堂</span>
-                      <p className="text-sm text-gray-600">距大教堂约1公里，步行15分钟。建于15世纪，哥特式建筑代表，外观精致，内部保留中世纪壁画与雕塑</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">埃斯泰尔戈姆历史博物馆</span>
-                      <p className="text-sm text-gray-600">距大教堂约700米，步行10分钟。展示埃斯泰尔戈姆市历史变迁、王室文物与民俗文化，门票约4欧元/人</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">跨境游览景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">布拉迪斯拉发城堡（斯洛伐克）</span>
-                      <p className="text-sm text-gray-600">距埃斯泰尔戈姆约10公里，自驾20分钟或游船前往。斯洛伐克标志性景点，建于9世纪，融合哥特式、巴洛克式等多种建筑风格</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿推荐">
-            <div className="space-y-6">
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">住宿位置选择</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">大教堂周边或老城区内</h5>
-                    <p>距离核心景点最近，步行即可抵达，多为复古民居改造住宿，氛围古朴典雅，可深度感受中世纪风情</p>
-                  </div>
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">多瑙河畔</h5>
-                    <p>风景优美，可欣赏河景，适合喜欢自然风光、想享受宁静氛围游客，距大教堂约500-800米，步行10-15分钟</p>
-                  </div>
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">市区周边</h5>
-                    <p>住宿性价比高，价格相对实惠，距老城区约2公里，可乘坐公交或打车前往，适合预算有限游客</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">住宿类型推荐</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">特色民宿</h5>
-                    <p>老城区内有很多小众民宿，多由当地传统复古民居改造，装修融合中欧风格与宗教元素，30-75欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">自助公寓</h5>
-                    <p>设施齐全，适合家庭或多人出行，28-65欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">精品酒店</h5>
-                    <p>大教堂周边与多瑙河畔有多家精品酒店，装修高端精致，部分酒店具有历史底蕴，提供早餐服务，70-130欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">经济型酒店</h5>
-                    <p>市区周边有多家性价比高的酒店，设施标准化，干净整洁，提供基础住宿服务，22-40欧元/晚</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-green-900 mb-3">预订注意事项</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 埃斯泰尔戈姆旅游旺季为5-9月，尤其是7-8月，游客较多，建议提前1-2个月预订</li>
-                  <li>• 选择可免费取消的房源，以便灵活调整行程</li>
-                  <li>• 自驾出行需确认住宿周边停车场位置与收费标准（2-5欧元/天）</li>
-                  <li>• 老城区内民宿多位于石板街巷深处，部分无电梯，携带大件行李的游客可选择有行李搬运服务的住宿</li>
-                  <li>• 春秋季（4-5月、9-10月）气候最宜人，游客较少，住宿价格适中，是最佳时节</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="8. 实用贴士">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-900 mb-2">最佳游览时间</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 4-5月、9-10月：气候宜人，游客较少，住宿价格适中</li>
-                    <li>• 5-9月：旅游旺季，活动丰富但游客较多</li>
-                    <li>• 11-次年2月：旅游淡季，游客稀少，部分景点关闭</li>
-                    <li>• 上午10:00-11:30：游客较少，光线柔和，便于拍摄</li>
-                  </ul>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 多瑙河对岸斯洛伐克一侧的河边公路</h4>
+                  <p className="text-sm text-gray-700">在晴朗的傍晚日落时分，从这里可以拍摄到大教堂连同玛丽·瓦莱里亚桥的经典全景，水面倒映着天空的霞光与教堂的轮廓，色彩层次极为丰富。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 教堂前广场的西南角石栏边</h4>
+                  <p className="text-sm text-gray-700">上午9点到11点间，阳光能较好地照亮教堂的正立面，从这个角度可以用广角镜头将宏伟的柱廊、阶梯和部分圆顶一同纳入画面，并以前景的古城屋顶增加纵深感。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 圆顶观景台的回廊上</h4>
+                  <p className="text-sm text-gray-700">使用中长焦镜头，透过回廊的石柱拱窗，聚焦于下方古城红色屋顶的几何图案，或者远眺多瑙河湾的S形曲线，能拍出极具构图感的风景画面。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 教堂内部中殿的后方</h4>
+                  <p className="text-sm text-gray-700">下午时分，当阳光以较低角度从西侧窗户射入时，站在中殿末尾，可以捕捉到光束如圣光般穿透幽暗大厅、照亮空气中微尘的丁达尔效应，营造神圣氛围。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 地下墓穴入口处的拱形回廊</h4>
+                  <p className="text-sm text-gray-700">利用走廊的纵深感和两侧的石柱形成的天然框架，拍摄人物走向深处或静静站立的剪影，光线从尽头的门口漫入，故事感十足。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 教堂内部严格禁止使用闪光灯和三脚架，这是为了保护珍贵的壁画和艺术品，高感光度相机或大光圈镜头在这里是更好的选择。在圆顶外部回廊拍摄时风可能很大，务必拿稳相机和手机，建议使用腕带。拍摄当地居民或参加宗教活动的人群时，请务必保持礼貌和距离，未经明确同意不要对着人脸近距离拍摄。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">经济舒适之选</h4>
+                  <p className="text-sm text-blue-800">位于多瑙河畔、距离教堂步行十分钟的一家家庭式公寓，房间明亮整洁，主人会热情地为你提供手绘的本地美食地图，早晨在阳台上就能看到河景与远山上的教堂尖顶。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">特色历史体验</h4>
+                  <p className="text-sm text-green-800">由一栋19世纪新古典主义风格老宅改造的精品酒店，坐落在古城安静的鹅卵石街道旁，内部装饰复古优雅，房间天花板很高，仿佛住进了当地贵族的历史宅邸。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">高端全景享受</h4>
+                  <p className="text-sm text-yellow-800">位于城堡山另一侧山坡上的四星级酒店，拥有全城最好的观景餐厅和露天泳池，在房间的私人阳台上就能毫无遮挡地欣赏大教堂的壮丽侧面全景与多瑙河日落。</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">参观注意事项</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 参观教堂时，需保持安静，禁止大声喧哗，穿着需得体</li>
-                    <li>• 教堂内部部分区域禁止拍照或需关闭闪光灯，需遵守现场提示</li>
-                    <li>• 穹顶登顶的楼梯部分较陡，步行登顶需注意安全，老人与小孩建议乘坐电梯</li>
-                    <li>• 周一教堂博物馆闭馆，仅开放教堂主体与穹顶区域，前往前需提前确认</li>
-                  </ul>
+                  <h4 className="font-semibold text-purple-900 mb-2">斯洛伐克岸边的惊喜</h4>
+                  <p className="text-sm text-purple-800">如果你有申根多次签证，不妨尝试住在河对岸斯洛伐克小镇施图罗沃的现代设计酒店，夜晚隔着宁静的多瑙河，遥望匈牙利方向被灯光点亮的埃斯泰尔戈姆大教堂，视角独特而浪漫。</p>
                 </div>
               </div>
-              <div className="space-y-4">
-                <div className="bg-indigo-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-indigo-900 mb-2">特色体验</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 参观教堂主体大厅，欣赏宏伟的主祭坛与精美穹顶壁画</li>
-                    <li>• 探索教堂博物馆，了解宗教文物与中世纪手稿</li>
-                    <li>• 登顶穹顶露台，360度俯瞰埃斯泰尔戈姆市区与多瑙河风光</li>
-                    <li>• 漫步多瑙河畔，感受教堂与河流交相辉映的美景</li>
-                  </ul>
-                </div>
-                <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-900 mb-2">实用信息</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 当地货币：匈牙利福林（1欧元≈380匈牙利福林）</li>
-                    <li>• 语言：匈牙利语，但旅游区英语基本通行</li>
-                    <li>• 电压：230V，插头为Type F型</li>
-                    <li>• 紧急电话：112（欧洲统一紧急电话）</li>
-                  </ul>
-                </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">埃斯泰尔戈姆是热门的一日游目的地，因此过夜游客相对较少，住宿价格比布达佩斯亲切许多，旺季（春末至秋初）建议提前一周预订即可。古城区域非常安全宁静，夜晚散步很有情调。如果选择住在对岸斯洛伐克，务必确认你的申根签证或居留许可允许多次往返匈牙利。</p>
               </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开埃斯泰尔戈姆很久以后，那座绿色圆顶的形象还会不时浮现在我的脑海里。它给我的触动，远远超出了一座精美建筑所带来的视觉震撼。它让我思考，是什么力量，能让人们花费半个世纪的时间，一代接一代地，在祖先受洗的废墟之上，重新垒起一座更加雄伟的信仰丰碑？那不仅仅是对上帝的虔诚，更是一个民族对自身历史根脉的深情回望，是在经历破碎与黑暗后，对身份与尊严最固执的确认。在这个快节奏的、常常令人感到浮萍无根的时代，埃斯泰尔戈姆大教堂像一块定海神针，沉静地告诉你：有些东西，值得用最笨拙、最耗时、最艰苦的方式去守护和重建。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">所以，每一位热爱深度游的旅人，都应该来这里一次。你来到这里，不仅仅是为了看匈牙利最大的教堂，更是为了完成一次时空的穿梭。你脚下是匈牙利第一个国王加冕的土地，眼前是民族复兴的象征，耳边回荡着跨越世纪的钟声与祈祷。它教会你，真正的伟大，往往诞生于边缘与伤痕之处；持久的美丽，需要经历毁灭与重生的淬炼。当你在圆顶之上，看多瑙河如银色丝带般将两个国家温柔分开又连接，你会明白，埃斯泰尔戈姆大教堂守护的，不仅是信仰，更是一种关于记忆、坚韧与和解的，无比深沉的人类情感。这，是一生必有的清单上，不可或缺的一课。</p>
             </div>
           </Section>
         </div>
