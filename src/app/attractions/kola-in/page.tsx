@@ -1,0 +1,113 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科拉欣 Kolašin｜黑山北部的山林秘境与户外天堂 - 最佳欧洲景点',
+  description: '嘿，如果你厌倦了亚得里亚海边的喧嚣，想一头扎进黑山的“绿色心脏”，那科拉欣绝对是个惊喜。第一眼看到它，你会觉得这是个被松林和群山温柔环抱的童话小镇，空气里都是清冽的松针香。夏天，这里是徒步者和山地自行车手的乐园，Biogradska Gora国家公园里那个祖母绿一样的冰川湖，美得让人屏住呼吸。冬天，...',
+}
+
+export default function KolaInPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '科拉欣', href: '/attractions/kola-in' },
+          ]}
+        />
+
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">科拉欣</h1>
+          <p className="text-xl text-gray-600 mb-4">Kolašin</p>
+          <div className="flex flex-wrap gap-2 mb-6">
+            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">黑山</span>
+            <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">科拉欣</span>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="md:col-span-2 space-y-8">
+            <Section title="景点简介">
+              <p className="text-gray-700 leading-relaxed mb-4">嘿，如果你厌倦了亚得里亚海边的喧嚣，想一头扎进黑山的“绿色心脏”，那科拉欣绝对是个惊喜。第一眼看到它，你会觉得这是个被松林和群山温柔环抱的童话小镇，空气里都是清冽的松针香。夏天，这里是徒步者和山地自行车手的乐园，Biogradska Gora国家公园里那个祖母绿一样的冰川湖，美得让人屏住呼吸。冬天，整个小镇就“变身”成一个热闹的滑雪度假村，从山上滑下来，眼前是连绵的雪松林，特别梦幻。这里节奏很慢，当地人超级友好，在木屋餐厅里吃一顿用山泉水炖的肉，再喝杯本地 rakija（水果白兰地），那种温暖踏实的感觉，是在海边找不到的。</p>
+            </Section>
+            
+            <Section title="基本信息">
+              <p className="text-gray-700 leading-relaxed mb-4">*   **开放时间**：户外活动全年皆宜，但需注意：夏季（徒步、骑行、水上项目）和冬季（滑雪）是两大旺季，设施最全。春秋季部分设施可能关闭或减少运营。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">*   **门票**：Biogradska Gora 国家公园需购票进入，有单日票和多日票选项。滑雪场按天或按小时收费，租赁装备另算。建议提前在官网查询最新价格。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">*   **其他**：山区天气多变，即使是夏季，也建议携带防风防雨外套和保暖层。冬季自驾建议使用冬季轮胎或防滑链。</p>
+            </Section>
+
+            <Section title="历史背景">
+              <p className="text-gray-700 leading-relaxed mb-4">科拉欣的故事，和黑山跌宕起伏的历史紧紧绑在一起。它的名字最早在17世纪的奥斯曼帝国文献中被提及，当时只是个位于重要贸易路线上的小定居点。真正让它登上历史舞台的，是19世纪黑山王子（后来是国王）尼古拉一世，他看中了这里战略位置和自然资源，将其发展为对抗奥斯曼帝国的前哨之一，并授予其城镇地位。你能感受到，小镇骨子里有种坚韧的山民气质。二战后，随着南斯拉夫时期旅游业的发展，科拉欣凭借其绝佳的自然环境，开始被建设成山地度假胜地，修建了早期的旅游设施。黑山独立后，尤其是近十几年，它更是迎来了新生，现代化的滑雪缆车、舒适的酒店和生态木屋纷纷建起，但那份原始的山林野趣却被很好地保留了下来。走在镇上，那些新旧交织的建筑，仿佛在默默讲述着从边境要塞到宁静桃源的有趣转变。</p>
+            </Section>
+
+            <Section title="游览路线">
+              <p className="text-gray-700 leading-relaxed mb-4">建议安排1-2天深度游玩。核心路线围绕“小镇探索”和“自然沉浸”展开。上午从小镇中心出发，感受当地生活气息，下午深入Biogradska Gora国家公园进行轻徒步，环湖游览。全程轻松步行与短途车行结合。</p>
+              <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 leading-relaxed mb-2">1.  漫步科拉欣主街，参观圣乔治教堂。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">2.  驱车前往Biogradska Gora国家公园入口。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">3.  徒步至Biogradsko湖，沿木质步道环湖一周。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">4.  在湖边休息区野餐或品尝传统美食。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">5.  （冬季）前往Kolašin 1450滑雪场体验滑雪或雪橇。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">6.  返回小镇，在传统餐馆（Kod Pera na Brijegu）享用晚餐。</li>
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">国家公园内徒步路径清晰，但建议下载离线地图或使用路标。穿一双舒适防滑的徒步鞋是必须的。</p>
+            </Section>
+
+            <Section title="拍照机位">
+              <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 leading-relaxed mb-2">1.  **Biogradsko湖观景台**：清晨或傍晚，阳光柔和时，从湖南侧的观景台拍摄，可将湖面倒影、原始森林和远山一同纳入镜头，画面宁静深邃。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">2.  **科拉欣小镇全景**：前往滑雪场缆车中站或附近高地，在晴朗天气拍摄小镇被茂密森林和雪山环绕的全景，层次感极强。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">3.  **国家公园森林步道**：阳光透过高大松树林形成丁达尔效应时，在林间小径低角度拍摄，充满神秘与生机。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">4.  **传统木屋餐厅露台**：夜晚，拍摄点着温暖灯光的木屋露台，背景是深蓝色的夜空和山影，氛围感十足。</li>
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">山区天气变化快，抓住晴朗的窗口期迅速拍摄。冬季拍摄雪景注意相机保暖和防潮。</p>
+            </Section>
+
+            <Section title="住宿小贴士">
+              <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 leading-relaxed mb-2">1.  **高端之选**：Bianca Resort & Spa，位于滑雪场附近，提供全套水疗服务和山景房，适合滑雪度假和放松。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">2.  **特色体验**：Etno Selo Šljeme，传统的生态村落式酒店，由多栋木石小屋组成，体验原汁原味的山地生活。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">3.  **经济舒适**：Hotel Lipa，位于镇中心，交通便利，性价比高，设施干净实用。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">4.  **民宿情怀**：寻找小镇或公园附近由家庭经营的公寓或别墅，能获得更本地化的体验。</li>
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">旺季（特别是圣诞、新年滑雪季）务必提前预订。喜欢安静的话，可以选择离小镇中心稍远、靠近森林的住宿。</p>
+            </Section>
+
+            <Section title="总结感悟">
+              <p className="text-gray-700 leading-relaxed mb-4">科拉欣就像一个懂得平衡之美的隐士，夏天用无边的绿意和湖光治愈你，冬天用纯净的雪场和暖炉拥抱你。它没有过度开发的浮躁，只有大山赋予的沉稳与慷慨。来这里，不只是看风景，更是把自己还给了自然。如果你渴望一段能深呼吸、能静静聆听风声与心跳的旅程，科拉欣不会让你失望。</p>
+            </Section>
+
+            <div className="bg-gray-50 p-6 rounded-lg mt-8">
+              <p className="text-sm text-gray-600 text-center">
+                本文由旅行作者 Winter Grady 实地走访整理，专注欧洲小众景点深度攻略，持续分享真实游览体验。
+              </p>
+              <p className="text-xs text-gray-500 text-center mt-2">
+                本站内容仅供旅行参考使用，商务合作与转载事宜请通过联系页脚提交申请。
+              </p>
+              <p className="text-xs text-gray-500 text-center">
+                管理团队保留所有内容版权，未经许可禁止搬运、摘抄或商用。
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">实用信息</h3>
+              <div className="space-y-4">
+                <InfoRow icon="🕒" label="开放时间" value="全年开放，但最佳旅游季节为夏季（6月-9月）和冬季（12月-3月）。具体活动（如缆车、滑雪场）运营时间需根据季节查询。" />
+                <InfoRow icon="🎫" label="门票" value="进入小镇本身免费。滑雪场、国家公园门票、缆车及各类户外活动（如徒步向导、漂流）需单独付费，价格不等。" />
+                <InfoRow icon="📍" label="地址" value="Kolašin, Montenegro" />
+                <InfoRow icon="🚌" label="交通" value="从波德戈里察机场（TGD）出发，驾车沿E65/E80公路向北行驶，约1.5小时车程可达。从首都波德戈里察火车站也可乘坐火车或巴士，约2小时。" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

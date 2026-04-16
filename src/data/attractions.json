@@ -2880,5 +2880,1295 @@
       "encyclopedia",
       "travelogue"
     ]
+  },
+  {
+    "name": "圣萨万修道院",
+    "englishName": "Abbey of Saint-Savin-sur-Gartempe",
+    "country": "法国",
+    "city": "圣萨万",
+    "slug": "abbey-of-saint-savin-sur-gartempe",
+    "description": "朋友，如果你对中世纪艺术着迷，那圣萨万修道院绝对是个会让你屏住呼吸的地方。它藏在法国维埃纳河畔一个宁静的小镇上，外表看起来是座典型的罗马式教堂，朴素而庄严。但当你推开那扇厚重的木门，抬头望向拱顶的瞬间，你会被彻底震撼——天啊，整个教堂的穹顶和墙壁，从上到下，铺满了色彩鲜艳、故事性极强的壁画！这些11",
+    "address": "Place de la Libération, 86310 Saint-Savin-sur-Gartempe, France",
+    "transport": "从巴黎蒙帕纳斯火车站（Gare Montparnasse）乘坐TGV高速列车至普瓦捷（Poitiers）站，车程约1.5小时。从普瓦捷火车站外乘坐TER区域列车前往圣萨万站，车程约30分钟。出站后步行约10分钟即可抵达修道院。",
+    "region": "法国",
+    "type": "教堂、世界文化遗产",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "奥勒松老城",
+    "englishName": "Ålesund Old Town",
+    "country": "挪威",
+    "city": "奥勒松",
+    "slug": "alesund-old-town",
+    "description": "想象一下，你走进了一个由糖果色积木搭建的童话小镇，这就是奥勒松老城给我的第一印象。1904年那场毁灭性的大火后，整个城市浴火重生，被统一规划重建为新艺术主义风格。漫步在蜿蜒的街道上，两边是尖顶、塔楼和装饰着龙、花卉浮雕的彩色房屋，仿佛走进了安徒生的故事书里。海风带着咸咸的味道，海鸥在头顶盘旋，港口停",
+    "address": "Ålesund Sentrum, 6002 Ålesund, Norway",
+    "transport": "从奥勒松机场（Ålesund Airport, Vigra）出发，乘坐机场巴士或出租车约20分钟即可抵达老城区。从奥斯陆或卑尔根乘坐火车需先至附近城市，再转乘巴士或轮渡。",
+    "region": "挪威",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "阿尔卑纳城堡",
+    "englishName": "Alpina Castle",
+    "country": "奥地利",
+    "city": "因斯布鲁克",
+    "slug": "alpina-castle",
+    "description": "嘿，如果你问我因斯布鲁克最难忘的瞬间，我一定会说是在阿尔卑纳城堡的塔楼上，被360度的阿尔卑斯山雪峰环抱的那一刻。这座城堡不像那些沉重压抑的古堡，它更像一位优雅的老绅士，穿着石砌的外衣，安静地坐在半山腰的绿坡上。走进庭院，你会立刻被那种混合着松木清香和历史尘埃的空气包围。阳光透过古老的拱廊洒下斑驳的",
+    "address": "Alpinaweg 1, 6020 Innsbruck, Austria",
+    "transport": "从因斯布鲁克火车站（Innsbruck Hauptbahnhof）乘坐414路公交车至“Alpina Castle”站下车，车程约25分钟。从因斯布鲁克机场驾车或乘坐出租车前往约需20分钟。",
+    "region": "奥地利",
+    "type": "城堡",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "阿尔塔古城",
+    "englishName": "Alta Old Town",
+    "country": "挪威",
+    "city": "阿尔塔",
+    "slug": "alta-old-town",
+    "description": "说实话，刚到阿尔塔古城的时候，我有点懵——这跟我想象中那种有城墙和街道的“古城”完全不一样！它更像是一片被时间遗忘的荒野，静静地躺在阿尔塔峡湾边上。但当你走近，看到那些散落在岩石上、有着数千年历史的红色岩画时，那种震撼是直击心灵的。想象一下，在北极圈的阳光下，古人用赭石颜料描绘出驯鹿、熊、船只和人类",
+    "address": "Alta Museum, Altaveien 19, 9518 Alta, Norway",
+    "transport": "从阿尔塔机场（ALF）出发，驾车或乘坐出租车约15-20分钟即可抵达。从阿尔塔市中心步行前往约需30-40分钟，也可乘坐当地巴士。",
+    "region": "挪威",
+    "type": "古城、历史遗迹",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "安贝格老城",
+    "englishName": "Amberg Old Town",
+    "country": "德国",
+    "city": "安贝格",
+    "slug": "amberg-old-town",
+    "description": "走进安贝格老城，就像一头扎进了一本立体的中世纪故事书。第一眼就会被那圈近乎完整的古城墙震撼到，它像个温柔的巨人，把红瓦屋顶、蜿蜒小巷和古老的广场紧紧搂在怀里。老城的绰号叫“蛋城”，因为它的城墙轮廓像个鸡蛋，特别可爱。我最爱在鹅卵石铺就的市集广场闲逛，周围是色彩柔和的巴洛克式山墙房屋，市政厅的钟楼静静",
+    "address": "Marktplatz, 92224 Amberg, Germany",
+    "transport": "从纽伦堡机场出发，乘坐S-Bahn（S1线）至纽伦堡主火车站，换乘区域火车（RE或RB）前往安贝格火车站，全程约1.5小时。从安贝格火车站步行至老城中心仅需10分钟。",
+    "region": "德国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "阿梅利亚古城",
+    "englishName": "Amelia Old Town",
+    "country": "意大利",
+    "city": "阿梅利亚",
+    "slug": "amelia-old-town",
+    "description": "想象一下，你开车穿过翁布里亚起伏的绿色丘陵，远远望见一座石头城像王冠一样矗立在山顶，那就是阿梅利亚了。车子沿着盘山路向上，心也跟着提起来。当你终于穿过那扇巨大的波利托里亚门，时间仿佛瞬间倒流。脚下是光滑的鹅卵石路，两旁是蜂蜜色的中世纪房屋，阳台上开满天竺葵。这里没有汹涌的人潮，安静得能听到自己的脚步",
+    "address": "05022 Amelia TR, Italy",
+    "transport": "从罗马菲乌米奇诺机场出发，自驾或乘坐火车至特尔尼火车站，再转乘地区巴士前往阿梅利亚，总耗时约2-2.5小时。自驾是最便捷的方式，从罗马出发约1.5小时车程。",
+    "region": "意大利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "亚眠大教堂",
+    "englishName": "Amiens Cathedral",
+    "country": "法国",
+    "city": "亚眠",
+    "slug": "amiens-cathedral",
+    "description": "第一眼看到亚眠大教堂，你绝对会被它的“身高”震撼到！它可是法国最高的中世纪教堂，那种直插云霄的哥特式尖顶，感觉能把你的视线一直拉到天堂去。走进里面，空间大得惊人，光线透过巨大的彩绘玻璃窗洒下来，整个殿堂都笼罩在一种神圣又宁静的光晕里。最不能错过的就是西立面上那些密密麻麻的雕塑，简直像一本立体的石头圣",
+    "address": "30 Place Notre Dame, 80000 Amiens, France",
+    "transport": "从巴黎戴高乐机场乘坐TGV高速火车至亚眠站，约1小时10分钟。从亚眠火车站步行至大教堂约15分钟。",
+    "region": "法国",
+    "type": "教堂",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "阿切伦扎古城",
+    "englishName": "Ancient City of Acheron",
+    "country": "希腊",
+    "city": "普雷韦扎",
+    "slug": "ancient-city-of-acheron",
+    "description": "想象一下，你站在一片被橄榄树和柏树环绕的古老河岸，脚下是清澈见底、泛着绿松石光泽的河水，传说中这里就是通往冥界的入口——冥河阿刻戎。阿切伦扎古城带给你的第一感觉，是一种混合了神秘、宁静与苍凉的神奇氛围。这里没有恢弘的宫殿废墟，更多的是散落在河畔与山丘间的石基、断墙，它们沉默地诉说着三千年前的故事。当",
+    "address": "Acheron River, Glyki 480 62, Greece",
+    "transport": "从最近的约阿尼纳国际机场出发，驾车沿E55/E951公路向南，转入E92公路，再根据路标前往Glyki村，全程约1小时15分钟。也可从普雷韦扎市乘巴士或出租车前往，车程约40分钟。",
+    "region": "希腊",
+    "type": "古城、自然景观",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "阿尔隆古罗马遗址",
+    "englishName": "Arlon Roman Ruins",
+    "country": "比利时",
+    "city": "阿尔隆",
+    "slug": "arlon-roman-ruins",
+    "description": "说实话，第一眼看到阿尔隆的罗马遗址，我有点被震撼到了——不是那种庞贝式的废墟震撼，而是一种“它居然还在这里”的亲切感。你就走在比利时的普通小城街道上，拐个弯，突然就和两千年前的罗马高卢人打了个照面。最吸睛的是那段保存完好的罗马城墙和塔楼基座，厚重的砂岩在阳光下泛着暖黄色，缝隙里长着青苔和小草，历史感",
+    "address": "Rue des Martyrs 13, 6700 Arlon, Belgium",
+    "transport": "从布鲁塞尔南站（Brussels-South）乘坐火车至阿尔隆站（Arlon），约1.5小时车程。出站后步行约15分钟即可抵达遗址区。",
+    "region": "比利时",
+    "type": "考古遗址、历史遗迹",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "巴德哈尔茨堡",
+    "englishName": "Bad Harzburg",
+    "country": "德国",
+    "city": "巴德哈尔茨堡",
+    "slug": "bad-harzburg",
+    "description": "想象一下，你刚从哈尔茨山徒步下来，浑身带着森林的清新和一丝疲惫，然后一头扎进冒着热气的露天温泉池里——这就是巴德哈尔茨堡给我的第一感觉，一个被群山温柔环抱的“充电站”。这里没有大城市的喧嚣，空气里飘着松木和淡淡的硫磺味（别担心，是温泉的味道！）。小镇的主街色彩明快，木筋屋可爱得像童话，但最迷人的还是",
+    "address": "Kurhausstraße 7, 38667 Bad Harzburg, Germany",
+    "transport": "从汉诺威机场出发，乘坐火车（RE或RB线路）至巴德哈尔茨堡火车站，全程约1.5小时。从火车站步行至镇中心仅需10分钟。",
+    "region": "德国",
+    "type": "温泉小镇、自然景观",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "巴特温普芬",
+    "englishName": "Bad Wimpfen",
+    "country": "德国",
+    "city": "巴特温普芬",
+    "slug": "bad-wimpfen",
+    "description": "想象一下，你站在内卡河畔的山坡上，眼前是一座仿佛从童话书里直接搬出来的小镇。这就是巴特温普芬给我的第一印象。蜿蜒的鹅卵石小路两旁，挤满了色彩斑斓的木筋屋，每一栋都歪歪扭扭，却又和谐地依偎在一起，像一群穿着花衣裳的老朋友。空气中飘着咖啡香和刚出炉的蛋糕味。最震撼的是那座红色的“蓝塔”，它孤高地耸立着，",
+    "address": "74206 Bad Wimpfen, Baden-Württemberg, Germany",
+    "transport": "从斯图加特机场出发，乘坐火车前往海尔布隆中央火车站，换乘区域列车（S-Bahn）至巴特温普芬站，全程约1.5-2小时。从火车站步行约10-15分钟即可进入古城老城区。",
+    "region": "德国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "巴埃萨古城",
+    "englishName": "Baeza Old Town",
+    "country": "西班牙",
+    "city": "巴埃萨",
+    "slug": "baeza-old-town",
+    "description": "走进巴埃萨古城，就像一头撞进了一座用金色石头雕刻的露天博物馆。阳光洒在那些文艺复兴风格的宫殿和教堂立面上，整座小城都泛着蜂蜜般温润的光泽，难怪它和邻居乌韦达一起被称作“黄金石城”。这里没有大城市的喧嚣，石板路窄窄的，广场静静的，时间仿佛被16世纪的辉煌给凝固住了。我最爱在黄昏时分，坐在圣玛丽亚大教堂",
+    "address": "Plaza del Pópulo, s/n, 23440 Baeza, Jaén, Spain",
+    "transport": "从最近的哈恩火车站（Estación de Jaén）出发，驾车或乘坐巴士约30-40分钟可抵达巴埃萨。从马德里或塞维利亚出发，可先乘火车或长途汽车至哈恩或邻近的乌韦达，再转乘当地交通。",
+    "region": "西班牙",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "巴塔利亚修道院",
+    "englishName": "Batalha Monastery",
+    "country": "葡萄牙",
+    "city": "巴塔利亚",
+    "slug": "batalha-monastery",
+    "description": "朋友，如果你来葡萄牙只看一个修道院，那必须是巴塔利亚。第一眼看到它，那种震撼是直击心灵的——这根本不像个宗教场所，倒像一座用石头写就的史诗。巨大的建筑群是奶白色石灰岩砌成，在阳光下泛着温暖的光。最吸睛的是它那“未完成的礼拜堂”，没有屋顶，任由阳光倾泻而下，雕琢得如同蕾丝般繁复的石柱直指蓝天，那种残缺",
+    "address": "Largo Infante Dom Henrique, 2440-109 Batalha, Portugal",
+    "transport": "从里斯本出发：自驾沿A8/A1高速公路向北，约1.5小时车程可达。乘坐公共交通可从里斯本的Sete Rios汽车站搭乘Rede Expressos大巴，车程约2小时，直达巴塔利亚镇中心，修道院就在镇中心步行可达处。",
+    "region": "葡萄牙",
+    "type": "教堂、修道院、世界文化遗产",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "博韦大教堂",
+    "englishName": "Beauvais Cathedral",
+    "country": "法国",
+    "city": "博韦",
+    "slug": "beauvais-cathedral",
+    "description": "朋友，你见过“野心太大”的教堂吗？博韦大教堂就是。第一眼看到它，你会被那拔地而起、直插云霄的拱顶震撼到说不出话——48米高，至今仍是世界上最高的哥特式教堂拱顶。但走近一看，你会发现它没有中殿，整体结构像个“巨无霸”合唱厅，孤零零地矗立着。那种感觉特别奇妙，既为人类的建造野心所折服，又为它的“未完成”",
+    "address": "Cathédrale Saint-Pierre de Beauvais, Rue Saint-Pierre, 60000 Beauvais, France",
+    "transport": "从巴黎戴高乐机场（CDG）出发，可乘坐机场大巴直达博韦（约1.5小时）。或从巴黎北站（Gare du Nord）乘坐TER火车至博韦站（约1小时15分钟），出站后步行约15-20分钟即可抵达大教堂。",
+    "region": "法国",
+    "type": "教堂",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "比利时・荷兰・卢森堡",
+    "englishName": "Benelux",
+    "country": "比利时、荷兰、卢森堡",
+    "city": "多城市",
+    "slug": "benelux",
+    "description": "嘿，如果你觉得欧洲太大不知道从哪玩起，那比荷卢绝对是你的完美起点！这可不是一个单一的景点，而是一个由比利时、荷兰、卢森堡组成的“黄金三角”区域，面积不大，却浓缩了欧洲最经典的风情。想象一下，早上在阿姆斯特丹的运河边啃着华夫饼，下午就在布鲁塞尔的大广场上寻找撒尿小童，傍晚可能已经坐在卢森堡的峡谷悬崖边",
+    "address": "比利时、荷兰、卢森堡三国区域",
+    "transport": "从阿姆斯特丹史基浦机场（AMS）、布鲁塞尔机场（BRU）或卢森堡机场（LUX）出发，三国之间火车交通极为便利。例如，从阿姆斯特丹中央车站到布鲁塞尔中央车站，高铁约2小时；从布鲁塞尔到卢森堡市，火车约3小时。",
+    "region": "比利时、荷兰、卢森堡",
+    "type": "国家联盟/区域",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "贝兹道城堡",
+    "englishName": "Béziers Castle",
+    "country": "法国",
+    "city": "贝兹道",
+    "slug": "beziers-castle",
+    "description": "嘿，如果你来南法，千万别错过贝兹道城堡！它不像那些精致到有点“假”的宫殿，而是带着一股粗粝又真实的历史感。车子还没到，远远就能看到它雄踞在山丘之巅，像一位沉默的巨人守护着脚下的老城和远处一望无际的葡萄园。爬上去的过程有点小累，但当你气喘吁吁地站在城堡的石头露台上，瞬间就觉得值了——整个朗格多克地区的",
+    "address": "Château de Béziers, 34500 Béziers, France",
+    "transport": "从最近的贝兹道火车站（Gare de Béziers）出发，步行约25分钟或乘坐当地公交（Line 1）至“Cathédrale”站，再步行10分钟上山即可抵达。从蒙彼利埃机场驾车前往约需1小时。",
+    "region": "法国",
+    "type": "城堡",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "布伦古堡",
+    "englishName": "Blenheim Palace",
+    "country": "英国",
+    "city": "伍德斯托克",
+    "slug": "blenheim-palace",
+    "description": "第一眼看到布伦古堡，你绝对会“哇”出声来！这根本不像一个“家”，而是一座用蜂蜜色石头砌成的史诗级艺术品，巨大、对称、气势磅礴地坐落在无边的绿野之上。走进宫殿内部，更是金碧辉煌到让人眼花缭乱——高耸的彩绘天花板、镶金的墙壁、数不清的名画和古董家具，每一处细节都在讲述着马尔堡公爵家族的荣耀与财富。但最让",
+    "address": "Woodstock OX20 1PP, United Kingdom",
+    "transport": "从伦敦帕丁顿火车站乘坐火车至牛津站（约1小时），然后转乘S3路公交车直达布伦古堡（约30分钟）。从牛津市中心打车前往约需20分钟。",
+    "region": "英国",
+    "type": "宫殿",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "布尔日大教堂",
+    "englishName": "Bourges Cathedral",
+    "country": "法国",
+    "city": "布尔日",
+    "slug": "bourges-cathedral",
+    "description": "第一眼看到布尔日大教堂，你绝对会被它的“宽度”震撼到！它不像巴黎圣母院那样追求冲天的高度，而是以一种无比舒展、沉稳的姿态横亘在布尔日的天际线下，像一座巨大的石制山脉。走进内部，那种空旷、深邃的空间感瞬间将你包裹。最绝的是它的彩绘玻璃窗，阳光好的时候，整个教堂内部就像一个流动的、五彩斑斓的光之海洋。那",
+    "address": "Place Étienne Dolet, 18000 Bourges, France",
+    "transport": "从巴黎奥利机场或戴高乐机场出发，可乘坐TGV高速火车至布尔日站，车程约1小时40分钟至2小时。从布尔日火车站步行至大教堂约15-20分钟。",
+    "region": "法国",
+    "type": "教堂",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "布雷根茨老城",
+    "englishName": "Bregenz Old Town",
+    "country": "奥地利",
+    "city": "布雷根茨",
+    "slug": "bregenz-old-town",
+    "description": "爬上一段缓坡，瞬间就从博登湖畔的现代剧院区，跌进了一个铺满鹅卵石、墙壁刷成暖黄色的童话世界，这就是布雷根茨老城给我的第一印象。它不像那些挤满游客的大城市老城，这里安静得能听见自己的脚步声和远处教堂的钟响。老城盘踞在一座小山上，像个害羞的少女，从狭窄巷道的缝隙里，你能瞥见山下那片巨大的、蓝得像宝石的博",
+    "address": "Alstadt, 6900 Bregenz, Austria",
+    "transport": "从最近的腓特烈港机场（德国）出发，乘坐巴士或出租车约30分钟可抵达布雷根茨火车站，再步行10分钟上山即到老城。从苏黎世机场出发，乘火车约2小时直达布雷根茨火车站。",
+    "region": "奥地利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "布尔诺老城",
+    "englishName": "Brno Old Town",
+    "country": "捷克",
+    "city": "布尔诺",
+    "slug": "brno-old-town",
+    "description": "走进布尔诺老城，第一感觉是“放松版的布拉格”。没有那么多游客推搡，广场上的咖啡座总是有空位，当地人骑着自行车从你身边掠过。自由广场是心脏，周围环绕着色彩柔和的巴洛克和文艺复兴式房子，中央的帕尔纳斯喷泉在阳光下闪闪发光。你一定要摸摸那座“会提前敲响午间钟声”的老钟，听当地人讲那个“为了骗过敌人而提早敲",
+    "address": "Brno-střed, 602 00 Brno, Czechia",
+    "transport": "从布尔诺图加尼机场（BRQ）乘坐76路公交车至“Hlavní nádraží”（中央火车站），再步行约15分钟可达老城中心。从布拉格乘坐火车至布尔诺中央火车站，车程约2.5小时，出站后步行约10-15分钟即可抵达。",
+    "region": "捷克",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "莱茵施泰因城堡",
+    "englishName": "Burg Rheinstein",
+    "country": "德国",
+    "city": "特雷希廷斯豪森",
+    "slug": "burg-rheinstein",
+    "description": "想象一下，你乘着莱茵河的游船，两岸是连绵的葡萄园和童话般的小镇，然后一座尖塔耸立、仿佛从岩石中生长出来的城堡突然闯入视线——那就是莱茵施泰因城堡给你的第一眼震撼。爬上一小段坡路走近它，那种混合着石头沧桑感和浪漫童话气息的感觉特别奇妙。它不是那种庞大到让人敬畏的堡垒，反而更像一个精致又坚固的“家”。走",
+    "address": "Burg Rheinstein, 55413 Trechtingshausen, Germany",
+    "transport": "从法兰克福机场出发，乘坐火车至宾根主火车站（约1小时），再转乘莱茵河游船至特雷希廷斯豪森码头（约20分钟），下船后步行上山约15-20分钟即可抵达。也可从宾根火车站搭乘出租车，约15分钟车程。",
+    "region": "德国",
+    "type": "城堡",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "坎波巴索老城",
+    "englishName": "Campobasso Old Town",
+    "country": "意大利",
+    "city": "坎波巴索",
+    "slug": "campobasso-old-town",
+    "description": "想象一下，你沿着蜿蜒的石头小径向上爬，两旁是蜜糖色的古老石屋，阳台上垂挂着鲜艳的天竺葵。空气里有种特别的宁静，只能听到自己的脚步声和远处教堂隐约的钟声。坎波巴索老城就是这样一座“长”在山顶上的中世纪小镇，它不像佛罗伦萨那样游人如织，却保留了最原汁原味的意大利山城生活气息。站在高处，整个莫利塞大区的丘",
+    "address": "Via Monforte, 86100 Campobasso CB, Italy",
+    "transport": "从最近的坎波巴索火车站（Stazione di Campobasso）步行上山约20-25分钟即可抵达老城入口。若从罗马钱皮诺机场（CIA）或那不勒斯机场（NAP）出发，需先乘火车或长途汽车至坎波巴索市，总耗时约3-4小时。",
+    "region": "意大利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "沙特尔大教堂",
+    "englishName": "Chartres Cathedral",
+    "country": "法国",
+    "city": "沙特尔",
+    "slug": "chartres-cathedral",
+    "description": "朋友，如果你对哥特式建筑的想象还停留在书本上，那沙特尔大教堂绝对会给你一记“视觉重拳”。从火车站走出来，远远就能看到它那两座不对称的塔楼刺破天际，像一对沉默的巨人守护着这座小镇。走近了，那种扑面而来的宏伟感会让你不自觉屏住呼吸。但最震撼的还在里面——推开厚重的木门，光线瞬间被过滤成一片斑斓的海洋。近",
+    "address": "16 Cloître Notre Dame, 28000 Chartres, France",
+    "transport": "从巴黎蒙帕纳斯火车站（Gare Montparnasse）乘坐火车前往沙特尔站（Gare de Chartres），车程约1小时。出站后步行约10-15分钟即可抵达大教堂，沿途有清晰路标。",
+    "region": "法国",
+    "type": "教堂",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "马尔旺城堡",
+    "englishName": "Château de Malbrouck",
+    "country": "法国",
+    "city": "梅斯泰尔",
+    "slug": "chateau-de-malbrouck",
+    "description": "第一眼看到马尔旺城堡，它就像是从童话书里直接搬出来的！这座石头堡垒雄踞在一座绿色山丘上，被茂密的森林环绕，四个角上耸立着醒目的圆塔，气势十足。走近了才发现，它保存得异常完好，护城河、吊桥、厚重的城墙，中世纪防御体系一目了然。走进城堡内部，感觉瞬间穿越了。阳光透过狭小的窗户射进来，在古老的石墙上投下光",
+    "address": "Château de Malbrouck, 57480 Manderen, France",
+    "transport": "从卢森堡机场出发，驾车约50分钟（45公里）。从法国梅斯火车站出发，驾车约1小时（70公里）。公共交通不便，建议自驾前往。",
+    "region": "法国",
+    "type": "城堡",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "蓬蒂维城堡",
+    "englishName": "Château de Pontivy",
+    "country": "法国",
+    "city": "蓬蒂维",
+    "slug": "chateau-de-pontivy",
+    "description": "第一眼看到蓬蒂维城堡，你就会被它那种混合的气质吸引。它不像那些童话里精致浪漫的城堡，而是座敦实、严肃的石头巨人，带着中世纪的粗犷感，静静地立在布莱夫河畔。走进城堡庭院，脚下是历经风雨的石板路，四周是高耸的城墙和圆塔，瞬间有种穿越回骑士时代的感觉。但有趣的是，走出城堡没多远，你又会看到拿破仑时期规划的",
+    "address": "Place du Martray, 56300 Pontivy, France",
+    "transport": "从雷恩布列塔尼机场出发，驾车沿N24公路向西北行驶约1小时15分钟可达。从雷恩火车站乘坐TER区域火车至蓬蒂维站，车程约1.5小时，出站后步行15分钟即到城堡。",
+    "region": "法国",
+    "type": "城堡",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "托马尔骑士团修道院",
+    "englishName": "Convent of Christ in Tomar",
+    "country": "葡萄牙",
+    "city": "托马尔",
+    "slug": "convent-of-christ-tomar",
+    "description": "当你第一眼看到托马尔骑士团修道院时，绝对会被它那种混合了堡垒、教堂和宫殿的复杂气质震撼到。它不像普通的修道院那样宁静出世，反而像一座从山岩上生长出来的巨大石制迷宫，充满了力量和神秘感。走进里面，最让人挪不开眼的就是那个“曼努埃尔窗”——华丽到夸张的石雕窗框，缠绕着缆绳、贝壳、珊瑚，仿佛把大航海时代的",
+    "address": "Igreja do Castelo Templário, 2300-000 Tomar, Portugal",
+    "transport": "从里斯本机场出发，自驾沿A1和A23高速公路前往，车程约1.5小时。乘坐火车从里斯本东方车站到托马尔站，车程约2小时，出站后步行约20分钟或乘坐出租车5分钟即可抵达山上的修道院。",
+    "region": "葡萄牙",
+    "type": "修道院、城堡、世界文化遗产",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "克拉约瓦老城",
+    "englishName": "Craiova Old Town",
+    "country": "罗马尼亚",
+    "city": "克拉约瓦",
+    "slug": "craiova-old-town",
+    "description": "走进克拉约瓦老城，就像不小心闯进了一本泛黄的欧洲小说。街道不宽，两旁是那种带着岁月包浆的奥匈帝国风格建筑，阳台上总有几盆开得正好的天竺葵。这里被当地人戏称为“小巴黎”，那种悠闲又带点艺术范儿的氛围确实有那么点意思。我最喜欢在铺着鹅卵石的Matei Basarab街上瞎逛，看看那些精致的铁艺招牌和咖啡",
+    "address": "Strada Matei Basarab, Craiova 200398, Romania",
+    "transport": "从克拉约瓦国际机场（CRA）出发，乘坐出租车或预约车约20分钟即可抵达老城区。从克拉约瓦火车站（Gara Craiova）步行至老城中心约需15-20分钟。",
+    "region": "罗马尼亚",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "多瑙沃特古城",
+    "englishName": "Danube Old Town",
+    "country": "德国",
+    "city": "多瑙沃特",
+    "slug": "danube-old-town",
+    "description": "嘿，我跟你说，多瑙沃特古城简直像个被时光遗忘的糖果盒子！第一眼看到那条五彩斑斓的“帝国街”，我下巴都快惊掉了——两排紧挨着的房子，每栋颜色都不同，鹅黄、淡粉、天蓝、薄荷绿，在阳光下闪闪发光，感觉像走进了童话绘本里。石板路被岁月磨得光滑，走在上面哒哒作响，空气里飘着刚出炉的面包香和咖啡味儿。最妙的是，",
+    "address": "Rathausgasse 1, 86609 Donauwörth, Germany",
+    "transport": "从慕尼黑中央火车站乘坐区域火车（RE）前往多瑙沃特火车站，车程约1小时。出站后步行约10-15分钟即可抵达古城核心区。",
+    "region": "德国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "埃伦布赖特施泰因要塞",
+    "englishName": "Ehrenbreitstein Fortress",
+    "country": "德国",
+    "city": "科布伦茨",
+    "slug": "ehrenbreitstein-fortress",
+    "description": "想象一下，你站在一座巨大无比的石头堡垒上，脚下是180米深的悬崖，眼前是两条翡翠色的河流——莱茵河与摩泽尔河，在古老的德意志之角完美交汇。这就是埃伦布赖特施泰因要塞给我的第一印象，不是精致，而是扑面而来的雄浑与霸气。坐着缆车缓缓上升，整个科布伦茨老城像玩具模型一样在脚下展开，那种感觉太震撼了。走进要",
+    "address": "Ehrenbreitstein Fortress, 56077 Koblenz, Germany",
+    "transport": "从科布伦茨中央火车站（Koblenz Hbf）出发，步行至莱茵河畔的缆车站（Festungsbahn Talstation），乘坐缆车约5分钟即可直达要塞山顶。也可乘坐公交车至“Ehrenbreitstein”站，再步行约15分钟上山。",
+    "region": "德国",
+    "type": "城堡、要塞",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "埃尔福特老城",
+    "englishName": "Erfurt Old Town",
+    "country": "德国",
+    "city": "埃尔福特",
+    "slug": "erfurt-old-town",
+    "description": "走进埃尔福特老城，就像一头扎进了一本保存完好的中世纪故事书。第一眼就会被大教堂山那对“双子星”——圣玛利亚大教堂和圣塞维里教堂震撼到，它们并肩矗立在台阶之上，气势恢宏。然后，你的目光一定会被那座独一无二的“商人桥”吸引，桥上密密麻麻盖满了彩色木筋房，里面住着人、开着店，桥下是潺潺流水，这可不是什么电",
+    "address": "Altstadt, 99084 Erfurt, Germany",
+    "transport": "从埃尔福特-魏玛机场（ERF）乘坐出租车约20分钟可达老城。从埃尔福特中央火车站（Erfurt Hbf）步行约15-20分钟即可进入老城核心区。",
+    "region": "德国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "费尔莫古城",
+    "englishName": "Fermo Historic Center",
+    "country": "意大利",
+    "city": "费尔莫",
+    "slug": "fermo-historic-center",
+    "description": "嘿，如果你问我费尔莫古城是什么感觉，我会说它像一个被时光遗忘的、优雅的梦境。车子沿着盘山路向上，当你在人民广场（Piazza del Popolo）下车的那一刻，仿佛瞬间穿越。脚下是光滑的石灰华石板路，四周是蜂蜜色的中世纪和文艺复兴建筑，拱廊下飘着咖啡香。这里没有汹涌的人潮，安静得能听见自己的脚步声",
+    "address": "Piazza del Popolo, 1, 63900 Fermo FM, Italy",
+    "transport": "从最近的安科纳机场（AOI）出发，驾车约1小时可达。从最近的火车站费尔莫站（Stazione di Fermo）出发，步行上山约20-25分钟即可抵达古城中心的人民广场。",
+    "region": "意大利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "格蒙登湖城",
+    "englishName": "Gmunden",
+    "country": "奥地利",
+    "city": "格蒙登",
+    "slug": "gmunden",
+    "description": "想象一下，你站在特劳恩湖边，眼前是碧蓝的湖水和远处阿尔卑斯山的轮廓，而一座白色的、尖顶的城堡就建在离岸几十米的湖心小岛上，只靠一条长长的木桥与陆地相连——这就是格蒙登给你的第一眼震撼。这里不像大都市那样喧闹，空气里飘着咖啡香和淡淡的湖水气息。老城区的房子色彩柔和，很多店铺的招牌都是当地特产——格蒙登",
+    "address": "Gmunden, 4810, Upper Austria, Austria",
+    "transport": "从萨尔茨堡机场（SZG）出发，驾车或乘坐火车约1小时15分钟可抵达格蒙登火车站。从维也纳驾车约2.5-3小时。",
+    "region": "奥地利",
+    "type": "湖滨古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "古比奥古城",
+    "englishName": "Gubbio Old Town",
+    "country": "意大利",
+    "city": "古比奥",
+    "slug": "gubbio-old-town",
+    "description": "嘿，我跟你说，古比奥简直像从童话书里直接搬出来的！它整个儿“挂”在英吉诺山的斜坡上，层层叠叠的灰色石头房子沿着山势铺开，所以当地人叫它“灰城”。第一眼看到它，那种震撼感很难形容——一座活生生的中世纪古城，时间在这里好像被按了暂停键。走在窄窄的、陡峭的石头巷子里，两边是高耸的石墙，头顶是拱廊，脚下是光",
+    "address": "Piazza Grande, 06024 Gubbio PG, Italy",
+    "transport": "从佩鲁贾圣弗朗西斯德阿西西国际机场出发，驾车约45分钟可达。从罗马乘火车至福松布罗内站后，需转乘巴士，总耗时约3小时。",
+    "region": "意大利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "哈默尔恩老城",
+    "englishName": "Hameln Old Town",
+    "country": "德国",
+    "city": "哈默尔恩",
+    "slug": "hameln-old-town",
+    "description": "一脚踏进哈默尔恩老城，就像不小心翻开了童话书的一页。满眼都是糖果色的木桁架房屋，每一栋的立面都像精心绘制的插图，尖尖的山墙挤在一起，仿佛在窃窃私语。空气里飘着姜饼和咖啡的香味，耳边似乎能听到中世纪街道传来的马蹄声——当然，还有那个著名的“捕鼠人”笛声的传说。在这里散步，你不需要地图，只需要跟着彩绘的",
+    "address": "Osterstraße 1, 31785 Hameln, Germany",
+    "transport": "从汉诺威机场出发，乘坐S-Bahn（S5线）至汉诺威主火车站，转乘区域火车（RE或RB线）前往哈默尔恩站，全程约1.5小时。从哈默尔恩火车站步行至老城中心仅需10分钟。",
+    "region": "德国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "里昂历史中心",
+    "englishName": "Historic Centre of Lyon",
+    "country": "法国",
+    "city": "里昂",
+    "slug": "historic-centre-of-lyon",
+    "description": "踏入里昂历史中心，就像一头扎进了一部活着的欧洲城市编年史。这里不是那种被精心修复得一丝不苟的“样板间”，而是充满了生活气息。我最爱穿梭在“特拉布oules”之间——那是连接索恩河畔与富维耶山腰的秘密通道，一条条狭窄蜿蜒的阶梯小巷，两旁是文艺复兴时期色彩斑驳的老房子，头顶是拱廊和天桥。走着走着，你可能",
+    "address": "Vieux Lyon, 69005 Lyon, France",
+    "transport": "从里昂圣埃克絮佩里机场乘坐Rhônexpress机场快线至里昂帕尔迪厄火车站，约30分钟，再转乘地铁D线至Vieux Lyon站，约10分钟。从里昂帕尔迪厄火车站直接乘坐地铁D线至Vieux Lyon站，约15分钟。",
+    "region": "法国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "约阿尼纳老城",
+    "englishName": "Ioannina Old Town",
+    "country": "希腊",
+    "city": "约阿尼纳",
+    "slug": "ioannina-old-town",
+    "description": "想象一下，你站在帕姆沃蒂斯湖边，对岸就是一片依山而建、白墙红瓦的老城，湖面倒映着城堡的轮廓，几只天鹅缓缓游过——这就是约阿尼纳老城给你的第一眼震撼。这里不像雅典卫城那样充满古典希腊的肃穆，而是一种奇妙的混合体：狭窄的鹅卵石小巷、带有精美木雕阳台的奥斯曼时期老宅、东正教教堂的钟声与远处清真寺唤礼塔的剪",
+    "address": "Ioannina Old Town, Ioannina 452 21, Greece",
+    "transport": "从约阿尼纳国家机场（IOA）出发，乘坐出租车约20分钟即可抵达老城。从雅典乘火车或长途巴士至约阿尼纳市巴士总站，再换乘市内公交或步行约15-20分钟可达老城边缘。",
+    "region": "希腊",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "哈恩古城",
+    "englishName": "Jaén Old Town",
+    "country": "西班牙",
+    "city": "哈恩",
+    "slug": "jaen-old-town",
+    "description": "说实话，第一眼看到哈恩古城，我有点被“震”住了。它不是那种精致小巧的古镇，而是一座从山脚一直蔓延到山顶圣卡塔利娜城堡脚下的、巨大而密集的白色迷宫。沿着陡峭的鹅卵石坡道向上爬，两旁是刷得雪白的房屋，阳台上盛开着天竺葵，狭窄的巷子窄到似乎只能容一人通过，转角可能就遇到一个安静的广场或是有着华丽铁艺窗棂的",
+    "address": "Casco Antiguo, 23001 Jaén, Spain",
+    "transport": "从哈恩火车站（Estación de Jaén）出发，步行约15-20分钟即可抵达古城山脚下的入口。从最近的哈恩机场（Aeropuerto de Granada-Jaén）出发，需先乘坐出租车或巴士到市区，车程约1小时。",
+    "region": "西班牙",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "考洛乔老城",
+    "englishName": "Kalocsa Old Town",
+    "country": "匈牙利",
+    "city": "考洛乔",
+    "slug": "kalocsa-old-town",
+    "description": "走进考洛乔老城，就像一头扎进了一个色彩明快的童话世界。第一眼就会被街道两旁那些粉的、黄的、天蓝的巴洛克式房屋惊艳到，外墙干净得发亮，窗台上永远摆着盛开的鲜花，整个氛围慵懒又甜蜜。这里被称为匈牙利的“辣椒之都”，空气里仿佛都飘着一丝 paprika 的辛香。最让人着迷的是那份宁静，没有汹涌的人潮，只有",
+    "address": "Kalocsa, Szent István király tér 1, 6300 Hungary",
+    "transport": "从布达佩斯出发，可乘坐火车或长途巴士前往考洛乔，车程约1.5-2小时。抵达考洛乔火车站后，老城中心区域步行即可到达，约10-15分钟。",
+    "region": "匈牙利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "克莱沃城堡",
+    "englishName": "Kasteel de Haar",
+    "country": "荷兰",
+    "city": "乌特勒支附近的海尔许霍瓦德",
+    "slug": "kasteel-de-haar",
+    "description": "朋友，想象一下，你穿过一片宁静的荷兰乡村，突然，一座拥有尖塔、护城河和吊桥的童话城堡跃然眼前，那就是克莱沃城堡给我的第一印象！它不像有些古堡那样沧桑破败，而是像刚从童话书里搬出来一样，精致、华丽，甚至有点“新”。走进城堡内部更是震撼，仿佛穿越到了19世纪末的顶级贵族派对现场。每个房间都极尽奢华，从宴",
+    "address": "Kasteellaan 1, 3455 RR Haarzuilens, Netherlands",
+    "transport": "从阿姆斯特丹史基浦机场出发，最便捷的方式是乘坐火车至乌特勒支中央车站（约30分钟），然后在车站外的公交站换乘127路公交车，在“Haarzuilens, Kasteel”站下车（约25分钟），步行几分钟即可到达城堡入口。从乌特勒支市中心自驾前往约需20分钟。",
+    "region": "荷兰",
+    "type": "城堡",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "卡斯托里亚老城",
+    "englishName": "Kastoria Old Town",
+    "country": "希腊",
+    "city": "卡斯托里亚",
+    "slug": "kastoria-old-town",
+    "description": "想象一下，你走在一条鹅卵石小径上，一边是湛蓝如镜的奥雷斯蒂亚达湖，另一边是层层叠叠、带着奥斯曼帝国时期木制阳台的老房子。这就是卡斯托里亚老城给你的第一印象——一种宁静的、被时光浸泡过的美。这里不像那些喧嚣的旅游热点，它安静地坐落在湖心半岛上，像个与世无争的隐士。空气中混合着湖水的气息和老木头、石头的",
+    "address": "Old Town, Kastoria 521 00, Greece",
+    "transport": "从最近的卡瓦拉国际机场（KVA）出发，驾车约2小时可抵达卡斯托里亚。从雅典或塞萨洛尼基乘坐长途巴士也可到达，车程分别约为6小时和3小时。老城位于卡斯托里亚市的奥雷斯蒂亚达湖半岛上，从市中心步行即可轻松到达。",
+    "region": "希腊",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "卡瓦拉老城",
+    "englishName": "Kavala Old Town",
+    "country": "希腊",
+    "city": "卡瓦拉",
+    "slug": "kavala-old-town",
+    "description": "想象一下，你正沿着鹅卵石小路向上攀登，两边是刷成各种柔和色调的房子，阳台上垂挂着九重葛。空气中混合着海风的咸味和咖啡的香气。这里就是卡瓦拉老城，一个层层叠叠建在山坡上的迷宫。它不像圣托里尼那样满是游客，反而有种慵懒、真实的地中海生活气息。你会路过小小的东正教堂，也会看到奥斯曼时期留下的清真寺宣礼塔，",
+    "address": "Old Town, Kavala 653 02, Greece",
+    "transport": "从卡瓦拉国际机场（KVA）出发，乘坐出租车约25分钟可达老城入口。从卡瓦拉市中心火车站步行约15-20分钟即可到达山脚下的老城入口。",
+    "region": "希腊",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "科拉欣",
+    "englishName": "Kolašin",
+    "country": "黑山",
+    "city": "科拉欣",
+    "slug": "kola-in",
+    "description": "嘿，如果你厌倦了亚得里亚海边的喧嚣，想一头扎进黑山的“绿色心脏”，那科拉欣绝对是个惊喜。第一眼看到它，你会觉得这是个被松林和群山温柔环抱的童话小镇，空气里都是清冽的松针香。夏天，这里是徒步者和山地自行车手的乐园，Biogradska Gora国家公园里那个祖母绿一样的冰川湖，美得让人屏住呼吸。冬天，",
+    "address": "Kolašin, Montenegro",
+    "transport": "从波德戈里察机场（TGD）出发，驾车沿E65/E80公路向北行驶，约1.5小时车程可达。从首都波德戈里察火车站也可乘坐火车或巴士，约2小时。",
+    "region": "黑山",
+    "type": "自然景观、山地度假小镇",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "科希策老城",
+    "englishName": "Košice Old Town",
+    "country": "斯洛伐克",
+    "city": "科希策",
+    "slug": "kosice-old-town",
+    "description": "嘿，如果你问我科希策最迷人的地方在哪，我会毫不犹豫地拉你去Hlavná大街走走。这里不像布拉格那样游人如织，却有种东欧特有的、慢悠悠的精致感。街道宽敞得不像话，两旁是糖果色的巴洛克和古典主义建筑，地面铺着整齐的石砖，走在上面脚步声都变得清脆。最震撼的当然是街尽头那座哥特式的圣伊丽莎大教堂，尖塔直插云",
+    "address": "Hlavná ulica, 040 01 Košice, Slovakia",
+    "transport": "从科希策国际机场（Košice International Airport, KSC）出发，乘坐23路公交车至“Hlavná pošta”站，换乘前往市中心的电车或步行约20分钟，总耗时约40-50分钟。从科希策中央火车站步行至老城中心仅需10-15分钟。",
+    "region": "斯洛伐克",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "克雷姆斯老城",
+    "englishName": "Krems Old Town",
+    "country": "奥地利",
+    "city": "克雷姆斯",
+    "slug": "krems-old-town",
+    "description": "想象一下，你沿着缓缓流淌的多瑙河散步，一转弯，就撞进了一片鹅卵石铺就的童话世界——这就是克雷姆斯老城给我的第一印象。它不像那些被游客挤爆的大城市，这里安静得能听见自己的脚步声在古老巷弄里回响。阳光透过彩绘的房屋外墙，把影子拉得长长的，空气里飘着附近酒馆传来的咖啡香和刚出炉的苹果卷的甜味。老城就像个被",
+    "address": "Krems an der Donau, 3500 Krems, Austria",
+    "transport": "从维也纳国际机场出发，可乘坐火车直达克雷姆斯火车站（Krems Bahnhof），车程约1小时。从火车站步行至老城中心仅需10-15分钟。",
+    "region": "奥地利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "勒芒老城",
+    "englishName": "Le Mans Old Town",
+    "country": "法国",
+    "city": "勒芒",
+    "slug": "le-mans-old-town",
+    "description": "一走进勒芒老城，就像不小心掉进了一本立体的中世纪绘本。脚下是磨得发亮的鹅卵石路，两旁是密密麻麻、歪歪扭扭的木筋墙老房子，颜色是那种暖暖的蜂蜜黄和赭石红，可爱极了。阳光从狭窄的街道缝隙里漏下来，打在斑驳的墙面上，光影游戏玩得特别溜。这里完全没有大城市的喧嚣，安静得能听见自己的脚步声和远处咖啡馆隐约的杯",
+    "address": "Vieux Mans, 72000 Le Mans, France",
+    "transport": "从巴黎蒙帕纳斯火车站乘坐TGV高速列车至勒芒站，约55分钟。出火车站后，步行约15-20分钟即可抵达老城山脚下。",
+    "region": "法国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "林堡圣母教堂",
+    "englishName": "Liebfrauenkirche Limburg",
+    "country": "德国",
+    "city": "林堡",
+    "slug": "liebfrauenkirche-limburg",
+    "description": "第一眼看到林堡圣母教堂，你绝对会“哇”出声来！它就像从童话里直接搬出来的城堡，雄赳赳地立在一块高高的岩石上，脚下就是蜿蜒的拉恩河和一片片红屋顶的老房子。最抓眼球的是它那七座高低错落的塔楼，在蓝天白云下特别有戏剧感。走进教堂里面，又是另一番天地，光线透过古老的彩绘玻璃窗洒下来，空气里混合着石头、蜡烛和",
+    "address": "Domplatz 1, 65549 Limburg an der Lahn, Germany",
+    "transport": "从法兰克福机场出发，乘坐区域火车（RB或RE线）至林堡（Limburg）火车站，车程约1小时。出站后步行约15分钟，穿过老城即可抵达教堂所在的山丘。",
+    "region": "德国",
+    "type": "教堂",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "卢尼古罗马遗址",
+    "englishName": "Luni Archaeological Site",
+    "country": "意大利",
+    "city": "卢尼（奥尔托诺沃市镇）",
+    "slug": "luni-archaeological-site",
+    "description": "说实话，第一眼看到卢尼遗址，那种感觉挺奇妙的。它不像庞贝那样震撼完整，反而有种被时光温柔掩埋后又重新被发现的宁静感。你走在碎石铺成的古罗马大道上，两旁是剧场、神庙和民居的地基轮廓，阳光把断壁残垣的影子拉得老长。最让我印象深刻的是那座椭圆形的竞技场遗迹，虽然只剩下几层看台的石头基座，但你闭上眼睛，几乎",
+    "address": "Via Luni, 19034 Luni SP, Italy",
+    "transport": "从拉斯佩齐亚中央火车站（La Spezia Centrale）乘坐区域火车至Sarzana站（约10分钟），然后转乘当地巴士或出租车前往遗址（车程约15分钟）。从比萨国际机场自驾前往约需1小时。",
+    "region": "意大利",
+    "type": "古城遗址",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "迈宁根老城",
+    "englishName": "Meiningen Old Town",
+    "country": "德国",
+    "city": "迈宁根",
+    "slug": "meiningen-old-town",
+    "description": "走进迈宁根老城，就像不小心闯进了一本保存完好的历史画册。第一眼就会被集市广场上那些色彩柔和、立面装饰着精美浮雕的桁架房屋吸引，它们肩并肩站在一起，仿佛在低声诉说着几个世纪的故事。这里的空气里都飘着艺术和音乐的味道，毕竟，这里可是被誉为“剧院城”的地方！你可以想象一下，在鹅卵石铺成的小巷里闲逛，转角可",
+    "address": "Markt, 98617 Meiningen, Germany",
+    "transport": "从最近的埃尔福特机场出发，乘坐火车约1.5小时可抵达迈宁根火车站，出站后步行约10-15分钟即可进入老城核心区。",
+    "region": "德国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "迈措翁",
+    "englishName": "Meteora",
+    "country": "希腊",
+    "city": "卡兰巴卡",
+    "slug": "meteora",
+    "description": "第一眼看到迈措翁，你会怀疑自己是不是闯入了某个奇幻电影的片场。几十座巨大的灰褐色岩石柱拔地而起，直插云霄，而在这些近乎垂直的岩顶之上，竟然稳稳地坐落着古老的修道院！那种震撼，是照片完全无法传达的。你需要亲自站在观景台，感受山风呼啸，看着那些红瓦白墙的建筑仿佛悬浮在天地之间，才能理解为什么这里被称为“",
+    "address": "Kalampaka 422 00, Greece",
+    "transport": "从雅典国际机场出发，可乘火车至卡兰巴卡站（约5小时），或自驾沿E75公路北上（约4小时）。从卡兰巴卡镇中心可步行、驾车或参加当地旅行团前往各修道院观景台。",
+    "region": "希腊",
+    "type": "自然景观、宗教建筑",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "梅茨老城",
+    "englishName": "Metz Old Town",
+    "country": "法国",
+    "city": "梅茨",
+    "slug": "metz-old-town",
+    "description": "一脚踏进梅茨老城，就像掉进了一个时光琥珀。脚下是咯吱作响的古老鹅卵石路，两旁是蜂蜜色砂岩砌成的房子，在阳光下泛着温暖的金光，难怪这里被称为“黄金之城”。空气里飘着刚出炉的面包香和咖啡香，混着远处圣艾蒂安大教堂那哥特式尖塔带来的庄严感，特别奇妙。老城被摩泽尔河温柔地环抱着，你可以沿着河散步，看天鹅游过",
+    "address": "Vieille Ville, 57000 Metz, France",
+    "transport": "从梅茨-南锡机场（ETZ）乘坐出租车约30分钟可达；从梅茨火车站（Gare de Metz-Ville）步行约10-15分钟即可进入老城核心区。",
+    "region": "法国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "米什科尔茨老城",
+    "englishName": "Miskolc Old Town",
+    "country": "匈牙利",
+    "city": "米什科尔茨",
+    "slug": "miskolc-old-town",
+    "description": "嘿，如果你厌倦了布达佩斯的喧嚣，想找个更有生活气息和历史厚度的匈牙利老城逛逛，米什科尔茨老城绝对是个惊喜。第一眼看到那些被岁月磨得光滑的鹅卵石街道和色彩柔和的巴洛克建筑外墙，你会感觉时间都慢了下来。这里不像纯粹的旅游区，更像是本地人依然在其中买菜、喝咖啡的生活剧场。空气里混合着新鲜面包的香气和从老咖",
+    "address": "Miskolc, Széchenyi István utca 及周边区域，3525 Hungary",
+    "transport": "从布达佩斯李斯特·费伦茨国际机场出发，可乘坐火车直达米什科尔茨（Miskolc-Tiszai火车站），车程约2-2.5小时。从火车站步行至老城核心区约15-20分钟。",
+    "region": "匈牙利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "纳尔尼古城",
+    "englishName": "Narni Sotterranea",
+    "country": "意大利",
+    "city": "纳尔尼",
+    "slug": "narni-sotterranea",
+    "description": "朋友，如果你觉得地上的意大利古城看腻了，那一定要来纳尔尼，钻到地下去！这里简直是个被时间遗忘的平行世界。穿过一扇不起眼的小门，沿着狭窄的螺旋石阶往下走，空气瞬间变得潮湿凉爽，中世纪的气息扑面而来。手电筒的光束划过古老的石墙，照亮了沉睡数百年的房间、水窖，还有那个最震撼的——一座完整的中世纪教堂，墙壁",
+    "address": "Via S. Bernardo, 12, 05035 Narni TR, Italy",
+    "transport": "从罗马菲乌米奇诺机场（FCO）出发，乘坐火车至特尔尼（Terni）站（约1.5小时），再转乘地区巴士或出租车前往纳尔尼（约20-30分钟）。从纳尔尼镇中心步行至景点入口约5-10分钟。",
+    "region": "意大利",
+    "type": "古城、地下遗迹",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "瑙姆堡大教堂",
+    "englishName": "Naumburg Cathedral",
+    "country": "德国",
+    "city": "瑙姆堡",
+    "slug": "naumburg-cathedral",
+    "description": "走进瑙姆堡大教堂，你第一眼就会被西唱诗堂里那十二尊捐助人雕像牢牢抓住目光。天啊，他们简直不像中世纪的石头人，而是活生生的人被瞬间定格在了那里！尤其是乌塔夫人，她微微侧身，用斗篷轻掩面颊，那个眼神既高贵又带着一丝难以言说的忧郁，仿佛能穿透数百年的时光与你对视。教堂本身是罗马式向哥特式过渡的典范，线条庄",
+    "address": "Domplatz 16/17, 06618 Naumburg (Saale), Germany",
+    "transport": "从莱比锡/哈勒机场出发，乘坐火车至瑙姆堡火车站（Naumburg (Saale) Hauptbahnhof），车程约1小时。从火车站步行至大教堂约15-20分钟。也可从魏玛或耶拿乘坐地区火车抵达。",
+    "region": "德国",
+    "type": "教堂",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "那慕尔圣母大教堂",
+    "englishName": "Notre-Dame de Namur Cathedral",
+    "country": "比利时",
+    "city": "那慕尔",
+    "slug": "notre-dame-de-namur-cathedral",
+    "description": "第一眼看到那慕尔圣母大教堂，你一定会被它那宏伟的巴洛克式圆顶和居高临下的气势所震撼。它不像那些藏在老城巷子里的教堂，而是大大方方地坐落在山顶，俯瞰着脚下蜿蜒的默兹河和整个那慕尔城。走进教堂内部，光线透过高高的穹顶洒下来，照亮了繁复的金色装饰和精美的壁画，那种庄严又华丽的氛围瞬间就把人包裹住了。最让我",
+    "address": "Place Saint-Aubain, 5000 Namur, Belgium",
+    "transport": "从布鲁塞尔南站（Brussels-South）乘坐火车至那慕尔站（Namur Station），车程约1小时。出站后步行约15分钟即可抵达教堂所在的山顶。",
+    "region": "比利时",
+    "type": "教堂",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "泰托沃老城",
+    "englishName": "Old Bazaar of Tetovo",
+    "country": "北马其顿",
+    "city": "泰托沃",
+    "slug": "old-bazaar-tetovo",
+    "description": "一走进泰托沃老城，时间仿佛瞬间慢了下来。脚下是鹅卵石铺就的蜿蜒小巷，两旁是奥斯曼时期留下的低矮石屋，刷着各种柔和的色彩。空气中飘着新鲜烘焙的面包香、浓郁的土耳其咖啡味，还有香料摊传来的独特气息。这里不像大景点那样人潮汹涌，更多的是本地人悠闲地购物、喝咖啡、聊天。你会看到手工艺人在店铺门口专注地敲打铜",
+    "address": "Old Bazaar, Tetovo, 1200, North Macedonia",
+    "transport": "从斯科普里国际机场出发，驾车或乘坐出租车沿A2/E65高速公路向西北行驶约40公里，耗时约45分钟。从泰托沃市中心步行即可轻松抵达老城。",
+    "region": "北马其顿",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "采蒂涅老城",
+    "englishName": "Old Town Cetinje",
+    "country": "黑山",
+    "city": "采蒂涅",
+    "slug": "old-town-cetinje",
+    "description": "想象一下，你走进了一座被时间按下了暂停键的“露天博物馆”。这里就是采蒂涅老城，黑山的精神与文化心脏。街道宽敞宁静，两旁是低矮的、带着岁月痕迹的建筑，很多都曾是外国使馆，如今挂着小小的铭牌，诉说着过往。空气里有一种混合了山间清冷与历史尘埃的独特气味。最让我着迷的是那种反差感——这里没有大城市的喧嚣，却",
+    "address": "Stari Grad Cetinje, 81250 Cetinje, Montenegro",
+    "transport": "从黑山首都波德戈里察机场出发，驾车或乘坐出租车/巴士沿E65/E80公路向西北行驶，约1小时车程即可抵达采蒂涅。从科托尔或布德瓦等沿海城市驾车前来，需翻越洛夫琴山，风景壮丽，车程约1.5-2小时。",
+    "region": "黑山",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "肖普朗老城",
+    "englishName": "Old Town of Sopron",
+    "country": "匈牙利",
+    "city": "肖普朗",
+    "slug": "old-town-of-sopron",
+    "description": "一脚踏进肖普朗老城，就像不小心掉进了一个琥珀色的时间胶囊。这里没有布达佩斯那样汹涌的人潮，时间仿佛被鹅卵石小路和蜂蜜色墙壁调慢了。老城中心被一圈保存完好的中世纪城墙温柔地环抱着，你会看到哥特式、文艺复兴式和巴洛克式的建筑肩并肩站在一起，像一群穿着不同时代华服却相处融洽的老朋友。我最爱在黄昏时分，爬上",
+    "address": "Sopron, Várkerület, 9400 Hungary",
+    "transport": "从布达佩斯出发，乘坐火车约2-2.5小时直达肖普朗火车站，火车站步行至老城中心仅需5-10分钟。从维也纳出发，车程约1小时。",
+    "region": "匈牙利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "奥洛穆茨老城",
+    "englishName": "Olomouc Old Town",
+    "country": "捷克",
+    "city": "奥洛穆茨",
+    "slug": "olomouc-old-town",
+    "description": "如果说布拉格是万众瞩目的公主，那奥洛穆茨老城就像一位低调却满腹经纶的学者，静静地散发着光芒。第一眼看到上广场（Horní náměstí）时，你一定会被那座拔地而起的圣三柱震撼到——它可不是普通的纪念碑，而是联合国认证的世界遗产！整个老城就像一座露天的巴洛克建筑博物馆，鹅卵石街道蜿蜒曲折，色彩柔和的",
+    "address": "Horní náměstí, 779 00 Olomouc, Czechia",
+    "transport": "从布拉格出发：乘坐火车约2.5小时直达奥洛穆茨主火车站（Olomouc hl.n.），出站后步行约15-20分钟即可到达老城中心。从维也纳出发：火车约3小时。",
+    "region": "捷克",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "帕伦西亚老城",
+    "englishName": "Palencia Old Town",
+    "country": "西班牙",
+    "city": "帕伦西亚",
+    "slug": "palencia-old-town",
+    "description": "说实话，来帕伦西亚老城之前，我完全没料到它会这么迷人。这里没有马德里的喧嚣，也没有巴塞罗那的游客潮，它就是一座安安静静、干干净净的卡斯蒂利亚古城。第一印象就是那种被阳光晒得暖洋洋的蜂蜜色石头房子，沿着蜿蜒的鹅卵石小巷排开。空气里飘着咖啡香和刚出炉的面包味。最让我心动的是主广场（Plaza Mayor",
+    "address": "Casco Antiguo, 34001 Palencia, Spain",
+    "transport": "从马德里巴拉哈斯机场出发，可乘坐高铁（AVE）至帕伦西亚-吉列尔车站，车程约2小时15分钟。从车站步行至老城区约15-20分钟。从巴利亚多利德机场出发，驾车或乘坐巴士约45分钟可达。",
+    "region": "西班牙",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "佩鲁贾老城",
+    "englishName": "Perugia Old Town",
+    "country": "意大利",
+    "city": "佩鲁贾",
+    "slug": "perugia-old-town",
+    "description": "想象一下，你站在一座意大利中部山顶的古城门口，眼前是厚重的石头城墙和蜿蜒向上的中世纪小巷。这就是佩鲁贾老城给我的第一印象——一座被时光封存的立体迷宫。空气里混合着古老石墙的气息和远处飘来的巧克力甜香（没错，佩鲁贾是著名巧克力Baci的故乡！）。穿梭在石板路上，你会突然从一个狭窄的拱门钻出来，眼前豁然",
+    "address": "Centro Storico, 06123 Perugia PG, Italy",
+    "transport": "从佩鲁贾圣弗朗西斯德阿西西国际机场（PEG）出发，乘坐机场巴士或出租车约20分钟可达老城边缘。从火车站（Perugia Fontivegge）可搭乘迷你地铁（Minimetrò）上山，约10分钟到达老城中心Pincetto站，是体验这座山城特色的有趣方式。",
+    "region": "意大利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "诺维萨德要塞",
+    "englishName": "Petrovaradin Fortress",
+    "country": "塞尔维亚",
+    "city": "诺维萨德",
+    "slug": "petrovaradin-fortress",
+    "description": "嘿，如果你来诺维萨德，一定不能错过河对岸那座“趴”在山上的大家伙——诺维萨德要塞。第一眼看到它，你会觉得它像个从历史书里走出来的巨人，沉稳地守护着脚下的多瑙河和整个城市。爬上山坡，走进那厚重的石墙，瞬间就远离了城市的喧嚣。这里视野无敌，整个诺维萨德的红屋顶和老城区教堂的尖顶都在你脚下铺开，多瑙河像一",
+    "address": "Petrovaradin Fortress, Petrovaradin, Novi Sad 21131, Serbia",
+    "transport": "从贝尔格莱德尼古拉·特斯拉机场出发：可乘坐机场大巴或打车至诺维萨德市中心（车程约1-1.5小时），再从市中心步行穿过Varadin大桥即达要塞山脚下（步行约15-20分钟），或乘坐当地公交车（如线路3、9、60等）至Petrovaradin站。从诺维萨德火车站/汽车站：打车约10分钟，或乘坐公交车至市中心后步行过桥。",
+    "region": "塞尔维亚",
+    "type": "城堡",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "旺多姆广场",
+    "englishName": "Place Vendôme",
+    "country": "法国",
+    "city": "巴黎",
+    "slug": "place-vendome",
+    "description": "第一次走到旺多姆广场，那种扑面而来的奢华与规整感，简直像走进了另一个巴黎。这里没有蒙马特的文艺随性，也没有拉丁区的热闹喧嚣，取而代之的是一种沉静、古典又极度精致的气场。广场呈完美的八角形，四周环绕着清一色的新古典主义建筑立面，底层全是闪闪发光的顶级珠宝店和高级酒店的门面。最震撼的是广场中央那根高耸入",
+    "address": "Place Vendôme, 75001 Paris, France",
+    "transport": "从巴黎戴高乐机场出发：乘坐RER B线至Châtelet - Les Halles站，换乘地铁1号线至Tuileries站或Concorde站，步行约5-10分钟可达。全程约50-60分钟。\n从巴黎北站出发：乘坐地铁7号线至Opéra站，步行约5分钟可达。",
+    "region": "法国",
+    "type": "广场、历史地标",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "加尔桥",
+    "englishName": "Pont du Gard",
+    "country": "法国",
+    "city": "韦尔-蓬迪加尔（Vers-Pont-du-Gard）",
+    "slug": "pont-du-gard",
+    "description": "第一眼看到加尔桥，你会被它的巨大和优雅彻底震撼。它不像一座冰冷的石头建筑，更像一条横跨加尔东河峡谷的巨龙，静静地卧在碧绿的河水和苍翠的森林之上。走近了看，那些巨大的、淡金色的石灰岩块，每一块都经过精细的切割，不用任何灰浆，仅靠重力严丝合缝地垒在一起，两千年了，依然坚固如初。你可以赤脚踩进清凉的河水里",
+    "address": "400 Route du Pont du Gard, 30210 Vers-Pont-du-Gard, France",
+    "transport": "从最近的阿维尼翁TGV高铁站或尼姆火车站出发，驾车约30-40分钟即可抵达。也可从阿维尼翁或尼姆乘坐公共巴士（线路B21或A15），但班次较少，车程约1小时，建议提前查询时刻表。自驾是最方便的选择。",
+    "region": "法国",
+    "type": "古罗马遗迹 / 高架引水渠 / 自然景观",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "普雷绍夫老城",
+    "englishName": "Prešov Old Town",
+    "country": "斯洛伐克",
+    "city": "普雷绍夫",
+    "slug": "presov-old-town",
+    "description": "走进普雷绍夫老城，就像不小心闯进了一本褪色的童话书。第一眼就会被主街上那一排排糖果色的巴洛克建筑外墙迷住——粉的、鹅黄的、薄荷绿的，在阳光下温柔得不像话。这里没有布拉格那样的人潮汹涌，时间仿佛被调慢了半拍，你可以悠闲地踩着鹅卵石小路，听自己的脚步声在古老的拱廊下回响。空气里混合着咖啡香和从面包房飘出",
+    "address": "Hlavná ulica, 080 01 Prešov, Slovakia",
+    "transport": "从最近的科希策国际机场（Košice International Airport）出发，驾车或乘坐出租车约30分钟即可抵达普雷绍夫市中心。从斯洛伐克首都布拉迪斯拉发乘坐火车约需4-5小时。",
+    "region": "斯洛伐克",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "里希拉赫蒂",
+    "englishName": "Riihilahti",
+    "country": "芬兰",
+    "city": "赫尔辛基",
+    "slug": "riihilahti",
+    "description": "嘿，如果你在赫尔辛基想找个地方喘口气，躲开游客的喧嚣，那一定要来里希拉赫蒂转转。这里不是什么大名鼎鼎的景点，更像是一个被本地人私藏的“后花园”。我第一次来的时候，就被那种奇妙的混合感打动了——一边是宁静的海湾，停着白色的小帆船，水波不兴；另一边则是充满工业感的旧仓库和起重机，红砖墙在夕阳下特别有味道",
+    "address": "Riihilahti, 00180 Helsinki, Finland",
+    "transport": "从赫尔辛基-万塔机场（HEL）乘坐615路公交车至“Kamppi”站，换乘有轨电车6/6T线至“Lauttasaari”站，步行约10分钟可达，总耗时约50分钟。从赫尔辛基中央火车站出发，可乘坐有轨电车6/6T线直达，约20分钟。",
+    "region": "芬兰",
+    "type": "自然景观、城市公园、休闲区",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "里耶卡老城",
+    "englishName": "Rijeka Old Town",
+    "country": "克罗地亚",
+    "city": "里耶卡",
+    "slug": "rijeka-old-town",
+    "description": "走进里耶卡老城，就像一头扎进了一本立体的历史画册。这里没有扎堆的游客，只有蜿蜒的鹅卵石小巷、被岁月磨得发亮的台阶，和那些色彩斑驳的巴洛克式建筑外墙。空气中混杂着海风的咸味和从街角咖啡馆飘出的咖啡香。你会不自觉地放慢脚步，抬头看那些阳台上垂下的鲜花，或者研究一下门楣上古老的家族徽章。这里的生活节奏很慢",
+    "address": "Stari grad, 51000 Rijeka, Croatia",
+    "transport": "从里耶卡机场出发，乘坐机场巴士或出租车约30分钟可达老城。从里耶卡中央火车站步行约15-20分钟即可到达老城入口。",
+    "region": "克罗地亚",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "鲁尔蒙德老城",
+    "englishName": "Roermond Old Town",
+    "country": "荷兰",
+    "city": "鲁尔蒙德",
+    "slug": "roermond-old-town",
+    "description": "嘿，如果你喜欢那种不慌不忙、一步一景的小城漫步，鲁尔蒙德老城绝对是个惊喜。这里没有阿姆斯特丹的喧嚣，取而代之的是马斯河温柔的波光和两岸彩色的山形墙房子。第一眼看到老城，你会觉得像走进了一本立体的历史画册，鹅卵石小路弯弯曲曲，不知名的巷子口总藏着可爱的咖啡馆。最迷人的是那种氛围——教堂的钟声定时响起，",
+    "address": "Roermond City Centre, 6041 GM Roermond, Netherlands",
+    "transport": "从最近的埃因霍温机场出发，乘坐火车直达鲁尔蒙德站，车程约1小时。从火车站步行至老城中心仅需5-10分钟。",
+    "region": "荷兰",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "希贝尼克老城",
+    "englishName": "Šibenik Old Town",
+    "country": "克罗地亚",
+    "city": "希贝尼克",
+    "slug": "sibenik-old-town",
+    "description": "想象一下，你钻进了一个由蜂蜜色石头砌成的巨大迷宫，脚下是光滑得发亮的古老石阶，头顶是晾晒着衣服的狭窄天空。这就是希贝尼克老城给我的第一印象。它不像杜布罗夫尼克那样充满戏剧性的恢弘，而是一种更亲切、更生活化的古老。你会在转角遇到一个摆满鲜花的石头窗台，会听到某扇木门后传来叮叮当当的厨房声响，会闻到咖啡",
+    "address": "Šibenik Old Town, 22000 Šibenik, Croatia",
+    "transport": "从最近的斯普利特机场（Split Airport）出发，驾车或乘坐机场巴士/出租车约1小时可抵达希贝尼克。从希贝尼克长途汽车站步行约15-20分钟即可进入老城核心区。",
+    "region": "克罗地亚",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "斯科普里老城",
+    "englishName": "Skopje Old Bazaar",
+    "country": "北马其顿",
+    "city": "斯科普里",
+    "slug": "skopje-old-bazaar",
+    "description": "一脚踏进斯科普里老城，时间仿佛瞬间倒流了好几百年。这里完全没有新城那边那些巨大、崭新的新古典主义雕像和建筑带来的那种“舞台感”，取而代之的是一种活生生的、带着烟火气的古老。狭窄的鹅卵石街道像迷宫一样蜿蜒，两旁是奥斯曼帝国时期留下的低矮店铺，卖铜器的、做传统鞋的、调香料的……空气里混合着咖啡香、烤肉味",
+    "address": "Čaršija, 1000 Skopje, North Macedonia",
+    "transport": "从斯科普里国际机场（SKP）出发，乘坐出租车约20-25分钟即可抵达老城边缘，车费约10-15欧元。从斯科普里中央火车站步行至老城约需15-20分钟。",
+    "region": "北马其顿",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "施塔德老城",
+    "englishName": "Stade Old Town",
+    "country": "德国",
+    "city": "施塔德",
+    "slug": "stade-old-town",
+    "description": "一脚踏进施塔德老城，时间仿佛瞬间慢了下来。这里没有大城市的喧嚣，只有彩色的桁架木屋歪歪扭扭地挤在鹅卵石小巷两旁，像极了从童话书里直接搬出来的场景。老城被施塔德水网温柔环绕，一座座小桥连接着街区，河边总停着几艘小船，安静得能听见水流声。我最爱在午后的阳光里，随便找家临河的咖啡馆坐下，看着尖顶的圣科斯马",
+    "address": "Altstadt, 21682 Stade, Germany",
+    "transport": "从汉堡机场出发，乘坐S-Bahn（S5线）至汉堡主火车站，换乘区域火车（RE或RB）前往施塔德火车站，全程约1小时。从施塔德火车站步行10分钟即可到达老城中心。",
+    "region": "德国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "斯塔万格老城",
+    "englishName": "Stavanger Old Town",
+    "country": "挪威",
+    "city": "斯塔万格",
+    "slug": "stavanger-old-town",
+    "description": "想象一下，你走进了一个被时光遗忘的角落，眼前是一排排被漆成纯白色的木头房子，屋顶是温暖的砖红色或青灰色，窄窄的鹅卵石小路在脚下蜿蜒。这就是斯塔万格老城，当地人叫它“Gamle Stavanger”。这里完全没有大城市的喧嚣，安静得能听见海鸥的叫声和海风穿过小巷的轻响。我特别喜欢在清晨或傍晚来这里散步",
+    "address": "Øvre Holmegate, 4006 Stavanger, Norway",
+    "transport": "从斯塔万格索拉机场（SVG）乘坐机场巴士（Flybussen）约30分钟可直达市中心，步行5-10分钟即可到达老城。从斯塔万格中央火车站步行约15分钟可达。",
+    "region": "挪威",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "施泰因老城",
+    "englishName": "Stein am Rhein Old Town",
+    "country": "瑞士",
+    "city": "施泰因",
+    "slug": "stein-am-rhein-old-town",
+    "description": "第一眼看到施泰因老城，你会以为自己不小心闯进了一本立体的童话故事书！它就安安静静地躺在莱茵河边，最绝的是那一栋栋紧挨着的半木结构老房子，每一栋的外墙上都画满了精美绝伦的湿壁画。这些壁画可不是简单的装饰，上面画着神话故事、家族徽章、还有各种有趣的寓言场景，色彩历经几百年依然鲜艳。走在石板铺成的主街上，",
+    "address": "Rathausplatz 1, 8260 Stein am Rhein, Switzerland",
+    "transport": "从苏黎世机场出发：乘坐火车至沙夫豪森（Schaffhausen），再换乘区域火车或巴士前往施泰因，全程约1小时15分钟。从沙夫豪森火车站出发，乘坐巴士约30分钟即可抵达老城中心。",
+    "region": "瑞士",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "施托尔贝格城堡",
+    "englishName": "Stolberg Castle",
+    "country": "德国",
+    "city": "施托尔贝格",
+    "slug": "stolberg-castle",
+    "description": "第一眼看到施托尔贝格城堡，你一定会忍不住“哇”出声来！它就那么安静又骄傲地矗立在哈茨山一座绿色山丘上，红瓦尖顶在阳光下闪闪发光，像极了从童话书里直接搬出来的场景。沿着蜿蜒的石板路爬上去，空气里都是森林和古老石头混合的清新味道。走进城堡庭院，时间仿佛慢了下来，你可以抚摸那些斑驳的城墙，想象几百年前的贵",
+    "address": "Schlossberg 1, 06547 Stolberg (Harz), Germany",
+    "transport": "从最近的莱比锡/哈雷机场出发，乘坐火车至“Berga-Kelbra”站，转乘公交至施托尔贝格镇中心，步行约15分钟上山即可抵达，全程约2-2.5小时。从柏林自驾约3小时。",
+    "region": "德国",
+    "type": "城堡",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "施托尔岑费尔斯城堡",
+    "englishName": "Stolzenfels Castle",
+    "country": "德国",
+    "city": "科布伦茨",
+    "slug": "stolzenfels-castle",
+    "description": "想象一下，你乘着莱茵河的游船，两岸是连绵的葡萄园和古老的小镇，然后，一座童话般的奶油色城堡突然出现在半山腰的绿树丛中，尖顶在阳光下闪闪发光——那就是施托尔岑费尔斯城堡给你的第一眼震撼。它不像那些威严冷峻的军事堡垒，反而像一位优雅的贵族，慵懒地倚在莱茵河畔，俯瞰着千年流淌的河水。走近了，你会发现它的细",
+    "address": "Stolzenfels Castle, 56075 Koblenz, Germany",
+    "transport": "从科布伦茨中央火车站（Koblenz Hbf）出发，可乘坐650路公交车至“Stolzenfels Schloss”站下车，车程约15分钟。或从科布伦茨市中心码头乘坐KD游船至“Stolzenfels”码头下船，步行上山约10-15分钟。",
+    "region": "德国",
+    "type": "城堡",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "塞克什白堡老城",
+    "englishName": "Székesfehérvár Old Town",
+    "country": "匈牙利",
+    "city": "塞克什白堡",
+    "slug": "szekesfehervar-old-town",
+    "description": "走进塞克什白堡老城，就像不小心闯进了一本褪了色的中世纪故事书。这里没有布达佩斯那种扑面而来的华丽喧嚣，反而有种安静的、被时光打磨过的温柔。鹅卵石铺成的小巷弯弯曲曲，两旁是刷成鹅黄、淡粉或薄荷绿的老房子，阳台上摆满了天竺葵。最震撼的是站在主广场（Városház tér）上，看着那座宏伟的巴洛克风格市",
+    "address": "Székesfehérvár, Városház tér 1, 8000 Hungary",
+    "transport": "从布达佩斯李斯特·费伦茨国际机场出发，驾车或乘坐出租车约1小时可达。从布达佩斯火车南站（Déli pályaudvar）乘坐火车，约1小时10分钟抵达塞克什白堡火车站，出站后步行15分钟即可进入老城核心区。",
+    "region": "匈牙利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "坦佩雷老城",
+    "englishName": "Tampere Old Town",
+    "country": "芬兰",
+    "city": "坦佩雷",
+    "slug": "tampere-old-town",
+    "description": "坦佩雷老城，当地人更爱叫它“芬利森区”，这可不是你想象中那种有城墙的中世纪古城。它更像一个活着的工业革命博物馆！走进这里，第一眼就会被那些巨大的红砖厂房震撼到，它们像沉默的巨人，矗立在急流奔腾的坦默科斯基河两岸。空气中仿佛还残留着19世纪纺织机的轰鸣声，但如今，这些厂房里飘出的是咖啡香、面包香和艺术",
+    "address": "Finlayson, 33100 Tampere, Finland",
+    "transport": "从坦佩雷-皮尔卡拉机场（TMP）乘坐61路巴士至市中心，换乘1路或3路有轨电车至“Finlayson”站下车，全程约40-50分钟。从坦佩雷中央火车站步行至此约20分钟。",
+    "region": "芬兰",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "塞维利亚黄金塔",
+    "englishName": "Torre del Oro",
+    "country": "西班牙",
+    "city": "塞维利亚",
+    "slug": "torre-del-oro",
+    "description": "嘿，你知道吗？我第一次见到黄金塔时，太阳正把它照得金灿灿的，真的就像名字一样，仿佛一座用金子砌成的塔楼立在瓜达尔基维尔河边。它没有大教堂那么宏伟，但那种沧桑又精致的美特别抓人。走近了看，塔身是十二边形的，很特别，据说以前外墙上真的贴过金砖，用来反射阳光作为航标。现在里面是个小小的航海博物馆，爬上去的",
+    "address": "Paseo de Cristóbal Colón, s/n, 41001 Sevilla, Spain",
+    "transport": "从塞维利亚圣胡斯塔火车站出发，步行约20分钟即可到达。或乘坐公交车C5、C4、41路至“Torre del Oro”站下车，车站就在塔楼对面。",
+    "region": "西班牙",
+    "type": "历史塔楼/博物馆",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "特雷比涅老城",
+    "englishName": "Trebinje Old Town",
+    "country": "波黑",
+    "city": "特雷比涅",
+    "slug": "trebinje-old-town",
+    "description": "特雷比涅老城就像一个被时间温柔封存的琥珀，静静地躺在特雷比萨尼察河的两岸。我第一次走进这里时，感觉瞬间从现代欧洲穿越到了奥斯曼帝国时代。鹅卵石铺成的小巷窄得只容两人并肩，两旁是石砌的老房子，阳台上垂挂着鲜艳的天竺葵。最迷人的是那些横跨在翠绿河水上的老石桥，尤其是那座著名的“Arslanagića桥”",
+    "address": "Stari Grad, Trebinje, Bosnia and Herzegovina",
+    "transport": "从杜布罗夫尼克机场（克罗地亚）出发，驾车约1小时15分钟即可抵达。从莫斯塔尔乘巴士前往，车程约2.5小时。",
+    "region": "波黑",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "乌韦达古城",
+    "englishName": "Úbeda",
+    "country": "西班牙",
+    "city": "乌韦达",
+    "slug": "ubeda",
+    "description": "走进乌韦达，就像一头撞进了一座用蜂蜜色石头雕琢的露天博物馆。第一眼看到瓦斯克斯·德·莫利纳广场，那种震撼是直击心灵的——四周环绕着宏伟的文艺复兴式宫殿和教堂，在安达卢西亚炽热的阳光下，整个广场的石材泛着温暖的金色光泽，庄严又宁静。这里没有大城市的喧嚣，只有石板路上清脆的脚步声和广场上偶尔飞过的鸽群。",
+    "address": "Plaza Vázquez de Molina, s/n, 23400 Úbeda, Jaén, Spain",
+    "transport": "从最近的哈恩火车站（Estación de Jaén）出发，可乘坐ALSA巴士前往乌韦达，车程约1小时。从马德里或塞维利亚自驾前往约需3-4小时。",
+    "region": "西班牙",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "韦纳夫罗古城",
+    "englishName": "Venaferro Old Town",
+    "country": "意大利",
+    "city": "韦纳夫罗",
+    "slug": "venaferro-old-town",
+    "description": "第一眼看到韦纳夫罗古城，你一定会被它那种“凝固在时间里”的气质击中。它就像一座从童话里搬出来的石头山城，密密麻麻的赭石色房屋沿着陡峭的山坡堆叠而上，最后被一圈古老的城墙温柔地环抱。走进那扇厚重的石头城门，瞬间就切换了频道：脚下是凹凸不平的鹅卵石小路，窄得只容两人侧身而过；两旁是挂着铁艺招牌的古老作坊",
+    "address": "Centro Storico, 58010 Venaferro GR, Italy",
+    "transport": "从最近的格罗塞托火车站（Grosseto Railway Station）乘坐地区巴士（Tiemme公司线路）前往韦纳夫罗镇，车程约1小时。到达镇中心后，古城位于山顶，需步行约15分钟上山。",
+    "region": "意大利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "维斯普雷姆老城",
+    "englishName": "Veszprém Old Town",
+    "country": "匈牙利",
+    "city": "维斯普雷姆",
+    "slug": "veszprem-old-town",
+    "description": "维斯普雷姆老城给我的第一感觉，就像走进了一本立体的童话书。它建在一座狭长的山脊上，当地人亲切地叫它“城堡山”。漫步在蜿蜒起伏的鹅卵石街道上，两旁是糖果色的巴洛克和古典主义风格小房子，粉的、黄的、绿的，可爱极了。这里被称为“皇后之城”，因为历史上匈牙利的皇后都在这里加冕，空气中仿佛都飘着一丝尊贵又浪漫",
+    "address": "Veszprém, Vár utca， 8200 匈牙利",
+    "transport": "从布达佩斯李斯特·费伦茨国际机场出发，驾车沿M7高速公路转8号公路，约1.5小时可达。或从布达佩斯火车西站乘坐火车，约1小时40分钟抵达维斯普雷姆火车站，出站后步行上山约20分钟即到老城。",
+    "region": "匈牙利",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "沃蒂夫教堂",
+    "englishName": "Votive Church",
+    "country": "奥地利",
+    "city": "维也纳",
+    "slug": "votive-church",
+    "description": "第一次站在罗斯福广场上，抬头望向沃蒂夫教堂那两座高耸入云的尖塔时，我整个人都被震撼到了。阳光洒在浅色的砂岩外墙上，整座教堂像一块巨大的、精心雕琢的象牙，在蓝天下闪闪发光。走进里面，和外面那种凌厉的哥特感不同，内部空间异常高挑、明亮，彩绘玻璃窗透进来的光把整个大厅染成了柔和的彩色。最让我着迷的是那些细",
+    "address": "Rooseveltplatz, 1090 Wien, Austria",
+    "transport": "从维也纳国际机场（VIE）乘坐机场快线（CAT）或S-Bahn（S7线）至Wien Mitte站，换乘地铁U2线至Schottentor站，出站步行约3分钟即达。全程约40-50分钟。",
+    "region": "奥地利",
+    "type": "教堂",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "魏玛老城",
+    "englishName": "Weimar Old Town",
+    "country": "德国",
+    "city": "魏玛",
+    "slug": "weimar-old-town",
+    "description": "走进魏玛老城，就像轻轻翻开了一本厚重的欧洲文化史书。这里没有大都市的喧嚣，石板路两旁是色彩柔和、保存完好的巴洛克和古典主义建筑，空气里仿佛都飘着书香和乐符。最让我着迷的是那种“转角遇见大师”的感觉——歌德故居那栋朴素的黄色小楼、席勒故居的宁静庭院，还有那座他们曾并肩讨论哲学与诗歌的“大象酒店”咖啡馆",
+    "address": "Markt 1, 99423 Weimar, Germany",
+    "transport": "从最近的莱比锡/哈勒机场出发，乘坐火车约1小时15分钟到达魏玛火车站，再步行15-20分钟即可进入老城核心区。从柏林乘火车约2.5小时。",
+    "region": "德国",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "克桑西古城",
+    "englishName": "Xanthi Old Town",
+    "country": "希腊",
+    "city": "克桑西",
+    "slug": "xanthi-old-town",
+    "description": "走进克桑西古城，就像不小心闯进了一本褪色的奥斯曼帝国故事书。第一眼就被那些五彩斑斓的老房子迷住了——鹅卵石铺成的小巷像迷宫一样蜿蜒，两边是粉的、黄的、蓝的奥斯曼风格豪宅，好多都有着精致的木制阳台，当地人叫它们“sachnisi”，感觉随时会有穿着传统服饰的老人探出头来跟你打招呼。空气里混合着咖啡香和",
+    "address": "Old Town, Xanthi, 671 00, Greece",
+    "transport": "从最近的卡瓦拉国际机场（KVA）出发，驾车沿E90公路向西行驶约60公里，约50分钟可达。从克桑西市中心火车站或汽车站步行至古城约15-20分钟。",
+    "region": "希腊",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "扎达尔老城",
+    "englishName": "Zadar Old Town",
+    "country": "克罗地亚",
+    "city": "扎达尔",
+    "slug": "zadar-old-town",
+    "description": "嘿，如果你问我扎达尔最迷人的地方在哪，我会毫不犹豫地带你去老城。它就像一个伸进亚得里亚海的半岛，三面环海，被古老的城墙温柔地包裹着。走进去的第一感觉，就是时光在这里慢了下来。脚下是光滑发亮的白色石灰岩板路，被千年的脚步磨得温润。小巷窄得只能容两三人并肩，阳光从两侧蜜糖色石墙的缝隙里斜斜地切下来，空气",
+    "address": "Zadar Old Town, 23000 Zadar, Croatia",
+    "transport": "从扎达尔机场（ZAD）乘坐机场巴士约20分钟可抵达老城边缘。从扎达尔长途汽车站步行约15分钟即可进入老城。",
+    "region": "克罗地亚",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
+  },
+  {
+    "name": "聚特芬古城",
+    "englishName": "Zutphen Old Town",
+    "country": "荷兰",
+    "city": "聚特芬",
+    "slug": "zutphen-old-town",
+    "description": "走进聚特芬古城，就像不小心翻开了荷兰历史书中保存最完好的一页。这里没有阿姆斯特丹的喧嚣，时间仿佛被古老的城墙和鹅卵石街道按下了慢放键。我的第一印象是“宁静的富有”——作为曾经的汉萨同盟重要成员，那些山形墙的商人豪宅、高耸的教堂塔楼，无不诉说着它昔日的繁荣，但如今一切都沉淀为一种优雅从容的气质。我最爱",
+    "address": "Zutphen City Center, 7201 DN Zutphen, Netherlands",
+    "transport": "从阿姆斯特丹史基浦机场出发，乘坐火车至聚特芬站（Zutphen Station），车程约1小时15分钟。从火车站步行至古城中心仅需5-10分钟。",
+    "region": "荷兰",
+    "type": "古城",
+    "category": [
+      "encyclopedia"
+    ]
   }
 ]

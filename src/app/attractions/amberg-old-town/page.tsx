@@ -1,0 +1,111 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '安贝格老城 Amberg Old Town｜漫步于保存完好的中世纪“蛋城” - 最佳欧洲景点',
+  description: '走进安贝格老城，就像一头扎进了一本立体的中世纪故事书。第一眼就会被那圈近乎完整的古城墙震撼到，它像个温柔的巨人，把红瓦屋顶、蜿蜒小巷和古老的广场紧紧搂在怀里。老城的绰号叫“蛋城”，因为它的城墙轮廓像个鸡蛋，特别可爱。我最爱在鹅卵石铺就的市集广场闲逛，周围是色彩柔和的巴洛克式山墙房屋，市政厅的钟楼静静...',
+}
+
+export default function AmbergOldTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '安贝格老城', href: '/attractions/amberg-old-town' },
+          ]}
+        />
+
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">安贝格老城</h1>
+          <p className="text-xl text-gray-600 mb-4">Amberg Old Town</p>
+          <div className="flex flex-wrap gap-2 mb-6">
+            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">德国</span>
+            <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">安贝格</span>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="md:col-span-2 space-y-8">
+            <Section title="景点简介">
+              <p className="text-gray-700 leading-relaxed mb-4">走进安贝格老城，就像一头扎进了一本立体的中世纪故事书。第一眼就会被那圈近乎完整的古城墙震撼到，它像个温柔的巨人，把红瓦屋顶、蜿蜒小巷和古老的广场紧紧搂在怀里。老城的绰号叫“蛋城”，因为它的城墙轮廓像个鸡蛋，特别可爱。我最爱在鹅卵石铺就的市集广场闲逛，周围是色彩柔和的巴洛克式山墙房屋，市政厅的钟楼静静矗立。空气里混合着面包房刚出炉的碱水结香味和咖啡香，节奏慢得让人不自觉就放松下来。穿过古老的城门，沿着弗尔河散步，看河水倒映着中世纪的桥和房子，那份宁静和历史感，是你在匆忙的大城市里绝对找不到的。</p>
+            </Section>
+            
+            <Section title="基本信息">
+              <p className="text-gray-700 leading-relaxed mb-4">老城本身作为开放区域无时间限制。但需注意，城内主要景点如城市博物馆（Stadtmuseum）、圣马丁教堂（St. Martin）的塔楼参观、以及导游步行游览等都有特定开放时间，冬季（11月-3月）部分景点可能缩短开放时间或周一闭馆。学生、儿童、团体通常享有门票折扣，建议在景点售票处查询最新优惠。老城部分街道为步行区，自驾游客可将车停在城墙外的停车场。</p>
+            </Section>
+
+            <Section title="历史背景">
+              <p className="text-gray-700 leading-relaxed mb-4">安贝格的故事早在中世纪早期就开始了，但真正让它繁荣起来的是“白色的黄金”——盐。大约从10世纪起，它就成了重要的盐业贸易中心，财富滚滚而来。到了14世纪，有钱了就得保护好家当，于是市民们修建了那道著名的、近乎圆形的城墙，这就是“蛋城”昵称的由来，这城墙保护了安贝格几百年，奇迹般地躲过了二战的大规模破坏，至今保存度高达90%以上，这在德国都非常罕见。16世纪宗教改革时期，安贝格还成了重要的帝国议会所在地，小小城市登上了历史大舞台。漫步时，你能看到哥特式的圣马丁教堂，它那高耸的塔楼是城市的制高点；也能看到华丽的文艺复兴和巴洛克式市民住宅，它们见证了17、18世纪城市经济的再次繁荣。触摸着那些被岁月打磨光滑的城墙石头，你能真切感受到，这不是一个博物馆式的景点，而是一个一直“活着”的历史中心，每一块砖瓦都在低声讲述着盐商、工匠和普通市民的生活故事。</p>
+            </Section>
+
+            <Section title="游览路线">
+              <p className="text-gray-700 leading-relaxed mb-4">推荐从地标性的市集广场（Marktplatz）开始，顺时针探索老城内部，最后沿一段城墙或弗尔河岸漫步。全程步行，悠闲游览大约需要3-4小时，可涵盖主要广场、教堂、城门和河景。</p>
+              <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 leading-relaxed mb-2">1.  从市集广场出发，欣赏文艺复兴风格的市政厅和周围色彩缤纷的建筑。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">2.  参观宏伟的哥特式圣马丁教堂，可登塔俯瞰全城（如开放）。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">3.  漫步至老城东侧的“城市宫殿”（Stadtresidenz），感受文艺复兴气息。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">4.  穿过古老的“城门”（Stadttor），如弗尔塔（Vilstor），体验穿越感。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">5.  沿着宁静的弗尔河岸散步，欣赏水中老城倒影。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">6.  探索小巷中的“法庭教堂”（Basilika St. Georg），内部装饰华丽。</li>
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">老城不大，无需地图也能随意探索，迷路也是乐趣。建议穿舒适的平底鞋，因为鹅卵石路面不平。</p>
+            </Section>
+
+            <Section title="拍照机位">
+              <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 leading-relaxed mb-2">1.  **弗尔河畔望向老城墙**：清晨或黄昏，阳光柔和时，从河对岸拍摄城墙、房屋在水中的倒影，画面宁静富有诗意。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">2.  **市集广场市政厅前**：上午光线较好，仰拍市政厅钟楼与周围彩色山墙房屋的合影，充满中欧小镇风情。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">3.  **从圣马丁教堂塔楼俯瞰**：若塔楼开放，登顶后可拍摄360度全景，红瓦屋顶如波浪般铺开，城墙轮廓清晰可见。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">4.  **狭窄的“盐巷”（Salzgasse）**：午后阳光斜射入小巷时，捕捉光影在古老墙壁和石板路上的变化，故事感强。</li>
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">尊重当地居民隐私，避免透过窗户拍摄私人住宅内部。使用无人机前需了解当地法规。</p>
+            </Section>
+
+            <Section title="住宿小贴士">
+              <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 leading-relaxed mb-2">1.  **老城内历史酒店**：入住由古老建筑改造的酒店，沉浸式体验中世纪氛围，价格中上。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">2.  **弗尔河畔精品旅馆**：选择河边住宿，开窗见景，安静惬意，价格中等。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">3.  **火车站附近现代酒店**：性价比高，交通便利，步行至老城约10-15分钟。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">4.  **市集广场周边公寓**：适合家庭或多人出行，自己做饭方便，感受本地生活。</li>
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">旅游旺季（夏季和圣诞市场期间）建议提前预订。老城内的住宿更能体验清晨和夜晚无游客时的静谧。</p>
+            </Section>
+
+            <Section title="总结感悟">
+              <p className="text-gray-700 leading-relaxed mb-4">安贝格老城就像一个被时间特意保存下来的珍宝盒。它没有过度旅游化的喧嚣，有的只是实实在在的生活气息和历史沉淀。在这里，你可以放下地图，任由双脚带你在迷宫般的小巷和广场间发现惊喜。当你的手触摸到冰凉而坚实的古城墙时，会感到一种与数百年前工匠的连接。这是一座能让你心静下来，慢慢走、细细看，真正读懂什么是“中世纪明珠”的可爱小城。</p>
+            </Section>
+
+            <div className="bg-gray-50 p-6 rounded-lg mt-8">
+              <p className="text-sm text-gray-600 text-center">
+                本文由旅行作者 Winter Grady 实地走访整理，专注欧洲小众景点深度攻略，持续分享真实游览体验。
+              </p>
+              <p className="text-xs text-gray-500 text-center mt-2">
+                本站内容仅供旅行参考使用，商务合作与转载事宜请通过联系页脚提交申请。
+              </p>
+              <p className="text-xs text-gray-500 text-center">
+                管理团队保留所有内容版权，未经许可禁止搬运、摘抄或商用。
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">实用信息</h3>
+              <div className="space-y-4">
+                <InfoRow icon="🕒" label="开放时间" value="公共区域全天开放。城内各博物馆、教堂等具体景点开放时间各异，通常为周二至周日 10:00-17:00。" />
+                <InfoRow icon="🎫" label="门票" value="进入老城区域免费。参观城内各独立景点（如城市博物馆、圣马丁教堂塔楼等）需单独购票，票价约3-8欧元不等。" />
+                <InfoRow icon="📍" label="地址" value="Marktplatz, 92224 Amberg, Germany" />
+                <InfoRow icon="🚌" label="交通" value="从纽伦堡机场出发，乘坐S-Bahn（S1线）至纽伦堡主火车站，换乘区域火车（RE或RB）前往安贝格火车站，全程约1.5小时。从安贝格火车站步行至老城中心仅需10分钟。" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

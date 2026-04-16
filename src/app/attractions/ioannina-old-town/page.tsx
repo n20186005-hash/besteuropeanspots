@@ -1,0 +1,111 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '约阿尼纳老城 Ioannina Old Town｜漫步在帕姆沃蒂斯湖畔的奥斯曼风情古城 - 最佳欧洲景点',
+  description: '想象一下，你站在帕姆沃蒂斯湖边，对岸就是一片依山而建、白墙红瓦的老城，湖面倒映着城堡的轮廓，几只天鹅缓缓游过——这就是约阿尼纳老城给你的第一眼震撼。这里不像雅典卫城那样充满古典希腊的肃穆，而是一种奇妙的混合体：狭窄的鹅卵石小巷、带有精美木雕阳台的奥斯曼时期老宅、东正教教堂的钟声与远处清真寺唤礼塔的剪...',
+}
+
+export default function IoanninaOldTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '约阿尼纳老城', href: '/attractions/ioannina-old-town' },
+          ]}
+        />
+
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">约阿尼纳老城</h1>
+          <p className="text-xl text-gray-600 mb-4">Ioannina Old Town</p>
+          <div className="flex flex-wrap gap-2 mb-6">
+            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">希腊</span>
+            <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">约阿尼纳</span>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="md:col-span-2 space-y-8">
+            <Section title="景点简介">
+              <p className="text-gray-700 leading-relaxed mb-4">想象一下，你站在帕姆沃蒂斯湖边，对岸就是一片依山而建、白墙红瓦的老城，湖面倒映着城堡的轮廓，几只天鹅缓缓游过——这就是约阿尼纳老城给你的第一眼震撼。这里不像雅典卫城那样充满古典希腊的肃穆，而是一种奇妙的混合体：狭窄的鹅卵石小巷、带有精美木雕阳台的奥斯曼时期老宅、东正教教堂的钟声与远处清真寺唤礼塔的剪影交织在一起。空气中飘着现煮希腊咖啡和烤肉的香气，巷子里的银器作坊传来叮叮当当的敲打声，老师傅们还在用几个世纪传下来的手艺制作著名的约阿尼纳银饰。走在其中，你会感觉自己穿越到了一个时间流速不同的地方，历史在这里不是教科书，而是触手可及的墙壁、声音和味道。</p>
+            </Section>
+            
+            <Section title="基本信息">
+              <p className="text-gray-700 leading-relaxed mb-4">老城区域本身是开放的居住区，可随时漫步。但核心历史遗址如Its Kale城堡（内设阿里帕夏博物馆、拜占庭博物馆等）的开放时间多为上午至下午三点，周一通常闭馆。冬季（11月至3月）部分景点开放时间可能缩短。学生、65岁以上老人及欧盟青年卡持有者通常享有门票折扣，建议携带有效证件。老城街道多为坡道和台阶，建议穿着舒适的步行鞋。</p>
+            </Section>
+
+            <Section title="历史背景">
+              <p className="text-gray-700 leading-relaxed mb-4">约阿尼纳老城的故事，是一部浓缩的巴尔干史诗。它的繁荣始于拜占庭时期，但真正留下深刻烙印的是奥斯曼土耳其帝国长达近五个世纪的统治。当你走在“城堡”（Kastro）区域内，那厚重的城墙和坚固的堡垒，大部分都是奥斯曼时代的产物。老城最传奇的人物莫过于阿里帕夏，这位18世纪末19世纪初的实际统治者，被称为“约阿尼纳的雄狮”。他半独立于奥斯曼苏丹，将这里变成了一个繁荣的文化与商业中心，他的宫廷甚至吸引了英国诗人拜伦来访。阿里帕夏的故事充满权谋与浪漫，最终他在湖心岛上的修道院被苏丹的刺客追杀身亡，为老城增添了一抹悲剧色彩。19世纪后期，随着希腊独立战争，这里回归希腊。但奥斯曼的建筑、穆斯林社区（尽管大部分在人口交换后迁离）的痕迹与东正教传统深深融合，形成了今天你看到的独特文化拼图。站在城堡高处，俯瞰湖泊与城市，你能感受到层层历史就像老房子的墙皮，剥开一层，底下还有更古老的故事。</p>
+            </Section>
+
+            <Section title="游览路线">
+              <p className="text-gray-700 leading-relaxed mb-4">推荐从临湖的Mavili广场附近进入老城，先沿湖漫步感受全景，然后上行深入城堡区和迷宫般的老街巷，最后参观核心博物馆。全程步行游览约需3-4小时，轻松探索则可能需要大半天。</p>
+              <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 leading-relaxed mb-2">1.  从湖滨步道开始，欣赏帕姆沃蒂斯湖和老城全景。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">2.  通过主城门进入“城堡”区域，感受厚重的防御工事。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">3.  漫步阿斯兰帕夏清真寺广场，参观周边的历史建筑。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">4.  钻入老城狭窄的市集小巷，寻找银器作坊和传统咖啡馆。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">5.  参观Its Kale城堡内的阿里帕夏博物馆和拜占庭博物馆。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">6.  从城堡高处俯瞰，结束游览。</li>
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">老城小巷如迷宫，但迷失其中正是乐趣所在，主要路标指向城堡和湖泊即可。一定要穿非常舒适的平底鞋。</p>
+            </Section>
+
+            <Section title="拍照机位">
+              <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 leading-relaxed mb-2">1.  **帕姆沃蒂斯湖对岸**：最佳拍摄时间为清晨或日落时分，湖面平静，可拍摄老城城堡群与水中倒影的全景，氛围感十足。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">2.  **阿斯兰帕夏清真寺前广场**：上午阳光能较好照亮清真寺立面，以清真寺唤礼塔和老建筑为背景，拍摄建筑细节和广场生活场景。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">3.  **Its Kale城堡城墙之上**：全天皆可，但傍晚光线最佳。从制高点向下拍摄，可捕捉红瓦屋顶层层叠叠、小巷蜿蜒直至湖边的经典构图。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">4.  **老城银器街巷**：利用狭窄巷道的纵深感，拍摄匠人工作的场景或挂着传统招牌的店铺门面，充满生活气息。</li>
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">拍摄当地居民或工匠前，最好先微笑示意并获得同意，以示尊重。</p>
+            </Section>
+
+            <Section title="住宿小贴士">
+              <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 leading-relaxed mb-2">1.  **老城内精品酒店/传统旅馆**：沉浸式体验奥斯曼老宅风情，但可能需提行李走台阶。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">2.  **帕姆沃蒂斯湖畔现代酒店**：视野开阔，设施较新，步行至老城约5-10分钟。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">3.  **新城区的商务型酒店**：性价比高，选择多，乘坐公交或打车前往老城方便。</li>
+              <li className="text-gray-700 leading-relaxed mb-2">4.  **特色民宿**：分散在老城边缘或安静街区，能更深入了解当地人的生活。</li>
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">若选择老城内住宿，请确认酒店是否提供行李搬运协助，因为车辆通常无法直达门口。</p>
+            </Section>
+
+            <Section title="总结感悟">
+              <p className="text-gray-700 leading-relaxed mb-4">约阿尼纳老城的美，在于它的复杂与和谐。它没有试图抹去任何一段历史，而是让拜占庭的根基、奥斯曼的躯干和现代希腊的灵魂共生于此。这里不只是一个旅游景点，更是一个仍然呼吸着的社区。离开时，你带走的可能不是某张明信片般的标准照片，而是午后小巷里咖啡的香气、银器敲打的节奏，以及那种在历史夹缝中悠然自得的南欧慢生活气息。如果你厌倦了只有古迹的废墟，渴望一个活着的、有烟火气的历史小镇，这里绝对会给你惊喜。</p>
+            </Section>
+
+            <div className="bg-gray-50 p-6 rounded-lg mt-8">
+              <p className="text-sm text-gray-600 text-center">
+                本文由旅行作者 Winter Grady 实地走访整理，专注欧洲小众景点深度攻略，持续分享真实游览体验。
+              </p>
+              <p className="text-xs text-gray-500 text-center mt-2">
+                本站内容仅供旅行参考使用，商务合作与转载事宜请通过联系页脚提交申请。
+              </p>
+              <p className="text-xs text-gray-500 text-center">
+                管理团队保留所有内容版权，未经许可禁止搬运、摘抄或商用。
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">实用信息</h3>
+              <div className="space-y-4">
+                <InfoRow icon="🕒" label="开放时间" value="老城区域全天开放，内部各博物馆、城堡等景点开放时间各异，通常为周二至周日 8:30-15:00。" />
+                <InfoRow icon="🎫" label="门票" value="进入老城区域免费。参观内部城堡（Its Kale）、阿里帕夏博物馆等单独景点需购票，票价约2-6欧元。" />
+                <InfoRow icon="📍" label="地址" value="Ioannina Old Town, Ioannina 452 21, Greece" />
+                <InfoRow icon="🚌" label="交通" value="从约阿尼纳国家机场（IOA）出发，乘坐出租车约20分钟即可抵达老城。从雅典乘火车或长途巴士至约阿尼纳市巴士总站，再换乘市内公交或步行约15-20分钟可达老城边缘。" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
