@@ -16,6 +16,7 @@ export interface Attraction {
   tips: string;
   region: string;
   type: string;
+  category?: string[];
 }
 
 export const attractions: Attraction[] = attractionsData as Attraction[];

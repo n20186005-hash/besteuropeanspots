@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>景点页面生成器</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .panel {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    textarea {
+      width: 100%;
+      height: 600px;
+      font-family: monospace;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      box-sizing: border-box;
+    }
+    button {
+      background: #0066cc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #0052a3;
+    }
+    .instructions {
+      background: #e6f3ff;
+      padding: 15px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>景点页面生成器</h1>
+  
+  <div class="instructions">
+    <h3>使用说明：</h3>
+    <p>1. 在左侧文本框中按照 JSON 格式填入对应的景点信息</p>
+    <p>2. 点击"生成 HTML"按钮</p>
+    <p>3. 右侧将自动生成完整的 HTML 代码，点击"复制 HTML"即可</p>
+  </div>
+
+  <div class="container">
+    <div class="panel">
+      <h2>输入数据 (JSON 格式)</h2>
+      <textarea id="inputJson">{
+  "景点中文名": "",
+  "景点英文名": "",
+  "正式名称": "",
+  "国家": "",
+  "城市": "",
+  "历史地位": "",
+  "建筑特色": "",
+  "建筑风格": "",
+  "文化价值": "",
+  "开放时间": "",
+  "门票价格": "",
+  "地址": "",
+  "交通方式": "",
+  "核心简介第一段": "",
+  "核心简介第二段": "",
+  "历史背景第一段": "",
+  "历史背景第二段": "",
+  "历史背景第三段": "",
+  "历史背景第四段": "",
+  "路线总述": "",
+  "路线步骤": [
+    "",
+    ""
+  ],
+  "路线补充说明": "",
+  "拍照机位": [
+    "",
+    ""
+  ],
+  "拍照补充说明": "",
+  "住宿建议": [
+    "",
+    ""
+  ],
+  "住宿补充说明": "",
+  "总结感悟第一段": "",
+  "总结感悟第二段": ""
+}</textarea>
+      <button onclick="generateHTML()">生成 HTML</button>
+    </div>
+
+    <div class="panel">
+      <h2>生成的 HTML 代码</h2>
+      <textarea id="outputHtml" readonly></textarea>
+      <button onclick="copyHTML()">复制 HTML</button>
+    </div>
+  </div>
+
+  <script>
+    const template = `
+<article>
+  <header>
+    <h1>{景点中文名}</h1>
+    <p>{景点英文名}</p>
+    <p>{正式名称}</p>
+    <p>{国家}</p>
+    <p>{城市}</p>
+  </header>
+
+  <section>
+    <h2>景点介绍</h2>
+    <p>{核心简介第一段}</p>
+    <p>{核心简介第二段}</p>
+  </section>
+
+  <section>
+    <h2>基本信息</h2>
+    <ul>
+      <li>中文名称：{景点中文名}</li>
+      <li>英文名称：{景点英文名}</li>
+      <li>正式名称：{正式名称}</li>
+      <li>国家：{国家}</li>
+      <li>城市：{城市}</li>
+      <li>历史地位：{历史地位}</li>
+      <li>建筑特色：{建筑特色}</li>
+      <li>建筑风格：{建筑风格}</li>
+      <li>文化价值：{文化价值}</li>
+      <li>开放时间：{开放时间}</li>
+      <li>门票价格：{门票价格}</li>
+      <li>地址：{地址}</li>
+      <li>交通方式：{交通方式}</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>历史背景</h2>
+    <p>{历史背景第一段}</p>
+    <p>{历史背景第二段}</p>
+    <p>{历史背景第三段}</p>
+    <p>{历史背景第四段}</p>
+  </section>
+
+  <section>
+    <h2>游览路线</h2>
+    <p>{路线总述}</p>
+    <ul>
+      {路线步骤HTML}
+    </ul>
+    <p>{路线补充说明}</p>
+  </section>
+
+  <section>
+    <h2>拍照机位</h2>
+    <ul>
+      {拍照机位HTML}
+    </ul>
+    <p>{拍照补充说明}</p>
+  </section>
+
+  <section>
+    <h2>住宿小贴士</h2>
+    <ul>
+      {住宿建议HTML}
+    </ul>
+    <p>{住宿补充说明}</p>
+  </section>
+
+  <section>
+    <h2>总结感悟</h2>
+    <p>{总结感悟第一段}</p>
+    <p>{总结感悟第二段}</p>
+  </section>
+</article>`;
+
+    function generateHTML() {
+      try {
+        const data = JSON.parse(document.getElementById('inputJson').value);
+        let result = template;
+
+        // 替换基本文本字段
+        for (const key in data) {
+          if (!Array.isArray(data[key])) {
+            // 处理可能为空的段落标签
+            if (!data[key] && key.includes('段')) {
+              result = result.replace(new RegExp(`<p>{${key}}</p>\\n\\s*`, 'g'), '');
+            } else {
+              result = result.replace(new RegExp(`{${key}}`, 'g'), data[key]);
+            }
+          }
+        }
+
+        // 替换数组列表字段
+        const listMappings = {
+          '路线步骤': '路线步骤HTML',
+          '拍照机位': '拍照机位HTML',
+          '住宿建议': '住宿建议HTML'
+        };
+
+        for (const [dataKey, htmlKey] of Object.entries(listMappings)) {
+          const listItems = data[dataKey] || [];
+          const listHtml = listItems
+            .filter(item => item.trim() !== '')
+            .map(item => `<li>${item}</li>`)
+            .join('\n      ');
+          
+          if (listHtml) {
+            result = result.replace(`{${htmlKey}}`, listHtml);
+          } else {
+            // 如果列表为空，移除整个 ul 标签
+            result = result.replace(new RegExp(`<ul>\\s*{${htmlKey}}\\s*</ul>\\n\\s*`, 'g'), '');
+          }
+        }
+
+        document.getElementById('outputHtml').value = result.trim();
+      } catch (e) {
+        alert('JSON 格式错误，请检查输入！\n错误信息：' + e.message);
+      }
+    }
+
+    function copyHTML() {
+      const outputTextarea = document.getElementById('outputHtml');
+      outputTextarea.select();
+      document.execCommand('copy');
+      alert('HTML 代码已复制到剪贴板！');
+    }
+  </script>
+</body>
+</html>

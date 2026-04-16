@@ -1,6 +1,17 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 
 export function Header() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const navLinks = [
+    { label: "景点百科", href: "/category/encyclopedia" },
+    { label: "景点游记", href: "/category/travelogue" },
+    { label: "历史人文", href: "/category/history" },
+  ];
+
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,34 +27,62 @@ export function Header() {
               </span>
             </div>
           </Link>
-          <nav className="hidden md:flex items-center gap-8 text-sm">
-            <Link
-              href="/#destinations"
-              className="text-muted hover:text-primary transition-colors"
-            >
-              Destinations
-            </Link>
-            <Link
-              href="/#regions"
-              className="text-muted hover:text-primary transition-colors"
-            >
-              Regions
-            </Link>
-            <Link
-              href="/#about"
-              className="text-muted hover:text-primary transition-colors"
-            >
-              About
-            </Link>
+          
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
+            {navLinks.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className="text-gray-600 hover:text-primary transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
           </nav>
-          <Link
-            href="/#destinations"
-            className="md:hidden text-sm text-primary font-medium"
+
+          {/* Mobile Hamburger Button */}
+          <button
+            className="md:hidden p-2 text-gray-600 hover:text-primary focus:outline-none"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle menu"
           >
-            Explore
-          </Link>
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              {isMobileMenuOpen ? (
+                <path d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
         </div>
       </div>
+
+      {/* Mobile Navigation Menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden bg-white border-b border-border shadow-lg">
+          <nav className="flex flex-col px-4 pt-2 pb-4 space-y-3">
+            {navLinks.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className="block text-gray-600 hover:text-primary hover:bg-gray-50 px-3 py-2 rounded-md font-medium transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+        </div>
+      )}
     </header>
   );
 }
