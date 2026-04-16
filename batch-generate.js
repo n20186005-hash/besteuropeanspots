@@ -67,11 +67,19 @@ function parseText(text) {
   return data;
 }
 
+function escapeJSX(str) {
+  if (!str) return '';
+  // 对于 JSX 中的大段纯文本，不需要转义单引号，但如果在大括号 {} 或属性中需要小心
+  // 这里主要解决大括号和转义符的问题，防止 JSX 解析崩溃
+  return str.replace(/\{/g, '&#123;').replace(/\}/g, '&#125;');
+}
+
 function formatParagraphs(text) {
   if (!text) return '';
   return text.split('\n')
     .filter(p => p.trim())
-    .map(p => `              <p className="text-gray-700 leading-relaxed mb-4">${p}</p>`)
+    // 使用花括号括起字符串字面量解决 JSX 中单引号报错
+    .map(p => `              <p className="text-gray-700 leading-relaxed mb-4">{\`${escapeJSX(p).replace(/`/g, '\\`')}\`}</p>`)
     .join('\n');
 }
 
@@ -79,7 +87,7 @@ function formatList(text, isTips = false) {
   if (!text) return '';
   return text.split('\n')
     .filter(p => p.trim())
-    .map(p => isTips ? `                <li>• ${p}</li>` : `              <li className="text-gray-700 leading-relaxed mb-2">${p}</li>`)
+    .map(p => isTips ? `                <li>• {\`${escapeJSX(p).replace(/`/g, '\\`')}\`}</li>` : `              <li className="text-gray-700 leading-relaxed mb-2">{\`${escapeJSX(p).replace(/`/g, '\\`')}\`}</li>`)
     .join('\n');
 }
 
@@ -89,7 +97,7 @@ function formatListToCards(text) {
     .filter(p => p.trim())
     .map((p, index) => `                <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 ${index + 1} 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">${p}</p>
+                  <p className="text-sm text-gray-700 mb-2">{\`${escapeJSX(p).replace(/`/g, '\\`')}\`}</p>
                 </div>`)
     .join('\n');
 }
@@ -102,9 +110,12 @@ function formatListToPhotoCards(text) {
     if (index % 2 === 0) {
       output += `              <div className="space-y-4">\n`;
     }
+    const parts = line.split('：');
+    const title = parts[0] || '机位推荐';
+    const desc = parts[1] || line;
     output += `                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">${index + 1}. ${line.split('：')[0] || '机位推荐'}</h4>
-                  <p className="text-sm text-gray-700">${line.split('：')[1] || line}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">${index + 1}. {\`${escapeJSX(title).replace(/`/g, '\\`')}\`}</h4>
+                  <p className="text-sm text-gray-700">{\`${escapeJSX(desc).replace(/`/g, '\\`')}\`}</p>
                 </div>\n`;
     if (index % 2 === 1 || index === lines.length - 1) {
       output += `              </div>\n`;
@@ -129,8 +140,8 @@ function formatListToHotelCards(text) {
       const title = parts[0] || '住宿建议';
       const desc = parts[1] || p;
       return `                <div className="${color.bg} p-4 rounded-lg">
-                  <h4 className="font-semibold ${color.text} mb-2">${title}</h4>
-                  <p className="text-sm ${color.desc}">${desc}</p>
+                  <h4 className="font-semibold ${color.text} mb-2">{\`${escapeJSX(title).replace(/`/g, '\\`')}\`}</h4>
+                  <p className="text-sm ${color.desc}">{\`${escapeJSX(desc).replace(/`/g, '\\`')}\`}</p>
                 </div>`;
     })
     .join('\n');
@@ -184,14 +195,18 @@ categories.forEach(cat => {
 
     const componentName = slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join('') + 'Page';
 
+    // 对有可能插入到单引号字符串中的字段进行安全转义，防止破坏 TSX 语法
+    const safeTitle = (data['SEO标题'] || `${data['景点中文名']}・${data['景点英文名']}・${data['国家']}・${data['城市']} | 最佳欧洲景点`).replace(/'/g, "\\'");
+    const safeDesc = (data['核心简介'] || '').substring(0, 150).replace(/\n/g, ' ').replace(/'/g, "\\'");
+
     const pageContent = `import { Metadata } from 'next'
 import { Section } from '@/components/Section'
 import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '${data['SEO标题'] || `${data['景点中文名']}・${data['景点英文名']}・${data['国家']}・${data['城市']} | 最佳欧洲景点`}',
-  description: '${(data['核心简介'] || '').substring(0, 150).replace(/\\n/g, ' ')}...',
+  title: '${safeTitle}',
+  description: '${safeDesc}...',
 }
 
 export default function ${componentName}() {
@@ -202,14 +217,14 @@ export default function ${componentName}() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '${data['景点中文名']}', href: '/attractions/${slug}' },
+            { label: '${data['景点中文名'].replace(/'/g, "\\'")}', href: '/attractions/${slug}' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">${data['景点中文名']}・${data['景点英文名']}・${data['国家']}・${data['城市']}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{\`${data['景点中文名']}・${data['景点英文名']}・${data['国家']}・${data['城市']}\`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            ${data['核心简介']?.split('\\n')[0] || ''}
+            {\`${(data['核心简介']?.split('\\n')[0] || '').replace(/`/g, '\\`')}\`}
           </p>
         </div>
 
@@ -221,24 +236,24 @@ ${formatParagraphs(data['核心简介'])}
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="${data['景点中文名']}" />
-                <InfoRow label="英文名称" value="${data['景点英文名']}" />
-                <InfoRow label="正式名称" value="${data['正式名称'] || data['景点英文名']}" />
-                <InfoRow label="国家" value="${data['国家']}" />
-                <InfoRow label="城市" value="${data['城市']}" />
+                <InfoRow label="中文名称" value={\`${data['景点中文名'].replace(/`/g, '\\`')}\`} />
+                <InfoRow label="英文名称" value={\`${data['景点英文名'].replace(/`/g, '\\`')}\`} />
+                <InfoRow label="正式名称" value={\`${(data['正式名称'] || data['景点英文名']).replace(/`/g, '\\`')}\`} />
+                <InfoRow label="国家" value={\`${data['国家'].replace(/`/g, '\\`')}\`} />
+                <InfoRow label="城市" value={\`${data['城市'].replace(/`/g, '\\`')}\`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="${data['历史地位'] || ''}" />
-                <InfoRow label="建筑特色" value="${data['建筑特色'] || ''}" />
-                <InfoRow label="建筑风格" value="${data['建筑风格'] || ''}" />
-                <InfoRow label="文化价值" value="${data['文化价值'] || ''}" />
+                <InfoRow label="历史地位" value={\`${(data['历史地位'] || '').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="建筑特色" value={\`${(data['建筑特色'] || '').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="建筑风格" value={\`${(data['建筑风格'] || '').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="文化价值" value={\`${(data['文化价值'] || '').replace(/`/g, '\\`')}\`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="${data['开放时间'] || '全天开放'}" />
-              <InfoRow label="门票价格" value="${data['门票价格'] || '免费'}" />
-              <InfoRow label="地址" value="${data['地址'] || '请参考地图导航'}" />
-              <InfoRow label="交通方式" value="${data['交通方式'] || '建议步行或公共交通'}" />
+              <InfoRow label="开放时间" value={\`${(data['开放时间'] || '全天开放').replace(/`/g, '\\`')}\`} />
+              <InfoRow label="门票价格" value={\`${(data['门票价格'] || '免费').replace(/`/g, '\\`')}\`} />
+              <InfoRow label="地址" value={\`${(data['地址'] || '请参考地图导航').replace(/`/g, '\\`')}\`} />
+              <InfoRow label="交通方式" value={\`${(data['交通方式'] || '建议步行或公共交通').replace(/`/g, '\\`')}\`} />
             </div>
           </Section>
 
@@ -253,10 +268,10 @@ ${formatParagraphs(data['历史背景'])}
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  ${data['游览路线总述'] || ''}
+                  {\`${(data['游览路线总述'] || '').replace(/`/g, '\\`')}\`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>${data['游览路线补充'] || '全程步行游览，深度感受。'}
+                  <strong>建议：</strong>{\`${(data['游览路线补充'] || '全程步行游览，深度感受。').replace(/`/g, '\\`')}\`}
                 </div>
               </div>
               

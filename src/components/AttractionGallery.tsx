@@ -95,34 +95,58 @@ export function AttractionGallery({
 }: {
   attractions: Attraction[];
 }) {
+  const [searchQuery, setSearchQuery] = useState("");
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [selectedType, setSelectedType] = useState<string | null>(null);
 
   const filtered = useMemo(() => {
     return attractions.filter((a) => {
+      // 文本搜索过滤
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        const matchName = a.name?.toLowerCase().includes(q);
+        const matchEn = a.englishName?.toLowerCase().includes(q);
+        const matchCity = a.city?.toLowerCase().includes(q);
+        const matchCountry = a.country?.toLowerCase().includes(q);
+        if (!matchName && !matchEn && !matchCity && !matchCountry) return false;
+      }
+      
+      // 分类过滤
       if (selectedRegion && a.region !== selectedRegion) return false;
       if (selectedType && a.type !== selectedType) return false;
       return true;
     });
-  }, [attractions, selectedRegion, selectedType]);
+  }, [attractions, selectedRegion, selectedType, searchQuery]);
 
   const regionCounts = useMemo(() => {
     const counts: Record<string, number> = {};
     const base = selectedType
-      ? attractions.filter((a) => a.type === selectedType)
-      : attractions;
-    for (const a of base) counts[a.region] = (counts[a.region] || 0) + 1;
-    return counts;
-  }, [attractions, selectedType]);
-
-  const typeCounts = useMemo(() => {
-    const counts: Record<string, number> = {};
-    const base = selectedRegion
-      ? attractions.filter((a) => a.region === selectedRegion)
-      : attractions;
-    for (const a of base) counts[a.type] = (counts[a.type] || 0) + 1;
-    return counts;
-  }, [attractions, selectedRegion]);
+        ? attractions.filter((a) => a.type === selectedType)
+        : attractions;
+      const searchFiltered = searchQuery
+        ? base.filter(a => {
+            const q = searchQuery.toLowerCase();
+            return a.name?.toLowerCase().includes(q) || a.englishName?.toLowerCase().includes(q) || a.city?.toLowerCase().includes(q) || a.country?.toLowerCase().includes(q);
+          })
+        : base;
+      for (const a of searchFiltered) counts[a.region] = (counts[a.region] || 0) + 1;
+      return counts;
+    }, [attractions, selectedType, searchQuery]);
+  
+    const typeCounts = useMemo(() => {
+      const counts: Record<string, number> = {};
+      const base = selectedRegion
+        ? attractions.filter((a) => a.region === selectedRegion)
+        : attractions;
+      const searchFiltered = searchQuery
+        ? base.filter(a => {
+            const q = searchQuery.toLowerCase();
+            return a.name?.toLowerCase().includes(q) || a.englishName?.toLowerCase().includes(q) || a.city?.toLowerCase().includes(q) || a.country?.toLowerCase().includes(q);
+          })
+        : base;
+      for (const a of searchFiltered) counts[a.type] = (counts[a.type] || 0) + 1;
+      return counts;
+    }, [attractions, selectedRegion, searchQuery]);
 
   return (
     <section id="destinations" className="py-20">
@@ -138,8 +162,42 @@ export function AttractionGallery({
           </p>
         </div>
 
-        {/* Filters */}
-        <div id="regions" className="mb-10 space-y-4">
+        {/* Filters and Search */}
+        <div id="regions" className="mb-10 space-y-6">
+          {/* Search Bar */}
+          <div className="max-w-2xl mx-auto relative">
+            <input
+              type="text"
+              placeholder="Search by name, city, or country... (e.g., Paris, Castle, 巴黎)"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full px-5 py-3.5 pl-12 rounded-xl border border-gray-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all shadow-sm text-gray-700 bg-white"
+            />
+            <svg
+              className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+            {searchQuery && (
+              <button
+                onClick={() => setSearchQuery("")}
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            )}
+          </div>
+
           {/* Region filter */}
           <div>
             <h4 className="text-xs uppercase tracking-widest text-muted-light mb-3 font-medium">
