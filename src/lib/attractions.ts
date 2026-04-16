@@ -29,30 +29,9 @@ export function getAllSlugs(): string[] {
   return attractions.map((a) => a.slug);
 }
 
-export const regions = [
-  "法国",
-  "比利时・卢森堡",
-  "德国",
-  "意大利",
-  "西班牙・葡萄牙",
-  "瑞士・奥地利",
-  "捷克・斯洛伐克・匈牙利",
-  "斯洛文尼亚・克罗地亚・波黑・黑山",
-  "希腊",
-  "北欧",
-  "巴尔干・东欧",
-];
-
-export const types = [
-  "古城",
-  "城堡",
-  "修道院",
-  "教堂",
-  "遗址",
-  "自然",
-  "广场",
-  "其他",
-];
+// 动态提取所有的 Region 和 Type，避免硬编码导致部分数据无法显示
+export const regions = Array.from(new Set(attractions.map(a => a.region).filter(Boolean)));
+export const types = Array.from(new Set(attractions.map(a => a.type).filter(Boolean)));
 
 export const regionLabelsEN: Record<string, string> = {
   "法国": "France",

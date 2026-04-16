@@ -155,7 +155,7 @@ export function AttractionGallery({
               {regions.map((r) => (
                 <FilterPill
                   key={r}
-                  label={regionLabelsEN[r]}
+                  label={regionLabelsEN[r] || r}
                   active={selectedRegion === r}
                   onClick={() =>
                     setSelectedRegion(selectedRegion === r ? null : r)
@@ -180,7 +180,7 @@ export function AttractionGallery({
               {types.map((t) => (
                 <FilterPill
                   key={t}
-                  label={typeLabelsEN[t]}
+                  label={typeLabelsEN[t] || t}
                   active={selectedType === t}
                   onClick={() =>
                     setSelectedType(selectedType === t ? null : t)
