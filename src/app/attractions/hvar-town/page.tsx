@@ -1,0 +1,197 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '赫瓦尔镇 Hvar Town｜在亚得里亚海阳光与薰衣草香中沉醉 - 最佳欧洲景点',
+  description: '想象一下，你从一艘摇晃的渡轮上踏下来，第一脚踩上的不是水泥，而是被正午阳光晒得发烫、光滑如釉的乳白色大理石路面。热气混合着码头边咸腥的海风、远处咖啡馆飘来的浓缩咖啡香，还有——如果你在六月来访——那一丝若有若无、清甜干燥的薰衣草气息，它们一起扑面而来，瞬间就为你完成了登陆的仪式。眼前，是一道向上缓缓...',
+}
+
+export default function HvarTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '赫瓦尔镇', href: '/attractions/hvar-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">赫瓦尔镇・Hvar Town・克罗地亚・赫瓦尔岛（Hvar Island）</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            想象一下，你从一艘摇晃的渡轮上踏下来，第一脚踩上的不是水泥，而是被正午阳光晒得发烫、光滑如釉的乳白色大理石路面。热气混合着码头边咸腥的海风、远处咖啡馆飘来的浓缩咖啡香，还有——如果你在六月来访——那一丝若有若无、清甜干燥的薰衣草气息，它们一起扑面而来，瞬间就为你完成了登陆的仪式。眼前，是一道向上缓缓延伸的、狭长的石板阶梯，两侧是蜂蜜色石头砌成的高墙，头顶是一线纯净得不可思议的亚得里亚海蓝天。你不知道这阶梯通向哪里，但你立刻就明白了：探索赫瓦尔镇，就得用双脚去迷失。
+这座城是活的，它不仅仅是为游客存在的明信片。清晨七点，主广场（欧洲最古老的城镇广场之一）上，穿着随意的本地老人会坐在千年石凳上，就着一小杯烈性的 rakija（本地水果白兰地）看报纸，而渔夫正把夜里捕获的银亮鲈鱼和章鱼摆上码头边的摊位。到了下午，广场就成了世界的十字路口，游艇上的富豪、背着登山包的徒步者、来自意大利的时尚男女，都汇集在菩提树的荫凉下，喝着同一款本地产的 Pošip 白葡萄酒，声音嘈杂却奇异地和谐。它的核心魅力就在于这种毫不费力的层次感：一边是深植于海岛日常的、缓慢而坚韧的生活脉搏；另一边是国际化的、流光溢彩的享乐氛围。它们共享着同一片绝美的海岸、同一段厚重的历史，并在这灿烂的阳光下达成了和解。
+当你穿过那些仅容一人通过的幽深小巷（他们叫它“kalel”），手指拂过两边被岁月打磨得无比光滑的石墙，你会听到头顶传来晾衣绳的摩擦声和阳台上盆栽挪动的声音。这就是赫瓦尔镇的背面，宁静、私密，充满生活气息。一转弯，你可能就撞见一个种满九重葛和柠檬树的小小庭院，或者一扇厚重的、带着铁环的木门，门楣上刻着某个威尼斯贵族家族早已模糊的徽章。空气中总弥漫着一种慵懒的嗡嗡声，混合着海涛的节奏、蝉鸣、以及远处酒吧传来的若有若无的电子乐低音。在这里，时间既是古老的，凝固在每一块石头里；又是即时的，流淌在每一杯冰镇的玫瑰酒中。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">想象一下，你从一艘摇晃的渡轮上踏下来，第一脚踩上的不是水泥，而是被正午阳光晒得发烫、光滑如釉的乳白色大理石路面。热气混合着码头边咸腥的海风、远处咖啡馆飘来的浓缩咖啡香，还有——如果你在六月来访——那一丝若有若无、清甜干燥的薰衣草气息，它们一起扑面而来，瞬间就为你完成了登陆的仪式。眼前，是一道向上缓缓延伸的、狭长的石板阶梯，两侧是蜂蜜色石头砌成的高墙，头顶是一线纯净得不可思议的亚得里亚海蓝天。你不知道这阶梯通向哪里，但你立刻就明白了：探索赫瓦尔镇，就得用双脚去迷失。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这座城是活的，它不仅仅是为游客存在的明信片。清晨七点，主广场（欧洲最古老的城镇广场之一）上，穿着随意的本地老人会坐在千年石凳上，就着一小杯烈性的 rakija（本地水果白兰地）看报纸，而渔夫正把夜里捕获的银亮鲈鱼和章鱼摆上码头边的摊位。到了下午，广场就成了世界的十字路口，游艇上的富豪、背着登山包的徒步者、来自意大利的时尚男女，都汇集在菩提树的荫凉下，喝着同一款本地产的 Pošip 白葡萄酒，声音嘈杂却奇异地和谐。它的核心魅力就在于这种毫不费力的层次感：一边是深植于海岛日常的、缓慢而坚韧的生活脉搏；另一边是国际化的、流光溢彩的享乐氛围。它们共享着同一片绝美的海岸、同一段厚重的历史，并在这灿烂的阳光下达成了和解。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">当你穿过那些仅容一人通过的幽深小巷（他们叫它“kalel”），手指拂过两边被岁月打磨得无比光滑的石墙，你会听到头顶传来晾衣绳的摩擦声和阳台上盆栽挪动的声音。这就是赫瓦尔镇的背面，宁静、私密，充满生活气息。一转弯，你可能就撞见一个种满九重葛和柠檬树的小小庭院，或者一扇厚重的、带着铁环的木门，门楣上刻着某个威尼斯贵族家族早已模糊的徽章。空气中总弥漫着一种慵懒的嗡嗡声，混合着海涛的节奏、蝉鸣、以及远处酒吧传来的若有若无的电子乐低音。在这里，时间既是古老的，凝固在每一块石头里；又是即时的，流淌在每一杯冰镇的玫瑰酒中。</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="赫瓦尔镇" />
+                <InfoRow label="英文名称" value="Hvar Town" />
+                <InfoRow label="正式名称" value="Hvar Town" />
+                <InfoRow label="国家" value="克罗地亚" />
+                <InfoRow label="城市" value="赫瓦尔岛（Hvar Island）" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="达尔马提亚海岸线上，一座由古希腊人奠基、威尼斯共和国塑造的“亚得里亚海明珠”，是航海、贸易与文化千年交融的活化石。" />
+                <InfoRow label="建筑特色" value="威尼斯哥特式与文艺复兴风格的优雅建筑，紧密簇拥在碧海环绕的天然港湾旁，与嶙峋山丘上的中世纪堡垒构成完美的视觉平衡。" />
+                <InfoRow label="建筑风格" value="以威尼斯风格为主导，混合了哥特式、文艺复兴式及克罗地亚本土的石砌建筑特色。" />
+                <InfoRow label="文化价值" value="一个将古老海事传统、薰衣草种植文化、现代艺术能量与享乐主义生活哲学不可思议结合在一起的微型宇宙。" />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="城镇本身全天开放。主要景点如圣斯蒂芬大教堂开放时间为夏季（4月-10月）通常为周一至周六 9:00-12:00 & 17:00-19:00，周日主要为礼拜时间；西班牙堡垒（Fortica）的开放时间约为夏季 8:00-22:00，冬季可能缩短至 16:00 关闭。请注意，许多小型博物馆、画廊的开放时间非常灵活，尤其是在旅游平季，建议当天核实。" />
+              <InfoRow label="门票价格" value="漫步古镇免费。进入主要景点需购票：西班牙堡垒门票约 50-70 库纳（约 7-10 欧元）；圣斯蒂芬大教堂门票约 20 库纳；本笃修道院及博物馆门票约 40 库纳。学生、儿童及团体通常有折扣。夏季港口会收取上岛费（Sojourn Tax），已包含在大部分住宿费用中。" />
+              <InfoRow label="地址" value="Hvar Town, Hvar Island, Dalmatia, Croatia, 21450" />
+              <InfoRow label="交通方式" value="从最近的斯普利特（Split）机场出发：先乘坐机场巴士或出租车到斯普利特港口（约30分钟）。从斯普利特港口到赫瓦尔镇有两种主要方式：1. 公共渡轮（Jadrolinija运营）：航程约2小时，价格实惠，可搭载车辆，班次稳定（夏季每天6-8班）。2. 快艇（Krilo等公司运营）：航程约50分钟至1小时，票价稍贵，但更快捷舒适，夏季班次频繁。强烈建议夏季提前在线预订船票，特别是如果你需要运送汽车。船是抵达这座岛屿的唯一方式，本身就是一段绝佳的海上之旅。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">要讲赫瓦尔镇的故事，得从公元前385年说起。那时，一群来自爱琴海帕罗斯岛的希腊殖民者发现了这个拥有深邃、避风港湾的岛屿，他们在此建立了殖民地，称之为“法罗斯”（Pharos），并与对岸的土著伊利里亚人时而贸易，时而争斗。你可以去斯塔里格勒（Stari Grad）平原看看，那是希腊人划分的农业网格遗迹，至今仍在使用，是联合国世界遗产。而赫瓦尔镇所在的这个更靠西的港口，在当时就已初具雏形，为古希腊的航船提供庇护。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">真正的城市风貌，是在威尼斯共和国统治时期被深深烙印下来的。从13世纪到18世纪，威尼斯人将赫瓦尔变成了亚得里亚海东岸最重要的海军基地和贸易站之一。你现在看到的城镇布局、那座雄伟的圣斯蒂芬大教堂、以及环绕广场的那些带有精美拱窗和石雕的宫殿，几乎都带着威尼斯的审美基因。威尼斯人不仅带来了建筑，更带来了法律、制度和一种城市贵族的做派。本地贵族家族（比如赫克托洛维奇家族）在威尼斯的羽翼下繁荣起来，他们建造了华丽的宫殿，资助艺术，让赫瓦尔在文艺复兴时期成为了一个意外的文化中心，甚至拥有着欧洲最早的公共剧院之一（建于1612年）。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，安宁总是短暂的。1571年，一场浩劫降临。臭名昭著的奥斯曼帝国海军海盗乌卢克·阿里（Uluç Ali）袭击了防守薄弱的赫瓦尔镇。城镇几乎被夷为平地，无数居民被掳走或杀害。这场悲剧催生了赫瓦尔最标志性的建筑——高踞山巅的西班牙堡垒（Fortica）。在废墟之上，惊慌失措的居民和当时的统治者（此时已是哈布斯堡王朝的西班牙军队帮忙）以惊人的速度修建了这座坚固的防御工事。从此，它就像一个沉默而警惕的哨兵，日夜俯瞰着港口和远海。当你气喘吁吁地爬上堡垒，抚摸那些粗糙的巨石墙时，你触摸到的正是那段恐惧与重生的集体记忆。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">威尼斯时代结束后，赫瓦尔先后经历了短暂的拿破仑时期和漫长的奥匈帝国统治。奥匈帝国带来了更现代的行政管理、基础设施（比如一些漂亮的奥匈风格建筑），并将它发展为帝国海军青睐的疗养地。贵族和富人们开始发现这里温和的气候与绝美的风景。这种“度假地”的基因就此种下。二战后，赫瓦尔成为南斯拉夫的一部分，并逐渐向国际游客敞开大门。艺术家、诗人和第一批“背包客”发现了这里，它的名声开始在欧洲的波西米亚圈子里传开。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">而今天我们所知的“派对岛”名声，其实是本世纪才被加冕的。当超级游艇开始停满港口，当世界级的俱乐部在海边的洞穴和松林里开业，赫瓦尔镇迎来了它的又一次蜕变。但奇妙的是，它并没有被这股新潮完全吞噬。你依然可以在清晨的鱼市看到老一辈渔夫的身影，薰衣草田依然在七月散发出紫色的光芒，修道院里的修女依然在精心制作着传承了几个世纪的蕾丝。赫瓦尔镇就像它海岸边那些历经风浪的橄榄树，将每一次历史的冲击——无论是希腊的开拓、威尼斯的雕琢、战争的创伤还是全球化的浪潮——都转化为自己年轮的一部分，生长出独一无二、既古老又崭新的模样。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  要真正品尝赫瓦尔镇的滋味，我强烈建议你至少留出一整天的时间，并且在这里住上一晚，感受日落后游艇客散去、小镇重归宁静的魔力。理想的节奏是“上午探索文化与历史，下午交给慵懒与海风，傍晚追逐落日与高度”。早上八点左右就出发，这时阳光已经明亮但还不灼热，大批一日游的游客尚未从斯普利特抵达，你能独占那些静谧的小巷和广场。用整个上午徒步上山参观堡垒，并在下山时慢悠悠地逛教堂和广场。中午在最地道的 konoba（小酒馆）享用漫长的午餐。下午可以有两个选择：要么跳上一艘小船去附近的帕克莱尼群岛（Pakleni Islands）找个隐秘的海湾游泳，要么就在镇子边缘的岩石海滩上晒太阳、读书。傍晚时分，一定要再次回到堡垒或找个海景酒吧，迎接亚得里亚海最壮丽的日落。这样的一天，囊括了赫瓦尔的历史重量、自然馈赠和生活艺术。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>七八月是绝对的旺季，港口可能同时停靠数艘大型游轮，上午十点到下午四点镇中心会非常拥挤，尽量利用清晨和傍晚探索核心区。岛上出租车价格不菲，且老城完全步行，一双舒适耐走的平底鞋（对付石板路）和一双防滑的凉鞋（对付岩石海滩）是必备。大多数餐厅接受信用卡，但一些小咖啡馆和市集摊贩只收现金库纳。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">一早从港口出发，沿着那标志性的、被岁月磨得发亮的大理石阶梯“Pod Borjem”向上攀登，让心跳与海鸟的叫声同步。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">推开厚重的木门走进圣斯蒂芬大教堂，在略显昏暗的光线中仰头凝视那座华丽的文艺复兴式钟楼和祭坛后方的古老圣像。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从教堂侧门溜出，一头扎进迷宫般的“kalel”小巷，任由自己迷失，享受每一次转角遇到盛开的紫色九重葛或晾晒着雪白床单的惊喜。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">一鼓作气登上西班牙堡垒的顶端，在猎猎海风中俯瞰整个赫瓦尔镇如白色乐高般铺展在深蓝画布上，以及远处星罗棋布的帕克莱尼群岛。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">下山后直奔主广场，在菩提树荫下找家咖啡馆坐下，点一杯本地的“白咖啡”（bijela kava），像当地人一样什么也不做，只看人来人往。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">沿着海滨长廊（Riva）向西漫步，经过那些华丽的宫殿和停满奢华游艇的码头，一直走到Bonj海滩俱乐部附近，找块平滑的岩石跳进清澈见底的海水里。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在晚餐前拐进本笃修道院的女修道院博物馆，在宁静的庭院里欣赏修女们制作的精美蕾丝和古老的宗教艺术品，感受时光沉淀的虔诚。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">日落前半小时，赶到堡垒山腰的“Napoleon”要塞遗址或海边的“Hula Hula”酒吧，点一杯香槟或鸡尾酒，见证太阳像一颗熔金的球坠入远海的辉煌时刻。</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 西班牙堡垒西侧城墙边</h4>
+                  <p className="text-sm text-gray-700">日落前半小时，以锈迹斑斑的古炮为前景，将镜头对准远方层层叠叠的红色屋顶、蔚蓝港口和粉紫色的天空，构成一幅层次分明的史诗画卷。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 圣马可广场钟楼脚下仰拍</h4>
+                  <p className="text-sm text-gray-700">上午十点前，阳光刚好照亮钟楼顶部，站在广场东南角仰拍，将钟楼、飘扬的克罗地亚国旗与一角纯净蓝天框入画面，极具几何美感。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 通往堡垒的山路回头抓拍</h4>
+                  <p className="text-sm text-gray-700">清晨或黄昏攀登时，在半山腰一个宽阔的转弯处回头，可以捕捉到城镇建筑层层上升、直抵碧海的经典全景，光线柔和，色彩饱和度最高。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 薰衣草产品小店门口</h4>
+                  <p className="text-sm text-gray-700">下午避开直射光，在那些堆满薰衣草香包、肥皂和精油的小店门口，拍摄一组充满南法风情但更具亚得里亚海粗犷感的静物特写，记得虚化背景的石墙。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 海滨长廊尽头看向老港</h4>
+                  <p className="text-sm text-gray-700">华灯初上时（蓝色时刻），从Riva西端用长曝光拍摄老港，能将停泊的游艇桅杆、灯火通明的宫殿立面与水中倒影融合成一片璀璨的星海。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 岛上阳光极其强烈，尤其是正午在海边或白色石墙上，容易过曝，建议使用偏振镜并随时检查直方图。拍摄当地居民，尤其是老年人和市场商贩时，务必先微笑并征得同意，他们通常很友善，但未经允许的近距离特写是不礼貌的。无人机飞行在城镇和堡垒上空有严格限制，需提前查阅克罗地亚航空局规定。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">隐秘石屋体验</h4>
+                  <p className="text-sm text-blue-800">住在老城心脏地带一栋由17世纪石屋改造的公寓里，拥有厚达一米的石墙、木梁天花板和一个小小的内部庭院，夜晚安静得只能听到自己的心跳。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">设计师港湾之选</h4>
+                  <p className="text-sm text-green-800">位于安静小海湾旁的精品设计酒店，每间客房都拥有无敌海景露台，装修是现代极简风与复古元素的融合，附赠一个仅供住客使用的岩石泳池平台。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">田园诗别墅</h4>
+                  <p className="text-sm text-yellow-800">坐落在城镇上方橄榄园中的独立别墅，远离喧嚣但步行下山仅需15分钟，拥有私人花园和烧烤区，清晨在鸟鸣和橄榄树香气中醒来，像拥有了整座岛屿。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">高级游艇生活</h4>
+                  <p className="text-sm text-purple-800">对于预算充足的旅行者，可以直接在港口租赁一艘带船长的小型古典帆船或现代游艇住宿，将赫瓦尔镇作为航行的母港，每天醒来都在不同的海湾中。</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">赫瓦尔镇的住宿在夏季（6-8月）极其抢手，且价格是平季的2-3倍，务必提前至少3-4个月预订。老城内的酒店和公寓虽然位置绝佳，但可能无法停车（车辆需停放在城外的公共停车场），且行李搬运可能需要走一段阶梯。选择住在稍远一点的半山或小海湾，通常更安静、视野更开阔，但需要一定的上下山步行。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开赫瓦尔镇好多天了，我闭上眼睛，最先想起的不是某个具体的画面，而是一种混合的感觉：脚底板摩擦温热大理石的触感，海风咸味里混着干燥薰衣草香的那个瞬间，还有黄昏时分，整个小镇从金色褪成玫瑰色时，空气里弥漫的那种集体性的、温柔的叹息。它不是一个被供奉在玻璃罩里的历史标本，而是一个活生生的、呼吸着的有机体。你能够同时触摸到它公元前希腊人垒起的石基，威尼斯贵族雕刻的窗棂，感受到奥匈帝国军官曾在此度假的那份闲适，更能直接跳进21世纪全球旅行者共同制造的、那种沸腾的快乐之中。这种时间的共时性，才是最令人着迷的魔法。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个我们习惯于将旅行目的地标签化——“古城”、“派对胜地”、“度假岛”——的时代，赫瓦尔镇骄傲地拒绝被简单定义。它复杂、多层次，甚至有些矛盾，但正是这种矛盾赋予了它真实的魅力。它告诉你，深厚的历史底蕴与纯粹的享乐可以并存，渔夫的辛勤与游艇的奢华可以共享同一片海，千年石巷的寂静与电子音乐的脉搏可以在同一晚打动你。来这里，不是完成一项观光任务，而是让自己沉浸在这种多层次的体验里，找到属于你自己的节奏。无论是追寻一段尘封的往事，还是仅仅为了在世界上最澄澈的阳光下虚度一个午后，赫瓦尔镇都会慷慨地给予，并在你心中种下一颗渴望再度回归的种子。这，就是亚得里亚海明珠无可替代的理由。</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

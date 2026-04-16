@@ -1,0 +1,205 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '莱顿大学城 Leiden｜荷兰最古老大学城，伦勃朗的故乡，一座活在知识香气与运河光影里的“慢灵魂” - 最佳欧洲景点',
+  description: '说实话，当我第一次从莱顿中央火车站走出来时，我愣了一下。没有想象中的大学城的喧嚣，也没有古老名城的那种沉重感。空气中飘着淡淡的、混合了运河的水汽、烤华夫饼的甜香，还有——不知是不是我的心理作用——一点点旧书页的味道。阳光透过稀疏的云层，洒在车站前广场那些慢悠悠骑自行车的学生身上，车筐里插着鲜花或装着...',
+}
+
+export default function LeidenUniversityCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '莱顿大学城', href: '/attractions/leiden-university-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">莱顿大学城・Leiden・荷兰・莱顿</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            说实话，当我第一次从莱顿中央火车站走出来时，我愣了一下。没有想象中的大学城的喧嚣，也没有古老名城的那种沉重感。空气中飘着淡淡的、混合了运河的水汽、烤华夫饼的甜香，还有——不知是不是我的心理作用——一点点旧书页的味道。阳光透过稀疏的云层，洒在车站前广场那些慢悠悠骑自行车的学生身上，车筐里插着鲜花或装着书本。那一刻你就明白了，这里不是供人“参观”的景点，而是一个正在从容呼吸的有机体。
+我顺着人流，不知不觉就走到了拉彭堡运河边。河水是那种沉静的墨绿色，倒映着两岸一幢幢色彩柔和的山墙房屋，红的砖，白的窗框，家家户户窗台都精心摆放着鲜花或小雕塑。最让我着迷的不是某栋建筑，而是整个城市的“声音底色”：远处教堂整点的钟声、近处咖啡馆隐约的聊天笑声、自行车铃清脆的叮铃声、还有书店门口风铃的轻响。知识在这里不是锁在象牙塔里的东西，它就流淌在运河里，悬挂在咖啡馆的菜单黑板上，藏在老书店那需要爬梯子才能够到的顶层书架里。
+走到老大学楼附近，氛围又为之一变。穿着时尚的年轻学生与裹着厚大衣、步履缓慢的老教授在狭窄的街巷里擦肩而过。你会看到十七世纪建造的“鹰”学院门廊下，一群学生正热烈地讨论着什么，旁边的墙上钉满了各种讲座、戏剧社和抗议活动的海报，层层叠叠，像这个城市思想的年轮。在街角一家叫做“多克”的棕色咖啡馆里，昏暗的灯光下，老人们玩着西洋双陆棋，而隔壁桌的学生则对着笔记本电脑皱眉苦思。历史与当下，严肃与闲适，在这里没有界限，它们共同构成了莱顿独一无二的节奏——一种被知识和时间打磨得极为温润的“慢”。
+这种感觉在黄昏时分达到顶峰。当夕阳把运河染成金红色，图书馆的灯一盏盏亮起，整座城市仿佛从白日的市井模式，切换到了夜晚的沉思模式。你会觉得，这里不是一个你“打卡”的地方，而是一个你暂时被允许进入其日常韵律的、活生生的世界。它的核心魅力，或许就在于这种“学者与市民共舞，历史与咖啡同香”的、无比真实又充满温度的生活场景。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">说实话，当我第一次从莱顿中央火车站走出来时，我愣了一下。没有想象中的大学城的喧嚣，也没有古老名城的那种沉重感。空气中飘着淡淡的、混合了运河的水汽、烤华夫饼的甜香，还有——不知是不是我的心理作用——一点点旧书页的味道。阳光透过稀疏的云层，洒在车站前广场那些慢悠悠骑自行车的学生身上，车筐里插着鲜花或装着书本。那一刻你就明白了，这里不是供人“参观”的景点，而是一个正在从容呼吸的有机体。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">我顺着人流，不知不觉就走到了拉彭堡运河边。河水是那种沉静的墨绿色，倒映着两岸一幢幢色彩柔和的山墙房屋，红的砖，白的窗框，家家户户窗台都精心摆放着鲜花或小雕塑。最让我着迷的不是某栋建筑，而是整个城市的“声音底色”：远处教堂整点的钟声、近处咖啡馆隐约的聊天笑声、自行车铃清脆的叮铃声、还有书店门口风铃的轻响。知识在这里不是锁在象牙塔里的东西，它就流淌在运河里，悬挂在咖啡馆的菜单黑板上，藏在老书店那需要爬梯子才能够到的顶层书架里。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">走到老大学楼附近，氛围又为之一变。穿着时尚的年轻学生与裹着厚大衣、步履缓慢的老教授在狭窄的街巷里擦肩而过。你会看到十七世纪建造的“鹰”学院门廊下，一群学生正热烈地讨论着什么，旁边的墙上钉满了各种讲座、戏剧社和抗议活动的海报，层层叠叠，像这个城市思想的年轮。在街角一家叫做“多克”的棕色咖啡馆里，昏暗的灯光下，老人们玩着西洋双陆棋，而隔壁桌的学生则对着笔记本电脑皱眉苦思。历史与当下，严肃与闲适，在这里没有界限，它们共同构成了莱顿独一无二的节奏——一种被知识和时间打磨得极为温润的“慢”。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这种感觉在黄昏时分达到顶峰。当夕阳把运河染成金红色，图书馆的灯一盏盏亮起，整座城市仿佛从白日的市井模式，切换到了夜晚的沉思模式。你会觉得，这里不是一个你“打卡”的地方，而是一个你暂时被允许进入其日常韵律的、活生生的世界。它的核心魅力，或许就在于这种“学者与市民共舞，历史与咖啡同香”的、无比真实又充满温度的生活场景。</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="莱顿大学城" />
+                <InfoRow label="英文名称" value="Leiden" />
+                <InfoRow label="正式名称" value="Leiden" />
+                <InfoRow label="国家" value="荷兰" />
+                <InfoRow label="城市" value="莱顿" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="荷兰最古老的大学城，欧洲现代学术自由与科学精神的重要发源地之一。" />
+                <InfoRow label="建筑特色" value="运河、拱桥、山墙房屋与古老大学建筑浑然一体，尺度宜人，充满书卷气与生活气息。" />
+                <InfoRow label="建筑风格" value="以荷兰黄金时代的文艺复兴式、古典主义风格为主，混搭哥特晚期与近代简约设计。" />
+                <InfoRow label="文化价值" value="一座将顶尖学术研究、悠久历史沉淀与日常市井生活完美融合的“活着的”文化标本。" />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="莱顿整座城市全天开放。主要室内景点（如莱顿大学信息中心、植物园、各博物馆）开放时间一般为周二至周日 10:00-17:00，周一多数闭馆。植物园冬季（11月-2月）闭园时间会提前至16:30。市政厅、图书馆等公共建筑在工作日可部分参观。建议行前务必查询具体景点官网，荷兰节假日安排常有变动。" />
+              <InfoRow label="门票价格" value="漫步城市本身免费。内部主要景点单独收费：莱顿植物园门票约8.5欧元；民族学博物馆约12欧元；风车博物馆德法尔克约5欧元；莱顿大学历史教室（The Academy Building）参观通常免费但需跟随导览团。持有荷兰博物馆卡（Museumkaart）可免费进入大部分国立博物馆。" />
+              <InfoRow label="地址" value="Leiden, Netherlands （主要参观区域邮编：2311-2312, 2315-2316 等）" />
+              <InfoRow label="交通方式" value="从阿姆斯特丹史基浦机场出发最便捷：直接在机场火车站乘坐直达莱顿中央火车站（Leiden Centraal）的列车，Intercity直达车约20分钟，Sprinter慢车约30分钟，班次极其频繁（高峰期每10分钟一班）。从海牙中央车站到莱顿仅需10分钟车程。市内交通完全无需公共交通，所有精华景点均在步行范围内。建议购买OV-chipkaart（荷兰交通卡）方便乘坐火车。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">要读懂莱顿，得从一场惨烈的围城和一颗感恩的心说起。时间回到1574年，西班牙军队将莱顿围得水泄不通，城内饥荒蔓延，几乎到了人相食的绝境。当时的荷兰起义领袖，沉默者威廉亲王，做出了一个悲壮而艰难的决定：掘开堤坝，引海水倒灌，用舰队来解救城市。洪水漫延，战局扭转，莱顿得救了。为了奖励市民的顽强抵抗，威廉亲王给出了一个非同寻常的选项：免税，或者一所大学。饥饿的莱顿人出人意料地选择了后者——知识，而非面包。于是，在1575年，荷兰历史上第一所大学在莱顿诞生了。这从一开始，就为这座城市注入了坚韧与远见的基因。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">大学成立后，迅速成为欧洲新教学术的灯塔。得益于荷兰共和国黄金时代的财富与相对宽松的氛围，莱顿吸引了全欧洲最顶尖的头脑。哲学家斯宾诺莎在这里附近打磨他的思想；法国哲学家笛卡尔虽未正式任教，却也常年在此居住、思考和辩论；医学先驱们在这里建立了欧洲最早之一的临床教学和植物园（1590年建立的莱顿植物园，也是荷兰最古老的）。当时的莱顿，就像一个巨大的思想集市，运河上运来的不仅是东印度公司的香料，还有来自世界各地的标本、手稿和奇闻异事。城市的肌理也因此改变，为了容纳越来越多的学生和学者，精致的山墙房屋沿着运河不断兴建，那些狭窄的门面背后，是深邃的“走廊屋”，藏着无数书房、实验室和小型学院。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">当然，这里不得不提那个让莱顿在艺术史上光芒万丈的名字——伦勃朗·范·莱茵。1606年，他出生在莱顿一个普通的磨坊主家庭。你可以想象，小伦勃朗穿行在这些运河街道间，在拉丁学校学习，早期可能还在大学短暂注册过。莱顿严谨的学术氛围和繁荣的艺术市场，无疑是他天才最初的土壤。尽管他后来前往阿姆斯特丹追求事业巅峰，但莱顿的童年光影、市民肖像的订单，无疑塑造了他对人性和光影的深刻理解。至今，在楔形街（Weddesteg）附近，你仍能找到标有他出生地位置的铭牌，虽原建筑已不复存在，但那个空间仿佛依然回荡着大师最初的笔触声。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">历史的车轮滚滚向前，莱顿大学在近代继续扮演着关键角色。爱因斯坦曾在此担任特邀教授；超导现象在这里被发现；二十世纪，莱顿依然是物理学和汉学研究（著名的“莱顿汉学院”）的重镇。然而，黑暗也曾降临。二战期间，纳粹占领荷兰，要求大学解雇犹太裔教职工。当时莱顿大学的管理层和众多教授做出了集体辞职的强硬抗议，迫使占领当局关闭了大学。这种“宁可关闭，也不妥协”的风骨，正是植根于几个世纪前那场围城中锤炼出的不屈精神。战争期间，莱顿市民也勇敢地藏匿了许多被迫害者。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">今天的莱顿，你看到的宁静与和谐，是历经了洪水、围城、思想浪潮、战争与重建后的沉淀。大学没有围墙，它的学院、图书馆、研究所就散落在城市的各个角落，与咖啡馆、集市、民宅无缝衔接。那些斑驳的砖墙上刻着的拉丁文格言，运河桥墩上学生们每年更新的幽默涂鸦，共同书写着这座城市绵延不绝的故事。它不是一个凝固在过去的博物馆，而是一棵古老的知识之树，依然在每年春天抽出新绿，它的根系早已深植于每一块砖石、每一道运河波纹之中。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  要真正品味莱顿，请务必给它完整的一天。建议早上八、九点抵达，这时游客未至，城市刚刚苏醒，运河上笼罩着一层薄雾，阳光斜射在山墙上的光影最为柔和。整个游览节奏应像本地人一样“慢”，以步行为主，路线呈一个环状，覆盖老城核心区与主要运河带。从中央火车站出发，顺时针探索，这样在午后阳光最暖时，你会走在景色最美的拉彭堡运河畔。傍晚时分，一定要留给某条小巷里的棕色咖啡馆。整体耗时约8-9小时，包括长时间的漫步、坐下来喝咖啡、以及至少深入参观一个博物馆或植物园。这样安排能让你体验莱顿从清晨宁静到日间活跃，再到黄昏慵懒的完整韵律。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>周一大多数博物馆和室内景点闭馆，务必避开这天进行深度文化游览。
+莱顿老城街道多为鹅卵石或砖块铺就，请穿一双绝对舒适耐走的鞋子，高跟鞋在这里是“灾难级”选择。
+如果走累了，可以在中央火车站或市政厅附近租一辆OV-fiets（荷兰公共交通自行车），像当地人一样骑行探索更远的运河支流和街区，这是融入当地节奏的最佳方式。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从中央火车站出来，先别急着找地图，跟着感觉穿过车站广场，立刻就能看到第一条运河和那些停满自行车的桥，让清晨的宁静和水汽为你洗去旅途尘埃。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">沿着拉彭堡运河向东漫步，让你的眼睛适应那些倒映在水中的七彩山墙、天鹅的优雅弧线，以及岸边咖啡馆开始摆放桌椅的叮当声响。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在运河尽头右转，拐进一条小巷，去寻找那栋不起眼的莱顿大学最古老建筑“鹰”学院，摸摸它门口被无数学生手掌磨亮的铜制门环，感受几个世纪的知识传递。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从大学老楼踱步至毗邻的莱顿植物园，不要只是在门口张望，一定要买票进去，在温室里让热带雨林的湿润气息包裹你，并找到那棵见证了四百多年风雨的“老爷爷”金链花树。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">寻着若有若无的粉笔灰味道，找到藏在小广场边的拉丁学校博物馆，想象一下年幼的伦勃朗和他的同学们在这座古老建筑里摇头晃脑背诵拉丁文的情景。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从市中心向西北方向散步，目标明确地走向那座矗立在城门口的风车博物馆“德法尔克”，沿着内部陡峭的木梯爬上顶层，让风车的巨大翼板在你头顶呼啸，并俯瞰全城鳞次栉比的屋顶。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">将下午的最后时光留给国立民族学博物馆，不必贪多，挑一个你感兴趣的展厅（比如印尼或日本馆），仔细看那些在航海时代就被带到莱顿的异域珍宝，思考它们背后的文化交流故事。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">当日光转为琥珀色，务必钻进一家真正的“棕色咖啡馆”（比如‘Café de Bonte Koe’），点一杯本地啤酒或 genever（荷兰金酒），什么也不做，就看光线在因年代久远而变成棕色的墙壁和天花板上缓缓移动。</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 拉彭堡运河与新鲁恩街桥交汇处</h4>
+                  <p className="text-sm text-gray-700">清晨或黄昏，站在桥中央，使用长焦镜头压缩空间，让运河形成完美的透视引导线，将五彩的山墙房屋和远处老教堂的尖塔一同框入镜中。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 莱顿植物园历史温室内部</h4>
+                  <p className="text-sm text-gray-700">选择一个阳光充沛的上午，走进古老的温室，寻找阳光透过布满水汽的玻璃顶和茂密树叶后形成的光束，对准那些形态奇异的沙漠植物或巨大的王莲叶片，营造出朦胧而富有生命感的科学绘图氛围。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 老大学楼（Academy Building）内庭院</h4>
+                  <p className="text-sm text-gray-700">正午时分当阳光直射入天井时，站在拱廊下，拍摄光影在砖石地面和回廊柱子上形成的强烈几何分割，等待一个身着黑袍的教授或抱着书的学生匆匆走过，为画面增添故事性和比例感。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 从风车博物馆“德法尔克”的顶层观景平台向西眺望</h4>
+                  <p className="text-sm text-gray-700">下午晚些时候，顺光条件下，用广角镜头捕捉风车翼板作为前景，后方是莱顿老城层层叠叠的屋顶、教堂尖顶和蜿蜒的运河，展现城市与历史的和谐全景。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 楔形街的伦勃朗出生地纪念墙</h4>
+                  <p className="text-sm text-gray-700">避开直射硬光，在白天柔和的散射光下拍摄那面简约的纪念墙和墙上的铭牌，尝试将旁边咖啡馆露台上正在阅读的现代人的身影也纳入构图，形成跨越时空的对话。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 在运河边拍摄时，不妨多留意水中的倒影，莱顿平静的运河水面常常能创造出对称而梦幻的画面，尤其是华灯初上时的蓝调时刻。</li>
+                <li>• 拍摄街景和居民生活时请保持尊重，避免直接用长焦镜头窥探私人住宅的窗户内部，荷兰人注重隐私。</li>
+                <li>• 尝试拍摄一些细节：门环上的铜绿、书店橱窗里摆放的书籍、自行车筐里的郁金香、墙上的学术海报，这些“碎片”组合起来才是莱顿真实的质感。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">预算之选</h4>
+                  <p className="text-sm text-blue-800">住在拉彭堡运河某条支流旁的家庭式B&B，房间可能不大但窗景无敌，早晨房东会端来自制的荷兰煎饼和新鲜果汁，并给你手绘一张只有本地人才知道的秘密散步地图。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">特色体验</h4>
+                  <p className="text-sm text-green-800">下榻由一座17世纪运河屋改造的精品酒店，楼梯陡峭得令人难忘，但房间保留了原始的木梁和壁炉，晚上你能听到古老的木地板发出细微的吱呀声，仿佛睡在历史里。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">学者风范</h4>
+                  <p className="text-sm text-yellow-800">选择大学接待中心附属的简约风格酒店，它就坐落在植物园旁边，客人多是访问学者和教授，在早餐时你可能会无意中听到隔壁桌关于量子物理或中世纪手稿的激烈讨论。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">高端享受</h4>
+                  <p className="text-sm text-purple-800">入住城外但交通便捷的百年庄园酒店，房间拥有落地窗直面荷兰特色的广阔田野，提供免费自行车，让你既能享受乡村宁静，又能十分钟骑进城市的沸腾知识中心。</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">老城中心区域夜晚非常安静安全，但周末凌晨酒吧区可能略有喧闹，对睡眠敏感者可选择靠近但非正对主要酒吧街的住所。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">莱顿是热门城市，尤其毕业季和暑期，住宿预订务必提前，通常提前2-3个月能获得最佳选择和价格。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">如果自驾，务必确认酒店是否提供停车位，老城内停车位极其稀缺且昂贵，建议将车停在城外的P+R（停车换乘）停车场再乘公交进入。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开莱顿很久以后，我发现自己最怀念的，不是某个具体的建筑或博物馆，而是一种“状态”。那种状态，是在运河边无所事事地发呆，看着书本和面包、历史和当下，如此自然地从同一个门里进进出出。莱顿用它独有的方式告诉我们，一座伟大的城市，其伟大之处未必在于高耸入云的奇观，而在于它能否为思想提供一片自由生长、并与日常生活深深缠绕的土壤。在这里，知识不是孤傲的勋章，而是像空气和水一样，是城市呼吸的一部分。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个崇尚效率与速成的时代，莱顿像一位温和而坚定的隐士。它不追赶潮流，只是静静地守护着几个世纪以来对好奇心的尊重，对辩论的宽容，以及对美好生活的平实定义。每一个来到这里的人，无论是不是学者，都能被这种氛围感染，不自觉地放慢脚步，开始观察一片树叶的纹理，倾听一段钟声的余韵，或者 simply，享受一杯咖啡的完整冷却过程。这或许就是莱顿给予旅人最珍贵的礼物：它邀请你，在知识的芬芳与运河的柔波里，重新找回内心的节奏与宁静。这不仅仅是一次旅行，更像是一次温柔的精神复位。</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

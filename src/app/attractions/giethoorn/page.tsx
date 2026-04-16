@@ -1,0 +1,203 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '羊角村 Giethoorn｜划进童话里的荷兰威尼斯，解锁最宁静的水乡时光 - 最佳欧洲景点',
+  description: '让我告诉你，第一眼看到羊角村是什么感觉。那不是一个“看到”的过程，而是一种全身心的“滑入”。你不是走进村子，而是坐着小船，悄无声息地滑进一片巨大的、绿色的、倒置的天空里。耳朵里最先接收到的不是人声，是水流轻轻拍打木制船帮的“噗噗”声，是长篙插入水底又拔出的、湿润的“咕嘟”声，遥远得像是从梦里传来的。...',
+}
+
+export default function GiethoornPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '羊角村', href: '/attractions/giethoorn' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">羊角村・Giethoorn・荷兰・斯滕韦克尔兰</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            让我告诉你，第一眼看到羊角村是什么感觉。那不是一个“看到”的过程，而是一种全身心的“滑入”。你不是走进村子，而是坐着小船，悄无声息地滑进一片巨大的、绿色的、倒置的天空里。耳朵里最先接收到的不是人声，是水流轻轻拍打木制船帮的“噗噗”声，是长篙插入水底又拔出的、湿润的“咕嘟”声，遥远得像是从梦里传来的。空气里有一种奇特的混合气味：刚割过的青草香，水道旁肥沃黑土的腥气，还有从某户人家敞开的厨房窗户里飘出来的，新鲜咖啡和烤苹果派的甜香。
+然后，你的眼睛才开始真正工作。两岸是那种只在童话插图里出现的小房子，尖尖的芦苇屋顶厚实得像一块巨大的姜饼，颜色是温暖的棕褐色，据说这种屋顶冬暖夏凉，能屹立百年。每一座房子的面孔都不同，有的漆成乳白色，有的是明艳的鹅黄或天蓝，窗台上无一例外摆满了怒放的天竺葵和矮牵牛，红得像火，粉得像霞。最妙的是那些小桥，矮矮的、圆拱形的木头桥，连接着房子和花园，也连接着水道与陆地。你会看到一只肥硕的猫咪淡定地蹲在桥中央晒太阳，对从它身下缓缓穿过的游船毫不在意。
+这里的时间流速是不同的。当地人骑着特制的电动小船或自行车去串门、购物、打理花园。你听不到汽车喇叭，只有偶尔的自行车铃声和邻里隔着水道喊话的、带着独特口音的荷兰语问候。生活的核心就是门前这条水道，它既是街道，又是庭院，还是社交广场。傍晚时分，常能看到一家人坐在自家的“水上露台”——其实就是泊船的小码头——上，就着一杯啤酒，看野鸭带着毛茸茸的小鸭排队游过。这里的美，不是博物馆里被玻璃罩起来的、庄严的美，而是一种蓬松的、活生生的、带着烟火气的温柔。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">让我告诉你，第一眼看到羊角村是什么感觉。那不是一个“看到”的过程，而是一种全身心的“滑入”。你不是走进村子，而是坐着小船，悄无声息地滑进一片巨大的、绿色的、倒置的天空里。耳朵里最先接收到的不是人声，是水流轻轻拍打木制船帮的“噗噗”声，是长篙插入水底又拔出的、湿润的“咕嘟”声，遥远得像是从梦里传来的。空气里有一种奇特的混合气味：刚割过的青草香，水道旁肥沃黑土的腥气，还有从某户人家敞开的厨房窗户里飘出来的，新鲜咖啡和烤苹果派的甜香。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然后，你的眼睛才开始真正工作。两岸是那种只在童话插图里出现的小房子，尖尖的芦苇屋顶厚实得像一块巨大的姜饼，颜色是温暖的棕褐色，据说这种屋顶冬暖夏凉，能屹立百年。每一座房子的面孔都不同，有的漆成乳白色，有的是明艳的鹅黄或天蓝，窗台上无一例外摆满了怒放的天竺葵和矮牵牛，红得像火，粉得像霞。最妙的是那些小桥，矮矮的、圆拱形的木头桥，连接着房子和花园，也连接着水道与陆地。你会看到一只肥硕的猫咪淡定地蹲在桥中央晒太阳，对从它身下缓缓穿过的游船毫不在意。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这里的时间流速是不同的。当地人骑着特制的电动小船或自行车去串门、购物、打理花园。你听不到汽车喇叭，只有偶尔的自行车铃声和邻里隔着水道喊话的、带着独特口音的荷兰语问候。生活的核心就是门前这条水道，它既是街道，又是庭院，还是社交广场。傍晚时分，常能看到一家人坐在自家的“水上露台”——其实就是泊船的小码头——上，就着一杯啤酒，看野鸭带着毛茸茸的小鸭排队游过。这里的美，不是博物馆里被玻璃罩起来的、庄严的美，而是一种蓬松的、活生生的、带着烟火气的温柔。</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="羊角村" />
+                <InfoRow label="英文名称" value="Giethoorn" />
+                <InfoRow label="正式名称" value="羊角村（Giethoorn）" />
+                <InfoRow label="国家" value="荷兰" />
+                <InfoRow label="城市" value="斯滕韦克尔兰" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="一个由早期泥炭开采者与宗教避难者共同塑造的、完全以运河代替公路的独特水乡，是荷兰低地乡村生活智慧的活态见证。" />
+                <InfoRow label="建筑特色" value="宛如积木玩具般的绿色芦苇顶农舍星罗棋布于纵横交错的水道两岸，家家拥有色彩缤纷的小花园和私人拱桥。" />
+                <InfoRow label="建筑风格" value="传统的荷兰低地乡村风格，以芦苇屋顶、木质结构、砖砌外墙和巨大的观景窗为典型特征。" />
+                <InfoRow label="文化价值" value="它代表了一种与自然和谐共处、缓慢而自足的旧日生活方式，是现代人寻求内心宁静的精神绿洲。" />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="村落公共区域全天开放。主要博物馆、游客中心及大多数游船公司运营时间为每年四月至十月的上午9点至下午6点，十一月至次年三月部分设施缩短为上午10点至下午4点或季节性关闭。具体商铺和餐厅营业时间不一，建议出行前在官网确认。" />
+              <InfoRow label="门票价格" value="进入羊角村本身免费。体验核心项目需付费：电动或划桨小船租赁每小时约15-25欧元，全天约40-60欧元；带导游的观光船票价约10-15欧元/人。博物馆门票约5-8欧元。部分停车场收费，每日约5-10欧元。" />
+              <InfoRow label="地址" value="Giethoorn, 8355 AT Steenwijkerland, Netherlands" />
+              <InfoRow label="交通方式" value="从阿姆斯特丹史基浦机场出发，最推荐火车+巴士组合。先乘坐火车至斯滕韦克兰站，车程约1小时20分钟，班次密集。出站后换乘70路或270路巴士，在Giethoorn, Dominee Hylkemaweg站下车，巴士车程约30-40分钟，每小时1-2班。如果自驾，从阿姆斯特丹出发约1.5小时车程，需注意村内大部分区域禁止机动车驶入，需将车停在外围指定停车场。购票建议使用荷兰OV交通卡或提前在NS App购买火车票。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">要理解羊角村为什么会长成今天这个模样，你得把时钟拨回到八百年前。这里最初可不是什么田园诗，而是一片遍布湖泊和沼泽的、几乎无法踏足的水域。最早的开拓者是一群身份特殊的人——挖泥炭的工人。泥炭，也就是部分碳化的植物，是那个年代重要的燃料。工人们在这里挖出一道道深沟，把泥炭一块块挖出来运走，你猜怎么着？这些深沟年复一年被雨水和地下水灌满，就成了最早的人工运河网络。而被挖出的泥土，则被堆在沟渠旁边，形成了可供建造房屋的“岛屿”。所以，羊角村的地基， literally，是建立在挖掘的废墟之上的，它的血脉里从一开始就流淌着水。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">到了中世纪晚期，另一群人发现了这片水网密布的隐秘之地的好处——来自现在德国一带的宗教难民，特别是“再洗礼派”的信徒。他们为了躲避迫害，一路向北迁徙，最终躲进了这片迷宫般的水域。复杂的水道成了天然的屏障，外人难以轻易进入，给予了他们难得的安宁。这些定居者带来了更多的建造技艺，也进一步加强了这里“以船为马”的生活方式。他们开始养羊，传说在一次大洪水中，人们发现了大量淹死的山羊角，于是“羊角村”这个名字便诞生了。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">十八、十九世纪是它的黄金年代。那些我们现在看到的、漂亮得像玩具一样的芦苇顶大农舍，大多建于这个时期。可别小看这些房子，它们都是富裕农民的家。厚厚的芦苇屋顶、宽大的窗户（当时玻璃税很高，大窗户是财富的象征）、精致的室内装饰，都彰显着主人的殷实。经济的支柱是畜牧业和芦苇收割。羊角村周边的湿地盛产高质量的芦苇，这种材料不仅是理想的屋顶覆盖物，本身也是一项重要的商品。那种独特而和谐的乡村景观，就在人与自然的持续协作中定格了下来。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">二十世纪，汽车的普及几乎判了这种古老生活方式的“死刑”。许多欧洲的乡村为了通车，填平了河道，拓宽了道路。但羊角村因为其特殊的地理格局和私人土地分布，大规模改造极其困难且昂贵，反而阴差阳错地保存了下来。直到1958年，荷兰电影导演伯特·哈安斯特拉在这里拍摄了喜剧电影《吹牛》，才让这个“荷兰的威尼斯”第一次大规模进入公众视野。游客开始涌来，最初是好奇的荷兰本国人，接着是全世界的旅行者。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">如今的羊角村，面临着甜蜜的负担。旅游业成为了生命线，但也带来了拥挤和商业化的挑战。当地人在守护家园宁静与分享这份独特之美之间寻找着精妙的平衡。你看到的那些宁静画面，背后是一个社区数百年来的坚持、偶然的历史机遇，以及与现代社会小心翼翼的谈判。它不是一个被制造出来的主题公园，而是一棵依然在缓慢生长的、活着的古树。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  要真正拥有羊角村，请务必留出一整天时间，并选择在非周末的清晨抵达。完美的节奏是从“静”开始，以“动”深入，最后在暮色中回归于“静”。早上8-9点，当大批一日游游客尚未涌入时，是探索村落核心区的黄金时间。你可以先徒步，用双脚和眼睛熟悉地形与细节。中午前后，当人流渐多、阳光明媚时，正是租一艘无噪音的电动小船或亲手划桨，遁入广阔外围水道和湖泊的最佳时机，你会瞬间远离人群。傍晚时分，归还小船后，再次漫步，此时光线柔和，本地生活气息浓郁，最适合找一家水边露台享用晚餐。这样一张一弛的安排，能让你体验到村庄的不同面相。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>绝对避免周末和荷兰公共假期前来，否则你会被困在运河的“船堵”和人流中，完全失去宁静体验
+热门租船点中午可能船源紧张，如果你计划午后乘船，尽量在上午就预定好
+村里小路多为碎石和草地，穿一双舒适耐走的平底鞋远比漂亮但磨脚的单鞋明智
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">一大早在村口租一辆白色自行车，沿着主水道“贝伦街”慢骑，感受带着露水清香的晨风拂过面颊</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">将车停在老教堂旁，步行钻进那些没有游客的僻静小巷，看当地老人如何精心打理自家门前巴掌大的花园</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">拜访“老地球”博物馆，钻进那座古老的芦苇顶农舍，亲手触摸几个世纪前农家的炉灶和家具</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在“德格拉夫”餐厅的码头挑选一艘蓝色电动小船，不设目的地地驶向村外被称为“大湖”的广阔水域</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">把船熄火，任其漂浮在湖心，静静观察远处天鹅的家庭队列和掠过水面的翠鸟</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">顺着一条狭窄如秘境般的水道划回村落，在低矮的桥洞下弯腰穿行，与桥上散步的人挥手互道“日安”</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">日落前坐在“范·德·莱”家庭旅馆的临水露台，点一份用本地奶酪烹制的煎饼，看夕阳把每座芦苇屋顶染成金红色</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">晚餐后沿着没有路灯的小径散步，依靠家家户户窗内透出的温暖灯光辨认道路，聆听此起彼伏的蛙鸣交响乐</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 村西侧“贝伦街”起始点的木制拱桥上</h4>
+                  <p className="text-sm text-gray-700">清晨八点左右，向东拍摄，晨雾未散时，水道、芦苇屋顶和倒影构成完美的轴对称画面，前景可带入一两艘停泊的小船</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. “大湖”南岸的观景草坪</h4>
+                  <p className="text-sm text-gray-700">下午四至六点，顺光拍摄湖面和对岸村落的全景，将波光粼粼的水面和星星点点的房子一同收入镜中，最好能捕捉到一艘帆船或划艇经过</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. “老地球”博物馆后方的小码头</h4>
+                  <p className="text-sm text-gray-700">全天皆可，但阴天时光线更柔和，近距离拍摄一座典型农舍的木制山墙、大窗户和窗台上的鲜花，构图时带入一部分宁静的水道作为前景</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 村落北部某条无名小水道的拐角处</h4>
+                  <p className="text-sm text-gray-700">傍晚“黄金小时”，利用水道作为天然引导线，拍摄一座小木桥的局部特写，桥上最好有当地居民或猫咪经过，营造生活感</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 从你自己租的小船船头低角度拍摄</h4>
+                  <p className="text-sm text-gray-700">当船缓缓经过一座花园时，以盛放的绣球花或玫瑰作为前景框架，聚焦后方色彩明快的房子和倒影</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 夏季正午顶光强烈，不利于拍摄建筑，此时更适合用镜头捕捉生动的生活场景，如划船的人、花园里劳作的身影</li>
+                <li>• 尊重隐私，不要将镜头过分对准居民家中室内，拍摄人物时最好先微笑示意</li>
+                <li>• 无人机飞行在荷兰有严格限制，羊角村上空属于敏感区域，未经特别许可请勿起飞</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">经典水畔B&B</h4>
+                  <p className="text-sm text-blue-800">选择一家由百年农舍改造的家庭旅馆，推开卧室窗户就能垂钓，早餐是女主人用后院鸡蛋做的丰盛欧陆式餐点</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">隐秘花园小屋</h4>
+                  <p className="text-sm text-green-800">藏在村落边缘私人岛屿上的独立小别墅，需划小船才能到达，拥有完全属于自己的宁静花园和泊船码头，夜晚只有星空和水声相伴</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">设计感船屋民宿</h4>
+                  <p className="text-sm text-yellow-800">住在经过现代设计的舒适船屋上，晚上随着水波轻微摇晃入眠，清晨在甲板上享用咖啡，感觉自己就是村落水上生活的一部分</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">周边田园庄园酒店</h4>
+                  <p className="text-sm text-purple-800">位于羊角村外围2公里处的古老庄园，坐拥大片牧场和私人湖泊，提供自行车和小船，既能享受乡村奢华静谧，又方便探索村落</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">村内核心区住宿数量有限且极其抢手，尤其是暑假期间，务必提前至少3-4个月预订</p>
+              <p className="text-gray-700 leading-relaxed mb-4">住在村里意味着晚上和清晨将独享近乎原始的宁静，但需接受设施可能较为传统，且夜间娱乐选择极少</p>
+              <p className="text-gray-700 leading-relaxed mb-4">如果选择外围住宿，请确认酒店是否提供往返村落的便捷交通工具，如免费自行车或接驳船</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开羊角村好多天了，我的耳朵好像还在习惯性地寻找那种水波的声响。我发现，它最打动我的，不是那些明信片般的风景，而是一种“可行的宁静”。在这个我们被噪音、信息和速度裹挟的时代，羊角村提供了一个活生生的证据：另一种节奏的生活不仅是可能的，而且正在持续。它不是博物馆里的标本，那里的人们依然在那样生活——划船上班、在花园里喝茶、隔着水道和邻居聊天。这种真实感，赋予了它超越风景的深度。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">所以，来这里，不要仅仅是为了“看”一个景点。来是为了让自己“浸入”一种截然不同的时空维度。来学习如何慢下来，如何倾听水流和风声，如何欣赏一朵花从绽放到凋零的完整过程。羊角村是一面镜子，照见的也许是我们内心对宁静、简单和连接的原始渴望。它或许无法提供惊心动魄的冒险，但它慷慨赠予的，是一段能让心跳同步于自然脉搏的时光，是一剂温和而有效的都市解药。在这个意义上，驶向羊角村的小船，也是一艘驶向自己内心平静港湾的摆渡船。</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

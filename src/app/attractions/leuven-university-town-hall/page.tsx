@@ -1,0 +1,196 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '鲁汶大学城与市政厅 Leuven｜啤酒、书籍与石雕圣殿的青春交响 - 最佳欧洲景点',
+  description: '第一次踏入鲁汶的老广场，那种感觉难以言喻。你的视线会毫无意外地被那座仿佛从童话里直接搬出来的建筑完全俘获——鲁汶市政厅。它不是庄严地矗立，而是近乎梦幻地“生长”在那里，象牙色的砂岩在比利时变幻的云层下，时而泛着蜂蜜般温暖的金光，时而又变成清冷的珍珠灰。你得绕着它走一圈，才能真正理解什么叫“石头的蕾丝...',
+}
+
+export default function LeuvenUniversityTownHallPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '鲁汶大学城与市政厅', href: '/attractions/leuven-university-town-hall' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">鲁汶大学城与市政厅・Leuven University Town & Town Hall・比利时・鲁汶</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            第一次踏入鲁汶的老广场，那种感觉难以言喻。你的视线会毫无意外地被那座仿佛从童话里直接搬出来的建筑完全俘获——鲁汶市政厅。它不是庄严地矗立，而是近乎梦幻地“生长”在那里，象牙色的砂岩在比利时变幻的云层下，时而泛着蜂蜜般温暖的金光，时而又变成清冷的珍珠灰。你得绕着它走一圈，才能真正理解什么叫“石头的蕾丝”。236尊雕像从各个壁龛里凝视着你，圣徒、学者、公爵、寓言人物……他们的袍褶在五百年的风雨里变得柔和，但眼神似乎依然在低语着中世纪的故事。空气里飘着好闻的味道——是隔壁面包店刚出炉的Speculoos饼干（那种比利时特有的姜饼）的焦糖香气，混合着从几条小巷外飘来的、淡淡的麦芽甜香，那是世界闻名的斯特拉·阿托瓦啤酒厂的味道。
+但鲁汶绝不只是这座静态的博物馆。当一阵清脆的自行车铃声叮叮当当地划过石板路，你会瞬间回过神来。成群的学生抱着书本、提着帆布包，像潮水一样从市政厅四周辐射出的狭窄街巷里涌出，又消失在古老的大学学院门廊下。他们的谈笑声、咖啡馆外摆的杯盘碰撞声、远处图书馆传来的隐约钟声，共同构成了这座城市的背景音。在这里，诞生于1425年的古老智慧与21世纪的青春活力，共用着同一座庭院、同一段拱廊。你会看到穿着连帽衫的年轻人，坐在16世纪修建的回廊台阶上啃三明治，而他们头顶的滴水嘴兽，可能正嘲笑般地咧着嘴。
+最打动人的，是那种深植于日常的厚重感。市政厅不仅是游客镜头下的明星，也是市民生活真正的中心。周末的早晨，广场上会支起花市，鲜艳的郁金香和盆栽堆在宏伟的雕像脚下；傍晚，当地人牵着狗在这里相遇寒暄；而到了夏夜，广场的咖啡馆座无虚席，人们举着著名的鲁汶本地啤酒“Leuvense bruine”，为平凡的一天干杯。这座石头圣殿，见证了无数博士论文的答辩、情人的初次约会、市民的抗议与欢庆。它是一部用石头写成的城市日记，而每一天，都有新的段落被鲜活地填上。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">第一次踏入鲁汶的老广场，那种感觉难以言喻。你的视线会毫无意外地被那座仿佛从童话里直接搬出来的建筑完全俘获——鲁汶市政厅。它不是庄严地矗立，而是近乎梦幻地“生长”在那里，象牙色的砂岩在比利时变幻的云层下，时而泛着蜂蜜般温暖的金光，时而又变成清冷的珍珠灰。你得绕着它走一圈，才能真正理解什么叫“石头的蕾丝”。236尊雕像从各个壁龛里凝视着你，圣徒、学者、公爵、寓言人物……他们的袍褶在五百年的风雨里变得柔和，但眼神似乎依然在低语着中世纪的故事。空气里飘着好闻的味道——是隔壁面包店刚出炉的Speculoos饼干（那种比利时特有的姜饼）的焦糖香气，混合着从几条小巷外飘来的、淡淡的麦芽甜香，那是世界闻名的斯特拉·阿托瓦啤酒厂的味道。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">但鲁汶绝不只是这座静态的博物馆。当一阵清脆的自行车铃声叮叮当当地划过石板路，你会瞬间回过神来。成群的学生抱着书本、提着帆布包，像潮水一样从市政厅四周辐射出的狭窄街巷里涌出，又消失在古老的大学学院门廊下。他们的谈笑声、咖啡馆外摆的杯盘碰撞声、远处图书馆传来的隐约钟声，共同构成了这座城市的背景音。在这里，诞生于1425年的古老智慧与21世纪的青春活力，共用着同一座庭院、同一段拱廊。你会看到穿着连帽衫的年轻人，坐在16世纪修建的回廊台阶上啃三明治，而他们头顶的滴水嘴兽，可能正嘲笑般地咧着嘴。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">最打动人的，是那种深植于日常的厚重感。市政厅不仅是游客镜头下的明星，也是市民生活真正的中心。周末的早晨，广场上会支起花市，鲜艳的郁金香和盆栽堆在宏伟的雕像脚下；傍晚，当地人牵着狗在这里相遇寒暄；而到了夏夜，广场的咖啡馆座无虚席，人们举着著名的鲁汶本地啤酒“Leuvense bruine”，为平凡的一天干杯。这座石头圣殿，见证了无数博士论文的答辩、情人的初次约会、市民的抗议与欢庆。它是一部用石头写成的城市日记，而每一天，都有新的段落被鲜活地填上。</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="鲁汶大学城与市政厅" />
+                <InfoRow label="英文名称" value="Leuven University Town & Town Hall" />
+                <InfoRow label="正式名称" value="鲁汶市政厅与鲁汶大学历史建筑群" />
+                <InfoRow label="国家" value="比利时" />
+                <InfoRow label="城市" value="鲁汶" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="欧洲最古老的天主教大学之一的中心，也是低地国家晚期哥特式民用建筑的巅峰之作。" />
+                <InfoRow label="建筑特色" value="市政厅宛如一座垂直耸立的石制圣经，外墙布满数百尊精细雕刻的圣经人物、历史先贤与本地名流雕像。" />
+                <InfoRow label="建筑风格" value="布拉班特晚期哥特式风格，以其繁复到令人屏息的垂直线条和装饰性雕刻闻名。" />
+                <InfoRow label="文化价值" value="一座将学术沉思、市民自豪与啤酒欢庆无缝融合的“活着的”中世纪城市心脏。" />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="鲁汶市政厅内部导览：通常为工作日下午1:30至4:30，周末及节假日开放时间延长，但需提前在游客中心确认并预约，冬季（11月至3月）部分周一不开放。老广场及大学建筑外部全天开放，但各学院内部（如大学图书馆、大学大厅）有独立开放时间，图书馆一般为周一至周五上午10点至下午5点，周六开放时间缩短。重大节庆日（如鲁汶啤酒节、开学季）部分区域可能临时关闭或调整。" />
+              <InfoRow label="门票价格" value="市政厅内部导览：成人票12欧元，学生及65岁以上长者9欧元，12岁以下儿童免费。包含语音导览器。大学图书馆参观：免费进入主大厅及阅览室，登顶钟楼需支付6欧元（包含在“鲁汶历史通票”内）。推荐购买“鲁汶文化护照”（18欧元），涵盖市政厅、大学图书馆钟楼及至少两个博物馆，有效期48小时。" />
+              <InfoRow label="地址" value="Grote Markt 9, 3000 Leuven, Belgium" />
+              <InfoRow label="交通方式" value="从布鲁塞尔国际机场出发：最便捷方式是乘坐机场快线火车，在“Leuven”站下车。车程约15-20分钟，班次密集（约每20-30分钟一班），单程票价约8欧元。从布鲁塞尔中央火车站出发：火车车程约25分钟，班次极多（高峰时段每10分钟一班），单程票价约5欧元。抵达鲁汶火车站后，出站即是宽阔的邦德尔街，步行约12-15分钟即可到达老广场（Grote Markt），沿途商店咖啡馆林立，完全可当作游览序幕。城内公交系统发达，但市中心区域小巧紧凑，强烈推荐步行探索。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">要讲鲁汶的故事，得从两个看似不相干的元素说起：啤酒，和一颗对知识渴望到近乎偏执的心。早在中世纪，鲁汶就因为其优质的水源和酿酒技术而富裕起来。然而，让这座城市命运发生决定性转折的，是1425年一纸来自教皇的诏书。当时，布拉班特公爵约翰四世和他的妻子，深感低地地区需要一所自己的高等学府，而非总是将才俊送往巴黎。于是，在本地啤酒税收和贵族资助下，鲁汶天主教大学诞生了，它是低地国家第一所大学，也是教皇在阿尔卑斯山以北唯一亲自批准建立的大学。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">大学就像一颗投入静水中的巨石，涟漪迅速改变了城市的面貌。最直接的体现，就是我们现在看到的这座市政厅。原来的木结构市政厅在1440年左右毁于一场大火，这反而给了雄心勃勃的市民一个机会：他们要建造一座配得上这座新兴大学城的、无与伦比的门面。工程断断续续进行了近三十年，请来了当时布拉班特地区最顶尖的建筑师和雕塑家，比如苏瓦尼的科内里斯·德·弗赖恩德。每一尊外墙雕像都不是随意摆放，它们构成了一个庞大的“正义与智慧之城”的视觉宣言，既向宗教致敬，也颂扬世俗治理与学术。有趣的是，建造资金很大一部分依然来自——你猜对了——啤酒税。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，历史的笔触从不只书写辉煌。十六世纪，随着宗教改革风暴席卷欧洲，作为天主教堡垒的鲁汶大学成了风暴眼。伊拉斯谟等思想家曾在此执教，带来了人文主义的春风，但随后是残酷的宗教斗争。十七、十八世纪，大学在动荡中维持着声誉，但城市的命运已随着商路转移而相对衰落。真正的劫难降临在二十世纪。1914年，德国军队入侵比利时，蓄意纵火焚烧了著名的大学图书馆，三十万册珍贵手稿和古籍化为灰烬。整个城市在哭泣。但鲁汶的坚韧在于：他们决定原址重建，并面向全世界发起募捐。美国慈善家们的慷慨解囊，使得一座壮观的新佛兰德文艺复兴风格图书馆在1928年拔地而起。可悲的是，1940年，闪电战再次将这座知识圣殿夷为平地。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">今天你看到的大学图书馆，是二战后又一次重建的奇迹。它像一位饱经沧桑却脊梁挺直的智者，屹立在拉登广场上。塔楼里悬挂着来自世界各地捐赠的钟琴，每逢整点奏响的钟声，既是对和平的礼赞，也是对知识不灭的信念的宣告。而市政厅，历经两次世界大战的炮火却奇迹般基本完好，它沉默地见证了这一切：知识的脆弱与顽强，毁灭与重生。它和那些遍布全城、从中世纪延续至今的三十多所大学学院建筑一起，告诉你一个真理：石头可能会被焚毁，但一座以思想和记忆为根基的城市，永远无法被真正征服。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  游览鲁汶，最佳方式是把自己当成一个刚入学的新生，用一天的时间去“注册”并探索这座校园城市。建议在上午9点前抵达老广场，这时旅游团还未涌入，阳光刚好温柔地照亮市政厅的东立面，适合静静欣赏和拍照。整体游览需要6-8小时，节奏宜张弛有度，上午聚焦于宏伟建筑与历史，下午沉浸于学院庭院与市井生活，傍晚则以一杯本地啤酒完美收官。这样的安排能让你既感受到历史的重量，又不错过它活泼的当代脉搏。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>市政厅内部参观必须提前在广场东侧的游客中心预约导览团，无法自行进入，旺季时当天名额很快售罄。许多大学学院的内院是允许安静参观的，但请保持肃静，记住这是正在使用的教学和生活区，不要打扰到学生和教职工。鲁汶自行车极多且车速很快，步行时请务必走在人行道上，过马路格外小心。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">首先从老广场的市政厅正面开始，花至少二十分钟仰头细数那些神态各异的砂岩雕像，试着找出象征“正义”与“谨慎”的寓言人物。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">绕到市政厅侧面和后面，你会发现游客瞬间减少，这里是观察建筑精致侧翼和感受它如何与普通民宅并肩而立的绝佳角度。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">穿过广场，走进圣彼得教堂内部，这里昏暗、宁静，与广场的明亮喧嚣形成反差，一定要寻找迪里克·鲍茨那幅静谧而诡异的杰作《最后的晚餐》。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">沿着市政厅旁的查理斯·德·贝洛街漫步，让两侧充满设计感的店铺和飘着华夫饼香气的咖啡馆带你自然过渡到现代的鲁汶。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在拉登广场停下，仰望那座经历过两次战火重建的大学图书馆塔楼，感受其砖石立面所承载的沉重与希望。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">选择一条小巷（比如佩纳斯街）钻进鲁汶大学的“学院区”，随意推开一扇厚重的木门，探访一个静谧的内院，如范·达莱学院，看学生们在古老回廊下匆匆而过。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">走到迪耶斯特街，找到那家总是坐满了人的“莫特咖啡馆”，在它的玻璃阳光房里点一杯咖啡，观察本地人的生活百态。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">夜幕降临前，一定要前往奥德马克特地区，找一家传统的棕色酒吧（比如“德恩蒂什”），在昏暗的灯光和木桶的香气中，点一杯地道的鲁汶布朗啤酒，为这一天干杯。</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 市政厅东立面全景</h4>
+                  <p className="text-sm text-gray-700">清晨8-9点，阳光从广场东侧洒来，正面光线均匀柔和，站在广场中央偏东的位置，用广角镜头可囊括建筑全貌与部分地面石板倒影。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 圣彼得教堂内祭坛侧影</h4>
+                  <p className="text-sm text-gray-700">下午时分，当阳光透过教堂西面的彩色玻璃窗，形成一道道光束，站在中殿侧面拍摄祭坛和管风琴的剪影，能捕捉到神圣与神秘交织的氛围。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 大学图书馆钟楼仰拍</h4>
+                  <p className="text-sm text-gray-700">从拉登广场的南侧，用长焦镜头压缩空间，拍摄砖红色塔楼矗立于古典学院建筑之上的画面，下午的侧光能让建筑纹理格外清晰。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 学院回廊的几何构图</h4>
+                  <p className="text-sm text-gray-700">走进如“霍格学院”或“教皇学院”的庭院，寻找回廊下由拱门、石柱和光影构成的重复几何图案，最佳拍摄时间是正午前后，阳光直射庭院中心，廊下形成鲜明对比。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 奥德马克特酒吧街的夜色</h4>
+                  <p className="text-sm text-gray-700">华灯初上时，在奥德马克特找一家酒吧门口，拍摄烛光映照下人们举着琥珀色啤酒杯谈笑的场景，使用大光圈虚化背景，捕捉温暖的生活气息。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 在教堂和图书馆内部拍照时，请务必关闭闪光灯，并尊重是否有禁止拍照的标识（特别是某些珍贵画作前）。拍摄学生或当地人时，尽量以环境氛围为主，如需特写，一个友好的微笑和示意能让你收获更自然的画面。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">历史中心核心之选</h4>
+                  <p className="text-sm text-blue-800">入住老广场或拉登广场旁的精品酒店，有些由古老贵族宅邸改建，清晨推开木窗，广场的景色和声音就直接涌入房间。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">静谧学院风体验</h4>
+                  <p className="text-sm text-green-800">选择一所由大学历史学院建筑改造的酒店或高端B&B，比如在“大贝居安会院”附近，享受修道院般的宁静庭院和厚重的学术气息。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">设计感现代酒店</h4>
+                  <p className="text-sm text-yellow-800">位于火车站与老城之间新兴区域的设计酒店，风格明快现代，交通便利，是探索新旧鲁汶对比的绝佳基地。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">学生区活力民宿</h4>
+                  <p className="text-sm text-purple-800">住在学生公寓聚集区（如赫弗利周边）的舒适民宿，晚上跟着人流去寻觅最地道的平价小馆和酒吧，感受真正的大学城夜生活。</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">周末和大学开学（九月底）、毕业季（六月）房源非常紧张，务必提前数月预订。老城中心铺有鹅卵石的街道在夜晚非常安静，但周末夜晚靠近主要酒吧街的区域（如奥德马克特）可能会持续有欢闹声，浅眠者请选择内侧房间或更安静的片区。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开鲁汶好多天了，但脑海里总是不自觉地回放那些画面：晨曦中泛着金光的雕像群，图书馆钟声惊起的鸽群，还有啤酒杯碰撞时那清脆的一声“叮”。这座城市给我的，不仅仅是一次视觉的盛宴。它提供了一种难得的生活样本，告诉你历史不是沉重地压在我们肩上，而是可以被轻盈地穿在身上，像那些骑着自行车掠过中世纪拱门的学生一样，自在而坦然。在这里，知识的追求与世俗的欢愉，石头的水恒与青春的流动，从未如此和谐地共处一室。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在当今这个追求效率、不断刷新的世界，鲁汶像一座坚定的灯塔。它提醒我们，有些东西值得用几个世纪去建造、去保卫、去传承。它告诉我们，毁灭可以发生两次，但重建的勇气和汇聚人类善意的能力，会让文明的火焰一次次重新燃起。对于热爱深度游的旅人而言，鲁汶绝不是一张简单的风景明信片。它是一个邀请，邀请你坐下来，在六百年的老广场上，点一杯用同样古老配方酿造的啤酒，静静地看时光如何像默兹河的河水一样，流过教堂的尖顶、图书馆的砖墙，最终流入每一个平凡而温暖的当下。来这里，不是为了收集景点，而是为了让自己相信，一种智性的、充满韧性的、且不乏生活情趣的美好生活，是真实存在，并且仍在继续生长的。</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

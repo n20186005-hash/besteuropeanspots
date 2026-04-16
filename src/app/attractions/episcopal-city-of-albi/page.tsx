@@ -1,0 +1,192 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔比主教城 Episcopal City of Albi｜在法国“红砖之城”感受中世纪信仰与权力的永恒对峙 - 最佳欧洲景点',
+  description: '还记得我第一次走近阿尔比主教城时的感觉吗？那根本不像是在接近一座教堂，更像是在靠近一座从大地里生长出来的、被夕阳熔炼过的红色巨岩。塔恩河弯弯地流过，河水倒映着对岸一整片庞大、坚实、泛着蜂蜜与铁锈般暖红色的建筑轮廓——圣塞西尔主教座堂和它身旁的贝尔比宫。那种红，不是巴黎圣母院石头的灰白冰冷，而是带着南...',
+}
+
+export default function EpiscopalCityOfAlbiPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '阿尔比主教城', href: '/attractions/episcopal-city-of-albi' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">阿尔比主教城・Episcopal City of Albi・法国・阿尔比</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            还记得我第一次走近阿尔比主教城时的感觉吗？那根本不像是在接近一座教堂，更像是在靠近一座从大地里生长出来的、被夕阳熔炼过的红色巨岩。塔恩河弯弯地流过，河水倒映着对岸一整片庞大、坚实、泛着蜂蜜与铁锈般暖红色的建筑轮廓——圣塞西尔主教座堂和它身旁的贝尔比宫。那种红，不是巴黎圣母院石头的灰白冰冷，而是带着南法阳光温度的、有颗粒感的红，当你伸手触摸外墙，粗砺的砖面仿佛还残留着几个世纪前窑火的热度。这座城，就这样以一种不容置疑的、近乎防御的姿态，雄踞在河畔山丘上，沉默，却充满叙事的力量。
+走进教堂内部的那一瞬间，世界骤然翻转。外面是堡垒般的粗犷与威慑，里面却是一场炫目到令人失语的色彩狂欢。从脚底到高达30米的拱顶，每一寸空间都被蓝色和金色的壁画所覆盖。那是世上面积最大的意大利文艺复兴式壁画群，描绘着《最后的审判》。但最摄人心魄的，是那个被称为“圣塞西尔之天”的穹顶——纯粹的、仿佛没有尽头的蔚蓝色，上面缀满了纯金打造的星星。阳光从高高的彩窗斜射进来，尘埃在光柱中飞舞，空气中混合着古老的石头、熄灭的蜡烛和干燥木材的气味。唱诗班的木雕屏风精美绝伦，你几乎能想象到几个世纪前，教士们在此吟诵，声音在这蓝色的苍穹下回响，对于中世纪的信徒而言，这里就是人间最接近天堂的入口。
+而几步之遥的贝尔比宫，这座曾经的主教宫殿，则讲述了权力的另一面。穿过厚重的拱门，你会进入一个优雅的法式几何花园，修剪整齐的黄杨树散发着清新的植物香气，与教堂的肃穆形成鲜明对比。从这里可以俯瞰塔恩河和整个老城的赭石色屋顶。宫殿内部现在是图卢兹-劳特累克博物馆。想想看，在这座因镇压“异端”而建起的坚固堡垒里，如今却安放着一位以描绘巴黎蒙马特夜生活、舞女和底层人物而闻名世界的画家的全部作品。这种反差充满了哲学的意味：曾经禁锢思想的地方，如今成为了歌颂自由、人性与艺术表达的殿堂。
+阿尔比不是一座死去的博物馆。星期天的早晨，当地人会牵着狗，慢跑穿过教堂前的广场；学生们坐在贝尔比宫花园的长椅上晒太阳、看书；河边的咖啡馆里飘出刚研磨的咖啡香。这座红色的庞然大物，早已从历史的审判者，融入了小镇平缓的日常脉搏里，成为一种沉默而坚固的背景。它提醒着你，最深沉的力量，往往包裹在最朴素的材料之中。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">还记得我第一次走近阿尔比主教城时的感觉吗？那根本不像是在接近一座教堂，更像是在靠近一座从大地里生长出来的、被夕阳熔炼过的红色巨岩。塔恩河弯弯地流过，河水倒映着对岸一整片庞大、坚实、泛着蜂蜜与铁锈般暖红色的建筑轮廓——圣塞西尔主教座堂和它身旁的贝尔比宫。那种红，不是巴黎圣母院石头的灰白冰冷，而是带着南法阳光温度的、有颗粒感的红，当你伸手触摸外墙，粗砺的砖面仿佛还残留着几个世纪前窑火的热度。这座城，就这样以一种不容置疑的、近乎防御的姿态，雄踞在河畔山丘上，沉默，却充满叙事的力量。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">走进教堂内部的那一瞬间，世界骤然翻转。外面是堡垒般的粗犷与威慑，里面却是一场炫目到令人失语的色彩狂欢。从脚底到高达30米的拱顶，每一寸空间都被蓝色和金色的壁画所覆盖。那是世上面积最大的意大利文艺复兴式壁画群，描绘着《最后的审判》。但最摄人心魄的，是那个被称为“圣塞西尔之天”的穹顶——纯粹的、仿佛没有尽头的蔚蓝色，上面缀满了纯金打造的星星。阳光从高高的彩窗斜射进来，尘埃在光柱中飞舞，空气中混合着古老的石头、熄灭的蜡烛和干燥木材的气味。唱诗班的木雕屏风精美绝伦，你几乎能想象到几个世纪前，教士们在此吟诵，声音在这蓝色的苍穹下回响，对于中世纪的信徒而言，这里就是人间最接近天堂的入口。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">而几步之遥的贝尔比宫，这座曾经的主教宫殿，则讲述了权力的另一面。穿过厚重的拱门，你会进入一个优雅的法式几何花园，修剪整齐的黄杨树散发着清新的植物香气，与教堂的肃穆形成鲜明对比。从这里可以俯瞰塔恩河和整个老城的赭石色屋顶。宫殿内部现在是图卢兹-劳特累克博物馆。想想看，在这座因镇压“异端”而建起的坚固堡垒里，如今却安放着一位以描绘巴黎蒙马特夜生活、舞女和底层人物而闻名世界的画家的全部作品。这种反差充满了哲学的意味：曾经禁锢思想的地方，如今成为了歌颂自由、人性与艺术表达的殿堂。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">阿尔比不是一座死去的博物馆。星期天的早晨，当地人会牵着狗，慢跑穿过教堂前的广场；学生们坐在贝尔比宫花园的长椅上晒太阳、看书；河边的咖啡馆里飘出刚研磨的咖啡香。这座红色的庞然大物，早已从历史的审判者，融入了小镇平缓的日常脉搏里，成为一种沉默而坚固的背景。它提醒着你，最深沉的力量，往往包裹在最朴素的材料之中。</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="阿尔比主教城" />
+                <InfoRow label="英文名称" value="Episcopal City of Albi" />
+                <InfoRow label="正式名称" value="Episcopal City of Albi" />
+                <InfoRow label="国家" value="法国" />
+                <InfoRow label="城市" value="阿尔比" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="法国南部保存最完好的中世纪宗教与世俗权力中心之一，是见证天主教会在阿尔比十字军运动后重建权威的活化石。" />
+                <InfoRow label="建筑特色" value="由数以百万计当地烧制的红砖砌筑而成的庞大建筑群，呈现出温暖而恢弘的独特质感，被誉为“红砖哥特式”的巅峰之作。" />
+                <InfoRow label="建筑风格" value="南部哥特式风格，兼具军事堡垒的防御性与宗教建筑的庄严性，融合了文艺复兴及后世的装饰元素。" />
+                <InfoRow label="文化价值" value="一座从宗教堡垒演变为艺术圣地的城池，不仅封印了中世纪晚期的信仰斗争史，更因收藏了画家图卢兹-劳特累克最完整的作品而成为艺术朝圣地。" />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="圣塞西尔主教座堂全年开放，夏季（4月至9月）通常为上午8:30至晚上7:00，冬季（10月至3月）为上午9:00至下午6:00，弥撒期间游客参观可能受限。贝尔比宫内的图卢兹-劳特累克博物馆开放时间为：夏季（6月至9月）每天上午9:00至下午6:00；冬季（10月至5月）除周二闭馆外，上午10:00开放，下午12:00至2:00午休，下午2:00至5:30开放；每年1月1日、5月1日、11月1日和12月25日闭馆。建议行前务必在官网确认最新时刻表。" />
+              <InfoRow label="门票价格" value="进入圣塞西尔主教座堂本身免费。参观教堂的珍宝室或登上钟楼需要购买门票，约4欧元。贝尔比宫内的图卢兹-劳特累克博物馆门票约10欧元，有学生、青年及家庭优惠票。可购买与城内其他博物馆的联票。每年5月的博物馆之夜及9月的文化遗产日免费开放。" />
+              <InfoRow label="地址" value="Palais de la Berbie, Place Sainte-Cécile, 81000 Albi, France" />
+              <InfoRow label="交通方式" value="最近的国际机场是图卢兹-布拉尼亚克机场。从机场出发，可搭乘机场巴士至图卢兹马塔比奥火车站，再转乘TER（区域快铁）前往阿尔比，车程约1小时，班次频繁，几乎每小时一班，建议在SNCF官网或APP提前购票有折扣。若自驾，从图卢兹沿A68高速公路向北行驶约80公里即可抵达。阿尔比老城内的景点极为集中，全部可步行到达，但老城街道多为石板路，建议穿舒适的鞋子。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">要理解阿尔比为何如此“红”、如此“硬核”，你得把时钟拨回到13世纪初。那时，法国南部弥漫着一股与罗马教廷格格不入的清风——卡特里派，或称阿尔比派。他们崇尚简朴，质疑教会的财富与权威，在图卢兹、阿尔比一带影响力巨大。教皇英诺森三世坐不住了，这简直是信仰版图上的裂痕。于是，一场长达二十年的“阿尔比十字军”运动开始了，名义上是讨伐异端，实则充斥着血腥的征服与领土争夺。1229年，随着《巴黎条约》的签订，图卢兹伯爵的领土被大幅削弱，王室和天主教会的权威得以在此地重新扎根。阿尔比主教城，就是在这片被战火与猜忌犁过的土地上，破土而出的宣言。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">建造这座教堂的决定，是一场精心策划的政治与精神重建。1277年，主教贝尔纳·德·卡斯塔内放下了第一块基石。他想要的不是一座温柔的祈祷所，而是一座坚不可摧的信仰堡垒，一个能震慑所有残余异端思想、并昭示天主教会永恒权力的地标。这就是为什么你看到的圣塞西尔座堂几乎没有窗户，墙体厚达数米，西立面的塔楼宛如碉堡。它用的材料，不是昂贵且需要远途运输的切割石材，而是本地河床的黏土烧制的红砖。这既是务实的选择，也让建筑从颜色到质地，都与这片土地的血脉紧紧相连。工程断断续续，跨越了两个世纪，直到1480年，那座高达78米的钟楼才终于封顶。它就像一根巨大的、指向天空的砖红色手指，时刻提醒着人们谁才是这片土地的主宰。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">与此同时，与教堂肩并肩成长的，是主教的宫殿——贝尔比宫（“Berbie”源于奥克语“bisbia”，意为主教）。它的建造始于13世纪，同样坚固无比，拥有城墙、塔楼和防御工事。这里不仅是主教的居所，更是行政与司法中心。你可以想象，在那些年里，身着红袍的主教从宫殿的窗口，就能俯瞰他精神与世俗权力所覆盖的整个教区。教堂与宫殿，一宗教一世俗，像一对红色的双子星，共同定义了阿尔比的天际线，也共同统治着这座城市的生活。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，时间总会带来意想不到的转折。宗教战争的风暴过去后，贝尔比宫在17世纪被改造得更加宜居，拥有了优雅的拱廊和我们现在看到的那片精致花园。而最大的命运转折发生在20世纪。1922年，阿尔比迎来了它最著名的儿子——后印象派大师亨利·德·图卢兹-劳特累克。他的家族将珍藏的其全部作品（超过1000幅）捐赠给了这座城市。还有什么地方，比这座他家乡最宏伟的历史建筑更适合安放他的灵魂呢？于是，曾经的权力中枢变身为博物馆。那些描绘康康舞娘、酒吧顾客、马戏团演员的充满生命力的画作，被悬挂在古老的石墙之上，仿佛一场穿越时空的对话，让禁锢与自由、严肃与欢愉，在这红色的砖墙内达成了奇妙的和解。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  要真正品味阿尔比的精髓，我强烈建议你留出一整天的时间，并遵循“由外至内，由宏至微，最后融入当地”的节奏。早上九点左右抵达是最佳时机，此时的阳光斜射，能将红砖建筑的通透感和立体感完美展现，游客也相对稀少。上午专注于圣塞西尔主教座堂的震撼内部与建筑细节；中午在回廊花园或老城找家餐馆享受南法午餐，感受慢生活；下午沉浸在贝尔比宫的艺术世界里，并在花园里放松；傍晚时分，走上塔恩河的老桥，欣赏主教城在金色夕照下的全景。这样的安排能让你同时领略其宗教威严、艺术灵魂与世俗烟火气，完成一次深度的时空穿越。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>教堂内部分区域在弥撒期间禁止游客进入，建议提前在官网查询礼拜时间并规划避开。老城中心多为步行区，自驾者需将车停在城外的停车场。夏季午后阳光强烈，参观户外和花园时请备好防晒用品。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">一早先从塔恩河对岸的“Pont Vieux”老桥上远眺，用全景视角感受红色主教城在晨光与水影中苏醒的磅礴气势。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">穿过老桥从侧后方接近圣塞西尔主教座堂，仰视它那毫无装饰、如同悬崖峭壁般令人敬畏的堡垒式外墙和直插云霄的钟楼。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从西侧那扇雕刻着《最后的审判》的繁复拱门走进教堂内部，让眼睛适应从砖红到蔚蓝与金黄的色彩巨变，静静聆听管风琴若有似无的回响。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">花至少半小时仰头细看中殿那梦幻的蓝色星空穹顶和满墙的壁画，然后走到精雕细刻的唱诗班屏风前，寻找那些充满世俗趣味的雕刻细节。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从教堂侧面出口步入宁静的回廊花园，坐在长椅上闻着花草香，看鸽子在古老的石柱间嬉戏，让震撼的心灵稍作平复。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">穿过小广场进入贝尔比宫，先在一楼的宏大展厅里沉浸于图卢兹-劳特累克笔下那些线条灵动、色彩大胆的巴黎夜生活与人物肖像。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">移步到宫殿二层的法式几何花园，沿着黄杨树迷宫散步，从制高点俯瞰塔恩河湾与对岸老城层层叠叠的红色屋顶风景。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">傍晚时分回到塔恩河边，找一家有露天座位的咖啡馆，点一杯当地的黑葡萄酒，看着夕阳将整座主教城染成更加浓烈的金红色。</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 老桥中央偏北侧</h4>
+                  <p className="text-sm text-gray-700">日落前的一小时，将主教座堂和贝尔比宫作为主体，利用塔恩河的S形河道作为前景引导线，能拍出建筑与水影交相辉映的经典明信片角度。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 圣塞西尔主教座堂中殿正下方</h4>
+                  <p className="text-sm text-gray-700">上午十点至中午，阳光会从西侧玫瑰窗射入，站在中轴线上仰拍，可以将华丽的管风琴、蓝色星空穹顶与下方光束笼罩的长椅一同纳入镜头，营造神圣的空间纵深感。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 贝尔比宫花园东南角露台</h4>
+                  <p className="text-sm text-gray-700">下午时段，利用花园修剪整齐的绿色黄杨树作为框架，透过拱形绿廊拍摄远处的主教座堂钟楼，形成色彩（红与绿）与形态（自然与建筑）的鲜明对比。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 教堂南侧外墙与“Pont Vieux”老桥引道交汇处</h4>
+                  <p className="text-sm text-gray-700">清晨光线柔和时，贴近巨大的红砖扶壁低角度仰拍，捕捉砖石粗砺的质感和建筑向上收束的凌厉线条，突出其堡垒般的防御性特征。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 室内拍摄务必关闭闪光灯，以保护珍贵的壁画和艺术品。使用广角镜头能更好地捕捉教堂内部震撼的空间感。尊重宗教场所的宁静，避免在礼拜期间使用快门声音过大的相机进行连拍。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">历史沉浸之选</h4>
+                  <p className="text-sm text-blue-800">入住由16世纪联排屋改造的老城中心精品酒店，房间保留了原始的橡木梁和石墙，晚上能听到不远处教堂隐约的钟声，早餐在种满天竺葵的内庭院享用。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">艺术爱好者之家</h4>
+                  <p className="text-sm text-green-800">选择位于贝尔比宫步行五分钟内的设计型公寓，室内装饰现代且点缀着本地艺术家的画作，巨大的窗户正对着主教座堂的侧面，日夜都能欣赏这幅“活”着的风景画。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">河岸宁静居所</h4>
+                  <p className="text-sm text-yellow-800">下榻塔恩河对岸一栋19世纪别墅改造的民宿，房间宽敞并带有临河的小阳台，清晨在鸟鸣中醒来，推开窗便是主教城在水中的完整倒影，氛围静谧如画。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">田园庄园体验</h4>
+                  <p className="text-sm text-purple-800">位于阿尔比市郊葡萄园环绕的古老庄园，由家族经营，提供地道的南法家常晚餐和自产葡萄酒，适合想要远离喧嚣、深度体验上加龙省乡村风情的旅行者。</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">夏季（7-8月）和重要节庆期间住宿非常紧俏，务必提前数月预订。老城内的酒店虽位置极佳，但可能没有电梯且房间较小，预订时需留意。选择河对岸或郊区的住宿通常性价比更高，且能享受更开阔的景色和免费停车。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开阿尔比好些天了，但闭上眼睛，那片铺天盖地的砖红色和教堂内部那片深邃的蔚蓝，依然会清晰地浮现。这座城市教给我的，是一种关于“反差”与“和解”的深刻智慧。它用最坚硬、最具有防御性的姿态诞生，却在数百年后，用它最坚固的躯体，守护了人类最柔软、最自由的艺术灵魂。图卢兹-劳特累克笔下那些边缘却鲜活的生命，在曾经象征绝对权威的宫殿里找到了永恒的归宿，这本身就是一个无比动人的隐喻。它告诉我们，历史的空间从不只有一种解读，权力的堡垒最终可以被美的力量所充盈。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个人人追逐新鲜刺激的时代，阿尔比像一位沉默的红衣哲人，它不讨好，不喧哗，只是静静地矗立在塔恩河畔。它值得你专程绕道而来，花上一整天的时间，去触摸那些温暖的砖石，去仰望那片人造的星空，去花园里感受风的方向。它让你慢下来，在厚重的历史与轻盈的艺术之间，找到内心的平衡。来这里，不是打卡一个世界遗产的标签，而是完成一场与时间、信仰、权力和美的深层对话。当你走过老桥回望，那座红色的城池倒映在流淌的河水里，你会明白，有些地方，之所以能跨越世纪依然直击人心，是因为它们本身就是用故事、矛盾与生命力烧制而成的，一块无比坚硬的“砖”。</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

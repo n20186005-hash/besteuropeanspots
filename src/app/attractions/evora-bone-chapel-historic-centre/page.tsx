@@ -1,0 +1,195 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '埃武拉人骨教堂与古城 Evora｜探索葡萄牙“骨之城”的生死哲学与岁月层叠 - 最佳欧洲景点',
+  description: '车子驶入埃武拉时，第一眼看到的不是骨头，而是阳光。葡萄牙南部的阳光慷慨得近乎暴烈，把古城外围的城墙晒成一种温润的奶黄色。你拖着行李箱走在滚烫的石板路上，空气里有干燥的尘土味、远处咖啡馆飘来的烘焙香，还有不知名花草的辛辣气息。街角的老太太坐在阴影里慢悠悠地剥着豆子，仿佛你和她之间隔着的不是空间，而是一...',
+}
+
+export default function EvoraBoneChapelHistoricCentrePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '埃武拉人骨教堂与古城', href: '/attractions/evora-bone-chapel-historic-centre' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">埃武拉人骨教堂与古城・Evora Bone Chapel and Old Town・葡萄牙・埃武拉</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            车子驶入埃武拉时，第一眼看到的不是骨头，而是阳光。葡萄牙南部的阳光慷慨得近乎暴烈，把古城外围的城墙晒成一种温润的奶黄色。你拖着行李箱走在滚烫的石板路上，空气里有干燥的尘土味、远处咖啡馆飘来的烘焙香，还有不知名花草的辛辣气息。街角的老太太坐在阴影里慢悠悠地剥着豆子，仿佛你和她之间隔着的不是空间，而是一段被拉长了、慵懒至极的时间。这就是埃武拉给你的初印象——一座活着的、呼吸着的、被阳光腌入味的古城，平静，温暖，充满了生活气。你几乎要忘记自己此行的主要目的地，是那座以“死亡”为主题的教堂。
+直到你穿过圣方济各教堂朴素的门廊，向左转入那条低矮的通道。光线骤然暗下来，皮肤上的灼热感瞬间被一股沁入骨髓的阴凉取代。然后，你抬起头，看见它们。不是恐怖片里那种刻意的惊悚，而是一种庞大、静默、近乎神圣的密集。成千上万的股骨、胫骨、颅骨，被精心排列，填满了拱门、立柱和墙壁的每一寸空间。拱顶是白色的，绘着关于生死的格言与图案，与下方森然却有序的骨墙形成一种奇异的对话。没有腐臭，只有老石头、旧木料和一丝若有若无的蜡味。寂静中，你能听到自己的呼吸声，还有远处古城广场上依稀传来的孩童嬉闹声。生与死，在这里被压缩进同一个物理空间，仅仅一墙之隔，却达成了某种惊人的和解。当地人从不会避开这里，他们把它当作生活的一部分，一个用来沉思、纪念、并最终更用力去拥抱阳光与市集的地方。这，才是它最核心的魅力——不是惊吓，而是一种关于生命有限性的、极其直白又无比深刻的庆祝与提醒。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">车子驶入埃武拉时，第一眼看到的不是骨头，而是阳光。葡萄牙南部的阳光慷慨得近乎暴烈，把古城外围的城墙晒成一种温润的奶黄色。你拖着行李箱走在滚烫的石板路上，空气里有干燥的尘土味、远处咖啡馆飘来的烘焙香，还有不知名花草的辛辣气息。街角的老太太坐在阴影里慢悠悠地剥着豆子，仿佛你和她之间隔着的不是空间，而是一段被拉长了、慵懒至极的时间。这就是埃武拉给你的初印象——一座活着的、呼吸着的、被阳光腌入味的古城，平静，温暖，充满了生活气。你几乎要忘记自己此行的主要目的地，是那座以“死亡”为主题的教堂。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">直到你穿过圣方济各教堂朴素的门廊，向左转入那条低矮的通道。光线骤然暗下来，皮肤上的灼热感瞬间被一股沁入骨髓的阴凉取代。然后，你抬起头，看见它们。不是恐怖片里那种刻意的惊悚，而是一种庞大、静默、近乎神圣的密集。成千上万的股骨、胫骨、颅骨，被精心排列，填满了拱门、立柱和墙壁的每一寸空间。拱顶是白色的，绘着关于生死的格言与图案，与下方森然却有序的骨墙形成一种奇异的对话。没有腐臭，只有老石头、旧木料和一丝若有若无的蜡味。寂静中，你能听到自己的呼吸声，还有远处古城广场上依稀传来的孩童嬉闹声。生与死，在这里被压缩进同一个物理空间，仅仅一墙之隔，却达成了某种惊人的和解。当地人从不会避开这里，他们把它当作生活的一部分，一个用来沉思、纪念、并最终更用力去拥抱阳光与市集的地方。这，才是它最核心的魅力——不是惊吓，而是一种关于生命有限性的、极其直白又无比深刻的庆祝与提醒。</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="埃武拉人骨教堂与古城" />
+                <InfoRow label="英文名称" value="Evora Bone Chapel and Old Town" />
+                <InfoRow label="正式名称" value="埃武拉历史中心（Historic Centre of Évora）" />
+                <InfoRow label="国家" value="葡萄牙" />
+                <InfoRow label="城市" value="埃武拉" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="一座用人类骸骨堆砌的圣堂，是欧洲最著名的“死亡警示”纪念地之一，其所在的古城则是葡萄牙黄金时代活生生的博物馆。" />
+                <InfoRow label="建筑特色" value="人骨教堂内部墙壁与立柱完全由约5000具僧侣和平民的骸骨镶嵌而成，形成哥特式与曼努埃尔式风格交织的奇异空间；古城则完整保留了从罗马、摩尔到文艺复兴时期层层叠叠的建筑印记。" />
+                <InfoRow label="建筑风格" value="人骨教堂为晚期哥特式与曼努埃尔风格混合；古城整体是罗马、摩尔、中世纪及文艺复兴多种风格的融合体。" />
+                <InfoRow label="文化价值" value="它直观展现了伊比利亚半岛特有的、直面死亡的宗教哲学与世俗生活智慧，是整个阿尔entejo地区历史与文化浓缩的瑰宝。" />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="人骨教堂（圣方济各教堂的一部分）：夏季（4月至10月）上午9:00至下午6:15；冬季（11月至3月）上午9:00至下午5:15。圣诞节和元旦关闭。埃武拉古城本身全天开放，但各博物馆和小景点有独立开放时间，通常为上午10:00至下午6:00，周一大多闭馆。建议出行前再次核对具体日期。" />
+              <InfoRow label="门票价格" value="人骨教堂门票约5欧元。套票（包含人骨教堂、埃武拉大教堂等主要景点）约10-15欧元，更为划算。学生及65岁以上老人通常有折扣，12岁以下儿童免费。古城墙和公共广场免费进入。" />
+              <InfoRow label="地址" value="Capela dos Ossos, Praça 1º de Maio 4, 7000-650 Évora, Portugal" />
+              <InfoRow label="交通方式" value="从里斯本出发最方便。在里斯本奥连特车站乘坐火车，直达埃武拉站，车程约1.5小时，班次频繁，建议提前在葡萄牙铁路官网购票。从埃武拉火车站到古城中心，步行约15-20分钟，沿途会经过一段缓坡，也可以搭乘本地出租车（约5分钟车程）。若自驾，古城外有多个付费停车场，但古城内街道狭窄，不建议开车进入。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">要理解埃武拉为什么会拥有一座人骨教堂，你得先了解这座古城本身有多“老”。早在罗马帝国时代，这里就是重要的军事和贸易据点，你可以从今天依然伫立的黛安娜神庙石柱上，触摸到那股宏大的帝国余温。后来，摩尔人来了，带来了精巧的灌溉系统和建筑美学，那些弯弯曲曲、白墙蓝边的巷弄，至今还留着北非的魂。到了15、16世纪，埃武拉迎来了它的黄金时代。葡萄牙的航海王子们把这里当作离宫，国王若昂二世在这里加冕，曼努埃尔一世更是在此建立了辉煌的宫廷。大学成立了，艺术家和学者云集，一座座融合了海上探险元素（缆绳、贝壳、地球仪）的曼努埃尔式建筑拔地而起。那时的埃武拉，是整个王国智慧、财富与权力的心脏之一，空气中弥漫着野心、香料和文艺复兴思想的味道。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，极致的繁华也伴随着巨大的阴影。黑死病的反复侵袭、与邻国无休止的战争，以及海外殖民带来的资源紧张，让死亡成为那个时代挥之不去的常客。城外的墓地很快就不够用了。到了16世纪，据说城中有多达43处墓地，占据了宝贵的土地。当时，一位虔诚的方济各会修士提出了一个大胆、务实又充满宗教寓意的方案：为什么不将那些遗骨集中起来，清理、排序，用它们来建造一座小堂呢？这既能解决土地问题，又能给生者一个触手可及的“死亡警示”（Memento Mori）。于是，在16世纪末到17世纪初，这座独一无二的“骨头礼拜堂”在圣方济各教堂的修道院区域建成了。所用的骨骼，大多来自那些普通市民和僧侣，他们平等地构成了这面墙，无声地诉说着“你我终将如此”的真理。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">走进教堂，入口上方那句用葡萄牙语刻成的著名铭文，直白得令人心悸：“Nós ossos que aqui estamos, pelos vossos esperamos。”——“我们的骨头在此等待你们的骨头。”这不是恐吓，而是一种来自兄弟会修士的、带着悲悯的邀请。它继承了中世纪晚期欧洲盛行的“死亡之舞”艺术传统，将死亡平等化、日常化。在伊比利亚半岛，特别是深受天主教严苛修行思想影响的地区，这种直面骸骨、沉思生命短暂的行为，被视为一种重要的灵修。它强迫你放下虚荣，思考什么才是永恒。几个世纪以来，这座小堂就这样静静存在着，经历了地震的轻微撼动，见证了拿破仑军队的短暂占领，看着古城从荣耀巅峰渐渐归于平静的省府生活。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">今天的埃武拉古城，已被列入世界文化遗产。人骨教堂不再是恐惧的代名词，而是一个文化符号。游客们带着复杂的心情进来，静默地出去。而古城本身，那些罗马的神庙、摩尔的水池、中世纪的城墙、曼努埃尔的宫殿，连同这座骨头教堂，共同构成了一部立体的、可触摸的史书。每一层都是对上一层的覆盖与对话，最终沉淀为如今这种复杂而迷人的气质——既享受现世的阳光与美酒，又不忘在骨头的静默中，获取一份关于存在的清醒。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  要完整感受埃武拉的层次，你需要预留至少一整天。建议前一晚住在古城内，第二天清晨八点左右出发。那时的光线最柔和，街道还未被游客填满。整个游览节奏应该是“先抑后扬”：先从最具冲击力的人骨教堂开始，在寂静中完成对生死命题的初体验；然后登上埃武拉大教堂的屋顶，在广阔视野中将思绪拉回现世；接着，像剥洋葱一样，一层层探访更古老的罗马与摩尔遗迹；最后，彻底融入古城的市井生活，在广场和巷弄中感受它的脉搏。这样的安排，能让你的情感经历一次完整的起伏，从沉思到开阔，从历史到当下，深度理解这座“博物馆城市”的全貌。整体耗时约8-9小时，包括悠闲的午餐和咖啡时间。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>正午到下午三点阳光最烈，尽量安排室内参观（如博物馆）或午餐休息，避免中暑。古城石板路凹凸不平且多坡，务必穿一双绝对舒适的步行鞋。购买景点套票比单买更划算，在第一个景点售票处就能买到。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">一早趁着清冽的空气和斜长的阳光，从罗马神庙残存的科林斯石柱下走过，感受两千年前的帝国晨风</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">推开圣方济各教堂厚重的木门，先在中殿适应昏暗的光线，再向左转入那间由五千具骸骨筑成的静默圣堂</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从人骨教堂出来后，径直走向不远处的埃武拉大教堂，攀爬狭窄的螺旋石阶直到屋顶平台，让阿尔entejo平原的无边风光冲刷掉胸腔里的凝重</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">钻进大教堂背后迷宫般的白色小巷，寻找那座隐藏的摩尔人洗衣房，听流水在古老石槽中潺潺回响了数个世纪的声音</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在吉拉尔多广场的拱廊下找一家老咖啡馆，点一杯bica（浓缩咖啡），就着杏仁甜饼看当地人如何在这座露天客厅里闲聊、买卖、度过午后</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">漫步到古老的埃武拉大学，抚摸那些用软木镶嵌装饰的教室门廊，混入年轻学生当中感受知识在这座古城里从未中断的传承</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">一定要在夕阳西下前登上那段保存完好的中世纪城墙，看着金色的光将整个古城染成蜜糖色，炊烟与教堂钟声一同升起</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">晚餐不必拘泥于高级餐厅，找一家有庭院的老酒馆，点上一锅醇厚的阿连特茹炖菜，配本地产的红酒，让味道成为记忆的最终锚点</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 人骨教堂内部严禁使用闪光灯和三脚架，在入口处抓住眼睛适应昏暗光线的瞬间，用高感光度捕捉第一眼看到骨墙时那种结构性的震撼，构图可突出拱顶壁画与下方骨墙的对比</h4>
+                  <p className="text-sm text-gray-700">人骨教堂内部严禁使用闪光灯和三脚架，在入口处抓住眼睛适应昏暗光线的瞬间，用高感光度捕捉第一眼看到骨墙时那种结构性的震撼，构图可突出拱顶壁画与下方骨墙的对比</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 埃武拉大教堂屋顶平台西侧角落，下午四点后的侧光时分，以巨大的钟楼为前景，将远处平原上的橄榄树林和星点屋舍作为背景，拍出古城与广阔土地的依存关系</h4>
+                  <p className="text-sm text-gray-700">埃武拉大教堂屋顶平台西侧角落，下午四点后的侧光时分，以巨大的钟楼为前景，将远处平原上的橄榄树林和星点屋舍作为背景，拍出古城与广阔土地的依存关系</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 摩尔人洗衣房内部，正午时分阳光会从上方孔洞射入，形成光束照亮流淌的水面和古老石阶，用慢门可以拍出水流如丝绸般的光影质感</h4>
+                  <p className="text-sm text-gray-700">摩尔人洗衣房内部，正午时分阳光会从上方孔洞射入，形成光束照亮流淌的水面和古老石阶，用慢门可以拍出水流如丝绸般的光影质感</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 在萨拉曼卡街某段上坡路的尽头回首，清晨或黄昏的低角度光线会将两旁奶黄色的房屋照得通透明亮，形成一条温暖的光之隧道，人物走在其中会成为绝佳的点缀</h4>
+                  <p className="text-sm text-gray-700">在萨拉曼卡街某段上坡路的尽头回首，清晨或黄昏的低角度光线会将两旁奶黄色的房屋照得通透明亮，形成一条温暖的光之隧道，人物走在其中会成为绝佳的点缀</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 从城外“公共花园”的某个高点远眺，日出后一小时，晨雾尚未完全散去时，可以拍到整个埃武拉古城戴着一顶由教堂尖塔和城墙组成的“王冠”的经典全景</h4>
+                  <p className="text-sm text-gray-700">从城外“公共花园”的某个高点远眺，日出后一小时，晨雾尚未完全散去时，可以拍到整个埃武拉古城戴着一顶由教堂尖塔和城墙组成的“王冠”的经典全景</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 在人骨教堂内拍摄务必保持肃静和绝对尊重，任何轻佻或搞怪的姿势都是大忌。阿尔entejo地区光线对比强烈，建议使用RAW格式拍摄以便后期调整阴影和高光细节。拍摄当地居民，尤其是老人，一个微笑和眼神征询比举起相机直接拍更重要。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">历史沉浸之选</h4>
+                  <p className="text-sm text-blue-800">住在由16世纪贵族宫殿改造的精品酒店，房间有裸露的原始石墙和木梁，庭院里种着橘子树，晚上能听到远处大教堂的钟声</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">田园诗幻想</h4>
+                  <p className="text-sm text-green-800">选择古城外几公里处一座由传统农庄“蒙特”改造的乡村旅馆，睡在厚厚的白墙房间里，清晨被羊群的铃声和软木橡树的香气唤醒</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">设计师的古城视角</h4>
+                  <p className="text-sm text-yellow-800">一家藏在僻静小巷里的现代设计酒店，将古老的拱顶结构与极简家具巧妙融合，顶楼的露台是私享古城日落全景的秘密度假地</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">学生区的活力</h4>
+                  <p className="text-sm text-purple-800">住在大学区附近一栋色彩鲜艳的公寓里，楼下就是热闹又实惠的本地小餐馆，让你完全融入古城年轻而富有活力的日常节奏中</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">古城中心区的石板路对拖拉行李箱极不友好，预订时务必确认酒店是否提供从附近停车点的行李搬运服务。夏季（7-8月）非常炎热且游客众多，春季（4-6月）和秋季（9-10月）气候宜人，是更理想的住宿和游览季节。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开埃武拉的那个傍晚，我又去了一趟吉拉尔多广场。夕阳的余晖把广场上的大理石柱染成粉金色，孩子们在追逐鸽子，老头们还在下那盘似乎永远下不完的棋。我的手里不再有相机的重量，只是捧着一杯慢慢变凉的咖啡。那一刻我突然明白了埃武拉给我的最深触动。它没有试图用历史遗迹把你压得喘不过气，也没有用人骨教堂把你吓得魂不守舍。它只是平静地、层层叠叠地，把时间的所有面貌——罗马的雄心、摩尔的精巧、帝国的辉煌、瘟疫的创伤、宗教的沉思、以及日常的柴米油盐——全部摊开在你面前，任你观看、触摸、甚至品尝。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">人骨教堂不是终点，而是一个起点。它强迫你正视生命的有限，然后，当你走出那扇门，重新踏入炽热的阳光和喧闹的市集时，你会对眼前这份鲜活、嘈杂、带着些许混乱的人间烟火，产生一种前所未有的珍惜。生与死在这里不是对立的两极，而是一个完整的循环，是同一枚硬币的两面。古城用它每一块温润的石头、每一道狭窄的阴影、每一杯街头售卖的樱桃酒告诉你：历史不是教科书里枯燥的年份，它是我们脚下被磨得发亮的石板，是空气中混合的香料与尘土味，是我们每个人终将成为故事一部分的坦然承诺。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">所以，每一位热爱深度游的旅人，都应该来一次埃武拉。不是为了猎奇那面骨头墙，而是为了经历一次完整的心灵校准。在这座“博物馆城市”里走上一遭，你会带着一种更清醒、也更温暖的视角，回到自己的生活中去。你知道万物皆有尽头，正如你知道此刻的阳光如此美好，值得为之干杯。这，或许就是旅行能带给我们的，最珍贵的礼物。</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,192 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '奥比杜什婚礼之城 Óbidos｜葡萄牙白色童话镇，国王赠予王后的浪漫礼物 - 最佳欧洲景点',
+  description: '车子驶离高速，拐上一条乡间小路，远远地，你就看见它了。在一马平川的绿野中央，一座奶白色的小镇如同一个精致的婚礼蛋糕，被一堵高耸的、蜂蜜色石头城墙稳稳地托在丘陵之上。那一刻，你觉得时间真的可以凝固。这就是奥比杜什给你的第一眼震撼——不真实的美。穿过那座威严的、镶嵌着蓝白瓷砖的圣玛丽亚城门，你就正式踏入...',
+}
+
+export default function ObidosWeddingTownPortugalPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '奥比杜什婚礼之城', href: '/attractions/obidos-wedding-town-portugal' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">奥比杜什婚礼之城・Óbidos・葡萄牙・奥比杜什</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            车子驶离高速，拐上一条乡间小路，远远地，你就看见它了。在一马平川的绿野中央，一座奶白色的小镇如同一个精致的婚礼蛋糕，被一堵高耸的、蜂蜜色石头城墙稳稳地托在丘陵之上。那一刻，你觉得时间真的可以凝固。这就是奥比杜什给你的第一眼震撼——不真实的美。穿过那座威严的、镶嵌着蓝白瓷砖的圣玛丽亚城门，你就正式踏入了这个童话的结界。
+脚下的“直街”其实一点也不直，它顺着山势蜿蜒，用被岁月磨得温润发亮的黑色碎石铺就，像一条流淌的河。街道两旁，是挤挤挨挨的白色小屋，窗框和门廊被涂成明亮的鹅黄或天蓝，几乎每家窗台和门前都垂挂着灿烂的天竺葵或九重葛，紫的、红的，泼洒着浓郁的地中海色彩。空气里飘着复杂的香气：刚出炉的“吉尼亚”樱桃酒巧克力杯的甜腻，混合着附近面包房飘来的黄油香，偶尔还有炭火烤栗子那暖烘烘的焦香。你能听到清脆的陶瓷碰撞声，那是店主在整理那些著名的彩绘公鸡；还有街头艺人用葡萄牙吉他弹奏的法多，哀婉的曲调在狭窄的街巷里撞来撞去，最后变成一缕淡淡的忧伤，萦绕在墙头。
+这里最打动人心的，不是某个单一的宏伟建筑，而是一种整体性的、被精心呵护的生活剧场感。它当然是为游客存在的，但你依然能瞥见真实的生活脉络：老奶奶从二楼窗户探出身来收晾晒的床单，猫咪在阳光斑驳的石阶上打盹，肉铺老板用方言和熟客大声寒暄。这座城没有被博物馆化，它依然在呼吸，只是节奏慢得像一首古老的歌谣。而这一切的核心，是那份传承了七百多年的浪漫——它是一座被作为“爱的礼物”反复赠予的城市，这份最初的柔情，似乎浸透在了每一块城墙石和每一片屋瓦里，让坚硬的军事堡垒，散发出不可思议的温柔光晕。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">车子驶离高速，拐上一条乡间小路，远远地，你就看见它了。在一马平川的绿野中央，一座奶白色的小镇如同一个精致的婚礼蛋糕，被一堵高耸的、蜂蜜色石头城墙稳稳地托在丘陵之上。那一刻，你觉得时间真的可以凝固。这就是奥比杜什给你的第一眼震撼——不真实的美。穿过那座威严的、镶嵌着蓝白瓷砖的圣玛丽亚城门，你就正式踏入了这个童话的结界。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">脚下的“直街”其实一点也不直，它顺着山势蜿蜒，用被岁月磨得温润发亮的黑色碎石铺就，像一条流淌的河。街道两旁，是挤挤挨挨的白色小屋，窗框和门廊被涂成明亮的鹅黄或天蓝，几乎每家窗台和门前都垂挂着灿烂的天竺葵或九重葛，紫的、红的，泼洒着浓郁的地中海色彩。空气里飘着复杂的香气：刚出炉的“吉尼亚”樱桃酒巧克力杯的甜腻，混合着附近面包房飘来的黄油香，偶尔还有炭火烤栗子那暖烘烘的焦香。你能听到清脆的陶瓷碰撞声，那是店主在整理那些著名的彩绘公鸡；还有街头艺人用葡萄牙吉他弹奏的法多，哀婉的曲调在狭窄的街巷里撞来撞去，最后变成一缕淡淡的忧伤，萦绕在墙头。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这里最打动人心的，不是某个单一的宏伟建筑，而是一种整体性的、被精心呵护的生活剧场感。它当然是为游客存在的，但你依然能瞥见真实的生活脉络：老奶奶从二楼窗户探出身来收晾晒的床单，猫咪在阳光斑驳的石阶上打盹，肉铺老板用方言和熟客大声寒暄。这座城没有被博物馆化，它依然在呼吸，只是节奏慢得像一首古老的歌谣。而这一切的核心，是那份传承了七百多年的浪漫——它是一座被作为“爱的礼物”反复赠予的城市，这份最初的柔情，似乎浸透在了每一块城墙石和每一片屋瓦里，让坚硬的军事堡垒，散发出不可思议的温柔光晕。</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="奥比杜什婚礼之城" />
+                <InfoRow label="英文名称" value="Óbidos" />
+                <InfoRow label="正式名称" value="Óbidos" />
+                <InfoRow label="国家" value="葡萄牙" />
+                <InfoRow label="城市" value="奥比杜什" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="一座被完整保存的中世纪防御城镇，因其作为国王赠予王后的婚礼礼物的浪漫传统而闻名于世。" />
+                <InfoRow label="建筑特色" value="以巍峨的城堡为核心，被全长约1.5公里的雄浑石灰岩城墙完整环绕，城内是迷宫般的白色房屋与蓝黄镶边的街道。" />
+                <InfoRow label="建筑风格" value="以中世纪军事哥特式城堡和城墙为主体，融合了后来的曼努埃尔式、文艺复兴及巴洛克装饰元素。" />
+                <InfoRow label="文化价值" value="是葡萄牙“曼努埃尔风格”建筑的重要展示地，其“国王的礼物”传统更是成为了葡萄牙浪漫文化遗产的象征。" />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="小镇公共区域全天开放。主要景点如奥比杜什城堡、城墙、圣玛丽亚教堂等开放时间各异，通常为夏季（4月至10月）上午9:30至晚上7:00，冬季（11月至3月）上午9:30至下午5:00。部分博物馆周一闭馆。圣诞节、元旦和复活节当天可能缩短开放时间或关闭。建议行前查询具体景点的官方网站。" />
+              <InfoRow label="门票价格" value="进入奥比杜什古城本身免费。攀登城墙免费。参观城堡内部（现为酒店）通常仅限于住客或餐厅顾客，但庭院可自由参观。圣玛丽亚教堂免费进入。一些小型博物馆如市立博物馆门票约2-3欧元。无强制性联票。" />
+              <InfoRow label="地址" value="Rua Direita, 2510-001 Óbidos, Portugal" />
+              <InfoRow label="交通方式" value="从里斯本出发最为便捷。自驾：沿A8高速公路向北，从Óbidos出口下，约1小时车程，古城外有大型付费停车场。公共交通：从里斯本的坎波格兰德（Campo Grande）或恩特雷坎波斯（Entrecampos）火车站乘坐火车至Óbidos站，车程约2小时15分钟，班次约每小时一班，可在葡萄牙铁路（CP）官网购票。火车站距离古城入口约1公里，可步行或搭乘出租车。从火车站步行上坡进入古城是一段不错的预热旅程。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">要讲奥比杜什的故事，得从一个深情的国王说起。时间回到1282年，葡萄牙国王迪尼斯一世，这位被誉为“诗人国王”的君主，迎娶了来自阿拉贡的伊莎贝尔公主。据说，在前往婚礼举办地科英布拉的途中，国王和他的新婚王后途径了当时刚从摩尔人手中夺回不久的奥比杜什。当伊莎贝尔王后看到这座雄踞山丘、在阳光下闪闪发光的白色小镇时，她被深深迷住了。深爱着王后的迪尼斯一世，当即做出一个惊人的决定：将整个奥比杜什镇作为结婚礼物，赠予他的王后。这个浪漫至极的举动，开启了一个延续几个世纪的王室传统。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">从此，奥比杜什便成了历代葡萄牙国王送给未来王后的标配“聘礼”。从迪尼斯与伊莎贝尔开始，历经费尔南多一世与莱昂诺尔，曼努埃尔一世与两位王后……它像一枚传承的戒指，在国王与王后之间传递，见证了无数王室婚礼的喜悦与盟誓。这份礼物不仅象征着爱情，更是一份实打实的财产和封地，为王后提供了独立的收入来源。这也让奥比杜什获得了“王后镇”和“婚礼之城”的美名，浪漫的基因从此镌刻在了它的命运里。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，浪漫故事的背景板，却是严峻的军事要塞。早在罗马时代，这里就有人定居。摩尔人占领时期，他们看中了这里的战略高度，修建了坚固的城堡和防御工事。1148年，葡萄牙的开国君主阿方索·恩里克斯经过艰苦战斗，从摩尔人手中夺取了此地，为葡萄牙王国的北方防线打下了关键一环。你如今看到的宏伟城墙，大部分是在迪尼斯一世时代加固和扩建的，他既送了礼物，也加固了盾牌。城墙在14世纪基本定型，完整地环绕了整个定居点，使其成为伊比利亚半岛保存最完好的中世纪防御城镇范本之一。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">到了16世纪大航海时代，奥比杜什迎来了它的艺术巅峰。当时在位的曼努埃尔一世国王，将来自印度、非洲的巨额财富，倾注到对国家的美化中，形成了独特的“曼努埃尔风格”。这种风格大量运用航海元素：缆绳、贝壳、锚链。奥比杜什的圣玛丽亚教堂正门、以及城堡的某些部分，都被巧妙地融入了这些华丽的石雕。你可以去找找看教堂门框上缠绕的石刻缆绳，那是属于海洋帝国的豪迈与精致。不幸的是，1755年那场摧毁里斯本的大地震也严重波及了这里，许多建筑受损，我们今天看到的城镇，是历经多次修复后的样貌。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">时光流转，王室赠礼的传统随着君主制的衰落而终结，奥比杜什也一度沉寂。但它的美并未被遗忘。上世纪中叶，人们意识到这座“活化石”的珍贵，开始了系统的保护和修复。城堡被改造成了一家国家酒店，这可能是全世界最酷的酒店之一——你确实可以睡在国王的城堡里。每年夏天，这里还会举办盛大的中世纪集市，整个镇子瞬间“穿越”，士兵、骑士、商贩和杂耍艺人填满街道，让你真切地触摸到那段铠甲与玫瑰并存的历史。从国王的聘礼，到旅人的梦境，奥比杜什完成了它最动人的传承。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  理想的方式是在这里住上一晚，感受游客散去后古镇的静谧与晨光中的清新。如果是一日游，强烈建议在上午10点前抵达，此时旅游大巴尚未涌入，光线柔和。整体游览时间建议预留4-6小时，节奏宜慢不宜快，因为奥比杜什的魅力在于“沉浸”而非“打卡”。路线设计为环线：从主城门进入，沿主街缓缓上行至城堡，然后选择一段城墙漫步，最后从侧面的小巷穿行而下，完成一个圆满的探索循环。这样的安排能让你先体验街巷的热闹与细节，再登上高处获得全景的震撼，最后在安静的后街发现意外之喜。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>城墙漫步一定要注意安全，部分路段没有护栏且路面不平，务必穿防滑的平底鞋，风雨天绝对不要上去。
+小镇在夏季周末和7月的中世纪集市期间人流量巨大，尽量错峰或赶早，才能真正领略它的宁静之美。
+购买纪念品时，除了彩绘公鸡，可以留意手工陶瓷和刺绣品，直街尽头和侧巷的小店价格往往更实在。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从圣玛丽亚城门仰头进入，仔细看看拱门上精美的18世纪蓝白瓷砖画，描绘着圣母加冕的场景。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">沿着人头攒动但充满生活气息的直街向上慢行，别忘了侧身钻进那些狭窄的拱门小巷，里面往往藏着开满鲜花的安静庭院。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在直街中段的某个小店驻足，买一个经典的吉尼亚巧克力杯，让店家斟满当地的樱桃酒，体验一口甜烈交融的本地传统。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">登上城堡广场，绕着那座庞然大物般的曼努埃尔风格城堡走一圈，从各个角度感受它的威严，并坐在广场长椅上看看来往的行人。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">选择城堡右侧（北侧）的一段城墙开始你的漫步，手扶古老的垛口，脚下是白色的屋顶和远方的平原，风在耳边呼呼作响。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从城墙的某个阶梯下来，迷失在城堡后方那片几乎没有游客的宁静住宅区，那里的白墙更斑驳，花朵更肆意。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">最终找到回到主街下段的路，在落日的余晖中再次走过那些橱窗，你会发现同样的街道在金色光线下有了完全不同的表情。</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 城堡广场西侧边缘</h4>
+                  <p className="text-sm text-gray-700">日落前一小时，以巨大的城堡石墙为前景，可以拍到蜿蜒的直街、层层叠叠的白色屋顶一直延伸到远方平原的壮阔全景。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 直街中段的一个小拱门内</h4>
+                  <p className="text-sm text-gray-700">上午阳光能斜射入巷时，站在巷内向外拍，以拱门为画框，框住外面熙攘的街道和行人，形成动静明暗的强烈对比。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 北段城墙的拐角处</h4>
+                  <p className="text-sm text-gray-700">清晨或傍晚，利用城墙的曲线作为引导线，将镜头对准城墙上一对手牵手的旅人剪影，背景是辽阔的田园风光，故事感十足。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 圣玛丽亚教堂内部主祭坛侧方</h4>
+                  <p className="text-sm text-gray-700">当阳光透过高侧窗射入教堂时，可以拍到曼努埃尔风格雕刻上光影流动的神圣细节，建议使用三脚架慢门拍摄。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 航拍能获得无比震撼的环形城墙全景，但务必提前查询葡萄牙的无人机法规，并绝对尊重居民隐私，避开人群。</li>
+                <li>• 拍摄当地居民，尤其是老人和店主时，请务必先微笑示意并获得同意，葡萄牙人普遍友好，但礼貌是首要的。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">背包客之选</h4>
+                  <p className="text-sm text-blue-800">古城墙脚下的官方青年旅舍，由老房子改造而成，拥有一个种满橙树的小庭院，晚上可以和其他旅行者分享故事。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">文艺灵魂最爱</h4>
+                  <p className="text-sm text-green-800">世界上最有名的书店酒店之一“文学酒店”，房间以不同的作家和作品为主题，睡在书海之中，楼梯间都摆满了古董书。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">特色沉浸体验</h4>
+                  <p className="text-sm text-yellow-800">住在奥比杜什城堡本身！这家国营历史酒店让你真正成为“城堡主人”，在古老的石拱大厅用早餐，夜晚独享空旷的城堡广场。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">田园风光逃离</h4>
+                  <p className="text-sm text-purple-800">选择古城外几分钟车程的乡村庄园酒店，坐拥大片葡萄园或橄榄园，在无边泳池里遥望夜幕中点灯的童话小镇，极致浪漫。</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">古城内的住宿数量有限且非常抢手，尤其是城堡酒店和特色民宿，务必提前数月预订。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">住在古城内意味着你要拖着行李走过碎石路和可能的台阶，建议轻装或选择提供行李搬运服务的酒店。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">夏季的夜晚，古城墙会被柔和的灯光打亮，住在城内可以独享这份魔幻的夜景，这是当日往返游客无法体验的奢侈。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开奥比杜什时，我带回的不是沉重的纪念品，而是一种轻盈的心境。它像是一个关于“保存”的温柔寓言。在这个世界上，人们保存金银，保存数据，保存权力。而奥比杜什，保存了一场发生在1282年的心动，保存了国王那一刻想要把整个世界摘下来献给爱人的笨拙与真诚。并且，他们用白色的石灰，蓝色的窗框，连绵的城墙，用七八百年的时光，小心翼翼地把这份心动物化了，凝固了，让你我今天还能走进去，被它轻轻包裹。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在一切都追求效率、追求爆炸性变革的时代，奥比杜什的存在是一种沉默的反抗。它反抗遗忘，反抗同质化，反抗“实用主义”对浪漫的蚕食。它告诉你，有些价值，比如美，比如爱，比如对历史的敬畏，是可以不产生直接经济效益，却值得一个民族世代守护的。走在它的城墙之上，你脚下是冷硬的、用于防御的石头，眼中是温柔的、用于生活的白色屋瓦。这恰恰是它最深刻的隐喻：最坚固的防御，或许不是为了阻挡敌人，而是为了守护内心最柔软的那部分——我们对诗意、对传奇、对一种不慌不忙生活方式的渴望。所以，每一个觉得现实有些粗糙、有些匆忙的人，都应该来一次奥比杜什。它是一剂温柔的解药，让你相信，童话不是编出来的，它真的可以用石头和鲜花砌成，并且，一直在那里，等着你回家。</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

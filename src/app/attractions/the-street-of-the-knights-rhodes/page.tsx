@@ -1,0 +1,193 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '骑士街 The Street of the Knights｜穿越回中世纪骑士团的权力走廊 - 最佳欧洲景点',
+  description: '当你的脚步第一次从老城喧闹的苏格拉底街拐进骑士街的入口，仿佛瞬间被按下了静音键，然后切换了时空频道。上一秒还是地中海的阳光、冰淇淋的甜腻和旅游纪念品的斑斓，下一秒，整个世界沉静下来，变成了一种统一的、厚重的石灰色。脚下是几百年被脚步和马车磨得光滑发亮的鹅卵石，它们紧密地嵌在一起，铺成一条微微上坡的通...',
+}
+
+export default function TheStreetOfTheKnightsRhodesPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '骑士街', href: '/attractions/the-street-of-the-knights-rhodes' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">骑士街・The Street of the Knights・希腊・罗德岛</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            当你的脚步第一次从老城喧闹的苏格拉底街拐进骑士街的入口，仿佛瞬间被按下了静音键，然后切换了时空频道。上一秒还是地中海的阳光、冰淇淋的甜腻和旅游纪念品的斑斓，下一秒，整个世界沉静下来，变成了一种统一的、厚重的石灰色。脚下是几百年被脚步和马车磨得光滑发亮的鹅卵石，它们紧密地嵌在一起，铺成一条微微上坡的通道，一直延伸到视线尽头那座威严的宫殿大门。空气里的味道变了，不再是海风的咸腥和小吃的油烟，而是一种石头在午后阳光下微微蒸腾出的、干燥的矿物质气息，混合着从古老墙缝里渗出的、淡淡的凉意。
+这条街并不宽，但异常高挑肃穆。两侧是连续不断、高达两三层的石砌建筑，墙面几乎没有任何花哨的装饰，只有巨大而齐整的方形石块，它们沉默地垒叠上去，让街道变成了一条深邃的峡谷。阳光很难直射到路面，只在一天中某些特定的时刻，会以极低的角度斜切进来，在石壁上拉出锋利的光与影的分界线，照亮墙上那些历经风雨的骑士盾徽。你几乎能听到历史的回声——不是喊杀声，而是皮革靴子踏在石板上沉稳的“叩、叩”声，铁甲鳞片摩擦的轻微细响，以及拉丁语、法语、意大利语低声交谈的混响。这里没有商店，没有咖啡馆，只有紧闭的厚重木门和狭小的窗口，提醒你这曾是一个纪律严明的军事修会内部的核心地带，而非寻常市井。
+最打动人的，是它那种“活着的废墟”感。它保存得太完整了，完整到不像一个景点，而像一条仍然在使用中的、属于另一个时代的行政街道。如今，这些建筑门口挂着各国考古学校、文化机构或领事馆的铜牌，为这条古老的权力走廊注入了新的、安静的学术生命。你走在其中，不再是隔着玻璃橱窗观看历史，而是真正被历史四面八方的石墙所包裹。那种压迫感和崇高感交织的体验，是任何博物馆的沙盘模型都无法给予的。它让你直观地感受到，中世纪骑士团不仅是一个浪漫传说，更是一个拥有严苛等级、强大组织力和惊人建筑能力的现实实体。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">当你的脚步第一次从老城喧闹的苏格拉底街拐进骑士街的入口，仿佛瞬间被按下了静音键，然后切换了时空频道。上一秒还是地中海的阳光、冰淇淋的甜腻和旅游纪念品的斑斓，下一秒，整个世界沉静下来，变成了一种统一的、厚重的石灰色。脚下是几百年被脚步和马车磨得光滑发亮的鹅卵石，它们紧密地嵌在一起，铺成一条微微上坡的通道，一直延伸到视线尽头那座威严的宫殿大门。空气里的味道变了，不再是海风的咸腥和小吃的油烟，而是一种石头在午后阳光下微微蒸腾出的、干燥的矿物质气息，混合着从古老墙缝里渗出的、淡淡的凉意。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这条街并不宽，但异常高挑肃穆。两侧是连续不断、高达两三层的石砌建筑，墙面几乎没有任何花哨的装饰，只有巨大而齐整的方形石块，它们沉默地垒叠上去，让街道变成了一条深邃的峡谷。阳光很难直射到路面，只在一天中某些特定的时刻，会以极低的角度斜切进来，在石壁上拉出锋利的光与影的分界线，照亮墙上那些历经风雨的骑士盾徽。你几乎能听到历史的回声——不是喊杀声，而是皮革靴子踏在石板上沉稳的“叩、叩”声，铁甲鳞片摩擦的轻微细响，以及拉丁语、法语、意大利语低声交谈的混响。这里没有商店，没有咖啡馆，只有紧闭的厚重木门和狭小的窗口，提醒你这曾是一个纪律严明的军事修会内部的核心地带，而非寻常市井。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">最打动人的，是它那种“活着的废墟”感。它保存得太完整了，完整到不像一个景点，而像一条仍然在使用中的、属于另一个时代的行政街道。如今，这些建筑门口挂着各国考古学校、文化机构或领事馆的铜牌，为这条古老的权力走廊注入了新的、安静的学术生命。你走在其中，不再是隔着玻璃橱窗观看历史，而是真正被历史四面八方的石墙所包裹。那种压迫感和崇高感交织的体验，是任何博物馆的沙盘模型都无法给予的。它让你直观地感受到，中世纪骑士团不仅是一个浪漫传说，更是一个拥有严苛等级、强大组织力和惊人建筑能力的现实实体。</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="骑士街" />
+                <InfoRow label="英文名称" value="The Street of the Knights" />
+                <InfoRow label="正式名称" value="The Street of the Knights" />
+                <InfoRow label="国家" value="希腊" />
+                <InfoRow label="城市" value="罗德岛" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="这里是世界上保存最完好的中世纪哥特式街道，也是医院骑士团在罗德岛时期（1309-1522年）行政与权力的核心脊柱。" />
+                <InfoRow label="建筑特色" value="一条笔直、严肃、长约200米的鹅卵石坡道，两侧林立着根据骑士团“语言”（即地域分支）划分的、庄严的旅馆式宫殿，立面简洁雄伟，带有鲜明的防御特征。" />
+                <InfoRow label="建筑风格" value="以晚期哥特式风格为主，融合了法兰西的军事建筑特色与少许拜占庭及当地元素，形成了独特的“罗德岛哥特式”。" />
+                <InfoRow label="文化价值" value="它不仅是石头建筑，更是中世纪骑士制度、欧洲十字军东征历史在地中海东岸留下的最完整、最生动的立体档案。" />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="罗德岛老城全天24小时开放，可自由进入骑士街。街道两侧的个别建筑（如骑士宫殿）有独立开放时间：夏季（4月-10月）通常为8:00-20:00；冬季（11月-3月）通常为8:30-15:30。每周一可能闭馆，主要宗教节日（如复活节、圣诞节）开放时间会大幅缩短或关闭。" />
+              <InfoRow label="门票价格" value="漫步骑士街本身完全免费。进入街道尽头的骑士宫殿（Palace of the Grand Master）需要购票，全价票约8欧元，欧盟学生及65岁以上长者有折扣，冬季有时有更低票价。购买老城博物馆通票可能更划算。18岁以下及特定纪念日免费。" />
+              <InfoRow label="地址" value="Ippoton, Rodos 851 00, Greece" />
+              <InfoRow label="交通方式" value="罗德岛迪亚戈拉斯国际机场是主要门户。从机场出发：最便捷的方式是乘坐出租车，直达老城边缘的埃莱夫瑟里亚斯门或海门，车程约20-25分钟，费用30-40欧元。也可乘坐公交，先乘前往罗德市巴士总站的公交车，再换乘前往老城的市内巴士，总耗时约50-60分钟，费用低廉但班次需提前查好。从雅典乘渡轮抵达罗德岛新港后，打车10分钟或步行25分钟可达老城。老城内所有街道均为石板路，禁止机动车通行，需全程步行探索。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">故事要从七百多年前说起。1309年，被从圣城耶路撒冷和 Acre 一路“驱逐”出来的医院骑士团，终于在爱琴海的罗德岛找到了新的家园。他们可不是来做客的，这群身兼修士、战士和医生身份的骑士，用武力征服了岛屿，并决心将其打造成地中海东部最坚固的基督教堡垒和对抗奥斯曼帝国的前沿哨所。于是，一场规模浩大的城市建设开始了。老城的山顶区域，被规划为骑士团的核心——宗主教宫殿所在。而连接宫殿与港口、贯穿核心区的这条主干道，便被设计成了骑士团内部秩序的完美体现，这就是骑士街的雏形。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">骑士团内部按照骑士的出生地和语言分为七个“分部”：普罗旺斯、奥弗涅、法国、意大利、阿拉贡、英格兰和德国。每个分部都需要一个总部，既作为办公场所，也作为来自该地区骑士的居住和集会之所，称为“旅馆”。于是，沿着这条最重要的街道，七个分部依次建造了自己的“旅馆”。这不是比赛谁更华丽，而是在统一的军事防御要求下，展现各自的力量与尊严。建筑必须坚固，墙体厚实，窗户狭小，底层通常没有大型开口，以防攻击。但通过门楣上雕刻的独特盾徽——比如奥弗涅的分叉十字、英格兰的圣乔治十字——他们宣告着自己的身份。这条街，于是成了一张立体的组织结构图，每天，来自欧洲各地的骑士们在这里行走、议事，共同维系着这个微型十字军王国的运转。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，平静的建设岁月总是短暂的。罗德岛地处要冲，注定成为风暴之眼。整个15世纪，奥斯曼帝国的压力与日俱增。骑士街的建筑在一次次加固中，哥特式的优雅逐渐让位于实战的考量。1453年君士坦丁堡陷落的消息传来，如同一声丧钟，这里的每一块石头都紧张起来。最大的考验在1522年降临，苏莱曼大帝率领二十万大军兵临城下，发动了历史上著名的罗德岛围城战。长达六个月的血腥攻防，老城几乎被夷为平地，但骑士街凭借其坚固的结构奇迹般地留存了主体。最终，骑士团在体面的条件下投降并离开。据说，最后撤离的骑士们，正是从这条他们亲手建造的街道列队走下，登船驶向未知的马耳他，背影充满了悲壮。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">骑士团离开后，奥斯曼人占领了罗德岛，长达近四个世纪。骑士街的命运发生了戏剧性的转变。这些坚固的哥特式建筑被挪作他用，有的成了仓库，有的被分割成民居，精美的雕刻被涂抹，盾徽被凿毁。它从基督教骑士的权力中心，变成了奥斯曼帝国一个普通街区的一部分，在烟火气中慢慢破败、被人遗忘。这种遗忘某种意义上是一种保护，让它没有被大规模改造，骨架得以留存。直到1912年意大利人从奥斯曼手中夺取罗德岛，考古学家们才如同发现宝藏一般，重新注意到了这条淹没在普通住宅中的非凡街道。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">意大利占领时期，一场以“恢复中世纪荣光”为名的大规模修复工程开始了。这其实更像是一次基于历史考据的“再创造”。建筑师们根据文献和残留痕迹，对骑士街进行了几乎是重建式的修复，力求恢复其15世纪的样貌。我们今天看到的整齐划一、气势恢宏的骑士街，很大程度上是这次20世纪初修复的成果。它真实吗？它保留了原始的地基、布局和绝大部分原始石材，精神是真实的。它完全准确吗？或许掺杂了意大利修复者对中世纪浪漫的想象。但无论如何，这次修复让一条濒临消失的街道重获新生，并于1988年作为罗德岛中世纪古城的一部分，被列入联合国教科文组织世界遗产名录，成为全人类共同的财富。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  强烈建议将游览骑士街安排在傍晚时分。下午四五点之后，太阳开始西斜，光线变得金黄而柔和，是拍摄这条石头街道光影魔术的绝佳时机，也能避开白天最炙热的阳光和最密集的旅行团。整体游览节奏宜慢不宜快，这条短短200米的街道，值得你花费至少一个半小时去沉浸感受。先从街道底端（靠近海门或考古博物馆一端）开始，由低向高慢慢上行，这样你能以最经典的视角仰望街道尽头的骑士宫殿，逐步感受街道带来的庄严压迫感。游览的重点不在于“打卡”多少个点，而在于感受空间、光线和历史氛围的层层叠加。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>正午时分尽量避免游览，毫无遮阴的鹅卵石路面会反射炙热阳光，体验极差且容易中暑。穿着绝对要选择舒适防滑的平底鞋，高跟鞋在光滑不平的石面上寸步难行且非常危险。注意保持安静，尊重这里是工作机构（如考古学校）和领事馆所在地，大声喧哗或试图闯入非公开区域非常不妥。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从海门附近的入口踏入骑士街，立刻停下脚步，回头看看门外喧嚣的现代世界，再转身面对这条寂静的时光隧道，完成心理上的“穿越仪式”。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">用手触摸第一座旅馆（通常是法国旅馆）墙面上冰冷而粗糙的巨石，寻找那些几乎被磨平的古老盾徽雕刻，想象骑士的手甲也曾覆于其上。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">慢慢向上走，留意脚下每一块被岁月打磨得如鹅卵般圆润的石块，倾听自己脚步在这静谧峡谷中发出的清晰回响。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在街道中段稍微宽阔处驻足，抬头看两侧高耸的石墙如何将天空切割成一条细长的蓝色缎带，感受光线从一侧墙面缓慢移动到另一侧。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">一定要走进街道右侧的圣玛丽古教堂遗址（今考古博物馆），即便不看馆藏，也要在中庭回廊里坐一会儿，这里是体验哥特拱廊下清凉阴影与宁静的绿洲。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">走到街道顶端，站在气势恢宏的骑士宫殿大门前，不要急着进去，先从门外回望整条你刚刚走过的、向下延伸的笔直街道，那是骑士们每日述职的视角。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">进入骑士宫殿内部（如果开放），重点不是看奢华的房间，而是站在中央庭院，感受被高大堡垒式建筑四面围合的威严，然后登上城墙一角，俯瞰你走过的骑士街和整个老城屋顶的海洋。</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 街道入口仰拍</h4>
+                  <p className="text-sm text-gray-700">傍晚日落前约一小时，阳光以低角度射入街道，站在底端用广角镜头向上拍摄，能捕捉到金光勾勒出石壁边缘、街道无限延伸向光明宫殿的经典纵深画面。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 骑士宫殿门洞框架构图</h4>
+                  <p className="text-sm text-gray-700">站在宫殿巨大的门洞内，向外拍摄骑士街，用门洞作为天然画框，将街道、行人和远处的蓝天大海一同纳入，画面极具故事感和层次感。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 奥弗涅旅馆盾徽特写</h4>
+                  <p className="text-sm text-gray-700">下午阳光斜射时，找到奥弗涅旅馆门楣上那个著名的分叉十字盾徽，利用侧光拍摄石雕的质感与阴影，照片充满历史的细节与沧桑。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 圣玛丽教堂回廊拱门</h4>
+                  <p className="text-sm text-gray-700">在考古博物馆的回廊里，寻找一排连续的哥特式尖拱，让人物站在拱门下或长廊尽头，利用建筑的强烈透视和规律线条，营造出宁静而神圣的氛围感。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 从侧面小巷窥视</h4>
+                  <p className="text-sm text-gray-700">从骑士街两侧的某条狭窄小巷（如 Mousiou 街）向主街望去，捕捉行人匆匆走过那段古老石墙的瞬间，画面更有生活气息和偶然的诗意。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 使用偏振镜可以有效减少石墙表面的反光，让古老的石材色彩和纹理更加饱和突出。尊重隐私，切勿将镜头对准街道旁建筑（现多为机构或私宅）的窗户内部拍摄。三脚架在白天可以使用，但若在黄昏后使用需格外注意不要阻碍本就狭窄的通道。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">预算之选</h4>
+                  <p className="text-sm text-blue-800">住在老城边缘靠近海门或埃莱夫瑟里亚斯门的家庭旅馆，这些由传统奥斯曼老房子改造的住所充满特色，价格亲切，步行两分钟即可融入中世纪氛围，晚上还能享受老城外的宁静。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">特色体验</h4>
+                  <p className="text-sm text-green-800">选择入住骑士街周边小巷里的精品酒店，它们往往由古老的骑士团相关建筑修复而成，保留了原始的拱顶、石墙和小型庭院，让你在入夜后游人散去时，独享一片静谧的历史天地。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">高端享受</h4>
+                  <p className="text-sm text-yellow-800">下榻位于老城城墙之外、但步行可达的五星级海滨度假酒店，享受现代化的舒适与爱琴海景观，将中世纪探险与奢华放松完美结合，白天穿越历史，晚上回归蔚蓝的慵懒。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">独特居所</h4>
+                  <p className="text-sm text-purple-800">预订一座经过精心修复的、位于骑士街区深处的传统宅邸的独立公寓，拥有小小的露台或庭院，让你像本地居民一样生活几天，自己去市场买食材，在千年石墙的环绕下做一顿晚餐。</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">老城内的住宿多有数百年历史，房间格局可能不规则，隔音通常一般，但魅力无可替代。夏季预订必须提前数月，尤其是周末。无论住在城内还是城外，治安都很好，但老城夜晚小巷照明可能昏暗，建议结伴而行。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开骑士街很久之后，我脑海里反复回响的，不是某件具体的文物或某个建筑的细节，而是那种独特的“秩序感”。那是一种由笔直的线条、统一的石材、严谨的对称和克制的装饰所共同构筑的、充满力量的精神场域。在这个追求个性爆炸、信息碎片化的时代，骑士街像一记沉静而有力的提醒，告诉我们：当一群人为了一个超越个人的崇高理想（无论后世如何评判其是非）而凝聚，并将这份信念浇筑进石头里时，可以创造出何等不朽的、震撼人心的空间。它不讨好，不柔和，甚至有些冷酷，但它真实、强大，经得起数百年的战火与遗忘。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这就是为什么每一位热爱深度游的旅人都该来这里。不是为了收集又一个“世界遗产”的名号，而是为了获得一种稀缺的体验——一次关于纪律、信仰与集体力量的沉浸式冥想。在这里，你能暂时脱离现代生活的松散与自我，去感受一种截然不同的、高度组织化的文明切片。当夕阳的最后一丝余晖掠过那些沉默的盾徽，你仿佛能触摸到历史坚硬的骨骼。骑士街不会给你温暖的拥抱，但它会给你一个挺直的脊梁，和一段永远不会被磨灭的、关于石头与荣光的记忆。这，或许正是我们穿越千里，想要寻找的、旅行的重量。</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
