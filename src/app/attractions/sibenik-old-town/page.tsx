@@ -20,90 +20,153 @@ export default function SibenikOldTownPage() {
           ]}
         />
 
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">希贝尼克老城</h1>
-          <p className="text-xl text-gray-600 mb-4">Šibenik Old Town</p>
-          <div className="flex flex-wrap gap-2 mb-6">
-            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">克罗地亚</span>
-            <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">希贝尼克</span>
-          </div>
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">希贝尼克老城・Šibenik Old Town・克罗地亚・希贝尼克</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            想象一下，你钻进了一个由蜂蜜色石头砌成的巨大迷宫，脚下是光滑得发亮的古老石阶，头顶是晾晒着衣服的狭窄天空。这就是希贝尼克老城给我的第一印象。它不像杜布罗夫尼克那样充满戏剧性的恢弘，而是一种更亲切、更生活化的古老。你会在转角遇到一个摆满鲜花的石头窗台，会听到某扇木门后传来叮叮当当的厨房声响，会闻到咖啡香从某个陡峭阶梯旁的小酒吧飘出来。最震撼的，当然是那座仿佛从岩石里生长出来的圣雅各布大教堂，它的石头穹顶和71个表情各异的雕塑人头，静静地凝视着这片他们守护了数百年的海湾与街巷。在这里，历史不是博物馆里的展品，就是你家隔壁那堵爬满藤蔓的墙。
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          <div className="md:col-span-2 space-y-8">
-            <Section title="景点简介">
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
               <p className="text-gray-700 leading-relaxed mb-4">想象一下，你钻进了一个由蜂蜜色石头砌成的巨大迷宫，脚下是光滑得发亮的古老石阶，头顶是晾晒着衣服的狭窄天空。这就是希贝尼克老城给我的第一印象。它不像杜布罗夫尼克那样充满戏剧性的恢弘，而是一种更亲切、更生活化的古老。你会在转角遇到一个摆满鲜花的石头窗台，会听到某扇木门后传来叮叮当当的厨房声响，会闻到咖啡香从某个陡峭阶梯旁的小酒吧飘出来。最震撼的，当然是那座仿佛从岩石里生长出来的圣雅各布大教堂，它的石头穹顶和71个表情各异的雕塑人头，静静地凝视着这片他们守护了数百年的海湾与街巷。在这里，历史不是博物馆里的展品，就是你家隔壁那堵爬满藤蔓的墙。</p>
-            </Section>
-            
-            <Section title="基本信息">
-              <p className="text-gray-700 leading-relaxed mb-4">圣雅各布大教堂的开放时间夏季较长，冬季可能提前至16:00关闭，且周日弥撒期间游客参观可能受限。持有学生证、国际学生证（ISIC）或老年人通常可享受门票折扣。老城街道多为陡峭的台阶和石板路，建议穿着舒适的平底鞋。许多小巷没有明确路牌，迷路也是体验的一部分，不妨随性探索。</p>
-            </Section>
+          </Section>
 
-            <Section title="历史背景">
-              <p className="text-gray-700 leading-relaxed mb-4">希贝尼克的故事始于公元9世纪左右，克罗地亚人在这里建立了定居点，但真正让它在历史上留下名字的，是它作为克罗地亚国王彼得·克雷希米尔四世都城的那段时光（11世纪）。老城的筋骨，就是在中世纪时期打下的，你能从那些错综复杂、易守难攻的街巷布局中，感受到防御的智慧。15到16世纪是它的黄金时代，当时希贝尼克在威尼斯共和国的统治下繁荣起来。最伟大的见证者——圣雅各布大教堂，就修建于这个时期（1431-1536年）。特别有意思的是，它完全由石灰岩和大理石建造，没有用到一块木头，这在当时是了不起的建筑壮举。设计师们，包括著名的尤拉伊·达尔马提纳茨，把哥特式和文艺复兴风格奇妙地融合在一起，教堂顶部那71个“人头雕塑”，据说刻画了当时普通的市民面孔，让神性的建筑一下子有了人间的温度。漫步时我常想，这些石头面孔，是否也曾目睹过奥斯曼帝国的威胁，或是在二战炮火中沉默坚守？如今，老城褪去了军事要塞的紧张感，成为了一个活着的社区，联合国教科文组织的招牌静静地挂在教堂门口，而孩子们的笑声则在古老的广场上回荡。</p>
-            </Section>
-
-            <Section title="游览路线">
-              <p className="text-gray-700 leading-relaxed mb-4">推荐从陆地主入口（靠近市政厅广场）进入老城，先参观核心地标圣雅各布大教堂及广场，然后向上穿梭至圣米迦勒要塞俯瞰全景，最后沿着蜿蜒的小巷向下，漫步至海滨长廊。全程步行游览约需3-4小时，轻松且充满探索乐趣。</p>
-              <ul className="list-disc pl-5 space-y-2 mb-4">
-              <li className="text-gray-700 leading-relaxed mb-2">1.  从市政厅广场开始，感受老城门户的活力。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">2.  参观圣雅各布大教堂，仰望独特的石头穹顶和人头雕塑。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">3.  沿着Kralja Tomislava街向上，探索两侧有趣的工艺品小店和咖啡馆。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">4.  登上圣米迦勒要塞，收获老城与海湾的壮丽全景。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">5.  从要塞另一侧的小路下山，穿梭在宁静的居民小巷中。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">6.  最终抵达海滨长廊（Riva），在夕阳下结束旅程。</li>
-              </ul>
-              <p className="text-gray-700 leading-relaxed mb-4">老城小巷如迷宫，可使用手机地图辅助定位主要景点，但不必严格遵循路线，随意逛逛常有惊喜。穿一双绝对防滑舒适的鞋子至关重要。</p>
-            </Section>
-
-            <Section title="拍照机位">
-              <ul className="list-disc pl-5 space-y-2 mb-4">
-              <li className="text-gray-700 leading-relaxed mb-2">1.  **圣米迦勒要塞观景台**：最佳拍摄时间为日落前黄金一小时。从要塞城墙边拍摄，可将圣雅各布大教堂的圆顶、层层叠叠的红瓦屋顶与蔚蓝的亚得里亚海一同纳入镜框，层次感极佳。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">2.  **圣雅各布大教堂主立面下**：上午光线较好，能均匀照亮教堂精美的石雕。采用低角度仰拍，可以突出教堂的雄伟和雕塑的细节，人物可站在前景阶梯上。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">3.  **通往要塞的某段阶梯小巷**：午后阳光斜射时，光影效果迷人。寻找一段有纵深感的曲折石阶，从下往上或从上往下拍，能捕捉到老城迷宫般的典型氛围。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">4.  **海滨长廊（Riva）望向老城**：傍晚华灯初上时。以停泊的游艇为前景，对焦远处灯火初亮、依山而建的老城建筑群，画面宁静而富有生活气息。</li>
-              </ul>
-              <p className="text-gray-700 leading-relaxed mb-4">尊重当地居民隐私，避免透过窗户或大门对私人住所进行拍摄。教堂内部通常允许拍照，但请勿使用闪光灯。</p>
-            </Section>
-
-            <Section title="住宿小贴士">
-              <ul className="list-disc pl-5 space-y-2 mb-4">
-              <li className="text-gray-700 leading-relaxed mb-2">1.  **老城内精品酒店/公寓**：预算较高，能沉浸式体验古城昼夜风情，出门即是景点，但可能需提行李爬台阶。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">2.  **老城边缘的酒店**：性价比之选，步行几分钟进入老城，同时便于停车和搭乘公共交通，免去拖行李爬坡的烦恼。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">3.  **海滨长廊（Riva）沿线酒店**：视野开阔，坐享海景，餐厅酒吧众多，夜生活方便，价格中等偏上。</li>
-              <li className="text-gray-700 leading-relaxed mb-2">4.  **希贝尼克新城区的民宿或连锁酒店**：预算友好，通常提供免费停车，乘坐几站本地巴士即可到达老城。</li>
-              </ul>
-              <p className="text-gray-700 leading-relaxed mb-4">夏季（7-8月）是旺季，务必提前预订。如果自驾，优先选择提供停车位的住宿，老城内停车极其困难。</p>
-            </Section>
-
-            <Section title="总结感悟">
-              <p className="text-gray-700 leading-relaxed mb-4">希贝尼克老城是一本立体的、充满呼吸感的石头史书。它没有过度粉饰的精致，却有着被海风、阳光和无数脚步打磨出的温润光泽。在这里，你很容易忘记自己是个游客，更像是偶然闯入了某个地中海小镇的日常生活剧场。当你在要塞顶端看着夕阳把整片屋顶染成金色，你会明白，这份混杂着历史厚重与市井烟火的独特气息，正是它最迷人的地方。如果你也爱在旅行中寻找真实的质感，这里不会让你失望。</p>
-            </Section>
-
-            <div className="bg-gray-50 p-6 rounded-lg mt-8">
-              <p className="text-sm text-gray-600 text-center">
-                本文由旅行作者 Winter Grady 实地走访整理，专注欧洲小众景点深度攻略，持续分享真实游览体验。
-              </p>
-              <p className="text-xs text-gray-500 text-center mt-2">
-                本站内容仅供旅行参考使用，商务合作与转载事宜请通过联系页脚提交申请。
-              </p>
-              <p className="text-xs text-gray-500 text-center">
-                管理团队保留所有内容版权，未经许可禁止搬运、摘抄或商用。
-              </p>
-            </div>
-          </div>
-
-          <div className="space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">实用信息</h3>
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow icon="🕒" label="开放时间" value="全天开放（公共区域），内部景点开放时间各异，通常为夏季（4月-10月）9:00-20:00，冬季（11月-3月）时间缩短或部分关闭。" />
-                <InfoRow icon="🎫" label="门票" value="进入老城区域免费。主要景点圣雅各布大教堂门票约40库纳（约5.3欧元），其他博物馆和小型景点门票一般在20-40库纳之间。" />
-                <InfoRow icon="📍" label="地址" value="Šibenik Old Town, 22000 Šibenik, Croatia" />
-                <InfoRow icon="🚌" label="交通" value="从最近的斯普利特机场（Split Airport）出发，驾车或乘坐机场巴士/出租车约1小时可抵达希贝尼克。从希贝尼克长途汽车站步行约15-20分钟即可进入老城核心区。" />
+                <InfoRow label="中文名称" value="希贝尼克老城" />
+                <InfoRow label="英文名称" value="Šibenik Old Town" />
+                <InfoRow label="正式名称" value="Šibenik Old Town" />
+                <InfoRow label="国家" value="克罗地亚" />
+                <InfoRow label="城市" value="希贝尼克" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="" />
+                <InfoRow label="建筑特色" value="" />
+                <InfoRow label="建筑风格" value="" />
+                <InfoRow label="文化价值" value="" />
               </div>
             </div>
-          </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="全天开放（公共区域），内部景点开放时间各异，通常为夏季（4月-10月）9:00-20:00，冬季（11月-3月）时间缩短或部分关闭。" />
+              <InfoRow label="门票价格" value="进入老城区域免费。主要景点圣雅各布大教堂门票约40库纳（约5.3欧元），其他博物馆和小型景点门票一般在20-40库纳之间。" />
+              <InfoRow label="地址" value="Šibenik Old Town, 22000 Šibenik, Croatia" />
+              <InfoRow label="交通方式" value="从最近的斯普利特机场（Split Airport）出发，驾车或乘坐机场巴士/出租车约1小时可抵达希贝尼克。从希贝尼克长途汽车站步行约15-20分钟即可进入老城核心区。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">希贝尼克的故事始于公元9世纪左右，克罗地亚人在这里建立了定居点，但真正让它在历史上留下名字的，是它作为克罗地亚国王彼得·克雷希米尔四世都城的那段时光（11世纪）。老城的筋骨，就是在中世纪时期打下的，你能从那些错综复杂、易守难攻的街巷布局中，感受到防御的智慧。15到16世纪是它的黄金时代，当时希贝尼克在威尼斯共和国的统治下繁荣起来。最伟大的见证者——圣雅各布大教堂，就修建于这个时期（1431-1536年）。特别有意思的是，它完全由石灰岩和大理石建造，没有用到一块木头，这在当时是了不起的建筑壮举。设计师们，包括著名的尤拉伊·达尔马提纳茨，把哥特式和文艺复兴风格奇妙地融合在一起，教堂顶部那71个“人头雕塑”，据说刻画了当时普通的市民面孔，让神性的建筑一下子有了人间的温度。漫步时我常想，这些石头面孔，是否也曾目睹过奥斯曼帝国的威胁，或是在二战炮火中沉默坚守？如今，老城褪去了军事要塞的紧张感，成为了一个活着的社区，联合国教科文组织的招牌静静地挂在教堂门口，而孩子们的笑声则在古老的广场上回荡。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  推荐从陆地主入口（靠近市政厅广场）进入老城，先参观核心地标圣雅各布大教堂及广场，然后向上穿梭至圣米迦勒要塞俯瞰全景，最后沿着蜿蜒的小巷向下，漫步至海滨长廊。全程步行游览约需3-4小时，轻松且充满探索乐趣。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>老城小巷如迷宫，可使用手机地图辅助定位主要景点，但不必严格遵循路线，随意逛逛常有惊喜。穿一双绝对防滑舒适的鞋子至关重要。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">1.  从市政厅广场开始，感受老城门户的活力。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">2.  参观圣雅各布大教堂，仰望独特的石头穹顶和人头雕塑。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">3.  沿着Kralja Tomislava街向上，探索两侧有趣的工艺品小店和咖啡馆。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">4.  登上圣米迦勒要塞，收获老城与海湾的壮丽全景。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">5.  从要塞另一侧的小路下山，穿梭在宁静的居民小巷中。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">6.  最终抵达海滨长廊（Riva），在夕阳下结束旅程。</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  圣米迦勒要塞观景台</h4>
+                  <p className="text-sm text-gray-700">最佳拍摄时间为日落前黄金一小时。从要塞城墙边拍摄，可将圣雅各布大教堂的圆顶、层层叠叠的红瓦屋顶与蔚蓝的亚得里亚海一同纳入镜框，层次感极佳。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  圣雅各布大教堂主立面下</h4>
+                  <p className="text-sm text-gray-700">上午光线较好，能均匀照亮教堂精美的石雕。采用低角度仰拍，可以突出教堂的雄伟和雕塑的细节，人物可站在前景阶梯上。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  通往要塞的某段阶梯小巷</h4>
+                  <p className="text-sm text-gray-700">午后阳光斜射时，光影效果迷人。寻找一段有纵深感的曲折石阶，从下往上或从上往下拍，能捕捉到老城迷宫般的典型氛围。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 4.  海滨长廊（Riva）望向老城</h4>
+                  <p className="text-sm text-gray-700">傍晚华灯初上时。以停泊的游艇为前景，对焦远处灯火初亮、依山而建的老城建筑群，画面宁静而富有生活气息。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 尊重当地居民隐私，避免透过窗户或大门对私人住所进行拍摄。教堂内部通常允许拍照，但请勿使用闪光灯。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">1.  老城内精品酒店/公寓</h4>
+                  <p className="text-sm text-blue-800">预算较高，能沉浸式体验古城昼夜风情，出门即是景点，但可能需提行李爬台阶。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">2.  老城边缘的酒店</h4>
+                  <p className="text-sm text-green-800">性价比之选，步行几分钟进入老城，同时便于停车和搭乘公共交通，免去拖行李爬坡的烦恼。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">3.  海滨长廊（Riva）沿线酒店</h4>
+                  <p className="text-sm text-yellow-800">视野开阔，坐享海景，餐厅酒吧众多，夜生活方便，价格中等偏上。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">4.  希贝尼克新城区的民宿或连锁酒店</h4>
+                  <p className="text-sm text-purple-800">预算友好，通常提供免费停车，乘坐几站本地巴士即可到达老城。</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">夏季（7-8月）是旺季，务必提前预订。如果自驾，优先选择提供停车位的住宿，老城内停车极其困难。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">希贝尼克老城是一本立体的、充满呼吸感的石头史书。它没有过度粉饰的精致，却有着被海风、阳光和无数脚步打磨出的温润光泽。在这里，你很容易忘记自己是个游客，更像是偶然闯入了某个地中海小镇的日常生活剧场。当你在要塞顶端看着夕阳把整片屋顶染成金色，你会明白，这份混杂着历史厚重与市井烟火的独特气息，正是它最迷人的地方。如果你也爱在旅行中寻找真实的质感，这里不会让你失望。</p>
+            </div>
+          </Section>
         </div>
       </div>
     </div>

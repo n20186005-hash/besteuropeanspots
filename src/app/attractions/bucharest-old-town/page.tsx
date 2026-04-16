@@ -107,22 +107,22 @@ export default function BucharestOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  **Stavropoleos修道院庭院**</h4>
-                  <p className="text-sm text-gray-700">**最佳拍摄时间**</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  Stavropoleos修道院庭院</h4>
+                  <p className="text-sm text-gray-700">最佳拍摄时间</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  **Lipscani与Gabroveni街交叉口**</h4>
-                  <p className="text-sm text-gray-700">**最佳拍摄时间**</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  Lipscani与Gabroveni街交叉口</h4>
+                  <p className="text-sm text-gray-700">最佳拍摄时间</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  **从“伞街”（Pasajul Victoriei）仰拍**</h4>
-                  <p className="text-sm text-gray-700">**最佳拍摄时间**</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  从“伞街”（Pasajul Victoriei）仰拍</h4>
+                  <p className="text-sm text-gray-700">最佳拍摄时间</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 4.  **老皇宫遗址广场**</h4>
-                  <p className="text-sm text-gray-700">**最佳拍摄时间**</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 4.  老皇宫遗址广场</h4>
+                  <p className="text-sm text-gray-700">最佳拍摄时间</p>
                 </div>
               </div>
 
@@ -140,16 +140,20 @@ export default function BucharestOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-700">1.  **预算之选**：老城内的精品旅馆或设计公寓，价格适中，位置极佳，夜生活结束后步行即可回房。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">1.  预算之选</h4>
+                  <p className="text-sm text-blue-800">老城内的精品旅馆或设计公寓，价格适中，位置极佳，夜生活结束后步行即可回房。</p>
                 </div>
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-700">2.  **特色体验**：选择由历史建筑改造的精品酒店，如位于安静小巷内的那些，既能感受古老氛围，又享现代舒适。</p>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">2.  特色体验</h4>
+                  <p className="text-sm text-green-800">选择由历史建筑改造的精品酒店，如位于安静小巷内的那些，既能感受古老氛围，又享现代舒适。</p>
                 </div>
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-700">3.  **高端享受**：老城边缘或附近广场上的五星级历史酒店，服务奢华，通常拥有绝美的城市屋顶景观。</p>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">3.  高端享受</h4>
+                  <p className="text-sm text-yellow-800">老城边缘或附近广场上的五星级历史酒店，服务奢华，通常拥有绝美的城市屋顶景观。</p>
                 </div>
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-700">4.  **便捷实惠**：老城外围步行10-15分钟范围内的现代连锁酒店，性价比高，适合家庭或长途旅行者。</p>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">4.  便捷实惠</h4>
+                  <p className="text-sm text-purple-800">老城外围步行10-15分钟范围内的现代连锁酒店，性价比高，适合家庭或长途旅行者。</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
@@ -159,7 +163,7 @@ export default function BucharestOldTownPage() {
           </Section>
 
           <Section title="7. 总结感悟">
-            <div className="space-y-4 text-gray-700 leading-relaxed">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
               <p className="text-gray-700 leading-relaxed mb-4">布加勒斯特老城不是一个被精心修复的博物馆式景点，而是一个活着的、呼吸着的有机体。它有点凌乱，有点不完美，但正是这种真实感让人着迷。在这里，你能触摸到罗马尼亚跌宕历史的纹理，也能感受到它面向未来的蓬勃心跳。如果你厌倦了过于精致的旅游区，那么来这里，让鹅卵石路带你邂逅意想不到的惊喜吧。</p>
             </div>
           </Section>
