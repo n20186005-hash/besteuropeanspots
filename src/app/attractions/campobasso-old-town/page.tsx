@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '坎波巴索老城 Campobasso Old Town｜漫步中世纪山城，邂逅莫利塞的静谧时光 - 最佳欧洲景点',
-  description: '想象一下，你沿着蜿蜒的石头小径向上爬，两旁是蜜糖色的古老石屋，阳台上垂挂着鲜艳的天竺葵。空气里有种特别的宁静，只能听到自己的脚步声和远处教堂隐约的钟声。坎波巴索老城就是这样一座“长”在山顶上的中世纪小镇，它不像佛罗伦萨那样游人如织，却保留了最原汁原味的意大利山城生活气息。站在高处，整个莫利塞大区的丘...',
+  title: '坎波巴索老城 Campobasso Old Town｜迷失在莫利塞山巅的中世纪时光迷宫 - 最佳欧洲景点',
+  description: '第一眼看到坎波巴索老城，它就像是从山石中生长出来的一样。那不是一座平铺直叙的城镇，而是一个垂直的、需要用脚步去丈量的立体世界。你把车停在现代城区，一抬头，就能看见整个老城以一种近乎倔强的姿态，盘踞在海拔七百米的山丘之巅，灰黄色的石墙在亚平宁半岛清澈的阳光下，泛着蜂蜜般温暖又古老的光泽。沿着那条主干道...',
 }
 
 export default function CampobassoOldTownPage() {
@@ -23,13 +23,17 @@ export default function CampobassoOldTownPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">坎波巴索老城・Campobasso Old Town・意大利・坎波巴索</h1>
           <p className="text-lg text-gray-600 mb-6">
-            想象一下，你沿着蜿蜒的石头小径向上爬，两旁是蜜糖色的古老石屋，阳台上垂挂着鲜艳的天竺葵。空气里有种特别的宁静，只能听到自己的脚步声和远处教堂隐约的钟声。坎波巴索老城就是这样一座“长”在山顶上的中世纪小镇，它不像佛罗伦萨那样游人如织，却保留了最原汁原味的意大利山城生活气息。站在高处，整个莫利塞大区的丘陵风光像一幅绿色地毯在你脚下铺开，那种豁然开朗的感觉，瞬间觉得爬坡的辛苦都值了。这里的时间仿佛走得很慢，适合你放空自己，漫无目的地探索每一条可能通往秘密庭院的小巷。
+            第一眼看到坎波巴索老城，它就像是从山石中生长出来的一样。那不是一座平铺直叙的城镇，而是一个垂直的、需要用脚步去丈量的立体世界。你把车停在现代城区，一抬头，就能看见整个老城以一种近乎倔强的姿态，盘踞在海拔七百米的山丘之巅，灰黄色的石墙在亚平宁半岛清澈的阳光下，泛着蜂蜜般温暖又古老的光泽。沿着那条主干道“Salita San Bartolomeo”开始向上走，汽车的喧嚣迅速被甩在身后，耳边只剩下自己的脚步声在石板路上叩出的回响，以及不知从哪家窗台飘出的炖菜香气——那是番茄、罗勒和橄榄油混合的，属于南意大利家庭的温暖味道。
+越往上走，巷子越窄，两旁的石头房子也越显古旧。这些房子门挨着门，窗对着窗，阳台上的铁栏杆爬满了天竺葵，红得灼眼。你会经过一个又一个突然出现的迷你广场，或许只有一间屋子那么大，那里总是坐着几位晒太阳的老人，他们沉默地看着你，眼神里没有好奇，只有一种见惯了时光流转的平静。风吹过狭窄的通道，带来远方山谷里草木的气息，也带来高处在召唤你的城堡剪影。在这里，时间不是线性的，它凝固在每一块被磨得光滑如镜的台阶上，回荡在每一个突然拐弯后看到的、那扇有着五百年历史的雕花木门里。
+这座老城最打动人的，不是某个辉煌的宫殿，而是它整体的“生活感”。它不是被精心保护起来的标本，而是一个依然在呼吸的有机体。晾晒的床单在巷子间飘扬，如同中世纪的旌旗；咖啡的香气从地下室的烘焙作坊里钻出来；工匠敲打铜器的叮当声，为这座寂静的山城打着节拍。你突然明白，这座城之所以存在，不是因为风景，而是因为防御。每一个弯道，每一段陡峭的阶梯，最初都是为了阻碍敌人而设计。而如今，它阻碍的，是外界的喧嚣与匆忙，为你强行降下了生活的速度。在这里，“迷失”不是坏事，而是最佳的游览方式。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">想象一下，你沿着蜿蜒的石头小径向上爬，两旁是蜜糖色的古老石屋，阳台上垂挂着鲜艳的天竺葵。空气里有种特别的宁静，只能听到自己的脚步声和远处教堂隐约的钟声。坎波巴索老城就是这样一座“长”在山顶上的中世纪小镇，它不像佛罗伦萨那样游人如织，却保留了最原汁原味的意大利山城生活气息。站在高处，整个莫利塞大区的丘陵风光像一幅绿色地毯在你脚下铺开，那种豁然开朗的感觉，瞬间觉得爬坡的辛苦都值了。这里的时间仿佛走得很慢，适合你放空自己，漫无目的地探索每一条可能通往秘密庭院的小巷。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">第一眼看到坎波巴索老城，它就像是从山石中生长出来的一样。那不是一座平铺直叙的城镇，而是一个垂直的、需要用脚步去丈量的立体世界。你把车停在现代城区，一抬头，就能看见整个老城以一种近乎倔强的姿态，盘踞在海拔七百米的山丘之巅，灰黄色的石墙在亚平宁半岛清澈的阳光下，泛着蜂蜜般温暖又古老的光泽。沿着那条主干道“Salita San Bartolomeo”开始向上走，汽车的喧嚣迅速被甩在身后，耳边只剩下自己的脚步声在石板路上叩出的回响，以及不知从哪家窗台飘出的炖菜香气——那是番茄、罗勒和橄榄油混合的，属于南意大利家庭的温暖味道。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">越往上走，巷子越窄，两旁的石头房子也越显古旧。这些房子门挨着门，窗对着窗，阳台上的铁栏杆爬满了天竺葵，红得灼眼。你会经过一个又一个突然出现的迷你广场，或许只有一间屋子那么大，那里总是坐着几位晒太阳的老人，他们沉默地看着你，眼神里没有好奇，只有一种见惯了时光流转的平静。风吹过狭窄的通道，带来远方山谷里草木的气息，也带来高处在召唤你的城堡剪影。在这里，时间不是线性的，它凝固在每一块被磨得光滑如镜的台阶上，回荡在每一个突然拐弯后看到的、那扇有着五百年历史的雕花木门里。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这座老城最打动人的，不是某个辉煌的宫殿，而是它整体的“生活感”。它不是被精心保护起来的标本，而是一个依然在呼吸的有机体。晾晒的床单在巷子间飘扬，如同中世纪的旌旗；咖啡的香气从地下室的烘焙作坊里钻出来；工匠敲打铜器的叮当声，为这座寂静的山城打着节拍。你突然明白，这座城之所以存在，不是因为风景，而是因为防御。每一个弯道，每一段陡峭的阶梯，最初都是为了阻碍敌人而设计。而如今，它阻碍的，是外界的喧嚣与匆忙，为你强行降下了生活的速度。在这里，“迷失”不是坏事，而是最佳的游览方式。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -42,23 +46,27 @@ export default function CampobassoOldTownPage() {
                 <InfoRow label="城市" value="坎波巴索" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="" />
-                <InfoRow label="建筑特色" value="" />
-                <InfoRow label="建筑风格" value="" />
-                <InfoRow label="文化价值" value="" />
+                <InfoRow label="历史地位" value="莫利塞大区的历史心脏，一座在数次地震与战争创伤中幸存并延续至今的山巅堡垒之城。" />
+                <InfoRow label="建筑特色" value="典型的意大利南部山城结构，层层叠叠的石屋如同梯田般紧紧依附在山坡上，狭窄蜿蜒的阶梯和小巷构成复杂的立体迷宫。" />
+                <InfoRow label="建筑风格" value="以中世纪 Norman-Swabian（诺曼-斯瓦比亚）防御城堡为核心，融合了文艺复兴与巴洛克元素的民间建筑群。" />
+                <InfoRow label="文化价值" value="是了解意大利南部内陆地区“梅佐乔诺”（Mezzogiorno）独特历史、坚韧民风与慢节奏生活的活态博物馆。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="全天开放（公共区域）。内部个别博物馆或教堂开放时间各异，通常为上午9:00至下午1:00，下午3:00至7:00。" />
-              <InfoRow label="门票价格" value="进入老城区域免费。内部个别景点如蒙福尔特城堡可能收取少量门票（约3-5欧元）。" />
-              <InfoRow label="地址" value="Via Monforte, 86100 Campobasso CB, Italy" />
-              <InfoRow label="交通方式" value="从最近的坎波巴索火车站（Stazione di Campobasso）步行上山约20-25分钟即可抵达老城入口。若从罗马钱皮诺机场（CIA）或那不勒斯机场（NAP）出发，需先乘火车或长途汽车至坎波巴索市，总耗时约3-4小时。" />
+              <InfoRow label="开放时间" value="老城街区全天24小时开放，但其中的主要建筑（如蒙福尔特城堡、主座教堂）有具体开放时间。通常城堡开放时间为夏季（4月至9月）上午9:00至晚上7:00，冬季（10月至3月）上午9:00至下午5:00，周一通常闭馆。教堂开放时间一般为上午8:00至中午12:30，下午3:30至晚上7:00。建议出行前再次查询官网，节假日开放时间可能大幅缩短或调整。" />
+              <InfoRow label="门票价格" value="进入老城街区本身完全免费。参观蒙福尔特城堡（Castello Monforte）需购票，全票约5欧元，优惠票（学生、65岁以上老人）约3欧元，12岁以下儿童免费。部分特殊展览可能额外收费。主座教堂免费进入。" />
+              <InfoRow label="地址" value="Via Salita Castello Monforte, 86100 Campobasso CB, Italy" />
+              <InfoRow label="交通方式" value="最近的国际机场是罗马菲乌米奇诺机场（FCO）或那不勒斯国际机场（NAP）。从罗马Termini火车站乘坐区域列车前往坎波巴索中央火车站（Stazione di Campobasso），车程约3-4小时，班次频率不高，建议提前在意铁（Trenitalia）官网查询并预订。从火车站到老城山脚，可乘坐市区M路公共汽车（约15分钟，车次较疏），或直接打车（约10分钟）。最推荐的体验是下车后，跟随当地人的步伐，从山脚下的 Piazza della Vittoria 广场开始，沿着古老的 Salita San Bartolomeo 步行道慢慢向上攀登，全程约20-25分钟步行，是融入氛围的最佳方式。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">坎波索巴老城的故事始于中世纪早期，大约在10世纪左右，人们为了安全开始在这座山上聚居，形成了最初的村落。它的名字“Campobasso”在意大利语里是“低地田野”的意思，挺有意思的，因为它明明建在高高的山上，或许是指山脚下那片肥沃的平原吧。老城真正的黄金时代是在14到15世纪，当时它处于强大的蒙福尔特家族统治之下。我们今天看到的蒙福尔特城堡就是那个时期的产物，它雄踞山顶，既是防御工事，也是权力的象征，俯瞰着整个地区，你能想象当年领主站在塔楼上巡视自己领地的样子。随后的几个世纪里，老城经历了地震和战争的考验，但核心的中世纪肌理——那些迷宫般的窄巷、拱门和广场——却奇迹般地保存了下来。19世纪后，城市发展的重心逐渐转移到山下更平坦的新城区，老城反而因此“凝固”在了旧时光里，少了些喧嚣，多了份沧桑的诗意。走在这些被岁月磨得光滑的石板路上，仿佛能触摸到层层叠叠的历史。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">坎波巴索的故事，始于山巅的求生本能。早在罗马时代之前，萨姆尼特人可能就曾在此建立据点，但真正让这座山城成型并留下深刻烙印的，是中世纪的诺曼征服者。大约在公元11世纪，诺曼骑士们看中了这座易守难攻的山头，开始在此修筑最初的防御工事，用以控制莫利塞地区的战略要道。老城那迷宫般的格局，其最初的胚胎便来自于这个战乱频仍的时代——狭窄的巷子能有效延缓骑兵冲锋，密集的房屋则是巷战的天然堡垒。城邦的名字“Campobasso”（意为“低地田野旁的营地”）本身，就暗示了它与山下肥沃平原的依存与守望关系。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">老城的命运与统治它的家族紧密相连。14世纪，它成为了蒙福尔特家族（Monforte）的领地。这个家族赋予了老城最标志性的建筑——那座雄踞顶峰的蒙福尔特城堡。我们今天看到的城堡遗迹，大部分是由尼古拉二世·蒙福尔特在1456年一场毁灭性大地震后重建的。那场地震几乎将老城夷为平地，但顽强的山城居民和他们的领主选择了在原址重建，并且建得更加坚固。城堡的方形主塔楼和锯齿状城墙，带有鲜明的斯瓦比亚（源于神圣罗马帝国霍亨斯陶芬王朝）军事建筑风格，冷峻而实用，俯瞰着脚下的万千屋舍，犹如一个沉默的守护者。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">此后的几个世纪，老城在西班牙阿拉贡王朝、波旁王朝的统治下继续发展，文艺复兴和巴洛克的微风也吹进了这些陡峭的街巷。一些富裕家族修建的宅邸门楣上，出现了精美的浮雕；教堂内部添上了华丽的镀金装饰。但山城的本质未变：它始终是农民、工匠、教士和小贵族们的家园，依靠山下的平原和牧区为生。生活是艰辛的，但也是紧密的。街坊邻居共用一口水井，在同一个广场庆祝节日，这种社群感成为了老城文化的基石。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">真正的考验在近现代来临。第二次世界大战期间，坎波巴索因其交通位置遭到了猛烈轰炸，老城部分区域受损严重。战后的意大利经历了经济奇迹，但南部山区的发展却相对滞后。许多年轻人选择离开这座出行不便、机会稀少的山城，前往北方或海外谋生，老城一度面临“空心化”的危机。那些紧闭的百叶窗和空置的石屋，曾是一段失落的岁月。然而，正是这种“被遗忘”，意外地让老城躲过了大规模商业化改造，保留了其原始、沧桑的肌理。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">直到最近二三十年，随着人们对“慢旅游”和本真文化遗产的追寻，坎波巴索老城重新进入了旅行者的视野。当地人也开始重新审视祖辈遗产的价值。一些石屋被精心修复，变成了民宿、艺术家工作室或特色餐馆。蒙福尔特城堡得到了巩固，成为了城市博物馆和俯瞰全景的绝佳地点。今天的坎波巴索老城，是一座从历史创伤中复苏的纪念碑，它不再仅仅是为了防御，而是为了证明一种生活方式——一种与山相依、与邻为伴、从容面对时光的生活方式——的持久魅力。</p>
             </div>
           </Section>
 
@@ -67,33 +75,47 @@ export default function CampobassoOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  推荐从山脚下的加里波第广场（Piazza Garibaldi）附近开始，沿着主步道“Via Monforte”向上攀登，一路探索小巷，最终抵达山顶的城堡作为终点。全程步行游览，包含拍照和短暂休息，大约需要2-3小时。
+                  建议在上午9点左右抵达山脚下的胜利广场（Piazza della Vittoria），这时阳光正好，晨雾散尽，店铺陆续开门。整个深度游览需要预留至少4-5小时，其中包括大量的步行、爬坡、驻足发呆和简单午餐时间。节奏一定要慢，遵循“之”字形路线迂回向上，而不是直奔山顶，这样才能充分体验巷弄的层次感和不断变化的视角。午后光线最适合拍摄城堡和建筑细节，最后在城堡观景台看完日落后，沿着灯火初上的小巷缓缓下山，完成一次从古至今的时空穿越。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>小巷容易迷路，但这也是乐趣所在，不妨随意探索。务必穿一双非常防滑舒适的鞋子。
+                  <strong>建议：</strong>一定要穿一双绝对舒适、防滑的步行鞋，老城的石头路面历经数百年打磨，晴天也可能会滑。
+许多小巷没有明确的标识，手机导航可能失灵，不妨把迷路当作乐趣，或者友善地向路过的老人问路，他们通常很乐意指点。
+尽量避免周日午后游览，因为许多小餐馆和店铺可能会休息，老城会显得格外安静（甚至有些空旷）。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">1.  从加里波第广场出发，沿Via Monforte主路上山。</p>
+                  <p className="text-sm text-gray-700 mb-2">从胜利广场的“圣巴托洛梅奥坡道”起点开始，先在路边老咖啡馆点一杯站着喝的浓缩咖啡，像本地人一样开启一天的活力。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">2.  穿梭于蜘蛛网般的狭窄小巷（如Vico dei Santi），感受中世纪氛围。</p>
+                  <p className="text-sm text-gray-700 mb-2">在第一个岔路口果断放弃主路，拐进左侧一条名叫“Vico Freddo”（寒冷小巷）的狭窄石阶，感受两边高墙带来的静谧与清凉。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">3.  参观圣乔治大教堂，欣赏其朴素的罗马式外观。</p>
+                  <p className="text-sm text-gray-700 mb-2">摸索着走到圣乔治教堂（Chiesa di San Giorgio）的小广场，留意地面上的古老日晷，并抬头看教堂立面上那些被风化但依然生动的石雕面孔。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">4.  路过古老的圣莱奥纳尔多教堂和市政厅广场。</p>
+                  <p className="text-sm text-gray-700 mb-2">沿着教堂后方隐秘的台阶继续上行，突然闯入一个被居民称为“洗衣妇之角”的露天平台，这里能看到老城层层叠叠的瓦片屋顶如波浪般蔓延。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">5.  最终抵达山顶的蒙福尔特城堡，俯瞰全景。</p>
+                  <p className="text-sm text-gray-700 mb-2">在临近中午时抵达蒙福尔特城堡的入口，不要急着进去，先绕到城堡东侧下方的斜坡，那里有几张长椅，是野餐并仰望城堡雄姿的完美地点。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">花至少一小时探索城堡内部、登上主塔楼，在博物馆里寻找那幅描绘1456年大地震前老城面貌的古地图。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从城堡另一侧下山，顺着“Via dei Mille”巷子寻找一家家庭经营的 trattoria（小餐馆），品尝用本地羊奶酪和野猪肉制作的特色“卡瓦铁利”面食。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">饭后沿着更为平缓的“Via Mazzini”散步消食，浏览那些售卖手工陶瓷和传统铁艺的作坊小店，最后从“Porta Sant‘Antonio”古城门遗迹处走出老城。</p>
                 </div>
               </div>
             </div>
@@ -103,18 +125,22 @@ export default function CampobassoOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  蒙福尔特城堡观景台</h4>
-                  <p className="text-sm text-gray-700">最佳时间为日落前黄金一小时。角度效果</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 城堡北侧悬崖边</h4>
+                  <p className="text-sm text-gray-700">日落前一小时，站在城堡外围的矮墙边，可以拍摄老城建筑沐浴在金色夕阳下、与远处亚平宁山脉连绵轮廓交相辉映的壮阔全景。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  Via Monforte的之字形坡道</h4>
-                  <p className="text-sm text-gray-700">最佳时间上午，阳光能照亮石板路。角度效果</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. “拱门巷”光影走廊</h4>
+                  <p className="text-sm text-gray-700">正午时分阳光垂直洒落时，走进连接Via delle Conce和Vico II的古老石拱门巷道，捕捉强烈明暗对比下，拱门深邃的几何美感与尽头一抹亮色的戏剧性画面。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  小巷中的拱门</h4>
-                  <p className="text-sm text-gray-700">最佳时间正午阳光直射时，光影对比强烈。角度效果</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 圣莱奥纳多教堂台阶</h4>
+                  <p className="text-sm text-gray-700">清晨八点左右，阳光斜射，坐在教堂前宽阔的石头台阶上低角度拍摄，将前景古老的石板路、中景教堂朴素的石墙与背景湛蓝的天空一同纳入镜头，构图简洁而富有故事感。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 民居门楣与生活细节</h4>
+                  <p className="text-sm text-gray-700">全天皆可，但柔和侧光时更佳，专注于拍摄那些布满铁锈的邮箱、彩色的木质百叶窗、门上的圣母像瓷片、以及挂在古老门环上的新鲜香草，这些都是老城灵魂的细微注脚。</p>
                 </div>
               </div>
 
@@ -123,7 +149,8 @@ export default function CampobassoOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 老城光线多变，窄巷中尤其如此，建议使用相机或手机灵活调整曝光，捕捉光影戏剧性。</li>
+                <li>• 拍摄当地居民，尤其是老人，务必先微笑并征得同意，一个简单的手势或一句“Foto？”就能表达尊重。</li>
+                <li>• 使用无人机拍摄前，务必查清当地法规，并注意老城上空常有鸟类盘旋，且狭窄空间信号易受干扰。</li>
               </ul>
             </div>
           </Section>
@@ -132,27 +159,34 @@ export default function CampobassoOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">1.  山下新城区的商务酒店</h4>
-                  <p className="text-sm text-blue-800">交通和生活便利，性价比高，适合自驾或短暂停留。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">山城石屋民宿</h4>
+                  <p className="text-sm text-blue-800">直接住在老城腹地一栋经过修复的17世纪石屋里，房东可能就住在楼下，早晨会为你准备好一篮新鲜的“塔雷利”饼干和自家熬制的果酱，晚上能听到远处教堂的钟声在群山间回荡。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">2.  老城内的特色民宿（B&B）</h4>
-                  <p className="text-sm text-green-800">沉浸式体验中世纪氛围，但需爬坡且行李搬运不便。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">设计型精品酒店（位于新城与老城交界）</h4>
+                  <p className="text-sm text-green-800">由一座老法院建筑改造而成，内部是极简的现代设计，却保留了原始的拱顶和石墙，顶楼露台酒吧拥有无遮挡的城堡景观，是新与旧的完美对话。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">3.  郊区农庄（Agriturismo）</h4>
-                  <p className="text-sm text-yellow-800">体验莫利塞乡村风情，适合追求宁静和美食的旅客。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">农庄体验（近郊）</h4>
+                  <p className="text-sm text-yellow-800">如果自驾，可以选择老城周围丘陵地带的“Agriturismo”（农家乐），住在传统的石头农舍里，白天参与橄榄收获或奶酪制作，夜晚在无光污染的夜空下看繁星笼罩山巅的老城剪影。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">历史宫殿酒店（下山平原）</h4>
+                  <p className="text-sm text-purple-800">对于追求奢华服务的旅客，山下现代城区有几家由19世纪贵族宫殿改造的四星级酒店，提供完善的设施和服务，去老城探索只需一次短途出租车或徒步上山。</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">若选择老城住宿，务必确认房东是否提供行李搬运协助，否则拖着大箱子上山会非常辛苦。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">预订老城内的住宿时，务必确认是否有停车安排，因为绝大多数巷子完全禁止机动车驶入，通常需要将车停在山下的公共停车场。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">老城夜晚非常宁静，几乎没有夜生活，喜欢热闹的旅客可能需要考虑新城区的住宿。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">夏季预订需提前，尤其是7、8月的周末，当地也可能有传统节庆，房间会很紧张。</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">坎波巴索老城是一份需要静下心来品味的礼物。它没有令人屏息的绝世景观，却有一种让人安心的、质朴的美。在这里，旅行的节奏被迫放慢，你会更留意墙角的一丛野花、门口闲聊的老人、以及阳光在石墙上移动的轨迹。如果你厌倦了热门景点的拥挤，渴望寻找一个真实、宁静、充满生活痕迹的意大利，那么这座山城会温柔地拥抱你。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">离开坎波巴索老城许久之后，记忆里最清晰的不是某个具体的景点，而是一种感觉——那种双脚切实踩在历史肌理之上的踏实感，和心跳随着爬坡节奏一起变慢的宁静感。在这个崇尚效率、追求“网红打卡”的时代，这样一座不为取悦任何人、只为自己存在的老城，显得如此珍贵而奢侈。它没有佛罗伦萨的华丽，没有威尼斯的浪漫，它有的只是石头、天空、风和一代又一代人生活过的痕迹。正是这种质朴的真实，具有直指人心的力量。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">它教会我们，旅行的意义有时不在于看到了什么，而在于感受到了什么。在这里，你感受到的是一种坚韧的生命力。如同石缝中顽强生长的野花，这座城在战火、地震和时光的冲刷下，依然屹立在山巅，保持着它的尊严与节奏。对于每一位渴望真正“抵达”而非“路过”的旅人来说，坎波巴索老城是一剂温柔的解毒剂，它帮你洗去浮躁，让你重新学会用最原始的感官——你的触觉、嗅觉、听觉和一颗安静的心，去阅读一座城市，去理解一片土地。它不是目的地清单上的一个名字，而是一次向内行走的深刻体验。</p>
             </div>
           </Section>
         </div>

@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '瑙姆堡大教堂 Naumburg Cathedral｜邂逅中世纪“活生生”的捐助人雕像 - 最佳欧洲景点',
-  description: '走进瑙姆堡大教堂，你第一眼就会被西唱诗堂里那十二尊捐助人雕像牢牢抓住目光。天啊，他们简直不像中世纪的石头人，而是活生生的人被瞬间定格在了那里！尤其是乌塔夫人，她微微侧身，用斗篷轻掩面颊，那个眼神既高贵又带着一丝难以言说的忧郁，仿佛能穿透数百年的时光与你对视。教堂本身是罗马式向哥特式过渡的典范，线条庄...',
+  title: '瑙姆堡大教堂 Naumburg Cathedral｜窥见“会说话”的中世纪石像，与乌塔夫人对视的震撼 - 最佳欧洲景点',
+  description: '推开瑙姆堡大教堂那扇沉重的木门，时间“嗡”的一声就慢了下来。首先包裹你的是那股气味——古老石材在数百年呼吸中沉淀下来的微凉潮气，混合着燃烧殆尽的蜡烛芯那点淡淡的蜡油味，还有一丝不易察觉的、木头长椅被岁月摩挲出的温润气息。光线从高高的彩窗斜射进来，在空气中切割出无数道浮尘飞舞的光柱，让整个空间显得既肃...',
 }
 
 export default function NaumburgCathedralPage() {
@@ -23,13 +23,17 @@ export default function NaumburgCathedralPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">瑙姆堡大教堂・Naumburg Cathedral・德国・瑙姆堡</h1>
           <p className="text-lg text-gray-600 mb-6">
-            走进瑙姆堡大教堂，你第一眼就会被西唱诗堂里那十二尊捐助人雕像牢牢抓住目光。天啊，他们简直不像中世纪的石头人，而是活生生的人被瞬间定格在了那里！尤其是乌塔夫人，她微微侧身，用斗篷轻掩面颊，那个眼神既高贵又带着一丝难以言说的忧郁，仿佛能穿透数百年的时光与你对视。教堂本身是罗马式向哥特式过渡的典范，线条庄重又轻盈。但真正让这里与众不同的，就是这些13世纪的雕塑家——被称为“瑙姆堡大师”的天才，他赋予了石头灵魂和人性。站在他们面前，你会忘记这是一座教堂，更像是在参观一个中世纪人物的肖像画廊，那种真实感和情感冲击力，太震撼了。
+            推开瑙姆堡大教堂那扇沉重的木门，时间“嗡”的一声就慢了下来。首先包裹你的是那股气味——古老石材在数百年呼吸中沉淀下来的微凉潮气，混合着燃烧殆尽的蜡烛芯那点淡淡的蜡油味，还有一丝不易察觉的、木头长椅被岁月摩挲出的温润气息。光线从高高的彩窗斜射进来，在空气中切割出无数道浮尘飞舞的光柱，让整个空间显得既肃穆又迷离。你的眼睛需要一点时间适应这幽暗，然后，它们就在教堂的西侧，毫无预兆地撞见了“他们”。
+那不是一排神祇或圣徒，而是十二个仿佛刚刚从集市或庄园走来的中世纪男女。他们穿着当时的服饰，或站或立在石柱旁，神情、姿态各异到令人屏息。其中最著名的，无疑是乌塔夫人。她微微侧身，用披风优雅地遮住下半边脸，只露出一双望向远方的眼睛。那眼神里有骄傲，有一丝疏离，或许还有一点淡淡的哀愁。阳光恰好在上午时分掠过她的面颊，砂岩的质感变得无比柔和，你几乎能感觉到她披风下织物的纹理和皮肤的温热。站在她面前，所有关于中世纪“呆板”、“千人一面”的刻板印象瞬间瓦解。这些雕像仿佛被施了魔法，凝固了生命最后一刻的呼吸与思绪，静静地在这座教堂里，与光阴对坐了八百年。
+你会发现，教堂里不止有你这样的外来访客。角落里有位老妇人正静静地坐着祈祷，阳光在她花白的头发上镀了一层金边；远处有工作人员拿着羽毛掸子，极其轻柔地拂拭着木雕上的灰尘，动作虔诚得像在完成某种仪式。这座教堂从未死去，它依然是瑙姆堡人心跳的一部分，是他们的历史坐标，也是他们安放心灵的静谧角落。它的核心魅力，就在于这种惊人的“在场感”——艺术不再是教科书上冰冷的图片，历史人物不再是名字与年份，他们就站在这里，带着全部的人格与故事，等待与你进行一场跨越时空的无声对话。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">走进瑙姆堡大教堂，你第一眼就会被西唱诗堂里那十二尊捐助人雕像牢牢抓住目光。天啊，他们简直不像中世纪的石头人，而是活生生的人被瞬间定格在了那里！尤其是乌塔夫人，她微微侧身，用斗篷轻掩面颊，那个眼神既高贵又带着一丝难以言说的忧郁，仿佛能穿透数百年的时光与你对视。教堂本身是罗马式向哥特式过渡的典范，线条庄重又轻盈。但真正让这里与众不同的，就是这些13世纪的雕塑家——被称为“瑙姆堡大师”的天才，他赋予了石头灵魂和人性。站在他们面前，你会忘记这是一座教堂，更像是在参观一个中世纪人物的肖像画廊，那种真实感和情感冲击力，太震撼了。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">推开瑙姆堡大教堂那扇沉重的木门，时间“嗡”的一声就慢了下来。首先包裹你的是那股气味——古老石材在数百年呼吸中沉淀下来的微凉潮气，混合着燃烧殆尽的蜡烛芯那点淡淡的蜡油味，还有一丝不易察觉的、木头长椅被岁月摩挲出的温润气息。光线从高高的彩窗斜射进来，在空气中切割出无数道浮尘飞舞的光柱，让整个空间显得既肃穆又迷离。你的眼睛需要一点时间适应这幽暗，然后，它们就在教堂的西侧，毫无预兆地撞见了“他们”。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">那不是一排神祇或圣徒，而是十二个仿佛刚刚从集市或庄园走来的中世纪男女。他们穿着当时的服饰，或站或立在石柱旁，神情、姿态各异到令人屏息。其中最著名的，无疑是乌塔夫人。她微微侧身，用披风优雅地遮住下半边脸，只露出一双望向远方的眼睛。那眼神里有骄傲，有一丝疏离，或许还有一点淡淡的哀愁。阳光恰好在上午时分掠过她的面颊，砂岩的质感变得无比柔和，你几乎能感觉到她披风下织物的纹理和皮肤的温热。站在她面前，所有关于中世纪“呆板”、“千人一面”的刻板印象瞬间瓦解。这些雕像仿佛被施了魔法，凝固了生命最后一刻的呼吸与思绪，静静地在这座教堂里，与光阴对坐了八百年。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">你会发现，教堂里不止有你这样的外来访客。角落里有位老妇人正静静地坐着祈祷，阳光在她花白的头发上镀了一层金边；远处有工作人员拿着羽毛掸子，极其轻柔地拂拭着木雕上的灰尘，动作虔诚得像在完成某种仪式。这座教堂从未死去，它依然是瑙姆堡人心跳的一部分，是他们的历史坐标，也是他们安放心灵的静谧角落。它的核心魅力，就在于这种惊人的“在场感”——艺术不再是教科书上冰冷的图片，历史人物不再是名字与年份，他们就站在这里，带着全部的人格与故事，等待与你进行一场跨越时空的无声对话。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -37,29 +41,31 @@ export default function NaumburgCathedralPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="瑙姆堡大教堂" />
                 <InfoRow label="英文名称" value="Naumburg Cathedral" />
-                <InfoRow label="正式名称" value="Naumburg Cathedral" />
+                <InfoRow label="正式名称" value="Naumburg Cathedral of St. Peter and St. Paul" />
                 <InfoRow label="国家" value="德国" />
                 <InfoRow label="城市" value="瑙姆堡" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="" />
-                <InfoRow label="建筑特色" value="" />
-                <InfoRow label="建筑风格" value="" />
-                <InfoRow label="文化价值" value="" />
+                <InfoRow label="历史地位" value="瑙姆堡大教堂是德国罗马式向哥特式过渡时期建筑与雕塑艺术的巅峰代表，其西圣坛区内的十二位捐助者雕像被誉为“欧洲中世纪肖像艺术的皇冠明珠”。" />
+                <InfoRow label="建筑特色" value="最大特色是其内部拥有两个相对而立的圣坛（东圣坛与西圣坛），以及西圣坛前那组栩栩如生、极具个性张力的捐助者砂岩雕像。" />
+                <InfoRow label="建筑风格" value="以晚期罗马式风格为基础，并融合了早期哥特式元素，形成了独特的“瑙姆堡风格”，尤其在雕塑上打破了中世纪程式化的束缚。" />
+                <InfoRow label="文化价值" value="作为联合国教科文组织世界遗产，它不仅是一座宗教建筑，更是一部用石头雕刻的中世纪社会史与情感史，让现代人得以直面千年前个体的真实面容与内心世界。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="4月至10月：周一至周六 9:00-18:00，周日及节假日 11:00-18:00；11月至3月：周一至周六 10:00-16:00，周日及节假日 12:00-16:00。" />
-              <InfoRow label="门票价格" value="成人票 7.5欧元；优惠票（学生、残疾人等）6欧元；家庭票（2成人+最多4名儿童）19欧元；14岁以下儿童免费。语音导览需额外付费。" />
-              <InfoRow label="地址" value="Domplatz 16/17, 06618 Naumburg (Saale), Germany" />
-              <InfoRow label="交通方式" value="从莱比锡/哈勒机场出发，乘坐火车至瑙姆堡火车站（Naumburg (Saale) Hauptbahnhof），车程约1小时。从火车站步行至大教堂约15-20分钟。也可从魏玛或耶拿乘坐地区火车抵达。" />
+              <InfoRow label="开放时间" value="通常开放时间为：夏季（4月至10月）周一至周六上午10点至下午6点，周日下午12点至下午6点；冬季（11月至3月）周一至周六上午10点至下午4点，周日下午12点至下午4点。教堂有时会因宗教活动临时关闭，参观前建议查看官网通知。登塔时间通常更短，且受天气影响，需在现场确认。" />
+              <InfoRow label="门票价格" value="进入教堂中殿和参观著名的捐助者雕像区域需要门票，成人票约7欧元。学生、团体及家庭有相应折扣。登塔需额外支付少量费用（约3欧元）。持有“萨克森-安哈尔特州教堂卡”可免费或优惠进入。具体票价可能因展览或音乐会等活动微调。" />
+              <InfoRow label="地址" value="Domplatz 16, 06618 Naumburg (Saale), Germany" />
+              <InfoRow label="交通方式" value="最近的国际机场是莱比锡/哈勒机场（LEJ），距离约70公里。从机场可乘坐区域列车（RE或S-Bahn）先至莱比锡主火车站，再换乘开往瑙姆堡的列车，总耗时约1.5-2小时。若从柏林出发，乘坐ICE高速列车到哈勒（萨勒）主火车站，再换乘区域列车前往瑙姆堡，总时长约2小时。从瑙姆堡火车站步行至大教堂约15-20分钟，沿途是迷人的老城石板路，行李不多的话强烈建议步行。当地公交车班次有限，出租车在站前广场通常可以找到。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">瑙姆堡大教堂的故事始于1028年，当时这里建起了一座早期的罗马式教堂，算是打下了地基。不过，我们今天看到的主体建筑，主要是在13世纪（大约1210年到1250年间）轰轰烈烈建起来的。这个时期特别有意思，建筑风格正处在罗马式的厚重向哥特式的纤巧“转型”的关键期，所以你可以在教堂里同时看到圆拱和尖拱，像一场静默的风格对话。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">但真正让这座教堂名垂青史的，是13世纪中叶那位不知名的雕塑大师——我们只能尊称他为“瑙姆堡大师”。当时，教堂西唱诗堂需要装饰，他接到任务，为这座教堂的奠基者和主要捐助人创作雕像。按常理，这些捐助人早已作古一两百年了，常规操作就是做个符号化的纪念像罢了。可这位大师偏不！他仿佛拥有穿越时空的想象力，根据传说和文献，硬是把这些百年前的贵族，塑造成了有血有肉、个性鲜明的“当代人”。比如迈森伯爵埃克哈德，手按剑柄，威风凛凛；他的妻子乌塔，那个经典的回眸姿态，成了德国艺术史上最著名的女性形象之一。想想看，在普遍追求神圣、肃穆的中世纪，出现这样充满世俗情感和人性深度的作品，简直是石破天惊。2018年，大教堂因其独特的、早期哥特式建筑与这些无与伦比的雕塑共同构成的杰出价值，被列入联合国教科文组织世界遗产名录。站在这些雕像前，你感受到的不是神性的威严，而是人性的温度，这大概就是它穿越800年依然直击人心的秘密。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">故事要从1028年说起。当时的迈森边区伯爵埃克哈德一世和他的妻子乌塔（没错，雕像的原型之一，但非那位最著名的乌塔）决定将主教座堂从邻近的蔡茨迁至更具战略意义的瑙姆堡。最初的教堂是罗马式风格，但今天我们看到的宏伟主体，主要建于13世纪。那是一个风云激荡的时代，神圣罗马帝国皇帝与教皇争权，城市开始崛起，艺术也在悄然变革。瑙姆堡的历任主教，特别是精力充沛的迪特里希二世和恩格尔哈特，决心要建造一座配得上他们雄心壮志的教堂。他们请来了当时最好的工匠，其中就包括那位名垂青史、我们至今不知其真名的“瑙姆堡大师”。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">大约在1250年前后，这位天才雕塑家带领他的作坊，开始创作西圣坛的那些捐助者雕像。这些人并非圣徒，而是两百年前教堂最早的奠基者和重要的捐赠者，包括埃克哈德伯爵、他的妻子乌塔、迈森藩侯赫尔曼，以及他的妻子雷格林蒂斯等。这位大师做了一件在当时极为叛逆的事：他没有遵循中世纪艺术常见的象征化、神性化模板，而是试图还原这些历史人物的真实样貌与个性。他研究他们的生平故事，揣摩他们的性格，甚至可能参考了家族后人的长相传说。于是，我们看到了手持宝剑、一脸刚毅的埃克哈德；看到了温柔持书、略带羞涩的雷格林蒂斯；还有那位将披风拉至脸前、姿态既防御又高傲的乌塔夫人。这组雕像在当时的欧洲石破天惊，因为它第一次如此强烈地宣告了“个体”的存在，将世俗人物的肖像艺术提升到了近乎神圣的高度。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">教堂的命运并非一帆风顺。宗教改革的风暴席卷了这里，它从天主教主教座堂变成了新教教堂，许多内部装饰被移除或简化。幸运的是，这些无与伦比的雕像被保留了下来，尽管它们曾一度被世人遗忘。19世纪浪漫主义时期，艺术家和学者们重新“发现”了瑙姆堡，这些雕像震惊了艺术界，歌德都曾专程前来拜访“乌塔”。然而，真正的劫难在20世纪。二战末期，瑙姆堡遭到猛烈轰炸，老城大半被毁。奇迹般地，大教堂主体结构和那些珍贵的雕像竟然在火海中幸存了下来，只有彩窗被震碎。战后，东德的文物保护工作者在极其困难的条件下开始了漫长的修复。两德统一后，更系统、更科学的修复工程得以展开，专家们用最精细的手段清除了几个世纪积存的污垢和不当修复，让雕像重新焕发出砂岩原本的光泽与细节。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">2018年，历经漫长申遗之路，瑙姆堡大教堂因其“是理解中世纪艺术、建筑、历史和基督教在中欧传播的杰出范例”，终于被列入联合国教科文组织世界遗产名录。这不仅是对它艺术价值的认可，更是对那个敢于在石头中镌刻人性的无名大师，以及所有在历史洪流中守护了这片珍宝的人们的最高礼赞。今天，当你触摸着那些冰凉的、被无数人触摸过的石柱，你触摸的是一部活生生的、从帝国争雄到战争与和平的欧洲史诗。</p>
             </div>
           </Section>
 
@@ -68,37 +74,49 @@ export default function NaumburgCathedralPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  游览建议用时1.5-2小时。从西侧主入口进入后，先别急着往里冲，在入口处稍作停留，适应光线并感受整体空间。然后直奔最精华的西唱诗堂，仔细观赏捐助人雕像。之后沿主殿向东走，参观主祭坛，再探索北侧的回廊和珍宝馆。最后从出口离开，可以绕教堂外部走半圈，欣赏其建筑轮廓。
+                  建议你在一个晴朗的 weekday 上午10点前抵达，这样可以避开周末的人流和可能的学生团，享受教堂最宁静的时刻。整体游览需要至少3到4个小时，节奏宜慢不宜快。首先用半小时环绕教堂外部，感受其宏大的体量和混合风格的外观；然后进入内部，将至少两小时的核心时间完全留给西圣坛的雕像群和中殿空间，细细观看、感受甚至素描；之后参观东圣坛、回廊和珍宝馆；如果体力允许，最后登塔俯瞰红屋顶的老城与萨勒河弯道。这样的顺序由外而内、由震撼到细节，让你能逐步沉浸到教堂的叙事层中，而不是走马观花。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>教堂内部地面平整，但光线较暗，注意脚下。语音导览是理解雕像故事的关键，强烈建议租用。
+                  <strong>建议：</strong>教堂内禁止使用闪光灯和三脚架，手机拍照请务必静音，尊重正在祈祷的人。参观雕像时请始终保持至少一米的距离，绝对不要触摸砂岩表面，人体的油脂会对千年文物造成永久伤害。穿着舒适的平底鞋非常重要，内部石地板光滑且不平，登塔的楼梯更是陡峭狭窄。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">1.  从西大门进入，抬头看门楣上的浮雕。</p>
+                  <p className="text-sm text-gray-700 mb-2">从老城集市广场方向慢慢走近，先仰视大教堂双塔与玫瑰窗在蓝天下的庄严轮廓。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">2.  径直前往西唱诗堂，沉浸式观赏十二捐助人雕像，重点看乌塔和埃克哈德。</p>
+                  <p className="text-sm text-gray-700 mb-2">推开南侧入口厚重的木门，在门廊处稍作停留，让眼睛适应内部的光线并感受那股古老的空气。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">3.  漫步至东端的主祭坛，感受教堂的纵深感与神圣氛围。</p>
+                  <p className="text-sm text-gray-700 mb-2">径直走向西圣坛，不要急于拍照，先找个长椅坐下，静静地、依次端详那十二位捐助者雕像至少十五分钟。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">4.  转入北侧回廊，这里更安静，建筑细节优美。</p>
+                  <p className="text-sm text-gray-700 mb-2">起身走近雕像，从不同角度观察乌塔夫人披风的褶皱、埃克哈德手中剑柄的细节，以及他们脸上微妙的表情。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">5.  参观珍宝馆，看中世纪圣物箱和法衣。</p>
+                  <p className="text-sm text-gray-700 mb-2">转身步入中殿中央，抬头仰望交叉拱顶和彩窗，注意寻找支撑柱上那些生动的植物与人物浮雕。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">6.  从出口离开，外部回望西立面双塔。</p>
+                  <p className="text-sm text-gray-700 mb-2">穿过中殿来到东圣坛区，这里更显古老与肃穆，感受与西圣坛完全不同的宗教氛围。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">沿着指示牌走进宁静的回廊，这里的光影游戏和罗马式拱廊是拍摄建筑细节的绝佳地点。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">如果开放，一定要去珍宝馆看看那些幸存下来的中世纪圣物匣、法衣和手抄本，它们会补齐你对教堂历史认知的拼图。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 9 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">最后，鼓足勇气爬上狭窄的螺旋石梯登至塔楼，让萨勒河河谷的清风和满眼红瓦绿树的景象作为游览的完美句点。</p>
                 </div>
               </div>
             </div>
@@ -108,22 +126,28 @@ export default function NaumburgCathedralPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  西唱诗堂雕像前</h4>
-                  <p className="text-sm text-gray-700">最佳拍摄时间是上午，阳光从东窗射入，能柔和照亮雕像侧面。平视或微仰角度，捕捉乌塔夫人雕像的面部细节和优雅姿态。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 西圣坛右侧通道的长椅位置</h4>
+                  <p className="text-sm text-gray-700">上午十点至十一点间，自然光从南侧窗户射入，恰好以侧光笼罩乌塔夫人和埃克哈德雕像，能完美勾勒出面部轮廓与披风的立体感，构图时将人物置于画面三分之二处。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  主殿中轴线向东拍</h4>
-                  <p className="text-sm text-gray-700">下午时分，光线从西窗投入。站在中殿中部，将祭坛、柱廊和穹顶收入画面，展现教堂深邃的透视感和宏伟结构。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 回廊东南角拱门下</h4>
+                  <p className="text-sm text-gray-700">午后阳光会斜射入回廊，在古老的石墙上投下优美的拱形阴影，此时以拱门为画框，拍摄走向光影中的同伴或独自静坐的瞬间，极具故事感。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  回廊拱窗下</h4>
-                  <p className="text-sm text-gray-700">晴天时，利用回廊的拱形窗框作为天然画框，拍摄窗外庭院或教堂外墙，构图富有几何美感。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 中殿仰望拱顶的视角</h4>
+                  <p className="text-sm text-gray-700">躺在中殿的长椅上（如果人少且不影响他人），用超广角镜头垂直向上拍摄，可以捕捉到肋拱顶如盛大植物般向上生长的震撼线条。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 4.  教堂南侧外部</h4>
-                  <p className="text-sm text-gray-700">傍晚的侧光能清晰勾勒出教堂石头立面的质感和飞扶壁的线条，适合拍摄建筑全景。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 塔楼西侧垛口</h4>
+                  <p className="text-sm text-gray-700">登顶后，将相机镜头穿过石垛口，不仅可以框住大教堂的其中一个尖塔作为前景，还能将远处蜿蜒的萨勒河和层层叠叠的老城屋顶一同收纳，最佳时间是下午光线柔和时。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 东圣坛祭坛前回望中殿</h4>
+                  <p className="text-sm text-gray-700">利用中殿长长的纵深，拍摄出柱廊层层递进、直至尽头彩窗光明的空间透视感，建议使用小光圈保证全景清晰。</p>
                 </div>
               </div>
 
@@ -132,7 +156,7 @@ export default function NaumburgCathedralPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 室内务必关闭闪光灯，尊重宗教场所的庄严。拍摄雕像时尽量使用自然光，高ISO设置，以保留石雕的原始质感和阴影层次。</li>
+                <li>• 砂岩在漫射光下质感最佳，正午的顶光会让雕像失去立体感，尽量选择上午或傍晚拍摄内部。拍摄人物与雕像的互动时，请捕捉沉思、凝望的瞬间，避免搞怪或轻浮的姿态，以契合场所的庄严氛围。无人机在瑙姆堡老城区是严格禁飞的。</li>
               </ul>
             </div>
           </Section>
@@ -141,31 +165,32 @@ export default function NaumburgCathedralPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">1.  历史中心酒店</h4>
-                  <p className="text-sm text-blue-800">选择Domplatz（大教堂广场）或步行5分钟范围内的精品酒店，推开窗就能看到教堂塔楼，体验极佳。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">老城心脏的百年旅馆</h4>
+                  <p className="text-sm text-blue-800">距离大教堂仅三分钟步程，由一栋十六世纪商人之家改造，房间有着咯吱响的原木地板和能看到教堂塔尖的斜窗，早餐在种满天竺葵的庭院里享用。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">2.  火车站附近旅馆</h4>
-                  <p className="text-sm text-green-800">对于自驾或乘火车抵达的游客，火车站周边有性价比高的商务旅馆，交通便利。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">萨勒河畔的设计师酒店</h4>
+                  <p className="text-sm text-green-800">坐落在河对岸宁静的街区，现代简约风格与古城风貌形成有趣对话，每个房间都有面向河流与教堂的阳台或露台，傍晚看夕阳给双塔镀金是一绝。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">3.  萨勒河畔民宿</h4>
-                  <p className="text-sm text-yellow-800">瑙姆堡老城萨勒河对岸有一些安静的民宿，环境优美，步行过桥约10-15分钟可达教堂。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">郊区葡萄园旁的度假屋</h4>
+                  <p className="text-sm text-yellow-800">如果你自驾，不妨入住附近山坡上的家庭式度假公寓，被葡萄藤环绕，夜晚极其静谧，星空清晰可见，清晨在鸟鸣中醒来，远眺雾气中的教堂尖顶。</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">4.  魏玛/耶拿当日往返</h4>
-                  <p className="text-sm text-purple-800">如果行程紧张，可从文化名城魏玛或耶拿出发，乘坐短途火车进行一日游。</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">前修道院改造的精品住宿</h4>
+                  <p className="text-sm text-purple-800">位于瑙姆堡近郊一座宁静的村庄，房间充满侘寂美学，保留了石墙与拱顶，自带一个草药花园和桑拿房，适合追求极致宁静与独特体验的旅人。</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">瑙姆堡是小城，旺季（夏季和圣诞季）中心住宿紧张，建议提前预订。住在老城内更能感受中世纪小镇的晨昏魅力。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">瑙姆堡老城非常小巧安全，几乎所有景点都可步行到达，因此住在老城内体验最佳，但夜间可能更为安静（甚至有些冷清）。夏季和圣诞市场期间是旺季，务必提前预订。如果选择郊外住宿，请务必确认是否有方便的公共交通或准备好自驾，德国的乡村巴士班次非常稀疏。</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">瑙姆堡大教堂最动人的，不是它宏大的规模，而是那份凝固在石头里的“人性”。当别的教堂用彩窗和圣像讲述神的故事时，这里却用前所未有的写实雕塑，为你呈现了一群中世纪贵族的悲喜与性格。与乌塔夫人对视的那一刻，时间仿佛消失了。她不是神，也不是符号，只是一个被艺术家永恒铭记的灵魂。这不仅仅是一次教堂参观，更像是一场与八百年前艺术大师的隔空对话，深刻而私密，让人久久回味。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">离开瑙姆堡很久之后，我脑海里最清晰的画面，不是教堂的穹顶，也不是登高望远的开阔，而是乌塔夫人那道穿越了石像、穿越了八个世纪，最终与我相遇的目光。在那个瞬间，历史所有的宏大叙事——帝国的征战、教会的权力、艺术的流派——都悄然退场，只剩下一个“人”与另一个“人”的无声交流。我仿佛能感受到她指尖拂过披风羊毛的触感，能猜测她目光所及的远方是家族的领地还是内心的忧虑。这种连接感，是任何史料记载都无法给予的。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个数字图像爆炸、一切都被快速消费和遗忘的时代，瑙姆堡大教堂像一座坚不可摧的时光岛屿。它提醒我们，真正的“深度”不在于打卡了多少地点，而在于你是否允许自己停下来，与一段凝结的时光、一个过往的灵魂，进行哪怕只有几分钟的纯粹对视。这里没有喧嚣的表演，没有刻意的讨好，只有石头与光的诚实对话，以及那份亘古不变的、对人类面孔与精神世界的深邃好奇。所以，如果你厌倦了浮光掠影的行程，渴望一次能真正走入历史肌理、感受人性温度的心灵触动，那么，请一定要来瑙姆堡。赴一场与乌塔夫人的约会，你会发现，你看的不是一座教堂，而是一面映照出我们自身存在与永恒的镜子。</p>
             </div>
           </Section>
         </div>

@@ -1,0 +1,196 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '加里波利老城 Gallipoli Old Town｜迷失在意大利“靴跟”的白色迷宫，邂逅最地道的亚得里亚海风情 - 最佳欧洲景点',
+  description: '想象一下，你从一个充斥着汽车噪音的现代街区，走上一座短短的桥。就在桥的尽头，时间“咔嗒”一声切换了频道。扑面而来的，首先是气味——不是单一的，而是一层层交织在一起的交响乐：最底层是永远存在的、带着咸腥味的海风；中间一层是油炸海鲜混着大蒜和欧芹的浓郁香气，从那些没有门、厨房直接对着街道的小餐馆飘出来；...',
+}
+
+export default function GallipoliOldTownPugliaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '加里波利老城', href: '/attractions/gallipoli-old-town-puglia' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">加里波利老城・The Old Town of Gallipoli・意大利・加里波利</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            想象一下，你从一个充斥着汽车噪音的现代街区，走上一座短短的桥。就在桥的尽头，时间“咔嗒”一声切换了频道。扑面而来的，首先是气味——不是单一的，而是一层层交织在一起的交响乐：最底层是永远存在的、带着咸腥味的海风；中间一层是油炸海鲜混着大蒜和欧芹的浓郁香气，从那些没有门、厨房直接对着街道的小餐馆飘出来；最上面，偶尔还会掠过一阵晒在绳子上、被阳光烘烤得暖洋洋的床单的洁净味道。你的眼睛需要适应一下，因为目之所及，全是各种层次的白。石灰粉刷的墙壁在正午的阳光下白得晃眼，狭窄的街道像被刷子随意涂抹出来的缝隙，在两排高耸的房屋间蜿蜒，天空被切割成一条碎碎的蓝宝石带子。
+你的耳朵也不会闲着。背景音是永恒的、温柔的波涛声，拍打着岩石基底。近处，是意大利语快速而响亮的交谈声，从敞开的窗户里、从头顶的阳台上传来，伴随着锅碗瓢盆的碰撞。有老太太坐在自家门槛上，面前摆着小筐，手法娴熟地收拾着银光闪闪的小鱼；光着膀子的男人在修补渔网，尼龙线在粗糙的手指间飞快穿梭。这里不像一个仅供观赏的博物馆，而是一个仍然强劲跳动的心脏。居民在这里出生、相爱、老去，游客只是偶然流过其血管的访客。那种浓烈的生活感，会瞬间包裹你，让你觉得自己不是来看风景的，而是不小心闯入了某部正在上映的南部意大利电影。
+而这座老城最打动人心的，是它那种毫无保留地向大海敞开的姿态。走着走着，你以为前面是死胡同，一转弯，却突然撞见一片豁然开朗的蔚蓝。一条小巷的尽头可能就是几级粗糙的石阶，直接没入清澈见底的海水中，停着一艘斑驳的蓝色小船。在这里，“街道”和“码头”的界限是模糊的，生活与海洋紧密相连，呼吸同步。这种直接、坦诚、与自然力量共舞的生存方式，正是加里波利老城历经数百年风雨，依然充满活力的灵魂所在。
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">想象一下，你从一个充斥着汽车噪音的现代街区，走上一座短短的桥。就在桥的尽头，时间“咔嗒”一声切换了频道。扑面而来的，首先是气味——不是单一的，而是一层层交织在一起的交响乐：最底层是永远存在的、带着咸腥味的海风；中间一层是油炸海鲜混着大蒜和欧芹的浓郁香气，从那些没有门、厨房直接对着街道的小餐馆飘出来；最上面，偶尔还会掠过一阵晒在绳子上、被阳光烘烤得暖洋洋的床单的洁净味道。你的眼睛需要适应一下，因为目之所及，全是各种层次的白。石灰粉刷的墙壁在正午的阳光下白得晃眼，狭窄的街道像被刷子随意涂抹出来的缝隙，在两排高耸的房屋间蜿蜒，天空被切割成一条碎碎的蓝宝石带子。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">你的耳朵也不会闲着。背景音是永恒的、温柔的波涛声，拍打着岩石基底。近处，是意大利语快速而响亮的交谈声，从敞开的窗户里、从头顶的阳台上传来，伴随着锅碗瓢盆的碰撞。有老太太坐在自家门槛上，面前摆着小筐，手法娴熟地收拾着银光闪闪的小鱼；光着膀子的男人在修补渔网，尼龙线在粗糙的手指间飞快穿梭。这里不像一个仅供观赏的博物馆，而是一个仍然强劲跳动的心脏。居民在这里出生、相爱、老去，游客只是偶然流过其血管的访客。那种浓烈的生活感，会瞬间包裹你，让你觉得自己不是来看风景的，而是不小心闯入了某部正在上映的南部意大利电影。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">而这座老城最打动人心的，是它那种毫无保留地向大海敞开的姿态。走着走着，你以为前面是死胡同，一转弯，却突然撞见一片豁然开朗的蔚蓝。一条小巷的尽头可能就是几级粗糙的石阶，直接没入清澈见底的海水中，停着一艘斑驳的蓝色小船。在这里，“街道”和“码头”的界限是模糊的，生活与海洋紧密相连，呼吸同步。这种直接、坦诚、与自然力量共舞的生存方式，正是加里波利老城历经数百年风雨，依然充满活力的灵魂所在。</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value="加里波利老城" />
+                <InfoRow label="英文名称" value="The Old Town of Gallipoli" />
+                <InfoRow label="正式名称" value="The Old Town of Gallipoli" />
+                <InfoRow label="国家" value="意大利" />
+                <InfoRow label="城市" value="加里波利" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="一座历经希腊、罗马、拜占庭、诺曼、西班牙等多重文明洗礼的战略要塞与海上重镇，被誉为“普利亚的明珠”。" />
+                <InfoRow label="建筑特色" value="密集的白色房屋构成的“迷宫”，狭窄蜿蜒的街道（称为“vicoli”）直接通往湛蓝的大海，形成了独特的“街即港”景观。" />
+                <InfoRow label="建筑风格" value="地中海风格为主，混杂了巴洛克装饰的教堂、诺曼式的城堡基础以及朴素的渔民住宅，呈现出层次丰富的“实用之美”。" />
+                <InfoRow label="文化价值" value="活着的渔港社区，是理解意大利南部“梅佐乔诺诺”地区海洋文化、传统渔业与坚韧生活哲学的最佳窗口。" />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="老城本身全天24小时开放。城内主要景点如加里波利希腊喷泉、城堡、大教堂等开放时间各异，通常为上午9:00至下午1:00，下午4:00至晚上8:00（夏季会延长）。多数博物馆周一闭馆。小型教堂开放时间较为随意，建议查看门口公告。海滨餐厅和商店营业至深夜。" />
+              <InfoRow label="门票价格" value="进入老城区域免费。内部各景点单独售票：加里波利城堡约5欧元；市政博物馆约3欧元；希腊喷泉免费参观。建议购买景点联票（如有），通常更划算。65岁以上老人及欧盟学生享有优惠。" />
+              <InfoRow label="地址" value="Città Vecchia, 73014 Gallipoli LE, Italy" />
+              <InfoRow label="交通方式" value="最近的机场是布林迪西机场（BDS），距离约60公里。从机场可乘坐火车站接驳巴士至布林迪西中央火车站，换乘区域火车（Ferrovie Sud Est线路）前往加里波利站，车程约1.5小时，班次每天约10-12班。从加里波利火车站步行至老城约15-20分钟，或搭乘本地巴士。自驾可将车停在老城对岸（Borgo Nuovo）的大型停车场，然后步行通过一座短桥进入老城，老城内严禁非居民车辆通行。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">加里波利的故事，得从它的名字说起。“Gallipoli”源于希腊语“Kalé Polis”，意为“美丽之城”。早在公元前8世纪，来自希腊的殖民者就相中了这个伸入爱奥尼亚海的石灰岩半岛，它三面环海，易守难攻，是天然的良港和堡垒。他们在此建城，开始了与地中海世界的贸易，也将橄榄种植和榨油技术带到了这里。你可以想象，两千多年前，满载着陶罐、橄榄油和葡萄酒的希腊船只，就是驶入你现在看到的这个天然港湾。老城脚下那些被海浪冲刷得光滑的岩石上，或许还残留着远古缆绳摩擦的痕迹。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">罗马人来了又走，拜占庭帝国曾在此留下深刻的印记。但真正塑造了老城今日筋骨的时刻，是中世纪。诺曼人征服南意大利后，为了抵御来自海上的威胁——无论是阿拉伯海盗还是东方的帝国——开始大规模修建防御工事。你现在看到的加里波利城堡，其核心部分就是那个时期奠定的基础。城墙被加固，塔楼被竖起，整个半岛被打造成为一个坚固的军事要塞。老城那迷宫般的街道布局，起初并非为了浪漫，而是出于防御考虑：狭窄曲折的小巷可以最大限度延缓入侵者的推进，让熟悉地形的居民能够进行巷战。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，加里波利从未仅仅是一座兵营。它的生命线始终是大海。随着中世纪贸易的复兴，它成为普利亚地区向威尼斯、热那亚乃至整个地中海出口橄榄油、葡萄酒和盐的重要港口。财富的积累催生了艺术的繁荣。十七、十八世纪，当巴洛克之风席卷意大利时，加里波利也迎来了自己的“镀金时代”。商人和贵族们竞相出资，将原本简朴的教堂装饰得富丽堂皇。你如今在老城主座教堂里看到的那些华丽繁复的镀金祭坛、栩栩如生的圣像雕塑，正是那个黄金时代的见证。海上的财富，转化成了对天国的虔诚与对现世地位的炫耀。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">近代以来，加里波利的命运与渔业紧紧绑定。特别是海绵捕捞业，曾是这里无数家庭几代人的生计。男人们乘着小船，冒着风险潜入深海采集天然海绵，女人们则在岸上处理和销售。这项古老而艰辛的行业，塑造了加里波利人坚韧、团结、与大海搏斗又依赖大海的独特性格。即便在今天，机械化捕捞已成主流，你依然能在清晨的鱼市（就在城堡旁边的海岸）看到最鲜活的地中海渔业图景：渔夫们用响亮的嗓音叫卖着当天的收获，银色的鱼堆在冰块上闪烁，买家们用手势进行着古老的议价。战争、瘟疫、经济起伏都曾冲击这里，但老城就像它脚下的岩石，被海浪拍打了千年，反而被打磨出一种粗粝而温暖的光泽。它没有被纯粹地博物馆化，也没有在现代化中迷失自己，而是在保存记忆的同时，继续着靠海吃海、喧闹而真实的生活。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  理想的加里波利老城深度游，最好安排一整天时间，从清晨到日暮。建议早上9点前抵达，这时旅游团还未涌入，阳光柔和，本地生活刚刚苏醒。整个游览节奏应该是“慢浸入式”的，不必执着于打卡每个景点，更重要的是感受氛围。路线从连接新城与老城的桥开始，顺时针环绕半岛，先体验港口的生活气息，再深入迷宫般的内巷探索建筑与细节，最后在城堡或海滨欣赏日落。这样安排既能捕捉到老城在不同光线下的美，也能完整地感受到它从渔港、到社区、再到防御堡垒的多重身份。记得穿一双绝对舒适的平底鞋，因为你要在崎岖不平的石板路上走上万步。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>正午到下午三点阳光最烈时，建议躲进某家小店或教堂休息，南部意大利的日照不是开玩笑的。老城地面多是不规则的石板，绝对不要穿高跟鞋或拖鞋。小心那些从楼上阳台垂下的晾衣绳和滴落的水珠。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">清晨从连接Borgo Nuovo与老城的桥进入，第一时间去城堡旁的港口看渔船归航和喧闹的早市，感受扑鼻的海腥味和活力四射的交易场面。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">顺着港口边的小路漫步，寻找那些颜色鲜艳的“蓝洞”——小巷尽头直接通向大海的台阶，看当地人如何像使用自家后院一样使用这片海域。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">钻进主广场（Piazza Duomo），仰视巴洛克风格的主座教堂立面，然后就在广场边的咖啡店外摆张椅子，点一杯“咖啡莱切”（冰咖啡加杏仁奶），像本地人一样发呆看人来人往。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">彻底迷失在老城腹地的白色迷宫里，不要看地图，任由狭窄的“vicoli”带你穿梭，抬头看晾晒的衣物、窗台的花草、以及居民在头顶搭建的“天桥”。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">探访小巧的“希腊喷泉”，尽管它建于文艺复兴时期，却是老城少数关于其古希腊起源的明确纪念物，抚摸一下雕刻的纹章。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">登上安焦伊诺城堡的城墙，从高处俯瞰老城密集的白色屋顶和远处无垠的蓝色大海，理解其作为要塞的地理优势。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在日落前回到面向开阔大海的西侧海堤，找一块光滑的岩石坐下，看着夕阳将白色的房屋染成金黄，再慢慢变成粉红色。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">晚餐不必追求高档餐厅，就在某条小巷里找一家家庭经营的小馆，点一盆用铸铁锅端上来的“海鲜杂烩”，用手抓着沾满番茄汁的面包，完成味觉上的终极融入。</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 港口日出时分的剪影</h4>
+                  <p className="text-sm text-gray-700">清晨六点左右，站在城堡靠海一侧，以归航渔船的黑色剪影和摇曳的灯火为前景，拍摄被晨曦染成粉紫色的老城天际线。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. “蓝洞”的框架构图</h4>
+                  <p className="text-sm text-gray-700">下午三四点，阳光能斜射入小巷时，找到一条尽头是海的巷子，利用两侧白色的高墙作为天然画框，将焦点对准巷口那片明亮的蔚蓝和一艘随波荡漾的小船。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 主教堂穹顶与天空</h4>
+                  <p className="text-sm text-gray-700">避开正午顶光，在上午十点或下午四点后，躺靠在主教堂前的广场地面上（别怕脏），用超广角镜头拍摄教堂华丽的巴洛克穹顶衬在纯净蓝天中的震撼画面。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 城墙俯瞰全景</h4>
+                  <p className="text-sm text-gray-700">日落前一小时登上城堡或某段残存的城墙，使用长焦镜头压缩空间，捕捉层层叠叠的白色房屋、错综复杂的晾衣绳与远方海平面形成的几何与生活交织的图案。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 生活细节特写</h4>
+                  <p className="text-sm text-gray-700">随时准备捕捉镜头——老太太布满皱纹的手在织补渔网、门洞上褪色的圣母像前新鲜的鲜花、窗台上彩色的陶瓷风铃在风中轻响，这些都是老城的灵魂所在。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 拍摄当地居民，尤其是长者，务必先微笑并征得同意，一个简单的手势和“Foto？”通常能得到善意回应。海边的岩石非常滑，为了寻找角度攀爬时务必万分小心。逆光拍摄白色建筑时，酌情增加曝光补偿，否则你会得到一堆灰房子。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">海景阳台民宿</h4>
+                  <p className="text-sm text-blue-800">选择老城靠外海一侧的顶层公寓，房间拥有私人小阳台，晚上能枕着海浪声入睡，清晨在阳台就能拍摄无干扰的海上日出。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">隐秘庭院之选</h4>
+                  <p className="text-sm text-green-800">由古老贵族宅邸改造的精品住宿，隐藏在最安静的迷宫深处，拥有一个种满柠檬树和九重葛的封闭庭院，是逃离喧闹的完美绿洲。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">港口边的色彩小屋</h4>
+                  <p className="text-sm text-yellow-800">直接位于老城港口边的渔民老房子，外墙刷成明黄色或天蓝色，推开木窗就能看到渔船进出，房东可能还会送你几条当天捕的新鲜小鱼。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">性价比之王</h4>
+                  <p className="text-sm text-purple-800">位于连接桥新城一侧的现代风格B&B，步行三分钟即到老城，房间宽敞明亮，价格亲民，且不用担心在老城拖着行李找路的麻烦。</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">预订老城内的住宿时，务必确认是否有24小时前台或自助入住安排，因为深夜到达时，迷宫般的街道找路会非常困难。夏季（7-8月）是绝对旺季，需提前数月预订。老城夜间很安全，但街道照明较暗，自备一个小手电会很实用。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开加里波利老城许久后，闭上眼，脑海里浮现的不是某个具体的教堂立面或博物馆藏品，而是一种混合的感觉：脚底石板被阳光晒得发烫的触感，鼻腔里海水与油炸食物交织的复杂气味，还有那种在白色迷宫里偶然转角、突然与一片无边蔚蓝撞个满怀的惊喜。这个地方的魅力，不在于它有多么辉煌的历史遗迹（尽管它的历史足够深厚），而在于它如此完整、如此生动地将历史与当下、生存与生活糅合在了一起。它没有为了讨好游客而梳妆打扮成精致的模样，它只是自顾自地活着，呼吸着，带着鱼腥味和烟火气。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个追求效率、一切都被标准化和快速消费的时代，加里波利老城像是一个固执的、美丽的“反叛者”。它用迷宫般的街道让你慢下来，被迫放弃导航，用感官去探索。它用最直接的“街巷即港口”的方式，提醒我们人类与自然原本可以如此亲密无间。在这里，你会感受到一种久违的、扎实的生活质感。它告诉你，美不是隔离出来的标本，美就诞生于每日的劳作、交谈、饮食和与风浪的共处之中。对于每一位厌倦了浮光掠影、渴望触摸旅行地真实脉搏的深度游者来说，加里波利不是一次简单的观光，而是一次关于“生活本真”的沉浸式疗愈。它让你记起，世界还有这样一种活法，如此喧嚣，又如此宁静。</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

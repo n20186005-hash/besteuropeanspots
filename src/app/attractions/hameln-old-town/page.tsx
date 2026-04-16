@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '哈默尔恩老城 Hameln Old Town｜走进彩绘山墙与捕鼠人传说的童话世界 - 最佳欧洲景点',
-  description: '一脚踏进哈默尔恩老城，就像不小心翻开了童话书的一页。满眼都是糖果色的木桁架房屋，每一栋的立面都像精心绘制的插图，尖尖的山墙挤在一起，仿佛在窃窃私语。空气里飘着姜饼和咖啡的香味，耳边似乎能听到中世纪街道传来的马蹄声——当然，还有那个著名的“捕鼠人”笛声的传说。在这里散步，你不需要地图，只需要跟着彩绘的...',
+  title: '哈默尔恩老城 Hameln Old Town｜走进格林童话原型小镇，追随彩衣吹笛人的魔笛声 - 最佳欧洲景点',
+  description: '当你的双脚踏上哈默尔恩老城那些被磨得光滑发亮的卵石路时，第一个抓住你注意力的可能不是眼睛，而是耳朵。空气里似乎总飘荡着一缕若有似无的笛声旋律，那是《彩衣吹笛人》的调子，从街角音响、从导游的口哨、甚至从你自己被唤醒的记忆深处悠悠传来。紧接着，色彩扑面而来。眼前是一排排像从童话绘本里直接搬出来的房子，它...',
 }
 
 export default function HamelnOldTownPage() {
@@ -23,13 +23,17 @@ export default function HamelnOldTownPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">哈默尔恩老城・Hameln Old Town・德国・哈默尔恩</h1>
           <p className="text-lg text-gray-600 mb-6">
-            一脚踏进哈默尔恩老城，就像不小心翻开了童话书的一页。满眼都是糖果色的木桁架房屋，每一栋的立面都像精心绘制的插图，尖尖的山墙挤在一起，仿佛在窃窃私语。空气里飘着姜饼和咖啡的香味，耳边似乎能听到中世纪街道传来的马蹄声——当然，还有那个著名的“捕鼠人”笛声的传说。在这里散步，你不需要地图，只需要跟着彩绘的墙壁和鹅卵石小路走，每个转角都可能遇到一个讲述古老故事的雕塑或喷泉。整座老城就像一座露天博物馆，但比博物馆生动一百倍，因为它依然活着，面包房在烤面包，小酒馆里坐满了喝啤酒的人。那种感觉，特别像走进了一个被时光温柔保存下来的梦境。
+            当你的双脚踏上哈默尔恩老城那些被磨得光滑发亮的卵石路时，第一个抓住你注意力的可能不是眼睛，而是耳朵。空气里似乎总飘荡着一缕若有似无的笛声旋律，那是《彩衣吹笛人》的调子，从街角音响、从导游的口哨、甚至从你自己被唤醒的记忆深处悠悠传来。紧接着，色彩扑面而来。眼前是一排排像从童话绘本里直接搬出来的房子，它们不是寻常德国小镇那种严谨的黑白配，而是披着粉红、鹅黄、淡绿、赭石的外衣，每一栋的山墙都争奇斗艳——有的像楼梯般层层叠叠，有的雕刻着繁复的藤蔓与神话人物，有的在窗框上画着俏皮的图案。阳光斜射下来，在那些400多年的彩绘立面上投下深深浅浅的光影，仿佛墙壁本身在低声讲述故事。
+空气中混合着好闻的味道——从面包房飘出的刚出炉的“吹笛人面包”的焦香，咖啡馆门口溢出的醇厚咖啡味，还有从威悉河方向吹来的、带着水汽的清风。你会看到当地人骑着自行车叮铃铃地穿过狭窄的巷弄，主妇在装饰着童话人物雕像的喷泉边闲聊，游客们则仰着头，努力辨认建筑山墙上那些讲述捕鼠传说的石刻画面。这里的生活节奏是慢的，但整个城市却沉浸在一个永不落幕的盛大叙事里。那个关于背信弃义与神秘惩罚的传说，不再是书页上的铅字，它成了窗棂的形状、路灯的造型、甜品店橱柜里老鼠形状的饼干，甚至是市政厅广场上每周准时上演的露天戏剧。老城本身，就是一座巨大的、活着的童话舞台。
+然而，哈默尔恩的魅力远不止于童话的糖衣。当你静下心来，细细抚摸那些建筑上精美绝伦的砂岩雕塑，你会发现它们讲述的不仅是老鼠与孩子，更是关于16、17世纪这里富庶的市民阶层的骄傲与审美。商人和行会会长们竞相建造最华丽的宅邸，用建筑彰显财富与地位，这才留下了这片被誉为“威悉河文艺复兴明珠”的宝库。走在其中，你能同时感受到传说的魔幻与历史的厚重，它们像两条交织的丝线，编织成了哈默尔恩独一无二的灵魂。这里最打动人的，正是这种将集体记忆与物质遗产完美融合的魔力——它让你心甘情愿地相信童话，同时又脚踏实地地站在历史之中。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">一脚踏进哈默尔恩老城，就像不小心翻开了童话书的一页。满眼都是糖果色的木桁架房屋，每一栋的立面都像精心绘制的插图，尖尖的山墙挤在一起，仿佛在窃窃私语。空气里飘着姜饼和咖啡的香味，耳边似乎能听到中世纪街道传来的马蹄声——当然，还有那个著名的“捕鼠人”笛声的传说。在这里散步，你不需要地图，只需要跟着彩绘的墙壁和鹅卵石小路走，每个转角都可能遇到一个讲述古老故事的雕塑或喷泉。整座老城就像一座露天博物馆，但比博物馆生动一百倍，因为它依然活着，面包房在烤面包，小酒馆里坐满了喝啤酒的人。那种感觉，特别像走进了一个被时光温柔保存下来的梦境。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">当你的双脚踏上哈默尔恩老城那些被磨得光滑发亮的卵石路时，第一个抓住你注意力的可能不是眼睛，而是耳朵。空气里似乎总飘荡着一缕若有似无的笛声旋律，那是《彩衣吹笛人》的调子，从街角音响、从导游的口哨、甚至从你自己被唤醒的记忆深处悠悠传来。紧接着，色彩扑面而来。眼前是一排排像从童话绘本里直接搬出来的房子，它们不是寻常德国小镇那种严谨的黑白配，而是披着粉红、鹅黄、淡绿、赭石的外衣，每一栋的山墙都争奇斗艳——有的像楼梯般层层叠叠，有的雕刻着繁复的藤蔓与神话人物，有的在窗框上画着俏皮的图案。阳光斜射下来，在那些400多年的彩绘立面上投下深深浅浅的光影，仿佛墙壁本身在低声讲述故事。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">空气中混合着好闻的味道——从面包房飘出的刚出炉的“吹笛人面包”的焦香，咖啡馆门口溢出的醇厚咖啡味，还有从威悉河方向吹来的、带着水汽的清风。你会看到当地人骑着自行车叮铃铃地穿过狭窄的巷弄，主妇在装饰着童话人物雕像的喷泉边闲聊，游客们则仰着头，努力辨认建筑山墙上那些讲述捕鼠传说的石刻画面。这里的生活节奏是慢的，但整个城市却沉浸在一个永不落幕的盛大叙事里。那个关于背信弃义与神秘惩罚的传说，不再是书页上的铅字，它成了窗棂的形状、路灯的造型、甜品店橱柜里老鼠形状的饼干，甚至是市政厅广场上每周准时上演的露天戏剧。老城本身，就是一座巨大的、活着的童话舞台。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，哈默尔恩的魅力远不止于童话的糖衣。当你静下心来，细细抚摸那些建筑上精美绝伦的砂岩雕塑，你会发现它们讲述的不仅是老鼠与孩子，更是关于16、17世纪这里富庶的市民阶层的骄傲与审美。商人和行会会长们竞相建造最华丽的宅邸，用建筑彰显财富与地位，这才留下了这片被誉为“威悉河文艺复兴明珠”的宝库。走在其中，你能同时感受到传说的魔幻与历史的厚重，它们像两条交织的丝线，编织成了哈默尔恩独一无二的灵魂。这里最打动人的，正是这种将集体记忆与物质遗产完美融合的魔力——它让你心甘情愿地相信童话，同时又脚踏实地地站在历史之中。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -37,28 +41,31 @@ export default function HamelnOldTownPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="哈默尔恩老城" />
                 <InfoRow label="英文名称" value="Hameln Old Town" />
-                <InfoRow label="正式名称" value="Hameln Old Town" />
+                <InfoRow label="正式名称" value="Historische Altstadt Hameln" />
                 <InfoRow label="国家" value="德国" />
                 <InfoRow label="城市" value="哈默尔恩" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="" />
-                <InfoRow label="建筑特色" value="" />
-                <InfoRow label="建筑风格" value="" />
-                <InfoRow label="文化价值" value="" />
+                <InfoRow label="历史地位" value="一座因中世纪“彩衣吹笛人”传说而闻名世界的童话之城，其城市肌理与建筑本身就是一部保存完好的文艺复兴教科书。" />
+                <InfoRow label="建筑特色" value="密集而完整的威悉河文艺复兴风格建筑群，以华丽的山墙、彩绘的立面、精致的石雕和黑白木筋屋为标志。" />
+                <InfoRow label="建筑风格" value="以威悉河文艺复兴风格为主导，混合了后期的巴洛克及哥特式元素。" />
+                <InfoRow label="文化价值" value="将一段可能源于真实历史悲剧的中世纪传说，升华为全球性的童话符号，并将其深深烙印在城市的每一个角落，成为独一无二的城市身份。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="公共区域全天开放。各博物馆、纪念品商店及导览服务时间各异，通常为周一至周五 10:00-17:00，周末 11:00-16:00。" />
-              <InfoRow label="门票价格" value="进入老城区域免费。参加“捕鼠人”主题导览游约10-15欧元/人，参观个别博物馆需单独购票，约5-8欧元/人。" />
-              <InfoRow label="地址" value="Osterstraße 1, 31785 Hameln, Germany" />
-              <InfoRow label="交通方式" value="从汉诺威机场出发，乘坐S-Bahn（S5线）至汉诺威主火车站，转乘区域火车（RE或RB线）前往哈默尔恩站，全程约1.5小时。从哈默尔恩火车站步行至老城中心仅需10分钟。" />
+              <InfoRow label="开放时间" value="老城街道及外部建筑全天开放。各博物馆及景点的开放时间不同：捕鼠人之家博物馆（Museum Hameln）一般为周二至周日 11:00-17:00，周一闭馆；婚礼之家表演夏季（5月至9月）工作日11:30和13:30，周末及节假日增加场次，冬季场次减少。所有室内景点在圣诞节、元旦等主要公共假日可能关闭或缩短开放时间，建议行前在官网确认。" />
+              <InfoRow label="门票价格" value="漫步老城街区免费。捕鼠人之家博物馆门票约5欧元，学生及团体有优惠。婚礼之家的钟琴表演免费观看，其内部的历史展览门票约3欧元。参加官方的“吹笛人主题导览游”约8-10欧元/人。部分教堂捐赠入场。" />
+              <InfoRow label="地址" value="Historische Altstadt, 31785 Hameln, Germany" />
+              <InfoRow label="交通方式" value="从最近的汉诺威机场出发，乘坐S-Bahn（S5线）至汉诺威中央火车站，车程约30分钟。在汉诺威中央火车站转乘区域火车（RE或RB线路）前往哈默尔恩站，车程约40-50分钟，班次频繁，每小时至少2-3班。从哈默尔恩火车站出站后，步行约10-15分钟即可进入老城核心区，沿途有清晰的“Altstadt”路标指示。自驾可将车停在老城边缘的公共停车场（如“P-Demoldertor”），老城区内部大部分为步行区。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">哈默尔恩的故事，大概要从那个全世界小孩都听过的“花衣魔笛手”传说讲起。虽然传说的真实性已不可考（据说源于1284年确实有大量儿童从城中消失的事件），但它为这座城奠定了永恒的童话底色。抛开传说，哈默尔恩在历史上是威悉河上的重要贸易点，真正繁荣于文艺复兴时期。你现在看到的那些美到令人窒息、带有华丽山墙和精美雕刻的木桁架房屋，大多建于16至18世纪，那是哈默尔恩作为商人城镇的黄金时代。当时的富商们竞相建造最华丽的住宅，仿佛把财富都“写”在了房子的外墙上。二战期间，哈默尔恩非常幸运地躲过了大规模轰炸，这些珍贵的建筑才得以几乎原封不动地保存至今。走在街上，抚摸那些历经数百年依然色彩鲜艳的木梁，你会觉得历史并非遥不可及，它就凝固在这些砖木之间，随着每一个“捕鼠人”故事的讲述而一次次复活。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">哈默尔恩的故事，永远绕不开那个公元1284年的夏天。根据城市编年史的记载，“在约翰与保罗纪念日后的第26天，一位身穿彩衣的吹笛人，诱走了哈默尔恩的130个孩子，他们在考彭山附近消失，再无音讯。”这寥寥数语，如同投入历史长河的一颗巨石，激起了千年不绝的涟漪。关于这场悲剧的真相，后世有无数猜测：是儿童十字军东征的失败？是一次针对年轻人的殖民迁徙计划？还是一场瘟疫或滑坡事故？真相早已湮没，但集体创伤催生了传说。一个外来者（吹笛人）为城市解决了鼠患（或许象征瘟疫），却因未得到许诺的报酬而实施报复，带走了城市最珍贵的未来——孩子。这个包含了契约、背叛与惩罚的故事母题，具有跨越文化的强大力量，经过几个世纪的口耳相传，最终在格林兄弟的笔下定型，成为了世界童话经典。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">而传说栖息的这座实体城市，其黄金时代则是在那场神秘事件发生后的几百年。得益于威悉河上的航运贸易，哈默尔恩在中世纪末期蓬勃发展。尤其是16至17世纪，威悉河文艺复兴风格从这里发源并达到顶峰。这是一种属于市民的、略带北方矜持却又忍不住炫耀华丽的风格。富有的商人和啤酒酿造商们，不再满足于中世纪昏暗的木筋屋，他们推倒旧墙，用当地出产的砂岩，建造起有着阶梯形、波浪形山墙的豪宅。工匠们在立面上尽情挥洒创意：雕刻圣经场景、神话英雄、寓言动物，当然，还有吹笛人和成群的老鼠。1589年落成的“婚礼之家”，以其无比华丽的阶梯山墙和金色风信鸡，成为这场建筑竞赛的巅峰之作，它本是用来举办婚宴的礼堂，如今却是老城最耀眼的名片。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这座城市并非一直生活在童话泡泡里。它经历了三十年战争的蹂躏，也曾被拿破仑的军队占领。但真正考验它的是20世纪。二战期间，作为重要交通枢纽的哈默尔恩遭到了猛烈的空袭，城市的大部分地区被炸成废墟。然而，奇迹般地，老城的核心——那片密集的文艺复兴建筑群——却得以幸存。战后，哈默尔恩人没有选择推倒重建现代化的方盒子，而是怀着惊人的耐心与匠心，一砖一瓦地修复了这些伤痕累累的古建筑。他们修复的不仅仅是房子，更是城市的记忆与身份。也正是从战后重建时期开始，哈默尔恩有意识地拥抱了“吹笛人之城”的定位，将传说从历史包袱转化为文化资产。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">于是，从20世纪70年代起，每周日的夏天，市政厅广场都会上演大型露天音乐剧《彩衣吹笛人》；街头出现了按照传说情节布置的“童话之路”铜质镶嵌画；甚至街头的下水道井盖都铸成了老鼠的形状。这座城市聪明地没有将传说恐怖化或悲情化，而是将其庆典化、艺术化、日常化。今天的哈默尔恩老城，是一部由中世纪市民、文艺复兴工匠、战后修复师和当代文化策划师共同书写的、层次丰富的巨著。每一个转角，都既是传说的注脚，也是历史的切片。</p>
             </div>
           </Section>
 
@@ -67,37 +74,45 @@ export default function HamelnOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  建议从老城西侧的“婚礼之家”开始，这里是信息中心和经典地标，然后向东漫步主街Osterstraße，欣赏两侧最美建筑，最终抵达集市广场和圣博尼法斯教堂。全程步行缓慢游览，包括拍照和逛小店，约需2-3小时。
+                  要真正品味哈默尔恩，建议安排一整天时间，从清晨开始。上午9点左右抵达最佳，此时旅游大巴尚未涌入，阳光柔和，最适合拍照和静静感受老城的苏醒。整体游览节奏宜慢不宜快，核心是沿着“童话之路”的线索漫步，穿插进入重要的博物馆和教堂，全程步行即可，大约需要6-8小时。建议先从老城西侧的捕鼠人之家博物馆开始，系统了解传说与历史，奠定认知基础。然后沿着主要街道Osterstraße向东漫游，欣赏两侧的建筑杰作，最终抵达地标婚礼之家并观看午间表演。下午可以探索北侧靠近威悉河的宁静巷弄和圣博尼法斯教堂，傍晚时分则留给威悉河畔的漫步，看夕阳为童话小镇披上金装。这样的安排由知到行，由闹到静，能全方位体验老城的双重魅力。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>老城不大，完全可以用脚步探索，穿一双舒适的鞋子很重要。可以留意铺路石上镶嵌的铜制小老鼠标志，它们会引导你走一条“捕鼠人之路”。
+                  <strong>建议：</strong>夏季周日中午的露天音乐剧会吸引大量人群，建议提早占位或干脆享受周围咖啡馆的二楼阳台视野。老城内的石板路凹凸不平，务必穿一双舒适防滑的步行鞋。警惕任何非官方、主动上前提供“特别吹笛人表演”收费的人，所有官方活动信息均可在旅游信息中心获取。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">1.  从“婚礼之家”开始，欣赏其华丽的文艺复兴立面。</p>
+                  <p className="text-sm text-gray-700 mb-2">首先推开捕鼠人之家博物馆那扇厚重的木门，在一楼通过精美的模型和历史文件摸清传说脉络与城市发展史</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">2.  沿Osterstraße主街漫步，抬头看两侧色彩缤纷的山墙。</p>
+                  <p className="text-sm text-gray-700 mb-2">沿着Osterstraße向东慢行，务必抬头细看每一栋建筑的山墙雕塑，寻找藏在其中吹笛人、老鼠和孩子们的石头故事</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">3.  在“捕鼠人之家”前寻找老鼠形状的金属标志和雕塑。</p>
+                  <p className="text-sm text-gray-700 mb-2">在市政厅广场的石阶上坐一会儿，观察广场中央的吹笛人喷泉，并记下婚礼之家墙上华丽天文钟的时间</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">4.  走到集市广场，看古老的市政厅和圣博尼法斯教堂。</p>
+                  <p className="text-sm text-gray-700 mb-2">准点守候在婚礼之家前，等待那座拥有37个钟铃的卡里隆钟琴奏响，看木偶小人鱼贯而出重演捕鼠传奇</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">5.  寻找小巷中的“禁舞之家”，听一听它的诡异传说。</p>
+                  <p className="text-sm text-gray-700 mb-2">拐进Bäckerstraße这类狭窄的后街小巷，触摸那些颜色剥落的古老墙皮，感受远离主街的静谧生活气息</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">6.  在威悉河畔漫步，从另一个角度回望老城天际线。</p>
+                  <p className="text-sm text-gray-700 mb-2">登上圣博尼法斯教堂的塔楼（如果开放），俯瞰整个老城红色屋顶的海洋和如宝石般镶嵌其中的彩色文艺复兴建筑</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">走到威悉河边的堤岸上，从“捕鼠人之桥”上回望老城天际线，想象当年商船来往和中世纪城市的繁忙景象</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在傍晚时分回到老城中心，找一家有露天座位的餐厅，点一份名为“老鼠尾巴”的创意香肠，慢慢享用晚餐并等待华灯初上</p>
                 </div>
               </div>
             </div>
@@ -107,18 +122,28 @@ export default function HamelnOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  Osterstraße街道中段</h4>
-                  <p className="text-sm text-gray-700">最佳拍摄时间为晴朗的上午，阳光能照亮建筑立面。站在街道中央，用长焦镜头压缩空间，拍下彩色山墙层层叠叠的韵律感。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 婚礼之家正面全景</h4>
+                  <p className="text-sm text-gray-700">上午十点前，阳光从侧面打亮其华丽的阶梯山墙，站在广场对角线位置可将其宏伟立面与前景的喷泉一同纳入镜中。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  集市广场喷泉前</h4>
-                  <p className="text-sm text-gray-700">下午时段，以文艺复兴风格的市政厅为背景，拍摄人物与“捕鼠人”主题喷泉的互动场景，故事感十足。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. Osterstraße街道纵深感</h4>
+                  <p className="text-sm text-gray-700">下午三四点，阳光能深入街道，站在路中央（注意安全）利用两侧色彩斑斓的建筑形成的自然画框，拍出深邃的街景。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  威悉河对岸</h4>
-                  <p className="text-sm text-gray-700">日落时分，过桥到河对岸，可以拍摄老城建筑群倒映在威悉河中的全景，尖顶和山墙的剪影非常迷人。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 捕鼠人之桥上的回望</h4>
+                  <p className="text-sm text-gray-700">日落前约一小时，走到桥中央，以威悉河为前景，拍摄对岸老城建筑群在暖金色光线下的倒影与轮廓。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 圣博尼法斯教堂塔楼顶</h4>
+                  <p className="text-sm text-gray-700">若塔楼开放，这里是无可替代的俯瞰点，用广角镜头捕捉红屋顶海洋与点缀其间的彩色山墙，展现老城的完整肌理。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. Bäckergasse小巷细节</h4>
+                  <p className="text-sm text-gray-700">正午时分阳光直射时，寻找小巷中光影对比强烈的角落，特写拍摄古老木门、铁艺招牌或墙上的童话主题装饰画。</p>
                 </div>
               </div>
 
@@ -127,7 +152,7 @@ export default function HamelnOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 拍摄木桁架房屋时，注意寻找有特色细节（如雕刻、铭文、特殊窗饰）的局部，比拍大全景更有味道。</li>
+                <li>• 拍摄建筑细节时，尝试使用偏振镜以减少彩绘立面上的反光，让颜色更饱和。无人机飞行在德国城市中心区有严格限制，老城上空基本禁飞，请勿尝试。当地人对于拍照通常很友善，但拍摄私人住宅窗户或店内场景前，最好微笑示意。</li>
               </ul>
             </div>
           </Section>
@@ -136,31 +161,32 @@ export default function HamelnOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">1.  奢华之选</h4>
-                  <p className="text-sm text-blue-800"> 住在老城广场旁的精品酒店，开窗即是历史景致。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">童话沉浸之选</h4>
+                  <p className="text-sm text-blue-800">老城中心一栋16世纪木筋屋改造的精品酒店，房间以传说角色命名，木梁低垂，窗台正对着彩绘的文艺复兴立面，夜晚无比宁静。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">2.  中档优选</h4>
-                  <p className="text-sm text-green-800"> 选择老城边缘或威悉河畔的家庭旅馆，安静且步行可达所有景点。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">威悉河景观之选</h4>
+                  <p className="text-sm text-green-800">坐落在河畔现代建筑中的四星级酒店，房间拥有全景落地窗，可将威悉河与老城天际线尽收眼底，步行至老城仅五分钟。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">3.  经济实惠</h4>
-                  <p className="text-sm text-yellow-800"> 火车站附近有现代连锁酒店，价格亲民，通勤方便。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">家庭温馨之选</h4>
+                  <p className="text-sm text-yellow-800">由老城边缘历史住宅经营的家庭式公寓，主人会热情分享本地人喜爱的面包店和散步路线，自带小厨房，适合长住体验。</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">4.  特色体验</h4>
-                  <p className="text-sm text-purple-800"> 预订一栋经过修复的历史木桁架房屋内的公寓，做一晚“中世纪市民”。</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">设计爱好者之选</h4>
+                  <p className="text-sm text-purple-800">火车站附近由旧仓库改造的设计酒店，工业风混搭复古家具，提供自行车租赁，是探索老城及周边威悉河自然公园的酷炫基地。</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">夏季和周末是旅游旺季，建议提前预订。住在老城内虽然价格稍高，但能体验入夜后和清晨游客稀少时，古城独有的静谧魔法。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">老城内部的住宿数量有限且非常抢手，尤其是夏季和圣诞节市场期间，务必提前数月预订。住在老城内夜晚极其安静，但周日早晨教堂钟声会较早响起，这是体验的一部分。老城外围的住宿性价比更高，且停车方便。</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">哈默尔恩老城是一个会用色彩和故事拥抱你的地方。它不像那些宏伟到让人有距离感的大都市，而是小巧、精致、充满人情味。在这里，传说与历史交织，建筑本身就是叙事诗。离开时，你带走的不仅是照片，还有满脑子的彩色房子和那个关于承诺与代价的古老寓言的回响。它是一个提醒：有些童话，真的可以在现实世界里找到。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">离开哈默尔恩许久之后，记忆里最清晰的，可能不是某一栋具体的建筑，而是那种弥漫在整个街区的、轻盈而奇妙的氛围。它成功地将一个原本可能带有黑暗色彩的中世纪传说，转化为了整个社区共享的、充满创意与欢乐的文化资本。在这里，历史没有成为压在肩上的沉重负担，而是变成了可以触摸、可以扮演、甚至可以品尝的鲜活存在。你看到孩子们欢笑着追逐地上铜制老鼠镶嵌画的轨迹，老人们坐在传说喷泉边悠闲地读报，这种日常与传奇的水乳交融，散发出一种独特而温暖的生命力。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个崇尚效率、追求崭新、故事越来越趋同的世界里，哈默尔恩老城像一颗固执的、散发着柔光的琥珀。它守护的不仅是威悉河畔的一群漂亮老房子，更是一种如何与自己的过去——包括其中光荣与创伤并存的部分——温柔和解并赋予其新生的智慧。它告诉我们，深度旅行不仅仅是为了看风景，更是去体验一个地方如何讲述自己的故事。来到这里，你不仅是参观一个景点，更是走进了一个持续讲述了一千年的、活生生的故事之中。每一位热爱深度游的旅人，都应该来感受这份由石头、色彩、笛声和人间烟火共同编织的魔力，它会让你重新相信，有些地方，真的能让童话照进现实。</p>
             </div>
           </Section>
         </div>

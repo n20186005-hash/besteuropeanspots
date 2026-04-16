@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '魏玛老城 Weimar Old Town｜德国古典主义心脏，歌德席勒的灵感之城 - 最佳欧洲景点',
-  description: '走进魏玛老城，就像轻轻翻开了一本厚重的欧洲文化史书。这里没有大都市的喧嚣，石板路两旁是色彩柔和、保存完好的巴洛克和古典主义建筑，空气里仿佛都飘着书香和乐符。最让我着迷的是那种“转角遇见大师”的感觉——歌德故居那栋朴素的黄色小楼、席勒故居的宁静庭院，还有那座他们曾并肩讨论哲学与诗歌的“大象酒店”咖啡馆...',
+  title: '魏玛老城 Weimar Old Town｜歌德与席勒的灵感之城，德国古典主义的心脏 - 最佳欧洲景点',
+  description: '穿过那排高大的栗子树，拐进铺着光滑鹅卵石的市集广场，魏玛老城给你的第一印象绝不是磅礴的视觉冲击，而是一种温润的、带着油墨与旧书气息的包裹感。空气里混杂着刚出炉的“图林根果脯蛋糕”的甜香，隔壁咖啡馆飘来的现磨咖啡醇味，还有老建筑石墙上那若有似无的、雨后青苔的湿润气息。午后的阳光斜斜地打在市政厅那色彩鲜...',
 }
 
 export default function WeimarOldTownPage() {
@@ -23,13 +23,17 @@ export default function WeimarOldTownPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">魏玛老城・Weimar Old Town・德国・魏玛</h1>
           <p className="text-lg text-gray-600 mb-6">
-            走进魏玛老城，就像轻轻翻开了一本厚重的欧洲文化史书。这里没有大都市的喧嚣，石板路两旁是色彩柔和、保存完好的巴洛克和古典主义建筑，空气里仿佛都飘着书香和乐符。最让我着迷的是那种“转角遇见大师”的感觉——歌德故居那栋朴素的黄色小楼、席勒故居的宁静庭院，还有那座他们曾并肩讨论哲学与诗歌的“大象酒店”咖啡馆。在老市政厅广场上喝杯咖啡，看着游客中心那栋有着精美山墙的建筑，你会瞬间明白，为什么这个看似安静的小城，曾是整个欧洲思想与艺术的灯塔。它不是一座冰冷的博物馆，而是一个依然活着、呼吸着的文化家园。
+            穿过那排高大的栗子树，拐进铺着光滑鹅卵石的市集广场，魏玛老城给你的第一印象绝不是磅礴的视觉冲击，而是一种温润的、带着油墨与旧书气息的包裹感。空气里混杂着刚出炉的“图林根果脯蛋糕”的甜香，隔壁咖啡馆飘来的现磨咖啡醇味，还有老建筑石墙上那若有似无的、雨后青苔的湿润气息。午后的阳光斜斜地打在市政厅那色彩鲜亮的文艺复兴立面上，广场上的青铜雕像——歌德和席勒并肩站立，他们的衣褶仿佛还带着创作时的激情。这里没有大都市的喧嚣，只有自行车铃偶尔叮当作响，和路人压低声音的交谈，仿佛怕惊扰了沉睡在每块砖石里的思想。
+你很快会发现，魏玛不是一个供人“参观”的标本，它依然在呼吸。书店橱窗里展示着最新出版的诗集，大学生们抱着书本匆匆穿过“大学广场”，老人们坐在长椅上，就着一杯啤酒消磨整个下午。歌德故居的门前可能排着队，但转个弯，你就能钻进一条寂静无人的小巷，墙壁上爬满了常春藤，阳光透过叶隙洒下斑驳的光影，静谧得只能听见自己的脚步声。这种“活着的文化”感，是魏玛最迷人的地方——伟大并非遥不可及，它就藏在日常生活的褶皱里。
+傍晚时分，一定要去伊尔姆河畔公园走走。当夕阳的金色为公园里那幢朴素的小屋——歌德的“花园别墅”披上温暖的外衣，你会突然理解，为什么这里能孕育出《浮士德》。这不是一座用财富堆砌的宫殿之城，而是一座用思想与情感滋养的精神家园。每一扇窗户后，似乎都曾有一盏彻夜不熄的灯，和一页被反复修改的手稿。魏玛的魅力，在于它让你慢下来，让你听见内心的声音，并与几个世纪前的灵魂产生奇妙的共鸣。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">走进魏玛老城，就像轻轻翻开了一本厚重的欧洲文化史书。这里没有大都市的喧嚣，石板路两旁是色彩柔和、保存完好的巴洛克和古典主义建筑，空气里仿佛都飘着书香和乐符。最让我着迷的是那种“转角遇见大师”的感觉——歌德故居那栋朴素的黄色小楼、席勒故居的宁静庭院，还有那座他们曾并肩讨论哲学与诗歌的“大象酒店”咖啡馆。在老市政厅广场上喝杯咖啡，看着游客中心那栋有着精美山墙的建筑，你会瞬间明白，为什么这个看似安静的小城，曾是整个欧洲思想与艺术的灯塔。它不是一座冰冷的博物馆，而是一个依然活着、呼吸着的文化家园。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">穿过那排高大的栗子树，拐进铺着光滑鹅卵石的市集广场，魏玛老城给你的第一印象绝不是磅礴的视觉冲击，而是一种温润的、带着油墨与旧书气息的包裹感。空气里混杂着刚出炉的“图林根果脯蛋糕”的甜香，隔壁咖啡馆飘来的现磨咖啡醇味，还有老建筑石墙上那若有似无的、雨后青苔的湿润气息。午后的阳光斜斜地打在市政厅那色彩鲜亮的文艺复兴立面上，广场上的青铜雕像——歌德和席勒并肩站立，他们的衣褶仿佛还带着创作时的激情。这里没有大都市的喧嚣，只有自行车铃偶尔叮当作响，和路人压低声音的交谈，仿佛怕惊扰了沉睡在每块砖石里的思想。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">你很快会发现，魏玛不是一个供人“参观”的标本，它依然在呼吸。书店橱窗里展示着最新出版的诗集，大学生们抱着书本匆匆穿过“大学广场”，老人们坐在长椅上，就着一杯啤酒消磨整个下午。歌德故居的门前可能排着队，但转个弯，你就能钻进一条寂静无人的小巷，墙壁上爬满了常春藤，阳光透过叶隙洒下斑驳的光影，静谧得只能听见自己的脚步声。这种“活着的文化”感，是魏玛最迷人的地方——伟大并非遥不可及，它就藏在日常生活的褶皱里。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">傍晚时分，一定要去伊尔姆河畔公园走走。当夕阳的金色为公园里那幢朴素的小屋——歌德的“花园别墅”披上温暖的外衣，你会突然理解，为什么这里能孕育出《浮士德》。这不是一座用财富堆砌的宫殿之城，而是一座用思想与情感滋养的精神家园。每一扇窗户后，似乎都曾有一盏彻夜不熄的灯，和一页被反复修改的手稿。魏玛的魅力，在于它让你慢下来，让你听见内心的声音，并与几个世纪前的灵魂产生奇妙的共鸣。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -37,28 +41,31 @@ export default function WeimarOldTownPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="魏玛老城" />
                 <InfoRow label="英文名称" value="Weimar Old Town" />
-                <InfoRow label="正式名称" value="Weimar Old Town" />
+                <InfoRow label="正式名称" value="Weimar Altstadt" />
                 <InfoRow label="国家" value="德国" />
                 <InfoRow label="城市" value="魏玛" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="" />
-                <InfoRow label="建筑特色" value="" />
-                <InfoRow label="建筑风格" value="" />
-                <InfoRow label="文化价值" value="" />
+                <InfoRow label="历史地位" value="德国古典主义文化的摇篮，魏玛共和国的诞生地，欧洲思想史上一座无可替代的精神灯塔。" />
+                <InfoRow label="建筑特色" value="色彩柔和、比例优雅的连排市民住宅，点缀着数座承载厚重历史的宫殿与教堂，共同构成一幅尺度宜人、充满书卷气的城市画卷。" />
+                <InfoRow label="建筑风格" value="以德国文艺复兴、巴洛克和古典主义风格为主，19世纪历史主义建筑亦和谐融入，整体风貌统一而细腻。" />
+                <InfoRow label="文化价值" value="不仅是歌德、席勒、李斯特等文化巨匠生活与创作的物理空间，更是“魏玛精神”——艺术、哲学与人文思想自由交融的象征，深刻影响了现代德国乃至欧洲的文化认同。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="公共区域全天开放；内部各博物馆、历史建筑开放时间各异，通常为周二至周日 10:00-18:00。" />
-              <InfoRow label="门票价格" value="老城公共区域免费。各博物馆和历史建筑单独售票，成人票约5-12欧元不等，有联票选择。" />
-              <InfoRow label="地址" value="Markt 1, 99423 Weimar, Germany" />
-              <InfoRow label="交通方式" value="从最近的莱比锡/哈勒机场出发，乘坐火车约1小时15分钟到达魏玛火车站，再步行15-20分钟即可进入老城核心区。从柏林乘火车约2.5小时。" />
+              <InfoRow label="开放时间" value="公共区域全天开放。主要博物馆和历史建筑（如歌德故居、席勒故居）开放时间一般为周二至周日10:00-18:00，周一闭馆或缩短开放时间。安娜·阿玛利亚图书馆等特定场馆需要提前数周甚至数月预约。圣诞节、新年及部分德国公共假日可能关闭，出行前务必查阅各场馆官网最新公告。" />
+              <InfoRow label="门票价格" value="老城街道及广场免费游览。进入单个博物馆或历史建筑的门票约为6-12欧元。强烈推荐购买“魏玛经典联票”（WeimarCard），价格约25欧元，有效期48小时，涵盖几乎所有主要博物馆、歌德故居、席勒故居、包豪斯博物馆及市内公共交通，性价比极高。学生、儿童及团体有优惠，6岁以下儿童通常免费。" />
+              <InfoRow label="地址" value="Altstadt, 99423 Weimar, Germany" />
+              <InfoRow label="交通方式" value="最近的主要机场是莱比锡/哈勒机场（LEJ），距离约1小时车程，或法兰克福机场（FRA），距离约2.5-3小时车程。从机场均可乘坐火车前往魏玛中央火车站（Weimar Hauptbahnhof）。从柏林中央火车站乘坐ICE高速列车直达魏玛约需2小时，班次频繁。从法兰克福中央火车站出发约需2.5小时。魏玛火车站步行至老城核心区仅需15分钟，沿途风景宜人。市内公交系统完善，但老城区域小巧，强烈建议全程步行探索。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">魏玛的故事，可以说是一部浓缩的德国文化编年史。它的黄金时代始于18世纪末，当时萨克森-魏玛-艾森纳赫的公爵卡尔·奥古斯特独具慧眼，将大文豪歌德邀请到他的宫廷。歌德可不是来当个普通的公务员，他在这里一住就是几十年，把魏玛变成了一个吸引全欧知识分子的磁石。他的好友席勒也来了，两人在这里创作了奠定德国文学基石的作品。你可以想象一下，200多年前，就是在这几条安静的街道上，两位巨人一边散步一边激烈地讨论着《浮士德》的剧情。时间跳到20世纪初，魏玛再次站上潮头，成为了“包豪斯”现代设计运动的摇篮，格罗皮乌斯在这里建立了那所传奇的学校。当然，历史也有阴影，附近的布痕瓦尔德集中营提醒着人们20世纪最黑暗的一页。但今天的老城，主要沉淀下的是那份人文主义的、温暖的遗产，每一块砖石都仿佛在低声讲述着关于创造、思想和美的故事。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">魏玛的故事，远不止于18世纪末那场璀璨的“古典主义时期”。它的命运转折点，始于1708年，当一位名叫约翰·塞巴斯蒂安·巴赫的年轻音乐家来到这里的宫廷担任管风琴师。虽然他只待了短短九年，却为这座城市奠定了深厚的音乐底蕴。然而，真正将魏玛推向世界文化舞台中心的，是1775年那个秋天。应年轻的萨克森-魏玛-艾森纳赫公爵卡尔·奥古斯特之邀，一位名叫约翰·沃尔夫冈·冯·歌德的26岁才俊从法兰克福来到了这个当时仅有六千人口的小城。没人能预料，这次“招聘”将开启一个伟大的时代。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">歌德不仅仅是位诗人，他成了公爵的顾问，掌管矿业、财政甚至军事。他以魏玛为基地，将这里变成了一个吸引全德精英的磁石。另一位文学巨匠弗里德里希·席勒在1799年到来，与歌德的友谊和创作竞赛，催生了德国文学史上最辉煌的十年。赫尔德、维兰德等思想家也汇聚于此，形成了著名的“魏玛四杰”。他们讨论哲学、创作戏剧、改革教育，将这个小城宫廷变成了与巴黎、维也纳比肩的文化沙龙。安娜·阿玛利亚公爵夫人设立的图书馆，则成为这座精神殿堂的实体心脏。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，历史的浪潮不断拍打着这座小城。19世纪，弗朗茨·李斯特在这里建立了音乐学院，延续了音乐传统。一战后，德国战败，1919年，国民议会在魏玛的德意志民族剧院召开，通过了著名的《魏玛宪法》，德国第一个民主共和国——“魏玛共和国”由此诞生。这个名字，承载了人们对启蒙与理性的全部希望，却也因其后来的脆弱与悲剧结局，为这座城市增添了一层复杂的历史底色。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">二战期间，魏玛未能幸免于纳粹的阴影，附近的布痕瓦尔德集中营是这座城市历史上最黑暗的一页。战后，它位于东德境内，古典文化遗产在意识形态的夹缝中得以小心保存。两德统一后，魏玛老城得到了精心的修复与保护，并于1998年因其无与伦比的文化意义被整体列入联合国教科文组织世界遗产名录。今天，当你漫步其中，你走过的不仅是歌德走过的石板路，也是一部浓缩的、交织着光辉与阴影的德国近代史。</p>
             </div>
           </Section>
 
@@ -67,37 +74,47 @@ export default function WeimarOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  推荐从老城中心的市集广场开始，以环形路线游览主要文化地标，全程步行即可，大约需要3-4小时。路线终点可以回到广场，在咖啡馆休息。
+                  建议安排一整天时间，从清晨到日暮，从容地感受魏玛的脉搏。上午九点左右抵达老城最为理想，此时旅游团尚未涌入，光线柔和。游览节奏宜慢不宜快，核心是体验而非打卡。路线呈环形，从市集广场开始，依次探访最核心的文化地标，午后转入宁静的住宅区和广阔的公园，最后在傍晚时分回到广场感受生活气息。这样安排既能覆盖精华，又有张有弛，留出足够的发呆和偶遇美好细节的时间。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>老城面积不大，完全不需要地图也能轻松探索，穿一双舒适的步行鞋是关键。许多小巷子也别有洞天，值得随意走走。
+                  <strong>建议：</strong>切记，安娜·阿玛利亚图书馆每日参观人数有严格限制，务必提前数周在其官网预订门票，现场排队基本无望。
+老城街道多为鹅卵石铺就，请务必穿一双舒适防滑的步行鞋，高跟鞋在这里简直是“刑具”。
+包豪斯博物馆位于老城边缘，如果对现代设计感兴趣，需要额外预留1-2小时，它讲述的是魏玛在20世纪初的另一段先锋历史。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">1.  从市集广场出发，欣赏老市政厅和游客中心的精美建筑。</p>
+                  <p className="text-sm text-gray-700 mb-2">在市集广场的青铜双人像下驻足，仰望歌德与席勒这两位精神巨人，感受他们之间跨越时空的对话。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">2.  步行至歌德故居与国家博物馆，了解文豪的生活与时代。</p>
+                  <p className="text-sm text-gray-700 mb-2">推开歌德故居那扇厚重的木门，在他堆满书籍、矿物标本和艺术收藏的书房里，想象他伏案写作《浮士德》第二部的情景。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">3.  前往不远处的席勒故居，感受另一位文学巨匠的创作环境。</p>
+                  <p className="text-sm text-gray-700 mb-2">走进那座洛可可风格的瑰宝——安娜·阿玛利亚公爵夫人图书馆，在令人窒息的华丽穹顶下，呼吸弥漫了几个世纪的旧纸与智慧的气息。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">4.  漫步到绿色宫殿和公爵城堡，领略魏玛宫廷的建筑辉煌。</p>
+                  <p className="text-sm text-gray-700 mb-2">在席勒故居那间简朴的卧室里，面对他最后躺卧的沙发，体会这位“为自由而战”的诗人晚年的贫病与坚持。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">5.  探访包豪斯博物馆，触摸现代设计的起源。</p>
+                  <p className="text-sm text-gray-700 mb-2">穿过“大学广场”，在“大象酒店”的历史墙面前，寻找托马斯·曼、托尔斯泰乃至希特勒留下的复杂印记。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">6.  最后在剧院广场，瞻仰歌德与席勒的著名并肩雕像。</p>
+                  <p className="text-sm text-gray-700 mb-2">沿着宁静的“ Frauenplan ”街巷漫步，看阳光如何将那些柠檬黄、淡粉色的巴洛克立面染上温暖的光晕。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在伊尔姆河畔公园的蜿蜒小径上寻找歌德的“花园别墅”，坐在岸边的长椅上，看天鹅划过如镜的水面，体会他在此地获得的自然启迪。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">黄昏时回到市集广场，随意找一家有露天座位的传统餐馆，点一份图林根香肠，看着广场华灯初上，融入当地人的夜晚生活。</p>
                 </div>
               </div>
             </div>
@@ -107,18 +124,22 @@ export default function WeimarOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  市集广场东侧</h4>
-                  <p className="text-sm text-gray-700">最佳拍摄时间为清晨或午后，阳光洒在色彩缤纷的建筑立面上。从广场东侧向西拍摄，可以将老市政厅、游客中心及圣彼得与保罗教堂一同纳入镜头，画面富有层次感和历史氛围。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 市集广场东侧角落</h4>
+                  <p className="text-sm text-gray-700">利用广角镜头，将色彩斑斓的市政厅立面、歌德席勒雕像以及石板地面上的光影一同纳入镜框，最佳时间是上午十点前，光线清新且游客稀少。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  歌德与席勒雕像前</h4>
-                  <p className="text-sm text-gray-700">建议在白天光线均匀时拍摄。以德国国家剧院为背景，仰拍两位伟人的青铜雕像，能捕捉到古典主义的庄重与深厚文化象征。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 席勒街转角仰拍</h4>
+                  <p className="text-sm text-gray-700">站在席勒故居所在的狭窄街巷，向上仰拍被两旁古典建筑切割出的“一线天”，等待一缕阳光照亮高处的窗台或装饰雕像，极具纵深感与戏剧性。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  沿伊尔姆河畔公园</h4>
-                  <p className="text-sm text-gray-700">傍晚时分光线柔和。从公园朝向老城方向拍摄，可以将宁静的河流、绿树与远处老城的屋顶轮廓线结合，拍出诗意盎然的风景明信片效果。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 公园观景台俯瞰</h4>
+                  <p className="text-sm text-gray-700">从伊尔姆河畔公园的小山丘上的“罗马屋”附近，可以拍摄到掩映在层层绿树之后的老城屋顶轮廓与教堂尖顶，傍晚的蓝调时刻尤为梦幻。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 赫尔德教堂内部</h4>
+                  <p className="text-sm text-gray-700">对准教堂内那架巴赫曾弹奏过的管风琴及其上方的华丽巴洛克装饰，利用建筑内部的自然光束，营造神圣肃穆的氛围，建议使用三脚架进行长时间曝光。</p>
                 </div>
               </div>
 
@@ -127,7 +148,7 @@ export default function WeimarOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 拍摄建筑内部（如博物馆）前请务必确认是否允许拍照，通常禁止使用闪光灯。雕像广场游客较多，想拍干净的画面需要一点耐心。</li>
+                <li>• 在博物馆和历史建筑内部，务必严格遵守禁止拍照或禁止使用闪光灯的规定，这是对文化遗产的基本尊重。拍摄居民或街头艺人时，请先微笑示意并获得同意，魏玛人通常很友好。冬季的魏玛常有薄雾，不要失望，这反而是拍摄出充满古典诗意和忧郁氛围照片的绝佳时机。</li>
               </ul>
             </div>
           </Section>
@@ -136,31 +157,32 @@ export default function WeimarOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">1.  高端之选</h4>
-                  <p className="text-sm text-blue-800">大象酒店</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">历史中心之选</h4>
+                  <p className="text-sm text-blue-800">下榻于市集广场旁一栋经过精心修复的16世纪建筑里的精品酒店，夜晚当游客散去，你可以在属于自己的窗边独享整个广场的月色与宁静。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">2.  中档推荐</h4>
-                  <p className="text-sm text-green-800">Dorint Hotel am Goethepark</p>
+                  <h4 className="font-semibold text-green-900 mb-2">文艺青年最爱</h4>
+                  <p className="text-sm text-green-800">由一栋19世纪新古典主义别墅改造的温馨民宿，主人是退休的文学教授，早餐时能和他畅聊歌德的意大利之旅，房间的书架上塞满了与魏玛相关的书籍。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">3.  经济实惠</h4>
-                  <p className="text-sm text-yellow-800">Labyrinth Hostel Weimar</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">公园旁的静谧</h4>
+                  <p className="text-sm text-yellow-800">位于伊尔姆河畔公园入口处的设计酒店，房间拥有大面落地窗，将满眼绿意引入室内，清晨可直接融入公园的慢跑与散步人群，体验最本地化的晨间仪式。</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">4.  特色体验</h4>
-                  <p className="text-sm text-purple-800">老城内公寓</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">背包客社交站</h4>
+                  <p className="text-sm text-purple-800">老城边缘一家由古老仓库改建的国际青年旅舍，公共区域宽敞明亮，经常举办文学朗读或电影之夜，是结交全球旅行者、交流旅行故事的绝佳场所。</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">旺季（夏季和圣诞市场期间）建议提前预订。住在老城内虽然价格稍高，但能享受清晨和夜晚没有游客的静谧时刻，体验值大幅提升。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">老城核心区住宿非常抢手，尤其是夏季旅游旺季和各类文化节期间，建议提前至少两到三个月预订。尽管魏玛治安极佳，但选择住在主街旁的房间时，偶尔会听到深夜路人的谈笑声，对声音敏感者可以选择朝向内庭或公园的房间。许多家庭经营的民宿不提供24小时前台服务，需提前沟通好入住时间。</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">魏玛老城是一座需要用心灵去漫步的城市。它不张扬，却底蕴深不可测。在这里，文化不是陈列在玻璃柜里的标本，而是流淌在街道、庭院和咖啡馆里的生活气息。离开时，你带走的可能不是壮丽的风景照，而是一种被智慧与美熏陶过的平静，和一份对欧洲精神源头的深切理解。这绝对是一个值得你慢下来、住上两三天的精神栖息地。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">离开魏玛许久后，你或许会忘记某个建筑的具体年份，但一定会记得那种被浓厚人文气息温柔包裹的感觉。在这里，伟大不再是教科书里冰冷的词汇，而是具象为书房里一把磨损的椅子、公园中一条被踩得发亮的小径、图书馆空气中悬浮的微尘。魏玛老城像一个巨大的、活着的文化沙龙，它邀请你进入，与歌德、席勒、李斯特进行一场安静的、跨越时空的对话。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个崇尚速度和效率的时代，魏玛提供了一种珍贵的“反向”生活样本。它告诉你，真正的持久影响力，不在于建筑的宏伟或疆域的辽阔，而在于思想的深度与文化的密度。它是一面镜子，让我们反思何为丰盛的生活——不仅是物质的，更是精神的。每一位热爱深度游的旅人，都应该来魏玛住上几天，不是为了收集景点，而是为了让自己的心灵，在这片被诗与哲思浸润过的土地上，吸饱养分，重新出发。你会发现，你带走的不是几张照片，而是一份内心的宁静，以及对人类精神世界永不褪色的敬意。</p>
             </div>
           </Section>
         </div>

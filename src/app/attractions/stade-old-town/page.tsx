@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '施塔德老城 Stade Old Town｜漫步汉萨同盟的时光回廊，感受北德水城的童话魅力 - 最佳欧洲景点',
-  description: '一脚踏进施塔德老城，时间仿佛瞬间慢了下来。这里没有大城市的喧嚣，只有彩色的桁架木屋歪歪扭扭地挤在鹅卵石小巷两旁，像极了从童话书里直接搬出来的场景。老城被施塔德水网温柔环绕，一座座小桥连接着街区，河边总停着几艘小船，安静得能听见水流声。我最爱在午后的阳光里，随便找家临河的咖啡馆坐下，看着尖顶的圣科斯马...',
+  title: '施塔德老城 Stade Old Town｜穿越汉萨同盟的时光隧道，在北德水边木筋房迷宫中漫步 - 最佳欧洲景点',
+  description: '当我第一次从现代化的火车站走出来，沿着施维格河走向那座古老的水闸时，时间仿佛被猛地调慢了齿轮。空气里有一股混合了河水淡淡的腥气、老木头晒暖后的醇厚味道，以及从某家面包房飘来的新鲜酵母香。耳边不是城市的喧嚣，而是水流轻柔拍打石砌河岸的咕咚声，间或夹杂着海鸥清亮的鸣叫。眼前那座红色的水闸，像一位沉默的守...',
 }
 
 export default function StadeOldTownPage() {
@@ -23,13 +23,17 @@ export default function StadeOldTownPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">施塔德老城・Stade Old Town・德国・施塔德</h1>
           <p className="text-lg text-gray-600 mb-6">
-            一脚踏进施塔德老城，时间仿佛瞬间慢了下来。这里没有大城市的喧嚣，只有彩色的桁架木屋歪歪扭扭地挤在鹅卵石小巷两旁，像极了从童话书里直接搬出来的场景。老城被施塔德水网温柔环绕，一座座小桥连接着街区，河边总停着几艘小船，安静得能听见水流声。我最爱在午后的阳光里，随便找家临河的咖啡馆坐下，看着尖顶的圣科斯马伊教堂倒映在水面，那份宁静和治愈感，是任何攻略都形容不出来的。空气中飘着咖啡香和刚出炉的“法兰克福蛋糕”的甜味，每一步都是风景，每一个转角都有惊喜。
+            当我第一次从现代化的火车站走出来，沿着施维格河走向那座古老的水闸时，时间仿佛被猛地调慢了齿轮。空气里有一股混合了河水淡淡的腥气、老木头晒暖后的醇厚味道，以及从某家面包房飘来的新鲜酵母香。耳边不是城市的喧嚣，而是水流轻柔拍打石砌河岸的咕咚声，间或夹杂着海鸥清亮的鸣叫。眼前那座红色的水闸，像一位沉默的守门人，背后就是密密麻麻、色彩斑斓的木筋房屋顶，它们挤挤挨挨地，沿着弯弯曲曲的运河向远处铺开，活像一本被随意摊开的、厚重而生动的历史画册。
+走进老城，脚下的鹅卵石路被岁月打磨得光滑如镜，在午后阳光下泛着温润的光泽。这里的魅力不在于某个孤立的宏伟建筑，而在于整个肌理。你会发现，历史不是被供奉在围栏之后，而是就晾晒在居民的窗台上——天竺葵在古老的窗棂边开得火红，自行车随意靠在有400年历史的墙边，咖啡馆的遮阳伞就支在运河的驳船上。当地人推着购物车从你身边经过，去鱼市广场买新鲜的鲱鱼，游客和居民共享着同一片广场上的阳光。这种“仍在呼吸”的生活感，是施塔德最打动人心的所在。
+穿行在窄巷里，就像在玩一个寻宝游戏。每栋木筋房都有它自己的表情：有的倾斜得让人捏把汗，木梁上雕刻着葡萄藤或圣经故事；有的外墙刷成明快的黄油黄或普鲁士蓝，与深褐色的木框形成鲜明对比。阳光从狭窄的天空缝隙中斜射下来，在墙壁上切割出明暗交错的几何图形。突然一个转角，眼前豁然开朗，施维格河宽阔的水面带着天光云影倒流进来，河边停靠着老式的帆船。这一刻，你突然理解了汉萨商人们的选择——水是血脉，是财富，也是这座城市灵魂的镜子。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">一脚踏进施塔德老城，时间仿佛瞬间慢了下来。这里没有大城市的喧嚣，只有彩色的桁架木屋歪歪扭扭地挤在鹅卵石小巷两旁，像极了从童话书里直接搬出来的场景。老城被施塔德水网温柔环绕，一座座小桥连接着街区，河边总停着几艘小船，安静得能听见水流声。我最爱在午后的阳光里，随便找家临河的咖啡馆坐下，看着尖顶的圣科斯马伊教堂倒映在水面，那份宁静和治愈感，是任何攻略都形容不出来的。空气中飘着咖啡香和刚出炉的“法兰克福蛋糕”的甜味，每一步都是风景，每一个转角都有惊喜。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">当我第一次从现代化的火车站走出来，沿着施维格河走向那座古老的水闸时，时间仿佛被猛地调慢了齿轮。空气里有一股混合了河水淡淡的腥气、老木头晒暖后的醇厚味道，以及从某家面包房飘来的新鲜酵母香。耳边不是城市的喧嚣，而是水流轻柔拍打石砌河岸的咕咚声，间或夹杂着海鸥清亮的鸣叫。眼前那座红色的水闸，像一位沉默的守门人，背后就是密密麻麻、色彩斑斓的木筋房屋顶，它们挤挤挨挨地，沿着弯弯曲曲的运河向远处铺开，活像一本被随意摊开的、厚重而生动的历史画册。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">走进老城，脚下的鹅卵石路被岁月打磨得光滑如镜，在午后阳光下泛着温润的光泽。这里的魅力不在于某个孤立的宏伟建筑，而在于整个肌理。你会发现，历史不是被供奉在围栏之后，而是就晾晒在居民的窗台上——天竺葵在古老的窗棂边开得火红，自行车随意靠在有400年历史的墙边，咖啡馆的遮阳伞就支在运河的驳船上。当地人推着购物车从你身边经过，去鱼市广场买新鲜的鲱鱼，游客和居民共享着同一片广场上的阳光。这种“仍在呼吸”的生活感，是施塔德最打动人心的所在。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">穿行在窄巷里，就像在玩一个寻宝游戏。每栋木筋房都有它自己的表情：有的倾斜得让人捏把汗，木梁上雕刻着葡萄藤或圣经故事；有的外墙刷成明快的黄油黄或普鲁士蓝，与深褐色的木框形成鲜明对比。阳光从狭窄的天空缝隙中斜射下来，在墙壁上切割出明暗交错的几何图形。突然一个转角，眼前豁然开朗，施维格河宽阔的水面带着天光云影倒流进来，河边停靠着老式的帆船。这一刻，你突然理解了汉萨商人们的选择——水是血脉，是财富，也是这座城市灵魂的镜子。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -37,28 +41,31 @@ export default function StadeOldTownPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="施塔德老城" />
                 <InfoRow label="英文名称" value="Stade Old Town" />
-                <InfoRow label="正式名称" value="Stade Old Town" />
+                <InfoRow label="正式名称" value="Historic Town of Stade" />
                 <InfoRow label="国家" value="德国" />
                 <InfoRow label="城市" value="施塔德" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="" />
-                <InfoRow label="建筑特色" value="" />
-                <InfoRow label="建筑风格" value="" />
-                <InfoRow label="文化价值" value="" />
+                <InfoRow label="历史地位" value="施塔德是北德最古老、保存最完好的汉萨同盟城市之一，其港口与城区格局是汉萨同盟鼎盛时期城市规划的活化石。" />
+                <InfoRow label="建筑特色" value="以密集而精美的木筋结构房屋（Fachwerkhäuser）群为核心，与纵横交错的运河、古老的港口码头共同构成了一幅立体的“水上汉萨”画卷。" />
+                <InfoRow label="建筑风格" value="以北德特有的哥特式及文艺复兴式木筋房为主，混杂巴洛克及瑞典统治时期的建筑影响，形成独特的“施维格河畔风格”。" />
+                <InfoRow label="文化价值" value="这里不仅是一部看得见的建筑史，更是汉堡周边地区市民文化与贸易传统的精神故乡，鲜活地延续着“汉萨式”的务实、独立与骄傲。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="公共区域全天开放；内部各博物馆及历史建筑开放时间不一，通常为周二至周日 10:00-17:00。" />
-              <InfoRow label="门票价格" value="进入老城区域免费。参观单个博物馆或历史建筑门票约3-6欧元，联票更优惠。" />
+              <InfoRow label="开放时间" value="老城公共区域全天24小时开放。城内各博物馆和历史建筑开放时间各异：圣科斯马教堂（St. Cosmae）夏季（4月至10月）周一至周六10:00-17:00，周日11:30-17:00；冬季时间缩短。老市政厅（Rathaus）内部仅在特定导览团开放（通常为每周六下午）。施塔德博物馆（Museum Schwedenspeicher）周二至周日10:00-17:00。所有室内景点在12月24日、25日、31日及1月1日关闭。建议出行前在市政官网核对最新时间。" />
+              <InfoRow label="门票价格" value="漫步老城街道免费。主要景点单独售票：圣科斯马教堂登塔门票成人4欧元，优惠票2.5欧元。施塔德博物馆（Schwedenspeicher Museum）成人6欧元，学生及团体有优惠。老市政厅导览团约8欧元/人。建议购买“施塔德卡”（StadeCard），可在旅游信息中心购买，涵盖多家博物馆及一次运河游船，一日卡约15欧元，性价比高。" />
               <InfoRow label="地址" value="Altstadt, 21682 Stade, Germany" />
-              <InfoRow label="交通方式" value="从汉堡机场出发，乘坐S-Bahn（S5线）至汉堡主火车站，换乘区域火车（RE或RB）前往施塔德火车站，全程约1小时。从施塔德火车站步行10分钟即可到达老城中心。" />
+              <InfoRow label="交通方式" value="从国际枢纽汉堡出发最为方便。从汉堡中央火车站（Hamburg Hauptbahnhof）乘坐区域快车（RE或Metronom线路），方向为库克斯港（Cuxhaven）或布雷默尔弗德（Bremervörde），约40-50分钟即可直达施塔德火车站（Bahnhof Stade）。班次频繁，平日约每半小时一班，周末一小时一班，无需提前购票，可在站台自动售票机购买。从施塔德火车站出来，步行穿过美丽的城市公园（Stadtpark），约15分钟即可抵达老城边缘的古老水闸（Schwinge），这便是探索的完美起点。自驾可将车停在老城外围的P1或P2停车场，老城内为步行区。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">施塔德的故事，可以说是一部浓缩的北德汉萨同盟兴衰史。它的黄金时代大概要从13世纪算起，那时候它作为重要的汉萨同盟港口城市，靠着易北河支流的便利，把粮食、啤酒和布料生意做得风生水起。你现在看到的那些华丽的山墙和仓库，很多都是那个富裕年代的遗产。不过命运也挺爱开玩笑，17世纪时瑞典人来了，把这里变成了瑞典王国在德国的重要据点，留下了不少巴洛克风格的印记，比如市政厅那边就能看到。后来的大火和战争虽然让老城伤痕累累，但德国人那种“修旧如旧”的执着真的让人佩服。他们像拼图一样，一砖一瓦地把这些中世纪木筋屋复原，不是做成死气沉沉的博物馆，而是让咖啡馆、画廊和小店住进去，让历史真正活在了当下。走在街上，你能同时触摸到汉萨的厚重、瑞典的优雅和现代的生活气，这种感觉特别奇妙。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">施塔德的故事，始于水，也兴于水。早在公元994年，这座位于施维格河与易北河支流交汇处的定居点，就出现在了神圣罗马帝国皇帝奥托三世的文件中，被称作“斯塔德”（Stethu）。但真正让它登上历史舞台的，是13世纪加入汉萨同盟。想象一下当时的情景：来自吕贝克、汉堡的商船满载着盐、鲱鱼、毛皮和木材，驶入这个深入内陆却又能通江达海的港口。施塔德的商人们精明而务实，他们用本地出产的啤酒和砖瓦，换回东欧的谷物和西欧的布匹。老港口那些巨大的砖砌仓库（Speicher），至今还矗立在水边，墙上的木制起重臂仿佛随时准备再次吊起货物。那段时期建起的核心——鱼市广场（Fischmarkt）和老市政厅，奠定了这座城市以商业为中心、紧凑而高效的格局。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，历史的航道从不平静。三十年战争的烽火在17世纪席卷中欧，1645年，瑞典军队占领了施塔德。接下来的几十年，这里成了瑞典王国在德意志领土的前沿据点。这段“瑞典时期”给城市留下了独特的印记。你可以看到一种更简朴、更实用的建筑风格出现，比如当时建造的兵营和防御工事。但更重要的是，相对宽容的瑞典统治让这座城市在战后得以喘息和重建。许多在战争中损毁的木筋房被重新修葺，并加入了巴洛克风格的装饰元素，形成了我们今天看到的混搭美感。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">18世纪后，随着汉萨同盟的衰落和汉堡的崛起，施塔德的贸易地位逐渐下降，某种程度上，这反而成了它的“幸运”。因为它没有经历19世纪狂飙突进的工业化改造，大量中世纪和近代早期的建筑得以原样保存。二战期间，它又奇迹般地躲过了盟军的猛烈轰炸，老城几乎完好无损。战后，德国人意识到这块瑰宝的价值，开始了系统性的保护和修复。他们不仅修复建筑的外壳，更注重恢复其功能。老房子不再是博物馆展品，而是被改造成住宅、餐厅、画廊和手工作坊，让古老的结构继续承载现代的生活。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">漫步在今天的老城，你几乎能触摸到每一层历史的年轮。在盐街（Salzstraße），你能看到汉萨鼎盛时期商贾云集的痕迹；在“瑞典仓库”（Schwedenspeicher）——如今是出色的地方博物馆，你能读到那段被异国统治的复杂岁月；而在那些被精心修复、色彩柔和的木筋房立面上，你看到的是战后一代德国人对故乡文化根脉的珍视与重建。施塔德像一个活生生的历史剖面，告诉你一座城市如何在与河流、贸易、战争与和平的对话中，塑造出自己的独特面容。</p>
             </div>
           </Section>
 
@@ -67,37 +74,41 @@ export default function StadeOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  推荐从老城西侧的地标——圣科斯马伊教堂开始，顺时针环绕老城核心区游览，重点感受河畔风光、集市广场与小巷魅力。全程步行，悠闲游览大约需要2-3小时。
+                  要真正品味施塔德，请预留一整天时间，并抱着“迷路也是乐趣”的心态。建议在上午9点左右抵达，这时阳光正好洒在老城东侧，光线柔和，游客尚未大批涌入。从火车站步行至老水闸（Altes Stadtschleuse）开始，这是进入时光隧道的仪式感起点。随后沿着运河深入，上午重点探索鱼市广场周边及室内博物馆，了解历史背景。中午在运河边享用午餐，感受生活气息。下午则留给随心所欲的巷弄探索和教堂登高望远，傍晚时分在旧港口等待日落，看天空和河水被染成金红色。这样的节奏张弛有度，既能系统了解，又能充分沉浸。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>老城小巷如迷宫，但不用担心迷路，随心探索更有趣。建议穿舒适的平底鞋，鹅卵石路面对高跟鞋不太友好。
+                  <strong>建议：</strong>周日及法定假日，大部分商店和博物馆关门，但老城街道和咖啡馆依旧开放，氛围格外宁静，适合喜欢清净的旅人。老城街道多为凹凸不平的鹅卵石路，请务必穿一双舒适耐磨的步行鞋。城内指示牌清晰，但放弃地图，凭直觉探索小巷，往往会收获最多惊喜。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">1.  从宏伟的圣科斯马伊教堂钟楼开始，仰望其红砖建筑。</p>
+                  <p className="text-sm text-gray-700 mb-2">从古老的红砖水闸下穿过，抚摸那冰冷湿润的石壁，想象几个世纪前船只在此排队等待进入城内码头的繁忙景象。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">2.  漫步到老市政厅和历史悠久的集市广场。</p>
+                  <p className="text-sm text-gray-700 mb-2">径直走向心脏地带鱼市广场，站在那口古老的正义之井旁，环视四周色彩斑斓、倾斜度各异的木筋房立面，它们像一群性格迥异的老朋友围着你讲故事。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">3.  穿过“糖果屋”等彩绘木筋房小巷，感受童话氛围。</p>
+                  <p className="text-sm text-gray-700 mb-2">推开施塔德博物馆（Schwedenspeicher）厚重的木门，在这座昔日的瑞典粮仓里，通过古老的船首像、汉萨商人的账本和精致的水手结，触摸这座城市与海洋纠缠的命运。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">4.  沿着施塔德水网漫步，欣赏河边仓库与倒影。</p>
+                  <p className="text-sm text-gray-700 mb-2">一定要登上圣科斯马教堂那高耸的、有着洋葱式铜顶的塔楼，在狭窄的旋转石阶盘旋而上后，收获一个将整个红瓦木筋房迷宫、蜿蜒运河与远处绿色平原尽收眼底的震撼全景。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">5.  参观老海关大楼，了解港口历史。</p>
+                  <p className="text-sm text-gray-700 mb-2">离开主广场，随意钻进一条名叫“垂狗巷”（Hundestraße）或“奶酪巷”（Käsestraße）的窄巷，让脚步带领你发现那些隐藏在庭院深处、墙上刻着古怪铭文或装饰着铁艺招牌的隐秘角落。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">6.  在鱼市附近的咖啡馆结束行程，享受河景。</p>
+                  <p className="text-sm text-gray-700 mb-2">在旧港口（Alter Hafen）找一张露天的椅子坐下，点一杯当地酿造的“施塔德啤酒”，看天鹅在泊满传统小艇的河道中悠然划水，等待夕阳为对岸的仓库建筑群披上金装。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">晚餐后不要急着离开，华灯初上时再次漫步到寂静的运河边，看温暖的灯光从古老的菱形窗格里透出，倒映在漆黑如墨的水面上，仿佛整座老城都在温柔地呼吸。</p>
                 </div>
               </div>
             </div>
@@ -107,22 +118,28 @@ export default function StadeOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.   Fischmarkt 鱼市桥头</h4>
-                  <p className="text-sm text-gray-700">清晨或傍晚，站在小桥上拍摄河道与两岸彩色木屋的倒影，画面宁静富有水城韵味。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 鱼市广场东侧楼房屋顶俯拍</h4>
+                  <p className="text-sm text-gray-700">下午两三点，阳光西斜，站在广场东南角咖啡馆的露台或较高楼层窗口，可以拍到广场全景，暖光为木筋房镀上金边，人群和井栏构成生动前景。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.   圣科斯马伊教堂侧面小巷</h4>
-                  <p className="text-sm text-gray-700">下午阳光斜射时，以教堂巨大的红砖墙体为背景，拍摄蜿蜒的鹅卵石街道和行人，构图极具纵深感。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 垂狗巷（Hundestraße）纵深构图</h4>
+                  <p className="text-sm text-gray-700">清晨或傍晚，巷子两侧高耸的木筋房形成自然的画框，站在巷口利用石板路的透视引导线，能拍出极具纵深感和年代感的照片，捕捉光线在墙壁上移动的魔法。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.   “糖果屋” (Kunsthaus) 前</h4>
-                  <p className="text-sm text-gray-700">白天任何时候，近距离拍摄这栋外墙绘有精美童话图案的著名木筋屋，色彩鲜艳，充满童趣。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 圣科斯马教堂塔楼全景</h4>
+                  <p className="text-sm text-gray-700">登塔后，将相机镜头从塔楼西面的射击孔伸出，可以避开防护网，完美框住下方圣维利玛利教堂（St. Wilhadi）的绿色铜顶与成片红色瓦顶组成的韵律图案。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 4.   老海关大楼对岸</h4>
-                  <p className="text-sm text-gray-700">日落时分，从河对岸拍摄老海关大楼及其在水中的完整倒影，古典建筑与自然光线结合。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 旧港口倒影拍摄</h4>
+                  <p className="text-sm text-gray-700">无风的晴日清晨，太阳初升时，港口水面平静如镜，走到对岸，拍摄仓库群和桅杆船在水中的完美倒影，古典与现代桥梁同框。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 盐街（Salzstraße）街角光影</h4>
+                  <p className="text-sm text-gray-700">正午时分，阳光直射进狭窄的街道，利用木筋房投下的强烈阴影，拍摄明暗对比鲜明的几何构图，突出建筑结构的力度与岁月感。</p>
                 </div>
               </div>
 
@@ -131,7 +148,7 @@ export default function StadeOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 拍摄民居时请注意礼貌，避免打扰当地居民生活。雨天后的鹅卵石路面反光，能拍出更生动的照片。</li>
+                <li>• 拍摄居民住宅窗户或私人庭院时请保持尊重，尽量避免将镜头直接对准屋内。使用无人机在当地老城上空飞行有严格限制，需提前向有关部门申请许可。雨天也是好时机，湿漉漉的鹅卵石路面反光能拍出油画般质感，记得保护好器材。</li>
               </ul>
             </div>
           </Section>
@@ -140,31 +157,32 @@ export default function StadeOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">1.   老城内精品酒店</h4>
-                  <p className="text-sm text-blue-800">入住修复的历史建筑木筋屋酒店，沉浸式体验中世纪氛围，价格中上。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">运河边历史小屋</h4>
+                  <p className="text-sm text-blue-800">入住一栋直接建于17世纪、拥有自己小码头和后花园的木筋房民宿，清晨在潺潺水声和鸟鸣中醒来，房东会为你准备装在竹篮里的新鲜早餐。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">2.   施塔德水畔民宿</h4>
-                  <p className="text-sm text-green-800">选择老城河边带小露台的公寓，享受私家的水城 views，适合家庭或情侣。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">老城中心设计酒店</h4>
+                  <p className="text-sm text-green-800">由一栋古典主义风格联排别墅改造，内部是极简北欧风，巨大的窗户正对安静的內庭花园，完美融合了历史外壳与现代舒适，步行两分钟即到所有景点。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">3.   火车站附近商务酒店</h4>
-                  <p className="text-sm text-yellow-800">性价比之选，交通便利，步行至老城约10分钟，适合预算有限的旅客。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">港口旁精品客栈</h4>
+                  <p className="text-sm text-yellow-800">位于旧港口一栋修复的砖砌仓库内，房间挑高极高，保留着原始的木梁和砖墙，部分房间带有可俯瞰港口活动的小阳台，夜晚格外静谧。</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">4.   城郊田园风旅馆</h4>
-                  <p className="text-sm text-purple-800">如果自驾，可选择周边村庄安静舒适的旅馆，体验德国乡村风情。</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">郊外田园度假屋</h4>
+                  <p className="text-sm text-purple-800">若想体验下萨克森乡村风情，可选择老城外三公里处一个家庭经营的农庄，房间温馨，提供自行车，骑行穿过田野和风车前往老城的体验无与伦比。</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">旺季（夏季和圣诞市场期间）老城内住宿非常紧俏，务必提前预订。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">老城内的住宿数量有限且极为抢手，尤其在夏季和圣诞市场期间，务必提前数月预订。住在老城内虽价格稍高，但能体验入夜后和清晨游客散去时那份独有的静谧，价值远超价差。施塔德治安极好，无论城内城外都可放心步行夜归。</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">施塔德老城就像一个被时光轻轻吻过的地方，它不张扬，却美得深入人心。在这里，历史不是课本上枯燥的文字，而是你指尖触碰到的木头纹理，是脚下磨光的鹅卵石，是空气中混合着的河水与咖啡的气息。如果你厌倦了标准化的旅行，想找一个能让自己心静下来、慢慢走、细细看的地方，那么施塔德老城绝对不会让你失望。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">离开施塔德好多天了，但我的脑海里还时常浮现出那些弯曲的巷子，那些被阳光晒得暖暖的木头发出的淡淡气味，还有港口水面永不疲倦的粼粼波光。这里没有那种令人屏息的、压倒性的宏伟，它的力量是细水长流式的，是渗透式的。它让你慢下来，让你注意到门环的形状、窗台花的颜色、石头缝里长出的青苔。它告诉你，历史不仅仅是王侯将相的史诗，更是寻常百姓在同样的屋檐下，一代代生活、经营、相爱、老去的连续剧。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个追求速度与规模的世界里，施塔德像是一个温柔的提醒。它幸存下来，并活得很好，恰恰是因为它曾“被遗忘”，因为它选择了保持一种人性化的、亲密的尺度。每一位热爱深度游的旅人，都应该来这里住上几天。不是为了打卡，而是为了体验一种完整的生活质感。当你坐在运河边，看着一个老人划着小船缓缓而过，你会明白，旅行的意义，有时就是找到这样一个地方——它让你感到，时间的流逝可以如此优美，如此充满尊严，而你也成了这绵长画卷中，安静而满足的一笔。</p>
             </div>
           </Section>
         </div>

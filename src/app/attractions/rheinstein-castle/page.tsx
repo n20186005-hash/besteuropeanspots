@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '德国莱茵施泰因城堡 Rheinstein Castle｜峭壁上的莱茵河浪漫古堡 - 最佳欧洲景点',
-  description: '莱茵施泰因城堡位于德国莱茵兰-普法尔茨州特雷希廷斯豪森，坐落在莱茵河畔90米高的陡峭岩壁上，是莱茵河谷浪漫主义城堡重建的代表作。城堡建于14世纪初，19世纪由普鲁士王子弗里德里希重建，如今是博物馆兼小...',
+  title: '莱茵施泰因城堡 Rheinstein Castle｜莱茵河谷的“睡美人”，在浪漫主义复兴的塔楼里聆听河风低语 - 最佳欧洲景点',
+  description: '当渡轮在莱茵河的柔波上切开一道弧线，远远地，你就能看见它——莱茵施泰因城堡，像一枚从童话书里直接撕下来的银色书签，斜插在漫山遍野、绿得发亮的葡萄园与墨绿色森林交织的山坡上。阳光在它的塔楼尖顶和铅灰色石墙上跳跃，那份遗世独立的静谧感，瞬间就让你从河面上游船的喧闹中抽离出来。空气中混合着河水淡淡的腥气、...',
 }
 
 export default function RheinsteinCastlePage() {
@@ -20,75 +20,175 @@ export default function RheinsteinCastlePage() {
           ]}
         />
 
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">莱茵施泰因城堡</h1>
-          <p className="text-xl text-gray-600 mb-4">Rheinstein Castle</p>
-          <div className="flex flex-wrap gap-2 mb-6">
-            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">德国</span>
-            <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">莱茵兰</span>
-          </div>
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">莱茵施泰因城堡・Rheinstein Castle・德国・宾根</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            当渡轮在莱茵河的柔波上切开一道弧线，远远地，你就能看见它——莱茵施泰因城堡，像一枚从童话书里直接撕下来的银色书签，斜插在漫山遍野、绿得发亮的葡萄园与墨绿色森林交织的山坡上。阳光在它的塔楼尖顶和铅灰色石墙上跳跃，那份遗世独立的静谧感，瞬间就让你从河面上游船的喧闹中抽离出来。空气中混合着河水淡淡的腥气、葡萄藤叶的清新，还有从山谷深处飘来的、说不清的古老木头的味道。它不像新天鹅堡那样充满戏剧性的张扬，更像一位低调的守护者，守着这段莱茵河最深邃的拐弯。
+沿着之字形的石板路向上爬，脚步声在宁静的山谷里回响。路边的野玫瑰和薰衣草几乎要蹭到你的裤脚。直到你站在那道厚重的橡木大门前，仰头看见门楣上斑驳的家族纹章，时光的流速仿佛骤然变缓。走进城堡内部，第一个击中你的不是宏伟，而是一种亲切的“居住感”。彩绘玻璃窗将阳光过滤成宝石般的色彩，投射在打磨得温润的拼花地板上。走廊里，历代主人的肖像画静静悬挂，他们的目光似乎能穿透几个世纪。你几乎能想象，在某个冬夜，壁炉里的柴火噼啪作响，城堡主人就坐在这里，听着窗外莱茵河水的呜咽与风声。
+而最核心的魅力，在于它“活着”。这不是一个被真空包装的博物馆。你可以在骑士大厅里触摸到冰冷真实的铠甲，可以在小礼拜堂里看到至今仍被使用的圣坛，更可以走到那个伸出悬崖之外的木制露台上。当你手捧一杯当地产的雷司令白葡萄酒，凭栏远眺，脚下是如丝带般蜿蜒的莱茵河，对岸是另一座城堡的遗迹，火车像玩具一样缓缓穿过隧道。那一刻，你便彻底理解了19世纪的浪漫主义者们为何要重建这里——他们不只是修复石头，更是为了修复一种凝视风景、与历史对话的诗意生活方式。
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          <div className="md:col-span-2 space-y-8">
-            <Section title="景点简介">
-              <p className="text-gray-700 leading-relaxed mb-4">莱茵施泰因城堡位于德国莱茵兰-普法尔茨州特雷希廷斯豪森，坐落在莱茵河畔90米高的陡峭岩壁上，是莱茵河谷浪漫主义城堡重建的代表作。城堡建于14世纪初，19世纪由普鲁士王子弗里德里希重建，如今是博物馆兼小型酒店，拥有500年历史的勃艮第葡萄藤和绝美河景。</p>
-            </Section>
-            <Section title="基本信息">
-              <p className="text-gray-700 leading-relaxed mb-4">开放时间：旺季（3月15日至11月1日）每天9:30至17:30，淡季（11月至3月）仅周六日12:00至16:00开放（注意12月圣诞季可能会延长到19:00，建议出发前上官网确认一下）。说实话去之前我没查仔细，周二兴冲冲跑过去，门口牌子写着“Closed”，站在山下望着城堡愣了好几分钟，亲测别像我一样不看时间就乱冲。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">门票：成人8欧元，学生和65岁以上老人6欧元，14岁以下儿童4欧元，家庭套票（2成人+最多3个14岁以下小孩）18欧元。门票在城堡入口旁的礼品店里买，现金或刷卡都行。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">地址：Burg Rheinstein, 55413 Trechtingshausen, Germany。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">交通：从法兰克福主火车站坐RE2或RE3方向到宾根（Bingen），换乘RB26坐到特雷希廷斯豪森站下车，全程约1小时45分钟。从车站沿莱茵河边的步行道往南走大概30分钟就能到城堡山下，一路上看着河对岸的葡萄园和半山腰的小房子，莱茵河的风吹在脸上凉凉的，走着一点都不累。从宾根打车过去大约20分钟，费用15到20欧元。停车场在城堡山脚下的B9公路边上，车位不多，高峰期真心建议早点去或者直接坐火车。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">最佳游览季节：亲测春秋两季最舒服。春天4到5月城堡花园里的花都开了，勃艮第葡萄藤刚冒新芽，空气里都是泥土和草叶的清香。秋天9到10月山坡上的葡萄园变成金黄和橙红色，阳光照在莱茵河上闪闪发光，坐在城堡餐厅露台上喝一杯当地的雷司令，河面上货轮慢慢开过，汽笛声远远传来，那种感觉真是说不出来的舒服。夏天也行，就是下午石头墙晒得发烫，城堡里没太多遮阳的地方，记得戴帽子。冬天城堡开放时间短，但下雪的时候城堡被白雪盖住，像直接从童话书里抠出来的一样，只不过那条上山的小路会有点滑。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">建议游览时长：逛完整个城堡（包括博物馆房间、骑士大厅、教堂、花园）大概1.5到2小时。城堡内部有四层楼，每层都有展品和房间可以看，自助游览不用赶时间。如果你要在城堡餐厅吃饭或者露台上多坐一会儿喝杯咖啡看河景，那就预留2.5到3小时比较从容。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">注意事项：上山的那条碎石小路人走起来还行，路面不平，真心建议穿一双舒服的鞋别穿高跟鞋或者滑底的皮鞋。城堡里有些旋转楼梯特别窄，踩过的小坑就是我背了个大背包，上楼的时候卡了好几次，差点把旁边展示柜上的盔甲给撞翻。带小孩的父母要稍微看着点孩子别在楼梯上跑，但整体来说没有太危险的地方。城堡有餐厅和咖啡厅，饿不着也渴不着。</p>
-            </Section>
-            <Section title="历史背景">
-              <p className="text-gray-700 leading-relaxed mb-4">说实话我以前对莱茵河的城堡历史没什么概念，就觉得“好看、适合拍照”，但真进了莱茵施泰因城堡，踩着嘎吱嘎吱响的木地板，摸着大厅里那些19世纪贴的木墙板，再看看彩色玻璃窗透进来的光，突然就能感受到这座城堡不是那种冷冰冰的历史课本。城堡最初在1306到1320年间由美因茨大主教下令建造，说白了就是个莱茵河上的“收费站”加防御岗哨，来往的货船想从这段河道过就得老老实实交钱。不过这座城堡运气不太好，建成后没多久就在战乱中被毁了，到17世纪末基本只剩一片废墟。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">逛着逛着发现了一个挺有意思的事情，这座城堡之所以今天看起来这么“浪漫”，全靠19世纪一位普鲁士王子弗里德里希·威廉。他1823年买下这片废墟，请了建筑师按照当时人们对“中世纪城堡应该长什么样”的想象，重新把它盖了起来。说白了你现在看到的莱茵施泰因城堡，更像是19世纪德国浪漫主义时期的“复古作品”，而不是纯正的中世纪遗存。但老实说这丝毫不影响它的魅力，反倒多了种特别的历史层叠感。骑士大厅里的壁画是杜塞尔多夫画家画的，家具是17到19世纪的老物件，墙上挂着的盔甲有真有仿，整个氛围就像走进了一百多年前一位王子的私人收藏空间。城堡里至今还住着主人赫歇尔家族，他们1975年买下了这座城堡，现在一家人亲自打理博物馆和住宿，礼品店里那个收门票的老太太就是家族成员，会跟你聊几句家常，这种家庭经营的亲切感在大景点里真找不到。</p>
-            </Section>
-            <Section title="游览路线">
-              <p className="text-gray-700 leading-relaxed mb-4">从山脚停车场或河边小路爬上来到城堡正门，大概十分钟的上坡路，坡度挺陡的但路不长。一进门左手边就是礼品店兼售票处，在这里买票，然后从售票处旁边的小门穿过去就是城堡的核心庭院——勃艮第花园。我第一次走进这个院子的时候真愣了一下，一棵粗得吓人的老葡萄藤顺着石墙爬满半个院子，介绍说这棵葡萄藤有五百多年了，到现在每年还能结葡萄酿酒。院子不大但特别有味道，石墙上长满青苔，脚踩在石板地上能听见自己的脚步声在院子里回响，站在院子边缘往下看就是90米悬崖下的莱茵河，河水是那种深沉的墨绿色，阳光下泛着银光。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">从勃艮第花园往下走一段台阶，就到了新哥特式的城堡小教堂。这座教堂是弗里德里希王子为自己和家族建的墓地，教堂地下室就是他家人的石棺。教堂不大但特别精致，彩色玻璃窗的光投在石头地板上，空气里弥漫着一股淡淡的石蜡味，很安静，跟上面花园的明亮开阔完全两个世界。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">教堂看完回到花园，走另一侧的石阶上到城堡主体建筑。进去之后就是自助游览的路线，从一层往上走。最值得花时间的是顶层的骑士大厅，这是我整个莱茵施泰因城堡逛下来印象最深的地方。大厅的彩色玻璃窗上画着中世纪的纹章图案，正午的阳光从窗户照进来，整个房间都被染成暖橙和深蓝交织的颜色，墙壁上挂着盔甲和武器，角落里放着一架小型的投石机模型。我在大厅里站了好一会儿，说实话这种地方照片拍不出来，得亲眼看到那扇窗的光洒在石墙上的质感。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">逛完室内出来别急着走，从城堡南侧的小路绕出去走大概五十米，有一片小草坪，站在那里回头看城堡全景，城堡的塔楼和城墙贴着陡峭的岩壁一层层叠上去，背景是蜿蜒的莱茵河，上午9点到11点顺光拍出来的城堡细节特别清晰，傍晚5点以后逆光则有种油画般的氛围感。我那天运气好，傍晚太阳斜斜地挂在河对岸的山后面，城堡的剪影印在金红色的天空上，莱茵河面像铺了一层碎金。</p>
-            </Section>
-            <Section title="拍照机位">
-              <p className="text-gray-700 leading-relaxed mb-4">城堡全景机位，就在城堡南侧约50米处的那片小草坪，上午9点到11点顺光拍摄城堡正面细节特别清楚，傍晚5点到6点逆光可以拍到城堡剪影配金红色的晚霞和波光粼粼的莱茵河。勃艮第花园观景台，站在庭院西侧的石栏杆边上，上午10点到下午2点光线最足，能把莱茵河和对岸阿斯曼斯豪森的红色屋顶一起收进画面，人像效果很好，背景是绵延的河谷和葡萄园。骑士大厅彩色玻璃窗前，中午11点到下午1点阳光透过彩色玻璃最强烈，拍人像或静物色彩特别浓郁，不过玻璃窗本身不太适合作为合影背景，逆光拍剪影效果更好。城堡上山小径的那个铁链绑着的大石头，走着走着就能看到，下午4点以后石头表面有斜射光照出纹理感，适合拍徒步中的氛围照，不过这条路有树荫，光线变化快，记得多试几张。</p>
-            </Section>
-            <Section title="附近景点">
-              <p className="text-gray-700 leading-relaxed mb-4">逛完莱茵施泰因城堡，如果你还有半天时间，真心没必要打车往远了跑，特雷希廷斯豪森这个小镇本身就是莱茵河谷小众慢游的好去处。从城堡下山沿河边往北走大概十五分钟，河岸边的步道特别适合散步，能看到对岸的葡萄园一层层爬上山坡，偶尔有一艘白色的游轮慢悠悠开过，船尾拖出一道长长的水痕。小镇上有个很老的教堂叫Clemenskapelle，不大，但推门进去安安静静坐一会儿，阳光从圆拱窗照进来，挺舒服的。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">如果你想多看几座城堡，从莱茵施泰因城堡沿河边往南开车大概五到十分钟就是赖兴施泰因城堡，也是一座中世纪城堡，现在改成了酒店，城堡博物馆也对外开放。说实话如果你时间只够看一座莱茵河城堡，我觉得莱茵施泰因城堡就够了，但如果是城堡迷或者自驾玩莱茵河谷，顺路把赖兴施泰因也收了完全可行。另外从小镇火车站坐火车往南几站就是巴哈拉赫，一个石板路老城保存得特别完整的莱茵河小镇，傍晚游客少下来，沿着老城墙走一圈，路边餐馆飘出来烤香肠和酸菜的香气，那种安静老城的小巷烟火感，跟白天人挤人的热门景点完全是两种体验。</p>
-            </Section>
-            <Section title="住宿小贴士">
-              <p className="text-gray-700 leading-relaxed mb-4">莱茵施泰因城堡的住宿选择有个挺特别的地方，城堡里本身就有三间公寓客房可以预订过夜，其中一间叫“王子房间”，据说视野无敌。我没住（说实话价格略高），但住在城堡里晚上整个城堡只属于你和几位住客，推开窗户下面就是月光下的莱茵河，这种体验确实挺独特的。亲测要提前至少一个月预订，旺季更早。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">如果想住得实惠一点，真心建议把住宿点选在巴哈拉赫或者吕德斯海姆，这两个小镇住宿选择多、交通方便，老城区的民宿氛围感特别强，半木结构的房子、窄窄的石板楼梯、推开窗就能闻到面包房的香味。但踩过的小坑就是这些老房子很多没有电梯，楼梯窄得不行，带大行李箱的真心要提前跟房东确认一下或者索性选河边的现代酒店。Trechtingshausen小镇本地住宿少，除了城堡就是零星几家小旅馆，不太建议把大本营放这儿。莱茵河谷一带的民宿和酒店到了秋天葡萄收获季会涨价不少，能提前订就提前订，临时找可能选择非常有限。</p>
-            </Section>
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">当渡轮在莱茵河的柔波上切开一道弧线，远远地，你就能看见它——莱茵施泰因城堡，像一枚从童话书里直接撕下来的银色书签，斜插在漫山遍野、绿得发亮的葡萄园与墨绿色森林交织的山坡上。阳光在它的塔楼尖顶和铅灰色石墙上跳跃，那份遗世独立的静谧感，瞬间就让你从河面上游船的喧闹中抽离出来。空气中混合着河水淡淡的腥气、葡萄藤叶的清新，还有从山谷深处飘来的、说不清的古老木头的味道。它不像新天鹅堡那样充满戏剧性的张扬，更像一位低调的守护者，守着这段莱茵河最深邃的拐弯。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">沿着之字形的石板路向上爬，脚步声在宁静的山谷里回响。路边的野玫瑰和薰衣草几乎要蹭到你的裤脚。直到你站在那道厚重的橡木大门前，仰头看见门楣上斑驳的家族纹章，时光的流速仿佛骤然变缓。走进城堡内部，第一个击中你的不是宏伟，而是一种亲切的“居住感”。彩绘玻璃窗将阳光过滤成宝石般的色彩，投射在打磨得温润的拼花地板上。走廊里，历代主人的肖像画静静悬挂，他们的目光似乎能穿透几个世纪。你几乎能想象，在某个冬夜，壁炉里的柴火噼啪作响，城堡主人就坐在这里，听着窗外莱茵河水的呜咽与风声。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">而最核心的魅力，在于它“活着”。这不是一个被真空包装的博物馆。你可以在骑士大厅里触摸到冰冷真实的铠甲，可以在小礼拜堂里看到至今仍被使用的圣坛，更可以走到那个伸出悬崖之外的木制露台上。当你手捧一杯当地产的雷司令白葡萄酒，凭栏远眺，脚下是如丝带般蜿蜒的莱茵河，对岸是另一座城堡的遗迹，火车像玩具一样缓缓穿过隧道。那一刻，你便彻底理解了19世纪的浪漫主义者们为何要重建这里——他们不只是修复石头，更是为了修复一种凝视风景、与历史对话的诗意生活方式。</p>
+          </Section>
 
-            <div className="bg-gray-50 p-6 rounded-lg mt-8">
-              <p className="text-sm text-gray-600 text-center">
-                本文由旅行作者 Winter Grady 实地走访整理，专注欧洲小众景点深度攻略，持续分享真实游览体验。
-              </p>
-              <p className="text-xs text-gray-500 text-center mt-2">
-                本站内容仅供旅行参考使用，商务合作与转载事宜请通过联系页脚提交申请。
-              </p>
-              <p className="text-xs text-gray-500 text-center">
-                管理团队保留所有内容版权，未经许可禁止搬运、摘抄或商用。
-              </p>
-            </div>
-          </div>
-
-          <div className="space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">实用信息</h3>
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow icon="🕒" label="开放时间" value="全天开放" />
-                <InfoRow icon="🎫" label="门票" value="免费" />
-                <InfoRow icon="📍" label="地址" value="请参考地图导航" />
-                <InfoRow icon="🚌" label="交通" value="建议步行或公共交通" />
+                <InfoRow label="中文名称" value="莱茵施泰因城堡" />
+                <InfoRow label="英文名称" value="Rheinstein Castle" />
+                <InfoRow label="正式名称" value="Burg Rheinstein" />
+                <InfoRow label="国家" value="德国" />
+                <InfoRow label="城市" value="宾根" />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value="19世纪普鲁士王室主持的浪漫主义城堡复兴运动中第一座被系统重建的中世纪要塞，开启了莱茵河畔“城堡重生”的黄金时代。" />
+                <InfoRow label="建筑特色" value="完美融合了中世纪防御工事的雄浑基底与19世纪浪漫主义装饰的精致细节，尤其是其高耸的主塔和临河悬挑的露台。" />
+                <InfoRow label="建筑风格" value="浪漫主义复兴风格，兼具罗曼式与哥特式元素。" />
+                <InfoRow label="文化价值" value="它是德国浪漫主义运动的物质丰碑，体现了19世纪人们对中世纪骑士精神、民族历史与自然景观相结合的理想化追求。" />
               </div>
             </div>
-          </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value="每年3月中旬至10月，每日上午10:00至下午6:00开放；11月至次年3月中旬仅周末和节假日开放，时间为上午10:00至下午5:00。最后入场时间为闭馆前45分钟。城堡在12月24日至26日以及1月期间可能完全关闭，建议行前务必在其官网确认。" />
+              <InfoRow label="门票价格" value="成人票8欧元；学生、残障人士票7欧元；6-14岁儿童票5欧元；5岁及以下儿童免费。家庭票（2位成人+最多4名儿童）22欧元。门票包含语音导览（提供中文选项）。仅参观城堡花园和露台咖啡馆收费4欧元。" />
+              <InfoRow label="地址" value="Burg Rheinstein, 55413 Trechtingshausen, Germany" />
+              <InfoRow label="交通方式" value="最便捷的枢纽是法兰克福国际机场或美茵茨中央火车站。从法兰克福机场乘坐区域快车（RB）或区域列车（RE）约1小时直达宾根主火车站。从美茵茨出发则仅需20分钟火车车程。抵达宾根后，前往滨河码头（Bingen Rheinpromenade），搭乘前往阿斯曼斯豪森的莱茵河渡轮（K-D Line或其他公司），约25分钟航程后在“Trechtingshausen Burg Rheinstein”码头下船。下船后跟随清晰的棕色旅游标识，沿着一条蜿蜒上山、穿过葡萄园的石板小路步行约10-15分钟即可抵达城堡大门。渡轮班次在旅游旺季约每小时一班，可购买单程票。自驾游客可将车停在山脚下的收费停车场，同样需要步行上山。" />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">莱茵施泰因的故事，是一部从“铁血关税站”到“浪漫主义梦想”的跌宕史诗。它的基石奠定于13世纪初，那个莱茵河上每块礁石都恨不得竖起一座城堡来收税的年代。它最初的名字是“Fatzberg”，是美因茨大主教势力范围内一个坚固的关税堡垒，扼守着这段繁忙的水道。在随后几个世纪的王公纷争中，它数易其主，见证了无数次箭矢与火炮的呼啸。然而，随着军事技术的进步和贸易路线的变迁，这些中世纪的山顶堡垒逐渐失去了实用价值。到了17、18世纪，莱茵施泰因和它的许多邻居一样，无可避免地走向了衰败，最终沦为被林木藤蔓吞噬的浪漫废墟，只在当地人的传说和画家的风景画里留下一点影子。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">转机发生在19世纪初期。席卷欧洲的浪漫主义浪潮，将“中世纪”从黑暗落后的代名词，重新塑造成一个充满骑士精神、虔诚信仰与民族根源的黄金时代。莱茵河河谷，这条流淌着无数传说的“父亲河”，成了德国知识分子和艺术家寻找民族认同感的核心舞台。诗人吟咏它，画家描绘它，而普鲁士的王子们，则想亲手“重建”它。1825年，普鲁士的腓特烈·威廉亲王（后来的腓特烈·威廉四世国王）在乘船游览时，被莱茵施泰因废墟的如画景色深深震撼。这位艺术修养极高的王子，立刻决定买下它。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这不仅仅是一次购买，而是一场精心策划的“文化复兴”。亲王聘请了当时顶尖的建筑师和工匠，目标不是复原一个精确的历史副本——那时也没有人知道它最初的确切样子——而是创造一座符合浪漫主义时代想象的“理想城堡”。他们保留了废墟中原有的核心结构，比如厚重的城墙和主塔的地基，然后在此基础上，自由地融合了罗曼式的厚重与哥特式的精巧。高耸的塔楼被重建，窗户被扩大以引入更多光线和风景，内部装饰则充满了那个时代最流行的新哥特式细节：彩绘玻璃、橡木镶板、骑士盔甲和仿中世纪壁画。工程持续多年，莱茵施泰因成为了莱茵河沿岸第一座从废墟中被系统性唤醒的城堡，为后来数十座城堡的修复或重建树立了范本。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">城堡在普鲁士王室手中传承，一直是受欢迎的夏宫。但二战的炮火再次威胁到它的存续。战后，它面临年久失修、产权复杂的困境。真正的救星出现在1975年，歌剧演唱家赫尔曼·海科博士购下了这座日渐倾颓的城堡。海科家族投入巨大的心血与财力，不仅进行了全面的结构加固和历史保护，更以一种充满温度的方式向公众开放。他们不是将城堡打造成一个冰冷的展览馆，而是努力维持一种“有人居住的故居”氛围。家族收藏的古董家具、乐器、武器被精心陈列，仿佛主人只是暂时出门。正是海科家族这种充满热情的个人守护，让莱茵施泰因在成为旅游景点的同时，从未失去它的灵魂与温度，一直“活”到了今天。</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  建议安排整整一天时间来沉浸式体验莱茵施泰因。最佳抵达时间是上午9点半左右，从宾根搭乘最早几班渡轮之一，这样你能在10点城堡开门时第一批进入，独享清晨最柔和的阳光和无人打扰的宁静。整体游览节奏宜慢不宜快，上午重点在于攀登塔楼、领略宏观景观和城堡外部；下午则深度探索室内房间、小教堂，并在露台咖啡馆长时间停留，品味风景。这样的安排让你既能捕捉摄影的黄金光线，又能体验到城堡从清晨到日落的不同氛围，最后带着满心宁静而非疲惫离开。
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>穿一双绝对舒适防滑的鞋子，所有上山的路和城堡内部的石阶都古老而光滑，高跟鞋在这里是灾难。
+务必提前查好返程渡轮的时刻表并预留充足时间下山，错过一班可能意味着要等上一两个小时。
+城堡内部房间空间有限，旅游团通常在中午前后到达，若想享受清静，早到或晚走是黄金法则。
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在宾根码头跳上那艘漆成白色的老式渡轮，找一个靠右舷的露天位置，让河风和逐渐清晰的城堡轮廓开启你的旅程。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">跟着下船的人流踏上岸，然后毫不犹豫地拐进那条标着城堡标志、两旁种满葡萄藤的静谧上山小径。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在城堡厚重的拱形大门前停下，别急着进去，先回头看一眼山下莱茵河那如同巨大绿宝石般的河湾和穿梭的船只。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">用门票换一个语音导览器，然后毫不犹豫地先去爬那座盘旋而上的窄窄石阶，登上主塔的顶层，让360度的莱茵河谷全景像卷轴画一样在你眼前猛然铺开。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">从塔顶下来后，慢慢逛进二楼的骑士大厅，用手轻轻触碰那些冰凉的骑士盔甲，想象它们被穿着的模样，并仔细看看墙上那些讲述着圣经故事和骑士传说的彩绘玻璃。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">一定要找到那条通往悬崖外侧的木质悬挑露台，点一杯咖啡或本地葡萄酒，什么都不做，就坐在那里看着河水流淌至少半小时。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">参观完所有室内房间后，不要从原路匆匆下山，不妨沿着城堡侧面更隐蔽的一条林间小路慢慢往下走，你会从不同的角度再次欣赏城堡的侧面和背面。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">最后，一定要在山脚下那个属于城堡家族的小酒庄停留，买一瓶印有城堡纹章的雷司令，把这份味道和记忆一起带回家。</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 渡轮行进至城堡正前方约200米处</h4>
+                  <p className="text-sm text-gray-700">这是拍摄城堡与莱茵河、葡萄园全景的经典机位，上午顺光，河水呈湛蓝色，城堡立体感最强。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 主塔顶层的箭孔窗口</h4>
+                  <p className="text-sm text-gray-700">将你的相机或手机贴近古老的石质窗框，以箭孔为前景框架，拍摄窗外蜿蜒的莱茵河与对岸的山林，构图极具纵深感和故事性。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 骑士大厅南侧彩绘玻璃窗下</h4>
+                  <p className="text-sm text-gray-700">下午的阳光透过彩色玻璃，会在古老的木地板和墙壁上投下梦幻斑斓的光影，等待一束光正好照亮一件盔甲或一把椅子，迅速按下快门。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 城堡下方葡萄园中的某条横向小径</h4>
+                  <p className="text-sm text-gray-700">在日落前一两小时，从这里仰拍城堡，暖金色的夕阳会给石墙镀上光辉，背景是深蓝色的天空，能拍出城堡威严而浪漫的侧影。</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• 室内严格禁止使用闪光灯和三脚架，这是为了保护珍贵的古董家具和织物，高感光度相机或大光圈镜头在这里是得力助手。</li>
+                <li>• 拍摄人物与城堡全景时，不妨让人物处于画面前景的小路上，成为尺度参照，更能凸显城堡的雄伟与环境的壮丽。</li>
+                <li>• 莱茵河谷天气多变，一场突如其来的雨过后，常常会出现绝美的彩虹横跨城堡上空，随时准备好你的相机。</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">极致体验</h4>
+                  <p className="text-sm text-blue-800">直接入住城堡本身！莱茵施泰因城堡提供极少量的客房住宿，让你在日间游客散去后，独享整座山的宁静，清晨在鸟鸣和河雾中醒来，仿佛自己就是城堡的临时主人。</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">特色之选</h4>
+                  <p className="text-sm text-green-800">下山步行5分钟即到的特雷希廷斯豪森小镇家庭旅馆，这些由半木结构老屋改造的旅馆主人通常就是葡萄农，能让你品尝到最地道的家常菜和私家窖藏葡萄酒。</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">设计感栖居</h4>
+                  <p className="text-sm text-yellow-800">河对岸阿斯曼斯豪森村的现代设计酒店，拥有直面莱茵施泰因城堡的绝佳露台，特别适合喜欢在远处欣赏城堡夜景并享受当代舒适设施的旅行者。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">庄园度假</h4>
+                  <p className="text-sm text-purple-800">位于宾根郊区山丘上的复古庄园酒店，坐拥大片花园和葡萄田，提供水疗和精致餐饮，适合想要将城堡游览与彻底放松结合起来的旅程。</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">如果选择入住特雷希廷斯豪森小镇，夜晚非常安静，几乎没有商业设施，但正因如此，星空格外璀璨，能听到最纯粹的自然之声。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">城堡客房极其热门，往往需要提前数月预订，且不适合行李过多或行动不便者，因为仍需步行一段山路。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">旺季（5-10月）莱茵河沿岸住宿都很紧张，提前规划是必须的，且周末价格会明显上浮。</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">离开莱茵施泰因城堡时，我的背包里多了一瓶冰凉的雷司令，脑海里却仿佛卸下了一些东西。是什么呢？或许是城市里那种惯性的焦虑和匆促。在这里，时间是以河水流速、以光影在石墙上移动的节奏来计量的。这座城堡教会我的，不是一段刻板的历史知识，而是一种“深度沉浸”的能力——去耐心地爬一座山，去专注地看一条河，去想象几百年前人们如何看待这个世界。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在当今这个追求“网红打卡”和效率至上的快节奏旅行时代，莱茵施泰因像一位温和的叛逆者。它不提供刺激的娱乐项目，没有炫目的声光秀，它的展品甚至有些“老旧”。但它提供了一样更珍贵的东西：一个真实的、可触摸的停顿点。它让我们相信，有些地方存在的意义，不是为了被快速消费，而是为了被缓慢地体验，为了让我们在它的塔楼上，重新找到与自然、与历史、也与内心平静对话的窗口。每一位真正的深度旅者，都该来此住上一日，听听风穿过塔楼的声音，那或许是历史最温柔的叹息，也是我们对自己生活节奏的一次重要修正。</p>
+            </div>
+          </Section>
         </div>
       </div>
     </div>

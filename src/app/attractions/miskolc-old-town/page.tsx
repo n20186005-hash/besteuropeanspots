@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '米什科尔茨老城 Miskolc Old Town｜漫步匈牙利北部的历史心脏，感受巴洛克与鹅卵石的时光对话 - 最佳欧洲景点',
-  description: '嘿，如果你厌倦了布达佩斯的喧嚣，想找个更有生活气息和历史厚度的匈牙利老城逛逛，米什科尔茨老城绝对是个惊喜。第一眼看到那些被岁月磨得光滑的鹅卵石街道和色彩柔和的巴洛克建筑外墙，你会感觉时间都慢了下来。这里不像纯粹的旅游区，更像是本地人依然在其中买菜、喝咖啡的生活剧场。空气里混合着新鲜面包的香气和从老咖...',
+  title: '米什科尔茨老城 Miskolc Old Town｜探访匈牙利“钢铁之城”里被时间温柔封存的生活印记 - 最佳欧洲景点',
+  description: '说实话，当我第一次站在米什科尔茨老城的边缘时，我有点懵。你想象中的欧洲“老城”，可能是布拉格那种尖塔林立的童话，或是佛罗伦萨那种文艺复兴的磅礴。但这里完全不同。它没有醒目的城墙，没有宏伟的入口，只是几条坡度平缓的街道，两旁是三四层高、墙体斑驳的公寓楼，颜色是那种经年烟尘熏染过的、介于赭石和黄灰之间的...',
 }
 
 export default function MiskolcOldTownPage() {
@@ -23,13 +23,17 @@ export default function MiskolcOldTownPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">米什科尔茨老城・Miskolc Old Town・匈牙利・米什科尔茨</h1>
           <p className="text-lg text-gray-600 mb-6">
-            嘿，如果你厌倦了布达佩斯的喧嚣，想找个更有生活气息和历史厚度的匈牙利老城逛逛，米什科尔茨老城绝对是个惊喜。第一眼看到那些被岁月磨得光滑的鹅卵石街道和色彩柔和的巴洛克建筑外墙，你会感觉时间都慢了下来。这里不像纯粹的旅游区，更像是本地人依然在其中买菜、喝咖啡的生活剧场。空气里混合着新鲜面包的香气和从老咖啡馆飘出的醇厚味道。走在狭窄的巷弄里，不经意抬头就能看到精美的锻铁招牌或斑驳的壁画，那种“发现”的乐趣特别棒。整个氛围是慵懒而真实的，仿佛一位亲切的老者在阳光下讲述着过往。
+            说实话，当我第一次站在米什科尔茨老城的边缘时，我有点懵。你想象中的欧洲“老城”，可能是布拉格那种尖塔林立的童话，或是佛罗伦萨那种文艺复兴的磅礴。但这里完全不同。它没有醒目的城墙，没有宏伟的入口，只是几条坡度平缓的街道，两旁是三四层高、墙体斑驳的公寓楼，颜色是那种经年烟尘熏染过的、介于赭石和黄灰之间的暖调。空气里有种特别的味道——不是花香，也不是咖啡香，而是一种旧书、潮湿木头和远处隐约飘来的、老式面包店发酵气味混合在一起的味道。电车的铁轨在石板路间闪着光，叮叮当当地驶过，声音在这不算宽阔的街谷里回荡，显得格外清晰。几个老人坐在长椅上，用你听不懂的匈牙利语缓慢地聊天，脚边放着朴素的布质购物袋。这里的一切，都慢得不像21世纪。
+但正是这种“不像”，成了它最致命的吸引力。米什科尔茨老城不是博物馆里的标本，它是一块仍然在呼吸的城市“伤疤”与“勋章”并存之地。它的美不在于完美，而在于真实。墙皮脱落处露出不同年代的砖石，一栋巴洛克山花装饰的宅子旁边，可能就是一座朴素得只有方窗的工人宿舍楼。这种杂乱无章的拼接，本身就是一部立体的城市自传。阳光透过悬铃木的叶子，在坑洼不平的人行道上投下晃动的光斑，你能看到穿着时髦的年轻人走进巷子里的独立设计店，也能看到主妇们从有着百年历史的肉铺里提着东西出来。生活在这里，从未因“古老”而中断。
+最打动我的，是那种巨大的反差感。米什科尔茨是匈牙利曾经的“钢铁之城”，城外是庞大的工业遗存。而这里，就在离那些冰冷巨人不到几公里的地方，时间仿佛被施了魔法，流速骤然不同。它让你明白，工业化浪潮席卷之下，普通人的家园是如何坚韧地存续，并在每一个窗台的花箱、每一扇擦得锃亮的门把手上，顽强地表达着对“美”和“体面”的追求。这里没有为了游客表演的“中世纪节庆”，只有为了自己而延续的、琐碎而温暖的日常。当你走过这些街道，你触摸的不是历史教科书上某个辉煌的节点，而是一个城市、一代代人实实在在的生活质地，粗粝，温暖，充满人性的力量。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">嘿，如果你厌倦了布达佩斯的喧嚣，想找个更有生活气息和历史厚度的匈牙利老城逛逛，米什科尔茨老城绝对是个惊喜。第一眼看到那些被岁月磨得光滑的鹅卵石街道和色彩柔和的巴洛克建筑外墙，你会感觉时间都慢了下来。这里不像纯粹的旅游区，更像是本地人依然在其中买菜、喝咖啡的生活剧场。空气里混合着新鲜面包的香气和从老咖啡馆飘出的醇厚味道。走在狭窄的巷弄里，不经意抬头就能看到精美的锻铁招牌或斑驳的壁画，那种“发现”的乐趣特别棒。整个氛围是慵懒而真实的，仿佛一位亲切的老者在阳光下讲述着过往。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">说实话，当我第一次站在米什科尔茨老城的边缘时，我有点懵。你想象中的欧洲“老城”，可能是布拉格那种尖塔林立的童话，或是佛罗伦萨那种文艺复兴的磅礴。但这里完全不同。它没有醒目的城墙，没有宏伟的入口，只是几条坡度平缓的街道，两旁是三四层高、墙体斑驳的公寓楼，颜色是那种经年烟尘熏染过的、介于赭石和黄灰之间的暖调。空气里有种特别的味道——不是花香，也不是咖啡香，而是一种旧书、潮湿木头和远处隐约飘来的、老式面包店发酵气味混合在一起的味道。电车的铁轨在石板路间闪着光，叮叮当当地驶过，声音在这不算宽阔的街谷里回荡，显得格外清晰。几个老人坐在长椅上，用你听不懂的匈牙利语缓慢地聊天，脚边放着朴素的布质购物袋。这里的一切，都慢得不像21世纪。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">但正是这种“不像”，成了它最致命的吸引力。米什科尔茨老城不是博物馆里的标本，它是一块仍然在呼吸的城市“伤疤”与“勋章”并存之地。它的美不在于完美，而在于真实。墙皮脱落处露出不同年代的砖石，一栋巴洛克山花装饰的宅子旁边，可能就是一座朴素得只有方窗的工人宿舍楼。这种杂乱无章的拼接，本身就是一部立体的城市自传。阳光透过悬铃木的叶子，在坑洼不平的人行道上投下晃动的光斑，你能看到穿着时髦的年轻人走进巷子里的独立设计店，也能看到主妇们从有着百年历史的肉铺里提着东西出来。生活在这里，从未因“古老”而中断。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">最打动我的，是那种巨大的反差感。米什科尔茨是匈牙利曾经的“钢铁之城”，城外是庞大的工业遗存。而这里，就在离那些冰冷巨人不到几公里的地方，时间仿佛被施了魔法，流速骤然不同。它让你明白，工业化浪潮席卷之下，普通人的家园是如何坚韧地存续，并在每一个窗台的花箱、每一扇擦得锃亮的门把手上，顽强地表达着对“美”和“体面”的追求。这里没有为了游客表演的“中世纪节庆”，只有为了自己而延续的、琐碎而温暖的日常。当你走过这些街道，你触摸的不是历史教科书上某个辉煌的节点，而是一个城市、一代代人实实在在的生活质地，粗粝，温暖，充满人性的力量。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -37,28 +41,31 @@ export default function MiskolcOldTownPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="米什科尔茨老城" />
                 <InfoRow label="英文名称" value="Miskolc Old Town" />
-                <InfoRow label="正式名称" value="Miskolc Old Town" />
+                <InfoRow label="正式名称" value="Miskolc Téglagyár történelmi központja (Historical Centre of Miskolc)" />
                 <InfoRow label="国家" value="匈牙利" />
                 <InfoRow label="城市" value="米什科尔茨" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="" />
-                <InfoRow label="建筑特色" value="" />
-                <InfoRow label="建筑风格" value="" />
-                <InfoRow label="文化价值" value="" />
+                <InfoRow label="历史地位" value="匈牙利北部最重要的工业城市核心区，见证了从中世纪商贸小镇到工业重镇，再到去工业化后文化重塑的完整城市生命轨迹。" />
+                <InfoRow label="建筑特色" value="混杂了巴洛克、古典主义、新艺术风格和简单民间建筑的城镇景观，以暖色调砖石建筑为主，布局紧凑而不规则。" />
+                <InfoRow label="建筑风格" value="折衷主义，以19世纪末20世纪初的 Historicism（历史主义风格）为主，混杂了本土 vernacular（民间）建筑元素。" />
+                <InfoRow label="文化价值" value="一个活着的“平民记忆容器”，不属于王公贵族，而属于工匠、商人、工厂工人，保存了匈牙利 provincial city（外省城市）最真实、未经 tourist-trap（旅游陷阱）粉饰的日常肌理。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="公共区域全天开放。内部历史建筑（如市政厅、博物馆等）开放时间通常为周二至周日 10:00-18:00，周一闭馆。" />
-              <InfoRow label="门票价格" value="漫步老城街道免费。进入各博物馆或历史建筑需单独购票，成人票约1000-2000匈牙利福林（约3-6欧元）。" />
-              <InfoRow label="地址" value="Miskolc, Széchenyi István utca 及周边区域，3525 Hungary" />
-              <InfoRow label="交通方式" value="从布达佩斯李斯特·费伦茨国际机场出发，可乘坐火车直达米什科尔茨（Miskolc-Tiszai火车站），车程约2-2.5小时。从火车站步行至老城核心区约15-20分钟。" />
+              <InfoRow label="开放时间" value="公共区域全天开放。内部的主要历史建筑（如市政博物馆、改革宗教堂）开放时间一般为周二至周日 10:00-18:00，周一闭馆。冬季（11月至3月）部分场馆可能提前至16:00关闭或仅在周末开放，建议行前查询具体场馆官网。圣诞节及新年期间多数室内场馆关闭。" />
+              <InfoRow label="门票价格" value="漫步老城街道免费。市政博物馆门票约1500匈牙利福林（约4欧元），学生及老人享折扣。改革宗教堂免费进入，但欢迎自愿捐款以支持维护。个别临时展览或活动需单独购票。" />
+              <InfoRow label="地址" value="Miskolc, Széchenyi István utca 及周边区域，匈牙利 3525" />
+              <InfoRow label="交通方式" value="从布达佩斯李斯特·费伦茨国际机场出发：最便捷的方式是乘坐机场直达大巴前往米什科尔茨市中心汽车站（Miskolc Autóbusz-állomás），车程约2.5-3小时，每天约有4-6班。或从布达佩斯东站（Budapest-Keleti）乘坐火车，每小时约1-2班快车（InterCity），车程1小时40分钟至2小时。抵达米什科尔茨市中心后，老城（Téglagyár negyed）位于步行范围内，从主火车站（Miskolc Tiszai）或汽车站步行约15-20分钟即可到达核心区，亦可搭乘1路或2路有轨电车在“Széchenyi utca”站下车。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">米什科尔茨老城的故事，可以说是匈牙利北部一部生动的编年史。它的起源可以追溯到中世纪早期，但真正开始繁荣是在14世纪，当时获得了皇家自由城镇的地位。你可以想象一下，几百年前，这里就是商队往来、手工业者聚集的热闹之地。老城在历史上命运多舛，经历了蒙古入侵、土耳其统治时期的破坏，但总能在废墟中重生，这种韧性让人感慨。到了18世纪，巴洛克建筑风潮席卷这里，我们今天看到的许多优雅的联排别墅和市政建筑，都是那个经济文化复兴时期的产物。19世纪，随着工业革命，米什科尔茨发展成为重要的工业中心，老城则保留了其文化和商业核心的角色。走在街上，你能感受到这种层叠的历史感——中世纪的街道布局、巴洛克的立面、19世纪的店铺招牌和谐共存。二战的炮火再次带来了创伤，但战后的修复工作相当用心，努力保留了历史的灵魂而非推倒重来。如今，它不再是权力或财富的中心，却成了城市记忆最温暖的容器，这种身份的转变本身就很有味道。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">米什科尔茨的故事，得从一条河和一个山谷说起。蒂萨河支流蜿蜒流过，这里自古就是交通要道和贸易点。中世纪时，它已经是个热闹的市镇，国王赐予它举办集市的特权，各地的商人带着皮毛、葡萄酒和手工制品在此交换。那时的老城雏形，就是沿着主要贸易路线自然生长出来的居民区和市场，木结构的房子挨挨挤挤，教堂的钟声划定生活的节奏。不过，大火是中世纪城市的常客，米什科尔茨也未能幸免，多次火灾后，人们开始更多地使用砖石，街区的格局也在一次次重建中慢慢固定下来。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">让米什科尔茨命运发生剧变的，是地底下的宝藏和19世纪的工业革命。丰富的森林资源、附近的铁矿，让它成了发展重工业的天选之地。城市像吹气球一样膨胀，人口激增。老城周边建起了巨大的钢铁厂和工人住宅区。而老城本身，则成了新兴中产阶级——工厂经理、商人、律师、医生——展示身份的地方。你现在看到的那些最漂亮的历史主义风格建筑，大多建于这个“镀金时代”。富人们争相聘请建筑师，把当时流行的新巴洛克、新古典主义元素搬上自家宅邸的门面，繁复的灰泥装饰、铸铁的阳台栏杆、气派的门廊，仿佛在互相竞赛。老城的“高光时刻”并非源于王室恩宠，而是源于烟囱里冒出的黑烟和轧钢机的轰鸣，这本身就充满了资本主义时代的戏剧性。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，历史的车轮从未停歇。二十世纪的两次世界大战，尤其是二战末期的激烈战斗，给城市和老城带来了创伤，不少建筑受损。战后，匈牙利进入社会主义时期，米什科尔茨作为工业重镇的地位被进一步加强，但建设重点放在了新城和庞大的工人居住区上。老城，在一定程度上被“冻结”了。资金匮乏，大规模的拆建并未发生，它得以保留了大量战前的建筑风貌，但许多建筑也因为缺乏维护而逐渐破败，那种繁华落寞、新旧杂陈的独特气质，正是在这个时期沉淀下来的。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">九十年代东欧剧变后，随着钢铁工业的衰落，米什科尔茨经历了痛苦的转型。城市一度陷入迷茫。而老城，这个被遗忘的角落，反而迎来了转机。一些有远见的艺术家、年轻创业者和文化保护者开始注意到这里。低廉的租金、真实的氛围和独特的建筑，吸引了画廊、工作室、小众咖啡馆和设计商店悄然入驻。修复是缓慢的、点状的，一栋楼一栋楼地进行，没有大刀阔斧的商业化改造。这种“有机更新”的方式，最大程度地避免了迪士尼化，让老城在焕发新生的同时，没有驱逐原有的居民和生活气息。今天的它，就像一个从容的叙述者，身上的每一道皱纹都写满了故事，从中世纪商贩的吆喝，到工业巨头的野心，再到战火的疮痍与和平时期的沉寂，最终归于一种充满生命力的平静。它不是完美的，但正是这份不完美，构成了它无可替代的、深沉而复杂的魅力。</p>
             </div>
           </Section>
 
@@ -67,37 +74,43 @@ export default function MiskolcOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  推荐从主广场（Széchenyi István tér）的市政厅前出发，沿着Széchenyi街向东北方向漫步，穿梭于连接主街的小巷中，最后抵达Avas山脚下的老街区。全程步行游览约需2-3小时，节奏悠闲，适合边走边看边拍照。
+                  建议在上午十点前后抵达，此时阳光正好能将街道一侧的建筑立面打亮，店铺陆续开门，当地人的生活刚刚开始，游客尚稀。整体游览无需匆忙，预留至少4-5小时用于漫步、探访室内场馆和街头观察。路线呈一个松散的环状，从南侧主街切入，深入北侧的宁静住宅街巷，再绕回中心。这样的节奏能让您先感受主干道的氛围，再沉浸于更本土的侧面街区，最后带着对比的感悟结束。关键在于“闲逛”，允许自己迷路，在那些并非“景点”的普通门洞、庭院前驻足，那往往是惊喜所在。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>老城区域不大，无需专门导航，随意探索小巷更有趣。建议穿一双舒适的平底鞋，鹅卵石路面对高跟鞋不太友好。
+                  <strong>建议：</strong>周末的上午集市时段（约8-12点）主街部分路段可能较为拥挤，但也是观察本地生活的最佳窗口，建议融入其中。
+这里的商家大多诚实，但购买较高价值手工艺品时，还是建议多比较几家巷子深处的工作室，价格往往更实在。
+穿着绝对要舒适，石板路不平且常有坡度，一双好走的鞋比什么都重要。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">1.  从市政厅（Városháza）前的主广场开始，感受老城的中心气场。</p>
+                  <p className="text-sm text-gray-700 mb-2">从人流较多的Széchenyi István utca南端开始，先让感官适应这里混合着电车声、咖啡香和旧书气的独特街景。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">2.  沿着Széchenyi István utca主街漫步，欣赏两侧色彩缤纷的巴洛克式建筑立面。</p>
+                  <p className="text-sm text-gray-700 mb-2">拐进第一条向东的小巷，立刻就能看到建筑立面上那些被时光磨损却依然精美的灰泥浮雕和各式各样的老式店铺招牌。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">3.  拐进Kazinczy utca等小巷，探索隐藏的小型画廊、古董店和传统咖啡馆。</p>
+                  <p className="text-sm text-gray-700 mb-2">一定要推开市政博物馆那扇厚重的大门，里面关于城市工业历史的展览会用最直观的方式告诉你窗外这片街区的由来。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">4.  参观奥特沃什·约瑟夫博物馆，了解城市与地区的自然历史。</p>
+                  <p className="text-sm text-gray-700 mb-2">在改革宗教堂静坐片刻，听管风琴若有似无的试音声在空旷的厅堂里回荡，感受与外面市井截然不同的宁静。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">5.  走向Avas山方向，看看山坡上更古老的民居和圣史蒂芬教堂（Szent István-templom）。</p>
+                  <p className="text-sm text-gray-700 mb-2">找一家本地人排队的“cukrászda”（甜品店），点一份经典的“多尔什”蛋糕，坐在临窗位置看街景如默片般流过。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">6.  在Avasi广场附近找家露天咖啡馆休息，观察本地人的生活。</p>
+                  <p className="text-sm text-gray-700 mb-2">向北漫步到Avas山脚下的住宅区，这里的街道更窄更静，观察阳台上盛开的天竺葵和门口擦得锃亮的门铃，那是老城居民的生活美学。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在黄昏前回到主街，光线变得金黄柔和，找一家有户外座位的“kávéház”（传统咖啡馆），点一杯匈牙利红酒，看电车拖着光影驶入暮色。</p>
                 </div>
               </div>
             </div>
@@ -107,22 +120,22 @@ export default function MiskolcOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  Széchenyi街中段</h4>
-                  <p className="text-sm text-gray-700">最佳拍摄时间为清晨或午后阳光斜射时。从街道一侧拍摄另一侧连续的巴洛克建筑立面，利用延伸的街道线条和柔和的光影，营造出深邃的历史感。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. Széchenyi utca与Kossuth Lajos utca交汇的路口</h4>
+                  <p className="text-sm text-gray-700">下午四点后的侧光能将两排建筑的门廊雕花和电车轨道照得立体感十足，等待一辆复古造型的电车入框。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  市政厅钟楼视角</h4>
-                  <p className="text-sm text-gray-700">如果钟楼开放，登顶后可拍摄老城红色屋顶全景与远处Avas山的同框画面，层次感极佳。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 市政博物馆背后的内院</h4>
+                  <p className="text-sm text-gray-700">这里很少有人进入，午后阳光会斜射进院落，拍摄斑驳的黄色墙面、生锈的消防楼梯和悬挂的衣物，充满生活叙事感。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  某条小巷的入口</h4>
-                  <p className="text-sm text-gray-700">选择一条有特色招牌或鲜花的狭窄巷弄入口，拍摄人物走入画面的背影，能生动传达“探索”的意境。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. Avas山腰的居民楼梯巷</h4>
+                  <p className="text-sm text-gray-700">清晨或黄昏，从较低的位置仰拍蜿蜒向上的石阶和老房子错落的屋顶，能拍出极具纵深感和烟火气的画面。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. 4.  Avas山坡民居前</h4>
-                  <p className="text-sm text-gray-700">下午时分，从稍高的位置回拍老城部分屋顶和教堂尖顶，前景是古朴的民居墙壁，构图富有生活气息。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 改革宗教堂内部彩窗光影</h4>
+                  <p className="text-sm text-gray-700">晴朗日子的正午前后，阳光穿透彩色玻璃，在地面投下绚丽光斑，站在中殿侧面捕捉教徒祈祷的剪影与光影的对话。</p>
                 </div>
               </div>
 
@@ -131,7 +144,7 @@ export default function MiskolcOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 尊重当地居民隐私，拍摄民居门窗或院内景物时需格外注意。雨天后的鹅卵石街道反光时拍照也别有韵味。</li>
+                <li>• 拍摄居民和店铺内部前，请务必用微笑和简单手势征求同意，匈牙利人通常较为含蓄但友善。避免使用闪光灯惊扰教堂内祷告的人。老城夜景灯光有限，带上三脚架能更好地捕捉电车光轨和暖窗灯火。</li>
               </ul>
             </div>
           </Section>
@@ -140,27 +153,32 @@ export default function MiskolcOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">1.  经济之选</h4>
-                  <p className="text-sm text-blue-800">老城边缘或火车站附近的精品旅馆或公寓，价格亲民，交通便利。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">怀旧风格民宿</h4>
+                  <p className="text-sm text-blue-800">住在老城一栋19世纪末公寓楼的三层，房东老奶奶会为你准备手工果酱早餐，房间有着高高的天花板和吱呀作响但韵味十足的原木地板。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">2.  舒适之选</h4>
-                  <p className="text-sm text-green-800">位于老城核心区或Széchenyi街上的三星级酒店，开窗即是历史景观，体验沉浸感。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">设计型公寓</h4>
+                  <p className="text-sm text-green-800">由旧诊所改造的LOFT公寓，裸露的砖墙搭配斯堪的纳维亚风格的家具，巨大的窗户正对宁静的内庭，是艺术青年的最爱。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">3.  特色之选</h4>
-                  <p className="text-sm text-yellow-800">Avas山脚下的经过改造的传统民宿，环境安静，能体验更地道的居住氛围。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">精品酒店体验</h4>
+                  <p className="text-sm text-yellow-800">位于老城边缘一栋经过极致修复的新艺术风格宅邸，每间客房主题不同，浴室保留了古老的瓷砖图案，楼下的餐厅是本地美食家聚集地。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">经济首选</h4>
+                  <p className="text-sm text-purple-800">主火车站附近由家族经营的简约 pension（膳宿公寓），房间干净明亮，步行到老城仅十分钟，老板能提供最地道的本地活动资讯。</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">旺季（夏季和圣诞季）建议提前预订。住在老城内意味着夜晚和清晨可以独享宁静无人的街道，体验感大幅提升。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">老城核心区夜晚非常安静，是体验“沉睡古城”氛围的绝佳选择，但深夜餐饮选择较少。治安总体良好，但与其他欧洲城市一样，需保管好随身物品。旺季（夏季 festivals 期间）住宿紧俏，建议提前数周预订，平季前往性价比极高。</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">米什科尔茨老城没有令人屏息的绝世景观，它的魅力在于那种不张扬的、渗入日常的历史感。它像一个仍然跳动着的古老心脏，让你在漫步中自然而然地与过去相连。如果你喜欢在旅行中感受真实的生活脉搏，而不仅仅是打卡地标，那么这里温润的时光和友善的氛围，会给你留下一段非常踏实而美好的记忆。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">离开米什科尔茨老城好些天了，但我总时不时想起那里下午的光线，想起电车叮当声里夹杂着的、某扇窗户内飘出的炖菜香味。它没有给我那种目睹世界奇观后的剧烈震撼，而是像一滴浓稠的、温热的蜜，慢慢渗进记忆的缝隙里。在这个追求“网红打卡”和“极致体验”的旅行时代，这里显得如此“不合时宜”。它不讨好你，不试图把自己包装成明信片，它只是坦然地将自己的皱纹、伤疤和依然跳动的心脏展示给你看。这种诚实，反而成了最奢侈的礼物。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">我想，旅行的意义之一，或许就是去触碰这种“真实”的质地。米什科尔茨老城教会我，历史不仅是宫殿和战场，更是千万普通人的谋生、建造、相爱、失去与坚守。走在它的街道上，你仿佛能听见砖石的低语，那是钢铁时代的轰鸣远去后，生活本身发出的、沉稳而绵长的呼吸。它告诉我们，一个地方的灵魂，不在于它有多么辉煌的过去，而在于它如何承载时间的一切馈赠与创伤，并依然顽强地、充满尊严地生活下去。对于厌倦了浮光掠影、渴望与一个地方进行深度精神对话的旅人而言，米什科尔茨老城不是景点，它是一个值得你坐下来，花上一整天，静静倾听的、活生生的故事。这个故事关于韧性，关于记忆，关于在变迁中如何定义“家”。听完之后，你对自己脚下的土地和生活，或许也会多一分温柔的凝视。</p>
             </div>
           </Section>
         </div>

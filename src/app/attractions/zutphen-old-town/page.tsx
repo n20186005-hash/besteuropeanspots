@@ -4,8 +4,9 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '聚特芬古城 Zutphen Old Town｜漫步中世纪汉萨同盟的时光回廊 - 最佳欧洲景点',
-  description: '走进聚特芬古城，就像不小心翻开了荷兰历史书中保存最完好的一页。这里没有阿姆斯特丹的喧嚣，时间仿佛被古老的城墙和鹅卵石街道按下了慢放键。我的第一印象是“宁静的富有”——作为曾经的汉萨同盟重要成员，那些山形墙的商人豪宅、高耸的教堂塔楼，无不诉说着它昔日的繁荣，但如今一切都沉淀为一种优雅从容的气质。我最爱...',
+  title: '聚特芬古城 Zutphen Old Town｜漫步在时间静止的汉萨中世纪古城，聆听运河与鹅卵石的低语 - 最佳欧洲景点',
+  description: '从聚特芬火车站拖着行李箱走出来，迎接你的不是什么现代都市的喧嚣，而是一阵带着青草与河水气息的微风。抬眼望去，一道古老的城墙残垣和一座圆筒形的塔楼就静静地立在街对面，仿佛时间在这里打了个盹儿，忘了向前走。这就是你与聚特芬古城的初次照面——没有夸张的欢迎仪式，只有一种沉稳的、带着砖石温度的存在感。
+跟着...',
 }
 
 export default function ZutphenOldTownPage() {
@@ -23,13 +24,19 @@ export default function ZutphenOldTownPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">聚特芬古城・Zutphen Old Town・荷兰・聚特芬</h1>
           <p className="text-lg text-gray-600 mb-6">
-            走进聚特芬古城，就像不小心翻开了荷兰历史书中保存最完好的一页。这里没有阿姆斯特丹的喧嚣，时间仿佛被古老的城墙和鹅卵石街道按下了慢放键。我的第一印象是“宁静的富有”——作为曾经的汉萨同盟重要成员，那些山形墙的商人豪宅、高耸的教堂塔楼，无不诉说着它昔日的繁荣，但如今一切都沉淀为一种优雅从容的气质。我最爱在伯恩霍夫广场（Bornhov）附近闲逛，看着运河静静流淌，倒映着砖红色房屋的倩影，偶尔有当地人骑着自行车叮铃铃地经过，那份日常与历史的交融感，特别治愈。
+            从聚特芬火车站拖着行李箱走出来，迎接你的不是什么现代都市的喧嚣，而是一阵带着青草与河水气息的微风。抬眼望去，一道古老的城墙残垣和一座圆筒形的塔楼就静静地立在街对面，仿佛时间在这里打了个盹儿，忘了向前走。这就是你与聚特芬古城的初次照面——没有夸张的欢迎仪式，只有一种沉稳的、带着砖石温度的存在感。
+跟着导航，或者干脆关掉它，任由自己被那些狭窄的、用光滑鹅卵石铺成的小巷牵引。你的脚步声在这里变得异常清晰，咔嗒、咔嗒，混着远处隐约的教堂钟声。转过一个弯，视线豁然开朗，你站在了市场广场上。四周是颜色温暖、山形墙立面各异的砖楼，它们不高，却有种敦实的美感。广场一角露天咖啡馆的遮阳篷下，几个老爷爷正慢悠悠地喝着咖啡，他们的自行车就随意地靠在旁边的灯柱上。空气里有新烤华夫饼的甜香，混合着旁边花摊传来的淡淡芬芳。这里不是舞台布景，这就是当地人生活的客厅，而你，正小心翼翼地走在他们的地毯上。
+真正让你屏住呼吸的时刻，是当你穿过一道低矮的拱门，突然与艾瑟尔河的一条古老支流——伯克运河面对面的时候。河水是墨绿色的，几乎静止，完美地倒映着两岸成排的、有着阶梯式山墙的古老房屋。梧桐树的枝叶垂到水面上，几只鸭子和天鹅悠闲地划过，漾开一圈圈细微的涟漪。没有威尼斯运河的华丽，也没有阿姆斯特丹运河的繁忙，这里的运河是沉静的、私语的，像一条穿过城市心脏的绿色静脉，把几个世纪的宁静都沉淀在了水底。你会忍不住在河边的长椅上坐下，什么也不做，只是看光影在砖墙和水面上缓慢移动。
+而这座古城最打动人心的核心魅力，正是这种“被完整保存下来的日常史诗”。它没有因为成为旅游地而丢失灵魂。药店的橱窗里依然陈列着古老的药罐，面包房传出的是真正新鲜面包的焦香，书店的老板会向你推荐一本关于本地历史的册子。走在街上，你指尖划过的是真实的、被风雨打磨了数百年的砖缝。这里的一切都在低声诉说：历史从未远去，它就活在每一扇门后的生活里，活在每一块被脚步磨亮的石头中。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">走进聚特芬古城，就像不小心翻开了荷兰历史书中保存最完好的一页。这里没有阿姆斯特丹的喧嚣，时间仿佛被古老的城墙和鹅卵石街道按下了慢放键。我的第一印象是“宁静的富有”——作为曾经的汉萨同盟重要成员，那些山形墙的商人豪宅、高耸的教堂塔楼，无不诉说着它昔日的繁荣，但如今一切都沉淀为一种优雅从容的气质。我最爱在伯恩霍夫广场（Bornhov）附近闲逛，看着运河静静流淌，倒映着砖红色房屋的倩影，偶尔有当地人骑着自行车叮铃铃地经过，那份日常与历史的交融感，特别治愈。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">从聚特芬火车站拖着行李箱走出来，迎接你的不是什么现代都市的喧嚣，而是一阵带着青草与河水气息的微风。抬眼望去，一道古老的城墙残垣和一座圆筒形的塔楼就静静地立在街对面，仿佛时间在这里打了个盹儿，忘了向前走。这就是你与聚特芬古城的初次照面——没有夸张的欢迎仪式，只有一种沉稳的、带着砖石温度的存在感。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">跟着导航，或者干脆关掉它，任由自己被那些狭窄的、用光滑鹅卵石铺成的小巷牵引。你的脚步声在这里变得异常清晰，咔嗒、咔嗒，混着远处隐约的教堂钟声。转过一个弯，视线豁然开朗，你站在了市场广场上。四周是颜色温暖、山形墙立面各异的砖楼，它们不高，却有种敦实的美感。广场一角露天咖啡馆的遮阳篷下，几个老爷爷正慢悠悠地喝着咖啡，他们的自行车就随意地靠在旁边的灯柱上。空气里有新烤华夫饼的甜香，混合着旁边花摊传来的淡淡芬芳。这里不是舞台布景，这就是当地人生活的客厅，而你，正小心翼翼地走在他们的地毯上。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">真正让你屏住呼吸的时刻，是当你穿过一道低矮的拱门，突然与艾瑟尔河的一条古老支流——伯克运河面对面的时候。河水是墨绿色的，几乎静止，完美地倒映着两岸成排的、有着阶梯式山墙的古老房屋。梧桐树的枝叶垂到水面上，几只鸭子和天鹅悠闲地划过，漾开一圈圈细微的涟漪。没有威尼斯运河的华丽，也没有阿姆斯特丹运河的繁忙，这里的运河是沉静的、私语的，像一条穿过城市心脏的绿色静脉，把几个世纪的宁静都沉淀在了水底。你会忍不住在河边的长椅上坐下，什么也不做，只是看光影在砖墙和水面上缓慢移动。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">而这座古城最打动人心的核心魅力，正是这种“被完整保存下来的日常史诗”。它没有因为成为旅游地而丢失灵魂。药店的橱窗里依然陈列着古老的药罐，面包房传出的是真正新鲜面包的焦香，书店的老板会向你推荐一本关于本地历史的册子。走在街上，你指尖划过的是真实的、被风雨打磨了数百年的砖缝。这里的一切都在低声诉说：历史从未远去，它就活在每一扇门后的生活里，活在每一块被脚步磨亮的石头中。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -37,29 +44,32 @@ export default function ZutphenOldTownPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="聚特芬古城" />
                 <InfoRow label="英文名称" value="Zutphen Old Town" />
-                <InfoRow label="正式名称" value="Zutphen Old Town" />
+                <InfoRow label="正式名称" value="Historic Centre of Zutphen" />
                 <InfoRow label="国家" value="荷兰" />
                 <InfoRow label="城市" value="聚特芬" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="" />
-                <InfoRow label="建筑特色" value="" />
-                <InfoRow label="建筑风格" value="" />
-                <InfoRow label="文化价值" value="" />
+                <InfoRow label="历史地位" value="曾是强大的“汉萨同盟”重要成员和坚固的贸易与防御要塞，被誉为“艾瑟尔河上的珍宝”。" />
+                <InfoRow label="建筑特色" value="保存极其完好的中世纪街道肌理与防御工事体系，与宁静的运河、古老的桥梁和密集的带山形墙的砖砌房屋和谐共生。" />
+                <InfoRow label="建筑风格" value="以中世纪和文艺复兴时期的砖砌哥特式建筑为主，混杂着后期修复的古典主义元素，整体风格统一而古朴。" />
+                <InfoRow label="文化价值" value="一座“活生生的”中世纪城市博物馆，其街巷布局与建筑群落完整展现了荷兰黄金时代之前北方商业城市的原真风貌与生活节奏。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="古城公共区域全天开放。城内主要历史建筑（如圣瓦尔堡教堂、市政厅）开放时间通常为周二至周六 11:00-17:00，周日 13:00-17:00，周一可能关闭或缩短开放时间。" />
-              <InfoRow label="门票价格" value="进入古城免费。参观具体历史建筑需单独购票，例如圣瓦尔堡教堂门票约5欧元，市政厅博物馆门票约6欧元。" />
-              <InfoRow label="地址" value="Zutphen City Center, 7201 DN Zutphen, Netherlands" />
-              <InfoRow label="交通方式" value="从阿姆斯特丹史基浦机场出发，乘坐火车至聚特芬站（Zutphen Station），车程约1小时15分钟。从火车站步行至古城中心仅需5-10分钟。" />
+              <InfoRow label="开放时间" value="古城公共区域全天24小时开放。城内主要景点如圣瓦尔堡教堂开放时间为周一至周六10:00-17:00，周日13:00-17:00（冬季可能缩短）。市立博物馆开放时间为周二至周日11:00-17:00。具体景点开放时间常有微调，建议出行前在官网确认。古城在圣诞节和新年当天，大部分室内景点关闭。" />
+              <InfoRow label="门票价格" value="漫步古城街区本身完全免费。进入圣瓦尔堡教堂需支付约8欧元门票，市立博物馆门票约12欧元。持有荷兰博物馆卡可免费进入大部分博物馆。教堂和博物馆通常对学生、65岁以上老人提供优惠票价，具体折扣请现场查询。" />
+              <InfoRow label="地址" value="Historic Centre, 7201 DN Zutphen, The Netherlands" />
+              <InfoRow label="交通方式" value="从阿姆斯特丹史基浦机场出发最便捷。在机场火车站直接乘坐开往代芬特尔方向的区间列车，约1小时10分钟即可直达聚特芬火车站，班次频繁，约每半小时一班。建议使用OV-chipkaart（荷兰公共交通卡）或直接购买电子票。从火车站出站后，步行5分钟即可进入古城核心区。如果自驾，可将车停在古城边缘的“Stadhuis”或“Mars”停车场，然后步行游览。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">聚特芬的故事始于大约公元800年左右的一个河畔定居点，“聚特芬”这个名字本身就源于“南方的港口”。到了11世纪，它已经发展成一个有模有样的城镇，并建起了最初的防御工事。真正让聚特芬起飞的是加入汉萨同盟，大约是14世纪的事。想象一下，当时来自欧洲各地的商品——毛皮、布料、葡萄酒，在这里的码头装卸，商人们用低地德语讨价还价，那场面一定热闹非凡。财富积累起来，就变成了我们眼前这些漂亮的晚期哥特式建筑，比如圣瓦尔堡教堂，它的图书馆里至今还藏着中世纪的手链书，走进去那股羊皮纸和旧木头的气味，简直像穿越。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">不过历史也有残酷的一面，1572年西班牙军队的围攻和洗劫（被称为“聚特芬之怒”）几乎摧毁了城市。但荷兰人又把它重建了起来，那些带阶梯山墙的房屋很多都是黄金时代（17世纪）的产物。有趣的是，它后来似乎“睡着了”，工业化的大潮没有完全改变它的面貌，反而意外地让它保存了中世纪的街道格局。所以今天我们才能如此完整地触摸到这段层叠的历史，从汉萨同盟的荣光到黄金时代的余晖，都凝固在这些砖石之间。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">聚特芬的故事，得从罗马人说起，不过那时候它还只是艾瑟尔河畔的一个小小定居点。真正让它登上历史舞台的，是11世纪。一位主教大人看中了这个河畔要地，在此修建了一座坚固的城堡，聚特芬开始从一个村庄向着城镇蜕变。石头垒起的城墙和护城河保护着最初的居民，城市围绕着城堡和后来建起的圣瓦尔堡教堂慢慢生长开来。到了13世纪，它拿到了城市特许状，这意味着可以建立市场、收税，拥有更大的自治权，就像一个少年拿到了成年的身份证，开始闯荡世界。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">它的黄金时代，与一个响亮的名字紧密相连——“汉萨同盟”。想象一下，14、15世纪的北欧和波罗的海，一个由众多商业城市组成的强大联盟，共同制定贸易规则，分享航线，互相保护。聚特芬凭借其优越的河运位置（艾瑟尔河直通北海）和逐渐积累的财富，成功跻身这个“中世纪欧盟”的核心成员之列。那时的码头边，堆满了来自英格兰的羊毛、挪威的木材、俄罗斯的毛皮，还有本地盛产的啤酒和布料。商人们的钱袋叮当作响，城市财富暴涨，一座座精美的砖砌豪宅拔地而起，教堂被扩建得越发宏伟。那是一个充满机会与冒险气息的时代，聚特芬的脉搏与整个北欧的贸易网络同步跳动。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，财富总是伴随着觊觎。位于战略要冲的聚特芬，不可避免地卷入了无休止的战争。最惨烈的一页发生在1586年，西班牙军队在长达数月的围攻后，终于攻破了城墙。城市遭到洗劫，大火吞噬了无数房屋，人口锐减。但聚特芬就像河岸边的芦苇，坚韧无比。战争结束后，人们又回来了，用同样的砖石，在废墟上按照原来的街道布局，一砖一瓦地重建家园。你如今看到的许多“古老”房屋，其实都藏着那次重生后的文艺复兴式门楣和山墙。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">17世纪，荷兰共和国崛起，但聚特芬的战略重要性并未下降。它被改造成为一个坚固的堡垒城市，我们今天看到的星形堡垒遗迹、厚重的城门（如迪伦堡门）和错综复杂的城墙体系，大多源自这个时期。军事工程师们用最先进的设计，为古城套上了一层坚硬的“盔甲”。有趣的是，这身盔甲在后来相对和平的岁月里，反而成了一种束缚，限制了城市向外扩张，却也阴差阳错地将中世纪的核心城区完美地封存了起来，免受现代开发的侵蚀。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">时光流转到近现代，当很多古城在工业化浪潮中改头换面时，聚特芬选择了一条不同的路。二战后，荷兰开展了大规模的城市修复与保护运动。聚特芬人没有大拆大建，而是极其审慎地对待每一栋老建筑。他们清理了河道，加固了地基，修复了砖墙，但坚决保留了那些弯曲的小巷和看似不规则的广场。他们的理念不是制造一个博物馆标本，而是维护一个能继续呼吸、生活的历史有机体。于是，你今天才能看到，药店、学校、民宅和咖啡馆，依然理所当然地坐落在有500年历史的建筑里。这份跨越数个世纪的坚守与智慧，才是聚特芬古城留给世界最宝贵的遗产。</p>
             </div>
           </Section>
 
@@ -68,37 +78,45 @@ export default function ZutphenOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  推荐从古城南端的聚特芬火车站开始，步行向北穿越核心区，终点可以设在北部的公园或城墙遗址。全程步行约2-3小时，轻松悠闲，能覆盖主要广场、教堂和风景如画的运河区。
+                  要彻底品味聚特芬，建议预留完整的一天。最佳抵达时间是早上9点前，此时游客稀少，晨光温柔地斜照在砖墙上，是拍照和感受古城苏醒氛围的黄金时段。整体游览节奏宜慢不宜快，核心是“漫步”与“偶遇”。路线设计为一个环线，从火车站开始，也结束于火车站，全程步行约6-8小时，包含多次咖啡馆歇脚和深入参观1-2个室内景点。这样安排既能系统性地覆盖所有地标，又留有足够的弹性让你随心探索那些迷人的小巷角落。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>古城不大，完全不需要地图，随心所欲地迷路是最好的游览方式。记得穿一双舒适的平底鞋，鹅卵石路面虽然很有情调，但对高跟鞋不太友好。
+                  <strong>建议：</strong>一定要穿一双绝对舒适的平底鞋，古城内几乎全是凹凸不平的原始鹅卵石路面，高跟鞋在这里是“灾难”。大部分小商店和咖啡馆更倾向于接受现金或本地银行卡，备一些欧元现金非常实用。周日许多独立小店和博物馆可能开放时间较短或休息，但餐厅和主要教堂通常开放，规划行程时需留意。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">1.  从火车站步行至古老的伯恩霍夫广场，感受古城入口的氛围。</p>
+                  <p className="text-sm text-gray-700 mb-2">从火车站西侧出口出来，直接走向那座醒目的中世纪城墙遗迹和圆形的“布尔波特”塔楼，用手触摸冰冷粗糙的砖石，开启你的时光之旅。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">2.  参观宏伟的圣瓦尔堡教堂及其著名的中世纪图书馆。</p>
+                  <p className="text-sm text-gray-700 mb-2">沿着“阿姆斯特丹门街”漫步，让两侧颜色各异、山形墙争奇斗艳的17世纪商人豪宅将你缓缓引向古城跳动的心脏——市场广场。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">3.  漫步到旧市政厅和肉市广场，欣赏周围的商人豪宅。</p>
+                  <p className="text-sm text-gray-700 mb-2">在市场广场驻足，抬头仰望圣瓦尔堡教堂高耸入云的尖塔，然后绕到教堂侧面，从它那扇著名的、拥有精美中世纪木雕的北门进入内部。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">4.  沿着运河（如伯克运河）散步，看水中倒映的美丽山形墙房屋。</p>
+                  <p className="text-sm text-gray-700 mb-2">在教堂内感受完空间的肃穆后，从南侧出口离开，立刻步入一个静谧的绿洲——伯恩霍夫修道院回廊，在古老拱廊下的花园长椅上安静地坐一会儿。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">5.  寻找残留的古城墙和城门（如布尔城门），了解城市的防御历史。</p>
+                  <p className="text-sm text-gray-700 mb-2">沿着修道院旁的“啤酒港”运河散步，看天鹅在墨绿色的水面上划行，寻找水中那些古老山墙的完美倒影。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">6.  在古城小巷中随意探索，发现隐藏的庭院和小店。</p>
+                  <p className="text-sm text-gray-700 mb-2">钻入运河后方迷宫般的“酿酒厂小巷”区域，在狭窄得几乎只能一人通过的鹅卵石小径间迷失，邂逅那些隐藏的庭院和小花园。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">前往古城东侧的“迪伦堡”区域，爬上古老的城墙土坡，从另一个视角俯瞰城市屋顶的海洋和远处的艾瑟尔河。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在晚餐时分回到市场广场或运河边，选择一家有露天座位的餐厅，看着广场灯光渐次亮起，享受一顿温暖的荷兰风味晚餐作为完美收官。</p>
                 </div>
               </div>
             </div>
@@ -108,18 +126,28 @@ export default function ZutphenOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  伯克运河桥梁上</h4>
-                  <p className="text-sm text-gray-700">最佳拍摄时间为清晨或傍晚金色时刻。从桥中央向两侧拍摄，可以将运河、古老的房屋立面及其完美的水中倒影一同纳入镜头，画面宁静而对称。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 伯克运河与古城墙转角处</h4>
+                  <p className="text-sm text-gray-700">清晨或傍晚，站在“啤酒港”小桥的西端，将蜿蜒的运河、水中的房屋倒影与背景上厚重的古城墙一同收入镜中，构图饱满而富有层次。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  肉市广场望向圣瓦尔堡教堂</h4>
-                  <p className="text-sm text-gray-700">下午阳光照亮教堂塔楼时最佳。以广场上的古老建筑为前景，拍摄高耸的教堂塔楼，能体现古城的层次感和历史厚重感。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 圣瓦尔堡教堂尖塔仰拍</h4>
+                  <p className="text-sm text-gray-700">正午阳光充沛时，躺在市场广场的鹅卵石地面上（选个干净角落！），用超广角镜头向上拍摄，捕捉尖塔直插蓝天的震撼透视感。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  古城小巷深处</h4>
-                  <p className="text-sm text-gray-700">晴天正午光线直射时最佳。捕捉阳光洒在鹅卵石路上、照亮砖墙和彩色窗框的细节，富有生活气息和光影美感。</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 酿酒厂小巷的鹅卵石小径</h4>
+                  <p className="text-sm text-gray-700">下午三四点，阳光能斜射入狭窄巷道时，聚焦于脚下被岁月磨得发亮的鹅卵石路面和两侧斑驳的砖墙，拍出极具质感和纵深感的故事性画面。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 市场广场市政厅立面</h4>
+                  <p className="text-sm text-gray-700">华灯初上时的“蓝色时刻”，市政厅的灯光亮起而天空尚有深蓝色余晖，使用三脚架长曝光，拍下建筑温暖灯光与冷调天空的对比，氛围感十足。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 伯恩霍夫修道院回廊拱门</h4>
+                  <p className="text-sm text-gray-700">选择一个阳光明媚的上午，站在回廊一角，让阳光穿过一排连续的拱门，形成强烈的明暗交替与光影长廊，人物剪影走过时按下快门最佳。</p>
                 </div>
               </div>
 
@@ -128,7 +156,7 @@ export default function ZutphenOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 尊重当地居民隐私，避免对着居民窗户近距离拍摄。雨天后的鹅卵石路面反光也很美，是另一种风味。</li>
+                <li>• 荷兰的天气变幻莫测，善用阴天均匀柔和的光线拍摄建筑细节和街道场景，常能获得色彩饱和、情绪浓郁的作品。拍摄居民窗户和私人庭院时请务必保持尊重，不要将镜头伸过栅栏或打扰他人隐私，荷兰人注重私人空间。</li>
               </ul>
             </div>
           </Section>
@@ -137,31 +165,32 @@ export default function ZutphenOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">1.  预算之选</h4>
-                  <p className="text-sm text-blue-800">古城边缘的B&B或小型酒店，价格亲民，体验本地生活。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">运河畔的精品设计酒店</h4>
+                  <p className="text-sm text-blue-800">由一栋17世纪运河屋改造，房间拥有裸露的原始木梁和现代设计家具，推开窗就是潺潺流水与天鹅，早餐是当地有机食材。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">2.  中档舒适</h4>
-                  <p className="text-sm text-green-800">选择位于伯恩霍夫广场或主广场附近的精品酒店，出行极其方便，开窗即是历史景观。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">藏身历史建筑的家庭民宿</h4>
+                  <p className="text-sm text-green-800">位于酿酒厂小巷静谧深处，房东是一对老夫妇，会为你准备丰盛的荷式早餐，并分享许多地图上找不到的本地故事。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">3.  特色体验</h4>
-                  <p className="text-sm text-yellow-800">入住由历史建筑改造的酒店或公寓，感受住在文物中的独特氛围。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">艾瑟尔河畔的庄园酒店</h4>
+                  <p className="text-sm text-yellow-800">位于古城对岸，需步行过桥，但拥有俯瞰整个古城天际线的无敌视野，房间宽敞典雅，带一个迷人的沿河花园。</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">4.  家庭/多人</h4>
-                  <p className="text-sm text-purple-800">考虑租赁运河边的度假屋，空间更大，更有居家感。</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">老城广场旁的舒适旅馆</h4>
+                  <p className="text-sm text-purple-800">地理位置绝佳，就在市场广场角落，由几栋联排老房子打通而成，楼梯狭窄但房间温馨，下楼就能融入古城的夜晚生活。</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">聚特芬非常安静，住在古城中心也不会受到噪音困扰，反而能享受清晨和夜晚无人时的绝美景色。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">聚特芬治安极好，夜间独行也完全安心。选择住在最核心的古城区内，虽然可能遇到老房子隔音稍差和楼梯陡峭的情况，但能获得沉浸式的体验。夏季旅游旺季和周末，这些特色住宿非常紧俏，务必提前数月预订。</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">聚特芬古城就像一个低调而内涵丰富的朋友，它不会用喧嚣吸引你，但只要你愿意慢下脚步，走进它的街巷，就能感受到那份历经岁月沉淀的从容与优雅。这里保存的不是冰冷的遗迹，而是一种依然在呼吸的中世纪生活氛围。如果你厌倦了人潮汹涌的热门景点，渴望一段真正宁静、能和历史对话的漫步，那么聚特芬绝对不会让你失望。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">离开聚特芬许久，我发现自己最怀念的，不是某个具体的建筑，而是那种弥漫在空气中、踩在脚下的“从容”。在这个一切都被加速的时代，聚特芬固执地保持着自己的步调。它的时钟，似乎还以运河水流的速度、以教堂钟声的间隔在走动。在这里，你会不由自主地放慢脚步，压低声音，因为你感觉自己不仅仅是一个游客，更像是一个偶然闯入了另一段时空的拜访者，生怕自己的匆忙惊扰了这里的宁静。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">所以，如果你厌倦了那些被旅游大巴塞满、充斥着纪念品商店的“古镇”，如果你渴望的是一次真正能与历史对话、能让自己内心沉静下来的旅行，那么请一定来聚特芬看看。它不会用惊艳的奇观轰炸你，却会用每一块温润的鹅卵石、每一面斑驳的砖墙、每一扇映着灯光的窗户，温柔地包裹你。它教会我们，真正的遗产保护，不是把历史锁在玻璃柜里，而是让它继续在人们的日常生活里呼吸、生长。这趟旅程，最终会成为你记忆里一处安静的角落，每当感到喧嚣浮躁时，你可以随时回去，在那条运河边的长椅上，再坐一会儿。</p>
             </div>
           </Section>
         </div>

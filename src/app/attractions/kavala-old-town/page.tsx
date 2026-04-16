@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '卡瓦拉老城 Kavala Old Town｜漫步在奥斯曼风情的“蓝色之城” - 最佳欧洲景点',
-  description: '想象一下，你正沿着鹅卵石小路向上攀登，两边是刷成各种柔和色调的房子，阳台上垂挂着九重葛。空气中混合着海风的咸味和咖啡的香气。这里就是卡瓦拉老城，一个层层叠叠建在山坡上的迷宫。它不像圣托里尼那样满是游客，反而有种慵懒、真实的地中海生活气息。你会路过小小的东正教堂，也会看到奥斯曼时期留下的清真寺宣礼塔，...',
+  title: '卡瓦拉老城 Kavala Old Town｜爱琴海与巴尔干交汇处的奥斯曼古镇，漫步在时光停驻的彩色街巷与雄伟水渠之下 - 最佳欧洲景点',
+  description: '第一眼看到卡瓦拉老城，你会觉得它不像一个景点，更像一个从山腰上自然生长出来的、五彩斑斓的梦境。我从港口边的现代街道抬头望去，整片老城如同一个巨大的、依山而建的蜂巢，那些白色、黄色、淡粉色的房子密密麻麻又错落有致地紧贴着山坡，一直延伸到山顶那座威严城堡的脚下。最震撼的是，一道拥有60个拱门的巨大高架水...',
 }
 
 export default function KavalaOldTownPage() {
@@ -23,13 +23,17 @@ export default function KavalaOldTownPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">卡瓦拉老城・Kavala Old Town・希腊・卡瓦拉</h1>
           <p className="text-lg text-gray-600 mb-6">
-            想象一下，你正沿着鹅卵石小路向上攀登，两边是刷成各种柔和色调的房子，阳台上垂挂着九重葛。空气中混合着海风的咸味和咖啡的香气。这里就是卡瓦拉老城，一个层层叠叠建在山坡上的迷宫。它不像圣托里尼那样满是游客，反而有种慵懒、真实的地中海生活气息。你会路过小小的东正教堂，也会看到奥斯曼时期留下的清真寺宣礼塔，历史在这里安静地交融。爬到顶端，突然，爱琴海的全景在你眼前铺开，那种豁然开朗的感觉，就是旅途中最棒的奖赏。这里节奏很慢，适合迷路，也适合发呆。
+            第一眼看到卡瓦拉老城，你会觉得它不像一个景点，更像一个从山腰上自然生长出来的、五彩斑斓的梦境。我从港口边的现代街道抬头望去，整片老城如同一个巨大的、依山而建的蜂巢，那些白色、黄色、淡粉色的房子密密麻麻又错落有致地紧贴着山坡，一直延伸到山顶那座威严城堡的脚下。最震撼的是，一道拥有60个拱门的巨大高架水渠——卡玛雷斯，像一条灰白色的石龙，横亘在山脚与城区之间，它既是历史的丰碑，又奇妙地成了现代交通的通道，汽车就在那些古老的拱门下穿行。
+爬上第一段宽阔的石阶，喧嚣的港口海风瞬间被过滤掉了。取而代之的，是弥漫在狭窄巷道里的、复杂而迷人的气味：某户人家窗口飘出的炖煮羊肉的香味，混合着九重葛花丛甜腻的气息，还有老房子木头被午后阳光晒过后散发出的、略带暖意的陈旧味道。脚下是光滑得能照出人影的鹅卵石，被几个世纪的脚步打磨得温润如玉。你的耳朵会自动捕捉到最生活化的交响：头顶晾衣绳上床单被海风吹动的扑簌声，隔壁院子里老太太用希腊语讲电话的片段，还有不知从哪条深巷传来的、断断续续的布祖基琴声。这里的猫是真正的国王，它们慵懒地躺在彩色木窗下的阴影里，或是在阶梯转角处淡定地审视着你。
+这里的核心魅力，在于它拒绝成为博物馆。你推开一扇虚掩的、漆成爱琴海蓝的木门，可能就闯入了一个种满柠檬树和天竺葵的隐秘庭院，晾晒的衣物在阳光下轻轻摆动。老爷爷们坐在小广场唯一的咖啡店外，慢悠悠地玩着西洋双陆棋，手边的希腊咖啡杯永远只下去一小半。阳台上，老妇人探出身来给窗台上的花浇水，水流在阳光下闪闪发光，滴落到下面巷子的石板上。你会瞬间明白，你闯入的不是一个景点，而是一个依然按照自己缓慢、宁静节奏呼吸着的完整社区。这里的每一级台阶，每一扇彩窗，每一处从墙头探出的三角梅，都在讲述着关于家、关于日常、关于岁月静好的故事。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">想象一下，你正沿着鹅卵石小路向上攀登，两边是刷成各种柔和色调的房子，阳台上垂挂着九重葛。空气中混合着海风的咸味和咖啡的香气。这里就是卡瓦拉老城，一个层层叠叠建在山坡上的迷宫。它不像圣托里尼那样满是游客，反而有种慵懒、真实的地中海生活气息。你会路过小小的东正教堂，也会看到奥斯曼时期留下的清真寺宣礼塔，历史在这里安静地交融。爬到顶端，突然，爱琴海的全景在你眼前铺开，那种豁然开朗的感觉，就是旅途中最棒的奖赏。这里节奏很慢，适合迷路，也适合发呆。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">第一眼看到卡瓦拉老城，你会觉得它不像一个景点，更像一个从山腰上自然生长出来的、五彩斑斓的梦境。我从港口边的现代街道抬头望去，整片老城如同一个巨大的、依山而建的蜂巢，那些白色、黄色、淡粉色的房子密密麻麻又错落有致地紧贴着山坡，一直延伸到山顶那座威严城堡的脚下。最震撼的是，一道拥有60个拱门的巨大高架水渠——卡玛雷斯，像一条灰白色的石龙，横亘在山脚与城区之间，它既是历史的丰碑，又奇妙地成了现代交通的通道，汽车就在那些古老的拱门下穿行。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">爬上第一段宽阔的石阶，喧嚣的港口海风瞬间被过滤掉了。取而代之的，是弥漫在狭窄巷道里的、复杂而迷人的气味：某户人家窗口飘出的炖煮羊肉的香味，混合着九重葛花丛甜腻的气息，还有老房子木头被午后阳光晒过后散发出的、略带暖意的陈旧味道。脚下是光滑得能照出人影的鹅卵石，被几个世纪的脚步打磨得温润如玉。你的耳朵会自动捕捉到最生活化的交响：头顶晾衣绳上床单被海风吹动的扑簌声，隔壁院子里老太太用希腊语讲电话的片段，还有不知从哪条深巷传来的、断断续续的布祖基琴声。这里的猫是真正的国王，它们慵懒地躺在彩色木窗下的阴影里，或是在阶梯转角处淡定地审视着你。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">这里的核心魅力，在于它拒绝成为博物馆。你推开一扇虚掩的、漆成爱琴海蓝的木门，可能就闯入了一个种满柠檬树和天竺葵的隐秘庭院，晾晒的衣物在阳光下轻轻摆动。老爷爷们坐在小广场唯一的咖啡店外，慢悠悠地玩着西洋双陆棋，手边的希腊咖啡杯永远只下去一小半。阳台上，老妇人探出身来给窗台上的花浇水，水流在阳光下闪闪发光，滴落到下面巷子的石板上。你会瞬间明白，你闯入的不是一个景点，而是一个依然按照自己缓慢、宁静节奏呼吸着的完整社区。这里的每一级台阶，每一扇彩窗，每一处从墙头探出的三角梅，都在讲述着关于家、关于日常、关于岁月静好的故事。</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -37,28 +41,32 @@ export default function KavalaOldTownPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="卡瓦拉老城" />
                 <InfoRow label="英文名称" value="Kavala Old Town" />
-                <InfoRow label="正式名称" value="Kavala Old Town" />
+                <InfoRow label="正式名称" value="Kavala Old Town (Panagia)" />
                 <InfoRow label="国家" value="希腊" />
                 <InfoRow label="城市" value="卡瓦拉" />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value="" />
-                <InfoRow label="建筑特色" value="" />
-                <InfoRow label="建筑风格" value="" />
-                <InfoRow label="文化价值" value="" />
+                <InfoRow label="历史地位" value="爱琴海北岸至关重要的港口与商业枢纽，见证了从古希腊到奥斯曼帝国多文明的层叠与兴衰，更是现代埃及缔造者穆罕默德·阿里的诞生地。" />
+                <InfoRow label="建筑特色" value="一座从港口依山势层叠攀升至山顶城堡的立体迷宫，以保存完美的奥斯曼时期木质悬窗住宅、雄伟的罗马-奥斯曼高架水渠和蜿蜒的卵石阶梯巷道为核心。" />
+                <InfoRow label="建筑风格" value="以19世纪奥斯曼民居建筑风格为主导，混杂着拜占庭地基、威尼斯防御工事和新古典主义装饰元素的独特混搭。" />
+                <InfoRow label="文化价值" value="一个依然“活着”的多层历史街区，生动展示了奥斯曼帝国晚期希腊马其顿地区港口城市的生活风貌、著名的烟草贸易遗产以及基督教与伊斯兰文化共存的痕迹。" />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value="全天开放（历史建筑内部开放时间各异，通常为上午9点至下午3点）" />
-              <InfoRow label="门票价格" value="进入老城区域免费。部分历史建筑（如穆罕默德·阿里故居）需购票，约3-5欧元。" />
-              <InfoRow label="地址" value="Old Town, Kavala 653 02, Greece" />
-              <InfoRow label="交通方式" value="从卡瓦拉国际机场（KVA）出发，乘坐出租车约25分钟可达老城入口。从卡瓦拉市中心火车站步行约15-20分钟即可到达山脚下的老城入口。" />
+              <InfoRow label="开放时间" value="老城街区及公共步道全天24小时开放。内部的博物馆、故居等景点开放时间各异，通常为夏季（4月-10月）每日9:00-19:00；冬季（11月-3月）周二至周日9:00-16:00。主要宗教场所在午间（13:00-17:00）可能关闭。重大节日如复活节期间开放时间会有大幅调整。" />
+              <InfoRow label="门票价格" value="进入老城街区本身完全免费。内部个别景点收费：卡瓦拉城堡门票约为4欧元；穆罕默德·阿里故居博物馆门票约为3欧元；烟草博物馆门票约为4欧元。持欧盟学生证、65岁以上长者及18岁以下青少年享有半价或免票优惠，具体以各景点现场公示为准。" />
+              <InfoRow label="地址" value="Panagia, Kavala 653 02, Greece" />
+              <InfoRow label="交通方式" value="从卡瓦拉国际机场（KVA）出发，最便捷的方式是乘坐出租车，车程约20分钟，费用20-30欧元；也可乘坐机场班车至市中心巴士总站，再换乘前往“Panagia”方向的2路或3路本地巴士，在“Kamares”站下车即达老城入口，全程约40-50分钟。从雅典乘坐长途巴士约7小时抵达卡瓦拉巴士总站，再转乘上述本地巴士或步行上山（约25分钟陡坡）。自驾可将车停在山脚下的付费停车场，老城内狭窄阶梯巷道禁止车辆通行。" />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">卡瓦拉老城的故事，就像一本摊开在地中海边的历史书。它的前身可以追溯到古希腊时期，但今天我们看到的模样，主要烙印着拜占庭和奥斯曼帝国的印记。中世纪时，这里建起了雄伟的卡瓦拉城堡，用于防御海盗和外敌，如今它依然矗立在山顶，俯瞰着海湾。到了奥斯曼帝国统治时期（约15世纪后），老城迎来了繁荣，成为了重要的烟草贸易中心。你看到的那些带有突出木制窗棂（叫做“sachnisi”）的豪宅，很多都是当年富有的烟草商人的宅邸。其中最著名的居民当属穆罕默德·阿里，他在这里出生，后来成为了埃及的统治者，他的故居现在成了博物馆。20世纪后，随着城市向山下平原发展，老城更多地保留了旧时光的宁静。走在街上，你能感受到这种层层累积的历史：城堡的石墙、奥斯曼的宅邸、拜占庭的水渠，它们共同讲述着这座“蓝色之城”的千年往事。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">要听懂卡瓦拉老城的低语，你得把时间拨回两千多年前。这里最早是古希腊人的殖民地，名叫“尼阿波利斯”，意思是“新城”。它可不是普通的“新城”，因为对面就是那座大名鼎鼎的萨索斯岛，这里成了大陆与岛屿财富流通的关键港口。想象一下，满载着岛上珍贵大理石和黄金的船只在这里靠岸，喧嚣的码头，讨价还价的商人，奠定了这座城市与生俱来的商业基因。罗马人来了之后，沿着著名的埃格纳提亚大道一路修到这里，更是把它变成了帝国东西干线上的重要驿站。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">然而，真正塑造了今天老城筋骨与面貌的，是奥斯曼帝国。自14世纪末被征服后，卡瓦拉（当时称“卡瓦拉”）迎来了它第一个黄金时代。智慧的奥斯曼工程师和建造者们，面对这座陡峭的山丘，展现出了惊人的适应力。他们没有夷平山地，而是选择与地形共舞，修建了层层叠叠的阶梯式住宅。那些著名的、带有突出木质悬窗的房子，不仅是为了扩展生活空间，更是为了让妇女们能在不露面的情况下，观察下面街道的市井生活。更重要的是，为了解决山城的供水问题，他们修缮并扩建了古老的罗马水渠，这就是今天我们看到的那条横亘天际的“卡玛雷斯”水渠。它不再是冰冷的遗迹，而是几个世纪来为每户人家输送生命之水的血脉。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">命运的齿轮在19世纪初，为这座城市送上了一份意想不到的厚礼——一个名叫穆罕默德·阿里的男孩在这里出生。他出身于一个阿尔巴尼亚裔的烟草商家庭，在老城的街巷中奔跑长大。谁又能想到，这个男孩日后会远赴埃及，成为那个国家的现代奠基人，几乎统治了整个东地中海。功成名就后，他没有忘记故乡。他的家族出资修建了医院、学校，并极大地推动了卡瓦拉的烟草贸易。正是从那时起，卡瓦拉因其优质的东方烟草而闻名欧洲，富有的烟草商人们竞相在老城建造最华丽的宅邸，那些精美的灰泥装饰、彩绘玻璃和考究的木工，很多都源于那个财富涌流的时代。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">烟草的黄金时代给老城披上了最华美的外衣，但随后的20世纪却带来了动荡与迁徙。巴尔干战争、两次世界大战，尤其是1923年希腊与土耳其之间的人口大交换，彻底改变了这里的人口结构。许多土耳其裔居民离开，来自小亚细亚的希腊难民涌入并定居下来。你会在一些房子的门楣上，同时看到十字架和依稀可辨的阿拉伯语铭文，这是文化层叠最无声却最有力的证明。二战后的城市化进程让许多人搬去了山下更便利的公寓，老城一度陷入沉寂和衰败。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">直到近二三十年，人们才开始重新发现这座“空中之城”无与伦比的价值。不是通过大拆大建，而是小心翼翼的修复。当地居民、艺术家和文化遗产保护者共同努力，让这些老房子在保留灵魂的同时获得了新生。一些变成了迷人的精品酒店，一些成了艺术家的工作室，但更多的，依然是祖祖辈辈生活于此的普通人的家。正是这种持续的生命力，让卡瓦拉老城没有沦为单纯的布景，它的每一次呼吸，都混杂着遥远历史与鲜活当下的气息。</p>
             </div>
           </Section>
 
@@ -67,33 +75,47 @@ export default function KavalaOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  推荐从山脚下的“现代区”与老城交界处（靠近港口）开始，沿着主步道向上蜿蜒探索，最终抵达山顶的城堡，全程步行游览约需2-3小时。这是一条由低到高、渐入佳境的经典路线。
+                  要彻底感受卡瓦拉老城的精髓，我强烈建议你预留一整个下午加黄昏的时间，大约4-5小时。最佳的抵达时间是下午三点以后，这时炙热的正午阳光已经变得柔和，光线斜射在彩色的墙面上，会创造出魔法般的光影。游览节奏一定要“慢”，这里不适合打卡暴走，只适合迷路和发现。整体路线是从山脚的标志性水渠开始，向上攀登至城堡俯瞰全景，再像溪流一样随意地蜿蜒下山，穿行在最密集的民居巷道中，最后在渔港边结束行程，用一顿海鲜大餐犒劳自己。这样的安排既能避开午间酷热，又能完美捕捉到老城从日落到华灯初上的两个最美时刻。
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>路线无需严格导航，随心探索小巷更有趣。但务必穿一双绝对防滑舒适的鞋子，因为坡度很大，路面是光滑的鹅卵石。
+                  <strong>建议：</strong>一定要穿一双绝对舒适、防滑的平底鞋，这里的每一步几乎都是上下起伏的石头路，高跟鞋是自讨苦吃。
+大部分小型博物馆和故居周一闭馆，且午间有漫长的休息时间，规划室内参观时务必提前查好时间。
+夏季白天紫外线强烈且巷道狭窄荫凉不多，帽子、太阳镜和充足饮用水是必需品。
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">1.  从老城主入口（Porta Nuova）进入，感受奥斯曼风格建筑的门廊。</p>
+                  <p className="text-sm text-gray-700 mb-2">从地标“卡玛雷斯”水渠最西端的巨大拱门下开始你的旅程，用手触摸那些被海风侵蚀出孔洞的古老石块，感受头顶车辆驶过时传来的微微震动。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">2.  沿着蜿蜒的鹅卵石主街（I. Paleologou街）向上，浏览两侧的彩绘房屋和小商店。</p>
+                  <p className="text-sm text-gray-700 mb-2">沿着水渠东侧宽阔的“腓立比路”石阶一路向上，在第一个大转弯处停下，回望整个海湾和现代城区像画卷一样在脚下铺开。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">3.  参观穆罕默德·阿里故居博物馆，了解这位传奇人物的生平。</p>
+                  <p className="text-sm text-gray-700 mb-2">直奔山顶的卡瓦拉城堡，花时间在锯齿形的城墙上慢慢走一圈，从360度的视角辨认老城的肌理、远处的萨索斯岛和更渺小的船只。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">4.  继续上行，经过古老的拜占庭高架渠（Kamares），它是老城的标志性景观。</p>
+                  <p className="text-sm text-gray-700 mb-2">从城堡的南门下山，故意放弃主路，拐进第一条吸引你的窄巷，让好奇心引领你在迷宫般的阶梯、拱门和突然出现的小广场之间穿梭。</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">5.  抵达山顶的卡瓦拉城堡，在城墙上环绕一周，俯瞰全城和爱琴海绝景。</p>
+                  <p className="text-sm text-gray-700 mb-2">找到那座淡黄色的穆罕默德·阿里故居博物馆，不仅看展览，更要坐在它美丽的花园里，想象这个决定地中海命运的孩子如何在这里度过童年。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在老城中心的“皮亚扎”小广场找张咖啡馆外的桌子坐下，点一杯冰弗雷佩（希腊冰咖啡），什么都不做，只是看当地人的生活如溪流般从眼前淌过。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">参观烟草博物馆，了解那段让老城镀金的贸易史，留意那些精美的商人宅邸建筑细节。</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">在夕阳完全沉入海平面之前，慢慢走下最后一段阶梯，来到渔港边，选一家能看到老城全景的餐馆，等待灯火像星星一样逐颗在山坡上亮起。</p>
                 </div>
               </div>
             </div>
@@ -103,18 +125,28 @@ export default function KavalaOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. 1.  城堡城墙西侧</h4>
-                  <p className="text-sm text-gray-700">最佳拍摄时间为日落时分。角度和效果</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. 卡玛雷斯水渠拱门框架</h4>
+                  <p className="text-sm text-gray-700">站在水渠靠海一侧的某个拱门正中央，将镜头对准拱门框出的老城山坡与山顶城堡，下午的光线能勾勒出完美的建筑轮廓与深邃的景深感。</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. 2.  拜占庭高架渠下方</h4>
-                  <p className="text-sm text-gray-700">最佳拍摄时间为上午，阳光能照亮水渠的拱廊。角度和效果</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. 城堡城墙俯瞰点</h4>
+                  <p className="text-sm text-gray-700">在城堡西南角的城垛处，用长焦镜头压缩空间，捕捉层层叠叠的红色屋顶、蓝色窗扉与远处湛蓝爱琴海形成的色彩交响，黄昏前半小时光线最佳。</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. 3.  老城中心的小广场（Plateia I. Paleologou）</h4>
-                  <p className="text-sm text-gray-700">最佳拍摄时间为午后。角度和效果</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. 窄巷阶梯光影</h4>
+                  <p className="text-sm text-gray-700">选择一条有强烈阳光射入的狭窄阶梯巷子（例如靠近“Agios Nikolaos”教堂附近的），等待一个行人（最好是本地老人或猫）走入光柱的瞬间进行抓拍，突出光影与生命的互动。</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. 穆罕默德·阿里故居阳台</h4>
+                  <p className="text-sm text-gray-700">如果参观博物馆，务必登上它的阳台，这里是拍摄老城屋顶景观与港口并构图的绝佳私人角度，避免了地面游客的干扰。</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. 渔港夕阳剪影</h4>
+                  <p className="text-sm text-gray-700">日落后蓝调时刻，在渔港的防波堤上，以亮起灯光的老城和城堡为背景，拍摄渔船、海鸥或垂钓者的剪影，色彩对比极具戏剧性。</p>
                 </div>
               </div>
 
@@ -123,7 +155,9 @@ export default function KavalaOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• 许多美丽的角度藏在僻静的小巷里，多抬头看看那些布满鲜花的阳台和交错的小路。</li>
+                <li>• 拍摄居民和他们的私人空间时请务必保持尊重与距离，如需拍摄人物特写，一个微笑和事先示意远比长焦镜头偷拍来得友好。</li>
+                <li>• 老城建筑色彩丰富，尝试在阴天或阴影下使用相机的“鲜艳”或“风光”模式，能让那些蓝色、黄色和粉色更加跳脱而不失真。</li>
+                <li>• 使用无人机需格外谨慎，老城是密集居住区，隐私和噪音都是敏感问题，最好提前了解当地法规并远离住宅窗户。</li>
               </ul>
             </div>
           </Section>
@@ -132,27 +166,34 @@ export default function KavalaOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">1.  预算有限/体验当地</h4>
-                  <p className="text-sm text-blue-800">选择老城山脚下附近的家庭旅馆或精品酒店，价格适中，步行即可开始探索。</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">沉浸式体验</h4>
+                  <p className="text-sm text-blue-800">直接入住老城中心由奥斯曼宅邸修复的精品酒店，睡在古老的木梁之下，清晨在私家庭院的鸟鸣与教堂钟声中醒来，彻底成为“本地人”一天。</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">2.  特色体验/中档预算</h4>
-                  <p className="text-sm text-green-800">入住老城内部经过修复的奥斯曼风格宅邸酒店，真正住在历史里，推窗即是风景。</p>
+                  <h4 className="font-semibold text-green-900 mb-2">设计师情调</h4>
+                  <p className="text-sm text-green-800">选择隐藏在某条静谧阶梯顶端的现代设计型民宿，将传统石墙与极简家具巧妙融合，拥有一个可以俯瞰连绵屋顶与大海的私人露台，日落时分开一瓶本地红酒便是顶级享受。</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">3.  高端海景/便利</h4>
-                  <p className="text-sm text-yellow-800">选择卡瓦拉港口或新城区沿海的五星级酒店，享受现代设施和无敌海景，打车前往老城也很近。</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">海景奢华</h4>
+                  <p className="text-sm text-yellow-800">位于老城山脚下渔港边的五星级酒店，拥有无敌的全景视野，在房间阳台的躺椅上就能欣赏从日出到老城华灯初上的完整光影秀，享受高端服务与历史氛围的完美结合。</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">家庭温情</h4>
+                  <p className="text-sm text-purple-800">经营了数十年的家庭旅馆，主人老妈妈会为你准备丰盛的 homemade 早餐，并热情地在地图上标出只有本地人才知道的秘密角落和最好的传统小馆。</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">如果选择住在老城内，请确认酒店是否提供行李搬运服务，因为汽车无法进入核心区，需要手提行李爬台阶。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">老城内的住宿多以阶梯通达，基本没有电梯，携带大件行李箱会非常吃力，建议轻装或提前联系酒店询问行李协助服务。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">夏季（7-8月）是老城旅游旺季，住宿紧张且价格飙升，提前2-3个月预订是明智之举；春季和秋季体验更舒适，价格也更优。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">住在老城意味着夜晚的寂静（除了偶尔的猫叫和教堂钟声）和清晨的生机，如果你热爱夜生活喧嚣，山下港口新区可能更合适。</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">卡瓦拉老城的美，不是那种咄咄逼人的壮观，而是一种需要你放慢脚步、细细品味的温柔。它像一位历经沧桑却依旧优雅的老人，把拜占庭的堡垒、奥斯曼的宅院和地中海的闲适，都揉进了山海之间的阳光里。在这里，最好的旅行方式就是没有目的地闲逛，让每一个转角都可能带来惊喜。如果你想寻找一个不那么拥挤、充满生活质感和历史层次感的希腊，那么卡瓦拉老城绝不会让你失望。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">离开卡瓦拉老城许久后，我发现自己最怀念的，不是某个具体的景点，而是那种“沉浸在一个依然活着的过去”的感觉。这里没有将历史供奉在玻璃柜里，而是让它流淌在每一条湿润的鹅卵石缝隙里，弥漫在咖啡店飘出的香气里，镶嵌在老太太微笑的皱纹里。它教会我，真正的文化遗产，不是冰冷的石头，而是人与地方之间那份绵延不断、充满温度的联结。走在那些巷子里，你会觉得自己不是游客，而是一个偶然闯入的、被短暂接纳的邻居，见证着最朴实无华却又最动人的生活史诗。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">在这个一切都在追求更新、更快的世界里，卡瓦拉老城固执地保持着自己的节奏。它像一位智慧的老者，安静地坐在爱琴海边，看惯了帝国的兴衰、商旅的来往与时代的浪潮。它提醒着我们，生活的美感往往在于细节的沉淀，在于与自然地形共舞的智慧，在于不同文化层叠出的丰富肌理。每一位渴望深度旅行的灵魂，都应该来这里住上几天，让自己慢下来，去触摸那些温润的石头，去倾听风穿过水渠拱门的声音，去感受时间在这里被拉长、被赋予重量的神奇魔力。这不仅仅是一次旅行，更是一次心灵的复位，让你记住，生活本可以有另一种更从容、更深厚、更温暖的样貌。</p>
             </div>
           </Section>
         </div>
