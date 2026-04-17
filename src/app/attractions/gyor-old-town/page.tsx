@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '杰尔古城・Győr・匈牙利・杰尔 | 最佳欧洲景点',
-  description: '探索杰尔古城，匈牙利西北部最具代表性的历史文化街区，融合罗马式、哥特式、巴洛克式等多种建筑风格的中欧古城风情。',
+  title: '杰尔古城 Győr｜在多瑙河与拉包河交汇处，探秘“铁幕雕塑”与巴洛克珍宝 - 最佳欧洲景点',
+  description: '如果你从布达佩斯坐上火车，一个多小时后就跳进了另一个全然不同的匈牙利，那多半就是杰尔了。走出火车站，穿过几条平平无奇的现代街道，一个拐弯，仿佛不小心撞开了时空的幕布——脚下忽然变成了被岁月磨得温润发亮的鹅卵石，两侧是糖霜般细腻的粉色、鹅黄色巴洛克立面，阳台上垂下瀑布般的天竺葵。空气里有刚出炉的kür...',
 }
 
 export default function GyorOldTownPage() {
@@ -21,314 +21,211 @@ export default function GyorOldTownPage() {
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">杰尔古城・Győr・匈牙利・杰尔</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`杰尔古城・Győr・匈牙利・杰尔`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            杰尔古城是匈牙利西北部最具代表性的历史文化街区，也是杰尔市的灵魂所在，融合了罗马式、哥特式、巴洛克式等多种建筑风格。
+            {`如果你从布达佩斯坐上火车，一个多小时后就跳进了另一个全然不同的匈牙利，那多半就是杰尔了。走出火车站，穿过几条平平无奇的现代街道，一个拐弯，仿佛不小心撞开了时空的幕布——脚下忽然变成了被岁月磨得温润发亮的鹅卵石，两侧是糖霜般细腻的粉色、鹅黄色巴洛克立面，阳台上垂下瀑布般的天竺葵。空气里有刚出炉的kürtőskalács（烟囱卷）的肉桂甜香，混着从老咖啡馆飘出的深烘咖啡豆的醇苦。你的第一印象不会是“雄伟”或“震撼”，而是一种亲昵的、被温柔包裹的精致感。这里不是仅供瞻仰的遗址，而是当地人鲜活的生活剧场。戴着贝雷帽的老先生坐在长椅上喂鸽子，主妇们拎着篮子从集市回来，年轻人在广场的喷泉边约会。古城的心脏——塞切尼广场，就像社区的客厅，充满了琐碎而温暖的市声。
+但杰尔最打动人心的魅力，藏在那些不经意的转角。它有一个俏皮的绰号：“铁幕雕塑之城”。别只盯着宏伟的建筑看，低下头，放慢脚步。你可能会在墙角发现一个正努力推开砖块、想要钻出来的小铁人；或者在路灯柱上，找到一只悠闲悬挂着的金属松鼠。这些由本地艺术家创作的微型雕塑，像散落在城市各处的幽默密码，等待着旅人去破解。这种将沉重历史（“铁幕”时代）转化为轻盈艺术玩笑的智慧，正是杰尔精神的缩影：它历经沧桑，却始终保持着一种优雅的乐观与创造力。
+在多瑙河与拉包河的交汇处，杰尔的故事被水流轻声讲述。你可以坐在河畔的咖啡馆，看古老的货运驳船缓缓驶过，背景是主教座堂巍峨的双塔。这里有一种奇妙的层次感：古罗马军营的基石埋在最深处，其上叠加着中世纪城墙的残段，再覆盖上巴洛克的华丽外衣，最后被当代艺术的灵光轻轻点缀。它不像许多被“博物馆化”的老城那样疏离，而是呼吸着、生长着，让你觉得，自己不仅可以参观，甚至可以属于这里一会儿。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              杰尔古城是匈牙利西北部最具代表性的历史文化街区，也是杰尔市的灵魂所在，融合了罗马式、哥特式、巴洛克式等多种建筑风格，留存着大量中世纪以来的古建筑、石板街巷与人文遗迹。古城坐落于两河交汇处，街巷蜿蜒错落，广场错落有致，既有宗教建筑的庄严，也有市井生活的烟火气，是感受中欧古城风情、了解匈牙利西部历史文化的必访之地，低调而富有韵味。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果你从布达佩斯坐上火车，一个多小时后就跳进了另一个全然不同的匈牙利，那多半就是杰尔了。走出火车站，穿过几条平平无奇的现代街道，一个拐弯，仿佛不小心撞开了时空的幕布——脚下忽然变成了被岁月磨得温润发亮的鹅卵石，两侧是糖霜般细腻的粉色、鹅黄色巴洛克立面，阳台上垂下瀑布般的天竺葵。空气里有刚出炉的kürtőskalács（烟囱卷）的肉桂甜香，混着从老咖啡馆飘出的深烘咖啡豆的醇苦。你的第一印象不会是“雄伟”或“震撼”，而是一种亲昵的、被温柔包裹的精致感。这里不是仅供瞻仰的遗址，而是当地人鲜活的生活剧场。戴着贝雷帽的老先生坐在长椅上喂鸽子，主妇们拎着篮子从集市回来，年轻人在广场的喷泉边约会。古城的心脏——塞切尼广场，就像社区的客厅，充满了琐碎而温暖的市声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但杰尔最打动人心的魅力，藏在那些不经意的转角。它有一个俏皮的绰号：“铁幕雕塑之城”。别只盯着宏伟的建筑看，低下头，放慢脚步。你可能会在墙角发现一个正努力推开砖块、想要钻出来的小铁人；或者在路灯柱上，找到一只悠闲悬挂着的金属松鼠。这些由本地艺术家创作的微型雕塑，像散落在城市各处的幽默密码，等待着旅人去破解。这种将沉重历史（“铁幕”时代）转化为轻盈艺术玩笑的智慧，正是杰尔精神的缩影：它历经沧桑，却始终保持着一种优雅的乐观与创造力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在多瑙河与拉包河的交汇处，杰尔的故事被水流轻声讲述。你可以坐在河畔的咖啡馆，看古老的货运驳船缓缓驶过，背景是主教座堂巍峨的双塔。这里有一种奇妙的层次感：古罗马军营的基石埋在最深处，其上叠加着中世纪城墙的残段，再覆盖上巴洛克的华丽外衣，最后被当代艺术的灵光轻轻点缀。它不像许多被“博物馆化”的老城那样疏离，而是呼吸着、生长着，让你觉得，自己不仅可以参观，甚至可以属于这里一会儿。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="杰尔古城" />
-                <InfoRow label="英文名称" value="Győr Old Town" />
-                <InfoRow label="全称" value="Győr Historical Old Town" />
-                <InfoRow label="匈牙利语名" value="Győri Történelmi Óváros" />
-                <InfoRow label="国家" value="匈牙利（Hungary）" />
-                <InfoRow label="城市" value="杰尔（Győr）" />
+                <InfoRow label="中文名称" value={`杰尔古城`} />
+                <InfoRow label="英文名称" value={`Győr`} />
+                <InfoRow label="正式名称" value={`Győr Historical Town Centre`} />
+                <InfoRow label="国家" value={`匈牙利`} />
+                <InfoRow label="城市" value={`杰尔`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="所属区域" value="匈牙利西北部，杰尔-莫松-肖普朗州首府" />
-                <InfoRow label="地理位置" value="多瑙河支流拉包河与拉巴河交汇处" />
-                <InfoRow label="历史地位" value="匈牙利第六大城市、七大区域中心之一" />
-                <InfoRow label="建筑风格" value="罗马式、哥特式、巴洛克式融合" />
+                <InfoRow label="历史地位" value={`匈牙利西北部无可争议的历史、文化与宗教中心，一座在古罗马废墟上兴起、历经奥斯曼战火洗礼并最终在巴洛克时代绽放的“多瑙河畔明珠”。`} />
+                <InfoRow label="建筑特色" value={`令人目不暇接的巴洛克建筑立面、蜿蜒隐秘的中世纪小巷、以及点缀在城市各个角落、充满现代趣味的“铁幕雕塑”艺术装置。`} />
+                <InfoRow label="建筑风格" value={`以辉煌的巴洛克风格为主体，巧妙融合了中世纪哥特式遗迹、新古典主义装饰以及20世纪初的新艺术运动元素。`} />
+                <InfoRow label="文化价值" value={`一座活着的城市博物馆，生动体现了中欧地区天主教传统、奥斯曼影响与当代都市艺术生命力的奇妙共生。`} />
               </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-blue-900 mb-3">详细门票信息</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">古城整体：</span>免费开放</p>
-                <p><span className="font-medium">杰尔大教堂：</span>成人5欧元/人，学生2.5欧元/人，6岁以下儿童免费</p>
-                <p><span className="font-medium">埃斯泰尔哈吉宫：</span>成人4欧元/人，学生2欧元/人</p>
-                <p><span className="font-medium">联票（大教堂+埃斯泰尔哈吉宫）：</span>成人8欧元/人，学生4欧元/人</p>
-              </div>
-            </div>
-            <div className="bg-green-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-green-900 mb-3">开放时间</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">古城整体：</span>全天开放</p>
-                <p><span className="font-medium">4-5月：</span>9:00-17:00（16:30停止入园）</p>
-                <p><span className="font-medium">6-8月：</span>8:30-18:00（17:30停止入园）</p>
-                <p><span className="font-medium">9-10月：</span>9:00-17:00（16:30停止入园）</p>
-                <p><span className="font-medium">11月-次年3月：</span>10:00-16:00（15:30停止入园）</p>
-              </div>
-            </div>
-            <div className="bg-yellow-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-yellow-900 mb-3">交通指南</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">布达佩斯机场：</span>→杰尔（1.5小时车程，走M1高速公路）</p>
-                <p><span className="font-medium">公共交通：</span>布达佩斯→杰尔（1小时火车，8欧元/人）</p>
-                <p><span className="font-medium">维也纳：</span>→杰尔（1.5小时车程）</p>
-                <p><span className="font-medium">火车站距离：</span>火车站距古城约1公里，步行12分钟</p>
-                <p><span className="font-medium">停车场：</span>古城周边专用停车场，收费约3.5欧元/天</p>
-              </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城街道及公共广场全天24小时开放。内部主要景点（如主教座堂、博物馆等）开放时间各异：主教座堂通常在每日上午8点至傍晚6点开放；杰尔主教城堡博物馆周二至周日上午10点至下午6点开放，周一闭馆；其他小型博物馆和画廊开放时间较为灵活，建议出行前在官网二次确认。多数室内景点在冬季（11月至次年3月）可能会提前一小时关闭。`} />
+              <InfoRow label="门票价格" value={`漫步杰尔古城街区本身完全免费。进入各博物馆和展览需购票：主教城堡博物馆成人票约为2200匈牙利福林（约6欧元），学生及老人享有折扣。部分教堂内的珍宝室或塔楼参观可能收取少量费用（约500-1000福林）。建议购买“杰尔城市卡”，可在指定时间内无限次进入主要博物馆并享受公共交通优惠。`} />
+              <InfoRow label="地址" value={`Széchenyi tér 1, 9021 Győr, Hungary`} />
+              <InfoRow label="交通方式" value={`从布达佩斯出发最为便捷。火车：从布达佩斯东站或西站乘坐火车直达杰尔，车程约1小时15分钟至1.5小时，班次频繁（几乎每小时都有），可在匈牙利国铁官网购票。汽车：布达佩斯 Népliget 汽车站也有班车前往，车程相似。自驾：沿M1高速公路向西行驶约120公里，出口有明显的“Győr”标识。抵达杰尔后，火车站和汽车站步行至古城核心区仅需10-15分钟，古城内所有景点均可轻松步行到达。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              杰尔古城的历史可追溯至公元前1世纪，其发展历程与匈牙利的兴衰、中欧的贸易往来紧密相连，是匈牙利西部历史文化传承的重要载体，见证了从罗马时期到现代的千年变迁，承载着深厚的历史与人文内涵。杰尔地处布达佩斯与维也纳之间的交通要道，早在罗马帝国时期，就成为重要的军事要塞与商贸中转站，是中欧地区最早有人类定居的区域之一。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              公元前1世纪，罗马帝国在杰尔地区建立军事要塞，命名为"Arrabona"，作为防御北方部落入侵的重要据点，同时也是罗马帝国与中东欧地区贸易往来的枢纽，当时的杰尔就已形成小型聚居区，留存有罗马时期的城墙、街道遗迹，成为杰尔古城的雏形。这一时期，罗马文化与当地文化相互融合，为杰尔古城的发展奠定了基础。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              中世纪时期，杰尔逐渐发展成为匈牙利西部的重要城市，随着宗教的兴起，古城内开始修建大量宗教建筑，建筑风格以罗马式、哥特式为主。11世纪，杰尔成为匈牙利重要的宗教中心，当时的匈牙利国王下令在古城中心修建杰尔大教堂，成为当地天主教的核心场所，也成为古城的标志性建筑。这一时期，杰尔古城的规模不断扩大，街巷布局逐步形成，成为中欧地区重要的商贸与宗教重镇。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              16世纪，奥斯曼帝国入侵匈牙利，杰尔被奥斯曼军队占领，古城遭到严重破坏，大量古建筑被损毁，宗教活动一度中断，古城的发展陷入停滞。直到17世纪末，匈牙利摆脱奥斯曼帝国的统治，杰尔古城进入大规模重建阶段，当时的建筑师结合哥特式与巴洛克式风格，对受损建筑进行修复与扩建，同时新增了大量巴洛克式建筑，让古城兼具庄重与华丽的气质。
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              18世纪至19世纪，杰尔古城迎来黄金发展期，作为中欧地区的交通枢纽与商贸中心，古城内商铺林立、人流涌动，同时也进行了多次城市改造，优化了街巷布局，完善了城市配套设施。这一时期，埃斯泰尔哈吉宫等知名建筑相继建成，成为古城的重要景观，也彰显了杰尔的繁荣与富裕。20世纪以来，杰尔古城历经多次修缮与保护，重点保护了中世纪以来的古建筑、石板街巷与人文遗迹，同时兼顾现代城市发展需求，实现了历史风貌与现代生活的完美融合。如今，杰尔古城不仅是杰尔市的核心区域，也是匈牙利重要的历史文化地标，每年吸引着大量游客前来，它承载着杰尔千年的历史记忆与人文底蕴，成为中欧古城文化与建筑艺术融合的重要典范。
-            </p>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要听懂杰尔的故事，得把时钟拨回两千年前。那时候，这里不叫杰尔，而是罗马帝国潘诺尼亚行省的一个重要据点，名叫“阿拉伯娜”。驻扎在此的罗马士兵守卫着帝国东北边境，他们修建了规整的营地和道路，那些深埋地下的石头地基，至今仍是古城看不见的骨骼。罗马帝国衰落后，马扎尔人部落来到这里，看到了拉包河与多瑙河交汇处的战略价值，在此定居，并赋予了它新的名字“Győr”。十一世纪，匈牙利第一位国王圣伊什特万在此设立了主教区，这一定位决定了杰尔未来千年的命运——它成了王国西北部坚固的信仰堡垒。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`中世纪的杰尔在繁荣与劫难中摇摆。它凭借着河运贸易变得富庶，修建起了坚固的城墙和高耸的哥特式教堂。但它的地理位置也带来了无尽的麻烦，尤其是当奥斯曼帝国的大军如潮水般西进时。十六至十七世纪，杰尔成了抵抗土耳其人的前沿阵地，惨烈的围城战反复上演。最黑暗的时刻，城市几乎被夷为平地，主教座堂被改建为清真寺，又在收复后被重新祝圣。这段血与火的岁月，在城市的肌理上留下了难以磨灭的伤痕，也锻造了居民钢铁般的韧性。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`战争的硝烟散去后，杰尔迎来了它的黄金时代——巴洛克时期。十八世纪，在哈布斯堡王朝的统治下，城市开始了一场宏大的“美容手术”。那些在战火中损毁的中世纪房屋被推倒，取而代之的是我们今天看到的、华丽而整齐的巴洛克和洛可可式宅邸。主教城堡被重建得巍峨壮观，广场和街道被重新规划。当时的权贵和富商们争相聘请最好的建筑师和艺术家，用繁复的灰泥装饰、壁画和雕塑来装点自己的门面，仿佛要用极致的美丽来忘却过去的创伤。这场建设热潮塑造了杰尔古城今天的基本风貌，那种统一而精致的优雅，正是这个时代留下的最慷慨的礼物。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`十九世纪的工业革命让杰尔再次转型。铁路通了，工厂建起来了，它成了奥匈帝国重要的工业中心。新的阶层带来了新艺术运动的风潮，你可以在一些建筑的铁艺栏杆和门楣装饰上找到那些流畅的植物曲线。然而，二十世纪的风云变幻——两次世界大战、“铁幕”的落下——又一次让杰尔沉寂。在计划经济时代，它像许多东欧城市一样，显得有些灰暗和停滞。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但故事的精彩之处在于它的重生。上世纪九十年代后，杰尔人没有选择将老城变成冰冷的古董，而是启动了一场精心又充满想象力的修复。他们不仅修缮了每一栋巴洛克立面，更发起了那项著名的“铁幕雕塑”公共艺术计划。艺术家们用幽默、小巧的金属雕塑，调侃过去的沉重，为古城的每个角落注入惊喜。这个举动巧妙至极：它既尊重了历史层积的庄严，又为城市注入了当代的脉搏。于是，杰尔从一座沉睡的历史名城，变成了一个懂得自嘲、充满生命力的文化磁石。它的历史，是一部典型的中欧史诗，充满了破坏与重建、泪水与欢笑，而最终，它以一种无比迷人的融合姿态，站在了多瑙河畔。`}</p>
+            </div>
           </Section>
 
           <Section title="4. 游览路线">
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">经典游览路线</h4>
-                <p className="text-gray-700 mb-4">全程以"人文历史+古城烟火"为主题，难度较低，适合各类游客，建议安排2-3小时</p>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">起点：杰尔古城入口</h5>
-                    <p>游客咨询点旁，可领取导览手册、咨询游览路线</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第一站：塞切尼广场</h5>
-                    <p>古城中心广场，中央有塞切尼雕像，周边环绕巴洛克式建筑、特色商铺与咖啡馆，参观约20分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第二站：杰尔大教堂</h5>
-                    <p>位于广场北侧，古城标志性建筑，融合哥特式与巴洛克式风格，内部装饰精美，参观约40分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第三站：埃斯泰尔哈吉宫</h5>
-                    <p>距离大教堂约300米，步行5分钟可达，匈牙利西部重要巴洛克式建筑，参观约30分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第四站：古城石板街巷漫步</h5>
-                    <p>漫步在蜿蜒的石板街巷，欣赏两侧复古民居、小众商铺与街头艺术，购买当地手工艺品，感受古城烟火气，约30分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第五站：拉包河河畔观景</h5>
-                    <p>距离古城核心区约500米，步行8分钟可达，欣赏拉包河自然风光，远眺古城建筑轮廓，感受两河交汇处静谧之美，约20分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">终点：塞切尼广场</h5>
-                    <p>周边有当地特色餐厅，可品尝匈牙利传统美食，结束游览</p>
-                  </div>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要给杰尔古城一次完美的深度探索，我强烈建议你留出完整的一天，并从清晨开始。早上九点前抵达塞切尼广场，这时游客还未涌入，阳光斜射在巴洛克立面上，投下长长的影子，是拍照和感受宁静老城氛围的黄金时间。整体游览节奏应该是“慢品”而非“赶路”，因为杰尔的精华往往藏在细节里。路线设计上，我会以塞切尼广场为心脏，先向高处（主教座堂与城堡）探索精神和历史维度，再向低处（河畔与隐秘小巷）感受生活与艺术气息，形成一个完美的回环。这样大约需要5-7小时，包括轻松的午餐和咖啡时间。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`寻找“铁幕雕塑”时请务必放慢脚步并留意脚下和墙面上方，很多作品小巧隐蔽，匆匆而过极易错过。古城内咖啡馆和餐厅价格合理，不必特意寻找攻略推荐，随便一家本地人多的都不会差。周末的集市日（尤其周六上午）广场会很热闹，喜欢市井气息的可以此时来，追求清净的则最好避开。`}
                 </div>
               </div>
               
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">温馨提示</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 参观宗教建筑时，需保持安静，禁止大声喧哗，穿着需得体</li>
-                  <li>• 部分景点内部禁止拍照或需关闭闪光灯，需遵守现场提示</li>
-                  <li>• 古城内石板街巷较多，路面较滑，行走时需注意安全</li>
-                  <li>• 周一埃斯泰尔哈吉宫闭馆，仅开放杰尔大教堂与广场区域</li>
-                </ul>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在塞切尼广场中央的“圣母柱”下驻足，仰望顶端金光闪闪的雕像，感受清晨阳光如何一点点点亮周围糖果色的建筑立面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进广场东侧的圣伊格纳茨耶稣会教堂，让眼睛适应内部的昏暗，然后被那炫目得令人窒息的巴洛克式天顶壁画彻底震撼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着Bécsi kapu街向北，踏上通往主教座堂山丘的古老石阶，触摸沿途中世纪城墙粗糙而冰凉的巨石。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`站在杰尔主教座堂宏伟的主祭坛前，静心欣赏那尊被誉为匈牙利哥特艺术瑰宝的“圣拉迪斯拉斯圣物箱”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从主教城堡博物馆的露台窗口向外眺望，将红瓦黄墙的老城屋顶、蜿蜒的河流与远方的工业烟囱尽收眼底，读懂这座城市的历史层理。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在卡尔梅里塔广场附近的小巷里开启一场“寻宝游戏”，弯腰寻找墙根、窗台和灯柱上那些充满趣味的微型“铁幕雕塑”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着拉包河畔的步行道慢慢散步，看天鹅游弋，选一家有户外座位的咖啡馆，点一杯咖啡，看着对岸巴洛克建筑的倒影在水中荡漾。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进主教堂南侧那些迷宫般的狭窄中世纪小巷，比如阿波罗街，感受两边高墙夹峙的静谧，想象几个世纪前这里居民的生活。`}</p>
+                </div>
               </div>
             </div>
           </Section>
 
           <Section title="5. 拍照机位">
-            <div className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">塞切尼广场中央雕像旁</h4>
-                  <p className="text-gray-700 text-sm">拍摄古城全景最佳机位，可完整拍摄广场周边巴洛克式建筑、杰尔大教堂尖顶。最佳时间：上午10:00-11:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">杰尔大教堂正门台阶上</h4>
-                  <p className="text-gray-700 text-sm">拍摄大教堂细节核心机位，可近距离拍摄哥特式尖顶、巴洛克式装饰与精美雕塑。最佳时间：午后14:00-15:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">古城石板街巷深处</h4>
-                  <p className="text-gray-700 text-sm">拍摄复古人文氛围绝佳机位，蜿蜒石板路、复古民居、木质门窗与花草。最佳时间：午后15:00-16:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">拉包河河畔观景台</h4>
-                  <p className="text-gray-700 text-sm">拍摄古城与河流同框最佳机位，杰尔古城复古建筑与蜿蜒拉包河相互呼应。最佳时间：傍晚18:00-19:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">埃斯泰尔哈吉宫庭院内</h4>
-                  <p className="text-gray-700 text-sm">拍摄巴洛克式建筑细节绝佳机位，庭院雕塑、喷泉、绿植与宫殿装饰相互映衬。最佳时间：上午9:30-10:30</p>
-                </div>
-              </div>
-              
-              <div className="bg-purple-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-purple-900 mb-3">拍照小贴士</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 最佳拍摄时间为清晨（9:30-11:00）和傍晚（18:00-19:00），光线柔和，光影层次丰富</li>
-                  <li>• 建议穿着简约复古风格衣物，如米白色、卡其色、藏青色，与古城复古格调形成呼应</li>
-                  <li>• 拍摄建筑全景时可使用广角镜头，拍摄细节时可使用长焦镜头，突出雕塑、壁画等细节</li>
-                  <li>• 拍摄街巷人文照时，可适当捕捉当地居民生活场景，让照片更具烟火气</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="6. 附近景点">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">步行可达景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">杰尔城堡遗址</span>
-                      <p className="text-sm text-gray-600">距离古城约1.2公里，步行18分钟。中世纪时期杰尔防御性城堡，保留城堡残垣断壁、城墙与塔楼，免费开放</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">拉包河游船码头</span>
-                      <p className="text-sm text-gray-600">距离古城约600米，步行10分钟。可乘坐短途游船游览拉包河杰尔段，欣赏两岸自然风光与复古建筑，票价约7-10欧元/人</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">杰尔历史博物馆</span>
-                      <p className="text-sm text-gray-600">距离古城约800米，步行12分钟。展示杰尔市历史变迁、民俗文化与人文遗迹，收藏罗马时期文物、中世纪手稿，门票约3欧元/人</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">圣迈克尔教堂</span>
-                      <p className="text-sm text-gray-600">距离古城约500米，步行8分钟。建于13世纪，哥特式建筑代表，规模虽小但外观精致，免费开放</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">短途出行景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">维也纳老城区</span>
-                      <p className="text-sm text-gray-600">距离杰尔约120公里，自驾或乘坐火车、巴士约1.5-2小时可达。维也纳核心景点，保留大量中世纪建筑、教堂与广场</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿推荐">
-            <div className="space-y-6">
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">住宿位置选择</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">古城周边或拉包河河畔</h5>
-                    <p>距离核心景点最近，步行即可抵达，多为复古民居改造住宿，氛围古朴典雅，可深度感受杰尔古城中世纪风情</p>
-                  </div>
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">市区内</h5>
-                    <p>住宿性价比高，价格相对实惠，距离古城约1.5公里，可乘坐公交或打车前往，适合预算有限游客</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">住宿类型推荐</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">特色民宿</h5>
-                    <p>古城周边有很多小众民宿，多由当地传统复古民居改造，装修融合中欧风格与历史元素，30-75欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">自助公寓</h5>
-                    <p>设施齐全，适合家庭或多人出行，28-65欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">精品酒店</h5>
-                    <p>古城周边与拉包河河畔有少量精品酒店，装修高端精致，部分酒店具有历史底蕴，提供早餐服务，70-130欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">经济型酒店</h5>
-                    <p>市区内有多家性价比高的酒店，设施标准化，干净整洁，提供基础住宿服务，22-40欧元/晚</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-green-900 mb-3">预订注意事项</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 杰尔旅游旺季为5-9月，尤其是7-8月，游客较多，住宿紧张，建议提前1个月预订</li>
-                  <li>• 选择可免费取消的房源，以便灵活调整行程</li>
-                  <li>• 自驾出行需确认住宿周边停车场位置与收费标准（2-3.5欧元/天）</li>
-                  <li>• 古城内民宿多位于石板街巷深处，部分无电梯，携带大件行李的游客可选择有行李搬运服务的住宿</li>
-                  <li>• 春秋季（4-5月、9-10月）气候最宜人，游客较少，住宿价格适中，是最佳时节</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="8. 实用贴士">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-900 mb-2">最佳游览时间</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 4-5月、9-10月：气候宜人，游客较少，住宿价格适中</li>
-                    <li>• 5-9月：旅游旺季，活动丰富但游客较多</li>
-                    <li>• 11-次年2月：旅游淡季，游客稀少，部分景点关闭</li>
-                    <li>• 上午10:00-11:30：游客较少，光线柔和，便于拍摄</li>
-                  </ul>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`塞切尼广场东南角建筑阴影处`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点左右，利用长焦镜头压缩广场空间，将前景的咖啡馆桌椅、中景的圣母柱与背景色彩斑斓的巴洛克建筑立面一同纳入构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主教座堂内部侧廊立柱旁`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点后，当阳光透过高侧窗射入，站在侧廊利用立柱做框架，拍摄光束中飞舞的尘埃和祈祷的信徒，营造神圣静谧的氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`卡尔梅里塔广场通往河边的拱门下`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四五点的侧光时分，站在拱门内向外拍，以拱门为画框，框住远处河对岸的建筑和流动的云彩，形成强烈的纵深感和明暗对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`拉包河对岸的步行桥中央`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，利用桥栏杆作为前景稳定相机，拍摄夕阳余晖将老城建筑群染成金红色的全景，水中倒影会让画面倍增魅力。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`阿波罗小巷的入口处`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射时虽硬，但能拍出小巷石路强烈的明暗纹理和两侧高墙的戏剧性对比，适合拍摄具有张力的人物街拍。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄教堂内部前务必确认是否允许使用闪光灯和三脚架，通常不允许，需提高感光度手持拍摄。拍摄当地居民尤其是集市上的摊主时，请先微笑示意获得默许，这是基本的尊重。匈牙利秋冬多雾，清晨的雾气笼罩古城屋顶时别沮丧，这正是拍摄梦幻、油画感画面的绝佳时机。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`位于古城边缘一栋十九世纪联排屋里的温馨家庭旅馆，房间不大却干净明亮，女主人会为你手绘一张标注了所有隐藏雕塑的老城地图。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`由一座十六世纪修道院部分建筑改造的精品酒店，保留了原始的拱顶石室和宁静的回廊庭院，早餐就在充满历史感的穹顶大厅享用。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在拉包河畔最醒目历史建筑内的五星级酒店，房间拥有挑高的彩绘天花和直面河流的落地窗，傍晚可以在露台酒吧享受专属的城市天际线。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">参观注意事项</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 参观宗教建筑时，需保持安静，禁止大声喧哗</li>
-                    <li>• 古城内石板街巷较多，路面较滑，行走时需注意安全</li>
-                    <li>• 部分景点内部禁止拍照，需遵守相关规定</li>
-                    <li>• 周一埃斯泰尔哈吉宫闭馆，前往前需提前确认</li>
-                  </ul>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`本地生活`}</h4>
+                  <p className="text-sm text-purple-800">{`租住古城中心一栋巴洛克公寓楼顶层的短租公寓，拥有一个可以俯瞰层层叠叠红瓦屋顶的私人小露台，像当地人一样去楼下市场买菜做饭。`}</p>
                 </div>
               </div>
-              <div className="space-y-4">
-                <div className="bg-indigo-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-indigo-900 mb-2">特色体验</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 漫步塞切尼广场，感受古城中心的热闹氛围</li>
-                    <li>• 参观杰尔大教堂，欣赏融合哥特式与巴洛克式的建筑艺术</li>
-                    <li>• 探索埃斯泰尔哈吉宫，感受贵族府邸的奢华精致</li>
-                    <li>• 游走拉包河河畔，欣赏古城与自然景观的完美融合</li>
-                  </ul>
-                </div>
-                <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-900 mb-2">实用信息</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 当地货币：匈牙利福林（1欧元≈380匈牙利福林）</li>
-                    <li>• 语言：匈牙利语，但旅游区英语基本通行</li>
-                    <li>• 电压：230V，插头为Type F型</li>
-                    <li>• 紧急电话：112（欧洲统一紧急电话）</li>
-                  </ul>
-                </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`古城内以石板路为主，拖着大行李箱行走会非常吃力，预订时最好确认酒店是否提供接送或靠近可停车的地点。周末晚上古城广场周围的酒吧可能会有些热闹，浅眠者可以选择靠近主教座堂或河畔的相对安静区域。杰尔治安很好，夜间独行也完全不用担心，但冬季游览时最好预订带暖气或空调的住宿，有些老房子仅靠暖气片。`}</p>
               </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开杰尔很久以后，我发现自己最常回味的，不是某座具体建筑的照片，而是那种混合着咖啡香、肉桂甜和古老石头气味的氛围，是那种在庄严历史与轻松生活之间自由穿梭的奇妙感受。在这个时代，我们见过太多被精心包装、却失去了心跳的历史名城，它们像玻璃罩下的标本，完美却冰冷。杰尔则完全不同，它是一座敢于把历史的伤疤转化为幽默艺术，把信仰的庄严与市井的烟火气和谐共置一城的所在。它告诉你，文化遗产的传承，不仅可以靠敬畏，还可以靠热爱与创意。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这或许就是杰尔给每一位深度旅人的礼物：它让我们重新思考“旅行”的意义。旅行不止是为了收集打卡地标，更是为了去感受一个地方如何在与岁月的对话中，形成自己独特的性格与表情。杰尔，这座多瑙河畔的“活着的古城”，用它层叠的历史、艺术的巧思和温暖的生活气息，邀请你成为它当下故事的一部分。在这里，你会放下追逐景点的焦虑，心甘情愿地“浪费”时间，在某个不知名的墙角发现一个微笑的铁皮小人，然后带着这个秘密的微笑继续前行。这样的地方，值得你专程为它留出一段时光，来经历一场小而美的、充满惊喜的时间漫游。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kalocsa" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    考
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">考洛乔老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kalocsa</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/esztergom-basilica" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃斯泰尔戈姆大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Esztergom Basilica</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/szentendre-artists-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣安德烈艺术小镇</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Szentendre Artists‘ Village</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>
