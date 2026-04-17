@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '施瓦本哈尔古城 Schwäbisch Hall｜藏在深谷中的盐与童话之城 - 最佳欧洲景点',
+  description: '第一眼看到施瓦本哈尔，你会感觉自己不小心闯进了一本被遗忘的中世纪绘本。它不像那些平铺在平原上的规整古城，而是像一堆被孩子小心翼翼垒起来的彩色积木，紧紧依偎在柯赫尔河深邃的绿色河谷里。从火车站那座现代桥梁上望过去，整个老城以一种近乎戏剧性的坡度向上攀升，密密麻麻的木筋房子漆着蜜糖黄、陶土粉、薄荷绿，屋...',
+}
+
+export default function SchwabischHallOldTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '施瓦本哈尔古城', href: '/attractions/schwabisch-hall-old-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`施瓦本哈尔古城・Schwäbisch Hall・德国・施瓦本哈尔`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到施瓦本哈尔，你会感觉自己不小心闯进了一本被遗忘的中世纪绘本。它不像那些平铺在平原上的规整古城，而是像一堆被孩子小心翼翼垒起来的彩色积木，紧紧依偎在柯赫尔河深邃的绿色河谷里。从火车站那座现代桥梁上望过去，整个老城以一种近乎戏剧性的坡度向上攀升，密密麻麻的木筋房子漆着蜜糖黄、陶土粉、薄荷绿，屋顶是深浅不一的红褐色瓦片，在阳光下闪着湿润的光。你听不见大城市的喧嚣，只有脚下柯赫尔河潺潺的水声，混杂着远处市集广场上隐隐传来的喷泉叮咚，和某扇窗户里飘出的钢琴练习曲片段。
+沿着古老的石阶往下走，气味是这里最奇妙的引路人。空气中永远飘着一丝若有若无的、清冽的咸味——那是它千年来的生命线，“白色金子”盐的气息，早已渗进了城墙的每一道石缝。拐进一条小巷，烘烤的焦香会突然抓住你，那是一家祖传面包房刚出炉的“椒盐卷饼”（Brezel）的味道，粗海盐粒在面团上晶莹闪烁。再走几步，你可能又会撞上一股老木头、湿苔藓和旧书混合的、属于时间本身的复杂气息，来自一栋歪斜了四百多年却依然坚固如初的木筋房店铺。
+最打动人的，是这座古城绝非一个僵硬的博物馆。那些有着歪斜门框和凸窗的小房子里，住着活生生的人。你会看到一位老奶奶在窗台上精心照料她的天竺葵，鲜红的花朵从深色木梁间瀑布般垂下；转角书店的老板正把新书箱搬到用鹅卵石铺成、被岁月打磨得光滑如镜的人行道上；年轻的父母推着婴儿车，熟练地穿过窄得只容一人通过的“亲吻巷”。这座城是他们的家园，而你是被允许进来分享一段时光的客人。它的核心魅力，就在于这种极致的画面感与浓郁生活气息的无缝交融，仿佛时间在这里只是缓缓流淌的河水，冲刷了棱角，却滋养出生生不息的诗意。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到施瓦本哈尔，你会感觉自己不小心闯进了一本被遗忘的中世纪绘本。它不像那些平铺在平原上的规整古城，而是像一堆被孩子小心翼翼垒起来的彩色积木，紧紧依偎在柯赫尔河深邃的绿色河谷里。从火车站那座现代桥梁上望过去，整个老城以一种近乎戏剧性的坡度向上攀升，密密麻麻的木筋房子漆着蜜糖黄、陶土粉、薄荷绿，屋顶是深浅不一的红褐色瓦片，在阳光下闪着湿润的光。你听不见大城市的喧嚣，只有脚下柯赫尔河潺潺的水声，混杂着远处市集广场上隐隐传来的喷泉叮咚，和某扇窗户里飘出的钢琴练习曲片段。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`沿着古老的石阶往下走，气味是这里最奇妙的引路人。空气中永远飘着一丝若有若无的、清冽的咸味——那是它千年来的生命线，“白色金子”盐的气息，早已渗进了城墙的每一道石缝。拐进一条小巷，烘烤的焦香会突然抓住你，那是一家祖传面包房刚出炉的“椒盐卷饼”（Brezel）的味道，粗海盐粒在面团上晶莹闪烁。再走几步，你可能又会撞上一股老木头、湿苔藓和旧书混合的、属于时间本身的复杂气息，来自一栋歪斜了四百多年却依然坚固如初的木筋房店铺。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，是这座古城绝非一个僵硬的博物馆。那些有着歪斜门框和凸窗的小房子里，住着活生生的人。你会看到一位老奶奶在窗台上精心照料她的天竺葵，鲜红的花朵从深色木梁间瀑布般垂下；转角书店的老板正把新书箱搬到用鹅卵石铺成、被岁月打磨得光滑如镜的人行道上；年轻的父母推着婴儿车，熟练地穿过窄得只容一人通过的“亲吻巷”。这座城是他们的家园，而你是被允许进来分享一段时光的客人。它的核心魅力，就在于这种极致的画面感与浓郁生活气息的无缝交融，仿佛时间在这里只是缓缓流淌的河水，冲刷了棱角，却滋养出生生不息的诗意。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`施瓦本哈尔古城`} />
+                <InfoRow label="英文名称" value={`Schwäbisch Hall`} />
+                <InfoRow label="正式名称" value={`Schwäbisch Hall`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`施瓦本哈尔`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座因盐而兴、历经千年繁荣，并完美保存了中世纪晚期至文艺复兴时期城市肌理的“活化石”古城。`} />
+                <InfoRow label="建筑特色" value={`以色彩柔和、层层叠叠的木筋房（Fachwerkhäuser）为绝对主角，它们错落有致地密布在陡峭的柯赫尔河谷两岸，形成如同从童话书中直接搬出来的立体画卷。`} />
+                <InfoRow label="建筑风格" value={`以德国南部典型的晚期哥特式和文艺复兴式木筋房建筑风格为主导，间杂着罗曼式和巴洛克式的石质公共建筑。`} />
+                <InfoRow label="文化价值" value={`不仅是建筑艺术的宝藏，更是欧洲中世纪城市经济（盐业）、社会结构与文化生活持续演进的生动见证，其享誉世界的露天戏剧节延续了深厚的人文主义传统。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城公共区域全天开放。核心景点如市教堂、亨利希堡博物馆等开放时间各异：市教堂通常为每日9:00-18:00，冬季可能缩短；亨利希堡博物馆周二至周日10:00-17:00开放，周一闭馆。每年6-8月的“城墙庭院戏剧节”期间，部分区域夜间作为剧场，开放至深夜。圣诞市场期间（11月底至12月23日），老城区开放时间延长，灯火通明。`} />
+              <InfoRow label="门票价格" value={`进入古城免费。参观内部景点需单独购票：市教堂登塔约3欧元；亨利希堡博物馆成人票约8欧元，学生及团体有优惠。建议购买“施瓦本哈尔卡”，约15欧元，涵盖主要博物馆及一次城市导览。每年戏剧节期间的演出票需提前在线预订，票价因剧目和座位而异，通常在20-60欧元之间。`} />
+              <InfoRow label="地址" value={`Marktplatz 1, 74523 Schwäbisch Hall, Germany`} />
+              <InfoRow label="交通方式" value={`最近的大型国际机场是法兰克福机场（FRA）或斯图加特机场（STR）。从法兰克福机场出发，最便捷的方式是乘坐ICE高速列车到斯图加特主火（约1小时10分钟），然后换乘区域火车（RE或IRE线）前往施瓦本哈尔火车站，全程约2.5小时。从斯图加特机场则可直接搭乘S-Bahn到斯图加特主火（约30分钟），再转乘区域火车，总耗时约1.5-2小时。区域火车班次频繁，约每小时1-2班，可在德铁（DB）官网或APP提前购票，有时能买到更便宜的优惠票。从施瓦本哈尔火车站出来，步行过桥，约10分钟即可抵达古城核心区。城内公交系统简单，但步行探索是最佳方式。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲施瓦本哈尔的故事，必须从“盐”说起。大约一千多年前，有人在柯赫尔河谷的泉水里尝出了咸味。这个发现，犹如一颗投入历史水潭的石子，激起了千年涟漪。最初的定居者用简陋的锅灶蒸煮泉水获取盐晶，这种“白色金子”很快吸引了商人、工匠和渴望财富的贵族。到了公元11世纪，“哈尔”（Hall）这个名字正式出现在文献里，在古德语里就是“煮盐之地”的意思。修道院和领主们控制了盐泉，财富开始积累，一座城市的雏形在河谷险要处诞生。你可以想象，在中世纪的黑暗中世纪，这里的盐工坊日夜火光通明，蒸汽缭绕，驮着盐袋的马队络绎不绝地走出山谷，将繁荣带回。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的城市崛起是在1280年，施瓦本哈尔获得了帝国自由市的特许状。这意味着它直接效忠神圣罗马帝国皇帝，摆脱了地方领主的盘剥，获得了贸易、立法和铸币的宝贵权利。财富如泉涌，城市开始疯狂建设。木筋房像雨后春笋一样沿着山坡生长，坚固的城墙被修筑起来，宏伟的圣米迦勒市教堂开始奠基。盐，不仅是调味品，更是保存食物的必需品，它让施瓦本哈尔成了南德地区贸易网络中的关键节点。那时的市集广场上，可能同时回荡着施瓦本方言、法兰克语、意大利商人的口音，以及银币叮当作响的悦耳声音。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，财富也伴随着灾难。1728年的一场大火几乎吞噬了半个木结构的老城。但市民们没有气馁，他们用石头重建了地基和公共建筑，然后在上面以更精美、更华丽的风格竖起了新的木筋房。我们今天看到的许多建筑，都带有那次重建后的巴洛克或洛可可装饰痕迹——比如那些繁复的雕刻、优雅的曲线山墙。火灾重塑了城市，赋予了它新的面貌。18世纪末，随着盐业技术变革和更大盐矿的发现，本地的盐泉失去了竞争力，城市的经济支柱看似崩塌。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但施瓦本哈尔的韧性在于，它总能找到新的灵魂。盐业衰落后，它转向了行政、教育和文化。19世纪，它成了重要的行政中心。而最具传奇色彩的转身发生在1925年。一位富有远见的剧院经理，在古老的城墙庭院（Zwinger）——原本用于放置大炮的防御工事——里，搭起舞台，上演莎士比亚的《仲夏夜之梦》。星辰为顶，古墙为幕，观众席石阶冰冷，但戏剧的热情点燃了一切。“城墙庭院戏剧节”就此诞生，并成长为德国最负盛名、历史最悠久的露天戏剧节之一。每年夏天，世界级的剧团和成千上万的戏剧爱好者涌入这座小城，古老的石墙内回荡着古典戏剧的台词或现代剧作的思辨。从煮盐的烟火气，到思想的碰撞火花，施瓦本哈尔完美地完成了从经济重镇到文化灯塔的蜕变。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`想要真正品味施瓦本哈尔，请务必留出一整天时间，并穿上最舒适的步行鞋。最佳的抵达时间是早晨九点前，这时旅行团还未涌入，阳光刚刚洒满东侧的山坡，给木筋房镀上金边，本地店铺正开始卸下门板，整个古城如同刚刚苏醒。建议从地势较低的河边开始，逆着城市生长的方向，由下而上探索，最后在制高点俯瞰全景，这样的节奏最能体会空间的戏剧性。整体耗时约6-8小时，节奏宜慢，多在小巷中迷路，在广场长椅上发呆，让自己沉浸在中世纪的街巷尺度与宁静氛围里。傍晚时分，当游客散去，华灯初上，古城会显露出另一种魔法般的亲密感。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`市集广场周围的餐馆在午间客流极大，建议错峰用餐，或深入小巷寻找家庭式餐馆。古城内许多小巷台阶湿滑且不平，务必穿防滑的平底鞋。如果夏季戏剧节期间到访，提前数月预订住宿和戏票是必须的，但即使不看戏，夜晚在古城里感受节庆氛围也是极好的体验。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从标志性的“老桥”过河，首先去触摸一下柯赫尔河清凉的河水，感受古城赖以生存的水脉。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直走向心脏地带——宏大的斜坡式市集广场，在著名的“双翼阶梯”前驻足，想象几个世纪以来市民集会和审判在此举行的场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要爬上那拥有不对称双塔的圣米迦勒市教堂内部，在幽暗宁静的中殿里寻找那些精美的中世纪浮雕和彩窗，并挑战登上高塔的狭窄旋梯。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂后方钻进如迷宫般的“山羊巷”或“制革匠巷”，让肩膀轻轻擦过两侧色彩斑斓、向外倾斜的古老木筋房墙壁。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻着香味找到隐藏在巷子深处的“盐工博物馆”，亲手触摸粗糙的盐结晶，了解这座城千年财富的秘密源头。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着清晰的指示牌爬上绿树成荫的“城墙之路”，一路抚摸清凉的石砌防御工事，从不同高度和角度回望老城屋顶的波浪。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在亨利希堡——那座雄踞山顶的文艺复兴宫殿里，花上一小时漫步于地方历史艺术博物馆，从考古发现到现代绘画，看懂这座城的灵魂图谱。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前务必抵达至高点“观景台”，找一张长椅坐下，看着夕阳将整个河谷里的木筋房森林染成温暖的蜂蜜色与玫瑰金。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`柯赫尔河南岸公路边停车场旁的空地`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，用长焦镜头压缩空间，可以拍摄到老城建筑群倒映在平静河水中、如同悬浮的仙境画面，晨雾时分效果尤佳。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`市集广场双翼阶梯的中段平台`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光西斜时，站在平台侧面向广场拍摄，能将宏伟的教堂立面、阶梯上的人群和色彩斑斓的山墙一同纳入构图，层次感极强。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“制革匠巷”中部的一个小拐角`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时虽烈，但恰能照亮巷子一侧，另一侧留在阴影中，形成强烈明暗对比，拍摄人物走过或自行车倚墙的瞬间，故事感十足。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`亨利希堡博物馆背后的防御城墙豁口`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚蓝调时刻，从此处用广角镜头俯拍，能囊括脚下层层叠叠的屋顶、蜿蜒的柯赫尔河以及远处现代城区的灯火，古今交融。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`圣米迦勒教堂北塔楼内部`}</h4>
+                  <p className="text-sm text-gray-700">{`透过一个狭小的石窗框，拍摄窗外另一座塔楼和一片红色的屋顶，框架构图让画面如同一幅天然的古典油画。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄木筋房细节时，注意寻找那些有趣的招牌、门环和窗台装饰，它们是当地生活的缩影。使用偏振镜可以有效减少木窗玻璃的反光，让拍摄室内陈列更清晰。尊重居民隐私，避免将镜头直接对准私人住宅的窗户或阳台上的居民。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在市集广场旁一栋15世纪木筋房改造的家庭旅馆，吱呀作响的木地板和低矮的房梁诉说着往事，早晨直接被广场喷泉声和面包车卸货的熟悉喧闹唤醒。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`艺术主题体验`}</h4>
+                  <p className="text-sm text-green-800">{`位于老城边缘一座前修道院建筑内的设计师酒店，房间极高挑，保留着原始壁画碎片，现代家具与古老石墙对话，每个角落都像艺术装置。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`河景静谧享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`柯赫尔河北岸现代化侧的精品酒店，房间拥有整面落地窗和私人阳台，正对老城全景，夜晚看着古城灯光星星点点亮起，喝一杯本地葡萄酿制的白葡萄酒。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`田园郊外民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`距离老城步行20分钟的山坡上，由农庄改建的民宿，主人会提供装满自产果酱的丰盛早餐，晚上在花园里能看见古城在一片黑暗山谷中如金色模型般发光。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城核心区的住宿房间通常较小且不设电梯，预订时需注意。夏季戏剧节和圣诞市场期间房价飙升且一房难求，务必提前规划。选择河北岸的住宿虽然风景好，但每次进入老城都需要过桥上下坡，对体力略有要求。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开施瓦本哈尔好些日子了，我闭上眼，脑海里浮现的不是某个单一的标志性建筑，而是一种整体的、温暖的氛围。那是一幅流动的、充满生活质感的立体长卷。它教会我，一座伟大的城市遗产，其价值不在于它有多么“古老”或“著名”，而在于它如何将厚重的历史编织进当下每一刻的呼吸里。在这里，历史不是玻璃展柜后冰冷的文物，而是你脚下被踩得温润发亮的石板，是面包房空气里熟悉的咸香，是傍晚时分从某扇窗里流淌出的钢琴声。它有一种让人心安理得的缓慢。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率与震撼感的时代，施瓦本哈尔提供了一种截然不同的旅行意义。它不急于向你展示什么，只是坦然地将自己摊开在日光下。它或许没有新天鹅堡的童话标签，也没有科隆大教堂的视觉冲击力，但它拥有一种更珍贵、更稀缺的东西——真实的连续性与生活的烟火气。对于每一位渴望深度游的旅人来说，这里像一堂静心课。它告诉你，真正的欧洲精髓，往往就藏在这些并非热榜第一、却完整保存了自身节奏与灵魂的“次要”古城里。来这里，不只是看风景，更是学习一种与时间和历史共处的、从容不迫的生活方式。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/miltenberg-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    米
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">米尔滕贝格（美因河畔的珍珠）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Miltenberg</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/three-rivers-passau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    帕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕绍（三河交汇之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Passau</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/wartburg-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瓦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓦尔特堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Wartburg Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
