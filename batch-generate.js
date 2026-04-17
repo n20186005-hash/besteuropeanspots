@@ -410,9 +410,14 @@ if (totalSuccessCount > 0) {
     sitemapContent += `  <url>\n    <loc>${baseUrl}/category/${c}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
   });
 
-  // 所有景点页
+  // 只把真实存在对应文件夹的页面加入 sitemap
+  let validPagesCount = 0;
   attractionsData.forEach(a => {
-    sitemapContent += `  <url>\n    <loc>${baseUrl}/attractions/${a.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
+    const pageDir = path.join(rootDir, 'src', 'app', 'attractions', a.slug);
+    if (fs.existsSync(path.join(pageDir, 'page.tsx'))) {
+      sitemapContent += `  <url>\n    <loc>${baseUrl}/attractions/${a.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
+      validPagesCount++;
+    }
   });
 
   sitemapContent += `</urlset>`;
@@ -422,7 +427,7 @@ if (totalSuccessCount > 0) {
     fs.mkdirSync(publicDir, { recursive: true });
   }
   fs.writeFileSync(sitemapPath, sitemapContent, 'utf-8');
-  console.log(`\n🗺️  已自动更新站点地图：sitemap.xml (共包含 ${attractionsData.length + 4} 个页面)`);
+  console.log(`\n🗺️  已自动更新站点地图：sitemap.xml (共包含 ${validPagesCount + 4} 个页面，其中景点 ${validPagesCount} 个)`);
 }
 
 console.log(`\n=========================================`);
