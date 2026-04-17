@@ -1,0 +1,231 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '法鲁人骨礼拜堂 Capela dos Ossos｜用上千骸骨砌成的巴洛克圣殿，一堂直面生死的沉默课 - 最佳欧洲景点',
+  description: '穿过法鲁老城被阳光烤得发暖的鹅卵石小巷，绕过喧闹的游客和晾晒着衬衫的民居阳台，你会偶然发现一扇不起眼的、深色木头的小门。推开门，仿佛一脚踏进了另一个维度。外面阿尔加维的炽烈阳光和蔚蓝海岸的欢快气息瞬间被隔断，取而代之的是一种凉飕飕的、带着陈旧石头和干木头气味的静谧。你的眼睛需要几秒钟来适应昏暗，然后',
+}
+
+export default function CapelaDosOssosFaroPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '法鲁人骨礼拜堂', href: '/attractions/capela-dos-ossos-faro' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`法鲁人骨礼拜堂・Capela dos Ossos (Faro)・葡萄牙・法鲁`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`穿过法鲁老城被阳光烤得发暖的鹅卵石小巷，绕过喧闹的游客和晾晒着衬衫的民居阳台，你会偶然发现一扇不起眼的、深色木头的小门。推开门，仿佛一脚踏进了另一个维度。外面阿尔加维的炽烈阳光和蔚蓝海岸的欢快气息瞬间被隔断，取而代之的是一种凉飕飕的、带着陈旧石头和干木头气味的静谧。你的眼睛需要几秒钟来适应昏暗，然后，景象便如同潮水般将你淹没——不是慢慢展开，而是一下子，整个地。
+四面墙壁，从脚边一直到高高的拱顶，密密麻麻，全是人的骨头。成百上千个头骨，眼窝深邃地凝视着虚空；数不清的股骨和胫骨，被精心排列成整齐的十字形、菱形图案，像一种来自阴间的、沉默的壁纸。光线从高处一扇狭小的窗户斜射进来，灰尘在光柱中舞蹈，照亮那些骨骼凹凸的曲线，让阴影在空洞的眼窝里变得更深。你听不到任何声音，只有自己突然变得很响的呼吸，和心脏在胸腔里咚咚的撞击声。这里没有恐怖博物馆的猎奇感，而是一种压倒性的、庄严的肃穆。空气是凝滞的，仿佛时间本身在这里也化作了骨头，不再流动。
+这座小小的礼拜堂，就安静地依偎在主座教堂的怀抱里，是法鲁老城跳动的心脏深处，一块冷静的、关于永恒的结石。对当地人而言，它并非一个旅游奇观，而是一个在复活节前“圣周”或追思已亡节时会前来静默祈祷的地方。一位看管的老妇人可能坐在角落的凳子上，对闯入的游客报以温和而疏离的微笑，仿佛在说：“看吧，这就是我们所有人的终点，没什么好怕的，也没什么好喧哗的。”最打动人心的，是那份惊人的“秩序感”。死亡在这里被整理、被归类、被赋予了一种诡异的几何美学。它不是混乱的终结，而是一种归位，一种用最直白的物质（我们的身体最终所剩之物）构建出的、指向超越性精神的建筑。祭坛上，巴洛克风格的天使和镀金装饰璀璨夺目，与下方灰白沉默的骨骼墙对话——一边是天堂的荣耀许诺，一边是尘世的必然归宿。这种对比，就是它全部的魅力，也是它给予观者最沉重也最清醒的一击。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过法鲁老城被阳光烤得发暖的鹅卵石小巷，绕过喧闹的游客和晾晒着衬衫的民居阳台，你会偶然发现一扇不起眼的、深色木头的小门。推开门，仿佛一脚踏进了另一个维度。外面阿尔加维的炽烈阳光和蔚蓝海岸的欢快气息瞬间被隔断，取而代之的是一种凉飕飕的、带着陈旧石头和干木头气味的静谧。你的眼睛需要几秒钟来适应昏暗，然后，景象便如同潮水般将你淹没——不是慢慢展开，而是一下子，整个地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`四面墙壁，从脚边一直到高高的拱顶，密密麻麻，全是人的骨头。成百上千个头骨，眼窝深邃地凝视着虚空；数不清的股骨和胫骨，被精心排列成整齐的十字形、菱形图案，像一种来自阴间的、沉默的壁纸。光线从高处一扇狭小的窗户斜射进来，灰尘在光柱中舞蹈，照亮那些骨骼凹凸的曲线，让阴影在空洞的眼窝里变得更深。你听不到任何声音，只有自己突然变得很响的呼吸，和心脏在胸腔里咚咚的撞击声。这里没有恐怖博物馆的猎奇感，而是一种压倒性的、庄严的肃穆。空气是凝滞的，仿佛时间本身在这里也化作了骨头，不再流动。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座小小的礼拜堂，就安静地依偎在主座教堂的怀抱里，是法鲁老城跳动的心脏深处，一块冷静的、关于永恒的结石。对当地人而言，它并非一个旅游奇观，而是一个在复活节前“圣周”或追思已亡节时会前来静默祈祷的地方。一位看管的老妇人可能坐在角落的凳子上，对闯入的游客报以温和而疏离的微笑，仿佛在说：“看吧，这就是我们所有人的终点，没什么好怕的，也没什么好喧哗的。”最打动人心的，是那份惊人的“秩序感”。死亡在这里被整理、被归类、被赋予了一种诡异的几何美学。它不是混乱的终结，而是一种归位，一种用最直白的物质（我们的身体最终所剩之物）构建出的、指向超越性精神的建筑。祭坛上，巴洛克风格的天使和镀金装饰璀璨夺目，与下方灰白沉默的骨骼墙对话——一边是天堂的荣耀许诺，一边是尘世的必然归宿。这种对比，就是它全部的魅力，也是它给予观者最沉重也最清醒的一击。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`法鲁人骨礼拜堂`} />
+                <InfoRow label="英文名称" value={`Capela dos Ossos (Faro)`} />
+                <InfoRow label="正式名称" value={`Capela dos Ossos (Faro)`} />
+                <InfoRow label="国家" value={`葡萄牙`} />
+                <InfoRow label="城市" value={`法鲁`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座建于16世纪末的“劝世”礼拜堂，是葡萄牙境内三座著名人骨教堂之一，以其直接使用修道士骸骨作为建筑材料的极端方式，静默诉说着天主教关于死亡与永恒的深刻教义。`} />
+                <InfoRow label="建筑特色" value={`一座小型单厅礼拜堂，其墙壁和拱门完全由超过1200名嘉布遣会修道士的头骨与长骨整齐镶嵌、砌筑而成，中央是一座精美的巴洛克镀金木雕祭坛，形成生与死、短暂与永恒、骇人与神圣的极致对比。`} />
+                <InfoRow label="建筑风格" value={`朴素外表的曼努埃尔式风格与内部极尽震撼的巴洛克装饰理念相结合，其核心装饰元素是人体骨骼本身，属于一种极其罕见且带有强烈冥想和警示目的的“骨骼巴洛克”风格。`} />
+                <InfoRow label="文化价值" value={`它超越了普通的死亡纪念，是反宗教改革时期葡萄牙天主教“勿忘终亡”思想最直观、最触动人心的实体化身，迫使观者直面生命的有限性，进行一场关于存在本质的哲学与灵性沉思。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`周一至周六 上午10:00 - 下午1:00，下午3:00 - 下午5:00；周日及宗教节日仅在弥撒时间开放（通常为上午）。冬季（11月至2月）开放时间可能略有缩短，夏季旅游旺季可能延长至下午6点。具体安排建议行前查询当地教区通知，因为它不是一个常规旅游景点，而是仍在使用中的宗教场所。`} />
+              <InfoRow label="门票价格" value={`免费入场，但欢迎捐赠以支持教堂维护。捐款箱通常设在入口处，建议投入2-5欧元，这是对这份独特文化遗产的一份尊重。`} />
+              <InfoRow label="地址" value={`Capela dos Ossos, Largo da Sé, 8000-138 Faro, Portugal`} />
+              <InfoRow label="交通方式" value={`从法鲁机场出发：乘坐16路或14路公交车至“Estação”站（法鲁火车站），车程约20分钟，班次每30-40分钟一班。从火车站步行至老城（Cidade Velha）约15分钟，穿过古老的“城市之门”（Arco da Vila）拱门，沿着主座教堂（Sé）旁的蜿蜒小路就能找到。更推荐的方式是直接从机场乘坐出租车，车程约10分钟，费用约10-12欧元。礼拜堂位于老城核心区，所有车辆无法进入石板路区域，最终都需要步行抵达。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要理解这面骨头墙为何会出现在阳光灿烂的阿尔加维，得把时钟拨回16世纪的葡萄牙。那是一个大航海时代荣耀与阴影交织的世纪，也是一个被反宗教改革风暴席卷的天主教世界。在法鲁，当时的统治者是卡斯特罗家族，而这片土地的精神守护者，是严苛苦修的嘉布遣会修道士。他们信奉极端的禁欲主义和“勿忘终亡”的教条，认为时刻思考死亡，是抵御世俗诱惑、确保灵魂得救的最佳良药。大约在1590年代，一个决定在这群修道士中形成：他们需要一座新的小礼拜堂，但资金匮乏。同时，老城和周边地区的墓地因为空间有限，需要被清理，为新的亡者腾出地方。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，一个在今天看来惊世骇俗，在当时却充满宗教合理性的计划诞生了：挖掘出那些已故同伴——同样属于嘉布遣会的修道士们的遗骸。他们相信，这些虔诚者的骨头是神圣的，不应被随意丢弃或遗忘在混乱的公墓里。将这些骸骨“回收利用”，砌进礼拜堂的墙壁，既解决了建筑材料问题，更创造了一个永恒的“劝世”讲堂。每一根股骨，每一个头骨，都曾经是一个祈祷、劳作、苦修的灵魂容器。现在，它们成了最有力的布道词，向后来者无声地呐喊：“看看我们，你将来也是如此！”这并非出于不敬，恰恰相反，是出于最深沉的敬意和一种共同的、对终极命运的承认。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`工匠们（很可能就是修道士自己）以令人惊叹的耐心和近乎神圣的严谨，开始了这项工作。他们清洗、晾晒、分类这些骨骼。长骨被用来砌成墙壁的主体和装饰性的框架，而头骨则被镶嵌在最为醒目的位置，尤其是拱门和壁柱的交接处。据说，总数超过一千二百具。整个工程可能持续了数年，最终在17世纪初完成。当你走近细看，甚至能发现一些骨骼上因疾病或创伤留下的痕迹，历史的个体伤痛就这样被凝固在集体的警示之中。礼拜堂正门上方的铭文刻着那句著名的拉丁文：“我们在此等待你们的加入”，没有半点委婉。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在接下来的几个世纪里，法鲁经历了地震、战争（特别是葡萄牙王位继承战争期间西班牙军队的劫掠），以及1755年那场摧毁里斯本并波及南部的大海啸。老城许多部分损毁严重，但这座人骨礼拜堂却奇迹般地留存了下来。它就像一个沉默的见证者，目睹着外部的繁华与灾难变迁，而内部的时间却仿佛静止。它曾被忽视，甚至一度被用作仓库。直到近现代，随着文化遗产保护意识的兴起和深层旅游的发展，人们才重新发现它那令人不安的美学和巨大的历史价值。它不再仅仅是一个阴森的宗教场所，更成为了一个关于生命、死亡、艺术和哲学的文化地标。今天，那些凝视着你的头骨，已经沉默了四百多年。他们来自一个信仰绝对、生死观念与今人迥异的时代。他们的集体凝视，构成了一股强大的力量，逼着你在21世纪的喧嚣中停下脚步，去思考那些我们平日避而不谈的终极问题。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`拜访这里，更像是一次心灵的短途跋涉，而非普通的景点打卡。强烈建议你在一个工作日的上午，大约十点半左右抵达。这时，晨间的弥撒可能刚刚结束，旅游团大部队尚未涌入，你能获得最宝贵的独处时光。整体游览时间建议预留1到1.5小时，节奏务必放慢。先在外面充满生机的老城街道上调整呼吸，感受南欧的阳光和活力，带着这份对“生”的鲜活感知再步入“死”的领域，对比会更加强烈，冲击也更为深刻。游览的核心不是“看完”，而是“感受”和“思考”，让那种肃穆的氛围慢慢渗透你。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`绝对不要在内部使用闪光灯拍照或大声交谈，这是对场所神圣性和逝者的基本尊重，管理人员会严肃制止。
+穿着需得体，避免过于暴露的沙滩装，毕竟这是一个宗教场所，短裤和吊带可能会被视作不敬。
+虽然免费，但请务必向捐款箱投入几欧元零钱，你的微薄贡献直接用于维护这处独一无二的文化遗产。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开那扇厚重的木门，在门槛处停顿三秒，让你的感官从明亮的室外完全切换到室内昏暗、清凉且无比寂静的异度空间。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直走到小礼拜堂的中央，不要急于看四周的墙壁，而是先抬头仰望祭坛上方那精美绝伦、金光闪闪的巴洛克雕饰，感受宗教艺术对天堂荣耀的极致描绘。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`然后，缓缓将目光下移，让视线水平扫过四周，第一次整体感受被成千上万骸骨包围的震撼，注意骨骼被排列成的几何图案，如巨大的十字架和菱形纹路。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走近左侧或右侧的墙壁，找一个头骨密集的拱门角落，静下心来仔细观察单个头骨的形态，想象它曾经属于一个怎样的人，他有过怎样的思想和生活。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻找并阅读入口上方和祭坛附近的葡萄牙语及拉丁文铭文，特别是那句著名的“Nós ossos que aqui estamos, pelos vossos esperamos”（我们这些在此的骨头，等待着你们的）。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果祭坛前的祈祷凳空着，可以安静地坐下几分钟，不一定要祈祷，只是闭上眼，倾听这片由死亡构筑的空间里那几乎可以触摸到的寂静。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，缓缓退出，在走出门外重新被阳光拥抱的瞬间，回头再看一眼那扇朴素的小门，完成从“死”之冥想重回“生”之世界的过渡仪式。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`入口内侧的视角`}</h4>
+                  <p className="text-sm text-gray-700">{`背对门外光线，拍摄人站在明暗交界处、面向昏暗室内骨骼墙壁的剪影，能强烈表达“踏入冥界”的隐喻，最佳时间是上午侧光射入门口时。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主祭坛金饰与骨骼墙的对比构图`}</h4>
+                  <p className="text-sm text-gray-700">{`站在厅堂中部偏后位置，将金光璀璨的巴洛克祭坛作为画面中心焦点，而两侧灰白的骨骼墙作为延伸的边框，形成天堂与尘世、华丽与朴素的戏剧性对话。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`骨骼图案的几何特写`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个骨骼排列成十字形或菱形图案的墙面局部，在自然侧光（上午最佳）照射时贴近拍摄，突出骨骼的纹理、阴影和工匠构筑的秩序美感，让画面充满抽象的震撼力。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`从礼拜堂内透过古老窗棂拍摄外部老城`}</h4>
+                  <p className="text-sm text-gray-700">{`将焦点对准窗户外法鲁老城的橙瓦屋顶和蓝天，而让窗框及室内昏暗的骨骼成为前景虚影，创造生与死、内与外的时空交错感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`室内光线极其昏暗，务必使用大光圈镜头并调高ISO，宁愿照片有噪点也绝对不要使用闪光灯，闪光会破坏氛围且严重不敬。`}</li>
+                <li>• {`尝试拍摄一些细节，如一个单独的头骨眼窝中的阴影，或阳光恰好照亮的一排胫骨末端，这些局部往往比全景更能传递情感和哲学意味。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸式古城体验`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻由16世纪贵族宅邸改造的精品酒店，房间有着裸露的石墙和古老的木梁，距离人骨礼拜堂仅三分钟步程，夜晚可以独享空无一人的神秘老城巷弄。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`海风与沉思的平衡`}</h4>
+                  <p className="text-sm text-green-800">{`选择位于法鲁海滨区“Ria Formosa”自然保护区旁的现代设计酒店，早晨被鹳鸟叫声唤醒，白天游览完沉重的历史后，晚上可以在沙滩边望着大西洋反思，让自然之力平复心绪。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`修道院风格民宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在城市边缘一座经过精心修复的宁静修道院客房中，体验极简主义的石室空间，享用修女传承配方的自制果酱早餐，让整个旅程都沉浸在一种内省的氛围里。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`本地生活家`}</h4>
+                  <p className="text-sm text-purple-800">{`预订市中心广场附近一户当地建筑师家庭的公寓，拥有一个可以俯瞰屋顶的小阳台，你能像当地人一样去市场买菜，在充满生活烟火气的对比下，再去探访那座沉默的礼拜堂。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`法鲁老城中心区域非常安全，夜晚宁静迷人，但石板路拖行李不便，选择酒店时注意确认是否提供搬运服务或位于平坦路段。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`阿尔加维夏季（7-8月）是绝对旺季，住宿价格飙升且一房难求，若想获得宁静体验，建议选择5-6月或9-10月的平季前往，并提前至少一个月预订心仪的特色住宿。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`走出那扇木门，阿尔加维的阳光几乎有些烫人，海鸥的叫声、摩托车的引擎声、咖啡杯的碰撞声一股脑地涌回耳朵里。那一刻的感觉非常奇异，不是放松，也不是解脱，而是一种深深的“间离”。你会不由自主地摸一下自己的手臂，感受皮肤下的骨骼，想起它们刚刚在室内看到的模样。我们平日里追逐的一切——美食、美景、财富、情爱、成功——在那面墙前，仿佛都被抽离了色彩，显露出它们暂时性的本质。这并非让人悲观，相反，它带来一种奇特的清醒。就像给飞速旋转的生活按下了暂停键，让你看到那个终将到来的句点。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，为什么要把这样一个地方列入旅行清单？不是为了猎奇，不是为了在社交网络上发布一张惊悚的照片。恰恰相反，是为了获得一种在别处难以寻觅的“深度”。真正的深度游，不仅是看更古老的石头，走更偏僻的小路，更是去触碰一个地方的精神内核，去进行一场跨越时空的对话。法鲁人骨礼拜堂，就是葡萄牙民族性格中那抹深沉、甚至略带忧郁的宗教哲思，最赤裸、最直白的物质化呈现。它不提供轻松的愉悦，它提供的是重量。在这个热衷于展示青春、活力与享乐的世界上，它固执地保留了一个角落，让你安静地坐下，与死亡对视。而这，或许是为了让我们更好地理解，何为生存。当你离开法鲁，那片蔚蓝海岸的阳光会显得更加珍贵，每一口海鲜的鲜美会变得更加真实，因为你曾在一个昏暗的房间里，被上千位沉默的导师，教导过关于时间与存在的，最后一课。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/sortelha-portugal" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    索
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">索特利亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sortelha</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alcobaca-monastery" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔科巴萨修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alcobaça Monastery</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bucaco-forest-national-palace" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布萨科国家森林</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Buçaco Forest</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

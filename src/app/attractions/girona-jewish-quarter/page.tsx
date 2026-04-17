@@ -1,0 +1,223 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '赫罗纳犹太区 Girona Jewish Quarter | 迷失在时光迷宫，触碰中世纪犹太灵魂 - 最佳欧洲景点',
+  description: '穿过繁华的翁亚尔河岸，一踏上那条名叫“福尔萨”的陡峭坡道，世界瞬间就变了。喧嚣被吸走，光线陡然暗下来，空气里弥漫着一种凉丝丝的、带着古老石头和湿土气息的味道。你仿佛不是走进一个街区，而是跌入了一个由时间和石头编织的迷宫。脚下的石板被几个世纪的脚步打磨得光滑如镜，在偶尔从高墙缝隙漏下的天光里，泛着幽暗',
+}
+
+export default function GironaJewishQuarterPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '赫罗纳犹太区', href: '/attractions/girona-jewish-quarter' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`赫罗纳犹太区・Girona Jewish Quarter・西班牙・赫罗纳`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`穿过繁华的翁亚尔河岸，一踏上那条名叫“福尔萨”的陡峭坡道，世界瞬间就变了。喧嚣被吸走，光线陡然暗下来，空气里弥漫着一种凉丝丝的、带着古老石头和湿土气息的味道。你仿佛不是走进一个街区，而是跌入了一个由时间和石头编织的迷宫。脚下的石板被几个世纪的脚步打磨得光滑如镜，在偶尔从高墙缝隙漏下的天光里，泛着幽暗的光泽。墙壁是那种厚重的赭石色和灰黄色，一栋紧挨着一栋，向上争夺着狭小的天空，留下一条仅容两人侧身而过的“一线天”。在这里，地图是失效的，最好的导航仪是你的好奇心和直觉。拐过一个弯，可能是一座静谧的小广场，阳光终于慷慨地洒下，墙角的九重葛开得如火如荼；再钻进一条拱廊，又是无尽的、通往未知的阶梯，只听见自己脚步的回声和远处隐约的水流声。
+这个被称为“El Call”的地方，早已不是那个封闭的犹太社区，但它依然保持着一种内向的、沉思的气质。阳台上晾晒着现代居民的衣物，小巧的门洞里藏着设计师工作室或古董店，咖啡的香气从某扇半开的门后飘出。然而，当你用手指拂过墙上一块刻着模糊希伯来文字的石头，或是抬头看见那扇为了符合当时律法而刻意开得很小、被称为“犹太窗”的窗户时，你会强烈地感到，过去的灵魂从未离开。它最打动人的，正是这种层叠感——当下的生活气息，像一层薄薄的釉，覆盖在深沉的历史基底上，两者共生，互不打扰，却又时刻对话。
+置身其中，你才能理解什么叫“社区的防御性布局”。这不是为了美观，而是为了生存。狭窄是为了易于防守，高墙是为了隔绝外界的视线与威胁，内部错综复杂则像一座堡垒，保护着其核心：家庭、学堂、仪式浴室和那些在黑暗中熠熠生辉的智慧。走在这里，你触摸到的不是冰冷的历史遗迹，而是一个曾经充满生命力的社群跳动的脉搏，是他们在压抑中依然追求光明与知识的坚韧灵魂。那种在压迫中迸发的文化力量，是这个地方永恒的核心魅力。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过繁华的翁亚尔河岸，一踏上那条名叫“福尔萨”的陡峭坡道，世界瞬间就变了。喧嚣被吸走，光线陡然暗下来，空气里弥漫着一种凉丝丝的、带着古老石头和湿土气息的味道。你仿佛不是走进一个街区，而是跌入了一个由时间和石头编织的迷宫。脚下的石板被几个世纪的脚步打磨得光滑如镜，在偶尔从高墙缝隙漏下的天光里，泛着幽暗的光泽。墙壁是那种厚重的赭石色和灰黄色，一栋紧挨着一栋，向上争夺着狭小的天空，留下一条仅容两人侧身而过的“一线天”。在这里，地图是失效的，最好的导航仪是你的好奇心和直觉。拐过一个弯，可能是一座静谧的小广场，阳光终于慷慨地洒下，墙角的九重葛开得如火如荼；再钻进一条拱廊，又是无尽的、通往未知的阶梯，只听见自己脚步的回声和远处隐约的水流声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这个被称为“El Call”的地方，早已不是那个封闭的犹太社区，但它依然保持着一种内向的、沉思的气质。阳台上晾晒着现代居民的衣物，小巧的门洞里藏着设计师工作室或古董店，咖啡的香气从某扇半开的门后飘出。然而，当你用手指拂过墙上一块刻着模糊希伯来文字的石头，或是抬头看见那扇为了符合当时律法而刻意开得很小、被称为“犹太窗”的窗户时，你会强烈地感到，过去的灵魂从未离开。它最打动人的，正是这种层叠感——当下的生活气息，像一层薄薄的釉，覆盖在深沉的历史基底上，两者共生，互不打扰，却又时刻对话。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`置身其中，你才能理解什么叫“社区的防御性布局”。这不是为了美观，而是为了生存。狭窄是为了易于防守，高墙是为了隔绝外界的视线与威胁，内部错综复杂则像一座堡垒，保护着其核心：家庭、学堂、仪式浴室和那些在黑暗中熠熠生辉的智慧。走在这里，你触摸到的不是冰冷的历史遗迹，而是一个曾经充满生命力的社群跳动的脉搏，是他们在压抑中依然追求光明与知识的坚韧灵魂。那种在压迫中迸发的文化力量，是这个地方永恒的核心魅力。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`赫罗纳犹太区`} />
+                <InfoRow label="英文名称" value={`Girona Jewish Quarter`} />
+                <InfoRow label="正式名称" value={`Girona Jewish Quarter`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`赫罗纳`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是伊比利亚半岛乃至全欧洲保存最完好、规模最大的中世纪犹太社区遗迹之一，被称为“El Call”。`} />
+                <InfoRow label="建筑特色" value={`错综复杂如迷宫般的狭窄街巷、陡峭的石阶、高耸的石墙和拱门，构成一个与世隔绝的垂直世界。`} />
+                <InfoRow label="建筑风格" value={`以加泰罗尼亚罗马风与哥特式石砌建筑为基底，融合了犹太社区特有的内向性和防御性布局。`} />
+                <InfoRow label="文化价值" value={`它是一部石砌的史书，沉默地诉说着中世纪西班牙犹太社群长达六个世纪的繁荣、智慧、迫害与最终消散。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`核心街区（街道与广场）全天24小时开放。区内的重要景点如赫罗纳犹太历史博物馆开放时间通常为周二至周六 10:00-18:00（冬季可能提前至17:00关闭），周日及节假日 10:00-14:00，周一闭馆。建议行前查询官网确认，因季节和节假日（如圣周、当地节庆）会有调整。`} />
+              <InfoRow label="门票价格" value={`漫步犹太区迷宫般的街道本身完全免费。参观犹太历史博物馆需购票，常规票价约6欧元，学生、老人及团体有优惠票，12岁以下儿童通常免费。赫罗纳的一些通票（如包含大教堂、阿拉伯浴室等景点的组合票）也可能包含该博物馆，购买前可对比。`} />
+              <InfoRow label="地址" value={`Call de la Força, 17004 Girona, Spain`} />
+              <InfoRow label="交通方式" value={`从最近的巴塞罗那-埃尔普拉特机场出发：最便捷的方式是乘坐直达巴士（约1小时15分钟）或先乘火车到巴塞罗那桑兹火车站，再转乘前往赫罗纳的火车（AVE高速列车约38分钟，区域火车约1小时20分钟）。从赫罗纳火车站出站后，步行约15-20分钟即可穿过翁亚尔河，抵达老城山脚下的入口。城内无需交通工具，全靠双脚探索。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`赫罗纳犹太区的故事，始于阴影与微光交织的中世纪早期。大约从9世纪开始，犹太人就已在此定居，他们被称为“Call”，这个词源于希伯来语的“Kahal”，意为“社区”。最初的他们并非被强制隔离，而是基于共同信仰和生活习惯自然聚居。到了12、13世纪，随着加泰罗尼亚经济的繁荣和统治者相对宽容的政策，赫罗纳的犹太社区进入了黄金时代。这里成为了一个活跃的知识与金融中心。狭窄的巷弄里，不仅住着商人、工匠，更孕育着思想家、科学家和《托拉》学者。你可以想象，在那一个个石砌小窗后，烛光下进行着如何激烈的神学辩论、精密的数学计算，或是对星辰运行的观测。社区拥有自己的律法、学校、医院、屠宰场和公墓，是一个功能完备的“城中之城”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，围墙能提供物理保护，却挡不住时代的偏见与仇恨。13世纪末，随着欧洲反犹浪潮的兴起，情况开始恶化。基督教当局颁布法令，要求犹太人佩戴识别标志，并禁止他们担任公职。社区的空间被不断压缩，高墙从一种文化选择变成了强制的隔离。1391年，席卷西班牙的迫害风暴也降临赫罗纳，暴徒冲进犹太区，烧杀抢掠，许多犹太人被迫改信基督教以保性命，社区遭到重创。那些石墙见证了哭喊与火焰，缝隙里仿佛还能渗出当年的恐惧。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最致命的一击在1492年来临。天主教双王伊莎贝拉和斐迪南完成了“收复失地运动”，并颁布了著名的《阿兰布拉诏令》，勒令西班牙境内所有犹太人在改信基督教与流放之间做出选择。赫罗纳犹太社区，这个延续了六百年的智慧灯塔，在这一年彻底熄灭。居民们变卖家产，携带着所能携带的记忆与知识，踏上了前往北非、意大利或奥斯曼帝国的流亡之路。他们的房屋、会堂被没收、改造，分配给基督徒居民，或并入相邻的社区。犹太区的地理实体虽然留存，但其灵魂已被抽空，陷入了长达数个世纪的沉睡。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间到了20世纪中期，学者们开始重新发现和评估这片被遗忘的街区。考古发掘逐渐展开，尘封的历史被一层层揭开。人们辨认出昔日犹太澡堂（Mikveh）的遗址，找到了古老学堂的痕迹。最重要的是，那份关于一个伟大文明分支曾在此生根、绽放、又被强行拔起的记忆，被重新唤醒并珍视。今天，当我们漫步于此，脚下的每一块石板，墙上的每一道刻痕，都不再是无言的石头。它们是一个失落世界的回声，提醒着我们包容的可贵与偏执的代价。这里的修复与保护，不再是为了怀旧，而是为了铭记——铭记那些为人类知识星空贡献过光芒的普通人与学者，铭记一段复杂而深刻的共存历史。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正感受犹太区的灵魂，请务必留出至少半个白天（4-5小时）。建议在上午9点左右抵达，这时游客尚少，阳光正以倾斜的角度切入深巷，光影魔术刚刚开始，氛围最为宁静神秘。从山脚下的“福尔萨街”入口开始你的向上探索，这是历史中的主通道。整体节奏宜慢不宜快，核心不在于“走完”，而在于“迷失”与“发现”。允许自己在某个突然出现的观景台发呆，在小广场的长椅上坐下，聆听城市苏醒的声音。这样的安排能让你在中午人流高峰前，深度体验街区静谧的质感，并有充足时间参观犹太历史博物馆，理解你眼前一切背后的厚重故事。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿一双绝对舒适、防滑的鞋子，那些百年石板路湿滑且不平，高跟鞋是灾难。尽量避开正午时分在主要巷道人挤人，那时旅行团最多，失去了静谧感。犹太历史博物馆虽小但信息量巨大，建议提前网上购票预约入馆时间，避免现场排队。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从地标性的“福尔萨街”石拱门下开始，触摸那冰凉而光滑的墙基，让自己正式进入中世纪的时空隧道。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`毫不犹豫地拐进第一条吸引你的狭窄侧巷，比如“圣洛伦索街”，让自己彻底迷失在由石阶、拱门和突然出现的死胡同构成的立体迷宫里。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在迷宫般穿梭后，努力找到那片被古老房屋环抱的“犹太区中心广场”，这里是社区昔日跳动的心脏，停下来感受阳光与阴影在此处的平衡。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观“赫罗纳犹太历史博物馆”，它坐落在一座可能曾是犹太会堂的建筑里，通过展品让之前所有的感官印象获得历史的注解。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从博物馆出来后，寻找并攀爬那段著名的“犹太区阶梯”，感受攀登的喘息，并在阶梯中段的平台回望，捕捉下方层叠屋顶的如画风景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`让阶梯将你引向更高处，最终从犹太区另一侧的出口“钻”出来，豁然开朗地面对赫罗纳大教堂的宏伟侧影，完成一次从隐秘到宏伟的戏剧性转换。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，沿着城墙步道漫步而下，或找个河岸边的露天咖啡馆坐下，让刚才密集的历史信息与感官冲击慢慢沉淀。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`福尔萨街入口仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点左右，站在街道开端，用广角镜头向上拍摄陡峭坡道与两侧压迫感十足的高墙，捕捉石阶引导视线通往未知光明的纵深感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`犹太区阶梯中段框景`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点后，阳光能照亮部分阶梯时，站在阶梯中段的平台，以古老的石拱门为画框，拍摄下方蜿蜒小巷和红瓦屋顶的层次分明的景致。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`中心广场的几何光影`}</h4>
+                  <p className="text-sm text-gray-700">{`正午前后，当阳光近乎垂直射入小广场，寻找墙壁上由晾衣绳、窗棂和植物投射出的清晰几何阴影，拍摄极具线条感和生活气息的画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`翁亚尔河对岸全景`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏时分，走到河对岸的“红杆桥”附近，用长焦镜头压缩空间，拍摄犹太区依山而建的建筑群全貌，暖色调灯光初上时最为迷人。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`这里的光影变化极快，狭窄空间适合利用明暗对比营造氛围感，建议使用大光圈镜头。拍摄民居门窗和阳台时务必保持尊重，避免打扰居民隐私。阴雨天气的石板路反射着天光，其实是拍摄幽静质感的最佳时机。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在翁亚尔河畔由老房子改建的精品客栈，开窗便是潺潺流水与色彩斑斓的“红杆桥”，夜晚伴着水声入眠，清晨在无人打扰的河岸散步。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`入住犹太区边缘一栋经过精心修复的14世纪贵族宅邸，房间保留着原始的石墙和木梁，每个角落都散发着历史的气息，管家会为你讲述建筑的老故事。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻位于赫罗纳郊外一座宁静庄园内的五星级酒店，享受田园诗般的泳池和花园，同时酒店提供专车随时送你前往老城探索，动静皆宜。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`旺季（春夏季及圣周期间）赫罗纳住宿非常紧俏，务必提前数月预订。老城内的酒店多有特色，但需注意部分房间窗户较小，且夜间可能听到石板路上的脚步声。选择河岸区住宿，既能享受便利与风景，又比核心老城更显宁静。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开赫罗纳犹太区很久以后，盘旋在脑海里的，不是某个具体的建筑或景点，而是一种感觉——那种在绝对静谧中与无数过往生命悄然共处的感觉。在这个每寸空间都被极致利用的石头迷宫里，你被迫慢下来，弯腰穿过低矮的拱门，侧身让过对面的行人，指尖无意识地划过墙壁。正是在这种身体的参与中，历史不再是书本上扁平的文字，它成了可触摸的温度、可呼吸的空气、可聆听的回响。你会想象，几百年前，是否也有一个孩子匆匆跑过这条石阶去上学？是否也有一位母亲在同样的窗口张望？那种跨越时空的平凡连接，让人心生谦卑与感动。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求效率、崇尚开阔和透明的快节奏世界里，犹太区像一个坚定的“反义词”。它用它的狭窄、曲折和幽暗，守护着一种不同的价值观：内向的深度、社区的凝聚力、在有限中创造无限的智慧，以及在逆境中保存火种的坚韧。它提醒我们，文明的丰饶不一定体现在广场的宏大，也可能隐藏在巷陌的深邃之中。来到这里，不仅仅是为了一睹“保存最完好的中世纪犹太区”这个名号，更是为了完成一场内心的修行。它教会你在迷失中找到方向，在幽暗中看见光，在沉默的石头上读到最澎湃的史诗。对于任何一位渴望超越表面打卡、希望用皮肤和心灵去丈量历史的旅人而言，赫罗纳的这片迷宫，无疑是一生中必须前来“迷失”一次的地方。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/coca-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    可
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">可可城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Coca Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/santillana-del-mar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    桑
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">桑蒂利亚纳德尔马尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Santillana del Mar</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kaunas-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    考
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">考纳斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kaunas Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

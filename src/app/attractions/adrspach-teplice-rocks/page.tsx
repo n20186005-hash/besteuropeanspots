@@ -1,0 +1,239 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿德尔什帕赫-特普利采岩石群 Adršpach-Teplice Rocks｜闯入中欧的《魔戒》异世界，漫步亿万年雕琢的砂岩迷宫 - 最佳欧洲景点',
+  description: '朋友，想象一下，你正走在一条寻常的捷克乡村小路上，两旁是安静的树林和木屋。然后，你转过一个弯，世界突然变了。前方不再是温和的丘陵，而是一道由灰色巨岩组成的、高耸入云的沉默城墙，突兀地拔地而起，像一群被瞬间石化的远古巨人，正低头凝视着你。那一瞬间，你呼吸会一滞，心里只有一个词：中土世界。没错，这就是阿',
+}
+
+export default function AdrspachTepliceRocksPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '阿德尔什帕赫-特普利采岩石群', href: '/attractions/adrspach-teplice-rocks' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿德尔什帕赫-特普利采岩石群・Adršpach-Teplice Rocks・捷克・位于赫拉德茨-克拉洛韦州，邻近小镇阿德尔什帕赫和特普利采`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下，你正走在一条寻常的捷克乡村小路上，两旁是安静的树林和木屋。然后，你转过一个弯，世界突然变了。前方不再是温和的丘陵，而是一道由灰色巨岩组成的、高耸入云的沉默城墙，突兀地拔地而起，像一群被瞬间石化的远古巨人，正低头凝视着你。那一瞬间，你呼吸会一滞，心里只有一个词：中土世界。没错，这就是阿德尔什帕赫岩石群给你的第一份见面礼——纯粹的、压倒性的视觉震撼。
+走进岩石的“城门”，你就踏入了一个截然不同的维度。空气立刻变得清凉而湿润，充满了苔藓、腐烂树叶和石头本身散发的、淡淡的矿物质气味。脚下的路不再是泥土，而是被无数脚印打磨得光滑的砂岩小径，蜿蜒深入巨石阵的腹地。你的耳朵会收集到各种细微的声音：风在高高的石顶间穿梭发出的呜咽声，不知名的鸟儿在岩缝中清脆的鸣叫，还有自己心跳的、放大了的回响。阳光成了这里最奢侈的魔术师，只有在正午时分，它才能勉强挤进一些狭窄的缝隙，在长满青苔的岩壁上投下锐利如刀的金色光斑，其余时间，峡谷深处是永恒的、静谧的幽蓝黄昏。
+这里没有咖啡馆，没有纪念品商店（至少在岩石迷宫深处没有），它存在的意义就是其本身。你会遇到当地的徒步者，他们神情专注，脚步轻快，对每一处著名的岩石如数家珍——“看，那是‘糖面包’，那是‘情侣石’”。对他们而言，这里不是景点，而是后院一座可以随时来汲取能量和寂静的圣殿。它的核心魅力，就在于这种极致的对比：在人口稠密、历史悠久的欧洲腹地，竟然藏着如此一片原始、野性、充满神话感的失落世界。你不是在游览，你是在探险，是在一部由大地亲自书写的、尚未完结的史诗中穿行。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，想象一下，你正走在一条寻常的捷克乡村小路上，两旁是安静的树林和木屋。然后，你转过一个弯，世界突然变了。前方不再是温和的丘陵，而是一道由灰色巨岩组成的、高耸入云的沉默城墙，突兀地拔地而起，像一群被瞬间石化的远古巨人，正低头凝视着你。那一瞬间，你呼吸会一滞，心里只有一个词：中土世界。没错，这就是阿德尔什帕赫岩石群给你的第一份见面礼——纯粹的、压倒性的视觉震撼。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走进岩石的“城门”，你就踏入了一个截然不同的维度。空气立刻变得清凉而湿润，充满了苔藓、腐烂树叶和石头本身散发的、淡淡的矿物质气味。脚下的路不再是泥土，而是被无数脚印打磨得光滑的砂岩小径，蜿蜒深入巨石阵的腹地。你的耳朵会收集到各种细微的声音：风在高高的石顶间穿梭发出的呜咽声，不知名的鸟儿在岩缝中清脆的鸣叫，还有自己心跳的、放大了的回响。阳光成了这里最奢侈的魔术师，只有在正午时分，它才能勉强挤进一些狭窄的缝隙，在长满青苔的岩壁上投下锐利如刀的金色光斑，其余时间，峡谷深处是永恒的、静谧的幽蓝黄昏。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里没有咖啡馆，没有纪念品商店（至少在岩石迷宫深处没有），它存在的意义就是其本身。你会遇到当地的徒步者，他们神情专注，脚步轻快，对每一处著名的岩石如数家珍——“看，那是‘糖面包’，那是‘情侣石’”。对他们而言，这里不是景点，而是后院一座可以随时来汲取能量和寂静的圣殿。它的核心魅力，就在于这种极致的对比：在人口稠密、历史悠久的欧洲腹地，竟然藏着如此一片原始、野性、充满神话感的失落世界。你不是在游览，你是在探险，是在一部由大地亲自书写的、尚未完结的史诗中穿行。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿德尔什帕赫-特普利采岩石群`} />
+                <InfoRow label="英文名称" value={`Adršpach-Teplice Rocks`} />
+                <InfoRow label="正式名称" value={`Adršpach-Teplice Rocks`} />
+                <InfoRow label="国家" value={`捷克`} />
+                <InfoRow label="城市" value={`位于赫拉德茨-克拉洛韦州，邻近小镇阿德尔什帕赫和特普利采`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`欧洲中部规模最大、形态最奇特的砂岩岩石城，是地质学与自然美学的活标本。`} />
+                <InfoRow label="建筑特色" value={`这不是人工建筑，而是大自然的“建筑杰作”：由亿万年的风、水和冰侵蚀形成的数十米高砂岩塔、峡谷、石墙和迷宫。`} />
+                <InfoRow label="建筑风格" value={`天然形成的哥特式与奇幻风格，宛如一座被森林包裹的巨型露天自然教堂与城堡的混合体。`} />
+                <InfoRow label="文化价值" value={`它不仅是地质奇观，更是激发无数艺术家、诗人和电影人灵感的源泉，是捷克民族珍视并精心保护的自然文化遗产。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`主要入口（阿德尔什帕赫侧）通常为全年开放，但具体路径开放时间随季节变化。旺季（四月至十月）一般为上午8:00至下午6:00；淡季（十一月至三月）通常为上午9:00至下午4:00，部分险峻或结冰的步道可能关闭。最后入园时间通常在关闭前一小时。建议出行前务必查阅官网确认，冬季大雪后开放情况不稳定。`} />
+              <InfoRow label="门票价格" value={`成人票约为150捷克克朗（约6欧元）。6-15岁儿童、学生及65岁以上老人享有优惠票。6岁以下儿童免费。家庭套票通常更划算。门票在两个岩石群区域（阿德尔什帕赫和特普利采）通用，但需注意它们是两个独立入口，相距几公里，之间有连接步道。`} />
+              <InfoRow label="地址" value={`Adršpašské skály, 549 57 Adršpach, Czech Republic`} />
+              <InfoRow label="交通方式" value={`从布拉格出发是最常见选择。在布拉格中央火车站搭乘前往Trutnov方向的列车，在“Staré Město nad Metují”或“Teplice nad Metují”站下车（车程约2.5-3小时）。然后转乘当地巴士前往“Adršpach, Skály”站（车程约15-20分钟）。巴士班次有限，特别是周末和淡季，务必提前查询时刻表。自驾是最灵活的方式，从布拉格沿E67公路东北方向行驶约140公里，车程约2小时，景区入口处有大型收费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲这片岩石的故事，我们得把时钟拨回到差不多九千万年前的白垩纪晚期。那时候，这里可不是陆地，而是一片温暖的浅海。无数的沙粒从远古的河流中被冲刷下来，在这里的海床上层层沉淀，经过千万年的压实，形成了厚达数百米的砂岩层。后来，地壳运动让这片海洋抬升，形成了波希米亚高原。真正的魔法，是从海水退去后才开始的。雨水、河流、冰川期反复的冻结与融化，还有永不停歇的风，像一群最有耐心的雕刻家，开始对着这巨大的砂岩块进行创作。它们沿着岩石的垂直节理一点点侵蚀、切割，软的部分被带走，坚硬的部分留存下来。这个缓慢到几乎无法察觉的过程持续了数百万年，最终雕琢出了我们今天看到的这些石塔、石柱、深谷和石桥。所以，你指尖触摸的每一道沟壑，都是风与水的签名，是真正意义上的“沧海桑田”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`人类很晚才真正“发现”并走进这片岩石迷宫。在中世纪，它茂密的森林和险峻的地形被视为不可逾越的天然屏障，或许只有少数猎人和逃犯曾涉足其中。它的名字第一次出现在地图上，要等到18世纪。当时，浪漫主义思潮席卷欧洲，人们开始重新审视自然，尤其是那些壮观、奇特、能激发崇高感与恐惧感的景象。阿德尔什帕赫和特普利采的岩石群，正好符合这种审美。1770年左右，当地的一位贵族在岩石中开辟了最早的小径，吸引了第一批敢于冒险的浪漫主义诗人、画家和贵族前来“朝圣”。他们被这里的奇异景观震撼，将其比作“波希米亚的瑞士”，名声逐渐传开。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，真正的考验在20世纪。二战期间，这片难以穿越的区域成了抵抗战士和避难者的天然藏身所。岩石的缝隙和洞穴庇护了许多生命。战后，它被正式确立为国家自然保护区，得到了系统的保护和研究。但另一个隐形的“战争”仍在继续——那就是与人类足迹的对抗。日益增长的游客数量对脆弱的砂岩生态系统构成了压力。苔藓被踩踏，岩石表面被磨损。这迫使管理者采取了更加严格的措施：铺设固定的木栈道和阶梯，规划单向游览线路，限制每日游客数量。今天的游览路线，本身就是一部人类如何学习与极致自然景观共存的编年史。它不再是一片蛮荒之地，而是一个被精心呵护、在保护与展示之间寻找平衡的活的博物馆。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`有趣的是，这片岩石群并非铁板一块。它以一条公路为界，分成了阿德尔什帕赫和特普利采两部分。阿德尔什帕赫一侧的岩石更为集中、高耸，路线也更“观光化”，有湖泊甚至小舟可以乘坐。而特普利采一侧则更加辽阔、原始，路径更长，探险感更强，需要更好的体力。两者由一条漫长的森林步道连接，仿佛这个巨石王国的两个性格迥异的省份。几百年的游览史，也在岩石上留下了文化的印记。许多形状独特的巨石都被赋予了名字：“市长和他的妻子”、“巨人城堡”、“哥特式门廊”……这些名字充满了民间想象力，让沉默的石头也有了故事和灵魂。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`我强烈建议你花上一整天（至少6-7小时）来完整感受这片岩石群的魅力。最佳方案是“早进晚出”。早上9点前抵达阿德尔什帕赫主入口，趁大批旅行团尚未涌入时，享受清晨峡谷的宁静与最佳光线。首先快速穿过前半段较为“常规”的路线，直达深处的心脏地带。然后，如果你体力充沛，一定要挑战连接阿德尔什帕赫与特普利采岩石的“西尔伯斯坦之路”，这段约4公里的森林徒步是切换场景、调整节奏的完美过渡。下午在特普利采岩石群中深入探索，那里的氛围更加孤寂磅礴。这样的安排能让你体验到从精致奇崛到苍茫野性的完整光谱，避免审美疲劳，也完美避开了人流高峰。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿防滑耐磨的徒步鞋，很多路段是湿滑的岩石台阶和铁梯，普通运动鞋非常危险。
+周末和捷克公共假日游客极多，尽量选择工作日前往，否则会在“鼠洞”等狭窄处排长队。
+景区内几乎没有网络信号，提前在入口处拿一份纸质地图并拍下路线图至关重要。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从阿德尔什帕赫主入口购票后，立刻沿着木栈道加速穿过初期较为平缓的“前厅”区域。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在第一个主要岔路口毫不犹豫地右转，直奔“大广场”，在那里被宛如露天剧场的环形岩壁瞬间包围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`手脚并用地攀爬“鼠洞”狭窄的铁梯，从黑暗的岩缝中钻出后获得俯瞰部分峡谷的奖励视野。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到“糖面包”岩脚下抬头仰望，感受这座标志性石塔近乎完美的圆锥形所带来的几何震撼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在静谧的“岩石湖”边稍作停留，甚至可以乘坐船夫撑篙的小木船划过墨绿色的湖水，从水上仰视垂直的岩壁。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在湖后的餐厅简单午餐后，鼓起勇气踏上通往特普利采岩石群的森林步道，享受一个小时纯粹的自然徒步。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`进入特普利采区域后，重点探索“巨人城堡”和“萨克森大厅”这两片最为宏伟和复杂的岩石迷宫。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前从特普利采的出口离开，回望被夕阳染成金红色的岩石剪影，结束这场史诗徒步。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`阿德尔什帕赫“大广场”中心仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点左右，阳光能照亮一侧岩壁，站在广场中心用广角镜头向上拍摄，能捕捉到环形岩壁的压迫感与天空形成的强烈对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“岩石湖”小舟之上`}</h4>
+                  <p className="text-sm text-gray-700">{`乘坐小舟行至湖心时，让船夫稍停，用长焦镜头拍摄对岸岩壁在水中的完美倒影，构图力求简洁对称。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`特普利采“巨人城堡”观景台`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，夕阳开始为岩石镀上暖色调，从这个制高点可以拍下无数石笋林立的全景，充满魔幻色彩。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“哥特式门廊”框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`在任何时候，寻找那些天然形成的岩石拱门或狭窄缝隙，将你的同伴或远处的风景作为焦点置于“门”中，瞬间增加画面的故事性和纵深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`森林步道回望点`}</h4>
+                  <p className="text-sm text-gray-700">{`在连接两片岩石区的森林步道中途，有几个回头点可以远眺阿德尔什帕赫岩石群的全貌，用树木作为前景，拍摄它如同远方海市蜃楼般的景象。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`峡谷内光线昏暗且对比强烈，建议使用相机RAW格式拍摄以便后期调整阴影和高光。无人机飞行在保护区内是严格禁止的，请务必遵守规定。耐心等待没有其他游客入镜的瞬间，是提升照片质感的关键。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`岩石脚下的温馨民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`选择阿德尔什帕赫村里由家庭经营的Penzion，开窗就能看见岩石尖顶，晚上享受房东妈妈烹饪的传统捷克炖牛肉。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特普利采附近的疗愈酒店`}</h4>
+                  <p className="text-sm text-green-800">{`住在特普利采温泉镇的历史酒店里，白天徒步耗尽体力后，晚上正好去泡个舒缓的硫磺温泉，完美搭配。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`森林边缘的隐世木屋`}</h4>
+                  <p className="text-sm text-yellow-800">{`在连接两个景区的森林附近租一栋传统小木屋，清晨在鸟鸣中醒来，步行几分钟就能进入秘境，享受独家入场券。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`克拉洛夫小镇的历史宫殿`}</h4>
+                  <p className="text-sm text-purple-800">{`如果不介意开车半小时，住在更远的美丽小镇克拉洛夫，选择一座文艺复兴风格的宫殿酒店，将自然奇观与波希米亚人文历史体验结合。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季和秋季周末的住宿非常紧俏，务必提前数月预订。村庄和小镇治安极好，但夜间几乎没有夜生活，享受的是绝对的宁静。如果自驾，选择住宿地点灵活性更大；如果依赖公交，务必确认住宿地点靠近巴士站。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当我最终从特普利采的出口走出，回头望向那片在暮色中渐渐融为一体的、深蓝色的岩石剪影时，我感到的不仅仅是一天徒步后的疲惫，更多的是一种深深的平静与谦卑。在这个我们习惯于用水泥和钢铁塑造世界的时代，阿德尔什帕赫-特普利采岩石群是一个固执的提醒者。它提醒我们，最宏伟、最奇幻、最持久的“建筑”，并非出自人类之手，而是时间和自然元素的杰作。它不说话，只是屹立在那里，就足以让我们放下手机，停下匆忙的脚步，重新思考我们与这颗星球的关系。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里不像那些闻名遐迩的大教堂或宫殿，承载着某个帝王或教宗的野心。它只承载着风的故事、水的记忆和光的游戏。它之所以值得每一个热爱深度游的旅人前来，正是因为它提供了一种纯粹的、去除了一切人类文明装饰的“沉浸感”。在这里，你不是在阅读历史，你是在触摸地质纪年；你不是在欣赏艺术，你是在漫步于一间尚未被完全解读的自然圣殿。它会洗去你眼睛里的尘嚣，给你的想象力插上翅膀。当你在这片石林中穿行一日，你会觉得，回到那个所谓的“现实世界”，反而像是一种短暂的穿越。这片岩石，才是这个星球上更古老、更沉默、也更真实的真相。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/dolni-vitkovice-industrial-site" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    下
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">下维特科维采工业遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dolní Vítkovice</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/litomysl-castle-and-historic-center" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    利
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">利托米什尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Litomyšl</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/plzen-historical-underground" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    皮
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">皮尔森历史地下城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Plzeň Historical Underground</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

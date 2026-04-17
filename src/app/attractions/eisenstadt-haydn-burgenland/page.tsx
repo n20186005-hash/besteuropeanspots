@@ -1,0 +1,237 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '艾森施塔特 Eisenstadt｜海顿之城，新古典主义优雅与葡萄园风情的慢生活交响 - 最佳欧洲景点',
+  description: '如果说维也纳是交响乐辉煌的音乐厅，那么艾森斯塔特就是它最私密、最温暖的前奏练习室。火车缓缓进站，你第一眼看到的不是巍峨的城堡，而是一片被阳光晒得暖洋洋的、低矮屋顶的和谐景象。空气里有种特别的甜味，那是从城市边缘广袤的葡萄园飘来的，混合着老面包店刚出炉的“格尔施特拉泽尔”面包的黄油香。走在铺着鹅卵石的',
+}
+
+export default function EisenstadtHaydnBurgenlandPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '艾森施塔特', href: '/attractions/eisenstadt-haydn-burgenland' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`艾森施塔特・Eisenstadt・奥地利・艾森施塔特`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`如果说维也纳是交响乐辉煌的音乐厅，那么艾森斯塔特就是它最私密、最温暖的前奏练习室。火车缓缓进站，你第一眼看到的不是巍峨的城堡，而是一片被阳光晒得暖洋洋的、低矮屋顶的和谐景象。空气里有种特别的甜味，那是从城市边缘广袤的葡萄园飘来的，混合着老面包店刚出炉的“格尔施特拉泽尔”面包的黄油香。走在铺着鹅卵石的豪普特街上，脚步声清脆，两旁是连绵的、色彩柔和的三四层楼建筑，柠檬黄、淡粉、薄荷绿，窗台上一律摆满盛开的红色天竺葵，像给街道镶上了一道流动的花边。
+这里的节奏是“柔板”。当地人骑着自行车慢悠悠地穿过广场，咖啡馆露天座上的老先生会花一整个下午读一份报纸。你很快会忘记自己身处一个“州首府”，它更像一个被时光精心打理过的大庄园。然而，当你转过一个街角，埃斯特哈齐宫那宏大的鹅黄色立面突然展开在眼前，你才会恍然记起它显赫的过去。宫殿不像维也纳的美泉宫那样咄咄逼人，它亲切地敞开着，前面的广场上可能正支起一个小型市集，售卖着本地的南瓜籽油和葡萄酒。历史在这里不是被供奉的，而是日常呼吸的一部分。
+而这座城市真正的灵魂之声，来自一个名字：约瑟夫·海顿。你会循着无形的乐谱去寻找他。可能是在某个庭院深处，你听到了不知从哪扇窗户里飘出的钢琴声，弹奏的正是海顿某首奏鸣曲的片段；更可能是在你踏入那座名为“山丘教堂”的宁静之所时。这里安息着大师。那种感觉非常奇特，没有阴森，只有一种深沉的宁静和敬意。你会觉得，海顿那些明朗、优雅、结构严谨的旋律，正是从这座小镇的秩序、阳光与葡萄藤的芬芳中生长出来的。艾森斯塔特最打动人心的，正是这种“活着的纪念”——音乐从未停止，它化作了钟楼的报时声、泉水的潺潺声，和人们不疾不徐的生活节奏。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果说维也纳是交响乐辉煌的音乐厅，那么艾森斯塔特就是它最私密、最温暖的前奏练习室。火车缓缓进站，你第一眼看到的不是巍峨的城堡，而是一片被阳光晒得暖洋洋的、低矮屋顶的和谐景象。空气里有种特别的甜味，那是从城市边缘广袤的葡萄园飘来的，混合着老面包店刚出炉的“格尔施特拉泽尔”面包的黄油香。走在铺着鹅卵石的豪普特街上，脚步声清脆，两旁是连绵的、色彩柔和的三四层楼建筑，柠檬黄、淡粉、薄荷绿，窗台上一律摆满盛开的红色天竺葵，像给街道镶上了一道流动的花边。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里的节奏是“柔板”。当地人骑着自行车慢悠悠地穿过广场，咖啡馆露天座上的老先生会花一整个下午读一份报纸。你很快会忘记自己身处一个“州首府”，它更像一个被时光精心打理过的大庄园。然而，当你转过一个街角，埃斯特哈齐宫那宏大的鹅黄色立面突然展开在眼前，你才会恍然记起它显赫的过去。宫殿不像维也纳的美泉宫那样咄咄逼人，它亲切地敞开着，前面的广场上可能正支起一个小型市集，售卖着本地的南瓜籽油和葡萄酒。历史在这里不是被供奉的，而是日常呼吸的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而这座城市真正的灵魂之声，来自一个名字：约瑟夫·海顿。你会循着无形的乐谱去寻找他。可能是在某个庭院深处，你听到了不知从哪扇窗户里飘出的钢琴声，弹奏的正是海顿某首奏鸣曲的片段；更可能是在你踏入那座名为“山丘教堂”的宁静之所时。这里安息着大师。那种感觉非常奇特，没有阴森，只有一种深沉的宁静和敬意。你会觉得，海顿那些明朗、优雅、结构严谨的旋律，正是从这座小镇的秩序、阳光与葡萄藤的芬芳中生长出来的。艾森斯塔特最打动人心的，正是这种“活着的纪念”——音乐从未停止，它化作了钟楼的报时声、泉水的潺潺声，和人们不疾不徐的生活节奏。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`艾森施塔特`} />
+                <InfoRow label="英文名称" value={`Eisenstadt`} />
+                <InfoRow label="正式名称" value={`Eisenstadt`} />
+                <InfoRow label="国家" value={`奥地利`} />
+                <InfoRow label="城市" value={`艾森施塔特`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`作为布尔根兰州的首府，这里是昔日匈牙利埃斯特哈齐王朝的权力与文化中心，更是古典乐巨匠约瑟夫·海顿生活、创作并长眠的音乐圣地。`} />
+                <InfoRow label="建筑特色" value={`柠檬黄、淡粉与象牙白的新古典主义立面与沉稳的巴洛克轮廓交织，构成一座精致、和谐且充满人性尺度的宜居之城。`} />
+                <InfoRow label="建筑风格" value={`以18-19世纪盛行的新古典主义风格为主，融合了巴洛克的基础与比德迈式的朴素优雅。`} />
+                <InfoRow label="文化价值" value={`这里不仅是奥地利最年轻州的首府，更是一个将贵族宫廷的宏大量产、海顿音乐的永恒旋律与本地葡萄园生活的闲适脉搏完美融合的活态文化样本。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`艾森斯塔特是一座活着的城市，各景点开放时间不一。核心景点埃斯特哈齐宫（Schloss Esterházy）开放时间为每日上午9点至下午5点，夏季（4月至10月）延长至下午6点，每周一闭馆（七月和八月除外）。海顿教堂（Bergkirche）和海顿墓开放时间为上午9点至中午12点，下午1点至5点，冬季时间可能缩短。老城区街道、广场及市集常年开放。建议行前在官网确认具体日期，尤其注意圣诞节、新年及复活节期间的特殊安排。`} />
+              <InfoRow label="门票价格" value={`埃斯特哈齐宫：成人票13欧元，含导游的宫殿之旅与海顿音乐厅参观。优惠票（学生、老人）11欧元。家庭票29欧元。海顿教堂（含海顿墓）：成人票5欧元。海顿故居博物馆：成人票8欧元。可以购买“海顿套票”（Haydn-Ticket），包含宫殿、海顿教堂和海顿故居，价格为22欧元，性价比高。布尔根兰州博物馆通常免费入场。部分教堂免费参观，但欢迎小额捐款以支持维护。`} />
+              <InfoRow label="地址" value={`主要信息中心地址：Hauptstraße 35, 7000 Eisenstadt, Österreich`} />
+              <InfoRow label="交通方式" value={`从维也纳国际机场（VIE）出发最便捷。在机场火车站乘坐区域火车（S-Bahn S7线）前往维也纳中央火车站（Wien Hauptbahnhof），车程约25分钟，班次频繁。从维也纳中央火车站，乘坐开往艾森斯塔特的区域快车（Railjet或RJX），约50分钟即可直达艾森斯塔特火车站，每小时至少一班车。从火车站步行至老城中心仅需15分钟，沿途风景宜人。也可以从维也纳乘坐长途巴士，但火车是最舒适和准时的选择。自驾从维也纳出发，沿A3高速公路向南，约45分钟车程，老城周边有多个付费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`艾森斯塔特的故事，远不止始于它成为布尔根兰州首府的1925年。它的名字意为“铁城”，早在中世纪，这里就因铁矿开采和贸易而繁荣，坚固的城墙保护着镇民。然而，真正将它推上历史与文化舞台中央的，是那个权倾一时的匈牙利贵族家族——埃斯特哈齐。17世纪末，这个家族将艾森斯塔特定为他们的主要住所之一，从此，小镇的命运与这个家族的兴衰紧紧绑定。他们不仅是统治者，更是狂热的艺术赞助人，渴望将这片土地打造成能与维也纳媲美的文化灯塔。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，一座宏大的巴洛克式宫殿开始在原城堡的地基上崛起，这就是埃斯特哈齐宫的雏形。但让这座宫殿乃至整个城市获得不朽声名的，是一次看似平常的雇佣。1761年，当时已在维也纳小有名气但渴望稳定生活的作曲家约瑟夫·海顿，被尼古拉斯一世·埃斯特哈齐亲王任命为宫廷乐长。在此后的近三十年里，艾森斯塔特成了海顿的宇宙中心。他住在一栋朴素的房子里，每天步行去宫殿上班，为亲王的宴会、庆典和私人娱乐创作了大量的交响乐、歌剧、室内乐和弥撒曲。那座金碧辉煌的海顿音乐厅（Haydnsaal），就是他无数作品首演的“主场”。想象一下，在那个没有录音的年代，世界上最前沿的音乐，就从这个小城的宫殿里流淌出来，定义着古典主义的范式。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`拿破仑战争的铁蹄也曾踏破这里的宁静。宫殿一度被法军占领，遭受洗劫。但战火之后，埃斯特哈齐家族再次回归，并顺应时代的审美潮流，主导了城市的新一轮改造。19世纪初，当时流行的新古典主义风格席卷而来，为艾森斯塔特披上了我们今天看到的外衣。许多巴洛克建筑被赋予了简洁的线条、三角形的山花和柔和的色彩，整座城市看起来更加明亮、理性、优雅。海顿于1809年在维也纳去世，但他的遗愿是回归这片他创作力最旺盛的土地。历经波折，他的头颅（曾被狂热崇拜者盗走进行颅相学研究！）与躯体最终合葬于他生前常去的山丘教堂内。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`一战后，奥匈帝国解体，原本属于匈牙利王国的布尔根兰地区经过公投并入奥地利。1925年，艾森斯塔特被选定为这个全新、也是奥地利最年轻联邦州的首府。这个身份并未让它变得喧嚣，反而像加冕了一项宁静的王冠。它从贵族城堡的附庸，转型为一个现代行政与文化中心，但骨子里那份由海顿音乐和葡萄园风土塑造的从容与精致，从未改变。今天的艾森斯塔特，优雅地平衡着它的三重身份：历史名城、州府和海顿的精神家园，每一重身份都清晰可辨，又水乳交融。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`想要真正品味艾森斯塔特，建议安排一整天时间。最佳抵达时间是上午九点半左右，这时晨雾散去，阳光正好，游客尚未大批涌入。整体游览节奏应是“慢板”，以步行为主，这座小城的精华全部浓缩在可轻松步行抵达的范围内。建议先从城市的高点——海顿教堂开始，带着一份肃穆和音乐灵感下山，逐步融入老城的日常生活脉络，下午深入宫殿感受宫廷辉煌，最后在海顿故居结束，完成一场从精神到世俗，再从历史到个人的完整闭环。这样的安排既顺应了地理起伏，也贴合了情感递进的节奏。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周一是许多博物馆（包括埃斯特哈齐宫主展厅）的常规休息日，务必提前规划避开。参观教堂和海顿墓时请保持安静肃穆，这是基本的尊重。穿着舒适的步行鞋至关重要，那些美丽的鹅卵石路对高跟鞋可不友好。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`趁着上午的柔和光线，先登上城西的小山丘，走进静谧的伯格教堂，在烛光摇曳中静静瞻仰海顿那尊沉思的墓碑雕塑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂侧门走出，站在露台上俯瞰整个艾森斯塔特老城，看红屋顶在葡萄园的绿色海洋中像岛屿般铺展，定位埃斯特哈齐宫醒目的鹅黄色屋顶。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着舒缓的下坡小路慢慢踱回老城中心，让脚步带领你随意穿行在豪普特街两侧如彩带般的小巷，用鼻子捕捉咖啡香与新鲜花束的芬芳。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在老城主广场（Domplatz）的喷泉边稍坐片刻，观察市政厅钟楼的报时，以及当地人如何悠闲地穿过这个城市的客厅。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从广场北侧的大门进入埃斯特哈齐宫，花一个多小时沉浸在宫殿的奢华房间与传奇的海顿音乐厅，想象乐团在这里奏响第一个音符的瞬间。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过宫殿后方法式风格的花园，在树荫下的长椅上休息，然后前往几步之遥的布尔根兰州立博物馆，了解这片土地从古至今的丰富故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，来到老城东南角那栋不起眼的黄色房子——海顿故居博物馆，在大师实际生活创作的空间里，触摸他最私人的一面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`当夕阳西下，一定要找一家本地的“heuriger”（新酒酒馆），用一杯清凉的布尔根兰白葡萄酒和一份拼盘，为这一天画上完美句点。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`伯格教堂露台全景位`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，从教堂侧面的露台用广角镜头拍摄，将前景的教堂石栏、中景层层叠叠的老城屋顶与远景无垠的葡萄园和远山一同纳入画框。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`埃斯特哈齐宫长廊对称构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光能斜射入宫殿二层的长廊时，站在长廊正中，利用两侧成排的门窗和天花板壁画形成的强烈纵深感，拍出极具仪式感的对称画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`豪普特街生活街景`}</h4>
+                  <p className="text-sm text-gray-700">{`找一个晴天的上午，站在街道中段，等待一位骑自行车的当地人或是手提购物篮的老太太进入画面，让生动的日常与色彩缤纷的建筑立面共同讲述故事。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`海顿音乐厅空镜`}</h4>
+                  <p className="text-sm text-gray-700">{`如果幸运地遇到音乐厅没有活动且光线允许（有时会为游客开灯），站在观众席后方高处，拍摄空旷的金色大厅与舞台，营造一种“余音绕梁”的静谧氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`宫殿花园迷宫仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`夏季，走进花园的树篱迷宫中心，抬头用鱼眼镜头或手机广角模式拍摄被绿意完全包围的蓝天，获得充满童趣和超现实感的视角。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在教堂和宫殿内部，务必先查看是否有禁止拍照的标识，通常允许拍照但禁用闪光灯和三脚架。拍摄当地人时，请先微笑示意获得同意，这是一种礼貌。秋季葡萄园变成金黄和深红色时，是航拍（如果当地法规允许）的绝佳季节。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`老城中心历史公寓`}</h4>
+                  <p className="text-sm text-blue-800">{`由一栋18世纪商人住宅改造，木梁天花板和复古家具韵味十足，推开窗就是钟楼景色，下楼即融入广场的咖啡馆生活。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`葡萄园边缘设计师酒店`}</h4>
+                  <p className="text-sm text-green-800">{`坐落在城市步行可达的葡萄园旁，房间拥有极简现代风格和超大落地窗，夜晚无比静谧，清晨在露台享受被葡萄藤包围的早餐。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`埃斯特哈齐宫旁精品酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于宫殿建筑群一侧的古老厢房，经过精心修复，部分房间能直接看到宫殿庭院，体验一把“宫廷宾客”的尊贵感。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`家庭经营的传统酒庄民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`位于城外两三公里处的典型布尔根兰农庄，主人世代酿酒，住宿费用包含丰盛的农家晚餐和品尝家酿葡萄酒，是深入本地生活的绝佳选择。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿非常紧俏，尤其是夏季音乐节和秋季葡萄收获季期间，务必提前数月预订。城外酒庄民宿通常需要自驾或打车抵达，但体验独一无二。布尔根兰州治安非常好，即使夜晚在老城独自散步也倍感安全。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开艾森斯塔特时，我的行李箱里没有多出什么纪念品，但心里却被填得满满的。那种充实感，不是来自于看到了多么惊天动地的奇观，而是来自于一种完整的、细腻的“体验”。你仿佛走进了一部活着的、三维的海顿传记，不仅读到了他的生平，更呼吸着他呼吸过的空气，走过他每日往返的小径，理解了他的音乐为何能既结构严谨又充满人性的温暖——因为这片土地本身，就是秩序与温情的结合体。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切追求效率和震撼感的时代，艾森斯塔特提供了一种珍贵的反向价值：它教你慢下来，去欣赏尺度的和谐、色彩的微妙、日常的韵律。它不试图用庞大的体积压倒你，而是用精致的细节浸润你。在这里，伟大（如海顿）与平凡（如街角的面包店）并肩而立，互不打扰，却又共同谱写着生活的乐章。对于每一位厌倦了走马观花、渴望在旅途中获得内心宁静与文化共鸣的深度旅者来说，艾森斯塔特不是目的地清单上一个需要“打卡”的名字，而是一个可以安心交付一天时光，让身心真正休憩并收获优雅感动的精神驿站。它或许不会让你尖叫，但一定会让你在离开后的很久，在某一个疲惫的傍晚，忽然无比怀念起那里柠檬黄墙壁上的夕阳，和空气里那丝淡淡的、甜美的葡萄酒香。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/graz-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    格
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格拉茨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Graz Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/duernstein-wachau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    杜
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">杜伦斯泰因</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dürnstein</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/imperial-spa-town-bad-ischl" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴德伊舍</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bad Ischl</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

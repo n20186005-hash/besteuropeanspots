@@ -1,0 +1,230 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '拉绍德封 La Chaux-de-Fonds｜棋盘网格与阳光浇筑的钟表制造乌托邦 - 最佳欧洲景点',
+  description: '当你从火车站走出来，踏入拉绍德封的第一刻，一种奇异的秩序感便会将你包裹。这不是你想象中的瑞士——没有阿尔卑斯的险峰，没有湛蓝的湖泊，也没有蜿蜒如童话的中世纪老街。取而代之的，是仿佛用巨大尺规画出来的世界：街道像经纬线一样笔直交叉，形成一个个巨大的方正街区；建筑不高，却整齐得令人屏息，奶油色或浅灰色的',
+}
+
+export default function LaChauxDeFondsWatchmakingUtopiaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '拉绍德封', href: '/attractions/la-chaux-de-fonds-watchmaking-utopia' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`拉绍德封・La Chaux-de-Fonds・瑞士・拉绍德封`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你从火车站走出来，踏入拉绍德封的第一刻，一种奇异的秩序感便会将你包裹。这不是你想象中的瑞士——没有阿尔卑斯的险峰，没有湛蓝的湖泊，也没有蜿蜒如童话的中世纪老街。取而代之的，是仿佛用巨大尺规画出来的世界：街道像经纬线一样笔直交叉，形成一个个巨大的方正街区；建筑不高，却整齐得令人屏息，奶油色或浅灰色的立面在清冽的空气中连绵伸展，一眼望不到头。阳光，在这里是绝对的主角。因为它毫无遮挡，慷慨地倾泻在每一条宽阔的街道上，照亮每一扇朝北的窗。你几乎能想象，几个世纪以来，正是这恒定、均匀的光线，照亮了无数钟表匠专注的侧脸和他们手中那些微小的齿轮。
+空气中弥漫着一种精密而宁静的气息。仔细听，在电车的叮当声和风声间隙，你或许能捕捉到从某扇敞开的窗户里飘出的、极其细微的滴答声，那是时间本身在呼吸。这里没有慌乱的脚步，人们的脸上带着一种钟表匠特有的从容与专注。你会突然明白，整座城市本身就是一座精密的仪器，街道是它的齿轮轨道，建筑是它的表壳，而居民，是让它持续运转的机芯。它不是自然生长的有机体，而是一件被深思熟虑后“制造”出来的作品，功能明确，逻辑清晰，有一种冰冷的、数学般的美感。
+然而，在这份严谨之下，却涌动着惊人的艺术热情。当你走近那些网格中的建筑，会发现严肃的立面之上，藏着新艺术运动留下的浪漫烙印：铸铁阳台缠绕着铁艺藤蔓，门楣上雕刻着优雅的花朵与女性面孔，彩色玻璃窗在阳光下闪烁着宝石般的光泽。这种对比令人着迷——城市骨架是绝对的理性，建筑皮肤却充满了感性的曲线与自然灵感。它告诉人们，为效率而生的乌托邦，从未放弃对美的追求。
+最动人的，是感受到这座城市仍在“工作”。它不是一个博物馆式的遗存。白天，你可以看到穿着工装的人们进出那些看似普通的建筑，那里仍是活跃的钟表工坊、零件工厂和设计工作室。傍晚，咖啡厅和餐厅亮起温暖的灯，住在楼上公寓里的家庭传来欢声笑语。拉绍德封完美地诠释了“活着的遗产”——它的过去、现在与未来，都紧密地缠绕在那一声声精准的滴答里，在每一个为捕捉时间而存在的方格之中。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你从火车站走出来，踏入拉绍德封的第一刻，一种奇异的秩序感便会将你包裹。这不是你想象中的瑞士——没有阿尔卑斯的险峰，没有湛蓝的湖泊，也没有蜿蜒如童话的中世纪老街。取而代之的，是仿佛用巨大尺规画出来的世界：街道像经纬线一样笔直交叉，形成一个个巨大的方正街区；建筑不高，却整齐得令人屏息，奶油色或浅灰色的立面在清冽的空气中连绵伸展，一眼望不到头。阳光，在这里是绝对的主角。因为它毫无遮挡，慷慨地倾泻在每一条宽阔的街道上，照亮每一扇朝北的窗。你几乎能想象，几个世纪以来，正是这恒定、均匀的光线，照亮了无数钟表匠专注的侧脸和他们手中那些微小的齿轮。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`空气中弥漫着一种精密而宁静的气息。仔细听，在电车的叮当声和风声间隙，你或许能捕捉到从某扇敞开的窗户里飘出的、极其细微的滴答声，那是时间本身在呼吸。这里没有慌乱的脚步，人们的脸上带着一种钟表匠特有的从容与专注。你会突然明白，整座城市本身就是一座精密的仪器，街道是它的齿轮轨道，建筑是它的表壳，而居民，是让它持续运转的机芯。它不是自然生长的有机体，而是一件被深思熟虑后“制造”出来的作品，功能明确，逻辑清晰，有一种冰冷的、数学般的美感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，在这份严谨之下，却涌动着惊人的艺术热情。当你走近那些网格中的建筑，会发现严肃的立面之上，藏着新艺术运动留下的浪漫烙印：铸铁阳台缠绕着铁艺藤蔓，门楣上雕刻着优雅的花朵与女性面孔，彩色玻璃窗在阳光下闪烁着宝石般的光泽。这种对比令人着迷——城市骨架是绝对的理性，建筑皮肤却充满了感性的曲线与自然灵感。它告诉人们，为效率而生的乌托邦，从未放弃对美的追求。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最动人的，是感受到这座城市仍在“工作”。它不是一个博物馆式的遗存。白天，你可以看到穿着工装的人们进出那些看似普通的建筑，那里仍是活跃的钟表工坊、零件工厂和设计工作室。傍晚，咖啡厅和餐厅亮起温暖的灯，住在楼上公寓里的家庭传来欢声笑语。拉绍德封完美地诠释了“活着的遗产”——它的过去、现在与未来，都紧密地缠绕在那一声声精准的滴答里，在每一个为捕捉时间而存在的方格之中。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`拉绍德封`} />
+                <InfoRow label="英文名称" value={`La Chaux-de-Fonds`} />
+                <InfoRow label="正式名称" value={`La Chaux-de-Fonds`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`拉绍德封`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`19世纪工业城市规划的巅峰之作，被誉为“钟表制造的麦加”和“献给阳光与效率的乌托邦”。`} />
+                <InfoRow label="建筑特色" value={`严格按照棋盘网格状布局，街道宽阔笔直，建筑立面整齐划一，最大化地为钟表匠的工作台引入北向日光。`} />
+                <InfoRow label="建筑风格" value={`新艺术运动（Art Nouveau）与装饰艺术（Art Deco）风格在此奇妙交融，点缀在严谨的网格之中，形成“理性骨骼”与“感性皮囊”的独特结合。`} />
+                <InfoRow label="文化价值" value={`联合国教科文组织世界遗产，代表了人类为了特定工业（精密钟表制造）而量身打造理想城市环境的非凡案例，是功能主义与人文主义在城市建设上的早期实验场。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城市街道及公共空间全天开放。国际钟表博物馆（Musée international d‘horlogerie）开放时间一般为周二至周日 10:00-17:00，周一闭馆；勒·柯布西耶文化馆（Espace de l’urbanisme Le Corbusier）开放时间请查询官网，常有变动。大部分钟表工坊不向公众开放，但部分品牌博物馆或展厅需提前预约。冬季部分博物馆开放时间会缩短。`} />
+              <InfoRow label="门票价格" value={`进入城市本身免费。国际钟表博物馆门票约15瑞士法郎，持瑞士旅行通票通常可享受折扣。勒·柯布西耶文化馆门票约8瑞士法郎。其他小型博物馆或工坊参观价格不等，建议提前查询。`} />
+              <InfoRow label="地址" value={`Avenue Léopold-Robert 63, 2300 La Chaux-de-Fonds, Switzerland`} />
+              <InfoRow label="交通方式" value={`从瑞士巴塞尔欧洲机场（BSL）出发最为便捷。在机场火车站乘坐直达IC列车前往比尔/比安（Biel/Bienne），车程约1小时，班次每小时1-2班。在比尔换乘区域列车（RE）前往拉绍德封，车程约30分钟，班次密集。全程总计约1.5-2小时。建议使用SBB（瑞士联邦铁路）App购买车票，瑞士旅行通票在此线路完全适用。从苏黎世或日内瓦机场出发则需要更长的火车换乘时间。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事开始于一场毁灭性的大火。1794年，还只是一个山村聚居点的拉绍德封几乎被烈火吞噬殆尽。这场灾难，却意外地成了一个划时代的契机。面对焦土，人们没有选择复刻过去拥挤、昏暗、随性蔓延的中世纪街道模式。当时新兴的钟表制造产业，需要大量自然光（特别是稳定、无眩光的北光）来照亮工匠们精细的工作。于是，一个大胆的、充满启蒙运动精神的计划诞生了：为什么不从头开始，建造一座完全为钟表匠和他们的手艺服务的理想之城？`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`主导这次重建的灵魂人物之一是当时的市长（同时也是钟表商）皮埃尔。他和规划者们拿起直尺和圆规，在图纸上画下了那个著名的矩形网格。街道被设计得异常宽阔，不仅为了采光通风，也为了防火。所有街区大小相近，建筑高度受到严格限制，确保阳光能平等地抵达每一处工作台。这可能是世界上第一个明确以单一工业需求为核心进行功能分区和系统规划的城市。它不像巴黎那样由皇权驱动，也不像许多老城由商业自然集聚而成，它是纯粹理性思考的产物，是“形式追随功能”哲学在城市建设上的一次史诗级预演。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`整个19世纪，随着瑞士钟表业在全球的崛起，拉绍德封也迎来了爆炸式增长。这座“棋盘格”如同一个无限延伸的精密模具，不断复制出新的街区，吸纳着来自四面八方的能工巧匠。财富的积累并没有让城市变得浮夸，反而催生了一种独特的建筑美学：新艺术运动（当地人称之为“Style Sapin”，松树风格）在此生根发芽。本地建筑师如勒·柯布西耶的老师查尔斯·勒普拉特涅，将森林的意象、松果、花朵的曲线巧妙地融入建筑装饰，仿佛在用石头和铁艺，为这座极度人工化的城市注入一丝大自然的温柔魂魄。这种风格与后来兴起的装饰艺术风格交织，形成了城市街道上令人目不暇接的立面画廊。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当然，必须提到这座城市最著名的儿子——勒·柯布西耶。他在这里出生、成长，网格状的街道、对光线的崇拜、功能至上的理念，如同基因般刻入了他的建筑思想。他早期设计的“白色别墅”系列就坐落在这里，你可以看到现代主义建筑的萌芽，如何从这片严谨的土壤里破土而出。拉绍德封是他的起点，而他后来的“光辉城市”等规划理念，又何尝不是对家乡这种乌托邦网格的一次次精神回响与批判性发展。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`二十世纪的战争与经济危机曾给钟表业带来冲击，但拉绍德封凭借其深厚的产业根基顽强存活。当石英危机席卷全球时，这里又成为瑞士机械表复兴的重要堡垒。今天的它，不仅仅是高级制表的集群地，更因其保存完好的城市规划与建筑群，在2009年与邻城力洛克一同被列入联合国教科文组织世界遗产名录。这个荣誉肯定了它作为一种文化现象的价值：它见证了人类如何为了创造极致精密的物件，而塑造出一个同样极致的生存环境。它是一部用石头、光线和时间写就的，关于理想、技艺与生活的鸿篇巨制。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议用一个完整的一天来沉浸式体验拉绍德封。最好在上午九点左右抵达，这时阳光正好，城市刚刚苏醒，光线清澈利于拍照。整体游览节奏应是“先宏观，后微观，再体验”：先从高处俯瞰理解其网格规划的全貌，然后深入街道细赏建筑，接着参观核心博物馆深入其灵魂，最后在本地餐厅结束行程。这样的安排能让你由表及里，从物理空间到精神内核，层层拨开这座钟表乌托邦的奥秘。总耗时约7-8小时，步行距离较长，请穿舒适的鞋子。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周末许多工坊和部分小店可能关门，计划参观特定工坊务必提前数月邮件预约。城市布局极易辨认方向，几乎不会迷路，但部分博物馆位置较分散，建议提前标好地图。冬季这里气候寒冷风大，务必做好防风保暖措施。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站前的环形广场出发，刻意选择一条笔直的大道比如Avenue Léopold-Robert向东行走，用身体感受街道的宽阔与笔直带来的奇异空间感`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上城市东南部的“观察塔”或利用谷歌地图的卫星视角，找到一个制高点，花时间静静俯瞰脚下那令人震撼的、无限延伸的棋盘网格全景`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走下高地，随意拐入一条编号街道（如Rue du 1er-Août），放缓脚步，抬头细细品味两旁建筑立面上精美的新艺术运动铁艺阳台、彩绘玻璃和雕塑装饰`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻访勒·柯布西耶的出生地及他早期设计的“白色别墅”，在这座现代主义建筑原型前思考家乡网格对他后来“居住机器”理念的深远影响`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`前往国际钟表博物馆，不仅仅看华丽的古董表，更要停留在那个展示钟表匠工作台的场景前，理解北光对于这个行业如同生命线般的意义`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在市政厅附近的三角广场找一家传统的“奶制品餐厅”，点一份地道的纳沙泰尔奶酪火锅，感受钟表之城朴实厚重的另一面`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分，随意走进一家街角咖啡馆，像当地人一样点一杯咖啡，观察下班人流从容不迫的节奏，聆听隐约可辨的、属于这座城市的“时间脉搏”`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城市网格全景机位`}</h4>
+                  <p className="text-sm text-gray-700">{`位于城市南部公墓（Cimetière）旁的高地或某些多层停车场屋顶，最佳时间是晴朗的上午十点或下午四点，利用侧光强化建筑的立体感，构图时让笔直的街道线条形成强烈的透视引导线。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`十字路口仰拍建筑装饰`}</h4>
+                  <p className="text-sm text-gray-700">{`选择两条主干道的交叉口，如Rue du 1er-Août和Rue du Parc路口，在正午阳光直射时抬头拍摄建筑角楼与天空的构图，能完美捕捉装饰艺术风格的几何美感与新艺术风格的曲线细节。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`国际钟表博物馆光影走廊`}</h4>
+                  <p className="text-sm text-gray-700">{`馆内有一条长长的走廊，一侧是整面的玻璃窗，工作日下午的阳光会在地面投下长长的窗格影子，人物站在光中或影里，能拍出极具故事感和结构感的照片。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`勒·柯布西耶白色别墅侧面`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，阳光以低角度照射在别墅纯白的立面上，光影分明，可以聚焦建筑独特的横向长窗与支柱结构，捕捉现代主义建筑的几何纯粹之美。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄私人住宅或工坊窗户时请保持尊重，避免使用长焦镜头窥探内部。利用黑白模式拍摄城市街道，能极大地强化其网格的抽象几何感和历史沧桑感。雨天拍摄被雨水浸湿的柏油路面，反射的街灯光芒能形成迷人的“棋盘光晕”。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`钟表匠遗产民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`入住由19世纪钟表匠联排别墅改造的精品民宿，房间保留了原始的高挑天花板和巨大的北向窗户，早晨阳光会准时叫醒你，房东可能是一位退休的机芯装配师。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`中心艺术公寓`}</h4>
+                  <p className="text-sm text-green-800">{`位于一栋装饰艺术风格的历史建筑顶层，带有一个可俯瞰数条街道网格的小露台，内部装修复古又舒适，厨房设施齐全，适合想体验本地生活的长住客。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代设计酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`火车站附近由旧厂房改造的设计酒店，风格简约冷峻，向城市的工业血脉致敬，是理解拉绍德封“功能美学”的另一种住宿体验。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`郊外山间旅舍`}</h4>
+                  <p className="text-sm text-purple-800">{`如果自驾，可以选择城市周边汝拉山麓的传统小木屋旅舍，清晨推开窗是森林与薄雾，与山下那个精密的人工城市形成震撼的视觉与心理对比。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`拉绍德封并非旅游热点，住宿选择相对有限且价格不菲，旺季（夏季及钟表展期间）务必提前预订。城市治安非常好，夜间独行也安全感十足。选择住在网格中心区域最能感受城市脉搏，但请注意老建筑可能没有电梯。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开拉绍德封许久后，那种独特的秩序感依然会在脑海中浮现。它带给我的震撼，并非来自于视觉的奇观，而是源于一种思想的力量。在这里，人类用一种近乎偏执的理性，对抗着时间的混沌与自然的随机。他们规划街道，计算阳光，规范生活的一切，只为服务于一个最精细、最抽象的目标：测量和分割时间本身。这本身就是一个充满诗意的悖论——用最固化的空间，去捕捉最流动的存在。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个推崇无序创新、碎片化生活的时代，拉绍德封像是一个来自过去的、沉静而坚定的启示录。它告诉我们，极致的专注能塑造出怎样一种独特而强大的文化景观；它证明，为了一种手艺、一种行业，人类可以共同体般地建造一个完整的世界。它不浪漫，不随性，甚至有些冷酷，但它无比诚实，无比完整。对于每一位寻求深度的旅人而言，来到这里，不仅是参观一座城市或一个行业，更是踏入一个关于理想、秩序与人类技艺的哲学现场。你会在这里看到，当逻辑、光线与双手的技艺结合到极致时，所迸发出的那种沉默而永恒的光芒。这光芒，比任何钟表上的钻石，都更加璀璨动人。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/rhine-falls" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    沙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">沙夫豪森莱茵瀑布</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rhine Falls</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/pontresina-traditional-sgraffito-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蓬
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蓬特雷西纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pontresina</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/stein-am-rhein-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施泰因老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Stein am Rhein Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

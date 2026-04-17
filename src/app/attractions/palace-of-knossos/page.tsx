@@ -1,0 +1,240 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '克诺索斯王宫 Palace of Knossos｜探秘欧洲最古老王宫与神话迷宫之源 - 最佳欧洲景点',
+  description: '当我第一次从山路上望见克诺索斯时，扑面而来的不是震撼，而是一种奇异的熟悉感。三千年的时光并没有将它碾为齑粉，相反，那片赭红色与土黄色的遗迹，在克里特岛炽烈到近乎白色的阳光下，像一头慵懒休憩的巨兽的骨骼，安静地匍匐在凯拉托斯河畔的山坡上。空气里混合着干热的尘土气、远处橄榄树林飘来的微涩清香，还有一丝若',
+}
+
+export default function PalaceOfKnossosPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '克诺索斯王宫', href: '/attractions/palace-of-knossos' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`克诺索斯王宫・Palace of Knossos・希腊・伊拉克利翁，克里特岛`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当我第一次从山路上望见克诺索斯时，扑面而来的不是震撼，而是一种奇异的熟悉感。三千年的时光并没有将它碾为齑粉，相反，那片赭红色与土黄色的遗迹，在克里特岛炽烈到近乎白色的阳光下，像一头慵懒休憩的巨兽的骨骼，安静地匍匐在凯拉托斯河畔的山坡上。空气里混合着干热的尘土气、远处橄榄树林飘来的微涩清香，还有一丝若有若无的、从地底渗出的古老凉意。没有想象中的阴森，整个遗址被地中海的阳光冲刷得坦荡而明亮，耳边是蝉鸣永不停歇的合奏，以及各国游客压低声音的、试图解读眼前一切的絮语。
+走近它，你会立刻忘记“废墟”这个词。是的，那些被英国考古学家阿瑟·埃文斯部分重建的柱廊和房间，至今仍充满争议，但它们确实赋予了这堆石头以灵魂和形状。你看着那些漆成暗红色、中间鼓出的木柱复制品，它们支撑着复原的楼层，光影在柱身和残墙上切割出锐利的几何图形。一瞬间，那个以公牛和双面斧为图腾的鲜活世界仿佛触手可及。你脚下踩的，可能是某位米诺斯贵族匆匆走过的走廊；你手扶的墙面，或许曾绘有手持百合花的“蛇女神”那神秘微笑的壁画。这里不是一个死去的考古现场，它是一个被小心翼翼打开的、跨越时空的窗口。
+在当地人心中，克诺索斯远远超出了一个旅游景点。它是克里特岛的根，是自豪的源泉。你会发现，岛上许多商店的招牌、陶器图案甚至甜品形状，都借鉴自王宫壁画上的海浪纹、百合花或跳跃的公牛。对克里特人而言，米诺斯文明不是教科书上遥远的一章，而是流淌在血液里的、关于海洋、贸易、舞蹈与生命的古老记忆。王宫的存在，证明了他们的祖先曾建立过一个强大、和平（似乎没有防御工事）且充满艺术气息的海洋帝国，这种文化自信，至今仍深深烙印在岛民热情奔放又独立不羁的性格里。
+最打动人心的，或许是那股穿越神话与历史的强大生命力。当你站在宏大的中央庭院，想象这里曾举行过的神圣仪式与公牛跳跃的生死竞技；当你穿行在那些被标记为“迷宫”的、错综复杂的房间与楼梯间，传说中忒修斯手持线团寻找出口的画面会自然而然地浮现。历史与神话在这里水乳交融，石头与想象共同编织出一个比任何幻想小说都更迷人的世界。克诺索斯的魅力，就在于它邀请你亲自踏入这个半是考古、半是传说的迷宫，去触摸欧洲文明摇篮的温热脉动。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当我第一次从山路上望见克诺索斯时，扑面而来的不是震撼，而是一种奇异的熟悉感。三千年的时光并没有将它碾为齑粉，相反，那片赭红色与土黄色的遗迹，在克里特岛炽烈到近乎白色的阳光下，像一头慵懒休憩的巨兽的骨骼，安静地匍匐在凯拉托斯河畔的山坡上。空气里混合着干热的尘土气、远处橄榄树林飘来的微涩清香，还有一丝若有若无的、从地底渗出的古老凉意。没有想象中的阴森，整个遗址被地中海的阳光冲刷得坦荡而明亮，耳边是蝉鸣永不停歇的合奏，以及各国游客压低声音的、试图解读眼前一切的絮语。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近它，你会立刻忘记“废墟”这个词。是的，那些被英国考古学家阿瑟·埃文斯部分重建的柱廊和房间，至今仍充满争议，但它们确实赋予了这堆石头以灵魂和形状。你看着那些漆成暗红色、中间鼓出的木柱复制品，它们支撑着复原的楼层，光影在柱身和残墙上切割出锐利的几何图形。一瞬间，那个以公牛和双面斧为图腾的鲜活世界仿佛触手可及。你脚下踩的，可能是某位米诺斯贵族匆匆走过的走廊；你手扶的墙面，或许曾绘有手持百合花的“蛇女神”那神秘微笑的壁画。这里不是一个死去的考古现场，它是一个被小心翼翼打开的、跨越时空的窗口。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当地人心中，克诺索斯远远超出了一个旅游景点。它是克里特岛的根，是自豪的源泉。你会发现，岛上许多商店的招牌、陶器图案甚至甜品形状，都借鉴自王宫壁画上的海浪纹、百合花或跳跃的公牛。对克里特人而言，米诺斯文明不是教科书上遥远的一章，而是流淌在血液里的、关于海洋、贸易、舞蹈与生命的古老记忆。王宫的存在，证明了他们的祖先曾建立过一个强大、和平（似乎没有防御工事）且充满艺术气息的海洋帝国，这种文化自信，至今仍深深烙印在岛民热情奔放又独立不羁的性格里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，或许是那股穿越神话与历史的强大生命力。当你站在宏大的中央庭院，想象这里曾举行过的神圣仪式与公牛跳跃的生死竞技；当你穿行在那些被标记为“迷宫”的、错综复杂的房间与楼梯间，传说中忒修斯手持线团寻找出口的画面会自然而然地浮现。历史与神话在这里水乳交融，石头与想象共同编织出一个比任何幻想小说都更迷人的世界。克诺索斯的魅力，就在于它邀请你亲自踏入这个半是考古、半是传说的迷宫，去触摸欧洲文明摇篮的温热脉动。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`克诺索斯王宫`} />
+                <InfoRow label="英文名称" value={`Palace of Knossos`} />
+                <InfoRow label="正式名称" value={`Palace of Knossos`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`伊拉克利翁，克里特岛`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它是欧洲最古老的青铜时代宫殿建筑群，是米诺斯文明的中心，其存在直接启发了希腊神话中“迷宫”与“米诺陶”的传说。`} />
+                <InfoRow label="建筑特色" value={`以其复杂的多层结构、曲折的通道、壮丽的中央庭院和先进的供排水系统而著称，是上古时期工程与美学的奇迹。`} />
+                <InfoRow label="建筑风格" value={`以米诺斯建筑风格为主，特点是宽敞的庭院、采光井、色彩鲜艳的壁画、独特的“上粗下细”石柱以及大量使用木材与灰泥。`} />
+                <InfoRow label="文化价值" value={`作为米诺斯文明的核心遗址，它为理解欧洲第一个高级文明的社会结构、宗教仪式、艺术成就和日常生活提供了无价的实物证据。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`夏季（4月1日至10月31日）每日上午8:00至晚上7:30，最后入场时间为晚上7:00。冬季（11月1日至3月31日）每日上午8:00至下午5:00，最后入场时间为下午4:30。请注意，冬季的周一可能开放时间缩短或闭馆维护，建议行前查阅官网。每年1月1日、3月25日、5月1日、复活节周日、12月25-26日关闭。`} />
+              <InfoRow label="门票价格" value={`标准票价：夏季15欧元，冬季8欧元。欧盟学生及65岁以上欧盟公民可享受半价优惠（需出示有效证件）。18岁以下的未成年人、持有残疾人证件的游客及特定纪念日（如国际博物馆日）可免费入场。强烈建议在线购票以避免旺季时入口处排长队。`} />
+              <InfoRow label="地址" value={`Knossos Palace, Minoiton, Heraklion 714 09, Crete, Greece`} />
+              <InfoRow label="交通方式" value={`从伊拉克利翁国际机场出发，最便捷的方式是搭乘出租车，车程约20分钟，费用约25-30欧元。从伊拉克利翁市中心前往，可在市中心的巴士总站（靠近港口）乘坐2路公共巴士，车身上有明显的“KNOSSOS”标识，车程约20-25分钟，票价约1.5欧元，每10-15分钟一班。如果自驾，沿Knossou Avenue行驶约5公里即可到达，遗址入口外有收费停车场，但旺季车位非常紧张。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲克诺索斯的故事，我们得从迷雾般的神话开始。根据希腊传说，伟大的工匠代达罗斯为米诺斯国王建造了一座复杂的迷宫，用以囚禁他那牛头人身的儿子——米诺陶诺斯。雅典英雄忒修斯在公主阿里阿德涅的线团帮助下，潜入迷宫杀死了怪物。长久以来，这都被视为一个纯粹的奇幻故事。直到19世纪末，这片离伊拉克利翁不远的土岗，还只是当地人口中“巨大的陶罐堆”，因为农民们总能从地里挖出古代的碎片。直到1878年，克里特商人米诺斯·卡洛凯里诺斯首次进行了小规模挖掘，发现了大量储藏陶罐的仓库，但很快因政治动荡而中止。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的转折点发生在1900年，英国考古学家阿瑟·埃文斯爵士的到来。他被早期发现的刻有未知符号的印章所吸引，坚信这底下埋藏着荷马史诗中提到过的“众神之王宙斯成长之地”的文明。埃文斯几乎买下了整片土地，并开始了长达数十年的系统性发掘。结果震惊了世界：不是简单的村落，而是一座占地两万多平方米、拥有超过一千三百间房间的多层宫殿群！复杂的供水排水管道、精美的浴室、通风采光系统，以及那些色彩至今仍鲜艳动人的壁画——跳跃的公牛、优雅的“巴黎女郎”、海豚与章鱼——这一切都将欧洲文明史的起点，猛地向前推了一千多年。埃文斯以传说中的国王米诺斯之名，将这个辉煌的文明命名为“米诺斯文明”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`那么，是谁建造并居住于此？考古证据表明，最早的宫殿建筑大约始于公元前1900年左右。克诺索斯王宫并非一次建成，而是经历了毁灭与重建。约公元前1700年，一场可能是地震的灾难摧毁了早期宫殿，但米诺斯人随即在原址上建造了更加宏伟的新宫，这就是我们今天看到的主体遗迹。在其鼎盛时期（大约公元前16-15世纪），克诺索斯不仅是政治和宗教中心，更是一个庞大经济网络的心脏。它控制着爱琴海地区的贸易，将克里特岛的橄榄油、葡萄酒、精美陶器和奢侈品运往埃及、叙利亚和希腊大陆，换回黄金、象牙和珍宝。宫殿内巨大的储物罐（皮索伊）和详细的线性文字B泥板，记录着一个高度集权、组织严密的官僚社会。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，再辉煌的文明也难敌自然的巨力与历史的洪流。约公元前1450年，一场浩劫降临。这次毁灭性事件通常与锡拉岛（圣托里尼）的超级火山爆发联系在一起，火山爆发引发的巨大海啸和气候灾难席卷了克里特岛，摧毁了沿海的米诺斯城镇和舰队。克诺索斯虽然幸免于最初的物理摧毁，但其经济命脉和海上霸权已荡然无存。随之而来的，是来自希腊大陆的迈锡尼人的入侵或接管。宫殿中出现了迈锡尼风格的武器和艺术品，线性文字A被迈锡尼人使用的线性文字B所取代。克诺索斯作为政治中心又延续了近一个世纪，最终在公元前1375年左右，在一场大火中被彻底废弃，从此湮没在历史与传说之中，只留下“迷宫”的故事在吟游诗人的口中代代相传。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`直到埃文斯让它在阳光下重见天日，关于它的解读与争议也从未停止。埃文斯的大规模重建工作——用钢筋水泥复原柱子、楼梯和部分墙壁——被后世许多考古学家批评为过于主观和具有破坏性。但不可否认，正是这种具象化的呈现，让普通游客得以直观地感受这座宫殿昔日的规模与气派。今天的克诺索斯，依然在向我们低语。每一层灰烬下都有未解之谜：线形文字A仍未完全破译，“祭司王”壁画的确切含义是什么，那传说中的迷宫究竟是王宫本身复杂的结构，还是另有所指？克诺索斯就像一个永远也讲不完的故事，每一次挖掘，都可能翻开新的篇章。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`想要深度体验克诺索斯，务必赶在早上8点开门时第一批进入。这不仅是为了避开上午十点后汹涌的旅游团热浪和灼人的烈日，更是因为清晨柔和的金色光线最适合拍照，空旷的遗址能让你真正感受到那份古老的宁静与神秘。整个深度游览建议预留至少3-4小时。游览节奏宜慢不宜快，这不是竞走比赛，而是一场穿越时空的漫步。请从西入口进入，按照宫殿建筑的自然流线参观，先宏观后微观，最后在遗址的高处停留，俯瞰整个布局，让所有信息在脑海中串联成篇。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双舒适防滑的鞋，遗址内地面多为古老的石板和沙土，且有许多台阶和斜坡，高跟鞋或凉鞋会让你寸步难行。
+带上充足的水、帽子和防晒霜，克里特岛夏季阳光极其猛烈，遗址内几乎没有遮阴处，很容易中暑。
+警惕遗址外主动搭讪、声称可以带你“快速游览”或“进入秘密区域”的所谓“导游”，官方讲解服务应在入口处的售票点聘请。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从西入口穿过宏伟的“西库房”区域，触摸那些比人还高的储藏陶罐，想象这里曾堆满橄榄油和葡萄酒的丰饶景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`步入开阔的“中央庭院”，这里是整个宫殿跳动的心脏，站定片刻，感受空间的开阔，想象这里举行宗教仪式和公牛跳跃竞技时的喧嚣与神圣。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`探访庭院西侧装饰着“百合花王子”与“公牛跳跃”等精美壁画复制品的“王座殿”与“礼仪区”，注意看那个简单的雪花石膏宝座，它被认为是欧洲最古老的御座。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着复原的“大楼梯”向上层漫步，俯瞰下层房间的布局，体验米诺斯建筑对垂直空间的巧妙利用和充沛的采光设计。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过北部被称为“皇后寝宫”的区域，欣赏著名的“海豚壁画”复制品和被认为是欧洲最早冲水厕所的先进卫浴设施。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在“南柱廊”和“东翼”错综复杂的房间与走廊间穿梭，亲自体验“迷宫”传说的空间来源，感受古代建筑师如何通过曲折的路径创造私密与神圣感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后走到遗址东侧较高处的平台上，回望整个宫殿的布局，将分散的细节拼合成一幅完整的图景，并与手中地图或导览作最后的对照理解。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`中央庭院西侧仰拍大楼梯`}</h4>
+                  <p className="text-sm text-gray-700">{`上午9-10点，阳光从东侧照射过来，站在庭院西端仰拍被暗红色木柱支撑的“大楼梯”复原部分，能拍出光影层次丰富、结构感强烈的戏剧性照片。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`王座殿入口框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`利用王座殿低矮的门框作为天然画框，拍摄室内深处的雪花石膏宝座，焦点对准宝座，门框形成暗部前景，营造窥探历史的深邃感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`北入口“公牛浮雕”墙特写`}</h4>
+                  <p className="text-sm text-gray-700">{`下午晚些时候，太阳西斜，光线打在著名的“公牛浮雕”复制品墙上，侧光能完美勾勒出公牛肌肉的力量线条和墙壁的质感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`南柱廊透视长廊`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨人少时，站在南柱廊的一端，利用两列柱子形成的强烈透视感，拍摄长廊纵深感极强的画面，人物可以作为一个比例尺点缀在远端。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`东侧观景台全景`}</h4>
+                  <p className="text-sm text-gray-700">{`游览结束前，在东侧观景台用广角镜头拍摄宫殿遗址与远处克里特山峦和橄榄树林的全景，将人文遗迹与自然风光融为一体。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄壁画时请务必关闭闪光灯，紫外线会对珍贵的颜料残留造成不可逆的损害，即便是复制品也应养成良好习惯。`}</li>
+                <li>• {`米诺斯建筑中许多复原的柱子与墙壁是空心的混凝土结构，攀爬或依靠是非常危险的行为，也为拍摄所不允许，请务必在指定区域内安全拍摄。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`古城风情`}</h4>
+                  <p className="text-sm text-blue-800">{`选择住在伊拉克利翁老城区的传统石屋民宿，早晨被港口教堂的钟声唤醒，步行到充满生活气息的早市喝一杯浓厚的希腊咖啡，再慢悠悠坐车去王宫。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`田园诗意`}</h4>
+                  <p className="text-sm text-green-800">{`租住在克诺索斯遗址周边村庄（如Knosos村）的安静农舍，被橄榄园和葡萄园环绕，夜晚星空璀璨，能体验最地道的克里特乡村晚餐和家庭式款待。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻伊拉克利翁海滨的精品设计酒店，在一天的历史穿越之旅后，回到现代舒适的空间，在屋顶酒吧点一杯用克里特草本植物调制的鸡尾酒，眺望威尼斯堡垒的夜景。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`历史沉浸`}</h4>
+                  <p className="text-sm text-purple-800">{`体验位于哈尼亚或雷西姆农等克里特西部古镇的由威尼斯或奥斯曼时期老宅修复的酒店，虽然离克诺索斯稍远（车程1-2小时），但能将米诺斯文明与克里特后来层层叠加的历史文化一次体验个够。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（6-9月）是克里特岛绝对旺季，住宿价格高昂且一房难求，务必提前至少3-4个月预订，尤其是特色民宿和精品酒店。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`伊拉克利翁作为首府城市，夜生活丰富，但也有些区域夜晚较为喧闹，预订时留意住宿评价中关于“安静”的反馈，或选择稍离市中心但交通便利的住处。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开克诺索斯许久，我的指尖似乎还能感受到那些古老石块的温度，不是冰冷的，而是被地中海的阳光晒得微微发暖。这趟旅程给我的，远不止是看到了“欧洲最古老的宫殿”那么简单。它更像是一次精神上的寻根，当你亲眼看见那些四千年前的人们设计的排水管、绘制的海浪壁画、建造的采光庭院时，一种奇妙的连接感会产生：我们与古人，对美、对实用、对与自然共处的智慧，有着如此相通的追求。克诺索斯打破了我们对于“远古”等于“原始”的刻板想象，它展示了一个精致、复杂、充满生活情趣且似乎崇尚和平（至少宫殿没有围墙）的社会图景。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个快节奏的、常常被钢筋水泥和虚拟网络包裹的世界里，克诺索斯提供了一种截然不同的时空尺度。它提醒我们，文明如潮汐，有起有落，伟大的帝国也会归于尘土，只留下故事和石头。但正是这些故事和石头，构成了我们共同记忆的基石。在这里，神话不再是虚无缥缈的传说，而是可能基于真实历史事件和地点的心灵回声；历史也不再是枯燥的年份列表，而是由一个个鲜活的房间、生动的壁画和精巧的器物构成的立体叙事。每一位热爱深度游的旅人都应该来一次克诺索斯，不仅仅是为了打卡一个世界级遗址，更是为了给自己一个机会，走进那座连接现实与传说、历史与当下的真正“迷宫”，在里面找到属于你自己的那根“阿里阿德涅的线”，牵着它，去触摸人类文明童年时代那惊人而璀璨的创造力。这趟旅程，终将成为你理解欧洲、乃至理解人类自身故事中，无法替代的一章。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mystras-archaeological-site" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    米
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">米斯特拉斯遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mystras</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/temple-of-apollo-epicurius" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴赛阿波罗神庙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Temple of Apollo Epicurius</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kastoria" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯托里亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kastoria</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

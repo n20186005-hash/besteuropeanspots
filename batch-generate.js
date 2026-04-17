@@ -214,7 +214,7 @@ categories.forEach(cat => {
 
     // 对有可能插入到单引号字符串中的字段进行安全转义，防止破坏 TSX 语法
     const safeTitle = (data['SEO标题'] || `${data['景点中文名']}・${data['景点英文名']}・${data['国家']}・${data['城市']} | 最佳欧洲景点`).replace(/'/g, "\\'");
-    const safeDesc = (data['核心简介'] || '').substring(0, 150).replace(/\n/g, ' ').replace(/'/g, "\\'");
+    const safeDesc = (data['SEO描述'] || data['核心简介'] || '').substring(0, 150).replace(/\n/g, ' ').replace(/'/g, "\\'");
 
     // 从已有数据库中随机抽取 3 个相关的景点（同国家或同类型），作为猜你喜欢
     const relatedAttractions = attractionsData
@@ -225,7 +225,7 @@ categories.forEach(cat => {
     let relatedHtml = '';
     if (relatedAttractions.length > 0) {
       relatedHtml = `
-          <Section title="8. 猜你喜欢">
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
 ${relatedAttractions.map(a => `              <a href="/attractions/${a.slug}" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
@@ -242,48 +242,28 @@ ${relatedAttractions.map(a => `              <a href="/attractions/${a.slug}" cl
           </Section>`;
     }
 
-    const pageContent = `import { Metadata } from 'next'
-import { Section } from '@/components/Section'
-import { InfoRow } from '@/components/InfoRow'
-import { Breadcrumb } from '@/components/Breadcrumb'
+    // 动态构建 Section
+    let sectionIndex = 1;
+    let sectionsHtml = '';
 
-export const metadata: Metadata = {
-  title: '${safeTitle}',
-  description: '${safeDesc}...',
-}
-
-export default function ${componentName}() {
-  return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <Breadcrumb
-          items={[
-            { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
-            { label: '${data['景点中文名'].replace(/'/g, "\\'")}', href: '/attractions/${slug}' },
-          ]}
-        />
-
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{\`${data['景点中文名']}・${data['景点英文名']}・${data['国家']}・${data['城市']}\`}</h1>
-          <p className="text-lg text-gray-600 mb-6">
-            {\`${(data['核心简介']?.split('\\n')[0] || '').replace(/`/g, '\\`')}\`}
-          </p>
-        </div>
-
-        <div className="space-y-8">
-          <Section title="1. 景点介绍">
+    // 1. 景点介绍
+    if (data['核心简介']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 景点介绍">
 ${formatParagraphs(data['核心简介'])}
-          </Section>
+          </Section>\n`;
+    }
 
-          <Section title="2. 基本信息">
+    // 2. 基本信息
+    sectionsHtml += `
+          <Section title="${sectionIndex++}. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={\`${data['景点中文名'].replace(/`/g, '\\`')}\`} />
-                <InfoRow label="英文名称" value={\`${data['景点英文名'].replace(/`/g, '\\`')}\`} />
-                <InfoRow label="正式名称" value={\`${(data['正式名称'] || data['景点英文名']).replace(/`/g, '\\`')}\`} />
-                <InfoRow label="国家" value={\`${data['国家'].replace(/`/g, '\\`')}\`} />
-                <InfoRow label="城市" value={\`${data['城市'].replace(/`/g, '\\`')}\`} />
+                <InfoRow label="中文名称" value={\`${(data['景点中文名'] || '').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="英文名称" value={\`${(data['景点英文名'] || '').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="正式名称" value={\`${(data['正式名称'] || data['景点英文名'] || '').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="国家" value={\`${(data['国家'] || '').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="城市" value={\`${(data['城市'] || '').replace(/`/g, '\\`')}\`} />
               </div>
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={\`${(data['历史地位'] || '').replace(/`/g, '\\`')}\`} />
@@ -298,68 +278,154 @@ ${formatParagraphs(data['核心简介'])}
               <InfoRow label="地址" value={\`${(data['地址'] || '请参考地图导航').replace(/`/g, '\\`')}\`} />
               <InfoRow label="交通方式" value={\`${(data['交通方式'] || '建议步行或公共交通').replace(/`/g, '\\`')}\`} />
             </div>
-          </Section>
+          </Section>\n`;
 
-          <Section title="3. 历史背景">
+    // 3. 历史背景
+    if (data['历史背景']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
 ${formatParagraphs(data['历史背景'])}
             </div>
-          </Section>
+          </Section>\n`;
+    }
 
-          <Section title="4. 游览路线">
+    // 4. 游览路线
+    if (data['游览路线总述'] || data['游览路线步骤']) {
+      const routeTitle = data['SEO路线标题'] || '游览路线';
+      sectionsHtml += `
+          <Section title={\`${sectionIndex++}. ${routeTitle.replace(/`/g, '\\`')}\`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{\`${(data['SEO路线子标题'] || '推荐路线').replace(/`/g, '\\`')}\`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {\`${(data['游览路线总述'] || '').replace(/`/g, '\\`')}\`}
                 </p>
-                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{\`${(data['游览路线补充'] || '全程步行游览，深度感受。').replace(/`/g, '\\`')}\`}
-                </div>
+                ${data['游览路线补充'] ? `<div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{\`${data['游览路线补充'].replace(/`/g, '\\`')}\`}
+                </div>` : ''}
               </div>
-              
+              ${data['游览路线步骤'] ? `
               <div className="grid md:grid-cols-2 gap-6">
 ${formatListToCards(data['游览路线步骤'])}
-              </div>
+              </div>` : ''}
             </div>
-          </Section>
+          </Section>\n`;
+    }
 
-          <Section title="5. 拍照机位">
+    // 5. 必看亮点细节 (兼容新 Prompt)
+    if (data['必看亮点细节']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+${formatParagraphs(data['必看亮点细节'])}
+            </div>
+          </Section>\n`;
+    }
+
+    // 6. 拍照机位 (兼容老 Prompt)
+    if (data['拍照机位']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 拍照机位">
             <div className="grid md:grid-cols-2 gap-6">
 ${formatListToPhotoCards(data['拍照机位'])}
             </div>
-            
+            ${data['拍照补充说明'] ? `
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
 ${formatList(data['拍照补充说明'], true)}
               </ul>
-            </div>
-          </Section>
+            </div>` : ''}
+          </Section>\n`;
+    }
 
-          <Section title="6. 住宿小贴士">
+    // 7. 实用避坑指南 (兼容新 Prompt)
+    if (data['实用避坑指南']) {
+      const tipsTitle = data['SEO避坑标题'] || '实用避坑指南';
+      sectionsHtml += `
+          <Section title={\`${sectionIndex++}. ${tipsTitle.replace(/`/g, '\\`')}\`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+${formatParagraphs(data['实用避坑指南'])}
+            </div>
+          </Section>\n`;
+    }
+
+    // 8. 住宿小贴士 / 住宿与餐饮推荐
+    if (data['住宿建议'] || data['住宿与餐饮推荐']) {
+      const stayTitle = data['SEO住宿标题'] || '住宿与餐饮推荐';
+      sectionsHtml += `
+          <Section title={\`${sectionIndex++}. ${stayTitle.replace(/`/g, '\\`')}\`}>
             <div className="space-y-6">
+              ${data['住宿建议'] ? `
               <div className="grid md:grid-cols-3 gap-4">
 ${formatListToHotelCards(data['住宿建议'])}
-              </div>
+              </div>` : ''}
               <div className="text-gray-700 leading-relaxed">
-${formatParagraphs(data['住宿补充说明'])}
+${formatParagraphs(data['住宿补充说明'] || data['住宿与餐饮推荐'])}
               </div>
             </div>
-          </Section>
+          </Section>\n`;
+    }
 
-          <Section title="7. 总结感悟">
+    // 9. 周边延伸探索 (兼容新 Prompt)
+    if (data['周边延伸探索']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+${formatParagraphs(data['周边延伸探索'])}
+            </div>
+          </Section>\n`;
+    }
+
+    // 10. 总结感悟
+    if (data['总结感悟']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
 ${formatParagraphs(data['总结感悟'])}
             </div>
-          </Section>
+          </Section>\n`;
+    }
+
+    const pageContent = `import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '${safeTitle}',
+  description: '${safeDesc}',
+}
+
+export default function ${componentName}() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '${(data['景点中文名'] || '').replace(/'/g, "\\'")}', href: '/attractions/${slug}' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{\`${data['景点中文名'] || ''}・${data['景点英文名'] || ''}・${data['国家'] || ''}・${data['城市'] || ''}\`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {\`${(data['核心简介']?.split('\\n')[0] || '').replace(/`/g, '\\`')}\`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+${sectionsHtml}
 ${relatedHtml}
         </div>
       </div>
     </div>
   )
 }
-`;
+`;;
 
     // 写入文件
     if (!fs.existsSync(pageDir)) {

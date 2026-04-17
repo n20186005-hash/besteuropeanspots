@@ -1,0 +1,239 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '贝热拉克 Bergerac｜沉醉于西哈诺的故乡，探索多尔多涅河畔的葡萄酒与中世纪老城 - 最佳欧洲景点',
+  description: '说实话，在抵达贝热拉克之前，我对它的想象完全被那顶插着羽毛的帽子和一个巨大的鼻子占据了——全是拜大鼻子情圣西哈诺所赐。但当我真正拖着行李箱，从火车站走出来，沿着指示牌走向“老城”时，第一个击中我的并不是什么文学气息，而是一股极其扎实、混合着淡淡河水腥气与远处面包房黄油香味的空气。脚下的路从柏油路变成',
+}
+
+export default function BergeracDordogneFrancePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '贝热拉克', href: '/attractions/bergerac-dordogne-france' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`贝热拉克・Bergerac・法国・贝热拉克`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，在抵达贝热拉克之前，我对它的想象完全被那顶插着羽毛的帽子和一个巨大的鼻子占据了——全是拜大鼻子情圣西哈诺所赐。但当我真正拖着行李箱，从火车站走出来，沿着指示牌走向“老城”时，第一个击中我的并不是什么文学气息，而是一股极其扎实、混合着淡淡河水腥气与远处面包房黄油香味的空气。脚下的路从柏油路变成了被岁月打磨得异常光滑的鹅卵石，行李箱轮子发出的噪音瞬间变成了一种笨拙的抗议。我索性提起箱子，就在那一瞬间，周围的声音清晰了起来：咖啡馆露天座位的杯碟轻碰声，某扇木窗被推开的吱呀声，还有，若有若无的，从地窖门缝里飘出的、那种潮湿石头混合着陈旧木桶的复杂气味。
+这就是贝热拉克，一个毫不做作、把自己活成了背景本身的小城。多尔多涅河在这里拐了一个温柔的弯，河水是浑浊的灰绿色，流淌得不急不躁，就像当地人的生活节奏。河岸边停着一些漆成亮色的旧划艇，岸上高大的梧桐树叶子沙沙作响。你很快就发现，西哈诺的铜像固然立在广场上，摆着经典的戏剧姿势，但本地人更关心的，似乎是手中那杯深红色的葡萄酒，是集市上番茄的成色，是下午该去哪片河岸晒太阳。文学传奇是吸引旅人的招牌，但真正支撑这座小城呼吸的，是葡萄藤、是河水、是石头房子里一代代传承下来的、关于如何好好生活的常识。
+穿行在圣母区那些狭窄的巷弄里，两侧的木筋墙房子像喝醉了酒似的微微倾斜，彼此依靠。墙壁上的木条构成各种几何图案，中间填充的灰泥呈现出蜂蜜、浅粉或奶白的色调。阳光只能从狭窄的天空缝隙中洒下，在鹅卵石上切割出明暗交错的斑块。你会路过一家肉铺，橱窗里挂着的火腿和香肠泛着油润的光；下一家可能就是一个小型艺术画廊，或者一个堆满旧书的书店。生活的烟火气与艺术感毫无障碍地交融在一起。当你偶尔从一条小巷钻出来，豁然开朗，面前是一个种着椴树的小广场，中央有一口古老的石井，几个老人正坐在长椅上闲聊，那种时空交错的恍惚感会异常强烈——你仿佛同时行走在21世纪的今天和17世纪的昨天。
+而这一切的背景音，或者说底蕴，是葡萄酒。这不是波尔多那种需要正襟危坐谈论年份和庄园的葡萄酒文化，而是更亲切、更日常的。空气中似乎总萦绕着一种淡淡的、甜美的酒香，它可能来自某扇打开的酒窖门，来自餐厅后厨正在炖煮的菜肴，甚至来自河边土壤蒸发的气息。你会明白，在这里，葡萄酒不是奢侈品，它是土地的语言，是历史的载体，是日常佐餐的快乐源泉。西哈诺的浪漫诗篇是用墨水写的，而贝热拉克人的诗篇，大概是用葡萄汁写的，窖藏在橡木桶里，等待每一个寻常的日子将其开启。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`说实话，在抵达贝热拉克之前，我对它的想象完全被那顶插着羽毛的帽子和一个巨大的鼻子占据了——全是拜大鼻子情圣西哈诺所赐。但当我真正拖着行李箱，从火车站走出来，沿着指示牌走向“老城”时，第一个击中我的并不是什么文学气息，而是一股极其扎实、混合着淡淡河水腥气与远处面包房黄油香味的空气。脚下的路从柏油路变成了被岁月打磨得异常光滑的鹅卵石，行李箱轮子发出的噪音瞬间变成了一种笨拙的抗议。我索性提起箱子，就在那一瞬间，周围的声音清晰了起来：咖啡馆露天座位的杯碟轻碰声，某扇木窗被推开的吱呀声，还有，若有若无的，从地窖门缝里飘出的、那种潮湿石头混合着陈旧木桶的复杂气味。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这就是贝热拉克，一个毫不做作、把自己活成了背景本身的小城。多尔多涅河在这里拐了一个温柔的弯，河水是浑浊的灰绿色，流淌得不急不躁，就像当地人的生活节奏。河岸边停着一些漆成亮色的旧划艇，岸上高大的梧桐树叶子沙沙作响。你很快就发现，西哈诺的铜像固然立在广场上，摆着经典的戏剧姿势，但本地人更关心的，似乎是手中那杯深红色的葡萄酒，是集市上番茄的成色，是下午该去哪片河岸晒太阳。文学传奇是吸引旅人的招牌，但真正支撑这座小城呼吸的，是葡萄藤、是河水、是石头房子里一代代传承下来的、关于如何好好生活的常识。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿行在圣母区那些狭窄的巷弄里，两侧的木筋墙房子像喝醉了酒似的微微倾斜，彼此依靠。墙壁上的木条构成各种几何图案，中间填充的灰泥呈现出蜂蜜、浅粉或奶白的色调。阳光只能从狭窄的天空缝隙中洒下，在鹅卵石上切割出明暗交错的斑块。你会路过一家肉铺，橱窗里挂着的火腿和香肠泛着油润的光；下一家可能就是一个小型艺术画廊，或者一个堆满旧书的书店。生活的烟火气与艺术感毫无障碍地交融在一起。当你偶尔从一条小巷钻出来，豁然开朗，面前是一个种着椴树的小广场，中央有一口古老的石井，几个老人正坐在长椅上闲聊，那种时空交错的恍惚感会异常强烈——你仿佛同时行走在21世纪的今天和17世纪的昨天。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而这一切的背景音，或者说底蕴，是葡萄酒。这不是波尔多那种需要正襟危坐谈论年份和庄园的葡萄酒文化，而是更亲切、更日常的。空气中似乎总萦绕着一种淡淡的、甜美的酒香，它可能来自某扇打开的酒窖门，来自餐厅后厨正在炖煮的菜肴，甚至来自河边土壤蒸发的气息。你会明白，在这里，葡萄酒不是奢侈品，它是土地的语言，是历史的载体，是日常佐餐的快乐源泉。西哈诺的浪漫诗篇是用墨水写的，而贝热拉克人的诗篇，大概是用葡萄汁写的，窖藏在橡木桶里，等待每一个寻常的日子将其开启。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`贝热拉克`} />
+                <InfoRow label="英文名称" value={`Bergerac`} />
+                <InfoRow label="正式名称" value={`Bergerac`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`贝热拉克`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`多尔多涅河畔的葡萄酒贸易历史重镇，因与大鼻子情圣西哈诺·德·贝热拉克的文化联结而享誉世界。`} />
+                <InfoRow label="建筑特色" value={`保存完好的中世纪木筋墙房屋群落，鹅卵石铺就的蜿蜒街巷，以及见证河运繁荣的古老码头。`} />
+                <InfoRow label="建筑风格" value={`中世纪及文艺复兴风格为主的半木结构建筑，部分建筑带有哥特式细节。`} />
+                <InfoRow label="文化价值" value={`法国西南部重要的葡萄酒文化中心，其文化身份巧妙融合了真实的历史贸易与浪漫的文学虚构形象。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城区全天开放。各博物馆及酒窖开放时间各异：葡萄酒博物馆一般为4月至10月每日10:00-18:00开放，11月至3月开放时间缩短或需预约；圣雅克教堂通常在白天开放供参观。大部分酒庄和品酒室需提前预约，尤其是淡季。每周六上午老城有大型集市，是体验当地生活的最佳时段。`} />
+              <InfoRow label="门票价格" value={`漫步老城街区及河岸完全免费。参观葡萄酒博物馆票价约7欧元，有学生及家庭优惠。进入圣雅克教堂免费，登塔可能收取小额费用（约2-3欧元）。参与酒窖导览与品酒体验价格在10-30欧元不等，取决于酒庄级别和品尝酒款数量。`} />
+              <InfoRow label="地址" value={`Place du Docteur Cayla, 24100 Bergerac, France`} />
+              <InfoRow label="交通方式" value={`最近的主要国际机场是波尔多-梅里尼亚克机场（BOD）。从机场可搭乘前往波尔多圣让火车站的穿梭巴士（约30分钟），再转乘TER（区域快铁）列车直达贝热拉克站，车程约1小时20分钟，班次频繁。从巴黎蒙帕纳斯火车站乘坐TGV高速列车至波尔多圣让站，再换乘TER至贝热拉克，全程约3.5-4小时。贝热拉克火车站步行至老城中心仅需10-15分钟，城内所有景点均可轻松步行抵达。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲贝热拉克的故事，我们得先把那位著名的“大鼻子情圣”暂时请到一旁——虽然这有点困难。因为真实的贝热拉克历史，远比那个文学形象更厚重、更复杂，也充满了更多葡萄酒的醇香与战争的硝烟。早在罗马时期，多尔多涅河这条黄金水道沿岸就有人定居，但“贝热拉克”这个名字真正出现在羊皮纸文书上，大概是在10世纪左右。它的命运从一开始就和这条河紧紧绑在一起。中世纪鼎盛时期，这里成了一个繁忙的内河港口。你想象一下当时的场景：码头边停满了“加伯尔”平底船，这些吃水浅的木头船是从上游的奥弗涅山区驶来的，满载着木材、奶酪和火山石；而从这里装船运走的，则是让贝热拉克声名远播的货物——葡萄酒。尤其是来自蒙巴济亚克产区的甜白葡萄酒，因其不易变质，特别适合长途海运，成为畅销英格兰和荷兰的明星商品。那时的河岸，空气里混合着河水、湿木头、鱼腥味，以及从无数酒桶缝隙中渗出的、令人微醺的酒香。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`财富随着酒桶滚滚而来，也引来了贪婪的目光和战火的洗礼。英法百年战争期间，贝热拉克因其战略位置（控制河道）和财富，成为双方反复争夺的肥肉。城墙建了又毁，毁了又建。我们今天在老城看到的圣雅克教堂，那座有着防御工事般坚固外观的塔楼，就是那个动荡时代的见证。它不像巴黎圣母院那样追求轻盈升腾，而是敦实、粗犷，仿佛一个攥紧拳头的战士，提醒人们和平的珍贵。战争结束后，贝热拉克迎来了文艺复兴时期的繁荣，精美的木筋墙房子如雨后春笋般建起，商人和船主的宅邸装饰着雕刻繁复的窗框。然而，16世纪的法国宗教战争（胡格诺战争）又给了它沉重一击。贝热拉克是胡格诺派（新教）的重要据点，经历了惨烈的围城和屠杀。直到1598年南特敕令颁布，才换来暂时的宗教宽容。这段血腥的历史，给城市的精神气质里注入了一丝坚韧与忧郁。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`好了，现在我们可以请出西哈诺·德·贝热拉克了。有趣的是，这位在埃德蒙·罗斯丹的戏剧中光芒万丈的诗人、剑客、情圣，历史上确有其人，但他的一生与贝热拉克这座城市关联极少。西哈诺·德·贝热拉克（1619-1655）出生在巴黎，他的生平事迹也大多发生在巴黎和战场上。那么，这座小城是如何“认领”了这位文学巨子的呢？这大概要归功于19世纪末戏剧的巨大成功，以及旅游业萌芽时期小镇寻找独特文化名片的本能。贝热拉克人聪明地接纳了这个美丽的错误，他们不仅在城市广场上竖起了西哈诺的雕像，还将这种勇敢、浪漫、略带悲情色彩的气质，与本地生产的葡萄酒（尤其是强劲的“西哈诺”混酿红葡萄酒）联系起来，完成了一次极其成功的文化营销。一个虚构的文学形象，反而为真实的历史古城注入了永恒的灵魂和魅力，这本身就是一个绝妙的传奇。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间进入近现代，随着铁路运输取代内河航运，贝热拉克的港口功能逐渐衰落。但它并没有因此沉寂。20世纪，它成功地将经济重心巩固在了葡萄酒产业上，建立了合作社，规范了产区命名，将贝热拉克和蒙巴济亚克葡萄酒推广到全世界。同时，它极其明智地保护了老城区的整体风貌，没有进行大刀阔斧的现代化改造。当你今天漫步其中，那些略微倾斜的木筋墙房子、隐秘的庭院、通往河边的石阶，大部分都得到了精心的修缮和维护。它们不是博物馆里冰冷的展品，而是依然充满生命力的住宅、店铺、工作室。贝热拉克没有试图把自己 frozen in time（冻结在时光里），它选择让历史活在当下，让西哈诺的诗歌与酒杯碰撞的叮当声，一起成为今日生活交响曲中的和谐音符。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要彻底感受贝热拉克的韵味，我强烈建议你安排一整天的时间，并遵循“从文学到生活，从历史到风味”的节奏。最好能在清晨八点左右抵达老城，这时旅游大巴还未到来，阳光斜射进小巷，面包店刚刚出炉第一波牛角包，整个城镇如同刚刚苏醒，充满了宁静的私密感。从地标性的西哈诺雕像出发，先快速建立文学联结，然后立即钻进迷宫般的老城街巷，用整个上午的时间去“迷路”，去发现那些不经意的细节。中午在河岸边的餐厅享用一顿以当地葡萄酒佐餐的漫长午餐。下午的重点可以放在深度文化体验上，参观葡萄酒博物馆，或者预约一家家庭式酒窖的导览。傍晚时分，一定要留给多尔多涅河岸，看夕阳如何将河水、石桥和两岸的房子染成蜜金色。这样的安排张弛有度，既能覆盖主要景点，又留足了随意探索和坐下发呆的空间，完美契合这座小城的慵懒气质。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周六上午老城集市规模盛大且极具生活气息，但同时也是人流高峰，喜欢清静的朋友可以避开这个时段，或早点前来体验后迅速撤离。大部分博物馆和小型展览馆周一闭馆，规划行程时务必提前查好时间。老城街道几乎全由鹅卵石铺成，且多有起伏，请务必穿一双绝对舒适、鞋底较厚的 walking shoes，高跟鞋在这里是“刑具”。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从贝热拉克火车站出来，跟着“Vieille Ville”（老城）的指示牌，步行一刻钟就能抵达佩拉蒂广场，首先去和那位戴着羽毛帽、手按佩剑的西哈诺铜像打个照面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`立刻钻进雕像背后的克洛斯特尔街，让自己彻底迷失在中世纪街区“圣母区”的脉络里，用手指触摸那些温润的木梁，仰头看每一栋木筋墙房子独特的图案。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要找到隐藏在巷弄深处的“小木鞋博物馆”，看看那些可爱的迷你鞋模型，并听店主讲讲当地传统工艺的趣事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着任何一条下坡路往水声方向走，你最终会来到古老的河港码头，站在修复好的加伯尔平底船旁，想象中世纪这里酒桶滚动、商贾云集的繁忙景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在码头边的餐厅选一个露天座位，点一份用蒙巴济亚克甜白葡萄酒炖煮的肥鹅肝，配上一杯本地特色的贝热拉克红酒，让味蕾也沉浸到风土之中。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午餐后前往葡萄酒博物馆，在那座古老的修道院建筑里，系统地了解从罗马时期至今的葡萄酒酿造史，并在最后的品酒室实践你的新知识。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过圣雅克教堂前的小广场，如果体力允许可以登上教堂塔楼，俯瞰整个老城红色屋顶的海洋和多尔多涅河如玉带般蜿蜒的景致。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前一小时，沿着河岸向北慢慢散步，穿过圣雅克桥，走到对岸的草坪或河堤上，找一块石头坐下，静静等待金色的夕阳为贝热拉克的一天画上句号。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`西哈诺雕像侧后方仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在雕像的斜后方，以他经典的侧影为前景，将对面的木筋墙老建筑和一小片天空纳入构图，能拍出故事感极强的戏剧性画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`葡萄酒博物馆的宁静回廊`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，阳光透过回廊的拱廊，在古老的石地上投下规律的光影，站在回廊一端拍摄纵深感，能捕捉到修道院建筑特有的静谧与几何美感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣雅克教堂塔楼瞭望口`}</h4>
+                  <p className="text-sm text-gray-700">{`登塔后，透过那些厚重的、如同射击孔般的石制瞭望口向外拍摄，以厚重的石框为画框，框住外面红瓦屋顶的海洋和多尔多涅河，画面极具层次感和历史氛围。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`多尔多涅河对岸的日落全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落后约十五分钟的“蓝色时刻”，从圣雅克桥北侧的对岸，用长焦镜头压缩空间，将老城建筑群、河面上的桥影以及天空最后的余晖全部收纳，能得到一幅宁静而富有诗意的全景图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`克莱蒙梭码头边的晨雾与倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`如果幸运地遇到有晨雾的清晨，在克莱蒙梭码头，将修复的加伯尔平底船作为前景，拍摄它对岸边的木筋墙房子在平静河水中形成的完美倒影，雾气会让画面如梦似幻。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`当地居民非常以他们的家园为荣，拍摄私人住宅的庭院或窗户内部前，最好礼貌地微笑或点头示意，获得默许。利用早晚的侧光或逆光，能极大地增强木筋墙建筑的纹理质感和鹅卵石路面的凹凸感。请记住，有时放下相机，用眼睛和心去感受河边葡萄酒杯折射的阳光，比任何一张照片都更值得珍藏。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`老城中心的隐秘庭院`}</h4>
+                  <p className="text-sm text-blue-800">{`选择一栋经过精心修复的15世纪木筋墙房屋改建的精品旅馆，房间围着一个小小的内部石砌庭院，晚上能听到庭院里喷泉的潺潺水声，清晨在私密的天井里享用房东准备的农家早餐。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`河景阳台的浪漫选择`}</h4>
+                  <p className="text-sm text-green-800">{`位于老城边缘、直接坐落在多尔多涅河岸上的精品酒店，房间带有一个俯瞰河面与圣雅克桥的小阳台，黄昏时可以一边品着酒店赠送的迎宾酒，一边看桥上的灯光渐次亮起，倒映在墨色的河水中。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`葡萄园环绕的乡间宅邸`}</h4>
+                  <p className="text-sm text-yellow-800">{`如果你自驾，强烈推荐住在城外车程15分钟内的乡间庄园酒店，它本身可能就是一个家族经营的酒庄，住在被葡萄园包围的石砌农舍里，夜晚无比静谧，只有星空和虫鸣，白天可以跟随庄主去田间学习剪枝。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`预算友好的河畔客栈`}</h4>
+                  <p className="text-sm text-purple-800">{`在贝热拉克主城区外、但依然步行可达的河畔区域，有一些干净温馨的家庭式客栈，房间简单舒适，老板娘会热情地为你手绘美食地图，并告诉你哪个面包房的苹果塔最受本地人欢迎。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`贝热拉克治安良好，老城中心夜晚也很宁静。但如果你住在极狭窄的历史建筑内，隔音可能相对现代酒店稍差，这是体验的一部分。夏季（7-8月）和葡萄酒收获季（9月底-10月初）是绝对旺季，住宿紧张且价格较高，建议至少提前2-3个月预订。如果选择城外酒庄住宿，务必确认是否有晚餐提供或附近餐厅的可达性，因为乡间晚间出行觅食可能不太方便。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开贝热拉克好些日子了，我发现自己最常回味的，并不是某一张明信片般的风景照片，而是一些细碎的感官记忆：是手指划过某面老墙时，木头上那些因为日晒雨淋而产生的、如老人皱纹般温润沟壑的触感；是午后在偏僻小巷里，突然听到楼上一位老太太推开木窗，用法语轻声呼唤猫咪的柔软声音；是坐在河岸边，看着当地一家人悠闲地骑着自行车掠过，车篮里装着刚买的长棍面包，那面包的一端还俏皮地裸露在外。这座小城教会我的，是一种“沉浸式生活”的态度。它没有试图用宏大的叙事震撼你，而是邀请你慢下来，踩上它的鹅卵石，呼吸它的空气，品尝它土地酿出的酒，最后，在不知不觉中，让你成为它日常风景里一个和谐的、暂时的音符。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率、打卡和震撼体验的快节奏旅游时代，贝热拉克像是一个温柔的“逆行者”。它存在的意义，或许就是提醒我们：旅行的深度，不在于收集了多少个著名地标，而在于你是否允许自己在一个地方“浪费”掉一整个无所事事的下午；文化的重量，不仅可以承载于史诗般的宫殿与战役中，也同样可以沉淀在一杯家常葡萄酒的色泽里、一座普通木屋的百年纹理里、和一个被欣然接纳的美丽文学误会里。所以，如果你也渴望一次真正能熨平内心褶皱的旅行，一次能让你重新发现“生活”原本质感的探索，请务必把贝热拉克放入你的清单。它不是终点，而是一个开始，开始学习如何像品尝一杯好酒那样，去细细品味时光本身。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/provins-medieval-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普罗万中世纪古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Provins</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/cite-royale-de-loches" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    洛
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">洛什王家古堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Royal Citadel of Loches</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/pont-du-gard" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    加
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">加尔桥</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pont du Gard</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

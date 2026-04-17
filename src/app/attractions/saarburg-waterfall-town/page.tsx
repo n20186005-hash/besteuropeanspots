@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '萨尔堡 Saarburg｜瀑布从市中心穿流而过的浪漫酒镇 - 最佳欧洲景点',
+  description: '还没看见镇子，你先听见它。那是一种低沉而持续的背景轰鸣，不是工业的噪音，而是某种充满生命力的、原始的白噪音。顺着声音走下火车站的小坡，一个童话般的景象豁然展开：一条名叫莱茵（Leiwen）的小溪在这里决绝地纵身一跃，化作一条高达20米的瀑布，直接灌入镇子最核心的裂缝中。水汽随风飘来，带着清冽的、石头',
+}
+
+export default function SaarburgWaterfallTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '萨尔堡', href: '/attractions/saarburg-waterfall-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`萨尔堡・Saarburg・德国・萨尔堡`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`还没看见镇子，你先听见它。那是一种低沉而持续的背景轰鸣，不是工业的噪音，而是某种充满生命力的、原始的白噪音。顺着声音走下火车站的小坡，一个童话般的景象豁然展开：一条名叫莱茵（Leiwen）的小溪在这里决绝地纵身一跃，化作一条高达20米的瀑布，直接灌入镇子最核心的裂缝中。水汽随风飘来，带着清冽的、石头和苔藓的味道，瞬间润湿了你的脸颊。
+这瀑布可不是仅供观赏的“盆景”。它活着，在工作。你的目光会立刻被瀑布脚下那座巨大的、仍在缓慢转动的古老木制水车吸引。几个世纪以来，正是这奔腾不息的水流，推动水车，为磨坊、锻造厂和后来的发电站提供动力。更妙的是，整个小镇的生活就围绕这条瀑布展开。餐馆的露台悬在水面上方，民居的后窗推开就是飞溅的水花，石板小路湿漉漉的，引着你上上下下，在不同的高度和角度与瀑布邂逅。当地人早已习惯了这永不停歇的轰鸣，它在背景里，就像自己的心跳。
+空气里还有另一种迷人的香气，混合着水汽——是葡萄酒的芬芳。萨尔堡是摩泽尔-萨尔-鲁沃尔（Mosel-Saar-Ruwer）葡萄酒产区的重镇。你会在陡峭的坡地上看到令人惊叹的、几乎垂直的葡萄园梯田。于是，水的力量与葡萄的精华在这里交汇。当地人会说，是这瀑布的活力，赋予了葡萄酒独特的清爽与矿物感。坐在水边的任何一家酒馆（Weinstube），点一杯当地产的雷司令，看着窗外奔腾的水流，你会瞬间理解这座小镇的灵魂：它既是狂野自然的造物，又是人类精巧利用自然的杰作，两者交融得如此紧密，不分彼此。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`还没看见镇子，你先听见它。那是一种低沉而持续的背景轰鸣，不是工业的噪音，而是某种充满生命力的、原始的白噪音。顺着声音走下火车站的小坡，一个童话般的景象豁然展开：一条名叫莱茵（Leiwen）的小溪在这里决绝地纵身一跃，化作一条高达20米的瀑布，直接灌入镇子最核心的裂缝中。水汽随风飘来，带着清冽的、石头和苔藓的味道，瞬间润湿了你的脸颊。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这瀑布可不是仅供观赏的“盆景”。它活着，在工作。你的目光会立刻被瀑布脚下那座巨大的、仍在缓慢转动的古老木制水车吸引。几个世纪以来，正是这奔腾不息的水流，推动水车，为磨坊、锻造厂和后来的发电站提供动力。更妙的是，整个小镇的生活就围绕这条瀑布展开。餐馆的露台悬在水面上方，民居的后窗推开就是飞溅的水花，石板小路湿漉漉的，引着你上上下下，在不同的高度和角度与瀑布邂逅。当地人早已习惯了这永不停歇的轰鸣，它在背景里，就像自己的心跳。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`空气里还有另一种迷人的香气，混合着水汽——是葡萄酒的芬芳。萨尔堡是摩泽尔-萨尔-鲁沃尔（Mosel-Saar-Ruwer）葡萄酒产区的重镇。你会在陡峭的坡地上看到令人惊叹的、几乎垂直的葡萄园梯田。于是，水的力量与葡萄的精华在这里交汇。当地人会说，是这瀑布的活力，赋予了葡萄酒独特的清爽与矿物感。坐在水边的任何一家酒馆（Weinstube），点一杯当地产的雷司令，看着窗外奔腾的水流，你会瞬间理解这座小镇的灵魂：它既是狂野自然的造物，又是人类精巧利用自然的杰作，两者交融得如此紧密，不分彼此。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`萨尔堡`} />
+                <InfoRow label="英文名称" value={`Saarburg`} />
+                <InfoRow label="正式名称" value={`Saarburg`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`萨尔堡`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座因瀑布的天然动力而兴起，将水力利用贯穿千年历史的中世纪商贸与酿酒重镇。`} />
+                <InfoRow label="建筑特色" value={`层层叠叠的彩色半木结构房屋如梯田般紧密簇拥在陡峭的瀑布峡谷两岸，由无数小桥、石阶和巷弄连接，与轰鸣的流水和古老水车构成独一无二的立体画卷。`} />
+                <InfoRow label="建筑风格" value={`以德国典型的木桁架（Fachwerk）建筑风格为主体，混杂了后期巴洛克和古典主义的装饰元素，整体呈现出未经战火破坏的、有机生长而成的中世纪古镇风貌。`} />
+                <InfoRow label="文化价值" value={`是人与自然力量和谐共存的活态标本，生动展示了如何将一项地理“障碍”转化为城市灵魂、经济命脉与文化认同的核心。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`瀑布及老城公共区域全天24小时开放。主要景点如瀑布磨坊（Leistenmühle）和城堡废墟的参观平台开放时间一般为日出至日落。镇博物馆（Heimatmuseum）开放时间较为灵活，通常为每年4月至10月的周二至周日下午2点至5点，11月至3月仅周末开放或需预约。建议出行前在镇旅游局官网确认最新安排。`} />
+              <InfoRow label="门票价格" value={`进入古镇及观赏瀑布免费。瀑布磨坊内部参观门票约为4欧元/人。镇博物馆门票约为3欧元/人。城堡山电梯（Bergbahn）单程票约2欧元。无统一的联票，各景点单独购票。`} />
+              <InfoRow label="地址" value={`Saarburg, 54439 Saarburg, Rhineland-Palatinate, Germany`} />
+              <InfoRow label="交通方式" value={`从法兰克福-哈恩机场（HHN）出发，乘坐直达的FlixBus巴士前往特里尔（Trier），车程约1小时。在特里尔中央火车站（Trier Hbf）换乘区域火车（RB），前往萨尔堡站（Bahnhof Saarburg），车程约20分钟，班次频繁，每小时至少2-3班，可通过DB Navigator App购票。从卢森堡机场（LUX）出发更为便捷，乘火车至卢森堡城站后，转乘直达萨尔堡的跨境列车，总车程约1.5小时。抵达萨尔堡火车站后，出站即可看到瀑布和老城，步行下山约10分钟即达市中心。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要追溯到罗马人时期。他们最早看中了萨尔河畔这个易于防御的位置，但瀑布峡谷对于讲究规整秩序的罗马人来说，更像是一个需要规避的障碍。真正的转折点发生在公元964年，文献中首次提到了“萨拉堡”（Castellum Sarabrucca）。名字里的“Burg”（城堡）揭示了它的起源：一位名叫西格弗里德（Siegfried）的伯爵，在瀑布上方陡峭的岩石上建造了一座城堡，用以控制萨尔河的水路以及河谷的陆路交通。瀑布，这时还是城堡防御体系的一部分，是天险。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`到了中世纪，小镇在城堡的庇护下蓬勃发展。精明的市民和手工业者发现了瀑布蕴藏的巨大能量。大约在13世纪，瀑布脚下建起了第一座磨坊。那不是用来观赏的，而是实实在在的工业引擎。水力驱动磨盘研磨谷物，后来更是用来锻造工具、鞣制皮革、压制布料。瀑布的轰鸣声里，开始夹杂着锤打声和齿轮的转动声。小镇因水而富，获得了重要的市场权和关税权，彩色木筋房越建越多，密密麻麻地贴在峡谷两侧，形成了今天所见的那令人惊叹的立体街景。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，繁荣也引来了觊觎。1689年，法国国王路易十四的军队在“九年战争”中推进到莱茵兰地区，宏伟的城堡在战火中被摧毁，只剩下我们今天看到的废墟石墙。但有趣的是，瀑布和它驱动的产业却幸存下来，并继续作为小镇的经济支柱。19世纪工业革命时期，蒸汽机兴起，但瀑布的水力通过新技术转化为电力，继续点亮小镇。那座你看到的大水车，其实建于19世纪末，是传统水力利用向现代过渡的象征。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`小镇的命运在二战后再次迎来转折。当许多德国城市在废墟上重建为现代化模样时，萨尔堡因其陡峭的地形和完好的中世纪核心，奇迹般地躲过了大规模改造。20世纪60年代起，人们重新发现了其无与伦比的景观和历史价值。瀑布从“工业区”的标签中被解放出来，重新被定义为城市的宝石和旅游的核心。磨坊停止了商业化生产，转而成为向游客展示古老技艺的博物馆。今天，你听到的瀑布声，既有千年未变的自然咆哮，也回荡着从罗马堡垒到中世纪作坊，再到当代旅游小镇的层层历史回音。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`强烈建议在清晨（8点前）开始你的探索。这时旅行团尚未抵达，阳光刚刚洒向瀑布顶端，光线柔和，水流声是绝对的主角。整个游览可以安排大半天时间，节奏宜慢不宜快，因为上下台阶很多，需要你带着一颗悠闲的心去体会“爬”一座小镇的乐趣。路线设计为一条环路：先从高处俯瞰全景，然后深入峡谷底部亲近水流，最后在葡萄园中回味。这样你能多维度地感受水、城、人三者交融的立体关系。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿一双绝对防滑、舒适的鞋子，小镇里上下下的湿滑石阶是最大挑战也是乐趣所在。
+如果遇上大雨后，瀑布会变得异常汹涌壮观，但部分临水小径可能会暂时关闭，请注意安全警示。
+镇中心停车位非常紧张且昂贵，强烈建议使用公共交通或将车停在镇外围的停车场（如“Parkplatz Am Schwimmbad”），然后步行进入。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来先别急着下山，左转沿着“Am Bahnhof”路走几分钟，在第一个观景台就能收获瀑布小镇如模型般铺展在你脚下的震撼第一眼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着陡峭的“Schlossberg”小径或乘坐便捷的城堡山电梯直达山顶的城堡废墟，抚摸那些被太阳晒得温热的粗粝石墙，想象它俯瞰河谷与掌控水力的昔日权威。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡废墟后面的小门出来，沿着“葡萄园小径”（Weinlehrpfad）走一段，在近乎垂直的葡萄藤梯田中间回望，你会看到小镇彩色的屋顶像积木一样堆叠在瀑布撕裂的绿色峡谷中。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山回到镇中心，务必走到瀑布最底端，感受水雾扑面而来的凉意，仰头看水流如何从房屋的间隙中奔腾而下，然后去老磨坊看看那巨大的水车是如何被水流温柔而坚定地推动。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一座小桥过河，比如“Graf-Siegfried-Brücke”，站在桥中央，让轰鸣声从脚下传来，看两岸餐馆开始摆出鲜花装点的露天座位，生活气息随着水汽一同蒸腾。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进一条狭窄的巷子，比如“Am Leiermann”，石板路被磨得光滑，墙壁因为潮湿长着深绿色的苔藓，你会发现某扇低矮的木门后可能是一家家庭经营的酒窖。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，在瀑布中段找一家有露台的咖啡馆，比如“Café am Wasserfall”，点一块黑森林蛋糕和一杯咖啡，什么都不做，就看着水流永恒地坠落，直到阳光移过钟楼。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`瀑布上方拱桥全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在“Graf-Siegfried-Brücke”拱桥的中央，用广角镜头将前方的城堡山、两侧的彩色房屋和脚下奔腾的瀑布同时纳入画面，构图饱满而富有层次。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`老磨坊内部慢门`}</h4>
+                  <p className="text-sm text-gray-700">{`白天进入老磨坊博物馆内，将相机稳固在三脚架上，使用慢速快门（如1/4秒或更慢），对准仍在转动的巨大木质水车叶片，拍出水流如丝绸般柔滑、与古老木结构形成动静对比的艺术感镜头。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`葡萄园视角俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`下午太阳西斜时，从城堡废墟后的葡萄园小径上，选择一个能同时看到瀑布、圣劳伦斯教堂尖顶和一片葡萄藤的前景位置，用长焦镜头压缩空间，拍出小镇与自然紧密交织的经典明信片角度。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小巷深处的人文`}</h4>
+                  <p className="text-sm text-gray-700">{`雨后初晴的上午，走进“Am Leiermann”这类窄巷，利用湿漉漉的石板路作为引导线，等待一位当地居民推门而出或提篮经过的瞬间，捕捉带有生活气息和水汽氤氲氛围感的纪实画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`夜景长曝光`}</h4>
+                  <p className="text-sm text-gray-700">{`蓝调时刻（日落后半小时内），在瀑布底部的安全区域架好三脚架，用小光圈和长曝光拍摄灯光初上的房屋、车流光轨与白色瀑布水流形成的冷暖色调对比，营造梦幻氛围。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`由于环境水汽极重，务必注意相机和镜头的防水防潮，拍摄间隙最好放入密封袋中。使用偏光镜（CPL）可以有效消除石板路和水面的反光，让色彩更饱和。尊重居民隐私，拍摄民居内部或居民特写时请先微笑示意征求同意。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`流水催眠曲`}</h4>
+                  <p className="text-sm text-blue-800">{`直接坐落在瀑布岸边的一座17世纪木桁架房屋里，房间的木质阳台悬在水面上方，夜晚在永不停歇的流水白噪音中入睡，是独一无二的沉浸式体验。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`半山葡萄园农庄`}</h4>
+                  <p className="text-sm text-green-800">{`位于镇外山坡上的家庭式葡萄酒庄客房，推开窗就是自家经营的雷司令葡萄园，宁静无人打扰，主人会热情邀请你品尝私藏酒款并共进农家早餐。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`老城中心设计酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`由一栋历史商行改建，内部是极简现代设计，却保留了古老的石墙和木梁，地理位置绝佳，出门三步就是主广场和餐馆，适合想要兼顾历史感与舒适便利的旅人。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`城堡山视野民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`位于城堡山腰的独栋公寓，拥有一个可以俯瞰整个峡谷和远处萨尔河弯的超大露台，适合家庭或小团体，自己下厨烹饪当地食材，享受如国王俯瞰领地般的私密视野。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`预订瀑布旁的房间时，如果对声音敏感，建议确认窗户的隔音效果，虽然对大多数人来说水声是助眠的白噪音。夏季和圣诞市场期间是绝对旺季，务必提前数月预订。住在镇外葡萄园的住宿可能需要一小段徒步或开车才能进入老城，但换来的宁静和视野绝对值得。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开萨尔堡许久，那瀑布的轰鸣似乎还留在耳朵里，成为一种内心的背景音。它提醒我，世界上有一些地方，它们的魅力不在于有多么宏伟壮观，而在于一种“恰到好处的奇迹”。瀑布见过，古镇也见过，但如此天衣无缝地长在一起，让自然之力成为日常街景和城市心跳的，恐怕只此一处。它没有被供起来成为需要买票瞻仰的“景点”，而是依然在流动，在工作，在滋养着葡萄园，在浸润着每一条石缝。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都被规划、设计和效率最大化的时代，萨尔堡像是一个美丽的“错误”，一次地理的任性，却被人类用智慧和幽默感接纳并拥抱了上千年。它告诉我们，旅行有时不是为了寻找遥远的异域情调，而是去发现一种不同的可能性——关于人如何与自然共处，不是征服，也不是隔离，而是像老朋友一样，让它的脾气成为自己性格的一部分。在这里，你喝下的每一口清冽的雷司令，仿佛都带着瀑布的活力；你走过的每一级潮湿的台阶，都踩在历史与地理交织的脉络上。它不大，一天足以走遍，但它留下的那种生动、湿润、充满能量的感觉，却能在记忆里回荡很久。对于厌倦了打卡式观光的深度旅人来说，萨尔堡是一剂解药，让你重新学会用耳朵去听，用皮肤去感受，用心去理解一个地方的灵魂。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/zittau-lenten-veil" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    齐
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">齐陶大帷幕博物馆</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zittau</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/freiberg-silver-mining-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    弗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">弗赖贝格</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Freiberg</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/meissen-porcelain-albrecht-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迈森</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meissen</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

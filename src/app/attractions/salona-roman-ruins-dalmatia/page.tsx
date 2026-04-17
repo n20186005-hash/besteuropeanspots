@@ -1,0 +1,251 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '萨罗纳古城废墟 Salona Ruins｜探秘达尔马提亚失落的首府，在人迹罕至的宏阔罗马遗址间漫步 - 最佳欧洲景点',
+  description: '车子从斯普利特喧闹的海滨大道拐进一条安静的林荫路，不过十几分钟，窗外的风景就从亚得里亚海的蔚蓝切换成了橄榄树与松柏的苍绿。当我在一片开阔地的边缘下车，第一眼看到萨罗纳时，它完全没有那些著名遗迹的“舞台感”。没有围栏森严的入口，没有熙攘的旅行团，只有一道低矮的石墙和一片在烈日下无限延伸的、由白色石头和',
+}
+
+export default function SalonaRomanRuinsDalmatiaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '萨罗纳古城废墟', href: '/attractions/salona-roman-ruins-dalmatia' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`萨罗纳古城废墟・Salona Ruins・克罗地亚・索林（靠近斯普利特）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子从斯普利特喧闹的海滨大道拐进一条安静的林荫路，不过十几分钟，窗外的风景就从亚得里亚海的蔚蓝切换成了橄榄树与松柏的苍绿。当我在一片开阔地的边缘下车，第一眼看到萨罗纳时，它完全没有那些著名遗迹的“舞台感”。没有围栏森严的入口，没有熙攘的旅行团，只有一道低矮的石墙和一片在烈日下无限延伸的、由白色石头和绿色杂草构成的旷野。空气里是干燥的尘土味、野生百里香的辛辣香气，以及被太阳炙烤过的古老石头散发出的、难以形容的深沉气息。耳边只有持续不断的蝉鸣，以及风吹过高高草丛的沙沙声，那是一种巨大而安静的轰鸣，仿佛时光本身在呼吸。
+我踩上一条由碎石和旧地基勾勒出的小径，脚下的石头被千年的脚步磨得异常光滑。这里不像一个被精心呵护的“景点”，更像一个刚刚被时间遗忘的巨人庭院。残破的立柱横卧在草中，精美的科林斯柱头半埋在土里，仿佛城市的骨骼就这样随意地散落在大地上。几个本地老人坐在远处一棵无花果树下的长椅上低声聊天，他们的狗在剧场遗迹的台阶上打盹。那一刻我突然明白，萨罗纳并未“死去”，它只是以另一种方式，融入了索林小镇日常的肌理里，成了当地人散步、怀旧的后花园。它的核心魅力，正是这种毫不做作的“荒芜的真实”。
+最打动我的，是那种无与伦比的“空间感”。你可以毫无阻挡地行走在一座古罗马城市的框架里——从巨大的圆形剧场走到公共浴场的供热系统遗址，再穿过曾经商铺林立的街道，走向早期基督教大教堂的洗礼池。没有玻璃罩，没有“请勿触摸”的牌子，历史的各个层面就这样赤裸地、层层叠叠地展现在你面前。你可以在剧场的最高处坐下，想象着昔日这里座无虚席，上演着来自罗马的戏剧；然后转身，就能望见不远处中世纪建造的民居，以及更远处现代工厂的烟囱。这是一种奇特的时空交错，文明在这里不是断裂的章节，而是一本被风吹开了的书，任由你同时阅读它的许多页。
+在这里，你不是在“参观”历史，而是在“步入”历史。阳光炽烈，影子很短，废墟的轮廓锋利地切割着蓝天。当你独自站在巨大的“都市之门”的拱券残迹下，触摸着石头上清晰的凿痕，你会真切地感到，那些建造它的工匠、那些穿过它进城的士兵和商人、那些在城墙内生活又消亡的无数普通人，他们的呼吸似乎还停留在这一片寂静的炎热空气里。萨罗纳不需要重建的辉煌模型，它的震撼力，正来自于这份坦诚的、宏大的破碎。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子从斯普利特喧闹的海滨大道拐进一条安静的林荫路，不过十几分钟，窗外的风景就从亚得里亚海的蔚蓝切换成了橄榄树与松柏的苍绿。当我在一片开阔地的边缘下车，第一眼看到萨罗纳时，它完全没有那些著名遗迹的“舞台感”。没有围栏森严的入口，没有熙攘的旅行团，只有一道低矮的石墙和一片在烈日下无限延伸的、由白色石头和绿色杂草构成的旷野。空气里是干燥的尘土味、野生百里香的辛辣香气，以及被太阳炙烤过的古老石头散发出的、难以形容的深沉气息。耳边只有持续不断的蝉鸣，以及风吹过高高草丛的沙沙声，那是一种巨大而安静的轰鸣，仿佛时光本身在呼吸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`我踩上一条由碎石和旧地基勾勒出的小径，脚下的石头被千年的脚步磨得异常光滑。这里不像一个被精心呵护的“景点”，更像一个刚刚被时间遗忘的巨人庭院。残破的立柱横卧在草中，精美的科林斯柱头半埋在土里，仿佛城市的骨骼就这样随意地散落在大地上。几个本地老人坐在远处一棵无花果树下的长椅上低声聊天，他们的狗在剧场遗迹的台阶上打盹。那一刻我突然明白，萨罗纳并未“死去”，它只是以另一种方式，融入了索林小镇日常的肌理里，成了当地人散步、怀旧的后花园。它的核心魅力，正是这种毫不做作的“荒芜的真实”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动我的，是那种无与伦比的“空间感”。你可以毫无阻挡地行走在一座古罗马城市的框架里——从巨大的圆形剧场走到公共浴场的供热系统遗址，再穿过曾经商铺林立的街道，走向早期基督教大教堂的洗礼池。没有玻璃罩，没有“请勿触摸”的牌子，历史的各个层面就这样赤裸地、层层叠叠地展现在你面前。你可以在剧场的最高处坐下，想象着昔日这里座无虚席，上演着来自罗马的戏剧；然后转身，就能望见不远处中世纪建造的民居，以及更远处现代工厂的烟囱。这是一种奇特的时空交错，文明在这里不是断裂的章节，而是一本被风吹开了的书，任由你同时阅读它的许多页。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这里，你不是在“参观”历史，而是在“步入”历史。阳光炽烈，影子很短，废墟的轮廓锋利地切割着蓝天。当你独自站在巨大的“都市之门”的拱券残迹下，触摸着石头上清晰的凿痕，你会真切地感到，那些建造它的工匠、那些穿过它进城的士兵和商人、那些在城墙内生活又消亡的无数普通人，他们的呼吸似乎还停留在这一片寂静的炎热空气里。萨罗纳不需要重建的辉煌模型，它的震撼力，正来自于这份坦诚的、宏大的破碎。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`萨罗纳古城废墟`} />
+                <InfoRow label="英文名称" value={`Salona Ruins`} />
+                <InfoRow label="正式名称" value={`Archaeological Park of Salona`} />
+                <InfoRow label="国家" value={`克罗地亚`} />
+                <InfoRow label="城市" value={`索林（靠近斯普利特）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`曾是古罗马帝国达尔马提亚行省辉煌的首府，也是早期基督教重要的中心之一。`} />
+                <InfoRow label="建筑特色" value={`规模宏大的城市遗迹群，包含了从防御城墙、公共建筑到早期基督教教堂的完整剖面。`} />
+                <InfoRow label="建筑风格" value={`典型的古罗马城市规划与建筑风格，并融合了早期基督教建筑的朴素与实用特征。`} />
+                <InfoRow label="文化价值" value={`是研究罗马帝国边疆行省城市化进程、日常生活以及基督教在巴尔干地区传播的露天博物馆。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全年开放，但开放时间随季节变化。
+夏季（通常为4月至10月）：每日上午9点至下午7点。
+冬季（11月至次年3月）：每日上午9点至下午3点，有时可能更早关闭，且周一可能闭馆维护。
+建议行前在其官网或当地旅游信息中心核实，因为具体时间可能因天气或考古工作而微调。重要的克罗地亚公共假日可能会关闭。`} />
+              <InfoRow label="门票价格" value={`成人票约40克罗地亚库纳（约合5-6欧元）。
+学生、儿童及老年人享有折扣票，约20-30库纳。
+有时提供与斯普利特戴克里先宫博物馆的联票，性价比更高。
+现场购票，支持现金（库纳）和部分信用卡。`} />
+              <InfoRow label="地址" value={`Ul. Manastirine 1, 21210, Solin, Croatia`} />
+              <InfoRow label="交通方式" value={`从斯普利特出发最为便捷。斯普利特拥有国际机场和大型渡轮码头、火车站及汽车总站。
+公共交通：在斯普利特市中心的“Sukoišan”汽车站（紧邻中央火车站和港口），乘坐开往索林方向的本地巴士（如37路、38路）。车程约20-30分钟，告诉司机在“Salona”或“Arheološki park”下车。巴士班次频繁，约15-20分钟一班。
+自驾/出租车：从斯普利特老城出发，沿D8公路向东北方向行驶约15分钟即可抵达，遗址外有免费停车场。出租车费用约为15-20欧元。
+建议：购买一张斯普利特公交日票，可以无限次乘坐市内及近郊巴士，非常划算。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事得从一条河说起，耶德罗河。公元前几世纪，伊利里亚部落就在这里，看中了河流入海口的战略位置，建立了定居点。但真正改变它命运的，是那个永不知足的巨人——罗马共和国。公元前1世纪，经过一系列血腥的战争，罗马军团最终征服了这片崎岖的达尔马提亚海岸。精明的罗马人立刻意识到萨罗纳的价值：它拥有良港，背靠险峻的科索沃山作为屏障，腹地肥沃。于是，一座标准的罗马城市被“铺设”在了这里。它被赋予了一个响亮的名头：科尔内利亚·克劳迪亚·瓦莱里亚·萨洛纳，并迅速成为整个达尔马提亚行省的政治、经济和文化首府。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`想象一下公元2到3世纪的萨罗纳吧。城墙之内，居住着多达六万人，这在当时是了不起的大都市。街道笔直，按照罗马人最爱的网格规划展开。广场上立着神庙、巴西利卡（市政厅）和元老院。宏大的剧场里上演着喜剧和悲剧，能容纳一万八千人的圆形剧场则上演着更刺激的角斗士对决与野兽表演。公共浴场蒸汽腾腾，是社交中心；发达的下水道系统和输水渠（其中一部分遗迹至今可见）保障着城市的卫生与奢华。来自帝国的商品在这里集散，本地酿造的葡萄酒和橄榄油被运往各地。它繁华、喧嚣，充满了帝国边疆那种粗粝而旺盛的生命力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的转折点往往伴随着一个人。萨罗纳最著名的“市民”，恐怕是戴克里先。这位出生于萨罗纳附近的奴隶之子，一路攀升成为罗马皇帝，并在退休后回到家乡附近，修建了那座举世闻名的堡垒宫殿——就是今天斯普利特老城的核心。戴克里先的时代也是帝国危机的时代，他的四帝共治制未能从根本上阻止颓势。更深刻的转变发生在精神层面。萨罗纳成了早期基督教在达尔马提亚传播的温床和桥头堡。公元4世纪，这里建立了强大的主教区，一座座朴素而坚固的长方形教堂在异教神庙的旁边拔地而起，巨大的墓地（如“曼纳斯特里内”墓地）里充满了雕刻着十字架和羔羊图案的石棺。这座城市从罗马多神教的堡垒，逐渐变成了基督教的重要中心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但坚固的城墙终究挡不住时代的洪流。5世纪，西哥特人和匈人的铁蹄蹂躏了巴尔干。萨罗纳遭受重创。更大的灾难发生在7世纪上半叶，南下的斯拉夫人和阿瓦尔人联军对城市发起了猛攻。关于萨罗纳的陷落，没有详细的记载，只有模糊的传说和考古发现的焚烧痕迹。可以想象，那是一场惨烈的终结。幸存的居民，或许逃往了附近的海岛，或许躲进了戴克里先宫那坚固的高墙之内——这直接促成了斯普利特城市的诞生。曾经的首府，就这样被遗弃了。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`此后的 centuries，萨罗纳成了一座名副其实的“采石场”。威尼斯人、奥斯曼人，以及当地居民，都从这里源源不断地搬走雕刻精美的石柱、楣梁和石板，去建造斯普利特的宫殿、特罗吉尔的教堂，甚至寻常人家的屋舍。它被埋没在农田和葡萄园之下，只剩下一些高大的残垣提醒着人们这里的不凡。直到19世纪末，系统的考古发掘才缓缓展开，像揭开一层又一层纱布，让这座沉睡千年的古城重新露出轮廓。今天的我们所见到的，正是这次宏大的“谢幕”之后，时光沉淀下来的最本质的骨架——褪去了所有浮华与装饰，只剩下土地、石头，和关于兴衰的无尽喟叹。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`想要真正感受萨罗纳的魂魄，请务必留出至少三到四个小时的完整时间。建议在清晨（开门时）或傍晚（关门前两小时）抵达，以避开正午最酷热的阳光。整个遗址公园面积广阔，步行是唯一的方式，请穿一双绝对舒适耐走的鞋。我的建议路线是一条逆时针的环形探索，从东部的“都市之门”和早期基督教区域开始，逐渐走向西部最壮观的公共建筑群，最后以圆形剧场作为高潮收尾。这样的安排由静入动，从宗教的静谧走向世俗的狂欢，能让你更好地理解古罗马城市生活的双重脉搏。节奏上宜慢不宜快，多在一些看似普通的石堆前停留、想象，你会发现比任何导游册都更生动的故事。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必携带充足的饮用水并做好防晒，遗址内几乎没有遮阴处，小卖部也可能不营业。
+小心脚下，许多石头松动，杂草中可能隐藏着坑洼或低矮的残墙，漫步时请时刻注意。
+不要试图攀爬或移动任何遗迹石块，一方面为了保护文物，另一方面许多石头并不稳固，非常危险。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从游客中心拿一份简单的地图后，首先走向东侧的“曼纳斯特里内”墓地，在一片宁静的松林中凝视那些雕刻着早期基督教符号的古老石棺。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过植被茂密的小径，找到五边形教堂的独特地基和巨大的洗礼池，想象第一批基督徒在此举行秘密仪式的场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着依稀可辨的古老街道向西漫步，在“都市之门”的残破拱券下驻足，触摸石头上为安装厚重城门而凿出的深深凹槽。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在公共浴场遗址的迷宫般的矮墙间穿梭，试着辨认更衣室、热水池和由砖柱支撑的“悬空地板”供暖系统。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到保存相对完好的剧院遗址，走到舞台中央，测试一下至今仍惊人的声学效果，感受两千年前演员与观众的共鸣。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`继续向西，来到开阔的广场区域，站在曾经的巴西利卡（长方形会堂）地基上，这里是古城的政治与商业心脏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，走向西南角那座气势磅礴的圆形剧场，沿着倾斜的入口通道走进表演场中央，抬头仰望层层升起的观众席，感受最直白的罗马式娱乐空间的压迫感与宏伟。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圆形剧场东侧外墙的高处`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光能完美勾勒出剧场巨大弧形结构的沧桑肌理与体积感，用广角镜头将一部分野生橄榄树作为前景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`五边形教堂洗礼池的内部俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射入池底，能拍出强烈的明暗对比，清晰展现精美的几何形状，构图时注意将池壁的古老砖石纹理纳入。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从剧院观众席最高排望向舞台和远山`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏的柔和光线中，以破碎的舞台为引导线，将背景中朦胧的科索沃山峦一同纳入画面，营造时空的纵深感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“都市之门”拱券的框架式构图`}</h4>
+                  <p className="text-sm text-gray-700">{`站在门内，将镜头对准门外一片生机勃勃的现代田野或远处的房屋，用古老的石门框出现实世界，形成强烈对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`公共浴场砖砌供暖通道的特写`}</h4>
+                  <p className="text-sm text-gray-700">{`利用上午或下午的斜射光，拍摄那些排列整齐的砖柱在地面投下的长长影子，能极具抽象美感地表现古罗马工程的精妙。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尝试用黑白模式拍摄，能极大地强化废墟的几何形式、纹理质感与历史沧桑感，避开绿色杂草可能带来的杂乱。`}</li>
+                <li>• {`飞无人机前务必确认当地法规，考古公园上空可能有空域限制，且强烈的海风对无人机飞行是个挑战。`}</li>
+                <li>• {`尊重环境，不要为了拍照而踩踏或移动任何考古遗址上的物体，包括那些看似不起眼的碎石。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济便捷之选`}</h4>
+                  <p className="text-sm text-blue-800">{`斯普利特市中心的公寓或小型民宿，楼下就是热闹的餐厅和港口，夜生活丰富，乘坐巴士前往萨罗纳就像坐公交上班一样方便。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`沉浸式历史体验`}</h4>
+                  <p className="text-sm text-green-800">{`斯普利特老城内由古老石屋改造的精品酒店，住在戴克里先宫城墙的阴影里，能让你从罗马帝国晚期的氛围自然过渡到对萨罗纳的探索。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`宁静绿洲`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择位于斯普利特和索林之间马鲁扬山森林公园旁的精品酒店或设计民宿，被地中海松林环绕，拥有俯瞰海湾的露台，在喧嚣的探索日后能彻底放松身心。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`本地生活感`}</h4>
+                  <p className="text-sm text-purple-800">{`直接在索林小镇找一家家庭经营的“Pension”（公寓），早晨在阳台上看着当地人去市场，傍晚和邻居一样在萨罗纳遗址旁的步道上散步，彻底融入当地节奏。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（7-8月）斯普利特住宿非常紧张且价格昂贵，建议至少提前三个月预订。选择索林小镇的住宿往往性价比更高，且更安静。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`斯普利特老城内的石板路拖行李非常不便，预订时务必确认酒店是否提供行李协助或是否有便捷的入口。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`无论住在哪里，治安都很好，但夏季在拥挤的旅游区仍需注意保管随身财物。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开萨罗纳时，我的鞋上沾满了白色的尘土，皮肤被太阳晒得发烫，但心里却是一片奇异的宁静。回望那片在夕阳下染成金红色的巨大废墟，它不再是一堆杂乱无章的石头，而成了一个有呼吸的生命体。它让我思考，什么才是文明的真正纪念碑？不是那些被完美修复、光彩照人的宫殿，或许正是像萨罗纳这样，敢于展示自己伤痕、衰败与破碎的遗址。它不试图讨好游客，不编织浪漫的神话，只是沉默地、巨量地存在着，把解释和感受的权利完全交还给你自己。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个一切都被过度包装、体验被精心设计的快节奏世界里，萨罗纳提供了一种稀缺的旅行价值：孤独的沉思与不受干扰的对话。这里没有必须打卡的角度，没有嘈杂的解说，只有你、辽阔的土地、无尽的天空，以及横陈其间的一千多年的时光重量。它教会我们谦卑——再伟大的城市，也可能被野草覆盖；也给予我们慰藉——文明的火种从未真正熄灭，它只是转移、变形，在另一处生根发芽。每一位热爱深度游的旅人，都应该来萨罗纳走一走。不是为了收集又一个世界遗产的名字，而是为了获得一种关于时间与存在的、近乎物理性的体验。当你徒步丈量完这座失落的首府，你会带走一片亚得里亚海的阳光，和一粒藏在鞋缝里的、古老的白色石头碎屑。那便是记忆最坚实的锚点。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/sibenik-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    希
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">希贝尼克老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Šibenik Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sibenik-old-town-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    希
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">希贝尼克老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sibenik Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/cavtat" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    察
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">察夫塔特</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cavtat</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

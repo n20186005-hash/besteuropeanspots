@@ -1,0 +1,233 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '锡盖特城堡 Szigliget Castle｜巴拉顿湖的火山口古堡废墟 - 最佳欧洲景点',
+  description: '第一眼看到锡盖特城堡，它不像那些修缮完好的宫殿，而更像一头沉睡在火山岩上的巨兽骨骸。你把车停在山脚，沿着一条被栗子树荫遮盖的小径开始向上爬。空气中弥漫着松针、湿润的泥土和远处巴拉顿湖吹来的、带着淡淡水藻气息的微风。脚踩在火山岩铺就的粗糙台阶上，发出沙沙的声响，偶尔惊起林中的鸟儿。爬了大约一刻钟，一个',
+}
+
+export default function SzigligetCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '锡盖特城堡', href: '/attractions/szigliget-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`锡盖特城堡・Szigliget Castle・匈牙利・巴拉顿菲赖德附近（锡盖特森特米克洛什地区）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到锡盖特城堡，它不像那些修缮完好的宫殿，而更像一头沉睡在火山岩上的巨兽骨骸。你把车停在山脚，沿着一条被栗子树荫遮盖的小径开始向上爬。空气中弥漫着松针、湿润的泥土和远处巴拉顿湖吹来的、带着淡淡水藻气息的微风。脚踩在火山岩铺就的粗糙台阶上，发出沙沙的声响，偶尔惊起林中的鸟儿。爬了大约一刻钟，一个转弯，那片赫红色的废墟便赫然撞入眼帘——它不是巍然耸立，而是以一种倔强的姿态，“长”在了暗黑色的火山颈上，城墙的断壁残垣与扭曲的古树根茎缠绕在一起，分不清是石头抱着树，还是树撑着石头。
+走近了，那种感官的冲击更加强烈。视觉上是层次丰富的破败：坍塌的塔楼只剩下骨架，阳光从巨大的豁口倾泻而下，在长满青苔的地面上投下清晰的光斑；一面还耸立着的墙壁上，弓箭手的窄窗像一只只深邃的眼睛，沉默地望着山脚下如一块巨大蓝宝石般的巴拉顿湖。触觉则是粗糙与时间的痕迹：你可以把手掌贴在那些被数百年风雨打磨得温润而又布满孔洞的石头上，凉意瞬间沁入掌心，仿佛能摸到历史冰凉的脉搏。这里几乎没有其他著名城堡的喧闹，偶尔能听到的，只有风吹过石缝的呜咽，和远处湖面上帆船隐约传来的嬉笑声。它早已不是一座单纯的建筑，而是成为了这片土地地貌和当地人集体记忆的一部分。周末，你会看到匈牙利的家庭带着野餐篮上来，孩子们在安全的废墟间玩捉迷藏，老人们则坐在能眺望湖景的矮墙上，静静地发呆。它不再令人畏惧，而是成了他们后院一座巨大、沧桑、值得骄傲的“老邻居”。
+最打动人心的，正是这种“废墟的生命力”。它没有试图掩盖伤痕——那些可能是炮火轰开的缺口，或是岁月自然瓦解的颓垣，都被坦然展示。藤蔓植物为其披上绿衣，野花在墙缝中绽放。站在最高的残存塔楼基座上，360度的视野堪称震撼。一面是温柔的、无边无际的巴拉顿湖，帆影点点；另一面则是匈牙利宁静的乡村，红色的屋顶点缀在绿色的田野间。你会瞬间理解它为何被称为“巴拉顿湖的堡垒”——它守卫的不仅是疆土，更是这片土地上诗意的生活。这种荒凉与壮美、毁灭与宁静的极致对比，正是锡盖特城堡无可替代的核心魅力。它不是关于荣耀的展览，而是一首关于时间、坚韧与和解的，用石头写成的散文诗。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到锡盖特城堡，它不像那些修缮完好的宫殿，而更像一头沉睡在火山岩上的巨兽骨骸。你把车停在山脚，沿着一条被栗子树荫遮盖的小径开始向上爬。空气中弥漫着松针、湿润的泥土和远处巴拉顿湖吹来的、带着淡淡水藻气息的微风。脚踩在火山岩铺就的粗糙台阶上，发出沙沙的声响，偶尔惊起林中的鸟儿。爬了大约一刻钟，一个转弯，那片赫红色的废墟便赫然撞入眼帘——它不是巍然耸立，而是以一种倔强的姿态，“长”在了暗黑色的火山颈上，城墙的断壁残垣与扭曲的古树根茎缠绕在一起，分不清是石头抱着树，还是树撑着石头。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近了，那种感官的冲击更加强烈。视觉上是层次丰富的破败：坍塌的塔楼只剩下骨架，阳光从巨大的豁口倾泻而下，在长满青苔的地面上投下清晰的光斑；一面还耸立着的墙壁上，弓箭手的窄窗像一只只深邃的眼睛，沉默地望着山脚下如一块巨大蓝宝石般的巴拉顿湖。触觉则是粗糙与时间的痕迹：你可以把手掌贴在那些被数百年风雨打磨得温润而又布满孔洞的石头上，凉意瞬间沁入掌心，仿佛能摸到历史冰凉的脉搏。这里几乎没有其他著名城堡的喧闹，偶尔能听到的，只有风吹过石缝的呜咽，和远处湖面上帆船隐约传来的嬉笑声。它早已不是一座单纯的建筑，而是成为了这片土地地貌和当地人集体记忆的一部分。周末，你会看到匈牙利的家庭带着野餐篮上来，孩子们在安全的废墟间玩捉迷藏，老人们则坐在能眺望湖景的矮墙上，静静地发呆。它不再令人畏惧，而是成了他们后院一座巨大、沧桑、值得骄傲的“老邻居”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，正是这种“废墟的生命力”。它没有试图掩盖伤痕——那些可能是炮火轰开的缺口，或是岁月自然瓦解的颓垣，都被坦然展示。藤蔓植物为其披上绿衣，野花在墙缝中绽放。站在最高的残存塔楼基座上，360度的视野堪称震撼。一面是温柔的、无边无际的巴拉顿湖，帆影点点；另一面则是匈牙利宁静的乡村，红色的屋顶点缀在绿色的田野间。你会瞬间理解它为何被称为“巴拉顿湖的堡垒”——它守卫的不仅是疆土，更是这片土地上诗意的生活。这种荒凉与壮美、毁灭与宁静的极致对比，正是锡盖特城堡无可替代的核心魅力。它不是关于荣耀的展览，而是一首关于时间、坚韧与和解的，用石头写成的散文诗。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`锡盖特城堡`} />
+                <InfoRow label="英文名称" value={`Szigliget Castle`} />
+                <InfoRow label="正式名称" value={`锡盖特城堡（Szigliget Castle）`} />
+                <InfoRow label="国家" value={`匈牙利`} />
+                <InfoRow label="城市" value={`巴拉顿菲赖德附近（锡盖特森特米克洛什地区）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`中世纪匈牙利王国抵御奥斯曼帝国西进的关键湖滨堡垒之一，被誉为“巴拉顿湖永不沉没的卫士”。`} />
+                <InfoRow label="建筑特色" value={`依偎在一座死火山口边缘而建，充分利用陡峭的火山岩地形，形成易守难攻的立体防御体系，其废墟与嶙峋的岩石和古老的森林完全融为一体。`} />
+                <InfoRow label="建筑风格" value={`以罗马式地基为基础，历经多次扩建与重建，主体呈现哥特式军事建筑风格，并融合了文艺复兴时期的居住区改造痕迹。`} />
+                <InfoRow label="文化价值" value={`不仅是军事历史的见证，更是匈牙利民族在动荡岁月中坚韧精神的象征，其废墟美学与巴拉顿湖的自然风光共同构成了独特的文化景观。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`每年4月1日至10月31日开放，具体时间为每天上午9:00至下午7:00（最后入场时间下午6:30）。11月至次年3月为冬季休整期，仅接受团体预约参观。节假日通常照常开放，但建议行前在官网查看具体公告，暴雨或大风等恶劣天气可能临时关闭。`} />
+              <InfoRow label="门票价格" value={`成人票价为1500匈牙利福林（约合4欧元）。学生及62岁以上长者享有优惠票，价格为750福林。6岁以下儿童免费。家庭套票（2成人+最多3名儿童）为3500福林。门票包含城堡区域内所有废墟的参观，但不含导游讲解，语音导览需额外支付500福林租用。`} />
+              <InfoRow label="地址" value={`Szigligeti vár, 8264 Szigliget, Hungary`} />
+              <InfoRow label="交通方式" value={`从布达佩斯出发最方便。首先，从布达佩斯德阿克广场乘坐长途巴士或火车前往巴拉顿菲赖德（Balatonfüred），车程约2小时，班次频繁。抵达巴拉顿菲赖德后，在巴士总站换乘前往锡盖特森特米克洛什（Szigliget）的本地巴士（路线号可能为727或772），车程约25分钟，告诉司机在“Szigligeti vár”下车，班次约每小时一班，周末会减少。更推荐的方式是自驾，从巴拉顿菲赖德沿71号公路向西南行驶约10公里，有清晰路标指向城堡山脚的停车场，停车费约500福林/天。从停车场需徒步上山约15-20分钟。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`锡盖特城堡的故事，始于13世纪中叶那风雨飘摇的年代。当时的匈牙利国王贝拉四世，在经历了蒙古骑兵横扫东欧的可怕劫难后，发起了一场轰轰烈烈的城堡修建运动，旨在用石头的防线保卫他的王国。锡盖特，这座俯瞰中欧最大湖泊的火山丘，以其天然的险峻，成为了绝佳的选址。最初的建造者已湮没无闻，但我们能想象，工匠们如何艰难地将沉重的石材运上陡坡，在坚硬的火山岩上开凿地基，为这座湖上要塞打下罗马式的第一块基石。它生来就背负着沉重的使命，成为王国西南边境预警体系中的一双警惕眼睛。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡真正被推上历史的前台，是在16世纪奥斯曼帝国的阴影笼罩多瑙河盆地之时。1526年莫哈奇战役的惨败，让匈牙利陷入分裂和持续的战争。锡盖特城堡因其扼守巴拉顿湖西端水道的地理位置，战略价值急剧飙升。它被不断加固、扩建，高大的城墙和圆形的塔楼被建造起来，成为这一地区抵抗 Ottoman 军队推进的重要支点。城堡的主人换了一茬又一茬，从王室到地方贵族，但它的剑锋始终指向东方。传说中最激烈的围城发生在16世纪末，土耳其军队久攻不下，最终据说是在一名叛变者的指引下，切断了城堡的秘密水源，才迫使守军投降。但即便如此，城堡的陷落也是悲壮而昂贵的，它像一颗顽固的钉子，牢牢拖住了侵略者的步伐。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`战火暂时平息后，城堡并未迎来和平。17世纪，它成了匈牙利贵族内部权力游戏的棋子。著名的埃斯特哈齐家族一度成为它的主人，他们更注重享受巴拉顿湖的美景，而非军事防御，于是在城堡内增建了更多带有文艺复兴风格的居住厢房，粗糙的军事堡垒第一次尝试披上些许舒适与优雅的外衣。然而，历史的玩笑是残酷的。1702年，为了防范城堡再次被叛乱者或外敌利用，神圣罗马帝国皇帝（兼匈牙利国王）利奥波德一世下达了一道著名的“拆毁令”。不是被敌人，而是被自己效忠的君主下令摧毁——这是锡盖特城堡命运中最具悲剧色彩的一笔。城堡的主体建筑被炸药有计划地爆破，雄伟的塔楼轰然倒下，只留下我们今天看到的、触目惊心的残骸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`被遗弃后，城堡便开始了与自然界的漫长融合。三个世纪的风吹雨打，让爆破的伤口变得圆润；鸟雀带来了种子，树木在厅堂里生根发芽；藤蔓为断墙披上了绿毯。它从一个人工造物，逐渐变成了自然景观的一部分。直到19世纪浪漫主义思潮兴起，诗人和画家们开始重新“发现”废墟之美。锡盖特城堡的沧桑形象出现在画作和文学作品中，它不再是失败的象征，而是民族历史和坚韧精神的浪漫图腾。20世纪，它被作为历史遗迹保护起来，进行有限的加固以确保安全，但坚决不做重建。这种“凝固的毁灭”状态被刻意保留，因为它讲述的故事，比一座光鲜复原的城堡要深刻和真实得多。今天的它，终于摆脱了所有政治与军事的负累，纯粹作为一段时间的雕塑，一个让人沉思的场所，静静地躺在火山口上，与脚下温柔的湖泊相伴，完成了从“堡垒”到“纪念碑”的最终蜕变。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`理想的游览从午后稍晚开始，大约下午3点半抵达山脚停车场。此时，上午的旅行团已散去，阳光开始西斜，光线变得金黄柔和，最适合拍照和感受氛围。整体游览时间建议预留2.5至3小时，其中包括上山下山徒步（约40分钟）和在废墟中自由探索的时间。节奏宜慢不宜快，这不是打卡景点，而是沉浸式体验。先由外向内感受其磅礴的地势，再深入废墟内部触摸细节，最后在制高点等待日落。这样的安排能让你避开最炎热的正午，捕捉到城堡最美妙的晨昏光影，并有充足时间坐在某块古老的石头上，让思绪飘远。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿一双结实防滑的徒步鞋或运动鞋，山路和废墟内部碎石多，高跟鞋或凉鞋极易摔跤。
+夏季务必携带充足的饮用水和简单的防晒措施，山顶废墟毫无遮挡，非常晒。
+废墟内部照明有限且结构复杂，切勿在官方闭园时间后逗留，以免发生危险。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从山脚停车场出发，沿着那条被树根微微顶起的古老石板路开始缓步上山，感受森林的静谧与逐渐开阔的视野`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先抵达城堡的外围防御工事废墟，抚摸那些冰冷粗糙的火山岩城墙，想象守卫士兵在此巡逻眺望`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过已无门扇的拱形主城门，踏入城堡的核心庭院，立刻被四周高耸的残壁环绕，如同进入一个露天的历史剧场`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻着标记找到地窖和小教堂的遗址，弯腰走进低矮的空间，感受那里的阴凉与肃穆，墙壁上或许还有模糊的宗教壁画痕迹`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着狭窄的旋梯或傍山的步道，攀爬至保存相对完好的南侧塔楼基座，这里是第一个全景观景台，直面巴拉顿湖的浩瀚`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`继续向最高处的北塔（主塔）废墟进发，手脚并用地爬过一些岩石，最终站在城堡的顶点`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在北塔废墟的阴影里找块平坦的石头坐下，什么都不做，就看光线如何一寸寸染红湖面，听风声穿过每一个石孔发出不同的音调`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在夕阳完全沉入湖面之前开始下山，回头望，城堡的剪影在暮色苍茫中化作一幅最动人的剪影画`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡北侧山腰的葡萄园小径远眺点`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，从这里可以拍摄到城堡废墟以巴拉顿湖深蓝色湖面为背景的经典全景，使用长焦镜头能压缩空间，让城堡看起来仿佛漂浮在湖上。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主庭院内仰拍南塔残骸`}</h4>
+                  <p className="text-sm text-gray-700">{`下午的阳光会从西侧照射塔楼，站在庭院中心用广角镜头向上仰拍，能捕捉到石塔、蓝天和流云的动态构图，充满力量感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`北塔顶端制高点俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`日落时分，将相机放在稳固的石块上，用小光圈拍摄湖面日落与山脚下锡盖特小镇灯火初上的延时或全景，冷暖色调对比极具戏剧性。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`地下小教堂拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`利用残存的石拱门作为天然画框，框住远处湖泊的一角或庭院中行走的旅人，营造出穿越时空的层次感和故事感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效减少湖面反光并增强天空与废墟石头的色彩饱和度。操作无人机前务必确认当地法规，该区域可能因是历史遗迹和自然公园而禁飞。尊重场所，避免为了拍照而攀爬禁止进入或危险的区域。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`湖畔宁静民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`选择锡盖特小镇临湖的家庭式公寓，推开窗就是私人小码头和荡漾的湖水，夜晚能听到轻柔的波浪声，早晨房东会送来自家果园的新鲜水果。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`复古风格精品酒店`}</h4>
+                  <p className="text-sm text-green-800">{`住在巴拉顿菲赖德镇中心经过改造的19世纪优雅建筑里，房间有高高的天花板和老式家具，步行即可到达热闹的湖滨长廊和温泉浴场。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`葡萄园中的农庄旅馆`}</h4>
+                  <p className="text-sm text-yellow-800">{`在城堡所在山丘背面的葡萄园里，有几家由酒农经营的舒适农庄，住宿包含地道的匈牙利家常晚餐和自家酿产的葡萄酒品尝，充满田园诗意。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感湖景度假屋`}</h4>
+                  <p className="text-sm text-purple-800">{`若预算充足，可以考虑巴拉顿湖北岸的现代设计独栋别墅，拥有无敌全景落地窗和私人露台，将湖泊与远方的城堡山尽收眼底，极尽私密与享受。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（7-8月）是巴拉顿湖区的绝对旺季，住宿价格飙升且一房难求，务必提前至少2-3个月预订。如果想获得更本地化的体验，避开湖滨最热闹的地段，选择小镇内部或更靠近乡村的住宿，性价比和安静程度都会更高。湖区治安普遍良好，但无论住哪里，保管好个人财物都是基本常识。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开锡盖特城堡许久，那片废墟的景象依然会在某个安静的瞬间浮现在脑海里。它给我的触动，并非来自通常意义上的“宏伟”或“精美”，而是来自一种近乎庄严的“不完美”。在这个热衷于修复、重建甚至仿造的世界里，它勇敢地保持着破碎的模样。这种破碎不是失败，而是一种更高级的完成——它完成了从军事工具到历史证物，再到哲学沉思对象的转变。站在那片废墟上，你同时感受到了人类的野心（在火山口筑城）、战争的残酷（被自己人炸毁）以及自然那温柔而不可抗拒的收复力量（草木共生）。这是一种复杂而深刻的情感，比参观一座完美无缺的宫殿更令人回味无穷。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个快得让人眩晕的时代，锡盖特城堡提供了一种稀缺的“慢”和“空”。它没有密集的信息牌、喧闹的表演、拥挤的商店。它只有风、光、石头和广阔的视野。它强迫你停下脚步，用自己的眼睛去观察，用自己的手去触摸，用自己的心去想象。它邀请你进行的，是一场与历史和自然的直接对话。对于每一位真正的深度游旅人来说，这样的地方才是一生必去的清单上应有的名字。因为它给予你的不是一张可以炫耀的照片，而是一段沉入心底的、关于时间本质的静默体验。当你从那里归来，你会感觉自己的一部分，已经留在了那些温暖的火山石之中，和城堡一起，永恒地眺望着那片温柔的、蓝色的湖。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gyula-water-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    久
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">久洛城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gyula Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/eger-castle-bulls-blood-wine-region" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃格尔城堡与公牛血产区</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eger Castle and Bull's Blood Region</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/miskolc-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    米
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">米什科尔茨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Miskolc Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '海伦堡 Herrenberg｜内卡河谷森林环抱的洋葱顶教堂与半木屋童话 - 最佳欧洲景点',
+  description: '还记得我第一次从海伦堡火车站走出来，顺着“老城”的指示牌走上一个小坡，那个画面就像有人在你眼前缓缓展开一卷泛黄但色泽依旧鲜亮的中世纪手稿。最先抓住你眼睛的，绝对是那个从一片红色屋顶的海洋中磅礴升起的“巨物”——圣约翰教堂的洋葱顶。它不像科隆大教堂那样凌厉逼人，而是一种敦厚、温暖的存在，覆盖着深色的鱼',
+}
+
+export default function HerrenbergOldTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '海伦堡', href: '/attractions/herrenberg-old-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`海伦堡・Herrenberg・德国・海伦堡`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`还记得我第一次从海伦堡火车站走出来，顺着“老城”的指示牌走上一个小坡，那个画面就像有人在你眼前缓缓展开一卷泛黄但色泽依旧鲜亮的中世纪手稿。最先抓住你眼睛的，绝对是那个从一片红色屋顶的海洋中磅礴升起的“巨物”——圣约翰教堂的洋葱顶。它不像科隆大教堂那样凌厉逼人，而是一种敦厚、温暖的存在，覆盖着深色的鱼鳞状木瓦，在阳光下泛着一种灰绿色的、天鹅绒般的光泽，仿佛一个守护了小镇七百年的仁慈巨人。空气中飘来的是混合着新鲜烘焙的“布雷泽”扭结面包的碱水香味，以及从内卡河谷方向吹来的、带着松针和潮湿泥土气息的微风。
+沿着石板路向集市广场走去，声音的层次逐渐丰富起来。远处教堂整点的钟声沉厚而悠远，当当声在四周森林环抱的山谷里产生轻微的回响。近处是咖啡馆外座人们轻声交谈的嗡嗡声，以及游客鞋子磕在古老石头路上清脆的“哒哒”声。你身边这些半木结构的房子，每一栋都在跟你讲故事：那栋粉色外墙的，木梁上刻着1662年的日期；旁边那栋鹅黄色的，整个二层楼肉眼可见地向左倾斜，活像喝醉了酒的巨人；另一栋的山墙上画着精美的圣经图案，虽然褪了色，但笔触依然生动。这不是一个博物馆式的展品集合，这就是当地人的生活现场。那位在窗台摆满天竺葵的老太太，正探出身来抖落桌布；骑着自行车、车筐里装着长棍面包的年轻人，灵巧地绕过广场上的游客。
+走到集市广场中心，回头再看教堂，视角完全不同了。你发现自己被一个由陡峭屋顶、凸窗、彩绘木架和铁艺招牌构成的温暖怀抱所环绕。广场地面是光滑的鹅卵石，历经几个世纪脚步的打磨，在雨后闪着湿润的光。市政厅立面上那个华丽的自鸣钟，每到特定时刻，小人就会出来敲钟。这里最打动人心的，是一种“恰到好处”的尺度感——一切都在步行可及的范围内，宏伟与亲切并存，历史与生活无缝衔接。你感觉不到时间的沉重压迫，反而是一种被时光妥善珍藏的安宁。它没有试图炫耀什么，只是静静地、自信地存在着，告诉你一个关于施瓦本地区、关于家园、关于持久之美的故事。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`还记得我第一次从海伦堡火车站走出来，顺着“老城”的指示牌走上一个小坡，那个画面就像有人在你眼前缓缓展开一卷泛黄但色泽依旧鲜亮的中世纪手稿。最先抓住你眼睛的，绝对是那个从一片红色屋顶的海洋中磅礴升起的“巨物”——圣约翰教堂的洋葱顶。它不像科隆大教堂那样凌厉逼人，而是一种敦厚、温暖的存在，覆盖着深色的鱼鳞状木瓦，在阳光下泛着一种灰绿色的、天鹅绒般的光泽，仿佛一个守护了小镇七百年的仁慈巨人。空气中飘来的是混合着新鲜烘焙的“布雷泽”扭结面包的碱水香味，以及从内卡河谷方向吹来的、带着松针和潮湿泥土气息的微风。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`沿着石板路向集市广场走去，声音的层次逐渐丰富起来。远处教堂整点的钟声沉厚而悠远，当当声在四周森林环抱的山谷里产生轻微的回响。近处是咖啡馆外座人们轻声交谈的嗡嗡声，以及游客鞋子磕在古老石头路上清脆的“哒哒”声。你身边这些半木结构的房子，每一栋都在跟你讲故事：那栋粉色外墙的，木梁上刻着1662年的日期；旁边那栋鹅黄色的，整个二层楼肉眼可见地向左倾斜，活像喝醉了酒的巨人；另一栋的山墙上画着精美的圣经图案，虽然褪了色，但笔触依然生动。这不是一个博物馆式的展品集合，这就是当地人的生活现场。那位在窗台摆满天竺葵的老太太，正探出身来抖落桌布；骑着自行车、车筐里装着长棍面包的年轻人，灵巧地绕过广场上的游客。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走到集市广场中心，回头再看教堂，视角完全不同了。你发现自己被一个由陡峭屋顶、凸窗、彩绘木架和铁艺招牌构成的温暖怀抱所环绕。广场地面是光滑的鹅卵石，历经几个世纪脚步的打磨，在雨后闪着湿润的光。市政厅立面上那个华丽的自鸣钟，每到特定时刻，小人就会出来敲钟。这里最打动人心的，是一种“恰到好处”的尺度感——一切都在步行可及的范围内，宏伟与亲切并存，历史与生活无缝衔接。你感觉不到时间的沉重压迫，反而是一种被时光妥善珍藏的安宁。它没有试图炫耀什么，只是静静地、自信地存在着，告诉你一个关于施瓦本地区、关于家园、关于持久之美的故事。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`海伦堡`} />
+                <InfoRow label="英文名称" value={`Herrenberg`} />
+                <InfoRow label="正式名称" value={`Herrenberg`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`海伦堡`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座在13世纪由符腾堡伯爵建立的城镇，是施瓦本地区保存最完好的中世纪城镇典范之一，见证了符腾堡公国数百年的政治与宗教变迁。`} />
+                <InfoRow label="建筑特色" value={`其天际线由圣约翰教堂巨大的晚期哥特式洋葱形尖顶绝对主导，脚下是密集排列、色彩斑斓且倾斜度各异的半木结构房屋，形成宛如从童话书中直接搬出来的立体画卷。`} />
+                <InfoRow label="建筑风格" value={`以晚期哥特式（代表建筑为圣约翰教堂）为核心，混合了大量文艺复兴及巴洛克风格的半木结构民居，形成了和谐统一的中世纪小镇风貌。`} />
+                <InfoRow label="文化价值" value={`它不仅仅是一个旅游明信片，更是一个鲜活的社区，完美体现了德国小镇生活将深厚历史遗产与现代宜居性融合的“家乡”（Heimat）文化。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城公共区域全天开放。圣约翰教堂（洋葱顶教堂）开放时间：夏季（4月至10月）周一至周六10:00-17:00，周日及宗教节日13:00-17:00；冬季（11月至3月）周一至周六11:00-16:00，周日及宗教节日13:00-16:00。教堂塔楼登顶仅在天气晴好的夏季周末及特定节假日开放，通常为14:00-16:00，具体需查看当地旅游局通知。市政厅和博物馆的开放时间较为灵活，建议出行前在官网核实。圣诞节期间，集市广场有圣诞市场，但教堂内部开放时间可能缩短。`} />
+              <InfoRow label="门票价格" value={`进入老城及漫步街道免费。圣约翰教堂内部参观免费，但欢迎捐赠以支持维护。登顶教堂塔楼（Glockenstube）需支付象征性费用3欧元（现金），儿童半价。市立博物馆门票约4欧元。所有收费点均无强制，但登塔费用用于塔楼维护。`} />
+              <InfoRow label="地址" value={`Marktplatz 1, 71083 Herrenberg, Germany`} />
+              <InfoRow label="交通方式" value={`从斯图加特机场（STR）出发是最佳选择。在机场火车站乘坐S-Bahn（轻轨）S2或S3线，方向为“Schorndorf”或“Flughafen/Messe”，在“Stuttgart Hauptbahnhof”（中央火车站）下车，换乘区域火车（RB或RE）。换乘前往“Herrenberg”站的列车（通常是RB或IRE线路，方向多为Rottweil或Horb），车程约25-30分钟。从斯图加特主火直接到海伦堡的列车班次非常密集，约每15-20分钟一班，总耗时从机场算起约1小时10分钟。建议使用德国交通协会（VVS）的日票或州票（Baden-Württemberg-Ticket），性价比高。自驾的话，从斯图加特沿A81高速公路行驶，在“Herrenberg”出口下，约20分钟车程。老城中心为步行区，需将车停在周边的付费停车场（如“Parkhaus Am Schlossberg”）。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`海伦堡的故事，始于一个野心勃勃的家族和一片战略要地。时间拨回13世纪，统治着施瓦本地区的符腾堡伯爵们，正在精心构筑他们的权力版图。大约在1220年至1230年间，伯爵埃伯哈德一世或其子乌尔里希一世，决定在内卡河支流阿默河畔的一座山丘上建立一座新的城镇。这里森林密布，地势易守难攻，且处于几条重要商道的交汇处。他们并非从零开始，山丘上早已有一座名为“伯伦伯格”的城堡。而“Herrenberg”这个名字本身，就意为“领主之山”，宣告了它作为统治者堡垒的出身。建城之初，清晰的规划就奠定了今日老城的格局：以集市广场为中心，街道呈规则的网格状向外辐射，外围用城墙牢牢圈起。最早的居民是手工艺人、商人和为领主服务的臣属，他们在这片被许诺了免税和贸易特权的土地上安家。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座城的命运，与那座教堂——圣约翰教堂紧紧绑定。最初的教堂只是一座罗马式的小礼拜堂。但到了15世纪，随着城镇的繁荣和符腾堡伯爵地位的提升，雄心勃勃的扩建开始了。从1471年到1493年，在当时的领主埃伯哈德五世（也就是后来的符腾堡-乌尔拉赫公爵）的支持下，建筑师们建造了我们今天看到的这座宏伟的晚期哥特式大厅教堂。而它最标志性的部分——那个高达56米的洋葱形尖顶，其实是在一个世纪后的1596年才加上去的。这里有个有趣的插曲：当时木质尖顶的常见形状是陡峭的锥形。但据说，为了与当时在哈布斯堡王朝统治地区流行的巴洛克风格相呼应，也或许是本地工匠一次大胆的美学尝试，这个独一无二的洋葱顶诞生了。它成了整个符腾堡地区的建筑奇观，也成为了海伦堡不可撼动的身份象征。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，中世纪的繁华并非没有阴影。海伦堡先后经历了无数次瘟疫、饥荒和战争的捶打。最严峻的考验来自17世纪的三十年战争。1635年，这座坚固的小镇被神圣罗马帝国军队围困并攻占，城镇遭到严重破坏，人口锐减。战后艰难的重建刚刚开始，1692年，法国军队在帕拉廷继承战争中的一把大火，几乎将半个城镇，包括那座古老的城堡，化为灰烬。你现在看到的那些色彩柔美、装饰着华丽雕刻的半木房屋，绝大多数都是在那场大灾之后，在17世纪末至18世纪重建起来的。它们少了些中世纪的粗犷，多了巴洛克和文艺复兴风格的优雅与繁复，但依然严格遵循着古老的街道脉络和建筑界限，形成了我们今天看到的这种层次丰富、和谐统一的面貌。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`进入19世纪，随着符腾堡王国的现代化，海伦堡的城墙被部分拆除，铁路通了进来。它不再是军事要冲，而是转型为一个宁静的地区行政中心和农业市场。两次世界大战奇迹般地几乎没有对它造成物理损伤，那些木梁和石膏得以幸存。20世纪中叶以后，它幸运地躲过了大规模现代化改造的浪潮，人们选择精心修复而非推倒重建。如今，它是一座拥有著名大学的宜居小镇，年轻的学生骑着单车穿过有七百年历史的拱门，教授们在古老的酒馆里讨论问题。那些倾斜的房子底下，开着手工巧克力店、独立书店和设计工作室。历史在这里不是标本，而是呼吸着的日常。当你抚摸教堂墙壁上那些被风雨打磨光滑的砂岩，或坐在广场边看着夕阳把洋葱顶染成金红色时，你触摸到的是层层叠叠的时间，是一个社区在无数次毁灭与重生中顽强存续、并不断赋予旧物新生的动人史诗。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味海伦堡，建议安排一整天时间，从清晨开始。最好在上午九点左右抵达，这时旅游团尚未涌入，阳光正好温柔地洒在教堂东侧，集市广场上的面包房飘出第一炉香气。整体游览节奏应是“由远及近，登高俯瞰，再深入街巷”。先在外围获得全景印象，再深入心脏地带探索细节，最后登上制高点将一切尽收眼底，让体验形成一个完美的闭环。这样的安排大约需要5-6小时的漫步时间，包括中途在咖啡馆小憩和享用一顿地道的施瓦本午餐。下午光线适合拍摄建筑细节和街景，而傍晚则是捕捉金色夕阳与华灯初上魔幻时刻的绝佳机会。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周日和德国的法定假日，几乎所有商店和超市都会关门，但咖啡馆和餐馆通常营业，是体验纯粹宁静小镇氛围的好时机，但需提前规划好购物。
+教堂塔楼登顶的楼梯极为陡峭、狭窄且昏暗，仅容一人通过，有幽闭恐惧症、恐高症或行动不便者请务必量力而行，且不要携带大背包。
+小镇石板路多且起伏，请务必穿一双绝对舒适防滑的步行鞋，高跟鞋在这里将是灾难。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来，别急着进老城，先沿着“Stuttgarter Straße”向左走一小段，在第一个路口右转上坡，找到一个能毫无遮挡地眺望老城全景和那座巨大洋葱顶教堂的视角，让第一印象震撼你。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过古老的“Unteres Tor”（下城门）拱门，立刻右转钻进一条名叫“Küfergasse”的狭窄小巷，感受两侧倾斜的半木房屋几乎要碰到一起的亲密感，观察每扇窗台和门廊上不同的装饰细节。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`让面包的香气引领你走到集市广场中心，在正对市政厅的“Café Schäfer”露天座位点一份新鲜出炉的“海伦堡奶油卷”，边吃边观察广场四周每栋房子山墙上不同的彩绘和徽章。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花至少四十分钟沉浸在那座拥有巨大洋葱顶的圣约翰教堂内部，在空旷的中殿里静静坐下，聆听管风琴的试音或仅仅是自己的呼吸声，抬头仰望网状拱顶。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂南侧的小门走出，沿着“Schuhgasse”和“Bohrgasse”这些听起来就很有故事的小街漫无目的地闲逛，随时准备为一道别致的门环、一个生锈的店铺铁艺招牌或一丛从二楼窗台倾泻而下的紫藤花停下脚步。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果你在夏季周末到访且有足够的胆量，一定要攀爬那狭窄的旋转楼梯登上教堂塔楼的钟室，在巨大的古老钟铃旁，透过木窗格俯瞰整个红屋顶森林和老城如玩具积木般的全貌。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂后方沿着“Schlossberg”的指示牌向上漫步，穿过安静的住宅区，抵达城堡山公园的草地，躺在树下以最放松的姿态，远眺山下老城与远处内卡河谷及黑森林边缘交织成的田园诗画卷。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在傍晚时分回到集市广场，随便选一家挂着“Gasthaus”或“Weinstube”招牌的传统酒馆，比如“Zum Ochsen”，点一碟施瓦本饺子或炖牛肉，配上一杯本地产的“特罗林格”白葡萄酒，结束完美的一天。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`教堂南侧葡萄园仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨太阳初升时，从老城南部外围的葡萄园小径（如“Am Berg”附近）向上拍摄，能将巨大的洋葱顶教堂与层层叠叠的半木房屋一同纳入画框，晨雾时常增添仙境感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`集市广场斜角构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，阳光西斜时，站在广场西北角，以市政厅的彩绘立面和中世纪喷泉为前景，将圣约翰教堂的雄伟塔身作为背景，能拍出层次感和故事性极强的街景。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“Küfergasse”小巷纵深`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分，当阳光直射入狭窄的“Küfergasse”小巷，利用两侧倾斜房屋形成的天然引导线，拍摄巷子深远处被光照亮的一扇门或一个人影，营造强烈的纵深感与明暗对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城堡山公园俯瞰视角`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前约一小时（金色时刻），从城堡山公园的瞭望点用长焦镜头拍摄老城，压缩空间感，让密集的屋顶、教堂尖顶与远处森林的轮廓线交织成一幅充满细节的暖色调油画。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`圣约翰教堂内部拱顶`}</h4>
+                  <p className="text-sm text-gray-700">{`选择晴朗日子的正午，走进教堂中殿，将相机对准高高的网状拱顶，等待一束阳光透过侧窗照亮石雕与肋架，拍下神圣的光影结构。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用无人机拍摄需极为谨慎，老城及教堂周边属于敏感区域，且有密集的民居，务必事先查询当地无人机法规并尊重居民隐私。`}</li>
+                <li>• {`拍摄当地居民，尤其是窗台后的住户，请务必先微笑示意获得同意，德国人对隐私非常重视，不经允许的特写拍摄可能引起不快。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`下城门旁由16世纪半木结构粮仓改造的精品酒店，房间保留了原始的粗木梁和砖墙，晚上能听到从古老石板街道传来的微弱回响，早餐在带拱顶的地窖里享用。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`家的温馨体验`}</h4>
+                  <p className="text-sm text-green-800">{`位于“Bohrgasse”小巷深处一栋18世纪民居里的家庭式公寓，房东老太太会为你准备好当地特色的果酱和面包，小小的庭院里种满了玫瑰，仿佛住进了德国祖母的家。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代舒适据点`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在老城边缘、步行三分钟即可到达集市广场的现代设计酒店，房间拥有面对内卡河谷森林的落地窗，在泡澡时可以欣赏无敌的绿色景观，是历史氛围与现代便利的完美结合。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`葡萄园守望者`}</h4>
+                  <p className="text-sm text-purple-800">{`需要一点短途车程，但绝对值得——位于海伦堡周边丘陵葡萄园中央的农家客栈，房间自带露台，夜晚只有葡萄藤的絮语和星空，清晨在鸟鸣中醒来，品尝房东自酿的新酒。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿数量有限且极为抢手，尤其是在夏季和圣诞市场期间，务必提前至少两到三个月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`住在老城内部意味着完全的宁静（夜晚几乎没有车声）但也可能意味着对酒店外夜晚的嬉闹声更敏感，选择小巷深处的住处通常更为安静。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开海伦堡很久以后，我发现自己最常回想起的，不是某个具体的建筑细节，而是一种整体的“感觉”。那是一种被妥善安放、被温柔包裹的踏实感。在这个追求新奇、宏大和刺激的世界里，海伦堡提供了一种截然不同的价值：它不试图让你惊叹到失语，而是邀请你慢下来，呼吸，然后会心一笑。它告诉你，美可以不是侵略性的，可以是屋顶上一片片鱼鳞状木瓦的耐心排列，可以是窗台上一年四季更替的鲜花，可以是面包房里恒久不变的酵母香气。这座小镇像一位历经沧桑却依旧从容的长者，它的智慧在于懂得什么是需要坚守的核心——比如那座教堂，那片广场，那些街道的格局；以及什么是可以随着时代流动的——比如房屋内部的设施，广场上咖啡馆的菜单，居民们的生活方式。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个意义上，海伦堡是一座关于“延续”的活态纪念碑。它证明了历史遗产与当代生活并非对立，真正的保护不是将其真空封装，而是让它在新的时代里继续被需要、被使用、被热爱。每一位热爱深度游的旅人都应该来体验一下这种“正常”的伟大。这里没有排几小时长队的烦躁，没有必须打卡十个景点的焦虑，只有散步的权利和发现的乐趣。它教会我们，旅行的深度，有时就藏在一条无名小巷的光影变化里，在一杯与当地人共饮的本地葡萄酒中，在一次无所事事的、坐在广场上看云飘过教堂尖顶的午后。来到这里，你不是在参观一个景点，而是在短暂地成为这个绵延了八个世纪的故事里，一个安静而愉快的注脚。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/alatri-polygonal-walls" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿拉特里</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alatri</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/breda-beguinage-nassau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布雷达</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Breda</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/marburg-old-town-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    马
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马尔堡老城与伯爵城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Marburg Old Town and Landgrave‘s Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
