@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '贝兹 Bèze｜建在巨大地下溶洞之上的隐世小镇，聆听千年泉水的呢喃 - 最佳欧洲景点',
+  description: '朋友，想象一下，你开车穿过一片仿佛没有尽头的、绿色天鹅绒般的勃艮第丘陵，拐过一个弯，世界突然安静了下来。导航告诉你到了，但你眼前只有一条被高大梧桐树荫遮蔽的安静小路，和几幢石头房子。空气中有一股奇特的、清冽的湿润感，混杂着青苔和古老石头的气息。你顺着一种低沉而持续的、类似大地脉搏的轰鸣声往前走——那...',
+}
+
+export default function BezePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '贝兹', href: '/attractions/beze' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`贝兹・Bèze・法国・科多尔省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下，你开车穿过一片仿佛没有尽头的、绿色天鹅绒般的勃艮第丘陵，拐过一个弯，世界突然安静了下来。导航告诉你到了，但你眼前只有一条被高大梧桐树荫遮蔽的安静小路，和几幢石头房子。空气中有一股奇特的、清冽的湿润感，混杂着青苔和古老石头的气息。你顺着一种低沉而持续的、类似大地脉搏的轰鸣声往前走——那不是机械的噪音，更像是从地心深处传来的绵长呼吸。然后，一片豁然开朗。一潭巨大的、蓝得不可思议的泉水，像一块被不慎遗落在草地上的椭圆形绿松石，静静地躺在你面前。水极清，你能直接看到水下几米处随水流摇曳的、墨绿色的水草。那股轰鸣声，正是从泉水尽头一个幽深得令人敬畏的石灰岩洞口传出的，那里涌出的水流如此汹涌，仿佛大地正在永不停歇地倾吐着一个秘密。这就是贝兹给你的第一印象：不是惊艳，而是一种沉静的震撼。你立刻明白了，不是人选择了在这里建镇，而是这股泉水，这股来自地下的巨大生命力，召唤并滋养了一切。
+小镇的居民似乎早已与这永恒的轰鸣达成了和解。你会看到老人在泉边的长椅上读报，孩子们小心翼翼地用面包屑喂着水里肥硕的鳟鱼，有妇人甚至还在沿用古老的石槽，就着活水搓洗着几件轻薄的衣物。生活的节奏在这里被泉水声重新校准，缓慢、循环、充满古老的韵律。而当你抬起头，目光越过波光粼粼的水面，就能看到对岸那片高耸的、残缺的罗曼式墙壁和拱廊，那是圣约翰修道院的遗址。它不像那些修缮完好的大教堂那样咄咄逼人，而是像一位沉静的老者，颓圮的躯体半掩在古树和常春藤之中，与脚下的泉水、身旁的小镇房屋构成了一个不可分割的整体。这里最打动人心的，正是这种“三位一体”的感觉：自然（溶洞与泉）、神灵（修道院）、凡人（小镇）共用着同一片土地，共享着同一种由水声谱写的背景音，达成了某种持续了十几个世纪的默契与平衡。
+走在连接泉水与修道院遗址的小石桥上，你能感受到一种奇特的垂直空间感。你的脚下，是奔涌的、未知的地下暗河世界；你的面前，是承载了无数祈祷与抄经声的历史层；而你的身后，是飘着新鲜面包香和咖啡香气的现代生活层。这种感受极为独特，它让你同时成为了地质探险者、历史考古者和生活观察者。小镇的咖啡馆很少，但有一家的露台正对着泉水。点一杯本地出产的黑皮诺，坐在那里，什么都不做，只是看着光线在水面、石墙和树叶间移动，听着那亘古不变的水声。你会觉得，时间在这里不是一条直线，而是一个循环的漩涡，而你就坐在漩涡中心那个平静的点上。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，想象一下，你开车穿过一片仿佛没有尽头的、绿色天鹅绒般的勃艮第丘陵，拐过一个弯，世界突然安静了下来。导航告诉你到了，但你眼前只有一条被高大梧桐树荫遮蔽的安静小路，和几幢石头房子。空气中有一股奇特的、清冽的湿润感，混杂着青苔和古老石头的气息。你顺着一种低沉而持续的、类似大地脉搏的轰鸣声往前走——那不是机械的噪音，更像是从地心深处传来的绵长呼吸。然后，一片豁然开朗。一潭巨大的、蓝得不可思议的泉水，像一块被不慎遗落在草地上的椭圆形绿松石，静静地躺在你面前。水极清，你能直接看到水下几米处随水流摇曳的、墨绿色的水草。那股轰鸣声，正是从泉水尽头一个幽深得令人敬畏的石灰岩洞口传出的，那里涌出的水流如此汹涌，仿佛大地正在永不停歇地倾吐着一个秘密。这就是贝兹给你的第一印象：不是惊艳，而是一种沉静的震撼。你立刻明白了，不是人选择了在这里建镇，而是这股泉水，这股来自地下的巨大生命力，召唤并滋养了一切。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`小镇的居民似乎早已与这永恒的轰鸣达成了和解。你会看到老人在泉边的长椅上读报，孩子们小心翼翼地用面包屑喂着水里肥硕的鳟鱼，有妇人甚至还在沿用古老的石槽，就着活水搓洗着几件轻薄的衣物。生活的节奏在这里被泉水声重新校准，缓慢、循环、充满古老的韵律。而当你抬起头，目光越过波光粼粼的水面，就能看到对岸那片高耸的、残缺的罗曼式墙壁和拱廊，那是圣约翰修道院的遗址。它不像那些修缮完好的大教堂那样咄咄逼人，而是像一位沉静的老者，颓圮的躯体半掩在古树和常春藤之中，与脚下的泉水、身旁的小镇房屋构成了一个不可分割的整体。这里最打动人心的，正是这种“三位一体”的感觉：自然（溶洞与泉）、神灵（修道院）、凡人（小镇）共用着同一片土地，共享着同一种由水声谱写的背景音，达成了某种持续了十几个世纪的默契与平衡。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走在连接泉水与修道院遗址的小石桥上，你能感受到一种奇特的垂直空间感。你的脚下，是奔涌的、未知的地下暗河世界；你的面前，是承载了无数祈祷与抄经声的历史层；而你的身后，是飘着新鲜面包香和咖啡香气的现代生活层。这种感受极为独特，它让你同时成为了地质探险者、历史考古者和生活观察者。小镇的咖啡馆很少，但有一家的露台正对着泉水。点一杯本地出产的黑皮诺，坐在那里，什么都不做，只是看着光线在水面、石墙和树叶间移动，听着那亘古不变的水声。你会觉得，时间在这里不是一条直线，而是一个循环的漩涡，而你就坐在漩涡中心那个平静的点上。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`贝兹`} />
+                <InfoRow label="英文名称" value={`Bèze`} />
+                <InfoRow label="正式名称" value={`Bèze`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`科多尔省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座围绕着神圣泉水与地下溶洞起源，从墨洛温时代延续至今的本笃会修道院小镇，是勃艮第地区早期基督教传播与中世纪修道院经济的活态见证。`} />
+                <InfoRow label="建筑特色" value={`地面是宁静的乡村小镇与恢弘的修道院遗址废墟，其下则隐藏着法国最壮观的地下泉水系统之一，建筑与自然奇观在垂直空间上形成惊人叠合。`} />
+                <InfoRow label="建筑风格" value={`地面遗址以厚重的罗曼式建筑为基础，混杂着后来修补的哥特式拱窗痕迹，整体呈现出一种被时光温柔剥蚀的、质朴而苍凉的美感。`} />
+                <InfoRow label="文化价值" value={`它体现了水、信仰与社区生活千年来的共生关系，是一个将自然神力（泉水）、人类精神追求（修道院）与日常烟火（小镇）完美融合的罕见样本。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`公共区域（小镇街道、泉水公园）全天24小时开放。主要历史景点“圣约翰修道院遗址”及附属小型博物馆开放时间为每年4月1日至10月31日，每日上午10点至下午6点；11月1日至次年3月31日，仅周末下午2点至5点开放，平日需提前电话预约参观。地下溶洞源头（La Source）的导览参观每年仅在夏季（7月、8月）的周二、周四、周六下午3点固定开放，每次限15人，必须通过小镇旅游局网站提前预订。`} />
+              <InfoRow label="门票价格" value={`进入贝兹小镇及在泉水公园漫步完全免费。圣约翰修道院遗址及博物馆门票：成人票6欧元，学生及65岁以上长者4.5欧元，12岁以下儿童免费。夏季地下溶洞导览票：统一价格8欧元，包含专业向导和头盔，门票需与遗址门票分开购买。提供“遗址+溶洞”联票，价格为12欧元。小镇旅游局出售“贝兹一日通票”，含遗址、溶洞及一份本地葡萄酒品尝，价格为18欧元。`} />
+              <InfoRow label="地址" value={`Place de la Mairie, 21310 Bèze, France`} />
+              <InfoRow label="交通方式" value={`贝兹位于法国勃艮第乡野深处，公共交通需耐心周转。最便捷的方式是自驾，从第戎（Dijon）出发，沿A31高速公路向东，在“第戎-圣阿波利奈尔”出口驶出，转入D970和D14省道，全程约40公里，开车约50分钟，沿途是连绵的葡萄园和麦田，风景绝佳。若乘坐火车，可从第戎维尔火车站（Gare de Dijon-Ville）乘坐前往朗格勒（Langres）方向的区域列车（TER），在“米雷博-贝兹”站（Mirebeau-sur-Bèze）下车，班次大约每两小时一班，车程25分钟。但从火车站到贝兹小镇还有最后5公里路程，没有固定班车，需要提前电话预约当地的出租车（通常需等待20-30分钟），或享受一次惬意的乡间步行（约1小时）。建议从第戎租车前往，自由度最高。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲贝兹的故事，我们必须从“水”开始。早在罗马人甚至高卢人之前，这片土地下庞大的石灰岩溶洞系统和那喷涌不息的泉水，就被视为具有神性的存在。传说，这里曾是一个供奉凯尔特水神的地方。然而，真正为贝兹书写下第一章的，是公元七世纪的一位名叫圣约翰的隐修者。据说他是一位来自东方的僧侣，在漫长的苦修旅途中，被这处“大地之眼”般的泉水所震撼，认定这是上帝显现的绝佳圣地。于是，他在泉眼旁搭建了第一个简陋的隐修所。这个故事本身就很有意思：一个追求精神超脱的人，最终却被一种极其物质、极其蓬勃的自然力量所吸引并锚定。这仿佛预示了贝兹此后千年的命运——灵性与物质性、信仰与自然力，将在这里缠绕共生。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`到了八世纪，在查理曼大帝统治的鼎盛时期，贝兹的重要性得到了“官方认证”。皇室的一份捐赠文书将这片土地正式赐予了本笃会修会，一座像样的修道院开始兴建。选择本笃会绝非偶然，这个修会的信条是“祈祷与劳动”，他们不仅是精神的守望者，更是精湛的农夫、酿酒师和学者。贝兹的泉水为他们提供了绝佳的条件：纯净的水源用于生活、灌溉，丰富的水力可以用来推动磨坊。修道院迅速成为了一个自给自足的经济文化中心，吸引了许多信徒和农民在周边定居，小镇的雏形就此诞生。你可以想象，在中世纪，这座修道院不仅是地区的信仰灯塔，更是一个繁荣的“集团公司”总部，掌管着周围的农田、葡萄园和磨坊，而那隆隆的水声，既是永恒的圣歌，也是生产的号角。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，和平与繁荣在勃艮第这片土地上总是奢侈的。从九世纪开始，维京人沿着河流一路劫掠的内陆，贝兹也未能幸免。坚固的罗曼式塔楼和围墙被一次次修建起来，又在下一次的劫掠或战火中受损。宗教战争期间，它更是成为了各方争夺的目标。修道院的建筑在防御工事和宗教圣所之间不断切换角色，墙壁上增添又抹去的痕迹，像一本被反复涂改的史书。最沉重的打击来自法国大革命。1789年，作为旧制度象征的修道院被收归国有，修士被驱散，珍贵的藏书和圣物被洗劫一空，宏伟的建筑被标价出售，最终大部分被拆解，石材被附近村民搬去盖了自家的谷仓和房屋。听起来很悲哀，对吗？但换个角度看，修道院的物质生命以另一种方式融入了小镇的肌体，每一户老房子的地基里，或许都有一块来自圣坛的石头。这种“消亡”与“融入”，让遗址与小镇的情感联结变得更加血肉相连。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你今天漫步在遗址的断壁残垣间，抚摸那些被岁月打磨得温润的石头，你会发现建筑本身也在“呼吸”。早期的罗曼式部分，厚重、敦实，拱门低矮，窗户狭小，充满内向的防卫感。而在后期修复或增建的部分，你能看到尖拱和更大的花窗的痕迹，那是哥特风格试图为这里带来更多光线与向上的牵引力。但所有这些风格的尝试，最终都被时间、藤蔓和地衣所调和，统一成一种迷人的“废墟美学”。它没有试图恢复往日的荣光，而是坦然展示着伤痕与流逝。二十世纪中叶，一次大胆的水下探险才真正揭开了贝兹另一重身份的面纱：探险家们潜入了那幽深的泉眼，发现了后面连接着的、长达数公里的迷宫般的地下溶洞系统，里面有巨大的洞厅和沉睡千年的石笋。这最终解开了泉水永不枯竭的谜题，也让人们意识到，小镇和修道院，其实是建立在一个巨大而活跃的“地下宫殿”的穹顶之上。历史，在这里不仅在地表层层堆积，更在看不见的地下水脉中奔流。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要深度感受贝兹，强烈建议安排一整天时间，并遵循“由下至上，由自然至人文”的节奏。最好在上午9点左右抵达，这时晨雾刚刚散去，阳光正好洒在泉水的东岸，光影绝佳，而且旅游团尚未涌入，你能独占那份宁静。整个游览可大致分为三个阶段：上午（约3小时）专注于泉水溶洞系统与小镇的初步探索；中午（约1.5小时）享用一顿悠长的本地午餐；下午（约3-4小时）深度探访修道院遗址，并在黄昏时分回到泉边，感受一日之中光线与氛围最魔幻的时刻。这样的安排让你能从容地体会水、生活与历史遗迹三者之间微妙的共鸣，不会匆忙赶路。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`溶洞导览票非常抢手，务必提前至少一周在小镇旅游局官网预订，现场基本没有空位。参观小镇和遗址请务必穿一双绝对防滑且能应对湿滑石头路面的鞋子，泉边和溶洞内部地面常年潮湿。小镇非常迷你且宁静，请尽量保持低声交谈，尊重当地居民的生活节奏，周末下午是家庭出游高峰，泉水公园会比较热闹，喜欢清静的可以错开这个时段。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`第一站毫不犹豫地奔向“源泉公园”，站在那湛蓝的水潭边，闭上眼睛先让那震撼的地下水涌之声淹没你的听觉。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随公园里的小径走到泉水涌出的石灰岩洞口下方，仔细观察岩壁上被千年水流侵蚀出的光滑纹理和深绿色苔藓。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果正值夏季并已预订，务必参加下午的地下溶洞导览，戴上头灯跟随向导进入那个幽暗湿润的地心世界，触摸冰冷的石壁。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观完水源后，沿着“磨坊路”漫步，寻找那些古老水闸和已经不再转动但骨架犹存的水车磨坊遗迹。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从泉水公园穿过那座小石桥，正式进入圣约翰修道院遗址区域，首先在残存的中殿拱门下静立，想象这里曾经回荡的格里高利圣咏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`探索修道院附属的小型博物馆，那里用出土的陶器、雕刻碎片和老照片，静静讲述着从高卢罗马时代到近代的层叠故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要爬上遗址西侧仅存的塔楼遗迹（如果开放），那是俯瞰整个小镇、泉水公园和远方葡萄园全景的绝佳制高点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分，回到泉边那家叫“源泉咖啡馆”的露台，点一杯勃艮第阿里高特白葡萄酒，看着夕阳的金光把水面、石墙和对岸的树林染成暖色调。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`源泉洞口俯拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在洞口上方的小观景台，用广角镜头将幽深的洞口、奔涌出的碧蓝水流以及如镜面般的水潭一并纳入画面，构图极具冲击力。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`修道院回廊拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光西斜时，站在回廊的某一处拱门下，以拱门为画框，将对岸绿树掩映下的小镇房屋和更远处的丘陵作为背景，形成深邃的景深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`塔楼遗址顶层俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`若塔楼开放，在此用长焦镜头压缩空间，捕捉蜿蜒流过小镇的贝兹河支流、红色的屋顶、修道院废墟的几何轮廓与远处无际田园组成的交响曲。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小镇石板路与鲜花`}</h4>
+                  <p className="text-sm text-gray-700">{`午后在小镇主街“大街”上，寻找那些被居民用天竺葵和牵牛花装点的古老石阶和门廊，用中焦段拍摄充满生活气息和色彩对比的细节。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`溶洞导览中的神秘光影`}</h4>
+                  <p className="text-sm text-gray-700">{`在向导的许可和安全范围内，关闭头灯，利用其他游客头灯扫过洞壁或地下河面的瞬间，拍摄下那些转瞬即逝的、充满戏剧性的光影切割。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄水流时，如果想拍出如丝绸般的雾化效果，记得带上三脚架和减光镜（ND滤镜），因为白天的泉边光线依然很足。尊重隐私，拍摄当地居民或他们的房屋时，请先微笑示意并取得同意，法国乡村对此非常在意。溶洞内部严禁使用闪光灯，一方面会破坏其他游客的体验和安全，另一方面强光会惊扰洞内生物并可能促进藻类生长。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`源泉边的老磨坊民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`由一座十九世纪的水磨坊改造而成，房间的木头横梁还带着旧时印记，晚上入睡时能隐约听到窗外泉水永恒的催眠白噪音，是真正的沉浸式体验。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`修道院之眼精品酒店`}</h4>
+                  <p className="text-sm text-green-800">{`坐落在小镇高处，由一栋古老的石屋精心修复，仅有五间客房，每间都能透过古老的窗棂看到修道院遗址的不同侧面，早餐的果酱是女主人亲自熬制的。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`葡萄园环绕的静谧庄园`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于贝兹外围两公里处的一座十九世纪庄园，被自家的黑皮诺葡萄园包围，拥有一个种满玫瑰的花园和一个小型泳池，适合追求绝对宁静和私密的旅人。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`镇中心舒适旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`位于小镇唯一的小广场上，房间简洁温暖，店主是对本地历史了如指掌的老夫妇，能给你提供最地道的散步路线和酒庄参观建议，性价比极高。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`贝兹小镇本身极其安全宁静，但夜间照明较少，如果住在较偏远的庄园，建议自驾。夏季（7-8月）是绝对旺季，所有住宿都需提前数月预订，尤其是特色民宿。如果选择非自驾，务必确认住宿地点距离小镇中心在步行可达范围内（1公里内），否则晚间出行会非常不便，因为完全没有出租车或公交。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开贝兹许久之后，那地底传来的轰鸣声似乎还在耳畔回响。它不像其他那些以宏伟建筑或壮丽风景取胜的地方，给人瞬间的视觉冲击，然后渐渐模糊。贝兹更像是一种“感觉”的植入。它让你真切地体会到，历史不仅是书本上的王侯将相和条约年份，更是脚下奔流不息的水，是墙上生生不息的苔藓，是居民每日推开窗看到的同一片被泉水滋养的绿色。在这里，你能触摸到时间的质地——它是湿润的，是带着回音的，是循环往复的。修道院的废墟没有诉说着失败与终结，反而因其坦然接纳衰败的姿态，展现出一种比完美无缺更强大的生命力。它告诉你，一切文明与信仰的形态终会改变，但人与土地、与自然基本元素（比如水）的依存关系，才是更本质、更绵长的脉络。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求快速、崭新、刺激的时代，贝兹的存在像是一剂温和的解毒剂。它不提供狂欢，只提供沉思；不展示力量，只展示韧性。它邀请你慢下来，坐在水边，单纯地听，耐心地看。你会开始思考，我们现代人引以为傲的“建造”与“创造”，在自然伟力与漫长时光面前，究竟意味着什么。每一个热爱深度游的旅人，都应该来一次贝兹。不是为了收集又一个景点，而是为了体验一种不同的时间尺度，感受自己如何成为这个“泉水-修道院-小镇”共生体循环中的一瞬。它让你在回到纷扰世界后，心里能保有一个沉静的、充满流水声的角落，提醒你万物相连，一切皆在流动与转化之中。这，或许就是旅行能带给我们的，最珍贵的礼物。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/la-couvertoirade" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉库韦尔图瓦拉德</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">La Couvertoirade</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sarlat-la-caneda" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨尔拉拉卡内达</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sarlat-la-Canéda</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-meung-sur-loire" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    马
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马尔旺城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Meung-sur-L-Loire</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

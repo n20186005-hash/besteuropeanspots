@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '瓦朗塞城堡 Château de Valençay | 拿破仑“狐狸”的华丽宫殿与囚禁国王的庄园 - 最佳欧洲景点',
+  description: '车子在卢瓦尔河谷南部起伏的丘陵间穿行，当导航提示“即将到达目的地”时，我期待的是一座矗立在荒野或河边的古老石堡。然而，转过一片茂密的森林，眼前的景象让我瞬间屏住了呼吸——那不是一个冰冷的堡垒，而是一片漂浮在绿毯之上的、蜜糖色的童话宫殿群。下午的阳光斜斜地洒在那些精致绝伦的文艺复兴式屋顶、高耸的烟囱和...',
+}
+
+export default function ChateauDeValencayPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '瓦朗塞城堡', href: '/attractions/chateau-de-valencay' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`瓦朗塞城堡・Château de Valençay・法国・安德尔省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在卢瓦尔河谷南部起伏的丘陵间穿行，当导航提示“即将到达目的地”时，我期待的是一座矗立在荒野或河边的古老石堡。然而，转过一片茂密的森林，眼前的景象让我瞬间屏住了呼吸——那不是一个冰冷的堡垒，而是一片漂浮在绿毯之上的、蜜糖色的童话宫殿群。下午的阳光斜斜地洒在那些精致绝伦的文艺复兴式屋顶、高耸的烟囱和整齐的窗棂上，整个建筑像一块巨大的、温润的琥珀，散发着慵懒又高贵的光泽。空气里有刚修剪过的青草香，混合着远处花园泥土湿润的气息，安静得只能听见自己的脚步声和喷泉若有若无的叮咚声。
+走近了，你才体会到塔列朗的“用心良苦”。这里没有护城河的阴森，没有瞭望塔的威严。宽阔的碎石庭院邀请你随意漫步，法式落地长窗仿佛随时会打开，走出一个手持酒杯、谈笑风生的贵族。它不像凡尔赛宫那样令人敬畏地宣扬“朕即国家”，而是狡黠地低语：“看，这才是懂得生活、掌控世界的模样。”城堡与周围的花园、森林、农庄融为一体，你会瞬间明白，这不仅仅是一处宅邸，更是一个完全自给自足、独立运转的小型王国，是主人权力与品味的终极延伸。
+最打动人的，是那种奇异的“双重生活”气息。在华丽的中国沙龙里，仿佛还能听到塔列朗与各国使节压低声音的密谈，瓷器碰撞的清脆声响；而在那幽深的走廊尽头，又似乎能感受到被软禁于此的西班牙国王费迪南七世那无处安放的焦躁脚步。这里既是顶级的外交沙龙、奢靡的宴会现场，也是一座镀金的牢笼。历史的正剧与闹剧，宏大的帝国叙事与个人的囚徒悲欢，都在这些墙壁之间交织、沉淀。你触摸到的每一块丝绸壁毯、看到的每一件东方瓷器，都不再是冰冷的展品，而是那个风云激荡时代最鲜活的注脚。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在卢瓦尔河谷南部起伏的丘陵间穿行，当导航提示“即将到达目的地”时，我期待的是一座矗立在荒野或河边的古老石堡。然而，转过一片茂密的森林，眼前的景象让我瞬间屏住了呼吸——那不是一个冰冷的堡垒，而是一片漂浮在绿毯之上的、蜜糖色的童话宫殿群。下午的阳光斜斜地洒在那些精致绝伦的文艺复兴式屋顶、高耸的烟囱和整齐的窗棂上，整个建筑像一块巨大的、温润的琥珀，散发着慵懒又高贵的光泽。空气里有刚修剪过的青草香，混合着远处花园泥土湿润的气息，安静得只能听见自己的脚步声和喷泉若有若无的叮咚声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近了，你才体会到塔列朗的“用心良苦”。这里没有护城河的阴森，没有瞭望塔的威严。宽阔的碎石庭院邀请你随意漫步，法式落地长窗仿佛随时会打开，走出一个手持酒杯、谈笑风生的贵族。它不像凡尔赛宫那样令人敬畏地宣扬“朕即国家”，而是狡黠地低语：“看，这才是懂得生活、掌控世界的模样。”城堡与周围的花园、森林、农庄融为一体，你会瞬间明白，这不仅仅是一处宅邸，更是一个完全自给自足、独立运转的小型王国，是主人权力与品味的终极延伸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，是那种奇异的“双重生活”气息。在华丽的中国沙龙里，仿佛还能听到塔列朗与各国使节压低声音的密谈，瓷器碰撞的清脆声响；而在那幽深的走廊尽头，又似乎能感受到被软禁于此的西班牙国王费迪南七世那无处安放的焦躁脚步。这里既是顶级的外交沙龙、奢靡的宴会现场，也是一座镀金的牢笼。历史的正剧与闹剧，宏大的帝国叙事与个人的囚徒悲欢，都在这些墙壁之间交织、沉淀。你触摸到的每一块丝绸壁毯、看到的每一件东方瓷器，都不再是冰冷的展品，而是那个风云激荡时代最鲜活的注脚。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`瓦朗塞城堡`} />
+                <InfoRow label="英文名称" value={`Château de Valençay`} />
+                <InfoRow label="正式名称" value={`Château de Valençay`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`安德尔省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它不仅是拿破仑时代最有权势外交官塔列朗的私人享乐宫殿，更是帝国时期一段隐秘外交史的见证地，曾软禁过被废黜的西班牙王室。`} />
+                <InfoRow label="建筑特色" value={`一座将意大利文艺复兴的华丽对称与法国古典主义的优雅比例完美融合的城堡，其宏大的规模旨在彰显主人的财富与权力，而非用于军事防御。`} />
+                <InfoRow label="建筑风格" value={`主体为法国文艺复兴风格，并融合了古典主义与早期的新古典主义元素。`} />
+                <InfoRow label="文化价值" value={`一座“活化石”式的庄园，生动体现了拿破仑时代精英阶层如何将政治权力、国际视野、艺术收藏与奢华生活浓缩于一地。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡主体及花园通常在每年四月至十月开放，具体时间为上午10点至下午6点（最后入场时间为关闭前1小时）；十一月至次年三月开放时间缩短，并可能在某些工作日关闭，冬季主要开放花园区域。具体日期每年略有调整，需在官网查询。7月和8月的周二晚上常有夜间游览或音乐会活动。城堡在每年1月及部分法国法定假日（如12月25日）关闭。`} />
+              <InfoRow label="门票价格" value={`标准成人票价约为15欧元，参观范围包括城堡内部、花园及附属博物馆。优惠票价（学生、12-17岁青少年）约为12欧元。6岁以下儿童免费。家庭套票（2成人+2儿童）有优惠。花园单独参观票价约为9欧元。语音导览设备通常包含在门票内或需额外支付少量租金（约3欧元）。官网提前购票可避免排队，并可能有微小折扣。`} />
+              <InfoRow label="地址" value={`2 Rue de Blois, 36600 Valençay, France`} />
+              <InfoRow label="交通方式" value={`瓦朗塞城堡位置较为偏远，自驾是最为便捷的方式。从巴黎出发，沿A10高速公路向南至“Blois”或“Vierzon”出口，再转D956省道，车程约2.5-3小时。若乘坐公共交通，可从巴黎蒙帕纳斯火车站（Gare Montparnasse）乘坐TGV高速列车前往图尔（Tours）或布卢瓦（Blois），车程约1-1.5小时。抵达后，从图尔或布卢瓦火车站转乘前往瓦朗塞的 regional bus（班次稀少，每日仅2-3班，车程约1-1.5小时）或提前预约出租车（费用昂贵，单程约80-120欧元）。强烈建议查询并严格遵守公交时刻表，或参加从图尔/布卢瓦出发的一日游旅行团。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事得从那个被称为“狐狸”的男人说起——夏尔·莫里斯·德·塔列朗。在拿破仑如日中天的1803年，这位皇帝的首席外交官、精于算计又生活奢靡的贵族，急需一处与他地位相匹配的乡间领地。瓦朗塞，这座始建于16世纪、后来被金融家改造过的华丽城堡，进入了他的视线。购买它，不仅是为了享受，更是一项政治投资：一个远离巴黎喧嚣、却又足够奢华以招待欧洲权贵的“私人外交舞台”。塔列朗投入巨资，按照最时髦的品味重新装修，用从世界各地搜罗来的艺术品——尤其是来自中国的瓷器、漆器和丝绸——填满了房间。他要向世界证明，即使在乡下，一个真正有权势的人的客厅，就是世界的中心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，城堡命运的高潮，却是一场出乎所有人意料的“皇家招待”。1808年，拿破仑在西班牙战争中废黜了波旁王朝，将前国王卡洛斯四世和他的儿子费迪南七世“请”到了法国。安排他们的居所成了一个棘手问题：既要显示帝国的“宽厚”，又要确保他们与世隔绝。这个任务落到了塔列朗头上。于是，瓦朗塞城堡在接下来的六年里，变成了一座极度奢华的监狱。想象一下那幅画面：被剥夺王位的父子在广阔的花园里散步，在装饰着名画的餐厅里用餐，享受着一流的服务，却没有任何自由。塔列朗将监视与款待结合得天衣无缝，他本人虽不常驻，却通过精心安排的管家和仆人，让这段囚禁生活看起来像一次漫长的、略显尴尬的贵族访客。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`拿破仑帝国崩塌后，塔列朗以其一贯的机变，转身为复辟的波旁王朝服务，并最终在维也纳会议上为法国争取了最大利益。晚年，他更多地退居瓦朗塞。这里不再有被囚的国王，但依然是政要密使频繁往来的地方。你会发现，城堡的历史几乎就是塔列朗个人生涯的缩影：华丽、实用、充满算计，却又在关键时刻提供了庇护与转圜的空间。他于1838年在这里去世，城堡由他的后代继承。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转，城堡历经传承，在20世纪曾面临衰败，但幸运地得到了细致的修复。如今，作为法国重要的历史古迹向公众开放，它不仅展示了塔列伦时代无与伦比的艺术收藏和生活美学，更保留了当年西班牙王室居住过的房间原貌。那段囚禁岁月，从一个历史的尴尬脚注，变成了城堡最独特、最引人深思的故事层。当你走过那些房间，两种截然不同的历史回音在此碰撞：一种是主人刻意营造的、征服世界的辉煌与享乐；另一种是客人无奈承受的、失去世界的苦闷与奢华。正是这种矛盾，让瓦朗塞超越了单纯的美丽，拥有了直击人心的深度。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议预留整整一天时间给瓦朗塞，它的魅力需要慢下来才能完全吸收。最好在上午10点开门时抵达，此时光线柔和，游客较少，可以静静感受城堡苏醒的气氛。上午的3-3.5小时专注于城堡内部：从恢宏的立面开始，依次探索国事厅、私人套房和那段囚禁历史留下的痕迹，仔细品味每一件家具和艺术品背后的故事。中午可以在城堡内的橘园咖啡馆或野餐区简单用餐。下午的2-3小时则完全交给巨大的法式花园和英式园林，沿着林荫道散步，在池塘边发呆，感受时间如何在这里变得缓慢。这样的安排既能深入历史的肌理，又能享受自然的抚慰，获得完整的体验。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`尽量避开七、八月周末的下午，那时游客最多，会破坏城堡宁静的氛围。花园面积非常大，请务必穿着非常舒适、适合长时间步行的鞋子。室内部分光线较暗，且为了保护文物禁止使用闪光灯，若想拍摄室内细节，最好使用大光圈镜头或高感光度能力强的相机。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过宏伟的铁艺大门，首先在宽阔的碎石庭院里驻足，仰视那座融合了文艺复兴华丽与古典主义优雅的蜂蜜色主立面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开厚重的大门步入门厅，立刻被那宏伟的楼梯间所震撼，抬头望向绘有寓言壁画的天花板，想象宾客在此拾级而上的场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`逐一探访国事套房，在中国沙龙里凝视那些跨越重洋而来的东方珍宝，感受塔列朗用全球收藏装点权力客厅的野心。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进曾软禁西班牙国王费迪南七世的套房，观察那些相对简朴但依旧考究的陈设，体会荣耀尽失后那份镀金笼中的微妙氛围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着螺旋楼梯下到巨大的地下厨房，仿佛还能闻到昔日为上百位宾客准备盛宴时烤面包和炖肉的浓郁香气。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡侧门步入几何图案极其精美的法式花园，沿着中轴线漫步，欣赏修剪整齐的黄杨木雕塑和远处阶梯瀑布的景致。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`离开规整的法式花园，信步走入更显自然的英式园林，在古树和池塘边寻找一个安静的长椅，聆听风声与鸟鸣。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观结束前不要错过城堡附设的汽车博物馆和巨大的历史游戏场，那里展示了另一个维度的趣味收藏。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡南侧林荫道尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，利用长焦镜头压缩空间，将笔直的道路、两侧的古树与尽头的城堡主体一同纳入画面，形成强烈的纵深感与对称美。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主庭院中央的圆形水池边`}</h4>
+                  <p className="text-sm text-gray-700">{`晴天上午十点前或下午四点后，蹲低机位，将城堡主立面的完美倒影与实体建筑一同摄入水中，营造虚实结合的梦幻效果。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`中国沙龙（Le Salon Chinois）内部`}</h4>
+                  <p className="text-sm text-gray-700">{`选择阳光能透过窗户的午后，将镜头对准那些装饰着复杂中国风图案的漆板墙壁和陈列其中的明清瓷器，利用室内柔和的自然光捕捉奢华质感和历史沉淀的色调。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`法式花园的阶梯瀑布（La Cascade）上方平台`}</h4>
+                  <p className="text-sm text-gray-700">{`站在平台边缘，以广角镜头向下俯拍，将几何图案的花坛、修剪成型的绿植、远处的城堡一角以及瀑布水系全部囊括，展现人类园艺与自然景观的完美对话。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`英式园林的池塘（Le Grand Étang）北岸`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时左右，面对西边，等待金色的阳光洒在池塘对岸的树丛和城堡塔楼上，利用水面平静的时刻拍下清晰的倒影，营造温暖而静谧的田园诗画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`室内拍摄务必关闭闪光灯，可适当提高ISO并使用三脚架（若游客不多且允许的情况下）以保证画质。法式花园的最佳光线在上午，能凸显其立体感；而英式园林和池塘则在傍晚的侧逆光下最为迷人。使用偏振镜可以有效消除树叶和水面的反光，让色彩更饱和。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨民宿之选`}</h4>
+                  <p className="text-sm text-blue-800">{`城堡大门对面就有家庭经营的温馨民宿，推开木窗就能看见城堡的塔楼，晚上能享受小镇独有的宁静，早晨女主人的自制果酱和可颂是完美的开始。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色庄园体验`}</h4>
+                  <p className="text-sm text-green-800">{`距离城堡几分钟车程，由一座18世纪农庄改建的精品酒店，石头墙壁配上现代设计家具，拥有一个漂亮的泳池和私人花园，仿佛住进了法国乡绅朋友的家里。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`静谧乡村度假`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于附近村庄的一座小型庄园酒店，房间不多但每一间都面向私人森林或玫瑰园，提供精致的本地菜肴，是彻底放松、远离人群的隐秘绿洲。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`便捷城市落脚`}</h4>
+                  <p className="text-sm text-purple-800">{`如果选择火车出行，可以住在图尔（Tours）市中心的历史街区酒店，白天乘巴士或自驾前来，晚上回到城市享受热闹的餐厅和咖啡馆生活。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`瓦朗塞本地住宿选择有限且非常抢手，尤其是旅游旺季，务必提前数月预订。如果自驾，选择范围可以扩大到周边20公里内的乡村，更能体验真正的法国田园生活。小镇治安极好，夜晚非常安静，可以放心散步。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开瓦朗塞的时候，我一直在想，历史到底是什么？是教科书上冰冷的时间线和重大事件吗？在塔列朗的城堡里，我找到了另一个答案：历史是气味，是地下厨房里仿佛从未散去的黄油焦香；历史是触感，是中国沙龙漆壁上那冰凉滑腻的纹理；历史是声音，是花园喷泉那数百年如一日的、安抚着被囚国王也安抚着今日游客的潺潺水声。这座城堡把一段宏大的帝国兴衰史，化解成了无数个可被感官捕捉的细微瞬间。它告诉我们，再波澜壮阔的时代，最终也要落在一个具体的人如何居住、如何交谈、如何享乐与如何苦闷之上。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求打卡和快节奏旅行的时代，瓦朗塞像一位从容的旧贵族，要求你慢下来，给予它时间和耐心。它不会用瞬间的震撼征服你，而是用层层叠叠的故事和无处不在的生活细节浸润你。当你坐在英式园林的长椅上，看着光影在古老的墙壁上移动，你会突然明白，旅行的意义有时不在于“看到”什么，而在于“感受到”什么。感受权力的脆弱与艺术的永恒，感受自由的可贵与禁锢的奢华，感受一个复杂人物留下的复杂遗产。这就是瓦朗塞独一无二的礼物——它不只让你游览一个景点，更邀请你进入一段多维度的人生，并在此与自己安静对话。每一位真正的深度旅者，都该来此领取这份礼物。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/amiens-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    亚
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">亚眠大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Amiens Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ville-close-de-concarneau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    孔
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">孔卡尔诺封闭之城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ville Close de Concarneau</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/carcassonne-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔卡松城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Carcassonne Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

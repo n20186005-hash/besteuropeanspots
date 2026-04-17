@@ -1,0 +1,228 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '希奥利艾十字架山 Hill of Crosses｜探访插满十万座十字架的震撼朝圣奇观 - 最佳欧洲景点',
+  description: '车子还在平坦的立陶宛乡村公路上行驶，一片宁静的田园风光，忽然间，远处地平线上出现了一个毛茸茸的、闪着微光的“异物”。那不是树，也不是建筑，而是一种难以名状的、密集堆积的轮廓。随着距离拉近，轮廓逐渐清晰，你的呼吸会不由自主地屏住——那是一座山，一座完全被十字架覆盖的山。数十万，或许上百万个十字架，从山...',
+}
+
+export default function HillOfCrossesPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '希奥利艾十字架山', href: '/attractions/hill-of-crosses' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`希奥利艾十字架山・Hill of Crosses・立陶宛・希奥利艾县 （距离希奥利艾市约12公里）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子还在平坦的立陶宛乡村公路上行驶，一片宁静的田园风光，忽然间，远处地平线上出现了一个毛茸茸的、闪着微光的“异物”。那不是树，也不是建筑，而是一种难以名状的、密集堆积的轮廓。随着距离拉近，轮廓逐渐清晰，你的呼吸会不由自主地屏住——那是一座山，一座完全被十字架覆盖的山。数十万，或许上百万个十字架，从山脚到山顶，像一片金属与木材的森林，又像一片突然从大地生长出来的荆棘丛，在波罗的海沿岸灰白的天光下，沉默地站立着。
+走近它，第一个冲击你的是声音。那不是寂静，而是一种低沉的、持续的嗡鸣与叮当声。是风吹过无数金属十字架、触碰陶瓷圣母像、摇晃木制玫瑰念珠时发出的合唱。这声音古老而悲伤，却又充满奇异的生命力，仿佛整座山丘都在低声祈祷。空气里弥漫着湿润的泥土味、老木头微微发霉的气息，以及一丝淡淡的、冰冷的铁锈味。你的脚下是柔软的沙土小路，被无数朝圣者的脚步踩得紧实。视线所及，再无空隙。高大的苦像十字架、精巧的家庭纪念十字、褪色的照片被封装在小玻璃盒里、手工编织的彩色羊毛绶带、甚至还有士兵的身份牌……每一个十字架背后，都是一个名字，一段故事，一个无声的恳求或感恩。
+你会发现，这里没有宏伟的教堂穹顶，没有穿着长袍的神父，管理它的或许只有一位默默打扫小径的老妇人。它的核心魅力正在于此——它不属于任何机构，它只属于人民。这是一个完全去中心化的信仰表达现场。当地人来到这里，或许是为了纪念在流放中逝去的亲人，或许是为新生儿的平安祈祷，或许只是在一个困难的午后，需要找一个地方，亲手将一份沉重的思绪“钉”在这片被祝福的土地上。它不像欧洲那些辉煌的大教堂让你仰视神性，而是让你俯身，触摸无数普通人的悲欢、坚韧与希望。这种 raw（原始）而磅礴的集体情感力量，是任何精雕细琢的艺术品都无法比拟的。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子还在平坦的立陶宛乡村公路上行驶，一片宁静的田园风光，忽然间，远处地平线上出现了一个毛茸茸的、闪着微光的“异物”。那不是树，也不是建筑，而是一种难以名状的、密集堆积的轮廓。随着距离拉近，轮廓逐渐清晰，你的呼吸会不由自主地屏住——那是一座山，一座完全被十字架覆盖的山。数十万，或许上百万个十字架，从山脚到山顶，像一片金属与木材的森林，又像一片突然从大地生长出来的荆棘丛，在波罗的海沿岸灰白的天光下，沉默地站立着。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近它，第一个冲击你的是声音。那不是寂静，而是一种低沉的、持续的嗡鸣与叮当声。是风吹过无数金属十字架、触碰陶瓷圣母像、摇晃木制玫瑰念珠时发出的合唱。这声音古老而悲伤，却又充满奇异的生命力，仿佛整座山丘都在低声祈祷。空气里弥漫着湿润的泥土味、老木头微微发霉的气息，以及一丝淡淡的、冰冷的铁锈味。你的脚下是柔软的沙土小路，被无数朝圣者的脚步踩得紧实。视线所及，再无空隙。高大的苦像十字架、精巧的家庭纪念十字、褪色的照片被封装在小玻璃盒里、手工编织的彩色羊毛绶带、甚至还有士兵的身份牌……每一个十字架背后，都是一个名字，一段故事，一个无声的恳求或感恩。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你会发现，这里没有宏伟的教堂穹顶，没有穿着长袍的神父，管理它的或许只有一位默默打扫小径的老妇人。它的核心魅力正在于此——它不属于任何机构，它只属于人民。这是一个完全去中心化的信仰表达现场。当地人来到这里，或许是为了纪念在流放中逝去的亲人，或许是为新生儿的平安祈祷，或许只是在一个困难的午后，需要找一个地方，亲手将一份沉重的思绪“钉”在这片被祝福的土地上。它不像欧洲那些辉煌的大教堂让你仰视神性，而是让你俯身，触摸无数普通人的悲欢、坚韧与希望。这种 raw（原始）而磅礴的集体情感力量，是任何精雕细琢的艺术品都无法比拟的。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`希奥利艾十字架山`} />
+                <InfoRow label="英文名称" value={`Hill of Crosses`} />
+                <InfoRow label="正式名称" value={`The Hill of Crosses`} />
+                <InfoRow label="国家" value={`立陶宛`} />
+                <InfoRow label="城市" value={`希奥利艾县 （距离希奥利艾市约12公里）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座没有教堂和神父，却由数十万普通民众用十字架垒砌而成的、象征立陶宛民族精神与信仰不屈的“沉默的纪念碑”。`} />
+                <InfoRow label="建筑特色" value={`并非传统建筑，而是一片由无数大小不一、材质各异、形态万千的十字架层层堆叠、密密麻麻覆盖整个山丘的超现实景观集合体。`} />
+                <InfoRow label="建筑风格" value={`民众自发艺术与民间信仰的融合，跨越了几个世纪，从简朴的木十字到精美的金属雕塑，风格从巴洛克、哥特式到极度现当代抽象，无所不包。`} />
+                <InfoRow label="文化价值" value={`见证了立陶宛数个世纪以来，尤其是苏联占领时期，民众如何用沉默的十字架代替呐喊，进行非暴力的精神抵抗与文化存续，是联合国教科文组织非物质文化遗产的杰出代表。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全年全天24小时开放。无论昼夜、任何季节，朝圣地的大门始终向访客敞开。但请注意，冬季（11月至次年3月）日落后道路黑暗，建议白天游览。夏季是访问高峰，但清晨或黄昏前往能获得更宁静的体验。没有官方的“关闭”时间，但请尊重此地作为宗教圣地的庄严肃穆。`} />
+              <InfoRow label="门票价格" value={`完全免费。这是一个由信仰和民众意愿自发形成的圣地，不设门票、不设围栏。停车场免费，但如有意愿，可以在入口处的小屋向看守人进行自愿捐赠，用于场地的简单维护。`} />
+              <InfoRow label="地址" value={`Jurgaičiai 81439, 希奥利艾县，立陶宛`} />
+              <InfoRow label="交通方式" value={`从立陶宛首都维尔纽斯出发最方便。首先，从维尔纽斯中央火车站或巴士站乘坐火车或大巴前往希奥利艾市，车程约2-2.5小时，班次频繁。抵达希奥利艾后，你有几个选择：最自主的方式是在火车站附近租一辆自行车（夏季常见），骑行约12公里，沿途是典型的立陶宛乡村风光，约1小时可达。最方便的是在希奥利艾巴士站乘坐前往“Joniškis”或“Meškuičiai”方向的本地巴士，告诉司机在“Kryžių kalnas”（十字架山）下车，车程约20分钟，但班次较少，需提前查好时刻表。最灵活的是乘坐出租车，从希奥利艾市中心出发约15-20欧元。自驾是最推荐的方式，从希奥利艾沿A12公路向北，按路牌指示转入乡村小路即可到达，有免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`关于这座山丘最早为何被选为安放十字架之地，历史已经模糊，被层叠的传说覆盖。一种说法是，这里曾是古代波罗的海异教徒的祭祀圣地。另一种更广为流传的民间传说是，在14世纪立陶宛大公国时期，一位悲伤的父亲为了梦见被杀害的女儿，在此地安放了第一个十字架。梦实现后，这里便成为了实现祈愿的灵验之地。无论起源如何，在19世纪立陶宛反抗沙俄统治的两次大起义（1831年与1863年）之后，这座山丘的意义发生了根本转变。起义者的亲属无法找到被害亲人的遗体，便纷纷来到这个偏远之地，竖起十字架，作为衣冠冢和纪念碑。从此，它从一个民间祈愿地，悄然转变为民族记忆的储存库。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，真正将十字架山锻造成立陶宛民族精神象征的，是那段黑暗的苏联占领时期（1944-1990年）。无神论的苏联政府视这里为眼中钉，它是信仰的公开宣示，更是立陶宛民族认同的顽固堡垒。当局曾多次试图摧毁它。推土机来了，将十字架成片推倒、碾碎、拉走焚烧。他们甚至计划在此修建水库，企图将这片圣地永远沉入水底。但每一次摧毁后的清晨，总有更多的十字架，在黑夜的掩护下，如野草般重新“生长”出来。民众用更简陋的材料——用铁丝捆绑的树枝、用罐头铁皮剪出的形状——继续他们的 silent protest（沉默抗议）。这成了一场意志的拉锯战：一方是国家的暴力机器，另一方是手无寸铁的平民和他们手中小小的十字架。这场旷日持久的“十字架战争”，没有硝烟，却惊心动魄。每一根新立起的十字架，都是一次微小的胜利宣言。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`1991年立陶宛重新独立后，十字架山迎来了爆发式的增长。它从受迫害的象征，变成了自由与胜利的纪念碑。人们从全国各地，甚至海外侨民社区涌来，竖立十字架以感谢上帝的庇佑，纪念铁幕下的牺牲者。1993年，教皇约翰·保罗二世到访此地，称其为“充满十字架、祈祷与希望的山丘”，并在此举行弥撒，更使其获得了全球性的宗教声誉。如今，十字架的数量早已无法精确统计，估计在十万到百万之间。它不再仅仅是立陶宛的，也成为了全世界天主教徒和寻求精神慰藉者的朝圣目的地。来自波兰、拉脱维亚、乌克兰的信徒在此安放十字架，甚至能看到来自拉丁美洲或亚洲的纪念物。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天，当你漫步其间，就像在阅读一部立体的、由民众书写的史诗。你会看到19世纪古朴粗糙的木雕十字，上面刻着早已模糊的波罗的海符文纹样；会看到苏联时期匆忙制作的、带着工业粗糙感的铁皮十字；也会看到当代立陶宛艺术家创作的、极具现代感的金属雕塑十字架，线条简洁而充满力量。它们毫无章法地挤在一起，不同时代的对话在此凝固。山丘中心有一片小空地，设有一个简单的木质祭坛，那是教皇当年主持弥撒的地方。偶尔，你会看到一队真正的朝圣者，手持蜡烛，低声吟唱着古老的圣歌，歌声淹没在风中十字架的叮当声里，融为一体。历史在这里不是教科书上的章节，而是你可以用手触摸到的、冰冷或温润的实体。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议将整个拜访安排在清晨（日出后两小时内）或工作日的下午。清晨光线最为柔和，能拍出十字架森林充满神性的光影，且游客极少，你能独占这份宁静，聆听最纯粹的风声与叮当声。整个深度游览建议预留至少2-3小时，这不包括往返交通时间。节奏一定要慢，这不是一个“打卡”景点，而是一个需要你沉浸感受的能量场。从停车场走向山丘的那段路，是调整心态、进入状态的重要过程。游览的核心不是“看完”，而是“感受”和“发现”。沿着主要小径走一圈后，可以随意选择一条岔路深入“十字架森林”内部，去发现那些隐藏在角落里的个人故事。最后，留出至少15分钟，找个远离路径的安静角落，只是静静地坐着，让那种集体的、沉重的、却又充满希望的氛围将你包裹。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`请务必穿着舒适耐脏的鞋子，沙土路在雨后可能泥泞，且需要在小径间穿梭。保持肃静，避免大声喧哗或嬉笑，这是对场所精神最基本的尊重。可以拍照，但尽量避免将正在虔诚祈祷或 visibly emotional（明显情绪激动）的朝圣者直接摄入镜头。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从停车场沿着笔直的沙土路走向山丘，第一眼看到那铺天盖地的十字架全景时，停下脚步，让最初的震撼感完全淹没你`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着主路缓缓上山，让自己的眼睛逐渐适应这令人眼花缭乱的细节，开始辨认木质、铁质、石质十字架的不同质感与岁月痕迹`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在山腰岔路口选择一条狭窄的小径深入十字架的“密林”深处，俯身仔细阅读那些系在十字架上的褪色照片、姓名牌和手写铭文`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上并不高的山顶平台，转身360度俯瞰，体会被无数信仰的符号环绕、如同置身于一片沉默而汹涌的海洋中心的感觉`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到那尊著名的“受苦的基督”铁铸雕像，观察其现代主义的抽象线条如何与周围传统的十字架形成深刻对话`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在山脚那片相对较新的区域，观察来自世界各地的朝圣者留下的十字架，感受这个地方如何从民族纪念碑演变为世界性的精神容器`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`离开主区，走到后方更开阔、十字架稍稀疏的坡地，这里通常更安静，适合独自反思和聆听风穿过整个山丘的宏大合唱`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后在出口处的小木屋稍作停留，或许留下一笔自愿捐赠，或只是向那位常年守护在此的看顾人点头致意`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`停车场通往山丘的道路中段`}</h4>
+                  <p className="text-sm text-gray-700">{`使用中长焦镜头，将十字架山作为背景，前景是空旷的田野和孤独的行人，构图能突出其遗世独立与震撼的体量感，清晨或黄昏光线最佳`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`深入十字架“森林”内部`}</h4>
+                  <p className="text-sm text-gray-700">{`蹲下放低机位，仰拍十字架们直指天空的线条，让它们填满整个画面，形成极具压迫感和秩序感的构图，阴天均匀的光线更能突出材质细节`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`山顶平台边缘`}</h4>
+                  <p className="text-sm text-gray-700">{`拍摄十字架如瀑布般向山下蔓延的全景，等待一缕阳光穿透云层照亮局部区域，能拍出神圣的“天光”效果，建议使用广角镜头`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`寻找一个有故事的单个十字架特写`}</h4>
+                  <p className="text-sm text-gray-700">{`聚焦于一个附着大量个人物品（照片、玩偶、诗歌）的十字架，用大光圈虚化背后层叠的背景，讲述一个微观的悲伤与希望的故事`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尝试捕捉动态：风起时，千万个十字架上的金属饰物随之晃动，用稍慢的快门（如1/30秒）可以拍出动态的模糊感，增强画面的灵性氛围。无人机飞行在此地通常不被明令禁止但极其不受欢迎，因其噪音会严重破坏圣地的宁静，强烈不建议使用。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`便捷之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在希奥利艾市中心的现代舒适酒店，出行就餐方便，晚上可以在宁静的城里逛逛，第二天一早打车或乘巴士轻松前往十字架山`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择希奥利艾郊外由传统农庄改造的民宿，住在木屋中，享用主人自制的奶酪和黑麦面包，深度体验立陶宛乡村的质朴生活`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`宁静避世`}</h4>
+                  <p className="text-sm text-yellow-800">{`寻找十字架山附近村庄（如Jurgaičiai）的私人度假屋，享受绝对的静谧，甚至可以步行至圣地，感受它清晨与夜晚不同时段的气息`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-purple-800">{`虽然希奥利艾没有五星级酒店，但可以驱车一小时前往更大的城市考纳斯，入住涅里斯河畔的历史建筑精品酒店，将文化探索与舒适享受结合`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`立陶宛乡村治安非常好，但夜晚灯光稀少，如果住在偏远民宿，建议天黑前返回。夏季是旅游旺季，希奥利艾的住宿虽然不紧张，但特色民宿仍需提前数周预订。许多民宿主人能提供关于十字架山历史和个人故事的宝贵分享，不妨多与他们交谈。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开十字架山很久之后，那金属的轻鸣声似乎还回荡在耳畔。它留给我的，不是一张漂亮的风景明信片，而是一种沉甸甸的、扎在心里的感觉。在这个追求效率、崇尚崭新、一切都被精心策划和消费的时代，十字架山是一个美妙的“异类”。它混乱、拥挤、毫无设计感，却充满了野蛮生长的、真实的生命力。它告诉我们，信仰和民族记忆，可以不是殿堂里被供奉的冰冷古董，而是像野草一样，在每一次被践踏后，更顽强地从民间土壤里钻出来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，为什么值得专程前来？因为它提供了一种在别处难以获得的情感教育。在这里，你直面的是人类情感的原始重量——失去、哀悼、希望、感恩、反抗与坚韧。它没有给你答案，而是向你提出了问题：是什么支撑一个人在绝境中依然选择相信？一个民族的 identity（身份认同）究竟可以有多深、多顽强？当你触摸那些冰凉的铁十字，仿佛能触碰到那些在寒夜里悄悄潜入此地、只为安放一份思念的无名者的体温。这座山丘，是沉默的，却也是震耳欲聋的。它值得每一位不仅仅想看风景，更想触摸历史心跳与人类精神厚度的旅人，将它列入灵魂的旅程。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/trakai-island-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特拉凯半岛城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trakai Island Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/klaipeda-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克莱佩达老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Klaipėda Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/vilnius-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维尔纽斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vilnius Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

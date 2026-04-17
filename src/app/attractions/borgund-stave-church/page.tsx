@@ -1,0 +1,236 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '博尔贡木板教堂 Borgund Stave Church｜探秘北欧维京时代的龙首传奇，现存最完好的木板教堂 - 最佳欧洲景点',
+  description: '车子在蜿蜒的E16公路上拐过一个弯，它就像从山谷里突然生长出来的黑色精灵，猝不及防地撞进你的视线。那是一种混合了敬畏与童话感的冲击。博尔贡教堂就那么安静地矗立在莱达尔山谷葱郁的绿意中，深褐色的木质外墙被近九百年的风雨浸染成近乎墨黑的颜色，与背后起伏的青山形成戏剧性的对比。最抓人眼球的，是它层层叠叠、...',
+}
+
+export default function BorgundStaveChurchPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '博尔贡木板教堂', href: '/attractions/borgund-stave-church' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`博尔贡木板教堂・Borgund Stave Church・挪威・莱达尔（Lærdal）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在蜿蜒的E16公路上拐过一个弯，它就像从山谷里突然生长出来的黑色精灵，猝不及防地撞进你的视线。那是一种混合了敬畏与童话感的冲击。博尔贡教堂就那么安静地矗立在莱达尔山谷葱郁的绿意中，深褐色的木质外墙被近九百年的风雨浸染成近乎墨黑的颜色，与背后起伏的青山形成戏剧性的对比。最抓人眼球的，是它层层叠叠、陡峭无比的石板屋顶，还有屋顶脊线上那些昂首向天的龙首——它们不是东方祥和的龙，而是维京长船上那种狰狞、充满力量感的龙，仿佛下一秒就要腾空而起，对着北欧的天空发出无声的咆哮。空气里是清冽的山区气息，混合着古老木头散发出的、一种类似松脂和岁月尘封的微凉味道。
+走近了，那种压迫感与精致感并存的特质愈发明显。教堂外壁的木板上刻满了繁复的符文和交织的图案，有些像是藤蔓，有些则抽象难明，那是属于维京工匠的密码。用手轻轻触摸那些木板，指尖传来的是木头被无数个严冬和夏日打磨后的温润与粗砺并存的感觉。你能听到的，除了山谷的风声，就只有自己踩在碎石子路上的沙沙声，以及偶尔从屋顶滴落的、积蓄的雨水敲打石板的滴答声。这里没有城市的喧嚣，它孤立于世，却绝非孤寂，而是一种沉静的自持。对于挪威人而言，它不仅仅是一座教堂，更是一座通往他们狂野与虔诚并存的先祖世界的桥梁。
+推开那扇厚重、吱呀作响的木门，仿佛跨入了一个截然不同的时空容器。内部的光线昏暗而神圣，仅有几扇小窗投入几缕微弱的光柱，光柱里飞舞着细微的尘埃。你的眼睛需要时间适应，然后，一个由巨大木柱和横梁构成的森林逐渐在眼前清晰。这些支撑起整个建筑的重木，被称为“木板”，它们笔直地伸向高处隐没在黑暗中，像是支撑起整个世界树的枝干。空气中弥漫着更浓的陈年木香，还有一丝淡淡的、来自石质地面的潮土气息。祭坛很简单，没有天主教教堂那种繁复的金碧辉煌，一切以木为本，质朴而庄严。在这里，你能最真切地感受到什么是“建造”——没有一块石头，全靠榫卯、木钉和对木材性能的极致理解，让这座建筑屹立了近千年。
+如果说外部是维京船的狂想，内部是森林的静谧，那么博尔贡最打动人的，正是这种极致的融合。它是战斗与祈祷的交汇点，是斧头与十字架的共生体。那些屋顶的龙首，既可能是为了驱赶旧信仰的“邪灵”，也可能仅仅是工匠无法割舍的民族图腾。站在这座建筑面前，你感受到的不是单一的宗教虔诚，而是一个民族在历史十字路口上的全部迷茫、挣扎与创造性的妥协。它不试图告诉你答案，它本身就是一个永恒的、木质的疑问与惊叹号。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在蜿蜒的E16公路上拐过一个弯，它就像从山谷里突然生长出来的黑色精灵，猝不及防地撞进你的视线。那是一种混合了敬畏与童话感的冲击。博尔贡教堂就那么安静地矗立在莱达尔山谷葱郁的绿意中，深褐色的木质外墙被近九百年的风雨浸染成近乎墨黑的颜色，与背后起伏的青山形成戏剧性的对比。最抓人眼球的，是它层层叠叠、陡峭无比的石板屋顶，还有屋顶脊线上那些昂首向天的龙首——它们不是东方祥和的龙，而是维京长船上那种狰狞、充满力量感的龙，仿佛下一秒就要腾空而起，对着北欧的天空发出无声的咆哮。空气里是清冽的山区气息，混合着古老木头散发出的、一种类似松脂和岁月尘封的微凉味道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近了，那种压迫感与精致感并存的特质愈发明显。教堂外壁的木板上刻满了繁复的符文和交织的图案，有些像是藤蔓，有些则抽象难明，那是属于维京工匠的密码。用手轻轻触摸那些木板，指尖传来的是木头被无数个严冬和夏日打磨后的温润与粗砺并存的感觉。你能听到的，除了山谷的风声，就只有自己踩在碎石子路上的沙沙声，以及偶尔从屋顶滴落的、积蓄的雨水敲打石板的滴答声。这里没有城市的喧嚣，它孤立于世，却绝非孤寂，而是一种沉静的自持。对于挪威人而言，它不仅仅是一座教堂，更是一座通往他们狂野与虔诚并存的先祖世界的桥梁。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`推开那扇厚重、吱呀作响的木门，仿佛跨入了一个截然不同的时空容器。内部的光线昏暗而神圣，仅有几扇小窗投入几缕微弱的光柱，光柱里飞舞着细微的尘埃。你的眼睛需要时间适应，然后，一个由巨大木柱和横梁构成的森林逐渐在眼前清晰。这些支撑起整个建筑的重木，被称为“木板”，它们笔直地伸向高处隐没在黑暗中，像是支撑起整个世界树的枝干。空气中弥漫着更浓的陈年木香，还有一丝淡淡的、来自石质地面的潮土气息。祭坛很简单，没有天主教教堂那种繁复的金碧辉煌，一切以木为本，质朴而庄严。在这里，你能最真切地感受到什么是“建造”——没有一块石头，全靠榫卯、木钉和对木材性能的极致理解，让这座建筑屹立了近千年。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果说外部是维京船的狂想，内部是森林的静谧，那么博尔贡最打动人的，正是这种极致的融合。它是战斗与祈祷的交汇点，是斧头与十字架的共生体。那些屋顶的龙首，既可能是为了驱赶旧信仰的“邪灵”，也可能仅仅是工匠无法割舍的民族图腾。站在这座建筑面前，你感受到的不是单一的宗教虔诚，而是一个民族在历史十字路口上的全部迷茫、挣扎与创造性的妥协。它不试图告诉你答案，它本身就是一个永恒的、木质的疑问与惊叹号。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`博尔贡木板教堂`} />
+                <InfoRow label="英文名称" value={`Borgund Stave Church`} />
+                <InfoRow label="正式名称" value={`Borgund Stave Church`} />
+                <InfoRow label="国家" value={`挪威`} />
+                <InfoRow label="城市" value={`莱达尔（Lærdal）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`挪威现存28座木板教堂中保存最完好、建筑结构最复杂、最具代表性的一座，是维京时代晚期基督教化过程的“活化石”。`} />
+                <InfoRow label="建筑特色" value={`以垂直的“木板”（staves）为承重核心，多层陡峭的屋顶如龙鳞般叠覆，屋顶矗立着标志性的十字架和维京风格的龙首雕刻。`} />
+                <InfoRow label="建筑风格" value={`北欧木板教堂建筑的巅峰代表，融合了前基督教维京船屋的建造技艺与中世纪罗马式基督教堂的象征元素。`} />
+                <InfoRow label="文化价值" value={`它是挪威民族身份与精神信仰的物理锚点，见证了维京人从北欧诸神信仰转向基督教的关键历史篇章。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`每年6月中旬至8月中旬每日开放，时间为10:00-17:00。5月、9月及10月初开放时间缩短，通常为工作日或仅周末开放，具体需查阅官网。冬季（10月中旬至次年4月）教堂外部可参观，但内部不对外开放。国家法定假日可能关闭。`} />
+              <InfoRow label="门票价格" value={`成人票：120挪威克朗。学生/老年人票：90挪威克朗。家庭票（2大2小）：300挪威克朗。6岁以下儿童免费。门票包含教堂内部参观及旁边的游客中心博物馆。仅参观外部建筑和墓地免费。`} />
+              <InfoRow label="地址" value={`Borgund Kyrkjevegen 1, 6888 Borgund, Norway`} />
+              <InfoRow label="交通方式" value={`从奥斯陆或卑尔根出发最方便。自驾是首选，从奥斯陆沿E16公路向西行驶约5小时，从卑尔根沿E16公路向东北行驶约3.5小时，教堂就在E16公路旁，有明显标志。公共交通：从奥斯陆或卑尔根乘坐火车至“莱达尔站”（Lærdal stasjon），但火车站到教堂仍有约10公里路程，夏季有不定时接驳巴士，淡季需搭乘出租车。班次稀少，强烈建议提前查询并规划好时间。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从维京时代末期说起。那是一个风起云涌的年代，斯堪的纳维亚的男人们驾着龙头长船，让整个欧洲海岸线闻风丧胆。但在他们故乡的深峡湾与高山之间，另一种变革正在悄然发生。大约在公元1180年左右，当博尔贡教堂的梁柱第一次被竖立在这片土地上时，挪威正处在从古老的北欧多神教向基督教艰难转型的阵痛期。国王们为了巩固王权，强力推行基督教，但广大民众，尤其是偏远地区的农民和工匠，他们的精神世界依旧与雷神索尔、奥丁以及森林中的精灵紧密相连。博尔贡教堂的建造，很可能就是当地一个有权势的家族或社区首领，为了响应国王的号召，同时也为了彰显自己地位而发起的一项工程。想象一下当时的场景：最好的木材从附近森林砍伐而来，最出色的木匠——他们很可能就是建造维京船的工匠的后代——聚集于此。他们熟悉的技艺是制造能在海浪中劈波斩浪的船体，现在，他们要将这份对木材弯曲和连接的智慧，用来建造一艘驶往天国的“陆地之舟”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，你看到的那种独特的建筑形式——木板教堂——绝非偶然。它的核心结构，垂直插入地下石基的厚重木板（即“木板”staves），以及复杂的支撑框架，本质上就是倒置的船体结构。维京人最擅长的就是利用弯曲的木材和精巧的榫卯来制造坚固而富有弹性的船只，以对抗北海的惊涛。现在，他们把同样的技术用来对抗挪威严冬的大量积雪和凛冽寒风。那些层层递升的陡峭屋顶，不是为了美观，而是最实用的设计：让积雪能快速滑落，避免压垮屋顶。而屋顶上那些最具标志性的龙首，其来源就更加意味深长了。在维京时代，龙首是雕刻在长船船头的保护神和威慑符号，用以在航行中吓退海怪与敌人。当它们被安置在教堂屋顶时，含义变得模糊而多元。也许是为了守护这座神圣建筑，驱赶异教的“精灵”；也许只是工匠们将自己民族最骄傲的象征，自然而然地安置在了这栋最重要的新建筑上；又或者，在当时的民众眼中，这条“龙”守护的既是基督的殿堂，也是他们未曾完全割舍的古老世界。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`中世纪的天主教会在挪威扎根后，博尔贡教堂的内部也渐渐增添了符合当时潮流的装饰。内部梁柱上那些盘旋的藤蔓、怪兽和骑士战斗的雕刻，是典型的罗马式艺术风格，讲述着圣经故事和道德训诫。外墙上刻着的符文，有些是建造者的签名，有些是祈祷文，还有一些可能带有古老的巫术意味，寻求保护。这座教堂成了一个文化叠加的羊皮纸，新的图层覆盖上去，但旧的痕迹从未被完全擦除。它安然度过了黑死病的恐怖，见证了挪威与丹麦、瑞典的联合与分离，静静地待在山谷里，聆听一代又一代信徒的祈祷，也看着莱达尔山谷的居民生老病死，葬入它周围的墓地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的“沉睡”与重生发生在19世纪。随着更现代、更宽敞的砖石教堂在附近建成，博尔贡在1868年停止了作为活跃教区教堂的职能，差点面临被拆除的命运。幸运的是，当时挪威民族浪漫主义思潮兴起，知识分子和艺术家们开始在全国寻找能够代表独特挪威民族身份的历史遗迹。博尔贡教堂以其无与伦比的完整性和野性美，一下子成为了国宝。1877年，它被“古迹保护协会”收购并进行了首次科学修复。从此，它不再是一个用于每周礼拜的实用建筑，而升华为一个象征，一个关于挪威人是谁、从何而来的国家纪念碑。20世纪以来，它被精心维护，成为全世界游客窥探维京时代独特基督教文化的窗口。今天，当你触摸它的墙壁，你触摸的不仅是1180年的橡木，也是19世纪民族觉醒的浪潮，以及现代挪威人对自身根源小心翼翼的珍视。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`最佳游览时间是夏季的清晨（开放前抵达）或傍晚（闭馆后），这两个时段旅行团大军未至或已离开，你能独享教堂与山谷的宁静。整体建议预留至少2-3小时，不疾不徐地感受。安排如下：先在外围从各个角度欣赏建筑全景，让第一印象充分发酵；然后进入内部，在昏暗中静静体会空间的魔力；接着参观旁边的优秀游客中心博物馆，用现代展陈解开你心中的历史谜团；最后，绕到教堂后的古老墓地，在宁静中结束探访。这样的节奏由外而内，由感性到知性，再回归沉思，能让你对博尔贡的理解层层深入。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`教堂内部空间极其狭小且地面不平，务必穿着舒适防滑的鞋子，小心慢行。
+内部禁止使用三脚架，且由于光线很暗，想用手机或相机拍到清晰内部细节颇具挑战，不如放下设备，用心感受。
+夏季（7月）是绝对旺季，上午10点后大型旅游巴士络绎不绝，若想避开人潮，要么赶在开门第一波进入，要么选择下午4点后再来。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在停车场，先不要急着走近，站在栅栏外远远地望一会儿，看黑色的教堂尖顶如何刺破青山的背景，让画面印在脑海里。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着小径穿过古老的墓园，阅读那些被苔藓覆盖的、可以追溯到17世纪的墓碑，感受时间在此地的沉积。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到教堂正门前，仰头仔细端详大门上方的木雕门楣，辨认那些交织的动物和奇幻生物，那是进入另一个世界前的序章。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开厚重的木门，让眼睛在昏暗的光线中适应几分钟，然后沿着狭窄的通道慢慢走向圣坛，感受身边如森林古树般的承重柱。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`凑近观察内部木柱和横梁上精致的雕刻，特别是那些罗马式风格的骑士与龙搏斗的场景，想象中世纪工匠在此倾注的虔诚。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走出教堂，绕建筑一周，从侧面和背面观察它复杂如积木般的结构，以及不同屋顶层叠的节奏感，找找看是否所有的龙首都完好无损。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`务必进入旁边的游客中心（已包含在门票内），那里的互动展览和珍贵的原建筑构件会为你解答所有关于建造技术和历史的疑问。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间和体力允许，踏上教堂后方标识清晰的“老国王之路”徒步小径走上一小段，从更高的山坡回望教堂，你会获得一个明信片般的全景视角。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`停车场远端仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午侧光时分，站在停车场靠公路一侧，用长焦镜头压缩空间，将黑色的教堂、葱绿的山坡和蓝天白云一同纳入画面，突出其遗世独立之感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`侧后方捕捉建筑结构`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚的柔和光线下，走到教堂的东南侧，从这个角度可以完美拍下层层叠叠的屋顶和支撑廊道的复杂木结构，展现其作为“建筑杰作”的工程美感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`龙首特写`}</h4>
+                  <p className="text-sm text-gray-700">{`需要一支中长焦镜头，站在教堂前院的石墩上，仰拍屋顶脊线末端的龙首雕刻，以天空为背景，凸显其狰狞生动的细节和沧桑质感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`内部光影`}</h4>
+                  <p className="text-sm text-gray-700">{`如果内部允许拍摄且人流稀少，尝试站在中殿后方，对着圣坛方向，利用门缝或小窗射入的光束作为引导线，拍摄柱廊深邃的空间感，注意将ISO调高并保持稳定。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`无人机飞行在文化遗产地上空通常受到严格限制甚至禁止，起飞前务必查询当地最新法规并尊重规定。`}</li>
+                <li>• {`拍摄墓地时请保持庄重，避免以不敬的姿势或角度拍摄单个墓碑，最好以教堂为背景拍摄墓园的整体氛围。`}</li>
+                <li>• {`挪威夏季光线强烈且角度高，正午时分拍摄建筑阴影生硬，黄金拍摄时间是早上10点前和晚上6点后。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`莱达尔镇中心的老式家庭旅馆，房间整洁温暖，主人会告诉你只有当地人才知道的观赏教堂的隐秘小路，早餐能吃到自家制的熏鲑鱼。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`入住教堂车程15分钟外、位于高山农场上的传统木屋，晚上在完全没有光污染的环境下，如果运气好，可以伴着山谷的微风和教堂的剪影仰望绚烂的北极光。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车前往松恩峡湾畔的精品设计酒店，房间拥有全景落地窗，直面壮丽的峡湾山水，在体验了千年的历史沧桑后，回到极简舒适的现代空间里回味与放松。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`历史沉浸`}</h4>
+                  <p className="text-sm text-purple-800">{`选择奥勒松或卑尔根市中心的历史酒店，这些酒店本身往往就是19世纪“新艺术”风格建筑，用另一种北欧美学为你这次木板教堂之旅画上圆满的句号。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`莱达尔山谷及周边的住宿数量有限，尤其是在夏季徒步和自驾旺季，务必提前数月预订，临时找房几乎不可能。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果选择住在更远的城镇（如弗洛姆、奥勒松），虽然选择更多，但需要计算好次日往返教堂的车程时间，避免行程过于仓促。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`挪威的酒店价格普遍较高，但通常包含丰盛的自助早餐，足以支撑你大半天的能量消耗。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开博尔贡很久以后，我的脑海里依然会清晰地浮现出那两个意象：狰狞向天的维京龙首，和朴素无华的木质十字架。它们如此矛盾，却又如此和谐地共存于同一片屋檐下。这或许就是博尔贡教给我的最重要的一课：文化从来不是非此即彼的替代，而更像是一条河流，新的支流汇入，与旧的水道交融，共同奔涌向前，形成更宽阔、更深沉的水域。这座教堂不是“胜利”的纪念碑，而是“对话”与“演化”的见证者。它让我们看到，信仰的转变可以不是断裂与毁灭，而可以是一种充满创造力的翻译与重塑。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求崭新、光滑、高效的时代，博尔贡的存在是一种温柔的抵抗。它粗糙、黝黑、不对称，需要你慢下来，用触觉、嗅觉和全部的想象力去阅读。它不提供即时满足的震撼，它的美是含蓄的、需要解锁的。当你理解了每一块木头的承重原理，每一个龙首的可能含义，你和这座建筑之间就建立起了一种超越观光客的亲密连接。对于每一位热爱深度游的旅人而言，来到博尔贡，不仅仅是为了一张照片，更是为了完成一次与时间深处工匠的对话，一次对民族灵魂形成期的窥探。它提醒我们，最动人的风景，往往存在于文明的缝隙与交汇之处，那里闪烁着人类在面对巨大变革时，那份既留恋过去又拥抱未来的、复杂而真诚的光芒。这趟旅程，是一次关于坚韧、融合与生存的深刻冥想，值得你穿越山海而来。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/alta-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔塔古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alta Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alesund-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥勒松老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ålesund Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/urnes-stave-church" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乌
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乌尔内斯木板教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Urnes Stave Church</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
