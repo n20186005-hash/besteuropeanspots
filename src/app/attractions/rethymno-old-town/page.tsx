@@ -1,0 +1,240 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '罗希姆诺老城 Rethymno Old Town｜威尼斯与奥斯曼的混血明珠，克里特岛上最浪漫的迷宫 - 最佳欧洲景点',
+  description: '记得我拐进老城的第一条巷子时，正是一天中最慵懒的午后。阳光不是直射下来的，而是被两边高耸的、刷成蜜糖色或鲑鱼粉的威尼斯式楼房切成了狭长的一条，暖暖地铺在脚下光滑的鹅卵石上。空气里有种复杂的香味——海风带来的淡淡咸味，从某户人家幽深庭院里飘出的茉莉花香，还有隔壁小餐馆厨房正在炖煮羊肉的浓郁香气，混合着...',
+}
+
+export default function RethymnoOldTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '罗希姆诺老城', href: '/attractions/rethymno-old-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`罗希姆诺老城・Rethymno Old Town・希腊・罗希姆诺`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`记得我拐进老城的第一条巷子时，正是一天中最慵懒的午后。阳光不是直射下来的，而是被两边高耸的、刷成蜜糖色或鲑鱼粉的威尼斯式楼房切成了狭长的一条，暖暖地铺在脚下光滑的鹅卵石上。空气里有种复杂的香味——海风带来的淡淡咸味，从某户人家幽深庭院里飘出的茉莉花香，还有隔壁小餐馆厨房正在炖煮羊肉的浓郁香气，混合着咖啡磨豆机“嗡嗡”的声响。我的行李箱轮子在古老的石路上发出咕噜咕噜的抗议声，但很快就被街角传来轻柔的布祖基琴声淹没了。这里不像一个纯粹的旅游景点，更像一个依然旺盛跳动的心脏。阳台上晾晒着色彩鲜艳的床单，老先生们坐在爬满九重葛的拱廊下玩着西洋双陆棋，他们的交谈声和棋子落盘的清脆响声，构成了最生动的背景音。
+最让人着迷的，是那种无处不在的“混血”美感。你可能刚赞叹完一栋有着精美石门楣和石刻族徽的威尼斯贵族宅邸，一转身，就看到它隔壁的建筑，二楼赫然探出一个典型的奥斯曼式“沙赫尼西”——那种用精美木格栅围起的凸窗，曾经是闺房女子窥探外面世界的眼睛。这种并置毫不突兀，反而像两种不同颜色的黏土，经过几个世纪人烟的揉捏，早已你中有我，我中有你。狭窄的巷子如同毛细血管，毫无规律地蔓延，每一次转弯都可能遇见惊喜：一座被改造成教堂的奥斯曼浴室，一个隐藏着精品店的十五世纪拱顶地窖，或者一条突然将你引向蔚蓝地中海的阶梯。
+这里的核心魅力，就在于这种“活着的历史”。它不是被圈起来供人瞻仰的遗迹，而是人们日常生活的舞台。傍晚时分，当游客散去一部分，本地家庭开始倾巢而出，沿着海滨长廊散步，孩子们在巨型堡垒（Fortezza）的城墙下踢球。你能感觉到，这些宏伟的石墙、优雅的拱门和宁静的庭院，不仅仅是过去的遗产，更是今天罗希姆诺人身份认同的一部分——一种融合了威尼斯人的浪漫、奥斯曼人的闲适和克里特人永不屈服之傲骨的独特气质。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`记得我拐进老城的第一条巷子时，正是一天中最慵懒的午后。阳光不是直射下来的，而是被两边高耸的、刷成蜜糖色或鲑鱼粉的威尼斯式楼房切成了狭长的一条，暖暖地铺在脚下光滑的鹅卵石上。空气里有种复杂的香味——海风带来的淡淡咸味，从某户人家幽深庭院里飘出的茉莉花香，还有隔壁小餐馆厨房正在炖煮羊肉的浓郁香气，混合着咖啡磨豆机“嗡嗡”的声响。我的行李箱轮子在古老的石路上发出咕噜咕噜的抗议声，但很快就被街角传来轻柔的布祖基琴声淹没了。这里不像一个纯粹的旅游景点，更像一个依然旺盛跳动的心脏。阳台上晾晒着色彩鲜艳的床单，老先生们坐在爬满九重葛的拱廊下玩着西洋双陆棋，他们的交谈声和棋子落盘的清脆响声，构成了最生动的背景音。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最让人着迷的，是那种无处不在的“混血”美感。你可能刚赞叹完一栋有着精美石门楣和石刻族徽的威尼斯贵族宅邸，一转身，就看到它隔壁的建筑，二楼赫然探出一个典型的奥斯曼式“沙赫尼西”——那种用精美木格栅围起的凸窗，曾经是闺房女子窥探外面世界的眼睛。这种并置毫不突兀，反而像两种不同颜色的黏土，经过几个世纪人烟的揉捏，早已你中有我，我中有你。狭窄的巷子如同毛细血管，毫无规律地蔓延，每一次转弯都可能遇见惊喜：一座被改造成教堂的奥斯曼浴室，一个隐藏着精品店的十五世纪拱顶地窖，或者一条突然将你引向蔚蓝地中海的阶梯。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里的核心魅力，就在于这种“活着的历史”。它不是被圈起来供人瞻仰的遗迹，而是人们日常生活的舞台。傍晚时分，当游客散去一部分，本地家庭开始倾巢而出，沿着海滨长廊散步，孩子们在巨型堡垒（Fortezza）的城墙下踢球。你能感觉到，这些宏伟的石墙、优雅的拱门和宁静的庭院，不仅仅是过去的遗产，更是今天罗希姆诺人身份认同的一部分——一种融合了威尼斯人的浪漫、奥斯曼人的闲适和克里特人永不屈服之傲骨的独特气质。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`罗希姆诺老城`} />
+                <InfoRow label="英文名称" value={`Rethymno Old Town`} />
+                <InfoRow label="正式名称" value={`Rethymno Old Town`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`罗希姆诺`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`克里特岛上保存最完好的文艺复兴时期城市之一，是威尼斯共和国在地中海东部的坚固前哨与奥斯曼帝国文化深刻浸润的活态见证。`} />
+                <InfoRow label="建筑特色" value={`威尼斯式拱廊、优雅的带窗高楼与奥斯曼式的木头凸窗、圆顶清真寺及带有幽静庭院的老宅不可思议地交织在一起。`} />
+                <InfoRow label="建筑风格" value={`文艺复兴风格与奥斯曼伊斯兰风格的独特混搭，并以传统的克里特岛建筑元素为基底。`} />
+                <InfoRow label="文化价值" value={`一座无需博物馆围墙的露天历史教科书，生动展示了地中海文明在冲突与融合中形成的独特地方认同。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城街区全天24小时开放，但商店、咖啡馆和餐馆的营业时间通常为上午9点至午夜，夏季（6月至9月）很多店铺会营业至更晚。内部的博物馆和历史建筑（如城堡、清真寺）有独立开放时间，一般为周二至周日 8:30-15:00，周一多数闭馆。强烈建议在夏季旺季出行前，查询具体景点的最新时间。`} />
+              <InfoRow label="门票价格" value={`漫步老城街区本身免费。进入核心景点需单独购票：巨型堡垒（Fortezza）门票约为4欧元；内里迪安清真寺（Nerantze Mosque）作为音乐厅，仅在活动期间开放，参观外部免费；考古博物馆门票约3欧元。欧盟学生及65岁以上老人通常享有半价优惠，18岁以下游客免费。`} />
+              <InfoRow label="地址" value={`Rethymno Old Town, 741 00, Rethymno, Crete, Greece`} />
+              <InfoRow label="交通方式" value={`最近的机场是干尼亚国际机场（CHQ），距离罗希姆诺约1小时车程。从机场出发最便捷的方式是乘坐出租车（费用约60-80欧元）或提前预订接送服务。公共交通方面，可先乘坐机场巴士到干尼亚市中心巴士站（KTEL），再转乘频繁发往罗希姆诺的城际巴士，全程约1.5-2小时，票价约15欧元。若从伊拉克利翁机场（HER）出发，搭乘直达巴士约2.5小时。抵达罗希姆诺新城巴士总站后，老城就在步行10-15分钟的范围内，无需额外交通。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要理解罗希姆诺老城的每一块石头，就得回到威尼斯共和国称霸地中海的年代。1204年，第四次十字军东征攻陷君士坦丁堡后，克里特岛被划给了威尼斯。精明的威尼斯人很快看中了罗希姆诺这个天然良港的战略价值。从13世纪开始，他们着手将这里打造成一个坚固的贸易据点与行政中心。于是，你今天看到的城市格局被奠定了：整齐的网格状街道（尽管后来变得错综复杂）、宏伟的总督府、巨大的仓库以及守护港口的灯塔。威尼斯人不仅是战士和商人，也是艺术的赞助者。他们从母邦带来了文艺复兴的风潮，那些华丽的石门框、雕刻着狮子和神话人物的纹章、以及气派的带凉廊的豪宅，都是那个“海外威尼斯”黄金时代的宣言。当时，罗希姆诺甚至赢得了“小威尼斯”的绰号。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，地中海的平静总是短暂的。随着奥斯曼帝国的崛起，威尼斯在东地中海的统治摇摇欲坠。1645年，奥斯曼大军开始进攻克里特岛，罗希姆诺在经历了短暂而激烈的抵抗后，于1646年陷落。这是城市命运的转折点。征服者带来了新的信仰和生活方式。许多威尼斯教堂被改造了，最典型的是圣弗朗西斯教堂，它被加上了圆顶和唤拜塔，变成了今天的“内里迪安清真寺”。威尼斯贵族的大宅被奥斯曼官僚和地主接收，他们按照自己的生活习惯进行改造：增加了私密的内部庭院（havlı），安装了木制凸窗，并建起了许多公共浴室（hamam）。有趣的是，奥斯曼统治者相对宽容，并未强行驱逐所有希腊正教徒和天主教徒。于是，一种复杂的共存开始了。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这种共存并非总是和谐，但却在数百年间孕育出了独特的文化融合。希腊裔的克里特人保留了他们的语言和基督教信仰，但也吸收了奥斯曼的饮食、音乐甚至某些建筑元素。1669年，整个克里特岛落入奥斯曼之手，但罗希姆诺的“混合”特质却愈发深刻。19世纪，克里特岛成为希腊独立战争的前沿，反抗奥斯曼统治的起义此起彼伏。罗希姆诺老城的城墙和堡垒见证了无数次冲突。1898年，在列强干预下，克里特岛获得自治，并于1913年正式并入希腊王国。20世纪，随着人口交换，老城内的穆斯林人口大多离开，许多清真寺停止了宗教功能，被改为学校、仓库或博物馆。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但历史并未在此抹去痕迹。今天的漫步者依然能清晰地阅读这些层次：威尼斯防御工事的厚重基石上，叠加着奥斯曼时期的砖石；文艺复兴的拱门内，是卖着传统克里特草药的小店。二战时期，老城又遭受了轰炸，部分区域被毁，但核心区奇迹般地留存下来。自20世纪70年代以来，希腊政府启动了系统的修复和保护工程，不是将其“博物馆化”，而是鼓励人们重新入住这些老建筑，开设家庭旅馆、工作室和餐馆，让老城在保护中重获生机。因此，罗希姆诺的故事，是一部浓缩的地中海史诗，关于征服与抵抗，关于毁灭与重生，最终，关于不同文明如何在漫长的时光里学会在同一片天空下，书写共同的家园记忆。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味罗希姆诺老城的精髓，建议预留整整一天的时间。最佳抵达时间是清晨九点前，这时旅游团还未涌入，阳光柔和，本地商铺刚刚卸下门板，你可以独占那些宁静的小巷。从地标性的威尼斯港口灯塔开始，由海向陆、由外向内逐步深入，最后在巨型堡垒（Fortezza）上以一场壮丽的日落收尾，是最完美的动线。整体耗时约8-10小时，节奏宜慢不宜快，核心在于“迷失”——允许自己偏离主路，跟着好奇心和光线走。中午在最热闹的餐饮街区解决午餐，下午则探索更僻静的北部小巷和博物馆，傍晚时分登上堡垒，将金光中的老城尽收眼底。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`穿一双绝对舒适、适合长时间行走的平底鞋，老城的鹅卵石路面虽然美丽但对高跟鞋和行李箱轮极不友好。
+不要完全依赖手机地图，享受迷路的乐趣是体验的一部分，你总能在下个转角遇到惊喜或找到指路的热心当地人。
+夏季午后阳光极其强烈，尽量安排室内活动（如博物馆）或寻找有荫凉的庭院咖啡馆，务必携带充足饮用水。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从古老的威尼斯港口灯塔出发，沿着防波堤行走，感受海风并回望老城依偎在堡垒山丘下的全景画面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进灯塔后方迷宫般的“威尼斯港”区，在那些拥有彩色木船和渔网的小码头边，看渔民整理收获。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着Argyroupoleos街向内陆探索，留意两侧建筑上威尼斯贵族纹章与奥斯曼阿拉伯铭文的奇妙共存。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到并走进内里迪安清真寺（现为音乐厅）的庭院，坐在树荫下想象这里从教堂到清真寺再到音乐厅的百年变奏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`毫不犹豫地拐进任何一条吸引你的狭窄小巷，比如Kondylaki街，让感官被盛放的三角梅、咖啡香和手工艺品店的橱窗俘获。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在午间人群聚集前，抵达位于老城中心的Rimondi广场，在著名的Rimondi威尼斯喷泉边听水声，并选择一家有树荫的餐厅享用午餐。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后沿着Vernardou街散步，参观古老的“卡拉穆斯林”教堂和考古博物馆，深入了解这片土地从史前到罗马的层层积淀。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`赶在日落前一个半小时，开始慢慢向山顶的巨型堡垒（Fortezza）攀登，沿着城墙漫步，等待夕阳将整个老城和远处的大海染成金黄与绯红。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`威尼斯灯塔与堡垒同框`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或日落时分，站在港口防波堤的南端，用长焦镜头将前景的灯塔、中景的彩色老房子与背景山丘上的堡垒压缩在同一画面中，构图极具层次感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`内里迪安清真寺圆顶与唤拜塔`}</h4>
+                  <p className="text-sm text-gray-700">{`下午侧光时分，站在清真寺对面的小广场上，仰拍圆顶和纤细的唤拜塔衬在蔚蓝天空下的剪影，捕捉砖石结构的细腻质感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`Rimondi喷泉的人间烟火`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点前，利用柔和的顶光拍摄喷泉精美的威尼斯式雕刻，同时将周边坐在咖啡馆里看报的当地人纳入画面，营造生活气息。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`迷宫小巷的纵深感`}</h4>
+                  <p className="text-sm text-gray-700">{`正午当阳光直射入窄巷时，选择一条两侧墙壁爬满绿植的巷子（如Xanthoudidou街），站在巷口拍摄光影明暗交替、无限延伸的视觉隧道。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`Fortezza堡垒城墙俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，登上堡垒面向大海的西侧城墙，将你的相机对准山下如积木般错落的老城红色屋顶和远处波光粼粼的爱琴海，等待金色时刻的降临。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地居民，尤其是老人和店主，务必先微笑并征得同意，一个友好的“kalimera”（早安）或“Eínai entáxei？”（可以吗？）能打开善意之门。`}</li>
+                <li>• {`无人机飞行在历史遗迹和居民区上空有严格限制，未经许可是违法的，切勿擅自放飞。`}</li>
+                <li>• {`利用雨后湿润的鹅卵石路面反射的倒影和光线，能拍出极具氛围感的巷景。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济之选`}</h4>
+                  <p className="text-sm text-blue-800">{`藏身于老城中心静谧小巷里的家庭式“卡马雷西亚”（老宅旅馆），房间拥有古老的石墙和木梁，早餐是女主人自制的希腊酸奶和果酱，天台能瞥见堡垒的一角。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`由一栋16世纪威尼斯商人宅邸修复而成的精品酒店，完美保留了拱形天花板、原始的意大利水井和奥斯曼时期的木雕装饰，庭院里种满橘子树，仿佛住进历史里。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`文艺风尚`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于老城边缘艺术画廊聚集区的设计酒店，由传统建筑改造，内部是极简的克里特风格，每间房都面向一个种满仙人掌和香草植物的秘密花园，安静而富有创意。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`奢华享受`}</h4>
+                  <p className="text-sm text-purple-800">{`坐落在新城与老城交界处海滨的五星级酒店，拥有无敌海景露台和无边泳池，步行至老城仅五分钟，既能享受现代舒适，又能随时潜入中世纪的迷宫。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿多有数百年历史，隔音可能不佳，且车辆无法直达门口，需手提行李走一小段路，但这正是沉浸式体验的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（7-8月）务必提前至少两三个月预订，尤其是周末，老城内的特色住宿非常抢手。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`选择海景房固然美妙，但老城内部的庭院房往往更有韵味，夜晚在私密庭院中乘凉听虫鸣，是难以复制的体验。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开罗希姆诺好些天了，但闭上眼睛，手指似乎还能触摸到那些被阳光晒得温热的蜜色墙砖，鼻尖仿佛还萦绕着混合着海盐、咖啡和九重葛的复杂气息。这座城市教给我的，远不止于建筑风格的历史课。它告诉我，文明从来不是非此即彼的单选题，历史也并非总是覆盖与抹去。在罗希姆诺，威尼斯、奥斯曼和希腊的脉络是如此清晰可辨，却又如此水乳交融地编织在一起，形成了一种只属于此地的、坚韧而温柔的气质。这种气质写在当地人不疾不徐的步伐里，写在他们既能烹制精致威尼斯面食又能豪饮烈性拉基酒的生活里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个习惯于贴标签、划清界限的世界里，罗希姆诺像是一个温暖而固执的启示。它坦然展示着自己的所有层次与伤疤，却不因此分裂。它美丽，但不脆弱；古老，却充满活力。对于每一位渴望深度游的旅人来说，这里不仅仅是一个风景如画的目的地，更是一座关于包容、韧性与持续演化的心灵课堂。当你在夕阳下的堡垒城墙上，看着金光逐渐吞没那些红色的屋顶、圆顶和钟楼，你会感到一种奇异的平静。你会发现，最动人的风景，原来是时间本身——它如何冲刷，如何雕刻，最终又如何让不同的声音，在爱琴海的微风里，合唱成了一首悠长的歌。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kastoria-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯托里亚老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kastoria Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ioannina-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    约
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">约阿尼纳老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ioannina Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/karpenisi-greece" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔派尼西</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Karpenisi</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

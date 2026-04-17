@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '大特尔诺沃 Veliko Tarnovo｜悬崖上的沙皇之城与永不熄灭的帝国之光 - 最佳欧洲景点',
+  description: '车从盘山公路转进来的一刹那，整个大特尔诺沃就像一幅巨大的立体画卷“哗”地在你眼前展开。第一眼的感觉不是美，是震慑。无数红瓦屋顶的房子，紧紧贴着悬崖的边缘，一层叠着一层，仿佛是从岩石里生长出来的，倔强地朝着扬特拉河对岸延伸。阳光打在那些老屋的外墙上，是蜂蜜色、赭石色和淡淡的玫瑰粉，而蜿蜒其间的扬特拉河...',
+}
+
+export default function VelikoTarnovoPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '大特尔诺沃（沙皇之城）', href: '/attractions/veliko-tarnovo' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`大特尔诺沃（沙皇之城）・Veliko Tarnovo・保加利亚・大特尔诺沃`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车从盘山公路转进来的一刹那，整个大特尔诺沃就像一幅巨大的立体画卷“哗”地在你眼前展开。第一眼的感觉不是美，是震慑。无数红瓦屋顶的房子，紧紧贴着悬崖的边缘，一层叠着一层，仿佛是从岩石里生长出来的，倔强地朝着扬特拉河对岸延伸。阳光打在那些老屋的外墙上，是蜂蜜色、赭石色和淡淡的玫瑰粉，而蜿蜒其间的扬特拉河像一条闪亮的银带子，把三座山丘温柔地分开。空气里有股特别的味道，是山间松柏的清冽，混着老木头晒过太阳后的暖香，还有从街角面包店飘出的、带着黄油和芝麻香气的暖烘烘的味道。
+如果你在清晨走上那些鹅卵石小路，你会听到这座城市苏醒的声音。不是汽车的噪音，而是山泉在石缝间滴答的声音，老太太推开木制百叶窗的“吱呀”声，还有远处查雷维茨山顶传来的、若有若无的教堂钟声。当地人提着篮子去市集，在陡峭的阶梯上相遇，用那种带着喉音的保加利亚语快速交谈，然后大笑。你会忽然明白，这座城市不是博物馆，它是一座活着的、呼吸着的山城。它的魅力，在于那种极致的反差——一面是令人屏息的险峻地势和承载着帝国荣耀的厚重石头，另一面却是穿插其中的、充满烟火气的日常生活，两者交织在一起，毫不违和。
+最打动人心的一刻，是在黄昏。当夕阳把最后的光辉涂抹在查雷维茨要塞的残垣断壁上，整座山城开始被一种金色的、近乎神圣的光芒笼罩。你站在古老的国王桥上，看着灯光一点点在千家万户的窗户里亮起来，像撒在黑色天鹅绒上的碎钻石。那一刻，你感受到的不是一个逝去的帝国，而是一种顽强的、从未真正熄灭的生命力。这座城市，就像保加利亚的历史本身，曾经被征服，被焚烧，却总能在灰烬中重新找到自己的根，在悬崖上再次建立家园。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车从盘山公路转进来的一刹那，整个大特尔诺沃就像一幅巨大的立体画卷“哗”地在你眼前展开。第一眼的感觉不是美，是震慑。无数红瓦屋顶的房子，紧紧贴着悬崖的边缘，一层叠着一层，仿佛是从岩石里生长出来的，倔强地朝着扬特拉河对岸延伸。阳光打在那些老屋的外墙上，是蜂蜜色、赭石色和淡淡的玫瑰粉，而蜿蜒其间的扬特拉河像一条闪亮的银带子，把三座山丘温柔地分开。空气里有股特别的味道，是山间松柏的清冽，混着老木头晒过太阳后的暖香，还有从街角面包店飘出的、带着黄油和芝麻香气的暖烘烘的味道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果你在清晨走上那些鹅卵石小路，你会听到这座城市苏醒的声音。不是汽车的噪音，而是山泉在石缝间滴答的声音，老太太推开木制百叶窗的“吱呀”声，还有远处查雷维茨山顶传来的、若有若无的教堂钟声。当地人提着篮子去市集，在陡峭的阶梯上相遇，用那种带着喉音的保加利亚语快速交谈，然后大笑。你会忽然明白，这座城市不是博物馆，它是一座活着的、呼吸着的山城。它的魅力，在于那种极致的反差——一面是令人屏息的险峻地势和承载着帝国荣耀的厚重石头，另一面却是穿插其中的、充满烟火气的日常生活，两者交织在一起，毫不违和。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的一刻，是在黄昏。当夕阳把最后的光辉涂抹在查雷维茨要塞的残垣断壁上，整座山城开始被一种金色的、近乎神圣的光芒笼罩。你站在古老的国王桥上，看着灯光一点点在千家万户的窗户里亮起来，像撒在黑色天鹅绒上的碎钻石。那一刻，你感受到的不是一个逝去的帝国，而是一种顽强的、从未真正熄灭的生命力。这座城市，就像保加利亚的历史本身，曾经被征服，被焚烧，却总能在灰烬中重新找到自己的根，在悬崖上再次建立家园。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`大特尔诺沃（沙皇之城）`} />
+                <InfoRow label="英文名称" value={`Veliko Tarnovo`} />
+                <InfoRow label="正式名称" value={`Veliko Tarnovo`} />
+                <InfoRow label="国家" value={`保加利亚`} />
+                <InfoRow label="城市" value={`大特尔诺沃`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`中世纪保加利亚第二帝国的首都，被誉为“沙皇之城”，是保加利亚民族精神与文化复兴的象征性心脏。`} />
+                <InfoRow label="建筑特色" value={`房屋、教堂和宫殿如鹰巢般层层叠叠，盘踞在扬特拉河蜿蜒切割出的三座陡峭山丘之上，形成了极其壮观且易守难攻的立体山城景观。`} />
+                <InfoRow label="建筑风格" value={`主要体现了中世纪保加利亚建筑与后期拜占庭风格的融合，并在19世纪民族复兴时期增添了色彩明快、结构精巧的木结构外廊建筑。`} />
+                <InfoRow label="文化价值" value={`这里不仅是保加利亚帝国的政治中心，更是东正教信仰和斯拉夫文字得以保存和发展的堡垒，至今仍是保加利亚民族自豪感的核心源泉。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城区域全天开放。核心景点查雷维茨要塞（Tsarevets Fortress）的开放时间因季节而异：夏季（4月至10月）通常为上午8:00至晚上19:00，夜间有时会延长至22:00以配合声光秀；冬季（11月至3月）缩短为上午9:00至下午17:00。具体日期建议出行前查阅官网，因为保加利亚的东正教节日和公共假期可能导致时间调整。`} />
+              <InfoRow label="门票价格" value={`进入古城本身免费。查雷维茨要塞门票：成人票约20保加利亚列弗（约10欧元），学生及儿童享有优惠票，价格约5列弗。部分博物馆（如萨拉福夫故居）需单独购票，价格在5-10列弗之间。推荐购买“大特尔诺沃综合卡”，可在主要游客中心购买，涵盖3-4个主要景点，比较划算。`} />
+              <InfoRow label="地址" value={`Tsarevets Hill, 5000 Veliko Tarnovo, Bulgaria`} />
+              <InfoRow label="交通方式" value={`从保加利亚首都索非亚出发最为方便。在索非亚中央汽车站乘坐长途巴士，班次频繁（几乎每小时一班），车程约3小时，沿途风景优美。也可以选择火车，从索非亚中央火车站出发，车程约4-5小时，速度较慢但更具怀旧风情。抵达大特尔诺沃汽车站后，老城和要塞都在步行可达范围内（约15-20分钟上坡路），市内也有小巴和出租车。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`说起大特尔诺沃的故事，得从1185年那对充满魄力的兄弟开始。阿森和彼得，两位当地的贵族领主，在拜占庭帝国统治的重压下，毅然在圣德米特里节这天宣布起义。他们选择大特尔诺沃这座天然要塞作为大本营，不是没有道理的——三面环水的悬崖是上帝赐予的城墙。经过惨烈的战争，他们成功了，建立了保加利亚第二帝国，大特尔诺沃就此加冕为皇冠上的明珠，开启了它近两百年的黄金时代。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`帝国的巅峰在沙皇伊万·阿森二世手中到来。十三世纪初，他不仅将帝国的疆域扩展到黑海、爱琴海和亚得里亚海，让保加利亚成为东南欧最强大的国家，更在大特尔诺沃留下了不朽的印记。他在查雷维茨山顶修建了宏伟的皇宫和总主教教堂，让这座山城成了政治与宗教的双重权力中心。你能想象吗，当时的山路上，挤满了来自各国的大使、商人和朝圣者，斯拉夫文化在这里璀璨绽放，修道院成了文学和艺术的温床。那段岁月，空气里飘着的都是野心、香料和羊皮纸的味道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，命运的转折点往往来得猛烈。1393年，奥斯曼帝国的大军如乌云般压境，对查雷维茨要塞进行了长达三个月的围困。这是一场力量悬殊的绝望之战。最终，城墙被攻破，奥斯曼士兵涌入，他们焚烧了华丽的宫殿，摧毁了总主教教堂，将帝国的荣耀付之一炬。据说，最后一位总主教在自己心爱的教堂被焚毁前，选择与它一同殉难。火焰吞噬了木头和织物，却无法烧熔那些巨大的石墙和地基——它们在灰烬中沉默，一沉默就是近五百年。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在奥斯曼统治的漫长黑夜中，大特尔诺沃的火焰并未完全熄灭。它变成了一座重要的行政和商业城镇，保加利亚的民族精神转入地下，在那些建在悬崖边的“秘密学校”和家庭教堂里得以延续。直到19世纪，民族复兴的春风吹来，大特尔诺沃再次站在了舞台中央。聪明的商人和工匠从欧洲归来，带来了新的思想，也把财富变成了艺术。他们在老城区建造了那些有着悬挑木廊、彩绘外墙和华丽天花板的“复兴风格”宅邸，萨拉福夫之家、科纳卡之家就是典范。这些房子鲜艳、精致，充满了对美好生活的热情向往，与山顶上苍凉的帝国废墟形成了动人的对话。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天的查雷维茨山顶，那座在1981年重建的总主教教堂，就是一个关于重生最有力的象征。它的外观是朴素的，但内部墙壁上覆盖着令人震撼的现代主义风格壁画——圣经场景与保加利亚中世纪历史交织在一起，色彩大胆、线条扭曲，充满了表现主义的张力。这仿佛在诉说：历史从未死去，它只是换了一种语言，继续在这片山崖上呐喊、歌唱。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`想要真正感受大特尔诺沃的灵魂，你需要完整的一天，并准备好你的双腿。建议清晨九点左右抵达，先避开午后的暑热和人流。整体游览节奏应是“先高后低，由远及近”——上午先去制高点查雷维茨要塞，在晨光中俯瞰全城，感受帝国的宏大叙事；下午漫步老城蜿蜒的街巷，钻进博物馆和咖啡馆，品味复兴时期的精致生活；傍晚则在河岸寻找最佳观景位，等待灯光点亮童话的瞬间。这样安排能让你清晰地感知这座城市从帝国威严到市井温情的层次变化。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿一双绝对舒适、防滑的鞋子，这里的路几乎全是高低起伏的鹅卵石路和石阶。
+夏季游览要塞尽量避开正午最晒的时候，山顶几乎没有遮阴处，记得带足水和防晒用品。
+查雷维茨要塞面积很大，内部指引牌不算特别密集，建议在入口处拿一张免费地图，或者用手机拍下导览图。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从主城门进入查雷维茨要塞，沿着古老的石板路向上攀登，让两侧残破却依然高耸的石墙带你瞬间穿越回中世纪。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在山顶重建的总主教教堂前停下脚步，推门进入那个色彩与线条激烈碰撞的壁画世界，感受现代艺术对古老信仰的震撼诠释。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从要塞西门下来，顺着“沙皇之路”的标识，漫步到对岸的贸易工匠山，在那些琳琅满目的手工艺品摊位前，寻找一件手工打造的铜器或陶器。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进老城区错综复杂的“萨莫沃德斯卡”街，任由自己迷失在色彩斑斓的复兴风格豪宅和爬满紫藤的庭院之间。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在街角找一家有露天阳台的餐馆，点一份保加利亚传统的陶罐烤肉，就着清凉的酸奶黄瓜汤，看着脚下的屋顶和远方的山峦。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午去参观精致的萨拉福夫故居博物馆，看看19世纪富裕的保加利亚商人如何将欧洲的优雅与本土的热情融合在家居艺术中。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`赶在日落前半小时，来到国王桥或它旁边的观景平台，看着夕阳的余晖像熔金一样，慢慢淌过查雷维茨山的每一道褶皱。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果恰逢周末或夏季夜晚，一定要留下来，等待查雷维茨要塞上演的那场利用灯光、激光、音乐和钟声讲述历史的宏伟“声光秀”。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`查雷维茨要塞对岸的观景台`}</h4>
+                  <p className="text-sm text-gray-700">{`最佳时间是傍晚蓝调时刻，将蜿蜒的扬特拉河作为前景，用长焦镜头压缩空间，拍出城堡与城市灯火倒映在水中的梦幻全景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`萨莫沃德斯卡街的某个拱门或转角`}</h4>
+                  <p className="text-sm text-gray-700">{`利用木结构廊柱或鲜艳的花丛作为画框，等待一个穿着传统服饰的当地人或是提着手袋的老奶奶走过，捕捉最生动的老街瞬间。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从阿森王朝纪念碑下方的阶梯仰拍查雷维茨要塞`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨侧光下，能拍出要塞城墙如巨龙脊背般盘踞山巅的雄浑气势，阶梯的线条还能增加画面的纵深感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`国王桥的桥头`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏时分，以古老的石桥栏杆为引导线，焦点对准远处亮起灯光的复兴风格建筑群，营造出穿越时空的浪漫氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`“声光秀”期间的任意开阔地带`}</h4>
+                  <p className="text-sm text-gray-700">{`使用三脚架，用小光圈和慢速快门（如5-10秒），捕捉激光光束在夜空中划过的轨迹与被灯光染成红、蓝、金色的城堡轮廓。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地人，尤其是长者或集市上的手艺人，请务必先微笑并用手势征得同意，保加利亚人通常很友善，但礼貌是必须的。`}</li>
+                <li>• {`使用无人机拍摄前，务必查清当地法规，查雷维茨要塞上空可能有飞行限制。`}</li>
+                <li>• {`“声光秀”期间避免使用闪光灯，它不仅无用，还会破坏现场气氛和其他观众的体验。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`峡谷景观民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`住在扬特拉河崖壁上的传统老屋里，房间带有一个小小的木制阳台，清晨在鸟鸣声中醒来，伸手仿佛就能触到对面查雷维茨山的薄雾。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`复兴风格精品酒店`}</h4>
+                  <p className="text-sm text-green-800">{`由19世纪富商宅邸改造而成，房间保留了原始的木雕天花板和彩绘玻璃窗，酒店的庭院花园是隐藏于闹市中的静谧绿洲，早餐是地道的自制果酱和奶酪。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代设计公寓（自助式）`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于老城中心，拥有整面的落地窗和开放式厨房，特别适合家庭或小团体，晚上可以买本地食材回来烹饪，像当地人一样生活。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`山顶静谧旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`位于贸易工匠山相对安静的片区，步行至主要景点稍远但视野无敌，屋顶露台是私享日落和夜景的绝佳地点，老板通常会分享许多书本上没有的本地故事。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（6-8月）和节假日是绝对旺季，务必提前至少1-2个月预订心仪的住处，尤其是那些景观独特的民宿。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果行李沉重，预订时请确认住宿地点是否便于车辆抵达，许多老城核心区的住所需要徒步爬一段阶梯才能到达。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`选择住在老城，意味着夜晚的宁静和绝对的沉浸感，但相应的，夜生活选择会相对较少，更适合喜欢安静和早睡的旅行者。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开大特尔诺沃好些天了，闭上眼睛，脑海里浮现的不是某个具体的画面，而是一种混合的感官记忆：是脚底踩在光滑鹅卵石上的触感，是山风穿过古城峡谷带来的凉意，是黄昏时分弥漫在空气中的、那种历史尘埃落定后的宁静与温柔。这座城市教会我，伟大不必以完好无损的形式存在。断壁残垣可以比完整的宫殿诉说更多，因为每一道裂痕里，都藏着抗争、失落与重生的故事。查雷维茨山顶的风，吹过了一千年，它听过沙皇的号角，也听过征服者的铁蹄，如今，它只温柔地拂过每个来访者的发梢，仿佛在说：你看，我们还在。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求崭新与效率的世界里，大特尔诺沃的存在，像一首缓慢而坚定的叙事诗。它提醒我们，文明的火种何其脆弱，又何其坚韧；个人的生命在历史长河中何其短暂，但人类对自由、身份与美的追求却从未断绝。它不是欧洲最光鲜亮丽的那个目的地，没有巴黎的时尚或罗马的浩瀚，但它有着最为直击人心的真实力量——一种在悬崖上扎根、向死而生的力量。每一位热爱深度游的旅人，都应该来感受一次这种力量。来这里，不只是看风景，而是来聆听石头与河流的吟唱，来见证一个民族如何将他们的骄傲，一砖一瓦，重新砌在了时间的悬崖之上。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/plovdiv-roman-theatre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普罗夫迪夫古罗马剧场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Plovdiv Roman Theatre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/roman-theatre-plovdiv" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普罗夫迪夫罗马剧场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Roman Theatre of Plovdiv</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/tsarevets-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    查
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">查雷韦茨要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tsarevets Fortress</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

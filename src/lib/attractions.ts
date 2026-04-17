@@ -32,6 +32,14 @@ export function getAllSlugs(): string[] {
 // 动态提取所有的 Region 和 Type，避免硬编码导致部分数据无法显示
 export const regions = Array.from(new Set(attractions.map(a => a.region).filter(Boolean)));
 export const types = Array.from(new Set(attractions.map(a => a.type).filter(Boolean)));
+export const countries = Array.from(new Set(attractions.map(a => a.country).filter(Boolean)));
+
+export const stats = {
+  destinations: attractions.length,
+  countries: countries.length,
+  regions: regions.length,
+  types: types.length,
+};
 
 export const regionLabelsEN: Record<string, string> = {
   "法国": "France",

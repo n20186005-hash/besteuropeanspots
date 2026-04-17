@@ -1,0 +1,228 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '瑞士瓜尔达Guarda｜聆听山谷低语的刮画童话村 - 最佳欧洲景点',
+  description: '车子在盘山道上最后一个转弯，瓜尔达就这么毫无预兆地撞进眼帘。它不是那种巍峨的、需要你仰望的景点，而更像一个被山峦轻轻捧在手心、不小心睡过了头的梦。第一印象是色彩，但又绝非意大利五渔村那种明信片式的鲜亮。这里的色彩是大地长出来的：深浅不一的赭石色、熟褐色的木筋房屋，像一块块巨大的姜饼，层层叠叠地偎依在...',
+}
+
+export default function GuardaEngadinPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '瓜尔达（恩嘎丁山谷的苏斯罗曼什语刮画村）', href: '/attractions/guarda-engadin' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`瓜尔达（恩嘎丁山谷的苏斯罗曼什语刮画村）・Guarda・瑞士・格劳宾登州恩嘎丁地区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在盘山道上最后一个转弯，瓜尔达就这么毫无预兆地撞进眼帘。它不是那种巍峨的、需要你仰望的景点，而更像一个被山峦轻轻捧在手心、不小心睡过了头的梦。第一印象是色彩，但又绝非意大利五渔村那种明信片式的鲜亮。这里的色彩是大地长出来的：深浅不一的赭石色、熟褐色的木筋房屋，像一块块巨大的姜饼，层层叠叠地偎依在南向的山坡上，每一栋的外墙都布满了精细的、灰白线条勾勒出的图案。空气里有冷冽的松针香，混合着从某户人家烟囱飘出的淡淡木柴焦味，还有秋天晒干草的那种清甜。
+你听到的声音是层次分明的。最近处是石板路上你自己的脚步声，清脆又孤单；远处有牛铃，叮叮咚咚的，隔着山谷传过来，被风拉成了慢板；偶尔，一扇厚重的木门“吱呀”一声推开，一位系着围裙的老奶奶用你完全听不懂的、如歌唱般的语言和邻居打招呼——那是罗曼什语，瑞士的第四种国家语言，在这里是活生生的日常。你会发现，这个村子最美的“展品”不是锁在博物馆里，而是生活本身：老人坐在屋外被阳光晒得温热的木制长椅上打盹，窗台上的天竺葵红得肆意，木雕的阳台栏杆上晾着雪白的床单，在阿尔卑斯的干爽空气里猎猎作响。
+它的核心魅力，在于一种近乎顽固的“凝固感”。这不是死气沉沉的博物馆式保护，而是一种对自身节奏的极度忠诚。时间在这里不是线性前进的，而是循环的，随着牧群上山下山，随着刮画被一年年刷新，随着罗曼什语的童谣在巷子里再次响起。你走在其中，会不自觉地放慢呼吸，踮起脚尖，生怕惊扰了这份专注的宁静。它打动你的，不是震撼，而是一种细腻的、缓慢渗透进心里的慰藉，让你相信世界上真的还有地方，可以这样不慌不忙地美丽着。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在盘山道上最后一个转弯，瓜尔达就这么毫无预兆地撞进眼帘。它不是那种巍峨的、需要你仰望的景点，而更像一个被山峦轻轻捧在手心、不小心睡过了头的梦。第一印象是色彩，但又绝非意大利五渔村那种明信片式的鲜亮。这里的色彩是大地长出来的：深浅不一的赭石色、熟褐色的木筋房屋，像一块块巨大的姜饼，层层叠叠地偎依在南向的山坡上，每一栋的外墙都布满了精细的、灰白线条勾勒出的图案。空气里有冷冽的松针香，混合着从某户人家烟囱飘出的淡淡木柴焦味，还有秋天晒干草的那种清甜。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你听到的声音是层次分明的。最近处是石板路上你自己的脚步声，清脆又孤单；远处有牛铃，叮叮咚咚的，隔着山谷传过来，被风拉成了慢板；偶尔，一扇厚重的木门“吱呀”一声推开，一位系着围裙的老奶奶用你完全听不懂的、如歌唱般的语言和邻居打招呼——那是罗曼什语，瑞士的第四种国家语言，在这里是活生生的日常。你会发现，这个村子最美的“展品”不是锁在博物馆里，而是生活本身：老人坐在屋外被阳光晒得温热的木制长椅上打盹，窗台上的天竺葵红得肆意，木雕的阳台栏杆上晾着雪白的床单，在阿尔卑斯的干爽空气里猎猎作响。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，在于一种近乎顽固的“凝固感”。这不是死气沉沉的博物馆式保护，而是一种对自身节奏的极度忠诚。时间在这里不是线性前进的，而是循环的，随着牧群上山下山，随着刮画被一年年刷新，随着罗曼什语的童谣在巷子里再次响起。你走在其中，会不自觉地放慢呼吸，踮起脚尖，生怕惊扰了这份专注的宁静。它打动你的，不是震撼，而是一种细腻的、缓慢渗透进心里的慰藉，让你相信世界上真的还有地方，可以这样不慌不忙地美丽着。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`瓜尔达（恩嘎丁山谷的苏斯罗曼什语刮画村）`} />
+                <InfoRow label="英文名称" value={`Guarda`} />
+                <InfoRow label="正式名称" value={`Guarda (Engiadina)`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`格劳宾登州恩嘎丁地区`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`瑞士保存最完整的恩嘎丁传统村落之一，是罗曼什语及其古老生活方式的活态博物馆。`} />
+                <InfoRow label="建筑特色" value={`拥有瑞士密度最高、保存最完好的恩嘎丁风格“刮画”装饰房屋，外墙如同打开的精美绘本。`} />
+                <InfoRow label="建筑风格" value={`恩嘎丁晚期文艺复兴风格，核心特征是“Sgraffito”刮画技术装饰的外墙。`} />
+                <InfoRow label="文化价值" value={`一个仍在呼吸的联合国教科文组织候选遗产，守护着欧洲濒危语言——罗曼什语，及其独特的季节迁徙文化和社区精神。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`村庄全天开放，自由漫步。刮画博物馆（Casa da Guarda）和部分向游客开放的历史房屋开放时间较为灵活，通常在每年6月至10月，以及12月至次年4月的滑雪季，每天上午10点至下午5点开放，但强烈建议出行前在当地旅游局官网查询最新时刻表，因为瑞士山村的服务时间随季节和主人心情变化。`} />
+              <InfoRow label="门票价格" value={`进入瓜尔达村本身免费。参观刮画博物馆或参与导览游需要费用，博物馆门票约8瑞士法郎，配有英语解说的深度导览游约15-20瑞士法郎，持续约1.5小时。持有瑞士旅行通票或当地宾客卡可能有折扣。`} />
+              <InfoRow label="地址" value={`Via Principala, 7545 Guarda, Switzerland`} />
+              <InfoRow label="交通方式" value={`从苏黎世机场出发最经典：乘坐火车前往兰德夸特（Landquart），换乘著名的雷蒂亚铁路（Rhätische Bahn）前往斯库奥尔-塔拉斯普（Scuol-Tarasp）站，这一段阿尔布拉/伯尔尼纳线路本身就是世界遗产，车窗风景如画。全程约3小时。到达斯库奥尔-塔拉斯普后，在车站前换乘邮政巴士（PostBus）411路，约20分钟即可盘旋上山抵达瓜尔达村口。巴士班次约每小时一班，非常准时，可使用瑞士旅行通票。自驾的话，村庄有外围停车场，严禁车辆驶入村内石板路区域。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要听懂瓜尔达的故事，你得先听懂风穿过恩嘎丁山谷的声音。这里自古就是南北欧穿越阿尔卑斯山口的要道之一，罗马人、商队、朝圣者都曾从这片丰茂的山谷中走过。但瓜尔达的兴起，并非因为战争或财富，而是源于一种务实的智慧。中世纪的农民们发现这片朝南的山坡日照充足，能躲避山谷底部的寒风和洪水，于是用巨大的石块和本地松木，建起了可以抵御数个世纪风霜的家园。最初，这些房子朴素无华，直到一种艺术的种子悄然飘来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`十六世纪末到十七世纪，一股来自意大利北部的艺术风潮，随着往来贸易的工匠，翻越了阿尔卑斯山。这就是“Sgraffito”刮画技术。本地的工匠们如获至宝，但他们没有简单地复制意大利的神话人物或贵族纹章，而是把画笔转向了自己最熟悉的生活。于是，你会在外墙上看不到天使与圣徒，取而代之的是跳跃的羚羊、憨厚的熊、象征丰收的麦穗和葡萄、守护家庭的太阳图案，还有复杂几何图形。这不是贵族的炫耀，而是平民的日记，是他们对自然的热爱、对丰收的祈愿、对家庭幸福的描绘，直接镌刻在了家的“皮肤”上。每一幅刮画，都是一户人家的签名和祈愿。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，故事的转折发生在十九世纪。当工业革命的铁路轰鸣着改变了世界，它却刻意绕开了像瓜尔达这样偏远的山村。年轻一代开始奔向城市，寻求更“现代”的生活。村庄迅速衰败，许多精美的刮画房屋被遗弃，在风雨中斑驳剥落。瓜尔达几乎要变成又一个地图上被遗忘的名字。转机出现在二十世纪初，一些有远见的艺术家和历史学家发现了这里，他们惊呼这是一个“沉睡的露天博物馆”。一场静悄悄但坚定的拯救行动开始了。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`关键人物并非某个国王或将军，而是一代又一代的村民和保护主义者。他们成立了保护协会，制定严格的法规：任何房屋的修缮，都必须使用传统材料和工艺，新建筑必须融入整体风貌。最重要的是，他们决定留下来。今天村里的许多居民，是当年那些离开者的孙辈，他们带着对故乡的全新理解回归，开起小小的工作坊、家庭旅馆，并骄傲地继续使用罗曼什语。瓜尔达没有变成仅供参观的空壳，它通过自我约束和社区共识，完成了从濒临消亡到活态重生的奇迹。它今天的模样，不是某一次历史事件的定格，而是一场持续了半个多世纪、由全体村民参与的、温柔而坚定的文化捍卫战的结果。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`我建议你把整整一天留给瓜尔达，但最好的时光是从清晨到午后。上午十点前抵达，这时旅游巴士还未上山，村庄完全属于自己。阳光斜射，将刮画的浮雕感投射得淋漓尽致，空气清冽如水。整体耗时大约5-6小时，节奏要慢，慢到可以去数一面墙上到底有几只小鹿。路线从村庄下方的入口开始，逆时针盘旋向上，最后抵达村庄最高处的观景台，这样你能由细节到整体，逐步揭开这个村子的全貌，并在最高点收获全景作为奖赏。千万别急着赶路，这里的灵魂藏在每一次驻足和聆听里。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`绝对不要在下午两点到四点之间才到，那是大型旅游团抵达的高峰期，狭窄的街道会瞬间失去魔力。尊重当地人的隐私，那些挂着美丽窗帘的窗户后是真正的家，不要贴着玻璃向内张望或大声喧哗。穿一双绝对舒适防滑的鞋，这里的石板路历经几个世纪已被打磨得光滑，尤其在晨露或雨后。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从村庄下方的石拱门进入，静静听一会儿自己的脚步回声与远处溪流、鸟鸣合奏的“村庄苏醒交响乐”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着Via Principala主街缓缓上行，不用看地图，就让目光被两侧房屋外墙上一幅幅生动的刮画故事牵着走，去猜图案背后的家族秘密。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要推开Casa da Guarda刮画博物馆那扇沉重的木门，亲手触摸刮画的工具样本，看一段老匠人如何用最简陋的刮刀创造永恒的纪录片。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在村庄中心的小广场找那张被阳光晒得最暖的长椅坐下，看本地老人如何用罗曼什语闲聊，孩子们如何从斜坡上欢叫着跑过。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拜访一下简朴的圣劳伦斯教堂，感受石头内部的宁静，然后从它旁边的小径继续向上攀登。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过那些狭窄得只容一人通过、石墙长满青苔的幽深小巷，去探索主街背后更生活化的后院与花园。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后抵达村庄最高处的观景平台，转过身，将整个瓜尔达如模型般嵌在恩嘎丁山谷壮丽画卷中的景象深深印入脑海。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山时换一条小径，或许会路过一家飘着新鲜苹果派香气的家庭咖啡馆，那是给完美漫步最好的句点。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`村口下方葡萄田仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时或日落前一小时，从村庄停车场附近的小径往下走一点，用葡萄藤作为前景，可以拍到瓜尔达层层叠叠的房屋沐浴在金色阳光中的经典明信片角度。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`Casa Barbonia外墙特写`}</h4>
+                  <p className="text-sm text-gray-700">{`上午阳光正好直射在这栋拥有最复杂刮画之一的房屋正面，靠近拍摄其门楣上方的动物和花卉图案，让清晰的阴影突出刮画的浮雕质感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`狭窄小巷“光影走廊”`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分，当太阳升到头顶，选择一条东西走向的窄巷，阳光会从屋顶间形成一道“光刀”劈在石板路上，站在阴影里向光亮处拍摄，能获得极具戏剧感的光影构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`村庄至高点全景接片`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏时分，在观景台用广角镜头或手机全景模式，将洒满温暖夕阳光辉的村庄、远处的雪山和蜿蜒的山谷公路一同收纳进来，这是最能体现它“世外桃源”感的画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄房屋和刮画时，尽量将蓝天作为纯净的背景，能极大提升画面的干净度和冲击力。如果想把当地人或他们的生活场景纳入镜头，一定要先微笑并征得同意，一个简单的“Permess？”（罗曼什语：可以吗？）会为你打开友好之门。无人机飞行在这里受到严格限制，为保护宁静和隐私，未经特别许可请勿起飞。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`情怀之选`}</h4>
+                  <p className="text-sm text-blue-800">{`村里由百年刮画老屋改造的家庭旅馆“Casa Guarda”，女主人会端出用祖传配方制作的恩嘎丁坚果蛋糕，夜晚在古老的木梁下入睡，能听到木头因温度变化发出的细微咯吱声，那是历史在呼吸。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`设计师民宿`}</h4>
+                  <p className="text-sm text-green-800">{`年轻艺术家经营的“Chasa d‘Art”，在完美保留房屋外壳和关键刮画的同时，内部是极简的北欧风格，巨大的窗户直面山谷，让你在古今交融的奇妙感中醒来。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`山间隐居`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于村庄上方徒步小径旁的“Mountain Refuge Guarda”，更简朴但更有野趣，适合徒步者，晚上没有光污染，星空仿佛就挂在窗外的松树尖上。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-purple-800">{`驱车15分钟下山至塔拉斯普，入住传奇的“Grand Hotel des Bains”或 Schloss Tarasp 城堡酒店，体验百年温泉疗养与奢华服务，再以仰视的角度回味白日里探访的那个朴素山村。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`瓜尔达村内的住宿数量极其有限，往往只有寥寥数家，且主人生活随性，一定要提前数月预订，尤其是夏季和圣诞滑雪季。住在村里，夜晚和清晨的体验是无价的，整个山谷仿佛只属于你。冬季部分民宿会关闭，预订前务必确认。无论住在哪里，请珍惜这里的宁静，晚上十点后请勿在户外大声喧哗。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开瓜尔达时，我背包里没有多一件纪念品，但心里却好像被什么东西填满了，沉甸甸的。那不是购物的满足感，而是一种久违的平静。在这个每秒都在刷新的世界里，瓜尔达的存在本身，就像一句温柔的反驳。它反驳着“推倒重建”的狂热，反驳着“同质化”的潮流，它用那些需要极耐心才能完成的刮画告诉你：美，可以慢工出细活；文化，不是橱窗里的标本，而是炉灶里的火，要有人持续添柴才能温暖。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，来这里，你不是为了看一个景点，而是为了体验一种“可能性”。一种社区如何凭借共识和热爱，守护自身独特性的可能性；一种在全球化浪潮中，一个微小的声音如何被清晰听见的可能性。它让你相信，真正的力量未必来自喧嚣的中心，也可以来自沉默而坚定的边缘。每一位热爱深度游的旅人，都该来瓜尔达住一晚，听听石板路的回响，看看刮画上的小鹿。你会带走的不只是一张照片，更是一个关于“故乡”可以如何被珍视的、充满温度的故事。这或许，是这个快节奏时代里，我们能为自己收藏的最珍贵的礼物。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/st-gallen-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣加仑修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">St. Gallen Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/spiez-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施皮茨城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spiez Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ascona-lago-maggiore" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿斯科纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ascona</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

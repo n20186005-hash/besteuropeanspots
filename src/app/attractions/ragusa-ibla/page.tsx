@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '拉古萨伊布拉 Ragusa Ibla｜悬崖上的巴洛克珍珠，被时光遗忘的双生古城 - 最佳欧洲景点',
+  description: '你得先穿过拉古萨上城那些平平无奇的现代街道，然后，一个急转弯，整座伊布拉就像从地壳里生长出来的黄金雕塑，毫无预警地撞进你的视野。它并非平铺在土地上，而是从一道深邃的河谷边缘“倾泻”而下——数百座蜂蜜色、象牙白的建筑，紧紧拥抱着陡峭的山坡，层层叠叠，错落有致，屋顶的瓦片在强烈的西西里阳光下泛着温暖的红...',
+}
+
+export default function RagusaIblaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '拉古萨伊布拉（叠落山谷的古城）', href: '/attractions/ragusa-ibla' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`拉古萨伊布拉（叠落山谷的古城）・Ragusa Ibla・意大利・拉古萨（位于西西里岛东南部）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`你得先穿过拉古萨上城那些平平无奇的现代街道，然后，一个急转弯，整座伊布拉就像从地壳里生长出来的黄金雕塑，毫无预警地撞进你的视野。它并非平铺在土地上，而是从一道深邃的河谷边缘“倾泻”而下——数百座蜂蜜色、象牙白的建筑，紧紧拥抱着陡峭的山坡，层层叠叠，错落有致，屋顶的瓦片在强烈的西西里阳光下泛着温暖的红光。第一眼，你会倒吸一口凉气，仿佛看见了一个巨大的、错综复杂的蜂巢，静谧，古老，又充满不可思议的生命力。空气中弥漫着干燥的尘土气、远处飘来的橙花香，以及不知从哪家厨房窗口钻出的罗勒和番茄熬煮的浓郁基底香。背景音是持续的蝉鸣，混杂着摩托车在狭窄巷道里回响的突突声，还有某个阳台上老太太用响亮的西西里方言喊孙子的声音。这不是一个凝固的遗址，而是一个心脏依然在有力跳动的古老躯体。
+走下通往伊布拉的蜿蜒台阶，感官的细节变得更加密集。脚下的石灰岩石板被几个世纪的脚步打磨得光滑如镜，在午后斜阳下反射出温润的光泽。你用手指划过身旁一堵墙，粗糙的质感传来，那是本地特有的“石灰华”石，颜色从奶油白到深金黄不等，每一块都仿佛吸收并储存了地中海的阳光。转角处，一座巴洛克教堂的立面突然耸立，繁复到令人眩晕的石雕——扭曲的柱身、嬉戏的小天使、丰饶的水果花卉——在光影的切割下，戏剧感十足。但比建筑更动人的是它的“生活气”。你会发现宏伟的教堂台阶上坐着抽着烟闲聊的老汉，他们的西装虽旧却笔挺；华丽宫殿的铁艺阳台上，晾晒着色彩鲜艳的床单，随风轻轻摆动；阴暗凉爽的门洞里，三个老人在一张小木桌上专注地进行着一局永远也下不完的纸牌游戏。
+伊布拉最打动人心的，正是这种极致的反差与和谐的统一。它拥有世界级的、近乎戏剧舞台般的巴洛克建筑群，但这些建筑从来不是冰冷的展品。它们是背景，是容器，盛放着西西里小镇最日常、最鲜活的生活。贵族宫殿的庭院里传来家庭聚餐的喧闹；神圣的教堂广场是孩子们踢足球的场地；每一级台阶、每一处转角，都既是通往历史的路径，也是当下生活的舞台。在这里，美不是被供奉起来的，而是被使用、被触摸、被生活在其中的。你会觉得，自己闯入了某个平行时空，这里的时光流速格外缓慢，荣耀与平凡、神圣与世俗，早已在几百年的炊烟、交谈和脚步声中，融为一体，酿成了独一无二的、让人微醺的拉古萨气息。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`你得先穿过拉古萨上城那些平平无奇的现代街道，然后，一个急转弯，整座伊布拉就像从地壳里生长出来的黄金雕塑，毫无预警地撞进你的视野。它并非平铺在土地上，而是从一道深邃的河谷边缘“倾泻”而下——数百座蜂蜜色、象牙白的建筑，紧紧拥抱着陡峭的山坡，层层叠叠，错落有致，屋顶的瓦片在强烈的西西里阳光下泛着温暖的红光。第一眼，你会倒吸一口凉气，仿佛看见了一个巨大的、错综复杂的蜂巢，静谧，古老，又充满不可思议的生命力。空气中弥漫着干燥的尘土气、远处飘来的橙花香，以及不知从哪家厨房窗口钻出的罗勒和番茄熬煮的浓郁基底香。背景音是持续的蝉鸣，混杂着摩托车在狭窄巷道里回响的突突声，还有某个阳台上老太太用响亮的西西里方言喊孙子的声音。这不是一个凝固的遗址，而是一个心脏依然在有力跳动的古老躯体。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走下通往伊布拉的蜿蜒台阶，感官的细节变得更加密集。脚下的石灰岩石板被几个世纪的脚步打磨得光滑如镜，在午后斜阳下反射出温润的光泽。你用手指划过身旁一堵墙，粗糙的质感传来，那是本地特有的“石灰华”石，颜色从奶油白到深金黄不等，每一块都仿佛吸收并储存了地中海的阳光。转角处，一座巴洛克教堂的立面突然耸立，繁复到令人眩晕的石雕——扭曲的柱身、嬉戏的小天使、丰饶的水果花卉——在光影的切割下，戏剧感十足。但比建筑更动人的是它的“生活气”。你会发现宏伟的教堂台阶上坐着抽着烟闲聊的老汉，他们的西装虽旧却笔挺；华丽宫殿的铁艺阳台上，晾晒着色彩鲜艳的床单，随风轻轻摆动；阴暗凉爽的门洞里，三个老人在一张小木桌上专注地进行着一局永远也下不完的纸牌游戏。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`伊布拉最打动人心的，正是这种极致的反差与和谐的统一。它拥有世界级的、近乎戏剧舞台般的巴洛克建筑群，但这些建筑从来不是冰冷的展品。它们是背景，是容器，盛放着西西里小镇最日常、最鲜活的生活。贵族宫殿的庭院里传来家庭聚餐的喧闹；神圣的教堂广场是孩子们踢足球的场地；每一级台阶、每一处转角，都既是通往历史的路径，也是当下生活的舞台。在这里，美不是被供奉起来的，而是被使用、被触摸、被生活在其中的。你会觉得，自己闯入了某个平行时空，这里的时光流速格外缓慢，荣耀与平凡、神圣与世俗，早已在几百年的炊烟、交谈和脚步声中，融为一体，酿成了独一无二的、让人微醺的拉古萨气息。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`拉古萨伊布拉（叠落山谷的古城）`} />
+                <InfoRow label="英文名称" value={`Ragusa Ibla`} />
+                <InfoRow label="正式名称" value={`Ragusa Ibla`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`拉古萨（位于西西里岛东南部）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`1693年毁灭性大地震后，在西西里东南部重建的“晚期巴洛克城镇”中最杰出、最完整的代表之一，联合国教科文组织世界遗产的核心组成部分。`} />
+                <InfoRow label="建筑特色" value={`一座从石灰岩悬崖上“生长”出来的城市，建筑随陡峭的地形层层叠落，形成绝妙的立体景观，狭窄的台阶、拱门和隐秘的庭院将数百座蜂蜜色的巴洛克宫殿与教堂编织在一起。`} />
+                <InfoRow label="建筑风格" value={`西西里巴洛克风格，以繁复华丽的涡卷、阳台、铁艺和装饰性雕塑为标志，并融合了地震后重建时期独特的本地石材与建筑智慧。`} />
+                <InfoRow label="文化价值" value={`不仅是一座建筑博物馆，更是一个活着的社区，完美展现了人类在巨大灾难后重建家园的韧性，以及贵族、平民与教会力量共同塑造城市空间的生动历史。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城公共区域全天24小时开放。内部主要景点如圣乔治主教座堂开放时间一般为夏季（4月-9月）上午9:00至下午13:00，下午16:00至20:00；冬季（10月-3月）上午9:30至12:30，下午15:30至18:30。每周日及宗教节日时间可能缩短，具体建议行前查询当地旅游局官网。`} />
+              <InfoRow label="门票价格" value={`漫步古城本身完全免费。进入圣乔治主教座堂免费，但参观珍宝室或登上穹顶可能需要小额捐赠（约2-3欧元）。个别向公众开放的古老宫殿（如科斯莫维奇宫）门票约5欧元。多数巴洛克风格教堂免费进入。`} />
+              <InfoRow label="地址" value={`Ragusa Ibla, 97100 Ragusa RG, Italy`} />
+              <InfoRow label="交通方式" value={`最近的机场是卡塔尼亚方塔纳罗沙机场。从机场出发，最便捷的方式是租车自驾，沿A18/E45高速公路转SS514公路前往拉古萨，车程约1小时45分钟。若乘坐公共交通，可从卡塔尼亚火车站乘坐区间火车前往拉古萨站，车程约2-3小时，班次不密集，建议提前查询时刻表。抵达拉古萨上城（Ragusa Superiore）后，需要换乘本地M1路公交车或步行（约25分钟陡峭的下山路）才能抵达山谷中的伊布拉古城。公交车班次较为频繁，单程票约1欧元，可在烟草店或上车购买。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要理解伊布拉，你必须回到1693年1月11日那个恐怖的夜晚。一场估计震级超过7级的大地震，以排山倒海之力袭击了整个西西里东南部。当时的拉古萨，一座建立在中世纪基础之上的古老城镇，几乎被彻底抹平。超过五千人丧生，辉煌的教堂、坚固的城堡、拥挤的民居，在剧烈的摇晃和随之而来的火灾中化为齑粉。今天的我们漫步在宁静优美的伊布拉，很难想象那一刻的绝望与毁灭。但这场灾难，也戏剧性地成为了这座城市重生的起点，并由此写下了“双城记”的传奇序章。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`地震之后，摆在幸存者面前的是一个至关重要的选择：是在旧城的废墟之上重建，还是另择新址？当时的权力阶层——贵族、教士和平民——产生了深刻的分歧。大部分的贵族和主教们，眷恋着旧城（即今天的伊布拉）的土地与历史脉络，那里有家族传承的领地，有深埋于废墟之下的根基与记忆。他们决定在原址，利用残存的地基和街道格局，进行重建。而许多平民和新兴的资产阶级，则看中了北边更高、更平坦、被认为更安全的一片台地，他们渴望一个规划更现代、更开阔的新起点。于是，一场静默的“分裂”发生了。资金、工匠和人口流向了两边，最终形成了“拉古萨上城”和“拉古萨下城”（即伊布拉）两个中心。在很长一段时间里，它们甚至像两个独立的城镇，拥有各自的市政机构，彼此间存在着微妙的竞争与隔阂。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`伊布拉的重建，是一场持续了将近一个世纪的巴洛克艺术盛宴。来自本地甚至岛外的大批石匠、雕塑家和建筑师涌入，他们怀揣着劫后余生的感恩，以及对新生活近乎狂热的渴望，将才华倾注于每一块石头上。他们采用的，正是后来被称为“西西里巴洛克”的风格，但比大陆上的巴洛克更加奔放、更加感性、更加具有装饰性。或许是为了对抗对地震再次发生的恐惧，建筑被设计得异常牢固，同时又极尽华丽之能事。你看那些教堂的立面，不再是平直的墙，而是像舞台布景一样凹凸起伏，充满了动态的曲线；阳台上精美的铁艺护栏，既轻盈又牢固；而最典型的，是那些支撑着阳台的、造型各异的“支架”，它们被雕刻成神话人物、狰狞的怪兽、或是丰腴的天使，仿佛这些石头的精灵正用尽全力托举起日常生活。这一切，都不是纯粹的炫技，而是一种宣告：看，我们在废墟上站了起来，而且比以往更加美丽，更加坚韧。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`重建后的伊布拉，成为了贵族与教会权力最集中的展示场。像彭萨蒂宫、拉罗卡宫、贝尔蒂尼宫这样的豪门宅邸如雨后春笋般出现，它们争奇斗艳，通过立面的华丽程度来彰显家族的财富与地位。连接这些宫殿的，是无数狭窄、曲折、陡峭的小巷和台阶，它们并非随意形成，而是巧妙地顺应了险峻的地形，并划分出清晰的社会空间。山顶最好的位置留给了圣乔治主教座堂，它如同皇冠上的明珠，俯瞰全城；贵族宅邸占据着视野开阔的坡地；而平民的住房则簇拥在谷底或边缘。这种立体的、层叠的城市肌理，本身就是一部石头写就的社会史。直到18世纪末，随着城市的发展与社会变迁，上下两城才正式合并为统一的拉古萨市，但各自独特的性格与风貌，却永久地保留了下来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`进入现代，伊布拉一度面临被遗忘的命运。上世纪六七十年代，许多居民为了更现代化的生活设施搬往上城或新城，古老的宫殿空置，小巷寂静。然而，正是这份“被遗忘”，意外地保护了它完整的巴洛克肌理，使之免受大规模现代化改造的破坏。转折点发生在2002年，拉古萨（包括伊布拉和上城部分区域）因其“代表了欧洲巴洛克艺术最后的巅峰”，并以“杰出的建筑与城市形式，展现了地震重建社区的高超技艺与独特风格”，被列入联合国教科文组织世界遗产名录。这顶桂冠重新唤醒了世界的目光，也激发了本地人的自豪感。如今，年轻的家庭回归，艺术家和工匠开设工作室，精致的餐馆和民宿点缀其中，伊布拉在小心翼翼地平衡保护与活化的天平上，迎来了它的又一次复兴。它不再是贵族专属的堡垒，而是一座属于所有人、承载着 resilience（韧性）精神的永恒之城。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`最佳的游览时间是从下午开始。西西里的午后阳光过于炽烈，而伊布拉的精华恰恰在黄昏时分开始绽放。建议下午三点半至四点左右抵达，这时阳光开始变得金黄柔和，光影效果绝佳，游客也相对稀少。整体游览耗时约4-5小时，刚好涵盖下午探索、黄昏拍照和夜晚感受氛围的完整周期。节奏宜慢不宜快，核心不是“打卡”多少个景点，而是让自己迷失在迷宫般的小巷中，感受光影的移动和生活的气息。这样的安排能让你看到伊布拉从日光下的辉煌金城，到华灯初上时神秘魅影的完整蜕变。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适、防滑的平底鞋，这里的上下坡台阶非常多且光滑。很多小巷没有明确的标识，不要害怕迷路，这正是探索的乐趣所在，大体方向向下总能回到主广场。尊重当地居民的生活隐私，拍照时尽量避免直接对准民居的窗户或阳台上的私人活动。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从巨大的圣乔治门进入伊布拉，立刻让感官适应那扑面而来的古老石头气息和陡峭的下坡路`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直前往圆心般的旧共和国广场，在绿树成荫的广场长椅上坐一会儿，观察当地老人如何在这里消磨整个下午`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花时间沉浸式参观圣乔治主教座堂，不仅看它壮丽的金色立面，更要走入内部感受那份庄严与清凉，留意脚下精美的马赛克地砖`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂一侧的小巷“溜走”，主动放弃地图，任由自己被那些仅有肩膀宽、以“拱门”命名的阶梯小道引导，每一次转弯都是一幅新的画面`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在夕阳西下前找到杜卡广场，那里是俯瞰伊布拉层层屋顶和远处山谷的经典视角，看光线如何把石头染成蜂蜜和琥珀色`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着Via del Mercato慢慢逛，这条街藏着许多巴洛克宫殿的华丽立面，抬头看那些表情生动的石雕怪兽和优雅的铁艺阳台`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐时间在伊布拉腹地找一家家庭经营的 trattoria，一定要在户外的餐桌，边吃边看巷子里的灯光渐次亮起`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后沿着Via XXIV Maggio等主要步道散步，体验夜晚的伊布拉如何从白日的游客焦点变回静谧的社区，听窗内传来的电视声和谈话声`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`杜卡广场边缘的矮墙前`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，以层层叠落的金色屋顶和远处山谷为背景拍摄人像或风景，暖色调光线会让整个画面充满油画质感`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣乔治主教座堂正对面的小台阶上`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后，利用长焦镜头压缩空间，将教堂宏伟的曲面立面与前景中行走的当地人一同纳入画面，展现建筑与生活的尺度对比`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`Via Capodieci 阶梯巷道的顶端`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或午后，阳光斜射入狭窄巷道时，拍摄光影在古老石阶和墙壁上切割出的明暗线条，构图时可以纳入一个正在上下楼梯的居民作为视觉焦点`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`从拉古萨上城（Via Roma 附近）的观景台俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`全天皆可，但以蓝调时刻（日落后天空将暗未暗时）为佳，用广角镜头捕捉伊布拉整个古城灯火初上、如同星海洒落山谷的梦幻全景`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`科斯莫维奇宫内部的古老石阶`}</h4>
+                  <p className="text-sm text-gray-700">{`如果宫殿开放，利用窗口射入的光束，拍摄螺旋石阶的几何造型与光影明暗，营造静谧而神秘的氛围`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`西西里阳光强烈，建议携带一块偏光镜，可以有效减少石头表面的反光，让巴洛克雕刻的细节更突出。拍摄居民或他们的日常生活前，一个友好的微笑和手势征询同意，通常会得到热情的回应。三脚架在狭窄小巷中使用不便，可多利用石阶、窗台等作为稳定支撑进行长曝光拍摄。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`入住伊布拉核心区由18世纪贵族宫殿改造的精品民宿，房间保有原始的拱顶和花砖地板，清晨推开木窗，直接看到教堂穹顶和邻居在对面阳台浇花`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`视野之选`}</h4>
+                  <p className="text-sm text-green-800">{`选择位于伊布拉与上城之间山腰上的小型酒店，房间带有一个面朝古城全景的露台或大窗，既能享受宁静，又拥有随时拍摄明信片风景的上帝视角`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`拉古萨上城由现代建筑师操刀的设计酒店，用极简风格对比古老的厚重，并且通常配备屋顶泳池或酒吧，让你在游泳时就能俯瞰脚下璀璨的伊布拉夜景`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`体验之选`}</h4>
+                  <p className="text-sm text-purple-800">{`古城外围开车十分钟可达的乡间农庄，住在真正的石头农舍里，白天游览古城，晚上回归田园静谧，品尝主人自产的橄榄油、葡萄酒和Ricotta奶酪`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`伊布拉核心区的住宿非常有限且抢手，尤其是旅游旺季（5-9月），务必提前数月预订。住在古城内晚上极为安静，但清晨可能会被教堂钟声或邻家动静唤醒，这正是体验的一部分。如果自驾，务必确认住宿是否提供停车位，古城内几乎没有停车空间。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开拉古萨伊布拉很久以后，闭上眼睛，脑海里浮现的不是某一张具体的明信片风景，而是一种整体的、氤氲的感受。那是蜂蜜色石头在指尖的粗糙温热，是夕阳下拉得长长的、自己的影子在古老台阶上跳跃的节奏，是空气中永远混合着的咖啡香、晒过的床单气息和淡淡历史尘埃的味道。这个地方教会我的，是关于“韧性”最温柔也最坚固的诠释。它不像那些高耸入云、宣示着人类征服欲的哥特式大教堂，伊布拉的美，是匍匐在大地上，紧紧抓住悬崖，在毁灭的裂隙中开出的花朵。它告诉你，重生不必是抛弃过去、全盘崭新，也可以是小心翼翼地捡起每一块碎片，用记忆、技艺和爱，将它们黏合成一个更丰富、更有层次的整体。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个崇尚速度与崭新的时代，伊布拉像一位从容的长者，它存在的意义，就是提醒我们另一种可能。生活可以不是一条不断向前冲刺的直线，而是一个螺旋上升的过程，允许你回望，允许你在废墟上跳舞，允许神圣与世俗在同一片广场上晒太阳。每一位热爱深度游的旅人，都该来伊布拉住上几天，不仅仅是为了看巴洛克，更是为了体验一种完整的时间感。你会看到1693年的恐惧与决心，看到18世纪的荣耀与匠心，看到20世纪的衰落与遗忘，也看到21世纪小心翼翼的复兴与希望——所有这些时代层，都活生生地叠加在同一个空间里，被今天买菜归家的老太太、追逐打闹的孩童、以及我们这些偶然闯入的见证者，共同呼吸着。它不是一个景点，而是一个关于人类如何与灾难和解、与记忆共处、并永远选择美丽的永恒寓言。这，才是旅行能带给我们的，最深刻的慰藉与力量。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/narni-medieval-hill-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    纳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳尔尼古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Narni</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/spoleto-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯波莱托古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spoleto</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lecce-baroque-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莱
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莱切巴洛克老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lecce</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

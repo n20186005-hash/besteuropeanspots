@@ -1,0 +1,237 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '包斯卡城堡 Bauska Castle｜半废墟半宫殿的立窝尼亚骑士团遗迹 - 最佳欧洲景点',
+  description: '嘿，朋友，想象一下，你穿过拉脱维亚宁静的乡村，路两旁是望不到尽头的田野和森林，空气里满是松针和湿润泥土的气息。然后，毫无预警地，一座巨大的、苍灰色的石头建筑群出现在缓坡之上，两条河流在它脚下交汇。那就是包斯卡城堡给你的第一眼震撼——它不是童话里那种完美无缺的尖塔城堡，而更像一个从大地里生长出来的、带...',
+}
+
+export default function BauskaCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '包斯卡城堡', href: '/attractions/bauska-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`包斯卡城堡・Bauska Castle・拉脱维亚・包斯卡`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，想象一下，你穿过拉脱维亚宁静的乡村，路两旁是望不到尽头的田野和森林，空气里满是松针和湿润泥土的气息。然后，毫无预警地，一座巨大的、苍灰色的石头建筑群出现在缓坡之上，两条河流在它脚下交汇。那就是包斯卡城堡给你的第一眼震撼——它不是童话里那种完美无缺的尖塔城堡，而更像一个从大地里生长出来的、带着伤痕的巨人。一边是挺拔的塔楼和修缮完好的宫殿墙面，在阳光下泛着温暖的蜜色；另一边却是断壁残垣，巨大的石块散落一地，野草和苔藓肆意地从砖缝里探出头来。那种强烈的对比，会让你瞬间屏住呼吸。
+走近它，感官的体验会更加强烈。风从穆萨河和梅梅莱河的交汇处吹来，穿过废墟的空窗，发出低沉悠长的呜咽，像是几个世纪前的叹息。你用手触摸宫殿部分光滑的石灰墙面，指尖传来的是精心修复后的平整；而几步之外，当你抚上废墟区那些被炮火熏黑、被风雨侵蚀了五百年的巨石，粗糙、冰冷、凹凸不平的触感直抵心底，仿佛能摸到时间的断层。空气里，修复部分的木结构散发着淡淡的桐油味，而废墟区则混杂着青草、湿土和古老石头特有的、略带金属感的冷冽气息。
+最迷人的是，这座城堡并非一个与世隔绝的博物馆。你看，当地的老夫妇会在傍晚沿着河岸散步，自然而然地把它当作背景；孩子们在开阔的草地上追逐，笑声飘过古老的城墙。它既是国家级的遗迹，也是包斯卡人日常生活风景的一部分。这种毫不做作的融合，让它少了许多名胜的疏离感，多了几分厚重的亲切。
+它的核心魅力，就在于这种“未完成”或“半衰败”的状态。它没有试图掩盖伤痛，粉饰太平，而是坦然地将历史的各个断层——辉煌、战争、毁灭、遗忘、重生——全部并置在你眼前。你不是在阅读一本历史书，你是站在了书页的撕裂缝隙里，同时看到了它的过去和现在。这种直面沧桑的坦诚，比任何金碧辉煌的完整宫殿，都更有直击灵魂的力量。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，想象一下，你穿过拉脱维亚宁静的乡村，路两旁是望不到尽头的田野和森林，空气里满是松针和湿润泥土的气息。然后，毫无预警地，一座巨大的、苍灰色的石头建筑群出现在缓坡之上，两条河流在它脚下交汇。那就是包斯卡城堡给你的第一眼震撼——它不是童话里那种完美无缺的尖塔城堡，而更像一个从大地里生长出来的、带着伤痕的巨人。一边是挺拔的塔楼和修缮完好的宫殿墙面，在阳光下泛着温暖的蜜色；另一边却是断壁残垣，巨大的石块散落一地，野草和苔藓肆意地从砖缝里探出头来。那种强烈的对比，会让你瞬间屏住呼吸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近它，感官的体验会更加强烈。风从穆萨河和梅梅莱河的交汇处吹来，穿过废墟的空窗，发出低沉悠长的呜咽，像是几个世纪前的叹息。你用手触摸宫殿部分光滑的石灰墙面，指尖传来的是精心修复后的平整；而几步之外，当你抚上废墟区那些被炮火熏黑、被风雨侵蚀了五百年的巨石，粗糙、冰冷、凹凸不平的触感直抵心底，仿佛能摸到时间的断层。空气里，修复部分的木结构散发着淡淡的桐油味，而废墟区则混杂着青草、湿土和古老石头特有的、略带金属感的冷冽气息。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最迷人的是，这座城堡并非一个与世隔绝的博物馆。你看，当地的老夫妇会在傍晚沿着河岸散步，自然而然地把它当作背景；孩子们在开阔的草地上追逐，笑声飘过古老的城墙。它既是国家级的遗迹，也是包斯卡人日常生活风景的一部分。这种毫不做作的融合，让它少了许多名胜的疏离感，多了几分厚重的亲切。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，就在于这种“未完成”或“半衰败”的状态。它没有试图掩盖伤痛，粉饰太平，而是坦然地将历史的各个断层——辉煌、战争、毁灭、遗忘、重生——全部并置在你眼前。你不是在阅读一本历史书，你是站在了书页的撕裂缝隙里，同时看到了它的过去和现在。这种直面沧桑的坦诚，比任何金碧辉煌的完整宫殿，都更有直击灵魂的力量。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`包斯卡城堡`} />
+                <InfoRow label="英文名称" value={`Bauska Castle`} />
+                <InfoRow label="正式名称" value={`Bauska Castle`} />
+                <InfoRow label="国家" value={`拉脱维亚`} />
+                <InfoRow label="城市" value={`包斯卡`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它是立窝尼亚骑士团在波罗的海地区建造的最后一批重要堡垒之一，也是后来库尔兰和瑟米利亚公国公爵的宫殿所在地。`} />
+                <InfoRow label="建筑特色" value={`独一无二的“半废墟半宫殿”结构，将15世纪军事堡垒的粗粝废墟与16-17世纪文艺复兴宫殿的精美修复部分完美融合。`} />
+                <InfoRow label="建筑风格" value={`主体为哥特式与文艺复兴式风格的混合与叠加。`} />
+                <InfoRow label="文化价值" value={`生动见证了拉脱维亚土地上立窝尼亚骑士团的终结、库尔兰公国的兴起与衰落，是波罗的海地区权力更迭的立体编年史。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`旺季（五月至九月）通常每日开放，时间为上午10点至下午6点。淡季（十月至次年四月）开放时间缩短，通常为上午11点至下午4点，且周一和周二可能闭馆。具体开放时间请务必在出发前查阅官方网站，冬季可能因天气原因临时关闭部分区域。`} />
+              <InfoRow label="门票价格" value={`成人票约6欧元，学生及长者票约4欧元，家庭票（2大+2小）约15欧元。门票通常包含城堡宫殿部分的博物馆展览导览。仅参观外围废墟区域可能有更低廉的票价选项。建议准备少量现金。`} />
+              <InfoRow label="地址" value={`Pils iela, Bauska, LV-3901, Latvia`} />
+              <InfoRow label="交通方式" value={`从里加国际机场或里加中央火车站出发，最便捷的方式是自驾，沿A7公路向东南行驶约70公里，耗时约1小时。若乘坐公共交通，可从里加中央巴士站乘坐前往包斯卡的长途巴士，班次频繁（约每1-2小时一班），车程约1.5小时。抵达包斯卡巴士站后，城堡就在城镇边缘，步行约15-20分钟即可到达，沿途有清晰路标。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲包斯卡城堡的故事，我们得把时钟拨回到15世纪中叶。那时，统治着今天拉脱维亚和爱沙尼亚大片土地的，是那个赫赫有名的天主教军事修会——立窝尼亚骑士团。他们就像北境的十字军，一边传播信仰，一边用剑与盾巩固权力。但时局已经不同了，外部强邻环伺，内部统治也开始松动。于是，在1443年，骑士团决定在战略要地——穆萨河与梅梅莱河交汇处，建造一座全新的、更坚固的堡垒，这就是包斯卡城堡的起点。你能想象吗？当时工匠们敲下第一块基石时，想的或许是它能千秋万代，却不知这已是骑士团落日余晖下的最后工程之一。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡在建造和扩建中慢慢成型，成为了骑士团重要的行政和军事中心。然而，历史的洪流远比石头城墙更湍急。16世纪，宗教改革的浪潮席卷而来，紧接着是漫长的立窝尼亚战争。俄罗斯沙皇伊凡雷帝的军队、波兰-立陶宛联邦、瑞典王国……各方势力在这片土地上反复拉锯、厮杀。包斯卡城堡作为要塞，自然无法幸免，它在战火中几度易手，墙体上布满了炮弹的凿痕。最终，立窝尼亚骑士团在战争中彻底解体，这片土地进入了新的时代——库尔兰和瑟米利亚公国时期。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这引出了城堡故事的第二章。公国的第一位公爵，哥达的凯特勒，看中了包斯卡城堡的地理位置和残存的基础。他没有完全推倒重来，而是在旧堡垒的旁边，开始建造一座崭新的、符合文艺复兴时期审美的公爵宫殿。于是，奇妙的景象出现了：一边是服务于战争的、厚重阴郁的中世纪堡垒废墟，另一边是追求生活享受、开有巨大窗户、装饰着华丽山墙的宫殿。两种建筑理念，两个时代，被强行拼贴在一起，形成了一种诡异的对话。后来的公爵们，比如雅各布公爵，继续扩建和美化宫殿部分，引入了当时先进的舒适设施，让这里一度成为热闹的宫廷生活场所。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但和平依旧奢侈。17、18世纪的北方战争，再次将城堡卷入漩涡。这一次，它的军事功能被重新启用，也遭受了更致命的打击。尤其是18世纪初，为了阻止瑞典军队利用它，俄罗斯的彼得大帝下令部分摧毁了这座城堡。炮火重点照顾了古老的堡垒部分，许多塔楼和城墙被炸塌，从此沦为今天我们看到的废墟。而宫殿部分也严重受损，逐渐被废弃、遗忘。之后的岁月里，它被人拆取石材，被风雨剥蚀，渐渐被蔓生的植被覆盖，几乎要彻底消失在历史的记忆里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`直到20世纪，特别是拉脱维亚独立后，人们才开始重新审视这座沉默的巨人。考古发掘和修复工作缓慢而审慎地展开。修复者面临一个哲学选择：是让它恢复成某个时代的“完整”模样，还是保留这种历史的伤痕？他们选择了后者。宫殿部分被精心修复，内部设立了博物馆，讲述着库尔兰公国的故事；而堡垒废墟部分，则被稳固、清理，但依然保持其破碎的样貌。正是这个充满智慧的决定，让今天的我们得以站在这个独一无二的时空交汇点上，同时倾听骑士团的战歌、公爵的舞曲，以及战争毁灭一切的轰然巨响。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议你在一个晴朗的上午，最好10点前抵达，这样既能避开可能的中午小高峰，又有充足的光线欣赏建筑细节和拍照。整体游览可以安排3到4个小时，节奏宜慢不宜快。先从外围感受城堡与河流、地貌的关系，然后由外向内，从废墟到宫殿，体验这种从荒凉到精致、从战争到生活的强烈叙事过渡。这样的安排能让你逐步沉浸到历史的情境中，最后在宫殿博物馆里梳理脉络时，之前的所有感官体验都会串联起来，理解会格外深刻。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`废墟区地面不平，布满碎石，务必穿一双防滑、结实的步行鞋，高跟鞋在这里寸步难行且危险。冬季或雨后部分区域可能非常湿滑，要格外小心。博物馆内的解说牌可能只有拉脱维亚语和英语，可以提前在手机上下载好翻译软件备用。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从远处河岸边的步道开始，静静地凝视城堡全景，看它如何雄踞于两河交汇的舌状高地上，理解其最初的战略意义。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着缓坡走上城堡山，首先踏入堡垒的废墟区，用手触摸那些巨大、冰冷且布满凹痕的防御城墙，感受它的坚韧与伤痕。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在废墟的核心庭院驻足，仰视仅存的塔楼残骸，想象当年守军在此瞭望与奋战的情景，风声就是最好的背景音。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过一道连接废墟与宫殿的小门，瞬间踏入另一个世界，眼前是修缮一新的文艺复兴式宫殿立面，注意装饰性山墙和整齐的窗户带来的视觉转变。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`进入宫殿内部，按照博物馆的导览路线，仔细观看关于库尔兰公国历史、公爵生活和城堡考古发现的展览。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`不要错过宫殿上层某个面向废墟的窗口，站在那里，你会获得一个将两个时代框在同一画面里的绝妙视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果有体力，一定要爬上宫殿的主塔楼（如果开放），那是俯瞰整个包斯卡城镇、两条蜿蜒河流以及城堡全貌的制高点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，从城堡出来，不要急着离开，绕到背面的河边草坡上坐下，像当地人一样，在夕阳下回味这座建筑带给你的复杂感受。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`两河交汇处的南岸草地`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，从这里可以拍到城堡及其水中倒影的全景，利用河流的曲线作为前景，构图极具纵深感和故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`废墟拱门下的框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`站在某个残存的拱门或窗框内，以门框为画框，拍摄对面修复完好的宫殿部分，这种强烈的对比是包斯卡的视觉精髓。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`宫殿塔楼顶层俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`如果塔楼开放，这里是拍摄城堡建筑群几何布局、以及远处拉脱维亚田园风光的绝佳位置，建议使用广角镜头。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`夕阳下的废墟剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落时分，走到城堡西侧，拍摄夕阳将堡垒残骸的轮廓映成深邃剪影的画面，充满历史的苍凉感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`博物馆内的细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`将镜头对准宫殿内部修复后的木质天花板、彩绘瓷砖壁炉或某个古老的钥匙，捕捉文艺复兴时期的装饰细节。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效减少石头表面和水面的反光，让色彩更饱和。无人机飞行在此区域可能有严格限制，务必提前查询当地法规并获得许可，尊重历史遗迹的宁静。拍摄当地居民时请务必先微笑示意并获得同意。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在包斯卡镇上由老房子改建的温馨家庭旅馆，主人会为你准备丰盛的拉脱维亚式早餐，并告诉你镇上只有本地人才知道的面包店。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择距离城堡几公里外、隐藏在森林旁的乡村度假屋，全是原木结构，晚上在壁炉旁喝茶，能听到窗外最纯粹的寂静。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车半小时返回里加，入住道加瓦河畔的五星级历史酒店，在顶楼酒吧用一杯香槟结束充满历史感的一天，将古典与现代的享受无缝衔接。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`便捷中转`}</h4>
+                  <p className="text-sm text-purple-800">{`如果你计划继续探索拉脱维亚南部或前往立陶宛，可以选择包斯卡或附近枢纽城市耶尔加瓦的现代商务酒店，交通便利，设施标准化。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`包斯卡本身是个安静的小镇，夜间娱乐选择很少，但这正是沉浸式体验的一部分。夏季是旅游旺季，特别是周末，小镇住宿可能会紧张，建议提前预订。拉脱维亚总体治安很好，小镇更是民风淳朴，可以安心散步。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开包斯卡城堡很久以后，那片废墟与宫殿交织的景象，还会不时地在脑海里浮现。它不像那些完美复原的景点，给你一种抽离现实的、舞台剧般的观赏体验。恰恰相反，它用一种近乎残酷的诚实，把历史的暴力、时间的磨损、文明的断层，都赤裸裸地摊开在你面前。你会感受到一种复杂的情绪：有对昔日辉煌的遥想，有对战争破坏的叹息，也有对生命在废墟上再次萌动的欣慰。这种五味杂陈，正是深度旅行最珍贵的收获——它不提供简单的答案，而是提出深刻的问题。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个快节奏的、追求崭新和光鲜的世界里，包斯卡城堡像一位沉默的智者，提醒着我们：完整未必是美，伤痕亦是历史的一部分；毁灭与创造，衰败与重生，从来都是交替进行的二重奏。每一位热爱深度游的旅人，都应该来感受一下这种“不完美”的震撼。它教会我们的，或许不仅仅是某段波罗的海的历史，更是一种看待时间、看待文明遗迹的深刻视角——不是缅怀一座死去的纪念碑，而是理解一个依然在呼吸的、层叠的生命体。站在它的城墙下，你会明白，真正的永恒，或许就藏在这种生生不息的变迁里。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/cesis-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    采
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">采西斯古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cēsis Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/cesis-old-town-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    采
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">采西斯古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cēsis Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sigulda-medieval-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    锡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">锡古尔达中世纪城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sigulda Medieval Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

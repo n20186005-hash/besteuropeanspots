@@ -199,6 +199,32 @@ categories.forEach(cat => {
     const safeTitle = (data['SEO标题'] || `${data['景点中文名']}・${data['景点英文名']}・${data['国家']}・${data['城市']} | 最佳欧洲景点`).replace(/'/g, "\\'");
     const safeDesc = (data['核心简介'] || '').substring(0, 150).replace(/\n/g, ' ').replace(/'/g, "\\'");
 
+    // 从已有数据库中随机抽取 3 个相关的景点（同国家或同类型），作为猜你喜欢
+    const relatedAttractions = attractionsData
+      .filter(a => a.slug !== slug && (a.country === data['国家'] || a.type === data['类型']))
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 3);
+
+    let relatedHtml = '';
+    if (relatedAttractions.length > 0) {
+      relatedHtml = `
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+${relatedAttractions.map(a => `              <a href="/attractions/${a.slug}" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    ${a.name[0]}
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">${a.name}</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">${a.englishName}</p>
+                  </div>
+                </div>
+              </a>`).join('\n')}
+            </div>
+          </Section>`;
+    }
+
     const pageContent = `import { Metadata } from 'next'
 import { Section } from '@/components/Section'
 import { InfoRow } from '@/components/InfoRow'
@@ -310,6 +336,7 @@ ${formatParagraphs(data['住宿补充说明'])}
 ${formatParagraphs(data['总结感悟'])}
             </div>
           </Section>
+${relatedHtml}
         </div>
       </div>
     </div>
@@ -363,6 +390,39 @@ ${formatParagraphs(data['总结感悟'])}
 // 如果有任何修改，则保存更新后的 JSON
 if (totalSuccessCount > 0) {
   fs.writeFileSync(jsonFile, JSON.stringify(attractionsData, null, 2), 'utf-8');
+  
+  // ==============================
+  // 自动生成 sitemap.xml
+  // ==============================
+  const sitemapPath = path.join(rootDir, 'public', 'sitemap.xml');
+  const baseUrl = 'https://www.besteuropeanspots.com';
+  const currentDate = new Date().toISOString().split('T')[0];
+
+  let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  sitemapContent += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+
+  // 首页
+  sitemapContent += `  <url>\n    <loc>${baseUrl}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</lastmod>\n    <priority>1.0</priority>\n  </url>\n`;
+
+  // 所有分类页
+  const allCategories = ['encyclopedia', 'travelogue', 'history'];
+  allCategories.forEach(c => {
+    sitemapContent += `  <url>\n    <loc>${baseUrl}/category/${c}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+  });
+
+  // 所有景点页
+  attractionsData.forEach(a => {
+    sitemapContent += `  <url>\n    <loc>${baseUrl}/attractions/${a.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
+  });
+
+  sitemapContent += `</urlset>`;
+
+  const publicDir = path.join(rootDir, 'public');
+  if (!fs.existsSync(publicDir)) {
+    fs.mkdirSync(publicDir, { recursive: true });
+  }
+  fs.writeFileSync(sitemapPath, sitemapContent, 'utf-8');
+  console.log(`\n🗺️  已自动更新站点地图：sitemap.xml (共包含 ${attractionsData.length + 4} 个页面)`);
 }
 
 console.log(`\n=========================================`);

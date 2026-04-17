@@ -1,0 +1,228 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '斯海尔托亨博斯 \'s-Hertogenbosch｜揭秘北方威尼斯与艺术怪杰博斯的故乡 - 最佳欧洲景点',
+  description: '第一次听到它的名字——’s-Hertogenbosch——你可能像所有外国人一样舌头打结。当地人笑着让你简称“Den Bosch”（登博斯）就好。而当你走出火车站，穿过现代化的商业街，突然踏进那座古老的城门时，时间仿佛“咔嗒”一声被调慢了。首先包裹你的不是景象，而是一种混合的气味：老砖石在雨后散发的...',
+}
+
+export default function SHertogenboschHistoricCentrePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '斯海尔托亨博斯（或简称登博斯）', href: '/attractions/s-hertogenbosch-historic-centre' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`斯海尔托亨博斯（或简称登博斯）・'s-Hertogenbosch・荷兰・斯海尔托亨博斯`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一次听到它的名字——’s-Hertogenbosch——你可能像所有外国人一样舌头打结。当地人笑着让你简称“Den Bosch”（登博斯）就好。而当你走出火车站，穿过现代化的商业街，突然踏进那座古老的城门时，时间仿佛“咔嗒”一声被调慢了。首先包裹你的不是景象，而是一种混合的气味：老砖石在雨后散发的微凉土腥气，从街角面包店飘出的、带着肉桂甜香的温暖空气，还有从不远处运河水面升腾起来的、略带青苔味的湿润水汽。
+你的眼睛需要一点时间来适应。这里没有阿姆斯特丹那种扑面而来的、戏剧化的运河景观，一切都更隐秘、更内敛。主要的河流环绕着老城，像一条护城河，而真正的魔法藏在地下——或者说，藏在房子的底部。你会发现有些建筑的墙壁直接插进水里，拱门下藏着小小的码头，狭窄的水道悄无声息地消失在两栋房子之间的暗影里。这就是登博斯独一无二的“Binnendieze”，一个建于中世纪、曾经作为城市下水道和运输通道的迷宫般的内运河系统。耳边传来的是悠闲的自行车铃声，咖啡馆外人们用带着柔软Brabant口音的荷兰语轻声谈笑，偶尔有游船引擎的低鸣从某条水道深处隐隐传来，提醒着你这座城市是建在水上的秘密。
+斯海尔托亨博斯最动人的，是它那种“活着的博物馆”状态。雄伟的圣约翰大教堂（Sint-Janskathedraal）不仅仅是景点，更是市民生活的背景板。你会看到西装革履的上班族匆匆穿过教堂广场，自行车就随意停在哥特式飞扶壁旁边；周末的市集广场（Markt）上，奶酪摊、鲜花摊和海鲜摊的热闹喧嚣，就发生在那排色彩柔和的文艺复兴风格山墙建筑脚下。这里没有那种被旅游业完全吞噬的疏离感，你感受到的是一种深厚的、自给自足的生活尊严，历史不是被展示的标本，而是他们每天呼吸的空气和行走的地面。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一次听到它的名字——’s-Hertogenbosch——你可能像所有外国人一样舌头打结。当地人笑着让你简称“Den Bosch”（登博斯）就好。而当你走出火车站，穿过现代化的商业街，突然踏进那座古老的城门时，时间仿佛“咔嗒”一声被调慢了。首先包裹你的不是景象，而是一种混合的气味：老砖石在雨后散发的微凉土腥气，从街角面包店飘出的、带着肉桂甜香的温暖空气，还有从不远处运河水面升腾起来的、略带青苔味的湿润水汽。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你的眼睛需要一点时间来适应。这里没有阿姆斯特丹那种扑面而来的、戏剧化的运河景观，一切都更隐秘、更内敛。主要的河流环绕着老城，像一条护城河，而真正的魔法藏在地下——或者说，藏在房子的底部。你会发现有些建筑的墙壁直接插进水里，拱门下藏着小小的码头，狭窄的水道悄无声息地消失在两栋房子之间的暗影里。这就是登博斯独一无二的“Binnendieze”，一个建于中世纪、曾经作为城市下水道和运输通道的迷宫般的内运河系统。耳边传来的是悠闲的自行车铃声，咖啡馆外人们用带着柔软Brabant口音的荷兰语轻声谈笑，偶尔有游船引擎的低鸣从某条水道深处隐隐传来，提醒着你这座城市是建在水上的秘密。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`斯海尔托亨博斯最动人的，是它那种“活着的博物馆”状态。雄伟的圣约翰大教堂（Sint-Janskathedraal）不仅仅是景点，更是市民生活的背景板。你会看到西装革履的上班族匆匆穿过教堂广场，自行车就随意停在哥特式飞扶壁旁边；周末的市集广场（Markt）上，奶酪摊、鲜花摊和海鲜摊的热闹喧嚣，就发生在那排色彩柔和的文艺复兴风格山墙建筑脚下。这里没有那种被旅游业完全吞噬的疏离感，你感受到的是一种深厚的、自给自足的生活尊严，历史不是被展示的标本，而是他们每天呼吸的空气和行走的地面。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`斯海尔托亨博斯（或简称登博斯）`} />
+                <InfoRow label="英文名称" value={`'s-Hertogenbosch`} />
+                <InfoRow label="正式名称" value={`'s-Hertogenbosch`} />
+                <InfoRow label="国家" value={`荷兰`} />
+                <InfoRow label="城市" value={`斯海尔托亨博斯`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`荷兰保存最完好的中世纪防御城市之一，也是欧洲独一无二的“城内运河”（Binnendieze）系统的所在地。`} />
+                <InfoRow label="建筑特色" value={`错综复杂的水道网络穿行于房屋地基之下，哥特式巨构圣约翰大教堂拥有如梦似幻的雕塑群。`} />
+                <InfoRow label="建筑风格" value={`以北布拉班特晚期哥特式风格为主，混搭文艺复兴及荷兰古典主义元素。`} />
+                <InfoRow label="文化价值" value={`这里是文艺复兴时期最神秘的绘画大师耶罗尼米斯·博斯的出生地与灵感源泉，其怪诞奇幻的艺术风格深深烙印在城市气质中。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`历史城区及公共空间全天开放。主要景点如圣约翰大教堂开放时间为周一至周六上午10:00至下午5:00，周日下午12:00至5:00，冬季（11月至3月）会提前一小时关闭。运河游船运营时间通常在每年3月中旬至10月底，每日上午10点至下午5点，每半小时左右一班，具体视天气和水量而定。市立博物馆等室内场馆一般为周二至周日开放，周一闭馆。节假日如圣诞节和元旦当天大部分室内景点关闭。`} />
+              <InfoRow label="门票价格" value={`进入历史城区免费。圣约翰大教堂参观免费，但登塔和参观珍宝室需要付费，成人票约6欧元。市立博物馆成人票约12-15欧元。运河游船票价约10-12欧元。持有荷兰博物馆卡可免费进入大部分博物馆。学生、65岁以上老人通常享有折扣，儿童在一定年龄下免费。`} />
+              <InfoRow label="地址" value={`Markt 77, 5211 JX 's-Hertogenbosch, Netherlands`} />
+              <InfoRow label="交通方式" value={`从阿姆斯特丹史基浦机场出发最便捷：在机场火车站直接乘坐直达的城际列车（Intercity），方向为马斯特里赫特或芬洛，约1小时即可直达斯海尔托亨博斯中央车站，车次频繁（约每15-30分钟一班），可在NS官网或售票机购票。从埃因霍温或乌得勒支出发则更快，约20-30分钟车程。中央火车站步行至老城中心（市集广场）仅需10-15分钟，沿途有清晰指示牌。不建议自驾进入老城核心区，可将车停在火车站或城墙外的大型停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从1185年讲起。那时，布拉班特公爵亨里克一世看中了 Dommel 河和 Aa 河交汇处的这片沼泽林地。“公爵的森林”——这正是 ‘s-Hertogenbosch 这个名字的原意。他在这里建立了一个设防的定居点，初衷很简单：巩固权力，征收贸易税。得益于水路要道，这座小镇迅速繁荣起来，羊毛和纺织贸易让它盆满钵满。到13世纪，它已经获得了城市特许状，并开始修建那标志性的、至今轮廓仍清晰可见的椭圆形城墙。但在这片低洼的沼泽地建房是个技术噩梦，于是，智慧的居民们想出了办法：他们将自然水道加以改造、拓宽、连通，创造出一个复杂的人工运河网，即Binnendieze。它最初用于排水、运输货物，甚至作为制革厂和酿酒厂的“工业水道”，成了这座城市跳动的地下静脉。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`城市的财富与信仰，最终凝结成了那座令人瞠目结舌的建筑——圣约翰大教堂。它的建造跨越了几个世纪，从1340年左右开始，到16世纪才基本完工。这不是一座温和的教堂，而是一座用砂岩雕刻的、指向天际的信仰狂想曲。尤其是它的外部，简直是一个中世纪的石雕百科全书。数百尊雕像——圣徒、先知、天使、寓言人物，甚至一些滑稽的怪物——爬满了飞扶壁、窗棂和檐口。其中最著名的是那座高耸入云的“天使像”。但教堂的命运多舛，1566年的“破坏圣像运动”中，内部无数珍贵的艺术品被新教徒捣毁。随后，在荷兰反抗西班牙统治的八十年战争中，这座城市因其天主教堡垒的地位而被重重围困，教堂遭受炮击，部分被毁。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`战争结束后，荷兰北部成为新教共和国，而斯海尔托亨博斯作为南部（西属尼德兰）的一部分，保留了天主教信仰。这使它成了一个“异类”，某种程度上被孤立，但也因此保存了其独特的天主教文化遗产。17、18世纪，它作为要塞城市继续发展，城墙被加固，但经济光彩已略逊于黄金时代的阿姆斯特丹。命运的转折点发生在19世纪。随着防御功能过时，人们开始填平部分运河以改善卫生，许多Binnendieze水道被掩埋、遗忘。直到20世纪70年代，人们才重新认识到这套水下迷宫的历史价值，开始了漫长而艰辛的清理与修复工程，让这条“被遗忘的河流”重见天日。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而这座城市最著名的儿子，无疑为它披上了一层永恒的神秘面纱。约1450年，耶罗尼米斯·范·阿肯（Hieronymus van Aken）出生在这里，他后来以家乡的名字为自己取名——耶罗尼米斯·博斯（Hieronymus Bosch）。他的画作里那些燃烧的怪塔、半人半鱼的生物、从巨大水果里爬出的诡异人群，其灵感源泉很可能就来自这座城市本身：教堂雕塑上狰狞的滴水嘴兽，Binnendieze幽暗水道里那些潮湿阴森的角落，以及中世纪集市上贩卖的奇异标本和民间传说。博斯那超越时代的想象力，就像这座城市地下隐藏的运河一样，成了深植于登博斯土壤中的集体潜意识。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的登博斯一日游，应该从清晨开始，大约九点前抵达。这时旅行团的大巴还未涌入，阳光斜射，为老城的街道和教堂雕塑投下长长的、富有戏剧性的影子。整个深度游览大约需要6-8小时，节奏宜张弛有度。上午重点探索地面上的宏伟（教堂与广场），中午参与一次运河游船揭秘地下世界，下午沉浸在艺术与市井生活之中。这样的安排能让你在光线最佳时欣赏建筑细节，避开游船排队高峰，并在午后最慵懒的时光里像当地人一样享受一杯咖啡。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必提前在线查看运河游船的运营日期和时间，并尽可能预订最早班次，午后人流最多可能需要排队一小时以上。穿一双绝对舒适防滑的鞋，老城的石板路被岁月打磨得有些凹凸不平，且运河边可能湿滑。警惕那些过分热情的“指路人”或街头赌局，老城治安总体很好，但保持一般旅行警惕即可。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`溜进清晨宁静的圣约翰大教堂侧门，让眼睛在宏伟中殿的幽暗中慢慢适应，然后花至少半小时仰头细看那些被彩色玻璃窗过滤的、仿佛有生命的光柱如何缓缓移动，照亮管风琴和无数精致的石刻。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕着教堂外部走完整整一圈，像个好奇的考古学家，抬头寻找那些藏在飞扶壁和檐口上的滑稽石像鬼、演奏乐器的天使以及表情肃穆的圣徒，别忘了找到西立面上方那座著名的天使雕像。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在市集广场的游客中心购买Binnendieze运河游船票，选择最早的一班，坐在船头位置准备进入城市腹地最隐秘的水道，记得带上薄外套因为水下洞穴般的通道会有点阴凉。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`游船结束后回到地面，沿着市政厅（Stadhuis）旁的小巷随意乱走，用手触摸那些因年代久远而变得温润的砖墙，留意那些悬挂在古老山墙上的精美锻铁招牌。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进 Noordbrabants 博物馆，不为别的，就为那个专门收藏博斯作品及其同时代画家真迹的展厅，站在那些充满奇思妙想的画作前，试着寻找与你在街头所见雕塑的隐秘联系。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后找一家临水或面向广场的咖啡馆，点一杯本地特色的“Bossche Bol”（一种巨大的、裹满巧克力的奶油泡芙）和咖啡，纯粹地发呆，看运河里的鸭子，观察来来往往的本地人。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果还有精力，登上重新修复的城防工事“Bastion De Munt”或“Boltoren”塔楼，从另一个角度俯瞰老城红瓦屋顶的波浪和远处教堂尖顶构成的和谐天际线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分回到圣约翰教堂广场，此时游客已散，夕阳的金色光芒正好打在教堂西立面的玫瑰窗和雕塑上，坐下来静静聆听可能从教堂里传出的晚祷钟声或管风琴试音。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣约翰教堂南侧运河桥上的全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点到日落前，阳光从西面照射，将教堂雄伟的南立面连同其在水中的倒影一同纳入镜头，使用广角镜头并蹲低一点以纳入更多前景水面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`Binnendieze游船经过的狭窄拱门下`}</h4>
+                  <p className="text-sm text-gray-700">{`当船缓缓驶入几乎伸手可触墙壁的昏暗水道时，利用拱门形成的天然画框，拍摄前方被阳光照亮的水道出口，营造一种“穿越时空隧道”的纵深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`市集广场东侧拱廊下`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点左右，阳光穿过拱廊，在古老地砖上形成规律的光影线条，等待一个骑自行车的人或提着面包袋的居民穿过，捕捉充满生活气息的瞬间。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`Noordbrabants博物馆内连接新旧馆的玻璃走廊`}</h4>
+                  <p className="text-sm text-gray-700">{`从这里可以拍到现代玻璃结构与后方历史老建筑（如教堂尖顶）的同框，最佳时间是晴天的中午，建筑线条在蓝天下格外清晰。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`教堂内部允许拍照但严禁使用闪光灯和三脚架，请务必遵守。尊重当地居民隐私，拍摄街边咖啡馆或居民窗台时尽量使用长焦，避免 intrusive 的特写。无人机飞行在历史城区有严格限制，未经许可请勿起飞。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`运河边的秘密阁楼`}</h4>
+                  <p className="text-sm text-blue-800">{`住在经过现代化改造的17世纪商人房屋顶层，倾斜的木梁下是舒适的空间，打开窗户就能看到底下静静流淌的Binnendieze支流，清晨只有水声和鸟鸣。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`设计感十足的中庭酒店`}</h4>
+                  <p className="text-sm text-green-800">{`由老城中心的历史建筑改造，内部是干净的北欧风格，环绕着一个宁静的玻璃中庭花园，是逛累一天后完美的避世绿洲。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`教堂景观精品酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`房间窗户正对着圣约翰大教堂的侧翼或广场，黄昏时分你可以泡在浴缸里，看教堂的石像在暮色中逐渐变成剪影，华灯初上。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`城外宁静的乡间别墅`}</h4>
+                  <p className="text-sm text-purple-800">{`如果你自驾，可以选择老城外围运河边一座19世纪的别墅民宿，主人会提供免费自行车，让你像本地人一样骑行十分钟进城，享受夜晚的绝对宁静。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的酒店通常由历史建筑改造，房间格局可能不规则且楼梯较陡，预订时请留意。周末（特别是夏季）和大型活动（如著名的爵士音乐节）期间住宿非常紧俏，务必提前数月预订。住在城墙内虽然价格略高，但能获得沉浸式的体验和夜晚漫步空荡老街的特权。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开斯海尔托亨博斯很久以后，我发现自己最常回想起的，不是某一张明信片般的风景，而是一种混合的“感觉”。是脚踩在湿润鹅卵石上微微的硌脚感，是游船钻进低矮拱门时不由自主低下头的那一瞬间的黑暗与凉意，是坐在广场上，看着教堂那些数不清的雕像在变幻的天光下仿佛随时要活过来的那种奇幻感。这座城市教会我的，是一种“慢下来”的观察方式。它的美不是铺陈开来任你攫取的，而是隐藏的、需要你去探寻和解读的。就像博斯的画，第一眼是怪诞，第二眼是细节，第三眼，你看到了一个时代集体的恐惧、欲望与梦想。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率和亮点的快节奏世界里，登博斯固执地保留着自己的节奏和秘密。它不像邻居阿姆斯特丹那样喧嚣与外向，它更内向、更沉思。来这里，不是为了打卡，而是为了进行一次小小的“考古”——对城市空间的考古，也是对自我感知力的考古。你会重新学会用眼睛去发现屋檐上的怪物，用耳朵去聆听水道深处的回音，用想象力去连接石头与画布。它或许永远不会成为欧洲最热门的旅游目的地，但这恰恰是它的珍贵之处。对于那些厌倦了表面喧嚣，渴望触摸历史真实纹理，并在宁静中发现奇幻的旅人来说，斯海尔托亨博斯是一个值得专程前往的、关于时间与存在的温柔提醒。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/roermond-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    鲁
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">鲁尔蒙德老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Roermond Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/koppelpoort" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿默斯福特中世纪城门</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Koppelpoort</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kasteel-de-haar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克莱沃城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kasteel de Haar</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

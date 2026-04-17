@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '皮蒂利亚诺 Pitigliano｜悬崖上的凝灰岩奇迹与“小耶路撒冷”的千年回响 - 最佳欧洲景点',
+  description: '记得我第一次看到皮蒂利亚诺，是在一个托斯卡纳的黄昏。车子在丘陵间蜿蜒，突然，远方地平线上，一整片金色的、参差不齐的悬崖拔地而起，而悬崖顶端，密密麻麻的石屋、塔楼和教堂尖顶，像一座巨大的空中堡垒，又像一艘石质的巨轮，正沉默地航行在墨绿色丘陵的浪涛之上。那一刻的视觉冲击，带着某种古老而倔强的力量，让人瞬...',
+}
+
+export default function PitiglianoPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '皮蒂利亚诺（凝灰岩之城）', href: '/attractions/pitigliano' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`皮蒂利亚诺（凝灰岩之城）・Pitigliano・意大利・皮蒂利亚诺（位于托斯卡纳大区格罗塞托省）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`记得我第一次看到皮蒂利亚诺，是在一个托斯卡纳的黄昏。车子在丘陵间蜿蜒，突然，远方地平线上，一整片金色的、参差不齐的悬崖拔地而起，而悬崖顶端，密密麻麻的石屋、塔楼和教堂尖顶，像一座巨大的空中堡垒，又像一艘石质的巨轮，正沉默地航行在墨绿色丘陵的浪涛之上。那一刻的视觉冲击，带着某种古老而倔强的力量，让人瞬间忘了呼吸。没有预告，没有过渡，文明就这样以最原始、最直接的方式，从大地母亲的身体里“长”了出来。
+开车再近一些，穿过横跨深谷的巨大石拱桥，你就真正进入了这座“石头奇迹”的内部。空气里的味道很特别，混合着凝灰岩在阳光下散发的微暖的矿物质气息、从老面包房里飘出的酵母焦香，还有小巷深处潮湿的、带着苔藓味道的阴凉。脚下的路不再是路，而是被无数代人磨得光滑如镜的岩石本身，你的脚步声在这里会有回响，哒，哒，敲击着千百年的时光。当地人似乎早已习惯了与岩石共生，他们的阳台从岩壁上探出，晒着雪白的床单；他们的酒窖就在客厅地板下方，深不见底；连小广场上的咖啡馆，也像是从一块完整的巨石里凿出来的洞穴。
+这座城最动人的，远不止这鬼斧神工的外观。在迷宫般的小巷深处，藏着另一个灵魂——这里是意大利历史上著名的“小耶路撒冷”。从16世纪起，被迫害的犹太人逃难至此，受到了当地奥尔西尼领主的庇护，在此建立了繁荣的社区。你会偶然发现一扇不起眼的门，进去后却是深邃的犹太面包房、洁食屠宰场、 ritual bath 的遗迹。两种信仰，两种文化，在这片共同的岩石上，找到了不可思议的和谐。这种深植于石头缝隙里的人性光辉，让皮蒂利亚诺的魅力，从视觉的震撼，沉潜到了心灵的共鸣。它不是一座冰冷的博物馆，而是一个依然在呼吸的、关于生存、庇护与共生的温暖故事。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`记得我第一次看到皮蒂利亚诺，是在一个托斯卡纳的黄昏。车子在丘陵间蜿蜒，突然，远方地平线上，一整片金色的、参差不齐的悬崖拔地而起，而悬崖顶端，密密麻麻的石屋、塔楼和教堂尖顶，像一座巨大的空中堡垒，又像一艘石质的巨轮，正沉默地航行在墨绿色丘陵的浪涛之上。那一刻的视觉冲击，带着某种古老而倔强的力量，让人瞬间忘了呼吸。没有预告，没有过渡，文明就这样以最原始、最直接的方式，从大地母亲的身体里“长”了出来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`开车再近一些，穿过横跨深谷的巨大石拱桥，你就真正进入了这座“石头奇迹”的内部。空气里的味道很特别，混合着凝灰岩在阳光下散发的微暖的矿物质气息、从老面包房里飘出的酵母焦香，还有小巷深处潮湿的、带着苔藓味道的阴凉。脚下的路不再是路，而是被无数代人磨得光滑如镜的岩石本身，你的脚步声在这里会有回响，哒，哒，敲击着千百年的时光。当地人似乎早已习惯了与岩石共生，他们的阳台从岩壁上探出，晒着雪白的床单；他们的酒窖就在客厅地板下方，深不见底；连小广场上的咖啡馆，也像是从一块完整的巨石里凿出来的洞穴。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座城最动人的，远不止这鬼斧神工的外观。在迷宫般的小巷深处，藏着另一个灵魂——这里是意大利历史上著名的“小耶路撒冷”。从16世纪起，被迫害的犹太人逃难至此，受到了当地奥尔西尼领主的庇护，在此建立了繁荣的社区。你会偶然发现一扇不起眼的门，进去后却是深邃的犹太面包房、洁食屠宰场、 ritual bath 的遗迹。两种信仰，两种文化，在这片共同的岩石上，找到了不可思议的和谐。这种深植于石头缝隙里的人性光辉，让皮蒂利亚诺的魅力，从视觉的震撼，沉潜到了心灵的共鸣。它不是一座冰冷的博物馆，而是一个依然在呼吸的、关于生存、庇护与共生的温暖故事。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`皮蒂利亚诺（凝灰岩之城）`} />
+                <InfoRow label="英文名称" value={`Pitigliano`} />
+                <InfoRow label="正式名称" value={`Pitigliano`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`皮蒂利亚诺（位于托斯卡纳大区格罗塞托省）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座从伊特鲁里亚时代便有人类居住，并在中世纪与文艺复兴时期因奥尔西尼家族而繁荣，同时被誉为“小耶路撒冷”的独特山城，是犹太文化与托斯卡纳乡土文明深刻交融的罕见见证。`} />
+                <InfoRow label="建筑特色" value={`整个城镇如同从巨大的凝灰岩悬崖中自然生长出来，房屋、街道、拱门直接雕刻或建造在淡金色的岩石之上，形成建筑与地质奇迹浑然一体的震撼景象。`} />
+                <InfoRow label="建筑风格" value={`以粗犷质朴的中世纪与文艺复兴风格为主，大量使用本地凝灰岩，建筑线条厚重坚实，与下方被掏空作为酒窖或洞穴的岩石基座形成巧妙对比。`} />
+                <InfoRow label="文化价值" value={`作为历史上接纳犹太难民并形成繁荣社区的“避难之城”，其文化价值超越了建筑本身，体现了宽容共生的普世精神，是一处活着的、充满人文温度的历史记忆场所。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇公共区域全天开放。主要景点如奥尔西尼宫、犹太教堂及博物馆、城墙等开放时间一般为夏季（4月至10月）10:00-19:00，冬季（11月至3月）10:00-17:00，每周一多数室内景点闭馆。重要宗教节日如圣诞节、复活节当天开放时间可能缩短或关闭，建议行前在官网确认。`} />
+              <InfoRow label="门票价格" value={`进入古镇本身免费。参观主要景点通常需购买联票或单独门票：奥尔西尼宫与市立博物馆联票约10欧元；犹太教堂及地下设施参观约5欧元；教堂免费。优惠政策：65岁以上老人、18-25岁学生凭证件享有折扣，18岁以下儿童及残疾人免费。部分教堂捐赠入场建议2-3欧元。`} />
+              <InfoRow label="地址" value={`58017 Pitigliano GR, Italy`} />
+              <InfoRow label="交通方式" value={`从罗马菲乌米奇诺机场出发，最便捷的方式是乘坐区间火车前往奥尔贝泰洛火车站，车程约1.5小时，班次每小时1-2班；抵达奥尔贝泰洛后，换乘RAMA公司运营的巴士前往皮蒂利亚诺，巴士车程约1小时15分钟，每日班次有限（通常每天4-6班），务必提前在车站或Tiemme Spa官网查好时刻表。从佛罗伦萨出发，可先乘火车至格罗塞托，再转乘巴士，总耗时约3小时。自驾是最推荐的方式，从锡耶纳或奥尔贝泰洛沿SS74公路行驶，沿途风景绝美，镇上入口处有大型付费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`皮蒂利亚诺的故事，得从比罗马还要古老的伊特鲁里亚人说起。早在公元前，这些神秘的先民就看中了这片易守难攻的凝灰岩高地，在悬崖上开凿墓穴，建立了最初的定居点。你至今都能在城镇下方的山谷里，找到那些被称为“维伊”的伊特鲁里亚墓窟，像大地的眼睛，沉默地注视着上方。岩石，从最初就决定了这里的命运——它既是天然的屏障，也是取之不尽的建材。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间快进到中世纪，这片土地迎来了决定其面貌的家族——奥尔西尼。这个强大的罗马贵族家族在13世纪成为这里的统治者。传说，当时的一位奥尔西尼贵族，在梦中得到启示，要在一处有泉水涌出的岩石上建立城堡。于是，我们今天看到的城堡核心——雄伟的奥尔西尼宫，开始在此奠基。他们加固城墙，开凿水井，将这座天然要塞打造成一个坚固的据点。更重要的是，奥尔西尼家族奉行相对开明的统治，为日后接纳犹太社区埋下了伏笔。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的转折点发生在16世纪。当时，罗马教廷对犹太人的迫害加剧，教皇颁布法令将他们限制在隔都之内。而1569年，托斯卡纳大公科西莫一世·德·美第奇更是下令将犹太人驱逐出他的主要领土。就在这片黑暗之中，皮蒂利亚诺的奥尔西尼领主们，尤其是尼科洛四世·奥尔西尼，向流离失所的犹太人张开了双臂。他不仅允许他们在城内定居，还赋予了他们经商、从事手工艺和自由信仰的权利。这并非完全出于慈悲，也有经济上的精明考量——犹太商人、学者和手艺人的到来，极大地活跃了本地的经济。但无论如何，一个在别处受尽排挤的群体，在这里找到了安全和家园。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，一个繁荣的犹太社区在岩石城中生根发芽。他们建立了犹太教堂、学校、面包房、洁食屠宰场和 ritual bath。社区最兴盛时，犹太人几乎占了全镇人口的三分之一，“小耶路撒冷”的美名不胫而走。犹太文化与托斯卡纳乡土文化发生了奇妙的化学反应：他们的食谱影响了当地菜肴，他们的知识推动了商业与科学。这种和谐共处持续了几个世纪，直到第二次世界大战的阴影笼罩。纳粹的迫害迫使社区消散，许多人被驱逐，古老的犹太教堂也遭到破坏。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，故事并未终结。战后，特别是近几十年来，皮蒂利亚诺人和一些回归的后裔，开始小心翼翼地修复这段记忆。犹太教堂被重建，地下遗址被清理开放。如今，当你走进那些修复一新的空间，看到希伯来文的铭文与托斯卡纳的石头紧紧相拥，你会明白，皮蒂利亚诺的岩石记录的不只是地质的年轮，更是一段关于宽容与坚韧的、无比珍贵的人类叙事。它从伊特鲁里亚的墓穴，到奥尔西尼的堡垒，再到犹太人的避难所，最终演变成今天这个向世界静静诉说着共生故事的、独一无二的凝灰岩之城。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味皮蒂利亚诺，强烈建议你至少安排一整晚的停留，体验它从清晨宁静到日落辉煌的完整韵律。最佳游览节奏是“慢”。建议第一天下午抵达，办理入住后，先在黄昏时分从城外著名的观景台欣赏全景并拍照。第二天一早，趁着一日游大军尚未涌入时，开始你的古城深度探索。整体游览耗时约5-6小时，从高处的城堡和主广场开始，逐步深入蜿蜒的下城小巷和犹太区，最后探访地下的神秘世界。这样的安排能让你由宏入微，由表及里，层层剥开这座石头之城的内核。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`尽量避开七八月的周末，那时一日游旅客众多，狭窄的主街会异常拥挤。务必穿一双绝对舒适防滑的鞋子，因为这里的“路”很多就是光滑的斜坡岩石，高跟鞋在这里是“灾难”。不要试图在一天内匆忙赶完，留出时间让自己迷路，在某个安静的石头台阶上坐一会儿，才是感受这里灵魂的正确方式。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一早从城外圣方济各门附近的观景台开始，看着晨光将整座凝灰岩之城染成温暖的金色，拍下那标志性的、如同空中楼阁般的震撼全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过古老的圣方济各石门，顺着斜坡向上，立刻右转钻进一条静谧的小巷，去发现那些直接雕刻在岩壁上的古老民居和悬挂着紫藤花的隐秘庭院。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`来到加尔加诺广场，在奥尔西尼宫宏伟的文艺复兴立面下驻足，想象当年领主在此宣布接纳犹太难民的历史性时刻，然后走进旁边的咖啡店像本地人一样点一杯站着喝的浓缩咖啡。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从广场沿着主街（Via Roma）向下漫步，两侧是古老的石砌店铺，留意那些通往地下酒窖的幽深入口和门楣上依稀可辨的古老符号。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在主街中段寻找那个不起眼的拱门入口，由此踏入曾经的犹太隔都，氛围瞬间变得静谧，跟随路标去探访修复后的犹太教堂及其深邃的地下世界——面包房、浸礼池和酒窖。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从犹太区出来，在“小耶路撒冷”作坊买一块用古老配方制作的、带有无花果和坚果的犹太风味蜂蜜饼，边走边尝。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着城墙边缘的步行道散步，从不同角度俯瞰脚下被绿色山谷环抱的景色，并寻找那些从岩石中直接开凿出来的、深达数十米的古伊特鲁里亚水井。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前回到圣方济各门外的观景台，看着夕阳将古城和远方无垠的托斯卡纳丘陵染成一片壮丽的绯红，结束这穿越岩石与时光的一天。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城外观景台（Belvedere di Pitigliano）全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时或日落前一小时光线最佳，使用广角镜头，将前景的深谷、中景的雄伟石拱桥与背景层叠的古城一同纳入画面，营造极强的纵深感与史诗感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`犹太区（Ghetto）小巷光影`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，反而能在狭窄的小巷里形成强烈的明暗对比，找一条有拱门的小巷，拍摄阳光将拱门和石板路分割成几何光影的简洁构图，极具氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`中世纪水井（Fonti Medicee）仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时段，走到古城下方山谷的中世纪水道和水井处，向上仰拍古城全景，能将层层叠叠的房屋与上方天空一同框入，视角独特震撼。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`奥尔西尼宫城墙日落剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落后蓝调时刻，以奥尔西尼宫高大的城墙和塔楼为剪影前景，拍摄远处天际残留的暖色晚霞与逐渐亮起的古城灯火，色彩对比迷人。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`凝灰岩建筑细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`在任何时候，靠近拍摄那些历经风霜的凝灰岩墙壁，捕捉其粗糙的质感、镶嵌的陶罐装饰、或是从石缝中顽强生长出的小花，诉说时间的痕迹。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用三脚架在观景台拍摄日出日落长曝光时请保持安静，不要打扰到周边居民。拍摄当地居民或店铺内部前，请务必先微笑并征得同意，这里的人们友好但重视隐私。尝试在不同天气拍摄，雨后的凝灰岩颜色会变得更深、更饱满，雾气缭绕时则能拍出宛如仙境的神秘感。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济之选`}</h4>
+                  <p className="text-sm text-blue-800">{`老城中心由古老石屋改造的家庭式民宿，房间虽小但充满温馨，老板娘早上会为你准备简单的意式早餐，并热情分享只有本地人才知道的观景角落。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`住在由凝灰岩洞穴精心改建的精品酒店，房间的墙壁就是原始的岩石，恒温舒适，配备现代设施，让你体验一把“穴居”的浪漫与神奇。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园诗意`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择古城外几公里处一座由农舍改造的Agriturismo（农庄民宿），周围是宁静的橄榄园和葡萄园，提供地道的农家晚餐和自酿葡萄酒，夜晚能看到璀璨的银河。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-purple-800">{`下榻位于一座经过豪华修复的15世纪宫殿内的精品酒店，拥有古董家具、 frescoed 天花板和一个可俯瞰整个山谷的屋顶露台，享受贵族般的隐居时光。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（尤其是八月）住宿非常紧张，务必提前数月预订。大部分老城内的住宿需要将车停在外围停车场，然后步行一小段距离，预订时请确认停车细节和搬运行李的可行性。选择城外农庄的话，拥有自驾车是必须的，但换来的是绝对宁静的托斯卡纳乡村之夜，记得带上驱蚊剂。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开皮蒂利亚诺好些天了，但那座从岩石中生长出来的金色城池，却像一幅蚀刻版画，深深印在了脑海里。它给我的触动，远不止于视觉的奇观。在当今这个常常壁垒分明、节奏快得让人窒息的世界里，皮蒂利亚诺像是一个来自过去的、沉静而有力的寓言。它告诉我们，不同的文明、不同的信仰，并非注定要碰撞与排斥。它们可以像这里的凝灰岩与建筑一样，彼此依托，长成一体；可以像犹太社区与托斯卡纳乡民一样，在尊重与需要中，谱写几个世纪的和谐乐章。这里的每一块石头，都浸透着“共生”的智慧。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，这不仅仅是一座“漂亮”的中世纪山城。它是一个关于生存韧性的故事，一个关于庇护所的诗篇，一个在坚硬岩石中开出人性之花的证明。对于每一位渴望深度游的旅人而言，皮蒂利亚诺是一剂心灵的良药。它让你慢下来，用手触摸千年岩石的温度，用耳朵倾听小巷里回荡的历史私语，用心去感受那份在绝境中依然选择开放与包容的、难得的人文温度。来这里，不只是看一处风景，更是完成一次对宽容、坚韧与共生精神的朝圣。它提醒我们，最坚固的城池，永远是由理解与善意构筑的。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mantua" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    曼
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">曼托瓦古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mantua</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/narni-medieval-hill-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    纳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳尔尼古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Narni</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/teatro-olimpico-vicenza" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维琴察奥林匹克剧院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Teatro Olimpico Vicenza</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

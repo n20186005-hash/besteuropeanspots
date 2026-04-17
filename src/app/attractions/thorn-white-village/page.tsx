@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '托伦白村 Thorn｜探索荷兰隐藏的纯白童话世界与千年女性微型公国传奇 - 最佳欧洲景点',
+  description: '朋友，想象一下，你拐过一个种满郁金香的平静路口，忽然间，一整片雪白的梦境毫无预警地撞进你的视线。那不是一座建筑，而是一整个村庄，像被巨大的奶油裱花袋精心涂抹过，每一栋房子，从墙角到屋檐，都覆盖着一种近乎神圣的、炫目的白。第一瞬间，你甚至会眯起眼睛，因为午后的阳光正慷慨地洒在这些白色石灰墙面上，反射出...',
+}
+
+export default function ThornWhiteVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '托伦白村', href: '/attractions/thorn-white-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`托伦白村・Thorn・荷兰・托伦`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下，你拐过一个种满郁金香的平静路口，忽然间，一整片雪白的梦境毫无预警地撞进你的视线。那不是一座建筑，而是一整个村庄，像被巨大的奶油裱花袋精心涂抹过，每一栋房子，从墙角到屋檐，都覆盖着一种近乎神圣的、炫目的白。第一瞬间，你甚至会眯起眼睛，因为午后的阳光正慷慨地洒在这些白色石灰墙面上，反射出温柔又耀眼的光晕。空气里有股干净的、混合着淡淡河水腥气和远处人家烘焙苹果派甜香的味道。
+你脚下的路立刻换成了小巧的鹅卵石，被岁月磨得光滑圆润，在高跟鞋下发出好听的咔嗒声。运河安静得像一面墨绿色的玻璃，倒映着那一排排整齐的白墙和鲜红色的天竺葵花箱。这里静极了，你能听到的只有自己的呼吸、自行车偶尔驶过的铃铛声，以及从那座罗马式教堂塔楼传来的、沉稳报时的钟鸣。几个老太太坐在自家纯白门廊下的藤椅上，戴着老花镜读报，对你这个拿着相机的闯入者报以习以为常的微笑——这里的美，是他们每日生活呼吸的空气，平常又珍贵。
+托伦最打动人心的，绝非仅仅是这如明信片般的视觉奇观。它的魔力在于一种强烈的反差感与故事感。在极致纯净、近乎童话的外观之下，每一道白色的笔触里，都封存着关于权力、财富、税收与生存的厚重历史。漫步其中，你仿佛在阅读一本立体的历史小说，白色的墙壁是它的书页，黑色的窗框是它的标点，而流淌的运河则是串联起所有章节的沉默叙事者。它不是冰冷的美术馆展品，而是一个依然心跳缓慢、生活从容的社区，那份在巨大历史变迁后归于宁静的坚韧，才是它真正的灵魂。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，想象一下，你拐过一个种满郁金香的平静路口，忽然间，一整片雪白的梦境毫无预警地撞进你的视线。那不是一座建筑，而是一整个村庄，像被巨大的奶油裱花袋精心涂抹过，每一栋房子，从墙角到屋檐，都覆盖着一种近乎神圣的、炫目的白。第一瞬间，你甚至会眯起眼睛，因为午后的阳光正慷慨地洒在这些白色石灰墙面上，反射出温柔又耀眼的光晕。空气里有股干净的、混合着淡淡河水腥气和远处人家烘焙苹果派甜香的味道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你脚下的路立刻换成了小巧的鹅卵石，被岁月磨得光滑圆润，在高跟鞋下发出好听的咔嗒声。运河安静得像一面墨绿色的玻璃，倒映着那一排排整齐的白墙和鲜红色的天竺葵花箱。这里静极了，你能听到的只有自己的呼吸、自行车偶尔驶过的铃铛声，以及从那座罗马式教堂塔楼传来的、沉稳报时的钟鸣。几个老太太坐在自家纯白门廊下的藤椅上，戴着老花镜读报，对你这个拿着相机的闯入者报以习以为常的微笑——这里的美，是他们每日生活呼吸的空气，平常又珍贵。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`托伦最打动人心的，绝非仅仅是这如明信片般的视觉奇观。它的魔力在于一种强烈的反差感与故事感。在极致纯净、近乎童话的外观之下，每一道白色的笔触里，都封存着关于权力、财富、税收与生存的厚重历史。漫步其中，你仿佛在阅读一本立体的历史小说，白色的墙壁是它的书页，黑色的窗框是它的标点，而流淌的运河则是串联起所有章节的沉默叙事者。它不是冰冷的美术馆展品，而是一个依然心跳缓慢、生活从容的社区，那份在巨大历史变迁后归于宁静的坚韧，才是它真正的灵魂。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`托伦白村`} />
+                <InfoRow label="英文名称" value={`Thorn`} />
+                <InfoRow label="正式名称" value={`Thorn`} />
+                <InfoRow label="国家" value={`荷兰`} />
+                <InfoRow label="城市" value={`托伦`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一个由女性修道院院长统治长达八个世纪的独立微型公国，其独特的纯白风貌源于拿破仑时期一项无奈的避税措施。`} />
+                <InfoRow label="建筑特色" value={`整个村庄的房屋外墙无一例外地粉刷着高纯度的白色石灰，与深色的门窗、砖红色屋顶和墨绿色运河形成极致对比。`} />
+                <InfoRow label="建筑风格" value={`以18-19世纪的低地国家传统民居风格为主，简洁朴素，但因其统一的白色而产生了强烈的视觉艺术效果。`} />
+                <InfoRow label="文化价值" value={`是欧洲中世纪女性权力、宗教自治历史的一个罕见活化石，其“白色”背后承载着从繁荣到衰败，再从贫困中涅槃重生的社区韧性故事。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`村落为开放式区域，全天24小时可自由漫步。主要景点如修道院教堂（Abdijkerk）、博物馆（Gemeentemuseum Thorn）等开放时间通常为周二至周日 11:00 - 17:00，周一闭馆。小型博物馆和咖啡馆冬季可能缩短营业时间或仅在周末开放，建议行前在本地旅游局官网核实最新信息。`} />
+              <InfoRow label="门票价格" value={`进入白村村落及漫步街道完全免费。参观修道院教堂内部免费，但欢迎自愿捐款以支持维护。博物馆（Gemeentemuseum Thorn）门票约5-7欧元，学生及65岁以上老人享有优惠票。部分季节性导览游（如历史漫步）需额外付费，约10-15欧元/人。`} />
+              <InfoRow label="地址" value={`Abdijplein 8, 6017 RA Thorn, Netherlands`} />
+              <InfoRow label="交通方式" value={`从最近的马斯特里赫特亚琛机场（MST）出发，乘坐出租车前往托伦约需25分钟，费用较高。更经济的方式是：从机场乘坐巴士至马斯特里赫特中央火车站，换乘火车前往鲁尔蒙德（Roermond），在鲁尔蒙德转乘当地巴士（如线路73）直达托伦，总耗时约1.5小时。从阿姆斯特丹或鹿特丹出发，可先乘高速火车至埃因霍温或鲁尔蒙德，再转乘区域巴士，总旅程约2-2.5小时。荷兰公共交通系统（OV-chipkaart）全国通用，上车下车均需刷卡。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`让我们把时钟拨回将近一千年前，公元10世纪末。在这片马斯河畔的肥沃土地上，出现了一个极其不寻常的政治实体——一个由女性统治的修道院公国。它的创立者是一位德意志贵族女性，她在此建立了一座本笃会女修道院。想象一下，在那个男性骑士和国王主导一切的时代，托伦却成了一个由修道院女院长担任最高统治者的独立小国。这些女院长们可不是与世隔绝的修女，她们是真正的女政治家，拥有铸币权、司法权，甚至能组建自己的小型军队。在她们的治理下，托伦繁荣了整整八个世纪，吸引着贵族家庭将女儿送来修行（同时也带来丰厚的嫁妆），成为莱茵河下游地区一个富庶而独特的存在。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的浪潮终究席卷了这片宁静的绿洲。1794年，法国大革命军队的铁蹄踏入了这片土地。拿破仑带来的不仅是新的法律和秩序，还有一套严苛的财产税系统。税吏根据房屋窗户的大小和数量来估算你的财富。彼时，辉煌的修道院已被解散，托伦失去了昔日的特权，陷入经济困顿。那些曾经气派的石头大宅，住进了贫困的工人和农民。怎么办？聪明的托伦人想出了一个朴实又无奈的办法：用廉价的白色石灰，把那些显示财富的、漂亮的砖石外墙和巨大的窗户边框全部粉刷覆盖起来，让税吏们误以为这只是一片普通的、不起眼的白色小屋社区。一场为了生存的“集体伪装”，意外地塑造了永恒的美学。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`拿破仑的时代过去了，但白色留了下来，并且成为了新的传统。更奇妙的是，这种统一的白色，在20世纪中叶，吸引了一群荷兰艺术家的目光。他们像发现新大陆一样涌入这个安静的小镇，被这里纯粹的光影、强烈的色彩对比所震撼，纷纷在此设立画室。艺术家的到来为托伦注入了新的活力，也让“白村”的名声逐渐传开。村民们也自豪地继承了这一传统，每年或每两年，他们都会重新粉刷自己的房屋，让那片白色永远保持鲜亮、无瑕。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天的托伦，早已不再需要靠白色来避税。这抹白色，已经从“贫困的伪装”，升华为了社区的身份象征、团结的徽章和吸引世界目光的艺术名片。它讲述了一个关于适应与生存、衰落与复兴的完整故事。当你用手指轻轻拂过那些略微粗糙的石灰墙面时，你触摸到的不仅是涂料，是八百年的女性权威，是两百年前的民间智慧，也是一个小社区在面对历史巨变时，用最朴实的方式保护自己，并最终将伤痕化为荣耀的惊人韧性。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受托伦的昼夜韵律，建议安排一整天时间。最好在上午十点前抵达，这时旅行团尚未涌入，阳光斜射，白色的墙壁光影分明，是拍照和享受宁静的黄金时段。整个游览节奏宜慢不宜快，核心是“漫步”与“沉浸”。上午可以专注于外部探索和博物馆的历史脉络梳理，下午深入小巷细节、体验当地生活，傍晚则等待金色光线与华灯初上的魔幻时刻。这样的安排能让你由宏观到微观，由历史到当下，层层深入地读懂这个白色小镇。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周六和周日午后是荷兰本土游客驾车来访的高峰期，主干道会比较拥挤，建议将核心漫步安排在上午或傍晚。
+小镇卵石路多且略有起伏，务必穿一双绝对舒适耐走的平底鞋，高跟鞋在这里是“刑具”。
+教堂和博物馆内部在冬季可能比较阴冷，即使室外有阳光，也建议带一件薄外套。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`先从运河边的游客信息中心拿一份地图，听工作人员用带着林堡口音的英语讲讲当天的趣事`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着主要运河（Kanaalstraat）慢慢向西走，让两旁如画卷般的白色房屋倒影彻底洗涤你的眼睛`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要拐进那座敦实的罗马式修道院教堂（Abdijkerk），在略显昏暗的内部寻找早期女院长们的石雕和彩绘玻璃窗上的细节`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在教堂前的卵石广场（Abdijplein）找一家户外咖啡馆坐下，点一杯“koffie verkeerd”（荷兰式拿铁），看鸽子在白色三角墙之间盘旋`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`随意选择一条狭窄的小巷（如Achter de Kerk）钻进去，你会发现每扇黑色的门、每个铜质门环、每盆鲜花的摆设都独具匠心`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上小镇边缘的古老堤坝或寻找一处开放的二层楼咖啡馆，从稍高的视角俯瞰那一片如模型般精致的、连绵不绝的白色屋顶海洋`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在晚餐时间选择一家主打本地马斯河鲜鱼的家庭餐厅，尝尝用黄油和香草煎制的梭鲈鱼`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`当夜幕低垂、路灯亮起，再次漫步到运河边，看温暖的灯光在白色的墙壁和黑色的水面上画出第二重梦幻的倒影`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`运河桥中央对称构图`}</h4>
+                  <p className="text-sm text-gray-700">{`站在连接Kanaalstraat和Abdijplein的小石桥正中，利用运河形成完美的引导线，将两侧的白色房屋、绿色树木和水中倒影一并纳入，最佳时间是晴朗的上午十点或下午四点。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`小巷光影捕捉`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一条东西走向的狭窄小巷（如Sint-Michielsstraat），在日出后或日落前一小时间，阳光会斜射入巷子，在白色墙壁上投下长长的门框与窗棱的影子，形成天然的黑白几何抽象画。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`高地全景视角`}</h4>
+                  <p className="text-sm text-gray-700">{`前往小镇西侧的“Witte Stad”观景平台或堤坝路（Dijkweg），用长焦镜头压缩空间，可以拍到层层叠叠的白色山形墙屋顶与高耸教堂塔楼同框的经典明信片角度，黄昏时分的蓝调时刻尤为迷人。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`细节特写之窗`}</h4>
+                  <p className="text-sm text-gray-700">{`聚焦任意一扇装饰着黑色窗框的窗户，窗台上必有色彩鲜艳的花盆（春夏秋三季），利用大光圈虚化背景的白色墙壁，让一朵盛放的天空葵或天竺葵成为画面的焦点，讲述生命与宁静的故事。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`白色墙壁反光强烈，在正午阳光下容易过曝，建议适当降低曝光补偿或使用RAW格式拍摄以便后期找回细节。`}</li>
+                <li>• {`尊重当地居民隐私，拍摄住宅门窗内部景象时务必谨慎，最好以建筑外观和公共空间为主。`}</li>
+                <li>• {`雨天后的鹅卵石地面会反射光线和颜色，是拍摄倒影和浓郁色彩的绝佳时机，不要因为天气不好而放弃外出。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨民宿体验`}</h4>
+                  <p className="text-sm text-blue-800">{`入住运河边一栋18世纪的白色民居，房东老太太会为你准备丰盛的荷式早餐，傍晚你可以坐在她私人后院的小花园里，听着水声享受绝对静谧的夜晚。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`精品设计酒店`}</h4>
+                  <p className="text-sm text-green-800">{`由历史建筑改造的现代设计酒店，完美保留了外部的白色古典立面，内部却是极简的北欧风格，巨大的落地窗让你在房间内就能欣赏到如画般的街道景色。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`特色庄园酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于托伦郊外宁静乡村的一座19世纪庄园，房间宽敞，自带大片花园，提供自行车租赁，让你可以像本地人一样骑行穿过田野与风车，缓缓进入白色小镇。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`历史感修道院住宿`}</h4>
+                  <p className="text-sm text-purple-800">{`虽然不是真正的修道院，但有一家酒店仿照修道院风格建造，围绕着一个宁静的内庭院，房间朴素而雅致，能让你沉浸在中世纪的氛围中，价格却十分亲民。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`托伦本身非常安全宁静，但住宿选择有限，尤其在夏季旅游旺季和周末，务必提前数周甚至数月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`大部分特色住宿都位于步行区内，自驾游客需要将车停放在村落边缘的指定停车场（通常免费或收费很低），然后拖着行李走一小段卵石路，这是体验的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`住在村里，你才能感受到入夜后与清晨时分，当一日游游客散去，小镇回归本真生活节奏时那种独一无二的宁静与魔力。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开托伦许久后，那片炫目的白，依然会时不时地在你脑海里闪回。但它留下的，早已不仅仅是视觉的震撼。我常常想，在这个追求快速、标新立异的时代，托伦的故事何以如此动人？或许正是因为它向我们展示了一种“反向”的传奇。它的美，并非源于某位天才建筑师的前卫设计，也不是为了吸引游客而刻意营造的噱头。它的美，诞生于困顿中的集体智慧，诞生于为了保护日常生活的朴素决心。白色，在这里从一种“隐藏”的手段，变成了最骄傲的“彰显”。这本身，就是一首关于普通人如何定义自身、塑造家园的深沉史诗。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，如果你厌倦了那些充斥着相同连锁店和喧嚣人群的热门景点，渴望一场能沉静下来的旅行，请一定把托伦放入你的清单。来这里，不是为了打卡，而是为了上一堂生动的人文历史课。你会看到，历史从未远去，它就活在每一道需要定期修补的白色墙缝里，活在居民向你点头致意的微笑里。在这里，放慢脚步，让自己被这片纯粹的白包裹、净化。你会带走的不只是照片，更是一种触动：关于一个社区如何将历史的伤痕，用时间和集体的心意，一刷一刷地，描绘成了世界上独一无二的光荣勋章。这，才是深度旅行最珍贵的礼物。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/koppelpoort" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿默斯福特中世纪城门</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Koppelpoort</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kampen-hanza-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    坎
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">坎彭汉萨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kampen Hanseatic Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/valkenburg-castle-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    法
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">法尔肯堡废墟城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Valkenburg Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,229 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔登·比森城堡 Alden Biesen Castle｜探秘条顿骑士团的宏大封地，在林堡田园中穿越中世纪 - 最佳欧洲景点',
+  description: '车子驶离比尔曾小镇，穿过一片片整齐的农田和点缀着农舍的缓坡，你可能会怀疑导航出了错——这里怎么看都不像藏着一座“宏大封地”的地方。直到一条笔直的林荫道将你引向一片开阔地，那座被如镜水面环绕的砖红色城堡，就那样毫无预警地、完整地撞进你的视线。第一印象不是震撼，而是一种奇异的宁静与庄重。护城河的水面纹丝...',
+}
+
+export default function AldenBiesenCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '阿尔登·比森城堡（条顿骑士团的宏大封地）', href: '/attractions/alden-biesen-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿尔登·比森城堡（条顿骑士团的宏大封地）・Alden Biesen Castle・比利时・林堡省，比尔曾（Bilzen）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子驶离比尔曾小镇，穿过一片片整齐的农田和点缀着农舍的缓坡，你可能会怀疑导航出了错——这里怎么看都不像藏着一座“宏大封地”的地方。直到一条笔直的林荫道将你引向一片开阔地，那座被如镜水面环绕的砖红色城堡，就那样毫无预警地、完整地撞进你的视线。第一印象不是震撼，而是一种奇异的宁静与庄重。护城河的水面纹丝不动，倒映着城堡锯齿状的轮廓和天上慢悠悠的云，只有几只天鹅划过，才荡开一圈涟漪。空气中是青草、湿润泥土和远处玫瑰丛混合的清新气味，安静得你能听见自己踩在砂石路上的脚步声，以及风穿过高大橡树叶子的沙沙声。
+对当地人来说，阿尔登·比森早已不是一个仅供凭吊的古迹。你会看到推着婴儿车的母亲在花园里散步，附近中学的老师带着学生在庭院里上历史课，周末的市集把这里变成热闹的社区中心。它的心脏仍在跳动，只不过从军事与宗教的脉搏，换成了文化与艺术的节奏。最打动人心的，正是这种“活着”的状态。它没有僵化成博物馆里冰冷的标本，那些曾经住着骑士和行政官的房间里，如今可能正在举办一场关于欧盟未来的研讨会，或是排练着一出实验戏剧。历史在这里不是压在玻璃下的故纸，而是流动在墙缝间、回响在走廊里的呼吸。
+走近主楼，触摸那些在阳光下泛着暖光的红砖，你会发现它们并非冷酷无情。砂岩装饰的窗棂上雕刻着精巧的花纹，庭院中央的喷泉发出悦耳的潺潺水声。你可以坐在护城河边的长椅上，看野鸭一家排着队游过桥洞。这一刻，你会明白，这座城堡最核心的魅力在于它的“双重灵魂”：一面是条顿骑士团钢铁般的纪律与野心，另一面则是林堡乡村田园诗般的柔软与宁静。它们在此达成了不可思议的和解，让你既能感受到历史的重量，又能享受到当下的闲适。它不是一座仅供远观的堡垒，而是一个你可以走进、坐下、成为其风景一部分的家园。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子驶离比尔曾小镇，穿过一片片整齐的农田和点缀着农舍的缓坡，你可能会怀疑导航出了错——这里怎么看都不像藏着一座“宏大封地”的地方。直到一条笔直的林荫道将你引向一片开阔地，那座被如镜水面环绕的砖红色城堡，就那样毫无预警地、完整地撞进你的视线。第一印象不是震撼，而是一种奇异的宁静与庄重。护城河的水面纹丝不动，倒映着城堡锯齿状的轮廓和天上慢悠悠的云，只有几只天鹅划过，才荡开一圈涟漪。空气中是青草、湿润泥土和远处玫瑰丛混合的清新气味，安静得你能听见自己踩在砂石路上的脚步声，以及风穿过高大橡树叶子的沙沙声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`对当地人来说，阿尔登·比森早已不是一个仅供凭吊的古迹。你会看到推着婴儿车的母亲在花园里散步，附近中学的老师带着学生在庭院里上历史课，周末的市集把这里变成热闹的社区中心。它的心脏仍在跳动，只不过从军事与宗教的脉搏，换成了文化与艺术的节奏。最打动人心的，正是这种“活着”的状态。它没有僵化成博物馆里冰冷的标本，那些曾经住着骑士和行政官的房间里，如今可能正在举办一场关于欧盟未来的研讨会，或是排练着一出实验戏剧。历史在这里不是压在玻璃下的故纸，而是流动在墙缝间、回响在走廊里的呼吸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近主楼，触摸那些在阳光下泛着暖光的红砖，你会发现它们并非冷酷无情。砂岩装饰的窗棂上雕刻着精巧的花纹，庭院中央的喷泉发出悦耳的潺潺水声。你可以坐在护城河边的长椅上，看野鸭一家排着队游过桥洞。这一刻，你会明白，这座城堡最核心的魅力在于它的“双重灵魂”：一面是条顿骑士团钢铁般的纪律与野心，另一面则是林堡乡村田园诗般的柔软与宁静。它们在此达成了不可思议的和解，让你既能感受到历史的重量，又能享受到当下的闲适。它不是一座仅供远观的堡垒，而是一个你可以走进、坐下、成为其风景一部分的家园。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿尔登·比森城堡（条顿骑士团的宏大封地）`} />
+                <InfoRow label="英文名称" value={`Alden Biesen Castle`} />
+                <InfoRow label="正式名称" value={`Alden Biesen Castle`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`林堡省，比尔曾（Bilzen）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`曾经是条顿骑士团在低地国家最大、最富有的行政封地中心，是其北方权力的象征。`} />
+                <InfoRow label="建筑特色" value={`一座被宽阔护城河环绕的宏伟红砖与砂岩建筑群，完美融合了防御性城堡的威严与文艺复兴时期庄园的优雅。`} />
+                <InfoRow label="建筑风格" value={`以晚期哥特式与文艺复兴风格为主，并在后续修复中融入了新古典主义元素。`} />
+                <InfoRow label="文化价值" value={`作为欧洲骑士团历史网络的活化石，如今已转型为充满活力的欧洲文化中心，连接着古老传统与现代艺术。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡建筑及博物馆的开放时间为周二至周日上午10点至下午5点，周一通常闭馆。宏伟的法式花园全年24小时开放。请注意，城堡主楼内部作为会议中心和酒店运营，部分区域可能因私人活动临时关闭，建议出行前在官网查看最新日历。每年夏季（约7-8月）会延长开放时间至傍晚6点，并经常举办夜间音乐会。圣诞节期间（12月24日至1月2日）开放时间会大幅缩短或完全关闭维护。`} />
+              <InfoRow label="门票价格" value={`进入城堡庭院、花园及大部分外部区域免费。参观历史博物馆（骑士团历史展）成人票价为8欧元，65岁以上长者及学生票价为6欧元，12岁以下儿童免费。提供家庭套票（2成人+2儿童）18欧元。参加导览游（英语、荷兰语、法语）需额外支付5欧元，时长约1.5小时，强烈建议预订。`} />
+              <InfoRow label="地址" value={`Kasteelstraat 6, 3740 Bilzen, Belgium`} />
+              <InfoRow label="交通方式" value={`从布鲁塞尔机场出发：最便捷的方式是乘坐火车。从机场火车站乘坐IC列车前往列日-吉耶曼火车站，车程约1小时，班次每小时1-2班。在列日换乘前往哈瑟尔特的区域列车，在比尔曾站下车，全程从机场算起约1.5-2小时。从比尔曾火车站到城堡约3公里，可搭乘53路公交车至“Alden Biesen”站（班次较稀疏，约每小时一班），或乘坐出租车（约10分钟车程），更推荐在天气晴好时步行或租用自行车，沿途是迷人的林堡乡村风光。从荷兰马斯特里赫特出发则更近，驾车仅需30分钟。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从遥远的1190年说起，那是在第三次十字军东征的腥风血雨中。一群来自不来梅和吕贝克的商人，在阿卡城下用船帆为受伤的战士搭建起一座野战医院，这便是条顿骑士团的雏形。这个兼具宗教、军事与医疗使命的修会，很快在战火中壮大，并获得教皇的正式认可。他们的足迹不仅限于圣地，随着十字军运动的浪潮退去，骑士团将目光投向了欧洲的心脏地带，特别是波罗的海沿岸和富饶的低地国家。阿尔登·比森，便是他们在尼德兰地区布下的一颗关键棋子。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`1220年，这块土地首次被记录在册，由当地的领主捐赠给了骑士团。起初，这里可能只是一个简单的庄园，负责管理周边广袤的农田、森林和磨坊，为远方的骑士兄弟提供源源不断的粮食与资金。想象一下，13世纪的某个秋日，满载谷物和葡萄酒的马车从这里出发，沿着泥泞的道路驶向远方，支撑着骑士团在普鲁士的征服事业。它就像一台精密的财富引擎，安静地运转在马斯河畔。直到16世纪，黄金时代才真正降临。当时的领地长官，一位雄心勃勃的骑士，决定将这里从一个功能性庄园，提升为配得上骑士团威严的行政中枢。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，我们今天看到的城堡雏形开始崛起。原有的建筑被大规模扩建和美化，引入了当时最时尚的文艺复兴风格。坚固的防御工事外，增添了优雅的拱窗和装饰性的山墙；实用的仓库旁，修建了宏伟的骑士大厅和舒适的住所。护城河不仅是一道防线，更成为映衬建筑之美的一面镜子。阿尔登·比森成了骑士团在低地国家所有财产的“首府”，管辖着多达12个次级领地，其长官的地位堪比亲王主教。这里举办过盛大典礼，裁决过财产纠纷，也见证过无数秘密会议，是骑士团在北方无声的权力殿堂。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的浪潮无人能挡。1794年，法国革命军的铁蹄踏破了这里的宁静。新生的法兰西共和国宣布没收所有教会财产，条顿骑士团对阿尔登·比森长达近六个世纪的统治戛然而止。城堡被公开拍卖，沦为私人宅邸。更悲惨的厄运在1945年降临，二战尾声的一场不明原因的大火，将这座瑰宝的内部几乎焚烧殆尽，只留下被熏黑的外壳和断壁残垣，如同一个悲伤的骨架，在风中伫立了近三十年。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的重生，是一个关于欧洲团结的现代寓言。1971年，比利时弗拉芒区政府从私人手中购得了这片废墟。这不仅仅是一次文物保护，更被视为一个象征：一个曾经跨越国界的骑士团遗产，应由一个超越地方的公共机构来守护。经过漫长而精心的修复，它没有变回一座死气沉沉的古堡，而是被赋予了全新的使命——成为“弗拉芒欧洲文化中心”。今天，当你走在修缮一新的长廊里，听到会议室里传来多种语言的讨论声，看到来自各国的艺术家在花园里安装雕塑，你会感到，那条顿骑士团曾梦想的、跨越地域的欧洲网络，以一种和平、文化与合作的全新形式，在这里奇迹般地复活了。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`理想的游览应该从一个完整的上午开始，预留至少4到5小时，才能从容不迫地体会城堡的日夜双重气质。建议在上午10点前抵达，这时旅行团还未涌入，阳光斜射，花园和建筑立面光影效果绝佳，非常适合拍照。游览节奏宜慢不宜快，先从外部整体感受其气势，再深入内部探究历史细节，最后在花园中放松身心。路线设计为从外到内，再从历史到自然的循环：先环绕护城河获取全景，接着进入庭院参观主楼博物馆，然后探索静谧的西翼与小教堂，最后将自己迷失在巨大的法式花园和英式园林中，如果时间允许，在城堡餐厅或咖啡座用午餐，感受当下融入历史的奇妙氛围。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周末和夏季的午后是人流高峰期，尤其是法式花园，想要拍出空旷感一定要赶早。城堡内部许多房间仍是活跃的会议场所，若遇到门口有“私人活动”标识请保持安静并勿入。林堡天气多变，即便夏日也建议带一件轻便外套，花园散步穿舒适的鞋子至关重要。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡正门前的林荫道开始，慢慢走向护城河上的石桥，让那座倒映在水中的红色城堡全景一点点充盈你的视野。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走过石桥进入主庭院，站在铺满鹅卵石的广场中央原地转一圈，感受被高大文艺复兴立面环抱的肃穆与宁静。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开厚重的主楼木门进入骑士团历史博物馆，在昏暗的光线里顺着螺旋石阶往上，触摸那些讲述征服、信仰与贸易的古老盾徽与羊皮纸。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到通往“骑士大厅”的门，踏入那个拥有巨大橡木横梁和华丽壁炉的空间，想象这里曾经举办盛大宴会的喧闹与烛光。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从主楼侧门溜出来，沿着安静的护城河边漫步到西翼，探访那座小巧而精美的礼拜堂，阳光透过彩绘玻璃在石地上投下静谧的光斑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过一道隐秘的树篱拱门，突然置身于几何图案严谨、修剪得一丝不苟的宏大法式花园，沿着中轴线一直走到尽头的观景台回望城堡。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`让脚步带领你离开规整的花坛，投入城堡后方那片野趣盎然的英式风景园林，在林间小径和意外出现的小溪边享受纯粹的乡间漫步。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在参观结束前，别忘了去城堡的咖啡厅或餐厅，点一杯当地的比利时啤酒或咖啡，坐在能看到护城河的露台上，把眼前的风景就着饮品一起消化。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`护城河东南角倒影点`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或日落前半小时，阳光为城堡镶上金边，蹲低身子将相机贴近水面，能拍出城堡与其完美倒影上下对称的经典画面，记得纳入一两支芦苇或一朵睡莲做前景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`法式花园中轴线尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，顺光拍摄，站在观景台或喷泉处，利用花园强烈的透视线条将视线引向远处的城堡主体，构图时让绿色的树篱与红色的砖墙形成鲜明色彩对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`西翼拱廊光影走廊`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射入院落，走进西翼建筑的拱形回廊，捕捉阳光在连续拱门和石柱间形成的强烈明暗交替与几何投影，人物站在光影分界线上会非常出彩。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城堡后方英式园林的池塘边`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚蓝调时刻，以池塘平静的水面为前景，拍摄城堡在暮色中亮起温暖灯火的侧影，远处的树木形成自然的深色画框，营造出静谧而神秘的氛围。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用无人机拍摄前务必查看比利时当地法规并征求管理方许可，城堡空域可能有临时限制。室内博物馆区域通常禁止使用闪光灯和三脚架，高感光度相机在这里更有优势。尊重在此举行婚礼等私人活动的客人隐私，未经允许不要对准人群拍摄。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`城堡沉浸体验`}</h4>
+                  <p className="text-sm text-blue-800">{`直接下榻城堡主楼翼楼的四星级酒店，房间保留了石墙和木梁的古朴结构，配备现代舒适设施，夜晚当游客散尽，你就能独享整个魔幻的城堡夜景与绝对宁静。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`田园风情民宿`}</h4>
+                  <p className="text-sm text-green-800">{`选择城堡步行15分钟范围内、由传统林堡农舍改造的B&B，主人会端来自制果酱和新鲜鸡蛋早餐，在开满鲜花的花园里享用，完全融入本地乡村生活。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`比尔曾小镇便捷之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在比尔曾火车站附近的设计感小酒店，交通餐饮极其便利，房间现代明亮，适合作为探索林堡省多个景点的基地，乘坐公交或骑车来城堡都很轻松。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`马斯特里赫特都市回响`}</h4>
+                  <p className="text-sm text-purple-800">{`如果偏爱城市氛围，可以宿在半小时车程外的荷兰马斯特里赫特古城，白天来城堡穿越历史，晚上回到热闹的弗莱特霍夫广场享受各国美食与酒吧文化。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡内酒店非常热门，尤其是夏季和周末，务必提前数月预订。林堡乡间民宿大多温馨但规模小，建议通过可靠的本地预订平台联系并确认早餐细节。比尔曾镇中心晚上非常安静，治安良好，但娱乐选择有限，喜欢夜生活的旅客可能更适合住马斯特里赫特。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开阿尔登·比森时，我的背包里没有多一件纪念品，但心里却好像被装进了一整个微缩的欧洲。它让我看到的，不仅仅是一座城堡的石头与砖瓦，更是一部关于权力、信仰、毁灭与重生的史诗，而且是一部未曾完结、仍在书写新章节的史诗。在这里，历史不是单向度的过去，而是一种层叠的、可居住的现在。你脚下踩着的，可能是16世纪骑士的足迹，也可能是昨天一位波兰诗人漫步时沉思的路径。这种时间的稠密感，是那些仅有漂亮外观的景点永远无法给予的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求瞬时刺激和碎片信息的快节奏世界里，阿尔登·比森提供了一种珍贵的“慢深读”体验。它要求你停下脚步，去看水面的倒影如何变幻，去听不同语言在古老墙壁间的回响，去理解一片土地如何能从军事封地转变为文化苗圃。它告诉我们，遗产最好的保护方式不是隔离，而是注入新的生命。每一位热爱深度游的旅人，都该来这里坐一坐。不是为了打卡另一个世界遗产，而是为了亲身验证一种可能性：历史并非沉重的包袱，而可以成为一座桥梁，连接起我们共同的过去与彼此交织的未来。在这里，你会找到旅行的另一种意义——不仅仅是去看风景，更是去成为历史河流中，一朵微小却自觉的浪花。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/cathedral-of-saint-aubain-namur" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    那
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">那慕尔圣母大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Namur Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/arlon-roman-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔隆古罗马遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arlon Roman Ruins</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ypres-cloth-hall" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    伊
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伊佩尔布料厅</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cloth Hall, Ypres</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

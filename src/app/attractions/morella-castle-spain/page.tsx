@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '莫雷利亚 Morella｜探秘西班牙“岩石之冠”，漫步千年空中城池与传奇哥特回廊 - 最佳欧洲景点',
+  description: '第一眼看到莫雷利亚，你一定会屏住呼吸。它不是缓缓出现在地平线上的，而是像一座从大地深处刺出的、宏伟而孤傲的纪念碑，骤然占据了整个视野。那块暗红色的巨型石灰岩锥体，就是它的基座，而灰白色的城墙与塔楼，如同给岩石戴上了一顶错综复杂的石头王冠。车子沿着之字形山路盘旋向上时，你能清晰地感觉到海拔的攀升，窗外...',
+}
+
+export default function MorellaCastleSpainPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '莫雷利亚（屹立在锥形巨岩上的城墙之池）', href: '/attractions/morella-castle-spain' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`莫雷利亚（屹立在锥形巨岩上的城墙之池）・Morella・西班牙・卡斯特利翁省（巴伦西亚自治区）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到莫雷利亚，你一定会屏住呼吸。它不是缓缓出现在地平线上的，而是像一座从大地深处刺出的、宏伟而孤傲的纪念碑，骤然占据了整个视野。那块暗红色的巨型石灰岩锥体，就是它的基座，而灰白色的城墙与塔楼，如同给岩石戴上了一顶错综复杂的石头王冠。车子沿着之字形山路盘旋向上时，你能清晰地感觉到海拔的攀升，窗外的平原越来越开阔，风也越来越大，带着荒野的干燥气息和石头的凉意。
+当你终于穿过古老的城门——比如那座精美的哥特式圣米格尔门，时间瞬间慢了下来。脚下是被无数脚步磨得光滑发亮的石板路，狭窄的街道像迷宫一样在两侧赭石色房屋间蜿蜒上升。空气里有股特别的味道，是烤面包的焦香、从门廊飘出的炖菜味，混合着老石头在阳光下发散的、略带尘土的气息。当地老太太们坐在门口的木椅上晒太阳，用浓重的巴伦西亚方言聊着天，声音在石壁间轻轻回荡。这里不是一个冰冷的博物馆，而是一个依然充满心跳的、生活在历史里的社区。
+而这一切的顶点，就是那座城堡。你需要一点体力，沿着最后一段陡峭的步道向上攀登。风声在这里变成了呼啸，视野却爆炸性地展开。站在城堡的废墟之巅，你会明白它为何被称为“钥匙”。360度的全景里，荒凉的马斯德洛莫斯山脉像凝固的波涛，而远处的农田与城镇则如同微缩模型。触摸着那些被千年风吹雨打磨蚀的城墙石块，冰凉而粗糙的质感从指尖传来，你会感到一种纯粹的、关于时间和权力的震撼。这里没有繁复的巴洛克装饰，只有石头、天空和风，诉说着最原始也最坚韧的生存故事。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到莫雷利亚，你一定会屏住呼吸。它不是缓缓出现在地平线上的，而是像一座从大地深处刺出的、宏伟而孤傲的纪念碑，骤然占据了整个视野。那块暗红色的巨型石灰岩锥体，就是它的基座，而灰白色的城墙与塔楼，如同给岩石戴上了一顶错综复杂的石头王冠。车子沿着之字形山路盘旋向上时，你能清晰地感觉到海拔的攀升，窗外的平原越来越开阔，风也越来越大，带着荒野的干燥气息和石头的凉意。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你终于穿过古老的城门——比如那座精美的哥特式圣米格尔门，时间瞬间慢了下来。脚下是被无数脚步磨得光滑发亮的石板路，狭窄的街道像迷宫一样在两侧赭石色房屋间蜿蜒上升。空气里有股特别的味道，是烤面包的焦香、从门廊飘出的炖菜味，混合着老石头在阳光下发散的、略带尘土的气息。当地老太太们坐在门口的木椅上晒太阳，用浓重的巴伦西亚方言聊着天，声音在石壁间轻轻回荡。这里不是一个冰冷的博物馆，而是一个依然充满心跳的、生活在历史里的社区。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而这一切的顶点，就是那座城堡。你需要一点体力，沿着最后一段陡峭的步道向上攀登。风声在这里变成了呼啸，视野却爆炸性地展开。站在城堡的废墟之巅，你会明白它为何被称为“钥匙”。360度的全景里，荒凉的马斯德洛莫斯山脉像凝固的波涛，而远处的农田与城镇则如同微缩模型。触摸着那些被千年风吹雨打磨蚀的城墙石块，冰凉而粗糙的质感从指尖传来，你会感到一种纯粹的、关于时间和权力的震撼。这里没有繁复的巴洛克装饰，只有石头、天空和风，诉说着最原始也最坚韧的生存故事。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`莫雷利亚（屹立在锥形巨岩上的城墙之池）`} />
+                <InfoRow label="英文名称" value={`Morella`} />
+                <InfoRow label="正式名称" value={`Morella`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`卡斯特利翁省（巴伦西亚自治区）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座见证了伊比利亚半岛千年权力更迭、被誉为“阿拉贡王国之钥”的传奇边境要塞。`} />
+                <InfoRow label="建筑特色" value={`一座与锥形巨岩浑然天成的防御工事体系，古城依山势盘旋而上，被长达两公里的雄伟石墙紧紧环抱。`} />
+                <InfoRow label="建筑风格" value={`以军事罗马式与哥特式为主导，融合了伊斯兰建筑智慧的混合体。`} />
+                <InfoRow label="文化价值" value={`它是活的中世纪教科书，完美展现了基督教王国在“收复失地运动”中，如何将军事、宗教与民用建筑融合于一处绝险之地的生存智慧。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡与城墙开放时间随季节变化：夏季（6月至9月）通常为每日上午10:00至晚上8:00；冬季（10月至次年5月）一般为上午10:00至下午6:00，每周一闭馆（节假日除外）。圣玛丽亚大教堂的开放时间较为复杂，上午用于弥撒，下午对游客开放（通常为下午4:00至7:00），周日全天开放时间会缩短。建议行前务必查阅当地旅游局官网确认最新安排，冬季部分设施可能提前关闭。`} />
+              <InfoRow label="门票价格" value={`进入莫雷利亚古城本身免费。参观城堡（Castell de Morella）与城墙的综合门票约为5欧元。圣玛丽亚大教堂（Basílica de Santa María la Mayor）门票约为4欧元。有学生、65岁以上老人及团体优惠票。当地旅游局有时会推出包含讲解的“莫雷利亚通票”，约8欧元，性价比很高。`} />
+              <InfoRow label="地址" value={`Plaza de San Miguel, s/n, 12300 Morella, Castellón, Spain`} />
+              <InfoRow label="交通方式" value={`最便捷的方式是自驾。从巴伦西亚机场出发，沿AP-7/A-7高速公路向北，转入CV-14公路，车程约2小时。从巴塞罗那方向自驾约需3小时。公共交通较周折：从巴伦西亚的Estació del Nord巴士站有直达Morella的长途汽车（公司为HIFE），每天约2-3班，车程约2.5-3小时。从最近的火车枢纽卡斯特利翁市（Castellón de la Plana）也需要转乘巴士。强烈建议自驾，既能体验盘旋上山的驾驶乐趣，也方便随时停车拍摄壮观的岩山全景。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`莫雷利亚的故事，始于岩石本身。早在史前时代，伊比利亚人就看中了这个天然的瞭望台和避难所。但真正赋予它传奇色彩的，是中世纪那场持续数百年的“收复失地运动”。公元8世纪，摩尔人征服了伊比利亚半岛，同样在这块岩石上建立了要塞。它的阿拉伯名“Maurela”可能就是今天地名的由来。那时的莫雷利亚，已是边境前线一颗重要的棋子。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`转折点发生在1231年。阿拉贡国王海梅一世，那位传奇的“征服者”，正致力于从穆斯林手中夺回巴伦西亚地区。他的军队包围了莫雷利亚。传说，一位名叫“拉·吉拉尔达”的当地摩尔贵族女子，爱上了国王麾下的一位骑士，并帮助基督徒军队通过一条秘密水道潜入城内。这个故事真假难辨，但它为这场战役增添了一层罗曼蒂克的色彩。最终，海梅一世成功夺取了这座要塞，并立即开始了大规模的基督教化与重建。他赋予了莫雷利亚重要的特权，鼓励人们在此定居，由此开启了它的黄金时代。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`随后的几个世纪，莫雷利亚作为阿拉贡王国东部边境的守护神，不断加固它的城墙。那长达两公里、拥有十四座塔楼和六道城门的巍峨城墙，大部分就是在14世纪修建完成的，堪称中世纪军事工程的典范。与此同时，城内的圣玛丽亚大教堂也在原有清真寺的地基上拔地而起，它那令人惊叹的、螺旋形上升的单座楼梯，以及精雕细琢的玫瑰窗和门廊，宣告着哥特艺术的胜利。城堡、城墙与教堂，共同构成了一个坚不可摧的信仰与权力的三角。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，和平并非永恒。进入19世纪，莫雷利亚卷入了更大的风暴。拿破仑战争期间，它遭受了法国军队的猛烈围攻与破坏。紧接着的卡洛斯战争中，它又成为保守派卡洛斯党人的重要据点，经历了惨烈的围城，伤痕累累。最近的一次创伤来自20世纪的西班牙内战，城堡和部分建筑再次被炮火击中。每一次战争都在它的石头上留下新的伤疤，但每一次，它都像那块基底岩石一样，顽强地存续下来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如今的宁静，是穿越了无数硝烟后的馈赠。上世纪中期开始，人们系统地修复这些古老的石头，不是把它们变成标本，而是让古城继续“活着”。漫步其间，你会发现古老的宫殿被改建为文化中心，修道院成了优雅的国营古堡酒店，手工艺作坊在拱门下发出敲打金属的叮当声。莫雷利亚没有在时间中凝固，它只是把惊心动魄的往事沉淀进了每一道石缝，然后继续从容地过着自己的日子，像一位饱经风霜却眼神清澈的老人。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议至少安排一整天（8-10小时）来完整感受莫雷利亚。最佳抵达时间是上午9点左右，此时阳光正好照亮古城东侧，光线适合拍照，游客也相对稀少。游览节奏应是“先宏观，后微观，再登顶”：上午先在外围和低处领略古城整体气势与生活气息，中午享用本地美食补充能量，下午精力最充沛时攀登城堡，傍晚时分在城墙或高处欣赏落日全景。这样的安排符合光线变化，也能错开城堡最炎热的正午时段，体验更有层次。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`穿一双绝对舒适防滑的步行鞋，这里的街道全是凹凸不平的石板且坡度很大，高跟鞋是“灾难”。古城内许多小店和餐馆下午2点到5点会关门午休，规划午餐和购物时间要注意。自驾车无法开进古城内部，所有车辆都必须停在城墙外的免费停车场，请轻装简行。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从古城脚下的免费停车场出发，首先沿着外侧小路找到一个能仰望整个岩山与城墙的经典全景视角，让震撼的第一印象定格。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`由标志性的圣米格尔门进入古城，立刻右转爬上城门上方的步道，体验在厚实城墙内部行走、从箭孔窥视外部平原的奇妙感觉。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着主街（Calle Blasco de Alagón）向上漫无目的地闲逛，留意那些有着精美石雕门楣的贵族宅邸和飘出杏仁糖（“flaons”）甜香的传统糕点铺。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`务必走进圣玛丽亚大教堂，在略显昏暗的光线中仰头凝视那座被誉为“哥特式楼梯奇迹”的螺旋形单拱楼梯，感受工匠的非凡想象力。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在古城中心的广场找一家当地餐馆坐下，点一份用本地黑松露烹制的招牌山羊奶酪或“olla morellana”炖菜，像当地人一样享受漫长的午餐时光。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后沿着清晰的指示牌开始向城堡攀登，途中会经过古老的圣弗朗西斯科修道院遗址，那里的回廊废墟在阳光下有一种苍凉的诗意。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最终抵达城堡最高处的瞭望台，靠着残破的城垛静静待上一会儿，任凭猛烈的山风吹过，俯瞰脚下如画卷般铺展的村镇与荒野。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山时选择另一条小巷，探访那些隐藏的家庭式手工羊绒制品店（Morella以优质羊毛闻名），触摸传承了数代的织物质感。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`古城南侧公路弯道观景台（Mirador de Morella）`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时抵达，利用金色侧光勾勒出整个锥形岩山和城墙的立体轮廓，用长焦镜头压缩空间感，让城堡显得更近在咫尺。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣米格尔门内侧拱门框架`}</h4>
+                  <p className="text-sm text-gray-700">{`上午阳光洒进城门时，站在门洞内向外拍摄，用拱门作为天然画框，框住门外蜿蜒的石阶街道和行人，营造深邃的景深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城堡废墟内的拱窗构图`}</h4>
+                  <p className="text-sm text-gray-700">{`攀登城堡途中，寻找那些残留的拱门或窗洞，以其作为前景，聚焦于远处绵延的荒凉山脉，拍出充满历史沧桑感的框景照片。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣玛丽亚大教堂玫瑰窗细节`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光能透射进教堂内部时，站在中殿，用大光圈镜头对准正门上方的巨大玫瑰窗，捕捉彩色玻璃投下的梦幻光影与精细的石雕纹路。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`古城屋顶瓦片与塔楼同框`}</h4>
+                  <p className="text-sm text-gray-700">{`找到某条陡峭小巷的制高点，蹲低机位，让前景层层叠叠的红色陶土瓦屋顶充满画面，背景则是高耸的城堡主塔，形成材质与尺度的鲜明对比。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`当地居民非常注重隐私，拍摄街景时请尽量避免直接对准居民家的门窗或长时间拍摄私人生活场景。使用无人机在古城上空飞行有严格限制，通常需要提前申请许可，为避免麻烦，不建议在此飞无人机。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`古城心脏的历史宫殿`}</h4>
+                  <p className="text-sm text-blue-800">{`入住由14世纪贵族宫殿修复而成的精品酒店，睡在古老的石拱顶下，清晨在私属的内院露台上享用早餐，听教堂钟声唤醒整个山城。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`隐居修道院的独特体验`}</h4>
+                  <p className="text-sm text-green-800">{`下榻由哥特式修道院华丽转身的国营古堡酒店，住在曾经修士的房间里，晚上在宁静的回廊散步，感受穿越数百年的绝对静谧。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`家庭经营的石头小屋`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择一家藏在僻静小巷里的家庭旅馆，房间小巧温馨，老板会热情地为你手绘美食地图，并推荐连导游书上都找不到的隐秘观景角落。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`城外乡村田园风农庄`}</h4>
+                  <p className="text-sm text-purple-800">{`如果自驾，不妨住在城外几公里处被橄榄树环绕的乡村农舍，享受开阔的星空与绝对的宁静，白天再驱车几分钟便可进入古城。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`古城内的住宿数量有限且极其抢手，尤其是在秋季松露节和春季复活节期间，务必提前数月预订。冬季（11月至次年2月）莫雷利亚非常寒冷且常有大风，预订时请确认住宿是否有完善的暖气系统。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开莫雷利亚很久之后，那幅画面依然清晰：你站在城堡的废墟上，风猛烈到几乎站不稳，眼前是亘古不变的山川大地，脚下是千年人类用意志垒砌的石头奇迹。那一刻，你感觉到的不是人类的渺小，而是一种奇特的坚韧。这座城的存在本身，就是一种宣言——关于人类如何在最险峻的自然条件上扎根，如何在权力的夹缝中生存，又如何将战争的伤疤慢慢抚平成生活皱纹的宣言。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求便捷和舒适的时代，莫雷利亚提供了一种“反其道而行”的旅行价值。它不讨好你，需要你付出体力去攀登，需要你静下心来阅读石头上的铭文。但这份“难度”，恰恰是深度连接的关键。它让你触摸到的历史不是玻璃展柜后的标本，而是依然带着风声、阳光和炊烟温度的生命体。对于每一位厌倦了浮光掠影、渴望触摸欧洲真正脊梁的旅人来说，莫雷利亚不仅仅是一个景点，它是一次关于时间、生存与记忆的深刻对话，是伊比利亚灵魂中，最坚硬也最动人的那一部分。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/segovia-aqueduct" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塞
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塞哥维亚罗马水道桥</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Segovia Aqueduct</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/salamanca-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨拉曼卡老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Salamanca Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/avila-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿维拉古城墙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ávila Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

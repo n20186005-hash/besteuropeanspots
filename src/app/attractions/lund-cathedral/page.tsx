@@ -1,0 +1,236 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '隆德大教堂 Lund Cathedral｜瑞典最古老的精神灯塔，聆听千年天文钟的世纪回响 - 最佳欧洲景点',
+  description: '当你从隆德那些蜿蜒的、铺着鹅卵石的小巷中钻出来，突然抬头，两座浅灰色的砂岩塔楼就那么毫无预兆地、庄严地填满了整个视野。那种感觉不是惊艳，更像是一种沉静的震撼，仿佛一块历经千年的巨岩，稳稳地坐落在时间的河流中。空气里飘着北欧特有的清冷气息，混合着远处咖啡馆飘出的烘培咖啡豆的焦香。走近了，你能触摸到教堂...',
+}
+
+export default function LundCathedralPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '隆德大教堂', href: '/attractions/lund-cathedral' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`隆德大教堂・Lund Cathedral・瑞典・隆德市`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你从隆德那些蜿蜒的、铺着鹅卵石的小巷中钻出来，突然抬头，两座浅灰色的砂岩塔楼就那么毫无预兆地、庄严地填满了整个视野。那种感觉不是惊艳，更像是一种沉静的震撼，仿佛一块历经千年的巨岩，稳稳地坐落在时间的河流中。空气里飘着北欧特有的清冷气息，混合着远处咖啡馆飘出的烘培咖啡豆的焦香。走近了，你能触摸到教堂外墙上被风雨侵蚀出的无数细小孔洞，冰凉而粗糙的质感，直接连通着中世纪石匠的体温。
+推开那扇沉重的木门，轰然闯入的是一个截然不同的世界。外界的市井喧哗瞬间被一道无形的墙隔绝。首先包裹你的是气味——一种陈年的、带着些许潮湿的石头气息，混杂着老木头、熄灭的蜡烛和淡淡蜂蜡抛光剂的味道，厚重而安宁。然后是你的眼睛需要时间适应这里的光线。高高的罗马式拱廊将空间切割成一道深邃的通道，光线从高处狭长的窗子斜射进来，在空气中形成一道道看得见的光柱，灰尘在其中缓缓舞蹈。你的脚步声在巨大的空间里产生轻微的回响，但更清晰的是某个角落里，一位老人坐在长椅上翻阅圣经的沙沙声，以及远处祭坛前，蜡烛芯偶尔爆出的、极其微弱的噼啪声。
+而这一切的宁静，都会在某个整点被打破。当大教堂里那座著名的“Horologium Mirabile Lundense”（隆德奇迹之钟）开始运作时，一种奇妙的机械声会从你头顶传来。先是几声清脆的钟鸣，随后，上方一个小门打开，一组彩绘的木雕人偶——代表着东方三博士和两位侍从——缓缓转出，向中央的圣母玛利亚雕像行礼。同时，一首名为《In Dulci Jubilo》的古老颂歌通过管风琴音筒流淌出来，空灵悠远。那一刻，你会看到所有游客，无论来自何方，都停下脚步，仰着头，屏住呼吸。这不仅仅是一个报时装置，这是一台上紧了发条的时光机器，将中世纪人们对宇宙和信仰的理解，以一种童真又精确的方式，带到了你面前。
+这座教堂早已深深嵌入了隆德人的呼吸里。你会看到抱着书本的大学生匆匆穿过后廊，去往另一边的教室；看到刚购完物的主妇坐在长椅上安静地休息片刻；看到游客和本地信徒一样，点燃一支细长的蜡烛，插在铁架上，看着那一片温暖的、摇曳的星海。它既是这座“知识之城”威严的守护者，也是市民日常生活中一个可以随时走进的、巨大的公共客厅和精神避难所。它的核心魅力，就在于这种神圣与日常之间毫无芥蒂的共生。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你从隆德那些蜿蜒的、铺着鹅卵石的小巷中钻出来，突然抬头，两座浅灰色的砂岩塔楼就那么毫无预兆地、庄严地填满了整个视野。那种感觉不是惊艳，更像是一种沉静的震撼，仿佛一块历经千年的巨岩，稳稳地坐落在时间的河流中。空气里飘着北欧特有的清冷气息，混合着远处咖啡馆飘出的烘培咖啡豆的焦香。走近了，你能触摸到教堂外墙上被风雨侵蚀出的无数细小孔洞，冰凉而粗糙的质感，直接连通着中世纪石匠的体温。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`推开那扇沉重的木门，轰然闯入的是一个截然不同的世界。外界的市井喧哗瞬间被一道无形的墙隔绝。首先包裹你的是气味——一种陈年的、带着些许潮湿的石头气息，混杂着老木头、熄灭的蜡烛和淡淡蜂蜡抛光剂的味道，厚重而安宁。然后是你的眼睛需要时间适应这里的光线。高高的罗马式拱廊将空间切割成一道深邃的通道，光线从高处狭长的窗子斜射进来，在空气中形成一道道看得见的光柱，灰尘在其中缓缓舞蹈。你的脚步声在巨大的空间里产生轻微的回响，但更清晰的是某个角落里，一位老人坐在长椅上翻阅圣经的沙沙声，以及远处祭坛前，蜡烛芯偶尔爆出的、极其微弱的噼啪声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而这一切的宁静，都会在某个整点被打破。当大教堂里那座著名的“Horologium Mirabile Lundense”（隆德奇迹之钟）开始运作时，一种奇妙的机械声会从你头顶传来。先是几声清脆的钟鸣，随后，上方一个小门打开，一组彩绘的木雕人偶——代表着东方三博士和两位侍从——缓缓转出，向中央的圣母玛利亚雕像行礼。同时，一首名为《In Dulci Jubilo》的古老颂歌通过管风琴音筒流淌出来，空灵悠远。那一刻，你会看到所有游客，无论来自何方，都停下脚步，仰着头，屏住呼吸。这不仅仅是一个报时装置，这是一台上紧了发条的时光机器，将中世纪人们对宇宙和信仰的理解，以一种童真又精确的方式，带到了你面前。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座教堂早已深深嵌入了隆德人的呼吸里。你会看到抱着书本的大学生匆匆穿过后廊，去往另一边的教室；看到刚购完物的主妇坐在长椅上安静地休息片刻；看到游客和本地信徒一样，点燃一支细长的蜡烛，插在铁架上，看着那一片温暖的、摇曳的星海。它既是这座“知识之城”威严的守护者，也是市民日常生活中一个可以随时走进的、巨大的公共客厅和精神避难所。它的核心魅力，就在于这种神圣与日常之间毫无芥蒂的共生。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`隆德大教堂`} />
+                <InfoRow label="英文名称" value={`Lund Cathedral`} />
+                <InfoRow label="正式名称" value={`Lund Cathedral (Lunds Domkyrka)`} />
+                <InfoRow label="国家" value={`瑞典`} />
+                <InfoRow label="城市" value={`隆德市`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`斯堪的纳维亚半岛上最古老、保存最完好的罗马式大教堂，是瑞典基督教化进程的核心象征与起点。`} />
+                <InfoRow label="建筑特色" value={`两座高耸入云的对称塔楼是其标志，内部拥有北欧最古老、最复杂的天文钟，以及一个宛如时光胶囊的震撼地下教堂。`} />
+                <InfoRow label="建筑风格" value={`以雄浑的罗马式风格为基调，在后期修缮中融入了哥特式与文艺复兴式的优雅细节。`} />
+                <InfoRow label="文化价值" value={`它不仅仅是一座宗教建筑，更是隆德大学城千年学术与精神的基石，是瑞典国家历史活的编年史。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全年开放，但时间随季节变化。通常为：4月至9月，每天上午8:00至下午6:00；10月至次年3月，每天上午8:00至下午5:00。周日及宗教节日，开放时间会延后，通常在上午9:30或10:00开始，以供晨祷。大教堂博物馆和塔楼的开放时间更为有限，通常仅在夏季（6月至8月）的特定时段开放，或需预约导览。重大节日如圣诞节和复活节期间，开放时间会大幅调整，具体需提前在官网查询。`} />
+              <InfoRow label="门票价格" value={`进入大教堂主体免费，这是斯堪的纳维亚教堂的传统。然而，参观某些特定部分需要购票：登顶塔楼俯瞰全城，成人票价约为50瑞典克朗；参观大教堂博物馆，票价约为40瑞典克朗。通常有学生及儿童优惠票。捐款被广泛欢迎且意义深远，你可以在入口处的捐款箱投入任意金额，支持这座千年古建的维护。`} />
+              <InfoRow label="地址" value={`Kyrkogatan 6, 222 22 Lund, Sweden`} />
+              <InfoRow label="交通方式" value={`从最近的国际机场——哥本哈根凯斯楚普机场（CPH）出发最为便捷。在机场直接搭乘“厄勒列车”（Öresundståg），约35分钟即可直达隆德中央火车站。列车班次极其密集，高峰时段每10-20分钟一班，无需提前购票，可使用信用卡在站台售票机随时购买。从隆德火车站出发，大教堂是绝对的地标，步行只需10分钟。穿过充满活力的大学城街道，跟着指向“Domkyrkan”的路牌，悠闲漫步即可抵达。如果你从瑞典首都斯德哥尔摩而来，乘坐高速列车约4.5小时可达隆德。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事得从一位名叫“圣劳伦蒂乌斯”的英国传教士说起。大概在1040年左右，这位充满热情与远见的人物，受命于丹麦国王（当时隆德地区属于丹麦王国），来到了这片当时还遍布着北欧众神信仰的斯堪纳维亚土地。他的任务宏大而艰难：在这里建立一座主教座堂，成为将基督教向北欧腹地传播的灯塔。最初的教堂是木结构的，在而今这座巨石教堂的脚下，或许还埋藏着它的根基。但劳伦蒂乌斯的梦想是岩石般永固的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的转折点发生在1103年，隆德被提升为整个斯堪的纳维亚半岛的大主教区中心。这意味着它将成为北欧基督教的最高枢纽。于是，一场与其地位相匹配的建筑盛宴开始了。来自莱茵兰地区的石匠大师们被邀请至此，他们带来了欧洲大陆最成熟的罗马式建筑技艺。巨大的砂岩从附近采石场被运来，工匠们一凿一斧，开始建造这座注定不朽的丰碑。主教们不仅仅是宗教领袖，也是慷慨的艺术赞助人。他们从欧洲各地聘请最好的雕刻师，为教堂打造柱头浮雕和洗礼盆。其中最著名的是一位自称“多纳图斯”的大师，他在教堂中留下了签名，他的作品充满了动感与生命力，将圣经故事生动地刻在了石头上。建造过程跨越了近一个世纪，期间有火灾的破坏，有资金的短缺，但工程从未被放弃。最终，在1145年，这座宏伟的大教堂举行了隆重的祝圣仪式。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，中世纪的辉煌并未永驻。宗教改革的浪潮在16世纪席卷瑞典。1536年，一场针对天主教会的激烈“暴动”在隆德发生。愤怒的民众和新教改革者冲进大教堂，砸毁了大量的圣像、雕塑和天主教装饰。那些曾经色彩斑斓的壁画被石灰粗暴地覆盖，许多珍贵的艺术品永远消失了。教堂的功能也发生了剧变，从天主教的大主教座堂，转变为路德宗的主教堂。内部变得朴素、空旷，仿佛经历了一场精神的“格式化”。但幸运的是，建筑的主体结构奇迹般地保存了下来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间来到19世纪，一场关于“修复”还是“改造”的争论围绕着年久失修的大教堂展开。最终，主张“风格性修复”的建筑师们占了上风。他们决定让大教堂“回归”其纯粹的罗马式起源。于是，后来添加的许多巴洛克和文艺复兴式内饰被移除，两座标志性的尖塔被加建，形成了我们今天看到的对称模样。这次大规模修复在19世纪末完成，虽然从现代文物保护角度看颇具争议，但它无疑重塑并巩固了大教堂今日的经典形象。最惊人的发现发生在20世纪初。工人在检修地暖时，意外地凿穿了一块石板，下面赫然是一个被封存了数百年的巨大空间——地下教堂。这个建于12世纪早期的低矮拱廊空间，保留了最原始、最粗糙的罗马式风貌，里面的柱子上雕刻着神秘的巨人芬恩紧紧抱住柱身的形象，传说他是教堂的建造者，也可能是古老异教力量的象征。这个发现宛如打开了一个时间胶囊，将大教堂最古老、最隐秘的一层历史，赤裸裸地展现在世人面前。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正感受隆德大教堂的层次，我强烈建议你预留出至少3到4个小时，并选择在一个工作日的上午前往。周末和周日早晨常有礼拜，虽然能体验庄重的宗教氛围，但游览会受限。早上九点前抵达最佳，此时游客尚稀，光线柔和，你能独享教堂内部的宁静。整体节奏应该是“由外而内，由下至上，最后归于宁静”。先从外部环绕一周，感受其作为城市基石的体量；然后进入主殿，让感官慢慢适应；重点追踪天文钟的报时（通常在中午12点和下午3点）；之后深入神秘的地下教堂；如果体力允许且塔楼开放，一定登顶俯瞰红瓦绿树的隆德全景；最后在教堂附属的回廊或墓园里找张长椅坐下，让所有的历史细节在脑中慢慢沉淀。这样的路线不仅覆盖了所有精华，更是一种从喧嚣到沉思的心灵旅程。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周日早上通常有大型礼拜，旅游参观会被限制，若想自由游览请避开此时段。天文钟的机械人偶表演仅在每天的中午12点和下午3点（冬季有时会减少为仅12点一次），务必提前查准时间。进入教堂内部，即使夏季也建议带一件薄外套，地下教堂和石质建筑内部常年阴凉。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂东侧的花园开始，逆时针漫步，用手抚摸那些被无数代人触摸而变得光滑的砂岩墙基，观察墙上形态各异的滴水兽。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开西面主入口那扇镶有铁艺的厚重木门，先在门廊处驻足一分钟，让眼睛适应从明亮到昏暗的光线变化，聆听内部空间传来的每一种细微声响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着中殿中央的通道缓缓前行，抬头仰望那些支撑起苍穹的巨型罗马式拱廊，感受比例带来的纯粹神圣感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`务必在整点前十分钟赶到教堂北部耳堂的天文钟下方，找一个好位置，等待那场持续一分钟的、来自中世纪机械精灵的魔法表演。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从天文学旁边不起眼的小楼梯盘旋而下，进入那个温度骤降、气氛完全不同的地下教堂，在昏暗灯光下辨认柱子上的巨人雕刻。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从地下教堂出来，如果塔楼开放，鼓起勇气攀登那狭窄旋转的239级台阶，在塔顶的呼啸风声中，将整个隆德大学城的红色屋顶和远处田园风光尽收眼底。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`游览完主建筑后，别忘了穿过侧门进入宁静的回廊，这里通常是修士们冥想的地方，如今是避开人群、观察教堂建筑侧影的最佳地点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，从回廊步入教堂墓园，在那些长满青苔、刻着古老铭文的墓碑间安静地走一走，许多隆德历史上的著名学者都长眠于此。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`教堂前广场仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光时分，站在教堂西面正前方的广场上，用广角镜头低角度仰拍，能将两座高耸塔楼和庄严立面一同纳入，天空的流云能增添动态感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`中殿拱顶纵深构图`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚室内开灯后，站在中殿靠近祭坛的位置，向后拍摄一排排延伸的罗马式拱门，利用对称构图，营造无限深邃的神圣空间感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`地下教堂巨人柱特写`}</h4>
+                  <p className="text-sm text-gray-700">{`携带大光圈镜头或使用手机的人像模式，贴近那根雕刻着巨人芬恩的柱子，利用现场昏暗的射灯光线，聚焦于巨人挣扎的面部表情，营造神秘而富有张力的戏剧性画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`塔楼俯瞰城市全景`}</h4>
+                  <p className="text-sm text-gray-700">{`登顶后，将镜头从塔楼的石雕拱窗框中伸出，以窗框为前景画框，拍摄下方隆德老城密密麻麻的红瓦屋顶和街道，形成绝佳的框架构图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`回廊拱门与光影`}</h4>
+                  <p className="text-sm text-gray-700">{`晴天的中午，阳光会透过回廊的拱廊在地面投下规律的光影，找一处植物茂盛的角落，拍摄拱门、光影与绿植构成的几何美学画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`室内允许拍照，但请务必关闭闪光灯和快门声音，以示对宗教场合及他人的尊重。使用三脚架可能需要事先申请许可。拍摄做礼拜的信徒或神职人员前，最好先微笑示意获得默许。墓园是安息之所，拍照请保持庄重肃穆。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史中心魅力`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻就在大教堂阴影下的“隆德大酒店”，这家百年老店本身就是一个传奇，部分房间的窗户正对教堂塔楼，清晨在钟声中苏醒。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`学者风体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择大学区由老教授公寓改造的精品民宿，住在摆满旧书和地球仪的房间，仿佛成了隆德大学的访问学者，步行五分钟即可融入教堂与校园交融的氛围。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计感栖居`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于市中心安静街角的现代设计酒店，极简的北欧风格与窗外的古老教堂形成时空对话，酒店顶楼露台是夜晚小酌并欣赏教堂灯光夜景的私密地点。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`郊外宁静庄园`}</h4>
+                  <p className="text-sm text-purple-800">{`若想体验斯科讷省的田园诗，可以住在城外几公里处一座19世纪的白色庄园，骑上酒店提供的自行车，沿着乡间小路一路漫游到教堂，途中满是麦田与油菜花的风景。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`隆德是一座大学城，学期内（尤其是九月和一月）以及毕业季房源会非常紧张，务必提前数月预订。周末（周五、六）的房价通常高于工作日。夏季（6-8月）是旅游旺季，但也是城市相对安静、天气宜人的时候。住在市中心虽然价格稍高，但能让你获得深夜或清晨独享教堂周边街道的宝贵体验。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开隆德大教堂很久以后，我发现自己记住的，不是某个具体的雕塑或某段精确的年份。我记住的是一种感觉。是那种站在空旷的中殿里，突然被千年的寂静拥抱的感觉；是天文钟里那些小木偶，用看似笨拙实则精妙的动作，执着地演绎着古老信仰时，那份穿越时间的童真与虔诚；是地下教堂里，冰凉空气触及皮肤时，那种直接与古老本源相连的战栗。这座教堂像一个巨大的分层地质标本，每一层都封存着不同的时代：罗马式的笃定、宗教改革的裂痕、19世纪复兴的雄心，以及如今日复一日的平静日常。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求快速迭代、注意力被无限切割的时代，隆德大教堂的存在本身就是一种温和的反抗。它不喧哗，不炫耀，只是静静地矗立在那里，告诉你有些事物是可以超越个人生命甚至王朝更替而存在的。它见证了信仰的冲突与融合，知识的禁锢与启蒙，战争的破坏与和平的重建。它提醒我们，真正的深度不在于去了多少地方，而在于你是否允许自己在一个地方停下来，让它的层叠历史慢慢浸染你。对于热爱深度游的旅人而言，这里不是打卡点，而是一个可以安放思绪、与漫长历史进行一场安静对话的驿站。当你触摸那些石头，你触摸的是一整部北欧文明的脊椎。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/votive-church" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    沃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">沃蒂夫教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Votive Church</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/tournai-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    图
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图尔奈圣母主教座堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tournai Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/vasteras" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦斯特罗斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vasteras</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '哈灵根 Harlingen｜瓦登海边的时光胶囊，漫步在黄金时代航海家的砖砌梦境里 - 最佳欧洲景点',
+  description: '还记得我第一次从火车站走出来，扑面而来的不是预想中港口城市的咸腥，而是一阵清冽又带着点甜味的空气，混合着远处面包店的黄油香和运河水的微凉气息。阳光很好，把眼前的一切都晒得暖暖的：赭红色的砖墙、墨绿色的门窗、被岁月磨得发亮的卵石路，还有运河里慢悠悠晃荡着的传统帆船“skûtsje”。这里安静得出奇，耳...',
+}
+
+export default function HarlingenFrisianPortCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '哈灵根', href: '/attractions/harlingen-frisian-port-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`哈灵根・Harlingen・荷兰・哈灵根`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`还记得我第一次从火车站走出来，扑面而来的不是预想中港口城市的咸腥，而是一阵清冽又带着点甜味的空气，混合着远处面包店的黄油香和运河水的微凉气息。阳光很好，把眼前的一切都晒得暖暖的：赭红色的砖墙、墨绿色的门窗、被岁月磨得发亮的卵石路，还有运河里慢悠悠晃荡着的传统帆船“skûtsje”。这里安静得出奇，耳边只有自行车轮碾过石子的沙沙声、海鸥在远处的鸣叫，以及某个院子里隐约传来的修剪树篱的咔嚓声。你立刻就会明白，哈灵根不是一个为你表演的博物馆，它是一部仍在缓慢翻页的、用砖石写就的日记。
+沿着主运河Noorderhaven慢慢走，时间感会变得模糊。左边是一排排阶梯式山墙的古老房屋，有些山墙上还保留着吊钩，那是当年直接把货物从船上吊进阁楼仓库用的。右边泊满了大小船只，从现代游艇到木制的百年老船，它们轻轻碰撞着石砌的河岸，发出慵懒的“咚咚”声。最打动人的是那些窗户——没有厚重的窗帘遮挡，你总能瞥见屋内一隅：一束精心摆放的郁金香，一整面墙的旧书，或者是一位老爷爷正戴着眼镜读报。航海的血脉从未离开，它只是从惊涛骇浪的大海，流进了这些温暖、有序、充满了生活细节的客厅里。
+走到老港（Oude Haven）附近，画面开阔起来。瓦登海（Wadden Sea）那独特的、无边无际的浅灰色水域在防波堤外展开，低垂的天空仿佛触手可及。这里是世界遗产的边缘，当退潮时，你能看到大片裸露的海床，当地人称之为“wad”。风大了些，带着真正的海的味道。码头边的长椅上，总坐着几位穿着厚实外套的老人，他们望着海的方向，不说话，一看就是一下午。他们或许就是当年的水手，如今大海成了他们每日眺望的、沉默的老朋友。这种与海洋深入骨髓的联结，不是喧嚣的渔市所能表达的，它藏在每一道被海风刻画的皱纹里，藏在每一次望向潮汐的平静眼神中。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`还记得我第一次从火车站走出来，扑面而来的不是预想中港口城市的咸腥，而是一阵清冽又带着点甜味的空气，混合着远处面包店的黄油香和运河水的微凉气息。阳光很好，把眼前的一切都晒得暖暖的：赭红色的砖墙、墨绿色的门窗、被岁月磨得发亮的卵石路，还有运河里慢悠悠晃荡着的传统帆船“skûtsje”。这里安静得出奇，耳边只有自行车轮碾过石子的沙沙声、海鸥在远处的鸣叫，以及某个院子里隐约传来的修剪树篱的咔嚓声。你立刻就会明白，哈灵根不是一个为你表演的博物馆，它是一部仍在缓慢翻页的、用砖石写就的日记。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`沿着主运河Noorderhaven慢慢走，时间感会变得模糊。左边是一排排阶梯式山墙的古老房屋，有些山墙上还保留着吊钩，那是当年直接把货物从船上吊进阁楼仓库用的。右边泊满了大小船只，从现代游艇到木制的百年老船，它们轻轻碰撞着石砌的河岸，发出慵懒的“咚咚”声。最打动人的是那些窗户——没有厚重的窗帘遮挡，你总能瞥见屋内一隅：一束精心摆放的郁金香，一整面墙的旧书，或者是一位老爷爷正戴着眼镜读报。航海的血脉从未离开，它只是从惊涛骇浪的大海，流进了这些温暖、有序、充满了生活细节的客厅里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走到老港（Oude Haven）附近，画面开阔起来。瓦登海（Wadden Sea）那独特的、无边无际的浅灰色水域在防波堤外展开，低垂的天空仿佛触手可及。这里是世界遗产的边缘，当退潮时，你能看到大片裸露的海床，当地人称之为“wad”。风大了些，带着真正的海的味道。码头边的长椅上，总坐着几位穿着厚实外套的老人，他们望着海的方向，不说话，一看就是一下午。他们或许就是当年的水手，如今大海成了他们每日眺望的、沉默的老朋友。这种与海洋深入骨髓的联结，不是喧嚣的渔市所能表达的，它藏在每一道被海风刻画的皱纹里，藏在每一次望向潮汐的平静眼神中。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`哈灵根`} />
+                <InfoRow label="英文名称" value={`Harlingen`} />
+                <InfoRow label="正式名称" value={`Harlingen`} />
+                <InfoRow label="国家" value={`荷兰`} />
+                <InfoRow label="城市" value={`哈灵根`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`作为弗里斯兰省（Friesland）历史上最重要和保存最完好的海港城市之一，它曾是荷兰东印度公司（VOC）的重要补给港和造船中心，也是通往瓦登海世界遗产的门户。`} />
+                <InfoRow label="建筑特色" value={`拥有密集且保存完好的17-18世纪砖砌商人房屋与仓库，装饰着精美的山墙、白色窗框和船锚、绳结等航海主题的细节雕刻。`} />
+                <InfoRow label="建筑风格" value={`以荷兰文艺复兴晚期和古典主义风格为主，杂糅了弗里斯兰本土的质朴与航海时代的实用主义。`} />
+                <InfoRow label="文化价值" value={`是荷兰航海黄金时代一个活生生的“非典型”缩影，不仅关乎远洋贸易的荣耀，更沉淀了北海渔夫、造船工匠与普通市民的日常生活智慧与坚韧精神。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城街道及公共区域全年全天开放。主要博物馆如哈灵根城市博物馆（Gemeentemuseum het Hannemahuis）开放时间为周二至周五 11:00 - 17:00，周六日 13:30 - 17:00，周一闭馆；弗兰斯哈尔斯博物馆分馆开放时间类似但常有临时调整。运河游船服务通常在每年4月至10月运营，每日多班次，具体时间需查看当日码头告示或官网。许多特色店铺下午5点左右关门，但餐厅和酒吧会营业至深夜。需注意，冬季（11月-次年3月）部分旅游设施和较小的博物馆可能开放时间缩短或只在周末开放。`} />
+              <InfoRow label="门票价格" value={`进入哈灵根老城本身免费。哈灵根城市博物馆门票约为成人8欧元，65岁以上及学生6欧元，13-18岁青少年4欧元，12岁以下儿童免费。持有博物馆卡免费。运河游船票价因线路不同而异，经典1小时环城游参考价为成人12-15欧元，儿童（4-12岁）半价。部分历史建筑如“诺普斯之家”（‘t Noorderhuis）可能收取小额参观费（约3-5欧元）。联合票或季节性优惠活动不常见，建议单独购票。`} />
+              <InfoRow label="地址" value={`Harlingen, Friesland, 8860-8862, Netherlands`} />
+              <InfoRow label="交通方式" value={`从阿姆斯特丹史基浦机场出发最便捷的方式是乘坐火车。在机场火车站直接搭乘开往吕伐登（Leeuwarden）方向的列车，几乎每小时都有直达车，车程约2小时。在吕伐登中央车站换乘前往哈灵根的本地火车（Sprinter），这段行程约25分钟，班次密集。从吕瓦登火车站也有91路或97路公交车可抵达哈灵根，耗时稍长（约40分钟），但沿途可欣赏弗里斯兰田园风光。如果自驾，从阿姆斯特丹经A7高速公路北行，约1小时45分钟可达。城内停车建议使用老城外围的停车场（如‘t Harn），步行几分钟即可进入老城中心，避免将车开入狭窄的古老街道。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`哈灵根的故事，得从大海和土地的一场漫长谈判说起。大约在13世纪，这片位于弗里斯兰西部的泥炭沼泽地边缘，开始有勇敢（或者说走投无路）的定居者。他们挖掘泥炭，建造堤坝，硬生生从海洋和湖泊手中抢出土地。一个名为“阿尔丁加”（Althinga）的小定居点逐渐成形，它的命运在1234年被一场毁灭性的洪水彻底改变——老村子被淹了，幸存者们不得不向更安全的内陆高处迁移，这便成了今天哈灵根的雏形。从一开始，这座城市的存在就是一部与北海搏斗、共存的历史。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的黄金时代，伴随着荷兰共和国在16世纪末的崛起而到来。当阿姆斯特丹和鹿特丹的巨舰驶向亚洲和美洲时，哈灵根凭借其靠近瓦登海深水航道的地理优势，找到了自己的 niche。它成了荷兰东印度公司（VOC）和西印度公司（WIC）舰队重要的二级港口和补给站。在这里，远航的船只可以补充最后的新鲜淡水、腌鲱鱼和弗里斯兰的勇气。更重要的是，哈灵根发展出了繁荣的造船业。运河两岸，船坞林立，敲打声日夜不息，锻造着这个海上帝国的筋骨。那些为VOC建造的船只，载着弗里斯兰的木材、沥青和工匠精神，驶入历史的主流航道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但哈灵根从来不只是宏大叙事的配角。它拥有自己桀骜不驯的灵魂。在“无stadholder时代”（1650-1672年），弗里斯兰省保持着高度的自治，哈灵根的商人和船长们精明而独立。他们不仅进行东印度贸易，更主导了利润丰厚的“straatvaart”——前往地中海沿岸，特别是意大利的航运贸易。将北欧的谷物、木材和鲱鱼运往南方，带回的则是葡萄酒、橄榄油和丝绸。这些商人建造了我们现在看到的那些华丽山墙房屋，但他们不像阿姆斯特丹的同行那样极尽奢华，而是在砖砌的严谨中，透出一股航海家的务实与坚固。许多山墙顶上的石球装饰，据说就是为了防止缆绳在装卸货物时磨损墙角。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`战争与和平的浪潮一次次拍打这座海港。在拿破仑的大陆封锁政策期间，哈灵根的经济遭受重创。到了19世纪，随着蒸汽船时代的到来和大型港口城市的兴起，它的航运地位不可避免地衰落。但转折点带来了另一种生机——它转型成为了专业的渔港，特别是针对鲱鱼和鳗鱼。20世纪，当渔业也面临现代化冲击时，哈灵根又找到了新的方向：旅游业和休闲航海。它没有试图把自己变成另一个拥挤的“威尼斯”，而是静静地保存着自己的容颜。二战期间，它作为盟军飞行员逃亡路线的重要一环，又默默书写了一页英勇的历史。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天，你漫步在哈灵根，脚下是数百年的历史层。运河底部可能还沉着VOC时期的陶器碎片，砖墙里封存着海风与盐粒。它从不是一个主角光环笼罩的城市，没有出过震惊世界的大画家，也没有发生过决定国运的战役。但正是这种“配角”的持续性，让它成为了一本无比珍贵的“生活史”。它告诉我们，在航海黄金时代的炫目光芒之外，还有无数个像哈灵根这样的港口，以其坚韧、务实和深厚的生活智慧，共同支撑起了那个传奇的时代，并将那种与海共舞的精神，绵延至今。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要彻底感受哈灵根的魂，我建议你留出完整的一天。最好是工作日前往，能避开周末的短途游客，独享老城的静谧。早晨九点左右抵达最为理想，此时的阳光正温柔地斜射在运河东岸的建筑上，是拍照和漫步的黄金时间。整体游览节奏应放得非常非常慢，这里的精髓在于“浸泡”而非“打卡”。路线可以设计成一个环线，从火车站开始，先深入老城核心感受生活气息，再走向开阔的海港体会它的航海胸怀，最后沿着另一条运河悠闲折返，全程步行即可，耗时约6-8小时，中间务必留出时间发呆、喝咖啡、看船。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要查看潮汐表，退潮时海港的水位会很低，甚至露出泥滩，景色与涨潮时截然不同，计划乘船游或海床漫步活动时尤其关键。
+老城石板路和卵石路对行李箱轮子和高跟鞋极不友好，务必穿一双绝对舒适的平底鞋。
+这里的餐厅关门相对较早，晚上8点后选择就很少了，建议提前规划晚餐。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从哈灵根中央火车站出来，别急着看地图，先信步穿过站前的小广场，让自己被那排彩色的山墙房屋和安静的街巷气息温柔地包裹。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着运河街（Voorstraat）向北溜达，仔细观察每一栋砖房山墙上不同的装饰——船锚、海马、绳结雕刻，仿佛在阅读一本立体的航海符号词典。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拐进狭窄的巷子“Grote Bredeplaats”附近，寻找那家飘着新鲜stroopwafel（荷兰糖浆华夫饼）香气的小作坊，买一块热乎乎的，边吃边看店主熟练地操作古老的铁钳。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走进哈灵根城市博物馆（Hannemahuis），它本身就是一栋美丽的17世纪商人宅邸，里面收藏的不仅是瓷器银器，更是几代哈灵根家族出海、归航、爱与等待的故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到老港（Oude Haven）的防波堤尽头，面对浩瀚的瓦登海坐下，观察潮水的进退，如果幸运，还能看到海豹在远处沙洲上晒太阳的黑色小点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午餐后去“Zoutsluis”水闸附近，看船只如何通过这个精巧的工程进出城市，听水流哗哗的声音和船长与闸门管理员的简短吆喝。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着南运河（Zuiderhaven）往回走，这边的风景更开阔，可以欣赏到对岸仓库建筑群在水中的完美倒影，尤其当有传统帆船缓缓驶过时。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果还有精力，傍晚前报名一个从港口出发的瓦登海短途乘船游，在专业向导的带领下踏上退潮后的海床（wadlopen），用双脚感受这片世界遗产泥滩的神奇触感。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`老港防波堤向东拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，站在防波堤上，利用长焦镜头压缩空间，将停泊的桅杆、红色的灯塔与远处海平面上巨大的落日一同纳入画面，形成绝佳的剪影和冷暖色调对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`南运河（Zuiderhaven）中段拱桥`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨阳光洒在东侧建筑时，登上拱桥，以桥拱为前景框架，拍摄运河中传统帆船“skûtsje”的倒影，对称构图能完美展现水城的宁静与秩序。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“Voorstraat”运河街某扇彩门前`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，当阳光将树影投在赭红色砖墙上时，寻找一扇亮丽的蓝色或绿色木门，贴近拍摄门的细节（如黄铜门环、雕刻）和斑驳的墙面纹理，讲述时光的故事。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城市博物馆后方的小码头`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分，虽然光线较硬，但这个角度能拍到密集的房屋山墙在水中的倒影，使用偏振镜消除水面反光，能获得色彩极其浓郁、几何感强烈的作品。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`周末集市（如果赶上）`}</h4>
+                  <p className="text-sm text-gray-700">{`在“Grote Bredeplaats”广场，用中焦段捕捉当地人在鱼摊、奶酪摊前认真挑选的瞬间，注意捕捉他们篮子里的物品和摊主粗犷有力的手，展现鲜活的生活气息。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尊重当地居民隐私，拍摄房屋内部或窗前人物时务必谨慎，最好获得同意，荷兰人非常注重个人空间。`}</li>
+                <li>• {`使用偏振镜（CPL）在这里非常有用，不仅能增强蓝天与红砖的对比，还能有效消除运河水面及窗户上的反光，让色彩更纯净。`}</li>
+                <li>• {`尝试在微风的日子拍摄，水面轻微的涟漪可以柔化倒影，比镜子般的完全平静更有油画质感。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`运河边的历史瑰宝`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻一栋经过精心修复的17世纪船长宅邸改造的精品酒店，躺在四柱床上就能看到窗外运河里摇曳的船影，木质楼梯的每一次吱呀声都像在低语过去的故事。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`温馨的“船长之家”B&B`}</h4>
+                  <p className="text-sm text-green-800">{`选择一家由当地航海家族经营的民宿，女主人会为你准备丰盛的弗里斯兰早餐，包括黑麦面包、本地奶酪和腌肉，客厅里摆满了家族的老照片和航海仪器。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代设计港口loft`}</h4>
+                  <p className="text-sm text-yellow-800">{`喜欢简约风格？港口区由旧仓库改造的开放式公寓是你的菜，高挑的屋顶、巨大的工业风窗户直面港口活动，晚上看着码头灯光吃外卖也是独特体验。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`城外宁静农庄`}</h4>
+                  <p className="text-sm text-purple-800">{`租一辆自行车，骑行15分钟到郊外的弗里斯兰农庄住下，早晨在奶牛的低鸣中醒来，体验真正的荷兰乡村生活，再慢悠悠骑车进城探索。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`哈灵根本身很小，住宿数量有限，尤其在夏季帆船赛事（如Skûtsjesilen）期间非常抢手，务必提前数月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`大多数老城中心的住宿没有专用停车场，需要停到附近的公共停车场，预订时一定要确认停车安排和额外费用。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果你想体验瓦登海潮汐，可以选择靠近老港的住宿，这样清晨和傍晚可以轻松步行到海边观察水位变化，感受城市与海洋最直接的脉搏连接。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开哈灵根好些天了，但闭上眼睛，指尖仿佛还能触到那些砖块的粗糙纹理，鼻尖还萦绕着海风、咖啡和新鲜华夫饼交织的复杂气味。这个地方给我最深的触动，不是震撼，而是一种温柔的坚定。它像一位经历过风浪、如今安享晚年的老水手，不再需要向你炫耀伤疤或勋章，只是静静地坐在家门口，看着潮起潮落，眼神里有大海的深邃，也有壁炉火的温暖。在这个追求效率和刺激的世界里，哈灵根的存在是一种安慰剂，它告诉你，缓慢、持续、认真地生活，本身就是一种伟大的成就。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，如果你厌倦了那些被游客脚步磨平了的“必到景点”，如果你想知道在荷兰除了风车和郁金香之外，还有一种更沉静、更贴近土地与海洋的灵魂，请一定把哈灵根放入你的清单。它不会用喧嚣的娱乐款待你，但它会给你一把钥匙，打开一扇通往时间深处的门。在那里，你能听到砖石的低语，海潮的呼吸，和一个民族如何将冒险的基因，细水长流地编织进日常的肌理。这是一次关于“深度”的真正实践——不仅是地理上的深入，更是向着一种生活哲学、一段沉默历史的深度沉浸。在这里，你不是旁观者，你成了那段漫长、潮湿、带着盐渍的故事里，短暂而珍贵的一行。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kasteel-de-haar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克莱沃城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kasteel de Haar</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/roermond-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    鲁
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">鲁尔蒙德老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Roermond Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/giethoorn" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    羊
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">羊角村</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Giethoorn</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

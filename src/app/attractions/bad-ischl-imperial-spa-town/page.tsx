@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '巴德伊舍 Bad Ischl｜奥地利皇帝的爱情圣地与音乐家灵感源泉 - 最佳欧洲景点',
+  description: '火车缓缓驶入巴德伊舍站台，第一口吸入的空气就带着与众不同的清甜——那不是单纯的草木香，而是一种混合了远山森林的冷冽、特劳恩河的水汽，以及从街角百年甜品店飘散出的、若有似无的糖霜和香草气息的独特味道。我拖着行李箱走在通往小镇中心的路上，脚步不自觉地放慢了。这里没有大城市的喧嚣，耳边是潺潺流水声、清脆的...',
+}
+
+export default function BadIschlImperialSpaTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '巴德伊舍', href: '/attractions/bad-ischl-imperial-spa-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴德伊舍・Bad Ischl・奥地利・巴德伊舍（位于上奥地利州萨尔茨卡默古特地区）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`火车缓缓驶入巴德伊舍站台，第一口吸入的空气就带着与众不同的清甜——那不是单纯的草木香，而是一种混合了远山森林的冷冽、特劳恩河的水汽，以及从街角百年甜品店飘散出的、若有似无的糖霜和香草气息的独特味道。我拖着行李箱走在通往小镇中心的路上，脚步不自觉地放慢了。这里没有大城市的喧嚣，耳边是潺潺流水声、清脆的马车铃铛声，以及咖啡馆露天座传来的轻柔交谈与瓷器碰撞的脆响。阳光透过行道树的枝叶，在干净得发亮的石板路上投下细碎的光斑，一切都笼罩在一种金色的、慵懒的慢调子里。
+你很快会发现，巴德伊舍的“慢”并非停滞，而是一种深入骨髓的优雅从容。当地人骑着自行车从你身边掠过，会微笑着点头致意；老先生们穿着传统的灰色西装，在咖啡馆里一坐就是一下午，读报、下棋，仿佛时间在这里被慷慨地拉长了。这里的主角似乎是那条翡翠色的特劳恩河，它穿城而过，将小镇一分为二，又由几座精巧的小桥连接。河岸两侧，色彩柔和的建筑像积木般整齐排列，阳台上无一例外地盛开着天竺葵的红色花海。每个人看起来都气定神闲，仿佛继承了某种帝国遗风下的度假哲学。
+而这一切氛围的源头，都指向镇外那座被巨大英式花园环绕的白色别墅——皇帝别墅。它并不张扬夺目，却像一块磁石，无声地定义了整个小镇的格调。正是因为它，巴德伊舍从一个普通的盐矿小镇，一跃成为欧洲最著名的温泉度假胜地之一，吸引着从皇帝到艺术家，再到今天如你我这样的普通旅人。在这里，你消费的不是奢华的设施，而是一种昔日贵族式的、专注于身心疗愈与艺术享受的生活方式。最打动人心的，莫过于这种“皇家范儿”与“人间烟火气”的奇妙交融——你可以在皇帝求婚的公园里散步，转身就去市集买一把当地农夫的草药；听完一场在小教堂里举行的古典音乐会，接着就挤进当地人最爱的啤酒馆，尝一口用山泉水酿造的啤酒。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`火车缓缓驶入巴德伊舍站台，第一口吸入的空气就带着与众不同的清甜——那不是单纯的草木香，而是一种混合了远山森林的冷冽、特劳恩河的水汽，以及从街角百年甜品店飘散出的、若有似无的糖霜和香草气息的独特味道。我拖着行李箱走在通往小镇中心的路上，脚步不自觉地放慢了。这里没有大城市的喧嚣，耳边是潺潺流水声、清脆的马车铃铛声，以及咖啡馆露天座传来的轻柔交谈与瓷器碰撞的脆响。阳光透过行道树的枝叶，在干净得发亮的石板路上投下细碎的光斑，一切都笼罩在一种金色的、慵懒的慢调子里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你很快会发现，巴德伊舍的“慢”并非停滞，而是一种深入骨髓的优雅从容。当地人骑着自行车从你身边掠过，会微笑着点头致意；老先生们穿着传统的灰色西装，在咖啡馆里一坐就是一下午，读报、下棋，仿佛时间在这里被慷慨地拉长了。这里的主角似乎是那条翡翠色的特劳恩河，它穿城而过，将小镇一分为二，又由几座精巧的小桥连接。河岸两侧，色彩柔和的建筑像积木般整齐排列，阳台上无一例外地盛开着天竺葵的红色花海。每个人看起来都气定神闲，仿佛继承了某种帝国遗风下的度假哲学。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而这一切氛围的源头，都指向镇外那座被巨大英式花园环绕的白色别墅——皇帝别墅。它并不张扬夺目，却像一块磁石，无声地定义了整个小镇的格调。正是因为它，巴德伊舍从一个普通的盐矿小镇，一跃成为欧洲最著名的温泉度假胜地之一，吸引着从皇帝到艺术家，再到今天如你我这样的普通旅人。在这里，你消费的不是奢华的设施，而是一种昔日贵族式的、专注于身心疗愈与艺术享受的生活方式。最打动人心的，莫过于这种“皇家范儿”与“人间烟火气”的奇妙交融——你可以在皇帝求婚的公园里散步，转身就去市集买一把当地农夫的草药；听完一场在小教堂里举行的古典音乐会，接着就挤进当地人最爱的啤酒馆，尝一口用山泉水酿造的啤酒。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`巴德伊舍`} />
+                <InfoRow label="英文名称" value={`Bad Ischl`} />
+                <InfoRow label="正式名称" value={`Bad Ischl`} />
+                <InfoRow label="国家" value={`奥地利`} />
+                <InfoRow label="城市" value={`巴德伊舍（位于上奥地利州萨尔茨卡默古特地区）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`19世纪奥地利帝国皇室的夏季心脏，被誉为“皇帝的温泉小镇”，是奥匈帝国政治与社交生活的重要夏都。`} />
+                <InfoRow label="建筑特色" value={`融合了典雅的比德迈风格别墅、宏伟的帝国疗养建筑与迷人的河畔木屋，呈现出一种宁静而高贵的度假地风貌。`} />
+                <InfoRow label="建筑风格" value={`以比德迈风格和后期历史主义风格为主，点缀着阿尔卑斯山地区传统的木结构建筑元素。`} />
+                <InfoRow label="文化价值" value={`不仅是哈布斯堡王朝爱情的见证地，更是“银色夏天”文化圈的摇篮，吸引了约翰·施特劳斯、弗朗茨·莱哈尔等众多音乐巨匠在此创作。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇本身全天开放。主要室内景点如皇帝别墅（Kaiservilla）开放时间一般为4月初至10月底，每天上午9点至下午5点（最后入场时间下午4点），7-8月旺季可能延长至下午6点。具体日期每年微调，冬季通常关闭。莱哈尔别墅（Lehar Villa）等博物馆开放时间类似，但冬季开放时间更短或预约开放。建议行前务必查询当年官方时间表。`} />
+              <InfoRow label="门票价格" value={`皇帝别墅（含公园）：成人票约15欧元，优惠票（学生、老人）约13欧元，家庭票有优惠。莱哈尔别墅门票约8欧元。多家博物馆联票（如“皇家巴德伊舍票”）约20欧元，性价比高。公共温泉浴场（Kurhaus）根据使用设施和时长收费，3小时温泉体验约18欧元。多数教堂和公园免费。`} />
+              <InfoRow label="地址" value={`Kaiservilla, Jainzen 38, 4820 Bad Ischl, Austria`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是萨尔茨堡机场（SZG），距离约50公里。从萨尔茨堡中央火车站（Salzburg Hbf）出发，乘坐区域火车（R或REX线）前往“Bad Ischl Bahnhof”站，车程约1小时10分钟，每小时至少有1-2班车，非常方便。从维也纳中央火车站（Wien Hbf）出发，乘坐火车约需2.5至3小时，需在阿特南-普赫海姆（Attnang-Puchheim）换乘一次。自驾沿A1高速转B158公路可轻松抵达。小镇内部步行即可游览所有核心景点。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从盐开始说起。早在19世纪初，巴德伊舍还只是一个依靠附近盐矿生存的宁静村庄。1823年，当地一位医生发现了这里的盐水泉具有疗愈功效，建起了第一个简易的沐浴设施。命运的转折发生在1828年，当时还是大公夫人的索菲（后来奥地利皇帝弗朗茨·约瑟夫一世的母亲）来此疗养，效果显著。从此，哈布斯堡家族与这片山水结下了不解之缘。真正让巴德伊舍烙印在帝国史册上的，是1853年那个浪漫的夏天。年轻的皇帝弗朗茨·约瑟夫在这里度假，他的母亲索菲安排了他与表妹、巴伐利亚的伊丽莎白——也就是后来闻名于世的茜茜公主——的会面。就在皇帝别墅的客厅里，弗朗茨对美丽活泼的茜茜一见钟情，并很快求婚。这座别墅，作为母亲的礼物，成了他们的订婚之地和未来的夏宫。自此，巴德伊舍被冠以“皇帝的温泉小镇”之名，进入了它的黄金时代。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`接下来的半个多世纪，每年夏天，弗朗茨·约瑟夫皇帝都会携家人和整个宫廷从维也纳移驾至此。皇帝别墅成了帝国的“夏季办公室”，重要的国事文件从这里签发，外交使节在这里觐见。小镇因此大兴土木，建造了豪华的疗养宫、剧院和宴会厅，以满足皇室和随行贵族的需求。然而，宫廷生活并非总是童话。茜茜公主天性热爱自由，对严格的宫廷礼仪深感压抑，巴德伊舍相对轻松的环境成了她难得的喘息之所。她酷爱在这里的森林和山间长时间徒步、骑马。你可以想象，在那条著名的“皇帝徒步小径”上，曾留下过多少她试图逃离繁文缛节的孤独身影。皇帝与皇后爱情中的复杂与疏离，也为这座风光旖旎的小镇增添了一抹忧郁的传奇色彩。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`皇室的光环如同一块巨大的磁石，吸引了整个欧洲上流社会和文化精英纷至沓来。19世纪末20世纪初，巴德伊舍迎来了它的第二个文化高峰——“银色夏天”。皇帝别墅的常客、轻歌剧之王弗朗茨·莱哈尔干脆在此定居，买下了一座别墅并创作了《风流寡妇》等不朽名作。约翰·施特劳斯、布鲁克纳等音乐大师也视这里为灵感圣地。作曲家们在小镇的沙龙和音乐厅里演奏新作，作家和画家在此寻找题材，形成了一个繁荣的艺术家社群。那时的巴德伊舍，空气中流淌的不仅是温泉的水汽，更是音符与诗句。这段辉煌一直持续到1914年，随着第一次世界大战的爆发和奥匈帝国的瓦解，皇帝的夏天永远地结束了。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`帝国崩塌了，但巴德伊舍作为顶级温泉疗养胜地的基因却保留了下来。今天的“库尔豪斯”（疗养宫）建筑群依然宏伟，人们来这里进行经典的“水疗疗程”，遵循着古老的养生传统。小镇并没有沉溺于过去，它巧妙地将历史转化为独特的文化资本。每年夏天举办的“莱哈尔音乐节”让歌剧之声再度响彻街巷，而茜茜公主与皇帝的故事，则通过博物馆、导览和那些保存完好的场景，生动地讲述给每一位访客。它从一个帝国的政治夏都，平稳地转型为一个专注于健康、文化与深度度假的桃花源，那份融合了皇家尊贵与自然治愈力的气质，历经百年，丝毫未减。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受巴德伊舍的精华，建议安排整整一天时间。最好在上午9点左右抵达小镇火车站，这时晨雾刚散，阳光柔和，游客尚未大批涌入。整体的游览节奏应该是“慢品”，而非“赶路”。路线设计为一条环线，从火车站出发，先探访镇外的皇家核心区，感受帝国的宏大叙事；再折返深入小镇中心，体验充满生活气息的街巷、河流与市集；最后以一场温泉疗养或河畔咖啡作为完美收官。这样安排既能错开皇帝别墅上午可能出现的团队游客小高峰（稍晚抵达），又能让你在一天中光线最好的时候拍到小镇最美的角落，并有充足时间坐下来品味当地生活。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`皇帝别墅内部参观必须跟随导览团（有德语和英语），请提前在官网查询英语团的具体时间并预留足够时间。小镇许多小店和咖啡馆周一可能休息，安排行程时请注意。进行温泉疗养前最好提前电话预约理疗项目，旺季时非常紧俏。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来，别急着进镇，先左转沿着绿树成荫的“皇帝大道”散步约15分钟，让那座隐匿在巨大英式园林后的白色皇帝别墅作为你今日帝国之旅的宏伟序章。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在皇帝别墅的博物馆里仔细看那间朴素的客厅，想象1853年夏天那位羞涩的年轻皇帝如何在这里向他惊艳的表妹茜茜公主递上那束求婚的鲜花。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走进别墅后方宛如自然森林的公园，沿着茜茜公主最爱的林间小径走到池塘边，那里天鹅静立，时光仿佛真的停留在了一个多世纪前的静谧午后。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`返回小镇中心，直奔特拉特纳甜品店，在贴满历史照片的店堂里点一份真正的“皇帝煎饼”或茜茜公主最爱的“紫罗兰糖”，让甜腻的香气彻底唤醒你的感官。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过热闹的集市广场，在市政厅前听听整点报时的钟琴演奏，然后选一座小桥过河，站在桥中央看翡翠色的特劳恩河水如何将两岸色彩缤纷的房子倒映成一幅流动的油画。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着河对岸的步行街“埃斯普拉纳德”闲逛，寻找那些铭牌上刻着作曲家名字的别墅，最后在莱哈尔别墅的花园里坐一会儿，耳边似乎还能听见《风流寡妇》的旋律片段。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在下午三四点的阳光变得金黄时，踱步到宏伟的库尔豪斯建筑群前，感受昔日疗养胜地的辉煌气度，并决定是进去体验现代温泉水疗，还是在面对河流的露天咖啡馆消耗掉剩余的时光。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果还有余力，乘上那辆复古的蒸汽小火车，让它带你“哐当哐当”地缓慢爬上山坡，从更高的视角俯瞰整个小镇被群山温柔环抱的全景画卷。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`皇帝别墅正门与大道`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光，能拉长林荫大道两侧古树的影子，将白色别墅衬托得庄严而宁静，构图时将大道作为引导线。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`糖霜蛋糕般的建筑与特劳恩河`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在“斯塔德特桥”上，面向“埃斯普拉纳德”街，将岸边那排色彩柔和、阳台开满鲜花的比德迈风格建筑与它们在河水中的完美倒影一同纳入镜头。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`库尔豪斯建筑全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，走到特劳恩河对岸的步行道上，用广角镜头拍摄库尔豪斯及其前方广场的完整新巴洛克式立面，温暖的夕阳光线会给建筑染上迷人的金色。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`莱哈尔别墅花园角落`}</h4>
+                  <p className="text-sm text-gray-700">{`午后阳光穿过树叶时，在莱哈尔别墅花园的长椅或作曲家雕像旁拍摄人像，能捕捉到那种文艺、闲适且充满历史感的氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`蒸汽小火车行进中`}</h4>
+                  <p className="text-sm text-gray-700">{`坐在小火车靠山外侧的位置，当火车蜿蜒上行时，抓住它穿过小隧道或转弯的瞬间，拍摄车头喷着白烟、背景是山下小镇全景的动态画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效消除河面反光，让水中倒影更清晰透彻。拍摄小镇街景时，不妨等待一辆装饰鲜花的马车进入画面，能立刻增添生动感和古典气息。注意尊重居民隐私，避免将镜头对准私人住宅的窗户或阳台内部。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`帝国风情之选`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻于由19世纪贵族别墅改造的精品酒店，房间拥有挑高天花板和复古家具，早餐在鲜花盛开的庭院享用，服务生会像讲述老朋友的故事一样为你介绍小镇历史。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`音乐家主题体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择一间以作曲家命名的家庭式公寓，房东可能是一位退休音乐教师，屋里摆放着一架老钢琴和无数唱片，晚上他会为你播放一段莱哈尔的歌剧选段。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代温泉疗愈居所`}</h4>
+                  <p className="text-sm text-yellow-800">{`入住库尔豪斯建筑群内的现代化温泉酒店，房间简约舒适，最大好处是拥有一张温泉通行证，可以随时下楼泡在温暖的盐水中，或预约一场传统的按摩。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`河畔静谧民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`住在特劳恩河上游稍远一点的安静街区，独栋木屋带有一个面向森林和溪流的小露台，晚上只能听到水声和虫鸣，是彻底放松身心的完美隐居地。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（7-8月）和圣诞集市期间是绝对旺季，住宿必须提前数月预订。选择住在镇中心固然方便，但河对岸或火车站附近的住宿性价比更高，且步行到各处也都十分便捷。许多民宿不设前台，自助入住非常普遍，务必与房东提前确认好交接细节。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开巴德伊舍时，我的行李箱里没有多出什么纪念品，但心里却好像被塞进了一整个宁静的夏天。那种感觉，不是看过雄伟宫殿后的震撼，也不是完成打卡清单后的满足，而是一种被温柔抚平褶皱的舒缓。在这里，历史不是教科书上冰冷的文字，而是甜品店里一块糖的滋味，是公园里一条小径的触感，是河水永恒不变的流淌声。它让你相信，有些地方存在的意义，就是为了让你记得：生活可以慢下来，并且值得以优雅、健康的方式慢下来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切追求效率和速度的世界里，巴德伊舍像一个固执的旧梦，守护着一种近乎失传的生活艺术。它告诉我们，度假不仅是地理上的移动，更是心境的复位；文化不仅是瞻仰遗迹，更是呼吸与之共存的气息。每一位热爱深度游的旅人都该来一次巴德伊舍，不仅仅是为了追寻茜茜公主的足迹或音乐家的灵感，更是为了亲身体验那种“不着急”的哲学。在这里，花一个下午喝茶看云不是浪费，沿着一条没有终点的河散步正是正事。它会悄然改变你对“旅行”乃至对“时间”本身的看法，而这，或许才是最珍贵的纪念品。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/melk-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    梅
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅尔克修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Melk Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bad-ischl" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴德伊舍</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bad Ischl</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/innsbruck-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    因
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">因斯布鲁克老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Innsbruck Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

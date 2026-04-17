@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '卡尔斯克鲁纳 Karlskrona｜波罗的海上永不沉没的木头战舰与黄金时代迷梦 - 最佳欧洲景点',
+  description: '当我第一次从渡船上望向卡尔斯克鲁纳时，它完全不像我印象中任何一座北欧城镇。没有蜿蜒曲折的中世纪小巷，取而代之的是一种开阔、规整、甚至带着一丝严肃的秩序感。湛蓝的波罗的海海水拍打着巨大的花岗岩堤岸，空气里是咸湿的海风混合着远方松林传来的清新气息。巨大的干船坞像被巨人用尺子画在海湾里，而色彩柔和的木头房...',
+}
+
+export default function KarlskronaNavalPortCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '卡尔斯克鲁纳（军港古城）', href: '/attractions/karlskrona-naval-port-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`卡尔斯克鲁纳（军港古城）・Karlskrona・瑞典・卡尔斯克鲁纳`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当我第一次从渡船上望向卡尔斯克鲁纳时，它完全不像我印象中任何一座北欧城镇。没有蜿蜒曲折的中世纪小巷，取而代之的是一种开阔、规整、甚至带着一丝严肃的秩序感。湛蓝的波罗的海海水拍打着巨大的花岗岩堤岸，空气里是咸湿的海风混合着远方松林传来的清新气息。巨大的干船坞像被巨人用尺子画在海湾里，而色彩柔和的木头房子——鹅黄、赭石、灰蓝——则整齐地排列在宽阔的街道两旁，在北方清澈得近乎透明的阳光下，散发着一种宁静而古老的光泽。这里的一切，都大声宣告着：我是一座为战争与荣耀而生的城。
+然而，走近了，你会听到另一种声音。那是海鸥在码头仓库屋顶的鸣叫，是自行车轮碾过石板路的沙沙声，是咖啡馆外人们喝着“菲卡”咖啡的低声谈笑。海军军官的旧宅如今住着普通的家庭，曾经储存火炮的仓库变成了设计工作室。这座城市的骨骼是刚硬的、军事化的，但它的血肉早已被三百多年的平凡生活浸润得柔软。最动人的莫过于看到一位老人，慢悠悠地穿过巨大的、棋盘般的斯塔托特广场，走向那艘永不启航的“木头战舰”——古老的教堂，仿佛日常的散步就是一场穿越历史的航行。
+它的核心魅力，就在于这种强烈的反差与融合。你能同时触摸到帝国雄心留下的冰冷巨石，和寻常百姓家窗台上盛开的天竺葵的温热。你能在海军博物馆里看到曾经令整个波罗的海颤抖的巨舰模型，转身就在港口市场买到渔民清晨捕获的鲜嫩鲱鱼。这是一座被时光按下了暂停键的城，帝国的幻梦早已随舰队沉入深海，但规划它的那份理性、优雅与雄心，却化作了日常生活中一种不慌不忙的节奏，留在了每一块被海风磨圆的石头和每一片吱呀作响的木地板上。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当我第一次从渡船上望向卡尔斯克鲁纳时，它完全不像我印象中任何一座北欧城镇。没有蜿蜒曲折的中世纪小巷，取而代之的是一种开阔、规整、甚至带着一丝严肃的秩序感。湛蓝的波罗的海海水拍打着巨大的花岗岩堤岸，空气里是咸湿的海风混合着远方松林传来的清新气息。巨大的干船坞像被巨人用尺子画在海湾里，而色彩柔和的木头房子——鹅黄、赭石、灰蓝——则整齐地排列在宽阔的街道两旁，在北方清澈得近乎透明的阳光下，散发着一种宁静而古老的光泽。这里的一切，都大声宣告着：我是一座为战争与荣耀而生的城。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，走近了，你会听到另一种声音。那是海鸥在码头仓库屋顶的鸣叫，是自行车轮碾过石板路的沙沙声，是咖啡馆外人们喝着“菲卡”咖啡的低声谈笑。海军军官的旧宅如今住着普通的家庭，曾经储存火炮的仓库变成了设计工作室。这座城市的骨骼是刚硬的、军事化的，但它的血肉早已被三百多年的平凡生活浸润得柔软。最动人的莫过于看到一位老人，慢悠悠地穿过巨大的、棋盘般的斯塔托特广场，走向那艘永不启航的“木头战舰”——古老的教堂，仿佛日常的散步就是一场穿越历史的航行。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，就在于这种强烈的反差与融合。你能同时触摸到帝国雄心留下的冰冷巨石，和寻常百姓家窗台上盛开的天竺葵的温热。你能在海军博物馆里看到曾经令整个波罗的海颤抖的巨舰模型，转身就在港口市场买到渔民清晨捕获的鲜嫩鲱鱼。这是一座被时光按下了暂停键的城，帝国的幻梦早已随舰队沉入深海，但规划它的那份理性、优雅与雄心，却化作了日常生活中一种不慌不忙的节奏，留在了每一块被海风磨圆的石头和每一片吱呀作响的木地板上。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`卡尔斯克鲁纳（军港古城）`} />
+                <InfoRow label="英文名称" value={`Karlskrona`} />
+                <InfoRow label="正式名称" value={`Karlskrona`} />
+                <InfoRow label="国家" value={`瑞典`} />
+                <InfoRow label="城市" value={`卡尔斯克鲁纳`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`瑞典帝国在17世纪末打造的“波罗的海巨舰”，曾是北欧最强大的海军基地和战舰制造中心。`} />
+                <InfoRow label="建筑特色" value={`一座完全由图纸规划、在群岛岩石上凭空建起的巴洛克风格理想城，拥有星形堡垒、宏伟教堂和巨大的造船厂。`} />
+                <InfoRow label="建筑风格" value={`巴洛克城市规划与本土北欧木结构建筑的独特融合。`} />
+                <InfoRow label="文化价值" value={`见证了瑞典作为欧洲大国的海上霸权兴衰，是保存完好的17-18世纪军事城市规划活化石，于1998年被列入联合国教科文组织世界遗产名录。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城区及公共区域全天开放。主要室内景点（如海军博物馆、弗雷德里克教堂）开放时间一般为夏季（6月-8月）10:00-18:00，冬季（9月-5月）缩短至11:00-16:00，周一常闭馆。具体请以各场馆官网最新公告为准。`} />
+              <InfoRow label="门票价格" value={`漫步古城本身免费。海军博物馆成人票约120瑞典克朗，青少年有优惠。弗雷德里克教堂免费进入，登塔需少量费用。联票信息请查询官网。`} />
+              <InfoRow label="地址" value={`Karlskrona, 371 32 Blekinge län, Sweden`} />
+              <InfoRow label="交通方式" value={`最近的机场是卡尔斯克鲁纳机场（KRF），但航班极少。最推荐的方式是乘坐火车：从斯德哥尔摩中央车站出发，乘坐X2000或区域列车直达卡尔斯克鲁纳站，车程约3.5-4小时，班次频繁。从哥本哈根出发，可先乘火车至瑞典的马尔默，再换乘前往卡尔斯克鲁纳，总耗时约4小时。火车站就在老城边缘，出站步行即可开始探索。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从1680年讲起。那时的瑞典可是个了不得的北方巨人，领土环绕着整个波罗的海。可是国王卡尔十一世有个心病：当时最重要的海军基地斯德哥尔摩，冬天会封冻，战舰成了冰疙瘩。他需要一个新的、不冻的、能全年威慑四方的海军心脏。他的目光，落在了布莱金厄省这片布满小岛的岩石海岸上。据说，当海军上将汉斯·瓦赫特乘船考察到这里，看到星罗棋布的岛屿构成了天然的防御屏障，中间是一个深水良港，他兴奋地大喊：“就是这里了！”于是，一项惊人的工程开始了——不是扩建旧城，而是在几乎没有居民点的荒岛和礁石上，从零开始，建造一座理想中的城市。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`国王把这项任务交给了当时最顶尖的工程师和城市规划师，比如埃里克·达尔伯格。他们带来的，是欧洲最时髦的巴洛克城市规划理念：笔直宽阔的街道，严格对称的广场，功能分区清晰。中央是巨大的斯塔托特广场，象征着王权与秩序；北面是给军官和贵族的豪华住宅区；东边是庞大的造船厂和工人居住区。所有的房子，最初规定必须用木头建造——不是因为浪漫，而是因为石头太重，怕压垮了下面松软的礁石地基。于是，世界上最强大的海军基地之一，就这样建立在了一片“木头”之上。城市以国王的名字命名：Karlskrona，“卡尔的王冠”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`接下来的一个世纪，是它的黄金时代。造船厂里日夜不停地响起斧凿锤击之声，松脂和焦油的气味弥漫整个海湾。这里建造出的战舰，构成了瑞典帝国海军的脊梁。著名的“海军教堂”（弗雷德里克教堂）拔地而起，它巨大的穹顶不仅是为了信仰，更是作为遥远海面上归航水手的灯塔。为了保护这颗珍贵的心脏，城市外围修建了一系列复杂的星形堡垒和炮兵阵地，比如今天依然雄踞在外岛上的库恩霍尔门要塞。拿破仑战争时期，这里达到了鼎盛，也是在这里，瑞典进行了最后的、悲壮的大规模木制风帆战舰建造。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但时代终究变了。钢铁巨兽取代了木头战舰，瑞典的帝国光环也逐渐暗淡。卡尔斯克鲁纳的战略地位下降了，但它没有像许多军事要塞那样被废弃或摧毁。相反，它以一种近乎休眠的状态，保存了下来。造船厂依然在运作，只是转向了更现代的领域；巴洛克的城市格局几乎没有变动；那些黄色的木头房子，经历了几百年的风雨刷洗，颜色反而更加温润。它从一颗激烈跳动的心脏，变成了一本安静打开的、关于海洋霸权兴衰的立体教科书。1998年，联合国教科文组织的专家们来到这里，被这座“活化石”般的完整性和独特性震撼，将它列为世界遗产，理由正是：“一个独一无二的、保存完好的17世纪末欧洲规划海军城市的典范。”`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正感受卡尔斯克鲁纳，你需要一整天的时间，并准备好你的步行鞋。建议在上午九点左右抵达，那时的阳光正好斜射在那些彩色的木立面上，光线最为柔和动人。游览节奏应该是“先宏观看骨架，再微观品细节”。从标志性的码头和广场开始，建立对城市巴洛克格局的整体印象；然后深入探访核心的历史建筑，了解其军事与航海灵魂；午后可以乘一小段渡轮，前往外围的堡垒岛屿，从另一个视角回望这座城市，最后回到内城，感受它的日常生活气息。这样的安排，能让你像阅读一本好小说一样，层层深入地理解这个地方。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`许多室内博物馆周一闭馆，务必提前规划行程，避免扑空。夏季是游览旺季，但即使如此，这里也远比斯德哥尔摩宁静，可以放心享受慢节奏。海边天气多变，即使夏天也建议带一件防风外套。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从主火车站出来，迎着海风的方向步行十分钟，首先让自己沉浸在斯塔托特广场那惊人的广阔与规整之中，感受帝国城市规划的第一波视觉冲击。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走向广场东侧那座宛如巨大希腊神庙的弗雷德里克教堂，用手触摸它温暖的黄色石墙，然后进入内部仰望那座令人屏息的穹顶。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在教堂背后的老城区随意穿行，寻找那些有着漂亮门楣和古老招牌的鹅黄色木屋，想象三百年前海军军官和造船大师在此生活的景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走进瑞典海军博物馆，不光看那些精致的战舰模型，更要留心听那些关于水手生活、海战乃至海底考古的生动故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`中午时分，前往鱼教堂或码头附近的市场，买一份新鲜制作的开放式三明治，坐在港边的长椅上，一边喂海鸥一边看渡船往来。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后乘上前往巴斯霍尔门岛的小渡轮，十五分钟的航程让你能从海上完整欣赏城市的天际线，并在古老的防御工事上徒步一圈。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`返回主岛后，探访一下藏在街巷中的“造船厂博物馆”，闻一闻那里依然保留着的焦油和木头气味，那是这座城市最初的脉搏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分，回到主码头附近，找一家有户外座位的咖啡馆，点一杯咖啡，静静看着夕阳把那些木头房子、教堂穹顶和远处的帆船桅杆染成金色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`斯塔托特广场中心仰拍弗雷德里克教堂`}</h4>
+                  <p className="text-sm text-gray-700">{`最佳在晴朗的下午，阳光从西面照亮教堂的立柱和三角楣，采用低角度广角拍摄，将宏伟的建筑与开阔的天空一同纳入镜中。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`巴斯霍尔门堡垒遗址远眺主城全景`}</h4>
+                  <p className="text-sm text-gray-700">{`乘渡轮上岛后，走到面向主城的炮位附近，在日落前一小时拍摄，暖色调的夕阳会将整个巴洛克城市建筑群勾勒出金色的轮廓，与深蓝色的海水形成对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`老城木屋街巷的细节捕捉`}</h4>
+                  <p className="text-sm text-gray-700">{`在上午十点左右的柔和侧光下，寻找一条安静的、有起伏石板路的小巷，聚焦于某扇有着复古门环和窗台鲜花的木门，营造出宁静的北欧生活感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`海军博物馆内的战舰模型与光影`}</h4>
+                  <p className="text-sm text-gray-700">{`利用博物馆内的人工光线，将镜头贴近“哥得堡号”等精美船模的船舷，营造出微观世界的宏大叙事感，注意调整白平衡以还原木质纹理的温暖色调。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`码头边的色彩与倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`在风平浪静的清晨，于主码头拍摄一排停泊的彩色小木船，它们在水中的倒影与后方乔治教堂的尖顶同框，构成一幅层次丰富的画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在军事基地和仍在运作的造船厂区域，请注意观察是否有禁止拍照的标识，务必遵守。拍摄当地人尤其是儿童时，请先微笑示意并获得同意，北欧人非常注重隐私。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`港口情怀之选`}</h4>
+                  <p className="text-sm text-blue-800">{`由旧海关仓库改造的精品酒店，房间有裸露的横梁和高高的窗户，早晨在房间里就能看到第一批渡轮划开平静的海面。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`历史沉浸体验`}</h4>
+                  <p className="text-sm text-green-800">{`住在老城中心一栋受保护的历史木结构建筑里，地板会随着你的脚步发出亲切的吱呀声，房东会为你讲述这栋房子与某位海军上校的故事。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代设计风`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在海滨新区的高端设计酒店，拥有全景落地窗和北欧极简风格的内部装饰，在顶楼的桑拿房可以一边放松一边眺望星罗棋布的群岛。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`温馨家庭民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`城市安静街区里的一栋独立别墅，主人是退休的造船厂工程师，早餐会提供家庭秘制的浆果酱，并能给你指出地图上没有的观鸟小径。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（6-8月）的住宿非常紧俏，尤其是周末，建议至少提前两个月预订。老城区的酒店和民宿更具风情，但停车位可能有限；新区住宿设施较新，更适合自驾旅客。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开卡尔斯克鲁纳很久以后，我脑海里反复回响的不是某座具体的建筑，而是一种感觉——一种“沉静的力量”。这里没有喧嚣的战鼓，也早已听不见造船的轰鸣，但当你走在那规划得一丝不苟的街道上，当你站在曾监视海疆的堡垒废墟上，你依然能清晰地感受到那股曾经推动一个帝国、塑造一片海域的磅礴意志。它没有消散，只是沉淀了下来，化作了秩序，化作了日常生活的基石。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在一切都追求速度和更新的今天，卡尔斯克鲁纳像一位从容的老水手，静静地坐在时间的岸边。它告诉你，雄心会褪色，霸权会更迭，但精心规划的城市、匠心建造的房屋、以及人与海洋共处的生活方式，却可以超越具体的政治与军事目的，成为一份留给后世永恒的礼物。来这里，不是为了寻找刺激的冒险，而是为了进行一次关于“沉淀”的冥想。你会看到，最强大的力量，或许最终并非体现在征服，而是体现在它能否转化为一种能让平凡生活诗意栖居的、持久的和谐。这，正是每一位渴望深度旅行的灵魂，值得专程前来聆听的、波罗的海最深沉的絮语。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/visby" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维斯比老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Visby</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gripsholm-castle-national-portrait-gallery" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    格
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格利普霍姆堡（国家肖像画廊）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gripsholm Castle (National Portrait Gallery)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kalmar-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔马城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kalmar Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

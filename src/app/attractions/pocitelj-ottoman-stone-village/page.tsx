@@ -1,0 +1,243 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '波奇泰利 Počitelj｜凝固在石阶上的奥斯曼时光迷宫 - 最佳欧洲景点',
+  description: '车子沿着内雷特瓦河谷行驶，两岸是平缓的农田，忽然间，一座圆锥形的、层层叠叠的石头山丘撞进视线。那就是波奇泰利。它不像普通村庄那样铺展在地面，而是像一件被巨人随手搁在河边的、布满格子的巨大蜂巢，又像是从山体里自然生长出来的石质结晶。第一眼，你会屏住呼吸——它太不真实了，像一幅用泥土和时光绘就的立体油画...',
+}
+
+export default function PociteljOttomanStoneVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '波奇泰利', href: '/attractions/pocitelj-ottoman-stone-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`波奇泰利・Počitelj・波斯尼亚和黑塞哥维那・黑塞哥维那-内雷特瓦州，查普利纳镇附近`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子沿着内雷特瓦河谷行驶，两岸是平缓的农田，忽然间，一座圆锥形的、层层叠叠的石头山丘撞进视线。那就是波奇泰利。它不像普通村庄那样铺展在地面，而是像一件被巨人随手搁在河边的、布满格子的巨大蜂巢，又像是从山体里自然生长出来的石质结晶。第一眼，你会屏住呼吸——它太不真实了，像一幅用泥土和时光绘就的立体油画。
+走过桥，踏入村口的那一刹那，世界立刻安静下来。引擎声被甩在身后，取而代之的是你自己的脚步声在古老石板上清脆的回响。空气里有干燥的石头被太阳烘烤后的暖昧气息，混合着角落里野生无花果树的甜腻，以及从某户人家厨房飘出的、炖煮蔬菜和香料的复杂味道。你开始攀登那条主干道——与其说是路，不如说是一条宽阔的、被岁月磨得光滑如玉的石头阶梯。你的小腿肌肉很快会感觉到压力，但眼睛却忙不过来。左右是紧紧挨着的石屋，门扉低矮，窗户狭小，阳台上垂挂着天竺葵，艳红得灼眼。偶尔有戴着头巾的老妇人坐在自家门槛上，静静地看着你，眼神像门洞一样深邃。这里的时间流速似乎不同，慵懒、缓慢，粘稠如蜂蜜。
+你会发现，波奇泰利的美，在于它惊人的“垂直性”。生活在这里沿着山势垂直展开。最底下是曾经的市场和公共水池，中间层是密密麻麻的民居和最重要的清真寺，而山顶，则是威严的堡垒废墟。你爬得越高，视野越开阔，风也越大。当你站在某个转弯的平台喘息时，回头一望，内雷特瓦河像一条碧绿的丝带，在阳光下闪闪发光，对岸的现代世界仿佛成了一个模糊的背景板。这里的核心魅力，正是这种极致的反差：你用最原始的攀登方式，对抗着重力，一步步走进历史的纵深，每一步都踩在几个世纪前的石头上，而 reward，是脚下不断扩大的、令人心醉的风景。
+更重要的是，你能感觉到这个村子是“活”的。虽然很多房屋依旧带着1990年代战争留下的弹孔痕迹，破损的窗户像失明的眼睛，但你也能看到精心修复的屋顶，新漆的木门，以及那些选择回归的年轻艺术家的工作室。孩子们的叫喊声从某条小巷深处传来，紧接着是母亲的呼唤。宣礼塔的喇叭在固定时间响起，声音悠长，在山谷间回荡，与教堂的钟声（来自邻近地区）形成一种奇妙的、属于波黑的和谐二重奏。波奇泰利不是博物馆，它是一个伤痕累累却顽强呼吸的有机体，每一块石头都在诉说着生存的故事。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子沿着内雷特瓦河谷行驶，两岸是平缓的农田，忽然间，一座圆锥形的、层层叠叠的石头山丘撞进视线。那就是波奇泰利。它不像普通村庄那样铺展在地面，而是像一件被巨人随手搁在河边的、布满格子的巨大蜂巢，又像是从山体里自然生长出来的石质结晶。第一眼，你会屏住呼吸——它太不真实了，像一幅用泥土和时光绘就的立体油画。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走过桥，踏入村口的那一刹那，世界立刻安静下来。引擎声被甩在身后，取而代之的是你自己的脚步声在古老石板上清脆的回响。空气里有干燥的石头被太阳烘烤后的暖昧气息，混合着角落里野生无花果树的甜腻，以及从某户人家厨房飘出的、炖煮蔬菜和香料的复杂味道。你开始攀登那条主干道——与其说是路，不如说是一条宽阔的、被岁月磨得光滑如玉的石头阶梯。你的小腿肌肉很快会感觉到压力，但眼睛却忙不过来。左右是紧紧挨着的石屋，门扉低矮，窗户狭小，阳台上垂挂着天竺葵，艳红得灼眼。偶尔有戴着头巾的老妇人坐在自家门槛上，静静地看着你，眼神像门洞一样深邃。这里的时间流速似乎不同，慵懒、缓慢，粘稠如蜂蜜。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你会发现，波奇泰利的美，在于它惊人的“垂直性”。生活在这里沿着山势垂直展开。最底下是曾经的市场和公共水池，中间层是密密麻麻的民居和最重要的清真寺，而山顶，则是威严的堡垒废墟。你爬得越高，视野越开阔，风也越大。当你站在某个转弯的平台喘息时，回头一望，内雷特瓦河像一条碧绿的丝带，在阳光下闪闪发光，对岸的现代世界仿佛成了一个模糊的背景板。这里的核心魅力，正是这种极致的反差：你用最原始的攀登方式，对抗着重力，一步步走进历史的纵深，每一步都踩在几个世纪前的石头上，而 reward，是脚下不断扩大的、令人心醉的风景。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`更重要的是，你能感觉到这个村子是“活”的。虽然很多房屋依旧带着1990年代战争留下的弹孔痕迹，破损的窗户像失明的眼睛，但你也能看到精心修复的屋顶，新漆的木门，以及那些选择回归的年轻艺术家的工作室。孩子们的叫喊声从某条小巷深处传来，紧接着是母亲的呼唤。宣礼塔的喇叭在固定时间响起，声音悠长，在山谷间回荡，与教堂的钟声（来自邻近地区）形成一种奇妙的、属于波黑的和谐二重奏。波奇泰利不是博物馆，它是一个伤痕累累却顽强呼吸的有机体，每一块石头都在诉说着生存的故事。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`波奇泰利`} />
+                <InfoRow label="英文名称" value={`Počitelj`} />
+                <InfoRow label="正式名称" value={`Historic Urban Area of Počitelj`} />
+                <InfoRow label="国家" value={`波斯尼亚和黑塞哥维那`} />
+                <InfoRow label="城市" value={`黑塞哥维那-内雷特瓦州，查普利纳镇附近`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`15至19世纪奥斯曼帝国在巴尔干西北边境最具代表性的战略与文化定居点之一。`} />
+                <InfoRow label="建筑特色" value={`一座完全依陡峭山势而建的“阶梯式”石砌堡垒村落，防御、居住与宗教功能在垂直空间上完美融合。`} />
+                <InfoRow label="建筑风格" value={`鲜明的奥斯曼军事与民居建筑风格，与地中海气候环境相融合，采用本地石材和木材。`} />
+                <InfoRow label="文化价值" value={`一个历经战争创伤后，正在由艺术与记忆缓缓修复的、活着的文化遗产样本。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古村落为开放式区域，24小时可进入游览。其核心历史建筑（如清真寺、钟楼）的开放时间较为灵活，通常为日出至日落。夏季（5月至9月）是最好的拜访时段，光线充足。部分小型博物馆或艺术工坊可能仅在午后开放，或依赖于是否有艺术家在场。建议将游览安排在白天，以确保能感受到建筑内部的光影变幻。`} />
+              <InfoRow label="门票价格" value={`进入波奇泰利古村落本身完全免费。若想登上古老的钟楼（Sahat-kula）俯瞰全景，有时会有一位当地看管人收取象征性的捐赠（约1-2欧元或等值波黑马克），用于维护。这笔微小的费用完全自愿，但非常值得。`} />
+              <InfoRow label="地址" value={`Počitelj, 88300 Čapljina, Bosnia and Herzegovina`} />
+              <InfoRow label="交通方式" value={`最便捷的中转枢纽是莫斯塔尔（Mostar）。从莫斯塔尔主巴士站出发，乘坐前往查普利纳（Čapljina）或梅久戈耶（Međugorje）方向的本地巴士，告诉司机在“Počitelj”下车即可。车程约30-40分钟，班次白天每小时大约1-2班。巴士会把你放在主路边，眼前就是内雷特瓦河和对岸依山而建的波奇泰利，需要步行过桥进入村落。从萨拉热窝也可乘火车或巴士先到莫斯塔尔，再按上述方式接驳。自驾是最灵活的选择，导航至Počitelj，村口河对岸有免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`波奇泰利的故事，始于一段被遗忘的边境风云。时间倒回十五世纪中叶，奥斯曼帝国的铁骑刚刚征服了波斯尼亚。为了稳固在这片新领土上的统治，并防御来自西边威尼斯共和国和北边匈牙利王国的威胁，苏丹的将领们开始在内雷特瓦河这条天然走廊上修建一系列坚固的据点。大约在1383年至1463年之间的某个时候，波奇泰利被选中了。它所在的石灰岩山丘，三面陡峭，一面俯瞰河流，是设立要塞的绝佳地点。最初的建造者无疑是军事工程师，他们首先在山顶夯下了坚固的堡垒基底，从此，这座村的命运就与“防御”二字紧紧绑在了一起。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`到了十五世纪末十六世纪初，随着奥斯曼统治的深入，波奇泰利从一个纯军事哨所，逐渐演变为一个功能齐全的定居点。士兵、行政官员、商人、手工业者带着家眷来到这里，沿着从堡垒辐射下来的山脊，用当地的石头一块块垒起自己的家园。他们巧妙地利用了地形：房屋的屋顶往往是下面一户的庭院，狭窄的阶梯小巷既是通道也是排水系统。1562年，村落的中心——哈吉-阿里清真寺建成，它那优雅的铅笔形尖塔，不仅为信徒提供指引，也成为了整个社区的精神核心。钟楼（Sahat-kula）也在同期矗立起来，用统一的时辰管理着世俗生活。这时，波奇泰利达到了它的第一个黄金时代，成为了联系内陆与亚得里亚海海岸贸易路线上的繁荣一站。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，边境从来就不太平。1693年，威尼斯共和国军队在摩登那公爵的率领下，渡海而来，围攻并占领了波奇泰利。这场占领虽然只持续了短暂两年，却给村落留下了深刻的印记。据说，威尼斯人将堡垒扩建得更加坚固，而当地的奥斯曼守军指挥官加夫兰卡普坦（Gavran Kapetan）的故事，则变成了传奇。传说他英勇抵抗，最终在堡垒陷落时，带着他的鹰一起跳下悬崖，宁死不降。这段历史像一层薄纱，为这个奥斯曼村庄增添了第一道复杂的、属于欧洲大陆权力博弈的伤痕。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`威尼斯人撤退后，波奇泰利重归奥斯曼怀抱，但元气已伤。更大的变革在1878年来临，奥匈帝国根据柏林条约，正式接管了波黑。新的统治者带来了新的秩序、新的建筑风格（你可以在村里看到一些奥匈时期加固的军事掩体），但也加速了古老生活方式的瓦解。波奇泰利逐渐失去了战略重要性，慢慢沉睡，变成了一个偏远的、被时光遗忘的角落。这种“被遗忘”在某种程度上保护了它，让它的奥斯曼肌理得以完整保存到二十世纪，成为了巴尔干地区罕见的“时间胶囊”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的浩劫在二十世纪末降临。1992年至1996年的波黑战争期间，波奇泰利因为其位于克族和穆族聚居地交界处的敏感位置，遭受了猛烈的炮击。哈吉-阿里清真寺的尖塔被炸毁，无数古老的石屋被炮弹洞穿，内部木结构焚毁，整个村落几乎沦为一片冒着青烟的废墟。战争结束后，它满目疮痍的模样，是整个国家创伤的缩影。但故事没有结束。从上世纪末开始，在国际援助和本地人坚韧意志的推动下，一场缓慢而精细的重生开始了。清真寺和钟楼被小心翼翼地按原样重建，艺术家和手工艺人被鼓励进驻空置的石屋，开设工作室和画廊。今天的波奇泰利，每一处修复的痕迹都与残破的伤疤并置，这种强烈的对比，恰恰构成了它最动人、最深刻的叙事——不是关于永恒的完美，而是关于破碎后的修复，关于记忆的顽强，关于在灰烬中重新点燃的生活之光。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`游览波奇泰利的精髓在于“慢”和“垂直攀登”。建议你在清晨（8-9点）或傍晚（日落前3小时）抵达，此时光线最为柔美，气温适宜，能避开可能出现的零星旅游团。整体游览需要预留至少3到4个小时，这不包括在茶馆发呆的时间。路线很简单，就是从山脚到山顶再下来的一个环形。但请不要匆匆忙忙，这不是打卡，而是一次沉浸式的时空漫步。从河边的停车场开始，你会过桥，正式进入村落底部，然后沿着主阶梯一路向上，探索沿途的小巷、参观核心建筑，最终登顶堡垒，之后再从另一侧的小路或原路下山。这样的节奏允许你充分感受海拔变化带来的视野递进，以及身体与古老石阶互动所带来的独特体验。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿一双绝对防滑、支撑性好的鞋子，这里的石阶在干燥时已很光滑，若遇露水或小雨则会非常危险。
+村落内几乎没有商业设施，只有一两家小茶馆，务必自备充足的饮用水，并在查普利纳或莫斯塔尔解决好正餐。
+尊重当地居民隐私，拍照时尽量避免直接对准居民和他们的家居内部，尤其是门窗敞开的屋内景象。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从河岸停车场走过古老的石桥，在第一块平地上停下，仰头感受整个石头村落扑面而来的垂直压迫感与美感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着宽阔的主石阶开始向上攀登，让脚步适应石头的坡度，同时观察阶梯两侧民居门上各不相同的金属门环和窗台上的陶罐。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在主阶梯的第一个大拐弯处，离开主路，向右钻进一条仅容一人通过的狭窄巷弄，迷失在由高墙和阶梯构成的静谧迷宫里。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`回到主路，抵达村落的社会中心——哈吉-阿里清真寺的庭院，记得脱鞋进入内部，感受穹顶下的清凉宁静与墙壁上细致的光影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从清真寺出来，登上旁边白色的钟楼，在昏暗的螺旋石梯中攀爬，直到突然置身于开阔的钟楼平台，收获第一个令人惊叹的360度全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`继续向山顶进发，穿过一道古老的石门，踏上最后一段通往中世纪堡垒废墟的陡峭土石小径。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`站在堡垒残存的城墙垛口上，让猛烈的山风吹拂，俯瞰脚下如模型般的村落全景和蜿蜒的内雷特瓦河，想象几个世纪前哨兵眼中的风景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山时不必原路返回，可以尝试另一条更贴近民居后院的小路，并在山腰某处视野开阔的露天茶馆点一杯波黑咖啡，看着夕阳将石头染成金色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`河对岸全景机位`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，站在停车场或过桥前的河岸草地上，用长焦镜头压缩空间，拍摄村落全景在水中倒影与背后山峦的层次。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主石阶梯中段俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`上午光线较好时，站在主阶梯中段的一个小平台，向下俯拍蜿蜒而下的石阶和两旁错落的红色屋顶，能拍出强烈的纵深感和韵律。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`哈吉-阿里清真寺庭院拱门`}</h4>
+                  <p className="text-sm text-gray-700">{`午后，阳光斜射入庭院，站在拱门框架内，向外拍摄正在礼拜或清扫庭院的人物剪影，形成强烈的明暗对比和故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`钟楼拱窗框景`}</h4>
+                  <p className="text-sm text-gray-700">{`登上钟楼后，不要只拍开阔全景，利用钟楼石墙上那些形状各异的拱形小窗作为画框，框住远处的一角风景、一座屋顶或一棵树，构图极为精巧。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`堡垒城墙人物侧影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落时分，在堡垒的残墙边，以广角镜头拍摄同伴眺望远方的侧影，将人物、沧桑的巨石、壮丽的河谷晚霞一同纳入画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`波奇泰利的质感在于石头的光泽和阴影，尝试在侧光条件下拍摄，能极大强化石墙的纹理和建筑的立体感。`}</li>
+                <li>• {`除了宏大场景，多关注细节：门锁、锈蚀的铁器、墙头摇曳的野草、光影切割的图案，这些更能传递出岁月的微观叙事。`}</li>
+                <li>• {`使用无人机需要格外谨慎，这里靠近边境且有居民，最好事先了解当地法规并绝对避免干扰他人生活。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`查普利纳家庭旅馆`}</h4>
+                  <p className="text-sm text-blue-800">{`住在几公里外宁静的查普利纳镇上，由热情家庭经营的民宿，早餐能吃到自家制作的奶酪和蜂蜜，主人能告诉你许多关于波奇泰利的、旅行指南上没有的故事。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`莫斯塔尔奥斯曼老宅`}</h4>
+                  <p className="text-sm text-green-800">{`返回莫斯塔尔，选择一家经过精心修复的奥斯曼时期老宅改建的精品酒店，躺在古老的木梁下，听着楼下科巴里亚桥传来的水流声，完整沉浸于这片土地的历史氛围中。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`山村隐居体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`寻找波奇泰利周边小山村里由农舍改造的隐蔽民宿，拥有自己的果园和眺望远山的露台，夜晚只有星空和虫鸣，享受绝对的静谧。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`莫斯塔尔现代设计酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`如果你需要舒适的现代化设施作为探险后的基地，莫斯塔尔不乏设计感十足的现代酒店，在顶楼餐厅一边享用晚餐一边回味白天的古老相遇，是另一种满足的对比。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`波奇泰利古村落内部目前没有对外经营的住宿，所有过夜都需要安排在附近的查普利纳或更繁华的莫斯塔尔。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`莫斯塔尔作为旅游中心，选择更多，但旺季（夏季）需提前预订，尤其是那些热门的老宅酒店。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`波黑整体治安良好，但无论住在哪里，夜间在偏僻小巷独自行走仍需保持一般的旅行警觉。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开波奇泰利的时候，我的小腿还在隐隐发酸，那是攀登过千年石阶的肌肉记忆。但心里却充满了一种奇异的平静。这个地方教会我的，不是关于帝国的辉煌，而是关于脆弱的坚韧。你看那些石头，它们被垒砌成堡垒，又在炮火中碎裂，如今又被耐心地拾起、归位。弹孔还在，像无法抹去的伤疤，但新漆的颜色鲜艳，天竺葵开得不管不顾。这是一种多么动人的生命力——承认破碎，但选择修复；记得伤痛，但依然选择在伤痕旁种下鲜花。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个人人追求效率、一切都被加速的世界里，波奇泰利的存在本身就像一种温柔的抵抗。它要求你慢下来，用最原始的方式——步行，去抵达；它没有惊世骇俗的宏伟，却用一层层的日常生活细节将你包裹；它不回避历史的残酷，却让你看到创伤之后重生的可能。对于热爱深度游的灵魂来说，这里不仅仅是一个景点，它是一个可以让人安静思考的时空容器。你会在这里看到战争与和平、毁灭与创造、遗忘与记忆如何在同一条石阶上交织。它提醒我们，最美的风景，往往不在路的尽头，而在你气喘吁吁攀登的过程里，在那不经意回眸时，看见光与影在古老石头上演奏的无声交响。这，便是专程为它而来的全部意义。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/jajce-falls-and-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    亚
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">亚伊采瀑布与城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Jajce Waterfall and Fortress</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/stari-most-mostar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫斯塔尔老桥</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Stari Most</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/mehmed-pasa-sokolovic-bridge-visegrad" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维舍格勒的穆罕默德·帕夏·索科洛维奇桥</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mehmed Paša Sokolović Bridge in Višegrad</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -98,6 +98,7 @@ export function AttractionGallery({
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [selectedType, setSelectedType] = useState<string | null>(null);
+  const [visibleCount, setVisibleCount] = useState(24);
 
   const filtered = useMemo(() => {
     return attractions.filter((a) => {
@@ -157,7 +158,7 @@ export function AttractionGallery({
             Explore All Destinations
           </h2>
           <p className="text-muted max-w-2xl mx-auto">
-            100 carefully curated hidden gems across 20+ European countries.
+            {attractions.length} carefully curated hidden gems across Europe.
             Filter by region or type to find your next adventure.
           </p>
         </div>
@@ -171,10 +172,10 @@ export function AttractionGallery({
               placeholder="Search by name, city, or country... (e.g., Paris, Castle, 巴黎)"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full px-5 py-3.5 pl-12 rounded-xl border border-gray-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all shadow-sm text-gray-700 bg-white"
+              className="w-full px-5 py-3.5 pl-11 rounded-xl border border-gray-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all shadow-sm text-gray-700 bg-white"
             />
             <svg
-              className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
+              className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -276,18 +277,37 @@ export function AttractionGallery({
 
         {/* Grid */}
         {filtered.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filtered.map((a) => (
-              <AttractionCard key={a.slug} attraction={a} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {filtered.slice(0, visibleCount).map((a) => (
+                <AttractionCard key={a.slug} attraction={a} />
+              ))}
+            </div>
+            
+            {/* Load More Button */}
+            {visibleCount < filtered.length && (
+              <div className="mt-12 text-center">
+                <button
+                  onClick={() => setVisibleCount(prev => prev + 24)}
+                  className="inline-flex items-center px-8 py-3 bg-white border border-gray-300 text-gray-700 font-medium rounded-full hover:bg-gray-50 hover:text-primary transition-all shadow-sm"
+                >
+                  Load More ({filtered.length - visibleCount} remaining)
+                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           <div className="text-center py-20 text-muted">
-            <p className="text-lg mb-2">No destinations match your filters.</p>
+            <p className="text-lg mb-2">No destinations match your search or filters.</p>
             <button
               onClick={() => {
+                setSearchQuery("");
                 setSelectedRegion(null);
                 setSelectedType(null);
+                setVisibleCount(24);
               }}
               className="text-primary font-medium underline underline-offset-4"
             >

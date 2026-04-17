@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '斯佩洛花城 Spello｜被鲜花与壁画包裹的意大利中世纪山城 - 最佳欧洲景点',
+  description: '穿过那道名为“罗马门”的古老拱券，时间仿佛被调慢了速度。首先迎接你的不是宏伟的建筑，而是一股混合了潮湿石头、迷迭香与刚刚研磨好的咖啡豆的复杂香气。脚下的路不是柏油，而是被无数世纪脚步磨得温润发亮的鹅卵石，在清晨的阳光下泛着蜜糖般的光泽。你的视线几乎无法聚焦于一处，因为每一寸空间都在争夺你的注意力：左...',
+}
+
+export default function SpelloFlowerTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '斯佩洛花城', href: '/attractions/spello-flower-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`斯佩洛花城・Spello・意大利・斯佩洛`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`穿过那道名为“罗马门”的古老拱券，时间仿佛被调慢了速度。首先迎接你的不是宏伟的建筑，而是一股混合了潮湿石头、迷迭香与刚刚研磨好的咖啡豆的复杂香气。脚下的路不是柏油，而是被无数世纪脚步磨得温润发亮的鹅卵石，在清晨的阳光下泛着蜜糖般的光泽。你的视线几乎无法聚焦于一处，因为每一寸空间都在争夺你的注意力：左边是爬满九重葛的赭石色墙垣，右边一道石阶向上延伸，台阶两侧摆满了天竺葵与矮牵牛的花盆，像一条鲜花瀑布倾泻而下。耳边是立体声般的市井交响：远处教堂的钟声沉稳地报时，近处某扇木窗后传来叮当作响的锅碗瓢盆声，以及老太太们用快速飞扬的意大利语聊天的片段。
+斯佩洛不是一个“博物馆式”的景点，它就是当地人生活的容器。在“人民广场”边上那家咖啡馆，穿着得体的老绅士会花上一个早晨读报，偶尔对路过的熟人脱帽致意。肉铺的店主把火腿挂在门外，面包房的香气在整条巷子里弥漫。你会看到主妇们从阳台上垂下篮子，向楼下的小贩购买果蔬，完成一次空中交易。这种鲜活的生活气息，与那些拥有千年历史的古罗马城墙遗迹、中世纪教堂和谐共存，毫不违和。石头是冷的、硬的，但生活在其间是热的、柔软的。
+而这一切的巅峰，是它对美的执着。这种美不是供奉在殿堂里的，而是铺在街面上的。每年基督圣体节，斯佩洛的艺术家和居民们会用成千上万片花瓣、染色的木屑、咖啡渣，在主要街道上铺设巨大而精细的宗教画花毯。那一刻，整个小镇变成了一件转瞬即逝的集体艺术作品。但即便不在节日，斯佩洛也从未脱下花衣。几乎每一扇窗、每一道栏杆、每一段台阶都被鲜花装点，居民们像是在进行一场无声而优雅的竞赛，用最美的阳台向邻居和世界问好。这种深植于日常的、对生活之美的虔诚营造，才是斯佩洛最打动人心的核心魅力。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过那道名为“罗马门”的古老拱券，时间仿佛被调慢了速度。首先迎接你的不是宏伟的建筑，而是一股混合了潮湿石头、迷迭香与刚刚研磨好的咖啡豆的复杂香气。脚下的路不是柏油，而是被无数世纪脚步磨得温润发亮的鹅卵石，在清晨的阳光下泛着蜜糖般的光泽。你的视线几乎无法聚焦于一处，因为每一寸空间都在争夺你的注意力：左边是爬满九重葛的赭石色墙垣，右边一道石阶向上延伸，台阶两侧摆满了天竺葵与矮牵牛的花盆，像一条鲜花瀑布倾泻而下。耳边是立体声般的市井交响：远处教堂的钟声沉稳地报时，近处某扇木窗后传来叮当作响的锅碗瓢盆声，以及老太太们用快速飞扬的意大利语聊天的片段。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`斯佩洛不是一个“博物馆式”的景点，它就是当地人生活的容器。在“人民广场”边上那家咖啡馆，穿着得体的老绅士会花上一个早晨读报，偶尔对路过的熟人脱帽致意。肉铺的店主把火腿挂在门外，面包房的香气在整条巷子里弥漫。你会看到主妇们从阳台上垂下篮子，向楼下的小贩购买果蔬，完成一次空中交易。这种鲜活的生活气息，与那些拥有千年历史的古罗马城墙遗迹、中世纪教堂和谐共存，毫不违和。石头是冷的、硬的，但生活在其间是热的、柔软的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而这一切的巅峰，是它对美的执着。这种美不是供奉在殿堂里的，而是铺在街面上的。每年基督圣体节，斯佩洛的艺术家和居民们会用成千上万片花瓣、染色的木屑、咖啡渣，在主要街道上铺设巨大而精细的宗教画花毯。那一刻，整个小镇变成了一件转瞬即逝的集体艺术作品。但即便不在节日，斯佩洛也从未脱下花衣。几乎每一扇窗、每一道栏杆、每一段台阶都被鲜花装点，居民们像是在进行一场无声而优雅的竞赛，用最美的阳台向邻居和世界问好。这种深植于日常的、对生活之美的虔诚营造，才是斯佩洛最打动人心的核心魅力。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`斯佩洛花城`} />
+                <InfoRow label="英文名称" value={`Spello`} />
+                <InfoRow label="正式名称" value={`Spello`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`斯佩洛`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座从古罗马帝国到中世纪，层层叠叠生长在苏巴修山上的活历史标本。`} />
+                <InfoRow label="建筑特色" value={`粉红色调的石砌房屋如同从山岩中自然生长，狭窄的拱廊街道与突然开阔的广场形成戏剧性对比。`} />
+                <InfoRow label="建筑风格" value={`以中世纪罗马式建筑为基底，完美融合了古罗马遗迹、文艺复兴装饰与鲜活的民间生活气息。`} />
+                <InfoRow label="文化价值" value={`其最著名的“鲜花节”是将民间信仰、社区艺术与古老街道空间结合到极致的非物质文化盛宴。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇本身全天24小时开放。主要教堂（如圣玛利亚大教堂）开放时间通常为上午8:30至下午12:30，下午3:30至傍晚7:00（夏季可能延长）。小型博物馆和画廊开放时间较为灵活，建议行前核实。每年六月的“鲜花节”（Infiorata）期间，整个小镇变为步行区，部分街道因铺设花毯会阶段性封闭。`} />
+              <InfoRow label="门票价格" value={`进入斯佩洛古镇本身免费。圣玛利亚大教堂（Santa Maria Maggiore）免费进入，但参观其著名的巴廖尼小教堂（内含平托里乔壁画）通常需要小额捐赠（约2-3欧元）以维护灯光。其他小型博物馆或教堂门票约3-5欧元。鲜花节期间不收取入场费。`} />
+              <InfoRow label="地址" value={`06038 Spello PG, Italy`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是佩鲁贾圣弗朗西斯德阿西西机场（约20公里，航班较少）或罗马菲乌米奇诺机场（约180公里）。最便捷的方式是乘坐火车：从罗马特米尼火车站乘区域火车前往福利尼奥，约2小时车程，然后在福利尼奥换乘前往斯佩洛的支线火车，约10-15分钟即达。从佛罗伦萨出发也可乘火车至泰拉莫拉，再换乘。斯佩洛火车站小巧古朴，出站后需步行约15分钟上坡路才能进入古城主门。建议轻装简行，班次频率约为每小时1-2班，可在意大利铁路官网购票。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要听懂斯佩洛的石头诉说的故事，你得把时间轴往回拨两千年。早在古罗马时代，这里就已经是一个重要的定居点，名叫“Hispellum”。当你今天漫步在小镇边缘或地基深处，依然能撞见那些沉默的巨人：一段坚实的罗马城墙，一座城门（今天的罗马门就建立在古罗马基础上），甚至一个露天剧场的遗迹。罗马人看中了这里易守难攻的山势和连接弗拉米尼亚大道的战略位置。那些巨大的方形石块，历经风雨，依然严丝合缝，奠定了这座小镇最坚硬的骨骼，也注定了它“层叠生长”的命运——后世的一切，都建立在罗马的根基之上。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`罗马帝国衰落后，斯佩洛像许多翁布里亚山城一样，进入了动荡的中世纪。它先后被伦巴第人、拜占庭人争夺，最终在公元12世纪左右成为了佩鲁贾的自治城镇。这个时期，小镇开始向上、向内紧缩，修建了第二道城墙（今天看到的城墙主体），街道变得狭窄曲折，利于防御。石头的颜色也发生了变化，从罗马时代的青灰色，变成了本地开采的、带有温暖粉色调的苏巴修山石。教堂一座座建立起来，其中最耀眼的明星，莫过于圣玛利亚大教堂。但这座教堂的故事，与一个家族和一个艺术天才紧紧相连。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`15世纪，斯佩洛被强大的巴廖尼家族统治。这个家族以好战和奢华闻名。为了巩固权力和荣耀，他们委托当时最伟大的壁画大师之一——平托里乔，在圣玛利亚大教堂内建造一座家族小礼拜堂。平托里乔，这位文艺复兴的叙事大师，在这里留下了他或许最甜美、最富装饰性的作品。他用鲜艳的色彩、精致的细节和充满人文气息的场景，描绘了基督生平与天使报喜。走进这个小教堂，你会被一种金色的、天堂般的光芒笼罩，天使的衣袍仿佛在随风飘动，人物的脸庞温柔宁静。这与教堂外部粗粝的中世纪石墙形成了梦幻般的反差，仿佛将文艺复兴的春风，直接注入了中世纪石头的血管里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，斯佩洛的传奇并未止步于文艺复兴。它的另一个高光时刻，与一项虔诚而充满创造性的传统有关：鲜花节。这一传统的起源与17世纪的宗教热情有关，但真正成型并成为世界奇观，是在20世纪30年代。最初可能只是简单的花瓣装饰，但斯佩洛人将其发展成了一门极其精密、需要极高艺术技巧和社区协作的街头艺术。每年圣体节前夜，全镇人几乎不眠不休，在指定的街道上用天然材料“绘制”巨大的宗教画。这些画作并非随意铺洒，其精细程度令人窒息，甚至能表现出人物面部的阴影和衣料的褶皱。这不仅是信仰的表达，更是小镇社区凝聚力的终极体现，是艺术从殿堂走向街头、融入每一个普通人生活的完美典范。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`就这样，斯佩洛从一座罗马军事前哨，成长为中世纪壁垒森严的城镇，再被文艺复兴的艺术之光点亮，最终在现当代，用一种极其柔和而灿烂的方式——鲜花，定义了自己的全球形象。它没有被历史冻成标本，而是像一株老藤，不断抽出鲜嫩的新枝，让古老的石墙，在每个春天都焕发出新的生命。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受斯佩洛的晨昏之美，建议安排一整天时间，并在此住上一晚。最佳抵达时间是清晨九点前，此时旅游大巴还未到达，阳光柔和，小镇刚刚苏醒，是拍摄空灵街道和感受本地生活节奏的黄金时段。整体游览节奏宜慢不宜快，核心在于“迷失”在小巷中。建议先从下城区的罗马门进入，沿主街缓慢上行，参观重点教堂和广场，中午在广场餐厅享用漫长午餐，下午深入东侧和西侧更宁静的居民区小巷探索，傍晚时分一定要走到城墙外的观景台或橄榄林，等待落日余晖将整个石头小镇染成金色。这样的安排既能捕捉到主要文化地标，又能充分沉浸在其无可替代的日常生活氛围里。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`主街上的餐厅在中午12点半后和晚上7点半后非常拥挤，建议要么提前要么错后用餐，或者勇敢走进那些没有英文菜单、只有本地人的小巷家庭餐馆。小镇很多上下坡路段和台阶，务必穿一双绝对舒适、抓地力好的步行鞋。鲜花节期间住宿极其紧张，需提前数月预订，且当天小镇中心会封锁，车辆无法进入，需将车停在城外指定停车场并步行进入。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从罗马门进入，用手抚摸那冰凉的古罗马石基，然后顺着斜坡主街维娅·康索拉莱向上，让脚步带领你穿过一道道鲜花拱门。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在圣玛利亚大教堂门口停下来，先别急着进去，看看门楣上那些古老的雕刻，然后推门走入那片骤然降临的清凉与幽暗，让你的眼睛慢慢适应，去寻找右侧巴廖尼小礼拜堂里平托里乔壁画散发出的金色微光。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂出来后，右转钻进一条极其狭窄、被称为“吻巷”的小道，侧身而过时抬头看看几乎碰在一起的老阳台，想象几个世纪以来的浪漫邂逅。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到山顶的人民广场，在中央的石头喷泉旁坐下，听水流声，观察周围咖啡馆里本地人的日常，仿佛你也成了小镇暂时的一员。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从广场北侧的小路拐向圣安德烈教堂，这座更朴素的罗马式教堂里有乔托学派留下的珍贵壁画，氛围更加静穆亲切。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着城墙漫步，从不同的拱窗向外眺望翁布里亚山谷无边的橄榄园和葡萄园，那绵延至天际的绿色波浪是小镇永恒的布景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要在日落前找到“贝隆奇观景台”，看着夕阳如何像一位高超的画师，一笔一笔将斯佩洛的粉红色屋顶、石塔和远山涂上蜂蜜色、玫瑰金直至深紫。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐后再次走入夜幕中的小巷，此时游客散去，只有温暖的灯光从窗户溢出，洒在鹅卵石上，安静得能听到自己的脚步声和远处餐厅隐约传来的杯盘叮当。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`罗马门内侧仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点左右，阳光刚好斜射入门洞，站在门内回头拍向门外，可以捕捉到逆光中门洞的轮廓和门外绿意盎然的山景，形成强烈的明暗与古今对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`维娅·康索拉莱主街中段`}</h4>
+                  <p className="text-sm text-gray-700">{`找一个有悬挂花盆和拱门的段落，在上午十点前光线尚未直射时拍摄，让街道自然延伸的纵深感与两侧鲜花的色彩构成一幅完美的对称构图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣玛利亚大教堂巴廖尼小教堂内部`}</h4>
+                  <p className="text-sm text-gray-700">{`关闭闪光灯，将相机感光度调高，对准壁画中天使报喜的细节，利用教堂内昏暗的自然光与壁画金箔的反光，拍出带有神秘宗教氛围和细腻笔触的艺术特写。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`从贝隆奇观景台远眺全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时是最佳时机，使用长焦镜头压缩空间，将前景的古老城墙、中景层层叠叠的红色屋顶与背景雾气缭绕的苏巴修山一同纳入画面，色彩层次最为丰富。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`某条无名小巷的台阶`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，阳光穿过巷子，在台阶上形成美妙的光影分割，找一个当地特色的花盆或门环作为前景，等待一个居民（最好是穿着深色衣服的老妇人）走过，为静谧的画面注入生命感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄居民和他们的阳台时务必保持尊重和距离，微笑示意或征得同意，避免使用侵略性的长焦镜头直接窥探私人空间。教堂内部严格禁止使用闪光灯和三脚架（除非有特殊许可），保护珍贵的壁画是首要责任。鲜花节期间拍摄花毯作品时，请绝对遵循组织者的指引，不要踩踏或触碰艺术品，航拍通常被严格禁止。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济精选`}</h4>
+                  <p className="text-sm text-blue-800">{`位于古城门附近由古老石屋改造的家庭旅馆，女主人会为你准备丰盛的翁布里亚式早餐， homemade的果酱和蛋糕让你从早晨就感受到家的温暖。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`藏身于一条安静小巷深处的精品酒店，房间拥有原始的石头拱顶和木梁，现代设计的家具与古老结构碰撞，屋顶露台拥有私密的古城屋顶景观。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在城外橄榄园中的文艺复兴风格庄园酒店，拥有无边泳池和米其林推荐餐厅，在宁静的田园环境中享受奢华，同时距离古城只有十分钟漫步路程。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`节日之选`}</h4>
+                  <p className="text-sm text-purple-800">{`如果为鲜花节而来，务必选择古城中心位置的住所，哪怕房间小巧，也能让你在凌晨时分亲眼目睹街道上铺设花毯的神秘过程，这是无法复制的体验。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`古城内的住宿多有数百年的历史，隔音可能不佳，但恰恰能让你听到小镇真实的夜晚声响（教堂钟声、邻居的低语），这也是体验的一部分。旺季（春末至初秋以及鲜花节期间）价格会显著上涨，且很快订满，灵活出行者可以考虑深秋或初冬，别有萧瑟静谧之美，且价格实惠。无论住在哪里，请做好步行和爬台阶的准备，车辆通常无法直达酒店门口。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开斯佩洛许久后，闭上眼，脑海里浮现的往往不是某个具体的教堂立面或壁画细节，而是一种整体的感觉：一种被柔软包裹的坚韧，一种绚烂归于平静的安宁。这座小镇教会我，历史不是教科书上生硬的章节，而是可以触摸的温热石头，是可以嗅到的百年酒窖的微醺气息，是老太太眼神里世代相传的骄傲与从容。它没有被定格在某个辉煌的过去，而是从容地将古罗马的基石、中世纪的躯干、文艺复兴的华裳，与21世纪阳台上的Wi-Fi和咖啡机，编织成了一个和谐的整体。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求瞬时刺激、崇尚宏大叙事的快节奏世界里，斯佩洛提供了一种截然不同的价值。它告诉我们，美可以很小，小到一盆天竺葵的摆放角度；社区的力量可以很强，强到能让一条街道一夜之间开出史诗般的图画；生活可以很慢，慢到值得用一整个上午来品味一杯咖啡和阳光移动的轨迹。它不是一个需要你“攻克”的景点清单，而是一个邀请你“进入”的生活场域。每一位热爱深度游的旅人，都应该来斯佩洛住上几天，不是为了打卡，而是为了让自己的时间感被小镇的钟声校准，让疲惫的感官在鲜花与石头的拥抱中苏醒，最终带走一份关于“如何诗意地栖居”的、安静而恒久的启示。这，或许才是旅行能带给我们的最珍贵的礼物。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/civita-di-bagnoregio" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    白
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">白露里治奥（天空之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Civita di Bagnoregio</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ravenna-mosaics" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉文纳马赛克群</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Early Christian Monuments of Ravenna</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ascoli-piceno-historic-center" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿斯科利皮切诺</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ascoli Piceno</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

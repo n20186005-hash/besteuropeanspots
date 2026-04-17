@@ -1,0 +1,240 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔巴 Alba｜白松露之都，中世纪百塔与慢食运动摇篮 - 最佳欧洲景点',
+  description: '抵达阿尔巴，你第一个感受到的或许不是风景，而是一种气息。尤其是在十月，当清冷的空气里混杂着湿润的泥土、葡萄叶的微醺，和一种难以名状、霸道又诱人的麝香与森林芬芳时，你就知道，松露季到了。这座被连绵如海浪的朗格与罗埃罗（Roero）丘陵温柔环抱的小城，此刻就是全世界美食老饕的朝圣终点。走在铺着方形石板的...',
+}
+
+export default function AlbaPiedmontItalyPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '阿尔巴', href: '/attractions/alba-piedmont-italy' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿尔巴・Alba・意大利・阿尔巴`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`抵达阿尔巴，你第一个感受到的或许不是风景，而是一种气息。尤其是在十月，当清冷的空气里混杂着湿润的泥土、葡萄叶的微醺，和一种难以名状、霸道又诱人的麝香与森林芬芳时，你就知道，松露季到了。这座被连绵如海浪的朗格与罗埃罗（Roero）丘陵温柔环抱的小城，此刻就是全世界美食老饕的朝圣终点。走在铺着方形石板的主街上，你的眼睛很快就会被引向上方——一座座红砖砌成的高塔，或挺拔，或敦实，像沉默的巨人守护着时间的秘密，难怪它被称作“百塔之城”。它们不是装饰，而是中世纪家族权力与财富最直观的石砌宣言。
+然而，阿尔巴的灵魂绝不止于它的天际线和餐桌。钻进主街旁任何一条狭窄的巷弄（当地人叫“via”或“vicolo”），拱廊下的阴影凉爽宜人。你能听到面包店里刚出炉的佛卡夏被掰开的脆响，闻到隔壁熟食店里陈年帕马森奶酪的咸鲜，看到杂货店主把一筐筐带着晨露的菊苣摆上门口的木架。本地老爷爷们围坐在酒吧（bar）外的小桌旁，手里永远端着一小杯浓缩咖啡或当地产的阿内斯白葡萄酒（Arneis），用飞快的皮埃蒙特方言讨论着天气、足球和今晚该吃什么意面。在这里，生活从未脱离土地的馈赠和季节的节奏。
+黄昏时分，一定要去“大教堂广场”（Piazza del Duomo）。夕阳的金色光芒斜斜地打在圣劳伦斯主教座堂那玫瑰窗和繁复的砖雕立面上，把整片红砖建筑群烘烤得像一块巨大的、温热的姜饼。鸽子扑棱棱飞过钟楼，广场边咖啡馆的椅子被拖出来，人们开始享用餐前酒（aperitivo）。那一刻，历史、信仰、市井生活和味觉享受，毫无缝隙地融合在一起。你突然明白，阿尔巴最动人的，不是某个孤立的景点，而是这种弥漫在空气中、沉淀在砖石里、流淌在餐桌上的“整体感”——一种对传统、对土地、对慢生活的执着信仰。它是一座你可以用所有感官去阅读的城市。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`抵达阿尔巴，你第一个感受到的或许不是风景，而是一种气息。尤其是在十月，当清冷的空气里混杂着湿润的泥土、葡萄叶的微醺，和一种难以名状、霸道又诱人的麝香与森林芬芳时，你就知道，松露季到了。这座被连绵如海浪的朗格与罗埃罗（Roero）丘陵温柔环抱的小城，此刻就是全世界美食老饕的朝圣终点。走在铺着方形石板的主街上，你的眼睛很快就会被引向上方——一座座红砖砌成的高塔，或挺拔，或敦实，像沉默的巨人守护着时间的秘密，难怪它被称作“百塔之城”。它们不是装饰，而是中世纪家族权力与财富最直观的石砌宣言。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，阿尔巴的灵魂绝不止于它的天际线和餐桌。钻进主街旁任何一条狭窄的巷弄（当地人叫“via”或“vicolo”），拱廊下的阴影凉爽宜人。你能听到面包店里刚出炉的佛卡夏被掰开的脆响，闻到隔壁熟食店里陈年帕马森奶酪的咸鲜，看到杂货店主把一筐筐带着晨露的菊苣摆上门口的木架。本地老爷爷们围坐在酒吧（bar）外的小桌旁，手里永远端着一小杯浓缩咖啡或当地产的阿内斯白葡萄酒（Arneis），用飞快的皮埃蒙特方言讨论着天气、足球和今晚该吃什么意面。在这里，生活从未脱离土地的馈赠和季节的节奏。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`黄昏时分，一定要去“大教堂广场”（Piazza del Duomo）。夕阳的金色光芒斜斜地打在圣劳伦斯主教座堂那玫瑰窗和繁复的砖雕立面上，把整片红砖建筑群烘烤得像一块巨大的、温热的姜饼。鸽子扑棱棱飞过钟楼，广场边咖啡馆的椅子被拖出来，人们开始享用餐前酒（aperitivo）。那一刻，历史、信仰、市井生活和味觉享受，毫无缝隙地融合在一起。你突然明白，阿尔巴最动人的，不是某个孤立的景点，而是这种弥漫在空气中、沉淀在砖石里、流淌在餐桌上的“整体感”——一种对传统、对土地、对慢生活的执着信仰。它是一座你可以用所有感官去阅读的城市。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿尔巴`} />
+                <InfoRow label="英文名称" value={`Alba`} />
+                <InfoRow label="正式名称" value={`Alba Pompeia`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`阿尔巴`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座从古罗马兵营演变为中世纪繁荣的自由城邦，最终成为全球顶级美食美酒与慢食哲学心脏的传奇小城。`} />
+                <InfoRow label="建筑特色" value={`红砖砌筑的“百塔”勾勒出独特的天际线，恢宏的哥特式大教堂与迷宫般的中世纪拱廊街道交织。`} />
+                <InfoRow label="建筑风格" value={`罗曼式、哥特式、巴洛克风格在红砖建筑上和谐交融，形成独特的皮埃蒙特式建筑风貌。`} />
+                <InfoRow label="文化价值" value={`阿尔巴是味觉的史诗，它承载了从古罗马到中世纪的城市记忆，并在现代孕育了影响全球饮食文化的“慢食运动”，是土地、历史与生活艺术完美融合的象征。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城市本身全天开放。主要地标如圣劳伦斯大教堂（Cattedrale di San Lorenzo）开放时间通常为周一至周六 9:00-12:30， 15:30-18:30，周日以弥撒时间为准，常有变动。市政塔（Torre Civica）等部分塔楼仅在特定导览或活动期间开放。游客中心夏季（4-10月）通常 9:00-13:00，15:00-18:30开放，冬季时间缩短。建议出行前查看官网或咨询当地旅游局。`} />
+              <InfoRow label="门票价格" value={`进入阿尔巴古城免费。参观圣劳伦斯大教堂免费。登上市政塔或参观部分博物馆（如费拉雷西考古与自然历史博物馆）需购票，票价约5-8欧元。每年10-11月的白松露国际博览会（Fiera Internazionale del Tartufo Bianco d‘Alba）期间，进入主展区需购买入场券，价格约5-10欧元，包含松露市场参观和部分活动。`} />
+              <InfoRow label="地址" value={`Piazza Risorgimento， 1， 12051 Alba CN， Italy`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是都灵卡塞莱机场（TRN），距离约70公里。从机场可乘坐机场大巴到都灵新门火车站（Porta Nuova），车程约50分钟。从都灵新门火车站乘坐火车直达阿尔巴火车站（Stazione di Alba），区域列车车程约1小时10分钟，班次频繁（每小时1-2班）。从米兰出发，可先乘高铁至都灵或阿斯蒂（Asti），再转区域列车前往阿尔巴，总耗时约2.5-3小时。自驾是探索周边朗格（Langhe）丘陵酒庄的最佳方式，从都灵经A33/A6高速公路约1小时车程。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`阿尔巴的故事，深埋在层层叠叠的红砖之下，比你想的更古老。公元前2世纪左右，罗马人就在这里建立了名为“Alba Pompeia”的军事前哨和定居点。它的名字来源于“白色”（alba，指清晨的微光，也暗指附近浅色土壤），而“Pompeia”则是向罗马将军庞培致敬。古罗马的棋盘式街道规划，至今仍清晰可辨，构成了今天老城的骨架。你可以想象，当年这里驻扎着退役的士兵，是一个连接都灵与海岸的重要驿站，街道上回荡着拉丁语和车轮的辚辚声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`罗马帝国陨落后，阿尔巴经历了漫长的动荡，直到中世纪早期重新崭露头角。它因其战略位置和农业财富，成为了一个重要的主教区。从11世纪到13世纪，阿尔巴像许多北意大利城市一样，演变为一个生机勃勃的自由城邦。正是在这个“公社时期”，阿尔巴最标志性的景观诞生了。富有而有权势的家族，如曼弗雷迪、菲拉雷西等，纷纷在自家的宫殿上竞相修建高塔。这些塔楼不仅是防御工事，更是家族实力和地位的象征，是直插天空的“名片”。据说最鼎盛时，城内有一百多座塔楼，构成了如“石林”般壮观的景象。可惜后来在内部纷争和外敌入侵中，许多塔楼被摧毁或截短。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`命运给阿尔巴带来了严厉的考验。它长期夹在强大的热那亚共和国和野心勃勃的萨伏依公国之间，几度易手，饱受战火。城市多次被围困、洗劫和焚烧。特别是17世纪，阿尔巴被法国军队占领并遭受重创。但每次劫难之后，坚韧的阿尔巴人总是用他们特有的红砖，一砖一瓦地重建家园。他们重修了壮丽的圣劳伦斯主教座堂（内部融合了哥特式的宏伟和巴洛克式的华丽装饰），修建了优雅的拱廊街道，让城市在灰烬中重生，并逐渐形成了今天我们看到的中世纪与巴洛克风格交融的独特面貌。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正让阿尔巴在现代世界“破圈”的，是深藏于它脚下土地的“白色钻石”——白松露。这种无法人工培育、香气令人神魂颠倒的真菌，让这座小城自20世纪初就名扬四海。然而，阿尔巴的现代传奇不止于此。上世纪80年代，就在城市的主街（Via Vittorio Emanuele）上，一家名叫“自由与美好”（Libera e Buona）的杂货店里，一位名叫卡洛·佩特里尼（Carlo Petrini）的年轻记者，为了抗议在西班牙广场开设麦当劳的计划，发起了一场运动。这场运动后来演变为席卷全球的“慢食运动”（Slow Food）。它的核心理念——保护生物多样性、捍卫传统烹饪技艺、倡导“优质、洁净、公平”的食物——正是根植于阿尔巴及整个皮埃蒙特地区深厚的饮食文化和与土地的紧密联系。从此，阿尔巴从一座历史名城，一跃成为全球可持续美食文化的精神首都。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排至少一整天（最好两天，以便深入周边酒庄和乡村）来探索阿尔巴。最佳的抵达时间是上午九点左右，此时阳光柔和，游客未至，本地店铺刚刚开门，你能捕捉到小城最日常的脉动。上午专注于老城的历史心脏和标志性建筑，感受中世纪氛围；午餐必须留给当地特色餐馆。下午则深入巷弄，探索市集、小型博物馆，并安排一个附近的酒庄或松露猎人之家探访。傍晚回到老城，享受餐前酒时光和一顿丰盛的晚餐。这样的节奏张弛有度，让你能同时品味历史和生活的双重滋味。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`穿一双绝对舒适的平底鞋，阿尔巴老城几乎全是凹凸不平的石板路和坡道。
+如果自驾前来，务必提前了解ZTL（交通限制区）范围，并将车停在城墙外的公共停车场，老城内步行是唯一正确的探索方式。
+松露季（10-11月）人潮汹涌，餐馆务必提前数周预订；非松露季来访，更能享受小城宁静的本地生活节奏。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`先从城市心脏“大教堂广场”开始，仰头细看圣劳伦斯主教座堂那融合了哥特式玫瑰窗与巴洛克雕刻的宏伟红砖立面，感受数百年信仰与艺术的叠加。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着铺满光滑石板的“加富尔街”漫步，视线在两旁高耸的红砖拱廊和点缀其间的中世纪塔楼残迹间游走，想象当年百塔林立的盛景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拐进迷宫般的“塔楼街”，寻找那些被精心保存的家族塔楼，比如细长的“太阳塔”和敦实的“罪恶塔”，触摸墙砖上深浅不一的岁月痕迹。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午餐一定要钻进拱廊下或小巷里那家本地人扎堆的小餐馆，点一份用新鲜鸡蛋手工制作的“泰亚林”意面，淋上当地巴罗洛红酒炖煮的肉酱。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午去市政宫后面的“埃迪利奥广场”逛逛日常市集，看看堆成小山的当季蔬菜、散发着草本香气的奶酪和挂着露水的野蘑菇。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上市政宫高高的钟楼，在狭窄的螺旋楼梯攀爬后，收获一个俯瞰整个红砖老城屋顶和远处被葡萄园覆盖的连绵丘陵的全景画卷。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`趁着黄昏的“魔法时刻”前往波河上的古罗马桥遗址附近，看夕阳的金光将整个城市和远方的丘陵染成一片温暖的蜜糖色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐则是松露季节的最高仪式，找一家家庭经营的传统餐厅，让侍者在你面前将新鲜刨下的白松露雪花般撒在冒着热气的奶油意面或嫩滑的炒蛋上。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`市政宫钟楼顶端全景`}</h4>
+                  <p className="text-sm text-gray-700">{`登顶后，用广角镜头将脚下密密麻麻的红瓦屋顶、远处星罗棋布的塔楼剪影，以及天边如波浪般起伏的朗格丘陵葡萄园一同纳入画面，最佳时间为晴朗的下午。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`塔楼街光影长廊`}</h4>
+                  <p className="text-sm text-gray-700">{`午后阳光斜射入狭窄的塔楼街时，站在街道一端，利用红砖拱廊形成的天然框架和地面拉长的光影，拍摄行人或自行车骑过的瞬间，充满故事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`波河古桥遗址远眺`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，走到波河南岸，以古老的石桥墩和流淌的河水为前景，拍摄对岸阿尔巴老城在金色夕阳下的全景倒影，色彩层次极为丰富。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`埃迪利奥广场市集人文`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨市集刚开始时，用中焦段捕捉摊主整理货品、老主顾挑选食材时生动的表情和互动，鲜艳的果蔬与古朴的红砖背景形成鲜明对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`圣劳伦斯大教堂内部穹顶`}</h4>
+                  <p className="text-sm text-gray-700">{`走进教堂，在中殿仰拍哥特式肋拱穹顶，等待一束阳光从侧窗射入，照亮繁复的装饰和幽深的走廊，营造神圣静谧的氛围。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尊重当地居民隐私，拍摄市集或街边人物时，最好先微笑示意或事后表达感谢，避免突兀的长焦偷拍。`}</li>
+                <li>• {`室内场所（尤其是教堂）拍摄前务必确认是否允许使用闪光灯和三脚架，通常都是禁止的，需依靠高感光度和稳定手持。`}</li>
+                <li>• {`秋季晨雾是朗格丘陵的特产，若遇上大雾天，不要失望，驱车到附近山丘，能拍到塔楼和城堡在云海中若隐若现的仙境画面。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`古城中心历史宅邸`}</h4>
+                  <p className="text-sm text-blue-800">{`入住一栋由15世纪贵族宫殿改造的精品酒店，房间保留了原始的砖拱天花板和厚实的木门，打开窗户就是主教座堂的钟声和楼下广场的咖啡馆香气。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`朗格丘陵农庄民宿`}</h4>
+                  <p className="text-sm text-green-800">{`选择距离阿尔巴车程15分钟的一家家庭经营农庄，住在种满玫瑰的院子里，早餐是自家果园的水果、新鲜鸡蛋和农庄火腿，白天可跟随主人去葡萄园或果园劳作。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`宁静山间小旅馆`}</h4>
+                  <p className="text-sm text-yellow-800">{`在阿尔巴附近某个山顶小镇（如巴罗洛或拉莫拉）找一家仅有七八个房间的旅馆，房间阳台正对无垠的葡萄园，夜晚只有虫鸣和星空，是绝对的避世之选。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感酒庄酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`下榻一座由著名建筑师设计的现代风格酒庄酒店，极简主义的房间与古老的酒窖形成反差，入住即包含酒庄导览和品鉴，将美酒体验进行到底。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`松露国际博览会期间及秋季周末，住宿极其紧张且价格翻倍，务必提前至少三个月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`选择农庄或酒庄住宿需有自驾车，但能获得最地道的乡村体验；若想深度感受古城夜生活，住在步行区内的酒店更为方便。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`许多历史中心的酒店房间由古老建筑改造，可能没有电梯，预订时如有大件行李可提前沟通确认。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开阿尔巴许久后，你记忆中最清晰的，可能不是某座塔楼的确切高度，也不是某瓶巴罗洛红酒的复杂风味，而是一种整体性的、温暖而丰沛的感觉。那种感觉，是清晨面包店的香气，是午后拱廊下凉爽的阴影，是当地人谈及自家葡萄园时眼里闪烁的光芒，是晚餐时松露落下那瞬间，全桌人默契的寂静与随后爆发的赞叹。阿尔巴教会你的，不是如何“看”一个景点，而是如何“沉浸”于一种生活。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切追求效率与流量的时代，阿尔巴像一块坚定的压舱石，提醒着我们生活的另一种可能：一种与土地相连、与季节共舞、与传统对话的“慢”的可能。它是一座可以“吃”进去的历史，一杯可以“喝”下去的文化。每一位热爱深度游的旅人都该来此，不只是为了清单上的打卡，更是为了让自己被这种深厚、扎实、充满滋味的生活哲学浸润一次。你会明白，真正的奢侈不是挥金如土，而是拥有一整个下午无所事事地晒太阳，是知道盘中的食物来自哪片山丘、由谁的手培育，是在一座千年古城的脉搏里，找到自己内心久违的宁静与丰足。这，就是阿尔巴给予旅人最珍贵的礼物。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/montepulciano" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙特普齐亚诺</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Montepulciano</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gubbio-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    古
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">古比奥古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gubbio Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/otranto-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥特朗托老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Otranto Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

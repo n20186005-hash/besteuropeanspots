@@ -1,0 +1,229 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '迪基希 Diekirch｜探寻卢森堡隐秘的啤酒之魂与罗马印记 - 最佳欧洲景点',
+  description: '坦白说，如果你只是冲着卢森堡的金融中心或城堡名气而来，很可能就与迪基希擦肩而过了。它不在主流旅游的聚光灯下，而这恰恰是它最迷人的地方。当我第一次从火车站走出来，顺着缓坡走向镇中心时，并没有被任何“景点”的招牌轰炸。取而代之的，是一种缓慢沉降下来的生活质感。耳朵里最先捕捉到的，是阿尔泽特河潺潺的流水声...',
+}
+
+export default function DiekirchHistoricTownBrewingCulturePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '迪基希', href: '/attractions/diekirch-historic-town-brewing-culture' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`迪基希・Diekirch・卢森堡・迪基希`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`坦白说，如果你只是冲着卢森堡的金融中心或城堡名气而来，很可能就与迪基希擦肩而过了。它不在主流旅游的聚光灯下，而这恰恰是它最迷人的地方。当我第一次从火车站走出来，顺着缓坡走向镇中心时，并没有被任何“景点”的招牌轰炸。取而代之的，是一种缓慢沉降下来的生活质感。耳朵里最先捕捉到的，是阿尔泽特河潺潺的流水声，不急不缓，像是小镇自带的背景白噪音。空气里，隐隐约约飘着一股混合了湿润青苔、老木头和某种熟悉的、略带甜味的谷物香气——后来我才知道，那就是迪基希啤酒厂飘来的麦芽香，它已经浸润这里的砖石超过一个半世纪。
+穿过几条安静的小巷，眼前豁然开朗，是市政厅前不算大的广场。这里没有游客的喧嚣，只有几位老人坐在长椅上晒太阳，低声用卢森堡语交谈，旁边咖啡馆的遮阳伞下，有人正就着一杯金黄色的本地啤酒阅读报纸。那种感觉非常奇妙，你不是闯入了一个“博物馆式”的老城，而是直接走进了本地人生活的后台，一切都在自然而然地进行着。阳光把两旁建筑淡黄色、米白色的墙面照得暖融融的，每一扇窗台都精心点缀着盛开的天空葵，红得耀眼。
+而迪基希最打动人心的核心魅力，就在于这种“层叠感”。在最表层的、安宁美好的日常图景之下，你可以轻易触碰到历史的不同地层：拐角处不起眼的地下室，可能藏着古罗马人留下的精美马赛克地板；庄严的圣劳伦斯教堂地下，是更早的宗教遗址；而镇上那座宏伟的、带着巨大烟囱的旧啤酒厂建筑，如今既是军事博物馆，也固执地保留着关于酿造的记忆。在这里，历史不是被封存在玻璃柜里的标本，而是像河水一样，依然在镇子的血脉里静静流淌，并与每一个寻常午后啤酒杯里升腾的气泡共生。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`坦白说，如果你只是冲着卢森堡的金融中心或城堡名气而来，很可能就与迪基希擦肩而过了。它不在主流旅游的聚光灯下，而这恰恰是它最迷人的地方。当我第一次从火车站走出来，顺着缓坡走向镇中心时，并没有被任何“景点”的招牌轰炸。取而代之的，是一种缓慢沉降下来的生活质感。耳朵里最先捕捉到的，是阿尔泽特河潺潺的流水声，不急不缓，像是小镇自带的背景白噪音。空气里，隐隐约约飘着一股混合了湿润青苔、老木头和某种熟悉的、略带甜味的谷物香气——后来我才知道，那就是迪基希啤酒厂飘来的麦芽香，它已经浸润这里的砖石超过一个半世纪。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过几条安静的小巷，眼前豁然开朗，是市政厅前不算大的广场。这里没有游客的喧嚣，只有几位老人坐在长椅上晒太阳，低声用卢森堡语交谈，旁边咖啡馆的遮阳伞下，有人正就着一杯金黄色的本地啤酒阅读报纸。那种感觉非常奇妙，你不是闯入了一个“博物馆式”的老城，而是直接走进了本地人生活的后台，一切都在自然而然地进行着。阳光把两旁建筑淡黄色、米白色的墙面照得暖融融的，每一扇窗台都精心点缀着盛开的天空葵，红得耀眼。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而迪基希最打动人心的核心魅力，就在于这种“层叠感”。在最表层的、安宁美好的日常图景之下，你可以轻易触碰到历史的不同地层：拐角处不起眼的地下室，可能藏着古罗马人留下的精美马赛克地板；庄严的圣劳伦斯教堂地下，是更早的宗教遗址；而镇上那座宏伟的、带着巨大烟囱的旧啤酒厂建筑，如今既是军事博物馆，也固执地保留着关于酿造的记忆。在这里，历史不是被封存在玻璃柜里的标本，而是像河水一样，依然在镇子的血脉里静静流淌，并与每一个寻常午后啤酒杯里升腾的气泡共生。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`迪基希`} />
+                <InfoRow label="英文名称" value={`Diekirch`} />
+                <InfoRow label="正式名称" value={`Diekirch`} />
+                <InfoRow label="国家" value={`卢森堡`} />
+                <InfoRow label="城市" value={`迪基希`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座将古罗马文明遗迹、中世纪信仰与近代工业啤酒传奇无缝编织在一起的卢森堡北部重镇。`} />
+                <InfoRow label="建筑特色" value={`阿尔泽特河穿城而过，红屋顶民居错落有致，古老的石桥与宏伟的教堂尖塔构成和谐天际线，地下则隐藏着珍贵的罗马时期马赛克遗址。`} />
+                <InfoRow label="建筑风格" value={`混搭风格，以受法国和德国影响的卢森堡本土民居为主，核心建筑如圣劳伦斯教堂呈现晚期哥特式风格，而啤酒厂建筑则是典型的19世纪末工业实用主义风格。`} />
+                <InfoRow label="文化价值" value={`它是卢森堡国家身份与集体记忆的一个鲜活切片，既是啤酒花香气中弥漫的市民生活史，也是二战阿登战役中不容忘却的沉重一页。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城区域全天开放。核心景点如国家军事历史博物馆（原迪基希啤酒厂博物馆）和圣劳伦斯教堂开放时间有具体规定，通常为周二至周日10:00-18:00，周一闭馆或缩短开放时间。小型酿酒厂参观需提前预约。建议出行前在镇旅游局官网核对最新时间，冬季部分室内景点可能提前关门。`} />
+              <InfoRow label="门票价格" value={`漫步老城本身免费。国家军事历史博物馆（含原啤酒博物馆区域）成人票约5欧元，学生及团体有优惠。圣劳伦斯教堂免费进入，但欢迎捐赠。当地小型啤酒厂导览游价格在10-15欧元之间，通常包含品酒环节。迪基希旅游通卡（Diekirch Card）可在旅游局咨询，可能包含多个景点折扣。`} />
+              <InfoRow label="地址" value={`B.P. 145, L-9202 Diekirch, Luxembourg`} />
+              <InfoRow label="交通方式" value={`从卢森堡市中央火车站（Gare de Luxembourg）出发最为便捷。在火车站直接搭乘国内列车（CFL），前往迪基希站（Gare de Diekirch），车程约45-50分钟，列车班次频繁，每小时至少1-2班，可现场购票或使用卢森堡全国通用的交通App。从卢森堡芬德尔国际机场（LUX）出发，需先乘巴士（16或29路）到中央火车站（约25分钟），再转乘火车。自驾从卢森堡市出发，沿A7/E421公路向北行驶约30分钟即可抵达，小镇外围有多个停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`迪基希的故事，得从一条河和一群罗马人讲起。早在公元1世纪，精于选址的罗马人就看中了阿尔泽特河畔这块宝地，在此建立了定居点。他们铺设道路，修建别墅，过着典型的地主生活。如今隐藏在市政厅地下和镇上其他几处的华丽马赛克地板，就是那个时代繁荣的沉默证言。这些马赛克图案精美，几何纹样和神话动物栩栩如生，你很难想象，在这样一个宁静的北方小镇地下，竟然封存着地中海的阳光与艺术品味。罗马帝国衰落后，这里并未沉寂，而是逐渐演变为一个重要的宗教中心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间快进到中世纪晚期，迪基希的名字开始与“圣劳伦斯”紧密相连。我们今天看到的圣劳伦斯教堂，其哥特式的骨架主要建于15世纪末到16世纪初。它高高耸立的钟塔，几个世纪以来都是镇民精神的指针和地理的坐标。教堂的地下室更加古老，考古发现表明这里曾是更早期的宗教建筑遗址，甚至可能追溯到墨洛温王朝时期。可以说，这座教堂就像一棵年轮清晰的大树，记录着迪基希信仰生活的每一次生长与变迁。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但真正让迪基希的名字超越本地，响彻卢森堡乃至邻国的，是19世纪工业革命的浪潮。1842年，一个叫“Wenzel”的酿造作坊成立了，这就是后来享誉世界的迪基希啤酒厂的雏形。到了20世纪初，它已经发展成为一家现代化的大型啤酒企业。那栋庞大的砖石厂房、高耸的烟囱，不仅是当时先进生产力的象征，更彻底塑造了小镇的经济结构和社区文化。几代迪基希人都在这里工作，小镇的空气里常年弥漫着麦芽的芬芳，啤酒成为了小镇的“液体名片”和共同的骄傲。你能想象，在那些年里，火车站运出的不只是啤酒，更是迪基希的活力与名声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，和平的酿造岁月在20世纪中叶被战争的铁蹄残酷打断。1944年末到1945年初的冬天，迪基希及其所在的阿尔泽特河谷，成为了二战西线最惨烈的战役之一——阿登战役（突出部战役）的关键战场。小镇在德军与盟军之间反复易手，遭受了巨大的破坏。教堂被炮火损伤，许多古老建筑化为废墟。那段冰冷、泥泞与鲜血交织的记忆，被永久地铭刻在了镇子的肌体上。颇具深意的是，战后，那象征着和平时代繁荣的迪基希啤酒厂主楼，被改建成了“国家军事历史博物馆”。如今，游客可以在曾经飘散酒香的空间里，看到关于那场战役的沉重展览，坦克、武器和士兵的日记，与古老的酿造设备仅一墙之隔。这种并置充满了历史的张力与反思。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天，啤酒厂虽已不再在原址大规模生产，但迪基希啤酒的品牌依然存在，小镇也保留了小规模的酿造传统和深厚的啤酒文化。它平静地消化了所有这些层次——罗马的、中世纪的、工业的、战争的，并将它们融合成自己独特的气质：一种历经沧桑后愈发沉静、懂得享受日常片刻美好的生活智慧。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天（至少6-8小时）来深度品味迪基希。最好在上午9点半左右抵达，这时小镇刚刚苏醒，阳光柔和，适合拍照和安静探索。整体节奏宜慢不宜快，核心思路是“先内后外，先文化后生活”：上午先参观室内的博物馆和教堂，了解其厚重的历史与工业底色；中午在广场享用一顿伴随本地啤酒的午餐；下午则完全交给老城的街巷与河畔，用散步的方式感受它的生活气息，并探访小型酿酒厂。这样的安排能让你由知到感，逐步融入小镇的韵律。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周日及卢森堡法定假日，大部分商店和部分餐馆会关门，博物馆开放时间也可能调整，务必提前规划。小镇非常安全，但参观罗马遗址和教堂内部时请保持安静与尊重。穿着舒适的步行鞋至关重要，因为老城的石板路并不完全平整。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先推开国家军事历史博物馆厚重的大门，在昔日啤酒厂的空间里同时感受麦芽香气的余韵与战争历史的沉重。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着标识找到市政厅地下那处隐秘的罗马马赛克遗址，蹲下身仔细辨认千年前工匠留下的彩色石片图案。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进圣劳伦斯教堂让眼睛适应昏暗的光线，仰望那精美的网状拱顶并触摸冰凉的石柱感受时间的厚度。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在老城广场随便找一家有户外座位的咖啡馆坐下点一杯招牌迪基希啤酒配简单的火腿奶酪三明治看人来人往。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后顺着阿尔泽特河岸漫步穿过一座座小石桥寻找天鹅和野鸭的影子听流水与风声协奏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`根据预约时间参加一家小型家庭酿酒厂的导览好奇地观察那些锃亮的铜制发酵罐听主人讲述不一样的啤酒哲学。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`赶在日落前爬上小镇西侧略高的居民区回头眺望红屋顶的海洋被夕阳镀上金边教堂尖塔成为最突出的剪影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果还有精力晚餐可以去一家用本地食材和啤酒入菜的餐厅用味蕾完成对迪基希文化的最后总结。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣劳伦斯教堂内部拱顶全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分当阳光从西侧窗户斜射入教堂，站在中殿中央用广角镜头向上仰拍，能捕捉到哥特式网状肋拱的庄严结构与神圣光束交织的瞬间。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`阿尔泽特河与老屋倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`从“旧桥”（Al Bréck）上或河岸南侧，在无风的清晨或傍晚，可以拍到红屋顶、黄墙面的古老民居及其完美倒映在平静河水中的对称画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`罗马马赛克地板的细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`在市政厅地下遗址，利用现场灯光（可调高相机ISO），将镜头贴近保护玻璃，聚焦于马赛克上色彩依然鲜艳的几何或动物图案，讲述古老的故事。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`啤酒厂历史建筑外观`}</h4>
+                  <p className="text-sm text-gray-700">{`站在博物馆建筑前方的空地上，用建筑的砖石立面和高耸烟囱作为主体，以蓝天或流动的云朵为背景，拍下工业遗产的简练与力量感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`教堂内部允许非商业摄影，但严禁使用闪光灯和三脚架（除非提前获得特殊许可），以免打扰礼拜者及保护文物。拍摄当地居民尤其是长者时，请务必先微笑示意并获得同意，卢森堡人通常礼貌但注重隐私。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`河景优选`}</h4>
+                  <p className="text-sm text-blue-800">{`位于阿尔泽特河畔的历史建筑旅馆，房间窗户正对潺潺流水与古老石桥，夜晚伴着水声入眠，清晨被天鹅的啼叫唤醒。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`由老城中心一栋17世纪民居改造的精品酒店，保留了原始的木头横梁和石墙，内部装饰却现代舒适，主人会热情推荐地道的本地小酒馆。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`家庭之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`小镇边缘一个家庭经营的温馨民宿，主人是一对老夫妻，提供丰盛的自制早餐，包括家庭果酱和新鲜烘焙的面包，还能听到地道的本地故事。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-purple-800">{`驱车十分钟即可抵达的周边乡村古堡酒店，坐落在森林与草地之间，提供顶级的 Spa 和美食，是探索迪基希后彻底放松身心的完美避世之所。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`迪基希本身住宿选择有限，尤其在夏季旅游旺季和周末，建议至少提前一个月预订。住在镇中心固然方便，但选择周边宁静的村庄民宿，能体验到更纯粹的卢森堡乡村风情，且自驾前往小镇仅需数分钟。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开迪基希许久，我记忆最深的不是某个具体的文物或景点，而是一种整体的、安宁的“氛围”。它不像那些被游客挤爆的世界名城，需要你奋力拨开人潮才能窥见一鳞半爪。在这里，历史是谦逊的，它就静静地待在广场地下、教堂石缝里、甚至啤酒杯的泡沫中，等待有心人的发现。这种不张扬、不自夸的气质，恰恰是当今许多地方正在失落的品格。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求高速与效率的时代，迪基希仿佛是一个温柔的提醒。它告诉你，一个地方的生命力，不仅可以来自于永恒的辉煌与震撼，也可以来自于层叠的日常、坚韧的复苏以及对自身记忆的诚实保存。无论是罗马人留下的艺术，中世纪工匠建造的穹顶，十九世纪酿酒师点燃的锅炉，还是二十世纪士兵经历的寒冬，所有这些共同构成了“此刻”这个平静而丰满的小镇。来这里，你不是为了收集打卡照，而是为了体验一种完整的生活纹理，感受时间如何像阿尔泽特河的水一样，既能冲刷伤痕，也能滋养新生。对于每一位厌倦了浮光掠影、渴望在旅途中获得内心沉静与历史通感的旅人来说，迪基希都值得你专程而来，慢慢走过。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/vianden-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维安登城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vianden Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/echternach-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃希特纳赫修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Echternach Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bourglinster-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布尔格林斯特城堡（隐秘的十二世纪贵族双堡）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bourglinster Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

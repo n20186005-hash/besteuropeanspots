@@ -1,0 +1,191 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '亚伊采 Jajce｜瀑布上的中世纪王都，聆听水流与历史的合鸣 - 最佳欧洲景点',
+  description: '车子在山谷里穿行，当你觉得眼前尽是绿色的、略显单调的丘陵时，一个转弯，亚伊采就像从童话书的折页里猛地跳出来一样，撞进你的视野。第一眼，你甚至分不清那是海市蜃楼还是确有其事——一座坚实的、带着塔楼的石头城堡，稳稳地坐在高高的山崖上，而就在城堡脚下，一大片白色的、轰响着的水流，毫无预兆地从城市建筑的屋顶...',
+}
+
+export default function JajceWaterfallFortressPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '亚伊采', href: '/attractions/jajce-waterfall-fortress' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`亚伊采・Jajce・波斯尼亚和黑塞哥维那（波黑）・亚伊采`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在山谷里穿行，当你觉得眼前尽是绿色的、略显单调的丘陵时，一个转弯，亚伊采就像从童话书的折页里猛地跳出来一样，撞进你的视野。第一眼，你甚至分不清那是海市蜃楼还是确有其事——一座坚实的、带着塔楼的石头城堡，稳稳地坐在高高的山崖上，而就在城堡脚下，一大片白色的、轰响着的水流，毫无预兆地从城市建筑的屋顶之间奔腾出来，直直地坠入下方的深渊。那声音不是小溪的潺潺，而是一种低沉有力的、持续不断的轰鸣，即便你站在城门口的石板路上，它也是你听觉的背景音，像这座城市永不停歇的心跳。
+循着水声往下走，穿过挂着红色天竺葵的奥斯曼风格老房子，空气中开始弥漫着一股清冽的、带着负离子的湿润气息，混着老墙石缝里青苔的味道。最好的观瀑点是一个延伸出去的木质平台，站在那里，你会被巨大的水雾瞬间包裹。瀑布不是一道，而是分了两层：上层较宽，水流在落下前似乎还有些犹豫，在岩床上铺开成一片白练；下层则更为湍急，直落超过二十米，砸入下方翡翠色的普利瓦河深潭，激起永恒不散的彩虹。水珠溅在脸上、手臂上，凉丝丝的。抬头望，城堡的轮廓在水汽中微微模糊，仿佛一座天空之城。
+然而，亚伊采的魅力不止于这幅壮丽的“明信片画面”。当你转身离开瀑布，沿着那些陡峭的、被岁月磨得光滑的石阶小巷向上攀登时，你会进入另一个完全不同的世界。这里的生活节奏缓慢得惊人。老太太们坐在门槛上削着土豆，互相拉着家常；猫在阳光斑驳的石墙上慵懒地打盹；小咖啡馆里，男人们喝着浓得化不开的波斯尼亚咖啡，下一盘棋能花掉整个下午。瀑布的轰鸣在这里退成了遥远的白噪音，生活的烟火气扑面而来。你会发现，这座城不是为一个景点而存在的，它本身就是一部仍在书写的、关于坚韧与日常的编年史。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在山谷里穿行，当你觉得眼前尽是绿色的、略显单调的丘陵时，一个转弯，亚伊采就像从童话书的折页里猛地跳出来一样，撞进你的视野。第一眼，你甚至分不清那是海市蜃楼还是确有其事——一座坚实的、带着塔楼的石头城堡，稳稳地坐在高高的山崖上，而就在城堡脚下，一大片白色的、轰响着的水流，毫无预兆地从城市建筑的屋顶之间奔腾出来，直直地坠入下方的深渊。那声音不是小溪的潺潺，而是一种低沉有力的、持续不断的轰鸣，即便你站在城门口的石板路上，它也是你听觉的背景音，像这座城市永不停歇的心跳。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`循着水声往下走，穿过挂着红色天竺葵的奥斯曼风格老房子，空气中开始弥漫着一股清冽的、带着负离子的湿润气息，混着老墙石缝里青苔的味道。最好的观瀑点是一个延伸出去的木质平台，站在那里，你会被巨大的水雾瞬间包裹。瀑布不是一道，而是分了两层：上层较宽，水流在落下前似乎还有些犹豫，在岩床上铺开成一片白练；下层则更为湍急，直落超过二十米，砸入下方翡翠色的普利瓦河深潭，激起永恒不散的彩虹。水珠溅在脸上、手臂上，凉丝丝的。抬头望，城堡的轮廓在水汽中微微模糊，仿佛一座天空之城。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，亚伊采的魅力不止于这幅壮丽的“明信片画面”。当你转身离开瀑布，沿着那些陡峭的、被岁月磨得光滑的石阶小巷向上攀登时，你会进入另一个完全不同的世界。这里的生活节奏缓慢得惊人。老太太们坐在门槛上削着土豆，互相拉着家常；猫在阳光斑驳的石墙上慵懒地打盹；小咖啡馆里，男人们喝着浓得化不开的波斯尼亚咖啡，下一盘棋能花掉整个下午。瀑布的轰鸣在这里退成了遥远的白噪音，生活的烟火气扑面而来。你会发现，这座城不是为一个景点而存在的，它本身就是一部仍在书写的、关于坚韧与日常的编年史。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`亚伊采`} />
+                <InfoRow label="英文名称" value={`Jajce`} />
+                <InfoRow label="正式名称" value={`Jajce`} />
+                <InfoRow label="国家" value={`波斯尼亚和黑塞哥维那（波黑）`} />
+                <InfoRow label="城市" value={`亚伊采`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`十四至十五世纪波斯尼亚王国末期的权力中心与国王加冕地，见证了王国最后的辉煌与奥斯曼征服的历史转折点。`} />
+                <InfoRow label="建筑特色" value={`一座宏伟的中世纪石砌城堡雄踞于悬崖之巅，其下是天然形成的双层瀑布，城市建筑如瀑布水流般从城堡脚下层层铺开，形成“城堡为冠、瀑布为帘、老城为身”的震撼奇观。`} />
+                <InfoRow label="建筑风格" value={`以中世纪波斯尼亚防御建筑为核心，融合了奥斯曼帝国时期的民居特征与奥匈帝国时代的功能主义影响，是一种基于险峻地形的、实用性与象征性并重的混搭风格。`} />
+                <InfoRow label="文化价值" value={`它是波黑国家认同的摇篮与象征，其瀑布与城堡的独特结合不仅是自然与人文共生的杰作，更是波斯尼亚、克罗地亚、塞尔维亚等多民族文化层叠交融的立体教科书。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`瀑布及周边公共区域全天开放。中世纪要塞开放时间通常为夏季（4月至10月）上午9点至晚上7点，冬季（11月至3月）开放时间缩短，可能为上午10点至下午4点，且周一常闭。具体开放时间可能因天气和维修临时调整，建议行前通过当地旅游信息中心确认。`} />
+              <InfoRow label="门票价格" value={`瀑布观景台区域免费参观。进入中世纪要塞内部参观需要门票，价格约为成人5波黑马克（约2.5欧元），学生及儿童有优惠。门票通常为通票，可能包含城内其他小型博物馆（如亚伊采博物馆、“在旧体制下”博物馆）。当地居民和特定团体可能免费。`} />
+              <InfoRow label="地址" value={`Bosanska ulica, Jajce 70101, Bosnia and Herzegovina`} />
+              <InfoRow label="交通方式" value={`从波黑首都萨拉热窝出发最为方便。在萨拉热窝中央汽车站乘坐前往亚伊采的长途巴士，班次频繁，大约每小时一班，车程约为2.5至3小时。车票建议在车站售票窗口直接购买，单程票价约15-20波黑马克。自驾则是绝佳选择，沿M5公路向西北行驶，约140公里，沿途是连绵起伏的丘陵和田园风光，可以自由控制节奏。亚伊采古城内景点集中，完全可以步行探索。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要理解亚伊采，你必须回到那个风雨飘摇的十四世纪。当时的波斯尼亚王国，在强大的匈牙利和塞尔维亚王国夹缝中求存。国王们需要一处易守难攻、又能彰显王权的地方。于是，目光落在了普利瓦河与弗尔巴斯河交汇处的这个天然堡垒上。悬崖、河流、瀑布，构成了最完美的天然护城河。第一位在这里建都的国王是谁已有些模糊，但真正让亚伊采载入史册的，是末代国王斯特凡·托马舍维奇。1434年，他在这里的圣玛丽教堂被加冕为王。你可以在老城找到那座教堂的地下遗址，如今只剩地基和几根立柱，安静地躺在玻璃保护罩下。站在那儿，你几乎能想象出当年的华服、圣歌与沉重的王冠，那是波斯尼亚独立王国最后的、也是最为璀璨的加冕礼。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但荣光转瞬即逝。仅仅二十多年后，1463年，势不可挡的奥斯曼帝国大军压境。传说亚伊采的陷落充满了悲壮与诡计。堡垒太过坚固，强攻代价巨大。于是，奥斯曼的将领使了一个计谋：他们假装撤军，却在夜间将最精锐的士兵藏在巨大的木箱里，伪装成商队货物，由内应运进了城堡。当城堡大门在黎明前悄然打开，埋伏的士兵一涌而出，这座坚城就此易主。国王托马舍维奇被俘，随后遇害，波斯尼亚王国正式灭亡。亚伊采的陷落，标志着巴尔干半岛一个时代的终结，以及近五个世纪奥斯曼统治的开始。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`奥斯曼人留了下来，他们并没有毁掉城堡，而是加固它，并依照自己的生活方式在城堡下方建设。于是，你看到了今天老城区的模样：窄巷、石屋、庭院、以及必不可少的清真寺和土耳其浴室（哈马姆）的遗迹。瀑布依然奔流，但城市里响起了宣礼塔的唤拜声。这种文化的层叠，在1895年奥匈帝国吞并波黑后，又加上了新的一笔。帝国带来了秩序、规划与现代工程技术。他们修建了贯穿城市的主路，建造了规整的行政大楼，甚至为瀑布安装了最早的观景灯饰。你会看到一些黄白相间的、带有一点新古典主义风格的建筑，安静地站在奥斯曼老屋旁边，毫不违和。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`二十世纪的亚伊采，继续在历史的漩涡中颠簸。二战期间，它成为南斯拉夫游击队重要的解放区之一。正是在这里，1943年，反法西斯的各派力量召开了第二次亚伊采会议，做出了奠定战后南斯拉夫联邦国家雏形的重要决议。这座城市，从王国的摇篮，又变成了一个新联邦的助产士。然而，上世纪九十年代那场惨烈的战争，再次给它留下了伤痕。老城遭到了炮击，许多建筑损毁，包括一些珍贵的历史遗迹。你仔细看，一些老房子的墙壁上，还留着弹孔的痕迹，像无法抹去的泪痣。战后，人们一点一点地修复，用旧石材，按老样子，把记忆重新拼贴起来。今天的亚伊采，瀑布依旧轰鸣，它冲刷的不仅是岩石，或许还有一段过于沉重的历史。行走其中，你能感受到的，是一种在数次毁灭与重生中锻造出的、沉默而坚韧的力量。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味亚伊采，请至少留出完整的一天。最佳的抵达时间是清晨，趁着大批一日游的巴士尚未到达，你能拥有相对安静的瀑布和晨光中的小巷。上午的精力最充沛，适合先去征服城堡，从制高点建立对城市的全景认知，感受历史的重量。随后下山，在老城区悠闲漫步，重点探访几处历史遗迹，融入当地人的生活节奏。午后，当阳光将瀑布的水雾照得金光闪闪时，正是深入瀑布下方区域，从各个角度欣赏和拍摄这一自然奇观的最佳时机。傍晚时分，坐在河边或高处的咖啡馆，看夕阳为城堡和红屋顶镀上金边，聆听日夜交替时城市与瀑布合奏的交响。这样的节奏张弛有度，既能覆盖核心景观，又能留出足够空间去感受氛围。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`穿一双绝对防滑且舒适的徒步鞋，因为老城的石阶和通往城堡的小路在潮湿时非常滑。尽量避免在周末的下午前往瀑布核心观景台，那时可能会异常拥挤。对当地的历史感兴趣的话，不妨先花半小时去市内的亚伊采博物馆看看，那里的小展览能帮你快速理清这座城市的千年时间线。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一清早就穿过老城门，沿着陡峭而蜿蜒的石阶小径开始攀登，目标是山巅那座在晨光中显露出粗粝轮廓的中世纪要塞。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`站在要塞最高的塔楼垛口，迎着山风俯瞰整个亚伊采：看红瓦屋顶如瀑布般从你脚下流向河边，看清澈的普利瓦河如何在城市边缘突然“消失”形成那道白练。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡西门下山，特意绕到圣卢克钟楼脚下，用手触摸那些冰凉的、带有刻痕的古老石块，寻找上面可能存在的、几个世纪前的石匠标记。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进老城迷宫般的小巷，在“斯卡扎”（Ćak）街区寻找那家飘着咖啡香和烘焙气味的小店，像当地人一样点一杯波斯尼亚咖啡，看着铜壶在沙盘上慢慢加热。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拿着咖啡走到瀑布上方的观景木桥，看着脚下翻涌的、即将纵身一跃的碧绿河水，感受木板随着水流的轰鸣产生的轻微震动。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着瀑布东侧开凿出的步行栈道向下走，直到最底部的观景平台，让自己彻底被瀑布激起的水雾笼罩，仰望水流从天而降的完整轨迹。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在午后阳光变得柔和时，去探访位于老城中心的“猫之教堂”（圣玛丽教堂）地下遗址，透过玻璃地面凝视那些沉默的罗马柱基和受洗池。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前，沿着普利瓦河边漫步，走过那座古老的石桥，从河对岸回望整个山城与瀑布，看灯光依次在城堡和民居中亮起，如同散落的星辰。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`要塞城墙西北角垛口`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时或日落前一小时，以城墙的剪影作为前景框架，将下方层叠的老城屋顶、瀑布全貌以及远山一并收入镜头，营造史诗般的层次感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`瀑布下层观景平台仰角`}</h4>
+                  <p className="text-sm text-gray-700">{`晴朗的上午十点到下午两点间，阳光能照亮飞泻的水流，使用慢速快门（如1/10秒或更低）将瀑布水流拍成丝绸状，同时捕捉空中若隐若现的彩虹。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`普利瓦河对岸的公路转弯处`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏蓝调时刻，使用三脚架长曝光，将河流作为视觉引导线，拍摄对岸灯火初上的古城与城堡，瀑布在暮色中成为一道柔和的白色光带。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`老城“斯卡扎”区小巷深处`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，阳光斜射入窄巷，在古老的石墙上形成美丽的光影，等待一个当地人（如提篮的老妇或骑车的孩子）走入画面，捕捉充满生活气息的瞬间。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`瀑布区域水雾极大，务必为相机准备专业的防水罩或至少用塑料袋做简易防护，镜头纸也要随身携带。使用无人机拍摄前，务必查询当地最新法规并避开人群密集区，城堡和军事历史遗迹上空可能有飞行限制。尊重当地居民，拍摄人物特写前，一个微笑和简单的手势征得同意，会带来更友善的回应。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`瀑布旁的隐居所`}</h4>
+                  <p className="text-sm text-blue-800">{`紧挨着普利瓦河、几乎能听见瀑布催眠曲的家庭式公寓，主人会为你准备自制的果酱和新鲜烘培的面包，晚上在阳台上就能看到被灯光照亮的银色水幕。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`奥斯曼老宅的时光机`}</h4>
+                  <p className="text-sm text-green-800">{`由一座超过200年历史的石头大宅精心修复而成的精品民宿，房间环绕着安静的中央庭院，铺着厚实的波斯尼亚手工地毯，睡在古老的木梁下仿佛穿越了几个世纪。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`城堡山腰的观景屋`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于攀登城堡的半山腰上，位置绝佳，拥有可以俯瞰大半个老城和远眺瀑布的宽敞露台，是拍摄日出和城市夜景的绝佳基地，适合追求静谧与视角的旅行者。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`城郊河边度假屋`}</h4>
+                  <p className="text-sm text-purple-800">{`如果你自驾，不妨选择几公里外、普利瓦河上游宁静河段的独栋小木屋，享受绝对的田园静谧，白天在河边野餐钓鱼，夜晚只有星空与流水声为伴。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`亚伊采的老城住宿多为小型家庭旅馆或公寓，通过国际预订平台选择时，仔细看评价中的“安静程度”和“步行便捷性”是关键。夏季（7-8月）是旺季，尽管不如首都热闹，但最好提前几周预订心仪的住处。老城夜间非常安全宁静，但街灯可能较暗，自备一个小手电筒会方便晚间散步。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开亚伊采许久之后，在某个都市喧闹的午后闭上眼，耳边恍惚还会响起那低沉而恒久的轰鸣。这时我才明白，那不仅仅是瀑布的声音，那是时间本身流淌的声响。这座城市把最狂暴的自然之力与最厚重的人文历史，如此戏剧性地、却又如此和谐地捆绑在了一起。瀑布千年如一日地冲刷着岩石，也冲刷着王朝的野心、帝国的征服、战争的创伤与和平的日常。它不只是一个风景，它是一个隐喻，关于坚韧，关于在激流与悬崖的缝隙中生生不息的生命力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求高效、打卡、快节奏旅行的时代，亚伊采教会你的是另一种“慢”。它没有金光闪闪的大教堂，也没有琳琅满目的奢侈品店，它的宝藏是那些需要你用脚步去丈量的陡峭石阶，是水雾沾湿睫毛的冰凉触感，是咖啡店里陌生人向你点头微笑的瞬间，是夕阳下城堡投下的那道长长的、安静的影子。来这里，不是为了收集一张漂亮的照片，而是为了体验一种完整的、层叠的时空感。你会感到自己既是俯瞰历史的国王，也是巷口嬉戏的孩童，既是激流的一部分，也是岸边的守望者。亚伊采，这座瀑布上的永恒之城，用它轰鸣的宁静，等待每一位愿意倾听深度故事的旅人。`}</p>
+            </div>
+          </Section>
+
+        </div>
+      </div>
+    </div>
+  )
+}

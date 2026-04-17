@@ -1,0 +1,227 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '诺维帕扎尔与斯塔里拉斯 Stari Ras and Sopoćani｜探访塞尔维亚国家诞生的心脏，在荒野废墟与绝世壁画中对话千年 - 最佳欧洲景点',
+  description: '车子驶离诺维帕扎尔喧嚣的集市，窗外的风景立刻变得粗粝而原始。道路在低矮的山丘与广阔的河谷间蜿蜒，空气里弥漫着炙烤的尘土与野生百里香混合的气味。当你第一眼看到斯塔里拉斯时，可能会有些恍惚——它没有高耸入云的城堡轮廓，没有金光闪闪的穹顶，只有一片赭石色的土地，以及其上散落的、被千年风雨啃噬得几乎与山岩融...',
+}
+
+export default function StariRasAndSopocaniSerbianCradlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '诺维帕扎尔与斯塔里拉斯（塞尔维亚的中世纪摇篮）', href: '/attractions/stari-ras-and-sopocani-serbian-cradle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`诺维帕扎尔与斯塔里拉斯（塞尔维亚的中世纪摇篮）・Novi Pazar and Stari Ras・塞尔维亚・靠近诺维帕扎尔，拉什卡州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子驶离诺维帕扎尔喧嚣的集市，窗外的风景立刻变得粗粝而原始。道路在低矮的山丘与广阔的河谷间蜿蜒，空气里弥漫着炙烤的尘土与野生百里香混合的气味。当你第一眼看到斯塔里拉斯时，可能会有些恍惚——它没有高耸入云的城堡轮廓，没有金光闪闪的穹顶，只有一片赭石色的土地，以及其上散落的、被千年风雨啃噬得几乎与山岩融为一体的墙基和塔楼废墟。风毫无遮挡地穿过这片台地，发出持续的、低沉的呜咽声，仿佛土地本身在呼吸，在述说。
+站在这里，你需要极大的想象力，但更需要的是放下“观看雄伟古迹”的期待，转而用全身心去“感受”。用脚尖触碰那些从泥土中裸露出来的石砖，冰凉而粗砺；极目远眺，下方是拉什卡河谷无尽的绿色，远方是连绵的、青灰色的山脉。就在这片看似荒芜的山脊上，公元9到10世纪，最早的斯拉夫部落在此筑起堡垒，后来，这里成长为一个王国的首都。你脚下踩着的，不是普通的泥土，而是塞尔维亚国家概念最初萌发的温床。那种感觉非常奇妙，不是被建筑的美震撼，而是被历史的重量和空间的辽阔所包围，一种近乎神圣的孤寂感油然而生。
+带着这种心境，再驱车前往十几公里外的索波查尼修道院，会经历一次极致的感官与情绪转换。修道院静静地坐落在一条宁静山谷的源头，被茂密的森林和草地环绕，只有蜜蜂的嗡嗡声和潺潺溪流声打破宁静。从外表看，它朴实无华，奶白色的石墙，红色的屋瓦，像一座巨大的农舍。但当你推开那扇沉重的木门，步入昏暗的教堂内部时，瞬间的视觉冲击会让你窒息。时间，在这里仿佛被施了魔法，完完整整地停留在13世纪70年代。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子驶离诺维帕扎尔喧嚣的集市，窗外的风景立刻变得粗粝而原始。道路在低矮的山丘与广阔的河谷间蜿蜒，空气里弥漫着炙烤的尘土与野生百里香混合的气味。当你第一眼看到斯塔里拉斯时，可能会有些恍惚——它没有高耸入云的城堡轮廓，没有金光闪闪的穹顶，只有一片赭石色的土地，以及其上散落的、被千年风雨啃噬得几乎与山岩融为一体的墙基和塔楼废墟。风毫无遮挡地穿过这片台地，发出持续的、低沉的呜咽声，仿佛土地本身在呼吸，在述说。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`站在这里，你需要极大的想象力，但更需要的是放下“观看雄伟古迹”的期待，转而用全身心去“感受”。用脚尖触碰那些从泥土中裸露出来的石砖，冰凉而粗砺；极目远眺，下方是拉什卡河谷无尽的绿色，远方是连绵的、青灰色的山脉。就在这片看似荒芜的山脊上，公元9到10世纪，最早的斯拉夫部落在此筑起堡垒，后来，这里成长为一个王国的首都。你脚下踩着的，不是普通的泥土，而是塞尔维亚国家概念最初萌发的温床。那种感觉非常奇妙，不是被建筑的美震撼，而是被历史的重量和空间的辽阔所包围，一种近乎神圣的孤寂感油然而生。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`带着这种心境，再驱车前往十几公里外的索波查尼修道院，会经历一次极致的感官与情绪转换。修道院静静地坐落在一条宁静山谷的源头，被茂密的森林和草地环绕，只有蜜蜂的嗡嗡声和潺潺溪流声打破宁静。从外表看，它朴实无华，奶白色的石墙，红色的屋瓦，像一座巨大的农舍。但当你推开那扇沉重的木门，步入昏暗的教堂内部时，瞬间的视觉冲击会让你窒息。时间，在这里仿佛被施了魔法，完完整整地停留在13世纪70年代。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`诺维帕扎尔与斯塔里拉斯（塞尔维亚的中世纪摇篮）`} />
+                <InfoRow label="英文名称" value={`Novi Pazar and Stari Ras`} />
+                <InfoRow label="正式名称" value={`Stari Ras and Sopoćani`} />
+                <InfoRow label="国家" value={`塞尔维亚`} />
+                <InfoRow label="城市" value={`靠近诺维帕扎尔，拉什卡州`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是中世纪塞尔维亚国家（拉什卡地区）最初的核心，被誉为“塞尔维亚的摇篮”。`} />
+                <InfoRow label="建筑特色" value={`斯塔里拉斯是融合了拜占庭、罗马与早期斯拉夫风格的山地要塞城市遗迹；索波查尼则以保存完好的13世纪湿壁画闻名，展现了塞尔维亚艺术的巅峰。`} />
+                <InfoRow label="建筑风格" value={`罗马式与拜占庭风格的融合，通常被称为“拉什卡学派”建筑风格。`} />
+                <InfoRow label="文化价值" value={`作为联合国教科文组织世界遗产，它见证了塞尔维亚民族、宗教与文化身份在巴尔干半岛的关键形成期。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`斯塔里拉斯考古遗址：全年开放，但无严格开放时间限制，为露天遗址，建议白天游览。索波查尼修道院：通常为每天上午9点至下午5点开放，冬季（11月至3月）可能缩短开放时间或需提前预约。东正教重要宗教节日期间（如圣诞节、复活节）开放时间变动较大，可能不对外开放，行前务必在当地旅游局网站核实。`} />
+              <InfoRow label="门票价格" value={`斯塔里拉斯遗址：免费参观。
+索波查尼修道院：成人票价约300第纳尔（约合2.5欧元），学生及团体享有优惠票价。具体价格可能有微调，建议准备少量现金。`} />
+              <InfoRow label="地址" value={`斯塔里拉斯遗址位于诺维帕扎尔以东约11公里处，靠近村庄“旧拉斯”。索波查尼修道院位于诺维帕扎尔以西约15公里处。具体邮政地址可定位：Sopoćani Monastery, 36300 Novi Pazar, Serbia。`} />
+              <InfoRow label="交通方式" value={`从塞尔维亚首都贝尔格莱德出发：最便捷方式是租车自驾，沿E763/E80高速公路向南行驶，车程约3小时直达诺维帕扎尔。从诺维帕扎尔城区前往两处景点，建议乘坐出租车或预约当地导游包车，因为公共交通班次稀少且站点距离遗址入口较远。出租车前往任一处景点单程约需20分钟，费用可协商（通常1500-2000第纳尔）。若搭乘巴士，从诺维帕扎尔汽车站有前往附近村庄的班车，但下车后需步行较长时间，且时刻表不固定，不适合深度游览。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要理解这个地方为何如此重要，我们必须回到那个风云激荡的公元12世纪。当时的巴尔干半岛，是拜占庭帝国、保加利亚王国以及新兴的匈牙利王国争夺的角力场。就在这片被称为“拉什卡”的山丘河谷地带，一个名叫“斯蒂芬·尼曼雅”的大公崭露头角。他并非天生贵胄，而是通过政治谋略与军事才能，一步步统一了周边零散的斯拉夫部落。公元1166年，他选择斯塔里拉斯作为权力中心，并在此宣布建立尼曼雅王朝——这个王朝将统治塞尔维亚土地长达两个世纪，并塑造了其独特的国家与宗教身份。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`尼曼雅的事业有一个至关重要的精神支柱：他的儿子，拉斯特科。这位王子做出了一个改变塞尔维亚命运的决定：他放弃世俗权位，远赴希腊阿索斯圣山修道，取名“萨瓦”。当他学成归来时，带回的不仅是深湛的灵修知识，更是一个清晰的愿景：塞尔维亚必须拥有独立的教会。1219年，经过萨瓦的巧妙斡旋，君士坦丁堡普世牧首被迫承认了独立的塞尔维亚东正教会，萨瓦本人成为第一任大主教。从此，塞尔维亚在政治和宗教上都获得了自主性。斯塔里拉斯，作为王权与教权最初结合的地方，其地位如日中天。国王们在这里加冕，法律在这里颁布，它是一座活生生的、跳动着的首都。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`王朝的繁荣最直观地体现在艺术上。尼曼雅的孙子，国王斯蒂芬·乌罗什一世，为了安葬父亲（另一位圣徒西蒙），决定修建一座“灵魂的丰碑”。于是，在离斯塔里拉斯不远的幽静山谷中，索波查尼修道院拔地而起。国王聘请了当时最好的工匠，极有可能是来自君士坦丁堡或受其深刻影响的艺术家。他们在这座教堂的墙壁上，创作了一系列湿壁画。这些壁画并不仅仅是宗教教义的图解，它们是一次自信的文化宣言。画面中的人物，姿态庄严而优雅，面容恬静而充满内在力量，衣褶流畅如清风拂过。尤其是中央穹顶下的《圣母安眠》和祭坛处的《基督复活》，色彩之柔和、线条之精准、情感之深邃，达到了前所未有的高度。艺术史学家称这一时期为“塞尔维亚文艺复兴”，而索波查尼正是其皇冠上的明珠。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的车轮无情。14世纪后期，奥斯曼帝国的阴影笼罩巴尔干。1389年科索沃战役的悲壮失败后，塞尔维亚王国逐渐瓦解。位于战略要冲的斯塔里拉斯首当其冲，在战火中逐渐被废弃。居民们逃往更安全的山丘或河谷，繁华的都城最终沦为牧羊人偶尔歇脚的废墟，被荒草和尘土掩埋。索波查尼修道院也未能幸免，它多次遭劫掠和破坏，一度被完全遗弃，那些绝世壁画在几个世纪里默默承受着雨水渗漏和鸟粪的侵蚀。它们沉睡在遗忘中，如同整个民族的一段被尘封的记忆。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`转折点发生在19世纪，塞尔维亚民族复兴运动风起云涌。知识分子和考古学家开始重新“发现”自己的历史根源。斯塔里拉斯的考古发掘和索波查尼壁画的修复，不仅是一项学术工作，更是一场精神寻根。这些遗迹成为了构建现代塞尔维亚民族认同的实物基石，它们证明了这片土地拥有辉煌的、值得骄傲的过去。1979年，斯塔里拉斯与索波查尼修道院共同被列入联合国教科文组织世界遗产名录，这是对它们超越国界的普遍价值的认可。如今，当你站在这里，你看到的不仅是一处景点，更是一个民族记忆的源头，一部用石头和颜料写就的史诗。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天时间，沉浸式体验这片“摇篮之地”。最佳抵达时间是清晨，从诺维帕扎尔出发。上午先去斯塔里拉斯遗址，那时的光线柔和，温度适宜，而且游客极少，你能独享整个旷野的寂静与历史的回声。在此花费约2-3小时，不疾不徐地漫步、俯瞰、沉思。中午返回诺维帕扎尔用午餐，品尝当地特色的čevapi（烤碎肉肠）和 kajmak（凝乳奶酪），补充能量。下午再驱车前往索波查尼修道院，此时的阳光角度更适合教堂内部的参观，你可以在静谧的氛围中，花上1-2小时细细品味壁画的每一个细节。这样的安排张弛有度，既能感受外部世界的苍茫，又能深入内在精神的殿堂。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双结实防滑的徒步鞋，斯塔里拉斯遗址地面不平且多碎石。夏季请携带充足的饮用水和防晒用品，遗址区几乎没有遮阴处。在修道院内请绝对保持肃静，关闭手机铃声，女性游客最好准备一条头巾或围巾以示尊重。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从诺维帕扎尔出发，摇下车窗呼吸带着凉意的山间空气，让路旁的金黄麦田和红色农舍为你拉开旅程的序幕。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在斯塔里拉斯遗址的观景台旁，什么都不做，先静静地眺望整个拉什卡河谷在晨光中苏醒的壮阔全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`然后顺着依稀可辨的小径走进废墟深处，用指尖触摸那些刻有古老符号、被岁月打磨得无比光滑的基石。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到最高处的堡垒遗迹，坐下来，闭上眼睛，只听风声、鸟鸣和自己的心跳，想象八百年前这里的晨钟与市声。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`中午在老城桥（Stara Varoš）附近找一家家庭餐馆，和热情的店主比划着点一份滚烫的塞尔维亚炖菜（sarma）。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午踏入索波查尼修道院幽暗的殿堂，让眼睛慢慢适应黑暗，然后仰望祭坛上方那张散发着不朽宁静光芒的《基督升天》壁画。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在修道院外的草地上找棵大树坐下，拿出随身带的笔记本，试着画下眼前这座朴素建筑在夕阳下的剪影，而不只是按下快门。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`斯塔里拉斯全景台`}</h4>
+                  <p className="text-sm text-gray-700">{`日出或日落时分，站在停车场附近的观景岩石上，用广角镜头捕捉废墟作为前景、无限河谷与远山作为背景的苍凉史诗画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`堡垒石门框景`}</h4>
+                  <p className="text-sm text-gray-700">{`在遗址核心区的残存拱门或窗洞处，以这些天然画框构图，将对面的山峦或另一片废墟纳入其中，增加照片的层次感和故事性。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`索波查尼内部壁画细节`}</h4>
+                  <p className="text-sm text-gray-700">{`使用高感光度和大光圈，在不使用闪光灯的前提下（严格禁止），对准壁画人物的脸部特写或衣饰局部，捕捉历经七个世纪依然动人的色彩与笔触。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`修道院与自然融合`}</h4>
+                  <p className="text-sm text-gray-700">{`从侧面或后方拍摄修道院建筑，让爬满藤蔓的石墙、红色的屋顶与背景的深绿森林和蓝天白云形成色彩与质感的和谐交响。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在索波查尼修道院内拍摄壁画是允许的，但严禁使用闪光灯和三脚架，以免对脆弱颜料造成损害。拍摄修士或宗教仪式前，务必先征得明确同意。在遗址区使用无人机可能受到限制，需提前查询当地法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`古城中心体验`}</h4>
+                  <p className="text-sm text-blue-800">{`住在诺维帕扎尔老城区经过改造的奥斯曼风格石屋民宿，清晨在石板路和清真寺唤拜声中醒来，深入体验这座文化交汇之城的独特脉搏。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`宁静山村之家`}</h4>
+                  <p className="text-sm text-green-800">{`选择斯塔里拉斯或索波查尼附近村庄的家庭客栈，主人会端上自酿的 rakija（水果白兰地）和家传食谱，夜晚能看到璀璨的银河。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代舒适之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`诺维帕扎尔市区条件较好的商务酒店，提供稳定的热水和Wi-Fi，作为探索一天后放松身心的可靠基地。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`修道院静修体验（需极早预约且行为得体）`}</h4>
+                  <p className="text-sm text-purple-800">{`极少数情况下，索波查尼修道院可能允许虔诚的访客短期留宿，这将是毕生难忘的精神体验。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`诺维帕扎尔及周边住宿选择有限，旺季（夏季和宗教节日期间）最好提前数周预订。当地民宿可能不提供英文服务，但主人的热情手势和微笑足以弥补。总体治安良好，但夜间在偏远遗址或乡村独自步行仍需谨慎。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开斯塔里拉斯和索波查尼很久以后，那片土地的气息和光影还会时常浮现在脑海里。它带给我的，并非一种激昂的、令人热血沸腾的骄傲感，而是一种深沉的、略带忧伤的宁静。在这里，你无比清晰地看到，再强大的王朝也会烟消云散，石头构筑的都城终将归于尘土。时间才是最终的主宰，它用一种近乎残酷的耐心，把繁华磨成废墟，把呐喊消解为风声。这种认知，初想是令人沮丧的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但索波查尼的壁画却提供了另一种答案。当权力与荣耀化为乌有，什么是真正能够穿越时间的东西？是美，是信仰，是人类对神圣与永恒的追问所凝结成的艺术形式。那些壁画上的使徒和圣徒，他们的目光穿透七个世纪的尘埃，依然如此宁静、悲悯而坚定。它们告诉我们，文明的内核——对意义的追寻、对美的创造——比任何帝国都更加持久。斯塔里拉斯是“身”，它诞生、成长、衰老、死亡；而索波查尼是“魂”，它在肉身寂灭后，依然低语着不朽的诗篇。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，每一位热爱深度游的旅人都应该来这里。不是为了收集又一个世界遗产的图章，而是为了进行一场与时间和历史的深度对话。在这里，你能触摸到一个民族最深的根脉，理解他们今日的悲欢与骄傲从何而来。更重要的是，你能在一个过于喧嚣浮躁的世界里，找到一片让心灵沉静下来的旷野和一座让精神得以休憩的殿堂。这是一次朝圣，不只是地理上的，更是精神上的回归。你会带着一个问题而来：“我们从哪里来？”而离开时，你或许会对“我们将去向何方”，有了一丝更澄澈的感悟。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/novi-sad-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    诺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">诺维萨德要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Petrovaradin Fortress</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/zemun-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    泽
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">泽蒙老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zemun Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/petrovaradin-fortress-novi-sad" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    诺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">诺维萨德要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Novi Sad Fortress</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

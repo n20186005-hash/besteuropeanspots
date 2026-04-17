@@ -1,0 +1,230 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '圣沃尔夫冈 St. Wolfgang｜白马酒店与绝美朝圣教堂，萨尔茨卡默古特湖区的双生传奇 - 最佳欧洲景点',
+  description: '车子刚转出林间公路，一片无与伦比的蓝就毫无征兆地撞进了眼里。那是圣沃尔夫冈湖，蓝得像融化了的矢车菊宝石，静静地躺在毛茸茸的阿尔卑斯山臂弯里。而小镇，就那样乖巧地依偎在湖畔，一片密密的、暖色调的房子，红瓦顶在午后的阳光下像一块块烘烤得恰到好处的姜饼。空气里有清冽的湖水味儿，混着远处森林传来的松针香，还...',
+}
+
+export default function StWolfgangWhiteHorseInnPilgrimageChurchPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '圣沃尔夫冈（白马酒店与绝美朝圣教堂）', href: '/attractions/st-wolfgang-white-horse-inn-pilgrimage-church' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`圣沃尔夫冈（白马酒店与绝美朝圣教堂）・St. Wolfgang im Salzkammergut・奥地利・圣沃尔夫冈镇`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子刚转出林间公路，一片无与伦比的蓝就毫无征兆地撞进了眼里。那是圣沃尔夫冈湖，蓝得像融化了的矢车菊宝石，静静地躺在毛茸茸的阿尔卑斯山臂弯里。而小镇，就那样乖巧地依偎在湖畔，一片密密的、暖色调的房子，红瓦顶在午后的阳光下像一块块烘烤得恰到好处的姜饼。空气里有清冽的湖水味儿，混着远处森林传来的松针香，还有从某家面包店飘出的、新鲜出炉的“林茨蛋糕”的甜腻香气。耳朵最先捕捉到的，不是人声，而是清脆的“叮当”声——系在码头小船上的缆绳铁环，随着微波轻轻磕碰着木桩，规律得像一首安眠曲。然后，教堂的钟声敲响了，浑厚、沉着，声音贴着湖面滚过来，震得人心尖微微发颤。
+你一下子就明白了，为什么人们会说这里是“仙境”。但这仙境不是冷清的，而是活生生的。码头上，刚徒步归来的老人正慢条斯理地解开登山鞋的鞋带；临湖的咖啡馆露台上，一家三口分享着巨大的苹果卷，糖粉撒了一桌；而那座著名的、雪白外墙的“白马酒店”，它那朝向湖面的大露台上，已经坐了好几桌客人，酒杯碰撞的清脆声响和着低低的笑语，随风飘散。这里的一切都慢了下来，时间仿佛被湖水的密度给拖住了。小镇的核心，是两股截然不同却又奇妙交融的引力：一股来自山坡上那座尖顶的朝圣教堂，它沉默、庄严，吸引着你的目光向上，向精神世界探索；另一股，则来自湖畔那栋热闹的、传奇的白马酒店，它热情、欢快，召唤着你投入人间烟火的温暖怀抱。
+最打动人的，正是这种“神圣与世俗的共舞”。你可以上午在教堂幽暗的光线里，凝视那尊被誉为“阿尔卑斯山以北最美祭坛”的木雕，被中世纪工匠的虔诚与技艺震撼得说不出话；下午就可以坐在白马酒店的露台上，点一杯本地产的白葡萄酒，想象着近百年前，那出名为《白马酒店》的轻歌剧如何让这里一夜成名，剧中那些关于爱情、误会和皆大欢喜的情节，仿佛就发生在眼前的桌椅之间。小镇的居民早已习惯了这种双重身份。对他们而言，教堂的钟声是生活的背景音，而酒店里传来的歌剧旋律，则是欢庆的节拍。这种从容不迫的融合，让圣沃尔夫冈不仅是一处风景明信片，更是一个有温度、有呼吸的生命体。
+在这里，美是具体的，是感官的盛宴。是湖水拍打卵石岸的哗哗声，是教堂里烛火燃烧的蜜蜡气味，是酒店老地板被踩踏发出的吱呀声，是远处沙夫山山顶积雪在夕阳下染成的玫瑰金色。它不张扬，却以一种巨大的、宁静的包容力，将每一个到访者轻轻拥入怀中，告诉你：慢一点，生活本该如此。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子刚转出林间公路，一片无与伦比的蓝就毫无征兆地撞进了眼里。那是圣沃尔夫冈湖，蓝得像融化了的矢车菊宝石，静静地躺在毛茸茸的阿尔卑斯山臂弯里。而小镇，就那样乖巧地依偎在湖畔，一片密密的、暖色调的房子，红瓦顶在午后的阳光下像一块块烘烤得恰到好处的姜饼。空气里有清冽的湖水味儿，混着远处森林传来的松针香，还有从某家面包店飘出的、新鲜出炉的“林茨蛋糕”的甜腻香气。耳朵最先捕捉到的，不是人声，而是清脆的“叮当”声——系在码头小船上的缆绳铁环，随着微波轻轻磕碰着木桩，规律得像一首安眠曲。然后，教堂的钟声敲响了，浑厚、沉着，声音贴着湖面滚过来，震得人心尖微微发颤。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你一下子就明白了，为什么人们会说这里是“仙境”。但这仙境不是冷清的，而是活生生的。码头上，刚徒步归来的老人正慢条斯理地解开登山鞋的鞋带；临湖的咖啡馆露台上，一家三口分享着巨大的苹果卷，糖粉撒了一桌；而那座著名的、雪白外墙的“白马酒店”，它那朝向湖面的大露台上，已经坐了好几桌客人，酒杯碰撞的清脆声响和着低低的笑语，随风飘散。这里的一切都慢了下来，时间仿佛被湖水的密度给拖住了。小镇的核心，是两股截然不同却又奇妙交融的引力：一股来自山坡上那座尖顶的朝圣教堂，它沉默、庄严，吸引着你的目光向上，向精神世界探索；另一股，则来自湖畔那栋热闹的、传奇的白马酒店，它热情、欢快，召唤着你投入人间烟火的温暖怀抱。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，正是这种“神圣与世俗的共舞”。你可以上午在教堂幽暗的光线里，凝视那尊被誉为“阿尔卑斯山以北最美祭坛”的木雕，被中世纪工匠的虔诚与技艺震撼得说不出话；下午就可以坐在白马酒店的露台上，点一杯本地产的白葡萄酒，想象着近百年前，那出名为《白马酒店》的轻歌剧如何让这里一夜成名，剧中那些关于爱情、误会和皆大欢喜的情节，仿佛就发生在眼前的桌椅之间。小镇的居民早已习惯了这种双重身份。对他们而言，教堂的钟声是生活的背景音，而酒店里传来的歌剧旋律，则是欢庆的节拍。这种从容不迫的融合，让圣沃尔夫冈不仅是一处风景明信片，更是一个有温度、有呼吸的生命体。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这里，美是具体的，是感官的盛宴。是湖水拍打卵石岸的哗哗声，是教堂里烛火燃烧的蜜蜡气味，是酒店老地板被踩踏发出的吱呀声，是远处沙夫山山顶积雪在夕阳下染成的玫瑰金色。它不张扬，却以一种巨大的、宁静的包容力，将每一个到访者轻轻拥入怀中，告诉你：慢一点，生活本该如此。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`圣沃尔夫冈（白马酒店与绝美朝圣教堂）`} />
+                <InfoRow label="英文名称" value={`St. Wolfgang im Salzkammergut`} />
+                <InfoRow label="正式名称" value={`圣沃尔夫冈 im 萨尔茨卡默古特`} />
+                <InfoRow label="国家" value={`奥地利`} />
+                <InfoRow label="城市" value={`圣沃尔夫冈镇`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座因圣徒传奇而兴、因一出轻歌剧而名扬世界的阿尔卑斯湖畔明珠，是奥地利湖区精神信仰与世俗欢乐的完美交汇点。`} />
+                <InfoRow label="建筑特色" value={`湖岸边的朝圣教堂融合了晚期哥特式的骨架与华丽巴洛克的内核，而毗邻的白马酒店则是典型的奥地利“加斯特霍夫”（Gasthof）建筑，白墙红瓦，露台直接探向碧波。`} />
+                <InfoRow label="建筑风格" value={`教区教堂为哥特式向巴洛克风格的过渡之作，内部装饰极尽巴洛克之繁美；白马酒店及小镇民居多为古朴浪漫的萨尔茨卡默古特木结构风格。`} />
+                <InfoRow label="文化价值" value={`它代表了奥地利灵魂中虔诚与欢愉的两面：一方面是延续千年的虔诚朝圣传统，另一方面是享誉世界的歌剧所描绘的、充满幽默与爱情的奥地利田园生活理想。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`朝圣教堂（圣沃尔夫冈教区教堂）全年开放，内部参观时间通常为每日上午8点至傍晚6点，冬季可能提早至下午5点关闭；教堂博物馆开放时间较灵活，建议在游客信息中心确认。著名的白马酒店（Weißes Rössl）作为营业场所，其历史长廊和公共区域在酒店营业时间（通常为早7点至晚11点）均可礼貌参观，酒店博物馆部分需在前台询问具体开放时段。请注意，教堂在举行弥撒等宗教活动期间谢绝游客参观，活动时间会张贴于入口处。`} />
+              <InfoRow label="门票价格" value={`进入圣沃尔夫冈教区教堂主体建筑免费，欢迎自愿捐赠以支持教堂维护。教堂内的“沃尔夫冈祭坛”（由米歇尔·帕赫大师创作的宏伟木雕祭坛）参观需支付少量费用，约5欧元/成人。白马酒店本身为经营性酒店，参观其历史悠久的餐厅、露台及公共区域免费；若想深入参观其小型历史博物馆或特定历史套房，可能需要预约或支付导览费用，约10-15欧元。沙夫山登山火车需单独购票。`} />
+              <InfoRow label="地址" value={`Seestraße 35, 5360 St. Wolfgang im Salzkammergut, 奥地利`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是萨尔茨堡机场（SZG）。从萨尔茨堡中央火车站出发，乘坐奥地利联邦铁路（ÖBB）的Regionalzug（区域火车）前往巴德伊舍（Bad Ischl），车程约50分钟，班次每小时1-2班。在巴德伊舍火车站前，换乘150路邮政巴士（Postbus）前往圣沃尔夫冈，车程约30分钟，可直接在“圣沃尔夫冈邮局”站下车。最诗意的方式是从施特罗布尔（Strobl）搭乘圣沃尔夫冈湖渡轮，夏季班次频繁，约每小时一班，从湖上缓缓接近小镇的视角无与伦比。建议使用ÖBB App或OBB官网查询和购买联程票。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事的开端，要追溯到遥远的公元10世纪。一位名叫沃尔夫冈的巴伐利亚主教，据说在一次祈祷中受到神谕，让他乘船沿河而下，在斧头落下的地方建造教堂。他的斧头，就落在了今天圣沃尔夫冈湖畔的这片土地上。这位圣徒在此隐居修行，并建立了最初的礼拜堂。他去世后，关于他治病救人的神迹传说开始在朝圣者中流传，这颗虔诚的种子，为日后数百年的辉煌埋下了伏笔。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`到了中世纪晚期，大约在15世纪，圣沃尔夫冈作为朝圣地的名声达到了顶峰。源源不断的信徒翻山越岭而来，只为在圣沃尔夫冈的墓前祈祷。为了容纳汹涌的人潮，并彰显上帝的荣耀，当地人决定建造一座配得上圣徒的宏伟教堂。于是，我们今天看到的教区教堂开始动工。它的建筑过程本身就是一部史诗，融合了从哥特式到巴洛克的风格演变。而它的灵魂，无疑是那尊巨大的木质“沃尔夫冈祭坛”。1471年至1481年，来自南蒂罗尔的雕刻大师米歇尔·帕赫，将自己生命中黄金的十年倾注于此，创作了这座有翅膀的、描绘了圣母生平与最后审判的惊世之作。当祭坛在教堂内缓缓展开时，阳光透过彩色玻璃，照亮了镀金的雕像和生动的彩绘，那一刻，信仰化为了可视的、令人窒息的美丽。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`就在教堂的阴影下，另一段传奇在平静地酝酿。几百年里，为服务朝圣者而生的客栈、酒馆在小镇生根。其中一家，就是始建于15世纪的“白马客栈”。它最初只是一个简陋的歇脚处，提供食物和床铺给疲惫的旅人。然而，它的命运在19世纪末被彻底改写。奥地利作家奥斯卡·布鲁门塔尔和古斯塔夫·卡德尔巴赫以这家酒店为背景，创作了轻歌剧《白马酒店》。这部作品在柏林首演后引发了轰动，剧中诙谐的误会、浪漫的爱情和浓郁的奥地利风情，让无数人对这个湖畔酒店心驰神往。几乎一夜之间，白马酒店从一家普通的乡村客栈，变成了欧洲上流社会和文化名流争相到访的时尚目的地。它代表了奥地利“美好时代”的轻松、享乐与田园牧歌式的理想。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`整个20世纪，圣沃尔夫冈在战争与和平的交替中，守护着自己的双重遗产。朝圣教堂的烛火从未熄灭，它依然是人们寻求内心宁静的港湾。而白马酒店则继续演绎着它的欢歌，迎接了从玛丽莲·梦露到皇室成员的各方宾客。旅游业的发展让小镇更加繁荣，但令人欣慰的是，它并未被过度商业化吞噬。当地人深知，他们的根在于那片湖、那座山、那间教堂和那个酒店的故事。今天的圣沃尔夫冈，就像一个从容的智者。它既珍视沃尔夫冈圣徒带来的千年灵性传统，也欣然拥抱白马酒店赋予它的、关于生活与欢乐的现代传奇。它完美地证明，历史并非单一线索的叙述，而可以是多重旋律交织的和谐乐章。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味圣沃尔夫冈的双重灵魂，你需要完整的一天，并抱着“沉浸”而非“赶场”的心态。建议在上午9点前抵达，这时旅游团的大巴还未涌入，小镇还沉浸在晨光与本地生活的节奏中。整体游览节奏应如湖水的波纹，舒缓而富有韵律。上午将重心放在文化历史与自然静谧的体验上，下午则融入湖畔的闲适生活与传奇氛围。傍晚时分，则是光影的盛宴，不容错过。这样的安排，能让你由静至动，由内而外，层层深入地感知这个地方的脉搏。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季周末（尤其是七八月）是绝对的高峰，小镇会非常拥挤，尽量安排在工作日前往。进入教堂时请务必保持安静并着装得体（避免背心、短裤）。小镇许多小餐馆和纪念品店只接受现金（欧元），备些零钱总是方便。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从湖滨大道东端开始漫步，让清凉的湖风唤醒感官，看天鹅在如镜的湖面划开第一道涟漪。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着缓坡走向圣沃尔夫冈教区教堂，用手触摸那被无数朝圣者抚摩而变得温润光滑的黄砂岩门框。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在教堂内部昏暗的光线中静立片刻，等待眼睛适应，然后聚焦于主祭坛上米歇尔·帕赫那复杂到令人屏息的镀金木雕世界。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`点燃一支细长的蜡烛，插入圣母像前的铁架，感受烛火带来的微暖与静谧，聆听远处隐约的管风琴试音声。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开教堂侧门走到墓园，这里安睡着小镇的历代居民，墓碑上的石刻花朵在阳光下显得宁静而永恒。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山直奔白马酒店，不必急着进入，先在其临湖的宽大木制露台上找一个角落坐下，点一杯“白马酒店混合茶”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随酒店友好的工作人员（或预约导览），探访酒店内部的历史长廊，看看那些发黄的老照片和歌剧首演的纪念物。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`将下午最后的时光留给一艘手划船或脚踏船，从水上的视角回望小镇，看教堂尖顶与酒店白墙在夕阳下渐渐融为一体。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`白马酒店经典湖景露台侧拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四至六点，阳光西斜时，站在露台西侧边缘，以部分木质栏杆和桌上摆着的葡萄酒杯为前景，将对岸的青山与湖中游船一同纳入镜中，构图充满生活叙事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`沙夫山登山火车车窗抓拍`}</h4>
+                  <p className="text-sm text-gray-700">{`上山时选择右侧靠窗座位，火车爬升经过第一个大弯道时，迅速抓拍下方圣沃尔夫冈小镇全景，红色的屋顶、教堂的尖顶和蓝色的湖泊会构成完美的几何图案。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`教区教堂后方山坡俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`从教堂墓园后方一条小径往上走五分钟，有一片小草地，清晨八点左右，从此处可以俯瞰教堂屋顶、部分小镇以及湖的一角，晨雾常在此缭绕，画面宁静而神圣。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`湖岸码头长焦压缩夜景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落后蓝调时刻，在码头东端用长焦镜头对准白马酒店灯火通明的临湖立面，湖水倒映着温暖的灯光和窗户轮廓，能拍出极具电影感和故事感的对称画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`利用清晨和傍晚的“黄金一小时”与“蓝调时刻”，湖区的光线在这时柔和而富有层次，能极大提升照片质感。在教堂内部拍摄前，请务必确认是否允许（通常禁用闪光灯和三脚架），并绝对尊重正在祷告的人。拍摄当地居民或酒店客人时，请先微笑示意获得同意。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`情怀之选`}</h4>
+                  <p className="text-sm text-blue-800">{`直接入住传奇的白马酒店（Weißes Rössl），选择一间带有俯瞰湖泊小阳台的历史客房，晚上在曾上演过无数故事的餐厅用餐，感觉自己成了轻歌剧里的一部分。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`湖畔静谧体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择一家位于小镇西侧、远离主街的家族式湖畔公寓（Ferienwohnung），拥有私人的湖岸入口，早晨可以在无人打扰的宁静中，独享一整片薄荷绿色的湖水。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`半山腰全景民宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`预订一间位于上坡居民区（如Am Wiesenhang街道附近）的民宿，房间窗户正对着湖和远山，既能享受小镇的便利，又能拥有开阔的视野和更加本地化的居住氛围。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端设计隐居`}</h4>
+                  <p className="text-sm text-purple-800">{`考虑小镇附近如施特罗布尔（Strobl）或圣吉尔根（St. Gilgen）的五星级湖畔设计酒店，它们通常拥有顶级的水疗中心和更私密的环境，适合追求极致放松的旅行者。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`圣沃尔夫冈治安极好，但夏季住宿非常紧俏，尤其是白马酒店，需要提前数月甚至半年预订。住在镇上虽方便，但夜晚可能会比较安静（除酒店餐厅外）；如果喜欢更多样的夜生活，可能需要前往稍大的巴德伊舍。许多民宿提供“萨尔茨卡默古特宾客卡”，凭卡可享受区域内部分交通和景点折扣，入住时务必询问。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开圣沃尔夫冈许久后，记忆里最清晰的，不是某一张具体的照片，而是一种混合的感觉：是教堂石壁的凉，混合着酒店露台上咖啡的温；是祭坛木雕上凝固的庄严史诗，混合着湖面上随风荡漾的、轻松的欢歌。这个地方有一种神奇的调和能力，它让看似对立的元素——神圣与世俗，历史与当下，静谧与热闹——达成了美妙的共生。它没有因为成为旅游胜地而失去灵魂，反而因为人们对这两种传奇的共同呵护，让它的生命力愈发蓬勃。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个推崇效率、常常非此即彼的快节奏世界里，圣沃尔夫冈的存在像一个温柔的提醒。它告诉我们，生活不必是单一的选择题。我们可以同时追求精神的沉淀与尘世的欢愉，可以既敬畏历史的厚重，也享受此刻的阳光与美酒。这种平衡的智慧，就藏在小镇居民从容的微笑里，藏在教堂钟声与咖啡馆音乐交织的空气里。每一位热爱深度游的旅人都该来此停留，不仅仅是为了看风景，更是为了体验这种完整的生活哲学。在这里，你或许能找到那个被遗忘已久的、更宁静、也更丰盛的自己。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/hohenwerfen-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    霍
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">霍亨维尔芬城堡（飞鹰堡）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hohenwerfen Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/duernstein-abbey-wachau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    杜
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">杜恩施泰因修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dürnstein Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/imperial-spa-town-bad-ischl" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴德伊舍</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bad Ischl</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,212 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '姆迪纳静寂之城 Mdina｜穿越千年时光的蜜色石头迷宫 - 最佳欧洲景点',
+  description: '当你穿过那座厚重的主城门，把身后巴士的喧嚣和游客的嘈杂彻底关在外面时，一种奇异的寂静便瞬间包裹了你。这不是普通的安静，而是一种有质感的、沉甸甸的宁静，仿佛时间本身在这里凝结成了蜜色的石头。脚下的路不再是柏油，而是被数个世纪脚步打磨得温润光滑的石灰岩板，在午后斜阳下泛着蜂蜜和焦糖般的光泽。空气里有种特...',
+}
+
+export default function MdinaSilentCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '姆迪纳静寂之城', href: '/attractions/mdina-silent-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`姆迪纳静寂之城・Mdina・马耳他・姆迪纳`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你穿过那座厚重的主城门，把身后巴士的喧嚣和游客的嘈杂彻底关在外面时，一种奇异的寂静便瞬间包裹了你。这不是普通的安静，而是一种有质感的、沉甸甸的宁静，仿佛时间本身在这里凝结成了蜜色的石头。脚下的路不再是柏油，而是被数个世纪脚步打磨得温润光滑的石灰岩板，在午后斜阳下泛着蜂蜜和焦糖般的光泽。空气里有种特殊的味道——混合了古老石墙在烈日烘烤后散发的干燥矿物气息，从某个隐秘庭院飘来的茉莉花香，还有一丝若有若无的、属于历史尘埃的微凉。
+你发现自己走进了一个光的迷宫。狭窄的街道宽仅容一辆马车通过，两旁的贵族宅邸高耸，几乎在头顶合拢，只留下一线狭长的蓝天。光影在这里被切割成戏剧性的几何形状：明晃晃的阳光泼洒在街道一侧的墙面上，另一侧则沉入深邃凉爽的阴影里。偶尔一扇厚重的橡木门虚掩着，门上的黄铜门环被岁月磨得锃亮，你可以瞥见门内一角铺着瓷砖的幽静庭院，一棵柠檬树正结着果，安静得不真实。这里几乎听不到现代世界的噪音，只有你自己的脚步声在石壁间回荡，偶尔夹杂着远处某个窗台传来的微弱古典乐声，或是风吹过某个铁艺阳台时发出的细微叮当声。
+姆迪纳最打动人的，或许就是这种极致的反差。它曾经是整个马耳他群岛跳动的心脏，是贵族、主教和骑士们运筹帷幄的权力中心。而今天，它选择成为一座“静寂之城”，常住居民仅剩三百余人，大多是那些古老家族的后裔，他们如同守护者一般生活在这座活博物馆里。你会看到一位老太太慢悠悠地走过街角，手里提着从拉巴特集市买来的新鲜面包；某个宅邸的百叶窗后，隐约有人影在照料窗台的天竺葵。生活在这里并未停止，只是换了一种极其内敛、极其私密的节奏进行着。它不像其他古城那样完全为游客展演，它保留了一份顽固的自我，这份矜持与疏离，恰恰构成了它最核心的魅力——你不是来“消费”一个景点，你是被允许踏入一个依然在缓慢呼吸的古老梦境。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你穿过那座厚重的主城门，把身后巴士的喧嚣和游客的嘈杂彻底关在外面时，一种奇异的寂静便瞬间包裹了你。这不是普通的安静，而是一种有质感的、沉甸甸的宁静，仿佛时间本身在这里凝结成了蜜色的石头。脚下的路不再是柏油，而是被数个世纪脚步打磨得温润光滑的石灰岩板，在午后斜阳下泛着蜂蜜和焦糖般的光泽。空气里有种特殊的味道——混合了古老石墙在烈日烘烤后散发的干燥矿物气息，从某个隐秘庭院飘来的茉莉花香，还有一丝若有若无的、属于历史尘埃的微凉。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你发现自己走进了一个光的迷宫。狭窄的街道宽仅容一辆马车通过，两旁的贵族宅邸高耸，几乎在头顶合拢，只留下一线狭长的蓝天。光影在这里被切割成戏剧性的几何形状：明晃晃的阳光泼洒在街道一侧的墙面上，另一侧则沉入深邃凉爽的阴影里。偶尔一扇厚重的橡木门虚掩着，门上的黄铜门环被岁月磨得锃亮，你可以瞥见门内一角铺着瓷砖的幽静庭院，一棵柠檬树正结着果，安静得不真实。这里几乎听不到现代世界的噪音，只有你自己的脚步声在石壁间回荡，偶尔夹杂着远处某个窗台传来的微弱古典乐声，或是风吹过某个铁艺阳台时发出的细微叮当声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`姆迪纳最打动人的，或许就是这种极致的反差。它曾经是整个马耳他群岛跳动的心脏，是贵族、主教和骑士们运筹帷幄的权力中心。而今天，它选择成为一座“静寂之城”，常住居民仅剩三百余人，大多是那些古老家族的后裔，他们如同守护者一般生活在这座活博物馆里。你会看到一位老太太慢悠悠地走过街角，手里提着从拉巴特集市买来的新鲜面包；某个宅邸的百叶窗后，隐约有人影在照料窗台的天竺葵。生活在这里并未停止，只是换了一种极其内敛、极其私密的节奏进行着。它不像其他古城那样完全为游客展演，它保留了一份顽固的自我，这份矜持与疏离，恰恰构成了它最核心的魅力——你不是来“消费”一个景点，你是被允许踏入一个依然在缓慢呼吸的古老梦境。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`姆迪纳静寂之城`} />
+                <InfoRow label="英文名称" value={`Mdina`} />
+                <InfoRow label="正式名称" value={`姆迪纳古城（静寂之城）`} />
+                <InfoRow label="国家" value={`马耳他`} />
+                <InfoRow label="城市" value={`姆迪纳`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`马耳他群岛最古老的核心，曾是其政治与宗教权力中心长达千年，被誉为“高贵之城”。`} />
+                <InfoRow label="建筑特色" value={`一座完整保存于厚重城墙内的中世纪古城，街道布局如迷宫，建筑均由当地特有的蜜糖色石灰岩砌成。`} />
+                <InfoRow label="建筑风格" value={`以诺曼与巴洛克风格为主导的混合体，深受阿拉伯聚落规划和南欧建筑美学的影响。`} />
+                <InfoRow label="文化价值" value={`马耳他千年历史的浓缩活化石，见证了从腓尼基、罗马到骑士团时代的层层文明烙印。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城公共区域全天24小时开放。城内主要景点如姆迪纳大教堂、姆迪纳地宫、老监狱博物馆等开放时间各异，通常为上午9:30至下午5:00（夏季可能延长）。许多小型博物馆和贵族府邸仅在特定时段或预约开放。圣诞节及复活节当天大部分室内景点关闭。建议行前查阅具体景点官网。`} />
+              <InfoRow label="门票价格" value={`进入姆迪纳古城本身免费。城内各独立景点单独售票。姆迪纳大教堂及博物馆联票约10欧元；姆迪纳地宫门票约5欧元；老监狱博物馆门票约6欧元。有学生、老人及家庭套票优惠。购买“马耳他遗产通票”可涵盖多个景点，较为划算。`} />
+              <InfoRow label="地址" value={`Mdina, Malta MDN 1011`} />
+              <InfoRow label="交通方式" value={`从马耳他国际机场出发，最方便的方式是乘坐出租车或预约接送车，车程约20-25分钟，费用约20欧元。若从瓦莱塔出发，可先乘坐51、52或53路公交车至姆迪纳/拉巴特公交总站（Rabat Terminal），车程约30分钟，班次频繁。下车后步行约5-10分钟即可抵达姆迪纳主城门。自驾游客可将车停在城门外的免费公共停车场，但车位紧张，尤其旺季。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`姆迪纳的故事，得从一片高地说起。早在公元前八世纪，腓尼基人就看中了这座离海不远却能俯瞰全岛的内陆山丘，在此建立了坚固的城堡，他们称它为“马莱特”，意为“避难所”。随后罗马人来了，不仅加固了城池，更将总督府设于此地，使之成为群岛的行政中心。传说公元60年，使徒圣保罗在海难后登陆马耳他，就是被接到姆迪纳（当时称“梅利特”）受到总督的接待，由此开启了马耳他的基督教化进程。你可以想象，在那个时代，这里就是文明与权力的象征，是地中海世界网络中的一个重要节点。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转到公元870年，阿拉伯人征服了马耳他。他们对这座古城进行了彻底的改造，不仅加固了防御工事，更赋予了它至今清晰可辨的城市肌理。那些狭窄、蜿蜒、看似毫无规律的街道网络，并非随意为之，而是典型的阿拉伯 Medina（麦地那）式设计，旨在迷惑外来者、阻挡地中海炙热的阳光、并利用狭窄空间产生穿堂风来降温。城市的名称也由“梅利特”演变为“姆迪纳”，直接源自阿拉伯语“麦地那”，意为“设防的城市”。我们今天在这迷宫里获得的所有感官体验——那份荫凉、那份宁静、那份曲折带来的探索乐趣——其根源竟可追溯至一千多年前北非工程师的智慧。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的黄金时代属于中世纪。诺曼人、阿拉贡人相继统治，姆迪纳作为马耳他贵族（主要是西西里和西班牙后裔）的堡垒，地位愈发崇高。贵族们在此修建起一座又一座气势恢宏的宫殿，彼此联姻，形成了一个紧密而排外的统治阶层。1530年，圣约翰骑士团抵达马耳他，他们最初与姆迪纳的贵族们关系微妙。骑士团选择了滨海的比尔古作为大本营，而将内陆的姆迪纳留给了本地贵族和主教，这种权力的二元分立持续了很久。直到1693年，一场可怕的大地震重创了姆迪纳，许多建筑化为废墟。但这反而催生了重生。在18世纪，一场巴洛克风格的改造浪潮席卷了古城。我们今天看到的许多宫殿立面、华丽的教堂内部、精美的铁艺阳台，都是那个时代的产物。建筑在废墟上开出了更繁复精致的花。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的潮水总会退去。随着骑士团将首都定在瓦莱塔并大力发展海港，姆迪纳的政治经济重要性逐渐下降。1798年，拿破仑短暂占领马耳他，姆迪纳的贵族们进行了象征性的抵抗后，便默默接受了命运。此后，它渐渐褪去了权力中心的光环，成为一处安静的历史遗存。贵族家族或迁离，或选择继续在此过着低调的生活，守护着祖宅和传统。正因这种“被遗忘”，姆迪纳才奇迹般地躲过了20世纪粗放的城市化开发，将中世纪和巴洛克时代的风貌几乎原封不动地保存了下来。它从舞台中央悄然退居幕后，却因此成为了一个更完整、更真实的时代胶囊。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`游览姆迪纳的精髓在于“慢”和“感受”。最理想的抵达时间是下午四点以后，这时大批一日游的旅行团已经开始撤离，灼热的阳光也变得温柔。我建议你安排至少3到4小时，以完全闲适的步调探索。路线不必过于僵化，但可以有一个大致的骨架：从主城门进入，先感受主要轴线上的庄严，然后毫不犹豫地扎进那些旁逸斜出的小巷，享受迷路的乐趣，最后在城墙或西北角的瞭望台等待日落，看金色的光芒为整座石头城披上最后也是最辉煌的衣袍。入夜后（夏季尤为推荐），当路灯亮起，投下斑驳光影，古城会呈现出另一种神秘气质，这时再缓缓踱步出城，完成一次完整的时空穿越体验。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适的平底鞋，这里的每一块石板路都在考验你的脚踝。保持低声说话，尊重当地居民的隐私，不要试图探头窥视私人宅院的大门或窗户。如果计划夜晚游览，最好结伴而行，因为巷子极其昏暗且人烟稀少。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从气势恢宏的姆迪纳主城门踏入，立刻让眼睛适应那被高墙窄巷过滤后的、如液态黄金般的光线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着维勒加格尼翁街这条主干道缓缓上行，目光流连于两旁宫殿精致的石刻徽章和古老的门环。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在道路尽头的广场上驻足，仰望圣保罗大教堂那雄伟的双塔和橙色的穹顶，感受宗教在此地的千年重量。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要绕到大教堂后方，走进那条几乎被所有指南忽略的“希腊门”小巷，那里有最原汁原味的中世纪石墙和静谧。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城西北角的瞭望台凭栏远眺，让视野豁然开朗，看马耳他岛的全景如画卷般在脚下铺展至遥远的海岸线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`随意拐进任何一条吸引你的无名小巷，用手指触摸那些被岁月打磨得无比光滑的石头墙角，聆听自己脚步的回响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻找一家开在古老宫殿里的咖啡馆或餐厅，在庭院里或阳台上点一杯当地的 Kinnie 饮料，静静观察光影的移动。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在夜幕完全降临、路灯亮起后，再次走过寂静无人的主街，体会“静寂之城”这个名字在夜晚最真切的含义。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`主城门内侧仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四至六点，阳光斜射入城门通道，站在门内广场回头拍城门拱顶和城墙，能捕捉到光线切割出的强烈明暗对比与历史厚重感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“希腊门”附近小巷纵深`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚柔和光线下，站在巷子一端，利用两侧高耸的蜜色石墙形成天然引导线，拍摄街道向远处延伸的深邃感，常有居民或猫点缀其中。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城西北角瞭望台全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时抵达，使用广角镜头，将古老的城墙雉堞作为前景，框住远方开阔的田园、星罗棋布的村镇和湛蓝的地中海，画面层次极其丰富。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣保罗大教堂广场侧面的宫殿门廊`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分，当阳光直射入广场，寻找有精美石雕的门廊，利用门柱形成画框，拍摄广场上的人和教堂局部，光影结构感十足。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`夜幕初降时的街灯下`}</h4>
+                  <p className="text-sm text-gray-700">{`蓝色时刻（日落后半小时内），在主干道或某些有古典铸铁路灯的小巷，等待路灯自动亮起，拍摄暖黄色灯光映照在冰凉石壁上的温馨与孤寂对比。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`三脚架在夜间拍摄非常有用，但使用时请注意不要阻塞狭窄的通道。尽量避免将当地居民的脸部作为清晰的拍摄主体，以示尊重。多利用建筑本身的线条、门窗的框景和不同时间的光影来构图，比单纯拍摄建筑立面更有故事感。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在与姆迪纳一墙之隔的拉巴特镇，那里有众多亲切的家庭旅馆和实惠公寓，早上能被教堂钟声唤醒，步行五分钟就能进入古城，感受从市井到静谧的奇妙转换。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`入住姆迪纳城墙内为数不多的精品酒店之一，它们通常由古老的贵族宅邸改造而成，住在有拱顶石天花板和原始瓷砖的房间，夜晚当游客散尽，你便独享了整个王国的寂静。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择姆迪纳附近乡村地区的五星级庄园酒店，这些酒店往往拥有广阔的花园、历史遗迹和无敌景观泳池，在私密性极高的环境里既能享受现代奢华，又能随时遁入中世纪迷宫。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计爱好者之选`}</h4>
+                  <p className="text-sm text-purple-800">{`拉巴特也有一些由历史建筑改造的设计型酒店，完美融合了马耳他传统石材与现代极简美学，提供一种更当代、更艺术化的静谧体验。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`姆迪纳城内住宿极为有限且价格高昂，务必提前数月预订。住在城内意味着你能体验清晨和夜晚绝无游客的魔幻时刻。拉巴特作为生活区，餐馆和便利店选择更多，生活便利性更佳。无论住在哪里，都要做好爬坡和走石板路的心理准备。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开姆迪纳许久后，我发现自己最怀念的，不是某个具体的建筑细节，也不是某张惊艳的照片，而是那份几乎可以被触摸到的“寂静”。在这个被信息爆炸和感官过载定义的时代，这份寂静成了一种奢侈的疗愈。它让你被迫慢下来，被迫与自己的脚步声独处，被迫去注意光影的细微变化、石头的纹理、空气中味道的层次。姆迪纳像一个巨大的冥想室，用石头、历史和空间为你屏蔽了外界的噪音。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，每一位热爱深度游的旅人，都应该来姆迪纳住上一晚。不是为了收集又一个世界遗产的图章，而是为了体验一种几乎失传的生活节奏和存在状态。在这里，你会明白，真正的历史不是教科书上枯燥的年份，而是脚下被磨亮的石板，是门环上累积的掌温，是夕阳下整座城池散发出的那种温柔而固执的金色光泽。姆迪纳教会你的，或许是如何在喧嚣世界中守护一片内心的“静寂之城”。它是一个提醒：有些美好，只有在沉默中，才能被真正听见和看见。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/cittadella-citadel-gozo" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维多利亚城堡（戈佐岛城堡）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cittadella</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

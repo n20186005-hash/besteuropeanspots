@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '皮恩扎 Pienza｜托斯卡纳的文艺复兴理想城，教皇的故乡与奶酪之乡 - 最佳欧洲景点',
+  description: '车子在托斯卡纳如同绿色天鹅绒褶皱般的丘陵间穿行，忽然，一座轮廓清晰的小城出现在山脊之上，它不是巍峨的城堡，而像一枚精心雕琢的徽章，稳稳地别在大地的胸膛上。这就是皮恩扎给我的第一眼印象——一种惊人的和谐与完整。把车停在城墙外，穿过古老的石门，时间仿佛被瞬间调校。脚下的特拉vertino石灰岩石板路，被...',
+}
+
+export default function PienzaRenaissanceIdealCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '皮恩扎', href: '/attractions/pienza-renaissance-ideal-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`皮恩扎・Pienza・意大利・皮恩扎（位于锡耶纳省）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在托斯卡纳如同绿色天鹅绒褶皱般的丘陵间穿行，忽然，一座轮廓清晰的小城出现在山脊之上，它不是巍峨的城堡，而像一枚精心雕琢的徽章，稳稳地别在大地的胸膛上。这就是皮恩扎给我的第一眼印象——一种惊人的和谐与完整。把车停在城墙外，穿过古老的石门，时间仿佛被瞬间调校。脚下的特拉vertino石灰岩石板路，被无数脚步打磨得温润发亮，反射着托斯卡纳特有的金色阳光。空气中飘散着复杂的香气：远处田野里收割后的干草味，身边石墙上金银花的甜香，还有从某扇半掩的门扉里钻出的、浓得化不开的佩科里诺奶酪的咸鲜气息。
+我走向小镇的心脏——庇护二世广场。那一刻，我几乎屏住了呼吸。这不像一个自然生长的广场，而像一间巨大的、没有屋顶的露天客厅。广场呈不规则的梯形，但四边的建筑却构成了完美的视觉平衡：正前方是洁白庄严的主教座堂立面和钟楼，左侧是有着三层优雅连拱廊的市政宫，右侧是敦实厚重的教皇家族宫殿，而“客厅”的入口，则是来时走过的拱门。光在这里是绝对的主角。上午，阳光斜斜地照亮教堂的正面；午后，光线移动到广场的砖石地面上，拉出建筑物长长的影子；到了黄昏，整个广场会被染成蜜糖般的金色。你会听到广场上并不嘈杂的声音：游客压低音量的赞叹，咖啡馆杯碟的轻碰，风掠过教堂屋顶的轻啸，以及当地老人坐在长椅上用悠缓的托斯卡纳方言聊天的絮语。
+皮恩扎最打动人心的，是它不仅仅是一个博物馆式的景点，而是一个活着的、呼吸着的社区。你在宏伟的文艺复兴宫殿转角，就能撞见一个摆满新鲜蔬果的杂货铺；在欣赏教堂精美浮雕的间隙，耳边会传来隔壁人家厨房里炖汤的咕嘟声。教皇庇护二世当年构想的不只是一个展示权力的城市，更是一个“宜居”的典范。窄巷两旁的房屋整齐而亲切，很多人家窗台上都摆满了天竺葵，深绿色的木门后可能藏着世界级的奶酪作坊。这里的居民依然过着与这片土地紧密相连的生活，你感受到的是一种深邃的安宁与满足，一种理想在数百年后依然隐隐发光的温度。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在托斯卡纳如同绿色天鹅绒褶皱般的丘陵间穿行，忽然，一座轮廓清晰的小城出现在山脊之上，它不是巍峨的城堡，而像一枚精心雕琢的徽章，稳稳地别在大地的胸膛上。这就是皮恩扎给我的第一眼印象——一种惊人的和谐与完整。把车停在城墙外，穿过古老的石门，时间仿佛被瞬间调校。脚下的特拉vertino石灰岩石板路，被无数脚步打磨得温润发亮，反射着托斯卡纳特有的金色阳光。空气中飘散着复杂的香气：远处田野里收割后的干草味，身边石墙上金银花的甜香，还有从某扇半掩的门扉里钻出的、浓得化不开的佩科里诺奶酪的咸鲜气息。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`我走向小镇的心脏——庇护二世广场。那一刻，我几乎屏住了呼吸。这不像一个自然生长的广场，而像一间巨大的、没有屋顶的露天客厅。广场呈不规则的梯形，但四边的建筑却构成了完美的视觉平衡：正前方是洁白庄严的主教座堂立面和钟楼，左侧是有着三层优雅连拱廊的市政宫，右侧是敦实厚重的教皇家族宫殿，而“客厅”的入口，则是来时走过的拱门。光在这里是绝对的主角。上午，阳光斜斜地照亮教堂的正面；午后，光线移动到广场的砖石地面上，拉出建筑物长长的影子；到了黄昏，整个广场会被染成蜜糖般的金色。你会听到广场上并不嘈杂的声音：游客压低音量的赞叹，咖啡馆杯碟的轻碰，风掠过教堂屋顶的轻啸，以及当地老人坐在长椅上用悠缓的托斯卡纳方言聊天的絮语。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`皮恩扎最打动人心的，是它不仅仅是一个博物馆式的景点，而是一个活着的、呼吸着的社区。你在宏伟的文艺复兴宫殿转角，就能撞见一个摆满新鲜蔬果的杂货铺；在欣赏教堂精美浮雕的间隙，耳边会传来隔壁人家厨房里炖汤的咕嘟声。教皇庇护二世当年构想的不只是一个展示权力的城市，更是一个“宜居”的典范。窄巷两旁的房屋整齐而亲切，很多人家窗台上都摆满了天竺葵，深绿色的木门后可能藏着世界级的奶酪作坊。这里的居民依然过着与这片土地紧密相连的生活，你感受到的是一种深邃的安宁与满足，一种理想在数百年后依然隐隐发光的温度。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`皮恩扎`} />
+                <InfoRow label="英文名称" value={`Pienza`} />
+                <InfoRow label="正式名称" value={`Pienza`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`皮恩扎（位于锡耶纳省）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`世界上第一个“文艺复兴理想城市”的实践范本，由人文主义教皇亲自规划建造的“乌托邦”之城。`} />
+                <InfoRow label="建筑特色" value={`以中心广场为核心，几何对称的城市布局，融合了宏伟的公共建筑与和谐宜居的民居尺度。`} />
+                <InfoRow label="建筑风格" value={`文艺复兴早期风格，深受阿尔贝蒂建筑理论影响，是托斯卡纳地区从哥特式向文艺复兴过渡的清晰见证。`} />
+                <InfoRow label="文化价值" value={`完美体现了15世纪人文主义者对于城市、社会与自然和谐共处的理想，是建筑史与城市规划史上里程碑式的活化石。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇本身全天开放。主要建筑（如主教座堂、教皇宫、市政宫等）的开放时间通常为夏季（4月至10月）上午10:00至晚上7:00，冬季（11月至3月）开放时间缩短，一般为上午10:00至下午5:00，周一可能闭馆或下午开放。具体博物馆时间常有微调，建议行前在官网确认。小镇上的商店和餐厅有自己的营业时间，午后可能休息。`} />
+              <InfoRow label="门票价格" value={`进入皮恩扎小镇免费。参观主要景点通常需要购买联票或单独门票。常见的“皮恩扎博物馆通票”约10-12欧元，涵盖教皇宫、主教座堂博物馆、市政宫等。持有锡耶纳地区旅游卡可能有优惠。具体票价以现场公告为准。`} />
+              <InfoRow label="地址" value={`Pienza, Province of Siena, 53026, Italy`} />
+              <InfoRow label="交通方式" value={`皮恩扎没有火车站，最近的机场是佛罗伦萨机场或罗马菲乌米奇诺机场。最便捷的方式是自驾，从锡耶纳出发约50分钟车程，从佛罗伦萨出发约1.5小时，沿途是经典的托斯卡纳丘陵风光。公共交通：可从锡耶纳乘坐Tiemme公司的112路巴士，车程约1小时15分钟，班次有限（每天大约5-6班），需提前查好时刻表。从蒙特普尔恰诺乘巴士过来也是常见选择，约20分钟。强烈建议提前在Tiemme官网查看最新时刻表并规划好返程时间。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`说起皮恩扎的故事，我们必须认识一个关键人物：埃尼亚·西尔维奥·皮科洛米尼。1405年，他出生在这个当时还叫“科尔西尼亚诺”的默默无闻的小山村。凭借过人的才华、学识和政治手腕，他一路攀升，最终在1458年当选为罗马教皇，取名庇护二世。这位教皇是一位典型的人文主义者，他热爱古典文学、艺术，并深受当时建筑理论家莱昂·巴蒂斯塔·阿尔贝蒂的影响，怀抱着一个宏大的梦想：按照文艺复兴的人文主义理念，建造一座理想的“乌托邦”城市。很自然地，他选择自己的故乡作为这块试验田。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`1459年，教皇委托他信赖的建筑师贝尔纳多·罗塞利诺（他是著名建筑师阿尔贝蒂的学生）全面改造科尔西尼亚诺。这不是简单的修修补补，而是一场从无到有的“外科手术式”城市规划。罗塞利诺的蓝图核心，就是那个 trapezoidal（梯形）的中心广场。所有的权力、信仰与世俗生活都围绕这个中心展开：主座教堂象征神权，市政宫代表市民自治权，教皇宫殿（皮科洛米尼宫）则是家族荣耀与世俗权力的体现。这种布局本身就宣告了中世纪神权至上格局的终结，以及一种新的、平衡的社会秩序的诞生。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`工程以惊人的速度推进，仅用了大约三年，一座全新的城市就从旧村的肌理上生长出来。1462年，教皇正式将其更名为“皮恩扎”，意为“庇护之城”。遗憾的是，庇护二世教皇在1464年去世，他未能亲眼看到自己理想城的完全落成，许多更宏大的扩建计划（包括大学、图书馆等）也随之搁浅。但正是这种“未完成”，反而让皮恩扎保留了最初的、纯粹的理想尺度，没有因后续扩建而变得臃肿或失衡。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`此后的几个世纪，皮恩扎仿佛被时间轻轻地放在了原地。它没有经历佛罗伦萨或锡耶纳那样的剧烈扩张与产业革命，躲过了大规模战争的直接摧毁。它的命运就像托斯卡纳的橄榄树，缓慢、沉默，却深深扎根。它一度被世人遗忘，成为了一个安静的山丘农业小镇。直到20世纪，人们重新从建筑史和城市规划的角度审视它，才惊觉这颗被尘埃掩盖的明珠。1996年，联合国教科文组织将整个皮恩扎历史中心列入世界遗产名录，理由正是它作为“文艺复兴城市设计第一次应用”的杰出典范。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天，当你漫步在皮恩扎，你走过的每一条笔直或略有弧度的街道，看到的每一个经过计算的比例和谐的立面，其实都是在阅读一本打开的、由石头写就的15世纪人文主义宣言。它讲述的不仅仅是建筑，更是一个关于故乡、理想与美的永恒故事。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在上午9点左右抵达皮恩扎，此时旅游巴士大军还未涌入，阳光柔和，是感受小镇苏醒模样的最佳时机。整体游览可以安排大半天（5-6小时），节奏宜慢不宜快。上午聚焦于核心的广场和主要建筑内部，沉浸于文艺复兴的理性之美；午后则留给蜿蜒的小巷、城墙步道和本地生活气息，最后在城外的观景台送别托斯卡纳的日落。这样的安排既能深入理解其规划精髓，又能体验到它作为活态小镇的日常诗意。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇中心区域完全步行，请务必穿一双舒适耐走的平底鞋，石板路虽然美丽但对高跟鞋极不友好。午餐后许多小店和博物馆会关闭数小时进行“riposo”（午休），计划参观内部要避开中午1点到3点半这个时段。警惕小镇主要街道上过于商业化的“特产店”，真正优质的佩科里诺奶酪和本地葡萄酒往往藏在不太起眼的家庭作坊里，多问问当地人。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从罗马门进入，让目光顺着笔直的科索·罗塞利诺街向前延伸，感受规划城市特有的轴线视野，径直走向小镇的心脏庇护二世广场。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在广场中央顺时针缓缓转一圈，用身体感受四面建筑不同的体量与立面如何共同围合出这个“露天客厅”的和谐与稳定。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进主教座堂的内部，让眼睛适应相对幽暗的光线，然后抬头仰望那些罕见的、描绘自然风光与世俗生活的德国风格湿壁画，感受文艺复兴精神在教堂内部的流露。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观右侧的皮科洛米尼宫，走过铺着古董地毯的房间，一定要去其后部的意大利式花园，在三层连廊上获得一个将宫殿花园与无限延伸的奥尔恰谷全景框在一起的绝妙视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从广场侧面的小巷悄然离开主街，毫无目的地钻进那些仅容一人通过的窄巷“chiassini”，用手指触摸粗糙温暖的石墙，寻找墙脚处偶然发现的古老族徽雕刻。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着城墙西侧的步行道漫步，从不同角度眺望奥尔恰谷那如同古典油画般起伏的田野、柏树线条和远处的蒙特普尔恰诺山丘。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在午餐时间，找一家有临街小桌的餐馆，点一份用本地佩科里诺奶酪制作的经典菜品“Pici all‘aglione”，边吃边看巷子里的生活流。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前穿过小镇，从东侧的城墙缺口走出去，走到圣凯瑟琳小教堂附近的观景台，看着夕阳将整个皮恩扎的石砌轮廓和远处的山谷染成壮丽的金红色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`主教座堂正门逆光剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`下午日落前约两小时，阳光从教堂背后射来，站在广场上拍摄教堂正面和钟楼会形成精美的金色轮廓光，广场地面反射的光线则能为人像补光。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`皮科洛米尼宫花园拱门取景框`}</h4>
+                  <p className="text-sm text-gray-700">{`站在花园第三层凉廊的拱门下，将你的同伴或一个孤影置于前景拱门框内，背景是无限延伸的奥尔恰谷丘陵与柏树，构成一幅经典的文艺复兴透视画。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城墙西侧步行道全景`}</h4>
+                  <p className="text-sm text-gray-700">{`午后顺光时分，沿着城墙走，找到能将小镇一部分屋顶、教堂钟楼与山谷背景一同纳入镜头的角度，使用长焦镜头压缩空间，突出层次感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小巷光影与细节`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时虽不适合拍大景，但却是捕捉小巷中明暗对比的绝佳时机，寻找阳光照亮一角墙壁、门环或窗台鲜花而其余部分陷入深影的构图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`奥尔恰谷晨雾全景`}</h4>
+                  <p className="text-sm text-gray-700">{`如果你在此过夜，清晨驱车或步行至小镇南面略高的农田路边，在日出时分常有平流雾弥漫山谷，可以拍到皮恩扎如梦幻岛屿般浮于云海之上的仙境画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以极大提升托斯卡纳蓝天与白云的对比度，并消除石板路和建筑立面的反光。拍摄当地居民尤其是老人的面部特写前，请务必先用微笑和礼貌的“Buongiorno”（早上好/日安）问候并征得同意，尊重他们的隐私。无人机飞行在意大利历史中心上空有严格限制，在皮恩扎这样的世界文化遗产地起飞前，务必查清当地法规，通常都是禁止的。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史中心石屋民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`入住一栋由15世纪石屋改造的公寓，拥有原始的砖拱天花板和厚实的墙壁，清早开窗就能闻到面包店飘来的香气，并独享一份属于居民的宁静。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`文艺复兴宫殿精品酒店`}</h4>
+                  <p className="text-sm text-green-800">{`下榻在庇护二世广场旁一座经过精心修复的古老宫殿里，房间内古董家具与现代设施完美结合，部分客房还带有俯瞰广场或花园的小露台，体验一把“临时领主”的感觉。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`郊外农庄住宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择城外方圆三公里内一座家庭经营的农庄，住在简朴但温馨的石头房子里，夜晚能看到璀璨的银河，早晨主人会奉上自制奶酪、蜂蜜和鸡蛋，体验真正的托斯卡纳乡村hospitality。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感观景酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`位于小镇边缘一座现代风格的酒店，所有房间都拥有无敌的全景落地窗和私人阳台，直面奥尔恰谷，是观赏日出日落和拍摄星空的绝佳基地，设计简约而舒适。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`历史中心内的住宿数量非常有限且极其抢手，尤其是在夏季和初秋旺季，务必提前至少3-4个月预订。选择农庄住宿意味着你需要有车，但回报是无与伦比的宁静和地道的农家体验。无论住在哪里，皮恩扎的夜晚都非常安静，几乎没有夜生活，这正是沉浸于中世纪氛围、享受高质量睡眠的完美环境。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开皮恩扎许久后，我脑海里反复回味的，不是某个具体的建筑细节，而是一种整体的“感觉”。那是一种罕见的、被精心设计过的“和谐感”。这种和谐，存在于建筑与建筑之间，存在于街道与广场的比例之中，存在于坚硬的石头与柔软的藤蔓之间，更存在于宏大的历史理想与琐碎生动的日常生活之间。它不像许多古城那样，带给你的是历史的沉重叹息或艺术的炫目冲击，它带给你的是一种平静的欣慰，仿佛在说：看，人类曾经如此认真而美好地思考过应该如何生活在一起，如何建造一个不仅是用来居住，更是用来滋养心灵的家园。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求速度、规模与感官刺激的时代，皮恩扎的存在像一个温柔的提醒。它很小，用不了一个小时就能从这头走到那头；它很“慢”，几百年来仿佛没有太大的变化。但正是这种小和慢，守护了一种关于尺度、关于平衡、关于人与环境关系的古老智慧。它让我们看到，真正的理想之城，或许不在于有多么高耸入云，而在于每一处转角都透着对人的关怀，每一道目光都能找到落脚的风景。对于每一位渴望在旅途中寻找内心安宁，并愿意透过砖石去倾听人类精神回响的深度旅者来说，皮恩扎不是匆匆一瞥的明信片背景，它是一个值得你停下脚步，住上一晚，用全身心去感受的、活着的乌托邦。来到这里，你不仅是参观一个景点，更像是赴一场与文艺复兴最纯真理想的约会。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/narni-medieval-hill-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    纳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳尔尼古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Narni</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/cortona-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尔托纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cortona</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/mantua" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    曼
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">曼托瓦古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mantua</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

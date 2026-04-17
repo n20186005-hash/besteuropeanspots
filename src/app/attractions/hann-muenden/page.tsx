@@ -1,0 +1,238 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '汉明登 Hann. Münden｜探访德国保存最完好的木骨架童话老城与三河交汇奇景 - 最佳欧洲景点',
+  description: '说实话，在谷歌地图上第一次把汉明登放大时，我差点以为自己点进了某个童话主题的绘本页面。密密麻麻、色彩柔和的小房子挤在一起，被三条蓝色的线条温柔地环抱、分割。但当你真正站在它的面前，那种不真实感会瞬间被一种更扎实、更温暖的质感取代。我抵达时是个秋日的清晨，空气里有河水的湿润、木头老房子散发的淡淡泥土味...',
+}
+
+export default function HannMuendenPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '汉明登', href: '/attractions/hann-muenden' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`汉明登・Hann. Münden・德国・汉明登`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，在谷歌地图上第一次把汉明登放大时，我差点以为自己点进了某个童话主题的绘本页面。密密麻麻、色彩柔和的小房子挤在一起，被三条蓝色的线条温柔地环抱、分割。但当你真正站在它的面前，那种不真实感会瞬间被一种更扎实、更温暖的质感取代。我抵达时是个秋日的清晨，空气里有河水的湿润、木头老房子散发的淡淡泥土味，还有从某条小巷深处飘来的新鲜面包香气。这座城是醒着的，但醒得很从容。你能听见威悉河水流淌的潺潺声，混着自行车碾过古老石板路的清脆声响，以及远处市政厅广场上咖啡馆摆开桌椅的轻微碰撞。
+这里不像那些被游客塞满的“明信片小镇”，汉明登首先是一座活着的家园。穿着冲锋衣的老先生牵着狗从一栋歪歪扭扭、好像下一秒就要讲故事的木骨架房子里走出来，向你点头道一声“摩根”（早晨好）。主妇们在小广场的喷泉边闲聊，手里提着装得满满的藤编篮子。那种感觉奇妙极了，你既是一个闯入者，又仿佛被这种延续了数百年的日常节奏无声地接纳了。它的核心魅力，就在于这种“生活着的博物馆”状态——历史不是被封在玻璃罩里的展品，而是晾晒在窗台上的鲜花坐垫，是咖啡杯沿氤氲的热气，是河畔长椅上静静读书的老人的侧影。
+而当你走到城市的边缘，站上蒂利山堡垒的遗迹或是三河汇流的观景台时，另一个维度的汉明登豁然展开。富尔达河与韦拉河在此静静相拥，汇成宽阔的威悉河，奔向远方。三条河水颜色在交汇处有着微妙差异，像上帝不小心打翻的调色盘，在阳光下泛着粼粼波光。这一刻，地理书上的一个名词变成了眼前壮阔而宁静的诗篇。你会明白，正是这三位“水之巨人”千年的哺育与守护，才滋养出了老城里那一片令人心醉的、由人类巧手搭建的木骨森林。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`说实话，在谷歌地图上第一次把汉明登放大时，我差点以为自己点进了某个童话主题的绘本页面。密密麻麻、色彩柔和的小房子挤在一起，被三条蓝色的线条温柔地环抱、分割。但当你真正站在它的面前，那种不真实感会瞬间被一种更扎实、更温暖的质感取代。我抵达时是个秋日的清晨，空气里有河水的湿润、木头老房子散发的淡淡泥土味，还有从某条小巷深处飘来的新鲜面包香气。这座城是醒着的，但醒得很从容。你能听见威悉河水流淌的潺潺声，混着自行车碾过古老石板路的清脆声响，以及远处市政厅广场上咖啡馆摆开桌椅的轻微碰撞。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里不像那些被游客塞满的“明信片小镇”，汉明登首先是一座活着的家园。穿着冲锋衣的老先生牵着狗从一栋歪歪扭扭、好像下一秒就要讲故事的木骨架房子里走出来，向你点头道一声“摩根”（早晨好）。主妇们在小广场的喷泉边闲聊，手里提着装得满满的藤编篮子。那种感觉奇妙极了，你既是一个闯入者，又仿佛被这种延续了数百年的日常节奏无声地接纳了。它的核心魅力，就在于这种“生活着的博物馆”状态——历史不是被封在玻璃罩里的展品，而是晾晒在窗台上的鲜花坐垫，是咖啡杯沿氤氲的热气，是河畔长椅上静静读书的老人的侧影。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而当你走到城市的边缘，站上蒂利山堡垒的遗迹或是三河汇流的观景台时，另一个维度的汉明登豁然展开。富尔达河与韦拉河在此静静相拥，汇成宽阔的威悉河，奔向远方。三条河水颜色在交汇处有着微妙差异，像上帝不小心打翻的调色盘，在阳光下泛着粼粼波光。这一刻，地理书上的一个名词变成了眼前壮阔而宁静的诗篇。你会明白，正是这三位“水之巨人”千年的哺育与守护，才滋养出了老城里那一片令人心醉的、由人类巧手搭建的木骨森林。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`汉明登`} />
+                <InfoRow label="英文名称" value={`Hann. Münden`} />
+                <InfoRow label="正式名称" value={`Hann. Münden`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`汉明登`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座因三河交汇而兴盛的千年古城，被誉为“德国木骨架建筑露天博物馆”。`} />
+                <InfoRow label="建筑特色" value={`拥有超过700栋保存完好、形态各异的木骨架房屋，其密集程度与原始风貌在德国首屈一指。`} />
+                <InfoRow label="建筑风格" value={`以威悉河文艺复兴风格为主，融合了中世纪后期至巴洛克时期多样化的木骨架建筑形式。`} />
+                <InfoRow label="文化价值" value={`生动体现了中世纪德国河港城镇的贸易繁荣与市民文化，是地理与人文历史完美融合的活化石。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城区域全天开放。老市政厅（历史展厅）开放时间为周二至周日上午10点至下午4点，周一闭馆。圣布莱修斯教堂开放时间约为每日上午9点至下午5点，具体时间随季节和宗教活动微调。三河汇流观景台全天开放。建议出行前查询官网确认最新安排，冬季部分室内景点可能缩短开放时间。`} />
+              <InfoRow label="门票价格" value={`漫步老城及欣赏三河汇流自然景观完全免费。老市政厅历史展厅门票约为4欧元，学生及团体有优惠。圣布莱修斯教堂参观免费，但欢迎自愿捐赠以支持维护。当地提供的导览游价格在8-15欧元不等，需提前在游客中心预约。`} />
+              <InfoRow label="地址" value={`Rathaus, Lotzestraße 2, 34346 Hann. Münden, Germany`} />
+              <InfoRow label="交通方式" value={`从最近的主要交通枢纽哥廷根中央火车站（Göttingen Hbf）出发，乘坐区域火车（RB或RE线路）前往汉诺威或卡塞尔方向，在“Hann. Münden”站下车，车程约30-40分钟，班次每小时1-2班。也可从法兰克福或汉诺威机场乘坐长途火车至哥廷根中转。自驾的话，从哥廷根沿B3公路向北行驶约25公里即达，老城周边有多个付费停车场（如“Parkhaus Altstadt”），但老城内为步行区，禁止车辆驶入。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`汉明登的故事，得从它的名字说起。注意那个名字里神秘的点——“Hann. Münden”。这可不是打字错误，而是一个古老契约的烙印。1183年，狮子亨利公爵在这里授予了城市权利，当时它的名字叫“Hannoversch Münden”，意为“汉诺威的河口”。年深日久，名字太长叫起来麻烦，当地人便默契地把它缩写成“Hann. Münden”，那个点，就像是一个意犹未尽的省略号，保留着历史的原汁原味。而它的命运，从一开始就和“河口”二字紧密相连。富尔达河与韦拉河的交汇，创造了一个天然的内河港口，让这里迅速成为盐、木材、谷物贸易的中转站，财富沿着水道滚滚而来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`中世纪的繁荣，直接写在了那些争奇斗艳的木骨架房子上。你能在“新郎之家”的雕刻上看到远航的船只，在“医生之家”的外墙上看懂当时流行的“生命之轮”寓言。这些房子不仅是住所，更是主人财富与品味的宣言。最精彩的篇章属于16世纪。当时一位叫韦泽的本地建筑师，把从荷兰和意大利学来的文艺复兴装饰元素，巧妙地嫁接在传统的德国木骨架上，创造了独特的“威悉河文艺复兴风格”。老市政厅就是这顶皇冠上的明珠。它那童话般的楼梯塔楼，彩绘的窗棂，还有立面上密密麻麻讲述着城市历史与美德的浮雕，简直就像一块巨大的、可以居住的结婚蛋糕。它并非由某位大领主下令修建，而是由富裕的市民们共同出资建造，这本身就是一部关于市民阶层崛起的无声史诗。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当然，历史不总是蜜糖。三十年战争的战火曾将它严重摧残，瑞典军队一度占领并破坏了部分城区。但就像那些坚韧的木骨架结构，汉明登在灰烬中又一次站了起来，人们按照原来的样式重建家园，这份执着让古城的风貌奇迹般地保持了统一。18世纪，这里还迎来了一位世界级的“访客”——探险家亚历山大·冯·洪堡。他在远赴南美之前，曾在此学习矿业和地理，三河交汇的壮丽景观，或许在那一刻就点燃了他探索地球奥秘的火焰。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正让汉明登免于现代工业文明“改造”的，竟是一次交通地位的衰落。当铁路取代内河航运成为运输主干道，汉明登逐渐安静了下来，发展仿佛在此按下了慢放键。塞翁失马，焉知非福。正因如此，它那超过700栋的木骨架建筑群才得以完好保存，没有为了拓宽马路而被推倒，也没有被贴上千篇一律的现代瓷砖。二战时，它又幸运地躲过了大规模轰炸。于是，当我们今天漫步其中，脚下的每一块石板，头顶每一根探出街角的桁架，都承载着从12世纪至今未曾中断的呼吸与心跳。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完美体验汉明登，我强烈建议安排一整天时间，并将节奏放慢到近乎“本地人”的步调。最好在上午十点前抵达，这时旅行团还未涌入，晨光斜照木骨架房屋的立面，光影效果绝佳。整体游览可大致分为两大环线：上午聚焦于三河交汇的自然奇观与外围景观，下午则完全沉浸在中世纪老城的街巷迷宫中。总耗时约4-5小时，中间务必留出时间在广场咖啡座发呆，或在河畔长椅上看天鹅。这样的安排能让你先从宏观地理上理解这座城的根源，再深入肌理去感受它的温度，最后在夕阳下获得全景视野的震撼收官。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`老城的石板路历史悠久且不平整，请务必穿一双舒适耐走的鞋子，高跟鞋在这里绝对是“酷刑”。
+自驾游客一定要注意，老城全域是交通宁静区，车辆严禁驶入，务必提前在城墙外的停车场泊车，否则罚款很高。
+夏季河边蚊虫较多，建议备好驱蚊液；如果想体验河上视角，码头有提供划艇或电动船租赁，是探索城市的绝妙方式。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨先前往“三河汇流观景台”，静静观察富尔达河的青灰与韦拉河的碧绿如何交融成威悉河的浩荡，看晨雾如何从河面升起又缓缓散去。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从观景台沿着威悉河畔的步道悠闲散步二十分钟，走向老城，途中会经过停泊着古老划艇的小码头和满是天鹅的宁静河湾。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从古老的“瓦砾门”进入迷宫般的木骨架老城核心区，让自己迷失在如画般的“兰根街”和“霍亨街”，抬头细看每一栋房子山墙上不同的雕刻符号和谚语。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在挂着金色船锚标志的“老市政厅”前驻足半小时，绕着它走一圈，找到那个描绘着“三河女神”的华丽文艺复兴大门，并登上塔楼俯瞰红瓦连绵的屋顶海洋。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拜访内部宛如朴素珍宝盒的“圣布莱修斯教堂”，在略显幽暗的光线中寻找那座罕见的、全部由本地木材雕刻而成的绿色祭坛。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`正午时分回到市政厅广场，在任意一家咖啡馆的露天座位坐下，点一杯咖啡和一块当地特色的“威悉河泥蛋糕”，看广场上的喷泉和来往行人。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午钻进老城北侧更安静的住宅街巷，比如“修士巷”，那里有更多未经修饰、歪斜得更可爱的民居，感受真正的生活气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前，沿着清晰的路标徒步约15分钟登上城市后方的“蒂利山”，在古老的堡垒遗迹上，等待夕阳将整座木骨架之城和三河交汇处染成温暖的金色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`三河汇流观景台全景`}</h4>
+                  <p className="text-sm text-gray-700">{`晴朗的下午四点后，阳光从侧后方照亮河面，使用广角镜头可以同时捕捉到三条河流的交汇曲线与远处老城的轮廓线。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`兰根街木骨架走廊`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点到九点，阳光刚好低角度射入狭窄的街道，站在街道中段，利用两侧色彩斑斓、向前延伸的木房子创造强烈的视觉纵深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`老市政厅楼梯塔楼特写`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光转到西面时，塔楼的雕塑和彩绘细节会被照亮，站在广场喷泉附近，用长焦镜头压缩空间，聚焦于塔楼精美的文艺复兴装饰。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣布莱修斯教堂内光影`}</h4>
+                  <p className="text-sm text-gray-700">{`当正午的阳光穿过南侧的彩色玻璃窗，会在古老的木长椅和石地面上投下梦幻般的光斑，适合拍摄静谧的氛围感照片。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`蒂利山堡垒俯瞰黄昏`}</h4>
+                  <p className="text-sm text-gray-700">{`在日落前半小时抵达，架上三脚架，拍摄蓝调时刻华灯初上的老城，点点暖黄色灯光与深蓝色的天空、墨绿色的河流形成绝美对比。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄民居时请务必尊重隐私，避免将镜头直接对准居民家的窗户或私人庭院。许多木骨架房屋至今仍是私人住宅。`}</li>
+                <li>• {`使用无人机拍摄前，务必查询当地法规，老城及周边部分地区可能属于禁飞区，尤其需注意附近是否有直升机航线。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`老城墙边一家由16世纪谷仓改造的家庭旅馆，房间保留了原始的木梁结构，早餐是女主人自制的果酱和新鲜面包，推开窗就能闻到河水与青草的气息。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`住在“医生之家”这栋被列为文物保护建筑的历史木骨架房屋里，楼梯会吱呀作响，家具是复古样式，但设施现代舒适，让你真正成为历史画卷中的一部分。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`威悉河畔一座19世纪贵族别墅改建的精品酒店，拥有宁静的花园和俯瞰河景的露台，房间内饰优雅复古，水疗中心用的也是当地草本配方，极尽惬意。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`中转便捷`}</h4>
+                  <p className="text-sm text-purple-800">{`火车站附近一家现代设计酒店，风格简约明亮，交通极其方便，适合需要赶早班火车的旅客，顶楼酒吧能远眺老城夜景。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿数量有限且极为抢手，尤其在夏季和圣诞市场期间，务必提前数月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果你追求绝对宁静，建议选择老城边缘或河对岸的住宿，避开周末晚上市政厅广场周边餐馆酒吧可能传来的微弱喧闹声。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开汉明登好些天了，但我的脑海里总会不时闪过那些歪歪扭扭的屋顶线条，和三条河水在阳光下静静流淌的光泽。这个地方教给我的，是一种关于“完整”的珍贵体验。它不是某个孤立的、被供奉起来的大教堂或城堡，而是一个完整的、依然在呼吸的生态系统。在这里，自然地理与人类聚落达成了某种完美的和解，历史不是被参观的，而是被生活的。你会看到一个小男孩骑着自行车，叮铃铃地穿过一栋可能有五百年历史的拱门；你会看到一对老夫妇，就坐在他们家族传了好几代的木骨架房子门口，分享着一盒冰淇淋。时间在这里呈现出一种奇妙的弹性，既厚重得能触摸到每一根发黑的木梁，又轻盈得像河面上掠过的飞鸟。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个人人追逐新奇与刺激的时代，汉明登提供了一种截然相反的治愈力——它让你安心于“不变”的美好。它不试图用炫目的科技或前卫的艺术来吸引你，它只是安然地在那里，像一位智慧而温和的长者，向你展示着一种延续了数百年的、与河流共生的生活方式。这种宁静的恒定感，在当今快节奏的世界里，几乎成了一种奢侈品。所以，如果你厌倦了那些充斥着打卡人潮的热门景点，如果你渴望一次能真正走进历史纹理深处、并听到自己心跳声的旅行，那么，请一定来汉明登。它可能不会让你热血沸腾，但一定会让你那颗在都市中奔波劳碌的心，慢慢地、彻底地柔软和沉静下来。这是一趟回到时间源头的旅程，也是一次对自己内心的温柔探访。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/bad-harzburg" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴德哈尔茨堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bad Harzburg</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/schwabisch-hall" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施瓦本哈尔古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Schwäbisch Hall</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/weimar-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    魏
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">魏玛老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Weimar Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

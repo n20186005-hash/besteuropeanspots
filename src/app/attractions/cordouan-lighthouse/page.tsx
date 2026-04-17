@@ -1,0 +1,228 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科尔多昂灯塔 Cordouan Lighthouse｜海中的“灯塔之王”，四百年的孤独与辉煌 - 最佳欧洲景点',
+  description: '当小船的马达声被无边的海风吞没，陆地缩成一条模糊的灰线时，你才能真正理解“孤独”二字的重量。然后，它就在那里——科尔多昂，像一枚被海神遗忘在茶几上的华丽印章，突兀而骄傲地盖在吉伦特河口那片翻涌的墨蓝色信笺上。第一眼看见它，你很难相信这是一座灯塔。没有红白条纹的工业感，那是由浅色石材层层垒起的、带着拱...',
+}
+
+export default function CordouanLighthousePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '科尔多昂灯塔', href: '/attractions/cordouan-lighthouse' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`科尔多昂灯塔・Cordouan Lighthouse・法国・吉伦特河口（近韦尔东/鲁瓦扬）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当小船的马达声被无边的海风吞没，陆地缩成一条模糊的灰线时，你才能真正理解“孤独”二字的重量。然后，它就在那里——科尔多昂，像一枚被海神遗忘在茶几上的华丽印章，突兀而骄傲地盖在吉伦特河口那片翻涌的墨蓝色信笺上。第一眼看见它，你很难相信这是一座灯塔。没有红白条纹的工业感，那是由浅色石材层层垒起的、带着拱窗、柱廊和雕塑的塔楼，顶着一盏小小的灯室，更像是一座被放错了位置的迷你城堡，或是一个关于海洋的、极其固执的梦。
+随着船体颠簸着靠近，细节在咸湿的空气里变得清晰。你能闻到海藻、盐粒和被阳光晒暖的石头气味。海浪拍打基座的声音空洞而巨大，像巨人的心跳。攀登那潮湿的码头台阶，推开厚重的橡木门，外面的世界瞬间被隔绝。内部是另一个宇宙：黑白大理石棋盘格地板冷冽光滑，穹顶上绘制着褪色但依然优雅的壁画，描绘着法兰西的百合花纹章和海神。阳光透过高处的玻璃窗，切割出一道道充满灰尘的光柱，你能听到自己的呼吸和脚步声在圆形的墙壁间回荡。这里没有游客的喧嚣，只有两位灯塔守护人（他们是最后的“国王”）和永恒的海浪声作伴。
+这座灯塔的核心魅力，远不止于建筑之美。它是一种存在的悖论：极致的孤独与极致的宏伟共存，绝对的实用主义与过剩的艺术浪漫并肩。它不在山顶，不在崖边，而是孤悬于大海中央的沙洲上，每一次涨潮都是一次短暂的与世隔绝。四百年来，它的灯光穿透风暴与迷雾，指引了无数船只，而它自己，就像一位永不退休的哨兵，见证了航海的黄金时代、战争的炮火与和平的黎明。在这里，人类用石头、玻璃和火焰向自然发出的，不仅是一份安全通告，更是一份充满尊严与美感的宣言。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当小船的马达声被无边的海风吞没，陆地缩成一条模糊的灰线时，你才能真正理解“孤独”二字的重量。然后，它就在那里——科尔多昂，像一枚被海神遗忘在茶几上的华丽印章，突兀而骄傲地盖在吉伦特河口那片翻涌的墨蓝色信笺上。第一眼看见它，你很难相信这是一座灯塔。没有红白条纹的工业感，那是由浅色石材层层垒起的、带着拱窗、柱廊和雕塑的塔楼，顶着一盏小小的灯室，更像是一座被放错了位置的迷你城堡，或是一个关于海洋的、极其固执的梦。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`随着船体颠簸着靠近，细节在咸湿的空气里变得清晰。你能闻到海藻、盐粒和被阳光晒暖的石头气味。海浪拍打基座的声音空洞而巨大，像巨人的心跳。攀登那潮湿的码头台阶，推开厚重的橡木门，外面的世界瞬间被隔绝。内部是另一个宇宙：黑白大理石棋盘格地板冷冽光滑，穹顶上绘制着褪色但依然优雅的壁画，描绘着法兰西的百合花纹章和海神。阳光透过高处的玻璃窗，切割出一道道充满灰尘的光柱，你能听到自己的呼吸和脚步声在圆形的墙壁间回荡。这里没有游客的喧嚣，只有两位灯塔守护人（他们是最后的“国王”）和永恒的海浪声作伴。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座灯塔的核心魅力，远不止于建筑之美。它是一种存在的悖论：极致的孤独与极致的宏伟共存，绝对的实用主义与过剩的艺术浪漫并肩。它不在山顶，不在崖边，而是孤悬于大海中央的沙洲上，每一次涨潮都是一次短暂的与世隔绝。四百年来，它的灯光穿透风暴与迷雾，指引了无数船只，而它自己，就像一位永不退休的哨兵，见证了航海的黄金时代、战争的炮火与和平的黎明。在这里，人类用石头、玻璃和火焰向自然发出的，不仅是一份安全通告，更是一份充满尊严与美感的宣言。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`科尔多昂灯塔`} />
+                <InfoRow label="英文名称" value={`Cordouan Lighthouse`} />
+                <InfoRow label="正式名称" value={`Cordouan Lighthouse`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`吉伦特河口（近韦尔东/鲁瓦扬）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`世界上最后一座仍在有人居住和运营的、被列入联合国教科文组织世界遗产的灯塔。`} />
+                <InfoRow label="建筑特色" value={`一座融合了文艺复兴时期宫殿、教堂与堡垒元素的“海上凡尔赛宫”。`} />
+                <InfoRow label="建筑风格" value={`文艺复兴风格与古典主义风格的非凡融合，被称为“灯塔中的国王”。`} />
+                <InfoRow label="文化价值" value={`不仅是航海安全的守护者，更是法国王室雄心、工程奇迹与人类对抗海洋孤独精神的活化石。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`每年4月至10月对公众开放，具体参观时间严格取决于潮汐和海况。通常每天有1-3班导览船从韦尔东或鲁瓦扬港口出发，冬季（11月至3月）仅周末和节假日有极少量船班，且可能因天气取消。务必提前在官网或当地旅游中心查询并预订当月的潮汐时间表与船期。`} />
+              <InfoRow label="门票价格" value={`成人票约18欧元，包含往返船票和灯塔导览参观。6-17岁青少年约12欧元，6岁以下儿童免费。家庭套票（2大2小）约48欧元。门票需提前在线预订，现场几乎无法购票。持有波尔多城市通票或法国国家古迹通行证可享受少量折扣。`} />
+              <InfoRow label="地址" value={`Phare de Cordouan, 吉伦特河口， GPS坐标：45°35'11"N 1°10'24"W， 邮编：33123 （此邮编为参考港口地址）`} />
+              <InfoRow label="交通方式" value={`从波尔多圣让火车站出发，乘坐前往鲁瓦扬或韦尔东的区域列车（TER），车程约1-1.5小时，班次每小时1-2班。从波尔多机场可先乘巴士至火车站。抵达鲁瓦扬或韦尔东后，需步行或打车至指定的游客港口（通常在旅游中心旁），换乘专门的导览船。航程约30-45分钟，海上颠簸，建议提前服用晕船药。所有交通环节（火车+船）必须预留至少半天衔接时间。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从一片被称为“黑马”的险恶沙洲说起。早在中世纪，吉伦特河口就是进出波尔多葡萄酒港的咽喉要道，但这里暗流汹涌，沙洲变幻莫测，沉船无数。14世纪，英格兰国王爱德华三世的儿子——“黑太子”爱德华，首先下令在这里堆砌了一个简陋的石堆，上面燃烧木炭作为标记，这可算是科尔多昂最早的前身。但一个石头火堆，在狂暴的大西洋面前，就像一根火柴般脆弱。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的传奇始于1584年。那是文艺复兴的思潮席卷欧洲的时代，航海大发现让王国充满野心。波尔多的葡萄酒商人受够了损失，他们请求国王亨利三世建造一座真正的灯塔。而国王的牧师，一位名叫路易·德·富瓦的贵族兼工程师，接下了这个看似不可能的任务。他不仅仅想建一个导航工具，他想在海的中心，为国王建造一座彰显王权与文明丰碑。你可以想象他面对巨浪和流沙时的疯狂与雄心。工程耗费了27年，直到路易十三时期才完工。他们先在沙洲上打下巨大的木桩基础，从远处运来每块重达数吨的石灰岩。德·富瓦的设计大胆之极：底层是坚固的堡垒，用于储藏物资和抵御海盗；中间是给灯塔工人和访客的豪华公寓，装饰着大理石和雕塑；顶部才是灯室。最初，他们燃烧的是鲸油，那烟雾缭绕的光芒，是人类在海上点亮的第一盏“文明之灯”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，海洋的考验从未停止。18世纪，灯塔的基础被海浪严重侵蚀，面临倒塌风险。另一位天才工程师约瑟夫·泰雷尔被召来拯救它。他的方案是，在原有灯塔外围，包裹上一个巨大的锥形石质“裙子”，作为防波堤和加固外壳。这个工程同样艰难，工人们像蚂蚁一样在潮汐的间隙里工作。正是泰雷尔的这次改造，赋予了科尔多昂今天我们看到的下部粗壮、线条倾斜的独特轮廓。灯源也在进化，从鲸油到煤油，再到1896年用上了当时最先进的电石气体灯，光程达到了前所未有的40公里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`灯塔在两次世界大战中都是战略要地。二战时，为了防止被德军利用作为导航，法国人自己熄灭了灯光，并在内部进行了部分破坏。但它奇迹般地躲过了彻底的毁坏。战后，它被迅速修复，并在20世纪末实现了自动化。但最动人的是，自动化的到来并没有让“守护人”消失。今天，仍有两位灯塔管理员轮流驻守，每班15天，维护设备，接待访客，延续着那份古老的孤独传统。2010年，它被评为法国历史古迹，2021年，它终于获得了世界的最高认可——联合国教科文组织世界遗产。这不仅仅是对一座建筑的加冕，更是对那一代代敢于在怒海中建造宫殿的疯子、工匠和守护者们的最高敬意。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`这是一次完全受自然节律（潮汐）控制的朝圣之旅，计划至关重要。建议选择夏季一个晴朗的工作日上午，提前一天抵达韦尔东或鲁瓦扬住下。务必预订最早一班出海的船（通常是上午9点左右），这样你可以在人最少、光线最柔和的时刻登塔，并有充足时间沉浸其中。整个体验从登船开始到返回港口，大约需要4-5小时，其中在灯塔上的时间约为2小时。节奏应该是缓慢的、带着敬畏的。前半段用于外部观察和攀登，感受其宏伟；后半段用于内部细品和聆听守护人的故事，感受其灵魂。中午返回港口后，正好可以享用一顿海鲜午餐，回味海上的经历。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`绝对要提前查好潮汐并预订船票，空降99%会扑空。灯塔内楼梯陡峭且光滑，务必穿防滑、跟脚的鞋子，裙装和高跟鞋是灾难。海上天气多变，即使夏天也带一件防风防水外套，同时做好防晒。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从韦尔东港口搭乘那班唯一的木质小艇，感受海风逐渐带走陆地的喧嚣，眼睛紧紧锁住远方海平线上那个逐渐清晰的小白点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在摇晃的甲板上迎接第一次震撼：看着灯塔从“一个小点”渐渐长成巍峨的巨人，看清它脚下拍碎的白色浪花和环绕的墨色礁石。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`踏上海中码头，触摸那被盐分和海风蚀刻了四个世纪的冰凉石墙，然后仰望头顶那扇仿佛通往天国的大门。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开厚重的橡木门，瞬间踏入黑白大理石交错的“国王大厅”，让眼睛适应室内昏暗的光线和无处不在的精致雕刻。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着旋转的石阶向上，在“礼拜堂”层停下来，看看那精美的拱顶和壁龛，想象当年水手们在此祈祷平安的虔诚。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`继续攀登至守护人的起居室，看看这个现代与古老交织的蜗居，听听现任守护人讲述昨晚风暴中的值守故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`手脚并用地攀上最后一段陡峭的金属梯，冲进灯室，被巨大的菲涅耳透镜的晶莹剔透和360度的无敌海景瞬间征服。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，站在顶层环绕的回廊上，扶着冰冷的石栏，看万顷碧波在脚下铺展，感受一种成为世界中心的、令人眩晕的孤独与自由。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`船上全景侧拍`}</h4>
+                  <p className="text-sm text-gray-700">{`去程船靠近至约500米时，使用长焦镜头，将灯塔置于画面一侧，另一侧留出波澜起伏的海面，能拍出它的孤傲与环境的壮阔。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“国王大厅”穹顶仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`进入灯塔内部后，将相机放在棋盘格地板上仰拍穹顶，利用广角镜头捕捉建筑结构的纵深感和对称之美，最佳光线是正午阳光从天窗直射而入时。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`灯室透镜特写`}</h4>
+                  <p className="text-sm text-gray-700">{`在灯室内，等待一缕阳光穿透玻璃窗，照射在巨大的菲涅耳透镜上，捕捉那晶莹剔透如水晶艺术品般的光影折射与内部铜质结构的细节。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`黄昏返航时的海上剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`回程船上，当夕阳将天空染成橙紫色，以灯塔渐渐远去的黑色剪影为主体，拍摄它最后守护着渐暗海天的悲壮与浪漫画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`室内光线非常暗，建议使用大光圈镜头或提高ISO，三脚架通常不允许在参观时使用。注意保护设备免受海风盐雾侵蚀，最好准备塑料袋随时包裹。无人机飞行在灯塔附近是严格禁止的，以保护鸟类和遵守航空法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`港口时光`}</h4>
+                  <p className="text-sm text-blue-800">{`住在韦尔东港口边上的家庭式小旅馆，早晨被渔船的引擎声和海鸥叫声唤醒，推开窗就能看到你将要登船的那个码头。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`海滨优雅`}</h4>
+                  <p className="text-sm text-green-800">{`选择鲁瓦扬海滨大道上的精品酒店，拥有一个能看到大西洋的阳台，在出发前和归来后都能尽情享受法式海滨度假的悠闲情调。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园栖息`}</h4>
+                  <p className="text-sm text-yellow-800">{`租一辆车，住在吉伦特省腹地梅多克葡萄园中的一间古老石屋民宿，白天去海上探访灯塔，晚上在葡萄藤的环绕下品尝当地葡萄酒，对比陆与海的双重馈赠。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`守护者同款体验`}</h4>
+                  <p className="text-sm text-purple-800">{`在附近小镇寻找由老船长房子改造的民宿，房间里有航海地图、旧舵轮装饰，让你从始至终沉浸在海事氛围里。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`韦尔东更小更安静，离灯塔出发点更近；鲁瓦扬是更大的海滨度假城，餐饮购物选择丰富。该区域治安极好，但夏季房源紧张，务必提前数月预订。如果追求极致体验，可以查询灯塔协会偶尔组织的“在灯塔过夜”特别活动，但那需要极大的运气和提前规划。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开科尔多昂很久以后，那幅画面依然清晰：你在茫茫大海中央，站在一座石头岛的顶端，脚下是咆哮的深渊，头顶是无垠的苍穹。那一刻，你剥离了所有社会身份，只是一个单纯的存在，面对自然最原始的力量。这座灯塔教会你的，不是征服，而是如何与孤独和宏大共处。它用四百年的屹立告诉你，美与坚韧可以诞生在最荒芜、最严酷的环境里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在一切都追求效率、虚拟连接比物理存在更频繁的今天，科尔多昂是一种必要的“反动”。它要求你付出时间、忍受颠簸、遵循潮汐，才能获得觐见的资格。它不提供便利，只提供启示。它提醒我们，人类文明史上那些最闪耀的坐标，往往是由最笨拙的石头、最执拗的匠心，和最漫长的守望点亮的。对于每一位深度旅行者而言，来到这里，不仅仅是为了看一座古老的建筑，更是为了完成一次心灵的校准——在世界的尽头，确认自己内心是否也有一座可以抵御风浪、散发微光的灯塔。这，便是你必须来的理由。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/chateau-de-josselin-brittany" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    若
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">若瑟兰城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Josselin</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beziers-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝兹道城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Béziers Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/dinan-medieval-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迪
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迪南中世纪古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dinan</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

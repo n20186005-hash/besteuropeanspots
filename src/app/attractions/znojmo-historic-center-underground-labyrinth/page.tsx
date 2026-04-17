@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '兹诺伊莫 Znojmo｜漫步摩拉维亚酒乡，探秘中世纪地下城与绝美河谷 - 最佳欧洲景点',
+  description: '火车缓缓驶近兹诺伊莫，第一眼看到的不是尖塔，而是一道壮观的、绵延在石灰岩山脊上的古城墙剪影，墙下是翡翠般蜿蜒的迪耶河。走出小小的火车站，空气中已经飘着一丝清甜的气息——那是混合了河边青草、老房子石墙的湿气，还有从无数地窖门缝里钻出来的、陈年葡萄酒桶的木头与酒香。这里不像布拉格那样人声鼎沸，时间流速仿...',
+}
+
+export default function ZnojmoHistoricCenterUndergroundLabyrinthPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '兹诺伊莫', href: '/attractions/znojmo-historic-center-underground-labyrinth' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`兹诺伊莫・Znojmo・捷克・兹诺伊莫，南摩拉维亚州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`火车缓缓驶近兹诺伊莫，第一眼看到的不是尖塔，而是一道壮观的、绵延在石灰岩山脊上的古城墙剪影，墙下是翡翠般蜿蜒的迪耶河。走出小小的火车站，空气中已经飘着一丝清甜的气息——那是混合了河边青草、老房子石墙的湿气，还有从无数地窖门缝里钻出来的、陈年葡萄酒桶的木头与酒香。这里不像布拉格那样人声鼎沸，时间流速仿佛自动调慢了一半。老人们坐在广场长椅上晒太阳，手里的咖啡杯冒着袅袅热气。
+沿着缓坡走向老城中心，脚下的石板路被几个世纪的脚步磨得光滑发亮。兹诺伊莫的魅力是分层的。最上面一层是生活：广场上周末的市集摆满了当地农妇的腌黄瓜、罂粟籽蛋糕和一束束新鲜的香草。第二层是艺术：墙上偶尔出现的褪色壁画，巴洛克教堂里金光闪闪的祭坛，还有街头艺人拉着手风琴的悠扬曲调。但最勾人心魄的，是它的第三层——那看不见的、埋藏在地底下的世界。当你站在市政厅塔楼下，几乎能感觉到脚下那片巨大的虚空，那是另一个倒置的城市，沉默、凉爽、充满秘密。
+真正让人心头一颤的时刻，是当你跟着向导，推开一扇不起眼的木门，沿着狭窄的旋转石阶向下，温度骤然下降，光线变得幽暗。地下迷宫的气味扑面而来：那是冰冷的石头、永恒的潮土，以及一丝若有若无的、几个世纪前储存过的葡萄酒和食物的遥远回响。手电的光束划过粗糙的岩壁，照亮几百年前矿工留下的镐痕，你会瞬间明白，这座城市的灵魂不仅存在于阳光下的广场，更深深扎根于这片黑暗而坚固的大地之中。这里的人们，历史上不仅在地上生活，更在地下劳作、避难、储存财富，这种与土地近乎共生的关系，塑造了兹诺伊莫独特而坚韧的气质。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`火车缓缓驶近兹诺伊莫，第一眼看到的不是尖塔，而是一道壮观的、绵延在石灰岩山脊上的古城墙剪影，墙下是翡翠般蜿蜒的迪耶河。走出小小的火车站，空气中已经飘着一丝清甜的气息——那是混合了河边青草、老房子石墙的湿气，还有从无数地窖门缝里钻出来的、陈年葡萄酒桶的木头与酒香。这里不像布拉格那样人声鼎沸，时间流速仿佛自动调慢了一半。老人们坐在广场长椅上晒太阳，手里的咖啡杯冒着袅袅热气。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`沿着缓坡走向老城中心，脚下的石板路被几个世纪的脚步磨得光滑发亮。兹诺伊莫的魅力是分层的。最上面一层是生活：广场上周末的市集摆满了当地农妇的腌黄瓜、罂粟籽蛋糕和一束束新鲜的香草。第二层是艺术：墙上偶尔出现的褪色壁画，巴洛克教堂里金光闪闪的祭坛，还有街头艺人拉着手风琴的悠扬曲调。但最勾人心魄的，是它的第三层——那看不见的、埋藏在地底下的世界。当你站在市政厅塔楼下，几乎能感觉到脚下那片巨大的虚空，那是另一个倒置的城市，沉默、凉爽、充满秘密。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正让人心头一颤的时刻，是当你跟着向导，推开一扇不起眼的木门，沿着狭窄的旋转石阶向下，温度骤然下降，光线变得幽暗。地下迷宫的气味扑面而来：那是冰冷的石头、永恒的潮土，以及一丝若有若无的、几个世纪前储存过的葡萄酒和食物的遥远回响。手电的光束划过粗糙的岩壁，照亮几百年前矿工留下的镐痕，你会瞬间明白，这座城市的灵魂不仅存在于阳光下的广场，更深深扎根于这片黑暗而坚固的大地之中。这里的人们，历史上不仅在地上生活，更在地下劳作、避难、储存财富，这种与土地近乎共生的关系，塑造了兹诺伊莫独特而坚韧的气质。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`兹诺伊莫`} />
+                <InfoRow label="英文名称" value={`Znojmo`} />
+                <InfoRow label="正式名称" value={`Historic Centre of Znojmo`} />
+                <InfoRow label="国家" value={`捷克`} />
+                <InfoRow label="城市" value={`兹诺伊莫，南摩拉维亚州`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`捷克南部摩拉维亚地区历史上最重要的战略要塞与葡萄酒贸易中心之一，其庞大的地下迷宫是中世纪市民智慧与生存意志的非凡见证。`} />
+                <InfoRow label="建筑特色" value={`地上是错落有致的巴洛克与哥特式建筑群，俯瞰着深邃的迪耶河谷；地下则是绵延近30公里、层叠数层的迷宫式隧道与地窖网络。`} />
+                <InfoRow label="建筑风格" value={`地上建筑以哥特式（圣尼古拉斯教堂塔楼）与绚丽的巴洛克立面为主，地下迷宫则体现纯粹功能性的中世纪民用工程风格。`} />
+                <InfoRow label="文化价值" value={`一个将防御工事、葡萄酒酿造储藏与日常生活完美融合的立体城市标本，展现了摩拉维亚地区深厚悠久的葡萄种植文化和坚韧不拔的民间生命力。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`历史城区街道与广场全天开放。主要景点开放时间：地下迷宫导览游每日上午9点至下午5点开放，每小时有导览团出发（冬季11月至3月开放时间缩短，且部分日期关闭，行前务必官网确认）。圣尼古拉斯教堂塔楼开放时间为4月至10月，每天上午10点至下午6点。兹诺伊莫城堡及地区博物馆开放时间为周二至周日上午9点至下午5点，周一闭馆。圣诞节及新年假期部分景点不开放。`} />
+              <InfoRow label="门票价格" value={`地下迷宫标准成人票为200捷克克朗，学生及老人优惠票150克朗。圣尼古拉斯教堂塔楼门票为100克朗。兹诺伊莫城堡与地区博物馆联票为180克朗。建议购买“兹诺伊莫卡”，可在旅游局购买，包含地下迷宫、城堡博物馆、塔楼及多次公共交通，价格为350克朗，非常划算。`} />
+              <InfoRow label="地址" value={`Tourist Information Centre Znojmo, Obroková 10, 669 02 Znojmo, Czech Republic`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是维也纳机场（VIE）或布尔诺机场（BRQ）。从维也纳机场出发，最便捷的方式是乘坐机场巴士或火车前往布尔诺中央火车站（Brno hl.n.），耗时约1.5小时。从布尔诺中央火车站，乘坐前往兹诺伊莫的直达区域性火车（捷克铁路ČD运营），班次频繁，约每小时一班，车程约1小时。火车沿途穿越摩拉维亚乡村，风景如画。抵达兹诺伊莫火车站后，步行约15-20分钟即可轻松到达历史老城中心。建议购买捷克铁路的电子票，方便快捷。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`兹诺伊莫的故事始于一座城堡。早在10世纪，强大的普热米斯尔王朝就在迪耶河上方的陡峭山崖上建造了堡垒，用以守护摩拉维亚南部边境，并控制通往奥地利的商路。这座城堡成了城市的种子。但让兹诺伊莫真正繁荣起来的，不是战争，而是一种美妙的植物——葡萄。得益于南摩拉利亚独特的土壤和充足日照，这里的葡萄种植传统源远流长。到了11世纪，兹诺伊莫已经成为重要的葡萄酒贸易中心，商队将珍贵的酒液运往波希米亚乃至更远的王国。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`1226年，国王普热米斯尔·奥托卡一世授予兹诺伊莫城市权利，城市开始在地面上蓬勃发展，宏伟的圣尼古拉斯教堂开始兴建。然而，真正的城市奇迹发生在地下。从13世纪起，市民们开始在柔软的砂岩层中挖掘地窖，最初只是为了储存葡萄酒——地窖恒温恒湿的条件是天然的完美酒窖。但很快，这些地窖的功能发生了扩展。在动荡的中世纪，外敌入侵的威胁如同达摩克利斯之剑。市民们决定将地窖连通，形成一个错综复杂的防御和避难系统。他们秘密地挖掘，一代接一代，隧道不断延伸，最终形成了一个深达四层、拥有数百个房间、水井、通风口的庞大迷宫。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这个地下网络在胡斯战争等冲突中拯救了无数生命。当敌人兵临城下，整个城市的居民可以带着粮食和牲畜转入地下，通过隐秘的出口转移到河谷安全地带。到了17世纪，三十年战争和瘟疫肆虐时期，地下迷宫又成了隔离病房和储存紧缺物资的宝库。你可以想象，在摇曳的烛光下，妇女儿童挤在狭窄的甬道里，听着头顶隐约传来的马蹄声，靠着一口深井的水和储藏的腌肉度过漫长日夜。这些隧道不是由某位国王下令修建的，而是普通市民为了生存，用双手一镐一镐创造的生命奇迹。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`18世纪，随着巴洛克艺术的盛行，地上的兹诺伊莫披上了华丽的新装。许多中世纪房屋被赋予了华丽的石膏立面，圣米库拉什教堂的塔楼高高耸立，成为城市的新地标。但地下迷宫逐渐被遗忘，许多入口被掩埋，变成了传说。直到20世纪中期，一次市政施工偶然敲开了一段被封堵的墙壁，这个沉睡数百年的地下世界才重见天日。经过漫长而小心的考古发掘和加固，如今我们才有幸能踏入其中，触摸那些冰凉的、印着历史指纹的岩壁。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味兹诺伊莫，你需要完整的一天时间，并准备好进行一场从地上到地下的立体探险。建议在上午9点左右抵达老城，这时游客尚少，晨光柔和，最适合探索地面建筑。先用2-3小时漫步老城街道，感受城市的苏醒，并登上塔楼俯瞰全景。午餐后，参加下午1点或2点的地下迷宫导览团（强烈建议提前在线预订），这是全天的高潮，在地下阴凉的环境中度过约1.5小时。之后返回地面，沿着迪耶河岸散步，让眼睛重新适应阳光，并参观河谷边的瞭望点。傍晚时分，找一家地窖餐厅享用晚餐，用一杯本地的茨威格或蓝弗朗克葡萄酒为这一天画上完美句号。这样的安排张弛有度，让你能充分体验这座“双层城市”的两种性格。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`地下迷宫导览团非常热门，尤其在夏季，务必提前在兹诺伊莫旅游局官网预订，避免现场排队失望而归。参观地下迷宫时务必穿一双舒适且防滑的鞋子，部分通道陡峭湿滑，且需要弯腰通过低矮处。在餐厅点葡萄酒时，大胆询问服务员是否有本地产的“Znovín Znojmo”或附近小酒庄的瓶装酒，这比常见的商业品牌更有风味。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从兹诺伊莫火车站出发，沿着绿树成荫的Masarykova大街缓步上行，感受这座小山城逐渐在眼前展开的宁静氛围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先抵达巨大的霍尼广场（Horní náměstí），绕着那座拥有华丽巴洛克雕塑的瘟疫柱走一圈，然后仰望高耸的市政厅塔楼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进广场一侧的圣尼古拉斯教堂，让眼睛适应内部的昏暗，然后鼓足勇气攀爬那多达176级的狭窄螺旋石阶，只为抵达塔顶那个能将红瓦屋顶、蜿蜒河流与无垠葡萄园尽收眼底的震撼观景台。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在广场旁的传统咖啡馆“U Svatého”点一杯浓郁的摩拉维亚咖啡，配一块罂粟籽馅的“马科维”（Makový）蛋糕，看着本地人的生活节奏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随向导从市政厅地下入口进入迷宫，在手电筒的光束中弯腰穿过低矮的通道，触摸千年岩壁，并在最深处体验向导关掉所有光源时那绝对、纯粹的黑暗与寂静。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从地下重返人间后，沿着古城墙遗迹散步，从“猫径”小径下到迪耶河岸，从河谷底部仰视城市屹立于山崖之上的雄姿。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走过横跨迪耶河的古老石桥，来到对岸的格朗什特茨（Gránské）街区，爬上另一处观景台，等待夕阳为对岸的老城建筑群镀上金边。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐必须选择一家真正由古老地窖改建的餐厅，比如“Lahůdky Znojmo”，在拱形石顶下品尝摩拉维亚炖牛肉，并让侍酒师为你推荐一款本地小酒庄的当季葡萄酒。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣尼古拉斯教堂塔楼顶端`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一个小时，利用长焦镜头压缩远景，将 foreground 的红瓦屋顶、中景的迪耶河湾与远景无垠的葡萄园和森林一同纳入画面，营造极致的层次感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`地下迷宫入口通道`}</h4>
+                  <p className="text-sm text-gray-700">{`参加导览时，在得到向导允许后，于队伍最后方用高感光度设定，拍摄前方一行人手持烛光或手电、身影没入隧道黑暗深处的背影，极具故事感和神秘氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`迪耶河岸仰视角`}</h4>
+                  <p className="text-sm text-gray-700">{`从河岸步行小径上，使用广角镜头仰拍整个老城建筑群雄踞于石灰岩悬崖之上的全景，最好能捕捉到圣尼古拉斯教堂塔楼作为视觉焦点，天空有流云时效果更佳。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`霍尼广场瘟疫柱旁`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点左右的侧光，以巴洛克雕塑精美的细节为前景，虚化后方色彩柔和的古典建筑立面，展现地上兹诺伊莫的华丽与宁静。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城外葡萄园小径`}</h4>
+                  <p className="text-sm text-gray-700">{`租一辆自行车骑行到城市南侧的葡萄园中，傍晚时分，以一排排整齐的葡萄藤为引导线，拍摄远处兹诺伊莫城市天际线的剪影，寓意酒乡与古城的共生关系。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在地下迷宫内严禁使用闪光灯，这不仅会破坏幽暗的历史氛围，强光也可能对古老的岩壁造成影响，请务必使用大光圈和高ISO进行手持拍摄。拍摄当地人尤其是市场摊主时，请先微笑并礼貌询问，获得同意后再拍摄，尊重他们的肖像权。摩拉维亚的光线在清晨和黄昏时分格外柔和，带有金色或粉色的色调，是拍摄城市风光和人像的绝佳时机，请善用这两个“黄金时刻”。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-blue-800">{`入住由16世纪文艺复兴风格房屋改造的精品酒店“U Divadla”，房间拥有古老的木梁天花板，部分房间还保留了原始的拱形石墙，位置就在剧院旁，夜静时分能听到远处教堂的钟声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-green-800">{`选择河畔的“Laurin”设计酒店，现代舒适的客房拥有巨大的落地窗，正对迪耶河谷和古城全景，酒店内的水疗中心采用本地葡萄酒提取物进行护理，让你从内到外感受酒乡魅力。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`老城中心广场附近由家庭经营的“Penzion U Hroznu”，房间整洁温馨，房东太太会为你准备丰盛的摩拉维亚式早餐，包括自制的果酱和新鲜面包，并热情地给你讲述城市掌故。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`沉浸自然`}</h4>
+                  <p className="text-sm text-purple-800">{`住在城外几公里处一家真正的葡萄园农庄，清晨在乌鸫的叫声中醒来，推开窗便是漫山遍野的葡萄藤，主人会邀请你参与简单的农活，并在傍晚带你品尝他家地窖里珍藏的私酿。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`兹诺伊莫夏季（7-8月）旅游旺季和九月葡萄收获节期间住宿非常紧张，价格也会上涨，建议至少提前两个月预订。许多老城中心的酒店和历史建筑改造的住宿没有电梯，如果携带大件行李或行动不便，预订前务必确认。如果想深度体验葡萄酒文化，可以考虑以兹诺伊莫为基地，租车探索周边如米库洛夫（Mikulov）等更小众的葡萄酒村庄，那里的住宿更具田园风情。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开兹诺伊莫好几天，我的脚底似乎还记得那些地下迷宫凹凸不平的石阶，鼻腔里仿佛还萦绕着那种混合了酒香与土腥的、属于大地深处的气味。这座城市给我的，不仅仅是一天的观光记忆，而是一种关于“层叠”的深刻启示。我们习惯于生活在一个平面的、只关注眼前的世界，但兹诺伊莫却生动地告诉我们，历史、生活、乃至生存的智慧，是垂直分布的。地上是繁华与艺术，地下是坚韧与储藏；地上享受阳光与美酒，地下则预备着黑暗与未知。这种立体性，让这座城市显得无比真实和厚重。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求速度、表面光鲜的快节奏世界里，兹诺伊莫就像一个沉静的智者。它不慌不忙，把自己的根基深深扎入岩石，把最珍贵的财富（无论是葡萄酒还是历史）窖藏于时间深处。它提醒每一位来访者：真正的丰盛，需要向下挖掘，需要时间的沉淀，需要与土地建立起深刻的连接。如果你厌倦了浮光掠影的打卡，渴望一场能触动心灵、唤醒所有感官的旅行，那么，请来兹诺伊莫。在这里，你将用脚步丈量一座城市的双重维度，并在那一杯醇厚的摩拉维亚红酒中，品出阳光、风雨、以及人类面对岁月磨砺时，那份绵长而甘醇的韧性。这不仅仅是一次旅行，更是一次对“深度”的重新发现。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/olomouc" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥洛穆茨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Olomouc</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/olomouc-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥洛穆茨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Olomouc Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/loket-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    洛
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">洛克特城堡（波西米亚的钥匙）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Loket Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

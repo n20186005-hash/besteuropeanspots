@@ -1,0 +1,240 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '蓬费拉达圣殿骑士城堡 Castillo de los Templarios｜朝圣之路上的巨石堡垒，触摸圣殿骑士团的传奇心跳 - 最佳欧洲景点',
+  description: '第一眼看到它，你可能会不自觉地屏住呼吸。它不像那些精雕细琢的童话宫殿，而是像一头沉睡的巨兽，由无数块泛着金褐色光泽的巨石垒成，沉默而威严地卧在陡峭的山崖上，下方就是蜿蜒流淌的西尔河。走近了，你能闻到一种混合的气味：干燥的尘土、古老的石头在阳光下散发的微热气息，还有从城墙缝隙里钻出来的、不知名野草的清...',
+}
+
+export default function CastilloDeLosTemplariosPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '蓬费拉达圣殿骑士城堡', href: '/attractions/castillo-de-los-templarios' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`蓬费拉达圣殿骑士城堡・Castillo de los Templarios・西班牙・蓬费拉达`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到它，你可能会不自觉地屏住呼吸。它不像那些精雕细琢的童话宫殿，而是像一头沉睡的巨兽，由无数块泛着金褐色光泽的巨石垒成，沉默而威严地卧在陡峭的山崖上，下方就是蜿蜒流淌的西尔河。走近了，你能闻到一种混合的气味：干燥的尘土、古老的石头在阳光下散发的微热气息，还有从城墙缝隙里钻出来的、不知名野草的清新味道。风穿过箭孔和雉堞，发出呜呜的低吟，仿佛在诉说几个世纪前的故事。你脚下的土地，是著名的法国之路——圣地亚哥朝圣之路的必经段，身边时不时有背着巨大行囊、挂着拐杖的现代朝圣者走过，他们的脚步声和登山杖的“嗒嗒”声，与城堡的古老形成了奇妙的时空交响。
+这座城堡在蓬费拉达人心中，远不止一个旅游景点。它是城市的灵魂和地理中心。你总能看到当地的老人在城堡外墙下的长椅上晒太阳，眯着眼看着城墙；孩子们在护城河（如今是公园）边追逐玩耍。夏天的夜晚，城堡庭院里甚至会举办露天音乐会，那时，冰冷的石墙会被温暖的灯光和欢快的弗拉门戈吉他声包裹。它早已从防御的武器，变成了社区生活的背景与容器。
+那么，它最打动人心的是什么？我想，是一种“力量感”的延续。当你抚摸那些被无数代骑士、士兵、朝圣者、居民的手磨得光滑的石墙时，你触摸到的不是死去的历史，而是一种坚韧的生命力。圣殿骑士团消失了，但保护朝圣者、守护信仰与道路的精神，以另一种形式存在于这座石头城堡里，也存在于每一个路过它、仰望它的旅人心中。它不是仅供观赏的标本，而是一个依然在呼吸的历史坐标。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到它，你可能会不自觉地屏住呼吸。它不像那些精雕细琢的童话宫殿，而是像一头沉睡的巨兽，由无数块泛着金褐色光泽的巨石垒成，沉默而威严地卧在陡峭的山崖上，下方就是蜿蜒流淌的西尔河。走近了，你能闻到一种混合的气味：干燥的尘土、古老的石头在阳光下散发的微热气息，还有从城墙缝隙里钻出来的、不知名野草的清新味道。风穿过箭孔和雉堞，发出呜呜的低吟，仿佛在诉说几个世纪前的故事。你脚下的土地，是著名的法国之路——圣地亚哥朝圣之路的必经段，身边时不时有背着巨大行囊、挂着拐杖的现代朝圣者走过，他们的脚步声和登山杖的“嗒嗒”声，与城堡的古老形成了奇妙的时空交响。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座城堡在蓬费拉达人心中，远不止一个旅游景点。它是城市的灵魂和地理中心。你总能看到当地的老人在城堡外墙下的长椅上晒太阳，眯着眼看着城墙；孩子们在护城河（如今是公园）边追逐玩耍。夏天的夜晚，城堡庭院里甚至会举办露天音乐会，那时，冰冷的石墙会被温暖的灯光和欢快的弗拉门戈吉他声包裹。它早已从防御的武器，变成了社区生活的背景与容器。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`那么，它最打动人心的是什么？我想，是一种“力量感”的延续。当你抚摸那些被无数代骑士、士兵、朝圣者、居民的手磨得光滑的石墙时，你触摸到的不是死去的历史，而是一种坚韧的生命力。圣殿骑士团消失了，但保护朝圣者、守护信仰与道路的精神，以另一种形式存在于这座石头城堡里，也存在于每一个路过它、仰望它的旅人心中。它不是仅供观赏的标本，而是一个依然在呼吸的历史坐标。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`蓬费拉达圣殿骑士城堡`} />
+                <InfoRow label="英文名称" value={`Castillo de los Templarios`} />
+                <InfoRow label="正式名称" value={`Castillo de los Templarios`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`蓬费拉达`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座宏伟城堡是西班牙境内保存最完好的圣殿骑士团军事建筑遗产之一，也是圣地亚哥朝圣之路上至关重要的防御与精神堡垒。`} />
+                <InfoRow label="建筑特色" value={`它并非一次性建成，而是由多个时期建筑组成的复合体，兼具罗马式、哥特式及文艺复兴式的特征，最引人注目的是其巨大、近乎完美的多边形城墙与高耸的塔楼。`} />
+                <InfoRow label="建筑风格" value={`以军事防御为主导的罗马式风格为主体，后期融入了哥特式的装饰元素和文艺复兴时期的居住功能改造。`} />
+                <InfoRow label="文化价值" value={`它不仅是中世纪军事建筑的杰出典范，更是理解圣殿骑士团的兴衰、基督教收复失地运动以及圣地亚哥朝圣之路历史文化交织的活化石。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡的开放时间随季节变化，通常夏季（6月至9月）为每天上午10:00至晚上21:00，冬季（11月至次年2月）缩短为上午10:00至下午18:00。春秋两季时间居中，具体请出行前在官网查询。每周一通常闭馆（节假日除外）。注意，内部博物馆及塔楼的最后入场时间比闭馆时间提前一小时。`} />
+              <InfoRow label="门票价格" value={`标准票价为6欧元。65岁以上老人、持学生证者及15人以上团体可享优惠票，价格为4欧元。12岁以下儿童免费入场。每周三下午（通常是15:00后）对欧盟公民免费开放（需出示证件）。门票包含城堡主体、博物馆及塔楼的全线游览。`} />
+              <InfoRow label="地址" value={`Calle del Castillo, s/n, 24400 Ponferrada, León, España`} />
+              <InfoRow label="交通方式" value={`最近的机场是莱昂机场（LE），距离约120公里。从机场可先搭乘巴士到莱昂市中心，再换乘长途巴士或火车前往蓬费拉达。最推荐的方式是从马德里或巴塞罗那乘坐Renfe火车直达蓬费拉达火车站，车程约4-5小时，班次舒适便捷。从蓬费拉达火车站步行至城堡约15-20分钟，全程是平缓的上坡路，沿途会穿过热闹的老城区，本身就是一种享受。如果行李多，火车站门口也有出租车，费用很低。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从12世纪初讲起。那时，基督教王国正努力从摩尔人手中收复伊比利亚半岛的失地，而通往圣地亚哥德孔波斯特拉的朝圣之路变得空前重要，但也危险重重。为了保护和引导越来越多的朝圣者，一位名叫阿方索九世的莱昂国王，做了一个聪明的决定：他将蓬费拉达这片战略要地，赠予了当时如日中天、既神秘又强大的军事修会——圣殿骑士团。那大约是在1178年到1185年之间。骑士团接手的可能是一个更早期的简易堡垒，但他们立刻开始了一项雄心勃勃的工程。他们用巨大的方形石块，建造了今天我们看到的城堡核心部分——那些厚重到令人绝望的城墙和主塔。他们的目的非常纯粹：打造一个坚不可摧的据点，让朝圣者可以在此安全休整，也让这片边疆地区的安全得到保障。你可以想象，当风尘仆仆、疲惫不堪的朝圣者，翻过山丘看到这座雄踞河畔的坚固城堡时，内心会涌起多大的安全感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡的黄金时代随着圣殿骑士团的命运急转直下。1307年，法国国王菲利普四世出于政治和财务目的，开始残酷镇压圣殿骑士团。西班牙的骑士团成员也未能幸免。1312年，教皇正式解散了圣殿骑士团。蓬费拉达城堡顿时失去了主人，陷入了所有权纷争的混乱时期。它先后被莱昂王国和卡斯蒂利亚王国的王室接管，后来又成为一些贵族家族的封地。这段时期，城堡的功能开始转变。新的主人不再仅仅满足于它的军事用途，他们按照自己的品味和生活需求，在骑士团建造的坚实“骨架”上，增添了更多居住性的建筑。文艺复兴式的窗户被开凿出来，华丽的厅堂被装修，城堡从一个纯粹的军营，逐渐向一个兼具防御与舒适性的贵族宅邸演变。它见证了数个家族的兴衰起落。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，平静并未持续太久。19世纪初，拿破仑的军队入侵西班牙，半岛战争爆发。蓬费拉达城堡又一次被推到了历史的前台，成为了抵抗法军的重要据点。可惜的是，当战争结束，法军撤退时，他们采取了焦土政策，对城堡进行了大规模的破坏和劫掠。城堡内部许多珍贵的装饰、档案和家具被付之一炬或洗劫一空。这次重创之后，城堡被废弃了，它沦为一个被遗忘的废墟，城墙渐渐被藤蔓覆盖，庭院里长满了荒草。在近一个世纪的时间里，它就像一位沉睡的巨人，静静地看着山下的城市发展变迁，自己却在风雨中不断衰败。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`转机出现在20世纪。1924年，它被宣布为国家历史艺术纪念物，得到了官方保护。但真正的重生是在20世纪90年代以后。当地政府和文化遗产部门启动了一项漫长而精细的修复工程。考古学家像侦探一样，清理废墟，辨别不同年代的建筑层；建筑师和工匠们则小心翼翼地用传统技艺加固墙壁，修复屋顶。更重要的是，他们为这座古老的躯壳注入了新的灵魂——城堡内部被改造成了一个精彩绝伦的“书籍与朝圣之路博物馆”。如今，当你漫步在修复一新的骑士大厅里，看到的不仅是冷兵器甲胄，还有古老的手抄本、朝圣者的贝壳标识、互动地图，它们无声地讲述着知识、信仰与人类移动的宏大故事。从圣殿骑士的剑，到朝圣者的杖，再到今日游客与学者的目光，这座城堡的使命，在跨越八个世纪后，完成了一次深邃而动人的循环。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`理想的深度游览应该从午后开始，大约下午三点左右抵达。这时，上午的旅行团大多已经离开，而夕阳的金色光线尚未到来，你可以安静地探索城堡内部。整体游览建议留出至少3到4个小时。节奏应该是“先内后外，先下后上”：先进入城堡内部，沉浸在博物馆的历史叙事和建筑空间的震撼中；然后在傍晚时分登上最高的塔楼，迎接一天中最美的光线，俯瞰全城和朝圣之路；最后，在日落时分离开城堡，绕到河对岸或城墙脚下，从外部欣赏它被晚霞染红的全景。这样的安排，既能避开内部最拥挤的时段，又能捕捉到城堡在一天中两个不同光线下的绝美姿态。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`城堡内的石阶又陡又滑，且很多地方没有护栏，务必穿一双绝对防滑、舒适的鞋子，行走时多加小心。
+夏季西班牙午后阳光非常暴烈，城堡内部阴凉但外部平台和城墙毫无遮挡，一定要戴帽子、涂防晒霜并带上充足的水。
+如果想拍摄空无一人的城堡美景，可以考虑在刚开门的一小时或闭馆前两小时进入，这两个时段游客最少。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从正门巨大的盾形徽章下穿过，首先让眼睛适应由明亮转入城堡门洞那深邃、凉爽的昏暗。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在中庭深吸一口气，感受四周巨石高墙带来的压迫与庇护感交织的独特空间氛围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着指示牌逐一探访博物馆的各个展厅，用手轻轻拂过那些展示朝圣者装备的玻璃柜，想象千年前脚步的重量。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要找到并登上被称为“Malvecino”的主塔楼，攀爬狭窄的螺旋石阶时，能清晰听到自己脚步的回声和心跳。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`站在主塔楼顶的垛口边，让视线随着西尔河蜿蜒，寻找那些背着行囊、正向城堡走来的朝圣者小黑点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下塔后，不要错过城堡西侧那些被称为“新宫”的文艺复兴风格房间，对比军事堡垒与贵族生活的气息差异。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前，沿着城墙顶部的步道慢慢走一圈，从不同角度眺望蓬费拉达老城红色的屋顶和远方的群山。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`离开前，坐在内庭院古老的石阶上发一会儿呆，听风声和归巢鸟儿的鸣叫，让历史的余韵慢慢沉淀。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`西尔河对岸的观景台`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，从这里可以拍摄城堡全景及其在水中的倒影，使用长焦镜头压缩空间，能获得城堡与背后城市层次分明的壮丽画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主庭院拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点左右，阳光斜射入庭院，站在通往侧殿的拱门下，以拱门为画框拍摄庭院中心及对面的塔楼，形成强烈的景深和明暗对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`塔楼顶俯瞰朝圣之路`}</h4>
+                  <p className="text-sm text-gray-700">{`登顶后，寻找一个能将城堡自身的雉堞作为前景、远处蜿蜒的乡村道路和渺小朝圣者作为背景的角度，这需要耐心等待和构图，最好在光线柔和的清晨或傍晚。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“新宫”走廊的纵深感`}</h4>
+                  <p className="text-sm text-gray-700">{`利用“新宫”文艺复兴风格长廊两侧规整的石柱和拱券，拍摄极具对称美和引导线效果的内部建筑照片，正午时分室内光线均匀，效果最佳。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城堡外墙的细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`下午的侧光能完美勾勒出巨石砌块的纹理和沧桑感，靠近拍摄某一块布满苔藓或刻有古老标记的石头，讲述时间的颗粒感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在博物馆内部拍摄时，请务必遵守规定，通常禁止使用闪光灯和三脚架，高感光度相机和大光圈镜头在这里是得力助手。`}</li>
+                <li>• {`无人机飞行在城堡上空受到严格管制，通常禁止飞行，请不要冒险尝试，以免被罚款并没收设备。`}</li>
+                <li>• {`拍摄当地朝圣者时，请始终保持尊重，最好先微笑示意或征得同意，捕捉他们自然的状态远胜于突兀的偷拍。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`朝圣者之选`}</h4>
+                  <p className="text-sm text-blue-800">{`就在城堡脚下由古老石屋改建的旅舍，保留了原始的木头横梁，你可以在公共厨房里和来自世界各地的徒步者分享路上的故事。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老城韵味`}</h4>
+                  <p className="text-sm text-green-800">{`位于城堡旁蜿蜒小巷里的精品酒店，房间窗户正对着古老的城墙，晚上枕着石头的宁静入睡，清晨被教堂钟声温柔唤醒。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`葡萄园隐居`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车十分钟即可到达附近山丘上的乡村庄园酒店，住在由农舍改造的舒适房间里，享受无边泳池、本地美食和一览无余的城堡远景。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感体验`}</h4>
+                  <p className="text-sm text-purple-800">{`蓬费拉达市区一家由现代建筑大师设计的酒店，用极简的风格和艺术品对冲历史的厚重，给你一场穿越与回归的时空对话。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城区的住宿虽然氛围绝佳，但街道狭窄，停车位是“奢侈品”，如果自驾前来，务必确认酒店是否提供停车位或附近是否有方便的公共停车场。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（尤其是7-8月）和圣周（复活节）期间是朝圣和旅游的超级旺季，住宿非常紧张且价格飙升，至少提前三个月预订是明智之举。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`蓬费拉达整体治安良好，老城区夜晚也很宁静，但无论住在哪里，保管好个人财物、锁好门窗都是基本的旅行习惯。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开蓬费拉达很久以后，我发现自己最常回忆起的，不是某一块具体的石头或某一段陈列的历史，而是一种感觉。那是一种站在厚实城墙下的渺小感，与同时从心底升起的、奇妙的笃定感交织在一起的情绪。这座城堡用它沉默的巨石语言告诉你：历史是沉重的，信仰的道路是漫长的，但守护与坚持的力量，足以让某种东西穿越阴谋、战火与漫长的遗忘，最终留存下来。在一切都追求快速和轻盈的今天，这种“重量感”反而成了一种稀缺的慰藉。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，每一位热爱深度游的旅人，都该来一次蓬费拉达，不仅仅是把它作为朝圣之路的一个驿站，而是作为一个目的地本身。来这里，不只是看一座城堡，而是去体验一种时间尺度。当你摸着它的墙走过，你走过的可能是圣殿骑士巡逻的路线；当你眺望那条道路，你看到的可能是中世纪朝圣者蹒跚的身影。它教会我们，真正的旅行，不仅仅是空间的移动，更是时间中的漫游和心灵的沉降。在这里，你会明白，有些地方之所以伟大，不是因为它多么华丽，而是因为它像一块磁石，牢牢吸附了几个世纪的故事、梦想和足印，并慷慨地邀请你来，成为这漫长叙事中，短暂而真诚的一个标点。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/bishop-palace-of-astorga" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿斯托加主教宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bishop's Palace of Astorga</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/burg-rheinstein" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莱
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莱茵施泰因城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Burg Rheinstein</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/girona-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    赫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">赫罗纳古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Girona Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

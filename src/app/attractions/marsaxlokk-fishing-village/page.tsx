@@ -1,0 +1,223 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '马尔萨什洛克 Marsaxlokk｜迷失在马耳他最绚烂的彩色渔船港口 - 最佳欧洲景点',
+  description: '说实话，第一眼看到马尔萨什洛克，你会有点恍惚。它和你想象中那种精致如明信片的地中海小镇不太一样。没有陡峭悬崖上的白色房屋，也没有恢弘的巴洛克教堂俯瞰一切。它很“平”，很舒展，像一个毫不设防的拥抱，懒洋洋地摊在湛蓝海湾的臂弯里。你的第一印象绝对是色彩——一种泼洒般的、近乎孩子气的鲜艳。但那色彩不在墙上...',
+}
+
+export default function MarsaxlokkFishingVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '马尔萨什洛克', href: '/attractions/marsaxlokk-fishing-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`马尔萨什洛克・Marsaxlokk・马耳他・东南区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，第一眼看到马尔萨什洛克，你会有点恍惚。它和你想象中那种精致如明信片的地中海小镇不太一样。没有陡峭悬崖上的白色房屋，也没有恢弘的巴洛克教堂俯瞰一切。它很“平”，很舒展，像一个毫不设防的拥抱，懒洋洋地摊在湛蓝海湾的臂弯里。你的第一印象绝对是色彩——一种泼洒般的、近乎孩子气的鲜艳。但那色彩不在墙上，而在海上。数十艘鲁祖渔船（Luzzu）挤挤挨挨地停泊在港口，船身被刷成明黄、宝蓝、翠绿、正红，每一艘的船头两侧都画着一双醒目的“眼睛”，就这么直愣愣地、带着些古老的天真凝视着你。空气里是复杂的交响：海水微咸的腥气，混合着油炸鱼的浓烈香气，不远处露天烧烤架上章鱼滋滋作响，背景音则是渔民们用马耳他语高声谈笑的嗡嗡声，间或夹杂着海鸥不甘示弱的啼叫。
+这里绝非一个仅供观赏的博物馆。清晨，当游客还没涌入，你会看到真正的渔民穿着沾满鱼鳞的胶皮裤，在色彩斑斓的渔船与灰扑扑的石砌码头之间忙碌。他们修补渔网，搬运鱼获，那“荷鲁斯之眼”注视着他们每日的劳作。到了周日，整个港口瞬间变身巨大的露天剧场。鱼市沿着海堤铺开，银光闪闪的 lampuki（马耳他国鱼）、张牙舞爪的八爪鱼、奇形怪状你叫不出名的海产直接摆在冰块上。叫卖声、议价声、刀起刀落声不绝于耳。这不是表演，这是他们一周生计的高潮。你站在这里，脚下是湿漉漉的地面，呼吸着浓烈的海洋生命的气息，突然就明白了，这令人屏息的美丽并非为谁设计，它只是一种生活方式的自然流露——一种需要大海庇护、敬畏神灵、并敢于用最亮的颜色对抗无尽蓝天的生活。
+最动人的，或许是那无处不在的“眼睛”。每一艘鲁祖渔船的船首都绘有这被称为“荷鲁斯之眼”或“马耳他之眼”的符号。当地人告诉我，这传统可以追溯到古老的腓尼基时代，这眼睛是守护之眼，为出海的渔民指引方向、驱邪避祸、保佑丰收。在科技如此发达的今天，GPS早已普及，但这些眼睛依然被精心地描绘、保存。你看着老渔民粗糙的手掌拂过船头崭新的彩绘眼睛，那一刻，你感受到的是一种文化血脉的固执流淌。这里的美，不是静止的油画美，而是一种带着鱼腥味、机油味和信仰气息的动态美，它关乎生存，关乎传承，关乎一个民族与大海之间那份绵延数千年的、既依赖又敬畏的深情。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`说实话，第一眼看到马尔萨什洛克，你会有点恍惚。它和你想象中那种精致如明信片的地中海小镇不太一样。没有陡峭悬崖上的白色房屋，也没有恢弘的巴洛克教堂俯瞰一切。它很“平”，很舒展，像一个毫不设防的拥抱，懒洋洋地摊在湛蓝海湾的臂弯里。你的第一印象绝对是色彩——一种泼洒般的、近乎孩子气的鲜艳。但那色彩不在墙上，而在海上。数十艘鲁祖渔船（Luzzu）挤挤挨挨地停泊在港口，船身被刷成明黄、宝蓝、翠绿、正红，每一艘的船头两侧都画着一双醒目的“眼睛”，就这么直愣愣地、带着些古老的天真凝视着你。空气里是复杂的交响：海水微咸的腥气，混合着油炸鱼的浓烈香气，不远处露天烧烤架上章鱼滋滋作响，背景音则是渔民们用马耳他语高声谈笑的嗡嗡声，间或夹杂着海鸥不甘示弱的啼叫。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里绝非一个仅供观赏的博物馆。清晨，当游客还没涌入，你会看到真正的渔民穿着沾满鱼鳞的胶皮裤，在色彩斑斓的渔船与灰扑扑的石砌码头之间忙碌。他们修补渔网，搬运鱼获，那“荷鲁斯之眼”注视着他们每日的劳作。到了周日，整个港口瞬间变身巨大的露天剧场。鱼市沿着海堤铺开，银光闪闪的 lampuki（马耳他国鱼）、张牙舞爪的八爪鱼、奇形怪状你叫不出名的海产直接摆在冰块上。叫卖声、议价声、刀起刀落声不绝于耳。这不是表演，这是他们一周生计的高潮。你站在这里，脚下是湿漉漉的地面，呼吸着浓烈的海洋生命的气息，突然就明白了，这令人屏息的美丽并非为谁设计，它只是一种生活方式的自然流露——一种需要大海庇护、敬畏神灵、并敢于用最亮的颜色对抗无尽蓝天的生活。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最动人的，或许是那无处不在的“眼睛”。每一艘鲁祖渔船的船首都绘有这被称为“荷鲁斯之眼”或“马耳他之眼”的符号。当地人告诉我，这传统可以追溯到古老的腓尼基时代，这眼睛是守护之眼，为出海的渔民指引方向、驱邪避祸、保佑丰收。在科技如此发达的今天，GPS早已普及，但这些眼睛依然被精心地描绘、保存。你看着老渔民粗糙的手掌拂过船头崭新的彩绘眼睛，那一刻，你感受到的是一种文化血脉的固执流淌。这里的美，不是静止的油画美，而是一种带着鱼腥味、机油味和信仰气息的动态美，它关乎生存，关乎传承，关乎一个民族与大海之间那份绵延数千年的、既依赖又敬畏的深情。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`马尔萨什洛克`} />
+                <InfoRow label="英文名称" value={`Marsaxlokk`} />
+                <InfoRow label="正式名称" value={`Marsaxlokk`} />
+                <InfoRow label="国家" value={`马耳他`} />
+                <InfoRow label="城市" value={`东南区`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`马耳他最古老、最重要的渔港之一，是岛上渔业传统的活态心脏。`} />
+                <InfoRow label="建筑特色" value={`海港呈狭长型，被低矮的彩色房屋和海鲜餐馆环绕，核心是水面密布的、绘有“荷鲁斯之眼”的鲁祖渔船。`} />
+                <InfoRow label="建筑风格" value={`地中海沿岸的朴素渔村风格，建筑低矮，色彩柔和，无过多华丽装饰，以功能性为主。`} />
+                <InfoRow label="文化价值" value={`一个将千年航海传统、独特民间信仰与当代日常生活无缝融合的鲜活社区样本。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`港口及渔村公共区域全天24小时开放。标志性的周日鱼市通常从清晨5、6点持续到下午1点左右，规模最大、最热闹。平日港口周边也有小型市场和餐馆照常营业。公共假期可能影响市场开放，建议出行前核实。`} />
+              <InfoRow label="门票价格" value={`进入马尔萨什洛克渔村及港口完全免费。周日鱼市自由逛吃，消费自付。参加从港口出发的乘船游或渔船体验项目需额外付费，价格约在15-30欧元不等，可现场与船家商议。`} />
+              <InfoRow label="地址" value={`Marsaxlokk, South Eastern Region, Malta`} />
+              <InfoRow label="交通方式" value={`从马耳他国际机场（MLA）出发是最佳选择。推荐乘坐公共巴士，在机场外的巴士总站搭乘X4路直达，车程约35-40分钟，班次在白天较为频繁（约30分钟一班）。也可以搭乘出租车，车程约25分钟，费用约25-35欧元。自驾是最灵活的方式，从机场沿主要公路行驶约20分钟即可抵达，港口附近有多个收费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`马尔萨什洛克的故事，得从它的名字讲起。“Marsaxlokk”这个词本身就藏着密码。“Marsa”在阿拉伯语里是“港口”，“Xlokk”则是马耳他语对“西罗科风”（Sirocco，从撒哈拉吹来的东南热风）的称呼。所以，它的宿命从一开始就写定了：一个迎接东南风的港口。早在公元前900年左右，腓尼基人就已经看中了这个天然良港。他们是最早的航海与贸易大师，在这里停泊船只，进行补给和交易。你可以想象，那时候的港口，或许就已经有了早期渔船的雏形，而那守护船的“眼睛”信仰，很可能就从那个时代悄悄萌芽，顺着地中海的波浪，流淌进了后世渔民的基因里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的浪潮并非总是温柔。到了16世纪，这里成了强权觊觎之地。1565年那场决定马耳他命运的“大围攻”期间，奥斯曼帝国的庞大舰队，正是在马尔萨什洛克湾登陆，拉开了那场惨烈战争的序幕。港口见证了战火与硝烟，但顽强的马耳他骑士团最终守住了家园。战争过后，这里回归了它原本的宁静与平凡，继续作为一个渔港默默运转。真正塑造了它今天模样的，是那些无声的普通人和他们代代相传的手艺。鲁祖渔船，这种造型独特、色彩艳丽的小木船，其设计千年未有大变。它有着高高的弧形船首和船尾，稳定性极佳，适合在地中海多变的海况中作业。而船上最灵魂的部分——那双“眼睛”，则由专门的画师家族传承绘制。父亲传给儿子，师傅传给徒弟，用什么颜料，如何勾勒眼神，都有讲究。这不仅是装饰，更是每一次出海前最庄重的仪式。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转到近代，马尔萨什洛克也经历了现代化不可避免的冲击。更大、更高效的钢铁渔船出现了，传统的木船渔业似乎走向衰落。但有趣的是，马耳他人，尤其是马尔萨什洛克人，选择了一种温柔的坚守。许多鲁祖渔船不再用于远洋捕捞，而是转型为近海作业、旅游体验或干脆就是家族传承的“活古董”。周日鱼市也从单纯的渔获交易，变成了一个融合了旅游、餐饮和社区聚会的大型文化市集。它没有被抛弃在旧时光里，而是巧妙地找到了在新时代存续的方式。你看到的那些在Instagram上光彩夺目的渔船，白天可能载着游客出海看海景，清晨或许仍由老主人驾驶着去收前一夜布下的渔网。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天的马尔萨什洛克，就像一位历经沧桑却依然眼神清澈的老人。它记得腓尼基人的商船，记得奥斯曼帝国的战船，更记得每一个为生计在风浪中搏斗的清晨。战争、贸易、宗教、全球化……所有这些宏大的词汇，最终都沉淀在了港口每日的潮汐涨落里，沉淀在了渔民补网时粗糙的手指间，沉淀在了船头那双永远望向大海、望向未知的“眼睛”里。它不是一个被凝固的历史标本，而是一条依然在流动的河，承载着过去，流向未来。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`想要真正品味马尔萨什洛克的精髓，我强烈建议你将拜访安排在周日，并赶一个大早。完美的路线始于清晨七点前抵达港口。这时，大批游客尚未到来，你能看到渔港最真实、最鲜活的样子：渔船归来、鱼市开张、本地人采购。整体游览可以悠闲地进行一整天。上午专注于市场和海港的生机勃勃，中午享用一顿漫长的海鲜午餐，下午则沿着海岸线散步，探索小村宁静的角落，最后以一场完美的日落收尾。这样的节奏让你既能沉浸于热闹的市井文化，也能享受地中海岸的静谧时光。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周日务必早到，上午十点后旅行团大巴抵达，港口会变得异常拥挤。穿着舒适的步行鞋，码头地面可能潮湿且不平整。在市场购买海鲜或纪念品时可以礼貌议价，但请保持友善态度。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`天蒙蒙亮时就抵达海港东侧，看最后一艘艘彩色鲁祖渔船披着晨光缓缓驶回港口，船员们将一箱箱泛着银光的渔获搬上岸。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`立刻扎进刚刚开始喧闹的周日鱼市，让感官被各种海产的鲜活气息、摊贩响亮的叫卖声和当地人娴熟的挑选动作所淹没。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着主防波堤慢慢向西走，近距离观察每一艘渔船上“荷鲁斯之眼”图案的细微不同，并和正在收拾渔具的渔民点头微笑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到港口尽头的小型礼拜堂（Our Lady of Pompeii Church）前回望，将整个色彩斑斓的港口和背景的村落尽收眼底。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`选一家正面朝港口的家庭餐馆坐下，点一份当天从市场采购的烤 lampuki 鱼或海鲜意面，配上本地葡萄酒，享受一顿漫长的午餐。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后漫步到港口西侧更安静的区域，这里停泊着更多渔船，背景是典型的马耳他低矮石屋，适合静静发呆。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果有兴趣且天气允许，可以和船家商量一个短途乘船游，从海上回望港口，感受鲁祖渔船在波浪中起伏的独特视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`黄昏时分务必回到港口东侧的某个位置，看着夕阳将天空、海水和所有彩色船身染成一片温暖的橘红与金黄。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`港口东端防波堤尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨日出后一小时，阳光从侧面打亮渔船，此时可拍摄渔船归港的忙碌场景和船头“眼睛”的特写，构图以排列整齐的船只为引导线。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`鱼市中心的上方小平台`}</h4>
+                  <p className="text-sm text-gray-700">{`上午九点左右，利用稍高的视角俯拍鱼市人头攒动的热闹全景，将色彩斑斓的遮阳棚和港口海水一同纳入画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`港口西侧沿海小路`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点的侧光下，以一艘艘紧密停靠的鲁祖渔船作为前景，背景是马耳他特色的淡黄色石屋和教堂钟楼，营造宁静的渔村氛围。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`South Street 的餐馆露台`}</h4>
+                  <p className="text-sm text-gray-700">{`预订黄昏时分的晚餐座位，使用长焦镜头压缩空间，拍摄夕阳正好落在港口船只桅杆之后，形成温暖的逆光剪影照片。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`Marsaxlokk Bay 的北侧小山坡上`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前后半小时，从这里可以拍到港口全景、蜿蜒的防波堤以及远处的大海，天空色彩最为丰富多变。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄渔民和摊贩前，最好先微笑示意并获得默许，尊重他们的工作。正午阳光强烈，建议避开此时段拍摄人物，海面反光也容易过曝。灵活利用船身鲜艳的色彩作为画面中的点睛之笔。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`港口边的家庭客栈`}</h4>
+                  <p className="text-sm text-blue-800">{`选择一扇能直接看到港口的窗户，清晨在渔船发动机的嗡鸣和海鸥叫声中醒来，晚上看着渔船的灯光倒映在漆黑的水面上。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`村内宁静街区的精品宾馆`}</h4>
+                  <p className="text-sm text-green-800">{`由传统马耳他石头屋改造，拥有宁静的内院和屋顶露台，既能享受渔村的氛围，又能避开港口夜间的些许喧闹。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`附近更大城镇（如马尔萨斯卡拉）的海滨酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`适合追求更多酒店设施和安静环境的旅客，乘坐短程巴士或出租车即可轻松往返渔港，将喧嚣与宁静分开体验。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端独家体验的修复式农庄`}</h4>
+                  <p className="text-sm text-purple-800">{`位于渔村外围的乡村，提供田园诗般的宁静和泳池，让你在一天的探索后能彻底放松，享受马耳他乡村的夜晚星空。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`港口边的住宿周日晚上可能比较安静（因为市场结束），但周六晚上会非常热闹。夏季务必提前数月预订。马耳他整体治安良好，但渔村夜间照明一般，建议结伴行走小巷。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开马尔萨什洛克许久，我脑海里挥之不去的，不是某一张具体的明信片风景，而是一种混合的感觉：那是冰凉海风中夹杂的温暖油炸香气，是耀眼色彩下渔民朴实无华的面容，是古老“眼睛”符号在现代船舷上的平静凝视。这个地方有一种强大的“ grounding ”力量，它把你从虚幻的、过滤过的旅行幻想中拉出来，轻轻放在现实的土地上——带着鱼腥味、生活噪声和阳光温度的现实。它告诉你，美可以如此脚踏实地，如此与生计息息相关。那每一抹看似随意的亮蓝或明黄，可能是一个家族传承的标识；那每一双凝视大海的眼睛，背后是千百年来对未知风浪的敬畏与祈求。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在一切都追求效率、追求平滑数字体验的今天，马尔萨什洛克像一颗略微粗糙却温润的珍珠。它不完美，有点杂乱，甚至有些固执地拒绝被完全“精致化”。但正是这份固执，让它保留了最动人的生命力。来这里，你不是为了收集一个景点，而是为了感受一种依然在顽强跳动的脉搏。它教会我们，真正的文化遗产，不是锁在玻璃柜里的古董，而是依然被人们使用着、热爱着、并以此谋生的日常。对于每一位渴望在旅途中触碰真实、而不仅仅是观看画面的深度旅者来说，马尔萨什洛克都是一堂无声却深刻的必修课。在这里，你会明白，最绚烂的色彩，往往源于最深沉的生活。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mdina-silent-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    姆
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">姆迪纳静寂之城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mdina</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/cittadella-citadel-gozo" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维多利亚城堡（戈佐岛城堡）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cittadella</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

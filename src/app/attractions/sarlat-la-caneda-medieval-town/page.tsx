@@ -1,0 +1,231 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '萨拉拉卡内达 Sarlat-la-Canéda｜法国保存最完好的中世纪宝石与美食天堂 - 最佳欧洲景点',
+  description: '想象一下，清晨的第一缕阳光不是洒在地上，而是涂抹在一整片温润的蜂蜜色石墙上。这就是萨拉给我的第一印象。你从现代街道的拐角一转，时间“唰”地一声被抽走了六百年。脚下是中央的鹅卵石路，被无数脚步打磨得光滑发亮，像一条黑色的溪流，引着你往深处去。空气里有种特别的清冽味道，混合着老石头在夜晚吸饱了露水后散发...',
+}
+
+export default function SarlatLaCanedaMedievalTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '萨拉拉卡内达', href: '/attractions/sarlat-la-caneda-medieval-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`萨拉拉卡内达・Sarlat-la-Canéda・法国・萨拉拉卡内达`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`想象一下，清晨的第一缕阳光不是洒在地上，而是涂抹在一整片温润的蜂蜜色石墙上。这就是萨拉给我的第一印象。你从现代街道的拐角一转，时间“唰”地一声被抽走了六百年。脚下是中央的鹅卵石路，被无数脚步打磨得光滑发亮，像一条黑色的溪流，引着你往深处去。空气里有种特别的清冽味道，混合着老石头在夜晚吸饱了露水后散发的微潮气息，还有从不知哪个庭院飘来的淡淡玫瑰花香。
+耳朵很快就会被这里的声音图谱俘获。不是汽车的轰鸣，而是木制百叶窗被“吱呀”推开的声响，咖啡馆老板搬动桌椅准备开张的磕碰声，远处集市摊主开始码放奶酪和蔬菜的细微动静。当地人的生活就镶嵌在这些古老的墙壁里。你会看到头发花白的老先生，提着长长的法棍，慢悠悠地穿过拱门，他的步伐和几个世纪前他的祖先或许并无不同。这里的核心魅力，在于它不是一个被玻璃罩起来的标本，而是一个依然跳动着的心脏——中世纪的城市肌理，承载着21世纪鲜活的生活。
+最打动人心的，是那种无处不在的“厚实感”。光线在这里变得具体而缓慢。正午时，阳光垂直落下，将每一个石雕的细节、每一道风霜的裂痕都照得毫发毕现，整座小镇金灿灿的，仿佛一块巨大的、正在融化的太妃糖。而到了傍晚，夕照变得斜长而温柔，给所有建筑的西侧镀上浓郁的琥珀色，阴影被拉得老长，填满狭窄的街巷。这时，从某扇窗里飘出煎鹅肝的浓郁焦香，提醒你，这里不仅是眼睛的盛宴，更是味蕾的圣殿。
+它就那样静静地卧在多尔多涅的绿色山谷里，不张扬，却有着无法被复制的底气和从容。你行走其间，仿佛能触摸到时间本身的质地——粗糙的、温热的、带着历史回响的。它不是让你来“看”一个景点，而是邀请你“掉进”一个完整的、迷人的旧日世界里，用所有的感官去浸泡，去呼吸。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`想象一下，清晨的第一缕阳光不是洒在地上，而是涂抹在一整片温润的蜂蜜色石墙上。这就是萨拉给我的第一印象。你从现代街道的拐角一转，时间“唰”地一声被抽走了六百年。脚下是中央的鹅卵石路，被无数脚步打磨得光滑发亮，像一条黑色的溪流，引着你往深处去。空气里有种特别的清冽味道，混合着老石头在夜晚吸饱了露水后散发的微潮气息，还有从不知哪个庭院飘来的淡淡玫瑰花香。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`耳朵很快就会被这里的声音图谱俘获。不是汽车的轰鸣，而是木制百叶窗被“吱呀”推开的声响，咖啡馆老板搬动桌椅准备开张的磕碰声，远处集市摊主开始码放奶酪和蔬菜的细微动静。当地人的生活就镶嵌在这些古老的墙壁里。你会看到头发花白的老先生，提着长长的法棍，慢悠悠地穿过拱门，他的步伐和几个世纪前他的祖先或许并无不同。这里的核心魅力，在于它不是一个被玻璃罩起来的标本，而是一个依然跳动着的心脏——中世纪的城市肌理，承载着21世纪鲜活的生活。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，是那种无处不在的“厚实感”。光线在这里变得具体而缓慢。正午时，阳光垂直落下，将每一个石雕的细节、每一道风霜的裂痕都照得毫发毕现，整座小镇金灿灿的，仿佛一块巨大的、正在融化的太妃糖。而到了傍晚，夕照变得斜长而温柔，给所有建筑的西侧镀上浓郁的琥珀色，阴影被拉得老长，填满狭窄的街巷。这时，从某扇窗里飘出煎鹅肝的浓郁焦香，提醒你，这里不仅是眼睛的盛宴，更是味蕾的圣殿。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它就那样静静地卧在多尔多涅的绿色山谷里，不张扬，却有着无法被复制的底气和从容。你行走其间，仿佛能触摸到时间本身的质地——粗糙的、温热的、带着历史回响的。它不是让你来“看”一个景点，而是邀请你“掉进”一个完整的、迷人的旧日世界里，用所有的感官去浸泡，去呼吸。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`萨拉拉卡内达`} />
+                <InfoRow label="英文名称" value={`Sarlat-la-Canéda`} />
+                <InfoRow label="正式名称" value={`Sarlat-la-Canéda`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`萨拉拉卡内达`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`法国乃至欧洲中世纪文艺复兴时期城镇建筑保存最完好的典范之一，被誉为“石头史诗”。`} />
+                <InfoRow label="建筑特色" value={`密集而完整的蜂蜜色石灰岩建筑群，拥有陡峭的板岩屋顶、精巧的鸽舍塔楼和雕刻华丽的门窗框。`} />
+                <InfoRow label="建筑风格" value={`以中世纪和文艺复兴风格为主，罕见地未受19世纪奥斯曼式城市规划改造的影响。`} />
+                <InfoRow label="文化价值" value={`活生生的中世纪生活博物馆，同时也是佩里戈尔黑松露与鹅肝酱美食文化的核心重镇。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇街道及公共区域全年全天开放。主要历史建筑（如圣萨克尔多大教堂、自由广场周边宅邸）开放时间通常为上午10点至下午6点，冬季（11月至3月）可能提前至下午5点关闭，部分小型博物馆周一闭馆。每周三与周六上午有著名的露天市集，雷打不动，从清晨持续到下午1点左右。节假日如圣诞节和元旦当天，大部分商店和室内景点关闭。`} />
+              <InfoRow label="门票价格" value={`进入古镇本身免费。参观个别历史建筑或博物馆需购票，联票通常约12欧元，可参观3-4个景点。学生、青年及老年人享有约2欧元的折扣。6岁以下儿童免费。市集购物及餐饮消费自理。`} />
+              <InfoRow label="地址" value={`Place de la Liberté, 24200 Sarlat-la-Canéda, France`} />
+              <InfoRow label="交通方式" value={`最近的机场是贝尔热拉克机场（Bergerac Dordogne Périgord Airport），距萨拉约70公里。从机场可搭乘预定的出租车或租车前往，车程约1小时。最近的火车站是“萨拉拉卡内达站”，有从巴黎奥斯特里茨车站开出的直达城际列车（Intercités），车程约4-5小时，班次不多建议提前预订。从波尔多开车前往最为方便，沿A89高速公路行驶，约2小时车程。古镇内严禁汽车驶入核心区，需将车停放在周边的付费停车场（如“Parking de la République”）。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`萨拉的故事，始于一座修道院。公元9世纪，一座本笃会修道院在这里建立，围绕着它，慢慢形成了一个繁荣的集镇。它的好运源于宗教，也源于地理。身处富裕的佩里戈尔地区，又远离主要的军事冲突要道，让它在中世纪早期得以相对平稳地积累财富。到了12世纪，它已经成为一座重要的宗教和贸易中心，并获得了设立市场的特权，这为它日后成为美食之都埋下了最早的伏笔。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的转折点，是英法百年战争。听起来很矛盾，对吧？战争通常意味着毁灭。但对于萨拉，这场持续百年的拉锯战，反而塑造了它的筋骨。当时，这片地区是英法争夺的焦点。为了自保，萨拉的市民们将城镇建设得如同一个迷宫——街道狭窄曲折，易于巷战；房屋用坚固的石灰岩建造，窗户小而高。这种出于防御目的的建造方式，意外地为后世留下了一座近乎完整的中世纪城镇范本。战争结束后，它归属于法国王室，迎来了文艺复兴的黄金时代。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`15到16世纪，是萨拉的“镀金时代”。当地富有的商人和法官（这里设立了重要的王室法院）们，开始竞相建造奢华的私人宅邸。他们从意大利请来工匠，将哥特式的尖拱与文艺复兴式的对称、古典装饰融合在一起。于是，你看到了那些令人惊叹的“hôtels particuliers”（城市豪宅）：比如曼西公馆，它那雕刻着神话场景的立面；或是拉博埃蒂公馆，优雅的窗户和角塔。这些建筑不是王公贵族的，而是属于新兴的资产阶级，这让萨拉的风貌格外“接地气”，充满了市民阶层的勃勃生机。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的车轮滚滚向前，萨拉却仿佛被遗忘在了时光的角落。18世纪后，主要的交通干道和工业革命都绕开了它，它没有经历巴黎那样大刀阔斧的现代化改造，经济也逐渐沉寂。这种“停滞”，在当时看是衰落，但从历史保存的角度看，却是莫大的幸运。它就像一颗被遗忘在蚌壳里的珍珠，完整地封存了中世纪到文艺复兴时期的城市形态。直到20世纪60年代，法国颁布了著名的“马尔罗法”，致力于保护历史文化遗产，萨拉才被重新“发现”，并进行了精心的修复，重获新生。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天的萨拉，每一块石头都在低语。你能从圣萨克尔多大教堂那融合了罗马式地基、哥特式中殿和文艺复兴式钟楼的复杂身姿上，读出它不同时期的层层叠加。你能在自由广场上，想象昔日热闹的审判与集市场景。它没有毁于战火，也没有“进步”于推土机，而是在一种奇特的因祸得福与偶然遗忘中，将一段长达数百年的欧洲城市生活史，奇迹般地凝固至今。这本身就是一段最传奇的历史。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的萨拉深度游，一定要从清晨开始，并在古镇里度过完整的白天，直至华灯初上。建议早上8点前抵达，这时旅游大巴还未涌入，古镇属于本地人和早起的鸟儿。整体耗时约8-10小时，节奏宜慢不宜快。上午重点感受宁静的街巷、建筑细节和市集活力；下午深入探索小巷、参观重点宅邸，并享受长午餐；傍晚则留给光影变幻和饭后漫步。这样安排能让你体验到萨拉从沉睡到苏醒、从喧闹复归宁静的全天候韵律，真正像当地人一样“生活”一天。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周六市集人流量极大，上午10点后几乎寸步难行，想好好体验要么赶早，要么抱着融入人潮的心态。穿着舒适的步行鞋是绝对必须的，鹅卵石路对高跟鞋和薄底鞋极不友好。大多数餐馆的午餐服务到下午2点结束，晚餐则要7点以后才开始，注意安排好用餐时间，避免扑空。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一大早从共和国停车场步入古镇，让自己迷失在空无一人的、泛着蓝灰色晨光的蜿蜒小巷里，静静聆听自己的脚步声在石壁间回响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随鼻子的指引来到自由广场的周三或周六市集，淹没在堆成小山的鹅肝酱罐、深色核桃、带着泥土芬芳的黑松露以及各种农家奶酪和禽肉摊档的海洋中。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进阴凉静谧的圣萨克尔多大教堂，让眼睛适应昏暗后，寻找那尊罕见的木质“圣母安眠”雕像，感受中世纪信仰的质朴力量。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`挑选一家爬满藤蔓的庭院餐厅坐下，点一份用当地核桃油调味的鸭胸沙拉，配上一杯醇厚的贝尔热拉克红酒，让味蕾也领略佩里戈尔的风土。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后钻进埃蒂安·德拉博埃蒂街，抬头仔细欣赏那些豪宅立面上精雕细琢的文艺复兴式窗户、怪兽排水口和刻有主人徽章的华丽门楣。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着隐秘的台阶爬上古镇西侧的小坡，从高处俯瞰那片令人窒息的、由无数板岩屋顶和石墙构成的蜂蜜色海洋，找准时机拍下明信片般的全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`赶在日落前回到自由广场，找一家咖啡馆的露天座位，点一杯咖啡或茴香酒，看着金色的夕阳如何一点点将市政厅的钟楼染成炽热的橘红。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`当夜幕低垂、游客散去后，再次漫步在已被温柔灯光点亮的拱廊下，这时小镇会显露出它最为神秘和浪漫的本来面目。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`自由广场东侧拱廊下`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点到日落前，阳光会斜射入拱廊，利用拱门形成天然画框，拍摄广场上市政厅钟楼和来往的行人，光影对比强烈，故事感十足。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣萨克尔多教堂后方小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点前或傍晚，狭窄的小巷两侧石墙高耸，光线呈柔和的漫反射，拍摄人物行走的背影或建筑的纵深感，能拍出极具氛围感的大片。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`古镇西侧山坡观景点`}</h4>
+                  <p className="text-sm text-gray-700">{`全天皆可，但最佳时间是晴朗的下午，顺光能清晰呈现整个古镇的层次和屋顶的纹理，使用长焦镜头可以压缩空间，拍出建筑密集如蜂巢的震撼效果。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`曼西公馆雕刻立面特写`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射，能最大限度消除阴影，清晰地拍下立面上那些复杂精细的文艺复兴人物雕刻细节，适合建筑和细节爱好者。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地摊主或居民时，请务必先微笑并征得同意，法国人注重隐私，不经允许的近距离特写可能引起不快。利用雨后湿润的鹅卵石路面反光，能极大提升照片的质感和色彩饱和度。无人机飞行在古镇上空通常被严格禁止，请勿尝试。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史中心沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`由15世纪石屋改造的精品酒店，房间保留了古老的木梁和石壁，窗户推开就是蜿蜒的鹅卵石街道，晚上能听到教堂的钟声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`宁静花园避世之选`}</h4>
+                  <p className="text-sm text-green-800">{`坐落于古镇边缘一个隐秘私家花园中的小型酒店，从喧嚣的市集步行五分钟即可回归绝对的宁静，在开满玫瑰的庭院里用早餐是每日的高光时刻。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`奢华古堡体验之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车十分钟可达的乡间城堡酒店，坐落于自己的葡萄园和森林中，房间充满古董家具，提供米其林级别的餐饮和窖藏丰富的葡萄酒单，是终极享受。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`温馨家庭民宿之选`}</h4>
+                  <p className="text-sm text-purple-800">{`古镇入口处一对老夫妇经营的民宿，房间朴素但一尘不染，女主人会为你准备丰盛的自制果酱和可颂早餐，并提供最地道的游玩建议，像回家一样。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`古镇核心区住宿非常抢手，尤其是旅游旺季（5-10月）和松露季节（冬季），务必提前数月预订。住在古镇内虽然价格较高，但能体验入夜和清晨独享古镇的绝妙时刻，价值远超房价。如果自驾，务必确认住宿是否提供停车场，古镇内部停车极其困难且昂贵。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开萨拉许久，我闭上眼睛，脑海里浮现的不是某一栋具体的建筑，而是一种整体的、温暖的色调，和一种缓慢而扎实的节奏感。在这个一切都追求新、追求快的时代，萨拉的存在本身就是一个温柔的悖论。它自豪地展示着它的“旧”，它的“慢”，并以此作为最珍贵的财富。它告诉我们，美和生命力，并不总与“崭新”和“效率”挂钩。一种历经时间打磨后呈现出的温润光泽，一种在狭窄巷弄里生生不息的人间烟火，或许才是更持久、更动人的力量。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这就是为什么每一位热爱深度游的旅人都该来萨拉。它不仅仅是一个目的地，更是一种时间疗愈。来这里，你是在用脚步丈量历史，用舌尖品尝传统，更是在学习一种不同的时间哲学。当你抚过那些冰冷却又仿佛有温度的石头墙，当你坐在广场上看着日影一点点移动，你会感到内心的某个部分也随之安静下来，沉淀下来。萨拉拉卡内达，这块多尔多涅的蜂蜜色宝石，它静静地等待着你，不是为了向你炫耀，而是为了与你分享一个关于时间、坚韧与生活之美的，永恒的秘密。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/chartres-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    沙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">沙特尔大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Chartres Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bourges-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布尔日大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bourges Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/troyes-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特鲁瓦老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Troyes Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

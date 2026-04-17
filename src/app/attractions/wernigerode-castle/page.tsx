@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '韦尔尼格罗德城堡 Wernigerode Castle｜哈茨山的童话城堡与山丘之王 - 最佳欧洲景点',
+  description: '第一眼看到韦尔尼格罗德城堡，你会以为自己不小心闯入了格林兄弟的童话手稿。它不是孤零零地矗立在山尖，而是像从哈茨山深绿色的森林和红色砂岩的山体里自然生长出来的——无数尖塔、山墙、凸窗和角楼，以一种近乎欢快的拥挤姿态，层层叠叠地聚拢在一起，顶着深灰色的石板瓦屋顶。沿着“城堡之路”蜿蜒向上，脚下的石板被无...',
+}
+
+export default function WernigerodeCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '韦尔尼格罗德城堡', href: '/attractions/wernigerode-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`韦尔尼格罗德城堡・Wernigerode Castle・德国・韦尔尼格罗德`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到韦尔尼格罗德城堡，你会以为自己不小心闯入了格林兄弟的童话手稿。它不是孤零零地矗立在山尖，而是像从哈茨山深绿色的森林和红色砂岩的山体里自然生长出来的——无数尖塔、山墙、凸窗和角楼，以一种近乎欢快的拥挤姿态，层层叠叠地聚拢在一起，顶着深灰色的石板瓦屋顶。沿着“城堡之路”蜿蜒向上，脚下的石板被无数朝圣者的脚步磨得温润，空气里是松针、湿润苔藓和远处面包房飘来的淡淡黄油香。越往上走，城堡投下的阴影越浓，你能听见自己的呼吸声、林间的鸟鸣，还有从城堡庭院隐约传来的、可能是某个导游正在讲解的德语低沉回音。
+走进城堡庭院那一刻，感官会经历一次奇妙的切换。外围是童话般的浪漫轮廓，内部庭院却显得庄重而私密。淡黄色的砂岩墙面在阳光下泛着蜂蜜般的光泽，每一扇窗框、每一处浮雕都精致得不像话。你会发现，这座城堡最打动人的，不是单一的恢弘，而是那种“层叠的生活感”。它不是一座冷冰冰的博物馆，你能想象伯爵家族曾在这里的某扇窗后眺望自己的领地，孩子们在花园迷宫里追逐，夏夜宴会的声音从露台飘散到山谷。直到今天，你依然能看到当地新人穿着礼服在城堡门前拍照，这座建筑早已深深织入了韦尔尼格罗德人生命的庆典与记忆里。
+它的核心魅力，在于这种“矛盾的和解”。城堡既是防御工事，又是舒适家园；既是权力象征，又是艺术收藏的宝盒；它来自中世纪，却在19世纪被一位痴迷于“德国风格”的伯爵彻底改造，成了一场关于民族身份与浪漫怀旧的大型建筑实验。当你抚摸那冰凉的石墙，行走在吱呀作响的、镶嵌着家族纹章的拼花木地板上，你触碰的不是一个静止的过去，而是一段持续了八百年的、关于生存、荣耀、审美与归属感的生动对话。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到韦尔尼格罗德城堡，你会以为自己不小心闯入了格林兄弟的童话手稿。它不是孤零零地矗立在山尖，而是像从哈茨山深绿色的森林和红色砂岩的山体里自然生长出来的——无数尖塔、山墙、凸窗和角楼，以一种近乎欢快的拥挤姿态，层层叠叠地聚拢在一起，顶着深灰色的石板瓦屋顶。沿着“城堡之路”蜿蜒向上，脚下的石板被无数朝圣者的脚步磨得温润，空气里是松针、湿润苔藓和远处面包房飘来的淡淡黄油香。越往上走，城堡投下的阴影越浓，你能听见自己的呼吸声、林间的鸟鸣，还有从城堡庭院隐约传来的、可能是某个导游正在讲解的德语低沉回音。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走进城堡庭院那一刻，感官会经历一次奇妙的切换。外围是童话般的浪漫轮廓，内部庭院却显得庄重而私密。淡黄色的砂岩墙面在阳光下泛着蜂蜜般的光泽，每一扇窗框、每一处浮雕都精致得不像话。你会发现，这座城堡最打动人的，不是单一的恢弘，而是那种“层叠的生活感”。它不是一座冷冰冰的博物馆，你能想象伯爵家族曾在这里的某扇窗后眺望自己的领地，孩子们在花园迷宫里追逐，夏夜宴会的声音从露台飘散到山谷。直到今天，你依然能看到当地新人穿着礼服在城堡门前拍照，这座建筑早已深深织入了韦尔尼格罗德人生命的庆典与记忆里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，在于这种“矛盾的和解”。城堡既是防御工事，又是舒适家园；既是权力象征，又是艺术收藏的宝盒；它来自中世纪，却在19世纪被一位痴迷于“德国风格”的伯爵彻底改造，成了一场关于民族身份与浪漫怀旧的大型建筑实验。当你抚摸那冰凉的石墙，行走在吱呀作响的、镶嵌着家族纹章的拼花木地板上，你触碰的不是一个静止的过去，而是一段持续了八百年的、关于生存、荣耀、审美与归属感的生动对话。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`韦尔尼格罗德城堡`} />
+                <InfoRow label="英文名称" value={`Wernigerode Castle`} />
+                <InfoRow label="正式名称" value={`Wernigerode Castle`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`韦尔尼格罗德`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`从一座中世纪堡垒演变为德国统一后，象征普鲁士贵族权力与浪漫主义理想的标杆性宫殿。`} />
+                <InfoRow label="建筑特色" value={`新文艺复兴风格的外立面下，包裹着数个世纪以来不断扩建和改造的丰富层次，被誉为“建筑教科书”。`} />
+                <InfoRow label="建筑风格" value={`主要呈现19世纪后期的新文艺复兴风格，并融合了哥特复兴、巴洛克及更早的中世纪建筑元素。`} />
+                <InfoRow label="文化价值" value={`它不仅是贵族宅邸，更是一部立体的历史叙事，见证了神圣罗马帝国的边境纷争、宗教改革的风暴以及德意志第二帝国时期贵族文化的精致与复杂心态。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡博物馆开放时间通常为每日上午10点至下午6点（4月至10月），上午10点至下午5点（11月至3月）；花园区域全年开放至日落。请注意，周一可能闭馆或开放时间缩短，具体需查询官网；冬季部分房间可能因维护关闭。`} />
+              <InfoRow label="门票价格" value={`城堡博物馆成人票约9欧元，优惠票（学生、残疾人等）约7欧元；家庭票（2大+最多4小）约20欧元。仅参观花园免费。建议购买包含导游讲解的联票，价格约12-15欧元，能深度了解伯爵家族历史。`} />
+              <InfoRow label="地址" value={`Am Schloßberg 1, 38855 Wernigerode, Germany`} />
+              <InfoRow label="交通方式" value={`从最近的马格德堡或汉诺威机场出发，乘坐区域火车（RE或RB线）至韦尔尼格罗德主火车站（Wernigerode Hauptbahnhof），车程约1.5-2小时，班次每小时1-2班。从火车站出来，你眼前就是那座高踞山丘的城堡。步行上山是最经典的体验，顺着清晰路标穿过老城区约需25-30分钟；也可在火车站前乘坐复古的“城堡巴士”（BurgBus），10分钟直达城堡庭院，班次随季节变动，夏季较频繁。若自驾，城堡山下有收费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从12世纪说起，那时哈茨山是神圣罗马帝国皇帝们钟爱的狩猎场，也是帝国东部边境的重要据点。大约在1120年，一位名叫阿达尔贝特的伯爵在这里建起了一座简单的堡垒，用以管理附近的银矿和森林，并向往来商旅征税。最初的城堡远非今日模样，它更像个粗糙的石头岗哨，目光警惕地俯瞰着脚下的山谷小道。在随后的几百年里，城堡随着韦尔尼格罗德伯爵家族的命运几经易手、扩建和损毁。它经历了宗教改革的激烈冲突，在三十年代战争中被愤怒的农民军部分焚毁，又在接下来的领主纷争中不断被加固。直到17世纪，它才被大致重建为一座拥有坚固城墙的巴洛克式居所，但依然保留着军事堡垒的严肃面孔。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的“变身”发生在19世纪。1862年，一位名叫克里斯蒂安·恩斯特的伯爵继承了产业。他可不是个安于现状的贵族。那时，普鲁士正在铁血宰相俾斯麦的带领下走向统一，一种追寻“纯正德意志”文化和建筑风格的风潮席卷了知识界和贵族阶层。伯爵深受这股浪漫民族主义影响，对当时城堡那种混搭又略显过时的巴洛克风格很不满意。他决定，要为自己心爱的家族 seat 进行一次彻底的“形象升级”，打造一座符合时代精神的、理想的德国城堡。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，从1862年到1893年，在建筑师卡尔·弗里德里希·莱辛等人的操刀下，一场浩大而精细的改造工程开始了。伯爵的指令很明确：外观要宏伟、浪漫，体现德意志民族精神；内部要奢华、舒适，满足现代贵族生活的所有想象。工匠们几乎是在原有的巴洛克和中世纪结构上进行了一次精密的“外科手术”和“美学包装”。他们增建了高耸的塔楼、装饰华丽的凸窗、数不清的山墙和雕像。内部则被打造得金碧辉煌：橡木雕刻的护墙板从地板延伸到天花板，彩绘玻璃窗讲述着家族历史和圣经故事，巨大的枝形水晶吊灯照亮了贴满威尼斯金箔的客厅。有趣的是，伯爵对“历史真实性”的追求近乎偏执，他要求把家族收藏的中世纪盔甲、武器、家具全都融入新房间的装饰中，甚至不惜为此定制仿古新品，营造一种“自古如此”的深厚传承感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座城堡因此成了一幅由不同时代碎片拼贴而成的、极其成功的“历史画卷”。它仿佛一下子拥有了八百年的厚重，尽管其中很多“古老”细节只有几十年历史。伯爵成功了，他的城堡成为哈茨山地区最令人瞩目的建筑，吸引着欧洲各地的贵族和学者前来参观。随着第一次世界大战结束和君主制崩塌，城堡在20世纪初向公众部分开放。二战期间它奇迹般地未受严重破坏，战后归属国有，并逐步转型为一座全面展示19世纪贵族生活、历史主义建筑艺术和哈茨山地区历史的博物馆。从边境堡垒到权力象征，再到文化纪念碑，韦尔尼格罗德城堡的每一块石头，都在诉说着德国历史中那一段段关于野心、审美与身份认同的复杂故事。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`最佳的深度游览安排是留出至少四个小时。建议在午后阳光最好的时候（下午1-2点）开始你的城堡攀登，这时光线能从侧面照亮城堡多彩的立面，非常适合拍照。先不要急着进入博物馆，用大约1小时完成外部探索和花园漫步，感受城堡与自然环境的融合。然后在下午3点前后进入博物馆，此时大部分一日游的旅行团已开始离开，内部空间相对安静，你可以更从容地欣赏那些华丽的房间。务必参加一次德语或英语的导览（通常每小时或每两小时有一场），许多精彩的故事和隐藏细节只有讲解员才会透露。最后，在闭馆前（夏季下午5点半左右）登上最高塔楼，这时游客稀少，你能独享哈茨山的壮丽晚霞，看着山下小镇的灯火一盏盏亮起，为旅程画上完美句号。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`城堡内部房间众多且路线复杂，务必在入口处领取免费平面图，否则容易错过如小礼拜堂、武器库等特色房间。内部许多楼梯陡峭且铺着光滑的旧地毯，一定要穿一双绝对防滑舒适的鞋子。夏季下午是旅行团高峰，若想获得更宁静的体验，可尝试在上午刚开门或闭馆前两小时进入博物馆。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从老城集市广场出发，仰望城堡的方位，然后沿着蜿蜒的“城堡之路”向上步行，让身体逐渐适应攀登的节奏，同时欣赏沿途从民居到森林的景观变换。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在第一个开阔的拐角处停下，回头俯瞰韦尔尼格罗德老城如玩具模型般的彩色木桁架房屋全景，并拍下城堡与城镇同框的标准照。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过厚重的拱形城门进入外堡区域，摸摸那些冰冷粗糙的原始岩壁，感受中世纪防御工事残留的气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`步入阳光洒落的宫殿主庭院，顺时针绕行一圈，仔细观察每一面外墙上的雕塑、纹章和不同颜色的石材，它们就像城堡的“表情”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随导览或按照指示牌顺序参观博物馆的核心房间，特别是在伯爵的宴会厅停留，想象水晶吊灯全部点亮、衣香鬓影的夜晚。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着狭窄蜿蜒的螺旋石梯，一口气爬上城堡最高的观景塔楼，360度的狂风和视野会让你瞬间理解“统治者视角”的含义。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观结束后不要从原路匆匆返回，选择穿过城堡西侧的浪漫主义风格景观花园，沿着 quieter 的林间小径下山。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后直接回到老城，找一家能看到城堡的露天咖啡馆坐下，点一杯当地啤酒，在暮色中回味刚才的“时空穿梭”之旅。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡山脚仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`从老城“百屋街”（Kleine Burgstraße）中段向上拍摄，最佳时间是晴朗的下午三点后，阳光能勾勒出城堡群塔的立体轮廓，用长焦镜头压缩空间感，将彩色民居作为前景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`宫殿庭院逆光柱廊`}</h4>
+                  <p className="text-sm text-gray-700">{`站在庭院北侧柱廊下，面向南翼主楼拍摄，清晨或傍晚的低角度阳光会透过柱廊形成强烈光束和深长阴影，人物可漫步其中形成剪影，极具戏剧感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`西侧塔楼俯瞰小镇`}</h4>
+                  <p className="text-sm text-gray-700">{`登上城堡最高观景塔后，将相机镜头从铁丝网缝隙中伸出（小心勿掉落），以小镇连绵的红屋顶和远方的哈茨山为背景，可拍出明信片般的经典构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`骑士厅（Rittersaal）光影捕捉`}</h4>
+                  <p className="text-sm text-gray-700">{`参观内部时，若天气晴朗，正午时分阳光会透过高大的窗户射入骑士厅，在地板和老家具上投下清晰的光斑，等待一束光恰好照亮盔甲或壁画，迅速按下快门。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`南翼露台建筑细节`}</h4>
+                  <p className="text-sm text-gray-700">{`参观完内部从南翼出口走到外部露台，这里可以平视城堡最精美的雕花凸窗和山墙，下午侧光能让石雕的每一个细节都凸显出来，适合建筑摄影爱好者。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`城堡内部大部分区域允许拍照，但严禁使用闪光灯和三脚架，这是为了保护脆弱的古董织物和绘画。拍摄家族肖像画或私人房间时请保持尊重，尽量避免将其他游客的脸部清晰拍入。冬季雪后的城堡别有一番韵味，但山路湿滑，拍摄时务必注意安全。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`老城故事`}</h4>
+                  <p className="text-sm text-blue-800">{`入住集市广场旁一栋有400年历史的木桁架建筑改造的家庭旅馆，清晨在雕花木窗边醒来，楼下就是面包房新鲜出炉的牛角包香味。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`城堡视野`}</h4>
+                  <p className="text-sm text-green-800">{`选择坐落在城堡山坡上的精品酒店，房间带有一个朝东的小阳台，无需出门就能独享城堡在晨雾中苏醒和第一缕阳光染红塔尖的绝景。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`山居度假`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在哈茨山森林边缘的安静度假公寓，白天徒步山野，晚上在壁炉旁读书，开车到城堡仅需十分钟，完美兼顾自然与文化。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`历史沉浸`}</h4>
+                  <p className="text-sm text-purple-800">{`下榻由一座19世纪别墅改造的复古风格酒店，房间内陈列着老地图和古董家具，管家会向你讲述韦尔尼格罗德不为人知的旧闻趣事。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`韦尔尼格罗德是热门旅游小镇，尤其在夏季和圣诞市场期间，住宿非常紧俏，建议至少提前两个月预订。老城内的住宿虽然位置绝佳，但可能无法停车且夜晚酒吧可能较吵，追求绝对安静可考虑山坡或城郊住处。小镇治安极好，夜晚独自步行回酒店也很安全。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开韦尔尼格罗德城堡许久，我的脑海里挥之不去的，不是某个具体的房间或某件珍宝，而是那种整体萦绕的氛围——一种精心营造的、关于“传统”的温暖幻觉。伯爵在十九世纪的那场大刀阔斧的改建，本质上和我们今天修复古迹、追寻文化根源的行为并无二致。他试图用石头、木材和彩色玻璃，凝固住一个他心目中“应有的”辉煌过去。这让我思考，所有的历史遗迹，在某种程度上都是当代人与过去的一场对话，一次重构。我们参观的，从来不是纯粹的“过去”，而是后来者希望我们看到的、关于过去的“叙述”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个意义上，韦尔尼格罗德城堡格外诚实，也格外迷人。它不假装自己千年未变，而是大大方方地展示着不同时代的层理。它提醒我们，文化不是化石，而是河流，在不断流淌中被不断重新诠释。对于热爱深度游的旅人而言，这里就像一把钥匙。它不仅能打开一扇通往普鲁士贵族精致生活方式的门，更能打开一种理解历史复杂性的视角。当你在哈茨山的微风中，站在这座既是堡垒又是家园，既古老又“年轻”的建筑之上，你会感受到一种超越时空的韧性——那就是人类对于美、对于归属、对于在世界上留下印记的永恒渴望。这，或许就是它值得被列入一生必访清单的、最深沉的理由。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/dinkelsbuehl-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    丁
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">丁克尔斯比尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dinkelsbühl</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/meiningen-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迈宁根老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meiningen Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/erfurt-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃尔福特老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Erfurt Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

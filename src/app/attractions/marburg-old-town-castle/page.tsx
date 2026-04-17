@@ -1,0 +1,228 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '马尔堡老城与伯爵城堡 Marburg Old Town and Castle｜在格林兄弟的童话里，踩响真实的石子路 - 最佳欧洲景点',
+  description: '第一眼看到马尔堡，你一定会“哇”出声。不是因为它有多么金碧辉煌，而是因为它简直像从童话书的插页里直接掉出来的。整座老城密密麻麻地依偎在一座陡峭的山坡上，红瓦屋顶层层叠叠，像是被人随意又精心地撒了一把乐高积木。而山顶上，那座灰白色的伯爵城堡，就像一位沉默而威严的守护者，俯瞰着脚下蜿蜒的兰河。你的旅程，...',
+}
+
+export default function MarburgOldTownCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '马尔堡老城与伯爵城堡', href: '/attractions/marburg-old-town-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`马尔堡老城与伯爵城堡・Marburg Old Town and Landgrave‘s Castle・德国・马尔堡`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到马尔堡，你一定会“哇”出声。不是因为它有多么金碧辉煌，而是因为它简直像从童话书的插页里直接掉出来的。整座老城密密麻麻地依偎在一座陡峭的山坡上，红瓦屋顶层层叠叠，像是被人随意又精心地撒了一把乐高积木。而山顶上，那座灰白色的伯爵城堡，就像一位沉默而威严的守护者，俯瞰着脚下蜿蜒的兰河。你的旅程，就从山脚下那条被岁月打磨得光滑如镜的鹅卵石主街开始。踩上去，鞋子会发出好听的“咯噔咯噔”声，声音在狭窄的巷道墙壁间回荡，仿佛在与几个世纪前的马蹄声和市民的絮语对话。
+空气里有种特别的味道。清晨，是新鲜烘焙的面包卷和咖啡的浓郁香气，从那些歪歪扭扭的半木结构房子的门缝里飘出来。午后，则混合着老书店里旧纸张的霉味、小酒馆里苹果酒的微酸，还有石墙上爬藤植物散发出的清新绿意。你的耳朵会被各种声音包围：教堂整点的洪亮钟声、某个院子里传来的钢琴练习曲片段、游客们夹杂着多种语言的惊叹，还有本地老太太用清脆的德语互相问候“Guten Tag”。你会注意到，这里的学生特别多——马尔堡大学是世界上最古老的大学之一，这些年轻人骑着自行车在陡峭的巷子里穿行，给这座古老的城市注入了永不衰竭的活力。
+最打动人心的，是那种活生生的历史感。这里没有博物馆式的冰冷隔离。你看见历史教授匆匆走进一栋五百年的房子里去上课；那家招牌都快掉下来的咖啡馆，哲学家海德格尔可能曾经在里面沉思；而你气喘吁吁爬上一段台阶拐角，一抬头，一扇彩绘玻璃窗在午后的阳光下，正把彩虹色的光斑投射在对面的黄墙上，美得毫不经意，却又惊心动魄。城堡与老城不是被观赏的景点，而是人们生活、学习、相爱、老去的背景布。它的核心魅力，就在于这种无缝的衔接——传说照进现实，学术融入市井，每一块石头都还在呼吸。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到马尔堡，你一定会“哇”出声。不是因为它有多么金碧辉煌，而是因为它简直像从童话书的插页里直接掉出来的。整座老城密密麻麻地依偎在一座陡峭的山坡上，红瓦屋顶层层叠叠，像是被人随意又精心地撒了一把乐高积木。而山顶上，那座灰白色的伯爵城堡，就像一位沉默而威严的守护者，俯瞰着脚下蜿蜒的兰河。你的旅程，就从山脚下那条被岁月打磨得光滑如镜的鹅卵石主街开始。踩上去，鞋子会发出好听的“咯噔咯噔”声，声音在狭窄的巷道墙壁间回荡，仿佛在与几个世纪前的马蹄声和市民的絮语对话。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`空气里有种特别的味道。清晨，是新鲜烘焙的面包卷和咖啡的浓郁香气，从那些歪歪扭扭的半木结构房子的门缝里飘出来。午后，则混合着老书店里旧纸张的霉味、小酒馆里苹果酒的微酸，还有石墙上爬藤植物散发出的清新绿意。你的耳朵会被各种声音包围：教堂整点的洪亮钟声、某个院子里传来的钢琴练习曲片段、游客们夹杂着多种语言的惊叹，还有本地老太太用清脆的德语互相问候“Guten Tag”。你会注意到，这里的学生特别多——马尔堡大学是世界上最古老的大学之一，这些年轻人骑着自行车在陡峭的巷子里穿行，给这座古老的城市注入了永不衰竭的活力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，是那种活生生的历史感。这里没有博物馆式的冰冷隔离。你看见历史教授匆匆走进一栋五百年的房子里去上课；那家招牌都快掉下来的咖啡馆，哲学家海德格尔可能曾经在里面沉思；而你气喘吁吁爬上一段台阶拐角，一抬头，一扇彩绘玻璃窗在午后的阳光下，正把彩虹色的光斑投射在对面的黄墙上，美得毫不经意，却又惊心动魄。城堡与老城不是被观赏的景点，而是人们生活、学习、相爱、老去的背景布。它的核心魅力，就在于这种无缝的衔接——传说照进现实，学术融入市井，每一块石头都还在呼吸。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`马尔堡老城与伯爵城堡`} />
+                <InfoRow label="英文名称" value={`Marburg Old Town and Landgrave‘s Castle`} />
+                <InfoRow label="正式名称" value={`马尔堡城堡与老城历史中心`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`马尔堡`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`神圣罗马帝国时期黑森伯爵的权力中心，以及因圣伊丽莎白而闻名欧洲的重要朝圣地。`} />
+                <InfoRow label="建筑特色" value={`一座雄踞于凯尔山巅、融合了防御要塞、宫殿与宗教功能的庞大复合建筑群，其轮廓定义了整座城市的天空线。`} />
+                <InfoRow label="建筑风格" value={`以威严的罗马式地基和塔楼为核心，主体扩展为精美的哥特式宫殿，并杂糅了后续几个世纪的文艺复兴与巴洛克元素。`} />
+                <InfoRow label="文化价值" value={`它不仅是德国城镇发展的活化石，更是格林兄弟生活与学术的“童话实验室”，现实与传说的边界在这里模糊不清。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡庭院、部分城墙及观景平台全年全天24小时免费开放。城堡内的历史文化博物馆开放时间为周二至周日10:00-18:00（冬季至17:00），周一闭馆。老城内的商铺、餐厅营业时间不一，通常为10:00-19:00，周日大多休息。圣诞节期间及新年当天，博物馆和部分设施会关闭，建议出行前在官网确认最新动态。`} />
+              <InfoRow label="门票价格" value={`进入城堡区域及老城街道免费。城堡内的历史文化博物馆成人票价为6欧元，优惠票（学生、残疾人、团体）为4欧元，6岁以下儿童免费。持有“黑森州博物馆卡”可免费进入。老城内的圣伊丽莎白教堂参观免费，但登塔楼需支付少量费用（约2欧元）。`} />
+              <InfoRow label="地址" value={`Schloss 1, 35037 Marburg, Germany`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是法兰克福机场。从法兰克福机场火车站搭乘前往卡塞尔方向的区域快车或城际列车，约1小时直达马尔堡中央火车站。从火车站出来，你会看到城市依山而建的迷人景象。前往城堡有两种经典方式：一是乘坐可爱的、几乎垂直的登山缆车（Drahtseilbahn），单程约2欧元，体验独特；二是沿着清晰的“城堡小径”标志步行上山，穿过层层叠叠的老城房屋，约需25-30分钟，是融入当地节奏的最佳方式。市内巴士网络发达，但步行探索老城是唯一正解。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座城堡的故事，始于一个更“实用”的目的。大约在11世纪，为了控制兰河这条重要的贸易路线，某位不知名的领主在一座被称为“凯尔”的山上修建了第一座防御工事。石头垒起的围墙，保护着山下逐渐形成的集市定居点。但真正让马尔堡跃上欧洲历史舞台的，是一位女性——匈牙利的伊丽莎白。13世纪初，这位出身王室的少女嫁到此地成为伯爵夫人，却因其对穷人倾尽所有的慈善行为而与宫廷格格不入。丈夫早逝后，她更是将一生奉献给救济事业。她去世后仅四年，就被教皇封圣。为了安放她的遗骨并满足汹涌的朝圣人潮，她的姐夫、图林根伯爵下令，以惊人的速度在旁边建造了辉煌的圣伊丽莎白教堂（这是德国第一座纯哥特式厅堂教堂），而山顶的城堡也因此扩建，成为管理朝圣事务和展现伯爵虔诚与权力的行政中心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡的命运随着黑森伯国的兴衰而起伏。到了16世纪，它迎来了另一个高光时刻。当时的伯爵菲利普一世，是马丁·路德坚定的支持者。正是在马尔堡城堡的大厅里，1529年，他促成了宗教改革史上著名的“马尔堡会谈”，路德和茨温利这两位新教巨头在此会面，试图弥合分歧。虽然最终未能就圣餐礼达成一致，但这次会谈本身，就让城堡成为了欧洲宗教改革的一个关键坐标。城堡的建筑也反映了主人品味的变化，从坚固的罗马式堡垒，逐渐增加了哥特式宫殿的优雅大厅，后来又添上了文艺复兴风格的装饰细节。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，就像许多中世纪城堡一样，它的军事价值在近代逐渐丧失。三十年战争后，伯爵家族迁往了更舒适的首府卡塞尔，城堡一度沦为监狱和档案库，甚至部分区域开始荒废。但故事在这里发生了奇妙的转折——它没有被遗忘，而是被知识拯救了。马尔堡大学在16世纪就已成立，而到了19世纪初，两位年轻的法学学生住进了老城一栋普通的房子里，他们就是雅各布和威廉·格林。在马尔堡求学的岁月，他们师从法学家萨维尼，接触了浪漫主义思想，并开始系统性地搜集和整理散落在民间的传说与童话。你能想象吗？《白雪公主》、《睡美人》、《汉塞尔与格蕾特尔》……这些故事的原始碎片，很可能就是在这些陡峭的小巷、昏暗的油灯下，被第一次认真记录下来的。城堡的厚重与老城的民间气息，共同构成了童话诞生的最佳温床。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`经历了二战（幸运地只受到轻微损伤）和战后的精心修复，今天的城堡是大学的文化历史博物馆，老城则是活着的学术社区。从军事要塞到朝圣中心，从宗教辩论场到学术殿堂，再到童话的摇篮，马尔堡层层叠叠的历史，就像它层叠的屋顶一样，每一片都承载着不同的阳光与风雨，最终拼凑成今天这幅独一无二、学术与传奇交织的立体画卷。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`最佳的体验是从容的一日漫步，节奏宜慢不宜快。建议早上9点左右抵达山脚下的市场广场，这时旅游团尚未涌入，商店刚刚开门，老城还带着清晨的宁静。整个游览耗时约6-8小时，其中包含一次悠闲的午餐和多次咖啡停顿。路线设计为经典的“先山下，后山上，再环绕”：先从老城核心区开始，感受人间烟火与建筑细节；然后一鼓作气登上城堡，在开阔处饱览全景并深入了解历史；最后从另一条小径下山，发现不一样的视角和隐秘角落。这样的安排能让你体力分配合理，并且视觉体验从细腻到宏大，再回归于幽静，形成完美的闭环。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿一双绝对舒适、防滑的鞋子，这里的鹅卵石路面对高跟鞋和光滑的鞋底极不友好。如果想拍摄没有游客干扰的老城街景，务必利用好早上8-10点以及傍晚日落后的黄金时段。警惕过于热情的“向导”提供免费服务，正规导游都会在旅游局有明确的标识和预约渠道。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从集市广场的古老文艺复兴喷泉开始，仰头环视一圈那些有着精美山墙和浮雕的商人房屋。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着主街向上，故意拐进一条名叫“巴鲁斯巷”的狭窄岔路，用手触摸那些裸露的、歪斜的古老木梁。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在圣伊丽莎白教堂巨大的阴影下静立片刻，然后步入其中，让眼睛适应黑暗，寻找圣伊丽莎白石棺上被无数朝圣者触摸得光滑的浮雕。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂后方找到那条最陡峭的“城堡小径”，踩着中间已被磨出凹槽的石阶，气喘吁吁却充满期待地向山顶进发。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开厚重的城堡门洞，瞬间豁然开朗，首先冲到西侧的城墙边，将整个红顶老城和蜿蜒的兰河尽收眼底作为奖赏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在城堡内庭院的长石凳上坐一会儿，听风穿过拱廊的声音，然后参观博物馆里那间陈列着中世纪宗教艺术和本地历史的安静展厅。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山时放弃主路，选择北侧更静谧的“哲学家小径”，在树荫和偶尔出现的花园露台旁慢慢踱步，回味一整天的印象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`黄昏时分回到兰河畔，坐在岸边的长椅上，看灯光逐一点亮山上的城堡和屋舍，倒映在黑色的河水里，完成最后的魔法时刻。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`兰河对岸全景眺望台`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，从老城对岸、主桥上游的河岸步道回望，可以拍到城堡、教堂与层层老城房屋被温暖夕阳光笼罩的经典明信片角度，使用长焦镜头压缩画面效果更震撼。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣伊丽莎白教堂内部拱顶`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个阳光充沛的上午，站在中殿仰望高达的网状拱顶，等待一束阳光恰好从高侧窗射入，照亮穹顶中央的浮雕装饰，用广角镜头捕捉这份神圣的几何美感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“阶梯巷”的透视构图`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，寻找一条有完美Z字形阶梯的小巷（如Wettergasse），站在下方向上拍，利用两侧色彩柔和的木筋墙作为引导线，将镜头焦点对准阶梯尽头一扇明亮的门或窗，营造深邃而富有律动感的画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城堡城墙上的拱门框景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午侧光时分，在城堡西侧城垛找一个古老的石砌拱门或箭孔作为画框，将对岸山丘上的森林、田野或远方的现代城市建筑框入其中，形成古今对话的巧妙构图。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在教堂内部拍摄时请务必关闭闪光灯并保持绝对安静，尊重正在祷告的信徒。使用无人机在城堡及老城上空拍摄是严格禁止的，这是出于隐私和安全法规的考虑。当地人对于被拍摄通常很友善，但拍摄人物特写前，一个微笑和眼神示意是最好的礼节。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在老城中心一栋有500年历史的木筋墙房子里，楼梯吱呀作响，窗户推开就能碰到对面人家的花箱，晚上能听到教堂的钟声和远处酒馆隐约的欢笑。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`河景与便利兼得`}</h4>
+                  <p className="text-sm text-green-800">{`兰河畔的现代设计酒店，房间拥有整面的落地窗，直面城堡山全景，清晨在河边慢跑，夜晚看灯火倒映，步行五分钟即可进入老城迷宫。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`学生区活力体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`大学区附近的舒适公寓或小型旅馆，性价比极高，周围遍布着学生们最爱的书店、平价小酒馆和二手唱片店，能感受到最地道的马尔堡日常脉搏。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`静谧山腰别墅`}</h4>
+                  <p className="text-sm text-purple-800">{`位于城堡山另一侧半山腰的精品民宿，拥有一个可以俯瞰整个河谷的私人花园露台，主人会为你准备丰盛的本地早餐，享受被鸟鸣唤醒的山居清晨。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿通常需要爬很多楼梯且没有电梯，预订时务必确认。旅游旺季（夏季和圣诞市场期间）住宿非常紧张，至少提前两个月预订是明智之举。马尔堡整体治安极佳，即使是夜晚独自在老城漫步也感到安全，但依然建议保管好随身财物。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开马尔堡好多天了，脚底似乎还记得那些鹅卵石的凹凸触感，耳朵里好像还回响着钟声。这个地方给我的感觉，不是那种令人屏息的、纪念碑式的震撼，而是一种绵长的、温暖的浸润。它让你相信，历史不是教科书上冰冷的名字和年份，而是可以触摸的木梁，是可以仰望的塔尖，是咖啡馆里学生争论哲学时飞扬的神采，是面包店老奶奶递过来时那句温柔的“Bitte schön”（请慢用）。在这里，格林兄弟搜集的童话不再是虚幻的故事，而是这种生活本身——有黑暗的森林（陡峭的山路），有温暖的灯火（窗台上的烛光），有善良的奇迹（陌生人指路时的耐心），也有历经磨难终见美好的坚韧（那城堡挺过了战争与时光）。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求效率、一切都被扁平化和快速消费的世界里，马尔堡的存在就像一个温柔的抗拒。它坚持着自己的坡度，拒绝变得“方便”；它让学术与市井共生，拒绝被划分为单一功能区；它把传说种在日常生活的土壤里，等着每一个愿意慢下来的人去发现。每一位热爱深度游的旅人，都该来这里住上几天。不是为了打卡，而是为了让自己重新学会“行走”与“仰望”，为了让自己相信，在一个不起眼的德国小山城里，真的藏着一把通往童话与现实交界处的钥匙。它会提醒你，最深刻的旅行，不是去了多远，而是沉得多深。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/celle-half-timbered-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    策
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">策勒（五百座木骨架房屋之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Celle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/amberg-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    安
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">安贝格老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Amberg Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/wuerzburg-residence" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维尔茨堡主教宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Würzburg Residence</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

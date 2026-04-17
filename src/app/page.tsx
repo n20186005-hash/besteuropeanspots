@@ -1,4 +1,4 @@
-import { attractions } from "@/lib/attractions";
+import { attractions, stats } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import Link from "next/link";
 
@@ -24,13 +24,13 @@ function Hero() {
             Curated Collection
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            100 Hidden Gems
+            {stats.destinations} Hidden Gems
             <br />
             <span className="text-accent-light">Across Europe</span>
           </h1>
           <p className="text-lg sm:text-xl text-white/70 leading-relaxed mb-10 max-w-xl">
             Beyond the tourist crowds — discover medieval old towns, forgotten
-            abbeys, ancient ruins, and breathtaking natural wonders across 20+
+            abbeys, ancient ruins, and breathtaking natural wonders across {stats.countries}
             countries.
           </p>
           <div className="flex flex-wrap gap-4">
@@ -52,10 +52,10 @@ function Hero() {
         {/* Stats */}
         <div className="mt-16 flex flex-wrap gap-x-12 gap-y-4">
           {[
-            ["100", "Destinations"],
-            ["20+", "Countries"],
-            ["11", "Regions"],
-            ["8", "Categories"],
+            [stats.destinations.toString(), "Destinations"],
+            [stats.countries.toString(), "Countries"],
+            [stats.regions.toString(), "Regions"],
+            [stats.types.toString(), "Categories"],
           ].map(([num, label]) => (
             <div key={label}>
               <span className="text-3xl font-bold text-white">{num}</span>

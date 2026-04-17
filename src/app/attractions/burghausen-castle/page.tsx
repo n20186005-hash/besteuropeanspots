@@ -1,0 +1,224 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '博格豪森城堡 Burghausen Castle｜漫步欧洲最长城堡之巅，触摸巴伐利亚的千年脊梁 - 最佳欧洲景点',
+  description: '第一眼看到博格豪森城堡，你的呼吸会不由自主地屏住。它不像新天鹅堡那样童话，也不像海德堡那样浪漫伤怀。它横亘在萨尔察赫河畔一道细长的山脊上，像一条沉睡的石质巨龙，灰褐色的身躯在阳光下泛着冷峻的光泽，超过一公里的长度带来的是一种纯粹的、压倒性的视觉震撼。你从老城那些色彩斑斓的房屋间抬起头，城堡的阴影几乎...',
+}
+
+export default function BurghausenCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '博格豪森城堡', href: '/attractions/burghausen-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`博格豪森城堡・Burghausen Castle・德国・博格豪森`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到博格豪森城堡，你的呼吸会不由自主地屏住。它不像新天鹅堡那样童话，也不像海德堡那样浪漫伤怀。它横亘在萨尔察赫河畔一道细长的山脊上，像一条沉睡的石质巨龙，灰褐色的身躯在阳光下泛着冷峻的光泽，超过一公里的长度带来的是一种纯粹的、压倒性的视觉震撼。你从老城那些色彩斑斓的房屋间抬起头，城堡的阴影几乎覆盖了半个天空，那种感觉不是欣赏，而是被一种古老而沉默的力量所凝视。
+走进城堡的主城门，时间的气味立刻扑面而来——不是霉味，而是一种混合了陈年木料、冷冽石壁和远处河岸飘来的湿润青草的气息。脚下是被数百年马蹄和靴子打磨得异常光滑的鹅卵石路，脚步声在两侧高耸的塔楼墙壁间发出空洞的回响，仿佛还能听见昔日卫兵交错的低语。这里不是与世隔绝的孤堡，它的一侧紧贴着博格豪森老城红瓦屋顶的温暖生活，另一侧则俯瞰着宁静的萨尔察赫河与对岸奥地利小镇的田园风光。城堡既是凌驾一切的统治者，也是守护着一方烟火人间的巨人。
+最打动人心的，是行走在那道号称“欧洲最长”的城墙上。风毫无遮挡地吹过耳畔，带来远处教堂的钟声和河水的潺潺声。你的左手边是德国巴伐利亚的市井喧嚣，右手边是奥地利上奥州的宁静田野，而你正走在历史曾反复争夺的边境线上。每一步，都能感受到脚下巨石承载的重量——不仅仅是物理的，更是数个世纪以来公爵的野心、骑士的忠诚、战争的创伤与和平的渴望。这不是一个冰冷的景点，而是一段可以用双脚丈量、用皮肤感受的活历史。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到博格豪森城堡，你的呼吸会不由自主地屏住。它不像新天鹅堡那样童话，也不像海德堡那样浪漫伤怀。它横亘在萨尔察赫河畔一道细长的山脊上，像一条沉睡的石质巨龙，灰褐色的身躯在阳光下泛着冷峻的光泽，超过一公里的长度带来的是一种纯粹的、压倒性的视觉震撼。你从老城那些色彩斑斓的房屋间抬起头，城堡的阴影几乎覆盖了半个天空，那种感觉不是欣赏，而是被一种古老而沉默的力量所凝视。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走进城堡的主城门，时间的气味立刻扑面而来——不是霉味，而是一种混合了陈年木料、冷冽石壁和远处河岸飘来的湿润青草的气息。脚下是被数百年马蹄和靴子打磨得异常光滑的鹅卵石路，脚步声在两侧高耸的塔楼墙壁间发出空洞的回响，仿佛还能听见昔日卫兵交错的低语。这里不是与世隔绝的孤堡，它的一侧紧贴着博格豪森老城红瓦屋顶的温暖生活，另一侧则俯瞰着宁静的萨尔察赫河与对岸奥地利小镇的田园风光。城堡既是凌驾一切的统治者，也是守护着一方烟火人间的巨人。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，是行走在那道号称“欧洲最长”的城墙上。风毫无遮挡地吹过耳畔，带来远处教堂的钟声和河水的潺潺声。你的左手边是德国巴伐利亚的市井喧嚣，右手边是奥地利上奥州的宁静田野，而你正走在历史曾反复争夺的边境线上。每一步，都能感受到脚下巨石承载的重量——不仅仅是物理的，更是数个世纪以来公爵的野心、骑士的忠诚、战争的创伤与和平的渴望。这不是一个冰冷的景点，而是一段可以用双脚丈量、用皮肤感受的活历史。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`博格豪森城堡`} />
+                <InfoRow label="英文名称" value={`Burghausen Castle`} />
+                <InfoRow label="正式名称" value={`Burghausen Castle`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`博格豪森`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`欧洲现存长度最长的城堡建筑群，是巴伐利亚公爵的权力象征与中欧中世纪军事防御体系的巅峰之作。`} />
+                <InfoRow label="建筑特色" value={`一座沿狭窄山脊绵延超过一公里的宏伟防御工事，由六座独立庭院前后相连构成，被誉为“石头筑成的战舰”。`} />
+                <InfoRow label="建筑风格" value={`以中世纪晚期的哥特式防御建筑为核心，并融合了后续文艺复兴时期的宫殿扩建与巴洛克风格的内部装饰元素。`} />
+                <InfoRow label="文化价值" value={`不仅是一座军事堡垒，更是维特尔斯巴赫王朝历史、中世纪宫廷生活与巴伐利亚—奥地利边境地区数百年政治博弈的鲜活见证。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡庭院及大部分室外区域全年开放，但主要建筑（如主堡、博物馆）的开放时间为4月至10月，每日上午9:00至下午18:00；11月至3月，开放时间缩短为上午10:00至下午16:00，且每周一闭馆（节假日除外）。圣诞节及元旦当天关闭。塔楼登顶可能因天气原因临时关闭。`} />
+              <InfoRow label="门票价格" value={`城堡庭院及外围城墙免费开放。进入主堡历史博物馆及塔楼需购票：成人票6.5欧元，优惠票（学生、老年人、残疾人）5.5欧元，家庭票（2成人+儿童）13欧元。6岁以下儿童免费。提供与博格豪森城市博物馆的联票。现场购票为主，支持现金及主流信用卡。`} />
+              <InfoRow label="地址" value={`Burg 1, 84489 Burghausen, Germany`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是慕尼黑机场（MUC）。从慕尼黑中央火车站乘坐RE（区域快车）或ALX（阿尔卑斯快线）列车前往博格豪森火车站，车程约1小时40分钟，每小时至少一班车。从博格豪森火车站步行至城堡山脚约15-20分钟；也可在站前乘坐当地巴士（如619路）至“Altstadt”（老城）站，再步行5分钟即达城堡入口。自驾游客可将车停在山脚下的“Parkhaus am Burgberg”停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`博格豪森城堡的故事，始于巴伐利亚最显赫的维特尔斯巴赫家族。早在1025年的文献中，这里就有了防御工事的记载，但真正让它脱胎换骨的，是13世纪末。当时，下巴伐利亚的公爵们将这里定为重要的行宫和堡垒，开始大兴土木。城堡之所以被修建得如此狭长而坚固，根本原因在于其无与伦比的战略位置：它牢牢扼守着萨尔察赫河的一个关键渡口，这条河是当时巴伐利亚与奥地利哈布斯堡王朝领土的自然边界。控制这里，就等于掌控了盐路（一条古老的贸易通道）和军事要冲。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡的黄金时代与一位传奇女性紧密相连——波兰-匈牙利国王之女，巴伐利亚公爵夫人海德薇。1390年代，在她摄政期间，城堡不仅得到了大规模扩建，形成了今天六重庭院的格局，更从一个纯粹的军事堡垒转变为繁荣的宫廷文化中心。你可以想象，在那个时代，长长的走廊里回荡着不只是士兵的脚步声，还有乐师演奏的旋律、学者辩论的声音，以及各国使节穿梭的身影。城堡内的壁画、华丽的房间，很多都源于那个相对富足和平的时期。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，边境的和平总是短暂的。15至17世纪，城堡经历了最严酷的战争洗礼。在兰茨胡特继承战争、三十年战争等一系列冲突中，这座“石舰”一次次证明了自己坚不可摧的价值。它巨大的城墙、深深的壕沟和层层设防的庭院，让来犯者望而生畏。尤其是在1632年，面对瑞典军队的猛烈进攻，城堡守军凭借其地形和工事顽强抵抗，成为了地区抵抗的象征。战争也改变了城堡的面貌，不断加厚的城墙、新增的棱堡和炮台，都诉说着那个火器逐渐主宰战场的时代。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`随着火炮威力的增长和国界的逐渐稳定，城堡的军事价值在18世纪后逐渐衰落。它一度被用作军营、监狱，甚至陷入了年久失修的境地。19世纪浪漫主义时期，人们重新“发现”了这座中世纪瑰宝，开始了初步的修复。但真正系统的保护与考古研究，要到20世纪中后期才全面展开。今天，我们看到的不仅是保存完好的建筑外壳，城堡内部的公爵起居室、骑士大厅、小教堂和博物馆，都经过精心修复和布展，试图向你还原那段剑与盐、权力与艺术的复杂历史。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在上午9点半左右抵达，这时晨雾散去，阳光正好照亮城堡东侧，光线非常适合拍照，而且旅游团大部队还未到来。整个深度游览需要4到5小时，节奏宜缓不宜急。先从外部感受其宏大规模，再深入内部探究细节，最后用城墙漫步作为高潮和收尾。这样的安排能让你由远及近、由表及里地理解这座城堡，避免一开始就陷入建筑细节而忽略了其整体的地形气势。记得穿一双绝对舒适的鞋子，因为你将步行很长的距离，并且有许多陡峭的阶梯。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`尽量避免周末下午前往，那时本地家庭游客较多，城墙步道会显得拥挤。城堡内部分楼梯非常狭窄陡峭，且地面石板光滑，穿防滑的平底鞋是必须的。博物馆内的解说牌以德文为主，建议提前在官网下载英文导览PDF或考虑租用语音导览器。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从老城广场出发，沿着陡峭的“城堡小径”向上攀登，第一眼看到宏伟主城门时记得停下脚步感受那份压迫性的震撼力`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过第一庭院（Torwart庭院），在古老的马厩建筑前想象中世纪骑士与战马进出时的喧嚣场景`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`重点参观第二庭院内的城堡博物馆，花时间细看那些维特尔斯巴赫家族的珍宝、中世纪盔甲以及展现城堡建造过程的模型`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`踏入第五庭院的公爵住所，在装饰着16世纪华丽壁画的“美女房间”里找寻关于海德薇公爵夫人的传说痕迹`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上城堡制高点——钟楼，在猎猎风中将超过一公里的城堡全景、蜿蜒的萨尔察赫河以及德奥两国的边境风光尽收眼底`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着北侧城墙由西向东缓步行走，用手触摸冰凉的垛口，在不同的拐角处停下欣赏对老城和奥地利乡村截然不同的视角`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后从东端的“花园庭院”出来，沿着一条更平缓的小径下山，回望城堡全貌，完成这次时空穿越之旅`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`主城门仰拍机位`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在第一庭院外的斜坡上向上仰拍，利用石拱门作为画框，能捕捉到塔楼直插云霄的雄伟气势和石墙的质感细节`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`从萨尔察赫河对岸（奥地利一侧）拍摄全景`}</h4>
+                  <p className="text-sm text-gray-700">{`最佳时间是晴天的下午，阳光从西侧照亮城堡立面，使用长焦镜头可以压缩空间，拍出城堡如长城般绵延在山脊上的经典画面`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`第五庭院拱窗视角`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，站在公爵住所某个石拱窗前向外拍摄，以古老的窗棂为前景，框住远处老城教堂的尖顶和红瓦屋顶，形成古今对话`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城墙步道中段拐角`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前约一小时，站在城墙向北突出的一个棱堡拐角，顺光拍摄城墙自身曲折的线条和影子，同时将萨尔察赫河的一湾碧水纳入构图`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用无人机拍摄前，务必确认当地法规，城堡及周边空域可能有严格限制。室内博物馆严禁使用闪光灯和三脚架。拍摄当地居民（尤其是老城内的）最好先微笑示意，获得默许。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`老城心藏`}</h4>
+                  <p className="text-sm text-blue-800">{`住在城堡山脚下老城区的百年木筋屋改造的家庭旅馆，清晨推开窗就能看到城堡石墙，伴着面包房的香味开始一天`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色穿越`}</h4>
+                  <p className="text-sm text-green-800">{`选择住在由城堡外围古老建筑改建的精品酒店，房间保留着原始的石头墙壁和厚重的木梁，夜晚格外宁静，仿佛睡在历史里`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`河景悠然`}</h4>
+                  <p className="text-sm text-yellow-800">{`入住萨尔察赫河畔的现代设计酒店，在房间的阳台或露台上，就能同时欣赏城堡在水中的倒影和对岸奥地利的田园牧歌`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`乡间疗愈`}</h4>
+                  <p className="text-sm text-purple-800">{`驱车十分钟到城堡背后的巴伐利亚乡村，入住有机农庄的客房，体验真正的田园宁静，并以远离尘嚣的视角眺望山脊上的城堡剪影`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿非常紧俏，尤其是夏季和圣诞市场期间，务必提前数月预订。博格豪森治安极佳，但老城街道夜晚照明较暗，建议携带小手电。选择河畔住宿时，注意询问停车位情况，部分酒店车位有限。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开博格豪森城堡很久以后，脑海里最清晰的不是某个具体的房间或展品，而是那种在漫长城墙上独自漫步的、开阔而略带孤独的感觉。在那条石脊上，你同时被历史和地理包围。它用一种极其物理的方式告诉你，什么是边界，什么是家园，什么是守护。在一个国界早已模糊的欧盟时代，行走于此，更能体会到和平的来之不易与可贵。这座城堡没有讲述单一的英雄史诗，它堆积的是无数普通士兵的驻守、工匠的汗水、公爵的算计与平民的生活，所有这些层叠在一起，才构成了它的重量。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率、喜欢短平快体验的世界里，博格豪森城堡要求你慢下来，用脚步去丈量一公里，用时间去消化几个世纪。它不提供瞬间的童话幻梦，而是给予一种沉静而坚实的力量。每一位热爱深度游的旅人，都应该来此走一走。不仅仅是为了打卡“欧洲之最”，更是为了让自己站在那道古老的石墙上，迎着同样的风，去触碰一段真实、复杂、未曾被过度粉饰的欧洲脊梁。它会让你对“历史”这个词，产生一种全新的、肌肉记忆般的理解。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/tuebingen-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    图
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图宾根大学城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tübingen</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/danube-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    多
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">多瑙沃特古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Danube Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/trier-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特里尔主教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trier Cathedral</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

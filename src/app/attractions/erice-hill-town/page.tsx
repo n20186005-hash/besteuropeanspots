@@ -1,0 +1,240 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '埃里切山城 Erice｜云端中世纪城堡与神话迷雾，西西里岛最美山城的时空穿越之旅 - 最佳欧洲景点',
+  description: '我记得缆车门关上，缓缓离开特拉帕尼平原的那一刻，世界突然被抽走了颜色和声音，只剩下上升的轻微嗡鸣。然后，云雾像牛奶一样漫进车厢，窗外一片纯白。就在你以为会永远迷失在这片白茫茫里时，缆车猛地穿出了云层。阳光倾泻而下，眼前豁然开朗——一座金光闪闪的石头城，巍然屹立在云海之上的一座山峰之巅，如同神话中突然...',
+}
+
+export default function EriceHillTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '埃里切山城', href: '/attractions/erice-hill-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`埃里切山城・Erice・意大利・西西里岛特拉帕尼省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`我记得缆车门关上，缓缓离开特拉帕尼平原的那一刻，世界突然被抽走了颜色和声音，只剩下上升的轻微嗡鸣。然后，云雾像牛奶一样漫进车厢，窗外一片纯白。就在你以为会永远迷失在这片白茫茫里时，缆车猛地穿出了云层。阳光倾泻而下，眼前豁然开朗——一座金光闪闪的石头城，巍然屹立在云海之上的一座山峰之巅，如同神话中突然浮现的空中岛屿。那一瞬间的震撼，我至今记得呼吸的停顿。
+踏上埃里切的土地，首先包裹你的是气味。清冽的、带着高山松柏和远处海风咸味的空气，混合着从街角面包房飘出的热腾腾的杏仁甜点（他们叫它“Genovesi”）的焦糖香气，还有石缝里顽强生长的迷迭香和百里香的辛辣气息。脚下是被无数脚步打磨得温润发亮的石灰岩板路，每一步都发出沉稳的“嗒嗒”声，回声在狭窄的巷道里被放大。这里的寂静是醇厚的，偶尔被远处教堂的钟声、某扇木门“吱呀”开启的声音，或是老太太在阳台上抖落毯子的声音划破。当地人过着一种与山下截然不同的、近乎凝滞的优雅节奏。你会看到老爷爷坐在广场长椅上，一坐就是一下午，看着云影在山谷里游走；店主不急着招揽生意，而是在店里安静地编织着传统的手工地毯。
+埃里切最打动人心的，正是这种极致的反差与融合。它是坚硬的，坚硬的石头，坚硬的城堡墙壁，诉说着三千年的军事与宗教征服史。但它又是柔软的，柔软如终年缭绕的雾气，柔软如家家户户窗台上怒放的天空葵，柔软如当地人那略带疏离却无比真诚的微笑。你在这里，同时踩在历史的磐石与神话的云端。它不是一座仅供观赏的博物馆，而是一个依然在缓慢呼吸、带着自己独特心跳的有机生命体。每一个转角，都可能遇见一个供奉着圣母的小神龛，其底座却是一块刻着腓尼基铭文的古老石块——文明的层叠在这里如此直观，如此触手可及。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`我记得缆车门关上，缓缓离开特拉帕尼平原的那一刻，世界突然被抽走了颜色和声音，只剩下上升的轻微嗡鸣。然后，云雾像牛奶一样漫进车厢，窗外一片纯白。就在你以为会永远迷失在这片白茫茫里时，缆车猛地穿出了云层。阳光倾泻而下，眼前豁然开朗——一座金光闪闪的石头城，巍然屹立在云海之上的一座山峰之巅，如同神话中突然浮现的空中岛屿。那一瞬间的震撼，我至今记得呼吸的停顿。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`踏上埃里切的土地，首先包裹你的是气味。清冽的、带着高山松柏和远处海风咸味的空气，混合着从街角面包房飘出的热腾腾的杏仁甜点（他们叫它“Genovesi”）的焦糖香气，还有石缝里顽强生长的迷迭香和百里香的辛辣气息。脚下是被无数脚步打磨得温润发亮的石灰岩板路，每一步都发出沉稳的“嗒嗒”声，回声在狭窄的巷道里被放大。这里的寂静是醇厚的，偶尔被远处教堂的钟声、某扇木门“吱呀”开启的声音，或是老太太在阳台上抖落毯子的声音划破。当地人过着一种与山下截然不同的、近乎凝滞的优雅节奏。你会看到老爷爷坐在广场长椅上，一坐就是一下午，看着云影在山谷里游走；店主不急着招揽生意，而是在店里安静地编织着传统的手工地毯。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`埃里切最打动人心的，正是这种极致的反差与融合。它是坚硬的，坚硬的石头，坚硬的城堡墙壁，诉说着三千年的军事与宗教征服史。但它又是柔软的，柔软如终年缭绕的雾气，柔软如家家户户窗台上怒放的天空葵，柔软如当地人那略带疏离却无比真诚的微笑。你在这里，同时踩在历史的磐石与神话的云端。它不是一座仅供观赏的博物馆，而是一个依然在缓慢呼吸、带着自己独特心跳的有机生命体。每一个转角，都可能遇见一个供奉着圣母的小神龛，其底座却是一块刻着腓尼基铭文的古老石块——文明的层叠在这里如此直观，如此触手可及。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`埃里切山城`} />
+                <InfoRow label="英文名称" value={`Erice`} />
+                <InfoRow label="正式名称" value={`Erice`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`西西里岛特拉帕尼省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座雄踞悬崖之巅超过三千年、融合了腓尼基、希腊、诺曼与阿拉伯文明层叠记忆的“圣山”与战略堡垒。`} />
+                <InfoRow label="建筑特色" value={`全部由当地浅金色石灰岩筑成，迷宫般的石板小巷、隐秘的庭院、古老的教堂与坚固的城堡城墙浑然一体。`} />
+                <InfoRow label="建筑风格" value={`以诺曼式城堡和防御工事为核心，混合了阿拉伯风格的石砌工艺与后期西西里哥特式及巴洛克教堂装饰。`} />
+                <InfoRow label="文化价值" value={`一座活生生的“中世纪时间胶囊”，不仅是地理上的高处，更是理解西西里岛复杂文化层理与宗教史的精神高地。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`历史中心全天开放。主要景点如威纳斯城堡（Castello di Venere）、佩波利宫博物馆（Museo Cordici）及部分教堂开放时间一般为夏季（4月至9月）9:30-19:30，冬季（10月至3月）10:00-16:00，通常周一闭馆。具体开放时间可能因季节和宗教活动微调，建议行前查询官方网站。`} />
+              <InfoRow label="门票价格" value={`进入埃里切山城本身免费。威纳斯城堡和部分博物馆需购票，通常为全票5-8欧元，优惠票（学生、老人）3-5欧元。持有某些博物馆通票或有可能享受折扣。缆车（Funivia）单程票价约6欧元，往返约9欧元。`} />
+              <InfoRow label="地址" value={`Piazza della Loggia, 1, 91016 Erice TP, Italy`} />
+              <InfoRow label="交通方式" value={`最近的主要机场是特拉帕尼机场（TPS），距离约15公里；也可从巴勒莫机场（PMO）驾车约1.5小时抵达。从特拉帕尼市中心出发最浪漫的方式是乘坐缆车（Funivia），起点在特拉帕尼的Via Capua，缆车缓缓爬升约750米，耗时10分钟，俯瞰盐田和海景，班次频繁。亦可自驾或搭乘AST公司的巴士上山，沿蜿蜒的山路行驶约30分钟。自驾者需注意，山顶古城内为ZTL限行区，需将车停在城外的指定停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲埃里切的故事，得从一层神秘的迷雾开始。早在公元前，西地中海最古老的航海民族之一——腓尼基人，就一眼相中了这座海拔751米、三面都是悬崖的锥形山峰。他们不是看中这里的风景，而是看中了它的“高度”。在腓尼基人的信仰里，山是连接天与地的圣所。他们在这里建起了一座宏伟的神庙，祭祀他们的女神阿斯塔特，一位掌管爱、战争与星辰的神祇。埃里切，从此成为地中海世界一个重要的朝圣地。你可以想象，古代的水手们历经风浪，远远看到这座云端之城，心中的敬畏与祈盼。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间之轮转到希腊人统治西西里的时代。他们来了，看到了这座圣山和当地原住民埃利米人，然后做了一件非常希腊的事：他们用自己的神话覆盖了这里。腓尼基的阿斯塔特女神，摇身一变，成了希腊的爱与美之神阿佛洛狄忒（维纳斯）。传说，特洛伊英雄埃涅阿斯在特洛伊陷落后漂流至此，他的母亲维纳斯正是在这里与他相会。埃里切的名字，也从此与这位女神紧密相连，“Venus Erycina”的名号响彻地中海的希腊与罗马世界。罗马人后来接管了这里，将崇拜延续，甚至从罗马元老院派专人管理神庙，其宗教地位之高可见一斑。那些散落在古城各处、被用作教堂地基或民居墙角的巨大石块，很多都来自这些远古的神庙，沉默地承载着最初的信仰。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`中世纪的战火与信仰更迭，给埃里切披上了另一层坚硬的外壳。阿拉伯人曾短暂统治，留下了精湛的石砌技术和一些地名。但真正塑造了今天我们看到的埃里切风貌的，是诺曼人。12世纪，诺曼伯爵罗杰一世从阿拉伯人手中夺取西西里后，他的儿子罗杰二世下令，在古老神庙的遗址上，用神庙本身的巨石，建造了那座雄伟的威纳斯城堡（Castello di Venere）和坚固的城墙。这是何等的象征！用异教神庙的石头，筑起基督教世界的军事堡垒。城堡的佩波利塔（Torre del Balio）高高耸立，像一柄插入云端的利剑，宣示着新的权力与秩序。与此同时，虔诚的修士和修女们也来了，他们在城里建起了几十座教堂和修道院，钟声开始定时响起，与古老的精灵传说共同飘荡在雾气中。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`此后的埃里切，在西班牙贵族、地方领主的管理下，继续着它高高在上、略显孤寂的岁月。它不再是宗教中心，而更像一个坚固的贵族据点和一个俯瞰特拉帕尼湾与埃加迪群岛的绝佳瞭望哨。它的繁荣渐渐沉淀为一种内向的、保守的优雅。石头房子越建越密，小巷越来越深，生活节奏也仿佛被山间的云雾拖慢。这种近乎停滞的状态，意外地使它完美保存了中世纪晚期的城镇肌理，躲过了山下世界工业革命的剧烈冲刷。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`直到20世纪，埃里切才以一种新的方式重回世界的视野。这要感谢一位著名的科学家：埃托雷·马约拉纳，还有后来在此设立的科学文化中心。更重要的是，感谢像朱塞佩·托马西·迪·兰佩杜萨（《豹》的作者）这样的文化精英，他们重新发现了这座山城无与伦比的历史与美学价值。道路修通了，缆车建起来了，游客开始到来。但埃里切人似乎掌握了一种神奇的平衡术，他们欢迎探寻者，却坚决不让喧嚣的商业浪潮淹没自己石头般沉稳的本质。今天的你走在街上，看到的不仅是景点，更是一个社区依然顽强存续的、带着尊严的古老生活方式。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要充分感受埃里切的魔力，建议安排完整的一天。最佳方式是清晨从特拉帕尼乘坐第一班缆车上山（约9点），此时云雾未散，有最大机会体验“破云而出”的奇迹，而且能避开一日游的大批游客。整体游览节奏宜慢不宜快，核心在于“迷失”在小巷中的乐趣。建议先外围后中心，先用2-3小时沿着城墙和城堡区域行走，感受其宏伟气势和全景视野；再用2-3小时深入迷宫般的老城中心，探索教堂、广场和手工艺小店。午后光线柔和，是拍照和享受一杯当地甜酒的黄金时间。预留足够时间发呆和迷路，这才是埃里切的正确打开方式。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适防滑的鞋子，这里的石板路陡峭且光滑，尤其是在有雾潮湿的时候。
+山上的天气瞬息万变，即便山下晴空万里，也务必带一件防风外套或薄毛衣，云雾带来的湿冷很具穿透力。
+如果想获得最宁静的体验，尽量避开七八月的周末和意大利公共假日，平日的上午和傍晚是感受山城灵魂的最佳时段。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从缆车站走出来，不要急着进城，先左转沿着Via dell‘Addolorata走到悬崖边的观景台，让壮阔的特拉帕尼湾、盐田和埃加迪群岛在晨光中给你第一个视觉冲击。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过古老的圣约翰门（Porta di San Giovanni），正式踏入中世纪，顺着主街Via Vittorio Emanuele向上，感受石板路在脚下延伸，两旁是挂着铁艺招牌的古老店铺。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要拐进那些看似不起眼的窄巷，比如Vicolo di San Rocco，用双手触摸两边冰凉光滑的石墙，抬头看一线天光，聆听自己脚步的回响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`抵达山顶的威纳斯城堡和佩波利塔，花时间绕着城堡围墙走一圈，从各个角度俯瞰脚下翻滚的云海和远处的大海，想象诺曼骑士在此驻守的岁月。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡下来，寻着钟声找到圣马丁诺母教堂（Chiesa Matrice），仔细看它那独立而精美的钟楼和混合了诺曼与哥特风格的大门，门口常有老人安静地坐着。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在教堂前的皮埃特广场（Piazza della Loggia）停下来，坐在长椅上，观察本地人的生活流动，也许买一个用油纸包着的热乎“Genovesi”杏仁酥。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`随意选择一条下山的小路，比如Via Conte Agostino Pepoli，去探访佩波利宫博物馆，那里收藏着从古城各处发掘出的“维纳斯埃里切那”雕像残骸，是连接神话的实体证据。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前，找一家面向西方的咖啡馆或酒吧（比如靠近城堡花园的），点一杯马尔萨拉甜酒或一杯意式咖啡，看着夕阳将石头房子染成蜜糖金色，等待山下平原的灯火逐一点亮。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`缆车上升中途抓拍`}</h4>
+                  <p className="text-sm text-gray-700">{`在缆车即将抵达山顶站、尚未进站时，迅速向古城方向拍摄，可以捕捉到城堡、教堂钟楼与下方云海或特拉帕尼全景同框的经典构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`威纳斯城堡的佩波利塔庭院`}</h4>
+                  <p className="text-sm text-gray-700">{`站在塔楼下的庭院中，用广角镜头仰拍，将古老的石塔、飘扬的旗帜与作为背景的湛蓝天空一同纳入，充满史诗感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣卡特琳娜教堂旁的窄巷（Vicolo San Cataldo）`}</h4>
+                  <p className="text-sm text-gray-700">{`午后三四点，阳光斜射入巷子，在古老的石墙上形成美丽的光影分割线，等待一个当地人或一只猫走过，营造故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`从母教堂（Chiesa Matrice）的台阶向下望`}</h4>
+                  <p className="text-sm text-gray-700">{`以教堂古老的石门框作为前景，聚焦于下面蜿蜒下降的石头街道和远处隐约的海平面，层次感极强。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`黄昏时的城堡西侧城墙`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，沿着城墙向西走，找到缺口，将镜头对准被温暖金色光线笼罩的古城屋顶、教堂钟楼以及远方渐渐沉入暮色的海岸线。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`埃里切的光线因云雾而变幻莫测，善于利用“漫射光”，这种柔和的光线非常适合拍摄石头纹理和人像，正午的强烈反差反而难以驾驭。`}</li>
+                <li>• {`拍摄当地居民，尤其是老人，务必先微笑示意并征得同意，他们通常很友好，但直接的镜头冒犯会破坏这里的宁静氛围。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在山下特拉帕尼市中心，选择一家由古老宫殿改造的B&B，既能享受更丰富的餐饮夜生活，又能每天乘坐浪漫的缆车通勤，体验“上山下山”的仪式感。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`住在埃里切古城内的石头老宅民宿，这些房子通常有数百年历史，保留了原始的拱顶和厚墙，夜晚当游客散去，你能独享山城的星空与绝对寂静，清晨被教堂钟声唤醒。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择埃里切城墙边或附近山丘上的精致小型酒店，这些酒店往往拥有无敌的私人露台或花园，提供由当地食材烹制的精致晚餐，让你在私密空间里尽享云端落日与繁星。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐修之旅`}</h4>
+                  <p className="text-sm text-purple-800">{`尝试预订由古老修道院部分改建的静修之所（有时也接待旅客），环境极为清幽简朴，能让你深度体验这座“圣山”与世隔绝、沉思冥想的一面。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`埃里切古城内的住宿数量非常有限且极其抢手，尤其是在旅游旺季和重要宗教节日期间，务必提前数月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`山城入夜后非常安静，几乎没有夜生活，餐饮选择也有限，喜欢热闹的游客可能会觉得寂寞，但这正是沉浸式体验的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`部分老宅民宿可能没有电梯，且位于陡峭的巷弄深处，携带大型行李会非常不便，建议轻装简行或事先与房东沟通确认。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开埃里切许久，我时常会想起那里终年不散的雾。它不仅仅是一种天气现象，更像是这座山城的灵魂外显。雾来了，将现代的、嘈杂的一切暂时屏蔽在外，只留下石头、寂静和千年的记忆。雾散了，世界又以一种崭新、锐利的清澈呈现眼前，大海、岛屿、盐田，尽收眼底。这种在“隐匿”与“显现”之间的永恒摆动，或许就是埃里切教给我最重要的事。在这个追求极致清晰、高速和曝光的时代，它提醒我们“朦胧”的价值，“缓慢”的力量，以及“高度”所带来的不同视角。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，每一位热爱深度游的旅人，都应该来一次埃里切。你来，不是为了收集又一个“打卡”景点，而是为了经历一场小小的“修行”。攀登，无论是乘坐缆车还是徒步，本身就是一种脱离凡俗的仪式。在这里，你会被迫慢下来，你的感官会变得敏锐，你会重新注意到光影在石头上的移动，注意到空气中味道的层次，注意到时间原来可以有另一种密度。你会发现，真正的抵达，不是在地图上标一个点，而是让一个地方的气息、光线和节奏，慢慢渗透进你的记忆里，成为你理解这个世界复杂性与美感的一部分。埃里切，就是这样一个值得你交付一天时光，去安静聆听自己心跳与历史回声的云端圣所。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mantua" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    曼
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">曼托瓦古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mantua</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ragusa-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉古萨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ragusa</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/luni-archaeological-site" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卢
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卢尼古罗马遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Luni Archaeological Site</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

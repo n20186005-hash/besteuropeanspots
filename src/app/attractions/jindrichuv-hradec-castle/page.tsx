@@ -1,0 +1,227 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '因德日赫城堡 Jindřichův Hradec｜波西米亚巨型文艺复兴水上宫殿 - 最佳欧洲景点',
+  description: '朋友，想象一下这个画面：你穿过波西米亚南部那些起伏的、被金色阳光晒得暖洋洋的丘陵，忽然，一片巨大的、如童话插画般的建筑群撞进眼帘。它不是孤零零地立在山崖上，而是优雅地、几乎慵懒地舒展在好几片明镜般的池塘之间，粉白与赭石色的墙壁倒映在水里，随着微风碎成千万片晃动的光斑。这就是你对因德日赫城堡的第一眼—...',
+}
+
+export default function JindrichuvHradecCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '因德日赫城堡', href: '/attractions/jindrichuv-hradec-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`因德日赫城堡・Jindřichův Hradec Castle・捷克・南波希米亚州，因德日赫城堡镇`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下这个画面：你穿过波西米亚南部那些起伏的、被金色阳光晒得暖洋洋的丘陵，忽然，一片巨大的、如童话插画般的建筑群撞进眼帘。它不是孤零零地立在山崖上，而是优雅地、几乎慵懒地舒展在好几片明镜般的池塘之间，粉白与赭石色的墙壁倒映在水里，随着微风碎成千万片晃动的光斑。这就是你对因德日赫城堡的第一眼——它不像个森严的堡垒，更像一个从水里生长出来的梦幻宫殿。
+走近时，空气的味道变了。湿润的水汽混合着老石头被晒热后散发出的、略带尘土味的暖香，飘进你的鼻腔。脚下是巨大的鹅卵石铺就的路，行李箱轮子在上面发出咕隆咕隆的闷响，提醒你这里的时间节奏截然不同。绕过墙角，那座标志性的、被称作“黑塔”的圆柱形高塔赫然耸立，它不是纯黑，而是历经风雨后的深沉的青灰色，沉默地俯瞰着底下弧形拱廊里穿梭的稀疏人影。你能听到的最清晰的声音，是池塘里野鸭扑翅的声响，和远处小镇广场隐约传来的钟鸣。
+真正让它活起来的，是它与小镇生活的无缝衔接。城堡的一侧是宁静的池塘与花园，另一侧直接连着老城的广场和蜿蜒小巷。当地的老人们会沿着池塘慢跑，孩子们在城堡外墙根下追逐。它不像博物馆里被玻璃罩起来的展品，而是小镇居民日常风景的一部分，一个巨大而美丽的背景板。这种奇妙的融合，消解了历史的沉重感，让你觉得，那位16世纪的领主或许只是刚刚出门散步去了，炉火还温着。
+它的核心魅力，就在于这种“反差”与“和谐”。建筑本身的宏伟与水景的柔美形成反差；作为国家级古迹的庄严与日常市井生活的烟火气形成和谐。当你站在那座横跨水面的拱廊下，一边是深不见底的幽暗水色，一边是阳光灿烂、开满鲜花的文艺复兴庭院，你会瞬间明白，为什么文艺复兴精神——那种对美、对生活、对人文的极致追求——能在这里找到如此完美的物质载体。它不是一个冰冷的石头壳子，而是一个曾经充满宴会、音乐、艺术讨论和爱情故事的家。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，想象一下这个画面：你穿过波西米亚南部那些起伏的、被金色阳光晒得暖洋洋的丘陵，忽然，一片巨大的、如童话插画般的建筑群撞进眼帘。它不是孤零零地立在山崖上，而是优雅地、几乎慵懒地舒展在好几片明镜般的池塘之间，粉白与赭石色的墙壁倒映在水里，随着微风碎成千万片晃动的光斑。这就是你对因德日赫城堡的第一眼——它不像个森严的堡垒，更像一个从水里生长出来的梦幻宫殿。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近时，空气的味道变了。湿润的水汽混合着老石头被晒热后散发出的、略带尘土味的暖香，飘进你的鼻腔。脚下是巨大的鹅卵石铺就的路，行李箱轮子在上面发出咕隆咕隆的闷响，提醒你这里的时间节奏截然不同。绕过墙角，那座标志性的、被称作“黑塔”的圆柱形高塔赫然耸立，它不是纯黑，而是历经风雨后的深沉的青灰色，沉默地俯瞰着底下弧形拱廊里穿梭的稀疏人影。你能听到的最清晰的声音，是池塘里野鸭扑翅的声响，和远处小镇广场隐约传来的钟鸣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正让它活起来的，是它与小镇生活的无缝衔接。城堡的一侧是宁静的池塘与花园，另一侧直接连着老城的广场和蜿蜒小巷。当地的老人们会沿着池塘慢跑，孩子们在城堡外墙根下追逐。它不像博物馆里被玻璃罩起来的展品，而是小镇居民日常风景的一部分，一个巨大而美丽的背景板。这种奇妙的融合，消解了历史的沉重感，让你觉得，那位16世纪的领主或许只是刚刚出门散步去了，炉火还温着。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，就在于这种“反差”与“和谐”。建筑本身的宏伟与水景的柔美形成反差；作为国家级古迹的庄严与日常市井生活的烟火气形成和谐。当你站在那座横跨水面的拱廊下，一边是深不见底的幽暗水色，一边是阳光灿烂、开满鲜花的文艺复兴庭院，你会瞬间明白，为什么文艺复兴精神——那种对美、对生活、对人文的极致追求——能在这里找到如此完美的物质载体。它不是一个冰冷的石头壳子，而是一个曾经充满宴会、音乐、艺术讨论和爱情故事的家。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`因德日赫城堡`} />
+                <InfoRow label="英文名称" value={`Jindřichův Hradec Castle`} />
+                <InfoRow label="正式名称" value={`State Castle Jindřichův Hradec`} />
+                <InfoRow label="国家" value={`捷克`} />
+                <InfoRow label="城市" value={`南波希米亚州，因德日赫城堡镇`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`南波西米亚地区规模第三大的城堡建筑群，是捷克境内最宏伟的文艺复兴风格水上宫殿代表。`} />
+                <InfoRow label="建筑特色" value={`庞大的建筑群环绕三个池塘而建，部分建筑直接矗立水中，拥有标志性的弧形拱廊与高耸的黑塔。`} />
+                <InfoRow label="建筑风格" value={`最初为哥特式城堡，在16世纪被大规模改建为辉煌的意大利式文艺复兴宫殿。`} />
+                <InfoRow label="文化价值" value={`见证了从防御要塞到奢华贵族宅邸的功能转变，是研究波西米亚地区文艺复兴艺术与贵族生活的重要实物。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`四月至十月开放，具体为周二至周日 9:00 - 16:00（最后入场时间），周一闭馆。七月和八月旺季延长至17:00关闭。十一月到次年三月仅周末和预约开放。城堡内部参观必须跟随导览团，捷克语导览每小时整点出发，英语导览团每天仅有下午1点一场（旺季可能增加），请务必提前在官网确认并预留足够时间。`} />
+              <InfoRow label="门票价格" value={`提供多条游览路线。基础路线（文艺复兴宫殿）成人票约为180捷克克朗，优惠票（学生、老人）120捷克克朗。包含黑塔、城堡博物馆等的完整联票约为280捷克克朗。6岁以下儿童免费。家庭票有优惠。所有门票需在城堡售票处购买，支持现金（捷克克朗）和信用卡。`} />
+              <InfoRow label="地址" value={`Dobrovského 1/I, 377 01 Jindřichův Hradec, Czechia`} />
+              <InfoRow label="交通方式" value={`从布拉格出发最为便捷。在布拉格中央火车站（Hlavní nádraží）乘坐前往捷克布杰约维采（České Budějovice）方向的火车，约2小时15分钟直达因德日赫城堡镇火车站。火车班次频繁，约每小时一班，建议通过捷克铁路（ČD）官网或APP提前购票，选择价格更优的提前票。火车站步行至城堡约15分钟，沿途会穿过迷人的老城广场，是完美的热身。若自驾，从布拉格沿D3/E55公路向南约1小时45分钟车程。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`这个故事得从一张权力与水源交织的网开始说起。13世纪初，一位名叫因德日赫（Jindřich）的维特克家族贵族，看中了这片沼泽与池塘环绕的战略要地。水，既是天然的防御壕沟，也是未来繁荣的命脉。最初的城堡是典型的哥特式，厚重、务实，以那座至今仍屹立不倒的“黑塔”为核心，功能纯粹是为了守护领土和征收途经此地的贸易路线的税费。在接下来的两百年里，城堡在维特克家族及其分支的手中平稳传承，就像一块被精心擦拭的家族盾徽。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，真正让城堡脱胎换骨的转折点，发生在16世纪。当时的主人，亚当二世·赫拉德茨，是一位深受意大利文艺复兴新风潮影响的年轻领主。他可不满足于住在阴冷、只为打仗设计的石头堡垒里。在游历了阿尔卑斯山南麓那些美第奇家族的华丽宫殿后，一个疯狂的梦想在他心中成形：他要将祖传的城堡，改造成波西米亚的“水上佛罗伦萨”。于是，一场持续数十年的浩大工程开始了。意大利的建筑师和艺术家被请来，他们用轻盈优雅的弧形拱廊取代了沉重的城墙，在庭院里绘制了色彩绚烂的壁画，开凿了巨大的文艺复兴式花园。最天才的一笔，是将城堡建筑与原有的池塘体系完美融合，让宫殿仿佛漂浮在水上，倒影成为建筑不可或缺的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`亚当二世和他的儿子们，不仅建造了宫殿，更在这里培育了一个灿烂的文化沙龙。城堡里设立了当时罕见的大型图书馆、音乐厅和艺术收藏室。来自欧洲各地的学者、音乐家和思想家在此聚会。传说中，城堡里甚至有一个精巧的“音乐喷泉”，泉水会随着隐秘的水力风琴装置奏出的旋律而跳舞。这段时间，是城堡黄金时代的顶峰，它从一个军事据点，彻底转变为文艺复兴人文精神的灯塔，光芒照亮了整个南波西米亚。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`可惜，盛极而衰是历史的常态。1620年白山战役后，作为新教贵族的赫拉德茨家族因参与反抗哈布斯堡王朝而失势，城堡被没收并转交给了天主教贵族。虽然新主人继续维护着它，但那个充满自由思想和艺术创造力的黄金时代已然落幕。更大的灾难在1773年降临：一场毁灭性的大火席卷了城堡，内部华丽的装潢、珍贵的藏书和无数艺术品化为灰烬。巨大的穹顶坍塌，黑塔被熏得更黑，这座水上明珠陷入了长达一个多世纪的沉睡与荒芜。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`直到19世纪末，一股浪漫主义的怀旧浪潮和民族意识的觉醒，才让人们重新将目光投向这片美丽的废墟。新的主人，切尔宁家族，开始以当时的历史保护理念对其进行修复。他们并没有试图完全复原文艺复兴的原貌，而是更像一位谨慎的外科医生， stabilizing 结构，保护残存的壁画，并新建了部分新文艺复兴风格的宅邸，与古老部分对话。这个过程一直持续到20世纪。如今，作为捷克国家所有的文化遗产，它仍在被精心呵护。当你触摸那些被火烧过的石柱，或仰望穹顶上新旧交替的壁画痕迹时，你触摸到的是一部立体的、有伤痕也有新生的史诗，而不仅仅是某一刻凝固的辉煌。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正领略这座水上宫殿的精髓，强烈建议预留一整天时间（至少6小时）。最佳抵达时间是上午9点城堡开门时，此时游客最少，晨光柔和，能拍到池塘无风的完美倒影。整体节奏应是“由外到内，由静到动”：先从外部环绕池塘欣赏全景，感受它的环境与气场；然后进入内部跟随导览，聆听历史故事；最后在花园和小镇漫步，体验它与当代生活的联结。务必提前查好并锁定下午1点的英语导览团，这是探索宫殿内部的唯一钥匙，其他时间可以灵活安排外部游览、登塔和参观博物馆。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必提前在城堡官网确认英语导览时间并早于开场时间15分钟购票，因为每团人数有限，旺季极易满员。城堡内部大部分区域地面是古老石砖或木地板，请务必穿着舒适防滑的鞋子，高跟鞋在此是灾难。小镇治安极好，但池塘边小路晚间照明有限，建议日落前结束游览。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨先从城堡东侧的小径开始，沿着涅扎尔卡池塘漫步，从水对岸完整欣赏宫殿群与黑塔倒映在如镜水面上的双重影像。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过古老的石桥进入城堡第一庭院，仰头看那些三层高的、绘有精美文艺复兴图案的弧形拱廊，感受光线在廊柱间游走的韵律。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随英语导览团踏入文艺复兴宫殿内部，在曾是盛大舞厅的骑士大厅里，想象脚下地板随着古提琴节奏微微震颤，空气中弥漫蜡烛与葡萄酒的香气。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上黑塔那狭窄的螺旋石阶，在塔顶的露天回廊上迎风而立，360度俯瞰红屋顶的老城、交织的池塘与远方无尽的绿色山丘。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观城堡博物馆，在小巧却精致的展厅里寻找那架著名的“克里姆普琴”和描绘大火前城堡盛况的古老版画，拼接历史的碎片。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在城堡后方静谧的文艺复兴花园里找个长椅坐下，听蜜蜂在薰衣草花丛中嗡嗡作响，看修剪整齐的绿篱投下几何形状的阴影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从花园侧门走出，自然地汇入因德日赫老城广场的日常生活，在广场边的百年咖啡馆点一杯醇厚的捷克啤酒，看夕阳为黑塔的塔尖镀上金色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`涅扎尔卡池塘东岸长堤`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时内或日落前黄金一小时，将相机贴近水面，利用广角镜头拍摄宫殿与黑塔的完整倒影，构图时让实景与倒影对称，画面宁静而富有魔力。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`第三庭院拱廊下层`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，站在拱廊阴影里，向外拍摄被阳光照得雪亮的庭院中央喷泉与对面被廊柱框住的建筑立面，强烈的明暗对比能拍出戏剧性的意大利风情。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`黑塔顶楼瞭望口`}</h4>
+                  <p className="text-sm text-gray-700">{`登上塔顶后，找到面向老城广场方向的石制瞭望口，将相机镜头透过这个天然的画框，拍摄下方色彩缤纷的巴洛克山墙屋顶和广场上如蚂蚁般微小的行人，形成有趣的尺度对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`花园通往玫瑰亭的砂石小径`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点侧光时分，蹲低身体，让路径两旁的薰衣草或玫瑰作为前景，聚焦于路径尽头那座小巧优雅的古典亭子，延伸的线条和柔和的焦外能营造出浪漫的纵深感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用无人机拍摄全景前，务必事先查询捷克当地法规并确认该区域是否属于禁飞区，城堡上空常有保护性限制。室内导览期间通常严禁拍照（尤其是使用闪光灯），请尊重规定，将注意力完全沉浸在讲解和观察中，室外的美景足够你拍个痛快。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`小镇中心遗产`}</h4>
+                  <p className="text-sm text-blue-800">{`入住老城广场旁一栋16世纪市民住宅改造的精品酒店，木梁天花板吱呀作响，早晨推开窗就能闻到楼下面包房飘来的新鲜烤面包香气，和广场喷泉的潺潺水声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`湖畔静谧居所`}</h4>
+                  <p className="text-sm text-green-800">{`选择城堡附近涅扎尔卡池塘边上的家庭式公寓，带一个可以垂钓的小露台，夜晚在绝对寂静中，只有鱼儿跃出水面的声音和城堡被灯光打亮的倒影陪你入眠。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`庄园奢华体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车十分钟前往郊外一座19世纪新文艺复兴风格的迷你庄园酒店，住在拥有挑高壁画天花板的套房，在私人花园里享用包含本地野味和池塘鲜鱼的晚餐，体验现代版的贵族闲适。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`经济背包客之选`}</h4>
+                  <p className="text-sm text-purple-800">{`火车站附近由热心老夫妇经营的民宿，房间简单却一尘不染，早餐丰盛得惊人，老板会手绘一张只有本地人才知道的、通往城堡隐秘角落的小地图给你。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（7-8月）和圣诞市场期间是绝对旺季，住宿需提前至少两个月预订方能抢到心仪位置。小镇非常安全，夜晚独自漫步也无妨，但大部分餐厅和小店会在晚上9点前关门，请规划好晚餐时间。选择住在老城内虽然价格稍高，但能获得无与伦比的沉浸式体验，清晨和傍晚独享城堡美景的时光千金难换。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开因德日赫城堡好些日子了，我脑海里反复回放的，不是某个具体的房间或壁画，而是一种感觉——一种“恰如其分”的和谐感。这座城堡没有强加给你历史的沉重包袱，没有炫耀般的金碧辉煌，它只是静静地在那里，与水、与光、与小镇的日常呼吸共生共息。它让你看到，伟大的遗产不是供在神坛上的，它可以是一个社区温暖而坚实的心脏。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求快速、刺激和碎片化的时代，因德日赫提供了一种截然相反的旅行解药：慢下来的深度。它要求你花时间环绕它，从不同角度理解它；要求你耐心等待一场为数不多的导览，去聆听墙壁诉说的故事；它甚至要求你接受那场大火带来的残缺，因为正是这种残缺，让历史变得真实可触，而非完美的布景。在这里，你能真切地感受到“时光”这个抽象概念所具有的质感、重量和温度。它不仅仅是一个景点，更是一个让你重新学习如何观察、如何感受、如何与过去从容对话的宁静课堂。如果你厌倦了浮光掠影的打卡，渴望一场能沉淀到心里的旅行，那么，请来南波西米亚，赴这场与水上宫殿的约会。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/telc-square" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特尔奇广场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Telč Square</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/karlovy-vary-spa-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡罗维发利温泉镇</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Karlovy Vary</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lednice-valtice-cultural-landscape" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莱
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莱德尼采-瓦尔季采文化景观</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lednice–Valtice Cultural Landscape</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

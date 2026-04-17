@@ -1,0 +1,228 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿纳尼 Anagni ｜ 探访教皇的隐秘夏宫与中世纪时光胶囊 - 最佳欧洲景点',
+  description: '当你把罗马的喧嚣甩在身后，火车穿过一片片橄榄园和起伏的丘陵，远远看到那座灰白色的城镇像一顶王冠般扣在山顶时，心里会“咯噔”一下——就是它了。那种感觉不是看到佛罗伦萨圣母百花大教堂时的惊叹，而是一种近乎神秘的召唤。走进 Porta Santa Maria 古城门，时间“唰”地一声被抽走了好几个世纪。脚...',
+}
+
+export default function AnagniPapalCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '阿纳尼（教皇的故乡）', href: '/attractions/anagni-papal-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿纳尼（教皇的故乡）・Anagni・意大利・阿纳尼`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你把罗马的喧嚣甩在身后，火车穿过一片片橄榄园和起伏的丘陵，远远看到那座灰白色的城镇像一顶王冠般扣在山顶时，心里会“咯噔”一下——就是它了。那种感觉不是看到佛罗伦萨圣母百花大教堂时的惊叹，而是一种近乎神秘的召唤。走进 Porta Santa Maria 古城门，时间“唰”地一声被抽走了好几个世纪。脚下是光滑到映出天光的石板路，被无数代人的脚步和马车轮子磨出了深深的凹槽。空气里有股好闻的味道，是阳光烤热石头的气息、某户人家飘出的炖肉香，还有从隐秘庭院里钻出来的月桂和迷迭香的清冽。
+这里的安静是另一种热闹。你听不到旅游团的喇叭声，只有自己的脚步声在狭窄的“Vicoli”（小巷）里回荡，偶尔被头顶晾衣绳上啪嗒啪嗒的衣物、或是某扇木窗后传来的意大利歌剧咏叹调打断。老太太们坐在自家门洞前的藤椅上，一边择菜一边用鹰一般锐利的目光打量着你这个外来客，但只要你冒出一句结结巴巴的“Buongiorno”，她们的脸上立刻会绽放出像核桃皮一样温暖深刻的笑容。这就是阿纳尼最打动人的地方：它不是一个博物馆式的景点，而是一个仍然被呼吸、被生活着的中世纪容器。
+而它的心脏，无疑是那座看似质朴的圣玛丽亚大教堂。但真正的奇迹藏在脚下。当你沿着狭窄的旋梯走下大教堂的地下室，灯光亮起的那一刻，你会忘记呼吸。整个地下空间，从拱顶到墙壁，被超过700平方米的13世纪镶嵌画覆盖。深蓝、赭石、金黄的碎片，在幽暗的光线下讲述着创世纪、科学、哲学与救赎的故事。那种扑面而来的、近乎蛮横的叙事力量和色彩冲击，会让你瞬间理解，为什么中世纪的人相信这里就是连接天堂与尘世的通道。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你把罗马的喧嚣甩在身后，火车穿过一片片橄榄园和起伏的丘陵，远远看到那座灰白色的城镇像一顶王冠般扣在山顶时，心里会“咯噔”一下——就是它了。那种感觉不是看到佛罗伦萨圣母百花大教堂时的惊叹，而是一种近乎神秘的召唤。走进 Porta Santa Maria 古城门，时间“唰”地一声被抽走了好几个世纪。脚下是光滑到映出天光的石板路，被无数代人的脚步和马车轮子磨出了深深的凹槽。空气里有股好闻的味道，是阳光烤热石头的气息、某户人家飘出的炖肉香，还有从隐秘庭院里钻出来的月桂和迷迭香的清冽。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里的安静是另一种热闹。你听不到旅游团的喇叭声，只有自己的脚步声在狭窄的“Vicoli”（小巷）里回荡，偶尔被头顶晾衣绳上啪嗒啪嗒的衣物、或是某扇木窗后传来的意大利歌剧咏叹调打断。老太太们坐在自家门洞前的藤椅上，一边择菜一边用鹰一般锐利的目光打量着你这个外来客，但只要你冒出一句结结巴巴的“Buongiorno”，她们的脸上立刻会绽放出像核桃皮一样温暖深刻的笑容。这就是阿纳尼最打动人的地方：它不是一个博物馆式的景点，而是一个仍然被呼吸、被生活着的中世纪容器。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而它的心脏，无疑是那座看似质朴的圣玛丽亚大教堂。但真正的奇迹藏在脚下。当你沿着狭窄的旋梯走下大教堂的地下室，灯光亮起的那一刻，你会忘记呼吸。整个地下空间，从拱顶到墙壁，被超过700平方米的13世纪镶嵌画覆盖。深蓝、赭石、金黄的碎片，在幽暗的光线下讲述着创世纪、科学、哲学与救赎的故事。那种扑面而来的、近乎蛮横的叙事力量和色彩冲击，会让你瞬间理解，为什么中世纪的人相信这里就是连接天堂与尘世的通道。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿纳尼（教皇的故乡）`} />
+                <InfoRow label="英文名称" value={`Anagni`} />
+                <InfoRow label="正式名称" value={`Anagni`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`阿纳尼`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`中世纪欧洲的权力中枢之一，被誉为“教皇之城”，四位教皇的出生地，并曾是教皇的夏季避暑和理政之所。`} />
+                <InfoRow label="建筑特色" value={`一座完美保存在山丘上的中世纪“石头城堡”，迷宫般的阶梯小巷、拱门和贵族宫殿，全部由当地灰白色石灰岩砌成。`} />
+                <InfoRow label="建筑风格" value={`以罗马式风格为基底，融合了哥特式和文艺复兴时期的装饰元素，呈现出一种未经大规模修复的、质朴而真实的中世纪风貌。`} />
+                <InfoRow label="文化价值" value={`一座活生生的中世纪政治与宗教史教科书，其大教堂地下宝库中的中世纪镶嵌画被认为是意大利罗马式艺术的巅峰杰作之一。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`历史中心全天开放。主要室内景点（如大教堂宝库、博尼法爵八世宫）开放时间通常为周二至周日 9:00-13:00, 15:00-18:00（冬季可能缩短），周一多数闭馆。务必在出发前查看最新信息，因为意大利小镇的开放时间非常“灵活”，常因工作人员午餐、私人活动或“一时兴起”而调整。`} />
+              <InfoRow label="门票价格" value={`漫步中世纪街道和历史中心区域完全免费。参观核心景点通常需购买联票（约10-12欧元），涵盖大教堂地下宝库、博物馆和博尼法爵八世宫。学生、老年人和团体通常有折扣。教堂主体免费进入，但那个举世闻名的地下宝库绝对值得你掏腰包。`} />
+              <InfoRow label="地址" value={`Piazza Innocenzo III, 03012 Anagni FR, Italy`} />
+              <InfoRow label="交通方式" value={`从罗马出发最便捷。在罗马 Termini 火车站乘坐前往卡西诺（Cassino）方向的区域火车（Regionale），在 Anagni-Fiuggi 站下车，车程约1小时，班次每小时1-2班。出站后，你需要一点冒险精神：穿过一片略显荒凉的现代街区，朝着远处山丘上那座轮廓清晰的中世纪古城步行约20-25分钟上山。或者，在车站前等待那班“神出鬼没”的本地巴士（班次稀少，需提前查好），它会把你送到古城门口。自驾的话，从罗马沿A1高速公路向东，在Anagni出口下，跟随“Centro Storico”标志即可，但古城内停车位是珍贵的宝藏，最好停在城墙外的公共停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`阿纳尼的故事，是和教皇的权杖紧紧缠绕在一起的。早在罗马帝国时代，这里就是富裕的避暑胜地，但真正让它登上历史舞台中央的，是中世纪。它被称为“教皇之城”绝非虚名，光是出生在这里的教皇就有四位，最著名的当属英诺森三世和博尼法爵八世。想象一下，在13世纪，当罗马的夏天酷热难耐且政局动荡时，教皇和他的整个教廷，就像候鸟一样，迁徙到这座凉爽的山城。一时间，红衣主教的紫袍穿梭于这些石巷，各国的使节在小广场上焦急等待召见，神学争论与政治密谋在那些宏伟的宫殿里同时上演。阿纳尼，成了基督教世界实际上的夏都。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，最高光的时刻，往往伴随着最深的耻辱。1303年9月7日，一场震惊整个欧洲的戏剧在这里上演。这就是著名的“阿纳尼之辱”。当时的教皇博尼法爵八世，正与法国国王腓力四世进行一场关于世俗权力与神权孰高孰低的终极较量。博尼法爵八世当时就在阿纳尼的家族宫殿里。法国国王的首相纪尧姆·德·诺加雷，带着一队士兵和博尼法爵的意大利政敌科隆纳家族的人，冲进了阿纳尼。他们闯入教皇寝宫，据说当时年迈的教皇正身穿全套圣袍，手持十字架和钥匙，坐在宝座上等待。冲突中，教皇甚至挨了一记耳光（尽管历史学家对此有争议）。他被囚禁了三天，备受凌辱。虽然当地居民后来起义赶走了袭击者，救出了教皇，但这位曾宣称“教皇权力至高无上”的倔强老人，身心遭受重创，一个月后便在罗马郁郁而终。这一事件，被普遍视为中世纪教皇至高无上权力衰落的标志性起点。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`教皇宫廷的辉煌渐渐远去，阿纳尼也随之沉静下来，退回到省城的生活节奏中。正因为这种“退场”，它才意外地得以保存。它没有经历文艺复兴或巴洛克时期大规模的“现代化”改造，也没有被后来的旅游大潮彻底冲刷变形。那些13世纪的宫殿外墙依然斑驳，窗户还是细长的罗马式拱窗，街角的纹章模糊但依然可辨。它像一块琥珀，将中世纪教皇城的政治气息、宗教狂热和日常生活，原封不动地凝固在了石灰岩的肌理之中。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`甚至到了近代，它还在默默见证历史。墨索里尼曾在这里与教皇庇护十一世签署了奠定现代意大利政教关系的《拉特兰条约》。你走在街上，看到的不仅是中世纪，也是一层层叠加的、活生生的意大利历史。这里的每一块石头，都听过密谋的低语、庆典的钟声、平凡的炊烟，它们共同构成了这座小镇沉重而又轻盈的灵魂。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要品味阿纳尼，你需要一整天，并且最好从清晨开始。早上九点前抵达，能让你独享古城苏醒时的魔力：阳光刚刚洒满最高的塔楼，面包店飘出第一炉“cornetto”（牛角包）的黄油香，清洁工冲刷石板路的水声格外清脆。整体游览需要5-6小时，节奏应该是慢而沉浸的。建议先从外围感受它的轮廓，再深入核心，最后在黄昏时分回到高点，看夕阳为这座石头城镀上金色。这样的安排能让你从宏观到微观，从历史到生活，完整地体验这座“教皇之城”的层次。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周二可能是参观博物馆类景点的最佳日子，避开了意大利本地人热衷的周末短途游，但切记周一很多场馆关闭。穿着绝对要舒适，一双能应对不规则石板路和无数台阶的步行鞋是唯一正确的选择。小镇居民非常友好，但拍照当地人或他们的住所前，一个微笑和手势征求同意是必要的礼貌。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从Porta Santa Maria城门进入，让自己立刻迷失在那些以拱门相连、时而陡峭时而盘旋的“salita”（上坡路）和“vicolo”（小巷）里，这是唤醒中世纪感官的最佳方式。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到地势较高的观景点，比如 via Dante Alighieri 沿途的某些缺口，停下来转身俯瞰山下辽阔的拉丁姆平原，理解教皇们选择此地的战略与审美眼光。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`直奔阿纳尼的灵魂——圣玛丽亚大教堂广场，先不急于进去，坐在广场边的台阶上，观察人们如何自然地在教堂门前的咖啡馆、在但丁雕像下聚集、聊天。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`带着敬畏之心步入大教堂，花时间仰望中殿木制天花板上的彩绘，然后毫不犹豫地购票，沿着狭窄的楼梯下到那个被称作“诸圣之教堂”的地下宝库，准备迎接视觉与心灵的震撼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂出来后，沿着指示牌步行两分钟，拜访著名的博尼法爵八世宫，站在那个据说发生过“阿纳尼之辱”事件的大厅里，想象1303年那个改变历史的混乱清晨。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在古城中心寻觅一家由古老酒窖改造的餐厅享用漫长午餐，一定要点一份当地特色的“porchetta”（香草烤乳猪）和一杯来自附近葡萄园的 Cesanese 红酒。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后沿着 via Vittorio Emanuele 和 via Garibaldi 散步，辨认那些贵族宫殿门楣上不同的家族纹章，尝试解读这些石质“名片”背后的权力博弈。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前，寻路前往古城西侧的公共花园或城墙遗迹，找一张长椅坐下，看着夕阳将整个古城染成蜜糖色，聆听晚钟从大教堂的钟楼响起，回荡在山谷之间。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`Porta Santa Maria 城门内侧仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光时分，站在门洞内向外拍，可以捕捉到拱门完美的几何框架，以及门外延伸的古老街道和远处蓝天，层次感极强。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`大教堂地下宝库细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`利用手机或相机的微距功能，在允许不开闪光灯的情况下，贴近拍摄镶嵌画的一小部分（比如先知的脸部或一个象征符号），那千年前手工切割的玻璃和石片质感会让你着迷。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从 via San Paolo 的小广场眺望`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏前半小时，这个位于古城边缘的小平台能让你将大教堂的钟楼、一片错落的红瓦屋顶和远方绵延的丘陵一同纳入镜框，充满生活与史诗交织的氛围。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`博尼法爵八世宫拱廊光影`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光垂直射入内庭拱廊时，会产生强烈的明暗对比，站在庭院一角，拍摄拱廊下光影切割的空间，能拍出极具戏剧感和历史沧桑感的建筑局部。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`地下宝库内严格禁止使用闪光灯和三脚架，这是为了保护极其脆弱的中世纪镶嵌画，请务必遵守。小镇的夜景照明非常有限且富有情调，尝试提高相机的ISO，捕捉窗户里温暖的灯光与深蓝色夜幕的对比，会得到很有氛围感的照片。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`古城中心历史住宅`}</h4>
+                  <p className="text-sm text-blue-800">{`入住一栋经过精心修复的15世纪贵族宅邸公寓，拥有原始的石头墙壁和木梁天花板，清晨推开百叶窗，楼下广场咖啡馆的叮当声就是你的起床铃。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`乡间农庄体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择古城外车程十分钟内的橄榄园农庄，住在由古老石屋改造的舒适房间里，晚上在无边泳池边品尝庄园自产的橄榄油，仰望毫无光污染的璀璨星空。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`精品酒店之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于古城入口一座19世纪优雅建筑内，现代设计风格与古老结构巧妙融合，屋顶露台拥有俯瞰全城的最佳早餐视野，服务员能给你讲出每个角落的秘闻。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`经济温馨民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`由当地热情夫妇经营的B&B，房间简单干净，充满家的气息，女主人会为你准备丰盛的意式早餐，并手绘一张只有当地人才知道的秘密散步地图。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`阿纳尼的夜晚极其宁静，几乎没有任何夜生活，这是体验中世纪“宵禁”感的一部分，喜欢热闹的旅人需知。预订古城内的住宿时，务必确认是否有停车安排，否则拖着行李在陡峭的石板路上寻找门牌会是噩梦。许多小型住宿只在主流预订平台之外运营，直接通过他们的网站或电话预订，有时会有惊喜价格和更个性化的服务。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开阿纳尼时，你带走的可能不是一张明信片般的标准风景照，而是一种复杂的、沉甸甸的情绪。你会记得石头冰凉的触感，地下宝库里那种近乎窒息的美丽，还有小巷里老太太对你微笑时眼角的皱纹。这个地方没有试图讨好谁，它只是在那里，保持着它原本的傲慢与谦卑、辉煌与创伤。它让你触摸到历史不是教科书上扁平的文字，而是具体到一声叹息、一记耳光、一抹在幽暗地窖中闪烁了八百年的金色光芒。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求瞬时刺激、一切都被打磨得光滑亮丽的快节奏世界里，阿纳尼的存在就像一个坚定的提醒。它告诉我们，真正的深度不在于打卡了多少地标，而在于你是否愿意走进一段凝固的时间，去聆听石头沉默的叙述，去感受权力与信仰曾经如何剧烈地碰撞，然后又如何尘埃落定，化为平民窗前的一盆天竺葵。每一位热爱深度游的旅人，都应该来一次阿纳尼。它是一次对中世纪灵魂的探访，一堂关于历史兴衰的沉浸课，更是一场提醒我们自己——在宏大历史叙事之外，平凡而坚韧的日常生活，才是最终承载一切的永恒力量。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/ancient-city-amelia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿梅利亚古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Ancient City of Amelia</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lucca-old-town-walls" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卢
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卢卡古城墙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lucca Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/orvieto-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔维耶托大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Orvieto Cathedral</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

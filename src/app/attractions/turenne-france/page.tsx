@@ -1,0 +1,240 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '蒂雷讷 Turenne｜探访昔日独立的袖珍王国，登上高塔俯瞰法国最美乡村 - 最佳欧洲景点',
+  description: '你得把车停在半山腰的停车场，然后步行往上走。第一眼看到蒂雷讷，它不像一个镇，更像一头沉睡在绿色海洋中的巨兽的脊背——那是一座孤零零的、巨大的石灰岩山丘，顶上密密麻麻挤满了蜂蜜色的石头房子，在阳光下暖洋洋的。最顶上，两座一高一矮、颜色深浅不一的古老塔楼刺向天空，像是巨兽尚未收起的犄角。空气里有股好闻的...',
+}
+
+export default function TurenneFrancePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '蒂雷讷', href: '/attractions/turenne-france' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`蒂雷讷・Turenne・法国・科雷兹省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`你得把车停在半山腰的停车场，然后步行往上走。第一眼看到蒂雷讷，它不像一个镇，更像一头沉睡在绿色海洋中的巨兽的脊背——那是一座孤零零的、巨大的石灰岩山丘，顶上密密麻麻挤满了蜂蜜色的石头房子，在阳光下暖洋洋的。最顶上，两座一高一矮、颜色深浅不一的古老塔楼刺向天空，像是巨兽尚未收起的犄角。空气里有股好闻的味道，是干燥的石头被太阳烘烤后散发的温热气息，混合着远处林地里飘来的松脂香和不知名野花的淡淡甜味。
+沿着“子爵之路”那蜿蜒陡峭的鹅卵石小径往上爬，你的脚步声在安静的小镇里显得格外清晰，偶尔能听到某扇古老的木百叶窗被风吹得轻轻磕碰的声响。你会发现，这里几乎没有“景点”的喧嚣感，它就是一个活着的、呼吸着的村庄。老奶奶在自家门口晒着太阳打毛线，花猫在斑驳的石墙上懒洋洋地踱步，深巷里飘出炖菜的香气。蒂雷讷的核心魅力，就在于这种极致的反差：它拥有一个王国般辉煌的历史名头，却过着最恬静、最本真的乡村生活。你不是来“参观”一个博物馆，你是来走进一段依然在缓慢流淌的时光。
+当你终于站在小镇中心的钟楼广场，喘着气回望来路时，那种震撼才完全抵达。360度的视野毫无遮挡，科雷兹省连绵起伏的绿色丘陵、点缀其间的红色屋顶小村、蜿蜒发亮的河流，像一幅巨大的地毯在你脚下无尽铺展。风在这里变得具体，它呼啸着穿过塔楼的箭孔，仿佛能听见昔日卫兵的低语。你会突然明白，为什么当年的子爵们能在这里坚守独立数百年——这不仅仅是一座堡垒，这是一个世界。一个可以俯瞰、掌控，并深深眷恋的微型世界。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`你得把车停在半山腰的停车场，然后步行往上走。第一眼看到蒂雷讷，它不像一个镇，更像一头沉睡在绿色海洋中的巨兽的脊背——那是一座孤零零的、巨大的石灰岩山丘，顶上密密麻麻挤满了蜂蜜色的石头房子，在阳光下暖洋洋的。最顶上，两座一高一矮、颜色深浅不一的古老塔楼刺向天空，像是巨兽尚未收起的犄角。空气里有股好闻的味道，是干燥的石头被太阳烘烤后散发的温热气息，混合着远处林地里飘来的松脂香和不知名野花的淡淡甜味。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`沿着“子爵之路”那蜿蜒陡峭的鹅卵石小径往上爬，你的脚步声在安静的小镇里显得格外清晰，偶尔能听到某扇古老的木百叶窗被风吹得轻轻磕碰的声响。你会发现，这里几乎没有“景点”的喧嚣感，它就是一个活着的、呼吸着的村庄。老奶奶在自家门口晒着太阳打毛线，花猫在斑驳的石墙上懒洋洋地踱步，深巷里飘出炖菜的香气。蒂雷讷的核心魅力，就在于这种极致的反差：它拥有一个王国般辉煌的历史名头，却过着最恬静、最本真的乡村生活。你不是来“参观”一个博物馆，你是来走进一段依然在缓慢流淌的时光。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你终于站在小镇中心的钟楼广场，喘着气回望来路时，那种震撼才完全抵达。360度的视野毫无遮挡，科雷兹省连绵起伏的绿色丘陵、点缀其间的红色屋顶小村、蜿蜒发亮的河流，像一幅巨大的地毯在你脚下无尽铺展。风在这里变得具体，它呼啸着穿过塔楼的箭孔，仿佛能听见昔日卫兵的低语。你会突然明白，为什么当年的子爵们能在这里坚守独立数百年——这不仅仅是一座堡垒，这是一个世界。一个可以俯瞰、掌控，并深深眷恋的微型世界。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`蒂雷讷`} />
+                <InfoRow label="英文名称" value={`Turenne`} />
+                <InfoRow label="正式名称" value={`Turenne`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`科雷兹省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`法国历史上少数长期保持独立地位的子爵领地，一个名副其实的“袖珍王国”。`} />
+                <InfoRow label="建筑特色" value={`雄踞于巨大石灰岩山丘之巅，以残留的两座巍峨高塔和环绕山势层层叠叠的蜂蜜色石屋为标志。`} />
+                <InfoRow label="建筑风格" value={`中世纪防御工事与文艺复兴时期民居的混合体，呈现出历经数百年演变的有机生长形态。`} />
+                <InfoRow label="文化价值" value={`见证了法国封建时期地方领主自治的辉煌与终结，是理解法国中央集权进程中“外省”独特性的活化石。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇全天开放，主要历史遗迹如钟楼和恺撒塔的开放时间通常为夏季（4月至9月）10:00-18:00，冬季（10月至3月）时间缩短或仅周末开放，具体需查询当地旅游局网站。小镇博物馆开放时间较为有限，建议提前确认。`} />
+              <InfoRow label="门票价格" value={`进入蒂雷讷古镇本身免费。参观钟楼和恺撒塔等遗迹通常需要支付小额费用（约3-5欧元），有时包含在联合门票中。学生、儿童及团体可能有优惠。具体价格随季节和展览内容略有浮动。`} />
+              <InfoRow label="地址" value={`Place de la Mairie, 19500 Turenne, France`} />
+              <InfoRow label="交通方式" value={`蒂雷讷位于法国乡村腹地，公共交通不便，强烈建议自驾。最近的国际机场是利摩日（Limoges）机场，距离约70公里。从利摩日机场租车，沿A20高速公路向南，在布里夫拉盖亚尔德（Brive-la-Gaillarde）附近转D8/D3公路，约1小时15分钟车程可达。若乘坐火车，可抵达布里夫拉盖亚尔德火车站，再从火车站搭乘出租车前往蒂雷讷（约25分钟车程，需提前预约）。乡村巴士班次极少，不适合游客。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`说起蒂雷讷的故事，得从一个非常“不法国”的概念开始：独立。你知道吗？在巴黎的国王们忙着统一法兰西的那些漫长世纪里，蒂雷讷一直是一个国中之国。它的故事始于罗马人，他们最早看中了这个战略制高点。但真正让蒂雷讷成为传奇的，是公元9世纪前后出现的蒂雷讷子爵家族。这些领主狡猾、坚韧又极其幸运，他们通过精明的联姻、审时度势的站队，以及利用法国国王与英国国王、与教皇之间的各种矛盾，奇迹般地保住了自己的自治权。他们有自己的货币、自己的法律，甚至能独立宣战和媾和。想象一下，在巴黎的宫廷里，国王或许会皱着眉头看向地图上这个“钉子户”，而蒂雷讷的子爵，就在这座山巅的城堡里，享受着“我的领地我做主”的快意。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这个家族的鼎盛时期，大概要数12世纪。当时的蒂雷讷子爵雷蒙德，是个连“狮心王”理查都敢硬扛的狠角色。传说理查的军队围困蒂雷讷，久攻不下。子爵的城堡坚固，补给似乎也充足。最后，据说是因为子爵夫人用城堡里最后一点小麦烤了面包，从塔楼上扔给敌军的马匹，制造了粮草充足的假象，才让理查放弃了围攻。真伪已不可考，但这个故事流传下来，恰恰说明了蒂雷讷人的机敏和顽强。他们的独立不是靠蛮力，更是靠智慧和一种扎根于这片岩石的坚韧。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，没有永恒的独立。蒂雷讷的黄金时代在文艺复兴后期开始出现裂痕。历代子爵虽然精明，但庞大的债务逐渐拖垮了这个微型国家。最后的转折点发生在1738年。那时的蒂雷讷子爵，路易·德·拉图尔，已经是个空有头衔、囊中羞涩的贵族了。他做了一笔改变历史的交易：将整个蒂雷讷子爵领地的所有权利，卖给了法国国王路易十五。是的，不是被征服，而是被“赎回”。法国王室支付了巨款，而蒂雷讷作为一个政治实体，就此无声无息地融入了法兰西王国。城堡失去了军事价值，被逐渐拆毁，石头被当地人搬去盖房子。那两座留存下来的高塔——恺撒塔和钟楼，就像两位沉默的哨兵，目送着一个时代的终结。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天的宁静，是历史狂风暴雨后的沉淀。走在那些用城堡石块建起的老房子里，你能触摸到历史的另一种循环。王权吞并了领地，但领地的石头却化为了民居，继续滋养着一代代蒂雷讷人。从政治要塞到宁静山村，这种身份的转变，反而让它获得了另一种永恒。游客们爬上高塔，寻找的是那个独立王国的传奇背影；而当地居民在广场上喝着咖啡，过的是被传奇滋养的平凡日常。这两种时间，在这里奇妙地重叠在了一起。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`想要真正感受蒂雷讷的灵魂，请务必预留一个完整的下午，或者在此住上一晚。最佳抵达时间是午后三点以后，此时团队游客大多离去，光线开始变得金黄柔和。整体游览节奏应该是缓慢的、探索式的，全程大约需要3-4小时。建议从山脚下的停车场开始你的“朝圣”，一步步用双脚丈量这座山丘的高度和历史的分量。这样的安排能让你在黄昏时分正好抵达制高点，迎接一天中最辉煌的景色，并有机会看到古镇从金黄到粉紫的魔幻时刻。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适、防滑的步行鞋，古镇所有道路都是凹凸不平的原始鹅卵石或石板路
+小镇内几乎没有商业设施，只有一两家小餐馆和咖啡馆，且关门较早，最好自备少量饮用水，并提前规划用餐
+自驾前来，山脚下停车场免费但位置有限，旺季午后可能停满，尽量早些抵达`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从山脚停车场仰望，沿着那条名为“子爵之路”的陡峭石板路开始你的攀登，让脚步与历史对话`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过古老的圣安东城门，摸一摸那被无数人磨光滑的门洞石头，正式进入时光胶囊般的中世纪街巷`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在迷宫般的狭窄小巷里随心所欲地迷失，抬头看看那些不同年代、不同颜色的石屋如何在有限空间里共生`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到小镇中心的圣心教堂，在它简朴的外表和宁静的内廷里稍作停留，感受当地的信仰生活`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要登上那座方形厚重的“恺撒塔”，在狭窄的螺旋石阶尽头，迎接360度无死角的、令人屏息的乡村全景`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从高塔下来，去钟楼广场边的露天咖啡馆坐坐，点一杯本地产的苹果酒，看夕阳把对面钟楼的石头染成蜜糖色`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`趁着天光未尽，沿着城堡废墟旁的环山小径走一段，从另一个角度回望亮起点点灯火的古镇，像一颗镶嵌在山顶的宝石`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果机缘巧合，和当地小酒馆的老板聊聊天，听听他们口中关于“宝藏”或“秘密通道”的、代代相传的传说`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`山脚下D8公路的某个弯道`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，可以拍摄到古镇全景雄踞于山巅，背景是漫天晚霞的经典明信片角度`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`钟楼广场的石阶上`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光西斜时，以广场上的古老石井和鲜花为前景，将斑驳的钟楼塔身和远处的绿色山谷一同纳入镜头`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城堡废墟的残垣断壁间`}</h4>
+                  <p className="text-sm text-gray-700">{`利用断墙或拱门作为天然画框，聚焦于孤立高耸的恺撒塔，营造历史沧桑与残存威严的对比感`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“子爵之路”中段的某个拐角`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或午后，阳光斜射进小巷时，捕捉石墙上变幻的光影与爬藤植物交织的静谧细节`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`恺撒塔顶的瞭望口`}</h4>
+                  <p className="text-sm text-gray-700">{`将相机镜头贴近古老的石质窗棂，以窗框为引导，拍摄窗外如波浪般起伏的科雷兹田园全景图`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`黄昏的“黄金一小时”和日落后“蓝色时刻”是拍摄古镇外景和光影的绝佳时机，光线柔和，色彩层次丰富`}</li>
+                <li>• {`拍摄民居和当地居民时请务必保持尊重，先微笑示意，未经明确许可不要将镜头直接对准他人`}</li>
+                <li>• {`使用广角镜头可以更好地捕捉小巷的纵深感与高塔的雄伟，长焦镜头则适合压缩空间，拍摄山谷远景的层次`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`镇上仅有的几家家庭式民宿（Chambre d‘hôte），房间朴素但一尘不染，房东会为你准备丰盛的农家早餐，晚上能享受绝无光污染的静谧星空`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`租住一栋由文艺复兴时期老宅改造的度假石屋，拥有厚实的石墙、古老的壁炉和私密的小露台，自己从市场买回食材，体验一日真正的蒂雷讷居民`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车15分钟前往附近拉格莱尼耶尔（Laguenne）或科隆日拉鲁日（Collonges-la-Rouge）的精品庄园酒店，享受五星级设施与服务，同时以蒂雷讷作为白日探索的基地`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`露营亲近自然`}</h4>
+                  <p className="text-sm text-purple-800">{`山脚下或附近湖边设施完善的露营地，晚上在帐篷里聆听自然之声，清晨在鸟鸣中醒来，第一眼就看到山顶的古镇`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`蒂雷讷本镇住宿选择非常有限，且极其抢手，尤其在夏季和周末，务必提前数月预订`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果选择住在周边村镇，请务必确认有车，因为夜间完全没有公共交通，乡间道路也缺乏照明`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`此地治安极好，但乡村夜间活动稀少，享受的就是绝对的宁静，喜欢夜生活的旅人需调整期待`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开蒂雷讷时，我总觉得自己带走的不是照片，而是一种关于“尺度”的思考。在这个崇尚宏大叙事的世界里，这个曾经的小小王国，用它残留的两座高塔，倔强地提醒着我们：历史除了王朝更迭、战争史诗，还有这些由具体的人、家族和社区在特定山丘上构建的独特故事。它的伟大，不在于征服了多辽阔的土地，而在于它曾如此完整地拥有自己，保卫自己，并最终以一种平和的方式，将这个故事交还给了时间。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，每一位热爱深度游的旅人，都应该来蒂雷讷看看。它不是一个用来打卡的“景点”，而是一个需要你用心去丈量、去攀登、去想象的时空坐标。在这里，你攀登的不仅是一座物理的山，更是一座有关自治、身份与归属感的历史之山。当你站在塔顶，风吹乱头发，望着脚下那片几个世纪前被称为“我的领土”的风景时，你会感到一种奇特的自由。它告诉你，无论时代如何变迁，每个人内心深处，或许都藏着一个可以俯瞰自己世界的、独立的“蒂雷讷”。来这里，就是为了找到它，或者，只是安静地与之共处一个黄昏。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/najac-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    纳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳雅克</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Najac</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bourges-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布尔日大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bourges Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beauvais-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博韦大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beauvais Cathedral</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

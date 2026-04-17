@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '格利普霍姆堡 Gripsholm Castle｜梅拉伦湖上的童话堡垒与瑞典面孔博物馆 - 最佳欧洲景点',
+  description: '当我第一眼看到格利普霍姆堡时，它就像是从童话书的插页里直接搬出来的。火车穿过一片墨绿色的森林，视野豁然开朗，一片宽阔的、泛着银灰色光泽的湖水——梅拉伦湖，毫无预警地铺展在眼前。而就在湖心延伸出的一座小岛上，那座砖红色的城堡静静矗立着。不是高高在上的威严，而是一种略带憨厚的、积木般的可爱。圆滚滚的塔楼...',
+}
+
+export default function GripsholmCastleNationalPortraitGalleryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '格利普霍姆堡（国家肖像画廊）', href: '/attractions/gripsholm-castle-national-portrait-gallery' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`格利普霍姆堡（国家肖像画廊）・Gripsholm Castle (National Portrait Gallery)・瑞典・玛丽弗雷德`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当我第一眼看到格利普霍姆堡时，它就像是从童话书的插页里直接搬出来的。火车穿过一片墨绿色的森林，视野豁然开朗，一片宽阔的、泛着银灰色光泽的湖水——梅拉伦湖，毫无预警地铺展在眼前。而就在湖心延伸出的一座小岛上，那座砖红色的城堡静静矗立着。不是高高在上的威严，而是一种略带憨厚的、积木般的可爱。圆滚滚的塔楼顶着铜绿的尖顶，锯齿状的城垛在下午柔和的光线下拉出长长的影子，整个倒影在平静的湖水里，随着微波轻轻晃动。空气里有湖水微腥的气息，混合着岸边草地被太阳晒过的干爽味道，远处偶尔传来蒸汽船悠长的汽笛声，时间在这里，仿佛自动调慢了流速。
+走进玛丽弗雷德小镇，那种时光凝滞的感觉更强烈了。鹅卵石铺就的主街两旁，是糖果色系的木屋，漆成鹅黄、淡粉或天蓝色。本地人骑着老式自行车叮铃铃地经过，车篮里装着刚买的长条面包。城堡对于他们而言，不是遥远的景点，而是生活背景的一部分。你会看到一家人铺开野餐垫在正对城堡的草坪上，孩子们追逐着天鹅，老人则静静坐着，望着那看了几十年的风景。这里没有急匆匆的游客团，只有一种北欧特有的、安静的归属感。城堡的威严被湖水的温柔中和了，它更像一位慈祥的巨人，守护着小镇的日常。
+而这座城堡最奇妙的灵魂，藏在它的内部。当你跨过护城河上的石桥，穿过厚重的拱门，你会发现自己进入了一个截然不同的世界——一个由面孔组成的浩瀚宇宙。这里就是瑞典国家肖像画廊。从气势恢宏的骑士大厅到盘旋而上的古老楼梯间，甚至昔日国王的私人寝宫，每一面墙都挂满了肖像画。那不是冰冷的陈列，而是一场跨越五百年的盛大派对。你会遇见穿着华服、眼神锐利的古斯塔夫·瓦萨国王，他正是建造这座城堡的人；也会邂逅现代诺贝尔奖得主沉思的侧影，或是一位你叫不上名字却眼神动人的19世纪女诗人。光线从高窗洒下，在古老的地板上移动，照亮这一张又一张脸。你会突然意识到，这座城堡的“王权”早已褪色，它现在供奉的，是更为永恒的东西——一个民族记忆与身份的视觉史诗。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当我第一眼看到格利普霍姆堡时，它就像是从童话书的插页里直接搬出来的。火车穿过一片墨绿色的森林，视野豁然开朗，一片宽阔的、泛着银灰色光泽的湖水——梅拉伦湖，毫无预警地铺展在眼前。而就在湖心延伸出的一座小岛上，那座砖红色的城堡静静矗立着。不是高高在上的威严，而是一种略带憨厚的、积木般的可爱。圆滚滚的塔楼顶着铜绿的尖顶，锯齿状的城垛在下午柔和的光线下拉出长长的影子，整个倒影在平静的湖水里，随着微波轻轻晃动。空气里有湖水微腥的气息，混合着岸边草地被太阳晒过的干爽味道，远处偶尔传来蒸汽船悠长的汽笛声，时间在这里，仿佛自动调慢了流速。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走进玛丽弗雷德小镇，那种时光凝滞的感觉更强烈了。鹅卵石铺就的主街两旁，是糖果色系的木屋，漆成鹅黄、淡粉或天蓝色。本地人骑着老式自行车叮铃铃地经过，车篮里装着刚买的长条面包。城堡对于他们而言，不是遥远的景点，而是生活背景的一部分。你会看到一家人铺开野餐垫在正对城堡的草坪上，孩子们追逐着天鹅，老人则静静坐着，望着那看了几十年的风景。这里没有急匆匆的游客团，只有一种北欧特有的、安静的归属感。城堡的威严被湖水的温柔中和了，它更像一位慈祥的巨人，守护着小镇的日常。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而这座城堡最奇妙的灵魂，藏在它的内部。当你跨过护城河上的石桥，穿过厚重的拱门，你会发现自己进入了一个截然不同的世界——一个由面孔组成的浩瀚宇宙。这里就是瑞典国家肖像画廊。从气势恢宏的骑士大厅到盘旋而上的古老楼梯间，甚至昔日国王的私人寝宫，每一面墙都挂满了肖像画。那不是冰冷的陈列，而是一场跨越五百年的盛大派对。你会遇见穿着华服、眼神锐利的古斯塔夫·瓦萨国王，他正是建造这座城堡的人；也会邂逅现代诺贝尔奖得主沉思的侧影，或是一位你叫不上名字却眼神动人的19世纪女诗人。光线从高窗洒下，在古老的地板上移动，照亮这一张又一张脸。你会突然意识到，这座城堡的“王权”早已褪色，它现在供奉的，是更为永恒的东西——一个民族记忆与身份的视觉史诗。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`格利普霍姆堡（国家肖像画廊）`} />
+                <InfoRow label="英文名称" value={`Gripsholm Castle (National Portrait Gallery)`} />
+                <InfoRow label="正式名称" value={`Gripsholm Castle`} />
+                <InfoRow label="国家" value={`瑞典`} />
+                <InfoRow label="城市" value={`玛丽弗雷德`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`瑞典保存最完好的文艺复兴时期皇家城堡之一，也是瑞典国家肖像画廊的所在地，堪称一部用石头和画布写就的瑞典史。`} />
+                <InfoRow label="建筑特色" value={`一座被碧水环绕的砖红色堡垒，拥有浑圆的塔楼、锯齿状的城垛和童话般的轮廓，内部却装载着数千张描绘瑞典历史与文化的面孔。`} />
+                <InfoRow label="建筑风格" value={`以文艺复兴风格为主体，历经多次改建，融入了巴洛克、古斯塔夫等时期的装饰元素，形成独特的历史层次感。`} />
+                <InfoRow label="文化价值" value={`它不仅是王室权力的象征，更通过国家肖像画廊，成为了从国王到平民、从历史巨匠到当代明星的“瑞典全民家庭相册”，定义了瑞典的视觉记忆。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡与画廊开放时间随季节变化。通常5月至9月，每天开放，时间为10:00至16:00（部分日期延长至17:00）。10月至次年4月，仅在周末和学校假期开放，时间为12:00至15:00。具体日期每年会有微调，强烈建议出行前在其官方网站的“开放时间”日历页面进行最终确认。城堡内部在瑞典公共假日如仲夏节、圣诞节期间可能有特殊安排或关闭。`} />
+              <InfoRow label="门票价格" value={`成人票：160瑞典克朗。学生及20岁以下青少年：80瑞典克朗。7岁以下儿童免费。持斯德哥尔摩通卡（Stockholm Pass）可免费进入。门票为通票，包含城堡所有开放区域及国家肖像画廊。每年9月的某个周末有“文化遗产日”，城堡可能免费开放。`} />
+              <InfoRow label="地址" value={`Gripsholm Castle, 647 30 Mariefred, Sweden`} />
+              <InfoRow label="交通方式" value={`从斯德哥尔摩市中心出发是最佳选择。首先，在斯德哥尔摩中央车站乘坐开往“Läggesta”站的区域列车（Pendeltåg），约45-60分钟车程，班次频繁。抵达Läggesta站后，出站即可看到指示牌。你有两种浪漫选择：一是步行约20分钟穿过宁静的乡间小路直达城堡；二是乘坐经典的玛丽弗雷德蒸汽小火车（Mariefreds Järnväg，仅夏季特定日期运营）或复古的窄轨火车，体验10分钟穿越时光的旅程。更推荐在夏季从斯德哥尔摩市中心直接乘坐“M/S Mariefred”复古蒸汽船横穿梅拉伦湖，航程约3小时，沿途风光绝美，是体验的一部分。船在玛丽弗雷德小镇码头停靠，步行5分钟即到城堡。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从一位雄心勃勃的国王和一堆砖头说起。1537年，瑞典历史上一位关键人物——古斯塔夫·瓦萨国王，下令在梅拉伦湖的这个小岛上建造一座堡垒。他刚刚带领瑞典脱离卡尔马联盟获得独立，亟需巩固权力。这里地处水路要冲，既是防御工事，也是他展示新王朝力量的奢华行宫。最初的城堡是文艺复兴风格，用了大量当地的红砖，据说为了烧制这些砖，几乎掏空了附近的黏土矿。你可以想象，当时湖面上船只往来，运载着石材、木材和工匠，一座砖红色的巨人从水中央缓缓升起。古斯塔夫·瓦萨是个精明的统治者，他把这里既当作堡垒，也当作国库，甚至在此存放从解散的修道院里收缴来的财富。城堡的根基，就这样与瑞典现代国家的诞生紧密交织。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，城堡的命运并非总是辉煌。它最戏剧性的章节，与一位被囚禁的国王有关。1568年，古斯塔夫·瓦萨的儿子埃里克十四世，一位才华横溢却精神日渐不稳定的君主，被他的弟弟约翰三世政变推翻。埃里克就被囚禁在格利普霍姆堡内。传说他被关在城堡一座塔楼里，房间的窗户被封死，这位曾经梦想成为波罗的海霸主的国王，只能在黑暗中描绘星空和奇幻的地图来排遣孤独。他的故事给城堡厚重的砖墙增添了一层挥之不去的忧郁与悲剧色彩。直到今天，参观那些略显阴森的古旧房间时，你仿佛还能感受到那段权力斗争的残酷与个人命运的哀伤。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转，城堡在不同国王手中被不断改造、装饰，像一颗被反复打磨的宝石。17世纪，它被赋予了更华丽的巴洛克内饰；18世纪，它又经历了“古斯塔夫风格”的现代化改造，变得更为宜居。它曾是皇室心爱的夏日居所、狩猎驿站，也经历过被冷落、用作仓库甚至监狱的时期。但正是这些叠加的层次，让它避免了成为单一时代的呆板标本。走在里面，你能看到文艺复兴时期的壁画若隐若现，巴洛克风格的石膏装饰华丽炫目，19世纪浪漫主义风格的修复痕迹也清晰可辨。每一任主人都在这里留下了自己的印记，历史不是被清除，而是被一层层覆盖、对话。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`让格利普霍姆堡完成从皇家私产到国家宝藏这一华丽转身的，是19世纪末的一个决定。当时，瑞典意识到需要系统性地收藏记录国家历史人物的肖像。于是，1891年，国家肖像画廊正式入驻格利普霍姆堡。这个决定堪称神来之笔。空荡的宫殿房间找到了新的灵魂，而数千幅肖像画也找到了一个充满历史语境的家。画廊的收藏像滚雪球一样增长，从王室成员、政治家、将军，到科学家、作家、艺术家、体育明星甚至普通的杰出公民。它不再仅仅是关于权力，更是关于成就、才华和整个社会的面貌。城堡的建筑空间与肖像画的内容产生了奇妙的化学反应——在一间曾经的国王寝宫里，悬挂着现代剧作家的肖像，这种时空交错感，本身就是一种深刻的叙述。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天，格利普霍姆堡依然在“生长”。国家肖像画廊持续购入当代人物的肖像，包括摄影、雕塑等多种形式。这意味着，当你漫步其中，你不仅在与古斯塔夫·瓦萨对视，也可能与一位活跃在当下的瑞典音乐家或环保活动家相遇。城堡从一个静止的历史纪念碑，变成了一个活的、呼吸的文化器官。它告诉我们，历史不是过去完成时，而是现在进行时；国家的面孔，是由无数个昨天、今天和明天的面孔共同构成的。这座湖中城堡，用它砖石的躯体承载着纸面与画布上的灵魂，完成了从堡垒到记忆殿堂的终极蜕变。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受格利普霍姆堡的双重魅力，建议预留至少5-6小时。最佳方案是选择夏季一个晴朗的周二或周三（避开周末瑞典本地家庭游客的高峰），乘坐早班火车或蒸汽船，争取在上午10点半前抵达玛丽弗雷德小镇。这样安排可以先在小镇悠闲吃个早饭，感受宁静的晨间氛围，然后趁旅行团尚未大批到达时进入城堡。游览节奏宜慢不宜快，遵循“外-内-外”的韵律：先花时间在城堡外围和花园欣赏建筑全景与湖光，再沉浸于内部宫殿与画廊的丰富细节，最后回到湖边野餐或喝咖啡，消化所有的视觉与历史信息。这样的节奏能让你从宏观到微观，再从历史抽离回当下，获得完整的体验。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`城堡内部部分楼梯陡峭且狭窄，穿着舒适防滑的鞋子至关重要。肖像画廊内禁止使用闪光灯，为了保护画作，请务必遵守。小镇和城堡内的餐饮选择有限且价格较高，建议在斯德哥尔摩或自带一些简单的野餐食物，在湖边草地享用是更棒的选择。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从玛丽弗雷德小镇可爱的码头或火车站出发，沿着湖岸漫步，让格利普霍姆堡如同画卷般在视野中逐渐展开并占据全部。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过城堡护城河上古老的石桥，在入口处仰头看看那些装饰性的炮口和家族纹章，摸摸被岁月磨得光滑的砖石。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先探索一层和二层恢宏的国立肖像画廊主展厅，让自己被各个时代的瑞典面孔包围，不必记住每个名字，只需感受那些目光和故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定不要错过被称为“埃里克十四世房间”的塔楼囚室，在略显昏暗的光线下体会历史的那份沉重与戏剧性。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着古老的旋转石梯爬上城堡的顶层，那里有保存完好的骑士大厅和国王厅，绚丽的壁画和华丽的吊灯会把你拉回宫廷盛宴的想象中。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`留出时间给城堡西侧的巴洛克风格花园，在几何形状的树篱和喷泉间走走，这里是从侧面拍摄城堡倒影的绝佳地点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观结束后，回到玛丽弗雷德小镇主街，找一家有户外座位的老咖啡馆，点上一杯咖啡和一块经典的“公主蛋糕”，面对湖水发呆。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间允许且天气晴好，可以租一条小船或参加一个小型湖上游览，从水中央回望城堡，获得最经典的“明信片视角”。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`梅拉伦湖对岸西南侧草地`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，湖水泛着金光，利用长焦镜头压缩空间，可以拍摄到城堡完整的倒影和童话般的剪影。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡主桥入口正前方`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点前，阳光正面照亮砖红色外墙，使用广角镜头仰拍，能将城堡的雄伟门楼、飘扬的瑞典国旗和蓝天一同纳入构图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`巴洛克花园的绿篱迷宫旁`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，侧光勾勒出城堡圆塔的立体感，以几何形状的树篱作为前景框架，拍摄城堡的局部，画面充满结构美感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`国家肖像画廊内的大楼梯间`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分，阳光从天窗倾泻而下，形成巨大的光柱，等待参观者上下楼梯时抓拍，能捕捉到光线、古老建筑与人互动的动态瞬间。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`玛丽弗雷德小镇码头栈桥尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨湖面平静无风时，使用手机或相机的对称构图模式，可以拍出城堡与其完美倒影上下对称的宁静画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`瑞典法律非常重视隐私权（Allemansrätten 也包含尊重私人领域），拍摄肖像画廊内的画作没有问题，但请避免长时间将镜头对准其他参观者的脸。无人机飞行在城堡及小镇上空有严格限制，未经特别许可请不要使用。最好的“滤镜”是北欧清澈柔和的光线，尽量利用清晨和黄昏的黄金时刻。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`小镇经典之选`}</h4>
+                  <p className="text-sm text-blue-800">{`玛丽弗雷德酒店（Hotell Mariefred），这家历史悠久的地标酒店就在码头旁，部分房间拥有直面城堡湖景的阳台，夜晚能听到湖水轻拍岸边的声音。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`格利普霍姆堡附近散布的乡村民宿，由红色木屋改造而成，主人通常会提供自制果酱的早餐，并热情分享本地人才知道的历史趣闻。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`斯德哥尔摩市中心设计酒店+通勤体验，实际上更推荐住在斯德哥尔摩，选择一家高品质酒店，将前往玛丽弗雷德的火车或蒸汽船旅程本身也变成一种浪漫的穿越。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`独特尝试`}</h4>
+                  <p className="text-sm text-purple-800">{`夏季限定，在斯德哥尔摩预订一晚停泊在港口的特色船屋酒店，第二天一早直接从水上出发乘坐蒸汽船前往城堡，实现彻底的水路旅行闭环。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`玛丽弗雷德是一个非常小且宁静的镇子，夜间几乎没有商业活动，但极其安全。若选择住在这里，享受的是绝对的静谧和清晨独占城堡花园的 privilege。旺季（6-8月）小镇住宿非常紧俏，务必提前数月预订。如果订不到，完全不必担心，住在斯德哥尔摩交通极其方便，当日往返毫无压力。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开格利普霍姆堡回斯德哥尔摩的火车上，我看着窗外飞速后退的森林与湖泊，脑海里闪回的不是某一张具体的国王肖像，而是无数张面孔叠加在一起的流动感。这座城堡教会我的，是一种看待历史与身份的独特方式。它没有把辉煌的王权岁月供奉在神坛上仅供仰视，而是将其打碎，与后世每一个值得铭记的个体生命平等地并置在一起。在同一个空间里，王冠的重量与诗人笔尖的重量、科学家的思考与普通人坚韧的眼神，获得了某种奇妙的平衡。这或许是一种非常瑞典式的平等与人文精神：历史不是少数人的编年史，而是所有人的共同叙事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求速效、迷恋网红打卡点的时代，格利普霍姆堡提供了一种相反的、深度的旅行价值。它要求你慢下来，花时间去端详一张张陌生的脸，去读懂砖石缝隙里的故事，去感受一座建筑如何从权力象征转变为文化容器。它不提供即刻的感官刺激，却给予绵长的心灵回响。当你站在湖边，看那座红砖城堡安然卧于碧水之中，你会觉得它像一艘巨大的时光方舟，满载着一个民族的记忆面孔，静静地停泊在梅拉伦湖的柔波里。对于任何想要超越表面、去触摸一个国度灵魂纹理的旅人来说，这里都不是一个景点，而是一次必须沉浸其中的对话。与历史对话，与艺术对话，最终，也是与你自己关于“何为永恒”的内心对话。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/sigtuna-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    西
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">西格蒂纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sigtuna</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lund-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    隆
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">隆德大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lund Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/linkping" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    林
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">林雪平老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Linköping</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
