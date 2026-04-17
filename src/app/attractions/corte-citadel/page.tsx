@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科尔泰 Corte｜探秘科西嘉雄鹰之巢，屹立在花岗岩尖峰上的独立灵魂 - 最佳欧洲景点',
+  description: '车子在盘山公路上不知转了多少个弯，窗外的景色从地中海的蔚蓝松林，陡然变成了粗粝、坚硬、带着压迫感的巨大花岗岩山体。就在你以为前方只剩蛮荒时，一个转弯，科尔泰就那么猝不及防地撞进眼里——它不是坐落在山上，它就是从山的心脏里长出来的。一整片赭石色的老房子，像藤蔓一样紧紧攀附在陡峭的岩壁上，而最高处，那座...',
+}
+
+export default function CorteCitadelPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '科尔泰', href: '/attractions/corte-citadel' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`科尔泰・Corte・法国・科尔泰`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在盘山公路上不知转了多少个弯，窗外的景色从地中海的蔚蓝松林，陡然变成了粗粝、坚硬、带着压迫感的巨大花岗岩山体。就在你以为前方只剩蛮荒时，一个转弯，科尔泰就那么猝不及防地撞进眼里——它不是坐落在山上，它就是从山的心脏里长出来的。一整片赭石色的老房子，像藤蔓一样紧紧攀附在陡峭的岩壁上，而最高处，那座灰黄色的堡垒，宛如一顶粗野而骄傲的王冠，直接扣在了花岗岩的顶峰上。那一刻你忽然明白了“鹰巢”这个称呼的精准，它孤高、警觉，带着不容侵犯的野性。
+停好车，穿过老城门，空气的味道立刻变了。海风的咸湿被彻底滤去，取而代之的是清凉的山间气息，混合着老石头被太阳烘烤后散发的微尘味，以及从某扇门后飘出的、用栗子面粉烤制“菲亚隆”面包的浓郁焦香。耳朵里听到的不再是游客的喧哗，而是当地人快速的、带着独特旋律的科西嘉语交谈声，铿锵有力，像山间的石头相互撞击。脚下的路不是平的，而是不断向上延伸的窄巷和石阶，两旁是厚重的花岗岩房屋，门楣低矮，仿佛在提醒你，在这里，自然与历史才是主人，人类只是谦卑的借居者。
+攀登的过程本身就是朝圣。汗水滴在古老的台阶上，你用手触摸着墙壁，能感到岩石的冰冷与坚实。这种触感，就是科西嘉岛的灵魂——不屈、顽固、深深扎根于大地。当你终于气喘吁吁地站到城堡的广场上，回身俯瞰，整个塔维尼亚诺河谷在你脚下铺展，河流如银带蜿蜒，更远处是层叠无尽的、紫蓝色的山峦。风声猎猎，吹过垛口。这里没有巴黎的精致浪漫，却有一种更原始、更直接的力量在撞击你的胸膛。你感受到的不是帝国的威严，而是一个民族为了生存和自由，将筋骨与意志死死铆进岩石里的决绝。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在盘山公路上不知转了多少个弯，窗外的景色从地中海的蔚蓝松林，陡然变成了粗粝、坚硬、带着压迫感的巨大花岗岩山体。就在你以为前方只剩蛮荒时，一个转弯，科尔泰就那么猝不及防地撞进眼里——它不是坐落在山上，它就是从山的心脏里长出来的。一整片赭石色的老房子，像藤蔓一样紧紧攀附在陡峭的岩壁上，而最高处，那座灰黄色的堡垒，宛如一顶粗野而骄傲的王冠，直接扣在了花岗岩的顶峰上。那一刻你忽然明白了“鹰巢”这个称呼的精准，它孤高、警觉，带着不容侵犯的野性。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`停好车，穿过老城门，空气的味道立刻变了。海风的咸湿被彻底滤去，取而代之的是清凉的山间气息，混合着老石头被太阳烘烤后散发的微尘味，以及从某扇门后飘出的、用栗子面粉烤制“菲亚隆”面包的浓郁焦香。耳朵里听到的不再是游客的喧哗，而是当地人快速的、带着独特旋律的科西嘉语交谈声，铿锵有力，像山间的石头相互撞击。脚下的路不是平的，而是不断向上延伸的窄巷和石阶，两旁是厚重的花岗岩房屋，门楣低矮，仿佛在提醒你，在这里，自然与历史才是主人，人类只是谦卑的借居者。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`攀登的过程本身就是朝圣。汗水滴在古老的台阶上，你用手触摸着墙壁，能感到岩石的冰冷与坚实。这种触感，就是科西嘉岛的灵魂——不屈、顽固、深深扎根于大地。当你终于气喘吁吁地站到城堡的广场上，回身俯瞰，整个塔维尼亚诺河谷在你脚下铺展，河流如银带蜿蜒，更远处是层叠无尽的、紫蓝色的山峦。风声猎猎，吹过垛口。这里没有巴黎的精致浪漫，却有一种更原始、更直接的力量在撞击你的胸膛。你感受到的不是帝国的威严，而是一个民族为了生存和自由，将筋骨与意志死死铆进岩石里的决绝。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`科尔泰`} />
+                <InfoRow label="英文名称" value={`Corte`} />
+                <InfoRow label="正式名称" value={`Corte Citadel`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`科尔泰`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`科西嘉岛独立运动的心脏与象征，被誉为“科西嘉民族的首都”。`} />
+                <InfoRow label="建筑特色" value={`一座完全依花岗岩尖峰而建、与山体融为一体的多层军事要塞，从山脚到顶峰形成立体防御。`} />
+                <InfoRow label="建筑风格" value={`中世纪军事建筑与18世纪堡垒的混合体，带有鲜明的热那亚共和国防御工事特点，并融合了后来法国军事工程的元素。`} />
+                <InfoRow label="文化价值" value={`科西嘉民族认同、语言与文化复兴运动的活态核心与精神地标。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡及博物馆区域全年开放，但开放时间随季节变化显著。夏季（4月至9月）通常为上午9:00至下午18:00，最晚入场时间为闭馆前1小时。冬季（10月至3月）开放时间缩短，通常为上午10:00至下午17:00，且每周二闭馆（除非是公共假日或学校假期）。具体日期建议出行前在官网核实，山区天气多变，冬季偶尔会因极端天气临时关闭部分户外区域。`} />
+              <InfoRow label="门票价格" value={`进入城堡堡垒区域本身免费。但参观位于城堡内的科西嘉博物馆需购票，成人票约为8欧元，优惠票（学生、65岁以上老人）约为5欧元，18岁以下儿童免费。有时提供与城市其他小型博物馆的联票，价格约为12欧元，可在游客中心咨询。购票建议在博物馆入口直接购买，通常无需排队。`} />
+              <InfoRow label="地址" value={`Citadelle de Corte, 20250 Corte, France`} />
+              <InfoRow label="交通方式" value={`科尔泰深居科西嘉岛腹地，最便捷的方式是自驾，从海岸城市如巴斯蒂亚或阿雅克肖出发，沿蜿蜒但风景壮丽的T20公路行驶，车程约1.5-2小时。若依靠公共交通：从巴斯蒂亚机场或火车站，可搭乘CFC（科西嘉铁路）的米轨火车“U Trinighellu”，这条被誉为欧洲最美山景铁路之一的线路会缓缓爬升进入群山，最终抵达科尔泰火车站，车程约2小时，夏季每日约4-5班，冬季班次减少，务必提前查好时刻表。从火车站步行上山至城堡约需15-20分钟，全是上坡路，请留足体力。从阿雅克肖方向也有巴士，但班次更为稀疏，强烈建议提前规划。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要理解科尔泰为何如此与众不同，你得暂时忘掉法国的蔚蓝海岸，把自己拉回地中海的纷争棋盘。在很长一段时间里，科西嘉岛都是各方势力争夺的棋子，比萨、热那亚、阿拉贡……直到1453年，热那亚人看中了科尔泰这座几乎无法从正面攻克的天然花岗岩尖峰，在此修建了第一座堡垒，作为控制岛屿腹地、镇压桀骜不驯的山民的前哨。然而，热那亚的统治苛刻，岛上反抗的火焰从未熄灭。科尔泰因其易守难攻，反而成了反抗者们天然的庇护所和集结地，它的基因里，从最初就刻下了“反叛”二字。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间来到18世纪，科西嘉岛上诞生了一位传奇人物——帕斯夸莱·保利。他不仅是军事家，更是启蒙思想的实践者。1755年，保利领导科西嘉人驱逐了热那亚人，宣布成立独立的科西嘉共和国，这是近代欧洲第一个民主宪法共和国，比美国和法国大革命都要早。而他选择的共和国首都，正是科尔泰。在城堡的王宫里，保利建立了政府，开办了大学，试图在这片山地上建立一个乌托邦式的法治、教育普及的国度。那短短的十四年，是科尔泰，也是整个科西嘉历史上最辉煌、最富理想主义色彩的“黄金时代”，至今仍是科西嘉民族精神的图腾。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，独立之梦在强大的邻居面前显得脆弱。1769年，法国军队在著名的蓬泰诺沃战役中击败了科西嘉军队，保利流亡英国。就在同年，一位注定震撼世界的科西嘉婴儿在阿雅克肖出生，他叫拿破仑·波拿巴。法国吞并了科西嘉，科尔泰的光芒似乎黯淡了，城堡成了法国驻军的兵营，用以监视和管束这片从未真正屈服的土地。但“保利的灵魂”从未离开，他制定的法律精神和独立理想，深埋在山石与人心之中，化作暗流，在接下来的两个多世纪里持续涌动。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`进入20世纪，尤其是二战后，科西嘉独特的文化认同感再次勃发。1960年代，岛上兴起了强烈的文化及政治自治运动。而科尔泰，这座“故都”，再次被推到了历史的前台。1981年，关闭了两个多世纪的科西嘉大学在科尔泰城堡内重新开学，这绝不是一个偶然。把最高学府设在这座象征独立精神的堡垒里，其意义不言而喻——它宣告着科西嘉语言、历史和文化传承的复兴。今天，你在城堡里看到那些匆匆而过的年轻学生，他们不仅是来上课，更是行走在祖先抗争与梦想的遗迹之上，这种古今重叠的画面，赋予了科尔泰无可替代的、滚烫的生命力。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味科尔泰，请务必安排一整天时间，并穿上最舒适耐磨的徒步鞋。建议上午早些抵达（9点左右），那时的光线最为清澈，能拍出堡垒雄伟的质感，游客也相对稀少。整个游览节奏应是“先高后低再深入”：上午集中精力攀登并参观山顶的城堡与博物馆，消耗主要体力，同时获取历史背景；中午下山在老城窄巷中悠闲午餐，感受市井生活；下午则可以有两种选择，体力好者强烈推荐进行一次短途山地徒步，从另一个角度仰望堡垒，体力一般者则可以在老城更细致地探索那些富有故事的小广场和工匠店铺。这样的安排既能把握精神核心，又不错过人间烟火。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季中午阳光暴晒，城堡顶上毫无遮拦，务必带足水、帽子和防晒霜。老城很多餐馆下午两点后午餐就结束了，想吃正餐要趁早。周日和周一，不少小店和博物馆可能休息，行前最好确认。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先去山脚下的游客中心拿一张地图，听工作人员用带着科西嘉口音的法语热情介绍几条隐藏的徒步小径。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着标志清晰的“通往城堡”路标开始攀登，穿过贝尔丰特拱门，正式进入中世纪老城的肌理。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在通往城堡的之字形坡道上，别忘了多次回头，每一个转弯都能收获一幅构图不同的河谷全景画。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`抵达城堡广场后，先别急着进博物馆，绕着城墙走一圈，从各个垛口向外望，感受三百六十度无死角的战略视野。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花至少一个半小时沉浸在那座精彩的科西嘉博物馆里，看古老的“牧羊人十字架”和传统多声部音乐介绍。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山时放弃主路，随意拐进一条叫“斯卡拉”的台阶小巷，两旁是挂着蕾丝窗帘的古老石屋和怒放的天空葵。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在老城中心“加里波第广场”边的露天咖啡馆坐下，点一杯当地的“皮埃特拉”啤酒，看广场上的老人玩滚球游戏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果还有余力，过河走到塔维尼亚诺河对岸的观景点，等待夕阳将整个“鹰巢”染成金红色的震撼时刻。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡北侧公路旁第一个观景台`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，利用长焦镜头压缩空间，将蜿蜒的公路、绿色的河谷与山顶的堡垒一同纳入画面，展现其孤悬天险的气势。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`从“斯卡拉”台阶巷中段向上仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚的侧光下，以布满岁月痕迹的花岗岩墙壁为引导线，将尽头一小片蓝天和堡垒的一角框入，极具故事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`堡垒最高点“总督府”的南侧垛口`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，从此处俯拍老城红色屋顶层层叠叠、一直蔓延到山脚的景象，色彩与几何结构感极强。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`塔维尼亚诺河徒步小径上的回望点`}</h4>
+                  <p className="text-sm text-gray-700">{`需要步行约20分钟，这里能拍到城堡与它在河水中完整倒影的对称画面，最佳时间是风平浪静的清晨。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`加里波第广场的喷泉边`}</h4>
+                  <p className="text-sm text-gray-700">{`以当地悠闲的日常生活为前景，将远处高耸的堡垒作为背景，拍出历史与当下交融的生动场景。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`科西嘉人对自己的隐私很看重，拍摄当地居民，尤其是老人和儿童，请务必先微笑示意并获得同意。无人机飞行在城堡上空有严格限制，请勿擅自起飞。山区光线变化极快，抓住日出后和日落前的“黄金一小时”以及“蓝色时刻”，出片率最高。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`老城心脏石板屋`}</h4>
+                  <p className="text-sm text-blue-800">{`租住一栋经过现代化改造的古老花岗岩房屋，夜晚能听到石壁传来的沉静回响，清晨被教堂钟声和面包房的第一炉香气唤醒。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`山间隐居农庄`}</h4>
+                  <p className="text-sm text-green-800">{`住在城外几分钟车程、被栗子树和橄榄园环绕的传统石砌农庄，主人会奉上自家酿制的果酱和奶酪，在星空下的露台享受绝对宁静。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计感精品酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`由老城一栋贵族宅邸改造，巧妙融合了粗犷的石材与现代简约设计，屋顶露台拥有直面城堡的独家无敌视野。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`大学城边的温馨民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`性价比之选，房东往往是大学教员或文化工作者，能给你讲述最地道的科西嘉故事，并推荐游客罕至的徒步路线。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`科尔泰治安非常好，夜晚独行也很安全。但老城住宿车辆无法直达门口，需要拖着行李走一段台阶，预定前请确认。夏季和九月开学季房源紧张，务必提前数月预订。选择城外住宿最好有车，否则夜间进出会不太方便。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开科尔泰很久以后，印象最深的不是某一张照片，也不是博物馆里的某件展品，而是一种混合的“感觉”——花岗岩的冰冷触感、山风掠过耳边的呼啸声、咖啡杯中倒映着堡垒轮廓的那个瞬间。这个地方有一种强大的“地心引力”，它不是用美景来取悦你，而是用它的坚硬、它的历史重量、它那份倔强生存的尊严，来要求你正视它，理解它。在这里，风景是与伤疤并存的，美丽是与抗争同源的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率、一切趋于平滑和同质化的时代，科尔泰的存在，像一块固执的、未曾被磨圆的巨石。它提醒着我们，世界上还有一些地方，它们的价值不在于有多“好逛”、多“出片”，而在于它们依然艰难地、骄傲地保存着一种不同的声音，一种源自土地与历史的独特脉搏。来到科尔泰，你不是在消费一个景点，而是在聆听一首传唱了数个世纪的山地史诗。它会让你脚底酸痛，但内心丰盈。对于每一位不甘于浅尝辄止的旅人来说，这次深入科西嘉腹地的跋涉，都将是一次对“旅行”意义的重新确认——我们出发，有时是为了找到那些依然在认真“成为自己”的地方，并从中汲取一点面对生活的、岩石般的勇气。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/vezelay-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦兹莱隐修院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vézelay Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-dusse" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    于
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">于塞城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château d'Ussé</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beziers-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝兹道城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Béziers Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

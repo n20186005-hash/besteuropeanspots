@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '埃克奈斯 Ekenäs｜芬兰保存最完好的彩色木屋老城与宁静灵魂港湾 - 最佳欧洲景点',
+  description: '想象一下，你从现代芬兰那种简洁利落的设计线条中抽身，一脚踏入的，是一个被调色盘温柔亲吻过的旧梦。这就是埃克奈斯给我的第一眼印象。不是恢弘，而是熨帖。火车站的现代感在身后褪去，沿着一条林荫路走上十分钟，世界就变了模样。空气里的味道率先告诉你：咸咸的，是波罗的海的风；甜甜的，是路边花园里未修剪的野花和浆...',
+}
+
+export default function EkenSOldTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '埃克奈斯（亦称坦佩雷萨里）', href: '/attractions/eken-s-old-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`埃克奈斯（亦称坦佩雷萨里）・Ekenäs・芬兰・埃克奈斯市，新地区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`想象一下，你从现代芬兰那种简洁利落的设计线条中抽身，一脚踏入的，是一个被调色盘温柔亲吻过的旧梦。这就是埃克奈斯给我的第一眼印象。不是恢弘，而是熨帖。火车站的现代感在身后褪去，沿着一条林荫路走上十分钟，世界就变了模样。空气里的味道率先告诉你：咸咸的，是波罗的海的风；甜甜的，是路边花园里未修剪的野花和浆果丛；还有一丝若有若无的，是年代久远的木材在夏日阳光下晒出的、类似蜂蜜与旧书混合的醇厚气息。
+声音是这里最好的背景乐。没有喧嚣的汽车引擎，取代的是海鸥悠长的鸣叫，自行车轮轧过百年鹅卵石路面发出的清脆“咯噔”声，以及港口那边，帆船桅杆上的金属配件被风吹动，轻轻敲击杆身的叮当脆响，像一串随性的风铃。你的脚步会不自觉放慢，因为眼睛根本忙不过来。那些木屋，不是博物馆里冷冰冰的展品，它们活着。鹅黄色、淡粉色、灰蓝色、薄荷绿……每一扇窗台上都怒放着天竺葵或矮牵牛，白色的蕾丝窗帘半卷着，你几乎能想象屋内咖啡壶正咕嘟作响。老城不是舞台布景，它就是本地人的家园，这种真实的生活感，是它最动人的心跳。
+港口是这座小镇的呼吸器官。它不像那些豪华游艇林立的炫耀式码头，这里的船大多朴实，有饱经风霜的渔船，也有保养得锃亮的私人小帆船。水是那种清澈的灰绿色，像一块巨大的、微微晃动的翡翠。午后，你会看到老先生坐在长椅上，一动不动地看海，看云，看系泊的船只随波轻摇，时间在这里仿佛被拉长了，稀释了。这种深植于北欧人骨子里的“寂静喧嚣”，一种专注于当下、与自然共处的宁静，你在埃克奈斯的港口，能触碰到它的实体。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`想象一下，你从现代芬兰那种简洁利落的设计线条中抽身，一脚踏入的，是一个被调色盘温柔亲吻过的旧梦。这就是埃克奈斯给我的第一眼印象。不是恢弘，而是熨帖。火车站的现代感在身后褪去，沿着一条林荫路走上十分钟，世界就变了模样。空气里的味道率先告诉你：咸咸的，是波罗的海的风；甜甜的，是路边花园里未修剪的野花和浆果丛；还有一丝若有若无的，是年代久远的木材在夏日阳光下晒出的、类似蜂蜜与旧书混合的醇厚气息。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`声音是这里最好的背景乐。没有喧嚣的汽车引擎，取代的是海鸥悠长的鸣叫，自行车轮轧过百年鹅卵石路面发出的清脆“咯噔”声，以及港口那边，帆船桅杆上的金属配件被风吹动，轻轻敲击杆身的叮当脆响，像一串随性的风铃。你的脚步会不自觉放慢，因为眼睛根本忙不过来。那些木屋，不是博物馆里冷冰冰的展品，它们活着。鹅黄色、淡粉色、灰蓝色、薄荷绿……每一扇窗台上都怒放着天竺葵或矮牵牛，白色的蕾丝窗帘半卷着，你几乎能想象屋内咖啡壶正咕嘟作响。老城不是舞台布景，它就是本地人的家园，这种真实的生活感，是它最动人的心跳。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`港口是这座小镇的呼吸器官。它不像那些豪华游艇林立的炫耀式码头，这里的船大多朴实，有饱经风霜的渔船，也有保养得锃亮的私人小帆船。水是那种清澈的灰绿色，像一块巨大的、微微晃动的翡翠。午后，你会看到老先生坐在长椅上，一动不动地看海，看云，看系泊的船只随波轻摇，时间在这里仿佛被拉长了，稀释了。这种深植于北欧人骨子里的“寂静喧嚣”，一种专注于当下、与自然共处的宁静，你在埃克奈斯的港口，能触碰到它的实体。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`埃克奈斯（亦称坦佩雷萨里）`} />
+                <InfoRow label="英文名称" value={`Ekenäs`} />
+                <InfoRow label="正式名称" value={`Ekenäs (Swedish); Raseborg (Finnish: Raasepori)`} />
+                <InfoRow label="国家" value={`芬兰`} />
+                <InfoRow label="城市" value={`埃克奈斯市，新地区`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`芬兰南部海岸线上一颗被时光精心保存的瑰宝，是瑞典王国统治时期留下的、芬兰境内保存最完好的木结构老城之一。`} />
+                <InfoRow label="建筑特色" value={`错落有致、色彩柔和的18-19世纪木构房屋，沿着鹅卵石街道与宁静的海港排列，构成一幅宛如童话插画的和谐景观。`} />
+                <InfoRow label="建筑风格" value={`典型的瑞典-芬兰传统木结构建筑风格，深受新古典主义影响，外观简约雅致，强调与自然环境的融合。`} />
+                <InfoRow label="文化价值" value={`这里是芬兰瑞典语少数族群文化的重要堡垒，体现了航海传统、手工艺精神与一种根植于自然的慢生活哲学。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城街区与港口公共区域全天24小时开放。老城内的小型博物馆（如埃克奈斯博物馆、木工博物馆等）通常在夏季（6月至8月）每天上午11点至下午5点开放，冬季开放时间大幅缩短或仅周末开放，行前务必查询官网。游艇港口设施全年可用，但服务处夏季工作时间更长。`} />
+              <InfoRow label="门票价格" value={`漫步老城与港口完全免费。个别小型博物馆门票约5-8欧元，通常提供联票选项。港口停泊船只需支付泊位费，按日或按周计算，价格随季节和船只大小浮动。`} />
+              <InfoRow label="地址" value={`Ekenäs strandväg 1, 10600 Ekenäs, Finland`} />
+              <InfoRow label="交通方式" value={`从赫尔辛基万塔机场出发，最便捷的方式是乘坐机场巴士或火车前往赫尔辛基中央火车站，然后转乘开往“Karjaa”或“Turku”方向的通勤列车（“U”或“L”线），在“Ekenäs”站下车，全程约1小时20分钟，列车班次频繁。从火车站步行约15分钟即可抵达老城中心。若自驾，沿E18号公路西行约1小时即可到达。小镇内步行是探索的最佳方式。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`埃克奈斯的故事，始于大海。早在14世纪，这里就是往来于斯德哥尔摩与塔林（今爱沙尼亚首都）之间的航船一个重要的避风港和补给点。但让它真正获得城市宪章、迎来第一次生命绽放的，是1546年。当时统治这里的瑞典国王古斯塔夫·瓦萨，为了加强王国对芬兰湾海岸的控制与税收，正式赋予了它城市地位。你可以想象，那时的小镇，空气中弥漫着沥青、绳索和咸鱼的味道，木匠的锤声与船工的号子交织，简陋的木屋围绕着最初的石头教堂生长，一切都是粗粝而充满生命力的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，真正的黄金时代，要等到18世纪中后期。1743年，一场战争后，邻近的维堡市被割让给沙俄，许多富有的瑞典裔商人和手工业者被迫西迁，他们中的许多人选择了埃克奈斯作为新的家园。这群新移民带来了资金、品味和雄心。小镇的格局被重新规划，街道被拓宽，一种更加规整、优雅的新古典主义风格开始在这些木结构房屋上体现出来。山形墙变得对称，窗户更大以迎接更多北欧珍贵的日光，门廊被精心装饰。这些房子不再仅仅是栖身之所，更是家族财富与社会地位的象征。当时的埃克奈斯，是波罗的海沿岸重要的帆船制造与贸易中心，木材、焦油、铁器从这里运往欧洲各地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`19世纪末，铁路修到了这里，但有趣的是，它并未带来粗暴的工业化，反而催生了另一种风情——海滨度假文化。赫尔辛基的中产阶级和艺术家们发现了这片宝藏，他们乘坐火车前来，租下这些色彩明快的木屋度过悠长夏日。小镇里开起了惬意的咖啡馆和旅馆，空气中除了海风，又混合了钢琴声、文学讨论和下午茶点的香气。埃克奈斯成了一处逃离都市的“世外桃源”，这种气质被完美地保留了下来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`两次世界大战的阴影也曾掠过这里。 Winter War 和 Continuation War 期间，小镇经历了疏散和轰炸的威胁，但奇迹般地，其核心的老城区并未遭受毁灭性破坏。战后，当芬兰许多城市选择推倒旧屋、拥抱现代混凝土建筑时，埃克奈斯的居民们做出了不同的选择。他们珍视这些承载着记忆的木屋，开始了漫长而细致的保护和修复工作。这不是为了旅游，而是为了守护自己的根与身份，尤其是对于占当地人口多数的芬兰瑞典语族群而言，这里就是他们文化和语言的活态博物馆。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，今天你看到的埃克奈斯，并非一个僵化的化石。它是一层层历史沉积而成的琥珀，里面有航海时代的冒险精神，有移民重建家园的坚韧，有美好时代对闲适生活的追求，更有现代人对传统智慧一份自觉而温柔的坚守。每一块磨损的台阶石板，每一片剥落又重漆的墙板，都在轻声讲述着，一个社区如何与时间达成了优雅的和解。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味埃克奈斯，请务必留出一整个白天。建议在上午十点前抵达，这时晨光温柔，旅游团还未涌入，老城正在自然苏醒。整体游览节奏应极度舒缓，核心不是“打卡”，而是“沉浸”。路线设计为一条环线，从火车站方向进入老城核心区，细细漫步每一条小巷，然后让港口的水光引领你的方向，下午参观一两处精选的文化节点，最后在教堂山丘上俯瞰全景，为旅程画上宁静的句号。这样的安排让你能体验从晨至暮不同光线下的老城之美，并深度感受其生活气息。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季（尤其是七月）是旺季，周末可能人多，尽量安排工作日来访以获得最佳体验。老城街道多为鹅卵石，请务必穿着舒适耐走的平底鞋。许多美丽木屋仍是私人住宅，欣赏时请保持安静，勿擅入花园或过近窥探窗户。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站沿着绿树成荫的Ekenäs Strandväg大道缓步前行，让你的第一眼从远处瞥见那些彩色木屋的尖顶与海港的桅杆交织成的天际线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拐进老城核心的Sjögatan或Norra Esplanadgatan等鹅卵石主街，放任自己在迷宫般的宁静小巷中迷路，用手触摸那些历经风雨的木质墙板。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走到港口（Ekenäs Guest Marina）的木质栈桥上，闭上眼睛感受海风，看本地人如何不慌不忙地打理他们的船只，那是小镇的生活脉搏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拜访小巧精致的埃克奈斯博物馆或木工博物馆，听工作人员用瑞典语口音的芬兰语讲述某个家族五代人居住在同一栋房子里的故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在港口边或老城广场找一家家庭经营的咖啡馆，比如Café Elvira，点一杯醇厚的芬兰咖啡配上一块肉桂卷，坐在户外观察过往行人。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上位于老城西侧小丘上的埃克奈斯教堂，这里不仅是地标，更是俯瞰整个红色木屋屋顶海洋与湛蓝海湾同框的绝佳观景台。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间充裕，绕到老城北侧更安静的住宅区，那里有更多不为人知的美丽花园和保存完好的19世纪别墅。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落时分回到港口附近，找一张面向西面的长椅，看夕阳将木屋、帆船和整个天空染成金粉色，等待港湾的灯火逐一亮起。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`港口栈桥回望老城全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，站在 guest marina 的栈桥尽头，用长焦镜头压缩空间，将色彩缤纷的木屋立面与水中倒影、船只桅杆一同纳入画面，构图充满层次感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`Sjögatan 街角的光影小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`午后两三点，阳光斜射入狭窄的石板小巷，寻找一扇漆着鲜亮颜色的门或一个布满鲜花的窗台作为前景，让光影在古老的木墙上切割出迷人的几何图案。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`教堂山丘俯瞰点`}</h4>
+                  <p className="text-sm text-gray-700">{`晴朗日子的任何时间，但尤以蓝调时刻（日落後半小时）为佳，从教堂旁的墓地边缘（请保持肃静）向东俯瞰，可以拍到老城层层叠叠的屋顶、蜿蜒的街道与远处海湾构成的宁静全景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`冬季雪景魔法时刻`}</h4>
+                  <p className="text-sm text-gray-700">{`如果你在冬季来访，一场新雪过后，赶在清晨清扫之前，任何一条小巷都会变成童话世界，重点拍摄白雪覆盖的屋顶、窗台上的雪垛和暖黄色灯光从窗内透出的温馨对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`旧船厂区域的静物构图`}</h4>
+                  <p className="text-sm text-gray-700">{`在老城东北角旧船厂遗址附近，寻找被遗弃的旧木船、生锈的铁锚与鲜艳的木屋背景形成的静物组合，适合黑白或高对比度色彩风格。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`建议携带一枚广角镜头捕捉街道空间感，一枚中长焦镜头用于捕捉建筑细节和压缩港口全景。拍摄居民或其房屋时，请先微笑示意并获得默许，尊重隐私是首要原则。冬季摄影务必做好设备保暖和电池备份，极寒天气对相机是巨大考验。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`港口边的老船长旅馆`}</h4>
+                  <p className="text-sm text-blue-800">{`由一栋19世纪的海员之家改造，房间不大但充满航海怀旧元素，老板会跟你分享许多本地航海传说，清晨在咖啡香中看港口醒来是无价体验。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`藏身老城中心的木屋民宿`}</h4>
+                  <p className="text-sm text-green-800">{`租下一整栋修复后的传统木屋，拥有属于自己的小厨房和庭院，像当地人一样去集市买菜做饭，沉浸式体验“家在老城”的日常感。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`海岸森林中的宁静设计酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于老城外围步行可达的松林间，现代北欧设计风格与自然环境完美融合，拥有桑拿房和面向森林的落地窗，适合追求静谧与舒适的旅人。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`自助式海滨度假公寓`}</h4>
+                  <p className="text-sm text-purple-800">{`适合家庭或小团体，公寓宽敞明亮，自带阳台直面海景，设施齐全，让你可以灵活安排起居，享受漫长的北欧夏日夜晚。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季住宿非常紧俏，务必提前数月预订，尤其是周末。选择住在老城内虽然价格稍高，但能享受到夜晚和清晨无人打扰的绝妙氛围，绝对物超所值。许多民宿和公寓不提供洗漱用品，需自备。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开埃克奈斯许久后，我发现自己最怀念的，不是某一张具体的照片，而是那种全身心松弛下来的状态。在这个追求效率、崇拜崭新、信息过载的时代，埃克奈斯像一个坚定的“反义词”。它不试图惊艳你，而是温柔地包裹你。它告诉你，美可以不是奇观，而是窗台上恰好盛开的那盆花；历史可以不是教科书上冰冷的名词，而是脚下被几代人踩得温润发亮的石头；富有可以不是拥有多少，而是有权利坐在港口，无所事事地看一场完整的日落。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这个地方之所以值得每一位深度旅人前来，正是因为它提供了一种稀缺的“修复”体验。它修复我们对速度的痴迷，对古老的敬畏，对简单生活的感知力。在埃克奈斯，你会重新学会“浪费时间”的艺术，并发现那才是真正的奢侈。它或许没有世界级的地标，但它拥有的是一个完整、自洽、充满尊严的旧世界灵魂。当你穿行在那些色彩温柔的屋檐下，听着自己的脚步声在寂静中回响，你会感觉到，你不是在参观一个景点，而是在与一段依然活着、依然呼吸的时光并肩行走。这份宁静而强大的力量，足以安抚任何一颗来自喧嚣世界的、疲惫的心。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/lappeenranta-fortress-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉彭兰塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lappeenranta</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/porvoo-red-wooden-houses" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    波
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">波尔沃红色木屋区</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Porvoo Old Town (Red Wooden Houses)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/naantali-presidential-summer-resident-and-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    楠
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">楠塔利（芬兰总统夏宫及木屋老城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Naantali</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

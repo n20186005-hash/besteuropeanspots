@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '巴特埃姆斯 Bad Ems｜隐没在兰河谷地的欧洲古典温泉名镇，沙皇与大公的度假秘境 - 最佳欧洲景点',
+  description: '说实话，在我拐过最后一个弯，兰河那翡翠般的河道突然在眼前展开时，我愣了一下。想象中的“名镇”该是车马喧嚣，可巴特埃姆斯却像被时光特意调慢了速度。第一印象是那股气味——不是难闻的，而是一种混合着湿润青草、淡淡硫磺与老木头被阳光晒暖后散发出的、类似古董店般的复杂气息。硫磺泉蒸发出的淡淡白雾，像给两岸那些...',
+}
+
+export default function BadEmsSpaTownGermanyPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '巴特埃姆斯', href: '/attractions/bad-ems-spa-town-germany' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴特埃姆斯・Bad Ems・德国・巴特埃姆斯`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，在我拐过最后一个弯，兰河那翡翠般的河道突然在眼前展开时，我愣了一下。想象中的“名镇”该是车马喧嚣，可巴特埃姆斯却像被时光特意调慢了速度。第一印象是那股气味——不是难闻的，而是一种混合着湿润青草、淡淡硫磺与老木头被阳光晒暖后散发出的、类似古董店般的复杂气息。硫磺泉蒸发出的淡淡白雾，像给两岸那些奶油黄、浅粉和白色的古典建筑罩了层柔光镜，一切都柔和得不像话。河水流淌的声音是这里永恒的背景音，不急不缓，仿佛在反复吟唱一首安神的歌谣。
+你很快会发现，小镇的脉搏就沿着那条优雅的主街和兰河两岸跳动。穿着舒适便装、手持专用水杯的疗养客，与推着婴儿车散步的本地家庭，还有像我这样背着相机、一脸好奇的访客，和谐地共享着同一片空间。这里没有紧张的观光团节奏，人们的脸上写着一种共享的、关乎身心健康的从容。核心的魅力，在于那种强烈的“错置感”——你明明身处幽深的兰河谷地，四周是覆满森林的舒缓山峦，眼前却矗立着规模足以匹配首都的宏伟建筑，比如那座令人屏息的大公府邸。这种自然与极致人文的碰撞，产生了奇妙的化学作用。
+最打动我的，是这里无处不在的“仪式感”。在装饰着神话壁画的温泉长廊（Trinkhalle），人们会郑重其事地接上一杯温热的、带着特殊铁锈味的泉水，慢慢啜饮，仿佛在进行一项古老而神圣的健康仪式。在温泉公园，每一张长椅都像被精心安排过角度，以确保你能以最完美的视角，欣赏对岸建筑群在水中的倒影。这种对生活细节、对疗愈本身的专注和尊重，构成了小镇最核心的灵魂。它不是一座冷冰冰的博物馆，而是一座仍然在呼吸、在履行其最初功能的活态历史剧场，每一个角落都在轻声诉说着关于宁静、复原与古典美的故事。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`说实话，在我拐过最后一个弯，兰河那翡翠般的河道突然在眼前展开时，我愣了一下。想象中的“名镇”该是车马喧嚣，可巴特埃姆斯却像被时光特意调慢了速度。第一印象是那股气味——不是难闻的，而是一种混合着湿润青草、淡淡硫磺与老木头被阳光晒暖后散发出的、类似古董店般的复杂气息。硫磺泉蒸发出的淡淡白雾，像给两岸那些奶油黄、浅粉和白色的古典建筑罩了层柔光镜，一切都柔和得不像话。河水流淌的声音是这里永恒的背景音，不急不缓，仿佛在反复吟唱一首安神的歌谣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你很快会发现，小镇的脉搏就沿着那条优雅的主街和兰河两岸跳动。穿着舒适便装、手持专用水杯的疗养客，与推着婴儿车散步的本地家庭，还有像我这样背着相机、一脸好奇的访客，和谐地共享着同一片空间。这里没有紧张的观光团节奏，人们的脸上写着一种共享的、关乎身心健康的从容。核心的魅力，在于那种强烈的“错置感”——你明明身处幽深的兰河谷地，四周是覆满森林的舒缓山峦，眼前却矗立着规模足以匹配首都的宏伟建筑，比如那座令人屏息的大公府邸。这种自然与极致人文的碰撞，产生了奇妙的化学作用。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动我的，是这里无处不在的“仪式感”。在装饰着神话壁画的温泉长廊（Trinkhalle），人们会郑重其事地接上一杯温热的、带着特殊铁锈味的泉水，慢慢啜饮，仿佛在进行一项古老而神圣的健康仪式。在温泉公园，每一张长椅都像被精心安排过角度，以确保你能以最完美的视角，欣赏对岸建筑群在水中的倒影。这种对生活细节、对疗愈本身的专注和尊重，构成了小镇最核心的灵魂。它不是一座冷冰冰的博物馆，而是一座仍然在呼吸、在履行其最初功能的活态历史剧场，每一个角落都在轻声诉说着关于宁静、复原与古典美的故事。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`巴特埃姆斯`} />
+                <InfoRow label="英文名称" value={`Bad Ems`} />
+                <InfoRow label="正式名称" value={`Bad Ems`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`巴特埃姆斯`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`19世纪欧洲最负盛名的温泉疗养与外交社交胜地之一，被誉为“欧洲的客厅”，其发布的《埃姆斯密电》直接导致了普法战争的爆发。`} />
+                <InfoRow label="建筑特色" value={`完美融合了新古典主义的恢弘庄严与疗养地建筑的精致优雅，以连绵的柱廊、华丽的立面、开阔的温泉公园和沿河展开的宫殿式建筑群为标志。`} />
+                <InfoRow label="建筑风格" value={`以新古典主义和文艺复兴复兴式为主导，夹杂着比德迈风格的宜居感与少许洛可可装饰元素。`} />
+                <InfoRow label="文化价值" value={`是欧洲“美好时代”温泉文化的活化石，见证了从贵族精英疗养到全民健康度假的文化变迁，其宁静氛围与历史厚度在今日尤为珍贵。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇本身全天开放。核心历史建筑如大公府邸（Kurhaus）的公共区域（如前厅、金色回廊）通常每日上午10点至下午6点开放，具体时间随季节和活动调整。温泉浴场（如Kursaal和传统温泉设施）有独立的开放时间，一般为上午9点至晚上10点，部分设施周四或周日可能开放至更晚。建议行前务必查询官网，冬季（11月至次年3月）部分设施开放时间会缩短，而夏季音乐节期间则会延长。`} />
+              <InfoRow label="门票价格" value={`漫步小镇、欣赏建筑及兰河风光免费。进入大公府邸（Kurhaus）的历史公共区域通常免费，但参观特定展览或进入音乐厅需购票，票价约5-10欧元。体验传统的“Emser Kränchen”温泉水饮用疗愈，在温泉长廊（Trinkhalle）购买一杯约2-3欧元。使用现代化的温泉浴场（如温泉浴池和桑拿）费用较高，单次入场券约20-35欧元，有各种时段票和多次卡可选。疗养花园和河畔公园完全免费。`} />
+              <InfoRow label="地址" value={`56130 Bad Ems, Rheinland-Pfalz, Germany`} />
+              <InfoRow label="交通方式" value={`最便捷的方式是搭乘火车。从法兰克福国际机场（FRA）出发，乘坐区域快车（RE）或城际列车（IC）前往科布伦茨（Koblenz）中央火车站，车程约1小时15分钟，班次密集。在科布伦茨换乘前往林堡（Limburg）或蒙塔鲍尔（Montabaur）方向的区域火车（RB），约25-30分钟即可直达巴特埃姆斯火车站。火车沿途穿行于莱茵河与兰河的秀丽河谷，本身就是一段绝佳风景。从火车站出来，步行穿过宁静的街道，不到10分钟就能抵达镇中心的温泉区和兰河畔。自驾的话，从法兰克福沿A3高速公路至蒙塔鲍尔出口，再转入B260/B49公路，约1小时车程，小镇外围有充足的收费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`巴特埃姆斯的故事，始于地下的热流。罗马人最早发现了这里的温泉，但让它真正登上历史舞台的，要等到18世纪。当时，温泉疗养在欧洲贵族中风靡，嗅觉敏锐的统治者们开始投资建设这片谷地。拿骚和奥兰治的亲王们，以及后来的普鲁士国王，竞相在这里修建宫殿般的疗养住所，巴特埃姆斯逐渐从一处偏僻的温泉地，蜕变成一颗璀璨的社交明珠。然而，真正将它推向巅峰的，是一位来自遥远北方的客人——俄国沙皇亚历山大二世。从19世纪中叶起，他几乎每年夏天都带着庞大的随行人员来此疗养，沙皇的青睐如同最有效的广告，顷刻间，欧洲的皇室成员、大公贵族、金融巨子和文化名流蜂拥而至。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`想象一下那时的盛景吧：兰河上飘着装饰华美的小艇，河畔林荫道上，穿着最时髦巴黎裙装的女士和戴着高礼帽的绅士在悠闲漫步。大公府邸里日夜笙歌，舞会、音乐会、文学沙龙轮番上演。歌德、陀思妥耶夫斯基等文豪都曾在此汲取灵感。小镇的建筑风貌也在这个“黄金时代”被定格，我们今天看到的连绵柱廊、宏伟的温泉教堂和新古典主义的立面，大多建于这一时期。它不再只是一个疗养地，更是欧洲上流社会一个季节性的“首都”，一个关乎健康、社交与权力的独特舞台。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`历史的戏剧性总在不经意间降临。1870年夏天，普鲁士国王威廉一世如往常一样在此度假。7月13日，一份关于西班牙王位继承问题的电报从柏林传来，国王在风景如画的河畔散步道上与法国大使进行了那次著名的会面。随后，首相俾斯麦对会谈内容进行了那番“极具技巧性”的删改，史称《埃姆斯密电》的电文被公诸于世，瞬间点燃了巴黎的舆论火药桶。短短十几天后，普法战争爆发。世界的命运，竟在这座宁静河谷的散步道上被轻轻拨动，这种极致的宁静与狂暴的历史转折之间的反差，至今想来仍令人心悸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`战争的硝烟散去，巴特埃姆斯继续着它的疗养使命，但辉煌的“美好时代”渐渐步入尾声。两次世界大战带来了创伤，冷战时期它地处边境，一度略显沉寂。然而，这座小镇有着惊人的韧性。它没有试图把自己变成主题公园，而是静静地保存着那份骨子里的优雅。老建筑被精心维护，温泉疗法与现代医学结合焕发新生。1995年，它被列入“欧洲伟大温泉小镇”候选世界遗产名录。今天，当你漫步于此，你走过的每一步，都踩着沙皇、大公、首相和诗人的足迹，你呼吸的空气中，依然混合着历史的气韵与疗愈的水汽，它是一座活着的、呼吸着的19世纪欧洲之梦。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`我强烈建议你至少留出一整天一夜给巴特埃姆斯，它的美需要在缓慢的节奏中才能完全吸收。最佳的游览节奏是从午后开始，先在镇上安顿下来，消除旅途劳顿，然后从傍晚的柔和光线开始探索。第二天再用一个完整的上午和下午进行深度游览。这样的安排能让你既看到日落时分建筑镀上金边的梦幻景象，也能在清晨的宁静中独享温泉公园的静谧，更能体验从午后到夜晚小镇生活气息的微妙变化。请务必穿上最舒适的鞋子，因为最好的体验都来自于用脚步丈量。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`镇中心区域不大，所有景点步行可达，完全不需要交通工具，请彻底慢下来。温泉饮用点（Trinkhalle）的水温较高且有特殊矿物质味道，小口品尝即可，不要勉强豪饮。周末和夏季的公共假日，德国本土度假者会增多，但相比其他热门景点仍算清净，如果追求极致宁静，工作日来访最佳。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午抵达后先别急着看景点，放下行李就沿着兰河左岸的“林荫道”慢慢向东走，让河谷的清风和流淌的水声洗去你的疲惫。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到标志性的“俄罗斯教堂”脚下，抬头看看那些色彩鲜艳的洋葱顶，然后过桥到对岸，回头欣赏教堂与山丘森林构成的完美画面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`赶在日落前一小时回到大公府邸（Kurhaus）正前方，找一张面朝河流的长椅坐下，看夕阳如何将整片新古典主义建筑群染成温暖的蜜糖色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚上一定要去温泉长廊（Trinkhalle）内部看看，在昏黄的水晶吊灯下接一杯温泉水小口品尝，感受那份延续了百年的疗愈仪式感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`第二天清晨，趁游客未至，独自穿过宁静的温泉公园，观察那些精心修剪的花坛和雕塑在晨露中的样子，享受完全的静谧。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进大公府邸，别错过那座奢华的金色回廊和主楼梯，想象一下当年贵族们在此盛装出席舞会，裙摆扫过大理石台阶的窸窣声响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后可以参观一下小镇博物馆，了解一下“埃姆斯密电”那段改变欧洲历史的具体细节，你会对昨天散步的那条小径产生全新的感受。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间和预算允许，务必体验一次现代化的温泉浴场，在温暖的泉水中彻底放松，这是理解这座小镇核心文化最直接的方式。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`兰河古桥中央偏东侧`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时或日落前一小时，利用河道作为天然引导线，将大公府邸的雄伟立面与水中倒影一并纳入构图，前景可带入桥身的石雕栏杆。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`大公府邸金色回廊的拱窗边`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点后，阳光斜射入廊内，站在拱窗旁以华丽的镀金装饰和水晶吊灯为前景，拍摄人物剪影或肖像，背景是窗外郁郁葱葱的公园。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`温泉公园面向“ Kursaal ”建筑的草坪长椅处`}</h4>
+                  <p className="text-sm text-gray-700">{`下午光线柔和时，以修剪整齐的草坪和花坛为前景，对称构图拍摄 Kursaal 建筑及其在水池中的完整倒影，画面宁静而工整。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`从“马尔堡”观景台（Malmberg，可乘缆车或徒步上山）俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`晴朗的下午，用长焦镜头捕捉整个小镇像模型一样镶嵌在翠绿河谷中的全景，兰河如一条玉带蜿蜒穿过。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`俄罗斯教堂对面的小径上`}</h4>
+                  <p className="text-sm text-gray-700">{`利用小路形成的自然框架，拍摄教堂鲜艳的圆顶与背后深绿色山林的色彩对比，尤其秋季树叶变色时层次感极佳。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄疗养客或饮用泉水的人们时请务必保持距离并尊重他人隐私，建议使用长焦进行不打扰的抓拍。大公府邸和部分历史建筑内部允许非商业摄影，但禁止使用闪光灯和三脚架，请自觉遵守规定。清晨的河谷常有一层薄雾，这是拍摄梦幻氛围的绝佳时机，不要因为天气略显阴沉而放弃外出。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`入住直接由19世纪贵族疗养别墅改造的家庭式精品酒店，房间挑高极高，保留着 original 的拼花木地板和华丽的石膏线，早餐在能看到花园的玻璃廊房里享用。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`河景静谧之选`}</h4>
+                  <p className="text-sm text-green-800">{`位于兰河右岸远离主街的一栋古典建筑内，房间阳台正对潺潺流水和对岸的建筑群，夜晚只能听到水声与风声，是疗愈身心的绝佳私密空间。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代设计温泉酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在温泉公园边缘，将古典建筑外壳与极简内装巧妙结合，房内直通桑拿区，部分房间甚至拥有私人温泉露台，将历史体验与现代舒适完美融合。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高性价比民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`由本地居民经营的温馨公寓，位于山坡上的安静住宅区，步行十分钟即可下山抵达中心，厨房设施齐全，让你像当地人一样去市集买菜回来烹饪。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`小镇住宿总体安静安全，但选择河畔主街附近的酒店需注意夏季周末偶尔有露天音乐会，可能持续到晚上十点左右，偏好绝对安静的话建议选择侧街或山坡上的住所。旺季（夏季疗养季和圣诞节期间）房源紧张，务必提前数月预订，平季则常有优惠。许多酒店都提供包含温泉浴场门票的“疗养套餐”，性价比很高。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开巴特埃姆斯好些天后，我的感官似乎还留着那里的印记：鼻腔里仿佛还有那股微甜的、混合着水汽与旧时光的气息，耳朵里还回响着兰河那不疾不徐的流淌声。这个地方最神奇之处，不在于它有多么惊世骇俗的景观，而在于它提供了一种完整的、沉浸式的“氛围疗愈”。它让你自然而然地卸下都市里携带的焦虑和匆忙，脚步不由自主地放慢，呼吸不由自主地加深。在这里，历史不是教科书上枯燥的章节，而是你手中那杯温热泉水的温度，是你指尖触碰到的光滑大理石柱的凉意，是你散步时脚下那条沙皇与首相曾走过的路径的实感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切追求高效和速成的时代，巴特埃姆斯固执地守护着另一种价值观——关于缓慢的复原，关于耐心的等待，关于在宁静中积蓄力量。它提醒我们，旅行可以不是为了打卡和征服，而是为了“成为”那个更平静、更敏锐的自己。每一位热爱深度游的旅人都应该来一次巴特埃姆斯，不是为了收集又一个地名，而是为了体验一次真正的时间旅行。在这里，你不仅能回到19世纪欧洲的优雅现场，更重要的是，你能找回与自己内在节奏的连接。这条隐没在兰河谷地里的时光隧道，值得你专程前来，花上一两天，让它温柔地重置你的时钟。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/trier-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特里尔主教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trier Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lindau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    林
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">林道老城区</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lindau Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/reichsburg-cochem" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科赫姆帝国城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Reichsburg Cochem</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

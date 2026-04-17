@@ -1,0 +1,240 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '克尔卡国家公园 Krka National Park｜潜入翡翠仙境，在层叠钙华瀑布间游泳的梦境 - 最佳欧洲景点',
+  description: '当你第一眼看到克尔卡河时，会瞬间理解为什么传说中仙女会选择这里沐浴。那根本不是你在图片上看到的静止的“绿”，而是一种流动的、有生命的翡翠光泽。河水像被施了魔法，从一层宽阔的、覆盖着柔软苔藓的石灰华阶地上安然淌过，注入下一层同样碧绿的水潭，如此层层叠叠，绵延数百米。阳光穿过河谷两岸茂密的橡树林和松林，...',
+}
+
+export default function KrkaNationalParkPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '克尔卡国家公园', href: '/attractions/krka-national-park' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`克尔卡国家公园・Krka National Park・克罗地亚・希贝尼克-克宁县`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你第一眼看到克尔卡河时，会瞬间理解为什么传说中仙女会选择这里沐浴。那根本不是你在图片上看到的静止的“绿”，而是一种流动的、有生命的翡翠光泽。河水像被施了魔法，从一层宽阔的、覆盖着柔软苔藓的石灰华阶地上安然淌过，注入下一层同样碧绿的水潭，如此层层叠叠，绵延数百米。阳光穿过河谷两岸茂密的橡树林和松林，在水面上碎成亿万颗晃动的钻石，光影交织，让人一阵晕眩。耳边是永恒的白噪音——不是瀑布狂暴的怒吼，而是千万股细流滑过钙华坝时发出的、如同丝绸被轻轻撕裂的“嘶嘶”声，间或夹杂着更清脆的“哗啦”水响，那是某处水流稍急的地方。空气里弥漫着一种独特的清新味道，是水汽、湿润的泥土和野生薄荷、迷迭香混合的气息，深深吸一口，肺腑都感到清凉。
+最打动人心的是，这里不是一个只能远观的冰冷自然奇观。在最大的斯克拉丁布克瀑布下方，那片宽阔如镜面的翡翠色水潭，是允许游人下水游泳的。你会看到一家老小，情侣朋友，穿着泳衣，从专门铺设的木平台小心翼翼地步入水中。水温常年清凉却不刺骨。当你真的置身其中，仰面漂浮，看着瀑布从头顶的钙华坝上如珠帘般泻下，蓝天被古老的树林框成不规则的形状，那种感觉奇幻极了。你不是在参观一个景点，你成为了这幅活着的、呼吸着的自然画卷中的一笔。
+在当地人心中，克尔卡河远不止是一个旅游名片。在成为国家公园之前，这条河是他们生活的动力源泉——河畔散落着古老的水磨坊、洗衣坊和织布机坊，利用瀑布的水力运转了数个世纪。如今，这些古老的石屋被精心修复成民俗博物馆，里面陈列着老物件，仿佛能听到昔日工匠劳作的声响。周末，许多家庭会来这里徒步，沿着修缮良好的木栈道深入峡谷，寻找更幽静的瀑布，或者只是在河边树荫下铺开野餐垫，度过一个被流水声安抚的下午。这里有一种平静的、与世无争的社区感，人与自然保持着一种古老而亲切的对话。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你第一眼看到克尔卡河时，会瞬间理解为什么传说中仙女会选择这里沐浴。那根本不是你在图片上看到的静止的“绿”，而是一种流动的、有生命的翡翠光泽。河水像被施了魔法，从一层宽阔的、覆盖着柔软苔藓的石灰华阶地上安然淌过，注入下一层同样碧绿的水潭，如此层层叠叠，绵延数百米。阳光穿过河谷两岸茂密的橡树林和松林，在水面上碎成亿万颗晃动的钻石，光影交织，让人一阵晕眩。耳边是永恒的白噪音——不是瀑布狂暴的怒吼，而是千万股细流滑过钙华坝时发出的、如同丝绸被轻轻撕裂的“嘶嘶”声，间或夹杂着更清脆的“哗啦”水响，那是某处水流稍急的地方。空气里弥漫着一种独特的清新味道，是水汽、湿润的泥土和野生薄荷、迷迭香混合的气息，深深吸一口，肺腑都感到清凉。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的是，这里不是一个只能远观的冰冷自然奇观。在最大的斯克拉丁布克瀑布下方，那片宽阔如镜面的翡翠色水潭，是允许游人下水游泳的。你会看到一家老小，情侣朋友，穿着泳衣，从专门铺设的木平台小心翼翼地步入水中。水温常年清凉却不刺骨。当你真的置身其中，仰面漂浮，看着瀑布从头顶的钙华坝上如珠帘般泻下，蓝天被古老的树林框成不规则的形状，那种感觉奇幻极了。你不是在参观一个景点，你成为了这幅活着的、呼吸着的自然画卷中的一笔。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当地人心中，克尔卡河远不止是一个旅游名片。在成为国家公园之前，这条河是他们生活的动力源泉——河畔散落着古老的水磨坊、洗衣坊和织布机坊，利用瀑布的水力运转了数个世纪。如今，这些古老的石屋被精心修复成民俗博物馆，里面陈列着老物件，仿佛能听到昔日工匠劳作的声响。周末，许多家庭会来这里徒步，沿着修缮良好的木栈道深入峡谷，寻找更幽静的瀑布，或者只是在河边树荫下铺开野餐垫，度过一个被流水声安抚的下午。这里有一种平静的、与世无争的社区感，人与自然保持着一种古老而亲切的对话。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`克尔卡国家公园`} />
+                <InfoRow label="英文名称" value={`Krka National Park`} />
+                <InfoRow label="正式名称" value={`Krka National Park`} />
+                <InfoRow label="国家" value={`克罗地亚`} />
+                <InfoRow label="城市" value={`希贝尼克-克宁县`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它是喀斯特地貌与生命之水的杰出典范，见证了从自然神力塑造到人类智慧利用，最终回归生态保护的完整循环。`} />
+                <InfoRow label="建筑特色" value={`这里最伟大的“建筑”是自然用万年时间，以水流和碳酸钙为材料，筑起的无数级翡翠色阶梯与无边泳池。`} />
+                <InfoRow label="建筑风格" value={`动态的、活着的“自然巴洛克”风格，流水是它的雕刻师，苔藓与水生植物是其永恒的装饰。`} />
+                <InfoRow label="文化价值" value={`它不仅是克罗地亚的“绿色心脏”，更是人与自然从索取到和谐共处这一现代文明理念的生动实践地。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`公园全年开放，但具体开放时间随季节变化。夏季（通常从4月到10月）主入口及主要瀑布区开放时间为早上8:00至晚上20:00；冬季（11月到3月）开放时间缩短，约为早上9:00至下午16:00。最著名的游泳区（斯克拉丁布克瀑布下方）通常在每年6月1日至9月30日期间允许下水。公园内的船只接驳服务也仅在旅游旺季运行，出发前务必在官网确认最新时刻表。部分节假日（如元旦、圣诞节）可能全天关闭。`} />
+              <InfoRow label="门票价格" value={`门票价格因季节和入口而异。旺季（4月至10月）成人票价约为200库纳（约27欧元），儿童（7-18岁）及学生（凭有效证件）可享受折扣价。淡季（11月至次年3月）票价大幅降低，约为30-80库纳。门票包含进入指定区域、使用公园内徒步栈道及部分展览（如水磨坊民俗博物馆）。网上提前购票可避免入口排长队。公园提供多种套票选项，如包含从斯克拉丁到维斯瓦夫岛船票的联票，价格在300-400库纳之间。`} />
+              <InfoRow label="地址" value={`Krka National Park, Lozovac, 22000, Šibenik-Knin County, Croatia`} />
+              <InfoRow label="交通方式" value={`从最近的主要城市希贝尼克出发最为便捷。希贝尼克本身有长途巴士和火车连接首都萨格勒布、斯普利特和扎达尔。从希贝尼克巴士站出发：乘坐前往“Krka National Park (Lozovac)”或“Skradin”方向的本地巴士，车程约30-40分钟，夏季班次较多（约每小时一班），冬季班次稀疏，建议提前查好返程时间。自驾：从希贝尼克沿D56或D33公路向内陆行驶，有明显路标指向“NP Krka”的Lozovac主入口，公园入口外有大型免费停车场，之后需换乘公园的环保接驳巴士进入瀑布核心区。从斯普利特机场出发：可先乘巴士或拼车前往希贝尼克（车程约1小时），再按上述方式中转。最浪漫的方式是从海滨小镇斯克拉丁（Skradin）乘公园的观光船逆流而上进入公园，船程约25分钟，沿途风光绝佳。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`克尔卡河的故事，始于比人类历史漫长无数倍的地质史诗。这条喀斯特地区的河流，是自然的化学家和雕刻家共同创造的奇迹。河水富含溶解的碳酸钙，当水流经过落差、温度变化或水生植物作用时，碳酸钙便会沉淀析出，日积月累，形成了这些多孔、嶙峋的石灰华屏障，也就是我们看到的层层“瀑布阶地”。这个过程至今仍在继续，你看到的每一处边缘正在凝结的“石花”，都是自然在缓慢地呼吸和生长。数千年来，河流就这样以毫米为单位，耐心地塑造着这片翡翠阶梯，也滋养了整个峡谷生机勃勃的生态系统，这里有超过八百种植物，包括众多稀有蕨类和兰花，河流本身更是无数鱼类和水禽的家园。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`人类与克尔卡河的亲密接触，则是一部从利用到共生的编年史。最早来到这里的人被其充沛的水力所吸引。从中世纪起，沿着瀑布群，聪明的工匠们建起了一系列水磨坊。它们不是孤立的建筑，而是一个完整的、依靠水力驱动的生产社区。最大的一处位于罗斯基瀑布上方，那里有整齐排列的石屋，水流通过木制水槽被引至巨大的木轮，带动磨盘研磨谷物，带动槌棒捶打布料（用于缩绒），甚至驱动原始的织布机。在鼎盛时期，这里有几十座磨坊同时运转，机器的轰鸣与瀑布的水声交织，成为河谷里独特的工业交响曲。这些磨坊不仅是经济中心，也是社交中心，附近村庄的人们在此交换货物、传递消息。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转到19世纪末20世纪初，随着现代工业的兴起，传统磨坊逐渐沉寂。但克尔卡河的另一个潜能被发现了——电力。1885年，就在斯克拉丁瀑布附近，建成了世界上最早的水力发电厂之一，仅比尼亚加拉大瀑布的电站晚几天。它点亮了附近城镇希贝尼克的电灯，让克罗地亚的这片土地早早沐浴在了现代文明的光辉中。这个电厂运行了一个多世纪，直到2011年才光荣退役，其厂房和设备被完整保留，成为工业考古的珍贵遗址。从磨面到发电，克尔卡河始终是推动文明前进的温柔力量。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`意识到这片自然与人文双重瑰宝的脆弱性，克罗地亚人在1985年做出了一个至关重要的决定：将克尔卡河下游最壮丽的流域设立为国家公园。这不仅仅是为了保护风景，更是为了守护整个动态的喀斯特水文过程、独特的动植物群落，以及那些承载着民族记忆的历史建筑。公园的管理理念非常先进：在严格保护核心生态区的同时，划出有限的区域允许公众进行低影响的休闲活动，比如在指定区域游泳。这是一种精妙的平衡，让人们在惊叹自然之美的同时，也能以最亲密的方式感受它，从而发自内心地理解保护的意义。今天，你看到的不仅是万年自然造化的结果，也是一部鲜活的人类适应自然、利用自然，最终学会珍视与回归自然的启示录。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`一次完美的克尔卡深度游，强烈建议你安排一整天时间（至少6-8小时），并选择从斯克拉丁小镇乘船进入公园作为开端。这样安排的原因在于，从水上接近瀑布群的过程本身就是一场渐入佳境的序曲，能避开主入口可能的人群，而且小镇本身也韵味十足。早上九点前抵达斯克拉丁码头，搭乘最早几班船逆流而上，你会独占最宁静的河谷晨光。下船后从瀑布群的上游开始游览，沿着精心铺设的木栈道向下游漫步，一路欣赏主要瀑布和磨坊群，下午时分抵达最著名的游泳区，此时水温最宜人。最后可以从Lozovac主出口离开，或乘船返回斯克拉丁。节奏宜慢不宜快，留足时间发呆、拍照和感受水流。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季周末和中午时段是游客高峰，游泳区会像下饺子，尽量选择工作日并早到。
+一定要穿一双绝对防滑的徒步鞋或溯溪鞋，石灰华台阶和潮湿的木栈道非常滑，人字拖是危险选择。
+公园内餐饮选择有限且价格较高，建议在希贝尼克或斯克拉丁的超市提前购买好充足的饮用水、水果和三明治。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一早从斯克拉丁小镇的石码头登上公园的蓝色观光船，让清凉的河风拂面，看两岸森林如绿色帷幕缓缓拉开。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在斯基卡丁修道院附近下船，首先拜访那座建于河中小岛上的宁静东正教修道院，感受与世隔绝的灵性氛围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着宽阔的木栈道向斯克拉丁布克瀑布方向漫步，途中经过数个观景平台，从不同高度和角度欣赏翡翠阶梯的全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到古老的磨坊建筑群，钻进那些石头小屋，看看水力如何驱动古老的机器，想象几个世纪前这里的繁忙景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在最大的罗斯基瀑布观景台停留，看宽阔的水帘如新娘面纱般垂下，这里是公园标志性明信片角度的来源。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着栈道下行，来到允许游泳的斯克拉丁布克瀑布下方水潭，选一个人不多的角落，鼓起勇气跳进那翡翠般的沁凉水中。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`游完泳在附近的草地上晒晒太阳，或者去公园管理良好的野餐区享用自带的午餐。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果体力充沛，可以选择一条较短的支线栈道，深入峡谷更幽静的一侧，寻找那些叫不出名字的小瀑布和碧绿水潭。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`斯克拉丁布克瀑布全景俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`最佳位置在从Lozovac方向进入后的第一个主要观景台，下午顺光，使用广角镜头将层层叠叠的钙华坝和翡翠水潭全部纳入画面，等待一叶公园的游船划过水面增加动感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`木栈道中段平视角度`}</h4>
+                  <p className="text-sm text-gray-700">{`在连接主要瀑布区的木栈道上，找一个水边转弯处，放低机位，让前景是清澈见底的水流和水中摇曳的水草，中景是如丝绸般滑过岩石的瀑布，构图充满层次感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`游泳区人像与自然结合`}</h4>
+                  <p className="text-sm text-gray-700">{`在允许游泳的水潭边缘（不下水），让同伴在安全距离下游向瀑布方向，从侧后方拍摄，以人物的小来衬托瀑布阶地的宏大，捕捉水花溅起的瞬间，画面充满故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`古老磨坊内部框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`走进罗斯基瀑布旁的磨坊石屋，从室内透过古老的石窗或门框向外拍摄瀑布，利用框架构图，让自然景观成为一幅挂在历史墙壁上的活画。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`林间光影小道`}</h4>
+                  <p className="text-sm text-gray-700">{`下午晚些时候，阳光斜射入峡谷时，寻找一段被树林包围的安静栈道，逆光拍摄，捕捉光线穿过树叶形成的丁达尔效应和飘散的水雾，营造梦幻神秘的氛围。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`准备一个偏振镜（CPL）至关重要，它能有效消除水面的反光，让你拍出瀑布下碧绿见底的神奇效果，同时也能让树叶的颜色更饱和。`}</li>
+                <li>• {`尽量避免在正午顶光时拍摄，此时光线生硬，阴影浓重，清晨和午后三到五点的光线最为柔和，能为画面镀上金色或增添戏剧性。`}</li>
+                <li>• {`使用无人机拍摄前，务必核实公园最新规定，核心保护区通常严禁无人机飞行，以免惊扰野生动物。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸自然之选`}</h4>
+                  <p className="text-sm text-blue-800">{`公园官方在斯克拉丁布克瀑布附近运营的简单但干净的小屋或公寓，推窗即是森林与流水声，让你在游客散尽后独享仙境的宁静夜晚。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`湖畔小镇生活`}</h4>
+                  <p className="text-sm text-green-800">{`住在斯克拉丁小镇中心由老石头房子改建的精品民宿，清晨被教堂钟声和码头海鸥叫醒，傍晚在临河餐厅吃着新鲜海鲜，看归航的船只。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`文化古城据点`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择住在十几公里外的世界遗产之城希贝尼克，那里有更多样的酒店和餐饮选择，圣雅各布大教堂的夜景绝美，适合追求便利与人文体验结合的旅行者。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐秘河岸 retreat`}</h4>
+                  <p className="text-sm text-purple-800">{`寻找公园外围、克尔卡河上游河畔由家庭经营的农庄或度假屋，拥有私人河岸入口，可以划独木舟探索游客罕至的河段，享受真正的隐世之感。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（7-8月）的住宿非常紧张，尤其是公园附近和小镇上的特色住所，务必提前至少2-3个月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果选择住在希贝尼克或更远的沿海城镇，需要仔细规划好前往公园的交通，租车是最灵活的选择，否则需严格依赖巴士时刻表。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`住在自然公园周边，晚间户外活动请备好防蚊用品，并注意保管好食物，避免吸引野生动物。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开克尔卡许久，闭上眼睛，耳边响起的还是那绵延不绝的、丝绸般的流水声。它不像其他那些令人敬畏的自然奇观，用绝对的规模和力量让你感到自身的渺小。相反，克尔卡用一种温柔而慷慨的怀抱接纳了你。它允许你走入它的画卷，甚至成为画中一滴流动的水珠。当你漂浮在那片翡翠之中，水流托举着你，阳光温暖着你，那一刻，你与这片土地万年来的呼吸同步了。这是一种极其珍贵的体验——我们不仅是旁观者，更是被邀请的参与者。这种亲密感，会种下一颗种子，让你对自然产生一种类似对家园的呵护之情。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个我们习惯于打卡、匆匆一瞥的世界里，克尔卡国家公园提供了一种截然不同的旅行哲学。它告诉我们，最深度的旅行不是收集了多少地标，而是你是否曾真正沉浸在一个地方的气息、温度和节奏里。在这里，你可以花一个小时观察阳光如何在水面的一块苔藓上移动，可以坐在古老的磨坊石阶上听老人讲述河流过去的故事。它提醒我们，最美的风景往往是有生命的、动态的，并且在小心翼翼地保护下，依然可以向我们敞开怀抱。这就是为什么，每一个渴望与欧洲的灵魂——不仅是它的人文，更是它古老而坚韧的自然之心——进行对话的旅人，都应该来克尔卡。来这里，不只是看瀑布，而是完成一次与生命之水的纯净拥抱，带走一片永恒的、流动的翡翠记忆。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/trogir-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特罗吉尔古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trogir Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/zadar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    扎
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">扎达尔老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zadar</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/baroque-varazdin" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瓦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓦拉日丁</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Varaždin</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

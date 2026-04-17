@@ -1,0 +1,238 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '埃特尔布吕克 Ettelbruck｜探寻巴顿将军足迹与阿登战役记忆的宁静小镇 - 最佳欧洲景点',
+  description: '第一眼看到埃特尔布吕克，你可能会疑惑：这就是那个在二战史册上留下沉重一笔的地方？它太安静，太普通了。阿尔泽特河静静穿过城镇，河面上的天鹅优雅地划着水。主街两旁的房子多是战后重建的，朴实无华，阳台上开着天竺葵。咖啡馆里飘出刚煮好的咖啡香，夹杂着卢森堡语的轻声交谈。一切都像一个最典型的、安详的欧洲小城。...',
+}
+
+export default function EttelbruckPattonMemorialCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '埃特尔布吕克', href: '/attractions/ettelbruck-patton-memorial-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`埃特尔布吕克・Ettelbruck・卢森堡・迪基希区埃特尔布吕克市`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到埃特尔布吕克，你可能会疑惑：这就是那个在二战史册上留下沉重一笔的地方？它太安静，太普通了。阿尔泽特河静静穿过城镇，河面上的天鹅优雅地划着水。主街两旁的房子多是战后重建的，朴实无华，阳台上开着天竺葵。咖啡馆里飘出刚煮好的咖啡香，夹杂着卢森堡语的轻声交谈。一切都像一个最典型的、安详的欧洲小城。直到你转过街角，视野豁然开朗——一个宽敞的广场中央，赫然矗立着一辆谢尔曼坦克。那种感觉，就像一个温柔的梦境里，突然摸到了一块冰冷的、属于现实的金属。战争与和平，在这里不是书本里的章节，而是交织在每一寸空气里的触感。
+这就是埃特尔布吕克最打动人心的魅力：它毫不掩饰自己的伤痕，却将伤痕锻造成了日常的一部分。当地人骑着自行车从坦克旁经过，去市场买菜；孩子们在坦克下方的纪念碑边追逐玩耍。巴顿将军的雕像就立在广场一侧，他不再仅仅是历史书里那个脾气火爆的将军，而是成了这个社区一位沉默的守护者。你会在面包店的橱窗里看到阿登战役的老照片，会在书店发现关于突出部战役的多种语言书籍。历史没有沉睡在博物馆里，它醒着，并且平静地呼吸着。
+走在河边，你能闻到湿润的青草和河水的气息。但如果你稍作停留，读一读那些嵌在桥头或老墙上的铭牌，1944年那个寒冷血腥的冬天便会扑面而来。你能几乎“听”到当年坦克履带碾过破碎街道的轰隆声，能“感觉”到那种解放来临前最后的绝望与希望。然而，当下又是如此坚实：河水的流淌声、教堂的钟声、远处火车驶过的节奏。这种强烈的、近乎分裂的感官对比，正是埃特尔布吕克给予深度旅行者最珍贵的礼物——它让你同时触摸到历史的狰狞与和平的珍贵，两者都无比真实。
+最终你会明白，埃特尔布吕克的核心不是一座纪念馆，不是一个广场，而是一种活生生的态度。这个小镇选择记住，不是为了沉湎于痛苦，而是为了更用力地拥抱今天这份看似平常、却来之不易的宁静生活。在这里，每一个宁静的午后，都像是对历史的一声郑重回答。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到埃特尔布吕克，你可能会疑惑：这就是那个在二战史册上留下沉重一笔的地方？它太安静，太普通了。阿尔泽特河静静穿过城镇，河面上的天鹅优雅地划着水。主街两旁的房子多是战后重建的，朴实无华，阳台上开着天竺葵。咖啡馆里飘出刚煮好的咖啡香，夹杂着卢森堡语的轻声交谈。一切都像一个最典型的、安详的欧洲小城。直到你转过街角，视野豁然开朗——一个宽敞的广场中央，赫然矗立着一辆谢尔曼坦克。那种感觉，就像一个温柔的梦境里，突然摸到了一块冰冷的、属于现实的金属。战争与和平，在这里不是书本里的章节，而是交织在每一寸空气里的触感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这就是埃特尔布吕克最打动人心的魅力：它毫不掩饰自己的伤痕，却将伤痕锻造成了日常的一部分。当地人骑着自行车从坦克旁经过，去市场买菜；孩子们在坦克下方的纪念碑边追逐玩耍。巴顿将军的雕像就立在广场一侧，他不再仅仅是历史书里那个脾气火爆的将军，而是成了这个社区一位沉默的守护者。你会在面包店的橱窗里看到阿登战役的老照片，会在书店发现关于突出部战役的多种语言书籍。历史没有沉睡在博物馆里，它醒着，并且平静地呼吸着。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走在河边，你能闻到湿润的青草和河水的气息。但如果你稍作停留，读一读那些嵌在桥头或老墙上的铭牌，1944年那个寒冷血腥的冬天便会扑面而来。你能几乎“听”到当年坦克履带碾过破碎街道的轰隆声，能“感觉”到那种解放来临前最后的绝望与希望。然而，当下又是如此坚实：河水的流淌声、教堂的钟声、远处火车驶过的节奏。这种强烈的、近乎分裂的感官对比，正是埃特尔布吕克给予深度旅行者最珍贵的礼物——它让你同时触摸到历史的狰狞与和平的珍贵，两者都无比真实。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最终你会明白，埃特尔布吕克的核心不是一座纪念馆，不是一个广场，而是一种活生生的态度。这个小镇选择记住，不是为了沉湎于痛苦，而是为了更用力地拥抱今天这份看似平常、却来之不易的宁静生活。在这里，每一个宁静的午后，都像是对历史的一声郑重回答。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`埃特尔布吕克`} />
+                <InfoRow label="英文名称" value={`Ettelbruck`} />
+                <InfoRow label="正式名称" value={`埃特尔布吕克市（巴顿将军纪念城）`} />
+                <InfoRow label="国家" value={`卢森堡`} />
+                <InfoRow label="城市" value={`迪基希区埃特尔布吕克市`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`卢森堡在第二次世界大战“突出部战役”（阿登战役）中的关键战略据点，也是巴顿将军麾下美军第三集团军在1944年12月解放的重要城镇，被誉为“巴顿将军之城”。`} />
+                <InfoRow label="建筑特色" value={`小镇融合了战后重建的朴素实用主义风格与幸存的老式卢森堡民居，其核心纪念建筑（巴顿纪念馆）由现代材料构筑，内部通过环形坡道营造出沉浸式叙事空间。`} />
+                <InfoRow label="建筑风格" value={`战后现代主义与传统的卢森堡莫泽尔地区建筑风格交织。`} />
+                <InfoRow label="文化价值" value={`一个将惨烈的战争创伤转化为永恒和平纪念的社区典范，展现了卢森堡人铭记历史、珍视自由的国家记忆与集体身份认同。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`巴顿将军纪念馆与历史中心开放时间为周二至周日上午10:00至下午5:00，周一闭馆（除非是公共假日）。小镇本身全天开放。纪念馆在每年1月1日、11月1日、12月25日及部分卢森堡国家纪念日闭馆。每年的“解放纪念日”（12月16日所在周末）期间会有特殊纪念活动和延长开放时间。`} />
+              <InfoRow label="门票价格" value={`巴顿将军纪念馆门票：成人8欧元，65岁以上长者及学生5欧元，12岁以下儿童免费。持有卢森堡卡免费入场。由纪念馆官方组织的城镇历史导览游（含纪念馆门票）价格为15欧元/人，需提前预约。`} />
+              <InfoRow label="地址" value={`Patton Square 1, 9080 Ettelbruck, Luxembourg`} />
+              <InfoRow label="交通方式" value={`从卢森堡城中央火车站（Gare Centrale）乘坐火车前往埃特尔布吕克站是最便捷的方式。列车班次非常频繁，约每15-20分钟一班，车程约30分钟。出站后，步行约5-7分钟即可到达市中心的巴顿将军广场及纪念馆。若自驾，从卢森堡城出发沿A7/E421公路向北行驶约30公里即可到达，镇内有多处收费停车场。从最近的卢森堡芬德尔国际机场出发，可先乘巴士或火车至卢森堡城，再换乘上述线路，总耗时约1小时15分钟。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要理解埃特尔布吕克，你必须回到1944年末那个异常寒冷的冬天。那时，希特勒发动了西线最后一次大规模反击——阿登战役，企图撕裂盟军战线。宁静的卢森堡乡村瞬间变成了血肉磨坊，而地处阿尔泽特河畔、拥有重要公路和铁路枢纽的埃特尔布吕克，成了双方反复争夺的战略要地。战火降临前，它只是一个有着几百年历史的宁静市集小镇，以牲畜交易和酿酒闻名。1944年9月，它曾第一次被美军短暂解放，但随后在德军疯狂的反扑中，再次坠入地狱。12月的炮火几乎将镇中心夷为平地，古老的教堂、房屋连同无数平民的生活，一起化为了瓦砾和灰烬。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`转折点随着一个人物的到来而出现：乔治·S·巴顿将军。这位以勇猛和急躁著称的将领，率领美军第三集团军，在接到紧急命令后，上演了军事史上一次令人惊叹的急行军。他的部队在恶劣天气和复杂地形中，以惊人的速度从南方调转枪口，向北猛攻，直插德军突出部的侧翼。1944年12月25日，圣诞节当天，经过激烈战斗，巴顿的部队终于彻底解放了埃特尔布吕克。对于在冰冷地窖中躲避了数周、濒临绝望的居民来说，坦克引擎的轰鸣不再是死亡的预兆，而是希望的钟声。巴顿将军本人虽未在此长久停留，但他麾下士兵的鲜血，永久地渗入了这片土地。解放，并非故事的结束，而是漫长重建的开始。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`战后的埃特尔布吕克面临抉择：是抹去所有痕迹，建造一个全新的现代城镇，还是保留记忆？小镇的人们选择了后者，但以一种独特的方式。他们没有让废墟永远保持原状作为控诉（如一些城市所做），而是决定在废墟上重建家园，同时，将战争的记忆庄严地供奉起来。1954年，在解放十周年之际，小镇将主广场命名为“巴顿将军广场”，并竖立起他的青铜雕像。这不是对战争的美化，而是对一个将小镇从纳粹铁蹄下拯救出来的具体人物的感激，是对“解放者”概念的具象化。从此，埃特尔布吕克与巴顿将军的名字永远绑定，成为了欧洲大陆上为数不多的、以美军将领命名的“纪念城”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`记忆的载体在后来不断丰富。1995年，在纪念二战结束50周年时，那辆标志性的谢尔曼坦克被永久安置在广场上。它并非在本地作战的车辆，而是一个强有力的象征，一个让孩子们可以触摸、可以提问的“教科书”。2014年，全新的巴顿将军纪念与历史中心落成。这座建筑本身就是一种叙事：它的外墙由耐候钢板覆盖，随着时间流逝会生出锈色，仿佛一块渐渐愈合但仍可见的伤疤。内部则通过螺旋上升的坡道，引导参观者从黑暗走向光明，从战争走向和平。小镇的居民每年都会在解放纪念日举行活动，他们不仅是仪式的参与者，更是这段历史的传承者和讲述者。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天，当你漫步在埃特尔布吕克，你看到的是一个完全重建、充满生机的小城。但它的灵魂深处，永远住着1944年的那个冬天。这里的和平，是一种“知情的和平”，是一种深知其代价、因此更加小心翼翼呵护的脆弱珍宝。从毁灭到重建，从遗忘到铭记，埃特尔布吕克的故事，是一个微型欧洲在二十世纪动荡史诗中的缩影。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排至少半天到一天的时间来沉浸式体验埃特尔布吕克。最佳抵达时间是上午9点半左右，此时小镇刚刚苏醒，阳光柔和，巴顿将军纪念馆也刚好开门，可以避开可能的小型旅行团。整体游览节奏应是“由外向内，由今溯古”：先从小镇的日常肌理开始感受，逐渐聚焦到战争记忆的核心，最后在宁静的河畔或公园进行沉淀与反思。这样的安排能让你先建立起对小镇“当下”的亲切感，再去触碰那段沉重的历史，情感上的冲击和共鸣会更有层次，也更能理解“纪念”在此地的深刻含义。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`尽量避开12月大型解放纪念日活动期间的核心时段（通常是周末上午），除非你想参与盛大仪式，否则届时人潮会非常拥挤，难以静心感受。
+小镇大部分地方平坦易行，但前往河岸有些缓坡，建议穿舒适的步行鞋。
+纪念馆内的多媒体展示非常震撼，部分涉及战争残酷画面，请根据自身情况决定是否带年幼儿童入内。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从埃特尔布吕克火车站出来，先别急着去广场，沿着站前大道慢慢走，感受这座战后重生小城的日常生活脉搏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直走向城镇中心的巴顿将军广场，在清晨相对安静的时刻，静静凝视那辆谢尔曼坦克和巴顿将军的雕像，观察第一缕阳光如何爬上坦克的装甲。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`进入巴顿将军纪念与历史中心，沿着那条象征性的螺旋坡道缓缓而上，让展厅里那些普通士兵的日记、居民的证词和震撼人心的影像将你带回1944年的冬天。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从纪念馆出来后，穿过广场，去主街上的“Café de la Paix”（和平咖啡馆）或任意一家本地咖啡馆，点一杯咖啡，坐在户外，看坦克和雕像如何融入人们买面包、打招呼的日常场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着阿尔泽特河岸散步，留意那些记录着1944年12月战斗地点和伤亡情况的细小铭牌，感受和平的流水声与沉默的历史文本之间的对话。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间和体力允许，步行或乘坐本地巴士前往镇郊的卢森堡美军公墓和纪念地，那里安息着数千名在阿登战役中牺牲的士兵，在广阔的草坪和白色十字架阵中体会最直接的肃穆与哀思。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚前回到小镇，或许可以去镇上的小餐厅品尝一顿卢森堡传统晚餐，比如“Judd mat Gaardebounen”（熏猪肉配蚕豆），在质朴的美食中结束这一天深刻而复杂的旅程。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`巴顿将军雕像与坦克的侧影构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点的侧光下，站在广场东南角，将巴顿将军凝望远方的雕像与前景的坦克炮管一同纳入画面，形成历史人物与战争机器的对话。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`纪念馆锈蚀外墙的质感特写`}</h4>
+                  <p className="text-sm text-gray-700">{`雨后或阴天，走近纪念馆的耐候钢板外墙，拍摄局部锈蚀纹理和雨水的反光，这面“会呼吸的墙”本身就是关于记忆与时间的最佳隐喻。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`阿尔泽特河畔的生活视角`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨，从河对岸（公园一侧）拍摄小镇建筑在水中的倒影，刻意将岸边骑车或散步的当地人作为前景，捕捉战争纪念地与宁静生活共存的瞬间。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`咖啡馆橱窗的反光`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个阳光明媚的上午，在广场边的咖啡馆内，透过玻璃窗拍摄外面坦克的模糊影像与室内咖啡杯、糕点清晰影像的重叠，营造现实与历史记忆交织的超现实感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`老桥上的视角`}</h4>
+                  <p className="text-sm text-gray-700">{`站在横跨阿尔泽特河的老石桥上，用长焦镜头压缩空间，将远处的教堂尖顶、中景的彩色民居和近处的桥栏融为一体，展现小镇愈合后的完整面貌。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄美军公墓时请务必保持绝对肃静和尊重，切勿踏入墓碑之间的草坪区域，最好使用长焦镜头在指定路径上远距离拍摄。`}</li>
+                <li>• {`当地人对于在纪念馆和广场拍照非常习惯，但拍摄具体人物（尤其是哀悼者或沉思的访客）时，请先征得同意或确保对方不在你的直接焦点内。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`位于阿尔泽特河畔几步之遥的“河岸之家”家庭旅馆，由一对退休教师经营，房间简朴干净，早餐的 homemade 果酱和新鲜面包能让你以最本地的方式开启一天。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`“老车站酒店”由一栋十九世纪末的历史建筑巧妙改造，房间保留了高高的天花板和老式木梁，部分房间还能看到火车缓缓进站的怀旧场景，距离所有主要景点都仅需步行。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车约15分钟即可到达迪基希镇附近的“城堡酒店卢森堡”，这座真正的18世纪城堡坐落在森林之中，提供极致的宁静和历史奢华感，是在经历沉重历史一日后最佳的疗愈和反思之所。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`便捷之选`}</h4>
+                  <p className="text-sm text-purple-800">{`埃特尔布吕克火车站旁的现代商务酒店，虽然风格普通，但交通无敌，适合只想把这里作为一日游基地、计划继续探索卢森堡北部或前往德国的火车旅行者。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`埃特尔布吕克本身是个小镇，夜间非常安静，治安极佳，但娱乐活动很少，追求夜生活的游客可能会觉得枯燥。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果计划在解放纪念日（12月）来访，务必提前至少三个月预订住宿，届时整个区域的酒店都会爆满。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`选择河畔住宿时，低层房间在夏季可能稍显潮湿，建议选择楼层较高的房间。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开埃特尔布吕克许久之后，脑海里挥之不去的，不是坦克的冰冷，也不是纪念馆里那些黑白的惨烈影像，而是一种奇异的“平静感”。这份平静不是来自于遗忘，恰恰相反，它来自于一种彻底的、坦然的铭记。这个小镇教会我一件事：真正的和平，不是没有历史阴影的空白之地，而是有勇气把阴影指给你看，然后告诉你，光是从哪个方向照进来的。它没有把历史供奉在遥不可及的圣坛上，而是让它停在回家的路边，让孩子们问“那是什么”，让老人们在每年的同一天，献上一束花。这种将宏大历史“日常化”和“社区化”的处理，比任何宏伟的战争纪念馆都更有力量。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个快节奏的、常常急于翻篇的世界里，埃特尔布吕克像一个温柔的提醒者。它提醒我们，有些伤痕需要被看见，才能避免新的伤痕；有些感谢需要被具体到一个人、一个名字，善良才不会变得抽象。对于每一位热爱深度游的旅人而言，这里不仅仅是一个“景点”，它是一堂关于记忆、修复与生存的沉浸式课。你会带着对“自由”一词更沉重、也更珍贵的理解离开。你会记得，在卢森堡这个富庶安宁的国度里，有这样一个小镇，它的平静之下，奔流着一条名为历史的深河。而聆听这条河的细语，或许能让我们所有人都更懂得，如何守护眼前这片看似寻常的、流动的时光。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/esch-sur-sure" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃施河畔绍尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Esch-sur-Sûre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beaufort-castle-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博福尔城堡遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beaufort Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beaufort-castles" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博福尔城堡遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beaufort Castles</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

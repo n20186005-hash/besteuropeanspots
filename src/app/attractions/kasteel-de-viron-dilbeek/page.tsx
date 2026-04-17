@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '迪尔贝克维龙城堡 Kasteel De Viron｜闯入童话书页的粉色都铎庄园 - 最佳欧洲景点',
+  description: '嘿，想象一下，你正走在比利时一个叫迪尔贝克的安静小镇街道上，两旁的房子朴实又可爱。拐过一个弯，穿过一片高大的树木，突然间，整个世界像被施了魔法——一座粉红色的、像从最精美的童话故事插画里直接走出来的城堡，就这么安安静静地躺在宽阔的、镜子般的护城河中央。我的第一反应是愣住，然后忍不住笑了，这场景太不真...',
+}
+
+export default function KasteelDeVironDilbeekPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '迪尔贝克维龙城堡（如同童话插画般的都铎风格佛兰德斯庄园）', href: '/attractions/kasteel-de-viron-dilbeek' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`迪尔贝克维龙城堡（如同童话插画般的都铎风格佛兰德斯庄园）・Kasteel De Viron・比利时・迪尔贝克`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，想象一下，你正走在比利时一个叫迪尔贝克的安静小镇街道上，两旁的房子朴实又可爱。拐过一个弯，穿过一片高大的树木，突然间，整个世界像被施了魔法——一座粉红色的、像从最精美的童话故事插画里直接走出来的城堡，就这么安安静静地躺在宽阔的、镜子般的护城河中央。我的第一反应是愣住，然后忍不住笑了，这场景太不真实，又太美好了。那不是冷冰冰的、威严的军事堡垒，而是一座充满温柔幻梦的庄园。午后的阳光给那些粉色砖墙和雪白的石质窗框镶上金边，尖尖的塔楼和层层叠叠的阶梯式山墙倒映在水里，连水波的每一次荡漾都慢悠悠的，仿佛时间在这里不小心打了个盹儿。
+空气中是青草、湿润泥土和远处森林传来的淡淡树木清香。周围安静极了，只能听到自己的脚步声，几只天鹅在护城河里优雅地划水，翅膀拍打水面发出轻微的“哗啦”声，还有不知藏在哪片树叶后的鸟儿偶尔啾鸣几声。最打动人的是，这里没有如织的游客，只有推着婴儿车的妈妈、慢跑的青年、手牵手散步的老夫妻。这座城堡不是被供在围栏后的博物馆，它就是小镇居民的后花园，是他们日常生活背景里最华丽又最自然的一部分。你会看到有人靠在长椅上对着城堡素描，有孩子在远处的草坪上追逐泡泡，城堡的倒影就在他们的欢笑里轻轻摇晃。
+它的核心魅力，就在于这种奇妙的“反差感”与“融合感”。建筑本身是19世纪人们对中世纪和都铎时期浪漫想象的产物，带着一种精心设计的、戏剧化的古典美。然而，它却毫无隔阂地沉静在当下的日常生活里，护城河不再是防御工事，而是天鹅和绿头鸭的家；曾经的领主庭院，现在是孩子们学骑自行车的最佳场地。它不像许多城堡那样讲述着王侯将相的丰功伟绩或残酷战争，它讲述的是一种对美好生活的宁静向往，以及一份历久弥新、最终慷慨分享给所有人的“家园”情怀。站在这里，你感觉不到历史的沉重压迫，只感到一种被美好事物轻轻包裹的平和与喜悦。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，想象一下，你正走在比利时一个叫迪尔贝克的安静小镇街道上，两旁的房子朴实又可爱。拐过一个弯，穿过一片高大的树木，突然间，整个世界像被施了魔法——一座粉红色的、像从最精美的童话故事插画里直接走出来的城堡，就这么安安静静地躺在宽阔的、镜子般的护城河中央。我的第一反应是愣住，然后忍不住笑了，这场景太不真实，又太美好了。那不是冷冰冰的、威严的军事堡垒，而是一座充满温柔幻梦的庄园。午后的阳光给那些粉色砖墙和雪白的石质窗框镶上金边，尖尖的塔楼和层层叠叠的阶梯式山墙倒映在水里，连水波的每一次荡漾都慢悠悠的，仿佛时间在这里不小心打了个盹儿。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`空气中是青草、湿润泥土和远处森林传来的淡淡树木清香。周围安静极了，只能听到自己的脚步声，几只天鹅在护城河里优雅地划水，翅膀拍打水面发出轻微的“哗啦”声，还有不知藏在哪片树叶后的鸟儿偶尔啾鸣几声。最打动人的是，这里没有如织的游客，只有推着婴儿车的妈妈、慢跑的青年、手牵手散步的老夫妻。这座城堡不是被供在围栏后的博物馆，它就是小镇居民的后花园，是他们日常生活背景里最华丽又最自然的一部分。你会看到有人靠在长椅上对着城堡素描，有孩子在远处的草坪上追逐泡泡，城堡的倒影就在他们的欢笑里轻轻摇晃。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，就在于这种奇妙的“反差感”与“融合感”。建筑本身是19世纪人们对中世纪和都铎时期浪漫想象的产物，带着一种精心设计的、戏剧化的古典美。然而，它却毫无隔阂地沉静在当下的日常生活里，护城河不再是防御工事，而是天鹅和绿头鸭的家；曾经的领主庭院，现在是孩子们学骑自行车的最佳场地。它不像许多城堡那样讲述着王侯将相的丰功伟绩或残酷战争，它讲述的是一种对美好生活的宁静向往，以及一份历久弥新、最终慷慨分享给所有人的“家园”情怀。站在这里，你感觉不到历史的沉重压迫，只感到一种被美好事物轻轻包裹的平和与喜悦。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`迪尔贝克维龙城堡（如同童话插画般的都铎风格佛兰德斯庄园）`} />
+                <InfoRow label="英文名称" value={`Kasteel De Viron`} />
+                <InfoRow label="正式名称" value={`Kasteel De Viron`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`迪尔贝克`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座历经数百年，从军事防御据点演变为浪漫主义庄园，最终融入现代社区公共生活的佛兰德斯贵族宅邸典范。`} />
+                <InfoRow label="建筑特色" value={`标志性的都铎复兴风格与佛兰德斯本地砖石工艺的绝妙融合，拥有童话般的阶梯式山墙、粉色砖墙与白色石质装饰带构成的鲜明对比，以及被宽阔护城河环绕的如画景象。`} />
+                <InfoRow label="建筑风格" value={`以16世纪英国都铎风格为灵感，融合了佛兰德斯本土元素的19世纪浪漫主义历史主义建筑。`} />
+                <InfoRow label="文化价值" value={`它不仅是建筑艺术的珍宝，更是比利时瓦隆区与弗拉芒区文化交融地带一个活生生的社区心脏，见证了从私人贵族领地到向所有市民开放的公共文化空间的民主化转变。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡建筑内部通常不对外开放，作为市政办公场所。但其宏伟的城堡主体外观可全天近距离观赏。环绕城堡的维龙公园（Domein De Viron）全年每日免费开放，日出至日落。公园内的信息中心开放时间较为灵活，通常为工作日办公时间，周末可能缩短或关闭，建议行前在迪尔贝克市官网查询临时公告。城堡主体在特殊的“遗产日”或文化节期间偶尔会开放部分厅室供公众参观。`} />
+              <InfoRow label="门票价格" value={`参观城堡外部建筑群及漫步维龙公园完全免费。如果遇到特殊的内部开放导览活动，可能会有象征性的几欧元费用，用于文化遗产维护，学生及老人通常有优惠。`} />
+              <InfoRow label="地址" value={`Gemeenteplein 1, 1700 Dilbeek, Belgium`} />
+              <InfoRow label="交通方式" value={`从布鲁塞尔国际机场出发：最便捷的方式是乘坐火车。在机场火车站乘坐前往布鲁塞尔中央火车站的列车，约20分钟。在布鲁塞尔中央火车站换乘前往阿尔斯特或登德蒙德的列车，在“迪尔贝克”站下车，全程从机场算起约40-50分钟。火车班次频繁，约每半小时一班，可直接在车站自动售票机购票。从迪尔贝克火车站出站后，步行是探索这座小镇的最佳方式。沿着主街“Dorpstraat”向西北方向悠闲漫步约15-20分钟，穿过宁静的居民区，便能抵达城堡所在的绿地区域，沿途风光已充满生活气息。如果自驾，从布鲁塞尔市中心出发约20分钟车程，城堡公园周边有免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座城堡的故事，得从一片名为“维龙”的古老土地说起。早在中世纪，这里可能就是某个当地领主的产业，但让一切变得不同的，是维龙家族。这个家族在14、15世纪的布拉班特公国逐渐崭露头角，他们需要一座配得上身份的宅邸，于是，一座带有防御功能的坚固石质城堡在迪尔贝克的水道旁建立起来。你可以想象在那个时代，它更像一个实用的庄园中心，有粮仓、马厩，高大的塔楼瞭望着周围的田野，提防着可能的纷扰。它见证了勃艮第公爵的辉煌，也经历了宗教改革的暗流与西班牙统治的动荡，砖石间浸透着佛兰德斯地区特有的那种坚韧与务实。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间的剧本在19世纪被彻底改写。工业革命的浪潮席卷欧洲，新兴的资产阶级拥有了巨大的财富和对“浪漫过往”的无限憧憬。1863年，城堡迎来了它命运的关键人物——新主人让-巴普蒂斯特·维龙。他可不是中世纪的老派贵族，而是一位成功的实业家。他深受当时风靡的浪漫主义和历史主义风潮影响，尤其是对英国都铎时期建筑的狂热迷恋。于是，他做了一件大胆而富有诗意的事：决定将祖传的、已经显得过时且可能有些破败的老城堡，改造成自己梦想中的浪漫居所。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`接下来的几十年，就像一场盛大而精细的魔法。古老的防御性建筑被小心翼翼地部分拆除或改造，建筑师们以原址为基础，用当时最新的建材和技术，重新“编织”了一个童话。他们采用了醒目的粉红色砖块，配上纯白的石灰石，勾勒出窗户、墙角线和那些令人过目不忘的阶梯形山墙。这种鲜明的色彩对比和复杂的轮廓线，正是都铎风格的灵魂。宽阔的护城河被保留并美化，不再是防御需要，而成了一面映照建筑之美的最完美画框。城堡的内部也被奢华地装修，充满了新哥特式的木雕、彩绘玻璃和华丽壁炉。维龙先生本质上是在用砖石写诗，创作了一首献给中世纪浪漫的、立体而可居住的颂歌。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，家族的华彩乐章并未永远奏响。随着20世纪两次世界大战的硝烟与社会结构的巨变，维持这样一座庞大庄园的成本和意义都发生了改变。城堡的命运再次来到十字路口。是沦为私人手中日渐衰败的遗迹，还是找到新的存在意义？迪尔贝克社区给出了充满智慧的答案。1965年，当地政府做出了一个至关重要的决定：收购维龙城堡及其广阔的领地。这并非仅仅是为了保护一栋漂亮的老建筑，更是为了将这片美丽的土地重新还给创造它、并一直生活在它周边的人们。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，我们今天看到的景象诞生了。城堡主楼经过修缮，成为了迪尔贝克市的市政厅和部分行政办公室。想想看，市民们是在一座童话城堡里办理他们的出生登记、结婚证书或商业文件，这是多么奇妙而温暖的日常！而环绕城堡的广阔土地，则被精心规划成向所有人免费开放的“维龙公园”。昔日的私家花园、林地、池塘，都变成了公众散步、野餐、运动和文化活动的乐园。从私密尊贵的贵族领地，到开放共享的社区心脏，维龙城堡完成了一次最动人、也最具现代性的蜕变。它的每一块粉红色砖瓦，都仿佛在诉说着一个关于传承、梦想与包容的漫长故事。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味维龙城堡，请务必留出大半个下午的时间，最佳抵达时间是午后两三点。此时阳光西斜，光线最为柔和，能完美勾勒出城堡粉墙白边的立体感，并在护城河上投下长长的、动人的倒影。整体游览节奏应极度放松，以“漫步”和“沉浸”为核心，耗时约2.5至3小时。建议先从外部环绕城堡，欣赏其全景与细节，然后深入公园，从不同角度和距离回望它，最后在公园的长椅上或草坪上静静地坐一会儿，让这份宁静的美好沉淀下来。这样的安排能让你从最初的视觉震撼，逐步过渡到身心俱静的深度体验。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`城堡内部作为办公区域通常不开放参观，请保持安静，不要打扰里面工作的人员。公园面积很大，穿着舒适便于行走的鞋子是关键。比利时的天气多变，即使是晴天也建议带一件轻薄防风的外套。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站一路散步过来后，先别急着过桥，沿着护城河外侧的步道向左或向右走一小段，找一个最喜欢的角度静静凝视水中央的城堡全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走过那座通往城堡主庭院的小石桥，站在桥中央停下，感受自己被护城河与童话般的建筑正面完全包围的奇妙瞬间。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`踏入城堡内院，抬头仔细欣赏那些错综复杂的阶梯式山墙、装饰性的小塔楼和每一扇别致的窗户，想象一下维龙先生当年在此漫步的心情。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕到城堡的侧面和后方，你会发现建筑体量与花园、树林的结合更加自然亲密，这里的视角更为生活化。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`离开内院，信步走入广阔的维龙公园，沿着蜿蜒的小径穿过高大的乔木林，让城堡在树影间若隐若现。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻找公园里那几个经典的观景草坪，找一张面朝城堡的长椅坐下，看天鹅游弋，看云影在粉色的墙面上缓缓移动。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间和体力允许，可以探索公园更远的角落，比如那片静谧的池塘或小树林，从更远的距离回望，城堡成了绿意葱茏中一个宁静的坐标。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在夕阳西下前，再次回到护城河边，等待黄昏的金色光芒为整个场景披上最后也是最梦幻的一层滤镜。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`护城河石桥正中标准照`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三点至日落前，站在连接公园与城堡主院的石桥中央，将城堡正面连同其在水中的完整倒影一同纳入镜头，构图力求对称，这是最经典的童话明信片角度。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`公园东南侧草坪框景构图`}</h4>
+                  <p className="text-sm text-gray-700">{`从公园主要草坪区域，利用前景的树木枝叶自然形成一个画框，聚焦远处的城堡塔楼，尤其在春季有新绿或秋季有黄叶时，层次和色彩极为丰富。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城堡西南侧森林小径倒影拍`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚前，走到城堡西南方公园的森林边缘，那里的小径旁常有安静的水洼，可以蹲下拍摄城堡局部在水洼中的唯美倒影，充满细节和趣味。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`内院仰拍山墙细节`}</h4>
+                  <p className="text-sm text-gray-700">{`进入城堡内院后，抬头寻找阳光正好打亮某一面装饰性山墙的角度，用长焦镜头捕捉砖石纹理、白色雕带与蓝色天空构成的几何图案之美。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`公园长椅生活感场景`}</h4>
+                  <p className="text-sm text-gray-700">{`邀请同行的伙伴或捕捉当地居民（在征得同意后）坐在面朝城堡的长椅上的背影，将人物、悠闲的氛围与城堡远景结合，讲述一个有温度的故事。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效减少护城河水面的反光，让城堡倒影更加清晰透彻。尊重当地人的隐私，如果拍摄到清晰的正脸，尤其是儿童，礼貌地上前询问通常是受欢迎的做法。无人机飞行在此类历史建筑和公园上空可能有严格限制，起飞前务必查清当地法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`便捷之选`}</h4>
+                  <p className="text-sm text-blue-800">{`迪尔贝克火车站旁的现代商务酒店，房间干净明亮，对于乘坐火车抵达的旅人来说拖着行李只需步行一分钟，是探索城堡和周边区域的完美后勤基地。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`沉浸体验`}</h4>
+                  <p className="text-sm text-green-800">{`坐落在维龙公园边缘、由古老庄园附属建筑改造的精品酒店，部分房间的窗户直接面向城堡或公园森林，让你在晨雾与鸟鸣中醒来，真正住在风景里。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`历史氛围`}</h4>
+                  <p className="text-sm text-yellow-800">{`布鲁塞尔市中心由17世纪修道院改建的设计酒店，既能享受首都的便利与夜生活，乘坐短途火车二十分钟即可抵达城堡，体验古今交织的对比乐趣。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`乡村宁静`}</h4>
+                  <p className="text-sm text-purple-800">{`租住在迪尔贝克附近皮特姆或旧海纳尔特乡村的弗拉芒风格民宿，拥有美丽的花园和主人热情款待，深度感受比利时法兰德斯田园的日常节奏与温情。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果选择住在迪尔贝克本地，夜晚和清晨的公园及城堡周边会异常宁静，仿佛独享整个庄园，治安非常好。布鲁塞尔的住宿选择远多于小镇，但旺季（春季和夏季周末）需要提前预订，尤其是市中心具有特色的酒店。通过本地民宿平台常能发现那些由历史建筑改造、主人亲自打理的独特住所，体验远超标准酒店。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开维龙城堡很久以后，我脑海里反复回味的，不是它有多么宏大或华丽——在欧洲，比它宏伟的古堡实在太多了。我记住的，是那种近乎奢侈的宁静与和谐。它没有成为一座需要高昂门票、被绳索隔开的“标本”，而是彻底地、温柔地融入了风吹过草地、孩子追逐嬉戏、老人并肩散步的日常图景里。这让我思考，什么才是文化遗产真正有生命力的归宿？或许不仅仅是保护起来供人瞻仰，更是让它重新呼吸，成为社区血脉的一部分。维龙城堡从私人梦想的结晶，转变为公共幸福的载体，这个转身，比任何建筑细节都更美。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，如果你厌倦了那些摩肩接踵的打卡地，如果你想找一个地方，让自己的心慢下来，真切地感受到“美好生活”可以有的具体模样，那么请来迪尔贝克，来维龙城堡。它像一本打开在阳光下的立体童话书，邀请你走进去，不是作为匆匆翻页的读者，而是作为一个可以在此深呼吸、发呆、做白日梦的临时居民。在这里，你会发现，历史最动人的姿态，不是高高在上的讲述，而是沉默又深情地，为每一个平凡的当下，提供着永恒的、如画般的背景。这份将极致浪漫与朴素日常完美融合的礼物，值得每一位懂得慢游之乐的旅人，前来亲自签收。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/tournai-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    图
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图尔奈圣母主教座堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tournai Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/belfry-of-mons-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙斯钟楼及老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Belfry of Mons and the Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/arlon-roman-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔隆古罗马遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arlon Roman Ruins</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

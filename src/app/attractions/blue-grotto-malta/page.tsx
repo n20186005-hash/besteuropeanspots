@@ -1,0 +1,229 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '马耳他蓝洞 Blue Grotto｜探访地中海蓝宝石，在光影交响的蔚蓝洞穴中乘船漫游 - 最佳欧洲景点',
+  description: '车子沿着马耳他南部高地的公路盘旋，窗外的景色从土黄色的干燥农田陡然切换成一片无垠的、蓝到不真实的绸缎——那就是地中海。而当你在观景台停好车，走到悬崖边缘的那一刻，呼吸会不由自主地屏住。脚下几十米处，海水不是一种蓝色，而是交响乐般的蓝：近岸是清澈见底的绿松石色，随着海床陡然下降，颜色层层递进为蔚蓝、钴...',
+}
+
+export default function BlueGrottoMaltaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '马耳他蓝洞', href: '/attractions/blue-grotto-malta' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`马耳他蓝洞・Blue Grotto・马耳他・南区（祖里格镇）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子沿着马耳他南部高地的公路盘旋，窗外的景色从土黄色的干燥农田陡然切换成一片无垠的、蓝到不真实的绸缎——那就是地中海。而当你在观景台停好车，走到悬崖边缘的那一刻，呼吸会不由自主地屏住。脚下几十米处，海水不是一种蓝色，而是交响乐般的蓝：近岸是清澈见底的绿松石色，随着海床陡然下降，颜色层层递进为蔚蓝、钴蓝，直至洞穴深处那神秘而浓郁的靛蓝。风里带着咸腥的海藻味和阳光下炙烤的岩石气息。
+耳边是永不停歇的白噪音：海浪轻柔地拍打岩壁的“哗哗”声，远处悬崖上海鸟的鸣叫，还有下方码头传来的、渔民们用马耳他语招呼游客的模糊声响。那些鲜艳的“鲁佐”小船——船头画着荷鲁斯之眼，色彩斑斓得像儿童玩具——正排着队，一船一船地将兴奋的游客送进那片蔚蓝的入口。这里不是与世隔绝的秘境，它充满了生活的烟火气。当地人开着车来，就为了在观景台边的咖啡店喝一杯，看看这片他们引以为傲的海；渔民世代在此谋生，如今将古老的捕鱼技巧转化为旅游服务，热情里带着海岛人特有的淳朴。
+但蓝洞最摄人心魄的魅力，在于光与水的魔法。这不是一个静止的景点，而是一个随着太阳角度、海水波动而每分钟都在变化的生命体。当正午的阳光以最佳角度射入海蚀洞穴的开口时，海水会吸收红光，只反射出最纯粹的蓝光，同时照亮水下橙色的珊瑚和白色的沙底，整个洞穴内部仿佛一块被点亮的、巨大的蓝宝石。船穿行其间，你会看到光影在岩壁上流动，海水在船舷边泛起钻石般的碎光，那一刻，你会忘记所有地理名词，只感到一种原始的、被自然之美击中的震撼。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子沿着马耳他南部高地的公路盘旋，窗外的景色从土黄色的干燥农田陡然切换成一片无垠的、蓝到不真实的绸缎——那就是地中海。而当你在观景台停好车，走到悬崖边缘的那一刻，呼吸会不由自主地屏住。脚下几十米处，海水不是一种蓝色，而是交响乐般的蓝：近岸是清澈见底的绿松石色，随着海床陡然下降，颜色层层递进为蔚蓝、钴蓝，直至洞穴深处那神秘而浓郁的靛蓝。风里带着咸腥的海藻味和阳光下炙烤的岩石气息。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`耳边是永不停歇的白噪音：海浪轻柔地拍打岩壁的“哗哗”声，远处悬崖上海鸟的鸣叫，还有下方码头传来的、渔民们用马耳他语招呼游客的模糊声响。那些鲜艳的“鲁佐”小船——船头画着荷鲁斯之眼，色彩斑斓得像儿童玩具——正排着队，一船一船地将兴奋的游客送进那片蔚蓝的入口。这里不是与世隔绝的秘境，它充满了生活的烟火气。当地人开着车来，就为了在观景台边的咖啡店喝一杯，看看这片他们引以为傲的海；渔民世代在此谋生，如今将古老的捕鱼技巧转化为旅游服务，热情里带着海岛人特有的淳朴。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但蓝洞最摄人心魄的魅力，在于光与水的魔法。这不是一个静止的景点，而是一个随着太阳角度、海水波动而每分钟都在变化的生命体。当正午的阳光以最佳角度射入海蚀洞穴的开口时，海水会吸收红光，只反射出最纯粹的蓝光，同时照亮水下橙色的珊瑚和白色的沙底，整个洞穴内部仿佛一块被点亮的、巨大的蓝宝石。船穿行其间，你会看到光影在岩壁上流动，海水在船舷边泛起钻石般的碎光，那一刻，你会忘记所有地理名词，只感到一种原始的、被自然之美击中的震撼。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`马耳他蓝洞`} />
+                <InfoRow label="英文名称" value={`Blue Grotto`} />
+                <InfoRow label="正式名称" value={`Blue Grotto`} />
+                <InfoRow label="国家" value={`马耳他`} />
+                <InfoRow label="城市" value={`南区（祖里格镇）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`大自然用数万年时间雕琢出的地质杰作，是马耳他群岛石灰岩海岸线与地中海力量共舞的终极见证。`} />
+                <InfoRow label="建筑特色" value={`无人类建筑，纯粹由海浪冲击、侵蚀和溶解软质石灰岩而形成的系列巨大海蚀拱门、洞穴和岩柱。`} />
+                <InfoRow label="建筑风格" value={`自然天成的地中海海岸喀斯特地貌风格。`} />
+                <InfoRow label="文化价值" value={`它不仅是震撼人心的自然奇观，更是马耳他古老渔民文化（Luzzu渔船）和当地人敬畏、利用并珍视海洋资源的鲜活象征。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`乘船游览运营时间通常为每日上午9:00至下午5:00，但完全取决于当日海况。风浪稍大便会立即停止运营，最佳游览期是每年4月至10月，海面最为平静。冬季（11月至次年3月）运营极不稳定，经常关闭。建议行前务必查看当天早晨的天气和海事公告。`} />
+              <InfoRow label="门票价格" value={`乘坐传统彩色小渔船（Luzzu）游览的价格约为每人10欧元，游览时长约20-30分钟。无单独门票，费用即船费。儿童通常有优惠（约5-6欧元）。只在上观景台俯瞰不收费。`} />
+              <InfoRow label="地址" value={`Blue Grotto, Il-Hofra, Żurrieq ZRQ 3013, Malta`} />
+              <InfoRow label="交通方式" value={`从马耳他国际机场（MLA）出发最为方便，驾车或乘坐出租车仅需15-20分钟即可抵达祖里格镇的乘船点。若从瓦莱塔主城区出发，可乘坐71路或72路公交车直达“Blue Grotto”站，车程约50分钟，班次约每30-60分钟一班，建议购买马耳他公共交通的日卡或周卡。自驾是最灵活的方式，乘船点附近有免费停车场，但旺季上午十点后车位非常紧张。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲述蓝洞的故事，我们得把时间轴拉回到数百万年前。那时，这里还没有马耳他群岛，一片温暖的浅海覆盖着现今的地中海区域。海洋生物的尸骸——主要是微小的浮游生物——层层堆积在海底，经过漫长的地质岁月，压实成了柔软的 Globigerina 石灰岩。后来，地球板块的运动将这片海床抬升，露出了水面，形成了马耳他群岛的基本骨架。这看似坚固的岩石，其实在海浪面前，是位温柔的“妥协者”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的雕刻师，是永不疲倦的地中海海浪，连同雨水和风。它们可不是温柔的艺术家，而是带着盐分的、持之以恒的工匠。海浪日夜冲击着悬崖底部相对脆弱的部分，先是创造出凹坑，然后是海蚀洞。当海浪从两侧同时侵蚀一个海岬，并最终相遇贯通时，一个壮丽的海蚀拱门便诞生了。蓝洞并非单一洞穴，而是一个由多个拱门和洞穴组成的复杂系统，其中最大的拱门跨度超过30米，这需要多少亿次海浪的亲吻与捶打才能完成？这过程缓慢到人类无法察觉，但站在它面前，你能感受到那种名为“地质时间”的磅礴力量。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在人类的历史里，蓝洞长期是渔民与海员的隐秘地标。在机动船出现以前，马耳他的渔民划着小小的“达伊萨”木船，凭借世代相传的知识在这片看似平静实则暗藏礁石的海域谋生。这些洞穴在风暴来临时，是绝佳的避风港；在和平的日子里，则是富含鱼类的地方。那些鲜艳的“鲁佐”渔船，船头永远画着一双“荷鲁斯之眼”，这传统可追溯到腓尼基人时代，渔民相信这双眼睛能保佑他们看清海中的危险，平安归家。蓝洞，是他们日常生活与精神信仰的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它被外界广泛认识，其实是在现代旅游兴起之后。随着摄影技术的普及和彩色照片的传播，这片拥有不可思议蓝色的海域迅速抓住了全球旅行者的心。“蓝洞”这个名字本身，就充满了营销的浪漫，让人联想到意大利卡普里岛那个更著名的同名洞穴。但马耳他的蓝洞群更加开阔、阳光更加充足，体验也更具互动性——你可以亲自乘船钻进那些拱门之下。当地社区很快抓住了这个机会，将传统的渔业技能转向旅游业，建立了有序的乘船服务体系，让这个自然奇观得以可持续地向世界展示。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天，蓝洞面临着甜蜜的负担——名声。游客纷至沓来，如何保护这片脆弱的海岸生态成了首要课题。政府划定了保护区域，严格规范船只航线，以避免对水下生物和岩壁造成破坏。气候变化导致的海平面上升和更频繁的极端天气，也在无声地改变着雕刻进程。我们现在看到的蓝洞，是瞬间的地质快照，它仍在缓慢地“呼吸”和“生长”。或许几百年后，某个拱门会坍塌，形成新的景观。这使得每一次探访，都成为与一个“活着”的、不断演变的地质奇观的一次独特约会。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的蓝洞之旅必须始于一个晴朗无风的早晨。建议在上午9点前抵达乘船点，这时阳光角度最适合洞内观景，海面通常最为平静如镜，能最大程度欣赏到海水晶莹剔透的质感，并且完美避开10点半后蜂拥而至的旅行团。整体耗时约3-4小时为佳：先乘船进行核心体验（约30分钟），之后上岸，沿着悬崖步道漫步至各个观景台从高处俯瞰（约1小时），最后在悬崖边的家庭餐厅享用一顿以新鲜海鱼为主的午餐，看着大海消化这场视觉盛宴。这样的节奏由动入静，由近及远，能全方位、多层次地感受蓝洞的壮美。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`绝对不要在下午或风大的日子前往，海浪变大不仅危险，而且浑浊的海水会让神奇的蓝色彻底消失。穿一双防滑的鞋子，悬崖步道是天然的岩石路，有些地方比较粗糙。船夫可能会用多国语言进行简单讲解，但更值得你用心去感受四周的风景而非仅仅听讲解。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一早直接奔赴祖里格镇的乘船码头，跳上一艘最早班的色彩斑斓的传统“鲁佐”小渔船`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在船夫的带领下依次穿越“蓝洞”主拱门，感受船身划过如蓝丝绸般水面的静谧，仰头看阳光将拱顶岩石染成金色`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`让小船带你钻进侧面几个较小的洞穴，在幽蓝的洞内静候，看水波将阳光反射到洞顶，形成梦幻般晃动的蓝色光斑`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`探出身子观察清澈见底的海水中游弋的鱼群和海底白色的沙地，感受海水不同层次的蓝在此交融`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下船后不要急着离开，沿着码头左侧清晰标识的悬崖步道向上攀登，抵达第一个也是最高的观景台`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在这个制高点用广角视野俯瞰整个蓝洞建筑群的全貌，看那些小船像玩具一样进出巨大的海上拱门`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`继续沿步道走到侧面较低的平台，这里能以平视的角度近距离观察海浪如何涌入洞穴并拍打出雪白的泡沫`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后回到悬崖顶端的家庭式餐厅，挑一个露天靠边的座位，点一份当日捕获的烤鱼，就着无敌海景慢慢享用`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`主观景台全景框`}</h4>
+                  <p className="text-sm text-gray-700">{`上午9-11点间，站在最高的观景台西侧边缘，用广角镜头将蜿蜒的悬崖步道作为前景，把巨大的海蚀拱门和进出的小船一同收入画中，构图充满叙事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`拱门下的仰拍视角`}</h4>
+                  <p className="text-sm text-gray-700">{`乘船穿过主拱门时，让同伴坐在船头，你朝向船尾，在船即将完全进入拱门阴影的刹那，仰拍人物剪影与背后被阳光照亮的碧蓝海面和洞口，光影对比强烈。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`洞穴内的蓝色魔幻光`}</h4>
+                  <p className="text-sm text-gray-700">{`选择正午时分进入侧面洞穴，当船静止时，将相机对准水面以下，使用偏振镜消除反光，捕捉海水自身发出的那种如蓝宝石荧光般的、不真实的蓝色。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`悬崖步道中段局部`}</h4>
+                  <p className="text-sm text-gray-700">{`下午侧光时，在步道中段寻找一个角度，聚焦于一块被海浪侵蚀成蜂窝状的、质感强烈的黄色石灰岩，以远处拱门的一角为背景，突出地质纹理与结构之美。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`水上拍摄务必做好设备防水，海浪颠簸导致的溅水是相机杀手。尊重船夫和其他乘客，使用无人机前务必确认当地法规，该区域常有禁飞限制。最美的照片往往需要耐心等待那艘颜色最亮的“鲁佐”小船恰好驶入你的构图中心。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`渔港生活体验`}</h4>
+                  <p className="text-sm text-blue-800">{`住在乘船点所在的祖里格镇中心，选择一栋由传统石灰岩宅邸改造的民宿，早晨被港口渔船的马达声唤醒，傍晚和本地老人一起在滨海广场散步。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`宁静乡村别墅`}</h4>
+                  <p className="text-sm text-green-800">{`租住蓝洞附近乡村如萨菲或夸巴贾尔一带的独栋农舍，拥有私人泳池和花园，享受马耳他乡村的静谧，自驾前往蓝洞仅需五分钟。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端海崖酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻在稍远的马尔萨什洛克湾或丁利悬崖区的四星级以上酒店，房间拥有俯瞰地中海的开阔阳台，在日落时分一边品酒一边远眺蓝洞所在的海岸线。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`瓦莱塔文化基点`}</h4>
+                  <p className="text-sm text-purple-800">{`对于想同时深度探索首都的游客，住在世界遗产瓦莱塔古城内的精品酒店，通过便捷的公交连接当日往返蓝洞，享受古今结合的旅行节奏。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`南部沿海小镇的住宿更具本土风情和性价比，但夜间娱乐选择较少。夏季（6-9月）是马耳他旅游绝对旺季，务必提前数月预订住宿。如果选择自驾，确保住宿地提供停车位，马耳他老城街道停车是出了名的难题。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开蓝洞许久，闭上眼睛，那片交响乐般的蓝色依然会在脑海里自动播放。它带来的触动，远不止于视网膜的惊艳。那是一种关于“时间”的具象化教育。我们日常纠结于分秒、年月，但在这里，你面对的是以万年为刻度、由海浪执笔的地质史诗。它让你瞬间感到自身的渺小，但这种渺小并不令人沮丧，反而带来一种奇特的释然——眼前的烦恼，在奔涌的海浪和屹立的岩石面前，又算得了什么呢？`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求快速、人造和虚拟的时代，蓝洞的存在像一个坚定的反叛者。它不需要任何VR特效，它的美是如此原始、直接且充满力量。它提醒我们，世界上最顶尖的“设计师”是自然与时间，最动人的“奇迹”往往免费，但需要你亲自到场，带着一颗安静的心去感受。为什么它值得你漂洋过海？因为它不仅是一个景点，更是一堂关于耐心、敬畏与纯粹之美的沉浸式大师课。当你乘着小船滑入那片蔚蓝，光斑在头顶摇曳时，你会找回与地球最古老、最深邃脉搏的连接感。这是一生难忘的，属于地中海的蓝色拥抱。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/hagar-qim-temples-malta" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈加印神庙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hagar Qim</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/dingli-cliffs" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    丁
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">丁利悬崖</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dingli Cliffs</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/three-cities" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    三
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">三姐妹城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Three Cities</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

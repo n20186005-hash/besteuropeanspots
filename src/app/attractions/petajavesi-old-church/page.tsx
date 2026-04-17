@@ -1,0 +1,237 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '佩泰耶韦西老教堂 Petäjävesi Old Church｜湖畔松林中的原木珍宝，联合国教科文组织世界遗产 - 最佳欧洲景点',
+  description: '车子离开主干道，拐进一条被高大松林遮蔽的碎石小路，周遭的世界瞬间安静下来。车轮压过松针的沙沙声是唯一的伴奏，空气里弥漫着冷冽的松脂清香和潮湿苔藓的味道。就在你觉得路快要尽头时，森林豁然开朗，一片宁静的湖泊像一块巨大的、微微起皱的铅灰色绸缎铺在眼前。而它，就那样静静地伫立在湖畔一块微微隆起的坡地上——...',
+}
+
+export default function PetajavesiOldChurchPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '佩泰耶韦西老教堂', href: '/attractions/petajavesi-old-church' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`佩泰耶韦西老教堂・Petäjävesi Old Church・芬兰・佩泰耶西市， 中芬兰区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子离开主干道，拐进一条被高大松林遮蔽的碎石小路，周遭的世界瞬间安静下来。车轮压过松针的沙沙声是唯一的伴奏，空气里弥漫着冷冽的松脂清香和潮湿苔藓的味道。就在你觉得路快要尽头时，森林豁然开朗，一片宁静的湖泊像一块巨大的、微微起皱的铅灰色绸缎铺在眼前。而它，就那样静静地伫立在湖畔一块微微隆起的坡地上——一座深褐色的木头教堂，尖顶直指同样灰蒙蒙的天空。第一眼的感觉不是震撼，而是一种奇异的安宁与和谐。它不像那些巨石垒成的大教堂那样试图征服天空，而是像一个从森林土壤里自然生长出来的生命体，谦卑又坚定地成为这幅芬兰风景画中不可或缺的一部分。
+走近了，木材在百年风雨洗礼下呈现出的色泽才真正抓住你。那不是单调的褐色，而是从银灰到深褐的丰富渐变，向阳的一面被晒得发白，背阴处则沉淀着墨色，木头的纹理像老人的掌纹一样清晰深刻。我伸手轻轻触摸外墙，指尖传来的不是石头的冰凉，而是木头在夏日阳光下微微的暖意，以及一种粗砺又温润的质感。教堂的钟楼是独立的，就在主建筑几步开外，同样由木头搭建，顶部的十字架已经有些歪斜，却更添风味。周围安静极了，只有风吹过松林的呜咽，和远处湖面不知名水鸟偶尔的一声啼叫。
+推开那扇厚重、发出嘎吱声响的木门，仿佛跨入了另一个时空。外界的光线被窄小的窗户过滤后，柔和地漫射进来，空气中漂浮着细微的尘埃，像金色的薄雾。一股浓郁而陈旧的气息扑面而来——那是陈年木材、干涸的蜡油、以及一点点霉味混合在一起的、独属于老建筑的味道。内部空间比从外面看感觉要高大空旷许多，简朴的长条木椅，一个并不繁复的讲坛，仅此而已。没有华丽的壁画，没有炫目的彩窗，所有的装饰就是木头本身：那些裸露的、交织的房梁，那些被工匠手工刨削出的光滑曲面。这份极致的朴素，反而产生了一种直击人心的精神力量。你会立刻明白，对当年的建造者而言，信仰不需要浮华的诠释，它就在这一斧一凿的虔诚里，在这与森林、湖泊共呼吸的宁静之中。
+这座教堂早已不是日常礼拜的场所，但它依然是社区的灵魂地标。夏天的夜晚，这里会举行小型音乐会，巴赫的旋律在木结构空间中产生不可思议的共鸣。当地人的婚礼也偏爱在这里举行，新人在亲友的簇拥下，从洒满松针的小径走向教堂，完成生命中最重要的仪式之一。它脱离了纯粹的宗教功能，演化成了一个文化记忆的容器，一个让忙碌的现代芬兰人能够短暂回归宁静与根源的“精神避风港”。它的核心魅力，就在于这种毫无隔阂的亲切感——它不是供奉在玻璃柜里的古董，而是一段依然在呼吸的、活生生的历史。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子离开主干道，拐进一条被高大松林遮蔽的碎石小路，周遭的世界瞬间安静下来。车轮压过松针的沙沙声是唯一的伴奏，空气里弥漫着冷冽的松脂清香和潮湿苔藓的味道。就在你觉得路快要尽头时，森林豁然开朗，一片宁静的湖泊像一块巨大的、微微起皱的铅灰色绸缎铺在眼前。而它，就那样静静地伫立在湖畔一块微微隆起的坡地上——一座深褐色的木头教堂，尖顶直指同样灰蒙蒙的天空。第一眼的感觉不是震撼，而是一种奇异的安宁与和谐。它不像那些巨石垒成的大教堂那样试图征服天空，而是像一个从森林土壤里自然生长出来的生命体，谦卑又坚定地成为这幅芬兰风景画中不可或缺的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近了，木材在百年风雨洗礼下呈现出的色泽才真正抓住你。那不是单调的褐色，而是从银灰到深褐的丰富渐变，向阳的一面被晒得发白，背阴处则沉淀着墨色，木头的纹理像老人的掌纹一样清晰深刻。我伸手轻轻触摸外墙，指尖传来的不是石头的冰凉，而是木头在夏日阳光下微微的暖意，以及一种粗砺又温润的质感。教堂的钟楼是独立的，就在主建筑几步开外，同样由木头搭建，顶部的十字架已经有些歪斜，却更添风味。周围安静极了，只有风吹过松林的呜咽，和远处湖面不知名水鸟偶尔的一声啼叫。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`推开那扇厚重、发出嘎吱声响的木门，仿佛跨入了另一个时空。外界的光线被窄小的窗户过滤后，柔和地漫射进来，空气中漂浮着细微的尘埃，像金色的薄雾。一股浓郁而陈旧的气息扑面而来——那是陈年木材、干涸的蜡油、以及一点点霉味混合在一起的、独属于老建筑的味道。内部空间比从外面看感觉要高大空旷许多，简朴的长条木椅，一个并不繁复的讲坛，仅此而已。没有华丽的壁画，没有炫目的彩窗，所有的装饰就是木头本身：那些裸露的、交织的房梁，那些被工匠手工刨削出的光滑曲面。这份极致的朴素，反而产生了一种直击人心的精神力量。你会立刻明白，对当年的建造者而言，信仰不需要浮华的诠释，它就在这一斧一凿的虔诚里，在这与森林、湖泊共呼吸的宁静之中。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座教堂早已不是日常礼拜的场所，但它依然是社区的灵魂地标。夏天的夜晚，这里会举行小型音乐会，巴赫的旋律在木结构空间中产生不可思议的共鸣。当地人的婚礼也偏爱在这里举行，新人在亲友的簇拥下，从洒满松针的小径走向教堂，完成生命中最重要的仪式之一。它脱离了纯粹的宗教功能，演化成了一个文化记忆的容器，一个让忙碌的现代芬兰人能够短暂回归宁静与根源的“精神避风港”。它的核心魅力，就在于这种毫无隔阂的亲切感——它不是供奉在玻璃柜里的古董，而是一段依然在呼吸的、活生生的历史。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`佩泰耶韦西老教堂`} />
+                <InfoRow label="英文名称" value={`Petäjävesi Old Church`} />
+                <InfoRow label="正式名称" value={`Petäjävesi Old Church`} />
+                <InfoRow label="国家" value={`芬兰`} />
+                <InfoRow label="城市" value={`佩泰耶西市， 中芬兰区`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`北欧原木教堂建筑的杰出代表，是联合国教科文组织认定的世界文化遗产。`} />
+                <InfoRow label="建筑特色" value={`完全由当地松木手工打造，未使用一颗钉子，展现了炉火纯青的原木卡榫技艺。`} />
+                <InfoRow label="建筑风格" value={`芬兰新教教堂风格与本土传统木构技艺的完美融合。`} />
+                <InfoRow label="文化价值" value={`它不仅是宗教场所，更体现了芬兰人朴素、实用、与自然深刻联结的民族精神和生活哲学。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`每年6月1日至8月31日开放，具体时间为每日上午10点至下午6点。冬季（9月至次年5月）仅接受提前预约参观，且受天气影响极大，湖区道路可能积雪封闭。请注意，教堂在举行私人仪式（如婚礼、葬礼）时会临时关闭，出行前务必在官方网站或当地旅游局确认最新开放状态。`} />
+              <InfoRow label="门票价格" value={`成人票8欧元，学生及65岁以上长者5欧元，12岁以下儿童免费。门票包含一份简短的英文介绍册。也可购买“中芬兰区世界遗产联票”，包含周边另外两处景点，售价18欧元，性价比更高。现场仅接受现金（欧元）支付，不支持信用卡。`} />
+              <InfoRow label="地址" value={`Vanhankirkontie 3, 41900 Petäjävesi, Finland`} />
+              <InfoRow label="交通方式" value={`最近的主要交通枢纽是于韦斯屈莱市。从于韦斯屈莱机场或火车站出发，最推荐的方式是租车自驾，沿4号国道（E75）向北行驶约30公里，转入442号公路，再行驶约10公里即可抵达，全程约40-50分钟，沿途湖光山色极美。若搭乘公共交通，可从于韦斯屈莱长途汽车站乘坐前往佩泰耶西市中心的长途巴士，班次约为每天2-3班，车程约1小时，到达佩泰耶西镇中心后，需再换乘出租车（约5公里）或预约当地出租车前往，较为不便，强烈建议自驾。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从1763年说起。那时的芬兰，还处于瑞典王国的统治之下，这片环绕着凯努湖的教区，居民大多是散居的农民和伐木工，最近的教堂也在数十公里之外。每逢礼拜或重大节日，教民们需要划船或徒步穿越漫长的森林与湖区，极为不便。于是，当地一位名叫雅各·莱彭农的农夫站了出来，他或许没读过多少书，但有一身从父辈那里传承下来的、与木头打交道的好手艺。在获得教区许可和粗略的设计草图后，他带领着本地的男人们，走进了他们最熟悉的森林。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`没有建筑师图纸，没有工程监理，有的只是口耳相传的经验和一双双勤劳的手。他们挑选最笔直、最坚韧的苏格兰松，用斧头和锯子将它们放倒，再依靠畜力拖到湖边。建筑的核心智慧，全部隐藏在那些看不见的角落：巨大的原木被精心凿出榫头和卯眼，像搭积木一样层层咬合、垒起，构成坚固的承重框架。你找不到一颗铁钉，所有的联结都依靠木楔和精准的切割。屋顶的木板瓦片，每一片也都是手工劈制而成。这座教堂，从骨架到皮肤，完完全全诞生于本地材料与本地工匠之手，耗时近两年，终于在1765年迎来了它的第一场礼拜。雅各·莱彭农，这位农民建筑师，将自己的名字永远刻在了芬兰建筑史上。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`此后的一个多世纪，它忠实地服务于这个湖畔社区。钟楼在1821年被加建，让钟声能传得更远，召唤更远处的教民。内部逐渐增添了一些简单的家具和装饰，比如那个优雅的、呈沙漏状的讲坛，但整体始终保持着初建时的简朴风貌。19世纪末，随着佩泰耶西镇中心建起了更大的新石头教堂，老教堂的日常功能逐渐被取代，它像一位完成主要职责的老人，慢慢退居二线，主要用于夏季礼拜和特殊仪式。也正是这种“被忽略”，奇迹般地保护了它。当欧洲大陆的许多古老木构建筑毁于战火或“现代化”改造时，它因为地处偏远且不再重要，反而得以保持原貌，在湖畔的松林里静静地沉睡。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`转机发生在20世纪。一位名叫拉尔斯·彼得·恩肖的芬兰建筑史学家像一位侦探一样，重新发现了这座几乎被遗忘的珍宝。他惊叹于其建筑工艺的纯粹与完整，开始不遗余力地为它的保护奔走呼吁。他的努力没有白费，1994年，联合国教科文组织将佩泰耶韦西老教堂列入世界文化遗产名录。评语中写道：“它是北欧传统木结构教堂的杰出代表，展现了这一建筑传统在技术与美学上的高峰。” 这份荣誉不仅认可了它的过去，也确保了它的未来。精心的修复工程开始了，原则是“修旧如旧”，所有的新木材都经过特殊处理以匹配旧木的色泽，每一处修补都力求最小干预，只为让这座木头史诗能继续对抗时间。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如今，它站在这里，已经超过了250年。它见证了瑞典时代、俄罗斯帝国时代，最终迎来了独立的芬兰。它聆听过新生儿受洗的啼哭、新婚夫妇的誓言，也抚慰过送别逝者的悲伤。它的梁柱间，回荡过路德宗牧师的布道，也流淌过维瓦尔第的小提琴协奏曲。从一座解决实际需求的乡村教堂，到被奉为艺术瑰宝的世界遗产，它的身份在变，但本质从未改变——它始终是这片森林与湖泊的孩子，是芬兰民族性格中那份沉默坚韧、与自然共生精神的，最诚实、最温暖的物化体现。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`游览这座教堂的精髓在于“沉浸”而非“赶路”，建议安排至少2-3小时的悠闲时光。最佳抵达时间是下午三、四点以后，此时旅行团大多已离开，你可以独享这份宁静，而且夏日的芬兰北部光线变得金黄柔和，非常适合拍照。整个游览节奏应放慢，从外部环境慢慢感受，再进入内部空间细细品味，最后在湖畔静坐，完成一次完整的身心体验。先绕着教堂外部走一圈，用手触摸木材，用眼睛观察结构的细节；然后进入内部，让眼睛适应昏暗的光线，静静坐在长椅上感受空间；之后可以登上唱诗班廊，从不同角度欣赏内部结构；最后，一定要在湖边的长椅上坐一会儿，看着教堂的倒影在波光中荡漾，这才是游览的完美句点。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`芬兰湖区夏季蚊虫（特别是“莫基”小咬）非常凶猛，务必提前喷洒强效防蚊液，并尽量穿着覆盖手臂和脚踝的轻薄衣物。
+教堂内部严禁吸烟、饮食，并且请务必保持低声交谈，以维护其肃穆宁静的氛围，手机也请调至静音。
+由于冬季开放极度受限且路况复杂，除非有明确的预约和四驱车辆，否则强烈建议将探访计划安排在6月至8月的夏季。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在森林边的碎石停车场，然后顺着那条被松针厚厚覆盖的蜿蜒小径步行约五分钟，让教堂的身影在树影间逐渐浮现。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要先不急进去，花时间绕着教堂走完整整一圈，用手指感受不同朝向木墙被风雨打磨出的截然不同的质感与温度。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开那扇会“唱歌”的厚重木门，先在门槛处停留片刻，让眼睛适应室内昏暗的光线，并深深吸一口那混合了旧木头与历史的气味。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在中殿后方找一张不起眼的长条木椅安静坐下，抬头凝视那些在头顶交错、没有任何遮挡的原始木梁结构，感受空间的静谧与崇高。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着窄小的木楼梯小心翼翼地爬上西侧的唱诗班廊，从这里可以俯瞰整个中殿，并获得一个欣赏讲坛和屋顶结构的独特视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂侧门出来，走到几步之遥的独立钟楼下，仰头看看那个略显歪斜的十字架和古朴的钟。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要去教堂与湖泊之间那片开阔的草地上，坐在面向湖水的老旧木制长椅上，什么也不做，只是看着教堂、森林和湖泊共同构成的画面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果恰逢夏季的周三傍晚，不妨留下来参加一场在小教堂内举行的烛光音乐会，让古典乐在古老的木墙间产生奇妙的共鸣。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`湖对岸全景机位`}</h4>
+                  <p className="text-sm text-gray-700">{`从教堂所在山坡走下，绕到湖的对岸（需步行约十分钟），使用长焦镜头，在日落前约一小时的“黄金时刻”拍摄，能将教堂、钟楼、湖畔的松林及其在水中的完美倒影一并收入镜中，画面宁静而富有层次。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`教堂正门逆光轮廓`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，当阳光从教堂背后射来，站在正门前方的草地上低角度仰拍，可以拍到教堂尖顶和钟楼呈现为深邃剪影、轮廓光线勾勒其边缘的戏剧性效果，天空则呈现绚烂色彩。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`内部木梁结构细节`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个晴朗日子的正午前后，当阳光从天窗斜射入教堂内部时，站在中殿中央仰拍，可以捕捉到光线如圣光般照亮部分木质梁柱，而其他部分隐于暗处的强烈明暗对比，突出建筑的几何美感与神圣感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`钟楼特写与森林背景`}</h4>
+                  <p className="text-sm text-gray-700">{`站在教堂东北侧的松林边缘，以郁郁葱葱的松树为前景框架，聚焦于独立钟楼斑驳的木墙和歪斜的十字架，这个角度能生动传达出建筑与自然环境密不可分的关系。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`教堂内部允许拍照，但严禁使用闪光灯和三脚架（除非获得特殊许可），因为闪光会伤害古老的木材表面，三脚架则可能妨碍其他游客并破坏氛围。`}</li>
+                <li>• {`在拍摄外部时，请始终尊重环境，不要为了取景而攀爬教堂墙体或踩踏周边受保护的植被区。`}</li>
+                <li>• {`如果遇到教堂内正在举行小型仪式或音乐会，请务必暂停拍照，以表示对活动与参与者的尊重。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`湖畔传统木屋民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`选择住在佩泰耶西本地人经营的湖畔木屋，体验真正的“芬兰夏日”，晚上在桑拿房蒸得浑身通透后跳进清凉的湖中游泳，抬头便是星空。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`于韦斯屈莱设计酒店`}</h4>
+                  <p className="text-sm text-green-800">{`驱车约40分钟入住芬兰著名大学城于韦斯屈莱市中心的现代设计酒店，这里交通生活便利，酒店本身往往就是建筑艺术的展示，与老教堂的古朴形成有趣对话。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`森林隐居小屋`}</h4>
+                  <p className="text-sm text-yellow-800">{`在教堂所在湖区附近寻找隐藏于更深林中的独家度假小屋，完全与世隔绝，只有壁炉、书架和窗外的松鼠为伴，享受极致的宁静。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`佩泰耶西镇中心简易旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`预算有限的务实之选，住在小镇唯一的旅馆或宾馆，设施简单但干净温馨，方便体验当地人的日常生活，早上去面包房品尝刚出炉的肉桂卷。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`芬兰夏季（尤其是七、八月）是绝对旺季，湖区优质住宿预订非常紧张，建议至少提前三个月至半年规划并预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这一带治安极好，民风淳朴，但夜间森林中可能有麋鹿等动物出没，如果住在偏远小屋，晚间散步建议携带手电筒并注意道路安全。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`许多湖畔民宿都提供免费使用的桑拿房和独木舟，这是体验芬兰文化的核心部分，预订时不妨询问清楚并大胆尝试。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开的时候，我又回头看了一眼。暮色开始为教堂的木头外墙镀上一层蓝灰色的光晕，钟楼的剪影在越来越深的天空下显得格外清晰。我突然觉得，这座教堂最打动我的，不是它“世界遗产”的头衔，而是它那种惊人的“诚实”。它诚实地展示着木头如何老去，风雨如何留下痕迹，人类的手工技艺如何在时间面前既脆弱又坚韧。它没有试图伪装年轻，也没有追求永恒，只是坦然呈现着每一个阶段的状态。在这个处处追求翻新、光滑、效率的世界里，这份坦然成了一种稀缺的、令人心安的品质。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`对于我们这些总是在奔波、在寻找意义的旅人来说，佩泰耶韦西老教堂提供的不是视觉的盛宴，而是一次内心的校准。它让你慢下来，不仅是脚步，还有呼吸和思绪。它用松林的沉默、湖水的波纹、木头的气息，温柔地剥离掉你从都市带来的喧嚣与焦虑。在这里，你会重新感受到“简单”的力量，“专注”的价值，以及与自然万物深深连接的可能性。它像一位沉默的智者，不需要言语，仅仅它的存在，就提醒着我们：最美、最持久的东西，往往诞生于最纯粹的初衷、最质朴的材料，以及对当下、对环境的深刻敬畏与回应。这，大概就是它值得我们远赴千里，来到这片北欧湖畔松林中的全部理由。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/riihimki" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    里
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里希拉赫蒂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Riihimäki</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/riihilahti-nature-reserve" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    里
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里希拉赫蒂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Riihilahti</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lenzkirch" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    伦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伦茨基尔希城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lenzkirch Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

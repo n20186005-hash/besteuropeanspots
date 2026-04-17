@@ -1,0 +1,223 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '法马古斯塔 Famagusta｜在地中海艳阳下，探访被时光冻结的哥特教堂废墟与威尼斯城墙 - 最佳欧洲景点',
+  description: '车子沿着海岸公路开，第一眼看到法马古斯塔，你会误以为海市蜃楼出现了。不是想象中的白色地中海小镇，而是一道绵延的、近乎琥珀色的巨大石墙，从蔚蓝的海面和黄绿色的平原上陡然升起，沉默，坚固，带着不容置疑的威严。热浪让远处的景象微微扭曲，但那城墙的线条却异常清晰，像一枚被遗忘在时间岸边的巨大贝壳，里面封存着...',
+}
+
+export default function FamagustaWalledCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '法马古斯塔', href: '/attractions/famagusta-walled-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`法马古斯塔・Famagusta・塞浦路斯・法马古斯塔`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子沿着海岸公路开，第一眼看到法马古斯塔，你会误以为海市蜃楼出现了。不是想象中的白色地中海小镇，而是一道绵延的、近乎琥珀色的巨大石墙，从蔚蓝的海面和黄绿色的平原上陡然升起，沉默，坚固，带着不容置疑的威严。热浪让远处的景象微微扭曲，但那城墙的线条却异常清晰，像一枚被遗忘在时间岸边的巨大贝壳，里面封存着截然不同的空气。这就是你的第一印象：一个闭合的、完整的旧世界。
+穿过巨大的“陆门”拱洞，仿佛穿过一道时光闸门。轰隆的车流声被过滤掉了，取而代之的是脚踩在滚烫沙土和破碎石板上的细碎声响，还有不知从哪片废墟里传来的、断断续续的蝉鸣。空气里的味道很复杂——干燥的石头被烈日烘烤后散发出的矿物气息，间或飘来一丝海风的咸腥，以及从墙角顽强探出的野生茴香那辛辣的香气。你的眼睛会瞬间不知所措：左边是宏伟却破败的教堂，高耸的拱窗只剩空荡荡的石框，切割着耀眼的蓝天；右边是普通的居民楼，阳台上晾晒着色彩鲜艳的床单。历史并非陈列在玻璃柜里，它就粗暴而日常地嵌在人们的生活中。孩子们在长满野草的教堂中殿里踢足球，老妇人坐在某段倾颓的墙根阴影里择菜。
+而这座城市最打动人心的，正是这种“活着”的废墟感。它不是被精心打扫、隔离保护的考古遗址，而是一个依然跳动的心脏，只不过每一次搏动，都沉重地带着过去的回音。你在一条小巷里迷路，转角可能撞见一栋完整的14世纪商人宅邸的石雕门楣，而它的隔壁就是一家飘出土耳其咖啡香气的现代咖啡馆。圣尼古拉斯大教堂（如今的清真寺）那令人屏息的法国哥特式立面依然精美绝伦，宣礼塔却优雅地矗立在它一侧的塔楼旁，两种信仰的象征以一种不可思议的和谐并肩而立。在这里，辉煌与没落、神圣与世俗、东方与西方，不是非此即彼的单选题，而是互相缠绕、共生至今的藤蔓。你感受到的不是悲伤，而是一种巨大的、沉默的韧性。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子沿着海岸公路开，第一眼看到法马古斯塔，你会误以为海市蜃楼出现了。不是想象中的白色地中海小镇，而是一道绵延的、近乎琥珀色的巨大石墙，从蔚蓝的海面和黄绿色的平原上陡然升起，沉默，坚固，带着不容置疑的威严。热浪让远处的景象微微扭曲，但那城墙的线条却异常清晰，像一枚被遗忘在时间岸边的巨大贝壳，里面封存着截然不同的空气。这就是你的第一印象：一个闭合的、完整的旧世界。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过巨大的“陆门”拱洞，仿佛穿过一道时光闸门。轰隆的车流声被过滤掉了，取而代之的是脚踩在滚烫沙土和破碎石板上的细碎声响，还有不知从哪片废墟里传来的、断断续续的蝉鸣。空气里的味道很复杂——干燥的石头被烈日烘烤后散发出的矿物气息，间或飘来一丝海风的咸腥，以及从墙角顽强探出的野生茴香那辛辣的香气。你的眼睛会瞬间不知所措：左边是宏伟却破败的教堂，高耸的拱窗只剩空荡荡的石框，切割着耀眼的蓝天；右边是普通的居民楼，阳台上晾晒着色彩鲜艳的床单。历史并非陈列在玻璃柜里，它就粗暴而日常地嵌在人们的生活中。孩子们在长满野草的教堂中殿里踢足球，老妇人坐在某段倾颓的墙根阴影里择菜。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而这座城市最打动人心的，正是这种“活着”的废墟感。它不是被精心打扫、隔离保护的考古遗址，而是一个依然跳动的心脏，只不过每一次搏动，都沉重地带着过去的回音。你在一条小巷里迷路，转角可能撞见一栋完整的14世纪商人宅邸的石雕门楣，而它的隔壁就是一家飘出土耳其咖啡香气的现代咖啡馆。圣尼古拉斯大教堂（如今的清真寺）那令人屏息的法国哥特式立面依然精美绝伦，宣礼塔却优雅地矗立在它一侧的塔楼旁，两种信仰的象征以一种不可思议的和谐并肩而立。在这里，辉煌与没落、神圣与世俗、东方与西方，不是非此即彼的单选题，而是互相缠绕、共生至今的藤蔓。你感受到的不是悲伤，而是一种巨大的、沉默的韧性。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`法马古斯塔`} />
+                <InfoRow label="英文名称" value={`Famagusta`} />
+                <InfoRow label="正式名称" value={`Famagusta`} />
+                <InfoRow label="国家" value={`塞浦路斯`} />
+                <InfoRow label="城市" value={`法马古斯塔`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`曾是中世纪晚期地中海世界最富有、最坚固的港口城市之一，见证了十字军王国、威尼斯共和国的辉煌与奥斯曼帝国征服的转折点。`} />
+                <InfoRow label="建筑特色" value={`宏伟的威尼斯星形堡垒城墙与城内众多法国哥特式教堂的壮丽废墟形成震撼对比，是军事防御工程与神圣建筑艺术奇特的共存体。`} />
+                <InfoRow label="建筑风格" value={`以威尼斯军事复兴时期的棱堡防御体系为主体，城内核心建筑为典型的法国 rayonnant（辐射式）哥特风格，两种风格在碰撞中凝固。`} />
+                <InfoRow label="文化价值" value={`一座露天的中世纪建筑博物馆，其层层叠加的十字军拉丁王国、威尼斯商团与奥斯曼伊斯兰文化，使其成为东地中海文明交汇与冲突最鲜活的剖面。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`威尼斯城墙及城内大部分废墟区域全天24小时开放，可自由漫步。但部分特定建筑内部（如奥赛罗塔、圣尼古拉斯教堂的部分区域）可能有单独的开放时间限制，通常为每日上午9点至下午5点，冬季可能缩短。建议在旅游信息中心核实当日具体安排，节假日开放时间可能临时调整。`} />
+              <InfoRow label="门票价格" value={`环绕城市的威尼斯城墙及大部分露天废墟区域免费参观。进入个别修复后的建筑或小型博物馆可能需要购票，票价约3-5欧元。学生及65岁以上老人通常享有优惠票。主要教堂废墟圣尼古拉斯大教堂现为拉拉·穆斯塔法帕夏清真寺，免费进入，但需尊重祈祷时间并着装得体。`} />
+              <InfoRow label="地址" value={`Gazi Mustafa Kemal Bulvari, Famagusta, Northern Cyprus`} />
+              <InfoRow label="交通方式" value={`从最近的国际枢纽拉纳卡国际机场（LCA）出发，驾车是最便捷的方式。租车后沿A3公路向东行驶，约1小时可抵达法马古斯塔。由于法马路斯位于塞浦路斯北部，需经过联合国缓冲区的过境点（如靠近尼科西亚的莱德拉宫检查站），请务必提前确认租车公司的过境政策并携带好护照。如果从尼科西亚市中心搭乘出租车，车程约45分钟，费用较高。公共交通班次较少，不太适合旅行者。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从一个落魄的法国骑士家族说起。12世纪末，第三次十字军东征期间，来自法国吕西尼昂家族的盖伊，在失掉耶路撒冷王国后，在狮心王理查的帮助下，意外地在塞浦路斯找到了新的王国。他的继任者们，尤其是雅克一世，将目光投向了东海岸这个天然良港——那时它还叫“阿莫霍斯托斯”。雅克一世决心在这里建造一个配得上王国新都的城市，一个能媲美西方任何都市的财富与权力中心。于是，石头从四面八方运来，最优秀的工匠被召至此，一座座高耸入云的哥特式教堂拔地而起，圣尼古拉斯大教堂便是直接以法国兰斯大教堂为蓝本，宣誓着这个海外拉丁王国与欧洲文化母体的血脉相连。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`到了14世纪，法马古斯塔迎来了它的黄金时代。得益于绝佳的地理位置，它成了欧洲与黎凡特贸易的中转站，丝绸、香料、糖和葡萄酒在这里堆积如山。传说当时的商人富可敌国，能用金银铺设通往教堂的道路。城市里居住着威尼斯、热那亚、比萨的商团，他们各自拥有奢华的宅邸和礼拜堂。圣彼得与圣保罗教堂便是由一位富有的叙利亚商人出资建造，其雕刻之繁复精美，至今令人惊叹。这是法马古斯塔作为“百万富翁之城”的传奇世纪，金钱与信仰共同堆砌起石头的森林。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，财富引来了贪婪的目光。15世纪，威尼斯共和国这个精明的海上强权，看到了塞浦路斯在对抗奥斯曼帝国扩张中的战略价值。1489年，最后一位吕西尼昂女王卡特琳娜·科纳罗被迫将王国“赠予”威尼斯。威尼斯人接手后，对浪漫却防御不足的哥特式城市进行了冷酷而高效的改造。他们推平了紧邻城墙的建筑以清出射界，并倾注巨资，按照当时最先进的军事工程学，修建了我们现在看到的、厚重无比的星形棱堡城墙。这些城墙设计科学，火力交叉，足以承受重炮轰击。威尼斯人将法马古斯塔从一个商业之都，彻底变成了一艘巨大的、石质的搁浅战舰。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最残酷的考验在1570年降临。奥斯曼帝国的大军在拉拉·穆斯塔法帕夏的率领下，将这座城市围得水泄不通。守城的威尼斯将军马尔坎托尼奥·布拉加丁率领人数处于绝对劣势的守军，进行了史诗般的、长达十个月的抵抗。炮火震天动地，曾经华丽的教堂被炮弹击中，大理石碎片四溅。最终，在弹尽粮绝、援军无望的情况下，布拉加丁被迫投降。然而，投降后的结局是一场悲剧：背信弃义的奥斯曼统帅残忍地处死了布拉加丁及其部下。城市的陷落，标志着一个时代的终结。奥斯曼人将大教堂改为清真寺，许多教堂被废弃，商路转移，法马古斯塔的繁华如同退潮般迅速消失，在接下来的几个世纪里，逐渐沉睡，成为我们今天看到的、带着悲壮与宁静的“废墟之城”。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正感受法马古斯塔的魂，你需要一整天的时间，并把自己调整到“漫游者”而非“打卡者”的频率。建议清晨八点左右就从“陆门”进入，这时阳光温柔，气温适宜，本地人刚开始一天的生活，废墟间光影对比最强，最适合拍照。整个游览应以顺时针方向沿着威尼斯城墙的内侧展开，节奏宜慢，因为真正的魅力往往藏在主路旁那些无人小巷的细节里。中午最热的时候，可以找个阴凉的废墟角落休息，或去一家咖啡馆发呆。下午的重点留给海边的城墙和奥赛罗塔，并在日落时分登上某段海墙，看金色阳光将整座石城和废墟染成蜂蜜色。这样安排，你既能捕捉到光线最美的时刻，也能体会到城市从苏醒到沉睡的完整呼吸。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双极其舒适耐走的鞋，城内多是沙土路和凹凸不平的石板。塞浦路斯的阳光极其猛烈，帽子、防晒霜和充足饮水是保命装备，正午时分尽量寻找阴凉处。虽然北塞浦路斯局势平稳，游客区安全，但仍建议保持常规旅行者的警惕，并尊重当地文化和宗教场所的礼仪。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从气势恢宏的“陆门”走入，用手触摸那被无数人磨得光滑的闸门凹槽，想象当年商队与士兵由此进出的喧哗。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直走向城市的心脏——圣尼古拉斯大教堂（现拉拉·穆斯塔法帕夏清真寺），站在它完美的法国哥特式立面前仰头屏息，然后脱鞋走进内部，感受伊斯兰装饰与高耸哥特拱顶的奇异融合。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕到教堂后方安静的庭院，这里散落着吕西尼昂王朝国王们的石棺，坐在一棵老树下，听风声穿过空荡的窗棂。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着城墙根向北闲逛，不经意间闯入圣乔治亚·德格里希腊人教堂的废墟，看阳光透过仅存的玫瑰窗残迹，在地上投下变幻的光斑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到以莎士比亚悲剧命名的奥赛罗塔，登上顶层，让视野豁然开朗，同时俯瞰威尼斯式的坚固堡垒与城内成片的红色屋顶和教堂尖塔废墟。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从塔楼下来，拐进迷宫般的小巷，寻找那间拥有精美石雕窗花的“威尼斯宫”，想象当年热那亚商人在此密谈的场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`慢慢踱向城市的东侧海墙，沿着城墙漫步，看地中海碧波拍打着古老的基石，寻找炮台和射击孔的痕迹。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前一刻，回到圣尼古拉斯大教堂前的广场，找一家露天咖啡馆坐下，点一杯土耳其咖啡，看宣礼塔的剪影渐渐融入暮色，而教堂的石雕在灯光下泛起暖光。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`陆门内侧仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`上午九点前，阳光刚好从城门洞射入，站在门内阴影处向外拍摄，能拍到金光勾勒出门洞轮廓和外部街道的鲜明对比，构图极具纵深感和历史感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣尼古拉斯大教堂侧面拱廊`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后，西斜的阳光将教堂侧殿一连串空拱廊的影子长长地投射在地面，站在中轴线一端拍摄，能获得极具韵律感和几何美学的明暗线条。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`奥赛罗塔顶层全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，避免正午顶光，利用塔楼的垛口作为前景框架，将城内星罗棋布的教堂废墟尖顶、红色屋顶与远处深蓝色的地中海一同纳入镜头。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`海墙废墟与大海`}</h4>
+                  <p className="text-sm text-gray-700">{`日落时分，选择一段有残缺雉堞的海墙，以巨大的石块和地中海为背景拍摄人像剪影，或单纯拍摄波涛拍打千年石基的慢门画面，氛围感十足。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`无名小巷的窗棂光影`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，反而适合钻进狭窄小巷，拍摄阳光透过某座废墟华丽石雕窗洞，在地面或残墙上投射出的、清晰如剪纸般的光影图案。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄清真寺内部绝对需要事先征得许可，且不可拍摄正在祈祷的人。利用侧光或逆光能更好地表现石头建筑的质感和废墟的沧桑轮廓，避免平淡的顺光。无人机飞行在历史遗迹和城镇上空可能有严格限制，起飞前务必查明当地法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`古城内沉浸式体验`}</h4>
+                  <p className="text-sm text-blue-800">{`由老石头房子改造的精品酒店，房间保留了原始的拱顶石墙，晚上安静得能听到风吹过废墟的声音，清晨步行即可开始探索。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`城墙外海景公寓`}</h4>
+                  <p className="text-sm text-green-800">{`位于城墙与现代城区交界处的高层公寓，拥有直面地中海和威尼斯城墙的宽阔阳台，日落景色无敌，厨房设施齐全，适合家庭或长住。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`经济便捷之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`城市南部新区干净简单的家庭旅馆或客栈，主人通常热情好客，能提供地道的旅行建议，性价比高，打车到古城仅需五分钟。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端度假体验`}</h4>
+                  <p className="text-sm text-purple-800">{`驱车约15分钟可达的五星级海滩度假村，拥有私人沙滩、泳池和全方位水疗服务，在经历一天的历史漫游后，可以在此彻底放松身心。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`住在古城内氛围绝佳，但夜晚非常安静，餐饮选择有限，且可能找不到停车位。选择住宿时，如果自驾，务必确认是否提供免费停车位。夏季是旅游旺季，特别是法马古斯塔艺术文化节期间，住宿紧张，建议提前数月预订。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开法马古斯塔好些天了，但闭上眼睛，那股混合着热石头、野生草药和海风的气味，还有那些巨大、静默的石头轮廓，依然清晰得如同就在眼前。这座城市没有给你一个简单明了的答案，或是一个圆满的故事。它给你的，是一种复杂的、需要时间去消化的情绪。在这里，你同时看到了人类所能达到的文明高度——那些精妙绝伦的建筑、繁荣的贸易网络；也看到了命运的无常、战争的残酷以及时间的无情磨损。但这种“看到”，不是隔着博物馆玻璃的旁观，而是身处其中，脚踩在历史的尘埃上，与今天的生活气息撞个满怀。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`或许，这就是法马古斯塔对于当代旅人最珍贵的馈赠。在一个追求效率、喜欢崭新和光滑的世界里，它固执地保留着破碎与完整、往昔与当下的并置。它不试图美化历史，也不刻意渲染悲情。它只是存在，以它最真实的样子。它提醒我们，文明从来不是直线前进的，它充满了迂回、断层和意想不到的融合。在这里走一遭，你会对“历史”这个词有更血肉丰满的理解，它不再是教科书上的章节，而是一种可触摸、可闻、可聆听的当下体验。对于任何一位不满足于表面风光，渴望触碰世界复杂肌理的深度旅人来说，法马古斯塔都是一堂无法替代的、关于时间、记忆与生存的必修课。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/choirokoitia-neolithic-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乔
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乔伊鲁科蒂亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Choirokoitia</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/paphos-archaeological-park" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    帕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕福斯考古公园</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Paphos Archaeological Park</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

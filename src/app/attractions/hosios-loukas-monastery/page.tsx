@@ -1,0 +1,233 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '霍西奥斯·卢卡斯修道院 Hosios Loukas | 拜占庭黄金时代的活化石，金色马赛克与千年寂静 - 最佳欧洲景点',
+  description: '车子在赫尔莫斯山谷的橄榄树与柏树林间盘旋，当最终拐过最后一个山坳，霍西奥斯·卢卡斯修道院就那么静静地坐在帕尔纳索斯山麓的缓坡上，没有任何张扬的尖塔，只有敦实的石砌墙壁和红瓦圆顶，颜色与背后的山岩几乎融为一体，像是从大地里生长出来的。第一眼，你甚至会有些错觉，它朴素得近乎平淡，但那种穿越了十个世纪的沉...',
+}
+
+export default function HosiosLoukasMonasteryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '霍西奥斯·卢卡斯修道院', href: '/attractions/hosios-loukas-monastery' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`霍西奥斯·卢卡斯修道院・Hosios Loukas・希腊・迪斯托莫`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在赫尔莫斯山谷的橄榄树与柏树林间盘旋，当最终拐过最后一个山坳，霍西奥斯·卢卡斯修道院就那么静静地坐在帕尔纳索斯山麓的缓坡上，没有任何张扬的尖塔，只有敦实的石砌墙壁和红瓦圆顶，颜色与背后的山岩几乎融为一体，像是从大地里生长出来的。第一眼，你甚至会有些错觉，它朴素得近乎平淡，但那种穿越了十个世纪的沉静气场，已经无声无息地弥漫开来。
+推开厚重的木门，踏入主教堂（Katholikon）的那一刻，整个世界骤然变换。外面希腊的炽烈阳光被彻底隔绝，取而代之的是一种幽深、清凉、仿佛带有重量的昏暗。然后，你的眼睛开始适应——光，是从高处的小窗和圆顶渗进来的，它没有照亮整个空间，而是精准地、如同舞台追光一般，打在了墙壁和穹顶上。天啊，那是一片金色的海洋。数以百万计微小的金色玻璃与彩石镶嵌成的马赛克，在微弱的光线下不是“闪烁”，而是“呼吸”着一种温润而神圣的光芒。基督普世君主像在中央圆顶俯视众生，圣徒们肃穆的面容在弧形壁面上静静凝视，他们的衣袍褶皱里仿佛流动着永恒的光。空气里有淡淡的味道，是陈年木头、熄灭的蜡烛油、以及石头本身散发出的、那种干净的凉意混合在一起的气息。偶尔，远处某间修士室内传来极轻微的诵经声，低沉而平稳，像这座建筑的心跳。
+这里不像那些游人如织的大教堂，它仍然是一个“活着”的修道院。你会看到身着黑衣、留着长须的修士，提着水桶安静地走过铺着鹅卵石的庭院，他们的身影掠过古老的橘子树，消失在另一道拱门后。时间在这里不是线性流逝的，而是以一种缓慢的、循环的韵律在运转，与祈祷的时辰、与季节的更迭同步。游客是这里的过客，而这份延续了千年的静谧与虔诚，才是永恒的主角。它的核心魅力，就在于这种极致的反差：外表的极致朴素，与内部无与伦比的艺术辉煌；世俗世界的遥远喧嚣，与院内凝固的、金色的神圣时光。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在赫尔莫斯山谷的橄榄树与柏树林间盘旋，当最终拐过最后一个山坳，霍西奥斯·卢卡斯修道院就那么静静地坐在帕尔纳索斯山麓的缓坡上，没有任何张扬的尖塔，只有敦实的石砌墙壁和红瓦圆顶，颜色与背后的山岩几乎融为一体，像是从大地里生长出来的。第一眼，你甚至会有些错觉，它朴素得近乎平淡，但那种穿越了十个世纪的沉静气场，已经无声无息地弥漫开来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`推开厚重的木门，踏入主教堂（Katholikon）的那一刻，整个世界骤然变换。外面希腊的炽烈阳光被彻底隔绝，取而代之的是一种幽深、清凉、仿佛带有重量的昏暗。然后，你的眼睛开始适应——光，是从高处的小窗和圆顶渗进来的，它没有照亮整个空间，而是精准地、如同舞台追光一般，打在了墙壁和穹顶上。天啊，那是一片金色的海洋。数以百万计微小的金色玻璃与彩石镶嵌成的马赛克，在微弱的光线下不是“闪烁”，而是“呼吸”着一种温润而神圣的光芒。基督普世君主像在中央圆顶俯视众生，圣徒们肃穆的面容在弧形壁面上静静凝视，他们的衣袍褶皱里仿佛流动着永恒的光。空气里有淡淡的味道，是陈年木头、熄灭的蜡烛油、以及石头本身散发出的、那种干净的凉意混合在一起的气息。偶尔，远处某间修士室内传来极轻微的诵经声，低沉而平稳，像这座建筑的心跳。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里不像那些游人如织的大教堂，它仍然是一个“活着”的修道院。你会看到身着黑衣、留着长须的修士，提着水桶安静地走过铺着鹅卵石的庭院，他们的身影掠过古老的橘子树，消失在另一道拱门后。时间在这里不是线性流逝的，而是以一种缓慢的、循环的韵律在运转，与祈祷的时辰、与季节的更迭同步。游客是这里的过客，而这份延续了千年的静谧与虔诚，才是永恒的主角。它的核心魅力，就在于这种极致的反差：外表的极致朴素，与内部无与伦比的艺术辉煌；世俗世界的遥远喧嚣，与院内凝固的、金色的神圣时光。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`霍西奥斯·卢卡斯修道院`} />
+                <InfoRow label="英文名称" value={`Hosios Loukas`} />
+                <InfoRow label="正式名称" value={`Hosios Loukas Monastery`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`迪斯托莫`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`拜占庭中期建筑与马赛克艺术最完整、最杰出的典范之一，是“马其顿文艺复兴”时期的里程碑。`} />
+                <InfoRow label="建筑特色" value={`两座毗邻的教堂（圣母教堂与主教堂）组成的建筑群，以完美的十字穹顶结构和内部令人屏息的金色马赛克壁画闻名。`} />
+                <InfoRow label="建筑风格" value={`拜占庭中期风格，属于“希腊十字八边拱顶”式教堂的经典范式，带有明显的“马其顿文艺复兴”艺术特征。`} />
+                <InfoRow label="文化价值" value={`这里不仅是宗教圣地，更是理解拜占庭帝国鼎盛时期美学、神学与世俗权力交融的活态教科书，其静谧氛围延续了千年修道传统。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`每日上午8:30开放，夏季（4月至10月）关闭时间为晚上7:30，冬季（11月至3月）关闭时间为下午5:30。修道院在主要东正教节日（如复活节、圣诞节）上午仅对礼拜者开放，游客通常在中午后才能进入，建议行前再次确认。每年的1月1日、3月25日、5月1日、12月25日及26日关闭。`} />
+              <InfoRow label="门票价格" value={`全票价格为8欧元。65岁以上欧盟公民及非欧盟学生（需出示有效证件）可享受半价优惠，即4欧元。18岁以下的未成年人、欧盟国家内就读的学生（需出示学生证）以及特定国家（如希腊）的教师可免费入场。每年9月的最后一个周末为“欧洲文化遗产日”，通常免费开放。`} />
+              <InfoRow label="地址" value={`Hosios Loukas Monastery, Distomo 320 05, Greece`} />
+              <InfoRow label="交通方式" value={`最便捷的方式是从雅典出发自驾。沿E75高速公路向西北行驶，转入EO48公路，全程约160公里，车程约2小时。山路最后一段较为蜿蜒。公共交通较为周折：从雅典Liossion长途汽车站乘坐前往利瓦迪亚（Livadeia）的KTEL巴士，车程约1.5小时，班次约每小时一班。抵达利瓦迪亚后，需换乘前往迪斯托莫（Distomo）的当地巴士，再在迪斯托莫镇中心寻找前往修道院的出租车，这段接驳不太规律，建议在利瓦迪亚直接包出租车前往修道院（单程约20分钟），并与司机约定好返程时间。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从一个名叫卢卡斯的隐士说起。他出生于公元896年，据说是一位虔诚的农民儿子。在当时的拜占庭帝国，这种对苦修和神秘主义体验的追求并不罕见，但卢卡斯的故事格外引人入胜。传说他早年就选择了离群索居的生活，最终来到了斯特里（Steris）这个偏远山谷，住在一个山洞里，以严格的禁食和祈祷闻名。很快，他作为“行神迹者”的名声不胫而走，吸引了追随者，也引起了当时拜占庭帝国权力阶层的注意。这可不是一个简单的隐士故事，它发生在一个微妙的时期：马其顿王朝的皇帝们，正致力于复兴古典学问与艺术，并利用宗教的力量巩固帝国，这就是所谓的“马其顿文艺复兴”。一位德行高尚的圣徒，正是帝国需要的完美符号。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，在卢卡斯去世（公元953年）后不久，大约在10世纪末到11世纪初，一场宏伟的建造工程开始了。背后的主要推动者和资助者，极有可能是当时的皇帝罗曼诺斯二世，或是后来的巴西尔二世（“保加利亚屠夫”）。他们的目的很明确：要以这位新圣徒的坟墓为中心，建立一座彰显帝国荣耀与正统信仰的纪念碑。首先建造的是规模较小、更为朴素的圣母教堂（Theotokos Church），它可能最初就是为了覆盖圣卢卡斯的墓穴。而真正的杰作——主教堂（Katholikon），则在其后动工，并在1011年左右竣工。这不仅仅是一座修道院，它是帝国中央权力向地方投射的文化与宗教宣言。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`建筑本身就是一个奇迹。工匠们采用了当时最先进的“希腊十字八边拱顶”结构，让巨大的中央圆顶仿佛悬浮在空中，由隐蔽的券拱和鼓座支撑，内部空间达到了前所未有的统一与和谐。而内部的装饰，才是让它名垂青史的原因。来自君士坦丁堡的最顶尖马赛克工匠被征召至此。他们不是简单地在墙上贴画，而是在进行一场光与神学的对话。他们用纯金箔包裹玻璃片制成“金底”，让基督、圣母和圣徒的形象笼罩在一种非人间的、永恒的光晕中。人物的面容不再是早期拜占庭艺术的僵硬，而是注入了古典主义的柔和与人性化的哀愁，这正是“文艺复兴”精神的体现。每一幅场景，从《洗礼》到《复活》，都严格遵循神学教义，构成了一个完整的视觉福音。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`千年来，它历经劫波。1204年，第四次十字军东征攻陷君士坦丁堡，法兰克人统治了这片地区，修道院一度被天主教修士占据，但未遭严重破坏。奥斯曼帝国时期，它依然作为东正教修道院运行，尽管在一些时期颇为艰难。战争的阴影也曾掠过，但山谷的相对偏僻保护了它。真正让它重获世界瞩目的，是20世纪的学者们。当他们拂去几个世纪的尘烟，重新评估这些马赛克的艺术价值时，震惊地发现，这里的保存完整度远超君士坦丁堡那些已成废墟的伟大教堂。1990年，它与达夫尼修道院、奈亚·莫尼修道院一起，以“拜占庭中期修道院之典范”被列入联合国教科文组织世界遗产名录。今天，持续的修复工作小心翼翼地维护着这些脆弱的光之碎片，确保后人依然能感受到那个千年帝国黄金时代的余晖。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`理想的探访应该安排一整个上午。建议在早上9点前抵达，这时旅游巴士尚未到来，山谷晨雾未完全散去，光线柔和，你能独享修道院最初的宁静。整体游览需要约3到4小时，节奏宜缓不宜急。先在外围感受整体氛围，再进入核心教堂沉浸于马赛克世界，最后在回廊和庭院中消化吸收。这样的顺序让你从远观到近察，从感官冲击到内心沉淀，完整经历一次从世俗到神圣，再回归平静的旅程。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`女性游客请务必携带一条围巾或披肩，进入教堂时需遮盖肩膀，裙子或裤子需过膝，这是对宗教场所的基本尊重。
+修道院内绝对禁止使用闪光灯拍照，马赛克的金色底片和颜料极为脆弱，强光是它们最大的敌人。
+尽量避开周日中午及大型东正教节日前往，那时可能因举行宗教仪式而对游客关闭或限制参观区域。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在山脚下的空地，先别急着上去，回头从橄榄树林的缝隙间仰拍一张修道院背靠苍莽山峦的全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过古老的石门进入庭院，顺时针绕行建筑一周，用手触摸那些被千年风雨打磨得温润的黄色砂岩墙砖。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开主教堂那扇斑驳的木门，在门槛处静立一分钟，让眼睛适应昏暗，然后抬头寻找中央圆顶上那幅威严的“基督普世君主”马赛克。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着内墙缓缓踱步，凑近观察北侧墙壁上“基督为门徒洗脚”的马赛克，注意看人物脸庞上那种近乎古典的沉静与悲悯表情。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`俯身进入毗邻的、更加低矮幽暗的圣母教堂，在摇曳的烛光中寻找圣卢卡斯（路加）的银质圣棺，感受这里作为整个圣地起源的核心。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走出教堂，在种满香草和花卉的中世纪回廊里坐下，听喷泉的潺潺水声，看阳光把廊柱的影子拉长。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`别忘了去参观小型的修道院博物馆，那里收藏着精美的圣像、手稿和雕塑碎片，是理解修道院千年历史的钥匙。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，登上修道院西侧的一小段山坡，从这里回望，看午间阳光如何将整片建筑染成蜜糖般的金色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`主教堂内拍摄马赛克的绝佳位置不是正中央，而是站在西南角的支柱旁，用长焦镜头捕捉圆顶下“圣母领报”场景的局部特写，侧光能凸显马赛克瓷砖的立体质感。`}</h4>
+                  <p className="text-sm text-gray-700">{`主教堂内拍摄马赛克的绝佳位置不是正中央，而是站在西南角的支柱旁，用长焦镜头捕捉圆顶下“圣母领报”场景的局部特写，侧光能凸显马赛克瓷砖的立体质感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`从修道院东南侧下方的橄榄园向上仰拍，以一棵姿态优美的古老橄榄树为前景，将修道院的红瓦圆顶和钟楼框入镜头，最佳时间是日落前一小时，光线温暖柔和。`}</h4>
+                  <p className="text-sm text-gray-700">{`从修道院东南侧下方的橄榄园向上仰拍，以一棵姿态优美的古老橄榄树为前景，将修道院的红瓦圆顶和钟楼框入镜头，最佳时间是日落前一小时，光线温暖柔和。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`在连接主教堂与圣母教堂的室外走廊，等待一位黑袍修士匆匆走过的瞬间，以厚重的石拱门为画框，捕捉动静结合、古今交融的生动画面。`}</h4>
+                  <p className="text-sm text-gray-700">{`在连接主教堂与圣母教堂的室外走廊，等待一位黑袍修士匆匆走过的瞬间，以厚重的石拱门为画框，捕捉动静结合、古今交融的生动画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`回廊中央的庭院，将相机贴近地面，拍摄阳光透过连续拱廊投射在鹅卵石地面上的规律光影，能拍出极具几何美感和时间感的照片。`}</h4>
+                  <p className="text-sm text-gray-700">{`回廊中央的庭院，将相机贴近地面，拍摄阳光透过连续拱廊投射在鹅卵石地面上的规律光影，能拍出极具几何美感和时间感的照片。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`室内光线极度不足，建议使用大光圈定焦镜头（如35mm或50mm f/1.8）和高感光度性能好的相机，宁愿照片有少许噪点，也绝对不要使用三脚架（通常被禁止）或闪光灯。`}</li>
+                <li>• {`拍摄修士或任何宗教仪式必须非常谨慎，最好事先用眼神征得默许，或者采用不聚焦于人物面部的环境人像手法，以示尊重。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`山居静谧之选`}</h4>
+                  <p className="text-sm text-blue-800">{`迪斯托莫镇上由传统石屋改造的家庭旅馆，主人会端来自酿的葡萄酒和橄榄油，夜晚阳台外是漆黑山谷和无比清晰的银河。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`历史文化沉浸`}</h4>
+                  <p className="text-sm text-green-800">{`住在约半小时车程的历史名城德尔菲，那里有可以俯瞰科林斯湾的悬崖酒店，白天探访神谕遗址，傍晚再来霍西奥斯卢卡斯独享夕阳。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`便捷舒适之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`利瓦迪亚市区内的现代精品酒店，坐落在埃里柯纳斯河边，逛完古老的集市后可以享受舒适的设施，作为探索周边古迹的完美基地。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`独特修道院体验`}</h4>
+                  <p className="text-sm text-purple-800">{`提前询问并预订（并非总是开放）修道院提供的极简朴招待所房间，这能让你在万籁俱寂的深夜和晨钟初响的黎明，感受此地最本真的灵魂。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`霍西奥斯卢卡斯周边真正的“村野”住宿很少，建议以迪斯托莫或利瓦迪亚为据点，并租车自驾，这样行程自由度最高。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（7-8月）是希腊旅游旺季，德尔菲的住宿会非常紧张且昂贵，提前数月预订是明智之举。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这一带治安非常好，民风淳朴，但山区夜晚道路照明有限，自驾请注意行车安全。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开霍西奥斯·卢卡斯很久之后，我脑海里反复回闪的，不是某一片具体的金色马赛克，而是一种混合的感觉：石头的凉意，焚香的余味，以及那种几乎可以被听到的“寂静”。在这个一切都被加速、被展示、被消费的时代，这个地方倔强地维持着一种古老的节奏。它提醒我们，美曾经可以如此庄严，如此内敛，如此不惜工本地被创造出来，不是为了吸引眼球，而是为了接近神性。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，如果你厌倦了那些打卡清单上的热门景点，如果你渴望一次真正能沉到历史深处的旅行，请来这里。它不会用喧嚣的辉煌迎接你，它需要你停下脚步，调整呼吸，让自己的眼睛在黑暗中慢慢睁开。然后，你会看见光——不是电灯的光，而是被一千年前的工匠镶嵌在墙壁上、穿越了无数战乱与变迁依然在温柔闪烁的金色光芒。那一刻，你触摸到的不是一段死去的过去，而是一条依然在微弱跳动的、连接着人类精神史上那个伟大时代的脉搏。这，便是深度旅行最珍贵的礼物。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/epidaurus-theatre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃皮达鲁斯古剧场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Epidaurus Theatre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/symi-island-greece" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    锡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">锡米岛</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Symi</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/monemvasia-fortress-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫奈姆瓦夏隐秘之城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monemvasia</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

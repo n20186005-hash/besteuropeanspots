@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '博克赖克露天博物馆 Bokrijk Open-Air Museum｜穿越回法兰德斯中世纪乡村的活态时光机 - 最佳欧洲景点',
+  description: '朋友，想象一下，你沿着一条两旁栽满古老橡树的林荫道慢慢走着，手里拿着的那张博物馆地图突然显得有点多余。因为当第一片茅草屋顶从树梢后探出来时，你知道，你已经不是走进了一个“博物馆”，而是掉进了一个完完全全不同的时空。空气里的味道最先告诉你这一点——那不是城市里修剪整齐的草坪的清香，而是干燥草料、新鲜马...',
+}
+
+export default function BokrijkOpenAirMuseumPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '博克赖克露天博物馆', href: '/attractions/bokrijk-open-air-museum' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`博克赖克露天博物馆・Bokrijk Open-Air Museum・比利时・林堡省，根特市与哈瑟尔特市之间（具体位于博克赖克领地）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下，你沿着一条两旁栽满古老橡树的林荫道慢慢走着，手里拿着的那张博物馆地图突然显得有点多余。因为当第一片茅草屋顶从树梢后探出来时，你知道，你已经不是走进了一个“博物馆”，而是掉进了一个完完全全不同的时空。空气里的味道最先告诉你这一点——那不是城市里修剪整齐的草坪的清香，而是干燥草料、新鲜马粪、还有从某处烟囱里飘出的、带着点潮湿木柴气息的炊烟，混合在一起的，最原始的土地的味道。
+你的眼睛会忙不过来。左边是一座低矮的农舍，厚厚的茅草屋顶几乎垂到了地面，像给房子盖了一床毛茸茸的棕色被子。木质的窗板被推开一半，窗台上摆着几盆简单的天竺葵。右边，一条清澈见底的小溪哗啦啦地穿过村落，水车吱呀呀地转着，碾磨坊里传来有节奏的闷响。你会看到穿着粗布麻衣的“村民”——那些学识渊博却乐于扮演的历史讲解员——正在给菜地除草，或在院子里用古老的工具编织柳条筐。鸡群咯咯叫着在你脚边散步，一只花猫在谷仓的干草堆上慵懒地晒着太阳。这里没有冰冷的玻璃展柜，没有“请勿触摸”的标语，每一扇虚掩的门都在邀请你：进来吧，看看我们怎么生活。
+最打动人的，是那种无比真切的生活气息。在村子的中心广场，你可能刚好赶上“面包日”。面包窑炉里的柴火噼啪作响，戴着白头巾的农妇用长长的木铲将发酵好的黑麦面团送进窑洞深处。等待的功夫，她会用带着林堡口音的荷兰语，跟你唠唠今年的收成，或者她“家”里（指她守护的这栋农舍）最近发生的小事。再过一会儿，新鲜面包那坚实、滚烫、麦香扑鼻的触感和味道就会充盈你的手掌。这不仅仅是一次观看，而是用全部感官去触摸一段历史。你会突然明白，历史书里那些关于“中世纪乡村”的枯燥描述，在这里，变成了风吹过茅草的窸窣声、铁匠铺里叮当的锤音、和孩子们在夯土路上奔跑的笑声。博克赖克的魔力，就在于它让你相信，你真的可以在这里度过一天，甚至一生。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，想象一下，你沿着一条两旁栽满古老橡树的林荫道慢慢走着，手里拿着的那张博物馆地图突然显得有点多余。因为当第一片茅草屋顶从树梢后探出来时，你知道，你已经不是走进了一个“博物馆”，而是掉进了一个完完全全不同的时空。空气里的味道最先告诉你这一点——那不是城市里修剪整齐的草坪的清香，而是干燥草料、新鲜马粪、还有从某处烟囱里飘出的、带着点潮湿木柴气息的炊烟，混合在一起的，最原始的土地的味道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你的眼睛会忙不过来。左边是一座低矮的农舍，厚厚的茅草屋顶几乎垂到了地面，像给房子盖了一床毛茸茸的棕色被子。木质的窗板被推开一半，窗台上摆着几盆简单的天竺葵。右边，一条清澈见底的小溪哗啦啦地穿过村落，水车吱呀呀地转着，碾磨坊里传来有节奏的闷响。你会看到穿着粗布麻衣的“村民”——那些学识渊博却乐于扮演的历史讲解员——正在给菜地除草，或在院子里用古老的工具编织柳条筐。鸡群咯咯叫着在你脚边散步，一只花猫在谷仓的干草堆上慵懒地晒着太阳。这里没有冰冷的玻璃展柜，没有“请勿触摸”的标语，每一扇虚掩的门都在邀请你：进来吧，看看我们怎么生活。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，是那种无比真切的生活气息。在村子的中心广场，你可能刚好赶上“面包日”。面包窑炉里的柴火噼啪作响，戴着白头巾的农妇用长长的木铲将发酵好的黑麦面团送进窑洞深处。等待的功夫，她会用带着林堡口音的荷兰语，跟你唠唠今年的收成，或者她“家”里（指她守护的这栋农舍）最近发生的小事。再过一会儿，新鲜面包那坚实、滚烫、麦香扑鼻的触感和味道就会充盈你的手掌。这不仅仅是一次观看，而是用全部感官去触摸一段历史。你会突然明白，历史书里那些关于“中世纪乡村”的枯燥描述，在这里，变成了风吹过茅草的窸窣声、铁匠铺里叮当的锤音、和孩子们在夯土路上奔跑的笑声。博克赖克的魔力，就在于它让你相信，你真的可以在这里度过一天，甚至一生。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`博克赖克露天博物馆`} />
+                <InfoRow label="英文名称" value={`Bokrijk Open-Air Museum`} />
+                <InfoRow label="正式名称" value={`Bokrijk Open-Air Museum`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`林堡省，根特市与哈瑟尔特市之间（具体位于博克赖克领地）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`欧洲最大、最富盛名的露天博物馆之一，是保存和生动再现法兰德斯地区（尤其是林堡省）乡村建筑与生活方式的里程碑。`} />
+                <InfoRow label="建筑特色" value={`并非单体建筑，而是由超过140座从法兰德斯各地原样迁移、精心重建的历史建筑组成的完整村落群落。`} />
+                <InfoRow label="建筑风格" value={`集中展示了从中世纪晚期到20世纪初的法兰德斯乡村民居与手工业建筑，以木筋墙、茅草顶、砖石结构为典型特征。`} />
+                <InfoRow label="文化价值" value={`一座“活着的”历史档案馆，通过沉浸式场景、手工艺演示和季节性农事活动，让逝去的乡村文明在当下呼吸与对话。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`博物馆主体开放时间为每年4月1日至10月31日，每日上午10点至下午6点（最后入场时间为下午5点）。冬季（11月至次年3月）户外建筑区域通常关闭，但博克赖克领地公园本身全年开放，具体区域开放时间请务必于行前在官网确认。周一可能闭馆（尤其在季初和季末），节假日安排会有变动。`} />
+              <InfoRow label="门票价格" value={`标准成人票价为15欧元。65岁以上长者票价为13欧元。19至25岁青年票价为10欧元。4至18岁儿童及青少年票价为5欧元。4岁以下儿童免费。持有“博物馆护照”或特定比利时旅游卡可能有折扣。门票包含露天博物馆、周边花园及季节性主题活动的入场权限。官网提前购票可确保入场，并偶尔有微小优惠。`} />
+              <InfoRow label="地址" value={`Bokrijklaan 1, 3600 Genk, Belgium`} />
+              <InfoRow label="交通方式" value={`从布鲁塞尔出发：最便捷的方式是乘坐火车至根特火车站，随后转乘前往哈瑟尔特方向的火车，在“博克赖克站”下车。从车站步行约15-20分钟即可抵达博物馆主入口。全程约1.5小时。从列日或安特卫普出发，也可通过火车连接至哈瑟尔特，再换乘至博克赖克站。自驾是最灵活的选择，博物馆提供大型停车场（收费）。A2/E314高速公路附近有清晰路标指示“Bokrijk”。从根特或哈瑟尔特市中心也有多路公交车（如De Lijn公司的线路）可直达公园入口附近。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`说起来，博克赖克的故事，始于一个充满远见与紧迫感的拯救行动。时间倒回上世纪初，比利时，尤其是正在快速工业化的法兰德斯地区，正经历翻天覆地的变化。古老的乡村木结构建筑在推土机面前成片倒下，被更“现代”的砖房取代，传统的生活方式像退潮一样迅速消失。当时一位名叫雷内·德·迈耶的律师兼艺术史学家，对此痛心疾首。他可不是个只会叹气的人。1950年代，他萌生了一个在当时看来近乎疯狂的想法：与其眼睁睁看着这些承载着民族记忆的建筑消失，不如把它们“救出来”。怎么救？把那些最具代表性、最濒危的农舍、谷仓、教堂、学校、风车、铁匠铺……一砖一瓦、一梁一木地小心拆卸，编号，然后运到一个安全的地方，按照它们原本的样子和村落布局，重新搭建起来。这个想法，就是现代露天博物馆的核心理念。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`选择博克赖克这片土地，本身就是一个传奇。这里原本是林堡公爵的古老猎场，拥有森林、湖泊和荒野，地理风貌本身就多样而原始，为重建一个自给自足的“虚拟村庄”提供了完美的画布。1953年，项目正式启动。你可以想象那是一项何等浩大而精细的工程：考古学家和历史学家团队像侦探一样，奔赴法兰德斯各个即将消失的角落，记录、测量、研究每一栋入选建筑的构造和历史。工人们则像进行一场大型外科手术，小心翼翼地拆解这些历经风雨的老骨头。每一根带有独特标记的梁木，每一块被灶火熏黑的石头，甚至墙上的涂鸦和修补的痕迹，都被视为珍宝，妥善保存并运往博克赖克。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`重建的过程，远不止是“搭积木”。它是一次严肃的历史复原。研究人员要考证这栋建筑最初建于哪一年，属于哪个社会阶层（是富裕的自耕农，还是贫困的佃户？），当时的建筑工艺是怎样的。他们使用传统的工具和方法进行重建：用黏土和稻草混合糊墙，手工劈制木瓦或铺设厚厚的芦苇茅草屋顶。这个过程持续了数十年，一座座建筑从林堡、布拉班特、东弗兰德斯等地“迁徙”至此，逐渐形成了你今天看到的哈瑟尔特区、东弗兰德区、坎彭区等几个不同的建筑群组，精准反映了法兰德斯内部微妙的地域差异。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但博克赖克的天才之处在于，它没有止步于一个静态的“建筑公园”。从1960年代起，它引入了“活态历史”的概念。这意味着，那些重建的房子里，要有“人”生活。博物馆招募并培训了讲解员，但他们不仅仅是讲解员，更是“角色扮演者”。他们穿着根据历史考据复制的服装，使用那个时代的工具，在房子里生火、做饭、纺线、木工、耕作。他们用第一人称的口吻和你交谈，仿佛你就是偶然路过他们家门口的邻居或旅人。季节更替，博物馆的活动也随之变化：春天播种，夏天除草收割，秋天酿制苹果酒、腌制食物，冬天则围绕壁炉讲述古老的故事。这种沉浸式的体验，让历史从标本变成了活体，也让博克赖克从一项文物保护工程，升华为一场无与伦比的文化叙事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天，博克赖克依然在生长和演变。它不仅仅关注遥远的过去，也开始展示20世纪初的乡村生活，探讨工业化对传统的影响。它举办各种主题展览、传统手工艺市集、甚至音乐节。但它最核心的灵魂从未改变：即对平凡人、对日常生活的深切敬意。在这里，英雄不是帝王将相，而是那些用双手在土地上耕耘、用智慧在岁月中生存的普通法兰德斯农民。他们的房子、他们的工具、他们的一日三餐，构成了这个民族最坚实、最温暖的记忆底座。博克赖克，就是为这些沉默的大多数建立的一座不朽丰碑。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整领略博克赖克的精髓，建议预留整整一天时间（至少5-6小时）。最佳抵达时间是上午10点开门时，趁大批游客尚未涌入，你能享受到村落最宁静、最原初的清晨氛围。游览节奏宜慢不宜快，核心不是“打卡”所有建筑，而是选择两到三个区域深度沉浸。建议先从“坎彭区”或“东弗兰德斯区”开始，那里有最古老、最具代表性的茅草屋顶农舍群，早晨柔和的光线非常适合拍照，也能安静地观察“村民”升起一日的第一缕炊烟。中午前后，漫步至中心湖区附近，景色开阔，可以在长椅上享用自带的简单午餐（园区内也有餐厅和野餐区）。下午的精力可以留给参与性的活动，比如观看铁匠打铁、在老师的指导下尝试一下传统编织，或者根据当日的活动日程，去参加一个制作黄油或烘焙的短时工作坊。傍晚闭馆前的一小时，光线再次变得金黄，村落笼罩在宁静的归家气氛中，是感受时光流动魅力的绝佳时刻。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿着舒适耐走的鞋，大部分路径是砂石或草地，且需要频繁进出有门槛和 uneven floor 的历史建筑。博物馆范围极大，合理规划路线，不必求全，可重点选择2-3个区域深度体验。部分室内空间为了保持历史原貌，光线较暗且通风有限，如有需要请自备小手电。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从主入口进入后，别急着往前冲，先在信息中心拿一份当日的“活动时间表”，这将是您一天沉浸式体验的罗盘。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着左侧小路首先潜入“坎彭区”，在那些苔痕斑驳的矮小农舍间穿行，弯腰走进一户低矮的门廊，感受屋内昏暗光线与泥土混合着熏香的气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到村落里仍在运转的水车磨坊，听流水哗哗与木轴吱呀的二重奏，看磨坊主如何将谷物变成粗糙的面粉，或许还能买一小包带走。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在接近中午时晃到“铁匠铺”，那里炉火正旺，叮叮当当的敲打声不绝于耳，看火星四溅中一块铁料如何被锻打成实用的钩子或蹄铁。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`根据活动表，在下午前往某个正在举行手工演示的民居，比如“织布小屋”，坐下来摸摸粗糙的亚麻线，听“女主人”讲讲染料如何从植物中提取。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要去探访那座小小的乡村学校，坐在硬木长凳上，看着黑板上的旧式拼写，想象一下一百多年前孩子们在这里朗读的声音。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在湖区边的长椅上休息，看野鸭和天鹅划开平静的水面，背景是古老风车的剪影，这是拼接你脑海中所有中世纪田园画面的一刻。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`离开前，别忘了去访客农场区域，和那些保存下来的古老家畜品种——比如卷毛的猪或矮脚的马——打个招呼，它们是这个生态系统里活的注脚。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`磨坊与溪流全景`}</h4>
+                  <p className="text-sm text-gray-700">{`站在连接磨坊的木桥一端，利用溪流作为前景引导线，将古朴的水车磨坊和它水中的倒影一同纳入镜框，最佳时间是下午侧光时，木质结构的质感会无比清晰。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`茅草屋顶的韵律`}</h4>
+                  <p className="text-sm text-gray-700">{`在坎彭区，找到一片密集的农舍群，蹲下来低角度仰拍，让层层叠叠、毛茸茸的茅草屋顶占据画面的大部分天空，捕捉屋顶在风中草浪微微波动的质感，清晨或傍晚的逆光会为茅草镶上金色的轮廓。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`生活场景的窗框`}</h4>
+                  <p className="text-sm text-gray-700">{`偷偷地（礼貌且不打扰地）从一扇打开的古老木窗朝室内拍摄，将窗框作为天然画框，框住屋内正在专心纺线或烹饪的“村民”的侧影，营造出一种偷窥历史的亲密感和故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`风车与湖面倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`在博克赖克湖的西侧岸边，下午时分，顺光拍摄远处古老的塔式风车，等待无风的时刻，湖面如镜，风车及其倒影会构成完美的对称画面，宁静而永恒。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`田野小径的纵深`}</h4>
+                  <p className="text-sm text-gray-700">{`走在连接不同区域的田野小径上，回头拍摄同行者漫步其间的背影，让小路在两旁高高的庄稼或野花中无限延伸，营造出“走在历史中”的深邃感和旅途感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尊重“村民”和工作人员的隐私，拍摄人物前请先微笑示意并获得默许，使用长焦镜头进行远距离捕捉更为得体。室内拍摄请勿使用闪光灯，以免破坏历史氛围并可能损害文物。阴雨天气其实更能拍出中世纪乡村的质朴与忧郁感，别让坏天气打断你的创作。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济便捷之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在根特市中心火车站附近的现代设计酒店，交通枢纽位置让你可以轻松往返博克赖克，晚上还能享受根特运河畔的璀璨夜景与热闹的酒吧文化。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`沉浸自然之选`}</h4>
+                  <p className="text-sm text-green-800">{`博克赖克领地公园周边的乡村民宿，多是改造后的农舍，推开窗就是森林或田野，夜晚极其静谧，清晨在鸟鸣中醒来，真正延续你的“时空穿越”之旅。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`特色体验之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`哈瑟尔特市由修道院改建的精品酒店，石头拱廊、静谧的回廊庭院与现代舒适完美结合，既满足了历史感，又能享受优质的餐饮和 spa 设施，缓解一天的步行疲劳。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端庄园之选`}</h4>
+                  <p className="text-sm text-purple-800">{`林堡省乡村深处的城堡酒店，被广阔的私人森林和花园环绕，提供极致隐私与奢华服务，在古董家具的包围中入睡，体验一把从“农民”到“领主”的时空切换。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`若计划深度游览博物馆并参与活动，非常推荐住在根特或哈瑟尔特，这两座城市本身也极具魅力，可搭配游览。夏季和周末是博克赖克及周边住宿的热门时段，务必提前数月预订，尤其是特色民宿。林堡省乡间治安良好，但夜间照明较少，自驾需留意狭窄的乡村道路。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开博克赖克的时候，我的手里除了那张没怎么用的地图，还多了一点东西：指甲缝里洗不掉的、一点点泥土和炉灰的痕迹，鼻腔里萦绕不散的、混合了面包与干草的复杂气味，以及脑海里那些不再模糊、而是有了具体声响和温度的中世纪画面。这地方给我的最大触动，不是历史的宏大，而是生活的具体。它郑重地告诉我们，历史不仅仅是宫殿与战争，更是如何建一个能遮风挡雨的家，如何做一块能养活家人的面包，如何将一根柳条编成承重的篮子。这些看似微不足道的“如何”，才是文明真正的基石。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求高效、快速、数字化的时代，博克赖克像一座固执的孤岛，或者更确切地说，像一块精心保养的古老田地。它让我们停下脚步，弯腰去看一粒种子如何发芽，去听一段木头在岁月里的呻吟，去体会一种没有电灯却充满星光、没有网络却充满交谈的生活密度。它治愈的是一种现代性的遗忘——我们对土地、对双手、对缓慢节奏的遗忘。每一位热爱深度游的旅人都该来这里，不仅仅是为了看一些老房子，而是为了完成一次至关重要的“感受复位”。在这里，你会重新找回用脚步丈量土地、用双手触摸材料、用全部感官去认识世界的原始快乐。博克赖克是一场梦，但它是一个你可以走进去、摸得到、甚至尝在嘴里的，最真实的梦。它提醒我们，无论科技将我们带往何方，我们内心深处，永远住着一个需要炊烟、需要故事、需要与土地相连的“古人”。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/oudenaarde-tapestry-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥德瓦尔德</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Oudenaarde</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beringen-mine-be-mine" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝灵恩煤矿遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beringen Mine (Be-MINE)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/huy" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    胡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">胡伊古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Huy</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

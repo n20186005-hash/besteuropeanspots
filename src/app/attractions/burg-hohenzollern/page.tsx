@@ -1,0 +1,237 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '霍亨索伦城堡 Burg Hohenzollern｜普鲁士王室发源地，云海中的孤峰皇冠 - 最佳欧洲景点',
+  description: '车子在黑森林边缘的丘陵地带盘旋，当转过一个普通的弯道，那座城堡就那么毫无征兆地撞进了视野。它不像新天鹅堡那样带着童话的甜美滤镜，霍亨索伦的第一眼印象是坚硬、冷峻而极具压迫感的。一座孤峰拔地而起，尖锐的塔楼和锯齿状的城墙像一顶巨大的、用岩石锻造的皇冠，稳稳地扣在山巅，被缭绕的云雾半遮半掩，仿佛悬浮在半...',
+}
+
+export default function BurgHohenzollernPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '霍亨索伦城堡', href: '/attractions/burg-hohenzollern' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`霍亨索伦城堡・Hohenzollern Castle・德国・巴登-符腾堡州，黑兴根附近`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在黑森林边缘的丘陵地带盘旋，当转过一个普通的弯道，那座城堡就那么毫无征兆地撞进了视野。它不像新天鹅堡那样带着童话的甜美滤镜，霍亨索伦的第一眼印象是坚硬、冷峻而极具压迫感的。一座孤峰拔地而起，尖锐的塔楼和锯齿状的城墙像一顶巨大的、用岩石锻造的皇冠，稳稳地扣在山巅，被缭绕的云雾半遮半掩，仿佛悬浮在半空。那一瞬间，你完全理解了为什么中世纪的贵族要选择这里——这不是为了享受，而是为了宣示权力，一种君权神授、居高临下的绝对威严。
+把车停在山腰的停车场，真正的朝圣才开始。你得沿着一条之字形的坡道向上走，风从山谷里毫无阻碍地吹上来，带着松林和湿冷岩石的气味。脚步声在空旷的山路上回响，而你的眼睛几乎无法从上方那座越来越清晰的巨石建筑上移开。走近了，才会发现城堡的细节充满了力量感：厚重的橡木大门上包裹着铁条，墙体是深色的、未经太多修饰的粗粝石材，窗户窄小而深邃。穿过城门洞的刹那，仿佛穿越了一层时间的薄膜，外界的风声忽然变小，取而代之的是庭院里游客低低的交谈声和旗帜在风中猎猎作响的声音。
+对于许多德国人来说，这里远不止一个旅游景点。我曾在城堡的小教堂里，见到一位头发花白的老人长久地凝视着腓特烈大帝的纪念碑，眼神复杂。霍亨索伦是普鲁士精神的物化体现：纪律、效率、责任感和一种略带悲情的强硬。它不像法国宫殿那般奢华外放，它的美是内敛的、秩序井然的，甚至有些严肃。你会看到德国父母指着城堡，向孩子讲述“铁与血”的故事，这里没有迪士尼式的梦幻，而是一种关于历史、责任与家族传承的、更为沉重的教育。城堡脚下的小镇居民，谈起它时也带着一种特有的自豪与平静，仿佛那座山上的巨石邻居，是镇守他们日常生活背景里一个永恒而可靠的存在。
+最打动人的时刻，往往在天气变幻之时。如果幸运地遇到云海，城堡的底座完全隐没在翻涌的白色云气中，只剩下尖塔和雄堞刺破云层，在阳光下闪烁着金灰色的光芒，宛如神话中阿斯加德神域在人间的投影。那一刻，所有的历史纷争、王权霸业都退为遥远的背景音，只剩下纯粹的自然伟力与人类建筑奇观的对话，一种令人屏息的、近乎神圣的孤高之美。你会明白，为何霍亨索伦家族将这里视为灵魂归宿——它本身就象征着一种超越时代变迁的、永恒的力量。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在黑森林边缘的丘陵地带盘旋，当转过一个普通的弯道，那座城堡就那么毫无征兆地撞进了视野。它不像新天鹅堡那样带着童话的甜美滤镜，霍亨索伦的第一眼印象是坚硬、冷峻而极具压迫感的。一座孤峰拔地而起，尖锐的塔楼和锯齿状的城墙像一顶巨大的、用岩石锻造的皇冠，稳稳地扣在山巅，被缭绕的云雾半遮半掩，仿佛悬浮在半空。那一瞬间，你完全理解了为什么中世纪的贵族要选择这里——这不是为了享受，而是为了宣示权力，一种君权神授、居高临下的绝对威严。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`把车停在山腰的停车场，真正的朝圣才开始。你得沿着一条之字形的坡道向上走，风从山谷里毫无阻碍地吹上来，带着松林和湿冷岩石的气味。脚步声在空旷的山路上回响，而你的眼睛几乎无法从上方那座越来越清晰的巨石建筑上移开。走近了，才会发现城堡的细节充满了力量感：厚重的橡木大门上包裹着铁条，墙体是深色的、未经太多修饰的粗粝石材，窗户窄小而深邃。穿过城门洞的刹那，仿佛穿越了一层时间的薄膜，外界的风声忽然变小，取而代之的是庭院里游客低低的交谈声和旗帜在风中猎猎作响的声音。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`对于许多德国人来说，这里远不止一个旅游景点。我曾在城堡的小教堂里，见到一位头发花白的老人长久地凝视着腓特烈大帝的纪念碑，眼神复杂。霍亨索伦是普鲁士精神的物化体现：纪律、效率、责任感和一种略带悲情的强硬。它不像法国宫殿那般奢华外放，它的美是内敛的、秩序井然的，甚至有些严肃。你会看到德国父母指着城堡，向孩子讲述“铁与血”的故事，这里没有迪士尼式的梦幻，而是一种关于历史、责任与家族传承的、更为沉重的教育。城堡脚下的小镇居民，谈起它时也带着一种特有的自豪与平静，仿佛那座山上的巨石邻居，是镇守他们日常生活背景里一个永恒而可靠的存在。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的时刻，往往在天气变幻之时。如果幸运地遇到云海，城堡的底座完全隐没在翻涌的白色云气中，只剩下尖塔和雄堞刺破云层，在阳光下闪烁着金灰色的光芒，宛如神话中阿斯加德神域在人间的投影。那一刻，所有的历史纷争、王权霸业都退为遥远的背景音，只剩下纯粹的自然伟力与人类建筑奇观的对话，一种令人屏息的、近乎神圣的孤高之美。你会明白，为何霍亨索伦家族将这里视为灵魂归宿——它本身就象征着一种超越时代变迁的、永恒的力量。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`霍亨索伦城堡`} />
+                <InfoRow label="英文名称" value={`Hohenzollern Castle`} />
+                <InfoRow label="正式名称" value={`Burg Hohenzollern`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`巴登-符腾堡州，黑兴根附近`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`普鲁士王国和德意志第二帝国统治家族——霍亨索伦家族的祖宅与精神象征，被誉为“普鲁士皇冠上的明珠”。`} />
+                <InfoRow label="建筑特色" value={`雄踞于855米高的锥形山峰之巅，新哥特式风格的塔楼与城墙与山体完美融合，形成极具防御性与视觉统治力的天际线。`} />
+                <InfoRow label="建筑风格" value={`19世纪中期重建，主要呈现浪漫主义时期的新哥特式风格，并融合了部分军事防御建筑的实用元素。`} />
+                <InfoRow label="文化价值" value={`超越了单纯的王室居所，是德国统一历史、王朝兴衰与近现代欧洲权力格局变迁的实体见证与民族记忆的承载地。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡全年开放，但开放时间随季节变化显著。每年3月16日至10月31日为夏季开放期，每天上午10点至下午5点半开放，最后入场时间为下午5点。每年11月1日至次年3月15日为冬季开放期，每天上午10点至下午4点半开放，最后入场时间为下午4点。城堡可能在平安夜、圣诞节、元旦等主要节假日关闭，具体日期每年略有调整，建议行前务必查询官网最新公告。内部导览团有固定发团时间，并非随时可进，需提前规划。`} />
+              <InfoRow label="门票价格" value={`仅参观城堡外部庭院和部分观景区域的门票为成人10欧元，优惠票（学生、残疾人等）8欧元。包含德语或英语导览的内部参观联票为成人22欧元，优惠票18欧元。家庭票（2成人+最多4名儿童）为48欧元。6岁以下儿童免费。门票可通过官网在线购买以预约特定时间段的导览团，尤其在夏季和周末强烈建议提前购票，避免现场长时间排队或无法入内。`} />
+              <InfoRow label="地址" value={`Burg Hohenzollern, 72379 Burg Hohenzollern, Germany`} />
+              <InfoRow label="交通方式" value={`最近的主要国际机场是斯图加特机场。从斯图加特中央火车站出发，乘坐开往图宾根或巴林根的区间火车，在“黑兴根”站下车，车程约1小时，班次频繁，约半小时一班。从黑兴根火车站出站后，步行约10分钟至山脚下的“Burg Hohenzollern”公交站，换乘专线巴士（路线：黑兴根-霍亨索伦城堡），巴士会直接开到城堡上方的停车场，车程约15分钟，班次通常每小时1-2班，需注意末班车时间。强烈建议在火车站或通过当地交通APP查询确切的巴士时刻表。自驾是最灵活的方式，导航至城堡停车场，之后需步行一段坡道抵达城堡大门。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`霍亨索伦的故事，始于一个关于生存与野心的古老寓言。早在11世纪，这座险峻的山头上就矗立着第一座城堡，属于当时名不见经传的霍亨索伦伯爵家族。关于它的最早记载模糊不清，但可以想象，在那个群雄割据的时代，占据这样一个易守难攻的制高点，意味着生存的基本保障。最初的城堡在1267年的一次围攻中被彻底摧毁，几乎没留下什么痕迹。然而，家族的种子已经播下，他们并未因此消亡，反而将目光投向了更广阔的天地。一个支系通过联姻和手段，获得了勃兰登堡选帝侯的资格，从此迈入了德意志权力游戏的核心圈层。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间跳到1454年，第二座霍亨索伦城堡在原址上重建起来。这座中世纪要塞见证了家族命运的第一次腾飞。勃兰登堡的霍亨索伦们以此为基地之一，精心经营，他们的领地不断扩张。然而，真正改变欧洲格局的事件发生在1618年。通过继承，霍亨索伦家族获得了遥远的普鲁士公国。从此，“勃兰登堡-普鲁士”成为他们领土的新名称，而这座祖居城堡，则成为了连接其德意志核心与东普鲁士边疆的精神纽带。城堡历经了三十年代战争的烽火，虽然坚固的城墙保护了它，但周边的领地却饱受蹂躏，这也让历代统治者更深切地理解到权力与实力的重要性。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`十八世纪是属于普鲁士的世纪，也是霍亨索伦城堡相对沉寂的时期。腓特烈大帝等君主常驻波茨坦和柏林，这座祖宅更多地扮演着象征性的角色。命运的无情转折发生在法国大革命和拿破仑战争的狂飙中。1806年，耶拿战役惨败后，普鲁士濒临崩溃，霍亨索伦城堡也被法军占领，遭到严重破坏并最终被废弃。昔日王权的象征沦为荒草丛生的废墟，这成了霍亨索伦家族乃至整个普鲁士民族的巨大耻辱。但也正是这种屈辱，催生了十九世纪德意志民族主义的勃兴。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡的第三次生命，与普鲁士的复兴和德国的统一紧密相连。1850年，在位的普鲁士国王腓特烈·威廉四世，怀揣着重建民族荣耀与家族记忆的浪漫主义理想，决心在原址上重建城堡。这不是简单的复原，而是一次充满野心的再创作。工程浩大，持续了近二十年，最终呈现为我们今天看到的新哥特式杰作。它比任何前身都更宏伟、更壮观，刻意强调着垂直的线条和戏剧性的天际线，旨在向世界宣告一个统一、强大、以普鲁士为核心的德意志帝国的崛起。威廉一世在这里被拥戴为德意志皇帝，城堡达到了其象征意义的顶峰。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的吊诡在于，城堡建成之日，也几乎是王权开始谢幕之时。威廉二世皇帝是这座城堡最后一位常客。第一次世界大战的炮火埋葬了德意志第二帝国，霍亨索伦家族失去了皇位。城堡奇迹般地未受战火损伤，但其命运已随王朝倾覆而改变。二战后，它所在的地区被划入法国占领区，险些遭到没收。最终，通过复杂的法律程序和家族努力，城堡的所有权归入霍亨索伦家族基金会管理至今。如今，它不再是一个政治权力的中心，而是转型为一个博物馆、一个家族档案馆和一处举世闻名的文化遗产。从防御要塞到帝王宫阙，再到历史纪念碑，霍亨索伦城堡的三次生命，恰好折射了德意志民族从中世纪 fragmentation 到近代统一强盛，再到现代民主共和的完整历程，每一块石头都刻满了故事的纹理。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天时间深度游览霍亨索伦城堡，最好在上午9点左右从山脚出发，以避开10点后汹涌而来的大巴旅行团。整体的节奏应该是“外-内-外”：先用上午的时光，在外部感受城堡的磅礴气势和周边自然景观；中午前后参加一次详尽的内部导览，沉浸在历史细节中；下午则在城堡庭院、小教堂等地安静回味，并等待可能出现的黄昏光影奇迹。这样的安排既能保证拍到干净的全景照片，又能有充足的时间理解其内涵，而不会匆忙赶路。请务必穿着非常舒适防滑的徒步鞋，因为整个游览过程涉及大量的上下坡行走和石阶。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`尽量避开周末和德国公共假期，否则导览团可能爆满，体验大打折扣。内部导览团有德语和英语可选，英语团次数较少，务必提前在官网查好时间并预约。山区天气多变，即使夏季也请务必携带一件防风外套或薄羽绒服，山顶风大温度常比山下低5-8度。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从停车场第一眼远眺时先别急着走，花五分钟静静欣赏城堡在群山背景下的全景构图，感受那份孤峰独立的霸气。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着之字形坡道缓缓上行，让身体逐渐适应海拔的同时，仔细观察城墙在不同角度呈现出的不同光影与质感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过巨大的城门进入外堡庭院，先别冲向主建筑，在庭院角落仰视主塔楼，体会古代士兵守卫于此的视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随导览员进入城堡核心，在装饰着家族纹章与盔甲的“伯爵大厅”里聆听解说员讲述霍亨索伦家族崛起的秘辛。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`踏入珍藏了腓特烈大帝鼻烟壶和普鲁士王后珠宝的宝库展厅，近距离观察那些在历史课本上闪闪发光的实物。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在城堡的小教堂里静坐片刻，这里安放着多位普鲁士国王的石棺，气氛庄严肃穆，光线透过彩窗洒下静谧的色彩。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`导览结束后，一定要去城堡东侧的露台，那里是俯瞰施瓦本山地区壮丽全景的最佳位置，天气好时可见数十公里。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山前，去城堡酒馆尝尝当地特色的施瓦本饺子汤，或者单纯喝一杯黑啤酒，像当年的骑士一样对着山谷干杯。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`停车场下方弯道处的开阔地`}</h4>
+                  <p className="text-sm text-gray-700">{`最佳时间是清晨或黄昏，利用长焦镜头压缩空间，将城堡与蜿蜒的山路一同纳入画面，营造出朝圣之路的叙事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡主城门内侧仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`正午前后，阳光能照亮城门洞的内壁，站在门内向外拍摄，以厚重的拱门为画框，框住远方绵延的森林和天空，层次感极强。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`东侧观景露台的边缘`}</h4>
+                  <p className="text-sm text-gray-700">{`下午侧光时分，将人物作为前景剪影或侧影，面向辽阔的施瓦本平原，背后是城堡坚实的石墙，构图富有张力与故事性。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“蓝色沙龙”房间的窗边`}</h4>
+                  <p className="text-sm text-gray-700">{`参加内部导览时，留意这个房间朝向内庭院的窗户，窗棂本身是精美的画框，可以拍摄庭院中走动的人群与对面的建筑立面，充满生活气息。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城堡西侧外墙的步道`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前约一小时，金色的阳光会斜射在城堡西侧的塔楼和墙面上，从这里可以拍摄到城堡墙体温暖的质感与深邃的阴影对比。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用无人机拍摄前，务必确认当地法规，城堡及周边空域可能有严格的飞行限制。内部展览房间绝大多数禁止拍照，尤其是珍宝馆，请严格遵守规定，尊重文化遗产。拍摄人物与城堡合影时，建议采用低角度仰拍，更能凸显城堡的巍峨和人物的渺小，强化视觉冲击力。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济实用之选`}</h4>
+                  <p className="text-sm text-blue-800">{`黑兴根镇上火车站旁的温馨家庭旅馆，主人能提供最地道的本地早餐和前往城堡的交通小贴士，晚上可以在宁静的镇上散步。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色历史体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择城堡附近由古老农庄改造的乡村公寓，住进有裸露木梁和传统瓷砖壁炉的房间，清晨在鸟鸣和奶牛铃声中醒来，推开窗就能望见山巅的城堡。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端尊享隐居`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车二十分钟可达的星级森林度假酒店，坐落在私人森林中，拥有全景水疗中心和米其林推荐餐厅，是在一天徒步游览后彻底放松身心的完美归宿。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`城堡传奇之夜`}</h4>
+                  <p className="text-sm text-purple-800">{`极少数情况下，城堡会举办特殊的夜间活动或私人晚宴，可通过特定渠道预订（价格不菲），体验在游客散尽后独占这座皇冠之堡的非凡时刻。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`黑兴根镇本身很小且非常安全，但夜生活几乎为零，适合追求安静休息的旅行者。如果自驾，选择远离小镇的乡村住宿会获得更震撼的城堡视野和更纯粹的田园体验。夏季和圣诞市场期间是绝对旺季，住宿需提前数月预订，平日则相对宽松。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开霍亨索伦城堡很久以后，脑海里挥之不去的，不是某件具体的珍宝或某个房间的装饰，而是那种整体的感受——一种沉重的、带着铁灰色调的历史质感。它不像许多宫殿那样只展示辉煌，而是坦然呈现了权力的重量、家族的沉浮与历史的残酷。在这里，你能触摸到普鲁士精神中那严谨到近乎刻板、强硬到有些孤独的内核。它提醒我们，欧洲的历史不仅仅是浪漫的诗歌与艺术，也同样是铁血、权谋与无数个体命运在宏大叙事中的碰撞。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求轻盈与快捷的时代，霍亨索伦像一座时间的锚点。它矗立在那里，任凭山下世界风云变幻，科技日新月异，它只沉默地讲述着关于根源、传承与记忆的故事。对于每一位真正的深度旅行者而言，来到这里，不仅仅是为了打卡另一座“著名城堡”。它是一次对德意志民族性格源头的探访，一次对“国家何以形成”的具象化思考。当你站在露台上，望着当年普鲁士君王们眺望过的同一片山川，你会感到历史并非书本上枯燥的文字，而是可以呼吸、可以触摸的实在。这趟攀登，不仅是身体上的，更是精神上的一次溯源之旅，它值得你放慢脚步，用一整天的时间，去聆听石头诉说的往事。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/schwaebisch-hall-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施韦比施哈尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Schwäbisch Hall</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/luneburg-hanseatic-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    吕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">吕讷堡汉萨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lüneburg Hanseatic Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/burg-eltz" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃尔茨城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Burg Eltz</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

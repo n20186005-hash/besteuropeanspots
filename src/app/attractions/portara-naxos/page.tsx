@@ -1,0 +1,236 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '纳克索斯波尔塔拉 Naxos Portara｜孤独守望爱琴海千年的未完成神庙大门 - 最佳欧洲景点',
+  description: '你第一眼看到它，一定是从纳克索斯那座慵懒的港口小镇的海边望过去。黄昏时分，金色的阳光把白色房子染成蜜糖色，而你目光的尽头，在一条细长堤道连接的小小海岬上，一个巨大的长方形石框，就这样安静地、几乎是抽象地镶嵌在深蓝色的海天之间。它不像其他希腊神庙那样拥有完整的柱廊和山墙，它只有一扇门，一扇永远无法通过...',
+}
+
+export default function PortaraNaxosPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '纳克索斯波尔塔拉', href: '/attractions/portara-naxos' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`纳克索斯波尔塔拉・Naxos Portara・希腊・纳克索斯岛（Naxos）， 南爱琴大区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`你第一眼看到它，一定是从纳克索斯那座慵懒的港口小镇的海边望过去。黄昏时分，金色的阳光把白色房子染成蜜糖色，而你目光的尽头，在一条细长堤道连接的小小海岬上，一个巨大的长方形石框，就这样安静地、几乎是抽象地镶嵌在深蓝色的海天之间。它不像其他希腊神庙那样拥有完整的柱廊和山墙，它只有一扇门，一扇永远无法通过、也永不关闭的门。那种感觉非常奇妙，仿佛时间的河流在这里打了个结，一个远古的梦被凝固成了剪影。
+当你走过那条被海浪温柔拍打的堤道，慢慢靠近它，感官的细节才汹涌而来。脚下是粗糙的沙石和顽强生长在岩缝间的野草，散发着被烈日炙烤过的干燥香气。爱琴海的风毫无阻挡地穿过那巨大的门洞，发出低沉而持续的呜鸣，像古老的叹息。用手触摸那些大理石，表面粗粝，却带着阳光留下的暖意，指尖能感受到石头上深刻的纹理和风化留下的凹痕。站在门框之下，仰头望去，天空被切割成一个完美的画框，流云匆匆而过，你瞬间变得无比渺小。这里没有博物馆的玻璃柜，没有禁止触摸的围栏，历史就以最原始、最慷慨的姿态拥抱了你。
+在纳克索斯人心里，波尔塔拉从来不是冰冷的遗迹。它是日常风景的一部分，是傍晚散步的终点，是少年们跳水嬉戏的背景板，也是恋人约会等待日落的浪漫舞台。你会看到当地老人坐在附近的岩石上垂钓，猫咪在古老的基座阴影下打盹，游客们则屏住呼吸，等待夕阳恰好沉入那石门中央的魔法时刻。它的魅力，恰恰在于这种“未完成”。它没有结局，所以充满了无限的可能和想象。它是一座没有神庙的神庙之门，一个没有答案的古老提问，静静地立在海角，让每个到来的人，用自己的故事去填满那个空白的画框。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`你第一眼看到它，一定是从纳克索斯那座慵懒的港口小镇的海边望过去。黄昏时分，金色的阳光把白色房子染成蜜糖色，而你目光的尽头，在一条细长堤道连接的小小海岬上，一个巨大的长方形石框，就这样安静地、几乎是抽象地镶嵌在深蓝色的海天之间。它不像其他希腊神庙那样拥有完整的柱廊和山墙，它只有一扇门，一扇永远无法通过、也永不关闭的门。那种感觉非常奇妙，仿佛时间的河流在这里打了个结，一个远古的梦被凝固成了剪影。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你走过那条被海浪温柔拍打的堤道，慢慢靠近它，感官的细节才汹涌而来。脚下是粗糙的沙石和顽强生长在岩缝间的野草，散发着被烈日炙烤过的干燥香气。爱琴海的风毫无阻挡地穿过那巨大的门洞，发出低沉而持续的呜鸣，像古老的叹息。用手触摸那些大理石，表面粗粝，却带着阳光留下的暖意，指尖能感受到石头上深刻的纹理和风化留下的凹痕。站在门框之下，仰头望去，天空被切割成一个完美的画框，流云匆匆而过，你瞬间变得无比渺小。这里没有博物馆的玻璃柜，没有禁止触摸的围栏，历史就以最原始、最慷慨的姿态拥抱了你。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在纳克索斯人心里，波尔塔拉从来不是冰冷的遗迹。它是日常风景的一部分，是傍晚散步的终点，是少年们跳水嬉戏的背景板，也是恋人约会等待日落的浪漫舞台。你会看到当地老人坐在附近的岩石上垂钓，猫咪在古老的基座阴影下打盹，游客们则屏住呼吸，等待夕阳恰好沉入那石门中央的魔法时刻。它的魅力，恰恰在于这种“未完成”。它没有结局，所以充满了无限的可能和想象。它是一座没有神庙的神庙之门，一个没有答案的古老提问，静静地立在海角，让每个到来的人，用自己的故事去填满那个空白的画框。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`纳克索斯波尔塔拉`} />
+                <InfoRow label="英文名称" value={`Naxos Portara`} />
+                <InfoRow label="正式名称" value={`Portara of Naxos`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`纳克索斯岛（Naxos）， 南爱琴大区`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座始建于公元前6世纪、却永远停留在“序章”的宏伟神庙留给世界的唯一遗赠，是古代希腊僭主雄心与命运无常的永恒象征。`} />
+                <InfoRow label="建筑特色" value={`由四块巨大的纳克索斯岛大理石砌成的巨型门框，傲然独立于爱琴海中的小岛之巅，以绝对的几何纯粹性与大海、天空对话。`} />
+                <InfoRow label="建筑风格" value={`古典希腊早期的多立克柱式风格，规模极其宏伟，体现了前古典时期建筑追求巨大尺度的特点。`} />
+                <InfoRow label="文化价值" value={`它连接着神话（相传这是酒神狄俄尼索斯或太阳神阿波罗的圣地）、真实历史与当地生活，是纳克索斯岛千年不变的精神图腾。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`遗址区域全天24小时开放，可自由进入。但连接纳克索斯主岛与帕拉提亚小岛（Palatia）的狭窄堤道在恶劣天气或夜间（虽然没有官方禁令，但无照明）行走需格外小心。最佳游览时间是日出至日落后一小时。`} />
+              <InfoRow label="门票价格" value={`完全免费，无需门票。这是一处向所有人开放的露天历史遗迹。`} />
+              <InfoRow label="地址" value={`Palatia Islet, Naxos 843 00, Greece`} />
+              <InfoRow label="交通方式" value={`抵达纳克索斯岛主要依靠渡轮（从比雷埃夫斯港或圣托里尼、米克诺斯等岛屿）或飞机（纳克索斯岛民用机场）。从纳克索斯岛的港口小镇（Chora）出发，波尔塔拉是绝对的视觉地标，步行即可轻松抵达。穿过海滨林立的餐厅和咖啡馆，你会看到一条笔直的堤道（约200米）通向海中的帕拉提亚小岛，堤道尽头就是波尔塔拉。步行全程从镇中心算起约需15-20分钟。如果开车或骑摩托，可以将车停在堤道入口附近免费的空地。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从公元前530年左右讲起。当时的纳克索斯岛，可不是今天这个悠闲的度假天堂，它是爱琴海上最强盛、最富有的城邦之一，掌控着珍贵的大理石资源和繁荣的贸易。岛的统治者，是一位名叫吕格达米斯的僭主。这位老兄野心勃勃，决心要为自己和城邦树立一座配得上其实力的永恒纪念碑。他选定了港口旁这座叫做帕拉提亚的醒目小岛，计划在上面建造一座史上最大、最豪华的神庙。献给谁呢？历史学家们还在争论，可能是太阳神阿波罗，也可能是酒神狄俄尼索斯——毕竟神话里，被忒修斯抛弃的阿里阿德涅就是在纳克索斯岛遇到了狄俄尼索斯。无论如何，这注定是一个惊天动地的工程。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`想象一下当时的场景：采石场上，工匠们叮叮当当地开采着岛上品质最佳、色泽温润的大理石；巨大的石料被滚木和绳索缓缓拖曳，运上海岬；建筑师在地上画出恢弘的蓝图，一座长达近60米、宽达30米，拥有宏伟柱廊的神庙雏形已然在心中屹立。那扇我们今天看到的、重达数十吨的波尔塔拉（大门），仅仅是这座巨构微不足道的一个开端。它被率先竖立起来，仿佛一个庄严的宣告。然而，历史的剧本从不按个人的意志书写。吕格达米斯的权势未能持久，或许是被推翻，或许是战争打断了财政，这座雄心万丈的神庙工程在刚刚启幕不久后，便戛然而止。只留下那扇已经安装好的巨型石门，和周围散落的基础石料，像一个断掉的句子，沉默地面对着大海。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`此后的一千多年，波尔塔拉就这样孤独地站着。古希腊文明衰落，罗马人来了又走，拜占庭帝国将基督教定为国教，古老的异教神庙遗址成为了被遗忘的角落。直到中世纪，威尼斯人占领了纳克索斯，他们在旁边的山丘上建造了气势汹汹的城堡。这些实用的占领者看中了波尔塔拉这些上好的大理石，试图把它们拆下来运去加固城堡。但有趣的事情发生了：这些石头太大了，太沉重了，中世纪的技术竟然难以搬运和切割这些古代巨匠的造物！尝试了几次后，他们放弃了，只搬走了一些小块的石头。波尔塔拉因其自身的“庞大”而幸存了下来，这不得不说是一种带着讽刺意味的幸运。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转到近代，当考古学家和旅行者重新“发现”它时，它早已融入了纳克索斯的自然景观和民间传说。人们不再记得它最初要献给哪位神祇，只是直观地称它为“Portara”，也就是“大门”的意思。它见证了海盗的劫掠、奥斯曼帝国的统治、战争的硝烟，最终迎来了和平的旅游时代。它没有被修复成“完整的模样”，恰恰是这种残缺的状态，赋予了它哲学般的美感。它不再仅仅属于阿波罗或狄俄尼索斯，它属于每一个在它面前驻足、沉思、惊叹的普通人。它的历史，从一部具体的建造史，升华成了一部关于时间、野心、偶然与永恒的隐喻史。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`游览波尔塔拉的精髓不在于“走”，而在于“感受”和“等待”。建议你在下午晚些时候，大约日落前一个半小时出发。这样你可以经历从白天到黄昏再到夜幕初临的完整光影变幻，这也是波尔塔拉一天中最具魔力的时刻。整体耗时约2-3小时，节奏应该非常悠闲。先从港口小镇轻松散步过去，在堤道和小岛上随意探索，找一个心仪的位置静静等待日落，日落后再逗留片刻欣赏华灯初上的小镇夜景。这样的安排避开了正午的酷热和过多的游客，让你能与这片遗迹进行一场宁静而深入的对话。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`堤道和岛上岩石表面不平且偶尔湿滑，务必穿一双防滑舒适的鞋子，避免人字拖或高跟鞋。
+岛上没有任何遮阳设施和商业售卖点，请自备饮用水，并做好防晒或防风准备。
+如果想获得最宁静的体验，可以考虑在日出时分前来，那时几乎无人打扰，只有晨光与海鸟相伴。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从纳克索斯港口小镇迷宫般的老城巷子里钻出来，迎面就是开阔的海滨和那条直指波尔塔拉的浪漫堤道。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`踏上堤道时记得回头望，你会看到后方山丘上威尼斯城堡的剪影与前方古老的石门构成一幅跨越时空的奇妙构图。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`慢慢环绕帕拉提亚小岛粗糙的岩石基座，从不同角度观察波尔塔拉与海浪、礁石的关系，感受它扎根于自然的稳固力量。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`鼓起勇气伸手触摸那冰凉而粗糙的千年大理石门柱，闭上眼睛听海风穿过门洞的呼啸，那是时间流逝的声音。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一块平坦的岩石坐下，面朝西方，看着夕阳缓缓下沉，计算它是否会精准地落入那道巨大的石框之中。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落后别急着离开，等待小镇的灯火一盏盏亮起，波尔塔拉在深蓝天幕下变为一个威严的黑色剪影，星空开始在其上方隐约浮现。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着堤道走回小镇，途中再次回望，夜色中只有孤独的门框被地灯微微照亮，仿佛悬浮在黑暗的海面之上。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`堤道中段仰拍机位`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，站在堤道中间，用广角镜头低角度仰拍，将长长的堤道作为引导线，尽头是巍峨的石门和绚烂的晚霞，构图极具纵深感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`石门正前方全景机位`}</h4>
+                  <p className="text-sm text-gray-700">{`日落时分，站在神庙基座的台阶下，将整个石门框与正在沉入海平面的落日一同纳入画面，捕捉太阳恰好“挂”在门洞中央的黄金一秒。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`侧面岩石俯拍人像机位`}</h4>
+                  <p className="text-sm text-gray-700">{`从小岛侧面的较高岩石上，请同伴站在石门附近，从侧面俯拍，能将人物、巨大的门框结构以及背景的纳克索斯小镇和山脉一同收入镜头。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`威尼斯城堡观景台远眺机位`}</h4>
+                  <p className="text-sm text-gray-700">{`第二天白天可以登上港口小镇的威尼斯城堡，从制高点用长焦镜头远眺波尔塔拉，它像一个小小的模型立在蔚蓝的海中，别有一番趣味。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`星空与石门机位`}</h4>
+                  <p className="text-sm text-gray-700">{`如果遇到无月晴夜，在午夜前后，将相机架在三脚架上，对准石门长时间曝光，可以拍到星空轨迹穿过古老门洞的震撼画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄日落剪影时，对焦在明亮的天空部分并使用点测光，才能保证石门呈现完美的黑色轮廓。`}</li>
+                <li>• {`爱琴海的风很大，尤其是傍晚，使用三脚架时务必确保其稳定性，或增加配重。`}</li>
+                <li>• {`尊重古迹，避免为了拍照而攀爬禁止区域或做出危险动作，最美的照片永远以安全为前提。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`老城沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在纳克索斯城堡区（Kastro）由古老威尼斯宅邸改造的石头房子里，每天穿梭在盘旋的阶梯小巷，从窗口就能瞥见爱琴海的一角，下楼就是地道的小酒馆。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`海滨活力之选`}</h4>
+                  <p className="text-sm text-green-800">{`选择港口（Bourgo）海滨大道背后的家庭式酒店，阳台正对波尔塔拉，白天看海景蔚蓝，傍晚就着夕阳在阳台小酌，晚上听着轻柔的海浪声入睡。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`文艺安静之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`在距离小镇中心步行10-15分钟的圣乔治海滩（Agios Georgios）区域找一家设计感十足的精品住宿，拥有静谧的花园和泳池，兼顾了去海滩玩水的便利与前往波尔塔拉探索的快捷。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`传统村庄体验`}</h4>
+                  <p className="text-sm text-purple-800">{`租一辆小车，住在岛内山区的传统村庄如Apiranthos或Halki，体验更纯粹的纳克索斯生活，白天探索山野和古老塔楼，傍晚再驱车下山去海边与波尔塔拉共赴日落之约。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`旺季（7-8月）务必提前数月预订，尤其是能看到海景和波尔塔拉的房间非常抢手。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果希望夜生活丰富、餐厅选择多，就住在港口小镇；如果追求绝对宁静，则可以考虑稍远一点的滨海区域或内陆村庄。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`纳克索斯岛整体治安很好，老城夜间照明一般，但道路复杂，建议初次抵达时趁天亮熟悉一下从住处到主路的路径。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开纳克索斯许久后，我发现自己记得最清晰的，不是某顿美味的大餐，也不是某片沙滩的细沙，而是站在波尔塔拉门下，那种突如其来的、近乎失语的平静。它没有试图向你证明什么，没有讲述一个完整辉煌的故事。它只是在那里，以一种坦诚的、未完成的状态，接受了时间给予它的一切：建造、废弃、遗忘、幸存，最终成为风景本身。在这个我们习惯于追逐“完成”、“完美”、“效率”的世界里，这样一种存在本身，就是一种温柔的抵抗。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，每一位热爱深度游的旅人，都应该来见见它。它不仅仅是一扇门，更是一个隐喻，一个邀请。它邀请你思考：什么是永恒？是完成的宏伟，还是中途的戛然而止？什么是意义？是预设的目的地，还是旅途本身？当你穿行过那无形的门洞，让爱琴海的风贯穿身体的那一刻，你会找到属于自己的答案。它不会给你标准解答，但它给予的沉思空间，比任何一座富丽堂皇的完整宫殿都要广阔。这就是波尔塔拉，一个用残缺诠释圆满，用沉默诉说千言的地方。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/epidaurus-theatre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃皮达鲁斯古剧场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Epidaurus Theatre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kavala-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡瓦拉老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kavala Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/the-street-of-the-knights-rhodes" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    骑
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">骑士街</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Street of the Knights</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
