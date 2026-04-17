@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '龙达悬崖小镇 Ronda｜悬挂在埃尔塔霍峡谷上的白色天空之城 - 最佳欧洲景点',
-  description: '当你第一次从峡谷的边缘望出去，那种感觉不是惊艳，而是失语。脚下是几乎垂直劈开大地的埃尔塔霍峡谷，深达百米，岩石裸露，呈现一种干燥而粗粝的赭红色。而对面，一整片雪白的房子就那样肆无忌惮地生长在悬崖的顶端，像一片被凝固住的、即将倾泻而下的云。连接这两片悬崖的，是一座沉默而巨大的石桥——龙达新桥。它就那么...',
+  title: '龙达悬崖小镇 Ronda｜漫步在云端与深渊之间，探访现代斗牛摇篮 - 最佳欧洲景点',
+  description: '朋友，想象一下，你正走在一条寻常的西班牙街道上，两侧是刷着白浆的房子，阳台上垂下天竺葵。突然，脚下的路毫无征兆地到了尽头，取而代之的是一片令人眩晕的虚空。你下意识地抓紧旁边的栏杆，风从下方呼啸着涌上来，带着峡谷深处河流与岩石的凉湿气息。眼前，一座巨大的灰黄色石桥像从天而降的神迹，牢牢焊在两侧垂直的峭...',
 }
 
 export default function RondaCliffTownPage() {
@@ -23,17 +23,19 @@ export default function RondaCliffTownPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">{`龙达悬崖小镇・Ronda・西班牙・龙达`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`当你第一次从峡谷的边缘望出去，那种感觉不是惊艳，而是失语。脚下是几乎垂直劈开大地的埃尔塔霍峡谷，深达百米，岩石裸露，呈现一种干燥而粗粝的赭红色。而对面，一整片雪白的房子就那样肆无忌惮地生长在悬崖的顶端，像一片被凝固住的、即将倾泻而下的云。连接这两片悬崖的，是一座沉默而巨大的石桥——龙达新桥。它就那么静静地拱在那里，桥墩深深扎进峡谷的岩壁，仿佛它本身就是大地生长出来的一部分。风吹过峡谷的声音是持续的、低沉的呼啸，混着从谷底隐约传来的瓜达莱温河的流水声，让你的心也跟着悬了起来，既恐惧，又着迷。
-走在龙达的街巷里，感官会被另一种温柔填满。空气里是安达卢西亚特有的味道——强烈的阳光炙烤着白色墙壁，散发出微微的石灰味；小巷深处飘来橙花的甜香和某户人家正在烹饪的橄榄油蒜香味。这里的“白”不是单调的，晨光中泛着暖黄，正午时耀眼夺目，到了黄昏，则被染成一片醉人的玫瑰金。你会发现，这个看似惊险的小镇，生活节奏却慢得不可思议。当地老人聚在广场的树荫下，一杯咖啡可以聊一个下午；主妇们不紧不慢地从市场提着装满蔬果的篮子回家。悬崖的惊心动魄，与日常的琐碎安宁，在这里达成了奇妙的共生。
-而龙达最打动人心的，或许正是这种极致的矛盾与和谐。它是斗牛士的故乡，空气里仿佛还残留着生死一瞬的紧张与华丽；它又是无数私奔者与梦想家的目的地，承载着关于逃离与浪漫的极致想象。站在新桥上，你会感到自己同时站在天与地、生与死、历史与当下的交汇点上。这种眩晕感，就是龙达送给每一位来访者最独特的礼物。`}
+            {`朋友，想象一下，你正走在一条寻常的西班牙街道上，两侧是刷着白浆的房子，阳台上垂下天竺葵。突然，脚下的路毫无征兆地到了尽头，取而代之的是一片令人眩晕的虚空。你下意识地抓紧旁边的栏杆，风从下方呼啸着涌上来，带着峡谷深处河流与岩石的凉湿气息。眼前，一座巨大的灰黄色石桥像从天而降的神迹，牢牢焊在两侧垂直的峭壁之间。桥下，是深达98米的埃尔塔霍峡谷，你可以清晰地看到鹰在桥拱间盘旋的黑点。这就是龙达给你的第一份礼物——一种直击心脏的、关于高度与存在的震撼。
+这种震撼不仅属于游客。你很快会发现，悬崖与峡谷就是龙达人生活的背景板。早晨，老人们会慢悠悠地踱步到新桥附近的观景台，不是为了看风景，而是为了会老友，聊聊家长里短，背景就是那万丈深渊。咖啡馆的露天座位，有一半是悬在悬崖边上的，当地人喝着浓缩咖啡，吃着沾了橄榄油的吐司，对脚下的惊险早已习以为常。峡谷的风是这里的常客，它吹过摩尔式宫殿的雕花拱门，带来远处橄榄林与橘子花的混合香气，也把教堂的钟声吹得悠长而飘渺。龙达的魅力，就在于它将极致险峻的地理环境，消化成了每日呼吸的空气，一种沉静而骄傲的日常。
+但龙达的心跳，远不止于静默的奇观。当你走到那座全西班牙最古老、最神圣的斗牛场前，你会感受到另一种完全不同的能量。那是一座由暖黄色砂岩砌成的宏伟圆形建筑，在安达卢西亚的烈日下显得庄严而灼热。空气中仿佛还能听到历史的回响——斗牛士靴子踩踏沙地的摩擦声，公牛沉重的鼻息，以及人群山呼海啸般的“Olé！”。这里是浪漫主义斗牛的诞生地，是现代斗牛士之父佩德罗·罗梅罗的故乡。峡谷赋予它孤绝的气质，而斗牛场则注入了滚烫的、属于西班牙血液里的激情与悲剧意识。
+所以，在龙达，你的感官会被两极拉扯：一边是峡谷带来的、近乎神圣的宁静与敬畏；另一边，则是斗牛文化所象征的、人类直面危险与死亡的炽热勇气。你站在桥上，脚下是亘古不变的地质时间；你走进斗牛场，触摸的是一段鲜活、甚至有些残酷的人文历史。这种矛盾而和谐的统一，让龙达不再仅仅是一个“风景如画”的白色小镇，而成为一个能让你思考自然、生命与文化的深邃之地。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`当你第一次从峡谷的边缘望出去，那种感觉不是惊艳，而是失语。脚下是几乎垂直劈开大地的埃尔塔霍峡谷，深达百米，岩石裸露，呈现一种干燥而粗粝的赭红色。而对面，一整片雪白的房子就那样肆无忌惮地生长在悬崖的顶端，像一片被凝固住的、即将倾泻而下的云。连接这两片悬崖的，是一座沉默而巨大的石桥——龙达新桥。它就那么静静地拱在那里，桥墩深深扎进峡谷的岩壁，仿佛它本身就是大地生长出来的一部分。风吹过峡谷的声音是持续的、低沉的呼啸，混着从谷底隐约传来的瓜达莱温河的流水声，让你的心也跟着悬了起来，既恐惧，又着迷。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走在龙达的街巷里，感官会被另一种温柔填满。空气里是安达卢西亚特有的味道——强烈的阳光炙烤着白色墙壁，散发出微微的石灰味；小巷深处飘来橙花的甜香和某户人家正在烹饪的橄榄油蒜香味。这里的“白”不是单调的，晨光中泛着暖黄，正午时耀眼夺目，到了黄昏，则被染成一片醉人的玫瑰金。你会发现，这个看似惊险的小镇，生活节奏却慢得不可思议。当地老人聚在广场的树荫下，一杯咖啡可以聊一个下午；主妇们不紧不慢地从市场提着装满蔬果的篮子回家。悬崖的惊心动魄，与日常的琐碎安宁，在这里达成了奇妙的共生。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`而龙达最打动人心的，或许正是这种极致的矛盾与和谐。它是斗牛士的故乡，空气里仿佛还残留着生死一瞬的紧张与华丽；它又是无数私奔者与梦想家的目的地，承载着关于逃离与浪漫的极致想象。站在新桥上，你会感到自己同时站在天与地、生与死、历史与当下的交汇点上。这种眩晕感，就是龙达送给每一位来访者最独特的礼物。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，想象一下，你正走在一条寻常的西班牙街道上，两侧是刷着白浆的房子，阳台上垂下天竺葵。突然，脚下的路毫无征兆地到了尽头，取而代之的是一片令人眩晕的虚空。你下意识地抓紧旁边的栏杆，风从下方呼啸着涌上来，带着峡谷深处河流与岩石的凉湿气息。眼前，一座巨大的灰黄色石桥像从天而降的神迹，牢牢焊在两侧垂直的峭壁之间。桥下，是深达98米的埃尔塔霍峡谷，你可以清晰地看到鹰在桥拱间盘旋的黑点。这就是龙达给你的第一份礼物——一种直击心脏的、关于高度与存在的震撼。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这种震撼不仅属于游客。你很快会发现，悬崖与峡谷就是龙达人生活的背景板。早晨，老人们会慢悠悠地踱步到新桥附近的观景台，不是为了看风景，而是为了会老友，聊聊家长里短，背景就是那万丈深渊。咖啡馆的露天座位，有一半是悬在悬崖边上的，当地人喝着浓缩咖啡，吃着沾了橄榄油的吐司，对脚下的惊险早已习以为常。峡谷的风是这里的常客，它吹过摩尔式宫殿的雕花拱门，带来远处橄榄林与橘子花的混合香气，也把教堂的钟声吹得悠长而飘渺。龙达的魅力，就在于它将极致险峻的地理环境，消化成了每日呼吸的空气，一种沉静而骄傲的日常。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但龙达的心跳，远不止于静默的奇观。当你走到那座全西班牙最古老、最神圣的斗牛场前，你会感受到另一种完全不同的能量。那是一座由暖黄色砂岩砌成的宏伟圆形建筑，在安达卢西亚的烈日下显得庄严而灼热。空气中仿佛还能听到历史的回响——斗牛士靴子踩踏沙地的摩擦声，公牛沉重的鼻息，以及人群山呼海啸般的“Olé！”。这里是浪漫主义斗牛的诞生地，是现代斗牛士之父佩德罗·罗梅罗的故乡。峡谷赋予它孤绝的气质，而斗牛场则注入了滚烫的、属于西班牙血液里的激情与悲剧意识。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，在龙达，你的感官会被两极拉扯：一边是峡谷带来的、近乎神圣的宁静与敬畏；另一边，则是斗牛文化所象征的、人类直面危险与死亡的炽热勇气。你站在桥上，脚下是亘古不变的地质时间；你走进斗牛场，触摸的是一段鲜活、甚至有些残酷的人文历史。这种矛盾而和谐的统一，让龙达不再仅仅是一个“风景如画”的白色小镇，而成为一个能让你思考自然、生命与文化的深邃之地。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -46,26 +48,27 @@ export default function RondaCliffTownPage() {
                 <InfoRow label="城市" value={`龙达`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`建在悬崖上的西班牙白色小镇，被誉为现代斗牛的摇篮与浪漫主义的精神故乡。`} />
-                <InfoRow label="建筑特色" value={`一座横跨百米深谷的巨石新桥，将分别建于罗马与摩尔时代的两片古老城区奇迹般连接。`} />
-                <InfoRow label="建筑风格" value={`融合了罗马地基、摩尔式防御工事、文艺复兴与18世纪新古典主义的安达卢西亚白色山城。`} />
-                <InfoRow label="文化价值" value={`西班牙斗牛仪式的发源地与精神核心，亦是激发了海明威、奥森·威尔斯等无数艺术家灵感的“浪漫之城”。`} />
+                <InfoRow label="历史地位" value={`它是现代西班牙斗牛艺术的发源地与精神故乡。`} />
+                <InfoRow label="建筑特色" value={`一座令人屏息的巨大石桥，横跨在深达百米的埃尔塔霍峡谷之上，将新旧两城相连。`} />
+                <InfoRow label="建筑风格" value={`融合了罗马、摩尔与西班牙古典风格的安达卢西亚山地城镇。`} />
+                <InfoRow label="文化价值" value={`一处将自然之险峻、建筑之奇观与人文之热血完美熔铸的史诗级地标。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`整个小镇公共区域全天开放。核心景点如龙达新桥（Puente Nuevo）观景台、龙达斗牛场（Plaza de Toros）、摩尔王宫（Casa del Rey Moro）花园等有各自开放时间，通常为上午9:30/10:00至傍晚18:00/20:00，夏季会延长。斗牛场冬季可能缩短开放时间或周一闭馆。建议出行前在具体景点官网确认，许多宗教节日（如圣周）期间开放时间会有较大变动。`} />
-              <InfoRow label="门票价格" value={`小镇本身免费游览。主要景点单独售票：龙达新桥观景平台约2-5欧元；龙达斗牛场（含斗牛博物馆）全价票约8欧元，学生及老人有优惠；摩尔王宫花园约8欧元；阿拉伯浴场约4欧元。联票（如斗牛场+阿拉伯浴场）更划算，约12欧元。部分酒店或餐厅消费可能包含观景台进入权限。`} />
-              <InfoRow label="地址" value={`Plaza de España, 1, 29400 Ronda, Málaga, Spain`} />
-              <InfoRow label="交通方式" value={`从马拉加（Málaga）机场或市中心汽车站乘坐直达巴士（如Avanzabus公司），车程约1小时45分钟至2小时，班次每天约6-8班，可现场或网上购票。从塞维利亚（Sevilla）出发，巴士车程约2小时，班次频繁。火车也可到达，但班次较少，从马拉加出发约1.5小时。小镇内所有景点均可步行抵达，但峡谷两侧上下坡多，建议穿舒适的鞋子。自驾可将车停在镇外的公共停车场，老城区内道路极其狭窄且多为单行线。`} />
+              <InfoRow label="开放时间" value={`龙达作为一个城镇，整体是24小时开放的。但其核心景点如龙达新桥（Puente Nuevo）的观景台、斗牛场（Plaza de Toros）、阿拉伯浴场（Baños Árabes）等有具体开放时间：斗牛场通常在上午10点至晚上6点开放，夏季会延长至晚上8点；阿拉伯浴场一般为上午10点至下午7点。请注意，大部分室内景点周一可能闭馆或缩短开放时间，而圣诞节、元旦及当地节假日（如圣周）开放时间会有较大调整，建议出行前在其官网再次确认。`} />
+              <InfoRow label="门票价格" value={`龙达新桥本身及连接峡谷两侧的步行区域免费开放。斗牛场博物馆门票约为8欧元，学生及65岁以上老人有优惠。阿拉伯浴场门票约为4.5欧元。部分景点有联票出售，价格约为10欧元，涵盖斗牛场、阿拉伯浴场和蒙德拉贡宫殿等。当地教堂参观通常需要小额捐款。`} />
+              <InfoRow label="地址" value={`Plaza de España, 1, 29400 Ronda, Málaga, España`} />
+              <InfoRow label="交通方式" value={`从最近的马拉加机场出发，最便捷的方式是乘坐直达巴士。在机场到达大厅外找到前往“Ronda”的巴士站牌，由ALSA公司运营。车程大约2小时，班次在白天较为频繁，约每2-3小时一班，建议提前在ALSA官网或App购票。如果从马拉加市中心火车站出发，可以选择火车，车程约1小时45分钟，沿途风景优美，穿过安达卢西亚的山丘，但班次较少，每天约3-4班。自驾是最灵活的方式，从马拉加沿A-357和A-367公路行驶约1.5小时，但龙达老城停车位紧张，建议将车停在城外的公共停车场。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`龙达的故事，是从大地的一道裂痕开始的。埃尔塔霍峡谷这道天堑，在史前时代就吸引了人类聚居，易守难攻。但真正让龙达登上历史舞台的，是罗马人。他们在峡谷一侧建立了阿鲁尼帕（Acinipo）定居点，你可以想象，那些穿着托加袍的罗马官员，也曾站在悬崖边，眺望着这片丰饶的谷地。罗马帝国衰落后，这里一度沉寂，直到摩尔人的到来。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`公元8世纪，摩尔人跨过直布罗陀海峡，将龙达变成了一个重要的独立王国（泰法王国）的首都。他们带来了精湛的水利技术、建筑智慧和哲学科学。摩尔王宫、阿拉伯浴场以及老城那迷宫般蜿蜒曲折的街道布局，都是那个辉煌时代的遗产。那时的龙达，是一座固若金汤的悬崖堡垒，城墙沿着峡谷边缘修建，清真寺的宣礼声在峡谷间回荡。基督教军队的收复失地运动，在龙达遇到了最顽强的抵抗之一。1485年，经过漫长的围城，天主教双王费尔南多和伊莎贝拉的军队终于进入了龙达。城头变幻大王旗，清真寺被改建为教堂，但摩尔文化的血液，早已深深融入了这座城市的肌理。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`时间的指针跳到18世纪，那道巨大的峡谷成了城市发展的桎梏。老城区（La Ciudad）空间有限，而较新的、建于罗马遗迹之上的麦地那区（Mercadillo）则在峡谷对面蓬勃发展。人们迫切需要一座可靠的桥。于是，从1751年开始，一场持续了40多年的工程壮举拉开了序幕。第一座桥建成仅6年便轰然倒塌，造成数十人丧生。直到1793年，我们现在看到的这座高达98米的三拱石桥——新桥（Puente Nuevo，尽管它已经不新了）——才最终竣工。它的落成，不仅连接了两个城区，更象征着一个新时代的开始。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这个新时代，与斗牛紧密相连。18世纪，龙达的罗梅罗家族，尤其是佩德罗·罗梅罗，在这里确立了现代斗牛的规则与仪式。他让斗牛从一种野蛮的厮杀，变成了一种讲究技巧、勇气与美感的“悲剧艺术”。龙达的斗牛场是西班牙最古老、最美丽的斗牛场之一，石砌的拱廊充满了庄严感。正是这种在悬崖边诞生的、直面死亡的美学，吸引了一位来自美国的作家——欧内斯特·海明威。他在《太阳照常升起》和《丧钟为谁而鸣》中深情地描绘了龙达，称其为“浪漫之城”、“最适合私奔的地方”。从此，龙达不再仅仅是西班牙的龙达，它成了全世界文艺青年心中一个闪着光的符号，一个关于极致、勇气与浪漫的梦想之地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`龙达的故事，要从它那不可思议的地形说起。早在罗马时代，人们就发现了这座天然要塞的价值，但真正让龙达在历史上留下深刻烙印的，是摩尔人。公元8世纪，摩尔人跨越直布罗陀海峡来到这里，他们一眼就看中了这座被峡谷分割、易守难攻的巨石山城。他们称这里为“Hisn Ar-Rundah”（城堡之城），并以此为据点，建立了一个繁荣的独立王国。在摩尔人统治的七百多年里，他们修建了复杂的灌溉系统，带来了先进的农业技术，也留下了至今仍让人惊叹的建筑遗产，比如那座保存完好的阿拉伯浴场。你走进去，依然能通过穹顶上星星形状的采光孔，感受到当年水汽氤氲、光影摇曳的宁静氛围。那时的龙达，是安达卢西亚山区一颗璀璨的伊斯兰明珠。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`转折发生在1485年，天主教双王伊莎贝拉和费尔南多的军队经过漫长围困，终于收复了龙达。这是收复失地运动中关键的一役。城破之后，摩尔人被驱逐或强制改宗，清真寺被改建为教堂，城市的信仰与文化底色彻底改变。但摩尔人的血液、建筑智慧和生活习惯，早已深深渗透进龙达的土壤与石墙里。你看那些老城区的狭窄巷弄、白色房子内隐藏的宁静庭院，无不带有浓郁的安达卢西亚-摩尔风格。龙达的肌理，是两种文明激烈碰撞后又缓慢融合的产物。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间的车轮滚到18世纪，龙达迎来了它另一个高光时刻，也与它最著名的地标——新桥息息相关。连接峡谷两岸的旧桥早已不堪重负，建造一座新桥势在必行。这项疯狂的工程从1751年启动，足足花了42年才完工，据说有数十名工人在施工中坠入深渊。当这座高达98米的巨石拱桥终于在1793年贯通时，它不仅连接了被峡谷撕裂的城镇，更象征着一个新时代的到来。新桥建成后，龙达新城开始蓬勃发展，城市格局被重新定义。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`几乎在同一时期，龙达的斗牛传统被一个家族推向了艺术的高度。这就是罗梅罗家族，特别是孙子佩德罗·罗梅罗。在他之前，斗牛更多是贵族骑士在马背上进行的、略显混乱的狩猎活动。是佩德罗·罗梅罗，他确立了斗牛士徒步、手持红布与公牛正面相对的基本规则与礼仪，将野蛮的搏杀升华为一种具有严格程式的“悲剧艺术”。他一生杀死了超过5000头公牛，却从未受过重伤，成了传奇。他出生的房子，如今是龙达街头一个不起眼的角落，但由他奠基的斗牛场，却成了全世界斗牛士心中的麦加。从此，龙达的标签里，除了“悬崖”，更烙下了“斗牛”二字。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，让龙达真正名扬国际的，则要归功于20世纪的文学与电影。海明威无疑是龙达最著名的“推销员”。他在《丧钟为谁而鸣》和《太阳照常升起》里多次深情描绘龙达，尤其是那座新桥。他写道：“龙达是整个西班牙最适合私奔的地方……整座城市，以及它目之所及的乡野，都充满了浪漫的情调。”他甚至将小说中的角色与龙达的斗牛士传奇联系起来。从此，全世界的文艺青年、冒险家和情侣们，都循着海明威的笔迹来到这里，寻找他笔下那种混合着危险与激情的浪漫。龙达，就这样从一座安达卢西亚的深山古城，变成了一个全球性的文化符号，一个关于孤独、勇气与爱情的永恒隐喻。`}</p>
             </div>
           </Section>
 
@@ -74,45 +77,45 @@ export default function RondaCliffTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`想要真正品味龙达，我强烈建议你至少住上一晚。一日游的喧嚣会在下午四五点后散去，那时，小镇才会露出它最本真、最宁静的面容。完美的深度游可以从午后开始，避开最灼热的阳光和最大的旅行团。第一天下午专注于峡谷西侧（麦地那区）的震撼观景和斗牛文化体验；傍晚走过新桥，去东侧老城区寻找摩尔人的痕迹和一顿悬崖晚餐。第二天清晨，在游客大军抵达前，独享新桥的晨光与宁静，并深入探访老城的细节。这样的节奏，既有足够的沉浸感，又不会太过匆忙。`}
+                  {`想要真正品味龙达，我强烈建议你留出完整的一天，并尽可能在上午9点前抵达。清晨的龙达最为宁静，阳光斜射，将新桥和白色房屋染成金色，峡谷里还飘着淡淡的晨雾，是拍照和感受其神圣氛围的黄金时间。整体游览节奏宜慢不宜快，可以分为两大板块：上午聚焦于峡谷与桥的震撼（自然奇观），下午沉浸于老城与斗牛场的历史人文。中午在老城找一家地道的餐厅享用漫长的安达卢西亚午餐，傍晚时分，一定要留出时间在峡谷边等待日落，那是龙达一天中最魔幻的时刻。这样的安排能让你从视觉震撼逐步深入到文化肌理，完整体验龙达的双重灵魂。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`务必穿一双绝对舒适的平底鞋，这里的上下坡和石板路对脚是真正的考验。午餐时间（下午2点后）和晚餐时间（晚上9点后）很多餐厅才热闹起来，调整好你的“西班牙时钟”。若想在高人气悬崖餐厅用餐，请务必提前几天预订。`}
+                  <strong>建议：</strong>{`中午12点到下午4点之间是大型旅游团抵达的高峰期，新桥和斗牛场会非常拥挤，尽量利用这个时间段在老城深处探索或享用午餐。小镇街道多上下坡且很多是鹅卵石路面，务必穿一双绝对舒适防滑的鞋子。在悬崖边所有观景台拍照和游览时，请务必看管好个人物品，手机相机拿稳，并注意脚下安全。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`午后抵达后，先别急着过桥，直接前往位于麦地那区的“龙达新桥观景台”，从最佳角度凝视那座横跨天堑的巨桥和对面悬崖上的白色老城。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`清早第一站直奔新桥，从桥两侧的观景台（Mirador de Aldehuela和Mirador de Ronda）感受峡谷令人腿软的深度和石桥凌空飞架的震撼。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`转身走进几步之遥的“龙达斗牛场”，用手触摸那黄色沙土，在双层石拱廊下想象佩德罗·罗梅罗当年划时代的一刺。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着标有“Camino de los Molinos”的小径往下走一段，从峡谷底部回望新桥，巨石的压迫感和建筑的宏伟会让你倒吸一口凉气。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从斗牛场出来，沿着阿尔米兰特街漫步，找一家有露台的咖啡馆坐下，点一杯本地葡萄酒，看夕阳如何一点点为白色的墙壁和远处的平原镀上金边。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过新桥进入老城区（La Ciudad），在迷宫般的白色小巷里随意迷失，用指尖触碰那些被阳光晒得温热的粗糙墙壁。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在日落前半小时，正式踏上“新桥”桥身，感受脚下峡谷穿过的风，并留意桥拱中央那个曾用作监狱的小房间。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`走进西班牙最古老的斗牛场，用手掌抚摸沙黄色的外墙，想象佩德罗·罗梅罗在沙地上划出的第一个优雅弧步。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`过桥后立刻右转，沿着“埃尔塔霍峡谷步道”向下走一小段，从另一个惊心动魄的角度仰视新桥那宛如从岩石中生长出来的巨大桥墩。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`参观完斗牛博物馆后，去隔壁的“海明威角”酒吧喝一杯，感受老爷子当年可能坐过的角落。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`步入老城区的核心，在“蒙德拉贡宫”的花园里感受摩尔贵族的气息，并探寻“摩尔王宫”那沿着悬崖开凿出的、通往谷底的神秘水阶梯。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`接着探访静谧的阿拉伯浴场，透过罗马式拱券和星形天窗，感受摩尔时代的生活智慧与宁静。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在老城迷宫般的小巷里随心所欲地迷路，经过鲜花装点的阳台和安静的广场，最后找一家“悬崖餐厅”，在星空和峡谷的背景下享用安达卢西亚晚餐。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`前往蒙德拉贡宫殿，站在它的混合式庭院里，体会基督教国王与摩尔建筑艺术的交融。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`第二天清晨，趁世界还未苏醒，再次走到新桥上，看第一缕阳光如何点亮峡谷的岩壁，听鸟儿在谷底鸣叫，享受这专属你一人的宁静时刻。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前，务必回到新桥附近的悬崖步道，找一张长椅坐下，看夕阳将整个峡谷和白色小镇点燃成炽烈的橙红色。`}</p>
                 </div>
               </div>
             </div>
@@ -122,22 +125,28 @@ export default function RondaCliffTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`新桥峡谷底部仰拍`}</h4>
-                  <p className="text-sm text-gray-700">{`从老城区一侧的“埃尔塔霍峡谷步道”向下走到第一个观景平台，在下午的光线下，用广角镜头仰拍，能将新桥的雄姿与峡谷的纵深完美结合，人物可置于画面一角以衬托巨大尺度。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`新桥峡谷底仰拍机位`}</h4>
+                  <p className="text-sm text-gray-700">{`从“Camino de los Molinos”小径向下走约15分钟，在一个相对开阔的拐弯处，使用广角镜头仰拍，能将整个桥体与一线天空纳入画面，最佳时间是正午前后，阳光能照亮部分桥底，显得气势恢宏。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`斗牛场拱门剪影`}</h4>
-                  <p className="text-sm text-gray-700">{`傍晚时分，站在斗牛场沙地中央，面向双层石拱廊，逆光拍摄穿过拱门的人物剪影，能捕捉到斗牛场神圣而沧桑的几何美感。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`桥拱门洞框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`站在新桥的桥拱之下，用拱门的巨石作为天然画框，拍摄对面悬崖上的白色房屋和老城墙，这个机位在下午侧光时效果绝佳，光影对比强烈。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`老城小巷俯拍全景`}</h4>
-                  <p className="text-sm text-gray-700">{`从新桥靠近老城一侧的“观景酒店”旁的小路向上走，找到一个可以回望新桥与老城白色建筑群的转角，用长焦镜头压缩空间，将教堂钟楼、白房子和新桥一同框进画面，最佳光线在日出后一小时。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`斗牛场沙地中心低角度`}</h4>
+                  <p className="text-sm text-gray-700">{`进入斗牛场沙地（如果允许），将相机贴近沙土，向上拍摄环绕的黄色阶梯看台和蓝天，这个角度极具张力，能拍出斗牛场的空旷与神圣感，建议在早晨或闭馆前游人稀少时尝试。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`悬崖餐厅夜景观`}</h4>
-                  <p className="text-sm text-gray-700">{`预订一家有露台的悬崖餐厅（如Don Miguel附近），在蓝调时刻（日落后半小时）使用三脚架，拍摄对岸麦地那区灯光渐次亮起、新桥被灯光打亮的梦幻夜景，可延长曝光时间让瓜达莱温河水雾化成丝绸状。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`阿尔米纳宫（Palacio del Rey Moro）花园露台`}</h4>
+                  <p className="text-sm text-gray-700">{`这里需要购票进入，但其花园下方的露台是俯瞰整个峡谷和远处平原的绝佳位置，尤其适合在日落前半小时拍摄，暖色调的光线会让整个场景如同油画。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`老城某条无名白巷尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`不必刻意寻找，在老城区随意拐进一条小巷，如果它的尽头正好是悬崖和远山，就构成了完美的纵深构图，等待一个当地人走过时按下快门，画面立刻充满故事感。`}</p>
                 </div>
               </div>
 
@@ -146,7 +155,7 @@ export default function RondaCliffTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`峡谷区域风大，拍摄时注意拿稳相机或使用三脚架并增加配重。尊重当地居民隐私，避免将镜头过分对准私人住宅的窗户和阳台。拍摄斗牛场内部时，尽量体现其建筑的历史感与庄严感。`}</li>
+                <li>• {`龙达的光线在日出后一小时和日落前一小时最为柔和迷人，能拍出石头温暖的质感和丰富的阴影细节。峡谷风景宏大，携带一个广角镜头非常必要。请注意，在斗牛场内部，使用三脚架或进行专业商业拍摄可能需要事先申请许可，普通游客拍照则无限制。`}</li>
               </ul>
             </div>
           </Section>
@@ -155,32 +164,70 @@ export default function RondaCliffTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`特色体验之选`}</h4>
-                  <p className="text-sm text-blue-800">{`由18世纪贵族宅邸改造的精品酒店，房间拥有原始的石头墙壁和木梁，部分带能俯瞰峡谷的私人露台，晚上在庭院里能听到流水声。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济之选`}</h4>
+                  <p className="text-sm text-blue-800">{`老城中心一家由古老宅邸改建的家庭旅馆，房间小巧但充满个性，老板娘会为你手绘一张只有当地人才知道的美食地图，清晨在公共阳台上就能看到峡谷晨光。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`历史宫殿酒店`}</h4>
-                  <p className="text-sm text-green-800">{`坐落于老城中心宁静广场上的古老宫殿内，内部装饰是优雅的安达卢西亚风格，拥有一个隐秘的室内泳池和能看到教堂钟楼的花园。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`直接建在悬崖边缘的精品酒店，部分房间带有一个小小的悬空露台，让你在私密空间里就能独享万丈深渊的景色，晚上枕着峡谷的风声入眠。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`悬崖观景民宿`}</h4>
-                  <p className="text-sm text-yellow-800">{`当地家庭经营的民宿，位置就在新桥旁，虽然房间不大，但主人热情好客，早餐的西班牙土豆饼堪称一绝，并且那个小小的阳台 view 是无价之宝。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`一座由18世纪贵族庄园改造的五星级酒店，拥有宁静的内庭花园和泳池，客房保留了原始的实木横梁和石墙，提供顶级的安达卢西亚美食，服务细致入微。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`设计型酒店`}</h4>
-                  <p className="text-sm text-purple-800">{`位于新城区一栋经过彻底改造的现代建筑内，设计极简而充满艺术感，屋顶的无边泳池正对峡谷和新桥，是拍摄日落大片和享受安静夜晚的绝佳地点。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`浪漫隐居`}</h4>
+                  <p className="text-sm text-purple-800">{`位于峡谷对面、需要步行一段距离的乡间别墅，这里安静至极，拥有无遮挡的、正面朝向龙达新桥和老城的全景视野，是观赏日落和星空的最佳据点。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`悬崖边的酒店和民宿 view 虽好，但夏季可能有蚊虫，且价格昂贵需提早数月预订。老城区内酒店车辆无法直达，需步行一段石板路搬运行李。新城区住宿更现代便捷，且性价比通常更高，步行到核心景点也不过10-15分钟。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`龙达非常安全，治安良好。但需要注意的是，许多老房子改建的酒店没有电梯，携带大件行李会有些吃力。由于龙达是热门目的地，尤其是春秋两季和周末，悬崖景观房非常紧俏，务必提前数月预订才能锁定心仪的房型。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开龙达许久，那种双脚踩在坚实大地，而视线却漂浮在百米深渊之上的分裂感，依然会不时造访我。这或许就是龙达留下的最深的印记：它教会我们在同一个地方，同时体验安全与危险、扎根与飞翔。它不是一个让你仅仅“看到”风景的明信片小镇，它是一个让你用全身心去“感受”重力、风、历史与当下的地方。当你的手心因为站在桥边而微微出汗时，你便与几个世纪以来所有站在这里的旅人、恋人、战士和艺术家产生了连接。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率、喜欢将一切扁平化的快节奏时代，龙达固执地保持着它的垂直维度与矛盾气质。它提醒我们，真正的浪漫并非只有温柔甜美，而是包含了面对深渊的勇气、连接天堑的智慧，以及在绝境中依然开出的日常之花。来这里，不只是为了拍一张打卡照片，更是为了体验一种生命状态——在悬崖边缘，依然能够从容地生活、热爱并创造美。这，正是每一位渴望深度触摸世界纹理的旅人，必须来龙达亲自上一课的原因。它会让你心头一紧，然后，豁然开朗。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开龙达许久，那种双脚踩在坚实大地、目光却坠入无尽深渊的奇妙感觉，依然会不时浮现。它教会我的，是一种关于“边缘”的哲学。这里的一切都发生在边缘：城市建在地壳的裂缝之上，文明处在基督教与伊斯兰教的交锋地带，艺术诞生于人与野兽、生命与死亡的残酷边界。龙达的美，从来不是温和恬淡的，它始终带着一丝惊险，一丝决绝，就像斗牛士手中那方精准挥动的红布。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率、沉迷于虚拟世界的时代，龙达像一块固执的、沉重的磐石。它不提供便捷的舒适，却给予你久违的“真实感”——岩石的粗糙，高度的晕眩，历史的层叠，阳光的灼热。它让你重新用身体去感知空间，用心灵去丈量时间。当你站在那座桥中央，听着风声呼啸而过，你会明白，有些地方存在的意义，就是为了提醒我们：世界仍有惊心动魄的壮丽，人类文明仍有如此深沉而复杂的纹路。这不仅仅是一次旅行，更像一次对感官和认知的唤醒。每一位渴望深度体验的旅人，都该来龙达上一次这堂关于“边缘与存在”的必修课，它会在你心里，刻下一道如同埃尔塔霍峡谷般深刻的印记。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/avila-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿维拉古城墙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ávila Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alquezar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔克萨尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alquézar</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/royal-monastery-of-santa-maria-de-guadalupe" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瓜
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓜达卢佩圣玛利亚皇家修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Royal Monastery of Santa María de Guadalupe</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

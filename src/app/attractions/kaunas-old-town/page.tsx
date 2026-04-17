@@ -1,313 +1,229 @@
-import { notFound } from "next/navigation";
-import Link from "next/link";
-import type { Metadata } from "next";
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: "考纳斯老城 (Kaunas Old Town)",
-  description: "考纳斯老城详细游览指南 - 立陶宛现存最完整、规模最大的中世纪老城，波罗的海地区重要的历史文化地标",
-  openGraph: {
-    title: "考纳斯老城 — Kaunas Old Town",
-    description: "考纳斯老城详细游览指南 - 立陶宛现存最完整、规模最大的中世纪老城",
-    type: "article",
-    siteName: "Best European Spots",
-  },
-};
-
-function Section({
-  title,
-  number,
-  children,
-}: {
-  title: string;
-  number: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section className="py-8 border-b border-border last:border-b-0">
-      <div className="flex items-baseline gap-3 mb-4">
-        <span className="text-xs font-bold text-accent bg-accent/10 w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0">
-          {number}
-        </span>
-        <h2 className="text-xl font-semibold text-primary">{title}</h2>
-      </div>
-      <div className="pl-10">{children}</div>
-    </section>
-  );
-}
-
-function InfoRow({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="flex gap-4 py-3 border-b border-border/50 last:border-b-0">
-      <span className="text-sm font-medium text-muted w-24 flex-shrink-0">
-        {label}
-      </span>
-      <span className="text-sm text-foreground leading-relaxed">{value}</span>
-    </div>
-  );
-}
-
-function Breadcrumb() {
-  return (
-    <nav className="flex items-center gap-2 text-sm text-muted">
-      <Link href="/" className="hover:text-primary transition-colors">
-        Home
-      </Link>
-      <span className="text-muted-light">/</span>
-      <Link href="/#destinations" className="hover:text-primary transition-colors">
-        Destinations
-      </Link>
-      <span className="text-muted-light">/</span>
-      <span className="text-primary font-medium truncate max-w-[200px]">
-        考纳斯老城
-      </span>
-    </nav>
-  );
+  title: '考纳斯老城 Kaunas Old Town｜立陶宛的现代之心与中世纪之魂 - 最佳欧洲景点',
+  description: '朋友，想象一下，你从一条宽阔的、种满菩提树的现代林荫大道（他们叫它自由大道）突然拐进一条窄窄的、用鹅卵石铺成的小巷。脚底的感觉立刻不同了，那些被几个世纪的雨水和脚步打磨得光滑圆润的石头，会让你的步伐不自觉放慢。空气里的味道也变了，刚出炉的“基贝林”馅饼的焦香，从一扇黄色的木门里飘出来，混合着老建筑石...',
 }
 
 export default function KaunasOldTownPage() {
-  const color = "#8b0000"; // Balkans & Eastern Europe color
-
   return (
-    <article className="min-h-screen">
-      <div
-        className="relative h-64 sm:h-80"
-        style={{
-          background: `linear-gradient(135deg, ${color} 0%, ${color}99 50%, ${color}55 100%)`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black/20" />
-        <div className="absolute inset-0 flex items-end">
-          <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 pb-8">
-            <div className="flex flex-wrap gap-2 mb-4">
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                Old Town
-              </span>
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                巴尔干・东欧
-              </span>
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '考纳斯老城', href: '/attractions/kaunas-old-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`考纳斯老城・Kaunas Old Town・立陶宛・考纳斯`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下，你从一条宽阔的、种满菩提树的现代林荫大道（他们叫它自由大道）突然拐进一条窄窄的、用鹅卵石铺成的小巷。脚底的感觉立刻不同了，那些被几个世纪的雨水和脚步打磨得光滑圆润的石头，会让你的步伐不自觉放慢。空气里的味道也变了，刚出炉的“基贝林”馅饼的焦香，从一扇黄色的木门里飘出来，混合着老建筑石头墙根淡淡的苔藓湿气。你的第一印象不会是那种令人屏息的、教科书式的壮观，而是一种被生活紧紧包裹的亲切感。穿着时髦的年轻人坐在露天咖啡座摆弄着苹果电脑，隔壁可能就是一座有着精美山墙的16世纪商人宅邸。
+这就是考纳斯老城，它不像一位端坐在王座上的威严老者，更像一个穿着复古西装却打着鲜艳领带的翩翩绅士，身上同时散发着历史的醇厚与现代的活力。它的核心魅力，就在于这种奇妙的“分层感”。你的眼睛可以同时看到：中世纪城堡残垣的粗粝红砖，巴洛克教堂立面繁复到令人眼花缭乱的灰泥装饰，还有那些线条简洁、几何感强烈、被漆成明亮黄、绿或蓝色的现代主义建筑。它们挤在一起，非但不打架，反而像在聊天。
+最打动人心的是，这里依然是活生生的城市客厅。市政厅广场（当地人昵称“白天鹅”，因为那座纯白色的文艺复兴式市政厅）上，永远不缺人。白天，游客在喷泉边拍照，小贩推着卖琥珀和亚麻制品的小车；黄昏时分，下班的人匆匆穿过，学生们聚在长椅上分享一瓶啤酒；周末的清晨，或许你能撞见一场即兴的小型音乐会，手风琴的声音在古老的立面之间清脆地回荡。在这里，历史不是被供在玻璃柜里的标本，而是你脚下踩着的石头，耳边听到的方言，和手里那杯带着本地蜂蜜味的格瓦斯饮料。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，想象一下，你从一条宽阔的、种满菩提树的现代林荫大道（他们叫它自由大道）突然拐进一条窄窄的、用鹅卵石铺成的小巷。脚底的感觉立刻不同了，那些被几个世纪的雨水和脚步打磨得光滑圆润的石头，会让你的步伐不自觉放慢。空气里的味道也变了，刚出炉的“基贝林”馅饼的焦香，从一扇黄色的木门里飘出来，混合着老建筑石头墙根淡淡的苔藓湿气。你的第一印象不会是那种令人屏息的、教科书式的壮观，而是一种被生活紧紧包裹的亲切感。穿着时髦的年轻人坐在露天咖啡座摆弄着苹果电脑，隔壁可能就是一座有着精美山墙的16世纪商人宅邸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这就是考纳斯老城，它不像一位端坐在王座上的威严老者，更像一个穿着复古西装却打着鲜艳领带的翩翩绅士，身上同时散发着历史的醇厚与现代的活力。它的核心魅力，就在于这种奇妙的“分层感”。你的眼睛可以同时看到：中世纪城堡残垣的粗粝红砖，巴洛克教堂立面繁复到令人眼花缭乱的灰泥装饰，还有那些线条简洁、几何感强烈、被漆成明亮黄、绿或蓝色的现代主义建筑。它们挤在一起，非但不打架，反而像在聊天。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的是，这里依然是活生生的城市客厅。市政厅广场（当地人昵称“白天鹅”，因为那座纯白色的文艺复兴式市政厅）上，永远不缺人。白天，游客在喷泉边拍照，小贩推着卖琥珀和亚麻制品的小车；黄昏时分，下班的人匆匆穿过，学生们聚在长椅上分享一瓶啤酒；周末的清晨，或许你能撞见一场即兴的小型音乐会，手风琴的声音在古老的立面之间清脆地回荡。在这里，历史不是被供在玻璃柜里的标本，而是你脚下踩着的石头，耳边听到的方言，和手里那杯带着本地蜂蜜味的格瓦斯饮料。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`考纳斯老城`} />
+                <InfoRow label="英文名称" value={`Kaunas Old Town`} />
+                <InfoRow label="正式名称" value={`Kaunas Old Town`} />
+                <InfoRow label="国家" value={`立陶宛`} />
+                <InfoRow label="城市" value={`考纳斯`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`立陶宛在两次世界大战期间的临时首都，其历史核心是立陶宛民族精神与文化韧性最生动的见证。`} />
+                <InfoRow label="建筑特色" value={`内里斯河与尼曼河交汇处山丘上的红色砖石城堡，与山下棋盘格布局的老城广场、蜿蜒的鹅卵石街巷，共同构成一幅错落有致的立体画卷。`} />
+                <InfoRow label="建筑风格" value={`哥特式、文艺复兴式、巴洛克式建筑与20世纪早期现代主义（尤其是独特的考纳斯现代主义）建筑惊人地和谐共存。`} />
+                <InfoRow label="文化价值" value={`不仅是中世纪古城，更是20世纪初立陶宛民族复兴和现代国家构建时期的“青春首都”，充满了先锋艺术与独立精神的烙印。`} />
+              </div>
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">
-              考纳斯老城
-            </h1>
-            <p className="text-lg text-white/80">
-              Kaunas Old Town · 立陶宛 · 考纳斯
-            </p>
-          </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`公共区域（街道、广场）全天开放。内部各景点开放时间不一：考纳斯城堡博物馆夏季（5-9月）10:00-18:00，冬季（10-4月）周二至周日10:00-17:00，周一闭馆；圣彼得与圣保罗大教堂通常在白天开放，具体时间建议现场查看；众多小型画廊、咖啡馆和店铺的营业时间通常在10:00-20:00之间。节假日部分场所可能缩短营业时间或关闭。`} />
+              <InfoRow label="门票价格" value={`漫步老城街道与广场免费。进入单个景点需购票：考纳斯城堡博物馆成人票约6欧元，学生票半价；市政厅塔楼观景台约3欧元；其他博物馆和教堂门票一般在2-6欧元区间。强烈推荐购买“考纳斯文化卡”（Kaunas City Card），可无限次乘坐公共交通并免费或折扣进入绝大多数景点，24小时卡约15欧元，非常超值。`} />
+              <InfoRow label="地址" value={`市政厅广场周边区域，主要围绕 Vilniaus g. 和 Laisvės al. 街道，考纳斯，立陶宛，邮编 LT-44280`} />
+              <InfoRow label="交通方式" value={`从考纳斯国际机场（KUN）出发：乘坐29路公交车直达市中心“火车站”（Geležinkelio Stotis）附近，车程约25分钟，班次每小时1-2班，票价约1欧元，上车向司机购票。从维尔纽斯乘火车或巴士：火车约1.5小时，巴士约1.2小时，班次频繁，抵达考纳斯中央车站或巴士总站后，步行15-20分钟或搭乘任一开往市中心方向的公交车（如5路、12路）即可到达老城边缘。老城内部最适合步行探索。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`考纳斯的故事，始于一场战略联姻。不过，联姻的不是王子公主，而是两条河——内里斯河与尼曼河。早在13世纪，立陶宛大公们就在这两河交汇处的制高点上，用坚固的橡木建起了第一座堡垒，用来抵御条顿骑士团的猛烈进攻。到了14世纪，石头城堡取代了木堡，那座红色的、有着巨大圆形塔楼的考纳斯城堡，至今仍守卫着河岸，虽然只剩下残躯，但它斑驳的墙体里，锁着立陶宛大公国与十字军血战的呐喊声。城堡脚下，商人、手工艺人逐渐聚集，形成了方格网布局的城镇，这就是老城的雏形。你可以想象，中世纪的这里，码头上停满了运载着木材、蜂蜡和毛皮的船只，市场上充斥着各种语言，是个热闹的边境贸易中心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，让考纳斯命运发生戏剧性转折的，是20世纪的风云。第一次世界大战后，立陶宛宣布独立，但首都维尔纽斯地区被波兰占领。就在这时，不那么起眼的、地处国家地理中心的考纳斯，被推上了历史的前台。从1919年到1939年，它成了立陶宛的“临时首都”。这二十年，是考纳斯乃至整个立陶宛的“黄金青春期”。政府机关、外国使馆、大学、剧院、报社如雨后春笋般涌现。最重要的是，一大批受过良好教育、满怀建国热情的建筑师、艺术家和知识分子汇聚于此，他们急于为这个新生的国家塑造一个现代形象。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，一场建筑革命在老城的边缘和新区悄然发生。他们没有推倒旧世界，而是在旁边建造新世界。受当时德国包豪斯和法国装饰艺术运动的影响，一种被称为“考纳斯现代主义”的独特风格诞生了。这些建筑摒弃了古典的繁复，采用流畅的曲线、水平的带状窗、几何图案的浮雕，以及大胆的、象征乐观主义的明亮色彩。你能在自由大道两侧看到它们最集中的展示：一座银行大楼的立面可能装饰着象征工业的齿轮图案，一座公寓的门厅里藏着线条优雅的螺旋楼梯。这段时期，考纳斯从一个中世纪商贸小镇，一跃成为波罗的海地区现代主义建筑的宝库，空气中弥漫着自由、创造和未来的味道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当然，美好的时光总是易碎。第二次世界大战和紧随其后的苏联占领，给这座城市带来了深重的创伤。犹太社区被摧毁，知识分子遭到迫害，许多现代主义建筑被挪作他用，积满灰尘。在苏联时期，考纳斯成为了重要的工业中心，老城的许多角落不可避免地显得灰暗和破败。但即便在最压抑的年代，那份深植于石头和血液中的独立精神也未曾熄灭。考纳斯一直是立陶宛民族抵抗运动的重要温床。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`直到1990年立陶宛再次恢复独立，考纳斯老城开始了缓慢而坚定的修复与复兴。人们不仅精心修缮了中世纪的教堂和广场，更重新发现了那些被遗忘的现代主义杰作，将它们从仓库和办公室变回住宅、画廊和设计酒店。今天，当你漫步其中，你走过的每一段路，都重叠着至少三层历史：中世纪立陶宛大公国的、战间期青春共和国的、以及当代重获新生的立陶宛的。这种穿越时空的对话感，是考纳斯最独一无二的叙事。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味考纳斯的层次，建议留出一整天时间，从清晨开始。早上9点前抵达市政厅广场，此时游客未至，阳光斜射在“白天鹅”建筑上，最适合感受老城苏醒的宁静。然后以广场为圆心，先深入中世纪街巷，触摸砖石的古老体温；午后，将重心转向自由大道及周边的现代主义建筑群，体会20世纪的先锋脉搏；傍晚时分，登上城堡山或市政厅塔楼，在金色的夕阳下俯瞰两河交汇与全城景色，将历史的各个层次尽收眼底。这样的节奏张弛有度，由古及今，能让你最完整地体验考纳斯的时空交响。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周六上午市政厅广场常有热闹的创意市集，是淘手工纪念品和与当地人交流的好时机，但也会比较拥挤。自由大道上的现代主义建筑内部很多仍是私人住宅或办公室，参观时请保持安静，不要擅闯。考纳斯的天气多变，即便是夏天，傍晚河边也可能起风，记得带一件薄外套。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从市政厅广场的“白天鹅”脚下出发，绕着它走一圈，欣赏每一面墙上不同时期留下的建筑装饰细节`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`随意钻进一条向东延伸的鹅卵石小巷，比如Vilniaus街，让好奇心带领你发现那些隐藏在颜色柔和的门脸后的独立设计师小店或迷你画廊`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`务必推开圣彼得与圣保罗大教堂那扇厚重的大门，走进去，让你的眼睛在昏暗光线中适应，然后猛然抬头，被那令人震撼的、拥有大量巴洛克灰塑装饰的高耸白色内殿所击中`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着步行街一直走到老城的东端，在帕涅韦日斯街附近寻找那面著名的、绘有考纳斯历史人物的巨大彩色壁画墙，它是老城现代活力的绝妙注脚`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从老城漫步至宽阔的自由大道，放慢脚步，像个建筑侦探一样，仔细打量大道两侧那些线条简洁、色彩明快的战间期现代主义建筑立面和入口`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拜访大道旁的“魔鬼博物馆”，这个古怪又迷人的收藏会让你从另一个角度理解立陶宛的民间灵魂和黑色幽默`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前一个小时，沿着内里斯河岸散步走到考纳斯城堡下，从河对岸欣赏城堡、老城屋顶与教堂尖顶共同勾勒出的经典天际线`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后回到市政厅广场，找一家有露天座位的餐厅，点一份土豆饺子或冷甜菜汤，看着广场的灯光逐一亮起，融入夜晚的本地人群之中`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`市政厅广场东南角仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在广场东南角的鹅卵石地面上，用广角镜头仰拍纯白色的市政厅塔楼，将一部分古老的石头街道纳入前景，构图充满古典的纵深感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`Vilniaus街与Maironio街交叉口`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光西斜时，站在路口，拍摄色彩斑斓的联排建筑立面与蜿蜒的鹅卵石道路形成的和谐曲线，捕捉行人走过的动态瞬间。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`自由大道中段的人行天桥上`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，走上天桥，向西拍摄自由大道笔直延伸的透视景观，两侧的现代主义建筑在温暖侧光下轮廓分明，极具韵律感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`考纳斯城堡对面的内里斯河岸`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏蓝调时刻，在城堡对面的河岸边，用长焦镜头压缩空间，拍摄城堡红砖塔楼、后方老城建筑以及水面倒影共同构成的静谧画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`立陶宛人普遍对拍照很友善，但拍摄私人住宅窗户或室内时请务必征得同意。教堂内部通常允许非闪光灯摄影，但举行仪式时请绝对保持安静并避免拍照。利用考纳斯多云的天气，云层可以成为戏剧性天空的完美背景。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`文艺青年之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在老城一栋经过修复的战间期现代主义公寓楼里，房间有高高的天花板、原始的拼花地板和复古家具，窗外就是宁静的庭院。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`历史沉浸体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择市政厅广场旁由16世纪贵族宅邸改造的精品酒店，躺在四柱床上就能听到广场上传来的钟声，石墙的厚度保证了你一夜安眠。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计爱好者天堂`}</h4>
+                  <p className="text-sm text-yellow-800">{`自由大道附近一栋地标性现代主义建筑内的设计酒店，每个房间都独一无二，家具是立陶宛本土设计师的作品，本身就是一场美学之旅。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`河景静谧处`}</h4>
+                  <p className="text-sm text-purple-800">{`内里斯河对岸一栋安静的家庭式民宿，主人会为你准备丰盛的立陶宛早餐，从房间窗户望出去，考纳斯城堡和老城全景就像一幅活动的油画。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城中心的住宿夜晚可能会听到酒吧传来的轻微声响，浅眠者可以选择靠近自由大道内侧或河岸的住处。考纳斯的旅游旺季是夏季和圣诞市场期间，这些时段的特色住宿非常紧俏，务必提前数月预订。城市治安良好，夜晚独行也感觉安全。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开考纳斯好些日子了，我脑海里反复出现的，不是某个具体的建筑画面，而是一种感觉。那是一种在厚重历史中轻盈穿行的自由感。你在这里永远不会感到历史的压迫，因为它从未死去，它被喝进了咖啡里，画在了墙上，穿在了年轻人的身上。考纳斯老城教会我，一座城市的伟大，不在于它保存了多少完美的古迹，而在于它如何让所有的时代痕迹——荣耀的、伤痛的、实验的、平凡的——都继续呼吸，并彼此对话。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求崭新和同质化的世界里，考纳斯像一颗有着复杂切面的宝石。它提醒我们，民族的身份不是单一的，它可以同时是中世纪骑士的后裔、战间期满怀理想的现代主义者、以及今天拥抱欧盟的欧洲公民。来这里，你不是参观一个景点，而是阅读一部立陶宛民族的立体自传。它或许没有巴黎的浪漫或罗马的恢弘，但它有的，是那种在逆境中开出创新之花的韧性，是那种将过去与未来编织进日常生活的智慧。对于任何厌倦了浮光掠影、渴望触摸一个地方真实灵魂的旅人来说，考纳斯老城都是一次必须的、深度的抵达。你会带走的故事，远比你拍下的照片要丰富得多。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/vilnius-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维尔纽斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vilnius Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/klaipeda-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克莱佩达老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Klaipėda Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kernav--archaeological-site" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克尔纳韦</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kernavė</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
         </div>
       </div>
-
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Breadcrumb />
-
-        <div className="mt-8">
-          <Section number="1" title="景点简介">
-            <p className="text-base leading-relaxed text-foreground/90">
-              考纳斯老城坐落于立陶宛第二大城市考纳斯，地处涅里斯河与涅曼河交汇处，是立陶宛现存最完整、规模最大的中世纪老城，也是波罗的海地区重要的历史文化地标。老城以鹅卵石街巷为脉络，遍布哥特式、巴洛克式等多种风格的历史建筑，融合了千年历史底蕴与现代生活气息，漫步其中，仿佛能穿越时光，感受立陶宛的过往与当下，是体验当地人文风情的核心之地。
-            </p>
-          </Section>
-
-          <Section number="2" title="基本信息">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow 
-                label="开放时间" 
-                value="考纳斯老城整体全天免费开放，无统一闭园时间，街区内的商铺、餐厅通常9:00-21:00营业；老城内部景点（教堂、博物馆、城堡等）开放时间各异，具体以现场公示或官方网站为准。" 
-              />
-              <InfoRow 
-                label="门票价格" 
-                value="老城街区本身无门票，免费对外开放；内部景点单独收费，考纳斯城堡成人2.5欧元，学生、老人1.2欧元；魔鬼博物馆成人3欧元，学生半价，9月1日-次年6月1日每周三免费；圣彼得和圣保罗大教堂免费开放，建议自愿捐赠；其他小型博物馆、教堂多为免费或低价（1-2欧元）。" 
-              />
-              <InfoRow 
-                label="详细地址" 
-                value="Kaunas Old Town, Kaunas 44239, Lithuania（核心区域围绕维尔纽斯街Vilniaus g.展开，地处涅里斯河与涅曼河交汇处，毗邻桑塔卡公园Santaka Park）。" 
-              />
-              <InfoRow 
-                label="交通方式" 
-                value="外部交通方面，可乘坐飞机抵达考纳斯国际机场，机场有大巴直达老城附近，车程约30分钟；乘坐火车可抵达考纳斯中央火车站，步行15-20分钟即可进入老城；立陶宛国内可乘坐长途大巴往返考纳斯与维尔纽斯等城市，大巴站距离老城约10分钟步行路程。市内交通方面，老城内部适合步行游览，街巷狭窄且多为步行街，禁止机动车通行；周边可乘坐2路复古电车、公交1、2、5等线路抵达老城入口，也可租用Voi共享滑板车便捷出行。" 
-              />
-            </div>
-          </Section>
-
-          <Section number="3" title="历史背景">
-            <div className="space-y-6 text-foreground leading-relaxed">
-              <p>
-                考纳斯老城的历史可追溯至公元10世纪，最初是作为军事要塞兴起于涅里斯河与涅曼河的交汇处，凭借得天独厚的地理位置，成为当时立陶宛东部重要的交通枢纽和军事据点。1317年，考纳斯正式获得城市地位，1408年获得自治宪章，此后逐渐发展成为立陶宛的政治、经济和文化中心，也是波罗的海地区重要的贸易中转站，频繁的贸易往来让老城融合了多种文化元素，建筑风格也逐渐丰富起来。
-              </p>
-              <p>
-                中世纪时期，考纳斯老城是立陶宛抵御外敌的重要屏障，考纳斯城堡作为核心防御设施，见证了无数次战争与纷争，尤其是与条顿骑士团的多次交锋，城堡的高耸塔楼和深深沟堑，都是当时军事防御需求的直接体现。1569年，立陶宛与波兰合并后，考纳斯老城迎来了一段繁荣时期，贸易的兴盛带动了建筑、艺术的发展，大量哥特式、巴洛克式建筑拔地而起，包括圣彼得和圣保罗大教堂在内的诸多标志性建筑均建于这一时期。
-              </p>
-              <p>
-                1795年，随着波兰第三次瓜分，考纳斯被并入俄罗斯帝国，老城的发展受到一定影响，1812年拿破仑大军入侵时，老城遭到严重破坏，许多历史建筑受损。19世纪后期，随着铁路的修建，考纳斯重新崛起，成为立陶宛重要的工业和商业中心，老城也逐渐恢复生机，部分受损建筑得到修复。1920年至1940年，考纳斯成为立陶宛的临时首都，这一时期，老城不仅是政治中心，更是立陶宛民族文化的聚集地，承载着民族复兴的希望，许多文化机构、博物馆在此设立。
-              </p>
-              <p>
-                二战期间，考纳斯老城再次遭受重创，大量历史文物被损毁，建筑也受到不同程度的破坏。苏联统治时期，老城的部分建筑被改造，但其核心格局和主要历史建筑得以保留，成为立陶宛民族文化的重要载体。1990年立陶宛独立后，政府对考纳斯老城进行了大规模的修复和保护，严格遵循"修旧如旧"的原则，恢复了老城的中世纪风貌，如今，考纳斯老城已成为立陶宛重要的旅游胜地，吸引着来自世界各地的游客，每一座建筑、每一条街巷，都镌刻着立陶宛千年的历史记忆。
-              </p>
-            </div>
-          </Section>
-
-          <Section number="4" title="游览路线">
-            <div className="space-y-6">
-              <p className="text-sm text-foreground leading-relaxed">
-                考纳斯老城面积不大，核心区域直径约2公里，建议安排1天时间深度游览，以下为经典步行游览路线，可全面感受老城的历史底蕴与人文风情，路线全程约5公里，耗时6-7小时，中途可随时在街边餐厅、咖啡馆休息。
-              </p>
-
-              <div className="bg-surface rounded-lg p-5">
-                <h3 className="text-lg font-semibold text-primary mb-4">经典步行游览路线</h3>
-                <div className="space-y-3 text-sm text-foreground leading-relaxed">
-                  <p><strong>起点：考纳斯中央火车站</strong>→步行15分钟抵达老城入口（维尔纽斯街起点）</p>
-                  
-                  <p><strong>第一站：考纳斯市政厅</strong>（俗称"白天鹅"，巴洛克式建筑，可参观内部陶艺博物馆，登顶塔楼俯瞰老城全景）</p>
-                  
-                  <p><strong>第二站：圣彼得和圣保罗大教堂</strong>（立陶宛最大的哥特式教堂，内部为文艺复兴巴洛克式装饰，感受宗教艺术的魅力）</p>
-                  
-                  <p><strong>第三站：维尔纽斯街漫步</strong>（老城主干道，鹅卵石铺路，两侧是色彩鲜艳的中世纪建筑，途经各类商铺、咖啡馆和小型博物馆）</p>
-                  
-                  <p><strong>第四站：考纳斯城堡</strong>（老城最古老的建筑，参观城堡博物馆，欣赏涅里斯河与涅曼河交汇处的风景，建议在城堡外围公园稍作休息）</p>
-                  
-                  <p><strong>第五站：桑塔卡公园</strong>（双河交汇处的休闲公园，可漫步河边，感受老城的自然之美）</p>
-                  
-                  <p><strong>第六站：魔鬼博物馆</strong>（世界上唯一以魔鬼为主题的博物馆，收藏了3000余件相关藏品，感受独特的民俗文化）</p>
-                  
-                  <p><strong>第七站：迈罗尼斯立陶宛文学博物馆</strong>（了解立陶宛文学发展史，感受当地文化底蕴）</p>
-                  
-                  <p><strong>终点：维陶塔斯大桥</strong>（老桥，感受"跨越13天"的历史趣闻，远眺老城全景）。</p>
-                </div>
-                
-                <div className="mt-4 p-3 bg-primary-light rounded-lg">
-                  <p className="text-sm text-foreground leading-relaxed">
-                    <strong>温馨提示：</strong>游览时可根据自身兴趣调整节奏，若喜欢安静，可在桑塔卡公园多停留片刻，欣赏双河交汇的静谧风光；若对历史文物感兴趣，可重点参观考纳斯城堡和魔鬼博物馆，建议提前查询各景点开放时间，避免错过参观机会。此外，老城街巷错综复杂，偶尔迷路也是一种惊喜，不经意间就能发现隐藏的小众建筑和特色商铺。
-                  </p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="5" title="拍照机位">
-            <div className="space-y-6">
-              <p className="text-sm text-foreground leading-relaxed">
-                考纳斯老城建筑风格多样，色彩丰富，街巷错落有致，是拍照出片的绝佳之地，以下推荐几个经典拍照机位，涵盖全景、建筑细节、人文风情等不同风格，无论是手机还是相机，都能拍出高质量照片。
-              </p>
-
-              <div className="grid gap-6">
-                <div className="bg-surface rounded-lg p-5">
-                  <h3 className="text-lg font-semibold text-primary mb-3">经典拍照机位</h3>
-                  <div className="space-y-3 text-sm text-foreground leading-relaxed">
-                    <p><strong>1. 考纳斯市政厅塔楼：</strong>这是拍摄老城全景的最佳机位，登顶塔楼后，可360度俯瞰老城的全貌，鹅卵石街巷纵横交错，彩色的中世纪建筑错落排列，远处的涅里斯河蜿蜒流淌，尤其是清晨或傍晚，光线柔和，能拍出老城的静谧与古朴，建议避开正午强光时段。</p>
-                    
-                    <p><strong>2. 考纳斯城堡护城河旁：</strong>城堡的红砖墙与护城河、周边的蒲公英草地构成了极具童话感的画面，蹲下用广角镜头拍摄，可突出城堡的雄伟与草地的柔美，搭配蓝天或晚霞，氛围感拉满；也可拍摄城堡塔楼的特写，捕捉建筑的细节纹理，展现中世纪军事建筑的厚重感。</p>
-                    
-                    <p><strong>3. 维尔纽斯街中段：</strong>作为老城的主干道，这里的鹅卵石街道、色彩鲜艳的巴洛克式建筑的是拍照的核心场景，可选择街道中间的位置，拍摄建筑的对称画面，或漫步时抓拍动态瞬间，搭配街边的鲜花、路灯，充满生活气息；也可拍摄建筑的门窗细节，雕花、彩绘等元素都极具特色。</p>
-                    
-                    <p><strong>4. 维陶塔斯大桥观景台：</strong>从大桥上可拍摄老城的侧景，远处的教堂尖顶、城堡塔楼与涅里斯河相映成趣，尤其是傍晚时分，夕阳洒在河面上，波光粼粼，老城建筑被镀上一层金边，氛围感十足；也可拍摄大桥本身，搭配"跨越13天"的历史背景，更具故事感。</p>
-                    
-                    <p><strong>5. Aleksotas索道观景台：</strong>乘坐索道上山后，这里是全考纳斯视线最好的观景台，坐南朝北，除正午外光线都很适宜，可拍摄老城的全景，左侧是密集的老城建筑，右侧是宽阔的涅曼河，建议早上去拍摄，光线柔和，还能捕捉到老城的晨雾，氛围感更佳。</p>
-                    
-                    <p><strong>6. 老城小众街巷：</strong>避开主街的人群，走进老城的小巷深处，狭窄的街巷、斑驳的墙壁、挂着鲜花的窗台，都是绝佳的拍照场景，可拍摄人文特写，或利用光影对比，拍出文艺感十足的照片；偶尔遇到当地居民散步、孩童玩耍，抓拍下来，更具生活气息。</p>
-                  </div>
-                </div>
-
-                <div className="bg-primary-light rounded-lg p-5">
-                  <h3 className="text-lg font-semibold text-primary mb-3">拍照小贴士</h3>
-                  <div className="space-y-2 text-sm text-foreground leading-relaxed">
-                    <p><strong>最佳拍摄时间：</strong>最佳拍摄时间为清晨（9点前）和傍晚（17点后），光线柔和，避免正午强光；建议穿着纯色衣物，与彩色的建筑形成对比，更出片；尊重当地居民的生活，拍摄人文场景时尽量提前征得同意；部分教堂内部禁止拍照，需注意现场标识。</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="6" title="附近景点">
-            <div className="space-y-4">
-              <p className="text-sm text-foreground leading-relaxed">
-                考纳斯老城周边景点丰富，距离较近，游览完老城后，可根据自身时间安排前往，既能丰富行程，也能更全面地了解考纳斯的历史文化与自然风光，以下推荐几个距离老城较近、值得一去的景点，均可通过步行或短途公交抵达。
-              </p>
-
-              <div className="grid gap-4">
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">1. 帕塞斯利斯修道院</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离老城约7公里，可乘坐公交5号转9号前往，是立陶宛最大的教堂修道院综合体，也是立陶宛最具代表性的意大利式巴洛克建筑，坐落在考纳斯水库岸边，建筑壮观，周边风景优美，修道院外的沙滩是当地居民周末度假的好去处，可融入当地，感受休闲氛围，开放时间为6月1日-9月1日周二至周五10:00-18:00，周六10:00-16:00；9月2日-次年5月31日周二至周五10:00-17:00，周六10:00-16:00，成人门票4欧元，学生、老人半价。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">2. 第九要塞</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离老城约8公里，可乘坐公交23路、35路直达，是考纳斯最重要的爱国主义教育基地，曾是二战期间纳粹的死亡集中营，如今作为博物馆开放，展示了二战期间的历史遗物和受害者事迹，参观过程虽令人沉重，但能让人更深刻地理解立陶宛的历史，开放时间为4月至10月周一、周三至周日10:00-18:00，11月至3月周三至周日10:00-16:00，成人门票5立特，学生、老人3立特，7岁以下免费。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">3. 圣米迦勒总领天使教堂及寝陵</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离老城约1.5公里，可步行或乘坐公交抵达，是一座雄伟的新拜占庭风格教堂，由俄国沙皇亚历山大三世下令修建，教堂下方有地下陵墓，可向看守提出参观请求，教堂形象频繁出现在考纳斯的画册和明信片上，是打卡必去之地，弥撒时间为周一至周五12:00，周六10:00，周日10:00、12:00，免费开放，建议自愿捐赠。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">4. 桑塔卡公园</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">紧邻老城，步行即可抵达，位于涅里斯河与涅曼河的交汇处，是考纳斯最古老的公园之一，园内植被茂盛，有蜿蜒的步道、雕塑和休息座椅，是游览老城间隙休闲放松的绝佳去处，可漫步河边，欣赏双河交汇的美景，感受自然与历史的融合，全天免费开放。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">5. 考纳斯歌剧院</h4>
-                  <p className="text-sm text-foreground leading-relaxed">距离老城约1公里，可步行抵达，是考纳斯中城区的标志性现代主义建筑，外观简洁大气，内部装修精致，若有时间，可观看一场歌剧或音乐会，感受当地的艺术氛围，具体演出时间和门票价格可查询官方网站。</p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="7" title="住宿小贴士">
-            <div className="space-y-4">
-              <div className="bg-surface rounded-lg p-5">
-                <h3 className="text-lg font-semibold text-primary mb-4">详细住宿指南</h3>
-                <div className="space-y-4 text-sm text-foreground leading-relaxed">
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">1. 住宿位置选择</h4>
-                    <p>优先选择老城内部或老城周边500米范围内的住宿，出行便利，可随时漫步老城，感受夜晚的老城氛围；老城内部多为特色民宿和小型精品酒店，建筑风格独特，充满中世纪气息，适合喜欢人文体验的游客；老城周边则有更多连锁酒店和大型公寓，性价比更高，适合家庭出行或预算有限的游客。需要注意的是，老城内部街巷狭窄，部分区域无法停车，若自驾出行，可选择带免费停车位的住宿。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">2. 住宿类型推荐</h4>
-                    <p><strong>精品酒店：</strong>可选择位于老城核心区域的特色精品酒店，这类酒店通常拥有复古装修风格，配备特色设施，部分酒店顶楼设有露台，可欣赏老城建筑景观，装修精致且服务周到，价格约150-250欧元/晚，部分由历史建筑改造而成的精品酒店，还能感受到浓厚的中世纪与宗教氛围。</p>
-                    
-                    <p><strong>特色民宿：</strong>老城内部有很多由中世纪建筑改造的民宿，部分带有免费停车位，装修简约舒适，步行可达老城主要景点，价格约80-120欧元/晚；还有自助入住的Loft型公寓，多位于翻新的历史建筑内，安静舒适，周边5分钟步行范围内有商铺和餐厅，价格约60-100欧元/晚。</p>
-                    
-                    <p><strong>连锁酒店：</strong>老城周边有多家性价比高的连锁酒店，价格约50-80欧元/晚，设施齐全，适合预算有限的游客。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">3. 预订注意事项</h4>
-                    <p>考纳斯旅游旺季为5-9月，尤其是7-8月，游客较多，住宿紧张，建议提前1-2个月预订，避免无房或价格上涨；预订时注意查看住宿的取消政策，尽量选择可免费取消的房源，以便灵活调整行程；若自驾出行，需提前确认住宿是否提供免费停车位，老城周边街道停车费用较高（12-30欧元/天），提前沟通可节省开支；部分民宿为自助入住，预订后会收到入住指南和密码，需提前查看，避免抵达后无法入住。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">4. 其他注意事项</h4>
-                    <p>住宿内部通常提供基本的洗漱用品，但部分民宿不提供一次性牙刷和牙膏，建议提前自备；考纳斯老城内部分住宿没有电梯，若携带大件行李，建议预订时有电梯的住宿；住宿周边多有餐厅和超市，购买生活用品和就餐便利，但夜间较为安静，需注意保持安静，避免影响他人；大部分住宿提供免费WiFi，预订时可确认WiFi信号情况，方便出行时查询信息；当地电压为230V，插头为Type F型，若需要，可提前准备转换插头。</p>
-                  </div>
-
-                  <div className="bg-primary-light p-3 rounded-lg mt-3">
-                    <p className="text-sm text-foreground leading-relaxed">
-                      <strong>特别提示：</strong>考纳斯当地没有青年旅舍，住宿整体价格相对偏高，提前预订可获得更优惠的价格；部分住宿会提供当地旅游攻略和出行建议，可主动向房东或前台咨询，获取更地道的游览体验。
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="8" title="实用小贴士">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow label="最佳季节" value="5月至9月，夏季日照时间长且气候温和；每年6月举办考纳斯城市日庆典" />
-              <InfoRow label="建议时长" value="半天至1天（核心区域步行游览约需6-7小时）" />
-              <InfoRow label="注意事项" value="立陶宛使用欧元，消费水平在欧盟中偏低；冬季日照短且寒冷，需注意保暖；自由大道是老城延伸的步行购物街，适合傍晚散步" />
-            </div>
-          </Section>
-        </div>
-
-        <div className="mt-12 mb-8 text-center">
-          <Link
-            href="/#destinations"
-            className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-light transition-colors"
-          >
-            <span>&larr;</span>
-            <span>Back to All Destinations</span>
-          </Link>
-        </div>
-      </div>
-    </article>
-  );
+    </div>
+  )
 }

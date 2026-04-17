@@ -193,36 +193,36 @@ export default function GyorOldTownPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/kalocsa" className="block group">
+              <a href="/attractions/veszprem-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    考
+                    维
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">考洛乔老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kalocsa</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维斯普雷姆老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Veszprém Old Town</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/esztergom-basilica" className="block group">
+              <a href="/attractions/eger-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
                     埃
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃斯泰尔戈姆大教堂</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Esztergom Basilica</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃格尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eger Castle</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/szentendre-artists-village" className="block group">
+              <a href="/attractions/s-rospatak-renaissance-castle-and-college" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    圣
+                    沙
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣安德烈艺术小镇</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Szentendre Artists‘ Village</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">沙罗什保陶克</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sárospatak</p>
                   </div>
                 </div>
               </a>

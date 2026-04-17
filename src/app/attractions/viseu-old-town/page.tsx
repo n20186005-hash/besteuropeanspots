@@ -195,25 +195,25 @@ export default function ViseuOldTownPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/mantua-city" className="block group">
+              <a href="/attractions/quedlinburg-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    曼
+                    奎
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">曼托瓦</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mantua</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奎德林堡老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Quedlinburg Old Town</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/ribe-denmark-oldest-town" className="block group">
+              <a href="/attractions/silves-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    里
+                    锡
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里伯</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ribe</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">锡尔维什城堡（红砂岩城堡）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Silves Castle</p>
                   </div>
                 </div>
               </a>

@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '卡塞雷斯老城 Cáceres｜时光凝滞的石头城，西班牙保存最完好的中世纪迷宫 - 最佳欧洲景点',
-  description: '你从喧嚣的五月广场穿过圣马可拱门，仿佛一步跨过了某种无形的结界。声音首先被过滤了——外头咖啡馆的谈笑、车流声瞬间退去，只剩下你自己的脚步声，敲打在那些被岁月磨得光滑如镜的鹅卵石上，发出清脆又孤独的回响。空气里弥漫着一种特别的气味，是正午阳光炙烤古老花岗岩散发出的干燥暖香，混着一丝从某个隐秘庭院飘来的...',
+  title: '卡塞雷斯老城 Cáceres Old Town｜穿越回中世纪骑士时代的石头迷宫 - 最佳欧洲景点',
+  description: '朋友，想象一下，你从一个阳光刺眼、车流喧嚣的现代广场，仅仅穿过一道古老的拱门，时间就“咔哒”一声被拨回了五百年前。这就是卡塞雷斯老城给你的第一个下马威。一脚踏进那被高耸石墙包裹的领地，世界瞬间安静下来，只剩下你的脚步声在狭窄的、被岁月打磨得光滑如鹅卵的街道上回响。空气里有股特别的味道——不是灰尘，而...',
 }
 
 export default function CaceresOldTownPage() {
@@ -21,51 +21,53 @@ export default function CaceresOldTownPage() {
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`卡塞雷斯老城・Cáceres・西班牙・卡塞雷斯`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`卡塞雷斯老城・Cáceres Old Town・西班牙・卡塞雷斯`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`你从喧嚣的五月广场穿过圣马可拱门，仿佛一步跨过了某种无形的结界。声音首先被过滤了——外头咖啡馆的谈笑、车流声瞬间退去，只剩下你自己的脚步声，敲打在那些被岁月磨得光滑如镜的鹅卵石上，发出清脆又孤独的回响。空气里弥漫着一种特别的气味，是正午阳光炙烤古老花岗岩散发出的干燥暖香，混着一丝从某个隐秘庭院飘来的橙花和迷迭香的清冽。抬起头，视线立刻被挤压、被引导：两旁是几乎无缝衔接的金黄色石墙，高耸，严肃，窗户小而深，像一双双深邃的眼睛在打量你这个贸然闯入的时空旅人。
-继续往里走，空间时而收紧为只容一人通过的巷弄，时而又豁然开朗，出现一个静谧的小广场。你会突然理解为什么这里被叫做“石头城”。一切都被石头包裹、定义。石头铺路，石头砌墙，石头雕出繁复的家族纹章，石头筑成防御的塔楼。但这不是冰冷的石头，在西班牙埃斯特雷马杜拉炽烈的阳光下，这些石头呈现出蜂蜜、金黄甚至淡玫瑰的色彩，温暖得不可思议。你会看到当地的老太太提着菜篮，不慌不忙地穿过这些见证了无数阴谋与荣耀的拱门；一只肥猫在文艺复兴式宫殿的门槛上打着盹，对墙上的盾徽毫不在意。历史在这里不是陈列品，就是日常生活的背景墙。
-走到圣母广场，这里是老城跳动的心脏。站在广场中央转一圈，就像快速翻阅一本建筑史教科书：坚固的布哈科塔带着伊斯兰统治的遗风，圣母升天协教堂兼主教座堂融合了从哥特式到银匠式的演变，环绕广场的贵族宫殿立面争奇斗艳，展示着主人家族的财富与权势。但最动人的时刻，或许是黄昏。当游客渐渐散去，夕阳把最后的光辉涂抹在塔楼尖顶，整座城池被染成醉人的金色。窗户里陆续亮起温暖的灯光，石板路上拉出长长的影子，那一刻，你仿佛能听见石头在低声诉说，关于骑士、关于商旅、关于信仰碰撞与文化交融的千年往事。`}
+            {`朋友，想象一下，你从一个阳光刺眼、车流喧嚣的现代广场，仅仅穿过一道古老的拱门，时间就“咔哒”一声被拨回了五百年前。这就是卡塞雷斯老城给你的第一个下马威。一脚踏进那被高耸石墙包裹的领地，世界瞬间安静下来，只剩下你的脚步声在狭窄的、被岁月打磨得光滑如鹅卵的街道上回响。空气里有股特别的味道——不是灰尘，而是石头在烈日下曝晒后散发出的微热气息，混合着从某个隐秘庭院里飘出的金银花香。
+这里不像一个博物馆，更像一个依然在缓慢呼吸的梦境。午后的阳光以极其刁钻的角度，切开高墙之间的狭缝，在赭石色的墙面上投下锋利的光与深邃的影，明明暗暗，仿佛在上演一场关于时光的皮影戏。你抬头，视线会被无数座塔楼和宫殿的山墙切割成锯齿状的天际线。最妙的是那些住在塔顶的居民——巨大的白鹳，它们把巢筑在骑士家族的纹章和石雕圣人旁，发出“咔嗒咔嗒”的喙击声，这是老城上空永恒的背景音，提醒着你：历史是层叠的，生命总在缝隙中延续。
+当地人的生活也巧妙地编织在这个石头迷宫里。你不是在参观一个死去的遗迹，而是在不经意间闯入他们的日常。转角的酒吧里，老人们端着小小的咖啡杯谈论天气；一扇虚掩的厚重木门后，传来主妇准备晚餐的锅铲声和电视新闻的模糊声响。傍晚，孩子们会在某条死胡同里踢足球，皮球撞在十五世纪的石墙上，“砰”的一声，清脆又遥远。这种奇异的和谐，让这座堡垒般的城市褪去了冰冷，有了人的温度和生活的烟火气。
+它的核心魅力，就在于这种极致的矛盾与统一。它既是森严的、排外的堡垒，又是鲜活的、包容的家园。每一块石头都藏着征服、荣耀、阴谋与日常的故事，等待你用脚步去阅读，用想象去填满那些寂静的庭院和幽深的门廊。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`你从喧嚣的五月广场穿过圣马可拱门，仿佛一步跨过了某种无形的结界。声音首先被过滤了——外头咖啡馆的谈笑、车流声瞬间退去，只剩下你自己的脚步声，敲打在那些被岁月磨得光滑如镜的鹅卵石上，发出清脆又孤独的回响。空气里弥漫着一种特别的气味，是正午阳光炙烤古老花岗岩散发出的干燥暖香，混着一丝从某个隐秘庭院飘来的橙花和迷迭香的清冽。抬起头，视线立刻被挤压、被引导：两旁是几乎无缝衔接的金黄色石墙，高耸，严肃，窗户小而深，像一双双深邃的眼睛在打量你这个贸然闯入的时空旅人。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`继续往里走，空间时而收紧为只容一人通过的巷弄，时而又豁然开朗，出现一个静谧的小广场。你会突然理解为什么这里被叫做“石头城”。一切都被石头包裹、定义。石头铺路，石头砌墙，石头雕出繁复的家族纹章，石头筑成防御的塔楼。但这不是冰冷的石头，在西班牙埃斯特雷马杜拉炽烈的阳光下，这些石头呈现出蜂蜜、金黄甚至淡玫瑰的色彩，温暖得不可思议。你会看到当地的老太太提着菜篮，不慌不忙地穿过这些见证了无数阴谋与荣耀的拱门；一只肥猫在文艺复兴式宫殿的门槛上打着盹，对墙上的盾徽毫不在意。历史在这里不是陈列品，就是日常生活的背景墙。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走到圣母广场，这里是老城跳动的心脏。站在广场中央转一圈，就像快速翻阅一本建筑史教科书：坚固的布哈科塔带着伊斯兰统治的遗风，圣母升天协教堂兼主教座堂融合了从哥特式到银匠式的演变，环绕广场的贵族宫殿立面争奇斗艳，展示着主人家族的财富与权势。但最动人的时刻，或许是黄昏。当游客渐渐散去，夕阳把最后的光辉涂抹在塔楼尖顶，整座城池被染成醉人的金色。窗户里陆续亮起温暖的灯光，石板路上拉出长长的影子，那一刻，你仿佛能听见石头在低声诉说，关于骑士、关于商旅、关于信仰碰撞与文化交融的千年往事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，想象一下，你从一个阳光刺眼、车流喧嚣的现代广场，仅仅穿过一道古老的拱门，时间就“咔哒”一声被拨回了五百年前。这就是卡塞雷斯老城给你的第一个下马威。一脚踏进那被高耸石墙包裹的领地，世界瞬间安静下来，只剩下你的脚步声在狭窄的、被岁月打磨得光滑如鹅卵的街道上回响。空气里有股特别的味道——不是灰尘，而是石头在烈日下曝晒后散发出的微热气息，混合着从某个隐秘庭院里飘出的金银花香。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里不像一个博物馆，更像一个依然在缓慢呼吸的梦境。午后的阳光以极其刁钻的角度，切开高墙之间的狭缝，在赭石色的墙面上投下锋利的光与深邃的影，明明暗暗，仿佛在上演一场关于时光的皮影戏。你抬头，视线会被无数座塔楼和宫殿的山墙切割成锯齿状的天际线。最妙的是那些住在塔顶的居民——巨大的白鹳，它们把巢筑在骑士家族的纹章和石雕圣人旁，发出“咔嗒咔嗒”的喙击声，这是老城上空永恒的背景音，提醒着你：历史是层叠的，生命总在缝隙中延续。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当地人的生活也巧妙地编织在这个石头迷宫里。你不是在参观一个死去的遗迹，而是在不经意间闯入他们的日常。转角的酒吧里，老人们端着小小的咖啡杯谈论天气；一扇虚掩的厚重木门后，传来主妇准备晚餐的锅铲声和电视新闻的模糊声响。傍晚，孩子们会在某条死胡同里踢足球，皮球撞在十五世纪的石墙上，“砰”的一声，清脆又遥远。这种奇异的和谐，让这座堡垒般的城市褪去了冰冷，有了人的温度和生活的烟火气。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，就在于这种极致的矛盾与统一。它既是森严的、排外的堡垒，又是鲜活的、包容的家园。每一块石头都藏着征服、荣耀、阴谋与日常的故事，等待你用脚步去阅读，用想象去填满那些寂静的庭院和幽深的门廊。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <InfoRow label="中文名称" value={`卡塞雷斯老城`} />
-                <InfoRow label="英文名称" value={`Cáceres`} />
+                <InfoRow label="英文名称" value={`Cáceres Old Town`} />
                 <InfoRow label="正式名称" value={`Old Town of Cáceres`} />
                 <InfoRow label="国家" value={`西班牙`} />
                 <InfoRow label="城市" value={`卡塞雷斯`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`一座历经罗马、伊斯兰、基督教和文艺复兴时期层层叠加，至今保存近乎完好的“活化石”中世纪城市典范。`} />
-                <InfoRow label="建筑特色" value={`金黄色的花岗岩建筑群在阳光下熠熠生辉，狭窄的鹅卵石街巷、高耸的防御塔楼与宁静的贵族宫殿庭院形成鲜明对比。`} />
-                <InfoRow label="建筑风格" value={`伊斯兰军事建筑、罗马式、哥特式、文艺复兴式以及银匠式风格罕见地交织共存，形成独特的“卡塞雷斯风格”。`} />
-                <InfoRow label="文化价值" value={`见证了伊比利亚半岛上基督教与伊斯兰文明长达数个世纪的征服、共存与融合，是欧洲中世纪城市演变的无声史书。`} />
+                <InfoRow label="历史地位" value={`一座在基督教与伊斯兰文明拉锯中生长起来，并因美洲殖民财富而重获辉煌的“石头史诗”。`} />
+                <InfoRow label="建筑特色" value={`基督教骑士的宏伟宫殿与摩尔人的防御工事无缝合体，形成独一无二的“混血”建筑群。`} />
+                <InfoRow label="建筑风格" value={`以文艺复兴风格为主，完美融合了罗马式、伊斯兰式、哥特式乃至银匠式（Plateresque）的多元影响。`} />
+                <InfoRow label="文化价值" value={`被誉为西班牙保存最完好的中世纪古城之一，是欧洲城市建筑演变与历史冲突的活化石，1986年被联合国教科文组织列为世界遗产。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`老城本身全天24小时开放，可自由漫步于街道广场。但城内的主要宫殿、塔楼和博物馆有各自独立的开放时间，通常为周二至周日上午10点至下午2点，下午5点至8点（夏季可能延长至晚上9点）。周一多数室内景点闭馆。部分重要建筑如主教宫、圣马特奥教堂塔楼仅在导览团时间开放，需提前查询。节假日（如圣诞节、元旦、当地守护神节）开放时间变化很大，建议行前在旅游局官网二次确认。`} />
-              <InfoRow label="门票价格" value={`进入老城围墙区域完全免费。参观单个标志性建筑（如卡塞雷斯博物馆、奥迪埃尔宫、高尔费斯·德·阿巴霍宫）门票通常在2-5欧元之间。最划算的是购买“联合通票”，价格约10欧元，可在旅游局购买，涵盖5-7个主要宫殿和博物馆，有效期两天。学生、65岁以上老人及团体享有折扣，通常为票价的30%-50%。每周日部分国有博物馆免费入场。`} />
+              <InfoRow label="开放时间" value={`老城本身是开放式区域，24小时可进入。城内主要宫殿和博物馆的开放时间各不相同，普遍为周二至周日 10:00-14:00 及 17:00-20:00（夏季可能延长至21:00），周一多数闭馆。重要节日如圣周（Semana Santa）期间部分宫殿有特殊开放活动，圣诞节及元旦当天大部分室内景点关闭。建议行前查询具体想参观的宫殿官网。`} />
+              <InfoRow label="门票价格" value={`进入老城区域免费。参观个别宫殿、塔楼或联合博物馆需要购票，单票价格通常在3-6欧元之间。推荐购买“卡塞雷斯纪念碑联票”（Bono de Monumentos），约10欧元，可进入包括卡塞雷斯博物馆、圣马刁教堂塔楼、加利斯托宫等在内的多个主要景点，非常划算。学生、65岁以上老人及儿童享有折扣。`} />
               <InfoRow label="地址" value={`Plaza Mayor, 1, 10003 Cáceres, Spain`} />
-              <InfoRow label="交通方式" value={`从最近的主要交通枢纽出发：马德里巴拉哈斯机场。最佳选择是乘坐高速火车（AVE），从马德里查马丁火车站出发，约3小时直达卡塞雷斯火车站，每天有3-4班，建议提前在Renfe官网购票以获优惠。从卡塞雷斯火车站到老城，打车约10分钟（费用8-12欧元），也可乘坐L1路公交车至“Plaza Mayor”站。若选择大巴，从马德里南部车站出发，ALSA公司班次频繁，车程约3.5-4小时。自驾从马德里沿A-5高速公路向西行驶约300公里，出口指向“Cáceres Centro”，老城周边有多个付费停车场（如“Plaza de San Juan”地下停车场）。`} />
+              <InfoRow label="交通方式" value={`从马德里阿道弗·苏亚雷斯机场（MAD）出发，最佳方式是乘坐高铁（AVE）至卡塞雷斯火车站（Estación de Cáceres），车程约3小时，班次每天有多趟，建议提前在Renfe官网购票。从火车站到老城，打车约10分钟（7-10欧元），或乘坐L1路公交车至“Plaza Mayor”站，约15分钟。从里斯本机场（LIS）自驾前来约2.5小时。老城内部为步行区，汽车只能停在城墙外的停车场。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`要听懂石头的低语，我们得回到公元前。罗马人最早在这里留下了足迹，他们称这里为“诺尔巴·凯撒里娜”，坚固的城墙基座至今仍藏在某些建筑之下。但真正塑造了这座城市最初肌理的，是公元9世纪的摩尔人。他们在罗马废墟上建立了一座坚固的军事要塞，叫做“卡兹里斯”，高耸的城墙和错综复杂的街巷布局，都是为了防御。你现在看到的许多塔楼底部，那些巨大、质朴、没有窗子的石基，就是摩尔时期的遗产。他们在山上建城，掌控着埃斯特雷马杜拉平原的交通要道，这座城市生来就带着战争的基因。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`转机发生在1229年。莱昂国王阿方索九世从摩尔人手中夺下了这座城市，基督教时代开启了。然而，收复失地运动后的卡塞雷斯并未立刻繁荣，反而陷入了一种尴尬：它位于王国边缘，常受葡萄牙和敌对贵族势力的骚扰。于是，城里的贵族们做了一件决定城市未来面貌的事：他们被特许建造私人防御塔楼。一时间，“塔楼竞赛”开始了。奥特拉家族、乌略亚家族、卡瓦哈尔家族……一个个权势家族竞相建造更高、更坚固的塔楼，既为了防御外敌，也为了内部争斗和炫耀实力。老城的天际线由此变得犬牙交错，充满了剑拔弩张的气势，直到女王伊莎贝拉一世下令削平这些象征私斗的塔顶，才缓和了这种军事对峙的景观。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`和平带来了黄金时代。16世纪，无数卡塞雷斯子弟横渡大西洋前往美洲新大陆冒险，他们中的幸运儿带着滚滚财富归来，成为了“印第安诺”（美洲归来者）。这些新贵迫切需要用建筑来宣告自己的成功和融入旧贵族阶层的渴望。他们买下老宅，但不再修建防御塔楼，而是把财富倾注在建造华丽的宫殿、开阔的庭院和精美的立面上。文艺复兴风格和后来流行的银匠式风格席卷而来。你在高尔费斯·德·阿巴霍宫看到的那个令人屏息的回廊庭院，或是奥迪埃尔宫立面上雕刻细腻的家族纹章，都是这个“美洲黄金”催生的艺术结晶。新旧建筑在此叠加，防御工事旁建起了宜居的宫殿，城市的功能从堡垒悄然转变为贵族们的炫耀场与安乐窝。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`有趣的是，也正是从大约17世纪起，卡塞雷斯似乎被时间遗忘了。西班牙的经济政治中心转移，这座石头城的发展陷入了漫长的停滞。没有大规模的改建，没有工业化的侵袭，它就这样静静地沉睡在埃斯特雷马杜拉的阳光下。塞翁失马，焉知非福。这份“被遗忘”恰恰成了它最大的幸运。当欧洲许多古城在现代化浪潮中改头换面时，卡塞雷斯却将中世纪末到文艺复兴时期的城市风貌，近乎原封不动地保存了下来。每一块石头的位置，每一条小巷的走向，都凝固在了几百年前的样子。直到1986年，联合国教科文组织将整座老城列入世界遗产名录，人们才恍然发现，这里保存着一部如此完整、未经删节的中世纪城市史诗。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`要听懂卡塞雷斯的石头在低语什么，你得回到两千多年前。罗马人最早在这里留下了足迹，他们看重这里的战略位置，建起了最初的防御工事，“Castra Caecilia”这个名字便是起源。但真正为这座城奠定性格的，是后来的摩尔人。在长达五个世纪的穆斯林统治下，他们修筑了坚固的阿尔卡萨瓦（Alcazaba）堡垒和雄壮的城墙，那些今天你看到的厚重基础和不规则的街道布局，都深深烙印着北非的智慧。那时的卡塞雷斯，是一座边境要塞，在基督徒王国的虎视眈眈下倔强挺立。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`转折点在1229年到来。莱昂国王阿方索九世经过艰苦的围城，终于从摩尔人手中夺取了这座城市。一场权力的洗牌就此开始。得胜的基督教国王将土地和特权分封给那些在收复失地运动（Reconquista）中建功的骑士和贵族家族。于是，乌略亚、托雷多、卡瓦哈尔……这些显赫的姓氏如同种子，被撒进了这片刚刚易主的土地。为了彰显权威，也为了防备尚未远去的摩尔邻居以及……时刻可能翻脸的邻居骑士，这些家族开始竞相修建高大的、带有防御塔楼的宫殿宅邸。你走在街上，会觉得那些石造府邸像一个个绷着脸、穿着铠甲的巨人，互相用高墙和塔楼较着劲，这就是那个动荡年代的直接产物——安全感，来自于比邻居更高更厚的墙。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果故事止步于此，卡塞雷斯可能只是一座坚固但略显单调的军事堡垒。命运的第二个转折点，随着哥伦布发现新大陆的号角而来。无数渴望财富与荣耀的西班牙人涌向美洲，其中不乏卡塞雷斯这些骑士家族的后代。当这些“印第安诺斯”（Indianos，指在美洲发财后归国的人）带着滚滚白银和全新的世界观回到故乡时，他们做的第一件事，就是翻新祖宅。于是，你在那些森严的哥特式外墙上，看到了精致繁复的文艺复兴式窗户和银匠式大门；在阴冷的中世纪庭院里，立起了古典的柱廊，摆上了从新大陆运来的奇花异草。美洲的黄金，浇灌出了欧洲文艺复兴的花朵，这种时空交错的嫁接，让卡塞雷斯的老城建筑有了无比迷人的混血面孔。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，繁华过后是漫长的沉睡。随着西班牙帝国衰落，美洲财富的源泉枯竭，卡塞雷斯渐渐被遗忘在埃斯特雷马杜拉荒原的角落里。讽刺的是，正是这种被遗忘，成了它最好的保护罩。它没有经历大规模工业化改造的破坏，那些倾注了家族荣耀与巨额财富的宫殿，就这样静静地矗立着，在时光中褪色、凝固。直到20世纪，人们才重新发现这颗蒙尘的宝石。1986年，联合国教科文组织的认可，为它盖上了“世界遗产”的封印，肯定了它作为一部“石头编年史”的无价价值。今天的修复与保护，不是为了把它做成标本，而是为了让这座在冲突中诞生、在财富中绽放、在寂静中存活的古城，继续向未来讲述它波澜壮阔的往事。`}</p>
             </div>
           </Section>
 
@@ -74,47 +76,45 @@ export default function CaceresOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`游览卡塞雷斯老城，精髓在于“慢”和“错峰”。强烈建议你在老城内或紧邻城墙的住处住上一晚，这样就能独享清晨与黄昏这两个魔法时刻。理想的深度游览需要整整一天时间。上午九点前从五月广场进入，此时光线柔和，游客稀少，适合静静感受街道的空灵。上午着重探索主要广场和宫殿内部，了解其历史艺术。中午在广场边找家本地餐馆慢用午餐。下午则放任自己在迷宫中“迷失”，发现那些不为人知的角落和观景平台。傍晚前务必登上一处塔楼（如圣马特奥教堂塔楼），等待落日将全城染金。晚上则可参加“卡塞雷斯神秘之旅”夜间导览，听导游讲述那些关于鬼魂、贵族阴谋的传说，氛围感十足。`}
+                  {`最完美的体验始于傍晚前（大约下午五点半）。此时，灼人的烈日开始变得温柔，光线斜射，将古城染成迷人的蜂蜜金色。整个游览建议安排2.5到3小时，节奏是从容的漫步与有目的的探索相结合。先从宏伟的市政厅广场（Plaza Mayor）开始，感受古今的过渡，然后深入迷宫般的古城内部，在光线最佳时捕捉建筑细节，最后等待华灯初上，看古城如何从金色的史诗变成一场神秘的蓝调梦境。这样的安排避开了正午的酷热和旅游团的人流，又能同时收获日落与夜景两种截然不同的震撼。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`穿一双绝对舒适、防滑的平底鞋，老城的鹅卵石路面美丽但凹凸不平，高跟鞋是“自杀行为”。
-部分小巷和室内非常阴凉，即使盛夏也建议带一件薄外套，室内外温差可能很大。
-警惕过于热情的“免费导游”带你参观某些“私人收藏”，这可能是骗局的开始，所有正规导览都应在旅游局预约或购买。`}
+                  <strong>建议：</strong>{`务必穿一双绝对舒适的平底鞋，这里的每一块石板路都在考验你的脚踝。老城内部餐厅不多且价格偏高，若想正经用餐，可以考虑在游览结束后回到市政厅广场周边选择更多。部分小巷夜间照明较暗，独自游览建议结伴。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`清晨从五月广场的圣马可拱门进入，用手抚摸那冰凉的石壁，感受从摩尔时代留存至今的城门厚度。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从市政厅广场的拱门（Arco de la Estrella）钻进老城，立刻让自己迷失在第一条安静狭窄、铺着光滑石板的巷弄里。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`径直走向圣母广场，在空旷的广场中央原地转一圈，让四周风格各异的塔楼、教堂和宫殿立面如全景电影般映入眼帘。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在圣马刁教堂（Concatedral de Santa María）前的广场稍作停留，花点小钱登上钟楼，让整个赤褐色屋顶的迷宫和远方的平原在360度视野里铺开。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`推开高尔费斯·德·阿巴霍宫厚重的大门，在中庭那两层优雅的文艺复兴拱廊下驻足，想象当年美洲归来的富商在此举办宴会的场景。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`去找找那座没有尖塔的圣方济各哈维尔教堂（Iglesia de San Francisco Javier），站在它面前的小广场上，这是老城内少数能让你完整仰望一座建筑正面的开阔地。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`挤进那条著名的“窄巷”，侧身通过两座古老宫殿间仅容一人通行的缝隙，体验中世纪城市空间的极限压迫感。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`务必找到加利斯托宫（Palacio de los Golfines de Abajo）那令人过目难忘的银匠式华丽立面，用手指轻轻触摸上面雕刻的复杂纹章和神兽。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`寻找圣马特奥教堂旁的售票处，攀爬狭窄的螺旋石梯登上塔楼顶，让整个金黄色石头城的屋顶海洋在眼前铺展开来。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`拐进卡瓦哈尔宫（Palacio de Carvajal），探索它那个隐藏在厚重高墙后的热带花园，看棕榈树如何在中世纪的石墙下生长。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在迷宫般的巷弄里“故意”迷路，直到偶然闯入一个无人小广场，坐在古老的石井栏边，听风声穿过拱门。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在迷宫的中心，寻找弗拉门戈风格的梅尔加雷霍塔（Torre de las Cigüeñas），它是唯一在历史禁令后保留了完整垛口的塔楼，显得格外骄傲。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`黄昏时分回到圣母广场，找一家有露天座位的酒吧，点一杯本地产的卢埃达白葡萄酒，看光影在每一块石头上上演最后一幕戏剧。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`当暮色渐浓，沿着城墙根安静地走一段，听自己的脚步声，看窗户里陆续亮起温暖的灯光。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`入夜后报名参加老城的夜间传说导览，在手提灯摇曳的光线下，听导游讲述发生在那些漆黑窗户后的古老鬼故事与家族秘辛。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`最后回到市政厅广场，找一家露天酒吧坐下，点一杯当地的埃斯特雷马杜拉红酒，看着夜幕中亮起灯光的古城轮廓，像一枚镶嵌在深蓝夜空中的金色浮雕。`}</p>
                 </div>
               </div>
             </div>
@@ -124,28 +124,28 @@ export default function CaceresOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣马特奥教堂塔楼顶端`}</h4>
-                  <p className="text-sm text-gray-700">{`日落前一小时登顶，用长焦镜头捕捉夕阳为层层叠叠的红色屋顶和塔楼勾勒出的金色轮廓线，构图时可纳入远处广阔的平原。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`市政厅广场仰拍拱门与塔楼`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，站在广场中央，将古老的星星拱门作为画框，框住后面层层叠叠的塔楼，利用金色的侧光勾勒建筑轮廓。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣母广场东南角仰拍`}</h4>
-                  <p className="text-sm text-gray-700">{`上午十点左右，阳光能照亮圣母升天教堂的塔楼和布哈科塔，采用广角镜头低角度仰拍，将宏伟的建筑与一小片蓝天一同纳入，凸显其巍峨。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“窄巷”内部`}</h4>
-                  <p className="text-sm text-gray-700">{`正午时分阳光几乎直射时进入巷子，光线可以照亮一部分巷壁，形成强烈的明暗对比，拍摄人物侧身通过的剪影或背影，极具故事感。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`高尔费斯·德·阿巴霍宫回廊二楼`}</h4>
-                  <p className="text-sm text-gray-700">{`下午三四点，阳光斜射入中庭，会在下层拱廊投下规律的光影，站在二楼廊道向下俯拍，能捕捉到几何光影与文艺复兴建筑的完美结合。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣马刁教堂钟楼顶全景`}</h4>
+                  <p className="text-sm text-gray-700">{`登顶后，用长焦镜头压缩那些密密麻麻的赭石色屋顶和塔楼，捕捉它们如同波浪般起伏的韵律感，最佳光线在晴朗日落的黄金时刻。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`从城墙外的现代街区远眺`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨有薄雾时最佳，在“Ronda de San Francisco”路附近，可以拍到老城建筑群从晨雾中升起的全景，犹如海市蜃楼。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`加利斯托宫银匠式大门特写`}</h4>
+                  <p className="text-sm text-gray-700">{`下午稍晚时分，阳光能恰好照亮其繁复的雕刻，蹲下来低角度拍摄，让大门充满画面，展现其奢华到令人窒息的细节。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城墙边的鹳鸟巢与黄昏天际线`}</h4>
+                  <p className="text-sm text-gray-700">{`在城墙步行道某段，寻找一个正对多个塔楼鹳鸟巢的位置，在日落后蓝调时刻（Blue Hour）拍摄，深蓝色天空映衬着塔楼剪影和归巢的鹳鸟，充满故事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`弗拉门戈塔楼下的狭窄街巷`}</h4>
+                  <p className="text-sm text-gray-700">{`利用小巷本身的纵深感，将高耸的塔楼置于画面顶端，两侧是斑驳的石墙，等待一个当地人或一只猫走过，为静谧的画面注入生机。`}</p>
                 </div>
               </div>
 
@@ -154,9 +154,7 @@ export default function CaceresOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`使用偏振镜可以有效减少古老石墙的反光，让建筑色彩更加饱和沉稳。`}</li>
-                <li>• {`尊重当地居民隐私，避免将镜头直接对准仍然有人居住的宫殿窗户或私人庭院内部。`}</li>
-                <li>• {`飞无人机在西班牙历史遗迹上空有严格限制，在老城区域飞行基本不被允许，务必提前查询法规。`}</li>
+                <li>• {`拍摄居民门窗或私人庭院内部前，请务必先微笑示意并获得许可，尊重当地人的隐私。使用三脚架在狭窄巷道需格外注意，避免阻碍通行。鹳鸟是受保护动物，请勿使用闪光灯惊吓它们。`}</li>
               </ul>
             </div>
           </Section>
@@ -165,34 +163,70 @@ export default function CaceresOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
-                  <p className="text-sm text-blue-800">{`入住由16世纪贵族宫殿改造而成的国营古堡酒店，睡在带有原始石拱顶的房间，清晨在回廊庭院里享用早餐，仿佛自己就是宫殿的主人。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`古城心脏隐居`}</h4>
+                  <p className="text-sm text-blue-800">{`入住由16世纪贵族宅邸改造的精品酒店，住在有原始石拱顶的房间，清晨被穿过木窗棂的阳光和遥远的教堂钟声唤醒。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`文艺小众之选`}</h4>
-                  <p className="text-sm text-green-800">{`藏在犹太区窄巷深处的设计师精品酒店，由几栋老房子打通而成，保留了裸露的石墙和木梁，但内饰极简现代，屋顶露台是欣赏老城日落的秘密基地。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`广场视野首选`}</h4>
+                  <p className="text-sm text-green-800">{`选择市政厅广场边上的历史酒店，房间带一个小阳台，晚上可以就着月光和古城夜景小酌，白天则能俯视广场上鲜活的人生剧场。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`性价比之选`}</h4>
-                  <p className="text-sm text-yellow-800">{`坐落在五月广场拱门旁的百年老字号旅馆，房间虽小但干净温馨，窗户正对进出老城的人流，下楼就能融入最本地化的市井生活。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代舒适基地`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在古城步行仅5分钟的现代城区设计酒店，享受宽敞的空间和完善的设施，将古老的迷宫作为探索的后花园，动静皆宜。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`田园风光之选`}</h4>
-                  <p className="text-sm text-purple-800">{`开车15分钟，住在埃斯特雷马杜拉平原上的乡间庄园酒店，四周是橡树林和牧场，在无边泳池里遥望远处山丘上的石头城剪影，享受静谧的乡村夜晚。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`乡村庄园体验`}</h4>
+                  <p className="text-sm text-purple-800">{`若自驾，不妨选择城外15分钟车程的乡村庄园酒店，沉浸在埃斯特雷马杜拉辽阔的橄榄园与橡木牧场景色中，体验真正的贵族乡居生活。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿多为历史建筑，隔音可能一般，但这份“与历史同眠”的体验无可替代。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`如果自驾，务必确认酒店是否提供停车场或有合作车场，老城内绝对无法停车。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`旺季（春秋两季和周末）住宿非常紧俏，尤其是特色古堡酒店，建议至少提前两到三个月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`古城内的住宿非常有限且抢手，尤其是旅游旺季和圣周期间，务必提前数月预订。住在古城内虽然氛围绝佳，但请注意搬运行李可能需走过一段石板路。城外停车普遍比城内方便且便宜。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开卡塞雷斯好些天了，但闭上眼，手掌仿佛还能感受到那些花岗岩墙壁在日晒后残留的余温，鼻腔里似乎还萦绕着石头、橙花与古老木头发出的混合气息。这座城最神奇的地方，不在于它拥有某一件惊世骇俗的艺术品，而在于它提供了一种完整的、沉浸式的时空错位感。它没有将历史封装在博物馆的玻璃柜里，而是让历史成为你脚下踩着的路，成为你肩膀擦过的墙，成为你目光所及的整个生活剧场。在这里，你不是旁观者，你成了历史街景里一个移动的标点。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在一切都追求快速迭代、网红打卡的今天，卡塞雷斯的存在像一种温柔的抵抗。它倔强地保持着缓慢的节奏、恒定的样貌，告诉你有些价值在于“不变”，在于那份历经劫波后沉淀下来的从容与厚重。它复杂的历史层次——罗马的基座、伊斯兰的骨骼、基督教的血肉、文艺复兴的华服——没有变成一笔糊涂账，而是清晰可辨地长在了一起，形成了一种独特而和谐的美。这或许能给当下世界一些启示：不同的文明，在经过冲突、并存与漫长的磨合后，最终可以成就一个远比单一文化更丰富、更深刻的整体。每一位热爱深度游的旅人，都应该来这里住上两晚，不是为了收集又一个世界遗产的图章，而是为了让自己慢下来，在石头的沉默叙事中，重新感受时间的重量、文明的厚度，以及“家园”这个词，可以如何在几个世纪的风雨中，被一代代人用石头如此具体、如此坚固地建造和守护下来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开卡塞雷斯好些日子了，我时常会想起那里黄昏的光线，是如何一寸一寸地从那些骑士宫殿的立面上褪去，仿佛一场庄严的谢幕。它给我的触动，远不止于建筑的美。而是在这个一切都在追求焕新、加速的时代，竟然还有这样一个地方，如此坦然地将层层叠叠的伤疤、荣耀与日常全部展露给你看。它不试图美化历史中的冲突与掠夺，也不沉溺于过去的辉煌，只是沉默地矗立，让鹳鸟在纹章上筑巢，让孩子在堡垒里嬉戏。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这或许正是我们都需要卡塞雷斯的原因。它像一个坚硬的、石头制成的寓言，告诉我们：真正的力量不是抹去过去，而是承载所有记忆，并让生命在其中找到新的缝隙生长。它让我们慢下来，在一座迷宫里去感受“迷失”的乐趣，去触碰石头不同的温度，去聆听穿越了几个世纪的风声。对于每一位渴望深度游的旅人而言，这里不是打卡地，而是一本需要耐心翻阅的立体史书，一次与时光的深刻对话。在这里走过的每一步，都仿佛踩在历史的脉搏上，提醒着我们来自何处，又将归于怎样的永恒。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/morella-castle-spain" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫雷利亚（屹立在锥形巨岩上的城墙之池）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Morella</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/roman-walls-of-lugo" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卢
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卢戈古罗马城墙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Roman Walls of Lugo</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ubeda" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乌
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乌韦达古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Úbeda</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

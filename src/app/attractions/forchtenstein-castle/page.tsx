@@ -1,0 +1,224 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '福尔希滕施泰因城堡 Forchtenstein Castle｜探秘哈布斯堡王朝东部边防堡垒与传奇宝藏库 - 最佳欧洲景点',
+  description: '当你从蜿蜒的多间乡村公路驶近，第一眼看到福尔希滕施泰因城堡时，它不像新天鹅堡那样童话，也不像萨尔茨堡要塞那样庞大。它更像一头沉默的、用灰白色岩石雕成的巨兽，孤傲地蹲伏在一片墨绿色的森林与起伏的葡萄园之上。那种扑面而来的压迫感是直接的、未经修饰的。风从平原吹来，穿过城堡高耸的塔楼和锯齿状的城垛，发出低...',
+}
+
+export default function ForchtensteinCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '福尔希滕施泰因城堡', href: '/attractions/forchtenstein-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`福尔希滕施泰因城堡・Forchtenstein Castle・奥地利・福尔希滕施泰因（布尔根兰州）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你从蜿蜒的多间乡村公路驶近，第一眼看到福尔希滕施泰因城堡时，它不像新天鹅堡那样童话，也不像萨尔茨堡要塞那样庞大。它更像一头沉默的、用灰白色岩石雕成的巨兽，孤傲地蹲伏在一片墨绿色的森林与起伏的葡萄园之上。那种扑面而来的压迫感是直接的、未经修饰的。风从平原吹来，穿过城堡高耸的塔楼和锯齿状的城垛，发出低沉的呜咽，仿佛数百年来战备状态的余音仍未散去。空气里是干净的、混合着松针和远处牧场干草的气息，但当你走近那厚重的大门，一种更古老的、属于石头和金属的冷冽气味便会将你包裹。
+对于当地人来说，这座城堡与其说是一个景点，不如说是一个永恒的、巨大的地理与精神坐标。你会在小镇的酒馆里听到人们以它为参照物指路，会在老奶奶的相册里看到家族几代人在城堡山脚下野餐的黑白照片。它见证了埃斯特哈齐家族的兴衰，也默默守护着这片土地从烽火连天到宁静富庶的变迁。它不像维也纳的宫殿那样融入都市的脉搏，而是以一种近乎固执的独立姿态，讲述着边境地区独有的、混合着坚韧、警惕与骄傲的故事。
+而它最打动人心的核心魅力，绝非仅仅是外观的宏伟。真正的宝藏，或者说，真正的故事，都藏在那看似粗粝的岩石内部。当你踏入其中，仿佛打开了一部立体的、关于战争、财富与权力的家族史诗。这里没有太多为了讨好游客而设的金碧辉煌的舞厅，取而代之的是令人屏息的军械库，里面陈列的不是模型，而是真实经历过硝烟、带着凹痕和锈迹的盔甲与火枪。更深处，则是一个超越想象的宝库，里面堆积着从奥斯曼帝国缴获的战利品：华丽到匪夷所思的丝绸帐篷、镶嵌宝石的马鞍、精工锻造的武器……它们不是被孤零零地放在玻璃柜里，而是以一种近乎“仓库式”的原始状态堆积着，那种数量与质量的震撼，瞬间将历史的宏大与残酷推到你的眼前。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你从蜿蜒的多间乡村公路驶近，第一眼看到福尔希滕施泰因城堡时，它不像新天鹅堡那样童话，也不像萨尔茨堡要塞那样庞大。它更像一头沉默的、用灰白色岩石雕成的巨兽，孤傲地蹲伏在一片墨绿色的森林与起伏的葡萄园之上。那种扑面而来的压迫感是直接的、未经修饰的。风从平原吹来，穿过城堡高耸的塔楼和锯齿状的城垛，发出低沉的呜咽，仿佛数百年来战备状态的余音仍未散去。空气里是干净的、混合着松针和远处牧场干草的气息，但当你走近那厚重的大门，一种更古老的、属于石头和金属的冷冽气味便会将你包裹。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`对于当地人来说，这座城堡与其说是一个景点，不如说是一个永恒的、巨大的地理与精神坐标。你会在小镇的酒馆里听到人们以它为参照物指路，会在老奶奶的相册里看到家族几代人在城堡山脚下野餐的黑白照片。它见证了埃斯特哈齐家族的兴衰，也默默守护着这片土地从烽火连天到宁静富庶的变迁。它不像维也纳的宫殿那样融入都市的脉搏，而是以一种近乎固执的独立姿态，讲述着边境地区独有的、混合着坚韧、警惕与骄傲的故事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而它最打动人心的核心魅力，绝非仅仅是外观的宏伟。真正的宝藏，或者说，真正的故事，都藏在那看似粗粝的岩石内部。当你踏入其中，仿佛打开了一部立体的、关于战争、财富与权力的家族史诗。这里没有太多为了讨好游客而设的金碧辉煌的舞厅，取而代之的是令人屏息的军械库，里面陈列的不是模型，而是真实经历过硝烟、带着凹痕和锈迹的盔甲与火枪。更深处，则是一个超越想象的宝库，里面堆积着从奥斯曼帝国缴获的战利品：华丽到匪夷所思的丝绸帐篷、镶嵌宝石的马鞍、精工锻造的武器……它们不是被孤零零地放在玻璃柜里，而是以一种近乎“仓库式”的原始状态堆积着，那种数量与质量的震撼，瞬间将历史的宏大与残酷推到你的眼前。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`福尔希滕施泰因城堡`} />
+                <InfoRow label="英文名称" value={`Forchtenstein Castle`} />
+                <InfoRow label="正式名称" value={`Forchtenstein Castle`} />
+                <InfoRow label="国家" value={`奥地利`} />
+                <InfoRow label="城市" value={`福尔希滕施泰因（布尔根兰州）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`埃斯特哈齐家族经营超过三百年的权力中心与军事宝库，是哈布斯堡王朝抵御奥斯曼帝国东侵的前沿堡垒。`} />
+                <InfoRow label="建筑特色" value={`一座雄踞于死火山岩上的白色巨塔，融合了坚固的中世纪防御工事与文艺复兴后期的宫廷奢华，其地下深处隐藏着宛如迷宫般的秘密仓库。`} />
+                <InfoRow label="建筑风格" value={`主体为晚期哥特式与文艺复兴风格，后续增添了巴洛克式内部装饰，呈现出典型的奥地利东部边境要塞混合风格。`} />
+                <InfoRow label="文化价值" value={`不仅是一座家族城堡，更是一座保存完好的“时间胶囊”，见证了基督教欧洲与奥斯曼帝国长达数个世纪的冲突、博弈与文化交融。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡及博物馆通常在每年四月至十月底每日开放，时间为上午10点至下午6点（最后入场时间为下午5点）。十一月到次年三月为冬季休整期，仅接受小型预约团体参观。具体日期每年可能微调，重大节日如圣诞节、元旦期间会闭馆，建议行前务必查阅官网最新公告。`} />
+              <InfoRow label="门票价格" value={`成人票约为16欧元，优惠票（学生、老年人）约为14欧元，家庭票（2成人+最多3名儿童）约为32欧元。门票包含导游导览器（提供中文语音）及所有常设展览。6岁以下儿童免费。持有“布尔根兰州卡”或其他合作博物馆通票可享受折扣。`} />
+              <InfoRow label="地址" value={`Melinda Esterházy-Platz 1, 7212 Forchtenstein, Austria`} />
+              <InfoRow label="交通方式" value={`最近的主要国际机场是维也纳国际机场（VIE）。从维也纳出发，最灵活的方式是租车自驾，沿A2/E59高速公路向南，转入B50州道，车程约1小时15分钟。若依赖公共交通，可从维也纳火车南站（Wien Meidling）搭乘火车至维也纳新城（Wiener Neustadt），换乘区域火车前往 Mattersburg 站，再转乘330路巴士至“Forchtenstein Schloss”站下车，全程约2-2.5小时，班次频率约为每小时一班，周末班次会减少，建议使用奥地利联邦铁路（ÖBB）App提前规划并购买联程票。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座城堡的故事始于13世纪，最初由匈牙利贵族建造，用于控制这一战略要道。但它真正的命运转折点发生在17世纪初。当时，显赫的埃斯特哈齐家族从破产的前主人手中购得了这座已有些破败的堡垒。家族的掌门人尼古拉斯·埃斯特哈齐公爵，是一位兼具军事才华与政治野心的贵族。他看中的，正是城堡地处神圣罗马帝国东部边境、直面奥斯曼土耳其帝国威胁的关键位置。于是，一场浩大的改造工程开始了。尼古拉斯公爵没有将它变成单纯的奢华宫殿，而是决心将其打造为一个坚不可摧的军事指挥部和家族权力的终极象征。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在随后的岁月里，城堡经历了它最辉煌也最紧张的时代。1683年，奥斯曼帝国大军第二次围攻维也纳，整个欧洲基督教世界岌岌可危。在这场决定命运的战斗中，埃斯特哈齐家族的军队作为哈布斯堡王朝联军的重要组成部分，参与了关键战役并最终取得了辉煌胜利。城堡，作为大后方，成为了战争物资的中转站和凯旋将士的归所。更重要的是，随着战事的推进，大量从溃败的奥斯曼军队中缴获的战利品——从苏丹亲兵华丽的服饰到整个军营的奢华装备——被源源不断地运回福尔希滕施泰因。这些战利品不仅仅是财富，更是荣誉的证明。家族决定将它们精心保存下来，于是，城堡深处那些干燥、坚固的岩石密室，便成了这些东方瑰宝的沉睡之地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，埃斯特哈齐家族的远见不止于此。他们不仅是武士，也是艺术的庇护者和精明的管理者。在加固防御的同时，他们也引入了文艺复兴的审美，增建了礼拜堂，用壁画和雕塑装饰家族房间。更重要的是，他们将城堡的地下空间系统性地改建成了庞大的家族档案馆、金库和珍宝馆。除了奥斯曼战利品，几个世纪以来家族的契约、艺术品、稀有书籍、乃至奇珍异宝都被收藏于此。由于城堡从未被攻陷，这些收藏得以奇迹般地完整保存，形成了一个跨越数百年的“时间胶囊”。你可以看到16世纪的铠甲旁边，放着18世纪的中国瓷器；军事地图与优雅的家族肖像画共处一室。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转，到了19世纪，直接的军事威胁早已消失，城堡的军事功能逐渐褪去。但它作为家族历史和财富保管库的角色却从未改变。埃斯特哈齐家族的后人小心翼翼地维护着这座祖先的遗产，没有进行破坏性的现代化改造，使得城堡内部那种原汁原味的、混合着武库、宝库和家园的气息得以留存。直到20世纪下半叶，家族才逐步将其对公众开放，让世人得以窥见这个隐藏在边境堡垒之中的惊人世界。今天的我们，走在那些幽深的走廊和堆满珍宝的房间里，触摸的不仅是冰冷的钢铁和璀璨的宝石，更是一段由野心、勇气、恐惧和荣耀共同编织的、活生生的欧洲东部边疆史。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在上午10点开门时即抵达，成为首批访客，这样才能在相对安静的氛围中感受城堡最初的威严。整个深度游览至少需要预留4小时。游览节奏应是“先外后内，先抑后扬”：先从外部环绕，感受其作为堡垒的压迫感；然后进入内部，按照历史脉络，从军事防御空间逐步过渡到家族生活与宝藏空间。这样的安排能让你更好地理解城堡从“盾”到“宝盒”的双重身份演变。导览器信息量巨大，请务必佩戴耳机，按自己的节奏聆听，在军械库和宝藏室尤其值得驻足良久。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`城堡内部许多区域禁止拍照（尤其是珍宝馆），请务必遵守规定，用心而非镜头去记忆。部分通道和楼梯非常狭窄陡峭，请务必穿着舒适防滑的鞋子。导览器内容丰富，如果时间有限，建议优先保证军械库和珍宝馆的聆听与观看时间。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从停车场穿过一片小树林，首先在城堡山脚的木桥上驻足，抬头仰望那座仿佛从岩石中生长出来的白色巨塔与连绵的城墙`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`通过古老的吊桥与拱门进入城堡庭院，触摸那些被岁月打磨得光滑而冰冷的石墙，感受庭院中那份被高墙围出的寂静`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随语音导览的指引，步入令人震撼的“长枪大厅”，让目光掠过从地面堆叠到天花板的数千件古董武器、盔甲和战旗`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着狭窄的旋转石阶向下，进入地下的核心——珍宝馆，在幽暗而恒温的灯光下，面对堆积如山的奥斯曼丝绸、珠宝、武器和帐篷，体验一种近乎窒息的视觉冲击`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观埃斯特哈齐家族相对私密的起居室和小礼拜堂，看看那些精致的家具与宗教壁画，对比军事空间的粗犷，理解贵族生活的另一面`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上城堡的主塔楼，在呼啸的风中360度俯瞰布尔根兰的乡村全景，远眺隐约可见的匈牙利平原，体会当年哨兵瞭望敌情的心境`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，不要错过城堡后方宁静的花园和葡萄园小径，从这里回望城堡全貌，让方才接收的所有历史信息在宁静的自然风光中慢慢沉淀`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡前方木桥处仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚阳光角度较低时，可以拍到城堡塔楼沐浴在金色光线中、倒映在前方小池塘里的经典全景，构图时带入一些前景的野花或树木会更有层次`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`军械库内部低角度拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`利用室内允许拍照的区域，将相机贴近地面向上拍摄林立的盔甲和长矛，能极大地增强空间的纵深感与武器的威严感（需关闭闪光灯）`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城堡西侧外墙与葡萄园`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，阳光照亮城堡巨大的白色石墙，走到西侧下方的葡萄园田埂上，可以拍摄城堡与代表当地生活的葡萄园同框的和谐画面`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`主塔楼顶俯瞰视角`}</h4>
+                  <p className="text-sm text-gray-700">{`登上塔顶后，使用广角镜头，将锯齿状的城垛作为前景，框住远处连绵的森林、红色屋顶的小镇和更远处平缓的田野，构成一幅完美的边疆风景画`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`室内光线普遍昏暗，若允许拍照，尽量使用大光圈镜头或提高ISO，保持相机稳定，绝对不要使用闪光灯以免损坏珍贵文物。拍摄外观时，多利用云层的变化和不同时段的光影，阴雨天气反而能强化城堡苍凉坚毅的气质。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在几分钟车程外的 Mattersburg 小镇家庭旅馆，房间干净温馨，主人会热情地为你手绘地图，并推荐镇上最地道的匈牙利风味餐馆`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择福尔希滕施泰因本地由古老农庄改建的乡村公寓，清晨在鸟鸣中醒来，推开窗就能看到城堡的剪影矗立在晨雾之中，真正融入当地生活节奏`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻在布尔根兰州著名的葡萄酒产区一座历史悠久的庄园酒店，在一天的城堡历史探险后，享受一个拥有四柱床的复古房间，并在酒店的米其林推荐餐厅品尝用本地食材烹饪的现代奥地利美食`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`独一无二`}</h4>
+                  <p className="text-sm text-purple-800">{`预订附近小镇一家由百年水疗浴场改造的设计酒店，在充满现代艺术感的空间里放松身心，体验奥地利传统的温泉文化，感受历史与当代生活的奇妙交汇`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`布尔根兰州乡村地区住宿数量有限，尤其在夏季和葡萄酒节期间非常紧俏，务必提前数月预订。该地区治安极好，民风淳朴，晚上可以安心散步。如果计划探索周边多个葡萄酒庄，租车是最佳选择，公共交通在乡村地带班次较少。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开福尔希滕施泰因城堡很久之后，脑海里挥之不去的，不是某一件具体的镶宝匕首或华丽帐篷，而是一种强烈的对比感带来的内心震撼。在同一个岩石构筑的躯体里，竟能同时容纳如此极端的两种气质：一种是面向外部世界的、冰冷的、钢铁般的防御与对抗；另一种是面向家族内部的、温热的、对财富与记忆的精心囤积与守护。它像一颗坚硬的心脏，一边泵出的是战争的血与铁，另一边回流的是文化的金与丝。这种复杂性，让它在众多优雅华美的欧洲宫殿城堡中，显得格外沉重而真实。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个信息爆炸却记忆短暂、追求光滑完美体验的快节奏世界里，福尔希滕施泰因提供了一种截然不同的旅行价值。它不试图讨好你，甚至有些“不修边幅”——珍宝就那么堆积着，盔甲上的战伤清晰可见。但正是这种原始的真实，构成了无与伦比的张力。它提醒我们，历史的本质并非教科书上整洁的章节，而是由具体的恐惧、贪婪、荣耀和生存智慧混合而成的混沌洪流。每一位热爱深度游的旅人都应该来此，不仅仅是为了一眼传说中的宝藏，更是为了站在那座塔楼上，感受从匈牙利平原吹来的风，试着去理解边疆为何物，理解守护与积累如何塑造了一个家族、一个地区乃至一段文明的性格。这是一次走进历史仓库而非历史橱窗的旅程，它所赠与你的，是一种沉甸甸的、关于时间与存在的实在感。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gyula-water-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    久
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">久洛城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gyula Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gmunden" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    格
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格蒙登湖城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gmunden</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/spiez-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施皮茨城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spiez Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

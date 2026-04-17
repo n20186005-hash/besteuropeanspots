@@ -188,36 +188,36 @@ export default function TempleOfApolloEpicuriusBassaePage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/kavala" className="block group">
+              <a href="/attractions/meteora-monasteries" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    卡
+                    梅
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡瓦拉老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kavala</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅黛奥拉悬空修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meteora</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/ancient-city-of-acheron" className="block group">
+              <a href="/attractions/monemvasia" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    阿
+                    莫
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿切伦扎古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ancient City of Acheron</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫奈姆瓦夏</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monemvasia</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/rhodes-old-town" className="block group">
+              <a href="/attractions/molyvos-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    罗
+                    莫
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">罗德岛骑士街</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rhodes Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫利沃斯（依山傍海的石头城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Molyvos</p>
                   </div>
                 </div>
               </a>

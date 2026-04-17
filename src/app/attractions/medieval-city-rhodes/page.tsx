@@ -195,36 +195,36 @@ export default function MedievalCityRhodesPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/xanthi" className="block group">
+              <a href="/attractions/galaxidi-traditional-sailing-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    加
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">加拉西迪</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Galaxidi</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/xanthi-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
                     克
                   </div>
                   <div className="p-4">
                     <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克桑西古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Xanthi</p>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Xanthi Old Town</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/kavala-old-town" className="block group">
+              <a href="/attractions/ancient-theatre-of-epidaurus" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    卡
+                    埃
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡瓦拉老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kavala Old Town</p>
-                  </div>
-                </div>
-              </a>
-              <a href="/attractions/karpenisi-greece" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    卡
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔派尼西</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Karpenisi</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃皮达鲁斯古剧场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ancient Theatre of Epidaurus</p>
                   </div>
                 </div>
               </a>

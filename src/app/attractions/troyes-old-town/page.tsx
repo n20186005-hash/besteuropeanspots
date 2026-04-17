@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '特鲁瓦老城 Troyes Old Town｜漫步香槟区的彩色木筋屋森林与中世纪时光胶囊 - 最佳欧洲景点',
-  description: '还记得我第一次拐进特鲁瓦老城的那一刻吗？就好像有人突然把21世纪的嘈杂音量调到了静音，然后给你戴上了一副中世纪的VR眼镜。扑面而来的不是历史书的灰尘味，而是一股混合了木头、潮湿石板和远处面包店飘来的黄油香气的复杂味道。眼前的世界瞬间被调色盘打翻了——鹅黄、赭石、砖红、天蓝、墨绿，一栋栋歪歪扭扭、却又...',
+  title: '特鲁瓦中世纪老城 Troyes Old Town｜时光凝固的“香槟酒桶”与木筋屋迷宫 - 最佳欧洲景点',
+  description: '还记得我第一次拐进特鲁瓦老城时的那种恍惚吗？就像有人不小心把书签夹在了十五世纪的某一页，然后这本书就被遗忘了。时间在这里不是流逝，而是沉淀。脚下是那种被无数代人鞋底磨得光滑发亮的鹅卵石，走在上面有轻微的、悦耳的“喀嗒”声，声音在两边高耸的木筋屋墙壁间轻轻回响。空气里有种复杂的味道——老木头微微的潮气...',
 }
 
 export default function TroyesOldTownPage() {
@@ -16,57 +16,55 @@ export default function TroyesOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '特鲁瓦老城', href: '/attractions/troyes-old-town' },
+            { label: '特鲁瓦中世纪老城', href: '/attractions/troyes-old-town' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`特鲁瓦老城・Troyes Old Town・法国・特鲁瓦`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`特鲁瓦中世纪老城・Troyes Old Town・法国・特鲁瓦`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`还记得我第一次拐进特鲁瓦老城的那一刻吗？就好像有人突然把21世纪的嘈杂音量调到了静音，然后给你戴上了一副中世纪的VR眼镜。扑面而来的不是历史书的灰尘味，而是一股混合了木头、潮湿石板和远处面包店飘来的黄油香气的复杂味道。眼前的世界瞬间被调色盘打翻了——鹅黄、赭石、砖红、天蓝、墨绿，一栋栋歪歪扭扭、却又亲密依偎着的木筋墙房子，像喝多了香槟的快乐巨人，相互搀扶着站在狭窄的弯街曲巷两旁。阳光从锯齿状的屋顶间斜切下来，在古老的铺路石上画出明明暗暗的光带，你的影子拉得老长，仿佛也跟着变回了几个世纪前的模样。
-这里最打动人的，是那种“活着”的历史感。它不是被圈起来、标好价的景点，而是特鲁瓦人呼吸、生活、买菜、喝咖啡的日常舞台。你会在挂着巨大铁艺招牌的肉铺前，听到老板娘用带着香槟口音的法语和熟客聊天气；会在一家木筋屋二楼的窗口，瞥见一位老奶奶正在悉心浇灌她的一整排天竺葵；会在街角的小广场，遇到放学后追逐打闹的孩子，他们的笑声在古老的墙面间清脆地回弹。圣彼得圣保罗大教堂的钟声准时响起，深沉而安稳，它不催促你，只是温柔地提醒着时间的另一种刻度。你会发现，老城的灵魂不在于任何一栋单独的建筑，而在于这整整一片由色彩、光影、声音和生活细节织就的、流动的挂毯。
-而特鲁瓦老城最核心的魅力，在于它那份举重若轻的幽默感与坚韧。你看那些木筋墙上的雕刻，不是严肃的圣像，而是调皮的小恶魔、滑稽的动物面孔、甚至是嘲讽世态百相的市民漫画。它们告诉你，这座城市在最繁荣的中世纪香槟集市时代，迎接过来自全欧洲的商旅与思想，骨子里就带着开放、精明和那么一点玩世不恭。历经数次大火（特鲁瓦真是“火中凤凰”），它总能以更鲜艳的色彩“重建”。走在其中，你感受到的不是历史的沉重负担，而是一种历经沧桑后依然热爱生活、乐于展示自己独特个性的旺盛生命力。这里，是理解法国北部平民生活史与商业精神的一把秘密钥匙。`}
+            {`还记得我第一次拐进特鲁瓦老城时的那种恍惚吗？就像有人不小心把书签夹在了十五世纪的某一页，然后这本书就被遗忘了。时间在这里不是流逝，而是沉淀。脚下是那种被无数代人鞋底磨得光滑发亮的鹅卵石，走在上面有轻微的、悦耳的“喀嗒”声，声音在两边高耸的木筋屋墙壁间轻轻回响。空气里有种复杂的味道——老木头微微的潮气，从某扇虚掩的门后飘出的新鲜面包的焦香，混合着远处花店传来的一丝清甜。阳光很难直射到巷子底部，只在那些倾斜的、彩色的屋顶上跳跃，把赭石色、靛蓝色、墨绿色的木梁照得纹理分明，光影在墙壁上切割出锐利又温柔的线条。
+这里不是那种空荡荡的纪念区。特鲁瓦的老城是活的。二楼凸出的窗户下，一位老先生正慢悠悠地给窗台上的天竺葵浇水，水滴溅到楼下咖啡馆的遮阳棚上，发出“噗噗”的闷响。肉铺的老板系着雪白的围裙，正和熟客讨论今晚牛排的火候，刀砧碰撞声清脆而有节奏。你随时会与一个推着自行车、车篮里插着长棍面包的主妇擦肩而过，面包尾端几乎要扫到你的胳膊。这就是它最打动人的地方：宏伟的历史不是被供奉在玻璃罩里，而是溶解在日常的呼吸里，成了生活本身朴素的背景。
+而它的核心魅力，就在于那个奇妙的“香槟酒桶”布局。你在地图上看，老城被运河温柔地环绕，形状真的就像一个躺倒的橡木酒桶。但这并非刻意设计，而是历史无心的杰作。走在其中，你不会有“我在参观一个景点”的疏离感，反而像掉进了一个温暖的、由时光编织的迷宫。每条巷子都似乎通向另一个更幽静、更美丽的角落，每一个转角都可能撞见一座被蔷薇花爬满的静默小教堂，或是一个藏着中世纪铁艺招牌的寂静庭院。它不张扬，不喧嚣，只是静静地、完整地保存着一种已经远去的、却依然触手可及的生活质地。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`还记得我第一次拐进特鲁瓦老城的那一刻吗？就好像有人突然把21世纪的嘈杂音量调到了静音，然后给你戴上了一副中世纪的VR眼镜。扑面而来的不是历史书的灰尘味，而是一股混合了木头、潮湿石板和远处面包店飘来的黄油香气的复杂味道。眼前的世界瞬间被调色盘打翻了——鹅黄、赭石、砖红、天蓝、墨绿，一栋栋歪歪扭扭、却又亲密依偎着的木筋墙房子，像喝多了香槟的快乐巨人，相互搀扶着站在狭窄的弯街曲巷两旁。阳光从锯齿状的屋顶间斜切下来，在古老的铺路石上画出明明暗暗的光带，你的影子拉得老长，仿佛也跟着变回了几个世纪前的模样。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这里最打动人的，是那种“活着”的历史感。它不是被圈起来、标好价的景点，而是特鲁瓦人呼吸、生活、买菜、喝咖啡的日常舞台。你会在挂着巨大铁艺招牌的肉铺前，听到老板娘用带着香槟口音的法语和熟客聊天气；会在一家木筋屋二楼的窗口，瞥见一位老奶奶正在悉心浇灌她的一整排天竺葵；会在街角的小广场，遇到放学后追逐打闹的孩子，他们的笑声在古老的墙面间清脆地回弹。圣彼得圣保罗大教堂的钟声准时响起，深沉而安稳，它不催促你，只是温柔地提醒着时间的另一种刻度。你会发现，老城的灵魂不在于任何一栋单独的建筑，而在于这整整一片由色彩、光影、声音和生活细节织就的、流动的挂毯。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`而特鲁瓦老城最核心的魅力，在于它那份举重若轻的幽默感与坚韧。你看那些木筋墙上的雕刻，不是严肃的圣像，而是调皮的小恶魔、滑稽的动物面孔、甚至是嘲讽世态百相的市民漫画。它们告诉你，这座城市在最繁荣的中世纪香槟集市时代，迎接过来自全欧洲的商旅与思想，骨子里就带着开放、精明和那么一点玩世不恭。历经数次大火（特鲁瓦真是“火中凤凰”），它总能以更鲜艳的色彩“重建”。走在其中，你感受到的不是历史的沉重负担，而是一种历经沧桑后依然热爱生活、乐于展示自己独特个性的旺盛生命力。这里，是理解法国北部平民生活史与商业精神的一把秘密钥匙。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`还记得我第一次拐进特鲁瓦老城时的那种恍惚吗？就像有人不小心把书签夹在了十五世纪的某一页，然后这本书就被遗忘了。时间在这里不是流逝，而是沉淀。脚下是那种被无数代人鞋底磨得光滑发亮的鹅卵石，走在上面有轻微的、悦耳的“喀嗒”声，声音在两边高耸的木筋屋墙壁间轻轻回响。空气里有种复杂的味道——老木头微微的潮气，从某扇虚掩的门后飘出的新鲜面包的焦香，混合着远处花店传来的一丝清甜。阳光很难直射到巷子底部，只在那些倾斜的、彩色的屋顶上跳跃，把赭石色、靛蓝色、墨绿色的木梁照得纹理分明，光影在墙壁上切割出锐利又温柔的线条。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里不是那种空荡荡的纪念区。特鲁瓦的老城是活的。二楼凸出的窗户下，一位老先生正慢悠悠地给窗台上的天竺葵浇水，水滴溅到楼下咖啡馆的遮阳棚上，发出“噗噗”的闷响。肉铺的老板系着雪白的围裙，正和熟客讨论今晚牛排的火候，刀砧碰撞声清脆而有节奏。你随时会与一个推着自行车、车篮里插着长棍面包的主妇擦肩而过，面包尾端几乎要扫到你的胳膊。这就是它最打动人的地方：宏伟的历史不是被供奉在玻璃罩里，而是溶解在日常的呼吸里，成了生活本身朴素的背景。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而它的核心魅力，就在于那个奇妙的“香槟酒桶”布局。你在地图上看，老城被运河温柔地环绕，形状真的就像一个躺倒的橡木酒桶。但这并非刻意设计，而是历史无心的杰作。走在其中，你不会有“我在参观一个景点”的疏离感，反而像掉进了一个温暖的、由时光编织的迷宫。每条巷子都似乎通向另一个更幽静、更美丽的角落，每一个转角都可能撞见一座被蔷薇花爬满的静默小教堂，或是一个藏着中世纪铁艺招牌的寂静庭院。它不张扬，不喧嚣，只是静静地、完整地保存着一种已经远去的、却依然触手可及的生活质地。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={`特鲁瓦老城`} />
+                <InfoRow label="中文名称" value={`特鲁瓦中世纪老城`} />
                 <InfoRow label="英文名称" value={`Troyes Old Town`} />
                 <InfoRow label="正式名称" value={`Troyes Old Town`} />
                 <InfoRow label="国家" value={`法国`} />
                 <InfoRow label="城市" value={`特鲁瓦`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`法国保存最完好的中世纪古城之一，历史上是香槟伯爵领地的首府和欧洲中世纪最著名的香槟集市所在地，被誉为“彩色木筋屋的露天博物馆”。`} />
-                <InfoRow label="建筑特色" value={`密集且保存完好的16-18世纪彩色木筋墙房屋，构成了迷宫般的街区格局，其屋顶轮廓线和房屋立面色彩形成独特的“香槟塞”形状（俯视图）。`} />
-                <InfoRow label="建筑风格" value={`以中世纪晚期和文艺复兴时期的木筋墙建筑为主，混杂了罗曼式、火焰哥特式教堂建筑，形成多元而和谐的整体风貌。`} />
-                <InfoRow label="文化价值" value={`是欧洲中世纪商业文明、城市自治和建筑艺术的活化石，深刻反映了香槟地区从贸易中心向文化、手工艺（特别是针织业）重镇转变的历史轨迹。`} />
+                <InfoRow label="历史地位" value={`中世纪欧洲最重要的贸易与宗教中心之一，鼎盛时期香槟大集市的发源地与心脏，深刻影响了整个欧洲的商贸与金融体系。`} />
+                <InfoRow label="建筑特色" value={`由无数紧密排列、色彩斑斓的中世纪木筋墙房屋构成的街巷网络，其整体平面图酷似一个“香槟酒桶”，形成了独一无二的的城市肌理。`} />
+                <InfoRow label="建筑风格" value={`以法国晚期哥特式建筑为骨架，大量融合了文艺复兴时期精美雕饰的半木结构民居，被称为“木筋墙风格”的露天博物馆。`} />
+                <InfoRow label="文化价值" value={`一座几乎没有被现代战争破坏的、活生生的中世纪城市博物馆，完美保存了从商业繁荣到宗教虔诚时代市民生活的完整画卷。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`老城区公共区域全天开放。主要历史建筑（如特鲁瓦圣母大教堂、圣彼得圣保罗大教堂）开放时间通常为周一至周六 9:30-12:30, 14:00-17:30，周日及宗教节日开放时间缩短或仅对礼拜者开放。小型博物馆和特色商铺开放时间各异，许多在周一闭馆，建议提前查询。圣诞市场期间（11月底至12月底）老城夜间灯火通明，氛围独特。`} />
-              <InfoRow label="门票价格" value={`漫步老城街道免费。进入各教堂免费，但鼓励捐赠以支持维护。部分博物馆收费，如现代艺术博物馆门票约5-7欧元，特鲁瓦历史博物馆门票约4-6欧元。常有联票出售。学生、青少年及团体享有优惠，具体以各场馆公示为准。`} />
-              <InfoRow label="地址" value={`Old Town Center, 10000 Troyes, France`} />
-              <InfoRow label="交通方式" value={`从巴黎出发最为便捷。从巴黎东站乘坐TER或Intercités火车，约1.5-2小时直达特鲁瓦火车站，班次密集，几乎每小时一班，建议提前在SNCF官网或APP购票，非高峰时段有优惠。从特鲁瓦火车站步行至老城核心区仅需10-15分钟，沿着指示清晰的“Centre Ville”路牌即可轻松抵达。自驾可将车停放在老城边缘的公共停车场（如“Place de la Libération”停车场），老城内部多为步行区。`} />
+              <InfoRow label="开放时间" value={`老城街道及公共区域全天24小时开放。城内各博物馆、教堂等独立景点的开放时间各异，通常为周二至周日，上午10点至下午6点，夏季（6月至9月）部分景点会延长至晚上7点，冬季（11月至2月）可能提前至下午5点关闭。周一多数博物馆闭馆，但主座教堂等宗教场所通常开放。具体节日（如圣诞节、元旦）开放时间变动较大，建议行前查询官网。`} />
+              <InfoRow label="门票价格" value={`漫步老城街区本身完全免费。进入城内主要景点需购票：特鲁瓦圣母大教堂免费，但珍宝室门票约4欧元。特鲁瓦现代艺术博物馆门票约7欧元，学生票5欧元。圣卢潘教堂门票约3欧元。建议购买“特鲁瓦护照”联票，约12欧元，可进入包括上述景点在内的多个博物馆，有效期48小时。12岁以下儿童在大部分场馆免费。`} />
+              <InfoRow label="地址" value={`Ville de Troyes, Centre historique, 10000 Troyes, France`} />
+              <InfoRow label="交通方式" value={`从巴黎出发最为便捷。从巴黎东站（Gare de l‘Est）乘坐TER或Intercités列车，约1.5小时即可直达特鲁瓦火车站（Gare de Troyes），班次频繁，平均每小时1-2班。抵达特鲁瓦火车站后，老城区就在步行范围内，出站后沿着指示牌朝“Centre Ville”方向步行约15-20分钟即可进入核心区。若自驾，可将车停在老城边缘的“Cathédrale”或“Préfecture”大型停车场（收费约1.5欧元/小时），然后步行游览。从巴黎戴高乐机场或奥利机场，需先乘RER或机场巴士至巴黎东站再转火车。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`要讲特鲁瓦的故事，我们得把时钟拨回到罗马时代。那时，这里已经是重要的道路交叉点，但真正让它登上历史中心舞台的，是中世纪那几位雄心勃勃的香槟伯爵。你知道吗，在12-13世纪，特鲁瓦可是欧洲的“华尔街”兼“广交会”所在地。一年两次的香槟大集市，每次持续数月，整个西欧的商人、银行家、手工艺人都蜂拥而至。佛兰德斯的布料、意大利的丝绸、东方的香料、英国的羊毛……在这里交易、结算。你能想象当时的场景吗？狭窄的街道上挤满了不同语言、不同肤色的人，金币银币叮当作响，空气里混杂着皮革、香料和人群汗水的味道。特鲁瓦因此富得流油，也催生了欧洲早期的商业法和金融体系。那个时代的繁荣，为老城留下了最初的财富和开放基因。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，盛宴终会散场。随着海上贸易路线的兴起和法国王室直接统治香槟地区，特鲁瓦的集市光辉在14世纪逐渐暗淡。但城市的生命力转向了内部沉淀。富裕的商人、行会和宗教团体开始竞相建造华丽的木筋墙宅邸和教堂。这些房子可不是随意搭建的，每一根外露的深色木梁（通常是橡木）的排列方式——十字形、菱形、人字形，都不仅是装饰，更是承重结构，像一幅幅立体的几何谜题。立面上填充的彩色涂料（最初是石灰混合颜料），是主人财富和品味的直接炫耀。特鲁瓦老城俯视图像一个香槟酒瓶软木塞，这并非巧合，传说这正是为了向本地区的命脉产业致敬。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`但命运给了特鲁瓦严峻的考验。1524年，一场毁灭性的大火吞噬了城市的大部分木结构建筑。你可能会想，这该是多大的打击。但特鲁瓦人的回应堪称传奇。他们没有改用当时已开始流行的石材，而是倔强地、几乎带着一种仪式感，用同样的木筋墙技艺，在原址上重建家园，并且建得更多、更密、色彩更大胆！文艺复兴的风格也被融入其中，出现了更多雕刻精美的窗框和门楣。这场重建浪潮，塑造了今天我们看到的特鲁瓦老城的基本面貌——一种在灰烬中开出的、极致的彩色浪漫。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`平静的日子没过太久，宗教战争的阴影笼罩法国。特鲁瓦不幸成为天主教联盟的重要据点，经历了围城与动荡。进入工业革命时代，当法国许多城市忙着拆老城建新楼时，特鲁瓦却因地理位置相对边缘，加之本地发达的针织袜业（没错，这里曾是法国的“袜都”）提供了稳定经济，老城奇迹般地未被大规模改造，只是静静地“沉睡”了。许多木筋屋变成了工坊、仓库或普通民居，在时光的包裹下慢慢老化、褪色，却也得以保存。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`直到20世纪中后期，人们才重新认识到这片“沉睡的美人”的无比价值。一场漫长而精细的修复运动开始了。工匠们小心翼翼地清洗墙面，加固木结构，按历史档案恢复那些失传的色彩——不是刺眼的鲜亮，而是经过时间滤镜的、温柔又坚定的色调。这场修复不是把它变成博物馆标本，而是重新注入生活。今天，你看到的每一片色彩斑斓的墙面，不仅是美的展示，更是一份跨越数个世纪的城市坚韧宣言。从贸易之都到手工业城，再到文化遗产宝库，特鲁瓦老城像一条缓慢而优雅的河流，承载着记忆，始终向前流淌。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`特鲁瓦的故事，得从罗马人说起，但让它真正登上历史舞台闪耀的，是中世纪那几百年。这座城市位于巴黎盆地东南，几条重要商路的交汇点，地理上就写着“繁华”二字。不过，真正点石成金的是特鲁瓦的伯爵们，尤其是那些被称为“香槟伯爵”的统治者。从十世纪开始，他们非常有远见地推行了一种“和平政策”，保障来往商人的安全，并设立定期的集市。你想象一下，在通讯基本靠吼、治安基本靠运的年代，有一个地方告诉你“来这里做生意，我保你平安”，那吸引力得多大。于是，意大利的丝绸、弗兰德斯的呢绒、东方的香料、北方的皮毛，全汇聚到了特鲁瓦的广场上。到了十二、十三世纪，香槟集市（特鲁瓦是其中最重要的一站）成了全欧洲的贸易心脏和最早的“国际金融市场”，汇票这类玩意就在这里萌芽。那时的特鲁瓦，空气中弥漫着钱币的金属味、 exotic 香料的辛辣和世界各地口音的嘈杂，富得流油。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`钱有了，文化和信仰也不能落后。特鲁瓦在宗教史上也狠狠留下了一笔。就在1200年，这里发生了一场影响深远的会议，旨在调解基督教世界两位重量级教皇的纷争。虽然没完全成功，但让特鲁瓦的宗教地位飙升。更重要的是，那些赚得盆满钵满的商人和新兴的市民阶层，开始用石头和木头表达他们的虔诚与自豪。我们现在看到的众多教堂，比如宏伟的圣彼得和圣保罗教堂、优雅的圣玛德莱娜教堂，都是那个黄金时代的产物。而普通市民呢？他们用大量的木筋屋填满了教堂之间的空隙。木筋墙建筑成本相对低，建造快，而且特别适合在狭窄的地块上向上争取空间——于是，就有了那些俏皮地向外凸出的楼层、雕刻着寓言故事或行业标志的梁托，把一条条街道挤成了充满人情味的峡谷。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，没有永恒的盛宴。十四世纪后，海上贸易路线兴起，加上瘟疫和战乱，香槟集市衰落了，特鲁瓦的光芒渐渐黯淡。它从欧洲的十字路口，变回了法国一个宁静的内陆省城。但塞翁失马，焉知非福。正是这种“退隐”，让它逃过了后来许多城市的命运。法国大革命的风暴对它破坏有限，两次世界大战的炮火也奇迹般地绕开了它的老城中心（尽管新城受了重创）。当欧洲很多古城在战后忙于重建时，特鲁瓦只是掸了掸身上的灰尘，露出了它几乎原封未动的中世纪容颜。上世纪六七十年代，法国人开始珍视自己的历史遗产，特鲁瓦老城得到了精心的修复和保护，那些木筋屋被重新漆上历史上曾有过的明媚色彩。它不是废墟，不是仿古街，而是一个经历了完整生命周期的、依然在平稳呼吸的有机体，从辉煌到静默，再到被重新发现和珍爱，它的每一道木纹里，都刻着时间的叙事。`}</p>
             </div>
           </Section>
 
@@ -75,47 +73,47 @@ export default function TroyesOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`要彻底品味特鲁瓦老城，我强烈建议你留出完整的一天，并抱着“迷路也是乐趣”的心态。最佳抵达时间是上午九点前后，此时阳光温柔，旅游团还未涌入，本地商铺刚刚开门，老城刚刚苏醒。整体游览节奏宜慢不宜快，核心是穿梭在“香槟塞”形状的街区里，感受不同街巷的氛围差异。上午光线好，适合欣赏建筑立面和色彩，重点参观宏伟的圣彼得圣保罗大教堂；中午在本地小馆或集市解决午餐；下午则可以探索更僻静的小巷、逛逛特色小店，或选一个博物馆深入看看；傍晚时分，等待金色的光线为木筋屋披上最魔幻的外衣。这样安排能让你体验到老城从清晨宁静到午后慵懒，再到黄昏辉煌的完整韵律。`}
+                  {`要真正品味特鲁瓦老城，请务必给自己至少大半天的时光，最好是从清晨或午后开始。整体节奏一定要“慢”，这里不适合打卡赶路，只适合迷失与发现。建议下午两点左右抵达，那时午餐的人潮已散，阳光开始变得金黄倾斜，正是光影最魔幻的时刻。你可以先由外而内，沿着环绕老城的运河走一小段，从整体上感受那个“酒桶”形状，然后再像一滴酒液渗入橡木一样，钻进那迷宫般的街巷。游览的核心是随意漫步，让好奇心引领脚步，但把握几个关键地标能帮你构建认知框架。整个过程大约需要4-5小时，如果参观内部博物馆和教堂，则需要更久。傍晚时分，当店铺的灯光陆续亮起，鹅卵石路映出温润的光泽，则是另一番迷人景象。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`一定要穿最舒适的平底鞋，老城的石板路历经数百年打磨，虽然充满韵味但对高跟鞋极不友好。
-注意很多小博物馆和教堂中午有长达两小时的休息时间，规划参观时务必提前查好，避免吃闭门羹。
-老城周日和周一许多商店、餐馆闭门休息，生活节奏很慢，建议避开这两天进行深度探索。`}
+                  <strong>建议：</strong>{`老城中心部分区域为步行区，穿一双绝对舒适的平底鞋是对鹅卵石路面最基本的尊重。
+夏季旅游旺季的中午时段，主街上的游客会稍多，可以灵活拐进旁边任何一条安静的小巷，立刻就能获得一片宁静。
+虽然治安整体很好，但在人群密集的集市广场仍需注意保管随身小包，享受悠闲的同时保持基本警惕。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从老城西侧的圣约翰门附近起步，让第一眼就被那片如积木般堆叠的彩色木筋屋山墙震撼，沿着石板路慢慢浸入中世纪氛围。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从气势恢宏的圣彼得和圣保罗教堂开始你的旅程，先感受一下老城宗教建筑的尺度与庄严`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`毫不犹豫地拐进第一条吸引你的狭窄小巷，比如猫街，抬头看看那些几乎要在空中“接吻”的对面房屋阳台，感受巷道本身的幽深魅力。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`立刻钻进教堂背后那条著名的Rue Champeaux，让两侧如彩色积木般倾斜挤靠的木筋屋瞬间将你吞没`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`走向城市制高点圣彼得圣保罗大教堂，花时间静静仰望它那火焰哥特式门廊上精细到令人屏息的雕刻，然后走进昏暗 interior，让彩色玻璃窗投下的光瀑洗涤心灵。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在迷宫般的巷弄中凭感觉穿行，不经意间抵达心脏地带的特鲁瓦圣母大教堂，仰望它那令人屏息的火焰哥特式立面和璀璨的玫瑰花窗`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`以教堂为圆心，像画圆圈一样探索周围的街区，特意去寻找那些有名字的美丽老屋，比如“猫头鹰之家”或“牡蛎壳之家”，读一读它们墙上的说明牌，和房子本身对话。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着rue de la Cité蜿蜒向东，去寻找那座藏在民居中的珍宝——拥有独一无二石雕祭廊的圣玛德莱娜教堂`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在正午前溜达到室内市场或面包店，买一根刚出炉的长棍配本地奶酪，坐在小广场的长凳上，像本地人一样享受一顿简单阳光午餐。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在布满小型艺廊和古董店的Rue de la Monnaie稍作流连，想象这里曾是铸币坊林立的金融街`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`午后钻进老城东部更居民化的街区，比如圣尼古拉斯区，这里的木筋屋更朴素生活化，听听窗台飘出的广播声，看看居民精心打理的小花圃。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`走到老城东端的圣卢潘教堂，登上钟楼（如果开放），俯瞰整个“香槟酒桶”屋顶的红色海洋和蜿蜒运河`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`将脚步引向塞纳河畔（没错，塞纳河源头就在附近），从“船夫公园”的绿色视角回望老城密密麻麻的屋顶，理解它“香槟塞”形状的由来。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`折返至生活气息浓郁的集市广场（Place du Marché au Pain），在露天咖啡馆坐下，像本地人一样点一杯咖啡观察过往行人`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在日落前回到核心区，找一家有百年历史的咖啡馆或葡萄酒吧，点一杯香槟区的起泡酒，看着街灯逐一亮起，照亮那些色彩斑斓的立面，结束完美的一天。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`最后在日落时分漫步到西边的运河畔，看灯光依次在老城的窗户里点亮，倒映在漆黑的水面上`}</p>
                 </div>
               </div>
             </div>
@@ -125,22 +123,28 @@ export default function TroyesOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`“船夫公园”河畔远眺点`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在塞纳河畔的公园绿地，用长焦镜头压缩空间，可以拍到老城建筑群在水中的倒影与背后教堂尖塔组成的全景图，光线柔和时色彩层次最丰富。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣约翰教堂钟楼顶的西北角`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后，阳光从西面打来，可以拍出木筋屋屋顶层层叠叠、光影对比强烈、直至远处圣母大教堂的经典全景。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“猫街”仰拍视角`}</h4>
-                  <p className="text-sm text-gray-700">{`正午阳光直射时，走进最窄的Ruelle des Chats，将镜头垂直向上，捕捉两边彩色木筋屋屋檐几乎合拢、露出一线天的戏剧性构图，别忘了带上一点天空的蓝色。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`Rue Champeaux街道中段仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚的低角度光线能极致勾勒出木筋梁的立体感和墙壁的鲜艳色彩，构图时让两侧房屋的斜线向天空交汇。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣彼得圣保罗大教堂玫瑰花窗内部`}</h4>
-                  <p className="text-sm text-gray-700">{`下午时段，当阳光穿透西立面的巨大玫瑰花窗，站在中殿后半部，拍摄光线如彩色瀑布般倾泻在古老石柱和地面上，等待一两个游客的身影成为画面的灵魂点缀。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`特鲁瓦圣母大教堂内部中殿尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`午后阳光穿透南侧彩色玻璃窗时，站在中殿后部向前拍，能捕捉到一道道光束如神启般洒在古老石柱与地砖上的神圣场景。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“公牛街”的彩色立面阵列`}</h4>
-                  <p className="text-sm text-gray-700">{`下午三四点，太阳西斜时，来到Rue du Général de Gaulle等街道，利用侧光突出木筋的立体感和墙面的纹理质感，拍摄一连串不同色彩、不同木纹图案的房屋立面，形成华丽的视觉拼接。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`运河上的“Pont des Bains”桥`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏蓝调时刻，以运河为前景，对岸成排亮起暖黄色灯光的老屋倒映在水中，能拍出静谧而富有诗意的水城镜像。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`Rue de la Cité的某个拱门下`}</h4>
+                  <p className="text-sm text-gray-700">{`利用拱门或巷口的自然框架，拍摄纵深街道上行人漫步的背影，焦点对在远处，营造出故事感和时空穿越的意境。`}</p>
                 </div>
               </div>
 
@@ -149,8 +153,9 @@ export default function TroyesOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`拍摄居民和商铺内部前，请务必先微笑示意并征得同意，法国人很注重隐私，一个友好的“Bonjour”是万能钥匙。`}</li>
-                <li>• {`充分利用老城的光影变化，侧光和逆光往往比顺光更能拍出木筋墙的质感和岁月的故事感，阴天时色彩反而更加饱和柔和。`}</li>
+                <li>• {`建议携带一支广角镜头，以便在狭窄街道内捕捉完整的建筑立面和老城天际线。`}</li>
+                <li>• {`教堂内部拍摄务必关闭闪光灯，并保持肃静，尊重正在祷告的人。`}</li>
+                <li>• {`拍摄当地居民或店铺内部前，一个友好的微笑和简单的手势征询同意，会让你和你的镜头更受欢迎。`}</li>
               </ul>
             </div>
           </Section>
@@ -159,33 +164,72 @@ export default function TroyesOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`特色体验`}</h4>
-                  <p className="text-sm text-blue-800">{`入住一栋经过精心修复的16世纪木筋墙房屋改造的精品酒店，睡在古老的橡木梁下，清晨被透过彩色玻璃窗的阳光唤醒，彻底沉浸于历史氛围中。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`位于老城边缘一栋17世纪建筑里的温馨民宿，主人会为你手绘一张只有本地人才知道的秘密庭院地图，早餐是家庭自制的果酱和可颂。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`文艺之选`}</h4>
-                  <p className="text-sm text-green-800">{`老城中心由旧针织工坊改建的设计师酒店，空间保留了工业元素，混搭现代家具，窗外就是典型的特鲁瓦街景，性价比极高。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`由一栋15世纪木筋屋精心修复的精品酒店，房间保留了原始的橡木梁和石墙，浴缸却现代感十足，躺在里面能透过天窗看到星星。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
-                  <p className="text-sm text-yellow-800">{`坐落在老城边缘宁静花园中的贵族宅邸式酒店，房间宽敞典雅，提供香槟区特色早餐，步行两分钟即可进入喧嚣的老城迷宫，动静皆宜。`}</p>
+                  <p className="text-sm text-yellow-800">{`坐落在宁静运河畔的五星级酒店，由几座古老宅邸连通而成，拥有一个隐蔽的内庭花园，在花园里享用香槟区早餐是无可替代的享受。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`民宿情怀`}</h4>
-                  <p className="text-sm text-purple-800">{`选择一户住在老城深处的Airbnb房东家，可能是位退休的针织匠人，听他讲述老城的故事，早上还能闻到房东在楼下厨房准备早餐的香味。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`独特体验`}</h4>
+                  <p className="text-sm text-purple-800">{`老城中心由古老修道院部分建筑改造的设计师旅馆，空间充满侘寂美学与历史元素的碰撞，每晚在绝对的寂静中入睡，清晨被教堂钟声唤醒。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`老城内部夜晚非常安静，治安良好，但街区路灯可能较暗，选择住宿时留意评价中关于夜间入口是否方便寻找的描述。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`旺季（特别是夏季和圣诞市场期间）住宿非常紧俏，这些特色酒店房间数往往很少，务必提前数月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿数量有限且非常受欢迎，尤其是特色精品酒店，务必提前数月预订，夏季和圣诞市场期间更是如此。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`住在老城内虽然价格稍高，但能体验入夜后和清晨游客未至时那份专属的静谧，价值远超价差。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`特鲁瓦老城夜间非常安全、宁静，可以放心晚归或清晨独自散步，感受城市沉睡或苏醒的呼吸。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开特鲁瓦老城好多天了，我闭上眼，脑海里不是某个具体的教堂穹顶或雕刻细节，而是一种整体的、暖融融的色调，和一种缓慢的、笃定的心跳声。这个地方教会我的，是历史可以不必沉重如山，而是可以如此轻盈、多彩，甚至带点幽默地，生长在每一天的日常生活里。它没有被供奉在神坛上，而是被一代代特鲁瓦人穿着、住着、使用着、爱护着。这种“活着的遗产”，比任何真空保护下的古迹都更有生命力，也更打动人心。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在一切都追求快、新、变的今天，特鲁瓦老城像一个固执而温柔的提醒。它告诉你，有些价值需要缓慢的守护，有些美丽存在于整体的和谐而非单个的突兀，有些繁华褪去后留下的从容底蕴，比巅峰时的喧嚣更值得品味。对于每一位真正热爱深度游的旅人来说，这里不仅仅是一个“景点”，更是一堂关于时间、社区与坚韧的沉浸式哲学课。它让你相信，一座城市可以历经大火、战争与沉寂，却依然能用最绚烂的色彩，向世界微笑。这份从废墟中开出花朵的勇气，这份将日常过成艺术的智慧，值得你穿上一双好鞋，花上一整天，慢慢地走，用心地听，把它列入你灵魂旅行地图上，不可或缺的一站。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开特鲁瓦好多天了，但闭上眼睛，指尖仿佛还能触碰到那些木梁粗糙温暖的质感，鼻尖还萦绕着石头混合着咖啡的复杂气息。这个地方给我的，不是那种看到旷世奇观后的剧烈震撼，而是一种绵长、细腻的安抚。在这个一切都追求“新”、追求“快”的世界里，特鲁瓦老城的存在，就像一个坚定的反义词。它告诉我们，有些价值在于“不变”，有些美在于“沉淀”。走在那迷宫里，你会不自觉地放慢脚步，压低声音，不是因为这里是什么神圣禁地，而是因为那种完整的、自洽的旧日氛围，具有一种让人心神宁静的魔力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，如果你厌倦了那些被旅游大巴塞满的“必去打卡地”，如果你渴望的旅行不是拍几张照片证明“我来过”，而是真正地“生活过”一小段不一样的时光，那么，请一定把特鲁瓦放进你的清单。它不会用惊涛骇浪般的景观冲击你，但它会像一条缓慢流淌的、温暖的河流，慢慢浸润你，带走焦虑与浮躁。在这里，历史不是教科书上冰冷的知识点，而是你脚下踩着的石头，身边擦过的墙壁，是面包店飘出的香气，是老太太对你善意的微笑。它让你相信，有些美好的世界，并未彻底消失，它只是在一个安静的角落里，静静地等待着懂得慢下来、用心去感受的人。这，或许就是深度旅行最珍贵的意义。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/sarlat-la-caneda" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨尔拉拉卡内达</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sarlat-la-Canéda</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-beynac" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝纳克城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Beynac</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beauvais-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博韦大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beauvais Cathedral</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

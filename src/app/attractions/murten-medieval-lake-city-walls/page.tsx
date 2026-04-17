@@ -192,36 +192,36 @@ export default function MurtenMedievalLakeCityWallsPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/castles-of-bellinzona" className="block group">
+              <a href="/attractions/gruyeres-medieval-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    贝
+                    格
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝林佐纳三城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castles of Bellinzona</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格吕耶尔中世纪小镇</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gruyères</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/aigle-castle-vineyard-museum" className="block group">
+              <a href="/attractions/chur-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    埃
+                    库
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃格勒城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Aigle Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">库尔老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Chur Old Town</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/thun-castle-old-town" className="block group">
+              <a href="/attractions/appenzell-traditional-village" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    图
+                    阿
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图恩城堡与老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Thun Castle and Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿彭策尔传统村落</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Appenzell</p>
                   </div>
                 </div>
               </a>

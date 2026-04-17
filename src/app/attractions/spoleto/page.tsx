@@ -192,36 +192,36 @@ export default function SpoletoPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/ravenna-mosaics" className="block group">
+              <a href="/attractions/todi-medieval-hilltown" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    拉
+                    托
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉文纳马赛克群</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Early Christian Monuments of Ravenna</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">托迪中世纪古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Todi</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/castiglione-del-lago-trasing-eno-lake" className="block group">
+              <a href="/attractions/pienza-renaissance-ideal-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    皮
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">皮恩扎</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pienza</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/caceres-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
                     卡
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯蒂廖内-德尔拉戈</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castiglione del Lago</p>
-                  </div>
-                </div>
-              </a>
-              <a href="/attractions/castelmezzano-basilicata" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    卡
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯特尔梅扎诺</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castelmezzano</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡塞雷斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cáceres Old Town</p>
                   </div>
                 </div>
               </a>

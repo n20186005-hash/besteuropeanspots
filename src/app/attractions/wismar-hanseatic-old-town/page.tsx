@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '维斯马汉萨同盟老城 Wismar Hanseatic Old Town｜漫步在时间凝固的波罗的海红砖童话里 - 最佳欧洲景点',
-  description: '当你第一脚踏入维斯马的老城，感觉不像走进一个景点，而是不小心拧动了时间的旋钮，退回到了某个宁静的午后。空气里有股独特的混合气息——波罗的海吹来的、带点咸味的微风，轻轻拂过；老建筑红砖墙缝里青苔和潮湿石头散发出的、近乎于森林的 earthy 味道；还有从街角面包房飘出来的、新鲜烤姜饼和肉桂卷的暖甜香。...',
+  title: '维斯马汉萨老城 Wismar Old Town｜北海畔被时光封存的汉萨红砖珍宝 - 最佳欧洲景点',
+  description: '想象一下，你从略显嘈杂的现代火车站走出来，拐过一个街角，时间仿佛“咔哒”一声被向后拨动了六百年。首先迎接你的不是某个地标建筑的尖顶，而是一种混合着海风、潮湿石板和淡淡咖啡香的气味。脚下的路瞬间变成了被岁月磨得温润光亮的鹅卵石，缝隙里长着青苔。这就是维斯马老城给你的第一印象——它不是一座被圈起来的博物...',
 }
 
 export default function WismarHanseaticOldTownPage() {
@@ -16,58 +16,56 @@ export default function WismarHanseaticOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '维斯马汉萨同盟老城', href: '/attractions/wismar-hanseatic-old-town' },
+            { label: '维斯马汉萨老城', href: '/attractions/wismar-hanseatic-old-town' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`维斯马汉萨同盟老城・Wismar Hanseatic Old Town・德国・维斯马`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`维斯马汉萨老城・Wismar Old Town・德国・维斯马`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`当你第一脚踏入维斯马的老城，感觉不像走进一个景点，而是不小心拧动了时间的旋钮，退回到了某个宁静的午后。空气里有股独特的混合气息——波罗的海吹来的、带点咸味的微风，轻轻拂过；老建筑红砖墙缝里青苔和潮湿石头散发出的、近乎于森林的 earthy 味道；还有从街角面包房飘出来的、新鲜烤姜饼和肉桂卷的暖甜香。这一切构成了维斯马最初的嗅觉记忆，沉静而踏实。
-视觉上最强烈的冲击，是那无边无际的、温暖的红砖色。不是佛罗伦萨那种浓烈的橘红，也不是阿姆斯特丹的深棕红，而是一种更柔和、更沉稳的砖红色，在北方清朗或阴郁的天光下，呈现出不同的色调。沿着铺着鹅卵石的街道漫步，两旁是鳞次栉比的阶梯形山墙房屋，每一栋的山墙轮廓都略有不同，像一排排巨型的、沉默的乐高积木，又像童话书里画的房子突然成了真。它们的立面常常被刷成鹅黄、浅绿或天蓝色，窗台上摆满怒放的红色天竺葵，这种明快的点缀，瞬间打破了砖石结构的厚重感，让整座古城显得生气勃勃。
-最动人的，是这座“露天博物馆”里依然充满真实的、流淌着的生活。市场广场上，老太太们推着小车在每周集市挑选鲜花和鲜鱼；圣尼古拉教堂巨大的阴影下，有年轻人踩着滑板呼啸而过；港口边的长椅上，老水手模样的男人对着桅杆林立的旧船发呆，一坐就是一下午。教堂的钟声按时敲响，声音浑厚悠远，但并不会打扰这里的节奏，它更像是这个城市平稳的呼吸声和心跳声。在这里，历史不是被供奉起来的标本，而是人们每日行走的背景、是家园本身的一部分。
-它的核心魅力，就在于这种“活着的完整性”。你看到的不只是一两座孤立的伟大建筑，而是一整个运转了数百年的城市有机体——从象征信仰与财富的巨型教堂，到商人居住的华丽住宅，再到储存货物的仓库和迎来送往的港口，所有汉萨同盟城市的功能元素都完好地保留在原地，并且仍在被温柔地使用着。它不张扬，不喧闹，只是静静地待在波罗的海的臂弯里，任由时光在砖石上留下包浆，把故事酿成日常。`}
+            {`想象一下，你从略显嘈杂的现代火车站走出来，拐过一个街角，时间仿佛“咔哒”一声被向后拨动了六百年。首先迎接你的不是某个地标建筑的尖顶，而是一种混合着海风、潮湿石板和淡淡咖啡香的气味。脚下的路瞬间变成了被岁月磨得温润光亮的鹅卵石，缝隙里长着青苔。这就是维斯马老城给你的第一印象——它不是一座被圈起来的博物馆，而是一个依然在呼吸、生活着的古老躯体。
+你的视线很快就会被那些巍峨的“红色巨人”所俘获。圣尼古拉教堂的塔楼像是用乐高积木搭成的梦幻城堡，但它是真实的，由成千上万块烧制的红砖严丝合缝地砌成，直插波罗的海沿岸总是变幻莫测的灰蓝色天空。阳光偶尔穿透云层，打在教堂立面上，那红色便会呈现出从暖橘到深赭的丰富层次。耳边传来远处港口海鸥的鸣叫，混杂着市集广场上轻柔的德语交谈声和自行车掠过石路的叮铃声。这里没有慕尼黑或科隆那般汹涌的人潮，本地人骑着自行车穿过古老的拱门，主妇在市场喷泉旁闲聊，生活的节奏舒缓得如同潮水。
+最打动人的，或许是那种“完整感”。你就像走进了一幅保存完好的中世纪城市剖面图。以巨大的市场广场为中心，蜘蛛网般的狭窄街道辐射开去，每一条都通往一个惊喜：或许是一个藏着精美山墙的庭院，或许是一段残留的古城墙，或许直接就把你引向了波光粼粼的老港口。广场上，文艺复兴风格的市政厅优雅端庄，而环绕它的，是各色建于不同年代、有着陡峭山墙的市民住宅，它们的外墙被刷成柔和的黄、粉、绿色，像一排排性格各异的老人，安静地讲述着从汉萨富豪到普通商贩的世代故事。在这里，历史不是教科书上的名词，而是你指尖触摸到的冰凉砖石，是脚下凹凸不平的路面，是空气里那份咸湿而悠长的味道。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`当你第一脚踏入维斯马的老城，感觉不像走进一个景点，而是不小心拧动了时间的旋钮，退回到了某个宁静的午后。空气里有股独特的混合气息——波罗的海吹来的、带点咸味的微风，轻轻拂过；老建筑红砖墙缝里青苔和潮湿石头散发出的、近乎于森林的 earthy 味道；还有从街角面包房飘出来的、新鲜烤姜饼和肉桂卷的暖甜香。这一切构成了维斯马最初的嗅觉记忆，沉静而踏实。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`视觉上最强烈的冲击，是那无边无际的、温暖的红砖色。不是佛罗伦萨那种浓烈的橘红，也不是阿姆斯特丹的深棕红，而是一种更柔和、更沉稳的砖红色，在北方清朗或阴郁的天光下，呈现出不同的色调。沿着铺着鹅卵石的街道漫步，两旁是鳞次栉比的阶梯形山墙房屋，每一栋的山墙轮廓都略有不同，像一排排巨型的、沉默的乐高积木，又像童话书里画的房子突然成了真。它们的立面常常被刷成鹅黄、浅绿或天蓝色，窗台上摆满怒放的红色天竺葵，这种明快的点缀，瞬间打破了砖石结构的厚重感，让整座古城显得生气勃勃。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最动人的，是这座“露天博物馆”里依然充满真实的、流淌着的生活。市场广场上，老太太们推着小车在每周集市挑选鲜花和鲜鱼；圣尼古拉教堂巨大的阴影下，有年轻人踩着滑板呼啸而过；港口边的长椅上，老水手模样的男人对着桅杆林立的旧船发呆，一坐就是一下午。教堂的钟声按时敲响，声音浑厚悠远，但并不会打扰这里的节奏，它更像是这个城市平稳的呼吸声和心跳声。在这里，历史不是被供奉起来的标本，而是人们每日行走的背景、是家园本身的一部分。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，就在于这种“活着的完整性”。你看到的不只是一两座孤立的伟大建筑，而是一整个运转了数百年的城市有机体——从象征信仰与财富的巨型教堂，到商人居住的华丽住宅，再到储存货物的仓库和迎来送往的港口，所有汉萨同盟城市的功能元素都完好地保留在原地，并且仍在被温柔地使用着。它不张扬，不喧闹，只是静静地待在波罗的海的臂弯里，任由时光在砖石上留下包浆，把故事酿成日常。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`想象一下，你从略显嘈杂的现代火车站走出来，拐过一个街角，时间仿佛“咔哒”一声被向后拨动了六百年。首先迎接你的不是某个地标建筑的尖顶，而是一种混合着海风、潮湿石板和淡淡咖啡香的气味。脚下的路瞬间变成了被岁月磨得温润光亮的鹅卵石，缝隙里长着青苔。这就是维斯马老城给你的第一印象——它不是一座被圈起来的博物馆，而是一个依然在呼吸、生活着的古老躯体。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你的视线很快就会被那些巍峨的“红色巨人”所俘获。圣尼古拉教堂的塔楼像是用乐高积木搭成的梦幻城堡，但它是真实的，由成千上万块烧制的红砖严丝合缝地砌成，直插波罗的海沿岸总是变幻莫测的灰蓝色天空。阳光偶尔穿透云层，打在教堂立面上，那红色便会呈现出从暖橘到深赭的丰富层次。耳边传来远处港口海鸥的鸣叫，混杂着市集广场上轻柔的德语交谈声和自行车掠过石路的叮铃声。这里没有慕尼黑或科隆那般汹涌的人潮，本地人骑着自行车穿过古老的拱门，主妇在市场喷泉旁闲聊，生活的节奏舒缓得如同潮水。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，或许是那种“完整感”。你就像走进了一幅保存完好的中世纪城市剖面图。以巨大的市场广场为中心，蜘蛛网般的狭窄街道辐射开去，每一条都通往一个惊喜：或许是一个藏着精美山墙的庭院，或许是一段残留的古城墙，或许直接就把你引向了波光粼粼的老港口。广场上，文艺复兴风格的市政厅优雅端庄，而环绕它的，是各色建于不同年代、有着陡峭山墙的市民住宅，它们的外墙被刷成柔和的黄、粉、绿色，像一排排性格各异的老人，安静地讲述着从汉萨富豪到普通商贩的世代故事。在这里，历史不是教科书上的名词，而是你指尖触摸到的冰凉砖石，是脚下凹凸不平的路面，是空气里那份咸湿而悠长的味道。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={`维斯马汉萨同盟老城`} />
-                <InfoRow label="英文名称" value={`Wismar Hanseatic Old Town`} />
-                <InfoRow label="正式名称" value={`Historic Centres of Stralsund and Wismar`} />
+                <InfoRow label="中文名称" value={`维斯马汉萨老城`} />
+                <InfoRow label="英文名称" value={`Wismar Old Town`} />
+                <InfoRow label="正式名称" value={`Historic Old Town of Wismar`} />
                 <InfoRow label="国家" value={`德国`} />
                 <InfoRow label="城市" value={`维斯马`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`汉萨同盟鼎盛时期在波罗的海沿岸留下的、保存最完好的中世纪老城典范之一。`} />
-                <InfoRow label="建筑特色" value={`以宏伟的砖砌哥特式教堂、连绵不绝的阶梯形山墙民居和古老港口为标志性景观。`} />
-                <InfoRow label="建筑风格" value={`以北德特有的红砖哥特式风格为主导，并融合了文艺复兴、巴洛克及历史主义时期的元素。`} />
-                <InfoRow label="文化价值" value={`作为世界文化遗产，它鲜活地展现了14至16世纪汉萨同盟城市的权力、财富与独特的建筑艺术，是北海与波罗的海贸易历史的活化石。`} />
+                <InfoRow label="历史地位" value={`北欧汉萨同盟鼎盛时期最强大和繁荣的成员港口之一，其近乎完整的中世纪城市格局与建筑群是波罗的海沿岸汉萨城市的杰出典范。`} />
+                <InfoRow label="建筑特色" value={`壮观的砖砌哥特式教堂群、保存完好的中世纪街道网格、以及充满烟火气的带山墙的市民住宅与仓库。`} />
+                <InfoRow label="建筑风格" value={`以北德特有的红砖哥特式为主导，混合了文艺复兴、巴洛克及历史主义风格的细节。`} />
+                <InfoRow label="文化价值" value={`一座活着的“汉萨城市博物馆”，其城市肌理、建筑与持续的传统，生动见证了中世纪北欧贸易同盟共同的文化、法律与生活方式。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`老城区街道及公共广场全天24小时开放。城内主要历史建筑（如圣尼古拉教堂、圣玛利亚教堂、老市政厅）的开放时间各异，通常为上午10点至下午5点。圣尼古拉教堂塔楼观景台仅在4月至10月的周二至周日，及天气晴好的工作日开放。多数小型博物馆周一闭馆，圣诞节及元旦全天关闭。建议出行前在维斯马旅游局官网核实具体日期和时间。`} />
-              <InfoRow label="门票价格" value={`进入老城区本身免费。主要景点单独售票：圣尼古拉教堂塔楼观景台成人票约4欧元；圣玛利亚教堂遗迹参观约2欧元；维斯马市立历史博物馆成人票约6欧元。提供联票选项，可覆盖2-3个主要场馆，约10欧元。学生、儿童、家庭及团体享有优惠。持有梅克伦堡-前波美拉尼亚州博物馆通票可免费进入部分合作场馆。`} />
-              <InfoRow label="地址" value={`Altstadt, 23966 Wismar, Germany`} />
-              <InfoRow label="交通方式" value={`从最近的大型交通枢纽汉堡出发最为方便。从汉堡中央火车站搭乘区域火车（RE或RB系列），直达维斯马火车站，车程约1小时45分钟至2小时，每小时至少一班车。从汉堡机场可直接乘坐S-Bahn至中央火车站换乘。抵达维斯马火车站后，老城区核心区完全可步行到达，从火车站步行至市场广场仅需10-15分钟。城内也有覆盖良好的本地公交系统，但步行是探索这座紧凑古城的最佳方式。自驾车可将车停在老城区外围的指定停车场（如“Alter Hafen”停车场），老城内部多为步行区。`} />
+              <InfoRow label="开放时间" value={`老城公共区域全天24小时开放。城内各博物馆、教堂等具体景点开放时间各异：圣尼古拉教堂通常每日上午10点至下午6点开放；市政厅历史展览周一至周五上午10点至下午5点开放；市博物馆周二至周日上午10点至下午5点。许多小型博物馆冬季（11月至3月）会缩短开放时间或仅周末开放，建议行前在官网二次确认。`} />
+              <InfoRow label="门票价格" value={`漫步老城街区本身完全免费。进入主要景点需购票：圣尼古拉教堂塔楼登顶门票约4欧元；市博物馆通票约6欧元；市政厅历史展览免费。有联合票可供选择，涵盖2-3个主要博物馆，价格约10欧元。学生、儿童、团体享有优惠。`} />
+              <InfoRow label="地址" value={`Alter Hafen, 23966 Wismar, Deutschland`} />
+              <InfoRow label="交通方式" value={`从最近的汉堡国际机场出发，最便捷的方式是乘坐火车。在机场火车站搭乘区域列车（RE或RB），通常需要在汉堡主火或Büchen换乘一次，总耗时约2小时至2.5小时，直达列车班次较少。从柏林主火出发，乘坐IC或ICE列车至罗斯托克或施韦林，再换乘区域列车，总耗时约3小时。维斯马火车站位于老城边缘，步行5-10分钟即可进入古城核心区。建议使用德国铁路（DB）App提前查询班次并购买州票（如Mecklenburg-Vorpommern-Ticket），适合多人同行且全天有效。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`维斯马的故事，几乎就是半部汉萨同盟的兴衰史。它的命运从一开始就和北海与波罗的海的波涛紧密相连。早在13世纪初，这里就因优越的港口位置获得了吕贝克的城市法，迅速成长为一个重要的贸易据点。但真正让它跻身顶级玩家行列的，是加入那个中世纪强大的商业和政治联盟——汉萨同盟。想象一下14、15世纪的维斯马港口：来自挪威的木材、来自瑞典的铁矿、来自俄国的毛皮和蜂蜡、来自弗兰德斯的精美布料堆积如山；空气中弥漫着沥青、咸鱼、香料和远方海洋的味道；码头上挤满了水手、商人、码头工人，各种语言交汇。财富如潮水般涌来，而这座城市的雄心，便化作了那些令人叹为观止的红砖建筑。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这些建筑中最杰出的代表，无疑是圣尼古拉教堂。它的修建始于1381年，整整花了一个多世纪才告完成。建造它不仅是出于虔诚，更是城市财富和实力的炫示。据说，为了筹集建造这座中殿高度位居世界前列的哥特式大厅教堂的巨资，维斯马的商人们甚至动用了他们从远洋贸易中赚取的“神秘利润”。教堂的砖块一块块垒起，仿佛也将那个航海大发现时代前的自信与荣光，永久地砌进了墙里。与此同时，围绕在市场广场周边的商人们，开始竞相修建带有华丽山墙和精美门廊的住宅，每一栋房子都是一张立体名片，宣告着主人的成功与社会地位。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的潮水有涨便有落。16世纪后，随着新航路的开辟和汉萨同盟的逐渐衰落，维斯马的黄金时代慢慢褪色。但命运给了它另一个独特的身份转折：在1648年结束的三十年代战争后，根据《威斯特伐利亚和约》，维斯马连同整个西波美拉尼亚地区被划归瑞典统治，长达180多年。这段“瑞典时期”给城市留下了深刻烙印。你可以在建筑上看到北欧风格的简化装饰，可以在档案馆里找到瑞典文的市政记录，甚至当地的一些传统糕点也带着斯堪的纳维亚的影子。瑞典人将维斯马作为他们在德国领土上的主要堡垒和行政中心，虽然不再有昔日汉萨的贸易霸权，但城市得到了精心的维护和管理。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`二战给维斯马带来了近乎毁灭性的打击。1945年，盟军的空袭将老城近一半的区域，包括宏伟的圣玛利亚教堂，化为一片废墟。战后的维斯马属于东德，在物资匮乏的年代，重建工作缓慢而艰难。但令人动容的是，当地人没有用简单粗暴的现代建筑填满废墟，而是选择了“原址修复”这条最艰难的路。他们一块砖一块砖地清理，根据旧图纸和照片，小心翼翼地重建那些阶梯山墙房屋。圣玛利亚教堂只修复了其巨大的塔楼，而让中殿的废墟保持原样，作为一座战争的纪念碑和露天广场，这种处理方式充满了历史的智慧和勇气。两德统一后，修复工作加速，最终在2002年，维斯马与另一个汉萨古城施特拉尔松德一起，因其无与伦比的完整性和真实性，被联合国教科文组织列为世界文化遗产。这不仅仅是一个称号，更是对几代维斯马人守护家园的执着，最崇高的肯定。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`说起维斯马的老，那可真是有年头了。它的故事，和北海与波罗的海的财富紧紧绑在一起。大概在13世纪初，一些精明的商人和手工艺人看中了这个深入内陆的小海湾，既能避风，又便于防御。1229年，它被正式授予“城市权”，命运的齿轮开始飞速转动。很快，它加入了那个中世纪北欧的“商业北约”——汉萨同盟。你想象一下，14、15世纪的维斯马港该是多么热闹的景象！载着挪威的鲱鱼、瑞典的铁、俄国的毛皮和佛兰德布料的船只在这里进进出出，码头上的起重机吱呀作响，仓库里堆满货物，来自四面八方的商人用低地德语讨价还价。财富如潮水般涌来，催生了城市建设的狂潮。那些我们今天仰望的巨人——圣玛利亚、圣乔治，尤其是雄伟的圣尼古拉教堂，都是在这个“不差钱”的黄金时代奠基建造的。圣尼古拉教堂，这个拥有世界上最高的砖结构拱顶（高达37米）的庞然大物，就是汉萨财富与建筑技艺最狂妄的宣言。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的潮水有涨就有落。1648年，结束三十年战争的《威斯特伐利亚和约》签订，维斯马的命运发生了戏剧性的转折。它被作为战利品，划归给了瑞典王国。从此，这座德国城市开始了长达一百多年的“瑞典时期”。瑞典人可不是来破坏的，他们把这里视为在德意志领土上的重要桥头堡和军港。你如今在老城看到的许多坚固的防御工事遗迹，比如那些厚重的城墙片段和星形堡垒的轮廓，很多都是瑞典工程师的手笔。他们还带来了巴洛克风格的审美，市政厅的改建就深受影响。这段异国统治的岁月，像一层独特的釉彩，叠加在了维斯马原本汉萨风格的红砖底色上。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`瑞典统治在1803年终结，维斯马回归了梅克伦堡大公国。但它的商业地位已随汉萨同盟一起衰落，反而因祸得福，躲过了19世纪迅猛的工业化改造狂潮。当别的城市忙着拆城墙、拓宽马路、建起工厂时，维斯马仿佛打了个盹儿，基本维持着中世纪的模样。这种“停滞”成了它日后最大的财富。但真正的考验在20世纪来临。二战末期，猛烈的空袭摧毁了老城近一半的建筑，包括宏伟的圣玛利亚教堂，只剩下一座孤零零的塔楼矗立在废墟中，如同一个沉默的感叹号。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`战后的维斯马属于东德。在物资匮乏、崇尚实用主义的年代，重建工作是缓慢而艰难的。但令人敬佩的是，人们没有推倒重来，而是选择了“修补”。他们用能找到的材料，小心翼翼地修复那些幸存的古老山墙住宅，一砖一瓦地让城市恢复旧观。两德统一后，更有系统和科学的修复工程全面展开。2002年，维斯马与姊妹城市施特拉尔松德一起，因其无与伦比的原真性和完整性，被联合国教科文组织列为世界文化遗产。这不是对一座宫殿或教堂的认可，而是对一整座活生生的中世纪汉萨城市的加冕。今天的宁静与完整，背后是几个世纪的繁荣、异国统治、战火摧残与坚韧重生的漫长史诗。`}</p>
             </div>
           </Section>
 
@@ -76,47 +74,41 @@ export default function WismarHanseaticOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`建议在上午9点左右抵达维斯马市场广场，这是一天中最清新、游客尚少的时刻。整体游览需要一整天（约6-8小时）才能从容不迫地品味精髓。上午聚焦于老城核心的广场与两大教堂，感受其宏伟尺度与宗教艺术；下午深入蜿蜒的后街小巷和生机勃勃的港口区，体验当地生活气息与海洋历史；傍晚则留给日落光影与一顿地道的海鲜晚餐。这样的节奏由宏大到细微，由历史到生活，能让你全方位沉浸在这座城市的脉搏中。`}
+                  {`建议你安排一整天的时间给维斯马老城，它的美需要从容的步伐来丈量。最好在上午九点左右抵达，这时晨光柔和，旅游团还未涌入，你能独享古城苏醒时的静谧。整个游览节奏应是“先外后内，由广至深”：先从老港口和城墙遗迹开始，感受它的海港基因与防御轮廓；然后深入心脏地带的市场广场，领略市民生活的核心；接着逐一探访三座伟大教堂的遗迹与现存，体会信仰与艺术的高度；最后穿行于纵横的街巷，发现意外的细节。这样的路线顺理成章地串联起了城市的功能、权力、信仰与日常生活四个层面。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`周二和周四上午市场广场有每周集市，非常热闹且充满生活气息，但也会更加拥挤，可根据喜好选择是否融入。
-穿着绝对舒适的步行鞋，老城区的鹅卵石路面虽然风情万种，但对鞋底和脚踝是实实在在的考验。
-如果对登塔楼有兴趣，务必提前查看天气和开放状态，大风或雨天塔楼通常会关闭。`}
+                  <strong>建议：</strong>{`市场广场每周三和周六上午有传统市集，非常热闹，能买到本地农产品，但此时广场拍照会充满生活气息而非空镜美感，请根据喜好选择。老城街道多为鹅卵石路面，请务必穿一双舒适耐走的鞋子。餐馆菜单上海鲜非常新鲜，但价格可能略高，广场周边餐馆多为游客区，往旁边小巷走几步常有性价比更高的选择。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从被誉为“北德最美广场之一”的维斯马市场广场开始，站在由荷兰设计师设计的精美流水井旁，环顾四周色彩缤纷、山墙林立的历史建筑群。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来，先别急着进城，往南稍微绕一点路去老港口，看看那些彩色的古老仓库和安静的帆船，感受海风如何塑造了这座城市的性格。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`走进广场西侧令人屏息的圣尼古拉教堂，在中殿仰望那高达37米的、如森林般恢弘的砖砌拱顶，感受光线从高侧窗倾泻而下的神圣氛围。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着残留的古城墙走向巨大的市场广场，让自己被那个号称北德最美之一的广场空间和中央的荷兰文艺复兴式水井瞬间震撼。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`攀爬圣尼古拉教堂的塔楼（如果开放），在狭窄的螺旋石阶后，收获一个俯瞰整个红砖屋顶海洋和老城棋盘格布局的、无与伦比的全景视野。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`站在圣玛利亚教堂遗址那孤独而崇高的塔楼下，触摸那些烧焦的砖石，感受历史伤痕的重量与战后重生的决心。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`拜访市场广场北侧老市政厅那有着华丽文艺复兴山墙的门脸，并钻进其地下酒窖改建的餐厅，感受中世纪石墙包裹下的温馨。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`走进圣尼古拉教堂令人眩晕的中殿，仰头凝视那37米高的网状拱顶，让透过彩色玻璃的光线为你上演一场无声的光影戏剧。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`向东漫步，抵达圣玛利亚教堂遗址，站在仅存的巨大塔楼下，凝视中殿废墟上开辟出的宁静广场与战争纪念十字架，静默思考历史的双面性。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`攀爬圣乔治教堂的塔楼（如果开放），在旋转的狭窄楼梯尽头，收获一个将红砖屋顶、远处波罗的海与整个老城格局尽收眼底的全景。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`钻入连接市场广场与港口的小巷，比如“Grube”街，触摸那些砖墙上古老的货运滑轮痕迹，在一家家特色小店和咖啡馆间随意游走。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`选一条如“霍恩街”这样迷人的小巷慢悠悠地穿行，抬头欣赏每一栋山墙住宅上各不相同的装饰细节，想象里面几百年的生活故事。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`走到老港口的木制帆船与灯塔旁，看波罗的海的海鸥盘旋，参观港口边上的“ Baumhaus ”（古老的水闸门楼），了解城市如何通过水利工程防御。`}</p>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在港口区的某家传统餐厅坐下，点一份用新鲜鲱鱼或鳕鱼烹制的梅克伦堡风味菜肴，就着一杯当地啤酒，看着夕阳为红砖建筑披上金红色的外衣。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在下午的暖阳里，找一家面对广场或港口的咖啡馆坐下，点一杯咖啡和一块经典的“维斯马杏仁饼”，把自己当作风景的一部分。`}</p>
                 </div>
               </div>
             </div>
@@ -126,28 +118,28 @@ export default function WismarHanseaticOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣尼古拉教堂塔楼顶`}</h4>
-                  <p className="text-sm text-gray-700">{`登顶后，将相机镜头对准老城层层叠叠的红砖屋顶和远处的波罗的海港湾，最佳时间是晴朗的下午，侧光能让屋顶的纹理和阴影层次格外分明。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`老港口东侧拍摄剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏时分，以停泊的古典帆船为前景，将圣尼古拉教堂的塔楼和仓库建筑群的倒影一同纳入港湾的水面中，构图宁静而富有层次。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣玛利亚教堂塔楼脚下`}</h4>
-                  <p className="text-sm text-gray-700">{`仰拍仅存的塔楼剪影，以废墟广场上的十字架或行人作为前景，构图极具故事感和沧桑感，清晨或日落时的金色光线最为动人。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“Grube”小巷深处`}</h4>
-                  <p className="text-sm text-gray-700">{`寻找一段两侧山墙高耸、鹅卵石路蜿蜒向前的经典视角，等待一个路人或骑自行车的身影出现，为画面增添动态和生活气息，柔和的正午散射光能均匀照亮巷道。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`老港口防波堤尽头`}</h4>
-                  <p className="text-sm text-gray-700">{`黄昏时分，以灯塔和停泊的传统木制帆船为中景，以被晚霞染红的城市天际线为背景，拍摄一幅完美的“汉萨落日”图景。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`市场广场水井旁低角度仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`利用广角镜头，贴近广场中央的“ Wasserkunst ”水井，以它精美的雕塑为前景，仰拍背后宏伟的市政厅立面，凸显建筑的威严与细节。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`市场广场流水井旁`}</h4>
-                  <p className="text-sm text-gray-700">{`利用流水井优美的文艺复兴造型作为前景框架，拍摄后方色彩斑斓的老市政厅及建筑群，上午的光线能保证建筑正面受光良好。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣玛利亚教堂塔楼废墟框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`走到塔楼西侧，利用其残留的拱门或窗框作为天然画框，框住远处完整的圣乔治教堂或一片典型的红砖山墙住宅，形成历史废墟与生命延续的强烈对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣乔治教堂塔楼顶俯瞰全景`}</h4>
+                  <p className="text-sm text-gray-700">{`如果塔楼开放，登顶后使用长焦镜头压缩空间，拍摄老城红色屋顶海洋中，几座教堂塔楼如船只桅杆般耸立的经典画面，尤其在侧光下屋顶色彩和质感最佳。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`“天使庭院”捕捉光影`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光斜射时，找到老城内如“Engelhof”这样的封闭庭院，拍摄光线在色彩柔和的墙壁、木筋墙和爬藤植物上产生的迷人光影与几何构图。`}</p>
                 </div>
               </div>
 
@@ -156,9 +148,7 @@ export default function WismarHanseaticOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`使用偏光镜可以有效减少红砖建筑表面的反光，让色彩更加饱和浓郁。`}</li>
-                <li>• {`在教堂内部拍摄时请务必关闭闪光灯，并保持安静尊重礼拜者。`}</li>
-                <li>• {`当地人对于被拍摄通常很友善，但拍摄商店内部或私人庭院前，请先微笑示意获得许可。`}</li>
+                <li>• {`拍摄教堂内部前请务必确认是否允许使用闪光灯和三脚架，通常出于保护和礼拜原因被禁止。无人机飞行在德国城市中心区有严格限制，维斯马老城属于禁飞区，请勿尝试。尊重当地居民隐私，避免将镜头直接对准私人住宅的窗户或庭院内活动的居民。`}</li>
               </ul>
             </div>
           </Section>
@@ -167,34 +157,70 @@ export default function WismarHanseaticOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`历史中心精品之选`}</h4>
-                  <p className="text-sm text-blue-800">{`由一栋16世纪商人宅邸改造的精品酒店，房间保留了古老的木梁和砖墙，但配备了最现代舒适的设施，早餐在带拱顶的地下餐厅享用。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济优选`}</h4>
+                  <p className="text-sm text-blue-800">{`由一栋历史山墙建筑改造的温馨家庭旅馆，房间不大但干净明亮，主人会热情地为你手绘老城美食地图，早餐的 homemade 果酱是一绝。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`港口风情设计酒店`}</h4>
-                  <p className="text-sm text-green-800">{`坐落在老港口边缘的现代设计酒店，每间房都拥有朝向港口或老城的大窗，傍晚可坐在窗边看船只归航与华灯初上。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`坐落在一栋16世纪汉萨商人故居里的精品酒店，房间保留了古老的木梁和砖墙，现代化设施却一应俱全，晚上在厚重的石墙内睡得格外香甜。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`温馨家庭旅馆`}</h4>
-                  <p className="text-sm text-yellow-800">{`位于一条安静后街的典型阶梯山墙房屋内，由一家人亲自经营，房间不大但充满家常的温馨，女主人会为你提供最地道的游玩和美食建议。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于老港口畔的五星级酒店，由历史仓库巧妙改建而成，拥有直面港湾水景的绝佳露台，在房间内就能看到船只归航与圣尼古拉教堂的灯光秀。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`郊外静谧庄园`}</h4>
-                  <p className="text-sm text-purple-800">{`如果你有车，可以选择老城外围一座19世纪的新古典主义庄园改建的酒店，被大片花园环绕，绝对静谧，开车进城仅需5分钟。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`便捷之选`}</h4>
+                  <p className="text-sm text-purple-800">{`火车站附近步行5分钟内的现代设计酒店，风格简约，隔音良好，适合需要早起赶火车或追求极致便利的旅行者。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿非常紧俏，尤其在夏季旅游旺季和周末，务必提前数月预订。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`住在老城中心虽然方便，但周五、周六晚上广场周边酒吧可能比较热闹，浅眠者可以选择靠近港口或后街的住所。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`许多历史建筑改造的酒店没有电梯，预订时如有大件行李可提前咨询。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城核心区的住宿多为历史建筑，房间格局可能不规则，楼梯通常较陡且没有电梯，预订时如有大件行李或行动不便需特别注意。夏季旅游旺季和周末（尤其是节庆期间）住宿非常紧张，务必提前数月预订。老城治安整体非常好，夜间独自行走也很安全，但港口区域夜间照明相对较暗，建议结伴。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开维斯马的时候，我背包里没有多出什么纪念品，但心里却好像被那种沉稳的砖红色填满了。它不像那些让你立刻热血沸腾的景点，它的魅力是后知后觉的，像一杯需要慢慢回味的醇酒。在回程的火车上，窗外是飞驰而过的现代风景，而脑海里挥之不去的，却是那个午后在市场广场长椅上，看着鸽子起落，时间仿佛粘稠到停滞的画面。这座城教会我的，是一种“深度的宁静”——历史不必总是伤痕累累或喧嚣夺目，它可以被如此完整、如此平和地编织进日常的经纬里。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求速度和感官刺激的世界里，维斯马是一个珍贵的反面。它邀请你慢下来，用脚步丈量每一块被磨亮的鹅卵石，用手指触摸砖石粗粝的质感，用耳朵聆听穿过街巷的风声和钟声。它不试图告诉你一个单一宏大的故事，而是让你自己去发现：在教堂的拱顶下，在港口的海风里，在咖啡馆老人的笑容中，那些关于贸易、信仰、战争、重建与坚守的无数细小故事。每一位热爱深度游的旅人都该来这里，不是为了打卡，而是为了体验一种活生生的历史连续性，为了确认，有些美好的事物，历经潮起潮落，依然能够被温柔地保存下来，并继续从容地呼吸。这，或许就是我们穿越千里，最想找到的安慰。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开维斯马很久以后，记忆里最清晰的，可能不是某一张明信片般的标准景，而是某个瞬间的复合感受：可能是午后在空无一人的小巷里，突然听见头顶阁楼窗户被推开的声音；可能是站在圣玛利亚教堂的废墟前，看到一株小野花从砖缝里顽强探出头的生命张力；也可能是市场广场上，那位骑着老式自行车、车篮里装着长棍面包的老先生，从容消失在拱门下的背影。这些瞬间让你明白，世界遗产的头衔并非将这里冻结，而是为一种古老而珍贵的生活节奏提供了庇护所。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求崭新、快速和爆炸性体验的时代，维斯马提供了一种相反的、却更为深邃的旅行价值——那就是“完整性”与“连续性”带来的内心宁静。它没有巴黎的炫目、罗马的磅礴，但它拥有一种罕见的、未被肢解的城市灵魂。在这里，你行走的不仅仅是一个景点，而是一个依然功能健全、生生不息的古老生命体。它告诉你，历史不是断裂的章节，而是一条绵延至今的长河，我们每个人都既是其中的浪花。对于任何想要逃离浮光掠影、真正触摸欧洲北方历史脉络与生活质感的旅人来说，维斯马汉萨老城都是一个值得你专程前来，住上一两晚，用脚步和心灵去细细阅读的、活着的历史书籍。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/trier-roman-monuments" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特里尔古罗马遗迹</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Roman Monuments of Trier</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nordlingen-ries-crater-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    讷
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">讷德林根（陨石坑小镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nördlingen</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/schwaebisch-hall" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施瓦本哈尔古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Schwäbisch Hall Old Town</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

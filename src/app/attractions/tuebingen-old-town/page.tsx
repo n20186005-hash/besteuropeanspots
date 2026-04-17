@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '图宾根大学城 Tübingen｜内卡河畔的千年书香与青春协奏曲 - 最佳欧洲景点',
-  description: '如果你问我图宾根是什么味道的，我会说，是初夏内卡河面上飘来的、混合了湿润水汽与岸边老房子木料清香的微凉气息，再搅进去一丝从街角面包店溜出来的黄油焦香。你的第一眼，大概率会被那排沿着河道曲线、漆成鹅黄、玫红、薄荷绿的木桁架老房子夺去呼吸。它们像一群挤在一起看热闹的彩色积木，倾斜的屋顶和探出的窗台几乎要...',
+  title: '图宾根老城 Tübingen Old Town｜内卡河畔的彩色时光胶囊与诗人之城 - 最佳欧洲景点',
+  description: '嘿，朋友，想象一下这个画面：你从火车站走出来，穿过几条寻常的街道，一个转弯，时间“唰”地一声就倒流了。扑面而来的，首先是颜色——芥末黄、草莓粉、薄荷绿、天空蓝，这些饱和度极高的色彩，不是刷在平整的墙面上，而是镶嵌在一栋栋歪歪扭扭、肩膀挨着肩膀的木桁架老房子的骨架上。黑色的木条是它们的肋骨，撑起几百年...',
 }
 
 export default function TuebingenOldTownPage() {
@@ -16,56 +16,58 @@ export default function TuebingenOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '图宾根大学城', href: '/attractions/tuebingen-old-town' },
+            { label: '图宾根老城', href: '/attractions/tuebingen-old-town' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`图宾根大学城・Tübingen・德国・图宾根`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`图宾根老城・Tübingen Old Town・德国・图宾根`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`如果你问我图宾根是什么味道的，我会说，是初夏内卡河面上飘来的、混合了湿润水汽与岸边老房子木料清香的微凉气息，再搅进去一丝从街角面包店溜出来的黄油焦香。你的第一眼，大概率会被那排沿着河道曲线、漆成鹅黄、玫红、薄荷绿的木桁架老房子夺去呼吸。它们像一群挤在一起看热闹的彩色积木，倾斜的屋顶和探出的窗台几乎要吻到水面。但别急，真正让图宾根活起来的，是河上那一条条细长的平底船。穿着衬衫的学生船夫，用一根长长的竹篙，不紧不慢地将船撑过水面，船上或许是一群高声谈笑的朋友，或许是一对静静依偎的情侣。那“笃、笃”的竹篙点水声，是这座城市永恒的背景音。
-然后你走上河岸，钻进那些窄得只容一人通过的巷子，比如著名的“法官巷”。脚下的鹅卵石被无数代人的鞋底磨得光滑如镜，两旁山墙高耸，几乎遮住了天空，只留下一线光带，打在墙面那些古老而俏皮的木雕装饰上——可能是一个吐着舌头的鬼脸，也可能是一个酿酒师的标志。你忽然意识到，这里的每一栋房子都不是冰冷的博物馆展品，楼下的花店、书店、小酒馆照常营业，楼上的窗台晾晒着衣物，种满了天竺葵。学术的严肃与生活的烟火，在这里没有界限。
-最打动我的，是那种无处不在的、从容不迫的智慧氛围。它不是高高在上的，而是流淌在街角书店的橱窗里，溶解在街头哲学家般的辩论声中，隐藏在集市广场上那个一手拎着菜篮子、一手夹着厚厚古籍的老教授的背影里。图宾根的核心魅力，就在于这种“活着的传统”。大学不是围墙内的孤岛，它就是古城的骨骼、血液和呼吸。你感受到的，是一个历经近550年书香熏陶的社区，如何将深刻的思考化为日常的优雅。`}
+            {`嘿，朋友，想象一下这个画面：你从火车站走出来，穿过几条寻常的街道，一个转弯，时间“唰”地一声就倒流了。扑面而来的，首先是颜色——芥末黄、草莓粉、薄荷绿、天空蓝，这些饱和度极高的色彩，不是刷在平整的墙面上，而是镶嵌在一栋栋歪歪扭扭、肩膀挨着肩膀的木桁架老房子的骨架上。黑色的木条是它们的肋骨，撑起几百年的岁月，白色或彩色的泥灰填充其间，像一幅幅巨大的、立体的几何画。空气里有种淡淡的、混合着古老木料、河边水汽、还有从某扇虚掩的门后飘出的现磨咖啡香的味道。
+接着，你的耳朵会捕捉到声音的层次。远处内卡河永不止息的、轻柔的哗哗声是永恒的底噪。石板路上行李箱轮子发出的咕噜声，很快就被学生的谈笑声、自行车的铃声所取代。是的，这里是图宾根，一座被大学“腌制”了五百多年的老城。那些色彩明媚的老房子，一楼可能是售卖复古眼镜的精品店，二楼可能藏着一间哲学研讨室，阁楼上或许正住着一个攻读中世纪文学的学生。历史不是被供奉在玻璃柜里，而是就晾晒在窗台盛开的天空葵旁边，就流淌在抱着书本、匆匆穿过拱门走廊的年轻人身上。
+走到集市广场（Marktplatz），感官的盛宴达到高潮。每周几次的市集上，摊主们撑起红色的棚子，售卖着施瓦本地区当季的蔬果、巨大的白芦笋、还有各种香肠和奶酪。广场中央矗立着16世纪的哥特式喷泉，海神雕像的表情仿佛也在欣赏这鲜活的一幕。而这一切的背景板，是那座有着鲜红色陡峭屋顶和精美天文钟的老市政厅（Rathaus），它的外墙画满了星象图和寓言壁画，在阳光下闪闪发光。站在这里，你会感觉自己同时置身于一个中世纪的市镇、一个活跃的大学社区和一个充满生活气息的现代小镇——这三者毫无冲突，和谐得就像内卡河水自然绕过的那个小岛。
+最动人的，或许是走到内卡河畔的瞬间。那座古老的木桥（Holzbrücke）连接着老城和对岸。站在桥上回望，整个老城如同一个精心搭建的彩色积木模型，沿着河岸的陡坡层层叠叠地爬升上去，最终以那座威严的图宾根城堡（Schloss Hohentübingen）作为句点。河里有标志性的“撑船”（Stocherkahn），一种平底长船，学生们会撑着长篙载着游客或自己庆祝。水流声、欢笑声、教堂的钟声交织在一起，你会明白为什么诗人会说这里的时间流淌得比别人慢。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`如果你问我图宾根是什么味道的，我会说，是初夏内卡河面上飘来的、混合了湿润水汽与岸边老房子木料清香的微凉气息，再搅进去一丝从街角面包店溜出来的黄油焦香。你的第一眼，大概率会被那排沿着河道曲线、漆成鹅黄、玫红、薄荷绿的木桁架老房子夺去呼吸。它们像一群挤在一起看热闹的彩色积木，倾斜的屋顶和探出的窗台几乎要吻到水面。但别急，真正让图宾根活起来的，是河上那一条条细长的平底船。穿着衬衫的学生船夫，用一根长长的竹篙，不紧不慢地将船撑过水面，船上或许是一群高声谈笑的朋友，或许是一对静静依偎的情侣。那“笃、笃”的竹篙点水声，是这座城市永恒的背景音。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然后你走上河岸，钻进那些窄得只容一人通过的巷子，比如著名的“法官巷”。脚下的鹅卵石被无数代人的鞋底磨得光滑如镜，两旁山墙高耸，几乎遮住了天空，只留下一线光带，打在墙面那些古老而俏皮的木雕装饰上——可能是一个吐着舌头的鬼脸，也可能是一个酿酒师的标志。你忽然意识到，这里的每一栋房子都不是冰冷的博物馆展品，楼下的花店、书店、小酒馆照常营业，楼上的窗台晾晒着衣物，种满了天竺葵。学术的严肃与生活的烟火，在这里没有界限。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最打动我的，是那种无处不在的、从容不迫的智慧氛围。它不是高高在上的，而是流淌在街角书店的橱窗里，溶解在街头哲学家般的辩论声中，隐藏在集市广场上那个一手拎着菜篮子、一手夹着厚厚古籍的老教授的背影里。图宾根的核心魅力，就在于这种“活着的传统”。大学不是围墙内的孤岛，它就是古城的骨骼、血液和呼吸。你感受到的，是一个历经近550年书香熏陶的社区，如何将深刻的思考化为日常的优雅。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，想象一下这个画面：你从火车站走出来，穿过几条寻常的街道，一个转弯，时间“唰”地一声就倒流了。扑面而来的，首先是颜色——芥末黄、草莓粉、薄荷绿、天空蓝，这些饱和度极高的色彩，不是刷在平整的墙面上，而是镶嵌在一栋栋歪歪扭扭、肩膀挨着肩膀的木桁架老房子的骨架上。黑色的木条是它们的肋骨，撑起几百年的岁月，白色或彩色的泥灰填充其间，像一幅幅巨大的、立体的几何画。空气里有种淡淡的、混合着古老木料、河边水汽、还有从某扇虚掩的门后飘出的现磨咖啡香的味道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`接着，你的耳朵会捕捉到声音的层次。远处内卡河永不止息的、轻柔的哗哗声是永恒的底噪。石板路上行李箱轮子发出的咕噜声，很快就被学生的谈笑声、自行车的铃声所取代。是的，这里是图宾根，一座被大学“腌制”了五百多年的老城。那些色彩明媚的老房子，一楼可能是售卖复古眼镜的精品店，二楼可能藏着一间哲学研讨室，阁楼上或许正住着一个攻读中世纪文学的学生。历史不是被供奉在玻璃柜里，而是就晾晒在窗台盛开的天空葵旁边，就流淌在抱着书本、匆匆穿过拱门走廊的年轻人身上。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走到集市广场（Marktplatz），感官的盛宴达到高潮。每周几次的市集上，摊主们撑起红色的棚子，售卖着施瓦本地区当季的蔬果、巨大的白芦笋、还有各种香肠和奶酪。广场中央矗立着16世纪的哥特式喷泉，海神雕像的表情仿佛也在欣赏这鲜活的一幕。而这一切的背景板，是那座有着鲜红色陡峭屋顶和精美天文钟的老市政厅（Rathaus），它的外墙画满了星象图和寓言壁画，在阳光下闪闪发光。站在这里，你会感觉自己同时置身于一个中世纪的市镇、一个活跃的大学社区和一个充满生活气息的现代小镇——这三者毫无冲突，和谐得就像内卡河水自然绕过的那个小岛。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最动人的，或许是走到内卡河畔的瞬间。那座古老的木桥（Holzbrücke）连接着老城和对岸。站在桥上回望，整个老城如同一个精心搭建的彩色积木模型，沿着河岸的陡坡层层叠叠地爬升上去，最终以那座威严的图宾根城堡（Schloss Hohentübingen）作为句点。河里有标志性的“撑船”（Stocherkahn），一种平底长船，学生们会撑着长篙载着游客或自己庆祝。水流声、欢笑声、教堂的钟声交织在一起，你会明白为什么诗人会说这里的时间流淌得比别人慢。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={`图宾根大学城`} />
-                <InfoRow label="英文名称" value={`Tübingen`} />
-                <InfoRow label="正式名称" value={`Tübingen`} />
+                <InfoRow label="中文名称" value={`图宾根老城`} />
+                <InfoRow label="英文名称" value={`Tübingen Old Town`} />
+                <InfoRow label="正式名称" value={`Tübingen Old Town`} />
                 <InfoRow label="国家" value={`德国`} />
                 <InfoRow label="城市" value={`图宾根`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`一座被学术灵魂彻底浸润的千年古城，是德国“大学城”最经典、最生动的代名词。`} />
-                <InfoRow label="建筑特色" value={`内卡河两岸密密麻麻、色彩斑斓的木桁架房屋，与蜿蜒陡峭的鹅卵石小巷共同构成宛如立体绘本的童话街景。`} />
-                <InfoRow label="建筑风格" value={`从中世纪晚期到文艺复兴风格的木桁架建筑为主，点缀着哥特式的教堂和巴洛克式的大学建筑细节。`} />
-                <InfoRow label="文化价值" value={`见证了从中世纪修道院学校到现代卓越大学的完整教育史，是德国人文主义传统与市井生活气息无缝交融的活化石。`} />
+                <InfoRow label="历史地位" value={`一座将中世纪风貌与五百年大学精神完美融合、未经战火摧毁的活化石大学城。`} />
+                <InfoRow label="建筑特色" value={`以木桁架（Fachwerk）房屋为主，色彩斑斓，紧密排列于内卡河陡坡上，形成错落有致的童话天际线。`} />
+                <InfoRow label="建筑风格" value={`以中世纪晚期至文艺复兴时期的德国木桁架建筑风格为核心，混杂了哥特式教堂、巴洛克装饰元素和19世纪的浪漫主义改建。`} />
+                <InfoRow label="文化价值" value={`德国浪漫主义的摇篮之一，诗人荷尔德林、黑格尔、谢林等思想巨匠曾在此生活，至今仍是知识与生活交织的“片刻永恒的缩影”。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`老城街道及公共区域全天开放。重要建筑如老大学楼、圣乔治教堂、霍亨图宾根城堡等内部参观时间各异：通常为周二至周日10:00-17:00，周一闭馆或开放时间缩短。圣诞市场期间（11月下旬至12月23日）及大学假期时，城内氛围与部分机构开放时间会有显著变化。建议行前在官网核实。`} />
-              <InfoRow label="门票价格" value={`漫步老城免费。进入霍亨图宾根城堡庭院免费，城堡博物馆门票约5欧元。圣乔治教堂塔楼登顶约2欧元。内卡河上的传统平底船（Stocherkahn）游览约8-10欧元/人。学生、儿童、团体均有优惠。`} />
-              <InfoRow label="地址" value={`老城核心区：Am Markt, 72070 Tübingen, Germany`} />
-              <InfoRow label="交通方式" value={`从斯图加特机场（STR）出发最便捷：乘坐S-Bahn（S2或S3线）直达斯图加特主火车站，耗时约30分钟。在斯图加特主火车站转乘区域火车（RE或RB），约40-60分钟即可抵达图宾根主火车站，班次密集，每20-30分钟一班。从图宾根主火车站出来，步行15分钟或乘坐多路公交车（如1, 2, 3, 4, 11路）在“Stadtmitte”或“Holzmarkt”下车，即刻投入老城怀抱。建议购买巴登-符腾堡州日票（Baden-Württemberg-Ticket）或使用德铁APP提前购票。`} />
+              <InfoRow label="开放时间" value={`老城街道与公共区域全天候开放。内部景点如荷尔德林塔、图宾根城堡博物馆、圣乔治教堂等有独立开放时间：一般为周二至周日10:00-17:00，周一休息。圣诞市场期间（十一月下旬至十二月下旬）整个老城开放至夜晚。部分小店周日可能不营业。`} />
+              <InfoRow label="门票价格" value={`漫步老城本身免费。主要景点收费：图宾根城堡博物馆门票约5欧元，荷尔德林塔门票约3欧元，圣乔治教堂塔楼登顶约2欧元。学生及儿童享有折扣。建议购买“图宾根卡”，涵盖多处景点及公共交通。`} />
+              <InfoRow label="地址" value={`Tübingen Altstadt, 72070 Tübingen, Germany`} />
+              <InfoRow label="交通方式" value={`从斯图加特机场出发：乘坐S-Bahn（S2或S3线）直达图宾根主火车站，车程约1小时，班次频繁，每20分钟一班。从斯图加特主火出发：乘坐RE或IC火车，约40-50分钟可达。抵达图宾根主火车站后，老城就在步行范围内（约15分钟），也可乘坐公交1、2、3、4路到“Holzmarkt”或“Neckarbrücke”站。城内强烈推荐步行。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从公元1078年说起，那时“杜宾根”这个名字第一次出现在文献上，指的是内卡河畔一处由当地贵族修建的城堡。中世纪时，它靠着葡萄酒贸易和集市渐渐繁荣起来，成了一个典型的施瓦本小镇。命运的转折点发生在1477年，那一年，符腾堡伯爵埃伯哈德五世做了一件影响深远的事：他创立了图宾根大学。在当时，这可不是为了赶时髦，而是有着深刻的政治和宗教考量——伯爵需要为自己的领地培养神学家、法学家和行政官员，以巩固统治。最初的大学就设在老城中心的奥古斯丁修道院里，朗朗书声第一次回荡在这些古老的石墙之间。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`大学成立没多久，就撞上了席卷欧洲的宗教改革浪潮。16世纪初，一位名叫菲利普·梅兰希通的天才青年被请到了图宾根，他不仅是马丁·路德的亲密战友，更是被誉为“德国的老师”。他为图宾根大学设计了新的课程体系，将其打造成了新教人文主义的重要堡垒。从此，图宾根的学术基因里，就深深烙印下了独立思考与批判精神。接下来的几百年，它像一个稳定的磁场，吸引着各路思想者。天文学家开普勒曾在此求学，哲学家黑格尔和谢林在这里既是同窗又是室友，诗人荷尔德林则在一座塔楼里度过了他精神世界最后的、也是极为丰产的三十年。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这座城与它的大学，在战争与和平的交替中相依为命。它幸运地躲过了二战炮火的严重摧残，那些歪歪扭扭的木桁架房子才得以完整保留。战后，大学急速扩张，学生人数从几千暴涨到近三万，但奇妙的是，古城并未被现代化的庞然大物吞噬。新的学院和研究所被巧妙地安置在城区外围或山坡上，而老城的核心，依然留给小巷、咖啡馆、小书店和那些世代居住于此的市民。漫步其中，你还能找到1477年大学成立时的原始建筑“老礼堂”，也能看到20世纪60年代学生运动时涂鸦的残迹——它们层层叠叠，共同构成了这部活的史书。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`今天，当你看到骑着自行车的诺贝尔奖得主与买菜的老太太在集市上擦肩而过，当你在传统的学生酒馆里听到关于最新量子物理的激烈讨论，你就明白了。图宾根的历史不是封存在玻璃柜里的，它是一场从未间断的对话，发生在古老的石墙之间，由一代又一代的教授、学生和市民，用思想、生活与热爱共同书写。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`图宾根的故事，始于一个“堡”和一所“学校”。早在11世纪，霍亨索伦家族就在今天的城堡山上建立了一座堡垒，用以控制内卡河的要道。山脚下的定居点慢慢繁荣，在12世纪末被正式授予了城市权利。最初的图宾根，就是这么一个典型的、由领主城堡庇护下的中世纪集镇。石头城墙圈起一片安全区域，市民们在此交易、生活，修建起了最早的圣乔治教堂。那时的老城格局，其实已经大致定型——以集市广场为中心，放射出蜿蜒狭窄的小巷，房子用木材和黏土建造，紧密相依以抵御风寒和可能的侵袭。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的转折点，发生在命运般的1477年。符腾堡伯爵埃伯哈德五世（后来成为第一位符腾堡公爵）做了一件眼光极为长远的事：他创立了图宾根大学。在当时，这所大学就像一颗充满生命力的种子，被埋进了古老城镇的土壤里。一开始，大学散落在老城的各个建筑里，教授和学生与市民混居。知识的气息开始渗透进木桁架的缝隙和石板路的凹槽。宗教改革时期，图宾根成为了新教的重要中心，大学更是吸引了全欧洲的学者。那些我们今天觉得浪漫的、色彩缤纷的木桁架房子，很多就是在16到17世纪，随着大学和城市的繁荣而大量兴建或改建的。它们不是为游客准备的布景，而是当时蓬勃发展的市民阶层和学者社群实实在在的家园与活动场所。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`18世纪末到19世纪初，图宾根迎来了它的“星光时刻”。一股后来被称为“德国浪漫主义”的思潮在这里萌芽。而它的中心人物之一，是诗人弗里德里希·荷尔德林。他生命中最灰暗也最富创造力的时期，正是在图宾根度过的。你一定会去拜访的“荷尔德林塔”，那座矗立在河边的黄色塔楼，就是他朋友收留他、让他度过精神崩溃后三十多年余生地方。从塔楼的小窗望出去，就是内卡河与老城的景色，这片风景无疑慰藉了诗人，也化入了他的诗行。与此同时，年轻的黑格尔、谢林、以及诗人乌兰德，都曾在这所大学的“神学院”同窗共读，他们深夜在酒馆或宿舍里的激烈辩论，无形中为德国哲学和文学的星空点燃了最初的、最亮的几颗星。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`令人无比庆幸的是，图宾根老城奇迹般地躲过了两次世界大战的毁灭性轰炸。据说，是因为盟军飞行员接到命令，要保留这座重要的大学城。于是，当德国的许多历史名城都沦为废墟时，图宾根的中世纪心脏依然完好无损地跳动着。战后，城市的扩张主要在老城之外进行，这让老城得以完整保留其肌理。修缮工作遵循“修旧如旧”的原则，那些木桁架房子被精心维护，颜色被按照传统恢复，但内部则引入了现代化的生活设施。它没有变成博物馆式的空壳，大学一如既往地为其注入青春血液。市民、学生、学者、店主，依然在这里生活、工作、思考、庆祝，让这座“时光胶囊”里充满了鲜活的呼吸和温度。`}</p>
             </div>
           </Section>
 
@@ -74,45 +76,49 @@ export default function TuebingenOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`要真正品尝图宾根的韵味，请务必预留一整天时间。最佳的抵达时间是早上九点前，这时游客尚未涌入，阳光刚刚照亮内卡河的波光，你可以独享老城的宁静晨曲。整体游览节奏应是“慢”字诀，以散步和发呆为主，路线是一个从河边到山丘再回到河边的环形。上午先沿内卡河与老城低处的巷弄探访，感受市井活力；午后登上城堡山，俯瞰全景并参观博物馆；傍晚时分回到河畔，体验平底船或是在哲学家小径上等待日落。这样安排能让你完整地体验从具体而微的细节到宏大画卷，再到内心沉淀的全过程。`}
+                  {`完美的图宾根老城之旅，应该像品味一杯层次丰富的当地葡萄酒，需要从清晨到日暮，放慢脚步去感受。建议上午九点左右抵达，这时旅行团还未涌入，阳光正温柔地照亮东面的房屋，集市广场可能正开始摆摊，充满生机。整体游览可以安排一整天，节奏务必悠闲，以漫步和发呆为主。上午专注探索老城内部蜿蜒的小巷和核心广场，下午留给河畔风光、登高望远和文化景点。傍晚则是等待金色夕阳洒在内卡河与彩色房子上的 magic hour。这样的安排能让你同时感受到老城的静谧与喧闹、历史与当下。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`周一很多博物馆和小型景点闭馆，务必避开这天进行深度文化游览。老城街道多为崎岖不平的鹅卵石，请务必穿一双绝对舒适防滑的鞋子。许多地道的小酒馆和餐厅在下午两点到六点之间可能休息，规划午餐和晚餐时间要留心。`}
+                  <strong>建议：</strong>{`周六上午的集市非常热闹，是体验本地生活的好时机，但此时主街人也最多，若想安静拍照请错开此高峰。老城街道多为凹凸不平的鹅卵石路，请务必穿一双舒适耐走的平底鞋。部分小巷非常狭窄且安静，请尊重当地居民的隐私，拍照时注意不要将镜头对准别人家的窗户。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从集市广场的文艺复兴喷泉出发，摸一摸代表城市四大阶层的雕像，感受一下几个世纪以来市民生活的中心脉搏。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从集市广场（Marktplatz）开始你的旅程，摸一摸老喷泉冰凉的石壁，看鲜红屋顶的老市政厅天文钟指针移动，感受市集上刚摆出来的新鲜草莓的香气。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`钻进通往内卡河的下坡小巷，让脚步在古老的鹅卵石上打滑，两旁的木桁架房子像彩色画廊一样向你挤压过来。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走进圣乔治教堂（Stiftskirche）内部，让你的眼睛适应昏暗后，去寻找那些雕刻精美无比的胡桃木唱诗班座椅，上面布满讽刺而幽默的中世纪生活场景。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`站在内卡桥上，向左看是霍亨图宾根城堡威严的侧影，向右看是挤满彩色房屋的河道弯角和平底船码头，这是明信片视角的诞生地。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过挂满爱情锁的内卡河老木桥（Holzbrücke），到对岸的回望平台上，用最经典的视角为对岸那一片层层叠叠的彩色积木房子拍下第一张全景照。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`去圣乔治教堂内部静坐片刻，仰头看看那些复杂的晚期哥特式网状拱顶，然后鼓起勇气登上狭窄的螺旋塔楼，让整个红屋顶森林在你脚下展开。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`转身沿着“哲学家小径”（Philosophenweg）向上漫步一段，这是一条被绿荫覆盖的安静坡道，黑格尔们可能也曾在此散步思索，从高处缝隙间俯瞰老城别有风味。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在山脚下的“Platanenallee”梧桐大道找一位学生船夫，跳上一条传统的平底船，让他用长篙带你缓缓滑过水面，从独一无二的角度仰望那些似乎要倒进河里的老房子。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`折返老城，故意迷失在那几条最窄的小巷里，比如下街（Untere Gasse），抬头看那些几乎要碰到一起的凸窗，观察每一栋木桁架房子纹样的细微不同。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`穿过热闹的“Kornhaus”谷物仓库广场，如今它是学生咖啡馆的聚集地，随便选一家坐下，点一杯“Viertele”（四分之一升）当地葡萄酒，看人来人往。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`找到集市广场附近的学生酒馆（如“Boulanger”或“Nordstadt”），点一份施瓦本地区的特色面食“Maultaschen”，就着一杯本地啤酒，融入当地学生的午餐氛围。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`拜访那座紧邻内卡河的“荷尔德林塔”，走进诗人曾居住的小房间，想象他在精神困境中仍写出“人，诗意地栖居”这句名言的场景。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`下午的时光留给荷尔德林塔（Hölderlinturm），轻轻走过吱呀作响的木地板，站在诗人当年眺望的小窗前，静静地看一会儿不变的河水流过。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在日落前，沿着内卡河对岸的“哲学家小径”漫步，这是黑格尔、谢林等哲人当年散步沉思的路，如今你也能在此收获俯瞰古城与大学的黄金时刻。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前一小时，去体验一次内卡河撑船（Stocherkahn），让自己漂在河心，看夕阳的金辉如何一点一点为老城墙和城堡山披上温暖的外衣。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 9 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`当暮色四合，街灯初上，再次游走在安静下来的小巷中，此时橱窗的灯光暖黄，石头路面泛着微光，你会听到历史在角落里的轻声细语。`}</p>
                 </div>
               </div>
             </div>
@@ -122,28 +128,28 @@ export default function TuebingenOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`内卡桥东侧栏杆处`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨或傍晚柔和光线下，使用中焦段镜头，将河道弯角处密集的彩色木桁架房屋与一两只停泊的平底船一同纳入构图，画面充满宁静的生活诗意。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`内卡河北岸木桥东侧岸边`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时至日落后蓝调时刻，利用河面倒影拍摄对岸老城与城堡山的全景，将撑船作为前景点缀画面，构图力求平衡宁静。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣乔治教堂塔楼顶部`}</h4>
-                  <p className="text-sm text-gray-700">{`登上塔楼后，将相机镜头从防护网的缝隙中伸出，拍摄老城红色屋顶如波浪般涌向远方内卡河与绿色丘陵的360度全景，最佳时间是雨过天晴的午后。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`荷尔德林塔对岸的河畔`}</h4>
-                  <p className="text-sm text-gray-700">{`黄昏时分，天空呈现蓝调时刻，以平静的河水为前景，拍摄亮起温暖灯光的荷尔德林塔及其在水中的完美倒影，营造静谧而富有文学感的氛围。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“Bursagasse”巷子入口`}</h4>
-                  <p className="text-sm text-gray-700">{`下午阳光斜射时，站在巷口向内拍摄，利用巷道的纵深感，让两侧高大、倾斜的木桁架山墙形成天然的画框，捕捉一位当地居民或学生自然走过的瞬间。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣乔治教堂塔楼顶端`}</h4>
+                  <p className="text-sm text-gray-700">{`登顶后（需少量门票）在四个方向的不同拱窗后拍摄，特别是南向拱窗，能将老城密集的红色屋顶、远处的田野和内卡河湾一并纳入取景框，光线在下午最佳。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`霍亨图宾根城堡的露台`}</h4>
-                  <p className="text-sm text-gray-700">{`利用城堡露台的矮墙作为自然前景，拍摄脚下整个图宾根老城、内卡河以及远方田野的广阔景深，尤其适合在春季树木新绿或秋季层林尽染时拍摄。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`荷尔德林塔对面的河畔小径`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨阳光照亮塔楼黄色的墙面时，以塔楼为主体，前景带入内卡河的一角与几片绿叶，营造出诗意而宁静的孤独感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`集市广场老市政厅侧面小巷（Kornhausstraße）`}</h4>
+                  <p className="text-sm text-gray-700">{`利用小巷的纵深感，将色彩鲜艳的木桁架房子作为引导线，焦点对准远处市政厅华丽的壁画外墙，等待一个行人或骑自行车的人走过增添生气。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`“下街”或“犹太巷”的狭窄处`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分当阳光从狭窄的天空直射下来时，仰拍两侧倾斜的木桁架房子和点缀其间的鲜花，获得极具戏剧张力的构图。`}</p>
                 </div>
               </div>
 
@@ -152,7 +158,7 @@ export default function TuebingenOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`携带一个轻便的定焦镜头（如35mm或50mm）非常适合捕捉老城狭窄巷弄的氛围感。拍摄居民或学生时请务必保持尊重，微笑示意或事后道谢是应有的礼貌。尝试在阴天拍摄，柔和的散射光更能体现木桁架建筑丰富的色彩和纹理细节。`}</li>
+                <li>• {`图宾根老城的光影变化极美，侧光能突出木桁架的立体纹理，而顺光则能完美展现房屋色彩的鲜艳。拍摄居民或学生时请务必先微笑询问，获得同意后再拍，他们通常很友好。使用广角镜头能捕捉小巷的纵深感，而一支长焦镜头则适合从河对岸捕捉建筑细节和人物瞬间。`}</li>
               </ul>
             </div>
           </Section>
@@ -161,32 +167,70 @@ export default function TuebingenOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
-                  <p className="text-sm text-blue-800">{`老城内由历史住宅改造的温馨家庭旅馆，房间天花板是裸露的古老木梁，早餐是女主人自制的果酱和新鲜烘焙的Brezen（德国碱水结），晚上能听到远处教堂的悠扬钟声。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史中心的木梁阁楼`}</h4>
+                  <p className="text-sm text-blue-800">{`直接住在集市广场某栋16世纪木桁架建筑的顶层阁楼改造的公寓里，晚上听着钟楼报时入睡，清晨被透过斜窗的阳光和广场上的面包车声音唤醒。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
-                  <p className="text-sm text-green-800">{`住在内卡河畔一栋拥有500年历史的木桁架建筑里，房间窗户直接探向河道，清晨在平底船的划水声中醒来，仿佛自己也成了老城画卷中的一笔。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`内卡河畔的家庭民宿`}</h4>
+                  <p className="text-sm text-green-800">{`选择河对岸非旅游核心区但步行可达的安静住宅区，房东可能是大学的退休教授，早餐时会和你聊荷尔德林，从房间窗户就能看到老城全景。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
-                  <p className="text-sm text-yellow-800">{`位于古城制高点、由霍亨图宾根城堡部分建筑改建的豪华酒店，不仅拥有无可匹敌的俯瞰全景，其房间内饰完美融合了古董家具与现代设计，并提供产自酒店自有葡萄园的珍酿。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`大学区的设计师小酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`由老学生宿舍改造，风格简约现代又保留了老建筑的挑高和窗型，位置极佳，深入学生生活圈，晚上可以轻易找到有现场音乐的小酒馆。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`学者之风`}</h4>
-                  <p className="text-sm text-purple-800">{`大学周边由古老学院建筑管理的宾客公寓，风格简朴而充满书卷气，你可能与来访的客座教授为邻，在公共厨房里就能展开一场有趣的跨文化交流。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`城堡山下的浪漫花园酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`位于从老城上城堡的坡道旁，带一个隐秘的玫瑰花圃，房间装饰着复古家具，走累了一天回来可以在花园里喝杯雷司令，远离喧嚣但又不失方便。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`图宾根是热门会议和开学季目的地，务必提前数月预订，尤其是周末和夏季。住在老城内虽氛围绝佳，但需忍受夜间酒吧区的轻微嘈杂和禁止车辆通行的不便——行李可能需要手提一段路。如果追求绝对宁静，可以选择河对岸或城堡山更高处的住处，步行下山进入老城也只需十分钟。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`图宾根是大学城，学期期间（尤其是夏季学期）住宿相对紧张且价格可能上浮，建议提前数周预订。老城核心区的住宿可能需爬很多楼梯且夜晚酒吧区会有些喧闹，追求绝对安静请选择河对岸或山坡上的住处。周末和节假日通常有大量文化活动和学生庆典，既是体验的好时机，也意味着需要更早规划行程。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开图宾根很久以后，我记忆最深的不是某个具体的建筑，而是一种整体的“感觉”。那是一种被智慧与时间共同浸泡过的、温和而坚定的氛围。在这个凡事求快、追求颠覆的世界里，图宾根像一条沉稳流淌的内卡河，它不抗拒变化——你看得到最前沿的实验室和思潮，但它更懂得守护那些恒久的价值：对知识的敬畏，对生活的热爱，对历史的尊重。它告诉你，传统不是枷锁，而是让创新扎根更深的肥沃土壤；学术不是象牙塔，而是可以与市集喧哗、孩童嬉笑、河水汤汤和谐共存的日常风景。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这就是为什么，每一位真正的深度旅行者都应该来图宾根住上几天。它不是一个用来“打卡”的景点清单，而是一个需要你用脚步丈量、用呼吸感受、用心跳共鸣的生命体。在这里，你会放下急匆匆的行程表，愿意花一个下午看河水流淌，花一个晚上在小酒馆里听陌生人讨论哲学。你会被提醒，旅行的意义不仅仅是去看不同的风景，更是去体验一种不同的、可能更完整的生活节奏与精神状态。图宾根，这座内卡河畔的千年古城，最终赠与你的，或许正是一份“诗意栖居”的短暂可能，和一份关于深度与从容的悠长回味。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开图宾根很久以后，我发现自己最怀念的，不是某一张明信片般的照片，而是那种“生活在别处”却无比真切的感觉。这座城市有一种神奇的魔法，它把厚重的历史、深邃的哲思和青春的活力，像编织一幅精美的挂毯一样，经纬交错地融合在一起。你踩着的每一块被磨得发亮的石子，可能都被数百年前的神学院学生、赶集的农妇、乃至荷尔德林本人在沉思中踱步踏过。然而，这历史并非沉甸甸的负担，而是被一代代骑着自行车的年轻人轻盈地承载着，继续向前。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求效率、一切都被加速的世界里，图宾根老城像是一个温柔的“减速带”。它告诉你，知识可以在一座古老的塔楼里缓慢沉淀，生活可以在一条蜿蜒的河畔悠然展开，美可以被保存在日常的、彩色的、略显歪斜的木房子里。它不是一个仅供瞻仰的遗迹，而是一个依然在认真思考、热烈争论、真诚生活的有机体。来到这里，你会不自觉地放慢脚步，松开紧绷的神经，重新发现漫步、观察和无所事事地发呆的乐趣。它让你相信，有些美好的事物，确实可以穿越时间的洪流，完好无损地抵达现在，并且依然生机勃勃。这，或许就是每一位深度旅者所追寻的，那份连接过去与当下、触动心灵的“片刻永恒”吧。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/meiningen-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迈宁根老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meiningen Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/wartburg-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瓦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓦尔特堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Wartburg Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/hameln-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈默尔恩老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hameln Old Town</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '施皮茨城堡・Spiez Castle・瑞士・施皮茨 | 最佳欧洲景点',
-  description: '探索施皮茨城堡，瑞士保存最完好的中世纪城堡之一，始建于933年，融合哥特式、文艺复兴与巴洛克建筑风格，坐落于图恩湖畔半岛之上，登顶可俯瞰碧蓝湖景、连绵雪山与梯田葡萄园。',
+  title: '施皮茨城堡 Spiez Castle｜图恩湖畔的千年明信片，在雪山葡萄园与中世纪回廊间迷失 - 最佳欧洲景点',
+  description: '火车缓缓驶入施皮茨站台，还没等你完全站稳，一幅仿佛从童话里直接搬出来的画面就撞进了眼帘：湛蓝得不像话的图恩湖，像一块巨大的蓝宝石镶嵌在翠绿的山谷间，而那座有着暗红色屋顶和浅黄色墙面的城堡，就那样从容地依偎在湖边，背后是层层叠叠的葡萄梯田，再远处，是戴着雪顶的尼森山和少女峰群。这第一眼的震撼，像一口清...',
 }
 
 export default function SpiezCastlePage() {
@@ -21,378 +21,212 @@ export default function SpiezCastlePage() {
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">施皮茨城堡・Spiez Castle・瑞士・施皮茨</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`施皮茨城堡・Spiez Castle・瑞士・施皮尔斯皮茨`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            施皮茨城堡是瑞士保存最完好的中世纪城堡之一，始建于933年，主体结构形成于12至18世纪的多次扩建，被列入瑞士国家重要文化财产名录。城堡坐落于图恩湖畔半岛之上，融合哥特式、文艺复兴与巴洛克建筑风格，内部现为博物馆，登顶可俯瞰碧蓝湖景、连绵雪山与梯田葡萄园，是自然与人文完美交融的典范。
+            {`火车缓缓驶入施皮茨站台，还没等你完全站稳，一幅仿佛从童话里直接搬出来的画面就撞进了眼帘：湛蓝得不像话的图恩湖，像一块巨大的蓝宝石镶嵌在翠绿的山谷间，而那座有着暗红色屋顶和浅黄色墙面的城堡，就那样从容地依偎在湖边，背后是层层叠叠的葡萄梯田，再远处，是戴着雪顶的尼森山和少女峰群。这第一眼的震撼，像一口清冽的山泉，瞬间洗去了所有旅途的疲惫。
+沿着下坡的小路走向城堡，空气里的味道悄然变化。火车站旁咖啡的香气逐渐被湖水微腥湿润的气息、割草后青草的芬芳，以及从古老石墙缝隙里渗出的、那种混合了苔藓与时光的清凉味道所取代。你的脚步会不由自主地慢下来，因为耳边太丰富了——湖水轻拍岸边的哗哗声，从城堡花园里传来的、修剪花枝的咔嚓声，还有远处码头，帆船桅杆在风里发出的有节奏的嘎吱声。这里不像一个孤立的景点，而像是小镇居民一个巨大的、共同的后花园。你会看到推着婴儿车的妈妈在古树下歇脚，老爷爷坐在长椅上对着湖面发呆，一切都那么日常，又那么珍贵。
+穿过厚重的拱形城门，真正走进城堡的庭院，那种时空交错的恍惚感才达到顶峰。脚下是被无数脚步磨得温润发亮的石板，四周是数百年历史的厚重石墙，但抬头，却能越过雄堞，看见雪山的尖顶在阳光下闪耀着冷冽的光。城堡的主体建筑并不显得狰狞或威严，反而有一种居家的、被生活气息熨帖过的温柔。这种反差，正是施皮茨城堡最迷人的内核：它既是一位守卫湖山的骑士，也是一位款待宾客的主人。它不是博物馆里冰冷的展品，而是一个依然在呼吸、在与当下对话的生命体。
+最打动人的，或许是那种极致的平衡感。在这里，自然的美（湖、山、葡萄园）与人类的创造（城堡、教堂、花园）达成了一种瑞士式的完美和谐。没有一方压倒另一方，它们互相成就，共同谱写了几百年的宁静诗篇。你不是来“征服”或“打卡”一个地标，而是被邀请进入一幅活的、立体的风景画中，成为一个短暂的、幸福的注脚。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              施皮茨城堡是瑞士保存最完好的中世纪城堡之一，始建于933年，主体结构形成于12至18世纪的多次扩建，被列入瑞士国家重要文化财产名录。城堡坐落于图恩湖畔半岛之上，融合哥特式、文艺复兴与巴洛克建筑风格，内部现为博物馆，登顶可俯瞰碧蓝湖景、连绵雪山与梯田葡萄园，是自然与人文完美交融的典范。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`火车缓缓驶入施皮茨站台，还没等你完全站稳，一幅仿佛从童话里直接搬出来的画面就撞进了眼帘：湛蓝得不像话的图恩湖，像一块巨大的蓝宝石镶嵌在翠绿的山谷间，而那座有着暗红色屋顶和浅黄色墙面的城堡，就那样从容地依偎在湖边，背后是层层叠叠的葡萄梯田，再远处，是戴着雪顶的尼森山和少女峰群。这第一眼的震撼，像一口清冽的山泉，瞬间洗去了所有旅途的疲惫。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`沿着下坡的小路走向城堡，空气里的味道悄然变化。火车站旁咖啡的香气逐渐被湖水微腥湿润的气息、割草后青草的芬芳，以及从古老石墙缝隙里渗出的、那种混合了苔藓与时光的清凉味道所取代。你的脚步会不由自主地慢下来，因为耳边太丰富了——湖水轻拍岸边的哗哗声，从城堡花园里传来的、修剪花枝的咔嚓声，还有远处码头，帆船桅杆在风里发出的有节奏的嘎吱声。这里不像一个孤立的景点，而像是小镇居民一个巨大的、共同的后花园。你会看到推着婴儿车的妈妈在古树下歇脚，老爷爷坐在长椅上对着湖面发呆，一切都那么日常，又那么珍贵。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过厚重的拱形城门，真正走进城堡的庭院，那种时空交错的恍惚感才达到顶峰。脚下是被无数脚步磨得温润发亮的石板，四周是数百年历史的厚重石墙，但抬头，却能越过雄堞，看见雪山的尖顶在阳光下闪耀着冷冽的光。城堡的主体建筑并不显得狰狞或威严，反而有一种居家的、被生活气息熨帖过的温柔。这种反差，正是施皮茨城堡最迷人的内核：它既是一位守卫湖山的骑士，也是一位款待宾客的主人。它不是博物馆里冰冷的展品，而是一个依然在呼吸、在与当下对话的生命体。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，或许是那种极致的平衡感。在这里，自然的美（湖、山、葡萄园）与人类的创造（城堡、教堂、花园）达成了一种瑞士式的完美和谐。没有一方压倒另一方，它们互相成就，共同谱写了几百年的宁静诗篇。你不是来“征服”或“打卡”一个地标，而是被邀请进入一幅活的、立体的风景画中，成为一个短暂的、幸福的注脚。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="施皮茨城堡" />
-                <InfoRow label="英文名称" value="Spiez Castle" />
-                <InfoRow label="国家" value="瑞士（Switzerland）" />
-                <InfoRow label="城市" value="施皮茨（Spiez）" />
-                <InfoRow label="所属区域" value="瑞士伯尔尼州，图恩湖西南岸" />
+                <InfoRow label="中文名称" value={`施皮茨城堡`} />
+                <InfoRow label="英文名称" value={`Spiez Castle`} />
+                <InfoRow label="正式名称" value={`Spiez Castle`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`施皮尔斯皮茨`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="始建年代" value="933年" />
-                <InfoRow label="建筑风格" value="哥特式、文艺复兴与巴洛克风格融合" />
-                <InfoRow label="历史地位" value="瑞士国家重要文化财产" />
-                <InfoRow label="地理特色" value="坐落于图恩湖畔半岛，三面环水" />
+                <InfoRow label="历史地位" value={`一座见证了瑞士中部千年权力更迭、从战略要塞演变为文明灯塔的湖畔贵族城堡。`} />
+                <InfoRow label="建筑特色" value={`完美融合了罗马式塔楼、哥特式教堂、文艺复兴时期住宅与巴洛克花园的综合性建筑群，宛若一部立体的建筑史教科书。`} />
+                <InfoRow label="建筑风格" value={`以坚实的罗马式风格为基底，历经多个世纪的扩建与修饰，呈现出多种风格和谐共存的独特面貌。`} />
+                <InfoRow label="文化价值" value={`不仅是显赫家族的宅邸，更是当地社区千年来的精神与文化中心，其保存完好的生活痕迹为理解瑞士贵族与平民的互动提供了鲜活样本。`} />
               </div>
             </div>
-
-            <div className="mt-6 p-6 bg-blue-50 rounded-lg">
-              <h3 className="font-semibold text-blue-900 mb-4">开放时间</h3>
-              <div className="space-y-2 text-sm text-gray-700">
-                <p><span className="font-medium">开放季节：</span>仅每年5月1日至10月31日对外开放</p>
-                <p><span className="font-medium">5-6月、9-10月：</span>周二至周日10:00-17:00，周一14:00-17:00</p>
-                <p><span className="font-medium">7-8月旺季：</span>周二至周日及周一10:00-18:00</p>
-                <p><span className="font-medium">法定节假日：</span>10:00-17:00</p>
-                <p><span className="font-medium">闭馆期：</span>11月1日至次年4月30日</p>
-              </div>
-            </div>
-
-            <div className="mt-6 p-6 bg-green-50 rounded-lg">
-              <h3 className="font-semibold text-green-900 mb-4">门票信息</h3>
-              <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
-                <div>
-                  <h4 className="font-medium mb-2">城堡博物馆单人票</h4>
-                  <ul className="space-y-1">
-                    <li>• 成人：12瑞士法郎</li>
-                    <li>• 优惠票：10瑞士法郎</li>
-                    <li>• 6-16岁儿童：5瑞士法郎</li>
-                    <li>• 0-6岁儿童：免费</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-medium mb-2">联票与优惠</h4>
-                  <ul className="space-y-1">
-                    <li>• 博物馆+艺术特展：成人16瑞士法郎</li>
-                    <li>• 家庭票A：20瑞士法郎（1成人+最多4儿童）</li>
-                    <li>• 家庭票B：30瑞士法郎（2成人+最多4儿童）</li>
-                    <li>• 瑞士旅行通票持有者：免费</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-6 p-6 bg-yellow-50 rounded-lg">
-              <h3 className="font-semibold text-yellow-900 mb-4">地址与交通</h3>
-              <div className="space-y-3 text-sm text-gray-700">
-                <p><span className="font-medium">地址：</span>Schlossstrasse 16, 3700 Spiez, Switzerland</p>
-                <p><span className="font-medium">海拔：</span>628米，距湖岸仅50米，三面环水</p>
-                <p><span className="font-medium">公共交通：</span>从因特拉肯乘火车约20-24分钟直达施皮茨火车站，步行15分钟可达；或乘B61路邮政巴士3分钟抵达</p>
-                <p><span className="font-medium">自驾：</span>从伯尔尼沿A6高速公路约35分钟，城堡周边有收费停车场</p>
-                <p><span className="font-medium">游船：</span>乘坐图恩湖环湖游船在施皮茨码头下船，步行5分钟可达，持瑞士旅行通票免费</p>
-              </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡主体及博物馆开放时间通常为每年4月中旬至10月中旬，每日上午10:00至下午17:00（最后入场时间16:30）。11月至次年3月为冬季休整期，仅接受团体预约参观。教堂全年开放，但内部参观时间可能与城堡不同，需提前在官网查询。特别注意：瑞士的节假日如国庆节（8月1日）开放时间可能缩短，建议出行前务必查看官方网站的最新公告。`} />
+              <InfoRow label="门票价格" value={`成人票价为12瑞士法郎。优惠票（学生、老年人、团体）价格为10瑞士法郎。6至16岁青少年票价为6瑞士法郎。6岁以下儿童免费。持有瑞士旅行通票（Swiss Travel Pass）或伯尔尼地区通行证（Berner Oberland Pass）可享受免费入场。门票包含城堡所有开放区域、历史博物馆、临时展览及教堂的参观。`} />
+              <InfoRow label="地址" value={`Schlossstrasse 16, 3700 Spiez, Switzerland`} />
+              <InfoRow label="交通方式" value={`从苏黎世机场或日内瓦机场出发，最便捷的方式是乘坐瑞士国铁（SBB）。首先乘坐火车抵达伯尔尼中央火车站（Bern Hauptbahnhof），耗时约1-1.5小时，班次极其频繁，几乎每10-20分钟就有一班。随后在伯尔尼火车站换乘前往因特拉肯东站（Interlaken Ost）的区间列车，在“施皮茨（Spiez）”站下车，这段车程约30分钟，沿途风景如画。从施皮茨火车站出来，城堡的尖塔和屋顶清晰可见，步行下山坡约10-15分钟即可直达城堡大门。如果行李较多，车站外也有出租车，5分钟车程即到。强烈推荐使用SBB手机App实时查询时刻表和购票。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
-            <div className="text-gray-700 leading-relaxed space-y-4">
-              <p>
-                施皮茨城堡的历史可追溯至公元933年，最早作为防御工事出现在历史文献中，彼时它是中世纪瑞士伯尔尼地区重要的军事要塞，凭借三面环水的地形优势，成为控制图恩湖航运和周边区域的战略要地。12世纪，城堡进行了第一次大规模扩建，增建了高达28米的方形主塔楼和双层盾墙，形成了完整的军事防御体系，主塔楼兼具瞭望和防御功能，站在塔顶可全方位监控周边的湖面和陆地动静，盾墙上的瞭望孔则为防御者提供了绝佳的射击视角。
-              </p>
-              
-              <p>
-                中世纪盛期至18世纪，施皮茨城堡经历了多次扩建与改造，逐渐从军事要塞转变为贵族居所。13世纪，城堡成为伯尔尼执政官的夏宫，因此不再侧重防御功能，转而增加了居住和休闲区域，内部装饰也逐渐变得精致。文艺复兴时期，城堡增建了舒适的居住区，融入了当时流行的建筑美学；巴洛克时期，又对城堡的外观和内部进行了装饰性改造，形成了如今融合哥特式、文艺复兴与巴洛克风格的独特建筑风貌，其东立面的门窗排列还形成了形似汉字“囧”的独特造型，成为游客津津乐道的细节。
-              </p>
-
-              <p>
-                城堡的领主曾多次更迭，从最初的地方贵族，到伯尔尼执政官，再到后来的私人家族，每一位主人都对城堡进行了不同程度的修缮和改造，留下了各自时代的印记。城堡庭院南端有一座建于公元762年的小教堂，兼具早期罗马式和伯尔尼乡村风格，与城堡一同见证了施皮茨小镇的千年变迁，教堂内的壁画和雕塑至今保存完好，承载着浓厚的宗教文化气息。
-              </p>
-
-              <p>
-                1929年，施皮茨城堡正式归公共所有，由施皮茨文化遗产基金会负责运营管理。此后，城堡被改造为博物馆，地下一层保留了中世纪地窖的原貌，二层以上则展示了城堡历届主人的遗物、古代家具、16世纪的挂毯、古老的武器和盔甲等文物，让游客得以窥见中世纪贵族的生活场景。近年来，城堡还增设了虚拟现实头盔体验项目，让游客能够更直观地感受中世纪的生活氛围，每年夏季，这里还会举办古典音乐会和主题艺术展览，让历史建筑与现代艺术完美交融。2010年代的考古发现还证实，这里曾是中世纪骑士马上枪术比赛的场地，进一步丰富了城堡的历史内涵。
-              </p>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从大约一千年前说起。那时候，这片湖畔的土地还笼罩在神秘的森林中，湖上交通是连接伯尔尼高地和瓦莱州的重要通道。谁能控制这个岬角，谁就扼住了湖区的咽喉。大约在公元933年，一位名叫“鲁道夫二世”的勃艮第国王，将这片土地赐予了一个来自德国西南部的贵族家庭——冯·施皮茨家族。他们在此垒起了第一块石头，建起了最初用于防御的塔楼和围墙。这座城堡的诞生，从一开始就与权力、馈赠和战略紧密相连，它像一个沉默的哨兵，目睹了中世纪早期欧洲王公贵族间复杂的联姻与领土交换。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间快进到13世纪，施皮茨家族的男嗣断绝，城堡通过联姻转入了一个更具影响力的家族——冯·巴伦伯格手中。这个时期，城堡开始从单纯的军事堡垒向舒适的贵族住所演变。他们增建了居住翼楼，那个我们今天看到的、拥有巨大斜屋顶的主建筑，就是在这个时期初具雏形。你可以想象，骑士们不再仅仅在冰冷的大厅里擦拭盔甲，也开始在装有玻璃窗的房间里，围着壁炉讨论诗歌与远方的见闻。城堡的功能悄然变化，文明的微光开始透过箭窗照射进来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，真正的黄金时代在15世纪到来。当时统治伯尔尼的强势城市共和国，从经济濒临破产的冯·巴伦伯格家族手中买下了城堡和整个领地。伯尔尼派来的地方行政长官（Schultheiss）住进了这里，施皮茨城堡从此成为伯尔尼共和国在湖区行使行政与司法权力的中心。正是这些来自伯尔尼的“公务员”贵族，赋予了城堡我们今天看到的许多优雅特征。他们在17到18世纪对城堡进行了巴洛克风格的改造，增建了那个可以俯瞰湖光山色的华丽大厅，并精心修整了花园。城堡的防御功能彻底让位于居住与展示功能，花园里开始种植来自异域的奇花异草，大厅里举办舞会，空气中飘荡的不再是烽烟，而是咖啡与蛋糕的甜香。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转到19世纪，瑞士经历了拿破仑战争和联邦体制的确立，古老的贵族统治落下帷幕。1875年，城堡被一位名叫卡尔·弗里德里希·冯·屈尼格的汉诺威外交官买下。他是一位充满浪漫情怀的绅士，没有对城堡进行大刀阔斧的现代化改造，而是怀着巨大的敬意进行修复与维护，保留了其中世纪和巴洛克时期的灵魂。正是他的努力，使得城堡内部那些珍贵的壁画、古老的家具和家族肖像得以完好保存。最终，在1929年，他的后代将这座承载了无数故事的城堡，连同其无价的收藏，一并赠予了“施皮茨城堡基金会”，确保它永远向公众开放。从私人堡垒到公共遗产，它完成了最后的，也是最伟大的蜕变。`}</p>
             </div>
           </Section>
 
           <Section title="4. 游览路线">
-            <div className="text-gray-700 leading-relaxed space-y-4">
-              <p>
-                施皮茨城堡的游览路线分为精华路线和深度路线，游客可根据自身时间安排灵活选择，两条路线均能感受城堡的历史底蕴与湖光山色之美。
-              </p>
-
+            <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-blue-900 mb-4">精华路线（2-3小时）</h4>
-                <p className="text-sm mb-4">适合时间紧张的游客，涵盖城堡核心精华</p>
-                <ol className="list-decimal list-inside space-y-2 text-sm">
-                  <li><strong>城堡前庭</strong> - 入口区域，两侧花园与古老石墙，可拍摄城堡全景初照</li>
-                  <li><strong>博物馆主展厅</strong> - 一层陈列中世纪武器、盔甲、家具和日常用品，了解城堡历史变迁</li>
-                  <li><strong>贵族起居室与宴会厅</strong> - 二层文艺复兴与巴洛克装饰风格，感受贵族生活奢华场景</li>
-                  <li><strong>主塔楼登顶</strong> - 最高点俯瞰图恩湖、葡萄园与伯尔尼阿尔卑斯山脉，天气晴朗时可见少女峰</li>
-                  <li><strong>城堡花园</strong> - 种植各类花卉绿植，小型喷泉与雕塑，感受城堡静谧雅致</li>
-                </ol>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的施皮茨城堡之旅应该从一个清朗的早晨开始，建议在上午9点半左右抵达。这时旅行团的大巴还未涌入，阳光正好温柔地洒在湖面和城堡东侧，光线对于拍照和感受氛围都极佳。整体游览大约需要3到4个小时，节奏应是悠然漫步式的，因为匆忙是对此地美景的一种浪费。建议的路线逻辑是“由外至内，由高至低”：先从外部整体感受城堡与湖山的关系，再深入内部探究其历史细节，最后在花园和湖边彻底放松身心。这样的安排能让你逐步沉浸，像剥洋葱一样，一层层揭开它的魅力。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`每周六上午城堡脚下的本地农贸市场非常热闹，是体验当地风情的好机会，但也会让小路略显拥挤，喜欢清静的话可以避开这个时段。参观内部房间时，有些地板是古老的木地板，穿着高跟鞋会发出很大声响且不方便，建议穿舒适的平底鞋。瑞士天气多变，即便夏日，湖边风也大，带一件防风外套或披肩是明智之举。`}
+                </div>
               </div>
-
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-green-900 mb-4">深度路线（4-5小时）</h4>
-                <p className="text-sm mb-4">适合喜欢细致游览的游客，增加更多深度体验</p>
-                <ol className="list-decimal list-inside space-y-2 text-sm">
-                  <li><strong>精华路线全部内容</strong> - 包含上述所有精华景点</li>
-                  <li><strong>城堡地下室葡萄酒窖</strong> - 保留中世纪酒罐与酿酒器具，了解瑞士葡萄酒酿造历史，部分时段可品尝当地白葡萄酒</li>
-                  <li><strong>城堡庭院南端古老教堂</strong> - 参观教堂内壁画、雕塑与祭坛，感受浓厚宗教文化气息</li>
-                  <li><strong>周边葡萄园小径徒步</strong> - 沿山坡分布的葡萄园梯田，绿意盎然，与雪山湖泊相互映衬，徒步约1小时</li>
-                  <li><strong>小镇街区漫步</strong> - 返回城堡附近，逛当地特色小店，感受施皮茨小镇田园风情</li>
-                </ol>
-              </div>
-
-              <div className="bg-yellow-50 p-4 rounded-lg">
-                <h4 className="font-semibold text-yellow-900 mb-2">游览小贴士</h4>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• 城堡内提供多语种导览手册（含中文），入口处免费领取</li>
-                  <li>• 主塔楼楼梯较陡峭，老人与儿童需谨慎前行，城堡内设无障碍设施</li>
-                  <li>• 夏季游客较多，建议避开10:30-15:00高峰时段，体验更佳</li>
-                  <li>• 部分区域禁止拍照或需关闭闪光灯，需遵守现场提示</li>
-                </ul>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来的观景平台先深呼吸，用广角的视野将湖泊、城堡、葡萄园和雪山一同框进记忆的第一帧。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着 Schlossstrasse 小路向下，别急着进城堡大门，先绕到东侧的城墙边，从那里回望城堡主体与后方教堂钟楼构成的错落天际线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开厚重的橡木大门进入幽深的罗马式地下室，让眼睛适应昏暗，触摸那些千年未变的冰凉石壁，想象它作为酒窖与储藏室的往昔。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着古老的木楼梯盘旋而上，逐一探访骑士大厅、文艺复兴风格的宴会厅和布满家族肖像的走廊，注意寻找窗户边那些可以偷瞥湖景的完美角落。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要登上城堡主塔楼的顶层，360度旋转着将图恩湖的湛蓝、尼森山的金字塔造型和散落在山坡上的童话小屋尽收眼底。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观结束后，从城堡西门直接步入巴洛克风格的法式花园，在修剪整齐的绿篱和怒放的玫瑰丛间穿行，找到那张正对湖面的长椅坐下来发呆。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着花园的石阶一直向下走到私家小码头，把双脚浸入清凉的湖水中，或是租一艘划艇，从水上的视角再次仰望城堡的全貌。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果意犹未尽，可以步行五分钟前往镇上的湖边餐厅，点一份经典的瑞士湖鱼配土豆，看着帆船归航，等待城堡在夕阳下被染成金红色。`}</p>
+                </div>
               </div>
             </div>
           </Section>
 
           <Section title="5. 拍照机位">
-            <div className="text-gray-700 leading-relaxed space-y-6">
-              <p>
-                施皮茨城堡的每一处角落都充满了中世纪的美感，结合周边的湖光山色，有多个绝佳拍照机位，无论是专业摄影师还是普通游客，都能拍出明信片级别的照片，以下是最推荐的6个机位：
-              </p>
-
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">1. 城堡主塔楼顶端</h4>
-                  <p className="text-sm">
-                    这是拍摄全景的最佳机位，可将整个施皮茨城堡、图恩湖、葡萄园和远处的雪山尽收眼底，建议选择晴天的上午或傍晚拍摄，上午光线柔和，能清晰展现湖面的碧蓝和城堡的细节；傍晚夕阳西下，阳光将城堡染成金橙色，与湖面的倒影交相辉映，氛围感拉满，还能捕捉到日落时分的绝美光影。
-                  </p>
-                </div>
-
-                <div className="bg-pink-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-pink-900 mb-2">2. 城堡花园喷泉旁</h4>
-                  <p className="text-sm">
-                    适合拍摄城堡的局部特写，以城堡的石墙、塔楼为背景，前景搭配花园内的花卉、喷泉，既能展现城堡的中世纪质感，又能增添画面的灵动性，建议采用仰拍角度，突出城堡的宏伟气势，春季和夏季花卉盛开时，拍摄效果更佳。
-                  </p>
-                </div>
-
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">3. 施皮茨火车站观景台</h4>
-                  <p className="text-sm">
-                    从火车站中间出口出来向右走几步即可到达，这里是俯瞰整个施皮茨小镇和城堡的绝佳位置，可拍摄到城堡与小镇民居、图恩湖的全景，画面层次丰富，远处的雪山作为背景，能完美展现施皮茨“湖光、山色、古堡、小镇”的田园画卷，建议使用广角镜头拍摄，捕捉更广阔的视野。
-                  </p>
-                </div>
-
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">4. 图恩湖游船之上</h4>
-                  <p className="text-sm">
-                    乘坐游船游览图恩湖时，可在船上拍摄城堡的侧面全景，城堡矗立在湖畔半岛之上，三面环水，湖面波光粼粼，背景是连绵的雪山，游船移动过程中，可捕捉到不同角度的城堡美景，建议选择游船的右侧座位，拍摄角度最佳，避免逆光拍摄。
-                  </p>
-                </div>
-
-                <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-900 mb-2">5. 教堂旁网红长椅</h4>
-                  <p className="text-sm">
-                    位于城堡附近的圣马蒂亚斯教堂旁的斜坡上，是拍摄城堡与湖景完美构图的绝佳位置，坐在长椅上，以城堡为背景，湖面和雪山为远景，既能拍出人物与古堡的氛围感照片，也能单独拍摄城堡的远景，构图简洁优美，是游客必打卡的机位。
-                  </p>
-                </div>
-
-                <div className="bg-indigo-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-indigo-900 mb-2">6. 葡萄园小径高处</h4>
-                  <p className="text-sm">
-                    从小镇出发，走进葡萄园小径，在山坡高处回望城堡，可拍摄到城堡与葡萄园、湖景的结合画面，翠绿的葡萄藤、古朴的城堡、碧蓝的湖面，构成一幅绝美的田园画卷，建议选择上午拍摄，光线充足，能清晰展现葡萄藤的细节和城堡的轮廓。
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-gray-100 p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-2">拍照小贴士</h4>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• 夏季光线较强，建议携带遮阳帽和防晒霜，避免强光直射镜头</li>
-                  <li>• 傍晚拍摄时，可携带三脚架，保证画面清晰</li>
-                  <li>• 城堡内部分区域禁止拍照，需注意现场标识，尊重文物保护规定</li>
-                  <li>• 拍摄当地工作人员或居民时，需提前征得对方同意，尊重当地风俗习惯</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="6. 附近景点">
-            <div className="text-gray-700 leading-relaxed space-y-4">
-              <p>
-                施皮茨城堡周边景点丰富，涵盖湖景、小镇、古城和自然景观，距离较近，交通便捷，可在游览城堡的同时，顺路游览，感受施皮茨及周边的独特魅力。
-              </p>
-
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">1. 图恩湖</h4>
-                  <p className="text-sm">
-                    距离施皮茨城堡仅50米，是瑞士阿勒河支流之一，湖面碧蓝清澈，周边群山环绕，是瑞士最美丽的湖泊之一。游客可乘坐环湖游船，从水上欣赏施皮茨城堡和湖边风光，游船沿途会经过多个小镇和城堡，其中从施皮茨坐船到图恩全程约1小时，沿途可欣赏到雪山倒映在湖面的绝美景色；也可在湖边漫步、骑行或划船，夏季还能在湖边的沙滩上游玩、游泳，湖边设有迷你高尔夫球场、儿童游乐园等设施，适合亲子游玩和休闲放松。
-                  </p>
-                </div>
-
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">2. 施皮茨小镇老街区</h4>
-                  <p className="text-sm">
-                    位于城堡下方，距离城堡步行10分钟可达，老街区保留了中世纪的建筑风貌，狭窄的石板路、色彩鲜艳的木屋、古朴的小店，充满了田园气息。漫步在老街区，可感受施皮茨小镇的宁静与惬意，逛逛当地的特色手工艺品店、葡萄酒专卖店，品尝当地的特色美食，如芝士火锅、苹果派等，体验当地的生活节奏。
-                  </p>
-                </div>
-
-                <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">3. 葡萄酒酿造历史博物馆</h4>
-                  <p className="text-sm">
-                    位于施皮茨城堡内，是了解瑞士葡萄酒历史的绝佳场所，博物馆内展示了从古代到现代的酿酒器具、葡萄酒藏品，还有详细的文字和图片介绍，讲述瑞士葡萄酒的酿造历史和发展历程，特别适合带娃游客，可让孩子亲自体验葡萄酒的制作过程，感受酿酒文化的魅力。
-                  </p>
-                </div>
-
-                <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">4. 因特拉肯</h4>
-                  <p className="text-sm">
-                    距离施皮茨约20分钟火车车程，是瑞士著名的旅游小镇，有“瑞士旅游之心”的美誉，是前往少女峰、艾格峰、僧侣峰的必经之地。小镇坐落在图恩湖和布里恩茨湖之间，湖光山色相映成趣，周边有许多徒步路线和户外体验项目，如跳伞、滑翔伞等，游客可在游览城堡后，前往因特拉肯，感受阿尔卑斯山的壮美风光。
-                  </p>
-                </div>
-
-                <div className="bg-pink-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-pink-900 mb-2">5. 图恩古城</h4>
-                  <p className="text-sm">
-                    距离施皮茨约15分钟车程，是一座历史悠久的中世纪古城，城内保留了许多中世纪的建筑和狭窄的街道，其中图恩城堡是古城的标志性建筑，与施皮茨城堡风格迥异，更具军事防御特色。古城内还有博物馆、教堂、广场等景点，逛逛古城的老街区，可感受中世纪的历史氛围，品尝当地的特色美食，是休闲放松的好去处。
-                  </p>
-                </div>
-
-                <div className="bg-indigo-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-indigo-900 mb-2">6. 尼森山</h4>
-                  <p className="text-sm">
-                    是施皮茨的当地山脉，呈金字塔形，距离城堡不远，可乘坐怀旧缆车登上山顶，山顶观景台可360度俯瞰图恩湖、施皮茨小镇和周边的雪山，景色壮丽，是徒步和观景的绝佳地点，适合喜欢户外体验的游客。
-                  </p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿小贴士">
-            <div className="text-gray-700 leading-relaxed space-y-4">
-              <p>
-                施皮茨小镇不大，但住宿选择丰富，从高端湖景酒店到经济型民宿应有尽有，游客可根据自身预算和需求选择合适的住宿，以下是详细的住宿小贴士，帮助游客更好地安排行程。
-              </p>
-
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-4">住宿区域推荐</h4>
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div>
-                    <h5 className="font-medium text-gray-800 mb-2">城堡附近或湖边区域（推荐）</h5>
-                    <p className="text-sm">
-                      首选城堡附近或湖边区域，距离城堡和图恩湖较近，步行即可到达，方便游览城堡和湖边景点，还能欣赏到湖景和城堡美景，清晨和傍晚可漫步在湖边，感受小镇的宁静与惬意。
-                    </p>
-                  </div>
-                  <div>
-                    <h5 className="font-medium text-gray-800 mb-2">施皮茨火车站附近</h5>
-                    <p className="text-sm">
-                      其次可选择施皮茨火车站附近，交通便捷，适合需要乘坐火车前往周边景点的游客，火车站附近有许多餐厅和小店，生活便利。
-                    </p>
-                  </div>
-                  <div>
-                    <h5 className="font-medium text-gray-800 mb-2">小镇边缘民宿</h5>
-                    <p className="text-sm">
-                      如果预算有限，可选择小镇边缘的民宿，价格相对实惠，环境安静，也能便捷到达城堡和小镇中心。
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-blue-900 mb-4">住宿类型选择</h4>
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div>
-                    <h5 className="font-medium text-blue-800 mb-2">高端湖景酒店</h5>
-                    <p className="text-sm">
-                      高端酒店以湖景度假型为主，多位于小镇山坡或湖边，距离火车站和城堡均较近，部分可提供行李免费接送服务，通常自带酒庄、全景泳池、SPA等配套设施，房间多为湖景或山景房，早餐丰富且设有特色餐厅，体验感极佳。
-                    </p>
-                  </div>
-                  <div>
-                    <h5 className="font-medium text-blue-800 mb-2">中端酒店</h5>
-                    <p className="text-sm">
-                      中端酒店多靠近湖边或城堡周边，步行可达核心景点，房间干净整洁，部分房型可欣赏湖景，价格适中，性价比突出。
-                    </p>
-                  </div>
-                  <div>
-                    <h5 className="font-medium text-blue-800 mb-2">经济型民宿</h5>
-                    <p className="text-sm">
-                      经济型住宿可选择当地的民宿，施皮茨的民宿多为家庭经营，风格温馨，设施齐全，部分民宿带有厨房，可自己烹饪，价格实惠，还能感受当地居民的生活氛围，适合预算有限的游客或家庭游客。
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-green-900 mb-4">预订建议</h4>
-                <ul className="text-sm text-gray-700 space-y-2">
-                  <li>• 施皮茨的旅游旺季为每年6-8月和10月，这段时间游客较多，住宿需求量大，建议提前1-2个月预订，避免出现无房或价格上涨的情况</li>
-                  <li>• 淡季（5月、9月）游客较少，可提前1-2周预订，价格相对实惠</li>
-                  <li>• 预订时可查看酒店或民宿的评价，重点关注交通便利性、卫生情况和景观效果，根据自身需求选择合适的住宿</li>
-                </ul>
-              </div>
-
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-yellow-900 mb-4">注意事项</h4>
-                <ul className="text-sm text-gray-700 space-y-2">
-                  <li>• 瑞士的住宿价格普遍较高，包含早餐的住宿性价比更高，建议优先选择含早餐的房型</li>
-                  <li>• 大部分酒店和民宿不提供一次性洗漱用品，游客需自带牙刷、牙膏、拖鞋等用品</li>
-                  <li>• 酒店和民宿的入住时间通常为14:00以后，退房时间为11:00以前，如需提前入住或延迟退房，需提前与酒店沟通，可能会产生额外费用</li>
-                  <li>• 施皮茨小镇夜间非常安静，游客需注意保持安静，避免影响他人休息</li>
-                  <li>• 持有瑞士旅行通票的游客，部分酒店可享受优惠，预订时可提前咨询酒店</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="8. 实用信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-900 mb-2">紧急联系</h4>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• 欧洲统一紧急电话：112</li>
-                    <li>• 瑞士警察：117</li>
-                    <li>• 医疗急救：144</li>
-                    <li>• 消防：118</li>
-                    <li>• 瑞士旅游热线：+41 31 328 12 12</li>
-                  </ul>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡南侧葡萄园小径仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光时分，从城堡下方葡萄园间的小路向上拍摄，能将城堡、教堂与背后的雪山一同纳入镜头，层次感无敌。`}</p>
                 </div>
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">货币与支付</h4>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• 当地货币：瑞士法郎（CHF）</li>
-                    <li>• 汇率参考：1欧元≈1.05瑞士法郎（2025年参考）</li>
-                    <li>• 支付方式：现金、信用卡普遍接受，部分地方支持移动支付</li>
-                    <li>• ATM机：小镇中心及火车站均有，支持银联卡取现</li>
-                  </ul>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`巴洛克花园中心喷泉侧影`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，站在花园中心喷泉的西侧，以喷泉和鲜花为前景，拍摄城堡东翼建筑在平静湖面上的完美倒影。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">语言与沟通</h4>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• 官方语言：德语（瑞士德语方言）</li>
-                    <li>• 旅游区英语：基本通行，酒店与景点工作人员普遍会英语</li>
-                    <li>• 常用短语：Grüezi（你好）、Merci vilmal（非常感谢）</li>
-                    <li>• 导览服务：城堡提供多语言导览（含英语、德语）</li>
-                  </ul>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`主塔楼顶层拱窗框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`登上塔顶后，利用那些厚重的石拱窗作为天然画框，聚焦窗外如模型般的红色屋顶小镇和宝石蓝的湖泊，照片会极具故事感。`}</p>
                 </div>
-                <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">其他实用信息</h4>
-                  <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• 电压：230V，插头为Type J型（瑞士标准）</li>
-                    <li>• 时区：中欧时间（CET），UTC+1</li>
-                    <li>• 饮用水：自来水可直接饮用，水质优良</li>
-                    <li>• 网络：大部分酒店与餐厅提供免费WiFi，部分公共场所也有免费WiFi</li>
-                  </ul>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城堡地下室拱形地窖门洞`}</h4>
+                  <p className="text-sm text-gray-700">{`利用手机或相机的广角功能，在地下室那个深邃的拱形石门洞内，向内拍摄，门洞本身形成的强烈透视引导线会让照片充满张力。`}</p>
                 </div>
               </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`湖边码头长堤尽头回望`}</h4>
+                  <p className="text-sm text-gray-700">{`租一艘小船划到离码头约五十米的湖面上，用长焦镜头压缩空间，拍摄城堡建筑群依偎在山坡上的全景，这是最经典的“明信片”角度。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在城堡内部博物馆区域，请注意查看是否有禁止摄影的标志，通常允许拍照但不允许使用闪光灯和三脚架。航拍无人机在瑞士受到严格管制，在城堡及周边居民区飞行很可能需要提前申请许可，且需尊重他人隐私，不建议游客在此操作。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`性价比之选`}</h4>
+                  <p className="text-sm text-blue-800">{`位于火车站上方的“施皮茨青年旅舍”，由一栋老房子改造而成，房间整洁，最重要的是其公共露台拥有俯瞰城堡与湖泊的绝佳视野，适合背包客和预算有限的旅行者。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`家庭温馨体验`}</h4>
+                  <p className="text-sm text-green-800">{`藏在老镇石板路旁的“加尼特霍夫家庭旅馆”，主人是一对老夫妻，花园里种满了苹果树，早餐的果酱是自家熬制的，还能给你讲述许多地图上没有的本地故事。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计型精品酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在湖边稍远一处静谧湾区的“贝尔维尤艺术酒店”，每个房间都以一位瑞士艺术家命名，装饰风格现代明亮，拥有一个伸入湖面的日落酒吧，时髦又私密。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`奢华遗产沉浸`}</h4>
+                  <p className="text-sm text-purple-800">{`城堡本身不提供住宿，但你可以选择镇上由古老贵族别墅改造的“塞甘蒂尼酒店”，房间内保留着复古装饰，在阳台上享用早餐时，仿佛自己也成了城堡历史的一部分。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`施皮茨是一个非常安全宁静的小镇，治安极好，但夜生活相对稀少，晚上九点后街道就十分安静，喜欢热闹的游客可能会觉得有些寂寞。夏季（7-8月）和圣诞新年期间是旺季，住宿价格会上浮且很快订满，务必提前至少两三个月规划预订。如果订不到镇上的酒店，可以考虑住在相邻的因特拉肯或图恩，乘火车通勤过来非常方便，只需15-20分钟。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开施皮茨城堡许久后，你脑海里反复回放的，可能不是某个具体的房间或某件展品，而是一种整体的、宁静而丰盈的感觉。那是一种被美 gently held（温柔拥抱） 着的安全感。在这个常常令人焦虑的世界里，它提供了一个罕见的锚点——在这里，历史不是废墟，而是依然被精心打理着的家园；自然不是背景板，而是与人居生活平等对话的伙伴。它让你相信，有一种美好，可以不必通过惊心动魄的传奇来证明，而是凭借日复一日的守护、顺应与和谐，绵延上千年。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，这不仅仅是一次对中世纪城堡的参观。这是一次关于“如何生活”的静默教学。它教会我们，真正的力量或许不在于征服的高度，而在于守护的深度；真正的奢华不在于金碧辉煌，而在于时间沉淀出的那份从容不迫。每一位热爱深度游的旅人，都应该来施皮茨城堡住上一两天，不是为了收集又一个景点徽章，而是为了让自己的灵魂，在这湖光山色与古老石墙的共振中，获得一次深度的呼吸和校准。你会发现，自己带走的，远比一张明信片照片要多得多。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kuressaare-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    库
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">库雷萨雷主教城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kuressaare Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-villandry" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维朗德里城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Villandry</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alpina-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔卑纳城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alpina Castle</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

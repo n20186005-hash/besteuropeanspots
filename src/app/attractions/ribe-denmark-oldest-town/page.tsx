@@ -189,17 +189,6 @@ export default function RibeDenmarkOldestTownPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/ribe" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    里
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里伯（丹麦最古老小镇）</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ribe</p>
-                  </div>
-                </div>
-              </a>
               <a href="/attractions/ribedenmark-odden" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
@@ -211,14 +200,25 @@ export default function RibeDenmarkOldestTownPage() {
                   </div>
                 </div>
               </a>
-              <a href="/attractions/baroque-varazdin" className="block group">
+              <a href="/attractions/dinkelsbuehl-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    瓦
+                    丁
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓦拉日丁</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Varaždin</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">丁克尔斯比尔老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dinkelsbühl</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/caceres-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡塞雷斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cáceres Old Town</p>
                   </div>
                 </div>
               </a>

@@ -56,7 +56,7 @@ export default function LindauOldTownPage() {
               <InfoRow label="开放时间" value={`老城区为开放区域，全天可进入。区内主要建筑如新灯塔（Mangturm）和狮子像可全天观赏。登顶老灯塔（Neuer Leuchtturm）参观内部及眺望台的开放时间为每年4月至10月，每日10:00-19:00；11月至次年3月通常关闭维护。市政厅建筑外部可随时参观，内部仅在特定展览或活动日开放。各博物馆（市立博物馆、海港博物馆等）开放时间不一，通常为周二至周日10:00-17:00，周一闭馆，冬季可能缩短开放时间。具体开放日期建议行前查阅官网，因天气和节假日可能临时调整。`} />
               <InfoRow label="门票价格" value={`进入林道老城区本身免费。登顶老灯塔（Neuer Leuchtturm）需购票，成人约3欧元，优惠票约1.5欧元。参观市立博物馆（Stadtmuseum）成人票约5欧元。其他小型展览或教堂塔楼可能有单独小额门票（1-3欧元）。博登湖游船票价为浮动制，根据航线长短从8欧元至30欧元不等，有日票可选。6岁以下儿童通常免费，学生、团体享有折扣。`} />
               <InfoRow label="地址" value={`Lindau Island, 88131 Lindau (Bodensee), Germany`} />
-              <InfoRow label="交通方式" value={`从最近的大型国际机场出发：1. 慕尼黑机场（MUC）：最便捷的选择。在机场火车站乘坐直达IC或ICE列车前往林道总站（Lindau Hbf），车程约2.5-3小时，每小时至少一班。火车最终会驶上堤道，直接抵达与老城区一桥之隔的主岛火车站，体验奇妙。2. 苏黎世机场（ZRH）：也可选择，车程约1.5-2小时，需在罗曼斯霍恩（Romanshorn）或圣加仑（St. Gallen）等地中转一次。从林道主岛火车站出站后，步行过桥（约5-10分钟）即进入老城区核心。若自驾，车辆只能停在岛外的几个大型停车场（如“P1 Inselhalle”），然后步行或乘坐短途巴士上岛。强烈建议体验一次博登湖游船，从邻近的腓特烈港（Friedrichshafen）、布雷根茨（Bregenz）或康斯坦茨（Konstanz）乘船抵达林道港口，从湖上欣赏老城全貌是最佳的登场方式。`} />
+              <InfoRow label="交通方式" value={`从最近的大型国际机场出发：1. 慕尼黑机场（MUC）：最便捷的选择。在机场火车站乘坐直达IC或ICE列车前往林道总站（Lindau Hbf），车程约2.5-3小时，每小时至少一班。火车最终会驶上堤道，直接抵达与老城区一桥之隔的主岛火车站，体验奇妙。2. 苏黎世机场（ZRH）：也可选择，车程约1.5-2小时，需在罗曼斯霍恩（Romanshorn）或圣加仑（St. Gallen）等地中转一次。从林道主岛火车站出站后，步行过桥（约5-10分钟）即进入老城区核心。若自驾，车辆只能停在岛外的几个大型停车场（如"P1 Inselhalle"），然后步行或乘坐短途巴士上岛。强烈建议体验一次博登湖游船，从邻近的腓特烈港（Friedrichshafen）、布雷根茨（Bregenz）或康斯坦茨（Konstanz）乘船抵达林道港口，从湖上欣赏老城全貌是最佳的登场方式。`} />
             </div>
           </Section>
 
@@ -192,36 +192,36 @@ export default function LindauOldTownPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/marburg-old-town-castle" className="block group">
+              <a href="/attractions/hartenfels-castle-torgau-spiral-staircase" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    马
+                    哈
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马尔堡老城与伯爵城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Marburg Old Town and Landgrave‘s Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈滕费尔斯城堡（绝美螺旋阶梯）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hartenfels Castle (Torgau)</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/fritzlar-medieval-old-town" className="block group">
+              <a href="/attractions/wartburg-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    弗
+                    瓦
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">弗里茨拉尔中世纪古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Fritzlar</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓦尔特堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Wartburg Castle</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/esslingen-medieval-timber-frame-town" className="block group">
+              <a href="/attractions/corvey-abbey" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    埃
+                    科
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃斯林根</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Esslingen am Neckar</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尔维修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Corvey Abbey</p>
                   </div>
                 </div>
               </a>

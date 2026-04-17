@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '费拉拉文艺复兴城市 Ferrara｜探访“欧洲第一座现代城市”的砖红梦境 - 最佳欧洲景点',
-  description: '穿过那道厚重的中世纪城墙，时间仿佛被调慢了发条。我的第一脚踩在费拉拉的石板路上，感觉不是走进了一座城，而是跌入了一个由温暖砖红色调和静谧空气构成的梦境。阳光斜斜地切过“埃斯特城堡”高耸的塔楼，在护城河平静的水面上拉出长长的金色倒影，水里悠闲的天鹅对岸上几百年的历史毫不在意。空气里有种特别的味道——是...',
+  title: '费拉拉 Ferrara｜在自行车轮上慢品一座被时光遗忘的文艺复兴“理想城” - 最佳欧洲景点',
+  description: '如果你和我一样，是骑着一辆叮当作响的老式自行车进入费拉拉的，那你一定会懂我接下来说的那种感觉。没有罗马的喧嚣，没有佛罗伦萨的拥挤，车轮碾过被岁月打磨得光滑的鹅卵石，声音清脆又柔和。第一眼望去，是无穷无尽的、温暖的赭红色——那是本地砖石在阳光下独有的色泽，从巍峨的埃斯特城堡，到街边不起眼的民居外墙，整...',
 }
 
 export default function FerraraRenaissanceCityPage() {
@@ -23,17 +23,17 @@ export default function FerraraRenaissanceCityPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">{`费拉拉文艺复兴城市・Ferrara・意大利・费拉拉`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`穿过那道厚重的中世纪城墙，时间仿佛被调慢了发条。我的第一脚踩在费拉拉的石板路上，感觉不是走进了一座城，而是跌入了一个由温暖砖红色调和静谧空气构成的梦境。阳光斜斜地切过“埃斯特城堡”高耸的塔楼，在护城河平静的水面上拉出长长的金色倒影，水里悠闲的天鹅对岸上几百年的历史毫不在意。空气里有种特别的味道——是旧书页、咖啡香，混合着从无数庭院里飘出的月季和迷迭香的清新气息。最打动人的是这里的“空”。不是荒凉，而是一种气定神闲的留白。巨大的广场上只有零星几个骑自行车的人滑过，车铃叮铃，声音在空旷中显得格外清脆。这里没有佛罗伦萨的人声鼎沸，也没有威尼斯的喧嚣，费拉拉就像一个习惯了优雅与沉思的古老贵族，在波河平原上静静地过着自己的日子。
-你很快会发现，自行车才是这座城市真正的主人。男女老少，人人胯下一辆老式自行车，慢悠悠地穿过拱廊，消失在又一条笔直街道的尽头。车轮碾过石板的“咔哒”声，是费拉拉最动听的城市背景音。当地人生活的节奏就藏在这些细节里：阳台上晾晒的白色床单在微风里飘动，小餐馆门口的老先生就着一杯 Espresso 读报，砖墙缝隙里倔强生长的青苔。这里的一切都不急着向你证明什么，它只是存在着，以它文艺复兴时期就被规划好的、近乎完美的几何形态存在着，邀请你用散步的速度，去读懂它的肌理。
-而这座城的核心魅力，恰恰在于这种“可读性”。它不是一堆杂乱无章的古迹堆砌，而是一幅在眼前缓缓展开的立体规划图。笔直宽阔的街道如尺子画出，连接着城堡、教堂与广场；两侧是连续的红砖拱廊，光影在柱列间游戏。走在这样的街道上，你仿佛能触摸到五百年前那些人文主义学者和建筑师澎湃的雄心——他们不仅要建造宫殿，更要创造一个让人类生活得更美好、更理性的“理想城市”。这种乌托邦式的梦想，在费拉拉不是图纸，而是你呼吸着的空气，是你脚下的路。`}
+            {`如果你和我一样，是骑着一辆叮当作响的老式自行车进入费拉拉的，那你一定会懂我接下来说的那种感觉。没有罗马的喧嚣，没有佛罗伦萨的拥挤，车轮碾过被岁月打磨得光滑的鹅卵石，声音清脆又柔和。第一眼望去，是无穷无尽的、温暖的赭红色——那是本地砖石在阳光下独有的色泽，从巍峨的埃斯特城堡，到街边不起眼的民居外墙，整个城市仿佛被罩在一个巨大而温柔的滤镜里。空气中有股好闻的味道，是清晨咖啡香混合着旧书卷气，还有从某户人家窗台飘来的淡淡天竺葵花香。
+这里的街道宽得不像话，尤其是那条著名的“九月二十日大街”，你简直可以在路中间跳华尔兹。这就是文艺复兴时期“理想城市”的遗产——埃斯特家族请来天才建筑师，硬是在中世纪杂乱无章的肌理上，划出了笔直、开阔、充满几何美感的轴线。奇妙的是，你只要拐一个弯，就可能钻进一条只有一人宽的幽深小巷，两旁是斑驳的砖墙，头顶是一线天光。这种开阔与幽秘、规整与随意的对比，是费拉拉最迷人的韵律。
+最打动我的，是这座城市活生生的呼吸感。它不是一座博物馆式的化石。清晨，主座教堂广场旁的老咖啡馆里，银发的老先生们拿着报纸争论不休；中午，学生们骑着车从大学里涌出，笑声洒满街道；傍晚，全城的人似乎都涌上了环绕古城的巨大城墙——那不是冰冷的遗迹，而是一个长达九公里的空中公园。人们在上面跑步、遛狗、约会、看日落。这座建于15-16世纪的防御工事，如今成了费拉拉人最日常的健身房和客厅。这种历史与生活的无缝对接，让费拉拉有了温度。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`穿过那道厚重的中世纪城墙，时间仿佛被调慢了发条。我的第一脚踩在费拉拉的石板路上，感觉不是走进了一座城，而是跌入了一个由温暖砖红色调和静谧空气构成的梦境。阳光斜斜地切过“埃斯特城堡”高耸的塔楼，在护城河平静的水面上拉出长长的金色倒影，水里悠闲的天鹅对岸上几百年的历史毫不在意。空气里有种特别的味道——是旧书页、咖啡香，混合着从无数庭院里飘出的月季和迷迭香的清新气息。最打动人的是这里的“空”。不是荒凉，而是一种气定神闲的留白。巨大的广场上只有零星几个骑自行车的人滑过，车铃叮铃，声音在空旷中显得格外清脆。这里没有佛罗伦萨的人声鼎沸，也没有威尼斯的喧嚣，费拉拉就像一个习惯了优雅与沉思的古老贵族，在波河平原上静静地过着自己的日子。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`你很快会发现，自行车才是这座城市真正的主人。男女老少，人人胯下一辆老式自行车，慢悠悠地穿过拱廊，消失在又一条笔直街道的尽头。车轮碾过石板的“咔哒”声，是费拉拉最动听的城市背景音。当地人生活的节奏就藏在这些细节里：阳台上晾晒的白色床单在微风里飘动，小餐馆门口的老先生就着一杯 Espresso 读报，砖墙缝隙里倔强生长的青苔。这里的一切都不急着向你证明什么，它只是存在着，以它文艺复兴时期就被规划好的、近乎完美的几何形态存在着，邀请你用散步的速度，去读懂它的肌理。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`而这座城的核心魅力，恰恰在于这种“可读性”。它不是一堆杂乱无章的古迹堆砌，而是一幅在眼前缓缓展开的立体规划图。笔直宽阔的街道如尺子画出，连接着城堡、教堂与广场；两侧是连续的红砖拱廊，光影在柱列间游戏。走在这样的街道上，你仿佛能触摸到五百年前那些人文主义学者和建筑师澎湃的雄心——他们不仅要建造宫殿，更要创造一个让人类生活得更美好、更理性的“理想城市”。这种乌托邦式的梦想，在费拉拉不是图纸，而是你呼吸着的空气，是你脚下的路。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果你和我一样，是骑着一辆叮当作响的老式自行车进入费拉拉的，那你一定会懂我接下来说的那种感觉。没有罗马的喧嚣，没有佛罗伦萨的拥挤，车轮碾过被岁月打磨得光滑的鹅卵石，声音清脆又柔和。第一眼望去，是无穷无尽的、温暖的赭红色——那是本地砖石在阳光下独有的色泽，从巍峨的埃斯特城堡，到街边不起眼的民居外墙，整个城市仿佛被罩在一个巨大而温柔的滤镜里。空气中有股好闻的味道，是清晨咖啡香混合着旧书卷气，还有从某户人家窗台飘来的淡淡天竺葵花香。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里的街道宽得不像话，尤其是那条著名的“九月二十日大街”，你简直可以在路中间跳华尔兹。这就是文艺复兴时期“理想城市”的遗产——埃斯特家族请来天才建筑师，硬是在中世纪杂乱无章的肌理上，划出了笔直、开阔、充满几何美感的轴线。奇妙的是，你只要拐一个弯，就可能钻进一条只有一人宽的幽深小巷，两旁是斑驳的砖墙，头顶是一线天光。这种开阔与幽秘、规整与随意的对比，是费拉拉最迷人的韵律。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动我的，是这座城市活生生的呼吸感。它不是一座博物馆式的化石。清晨，主座教堂广场旁的老咖啡馆里，银发的老先生们拿着报纸争论不休；中午，学生们骑着车从大学里涌出，笑声洒满街道；傍晚，全城的人似乎都涌上了环绕古城的巨大城墙——那不是冰冷的遗迹，而是一个长达九公里的空中公园。人们在上面跑步、遛狗、约会、看日落。这座建于15-16世纪的防御工事，如今成了费拉拉人最日常的健身房和客厅。这种历史与生活的无缝对接，让费拉拉有了温度。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
@@ -41,31 +41,32 @@ export default function FerraraRenaissanceCityPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value={`费拉拉文艺复兴城市`} />
                 <InfoRow label="英文名称" value={`Ferrara`} />
-                <InfoRow label="正式名称" value={`City of Ferrara, Renaissance City`} />
+                <InfoRow label="正式名称" value={`Ferrara`} />
                 <InfoRow label="国家" value={`意大利`} />
                 <InfoRow label="城市" value={`费拉拉`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`文艺复兴时期城市规划的革命性典范，被誉为“欧洲第一座现代城市”。`} />
-                <InfoRow label="建筑特色" value={`埃斯特家族权力与美学的完美结晶，以宏大的城堡、规则的“理想城市”棋盘式布局和独特的砖红色调闻名。`} />
-                <InfoRow label="建筑风格" value={`以文艺复兴风格为主导，完美融合并超越了中世纪的哥特式基础，呈现出理性、和谐与人文主义的城市肌理。`} />
-                <InfoRow label="文化价值" value={`一座活着的露天博物馆，其“钻石形”街区规划对后世欧洲乃至全球的城市设计产生了不可估量的深远影响。`} />
+                <InfoRow label="历史地位" value={`埃斯特家族统治下的“理想城市”典范，其文艺复兴时期的城市规划直接影响后世的都市设计。`} />
+                <InfoRow label="建筑特色" value={`宏伟的红砖建筑群、令人惊叹的宽阔笔直街道与隐秘的中世纪小巷交织，形成了独特的城市肌理。`} />
+                <InfoRow label="建筑风格" value={`文艺复兴早期风格与中世纪哥特风格的完美融合，尤以“钻石宫”立面和埃斯特城堡的堡垒式结构为代表。`} />
+                <InfoRow label="文化价值" value={`一座活着的、未被过度旅游开发的文艺复兴城市，其城市布局和生活方式依然保持着几个世纪前的宁静与优雅。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`城市本身全天开放。主要宫殿与城堡（如埃斯特城堡）的室内参观时间通常为周二至周日 9:30-17:30（夏季可能延长至19:00），周一闭馆。重要节庆（如复活节、圣诞节）开放时间变动较大，建议行前在官网核实。城墙公园日出至日落开放。`} />
-              <InfoRow label="门票价格" value={`漫步古城街道免费。埃斯特城堡门票约12欧元，含语音导览。推荐购买“费拉拉卡”（约15-20欧元），可在48小时内免费进入市内主要博物馆和城堡，并免费乘坐市内公交车。学生、65岁以上老人享有折扣，18岁以下青少年通常免费。部分教堂捐赠入场（约2-3欧元）。`} />
+              <InfoRow label="开放时间" value={`城市本身全天开放。主要景点如埃斯特城堡、主教座堂等通常开放时间为上午9:00至下午6:00，部分博物馆周一闭馆。圣诞节及元旦当天大部分室内景点关闭。建议出行前在官网查询具体时间，夏季可能延长开放。`} />
+              <InfoRow label="门票价格" value={`探索古城街道和城墙完全免费。进入主要景点需购票：埃斯特城堡联票约12欧元，含多个博物馆的通票约15欧元。欧盟学生及26岁以下青年有优惠，65岁以上老人也可享受折扣。部分教堂免费但鼓励捐款。每月第一个周日许多国立博物馆免费。`} />
               <InfoRow label="地址" value={`Piazza del Municipio, 1, 44121 Ferrara FE, Italy`} />
-              <InfoRow label="交通方式" value={`最近的国际机场是博洛尼亚古列尔莫·马可尼机场（BLQ），距离约50公里。从机场乘坐“Aerobus”到博洛尼亚中央火车站（约20分钟），转乘区域火车前往费拉拉站（车程25-35分钟，班次密集，每小时2-4班）。从佛罗伦萨或威尼斯出发，乘火车直达费拉拉也极为方便（车程1.5-2小时）。从费拉拉火车站步行至古城中心仅需15-20分钟，城内游览最佳方式是租一辆自行车或步行。`} />
+              <InfoRow label="交通方式" value={`从最近的博洛尼亚古列尔莫·马可尼机场出发，最便捷的方式是乘坐机场巴士到博洛尼亚中央火车站，然后转乘火车。从博洛尼亚到费拉拉的火车班次极其频繁，约每20-30分钟一班，车程仅25-30分钟，票价约5欧元。从费拉拉火车站步行至古城中心仅需15分钟，你也可以在站前租一辆自行车，这才是打开这座城市的正确方式。如果自驾，请注意古城核心区是交通限制区，需将车停在城墙外的停车场。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`费拉拉的故事，是一部由一个家族野心所谱写的传奇，这个家族就是埃斯特。早在1208年，这个精明强硬的家族就成为了费拉拉的统治者，但真正让这座城市脱胎换骨的，是15世纪的“优雅者”尼科洛三世和他的儿子博尔索、孙子埃尔科莱一世。特别是埃尔科莱一世，他不仅是个军事家，更是一位伟大的艺术赞助者和城市规划师。当时费拉拉老城（现在的市中心）已经拥挤不堪，于是，在1492年——没错，就是哥伦布发现新大陆的那一年——他做了一个大胆的决定：向东大规模扩建城市。这个决定，让费拉拉永载史册。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`埃尔科莱请来的建筑师比亚焦·罗塞蒂，像一位神奇的魔术师，在平地上画出了“埃斯特新区”。这不是随意的扩张，而是一次基于理性、对称与美感的社会实验。笔直的街道形成严整的网格，宽阔的广场成为社区中心，统一的建筑立面（大量使用本地烧制的红砖）创造了无与伦比的城市和谐感。这里兴建起一座座美轮美奂的宫殿，比如外墙布满数千个钻石形石块的“钻石宫”，光是看着就让人目眩神迷。费拉拉成了全欧洲学者、艺术家和诗人趋之若鹜的“理想国”。诗人阿里奥斯托在这里写下史诗《疯狂的罗兰》，画家科西莫·图拉用他神经质般充满张力的笔触，装饰着宫廷的每一个角落。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，盛极必衰是历史的铁律。1598年，由于没有合法子嗣，最后一位埃斯特公爵将费拉拉归还给了教皇国。几乎一夜之间，辉煌落幕。教皇的统治是保守而紧缩的，大量的艺术收藏被搬走，赞助消失，精英阶层四散。费拉拉就像被施了沉睡魔咒的公主，在接下来的几个世纪里几乎停滞不前。拿破仑的铁骑曾短暂掠过，带来一些新的法律和规划理念，但并未真正唤醒它。这种“停滞”从另一个角度看，却成了奇迹般的“保护”。因为没有经历大规模的工业化改造和现代破坏，文艺复兴时期那套完整的城市肌理，被原封不动地冻结在了时间里。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`穿越十九世纪统一和二十世纪战争的硝烟，费拉拉默默守护着自己的容颜。二战时期，它遭受了猛烈的空袭，许多建筑受损，但城市的基本骨架奇迹般地保存了下来。战后的意大利人意识到了这份遗产的独一无二，开始了精心的修复。1995年，联合国教科文组织将“费拉拉，文艺复兴城市”整体列入世界遗产名录，理由正是其作为“欧洲第一个真正意义上的现代城市”的规划理念，对后世产生了深远影响。今天的费拉拉，不再是权力中心，但它那份融合了宏伟规划与人间烟火的独特气质，让每一个到访者都能清晰听见，文艺复兴那颗追求理性与美的强大心脏，依然在这里平稳而有力地跳动。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`费拉拉的故事，是一部由一个野心勃勃的家族书写的传奇。一切要从埃斯特家族说起。这个家族在13世纪成为费拉拉的领主，但他们并不满足于仅仅统治一座城市。在精明强干的尼科洛三世和他的儿子莱奥内洛的时代，费拉拉开始吸引整个意大利半岛的学者、诗人和艺术家。这里成了早期文艺复兴一个耀眼却常被后世忽略的灯塔。但真正的转折点，发生在博尔索·埃斯特和埃尔科莱一世·埃斯特统治时期。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`博尔索公爵是个极有品味又热爱排场的人。他做了一件疯狂的事：聘请了当时最伟大的画家之一，弗朗切斯科·德尔·科萨，用一系列令人瞠目结舌的湿壁画，覆盖了他宫殿（现为斯齐法诺亚宫）的整个大厅。壁画描绘了月份、星座、神话与宫廷生活，绚烂夺目，至今仍是意大利文艺复兴艺术的巅峰之作之一。而他的兄弟埃尔科莱一世，则是个更有远见的城市规划者。1492年，没错，就是哥伦布发现新大陆的那一年，他启动了一项雄心勃勃的工程——扩建费拉拉。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这就是著名的“埃尔科莱式扩建”。他请来建筑师比亚焦·罗塞蒂，像在一张白纸上作画一样，规划了城市的新区。笔直宽阔的街道、宏伟的广场、对称的布局，这一切都基于一种全新的、以人为本的理念。罗塞蒂设计的“钻石宫”，其外立面布满了近万块切割成钻石棱面状的石灰华石，在阳光下闪烁着不可思议的光芒，仿佛一座巨大的宝石宫殿，成为了文艺复兴建筑史上最奇特的瑰宝之一。这一时期，费拉拉云集了像诗人阿里奥斯托（《疯狂的奥兰多》在此写成）、画家曼泰尼亚等巨匠，文化与艺术的繁荣达到了顶峰。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，盛极而衰是历史的常律。1598年，由于缺乏合法男性继承人，埃斯特家族被迫将费拉拉交还给教皇国。这个决定对城市来说是毁灭性的。教皇的统治僵化而保守，曾经活跃的思想被钳制，繁华的宫廷迅速衰落，许多贵族和艺术家纷纷离开。费拉拉仿佛被按下了暂停键，从此沉睡。经济停滞，发展缓慢，它渐渐从文艺复兴的前沿阵地，变成了一个宁静的省级城镇。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`塞翁失马，焉知非福。正是这种“被遗忘”，意外地保护了费拉拉。它没有经历后来工业化浪潮的粗暴改造，也没有因为过度旅游而面目全非。埃尔科莱一世时期规划的笔直街道、罗塞蒂设计的那些美丽宫殿、环绕城市的巨大砖砌城墙，都近乎完整地保存了下来。直到20世纪，当人们重新审视文艺复兴时，才惊觉这里保存着一座“活化石”。1995年，费拉拉被联合国教科文组织列为世界遗产，理由正是它“保留了完好的文艺复兴城市肌理，并展示了早期城市规划理念对后世的影响”。它从沉睡中醒来，却依然优雅从容。`}</p>
             </div>
           </Section>
 
@@ -74,45 +75,47 @@ export default function FerraraRenaissanceCityPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`要真正品味费拉拉，你需要一整天的时间，并且最好从清晨开始。建议早上九点左右抵达埃斯特城堡，此时光线柔和，游客稀少。整个游览节奏应是“由内到外，再由外环抱”：先用上午的3-4小时深度探索城堡及周边密集的历史核心区（主教座堂、钻石宫等），感受权力的中心与规划的精密。中午在古城中心的广场或小巷找家餐馆享用漫长的午餐，像当地人一样慢下来。下午，租一辆自行车（这是必须的体验！），用2-3小时沿着保存完事的文艺复兴时期城墙骑行一圈，从外围的视角回望整座城市，你会对它的布局产生豁然开朗的理解。这样的安排，让你既能深入细节触摸历史，又能跳脱出来，领略这座“理想城市”作为一件完整艺术品的全局之美。`}
+                  {`要真正品味费拉拉，你需要一整天，外加一辆自行车。我强烈建议你前一晚抵达，第二天清晨就开始探索。整个路线节奏舒缓，以骑行和漫步结合。上午聚焦于古城中心震撼人心的地标，感受埃斯特家族的权势；午后则深入幽静的街区和小巷，体验本地生活；傍晚一定要留给壮丽的城墙，这是高潮也是总结。这样的安排能让你避开主要景点的少量人潮，同时在不同光线下欣赏城市变幻的美。总耗时约8-9小时，包括悠闲的午餐和咖啡时间。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`周一多数主要博物馆和城堡内部闭馆，最好避开这天进行深度室内游览。租自行车时记得检查车铃和车灯，并在狭窄拱廊下骑行时特别注意行人。古城街道多为石板路，穿一双绝对舒适的步行鞋是比什么都重要的忠告。`}
+                  <strong>建议：</strong>{`大多数博物馆和宫殿在周一关闭，务必避开这天进行深度文化游。
+进入主教座堂内部有着装要求，需遮盖肩膀和膝盖，短裤和吊带裙可能会被拒绝入内。
+费拉拉道路多为鹅卵石，穿一双舒适柔软的平底鞋或运动鞋至关重要，高跟鞋在这里寸步难行。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从埃斯特城堡威严的拱门下进入，在空旷的庭院里仰头感受四面高墙的压迫感，想象当年公爵与廷臣在此穿梭。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从雄踞水中的埃斯特城堡开始，穿过吊桥进入内部，在布满壁画的房间和开阔的屋顶平台感受统治者的威仪与视野。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`一定要登上城堡的塔楼，让整个费拉拉红砖屋顶的海洋和笔直街道构成的几何画卷在你脚下360度铺开。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`步行至几步之遥的主教座堂广场，仰望那座融合了罗马、哥特、文艺复兴三种风格的奇特大理石立面，然后钻进旁边热闹的早市。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`穿过城堡，立刻投身于主教座堂广场的震撼中，仔细欣赏教堂立面下半部罗马式与上半部哥特式精妙绝伦的“混搭”。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`骑上自行车，沿着宽阔笔直的“九月二十日大街”向北滑行，感受文艺复兴城市规划的开阔感，直到被“钻石宫”那面闪闪发光的宝石立面惊艳得停下。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`沿着凉爽的拱廊溜达到钻石宫跟前，花点时间数数那些在阳光下闪闪发光的近万块钻石形石刻，感受文艺复兴极致的奢华幻想。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`拐入钻石宫西侧的静谧街区，这里是犹太区，在错综复杂的小巷和安静的庭院间穿行，寻找那些记录着古老社区历史的铭牌。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`钻进埃斯特新区任何一条笔直的小街，比如 via degli Spadari，体验两边对称建筑带来的宁静秩序感，留意那些精美的庭院大门。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从犹太区向西骑行几分钟，抵达巨大的斯齐法诺亚宫，在“月之厅”花上一小时，沉浸在描绘星空与宫廷生活的绝世湿壁画前。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在犹太人区的古老巷弄里慢慢穿行，这里的气氛更加隐秘和深沉，沉默的石墙诉说着几个世纪的故事。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`将自行车靠墙放好，爬上附近一段保存完好的文艺复兴城墙，沿着这条“空中绿色长廊”散步或骑行，从另一种高度俯瞰红瓦屋顶的海洋。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`挑一个非饭点的时间，钻进 via delle Volte 那条有着连续中世纪拱顶的古老街道，这里是摄影师的天堂，光影游戏每日在此上演。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前半小时，找到城墙西南角靠近圣乔瓦尼堡垒的段落，这里是观看夕阳将整个城市染成金红色的最佳剧场。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`务必在日落前一小时骑上自行车，从 Porta degli Angeli 城门登上城墙公园，在绿树与旧堡垒的陪伴下，完成环绕古城的仪式性骑行。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐前回到市中心，在加富尔广场找一家露天餐馆坐下，点一杯本地出产的博斯克酒，看着广场上的灯光渐次亮起。`}</p>
                 </div>
               </div>
             </div>
@@ -123,27 +126,27 @@ export default function FerraraRenaissanceCityPage() {
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-gray-900 mb-2">1. {`埃斯特城堡护城河倒影`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨或黄昏，站在城堡东南角的石桥上，利用平静的水面拍摄城堡塔楼与天空的完美对称倒影，构图时可将河边的柳枝作为前景。`}</p>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，站在城堡东侧的吊桥边，利用平静的水面拍摄城堡与天空的完美对称倒影，画面宁静而富有历史感。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主教座堂拱廊光影长廊`}</h4>
-                  <p className="text-sm text-gray-700">{`正午阳光直射时，站在主教座堂侧面拱廊的一端，利用强烈的明暗对比，拍摄拱廊形成的深邃光影隧道，等待一个骑自行车的人穿过成为点睛之笔。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣乔治街景纵深`}</h4>
-                  <p className="text-sm text-gray-700">{`下午三四点，站在 via San Giorgio 中段，利用这条笔直街道天然的透视感，将镜头对准远端的圣乔治教堂塔楼，捕捉红砖建筑立面在侧光下的质感与街道的几何美感。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城墙日落剪影`}</h4>
-                  <p className="text-sm text-gray-700">{`日落时分，在城墙公园西段（靠近 Porta Paola 一带），以远处古城的天际线（城堡塔楼、主教座堂穹顶）为背景，拍摄骑行或漫步人物的剪影，画面充满故事感。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“钻石宫”立面特写`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点的斜阳是魔法时刻，阳光以低角度照射在钻石棱面的石头上，能拍出每块石头都在燃烧般的璀璨质感和深邃阴影。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`钻石宫外墙细节特写`}</h4>
-                  <p className="text-sm text-gray-700">{`选择阳光能斜射到建筑立面的上午或午后，贴近钻石形石刻墙面，用大光圈镜头拍摄局部特写，突出石料雕刻的立体感和砖石温暖的色调与质感。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`犹太区小巷光影`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分，当阳光垂直射入狭窄的小巷，会在古老的砖石地面上投下锐利而迷人的光影分割线，构图时捕捉一个骑车或行走的当地人背影作为点睛之笔。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城墙日落全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，在城墙西南段（近Porta San Giovanni），使用长焦镜头压缩空间，将远处的主教座堂钟楼、成片的红瓦屋顶和绚烂的天空压缩在同一画面中。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`斯齐法诺亚宫壁画细节`}</h4>
+                  <p className="text-sm text-gray-700">{`室内拍摄需关闭闪光灯，提高ISO，对准“月之厅”壁画中人物精美的服饰或星空图案的特写，能传达出令人震撼的艺术细节。`}</p>
                 </div>
               </div>
 
@@ -152,7 +155,9 @@ export default function FerraraRenaissanceCityPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`费拉拉的城市尺度宏大，带一支中长焦镜头（如70-200mm）能帮你压缩街景，拍出更富层次感的画面。拍摄当地居民尤其是商户时，请务必先微笑示意并征得同意，这里的人们友善但注重隐私。多利用清晨和黄昏的“黄金时刻”，费拉拉砖红色的建筑在这时光线下会散发出蜂蜜般温暖迷人的光泽。`}</li>
+                <li>• {`多云的天气其实是拍摄费拉拉红砖建筑的福音，均匀的散射光能更好地呈现建筑纹理和色彩，避免正午的强烈顶光。`}</li>
+                <li>• {`拍摄居民或商铺内部前，请务必先微笑并征得同意，这里的人们友善但注重隐私。`}</li>
+                <li>• {`尝试用慢速快门（如1/15秒）跟拍一辆在鹅卵石上骑行的自行车，能拍出动态模糊的背景与清晰主体的结合，非常有故事感。`}</li>
               </ul>
             </div>
           </Section>
@@ -161,32 +166,72 @@ export default function FerraraRenaissanceCityPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`奢华宫殿体验`}</h4>
-                  <p className="text-sm text-blue-800">{`下榻由文艺复兴时期贵族宫殿直接改造的精品酒店，睡在 fresco 壁画装饰的天花板下，清晨在私人庭院里享受一顿安静的意式早餐。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`古城中心温馨公寓`}</h4>
+                  <p className="text-sm text-blue-800">{`住在经过翻修的历史建筑顶层，拥有一个可以俯瞰错落红瓦屋顶和教堂钟楼的小露台，体验一把“本地贵族”的视野。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`设计感运河居所`}</h4>
-                  <p className="text-sm text-green-800">{`选择位于老城边缘、安静运河旁的设计师民宿，房间拥有巨大的落地窗，窗外是潺潺流水与古老的城墙，现代简约风格与历史背景碰撞出奇妙火花。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`文艺复兴宫殿改造的精品酒店`}</h4>
+                  <p className="text-sm text-green-800">{`由一座16世纪的贵族府邸精心修复而成，保留了原始的拱顶、壁画和壁炉，服务生会向你讲述每个角落的故事。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`温馨家庭旅馆`}</h4>
-                  <p className="text-sm text-yellow-800">{`入住历史中心一栋经过精心修缮的古老住宅楼，由热情的老夫妇经营，房间不大但充满家的温馨，早餐有女主人亲手制作的蛋糕和果酱。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`城墙内的宁静民宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于安静的犹太区，由一户热情的艺术家庭经营，早晨会为你准备丰盛的自制艾米利亚早餐，包括当地特色的南瓜馅意式馄饨。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`田园诗郊外农庄`}</h4>
-                  <p className="text-sm text-purple-800">{`如果你有车，不妨住在城外几公里处的典型艾米利亚-罗马涅大区农庄，在宽敞的房间里醒来，窗外是一望无际的农田，夜晚星空璀璨，体验真正的乡间宁静。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`郊外农庄体验`}</h4>
+                  <p className="text-sm text-purple-800">{`如果你有车，不妨住在城外几公里处的典型艾米利亚农庄，被梨树和葡萄园环绕，晚上能听到虫鸣，品尝农场自产的奶酪和葡萄酒。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`古城中心的住宿位置绝佳，但晚上非常安静，喜欢夜生活的话可能会觉得过于沉寂。老建筑内的房间可能楼梯较陡，隔音相对现代酒店稍差，但这正是历史体验的一部分。夏季和重要节日（如费拉拉 Buskers Festival 街头艺人节）期间房源紧张，务必提前数月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`费拉拉治安非常好，老城中心夜晚也很宁静安全，可以放心散步。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`旺季（春季和初秋）住宿紧俏，尤其是周末，务必提前数周预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`许多小型民宿不设24小时前台，预订时请确认好入住时间并保持沟通。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开费拉拉很久以后，我脑海里反复回响的不是某个具体的雕像或画面，而是一种整体的“感觉”。那是一种罕见的、属于成年人的宁静与确信。在这座城里，人类的理性曾如此自信地在大地上绘制蓝图，将对美、秩序与和谐社会的向往，凝固成街道、广场和城墙。它没有试图用夸张的戏剧性来震撼你，而是用一种润物无声的完整与和谐，让你慢慢沉静下来，去思考什么是好的生活，什么是城市的灵魂。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个充斥着碎片信息、追求瞬时刺激的快节奏世界里，费拉拉的存在就像一个意味深长的隐喻。它提醒我们，真正的深度与美好，往往来自那些经过深思熟虑的规划、持之以恒的建造，以及甘于在历史长河中保持一份沉稳定力的选择。它不只是一处旅游目的地，更是一次关于“理想”的温和叩问。每一位热爱深度游的旅人都该来费拉拉住上几天，不只是为了看一座城堡或宫殿，而是为了让自己迷失在它那理性又梦幻的街道网格中，亲自用脚步丈量一次文艺复兴的雄心，并在这个过程中，重新找回内心那份久违的、不慌不忙的秩序与安宁。这，或许就是穿越时空最深情的收获。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开费拉拉好些日子了，我脑海里最清晰的画面，不是某座具体的宫殿，而是黄昏时城墙上那些跑步的身影，被夕阳拉得很长。那一刻我突然明白，费拉拉最珍贵的遗产，不是石头，不是壁画，而是一种活法。它证明了，伟大的历史遗产不必被供奉在玻璃柜后，它可以是一条每天跑步的跑道，一条骑车送孩子上学的巷子，一个和朋友傍晚碰头的广场。历史在这里没有死去，它只是融入了呼吸的节奏，变成了生活本身。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求效率、追求“网红打卡”的旅行时代，费拉拉像一位沉默而睿智的长者，它教会我们“慢”的哲学。它不需要你匆匆忙忙赶景点，它邀请你租一辆自行车，漫无目的地迷失在它红砖的迷宫里，在城墙上看一次完整的日落，在广场上发一场无关紧要的呆。它告诉我们，旅行的深度，不在于你收集了多少个著名地标，而在于你是否真正进入了一个地方的时光与呼吸。如果你厌倦了人潮，渴望一场与文艺复兴灵魂的真切对话，那么，请来费拉拉。这里没有喧嚣的答案，只有宁静的、等着你用车轮和脚步去丈量的问题。它是一首写在砖石上的、关于理想生活的长诗，至今仍在被轻轻吟诵。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/venaferro-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦纳夫罗古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Venaferro Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bovino-historic-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博维诺古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bovino</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/spoleto-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯波莱托古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spoleto</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

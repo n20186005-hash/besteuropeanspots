@@ -197,36 +197,36 @@ export default function DurbuySmallestCityBelgiumPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/durbuy-old-town-worlds-smallest-city" className="block group">
+              <a href="/attractions/cathedral-of-saint-aubain-namur" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    德
+                    那
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">德尔比老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Durbuy</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">那慕尔圣母大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Namur Cathedral</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/beringen-mine-be-mine" className="block group">
+              <a href="/attractions/huy" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    贝
+                    胡
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝灵恩煤矿遗址</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beringen Mine (Be-MINE)</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">胡伊古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Huy</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/durbuy" className="block group">
+              <a href="/attractions/caceres-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    迪
+                    卡
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迪尔比（世界最小城市）</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Durbuy</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡塞雷斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cáceres Old Town</p>
                   </div>
                 </div>
               </a>

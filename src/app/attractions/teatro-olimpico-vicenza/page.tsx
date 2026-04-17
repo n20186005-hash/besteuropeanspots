@@ -197,36 +197,36 @@ export default function TeatroOlimpicoVicenzaPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/ravenna-mosaics" className="block group">
+              <a href="/attractions/spoleto" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    拉
+                    斯
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉文纳马赛克群</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Early Christian Monuments of Ravenna</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯波莱托古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spoleto</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/the-ancient-city-of-acerenza" className="block group">
+              <a href="/attractions/venzone-rebuilt-lavender-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    阿
+                    文
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿切伦扎古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Ancient City of Acerenza</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">文佐内</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Venzone</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/ragusa" className="block group">
+              <a href="/attractions/certaldo-tuscany" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    拉
+                    切
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉古萨老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ragusa</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">切尔塔尔多</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Certaldo</p>
                   </div>
                 </div>
               </a>

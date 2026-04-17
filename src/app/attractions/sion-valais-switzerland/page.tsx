@@ -203,25 +203,25 @@ export default function SionValaisSwitzerlandPage() {
                   </div>
                 </div>
               </a>
-              <a href="/attractions/gruyeres-medieval-town" className="block group">
+              <a href="/attractions/rapperswil-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    格
+                    拉
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格吕耶尔中世纪小镇</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gruyères</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉珀斯维尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rapperswil Castle</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/tarasp-castle" className="block group">
+              <a href="/attractions/murten-medieval-lake-city-walls" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    塔
+                    穆
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塔拉斯普城堡（恩嘎丁山谷的守护者）</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tarasp Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">穆尔滕环湖古城墙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Murten (Morat) City Walls</p>
                   </div>
                 </div>
               </a>

@@ -187,36 +187,36 @@ export default function NamurCitadelPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/citadelle-de-namur" className="block group">
+              <a href="/attractions/zimmertoren-begijnhof-lier" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    那
+                    利
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">那慕尔城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Citadelle de Namur</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">利尔钟楼（齐默尔塔）与贝居安会院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zimmertoren and Begijnhof of Lier</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/belfry-of-mons-old-town" className="block group">
+              <a href="/attractions/tournai-cathedral" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    蒙
+                    图
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙斯钟楼及老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Belfry of Mons and the Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图尔奈圣母主教座堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tournai Cathedral</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/orval-abbey" className="block group">
+              <a href="/attractions/diksmuide-ijzertoren" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    奥
+                    迪
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔瓦勒修道院</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Orval Abbey</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迪克斯迈德（伊泽尔塔与一战弗拉芒平原重镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Diksmuide</p>
                   </div>
                 </div>
               </a>

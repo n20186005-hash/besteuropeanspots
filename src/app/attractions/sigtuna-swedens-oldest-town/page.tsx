@@ -195,36 +195,36 @@ export default function SigtunaSwedensOldestTownPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/ystad-medieval-town-sweden" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    于
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">于斯塔德</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ystad</p>
-                  </div>
-                </div>
-              </a>
-              <a href="/attractions/vasteras-sweden" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    韦
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦斯特罗斯</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Västerås</p>
-                  </div>
-                </div>
-              </a>
-              <a href="/attractions/mantua-city" className="block group">
+              <a href="/attractions/mantua-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
                     曼
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">曼托瓦</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mantua</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">曼托瓦老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mantua Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/caceres-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡塞雷斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cáceres Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/drottningholm-palace" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卓
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卓宁霍姆宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Drottningholm Palace</p>
                   </div>
                 </div>
               </a>

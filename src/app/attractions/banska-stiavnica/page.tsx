@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '班斯卡什佳夫尼察 Banská Štiavnica｜沉睡在中欧群山间的银矿传奇，世界遗产教科书 - 最佳欧洲景点',
-  description: '朋友，想象一下，你从盘山公路的一个转弯处，第一次瞥见它的样子。它不像那些张扬的大城市，而是像一个被时光小心收藏在山坳里的秘密珠宝盒，层层叠叠的屋顶是温暖的红褐色、鹅黄色和淡淡的薄荷绿，像被雨水冲刷过的油画颜料，温柔地铺展在翠绿的山丘之间。空气中有一股特别的清凉，混合着雨后石板路的潮湿气息、远处森林的...',
+  title: '班斯卡-什佳夫尼察 Banská Štiavnica｜深藏山间的“白银之城”，一座活着的露天采矿博物馆 - 最佳欧洲景点',
+  description: '车子在斯洛伐克中部连绵的火山群间盘旋，当你觉得山路快要穷尽时，一个山谷突然在眼前敞开。那第一眼的震撼，不是来自某座孤立的伟大建筑，而是一整幅活生生的、从山谷底部一直堆叠到两侧山脊的立体画卷——这就是班斯卡-什佳夫尼察。你闻到的是森林、湿石头和一点点从老房子木头缝隙里透出来的旧时光气息，而不是游客区的...',
 }
 
 export default function BanskaStiavnicaPage() {
@@ -16,56 +16,56 @@ export default function BanskaStiavnicaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '班斯卡什佳夫尼察', href: '/attractions/banska-stiavnica' },
+            { label: '班斯卡-什佳夫尼察', href: '/attractions/banska-stiavnica' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`班斯卡什佳夫尼察・Banská Štiavnica・斯洛伐克・班斯卡什佳夫尼察`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`班斯卡-什佳夫尼察・Banská Štiavnica・斯洛伐克・班斯卡-什佳夫尼察`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`朋友，想象一下，你从盘山公路的一个转弯处，第一次瞥见它的样子。它不像那些张扬的大城市，而是像一个被时光小心收藏在山坳里的秘密珠宝盒，层层叠叠的屋顶是温暖的红褐色、鹅黄色和淡淡的薄荷绿，像被雨水冲刷过的油画颜料，温柔地铺展在翠绿的山丘之间。空气中有一股特别的清凉，混合着雨后石板路的潮湿气息、远处森林的松针香，还有一丝若有若无的、来自古老石头深处的金属矿味——那是这座城市与生俱来的 DNA。
-车子停下，你双脚真正踏上被几个世纪的行人磨得发亮的鹅卵石街道。坡度不小，走起来微微喘气，但这正是感受它的最佳方式。耳边没有喧嚣的车流，只有自己的脚步声、远处教堂悠扬的钟声，以及阳台上传来的人们用斯洛伐克语聊天的细碎声响。你会看到老太太在窗台给天竺葵浇水，木匠在他的小作坊里传出刨木头的沙沙声，咖啡馆的露天座位上，人们只是安静地对着面前的咖啡和城堡山发呆。这里不是一个被抽空的博物馆，而是一个活生生的、缓慢呼吸的家园，历史就沉淀在他们的日常生活里，不刻意展示，却无处不在。
-最打动人心的，是那种巨大的反差与和谐。在精致如明信片般的街角，转过弯，你可能会突然与一个庞大、沉默、爬满藤蔓的工业废墟相遇——那是废弃的矿厂烟囱或水塔。它们不再喷吐烟雾，却以雕塑般的姿态，成为风景的一部分。这种美，不是单一的、被修饰过的，而是复杂的、充满故事的。它告诉你，这里的辉煌从来不是凭空而来的诗意，而是源于大地深处的黑暗、汗水与智慧。你走在其中，仿佛能听到地下深处隐约的回响，那是几个世纪以来，镐头敲击矿脉的韵律，也是让这座“银城”心跳不息的声音。`}
+            {`车子在斯洛伐克中部连绵的火山群间盘旋，当你觉得山路快要穷尽时，一个山谷突然在眼前敞开。那第一眼的震撼，不是来自某座孤立的伟大建筑，而是一整幅活生生的、从山谷底部一直堆叠到两侧山脊的立体画卷——这就是班斯卡-什佳夫尼察。你闻到的是森林、湿石头和一点点从老房子木头缝隙里透出来的旧时光气息，而不是游客区的香水味。耳朵里最先捕捉到的，是教堂悠远的钟声，混合着山泉潺潺流过古老石槽的叮咚，以及某条陡峭鹅卵石小径上，当地人拉着购物小拖车发出的轱辘声。这座城不是舞台布景，它依然在呼吸。
+它的心跳，深埋在地下。表面上看，这是一座被时光温柔凝固的美丽山城，色彩柔和的联排住宅、戴着“洋葱帽”的教堂塔楼、爬满藤蔓的古老城墙，在阳光下像一块巨大的蜂蜜蛋糕。但只要你稍微留意，就会发现无处不在的“矿工密码”：街道以“矿工”、“熔炼”命名，广场中央矗立着圣芭芭拉（矿工的守护神）的雕像，许多建筑的大门上镌刻着铁镐、车轮或象征矿石的纹章。咖啡馆里坐着的老爷爷，很可能就是最后一代矿工，他们的手纹里或许还藏着洗不净的矿物痕迹。这里的魅力，在于这种双重性：地上是宁静、甚至有些慵懒的中欧小镇生活；地下却是一个长达数个世纪、深达数百米的轰轰烈烈的工业史诗。
+最打动人的，是那种极致的和谐。当年的人们为了从地球深处攫取财富，没有粗暴地破坏这片土地，而是以惊人的智慧与之共舞。他们修建了复杂的“塔贾”（tajchy）系统——一系列人工蓄水池，像项链一样环绕群山，为矿井提供水力动力。这些水池如今成了泛着绿松石光泽的天然湖泊，是当地人游泳、垂钓的后花园。城市建筑沿着等高线蜿蜒，广场和街道顺应地形自然起伏，没有一条路是笔直僵硬的。走在其中，你感觉不到人造景观与自然景观的对抗，只感到一种历经磨难后达成的深刻谅解与融合。这座城本身，就是人类智慧面对自然挑战所谱写的一首坚韧而优美的诗。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，想象一下，你从盘山公路的一个转弯处，第一次瞥见它的样子。它不像那些张扬的大城市，而是像一个被时光小心收藏在山坳里的秘密珠宝盒，层层叠叠的屋顶是温暖的红褐色、鹅黄色和淡淡的薄荷绿，像被雨水冲刷过的油画颜料，温柔地铺展在翠绿的山丘之间。空气中有一股特别的清凉，混合着雨后石板路的潮湿气息、远处森林的松针香，还有一丝若有若无的、来自古老石头深处的金属矿味——那是这座城市与生俱来的 DNA。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子停下，你双脚真正踏上被几个世纪的行人磨得发亮的鹅卵石街道。坡度不小，走起来微微喘气，但这正是感受它的最佳方式。耳边没有喧嚣的车流，只有自己的脚步声、远处教堂悠扬的钟声，以及阳台上传来的人们用斯洛伐克语聊天的细碎声响。你会看到老太太在窗台给天竺葵浇水，木匠在他的小作坊里传出刨木头的沙沙声，咖啡馆的露天座位上，人们只是安静地对着面前的咖啡和城堡山发呆。这里不是一个被抽空的博物馆，而是一个活生生的、缓慢呼吸的家园，历史就沉淀在他们的日常生活里，不刻意展示，却无处不在。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，是那种巨大的反差与和谐。在精致如明信片般的街角，转过弯，你可能会突然与一个庞大、沉默、爬满藤蔓的工业废墟相遇——那是废弃的矿厂烟囱或水塔。它们不再喷吐烟雾，却以雕塑般的姿态，成为风景的一部分。这种美，不是单一的、被修饰过的，而是复杂的、充满故事的。它告诉你，这里的辉煌从来不是凭空而来的诗意，而是源于大地深处的黑暗、汗水与智慧。你走在其中，仿佛能听到地下深处隐约的回响，那是几个世纪以来，镐头敲击矿脉的韵律，也是让这座“银城”心跳不息的声音。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在斯洛伐克中部连绵的火山群间盘旋，当你觉得山路快要穷尽时，一个山谷突然在眼前敞开。那第一眼的震撼，不是来自某座孤立的伟大建筑，而是一整幅活生生的、从山谷底部一直堆叠到两侧山脊的立体画卷——这就是班斯卡-什佳夫尼察。你闻到的是森林、湿石头和一点点从老房子木头缝隙里透出来的旧时光气息，而不是游客区的香水味。耳朵里最先捕捉到的，是教堂悠远的钟声，混合着山泉潺潺流过古老石槽的叮咚，以及某条陡峭鹅卵石小径上，当地人拉着购物小拖车发出的轱辘声。这座城不是舞台布景，它依然在呼吸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的心跳，深埋在地下。表面上看，这是一座被时光温柔凝固的美丽山城，色彩柔和的联排住宅、戴着“洋葱帽”的教堂塔楼、爬满藤蔓的古老城墙，在阳光下像一块巨大的蜂蜜蛋糕。但只要你稍微留意，就会发现无处不在的“矿工密码”：街道以“矿工”、“熔炼”命名，广场中央矗立着圣芭芭拉（矿工的守护神）的雕像，许多建筑的大门上镌刻着铁镐、车轮或象征矿石的纹章。咖啡馆里坐着的老爷爷，很可能就是最后一代矿工，他们的手纹里或许还藏着洗不净的矿物痕迹。这里的魅力，在于这种双重性：地上是宁静、甚至有些慵懒的中欧小镇生活；地下却是一个长达数个世纪、深达数百米的轰轰烈烈的工业史诗。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，是那种极致的和谐。当年的人们为了从地球深处攫取财富，没有粗暴地破坏这片土地，而是以惊人的智慧与之共舞。他们修建了复杂的“塔贾”（tajchy）系统——一系列人工蓄水池，像项链一样环绕群山，为矿井提供水力动力。这些水池如今成了泛着绿松石光泽的天然湖泊，是当地人游泳、垂钓的后花园。城市建筑沿着等高线蜿蜒，广场和街道顺应地形自然起伏，没有一条路是笔直僵硬的。走在其中，你感觉不到人造景观与自然景观的对抗，只感到一种历经磨难后达成的深刻谅解与融合。这座城本身，就是人类智慧面对自然挑战所谱写的一首坚韧而优美的诗。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={`班斯卡什佳夫尼察`} />
+                <InfoRow label="中文名称" value={`班斯卡-什佳夫尼察`} />
                 <InfoRow label="英文名称" value={`Banská Štiavnica`} />
                 <InfoRow label="正式名称" value={`Banská Štiavnica`} />
                 <InfoRow label="国家" value={`斯洛伐克`} />
-                <InfoRow label="城市" value={`班斯卡什佳夫尼察`} />
+                <InfoRow label="城市" value={`班斯卡-什佳夫尼察`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`它是中世纪以来中欧乃至世界采矿与冶金技术的活化石，其财富与智慧直接塑造了斯洛伐克的历史，并深刻影响了整个哈布斯堡帝国的经济命脉。`} />
-                <InfoRow label="建筑特色" value={`一座依山而建、色彩柔和的“露天博物馆”，完美融合了防御工事的坚固、市民建筑的优雅与庞大工业遗迹的粗犷，形成独特的山地城镇肌理。`} />
-                <InfoRow label="建筑风格" value={`以哥特式为基础，历经文艺复兴的繁荣，并大量融合了巴洛克与古典主义元素，形成了独具一格的“矿业文艺复兴”风格。`} />
-                <InfoRow label="文化价值" value={`它不仅是一个被联合国教科文组织认证的遗址，更是一个持续呼吸的社区，其保存完好的城市结构、技术遗产和民间传统，共同诉说着人类与地下宝藏共生的史诗。`} />
+                <InfoRow label="历史地位" value={`中世纪欧洲最重要的金银开采中心之一，其先进的采矿和水管理系统曾深刻影响全球矿业发展。`} />
+                <InfoRow label="建筑特色" value={`一座完美融入陡峭山谷地形的城市，建筑随山势起伏，由众多采矿遗产、防御工事、文艺复兴与巴洛克豪宅构成独特天际线。`} />
+                <InfoRow label="建筑风格" value={`以文艺复兴和巴洛克风格为主，混合了哥特式的基础与古典主义的细节，整体呈现出因矿业财富而生的坚实、华丽又实用的山地城镇风格。`} />
+                <InfoRow label="文化价值" value={`1993年被列入联合国教科文组织世界遗产名录，是技术与城市完美结合的杰出典范，保存了从中世纪到近代完整的矿业社会生态与记忆。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`老城区街道及主要广场全天开放。核心室内景点（如老城堡、新城堡、矿业博物馆、卡梅尔矿井）开放时间因季节而异：通常夏季（5月至9月）为9:00-17:00，冬季（10月至4月）开放时间缩短或部分场馆仅在周末开放。所有博物馆类景点周一通常闭馆。圣诞节、元旦及复活节期间有特殊安排，出行前务必查阅最新官网信息。`} />
-              <InfoRow label="门票价格" value={`进入古镇免费。各景点单独售票。老城堡+新城堡联票约10欧元。卡梅尔矿井及矿业博物馆地下游览体验门票约15欧元，包含导游讲解和装备租用。学生、儿童及老年人享有约50%折扣优惠。推荐购买“Banská Štiavnica Card”一卡通，可在游客中心购买，覆盖主要景点，性价比高。`} />
-              <InfoRow label="地址" value={`Námestie sv. Trojice 1, 969 01 Banská Štiavnica, Slovakia`} />
-              <InfoRow label="交通方式" value={`从首都布拉迪斯拉发出发：乘坐火车或巴士前往兹沃伦（Zvolen），车程约2.5-3小时，班次频繁。在兹沃伦换乘前往班斯卡什佳夫尼察的当地巴士，车程约45分钟，每小时1-2班。从科希策出发：乘坐火车至兹沃伦或直接乘坐长途巴士，总耗时约3小时。自驾是最灵活的方式，从布拉迪斯拉发沿E77公路向东北行驶约180公里，山路弯多，注意车速。镇内停车位有限，建议将车停在镇外指定停车场后步行进入老城。`} />
+              <InfoRow label="开放时间" value={`古城本身全天开放。主要景点如旧城堡（Old Castle）、新城堡（New Castle）、卡默霍夫庭院（Kammerhof）和地下矿井的开放时间各有不同，通常夏季（5月至9月）为9:00-17:00或18:00，冬季会缩短。矿井参观（如Glanzenberg Adit）必须跟随导览团，每日场次有限，强烈建议提前查询并预约。大多数室内博物馆周一闭馆。`} />
+              <InfoRow label="门票价格" value={`古城免费漫步。单个景点门票约3-6欧元。联票（如包含新旧城堡）约8-10欧元。地下矿井导览游价格较高，约10-15欧元，包含安全装备租赁。学生、儿童及家庭有优惠。`} />
+              <InfoRow label="地址" value={`Banská Štiavnica, 969 01, Slovakia`} />
+              <InfoRow label="交通方式" value={`从布拉迪斯拉发出发：在布拉迪斯拉发中央车站乘坐火车至兹沃伦（Zvolen），约2.5小时，再换乘区域性火车或巴士前往班斯卡-什佳夫尼察，约1小时。总耗时约4小时。巴士也可从布拉迪斯拉发直达，但班次较少，约3.5-4小时车程。从科希策出发：火车或巴士需在兹沃伦或班斯卡-比斯特里察换乘，总耗时约3-4小时。最灵活的方式是自驾，沿着蜿蜒的山路驶入这座山谷之城，沿途风景如画。城内街道狭窄陡峭，建议将车停在城郊停车场，步行探索。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从很久以前说起。大概12世纪的时候，有人在这片看似平常的山里，发现了闪闪发光的银矿脉。消息像野火一样传开，于是，德意志的矿工、意大利的工程师、匈牙利的商贾，还有各路冒险家，像潮水般涌入这个山谷。他们不仅仅是来挖矿，更是来建立一个崭新的世界。到了13世纪，这里已经从一个简陋的采矿营地，蜕变成一座享有皇家特权的自由采矿城，名字就叫“班斯卡”，在斯拉夫语里就是“矿”的意思。财富像泉水一样从地底涌出，但危险也如影随形。奥斯曼土耳其帝国的铁蹄曾数次威胁到这片富庶之地，于是，聪明的市民们开始把房子建得又高又坚固，并且围绕着城镇，建起了令人惊叹的防御系统——不止有城墙，还有两座遥相呼应的城堡：老城堡和新城堡，像两个忠诚的巨人，守卫着山坳里的珍宝。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，真正的传奇不是挖出了多少银子，而是他们如何与自然博弈，解决了采矿最大的敌人——地下水。挖得越深，地下水涌入得就越凶猛。到了16、17世纪，这几乎成了制约矿山生命的瓶颈。于是，一代又一代的天才工程师出现了。他们没有选择硬扛，而是想出了一个堪称宏伟的解决方案：在周围的山上，利用自然地势，修建一个庞大而精密的“水库”系统。他们开凿水渠，建造了几十个大大小小的人工湖，收集雨水和山泉水。然后，在需要的时候，通过复杂的水槽和水闸系统，将湖水释放，驱动巨大的水轮，再由水轮带动一系列泵机，将矿井深处的水抽上来。这个系统是如此高效和超前，它让矿坑得以向地心深处延伸，也让班斯卡什佳夫尼察在18世纪成为了世界上最重要的矿业中心之一。这里的矿山学院，是世界上最古老的同类院校，为整个帝国培养矿业精英。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`财富带来了文化的极致繁荣。你能在每一栋精美的市民住宅上看到那个黄金时代的烙印。富有的矿主和商人们请来最好的工匠，修建带有华丽拱廊的宅邸，在山墙上装饰复杂的湿壁画，在广场上竖起神圣的瘟疫纪念柱。巴洛克式的教堂里，装饰着用本地白银打造的圣器。这里的建筑风格，因此被学者们称为“矿业文艺复兴”，它既有文艺复兴的理性与人文气息，又带着矿业城市特有的务实与坚固。但是，就像所有依赖单一资源的城市一样，当矿脉逐渐枯竭，白银的光芒开始黯淡。19世纪后期，随着更廉价的美洲白银涌入市场，这座城市的辉煌时代缓缓落幕。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`轰鸣的水轮逐渐停转，矿井一个一个关闭，年轻人开始奔向更大的城市。时间在这里，仿佛调慢了速度。但也正因如此，它奇迹般地躲过了20世纪大规模的城市改造和战火的彻底摧毁。那些精美的房子、沉默的城堡、纵横交错的矿道和星罗棋布的水库，都原封不动地保留了下来。1993年，它与周边的技术遗迹一起，被列入联合国教科文组织世界遗产名录，不是作为一件死去的文物，而是作为一部完整的、关于人类工业文明与自然环境互动的史诗。今天，当你走在它的街道上，你走过的是银子的历史，是水的智慧，是一个文明从巅峰到静默，最终在宁静中找到永恒价值的完整旅程。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从12世纪说起。当时，这片位于Štiavnica火山群中的土地，地表就闪烁着诱人的金属光泽。最早的定居者——很可能是来自德意志的矿工（萨克斯人）——开始在此挖掘，他们发现了异常丰富的银矿，以及伴随而来的金、铜、铅。财富如泉水般涌出，国王们立刻注意到了这里。13世纪，匈牙利国王贝拉四世授予此地皇家自由采矿城市的特权，这就像一张空白支票，吸引了全欧洲最顶尖的矿工、工程师、商人和学者蜂拥而至。一座在深山中凭借技术实力“白手起家”的乌托邦，开始萌芽。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`黄金时代在15至16世纪达到顶峰。班斯卡-什佳夫尼察成为了匈牙利王国乃至中欧的财富引擎，其白银产量一度占据全球三分之一。巨大的财富不仅建造了华丽的教堂和市政厅，更催生了思想的飞跃。这里在1735年成立了世界上第一所矿业学院（后来发展为著名的米库拉什矿业学院），堪称那个时代的“麻省理工”。教授们不仅研究如何挖得更深、炼得更纯，还开创性地研究矿井通风、排水和矿物学。学院的老楼至今屹立在特里尼塔广场旁，厚重的石墙里仿佛仍回荡着当年学生们关于矿石成分的激烈辩论。知识，与金银一样，成为了这座城出口的珍贵产品。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，地下的故事从不缺少黑暗的章节。矿难、水患、战争，如同幽灵般缠绕着这座财富之城。最可怕的敌人是地下水。随着矿井越挖越深，地下水成为致命的威胁。于是，16至18世纪间，一代代工程师发挥天才般的想象力，建造了那个传奇的“塔贾”系统——超过60个人工水库，通过总长超过100公里的水渠和管道相连，利用水车驱动巨大的泵链，将地下水从数百米深处抽出。这套系统不仅是工程奇迹，更彻底改变了地貌，创造了新的湖泊生态系统。为了保卫财富，城市也在山顶修建了巍峨的城堡（新旧城堡），它们见证了无数次抵御外敌（特别是奥斯曼土耳其人）的烽火。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`财富总有耗尽的一天。19世纪后期，随着优质矿脉逐渐枯竭和国际银价波动，这座城市的矿业开始衰退。20世纪的两次世界大战和其后的政治变革，更让这座深山古城一度被边缘化，几乎被世人遗忘。但或许正是这种“被遗忘”，让它免遭大规模现代化改造的破坏。1993年，联合国教科文组织将整座城市及其周边采矿地貌列入世界遗产，如同一道护身符，也像一次迟来的加冕。今天，轰鸣的泵机早已停息，但深入矿井的巷道变成了探险课堂，当年的机械车间变成了博物馆，矿业学院的教室则迎接着来自世界各地的遗产保护学者。它从一座生产贵金属的城，转型为一座生产历史、知识与记忆的城。`}</p>
             </div>
           </Section>
 
@@ -74,45 +74,41 @@ export default function BanskaStiavnicaPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`要完整感受这座山城的灵魂，建议至少预留一整天时间。最好的节奏是“上午登高望远，下午深入历史”。早上九点左右抵达最好，这时晨雾初散，光线柔和，游客尚少。先从山顶的城堡区开始，自上而下地俯瞰和了解城镇的全貌与防御体系。下午则深入老城核心，漫步广场与街巷，并一定要参加一次地下矿井的导览，那是理解这座城市根基的钥匙。傍晚时分，留给一个水库边安静的散步，看夕阳为整个山谷镀上金边。这样的安排由宏观到微观，由光明到幽深，能让你对这座矿业之城的理解层层递进。`}
+                  {`建议安排完整一天进行深度探索。上午九点左右抵达最佳，此时阳光正好洒满古城东侧，光线柔和，游客稀少。整体游览节奏应是“先高后低，先外后内”：首先登上制高点建立空间感，俯瞰全城布局；然后下山沉浸式漫步老城街道，感受日常生活脉搏；最后在下午参与最核心的地下矿井导览游，深入这座城市的心脏。这样的安排符合光线变化，也能将最震撼的体验留在最后。记得穿一双绝对舒适、适合长时间行走和攀爬陡坡的鞋子，因为这里的路，本身就是旅程的一部分。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`务必穿一双绝对舒适耐磨的徒步鞋，这里的街道几乎全是坡道和凹凸不平的鹅卵石。几乎所有室内博物馆周一都不开放，务必避开这天安排核心参观。不要害怕在小巷子里迷路，最美的角落往往藏在没有地图标记的转弯处。`}
+                  <strong>建议：</strong>{`矿井导览非常热门且每团人数有限，务必提前至少一天在官网或游客中心预订。老城街道很多是陡峭的鹅卵石坡道，务必穿防滑舒适的鞋子，雨天尤其要小心。城内餐馆多为本地家庭经营，晚上打烊较早，计划晚餐要趁早。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`清早在镇口的老橡树下喝一杯浓咖啡，看着晨光依次点亮远处新城堡的塔尖和层层叠叠的屋顶`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`第一站直奔新城堡的观景塔，在晨光中360度俯瞰被群山和如翡翠串珠般的“塔贾”湖泊环绕的古城全景，看清它的骨骼肌理。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`沿着蜿蜒陡峭的“城堡小径”徒步向上，途中在观景平台回望，看整个老城如同一个精致的模型在你脚下展开`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着蜿蜒的下坡小路走进老城中心，用手触摸圣三一广场上那根为纪念瘟疫结束而建的圣柱，感受石头的冰凉与历史的温度。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`花一个小时沉浸在老城堡里，抚摸那些冰冷厚重的城墙，在阴凉的庭院里想象中世纪卫兵巡逻的脚步声`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开矿业学院厚重的大门，在它静谧的巴洛克庭院和矿物学展览廊里，想象几个世纪前这里作为世界矿业知识心脏的繁忙景象。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从城堡山下来，直接钻进圣凯瑟琳教堂，让眼睛适应昏暗的光线，静静欣赏那精美绝伦的木质巴洛克祭坛`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在旧城堡的防御城墙上来回走一走，从垛口望出去，视野里是层层叠叠的红色屋顶和教堂尖塔，与远方森林覆盖的火山锥构成完美构图。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在中心广场的文艺复兴拱廊下找一家传统餐馆，点一份名为“Bryndzové Halušky”的羊奶酪土豆面团，这是矿工们补充体力的古老食物`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要报名参加Glanzenberg矿井的导览，戴上矿工帽，跟着向导走进阴凉潮湿的巷道，亲手触摸岩壁上闪着银光的矿脉痕迹。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`下午准时前往卡梅尔矿井入口，穿上矿工外套，戴好头盔，跟着向导深入冰凉潮湿的地底，亲手触摸那闪着微光的原始矿脉`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从一个隐秘的阶梯小巷钻出来，偶然发现一家本地人聚集的小酒馆，点一盘传统的“羊奶酪面疙瘩”，和邻桌退休老矿工碰个杯。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从矿井重返地面后，慢慢散步到城镇边缘的特洛伊水库，坐在长椅上，看野鸭划破如镜的水面，远处是静默的矿渣堆和森林`}</p>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`赶在日落前登上新城堡的观景塔，看夕阳的余晖如何将整个城镇、水库群和环绕的Štiavnica山脉染成一片温暖的琥珀色`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前散步到卡利瓦里亚山，沿着布满巴洛克小礼拜堂的苦路缓缓上行，这里不仅是宗教圣地，更是欣赏古城在金色夕阳中苏醒的绝佳位置。`}</p>
                 </div>
               </div>
             </div>
@@ -122,28 +118,22 @@ export default function BanskaStiavnicaPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`新城堡观景塔顶层`}</h4>
-                  <p className="text-sm text-gray-700">{`日落前半小时，使用长焦镜头压缩空间，可以将老城堡、圣三一广场的瘟疫柱和远山层层叠叠的景色框入同一画面，层次感极佳。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`新城堡观景塔顶层西侧窗口`}</h4>
+                  <p className="text-sm text-gray-700">{`下午日落前一小时，光线侧射，能拍到老城建筑群层次分明的立体感和被拉长的温柔阴影，教堂塔楼成为画面焦点。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`特洛伊水库东岸`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨无风时，水面平静如镜，可以完美拍出新城堡和老城建筑的倒影，对称构图显得宁静而富有诗意。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从“灾难之门”拱门内向老城广场方向拍摄`}</h4>
-                  <p className="text-sm text-gray-700">{`下午侧光时分，阳光穿过拱门，在石板路上拉出长长的影子，能拍出强烈的纵深感与历史穿越感。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣凯瑟琳教堂内部细节`}</h4>
-                  <p className="text-sm text-gray-700">{`利用高ISO和大光圈，在不使用闪光灯的前提下，捕捉巴洛克祭坛上复杂雕刻的光影细节，金色装饰在烛光下会散发温暖的光泽。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`从旧城堡通往圣三一广场的阶梯小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨阳光直射时，利用狭窄巷道的纵深感，捕捉光影在古老石墙和凹凸不平的路面上切割出的戏剧性画面。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`老城堡通往瞭望台的狭窄石阶`}</h4>
-                  <p className="text-sm text-gray-700">{`从下往上仰拍，将螺旋形的石阶、石壁和一小片天空纳入镜头，形成强烈的引导线和明暗对比，充满故事性。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`卡默霍夫庭院（Kammerhof）的中庭拱廊`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分，阳光从天井直射而下，站在拱廊阴影中拍摄被阳光照亮的中心庭院和文艺复兴风格的连廊，几何感极强。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“塔贾”之湖——波瓦兹斯卡·玛莎（Počúvadlo）湖畔`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚蓝调时刻，以平静如镜的湖面为前景，拍摄对岸山坡上灯火初亮的古城倒影，静谧而神秘。`}</p>
                 </div>
               </div>
 
@@ -152,7 +142,7 @@ export default function BanskaStiavnicaPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`拍摄当地居民，尤其是老人或在劳作的手艺人，务必先微笑并征求同意，一个简单的手势和友善的眼神就能避免冒犯。矿井内部严禁使用闪光灯，高感光度拍摄是不错的选择。多利用雨后湿润的石板路反光，能为街景照片增加意想不到的质感。`}</li>
+                <li>• {`使用广角镜头可以更好地捕捉山城建筑的堆叠感和狭窄街道的纵深感。拍摄当地居民尤其是老人时，请务必先微笑示意并获得同意，他们通常很友好。矿井内部禁止使用闪光灯。`}</li>
               </ul>
             </div>
           </Section>
@@ -161,32 +151,70 @@ export default function BanskaStiavnicaPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`市中心灵魂之选`}</h4>
-                  <p className="text-sm text-blue-800">{`住在经过修复的16世纪矿商宅邸里，天花板是手绘的古典花纹，窗户推开就是钟楼风景，每晚都能听到整点的钟声在石壁间回荡。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻在由16世纪矿商豪宅改造的精品酒店，房间保留了原始的石头墙壁和粗大的木梁，晚上能听到古老木地板轻微的吱呀声，故事感十足。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`山林隐居体验`}</h4>
-                  <p className="text-sm text-green-800">{`选择坐落在Štiavnica山半腰的木质小屋民宿，被云杉林环绕，早晨在露台上就能看到薄雾从山谷中升起，仿佛住在童话里。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`湖畔静谧`}</h4>
+                  <p className="text-sm text-green-800">{`选择住在城外某个“塔贾”湖边的传统木屋民宿，清晨在鸟鸣和湖水的气息中醒来，可以游泳或划船，以最自然的方式体验矿业遗产的另一面。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计感精品酒店`}</h4>
-                  <p className="text-sm text-yellow-800">{`由老印刷厂改造的现代风格酒店，保留了原始的砖墙和工业元素，却配备了最舒适的设施，是历史与现代交融的完美诠释。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`家庭温情`}</h4>
+                  <p className="text-sm text-yellow-800">{`老城中心一栋色彩明快的公寓，房东老太太会为你准备好自制的果酱和新鲜面包，阳台正对着错落的屋顶和教堂钟楼，像住在明信片里。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`经济实用之宿`}</h4>
-                  <p className="text-sm text-purple-800">{`老城边缘的家庭式公寓，主人会热情地为你手绘一张私房美食地图，并端上自家酿制的李子白兰地欢迎你。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计格调`}</h4>
+                  <p className="text-sm text-purple-800">{`由旧矿业办公楼改建的现代设计酒店，将工业风的粗犷与斯洛伐克当代艺术结合，住在其中能感受到这座城市从工业到文化设计的传承脉络。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（7-8月）是旺季，尤其是周末，住宿非常紧张，务必提前数月预订。冬季前来体验雪中古镇的静谧，但需确认预订的民宿是否提供充足的暖气。大部分优质住宿都集中在步行可达的老城区内，无需担心交通问题。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季和秋季（9月矿业节期间）住宿非常紧张，必须提前数月预订。老城内的住宿需要爬坡，携带大件行李会是个挑战，预订时请确认酒店是否提供搬运服务或有无电梯。住在城外湖区虽然安静，但晚上进入老城就餐需要短途驾车或打车。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开班斯卡什佳夫尼察好多天了，我耳边似乎还回荡着矿井深处那滴水的声音，眼前还是那片被夕阳点燃的、温柔的山谷。这个地方给我最大的触动，不是它曾经有多富裕，而是它在繁华落尽之后，所展现出的那种从容的尊严与寂静的力量。它没有试图掩盖自己工业的伤疤，那些巨大的水塔、荒废的轨道、沉默的矿渣堆，就坦然地站在教堂和花园旁边。这恰恰构成了它最真实、最动人的风景——一种完整的生命历程。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求崭新和高效的世界里，班斯卡什佳夫尼察像一个沉稳的智者，它提醒我们，真正的价值往往需要时间的沉淀来显现。它告诉我们，文明不仅是创造巅峰，更是如何面对与接纳寂静，并将历史的每一层纹理都转化为滋养当下的土壤。每一位热爱深度游的旅人，都应该来感受一下这种“完整的风景”。来这里，不只是看一个世界遗产的标签，而是来聆听一场大地与人类、汗水与智慧、喧嚣与宁静的漫长对话。你会发现，最震撼人心的，往往不是纯粹的自然或纯粹的艺术，而是人类故事与自然背景交织出的、那复杂而深沉的和谐。这里，就是这样一个地方。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开班斯卡-什佳夫尼察时，你带走的可能不是某件具体的纪念品，而是一种复杂的、沉甸甸的感觉。它不像那些只供仰望的宫殿或教堂，它更像一位历经沧桑、双手布满老茧却眼神依然清亮的智者。他曾经富可敌国，也曾跌落尘埃；他精通最艰深的工程技术，也懂得如何与山川湖泊温柔共处。他告诉你，真正的遗产不是冻结在玻璃柜里的金银，而是一整套人类如何利用智慧、付出汗水、承受苦难，并最终与自然环境达成某种持久平衡的生存哲学。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求快餐式体验的世界里，这样一座城市显得如此不合时宜，却又如此珍贵。它要求你慢下来，用脚去丈量每一段陡坡，用心去想象脚下百米深处的黑暗与辉煌。它没有炫目的网红打卡点，它的震撼需要你在新旧城堡之间徒步的喘息中，在矿井深处戴着安全帽聆听滴水声的寂静里，在本地酒馆听着听不懂却充满韵律的斯洛伐克语聊天声中，自己去慢慢领悟。对于热爱深度游的旅人而言，班斯卡-什佳夫尼察是一次“反消费主义”的朝圣——它不售卖肤浅的快乐，只提供一次与一段坚韧、聪明、完整的人类文明史诗深度对话的机会。这趟旅程，足以重塑你对“财富”与“遗产”的定义。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/banska-bystrica-leaning-clock-tower-square" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    班
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">班斯卡-比斯特里察老城广场与倾斜钟塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Banská Bystrica Old Town Square & Leaning Clock Tower</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/trnava-slovak-rome" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特尔纳瓦（斯洛伐克的小罗马）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trnava</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/trencin-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特伦钦城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trenčín Castle</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

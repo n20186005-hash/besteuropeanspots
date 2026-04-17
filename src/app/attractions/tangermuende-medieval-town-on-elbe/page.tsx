@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '唐格明德 Tangermünde｜易北河畔沉睡的北境皇城，红砖与木筋屋的时光交响诗 - 最佳欧洲景点',
+  description: '车子缓缓驶过易北河上那座古朴的铁桥，唐格明德就像一幅被岁月精心装裱好的油画，骤然完整地铺展在眼前。第一眼，是那大片沉稳而温暖的砖红色——高耸的圣斯蒂芬教堂、雄壮的城门与绵延的城墙，全部由烧制的红砖砌成，在北方清透的阳光下，泛着一种蜜糖般的光泽。空气里有河水的湿润气息，混合着从街角面包店飘出的、新鲜出...',
+}
+
+export default function TangermuendeMedievalTownOnElbePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '唐格明德', href: '/attractions/tangermuende-medieval-town-on-elbe' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`唐格明德・Tangermünde・德国・唐格明德`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子缓缓驶过易北河上那座古朴的铁桥，唐格明德就像一幅被岁月精心装裱好的油画，骤然完整地铺展在眼前。第一眼，是那大片沉稳而温暖的砖红色——高耸的圣斯蒂芬教堂、雄壮的城门与绵延的城墙，全部由烧制的红砖砌成，在北方清透的阳光下，泛着一种蜜糖般的光泽。空气里有河水的湿润气息，混合着从街角面包店飘出的、新鲜出炉的“普雷策尔”扭结面包的焦香。耳边出奇地安静，只有教堂钟声按时敲响，声音浑厚悠远，穿透石板路上零星自行车的铃铛声，告诉你时间在这里有着另一种刻度。
+走进古城门，仿佛踏入了一个截然不同的时空。主街两旁的木筋屋（Fachwerkhaus）争先恐后地展示着它们的美丽：倾斜的屋顶、精心雕刻的梁柱、色彩明快的墙面，每一栋都像一位盛装出席的老绅士，带着些许顽皮的笑容。这里的居民似乎都认识彼此，在街心广场的喷泉边打着招呼，拎着篮子从市场回来。这座城不是冰冷的博物馆，它依然是数百个家庭温暖的家园。你能看到窗台上的天竺葵开得正艳，听到某扇虚掩的门后传来咖啡机的滋滋声。那种鲜活的生活气，与古老建筑沉淀的寂静感交织在一起，构成了唐格明德最打动人心的矛盾魅力。
+它的核心魅力，在于一种惊人的完整性。这里没有为了旅游而生的刻意喧哗，没有连锁商店的入侵。从防御性的城墙、城门、壕沟，到宗教中心的教堂，再到市民生活的市政厅、市场广场和民居，一座中世纪城市的所有功能要素都完好无损地聚集在此，并且仍在运转。你不仅仅是在“看”一座古城，而是在“呼吸”它。当你用手触摸那些被无数代人脚步磨得光滑如镜的城门石阶，或是靠在某栋木筋屋古老的窗台上，看着夕阳把整个砖石世界染成金红时，你会感到自己正站在历史流淌的河中央，既是一个过客，也仿佛成了它故事里一个安静的注脚。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子缓缓驶过易北河上那座古朴的铁桥，唐格明德就像一幅被岁月精心装裱好的油画，骤然完整地铺展在眼前。第一眼，是那大片沉稳而温暖的砖红色——高耸的圣斯蒂芬教堂、雄壮的城门与绵延的城墙，全部由烧制的红砖砌成，在北方清透的阳光下，泛着一种蜜糖般的光泽。空气里有河水的湿润气息，混合着从街角面包店飘出的、新鲜出炉的“普雷策尔”扭结面包的焦香。耳边出奇地安静，只有教堂钟声按时敲响，声音浑厚悠远，穿透石板路上零星自行车的铃铛声，告诉你时间在这里有着另一种刻度。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走进古城门，仿佛踏入了一个截然不同的时空。主街两旁的木筋屋（Fachwerkhaus）争先恐后地展示着它们的美丽：倾斜的屋顶、精心雕刻的梁柱、色彩明快的墙面，每一栋都像一位盛装出席的老绅士，带着些许顽皮的笑容。这里的居民似乎都认识彼此，在街心广场的喷泉边打着招呼，拎着篮子从市场回来。这座城不是冰冷的博物馆，它依然是数百个家庭温暖的家园。你能看到窗台上的天竺葵开得正艳，听到某扇虚掩的门后传来咖啡机的滋滋声。那种鲜活的生活气，与古老建筑沉淀的寂静感交织在一起，构成了唐格明德最打动人心的矛盾魅力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，在于一种惊人的完整性。这里没有为了旅游而生的刻意喧哗，没有连锁商店的入侵。从防御性的城墙、城门、壕沟，到宗教中心的教堂，再到市民生活的市政厅、市场广场和民居，一座中世纪城市的所有功能要素都完好无损地聚集在此，并且仍在运转。你不仅仅是在“看”一座古城，而是在“呼吸”它。当你用手触摸那些被无数代人脚步磨得光滑如镜的城门石阶，或是靠在某栋木筋屋古老的窗台上，看着夕阳把整个砖石世界染成金红时，你会感到自己正站在历史流淌的河中央，既是一个过客，也仿佛成了它故事里一个安静的注脚。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`唐格明德`} />
+                <InfoRow label="英文名称" value={`Tangermünde`} />
+                <InfoRow label="正式名称" value={`Tangermünde`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`唐格明德`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`曾是神圣罗马帝国皇帝及勃兰登堡选帝侯的重要行宫与权力中心，被誉为“易北河畔的皇城”。`} />
+                <InfoRow label="建筑特色" value={`北德红砖哥特式建筑的杰出代表，与色彩斑斓的中世纪半木结构民居形成绝妙对比，共同构成完整的中世纪城市肌理。`} />
+                <InfoRow label="建筑风格" value={`以红砖哥特风格为主，混搭大量文艺复兴及巴洛克装饰元素的半木结构民居。`} />
+                <InfoRow label="文化价值" value={`一座近乎被时间遗忘的“活化石”城镇，完美保存了14-16世纪汉萨同盟时期北德城镇的原始风貌与生活节奏。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城公共区域全天开放。主要室内景点如圣斯蒂芬教堂、市政厅和城门博物馆的开放时间因季节而异：通常4月至10月为每天上午10点至下午5点；11月至次年3月一般为周二至周日上午11点至下午4点，周一闭馆。市政厅的导游讲解团通常只在下午特定时间开放，需提前在游客中心确认。每年圣诞节期间及特殊节庆日（如古城节）可能有额外延长或临时关闭安排，建议出行前查阅官网。`} />
+              <InfoRow label="门票价格" value={`进入古城本身免费。各景点单独售票：圣斯蒂芬教堂入场费约4欧元，市政厅导游讲解约5欧元，城门博物馆约3欧元。提供联票（约10欧元）可涵盖所有主要景点。学生、儿童及团体有优惠。6岁以下儿童免费。部分教堂音乐会或特别展览需另购票。`} />
+              <InfoRow label="地址" value={`Altstadt, 39590 Tangermünde, Germany`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是柏林勃兰登堡机场（BER）。从柏林主火车站（Berlin Hauptbahnhof）乘坐区域火车（RE4）前往施滕达尔（Stendal），车程约1小时，班次每小时1-2班。在施滕达尔换乘前往唐格明德的公共汽车（线路920/921），约20分钟车程即可抵达古城边缘的中央巴士站。自驾是最灵活的方式，从柏林沿A2高速公路驶向汉诺威方向，在“Stendal / Tangermünde”出口驶出，沿指示牌行驶约15公里即可到达，古城外设有多个付费停车场。购票建议使用德国铁路（DB）APP或自动售票机购买州票（Sachsen-Anhalt-Ticket），适合多人同行且涵盖区域内所有公共交通。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`唐格明德的故事，始于易北河的一个渡口。它的名字最早被记载于1009年，那时它还只是斯拉夫人定居点旁的一个小小要塞。但命运之轮在14世纪为它带来了戏剧性的转折。1373年，雄心勃勃的神圣罗马帝国皇帝查理四世相中了这个易北河畔的战略要地，他将一座原本属于当地贵族的城堡改建为宏伟的皇家行宫。一时间，这座小城成了帝国的北方统治中心之一，皇帝在此处理政务，接见使臣，风光无限。那标志性的红砖城墙和城门，大部分就是在那个辉煌的时期兴建起来的，旨在彰显皇权的稳固与荣耀。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，皇家的青睐如流星般短暂。查理四世去世后，他的儿子将这座城抵押给了勃兰登堡的统治者。1415年，一个决定性的时刻降临：霍亨索伦家族的腓特烈一世正是在唐格明德的市政厅里，正式接受了选帝侯的爵位与权杖，开启了霍亨索伦家族对普鲁士乃至后来德意志长达数百年的统治序幕。可以说，普鲁士强权之路的起点，就藏在这座小城市政厅那间并不十分起眼的房间里。此后，唐格明德作为勃兰登堡选帝侯的重要驻地，持续繁荣，并于15世纪加入了强大的汉萨同盟，凭借易北河的水运之利，将粮食、啤酒和砖瓦贸易做得风生水起。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`繁荣之下，阴影悄然潜伏。1617年，一场灾难性的大火席卷了全城，超过400栋房屋化为灰烬。但坚韧的市民们用砖石和木料重建了家园，我们今天看到的许多精美半木结构房屋，正是那次重生后的产物。可重建的喜悦还未散去，更大的劫难接踵而至——三十年战争（1618-1648）。这座富庶的小城成了各方军队觊觎和掠夺的目标。最黑暗的一页发生在1640年，瑞典军队在围攻后占领了城市，并犯下了可怕的暴行。关于“施滕哈特老大妈”的民间传说正是源于此时期，一位名叫格蕾特·明德的女佣被诬陷为引瑞典人入城的女巫，在恐惧与偏见中被处死，成为了战争创伤的一个悲剧象征。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`战争让唐格明德元气大伤，易北河的贸易航线也逐渐东移。它仿佛被按下了暂停键，从历史的前台悄然退隐，成了一座安静的边缘小城。塞翁失马，焉知非福。正是这种被“遗忘”，使它奇迹般地躲过了后来工业革命的剧烈改造和二战战火的严重摧残。当19世纪的浪漫主义诗人和画家“重新发现”它时，他们看到的是一个童话般保存完好的中世纪梦境。这种浪漫的意象被传承下来，当地居民也倍加珍视这份遗产。于是，唐格明德就这样带着它完整的城墙、巍峨的教堂、童话般的木筋屋和沉寂的皇家记忆，安然地沉睡在易北河畔，直到今天被寻求真实的旅人再次轻轻叩响城门。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在清晨九点左右抵达，这时游客稀少，阳光以最柔和的角度照亮红砖建筑，小城刚刚苏醒的氛围最为迷人。整体游览需要一整天（约6-8小时）才能从容体会。节奏宜慢不宜快，核心在于沉浸式漫步。上午专注于宏大的公共建筑与城墙，下午穿梭于迷宫般的民居小巷感受生活细节，傍晚则留给易北河畔的落日余晖。这样的安排能让你由远及近、由表及里地层层剥开这座古城的内涵，从震撼的初印象深入到细腻的情感共鸣。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周日及节假日许多小商店和咖啡馆可能休息，餐馆也最好提前确认营业时间。古城内几乎所有路面都是古老的石块路，请务必穿一双舒适耐磨的平底鞋。当地居民非常以家园为傲，拍照时请尊重隐私，避免对着住户窗户长时间拍摄。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从气势恢宏的“新门”开始你的旅程，用手抚摸那厚重红砖上历史的温度，想象当年皇帝与选帝侯的车马由此隆隆驶入`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直前往集市广场，仰望那拥有炫目山墙和华丽阶梯状立面的市政厅，它静静诉说着普鲁士起源的隐秘往事`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进广场旁的圣斯蒂芬教堂，让眼睛适应内部的幽暗，然后在巨大的布克斯特胡德管风琴声中，抬头寻找那个悬吊在中殿的“魔鬼之舟”木雕`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花一小时沿着保存完好的古城墙漫步，从“鹳鸟塔”走到“水门”，从不同高度和角度俯瞰红屋顶的海洋与蜿蜒的易北河`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`中午在市政厅地窖改建的餐厅里，品尝一份地道的“唐格明德锅仔”配上一杯本地啤酒，感受石拱下的清凉与厚重`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午随意迷失在“牛奶街”、“铁匠街”等狭窄巷弄中，用镜头捕捉每一栋木筋屋门楣上独特的雕刻与鲜艳的色彩`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻找那口著名的“谎言井”，听当地老人讲讲关于它的诙谐传说，并试着往井里扔一枚硬币`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前走下河岸台阶，在易北河的轻柔水波边散步，看夕阳把整个砖石之城点燃成一片辉煌的金红色`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`新门内侧仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点的阳光会斜射入门洞，站在门内中央仰拍，能捕捉到红砖拱门深邃的几何美感与门外蓝天构成的完美画框`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣斯蒂芬教堂塔楼俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`若体力允许登上塔楼（通常下午开放），用广角镜头拍摄，可将鳞次栉比的木筋屋屋顶、城墙脉络与远处易北河平原尽收眼底`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`铁匠街转角全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点左右，站在铁匠街与一条小巷的交汇处，利用巷道的纵深感，将前方色彩斑斓的倾斜木筋屋与后方高耸的教堂塔楼一同构图`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`河畔侧影长焦拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚日落时分，走到易北河对岸的草地，用长焦镜头压缩空间，拍摄古城城墙与教堂在金色河水中的完整倒影与宁静侧影`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`市政厅山墙细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，最能凸显市政厅文艺复兴山墙上繁复的石雕与彩绘装饰的细节，适合建筑爱好者进行特写拍摄`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`唐格明德的光影变化极为丰富，建议携带一支偏振镜，可以有效减少红砖表面的反光并增强蓝天饱和度。无人机飞行在古城及周边区域有严格限制，为保护古迹和居民隐私，未经特殊许可请勿起飞。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`家庭式温情`}</h4>
+                  <p className="text-sm text-blue-800">{`入住古城中心一栋拥有500年历史的木筋屋民宿，房东老夫妇会为你准备丰盛的本地早餐，夜晚能听到木质结构发出的温柔吱呀声`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`设计型静谧`}</h4>
+                  <p className="text-sm text-green-800">{`由古老粮仓改造的精品设计酒店，房间极高，保留了原始砖墙与木梁，却配备了现代感十足的设施，庭院里有个静谧的小花园`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`历史沉浸体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻在直接坐落于古城墙内的特色酒店，部分房间的窗户就开在厚重的城墙之中，清晨醒来仿佛守城人般获得独一无二的视角`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`河景与便利兼得`}</h4>
+                  <p className="text-sm text-purple-800">{`位于易北河畔、步行五分钟即可到达古城门的四星级酒店，房间拥有宽敞的阳台，可以一边享用早餐一边欣赏河水与古城的晨光`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`古城内的住宿数量非常有限且极其抢手，尤其是在夏季和周末，务必提前数月预订。住在城内才能体验入夜后与清晨时分游客散尽、真正属于本地人的静谧古城。周边社区治安非常好，夜间独自在灯火通明的老街上散步也倍感安全。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开唐格明德许久，脑海里挥之不去的，不是某个单一的宏伟画面，而是一种复合的、安宁的“感觉”。那感觉混杂着红砖的温润、木头的香气、河风的微凉，以及一种时间被妥善保管的从容。在这个世界上，太多古城要么沦为拥挤的主题公园，要么在现代化进程中变得面目模糊。而唐格明德却找到了一种珍贵的平衡——它没有僵死，人们依然在此生活、欢笑、老去；但它也未曾背叛自己的过去，每一块砖、每一片瓦都在低声吟唱着同一首跨越几个世纪的歌谣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它或许没有新天鹅堡那样的戏剧性，也没有科隆大教堂那样的冲击力。但它的魅力恰在于此：它是一座你可以“走进去”并“坐下来”的历史。它告诉你，历史不仅仅是王侯将相的丰功伟业，更是寻常巷陌里的炊烟，是手艺人门楣上的标记，是河边日复一日的潮起潮落。在当今这个追求瞬时刺激、一切都在飞速迭代的世界里，唐格明德像一座永恒的避风港，它坚定地以自己缓慢的节奏存在着。对于每一位渴望在旅途中触碰真实、寻找内心宁静的深度旅者而言，专程来易北河畔拜访这座沉睡的皇城，不仅仅是一次地理上的抵达，更是一次精神上的回归——回归到一种更厚重、更绵长、更充满人情味的时间维度中去。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/regensburg-stone-bridge" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    雷
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">雷根斯堡石桥</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Regensburg Stone Bridge</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/hartenfels-castle-torgau-spiral-staircase" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈滕费尔斯城堡（绝美螺旋阶梯）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hartenfels Castle (Torgau)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/limburg-st-marys-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    林
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">林堡圣母教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">St. Mary‘s Church, Limburg an der Lahn</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

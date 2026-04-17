@@ -1,315 +1,234 @@
-import { notFound } from "next/navigation";
-import Link from "next/link";
-import type { Metadata } from "next";
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: "锡比乌老城 (Sibiu Old Town)",
-  description: "锡比乌老城详细游览指南 - 特兰西瓦尼亚地区保存最完好的中世纪老城之一，联合国教科文组织认定的世界文化遗产",
-  openGraph: {
-    title: "锡比乌老城 — Sibiu Old Town",
-    description: "锡比乌老城详细游览指南 - 特兰西瓦尼亚地区保存最完好的中世纪老城之一",
-    type: "article",
-    siteName: "Best European Spots",
-  },
-};
-
-function Section({
-  title,
-  number,
-  children,
-}: {
-  title: string;
-  number: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section className="py-8 border-b border-border last:border-b-0">
-      <div className="flex items-baseline gap-3 mb-4">
-        <span className="text-xs font-bold text-accent bg-accent/10 w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0">
-          {number}
-        </span>
-        <h2 className="text-xl font-semibold text-primary">{title}</h2>
-      </div>
-      <div className="pl-10">{children}</div>
-    </section>
-  );
-}
-
-function InfoRow({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="flex gap-4 py-3 border-b border-border/50 last:border-b-0">
-      <span className="text-sm font-medium text-muted w-24 flex-shrink-0">
-        {label}
-      </span>
-      <span className="text-sm text-foreground leading-relaxed">{value}</span>
-    </div>
-  );
-}
-
-function Breadcrumb() {
-  return (
-    <nav className="flex items-center gap-2 text-sm text-muted">
-      <Link href="/" className="hover:text-primary transition-colors">
-        Home
-      </Link>
-      <span className="text-muted-light">/</span>
-      <Link href="/#destinations" className="hover:text-primary transition-colors">
-        Destinations
-      </Link>
-      <span className="text-muted-light">/</span>
-      <span className="text-primary font-medium truncate max-w-[200px]">
-        锡比乌老城
-      </span>
-    </nav>
-  );
+  title: '锡比乌 Sibiu｜在“长眼睛的房屋”注视下漫步中世纪古城 - 最佳欧洲景点',
+  description: '你第一眼看见锡比乌，感觉不像走进一座城，而是跌入了一个巨大而温和的梦境。脚下是被岁月打磨得温润光滑的卵石路，走上去有种独特的、令人安心的粗粝感。空气里飘着刚出炉的“科瓦尼格”（一种罗马尼亚羊角面包）的黄油香，混杂着从老房子砖缝里透出的、淡淡的潮湿苔藓气味。然后，你抬起头——就在那一瞬间，你会屏住呼吸...',
 }
 
 export default function SibiuOldTownPage() {
-  const color = "#8b0000"; // Balkans & Eastern Europe color
-
   return (
-    <article className="min-h-screen">
-      <div
-        className="relative h-64 sm:h-80"
-        style={{
-          background: `linear-gradient(135deg, ${color} 0%, ${color}99 50%, ${color}55 100%)`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black/20" />
-        <div className="absolute inset-0 flex items-end">
-          <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 pb-8">
-            <div className="flex flex-wrap gap-2 mb-4">
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                Old Town
-              </span>
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                巴尔干・东欧
-              </span>
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '锡比乌', href: '/attractions/sibiu-old-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`锡比乌・Sibiu・罗马尼亚・锡比乌`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`你第一眼看见锡比乌，感觉不像走进一座城，而是跌入了一个巨大而温和的梦境。脚下是被岁月打磨得温润光滑的卵石路，走上去有种独特的、令人安心的粗粝感。空气里飘着刚出炉的“科瓦尼格”（一种罗马尼亚羊角面包）的黄油香，混杂着从老房子砖缝里透出的、淡淡的潮湿苔藓气味。然后，你抬起头——就在那一瞬间，你会屏住呼吸。高高低低的红色屋顶上，无数双“眼睛”正静静地看着你。那些是阁楼上狭长的木质通风窗，被巧妙地做成了眼睑和瞳孔的形状，有些慵懒地半眯着，有些则圆睁着充满好奇。这不是一两栋房子的偶然设计，而是整片老城区的集体表情。你会突然觉得自己成了一个被默默注视的客人，但这注视里没有审视，只有一种绵延了数百年的、静静的守护。
+顺着大广场（Piața Mare）的拱廊下走，光线被切割成明暗交替的琴键。广场中央，布鲁肯塔尔宫那柠檬黄的巴洛克立面在阳光下暖融融的，而它对面那些有着陡峭屋顶和“眼睛”的撒克逊民居，则保持着一种克制的、略带忧郁的色调。当地人坐在露天咖啡馆的藤椅上，慢悠悠地啜饮着小小的意式浓缩，聊天声、刀叉轻碰盘子的声音、远处不知哪条巷子里传来的手风琴声，交织成慵懒的白噪音。你会发现，这座被列入世界文化遗产的古城，不是一座僵死的博物馆，它依然有强劲的生活脉搏。年轻人在“眼睛”的注视下匆匆走过，老太太拎着菜篮从古老的拱门下穿行，历史在这里不是陈列品，而是呼吸着的背景墙。
+最打动人的，是这座城市的分层感。地上是热闹的广场与咖啡馆文化，而地下则隐藏着另一个世界——错综复杂的“通道与地窖”系统。这些中世纪为了储藏货物、甚至在围城时避难而修建的地下网络，如今有些变成了酒吧或画廊入口。这种“上下双层”的结构，仿佛隐喻着锡比乌的性格：表面是温文尔雅、略带幽默（看看那些“眼睛”的表情）的文明姿态，地下则深藏着历史的厚重、曾经的恐惧与坚韧的生存智慧。这种矛盾而统一的特质，让锡比乌的魅力远远超出了“拍照很美”的范畴，它有一种能让你安静下来，去倾听石头和木头诉说什么的魔力。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`你第一眼看见锡比乌，感觉不像走进一座城，而是跌入了一个巨大而温和的梦境。脚下是被岁月打磨得温润光滑的卵石路，走上去有种独特的、令人安心的粗粝感。空气里飘着刚出炉的“科瓦尼格”（一种罗马尼亚羊角面包）的黄油香，混杂着从老房子砖缝里透出的、淡淡的潮湿苔藓气味。然后，你抬起头——就在那一瞬间，你会屏住呼吸。高高低低的红色屋顶上，无数双“眼睛”正静静地看着你。那些是阁楼上狭长的木质通风窗，被巧妙地做成了眼睑和瞳孔的形状，有些慵懒地半眯着，有些则圆睁着充满好奇。这不是一两栋房子的偶然设计，而是整片老城区的集体表情。你会突然觉得自己成了一个被默默注视的客人，但这注视里没有审视，只有一种绵延了数百年的、静静的守护。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`顺着大广场（Piața Mare）的拱廊下走，光线被切割成明暗交替的琴键。广场中央，布鲁肯塔尔宫那柠檬黄的巴洛克立面在阳光下暖融融的，而它对面那些有着陡峭屋顶和“眼睛”的撒克逊民居，则保持着一种克制的、略带忧郁的色调。当地人坐在露天咖啡馆的藤椅上，慢悠悠地啜饮着小小的意式浓缩，聊天声、刀叉轻碰盘子的声音、远处不知哪条巷子里传来的手风琴声，交织成慵懒的白噪音。你会发现，这座被列入世界文化遗产的古城，不是一座僵死的博物馆，它依然有强劲的生活脉搏。年轻人在“眼睛”的注视下匆匆走过，老太太拎着菜篮从古老的拱门下穿行，历史在这里不是陈列品，而是呼吸着的背景墙。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，是这座城市的分层感。地上是热闹的广场与咖啡馆文化，而地下则隐藏着另一个世界——错综复杂的“通道与地窖”系统。这些中世纪为了储藏货物、甚至在围城时避难而修建的地下网络，如今有些变成了酒吧或画廊入口。这种“上下双层”的结构，仿佛隐喻着锡比乌的性格：表面是温文尔雅、略带幽默（看看那些“眼睛”的表情）的文明姿态，地下则深藏着历史的厚重、曾经的恐惧与坚韧的生存智慧。这种矛盾而统一的特质，让锡比乌的魅力远远超出了“拍照很美”的范畴，它有一种能让你安静下来，去倾听石头和木头诉说什么的魔力。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`锡比乌`} />
+                <InfoRow label="英文名称" value={`Sibiu`} />
+                <InfoRow label="正式名称" value={`Sibiu`} />
+                <InfoRow label="国家" value={`罗马尼亚`} />
+                <InfoRow label="城市" value={`锡比乌`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`作为特兰西瓦尼亚地区最具代表性的撒克逊人七大设防城堡之一，锡比乌是罗马尼亚德语文化的历史心脏与精神高地。`} />
+                <InfoRow label="建筑特色" value={`其标志是遍布老城屋顶的“眼睛”——成千上万个狭长的阁楼通风窗，如同沉默而好奇的瞳孔，凝视着街道与行人。`} />
+                <InfoRow label="建筑风格" value={`以坚固的防御性哥特式为基础，融合了后期绚丽的巴洛克与文艺复兴装饰元素，形成一种独特而协调的“特兰西瓦尼亚撒克逊”风格。`} />
+                <InfoRow label="文化价值" value={`完美保存了中世纪城市布局与建筑肌理，生动体现了12世纪以来撒克逊定居者严谨、务实而又充满灵性的社区生活传统。`} />
+              </div>
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">
-              锡比乌老城
-            </h1>
-            <p className="text-lg text-white/80">
-              Sibiu Old Town · 罗马尼亚 · 锡比乌
-            </p>
-          </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城区公共区域全天24小时开放。主要广场和街道的商店、咖啡馆营业时间通常为上午9点至晚上10点。城内各博物馆（如布鲁肯塔尔博物馆、法学家塔等）开放时间各异，一般为周二至周日10:00-18:00，周一闭馆。圣诞节、复活节等重大节日，商店和博物馆开放时间会大幅缩短或关闭，建议行前具体查询。`} />
+              <InfoRow label="门票价格" value={`漫步锡比乌老城本身完全免费。进入单个景点需购票：布鲁肯塔尔国家博物馆门票约25列伊（约5欧元），学生半价；登议会塔门票约10列伊；法学家塔门票约8列伊。推荐购买“锡比乌卡”，可在72小时内无限次进入大部分博物馆并享受公共交通折扣，成人约35列伊。6岁以下儿童及持有效证件的残障人士免费。`} />
+              <InfoRow label="地址" value={`Piața Mare, Sibiu 550163, Romania`} />
+              <InfoRow label="交通方式" value={`最近的机场是锡比乌国际机场（SBZ），距离老城约5公里。从机场抵达厅外乘坐出租车至老城中心约15分钟，费用约30-40列伊；也可乘坐11路公交车，约25分钟，车票约3列伊。从布加勒斯特或克卢日-纳波卡乘火车抵达锡比乌中央火车站后，出站乘坐1、2、8路有轨电车（往“Piața Unirii”方向）约10分钟即可抵达老城边缘，步行进入核心区。城内主要景点集中，步行是最佳游览方式。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`锡比乌的故事，始于一群远道而来的“客人”。12世纪中叶，匈牙利国王盖萨二世为了守卫王国的东南边疆，从遥远的摩泽尔河和莱茵河地区，招募了一批手艺精湛、纪律严明的撒克逊工匠、商人和农民。这群人穿越欧洲，来到特兰西瓦尼亚这片丰饶的谷地，在一片古罗马遗址附近扎下了根。他们享有高度的自治权，首要任务就是建造一座坚不可摧的城堡。于是，用泥土和木头搭建的防御工事最先出现，这就是锡比乌的雏形——一座典型的“撒克逊设防城堡”。社区以广场为中心，教堂、市政厅、商户和民居紧密排列，外围是层层加固的城墙和塔楼。他们不是来征服的，而是来建设和守护的，这种深深的“定居者”心态，从一开始就刻在了城市的基因里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`到了14、15世纪，锡比昂（当时城市的德语名字）迎来了它的黄金时代。凭借地处东西欧贸易路线十字路口的地理优势，它成了皮革、金属制品和纺织品的交易重镇，富甲一方。财富转化成了更坚固的石头城墙、更高耸的教堂和更华丽的民居。也就是在这个时期，那些可爱的“眼睛”开始普遍出现。关于它们的起源众说纷纭：一种非常实用的解释是，这种狭长的开口既能保证阁楼（用于储存谷物和货物）通风，又能防止雨水灌入，其独特的弧形木制窗盖在功能上完美无缺。而浪漫的传说则说，这是为了在围城时让守卫能从阁楼秘密观察城外敌情。无论真相如何，这些“眼睛”成了撒克逊工匠将实用主义与艺术感结合的天才创造，也赋予了城市独一无二的面容。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，平静的繁荣并非永恒。16世纪，奥斯曼帝国的阴影笼罩了整个东南欧。锡比乌作为基督教世界的前哨，一次次加固城防，紧张的气氛弥漫在街道之间。到了17世纪，一场灾难性的大火几乎吞噬了半个木结构的老城。灾后重建时，石头和砖瓦大量取代了木材，我们今天看到的许多巴洛克式立面，正是在那次重生后添加的。大火烧毁了房屋，却烧不尽社区的精神。重建后的锡比乌，风格更加混搭，但城市布局和那股严谨务实的精神内核丝毫未变。18世纪，在启蒙运动的影响下，出身于此的布鲁肯塔尔男爵建立了中东南欧最早、最宏伟的博物馆之一，收藏了大量艺术与科学珍品，让锡比乌赢得了“特兰西瓦尼亚雅典”的美誉。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间跳转到20世纪，锡比乌经历了最为动荡的篇章。两次世界大战、政权更迭、共产主义时期，城市的德语人口大量迁离，许多古老的传统一度陷入沉寂。那些“眼睛”仿佛也陷入了漫长的沉睡。但令人惊叹的是，即便是最艰难的岁月，老城的物理结构竟然奇迹般地完整保存了下来，没有遭到大规模的破坏或愚蠢的现代化改造。转折点出现在21世纪初，当罗马尼亚加入欧盟，锡比乌与卢森堡一起被评为“2007年欧洲文化之都”。这项荣誉像一剂强心针，激发了全城、全国乃至国际力量对这座瑰宝之城的修复与复兴热情。沉睡的“眼睛”被重新擦亮，古老的墙壁被精心修复，地下通道被谨慎地清理开放。今天，漫步在锡比乌，你不仅能触摸到12世纪撒克逊定居者的匠心，15世纪富商的骄傲，17世纪灾后重建的坚韧，也能感受到21世纪一个社区重新找回自我、并向世界自信展示的活力。这是一部用砖石、木头和人类韧性写就的千年史诗。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正感受锡比乌的灵魂，建议安排一整个白天，从清晨到日暮。最好在早上九点前抵达老城中心的大广场，这时游客尚未涌入，阳光斜射，给“眼睛”屋顶和柠檬黄的宫殿涂上第一层金边，城市刚刚苏醒的样子最为本真。整体游览节奏宜慢不宜快，因为精华往往藏在巷弄的细节和突然的转角视野里。路线可以设计为一个环线，从大广场出发，深入小广场和蜿蜒的巷子，登上高塔俯瞰全城，最后再回到起点，体验日间与黄昏截然不同的氛围。全程步行距离约3-4公里，包含多次登高和驻足，建议预留至少5-6小时的悠闲时间。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`老城的卵石路虽然充满风情，但绝对不适合高跟鞋或薄底鞋，一双舒适防滑的步行鞋是必需品。尽管锡比乌治安总体良好，但在热门广场和拥挤的公交上仍需看管好随身财物，提防常见的扒手手法。如果计划参观多个博物馆，提前在网上购买“锡比乌卡”通票能节省不少时间和金钱。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨先踏入空旷宁静的Piața Mare（大广场），在议会塔的阴影下抬头，看第一缕阳光如何唤醒布鲁肯塔尔宫巴洛克立面上的每一道浮雕。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过广场西北角的拱门洞，瞬间跌入氛围更亲密的Piața Mică（小广场），在那些色彩柔和、眼睛瞪得最大的房子前发会儿呆，找找著名的“谎言桥”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走过那座铁制的“谎言桥”，听听脚下木板轻微的吱呀声，并站在桥中央向北望，捕捉法学家塔与层层叠叠屋顶构成的明信片角度。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从桥头钻进那条陡峭的“眼睛”小巷（Pasajul Scarilor），触摸冰凉的石阶和墙壁，感受自己完全被两侧屋顶上密集的“目光”包围的奇异体验。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上历经沧桑的“法学家塔”，在它的露台上转一圈，让特兰西瓦尼亚的清风拂面，看脚下橙红色的屋顶海洋和远处喀尔巴阡山脉绵延的淡蓝色轮廓。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从塔上下来，绕到福音大教堂的背后，寻找那些安静无人的侧巷，观察普通居民在百年老宅里进出的生活痕迹，感受历史与当下的无缝衔接。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把午后的时光留给布鲁肯塔尔国家博物馆，不仅看展品，更要细细品味那座辉煌的宫殿内部，想象18世纪一位启蒙主义贵族的精神世界。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分，回到大广场的拱廊下，找一家咖啡馆的户外座位，点一杯本地红酒或热巧克力，看广场华灯初上，“眼睛”们在暮色中渐渐隐去，而城市的夜生活悄然点亮。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`大广场拱廊立柱之间`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光时分，以拱廊为框架，对准广场对面一排有着“眼睛”屋顶的彩色房子，能拍出极具纵深感和故事感的构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`谎言桥中央偏北侧`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，利用桥的铁艺栏杆作为前景，聚焦远处矗立的法学家塔，将蜿蜒的街道和两侧房屋作为引导线，构成完美的古典街景。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从法学家塔顶向西俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`晴天上午十点左右，阳光充分照亮老城全景，用长焦镜头压缩空间，拍摄屋顶“眼睛”海洋与远方福音教堂尖塔同框的经典画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`Pasajul Scarilor（阶梯通道）底部仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光能直射入狭窄巷道时，站在最底部向上拍摄，捕捉两侧高墙上的“眼睛”和一线天的震撼视角。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`福音大教堂侧面小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`雨后傍晚，利用地面积水拍摄“眼睛”房屋的倒影，结合暖黄色的灯光初亮，营造出静谧而魔幻的氛围。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄那些“眼睛”窗户时，请务必尊重住户隐私，避免使用长焦镜头窥视屋内，将焦点放在建筑美学而非私人生活上。锡比乌的光影变化极具戏剧性，黄金时段（日出后一小时和日落前一小时）是拍摄城市温暖色调和长阴影的绝佳时机。使用无人机拍摄前，必须仔细了解罗马尼亚当地法规，老城上空通常有严格限制。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻大广场拱廊背后一栋15世纪撒克逊商人宅邸改造的精品酒店，睡在古老的木梁下，清晨推开窗就能与广场上的“眼睛”们道早安。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`设计师艺廊风格`}</h4>
+                  <p className="text-sm text-green-800">{`位于小广场一隅，由几位当地艺术家共同经营的精品公寓，每个房间风格迥异且充满现代艺术装置，与古老建筑外壳形成有趣对话。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`静谧家庭民宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在老城城墙外步行五分钟的安静街区，房东妈妈会为你准备丰盛的特兰西瓦尼亚式早餐，并分享地图上找不到的本地故事。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`山腰全景酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`在距离老城约两公里的小山丘上，一家由旧别墅改建的酒店拥有俯瞰整个锡比乌老城天际线的无敌露台，夜晚景色堪称梦幻。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`旺季（夏季和圣诞集市期间）住宿非常紧俏，务必提前数月预订，尤其是老城核心区的特色住所。老城内的酒店虽位置绝佳，但可能无法停车且需要拖着行李走一段卵石路，需提前与酒店确认行李协助服务。选择城墙外的住宿往往性价比更高，且能体验更本地化的社区氛围，步行进城也十分便捷。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开锡比乌许久后，那些“眼睛”的模样还会时常在脑海里浮现。它们不像威严的雕塑或华丽的装饰那样试图震慑你，而是用一种近乎顽皮又持久的方式，与你进行了一场沉默的对话。这座城市教会我的，是一种“温和的韧性”。它历经迁徙、繁荣、战火、大火、意识形态的变迁，却从未以狰狞或悲情的面貌示人。它只是静静地调整、吸收、重建，然后把历史的每一层印记，都转化为今天屋顶上一道独特的轮廓、墙上一种和谐的色彩、巷子里一股生活的气息。它不拒绝现代咖啡馆和艺术节，但这一切都发生在那个保存完好的中世纪框架里，新旧之间没有撕裂，只有从容的共生。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求快速打卡、滤镜美颜的旅行时代，锡比乌是一种反向的存在。它不提供瞬间的视觉爆点，而是邀请你慢下来，去观察，去聆听，去想象。你需要花时间，才能读懂那些“眼睛”里细微的表情差别；你需要静下心，才能感受到石板路下隐藏的另一个世界。它告诉我们，真正的文化深度不在于建筑的宏大，而在于细节的坚持，在于社区记忆的延续，在于一种面对时代洪流时，既能坚守内核又能拥抱变化的智慧。每一位渴望深度游的旅人，都应该来锡比乌住上几天，让自己被这些古老的“目光”注视一番。你会发现，被这样看过之后，你看待历史、文化乃至自己旅程的方式，都会变得不一样了——更耐心，更敏锐，也更温暖。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/ohrid-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥赫里德老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ohrid Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/girona-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    赫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">赫罗纳古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Girona</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/caceres-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡塞雷斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cáceres Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
         </div>
       </div>
-
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Breadcrumb />
-
-        <div className="mt-8">
-          <Section number="1" title="景点简介">
-            <p className="text-base leading-relaxed text-foreground/90">
-              锡比乌老城坐落于罗马尼亚锡比乌县首府锡比乌市，横跨奇宾河，被南喀尔巴阡山脉余脉环绕，是特兰西瓦尼亚地区保存最完好的中世纪老城之一，也是联合国教科文组织认定的世界文化遗产。老城以"谎言桥"为界分为上下两区，红瓦屋顶搭配造型别致的"眼睛窗户"，融合哥特式、巴洛克式与萨克森风格建筑，兼具历史厚重感与欧式灵动，是感受中世纪欧洲风情、体验多元文化交融的必访之地。
-            </p>
-          </Section>
-
-          <Section number="2" title="基本信息">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow 
-                label="开放时间" 
-                value="锡比乌老城整体全天开放，无统一闭馆时间，可24小时自由进出；老城内部景点（教堂、博物馆等）开放时间分季节调整，夏季（4月-10月）9:00-18:00，冬季（11月-次年3月）9:00-16:00，每周一部分景点闭馆（具体以现场公示为准）。建议游览时间为3-4小时，可沉浸式感受老城的中世纪氛围，避开正午人流高峰，清晨或傍晚游览体验更佳。" 
-              />
-              <InfoRow 
-                label="门票价格" 
-                value="老城整体免费开放，无需购买大门票，可自由漫步街巷；内部独立景点单独收费，锡比乌路德教堂门票10罗马尼亚列伊/人（约合2欧元），布鲁肯萨宫门票15罗马尼亚列伊/人（约合3欧元），锡比乌城市博物馆门票8罗马尼亚列伊/人（约合1.6欧元）。学生、65岁以上老人凭有效证件半价，12岁以下儿童免费；部分教堂免费开放，讲解服务12罗马尼亚列伊/人，支持现金与信用卡支付，部分小众景点可现场扫码购票。" 
-              />
-              <InfoRow 
-                label="详细地址" 
-                value="老城核心地址（Piața Mare 1, Sibiu 550181, Romania），位于锡比乌市中心，被中世纪城墙环绕，核心区域为大广场（Piața Mare），周边辐射多条古街巷，距离锡比乌火车站约1公里，步行可达周边餐饮、购物区，远眺可欣赏南喀尔巴阡山脉的壮丽风光。" 
-              />
-              <InfoRow 
-                label="交通方式" 
-                value="外部交通方面，可乘坐飞机抵达布加勒斯特奥托佩尼国际机场（距离锡比乌约280公里），打车前往约3小时，费用约300罗马尼亚列伊；也可从布加勒斯特乘坐火车直达锡比乌火车站，车程约4小时，票价约60罗马尼亚列伊，火车站距离老城入口约1公里，步行15分钟或乘坐1路、3路公交直达，公交票价2罗马尼亚列伊/人。市内交通方面，锡比乌市区公交网络发达，2路、5路、7路公交均可直达老城周边；市区打车前往老城，费用约8-12罗马尼亚列伊；老城内部街巷狭窄，禁止机动车通行，仅可步行游览，沉浸式感受中世纪街巷氛围。" 
-              />
-            </div>
-          </Section>
-
-          <Section number="3" title="历史背景">
-            <div className="space-y-6 text-foreground leading-relaxed">
-              <p>
-                锡比乌老城的历史渊源可追溯至新石器时代，当时已有人类在此定居，公元2世纪至8世纪，定居者逐渐形成稳定的部落社会，以农耕与手工业为生，为老城的发展奠定了基础。真正的城市化始于12世纪，随着萨克森开拓者的到来，这里逐渐形成聚居地，修建防御城墙、教堂与商铺，逐步发展为区域性商贸枢纽，也是特兰西瓦尼亚地区重要的文化与宗教中心。
-              </p>
-              <p>
-                1241年，蒙古大军入侵特兰西瓦尼亚地区，锡比乌的早期聚居地遭到严重破坏，此后当地居民在废墟上重建城镇，并修建了更坚固的中世纪城墙，城墙设有多个城门与瞭望塔，形成了如今老城的基本格局。13世纪中期，锡比乌成为匈牙利王国的重要城镇，国王赐予当地萨克森商人免税特权，推动了商贸的快速发展，萨克森人修建了豪宅、行会建筑、教堂与市政厅，形成了老城独特的萨克森风格建筑风貌，其中"眼睛窗户"便是萨克森建筑的典型特征，这些屋顶的小窗如同眼睛般俯瞰着街巷，成为老城的标志性景观。
-              </p>
-              <p>
-                历史上，锡比乌老城的归属历经变迁，13世纪至16世纪早期属于匈牙利王国，16世纪中期属于东匈牙利王国，16世纪后期至19世纪初属于特兰西瓦尼亚王国，19世纪初至20世纪早期属于奥匈帝国，20世纪初成为罗马尼亚的一部分。数百年的政权更迭，让老城融合了多元文化元素，哥特式的教堂尖顶、巴洛克式的市政厅装饰、萨克森风格的民居，共同构成了老城独特的建筑景观，也让这里成为多元文化交融的缩影。
-              </p>
-              <p>
-                中世纪时期，锡比乌老城是重要的商业重镇，大广场从14世纪起便成为一年一度跨国市集的举办地，来自欧洲各地的商人在此交易纺织品、香料与手工艺品，推动了文化与经济的交融。这一时期，老城也经历了诸多波折，16世纪遭遇奥斯曼人入侵，部分建筑遭到破坏；17世纪中期，城内发生大火，烧毁了大量古宅与商铺，此后当地居民耗时数十年进行重建，保留了老城的原有格局与建筑风格。
-              </p>
-              <p>
-                近代以来，锡比乌老城逐渐褪去商贸枢纽的光环，成为罗马尼亚重要的历史文化载体。20世纪以来，罗马尼亚政府多次对老城进行修复与保护，严格遵循"修旧如旧"的原则，还原中世纪建筑的原始风貌，妥善保护内部的历史文物与文化遗迹。1999年，锡比乌老城被列入联合国教科文组织世界文化遗产名录，2007年成为欧洲文化之都，如今已成为罗马尼亚最受欢迎的旅游景点之一，每年吸引着来自世界各地的游客，成为感受中世纪欧洲历史、体验多元文化交融的重要窗口。
-              </p>
-              <p>
-                老城的每一处街巷、每一座建筑都承载着厚重的历史，"谎言桥"见证着当地的民俗传说，路德教堂记录着宗教文化的变迁，大广场留存着中世纪市集的繁华印记，这些历史遗迹共同构成了锡比乌老城的独特魅力，也让这里成为罗马尼亚历史文化的重要象征。
-              </p>
-            </div>
-          </Section>
-
-          <Section number="4" title="游览路线">
-            <div className="space-y-6">
-              <p className="text-sm text-foreground leading-relaxed">
-                锡比乌老城以大广场为核心，以"谎言桥"为界分为上城区与下城区，景区总面积不大，但景点密集，建筑风格独特，建议安排3-4小时游览。以下为经典步行游览路线，可全面领略老城的中世纪建筑特色、历史遗迹与人文氛围，路线全程约1.8公里，节奏舒缓，适合沉浸式感受老城的浪漫与厚重，兼顾打卡与体验感。
-              </p>
-
-              <div className="bg-surface rounded-lg p-5">
-                <h3 className="text-lg font-semibold text-primary mb-4">经典步行游览路线</h3>
-                <div className="space-y-3 text-sm text-foreground leading-relaxed">
-                  <p><strong>起点：老城主入口</strong>（中世纪城墙入口，设有景区简介牌与导览图，可在此领取导览手册，打卡古老城墙与城门，感受中世纪防御工事的威严，城门旁的雕塑记录着老城的历史变迁）</p>
-                  
-                  <p><strong>第一站：大广场</strong>（距离入口约200米，老城核心区域，广场中央有喷泉与鸽子群，周边环绕着巴洛克式市政厅、布鲁肯萨宫与路德教堂，可参观市政厅内部，感受中世纪市集的繁华气息，在广场休息片刻，欣赏周边建筑的"眼睛窗户"，投喂广场上的鸽子）</p>
-                  
-                  <p><strong>第二站：锡比乌路德教堂</strong>（位于大广场北侧，步行2分钟可达，哥特式风格建筑，尖顶高耸，内部留存着精美的壁画与宗教文物，可进入内部参观，感受教堂的庄严与静谧）</p>
-                  
-                  <p><strong>第三站：谎言桥</strong>（从路德教堂步行5分钟可达，老城标志性景点，一座小巧的铁桥，传说如果在桥上说谎，桥就会崩塌，可打卡拍照，聆听相关民俗典故，这里也是上城区与下城区的分界线）</p>
-                  
-                  <p><strong>第四站：下城区古街巷</strong>（从谎言桥步行3分钟可达，下城区多为萨克森风格民居，街巷狭窄，砖石路面，两侧是色彩各异的古宅，屋顶的"眼睛窗户"错落有致，可漫步窄巷，感受当地居民的生活气息，探访小众手工艺品商店）</p>
-                  
-                  <p><strong>第五站：锡比乌城市博物馆</strong>（距离下城区古街巷约300米，设于19世纪欧式建筑内，可参观馆内的历史遗物、民俗文化展品，了解老城的发展历程与多元文化交融的历史）</p>
-                  
-                  <p><strong>第六站：老城制高点</strong>（从博物馆步行10分钟可达，登顶后可360度俯瞰整个锡比乌老城全景，红瓦屋顶与"眼睛窗户"相映成趣，远眺南喀尔巴阡山脉，感受老城与自然的融合之美）</p>
-                  
-                  <p><strong>终点：老城出口周边</strong>（周边有特色餐厅、纪念品商店，可品尝当地特色美食，购买手工艺品，结束游览）。</p>
-                </div>
-                
-                <div className="mt-4 p-3 bg-primary-light rounded-lg">
-                  <p className="text-sm text-foreground leading-relaxed">
-                    <strong>温馨提示：</strong>老城内部街巷狭窄，多为石板路面，建议穿舒适的步行鞋；部分景点内部禁止大声喧哗、随意触摸文物，路德教堂内部禁止使用闪光灯拍照；夏季老城气温适中，早晚温差较小，可携带遮阳帽与饮用水；冬季气温较低，部分路面可能结冰，注意防滑；旅游旺季（5-9月）游客较多，建议避开正午人流高峰，错峰游览；老城内部商铺多为当地特色小店，可理性消费，感受当地人文气息。
-                  </p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="5" title="拍照机位">
-            <div className="space-y-6">
-              <p className="text-sm text-foreground leading-relaxed">
-                锡比乌老城融合了哥特式、巴洛克式与萨克森风格建筑，红瓦屋顶、"眼睛窗户"、窄巷古宅与南喀尔巴阡山脉相映成趣，光影层次丰富，既有中世纪的庄严厚重，又有欧式小镇的浪漫灵动，是拍照出片的绝佳之地。以下推荐几个经典拍照机位，涵盖全景、建筑细节、街巷氛围等不同风格，无论是手机还是相机，都能拍出高质量照片，展现老城的独特魅力。
-              </p>
-
-              <div className="grid gap-6">
-                <div className="bg-surface rounded-lg p-5">
-                  <h3 className="text-lg font-semibold text-primary mb-3">经典拍照机位</h3>
-                  <div className="space-y-3 text-sm text-foreground leading-relaxed">
-                    <p><strong>1. 老城制高点：</strong>这是拍摄老城全景的最佳机位，登顶后可360度俯瞰整个锡比乌老城，红瓦屋顶错落有致，家家户户的"眼睛窗户"清晰可见，中世纪城墙环绕四周，远处的南喀尔巴阡山脉连绵起伏，山水与人文景观完美融合，画面壮阔而有层次感。最佳拍摄时间为清晨（7:30-9:00），光线柔和，可更好地呈现老城的建筑细节与整体风貌，避开人流高峰，拍摄效果更佳，建议携带广角镜头，捕捉全景美景。</p>
-                    
-                    <p><strong>2. 大广场中央：</strong>广场是老城的核心，也是拍摄老城人文氛围的绝佳机位。可以广场中央的喷泉为前景，拍摄周边的巴洛克式市政厅、布鲁肯萨宫与路德教堂，红瓦黄墙相映成趣，搭配广场上的鸽子群与行人，氛围感拉满，适合拍摄人文风、清新风照片。最佳拍摄时间为上午10:00-11:00，阳光柔和，可捕捉到建筑的光影细节，也能拍到行人与鸽子的灵动画面。</p>
-                    
-                    <p><strong>3. 谎言桥两侧：</strong>作为老城的标志性景点，谎言桥本身就是网红拍照点。可站在桥的两侧，采用对称构图，拍摄桥的全貌与周边的古宅，铁桥的小巧与古宅的厚重形成对比，搭配桥下的溪流，画面极具氛围感；也可坐在桥边，以古宅为背景，拍摄人物与建筑的同框照片，凸显老城的浪漫气息。最佳拍摄时间为下午3:00-4:00，阳光斜照，可营造出柔和的光影效果，避免正午强光直射。</p>
-                    
-                    <p><strong>4. 路德教堂正面广场：</strong>路德教堂是老城的标志性建筑，其哥特式尖顶与古朴的石墙极具辨识度。可在教堂正面广场采用对称构图，拍摄教堂的正面全貌，突出教堂的庄严宏伟，教堂前的雕塑可作为前景，增添历史厚重感。最佳拍摄时间为傍晚（17:00-18:30），夕阳洒在教堂石墙上，呈现出温暖的金黄色，画面极具感染力，建议携带长焦镜头，拍摄教堂的尖顶细节与"眼睛窗户"的特写。</p>
-                    
-                    <p><strong>5. 下城区古街巷拐角：</strong>下城区的古街巷纵横交错，拐角处往往能拍出极具氛围感的照片。可选择两侧是红瓦古宅、带有"眼睛窗户"的街巷拐角，采用侧拍构图，捕捉街巷的延伸感与建筑的细节，搭配光影变化，营造出中世纪的静谧与浪漫。最佳拍摄时间为清晨或傍晚，光线柔和，可避免人流干扰，适合拍摄复古风、氛围感照片，也可搭配当地特色服饰，提升画面的代入感。</p>
-                  </div>
-                </div>
-
-                <div className="bg-primary-light rounded-lg p-5">
-                  <h3 className="text-lg font-semibold text-primary mb-3">拍照小贴士</h3>
-                  <div className="space-y-2 text-sm text-foreground leading-relaxed">
-                    <p><strong>最佳拍摄时间：</strong>最佳拍摄时间为清晨（7:30-9:00）和傍晚（17:00-18:30），光线柔和，光影层次丰富，且游客较少，便于拍摄；建议穿着纯色、简约风格的衣物，避免过于花哨，与老城的红瓦石墙、"眼睛窗户"形成对比，更出片；部分景点内部禁止拍照，需遵守景区规定，拍摄时避免影响其他游客；携带广角镜头拍摄全景，长焦镜头拍摄建筑细节与人文特写，效果更佳；若想拍摄复古风照片，可搭配长裙、复古帽子等服饰，与老城的中世纪氛围更契合。</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="6" title="附近景点">
-            <div className="space-y-4">
-              <p className="text-sm text-foreground leading-relaxed">
-                锡比乌老城位于锡比乌市中心，周边景点丰富，多以历史建筑、自然景观与人文景点为主，游览完老城后，可根据自身时间安排前往，既能丰富行程，也能更全面地感受锡比乌的历史文化与自然之美。以下推荐几个距离老城较近、值得一去的景点，均可通过步行或短途公交、打车抵达，出行十分便利。
-              </p>
-
-              <div className="grid gap-4">
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">1. 锡比乌城堡遗址</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离锡比乌老城约1.5公里，步行20分钟即可抵达，或乘坐4路公交直达，车程约10分钟，票价2罗马尼亚列伊。城堡建于12世纪，是中世纪时期的防御工事，如今仅留存部分城墙与瞭望塔，遗址周边植被繁茂，可登顶瞭望塔，俯瞰锡比乌市全景与老城风貌，免费开放，适合喜欢历史遗迹与登高望远的游客。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">2. 锡比乌圣母升天大教堂</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离老城约800米，步行10分钟即可抵达，是一座拜占庭式与哥特式融合的教堂，外观简洁庄重，内部留存着精美的壁画与宗教文物，氛围庄严静谧，免费开放。进入教堂需遵守宗教礼仪，禁止大声喧哗、随意拍摄，建议穿着得体，适合喜欢宗教文化与建筑艺术的游客。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">3. 奇宾河滨步道</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离老城约500米，步行7分钟即可抵达，步道沿奇宾河蜿蜒，周边植被繁茂，设有休闲座椅，可漫步步道，欣赏河畔风光，感受自然与城市的融合之美。步道免费开放，沿途有小型雕塑与观景台，适合散步、放松，夏季可欣赏河畔的绿植与鲜花，冬季可感受静谧的冬日氛围。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">4. 锡比乌民俗博物馆</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离老城约1公里，步行15分钟即可抵达，设于一座18世纪萨克森风格建筑内，馆内展示了锡比乌地区的民俗文化、传统手工艺、服饰与生活用具，可深入了解当地的人文风情，开放时间为10:00-17:00，周二闭馆，成人门票10罗马尼亚列伊，学生半价，适合喜欢民俗文化的游客。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">5. 南喀尔巴阡山脉徒步支线</h4>
-                  <p className="text-sm text-foreground leading-relaxed">距离老城约4公里，可乘坐6路公交直达，车程约20分钟，或打车前往，费用约15罗马尼亚列伊。支线步道难度适中，沿途植被繁茂，可欣赏山间的溪流、瀑布与珍稀动植物，登顶后可俯瞰整个锡比乌市全景与老城风貌，步道免费开放，适合徒步爱好者，建议穿舒适的徒步鞋，携带饮用水。</p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="7" title="住宿小贴士">
-            <div className="space-y-4">
-              <div className="bg-surface rounded-lg p-5">
-                <h3 className="text-lg font-semibold text-primary mb-4">详细住宿指南</h3>
-                <div className="space-y-4 text-sm text-foreground leading-relaxed">
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">1. 住宿位置选择</h4>
-                    <p>优先选择锡比乌老城内部或周边500米范围内的住宿，出行便利，可随时漫步老城街巷，感受中世纪氛围，部分住宿为老式萨克森风格建筑改造，自带复古韵味，屋顶设有"眼睛窗户"，可沉浸式体验当地生活；老城周边多为特色民宿与精品酒店，距离核心景点近，步行可达大广场、谎言桥等景点；锡比乌市中心距离老城约1公里，这里有更多连锁酒店与经济型酒店，设施齐全，交通便利，周边商圈发达，购物、就餐十分便捷，适合家庭出行或预算有限的游客。自驾出行的游客可选择带免费停车位的住宿，老城周边街道狭窄，停车不便，提前确认停车事宜。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">2. 住宿类型推荐</h4>
-                    <p><strong>精品度假酒店：</strong>可选择位于老城内部的特色度假酒店，这类酒店多由中世纪古宅改造，装修融合了欧式复古元素与现代舒适设施，部分设有露台、观景台，可欣赏老城全景或山脉风光，服务周到，价格约75-140欧元/晚。</p>
-                    
-                    <p><strong>特色民宿：</strong>老城周边有很多小众民宿，装修简约典雅，保留了萨克森风格建筑的特色，部分带有小庭院或阳台，房东多为当地人，可提供地道的出行建议，价格约40-80欧元/晚；还有自助入住的公寓式民宿，设施齐全，适合家庭或多人出行，价格约30-60欧元/晚。</p>
-                    
-                    <p><strong>连锁酒店：</strong>市中心有多家性价比高的连锁酒店，设施标准化，干净整洁，价格约28-50欧元/晚，适合预算有限的游客。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">3. 预订注意事项</h4>
-                    <p>锡比乌旅游旺季为5-9月，此时气候适宜，山间风光优美，游客较多，住宿紧张，建议提前1个月预订，避免无房或价格上涨；预订时注意查看住宿的取消政策，尽量选择可免费取消的房源，以便灵活调整行程；若自驾出行，需提前确认住宿是否提供免费停车位，老城周边街道停车费用较高（4-8欧元/天），提前沟通可节省开支；部分民宿为自助入住，预订后会收到入住指南和密码，需提前查看，避免抵达后无法入住；老城内部部分住宿为老式建筑，无电梯，预订时可确认是否有电梯，便于携带大件行李。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">4. 其他注意事项</h4>
-                    <p>住宿内部通常提供基本的洗漱用品，但部分小众民宿不提供一次性牙刷和牙膏，建议提前自备；老城周边多为石板路面，夜间照明较好，但部分小巷较为僻静，晚归时注意安全；住宿周边有很多当地特色餐厅，可品尝炖肉、烤香肠、奶酪卷等罗马尼亚特色美食，部分餐厅提供户外座位，可边就餐边欣赏老城夜景；大部分住宿提供免费WiFi，预订时可确认WiFi信号情况，方便出行时查询信息；当地电压为230V，插头为Type F型，若需要，可提前准备转换插头。</p>
-                  </div>
-
-                  <div className="bg-primary-light p-3 rounded-lg mt-3">
-                    <p className="text-sm text-foreground leading-relaxed">
-                      <strong>特别提示：</strong>锡比乌当地住宿整体价格适中，性价比高于罗马尼亚首都布加勒斯特，提前预订可获得更优惠的价格；部分民宿房东为当地人，可主动向房东咨询当地小众景点、特色美食和徒步路线，获取更地道的游览体验。冬季（11-次年3月）为旅游淡季，住宿价格会有所下降，此时山间常有雪景，老城与雪景相映成趣，红瓦屋顶覆盖白雪，"眼睛窗户"点缀其间，适合喜欢静谧氛围与雪景风光的游客前往。
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="8" title="实用小贴士">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow label="最佳季节" value="5月至9月，夏季气候宜人且文化活动丰富；每年8月举办国际戏剧节" />
-              <InfoRow label="建议时长" value="1–1.5天" />
-              <InfoRow label="注意事项" value="锡比乌老城是一座融合历史、文化、艺术与自然的独特景区，这里既有中世纪建筑的庄严厚重，又有欧式小镇的浪漫灵动，既有萨克森文化的独特魅力，又有多元文化交融的历史印记。无论是独自旅行、结伴出行，还是家庭出游，都能在这里找到属于自己的游览乐趣，感受中世纪欧洲的历史底蕴与文化魅力。希望这份详细的游览指南，能帮助你更好地领略锡比乌老城的风采，度过一段愉快的旅程。" />
-            </div>
-          </Section>
-        </div>
-
-        <div className="mt-12 mb-8 text-center">
-          <Link
-            href="/#destinations"
-            className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-light transition-colors"
-          >
-            <span>&larr;</span>
-            <span>Back to All Destinations</span>
-          </Link>
-        </div>
-      </div>
-    </article>
-  );
+    </div>
+  )
 }

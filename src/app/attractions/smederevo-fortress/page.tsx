@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '斯梅代雷沃城堡・Smederevo Fortress・塞尔维亚・斯梅代雷沃 | 最佳欧洲景点',
-  description: '探索斯梅代雷沃城堡，这座位于塞尔维亚的中世纪军事堡垒，以其三角形布局和河畔风光而闻名。',
+  title: '斯梅代雷沃要塞 Smederevo Fortress｜多瑙河畔的“水上雄鹰”，塞尔维亚中世纪最后的倔强 - 最佳欧洲景点',
+  description: '当你第一眼看到斯梅代雷沃要塞时，最震撼的绝不是它的精致，而是它那股子近乎野蛮的庞大与直接。它不像那些藏在山巅的童话城堡，而是像一个巨大的、沉默的巨人，一屁股坐在了多瑙河最宽阔的河湾处。褐黄色的厚重城墙，就那么赤裸裸地从陆地延伸进浑黄的河水中，没有一丝犹豫。走近了，你能闻到河水特有的、带着泥土腥气的湿...',
 }
 
 export default function SmederevoFortressPage() {
@@ -16,301 +16,211 @@ export default function SmederevoFortressPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '斯梅代雷沃城堡', href: '/attractions/smederevo-fortress' },
+            { label: '斯梅代雷沃要塞', href: '/attractions/smederevo-fortress' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">斯梅代雷沃城堡・Smederevo Fortress・塞尔维亚・斯梅代雷沃</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`斯梅代雷沃要塞・Smederevo Fortress・塞尔维亚・斯梅代雷沃`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            斯梅代雷沃城堡坐落于塞尔维亚斯梅代雷沃市，地处多瑙河与耶扎瓦河汇流的三角平原地带，是欧洲最大的平原古城堡，也是塞尔维亚最具代表性的中世纪军事堡垒之一。
+            {`当你第一眼看到斯梅代雷沃要塞时，最震撼的绝不是它的精致，而是它那股子近乎野蛮的庞大与直接。它不像那些藏在山巅的童话城堡，而是像一个巨大的、沉默的巨人，一屁股坐在了多瑙河最宽阔的河湾处。褐黄色的厚重城墙，就那么赤裸裸地从陆地延伸进浑黄的河水中，没有一丝犹豫。走近了，你能闻到河水特有的、带着泥土腥气的湿润味道，混合着古老石块在阳光下散发出的干燥气息。风从河面上毫无遮挡地刮过来，在城墙的垛口间发出低沉的呜咽，偶尔夹杂着远处货轮沉闷的汽笛声。
+这里不是那种被精心圈养起来的博物馆式景点。傍晚时分，你会看到穿着运动服的市民在城墙下的步道上跑步，情侣们靠在面向多瑙河的矮墙上低声私语，孩子们在开阔的内城草地上追逐足球。要塞完美地融入了小城的日常生活，它是市民的后花园，是历史的背景板，也是这座城市跳动的心脏。当地人提起它，语气里没有游客式的惊叹，而是一种理所当然的亲近与骄傲，仿佛在说：“瞧，我们的老祖宗，就是在这儿扛过风浪的。”
+它的核心魅力，在于一种巨大的、悲怆的“未完成感”和坚韧的生命力。你抚摸那些巨大而粗糙的方石，能清晰地感受到15世纪工匠们仓促的凿痕。这座被誉为“水上都城”的堡垒，从诞生之日起就笼罩在奥斯曼帝国巨大的阴影下，它是一座为防御而生的城市，却最终未能挡住历史的洪流。然而，正是这种“知其不可为而为之”的倔强，让它的一砖一石都充满了故事的能量。站在空旷的内城，看着野草从碎裂的石板缝中顽强钻出，听着河水永恒的流淌声，你会感到一种穿越时间的平静——不是胜利者的荣耀，而是幸存者的沉默与力量。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              斯梅代雷沃城堡坐落于塞尔维亚斯梅代雷沃市，地处多瑙河与耶扎瓦河汇流的三角平原地带，是欧洲最大的平原古城堡，也是塞尔维亚最具代表性的中世纪军事堡垒之一。城堡呈三角形布局，由大城和小城组成，厚重的城墙、高耸的塔楼与蜿蜒的护城河相映，兼具军事防御的雄伟与河畔风光的柔美，承载着塞尔维亚中世纪的辉煌历史与巴尔干地区的文化交融印记，是感受塞尔维亚历史底蕴与自然之美的必访之地。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你第一眼看到斯梅代雷沃要塞时，最震撼的绝不是它的精致，而是它那股子近乎野蛮的庞大与直接。它不像那些藏在山巅的童话城堡，而是像一个巨大的、沉默的巨人，一屁股坐在了多瑙河最宽阔的河湾处。褐黄色的厚重城墙，就那么赤裸裸地从陆地延伸进浑黄的河水中，没有一丝犹豫。走近了，你能闻到河水特有的、带着泥土腥气的湿润味道，混合着古老石块在阳光下散发出的干燥气息。风从河面上毫无遮挡地刮过来，在城墙的垛口间发出低沉的呜咽，偶尔夹杂着远处货轮沉闷的汽笛声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这里不是那种被精心圈养起来的博物馆式景点。傍晚时分，你会看到穿着运动服的市民在城墙下的步道上跑步，情侣们靠在面向多瑙河的矮墙上低声私语，孩子们在开阔的内城草地上追逐足球。要塞完美地融入了小城的日常生活，它是市民的后花园，是历史的背景板，也是这座城市跳动的心脏。当地人提起它，语气里没有游客式的惊叹，而是一种理所当然的亲近与骄傲，仿佛在说：“瞧，我们的老祖宗，就是在这儿扛过风浪的。”`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，在于一种巨大的、悲怆的“未完成感”和坚韧的生命力。你抚摸那些巨大而粗糙的方石，能清晰地感受到15世纪工匠们仓促的凿痕。这座被誉为“水上都城”的堡垒，从诞生之日起就笼罩在奥斯曼帝国巨大的阴影下，它是一座为防御而生的城市，却最终未能挡住历史的洪流。然而，正是这种“知其不可为而为之”的倔强，让它的一砖一石都充满了故事的能量。站在空旷的内城，看着野草从碎裂的石板缝中顽强钻出，听着河水永恒的流淌声，你会感到一种穿越时间的平静——不是胜利者的荣耀，而是幸存者的沉默与力量。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="斯梅代雷沃城堡" />
-                <InfoRow label="英文名称" value="Smederevo Fortress" />
-                <InfoRow label="国家" value="塞尔维亚共和国（Republic of Serbia）" />
-                <InfoRow label="城市" value="斯梅代雷沃（Smederevo）" />
-                <InfoRow label="建造年代" value="15世纪（1428-1453年）" />
+                <InfoRow label="中文名称" value={`斯梅代雷沃要塞`} />
+                <InfoRow label="英文名称" value={`Smederevo Fortress`} />
+                <InfoRow label="正式名称" value={`Smederevo Fortress`} />
+                <InfoRow label="国家" value={`塞尔维亚`} />
+                <InfoRow label="城市" value={`斯梅代雷沃`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="开放时间" value="城堡整体全天开放" />
-                <InfoRow label="建议游览" value="9:00-18:00" />
-                <InfoRow label="门票价格" value="城堡整体免费" />
-                <InfoRow label="游览时长" value="3-4小时" />
-                <InfoRow label="最佳季节" value="4月-10月" />
+                <InfoRow label="历史地位" value={`塞尔维亚专制君主国最后的首都，也是中世纪塞尔维亚国家独立性的最后象征。`} />
+                <InfoRow label="建筑特色" value={`一座气势恢宏、近乎完美的三角形水上堡垒，其两条边直接嵌入多瑙河与亚萨瓦河的怀抱。`} />
+                <InfoRow label="建筑风格" value={`晚期拜占庭军事建筑与西欧城堡风格的混合体，见证了文明交锋地带的独特审美。`} />
+                <InfoRow label="文化价值" value={`它不仅是军事遗迹，更是一部石头的史诗，凝固了塞尔维亚民族面对强大压力时的抵抗、妥协与生存智慧。`} />
               </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-blue-900 mb-3">详细门票信息</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">城堡整体：</span>免费对外开放，无门票费用</p>
-                <p><span className="font-medium">讲解服务：</span>约200塞尔维亚第纳尔/人（约合1.7欧元），学生、老人可享半价优惠</p>
-                <p><span className="font-medium">部分塔楼登顶：</span>50塞尔维亚第纳尔/人，儿童（12岁以下）免费</p>
-              </div>
-            </div>
-            <div className="bg-green-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-green-900 mb-3">交通指南</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">飞机：</span>贝尔格莱德尼古拉·特斯拉国际机场，有长途大巴直达斯梅代雷沃汽车站，车程约1.5小时</p>
-                <p><span className="font-medium">市内交通：</span>城堡周边可乘坐1路、3路公交抵达城堡入口，公交票价约80塞尔维亚第纳尔/人</p>
-                <p><span className="font-medium">步行：</span>可沿多瑙河畔长廊步行前往城堡，沿途可欣赏多瑙河风光，步行约20分钟</p>
-              </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全年对公众开放的外城墙区域与内城庭院。具体开放时段为夏季（4月至10月）每日 9:00 至 19:00；冬季（11月至次年3月）每日 9:00 至 16:00。内部的小型博物馆开放时间较短，通常为上午10点至下午2点，周一闭馆。请注意，恶劣天气（如暴雨、强风）时，部分临水城墙区域可能临时关闭以确保安全。`} />
+              <InfoRow label="门票价格" value={`进入要塞主体区域（城墙及内城）完全免费，这是塞尔维亚人引以为豪的“全民遗产”。内部小型博物馆象征性收取门票，约合2欧元，学生及老人享有半价优惠。参加由当地导游带领的深度历史导览团费用约为10-15欧元/人，时长约1.5小时，需提前在旅游信息中心预约。`} />
+              <InfoRow label="地址" value={`Smederevska Tvrdjava, Smederevo 11300, Serbia`} />
+              <InfoRow label="交通方式" value={`从塞尔维亚首都贝尔格莱德的尼古拉·特斯拉国际机场出发是最佳选择。在机场乘坐A1线巴士至贝尔格莱德中央火车站或主公交站。方案一：从火车站乘坐前往斯梅代雷沃的区间火车，车程约1小时20分钟，班次较为稀疏，一天约4-5班，但沿途多瑙河平原风光绝佳。方案二：从主公交站乘坐频繁发车的巴士，几乎每半小时一班，车程约1小时，直达斯梅代雷沃汽车站。从斯梅代雷沃市中心汽车站步行至要塞仅需15分钟，沿着指向“Tvrdjava”的路标即可轻松抵达。建议使用当地公交APP“Moovit”查询实时班次。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              斯梅代雷沃城堡的历史渊源可追溯至15世纪，其建造与塞尔维亚中世纪的政治格局和军事防御需求密切相关。1428年至1430年，塞尔维亚王国为抵御奥斯曼土耳其帝国的入侵，开始修建这座军事要塞，最初仅建成小城部分，两侧分别被多瑙河和耶扎瓦河环绕，第三侧则挖掘护城河，形成天然的防御屏障，当时这里仅允许王室成员居住，也是王公贵族躲避传说中吸血鬼侵扰的居所。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              1439年，塞尔维亚王国进一步扩建城堡，大城部分开始动工，并在1444年至1453年间逐步成形，最终形成了如今呈三角形、兼具居住与防御功能的城堡格局。这座城堡是塞尔维亚王国最后的首都所在地，也是当时巴尔干地区最坚固的军事要塞之一，承载着塞尔维亚人民抵御外敌、守护家园的历史记忆。城堡的建造融合了中世纪斯拉夫建筑与拜占庭建筑风格，厚重的石砌城墙、高耸的防御塔楼和宽阔的护城河，都彰显着当时高超的军事建筑工艺。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              1459年，奥斯曼土耳其帝国征服斯梅代雷沃，城堡被改为军事据点，期间对部分建筑进行了改造，融入了奥斯曼建筑元素，增设了清真寺和土耳其浴室等设施，成为奥斯曼帝国在巴尔干地区重要的军事和行政据点。此后的数百年间，城堡在奥斯曼帝国的统治下，见证了巴尔干地区的战乱与变迁，也曾多次因战争遭到损毁，部分城墙和塔楼在战火中坍塌。
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              19世纪后期，随着奥斯曼帝国的衰落，斯梅代雷沃被纳入塞尔维亚版图，城堡逐渐失去军事防御功能，成为历史遗迹。20世纪以来，塞尔维亚政府多次对城堡进行修复与保护，严格遵循"修旧如旧"的原则，重点修复了坍塌的城墙、塔楼和城门，保留了城堡的核心格局与历史风貌。如今，城堡不仅是塞尔维亚重要的历史文化遗址，也是当地举办文化活动、音乐会和历史展览的重要场所，每一块石板、每一座塔楼，都镌刻着塞尔维亚中世纪的辉煌与沧桑，承载着当地人民的集体记忆。
-            </p>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从一个流亡的君主说起。15世纪中叶，奥斯曼帝国的铁蹄已经踏平了巴尔干的大部分地区，塞尔维亚的君主Đurađ Branković，被迫离开故都，辗转流离。他急需一个全新的、坚固的首都，来安置他的宫廷，收纳来自四面八方的难民，更重要的是，打造一个能抵御土耳其人进攻的最终堡垒。他的目光，落在了多瑙河与亚萨瓦河交汇的这片冲积平原上。这地方平坦得几乎无险可守，对吗？但Đurađ看到了别人没看到的东西：两条天堑般的大河，本身就是最宽阔的护城河。他要建造的，不是山城，而是一座巨大的“水上要塞”，让河流成为城墙的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，从1428年到1430年，一场近乎疯狂的建造工程启动了。据说，工人不分昼夜地劳作，贵族、教士、农民乃至囚犯都被动员起来。石头从遥远的山区运来，木材顺多瑙河漂流而下。短短两年多，一座周长超过1.5公里，拥有25座塔楼的庞然大物，奇迹般地在水边拔地而起。三角形的设计最大限度地利用了河流防线，朝陆地的南墙被修得尤其厚重，布满了射击孔和复杂的防御工事。内城里，迅速建起了宫殿、教堂、贵族宅邸，一座功能齐全的都城初具雏形。那短暂的几年，或许是流亡王朝最后的光辉岁月，钟声在新建的教堂里响起，码头上船只往来，这里成了动荡巴尔干中一个脆弱的希望孤岛。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的阴影来得太快。1459年，在君主去世、内部出现纷争后，这座被寄予厚望的堡垒，在奥斯曼大军的围困下，最终陷落了。陷落的过程并非想象中的惨烈血战，更多是绝望下的谈判与投降。从此，城头飘扬的旗帜换了颜色。土耳其人将这里变成了他们在巴尔干北部最重要的军事据点之一，驻扎重兵，并对建筑进行了一些改造，比如加建了一些符合奥斯曼风格的防御设施。要塞的功能彻底改变了，从塞尔维亚民族独立的象征，变成了帝国扩张的前哨。它在奥斯曼手中屹立了数百年，直到更猛烈的战火再次将它吞噬。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`时间的灾难并未止步于冷兵器时代。1941年，二战期间，占领塞尔的维亚德军将这里用作军火库。一场惊天动地的大爆炸发生了，几乎将内城的古建筑夷为平地，巨大的石块被抛向空中，城墙被撕裂出可怕的伤口。这次爆炸造成的破坏，甚至超过了中世纪以来所有战争的总和。你今天看到的内城那片触目惊心的空旷和遍地碎石，主要就是那次爆炸的“杰作”。战后，塞尔维亚人开始了漫长而谨慎的修复，他们加固濒临坍塌的城墙，清理废墟，但有意保留了许多爆炸的痕迹。这种修复哲学非常聪明：他们不是在伪造一个完美的古堡，而是在精心保存一部立体的、充满伤疤的历史教科书。每一处残垣，都是历史的 punctuation mark（标点符号），提醒着人们战争的可怖与和平的珍贵。`}</p>
+            </div>
           </Section>
 
           <Section title="4. 游览路线">
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">经典步行游览路线</h4>
-                <p className="text-gray-700 mb-4">全程约3公里，耗时3-4小时，中途可在城堡内的草坪或河畔休息</p>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">起点：斯梅代雷沃城堡主入口</h5>
-                    <p>标志性的石砌城门，设有城堡简介牌，可在此打卡拍照，感受城堡的雄伟气势</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第一站：主城门与城墙</h5>
-                    <p>参观保存完好的主城门，触摸厚重的石砌城墙，了解其军事防御功能，城墙顶部可漫步</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第二站：小城遗迹</h5>
-                    <p>城堡最初建成的区域，参观王室居住遗址、小型教堂遗迹，感受中世纪王室的生活场景</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第三站：护城河与吊桥</h5>
-                    <p>城堡的重要防御设施，可在河畔漫步，欣赏护城河与城堡的相映之景</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第四站：大城塔楼</h5>
-                    <p>城堡的制高点之一，登顶可俯瞰整个城堡全景、多瑙河与耶扎瓦河汇流的美景</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第五站：城堡内部草坪与遗迹区</h5>
-                    <p>穿梭在草坪与散落的遗迹之间，感受历史的沧桑，这里偶尔会举办小型文化展览</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第六站：多瑙河畔观景台</h5>
-                    <p>位于城堡南侧，紧邻多瑙河，可欣赏多瑙河的辽阔风光，远眺河畔的乡村与植被</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">终点：城堡出口</h5>
-                    <p>周边有当地特色小吃摊和纪念品商店，可购买特色手工艺品，品尝当地美食</p>
-                  </div>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议你在一个晴朗的午后，大约三点左右抵达。这个时候，炙热的正午阳光开始变得柔和，光线斜射，将城墙的质感刻画得格外分明，也是拍照的黄金时间。整体游览建议预留3到4小时，节奏要不疾不徐。我们的路线将从最具视觉冲击力的东南角主塔开始，逆时针沿着多瑙河城墙漫步，感受它的磅礴气势，然后转入内城，在废墟间体会历史的苍凉，最后在面向陆地的南墙结束，迎着夕阳回望这座“水上雄鹰”的剪影。这样的安排，既顺应了光线变化，也符合从外到内、从宏观到细节的认知逻辑。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季务必携带足量饮用水并做好防晒，城墙上几乎毫无遮荫。穿一双舒适耐走的鞋至关重要，城墙路面是原始的粗糙石板和碎石。请注意，部分临水城墙边缘没有护栏，拍照和行走时务必小心，尤其照看好孩童。`}
                 </div>
               </div>
               
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">温馨提示</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 城堡内多为石砌路面，部分路段不平整，建议穿舒适的步行鞋</li>
-                  <li>• 夏季（6-8月）阳光强烈，可携带遮阳帽、防晒霜，适量补充水分</li>
-                  <li>• 冬季气温较低，部分路面可能结冰，注意防滑</li>
-                  <li>• 旅游旺季（5-9月）游客较多，建议避开正午人流高峰</li>
-                </ul>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从东南角那座最雄伟的“主塔”登顶，让多瑙河无垠的河面与对岸平坦的伏伊伏丁那平原像一幅巨画般在你脚下展开。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着东侧城墙向北慢慢行走，用手掌感受被太阳晒得微暖的粗糙石面，倾听脚下河水拍打墙根的规律轻响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在北端拐角处寻找那座被称为“火药塔”的建筑，想象奥斯曼守军在此值守时，眼中所见与数百年前的塞尔维亚卫士并无二致的河景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到直接插入多瑙河中的那段城墙尽头，静静地看一会儿往来穿梭的拖船，感受这座堡垒作为“水上门户”的昔日繁忙与今日静默。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`转身进入空旷得令人心悸的内城区域，在残存的宫殿地基和教堂拱门遗迹间随意坐下，让想象填补眼前空白。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到南墙上那几扇被称为“盲人窗户”的奇特封死窗洞，背后是统治者为了避税而与奥斯曼苏丹周旋的无奈又机智的传说。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，穿过巨大的主城门（陆城门），从外部回望整个要塞的完整三角形轮廓，体会进攻者当年面对这座水上巨兽时的压迫感。`}</p>
+                </div>
               </div>
             </div>
           </Section>
 
           <Section title="5. 拍照机位">
-            <div className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">大城塔楼顶端</h4>
-                  <p className="text-gray-700 text-sm">拍摄城堡全景的最佳机位，可360度俯瞰整个斯梅代雷沃城堡，三角形的城堡格局、蜿蜒的城墙、高耸的塔楼与多瑙河、耶扎瓦河的汇流美景尽收眼底</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">多瑙河畔观景台</h4>
-                  <p className="text-gray-700 text-sm">位于城堡南侧，是拍摄城堡与多瑙河同框的绝佳场景。最佳拍摄时间为日落时分</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">主城门处</h4>
-                  <p className="text-gray-700 text-sm">主城门是城堡的标志性建筑，厚重的石砌拱门、斑驳的墙面和古老的雕刻，都极具历史感</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">城堡内部遗迹区</h4>
-                  <p className="text-gray-700 text-sm">这里散落着中世纪的建筑碎片、雕刻和城墙遗迹，是拍摄人文纪实类照片的绝佳场景</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">护城河沿岸</h4>
-                  <p className="text-gray-700 text-sm">沿着护城河漫步，可拍摄城堡的城墙与护城河的相映之景，狭窄的护城河与高大的城墙形成鲜明对比</p>
-                </div>
-              </div>
-              
-              <div className="bg-purple-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-purple-900 mb-3">拍照小贴士</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 最佳拍摄时间：清晨（7:30-10:00）和傍晚（17:00-19:30），光线柔和，游客较少</li>
-                  <li>• 建议穿着纯色衣物，避免过于花哨，与石砌城堡、湛蓝河水形成对比</li>
-                  <li>• 携带广角镜头拍摄全景，长焦镜头拍摄建筑细节和河畔特写</li>
-                  <li>• 尊重城堡的历史遗迹，拍摄时避免触摸和损坏遗迹</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="6. 附近景点">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">步行可达景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">多瑙河畔长廊</span>
-                      <p className="text-sm text-gray-600">紧邻城堡南侧，步行5分钟即可抵达，全长约1公里，沿途植被茂盛，设有休闲座椅</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">斯梅代雷沃城市博物馆</span>
-                      <p className="text-sm text-gray-600">距离城堡约1公里，可步行15分钟，位于19世纪古典风格建筑内，成人门票100塞尔维亚第纳尔</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">圣乔治教堂</span>
-                      <p className="text-sm text-gray-600">距离城堡约800米，可步行10分钟，始建于18世纪，融合了拜占庭与斯拉夫建筑风格</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">短途交通景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">斯梅代雷沃公园</span>
-                      <p className="text-sm text-gray-600">距离城堡约1.2公里，是当地最大的城市公园，设有休闲步道、儿童游乐区</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">多瑙河游船码头</span>
-                      <p className="text-sm text-gray-600">距离城堡约1公里，有游船可游览多瑙河，票价约500塞尔维亚第纳尔/人</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿推荐">
-            <div className="space-y-6">
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">住宿位置选择</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">城堡周边500米范围内</h5>
-                    <p>出行便利，可随时前往城堡游览，也能便捷抵达多瑙河畔长廊，感受夜晚的河畔氛围</p>
-                  </div>
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">斯梅代雷沃市中心</h5>
-                    <p>距离城堡约1公里，有更多精品酒店和连锁酒店，设施齐全，交通便利</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">住宿类型推荐</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">精品酒店</h5>
-                    <p>位于多瑙河畔或城堡周边，融合当地建筑元素与现代设施，价格约100-180欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">特色民宿</h5>
-                    <p>由老建筑改造，装修简约古朴，保留传统建筑特色，价格约60-100欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">连锁酒店</h5>
-                    <p>市中心性价比高的选择，设施标准化，干净整洁，价格约40-70欧元/晚</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-green-900 mb-3">预订注意事项</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 旅游旺季为5-9月，建议提前1个月预订，避免无房或价格上涨</li>
-                  <li>• 选择可免费取消的房源，以便灵活调整行程</li>
-                  <li>• 自驾出行需确认是否提供免费停车位，市中心停车费用较高</li>
-                  <li>• 部分民宿为自助入住，需提前查看入住指南和密码</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="8. 实用贴士">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-900 mb-2">最佳游览时间</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 4月-10月：气候适宜，秋季有斯梅代雷沃之秋文化节</li>
-                    <li>• 5-9月：旅游旺季，活动丰富但游客较多</li>
-                    <li>• 春秋季节：人流相对较少，价格更优惠</li>
-                  </ul>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`亚萨瓦河对岸的野餐草坪`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，从这里可以拍摄到要塞全景倒映在平静河水中，三角形构图与金色波光交相辉映，气势恢宏。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`东侧城墙内侧的拱形长廊`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的斜阳会穿过垛口，在长廊地面投下富有几何美感的长长光影，人物走在光影中极具故事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“盲人窗户”前`}</h4>
+                  <p className="text-sm text-gray-700">{`利用这些被封死的石窗作为天然画框，将对岸的现代城市或多瑙河上的船只纳入框中，形成历史与现实的强烈对话。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`要塞南侧码头`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨时分，薄雾笼罩河面，从这里仰拍被水汽柔化的城堡主塔，能拍出忧郁而神秘的氛围感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`内城废墟的中心点`}</h4>
+                  <p className="text-sm text-gray-700">{`以遍地碎石和顽强野草为前景，将背后一段相对完好的高大城墙作为背景，构图讲述“毁灭与永恒”的主题。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`多瑙河的光线在一天内变化极大，清晨的蓝调时刻和黄昏的金色时刻最能渲染要塞的史诗感。阴天也别沮丧，均匀的散射光能完美呈现石材的质感与历史的厚重感。请务必尊重这里作为民族纪念地的肃穆氛围，避免轻佻或不当的摆拍姿势。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`老城家庭旅馆`}</h4>
+                  <p className="text-sm text-blue-800">{`入住一栋由19世纪商人宅邸改造的温馨旅馆，女主人会为你准备地道的塞尔维亚早餐，果酱是自家院子里的李子做的，从房间窗户就能瞥见要塞的塔楼。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`多瑙河畔设计酒店`}</h4>
+                  <p className="text-sm text-green-800">{`选择一家由旧工业建筑改造的精品酒店，房间拥有极简的 loft 风格和直面河景的落地窗，夜晚看着要塞在景观灯下发光，仿佛守夜的巨人。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`乡村特色民宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车15分钟到周边葡萄园环绕的村庄，住在石头农舍里，白天探索要塞，晚上在星空下品尝房东酿造的 Bermet 甜酒，听他们讲述祖辈与要塞的故事。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">注意事项</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 城墙部分区域年久失修，请勿攀爬未开放区域</li>
-                    <li>• 城堡内无商业设施，建议自备饮用水</li>
-                    <li>• 尊重历史遗迹，禁止在遗迹上刻画</li>
-                    <li>• 冬季部分区域可能因天气原因临时封闭</li>
-                  </ul>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`贝尔格莱德城区酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`如果你追求更多的夜生活与餐饮选择，不妨住在首都，斯梅代雷沃一日往返足够从容，还能体验贝尔格莱德充满活力的都市脉搏。`}</p>
                 </div>
               </div>
-              <div className="space-y-4">
-                <div className="bg-indigo-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-indigo-900 mb-2">特色活动</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 斯梅代雷沃之秋文化节：每年秋季举办的文化盛会</li>
-                    <li>• 葡萄酒节：品尝当地特色葡萄酒</li>
-                    <li>• 多瑙河游船：欣赏河畔风光和乡村景色</li>
-                    <li>• 历史展览：了解中世纪塞尔维亚历史文化</li>
-                  </ul>
-                </div>
-                <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-900 mb-2">实用信息</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 当地货币：塞尔维亚第纳尔（RSD），1欧元≈117第纳尔</li>
-                    <li>• 语言：塞尔维亚语，但旅游区英语基本通行</li>
-                    <li>• 电压：230V，插头为Type F型</li>
-                    <li>• 紧急电话：112（欧洲统一紧急电话）</li>
-                  </ul>
-                </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`斯梅代雷沃是小城，高端连锁酒店选择极少，但家庭旅馆和特色民宿往往能带来更深度的体验。夏季周末最好提前预订。小城治安良好，夜晚安静，但娱乐选择有限，喜欢热闹的旅友可以考虑“贝尔格莱德住宿+斯梅代雷沃一日游”的模式。周边农村地区有很多优质的酒庄，不妨将住宿与品酒之旅结合起来。`}</p>
               </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开斯梅代雷沃要塞很久之后，在我脑海里挥之不去的，不是它作为建筑的宏伟，而是它那种巨大的“沉默”。它不像许多凯旋门或宫殿，急于向你诉说胜利的荣光。相反，它坦然展示着自己的伤疤、未完成的遗憾，以及被时间反复冲刷后的平静。这种沉默，是一种更有力量的讲述。它告诉你，历史不只有波澜壮阔的崛起，更有悲壮的坚守、无奈的陷落，以及在废墟上重新生长出来的日常生命。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率、崇尚“成功”的速食时代，这样一座“失败”的堡垒，反而给我们提供了另一种珍贵的精神维度。它让我们思考，什么才是真正的坚韧？或许不是永远不败，而是在跌倒之后，那片石头依然矗立在水边，看着河水奔流，承载着人们的记忆、孩童的笑声、恋人的誓言，继续作为生活的一部分而存在。每一位热爱深度游的旅人，都应该来这里站一会儿。不是为了收集又一个“世界遗产”的图章，而是来感受一下历史的重量，触摸一下那种在宏大命运面前，一个民族乃至每一个普通人所展现的、具体而微的生存勇气。在这里，你会明白，有些风景，看的不是山不是水，是时间本身，和我们在时间中的倒影。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/peniscola-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩尼斯科拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Peñíscola</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/celle-half-timbered-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    策
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">策勒（五百座木骨架房屋之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Celle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/zemun-old-town-belgrade" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    泽
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">泽蒙老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zemun</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

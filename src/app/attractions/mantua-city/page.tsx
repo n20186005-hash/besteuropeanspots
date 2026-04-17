@@ -192,36 +192,36 @@ export default function MantuaCityPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/orvieto" className="block group">
+              <a href="/attractions/sigtuna-swedens-oldest-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    奥
+                    西
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔维耶托古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Orvieto</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">西格蒂纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sigtuna</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/spoleto-old-town" className="block group">
+              <a href="/attractions/tarquinia-etruscan-necropolis" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    斯
+                    塔
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯波莱托古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spoleto</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塔尔奎尼亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tarquinia</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/palmanova-star-fortress-city" className="block group">
+              <a href="/attractions/cefalu-cathedral" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    帕
+                    切
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕尔马诺瓦</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Palmanova</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">切法卢大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cefalù Cathedral</p>
                   </div>
                 </div>
               </a>

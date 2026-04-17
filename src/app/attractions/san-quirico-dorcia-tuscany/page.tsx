@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '奥尔恰谷的圣基里科 San Quirico d\'Orcia｜被丝柏树与连绵山丘环抱的明信片小镇 - 最佳欧洲景点',
+  description: '车子刚刚拐过一个种满橄榄树的山坡，圣基里科就像一枚被时光遗忘的琥珀，突然镶嵌在一望无际的、如同绿色天鹅绒般起伏的谷地中央。第一眼望去，你绝不会觉得它有多么惊心动魄的雄伟，反而是一种惊人的宁静与和谐。那些蜜糖色的石头房子，簇拥着几座更高的钟楼，被一圈完整的、长满青苔的古老城墙温柔地环抱着。而这一切的背...',
+}
+
+export default function SanQuiricoDorciaTuscanyPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '奥尔恰谷的圣基里科', href: '/attractions/san-quirico-dorcia-tuscany' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`奥尔恰谷的圣基里科・San Quirico d'Orcia・意大利・圣基里科多恰（San Quirico d'Orcia），属锡耶纳省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子刚刚拐过一个种满橄榄树的山坡，圣基里科就像一枚被时光遗忘的琥珀，突然镶嵌在一望无际的、如同绿色天鹅绒般起伏的谷地中央。第一眼望去，你绝不会觉得它有多么惊心动魄的雄伟，反而是一种惊人的宁静与和谐。那些蜜糖色的石头房子，簇拥着几座更高的钟楼，被一圈完整的、长满青苔的古老城墙温柔地环抱着。而这一切的背景，是奥尔恰谷那标志性的、波浪般的山丘，一列列笔直的、墨绿色的丝柏树像忠诚的哨兵，沿着山脊线划破天际。空气里有股好闻的复合香气——刚割过的牧草的清冽，远处野茴香的微辛，还有被太阳烘烤了一天的干燥石头和泥土的味道。这就是圣基里科给你的第一课：美，可以如此平静，如此根植于大地。
+穿过厚重的石拱门“波特亚门”，你便从壮阔的自然图景，一步跨入了中世纪的日常。脚下的石板路被几个世纪的脚步磨得温润发亮，反射着午后斜阳的金色光斑。小巷很窄，只容得下零星几个行人，两旁的房屋窗户下，几乎家家都摆着盛开的天空葵，那种热烈的红色或粉色，与沉稳的土黄色石墙碰撞出惊人的生命力。你几乎听不到喧闹，只有自己的脚步声，间或传来某扇木门后隐约的碗碟碰撞声，或是头顶晾衣绳上，床单在微风里扑打出的柔软声响。这里没有为了游客而存在的表演，生活本身就是最动人的剧目。老太太们坐在门廊的阴影里轻声聊天，手边放着编织篮；杂货店的老板不紧不慢地整理着门前的蔬果。时间在这里，是以咖啡杯的氤氲、以光影在墙上的缓慢移动来计量的。
+而小镇的灵魂，或许藏在两处。一处是小镇中心的科莱吉亚塔教堂，它那庄严而略显粗粝的罗马式立面，尤其是侧面那扇雕刻着奇异怪兽和圣经人物的“狮门”，仿佛在默默诉说朝圣者在此歇脚、祈祷的千年往事。另一处，则是一个惊人的意外——奥尔特花园。当你穿过不起眼的小门，眼前豁然开朗，一个完美几何形的文艺复兴园林展现在面前。整齐的黄杨树篱、沙砾小径、古典雕像，与远处狂野自然的奥尔恰谷山丘同框，这种人工与自然的并置与对话，充满了哲学的趣味。坐在花园的长椅上，看光线为山丘镀上金边，你会忽然明白，托斯卡纳的美，不仅是上帝的画作，更是人类用文明与匠心，在这幅画布上留下的、最深情的一笔签名。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子刚刚拐过一个种满橄榄树的山坡，圣基里科就像一枚被时光遗忘的琥珀，突然镶嵌在一望无际的、如同绿色天鹅绒般起伏的谷地中央。第一眼望去，你绝不会觉得它有多么惊心动魄的雄伟，反而是一种惊人的宁静与和谐。那些蜜糖色的石头房子，簇拥着几座更高的钟楼，被一圈完整的、长满青苔的古老城墙温柔地环抱着。而这一切的背景，是奥尔恰谷那标志性的、波浪般的山丘，一列列笔直的、墨绿色的丝柏树像忠诚的哨兵，沿着山脊线划破天际。空气里有股好闻的复合香气——刚割过的牧草的清冽，远处野茴香的微辛，还有被太阳烘烤了一天的干燥石头和泥土的味道。这就是圣基里科给你的第一课：美，可以如此平静，如此根植于大地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过厚重的石拱门“波特亚门”，你便从壮阔的自然图景，一步跨入了中世纪的日常。脚下的石板路被几个世纪的脚步磨得温润发亮，反射着午后斜阳的金色光斑。小巷很窄，只容得下零星几个行人，两旁的房屋窗户下，几乎家家都摆着盛开的天空葵，那种热烈的红色或粉色，与沉稳的土黄色石墙碰撞出惊人的生命力。你几乎听不到喧闹，只有自己的脚步声，间或传来某扇木门后隐约的碗碟碰撞声，或是头顶晾衣绳上，床单在微风里扑打出的柔软声响。这里没有为了游客而存在的表演，生活本身就是最动人的剧目。老太太们坐在门廊的阴影里轻声聊天，手边放着编织篮；杂货店的老板不紧不慢地整理着门前的蔬果。时间在这里，是以咖啡杯的氤氲、以光影在墙上的缓慢移动来计量的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而小镇的灵魂，或许藏在两处。一处是小镇中心的科莱吉亚塔教堂，它那庄严而略显粗粝的罗马式立面，尤其是侧面那扇雕刻着奇异怪兽和圣经人物的“狮门”，仿佛在默默诉说朝圣者在此歇脚、祈祷的千年往事。另一处，则是一个惊人的意外——奥尔特花园。当你穿过不起眼的小门，眼前豁然开朗，一个完美几何形的文艺复兴园林展现在面前。整齐的黄杨树篱、沙砾小径、古典雕像，与远处狂野自然的奥尔恰谷山丘同框，这种人工与自然的并置与对话，充满了哲学的趣味。坐在花园的长椅上，看光线为山丘镀上金边，你会忽然明白，托斯卡纳的美，不仅是上帝的画作，更是人类用文明与匠心，在这幅画布上留下的、最深情的一笔签名。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`奥尔恰谷的圣基里科`} />
+                <InfoRow label="英文名称" value={`San Quirico d'Orcia`} />
+                <InfoRow label="正式名称" value={`San Quirico d'Orcia`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`圣基里科多恰（San Quirico d'Orcia），属锡耶纳省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`中世纪弗朗西珍纳朝圣之路上的重要驿站与堡垒，见证了托斯卡纳贵族间的权力博弈与文艺复兴时期园林艺术的兴起。`} />
+                <InfoRow label="建筑特色" value={`保存完好的中世纪石墙与城门，融合了罗马式与哥特式风格的教堂，以及一座独特的文艺复兴时期规则式园林。`} />
+                <InfoRow label="建筑风格" value={`以质朴的托斯卡纳中世纪风格为主，点缀罗马式教堂与文艺复兴园林。`} />
+                <InfoRow label="文化价值" value={`托斯卡纳理想田园风光的活态缩影，是理解意大利“慢生活”哲学与人与自然和谐共处美学的重要地标。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇本身全天24小时开放。主要历史建筑如科莱吉亚塔教堂（Collegiata）通常为上午9:00至下午1:00，下午3:00至6:00开放，冬季时间可能缩短。著名的意大利园林“奥尔特花园”（Horti Leonini）开放时间随季节变化，大致为日出至日落，免费进入。建议行前查阅小镇官网确认具体日期。`} />
+              <InfoRow label="门票价格" value={`进入小镇免费。参观主要教堂免费，但欢迎捐赠。奥尔特花园免费。小镇内可能的小型博物馆或临时展览需购票，价格通常在3-5欧元左右。`} />
+              <InfoRow label="地址" value={`Piazza della Libertà, 1, 53027 San Quirico d'Orcia SI, Italy`} />
+              <InfoRow label="交通方式" value={`最近的主要国际机场是佛罗伦萨机场或罗马菲乌米奇诺机场。最推荐的方式是自驾，这是体验奥尔恰谷的灵魂所在。从锡耶纳出发，沿SR2公路（古老的弗朗西珍纳大道）向南行驶约40分钟即可抵达。如果乘坐公共交通，可从锡耶纳乘坐Tiemme公司的巴士前往，班次有限（一天大约4-5班），车程约1小时15分钟，务必提前查好时刻表并在锡耶纳的巴士总站（Piazza Gramsci）购买车票。火车无法直达小镇。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`圣基里科的故事，几乎与脚下那条看不见的“路”同呼吸共命运。这条路由北向南贯穿奥尔恰谷，早在罗马时代就已存在，但真正让它声名远播的，是中世纪成千上万前往罗马朝圣的虔诚信徒——这便是著名的弗朗西珍纳大道。大约在11世纪，圣基里科因其战略位置，成为了这条朝圣路上至关重要的“驿站”。想象一下那时的景象：风尘仆仆的朝圣者，远远望见山丘上这座有坚固城墙庇护的小镇，该是怎样的慰藉。小镇因此繁荣起来，教堂、旅店、医院纷纷建立，它不仅是休息站，更是灵魂的中转站。今天你漫步时看到的那些厚实城墙和威严城门，正是那个动荡年代自我保护与提供安全的证明。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`小镇的命运始终与锡耶纳和佛罗伦萨这两个强大的共和国纠缠在一起。它曾是锡耶纳的坚定盟友，是其对抗佛罗伦萨的前沿堡垒。城墙上的每一块石头，都仿佛浸染过中世纪城邦战争的硝烟与紧张气氛。然而，真正让圣基里科在历史上留下独特印记的，并非惨烈的战争，而是一位来自佛罗伦萨的显赫人物——弗朗切斯科一世·德·美第奇，托斯卡纳大公。1581年，他将这片土地赐予了自己的顾问迪奥梅德·莱奥尼。正是这位莱奥尼，在小镇的心脏地带，创造了一个文艺复兴的奇迹：奥尔特花园。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这很有意思。一个曾经用于军事防御的城镇内部，突然开辟出一个充满秩序、对称与古典美学趣味的园林。这不仅是财富与权力的展示，更是一种文化宣言。它象征着在漫长的战乱与动荡之后，人们重新开始追求美、理性与和谐的生活理想。花园的设计巧妙地将远处的自然山丘作为“借景”，纳入园林的视觉框架，体现了文艺复兴时期“人是万物的尺度”、且人类理性能与自然和谐共处的核心思想。圣基里科从此多了一层身份：从朝圣者的庇护所，变成了人文主义者的沉思地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`随后的几个世纪，圣基里科褪去了战略要冲的光环，渐渐沉静下来，回归到托斯卡纳乡村缓慢的节奏中。它经历了黑死病的阴影，经历了农业社会的变迁，但那些石头建筑和城墙被奇迹般地完整保存了下来。20世纪，当世界开始疯狂加速时，奥尔恰谷这片土地因其未被破坏的、如画般的田园风光，逐渐吸引了艺术家、摄影师和寻找宁静的旅行者。圣基里科，连同它的丝柏路、独树山和麦浪，成为了“托斯卡纳明信片”风光中最经典的元素之一。它不再因战争或朝圣被铭记，而是因纯粹、恒久的美被世界宠爱。它的历史，最终从人类的纷争史，升华成了一部人与自然共同写就的审美史。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在清晨或午后抵达，避开一日游巴士最集中的上午十点到下午三点。理想的状态是安排大半天时间，将节奏放到最慢。游览的核心在于“漫步”与“沉浸”，而非“打卡”。从抵达小镇外围开始，就应该预留时间从远处欣赏和拍摄它的全景。进入小镇后，按照由外到内、由历史到生活的顺序，慢慢探索城墙、城门、主街、教堂，最后在花园里长久停留。傍晚时分，当旅行团散去、光线变得柔和时，才是小镇散发真正魅力的黄金时刻。这样的安排能让你同时领略到它作为风景画的一部分，以及作为活生生社区的双重魅力。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇石板路多且略有起伏，请务必穿一双非常舒适、防滑的步行鞋。夏季托斯卡纳阳光极其炽烈，帽子和防晒霜必不可少，尽量在树荫或城墙阴影下行走。不要期待热闹的夜生活或豪华购物，这里的商店很早关门，享受的就是这份宁静与早睡早起的乡村节奏。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在城墙外的免费停车场，先别急着进城，绕到小镇南侧或西侧的田边小路，花二十分钟静静凝视被晨雾或夕阳光芒笼罩的古镇全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从最具标志性的波特亚门进入，用手触摸那冰凉而粗糙的石壁，想象中世纪朝圣者由此通过的景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着主街科尔索漫步，留意那些古老石匠徽章、铁艺招牌和充满生活气息的门窗与小巷岔口。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要找到并细细观摩科莱吉亚塔教堂侧面的“狮门”，仔细辨认那些被岁月模糊但依然生动的石雕故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进教堂内部，让眼睛适应昏暗的光线，感受那份与世隔绝的宁静，并寻找保存下来的中世纪壁画碎片。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`去探访小镇的“灵魂客厅”奥尔特花园，在不同高度的平台上走动，体会几何园林与自然山丘的视觉对话。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在花园的长椅上无所事事地坐一会儿，看光影移动，听风吹过树篱的声音，彻底放空自己。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`黄昏时分，找一家城墙边的餐厅或酒吧，点一杯本地的布鲁奈罗红酒，看着天空从湛蓝变成粉紫，灯火逐一点亮石屋的窗口。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`小镇西南方农田小径`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，寻找一条正对小镇的土路，用长焦镜头压缩空间，将蜿蜒的丝柏路、金色山丘与古镇全景同时纳入画面，构成经典的托斯卡纳层次。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`奥尔特花园上层平台边缘`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，站在花园最高平台的边缘，以规则修剪的黄杨树篱为前景框架，将对面的圣基里科教堂钟楼和更远处的奥尔恰谷山丘作为背景，拍摄人工与自然交融的构图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“狮门”雕刻特写`}</h4>
+                  <p className="text-sm text-gray-700">{`利用上午或下午的侧光，阳光能以较低角度照亮科莱吉亚塔教堂侧面“狮门”的浮雕细节，拍出充满戏剧性和历史感的石雕质感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城墙漫步道俯瞰小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨阳光刚刚洒进小巷时，爬上部分可通行的城墙段落（如花园附近），向下俯拍小巷中曲折的光影、红色的天竺葵与偶然走过的当地人，捕捉生活瞬间。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`波特亚门拱洞框架式构图`}</h4>
+                  <p className="text-sm text-gray-700">{`站在城门内侧或外侧，利用厚重的石拱门作为天然画框，拍摄框外远处阳光下的田园风光或框内蜿蜒延伸的古老街道，营造穿越时空的视觉效果。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尊重当地居民隐私，拍摄居民或他们的住宅前，请务必先微笑示意并取得同意。无人机飞行在意大利历史小镇和私人土地上受到严格限制，起飞前必须了解清楚当地法规，通常需要提前申请许可。最好的光线出现在日出后一小时和日落前一小时，此时的光线温暖柔和，能赋予石墙和山丘惊人的质感。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`田园风光民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`住在小镇外一两公里处的独立农庄，房间拥有直面奥尔恰谷波浪山丘的无敌窗景或露台，清晨在鸟鸣和咖啡香中醒来，独占一整片私人风景。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`历史中心石屋`}</h4>
+                  <p className="text-sm text-green-800">{`租下镇上由古老石屋改造的度假公寓，厚重的墙壁带来夏日的阴凉，厨房里备有本地食材，让你像当地人一样去广场买新鲜面包，彻底融入小镇的日常脉搏。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`精品酒店体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择小镇内由贵族宅邸改建的精品酒店，房间保留着原始的拱顶和石墙，却配备了现代舒适的设施，在顶楼的露台享用早餐，视野能越过红瓦屋顶一直延伸到远方的山谷。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`有机农庄住宿`}</h4>
+                  <p className="text-sm text-purple-800">{`对于深度自然爱好者，可以选择几公里外践行“从土地到餐桌”的有机农庄，参与简单的农事活动，晚餐品尝用自家橄榄油、葡萄酒和蔬菜烹制的绝佳美味。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（6-9月）和初秋（9-10月葡萄收获季）是绝对旺季，务必提前至少2-3个月预订，选择也会更多。住在镇外农庄需有自驾车，但能获得极致的宁静与星空；住在镇内则更方便早晚漫步，感受无人打扰的小镇氛围。托斯卡纳乡间治安普遍很好，但无论住在哪里，基本的财物安全意识仍需保持。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开圣基里科许久后，脑海里挥之不去的，不是某个具体的雕像或建筑细节，而是一种整体的“感觉”。那种感觉是双脚踩在温润石板上的踏实，是目光越过整齐树篱拥抱无垠山丘的开阔，是鼻腔里萦绕的干草与石头混合的气息。它教会我，真正的治愈力，并非来自惊世骇俗的奇观，而恰恰来自这种近乎平凡的、高度和谐的秩序感——自然的秩序与人类社区的秩序在此完美交织。这里的一切都“恰如其分”，城墙的高度、丝柏树的间距、花园的几何线条，甚至人们生活的步调，都仿佛遵循着某种古老的、智慧的韵律。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个人人追逐爆款、信息过载的时代，圣基里科像是一个坚定的“反叛者”。它不提供刺激的娱乐，不贩卖廉价的纪念品，它只是静静地、完整地存在着，保持着它几个世纪以来的模样和节奏。它邀请你做的唯一一件事，就是“在场”，就是慢下来，打开所有感官，去真正地“生活”那么一会儿。你会突然看清，我们焦虑追寻的“诗和远方”，其内核或许就是这种简单的、专注的、与土地紧密相连的存在状态。所以，每一位渴望在旅途中找回内心宁静、渴望理解何为“诗意栖居”的深度旅人，都应该来奥尔恰谷的圣基里科住上几天。它不会用狂欢填满你，但它会用一种深沉的、宁静的美，一寸一寸地，填补你内心那些自己都未曾察觉的缝隙。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/sabbioneta-ideal-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨比奥内塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sabbioneta</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/venaferro-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦纳夫罗古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Venaferro Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ferrara-renaissance-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    费
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">费拉拉文艺复兴城市</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ferrara</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

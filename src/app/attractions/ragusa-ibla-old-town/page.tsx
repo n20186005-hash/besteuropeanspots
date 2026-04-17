@@ -195,36 +195,36 @@ export default function RagusaIblaOldTownPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/vicenza-olympic-theater" className="block group">
+              <a href="/attractions/civita-di-bagnoregio" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    维
+                    白
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维琴察奥林匹克剧院</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Teatro Olimpico Vicenza</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">白露里治奥古城（天空之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Civita di Bagnoregio</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/monteriggioni-walled-town" className="block group">
+              <a href="/attractions/ascoli-piceno" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    蒙
+                    阿
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙特里焦尼</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monteriggioni</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿斯科利皮切诺</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ascoli Piceno</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/campobasso-old-town" className="block group">
+              <a href="/attractions/narni-medieval-hill-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    坎
+                    纳
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">坎波巴索老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Campobasso Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳尔尼古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Narni</p>
                   </div>
                 </div>
               </a>

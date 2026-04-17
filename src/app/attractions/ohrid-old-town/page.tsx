@@ -1,319 +1,247 @@
-import { notFound } from "next/navigation";
-import Link from "next/link";
-import type { Metadata } from "next";
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: "奥赫里德古城 (Ohrid Old Town)",
-  description: "奥赫里德古城详细游览指南 - 北马其顿最负盛名的历史文化古城，联合国教科文组织双重世界遗产",
-  openGraph: {
-    title: "奥赫里德古城 — Ohrid Old Town",
-    description: "奥赫里德古城详细游览指南 - 北马其顿最负盛名的历史文化古城",
-    type: "article",
-    siteName: "Best European Spots",
-  },
-};
-
-function Section({
-  title,
-  number,
-  children,
-}: {
-  title: string;
-  number: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section className="py-8 border-b border-border last:border-b-0">
-      <div className="flex items-baseline gap-3 mb-4">
-        <span className="text-xs font-bold text-accent bg-accent/10 w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0">
-          {number}
-        </span>
-        <h2 className="text-xl font-semibold text-primary">{title}</h2>
-      </div>
-      <div className="pl-10">{children}</div>
-    </section>
-  );
-}
-
-function InfoRow({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="flex gap-4 py-3 border-b border-border/50 last:border-b-0">
-      <span className="text-sm font-medium text-muted w-24 flex-shrink-0">
-        {label}
-      </span>
-      <span className="text-sm text-foreground leading-relaxed">{value}</span>
-    </div>
-  );
-}
-
-function Breadcrumb() {
-  return (
-    <nav className="flex items-center gap-2 text-sm text-muted">
-      <Link href="/" className="hover:text-primary transition-colors">
-        Home
-      </Link>
-      <span className="text-muted-light">/</span>
-      <Link href="/#destinations" className="hover:text-primary transition-colors">
-        Destinations
-      </Link>
-      <span className="text-muted-light">/</span>
-      <span className="text-primary font-medium truncate max-w-[200px]">
-        奥赫里德古城
-      </span>
-    </nav>
-  );
+  title: '奥赫里德老城 Ohrid Old Town｜欧洲最古老人类住区之一，镶嵌在“欧洲巴哈马”蓝宝石湖畔的千年露天博物馆 - 最佳欧洲景点',
+  description: '我得告诉你，第一眼看到奥赫里德老城，感觉不像“抵达”，更像“跌入”。不是地理意义上的坠落，而是感官上的沉溺。车子还在盘山公路上绕，一片难以置信的蓝就毫无预警地撞进眼里——那是奥赫里德湖，他们叫它“欧洲的巴哈马”。但比湖水更摄人心魄的，是紧贴着陡峭湖岸、密密麻麻从水边一直堆叠到山顶的那一片赭石色屋顶。...',
 }
 
 export default function OhridOldTownPage() {
-  const color = "#8b0000"; // Balkans & Eastern Europe color
-
   return (
-    <article className="min-h-screen">
-      <div
-        className="relative h-64 sm:h-80"
-        style={{
-          background: `linear-gradient(135deg, ${color} 0%, ${color}99 50%, ${color}55 100%)`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black/20" />
-        <div className="absolute inset-0 flex items-end">
-          <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 pb-8">
-            <div className="flex flex-wrap gap-2 mb-4">
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                Old Town
-              </span>
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                巴尔干・东欧
-              </span>
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '奥赫里德老城', href: '/attractions/ohrid-old-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`奥赫里德老城・Ohrid Old Town・北马其顿・奥赫里德`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`我得告诉你，第一眼看到奥赫里德老城，感觉不像“抵达”，更像“跌入”。不是地理意义上的坠落，而是感官上的沉溺。车子还在盘山公路上绕，一片难以置信的蓝就毫无预警地撞进眼里——那是奥赫里德湖，他们叫它“欧洲的巴哈马”。但比湖水更摄人心魄的，是紧贴着陡峭湖岸、密密麻麻从水边一直堆叠到山顶的那一片赭石色屋顶。老城就那样栖息在山坡上，像一艘巨大、古老、满载故事的航船，永恒地停泊在时光的港湾里。
+当你真的走进那些迷宫般的石板小巷，脚底传来的是几个世纪行人脚步打磨出的温润触感，有点滑，但很踏实。空气的味道是分层的：清晨是湖水清冽的湿气混杂着面包房飘出的焦香；午后，阳光炙烤着老石头，散发出干燥的、类似古籍的气味；傍晚时分，家家户户厨房里炖煮蔬菜和烤肉的香气，又会从那些爬满九重葛的院墙里袅袅钻出来。耳朵里灌满了声音——教堂浑厚的钟声定时敲响，与清真寺宣礼塔悠远的呼唤交织；小巷深处传来孩子踢足球的喧闹和老太太们坐在门廊上用马其顿语快节奏聊天的细碎声响。这里不是一座仅供参观的博物馆，它是一座依然蓬勃跳动的心脏，当地人买菜、遛狗、在湖里游泳、在咖啡馆里争论政治，他们的生活与千年的遗迹无缝衔接。
+最打动人心的，是那种无处不在的“层叠感”。你会在一个15世纪的东正教教堂墙角，发现一块刻着古希腊文字的罗马柱础；奥斯曼时期的木结构老宅子，窗户正对着拜占庭风格的教堂圆顶；而你手里拿着的，可能是一杯意式浓缩咖啡。历史在这里不是按顺序书写的章节，而是同时播放的和弦。每一个转角都可能藏着一座不起眼的小教堂，推开吱呀作响的木门，里面是覆盖了整个穹顶的、色彩依然鲜艳的湿壁画，圣人的目光穿越数百年的尘埃，宁静地注视着你。这种在寻常巷陌与绝世瑰宝的不期而遇，是奥赫里德老城最奢侈的馈赠。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`我得告诉你，第一眼看到奥赫里德老城，感觉不像“抵达”，更像“跌入”。不是地理意义上的坠落，而是感官上的沉溺。车子还在盘山公路上绕，一片难以置信的蓝就毫无预警地撞进眼里——那是奥赫里德湖，他们叫它“欧洲的巴哈马”。但比湖水更摄人心魄的，是紧贴着陡峭湖岸、密密麻麻从水边一直堆叠到山顶的那一片赭石色屋顶。老城就那样栖息在山坡上，像一艘巨大、古老、满载故事的航船，永恒地停泊在时光的港湾里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当你真的走进那些迷宫般的石板小巷，脚底传来的是几个世纪行人脚步打磨出的温润触感，有点滑，但很踏实。空气的味道是分层的：清晨是湖水清冽的湿气混杂着面包房飘出的焦香；午后，阳光炙烤着老石头，散发出干燥的、类似古籍的气味；傍晚时分，家家户户厨房里炖煮蔬菜和烤肉的香气，又会从那些爬满九重葛的院墙里袅袅钻出来。耳朵里灌满了声音——教堂浑厚的钟声定时敲响，与清真寺宣礼塔悠远的呼唤交织；小巷深处传来孩子踢足球的喧闹和老太太们坐在门廊上用马其顿语快节奏聊天的细碎声响。这里不是一座仅供参观的博物馆，它是一座依然蓬勃跳动的心脏，当地人买菜、遛狗、在湖里游泳、在咖啡馆里争论政治，他们的生活与千年的遗迹无缝衔接。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，是那种无处不在的“层叠感”。你会在一个15世纪的东正教教堂墙角，发现一块刻着古希腊文字的罗马柱础；奥斯曼时期的木结构老宅子，窗户正对着拜占庭风格的教堂圆顶；而你手里拿着的，可能是一杯意式浓缩咖啡。历史在这里不是按顺序书写的章节，而是同时播放的和弦。每一个转角都可能藏着一座不起眼的小教堂，推开吱呀作响的木门，里面是覆盖了整个穹顶的、色彩依然鲜艳的湿壁画，圣人的目光穿越数百年的尘埃，宁静地注视着你。这种在寻常巷陌与绝世瑰宝的不期而遇，是奥赫里德老城最奢侈的馈赠。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`奥赫里德老城`} />
+                <InfoRow label="英文名称" value={`Ohrid Old Town`} />
+                <InfoRow label="正式名称" value={`Old Town of Ohrid`} />
+                <InfoRow label="国家" value={`北马其顿`} />
+                <InfoRow label="城市" value={`奥赫里德`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`被誉为“斯拉夫人的耶路撒冷”，是欧洲最古老的人类定居点之一和斯拉夫文化与东正教文明的摇篮。`} />
+                <InfoRow label="建筑特色" value={`依陡峭山势层层错落而建的红瓦石屋，与碧蓝湖水和众多中世纪教堂尖顶构成和谐画卷，宛若立体的拜占庭镶嵌画。`} />
+                <InfoRow label="建筑风格" value={`拜占庭、奥斯曼与马其顿本土民居风格的完美融合，形成独特的巴尔干山地滨湖建筑群。`} />
+                <InfoRow label="文化价值" value={`拥有365座教堂（传说中一年每天一座）的宗教圣地，保存了西里尔字母创制初期的关键遗迹，是活着的文化层叠史。`} />
+              </div>
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">
-              奥赫里德古城
-            </h1>
-            <p className="text-lg text-white/80">
-              Ohrid Old Town · 北马其顿 · 奥赫里德
-            </p>
-          </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城本身是24小时开放的公共区域。但内部的各景点有独立开放时间：
+圣约翰·卡内奥教堂：夏季（4月-10月）每天9:00-19:00；冬季（11月-3月）时间缩短，通常为10:00-17:00，且可能因天气临时关闭。
+奥赫里德城堡：全年开放，夏季9:00-19:00，冬季9:00-16:00。
+古剧场：全天可在外围参观，进入内部区域通常只在夏季有活动时开放。
+众多教堂和博物馆：开放时间各异，普遍为9:00-17:00，许多在周一闭馆。
+建议：游览前务必在游客中心或官网核对最新时间，北马其顿的许多景点开放时间较为随性。`} />
+              <InfoRow label="门票价格" value={`进入老城街区本身免费。
+各景点单独售票：
+奥赫里德城堡：约120第纳尔（约2欧元）。
+圣约翰·卡内奥教堂：约100第纳尔（约1.6欧元）。
+圣索菲亚教堂：约100第纳尔。
+国家博物馆（设在古城内）：约150第纳尔。
+古剧场：外围免费，进入内部参加活动票价另计。
+优惠政策：学生、儿童通常有折扣，但需出示证件。可以购买“奥赫里德一卡通”，涵盖多个主要景点，在游客中心有售，更划算。`} />
+              <InfoRow label="地址" value={`Old Town, Ohrid 6000, North Macedonia`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是奥赫里德圣保罗使徒机场（OHD），距离老城约10公里。
+从机场出发：出租车是最方便的选择，车程15-20分钟，费用固定，约10-15欧元。暂无机场巴士。
+从首都斯科普里出发：最佳方式是乘坐长途大巴，车程约3-3.5小时，沿途风景优美。大巴班次频繁，建议提前一天在斯科普里汽车站购票。大巴会停靠在奥赫里德新城的汽车站，从那里打车到老城约5分钟，或步行20-30分钟下坡即到。
+自驾：可将车停在老城外的公共停车场（如靠近港口或古城门的停车场），老城内是迷宫般的狭窄石板路，仅供行人通行。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲奥赫里德的故事，我们得把时针拨回到连“马其顿”这个名字都还未出现的年代。早在公元前4世纪，古希腊人就在这里建立了名为“林克斯蒂斯”的城镇，它曾是马其顿王国的重要前沿。但你今天走在老城里，最能触摸到的古老脉搏，来自罗马。公元1世纪，罗马人沿着连接亚得里亚海和君士坦丁堡的“埃格纳蒂亚大道”来到这里，并赋予了它新的名字——“奥赫里杜姆”。古剧场就是那个时代的遗产。想象一下，两千年前，罗马公民和士兵就坐在这半圆形的石阶上，望着湖光山色，观看戏剧或角斗。如今，剧场依然在使用，只是上演的变成了现代音乐会和戏剧，历史的回音从未断绝。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，真正奠定奥赫里德灵魂的，是拜占庭时代。当西罗马帝国崩塌，这里成为东罗马帝国（拜占庭）抵御斯拉夫人南下的坚固堡垒。有趣的是，堡垒最终成了熔炉。公元9世纪，两位来自萨洛尼卡的圣徒——西里尔和美多德，创造了最早的斯拉夫字母格拉哥里字母，为斯拉夫世界的文明启蒙点燃了火种。而他们的学生，圣克莱门特和圣瑙姆，被派到奥赫里德，将这把火烧成了燎原之势。克莱门特在这里建立了著名的奥赫里德文学学校，它不仅是宗教中心，更是斯拉夫世界第一所大学。他和瑙姆完善并推广了更简便的西里尔字母（没错，就是我们今天俄语等使用的字母），翻译了大量经文，让斯拉夫各民族拥有了用自己的语言书写的文明。那时的奥赫里德，学者云集，抄写员日夜不停地工作，成为了整个斯拉夫世界的“知识之都”和“精神灯塔”，号称拥有365座教堂。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`辉煌难免遭受风雨。接下来的几个世纪，奥赫里德在保加利亚帝国、拜占庭复兴、塞尔维亚帝国之间反复易手，每一任主人都在这里留下了自己的印记。但最具颠覆性的改变发生在14世纪末，奥斯曼土耳其人的新月旗飘扬在了城堡上空。近五百年的奥斯曼统治，彻底改变了城市的面貌和肌理。许多教堂被改建成清真寺，比如宏伟的圣索菲亚教堂；曲折的巷弄间出现了带有突出木窗的奥斯曼风格宅邸、土耳其浴室和热闹的巴扎。然而，韧性就藏于其中。当地的基督徒巧妙地建造了许多“隐形”教堂——它们的地面部分很小，甚至低于街道，以规避奥斯曼关于基督教建筑不能高于清真寺的规定，但向下挖掘，却有着深邃的地下圣所和精美的壁画。信仰在压迫下以另一种形式深深扎根。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走进20世纪，奥赫里德经历了两次巴尔干战争、两次世界大战，最终成为南斯拉夫联邦的一部分。铁托时代，它作为重要的历史文化名城和风景胜地得到了保护与发展。1991年北马其顿独立后，奥赫里德老城连同湖泊在1980年就被联合国教科文组织列为世界遗产，成为了国家名片。今天，你看到的这片红瓦屋顶下的宁静，是文明经历过无数次碰撞、征服、融合与重生后的结果。它不是一个单一的故事，而是一部用石头、壁画和信仰写成的，关于欧洲东部边疆的史诗。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味奥赫里德老城，我强烈建议你留出一整天的时间，并穿上最舒适的运动鞋。最佳的游览节奏是“由湖至山，再由山归湖”。建议在清晨8点左右抵达，这时旅行团还未涌入，光线柔和，老城刚刚苏醒。从湖滨的码头区开始，沿着石板主路向上漫步，一路探索小巷和教堂，中午时分抵达山顶城堡，在此午餐并俯瞰全景。下午沿着另一侧更安静的小径下山，参观几处隐秘的景点，最后在日落前回到湖边，看夕阳将整座老城染成金色。这样的路线不仅顺地势而行，节省体力，更能完整地体验老城从世俗生活到精神高地，再回归宁静湖光的层次变化。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`老城石板路陡峭湿滑，务必穿防滑的平底鞋，高跟鞋在这里是“灾难级”选择。
+许多小教堂内部禁止拍照（尤其是使用闪光灯），门口通常有标志，请务必遵守，这是对文化遗产和信仰的基本尊重。
+夏季正午阳光非常强烈，且老城巷道狭窄通风有限，建议戴帽子和准备充足饮水，并利用中午最热的时间在城堡或咖啡馆里休息。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从湖畔的“船工广场”起步，摸摸那棵巨大的悬铃木，看早起的老人在长椅上读报，湖面渡轮划开平静的蓝色丝绸。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着用巨大石板铺就的“主街”向上走，别怕迷路，随时钻进右手边任何一条吸引你的狭窄小巷，那里藏着开满鲜花的庭院和挂着蕾丝窗帘的古老窗棂。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要推开圣索菲亚教堂那扇厚重的木门，让眼睛适应昏暗后，仰望那些11世纪的湿壁画上，庄严的基督与圣徒如何在金色背景中凝视众生。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`继续向上攀登，在古剧场的古老石阶上坐下来喘口气，想象罗马时代这里的喧嚣，并透过剧场的拱形框架，拍下湖泊与城镇同框的绝佳画面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`朝着山顶醒目的城堡旗帜前进，穿过城堡大门，沿着城墙走一圈，让360度的湖光山色与红色屋顶的海洋毫无保留地冲击你的视觉。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山时选择湖北侧更幽静的小路，寻找那座仿佛从岩石中长出来的圣约翰·卡内奥教堂，它矗立在悬崖之上，是奥赫里德明信片上的绝对主角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进老城腹地的“国家人类学博物馆”（Robevi家族宅邸），在这座精美的19世纪豪宅里，看看富商的生活，并透过它的露台获得一个观赏老城的独特私家视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前回到湖边，随便找一家湖畔餐厅的露天座位，点一条当地特产的“奥赫里德鳟鱼”，配一杯葡萄酒，等待灯光一点点亮起，将山上的老城点缀成星空下的宝石棋盘。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣约翰·卡内奥教堂悬崖下`}</h4>
+                  <p className="text-sm text-gray-700">{`最佳时间是下午四点后，阳光从西面照亮教堂白色墙体。站在教堂正下方湖边的岩石或小路上，用广角镜头仰拍，将教堂、碧蓝湖水和天空一同纳入，极具视觉冲击力。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`古剧场框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，阳光角度较低时。站在剧场最高一排座位，将剧场的石拱作为天然画框，焦点对准框内的奥赫里德湖和远处山峦，形成深邃的景深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城堡城墙俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时或日落前一小时。沿着城堡北侧城墙行走，找到一个能将下方红色屋顶、圣约翰教堂和湖泊同时收入视角的位置，使用长焦镜头压缩空间，拍出老城层层叠叠、直泻入湖的壮丽全景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`Robevi家族宅邸露台`}</h4>
+                  <p className="text-sm text-gray-700">{`午后时分。这个博物馆的露台相对小众，从这里可以平视老城建筑群的中段。构图时将古老的木窗或阳台栏杆作为前景，聚焦于对面屋瓦上生长的绿植和晾晒的衣物，捕捉老城的生活气息。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`湖面反光强烈，拍摄湖畔或水中教堂倒影时，建议使用偏振镜（CPL）来消除反光，让湖水更显湛蓝清澈。`}</li>
+                <li>• {`尊重当地居民隐私，避免将镜头直接对准居民家的窗户或院内，如需拍摄人文题材，一个微笑和示意通常能换来友好的回应。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`湖边风情`}</h4>
+                  <p className="text-sm text-blue-800">{`住在老城边缘直接临湖的精品酒店或民宿，清晨推开窗就能跳进欧洲最清澈的湖水里游泳，晚上枕着温柔的波涛声入眠。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`古城心脏`}</h4>
+                  <p className="text-sm text-green-800">{`选择一栋由奥斯曼时期老宅改造的石屋民宿，住在厚实的石墙内感受冬暖夏凉的奇妙，在私家的种满鲜花的露台上享用房东准备的 homemade 早餐。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`隐修静谧`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在老城上半部靠近城堡的安静区域，这里游客稀少，能体验到更像本地人的生活节奏，夜晚只有猫和教堂钟声相伴。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计美学`}</h4>
+                  <p className="text-sm text-purple-800">{`位于老城入口附近的现代设计酒店，在保留了传统元素的同时提供极致的舒适，顶楼酒吧拥有观赏老城与湖泊全景的无敌视角。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿多以特色民宿和小型酒店为主，房间数量有限，尤其在夏季（7-8月）和重要节日期间非常紧俏，务必提前数月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`大部分老城住宿需要步行一段阶梯才能到达，行李搬运是挑战，建议轻装简行或选择提供行李搬运服务的住处。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开奥赫里德好些日子了，但我的脑海里还时常浮现那个画面：一个黄昏，我坐在湖边，看着对岸老城的灯火逐一亮起，倒映在墨水般的湖面上。那一刻我突然觉得，奥赫里德不像许多欧洲古城那样，仅仅是一个关于过去的、凝固的纪念碑。它更像一棵古老的树，根系深深地扎进罗马、拜占庭、斯拉夫、奥斯曼的层层土壤中，而树冠依然在当下茂盛地生长，开花结果——那些在巷子里追逐的孩子、湖边垂钓的老人、咖啡馆里畅谈的年轻人，就是它鲜活的枝叶。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求快、追求新的时代，奥赫里德老城提供了一种罕见的“深时间”体验。它让你相信，文明的生命力不在于永远保持单一的原貌，而在于拥有包容变迁、吸收异质、并在断壁残垣上一次次重生的韧性。这里的每一块石头，每一幅褪色的壁画，甚至空气中混杂的香料与湖水气味，都在低声讲述着一个道理：最持久的美丽，源于层叠，而非单一；源于融合，而非隔绝。它或许没有巴黎的繁华或罗马的磅礴，但它拥有的那种沉静、深厚与浑然天成的诗意，足以让任何一颗渴望逃离浮光掠影的心，找到沉浸与安宁。这不仅仅是一次旅行打卡，更是一场与时间本身进行的、温柔而深刻的对话。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/durbuy-smallest-city-belgium" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迪
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迪尔比</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Durbuy</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kru-evo-macedonia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克鲁舍沃</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kruševo</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sigtuna-swedens-oldest-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    西
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">西格蒂纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sigtuna</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
         </div>
       </div>
-
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Breadcrumb />
-
-        <div className="mt-8">
-          <Section number="1" title="景点简介">
-            <p className="text-base leading-relaxed text-foreground/90">
-              奥赫里德古城坐落于北马其顿西南部奥赫里德湖畔，依山傍水而建，是北马其顿最负盛名的历史文化古城，也是联合国教科文组织认定的双重世界遗产（文化遗产与自然遗产）。古城融合了拜占庭、奥斯曼、斯拉夫等多种建筑风格，鹅卵石街巷纵横交错，串联起古老教堂、中世纪堡垒、传统集市等遗迹，兼具湖光山色的自然之美与千年沉淀的人文底蕴，被誉为"巴尔干的耶路撒冷"和"湖光中的珍珠"。
-            </p>
-          </Section>
-
-          <Section number="2" title="基本信息">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow 
-                label="开放时间" 
-                value="奥赫里德古城整体全天免费开放，无统一闭园时间；街区内商铺、餐厅、咖啡馆通常9:00-21:00营业，周末及旅游旺季（5-9月）部分商铺会延长至22:00。古城内部景点（教堂、博物馆、堡垒等）开放时间各异，一般为9:00-17:30，周一部分景点闭馆，具体以现场公示或官方通知为准，冬季（11-次年3月）部分景点会缩短开放时间。" 
-              />
-              <InfoRow 
-                label="门票价格" 
-                value="古城街区本身无门票，免费对外开放；内部景点单独收费，萨穆伊尔要塞成人门票300北马其顿第纳尔（约合4.5欧元），学生、老人半价；圣索菲亚教堂成人门票200北马其顿第纳尔，学生免费；圣约翰·卡尼奥教堂成人门票150北马其顿第纳尔，儿童免费；奥赫里德考古博物馆成人门票250北马其顿第纳尔，学生半价；其他小型教堂、民俗展馆多为免费或低价（50-100北马其顿第纳尔），部分教堂可自愿捐赠。" 
-              />
-              <InfoRow 
-                label="详细地址" 
-                value="Ohrid Old Town, Ohrid 6000, North Macedonia（核心区域围绕古城中心广场展开，地处奥赫里德湖西岸山坡，北邻萨穆伊尔要塞，南接湖滨长廊，西侧与新城区相连，地理位置优越，可俯瞰整个奥赫里德湖）。" 
-              />
-              <InfoRow 
-                label="交通方式" 
-                value="外部交通方面，可乘坐飞机抵达北马其顿首都斯科普里国际机场，机场有长途大巴直达奥赫里德汽车站，车程约2.5小时；北马其顿国内可乘坐长途大巴往返奥赫里德与斯科普里、普里莱普等城市，大巴站距离古城约10分钟步行路程。市内交通方面，古城内部适合步行游览，街巷狭窄且多为步行街，禁止机动车通行；周边可乘坐2路、4路、6路公交抵达古城入口，也可租用当地共享自行车或打车前往，打车从市中心到老城入口约400北马其顿第纳尔，从汽车站打车到老城约600北马其顿第纳尔。此外，可乘坐游船从奥赫里德湖东岸抵达古城湖滨入口，感受湖光山色与古城风貌的完美融合。" 
-              />
-            </div>
-          </Section>
-
-          <Section number="3" title="历史背景">
-            <div className="space-y-6 text-foreground leading-relaxed">
-              <p>
-                奥赫里德古城的历史渊源可追溯至公元前4世纪，其所在区域曾是古希腊伊利里亚部落的聚居地，当时被称为"林奇多斯"，是古希腊文明与巴尔干本土文化交融的重要节点。考古发现表明，这里早在公元前3世纪就已形成城镇，周边的古城遗址中出土了大量古希腊陶器、钱币和建筑遗迹，见证了当时的繁荣景象。"奥赫里德"一词源于古斯拉夫语，意为"在山丘之上"，精准描述了古城依山而建、俯瞰湖泊的地理特征。
-              </p>
-              <p>
-                公元1世纪，罗马帝国征服此地，将其纳入马其顿行省管辖，奥赫里德成为罗马帝国重要的交通枢纽和贸易中转站，依托奥赫里德湖的水运优势，推动了商业和文化的发展，期间修建了剧院、浴场等罗马风格建筑，部分遗迹至今仍可寻觅。公元4世纪，基督教传入奥赫里德，这里逐渐成为巴尔干地区重要的基督教中心，大量教堂开始兴建，奠定了其"宗教圣地"的地位。
-              </p>
-              <p>
-                公元9世纪，奥赫里德成为保加利亚第一帝国的重要城市，也是西里尔字母的诞生地之一，当时的奥赫里德大主教区是巴尔干地区最具影响力的宗教机构之一，推动了基督教文化的传播和西里尔字母的普及，期间兴建的圣索菲亚教堂成为当时巴尔干地区最大的教堂之一，内部留存的中世纪壁画堪称艺术瑰宝。11世纪，奥赫里德被拜占庭帝国征服，拜占庭文化与当地文化深度融合，进一步丰富了古城的建筑风格和文化内涵，此时的奥赫里德已成为巴尔干地区文化、宗教和艺术的中心，据17世纪土耳其作家的记载，当时的奥赫里德曾拥有365座教堂，一座对应一天，因此被誉为"巴尔干的耶路撒冷"。
-              </p>
-              <p>
-                14世纪末，奥赫里德被奥斯曼帝国征服，此后的数百年间，老城在奥斯曼统治下逐渐融入奥斯曼文化元素，大量清真寺、土耳其浴室、传统集市等建筑拔地而起，与原有拜占庭风格的教堂交相辉映，形成了独特的多元建筑风貌。这一时期，奥赫里德依托湖泊资源和便利的交通，成为奥斯曼帝国在巴尔干地区的重要贸易据点，丝绸、香料、鱼类等商品在此集散，推动了古城的经济繁荣。
-              </p>
-              <p>
-                19世纪后期，随着奥斯曼帝国的衰落，奥赫里德成为塞尔维亚、黑山等国争夺的焦点，1913年巴尔干战争后，奥赫里德被划入塞尔维亚控制范围，一战后成为南斯拉夫王国的一部分，古城的部分奥斯曼建筑被改造，新增了新古典主义风格的建筑，进一步丰富了古城的建筑风貌。二战期间，奥赫里德成为北马其顿反法西斯起义的重要据点，见证了当地人民的抗争历史。
-              </p>
-              <p>
-                1991年北马其顿独立后，政府对奥赫里德古城进行了系统性的修复与保护，严格遵循"修旧如旧"的原则，重点修复了萨穆伊尔要塞、圣索菲亚教堂、圣约翰·卡尼奥教堂等历史遗迹，保留了古城的核心格局与建筑风貌。1979年，奥赫里德古城与奥赫里德湖一同被联合国教科文组织列入世界遗产名录，成为北马其顿最具代表性的旅游胜地和文化符号，每一条街巷、每一座建筑，都镌刻着巴尔干地区千年的历史变迁，承载着北马其顿人民的集体记忆。
-              </p>
-            </div>
-          </Section>
-
-          <Section number="4" title="游览路线">
-            <div className="space-y-6">
-              <p className="text-sm text-foreground leading-relaxed">
-                奥赫里德古城核心区域直径约1.2公里，依山傍湖而建，地势起伏较大，建议安排1天时间深度游览，以下为经典步行游览路线，可全面领略古城的历史底蕴、宗教文化与湖光山色，路线全程约4公里，耗时5-6小时，中途可在湖滨咖啡馆、特色商铺休息，感受当地慢生活与湖景风情。
-              </p>
-
-              <div className="bg-surface rounded-lg p-5">
-                <h3 className="text-lg font-semibold text-primary mb-4">经典步行游览路线</h3>
-                <div className="space-y-3 text-sm text-foreground leading-relaxed">
-                  <p><strong>起点：奥赫里德汽车站</strong>→步行10分钟抵达古城南门（标志性的石砌拱门，可在此打卡拍照，感受古城的古朴气息）</p>
-                  
-                  <p><strong>第一站：古城中心广场</strong>（奥赫里德古城的核心地带，周边环绕着传统商铺、咖啡馆和历史建筑，可感受当地烟火气，购买特色手工艺品）</p>
-                  
-                  <p><strong>第二站：圣索菲亚教堂</strong>（巴尔干地区最古老的教堂之一，参观教堂内部的中世纪壁画和宗教文物，了解当地基督教文化）</p>
-                  
-                  <p><strong>第三站：奥赫里德考古博物馆</strong>（位于中心广场北侧，馆内展示了古城从古希腊、罗马时期到中世纪的历史遗物，感受千年文明的积淀）</p>
-                  
-                  <p><strong>第四站：萨穆伊尔要塞</strong>（古城的制高点，登顶可俯瞰整个奥赫里德古城和奥赫里德湖全景，感受中世纪军事要塞的雄伟）</p>
-                  
-                  <p><strong>第五站：古城小巷探秘</strong>（穿梭在狭窄的鹅卵石小巷中，发现隐藏的小众教堂、特色民宿和街头艺术，感受古城的静谧与美好）</p>
-                  
-                  <p><strong>第六站：圣约翰·卡尼奥教堂</strong>（坐落于湖畔悬崖边，是奥赫里德的标志性建筑，参观教堂的同时，欣赏湖光山色的绝美风景）</p>
-                  
-                  <p><strong>第七站：湖滨长廊</strong>（沿着奥赫里德湖漫步，欣赏湖水清澈、群山环绕的自然美景，可乘坐游船游览湖泊，感受湖光中的古城风貌）</p>
-                  
-                  <p><strong>终点：古城北门</strong>（周边有众多当地餐厅，可品尝特色美食，结束一天的游览）。</p>
-                </div>
-                
-                <div className="mt-4 p-3 bg-primary-light rounded-lg">
-                  <p className="text-sm text-foreground leading-relaxed">
-                    <strong>温馨提示：</strong>游览时需注意脚下的鹅卵石路面，穿舒适的步行鞋；古城地势起伏较大，部分路段较陡，可根据自身体力调整游览节奏，避免过度劳累。若对宗教文化感兴趣，可重点参观圣索菲亚教堂和圣约翰·卡尼奥教堂，建议提前了解相关历史背景，提升游览体验。此外，旅游旺季（5-9月）游客较多，建议避开正午人流高峰，清晨或傍晚游览体验更佳。
-                  </p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="5" title="拍照机位">
-            <div className="space-y-6">
-              <p className="text-sm text-foreground leading-relaxed">
-                奥赫里德古城依山傍湖，建筑风格多元，既有拜占庭教堂的庄严典雅，又有奥斯曼建筑的古朴厚重，搭配奥赫里德湖的湛蓝湖水和周边的青山绿树，光影层次丰富，是拍照出片的绝佳之地。以下推荐几个经典拍照机位，涵盖全景、建筑细节、湖景融合等不同风格，无论是手机还是相机，都能拍出高质量照片，展现古城的独特魅力。
-              </p>
-
-              <div className="grid gap-6">
-                <div className="bg-surface rounded-lg p-5">
-                  <h3 className="text-lg font-semibold text-primary mb-3">经典拍照机位</h3>
-                  <div className="space-y-3 text-sm text-foreground leading-relaxed">
-                    <p><strong>1. 萨穆伊尔要塞顶端：</strong>这是拍摄古城全景的最佳机位，登顶后可360度俯瞰整个奥赫里德古城和奥赫里德湖，错落有致的彩色建筑、蜿蜒的鹅卵石街巷与湛蓝的湖水、远处的青山相映成趣，清晨光线柔和时，可拍出古城的静谧古朴；傍晚夕阳西下时，湖水泛着金光，建筑被镀上一层暖色调，氛围感拉满，建议避开正午强光时段，可携带广角镜头拍摄全景。</p>
-                    
-                    <p><strong>2. 圣约翰·卡尼奥教堂周边：</strong>作为奥赫里德的标志性建筑，教堂矗立在湖畔悬崖边，是拍摄湖景与建筑融合的绝佳场景。可站在教堂下方的石阶上，以教堂为主体，搭配湛蓝的湖水和远处的群山，采用对称构图，拍出教堂的庄严与湖景的柔美；也可蹲在湖畔，以湖水为前景，拍摄教堂的倒影，虚实结合，更具层次感。最佳拍摄时间为日落时分，夕阳洒在教堂和湖面上，画面极具感染力。</p>
-                    
-                    <p><strong>3. 古城中心广场：</strong>这里是拍摄人文风情与建筑细节的核心场景，广场周边的拜占庭风格建筑、奥斯曼式商铺、彩色门窗和雕花装饰极具特色，可拍摄广场的全景，捕捉当地商贩叫卖、游客漫步、居民闲聊的动态瞬间，充满烟火气；也可近距离拍摄建筑的雕花、彩绘、木质门窗等细节，展现多元建筑的工艺之美，适合拍摄人文纪实类照片。</p>
-                    
-                    <p><strong>4. 湖滨长廊：</strong>沿着长廊漫步，可拍摄古城与湖景的同框画面，一边是古朴的古城建筑，一边是湛蓝的奥赫里德湖，可采用远景构图，展现自然与人文的融合之美；也可拍摄湖面的游船、湖边的绿植，搭配古城的建筑轮廓，营造出清新自然的氛围。清晨时分，湖面有薄雾，拍摄出的照片更具朦胧感和故事感。</p>
-                    
-                    <p><strong>5. 古城鹅卵石小巷：</strong>避开主街的人群，走进老城的小巷深处，狭窄的街巷、斑驳的墙壁、挂着绿植的窗台、彩色的房屋，都是绝佳的拍照场景。可利用光影对比，拍摄小巷的纵深感，或漫步时抓拍动态瞬间，搭配纯色衣物，与彩色的建筑形成对比，更出片；偶尔遇到当地居民晾晒衣物、打理庭院，抓拍下来，更具生活气息。</p>
-                    
-                    <p><strong>6. 圣索菲亚教堂正门：</strong>教堂的穹顶、尖塔和雕花拱门极具标志性，可采用对称构图，拍摄教堂的全貌，展现其庄严大气的气质；也可站在教堂门前的台阶上，以拱门为框架，拍摄教堂内部的庭院和祭坛，虚实结合，突出教堂的宗教氛围。注意进入教堂拍摄需遵守宗教礼仪，避免拍摄禁忌区域，禁止使用闪光灯。</p>
-                  </div>
-                </div>
-
-                <div className="bg-primary-light rounded-lg p-5">
-                  <h3 className="text-lg font-semibold text-primary mb-3">拍照小贴士</h3>
-                  <div className="space-y-2 text-sm text-foreground leading-relaxed">
-                    <p><strong>最佳拍摄时间：</strong>最佳拍摄时间为清晨（7:30-10:00）和傍晚（17:00-19:30），光线柔和，光影层次丰富，且游客较少，便于拍摄；建议穿着纯色衣物，避免过于花哨，与古城的彩色建筑和湛蓝湖水形成对比，更出片；尊重当地居民的生活和宗教习俗，拍摄人文场景时尽量提前征得同意，拍摄教堂内部需遵守现场规定；携带广角镜头拍摄全景，长焦镜头拍摄建筑细节和湖景特写，效果更佳。</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="6" title="附近景点">
-            <div className="space-y-4">
-              <p className="text-sm text-foreground leading-relaxed">
-                奥赫里德古城周边景点丰富，距离较近，游览完古城后，可根据自身时间安排前往，既能丰富行程，也能更全面地了解奥赫里德的历史文化与自然风光，以下推荐几个距离古城较近、值得一去的景点，均可通过步行或短途公交、游船抵达。
-              </p>
-
-              <div className="grid gap-4">
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">1. 奥赫里德湖</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">紧邻古城南侧，步行5分钟即可抵达，是欧洲最古老、最深的湖泊之一，湖水清澈见底，周边群山环绕，自然风光秀丽，被联合国教科文组织列入世界自然遗产名录。可乘坐游船游览湖泊，欣赏湖光山色，也可在湖滨沙滩漫步、戏水，感受自然之美；湖边还有众多餐厅和咖啡馆，可一边品尝美食，一边欣赏湖景。全天免费开放，游船票价约500北马其顿第纳尔/人，游览时间约1小时。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">2. 圣克莱门特教堂</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离古城约1公里，可步行15分钟或乘坐2路公交直达，始建于9世纪，是为纪念西里尔字母的创造者之一圣克莱门特而修建，是北马其顿重要的宗教圣地。教堂融合了拜占庭与斯拉夫建筑风格，内部留存着大量中世纪壁画和宗教文物，氛围庄严静谧，开放时间为9:00-17:00，周一闭馆，成人门票150北马其顿第纳尔，学生免费。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">3. 奥赫里德民俗博物馆</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离古城约800米，可步行10分钟抵达，位于一座18世纪的奥斯曼风格建筑内，馆内展示了奥赫里德当地的民俗文化、传统服饰、生活用品、手工艺品等，详细介绍了当地人民的生活习俗和历史变迁，是了解奥赫里德民俗风情的绝佳去处。开放时间为9:00-17:30，周末闭馆，成人门票100北马其顿第纳尔，学生半价。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">4. 卡列城堡遗址</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离古城约2公里，可乘坐4路公交或打车前往，车程约5分钟，始建于古罗马时期，是中世纪奥赫里德的重要军事要塞，如今虽已损毁，但仍能看到当年的城墙、塔楼等遗迹，登顶可俯瞰奥赫里德湖和周边乡村风光，感受历史的沧桑。开放时间为9:00-16:30，周一闭馆，免费开放，建议自愿捐赠。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">5. 奥赫里德植物园</h4>
-                  <p className="text-sm text-foreground leading-relaxed">距离古城约1.5公里，可步行20分钟或乘坐6路公交直达，始建于20世纪初，园内种植了大量北马其顿本土植物和珍稀花卉，植被茂盛，环境清幽，是游览古城间隙休闲放松的绝佳去处，可漫步园内，感受自然与生机，还能远眺奥赫里德湖的美景。开放时间为9:00-18:00，门票50北马其顿第纳尔，学生免费。</p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="7" title="住宿小贴士">
-            <div className="space-y-4">
-              <div className="bg-surface rounded-lg p-5">
-                <h3 className="text-lg font-semibold text-primary mb-4">详细住宿指南</h3>
-                <div className="space-y-4 text-sm text-foreground leading-relaxed">
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">1. 住宿位置选择</h4>
-                    <p>优先选择老城内部或老城周边500米范围内的住宿，出行便利，可随时漫步老城，感受夜晚的古城氛围和湖景夜景；老城内部多为特色民宿，多由拜占庭或奥斯曼时期的历史建筑改造而成，建筑风格独特，充满古朴气息，部分民宿可俯瞰奥赫里德湖，适合喜欢人文体验和湖景风光的游客；老城周边则有更多精品酒店和连锁酒店，设施齐全，性价比更高，适合家庭出行或预算有限的游客。需要注意的是，老城内部街巷狭窄，部分区域无法停车，若自驾出行，可选择带免费停车位的住宿。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">2. 住宿类型推荐</h4>
-                    <p><strong>精品酒店：</strong>可选择位于老城周边或湖滨的特色精品酒店，这类酒店通常融合了当地建筑元素与现代设施，装修精致，部分酒店设有露台或湖景房，可欣赏古城或奥赫里德湖美景，服务周到，价格约130-220欧元/晚。</p>
-                    
-                    <p><strong>特色民宿：</strong>老城内部有很多由历史建筑改造的民宿，装修简约古朴，保留了传统建筑的特色，部分带有小庭院或阳台，步行可达老城主要景点，价格约80-120欧元/晚；还有自助入住的公寓式民宿，设施齐全，适合家庭或多人出行，价格约60-100欧元/晚。</p>
-                    
-                    <p><strong>连锁酒店：</strong>老城周边有多家性价比高的连锁酒店，设施标准化，干净整洁，价格约50-80欧元/晚，适合预算有限的游客。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">3. 预订注意事项</h4>
-                    <p>奥赫里德旅游旺季为5-9月，尤其是7-8月，作为西欧游客钟爱的避暑胜地，此时游客较多，住宿紧张，建议提前1-2个月预订，避免无房或价格上涨；预订时注意查看住宿的取消政策，尽量选择可免费取消的房源，以便灵活调整行程；若自驾出行，需提前确认住宿是否提供免费停车位，老城周边街道停车费用较高（10-18欧元/天），提前沟通可节省开支；部分民宿为自助入住，预订后会收到入住指南和密码，需提前查看，避免抵达后无法入住。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">4. 其他注意事项</h4>
-                    <p>住宿内部通常提供基本的洗漱用品，但部分民宿不提供一次性牙刷和牙膏，建议提前自备；老城内部部分住宿为老式建筑，没有电梯，若携带大件行李，建议预订时有电梯的住宿；住宿周边多有餐厅和超市，购买生活用品和就餐便利，当地餐厅以巴尔干风味和湖鲜为主，可品尝烤虹鳟鱼等特色美食；大部分住宿提供免费WiFi，预订时可确认WiFi信号情况，方便出行时查询信息；当地电压为230V，插头为Type F型，若需要，可提前准备转换插头。</p>
-                  </div>
-
-                  <div className="bg-primary-light p-3 rounded-lg mt-3">
-                    <p className="text-sm text-foreground leading-relaxed">
-                      <strong>特别提示：</strong>奥赫里德当地住宿整体价格略高于北马其顿其他城市，但性价比适中，提前预订可获得更优惠的价格；部分民宿房东为当地人，可主动向房东咨询当地小众景点、特色美食和出行建议，获取更地道的游览体验。冬季（11-次年3月）为旅游淡季，住宿价格会有所下降，适合喜欢静谧氛围的游客前往。
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="8" title="实用小贴士">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow label="最佳季节" value="6月至9月，夏季可同时享受湖滨休闲与古城观光；7月至8月举办奥赫里德夏季音乐节" />
-              <InfoRow label="建议时长" value="1.5–2天（核心区域步行游览约需5-6小时）" />
-              <InfoRow label="注意事项" value="古城街道狭窄且多为石板路和台阶，建议穿防滑鞋；参观教堂需着装得体，遮盖肩膀和膝盖；旺季住宿紧张，建议提前预订" />
-            </div>
-          </Section>
-        </div>
-
-        <div className="mt-12 mb-8 text-center">
-          <Link
-            href="/#destinations"
-            className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-light transition-colors"
-          >
-            <span>&larr;</span>
-            <span>Back to All Destinations</span>
-          </Link>
-        </div>
-      </div>
-    </article>
-  );
+    </div>
+  )
 }

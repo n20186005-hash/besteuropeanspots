@@ -186,36 +186,36 @@ export default function NafplioGreecePage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/epidaurus-theatre" className="block group">
+              <a href="/attractions/lindos-acropolis" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    埃
+                    林
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃皮达鲁斯古剧场</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Epidaurus Theatre</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">林多斯卫城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lindos Acropolis</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/ancient-city-of-acheron" className="block group">
+              <a href="/attractions/meteora-monasteries-greece" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    阿
+                    梅
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿切伦扎古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ancient City of Acheron</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅黛奥拉（天空之城修道院）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meteora</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/epidaurus-ancient-theatre" className="block group">
+              <a href="/attractions/galaxidi-traditional-sailing-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    埃
+                    加
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃皮达鲁斯古剧场</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Epidaurus Theatre</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">加拉西迪</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Galaxidi</p>
                   </div>
                 </div>
               </a>

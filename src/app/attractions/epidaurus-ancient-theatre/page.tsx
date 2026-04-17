@@ -192,36 +192,36 @@ export default function EpidaurusAncientTheatrePage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/nafpaktos-venetian-harbor" className="block group">
+              <a href="/attractions/kastoria-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    纳
+                    卡
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳夫帕克托斯（勒班陀）</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nafpaktos</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯托里亚老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kastoria Old Town</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/the-street-of-the-knights-rhodes" className="block group">
+              <a href="/attractions/meteora-monasteries-greece" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    骑
+                    梅
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">骑士街</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Street of the Knights</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅黛奥拉（天空之城修道院）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meteora</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/ioannina" className="block group">
+              <a href="/attractions/molyvos-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    约
+                    莫
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">约阿尼纳老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ioannina</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫利沃斯（依山傍海的石头城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Molyvos</p>
                   </div>
                 </div>
               </a>

@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '维安登城堡 Vianden Castle｜坐拥乌尔河谷全景的中世纪梦幻堡垒 - 最佳欧洲景点',
-  description: '车子在盘山公路上绕了几个弯，当维安登城堡毫无预警地闯入眼帘时，我还是忍不住“哇”了一声。它不像那些精雕细琢的宫殿，而是带着一种粗粝的、不容置疑的威严，从一片墨绿的森林顶端生长出来，牢牢抓住整条山脉的脊梁。清晨的薄雾还懒洋洋地缠在半山腰，阳光先一步洒在城堡高耸的塔楼和赭石色的墙壁上，给它镀上了一层温暖...',
+  title: '菲安登城堡 Vianden Castle｜雄踞峡谷之巅的梦幻中世纪要塞 - 最佳欧洲景点',
+  description: '当缆车缓缓爬升，脚下是红瓦屋顶的童话小镇和蜿蜒如丝带的乌尔河，而前方，那座灰白色的巨石城堡就那么突然地、完整地出现在山脊线上，像一个从森林里生长出来的古老梦境。第一眼看见菲安登城堡，你很难不被它的气势震慑——它不是孤零零的一座建筑，而是一整片错综复杂的塔楼、城墙和宫殿，紧紧地攀附在陡峭的山岩上，仿佛...',
 }
 
 export default function ViandenCastlePage() {
@@ -16,64 +16,57 @@ export default function ViandenCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '维安登城堡', href: '/attractions/vianden-castle' },
+            { label: '菲安登城堡', href: '/attractions/vianden-castle' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`维安登城堡・Vianden Castle・卢森堡・维安登镇`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`菲安登城堡・Vianden Castle・卢森堡・菲安登`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`车子在盘山公路上绕了几个弯，当维安登城堡毫无预警地闯入眼帘时，我还是忍不住“哇”了一声。它不像那些精雕细琢的宫殿，而是带着一种粗粝的、不容置疑的威严，从一片墨绿的森林顶端生长出来，牢牢抓住整条山脉的脊梁。清晨的薄雾还懒洋洋地缠在半山腰，阳光先一步洒在城堡高耸的塔楼和赭石色的墙壁上，给它镀上了一层温暖的金边。那一刻的感觉很奇特，仿佛时间的流速都变慢了，你一眼望见的是整整八百年的沉默与守望。
-把车停在山脚下的小镇，决定徒步走上去。石板路陡峭，走起来能听见自己清晰的呼吸声和登山鞋的摩擦声。空气里有松针和湿润泥土的味道，混合着远处面包房飘来的黄油香气。越靠近城堡，那种压迫感就越强，巨大的石块堆砌的墙体近在咫尺，你能看清每一道风雨侵蚀的痕迹，每一块颜色深浅不一的修补。穿过吊桥，走进幽暗的门洞，外界的喧嚣瞬间被隔绝。城堡内部庭院里，有人静静地坐着素描，铅笔划过纸面的沙沙声，和屋檐下燕子归巢的呢喃交织在一起，构成了奇妙的背景音。这里不只是一个景点，更像是小镇呼吸的一部分。
-走进一个个复原的房间——宴会厅、小教堂、伯爵的寝宫——光线从高高的、狭窄的窗口射入，在古老的木地板上投下长长的光柱，你能看见尘埃在光里跳舞。房间里挂着厚重的挂毯，陈列着冷冰冰的铠甲，壁炉大到可以站进去一个人。我试着想象，几百年前的冬天，伯爵一家围坐在这个壁炉前，听着屋外山谷里呼啸的北风，会是怎样的景象。最震撼的时刻是登上最高的塔楼。风猛地灌进来，吹得人几乎站不稳。但眼前的景色让你忘了这一切：蜿蜒的乌尔河像一条银色的丝带，将红屋顶的小镇温柔地揽在怀中；远处是层层叠叠、无尽延伸的阿登森林，像一块巨大的、起伏的绿色天鹅绒。那一刻，你完全理解了“要塞”二字的全部意义——不仅是防御，更是君临天下的视野与气魄。`}
+            {`当缆车缓缓爬升，脚下是红瓦屋顶的童话小镇和蜿蜒如丝带的乌尔河，而前方，那座灰白色的巨石城堡就那么突然地、完整地出现在山脊线上，像一个从森林里生长出来的古老梦境。第一眼看见菲安登城堡，你很难不被它的气势震慑——它不是孤零零的一座建筑，而是一整片错综复杂的塔楼、城墙和宫殿，紧紧地攀附在陡峭的山岩上，仿佛与山体本身就是一体的。风从峡谷吹来，带着松针和远处草地清新的气味，还夹杂着一丝古老石墙上苔藓的湿润感。
+走进城堡大门，中世纪的气息瞬间将你包裹。脚下是巨大石块铺就的庭院，被岁月打磨得光滑而斑驳。阳光从高处的拱形窗棂斜射进来，在厚重的石墙上切割出明暗交错的光影，空气里有种凉爽的、属于地窖和古老木材的特殊味道。最妙的是声音：游客的低语在石壁间产生轻微的回响，远处某个房间里或许正播放着低沉的、模拟中世纪宴会的音乐，而当你走到露台边缘，一切人声都淡去，只剩下风掠过塔尖的呼啸，和山谷里教堂钟声的悠远回响。这座城堡不是冰冷的博物馆，你能感受到它磅礴的生命力。
+小镇的生活就在城堡的注视下缓缓流淌。山下的咖啡馆露台坐满了喝着本地啤酒、说着卢森堡语的老人，他们偶尔会抬头望一眼山上的庞然大物，眼神里是寻常的亲切，就像我们看自家后院的老树。这座城堡是他们的历史课本，也是他们日常风景的一部分。它最打动人心的地方，或许就在于这种奇妙的平衡：既有令人屏息的宏伟与历史的厚重感，又完美地融入了宁静的山谷生活与自然景观之中，毫无疏离感。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子在盘山公路上绕了几个弯，当维安登城堡毫无预警地闯入眼帘时，我还是忍不住“哇”了一声。它不像那些精雕细琢的宫殿，而是带着一种粗粝的、不容置疑的威严，从一片墨绿的森林顶端生长出来，牢牢抓住整条山脉的脊梁。清晨的薄雾还懒洋洋地缠在半山腰，阳光先一步洒在城堡高耸的塔楼和赭石色的墙壁上，给它镀上了一层温暖的金边。那一刻的感觉很奇特，仿佛时间的流速都变慢了，你一眼望见的是整整八百年的沉默与守望。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`把车停在山脚下的小镇，决定徒步走上去。石板路陡峭，走起来能听见自己清晰的呼吸声和登山鞋的摩擦声。空气里有松针和湿润泥土的味道，混合着远处面包房飘来的黄油香气。越靠近城堡，那种压迫感就越强，巨大的石块堆砌的墙体近在咫尺，你能看清每一道风雨侵蚀的痕迹，每一块颜色深浅不一的修补。穿过吊桥，走进幽暗的门洞，外界的喧嚣瞬间被隔绝。城堡内部庭院里，有人静静地坐着素描，铅笔划过纸面的沙沙声，和屋檐下燕子归巢的呢喃交织在一起，构成了奇妙的背景音。这里不只是一个景点，更像是小镇呼吸的一部分。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走进一个个复原的房间——宴会厅、小教堂、伯爵的寝宫——光线从高高的、狭窄的窗口射入，在古老的木地板上投下长长的光柱，你能看见尘埃在光里跳舞。房间里挂着厚重的挂毯，陈列着冷冰冰的铠甲，壁炉大到可以站进去一个人。我试着想象，几百年前的冬天，伯爵一家围坐在这个壁炉前，听着屋外山谷里呼啸的北风，会是怎样的景象。最震撼的时刻是登上最高的塔楼。风猛地灌进来，吹得人几乎站不稳。但眼前的景色让你忘了这一切：蜿蜒的乌尔河像一条银色的丝带，将红屋顶的小镇温柔地揽在怀中；远处是层层叠叠、无尽延伸的阿登森林，像一块巨大的、起伏的绿色天鹅绒。那一刻，你完全理解了“要塞”二字的全部意义——不仅是防御，更是君临天下的视野与气魄。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当缆车缓缓爬升，脚下是红瓦屋顶的童话小镇和蜿蜒如丝带的乌尔河，而前方，那座灰白色的巨石城堡就那么突然地、完整地出现在山脊线上，像一个从森林里生长出来的古老梦境。第一眼看见菲安登城堡，你很难不被它的气势震慑——它不是孤零零的一座建筑，而是一整片错综复杂的塔楼、城墙和宫殿，紧紧地攀附在陡峭的山岩上，仿佛与山体本身就是一体的。风从峡谷吹来，带着松针和远处草地清新的气味，还夹杂着一丝古老石墙上苔藓的湿润感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走进城堡大门，中世纪的气息瞬间将你包裹。脚下是巨大石块铺就的庭院，被岁月打磨得光滑而斑驳。阳光从高处的拱形窗棂斜射进来，在厚重的石墙上切割出明暗交错的光影，空气里有种凉爽的、属于地窖和古老木材的特殊味道。最妙的是声音：游客的低语在石壁间产生轻微的回响，远处某个房间里或许正播放着低沉的、模拟中世纪宴会的音乐，而当你走到露台边缘，一切人声都淡去，只剩下风掠过塔尖的呼啸，和山谷里教堂钟声的悠远回响。这座城堡不是冰冷的博物馆，你能感受到它磅礴的生命力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`小镇的生活就在城堡的注视下缓缓流淌。山下的咖啡馆露台坐满了喝着本地啤酒、说着卢森堡语的老人，他们偶尔会抬头望一眼山上的庞然大物，眼神里是寻常的亲切，就像我们看自家后院的老树。这座城堡是他们的历史课本，也是他们日常风景的一部分。它最打动人心的地方，或许就在于这种奇妙的平衡：既有令人屏息的宏伟与历史的厚重感，又完美地融入了宁静的山谷生活与自然景观之中，毫无疏离感。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={`维安登城堡`} />
+                <InfoRow label="中文名称" value={`菲安登城堡`} />
                 <InfoRow label="英文名称" value={`Vianden Castle`} />
                 <InfoRow label="正式名称" value={`Vianden Castle`} />
                 <InfoRow label="国家" value={`卢森堡`} />
-                <InfoRow label="城市" value={`维安登镇`} />
+                <InfoRow label="城市" value={`菲安登`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`欧洲最重要且风景最优美的封建领主居所之一，见证了卢森堡从中世纪到近代的权力变迁。`} />
-                <InfoRow label="建筑特色" value={`防御功能与豪华居住空间完美融合，雄踞山脊，俯瞰整个乌尔河谷，气势恢宏。`} />
-                <InfoRow label="建筑风格" value={`以罗曼式为基础，历经数百年扩建，融入了显著的哥特式风格，是过渡时期的建筑典范。`} />
-                <InfoRow label="文化价值" value={`卢森堡国家身份与历史自豪感的象征，其修复工程被视为欧洲文化遗产保护的里程碑。`} />
+                <InfoRow label="历史地位" value={`卢森堡大公国保存最完好、最具代表性的封建领主城堡之一，是欧洲中世纪防御与居住建筑完美结合的典范。`} />
+                <InfoRow label="建筑特色" value={`依山就势而建，岩石基础与建筑融为一体，拥有雄伟的宫殿主体、高耸的防御塔楼、精致的礼拜堂和层层叠叠的城墙与露台。`} />
+                <InfoRow label="建筑风格" value={`以中世纪罗马式和哥特式风格为主体，在十九世纪修复中融入了部分新哥特式和历史主义风格的元素。`} />
+                <InfoRow label="文化价值" value={`见证了卢森堡从中世纪伯爵领地到现代国家的历史变迁，是卢森堡国家身份和文化遗产的重要象征。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`夏季（四月至十月）：每日上午10点至下午6点，最后入场时间为下午5点。
-冬季（十一月至三月）：每日上午10点至下午4点，最后入场时间为下午3点。
-城堡于每年1月1日、11月1日和12月25日闭馆。特殊节假日如卢森堡国庆节（6月23日）可能调整开放时间，建议行前在官网确认。每年十二月，城堡内会举办温馨的圣诞市集，开放时间会延长至晚间。`} />
-              <InfoRow label="门票价格" value={`成人票：10欧元。
-儿童票（6-12岁）：2.5欧元。
-儿童（6岁以下）：免费。
-家庭票（2位成人+最多3名儿童）：25欧元。
-学生票（需持有效学生证）：7欧元。
-老年人票（65岁以上）：7欧元。
-门票包含语音导览器租赁（有多种语言可选，含中文）。建议提前在官网在线购票以节省排队时间，尤其是在夏季周末和公共假期。`} />
+              <InfoRow label="开放时间" value={`全年开放，每日上午10点至下午5点，夏季（4月至9月）延长至晚上6点关闭。11月至次年2月的开放时间可能缩短为上午11点至下午4点。12月24日、25日、31日及1月1日闭馆。具体日期每年略有调整，建议行前查看官网公告。`} />
+              <InfoRow label="门票价格" value={`标准成人票10欧元。学生、65岁以上长者及10人以上团体票8欧元。儿童及青少年（6-17岁）2欧元，6岁以下儿童免费。家庭套票（2成人+最多3名儿童）20欧元。门票包含所有开放区域的参观及小型博物馆的入场，无额外收费。部分特殊展览可能另行收费。`} />
               <InfoRow label="地址" value={`Montée du Château, 9408 Vianden, Luxembourg`} />
-              <InfoRow label="交通方式" value={`从卢森堡市（卢森堡芬德尔机场LUX或中央火车站）出发，最便捷的方式是乘坐火车。在卢森堡中央火车站乘坐开往列日的列车，在“埃特尔布吕克 (Ettelbruck)”站下车，车程约35-40分钟，班次频繁。在埃特尔布吕克火车站外，转乘570路公共巴士，前往“Vianden, Breck”站，车程约20分钟。从巴士站步行上山至城堡入口约需15-20分钟。若自驾，从卢森堡市出发沿N17公路向北，车程约45分钟，城堡山下有收费停车场。购票建议使用卢森堡全国通用的交通卡，火车与巴士可无缝换乘。`} />
+              <InfoRow label="交通方式" value={`最近的主要国际机场是卢森堡芬德尔机场（Luxembourg Findel Airport）。从机场出发，最便捷的方式是乘坐巴士和火车组合。首先，搭乘16路或29路巴士前往卢森堡中央火车站（Gare de Luxembourg），车程约25分钟，车次频繁。在中央火车站，乘坐开往特罗伊维耶日的列车（Trier line），在艾特尔布鲁克站（Ettelbruck）下车，车程约30分钟，每半小时一班。在艾特尔布鲁克火车站前广场，转乘570路巴士直达菲安登小镇的“Fousbann”站或终点站“Vianden, Centre”，车程约20分钟，每小时一班。从巴士站步行上山至城堡约15-20分钟，也可以选择乘坐收费的城堡缆车（Chairlift），直接抵达城堡附近的山脊。全程建议购买卢森堡国家交通网络的通票，非常划算。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`要说清楚维安登城堡的故事，我们得把时钟拨回到古罗马时代。你脚下这座山，可不是随便选的。早在公元4世纪，古罗马人就看中了这个易守难攻的险要位置，在这里修建了一座坚实的要塞，守护着通往特里尔的重要道路。那些深埋在地基里的罗马石块，是这座城堡最古老的记忆。而城堡真正开始书写自己的传奇，是在1064年。一份古老的羊皮纸文书上第一次出现了“维安登城堡”的名字，当时它是一座坚固的“castellum”，也就是防御性的堡垒。最初的领主们，用粗糙的石块垒起了我们今天还能看到的核心部分——那厚重的城墙和方形的塔楼，充满了早期罗曼式建筑的朴实与力量感。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`城堡的黄金时代，属于维安登伯爵家族。从12世纪到15世纪，这个家族不仅是卢森堡地区最有势力的封建领主之一，还通过联姻和战争，把影响力扩大到了遥远的法国。钱袋子鼓了，城堡也跟着“升级换代”。他们不再满足于一个单纯的军事堡垒，而是要一个配得上其地位和品味的豪华官邸。于是，建筑师们开始大刀阔斧地改建。他们引入了当时最时髦的哥特式风格——看看那些优雅的拱顶、雕刻精美的窗棂，以及采光更好的大厅。最具代表性的就是那座华丽的小教堂，它有两层，上层供伯爵家族使用，下层给仆人们祈祷，等级分明，但艺术水准同样高超。这段时期，城堡里举办过无数盛宴，回荡着游吟诗人的歌声，也密谋过影响地区格局的政治决策。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，就像所有中世纪家族的故事一样，兴盛之后难免衰落。1417年，随着最后一位维安登伯爵去世且没有直系继承人，城堡的命运迎来了转折。它被转手给了奥兰治-拿骚家族，也就是后来荷兰王室的祖先。新主人并不常驻于此，城堡更多时候是作为一个行政中心和收租的象征。更大的打击来自1688年的战争，法国国王路易十四的军队横扫了这一地区，城堡在战火中受损严重。雪上加霜的是，到了1820年，当时的荷兰国王威廉一世为了偿还债务，竟然将城堡拆解变卖！是的，你没听错，像卖废品一样，把屋顶、门窗、甚至部分墙体都拍卖了。曾经辉煌的城堡变成了一个凄凉的、对外开放的“废墟景点”，风雨无情地侵蚀着它裸露的骨架，这一荒废，就是超过一个世纪。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`转机出现在1977年。那时，城堡已经归属于卢森堡大公国。也许是被这座伟大废墟的悲壮所触动，也许是对民族历史根源的追寻，卢森堡政府做出了一个被载入史册的决定：将城堡完整地归还给国家，并启动一项宏大而精细的修复工程。这不是简单的重建，而是一次基于严谨历史考据的“再创造”。工匠们查阅了无数古老的图纸、绘画和文献，寻找散落民间的原始构件，一砖一瓦地让城堡重生。这项工程持续了多年，当城堡最终以近乎原貌的姿态重新矗立在山巅时，它不再仅仅是一座古建筑，而是整个卢森堡民族精神复活的象征。今天，当你抚摸那些新旧交融的石墙，你触摸的是一部跌宕起伏的史诗，从罗马的基石，到伯爵的荣光，再到废墟的苍凉，最终在当代人的手中获得新生。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`菲安登的故事，始于罗马人敏锐的军事眼光。早在公元四世纪，罗马人就在这里，在乌尔河峡谷最险要的岩石山嘴上，建立了一座坚固的瞭望塔和要塞，用以守卫这条重要的山谷通道。罗马军团早已化为尘埃，但他们选定的这个位置，其战略价值却被后来者一眼看中。进入中世纪，这片土地属于强大的阿登伯爵家族。大约在11世纪，第一座真正意义上的城堡在罗马堡垒的旧址上拔地而起，最初是用木材建造的简易防御工事。很快，石头取代了木头，城堡的规模随着领主权力的扩张而不断扩大。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡的黄金时代属于菲安登伯爵家族，他们是神圣罗马帝国内一股不可小觑的力量。从12世纪到15世纪，历代伯爵不断增建、加固和美化他们的家园。我们今天看到的宫殿主体、小礼拜堂和部分防御工事，大多是在这个时期建造的。特别是那宏伟的宫殿，内部拥有宽敞的骑士厅、伯爵的私人居所以及装饰着精美壁画的小教堂，展示了当时顶尖的建筑技艺和艺术品味。这里不仅是军事堡垒，更是一个强大政治实体的权力中心和文化沙龙，一度是摩泽尔河流域最辉煌的宫廷之一。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，就像许多中世纪城堡的命运一样，辉煌之后是漫长的衰落。随着欧洲战争模式的改变和中央集权国家的兴起，地方贵族的权力被逐渐削弱。1417年，菲安登伯爵家族因无嗣而绝嗣，城堡的所有权几经转手，最终在1820年被当时的荷兰国王兼卢森堡大公威廉一世卖给了一个当地商人。最让人痛心的一幕发生了：商人为了牟利，竟然将城堡的内饰、家具甚至屋顶的板岩和木梁一一拆解变卖。短短几十年间，这座荣耀了数个世纪的城堡被洗劫一空，沦为一片凄凉的废墟，只剩下光秃秃的石头墙壁在风雨中飘摇。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡的转机，与一位伟大的作家紧密相连。维克多·雨果，这位法国文豪，曾因政治流放而旅居菲安登。他被小镇和城堡废墟的凄美深深打动，并为拯救它而奔走呼吁。他在信中写道：“无论对于卢森堡还是整个欧洲，这都是一个无价的纪念物，不应任其毁灭。”虽然雨果的呼吁在当时没有立刻见效，但却埋下了一颗种子。真正的重生是在20世纪。1962年，卢森堡大公国政府从私人手中收回了城堡废墟。随后，一项规模浩大、严谨细致的修复工程开始了。工匠们依据大量历史图纸和考古发现，用了整整一代人的时间，一砖一瓦地重建了屋顶、复原了内饰、修缮了城墙。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`今天，我们漫步在华丽复原的骑士厅、礼拜堂和宴会厅里，看到的不仅是中世纪的景象，更是一整个国家对自身历史的珍视与致敬。菲安登城堡从罗马要塞到伯爵宫殿，从废弃残骸到国家象征的跌宕历程，本身就是一部活生生的欧洲史。`}</p>
             </div>
           </Section>
 
@@ -82,47 +75,45 @@ export default function ViandenCastlePage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`想要完美体验维安登城堡，我强烈建议安排一整天给维安登小镇。最佳抵达时间是早上9点半左右，这时旅行团大军尚未到达，山间晨雾未散，光线柔和，是拍照和感受城堡静谧之美的黄金时段。整体游览节奏应该是“由外至内，由上至下，最后融入小镇”。上午先用2-2.5小时深度探索城堡内部和塔楼，将最充沛的精力留给攀登和震撼的全景。中午可以在城堡内的咖啡馆简单休息，或者下山到小镇找一家河边餐厅享用午餐。下午则用1-2小时悠闲地漫步小镇，参观相关博物馆，坐在河边发呆，把城堡作为背景板来欣赏。这样的安排既能避开人流高峰，又能从不同角度、不同距离全面感受城堡的魅力，让历史感和生活气完美结合。`}
+                  {`建议将整个行程安排为半天（约4-5小时）。最佳抵达时间是上午10点城堡开门后不久，此时光线柔和，旅游团尚未大批涌入，你能享受一段相对宁静的探索时光。游览节奏宜慢不宜快，因为城堡内外处处是景，值得细细品味。整体路线遵循由外到内、由下至上、再由内返外的逻辑：先从外部感受其雄姿，再深入内部探寻历史细节，最后在露台上俯瞰全景，将内外感受融为一体。下山后，在小镇悠闲午餐，才算完整地体验了菲安登的魅力。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`尽量避开周末和卢森堡的公共假期，否则狭窄的塔楼楼梯可能会排起长队，影响体验。
-务必穿一双绝对舒适防滑的徒步鞋，城堡内外的石板路和楼梯大多原始不平，高跟鞋在这里是“灾难”。
-如果时间充裕，可以查询城堡官网，他们时常在夏季夜晚举办中世纪主题音乐会或灯光秀，那是完全不同的梦幻体验。`}
+                  <strong>建议：</strong>{`城堡内部分楼梯非常狭窄陡峭且光滑，请务必穿防滑舒适的平底鞋，女士避免穿高跟鞋或长裙。夏季是旅游旺季，上午11点后和下午2-4点人流最大，尽量错峰。小镇和城堡内厕所不多，进入城堡前最好在山下游客中心提前解决。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从山脚小镇的集市广场出发，沿着有明显历史痕迹的陡峭石板路“蒙泰杜城堡路”缓缓步行上山，一路感受腿部酸胀并欣赏两侧古朴的民居花园。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从山脚的售票处进入后，别急着进主楼，先沿着城堡外围的东侧城墙走一圈，感受巨石堡垒与陡峭山崖合二为一的压迫感。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`穿过那座咯吱作响的木质吊桥，步入城堡阴凉的内门洞，瞬间被古老石头的气息和巨大的空间感所包裹。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过厚重的拱形门洞进入内庭院，抬头仔细看那些不同时期修建的塔楼，它们的高度、窗型和石料颜色都诉说着各自的时代。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`拿上语音导览器，首先探索地下室的考古展览，那里陈列着从罗马时代到中世纪的基石和文物，是理解城堡千年根基的起点。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要踏入那座小而精美的拜占庭风格宫殿礼拜堂，让眼睛适应昏暗后，去寻找柱头上那些雕刻古怪又可爱的野兽与人脸。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`顺着螺旋石阶逐层向上，依次参观复原的骑士厅、宴会厅和伯爵起居室，注意观察墙壁上色彩鲜艳的古老壁画和巨大的哥特式壁炉。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在复原地极其生动的骑士大厅里停留片刻，想象一下中世纪盛宴时这里灯火通明、人声鼎沸的场景，壁炉大得能站进一个人。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`一定要爬上西北角最高的塔楼，尽管楼梯狭窄盘旋，但登顶后360度无死角的乌尔河谷全景会让你觉得一切辛苦都值得。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着狭窄的螺旋石梯爬上西侧的“朱莉安娜塔”顶端，这里是整个城堡的制高点，360度的峡谷风光会让你觉得每一步攀登都值得。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`下来后，在城堡内院的露天咖啡馆找个位置坐下，点一杯卢森堡本地啤酒或咖啡，看着燕子在高墙间穿梭，静静消化刚才看到的一切。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`参观完主建筑内部陈列的盔甲、家具和中世纪生活展览后，务必回到主宫殿朝南的大露台，找一张石凳坐下，静静地看云影在山谷间移动。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从城堡的南侧出口沿着一条更平缓的森林小径下山，这条路会带你穿过一片安静的林地，并从一个绝佳的外围角度再次回望城堡全貌。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`下山时选择步行，沿着“蒙特城堡路”的之字形小径慢慢走，从多个不断变换的角度回望城堡，就像在看一部移动的史诗电影。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`下山后不要急着离开，去小镇河边的“维克多·雨果之家”博物馆看看，这位大文豪曾流亡于此并深深爱上了这里，他的视角会让你对城堡有新的理解。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`最后一定要逛一逛山脚下那些依着古城墙修建的幽静花园，那里有最本土的植物和最安静的角落，是告别城堡前完美的缓冲。`}</p>
                 </div>
               </div>
             </div>
@@ -132,28 +123,28 @@ export default function ViandenCastlePage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡对面山坡的“全景瞭望台”`}</h4>
-                  <p className="text-sm text-gray-700">{`最佳时间是日落前一到两小时，阳光会从侧面照亮整个城堡立面，用长焦镜头可以压缩空间，拍出城堡与山下小镇房屋层层叠叠的壮丽关系。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡对岸的山腰公路转弯处`}</h4>
+                  <p className="text-sm text-gray-700">{`下午日落前一小时，阳光将城堡染成金色，利用长焦镜头可以压缩空间，拍出城堡与山下小镇屋顶层叠错落的经典明信片角度。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡内部小教堂的彩窗下`}</h4>
-                  <p className="text-sm text-gray-700">{`中午时分，阳光穿透彩窗会在石地上投下斑斓的光影，蹲低角度，将彩窗的光影作为前景，远处幽深的拱门作为背景，能拍出极具神圣感和纵深感的大片。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`乌尔河上的古桥中央`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨薄雾未散时，站在连接小镇两岸的古石桥正中，将城堡作为远景，河面与两岸色彩缤纷的房子作为中景和前景，能拍出宛如童话世界的倒影构图。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城堡最高塔楼的垛口处`}</h4>
-                  <p className="text-sm text-gray-700">{`将相机或手机镜头紧贴垛口的射击孔向外拍摄，以厚重的石壁作为天然画框，框住远处绵延的绿色山谷和蜿蜒的河流，构图极具创意和故事性。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`宫殿大露台的西南角`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，以古老的石砌拱窗为画框，将对岸苍翠的山林和蜿蜒的河流纳入其中，营造出“画中画”的深邃感。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`从下山森林小径的某个转弯处回望`}</h4>
-                  <p className="text-sm text-gray-700">{`下午的阳光会勾勒出城堡清晰的轮廓，利用道路的曲线作为引导线，将视线自然引向山巅的城堡，拍出充满动感和探索感的旅途照片。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`内部骑士大厅的东侧窗户边`}</h4>
+                  <p className="text-sm text-gray-700">{`中午时分，阳光直射入内，利用室内较暗的环境与窗外明亮的天空形成高对比，拍摄人物凝视窗外的剪影，故事感极强。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`从下山小径的第一个回头弯`}</h4>
+                  <p className="text-sm text-gray-700">{`下午顺光时，从这里可以拍下城堡全景以及你刚刚走过的之字形小路，画面富有引导线和层次感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城堡内庭院的中心仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点左右，站在院子中心用广角镜头向上拍摄，将所有高耸的塔楼和蓝天一同收入镜头，展现建筑的雄伟与几何美感。`}</p>
                 </div>
               </div>
 
@@ -162,8 +153,7 @@ export default function ViandenCastlePage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`建议携带一个偏振镜（CPL），可以有效消除城堡石墙和水面反光，让天空更蓝，树叶更绿，色彩饱和度大增。`}</li>
-                <li>• {`使用无人机拍摄前务必谨慎，卢森堡对无人机飞行有严格规定，城堡及周边空域很可能属于禁飞区，强行起飞可能导致罚款和设备没收。`}</li>
+                <li>• {`使用无人机拍摄需特别谨慎，城堡周边可能有空域限制，且山间风向多变。城堡内部大部分区域允许拍照，但请勿使用闪光灯，以免损害古老的织物和壁画展品。`}</li>
               </ul>
             </div>
           </Section>
@@ -172,34 +162,70 @@ export default function ViandenCastlePage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
-                  <p className="text-sm text-blue-800">{`小镇主街上的“维安登青年旅舍”，由一栋老房子改建，房间干净明亮，公共厨房设施齐全，最棒的是顶楼露台能瞥见城堡一角，是背包客结交旅伴的好地方。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`城堡山脚下由17世纪贵族宅邸改造的精品酒店，房间里有裸露的原始石墙和橡木横梁，晚上能听到不远处乌尔河的潺潺水声。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
-                  <p className="text-sm text-green-800">{`“河畔奥拉夫酒店”，位于乌尔河畔，部分房间拥有直面城堡的私人小阳台，早晨在潺潺水声和城堡 views 中醒来，晚上还可以在河边餐厅享用浪漫晚餐。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`家庭温馨之选`}</h4>
+                  <p className="text-sm text-green-800">{`镇中心广场旁的家庭式客栈，主人会为你手绘小镇地图并推荐只有本地人才知道的徒步小径，早餐的 homemade 果酱让人难忘。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
-                  <p className="text-sm text-yellow-800">{`坐落在附近山林中的“帕克酒店维安登”，是一家四星级 wellness 酒店，拥有室内外泳池和 Spa，房间设计现代舒适，远离小镇喧嚣，提供免费的班车接送前往城堡。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`自然静谧之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于乌尔河上游森林边缘的独栋度假木屋，拥有面向山谷的私人露台，晚上可以看见毫无光污染的璀璨星空，清晨在鸟鸣中醒来。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`极致浪漫`}</h4>
-                  <p className="text-sm text-purple-800">{`预订小镇上由百年老屋精心修复的精品民宿“莱斯阿尔萨斯”，房东夫妇热情好客，会为你准备丰盛的本地早餐，并分享许多旅行指南上没有的城堡秘闻和小镇故事。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端景观之选`}</h4>
+                  <p className="text-sm text-purple-800">{`坐落在城堡对面山坡上的四星级酒店，每间房都拥有直面城堡的落地窗或阳台，尤其是傍晚城堡亮灯时，景色宛如魔法。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`夏季和圣诞市集期间是绝对旺季，住宿必须提前至少1-2个月预订，否则选择会非常有限且价格高昂。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`维安登小镇极其安全宁静，夜晚几乎没有任何喧闹，非常适合喜欢静谧氛围的旅行者。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`如果自驾，预订时务必确认住宿是否提供停车位，小镇中心停车位非常紧张且多为收费区。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`菲安登小镇非常安全宁静，但住宿数量有限，尤其在夏季和周末非常紧俏，务必提前数月预订。选择住在镇上可以体验傍晚旅行团离开后，小镇重归宁静的本地生活氛围。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开维安登的时候，我脑子里反复回响着一个词：韧性。这座城堡见过最鼎盛的荣耀，摆过最奢华的宴席；也经历过被当作破砖烂瓦拆卖、在风雨中裸露骨架长达百年的至暗时刻。但它没有倒下。它像山的一部分，沉默地等待着。最终，等来了一群珍视它的人，用双手和信念，一砖一瓦地把它从历史的遗忘中“打捞”回来。这个过程本身，比任何关于骑士和伯爵的传奇都更打动我。它告诉我们，文化遗产不是玻璃罩里的脆弱标本，而是可以与当代人的生活和身份认同血脉相连的活物。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个快节奏的、常常追求瞬时满足的世界里，维安登提供了一种截然不同的旅行价值。它不提供刺激的游乐设施，也没有炫目的声光秀。它只是静静地在那里，要求你付出一点体力去攀登，花费一些时间去聆听它的故事。但作为回报，它会给你一种极其珍贵的“时空纵深体验”。当你站在塔楼上，看着同样的山谷景色被一代又一代人——罗马士兵、中世纪伯爵、19世纪的浪漫派诗人、乃至今天的你——所凝视时，你会感到自己不仅仅是游客，更是漫长历史河流中的一瞬间的见证者。这种连接感，这种让内心沉静下来的力量，正是我们这些热爱深度游的旅人，不断上路所追寻的东西。所以，专程为它来一趟卢森堡吧，它绝不会让你失望。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开菲安登的时候，我总觉得自己带走的不只是相机里的照片，更像是心里被注入了一种沉静的力量。这座城堡教会我的，是关于“韧性”的最生动一课。它看过罗马军团的鹰旗，听过中世纪骑士的誓言，承受过被拆解变卖的屈辱，最终却在现代人的手中，凭借对历史的尊重与热爱重获新生。它站在这里，就像一位沉默而睿智的老者，告诉你无论经历多少风雨，真正有价值的东西总会被珍视、被修复、被传承。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求崭新和快速的世界里，菲安登提供了一种截然不同的时间维度。它让你慢下来，去触摸冰凉的千年石头，去聆听穿过塔楼缝隙的风声，去想象不同时代的人们站在同一个露台上眺望的是怎样的风景。它不仅仅是一个旅游景点，更是一个能让你与欧洲厚重历史进行私人对话的空间。每一位热爱深度游的旅人，都应该来一次菲安登，不仅仅是来看一座漂亮的城堡，更是来体验一次时间的旅行，感受一种跨越世纪的生命力如何在山谷中巍然屹立，并温柔地照进当下。这里，是卢森堡的灵魂所在。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/haapsalu-castle-estonia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈普萨卢城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Haapsalu Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-meung-sur-loire" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    马
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马尔旺城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Meung-sur-L-Loire</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/burg-eltz" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃尔茨城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Burg Eltz</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

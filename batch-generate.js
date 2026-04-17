@@ -153,6 +153,16 @@ if (isForceOverwrite) {
   console.log('⚠️ 注意：已开启强制覆盖模式！如果文件已存在将被重新生成覆盖。');
 }
 
+// 加载永久黑名单
+let permanentBlacklist = [];
+const blacklistPath = path.join(rootDir, 'permanent-blacklist.json');
+if (fs.existsSync(blacklistPath)) {
+  permanentBlacklist = JSON.parse(fs.readFileSync(blacklistPath, 'utf8'));
+  if (permanentBlacklist.length > 0) {
+    console.log(`🛡️  已加载永久黑名单，包含 ${permanentBlacklist.length} 个受保护的链接`);
+  }
+}
+
 // 开始遍历三个文件夹
 let totalFoundFiles = 0;
 
@@ -185,6 +195,13 @@ categories.forEach(cat => {
     const slug = data['路由缩写(slug)'].toLowerCase().replace(/[^a-z0-9-]/g, '-');
     const pageDir = path.join(attractionsDir, slug);
     const pageFile = path.join(pageDir, 'page.tsx');
+
+    // 检查是否在永久黑名单中
+    if (permanentBlacklist.includes(slug)) {
+      console.log(`  🚫 跳过黑名单: [${data['景点中文名']}] (${slug}) 受永久保护，不会生成。`);
+      totalSkippedCount++;
+      return;
+    }
 
     // 【防重复检查】如果页面文件已经存在，且没有开启强制覆盖，则跳过
     if (!isForceOverwrite && fs.existsSync(pageFile)) {

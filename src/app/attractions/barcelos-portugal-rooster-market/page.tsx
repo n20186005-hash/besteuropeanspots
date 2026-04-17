@@ -1,0 +1,230 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '巴塞卢什 Barcelos | 寻找葡萄牙国民象征花公鸡的传奇起源与最地道的露天集市 - 最佳欧洲景点',
+  description: '说实话，在踏入巴塞卢什周四集市之前，我对它的想象只停留在那个色彩斑斓的陶制公鸡形象上。但当我真的在某个周四清晨七点，从火车站拖着还有点睡意的步子，循着隐约的人声走近老城时，一股巨大的、生机勃勃的生活气浪瞬间把我淹没了。空气中弥漫着复杂的交响：新鲜出炉的“broa de milho”（玉米面包）粗犷的...',
+}
+
+export default function BarcelosPortugalRoosterMarketPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '巴塞卢什', href: '/attractions/barcelos-portugal-rooster-market' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴塞卢什・Barcelos・葡萄牙・巴塞卢什`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，在踏入巴塞卢什周四集市之前，我对它的想象只停留在那个色彩斑斓的陶制公鸡形象上。但当我真的在某个周四清晨七点，从火车站拖着还有点睡意的步子，循着隐约的人声走近老城时，一股巨大的、生机勃勃的生活气浪瞬间把我淹没了。空气中弥漫着复杂的交响：新鲜出炉的“broa de milho”（玉米面包）粗犷的焦香，堆成小山的橄榄混合着海盐与 oregano 的咸辛气味，旁边铁匠铺里传来有节奏的叮当敲打声，还有摊主们用快速的北部葡萄牙语招呼熟客的洪亮嗓音。这哪里仅仅是一个“景点”？这根本就是整个米尼奥地区跳动了几百年的心脏，一周一次，准时泵出最滚烫的血液。
+我的目光很快就被无处不在的“那只鸡”吸引了。它不只是旅游纪念品摊上的陶偶。它出现在老太太的围裙印花上，出现在面包店招牌的铁艺装饰里，甚至出现在肉铺挂在屋檐下的铸铁风铃上——一只昂首挺胸、羽毛用鲜艳的蓝黄红绿点画的大公鸡。这就是葡萄牙的“花公鸡”，而巴塞卢什，就是它诞生的故乡。站在喧嚣的集市中央，你会突然明白，这个符号之所以能穿透商业包装，成为整个国家的象征，是因为它本就根植于这种热气腾腾、乐观坚韧的市井生活里。传说中它代表着奇迹、公正与清白，而在生活中，它就像这集市本身，是一种对平凡日子热热闹闹的庆祝。
+穿过摩肩接踵的农产品区，走到相对开阔的教堂广场（Largo da Porta Nova），感官瞬间转换。宏伟的巴塞卢什主教堂的石头立面在晨光中显得温暖而斑驳，它静静地俯视着脚下这片每周更换一次布景的世俗剧场。穿着传统黑色衣裙的老奶奶们买完菜，会自然地走进教堂，在昏暗的光线中点燃一支蜡烛，低声祷告片刻，再回到阳光下的集市里继续讨价还价。信仰与生活，传说与现实，在这里没有界限，它们就像教堂钟声和集市喧哗一样，交织成这里最动人的日常和弦。这就是巴塞卢什最核心的魅力：它毫不掩饰地展示着一个民族文化的“源代码”，不是放在玻璃展柜里，而是活生生地、带着泥土和面包屑的气息，在你眼前铺展开来。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`说实话，在踏入巴塞卢什周四集市之前，我对它的想象只停留在那个色彩斑斓的陶制公鸡形象上。但当我真的在某个周四清晨七点，从火车站拖着还有点睡意的步子，循着隐约的人声走近老城时，一股巨大的、生机勃勃的生活气浪瞬间把我淹没了。空气中弥漫着复杂的交响：新鲜出炉的“broa de milho”（玉米面包）粗犷的焦香，堆成小山的橄榄混合着海盐与 oregano 的咸辛气味，旁边铁匠铺里传来有节奏的叮当敲打声，还有摊主们用快速的北部葡萄牙语招呼熟客的洪亮嗓音。这哪里仅仅是一个“景点”？这根本就是整个米尼奥地区跳动了几百年的心脏，一周一次，准时泵出最滚烫的血液。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`我的目光很快就被无处不在的“那只鸡”吸引了。它不只是旅游纪念品摊上的陶偶。它出现在老太太的围裙印花上，出现在面包店招牌的铁艺装饰里，甚至出现在肉铺挂在屋檐下的铸铁风铃上——一只昂首挺胸、羽毛用鲜艳的蓝黄红绿点画的大公鸡。这就是葡萄牙的“花公鸡”，而巴塞卢什，就是它诞生的故乡。站在喧嚣的集市中央，你会突然明白，这个符号之所以能穿透商业包装，成为整个国家的象征，是因为它本就根植于这种热气腾腾、乐观坚韧的市井生活里。传说中它代表着奇迹、公正与清白，而在生活中，它就像这集市本身，是一种对平凡日子热热闹闹的庆祝。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过摩肩接踵的农产品区，走到相对开阔的教堂广场（Largo da Porta Nova），感官瞬间转换。宏伟的巴塞卢什主教堂的石头立面在晨光中显得温暖而斑驳，它静静地俯视着脚下这片每周更换一次布景的世俗剧场。穿着传统黑色衣裙的老奶奶们买完菜，会自然地走进教堂，在昏暗的光线中点燃一支蜡烛，低声祷告片刻，再回到阳光下的集市里继续讨价还价。信仰与生活，传说与现实，在这里没有界限，它们就像教堂钟声和集市喧哗一样，交织成这里最动人的日常和弦。这就是巴塞卢什最核心的魅力：它毫不掩饰地展示着一个民族文化的“源代码”，不是放在玻璃展柜里，而是活生生地、带着泥土和面包屑的气息，在你眼前铺展开来。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`巴塞卢什`} />
+                <InfoRow label="英文名称" value={`Barcelos`} />
+                <InfoRow label="正式名称" value={`Barcelos`} />
+                <InfoRow label="国家" value={`葡萄牙`} />
+                <InfoRow label="城市" value={`巴塞卢什`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是葡萄牙国民吉祥物“花公鸡”（Galo de Barcelos）传说的发源地，是葡萄牙民族身份认同的一个重要文化符号的摇篮。`} />
+                <InfoRow label="建筑特色" value={`一座活态的中世纪市场城镇，核心是气势宏大的罗马式与曼努埃尔式风格交融的主教堂，以及环绕其周围、历经数个世纪烟火气的露天集市广场。`} />
+                <InfoRow label="建筑风格" value={`以厚重的罗马式建筑为基础，融合了后期哥特式、曼努埃尔式（葡萄牙特色的海洋风格装饰）以及朴素的民间建筑，整体呈现出一种亲切、实用而不失庄严的北方葡萄牙小镇风貌。`} />
+                <InfoRow label="文化价值" value={`“花公鸡”传说与每周四持续数百年的露天集市共生，完美体现了葡萄牙北方将虔诚信仰、民间传说与市井商贸生活无缝融合的独特文化生态。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`露天集市（Feira de Barcelos）：仅在每周四上午开放，通常从清晨6点持续到下午1点左右，建议赶早。巴塞卢什主教堂（Igreja Matriz de Barcelos）：每日上午9点至下午6点开放。巴塞卢什考古博物馆及露天遗址：周二至周日上午10点至下午5点开放，周一闭馆。标志性的“花公鸡”陶像雕塑塔楼（Torre de Barcelos）可随时在外围观赏，内部参观需留意 occasional 开放公告。节假日期间集市可能异常热闹或暂停，行前建议查询当地市政网站。`} />
+              <InfoRow label="门票价格" value={`露天集市：免费进入和闲逛。巴塞卢什考古博物馆：门票约2-3欧元，学生及老人有优惠。主教堂：免费进入，欢迎捐赠。大部分城市历史遗迹区域免费开放。`} />
+              <InfoRow label="地址" value={`Largo da Porta Nova, 4750-329 Barcelos, Portugal`} />
+              <InfoRow label="交通方式" value={`从波尔图（Porto）出发最方便。从波尔图机场（OPO）或市中心坎帕汉火车站（Campanhã）搭乘火车前往“Barcelos”站。火车班次频繁，约每小时一班，车程在30-45分钟之间，票价低廉（单程约3-5欧元）。出火车站后，步行约10-15分钟即可抵达老城中心和集市广场。如果自驾，从波尔图沿A3高速公路向北约40分钟车程，但集市日（周四）老城停车位极其紧张，建议早早抵达或使用火车站旁的停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`关于巴塞卢什的故事，无论如何都要从那只“死而复生”的公鸡讲起。传说流传了数百年，版本细节不一，但核心总是关于信仰与奇迹。最广为流传的版本说，中世纪时，一位前往圣地亚哥朝圣的加利西亚（西班牙西北部）信徒途经巴塞卢什，却被误认为是小偷而判处绞刑。临刑前，他请求面见法官，当时法官正在享用晚餐。信徒指着法官餐盘里的一只烤公鸡断言：“如果我是清白的，这只公鸡将为我啼叫！” 所有人都把这话当成疯话。然而，当犯人被带上绞架时，那只烤熟的公鸡竟然真的从盘子里站了起来，并嘹亮地啼鸣。奇迹发生，信徒被当场释放。多年后，他重返巴塞卢什，为感恩而建立了一座圣地亚哥使徒的十字架。这个故事像野火一样传遍了葡萄牙，尤其是在民间艺术领域，那只色彩鲜艳、充满生命力的“花公鸡”形象被不断描绘和烧制，从巴塞卢什出发，最终飞入了千家万户，成为了代表公正、好运和信仰的国民符号。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`但巴塞卢什的历史远比这个传说更为深厚。这片土地在罗马时期就已是重要的定居点，横跨卡瓦杜河（Rio Cávado）的老桥（Ponte de Barcelos）其基础便可追溯到罗马时代，是连接内陆与海岸的战略要道。中世纪早期，这里成为了布拉加主教区的重要封地。1385年，葡萄牙王国第一任国王阿方索·恩里克斯的曾孙，若昂一世国王，将巴塞卢什册封给其信任的骑士“八星公爵”努诺·阿尔瓦雷斯·佩雷拉的女婿，创建了巴塞卢什公爵领地。正是这一时期，巴塞卢什作为区域行政与商业中心的地位得以巩固，每周四举行大型露天集市的传统也大概在这一时期被正式确立和延续下来，吸引着来自山区的农民、沿海的渔夫和远方的商人。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`我们今天看到的城市肌理，很大程度上成形于十五至十六世纪的黄金时期。建于十五世纪末的主教堂（Igreja Matriz）是这一繁荣的见证，它最初是罗马式风格，后来增建的部分则明显带有曼努埃尔式的华丽装饰——那些仿佛被海水浸透过的绳索、船锚石雕，无声诉说着葡萄牙大航海时代的荣光。教堂旁边的“公鸡塔楼”（Torre de Barcelos）原本是中世纪城墙的防御塔之一，如今顶部矗立着一座巨大的彩色陶制公鸡风向标，它既是地标，也像是这个城市为自己传奇起源树起的一座不朽纪念碑。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`几个世纪以来，战争、瘟疫、经济起落都曾掠过这里，但每周四的集市（Feira）就像卡瓦杜河的河水，从未真正断流。它最初是农产品、牲畜和手工制品的交换中心，后来逐渐加入了陶器、藤编、亚麻织物等特色手工业。二十世纪，随着“花公鸡”传说被官方推广为旅游和文化符号，集市上也出现了大量相关的工艺品，但这并未削弱它本地市集的核心功能。你依然能看到老农带着自家后院种的几捆葱来卖，铁匠现场打制农具，藤匠手指翻飞编织篮子。这个集市就像一个活的历史层理剖面图，最古老的交易需求与最新的文化符号并置，毫不违和。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要体验百分百的巴塞卢什，你必须将行程安排在周四。建议搭乘最早一班从波尔图出发的火车（约早上7点发车），这样你可以在8点前抵达，正值集市最鲜活、游客尚少的黄金时段。整体游览耗时约5-6小时，节奏宜张弛有度：先用2-3小时彻底沉浸于集市的感官轰炸与淘宝乐趣；然后当正午烈日升高、集市人群渐散时，转入历史街区与室内空间，享受荫凉与静谧；最后以一段沿河漫步和对传说遗迹的追寻收尾。这样的安排既能捕捉集市的生命力，又能深入感受小镇的历史底蕴，完美平衡了喧闹与沉思。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`集市日务必穿最舒适的步行鞋，石板路不平且可能沾有泥土或水渍。看好随身财物，热闹环境下扒手可能混迹其中。许多老派摊主只收现金（欧元），尤其是购买农产品和小手工艺品时，记得提前备好零钱。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一头扎进周四集市（Feira de Barcelos）由帆布顶棚和古老石楼围出的迷宫里，让烤栗子的烟熏味和刚出炉的“葡式三明治”（Francesinha）的浓郁芝士香气引领你的脚步。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在主广场（Largo da Porta Nova）的露天摊档前驻足，看银发的老匠人用看似随意的笔触，在黑色陶土胚上瞬间点画出那只标志性的、色彩绚丽的花公鸡图案。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进巍峨的巴塞卢什主教堂，让眼睛适应昏暗的光线，寻找内部那些讲述圣地亚哥朝圣故事和海洋元素的曼努埃尔式石雕细节。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`探访毗邻的巴塞卢什考古博物馆及露天遗址，赤脚感受（如果允许）镶嵌在古老罗马别墅地板上的马赛克画作的冰凉触感，想象两千年前的生活。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上或仅仅仰望那座承载着城市传说的“公鸡塔楼”，看顶端那只巨大的陶制公鸡在北大西洋吹来的风中缓缓转动，与天空对话。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过十四世纪的哥特式拱门（Porta Nova），沿着安静的后街漫步，在某个被凌霄花覆盖的阳台下发现一家家庭经营的陶器作坊，聆听转盘的低吟。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到卡瓦杜河畔，踏上古老的罗马桥（Ponte de Barcelos），回望整个老城层层叠叠的屋顶和教堂塔楼，找找河堤上那处著名的、刻画着公鸡与朝圣者故事的彩陶壁画。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`集市制高点俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`登上主教堂侧面的小斜坡或利用周边咖啡馆的二楼露台，在上午9-10点光线最佳时，用广角镜头捕捉下方帆布棚顶波浪般延展、人群如彩色溪流般涌动的盛大场面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`花公鸡陶匠特写`}</h4>
+                  <p className="text-sm text-gray-700">{`在集市的手工艺区，征得同意后，近距离聚焦老陶匠布满皱纹却稳健无比的手，以及他笔下正在诞生的那只色彩未干的公鸡眼睛，故事感瞬间拉满。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`公鸡塔楼与老街框架`}</h4>
+                  <p className="text-sm text-gray-700">{`从Rua Direita街巷的一端，利用两侧古老的石砌建筑作为自然画框，将尽头矗立的公鸡塔楼完整纳入，下午侧光时石头的质感与塔楼的轮廓最为迷人。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`主教堂曼努埃尔窗光影`}</h4>
+                  <p className="text-sm text-gray-700">{`中午时分进入主教堂，找到那扇华丽的曼努埃尔风格石窗，等待一束阳光恰好穿透，在地面投下充满几何美感和历史温度的光影图案，拍摄静物或人像剪影绝佳。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`卡瓦杜河畔全景倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏前步行至罗马桥对岸的河滨步道，使用长焦镜头压缩空间，将古老的桥梁、教堂塔楼、彩色民居与它们在平静河面上的完美倒影一并收纳，构成一幅宁静的古典油画。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄摊主和手工艺人时，请务必先微笑示意并取得同意，一个简单的“Foto？”和竖起的大拇指通常能换来友善的回应。尝试用长焦镜头在远处捕捉自然的状态，比突兀的近距离拍摄更能获得有生命力的画面。集市色彩极其丰富，可以尝试将鲜艳的水果、陶器与摊主朴素的衣着作为对比色块来构图。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`集市旁的石屋民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`直接住在俯瞰主广场的百年石砌公寓里，周四清晨你将在床榻上被楼下集市搭建的声响和渐渐升腾的生活气息温柔唤醒，成为第一个踏入集市的人。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`河岸精品设计酒店`}</h4>
+                  <p className="text-sm text-green-800">{`位于卡瓦杜河畔，由一栋老磨坊改造而成，房间拥有巨大的落地窗，将古老的罗马桥与潺潺流水框成一幅流动的壁画，现代设计与历史景观形成奇妙对话。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`乡间庄园酒店（Quinta）`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于巴塞卢什近郊的葡萄园与林地之中，享受真正的葡萄牙贵族庄园生活，在宽敞的露台上品尝当地产的绿酒（Vinho Verde），远离喧嚣后更能回味集市的浓烈。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`历史中心家庭旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`由一对热爱本地文化的夫妇经营，隐藏在后街一栋满是鲜花的房子里，主人会为你手绘地图，标记只有本地人才知道的最佳陶器作坊和传统餐馆。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果计划周四体验集市，请务必提前数周预订当晚住宿，因为许多葡萄牙本国游客也会前来赶集并过夜。老城中心的住宿最能感受氛围，但周五清晨可能仍有清洁收尾的嘈杂；河畔或郊外则更为宁静。夏季来访，选择有空调的住宿是明智之举，北方内陆的夏日午后可能相当炎热。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开巴塞卢什时，我的背包里多了一只沉甸甸的、手绘的花公鸡陶罐，还有指尖仿佛洗不掉的，混合着香料、泥土与烤面包的复杂气味。但比这些实物更重的，是一种被真诚的生活热情充盈过的感觉。在这个时代，太多地方的历史被精心消毒、包装成仅供观赏的标本，而巴塞卢什却骄傲地保持着它的“混乱”与“烟火气”。它不介意让你看到它作为生活场所最本真、甚至有些粗糙的一面——嘈杂的议价、随意堆放的货物、历经风雨略显破败的墙角。但正是在这种不加修饰的真实里，那个关于奇迹、公正与信仰的传说，才显得如此可信，如此有力量。因为它就诞生于这样的土壤，并依然滋养着这里每一天的日常。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，如果你厌倦了那些千篇一律、只为镜头存在的“打卡地”，如果你想知道一个民族的符号如何从街头巷尾生长出来，如果你渴望一场能调动所有感官、能触摸到生活质地的旅行，那么请务必在一个周四，来到巴塞卢什。这里没有令人屏息的宏大宫殿，却有一整个民族乐观精神的鲜活源头；没有孤独的艺术杰作，却有无数双手世代传递的生活艺术。在这里，你会明白，最动人的文化遗产，从来不是被供奉起来的，而是在市集的喧嚣声中，在陶匠的指尖上，在每一个为生计忙碌也为传说骄傲的普通人的笑容里，生生不息地流传着。这不仅仅是一次游览，这是一次对生活本身的朝圣。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/convent-of-christ-tomar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    托
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">托马尔骑士团修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Convent of Christ</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alcobaca-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔科巴萨修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alcobaça Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/fortress-of-almeida" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔梅达要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Almeida</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

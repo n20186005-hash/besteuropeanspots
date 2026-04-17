@@ -192,36 +192,36 @@ export default function SanctuaryOfApolloAtDelphiPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/veria" className="block group">
+              <a href="/attractions/medieval-city-rhodes" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    韦
+                    罗
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦里亚古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Veria</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">罗德岛老城（骑士街）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rhodes Old Town (Street of the Knights)</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/mycenae" className="block group">
+              <a href="/attractions/monemvasia" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    迈
+                    莫
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迈锡尼遗址</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mycenae</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫奈姆瓦夏</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monemvasia</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/arachova-parnassus" className="block group">
+              <a href="/attractions/papigo-villages-zagori" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    阿
+                    帕
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿拉霍瓦</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arachova</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕皮戈（扎戈里山区传统石屋村落）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Papigo (Zagori Stone Villages)</p>
                   </div>
                 </div>
               </a>

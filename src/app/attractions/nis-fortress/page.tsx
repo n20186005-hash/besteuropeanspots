@@ -1,312 +1,226 @@
-import { notFound } from "next/navigation";
-import Link from "next/link";
-import type { Metadata } from "next";
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: "尼什古堡 (Niš Fortress)",
-  description: "尼什古堡详细游览指南 - 塞尔维亚最具代表性的中世纪堡垒之一，巴尔干半岛保存较完整的奥斯曼风格军事要塞",
-  openGraph: {
-    title: "尼什古堡 — Niš Fortress",
-    description: "尼什古堡详细游览指南 - 塞尔维亚最具代表性的中世纪堡垒之一",
-    type: "article",
-    siteName: "Best European Spots",
-  },
-};
-
-function Section({
-  title,
-  number,
-  children,
-}: {
-  title: string;
-  number: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section className="py-8 border-b border-border last:border-b-0">
-      <div className="flex items-baseline gap-3 mb-4">
-        <span className="text-xs font-bold text-accent bg-accent/10 w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0">
-          {number}
-        </span>
-        <h2 className="text-xl font-semibold text-primary">{title}</h2>
-      </div>
-      <div className="pl-10">{children}</div>
-    </section>
-  );
-}
-
-function InfoRow({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="flex gap-4 py-3 border-b border-border/50 last:border-b-0">
-      <span className="text-sm font-medium text-muted w-24 flex-shrink-0">
-        {label}
-      </span>
-      <span className="text-sm text-foreground leading-relaxed">{value}</span>
-    </div>
-  );
-}
-
-function Breadcrumb() {
-  return (
-    <nav className="flex items-center gap-2 text-sm text-muted">
-      <Link href="/" className="hover:text-primary transition-colors">
-        Home
-      </Link>
-      <span className="text-muted-light">/</span>
-      <Link href="/#destinations" className="hover:text-primary transition-colors">
-        Destinations
-      </Link>
-      <span className="text-muted-light">/</span>
-      <span className="text-primary font-medium truncate max-w-[200px]">
-        尼什古堡
-      </span>
-    </nav>
-  );
+  title: '尼什要塞 Niš Fortress｜巴尔干半岛保存最完好的奥斯曼堡垒，聆听多瑙河以南的石头史诗 - 最佳欧洲景点',
+  description: '第一眼看到尼什要塞，你可能会觉得它有点……过于平静了。它不像童话里的城堡那样尖顶耸立，也不像一些博物馆式的堡垒那样被精心打扮。它是一大片敦实、泛着黄褐色光泽的石头建筑群，稳稳地坐在尼沙瓦河的拐弯处，像一头晒着太阳的巨兽，懒洋洋地，却又充满不容置疑的存在感。走近它，最先感受到的不是历史的肃杀，而是生活...',
 }
 
 export default function NisFortressPage() {
-  const color = "#8b0000"; // Balkans & Eastern Europe color
-
   return (
-    <article className="min-h-screen">
-      <div
-        className="relative h-64 sm:h-80"
-        style={{
-          background: `linear-gradient(135deg, ${color} 0%, ${color}99 50%, ${color}55 100%)`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black/20" />
-        <div className="absolute inset-0 flex items-end">
-          <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 pb-8">
-            <div className="flex flex-wrap gap-2 mb-4">
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                Fortress
-              </span>
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                巴尔干・东欧
-              </span>
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '尼什要塞', href: '/attractions/nis-fortress' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`尼什要塞・Niš Fortress・塞尔维亚・尼什`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到尼什要塞，你可能会觉得它有点……过于平静了。它不像童话里的城堡那样尖顶耸立，也不像一些博物馆式的堡垒那样被精心打扮。它是一大片敦实、泛着黄褐色光泽的石头建筑群，稳稳地坐在尼沙瓦河的拐弯处，像一头晒着太阳的巨兽，懒洋洋地，却又充满不容置疑的存在感。走近它，最先感受到的不是历史的肃杀，而是生活气息：城墙脚下是开阔的公园，草地上躺着晒太阳的年轻人，慢跑的人从你身边掠过，孩子们在古老的炮筒边玩耍。空气中混合着青草、河水以及从附近咖啡馆飘来的咖啡香。这座堡垒，早已卸下了盔甲，成了尼什人最爱的后院。
+穿过那座宏伟的、刻着奥斯曼帝国题记的主城门“斯坦博尔门”，仿佛穿过一道时间的过滤网。门洞里的石头被岁月和无数手掌打磨得异常光滑，阴凉瞬间裹挟了你，还能闻到一种潮湿的、属于石头本身的凉沁气味。门内的世界豁然开朗，是一片巨大的绿色草坪，被高大的城墙环抱。你会发现，这里简直是个建筑“混血儿”的展览场：一眼就能认出的奥斯曼式饮水亭、一座小小的东正教教堂、一片罗马遗址的挖掘现场、还有塞尔维亚现代艺术的雕塑点缀其间。这种毫无违和感的杂糅，恰恰是它最迷人的地方——历史在这里不是被清除，而是被一层层地接纳和展示。
+最打动人的，或许是它的“日常性”。傍晚时分，本地人会三三两两地走上宽阔的城墙顶端散步。站在炮位旁，脚下是平静流淌的尼沙瓦河，对岸是现代城市的灯火。你会看到老人静静地坐着看夕阳，情侣倚着雉堞轻声交谈。没有激昂的解说，没有隔离的围栏。战争与和平、征服与生活、异族统治者与本地居民的故事，全都凝结在这些冰冷的石头里，又被当代人温暖的日常活动所融化。它不是一座供人远观的历史标本，而是一个依然在呼吸、在参与城市生命进程的有机体。在这里，你触摸到的不仅是石头，更是一座城市坚韧而包容的心跳。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到尼什要塞，你可能会觉得它有点……过于平静了。它不像童话里的城堡那样尖顶耸立，也不像一些博物馆式的堡垒那样被精心打扮。它是一大片敦实、泛着黄褐色光泽的石头建筑群，稳稳地坐在尼沙瓦河的拐弯处，像一头晒着太阳的巨兽，懒洋洋地，却又充满不容置疑的存在感。走近它，最先感受到的不是历史的肃杀，而是生活气息：城墙脚下是开阔的公园，草地上躺着晒太阳的年轻人，慢跑的人从你身边掠过，孩子们在古老的炮筒边玩耍。空气中混合着青草、河水以及从附近咖啡馆飘来的咖啡香。这座堡垒，早已卸下了盔甲，成了尼什人最爱的后院。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过那座宏伟的、刻着奥斯曼帝国题记的主城门“斯坦博尔门”，仿佛穿过一道时间的过滤网。门洞里的石头被岁月和无数手掌打磨得异常光滑，阴凉瞬间裹挟了你，还能闻到一种潮湿的、属于石头本身的凉沁气味。门内的世界豁然开朗，是一片巨大的绿色草坪，被高大的城墙环抱。你会发现，这里简直是个建筑“混血儿”的展览场：一眼就能认出的奥斯曼式饮水亭、一座小小的东正教教堂、一片罗马遗址的挖掘现场、还有塞尔维亚现代艺术的雕塑点缀其间。这种毫无违和感的杂糅，恰恰是它最迷人的地方——历史在这里不是被清除，而是被一层层地接纳和展示。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，或许是它的“日常性”。傍晚时分，本地人会三三两两地走上宽阔的城墙顶端散步。站在炮位旁，脚下是平静流淌的尼沙瓦河，对岸是现代城市的灯火。你会看到老人静静地坐着看夕阳，情侣倚着雉堞轻声交谈。没有激昂的解说，没有隔离的围栏。战争与和平、征服与生活、异族统治者与本地居民的故事，全都凝结在这些冰冷的石头里，又被当代人温暖的日常活动所融化。它不是一座供人远观的历史标本，而是一个依然在呼吸、在参与城市生命进程的有机体。在这里，你触摸到的不仅是石头，更是一座城市坚韧而包容的心跳。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`尼什要塞`} />
+                <InfoRow label="英文名称" value={`Niš Fortress`} />
+                <InfoRow label="正式名称" value={`Niš Fortress`} />
+                <InfoRow label="国家" value={`塞尔维亚`} />
+                <InfoRow label="城市" value={`尼什`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座要塞是奥斯曼帝国在巴尔干半岛北部最重要的军事堡垒之一，扼守着从伊斯坦布尔通往中欧的战略要道。`} />
+                <InfoRow label="建筑特色" value={`一座宏大的星形棱堡式要塞，拥有保存完好的巨大城墙、城门、炮台以及内部混杂着不同历史时期留下的建筑“痕迹”。`} />
+                <InfoRow label="建筑风格" value={`主体为18世纪初重建的奥斯曼帝国军事建筑风格，但基石中大量再利用了更早的罗马、拜占庭及中世纪塞尔维亚的材料。`} />
+                <InfoRow label="文化价值" value={`它是尼什城市层叠历史的物理缩影，直观展现了数个世纪以来征服、抵抗与共存在这片土地上的复杂叙事。`} />
+              </div>
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">
-              尼什古堡
-            </h1>
-            <p className="text-lg text-white/80">
-              Niš Fortress · 塞尔维亚 · 尼什
-            </p>
-          </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`要塞公园区域全天24小时开放。城墙、城门及主要历史建筑内部参观受自然光线限制，建议白天游览。地下通道（如有开放）等特殊部分可能有季节性开放安排，通常在五月至十月的白天有向导带领参观，行前建议在尼什旅游信息中心确认当日具体安排。`} />
+              <InfoRow label="门票价格" value={`进入要塞主体区域及公园完全免费。个别临时性的艺术展览或文化活动可能在堡垒内特定建筑中举办，届时可能收取象征性门票（约200-300第纳尔）。聘请持证向导进行深度历史讲解服务需额外付费，约每小时1500-2500第纳尔，建议在旅游信息中心预约。`} />
+              <InfoRow label="地址" value={`Niš Fortress, Niš, Serbia`} />
+              <InfoRow label="交通方式" value={`从尼什康斯坦丁大帝机场出发，搭乘出租车是最便捷的方式，车程约20分钟，费用在1000-1500第纳尔之间。若从贝尔格莱德乘火车或大巴抵达尼什主站，前往要塞非常方便：出站后，搭乘4路或5路公交车，在“中心广场（Trg Kralja Milana）”站下车，步行穿过热闹的步行街约10分钟即可抵达要塞东侧的主入口；或者，直接沿着尼沙瓦河岸散步约25分钟也可到达。公交车票可在报亭购买或上车向司机购买，单程约50第纳尔。尼什市区不大，从任何市中心酒店步行至要塞基本都在15分钟范围内。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要讲尼什要塞的故事，就不能只从奥斯曼时代讲起，因为这里的每一块石头，都可能背负着更古老的记忆。我们现在看到的堡垒地基之下，沉睡着罗马时期的纳伊苏斯（Naissus）——那可是罗马皇帝君士坦丁大帝的出生地。想象一下，早在奥斯曼人到来的千年前，罗马军团就在这里筑起了营垒。后来的拜占庭人、斯拉夫人、保加利亚人、中世纪塞尔维亚王国，都曾在此争夺、修建。所以，当奥斯曼帝国在15世纪中叶最终占领尼什后，他们面对的已经是一个历经千年争夺的战略要冲。最初，他们沿用并加固了中世纪留下的城堡，但真正决定性的转变，发生在18世纪初。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`那是一个风声鹤唳的时代。奥地利军队在欧根亲王带领下势如破竹，一度从奥斯曼手中夺取了尼什。虽然奥斯曼帝国后来又重新夺回，但惨痛的教训让他们下定决心，要建造一座无法被攻破的现代堡垒。于是，在1719-1723年间，一场浩大的工程启动了。帝国调集了最优秀的工程师，采用了当时欧洲最先进的“棱堡”防御体系——就是我们现在看到的星形结构，这种形状能让防守方的火力无死角地覆盖城墙的每一个角度。据说，建造时征用了成千上万的当地劳工，石料不够？那就从罗马和拜占庭的废墟上直接取用。如果你仔细观察城墙底部，很容易发现那些雕刻着拉丁铭文或早期基督教符号的石头，它们被随意地、甚至颠倒地砌进了新的墙体中。这不是浪费，而是一种冷酷的宣告：旧的时代已被彻底碾碎，成为新帝国基业的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`堡垒建成后，确实一度固若金汤，成为奥斯曼帝国向中欧扩张和防御欧洲反扑的绝对支点。但历史的车轮从未停止。19世纪，塞尔维亚民族复兴的浪潮汹涌澎湃，尼什成了斗争的前沿。1878年，在俄土战争的大背景下，经过激烈战斗，塞尔维亚军队终于攻克了这座象征奥斯曼统治的坚强堡垒。你可以在要塞里找到一块纪念这场“尼什解放”的石碑。颇具意味的是，胜利者并没有选择摧毁它，就像当年奥斯曼人没有摧毁更早的遗迹一样。塞尔维亚人接管后，拆除了里面的清真寺和奥斯曼兵营，但保留了主体城墙结构，并在里面建起了军营、监狱（后来还真关押过一些政治犯），甚至电影院。它从奥斯曼的矛头，转变为新生民族国家的盾牌与工具。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`二十世纪的战火再次洗礼了它。两次世界大战中，它先后被德军和盟军轰炸，伤痕累累。但也许正是因为它的结构太过敦实，主体又一次幸存了下来。战后，南斯拉夫政府没有对它进行大规模修复，反而采取了一种“放任”的态度——不清洗，不粉饰，就让它保持着沧桑的模样，只清理了废墟，将其开辟为市民公园。这个决定，在今天看来充满了智慧。它让这座要塞避免了成为迪士尼式的历史布景，而是保留了所有历史层理的原始质感。每一道弹痕，每一块修补的砖石，都在无声地讲述最近的故事。从罗马的基石，到奥斯曼的骄傲，再到塞尔维亚独立的见证，以及二十世纪战争的伤疤——尼什要塞就像一本摊开的、用石头写成的立体史书，每一页都清晰可触。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正领略尼什要塞的韵味，我强烈建议你在下午晚些时候，大约日落前三个小时开始你的探索。这个时间点，白天的暑气开始消退，光线变得金黄柔和，正是拍照和感受氛围的黄金时刻。整体游览可以安排2-3个小时的悠闲节奏。路线可以从东面的主城门（斯坦博尔门）开始，这是最经典的入场方式，然后逆时针沿着城墙内侧漫步，逐一探访内部的“历史碎片”，最后登上西北角的城墙，等待日落。这样安排的好处是，你能先沉浸在堡垒宏大的内部空间和复杂的历史层理中，最后以一场俯瞰全城和尼沙瓦河的壮丽日落作为高潮收尾，体验会非常有层次感。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季正午阳光暴晒，城墙上毫无遮阴，务必避开此时段游览，并随时携带饮用水。部分城墙边缘缺乏防护栏，行走和拍照时务必注意脚下安全。要塞内部几乎没有商业设施，只有零星小卖部，建议自带少量零食。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从刻有华丽阿拉伯书法的大门洞穿过，用手掌感受一下那被无数代人触摸得如皮革般温润光滑的中央石柱。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直走向要塞中心那片开阔的绿地，故意放慢脚步，感受脚下可能踩过的罗马街道与奥斯曼地基。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`去寻找那座小巧可爱的圣天使长加百列东正教堂，听听里面可能传来的晚祷歌声，对比它与周围军事建筑的截然不同的气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着北侧城墙根散步，仔细辨认砌墙石料中那些“不协调”的罗马雕花柱头或早期基督教十字架纹样。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`爬上西北角的棱堡制高点，找一处古老的炮位坐下，看着尼沙瓦河在西斜的阳光下变成一条金色的缎带。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果开放，一定要低头钻进那个阴暗潮湿的地下弹药库通道，体验一下绝对寂静中自己心跳放大的感觉。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在黄昏时分走下城墙，回到内部草坪，观察当地人如何在这片历史场域里遛狗、慢跑、约会，完成从历史观察者到生活见证者的视角转换。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`斯坦博尔门洞内向外拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光能完美勾勒出门洞的深邃轮廓，将门洞作为画框，对准门外流动的城市生活或绿地公园的人物剪影。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`西北角棱堡顶端拍摄河景与城市全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，利用城墙的垛口作为前景框架，将金色的尼沙瓦河、对岸的城市建筑以及远山一同纳入镜中。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`东侧城墙外护城河边的仰视角度`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，从公园的草地上仰拍，可以拍到宏伟的城墙与天空构成的极简几何图形，突出其庞大与静谧。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`内部罗马遗址与奥斯曼饮水亭同框`}</h4>
+                  <p className="text-sm text-gray-700">{`找到能将罗马石柱废墟和后方典型的奥斯曼八角形饮水亭置于同一画面的角度，用一张照片浓缩时空的交叠。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`捕捉石头细节`}</h4>
+                  <p className="text-sm text-gray-700">{`寻找那些镶嵌在奥斯曼墙体内的、带有明显罗马浮雕或中世纪纹章的石块，使用大光圈镜头进行特写拍摄，讲述“石头中的历史”。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用无人机拍摄前务必了解当地法规，要塞作为历史遗迹可能有空域限制。尊重当地人的隐私，拍摄人物时最好先微笑示意。塞尔维亚的日出日落时间季节差异大，出行前请查好具体时间以规划拍摄。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在要塞仅一街之隔的老城区步行街旁的家庭公寓，开窗就能看到要塞城墙的侧面，晚上听着楼下咖啡馆隐约的吉他和笑声入睡。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择尼沙瓦河畔由老房子改造的精品设计酒店，房间保留着原始的砖石墙壁，现代设计与历史感碰撞，步行到要塞只需五分钟。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`入住位于尼什市区边缘山丘上的四星级度假酒店，拥有全景餐厅和泳池，在房间里就能远眺要塞全景和城市灯火，享受静谧与便利的平衡。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`要塞周边是尼什最安全、最富活力的区域之一，晚上散步非常舒服。住在步行可达的距离内，能让你在不同时段（清晨、午后、夜晚）多次轻松造访要塞，感受它不同的面貌。夏季是旅游旺季，这类位置佳的住宿很紧俏，建议提前数周预订。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开尼什要塞很久以后，我脑海里反复出现的，不是它某个宏伟的城门或某段具体的史实，而是一种奇特的“触觉记忆”——那种手心贴在古老门洞石柱上的微凉与光滑。那种感觉，像是一个跨越数百年的握手。这座要塞教给我的，不是简单的胜利或失败的故事，而是关于“ persistence ”（存续）的深沉力量。它没有被塑造成单一的英雄史诗，而是坦然展示着自己的每一道伤疤、每一次改造、每一种文化的叠加。这种不掩饰的复杂，反而赋予它一种令人安心的真实感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个我们习惯于消费被精心净化过的历史景观的时代，尼什要塞的存在像一个温和的提醒。它告诉我们，历史本就是混浊的、层叠的、甚至充满矛盾的。真正的深度，不在于看到多么纯粹的古迹，而在于理解和感受这种层叠本身。站在它的城墙上，看着现代尼什的灯火逐一亮起，你会明白，生活永远是最终的胜利者。它值得每一位旅人专程而来，不仅仅是为了一座保存完好的奥斯曼军事建筑杰作，更是为了上一堂关于时间、记忆与和解的，无声而深刻的课。在这里，你能触摸到巴尔干灵魂中那份特有的坚韧与包容。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/manasija-monastery-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    马
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马纳西亚修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Manasija Monastery</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/smederevo-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯梅代雷沃城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Smederevo Fortress</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/novi-sad-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    诺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">诺维萨德要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Petrovaradin Fortress</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
         </div>
       </div>
-
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Breadcrumb />
-
-        <div className="mt-8">
-          <Section number="1" title="景点简介">
-            <p className="text-base leading-relaxed text-foreground/90">
-              尼什古堡坐落于塞尔维亚南部城市尼什，地处尼沙瓦河与南摩拉瓦河汇流处，是塞尔维亚最具代表性的中世纪堡垒之一，也是巴尔干半岛保存较完整的奥斯曼风格军事要塞。古堡依山傍水、地势险要，呈不规则四边形布局，厚重的石砌城墙、高耸的防御塔楼与蜿蜒的护城河相得益彰，兼具军事防御的雄伟与河畔风光的柔美，承载着尼什千年的历史变迁与多文明交融的印记，是感受塞尔维亚南部历史底蕴与人文风情的必访之地。
-            </p>
-          </Section>
-
-          <Section number="2" title="基本信息">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow 
-                label="开放时间" 
-                value="古堡整体全天免费开放，无统一闭园时间，建议游览时间为8:00-19:00。冬季（11-次年3月）光线较暗，且部分区域可能因天气原因临时封闭，建议17:00前结束游览；夏季（6-8月）可延长至20:00，傍晚时分可欣赏古堡与河畔的落日美景，氛围极佳。古堡内小型展览区开放时间为9:00-17:00，周一闭馆，具体以现场公示为准。" 
-              />
-              <InfoRow 
-                label="门票价格" 
-                value="古堡整体免费对外开放，无任何门票费用；内部临时展览、讲解服务需单独付费，讲解服务约180塞尔维亚第纳尔/人（约合1.5欧元），学生、65岁以上老人可享半价优惠，12岁以下儿童免费。部分塔楼登顶需支付40塞尔维亚第纳尔/人，残疾人及陪同人员可免费登顶。" 
-              />
-              <InfoRow 
-                label="详细地址" 
-                value="Trg Kralja Milana 1, Niš 18000, Serbia（核心区域位于尼什市中心，紧邻尼沙瓦河，北邻尼什老城，南接河畔休闲区，地理位置优越，步行即可抵达市中心主要商圈，可远眺尼沙瓦河全景与城市风貌）。" 
-              />
-              <InfoRow 
-                label="交通方式" 
-                value="外部交通方面，可乘坐飞机抵达尼什 Constantine the Great 机场，机场距离古堡约8公里，打车前往约15分钟，费用约500塞尔维亚第纳尔；也可乘坐飞机抵达贝尔格莱德尼古拉·特斯拉国际机场，再转乘长途大巴前往尼什汽车站，车程约3小时，大巴站距离古堡约10分钟步行路程。市内交通方面，可乘坐2路、5路、9路公交直达古堡入口，公交票价约70塞尔维亚第纳尔/人；打车从市中心任意地点前往古堡，费用约200-300塞尔维亚第纳尔；此外，可沿尼沙瓦河畔步行前往，沿途可欣赏河畔风光，步行约15分钟即可抵达，是感受尼什城市氛围的绝佳方式。" 
-              />
-            </div>
-          </Section>
-
-          <Section number="3" title="历史背景">
-            <div className="space-y-6 text-foreground leading-relaxed">
-              <p>
-                尼什古堡的历史渊源可追溯至古罗马时期，其发展历程贯穿了古罗马、拜占庭、奥斯曼等多个时代，是巴尔干半岛历史变迁的"活化石"。早在公元1世纪，古罗马帝国就在此修建军事据点，作为连接巴尔干半岛与中东地区的交通要道，当时的据点以土坯和木材为主要材料，规模较小，主要用于防御和传递军事信息，见证了古罗马帝国在巴尔干地区的统治与繁荣。
-              </p>
-              <p>
-                中世纪时期，拜占庭帝国接管此地，对原有据点进行扩建，改用石砌结构，增设防御塔楼和护城河，逐步形成了如今古堡的雏形，成为拜占庭帝国在南部巴尔干地区的重要军事要塞。这一时期，古堡不仅承担着军事防御功能，还成为当地的行政和文化中心，融合了拜占庭建筑风格与斯拉夫建筑元素，石砌城墙更加厚重，塔楼设计更加精巧，彰显着当时高超的建筑工艺。
-              </p>
-              <p>
-                14世纪末，奥斯曼土耳其帝国征服尼什，古堡被改为军事据点，期间进行了大规模改造和扩建，融入了大量奥斯曼建筑元素，增设了清真寺、土耳其浴室和瞭望塔等设施，成为奥斯曼帝国在巴尔干半岛南部的重要统治据点，也是当时尼什地区的军事和行政核心。据记载，这一时期的古堡规模达到顶峰，城墙周长约2.5公里，设有4座主城门和12座防御塔楼，护城河环绕四周，防御体系十分完善，是当时巴尔干地区最坚固的军事要塞之一。
-              </p>
-              <p>
-                19世纪初，塞尔维亚人民发动起义，反抗奥斯曼帝国的统治，尼什古堡成为起义军与奥斯曼军队激战的重要战场，古堡在战火中遭到一定损毁，部分城墙和塔楼坍塌。1833年，尼什被纳入塞尔维亚版图，古堡逐渐失去军事防御功能，成为历史遗迹。20世纪以来，塞尔维亚政府多次对古堡进行修复与保护，严格遵循"修旧如旧"的原则，重点修复了坍塌的城墙、塔楼和城门，还原了古堡的历史风貌，同时保留了不同时代的建筑痕迹。
-              </p>
-              <p>
-                如今，尼什古堡不仅是塞尔维亚重要的历史文化遗址，也是当地举办文化活动、音乐会和民俗展览的重要场所，每年八月，著名的尼什维尔爵士节都会在古堡的遗迹之上举行，吸引着来自世界各地的游客和音乐人。每一块石板、每一座塔楼，都镌刻着尼什千年的辉煌与沧桑，承载着塞尔维亚人民抵御外敌、守护家园的集体记忆，也见证了古希腊、罗马、斯拉夫、奥斯曼等多种文明的交融与碰撞，具有深厚的历史与文化内涵。
-              </p>
-            </div>
-          </Section>
-
-          <Section number="4" title="游览路线">
-            <div className="space-y-6">
-              <p className="text-sm text-foreground leading-relaxed">
-                尼什古堡核心区域面积广阔，呈不规则四边形布局，周边环绕着尼沙瓦河，建议安排半天时间游览，以下为经典步行游览路线，可全面领略古堡的军事风貌、历史遗迹与河畔风光，路线全程约2.5公里，耗时2.5-3.5小时，中途可在古堡内的草坪或河畔休息，感受慢节奏的时光，沉浸式体验古堡的历史韵味。
-              </p>
-
-              <div className="bg-surface rounded-lg p-5">
-                <h3 className="text-lg font-semibold text-primary mb-4">经典步行游览路线</h3>
-                <div className="space-y-3 text-sm text-foreground leading-relaxed">
-                  <p><strong>起点：尼什古堡主城门</strong>（标志性的石砌拱门，设有古堡简介牌和导览图，是古堡的正门，可在此打卡拍照，感受古堡的雄伟气势）</p>
-                  
-                  <p><strong>第一站：主城门与城墙</strong>（参观保存完好的主城门，触摸厚重的石砌城墙，观察城墙之上的射击孔和防御设施，了解其军事防御功能，城墙顶部可漫步，欣赏尼沙瓦河与尼什城市风貌）</p>
-                  
-                  <p><strong>第二站：奥斯曼清真寺遗迹</strong>（古堡内保存最完整的奥斯曼时期建筑遗迹，残留的穹顶和墙体展现着奥斯曼建筑的独特风格，可了解当时的宗教文化与生活场景）</p>
-                  
-                  <p><strong>第三站：防御塔楼</strong>（古堡内最高的塔楼，登顶可俯瞰整个古堡全景、尼沙瓦河风光以及尼什老城的风貌，塔楼内展示着中世纪的军事器械和历史文物）</p>
-                  
-                  <p><strong>第四站：护城河与吊桥</strong>（古堡的重要防御设施，可在河畔漫步，欣赏护城河与古堡的相映之景，想象中世纪军事防御的森严，吊桥为后期修复，还原了当时的风貌）</p>
-                  
-                  <p><strong>第五站：古堡内部遗迹区</strong>（穿梭在散落的建筑遗迹之间，感受不同时代的建筑风格交融，这里留存着古罗马、拜占庭、奥斯曼时期的建筑碎片，偶尔会举办小型历史展览）</p>
-                  
-                  <p><strong>第六站：尼沙瓦河畔观景台</strong>（位于古堡南侧，紧邻尼沙瓦河，可欣赏河流的辽阔风光，远眺河畔的植被与城市建筑，感受自然与人文的融合之美）</p>
-                  
-                  <p><strong>终点：古堡西门</strong>（周边有当地特色小吃摊、纪念品商店和咖啡馆，可购买特色手工艺品，品尝当地美食，结束游览）。</p>
-                </div>
-                
-                <div className="mt-4 p-3 bg-primary-light rounded-lg">
-                  <p className="text-sm text-foreground leading-relaxed">
-                    <strong>温馨提示：</strong>古堡内多为石砌路面，部分路段不平整且有坡度，建议穿舒适的步行鞋；夏季（6-8月）阳光强烈，可携带遮阳帽、防晒霜，适量补充水分；冬季气温较低，部分路面可能结冰，注意防滑。若对历史文化感兴趣，可在入口处租用讲解设备或跟随当地讲解员，深入了解古堡的历史典故与建筑特色，提升游览体验。此外，旅游旺季（5-9月）游客较多，建议避开正午人流高峰，清晨或傍晚游览体验更佳，傍晚时分，夕阳洒在古堡城墙上，氛围感十足。
-                  </p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="5" title="拍照机位">
-            <div className="space-y-6">
-              <p className="text-sm text-foreground leading-relaxed">
-                尼什古堡依山傍水，厚重的石砌建筑与湛蓝的尼沙瓦河、翠绿的植被相映，光影层次丰富，既有中世纪军事堡垒的雄伟沧桑，又有河畔风光的柔美灵动，同时融合了多种文明的建筑元素，是拍照出片的绝佳之地。以下推荐几个经典拍照机位，涵盖全景、建筑细节、河畔风光等不同风格，无论是手机还是相机，都能拍出高质量照片，展现古堡的独特魅力。
-              </p>
-
-              <div className="grid gap-6">
-                <div className="bg-surface rounded-lg p-5">
-                  <h3 className="text-lg font-semibold text-primary mb-3">经典拍照机位</h3>
-                  <div className="space-y-3 text-sm text-foreground leading-relaxed">
-                    <p><strong>1. 防御塔楼顶端：</strong>这是拍摄古堡全景的最佳机位，登顶后可360度俯瞰整个尼什古堡，不规则四边形的古堡格局、蜿蜒的城墙、高耸的塔楼与尼沙瓦河的美景尽收眼底，清晨光线柔和时，可拍出古堡的静谧与古朴，凸显历史的厚重感；傍晚夕阳西下时，阳光洒在石砌城墙上，呈现出温暖的金黄色，搭配尼沙瓦河的波光粼粼，氛围感拉满，建议携带广角镜头拍摄全景，捕捉古堡与河流、城市的交融之景。</p>
-                    
-                    <p><strong>2. 尼沙瓦河畔观景台：</strong>位于古堡南侧，是拍摄古堡与尼沙瓦河同框的绝佳场景。可以古堡的城墙和塔楼为主体，搭配宽阔的河流和远处的城市建筑，采用远景构图，展现自然与人文的融合之美；也可蹲在河畔，以河水为前景，拍摄古堡的倒影，虚实结合，更具层次感。最佳拍摄时间为日落时分，夕阳的余晖洒在河面和城墙上，画面极具感染力，也可拍摄古堡的落日剪影，简约而有格调。</p>
-                    
-                    <p><strong>3. 主城门处：</strong>主城门是古堡的标志性建筑，厚重的石砌拱门、斑驳的墙面和古老的雕刻，都极具历史感，拱门之上还留存着不同时代的建筑痕迹，彰显着多文明的交融。可采用对称构图，拍摄城门的全貌，展现其庄严雄伟的气质；也可站在城门内侧，以拱门为框架，拍摄古堡内部的城墙和塔楼，虚实结合，突出古堡的纵深感。建议在清晨拍摄，光线柔和，可更好地呈现墙面的纹理和雕刻细节，凸显古堡的历史沧桑感。</p>
-                    
-                    <p><strong>4. 古堡内部遗迹区：</strong>这里散落着古罗马、拜占庭、奥斯曼时期的建筑碎片、雕刻和城墙遗迹，是拍摄人文纪实类照片的绝佳场景。可近距离拍摄建筑的石砌纹理、古老的雕刻图案，展现不同时代的建筑工艺；也可在草坪上取景，捕捉阳光透过树叶洒在遗迹上的光影效果，营造出静谧而沧桑的氛围，适合拍摄复古风、纪实风照片。</p>
-                    
-                    <p><strong>5. 护城河沿岸：</strong>沿着护城河漫步，可拍摄古堡的城墙与护城河的相映之景，狭窄的护城河与高大的城墙形成鲜明对比，凸显古堡的军事防御特色。可采用侧景构图，拍摄城墙的倒影在水中的画面，或捕捉河畔的绿植与城墙的搭配，营造出清新自然的氛围；清晨时分，护城河面上有薄雾，拍摄出的照片更具朦胧感和故事感，仿佛穿越回中世纪。</p>
-                  </div>
-                </div>
-
-                <div className="bg-primary-light rounded-lg p-5">
-                  <h3 className="text-lg font-semibold text-primary mb-3">拍照小贴士</h3>
-                  <div className="space-y-2 text-sm text-foreground leading-relaxed">
-                    <p><strong>最佳拍摄时间：</strong>最佳拍摄时间为清晨（7:00-9:30）和傍晚（17:30-19:30），光线柔和，光影层次丰富，且游客较少，便于拍摄；建议穿着纯色衣物，避免过于花哨，与石砌古堡、湛蓝河水形成对比，更出片；尊重古堡的历史遗迹，拍摄时避免触摸和损坏遗迹，禁止在遗迹上刻画；携带广角镜头拍摄全景，长焦镜头拍摄建筑细节和河畔特写，效果更佳；若想拍摄人文气息浓厚的照片，可在傍晚拍摄当地居民在古堡内休闲散步的场景，还原古堡的生活气息。</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="6" title="附近景点">
-            <div className="space-y-4">
-              <p className="text-sm text-foreground leading-relaxed">
-                尼什古堡位于尼什市中心，周边景点丰富，距离较近，游览完古堡后，可根据自身时间安排前往，既能丰富行程，也能更全面地了解尼什的历史文化与自然风光，以下推荐几个距离古堡较近、值得一去的景点，均可通过步行或短途公交、打车抵达，出行十分便利。
-              </p>
-
-              <div className="grid gap-4">
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">1. 尼沙瓦河畔长廊</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">紧邻古堡南侧，步行3分钟即可抵达，是沿着尼沙瓦河修建的休闲长廊，全长约1.2公里，沿途植被茂盛，设有休闲座椅、观景平台和小型雕塑，可漫步长廊，欣赏尼沙瓦河的辽阔风光，感受河畔的宁静与惬意。长廊周边有众多当地餐厅、咖啡馆和小吃摊，可一边品尝美食，一边欣赏河景，全天免费开放，是游览古堡间隙休闲放松的绝佳去处。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">2. 尼什 skull tower（头骨塔）</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离古堡约1公里，可步行15分钟或乘坐2路公交直达，是塞尔维亚重要的历史纪念遗址，建于19世纪初，是为了纪念反抗奥斯曼帝国统治的塞尔维亚起义军将士而建，塔身由起义军将士的头骨堆砌而成，见证了塞尔维亚人民抵御外敌、英勇抗争的历史，具有深厚的历史意义。开放时间为9:00-17:00，周二闭馆，成人门票120塞尔维亚第纳尔，学生半价，12岁以下儿童免费。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">3. 尼什城市博物馆</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离古堡约800米，可步行10分钟抵达，位于一座19世纪的古典风格建筑内，馆内展示了尼什从古代到现代的历史遗物、民俗文化、传统服饰和手工艺品，详细介绍了尼什的历史变迁、人文风情以及古堡的发展历程，是了解尼什的绝佳去处。开放时间为9:00-17:00，周一闭馆，成人门票100塞尔维亚第纳尔，学生半价。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">4. 圣尼古拉教堂</h4>
-                  <p className="text-sm text-foreground leading-relaxed mb-2">距离古堡约700米，可步行8分钟抵达，始建于19世纪，是尼什市重要的宗教圣地，教堂融合了拜占庭与斯拉夫建筑风格，外观宏伟壮观，内部留存着大量中世纪壁画和宗教文物，氛围庄严静谧。开放时间为8:00-18:00，免费开放，进入教堂需遵守宗教礼仪，禁止大声喧哗、随意拍摄，建议穿着得体。</p>
-                </div>
-
-                <div className="border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-primary mb-2">5. 尼什老城</h4>
-                  <p className="text-sm text-foreground leading-relaxed">距离古堡约500米，可步行5分钟抵达，是尼什最具烟火气的地方，狭窄的街巷、古老的建筑、特色的小店交织在一起，展现着尼什的民俗风情。老城内有众多当地特色餐厅、咖啡馆和纪念品商店，可品尝塞尔维亚烤肉、烤面包、水果沙拉等特色美食，购买手工艺品和当地特产，全天免费开放，适合漫步闲逛，感受当地的生活气息。</p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="7" title="住宿小贴士">
-            <div className="space-y-4">
-              <div className="bg-surface rounded-lg p-5">
-                <h3 className="text-lg font-semibold text-primary mb-4">详细住宿指南</h3>
-                <div className="space-y-4 text-sm text-foreground leading-relaxed">
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">1. 住宿位置选择</h4>
-                    <p>优先选择古堡周边500米范围内的住宿，出行便利，可随时前往古堡游览，也能便捷抵达尼沙瓦河畔长廊和尼什老城，感受夜晚的城市氛围；古堡周边多为特色民宿，装修简约古朴，部分民宿可远眺古堡和尼沙瓦河美景，融入了当地建筑元素，适合喜欢人文体验和河畔风光的游客；尼什市中心距离古堡约500米，这里有更多精品酒店和连锁酒店，设施齐全，交通便利，周边商圈发达，购物、就餐十分便捷，适合家庭出行或预算有限的游客。需要注意的是，古堡周边部分街巷较窄，自驾出行的游客可选择带免费停车位的住宿。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">2. 住宿类型推荐</h4>
-                    <p><strong>精品酒店：</strong>可选择位于古堡周边或尼沙瓦河畔的特色精品酒店，这类酒店通常融合了当地建筑元素与现代设施，装修精致，部分酒店设有露台或河景房，可欣赏古堡或尼沙瓦河美景，服务周到，价格约90-160欧元/晚。</p>
-                    
-                    <p><strong>特色民宿：</strong>古堡周边和尼什老城内有很多由老建筑改造的民宿，装修简约古朴，保留了传统建筑的特色，部分带有小庭院或阳台，步行可达古堡和老城主要景点，价格约50-90欧元/晚；还有自助入住的公寓式民宿，设施齐全，适合家庭或多人出行，价格约40-70欧元/晚。</p>
-                    
-                    <p><strong>连锁酒店：</strong>市中心有多家性价比高的连锁酒店，设施标准化，干净整洁，价格约35-60欧元/晚，适合预算有限的游客。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">3. 预订注意事项</h4>
-                    <p>尼什旅游旺季为5-9月，此时气候适宜，且恰逢尼什维尔爵士节等特色活动，游客较多，住宿紧张，建议提前1个月预订，避免无房或价格上涨；预订时注意查看住宿的取消政策，尽量选择可免费取消的房源，以便灵活调整行程；若自驾出行，需提前确认住宿是否提供免费停车位，市中心街道停车费用较高（7-12欧元/天），提前沟通可节省开支；部分民宿为自助入住，预订后会收到入住指南和密码，需提前查看，避免抵达后无法入住。</p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">4. 其他注意事项</h4>
-                    <p>住宿内部通常提供基本的洗漱用品，但部分民宿不提供一次性牙刷和牙膏，建议提前自备；古堡周边和老城内部分住宿为老式建筑，没有电梯，若携带大件行李，建议预订时有电梯的住宿；住宿周边多有餐厅和超市，购买生活用品和就餐便利，当地餐厅以塞尔维亚风味和尼沙瓦河湖鲜为主，可品尝烤肉、烤鱼、传统炖菜等特色美食；大部分住宿提供免费WiFi，预订时可确认WiFi信号情况，方便出行时查询信息；当地电压为230V，插头为Type F型，若需要，可提前准备转换插头。</p>
-                  </div>
-
-                  <div className="bg-primary-light p-3 rounded-lg mt-3">
-                    <p className="text-sm text-foreground leading-relaxed">
-                      <strong>特别提示：</strong>尼什当地住宿整体价格适中，性价比高于塞尔维亚首都贝尔格莱德，提前预订可获得更优惠的价格；部分民宿房东为当地人，可主动向房东咨询当地小众景点、特色美食和出行建议，获取更地道的游览体验。冬季（11-次年3月）为旅游淡季，住宿价格会有所下降，适合喜欢静谧氛围的游客前往，此时古堡人少清净，可更好地感受其历史韵味。
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section number="8" title="实用小贴士">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow label="最佳季节" value="4月至10月，夏季古堡内常举办尼什维尔爵士音乐节等露天活动" />
-              <InfoRow label="建议时长" value="半天（核心区域步行游览约需2.5-3.5小时）" />
-              <InfoRow label="注意事项" value="尼什古堡是一座集历史、文化、自然于一体的独特景区，这里既有千年历史的厚重底蕴，又有现代都市的活力气息，既有中世纪军事堡垒的雄伟沧桑，又有河畔风光的柔美灵动。无论是独自旅行、结伴出行，还是家庭出游，都能在这里找到属于自己的游览乐趣，感受塞尔维亚的人文魅力与历史底蕴。希望这份详细的游览指南，能帮助你更好地领略尼什古堡的风采，度过一段愉快的旅程。" />
-            </div>
-          </Section>
-        </div>
-
-        <div className="mt-12 mb-8 text-center">
-          <Link
-            href="/#destinations"
-            className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-light transition-colors"
-          >
-            <span>&larr;</span>
-            <span>Back to All Destinations</span>
-          </Link>
-        </div>
-      </div>
-    </article>
-  );
+    </div>
+  )
 }

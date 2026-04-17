@@ -198,36 +198,36 @@ export default function NorciaAncientTownPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/ferrara-renaissance-city" className="block group">
+              <a href="/attractions/volterra-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    费
+                    沃
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">费拉拉文艺复兴城市</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ferrara</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">沃尔泰拉古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Volterra</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/modica" className="block group">
+              <a href="/attractions/otranto-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    莫
+                    奥
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫迪卡老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Modica</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥特朗托老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Otranto Old Town</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/spoleto-old-town" className="block group">
+              <a href="/attractions/the-ancient-city-of-acerenza" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    斯
+                    阿
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯波莱托古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spoleto</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿切伦扎古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Ancient City of Acerenza</p>
                   </div>
                 </div>
               </a>

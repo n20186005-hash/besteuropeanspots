@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '凯斯贝格 Kaysersberg｜法国最美小镇的童话与现实，阿尔萨斯的木筋屋与葡萄酒灵魂 - 最佳欧洲景点',
-  description: '记得我拐下D11公路，驶入小镇入口的那一瞬间吗？就像是方向盘一打，不小心闯进了一本被阳光晒暖了的童话书插图里。首先扑过来的不是景象，而是声音——韦斯河白朗峰雪山融水汇成的激流，哗啦啦地从不远处的老石桥下奔涌而过，那声音清冽又充满力量，瞬间洗掉了所有车马劳顿。紧接着，是气味。清晨刚出炉的“Kougel...',
+  title: '凯瑟斯贝格 Kaysersberg｜葡萄酒香漫溢的阿尔萨斯最美小镇 - 最佳欧洲景点',
+  description: '车子沿着蜿蜒的D28公路驶入山谷，当第一眼看到凯瑟斯贝格时，我仿佛不小心闯进了一本立体的童话书。那种感觉不是“壮观”，而是“心尖被轻轻捏了一下”的温柔。整座小镇像一块从山间生长出来的彩色姜饼，被茂密的森林和整齐的葡萄园梯田温柔地环抱着。空气中浮动着一种清甜的、复合的气味——刚割过的青草香，家家户户窗...',
 }
 
 export default function KaysersbergAlsacePage() {
@@ -16,56 +16,57 @@ export default function KaysersbergAlsacePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '凯斯贝格', href: '/attractions/kaysersberg-alsace' },
+            { label: '凯瑟斯贝格', href: '/attractions/kaysersberg-alsace' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`凯斯贝格・Kaysersberg・法国・凯斯贝格`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`凯瑟斯贝格・Kaysersberg・法国・凯瑟斯贝格（上莱茵省）`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`记得我拐下D11公路，驶入小镇入口的那一瞬间吗？就像是方向盘一打，不小心闯进了一本被阳光晒暖了的童话书插图里。首先扑过来的不是景象，而是声音——韦斯河白朗峰雪山融水汇成的激流，哗啦啦地从不远处的老石桥下奔涌而过，那声音清冽又充满力量，瞬间洗掉了所有车马劳顿。紧接着，是气味。清晨刚出炉的“Kougelhopf”（一种阿尔萨斯葡萄干酒香蛋糕）的黄油焦香，混合着从附近咖啡馆飘出的现磨咖啡的醇厚，还有石板路缝隙里透出的、被昨夜小雨浸润过的青苔和古老石头的气息。
-沿着主街往里走，你的眼睛会忙不过来。两旁挤挤挨挨的木筋屋，每一栋都是一幅独立的画。淡黄色的墙体上，深褐色的木条勾勒出菱形、十字形、太阳纹等古老的幸运符号。有些窗台上怒放着成片的天空葵，红得像要滴下来；有些则垂挂着精致的蕾丝窗帘，透出屋内温暖的光。当地人推着自行车和你擦肩而过，用带着德语口音的法语互相问候。你很快就发现，这里不是一个“标本”，而是一个活生生的、呼吸着的家园。面包房的老先生在擦拭橱窗，酒窖的老板正把新酿的雷司令搬出来晒太阳，一切都那么日常，却又美得不真实。
-它的核心魅力，就在于这种强烈的“沉浸感”。你不只是来看房子的，你是来“住”进一种生活节奏里的。小镇依偎在孚日山脉的丘陵之中，背后就是著名的“阿尔萨斯葡萄酒之路”。你会发现，这里的一切——建筑的颜色、食物的风味、甚至人们脸上那种满足而平和的神情——都深深浸透了葡萄酒的文化。这是一种扎根于土地、历经纷争却愈发醇厚的魅力。当午后阳光把教堂钟楼的影子拉得老长，你坐在河边的长椅上，听着水声，看着对岸鲜花盛放的阳台，会觉得时间在这里不是流逝的，而是像葡萄酒一样，在橡木桶里慢慢沉淀、熟成的。`}
+            {`车子沿着蜿蜒的D28公路驶入山谷，当第一眼看到凯瑟斯贝格时，我仿佛不小心闯进了一本立体的童话书。那种感觉不是“壮观”，而是“心尖被轻轻捏了一下”的温柔。整座小镇像一块从山间生长出来的彩色姜饼，被茂密的森林和整齐的葡萄园梯田温柔地环抱着。空气中浮动着一种清甜的、复合的气味——刚割过的青草香，家家户户窗台上天竺葵的淡淡花香，还有一丝若有若无的、从古老酒窖石缝里渗出来的葡萄酒和木桶的陈年气息。
+我沿着鹅卵石铺就的主街慢慢往里走，脚下是几个世纪以来被无数脚步打磨得光滑温润的石板。最妙的是那条穿城而过的韦斯河，河水清亮得能看见底下每一块鹅卵石，它哗啦啦的声响是小镇永恒的背景音乐，盖过了游客的嘈杂，让一切都安静下来。河边那些歪歪扭扭的半木结构房子，每一栋的斜梁、雕花、窗棂颜色都不同，鹅黄、淡粉、薄荷绿、矢车菊蓝……它们在午后的阳光下，把自己的影子投在潺潺的流水上，晃啊晃的，像一幅永不干涸的水彩画。当地的老人就坐在自家门口的木椅上晒太阳，身边可能趴着一只慵懒的猫，他们冲你点点头，眼神里没有对外来者的好奇，只有一种“我家很美吧，欢迎来看看”的淡然自豪。
+走到小镇的中心，那座带屋顶的古老石桥赫然出现。它不像威尼斯叹息桥那般华丽，也不像伦敦塔桥那般雄伟，它就是朴实地、稳稳地连接着两岸的生活。桥下，河水奔腾；桥内，光线从木窗斜射进来，照亮空气中飞舞的微尘。站在桥中央向两边望去，一边是层层叠叠的彩色屋顶和远处山顶城堡的废墟剪影，另一边是露天咖啡座传来的杯盘轻响和人们低语的法语与阿尔萨斯方言。那一刻你会明白，凯瑟斯贝格不是一个“景点”，它是一个活着的、呼吸着的有机体，葡萄酒是它的血液，木筋房是它的骨骼，而这条河，是它生生不息的心跳声。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`记得我拐下D11公路，驶入小镇入口的那一瞬间吗？就像是方向盘一打，不小心闯进了一本被阳光晒暖了的童话书插图里。首先扑过来的不是景象，而是声音——韦斯河白朗峰雪山融水汇成的激流，哗啦啦地从不远处的老石桥下奔涌而过，那声音清冽又充满力量，瞬间洗掉了所有车马劳顿。紧接着，是气味。清晨刚出炉的“Kougelhopf”（一种阿尔萨斯葡萄干酒香蛋糕）的黄油焦香，混合着从附近咖啡馆飘出的现磨咖啡的醇厚，还有石板路缝隙里透出的、被昨夜小雨浸润过的青苔和古老石头的气息。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`沿着主街往里走，你的眼睛会忙不过来。两旁挤挤挨挨的木筋屋，每一栋都是一幅独立的画。淡黄色的墙体上，深褐色的木条勾勒出菱形、十字形、太阳纹等古老的幸运符号。有些窗台上怒放着成片的天空葵，红得像要滴下来；有些则垂挂着精致的蕾丝窗帘，透出屋内温暖的光。当地人推着自行车和你擦肩而过，用带着德语口音的法语互相问候。你很快就发现，这里不是一个“标本”，而是一个活生生的、呼吸着的家园。面包房的老先生在擦拭橱窗，酒窖的老板正把新酿的雷司令搬出来晒太阳，一切都那么日常，却又美得不真实。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，就在于这种强烈的“沉浸感”。你不只是来看房子的，你是来“住”进一种生活节奏里的。小镇依偎在孚日山脉的丘陵之中，背后就是著名的“阿尔萨斯葡萄酒之路”。你会发现，这里的一切——建筑的颜色、食物的风味、甚至人们脸上那种满足而平和的神情——都深深浸透了葡萄酒的文化。这是一种扎根于土地、历经纷争却愈发醇厚的魅力。当午后阳光把教堂钟楼的影子拉得老长，你坐在河边的长椅上，听着水声，看着对岸鲜花盛放的阳台，会觉得时间在这里不是流逝的，而是像葡萄酒一样，在橡木桶里慢慢沉淀、熟成的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子沿着蜿蜒的D28公路驶入山谷，当第一眼看到凯瑟斯贝格时，我仿佛不小心闯进了一本立体的童话书。那种感觉不是“壮观”，而是“心尖被轻轻捏了一下”的温柔。整座小镇像一块从山间生长出来的彩色姜饼，被茂密的森林和整齐的葡萄园梯田温柔地环抱着。空气中浮动着一种清甜的、复合的气味——刚割过的青草香，家家户户窗台上天竺葵的淡淡花香，还有一丝若有若无的、从古老酒窖石缝里渗出来的葡萄酒和木桶的陈年气息。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`我沿着鹅卵石铺就的主街慢慢往里走，脚下是几个世纪以来被无数脚步打磨得光滑温润的石板。最妙的是那条穿城而过的韦斯河，河水清亮得能看见底下每一块鹅卵石，它哗啦啦的声响是小镇永恒的背景音乐，盖过了游客的嘈杂，让一切都安静下来。河边那些歪歪扭扭的半木结构房子，每一栋的斜梁、雕花、窗棂颜色都不同，鹅黄、淡粉、薄荷绿、矢车菊蓝……它们在午后的阳光下，把自己的影子投在潺潺的流水上，晃啊晃的，像一幅永不干涸的水彩画。当地的老人就坐在自家门口的木椅上晒太阳，身边可能趴着一只慵懒的猫，他们冲你点点头，眼神里没有对外来者的好奇，只有一种“我家很美吧，欢迎来看看”的淡然自豪。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走到小镇的中心，那座带屋顶的古老石桥赫然出现。它不像威尼斯叹息桥那般华丽，也不像伦敦塔桥那般雄伟，它就是朴实地、稳稳地连接着两岸的生活。桥下，河水奔腾；桥内，光线从木窗斜射进来，照亮空气中飞舞的微尘。站在桥中央向两边望去，一边是层层叠叠的彩色屋顶和远处山顶城堡的废墟剪影，另一边是露天咖啡座传来的杯盘轻响和人们低语的法语与阿尔萨斯方言。那一刻你会明白，凯瑟斯贝格不是一个“景点”，它是一个活着的、呼吸着的有机体，葡萄酒是它的血液，木筋房是它的骨骼，而这条河，是它生生不息的心跳声。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={`凯斯贝格`} />
+                <InfoRow label="中文名称" value={`凯瑟斯贝格`} />
                 <InfoRow label="英文名称" value={`Kaysersberg`} />
                 <InfoRow label="正式名称" value={`Kaysersberg`} />
                 <InfoRow label="国家" value={`法国`} />
-                <InfoRow label="城市" value={`凯斯贝格`} />
+                <InfoRow label="城市" value={`凯瑟斯贝格（上莱茵省）`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`一座由神圣罗马帝国皇帝亲手缔造、作为帝国前沿堡垒和葡萄酒贸易中心的战略重镇。`} />
-                <InfoRow label="建筑特色" value={`完美的阿尔萨斯木筋屋（Fachwerkhaus）露天博物馆，彩色房屋依山傍水，错落有致，被湍急的韦斯河一分为二。`} />
-                <InfoRow label="建筑风格" value={`以晚期哥特式与文艺复兴风格为主导的德意志系半木结构建筑，混杂着法国乡村的浪漫与精致。`} />
-                <InfoRow label="文化价值" value={`这里是法德文化交融的活化石，也是诺贝尔和平奖得主阿尔伯特·施韦策博士的故乡，象征着战争边陲上生长出的人文主义精神。`} />
+                <InfoRow label="历史地位" value={`这座被誉为“阿尔萨斯葡萄酒之都”的瑰宝小镇，其名字本身就是一部帝国史，意为“皇帝的城堡”。`} />
+                <InfoRow label="建筑特色" value={`被清澈的韦斯河一分为二的彩色木筋房小镇，中心矗立着一座文艺复兴时期带屋顶的古桥和一座威严的帝国城堡废墟。`} />
+                <InfoRow label="建筑风格" value={`典型的阿尔萨斯半木结构民居风格，融合了中世纪防御工事、罗马式与哥特式宗教建筑以及文艺复兴时期的民用建筑。`} />
+                <InfoRow label="文化价值" value={`这里是阿尔萨斯文化、美食与葡萄酒传统的完美交汇点，是诺贝尔奖得主阿尔伯特·施韦泽医生的故乡，也是法国“最美小镇”协会的创始成员之一。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`小镇公共区域全天开放。小镇游客中心通常为上午9:30至下午12:30，下午2:00至6:00开放（夏季时间可能延长，冬季可能缩短）。内部的阿尔伯特·施韦策博物馆、城堡废墟等具体景点有各自的开放时间，通常为上午10点至下午6点，周一或周二可能闭馆，冬季（11月至3月）部分景点开放时间缩短或完全关闭。建议出行前在官网核实。`} />
-              <InfoRow label="门票价格" value={`漫步小镇本身免费。进入阿尔伯特·施韦策博物馆等特定室内景点需要购票，成人票价约5-7欧元，学生及儿童有优惠。部分联票可能提供。登临城堡废墟通常是免费的。`} />
+              <InfoRow label="开放时间" value={`小镇公共区域全年全天开放。主要历史景点如圣十字教堂、老城堡遗址、地方博物馆等开放时间各异，通常为上午10点至下午5点或6点。圣诞市场期间（通常为11月底至12月底）小镇中心会特别装扮并延长开放至夜晚。部分餐厅、酒窖和小型家庭作坊有午休习惯，大约在下午2点至5点关闭，建议提前规划。`} />
+              <InfoRow label="门票价格" value={`进入小镇本身免费。参观老城堡遗址免费，但通往塔楼的楼梯有时会因维护关闭。地方博物馆门票约为5欧元。其他体验如品酒、工作坊等费用不一。搭乘镇上旅游小火车游览的费用约为8欧元。圣诞市场期间进入免费，但品尝美食和热红酒需要付费。`} />
               <InfoRow label="地址" value={`Rue du Général de Gaulle, 68240 Kaysersberg, France`} />
-              <InfoRow label="交通方式" value={`最近的国际机场是德国巴登-巴登的卡尔斯鲁厄/巴登-巴登机场（约1.5小时车程）或瑞士的巴塞尔-米卢斯-弗赖堡欧洲机场（约1小时车程）。最便捷的方式是租车自驾，从科尔马（Colmar）出发，沿D11公路向西北方向行驶约15分钟即可抵达，沿途是连绵的葡萄园，风景绝佳。公共交通方面，可从科尔马火车站乘坐106路或154路公交车，约30-40分钟车程，但班次有限，尤其是周末和节假日，务必提前查好时刻表。购买阿尔萨斯地区通票可能更划算。`} />
+              <InfoRow label="交通方式" value={`从巴黎出发：最便捷的方式是搭乘TGV高铁至斯特拉斯堡火车站，车程约2小时。从斯特拉斯堡火车站，你可以租车自驾（约1小时车程，沿A35/E25高速公路行驶），这是探索阿尔萨斯葡萄酒之路最自由的方式。或者，从斯特拉斯堡车站外的公交总站乘坐Flixbus或当地公交车，有直达或经停科尔马的班车前往凯瑟斯贝格，车程约1.5小时，但班次较少，需提前查好时刻表。
+从科尔马出发：科尔马是最近的交通枢纽，距离仅约12公里。在科尔马火车站外的公交站乘坐106路或140路公交车，约30-40分钟即可抵达凯瑟斯贝格中心，车次较为频繁（大约每小时一班）。打车是最方便但最贵的选择，约需15-20分钟。自驾则只需15分钟，沿着D11或D28公路穿越葡萄园风景绝佳。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`让我们把时钟拨回到近八百年前。公元1227年，神圣罗马帝国皇帝腓特烈二世，那位被称为“世界惊奇”的传奇君主，一纸法令，凯斯贝格诞生了。他为什么选在这里？翻开地图你就明白了：它坐落在连接阿尔萨斯平原和洛林高原的十字路口，紧扼韦斯河谷的咽喉，是帝国向西对抗法兰西王国的前沿堡垒。“Kaysersberg”这个名字本身，就是德语“皇帝之山”的意思，帝国的威严与野心，从命名之初就烙印在了它的基因里。最初的居民，是那些忠诚的帝国士兵和他们的家属，一道坚固的城墙被迅速垒起，一座用于瞭望和防御的城堡（今天的废墟）被修筑在山丘之巅。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，中世纪的堡垒若没有经济的血脉，终将枯萎。幸运的是，凯斯贝格拥有上天赐予的礼物——向阳的陡坡和富含矿物质的土壤，完美适合种植葡萄。帝国的贵族们敏锐地看到了这一点。他们授予小镇市场权和葡萄酒专卖权，来自凯斯贝格山坡的葡萄酒，很快以其优异的品质闻名遐迩，成为硬通货。财富随着酒桶滚滚而来，小镇在14至16世纪进入了黄金时代。你看那些最华丽、雕刻最繁复的木筋屋，大多建于这个时期。商人和葡萄园主们竞相炫耀财富，但他们炫耀的方式不是建造冷冰冰的石堡，而是把家打造得美轮美奂，山墙上的雕花讲述着圣经故事或行业图腾，鲜艳的色彩表达着对生活的热爱。坚固的“圣十字教堂”也在此时拔地而起，它那令人惊叹的彩绘木质祭坛，就是小镇财富与信仰最集中的体现。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`历史的剧本从不缺少冲突章节。作为帝国边境的明珠，凯斯贝格在接下来的几个世纪里成了风暴眼。1632年，残酷的“三十年战争”席卷这里，瑞典军队攻陷并洗劫了小镇，城堡被部分拆毁，以示对帝国权威的打击。战争、瘟疫让小镇人口锐减，元气大伤。但阿尔萨斯人的韧性超乎想象。战后，他们又默默地回到葡萄园，一砖一瓦地重建家园。接下来的两百年，它在法国与德国之间数次易手，文化在这里发生了奇妙的化学反应：建筑保留了德意志的骨架，内部装饰却融入了法式的优雅与轻快；语言是德语方言，效忠的却是法兰西国王。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`时间来到19世纪末，小镇孕育了一位让世界铭记的儿子——阿尔伯特·施韦策。1875年，他出生在这里一栋普通的牧师住宅里。凯斯贝格宁静的田园风光、虔诚的宗教氛围、以及边境地区对苦难的深刻理解，无疑塑造了他“敬畏生命”的哲学。当他放弃欧洲优渥的学者和音乐家生活，远赴非洲加蓬建立丛林诊所时，他带走的正是这片土地赋予的博爱、坚韧与服务精神。1952年，他荣获诺贝尔和平奖，让这个安静的小镇的名字，与人类最高尚的理想联系在一起。两次世界大战，阿尔萨斯再度成为血肉战场，凯斯贝格也伤痕累累。但就像它一次次从历史灰烬中重生一样，战后的修复让小镇重焕光彩，并被票选为“法国人最喜爱的村庄”。今天，当你漫步其中，指尖触摸的每一块砖木，都叠加着皇帝的法令、葡萄农的汗水、战火的焦痕、以及一位伟大人道主义者童年时的足迹。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从罗马人说起。早在两千多年前，精明的罗马士兵就看中了这片肥沃的山谷和战略位置，他们在这里种植了第一批葡萄藤，为这片土地注入了最初的酒神基因。但真正让凯瑟斯贝格登上历史舞台的，是神圣罗马帝国的皇帝们。公元13世纪初，霍亨斯陶芬王朝的腓特烈二世皇帝下令，在俯瞰山谷的陡峭山脊上，建造一座坚固的城堡，以巩固帝国在阿尔萨斯的统治。这座城堡被命名为“Kaysersberg”——“皇帝的城堡”，小镇也因此得名，并迅速在帝国的庇护下繁荣起来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`中世纪是凯瑟斯贝格的黄金时代。它加入了强大的“德卡波莱”同盟，这是一个由阿尔萨斯十个帝国自由城市组成的商业和军事联盟，相当于中世纪的“经济特区”。凭借葡萄酒贸易的特权和坚固的城防，财富滚滚而来。你可以想象那时的场景：满载着橡木桶的马车从陡峭的街道驶向莱茵河码头；来自各地的商人在广场上讨价还价；工匠行会在木筋房里制作精美的家具和铁器。然而，繁荣也引来了觊觎。整个中世纪和近代早期，凯瑟斯贝格就像一颗镶嵌在法德边界上的明珠，在两大强权的拉锯战中不断易手。它经历了无数次围攻、战火和瘟疫的洗礼。那座曾经象征皇权的城堡，最终在1632年的三十年代战争中被瑞典军队摧毁，只留下废墟沉默地诉说着权力的无常。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`战争与和平交替上演，但生活总要继续。小镇的人们学会了在夹缝中生存的智慧，并把对生活的热爱倾注在建造家园和酿造美酒上。文艺复兴时期，富裕的葡萄酒商人和行会建造了我们今天看到的那些最精美的木筋房，它们门楣上的雕刻不仅有宗教符号，还有葡萄、酒桶和丰收的图案，彰显着主人的身份。那座坚固的圣十字教堂也在这一时期扩建，其内部华丽无比的木雕祭坛，出自大师之手，是阿尔萨斯地区晚期哥特艺术的瑰宝。更为珍贵的是，小镇孕育了阿尔伯特·施韦泽——那位在20世纪毅然放弃优越的学者和音乐家生活，前往非洲加蓬创办医院，并因此获得诺贝尔和平奖的伟人。他的故居至今保存完好，提醒着人们这片土地深厚的人文主义传统。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`二十世纪的两次世界大战，给阿尔萨斯带来了深重的身份撕裂和肉体创伤。凯瑟斯贝格也未能幸免，它遭受了猛烈的轰炸。但奇迹般地，小镇核心的历史建筑在战火中大部分留存了下来。战后，怀着对家园深沉的爱，居民们一砖一瓦地精心修复了被毁的房屋，并且没有将其变成僵化的博物馆，而是让它们继续充满烟火气地活着。1979年，法国“最美小镇”协会成立，凯瑟斯贝格与另外几个小镇共同成为创始成员，这不仅仅是一个称号，更是对当地人世代守护文化遗产的至高认可。如今，当你漫步其中，你触摸到的每一块木头、每一块石头，都叠加着帝国的野心、商人的精明、战火的创伤，以及最终，普通人对美好生活那朴素而坚韧的守望。`}</p>
             </div>
           </Section>
 
@@ -74,47 +75,45 @@ export default function KaysersbergAlsacePage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`要完整感受凯斯贝格的晨昏之美，我强烈建议你留出整整一天时间。最佳抵达时间是清晨九点之前，这时旅游大巴还未涌入，小镇属于本地人，光线柔和，最适合拍照。整体游览节奏应该是“慢”。上午精力充沛，先去攀登城堡废墟，俯瞰全景；然后下山，沿着主街由东向西慢慢“阅读”每一栋建筑，参观核心室内景点。中午找一家“Winstub”（传统酒馆）享用漫长的阿尔萨斯午餐。下午可以更随性地钻进小巷，探访安静的角落、手工作坊，或者去河畔发呆。傍晚时分，光线再次变得金黄，是感受小镇生活气息的最佳时刻。这样的安排，既能捕捉到光影变换下的建筑之美，又能体验到小镇从苏醒到闲适的全天韵律。`}
+                  {`要真正品味凯瑟斯贝格，建议你在一个非周末的清晨抵达，这样能避开大巴旅游团，享受小镇苏醒时分最本真的宁静。整个深度游览大约需要5-6小时，节奏宜慢不宜快。上午专注于探索建筑、历史和登高望远，中午享用一顿地道的阿尔萨斯午餐，下午则沉浸在葡萄酒文化和河边漫步的慵懒氛围中。这样的安排能让你完整地经历小镇从晨光到午后暖阳的光影变幻，感受它不同时段的美。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`尽量避开七月、八月和圣诞市场期间的高峰周末，那时人潮会淹没小镇的宁静。
-一定要穿一双绝对舒适、适合走石板路和爬山路的鞋子，高跟鞋在这里毫无用武之地。
-许多热门小酒馆座位有限，午餐最好在12点前或下午1点后前往，或者提前一天电话预订。`}
+                  <strong>建议：</strong>{`小镇中心的街道多为鹅卵石路，请务必穿一双舒适防滑的鞋子，高跟鞋在这里简直是“刑具”。许多小酒窖和餐厅只收现金或法国本土的银行卡，出发前最好准备一些欧元现金。如果你想拜访阿尔伯特·施韦泽故居博物馆，请注意它的开放时间非常有限，通常只在下午开放几个小时，务必提前在官网确认。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`把车停在镇口免费停车场，深吸一口清冽的空气，然后毫不犹豫地先沿着清晰标识的小径向上，去探访那座守卫小镇七百年的帝国城堡废墟。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在镇口的免费停车场，然后徒步穿过古老的石砌城门，让自己瞬间从现代社会步入中世纪的世界。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从城堡平台的断壁残垣间转过身来，让整个凯斯贝格如同一个巨大的、色彩斑斓的沙盘在你脚下展开，远方的葡萄园梯田和孚日山脉的森林是它无边的画框。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着主街（共和街）缓缓上行，用指尖感受那些半木结构房屋上雕刻的葡萄、怪兽和圣经故事，留意每家店铺充满童趣的手绘招牌。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`顺着陡峭的石阶路下山，让脚步引领你来到那座横跨在咆哮的韦斯河上的双拱廊老桥，站在桥中央感受水花带来的微凉水汽，看河水如何将小镇一分为二又合二为一。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在镇中心广场稍作停留，仰望圣十字教堂那高耸的哥特式塔楼，并走进教堂内部，在幽暗的光线中寻找那座令人震撼的彩色鎏金木雕祭坛。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`穿过老桥便正式进入小镇心脏，沿着被岁月打磨得光滑如镜的Grand Rue主街向西漫步，像阅读一本立体的历史书，细细品味每一栋木筋屋山墙上不同的雕刻符号和明快色彩。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂后面的一条隐秘小径开始攀登，穿过居民的后花园和葡萄田，一路喘着气爬到山顶的老城堡废墟脚下。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在主街中段一定不要错过那栋挂着阿尔伯特·施韦策纪念牌的牧师故居，现在的博物馆，走进他童年生活过的房间，感受一个伟大灵魂如何从这宁静中诞生。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`站在城堡仅存的塔楼基座上，喘匀气后转身，你会收获整个阿尔萨斯山谷最无与伦比的明信片视角——彩色小镇全景就在你脚下铺开。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`让你的鼻子做主，拐进一条飘出浓郁香料和炖肉香气的小巷，钻进一家地道的“Winstub”，点一份酸菜腌肉锅配本地琼瑶浆白葡萄酒，和邻桌的本地酒农碰个杯。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后，目标明确地走向那座带屋顶的古老石桥，在桥内的阴凉处站一会儿，听流水声被桥体放大成轰鸣，看光柱透过木板缝隙照射进来。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`酒足饭饱后别急着离开，向主街两侧更狭窄的巷弄深处探索，你会发现隐藏在屋后的小花园、叮咚作响的古老泉眼，以及售卖手工陶器和果酱的温馨小店。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`过桥后钻进河对岸的任何一家家庭式酒窖，不用害羞，点一份由当地庄主亲自讲解的品酒套餐，让雷司令和琼瑶浆的香气在舌尖跳舞。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`当日光开始变得斜长温柔，回到韦斯河边，找一张面对流水的长椅坐下，什么都不做，只是看光影在彩色房屋的立面上缓慢移动，直到咖啡馆的灯光一盏盏亮起。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，沿着韦斯河岸的绿荫小径随意散步，看野鸭嬉水，找一张长椅坐下，什么也不做，只是发呆，让小镇的节奏彻底同化你。`}</p>
                 </div>
               </div>
             </div>
@@ -124,28 +123,28 @@ export default function KaysersbergAlsacePage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡废墟制高点全景`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨日出后一小时或日落前一小时，使用广角镜头，将前方的废墟石墙作为前景框架，囊括脚下整个小镇的彩色屋顶、教堂尖顶和远方绵延的葡萄园梯田。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡废墟山顶全景位`}</h4>
+                  <p className="text-sm text-gray-700">{`最佳时间是清晨日出后一小时或傍晚日落前一小时，此时光线柔和，侧光能完美勾勒出小镇木筋房的立体感和葡萄园的层次，使用广角镜头将废墟作为前景，小镇作为中景，远山作为背景。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣十字教堂内祭坛光影`}</h4>
-                  <p className="text-sm text-gray-700">{`上午十点后，阳光会透过南侧的高窗射入教堂内部，静静等待一束光恰好打在16世纪彩绘木质祭坛的圣像上，捕捉那神圣而静谧的一刻。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`韦斯河老桥俯拍流水与倒影`}</h4>
-                  <p className="text-sm text-gray-700">{`正午阳光直射时，虽然不适合拍建筑，但却是拍摄流水动态的绝佳时机，站在桥下游的石阶上，用慢门将湍急的河水拉成丝绸状，对岸木筋屋的倒影在水中模糊成油画。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`Rue des Forgerons小巷纵深`}</h4>
-                  <p className="text-sm text-gray-700">{`下午三四点，太阳西斜，走进这条相对安静的小巷，利用两侧高耸的、色彩对比强烈的木筋屋墙面，形成天然的引导线构图，捕捉一位当地人骑车或提篮走过的瞬间。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`带顶古桥内部框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三点左右，阳光会以较低角度射入桥内，形成迷人的光影通道，站在桥的一端，利用桥廊的木结构形成自然的画框，聚焦于另一端走来的行人或彩色房屋，营造深邃的叙事感。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`小镇东侧葡萄园回望`}</h4>
-                  <p className="text-sm text-gray-700">{`傍晚蓝调时刻，驱车或步行到镇外东侧山坡的葡萄园小径上，回望小镇，此时华灯初上，天空是深蓝色，小镇温暖的灯光星星点点，能拍出最具氛围感的明信片角度。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`韦斯河畔倒影拍摄点`}</h4>
+                  <p className="text-sm text-gray-700">{`选择无风的清晨，在城堡桥下游的某个平静河段，蹲下身子将相机镜头尽量贴近水面，拍摄岸边五彩房屋和鲜花的完美倒影，对称构图会让照片充满静谧的童话感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣十字教堂侧面小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分，当阳光直射无法拍摄大场景时，可以钻进教堂侧面狭窄的“小威尼斯”区域，利用两侧高耸的木筋房形成狭窄的“一线天”，拍摄人物走在光影斑驳石板路上的背影，极具纵深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`某家酒窖的窗户边`}</h4>
+                  <p className="text-sm text-gray-700">{`预订一家有临街窗台的餐厅或咖啡馆内部座位，在下午茶时分，从内向外拍摄，将一杯金黄色的琼瑶浆葡萄酒或精致的当地糕点作为前景，虚化窗外走过的行人和古老街道，生活气息扑面而来。`}</p>
                 </div>
               </div>
 
@@ -154,9 +153,7 @@ export default function KaysersbergAlsacePage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`准备一支涵盖广角到中长焦的变焦镜头非常实用，广角拍全景和狭小巷道，长焦可以压缩空间，捕捉对岸窗户的细节或远处城堡的轮廓。`}</li>
-                <li>• {`拍摄居民和私人庭院时请务必保持尊重，先微笑示意，获得同意后再拍摄，阿尔萨斯人友好但注重隐私。`}</li>
-                <li>• {`利用雨后湿润的石板路反射街灯和建筑的光影，能拍出格外迷人的夜景。`}</li>
+                <li>• {`当地居民非常注重隐私，拍摄私人住宅尤其是居民在家中的场景时，务必保持尊重，最好事先微笑示意或避免拍摄。使用无人机在法国小镇上空飞行有严格规定，通常需要提前申请许可，在未明确允许的情况下请不要起飞，以免惹来麻烦。最美的照片往往需要耐心，等一辆闯入画面的汽车离开，等一群鸽子突然飞过塔楼，这些瞬间都值得等待。`}</li>
               </ul>
             </div>
           </Section>
@@ -165,34 +162,70 @@ export default function KaysersbergAlsacePage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
-                  <p className="text-sm text-blue-800">{`位于老桥桥头一栋16世纪木筋屋里的家庭式旅馆，房间不大但充满古意，老板会为你手绘小镇秘密地图，早餐在能看到河流的小庭院里享用。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`河畔梦幻阁楼`}</h4>
+                  <p className="text-sm text-blue-800">{`一栋16世纪磨坊主住宅改造的公寓，卧室的斜屋顶木梁触手可及，推开窗就能听到韦斯河的潺潺水声，房东会为你准备好当地起泡酒作为欢迎礼。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
-                  <p className="text-sm text-green-800">{`由世代酒农家族经营的乡村民宿，坐落在小镇外围自家的葡萄园中，白天可以跟随主人去葡萄园劳作体验，晚上在古老的酒窖里品尝他们家酿的七种不同葡萄酒。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`葡萄园农庄体验`}</h4>
+                  <p className="text-sm text-green-800">{`住在小镇边缘一个世代经营的家庭葡萄农庄里，清晨在鸡鸣鸟叫中醒来，步行两分钟就能置身于漫山遍野的葡萄藤中，晚上还能参与庄主的收工品酒会。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
-                  <p className="text-sm text-yellow-800">{`镇上唯一一家五星级酒店，由几栋连排的历史建筑巧妙改造而成，设计完美融合了古董家具和现代舒适，水疗中心直接引用了当地的温泉水，在屋顶露台享用早餐时视野无敌。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`历史中心精品酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`由一座文艺复兴时期商人豪宅修复而成，房间环绕着一个静谧的内庭花园，古董家具与现代设施完美结合，下楼就是最热闹的广场，位置无可挑剔。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`隐秘宝藏`}</h4>
-                  <p className="text-sm text-purple-800">{`距离小镇车程十分钟的一个静谧山村里的精品酒店，只有六个房间，每个都以一种本地葡萄品种命名，提供绝佳的安宁和真正的隐居体验，适合想要彻底放松的旅人。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐居山林小屋`}</h4>
+                  <p className="text-sm text-purple-800">{`对于追求绝对宁静的旅人，可以选择小镇上方森林里的独立木屋，拥有超大全景露台，私密性极佳，夜晚只见小镇灯火如星河，抬头便是璀璨星空。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`凯斯贝格本身非常安全，夜晚漫步也很惬意，但住在镇中心老建筑可能隔音稍差，对声音敏感的人可以选择外围或葡萄园中的住宿。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`夏季和圣诞季（11月底至12月底）的住宿非常紧俏，务必提前至少两三个月预订。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`如果选择自驾，预订时一定要确认住宿是否提供停车位，老镇内停车位极其有限且昂贵。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`凯瑟斯贝格本身非常安全，但夏季（尤其是圣诞市场期间）住宿极为紧俏，必须提前数月预订。如果你开车前来，务必确认住宿地点是否提供停车场，镇内停车位非常有限且昂贵。选择住在当地人经营的民宿，不仅是获得深度体验的捷径，还能直接从主人那里听到许多旅行指南上找不到的故事和秘闻。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开凯斯贝格好些日子了，我闭上眼睛，最先浮现的不是某个具体的画面，而是一种混合的感觉：是手心贴在古老木筋上那粗糙温润的触感，是口腔里琼瑶浆白葡萄酒那独特的荔枝与香料余味，是清晨河边那清冽空气灌入胸腔的醒神。这个地方奇妙地平衡了童话的梦幻与生活的扎实。它美得像假的，可当你看到老人提着篮子去买面包，酒农开着拖拉机驶过街角，你又知道，这美是扎根在泥土里、流淌在每日生计中的，因此格外牢靠，格外有生命力。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求高速和刺激的时代，凯斯贝格提供了一种截然不同的价值。它不宏大，不炫目，它的故事写在每一块不同颜色的墙板、每一扇歪斜却可爱的窗扉上。它告诉你，历史不仅是王侯将相，更是普通人对家园一代代的建造与守护；文化交融未必是剧烈的碰撞，也可以是葡萄酒般缓慢的渗透与醇化。来这里，你不是为了打卡，而是为了校准一种生活的频率——那种与自然节律同步，珍视手艺、美食、邻里关系，在简单中寻找丰盛的生活频率。每一位热爱深度游的旅人，都应该来这里住上几天，让自己被这种频率感染。你会发现，带走的不只是照片，更是一种让内心变得宁静、让感知重新敏锐的力量。这，或许就是阿尔萨斯，这个“欧洲的十字路口”，所能给予我们最珍贵的礼物。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开凯瑟斯贝格好几天了，我的舌尖似乎还残留着琼瑶浆那种独特的荔枝与蜂蜜的混合香气，耳朵里也仿佛还能听见韦斯河永不停歇的欢快奔腾。但最让我念念不忘的，不是某个具体的画面，而是一种感觉——一种被时光温柔包裹，得以短暂喘息的感觉。在这个一切追求高效、快速、爆炸性体验的时代，凯瑟斯贝格固执地保持着另一种节奏。它的美，不在于惊心动魄，而在于细水长流的妥帖。它的历史，不是被封存在玻璃罩里的标本，而是被酿进了酒里，砌进了墙里，融进了每天的面包香气和傍晚散步的日常里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，如果你也厌倦了在各大景点间疲于奔命的打卡，如果你渴望的旅行不只是“看到”，更是“感受到”和“融入”，那么请一定要来凯瑟斯贝格。来这里，学着像当地人一样，花一个小时品一杯酒，花一个下午看河水流动，花一辈子去守护和热爱自己的家园。这座阿尔萨斯山谷里的小镇，它会轻声告诉你：所谓永恒，并非坚不可摧的石头城堡，而是流淌在日常生活里，那份平凡却坚韧的、对美的执着与传承。这份领悟，或许就是这趟旅程能带给你的，最珍贵的礼物。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/collioure-harbour-fauvist-painters" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科利尤尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Collioure</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sarlat-la-caneda-medieval-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨拉拉卡内达</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sarlat-la-Canéda</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/riquewihr-alsace-fairytale-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    里
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里屈埃维</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Riquewihr</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

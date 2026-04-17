@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '桑蒂利亚纳代尔马尔 Santillana del Mar｜被时光遗忘的中世纪石头小镇与史前洞窟壁画 - 最佳欧洲景点',
-  description: '说真的，桑蒂利亚纳代尔马尔这个名字，我第一次听到时以为是个海滨度假村。结果到了才发现，“del Mar”（属于海）只是个美丽的误会——它离海还有好几公里呢，坐落在坎塔布里亚葱郁的山谷里，被牧场和尤加利树环绕。但你很快就会忘记这个误会，因为从你把车停在镇外、双脚踩上那条主街道“Calle del Rí...',
+  title: '桑蒂利亚纳德尔马尔 Santillana del Mar｜被时光遗忘的中世纪宝石与阿尔塔米拉洞穴的守护者 - 最佳欧洲景点',
+  description: '车子还没停稳，我的心就已经飞了出去。透过车窗，首先看到的是一片绵延的、在阳光下泛着温暖蜂蜜光泽的石墙。没有想象中的喧闹入口，桑蒂利亚纳德尔马尔就这样静静地躺在绿意盎然的山谷里，仿佛是从一本中世纪手抄本的插图里直接走出来的。一脚踏上那些被几个世纪的人流打磨得圆润发亮的鹅卵石路，咯噔咯噔的声音清脆又踏实...',
 }
 
 export default function SantillanaDelMarPage() {
@@ -16,59 +16,58 @@ export default function SantillanaDelMarPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '桑蒂利亚纳代尔马尔', href: '/attractions/santillana-del-mar' },
+            { label: '桑蒂利亚纳德尔马尔', href: '/attractions/santillana-del-mar' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`桑蒂利亚纳代尔马尔・Santillana del Mar・西班牙・坎塔布里亚`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`桑蒂利亚纳德尔马尔・Santillana del Mar・西班牙・坎塔布里亚`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`说真的，桑蒂利亚纳代尔马尔这个名字，我第一次听到时以为是个海滨度假村。结果到了才发现，“del Mar”（属于海）只是个美丽的误会——它离海还有好几公里呢，坐落在坎塔布里亚葱郁的山谷里，被牧场和尤加利树环绕。但你很快就会忘记这个误会，因为从你把车停在镇外、双脚踩上那条主街道“Calle del Río”的那一刻起，你就踏入了一个被时间胶囊封存的世界。
-空气中弥漫着一种复杂的、好闻的味道。是湿润的青苔附着在古老石墙上的清冽，是沿街花箱里天竺葵的淡淡甜香，还混杂着从某扇虚掩的木门后飘出的、柴火在古老壁炉里燃烧的焦香。声音在这里被过滤了，汽车的喧嚣被彻底屏蔽在外，你能听到的只有自己踩在圆润鹅卵石上的“嗒嗒”声，远处广场上隐约的教堂钟鸣，以及某户人家窗口传出的、音量开得很低的西班牙语广播声。光线是这里的魔术师。清晨，阳光斜射，给每一座石屋的立面涂上温润的蜂蜜色；正午，狭窄的街道形成深深的阴影，明暗对比强烈得像一幅版画；到了黄昏，金色的光芒仿佛有了质感，流淌在每一个石雕纹章和铁艺窗棂上。
-你会发现，这里不完全是个博物馆式的空壳。虽然游客不少，但本地人依然在这里生活。阳台上晾晒着雪白的床单，某个门口停着一辆半旧的自行车，小杂货店的老板正和熟客聊着天。这种“活着”的气息，让那些宏伟的贵族宫殿（像波托卡雷罗宫或维拉克里奥宫）不再冰冷。它们不只是景点，是某位老妇人祖辈的宅邸，是某个孩子曾玩耍的庭院。小镇的核心——圣胡利安娜修道院，那敦厚的罗马式塔楼，不仅是信仰的象征，更是几个世纪以来小镇日常生活的节奏器，它的钟声曾宣告劳作、祈祷与安息。
-最打动人心的，或许是这种极致的反差与融合。在这个看起来纯粹中世纪的小镇脚下，仅仅两公里外，隐藏着人类艺术的起源之一：阿尔塔米拉洞窟。一边是12世纪修士们用石头对上帝的礼赞，另一边是史前一万八千年前的猎人们用赭石对野牛、对生命、对未知世界的敬畏与描绘。桑蒂利亚纳的魅力，正在于它同时守护着这两种截然不同却又一脉相承的“神圣”，邀请你在短短一天内，完成一场从人类童年的涂鸦到文明壮年建筑史诗的穿越之旅。`}
+            {`车子还没停稳，我的心就已经飞了出去。透过车窗，首先看到的是一片绵延的、在阳光下泛着温暖蜂蜜光泽的石墙。没有想象中的喧闹入口，桑蒂利亚纳德尔马尔就这样静静地躺在绿意盎然的山谷里，仿佛是从一本中世纪手抄本的插图里直接走出来的。一脚踏上那些被几个世纪的人流打磨得圆润发亮的鹅卵石路，咯噔咯噔的声音清脆又踏实，瞬间就把现代世界的嘈杂隔在了外面。空气里有股好闻的味道，是混合了远处草场的青草香、老石头缝隙里苔藓的湿润气，还有不知从哪家窗台飘来的天竺葵的淡淡芬芳。
+沿着主街“Calle del Rey”慢慢走，两旁是鳞次栉比的古宅。它们不像宫殿那样咄咄逼人，而是带着一种沉稳的、世代积累的骄傲。每一扇巨大的石砌门廊上方，都雕刻着繁复的家族纹章——张牙舞爪的狮子，神秘的格里芬，或是精致的百合花。你忍不住会想，多少个世纪以前，穿着丝绸长裙的淑女和身披铠甲的骑士，是不是也曾从这同一扇门进出？阳光斜射下来，在石墙上切割出明明暗暗的几何图形，光影随着云朵的移动缓缓流淌，时间在这里似乎有了可见的形态。
+走到镇中心的五月广场，节奏一下子舒缓开来。广场不大，三面被那些标志性的石砌建筑环绕，一面则通向宏伟的科尔普斯教堂。几个老人坐在长椅上晒太阳，眯着眼睛，看着稀疏的游客，仿佛我们才是闯入他们日常生活的短暂风景。广场上的草坪绿得发亮，一群麻雀毫不怕人地蹦跳着。这里没有商店的疯狂叫卖，只有一两家低调的陶瓷店和书店，门半掩着，主人可能在里屋看书。你忽然明白，桑蒂利亚纳不仅仅是一个景点，它依然是有人居住、有呼吸、有生活脉搏的家园。
+而当你意识到，就在步行不过二十多分钟的地方，地下深处沉睡着人类艺术的摇篮——阿尔塔米拉洞穴时，这种时空交叠的感觉会更加强烈。这个精致优雅的中世纪小镇，竟然是守护着三万年前野牛与猛犸象记忆的卫士。这种从极致古老到古老，从原始本能到文明秩序的奇妙共存，才是桑蒂利亚纳最核心、也最动人的魔力。它让你同时触摸到人类历史的两个遥相呼应却截然不同的章节。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`说真的，桑蒂利亚纳代尔马尔这个名字，我第一次听到时以为是个海滨度假村。结果到了才发现，“del Mar”（属于海）只是个美丽的误会——它离海还有好几公里呢，坐落在坎塔布里亚葱郁的山谷里，被牧场和尤加利树环绕。但你很快就会忘记这个误会，因为从你把车停在镇外、双脚踩上那条主街道“Calle del Río”的那一刻起，你就踏入了一个被时间胶囊封存的世界。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`空气中弥漫着一种复杂的、好闻的味道。是湿润的青苔附着在古老石墙上的清冽，是沿街花箱里天竺葵的淡淡甜香，还混杂着从某扇虚掩的木门后飘出的、柴火在古老壁炉里燃烧的焦香。声音在这里被过滤了，汽车的喧嚣被彻底屏蔽在外，你能听到的只有自己踩在圆润鹅卵石上的“嗒嗒”声，远处广场上隐约的教堂钟鸣，以及某户人家窗口传出的、音量开得很低的西班牙语广播声。光线是这里的魔术师。清晨，阳光斜射，给每一座石屋的立面涂上温润的蜂蜜色；正午，狭窄的街道形成深深的阴影，明暗对比强烈得像一幅版画；到了黄昏，金色的光芒仿佛有了质感，流淌在每一个石雕纹章和铁艺窗棂上。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`你会发现，这里不完全是个博物馆式的空壳。虽然游客不少，但本地人依然在这里生活。阳台上晾晒着雪白的床单，某个门口停着一辆半旧的自行车，小杂货店的老板正和熟客聊着天。这种“活着”的气息，让那些宏伟的贵族宫殿（像波托卡雷罗宫或维拉克里奥宫）不再冰冷。它们不只是景点，是某位老妇人祖辈的宅邸，是某个孩子曾玩耍的庭院。小镇的核心——圣胡利安娜修道院，那敦厚的罗马式塔楼，不仅是信仰的象征，更是几个世纪以来小镇日常生活的节奏器，它的钟声曾宣告劳作、祈祷与安息。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，或许是这种极致的反差与融合。在这个看起来纯粹中世纪的小镇脚下，仅仅两公里外，隐藏着人类艺术的起源之一：阿尔塔米拉洞窟。一边是12世纪修士们用石头对上帝的礼赞，另一边是史前一万八千年前的猎人们用赭石对野牛、对生命、对未知世界的敬畏与描绘。桑蒂利亚纳的魅力，正在于它同时守护着这两种截然不同却又一脉相承的“神圣”，邀请你在短短一天内，完成一场从人类童年的涂鸦到文明壮年建筑史诗的穿越之旅。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子还没停稳，我的心就已经飞了出去。透过车窗，首先看到的是一片绵延的、在阳光下泛着温暖蜂蜜光泽的石墙。没有想象中的喧闹入口，桑蒂利亚纳德尔马尔就这样静静地躺在绿意盎然的山谷里，仿佛是从一本中世纪手抄本的插图里直接走出来的。一脚踏上那些被几个世纪的人流打磨得圆润发亮的鹅卵石路，咯噔咯噔的声音清脆又踏实，瞬间就把现代世界的嘈杂隔在了外面。空气里有股好闻的味道，是混合了远处草场的青草香、老石头缝隙里苔藓的湿润气，还有不知从哪家窗台飘来的天竺葵的淡淡芬芳。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`沿着主街“Calle del Rey”慢慢走，两旁是鳞次栉比的古宅。它们不像宫殿那样咄咄逼人，而是带着一种沉稳的、世代积累的骄傲。每一扇巨大的石砌门廊上方，都雕刻着繁复的家族纹章——张牙舞爪的狮子，神秘的格里芬，或是精致的百合花。你忍不住会想，多少个世纪以前，穿着丝绸长裙的淑女和身披铠甲的骑士，是不是也曾从这同一扇门进出？阳光斜射下来，在石墙上切割出明明暗暗的几何图形，光影随着云朵的移动缓缓流淌，时间在这里似乎有了可见的形态。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走到镇中心的五月广场，节奏一下子舒缓开来。广场不大，三面被那些标志性的石砌建筑环绕，一面则通向宏伟的科尔普斯教堂。几个老人坐在长椅上晒太阳，眯着眼睛，看着稀疏的游客，仿佛我们才是闯入他们日常生活的短暂风景。广场上的草坪绿得发亮，一群麻雀毫不怕人地蹦跳着。这里没有商店的疯狂叫卖，只有一两家低调的陶瓷店和书店，门半掩着，主人可能在里屋看书。你忽然明白，桑蒂利亚纳不仅仅是一个景点，它依然是有人居住、有呼吸、有生活脉搏的家园。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而当你意识到，就在步行不过二十多分钟的地方，地下深处沉睡着人类艺术的摇篮——阿尔塔米拉洞穴时，这种时空交叠的感觉会更加强烈。这个精致优雅的中世纪小镇，竟然是守护着三万年前野牛与猛犸象记忆的卫士。这种从极致古老到古老，从原始本能到文明秩序的奇妙共存，才是桑蒂利亚纳最核心、也最动人的魔力。它让你同时触摸到人类历史的两个遥相呼应却截然不同的章节。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={`桑蒂利亚纳代尔马尔`} />
+                <InfoRow label="中文名称" value={`桑蒂利亚纳德尔马尔`} />
                 <InfoRow label="英文名称" value={`Santillana del Mar`} />
                 <InfoRow label="正式名称" value={`Santillana del Mar`} />
                 <InfoRow label="国家" value={`西班牙`} />
                 <InfoRow label="城市" value={`坎塔布里亚`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`一座完美保存了中世纪灵魂的古镇，同时因其毗邻人类艺术摇篮之一的阿尔塔米拉洞窟而具有无与伦比的史前文化地位。`} />
-                <InfoRow label="建筑特色" value={`由蜂蜜色石材砌成的贵族宅邸、宫殿与教堂密布，布满纹章的盾徽、精致的铁艺阳台和被岁月打磨得光滑如镜的鹅卵石街道构成了统一而和谐的整体。`} />
-                <InfoRow label="建筑风格" value={`以罗马式风格为核心（尤其体现在其修道院），混合了哥特式、文艺复兴时期以及典型的坎塔布里亚蒙塔涅萨（Montañesa）民间建筑风格。`} />
-                <InfoRow label="文化价值" value={`这里是西班牙乃至欧洲“历史艺术综合体”的典范，将史前人类的艺术震撼与中世纪欧洲的虔诚生活，在同一个地理空间内呈现给世人。`} />
+                <InfoRow label="历史地位" value={`一座被誉为“西班牙三座最美古镇之一”的活化石，完整保存了从中世纪到文艺复兴时期坎塔布里亚贵族生活的全部风貌。`} />
+                <InfoRow label="建筑特色" value={`由蜂蜜色的石材建造的连排贵族宅邸、纹章装饰的古老门廊、被岁月打磨光滑的鹅卵石街道，以及一座宁静的罗马式修道院教堂共同构成的和谐整体。`} />
+                <InfoRow label="建筑风格" value={`以罗马式风格为基石，完美融合了哥特式、文艺复兴式乃至巴洛克初期的地方性建筑元素，呈现出独特的坎塔布里亚-卡斯蒂利亚风格。`} />
+                <InfoRow label="文化价值" value={`不仅是中世纪城镇规划的完美典范，更是守护着人类史前艺术瑰宝——阿尔塔米拉洞穴壁画的文化圣地，连接着史前文明与中世纪文明的精神纽带。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`小镇公共区域全天开放。主要景点如圣胡利安娜修道院（Colegiata de Santillana del Mar）开放时间通常为上午10:00至下午1:30，下午4:00至7:30（夏季可能延长）；冬季下午开放时间可能缩短至5:30。阿尔塔米拉洞窟博物馆及复制品（Museo y Cueva de Altamira）开放时间为周二至周六上午9:30至晚上8:00（冬季至6:00），周日上午9:30至下午3:00。每周一、1月1日、6月20日、12月24、25、31日闭馆。具体时间随季节调整，强烈建议出行前在官网复核。`} />
-              <InfoRow label="门票价格" value={`进入小镇本身免费。圣胡利安娜修道院门票约3欧元，有时包含在导游讲解费中。阿尔塔米拉国家博物馆及洞窟复制品（Neocueva）门票约3欧元，欧盟公民可凭证件免费，但需提前在线预订（尤其是夏季和周末，通常需要提前数周甚至数月）。临时展览可能额外收费。`} />
-              <InfoRow label="地址" value={`Plaza de Ramón Pelayo, 13, 39330 Santillana del Mar, Cantabria, Spain`} />
-              <InfoRow label="交通方式" value={`最近的机场是桑坦德机场（SDR），距离约30公里。从机场可搭乘出租车（约30-40分钟，车费较贵）或先乘坐巴士到桑坦德市中心巴士站。从桑坦德市中心巴士站（Estación de Autobuses），乘坐ALSA公司的巴士直达桑蒂利亚纳代尔马尔，车程约30-45分钟，班次在工作日较多（约每小时一班），周末减少，务必提前查好时刻表。自驾是最灵活的方式，从桑坦德沿A-67高速转CA-131公路，有清晰路标，镇外有大型停车场（镇内禁止非居民车辆驶入）。`} />
+              <InfoRow label="开放时间" value={`古镇公共区域全天开放。内部主要景点如科尔普斯教堂、贵族宅邸博物馆等开放时间不一，通常为上午10点至下午2点，下午4点至晚7点（夏季可能延长）。周一多数室内景点闭馆。阿尔塔米拉洞穴的新博物馆与复制洞穴全年开放，时间为上午9:30至晚8:00（冬季至晚6:00），建议出发前务必在官网核对最新时间。`} />
+              <InfoRow label="门票价格" value={`漫步古镇本身免费。进入科尔普斯教堂通常需要小额捐款（约2欧元）。主要的贵族宅邸博物馆联票约6-8欧元。阿尔塔米拉国家博物馆与洞穴复制品参观，成人票约12欧元，学生及65岁以上老人有优惠，欧盟青年卡持有者可能免费。部分小镇内的私人博物馆单独收费（3-5欧元不等）。`} />
+              <InfoRow label="地址" value={`Plaza Mayor, 1, 39330 Santillana del Mar, Cantabria, Spain`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是桑坦德机场。从桑坦德机场或桑坦德市中心汽车站，乘坐ALSA公司的区域巴士，路线开往“Santillana del Mar / Comillas”，车程约30-45分钟，班次在工作日较为频繁（每小时1-2班），周末减少，务必提前在ALSA官网或车站查看时刻表。从火车站（如桑坦德Renfe站）出发，同样需转乘上述巴士。自驾是最灵活的方式，从桑坦德沿A-8高速转入CA-131，约25分钟车程，镇外有大型收费停车场（约每日5欧元），古镇中心禁止车辆驶入。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`桑蒂利亚纳的故事，得从它的“邻居”讲起。时间倒退回1879年，当地一位名叫马塞利诺·桑斯·德·绍图拉的业余考古学家，带着他小女儿玛丽亚，钻进了小镇附近一个不起眼的洞穴。正是这个小女孩，仰头惊呼：“爸爸，看，公牛！”人类历史上最惊人的艺术发现之一——阿尔塔米拉洞窟壁画，就这样重见天日。那些栩栩如生、充满动感的野牛、马匹和手印，将欧洲艺术史的开端猛然推前了一万多年。最初，学术界拒绝相信史前人类能有如此高超的艺术表现力，甚至指责绍图拉伪造。直到多年后类似洞窟相继发现，它才被确认为真。可以说，现代小镇的声名鹊起，与这个史前奇迹的发现密不可分。但小镇本身的历史，要古老得多。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`“桑蒂利亚纳”这个名字，源于一位罗马时期的少女殉道者——圣胡利安娜。传说她的遗骸在公元8世纪左右被带到这里，为了供奉她，人们建造了一座修道院。名字从“Sancta Iuliana”逐渐演变成“Santillana”。而“del Mar”（属于海）的后缀，虽然今天看来名不副实，但在中世纪，这片地区确实隶属于滨海修道院的管辖范围，标志着其宗教与行政上的归属。早期，这里只是一个围绕修道院发展起来的简单定居点，修士们在此耕作、祈祷，吸引了一些农民和手工艺人前来居住，形成了社区的雏形。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`真正的转折点发生在中世纪盛期。随着圣地亚哥朝圣之路北线的繁荣，桑蒂利亚纳因其重要的地理位置（不在主路上，但作为一条受欢迎的支线目的地）迎来了发展。朝圣者们慕名前来瞻仰圣胡利安娜的遗骸，为小镇带来了财富、声望和流动的文化。修道院被扩建得更加宏伟，我们今天看到的罗马式主体教堂和回廊，主要建于12世纪。小镇也从单纯的宗教中心，逐渐发展成为坎塔布里亚地区一个重要的政治与经济枢纽。本地贵族家族开始崛起，他们积累财富（ often through cattle ranching and trade），并将财富转化为石头上的宣言。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`从15到18世纪，是小镇的“黄金时代”。那些今天我们驻足惊叹的石头宫殿，大多建于这个时期。像拥有精美文艺复兴庭院的波托卡雷罗宫，或是立面布满复杂纹章雕刻的维拉克里奥宫，都是贵族们炫耀其权力与血统的产物。这些建筑风格上融合了晚期哥特式的繁复与文艺复兴的规整，形成了独特的“蒙塔涅萨”风格：坚固的石材、大型的盾徽、华丽的铁艺阳台和内部巨大的木梁屋顶。小镇的格局也基本定型，蜿蜒的街道连接着几个主要广场：教堂前的广场（Plaza de las Arenas）用于宗教集会，更大的拉蒙·佩拉约广场（Plaza de Ramón Pelayo）则是世俗生活的中心。这里不是战场，没有经历过毁灭性的战争，它的历史是一部缓慢积累、持续建设的和平编年史。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，随着朝圣热潮的衰退和西班牙经济中心的转移，桑蒂利亚纳在19世纪逐渐陷入了沉睡，几乎被现代世界遗忘。正是这种“被遗忘”，奇迹般地保护了它。当工业化席卷欧洲大部分地区时，这里的石头街道没有让位给柏油路，古老的宫殿也没有被拆毁改建。它像一颗琥珀，完整保存了中世纪到文艺复兴时期的风貌。阿尔塔米拉洞窟的发现，如同一声惊雷，再次将世界的目光吸引至此。20世纪，它被整体宣布为国家历史艺术遗产，得到了精心的保护和修复。今天的桑蒂利亚纳，是一座“活着的博物馆”，它的每一块石头都在低声诉说着从史前信仰、中世纪虔诚到贵族荣耀的层叠故事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`桑蒂利亚纳的故事，始于一片神圣的遗迹。传说在公元8世纪左右，几位虔诚的修道士为了躲避伊比利亚半岛北部的战乱，带着珍贵的圣朱丽安娜的遗骸来到这里。他们在一条古老罗马道路附近的山谷中定居，并建立了一个小型修道院社区。“Santillana”这个名字，正是从拉丁语“Sancta Iuliana”（圣朱丽安娜）演化而来。这片土地很快因圣迹而闻名，成为朝圣之路上的一个重要精神驿站，为小镇的诞生播下了最初的种子。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的繁荣要等到中世纪晚期。随着收复失地运动的推进和坎塔布里亚地区局势的稳定，这里肥沃的土地和战略位置吸引了卡斯蒂利亚王国内强大的贵族家族。从12世纪到16世纪，门多萨、维加、波拉尼奥斯等显赫姓氏纷纷在此建立他们的乡村宅邸和权力中心。这些石头建造的宫殿不仅是家园，更是彰显财富、血统和权力的宣言。他们竞相在门楣上雕刻最复杂的纹章，建造最华丽的塔楼，形成了今天我们看到的这座近乎完整的贵族建筑博物馆。小镇的格局也在那时定型：围绕着修道院和后来的科尔普斯教堂展开，几条主要街道连接起各大宅邸，没有防御城墙，因为家族的权威本身就是最好的保障。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`文艺复兴的春风吹过，也给桑蒂利亚纳带来了些许优雅的变化。一些古老的哥特式宅邸被赋予了新的立面，增加了雕花的阳台和更开阔的窗户。建于12世纪的罗马式科尔普斯教堂及其回廊，成为小镇宁静的灵魂。然而，好景不长。随着大航海时代中心转移和大贵族们逐渐迁往马德里等政治中心，桑蒂利亚纳在17世纪后陷入了漫长的“沉睡”。它不再是权力的角力场，时光仿佛在此凝固。这种被遗忘，在客观上成为了它最大的幸运，使它奇迹般地躲过了工业化浪潮的改造和现代战争的摧残。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`直到19世纪末20世纪初，一群西班牙知识分子和艺术家“重新发现”了这里。诗人、作家们为它与世无争的美所倾倒，称其为“西班牙最美的村庄”。而真正让桑蒂利亚纳登上世界舞台的，是附近阿尔塔米拉洞穴的发现与研究。当那些栩栩如生的史前壁画震惊世界时，这个守护着洞穴入口的宁静小镇，也成为了通往人类最深远的艺术与精神世界的门户。自此，它的命运被永远改变——从一座沉睡的贵族小镇，升华为一个承载着双重文化遗产（中世纪与史前）的圣地。今天的居民小心翼翼地平衡着旅游与生活、保护与传承，让这座“三句谎言之镇”（因为小镇既不“圣”，也不“平”，更不“靠海”）的古老魅力，在每一个晨昏中继续呼吸。`}</p>
             </div>
           </Section>
 
@@ -77,47 +76,45 @@ export default function SantillanaDelMarPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`完美的桑蒂利亚纳一日游，我强烈建议你上午早点到，赶在大批一日游旅行团涌入之前（通常是上午10点半之后），享受小镇清晨的宁静。整体游览可以分成两大块：上午（约3-4小时）沉浸在中世纪小镇的街巷与建筑细节中；下午（约2-3小时）留给阿尔塔米拉博物馆和洞窟复制品，进行一场史前艺术的精神朝圣。这样安排节奏张弛有度，上午用双脚和眼睛丈量历史，下午用心灵感受震撼。总耗时建议预留6-8小时，包括一顿悠闲的午餐。小镇不大，全程步行即可，但每一步都值得驻足。`}
+                  {`理想的游览应该从清晨开始，赶在大批一日游游客抵达之前，独占古镇最宁静的时光。建议安排整整一天：上午完全沉浸在中世纪古镇的街巷氛围中；下午前往阿尔塔米拉博物馆，探索史前艺术的震撼；傍晚返回古镇，在金色的夕阳下感受不一样的温柔。这样的节奏让你能深度体验两个世界遗产级别的文化层，而不至于匆忙。请务必穿一双绝对舒适的步行鞋，因为鹅卵石路面虽然美丽，但对脚踝是真正的考验。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`阿尔塔米拉洞窟（复制品）的门票非常紧俏，务必、务必、务必提前在官网预订，旺季时甚至需要提前数月计划。
-小镇的鹅卵石街道对高跟鞋和行李箱轮极不友好，请务必穿上最舒适防滑的步行鞋，并尽量轻装简行。
-注意西班牙的午休时间（大约下午2点到5点），一些小型博物馆或店铺可能会关门，合理安排参观和午餐时间。`}
+                  <strong>建议：</strong>{`切忌在中午12点到下午4点之间试图进入热门的小博物馆，那是旅游团的高峰期，你会被人流推着走。小镇很多小巷坡度不小，鹅卵石路面下雨后非常湿滑，出行前查看天气并选择防滑的鞋底至关重要。不要试图寻找“海滩”，它的名字“del Mar”（意为“海的”）是一个古老的历史误会，最近的海岸开车需要15分钟。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`把车停在镇外的大型停车场，然后像几个世纪前的朝圣者一样，沿着Calle del Río那条被磨得发亮的鹅卵石主街缓缓步行进入小镇的腹地。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`一大早在镇口的老石拱门下开始，触摸冰凉的石壁感受第一缕阳光照在蜂蜜色墙面上的温度。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在拉蒙·佩拉约广场中央的石头十字架下站一会儿，环视四周那些带着巨大盾形纹章的古老宫殿，想象贵族马车曾经在这里驶过。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着“国王街”慢行，仔细辨认每一座贵族宅邸门廊上独特的纹章雕刻，想象它们代表的故事与荣耀。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`买票进入圣胡利安娜修道院，先在中殿感受罗马式建筑的厚重与简朴，然后一定要去回廊，用手指触摸那些柱头上被岁月模糊了的雕刻，静静坐几分钟。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`走进宁静的五月广场，在科尔普斯教堂罗马式的朴素正门前静立片刻，听一听可能从里面传出的管风琴微弱练习声。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从修道院出来，别走大路，随意拐进一条名为“Calle de las Lindas”或“Calle de los Hornos”的狭窄侧巷，感受两旁石墙几乎要碰到一起的亲密感，抬头看一线天的景象。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要踏入教堂侧面的回廊，那里是古镇最静谧的角落，观察石柱上被岁月模糊的雕刻与中央庭院肆意生长的绿植。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`前往阿尔塔米拉博物馆，在进入震撼的“新洞窟”复制品前，先花时间在博物馆展厅了解那些壁画发现的故事、史前人类的生活以及令人惊叹的绘画技术。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`挑选一家由古老酒窖改造的餐厅享用漫长的坎塔布里亚午餐，尝尝当地特色的“牧羊人炖菜”和新鲜的“ quesada pasiega”甜点。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从博物馆返回小镇，选择一家开在古老石屋里的餐厅，比如在Plaza de Gandara附近，点一份坎塔布里亚特色的炖菜（Cocido Montañés）或新鲜的海鲜，坐在户外的阳光下享用。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`午后步行或搭乘接驳小火车前往阿尔塔米拉国家博物馆，在现代化的展厅里学习，然后怀着敬畏走进那精确复制的“公牛大厅”。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`饭后消食，可以去逛逛那些对公众开放的贵族宅邸内部，比如波托卡雷罗宫，看看文艺复兴风格的庭院和保存完好的古老家具。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`回到古镇后，探索那些偏离主街的小巷，比如“死亡之街”，感受当地居民真实的生活气息与窗台上盛开的鲜花。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分，如果还有精力，可以散步走到小镇边缘的牧场小径，回望整个桑蒂利亚纳，看夕阳为那片蜂蜜色的屋顶群镀上最后的金边。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落时分登上小镇西侧略微高起的坡地，回望整个桑蒂利亚纳德尔马尔在夕阳下变成一块巨大的、发光的琥珀。`}</p>
                 </div>
               </div>
             </div>
@@ -127,28 +124,28 @@ export default function SantillanaDelMarPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`拉蒙·佩拉约广场东侧拱廊下`}</h4>
-                  <p className="text-sm text-gray-700">{`下午的光线能穿过拱廊，在广场石板上投下长长的、富有韵律感的阴影，以广场十字架和对面宫殿为背景，能拍出极具纵深感和历史感的构图。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`镇口拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在拱门内侧向外拍摄，用古老的石拱作为天然画框，框住远处被金色阳光笼罩的街道和塔楼，层次感极强。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣胡利安娜修道院回廊中心`}</h4>
-                  <p className="text-sm text-gray-700">{`选择一个阳光充足的上午，站在回廊一边的中央，拍摄对面的拱廊和柱头，利用回廊的几何框架，捕捉阳光在古老石柱上移动的光影游戏。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`Calle del Río街道尽头仰拍`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在街道较低的一端，用广角镜头向上拍摄，让蜿蜒上升的鹅卵石路、两侧的石屋和尽头的教堂塔楼共同构成一幅经典的引导线构图画面。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`波托卡雷罗宫二楼窗户视角`}</h4>
-                  <p className="text-sm text-gray-700">{`如果宫殿开放，找到面向主广场的窗户，从内向外拍摄，以古老的石窗框为画框，捕捉窗外广场上流动的人群和生活场景，画面会充满故事性。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`国王街中段仰拍塔楼`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点前，阳光能照亮塔楼侧面，站在街道中间，利用两侧建筑形成的视觉引导线，仰拍点缀着纹章和石雕阳台的塔楼尖顶，充满中世纪威严。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`前往阿尔塔米拉博物馆的乡间小径`}</h4>
-                  <p className="text-sm text-gray-700">{`步行去博物馆的路上，有一段路可以回望小镇全景。在晴朗的下午，顺光条件下，可以拍到小镇簇拥着修道院塔楼、安卧在绿色山谷中的全景明信片角度。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`科尔普斯教堂回廊拱窗`}</h4>
+                  <p className="text-sm text-gray-700">{`任何时候，但阴天柔光更佳，站在回廊内侧，透过一扇罗马式拱窗拍摄另一扇窗，形成深邃的“窗中窗”框架，焦点对准窗台上的小盆栽或远处的一角蓝天。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`贵族宅邸门廊细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`下午的阳光能创造出更长的阴影，贴近雕刻繁复的家族纹章或石质窗棂，用大光圈虚化背景，捕捉石头历经风雨的质感和光影雕刻出的立体感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`田野远观全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，从通往阿尔塔米拉博物馆的道路上，找一处开阔的田野回头望，将金色的古镇全景与前景的绿色草地、悠闲的牛群一同收入镜头，展现其与自然和谐共存的田园诗意。`}</p>
                 </div>
               </div>
 
@@ -157,9 +154,7 @@ export default function SantillanaDelMarPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`带上一个广角镜头（用于拍摄狭窄街道和建筑全景）和一个定焦大光圈镜头（用于在室内或光线不佳时捕捉建筑细节和人像），三脚架在博物馆内和夜间小镇可能受限使用。`}</li>
-                <li>• {`最好的光线出现在日出后一小时和日落前一小时，此时阳光角度低，能为石雕和街道带来温暖的金色色调和长长的、富有戏剧性的阴影。`}</li>
-                <li>• {`拍摄当地居民或他们家的细节（如门环、阳台）时，请务必保持尊重，先微笑示意，如果对方显得不便，请勿强行拍摄。`}</li>
+                <li>• {`使用偏振镜可以有效减少古老石墙表面的反光，让蜂蜜色的色泽更加饱和温润。拍摄居民生活场景务必保持尊重，最好先微笑示意获得默许。在阿尔塔米拉复制洞穴内部，绝对禁止使用闪光灯，且三脚架可能受限，请提前咨询。`}</li>
               </ul>
             </div>
           </Section>
@@ -169,33 +164,69 @@ export default function SantillanaDelMarPage() {
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
-                  <p className="text-sm text-blue-800">{`下榻在一座由15世纪贵族宅邸改造的精品酒店，睡在古老的石墙和厚重的木梁之下，清晨在私人的内部庭院里享用早餐，完全融入中世纪氛围。`}</p>
+                  <p className="text-sm text-blue-800">{`入住由15世纪“波拉尼奥斯之家”贵族宅邸原址修复的精品酒店，睡在古老的石墙之内，木梁低垂，清晨在私家庭院的花香中醒来。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-green-900 mb-2">{`田园风光之选`}</h4>
-                  <p className="text-sm text-green-800">{`选择小镇外围或附近乡间的乡村酒店（Casa Rural），房间宽敞，拥有巨大的窗户直面坎塔布里亚的绿色群山和牧场，享受绝对的宁静，夜晚能看到璀璨星空。`}</p>
+                  <p className="text-sm text-green-800">{`距离古镇步行十分钟的乡间农舍改造的民宿，房间宽敞质朴，主人会为你准备丰盛的自家农场早餐，晚上能看见璀璨的星空。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计美学之选`}</h4>
-                  <p className="text-sm text-yellow-800">{`小镇里有将古老石屋与现代极简设计巧妙融合的精品客栈，在保留原始石材墙壁和拱门的同时，提供舒适的现代设施和主人精心挑选的艺术品，体验古今对话。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端设计之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在古镇边缘一座经过惊人现代改造的历史建筑内，设计巧妙地融合了中世纪结构与当代极简美学，拥有一个可以俯瞰全镇屋顶的露台酒吧。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`史前主题之选`}</h4>
-                  <p className="text-sm text-purple-800">{`如果想深度体验阿尔塔米拉，可以选择博物馆附近为数不多的、以史前文化为主题的特色住宿，房间装饰可能融入岩画元素，并提供相关的主题书籍和导览。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`家庭温馨之选`}</h4>
+                  <p className="text-sm text-purple-800">{`位于安静小巷里的家庭运营公寓，带有小厨房，由一栋老房子分隔而成，装饰充满本地手工艺品，主人会热情地给你地图并标出只有本地人才知道的散步小路。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`小镇内的住宿数量有限且非常受欢迎，尤其是在夏季和节假日，必须提前数月预订才能有心仪的选择。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`住在镇内意味着可以在游客散去后的夜晚和清晨，独享空无一人的魔法街道，这种体验远超白天，值得为之投资。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`如果自驾，预订时务必确认住宿地点是否提供停车位，或者与公共停车场的距离，拖着行李在鹅卵石路上走很远会是不小的挑战。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`古镇内的住宿数量非常有限且极其抢手，尤其是在夏季和周末，务必提前数月预订。住在镇内意味着可以在夜晚和清晨独享空无一人的魔法街道，体验远超一日游游客。选择镇外住宿通常性价比更高且停车方便，但会错过古镇最珍贵的“沉睡”与“苏醒”的时刻。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开桑蒂利亚纳几天后，我闭上眼睛，脑海里浮现的不是某一张具体的照片，而是一种混合的感觉：脚底鹅卵石那种独特的、凹凸不平的触感，鼻腔里清冷的石苔气味，还有那种被厚重历史轻轻包裹着的安全感。这个地方有一种魔力，它能让你自然而然地慢下来，呼吸变得深长，说话不由自主地压低声音，好像怕惊扰了那些在石墙里沉睡了几百年的梦。在这个追求效率和新鲜感的时代，桑蒂利亚纳提供的恰恰相反——它提供一种“不变”的慰藉，一种与更漫长、更缓慢的时间尺度连接的可能性。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`所以，为什么它值得你专程而来？不仅仅是为了看那些教科书级别的罗马式教堂或华丽的盾徽。更是为了体验一种完整的时空层叠。在这里，你可以在一个下午，完成从人类在黑暗洞穴中画出第一头野牛时的敬畏与渴望，到中世纪工匠为上帝凿刻最后一朵石花时的虔诚与技艺，这中间跨越了上万年的精神旅程。桑蒂利亚纳和阿尔塔米拉在一起，就像一个完整的寓言，讲述着人类如何从自然洞穴走向精神庙宇，如何将生存的恐惧与对美的追求，永恒地镌刻在岩石之上。对于任何想要超越表面观光、触摸欧洲文明深层脉动的旅人来说，这里不是一站，而是一次心灵的溯源。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开桑蒂利亚纳德尔马尔许久后，闭上眼睛，脑海里浮现的不是某个具体的建筑，而是一种整体的、琥珀色的氛围。那是一种被温柔凝固的时间感。在这里，历史不是博物馆里冰冷的标签，而是你脚下凹凸不平的石路，是手边石墙上阳光残留的余温，是午后巷子里飘来的家常炖菜的香气。它告诉你，所谓“活的历史”，并非惊天动地，而是日常生活的延续，是一代代人在这同样的墙壁内出生、相爱、老去所沉淀下的呼吸与温度。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切追求新奇、快速和解构的时代，桑蒂利亚纳的存在更像一个谦逊而坚定的提醒。它提醒我们，美可以通过延续而非破坏来成就；文化的深度在于层叠，史前艺术的狂野生命力和中世纪秩序的优雅追求，可以并存在同一片山谷里，彼此对话。它不是一个逃离现实的童话世界，而是一个让我们停下脚步，重新思考自己与时间、与传承、与何为“家园”关系的真实场所。对于任何一位渴望深度游的旅人来说，这里不是简单的一站，而是一次心灵的沉降。让你把脚步放到最慢，让感官完全打开，去聆听石头、光影和寂静诉说的，那关于永恒与瞬间的，最古老也最新鲜的故事。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/ubeda" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乌
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乌韦达古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Úbeda</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/jaen-historic-quarter" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈恩古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Historic Quarter of Jaén</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/zamora-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨莫拉大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zamora Cathedral</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

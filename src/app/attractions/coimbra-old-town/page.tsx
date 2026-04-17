@@ -192,36 +192,36 @@ export default function CoimbraOldTownPage() {
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/viseu" className="block group">
+              <a href="/attractions/silves-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    维
+                    锡
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维塞乌古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Viseu</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">锡尔维什城堡（红砂岩城堡）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Silves Castle</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/bom-jesus-do-monte-braga" className="block group">
+              <a href="/attractions/convent-of-christ-tomar" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    布
+                    托
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布拉加仁慈耶稣朝圣所</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bom Jesus do Monte</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">托马尔骑士团修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Convent of Christ</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/guimaraes-historical-centre" className="block group">
+              <a href="/attractions/batalha-monastery" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    吉
+                    巴
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">吉马良斯历史中心</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Guimarães Historical Centre</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴塔利亚修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Batalha Monastery</p>
                   </div>
                 </div>
               </a>

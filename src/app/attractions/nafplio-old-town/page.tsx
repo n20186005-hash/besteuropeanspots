@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '纳夫普利翁 Nafplio｜希腊的第一首都，爱琴海畔被遗忘的浪漫故都 - 最佳欧洲景点',
-  description: '车子转过最后一个山弯，爱琴海那种独有的、介于宝石蓝和孔雀绿之间的光芒，就那么毫无预警地撞进了眼里。而纳夫普利翁，就像一颗被时光妥善收藏的糖果，安静地躺在阿尔戈利斯湾的怀抱里。第一印象不是震撼，而是一种被温柔击中的恍惚。空气里是海盐、九重葛花香，还有不知从哪家厨房飘出来的油炸小章鱼的焦香，混合成一种属...',
+  title: '纳夫普利翁老城 Nafplio｜希腊第一首都，悬崖城堡与爱琴海蓝的浪漫小镇 - 最佳欧洲景点',
+  description: '车子刚转过最后一道山弯，那一片铺展在蔚蓝阿尔戈利斯湾怀抱里的蛋黄色与橘红色屋顶，就像是被阳光和海风共同调出的蜜糖，猝不及防地甜进你心里。这就是纳夫普利翁给你的第一眼，没有卫城那样令人屏息的崇高，却有一种立刻想拥抱它的亲切。海风带来微咸的气息，混杂着路边咖啡馆飘出的新鲜咖啡香和糖霜杏仁的甜腻。耳边是轻...',
 }
 
 export default function NafplioOldTownPage() {
@@ -16,56 +16,57 @@ export default function NafplioOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '纳夫普利翁', href: '/attractions/nafplio-old-town' },
+            { label: '纳夫普利翁老城', href: '/attractions/nafplio-old-town' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`纳夫普利翁・Nafplio・希腊・纳夫普利翁`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`纳夫普利翁老城・Nafplio・希腊・纳夫普利翁`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`车子转过最后一个山弯，爱琴海那种独有的、介于宝石蓝和孔雀绿之间的光芒，就那么毫无预警地撞进了眼里。而纳夫普利翁，就像一颗被时光妥善收藏的糖果，安静地躺在阿尔戈利斯湾的怀抱里。第一印象不是震撼，而是一种被温柔击中的恍惚。空气里是海盐、九重葛花香，还有不知从哪家厨房飘出来的油炸小章鱼的焦香，混合成一种属于地中海的、懒洋洋的甜蜜。
-走在老城，脚下是光滑的威尼斯式石板路，缝隙里长出小小的草。你的眼睛会忙不过来：这边是一栋鹅黄色的新古典主义宅邸，阳台的铁艺花纹精致得像蕾丝；拐角处，一座奥斯曼时期留下的清真寺宣礼塔，安静地矗立着，如今变成了一个小型美术馆。当地人生活的节奏就流淌在这些建筑之间。午后，老人们聚在广场的梧桐树下玩西洋双陆棋，棋子落在棋盘上发出清脆的“哒哒”声，和海浪的节拍混在一起。你突然明白，这里最动人的不是某个孤立的景点，而是一种整体性的、活着的氛围。它优雅，但绝不疏离；它古老，却充满了生活气。
-最让人沉溺的，是黄昏时分。登上古老的阿克罗纳夫普利亚城堡遗迹，或者只是坐在海港边的露天咖啡馆。夕阳给对面伯罗奔尼撒的山峦镀上金边，海面上的波光碎成千万片银子。布尔齐岛上的威尼斯要塞，像一枚黑色的印章盖在橙粉色的天幕上。你会听到教堂的钟声、归航渔船的汽笛、以及咖啡馆里传来轻柔的希腊音乐。这一刻，历史不再是教科书上的名词，而是你呼吸着的空气，是眼前这幅依然在流动的画卷。纳夫普利翁的核心魅力，就在于它完美平衡了历史的厚重与海滨小镇的闲适，让你同时成为一个贪婪的探索者和一个纯粹的度假者。`}
+            {`车子刚转过最后一道山弯，那一片铺展在蔚蓝阿尔戈利斯湾怀抱里的蛋黄色与橘红色屋顶，就像是被阳光和海风共同调出的蜜糖，猝不及防地甜进你心里。这就是纳夫普利翁给你的第一眼，没有卫城那样令人屏息的崇高，却有一种立刻想拥抱它的亲切。海风带来微咸的气息，混杂着路边咖啡馆飘出的新鲜咖啡香和糖霜杏仁的甜腻。耳边是轻快的希腊语交谈声、摩托车的嗡嗡声，以及远处港口渔船归来的汽笛。它不是一座被供起来的古迹，而是一个活生生、会呼吸的、带着海盐味和咖啡因的小镇。
+你沿着老城的石板路向里走，坡度缓缓上升，仿佛踏进了一个时光流速变慢的迷宫。墙壁被刷成各种柔和的色调：薄荷绿、淡鹅黄、杏子粉。每一扇木质的阳台门都漆着深蓝或墨绿，垂挂着天竺葵或九重葛，开得不管不顾，热烈奔放。阳光穿过狭窄巷道的上空，在鹅卵石上切割出明暗交替的几何图形。当地人拎着蔬菜袋从你身边走过，会对你点头微笑；老头们聚在广场的梧桐树下，摆开棋盘就能消磨一个下午。你会忽然明白，这里最动人的不是某个孤立的景点，而是整个生活的氛围——一种将千年历史沉淀为日常闲适的非凡能力。
+而当你抬头，视线越过那些暖色的屋顶，就会看到那座雄踞于216米高山崖之巅的帕拉米蒂堡垒，它像一顶巨大的灰色王冠，冷酷而沉默地俯瞰着脚下温柔的小镇。这种强烈的对比——悬崖的险峻与小镇的甜美，堡垒的刚硬与海湾的柔情——正是纳夫普利翁灵魂的二元性。它曾是兵家必争的咽喉要塞，每一块石头都浸染过硝烟；如今，它却是希腊人心中最浪漫的度假胜地，新婚夫妇蜜月的首选。这种从战争伤痕到生活诗意的蜕变，就写在那一道道城墙的纹理和每一朵阳台的鲜花里。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子转过最后一个山弯，爱琴海那种独有的、介于宝石蓝和孔雀绿之间的光芒，就那么毫无预警地撞进了眼里。而纳夫普利翁，就像一颗被时光妥善收藏的糖果，安静地躺在阿尔戈利斯湾的怀抱里。第一印象不是震撼，而是一种被温柔击中的恍惚。空气里是海盐、九重葛花香，还有不知从哪家厨房飘出来的油炸小章鱼的焦香，混合成一种属于地中海的、懒洋洋的甜蜜。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走在老城，脚下是光滑的威尼斯式石板路，缝隙里长出小小的草。你的眼睛会忙不过来：这边是一栋鹅黄色的新古典主义宅邸，阳台的铁艺花纹精致得像蕾丝；拐角处，一座奥斯曼时期留下的清真寺宣礼塔，安静地矗立着，如今变成了一个小型美术馆。当地人生活的节奏就流淌在这些建筑之间。午后，老人们聚在广场的梧桐树下玩西洋双陆棋，棋子落在棋盘上发出清脆的“哒哒”声，和海浪的节拍混在一起。你突然明白，这里最动人的不是某个孤立的景点，而是一种整体性的、活着的氛围。它优雅，但绝不疏离；它古老，却充满了生活气。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最让人沉溺的，是黄昏时分。登上古老的阿克罗纳夫普利亚城堡遗迹，或者只是坐在海港边的露天咖啡馆。夕阳给对面伯罗奔尼撒的山峦镀上金边，海面上的波光碎成千万片银子。布尔齐岛上的威尼斯要塞，像一枚黑色的印章盖在橙粉色的天幕上。你会听到教堂的钟声、归航渔船的汽笛、以及咖啡馆里传来轻柔的希腊音乐。这一刻，历史不再是教科书上的名词，而是你呼吸着的空气，是眼前这幅依然在流动的画卷。纳夫普利翁的核心魅力，就在于它完美平衡了历史的厚重与海滨小镇的闲适，让你同时成为一个贪婪的探索者和一个纯粹的度假者。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子刚转过最后一道山弯，那一片铺展在蔚蓝阿尔戈利斯湾怀抱里的蛋黄色与橘红色屋顶，就像是被阳光和海风共同调出的蜜糖，猝不及防地甜进你心里。这就是纳夫普利翁给你的第一眼，没有卫城那样令人屏息的崇高，却有一种立刻想拥抱它的亲切。海风带来微咸的气息，混杂着路边咖啡馆飘出的新鲜咖啡香和糖霜杏仁的甜腻。耳边是轻快的希腊语交谈声、摩托车的嗡嗡声，以及远处港口渔船归来的汽笛。它不是一座被供起来的古迹，而是一个活生生、会呼吸的、带着海盐味和咖啡因的小镇。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你沿着老城的石板路向里走，坡度缓缓上升，仿佛踏进了一个时光流速变慢的迷宫。墙壁被刷成各种柔和的色调：薄荷绿、淡鹅黄、杏子粉。每一扇木质的阳台门都漆着深蓝或墨绿，垂挂着天竺葵或九重葛，开得不管不顾，热烈奔放。阳光穿过狭窄巷道的上空，在鹅卵石上切割出明暗交替的几何图形。当地人拎着蔬菜袋从你身边走过，会对你点头微笑；老头们聚在广场的梧桐树下，摆开棋盘就能消磨一个下午。你会忽然明白，这里最动人的不是某个孤立的景点，而是整个生活的氛围——一种将千年历史沉淀为日常闲适的非凡能力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`而当你抬头，视线越过那些暖色的屋顶，就会看到那座雄踞于216米高山崖之巅的帕拉米蒂堡垒，它像一顶巨大的灰色王冠，冷酷而沉默地俯瞰着脚下温柔的小镇。这种强烈的对比——悬崖的险峻与小镇的甜美，堡垒的刚硬与海湾的柔情——正是纳夫普利翁灵魂的二元性。它曾是兵家必争的咽喉要塞，每一块石头都浸染过硝烟；如今，它却是希腊人心中最浪漫的度假胜地，新婚夫妇蜜月的首选。这种从战争伤痕到生活诗意的蜕变，就写在那一道道城墙的纹理和每一朵阳台的鲜花里。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={`纳夫普利翁`} />
+                <InfoRow label="中文名称" value={`纳夫普利翁老城`} />
                 <InfoRow label="英文名称" value={`Nafplio`} />
                 <InfoRow label="正式名称" value={`Nafplio`} />
                 <InfoRow label="国家" value={`希腊`} />
                 <InfoRow label="城市" value={`纳夫普利翁`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`现代希腊独立后的第一个首都，是希腊摆脱奥斯曼帝国统治后国家精神的初生摇篮。`} />
-                <InfoRow label="建筑特色" value={`威尼斯、奥斯曼与希腊新古典主义风格的精妙层叠，宛如一部立体的地中海建筑编年史。`} />
-                <InfoRow label="建筑风格" value={`强烈的威尼斯文艺复兴风格主导，融合了奥斯曼的简约与希腊独立后的新古典主义元素。`} />
-                <InfoRow label="文化价值" value={`一个并非只有远古神话的希腊，在这里你能触摸到近代希腊民族国家形成之初的脉搏与温度。`} />
+                <InfoRow label="历史地位" value={`现代希腊独立后的第一个首都（1829-1834年），被誉为“新雅典”的摇篮。`} />
+                <InfoRow label="建筑特色" value={`依山傍海，完美融合了威尼斯堡垒、奥斯曼清真寺与新古典主义宅邸的独特山城。`} />
+                <InfoRow label="建筑风格" value={`以威尼斯军事建筑为核心，混杂奥斯曼元素，并覆盖了19世纪独立后的新古典主义风貌。`} />
+                <InfoRow label="文化价值" value={`一座活着的希腊近代史露天博物馆，见证了从独立战争到现代国家雏形诞生的全部悸动与阵痛。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`古城区域及海滨步道全天24小时开放。主要景点如帕拉米迪城堡夏季（4月-10月）通常为08:00-19:30，冬季（11月-3月）为08:00-15:30，周一可能闭馆或缩短时间。布尔齐岛要塞的渡船服务一般在上午10点至日落前运行，冬季班次大幅减少。所有室内博物馆和小型展馆的开放时间非常多变，强烈建议在每年四月至十月的旅游旺季前往，并提前在当地旅游信息中心或景点官网确认当日安排。`} />
-              <InfoRow label="门票价格" value={`进入纳夫普利翁老城区本身免费。帕拉米迪城堡门票约为8欧元，冬季或有折扣。考古博物馆门票约为6欧元。布尔齐岛要塞登岛免费，但乘坐小船往返约需5-6欧元。多数教堂免费参观。联票并不常见，学生、老人及欧盟青年卡持有者通常可享受半价优惠，需出示有效证件。`} />
-              <InfoRow label="地址" value={`Nafplio, 211 00, Greece`} />
-              <InfoRow label="交通方式" value={`从雅典国际机场出发最便捷的方式是租车自驾，沿E94高速公路行驶，约2小时即可直达，沿途风光极美。若乘坐公共交通，需先从机场乘X93巴士到雅典的基菲索斯长途汽车站，再换乘前往纳夫普利翁的KTEL城际巴士，车程约2.5-3小时，班次每天约10-12班。从纳夫普利翁小镇中心到所有景点均可轻松步行到达，探索帕拉米迪城堡则需要攀爬著名的999级台阶或乘坐出租车至山顶入口。`} />
+              <InfoRow label="开放时间" value={`纳夫普利翁老城作为开放式的城镇区域，全天24小时可自由漫步。但城内的重要历史遗迹和博物馆有各自的开放时间：伯罗奔尼撒民俗基金会博物馆通常为周二至周日上午9点至下午2点；众多小型画廊和纪念品商店的营业时间较为灵活，一般为上午10点至下午2点，傍晚5点至晚上9点。帕拉米蒂堡垒和波尔齐海堡的开放时间会随季节变化，夏季（4月至10月）通常为早上8点至晚上7点或更晚，冬季（11月至3月）则为早上8点半至下午3点。需注意，大多数博物馆和考古遗址周一闭馆，重要节假日（如复活节、圣诞节）也可能关闭。`} />
+              <InfoRow label="门票价格" value={`进入老城区域本身免费。帕拉米蒂堡垒门票约为8欧元；波尔齐海堡门票约为4欧元（通常需要从码头乘小船抵达，船票另计约4欧元）。伯罗奔尼撒民俗基金会博物馆门票约为3欧元。学生、65岁以上老人及多子女家庭通常享有半价优惠，需出示有效证件。欧盟学生有时可免费进入国立博物馆。`} />
+              <InfoRow label="地址" value={`Old Town of Nafplio, 211 00, Argolis, Peloponnese, Greece`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是雅典埃莱夫塞里奥斯·韦尼泽洛斯国际机场（ATH）。从机场出发，最便捷的方式是租车自驾，沿E94/E65高速公路行驶，途经科林斯地峡，约2小时车程即可抵达纳夫普利翁，沿途海景壮丽。若使用公共交通：从雅典机场乘坐X93公交（约1小时，票价约6欧元）或地铁（需换乘）到雅典基菲索斯长途汽车站，转乘前往纳夫普利翁的KTEL长途巴士，班次频繁（约每1-2小时一班），车程约2-2.5小时，票价约15欧元。从纳夫普利翁镇中心的巴士站步行5-10分钟即可进入老城核心区。镇内游览完全依靠步行。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`要讲纳夫普利翁的故事，得先从海上的那个小岛——布尔齐说起。早在古希腊迈锡尼文明时期，这里就是一个重要的港口。但真正让它成为兵家必争之地的，是威尼斯共和国。十五世纪，威尼斯的商船与舰队称霸地中海，他们一眼看中了这个天然良港，并在小小的岩石岛上筑起了第一座要塞，就是今天的布尔齐岛城堡。那时的纳夫普利翁，是威尼斯在摩里亚半岛最重要的前哨站，一个充满意大利风情的“港口要塞”。你可以想象，码头上堆满了东方的丝绸、香料，和来自意大利的葡萄酒，空气里是多种语言交织的嘈杂。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`威尼斯的荣光并未永远照耀。1715年，经过残酷的围攻，奥斯曼土耳其的弯刀再次征服了这里。土耳其人留下了他们的印记，比如建造了清真寺和公共浴室，但更多的是加强防御。他们深知此地重要，于是在城市后方那座高达216米的巨岩山巅，修筑了堪称军事工程奇迹的帕拉米迪城堡。这座拥有七座独立堡垒的庞然大物，被认为是当时地中海沿岸最坚固的城堡之一。然而，再坚固的石头也挡不住历史的洪流。十九世纪初，希腊独立战争的烽火燃遍大地。经过艰苦卓绝的战斗，1822年11月，希腊起义军终于攻克了帕拉米迪城堡，纳夫普利翁成为第一个从奥斯曼铁蹄下获得自由的主要城镇。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`正是这份“第一”的荣光，让它被历史选中。1829年，现代希腊的第一位总统爱奥尼斯·卡波季斯第亚斯将政府迁至于此，纳夫普利翁由此成为新生希腊国的第一个首都。那是一个充满希望与混乱的草创年代。你可以想象，狭窄的街道上走过穿着欧洲军服的士兵，也走过衣衫褴褛的游击队员；新建的政府机构里，人们在激烈地辩论着这个国家的未来宪法。可惜，和平与建设被暗杀打断。1831年，卡波季斯第亚斯总统就在纳夫普利翁的圣斯皮里宗教堂前遇刺身亡，为这座小城添上了一抹悲剧色彩。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`首都的使命在1834年结束，雅典接过了接力棒。纳夫普利翁仿佛松了一口气，从此卸下政治的重担，回归它原本宁静的海港生活。那些为首都时期建造的优雅新古典主义建筑，那些威尼斯时期留下的浪漫阳台，奥斯曼时期简朴的街道格局，都被完整地保存下来，层叠在一起，没有互相覆盖，只是静静地诉说。它没有沉溺于“故都”的怀旧中，而是聪明地将历史转化为一种生活的质感，成为了雅典人最钟爱的周末度假后院，也成为了寻找“另一个希腊”的旅行者们心中的圣地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`纳夫普利翁的故事，深埋在神话与海浪的泡沫里。传说中，海神波塞冬的儿子纳夫普利俄斯建立了这座城市，并以自己的名字为之命名。在迈锡尼文明时期，它就已经是一个重要的港口。但真正让它登上历史血腥舞台的，是其无与伦比的地理位置——一个拥有天然深水港，且被三座堡垒（帕拉米蒂、阿克罗纳夫普利翁、波尔齐）严密守护的半岛。谁能控制这里，谁就扼住了伯罗奔尼撒的咽喉。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`于是，中世纪以降，争夺的戏码在此反复上演。拜占庭人、法兰克人、威尼斯人、奥斯曼人，像走马灯一样你方唱罢我登场。其中，威尼斯人的两次统治（1389-1540年及1686-1715年）给城市留下了最深的烙印。那些技艺精湛的威尼斯工程师，几乎是偏执地将这座山丘打造成一座坚不可摧的军事艺术品。我们今天看到的帕拉米蒂堡垒，那个拥有八座独立堡垒（据说为了对应八位守护圣徒）的庞大复合体，以及伸入海中的波尔齐岛堡，都是威尼斯军事建筑的巅峰之作。他们开凿了999级（也有人说是857级）陡峭的阶梯从山脚直通堡垒，既是为了运输补给，也是一道惊人的心理防线。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，再坚固的石头也挡不住历史的洪流。1715年，奥斯曼帝国经过血腥围攻，最终从威尼斯人手中夺回了纳夫普利翁。他们在城里建起了清真寺（如今一些被改造成了教堂或电影院），并加固了防御。直到19世纪初，希腊独立战争的烽火燃遍大地。经过惨烈的围城，希腊起义军终于在1822年将奥斯曼守军赶出了波尔齐海堡，纳夫普利翁成为第一个获得自由的主要城镇。正因为其易守难攻的天然堡垒特性，它被选为新生希腊国家的临时首都。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`1829年，现代希腊的第一位总督约安尼斯·卡波季斯第亚斯在这里上任，纳夫普利翁迎来了它短暂而辉煌的“首都时代”。欧洲大国的外交官、充满理想的政治家、流亡归来的知识分子汇聚于此，第一批政府机构、学校、剧院在此建立。你可以想象，那些新建的新古典主义宅邸里，曾进行过多少关于国家未来的激烈辩论。然而，历史在这里也展现其残酷的一面：1831年，卡波季斯第亚斯就在这座城市的圣斯皮里东教堂台阶上被政敌刺杀。三年后，首都迁往雅典，纳夫普利翁的聚光灯骤然熄灭，重新回归宁静。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`或许正是这种从权力中心退隐的经历，赋予了它今天独特的气质。它没有沉溺于往日的荣耀，也没有被现代化浪潮彻底吞没。它安然地做着“曾经的首都”，将那段惊心动魄的历史吸收进每一道墙缝，然后继续过自己面朝大海、春暖花开的日子。战争的疤痕上开出了九重葛，总督府旁开起了冰淇淋店，这种举重若轻的生活智慧，或许是它从千年动荡中学到的最珍贵的东西。`}</p>
             </div>
           </Section>
 
@@ -74,45 +75,45 @@ export default function NafplioOldTownPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`要真正品味纳夫普利翁，最好安排整整两天一夜。第一天上午抵达后，先从高处俯瞰全局建立空间感，下午沉浸老城细节；第二天清晨留给最精华的城堡探索，午后享受海滨时光。建议在日出前后开始第一天的行程，这时光线柔和，游客稀少，你能看到小镇最真实苏醒的模样。整体节奏宜慢不宜快，核心在于“游荡”和“沉浸”，多给自己一些坐在广场发呆、在咖啡馆观察路人的时间。这样安排的逻辑是由远及近、由宏大到细腻，最后以完全放松的状态收尾，让小镇的韵律彻底渗透你。`}
+                  {`要彻底感受纳夫普利翁的层次，建议安排整整两天时间。第一天专注于“高度”与“硬度”：清晨趁凉爽时挑战帕拉米蒂堡垒，午后探访老城高处的阿克罗纳夫普利翁城堡遗迹和沉浸式博物馆。第二天则体验“湿度”与“温度”：上午乘船登上梦幻的波尔齐海堡，下午留给老城迷宫般的小巷和滨海广场的咖啡时光。这样的节奏张弛有度，既能领略其作为军事要塞的雄浑，又能沉浸于其作为海滨小镇的慵懒。务必穿一双绝对舒适耐磨的步行鞋，因为这里的游览本质上是一场愉快的“上下求索”。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`攀爬帕拉米迪城堡的999级台阶是经典体验，但建议上午进行并携带充足饮水，希腊的烈日毫不留情。老城许多小巷坡度很大，请务必穿一双绝对舒适耐磨的平底鞋。警惕港口边过于热情招揽生意的餐馆，往老城内部走两个街区，你能找到性价比更高、本地人更多的地道小馆。`}
+                  <strong>建议：</strong>{`夏季（6-8月）午间极其炎热，尽量将户外堡垒参观安排在上午10点前或下午4点后，中午留给有空调的博物馆或咖啡馆。老城很多小巷坡度陡、石板滑，切忌穿人字拖或高跟鞋。警惕港口附近过于热情招揽生意的餐馆，最好提前查好评或跟着本地人的选择走。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`趁着清晨的凉爽和海面的晨雾，先登上阿克罗纳夫普利亚城堡的遗址平台，看着金色阳光一点点为整个老城的红瓦屋顶和远处海湾涂上色彩`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`黎明时分从老城西北角的“千级阶梯”起步，一口气爬上帕拉米蒂堡垒的制高点，在空旷的瞭望台独享爱琴海日出将整个阿尔戈利斯湾染成金红色的震撼瞬间。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从城堡下来后迷失在老城错综复杂的棋盘格街道里，用手抚摸那些色彩斑斓的威尼斯建筑外墙，寻找阳台上盛开的天竺葵与精致的铁艺浮雕`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在堡垒巨大的拱形兵营和蓄水池间慢慢穿行，用手触摸那些被海风侵蚀出孔洞的威尼斯砖石，想象士兵在此驻守的孤独。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在宪法广场边的传统糕点店买一份裹着厚厚糖粉的“卢库马德斯”希腊甜甜圈，坐在长椅上边吃边看当地人来来往往`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从堡垒另一侧较平缓的公路下山，顺路探访静谧的Agia Moni修道院，然后在山腰的本地小酒馆享用一顿以新鲜烤鱼和乡村沙拉为主的早午餐。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`午后花几欧元搭乘小木船登上布尔齐岛的海上要塞，沿着城墙走一圈，想象威尼斯水手当年在此守望的孤独`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`午后从宪法广场开始，沿着Staikopoulou步行街闲逛，推开伯罗奔尼撒民俗基金会博物馆厚重的木门，看看那些精美的传统刺绣和服饰，听听老唱片机里的民族音乐。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`日落前一定要沿着海滨步道从老港口漫步至阿纳菲广场，看夕阳把对岸的帕拉米迪城堡和整个天空点燃`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`拐进老城东北部最迷你的巷弄，比如Potamianou街，让自己彻底迷失在九重葛瀑布和猫咪打盹的静谧角落里，寻找那幅最有名的“阳台与三角梅”明信片视角。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`第二天起个大早（或打车）去征服帕拉米迪城堡，在清晨的寂静中独自穿行于七座堡垒之间，俯瞰宛如模型般的全景`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`赶在日落前一小时抵达港口，跳上随时出发的小舢板，五分钟航程后登上那座仿佛从童话里冒出来的波尔齐岛堡，看着夕阳将它的石头染成蜜糖色，对岸老城的灯光逐一亮起。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从城堡下来后参观纳夫普利翁考古博物馆，看看从附近梯林斯等遗址出土的珍宝，为眼前的美景补上跨越千年的历史注脚`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`入夜后投身于Bouboulinas滨海大道沸腾的夜生活，在一家挂满渔网和浮标的小馆子点一盘油炸小章鱼，配上一杯冰镇的白麝香葡萄酒，耳边是海浪拍打堤岸的永恒节奏。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`最后的时光留给一家能看见海的咖啡馆，什么都不做，只是喝着弗雷普冰咖啡，听钟声和海浪声为你的旅程画上休止符`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`第二天留点时间去当地人最爱的Arvanitia海滩，那是一条从山崖下开辟出的风景绝美的步行小径通往的卵石海湾，跳进清澈见底的海水里，像希腊人一样享受纯粹的阳光与海。`}</p>
                 </div>
               </div>
             </div>
@@ -122,22 +123,28 @@ export default function NafplioOldTownPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`帕拉米迪城堡最高处东北角堡垒的雉堞旁`}</h4>
-                  <p className="text-sm text-gray-700">{`日出后一小时，以古老的炮口为前景框架，拍摄山下老城建筑群沐浴在金色晨光中、并与深蓝色海湾形成绝妙色彩对比的宏大全景`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`帕拉米蒂堡垒西侧城墙缺口`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，以巨大的威尼斯砖石拱门为前景框架，将对岸山峦和沐浴在暖金色光线下的老城屋顶一同收入镜中，层次感无敌。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`布尔齐岛要塞朝向东侧老城的城墙根`}</h4>
-                  <p className="text-sm text-gray-700">{`日落前半小时，使用长焦镜头压缩空间，捕捉夕阳将老城建筑染成暖橘色、而海上要塞剪影冷峻孤傲的戏剧性画面`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`波尔齐海堡的环形步道`}</h4>
+                  <p className="text-sm text-gray-700">{`登上岛堡后绕到面向开阔大海的一侧，在黄昏蓝调时刻利用礁石作为引导线，拍摄海堡孤独矗立在深蓝海面的倒影，氛围感十足。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`老城斯塔西奥努街与科米努街交叉口的弧形楼梯`}</h4>
-                  <p className="text-sm text-gray-700">{`晴朗日子的正午，阳光直射时，利用两侧明黄色与淡粉色墙面的反射光，拍摄人物走上洒满光斑的阶梯的生动场景`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`老城制高点“Five Brothers”豪宅阳台（有时开放为咖啡馆）`}</h4>
+                  <p className="text-sm text-gray-700">{`需要消费一杯咖啡换取机位，从这里可以平视拍摄帕拉米蒂堡垒的全貌，以及脚下层层叠叠的彩色屋顶，视野极为开阔。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`阿克罗纳夫普利亚城堡下方的观景平台`}</h4>
-                  <p className="text-sm text-gray-700">{`蓝调时刻（日落后20分钟内），架起三脚长曝光，拍摄老港口船只灯光初亮、布尔齐岛轮廓与深紫色天空倒映在如镜海面上的宁静夜景`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`Arvanitia海滨步道中段`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨顺光时，从这条悬崖小径回望，可以同时将老城建筑、阿克罗纳夫普利翁城堡山以及帕拉米蒂堡垒全部囊括在一个画面里，展现城市与山海的全景关系。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`宪法广场的帕纳吉亚教堂前`}</h4>
+                  <p className="text-sm text-gray-700">{`利用广场上的喷泉池制造倒影，在夜晚教堂和周围新古典主义建筑亮灯后拍摄，对称的构图和温暖的灯光能拍出宛如歌剧舞台的华丽效果。`}</p>
                 </div>
               </div>
 
@@ -146,7 +153,7 @@ export default function NafplioOldTownPage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`希腊的日光在上午十点后到下午四点前都非常强烈且生硬，适合拍摄建筑细节但不太适合人像，人像黄金时间在日出后和日落前的一小时。飞无人机需格外谨慎，帕拉米迪城堡和布尔齐岛周边是明确的禁飞区。当地人对于被拍摄通常很友善，但拍摄店铺或老人时，一个微笑和简单的手势征询会是很好的礼貌。`}</li>
+                <li>• {`希腊人对在教堂内部拍摄通常很宽容，但请务必关闭闪光灯，保持肃静。拍摄当地人，尤其是老人和店主，一个微笑和简单的手势征得同意会让你收获更真诚的肖像。无人机飞行在历史遗迹和城镇上空有严格限制，起飞前务必查清当地法规。`}</li>
               </ul>
             </div>
           </Section>
@@ -155,32 +162,70 @@ export default function NafplioOldTownPage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
-                  <p className="text-sm text-blue-800">{`住在老城中心一栋经过精心修复的威尼斯时期豪宅里，房间有裸露的古老石墙和木横梁，清晨推开百叶窗就能看到教堂钟楼和海鸥`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`老城核心民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`入住一栋19世纪新古典主义别墅改造的民宿，房间有挑高的彩绘天花和通向小阳台的落地窗，清晨在鸟鸣和邻居准备早餐的叮当声中醒来。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`设计师精品之选`}</h4>
-                  <p className="text-sm text-green-800">{`由传统海绵仓库改造的极简风格精品酒店，将纯白美学与原始岩石结合，拥有一个可以眺望帕拉米迪城堡的无边泳池，时髦到骨子里`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色洞穴酒店`}</h4>
+                  <p className="text-sm text-green-800">{`选择一间由奥斯曼时期古老仓库改建的精品酒店，房间是白色的拱形窑洞风格，配有现代的奢华设施，出门就是最热闹的小巷，私密与便利兼具。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`家庭温馨之选`}</h4>
-                  <p className="text-sm text-yellow-800">{`坐落在老城安静一隅的家庭式公寓，带有一个种满柠檬树的小庭院，主人会为你准备好传统的希腊早餐，并热情分享只有当地人才知道的小秘密`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`海滨视野酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻位于Akronafplia城堡山脚下的四星级酒店，拥有无敌的海景泳池和露台，在房间阳台就能看到波尔齐海堡如明珠般漂浮在湛蓝的海面上。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`奢华度假之选`}</h4>
-                  <p className="text-sm text-purple-800">{`位于小镇外宁静海湾旁的五星级度假村，拥有私人沙滩和顶级水疗，适合在密集的历史探索后，给自己一个彻底放松的海滨夜晚`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`静谧家庭公寓`}</h4>
+                  <p className="text-sm text-purple-800">{`租住老城边缘靠近“千级阶梯”起点的一整套传统公寓，厨房设施齐全，可以去中央市场购买最新鲜的食材自己烹饪，体验几天本地人的日常生活。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿通常需要提着行李走一段石板路，且停车位极为稀缺，自驾者最好选择提供专属停车场或代客泊车的酒店。七月和八月的周末房源极其紧张，价格也最高，五月、六月和九月是体验更优、性价比更高的理想时段。住在老城内虽然略贵，但能真正体验入夜后和清晨游客散去时那份独占古城的宁静，这份体验绝对值回房价。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿虽然情调十足，但停车是噩梦，自驾者最好选择提供停车位或城外的酒店。夏季旺季（7-8月）务必提前至少两三个月预订，尤其是周末。住在靠山一侧比港口一侧更安静，能避免夜间酒吧的噪音。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开纳夫普利翁好些天了，但闭上眼睛，那种混合着海盐、咖啡和古老石头的气味仿佛还在鼻尖。它不像雅典的卫城那样，以绝对的崇高和残缺之美震慑你；也不像圣托里尼，用蓝与白的纯粹明信片画面征服你。纳夫普利翁的好，是慢热型的，是浸润式的。它邀请你住下来，走过它的晨昏，在它的广场上喝一杯咖啡，和卖香料的老奶奶微笑点头。然后你会发现，历史在这里不是被封存在玻璃罩里的标本，而是活着的气息，是阳台上晾晒的床单，是咖啡馆里老人们争论政治的嘈杂。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率和打卡的世界里，纳夫普利翁固执地保持着另一种节奏。它提醒我们，旅行的意义有时不在于看了多少，而在于感受到了多少。它是一把钥匙，帮你打开一扇理解现代希腊何以成为今天的希腊的大门。这里没有神话里的奥林匹斯众神，却有一群为独立和自由奋斗过的鲜活灵魂；这里没有举世无双的单一地标，却有一整座可以走入、触摸、并与之共同呼吸的露天博物馆。如果你也厌倦了浮光掠影，渴望一次有温度、有深度、能真正走进一个地方灵魂的旅行，那么请一定来纳夫普利翁。它不会尖叫着吸引你的注意，只会用它那爱琴海般的深邃与温柔，将你静静包围，然后，从此住进你的心里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开纳夫普利翁好些天了，但脑海里最清晰的画面，不是某个宏伟的堡垒，而是这样一个傍晚：我坐在港口的长椅上，看着一位老渔夫慢条斯理地修补他的渔网，夕阳给他花白的头发镶上金边。他身后，是沉默如山、见证了无数血火的帕拉米蒂堡垒；他面前，是温柔荡漾、吞噬了所有喧嚣的地中海。那一刻，历史与当下，战争与和平，雄伟与平凡，以一种不可思议的和谐方式共存着。纳夫普利翁教会我的，正是这种“共存”的艺术。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求极致、标签化、非黑即白的世界里，纳夫普利翁像一个睿智的老人，微笑着告诉你：生活不必如此。你可以既是重要的首都，又是悠闲的小镇；既可以背负沉重的历史，又可以轻盈地享受此刻的阳光与海水。它的每一块石头都在诉说着过往的伤痛，但每一朵盛开的鲜花都在庆祝着当下的美好。这种深厚的韧性，这种将一切经历转化为生命养分的从容，或许才是旅行者能从这里带走的最珍贵的礼物。它不是让你逃离现实的梦幻岛，而是一面镜子，让你看到一种更完整、更自洽的生活可能性。所以，如果你也厌倦了浮光掠影，渴望一处能让脚步和心灵都真正沉下来的地方，那么请一定来纳夫普利翁，听听海风与石头的对话，你会找到属于自己的答案。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/nea-moni-of-chios" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    希
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">希俄斯新修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nea Moni of Chios</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kavala-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡瓦拉老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kavala Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nafplio-greece" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    纳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳夫普利翁</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nafplio</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

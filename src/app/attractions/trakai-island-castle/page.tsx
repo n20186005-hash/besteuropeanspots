@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '特拉凯半岛城堡 Trakai Island Castle｜立陶宛水中古堡，凯旋传说的灵魂栖所 - 最佳欧洲景点',
-  description: '穿过特拉凯小镇那些售卖着热腾腾 kibinai（一种卡拉伊姆派）的木头小屋，当你沿着 Galvė 湖的岸边小路漫步，空气里是松树和水藻混合的清新气味。然后，一个转弯，它就在那里——仿佛直接从童话书的插页里浮出来，又像是从深蓝色的湖水中生长出来的一座红砖岛屿。第一眼看到特拉凯半岛城堡，那种不真实的美会...',
+  title: '特拉凯海岛城堡 Trakai Island Castle｜立陶宛的“湖中幻梦”，中世纪骑士传奇与琥珀色的黄昏 - 最佳欧洲景点',
+  description: '当大巴车缓缓驶入特拉凯小镇，我的第一反应是揉了揉眼睛——远处湛蓝的湖面中央，静静矗立着一座深红色的城堡，尖塔的倒影在波光里摇晃，像极了从童话绘本里直接剪下来、然后被粗心的孩子贴错了背景的一页。那种不真实感，强烈到让你觉得它随时会随着湖上的雾气一起消散。越走近，感官的体验就越具体。空气中是湖水特有的、...',
 }
 
 export default function TrakaiIslandCastlePage() {
@@ -16,57 +16,56 @@ export default function TrakaiIslandCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点', href: '/attractions' },
-            { label: '特拉凯半岛城堡', href: '/attractions/trakai-island-castle' },
+            { label: '特拉凯海岛城堡', href: '/attractions/trakai-island-castle' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`特拉凯半岛城堡・Trakai Island Castle・立陶宛・特拉凯`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`特拉凯海岛城堡・Trakai Island Castle・立陶宛・特拉凯`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`穿过特拉凯小镇那些售卖着热腾腾 kibinai（一种卡拉伊姆派）的木头小屋，当你沿着 Galvė 湖的岸边小路漫步，空气里是松树和水藻混合的清新气味。然后，一个转弯，它就在那里——仿佛直接从童话书的插页里浮出来，又像是从深蓝色的湖水中生长出来的一座红砖岛屿。第一眼看到特拉凯半岛城堡，那种不真实的美会让你不自觉地停下脚步，屏住呼吸。它不像那些修葺得过于完美的宫殿，它有种粗粝的、饱经风霜的质感，红色的砖墙在午后的阳光下泛着温暖的橘调，与周围墨绿的松林和湛蓝的湖水形成了油画般的强烈对比。风吹过湖面，带来湿润的气息，也带来木桥那头的喧闹人声与手风琴若有若无的旋律。
-这座城堡绝不仅仅是一个孤零零的景点。在立陶宛人心中，它是心脏深处的回响。你会看到年轻的父母推着婴儿车在湖边散步，指着城堡给咿呀学语的孩子看；看到头发花白的老夫妇并肩坐在长椅上，静静地望着它，仿佛在看一部关于自己国家的老电影；也看到写生的学生，试图在画纸上捕捉水光与砖影瞬息万变的交织。它既是历史课本的封面，也是周末下午的家常去处。这种神圣与日常的奇妙交融，是特拉凯半岛城堡最动人的地方。
-它的核心魅力，在于那种“悬浮于时间之上”的孤独与坚韧。站在长长的木桥上，脚下是微微晃动的木板和波光粼粼的湖水，你会感觉自己正走向一个被时光特意保存起来的孤岛。城堡厚重的墙壁里，封存着骑士的铁甲碰撞声、大公的密谈、围城时的呐喊与火焰。但当你登上塔楼，俯瞰着如镜面般破碎又聚合的湖泊与远处无垠的森林，一种辽阔的宁静又会将你包围。在这里，历史的沉重与自然的永恒达成了和解。它教会你的不是一段具体的历史编年史，而是一种感受：关于一个民族如何在湖泊与森林的环抱中，守护自己最初的火种。`}
+            {`当大巴车缓缓驶入特拉凯小镇，我的第一反应是揉了揉眼睛——远处湛蓝的湖面中央，静静矗立着一座深红色的城堡，尖塔的倒影在波光里摇晃，像极了从童话绘本里直接剪下来、然后被粗心的孩子贴错了背景的一页。那种不真实感，强烈到让你觉得它随时会随着湖上的雾气一起消散。越走近，感官的体验就越具体。空气中是湖水特有的、略带腥甜的湿润气息，混合着岸边松林被阳光晒暖后散发的树脂香。耳朵里灌满了风声、水波轻拍木制码头的声音，以及海鸥划破宁静的长鸣。
+穿过连接陆地和城堡岛屿的长长木桥，脚下的木板发出“咚咚”的空响。城堡在你眼前一层层展开，不再是远观的平面剪影。深红色的砖墙在午后阳光下呈现出温暖的、近乎琥珀的色泽，让你忍不住想，是不是古代的工匠把立陶宛森林里夕阳的颜色都烧进了这些砖里。高耸的塔楼棱角分明，投下坚硬的阴影，而阴影之下，湖面却是一片温柔的碎金。你会发现，这座城堡不是冷冰冰的景点，它是活着的。当地的家庭在湖畔野餐，孩子们向湖里扔面包屑喂天鹅；划着彩色小艇的年轻人从城墙下嬉笑着穿过；周末，你甚至可能撞见一场在城堡庭院里举办的中世纪市集，空气中瞬间充满了烤肉的焦香和工匠敲打金属的叮当声。
+它最打动人心的地方，或许就在于这种奇妙的矛盾与平衡。它既是一座坚不可摧的军事要塞，讲述着刀光剑影的骑士史诗；同时又是一个被柔情湖水三面环抱的“家”，承载着立陶宛人关于起源与归属的温暖想象。站在它的城墙垛口，你既能感受到历史的重量压在肩头，又能被眼前那片无垠的、闪烁着光斑的湖面轻轻托起，瞬间忘了时间。`}
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`穿过特拉凯小镇那些售卖着热腾腾 kibinai（一种卡拉伊姆派）的木头小屋，当你沿着 Galvė 湖的岸边小路漫步，空气里是松树和水藻混合的清新气味。然后，一个转弯，它就在那里——仿佛直接从童话书的插页里浮出来，又像是从深蓝色的湖水中生长出来的一座红砖岛屿。第一眼看到特拉凯半岛城堡，那种不真实的美会让你不自觉地停下脚步，屏住呼吸。它不像那些修葺得过于完美的宫殿，它有种粗粝的、饱经风霜的质感，红色的砖墙在午后的阳光下泛着温暖的橘调，与周围墨绿的松林和湛蓝的湖水形成了油画般的强烈对比。风吹过湖面，带来湿润的气息，也带来木桥那头的喧闹人声与手风琴若有若无的旋律。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这座城堡绝不仅仅是一个孤零零的景点。在立陶宛人心中，它是心脏深处的回响。你会看到年轻的父母推着婴儿车在湖边散步，指着城堡给咿呀学语的孩子看；看到头发花白的老夫妇并肩坐在长椅上，静静地望着它，仿佛在看一部关于自己国家的老电影；也看到写生的学生，试图在画纸上捕捉水光与砖影瞬息万变的交织。它既是历史课本的封面，也是周末下午的家常去处。这种神圣与日常的奇妙交融，是特拉凯半岛城堡最动人的地方。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，在于那种“悬浮于时间之上”的孤独与坚韧。站在长长的木桥上，脚下是微微晃动的木板和波光粼粼的湖水，你会感觉自己正走向一个被时光特意保存起来的孤岛。城堡厚重的墙壁里，封存着骑士的铁甲碰撞声、大公的密谈、围城时的呐喊与火焰。但当你登上塔楼，俯瞰着如镜面般破碎又聚合的湖泊与远处无垠的森林，一种辽阔的宁静又会将你包围。在这里，历史的沉重与自然的永恒达成了和解。它教会你的不是一段具体的历史编年史，而是一种感受：关于一个民族如何在湖泊与森林的环抱中，守护自己最初的火种。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`当大巴车缓缓驶入特拉凯小镇，我的第一反应是揉了揉眼睛——远处湛蓝的湖面中央，静静矗立着一座深红色的城堡，尖塔的倒影在波光里摇晃，像极了从童话绘本里直接剪下来、然后被粗心的孩子贴错了背景的一页。那种不真实感，强烈到让你觉得它随时会随着湖上的雾气一起消散。越走近，感官的体验就越具体。空气中是湖水特有的、略带腥甜的湿润气息，混合着岸边松林被阳光晒暖后散发的树脂香。耳朵里灌满了风声、水波轻拍木制码头的声音，以及海鸥划破宁静的长鸣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`穿过连接陆地和城堡岛屿的长长木桥，脚下的木板发出“咚咚”的空响。城堡在你眼前一层层展开，不再是远观的平面剪影。深红色的砖墙在午后阳光下呈现出温暖的、近乎琥珀的色泽，让你忍不住想，是不是古代的工匠把立陶宛森林里夕阳的颜色都烧进了这些砖里。高耸的塔楼棱角分明，投下坚硬的阴影，而阴影之下，湖面却是一片温柔的碎金。你会发现，这座城堡不是冷冰冰的景点，它是活着的。当地的家庭在湖畔野餐，孩子们向湖里扔面包屑喂天鹅；划着彩色小艇的年轻人从城墙下嬉笑着穿过；周末，你甚至可能撞见一场在城堡庭院里举办的中世纪市集，空气中瞬间充满了烤肉的焦香和工匠敲打金属的叮当声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它最打动人心的地方，或许就在于这种奇妙的矛盾与平衡。它既是一座坚不可摧的军事要塞，讲述着刀光剑影的骑士史诗；同时又是一个被柔情湖水三面环抱的“家”，承载着立陶宛人关于起源与归属的温暖想象。站在它的城墙垛口，你既能感受到历史的重量压在肩头，又能被眼前那片无垠的、闪烁着光斑的湖面轻轻托起，瞬间忘了时间。`}</p>
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value={`特拉凯半岛城堡`} />
+                <InfoRow label="中文名称" value={`特拉凯海岛城堡`} />
                 <InfoRow label="英文名称" value={`Trakai Island Castle`} />
                 <InfoRow label="正式名称" value={`Trakai Island Castle`} />
                 <InfoRow label="国家" value={`立陶宛`} />
                 <InfoRow label="城市" value={`特拉凯`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={`14-15世纪立陶宛大公国最重要的防御与权力中心之一，见证了立陶宛从中世纪强国到与波兰联合的关键历程。`} />
-                <InfoRow label="建筑特色" value={`一座完全建造在Galvė湖中岛屿上的红砖哥特式城堡，通过一座长长的木桥与陆地相连，是东欧独一无二的水上堡垒典范。`} />
-                <InfoRow label="建筑风格" value={`以防御功能为主导的哥特式砖砌城堡，同时融合了立陶宛本地的一些建筑元素，风格质朴而雄伟。`} />
-                <InfoRow label="文化价值" value={`立陶宛民族坚韧精神与独立历史的象征，是立陶宛国家身份认同的核心地理标志与文化图腾。`} />
+                <InfoRow label="历史地位" value={`它是东欧独一无二的水上城堡，见证了立陶宛大公国最强盛时期的辉煌，也是立陶宛民族精神和文化复兴的重要象征。`} />
+                <InfoRow label="建筑特色" value={`一座完全建造在加尔韦湖中岛屿上的砖石城堡，通过堤道与陆地相连，拥有深红色的外墙、高耸的防御塔楼和气势恢宏的中央公爵宫殿。`} />
+                <InfoRow label="建筑风格" value={`主要为哥特式风格，同时融入了立陶宛本土的防御建筑特点，其重建后的形态是19-20世纪历史主义修复的典范。`} />
+                <InfoRow label="文化价值" value={`不仅是重要的历史纪念地，更承载了立陶宛人关于国家起源、中世纪骑士传统以及多民族（卡拉伊姆人、鞑靼人等）和谐共处的集体记忆。`} />
               </div>
             </div>
             <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`城堡主体建筑开放时间为每日上午10点至晚上7点（夏季4月至9月）；冬季（10月至次年3月）开放时间缩短为上午10点至下午5点，周一通常闭馆。博物馆的内部展厅在关门前1小时停止入场。每年1月1日、2月16日、3月11日、复活节、6月24日及12月24-26日关闭。湖区公园区域全天开放。`} />
-              <InfoRow label="门票价格" value={`成人票价为12欧元。学生、老年人和儿童可享受优惠票价6欧元。7岁以下儿童免费。家庭套票（2位成人+最多3名儿童）价格为24欧元。购买门票后可参观城堡内所有博物馆常设展览及临时特展。每月最后一个周日为免费开放日（特展可能除外）。`} />
-              <InfoRow label="地址" value={`Trakai Island Castle, Trakai 21106, Lithuania`} />
-              <InfoRow label="交通方式" value={`从立陶宛首都维尔纽斯出发最为便捷。在维尔纽斯中央汽车站乘坐开往特拉凯的巴士，班次非常频繁，约每20-30分钟一班，车程约40分钟。巴士会停在特拉凯镇中心，从车站步行穿过小镇，沿着Galvė湖的步道走向城堡，约需15-20分钟，沿途风景极佳。也可从维尔纽斯火车站乘坐火车，但班次较少，耗时相近。自驾前往约30分钟，城堡附近有收费停车场。建议购买巴士往返票，经济方便。`} />
+              <InfoRow label="开放时间" value={`城堡博物馆全年开放，但时间因季节而异。夏季（5月至9月）通常从上午10点开放至晚上7点，冬季（10月至次年4月）一般从上午10点开放至下午5点。每周一闭馆（除非周一恰逢国家法定假日）。城堡庭院和外部区域在博物馆关闭后仍可环绕参观。每年的具体开放时间可能微调，建议出行前在其官方网站上复核。`} />
+              <InfoRow label="门票价格" value={`成人票约为12欧元。优惠票（学生、老年人）约为6欧元。家庭套票（2大+最多3小）有折扣。7岁以下儿童免费。购买门票可参观城堡内所有展览，包括历史博物馆、骑士大厅等。在某些国家纪念日或文化之夜，城堡可能免费开放。`} />
+              <InfoRow label="地址" value={`Trakai Island Castle, Trakai 21104, Lithuania`} />
+              <InfoRow label="交通方式" value={`从维尔纽斯出发是最便捷的选择。在维尔纽斯中央汽车站或火车站，乘坐开往特拉凯的班车（车身上通常标有“Trakai”），班次非常频繁，大约每20-30分钟一班，车程约40分钟。上车后向司机购票即可。抵达特拉凯镇汽车站后，跟随人流或指示牌，沿着美丽的加尔韦湖步行约15-20分钟即可抵达城堡所在的半岛，再从半岛的码头购买船票（或冬季走冰面/堤道）上岛。自驾则更为灵活，从维尔纽斯驱车约半小时，城堡外有收费停车场。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从一位雄心勃勃的大公说起。14世纪，立陶宛大公国在伟大的格迪米纳斯家族统治下，成为东欧最后的异教强国，疆域辽阔，但也强敌环伺。尤其是西边那条顿骑士团，这些身披白袍、胸口画着黑十字的武士，总以“传播信仰”为名，不断侵扰边境。大约在1350年至1382年间，格迪米纳斯的儿子，那位以勇猛和智慧著称的凯斯图蒂斯大公，相中了特拉凯这片遍布湖泊的土地。这里星罗棋布的湖水本身就是天然的壕沟，而易守难攻的湖心岛，则是建造一座坚不可摧堡垒的绝佳地点。于是，第一批木结构防御工事开始在这座岛上搭建，特拉凯开始成为大公家族喜爱的居所和重要的前哨。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`但真正让这座城堡镌刻进立陶宛命运脉络的，是凯斯图蒂斯的儿子，维陶塔斯大公。这位大公的一生堪称传奇，他年少时曾作为人质被困在条顿骑士团的城堡，后来与他的堂兄、波兰国王雅盖沃上演了又联合又争斗的复杂权力游戏。维陶塔斯将父亲的木堡彻底改建为一座宏伟的石砖城堡。他想把这里打造成一个配得上强大立陶宛的权力与军事中心。在他的主持下，我们今天看到的这座哥特式红砖城堡逐渐成形：高耸的主堡、坚固的防御墙、用于居住的宫殿翼楼。城堡的建造不仅是为了防御，更是为了彰显权威。据说，当时这里汇聚了立陶宛最好的石匠和工匠，甚至有来自远方的建筑师参与设计。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，最坚固的石头也敌不过历史的硝烟。在维陶塔斯之后，立陶宛的政治中心逐渐转移到了维尔纽斯。特拉凯城堡虽然仍是重要据点，但不可避免地被边缘化。在随后几个世纪的战乱中——尤其是17世纪中叶的俄波战争——城堡遭受了严重的破坏。入侵的军队或许没能彻底征服它，但炮火和劫掠让它千疮百孔。更致命的是被遗弃后的荒芜。城堡慢慢失去了主人，只剩下湖风和雨水为伴。屋顶坍塌，墙壁倾颓，曾经回荡着宫廷乐声的大厅长满了野草，奢华的内饰被洗劫一空。它从一个权力的象征，变成了一个巨大的、浪漫的废墟，沉睡在 Galvė 湖的中央，只在立陶宛的民歌和传说中被提起。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`转机出现在19世纪。当时立陶宛被沙俄帝国吞并，民族意识在压迫下开始觉醒。知识分子和艺术家们开始回首寻找民族精神的源头。那座在湖心日渐倾颓的红色废墟，以其悲壮而独特的形象，成为了立陶宛民族坚韧不拔的完美象征。画家们争相描绘它，诗人为它吟唱。人们开始讨论修复它的可能性，这不仅仅是为了保护古迹，更是为了重塑民族的骄傲。但真正的修复工程，要等到20世纪。一战、二战的烽火再次延误了计划。直到1961年，在苏联时期，一场大规模、系统性的重建工程才正式启动。这本身就是一个矛盾又值得玩味的举动：一个试图抹去民族特性的政权，却在修复一个最强烈的民族象征。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`我们今天看到的城堡，就是那次浩大重建的结果。考古学家和历史学家尽可能依据原始图纸和遗迹，一砖一瓦地让它“复活”。这不是单纯的仿古新建，而是一次与历史的对话。走入城堡内部，你会看到裸露的、颜色略新的砖块与古老的、被熏黑的原始墙体并置，清晰地区分着“过去”与“现在”。它不再是一个纯粹的14世纪遗物，而是一个承载了毁灭、遗忘、追寻与重生所有记忆的复合体。从凯斯图蒂斯的雄心，到维陶塔斯的辉煌，再到战火的摧残、民族的思念，最后是近乎执念的复现——这座湖中城堡的每一块砖，都浸透了立陶宛这个国家跌宕起伏的命运。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`特拉凯的故事，得从立陶宛大公国那段波澜壮阔的岁月说起。14世纪，立陶宛是欧洲最后一个皈依基督教的国家，其领土从波罗的海一直延伸到黑海，强大而神秘。而特拉凯，正是当时两位最著名的大公——凯斯图蒂斯和他的儿子维陶塔斯——最心爱的权力中心之一。为什么把城堡建在湖心岛上？这绝非为了诗情画意，而是冷酷的军事智慧。四面环水就是最好的天然护城河，在那个冷兵器与早期火器交织的时代，想要攻陷这样一座堡垒，难度可想而知。于是，从14世纪末开始，一座兼具宫殿与要塞功能的水上城堡，在加尔韦湖的岛屿上逐渐成型。红色的砖石一块块垒起，它不仅是维陶塔斯大公的居所，更成了守护维尔纽斯西部门户的战略盾牌。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，再坚固的城堡也敌不过时间的侵蚀和战火的反复舔舐。在接下来的几个世纪里，立陶宛经历了与条顿骑士团的血战、与波兰的联合、以及与沙俄的冲突。特拉凯城堡在一次次的围攻中受损，又在相对和平的年月里被修缮。但17世纪中期的一场战争给了它致命一击，城堡严重被毁，昔日辉煌的公爵宫殿沦为废墟，只剩下断壁残垣浸泡在湖水中，慢慢被世人遗忘。它成了湖上一个忧伤的幻影，一个关于失落荣耀的传说，只有当地的渔民还会指着水中的倒影，向孩子们讲述骑士与巨龙的故事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`转机出现在19世纪。当时立陶宛被沙俄帝国统治，民族意识开始悄悄觉醒。知识分子和艺术家们开始回望历史，寻找立陶宛民族独立的灵魂根源。那座湖中的废墟，以其独特的浪漫主义悲剧美感，成为了画家笔下和诗人纸间的宠儿。它象征着不屈的过往，也激发了重建未来的渴望。尽管当时沙俄当局并不支持，但关于修复特拉凯城堡的设想和测量工作，已经在爱国的学者中秘密展开。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正的重生，是在20世纪。立陶宛经历了一战后的短暂独立、二战的磨难以及苏联时期的统治，但修复城堡的梦想从未熄灭。上世纪50-60年代，在苏联体制下，修复工程以一种“历史文化遗产”的名义得以启动。这或许是历史上一次微妙的“借壳还魂”——立陶宛的建筑师和历史学家们，倾注了巨大的心血，依据详尽的考古发现和历史图纸，一砖一瓦地让城堡从湖水中再次屹立起来。虽然今天的我们看到的并非完全原貌（中央宫殿的屋顶等部分是依据历史风格的再创造），但这次重建本身，就成为了立陶宛民族坚韧精神的壮丽宣言。1991年立陶宛重新独立后，特拉凯城堡更毫无争议地成为了国家最重要的象征之一，它从废墟到复兴的历程，几乎就是立陶宛民族命运的缩影。`}</p>
             </div>
           </Section>
 
@@ -75,45 +74,45 @@ export default function TrakaiIslandCastlePage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  {`要真正领略特拉凯半岛城堡的神韵，请务必安排一整天的时间。理想的节奏是从容不迫的，将城堡本身与周围绝美的湖区风光融为一体。建议在上午十点左右从维尔纽斯出发，避开周末上午可能出现的短途游客小高峰。抵达特拉凯镇后，不要急于直奔城堡，先在镇上逛逛，感受一下当地独特的卡拉伊姆文化氛围。午餐后，约下午一点左右开始向城堡进发。此时光线从侧方照射城堡，非常适合远观和拍摄。游览城堡内部博物馆约需2-2.5小时，请预留充足时间细读展品（许多有英文说明）。从城堡出来后，正值傍晚，光线变得金黄柔和，是环湖漫步或租一条小船从湖上回望城堡的绝佳时机。这样安排，你能看到城堡在日光下、夕照中和华灯初上时的不同面貌，完成一次完整的感官体验。`}
+                  {`理想的方式是安排一整天给特拉凯，从容不迫地感受它的晨昏昼夜。建议上午10点左右从维尔纽斯出发，避开早高峰，抵达时约11点，阳光正好。首先不要急于上岛，而是在连接岛屿的堤道或半岛上远观、拍照。然后乘坐摇橹小船（夏季）上岛，体验从水面接近城堡的仪式感。上岛后先游览城堡外部和庭院，感受其整体气势，随后进入城堡内部参观博物馆（预计1.5-2小时）。参观完毕后，在城堡附近的湖畔找一家餐厅享用午餐，品尝特色的卡拉伊姆馅饼。下午可以在湖边散步、租船游湖，或者探访特拉凯镇上古老的卡拉伊姆人社区。一定要留到日落时分，看着夕阳将城堡和湖面染成金黄再慢慢褪成粉紫，这是全天最梦幻的时刻。傍晚乘巴士返回维尔纽斯。`}
                 </p>
                 <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`夏季周末下午城堡内可能非常拥挤，尽量将室内参观安排在平日或上午稍晚时段。城堡内部石阶多且陡峭，请务必穿着舒适防滑的鞋子。警惕城堡入口附近过于热情的“导游”或商品推销，官方导览服务应在博物馆内柜台购买。`}
+                  <strong>建议：</strong>{`夏季周末和假日游客非常多，尽量安排工作日前往，体验会好很多。城堡内部部分楼梯非常陡峭且狭窄，请务必穿着舒适防滑的鞋子。湖区蚊虫在夏季傍晚较多，建议备好驱蚊液。`}
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在镇中心的老字号店铺买一个热乎乎的、馅料满满的kibinai（传统卡拉伊姆肉派），边吃边沿着主街走向湖泊的方向。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`从特拉凯镇中心汽车站下车，不急着直奔城堡，先沿着湖滨小路散步，让那片惊人的湖光与城堡远景缓缓注入你的视野。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`不要立刻上桥，先在湖岸的观景平台驻足，完整地欣赏城堡在水中的倒影，听风吹过松林的沙沙声和天鹅的鸣叫。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`在半岛尽头的老码头，花几欧元跳上一艘当地人划的木船，听着桨声欸乃，从最佳的水上视角缓缓逼近那座深红色的岛屿堡垒。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`缓缓走过那座长长的、吱呀作响的古老木桥，感受脚步下湖水的流动，让进入城堡的过程充满仪式感。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过厚重的拱形门洞进入城堡主庭院，立刻仰头感受被高耸塔楼和连绵雉堞包围的震撼，想象中世纪卫兵在此巡逻的脚步声。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`穿过拱形门洞进入外堡庭院，先别急着进主楼，顺时针绕庭院走一圈，仰头观察不同角度的塔楼与城墙的防御结构设计。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进阴凉厚重的城堡主楼，沿着狭窄的石阶盘旋而上，在公爵大厅里凝视华丽的复古吊灯和壁毯，试着捕捉当年大公议事的余音。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`进入主堡的博物馆，重点参观二层的公爵大厅，想象当年维陶塔斯大公在此接待使节、举办盛宴的恢宏场景。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`不要错过地下层的监狱和历史展览馆，那里昏暗的光线和冰冷的展柜里，锁着关于战争、囚徒与漫长重建岁月的坚硬故事。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`攀爬狭窄的螺旋石梯登上最高的塔楼，气喘吁吁地推开小门，让360度无遮挡的湖泊与森林全景作为给你的奖励。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`参观完后，绕到城堡临湖的另一侧，找一块阳光温热的古老墙砖坐下，看天鹅在倒影边梳理羽毛，彻底放空自己。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从城堡出来后，沿着湖岸西侧的小径散步到“爱情岛”附近，从一个更安静、更偏僻的角度回望暮色中的城堡剪影。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`离开岛屿前，一定要去城堡入口附近的小店，买一个热腾腾、船形的卡拉伊姆馅饼，让肉馅的咸香在口中融化，这是味蕾对历史的独特解读。`}</p>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-4">
                   <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`如果时间和体力允许，在湖边码头租一艘划艇或脚踏船，从水中央的视角仰视城堡，这是最接近中世纪入侵者或远方来客的视角。`}</p>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前返回半岛的栈桥或咖啡馆露台，点一杯本地啤酒，安静等待夕阳上演一天中最盛大、最温柔的光影魔术。`}</p>
                 </div>
               </div>
             </div>
@@ -123,28 +122,28 @@ export default function TrakaiIslandCastlePage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`湖泊南岸观景台全景位`}</h4>
-                  <p className="text-sm text-gray-700">{`下午两点至四点，阳光从西侧照亮城堡正面，使用广角镜头将城堡、木桥、湖面及前景的野花或芦苇一同纳入构图，画面层次最为丰富。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`半岛西侧栈桥尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或日落前半小时，将城堡置于画面一侧，利用湖面的倒影和前景的船只、芦苇构成一幅平衡且富有层次感的完美构图。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡木桥中段对称构图点`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨或傍晚人少时，站在木桥正中，将相机放低贴近木板，利用桥的线条引导视线至城堡门洞，可以拍出极具纵深感和水波动感的照片。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`主堡塔楼顶层拱窗框架位`}</h4>
-                  <p className="text-sm text-gray-700">{`登上主塔后，找到面向陆地方向的石拱窗，将相机镜头对准窗外，用古老的石窗作为画框，框住远处特拉凯小镇的彩色木屋和森林，古今对比瞬间定格。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`外堡城墙转角仰拍角`}</h4>
-                  <p className="text-sm text-gray-700">{`进入外堡庭院后，找到东北角的城墙下，下午的阳光会勾勒出城墙雄浑的轮廓，仰拍塔楼与天空，能拍出城堡威严、孤傲的气势。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡主庭院中心仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，站在庭院中央，用广角镜头垂直向上拍摄，捕捉塔楼、蓝天和飘过的云朵形成的强烈几何与动感对比。`}</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`“爱情岛”西望黄昏剪影点`}</h4>
-                  <p className="text-sm text-gray-700">{`日落前半小时，散步至城堡西侧小半岛（当地人称为“爱情岛”），等待太阳落到城堡后方，拍摄城堡清晰的黑色剪影与湖面上流淌的金色、紫色晚霞。`}</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从湖面小船上拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`租船绕到城堡的北侧或东侧，在下午的侧光下，拍摄城堡砖墙的质感细节以及它在水中拉长的、波光粼粼的完整倒影。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`特拉凯镇一侧的湖边山坡`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏蓝调时刻（日落后二十分钟），从镇子高处望向湖心岛城堡，此时城堡灯光初亮，湖面呈深蓝色，能拍出静谧而梦幻的夜景。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`冬季冰封湖面视角`}</h4>
+                  <p className="text-sm text-gray-700">{`如果勇敢地在冬季前往，走上结冰的加尔韦湖，从任何角度都能拍下城堡矗立在纯白冰原上的孤独而雄伟的绝景。`}</p>
                 </div>
               </div>
 
@@ -153,7 +152,7 @@ export default function TrakaiIslandCastlePage() {
             <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
               <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
               <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`湖面反光强烈，建议携带偏振镜（CPL）来消除水面的多余反光，让倒影更清澈，天空更蓝。使用无人机拍摄前，务必确认当地法规，城堡上空可能有飞行限制。尊重当地居民隐私，避免将镜头对准湖畔私人住宅的窗户。`}</li>
+                <li>• {`使用偏振镜可以有效减少湖面反光，让城堡倒影更清澈。航拍能获得极具冲击力的上帝视角，但务必提前了解当地无人机法规并远离人群。尊重当地居民，拍摄私人住宅或特定宗教场所（如卡拉伊姆肯萨）前最好先征得同意。`}</li>
               </ul>
             </div>
           </Section>
@@ -162,67 +161,67 @@ export default function TrakaiIslandCastlePage() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`经济精选`}</h4>
-                  <p className="text-sm text-blue-800">{`特拉凯镇中心的“Senasis Trakai”民宿，由一栋传统的木结构房屋改造，主人热情好客，会为你准备丰盛的立陶宛式早餐，晚上能听到湖畔传来的轻柔音乐。`}</p>
+                  <h4 className="font-semibold text-blue-900 mb-2">{`湖景民宿之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在半岛上由传统木屋改造的温馨民宿，推开窗就是无遮挡的城堡全景，晚上在私人小码头上还能看到繁星倒映在漆黑的湖水中。`}</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
-                  <p className="text-sm text-green-800">{`位于Galvė湖另一侧森林边的“Karaimu Kempingas”小木屋，推开门就是湖光山色，夜晚极其宁静，可以独享星空下的城堡远景，适合追求自然与静谧的旅行者。`}</p>
+                  <h4 className="font-semibold text-green-900 mb-2">{`历史小镇体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择特拉凯镇上由古老宅邸改建的精品酒店，房间里有裸露的原木横梁，步行去城堡和探索独特的卡拉伊姆文化街区都只需几分钟。`}</p>
                 </div>
                 <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
-                  <p className="text-sm text-yellow-800">{`维尔纽斯市内的“Hotel PACAI”精品设计酒店，由17世纪贵族宫殿修复而成，将历史奢华与现代设计完美融合，白天往返特拉凯探索，夜晚回到都市中心的顶级享受。`}</p>
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端静谧享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`入住隐于加尔韦湖另一侧森林边缘的现代设计酒店，拥有全景落地窗和私人桑拿，在极致的宁静中独享湖与城堡的侧影，仿佛拥有整个王国。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`避世之选`}</h4>
-                  <p className="text-sm text-purple-800">{`距离特拉凯约15分钟车程的乡村庄园“Dvaras”，坐落于宁静的田野之中，提供真正的立陶宛乡村生活体验，房间充满古董家具，晚餐食材直接来自庄园菜园。`}</p>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`维尔纽斯往返便捷之选`}</h4>
+                  <p className="text-sm text-purple-800">{`如果不想搬运行李，完全可以选择住在维尔纽斯老城，乘坐便捷的巴士当天往返，这样能同时享受首都的夜生活与特拉凯的日间宁静。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`特拉凯小镇本身住宿选择有限且季节性较强，夏季务必提前数月预订。如果选择住在维尔纽斯，虽然需要每日通勤，但能体验到更丰富的夜生活和餐饮选择，交通也非常便利。湖区周边民宿夏季蚊虫较多，建议备好驱蚊用品。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`特拉凯本地的住宿数量有限，尤其在夏季旺季，务必提前数月预订。如果选择住在镇上，夜晚非常安静安全，但餐饮选择相对有限，不少餐馆关门较早。冬季部分湖畔民宿可能歇业，预订前需确认。`}</p>
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开特拉凯的时候，我的背包里除了相机内存卡装满的照片，还有一种沉静而坚实的感觉。这座城堡教会我的，远不止一段波罗的海沿岸的历史。它站在那里，被水环绕，被森林守望，像一个关于“坚持”的立体寓言。它曾荣耀，曾破碎，几乎被遗忘，又被一个民族从记忆的深潭里打捞起来，一片片拼回原状。这个过程本身，就是立陶宛民族灵魂最生动的写照——无论外部世界如何风云变幻，他们总能在自己的湖泊、森林与歌谣中，找到重建家园的力量原点。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求效率、迷恋新奇、一切都在快速迭代的世界里，特拉凯半岛城堡提供了一种截然不同的时间维度。它不快，它甚至有些笨拙地矗立在水中央，要求你放慢脚步，走过长长的桥，花时间去聆听风声与历史的回响。它不新，它的砖墙斑驳，新旧交织，坦然展示着伤痕与修复的痕迹。而这，正是深度旅行最珍贵的所在：不是打卡，而是共鸣；不是获取知识，而是体验一种生存的状态。每一位渴望在旅途中触碰真实、感受土地与血脉之间深沉联系的旅人，都应该来这里，站在那座木桥上，感受从湖心吹来的、穿越了几个世纪的风。你会发现，有些风景，看进眼里，就住进了心里。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开特拉凯很久之后，闭上眼，脑海里浮现的往往不是城堡具体的样貌，而是一种感觉。是湖水微凉的触感，是红色砖墙在掌心留下的粗粝温度，是黄昏光线里那种万物都被镀上金边的恍惚瞬间。这座城堡教会我，最动人的历史遗迹，从来不是冰冷 sterile 的展品，而是能与自然、与当下生活呼吸共鸣的有机体。它既是堡垒，也是家园；既承载着战争的伤痕，也倒映着和平的柔波。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求高效、一切都快如闪电的世界里，特拉凯像是一个温柔的停顿。它让你慢下来，花一个小时等一艘船，花一个下午看云飘过塔尖，花一个黄昏目睹金色如何一点点沉入湖心。它告诉你，立陶宛这个常常被忽略的波罗的海小国，其灵魂深处有着怎样的浪漫与坚韧。那种从湖水中重生、在废墟上挺立的生命力，比任何教科书都更有力。所以，如果你厌倦了那些被游客挤满的“必打卡”地标，渴望一次真正走进风景、也走进历史的旅行，请来特拉凯。把手机静音，坐在湖边，听风讲述那个关于湖水、红砖与不朽传说的故事。它值得你专程为它，而来。`}</p>
             </div>
           </Section>
 
           <Section title="8. 猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/gmunden-castle" className="block group">
+              <a href="/attractions/rapperswil-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    格
+                    拉
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格蒙登城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gmunden Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉珀斯维尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rapperswil Castle</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/chateau-de-pierrefonds" className="block group">
+              <a href="/attractions/chateau-de-beynac" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    皮
+                    贝
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">皮埃尔丰城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Pierrefonds</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝纳克城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Beynac</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/castelo-branco" className="block group">
+              <a href="/attractions/viljandi-order-castle-ruins" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    布
+                    维
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布朗库堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castelo Branco</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维尔扬迪城堡废墟（汉萨同盟时期要塞）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Viljandi Order Castle Ruins</p>
                   </div>
                 </div>
               </a>

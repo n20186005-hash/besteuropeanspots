@@ -1,0 +1,226 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '拉斯梅杜拉斯 Las Médulas｜鬼斧神工的古罗马红土金矿 - 最佳欧洲景点',
+  description: '第一眼看到拉斯梅杜拉斯，你会忘记所有关于“废墟”或“遗址”的想象。它太不真实了。那是一片拔地而起的、参差不齐的红色山峰与石柱，在西班牙北部常绿橡树与栗子树的深绿背景上，泼洒出无比浓烈、近乎魔幻的赭红与橙黄。风穿过那些嶙峋怪石，发出低沉的呜咽，仿佛山体自己在呼吸。空气里有干燥的尘土味，混合着远处灌木丛...',
+}
+
+export default function LasMedulasRomanGoldMinePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '拉斯梅杜拉斯', href: '/attractions/las-medulas-roman-gold-mine' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`拉斯梅杜拉斯・Las Médulas・西班牙・莱昂省，蓬费拉达地区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到拉斯梅杜拉斯，你会忘记所有关于“废墟”或“遗址”的想象。它太不真实了。那是一片拔地而起的、参差不齐的红色山峰与石柱，在西班牙北部常绿橡树与栗子树的深绿背景上，泼洒出无比浓烈、近乎魔幻的赭红与橙黄。风穿过那些嶙峋怪石，发出低沉的呜咽，仿佛山体自己在呼吸。空气里有干燥的尘土味，混合着远处灌木丛的野生迷迭香气息，一种古老而荒芜的感觉扑面而来。
+走近了看，你会发现那些“山峰”的肌理如此奇异：不是自然的层叠，而是像被巨人的手指粗暴地揉捏、掏空后留下的松散堆积。阳光在尖锐的棱角上切割出深深浅浅的阴影，让整片 landscape 充满戏剧性的张力。这不是神明造物，这是一场持续了两百多年、由数万奴隶执行的、对大地母亲进行的一场外科手术式掠夺留下的疤痕。然而，时间这位最伟大的艺术家，用风雨和植被，将这道狰狞的疤痕，抚慰成了一幅撼人心魄的抽象画。
+在当地人眼里，拉斯梅杜拉斯不是冷冰冰的景点，而是他们生活背景的一部分。你会看到牧羊人赶着羊群穿过山脚下的草甸，蜜蜂在废墟间野花上忙碌。秋天的栗子林是全村人收获的盛宴。这片被古罗马人榨取殆尽后遗弃的土地，在之后的两千年里，以一种沉默而坚韧的方式，重新孕育出生机与社区。它的核心魅力，正在于这种极致的矛盾与和谐：最残酷的奴役工程，却创造了最超凡的自然美景；最彻底的掠夺，最终却以最慷慨的姿态，将美归还给了世界。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到拉斯梅杜拉斯，你会忘记所有关于“废墟”或“遗址”的想象。它太不真实了。那是一片拔地而起的、参差不齐的红色山峰与石柱，在西班牙北部常绿橡树与栗子树的深绿背景上，泼洒出无比浓烈、近乎魔幻的赭红与橙黄。风穿过那些嶙峋怪石，发出低沉的呜咽，仿佛山体自己在呼吸。空气里有干燥的尘土味，混合着远处灌木丛的野生迷迭香气息，一种古老而荒芜的感觉扑面而来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`走近了看，你会发现那些“山峰”的肌理如此奇异：不是自然的层叠，而是像被巨人的手指粗暴地揉捏、掏空后留下的松散堆积。阳光在尖锐的棱角上切割出深深浅浅的阴影，让整片 landscape 充满戏剧性的张力。这不是神明造物，这是一场持续了两百多年、由数万奴隶执行的、对大地母亲进行的一场外科手术式掠夺留下的疤痕。然而，时间这位最伟大的艺术家，用风雨和植被，将这道狰狞的疤痕，抚慰成了一幅撼人心魄的抽象画。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在当地人眼里，拉斯梅杜拉斯不是冷冰冰的景点，而是他们生活背景的一部分。你会看到牧羊人赶着羊群穿过山脚下的草甸，蜜蜂在废墟间野花上忙碌。秋天的栗子林是全村人收获的盛宴。这片被古罗马人榨取殆尽后遗弃的土地，在之后的两千年里，以一种沉默而坚韧的方式，重新孕育出生机与社区。它的核心魅力，正在于这种极致的矛盾与和谐：最残酷的奴役工程，却创造了最超凡的自然美景；最彻底的掠夺，最终却以最慷慨的姿态，将美归还给了世界。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`拉斯梅杜拉斯`} />
+                <InfoRow label="英文名称" value={`Las Médulas`} />
+                <InfoRow label="正式名称" value={`Las Médulas`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`莱昂省，蓬费拉达地区`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`古罗马帝国最大、技术最先进的金矿，其规模与对地貌的改造能力堪称古代工业文明的巅峰。`} />
+                <InfoRow label="建筑特色" value={`这不是传统建筑，而是人类工程力量对自然地貌进行彻底重塑后形成的、宛如超现实主义雕塑的壮丽景观。`} />
+                <InfoRow label="建筑风格" value={`古罗马水利工程与露天开采技术结合的工业遗迹，后经自然风化形成独特的地质奇观。`} />
+                <InfoRow label="文化价值" value={`见证了古罗马帝国的经济掠夺、工程技术，以及人类活动与自然在两千年的时间里共同完成的、不可复制的“大地艺术”。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`遗址自然区域全年全天24小时开放。核心的“地底画廊”（Galerías）参观需跟随导览团，通常在上午10点至下午2点，以及下午4点至日落前有团次，夏季团次更频繁。信息中心（Aula Arqueológica）开放时间一般为周二至周日，上午10点至下午1点半，下午4点至7点（冬季会缩短）；周一闭馆。具体时间随季节变动，出发前务必在官网核对。`} />
+              <InfoRow label="门票价格" value={`进入拉斯梅杜拉斯广大的自然区域是免费的。但进入最核心、最震撼的“拉塞雷尼亚地底画廊”（Galerías de La Cueva de la Reina）必须参加官方导览团，票价约3-5欧元。Orellán观景台（Mirador de Orellán）有小型停车场，停车费约2欧元。强烈建议在信息中心购买一份详细的地图（约1-2欧元）。`} />
+              <InfoRow label="地址" value={`Las Médulas, 24442, Carucedo, León, Spain`} />
+              <InfoRow label="交通方式" value={`最近的机场是莱昂机场（LEN），但航班较少。更实际的选择是从马德里或巴塞罗那乘坐火车（RENFE）到蓬费拉达（Ponferrada），车程约4-5小时。从蓬费拉达火车站或汽车站，可以搭乘当地ALSA公司的巴士前往Carucedo或Orellán村庄，班次稀少（尤其是下午和周末），每天可能只有2-3班，车程约30分钟。最自由的方式无疑是租车，从蓬费拉达出发，沿LE-713公路向北开约20分钟即可看到指示牌，有多个入口和停车场。自驾可以灵活探索各个观景角度。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从公元1世纪说起。当时，屋大维确立了奥古斯都的称号，罗马帝国如日中天，黄金是帝国货币、奢华与权力的血液。伊比利亚半岛西北部，这片被称为“阿斯图里亚”的蛮荒之地，在罗马人征服后，传来了令人疯狂的消息：这里的山脉之下，蕴藏着极其丰富的冲积金矿。于是，一项帝国直接主导的、史上最庞大的采矿计划启动了。它的目标明确：不惜一切代价，抽干这片土地的金子。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`罗马人用的不是简单的镐和铲。他们展现的是那个时代顶级的工程学智慧——“水力采矿法”。这听起来文明，实则是一场对水系和山体发动的、精心策划的战争。首先，工程师们在远在100公里外的坎塔布连山脉修建了复杂的水渠网络，将高山雪水与河水引向矿区。这些水渠本身就是工程奇迹，有些段落直接在悬崖上开凿。然后，在拉斯梅杜拉斯山体的高处，矿工们开凿出迷宫般错综复杂的隧道和竖井。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`最震撼的一幕发生了：他们将巨大的水库蓄满，然后开闸放水。洪流以排山倒海之势冲入山体内的隧道网络，利用水压“爆裂”山体。接着，含有金砂的泥石流被导向预先修好的洗矿槽，奴隶们用羊毛毯和灌木枝进行过滤，淘取细微的金粒。你可以想象那个场面：震耳欲聋的水声、山体崩塌的轰鸣、弥漫的红色尘土、以及在泥浆中挣扎的无数身影。据估算，为了获取这里的黄金，罗马人移走了近5亿立方米的土石，改变了整个区域的水文和地貌。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`这场掠夺持续了两个多世纪。当最易开采的金矿耗尽，罗马人撤走了，留下了一片满目疮痍、如同月表的不毛之地。巨大的红色土堆和石柱，就是那次次“水力爆破”后未被冲走的残留物核心。中世纪时，人们几乎忘记了这片土地的过去，只把它当作一个地形古怪的荒地。它被修士、农民和牧羊人缓缓重新接纳。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`直到近代，学者们通过老普林尼的文字记载（他本人曾担任过此地的财务官！）和考古发现，才将这片奇幻景观与古罗马史诗级的采矿工程联系起来。1997年，它被列入世界遗产名录，理由不仅仅是考古，更是“文化景观”——因为它完美诠释了人类活动如何成为塑造自然面貌的一种决定性力量，无论这力量的初衷是善是恶。今天，我们站在这里，看到的既是古代帝国的贪婪与技术，也是自然用时间完成的、一场缓慢而伟大的收复与美化。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天给拉斯梅杜拉斯，才能真正体会它的尺度与光影变化。最佳抵达时间是清晨（9点前），此时光线柔和，游客稀少，红色的山体在晨光中会呈现出最瑰丽的色彩。整体游览节奏应是“先远观全局，再深入细节”。上午先开车或步行到制高点的观景台，俯瞰全景，建立宏观印象。中午阳光强烈时，可以转到阴凉的林间小径漫步，或去信息中心了解历史。下午光线侧射时，是最适合深入核心矿区徒步、探索地底画廊的时间。傍晚时分，再次回到观景台，等待日落将整片大地染成金红色的魔幻时刻。这样的安排，你能看到它在不同光线下的千百种面貌。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双结实防滑的徒步鞋，很多小径是松散的沙石路，容易打滑。夏季游览一定要带足饮用水和防晒帽，景区内遮阴处很少，中午非常炎热。参加地底画廊导览团最好提前在信息中心预约，尤其是旺季，临时去很可能满团。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`第一站一定是Orellán观景台，从那里像鹰一样俯瞰整个拉斯梅杜拉斯的全景，看红色山丘在绿色山谷中如巨浪般铺展。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着观景台旁那条陡峭但值得的小径下行，你会进入一片安静的栗子林，斑驳的光影和古老的树木让你瞬间从震撼切换到静谧。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`开车或徒步前往拉塞雷尼亚村庄附近，那里是参加导览团进入神秘“地底画廊”的起点，亲手触摸古罗马矿工开凿的隧道岩壁。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着标志清晰的“Senda de las Valiñas”环形徒步小径，轻松地走进红色山丘的“腹地”，从巨塔般的土柱脚下仰望天空。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要找到那几棵孤独地生长在红土尖顶上的橡树，它们是生命韧性的象征，也是绝佳的拍照前景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果体力允许，走一走更长的“Senda Perimetral”外环线，从不同侧面欣赏遗址，并远眺作为古罗马水利工程一部分的卡鲁塞多湖。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前半小时回到Orellán观景台或卡斯特罗山观景台，看着夕阳如何像古罗马的熔金术，将整片景观点燃。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`Orellán观景台全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时到日落后蓝调时刻，用广角镜头捕捉全景，将蜿蜒的道路和卡鲁塞多湖作为前景，层次感无敌。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`红土“尖塔”森林`}</h4>
+                  <p className="text-sm text-gray-700">{`走进Senda de las Valiñas小径深处，下午三四点的侧光能勾勒出土柱凌厉的轮廓，找一棵孤树做前景，拍出苍凉奇幻感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`地底画廊入口内部`}</h4>
+                  <p className="text-sm text-gray-700">{`参加导览团进入隧道后，在允许拍照的区域，将镜头对准洞口，拍下那框出一片红色山景的“天然画框”，光线正午最好。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`卡斯特罗山观景台逆光剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，以红色山丘为背景，拍摄徒步者或孤独树木的剪影，强调形态与光影的对比。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`沙土环境对相机镜头是威胁，更换镜头时要格外小心，最好带上气吹和清洁工具。无人机理论上在自然公园区域飞行受限，必须提前查询当地最新法规并获得许可，尊重其他游客的宁静体验。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`隐居之选`}</h4>
+                  <p className="text-sm text-blue-800">{`卡鲁塞多湖畔由家族经营的乡间旅舍，推开窗就是平静的湖面和远山，晚上只有蛙声和星光，早餐有自制的山里果酱。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`地道体验`}</h4>
+                  <p className="text-sm text-green-800">{`奥雷良村石头老屋改造的民宿，房东老爷爷会给你讲他祖父在这片红土山放羊的故事，天台正对着无敌的遗址侧面景观。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`蓬费拉达市区内由历史建筑改造的精品酒店，将古老的砖石结构与现代设计完美融合，作为探索矿区舒适的大本营。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`葡萄园梦境`}</h4>
+                  <p className="text-sm text-purple-800">{`离遗址车程半小时的别尔索地区乡村酒店，坐落于自家的葡萄园中，白天看山，晚上品一杯本地门西亚红酒，回味千年历史。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`景区内的村庄住宿非常有限且质朴，预订要趁早，尤其春秋旺季。如果追求舒适的晚餐和夜生活，住在蓬费拉达是更便利的选择，但会失去与景观晨昏相伴的沉浸感。这一带治安极好，民风淳朴。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开拉斯梅杜拉斯很久之后，那片红色依然会灼烧在你的视网膜上。但比色彩更持久的，是一种复杂的、难以名状的触动。我们习惯了欣赏教堂的虔诚、宫殿的奢华、古城的浪漫，但这里提供了一种截然不同的震撼：一种关于人类欲望、工程伟力与自然最终裁决的史诗感。它毫不掩饰地展示，美可以与苦难同源，壮丽可以诞生于掠夺。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个我们依然在疯狂索取地球资源的时代，拉斯梅杜拉斯像一面来自两千年前的镜子。它让我们看到，当一切尘埃落定，黄金被铸成硬币又重归尘土，帝国化为史书中的章节，最终留下的、能被后世称为“遗产”的，不是那些被夺走的财富，而是这片伤痕本身——被时间慈悲地转化成了独一无二的风景。它教会我们一种更深邃的视角：去欣赏人类在地球上留下的所有印记，无论其初衷如何，并思考我们正在创造什么样的印记留给未来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，每一位热爱深度游的旅人，都应该来这里。不仅仅是为了一张照片，更是为了上一堂关于时间、贪婪、技术与美的终极课程。站在那红色的“人造自然”面前，你会感受到自身的渺小与历史的磅礴，并在这种震撼中，重新理解我们与脚下这片土地的关系。这是一次触及灵魂的地质学漫步，一次穿越两千年的视觉哲思。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/tarragona-roman-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塔
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塔拉戈纳古罗马遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tarragona Roman Ruins</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/caceres-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡塞雷斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cáceres Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/salamanca-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨拉曼卡老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Salamanca Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
