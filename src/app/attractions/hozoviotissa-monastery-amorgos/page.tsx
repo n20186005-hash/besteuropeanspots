@@ -1,0 +1,155 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '霍佐维奥蒂萨修道院旅游攻略：悬崖上的白色奇迹与灵魂朝圣指南',
+  description: 'Monastery of Hozoviotissa（霍佐维奥蒂萨修道院）深度游攻略。探秘希腊阿莫尔戈斯岛垂直悬崖上的千年白色修道院，包含行程路线与避坑指南。',
+}
+
+export default function HozoviotissaMonasteryAmorgosPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '霍佐维奥蒂萨修道院', href: '/attractions/hozoviotissa-monastery-amorgos' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`霍佐维奥蒂萨修道院・Monastery of Hozoviotissa・希腊・南爱琴大区，阿莫尔戈斯岛`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`还记得我第一次从海上望向它时的震撼吗？在爱琴海灼热的阳光下，一块纯白的、笔直的“创可贴”，或者说，更像一个倔强的白色音符，死死地贴在三百米高的锈红色垂直崖壁上。那就是霍佐维奥蒂萨修道院，一个让你瞬间失语的存在。它不属于你见过的任何常规景点范畴，更像一个直击灵魂的地理奇迹和信仰图腾。今天这份阿莫尔戈斯岛私藏深度游攻略，就为你彻底剥开这“悬崖上的白色堡垒”的神秘面纱。这不是普通的观光，而是一场需要体力、诚意和静默心境的朝圣。作为你的专属向导，这份自由行指南将告诉你，如何避开最陡峭的弯路，如何读懂它千年沉默背后的故事，以及如何让这次拜访，成为你爱琴海之旅中最独一无二的记忆。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`还记得我第一次从海上望向它时的震撼吗？在爱琴海灼热的阳光下，一块纯白的、笔直的“创可贴”，或者说，更像一个倔强的白色音符，死死地贴在三百米高的锈红色垂直崖壁上。那就是霍佐维奥蒂萨修道院，一个让你瞬间失语的存在。它不属于你见过的任何常规景点范畴，更像一个直击灵魂的地理奇迹和信仰图腾。今天这份阿莫尔戈斯岛私藏深度游攻略，就为你彻底剥开这“悬崖上的白色堡垒”的神秘面纱。这不是普通的观光，而是一场需要体力、诚意和静默心境的朝圣。作为你的专属向导，这份自由行指南将告诉你，如何避开最陡峭的弯路，如何读懂它千年沉默背后的故事，以及如何让这次拜访，成为你爱琴海之旅中最独一无二的记忆。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`霍佐维奥蒂萨修道院`} />
+                <InfoRow label="英文名称" value={`Monastery of Hozoviotissa`} />
+                <InfoRow label="正式名称" value={`Monastery of Hozoviotissa`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`南爱琴大区，阿莫尔戈斯岛`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`霍佐维奥蒂萨修道院的故事始于公元1088年，拜占庭皇帝阿莱克修斯一世·科穆宁时期。它的建立与一个神秘的圣像传说紧密相连：一幅圣母玛利亚的圣像（据说由福音书作者路加所绘）奇迹般地从海上漂流而至，最终停靠在阿莫尔戈斯岛这片陡峭的悬崖之下。僧侣们认为这是神启，决定在此最险峻、最难以抵达之处，为圣像建立家园，以彰显其神圣与非凡。这座修道院从此成为东正教世界在爱琴海最为孤傲和坚毅的象征之一。在漫长的中世纪，它不仅是信仰的中心，也扮演了重要的角色——它是海员们的灯塔和守护神，水手们远航时看到这抹悬崖上的白色，便知道受到了庇佑；同时，它也是岛上居民在面临海盗频繁袭击时的避难所和堡垒。它的存在，串联起了拜占庭的虔诚、威尼斯的影响与奥斯曼时期东正教信仰的顽强坚守，是一部镌刻在悬崖上的、活生生的爱琴海编年史。`} />
+                <InfoRow label="建筑特色" value={`它的建筑本身就是一场与重力和自然的极致对话。远看，它是一整片毫无缝隙、光滑如石膏的纯白立面，紧密地嵌入岩层，仿佛是从悬崖里生长出来的。但当你气喘吁吁地走近，才会发现这“一片白”是由八层楼高的建筑精巧堆叠、错落而成的。建筑完全依循崖壁的天然走势，每一层都比下一层向后退缩一些，形成一种稳固的阶梯状结构。材质是最质朴的当地石材和灰泥，表面刷上厚厚的一层白色石灰（每年都会重新粉刷，这是持续千年的仪式），在烈日下反射着耀眼却圣洁的光芒。几乎没有多余的装饰，窗户窄小而深邃，像堡垒的射击孔。唯一打破这片纯粹白色的，是那些深棕色的木制小阳台和窗棂，以及屋顶上寥寥几个朴素的十字架。这种极致的简洁和功能性，恰恰成就了它惊心动魄的视觉力量——一种在绝对险境中求生存、在绝对朴素中见崇高的美学。`} />
+                <InfoRow label="建筑风格" value={`很难用传统的“哥特式”或“巴洛克”来定义霍佐维奥蒂萨。它本质上是拜占庭建筑风格在极端地理条件下的一个超凡演化与简化版本。拜占庭风格核心的集中式布局、穹顶和对神圣空间的营造，在这里被巧妙地转化了。由于地形限制，它无法向上建造宏伟的穹顶，于是它将“集中”的理念转化为“垂直纵向的探索”。参观过程就像一次精神的攀登：你必须沿着狭窄的阶梯，一层一层向上，穿过低矮的门廊、陡峭的楼梯和迷宫般的通道，最终抵达顶层的圣殿。这个不断向上、不断接近天空的过程，本身就是拜占庭神学中“升向神圣”的建筑表达。此外，其堡垒般的厚重墙体、小窗孔（既防风又防御），也融入了中世纪防御性建筑的鲜明特征。所以，它是一种混合体：拜占庭的“心”（精神序列），穿上了一件为生存而生的、极度实用的“堡垒外衣”，最终形成了这种独一无二、只为适应这片悬崖而存在的建筑语言。`} />
+                <InfoRow label="文化价值" value={`对于阿莫尔戈斯岛民而言，霍佐维奥蒂萨远不止是一个旅游地标。它是岛屿的灵魂与守护神。每年11月21日（圣母进殿节），岛上的男女老少都会徒步上山，举行盛大的庆典，这是全岛最重要的日子。修道院自酿的“psimeni raki”（一种用蜂蜜和香料调味的传统烈酒）是当地文化的精髓，只在招待访客时郑重分享，象征着欢迎与祝福。在现代社会，它代表了一种近乎失传的价值观：绝对的坚韧、与自然共存的智慧，以及内省的精神生活。它向每一个来访者提问：在物质丰裕的时代，我们需要多大的精神定力，才能像它一样，在“悬崖”般的社会环境中，保持自我的纯粹与稳固？它因此也吸引着无数寻求心灵喘息和哲学思考的现代人，成为了一个超越宗教的、普世的精神符号。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 霍佐维奥蒂萨修道院一日游打卡路线攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`朋友，要拜访这位“悬崖上的隐士”，你得怀着一颗朝圣之心来规划。早晨8点前，就从首府卡塔波拉（Chora）或主要港口埃吉亚利（Aegiali）出发吧。乘坐当地的巴士或租一辆小摩托，沿着蜿蜒的山路驶向修道院所在的东南海岸。清晨的光线最柔和，能拍下白色修道院与湛蓝大海最惊艳的合影，也能避开晌午的酷热和小规模的人流。上午9点左右抵达山脚下的停车场，真正的挑战开始——那一段长长的之字形步道。别急，慢慢走，感受爱琴海风拂过汗湿的额头。进入修道院（注意着装！），跟随修士或志愿者的引导，安静地探索那八层迷宫。中午12点左右参观完毕，在修道院门口的小凉棚下，接受一杯修士款待的蜂蜜拉基酒，那辛辣香甜的滋味是旅程最好的奖赏。下午，可以徒步15分钟下到山脚隐秘的霍佐沃海滩，在卵石滩上游泳，感受从悬崖俯瞰你的视角。傍晚返回卡塔波拉，在城堡落日中回味这一天的震撼。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  入口与石阶：推开那扇厚重的深色木门，你便进入了一个与世隔绝的微观世界。迎接你的是一段异常陡峭、仅容一人通过的原始石阶。阳光从高处的窗孔斜射进来，在粗糙的石壁上切割出明暗交错的光影，空气中弥漫着古老的石头、蜡烛和淡淡香料混合的气味。每一步攀登，都仿佛在剥离外界的喧嚣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  圣像与圣殿：在修道院最核心的小教堂里，保存着那块传说中的圣母圣像。它被珍贵的银质饰框包裹，面容在摇曳的烛光中显得无比温柔与深邃。空间极其狭小低矮，却凝聚了千斤重的虔诚。静静站立片刻，你能听到自己心跳的声音，与远处海浪拍岸的节奏隐隐共鸣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  修士的“房间”与窗景：你会经过一些如同洞穴般的修士小室。其中一间的小窗，构成了一个绝无仅有的画框：窗外是毫无遮挡的、辽阔的靛蓝色爱琴海，一艘小白船正缓缓划过，像钟摆一样在无垠的蓝绸上移动。这一扇窗，定义了什么是“苦修”中的精神富足——将整个世界的喧嚣换成整片海洋的寂寥与壮美。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  回廊尽头的悬崖观景台：走到建筑外侧一个极其狭窄的木质阳台（紧紧抓住栏杆！）。这里是勇敢者的奖赏。三百米垂直落差就在你脚下，低头是令人眩晕的崖底碎石和翡翠色的海水漩涡，平视是海天一色的无限广阔。风在这里呼啸而过，你会感到建筑的轻微颤动，那一刻，你与这座千年奇迹真正地“同呼吸、共命运”。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 霍佐沃蒂萨修道院自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  着装是铁律，而非建议：这是最重要的避坑点！修道院要求女性穿长裙（及膝或以下不行，必须及踝！），门口会提供围巾。男性必须穿长裤，短裤绝对禁止。无论多热，请务必遵守，这是对信仰最基本的尊重，否则真的会吃闭门羹。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  时间与天气的博弈：最佳游览时间是5-6月及9-10月，气候温和。盛夏（7-8月）务必在早上9点前抵达，否则上山的小路会暴晒如烤箱。修道院开放时间苛刻（通常上午8点至下午1点，冬季更短），行前务必再次核实，避免扑空。大风天气可能关闭。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  交通与体能准备：岛上公交班次有限，务必提前查好时刻表并预留充足时间。从停车场到修道院门口的步行道虽已修缮，但仍是一段持续的上坡，需15-20分钟，穿舒适的运动鞋，带足水。参观内部需要频繁上下陡峭楼梯，不适合行动不便者。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  行为与礼仪：内部严禁拍照（外部可以），请绝对遵守。保持安静，低声说话。如果幸运地被邀请喝一杯“psimeni raki”，请双手接过，并真诚地道一声“Efharistó”（谢谢）。这是一个活的修道院，不是博物馆，你的行为本身即是参观的一部分。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 霍佐维奥蒂萨修道院周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`修道院本身不提供住宿，最近的住宿点在卡塔波拉（Chora） 或山下的哈吉奥斯·安娜斯小村。强烈推荐住在卡塔波拉，这座山顶城堡小镇本身就是一个梦幻景点。可以寻找由传统石屋改造的家庭式旅馆，露台正对群山与大海，夜晚静谧得能听到星星的声音。餐饮方面，修道院附近几乎没有商业设施。下山后，可以前往卡塔波拉或港口。一定要品尝阿莫尔戈斯的“帕斯塔”（Pasta）——不是意大利面，而是一种用慢火烤制的羊肉或山羊肉，肉质酥烂入味，是岛上的传统盛宴。在卡塔波拉迷宫般的小巷里，找一家家庭小馆，点上一份帕斯塔，配以当地沙拉和一杯葡萄酒，便是对一天朝圣之旅最完美的慰藉。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  霍佐沃海滩：从修道院停车场沿一条清晰的步道向下步行约15分钟即可到达。这是一个被悬崖环抱的卵石海滩，海水是难以置信的蓝绿色。在这里游泳体验非凡——当你浮在水面，抬头仰望那道白色悬崖和其上小小的修道院，你会真正体会到人类的信念在自然伟力面前是何等渺小又伟大。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  卡塔波拉与城堡：回程后，务必花时间探索阿莫尔戈斯岛的首府卡塔波拉。它是一座建在山顶上的威尼斯城堡城市，纯白的房屋像积木一样层层堆叠。在黄昏时分，漫步于它无车的狭窄巷道，登上城堡遗址，看夕阳将风车、教堂圆顶和无尽的大海染成金色。这里没有圣托里尼的喧嚣，只有最本真、最宁静的基克拉泽斯群岛风骨。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`霍佐维奥蒂萨修道院教会我的，远不止建筑与历史的震撼。它用一种极端物理的方式，具象化了“信念”二字——当一个人或一个社群，将全部的精神力量锚定于一处，即便是在垂直的悬崖上，也能开凿出可以延续千年的家园。它沉默地矗立在那里，仿佛在问每一个来访的现代人：你的内心，是否也有一处如此绝对、如此不可动摇的“悬崖”？而你又愿意为它，付出怎样的“贴合”与“坚守”？这趟旅程，是一次身体的地心引力挑战，更是一次灵魂的失重与回归。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/rethymno-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    罗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">罗希姆诺老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rethymno Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ancient-theatre-of-epidaurus" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃皮达鲁斯古剧场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ancient Theatre of Epidaurus</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/mystras-byzantine-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    米
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">米斯特拉斯拜占庭遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mystras</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

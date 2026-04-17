@@ -1,0 +1,155 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '皮亚纳Piana深度旅游攻略：上帝打翻的调色盘与悬崖古村的避世指南',
+  description: '探索法国科西嘉岛的皮亚纳Piana，这份深度游攻略带你打卡世界遗产卡尔达纳奇岩与蔚蓝海岸，揭秘悬崖古村的私藏玩法、交通与避坑指南。',
+}
+
+export default function PianaCorsicaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '皮亚纳', href: '/attractions/piana-corsica' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`皮亚纳・Piana・法国・科西嘉岛`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你正在寻找一个能让手机内存爆掉、灵魂彻底放空的地方，那科西嘉岛西海岸的皮亚纳，你必须收进旅行清单。想象一下：车子在蜿蜒的山路上爬升，一个转弯，突然，一整片由烈焰般赤红的花岗岩巨兽与宝石般湛蓝的地中海构成的超现实画卷，毫无防备地撞进你的眼帘——皮亚纳，就到了。这个人口不足500的小村，就“挂”在科西嘉地区自然公园的悬崖之上，它不仅是通往联合国世界自然遗产“斯坎多拉自然保护区”和“皮亚纳卡尔达纳奇岩”的门户，更是一个活着的、呼吸着的风景明信片。今天这份皮亚纳私藏旅游攻略，就带你躲开人潮大巴，像当地人一样，用脚步丈量这片被时光吻过的山海奇境。准备好，我们要开始一场关于色彩、光影与岩石的深度对话了。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你正在寻找一个能让手机内存爆掉、灵魂彻底放空的地方，那科西嘉岛西海岸的皮亚纳，你必须收进旅行清单。想象一下：车子在蜿蜒的山路上爬升，一个转弯，突然，一整片由烈焰般赤红的花岗岩巨兽与宝石般湛蓝的地中海构成的超现实画卷，毫无防备地撞进你的眼帘——皮亚纳，就到了。这个人口不足500的小村，就“挂”在科西嘉地区自然公园的悬崖之上，它不仅是通往联合国世界自然遗产“斯坎多拉自然保护区”和“皮亚纳卡尔达纳奇岩”的门户，更是一个活着的、呼吸着的风景明信片。今天这份皮亚纳私藏旅游攻略，就带你躲开人潮大巴，像当地人一样，用脚步丈量这片被时光吻过的山海奇境。准备好，我们要开始一场关于色彩、光影与岩石的深度对话了。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`皮亚纳`} />
+                <InfoRow label="英文名称" value={`Piana`} />
+                <InfoRow label="正式名称" value={`Piana`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`科西嘉岛`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`皮亚纳的历史，是一部关于“边缘”与“坚守”的史诗。与科西嘉岛那些因拿破仑或热那亚共和国而闻名的沿海大城不同，皮亚纳的故事更古老，也更沉默。它的历史地位，首先根植于其令人望而生畏的地理环境——这些巍峨的红色花岗岩山脉，自古就是天然的堡垒和屏障。早在史前时代，这里就可能有人类活动的痕迹，岩石本身提供了庇护所与瞭望点。中世纪时期，为了躲避沿海地区频繁的海盗侵袭，科西嘉内陆的山民开始向这些易守难攻的悬崖地带迁移，皮亚纳村落逐渐成形。它不像阿雅克肖那样是政治中心，也不像巴斯蒂亚那样是贸易枢纽，它的存在本身，就是科西嘉人坚韧不拔、依山而生精神的缩影。直到现代，随着19世纪末科西嘉“浪漫之旅”的兴起，画家和诗人们发现了这里惊世骇俗的景色，皮亚纳才从一個避世的农业山村，缓慢地走向世界舞台。1983年，其所在的“皮亚纳卡尔达纳奇岩”与斯坎多拉湾一起被列入联合国教科文组织世界遗产名录，这一刻，这块古老岩石的审美与地质价值，才真正得到了全球性的历史认证。它见证的不是王朝更迭，而是自然之力与人类微小存续之间，长达数个世纪的深情对望。`} />
+                <InfoRow label="建筑特色" value={`皮亚纳的建筑，是大地生长出的颜色。这里的房子绝不是精致优雅的法国别墅，而是粗粝、质朴、与山岩浑然一体的存在。建筑材料几乎全部取自本地：那是一种温暖而沉稳的暖黄色花岗岩，被切割成大小不一的石块，不用过于精细的打磨，就这样层层叠叠地垒起来，墙壁厚重得能储存冬日的阳光和夏日的阴凉。屋顶是经典的地中海红瓦，经过海风和岁月的洗礼，颜色褪成一种沉稳的砖红或温暖的橘粉。走在窄巷里，伸手就能触摸到墙面石块的颗粒感，凉意顺着指尖传来。房子的窗户都不大，漆着天蓝、橄榄绿或赭石色的木制百叶窗，在强烈的日光下显得格外鲜艳。很多人家门口或阳台上，都摆满了怒放的天空葵、九重葛和各类香草植物，那蓬勃的紫红、桃红与石墙的暖黄、大海的蔚蓝，在科西嘉的阳光下碰撞出无比鲜活的生命力。村落依陡坡而建，因此街道多是曲折的阶梯和小坡，你的视线总是不由自主地穿过一扇门、一道拱廊，或者两栋房屋的缝隙，窥见远处那一抹永恒的、令人心颤的湛蓝。`} />
+                <InfoRow label="建筑风格" value={`皮亚纳的建筑风格，可以称之为 “朴素而坚固的地中海乡村风格” ，并深深烙上了科西嘉本土的印记。这里看不到繁复的巴洛克装饰或高耸的哥特尖塔，一切形式都服从于功能和环境。其核心风格体现在：绝对的适应性。为了抵御地中海沿岸著名的密史脱拉风，房子建得低矮而紧凑，彼此相连，共同抵御风势。厚实的石墙是为了隔热——冬暖夏凉，是数百年前没有空调的智慧。平缓或略有坡度的红瓦屋顶，便于快速排走冬季的雨水。这种风格也深受历史上热那亚共和国统治的影响（热那亚人在科西嘉建造了大量类似风格的防御性塔楼和村落），但变得更加乡土化、去军事化。窗户小，是为了减少热量进入和强光照射，那些色彩鲜艳的百叶窗不仅是装饰，更是调节光线和通风的重要工具。整个村落的布局看似随意，实则紧密，巷道狭窄曲折，创造出丰富的阴凉区域，同时也是社区邻里社交的天然客厅。这是一种“长”出来的建筑，它不追求纪念性，只追求与这片狂野而美丽的土地共存。每一块石头，都讲述着生存、社群与自然和谐相处的古老哲学。`} />
+                <InfoRow label="文化价值" value={`对于皮亚纳人和所有科西嘉人而言，这片奇岩与村庄远不止是风景。它是身份认同的基石，是“科西嘉精神”的具象化体现。这里的文化价值，首先是一种 “慢生活”的当代范本。在全球化浪潮下，皮亚纳依然保持着一种近乎古老的节奏：时间以日出日落、季节更替来计算，而非分钟秒。这种“慢”，滋养了强烈的社区纽带和对传统的珍视。其次，它是 “自然神圣性”的现代课堂。卡尔达纳奇岩那些被风和水雕刻成魔鬼、主教、乌龟等形状的巨石，在当地传说中充满了灵性。村民们世代与之比邻而居，发展出一种深刻的敬畏，而非征服的关系。这种生态观直接影响了后世的环境保护理念，使这里成为世界遗产。最后，它代表了一种 “花岗岩精神”——即面对严酷自然环境所展现出的坚韧、持久和内在力量。这种精神渗透在科西嘉的音乐（如悲怆而激昂的“悲歌”）、文学和处世态度中。今天，皮亚纳吸引着世界各地的徒步者、攀岩者和寻找宁静的都市人，它正以一种安静而有力的方式，向现代社会传递着一个信息：最美的生活，或许就存在于与自然最原始、最直接的对话之中。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 皮亚纳一日游完美打卡路线攻略：从奇岩日出到古村夜色`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行路线这样走，精华不漏`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份自由行指南请收好！我们的目标是“慢游”，充分吸收皮亚纳的精华。上午（沉浸奇岩）： 一定要在日出前后抵达 D81公路的卡尔达纳奇岩观景台（比如“Château Fort”观景点）。晨光会将红色岩石点燃成金红色，海水是丝绒般的深蓝，此时游客最少，光影魔力最强。沿着观景台旁的勒谢纳小径短途徒步，近距离抚摸这些亿年巨石。中午（探访古村）： 驱车几分钟进入皮亚纳村落中心。把车停在村口免费停车场，用双脚探索。先去圣彼得教堂前的小广场，感受村庄心跳。随后在迷宫般的小巷里随意迷失，每一个拐角都可能邂逅一扇鲜花簇拥的蓝门或一个俯瞰海湾的绝美窗框。下午（深度体验）： 在村里找家面对峡谷的餐厅享用漫长午餐，品尝科西嘉特色炖菜。饭后，如果体力充沛，可以挑战更长的徒步路线，前往更隐秘的观景點，或者驱车前往不远处的波尔托湾，在红色悬崖下的清澈海水中游泳。傍晚（收官时刻）： 回到皮亚纳，在村庄西侧的观景台守候日落。当夕阳将整个岩石群和大海染成紫红色，你会明白何为“永恒的瞬间”。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  “主教岩”的侧影与光影游戏：在卡尔达纳奇岩区，务必找到那块被称为“Le Château”（城堡）或“L‘Évêque”（主教）的巨岩。下午时分，太阳西斜，光线会从岩石嶙峋的侧面切过，在它身上勾勒出无比锐利、如同刀削斧劈般的明暗交界线。仔细观察岩石表面的纹理，那是数亿年风蚀水刻的日记，在斜射光下，每一道凹槽都仿佛在流动，闪烁着从深赭到橙红再到金色的细微色彩变化，仿佛岩石本身在呼吸，在低语。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  村落广场的时钟与咖啡香：圣彼得教堂前的小广场是皮亚纳的客厅。注意看教堂钟楼上的老式机械时钟，它的指针似乎走得比别处慢半拍。广场边总有几家咖啡馆，挑一个户外的位置坐下。耳边是混杂着科西嘉语的低沉聊天声、咖啡机蒸汽的嘶鸣，以及远处隐约传来的山羊颈铃的叮当声。空气里弥漫着新鲜咖啡的醇香、晒热石头的尘土味，还有海风带来的淡淡咸味。坐在这里，你不再是游客，而是这个缓慢时空里一个短暂的注脚。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  “勒谢纳小径”上的徒步转角：这条徒步路径是深入奇岩腹地的关键。不要匆匆走过，在一个能同时看到海与岩的转角停下。闭上眼睛，感受声音：脚下碎石被踩动的嘎吱声、远处海浪永恒不懈拍打岸基的沉闷轰鸣、盘旋的老鹰发出的尖利啸叫、以及穿过岩石缝隙的风声——那是一种空洞而深邃的呜咽。睁开眼，你会发现自己的渺小与自然的壮阔在此刻形成最直击心灵的对比。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  一扇蓝色的百叶窗与无尽的海：在村子里闲逛时，刻意去寻找那些最美的窗景。最经典的画面是：一扇剥落着些许油漆的天蓝色木制百叶窗半开着，窗台上有一盆盛放的红色天空葵。你的视线穿过这扇窗，越过粗糙的石墙边缘，毫无遮挡地投向那片铺展到世界尽头的地中海的蓝。这个构图浓缩了皮亚纳的所有美学——人文的温暖色彩与自然的绝对辽阔，在一窗之间达成了完美的平衡与对话。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 皮亚纳自由行避坑指南与行前须知：交通、人流与安全贴士`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  交通与时间选择是王道：皮亚纳最美的D81公路（连接波尔托和卡尔维）以弯多路窄闻名，自驾是首选，但需驾驶技术熟练且忌赶路。最佳游览季节是5-6月和9-10月，气候宜人，游客相对较少。盛夏7-8月是欧洲假期，中午酷热，人车最多，尽量避开。一日游的话，务必早出发，争取在上午10点前到达主要观景台，躲开旅游大巴团。日落前1-2小时也是黄金时间。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  穿着与装备务必踏实：这里不是巴黎街头！请绝对放弃高跟鞋和光滑底子的鞋。必须穿抓地力强的徒步鞋或运动鞋，因为观景台边缘和徒步小径多砂石，易滑倒。科西嘉阳光极其猛烈，防晒霜、帽子、墨镜是保命三件套。即使夏天，也备一件防风薄外套，海边悬崖风大。随身带足饮用水，村落商店有限。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  安全与礼仪细节：观景台没有夸张的护栏，拍照时务必注意脚下，尤其照看好奇的小朋友和宠物。自驾停车时，务必停在指定停车区域或宽敞路肩，勿阻塞狭窄的公路。尊重当地居民隐私，拍照民居内部或居民时先微笑示意。科西嘉整体治安良好，但车内切勿遗留任何显眼的行李物品，以防破窗盗窃。最后，带上你的耐心，享受这里的“慢”，才是解锁皮亚纳的正确心态。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 皮亚纳周边住宿与美食攻略：住在风景里，吃在山海间`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`想在皮亚纳获得极致体验，强烈建议至少住上一晚。村里的住宿多是家庭经营的民宿或小型精品酒店，它们往往拥有无敌视野。例如村里高处的几家石屋民宿，推开窗就是卡尔达纳奇岩的全景画，夜晚没有光污染，星空璀璨得令人窒息。住在村里，你才能领略清晨被鸟鸣和海风唤醒、独占整个宁静村庄的奢侈。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`餐饮方面，一定要尝试地道科西嘉风味。在皮亚纳的餐厅里，点一道“炖野猪肉”（Civet de Sanglier） ，肉质紧实，带着香草的浓郁气息。“布鲁乔”山羊奶酪搭配本地蜂蜜是绝妙的前菜。海鲜自然也新鲜，试着点一份用香草和橄榄油简单烹饪的海鱼。主食别忘了科西嘉特色的栗子粉煎饼。配上一杯科西嘉产的 Patrimonio 红葡萄酒或“朋茶”（一种清新桃红葡萄酒），对着悬崖落日干杯，这便是天堂般的时刻。村里广场旁的“Les Roches Rouges”或拥有露台的“Le Scandola”都是口碑不错的选择，记得提前预订窗边位。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  波尔托湾：从皮亚纳沿D81公路向西北仅15分钟车程，就会到达这个如童话般色彩斑斓的渔村。波尔托的房子被漆成各种明快的粉色、橙色和黄色，与碧绿的海水和皮亚纳延伸过来的红色悬崖形成梦幻对比。这里是皮划艇和出海游览斯坎多拉自然保护区的绝佳起点。你可以乘船近距离观看世界遗产的海蚀柱、洞穴和丰富的海洋生物，从另一个角度欣赏皮亚纳奇岩的雄伟。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  科尔特：如果你对科西嘉的历史文化感兴趣，可以从皮亚纳向内陆驱车约1.5小时，到达科西嘉的“精神之都”——科尔特。这座雄踞在山顶的古城堡城市，是18世纪科西嘉独立时期的首都，充满了桀骜不驯的英雄气息。参观科西嘉博物馆和雄壮的城堡，能让你对皮亚纳所代表的这片土地的坚韧性格，有更深层次的历史理解。从山海奇观到历史心脏，这是一场完美的文化延伸。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`皮亚纳的灵魂，不在于某栋建筑或某个地标，而在于那种天地初开般的原始力量感与极致宁静共存的奇妙平衡。它教会我们，最震撼的美，往往诞生于最严酷的考验（风与海的亿万年雕琢）；而最安宁的心境，恰恰可以在最壮阔的风景中找到。这里不是终点，而是一个让你重新学会呼吸、感受色彩、聆听石头与海浪对话的起点。离开时，你带走的将不止是照片，更有一片被那抹“皮亚纳红”与“地中海蓝”浸染过的、缓慢而坚定的时光。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/eguisheim-alsace" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃吉赛姆</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eguisheim</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/briancon-fortified-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布里扬松</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Briançon</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-hautefort" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    欧
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">欧特福尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Hautefort</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
