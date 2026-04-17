@@ -1,0 +1,154 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '意大利克拉科鬼城终极旅游攻略：探秘悬崖上的废弃古城与电影取景地',
+  description: '探索意大利巴斯利卡塔的克拉科（Craco）深度游攻略。这座因滑坡被废弃的中世纪“鬼城”，是《受难记》等大片取景地，为你揭秘其震撼历史与打卡路线。',
+}
+
+export default function CracoGhostTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '克拉科鬼城', href: '/attractions/craco-ghost-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`克拉科鬼城・Craco・意大利・巴斯利卡塔`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果厌倦了人挤人的热门景点，今天这份克拉科鬼城私藏旅游攻略，就带你躲开人潮，去一个连时间都仿佛静止的地方。它悬在意大利南部巴斯利卡塔的荒凉山脊上，像一座从大地生长出来又即将被收回的石头雕塑。这里没有售票亭的长队，没有纪念品商店的喧哗，只有风声穿过空荡窗棂的呜咽，和你的脚步声在石板路上的回响。作为你的专属向导，这份克拉科自由行指南不仅会告诉你如何抵达这片震撼的废墟，更会带你读懂每一堵残墙背后的故事，从它辉煌的中世纪到被地质灾难判了“死刑”的现代。准备好进行一次真正的时光穿越了吗？`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果厌倦了人挤人的热门景点，今天这份克拉科鬼城私藏旅游攻略，就带你躲开人潮，去一个连时间都仿佛静止的地方。它悬在意大利南部巴斯利卡塔的荒凉山脊上，像一座从大地生长出来又即将被收回的石头雕塑。这里没有售票亭的长队，没有纪念品商店的喧哗，只有风声穿过空荡窗棂的呜咽，和你的脚步声在石板路上的回响。作为你的专属向导，这份克拉科自由行指南不仅会告诉你如何抵达这片震撼的废墟，更会带你读懂每一堵残墙背后的故事，从它辉煌的中世纪到被地质灾难判了“死刑”的现代。准备好进行一次真正的时光穿越了吗？`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`克拉科鬼城`} />
+                <InfoRow label="英文名称" value={`Craco`} />
+                <InfoRow label="正式名称" value={`Craco`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`巴斯利卡塔`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`克拉科可不是一夜之间变成“鬼城”的。它的历史可以追溯到公元8世纪，甚至更早。在漫长的中世纪，它凭借易守难攻的悬崖地势，成为当地重要的农业和军事中心，一度繁荣。然而，它的命运与脚下脆弱的地质紧密相连。从上世纪50年代末开始，持续的地质滑坡像一只无形的手，开始缓慢而坚定地撕裂这座小镇的地基。房屋出现裂缝，道路扭曲。政府在1963年首次组织了部分居民的撤离，但这只是开始。1972年的洪水加剧了灾难，而1980年那场波及整个地区的伊尔皮尼亚大地震，则成了压垮骆驼的最后一根稻草。最终，在1991年，最后一批居民被迫永远离开了家园。从此，克拉科从一座活生生的城镇，变成了一个地质灾难的纪念碑，一个研究“社会消亡”的活案例。它的废弃不是战争或瘟疫的结果，而是人类聚落与自然力量漫长角力后，一个沉重而注定的句点。`} />
+                <InfoRow label="建筑特色" value={`走近克拉科，第一眼就会被它那近乎悲壮的色彩所震撼。那不是托斯卡纳明快的赭石黄，而是大地最原始的土黄、灰褐与岩石的苍白色。整个小镇的建筑材料几乎全部取自本地——粗糙的石灰岩。这些石头房子层层叠叠，沿着山脊的轮廓攀爬、簇拥，屋顶大多已经坍塌，只留下锯齿状的墙体轮廓，剪影般地刻在天空下。曾经的圣彼得教堂的钟楼依然顽强矗立，成为整个废墟最显著的地标，但其表面也已斑驳不堪。窗户和门洞都成了空洞的眼睛，里面是深不见底的黑暗。许多建筑的墙面被茂盛的野生藤蔓和灌木侵占，绿色与灰白色形成了生与死的奇异对话。阳光在不同时刻照射其上，会产生戏剧性的效果：正午时，废墟的每一道裂缝都清晰可见，显得残酷而真实；而在黄昏的“魔幻时刻”，金色的光线会给这些残垣断壁镀上一种短暂而温柔的光辉，仿佛在安慰一个古老的灵魂。`} />
+                <InfoRow label="建筑风格" value={`克拉科的建筑风格是典型的南意大利中世纪乡村风格，朴素、坚固、实用，几乎没有后期文艺复兴或巴洛克风格的华丽装饰。这里的“朴素”体现在哪里呢？首先，房屋结构多为简单的方形或矩形，为了适应陡峭的地形，常常通过拱门、台阶和狭窄的巷道（当地人称为“vicoletti”）来连接不同高差的建筑，形成迷宫般的立体空间网络。教堂是少数带有一些罗马式风格元素的建筑，比如简单的拱券和厚重的墙体，但其装饰也极其有限。这种风格的核心是“功能性”和“防御性”。厚实的石墙是为了抵御恶劣天气和可能的攻击；窄小的窗户是为了保温并减少外墙的薄弱点；建筑紧密相连，共享墙壁，既节约材料，又能形成整体性的防御结构。走在其中，你能感受到的不是艺术的张扬，而是先民们为了在此严酷环境中生存下去所凝聚的、沉甸甸的智慧与韧性。`} />
+                <InfoRow label="文化价值" value={`今天的克拉科，早已超越了“废弃小镇”的物理定义。对于当地人，尤其是被迫迁离的原住民及其后代，它是一个复杂的乡愁符号，是回不去的“根”，提醒着人与自然关系的脆弱性。对于现代社会，它则是一个强大的文化符号。其独一无二的、末日般的景观，吸引了无数电影导演的目光，从梅尔·吉布森的《耶稣受难记》到詹姆斯·邦德的《量子危机》，它扮演过耶路撒冷，也扮演过陌生的危机小镇。这种“出镜”让克拉科在全球流行文化中获得了永生。此外，它也成为地质学家、社会学家和城市研究者的露天实验室，一个关于“遗产”、“灾难”和“记忆”的鲜活教材。更重要的是，对于每一位来访者，克拉科提供了一种罕见的情感体验——一种直面时间流逝、文明兴衰的哲思场域。它不提供舒适的享受，却提供强烈的震撼与反思，这种价值，在过度商业化的旅游世界里显得格外珍贵。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 克拉科鬼城一日游打卡路线与摄影全攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行核心路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的向导，这份克拉科自由行指南为你规划一条沉浸式的一日游路线。上午（9:00-12:00）：建议从山脚下的新克拉科镇（Craco Peschiera）出发，这里是居民搬迁后的新家园，可以远眺山顶鬼城的全景，拍下第一张“定妆照”。随后驾车或跟随导览前往鬼城外围的官方观景台（Belvedere），这里是安全参观的核心区域。沿着划定的小径，你可以从多个角度仰望那座悬崖上的城堡和钟楼，感受其迫人的气势。中午（12:00-14:00）：返回新镇或附近村庄（如皮斯蒂奇Pisticci）用午餐，品尝巴斯利卡塔特色的“佩科里诺”羊奶酪、手工意大利面和“拉古”肉酱。下午（14:00-日落前）：这是探索的黄金时间。在专业导游的带领下（强烈建议参加导览团，这是安全进入特定区域的唯一方式），你可以沿着指定的安全路径，走进鬼城的“边缘地带”。触摸那些冰凉的残墙，透过空荡的窗口俯瞰下方广阔的沟壑与农田，聆听导游讲述每个角落曾经的生活故事。别忘了在黄昏前一小时找好机位，等待光线变得柔和，拍摄废墟最具戏剧感的照片。夜晚：鬼城内部不开放夜间游览，但你可以选择住在周边的农庄民宿，在寂静的星空下，再次遥望那座在黑暗中只剩下轮廓的山顶阴影，结束这震撼的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  孤独的钟楼：圣彼得教堂的钟楼是克拉科的灵魂。近距离观察，你会发现钟面的指针永远停在了某个时刻，而钟楼本身已微微倾斜，仿佛一个倔强的老兵，即使身体已经不稳，仍坚持站完最后一班岗。石砌的缝隙里长出顽强的野草，当山风吹过，仿佛能听到它无声的叹息。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  “凝视”的窗洞：选择一栋结构尚存的石屋，站在它的窗洞前向内看。里面不是房间，而是直接穿透到建筑另一侧或天空的另一个空洞。阳光从这些错落的“洞口”射入，在布满灰尘和碎石的地面上投下明晃晃的、几何形的光斑。这个瞬间，你会感觉自己正站在一个巨大而复杂的立体画框之中，光与影是这里唯一的装饰者。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  扭曲的街道与拱门：留心脚下和头顶。许多小巷的石板路因地基移动而隆起、断裂，形成波浪般的诡异形状。连接两栋建筑的拱门，有的已经变形，石材接缝处裂开大口子，全靠一种危险的平衡维持着没有坍塌。穿过这样的拱门时，那种混合着历史重量与地质暴力的触感，会让人屏住呼吸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  生活的遗迹：如果视线够敏锐，你可能会在某个墙角发现残存的壁炉烟囱，或是门框上依稀可辨的固定门轴的凹槽。这些最细微的痕迹，比宏大的废墟更动人。它们瞬间将这里从一个抽象的地理景观，拉回一个具体的、有过炊烟、有过孩童奔跑、有过门扉开合声的“家”。这种细节带来的联想，是克拉科之旅最刺痛人心的地方。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 克拉科旅游必读避坑指南：安全、交通与最佳时间`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  安全是第一要务，切勿私自闯入：这是最重要的避坑指南！克拉科大部分区域因结构极度危险而严禁无人陪伴进入。滑坡仍在缓慢继续，墙体随时有坍塌风险。绝对不要试图越过围栏或跟随非官方路径“探险”。唯一安全的方式是通过官方合作的旅行社预约由专业导游带领的导览团（通常在新克拉科镇的旅游信息处可预约）。这不仅保障安全，也能听到最精彩的故事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  时间与天气的选择：最佳游览时间是春季（4-6月）和秋季（9-10月），气候温和，草木茂盛与废墟的对比感强。夏季（7-8月）极其炎热暴晒，废墟中毫无遮阴，容易中暑；冬季则多风寒冷。尽量选择晴朗天气前往，雨天路滑且山体更不稳定。一日之中，下午至黄昏的光线最适合摄影，能拍出废墟的质感与沧桑感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  交通与行前准备：克拉科位于相对偏远的乡村，公共交通极不便利。最现实的方式是自驾（导航至“Craco Peschiera”或观景台“Belvedere di Craco”）。穿着上，务必选择防滑耐磨的户外鞋或登山鞋，路径多为土石路。戴好帽子、涂抹高倍数防晒霜，并携带充足的饮用水，景区内没有任何补给点。此外，这一带手机信号可能不稳定，建议提前下载好离线地图。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 克拉科周边特色住宿与地道美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`鉴于鬼城本身无法居住，你的基地可以选择在山脚下的新克拉科镇（Craco Peschiera） 或附近更大的城镇如皮斯蒂奇（Pisticci） 或马泰拉（Matera，约40分钟车程）。强烈推荐体验当地的农庄民宿（Agriturismo），它们通常由古老的农场改造，拥有开阔的田园视野，能让你彻底沉浸在南意的乡村氛围中。主人往往会提供用自家食材烹制的晚餐，如新鲜的手工“奥雷基埃蒂”猫耳朵意面，搭配本地产的Primitivo或Aglianico红葡萄酒。在马泰拉，你甚至可以住在世界文化遗产的“萨西”石窟民居里，这是另一种永生难忘的体验。餐饮方面，一定要试试巴斯利卡塔的硬质小麦面包、烤辣椒和用辣椒制作的“魔鬼酱”（Salsa alla Diavola）。在皮斯蒂奇，找一家家庭经营的小餐馆，点上一份炖野猪肉或羊肉，味道淳朴而扎实。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  马泰拉（Matera）：从克拉科向东北驱车约40分钟，就能抵达这座被誉为“石头城”的世界文化遗产。与克拉科的“死亡”形成鲜明对比，马泰拉的“萨西”石窟区是活着的古迹，里面遍布着酒店、餐厅和教堂。两者对比参观，你会对人类适应自然、改造居住空间的两种极端命运有更深刻的感悟。这绝对是小众景点推荐中的王炸组合。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  皮斯蒂奇（Pisticci）：这个坐落在两座山丘上的白色小镇本身就很美。它的历史中心同样有迷宫般的阶梯小巷，但充满了生活气息。在这里，你可以看到从克拉科搬迁而来的部分居民后代是如何在新家园继续生活的。镇上的观景台也能眺望到远处山脊上的克拉科鬼城，完成一次时空的遥望。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`克拉科的灵魂，不在于石头本身，而在于石头所承载的“离去”。它是一座关于失去、记忆与时间力量的露天博物馆。站在它的面前，你感受到的不是恐惧，而是一种深沉的平静，仿佛听到了大地缓慢呼吸的声音，并在此刻明白了，最震撼的美，往往与脆弱和永恒消逝的真相并存。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/historic-centre-urbino" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乌
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乌尔比诺历史中心</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Historic Centre of Urbino</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sutri-amphitheatre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    苏
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">苏特里圆形竞技场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sutri Amphitheatre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/camaldoli-monastery" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡马尔多利修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Camaldoli Monastery</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

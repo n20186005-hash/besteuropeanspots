@@ -1,0 +1,154 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '奥尔韦拉深度旅游攻略：安达卢西亚白色山城与城堡教堂完美一日游指南',
+  description: '探索西班牙奥尔韦拉 (Olvera) 的深度游攻略。这座加的斯省白色山城拥有壮观的城堡与教堂，是安达卢西亚的隐秘明珠。包含打卡路线、避坑指南与美食推荐。',
+}
+
+export default function OlveraWhiteHilltopVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '奥尔韦拉', href: '/attractions/olvera-white-hilltop-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`奥尔韦拉・Olvera・西班牙・加的斯`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果让我在安达卢西亚无尽的白色山城（Pueblos Blancos）里选一个最像童话故事封面的，我会毫不犹豫地指向奥尔韦拉。它不像龙达那样名声震天，也不如米哈斯那般游客如织，但它有种直击人心的、近乎神圣的壮美。想象一下：一片由糖霜般洁白房屋堆叠而成的山坡，而就在这纯白浪潮的顶端，一座威严的摩尔人城堡与一座新古典主义教堂并肩而立，像一枚双生皇冠，加冕着整个山谷。今天这份奥尔韦拉私藏旅游攻略，就带你躲开人潮，深入这座“白色走廊”上的至美村庄。我会是你的专属向导，这份自由行指南请收好，我们一起去发现它岩石般坚毅的历史和阳光下温柔的日常。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果让我在安达卢西亚无尽的白色山城（Pueblos Blancos）里选一个最像童话故事封面的，我会毫不犹豫地指向奥尔韦拉。它不像龙达那样名声震天，也不如米哈斯那般游客如织，但它有种直击人心的、近乎神圣的壮美。想象一下：一片由糖霜般洁白房屋堆叠而成的山坡，而就在这纯白浪潮的顶端，一座威严的摩尔人城堡与一座新古典主义教堂并肩而立，像一枚双生皇冠，加冕着整个山谷。今天这份奥尔韦拉私藏旅游攻略，就带你躲开人潮，深入这座“白色走廊”上的至美村庄。我会是你的专属向导，这份自由行指南请收好，我们一起去发现它岩石般坚毅的历史和阳光下温柔的日常。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`奥尔韦拉`} />
+                <InfoRow label="英文名称" value={`Olvera`} />
+                <InfoRow label="正式名称" value={`Olvera`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`加的斯`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`奥尔韦拉的历史，就是一部安达卢西亚的微缩史诗。它的名字源于阿拉伯语“Wubira”，意为“高地”，这精准地定义了它的战略意义。在摩尔人统治的漫长岁月里（约9世纪至13世纪），山顶的城堡是至关重要的军事前哨，控制着格拉纳达王国与基督教王国塞维利亚之间的边界和商路。1240年，它被卡斯蒂利亚国王费尔南多三世“光复”，从此城堡上飘扬起了基督教的旗帜。但奥尔韦拉的独特之处在于，摩尔人离去后，穆斯林工匠（穆德哈尔人）和建筑技术被保留了下来，与后来的基督教文化深深交融。18世纪末，那座令人过目不忘的“纯贞圣母教堂”（Iglesia de Nuestra Señora de la Encarnación）在原清真寺旧址上拔地而起，其新古典主义的宏伟与城堡的军事厚重并肩，仿佛在用建筑的语言宣告：这里既是信仰的圣所，也是权力的象征。它见证了文明的冲突、融合与再生，是安达卢西亚多元身份一个沉默而有力的见证者。`} />
+                <InfoRow label="建筑特色" value={`走近奥尔韦拉，最震撼的莫过于从山脚仰望时，城堡与教堂构成的绝美天际线。城堡（Castillo de Olvera）是典型的摩尔式军事建筑，就地取材的深褐色岩石垒砌出坚实而粗粝的墙体，历经近千年风霜，颜色已与山体融为一体。它没有繁复的装饰，只有简洁的几何线条和雄壮的方形主塔（Torre del Homenaje），像一位沉默的巨人，俯瞰着脚下的橄榄园海洋。相比之下，纯贞圣母教堂则显得精致而崇高。它的外立面是纯净的米白色，中央巨大的巴洛克风格门户上方，装饰着精美的石雕和纹章。最引人注目的是两座对称的钟楼，它们并非高耸入云，却以完美的比例和优雅的线条，为整个山城画上了最庄严的句点。阳光在不同时刻涂抹其上，清晨是柔和的金粉，正午是耀眼的白炽，黄昏则化作一片温暖的蜜糖色。这两种材质（粗粝岩石与光滑石料）、两种色彩（深褐与纯白）、两种气质（防御与信仰）的并置，是奥尔韦拉建筑交响曲中最动人的和弦。`} />
+                <InfoRow label="建筑风格" value={`奥尔韦拉的核心建筑呈现了两种风格的对话：摩尔军事风格与新古典主义。城堡是前者最纯粹的体现。其设计完全服务于防御：厚重的墙体、狭窄的窗户、居高临下的位置和难以攻破的主塔。走在城堡内部，你能感受到一种朴素的力量感，空间划分明确，通道陡峭，一切都是为了实用。而纯贞圣母教堂则是新古典主义在18世纪西班牙小镇的华丽亮相。这种风格追求古希腊罗马的理性、对称与庄严。你看教堂那严格对称的双塔、三角形山花墙面、规整的立柱与半圆拱门，都透露出一种启蒙时代的秩序感。然而，安达卢西亚的灵魂无处不在——教堂内部仍能看到一些穆德哈尔风格的遗韵，那是摩尔工匠为基督教建筑留下的独特印记，比如某些木工细节或装饰图案。所以，奥尔韦拉的建筑并非单一风格，而是层叠的历史书页：摩尔地基上，建起了基督教的精神殿堂，而新古典主义的理性外衣下，又藏着些许东方艺术的柔情。`} />
+                <InfoRow label="文化价值" value={`对今天的奥尔韦拉人而言，山顶的城堡与教堂远不止是旅游明信片。它们是小镇的身份图腾和精神中心。每年重要的宗教节日，如圣周（Semana Santa），游行队伍会从教堂出发，蜿蜒穿过狭窄的白色街巷，庄严的圣像与虔诚的歌声，让历史瞬间鲜活。城堡也不再是军事堡垒，而是社区的文化心脏，夏季常举办音乐会、戏剧表演和艺术展览，古老的石墙回荡着弗拉门戈的节奏。更重要的是，这片土地的经济命脉——无边无际的橄榄园——其视觉上的守护神正是这两座建筑。它们屹立在山巅，见证着一代代农人耕耘、收获，将橄榄油销往世界。这种将历史遗产与当代生活、宗教信仰与世俗节庆、自然景观与人文地标完美融合的能力，正是奥尔韦拉最宝贵的文化价值。它告诉每一个来访者：历史不是标本，而是依然在呼吸的、小镇日常的一部分。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 奥尔韦拉完美一日游打卡路线攻略：从白色街巷漫步到城堡之巅`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行步行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的向导，我设计的这条一日游路线主打轻松与深度结合，完美串联精华。上午（9:00-12:30）：把车停在镇外免费的公共停车场（如 Avenida de la Libertad 沿线），从主入口“卡尔瓦里奥斜坡”（Cuesta del Calvario）开始你的探索。别怕爬坡，这是融入小镇的最佳方式。沿着蜿蜒的白色小巷向上，两旁的房屋门窗漆着安达卢西亚标志性的天蓝或墨绿，阳台上鲜花怒放。目标是先抵达纯贞圣母教堂，上午的光线正好洒在它雄伟的立面上。入内参观，感受那份静谧。中午（12:30-14:30）：从教堂广场旁的小径继续上行，五分钟就来到城堡脚下。花一个小时探索城堡塔楼和城墙，这里是俯瞰整个白色村庄和橄榄园山谷的绝佳位置。午餐下山，在教堂附近的卡里略街（Calle Carrillo）找一家家庭餐馆，尝尝本地特色。下午（15:30-18:00）：悠闲地探索迷宫般的后街，寻找那些意外的观景角落。别忘了去市政厅广场（Plaza de la Iglesia）旁边的观景台（Mirador），换个角度欣赏双冠景观。如果时间充裕，可以驱车几分钟前往附近的“绿色通道”（Vía Verde de la Sierra），这是一条废弃铁路改建的徒步/骑行道，风景绝佳。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  教堂内部的光之舞：走进纯贞圣母教堂，请务必抬头看中央穹顶。阳光透过高高的侧窗射入，在精致的灰泥装饰和彩绘图案上移动，形成一束束神圣的“光柱”。尘埃在光中飞舞，时间仿佛慢了下来。主祭坛是华丽的巴洛克风格，金色的雕饰在幽暗中闪烁，与从正门上方圆形窗投入的纯净光线形成冷暖对比，充满了戏剧性的宗教美感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  城堡墙垛的“橄榄园之海”：登上城堡主塔的墙垛，向西和北面望去，你会被眼前的景象震撼到屏息。那是一片无边无际、波浪般起伏的橄榄园海洋，成千上万棵橄榄树整齐排列，直到天地交界处。阳光好的时候，墨绿的树冠泛着银白的光，风过时，仿佛整个大地都在温柔呼吸。这个视角能让你瞬间明白，为何这片土地被誉为“液体黄金”（顶级橄榄油）的产地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  巷弄间的蓝色门与花盆：在探索白色小巷时，请留意那些门。许多人家会将自己的木门漆成各种深浅的蓝色（azul añil），这是一种传统，据说能驱邪避害。门环常常是黄铜制成，造型古朴。与之呼应的是墙上挂着的陶土花盆，里面爆发出艳红的天空葵或洁白的茉莉。一扇蓝门，一盆红花，一面白墙，构成了安达卢西亚最经典、最上镜的瞬间，充满了生活的诗意。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  “吻巷”的狭窄与亲密：寻找一条叫 “Callejón del Beso” （吻巷）的小巷。它窄到几乎只容一人通过，如果两人相遇，必须侧身贴近。传说恋人们在此擦肩而过时交换的一个吻，能带来永恒的爱情。走在这里，手指可以同时触摸两侧冰凉的白墙，抬头只见一线蓝天，这种极致的狭窄感，让你瞬间与外界喧嚣隔绝，体会到中世纪山城空间利用的智慧与邻里间的亲密距离。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 奥尔韦拉自由行避坑指南与关键行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  最佳时间与交通陷阱：避开7-8月酷暑（午后气温常超40℃）和圣周等重大节日（住宿难求且价高）。春秋季（3-5月，9-10月） 是最佳游览期，气候宜人，橄榄园一片翠绿或金黄。小镇内部全靠步行，自驾是最佳方式，但务必使用“Olvera parking”搜索，将车停在镇外指定免费区，切勿试图开车进入迷宫般的中心巷弄，那是徒步区且极易刮蹭。小镇公共交通不便，从塞维利亚或龙达前来最好自驾或参加小型旅行团。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  穿着与步行建议：务必！务必！穿一双绝对舒适防滑的平底鞋。奥尔韦拉的街道几乎全是鹅卵石铺就的陡坡和台阶，高跟鞋和硬底鞋是灾难。安达卢西亚阳光猛烈，帽子、太阳镜、防晒霜是标配。即使夏天，也带件薄外套，因为城堡山顶和室内教堂可能风大或阴凉。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  避开人流与防盗：奥尔韦拉相对小众，但周末和中午前后，主街和教堂广场还是会有些游客。想拍无人的小巷和城堡，请把握清晨（9点前）或傍晚（日落前2小时）。小镇治安良好，但基本防范意识要有，在拥挤的观景台或餐馆，看好随身小包。购买门票（城堡和教堂可能收取小额门票）建议准备些现金零钱。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 奥尔韦拉住宿与美食攻略：住在白色山城与品味安达卢西亚风味`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果想沉浸式体验山城的宁静晨昏，非常推荐在奥尔韦拉住一晚。镇上有很多由古老白色房屋改造的乡村酒店（Hotel Rural）或特色民宿，它们通常拥有石头墙壁、木梁天花板和精致的内部庭院，价格亲民。推荐选择能看到城堡或教堂景观的房间，夜晚灯光点亮双冠，格外梦幻。餐饮方面，一定要品尝本地特产。推荐去 Restaurante La Cárcola 或 Mesón el Torreón 这类家庭式餐馆。必点菜包括：“Huevos a la Flamenca” （弗拉门戈式烤蛋，内有火腿、香肠、蔬菜），“Rabos de Toro” （炖牛尾，酥烂入味），以及各种用本地顶级初榨橄榄油调制的沙拉。当然，还要配上一杯赫雷斯（Jerez）产的雪莉酒（Fino或Amontillado）。简单的快乐也可以是：在广场咖啡馆点一杯咖啡，加一个“tostada con aceite y tomate” （烤面包抹番茄和橄榄油），看着当地老人悠闲聊天。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  绿色通道观景台（Mirador de la Vía Verde）：从奥尔韦拉镇中心开车约5分钟即可到达这条著名绿道的一个经典观景台。这里提供了一个完全反向的、史诗级的视角：你可以从这里回望奥尔韦拉全景——白色村落如瀑布般从双冠之下倾泻而下，背景是辽阔天空。这个视角是拍摄奥尔韦拉标准明信片角度的地方，绝对不容错过。绿道本身也适合散步或骑行一段。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  塞特尼尔（Setenil de las Bodegas）：驾车约25分钟，你可以到达另一个令人惊叹的白色小镇塞特尼尔。它的独特之处在于，许多房屋是直接建造在巨大的岩石悬垂之下，街道变成了“岩洞”。在特雷霍河（Río Trejo）峡谷中形成的“Calle Cuevas del Sol”（太阳洞街）和“Calle Cuevas de la Sombra”（阴影洞街）堪称奇观。与奥尔韦拉的山巅威严形成鲜明对比，塞特尼尔展现的是人与自然岩石共生的另一种智慧，组合游览能让你对安达卢西亚白色山城的多样性有更深刻的理解。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`奥尔韦拉的灵魂，是岩石的坚韧与白色的温柔的合奏。它用城堡讲述征服与守卫的过往，用教堂诉说信仰与希望的永恒，而那漫山遍野的白色房屋和橄榄树，则日日吟唱着平凡生活的坚韧与美好。在这里，历史从未远去，它只是化作了你脚下石阶的纹理、眼前门窗的色彩和空气中橄榄油的清香。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/guadix-cave-houses" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瓜
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓜迪斯洞穴之家</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Guadix Cave Houses</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/zamora-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨莫拉大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zamora Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/girona-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    赫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">赫罗纳古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Girona</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

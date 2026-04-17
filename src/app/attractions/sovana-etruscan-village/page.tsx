@@ -1,0 +1,153 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '索瓦纳深度旅游攻略：探秘伊特鲁里亚失落的石头王国与古墓迷宫',
+  description: '探索意大利托斯卡纳的索瓦纳(Sovana)，一个隐没在凝灰岩峡谷中的千年石头村落。这份深度游攻略将带你揭开伊特鲁里亚文明的神秘面纱，规划完美一日游路线与避坑指南。',
+}
+
+export default function SovanaEtruscanVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '索瓦纳', href: '/attractions/sovana-etruscan-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`索瓦纳・Sovana・意大利・托斯卡纳`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你厌倦了佛罗伦萨和锡耶纳的人潮，想找一处真正能让时间慢下来、甚至倒流的地方，那今天这份索瓦纳私藏旅游攻略，就是为你准备的。想象一下：你驾车在托斯卡纳起伏的丘陵间穿行，突然，道路收窄，两侧出现深不见底的凝灰岩峡谷，仿佛大地张开了古老的嘴巴。就在这峡谷的怀抱里，索瓦纳——这个仅有百来位居民、用蜜色石头垒成的微型村庄，安然静卧。它可不是普通的漂亮小镇，而是一把通往公元前伊特鲁里亚文明的“活钥匙”。作为你的专属向导，这份索瓦纳自由行指南将不仅告诉你如何抵达，更会带你像侦探一样，解读石头上刻写的古老密码，躲开旅行团，独享那份穿越千年的寂静与震撼。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你厌倦了佛罗伦萨和锡耶纳的人潮，想找一处真正能让时间慢下来、甚至倒流的地方，那今天这份索瓦纳私藏旅游攻略，就是为你准备的。想象一下：你驾车在托斯卡纳起伏的丘陵间穿行，突然，道路收窄，两侧出现深不见底的凝灰岩峡谷，仿佛大地张开了古老的嘴巴。就在这峡谷的怀抱里，索瓦纳——这个仅有百来位居民、用蜜色石头垒成的微型村庄，安然静卧。它可不是普通的漂亮小镇，而是一把通往公元前伊特鲁里亚文明的“活钥匙”。作为你的专属向导，这份索瓦纳自由行指南将不仅告诉你如何抵达，更会带你像侦探一样，解读石头上刻写的古老密码，躲开旅行团，独享那份穿越千年的寂静与震撼。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`索瓦纳`} />
+                <InfoRow label="英文名称" value={`Sovana`} />
+                <InfoRow label="正式名称" value={`Sovana`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`托斯卡纳`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`说起索瓦纳的历史地位，那可比“古老”二字厚重得多。在罗马人称霸亚平宁半岛之前，这片土地的主人是一个神秘而先进的民族——伊特鲁里亚人。而索瓦纳，正是这个文明的重要中心之一，其历史可以追溯到公元前7世纪。伊特鲁里亚人没有留下浩繁的史书，他们的故事就刻在岩石和墓穴里。索瓦纳曾是繁荣的城邦，甚至在罗马共和国早期，这里还诞生了一位罗马国王——塔尔奎尼乌斯·普里斯库斯。中世纪时，它作为重要的主教区和伯爵领地再度繁荣。可以说，索瓦纳就像一枚跨越了2500年的琥珀，凝固了伊特鲁里亚文明的辉煌、罗马的融合、中世纪的信仰以及文艺复兴的微光。行走在这里，你不是在参观“历史遗迹”，而是直接步入了历史本身，脚下每一块被磨光的石板，都可能被伊特鲁里亚祭司、罗马士兵、中世纪朝圣者踩踏过。`} />
+                <InfoRow label="建筑特色" value={`索瓦纳的建筑特色，用一个词概括就是“从土地里长出来的”。整个村庄的房屋、围墙、教堂，全部采用当地开采的凝灰岩。这种岩石质地相对柔软，易于雕刻，呈现出从温暖的蜜糖色、到淡淡的玫瑰粉，再到沉稳的灰褐色的丰富层次。阳光是这里最好的画家：清晨，建筑披上柔和的金纱；正午，岩石的本色在强烈光照下显得坚实敦厚；傍晚，整个村庄则被染成醉人的琥珀色。房子没有浮华的装饰，线条简洁有力，窗户窄小，屋顶是典型的托斯卡纳老瓦。最迷人的是那些依地形而建的房屋，仿佛是从悬崖上自然生长出来的瘤结，与下方深邃的峡谷融为一体。石头的缝隙里探出顽强的蕨类和地衣，空气里总是弥漫着一种石头被太阳晒过后散发的、略带土腥气的干燥味道，混合着远处飘来的迷迭香香气。`} />
+                <InfoRow label="建筑风格" value={`索瓦纳的建筑风格是层叠的“历史三明治”，以中世纪罗马风为基底，混杂着更早的朴素伊特鲁里亚痕迹和后期文艺复兴的细微点缀。罗马风在这里体现得淋漓尽致：看看村庄核心的圣彼得和圣保罗教堂（Chiesa di San Pietro e Paolo），厚重的石墙、半圆形的拱门、小而深的窗户，无不彰显着中世纪早期建筑的防御性与庄严感。这种风格通俗讲，就是“结实、朴素、充满力量”，像沉默的巨人。而漫步在仅容两人侧身通过的“伊特鲁里亚之路”（Via Cava）等古老街道时，你会发现两侧岩壁被人工凿出的垂直断面——这正是伊特鲁里亚人工程的痕迹，这种“减法建筑”风格，体现了他们崇拜自然、将工程融入地貌的哲学。文艺复兴的微风则轻轻拂过主教宫（Palazzo Pretorio）立面上的纹章和广场上那口优雅的石头井圈，为粗粝的中世纪画面点上了一抹精致的笔触。`} />
+                <InfoRow label="文化价值" value={`对于现代社会而言，索瓦纳的文化价值是一剂强大的“减速药”和“根源启示录”。在这个飞速运转的时代，这个微缩的石头世界顽强地守护着一种近乎失传的生活节奏和文化记忆。当地居民不过百余人，许多人是世世代代居住于此，他们本身就是活着的文化载体。索瓦纳的文化价值不在于宏大的博物馆藏品，而在于其整体的、活态的保存状态：石匠依然用传统方法维护老屋，小餐馆里供应用千年古法烤制的面包和本地葡萄酒。更重要的是，它作为伊特鲁里亚文明的核心遗址，持续吸引着考古学家、历史学家和神秘文化爱好者。它迫使人们思考：在罗马与希腊文明的光环之外，欧洲还有怎样深厚而独特的文明源头？它对当地人的影响是深入骨髓的——一种与祖先土地深沉联结的自豪感，以及面对浩瀚历史时的谦卑宁静。对我们访客而言，它提供了一个难得的机会，去体验一种非消费主义的、纯粹基于历史和自然震撼的旅行。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 索瓦纳一日游完美路线打卡攻略：从石头村落到地下墓穴`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行徒步游览路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，我的专属路线现在开始！我强烈建议你一大早就出发，赶在晨雾尚未完全散尽时抵达。这样你能看到阳光如利剑般劈开峡谷水汽的魔幻景象。我们把车停在村口免费的小停车场（这是第一个贴士！）。上午（9:00-12:30）：从中世纪拱门进入，直接前往主教宫广场，这里是村庄跳动的心脏。摸摸那口15世纪的老井，感受石头的沁凉。然后拜访低调但内部藏着珍宝的圣玛利亚教堂，别忘了抬头看那些古老的梁柱。接着，沿着主街Via di Mezzo慢慢逛，两旁的石头房子仿佛在低语。中午（12:30-14:00）：就在广场边的家庭餐馆享用漫长的托斯卡纳午餐，尝尝野猪肉酱意面。下午（14:00-17:30）：重头戏来了！从村庄西侧出发，沿着标识清晰的步道，步行约15分钟，前往索瓦纳伊特鲁里亚古墓群。你会依次探访宏伟的“希尔维斯特罗墓”、装饰着神话浮雕的“女妖墓”，最后抵达宛如地下宫殿的“堤丰墓”。阳光斜射进墓室的那一刻，光影游戏无与伦比。回程可以选择走一段古老的伊特鲁里亚之路，在深邃的峡谷切口中感受穿越时空的凉意。傍晚：回到村庄，在落日余晖中买一支手工冰淇淋，坐在城墙边，看着峡谷逐渐被暮色吞没。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  圣玛利亚教堂的“时间胶囊”柱子：走进这座看似朴素的小教堂，请务必仔细观察中殿那些粗壮的柱子。它们并非规整的圆柱，而是形态各异，有些表面还残留着粗糙的凿痕。考古学家认为，这些柱子很可能直接使用了伊特鲁里亚或古罗马建筑的部件“回收利用”而成。指尖拂过那些两千多年前的石纹，你能感受到不同时代工匠的手温在这里重叠。当阳光从高侧窗射入，恰好照亮柱头上隐约的雕刻痕迹时，那种“古今一线”的恍惚感尤为强烈。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  “伊特鲁里亚之路”峡谷底部的青苔与光影：当你走下被千年脚步磨得光滑如镜的石阶，进入这些由人工在凝灰岩中开凿出的狭窄通道时，请停下脚步，静心感受。两侧岩壁高达十余米，抬头只见“一线天”。峡谷底部终年阴凉，石壁上覆盖着天鹅绒般的翠绿青苔，摸上去冰凉湿润。正午时分，阳光几乎垂直射入谷底，在岩壁上切割出明暗对比极其强烈的几何图形，伴随着绝对的寂静（只能听到自己的呼吸和偶尔的鸟鸣），会产生一种强烈的仪式感与穿越感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  “堤丰墓”门楣上的海怪雕刻：这座最大的岩墓正面，雕刻着混乱而有力的神话场景。重点看门楣中央那个多头多足、面目狰狞的怪物——它就是堤丰。虽然历经风雨侵蚀，但其张牙舞爪的动态感和原始的威慑力依然扑面而来。仔细观察，你能在它扭曲的身体周围，找到那些微小而惊恐的神祇形象。站在它面前，你仿佛能听到伊特鲁里亚石匠的凿子声，和他们试图通过雕刻来驯服死亡、恐惧的原始渴望。下午西斜的阳光会让浮雕的阴影拉长，让整个画面“活”过来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  广场老井圈上的磨损凹槽：在主教宫广场，花一分钟触摸那口石井的井圈。你会发现，坚硬的凝灰岩井圈内侧，被绳索磨出了一道道深深的光滑凹槽。这些凹槽是几个世纪以来，无数居民日复一日在此打水生活的无声见证。将手放进去，尺寸刚好契合，你能想象中世纪的主妇、文艺复兴时的修士、十九世纪的农夫，都曾以同样的姿势拉动绳索。这个细节没有纪念碑的宏大，却充满了人性的温度，是索瓦纳作为“活着的村庄”而非“博物馆”的最佳证明。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  交通与抵达时机避坑：索瓦纳位于偏僻的乡村，没有公共交通直达，必须自驾。请务必使用离线地图，因为山区信号时有时无。停车场很小且免费，旺季（6-9月）上午10点后基本停满，因此“早到”是黄金法则。最佳游览季节是春季（4-5月）和秋季（9-10月），气候宜人，野花烂漫或秋色浸染，且避开了夏季酷热和拥挤的游客。夏季若来访，务必安排在清晨和傍晚活动，正午峡谷外暴晒。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  穿着与装备避坑：这是一次轻徒步旅行！请一定穿防滑耐磨的徒步鞋或运动鞋。前往古墓群和伊特鲁里亚之路的路面是土路和碎石路，且常有坡度。女士请绝对避免高跟鞋或凉鞋。峡谷和墓穴内比外面凉快很多，即使是夏天也建议带一件薄外套。带上充足的饮用水，村庄只有一个小酒吧，徒步途中无补给点。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  避开人流与探索秘诀：95%的一日游旅行团会集中在上午10点到下午3点出现在主广场和主要墓穴。想拍无人空镜？要么赶早（8-9点逛村子），要么赶晚（下午4点后再去古墓）。一个本地人才知道的秘诀：大多数游客只去看最著名的三座大墓（希尔维斯特罗、女妖、堤丰），其实沿着步道再往里走散落着许多未被标记的小型墓穴和雕刻，虽然破损，但更有探险感。保持安静，你可能会邂逅野猪或鹿。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 索瓦纳周边沉浸式住宿与地道托斯卡纳美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`索瓦纳本身太小，住宿选择极少，但周边的农业旅游民宿（Agriturismo） 是绝佳选择。我强烈推荐选择方圆5公里内、坐落在橄榄园或葡萄园中的民宿。例如，一些由古老农舍改造的石头房子，晚上可以躺在院子里看毫无光污染的璀璨银河，清晨在鸡鸣和教堂钟声中醒来。价格实惠，还能品尝到主人自产的橄榄油、葡萄酒和蔬菜。餐饮方面，村里广场上的Taverna Etrusca是经典之选，氛围质朴。必点菜是“Acqua cotta”，这是一种起源于本地矿工和牧羊人的汤品，用野蘑菇、野菜、橄榄油和隔夜面包做成，味道鲜美醇厚，是真正的“穷人美食”，现在却成了文化招牌。再配上一杯本地的“Morellino di Scansano”红酒，完美。如果想吃点简单的，街角那家小酒吧的三明治用料实在，坐在门口石凳上吃，就是最地道的体验。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`从索瓦纳出发，你有两个绝佳的延伸选择，都能让你的伊特鲁里亚之旅更加完整。第一，是驱车仅10分钟的皮蒂利亚诺（Pitigliano）。这个小镇同样建在凝灰岩悬崖之上，远远望去，整个城镇宛如从岩石中凭空生长出来的海市蜃楼，气势比索瓦纳更为磅礴。它被称为“小耶路撒冷”，拥有丰富的犹太文化遗产，地下还有迷宫般的伊特鲁里亚水道和酒窖可供探索。第二，是同样不远的索拉诺（Sorano），另一个惊人的悬崖石头城，拥有保存完美的中世纪城堡和更密集的“伊特鲁里亚之路”网络。这三个地方——索瓦纳、皮蒂利亚诺、索拉诺——被统称为“图斯卡尼亚的伊特鲁里亚城市”，形成了一条完美的历史文化三角线路。花两天时间串联游览，你会对这片土地的地理、历史和人文有立体而深刻的理解。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`索瓦纳的灵魂，不在于它拥有什么，而在于它拒绝遗忘什么。当世界在追逐崭新与庞大时，它固执地以微小、古老、沉默的姿态，守护着关于人类起源、关于如何与土地共存的原始记忆。离开时，你带走的不是纪念品，而是指尖残留的凝灰岩粉末的触感，是峡谷底部那一缕清冷的、带着苔藓味的空气，和内心被千年时光抚慰过的、深深的宁静。它提醒我们，最强大的力量，往往就蕴藏在最沉静的坚守之中。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/spoleto-umbria" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯波莱托</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spoleto</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ascoli-piceno-historic-center" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿斯科利皮切诺</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ascoli Piceno</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/veiofro-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦纳夫罗古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Veiofro Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

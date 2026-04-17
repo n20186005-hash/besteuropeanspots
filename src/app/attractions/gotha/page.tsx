@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '哥达旅游攻略：弗里登施泰因宫与巴洛克剧院深度游指南',
+  description: '探索德国图林根州的哥达，深度游弗里登施泰因宫与埃克霍夫剧院。这份攻略带你走进王室私藏与世界上最古老的巴洛克木制机械剧场。',
+}
+
+export default function GothaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '哥达', href: '/attractions/gotha' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`哥达・Gotha・德国・图林根州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果让我在图林根州推荐一个被严重低估的王室之城，那一定是哥达。你第一眼就会被那座矗立在城市高处的庞然大物——弗里登施泰因宫所震撼。它不像新天鹅堡那样童话，而是一种浑厚、沉稳、充满力量感的存在。今天这份哥达私藏旅游攻略，就带你躲开人潮，进行一次真正触及历史纹理的深度游。这里不仅是萨克森-哥达-阿尔滕堡公国昔日的权力中心，更是一座活着的“时空胶囊”：宫殿里藏着令人咋舌的艺术珍宝和自然奇观博物馆，而宫内的埃克霍夫剧院，则完整保存着300多年前全世界最精巧的木质舞台机械。跟我来，这份自由行指南会让你知道，如何用一天时间，从宏伟宫殿到隐秘剧院，读懂这座“被遗忘”的都城。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果让我在图林根州推荐一个被严重低估的王室之城，那一定是哥达。你第一眼就会被那座矗立在城市高处的庞然大物——弗里登施泰因宫所震撼。它不像新天鹅堡那样童话，而是一种浑厚、沉稳、充满力量感的存在。今天这份哥达私藏旅游攻略，就带你躲开人潮，进行一次真正触及历史纹理的深度游。这里不仅是萨克森-哥达-阿尔滕堡公国昔日的权力中心，更是一座活着的“时空胶囊”：宫殿里藏着令人咋舌的艺术珍宝和自然奇观博物馆，而宫内的埃克霍夫剧院，则完整保存着300多年前全世界最精巧的木质舞台机械。跟我来，这份自由行指南会让你知道，如何用一天时间，从宏伟宫殿到隐秘剧院，读懂这座“被遗忘”的都城。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`哥达`} />
+                <InfoRow label="英文名称" value={`Gotha`} />
+                <InfoRow label="正式名称" value={`Gotha`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`图林根州`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`哥达的历史地位，紧密缠绕着“萨克森-哥达-阿尔滕堡”这个显赫的公国名号。1640年，随着萨克森-魏玛公爵恩斯特一世将这里定为都城，哥达迎来了它的黄金时代。弗里登施泰因宫正是在那时奠基，它不仅是公爵的居所，更是一个微型王国的行政与文化心脏。更重要的是，哥达的统治者们，尤其是公爵恩斯特二世，是18世纪“启蒙专制”的典范。他们热衷科学与艺术收藏，使得这座宫殿意外地成为了一座早期综合性博物馆的雏形，收藏范围从埃及文物到地球仪，从油画到动物标本，堪称一部“启蒙运动的百科全书”。这种将王权、学术与公共教育早期结合的尝试，让哥达在欧洲宫廷文化史中占据了独特的一席。此外，通过精明的联姻，哥达家族的血脉流入了几乎整个欧洲的王室，包括英国维多利亚女王的丈夫阿尔伯特亲王，因此它也被戏称为“欧洲的祖母之城”。`} />
+                <InfoRow label="建筑特色" value={`弗里登施泰因宫的外观，是一种令人过目不忘的、近乎固执的宏伟。它不是轻盈的，而是像一块从大地生长出来的巨型砂岩，整体呈现一种沉稳的蜜色与灰黄色调，随着日光移动，色彩会产生微妙的变化。建筑体量极其庞大，长达一百多米，立面设计是严谨到极致的早期巴洛克对称美学。你可以仔细观察它的窗户排列，像士兵列队一样整齐划一，窗楣是简洁的三角形或弧形山花装饰，没有任何后期洛可可式的繁琐。最引人注目的是宫殿中央高大的门厅和两侧带有巨大拱顶的亭阁，它们打破了水平线的单调，赋予了建筑庄重的节奏感。屋顶是深沉的砖红色，铺着老旧的瓦片，与砂岩墙体形成温暖的对比。整座宫殿没有过分张扬的雕刻，它的力量感来自于纯粹的比例、巨大的尺度和历经风雨后石材本身的质感，走近触摸，你能感到历史的凉意与厚重。`} />
+                <InfoRow label="建筑风格" value={`弗里登施泰因宫是德国早期巴洛克建筑风格的杰出代表。什么是早期巴洛克？你可以理解为它是文艺复兴的“规矩”向后期巴洛克“动感”过渡的中间态。在这里，它体现为对对称、秩序和宏伟体量的极致追求，但装饰上相对克制。宫殿的平面是标准的“三翼式”结构，围绕庭院布局，强调轴线感和视觉的稳定，这是文艺复兴的遗产；但同时，它开始运用巨大的双柱、突出的中央楼阁来营造更强烈的立体感和威严感，这已是巴洛克的精神。而宫内的埃克霍夫剧院，则将这种风格引向了另一个极致——内部装饰。剧院是典型的巴洛克剧院风格：马蹄形的观众席、层层叠叠的木质包厢，全都装饰着繁复的金色卷草纹、栩栩如生的小天使雕像和深红色的天鹅绒帷幔。当灯光亮起，整个空间就像一个璀璨的音乐珠宝盒，充分体现了巴洛克艺术追求戏剧性、华丽感和感官震撼的核心特点。`} />
+                <InfoRow label="文化价值" value={`对于哥达人乃至整个德国文化界而言，弗里登施泰因宫绝非一座冰冷的博物馆。它是一座持续跳动的心脏。首先，它的博物馆群（艺术博物馆、自然博物馆等）本身就是一部公开展示的“启蒙运动”理想，将知识向公众敞开，这种理念至今影响着当地的教育氛围。其次，埃克霍夫剧院更是一个活着的传奇。它并非仅供参观的遗迹，至今仍会上演歌剧、戏剧和音乐会。想象一下，在现代的某一天，你坐在300多年前的木质包厢里，听着莫扎特的旋律，而脚下承载你的机械结构，和莫扎特时代的人们感受到的一模一样——这是一种无与伦比的文化延续性。此外，宫殿所在的公园是市民散步、跑步、举办夏日活动的场所，它已完全融入当地人的生活肌理。哥达的文化骄傲，就藏在这座既是遗产又是生活场所的宫殿复合体里，它提醒着人们：历史不是标本，而是可以呼吸、可以参与的现实。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 哥达精华一日游路线攻略：从宫殿到剧院的时空漫步`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行步行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份一日游自由行指南请收好！我们的探索从宫殿山脚下开始。上午，精力最充沛时，直奔主题——弗里登施泰因宫。建议你早点到，先在宫殿外围走一圈，感受它磅礴的体量，然后在宫殿正门购票（建议购买包含所有博物馆和剧院的通票）。上午的重点是“艺术博物馆”和“自然博物馆”，前者有老卢卡斯·克拉纳赫等大师的画作，后者有光怪陆离的收藏，像一场启蒙时代的奇珍屋探险。中午，可以在宫殿内的咖啡馆简单用餐，或者下山走到老城集市广场，找一家传统的图林根餐馆，尝尝烤香肠和土豆丸子的地道风味。下午，是本次行程的高光时刻。返回宫殿，参加定时开始的“埃克霍夫剧院导览游”。这是重头戏，务必提前确认时间！在导游带领下，你不仅能进入观众席，更有机会走上舞台，亲眼看到并听讲解那套古老的木制机械装置是如何运作的，震撼十足。之后，如果还有时间，可以漫步巨大的英式风景“公园”，呼吸新鲜空气。傍晚，悠哉地逛逛哥达老城狭窄的街道，看看市政厅和那些色彩柔和的桁架房屋，在夕阳中结束完美的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  剧院舞台下方的“机械心脏”：在埃克霍夫剧院导览中，最激动人心的莫过于被带到舞台下方。这里没有华丽的装饰，只有纵横交错的粗大木梁、齿轮、绳索和沉重的配重块。当导游演示时，你能听到木头摩擦发出的“嘎吱”声，闻到古老的木材和尘土混合的气味。想象一下，就是这套完全靠人力畜力驱动的机械，能让整片森林布景升起，让神灵乘着云车从天而降。触摸那些被磨得光滑的木制操纵杆，仿佛能触碰到三百年前舞台工人的手温。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  画廊里的一束侧光：在宫殿艺术画廊的某个展厅，挑一个下午时分去。阳光会从高大的侧窗斜射进来，恰好照亮某幅荷兰静物画上晶莹的葡萄，或是某位公爵肖像华服上的金线刺绣。那束光是有生命的，灰尘在光柱中起舞，让画面上的油彩仿佛要融化、流淌出来。此刻，你会感到自己不是在看画，而是在与那个时代的阳光共享同一个瞬间。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  自然博物馆的“独角兽”角：在藏品浩瀚的自然博物馆里，有一个低调的展柜，里面放着一根螺旋纹路的、长长的“独角兽”角。这其实是独角鲸的牙齿。但在17、18世纪，它被当作传说中的独角兽角，视为能解毒的圣物，价值连城。凝视它，你看到的不是生物标本，而是那个时代人们对世界充满好奇、误解与浪漫想象的缩影，是“好奇柜”收藏精神的终极体现。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  公园里的“绿色书房”：从宫殿露台俯瞰下方广阔的英式公园，视线会被一片精心修剪的、几何图案的树丛所吸引，那被称为“绿色书房”。它不同于公园其他部分的自然野趣，保留着巴洛克花园的秩序感。站在这里，你正好处于两种审美风格的交界点——一边是宫殿象征的绝对秩序，一边是公园代表的自然理想，而你就站在历史观念转变的十字路口。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`为了你的哥达之旅顺畅无忧，这几个小贴士务必记好：第一，时间就是一切。 埃克霍夫剧院的内部导览游是定时进行的（通常每天只有几场，且可能因演出调整），而且名额有限。这绝对是哥达之旅的灵魂！所以，出发前一定要在官网查好当月的导览时间，并建议提前在线预订，这是最重要的“避坑”步骤。第二，穿上最舒适的鞋。 哥达是一座山城，从老城集市广场走到宫殿入口，是一段持续的上坡路，虽然不长，但颇耗体力。宫殿内部和博物馆面积巨大，你需要长时间站立和行走。一双好鞋是享受之旅的基础。第三，巧避人流。 尽量避开周末和德国的公共假期。如果只能周末去，那么早上开馆时第一批进入是最好的选择。旅游团大多集中在下午，上午的宫殿相对清静，你能更从容地欣赏画作和奇珍。另外，虽然图林根总体治安很好，但在拥挤的旅游巴士站或餐厅，还是请保持基本的财物看管意识。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 哥达住宿与美食攻略：住在历史旁，尝在图林根`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`住宿方面，如果你想获得极致体验，强烈推荐住在宫殿附近或老城区的精品酒店。例如有一家由历史建筑改造的酒店，房间能看到宫殿的夜景，清晨在钟声中醒来，感觉就像穿越成了公爵的客人。如果追求性价比，火车站附近也有不错的现代酒店，乘坐公交上山很方便。餐饮是图林根风味的天下。在老城集市广场，找一家有露天座位的餐馆，必点“图林根烤香肠”，它通常配着地道的酸菜和土豆泥，或者试试“图林根土豆丸子”配炖肉。还有一家藏在老街里的传统咖啡馆，苹果卷和手冲咖啡都不错，墙壁上贴满了老照片，氛围感十足。晚餐后，如果住在老城，可以散步消食，夜色中的桁架房屋和静谧的街道，会让你忘记时间的流逝。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果你在哥达意犹未尽，有两个地方可以轻松延伸探索。一是哥达市政厅，它就坐落在集市广场上，是一座漂亮的文艺复兴建筑，外立面上有精美的天文钟，每到整点会有小人出现，可以近距离感受老城的市政心脏。二是哥达历史博物馆，它位于一座老修道院内，用更贴近本地生活的视角，讲述了哥达从中世纪到近代的市民历史，能帮你补全在宫殿看到的“王室视角”，形成一个更立体的城市认知。这两个地方都步行可达，能让你的哥达印象从“王室的”扩展到“市民的”，更加丰满。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`哥达的灵魂，在于一种“低调的丰盛”。它没有把历史当作炫耀的资本，而是将其沉淀为一种可以漫步其中、可以静静聆听的日常。在这里，你能触摸到启蒙时代公爵们对知识世界的好奇与野心，也能在依然作响的古老舞台机械声中，听到艺术生命的永恒回响。这座城，是一位沉默而富有的历史讲述者。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/corvey-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尔维修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Corvey Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/meissen-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迈森大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meissen Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ehrenbreitstein-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科布伦茨埃伦布赖特施泰因要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ehrenbreitstein Fortress</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
