@@ -1,0 +1,154 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '圣让当热利旅游攻略：朝圣之路上的未完成双塔与时光迷踪指南',
+  description: '探索法国圣让当热利(Saint-Jean-d\'Angély)深度游攻略。揭秘朝圣之路上那座宏伟却未完工的皇家修道院废墟，在小镇宁静时光中体验中世纪的神秘回响。',
+}
+
+export default function SaintJeanDAngelyPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '圣让当热利', href: '/attractions/saint-jean-d-angely' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`圣让当热利・Saint-Jean-d'Angély・法国・滨海夏朗德省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你厌倦了巴黎铁塔前排起的长龙和卢浮宫玻璃金字塔下的喧嚣，今天这份圣让当热利私藏旅游攻略，就带你躲进法国西南部一个被时光按下暂停键的温柔小镇。这里没有旅游大巴的轰鸣，只有潺潺的布托讷河水流过。小镇的心脏，是一座令人震撼的“未完成杰作”——圣让当热利皇家修道院。那两座直指苍穹却从未封顶的塔楼，像一对沉默的巨人，在八百年光阴里诉说着野心、信仰与命运的无常。作为你的专属向导，这份圣让当热利自由行指南将带你穿行于宁静的石板巷弄，抚摸粗糙的石灰岩墙壁，聆听风中传来的、属于圣雅各朝圣之路的古老故事。准备好了吗？我们一起出发，去揭开这座小镇被遗忘的史诗。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你厌倦了巴黎铁塔前排起的长龙和卢浮宫玻璃金字塔下的喧嚣，今天这份圣让当热利私藏旅游攻略，就带你躲进法国西南部一个被时光按下暂停键的温柔小镇。这里没有旅游大巴的轰鸣，只有潺潺的布托讷河水流过。小镇的心脏，是一座令人震撼的“未完成杰作”——圣让当热利皇家修道院。那两座直指苍穹却从未封顶的塔楼，像一对沉默的巨人，在八百年光阴里诉说着野心、信仰与命运的无常。作为你的专属向导，这份圣让当热利自由行指南将带你穿行于宁静的石板巷弄，抚摸粗糙的石灰岩墙壁，聆听风中传来的、属于圣雅各朝圣之路的古老故事。准备好了吗？我们一起出发，去揭开这座小镇被遗忘的史诗。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`圣让当热利`} />
+                <InfoRow label="英文名称" value={`Saint-Jean-d'Angély`} />
+                <InfoRow label="正式名称" value={`Saint-Jean-d'Angély`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`滨海夏朗德省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`圣让当热利的名字，紧密地与一条贯穿欧洲灵魂的道路——圣地亚哥-德孔波斯特拉朝圣之路（法国段）绑定在一起。自9世纪传说中圣约翰（施洗者）的头颅圣髑被带到这里，小镇便一跃成为中世纪基督教世界最重要的朝圣中心之一，其地位足以与图尔、利摩日等大城比肩。原先的本笃会修道院在宗教战争中被毁，17世纪初，波旁王朝的路易十三下令重建一座配得上其神圣地位的宏伟建筑，这便是我们眼前废墟的起源。它被规划为法国规模最宏大的修道院之一，彰显着王权与神权结合的无上荣耀。然而，历史开了一个残酷的玩笑：法国大革命的风暴席卷而来，工程被迫中断，这座雄心勃勃的建筑永远停留在了“进行时”。因此，它的存在本身，就是一部浓缩的欧洲史：从虔诚的中世纪朝圣狂热，到专制王权的宏大叙事，再到革命浪潮对旧世界的彻底冲刷。它未完成的状态，恰如其分地成为了一个时代的句点，和一个永恒的历史问号。`} />
+                <InfoRow label="建筑特色" value={`走近修道院遗址，那种扑面而来的苍凉与壮美，会让你瞬间屏住呼吸。主体建筑采用当地产的金色石灰岩，在夕阳下会流淌出蜂蜜般温润的光泽，而阴雨天则呈现出冷峻的铅灰色调。最夺目的无疑是那两座高达55米的巨型塔楼，它们如同被巨斧劈开的山峰，挺拔地矗立着。仔细看，塔身雕刻精美的科林斯柱式壁柱和拱形假窗已完工，展现了巴洛克式的繁复与动感，但塔顶却突兀地截断，裸露着参差的石料和等待安装构件的榫卯接口，仿佛一首激昂的交响乐在高潮处戛然而止。主立面的设计层次极为丰富，巨大的涡卷形扶壁试图将视线引向中央从未建成的三角楣。穿过没有大门的人口（因为门楣部分也未完成），内部是露天的巨大中殿基坑，如今芳草萋萋。残留的墙体上，拱廊的弧度已经勾勒出来，你可以清晰看到当年工匠为安装肋拱拱顶而预留的“拱墩”，它们像一双双渴望拥抱天空却永远悬空的手。`} />
+                <InfoRow label="建筑风格" value={`这座修道院是法国古典主义建筑风格向巴洛克风格过渡时期的典型代表，同时又深深扎根于本地的罗马式传统。你可以清晰地看到古典主义的秩序与对称：整体布局遵循严谨的轴线，双塔的设计强调平衡与稳定。然而，建筑立面上大量运用的涡卷形装饰、断裂的山花、充满戏剧性的光影凹龛，又透露出巴洛克艺术追求动态与情感表达的倾向。这种风格在这里的体现尤为特殊——因为它“未完成”。例如，那些原本应该承载华丽雕塑的壁龛空荡荡的，反而让观者的想象力得以填充；计划中覆盖整个内部的炫目浮雕和壁画从未出现，只留下石头本身的肌理与岁月的痕迹。这种“减法”，意外地创造了一种比完整巴洛克建筑更直击人心的力量，它剥离了过度装饰，让建筑的结构力量、几何美感与命运悲剧性赤裸地呈现出来，可謂是“凝固的沉默史诗”。`} />
+                <InfoRow label="文化价值" value={`对于圣让当热利的居民而言，这座废墟远非一片破败的石头。它是小镇的身份图腾与精神客厅。它没有被修复成光鲜的博物馆，而是被作为一座“活的废墟”保护下来，融入了市民的日常生活。夏季，修道院的空地上会搭建起舞台，举办古典音乐会，残垣断壁成了最独特的天然音响和背景；秋天，这里又是书展和本地农产品市集的举办地，炊烟与书香在古老的石块间混合。它以一种谦卑而开放的方式，持续为社区提供着文化滋养。在现代社会，它更是一种哲学启示：接受不完美，欣赏“未完成”之美。它向每一个来访者提问：是什么定义了价值？是完成的形态，还是过程中倾注的梦想与努力？它让匆忙的现代人学会停下脚步，在一种“非功利”的宏伟面前，思考时间、历史与人类抱负的局限性。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 圣让当热利一日游打卡路线攻略：从废墟晨曦到河畔晚霞`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`朋友们，跟着我这样走，一天就能饱览圣让当热利的精髓。早晨9点，趁旅游团还没来，我们先直奔皇家修道院废墟。清晨的阳光斜射在双塔东侧，是拍照的黄金时刻。静静绕行一周，感受废墟苏醒的宁静。随后，穿过共和国街，在街角的“老磨坊”咖啡馆喝杯浓缩咖啡，配一个可颂。上午10点半，参观紧邻修道院的圣雅各朝圣者博物馆，了解小镇在朝圣之路上的枢纽故事。中午12点30分，漫步到布托讷河畔，在“河岸餐桌”餐厅找個露天位，品尝用夏朗德河鲜做的鱼汤。下午2点，探索小镇迷宫般的后街，寻找那些半木结构的古老房屋和隐蔽的小广场，比如圣约翰广场。别忘了去看看圣约翰教堂，内部保存着与圣髑传说相关的文物。下午4点，沿着河边步道散步，穿过绿意盎然的老洗衣服，走到小镇边缘的田野，回望修道院双塔在小镇天际线上的剪影。傍晚6点，回到修道院广场，如果运气好碰上夏季的音乐会或灯光秀，那便是此行最难忘的结尾。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  双塔的“未完成之顶”：一定要仰头凝视塔楼顶端。那里没有常规的尖顶或圆盖，而是暴露出层层叠叠、未经打磨的方形石材断面，以及为了衔接上层结构而预留的巨大石榫。雨水在石头上冲刷出深色的痕迹，缝隙里长出了倔强的野草和小灌木。当一群鸽子从那些“开放式”的塔顶俯冲盘旋时，你会感到时间既在这里凝固，又在生机勃勃地流淌。这个细节是整座建筑悲剧英雄气质的浓缩。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  中殿地面的“建筑蓝图”：走进废墟内部，低头看脚下。地面上用不同颜色的石材和金属标记，清晰地勾勒出了原始设计中十字形耳堂、礼拜堂以及柱础的精确位置。这就像一幅摊开在地上的巨型施工图纸。你可以亲自用脚丈量中殿的宽度，想象高达三十米的拱顶若建成将是何等壮观。这种展示方式极具互动感和历史穿透力，让你瞬间化身工地监理，穿越回十七世纪。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  侧廊拱门上的“匠人标记”：在北侧一段残留的矮墙上，仔细寻找拱石侧面。你会发现一些浅浅雕刻的符号：可能是简单的十字、波浪线，或像字母的图形。这是中世纪石匠的个人标记，用于计算工作量。触摸这些几乎被磨平的刻痕，仿佛能触及到那些无名工匠温热的掌心。他们雕刻了历史，却只留下这样微小的、属于自己的签名。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  从河对岸望见的全景：这个亮点需要你走几步。穿过主桥，走到布托讷河的南岸，回身眺望。整个小镇以未完工的双塔为视觉焦点，红瓦屋顶层层叠叠向中心聚拢，倒映在平静的河水中。黄昏时分，天空从粉紫渐变为橙红，双塔的轮廓被镶上金边，而塔身沉浸在深蓝的阴影里。这一动一静、一明一暗的画面，是一幅无可替代的、属于圣让当热利的灵魂肖像。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  时间就是一切：小镇非常宁静，但避开七月中旬至八月底的法国全民度假季，你会发现住宿更便宜，餐馆也无需排队。最佳游览季节是五月、六月和九月，天气温和，田野翠绿或金黄。务必查询修道院官网，避开每周一和法定节假日，因为博物馆和小型景点可能闭馆。夏季夜晚常有灯光秀或音乐会，值得为此调整行程。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  穿着与行走：小镇虽小，但探索需要步行。一定要穿一双绝对舒适的步行鞋，因为石板路古老而不平整，废墟内部地面也可能有碎石和杂草。即使是夏季，也带一件轻薄外套，废墟内和高塔下常有穿堂风，体感较凉。随身带个小手电，如果想仔细看清石匠标记或建筑内部阴暗角落的细节时会非常有用。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  深度体验秘诀：想拍出没有人的废墟大片？清晨日出后一小时和日落前一小时是最佳时段，光线也最富戏剧性。午餐后是小镇最安静的时候，适合闲逛小巷。不要只围着修道院转，往小镇外围的居民区走走，那里有更本地的生活气息和友好的问候。自驾的话，停车场在小镇外围，中心区需步行进入，提前看好停车标志。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 圣让当热利周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`住宿方面，强烈推荐体验本地由古老民居改建的精品酒店或民宿。比如位于修道院广场附近的“天使之居”（Logis des Anges），房间保留了裸露的木梁和石墙，早餐庭院正对双塔，景致无敌。想更静谧，可以住到河对岸的“磨坊旅馆”，夜里只听得到水声。美食是此行亮点。午餐推荐“河岸餐桌”（La Table du Bord），试试它的夏朗德白葡萄酒炖小牛肉，肉质酥烂，酒香浓郁。晚餐可以去“1830餐厅”，氛围更正式，其用当地奶酪和核桃制作的沙拉以及鸭胸肉是一绝。别忘了去市政厅附近的传统面包店，买一个叫做“Tourteau Fromager”的黑色奶酪蛋糕（外表焦黑，内里湿润），配一杯本地产的“皮诺葡萄汁”，这才是最地道的午后茶点。小镇的餐饮价格比巴黎亲切太多，可以放心享用。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  库隆日堡垒村（Coulonges-sur-l‘Autize）：驱车约30分钟，你会到达这个被列为“法国最美乡村”的宁静之地。与圣让当热利的“未完成”形成有趣对比，这里的一切都精致、完整而和谐。逛逛12世纪的罗马式教堂，看看保存完好的文艺复兴时期领主宅邸，在开满鲜花的石头小巷里迷失。这里是感受普瓦图地区田园诗般生活的完美补充。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  圣雅各朝圣之路徒步段：如果你体力尚可，且有半天时间，强烈建议体验一小段朝圣之路。从圣让当热利出发，沿着有贝壳标志的路标，向西南方向的帕伊兹奈（Paizay-Naudouin）步行一段（约2-3小时）。你会穿过静谧的森林、田野和散落的小村庄，真正用脚步丈量历史，与那些看不见的中世纪朝圣者同行。这种身体力行的体验，会让你对圣让当热利的历史地位有更深的理解。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`圣让当热利的灵魂，就镌刻在那对永远无法合拢、向天空敞开的双塔之中。它教会我们的，不是征服与完成的荣耀，而是在时光的废墟上，如何与遗憾共处，如何从“未完成”里，看到比“完美”更持久、更震撼人心的力量——那是一种关于梦想、努力与命运无常的，永恒的诗意。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/bourges-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布尔日大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bourges Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/riquewihr-alsace-france" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    里
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里屈埃维</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Riquewihr</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/place-vendome" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    旺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">旺多姆广场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Place Vendôme</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

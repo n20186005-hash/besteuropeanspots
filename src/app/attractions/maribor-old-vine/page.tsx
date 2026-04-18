@@ -1,0 +1,155 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '马里博尔老藤屋深度旅游攻略：探访400年世界最老葡萄藤自由行指南',
+  description: '探秘斯洛文尼亚马里博尔老藤屋，深度游攻略带你拜访吉尼斯认证的“世界上最古老且仍结果的葡萄藤”，感受流淌了四个世纪的时光与酒香。',
+}
+
+export default function MariborOldVinePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '马里博尔老藤屋', href: '/attractions/maribor-old-vine' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`马里博尔老藤屋・Maribor Old Vine・斯洛文尼亚・下施蒂利亚地区（马里博尔市）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你打算来斯洛文尼亚这个被阿尔卑斯山与葡萄酒乡拥抱的宝藏国度，那马里博尔河畔的这株“老神仙”你一定不能错过。今天这份超详细的马里博尔老藤屋旅游攻略，就是你的专属自由行指南。想象一下，站在德拉瓦河畔，一幢明黄色的老房子外墙上，盘踞着一片苍劲有力的葡萄藤——它不是道具，而是货真价实、被吉尼斯世界纪录认证的“世界上现存最古老且仍持续结果的葡萄藤”，年龄已超过400岁！这份攻略会带你绕过普通游客的匆匆一瞥，教你如何真正读懂这株植物界“活化石”的故事，从它的每一道纹路里，品尝下施蒂利亚地区流淌了几个世纪的风土与坚韧。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你打算来斯洛文尼亚这个被阿尔卑斯山与葡萄酒乡拥抱的宝藏国度，那马里博尔河畔的这株“老神仙”你一定不能错过。今天这份超详细的马里博尔老藤屋旅游攻略，就是你的专属自由行指南。想象一下，站在德拉瓦河畔，一幢明黄色的老房子外墙上，盘踞着一片苍劲有力的葡萄藤——它不是道具，而是货真价实、被吉尼斯世界纪录认证的“世界上现存最古老且仍持续结果的葡萄藤”，年龄已超过400岁！这份攻略会带你绕过普通游客的匆匆一瞥，教你如何真正读懂这株植物界“活化石”的故事，从它的每一道纹路里，品尝下施蒂利亚地区流淌了几个世纪的风土与坚韧。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`马里博尔老藤屋`} />
+                <InfoRow label="英文名称" value={`Maribor Old Vine`} />
+                <InfoRow label="正式名称" value={`Maribor Old Vine`} />
+                <InfoRow label="国家" value={`斯洛文尼亚`} />
+                <InfoRow label="城市" value={`下施蒂利亚地区（马里博尔市）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这株名为“Žametovka”或“Modra Kavčina”的古老葡萄藤，它的根深深扎进了欧洲葡萄酒历史的核心层。它诞生于16世纪末期，安然度过了奥斯曼帝国的侵袭、两次世界大战的炮火，以及无数个严冬与疾病的考验。在它漫长的生命中，它见证了马里博尔从中世纪贸易重镇到现代城市的变迁，本身就是一部沉默的编年史。在欧洲，古老的葡萄藤不少，但像它这样被完整记录、持续呵护且每年仍能结出果实用以酿酒的“活遗产”，堪称独一无二。它不仅仅是斯洛文尼亚的国家瑰宝，更是整个欧洲葡萄种植文化的“始祖级”象征。当地人会带着近乎神圣的情感告诉你，这株藤蔓连接着过去与现在，它所结出的每一颗葡萄，都是历史酿成的甘露。`} />
+                <InfoRow label="建筑特色" value={`老藤本身并非建筑，但它所依附的“老藤屋”却与之浑然天成。这是一栋典型的斯洛文尼亚中欧风格联排房屋，外墙粉刷着温暖的鹅黄色，在德拉瓦河的波光与绿树映衬下格外醒目。葡萄藤的主干粗壮如古树，树皮是深灰色，布满深邃皲裂的纹路，如同老人手背的血管，紧紧“抓”住房屋临街的墙面和特制的黑色熟铁支架。支架本身也设计成优雅的弧形，新旧交融，既提供了支撑，也成了一道艺术装置。春夏时节，深绿色的叶片层层叠叠，覆盖出一片生机勃勃的华盖；到了秋天，叶子转为金黄与火红，其间悬挂着一串串深蓝色的果实，颜色对比极为震撼。整幅画面就像一幅定格了时间的立体油画。`} />
+                <InfoRow label="建筑风格" value={`这里体现的是一种“功能性传统民居”与“活态农业遗产”的结合风格。房屋本身是下施蒂利亚地区常见的巴洛克后期到古典主义过渡时期的市民建筑风格，线条简洁实用，山墙面向街道，屋顶坡度较大以适应多雪气候。而为保护老藤所搭建的支撑体系，则采用了当地传统的铁艺工艺，风格上更偏向于19世纪末的工业实用风，坚固而质朴。这种组合本身就讲述了一个故事：建筑服务于生活，而生活（酿酒）又塑造了建筑的样貌。葡萄藤不是后期添加的装饰，而是这栋房子灵魂的一部分，这种“人与植物共生”的建筑哲学，在整个欧洲都显得独特而珍贵。`} />
+                <InfoRow label="文化价值" value={`对于马里博尔人乃至所有斯洛文尼亚人来说，老藤早已超越了一株植物的范畴。它是城市的灵魂象征，是“坚韧生命力”的代名词。每年十月的“老藤葡萄采收节”是全城最重要的文化盛事之一，人们会用传统仪式采摘葡萄，并酿造出区区数十瓶极其珍贵的“老藤葡萄酒”，这些酒通常用于国家级礼赠，普通人难得一品，但这仪式本身强化了社区的认同感。它也在时刻提醒着现代人关于耐心、传承与可持续的价值观。在全球化和快餐文化盛行的今天，这株慢悠悠生长了400年的老藤，成为一种反向的精神坐标，吸引着世界各地的人们前来，寻找一种更缓慢、更根植于土地的“时间感”。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 马里博尔老城区一日游打卡路线攻略：从世界最老葡萄藤到德拉瓦河畔`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行徒步路线推荐`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份一日游路线请收好。建议你避开上午的旅行团高峰，从容开始。上午（10点后）：从马里博尔主广场（Glavni trg）出发，沿着热闹的步行街向德拉瓦河方向漫步，大约10分钟就能看到明黄色的老藤屋。先别急着拍照，去对面的“老藤屋之家”博物馆（Hiša stare trte）逛逛，那里有关于老藤和本地葡萄酒历史的详尽介绍（门票信息可在官网查）。中午：就在河畔找一家餐厅，比如Vinoteka Maribor，品尝用当地年轻葡萄藤酿造的优质白葡萄酒，配一份下施蒂利亚特色的南瓜籽油沙拉。下午：过桥到河对岸，从另一个角度欣赏老藤屋与古城背景的全景，这是打卡绝佳机位。然后可以沿着风景如画的河滨公园散步，或者登上山丘上的马里博尔城堡，俯瞰红屋顶古城与蜿蜒的德拉瓦河。傍晚：回到老城区，在落日余晖中再次静静看看老藤，这时游客散去，光影柔和，你能更能感受到它的宁静与古老的力量。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  藤蔓的“手”：凑近看老藤主干与砖墙的接合处。你会看到它的气根和扭曲的枝干如何像无数只有力的手指，紧紧“嵌”入墙面的缝隙，甚至改变了下层砖石的形态。这种超越了普通依附、近乎共生的生长姿态，是400年时光力量最直观的证明，仿佛这堵墙是从藤蔓里长出来的，而非相反。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  金属支架的“对话”：仔细观察那些支撑着较新枝蔓的黑色金属架。它们与古老的、近乎化石化的主干形成鲜明对比——光滑与粗糙，新与旧，人工与自然。但设计无比巧妙，弧线温柔地承托着藤蔓，仿佛现代科技在向古老生命致以谦卑的敬意。光影穿过支架缝隙，在墙面和叶子上投下变幻的几何图形，非常适合摄影。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  河中的倒影：一定要走到德拉瓦河的对岸回头看。平静的河面像一面镜子，将明黄色的老藤屋、苍翠的葡萄藤和蓝天白云完美复制。每当有天鹅或野鸭游过，荡起涟漪，水中的画面便破碎又重组，虚实交错间，古老的存在显得更加梦幻而富有诗意。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  窗台上的小祭坛：在老藤屋二楼的一扇窗户下，有一个不起眼的铁制小阳台，上面有时会放置一个迷你盆栽或一小瓶鲜花。这像是住户献给老藤的私人仪式，体现了它不仅是公共景点，更是融入日常生活的“邻居”。这个充满人情味的细节，让宏伟的历史叙事瞬间变得温馨可触。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 马里博尔老藤屋自由行避坑指南与最佳行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  时间就是一切：想要避开人头攒动的旅行团，最好的时间是工作日的清晨（8-9点）或傍晚（日落前后）。10月采摘节期间虽然热闹有特色，但人流量最大，如果追求静谧体验，建议避开这个高峰。此外，深秋（10月底11月初）藤叶变色的季节，景色最为绚烂。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  别只拍一张照就走：很多游客的“坑”在于只在正面拍张打卡照就离开，错过了精髓。务必进入免费的底层参观区域（通常开放），近距离观察藤蔓纹理，也一定要过河到对岸拍摄全景。穿着舒适的步行鞋，河畔公园和通往城堡的路都是很好的散步选择。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  管理预期，保护珍宝：首先，老藤被精心护栏保护，你无法触摸或采摘，这是对国宝的必要尊重。其次，由它酿造的“老藤葡萄酒”市面上几乎不可能买到，通常只作为国礼，所以不要轻信街头小贩的相关产品。在河畔餐厅就餐时，注意看管好随身物品，虽然马里博尔治安良好，但基本防盗意识要有。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 马里博尔住宿与美食攻略：老藤屋畔的葡萄酒乡滋味`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`想沉浸式体验，建议住在老城区或德拉瓦河畔。Hotel Bellevue 位置绝佳，部分房间可直接俯瞰老藤屋和河流，古典风格与景点氛围很搭。追求设计感的话，City Hotel Maribor 现代舒适，步行到老藤屋也就5分钟。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`餐饮是这里的一大享受。紧邻老藤屋的 Restavracija Mak，拥有观赏老藤的绝佳户外座位，主打现代斯洛文尼亚菜肴，一定要试试用本地特产——南瓜籽油调味的汤或沙拉，香气独特。想深入体验葡萄酒文化，可以去 Vinoteka Maribor（葡萄酒档案馆），这里堪称下施蒂利亚葡萄酒的图书馆，你可以按杯品尝数十种不同的本地酒，侍酒师会给你专业的推荐。配上一盘本地奶酪和熏肉，就是完美的晚餐。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  马里博尔城堡与地区博物馆：从老藤屋步行上山约15分钟即可到达。城堡本身是文艺复兴与巴洛克风格混合体，内部的地区博物馆藏品丰富，能让你更深入了解下施蒂利亚的历史、民俗和酿酒传统。从城堡露台眺望马里博尔全景，视野无敌。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  葡萄酒之路：如果你是葡萄酒爱好者，老藤屋只是起点。可以从马里博尔出发，自驾或参加当地旅游团，探索 “下施蒂利亚葡萄酒之路”。沿途是连绵起伏的葡萄园丘陵，点缀着无数家庭式酒庄（称为“Hiše”）。你可以拜访这些酒庄，深入酒窖，品尝最新鲜的雷司令、霞多丽等，并与酿酒师面对面交流，这才是最地道的 “小众景点推荐” 体验。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`马里博尔老藤屋的魅力，在于它用一种极其柔软却又无比坚韧的方式，重新定义了“古迹”——它不是冰冷的石头城堡，而是一株依然在呼吸、在结果的生命。它告诉我们，历史可以不是沉重的过往，而是延续至今的、带着清甜果香的当下。在这里，你能触摸到时间最温柔也最强大的形态。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/postojna-cave" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    波
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">波斯托伊娜溶洞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Postojna Cave</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/predjama-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普列加马城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Predjama Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/skocjan-caves" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    什
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">什科茨扬溶洞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Škocjan Caves</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,155 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '莫里茨堡童话宫殿深度旅游攻略：湖心岛巴洛克仙境与灰姑娘取景地打卡指南',
+  description: '探索德国萨克森的莫里茨堡(Schloss Moritzburg)，这座湖心岛上的巴洛克狩猎宫殿，亦是经典电影《灰姑娘》取景地。本攻略涵盖深度游路线、门票交通与避坑指南，带你走进童话世界。',
+}
+
+export default function MoritzburgCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '莫里茨堡', href: '/attractions/moritzburg-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`莫里茨堡・Schloss Moritzburg・德国・萨克森`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，想象一下：开车穿过一片静谧的森林，突然，视野豁然开朗，一片巨大的湖面像镜子一样铺开，而在湖心的一座人工岛上，一座明黄色的、顶着四个优雅塔楼的宫殿，正静静地倒映在水光之中。这第一眼的震撼，就是我抵达莫里茨堡时的全部感受。今天这份莫里茨堡私藏旅游攻略，就带你躲开人潮，深入这座堪称“北方的天鹅堡”的梦幻之地。它不仅仅是一座宫殿，更是无数捷克和德国人童年记忆里《灰姑娘》（1960年版）那座华丽舞会的真实舞台。这份自由行指南，我们将一起揭开它的巴洛克面纱，从交通秘籍到隐藏角落，给你一个完整的童话日。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，想象一下：开车穿过一片静谧的森林，突然，视野豁然开朗，一片巨大的湖面像镜子一样铺开，而在湖心的一座人工岛上，一座明黄色的、顶着四个优雅塔楼的宫殿，正静静地倒映在水光之中。这第一眼的震撼，就是我抵达莫里茨堡时的全部感受。今天这份莫里茨堡私藏旅游攻略，就带你躲开人潮，深入这座堪称“北方的天鹅堡”的梦幻之地。它不仅仅是一座宫殿，更是无数捷克和德国人童年记忆里《灰姑娘》（1960年版）那座华丽舞会的真实舞台。这份自由行指南，我们将一起揭开它的巴洛克面纱，从交通秘籍到隐藏角落，给你一个完整的童话日。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`莫里茨堡`} />
+                <InfoRow label="英文名称" value={`Schloss Moritzburg`} />
+                <InfoRow label="正式名称" value={`Schloss Moritzburg`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`萨克森`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`莫里茨堡的故事始于16世纪，但它真正的辉煌篇章由“强力王”奥古斯特二世书写。这位萨克森选帝侯兼波兰国王，是个不折不扣的“炫富”与狩猎爱好者。18世纪初，他决定将原本只是简单狩猎小屋的莫里茨堡，改造成配得上其身份的、全欧洲最奢华的巴洛克式狩猎宫殿之一。它的选址本身就彰显了权力与艺术——硬生生在沼泽地上造出一片大湖，并将宫殿建于湖心人工岛，这不仅是美学考量，更是将君主权威“孤立”于凡尘之上的象征。在历史上，它成为了萨克森王室炫耀财富、举办盛大狩猎宴会和社交活动的核心场所，其内部奢华装饰和收藏的大量狩猎战利品（鹿角），如实记录了欧洲贵族“狩猎文化”的鼎盛时期。它不像许多城堡经历过战火摧残，反而像一个被时光胶囊保存完好的巴洛克梦，这种完整性在欧洲都属罕见。`} />
+                <InfoRow label="建筑特色" value={`走近看，莫里茨堡的建筑外观就像一块精心雕琢的蜂蜜蛋糕。主色调是温暖明亮的萨克森黄，在森林与湖水的深绿色背景下，显得格外轻盈梦幻。建筑主体是规整的方形，但四角各耸立着一座带有洋葱形圆顶的塔楼，让整体轮廓变得生动。宫殿外墙的线条干净利落，典型的巴洛克式对称美学，但窗户和门楣上的白色浮雕装饰又增添了细腻的华丽感。最妙的是它的倒影——当湖面平静无波时，整座宫殿连同它的四个塔楼，会完完整整地复制在水面上，形成一幅上下对称的绝美画面，仿佛水底还有另一座倒立的宫殿。宫殿的屋顶是深红色的，与明黄墙体形成经典对比。仔细观察，你能看到屋顶上精致的阁楼窗和细小的装饰性雕塑，每一个细节都在强调着这是一座用于享乐和展示的“宫殿”，而非用于防御的“城堡”。`} />
+                <InfoRow label="建筑风格" value={`莫里茨堡是巴洛克建筑风格在德意志地区，特别是萨克森宫廷的杰出体现。巴洛克风格的核心是戏剧性、动感和对感官的冲击，这些都在莫里茨堡得以完美呈现。首先，它的整体布局极具戏剧性：通过一条长长的堤道将岛屿与陆地连接，你走向宫殿的过程，就像一步步被引向舞台中央，湖面成为天然的“舞台池”，增强了到达的仪式感。建筑外部的对称与宏大是巴洛克对秩序和权力的表达。走进内部，巴洛克精神更是扑面而来：夸张的、充满流动曲线的灰泥浮雕装饰布满天花板和墙壁，大量使用金色 leaf 点缀，营造出金碧辉煌的眩目效果。房间里充斥着描绘狩猎场景和神话故事的华丽壁画和天顶画，利用透视技巧让二维画面产生三维空间的错觉，天花板仿佛被打开，天使和神灵从中飞腾而出——这正是巴洛克艺术最爱的“错觉主义”。无处不在的镜子、水晶吊灯和光滑的大理石，进一步放大了空间的华丽与光影游戏。`} />
+                <InfoRow label="文化价值" value={`对于现代人，莫里茨堡的文化价值早已超越了其作为前王宫的身份。它最深入人心的角色，无疑是1960年代经典捷克童话电影《灰姑娘》（Three Wishes for Cinderella）的取景地。电影中那场华丽舞会、王子与灰姑娘相遇的楼梯、以及宫殿的外部景观，都深深烙印在几代中欧观众的童年记忆里。因此，对于许多捷克和德国游客来说，来到这里是一场“朝圣”，是走进真实童话书的梦幻体验。此外，它也是德国“宫殿与园林文化”的重要代表，展示了人与自然（森林、湖泊、园林）在巴洛克时期的理想化共生关系。宫殿内收藏的世界上最多的红鹿角标本（约71套），以及奢华的中国风、日本漆器房间，则默默述说着18世纪欧洲的贵族审美、狩猎传统与全球贸易（通过奥古斯特二世建立的“丝绸之路”连接德累斯顿与东方）的历史，是一座活化的历史文化百科全书。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 莫里茨堡一日游绝佳打卡路线攻略：从堤道漫步到童话舞厅`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行全攻略（含交通接驳）`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份一日游路线请收好！建议上午从德累斯顿中央火车站出发，乘坐Regionalbahn约20分钟到莫里茨堡站，再换乘巴士或出租车（约5分钟）到宫殿停车场。别急着进去，第一站：绕到宫殿正面的湖边！在上午顺光下，拍摄宫殿与湖中倒影的经典明信片角度。然后，怀揣期待，踏上那条笔直的堤道，感受自己一步步走向湖心舞台的仪式感。上午主要游览宫殿内部（预留2小时），跟着语音导览（有中文）依次参观华丽的国宾厅、令人瞠目结舌的“羽毛床”房间、收藏巨量鹿角的狩猎厅，以及绝不能错过的《灰姑娘》舞会取景地——宏伟的中央楼梯。午餐可以在宫殿内的咖啡馆或出口处的餐厅解决，尝尝萨克森风味的蛋糕。下午，留给广袤的巴洛克式园林和森林。你可以租一条小船在湖上泛舟，从水上视角仰望宫殿；或者漫步去不远处小巧可爱的“小鱼堡”（Fasanenschlösschen），那是王室用于茶歇的洛可可风格迷你宫殿，异常精致。傍晚时分，是光线最柔和的时刻，在湖边静静等待夕阳为明黄色的宫殿披上金纱，这是全天最美的时刻。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  中央圆厅的狩猎天顶画：走进宫殿中央的圆厅，一定要用力仰头。巨大的天顶画是绝对的视觉震撼。画面中央是狩猎女神狄安娜，周围环绕着奔腾的猎犬、受惊的牡鹿和飞翔的天使。巴洛克画家巧妙地运用透视法，让平面的穹顶产生了无限的深邃感，仿佛你真的能看到天空和飞升的神明。壁画色彩鲜艳浓烈，历经数百年依然生动，当阳光从高侧窗射入，光影在壁画上移动，那些神话人物几乎要活过来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  “羽毛床”房间：这可能是全世界最“浮夸”的卧室。房间里那张巨大的床，其华盖、帷幔乃至墙壁装饰，竟然全部由色彩斑斓的鸟羽——孔雀翎、雉鸡毛等——精心粘贴镶嵌而成！数以万计的羽毛组成繁复的涡卷和花纹，在灯光下闪烁着幽暗而奢华的光泽。据说这耗费了工匠数年时间。站在这间房里，你几乎能闻到陈旧羽毛的特殊气味，感受到那种极致奢靡、甚至有些怪诞的宫廷趣味。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  琥珀与漆器陈列室：奥古斯特二世对东方艺术痴迷，这里藏有大量琥珀工艺品和日本漆器家具。在一个玻璃柜里，你会看到用无数细小琥珀片拼贴而成的华丽首饰盒和微型橱柜，它们在灯光下泛着蜂蜜般温润晶莹的光泽，手感仿佛想象中就该是温热的。旁边的漆器屏风漆黑如夜，上面用金粉描绘着精细的东方山水与花鸟，与欧洲巴洛克的浓烈形成静谧而高贵的对比。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  通往“小鱼堡”的林间小径：这不是宫殿内的细节，而是连接主宫与小“鱼堡”的一段步行道。小路穿过高大的橡树林和山毛榉林，地面铺着厚厚的落叶，踩上去沙沙作响。阳光被树冠切割成一道道光柱，林间异常幽静，只有鸟鸣。你会偶然遇到林间的小池塘和巴洛克风格的雕塑，仿佛走进了《灰姑娘》里王子追出舞会后迷失的那片魔法森林，氛围感直接拉满。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  时间选择是王道：避开周末和德国公共假期！这座宫殿因其童话属性，是本地家庭出游的热门地，周末人流量巨大。尽量选择工作日清晨前往，不仅能享受清静的堤道和湖景，还能在宫殿刚开门时成为第一批游客，独占拍照最佳机位。夏季（7-8月）是最美但也最多人的季节，春秋两季（5-6月，9-10月）森林色彩丰富，游客较少，体验更佳。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  交通与门票提前规划：从德累斯顿过来的Regionalbahn班次不少，但接驳的巴士班次有限（尤其是淡季），务必提前在DB App查好时刻表，避免在车站干等。建议购买“萨克森宫殿卡”或德累斯顿城市卡，可能包含门票和交通折扣。宫殿内部不允许使用三脚架和闪光灯，摄影爱好者请知悉。内部参观必须跟随指定路线，不能折返，所以每个房间请看好再离开。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  穿着与装备建议：宫殿内部的巴洛克园林和通往小鱼堡的森林小径都是碎石或土路，请务必穿一双舒适防滑的徒步鞋或运动鞋，高跟鞋在这里绝对是灾难。萨克森天气多变，即使是夏天，湖边风大，备一件防风外套总是明智的。参观内部时背包需要寄存（有寄存柜），建议带个轻便小包放手机、钱包和相机。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 莫里茨堡周边静谧住宿与特色美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果想让童话体验延续，不妨在附近住一晚。莫里茨堡宫殿酒店本身就坐落于宫殿园林内，由历史建筑改建，部分房间能直接看到湖景和城堡，清晨在鸟鸣中醒来，独占无人的花园，体验感无敌。若追求性价比，湖区周边的森林民宿（Ferienwohnung） 是不错选择，很多是木质结构，充满德式乡村温馨感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`餐饮方面，强烈推荐在宫殿内的“咖啡馆 Restaurant im Schloss” 享用一顿午餐或下午茶。不一定为了美味（典型的德式简餐），而是为了那份在历史穹顶下用餐的氛围。尝试一下萨克森特色的“德累斯顿蛋糕”或加入当地野味（如鹿肉）的菜肴，呼应宫殿的狩猎传统。出口处停车场附近的“Zum Schlosswirt” 餐厅更接地气，供应分量十足的猪肘和啤酒，适合晚餐。别忘了喝一杯萨克森产的雷司令白葡萄酒，清爽的口感正好化解旅途的疲惫。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  拉德博伊尔“蒸汽船”与易北河风光：从莫里茨堡往易北河方向不远，就是小镇拉德博伊尔。这里的王牌景点是世界上仍在运营的最古老、最庞大的明轮蒸汽船舰队。你可以跳上一艘百年历史的白色蒸汽船，随着“噗噗”的汽笛声和明轮击打水花的声音，悠闲地游览易北河萨克森段的世界文化遗产景观。这与莫里茨堡静谧的湖光形成美妙的动静对比，是技术与自然之美的双重体验。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  易北河砂岩山脉国家公园：如果你有多一天时间，且热爱自然与徒步，强烈建议驱车向东约40分钟，进入这片被称为“萨克森小瑞士”的奇境。这里有着中欧独一无二的砂岩峰林、深谷和石桥，景色粗犷壮丽。你可以徒步前往著名的巴斯泰石桥，站在巨大的天然石拱上俯瞰易北河蜿蜒流过森林峡谷，这种来自地质时代的震撼，与莫里茨堡的人工精雕细琢，构成了完美的旅程搭配。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`莫里茨堡的灵魂，就在于那种极致的“人造梦境”感。它并非诞生于防御或统治的紧迫，而是纯粹为了美、享乐和一场盛大的童话幻想而被创造出来。它悬浮于湖心，也悬浮于时间之外，当你穿过森林看到它的那一刻，就心甘情愿地坠入了这个金色的、倒影摇曳的巴洛克之梦。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/muehlhausen-thuringia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    米
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">米尔豪森</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mühlhausen</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/externsteine-sandstone-formations" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃克斯施泰因</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Externsteine</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/celle-half-timbered-houses" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    策
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">策勒木结构建筑群</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Celle's Half-Timbered Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '迈斯塔旅游攻略：希腊最神秘的迷宫古镇自由行与深度游指南',
+  description: '探索希腊希俄斯岛的迈斯塔(Mesta)，一座为抵御海盗而建的中世纪屋顶相连迷宫村落。本深度游攻略涵盖打卡路线、避坑指南与乳香文化。',
+}
+
+export default function MestaChiosVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '迈斯塔古镇', href: '/attractions/mesta-chios-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`迈斯塔古镇・Mesta・希腊・希俄斯岛，北爱琴大区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，想象一下：你站在一个完全由灰色石头构成的世界里，眼前不是街道，而是一条条幽深、凉爽的隧道。两旁的房屋肩并肩紧紧相依，它们的屋顶在空中手拉着手，连成一片，把你的头顶完全遮蔽。阳光只能从缝隙中洒下细碎的光斑，脚步声在石壁上荡出空旷的回响。这里不是地下城，而是希腊希俄斯岛上活着的传奇——迈斯塔。今天这份迈斯塔私藏旅游攻略，就带你躲开人潮，走进这座被誉为“石船”的封闭式堡垒村落。作为你的专属向导，这份自由行指南请收好，我们一起去破解这座中世纪迷宫，听石头讲述关于生存、智慧与社区的故事。你会发现，这里不仅仅是一个“景点”，更是一个关于人类如何团结自保的温暖寓言。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，想象一下：你站在一个完全由灰色石头构成的世界里，眼前不是街道，而是一条条幽深、凉爽的隧道。两旁的房屋肩并肩紧紧相依，它们的屋顶在空中手拉着手，连成一片，把你的头顶完全遮蔽。阳光只能从缝隙中洒下细碎的光斑，脚步声在石壁上荡出空旷的回响。这里不是地下城，而是希腊希俄斯岛上活着的传奇——迈斯塔。今天这份迈斯塔私藏旅游攻略，就带你躲开人潮，走进这座被誉为“石船”的封闭式堡垒村落。作为你的专属向导，这份自由行指南请收好，我们一起去破解这座中世纪迷宫，听石头讲述关于生存、智慧与社区的故事。你会发现，这里不仅仅是一个“景点”，更是一个关于人类如何团结自保的温暖寓言。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`迈斯塔古镇`} />
+                <InfoRow label="英文名称" value={`Mesta`} />
+                <InfoRow label="正式名称" value={`Mesta`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`希俄斯岛，北爱琴大区`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`迈斯塔的历史，是一部浓缩的爱琴海防御史诗。它的诞生源于中世纪后期（主要建于14-15世纪）爱琴海上猖獗的海盗威胁。当时的热那亚领主为了保护生产珍贵“乳香”的希俄斯岛居民，主导修建了一批防御性村落，迈斯塔是其中保存最完好、设计最极致的典范。它在欧洲历史中的独特地位在于，它并非一座孤立的城堡或要塞，而是一个将整个社区的生活空间完全军事化、堡垒化的惊人案例。这意味着，当海盗来袭时，全镇居民无需逃往远处的城堡，他们只需退回村内，关上巨大的外门，整个村落就瞬间变成一个密不透风的石头堡垒。这种将日常生活与战时防御无缝结合的设计思想，在欧洲民居建筑史和军事史上都极为罕见。它代表了热那亚殖民时期一种高度组织化的社会防御模式，也是希俄斯岛乳香贸易黄金时代的重要见证。漫步其中，你触摸的每一块石头，都浸透着那个动荡年代里，平民百姓对和平生活的顽强守望。`} />
+                <InfoRow label="建筑特色" value={`迈斯塔的建筑特色，用一句话概括就是：一个由石头编织成的、巨大的集体蜂巢。从远处看，村落整体呈一个不规则的方形，外围是一圈高大、无缝衔接的房屋外墙，宛如一座敦实的城堡。所有建筑都使用当地的灰色砂岩，历经数百年风雨，呈现出一种深沉而温润的灰褐色调。最令人惊叹的细节在于屋顶：每一栋两层楼房的屋顶都不是独立的，而是与相邻房屋的屋顶通过拱廊、通道和平台完全连接在一起，形成一个连续、平坦且坚固的“空中广场”网络。这使得整个村落的屋顶层面变成一个可以快速调动人员的防御平台。巷道（更像隧道）极其狭窄，有时仅容一人通过，上方常有拱顶覆盖，光线晦暗。窗户小而高，开向内庭或巷道，主要功能是观察和通风而非采光。这种设计制造出一种强烈的内向性、庇护感和神秘氛围，仿佛走进了一个巨大的石器时代迷宫。`} />
+                <InfoRow label="建筑风格" value={`迈斯塔的建筑风格很难用传统的“哥特式”或“巴洛克”来定义，它是一种非常独特的 “防御性民居建筑”或“堡垒化村落”风格，深受热那亚军事建筑思想的影响。这种风格在这里的体现通俗而直接：一切为了安全和集体生存。首先，它的布局是高度规划的“棋盘式”或“网格状”，但为了迷惑入侵者，内部巷道故意设计得错综复杂，多死胡同和直角转弯，这体现了“防御迷宫”的思想。其次，建筑完全摒弃了装饰性。没有浮雕，没有华丽的门楣，只有厚重、朴实无华的石头。房屋外墙就是城墙，面向外部的墙体几乎无窗，展现了“坚壁清野”的防御原则。最后，建筑的连通性是其灵魂。屋顶相连、地下可能存在的通道（传说），都强调了在危急时刻，整个社区能够快速形成一个整体，相互支援。这不是为了美学或神性而建的建筑，而是为了最朴素的“活下去”而诞生的生存智慧结晶，风格本身透露出一种严峻而动人的实用主义美感。`} />
+                <InfoRow label="文化价值" value={`迈斯塔的文化价值，远远超出了一座“古怪的古镇”的范畴。对于当地人而言，它代表着一种极致的社区精神与集体记忆。这种将整个生命空间共享、互锁的设计，强迫居民之间必须保持高度的信任、合作与共识。它塑造了一种独特的社会形态：个人隐私部分让位于集体安全，家的边界变得模糊，整个村落就是一个大家庭。这种紧密的社区纽带文化，至今仍影响着当地人的生活态度。对现代社会而言，迈斯塔是一座关于可持续社区设计和韧性生存的活态博物馆。在气候变化、社会关系疏离的今天，它展示了人类如何通过精妙的建筑设计来应对极端外部威胁，并在此过程中强化社会凝聚力。同时，作为希俄斯岛乳香文化路线上的明珠，它连接着一种古老的、珍贵的经济作物历史，提醒人们自然馈赠与人类社区发展之间的深刻联系。它不是一个被冻结在时间里的遗址，而是一个依然有居民生活、炊烟袅袅的活化石，持续地向来访者传递着关于庇护、共享与坚韧的永恒价值。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 迈斯塔一日游打卡路线攻略：迷宫探索与时光穿越`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行步行游览路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，攻略的核心部分来了！作为你的向导，我设计的这条迈斯塔一日游路线，宗旨是“由外及内，由宏观到微观”，带你一步步解开迷宫的密码。上午（10点-13点）：外围感知与核心突破。 建议你乘坐早班车抵达，先从村子外围开始。别急着钻巷子，逆时针绕村落外围走半圈，感受它作为“石船”堡垒的宏伟与封闭感。然后，找到那个标志性的主门（Portello），这是进入迷宫的唯一正确“钥匙孔”。穿过门洞的瞬间，时光倒流。径直前往中心广场（Platia），这里是整个迷宫的心脏和“气孔”。在广场边的传统咖啡馆喝一杯希腊咖啡，观察当地老人的生活，让自己定定神。下午（13点-17点）：迷宫沉浸与细节发现。 在广场附近找家小酒馆享用午餐，尝尝希俄斯岛特色的乳香口味菜肴。饭后，真正的探险开始！以广场为圆心，像投石入水般，随意选择一条放射状的巷道走进去。请放弃地图，信任你的直觉和好奇心。 目标不是“不迷路”，而是享受“迷路”的过程。刻意寻找那些最窄的巷、最暗的拱廊、被鲜花点缀的古老门廊。留意脚下石板的光滑度、墙上的特殊标记。最后，一定要想办法（有时通过咖啡馆或民宿的私人通道）登上屋顶平台，这是全天的高潮，站在“空中广场”俯瞰迷宫全景的体验无与伦比。傍晚（17点后）：落日余晖与氛围沉淀。 回到中心广场，等待夕阳的金色光线斜射进巷道口。随着游客散去，村落恢复宁静，你才能听到它真正的呼吸声。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  主门（Portello）的穿越仪式感：不要匆匆走过这个低矮的门洞。停下来，用手触摸门洞边缘被无数代人磨得光滑如玉的石头。抬头看，厚重的拱顶压下来，光线从身后的现代世界照入，在前方中世纪巷道的地面上投下一道清晰的光界。迈过这道光，不只是空间的转换，更是一次进入被保护、被隐藏的旧世界的心理仪式。门内侧可能还有当年用于固定厚重木门的铁件凹痕，静静诉说着戒备森严的往昔。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  中心广场（Platia）的“生命绿洲”：在经历了压抑的迷宫巷道后，突然置身于这个开阔的广场，那种豁然开朗的感觉无比珍贵。广场中央通常种着几棵大树，树荫下是咖啡馆的露天座位。仔细观察广场周围的建筑，这里是全村唯一能看见完整、带窗户的房屋立面的地方。阳光毫无遮挡地洒下来，孩子们在玩耍，老人们坐在长椅上闲聊。这个广场是迷宫设计的人性化点睛之笔，是社区社交的肺叶，让你瞬间理解：极致的防御，最终还是为了守护这份平淡而温暖的日常生活。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  任意一条无名巷道的“挤压感”与“光影秀”：特意选一条宽度不足一米的巷道走进去。两侧的石墙高耸，仿佛要向你挤压过来。抬起头，你会发现巷道上方常常被建筑的拱廊或房间横跨覆盖，形成一个个天然的“石门框”。阳光从这些框框里，或者从侧面高窗射入，在巷道地面上画出清晰、不断变幻的几何光斑。空气凉爽，弥漫着石头特有的湿润气息和隐约的茉莉花香（如果墙头有花）。你的脚步声、呼吸声被放大，回响在狭长的空间里，这种强烈的感官体验是迈斯塔独一无二的馈赠。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  屋顶平台的“上帝视角”：这可能需要一点运气或询问本地人，但绝对值得争取。当你通过某个隐秘楼梯踏上屋顶平台时，整个世界豁然开朗。脚下不是瓦片，而是平坦的、连贯的石板或水泥地面，延伸至整个村落。你会看到屋顶上那些用来收集雨水的古老水窖、晾晒的衣物、盆栽植物。放眼望去，灰色的“石海”屋顶波浪般起伏，与远处爱琴海的蔚蓝形成强烈对比。此刻，你终于看清了迷宫的“设计图”，理解了屋顶相连的精妙，也获得了村民们当年瞭望敌情、传递信号时所拥有的视角，一种守护者的自豪与责任感会油然而生。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 迈斯塔自由行避坑指南与行前十大须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`这份避坑指南能让你玩得更从容：1. 最佳时间与穿着：避开7-8月正午的酷暑，迷宫内虽凉爽但无风，易闷热。最佳游览季是春季（4-6月）和秋季（9-10月）。务必穿一双绝对防滑、舒适的运动鞋或徒步鞋！巷道的石板路历经数百年磨得光滑，尤其雨天或清晨有露水时非常滑。穿着轻便、易活动的衣物。2. 破解“迷路”恐慌：迷路是体验的一部分，但避免恐慌是关键。记住两大“地标”——中心广场和主门。无论走到哪里，试着往一个方向走到底，通常会遇到死胡同或绕回广场。不要依赖手机GPS，巷道太窄卫星信号差且地图不准。最简单的办法：跟着地上的主电线或水管走，它们通常通向主要区域。如果真找不到，友善的当地居民是最好的活地图。3. 人流与防盗：迈斯塔相对小众，但夏季午后会有旅游团，建议早到或傍晚停留。迷宫环境本身非常安全，但中心广场等开阔处仍需看管好随身物品。更重要的是，保持安静。这里是活着的村庄，请尊重居民隐私，避免在居民窗前大声喧哗或窥探。拍照前，如果镜头里有当地人，一个微笑和眼神征求是基本的礼貌。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 迈斯塔周边住宿与美食攻略：住进石头城堡`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`想获得最地道的体验，强烈建议在迈斯塔的传统石屋民宿住一晚。这些民宿由古老房屋改造，保留了石头拱顶、厚墙等特色，内部却舒适现代。夜晚，当一日游的游客散去，整个村落归于宁静，你才能真正听到它的心跳——猫儿走过巷道的轻响、远处教堂的钟声。清晨，在鸟鸣中醒来，独占没有游客的迷宫，光影绝美。餐饮方面，中心广场及周边有几家不错的家庭小酒馆（Taverna）。必尝特色是希俄斯岛的乳香（Mastic）风味。可以试试乳香利口酒、乳香口味的甜品（如布丁、冰淇淋），甚至乳香调味的鸡肉或猪肉。此外，当地的山羊奶酪、新鲜海鲜和家常炖菜（如“Ladera”蔬菜杂炖）也都很美味。在一家叫“To Mestiko”或类似名字的小馆，点上一杯乌佐酒（Ouzo），配几碟小菜，看着广场上逐渐点起的灯，这便是爱琴海迷宫之夜最完美的句点。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果迈斯塔的迷宫让你意犹未尽，可以从这里轻松延伸探索：1. 皮尔戈斯村（Pyrgi）：距离迈斯塔约20分钟车程。这里是另一种视觉震撼——“绘画村”。房屋外墙全部装饰着由灰泥刮刻形成的、黑白相间的复杂几何图形（Xysta），如同巨大的立体剪纸艺术。它同样是一个中世纪防御性村落，但艺术表达截然不同。与迈斯塔的内向、凝重相比，皮尔戈斯显得外向而炫目，两者对比参观，能让你对希俄斯岛村落文化多样性有更深理解。2. 乳香林（Mastic Villages）与乳香博物馆：希俄斯岛南部是全世界唯一能产出优质乳香树脂的地区。可以参观乳香林，看看这种神奇灌木的模样；或者去乳香博物馆（位于Pyrgi附近），深入了解这种“希腊黄金”的种植、收割和历史。这能将你在迈斯塔感受到的防御文化，与背后支撑其经济的珍贵物产联系起来，完成一段完整的历史文化认知闭环。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`迈斯塔的灵魂，不在于它迷惑了你的方向感，而在于它用一种坚硬的石头语言，温柔地阐释了“社区”最古老、最强大的含义：当个体的房屋选择手挽手、肩并肩，将彼此的屋顶连成一片共同的天空时，他们便共同铸造了一座任何风浪都无法摧毁的、移动的诺亚方舟。这里教会我们的，不是如何建造堡垒，而是如何成为彼此的堡垒。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kastoria-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯托里亚老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kastoria Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/acrocorinth" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿克罗科林斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Acrocorinth</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chania-venetian-harbour" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈尼亚威尼斯港</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Chania Venetian Harbour</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

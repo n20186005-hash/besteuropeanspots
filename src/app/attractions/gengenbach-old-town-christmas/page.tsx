@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '根根巴赫圣诞深度旅游攻略：探访世界最大降临节日历小镇',
+  description: '探索德国根根巴赫（Gengenbach），一座在黑森林入口的童话小镇。这份深度游攻略带你揭秘老市政厅化身“世界最大日历”的圣诞魔法，并提供完整的一日游路线与避坑指南。',
+}
+
+export default function GengenbachOldTownChristmasPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '根根巴赫', href: '/attractions/gengenbach-old-town-christmas' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`根根巴赫・Gengenbach・德国・巴登-符腾堡`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你问我冬天最像童话的地方是哪里，我的答案不会是迪士尼，而会是德国黑森林边上这个叫根根巴赫的小镇。想象一下：12月的寒风里，你穿过古老的城门，眼前是一片被雪花温柔覆盖的、糖果色的木筋屋。空气中弥漫着热红酒和烤杏仁的甜香，而小镇中心那座巴洛克风格的老市政厅，正面那24扇窗户，在夜幕降临时会一扇接一扇地亮起，上演着世界上“最大的降临节日历”。今天这份 根根巴赫旅游攻略 ，就是你的专属 自由行指南 。我会带你躲开那些千篇一律的旅行团路线，钻进最地道的圣诞市集摊位，告诉你什么时候来能看到最震撼的亮灯仪式，以及如何用一天时间，沉浸式地体验这个只有7000多居民、却拥有全世界最盛大节日仪式感的小镇。相信我，这不仅仅是一次旅行，更像是一场走进童话书的冒险。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你问我冬天最像童话的地方是哪里，我的答案不会是迪士尼，而会是德国黑森林边上这个叫根根巴赫的小镇。想象一下：12月的寒风里，你穿过古老的城门，眼前是一片被雪花温柔覆盖的、糖果色的木筋屋。空气中弥漫着热红酒和烤杏仁的甜香，而小镇中心那座巴洛克风格的老市政厅，正面那24扇窗户，在夜幕降临时会一扇接一扇地亮起，上演着世界上“最大的降临节日历”。今天这份 根根巴赫旅游攻略 ，就是你的专属 自由行指南 。我会带你躲开那些千篇一律的旅行团路线，钻进最地道的圣诞市集摊位，告诉你什么时候来能看到最震撼的亮灯仪式，以及如何用一天时间，沉浸式地体验这个只有7000多居民、却拥有全世界最盛大节日仪式感的小镇。相信我，这不仅仅是一次旅行，更像是一场走进童话书的冒险。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`根根巴赫`} />
+                <InfoRow label="英文名称" value={`Gengenbach`} />
+                <InfoRow label="正式名称" value={`Gengenbach`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`巴登-符腾堡`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`根根巴赫的历史，就像它木筋屋上那些深色的木梁，层层叠叠，刻满了故事。它的名字最早出现在8世纪的文献中，一开始是本笃会修道院的领地。到了13世纪，它被神圣罗马帝国皇帝腓特烈二世授予了“自由市”的特权，这意味着它可以自己制定法律、收税，拥有了相当大的自治权。这个身份让它迅速繁荣起来，成为黑森林北部重要的贸易和葡萄酒酿造中心。你走在今天的街巷里，依然能感受到这种“自由”的气质——小镇的格局没有被后来的战乱或现代化彻底摧毁，而是完整保留了下来。它幸运地躲过了二战的大部分炮火，使得这座中世纪古镇的风貌得以奇迹般地存留。而它最引以为傲的现代历史，无疑是始于20世纪90年代的那个创意：将市政厅的24扇窗户变成降临节日历。这个点子不仅让根根巴赫在全球范围内收获了“世界最大圣诞日历”的美誉，更将它从一个宁静的历史小镇，变成了整个欧洲冬季最温暖、最具象征意义的圣诞目的地之一。它连接了古老帝国的自治传统与当代人心中对节日童话的共同向往。`} />
+                <InfoRow label="建筑特色" value={`根根巴赫的建筑，是一场关于色彩、木头与时光的对话。最抓人眼球的，无疑是遍布全镇的“木筋屋”。这些房子可不是简单的黑白配，它们的墙面被刷成明媚的鹅黄、温柔的桃粉、清新的薄荷绿或深沉的赭石色，而支撑结构的木梁则保留着深巧克力色或近乎黑色的原木色泽，形成强烈的、如童话绘本般的对比。仔细看那些木梁，上面常常雕刻着古老的年份（比如“1683”）、建造者的名字缩写，或者是象征繁荣的葡萄藤、象征虔诚的圣经语句。小镇的“门面担当”——老市政厅，则更加气派。它建于1784年，是一座典型的巴洛克晚期建筑。淡黄色的外墙庄重典雅，中央三角形的山墙上装饰着复杂的纹章浮雕。而最特别的，就是正面那24扇大小一致、排列整齐的白色窗框窗户。在平常日子里，它们就是普通的窗户；但一旦进入12月，每一扇窗后都藏着一幅由当地艺术家或学校孩子们创作的巨大画作，当夜晚降临、窗户被灯光从内部照亮，整面墙就变成了一本流光溢彩的立体故事书。`} />
+                <InfoRow label="建筑风格" value={`在根根巴赫，你上的是一堂最生动的“德国木筋屋建筑”实地课。这种风格德语叫“Fachwerkhaus”，是德国中部和南部最具代表性的传统民居风格。它的核心是“骨架先行”：工匠们先用粗大的橡木或云杉木搭起整个房屋的框架（那些露在外面的深色木梁就是骨架），然后再用砖石、泥土或石膏填充框架之间的墙面。在根根巴赫，你能看到这种风格的各种变体：早期（16世纪前后）的房子木梁结构非常密集、交叉复杂，像一张巨大的网，这既是结构需要，也带有装饰性；后期（18-19世纪）的房子则更注重墙面的色彩和整体比例，木梁结构趋于简洁规整。而老市政厅则展现了另一种风格——巴洛克风格的影响。虽然规模不大，但它对称的布局、中央突出的三角楣饰、以及窗户上方的弧形装饰线条，都流露出巴洛克对庄严与动感的追求。奇妙的是，市政厅的巴洛克体量与小巧的木筋屋并肩而立，毫不冲突，反而构成了和谐的天际线。这种混搭，正体现了根根巴赫作为历史贸易城镇的包容与富足：它既扎根于本土的、务实的木构造传统，也乐于接受来自更大世界的、代表权威与审美的建筑风尚。`} />
+                <InfoRow label="文化价值" value={`对于根根巴赫人来说，圣诞季不仅仅是一个旅游旺季，更是整个社区心跳同步、共同呼吸的季节。将市政厅变成降临节日历的传统，始于1995年，如今已成为小镇的“年度灵魂工程”。每年，设计24扇窗户画作的任务会交给不同的群体——可能是本地艺术家协会，可能是学校的所有班级，也可能是某个慈善组织。这意味着几乎每个家庭都可能直接或间接地参与其中。当12月1日傍晚，市长在广场上按下按钮，点亮第一扇窗时，全镇的人都会聚集在广场，孩子们睁大眼睛，大人们举着热红酒互相祝福，那种 communal（社区共同）的温暖感，是任何商业化的圣诞景点都无法复制的。这个传统深深强化了本地人的身份认同：“我们就是圣诞日历小镇”。它也让古老的市政厅建筑被赋予了全新的、充满活力的功能，成为连接市政（官方）、市民（创作者）和游客（观赏者）的情感枢纽。此外，小镇的圣诞市集也刻意保持着小而精、重手工、重本地的特色，你买到的木雕胡桃夹子很可能就出自街角那位老工匠之手。在这里，圣诞文化不是被消费的符号，而是活生生的、由双手和心意共同编织的当下。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 根根巴赫完美一日游路线攻略：从晨曦漫步到圣诞魔法夜`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行步行路线推荐`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，作为你的向导，这份 根根巴赫自由行指南 的精华——一日游路线，请收好。我们 打卡 的目标是松弛与深度并存。上午（10点-13点）：建议你从火车总站慢慢溜达进古城，先别急着冲进中心，在 “尼格河门”（NiggelTor）停下，这是老城西侧的主城门，从这里望向城内，风景如画。穿过门洞，正式踏入中世纪的街道。沿着主街（Hauptstraße）慢慢逛，两旁的木筋屋商店橱窗本身就是艺术展。重点参观 “黑森林博物馆”（位于一座古老的修道院内），它能帮你快速理解这个地区的文化底色。中午（13点-14点30分）：就在市集广场找一家传统的“Gasthaus”（客栈式餐厅），尝尝黑森林地区的招牌菜，比如“黑森林火腿配酸菜”，或者“炸猪排”。下午（14点30分-17点）：饭后散散步，可以去寻找小镇里几处安静的角落，比如 “骑士之屋”（Ritterhaus）那华丽的外墙，或者去葡萄园山坡上的小径走一走，俯瞰全镇红屋顶的风景。傍晚至夜晚（17点以后）：这是重头戏！回到市集广场，此时圣诞市集的灯光已经亮起。买一杯热红酒捧在手心，找个好位置，等待大约 17点15分左右（具体时间每日公告），市政厅的亮灯仪式。当当天的那扇窗户被点亮，童话正式开场。之后，你可以尽情逛市集，品尝烤杏仁、土豆煎饼等小吃。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  市政厅第24扇窗：这是圣诞夜才打开的“终极惊喜”。通常，这幅画作是整个系列中尺寸最大、寓意最核心的一幅，往往是关于平安、圣婴或家庭团聚的主题。当24日傍晚，最后一扇窗在人群的欢呼中亮起，整个广场会唱起圣诞颂歌。那一刻，你不是游客，而是这个盛大社区仪式的一部分。仔细看画作的细节，许多本地元素会被巧妙藏入，比如黑森林的冷杉、小镇的教堂尖顶。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  “天堂之阶”小巷：在主街附近，找一条叫“Paradiesgässle”（字面意思：天堂小巷）的窄巷。它窄到几乎只能容一人通过，两侧是极高、颜色极鲜艳的木筋屋山墙。抬头看，屋檐几乎在头顶相接，只露出一线天光。冬日午后，阳光斜射进来，照亮墙上斑驳的涂料和石砖，光影切割出极其纯净的几何形状，安静得能听到自己脚步的回声，仿佛走进了时光隧道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  面包房橱窗的“胡桃夹子”：小镇一家传统面包房的橱窗里，常年陈列着一个近两米高的手工雕刻胡桃夹子国王木偶。它不仅是商品，更是店主的骄傲。胡桃夹子色彩鲜艳，表情威严又带点滑稽，盔甲和胡须的雕刻纹路极其精细。在圣诞灯光的映照下，它仿佛是这个糖果色小镇的守护神。观察它，你能真切感受到黑森林地区长达数百年、代代相传的木雕工艺灵魂。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  尼格河门的内部穹顶：穿过尼格河门时，别忘了抬头。门洞内部的砖砌穹顶上，悬挂着巨大的、铁艺制成的根根巴赫市徽——一个盾牌，上有城堡和葡萄藤图案。冰冷的金属与古老的砖石形成对比，昏暗的光线从城门两端透入，照亮空气中细微的尘埃。这个视角让你瞬间明白，你正穿过一道分隔现代与中世纪的、真正的时空之门。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`想让你的 根根巴赫深度游 更完美？这几个贴士能帮你避开几乎所有麻烦：第一，时间就是一切。 最佳游览时间当然是12月1日至24日，但请 避开周末！周六日的人流是工作日的数倍，你可能连杯热红酒都挤不到。如果实在只能周末来，建议在亮灯仪式开始前至少45分钟就在广场占据有利位置。第二，穿对鞋子，带足温暖。 小镇的鹅卵石路在雨雪后会非常湿滑，一双防滑保暖的靴子是必需品。12月黑森林地区相当冷，特别是晚上站着看灯时，寒风刺骨。请采用“洋葱式穿衣法”，贴身的保暖内衣、中间层抓绒、外层防风防水外套，帽子、手套、围巾一个都不能少。暖宝宝可以多备几个。第三，交通与购物小贴士。 自驾的话，老城内停车位极其紧张且昂贵，建议使用镇外的“Park & Ride”停车场，然后步行或坐接驳车进入。购买纪念品时，认准“Handgemacht”（手工制作）标签，这才是正宗的黑森林工艺品。市集上的热红酒（Glühwein）通常需付杯子的押金（Pfand），喝完记得退杯拿回押金。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 根根巴赫及周边住宿与美食全攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`想沉浸在这童话里过夜？强烈推荐住在老城内的 家庭式旅馆（Pension）或精品酒店。比如位于一栋16世纪木筋屋内的“Hotel-Restaurant Engel”，房间低矮的木质天花板和古老的窗棂本身就充满了故事感，早上会被教堂钟声和面包房的香味唤醒。如果预订不到，附近的金齐希河谷（Kinzig valley）沿线小镇也有不少安静舒适的住宿选择，坐几分钟火车就能到达根根巴赫。美食方面，除了市集小吃，一定要在正经餐厅吃一顿。推荐 “Gasthaus Löwen” 或 “Zum Storchen”，尝尝地道的地方菜：除了前述的黑森林火腿，一定要试“Flammkuchen”（阿尔萨斯薄饼，上面铺酸奶油、洋葱和培根）和“Gaisburger Marsch”（一种巴符州特色的炖牛肉汤配土豆和面条）。甜点自然不能错过正宗的“黑森林蛋糕”，这里的版本酒渍樱桃味更浓，奶油更轻盈。搭配一杯本地产的“黑森林杜松子酒”或雷司令白葡萄酒，完美。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果你有一天富余的时间，根根巴赫是探索 “黑森林蛋糕之路”（Schwarzwälder Kirschtortenstraße）和 “德国时钟之路”（Deutsche Uhrenstraße）的完美起点。强烈推荐乘火车或驾车，只需15分钟，就能到达同样迷人的小城“奥芬堡”（Offenburg）。它比根根巴赫更大，拥有宏伟的新古典主义市政厅和繁华的步行街，圣诞市集规模也更大，风格略有不同，可以形成有趣的对比。另一个方向，可以前往 “古塔赫”（Gutach）”的黑森林露天博物馆，那里将整个黑森林地区的百年老屋原样搬迁聚集，让你在几小时内穿越时空，亲眼看到木筋屋内部的生活场景，对你在根根巴赫看到的建筑外观有更深的理解。这两个目的地都能让你对黑森林地区的文化有更立体的认知。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`根根巴赫的灵魂，藏在冬日黄昏里，当市政厅第N扇窗户被点亮时，人群中那个本地孩子发出的、纯粹而惊喜的“哇！”声中。它是一座懂得如何把古老的历史，酿造成当下共享的、可触摸的快乐的小镇。它告诉你，童话不是逃逸，而是在认清生活的古老纹路后，依然选择为它点亮24扇温暖的窗。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/stolzenfels-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施托尔岑费尔斯城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Stolzenfels Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/partnachklamm" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    帕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕特纳赫峡谷</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Partnachklamm</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/naumburg-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瑙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瑙姆堡大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Naumburg Cathedral</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

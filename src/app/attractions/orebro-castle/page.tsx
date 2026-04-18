@@ -1,0 +1,155 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '厄勒布鲁城堡深度旅游攻略：水中央的文艺复兴要塞与自由行完全指南',
+  description: '探索瑞典心脏地带的厄勒布鲁城堡（Örebro Castle）深度游攻略。这份指南涵盖门票与交通、一日游路线及小众打卡点，带你走进这座矗立在湍急河流中的宏伟历史地标。',
+}
+
+export default function OrebroCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '厄勒布鲁城堡', href: '/attractions/orebro-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`厄勒布鲁城堡・Örebro Castle・瑞典・厄勒布鲁省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，想象一下：你站在厄勒布鲁老城鹅卵石铺就的街道上，耳边是斯瓦特河（Svartån）永不停歇的奔腾水声，目光所及之处，一座巨大的、带着坚固圆塔的砂岩城堡，就那样霸道又优雅地屹立在河心的岛屿上。这就是厄勒布鲁城堡，它不是什么远在天边的遗迹，而是切切实实长在厄勒布鲁城市心脏里的“活”历史。今天这份厄勒布鲁城堡私藏旅游攻略，就带你躲开常规游客的匆匆脚步，像本地人一样，去触摸那些被水流冲刷了七个世纪的石头墙砖，去聆听塔楼里藏着的、关于国王、议会与近代瑞典诞生的故事。作为你的专属向导，这份自由行指南请收好，我们不仅要看城堡的外观，更要钻进去，搞懂它的来龙去脉。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，想象一下：你站在厄勒布鲁老城鹅卵石铺就的街道上，耳边是斯瓦特河（Svartån）永不停歇的奔腾水声，目光所及之处，一座巨大的、带着坚固圆塔的砂岩城堡，就那样霸道又优雅地屹立在河心的岛屿上。这就是厄勒布鲁城堡，它不是什么远在天边的遗迹，而是切切实实长在厄勒布鲁城市心脏里的“活”历史。今天这份厄勒布鲁城堡私藏旅游攻略，就带你躲开常规游客的匆匆脚步，像本地人一样，去触摸那些被水流冲刷了七个世纪的石头墙砖，去聆听塔楼里藏着的、关于国王、议会与近代瑞典诞生的故事。作为你的专属向导，这份自由行指南请收好，我们不仅要看城堡的外观，更要钻进去，搞懂它的来龙去脉。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`厄勒布鲁城堡`} />
+                <InfoRow label="英文名称" value={`Örebro Castle`} />
+                <InfoRow label="正式名称" value={`Örebro Castle`} />
+                <InfoRow label="国家" value={`瑞典`} />
+                <InfoRow label="城市" value={`厄勒布鲁省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`厄勒布鲁城堡的历史地位，可不是一句“古老的城堡”就能概括的。它可以说是瑞典从中世纪封建王国，迈向现代统一民族国家的最重要见证者之一。城堡最初在13世纪作为防御工事和税务关卡建立，控制着斯瓦特河这条重要的贸易水道。但让它真正载入史册的，是16世纪的瓦萨王朝时期。当时的国王古斯塔夫一世（Gustav Vasa）将城堡彻底改建为坚固的文艺复兴风格要塞，并使其成为王室权力的重要象征。在接下来的几个世纪里，它多次作为瑞典全国议会（Riksdag）的召开地。1540年、1617年等重要议会都在此举行，许多影响瑞典国运的法律和决策正是在这些石墙内诞生。特别是在1810年，正是在厄勒布鲁城堡，瑞典议会选举法国元帅让-巴蒂斯特·贝尔纳多特为王储，从而建立了延续至今的贝尔纳多特王朝。可以说，你脚下这座岛屿，曾一次次决定这个北欧国家的航向。`} />
+                <InfoRow label="建筑特色" value={`从远处看，厄勒布鲁城堡最抓人眼球的就是那座高耸的、带有铜绿色屋顶的巨型圆塔——“格里佩斯图尔”（Gripstornet）。它敦实、强悍，是城堡权力视觉的核心。走近了看，城堡的主体由暖黄色的砂岩砌成，经过数百年的风化和水汽浸润，颜色变得醇厚而斑驳，在阳光下泛着蜜糖般的光泽。城堡的基座直接扎根于河床的岩石上，厚重的墙壁为了防御，窗户开得小而高，下半部分几乎没有任何开口，给人一种坚不可摧的稳重感。但仔细看，在城堡的某些立面，尤其是面向内庭的部分，你能看到文艺复兴时期带来的优雅装饰：规整对称的窗户布局、山形墙的简洁线条，以及一些石刻的徽章纹样。最妙的还是它的位置——整个建筑群被湍急的、呈墨绿色的斯瓦特河环抱，河水撞击在礁石和城堡墙基上，日夜轰鸣，这自然的“护城河”声音，是这座城堡最独特的背景音效和感官记忆。`} />
+                <InfoRow label="建筑风格" value={`厄勒布鲁城堡是一座典型的“文艺复兴风格要塞”。这是什么意思呢？简单说，就是它把中世纪城堡的“防御功能”和文艺复兴时期新兴的“宜居美感”结合在了一起。和中世纪那些纯为了打仗、内部阴暗压抑的城堡不同，文艺复兴风格强调对称、比例和古典元素。在厄勒布鲁城堡，你可以看到它整体的布局虽然仍以适应地形和防御为优先（所以不是完全对称），但在16世纪大规模改建时，增加了更多、更大的窗户以引入光线，内部房间的规划也开始考虑居住的舒适性和举行礼仪活动的空间感。那个标志性的圆塔，其顶部精致的铜顶和塔楼结构，也体现了文艺复兴时期对古典形式的复兴与改造。它不像后来的巴洛克那样繁复炫目，而是一种克制、有力、彰显权威的美学。在这里，你能触摸到瑞典从一个战乱频仍的北方边陲之地，开始接触并融入欧洲大陆主流文明浪潮的那个转折点。`} />
+                <InfoRow label="文化价值" value={`对今天的厄勒布鲁人乃至瑞典人来说，这座城堡早已不是森严的权力禁地，而是一个融入日常生活的文化灯塔。它现在是厄勒布鲁省博物馆（Örebro läns museum）所在地，常年举办从维京时代到当代设计等各种主题的展览。本地学校的学生会来这里上历史课，新婚夫妇喜欢以城堡为背景拍摄婚纱照，市民则在环绕城堡的河边公园里跑步、野餐。城堡庭院在夏季时常举办露天音乐会或戏剧演出，古老的石墙回荡着现代的音符。它更像一个巨大的社区客厅，连接着城市的过去与现在。同时，作为瑞典近代史上关键的“议会城堡”，它也是国民民主意识形成的一个地理坐标，提醒着人们关于共识、辩论与国家建构的集体记忆。这种从军事要塞到文化中心的转变，正是它最动人的现代价值。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 厄勒布鲁城堡一日游打卡路线攻略：从老城漫步到塔楼之巅`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行精华路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的向导，我设计的这条厄勒布鲁一日游路线，既能拍出绝佳打卡照，又能深度感受历史，节奏张弛有度。上午（9:30-12:30）：从厄勒布鲁中央火车站出发，步行约10分钟，穿过漂亮的“图书馆广场”，首先你会看到城堡的全景。别急着过桥，先在河北岸的“城堡公园”找找角度，拍下城堡与水中倒影的经典照片。随后走过古老的石桥，正式进入城堡岛。建议提前网上预订城堡导览游（至关重要！），在导游带领下花1.5-2小时探索内部，重点看古斯塔夫一世大厅、古老的监狱和登上圆塔顶端。中午（12:30-14:00）：过桥回到老城区（Wadköping），这里是露天博物馆也是美食区。在一家叫“Kvarterskrogen”的传统木屋餐厅里，尝尝经典的瑞典肉丸或厄勒布鲁特色香肠，享受河畔的阳光。下午（14:00-17:00）：饭后悠闲逛逛Wadköping的红色小木屋和手工艺品店。然后前往紧邻城堡的厄勒布鲁省博物馆主展厅（门票常含在城堡票内），通过现代展陈深入了解地区历史。如果还有精力，可以沿着斯瓦特河两岸散步，从不同角度欣赏城堡。晚上：在老城选择一家氛围餐厅享用晚餐，夏季的话，可以查询城堡是否有晚间音乐会，那将是完美句点。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  古斯塔夫一世的铠甲与大厅：在城堡的主厅里，陈列着一套属于这位“建国国王”的全身板甲。它不是冷冰冰的展览品，当你凑近看，能看到铠甲上细微的划痕和凹陷——那是真实战斗留下的记忆。站在铠甲前，想象一下1540年，古斯塔夫一世就是在这个房间或类似的大厅里，与议会贵族们纵横捭阖，塑造现代瑞典的雏形。灯光打在铠甲光滑的弧面上，反射出冷冽的光，瞬间将你拉回那个强人辈出的文艺复兴时代。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  “议会厅”的庄严氛围：虽然内部陈设已变，但你可以请导游指认出历史上曾作为议会召开地的房间。试着闭上眼睛，屏蔽掉其他游客的细微声响，去感受这个空间的“场”。高挑的天花板、厚重的石墙吸纳了杂音，留下一种肃穆的宁静。你可以想象，1810年的那个春天，就是在这里，瑞典的议员们经过激烈辩论，最终决定邀请一位法国元帅来继承王位，这个决定的大胆与务实，至今仍让人惊叹。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  圆塔“格里佩斯图尔”之巅的俯瞰：攀登狭窄的螺旋石梯到达塔顶，是整个游览的高潮。当你从狭小的出口探身而出，360度的全景瞬间扑来：蜿蜒的斯瓦特河像一条墨绿色的丝带，将老城的红色屋顶、现代城市的玻璃幕墙、远方的森林和湖泊全部串联起来。风很大，吹得人几乎站不稳，但正是在这里，你最能理解这座城堡为何选址于此——绝对的视觉和控制中心。别忘了寻找老城Wadköping那片可爱的红色木屋群，它们像积木一样点缀在河边。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  城堡地下的古老监狱：与上层的皇家大厅形成鲜明对比的，是阴冷潮湿的地下牢房。粗糙的岩石墙壁上，可能还留有几百年前囚徒刻下的痕迹。这里光线昏暗，仅有几个狭小的通风口透进微弱的光，空气中仿佛还残留着绝望和铁锈的味道。这个空间生动地提醒着你，城堡不仅是荣耀的殿堂，也是镇压与禁锢的工具，历史的复杂性与多面性，在此触手可及。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 厄勒布鲁城堡自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  游览时间与预约是王道：首先，最佳游览季节是5月到9月，天气晴好，日照长，河边景色最美。冬季虽别有风情，但部分户外区域和短途游船可能关闭。最大的“坑”是不提前计划！ 城堡的内部参观强烈建议甚至必须提前在官网预订指定时间的导览团（有英语团），散客无法自行进入大部分历史房间。现场很可能买不到当天的票，或需要等待很久。规划行程时第一件事就是去官网订票。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  穿着与装备建议：城堡内部石阶多且陡，尤其是登塔楼梯狭窄盘旋，务必穿一双绝对舒适防滑的鞋子，高跟鞋是自讨苦吃。即使夏季，斯堪的纳维亚的天气也多变，河风较大，塔顶更甚，带一件防风外套或薄毛衣很有必要。参观地下监狱区域温度较低，也可酌情添衣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  巧妙避开人流与享受静谧：旅行团大多集中在上午10点至下午3点之间抵达。如果你想获得更宁静的体验，可以尝试预订当天最早或最晚的导览团。参观完内部后，别只跟着人群从正门离开，可以探索一下城堡建筑外围的隐蔽角落，或者坐在河边的长椅上发呆，这些地方通常人少，你能更清晰地听到水声与风声，感受城堡的呼吸。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  防盗与安全：厄勒布鲁整体治安很好，但城堡及老城区作为旅游热点，仍需保持基本警觉。在户外咖啡座休息时，包不要放在椅子背后无人看管。乘坐公共交通或于拥挤市场时，注意保管好钱包手机。瑞典普遍使用信用卡，无需携带大量现金。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 厄勒布鲁周边住宿与美食攻略：住在历史河畔`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`住宿方面，如果你想沉浸在中世纪氛围里，强烈推荐位于老城河畔、与城堡隔水相望的 “厄勒布鲁城堡酒店”（Hotel Örebro Castle），它由历史建筑改造，部分房间拥有直接观赏城堡的绝美视角。如果追求现代设计，市中心有几家高品质的连锁酒店，步行到城堡也就10-15分钟。餐饮是重头戏！午餐可以去前文提到的老城木屋餐厅 Kvarterskrogen，感受传统瑞典“家常菜”（Husmanskost）的温暖。晚餐则有更多选择：“Svartåns Kvarn” 餐厅坐落在一座古老的水磨坊里，环境独特，主打利用本地食材的现代瑞典菜。想吃点特别的？一定要试试厄勒布鲁的名物——“厄勒布鲁香肠”（Örebrokorv），在很多传统肉铺或餐厅都能找到，是一种风味浓郁的猪肉香肠，是纯正的本地味道。下午茶可以在河边的任意一家咖啡馆解决，点上一杯咖啡和一块肉桂卷（Kanelbulle），就是最瑞典的Fika时光。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  瓦斯特拉斯湖区（Vättern）：如果你有多一天时间，强烈建议租车或乘坐短途火车（约1小时）前往欧洲最干净的湖泊之一——瓦斯特拉斯湖。湖边小镇如阿斯克松德（Askersund）宁静优美，你可以进行环湖骑行、划船，甚至只是在湖边悬崖看看被称为“瑞典蓝”的深邃湖水，这与城堡的历史感形成完美的自然互补。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  尼尔斯雕像与城市公园：就在厄勒布鲁市中心，距离城堡不远，有一个可爱的 “尼尔斯雕像”（Statyn av Nils），刻画的是瑞典经典童话《尼尔斯骑鹅旅行记》中主人公尼尔斯变成小精灵后的形象。雕像虽小，却是本地人很喜爱的地标。旁边的 “城市公园”（Stadsparken）绿树成荫，有玫瑰园和小型动物园，非常适合家庭游客或在紧凑的城堡之旅后放松一下神经。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`厄勒布鲁城堡的灵魂，在于那股“水流中央的定力”。七百年来，无论外面的世界是战火纷飞还是和平发展，斯瓦特河的湍流从未停歇，而这座石头城堡就静静地立在漩涡之眼，看着瑞典如何从一方诸侯的角力场，成长为一个理性、平和的现代国度。它不张扬，却无比坚实，就像这个国家的性格——在沉稳中，蕴含着改变时代的力量。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gripsholm-castle-national-portrait-gallery" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    格
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格利普霍姆堡（国家肖像画廊）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gripsholm Castle (National Portrait Gallery)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sigtuna-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    西
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">西格蒂纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sigtuna</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/uppsala-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乌
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乌普萨拉大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Uppsala Cathedral</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

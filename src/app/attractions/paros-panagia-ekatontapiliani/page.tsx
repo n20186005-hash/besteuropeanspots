@@ -1,0 +1,155 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '帕罗斯岛百门教堂深度旅游攻略：寻找那99扇门的拜占庭千年秘密',
+  description: '探索希腊帕罗斯岛Panagia Ekatontapiliani（百门教堂）深度游攻略。这座基克拉泽斯最古老宏伟的拜占庭教堂，藏着关于百门的传说与纯白大理石圣光。',
+}
+
+export default function ParosPanagiaEkatontapilianiPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '帕罗斯岛百门教堂', href: '/attractions/paros-panagia-ekatontapiliani' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`帕罗斯岛百门教堂・Panagia Ekatontapiliani・希腊・帕罗斯岛（南爱琴大区）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你以为希腊岛屿只有蓝白房子和沙滩，那帕罗斯岛会给你一个大大的惊喜。在首府帕里基亚（Parikia）港口不远处，藏着一座被阳光晒得暖洋洋的、蜂蜜色大理石建筑群——那就是百门教堂。今天这份帕罗斯岛百门教堂旅游攻略，就是你的专属自由行指南。它不仅仅是“一个教堂”，更是整个基克拉泽斯群岛拜占庭艺术的摇篮，是当地人心灵的中心。跟着我这份避坑指南，我们不去挤那些网红打卡点，而是慢下来，去触摸那些被海风侵蚀了千年的石壁，去聆听“百门”传说背后的呼吸，你会发现，这里藏着一整个爱琴海的灵魂。准备好，我们要开始一段穿越时光的漫步了。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你以为希腊岛屿只有蓝白房子和沙滩，那帕罗斯岛会给你一个大大的惊喜。在首府帕里基亚（Parikia）港口不远处，藏着一座被阳光晒得暖洋洋的、蜂蜜色大理石建筑群——那就是百门教堂。今天这份帕罗斯岛百门教堂旅游攻略，就是你的专属自由行指南。它不仅仅是“一个教堂”，更是整个基克拉泽斯群岛拜占庭艺术的摇篮，是当地人心灵的中心。跟着我这份避坑指南，我们不去挤那些网红打卡点，而是慢下来，去触摸那些被海风侵蚀了千年的石壁，去聆听“百门”传说背后的呼吸，你会发现，这里藏着一整个爱琴海的灵魂。准备好，我们要开始一段穿越时光的漫步了。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`帕罗斯岛百门教堂`} />
+                <InfoRow label="英文名称" value={`Panagia Ekatontapiliani`} />
+                <InfoRow label="正式名称" value={`Panagia Ekatontapiliani`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`帕罗斯岛（南爱琴大区）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`百门教堂的历史厚重得惊人，它被称为“基克拉泽斯群岛的拜占庭之母”。传说由圣海伦（君士坦丁大帝的母亲）在公元4世纪奠基，但现存建筑主体主要建于6世纪查士丁尼大帝时期。在长达千年的岁月里，它不仅是宗教圣地，更是爱琴海航运、文化和权力的灯塔。当整个欧洲处于中世纪早期的动荡时，这座教堂一直是东正教信仰在爱琴海岛屿上不可动摇的堡垒。它经历了从早期基督教到拜占庭中期风格的演变，见证了无数次外族入侵（如阿拉伯人、十字军）和地震，却奇迹般地保存了核心结构。其重要性在于，它为后来整个群岛的教堂建筑树立了模板——那种庄严、坚固而又与海岛环境融为一体的气质。可以说，读懂了百门教堂，你就拿到了解开基克拉泽斯群岛中世纪历史的那把钥匙。`} />
+                <InfoRow label="建筑特色" value={`走近它，第一眼不是惊艳，而是一种被时间抚慰的宁静。建筑群并非单一的“一座教堂”，而是由主教堂、洗礼堂、礼拜堂等多个建筑组成的复合体，像一群依偎在一起的巨石。建筑材料几乎全部来自本地——帕罗斯岛闻名世界的光泽大理石。但不是那种崭新的纯白，而是被千年海风、阳光和雨水染成了温暖的蜂蜜色、淡金色，甚至有些地方透着淡淡的玫瑰色调。墙体厚重而敦实，窗户小而深，典型的防御性设计。最迷人的是屋顶：不是圆顶，而是木结构的坡屋顶，覆盖着爱琴海岛屿特有的赤陶瓦片，在烈日下呈现出一种干燥的红色。石材的切割和堆砌方式显得古朴而有力，接缝处的水泥早已风化，让整座建筑看起来像是从帕罗斯的土地上自然生长出来的一块巨岩。`} />
+                <InfoRow label="建筑风格" value={`百门教堂是早期拜占庭建筑风格在岛屿上的绝佳典范，并融入了鲜明的本地化特色。拜占庭风格的核心是“集中式”布局和内部空间的穹顶导向，但在这里，因为材料和技术限制，它演化成了独特的“三廊式巴西利卡”与集中式元素的结合。你走进去，会明显感受到那种纵向的、引导你望向圣坛的纵深空间感（巴西利卡特点），同时，建筑比例的严谨和内部的柱廊，又散发着拜占庭的秩序与庄严。它没有后来那种炫目的金色马赛克，取而代之的是大理石本身的光泽和纹理，营造出一种朴素而神圣的光影剧场。拱廊由古老的大理石柱支撑，有些柱头雕刻着极其简练的早期基督教符号（如十字架、葡萄藤），线条粗犷有力，保留了古典时代向中世纪过渡的那种浑厚美感。这是一种“海岛版”的拜占庭，去除了帝国的繁复奢华，保留了信仰的坚实内核。`} />
+                <InfoRow label="文化价值" value={`对于帕罗斯岛民而言，百门教堂远非一个旅游景点，它是活着的社区心脏。这里是大多数岛民受洗、结婚、举行葬礼的地方，每个人的生命节点都与这座古老的石墙紧紧相连。每年8月15日（圣母安息日），这里会举行全岛最盛大的庆典，散居世界各地的帕罗斯人都会归来，教堂内外水泄不通，烛光、歌声、香料的气息与人们的祈祷声混杂在一起，那场景令人动容。在艺术上，它是本地工匠学校的“祖师爷”，其建筑技法、圣像画风格影响了无数岛上的小教堂。在现代社会，它更是一座精神的锚点。当游客在沙滩嬉戏时，本地老人会静静地坐在教堂回廊的阴影里，一坐就是一下午。它提醒着每个人：在瞬息万变的时代，总有一些东西如同这些大理石一样，沉静、永恒，守护着关于家园和信仰最古老的记忆。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 帕罗斯岛百门教堂一日游打卡路线攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`从晨光到暮色，最合理的自由行漫步指南`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份一日游路线请收好。我们不走马观花，而是像本地人一样去“经历”这座教堂。上午：趁着一日游的大批游客还没从米克诺斯乘船抵达，早上9点左右就来到教堂广场。先别急着进去，绕着建筑外围走一圈，用手触摸不同朝向的石墙，感受朝阳面微暖、背阴面沁凉的温度差。从西门（主入口）进入，让你的眼睛适应内部幽暗的光线。上午的阳光会从东侧小窗射入，正好照亮圣坛屏，那是拍照的黄金时刻。中午：参观完主建筑和旁边的小型博物馆（收藏有珍贵的圣像和法器），从侧门出来，穿过小巷，步行3分钟到港口边的传统小馆吃午饭，点一份新鲜的烤章鱼和希腊沙拉。下午：这是体验精髓的时刻。回到教堂，找一张回廊下的石凳坐下，什么都不做，只是观察。看光影在柱廊间缓慢移动，听老年信徒低声诵经的嗡嗡声，感受穿堂而过的、带着咸味的海风。如果恰逢周日或节日上午，你就能目睹完整的东正教仪式，那是无价的文化体验。傍晚前，可以去洗礼堂（建筑群中最古老的部分）静静待一会儿。晚上：日落时分，教堂外墙会被染成金红色，此时在广场上回望，景色最佳。之后融入帕里基亚老城迷宫般的小巷，结束完美的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  “消失的第一百扇门”：仔细寻找教堂外墙和内部连接处的门。传说中教堂共有100扇门，但只有99扇能被看见。当君士坦丁堡的圣索菲亚大教堂（现伊斯坦布尔）重归基督教时，第100扇门将会自动打开。这个传说让游览变成了一个有趣的“寻宝游戏”，你数着数着，就会沉浸在与历史和传说的对话中，每一扇朴实的石门仿佛都成了一个通往神秘故事的入口。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  圣坛屏前的那道光：圣坛屏是拜占庭教堂的核心。百门教堂的圣坛屏由古老的象牙和木材镶嵌而成，雕刻已经模糊，却更显沧桑。一定要在上午10点到11点之间观察。一束精准的阳光会从一个极高的小窗斜射进来，像舞台追光一样，恰好落在屏风中央的圣像上。那一刻，尘埃在光柱中飞舞，仿佛千年时光被具象化了，神圣感无需任何言语。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  洗礼堂的穹顶与声音：走进附属的圣尼古拉斯礼拜堂（也是最初的洗礼堂），这是整个建筑群最古老的心脏。抬头看那个低矮的穹顶，它由巨大的石块砌成，结构简单却无比稳固。尝试在这里低声说句话，或者轻轻拍下手。你会听到一种奇特、低沉而持久的回响，混响时间长得惊人。这个声学设计让当年婴儿受洗时的哭声、祷词都能被放大、萦绕，创造出一种沉浸式的、与神对话的听觉空间。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  回廊下的“时光座椅”：主建筑南侧有一个宁静的回廊，这里摆着几张简单的木椅。挑一张坐下，视角正对着一个古老的橄榄树和一座石钟。你会看到几位黑衣老妇人静静地坐着，手里转着念珠。观察她们与偶尔飞来的鸽子、地上移动的光斑构成的那幅静止画面。这里的光影变化就是最天然的时钟，你能感受到的是一种与世无争的、属于岛屿本身的缓慢节奏。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  时间就是一切（避开人潮）：最大的坑就是和邮轮一日游游客撞个正着。最佳游览时间是工作日的上午（9点开馆时）或下午4点以后。周末上午是本地人做礼拜的时间，虽然人多但充满生活气息，适合体验文化，但不适合安静参观。绝对要避开的是每天上午11点到下午3点，这是各大岛屿间渡轮抵达的高峰期。教堂内部空间有限，一旦挤满旅行团，体验会大打折扣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  穿着与礼仪（尊重圣地）：教堂是活跃的宗教场所，着装必须庄重。无论男女，都应避免无袖上衣、短裤、短裙。门口通常备有围巾供游客遮挡，但最好自备。进入教堂后，请保持安静，手机静音。拍照是允许的（禁用闪光灯），但在举行仪式时绝对不要拍摄神职人员或信徒。一个容易被忽略的点：东正教徒进入教堂时会亲吻圣像，作为游客我们不必模仿，但请站在一旁安静观察，不要阻挡他们的路线。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  防盗与消费小贴士：帕罗斯岛整体治安很好，教堂内更显神圣宁静。但门口广场和附近小巷在旅游旺季仍要看好随身小包。教堂免费进入，但旁边的博物馆需要购买一张很小的门票（通常几欧元），绝对物超所值，别错过。教堂内没有饮水处和厕所，最近的公厕在港口附近，建议进入前先解决。不要期待这里有华丽的纪念品商店，门口只有一两个小摊卖简单的宗教物品和明信片，这反而保留了它的本真。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 帕罗斯岛百门教堂周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`住在帕里基亚老城是体验百门教堂晨昏之美的最佳选择。推荐选择由传统石屋改造的精品酒店或家庭旅馆，它们往往藏在蜿蜒的白色小巷中，推开窗就能看到教堂的钟楼，夜晚异常宁静。虽然不直接临海，但步行到港口沙滩也仅需10分钟，性价比极高。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`美食方面，出了教堂区，往港口方向走两步就有宝藏。强烈推荐一家本地人热爱的老牌小馆“To Takimi”（或类似家庭经营的老店）。别被它简陋的桌椅迷惑，坐下点一份“帕罗斯特色炖锅”（可能包含本地山羊肉、洋蓟和当季蔬菜），或者简单的油炸西葫芦花。一定要配上岛自产的“帕罗斯金酒”（一种类似茴香酒的烈酒）。午餐后，去港口边的“Cafe del Mar”点一杯冰弗雷佩（希腊冰咖啡），面对着湛蓝的海水和不远处的教堂轮廓发呆，这才是爱琴海岛屿生活的正确打开方式。记住，避开那些有大幅菜单图片和拉客员的港口一线餐厅，往里走几步，味道和价格都会更美好。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  帕里基亚城堡区（Kastro）：从教堂出发，沿着老城迷宫般的白色小巷向东北方向步行5-7分钟，就能到达这座中世纪城堡的遗址。它其实是由威尼斯时期贵族宅邸的外墙连绵而成的“居住型城堡”。如今里面仍住着居民，小巷仅容一人通过。这里游客极少，你能看到阳光下晾晒的床单、门边摆放的天竺葵，以及将古老大理石柱和浮雕直接砌入墙中的奇景。站在残垣断壁处，可以眺望教堂全景和港口，是拍照的绝佳秘密机位。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  考古博物馆：步行约10分钟即可到达。虽然规模不大，但藏品非常“硬核”，主要陈列从帕罗斯岛出土的史前到罗马时代的文物。最著名的镇馆之宝是“帕罗斯编年史”的碎片——一块大理石板上用希腊文刻写了从神话时代到公元前3世纪的古希腊重大历史事件纪年，是研究古希腊历史的无价之宝。参观完百门教堂的中世纪风貌后，再来这里看看古希腊时期的帕罗斯，你会对这个岛屿的文明厚度有更完整的认识。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`帕罗斯岛百门教堂的灵魂，不在于那传说中未现身的第100扇门，而在于它用千年的沉默，为你提供了与喧嚣世界的一次温柔隔离。当你触摸那些温润的大理石，坐在回廊下听着风声与钟声，你会明白，这座教堂最伟大的“神迹”，是它让时间慢了下来，让每一个到访的旅人，都能在爱琴海炽热的阳光下，找到内心那片宁静的阴影。它不是终点，而是一个让你重新学会“感受”的起点。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/chania-old-town-venetian-harbor-lighthouse" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈尼亚老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Chania Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/meteora-monasteries" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    梅
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅黛奥拉悬空修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meteora</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ioannina-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    约
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">约阿尼纳老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ioannina Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,154 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '波黑斯托拉茨深度旅游攻略：探秘千年巨石墓碑与奥斯曼水车的老城时光',
+  description: '探索波黑斯托拉茨(Stolac)，揭秘欧洲最集中的斯特查克巨石墓碑群与奥斯曼水车。这份深度游攻略涵盖小众景点推荐、一日游路线及实用避坑指南。',
+}
+
+export default function StolacPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '斯托拉茨', href: '/attractions/stolac' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`斯托拉茨・Stolac・波黑・黑塞哥维那-内雷特瓦州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果告诉你，在波黑南部藏着一座能同时与史前先民和奥斯曼帝国工匠对话的小城，你会心动吗？今天这份斯托拉茨私藏旅游攻略，就带你躲开常规巴尔干路线的人潮，潜入这座被布雷加瓦河温柔穿过的老城。这里被誉为“露天博物馆”，左手边是散落山野、刻满神秘符号的千年巨石墓碑（斯特查克），右手边是沿河排列、吱呀作响了数百年的奥斯曼木制水车。作为你的专属向导，这份斯托拉茨自由行指南请收好——它不只告诉你“看什么”，更会分享如何感受石头与水声中流淌的时间。准备好，我们要开始一场穿越万年的漫步了。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果告诉你，在波黑南部藏着一座能同时与史前先民和奥斯曼帝国工匠对话的小城，你会心动吗？今天这份斯托拉茨私藏旅游攻略，就带你躲开常规巴尔干路线的人潮，潜入这座被布雷加瓦河温柔穿过的老城。这里被誉为“露天博物馆”，左手边是散落山野、刻满神秘符号的千年巨石墓碑（斯特查克），右手边是沿河排列、吱呀作响了数百年的奥斯曼木制水车。作为你的专属向导，这份斯托拉茨自由行指南请收好——它不只告诉你“看什么”，更会分享如何感受石头与水声中流淌的时间。准备好，我们要开始一场穿越万年的漫步了。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`斯托拉茨`} />
+                <InfoRow label="英文名称" value={`Stolac`} />
+                <InfoRow label="正式名称" value={`Stolac`} />
+                <InfoRow label="国家" value={`波黑`} />
+                <InfoRow label="城市" value={`黑塞哥维那-内雷特瓦州`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`斯托拉茨的历史厚重得惊人，它就像巴尔干半岛的一本立体历史书。其最独特的地位，在于拥有欧洲乃至世界最密集、最精美的“斯特查克”（Stećak）史前巨石墓碑群。这些中世纪的石碑（主要集中于12-16世纪），是波黑特有的文化遗产，已被列入联合国教科文组织世界遗产名录（“斯特查克墓碑群”的一部分）。在斯托拉茨的周边山坡上，你能看到超过400块这样的石碑，它们不仅是墓碑，更是中世纪博斯尼亚人社会、宗教和艺术观念的结晶。而到了15世纪奥斯曼帝国征服后，斯托拉茨又因其丰富的水资源，发展成为重要的手工业和农业中心，那传奇的奥斯曼水车系统便应运而生。这座城市因此成了两个伟大文明层叠的现场：中世纪斯拉夫人的葬仪艺术，与奥斯曼帝国高超的水利工程智慧，在此奇妙共存，共同定义了它在欧洲历史版图中无可替代的交叉点地位。`} />
+                <InfoRow label="建筑特色" value={`这里的“建筑”很特别，一半是沉默的石头，一半是歌唱的木头。斯特查克墓碑本身就是建筑雕塑。它们多为巨大的石灰岩石板，形态敦厚朴实，有的像棺椁，有的像石柱，表面经过岁月打磨呈现出灰白、青灰或覆着苔藓的墨绿色。最迷人的是那些雕刻：阳光斜射时，浮雕深深浅浅的阴影显露出来——有漩涡状的蔓藤花纹、骑士决斗的场面、十字架、新月，还有谜一样的几何图形和鹿、马等动物，线条古朴有力，仿佛石头本身的记忆在低语。而沿布雷加瓦河岸分布的奥斯曼水车群，则是完全不同的生命力。它们由厚重的深色木材搭建，巨大的水轮因河水的常年浸润而近乎黑色，与支撑结构的原木色形成对比。当水流推动时，整个结构发出有节奏的“吱嘎—哗啦”声，水花在阳光下溅出细小的彩虹。水车旁通常连着同样木制的小磨坊，构成了一个完整、有机且极具画面感的古老工业景观带。`} />
+                <InfoRow label="建筑风格" value={`严格来说，斯托拉茨的核心景观是两种跨越时空的“功能性艺术”风格的并置。斯特查克墓碑代表的是中世纪晚期巴尔干本土的“博斯尼亚石碑风格”。它融合了基督教象征、本地异教传统乃至些许伊斯兰装饰元素的萌芽，形成了一种独特的、具象与抽象混合的民间艺术风格。在这里，你看不到教堂的飞扶壁或清真寺的洋葱顶，艺术直接作用于死亡与纪念，风格体现在那些粗犷而充满生命力的浮雕叙事上。而奥斯曼水车则体现了奥斯曼帝国实用主义与自然共生的建筑哲学。它属于传统的木结构水利工程风格，没有华丽的伊兹尼克瓷砖，却通过精确的榫卯结构、对水流力量的巧妙利用，展现出一种质朴、高效且与河流地貌完美融合的美学。这两种风格，一静一动，一关乎永恒，一关乎生计，共同谱写了斯托拉茨无需言说的建筑诗篇。`} />
+                <InfoRow label="文化价值" value={`对于当地人而言，斯托拉茨的巨石与水车不仅是景点，更是身份与日常的根基。斯特查克墓碑是家族历史与祖先记忆的地理坐标，许多本地人的根源感与之紧密相连。它们也是波黑多元文化共存的古老象征，提醒着人们这片土地在宗教分歧之前的复杂与统一。而奥斯曼水车（当地称“水车谷”），则曾是这个社区的经济命脉，磨出的面粉滋养了一代代人。尽管许多已不再运转，但它们的声音和形象已刻入城市的文化基因，成为诗歌、绘画和民间传说的灵感源泉。在现代社会，斯托拉茨以其无可比拟的遗产组合，成为反思历史层叠性、人类与自然关系以及文化遗产保护的活教材。它低调地展示着：伟大的文化价值，不仅可以存在于大教堂和宫殿，也同样存在于山野间的石碑和河畔吱呀作响的水车里。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 斯托拉茨一日游打卡路线攻略：从史前巨石到奥斯曼水车`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行步行路线推荐`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`咱们就花一天时间，悠闲地走完斯托拉茨的精华。上午（追寻石头的记忆）：建议9点左右抵达，先从城外的拉德米利亚山区域开始。这里的山坡上集中了大量斯特查克墓碑，清晨光线柔和，最适合拍照和静静观摩那些神秘雕刻。花一个半到两小时，在山野间漫步“寻宝”。中午（老城与午餐）：慢慢步行下山，进入斯托拉茨老城中心。在奥斯曼风格的老街（Čaršija）找一家家庭餐馆，尝尝用本地食材做的传统波黑菜，比如“ćevapi”肉肠或炖菜。下午（水声与时光）：饭后散步至布雷加瓦河畔，沿着“水车谷”的步道行走。这里是下午游览的重点，听着水声，看着阳光下闪耀的水花，感受与上午完全不同的灵动气息。可以参观一两个修复后仍可演示的水车磨坊。傍晚（登高望远）：如果体力尚可，可以爬上老城旁的Vidoški堡垒遗址（需短途徒步），在山顶俯瞰整个斯托拉茨老城、河流和水车群的全景，在金色夕阳中结束完美的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  “跳舞的骑士”墓碑：在拉德米利亚山的墓碑群中，留心寻找一块刻画着两名骑马骑士持长矛对决场景的石碑。雕刻异常生动，马匹腾跃的姿态、骑士身体的扭转充满动感，仿佛下一秒兵器就要撞击出声。仔细看，他们的服饰细节和中世纪的武器样式都清晰可辨，这不仅是艺术，更是历史研究者眼中关于中世纪博斯尼亚军事生活的珍贵“照片”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  漩涡与生命的符号：许多墓碑上刻有复杂、连绵不断的螺旋形或漩涡形图案。站在这些图案前，你会感到一种奇特的吸引力。它们没有起点和终点，像是能量的流动，又像是对生命轮回、宇宙秩序的抽象表达。阳光在浮雕凹槽里移动时，这些图案仿佛真的在缓缓旋转，将你带入千年前匠人雕刻时的冥想状态。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  水车的“关节”与水流：走近一座奥斯曼水车，别只看大水轮。蹲下来，仔细观察水轮轴与木质支架连接的部位，那些巨大而精准的榫卯结构，没有一根铁钉，全靠木头的智慧和摩擦力的平衡，历经百年河水湿气而不垮。再看水流冲击叶片的那一刻，水流被剖开、扬起、落下，形成一道短暂的小瀑布，哗啦声与木头的吱嘎声交织，是机械与自然最和谐的二重奏。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  奥利亚老街的石阶与光影：从水车谷走向老城时，会经过一段名为“奥利亚”的古老石阶巷道。下午时分，阳光从两侧石屋的缝隙中斜射进来，在饱经踩踏而光滑的石灰岩台阶上投下长长的、分叉的光影。空气中混合着老石头清凉的气息和远处某户人家飘出的咖啡香。每一步都踩在历史上，光影在你脚下流动，这是斯托拉茨最宁静、最充满生活质感的瞬间。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 斯托拉茨自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  避开正午探索墓地与穿着建议：拉德米利亚山的墓碑群基本无遮阴。最佳游览时间绝对是清晨或傍晚。务必穿一双防滑、适合走碎石和草坡的结实鞋子（别穿凉鞋或皮鞋）。夏季帽子、防晒霜、充足的饮用水是救命稻草。山区天气多变，带件轻便防风外套。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  尊重与安全：斯特查克墓碑是受保护的文物和古老的墓地，请勿攀爬、踩踏或在石碑上刻字。保持庄重，安静参观。水车区域地面湿滑，特别是木制平台，拍照时务必注意脚下。部分水车结构老旧，请勿攀爬或试图强行操作。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  交通与时间规划避坑：斯托拉茨的公共交通班次有限（通常从莫斯塔尔或梅久戈列有巴士）。强烈建议自驾，灵活性最高。若乘巴士，务必提前查好往返时刻表，以免滞留。老城中心餐馆在下午2-5点之间可能休息，规划好午餐时间。门票与交通方面，露天墓碑区免费，水车谷区域通常也无门票，但若进入有管理的磨坊内部参观，可能有少量捐赠费用。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 斯托拉茨周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`斯托拉茨本身住宿选择不多，但体验独特。强烈推荐住在老城内的家庭式旅馆或民宿，通常是由奥斯曼时期老石屋改造而成，房间古朴，庭院里种满花草，主人热情好客，晚上能听到隐约的流水声，沉浸感十足。餐饮方面，一定要试试“Begovina”餐厅或其附近的老城餐馆。坐在葡萄藤架下的庭院里，点一份用传统方式在铜锅（sač）里慢烤的羊肉或蔬菜，肉质酥烂，带有独特的烟熏香气。本地特色还有“sogan-dolma”（酿洋葱）和各类河鱼。别忘了配上一杯黑塞哥维那本地的葡萄酒或浓郁的波斯尼亚咖啡。这种在老石头房子里享用慢食的体验，是斯托拉茨之旅的味觉灵魂。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  达乌洛瓦洞穴：从斯托拉茨开车不远，这座巨大的喀斯特溶洞绝对值得一看。它不仅地质景观壮观，更在二战期间作为游击队医院而具有历史意义。洞内巨大的空间和战争遗迹，与斯托拉茨的地表历史形成有趣的“地上与地下”呼应。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  波奇泰利：如果时间充裕，可以驱车前往这座被誉为“石头之城”的中世纪堡垒小镇（距斯托拉茨约半小时车程）。它高踞山巅，保存完好的奥斯曼建筑群和令人屏息的峡谷风光，能让你从另一个角度领略黑塞哥维那的粗犷与壮美，是小众景点推荐清单上的明星。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`斯托拉茨的灵魂，在于它教会你如何倾听不同材质的“语言”：石头的沉默叙事与木水的欢唱交响。它不是一座用来匆匆打卡的城市，而是一个让你慢下来，亲手触摸时间断层，感受文明如何在生死与生计间找到平衡与美感的地方。在这里，历史不是教科书上的一页，而是吹过山岗的风、脚下冰凉的河水，和阳光下永恒旋转的石刻符号。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/trebinje-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特雷比涅老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trebinje Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bascarsija-old-bazaar-sarajevo" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴什卡尔希亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Baščaršija</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/pocitelj" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    波
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">波契泰利城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Počitelj</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

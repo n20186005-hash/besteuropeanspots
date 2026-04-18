@@ -1,0 +1,155 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '昂村旅游攻略：在“黄金石头村”品味博若莱的醇香与时光',
+  description: '法国昂村深度游攻略。探秘博若莱酒区完全由金黄色赭石建造的中世纪古村Oingt，提供门票、交通及一日游路线。',
+}
+
+export default function OingtPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '昂村', href: '/attractions/oingt' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`昂村・Oingt・法国・罗讷省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，想象一下：车子在博若莱起伏的葡萄园丘壑间穿行，正当你觉得满眼绿意有些单调时，一个转弯，一座在阳光下散发着蜂蜜与焦糖般光泽的村庄，猝不及防地撞进你的视野——那就是昂村。它不是“像”黄金造的，它本身就是用整块大地淬炼出的金黄色赭石，一块一块垒起来的！今天这份昂村私藏旅游攻略，就带你躲开那些千篇一律的葡萄酒庄园打卡，钻进这座被时光浸透的“黄金石头村”。这里没有门票，却需要你付出全部的感官去“阅读”。作为你的专属向导，这份自由行指南请收好，我们将一起摸索每一条小巷的温度，聆听每一块石头的低语。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，想象一下：车子在博若莱起伏的葡萄园丘壑间穿行，正当你觉得满眼绿意有些单调时，一个转弯，一座在阳光下散发着蜂蜜与焦糖般光泽的村庄，猝不及防地撞进你的视野——那就是昂村。它不是“像”黄金造的，它本身就是用整块大地淬炼出的金黄色赭石，一块一块垒起来的！今天这份昂村私藏旅游攻略，就带你躲开那些千篇一律的葡萄酒庄园打卡，钻进这座被时光浸透的“黄金石头村”。这里没有门票，却需要你付出全部的感官去“阅读”。作为你的专属向导，这份自由行指南请收好，我们将一起摸索每一条小巷的温度，聆听每一块石头的低语。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`昂村`} />
+                <InfoRow label="英文名称" value={`Oingt`} />
+                <InfoRow label="正式名称" value={`Oingt`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`罗讷省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`昂村的历史，几乎就是博若莱地区权力与财富变迁的浓缩史诗。早在公元10世纪左右，它已作为里昂大主教属地的重要前哨而存在，战略位置显赫。到了12世纪，随着博若莱地区被并入博若莱领主领地，昂村凭借其扼守交通要道的优势，迅速发展成一个繁荣的集镇，并修筑了坚固的防御城墙。它最辉煌的时期属于中世纪晚期，那时它不仅是区域性的行政和司法中心，更是博若莱北部最重要的葡萄酒贸易集散地之一。满载佳酿的马车从这里出发，驶向索恩河畔的码头，再运往法国乃至整个欧洲的宫廷与市集。这种繁荣在石头建筑上留下了不可磨灭的印记。虽然后来因战争（特别是宗教战争）和行政中心迁移而逐渐褪去政治光环，但它作为“博若莱金色心脏”的历史地位却沉淀在每一块赭石之中。如今，它被授予“法国最美丽村庄”的称号，这并非现代的美化，而是对一段漫长、坚实且闪闪发光历史的官方加冕。`} />
+                <InfoRow label="建筑特色" value={`昂村建筑的震撼，首先源于一种纯粹的“物质性”。它不是被刷成黄色，而是从大地母体中生长出的金黄。这里的赭石矿藏赋予了建筑独一无二的色彩谱系：从清晨淡雅的象牙金，到正午饱满的蜜蜡黄，再到傍晚深邃的赤金与锈红。建筑表面粗粝的质感清晰可见，石块间的灰浆勾勒出随性的线条，阳光斜射时，墙面会泛起天鹅绒般柔和的光晕。整个村庄依山而建，呈紧凑的圆形布局，仿佛一个金色的蜂巢。漫步其中，你会发现建筑的细节充满巧思：古老民居的门楣上，常有雕刻着葡萄藤、酿酒工具或家族徽章的石头；窗棂小巧而深邃，用厚重的石框保护着室内的幽静；拱廊下的阴影凉爽宜人，石头台阶被数百年脚步磨得中心凹陷、光滑如釉。最妙的是，几乎所有建材都就地取材，建筑与土地达成了完美的和谐——屋顶是当地烧制的赤陶瓦，与赭石墙身浑然一体，整个村庄就像是从这片山丘上自然隆起的一部分。`} />
+                <InfoRow label="建筑风格" value={`昂村的建筑风格，可以概括为“质朴而坚固的中世纪民用建筑”，并深受当地罗曼式风格的影响。这里没有过分华丽的大教堂，有的是一种适应生活与防御需求的务实美学。你很容易辨认出罗曼式风格的影子：厚重的石墙、小而高的窗户（利于采光和防卫）、以及简洁的半圆拱门和拱廊。这些拱门不像哥特式那样追求尖耸升腾，而是沉稳地跨立在街道两旁，撑起上方的建筑，给人一种安稳、庇护的感觉。这种风格在这里显得格外贴切，因为它完全服务于材料（赭石）的特性和当地的气候。厚墙可以抵御严冬的寒冷与盛夏的酷热，窄窗则减少了热量的流失与进入。同时，由于曾是设防村镇，建筑的整体布局充满了军事考量：街道狭窄蜿蜒，易于巷战；房屋彼此紧靠，共用山墙，外侧形成连续的防御立面。所以，昂村的“风格”不是建筑师图纸上的理论，而是生活、防御、材料与时间共同作用下的必然结果，是一种“生长出来”的风格，充满了土地的温度和人类的智慧。`} />
+                <InfoRow label="文化价值" value={`对于当地人而言，这些金色的石头远不止是建筑材料，它们是身份认同的基石，是流动的家谱。一个昂村人可能会指着某面墙说：“我祖父的祖父开采了这些石头。”这种与土地的紧密联系，塑造了他们沉稳、务实又充满自豪的性格。村庄的存在本身，就是一部关于可持续性和适应性的活教材——数百年前，人们就知道如何最低限度地干扰环境，创造出与自然共生的家园。在现代社会，昂村的文化价值日益凸显。它像一座“反速成”的纪念碑，提醒着被玻璃幕墙和钢铁森林包围的我们：有一种美，需要时间的沉淀和与土地的对话。它也是法国“最美丽村庄”协会理念的绝佳体现：保护不是冻结，而是在保存遗产精髓的同时，让社区继续充满活力地生活。在这里，你不会觉得它是一个博物馆式的空壳，而是一个依然呼吸、依然酿造着美酒、飘散着家常菜香气的真实家园。它教会游客的，是如何用谦卑和耐心去阅读一片土地的故事。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 昂村一日游打卡路线攻略：黄金小镇的完美12小时`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，故事听够了，咱们该动身了！作为你的实地向导，这份昂村一日游路线攻略会带你像本地人一样闲逛，不漏掉任何精华。上午（沉浸黄金光影）：建议9点左右抵达，把车停在村口的免费停车场。首先别急着进村，沿着停车场旁的步道往南走几分钟，那里有一个绝佳的观景台。晨光中，整个金色村庄在翠绿葡萄园的环抱下全景展开，记得先拍下这经典一幕。然后从古老的“钟楼门”进入村庄，立刻右转上坡，去参观村庄制高点的圣马蒂兰教堂，感受内部的清幽和从彩窗透下的光影。中午（品味当地滋味）：从教堂出来，沿着主街Rue du Château慢慢往下溜达，这条街本身就是风景，两侧是保存最完好的赭石建筑。挑一家有露天座位的小餐馆（比如Le Bistrot d‘Oingt），午餐务必点一道用当地博若莱葡萄酒烹制的菜肴，配上一杯新鲜的博若莱村庄级红酒。下午（探索巷弄细节）：饭后最适合深入探险。钻进主街两侧像毛细血管一样的小巷，如Rue des Remparts，这里还能看到部分古老城墙的遗迹。别忘了参观小型的“昂村遗产之家”博物馆，它由老房子改建，能帮你更系统理解村庄的历史。下午茶时间，找家面包坊买个当地特色的“糖心杏仁饼”。日落前，再次回到观景台，看夕阳如何将村庄染成炽烈的橙红色，与早晨的景象截然不同。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  观景台的“双重奏”：一定要在清晨和黄昏各去一次观景台。清晨，村庄笼罩在一层薄薄的、泛着蓝调的雾气中，金色的石头显得冷静而神秘，葡萄园上的露珠闪闪发光。而黄昏时分，西沉的太阳变成一支巨大的画笔，将每栋房屋的西山墙涂抹上炽烈的、近乎透明的橘红与绛紫色，阴影被拉得极长，整个山谷充满戏剧性的张力。这光影的二重奏，是昂村送给你最慷慨的礼物。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  圣马蒂兰教堂的玫瑰窗：这座12世纪教堂内部异常朴素，但正因如此，当阳光穿过东侧那扇不大的玫瑰窗时，效果才格外震撼。彩色玻璃投射下的光斑不是清晰的图案，而是如梦似幻的宝石色块——红如博若莱新酒，蓝如深秋晴空——它们在地面的石板上缓慢移动、交融，让整个肃穆的空间瞬间灵动起来，仿佛上帝在这里举行了一场静默的光之舞会。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  主街门楣上的“石头日记”：放慢脚步，仔细观察Rue du Château两旁古老建筑的门楣。除了常见的家族纹章，你会惊喜地发现一些充满生活气息的雕刻：一束精细的葡萄藤、一个酿酒用的压榨器模型、甚至还有一把木匠的刨子。这些不是随意的装饰，而是屋主职业或家庭核心产业的“石头名片”。它们沉默地讲述着数百年前，这里是多么繁荣的手工业者和酒农社区。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  赭石色彩的“微观世界”：凑近一面斑驳的老墙，你会发现所谓的“金黄色”是一个极其丰富的色谱。矿物质氧化程度不同，形成了赭黄、棕红、淡紫的微妙条纹；雨水流淌的痕迹像深色的泪痕；青苔在背阴处点缀着绒绒的绿；而某些石块的晶体在阳光下会突然闪烁一下，如同里面藏着细碎的金箔。这面墙就是一幅抽象的、由时间亲手绘制的油画。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  时间选择是王道：最佳游览时间是春季（5-6月）和秋季（9-10月），天气宜人，葡萄园色彩变幻，且避开了暑期法国度假大军。务必避开8月，你会和半个欧洲的游客挤在狭窄的小巷里。村庄很小，参观无需门票，但几乎所有商店和部分小博物馆周一可能休息，周日营业时间也很短，规划行程时请注意。一天时间足够深度游览。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  穿对鞋子，敬畏石板路：这是最重要的行前准备！昂村的所有街道都是古老的石头铺就，经过几个世纪的磨砺，表面光滑且多有起伏。请务必、务必、务必穿一双防滑、舒适、支撑性好的平底鞋（运动鞋或健步鞋最佳）。高跟鞋或光滑底面的鞋在这里是“灾难邀请函”，尤其是在雨后路面潮湿时。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  交通与停车智慧：自驾是最方便的方式，使用“Oingt”导航即可。村口有免费停车场，但位置有限，尽量早到。如果停车场已满，可以耐心在周边寻找路边停车位，请一定注意不要堵塞居民通道。村庄内部完全步行，机动车禁止入内。公共交通极其不便，不建议依赖。另外，村庄整体治安很好，但车内切勿留下任何显眼的行李物品，这是整个欧洲自驾的基本安全准则。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 昂村周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`昂村本身住宿选择极少，更推荐住在周边迷人的乡村民宿或邻近小镇，体验真正的法式田园生活。村庄内有一家著名的餐厅 “Le Bistrot d‘Oingt”，它就开在一栋古老的赭石建筑里，木梁天花板和石墙氛围感十足。一定要尝尝他们的“Poulet au Vin”（葡萄酒烩鸡），用的是本地博若莱葡萄酒，肉质酥烂，酱汁醇厚，是味道的升华。另一家温馨的咖啡馆 “La Maison d‘Oingt” 则适合喝杯咖啡或下午茶，尝尝他们自制的法式甜点。如果想深入体验，推荐驱车10-15分钟，在周边的如“Theizé”、“Ternand”等村庄寻找 “Chambre d‘Hôtes” （民宿）。这些民宿多是由古老的石屋改造，主人热情好客，早餐常包含自制果酱和新鲜面包，晚上可以坐在花园里，看着星空，听着虫鸣，空气中飘来远处葡萄园的清香，这才是完整的博若莱之夜。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`从昂村出发，你的博若莱金色石头探索之旅还可以继续延伸。我强烈推荐这两个小众宝藏：`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`1. 拉尔布雷勒村： 驱车仅约20分钟，你会到达另一个“法国最美丽村庄”——拉尔布雷勒。如果说昂村是浑然一体的“金色蜂巢”，那么拉尔布雷勒则像是一座建立在巨大岩石上的“空中剧场”。它的房屋层层叠叠，以令人惊叹的方式攀附在粉红色花岗岩巨岩上，风格更加粗犷奇幻。走在它高悬的栈道和穿过岩石内部的隧道里，是一种完全不同的、略带冒险感的体验。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2. 库布勒兹城堡： 距离昂村不到15分钟车程。这座文艺复兴风格的城堡优雅地倒映在自家的湖面上，被称为“博若莱的睡美人城堡”。它的花园非常优美，城堡内部装饰华美，展示了另一个层面的贵族生活。与昂村的质朴中世纪风情形成鲜明而有趣的对比，让你在同一天内领略到博若莱地区从民间到贵族的不同历史断面。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`昂村的灵魂，就铸就在这些温暖的赭石里。它不是一个被观赏的盆景，而是一个依然在呼吸的、由大地血肉构成的有机生命。在这里，你会明白，真正的奢华不是金碧辉煌，而是时光如何将最普通的泥土，淬炼成阳光的固体，将人类的生活，雕刻进大地的记忆里。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/aigues-mortes-medieval-walled-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    艾
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">艾格莫尔特十字军古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Aigues-Mortes</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ville-close-de-concarneau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    孔
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">孔卡尔诺封闭之城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ville Close de Concarneau</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/amiens-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    亚
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">亚眠大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Amiens Cathedral</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
