@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '比利亚努埃瓦-德洛斯因凡特斯旅游攻略：寻访堂吉诃德故乡的文艺复兴黄金时代',
+  description: '探索西班牙Villanueva de los Infantes深度游攻略。这座拉曼查的文艺复兴瑰宝，被考证为堂吉诃德真正的故乡，带你走进宁静广场与黄金时代的历史回廊。',
+}
+
+export default function VillanuevaDeLosInfantesPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '比利亚努埃瓦-德洛斯因凡特斯', href: '/attractions/villanueva-de-los-infantes' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`比利亚努埃瓦-德洛斯因凡特斯・Villanueva de los Infantes・西班牙・雷阿尔城省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果厌倦了西班牙热门城市的喧嚣，今天这份 比利亚努埃瓦-德洛斯因凡特斯私藏旅游攻略 ，就带你躲开人潮，钻进拉曼查平原的腹地，寻找一个被时间善待的秘密。这里不是迪士尼城堡，而是堂吉诃德骑士可能真正出发的故乡。当你站在那座被阳光烤得暖洋洋的、巨大而宁静的主广场（Plaza Mayor） 上时，四周是蜂蜜色的文艺复兴宫殿，时间仿佛瞬间倒流回16世纪的黄金时代。空气中弥漫着干草和古老石头的味道，安静得只能听见自己的脚步声和远处教堂的钟声。作为你的专属向导，这份 自由行指南 不仅会告诉你怎么看，更会带你感受那份穿越了几个世纪的、沉甸甸的古典与宁静。准备好了吗？我们出发。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果厌倦了西班牙热门城市的喧嚣，今天这份 比利亚努埃瓦-德洛斯因凡特斯私藏旅游攻略 ，就带你躲开人潮，钻进拉曼查平原的腹地，寻找一个被时间善待的秘密。这里不是迪士尼城堡，而是堂吉诃德骑士可能真正出发的故乡。当你站在那座被阳光烤得暖洋洋的、巨大而宁静的主广场（Plaza Mayor） 上时，四周是蜂蜜色的文艺复兴宫殿，时间仿佛瞬间倒流回16世纪的黄金时代。空气中弥漫着干草和古老石头的味道，安静得只能听见自己的脚步声和远处教堂的钟声。作为你的专属向导，这份 自由行指南 不仅会告诉你怎么看，更会带你感受那份穿越了几个世纪的、沉甸甸的古典与宁静。准备好了吗？我们出发。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`比利亚努埃瓦-德洛斯因凡特斯`} />
+                <InfoRow label="英文名称" value={`Villanueva de los Infantes`} />
+                <InfoRow label="正式名称" value={`Villanueva de los Infantes`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`雷阿尔城省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`别看它现在如此宁静，在16到17世纪，这里可是整个拉曼查地区政治、文化和宗教的绝对心脏。它的崛起与西班牙历史上最显赫的家族之一——卡夫雷拉家族息息相关，他们在皇室的支持下，将这里打造成一个规划有序的文艺复兴城市范本。但让它真正被载入世界文学史的，是自20世纪初以来，众多重量级学者（包括西班牙皇家学院成员）通过严密考证，认定塞万提斯笔下《堂吉诃德》故事开篇那句模糊的“拉曼查有个地方，地名我就不提了…”，所指的正是比利亚努埃瓦-德洛斯因凡特斯。他们认为书中所描述的地理环境、道路走向、甚至旅店和贵族宅邸的细节，都与这座小镇严丝合缝。因此，这里不仅仅是一个保存完好的历史街区，更被视为一个伟大的文学灵魂可能的诞生地，是现实与奇幻交织的十字路口，其历史地位因文学而获得了永恒的生命力。`} />
+                <InfoRow label="建筑特色" value={`整个小镇的建筑就是一部用石头写就的文艺复兴教科书，而主广场是其毫无争议的封面。环绕广场的建筑立面整齐划一，高耸而庄严，采用本地特有的暖调红砂岩砌成。这种石材在晨光中呈现出柔和的蜜糖色，在午后变为浓郁的金棕色，到了傍晚，则被夕阳染上醉人的玫瑰金。仔细看，建筑底层的拱廊由敦实的方柱支撑，拱券线条优雅。二楼和三楼的窗户规整对称，窗外大多装着古老的黑色铸铁阳台，阳台上往往摆放着几盆天竺葵或牵牛花，为严肃的石墙增添了一抹灵动的生机。最精彩的是建筑立面上镶嵌的无数石雕纹章，那是贵族家族的徽记，雕刻着复杂的盾牌、鹰、城堡和花饰，虽然历经数百年风雨有些模糊，但依然能感受到当年名门望族的荣耀与权势，它们就像沉默的史书，静静诉说着过往。`} />
+                <InfoRow label="建筑风格" value={`这里的核心建筑风格是纯粹而经典的西班牙文艺复兴风格，尤其属于较为严谨、理性的“埃雷拉风格”的延续。这种风格摒弃了哥特式的尖峭和繁复，追求古典的和谐、对称与庄重。在广场上，你可以清晰地看到这种美学的体现：建筑层高严格一致，窗户精准地对齐，形成强烈的韵律感。装饰元素被极度克制，仅用于重点部位，如窗户的楣饰或家族的纹章，绝无巴洛克式的喧闹与扭曲。圣安德烈斯教堂（Iglesia de San Andrés） 的钟楼是另一个典范，它没有飞扶壁，没有密密麻麻的雕像，只有清晰的几何体块向上收分，顶端是简洁的穹顶，显得稳重而有力。走在这样的街道上，你感受到的是一种理性的秩序之美，一种黄金时代西班牙帝国鼎盛时期所推崇的宏伟与自信，这与堂吉诃德脑海中那个光怪陆离的骑士世界形成了奇妙而深刻的对比。`} />
+                <InfoRow label="文化价值" value={`对于当地人而言，这个广场和小镇不仅是家园，更是一个活着的文化图腾。他们世代生活在这些古老的宫殿里，在拱廊下的咖啡馆闲聊，在教堂举行婚礼和弥撒。堂吉诃德这个文化符号早已深深融入血液，镇上有以他命名的街道、雕像，相关的研究和庆典活动是文化生活的一部分。更重要的是，这座小镇是“慢生活”和传统价值的守护者。它没有被过度旅游开发，没有成群的纪念品商店，生活节奏依然遵循着古老的钟声。对于现代社会，它提供了一个珍贵的样本：一个严格按照人文主义理想规划的城市如何穿越时间，保持其完整性与功能性。它让每一个来访者思考，什么是真正的“故乡”，是地理坐标，还是文学赋予的精神家园？在这里，历史、文学和日常生活达成了完美的和解，这种宁静而深厚的文化自信，本身就有巨大的治愈力量。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 比利亚努埃瓦-德洛斯因凡特斯一日游打卡路线攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`从广场到小巷的文艺复兴漫步指南`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的向导，我建议你至少留出一整天给这里。上午，直奔灵魂所在——主广场（Plaza Mayor）。别急着拍照，先找张拱廊下咖啡馆的户外椅坐下，点一杯咖啡，像当地人一样，花半小时静静地看着广场苏醒，光影在石柱间移动。然后，以广场为中心，顺时针探索它的四边，仰头细看每一座宫殿的纹章和阳台。紧接着，走进广场一角的圣安德烈斯教堂，花时间欣赏其内部。中午，就在广场周边找一家老餐馆，尝尝拉曼查的经典炖菜。下午，是深入探险的时间。从广场辐射出的几条主要街道，如 Calle Cervantes（塞万提斯街）、Calle de la Trinidad，都藏着无数惊喜：古老药房的瓷砖门面、带华丽大门的贵族宅邸、小巧的修道院庭院。一定要找到“堂吉诃德之家”标志和相关文学地标。傍晚前，务必再次回到广场，见证阳光将它染成金色的魔法时刻，这才是最完美的句点。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  广场光影魔术：下午四点后，西斜的阳光会像一支巨大的画笔，将广场西侧建筑的红砂岩立面一笔笔点亮。仔细观察卡夫雷拉宫（Palacio de los Cabrera） 的墙面，石材的颗粒感和细微的颜色差异会完全显现，纹章浮雕投下长长的、戏剧性的阴影，整个建筑仿佛从沉睡中醒来，散发出温暖而古老的生命力。这是摄影师和静观者一天中最珍贵的时刻。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  圣安德烈斯教堂的“天堂之窗”：走进教堂内部，别只盯着主祭坛。请抬头寻找中殿两侧高处的彩绘玻璃窗。当阳光穿透这些窗户时，会在灰白色的石柱和地面上投射出斑斓的、不断移动的光斑。尤其是那扇描绘圣灵的窗户，会在地上洒下一片鸽子形状的七彩光芒，静谧而神圣，像是古老建筑在与自然光线共舞。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  铸铁阳台上的生活气息：留意广场周围建筑二楼那些黑色铸铁阳台。它们不仅仅是装饰，更是观察当地生活的绝佳窗口。下午时分，你可能会看到某位老奶奶坐在阳台内的摇椅上打盹，白色的蕾丝窗帘被微风轻轻吹动；或者某个阳台上晾晒着雪白的床单，在干燥的拉曼查空气中飘扬。这些细微的生活场景，让宏伟的历史建筑瞬间充满了温度和烟火气。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  寻找“骑士的起点”：在 Calle de la Trinidad 等老街上，留意墙上的陶瓷牌，上面刻着堂吉诃德和桑丘的剪影，以及小说开篇的句子。站在这些牌子下，想象一下，也许四百多年前，那位瘦高的“愁容骑士”就是从这里某扇门后，牵着他的驽骍难得，怀着对世界的浪漫幻想，摇摇晃晃地出发，走向那片广阔而荒凉的平原。这种文学的沉浸感，是任何博物馆都无法复制的。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`首先，时间选择是关键。拉曼查平原气候极端，夏季（7-8月）酷热难当，广场上几乎无遮荫，体验大打折扣。最佳游览时间是春季（4-6月）和秋季（9-10月），阳光和煦，天空湛蓝。尽量避免周日和西班牙的节假日中午，因为几乎所有商店和部分餐馆都会关门，小镇会显得过于安静甚至“空城”。其次，穿着与行装：务必穿一双绝对舒适、适合长时间行走的平底鞋！小镇全是古老的石板路，高跟鞋会是一场灾难。同时，无论什么季节，带一件防风外套，平原上的风有时会很大。最后，关于人流与安全：这里几乎没有旅行团的大巴，游客多为西班牙本国文化游客，非常安全。但正因如此，小镇服务节奏很慢，请放下焦躁，享受这份缓慢。无需担心盗抢，但基本的财物贴身保管意识要有。记住，来这里不是“打卡”，而是“沉浸”，调整好心态是避最大的“坑”。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 比利亚努埃瓦-德洛斯因凡特斯周边住宿与美食深度攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`我强烈建议你在这里住一晚，感受入夜后广场被古老街灯点亮，万籁俱寂的梦幻时刻。住宿选择不多，但都很特色。可以寻找广场周边的历史住宅改造的家庭旅馆（Casa Rural），它们通常保留了古老的木梁天花板、厚重的石墙和精致的内院，主人热情好客，能给你最地道的建议。餐饮方面，广场拱廊下的 Restaurante La Bodega 是经典选择，氛围十足。一定要尝试拉曼查的特色菜：“炖鹧鸪”（Perdiz Estofada） ——用红酒和当地香料慢炖的野味，肉质酥烂，味道浓郁；或者“皮斯托曼切戈”（Pisto Manchego），类似西班牙版的炖蔬菜，香甜可口。配上一杯本地的拉曼查产区红酒或“雷塞尔瓦”白兰地，就是完美的一餐。简单直接的美味，和这座城市的气质一样，不花哨，但底蕴深厚。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果你被这里的宁静迷住，想多待一天，有两个绝佳的延伸选择。一是向西北方向驱车约20分钟，前往拉加尔塔湖自然公园（Lagunas de Ruidera Natural Park）。这是一串由瀑布和天然水坝连接的碧蓝湖泊群，镶嵌在干燥的平原上，堪称奇迹。你可以在湖边徒步、野餐，感受与文艺复兴小镇截然不同的自然野趣。另一个方向是探访周边星罗棋布的家族酒庄。拉曼查是西班牙最大的葡萄酒产区，许多小酒庄提供预约参观和品酒。深入一个酒窖，了解传统的酿酒工艺，品尝朴实的门西亚（Tempranillo）或阿依伦（Airén）葡萄酒，能从另一个维度理解这片土地的风土与热情。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`比利亚努埃瓦-德洛斯因凡特斯的灵魂，在于那种举重若轻的永恒感。它把文艺复兴的宏伟、文学的狂想，全都收束在了一座宁静的广场和几条规整的街道里。它不声张，不辩解自己是否是“真正的故乡”，只是安然地存在于拉曼查的阳光与风之中。当你离开时，带走的可能不是一张惊世骇俗的照片，而是一种心境：一种在极度有序的古典之美中，感受到的内心平静，以及对于“一个地方如何能同时承载厚重历史和轻盈梦想”的深深着迷。这里，就是堂吉诃德对抗风车时，心中可能回想起来的那个家园的模样——坚实、美丽，且永远值得为之出发。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/pedraza-candlelight-night" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩德拉萨</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pedraza</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/segovia-aqueduct" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塞
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塞哥维亚罗马水道桥</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Segovia Aqueduct</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/salamanca-old-university" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨拉曼卡大学城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Salamanca</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

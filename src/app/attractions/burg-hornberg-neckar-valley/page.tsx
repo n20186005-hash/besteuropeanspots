@@ -1,0 +1,149 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '霍恩贝格城堡深度旅游攻略：铁手骑士要塞与内卡河谷漫步指南',
+  description: '探索德国霍恩贝格城堡(Burg Hornberg)的传奇！这份深度游攻略涵盖铁手骑士格茨故居、古堡品酒及内卡河谷徒步路线，带你沉浸于中世纪史诗。',
+}
+
+export default function BurgHornbergNeckarValleyPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '霍恩贝格城堡', href: '/attractions/burg-hornberg-neckar-valley' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`霍恩贝格城堡・Burg Hornberg・德国・巴登-符腾堡`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你厌倦了人挤人的新天鹅堡，今天这份霍恩贝格城堡私藏旅游攻略，就带你躲开人潮，钻进德国西南部内卡河谷的褶皱里，去探访一座真正“有脾气”的城堡。它不像童话宫殿，而像一位肌肉虬结、拄剑而立的老兵，牢牢钉在陡峭的河谷悬崖上。这里，是文艺复兴时期那位著名的“铁手骑士”——格茨·冯·贝利辛根度过了人生后半段的传奇居所。想象一下，脚下是碧绿蜿蜒的内卡河，手中是一杯城堡自产的葡萄美酒，耳边仿佛还能听到铠甲碰撞与骑士那句著名的粗口宣言。作为你的专属向导，这份自由行指南请收好，我们将一起揭开石头背后的热血往事，并告诉你如何完美规划一日游路线，避开所有旅行团的嘈杂。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你厌倦了人挤人的新天鹅堡，今天这份霍恩贝格城堡私藏旅游攻略，就带你躲开人潮，钻进德国西南部内卡河谷的褶皱里，去探访一座真正“有脾气”的城堡。它不像童话宫殿，而像一位肌肉虬结、拄剑而立的老兵，牢牢钉在陡峭的河谷悬崖上。这里，是文艺复兴时期那位著名的“铁手骑士”——格茨·冯·贝利辛根度过了人生后半段的传奇居所。想象一下，脚下是碧绿蜿蜒的内卡河，手中是一杯城堡自产的葡萄美酒，耳边仿佛还能听到铠甲碰撞与骑士那句著名的粗口宣言。作为你的专属向导，这份自由行指南请收好，我们将一起揭开石头背后的热血往事，并告诉你如何完美规划一日游路线，避开所有旅行团的嘈杂。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`霍恩贝格城堡`} />
+                <InfoRow label="英文名称" value={`Burg Hornberg`} />
+                <InfoRow label="正式名称" value={`Burg Hornberg`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`巴登-符腾堡`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`在欧洲纷乱的骑士时代与宗教改革浪潮中，霍恩贝格城堡因一位租客而声名大噪——格茨·冯·贝利辛根。他可不是童话里的王子，而是一位真实的、桀骜不驯的雇佣兵骑士。他在战争中失去了右手，装上了一只著名的铁制义肢，“铁手骑士”的称号由此传遍天下。歌德和萨克斯都曾以他为原型创作，让他成了德意志骑士精神一个复杂又鲜活的象征。1504年，格茨在围攻兰茨胡特时失去了这座城堡，但命运弄人，几十年后他又以租客的身份回到了这里，并在此度过了相对平静的晚年，直至去世。因此，城堡的历史地位非常独特：它不仅是中世纪军事要塞的典范，更是一位传奇人物最终的精神归宿，见证了骑士阶层从武力强权向土地贵族转型的缩影。它的一砖一石，诉说的不是王室的浪漫，而是关于生存、抗争与最终和解的硬核故事。`} />
+                <InfoRow label="建筑特色" value={`第一眼看到霍恩贝格城堡，你会被它那种毫不妥协的防御姿态震撼。它不是轻盈地“坐落”在山头，而是从红砂岩悬崖里“生长”出来，与地基浑然一体。主体建筑采用厚重的深色本地砂岩，历经风雨冲刷，颜色沉郁得像陈年的橡木桶。城墙高耸而陡直，几乎没有多余的装饰，窗户狭小，是典型的防御性设计。但走近细看，你会发现不同时代的叠加：部分后期修建的居住区域，屋顶覆盖着温暖的暗红色陶瓦，在阳光下与森林的绿、天空的蓝形成一幅沉稳的油画。最引人注目的是那座高大的、带有锥形顶的主塔楼（望塔），它像一枚定海神针，牢牢控制着整个河谷的视野。城堡建筑群随着山势错落，庭院、酒窖、居所层层叠叠，步行其中，脚下是凹凸不平的石板路，手边是冰凉粗粝的石墙，那种触感直接把你拉回数百年前。`} />
+                <InfoRow label="建筑风格" value={`霍恩贝格城堡的建筑风格很难用单一的“哥特式”或“文艺复兴式”来概括，它更像一部石头的编年史，核心是中世纪晚期的要塞风格。这种风格的首要任务是坚固与防御，所以你看到的是敦实的体量、狭小的射箭孔、以及易于防守的狭窄入口。然而，在格茨·冯·贝利辛根居住和后续的修缮时期，文艺复兴之风已经吹来，为这座军事堡垒注入了一些生活气息。这体现在内部某些房间的布局上（尽管原始内饰保留不多），开始更注重采光和居住的舒适性，而不仅仅是安全。后期修复的部分屋顶和窗户形式，也带有德式文艺复兴的简洁与实用特征。总的来说，它的风格是“混血的”：地基和主体是冷峻的战士铠甲，而后来添加的部分，则是铠甲之下稍微柔软一些的衬袍，见证着城堡从纯军事堡垒向兼具居住功能的贵族庄园的演变。`} />
+                <InfoRow label="文化价值" value={`对于当地人而言，霍恩贝格城堡远远不止一个旅游景点。它是地域身份的象征，是内卡河谷历史叙事的核心章节之一。城堡脚下连绵的葡萄园，几个世纪以来一直出产品质优秀的葡萄酒，“霍恩贝格”本身就是一个备受尊敬的葡萄酒品牌。这种将军事历史与精细农业（葡萄种植）的结合，非常典型地体现了德国西南部的文化基因：既尚武刚毅，又热爱生活与技艺。在现代社会，格茨·冯·贝利辛根的故事——尤其是他那句“舔我屁股”（Er kann mich im Arsche lecken）的著名反抗宣言——早已成为德语文化中反抗强权、追求自由意志的一个标志性符号。城堡因此也成为了一种精神地标，吸引着那些对叛逆英雄、真实历史而非甜美童话感兴趣的访客。它提醒人们，历史是由有血有肉、有缺点也有壮举的个体书写的。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 霍恩贝格城堡一日游打卡路线攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，攻略开始！我推荐的这条路线，能让你在一天内充分体验城堡的精髓，节奏张弛有度。**上午**：别急着冲上城堡。先从内卡河谷对岸或下方的徒步小径开始，比如从城堡山脚的小镇古滕贝格（Guttenberg）出发，沿着标记清晰的“内卡河小道”徒步约30-45分钟。这段路是关键，你能从多个绝佳角度仰望城堡雄踞悬崖的全景，拍下明信片般的照片。**中午**：过桥，沿蜿蜒的山路抵达城堡入口。先别急着进核心区，在城堡庭院感受一下氛围，然后直奔主题——**城堡餐厅**。一定要在拥有古老拱顶的餐厅里用午餐，品尝用当地食材烹制的德式佳肴，并务必点一杯城堡自产的“霍恩贝格”葡萄酒，让味蕾先沉浸于历史。**下午**：饭后开始正式探索。参观保留着骑士大厅和小博物馆的区域，寻找格茨的踪迹。随后，参加一场城堡酒窖的导览品酒会，这是精华所在。最后，登上主望塔，360度俯瞰内卡河谷的壮丽景色，将蜿蜒的河流与翡翠般的葡萄园尽收眼底。**傍晚**：轻松下山，可以去河谷边的葡萄酒庄直接买几瓶酒作为纪念，或者在夕阳下沿着河畔散散步，结束完美的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>“铁手”的凝视</strong>：在城堡的小型展览馆里，留心寻找格茨·冯·贝利辛根的肖像复制品。重点看他的眼睛和那只著名的铁手。画像中的眼神通常被描绘得锐利而略带挑衅，完全符合他“麻烦制造者”的声誉。仔细观察铁手义肢的构造细节——那些关节、铰链，是16世纪工程学与生存意志结合的惊人产物。想象一下，这位骑士就是用这只铁手握剑、执缰，甚至（据传说）能够握笔写信，一种跨越时空的坚韧感会瞬间击中你。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>骑士厅的石壁与光影</strong>：城堡内的骑士厅（Rittersaal）或许不复当年装饰，但巨大的石砌壁炉和厚重的墙壁本身就是故事。下午的阳光会从窄窗斜射进来，在粗糙的石面上切割出明暗交错的几何图形。站在厅堂中央，闭上眼睛，几乎能听到虚拟的回响：或许是大厅里曾经的宴会喧哗，或许是格茨与他的伙伴们争论战术的低沉嗓音。这里的空间有一种冷冽而空旷的音效，让你的想象能自由驰骋。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>酒窖里的橡木桶与气味</strong>：参加地窖导览，深入城堡地下阴凉的石窟酒窖。这里排列着一个个巨大的旧橡木桶，空气里弥漫着无法复制的复合香气——是陈年酒液的醇香、潮湿石头上的苔藓味、以及橡木本身散发出的微甜气息。用手触摸冰冷的桶壁，上面可能还有百年前留下的粉笔字迹。导游用德语（通常有英文摘要）讲解城堡葡萄园的风土，在昏黄的灯光下，你会感觉时间在这里缓慢发酵，历史与美酒达成了最醇厚的和解。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>望塔之巅的河谷画卷</strong>：攀登望塔的螺旋石梯是小小的挑战，但登顶那一刻，一切都值了。风立刻变得强劲，吹走所有疲惫。放眼望去，内卡河像一条闪亮的银绿色丝带，在广阔的谷地中画出巨大的“U”形弯。对岸的森林郁郁葱葱，脚下的葡萄园排列成整齐的绿色线条。找一找远处其他山顶城堡的尖顶，你会明白为何这里是兵家必争之地。这个全景视角，是理解城堡地理战略意义的最直观方式，也是拍摄震撼风光大片的最佳机位。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>时间选择与人流</strong>：最佳游览时间是<strong>平日的上午或下午稍晚</strong>。周末和夏季午后常有旅行大巴和本地家庭游客，酒窖导览可能爆满。春秋两季（4-5月，9-10月）气候最舒适，葡萄园景色也美。夏季务必提前在城堡官网查看餐厅和酒窖导览的开放时间并考虑预约，尤其是品酒体验，临时去很可能没位置。冬天部分户外区域和餐厅可能关闭或缩短营业时间，行前务必确认。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿着与装备</strong>：这座城堡是“真材实料”的古迹，拒绝高跟鞋和光滑鞋底！<strong>必须穿防滑耐磨的徒步鞋或运动鞋</strong>，因为内部石阶陡峭不平，庭院石板路可能湿滑。即使夏天，地窖里也很阴凉，建议带一件薄外套。如果计划河谷徒步，舒适的鞋子更是必不可少。带上一个小背包，方便携带水、相机和之后购买的葡萄酒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与防盗须知</strong>：城堡位于山顶，自驾最方便，停车场通常充足（但旺季也可能满）。若乘坐公共交通（火车到Neckarzimmern站，再转公交或步行上山），务必提前查好极稀疏的公交时刻表，错过一班可能等很久。城堡内部参观时，随身小包建议斜挎在前。虽然治安总体良好，但游客聚集地仍需警惕顺手牵羊。自驾离开时，车内切勿遗留任何显眼的行李或物品，尤其是购买的葡萄酒，这是欧洲自驾游的通用安全准则。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 霍恩贝格城堡周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>餐饮</strong>：毫无疑问，<strong>城堡餐厅（Schlossrestaurant Burg Hornberg）</strong>是必须体验的一站。不仅因为它是格茨可能吃过饭的地方，更因为其地道的风味。强烈推荐尝试当地的野味菜肴，比如鹿肉或野猪肉，通常配以红卷心菜和手工面条（Spätzle）。当然，主角是搭配的葡萄酒——一定要点一杯“霍恩贝格堡”的雷司令或黑皮诺，感受从脚下土地直接到餐桌的风土。如果餐厅订满，山下小镇如尼卡齐默恩（Neckarzimmern）也有许多质朴的“Gasthof”（家庭旅馆式餐厅），提供实惠美味的德国家常菜和本地酒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>住宿</strong>：想拥有更完整的城堡体验？可以考虑预订<strong>城堡本身的酒店客房</strong>（如果开放），部分房间由古建筑改造，虽现代舒适，但推窗即是史诗级景色。更推荐的是住在河谷沿岸的葡萄酒庄民宿（Weingut或Ferienwohnung）。例如，附近有许多家族经营的酒庄提供住宿，你可以在葡萄园环绕中醒来，直接向庄主买酒，听听他们讲述本地故事。这种住宿体验安静、深入，且能品尝到最新鲜的当季食材与美酒，性价比往往高于标准酒店。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从霍恩贝格城堡出发，你的中世纪之旅可以轻松延伸。强烈推荐去<strong>山脚下的姐妹城堡——古滕贝格城堡（Burg Guttenberg）</strong>。它步行或短途车程可达，保存极为完好，至今仍有家族居住。这里的亮点是<strong>欧洲顶尖的猛禽饲养与飞行表演中心</strong>。每天定时的飞行表演，可以看到鹰、隼、雕在古老的城堡背景下翱翔，那种中世纪狩猎的场景再现无比震撼，尤其受家庭游客喜爱。此外，在尼卡齐默恩小镇，可以寻访与格茨相关的更多遗迹和介绍牌。如果你对“铁手骑士”的故事深度着迷，不妨驱车前往<strong>格茨的出生地——雅格斯泰恩城堡（Burg Jagsthausen）</strong>，那里有专门的博物馆和每年夏季上演的“格茨骑士剧”，让你完全沉浸在这位传奇人物的生平叙事中。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "霍恩贝格城堡的魅力，在于它剥离了童话的糖衣，呈现出一段粗粝、真实而充满人性张力的历史。它不只是一个俯瞰风景的观景台，而是一本用石头、葡萄藤和铁手写就的立体传记。在这里，你品味的不仅是顶级葡萄酒的醇香，更是一种在逆境中咆哮、最终与生活和土地达成和解的坚韧灵魂。它让你明白，真正的传奇，往往存在于那些有裂痕、有棱角、会骂人但永不低头的石缝之中。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/wuerzburg-residence" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维尔茨堡主教宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Würzburg Residence</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/speyer-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施佩耶尔大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Speyer Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/amberg-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    安
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">安贝格老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Amberg Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

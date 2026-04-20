@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '马尔法海角红塔自由行指南：探秘骑士团血色要塞与天涯海角攻略',
+  description: '深入探索马耳他马尔法海角的圣阿加莎塔（红塔）深度游攻略，包含历史、交通、拍照打卡点及一日游路线，揭秘这座悬崖上的孤独红色堡垒。',
+}
+
+export default function RedTowerMelliehaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '马尔法海角红塔（圣阿加莎塔）', href: '/attractions/red-tower-mellieha' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`马尔法海角红塔（圣阿加莎塔）・St Agatha‘s Tower (Red Tower)・马耳他・梅列哈`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，如果你厌倦了人挤人的网红景点，今天这份马尔法海角红塔私藏旅游攻略，就带你躲开人潮，去马耳他西北角体验真正的“世界尽头”。开车驶过梅列哈最后一段崎岖道路，当赭红色的方形塔楼如同从火星表面拔地而起，孤傲地矗立在灰黄色石灰岩海角之巅时，你会瞬间明白什么叫“荒凉美学”。这里没有咖啡厅，没有纪念品商店，只有地中海的狂风、无垠的湛蓝和一部用石头写成的史诗。作为你的专属向导，这份自由行指南将帮你规划好一切，从如何抵达这片天涯海角，到捕捉日落金光的绝佳机位，还会附上实用的避坑指南，让你安心享受这份孤独的壮丽。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`朋友，如果你厌倦了人挤人的网红景点，今天这份马尔法海角红塔私藏旅游攻略，就带你躲开人潮，去马耳他西北角体验真正的“世界尽头”。开车驶过梅列哈最后一段崎岖道路，当赭红色的方形塔楼如同从火星表面拔地而起，孤傲地矗立在灰黄色石灰岩海角之巅时，你会瞬间明白什么叫“荒凉美学”。这里没有咖啡厅，没有纪念品商店，只有地中海的狂风、无垠的湛蓝和一部用石头写成的史诗。作为你的专属向导，这份自由行指南将帮你规划好一切，从如何抵达这片天涯海角，到捕捉日落金光的绝佳机位，还会附上实用的避坑指南，让你安心享受这份孤独的壮丽。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`马尔法海角红塔（圣阿加莎塔）`} />
+                <InfoRow label="英文名称" value={`St Agatha‘s Tower (Red Tower)`} />
+                <InfoRow label="正式名称" value={`St Agatha‘s Tower (Red Tower)`} />
+                <InfoRow label="国家" value={`马耳他`} />
+                <InfoRow label="城市" value={`梅列哈`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座塔在马耳他的历史棋盘中，是一枚至关重要的“边塞棋子”。17世纪中叶，圣约翰骑士团统治马耳他，但海盗和奥斯曼帝国的袭击始终是噩梦。为了守护岛屿北部的软肋——马尔法海角这个天然登陆点，大团长拉蒙·佩雷洛斯·罗卡富尔在1649年下令建造了它。它可不是孤军奋战，而是与科米诺岛上的圣玛丽塔、戈佐岛上的瞭望点构成了一个三角形的视觉警报网络。一旦发现敌船，塔顶守卫会点燃狼烟，信号在几分钟内就能传遍群岛，堪称17世纪的“军事互联网”。在1565年“马耳他大围攻”的惨痛教训后，骑士团学会了主动防御，红塔就是这种战略思维的结晶。它见证了马耳他从一个饱受侵袭的礁石，成长为地中海坚不可摧的堡垒的关键一步。`} />
+                <InfoRow label="建筑特色" value={`第一眼看到它，你一定会被那抹浓烈的赭红色震撼。那不是涂料，而是将本地石灰岩与“马耳他红土”（一种富含氧化铁的粘土）混合后制成的砂浆的本色，仿佛塔身浸染了地中海的落日与古老的血与火。塔楼是标准的“骑士团方形塔”样式，敦实、坚固，没有任何多余的优雅线条。四角各有一个方形的垛口小塔楼，像四只警惕的眼睛凝视着四方海面。墙壁厚得惊人（底部超过4米），窗户少而小，都是实用的狭长射击孔。请走近触摸它的墙面，粗糙的颗粒感在阳光下散发着暖意，与脚下锋利苍白的石灰岩地面形成奇妙对比。最精彩的是塔顶平台，沿着狭窄的旋转石梯爬上后，360度的全景如同一幅壮阔画卷猛然铺开——那是功能与形式在极端环境下最纯粹的结合。`} />
+                <InfoRow label="建筑风格" value={`红塔是军事功能主义建筑的典范，或者更具体地说，属于“骑士团防御工事风格”。它摒弃了同时期欧洲流行的巴洛克浮华或文艺复兴的对称美学，一切设计只为生存和战斗服务。方形的结构最利于防守，减少受攻击面。平顶设计方便架设火炮和让守卫快速移动。那些你看着像装饰的垛口（城齿），其实每一个凹槽都精确计算过，是为火枪手提供射击和掩护的生死空间。颜色也不是为了好看，红色的砂浆据说更为坚固防水。这种风格的核心就是“实用即正义”，它不试图融入风景，而是以一种强硬、宣告主权的姿态，成为风景的主宰。在这里，你能读懂骑士团作为军事修会的本质：虔诚，但更崇尚武力与秩序。`} />
+                <InfoRow label="文化价值" value={`对今天的马耳他人而言，红塔远不止是一座古迹。它是民族坚韧精神的地理坐标。在二战期间，它再次被启用作为防空观察哨，守护岛屿免遭空袭。这种“时刻准备着”的防御基因，已深植于岛民性格之中。如今，它不再是战争的前线，而是变成了心灵的前线。它是本地人远离喧嚣、静思漫步的热门地点，是摄影师镜头下永恒的地标，也是历史教育中“居安思危”的活教材。修复后的红塔内部设有小型展览，用实物和图文讲述那段烽火岁月，让游客，尤其是年轻一代，理解和平的来之不易。它孤独的身影，不断提醒着人们：这片美丽岛屿的宁静，曾由无数这样的石头哨兵，在风霜中默默捍卫。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 马尔法海角红塔一日游打卡路线攻略：从登塔观海到悬崖漫步`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行精华路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好啦，咱们的探险正式开始！我建议你把整个行程安排在半天到一天。上午10点左右从主岛中部或梅列哈镇出发，自驾或乘坐出租车前往（这是最方便的方式，公交班次很少）。抵达后，先在塔外环绕一圈，感受它的雄伟与孤独，拍下经典远景。接着进入塔内参观（门票很便宜），慢慢看完每一层的展览，了解它的前世今生。中午时分，爬上塔顶，这时光线最棒，蔚蓝的地中海和科米诺、戈佐两岛尽收眼底，就在这里享用你自带的简单午餐（三明治加水果，请带走所有垃圾）。下午，进行海角徒步探索：从红塔向西，沿着悬崖边的小径走大约15分钟，你会看到一片更原始的荒野，那里是拍摄红塔全景和悬崖的绝佳位置。日落前一个小时，务必回到塔附近，看着夕阳将红塔染成熔金般的色彩，这是全天的高光时刻。最后，伴着晚霞心满意足地返程。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  塔顶的“四方之眼”：一定要轮流站在四个角落的垛口后面。每个方向的视野都是一部不同的电影：北面，科米诺岛的碧绿海水像蓝宝石；西面，是无尽的地平线；东面，可回望梅列哈蜿蜒的海岸线；南面，则是马耳他主岛干旱的丘陵。试着想象17世纪的士兵在这里日夜守望，那种混合着孤独、责任与恐惧的心情。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  入口上方的骑士徽章：抬头看主入口拱门上方，雕刻着当时下令建造的大团长拉蒙·佩雷洛斯·罗卡富尔的纹章。虽然历经风雨有些模糊，但依然能辨认出骑士团的十字元素。用手轻轻触摸石头上深刻的痕迹，仿佛能直接触碰到那位从未谋面的骑士团领袖的决心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  墙壁内部的狭长射击孔：从塔内观察那些内宽外窄的细长窗孔。光线像一把利刃从中劈入，在昏暗的室内形成一道光柱，尘埃在其中飞舞。将眼睛贴近内侧，你的视野会被强制压缩成一条窄缝，这正是当年守塔士兵看到的世界——一个充满潜在威胁、需要极度专注的海平面。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  西侧悬崖的天然“相框”：徒步到塔西侧约200米处，你会发现几块巨大的、被风蚀成奇形怪状的石灰岩。蹲下来，透过岩石间的天然孔洞或缝隙去框住红塔，它会瞬间变成一幅挂在自然画廊中的油画，前景的荒凉岩石与背景的孤塔、蓝海构成极致的层次感。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 红塔自由行避坑指南与行前须知：交通、着装与安全提示`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`首先，交通是最大挑战。公共交通几乎不现实，班次极少且下车后需长途步行。强烈建议租车自驾或使用Bolt/Freenow等打车软件。自驾请注意，最后一段是未铺装的土石路，小心慢行。其次，穿着绝对要专业：一双防滑耐走的登山鞋或运动鞋是必需品，海角风大，岩石锋利，凉鞋或高跟鞋等于“自杀行为”。带上防风外套，哪怕夏天也如此，悬崖上的风能吹到你怀疑人生。第三，物资准备充分：整个区域没有任何商业设施，务必自带充足的饮用水和干粮。同时带上防晒霜、帽子和墨镜，这里毫无遮荫。最后是安全：悬崖边没有护栏！拍照时务必远离边缘，风大的日子更要格外小心。看管好随身物品，虽然人少，但也不要将财物留在车内显眼处。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 马尔法海角周边住宿与美食攻略：梅列哈海滩小镇推荐`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`红塔本身不适合住宿，最近的补给和住宿基地是迷人的梅列哈镇。我推荐两家体验绝佳的餐厅：一家是“Ta‘ Kris”，藏在梅列哈老街里，家庭经营，能吃到最地道的马耳他炖兔肉（Fenek）和招牌鱼肉馅饼（Lampuki Pie），味道浓郁，分量实在。另一家是“Mellieha Bay Restaurant”，就在美丽的梅列哈海滩旁，坐在露天座位，可以一边享用新鲜的海鲜拼盘，一边看夕阳沉入海湾，氛围感满分。住宿方面，可以选择梅列哈湾旁的度假酒店，如Mellieha Holiday Centre，性价比高，出门就是沙滩；或者选择镇上的精品民宿，更能感受本地生活。住在这里，去红塔车程只需15-20分钟，非常方便。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`从红塔驱车向南不到10分钟，就能抵达梅列哈的“老盐田”（Salini Salt Pans）。这不是热门景点，却充满野趣。数百年来，当地人在这里利用浅浅的岩池晒制海盐。当夕阳西下，盐田里浅浅的海水倒映着天空，分割成无数个粉紫色的小镜面，宁静而魔幻。另一个方向，可以探索阿姆贾尔湾（Anchor Bay），那里有著名的“波皮村庄”电影拍摄地，虽然略商业化，但海湾本身非常漂亮，海水清澈见底，适合在红塔的硬核历史之旅后，来个轻松的海边放松。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`红塔的灵魂，是 “孤独的守望” 。它矗立在那里，不是为了被赞美，而是为了完成使命；它的美，不是精致易碎的，而是历经风沙与烽火淬炼出的、带有粗粝感的永恒。当你离开时，那抹天涯海角上的红色剪影，会久久印在心底。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/cittadella-citadel-gozo" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维多利亚城堡（戈佐岛城堡）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cittadella</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/salt-pans-of-xwejni" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    戈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">戈佐岛盐田</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Salt Pans of Xwejni</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/st-pauls-catacombs" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉巴特圣保罗地下墓穴</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">St. Paul‘s Catacombs</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

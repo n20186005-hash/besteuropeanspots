@@ -1,0 +1,152 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '圣莫里茨夏日深度游攻略：揭秘冰川湖与刮画石屋的隐秘宝藏指南',
+  description: '探索瑞士圣莫里茨恩嘎丁峡谷的夏日仙境。本攻略带你避开人潮，深度游历清澈冰川湖群、独特刮画石屋，体验奢华滑雪胜地之外的阿尔卑斯灵魂。',
+}
+
+export default function StMoritzEngadinSummerGuidePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '圣莫里茨（恩嘎丁峡谷）', href: '/attractions/st-moritz-engadin-summer-guide' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`圣莫里茨（恩嘎丁峡谷）・St. Moritz (Engadin Valley)・瑞士・格劳宾登州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`提到圣莫里茨，你的脑海是不是立刻被钻石、貂皮和滑雪板填满了？嘿，朋友，今天这份私藏旅游攻略，就要带你彻底打破这个刻板印象。我们暂时把冬季的喧嚣留给那些追逐名流身影的人，一起潜入圣莫里茨的夏日——一个被大多数旅行指南匆匆略过的平行世界。这里不是瑞士的“客厅”，而是它的“后花园”。想象一下，火车缓缓驶入恩嘎丁峡谷，窗外不再是冰天雪地，而是松涛如海的墨绿，以及像散落蓝宝石一样镶嵌在山谷里的冰川湖。作为你的专属向导，这份自由行指南请收好，我们将一起探索如何避开昂贵的冬季人潮，用最自在的方式，邂逅一个清澈、宁静、充满大地艺术感的圣莫里茨。准备好你的徒步鞋和好奇心了吗？我们的避坑之旅，现在开始。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`提到圣莫里茨，你的脑海是不是立刻被钻石、貂皮和滑雪板填满了？嘿，朋友，今天这份私藏旅游攻略，就要带你彻底打破这个刻板印象。我们暂时把冬季的喧嚣留给那些追逐名流身影的人，一起潜入圣莫里茨的夏日——一个被大多数旅行指南匆匆略过的平行世界。这里不是瑞士的“客厅”，而是它的“后花园”。想象一下，火车缓缓驶入恩嘎丁峡谷，窗外不再是冰天雪地，而是松涛如海的墨绿，以及像散落蓝宝石一样镶嵌在山谷里的冰川湖。作为你的专属向导，这份自由行指南请收好，我们将一起探索如何避开昂贵的冬季人潮，用最自在的方式，邂逅一个清澈、宁静、充满大地艺术感的圣莫里茨。准备好你的徒步鞋和好奇心了吗？我们的避坑之旅，现在开始。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`圣莫里茨（恩嘎丁峡谷）`} />
+                <InfoRow label="英文名称" value={`St. Moritz (Engadin Valley)`} />
+                <InfoRow label="正式名称" value={`St. Moritz (Engadin Valley)`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`格劳宾登州`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`圣莫里茨的故事远早于它成为“顶级滑雪胜地”的标签。它的历史根植于古老的恩嘎丁山谷，这条峡谷是连接南北欧的重要通道，罗马时期就已显其战略价值。而圣莫里茨本身的转折点，源于一场意外的“温泉神话”。据说在19世纪中叶，酒店老板约翰内斯·巴德鲁特与一位英国客人打赌，声称客人即使在冬天也能穿着夏装享受户外阳光。这个赌约成功吸引了第一批冬季游客，从此改写了阿尔卑斯山区冬季“闭关”的传统，奠定了圣莫里茨作为冬季旅游发源地和世界顶级度假胜地的地位。它不仅是两届冬奥会的举办地，更是一种生活方式的象征。但在这一切奢华名声之下，它依然是那个恩嘎丁文化区的核心一员，保存着罗曼什语（瑞士第四官方语言）的古老血脉，见证着阿尔卑斯山民与自然共处千年的智慧。`} />
+                <InfoRow label="建筑特色" value={`漫步在圣莫里茨湖畔或周边村庄，最抓人眼球的绝不是千篇一律的现代豪华酒店，而是一栋栋被称为“刮画石屋”的独特建筑。它们的外墙是乳白或浅黄的灰泥，但奇妙之处在于，墙面被“刮”出了精美的图案，露出底下深灰色的底色。这种名为“Sgraffito”的技艺，让每一面墙都像一幅巨大的石板素描。你会看到墙上刻画着对称的几何花纹、神话中的动物、丰饶的果实藤蔓，或是守护家族的家徽。阳光斜照时，这些凹凸的纹理会形成微妙的光影，让静态的建筑墙面仿佛拥有了呼吸的韵律。房子的窗框和门楣通常由厚重的深色木材制成，与浅色墙面形成强烈对比，屋顶则是厚重的片岩，压着整个建筑的线条，显得敦实而安稳。这些细节共同构成了恩嘎丁地区独一无二的视觉名片，充满了手工艺的温度和大地艺术的质朴美感。`} />
+                <InfoRow label="建筑风格" value={`这里的建筑风格可以统称为“恩加丁风格”，它是阿尔卑斯本土建筑与文艺复兴装饰艺术的独特融合。其核心是功能主义与美学表达的完美结合。厚重的石墙和深挑的屋檐是为了抵御严冬的大量积雪；小而深的窗户是为了保温。而外墙上的“刮画”装饰，则是15至17世纪从意大利北部传入的文艺复兴艺术影响。这种风格在这里不是贵族宫殿的专属，而是深入民间的普通住宅艺术。你几乎在每一个村庄都能看到。它通俗地体现在：当你走近一栋房子，首先会被墙上那些“画”出来的花纹吸引，感觉像走进了一本立体的故事书；然后你会发现，这些华丽的装饰与极其实用、坚固的建筑结构毫不冲突。这是一种“为生活而美”的风格，它告诉你，即使在条件艰苦的高山，人们依然有追求艺术、用图案讲述家族历史和信仰的渴望。奢华在这里有了另一种定义——不是材料的堆砌，而是文化与生存智慧在建筑上的诗意表达。`} />
+                <InfoRow label="文化价值" value={`对于当地人而言，圣莫丁不仅是“全球富豪的游乐场”，更是他们世代生存的家园。刮画石屋及其代表的恩嘎丁文化，是罗曼什人身份认同的坚实堡垒。在全球化浪潮中，这种独特的建筑艺术和手工艺得以保存和复兴，本身就是一种文化抵抗和自信。对于现代社会，圣莫里茨提供了两种截然不同的价值镜像：冬季，它代表着人类挑战自然极限（冰雪运动）、追求极致奢华与社交的欲望；夏季，它则揭示了阿尔卑斯地区最本质的吸引力——人与自然的和谐共生、慢节奏的山居智慧、以及对本土文化遗产的珍视。它像一个双面镜，一面映照出现代消费主义的顶峰，另一面则映照出可持续、深度的生活方式可能。越来越多的旅行者开始追寻后者，这促使当地在发展高端旅游业的同时，也必须小心翼翼地平衡生态保护与文化传承，让圣莫里茨的灵魂不至于在闪光灯下迷失。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 圣莫里茨恩嘎丁峡谷一日游打卡路线攻略：从湖光山色到刮画石屋`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行徒步游览路线推荐`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好啦，我的旅行搭子，咱们的一日漫游现在就启程！别担心，这条路线节奏舒缓，风光无限，专为想要深度体验而非走马观花的你设计。上午（9:00-12:30），我们从圣莫里茨镇中心出发，第一站直奔圣莫里茨湖。别坐车，沿着湖滨小径慢慢走，清晨的湖面像一块巨大的、静止的绿松石，倒映着考尔维利亚山的轮廓。深呼吸，那是松针和雪水混合的清冽空气。绕湖半周后，乘坐缆车登上考尔维利亚，这里冬季是雪道，夏季则是开满野花的空中草原。俯瞰整个恩嘎丁峡谷，数个冰川湖如珠链般串联的景色，绝对是你手机壁纸的诞生地。中午（12:30-14:00），乘缆车下山，在湖边找一家有露天座位的餐厅，尝尝地道的恩嘎丁果干派或阿尔卑斯通心粉，享受阳光午餐。下午（14:00-17:30），是我们探索文化精华的时间。乘坐一段短暂的邮政巴士或骑行，前往邻近的切莱里纳或锡尔斯村庄。这里的刮画石屋更加密集和原生态。准备像个侦探一样，穿梭在窄巷中，仰头寻找外墙上的每一幅“壁画”，解读那些古老的符号。最后，在夕阳西下前，回到圣莫里茨湖的另一侧，看金色的光线如何为山谷和石屋披上温暖的外衣，为完美的一天画上句号。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  圣莫里茨湖的“变色魔法”：千万不要以为它只是个普通的湖。在一天的不同时间，因为光线、藻类和矿物质成分，湖水的颜色会从翡翠绿、松石蓝渐变到近乎墨黑的深蓝。正午阳光直射时，你能清晰地看到湖底卵石的纹路，那种透明度，仿佛整个湖是一块有生命的水晶。静静坐在湖边，你会听到细微的波浪轻拍岸边的“唰唰”声，混合着远处牛铃的叮当响，这是最纯净的阿尔卑斯白噪音。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  刮画石屋的门楣密码：在切莱里纳村，请特别留意一栋房屋大门上方的刮画。那里常常刻有建造年份（如“ANNO 1683”）和屋主的姓名缩写，有时还会有一个精美的图案，比如一颗松树、一只鹿或一个太阳。这不仅是装饰，更是家族的“不动产证书”和信仰宣言。用手轻轻触摸（请务必温柔）那些被时光打磨得略微圆润的刮痕，你能感受到几个世纪前，屋主怀着怎样的自豪与期盼，将这份印记留给了未来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  考尔维利亚的“野花地毯”：夏季的考尔维利亚山顶缆车站旁，雪道变成了高山草甸。蹲下来，你会发现自己置身于一个微观宇宙：龙胆花闪烁着耀眼的蓝色，雪绒花毛茸茸的花瓣在风中轻颤，还有无数叫不出名字的紫色、黄色小花。仔细看，花瓣和草叶上还挂着清晨的露珠。这里的空气稀薄而清甜，混合着泥土和百草的芬芳。躺下来，看云影在山谷间快速移动，你会瞬间理解阿尔卑斯山民对这片土地的深深眷恋。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  村庄喷泉的泠泠水声：在每个恩嘎丁村庄的中心，几乎都有一个古老的石制喷泉，活水从铜管中常年不息地流出。泉水冰冷刺骨，是直接来自高山的融雪。把双手伸进去，感受那直达骨髓的清凉，然后喝上一口——这是免费的、世界上最顶级的矿泉水。水声潺潺，不仅是生活的声音，更是这片土地生命力的象征，它连接着古老的冰川、现代的村庄，和每一个过客的味蕾记忆。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`首先，时间选择是王道。想体验攻略里的静谧湖山，务必选择6月至9月初的夏季，完美避开滑雪旺季骇人的价格和人流。冬季来除非你是滑雪狂热者或奢华体验追求者，否则性价比极低。其次，穿着要做“洋葱人”。山区天气说变就变，早晚温差极大。即使盛夏，也务必采用“分层穿衣法”：速干内层+保暖中层（抓绒）+防风防水外层。一双支撑性好的徒步鞋比任何奢侈品鞋子都重要。第三，交通与门票：瑞士旅行通票在这里非常好用，覆盖大部分巴士和登山缆车。但一些小型私人博物馆或特定缆车可能需要单独购票，行前最好在官网确认。关于“避坑”，最重要的是调整消费预期：镇中心的高级餐厅价格令人咋舌，建议去周边村庄的家庭餐馆，或直接去COOP超市采购食材在湖边野餐，体验感和性价比双高。最后，尊重环境，徒步时严格沿着指定路径走，带走所有垃圾，让这片隐秘宝藏永远清澈。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 圣莫里茨周边住宿与美食全攻略：住在风景里，吃在故事中`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`住宿方面，如果你不想被冬季的“宫殿级”酒店价格吓到，夏日有更亲民的选择。强烈推荐住在切莱里纳或锡尔斯这样的周边村庄，而不是圣莫里茨镇中心。这里有许多由传统刮画石屋改建的家庭旅馆或精品酒店，价格合理，氛围温馨。例如，在切莱里纳找一家带木质阳台的小旅馆，早上推开门就是雪山和牧场，还能听到牛铃声声。餐饮是文化体验的重头戏。一定要尝尝恩嘎丁果干派：酥脆的饼皮里塞满了用本地红酒慢炖的苹果、梨、杏干，口感丰润酸甜，是山民储存冬日维生素的智慧结晶。还有Capuns——用瑞士甜菜叶包裹着面疙瘩和培根，浸在浓郁的牛奶酱汁里，是饱腹又美味的农家菜。推荐一家本地人常去的餐厅“Engiadina”，在锡尔斯村，不仅能吃到地道风味，老板还会热情地跟你讲述墙上的刮画故事。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  锡尔瓦普拉纳湖：从圣莫里茨乘坐邮政巴士约20分钟即可到达。这个湖比圣莫里茨湖更加狭长宁静，游客稀少。湖边有一条平坦的徒步道，是观察水鸟和进行湖畔冥想的绝佳地点。湖水颜色层次更为丰富，堪称“摄影师秘密基地”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  穆奥塔斯穆拉佑：这是一座位于锡尔斯附近山丘上的、由英国艺术家诺特·维塔尔创作的“大地艺术”景观——一个嵌入地面的螺旋形石头迷宫。步行可达。站在中心，环视四周的群山和天空，你会感受到一种强烈的、近乎仪式感的宁静。它完美地诠释了恩嘎丁地区自然与人文艺术对话的现代篇章，是深度游中一个令人惊喜的哲学停顿。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`圣莫里茨的灵魂，绝非仅存于冬日缆车里的香槟杯碰撞声中，更流淌在夏日冰川湖千年不化的清澈里，镌刻在每一栋刮画石屋无声讲述的故事墙上。它是一位拥有两副面孔的美人：一副明艳夺目，吸引世界目光；另一副沉静内敛，只向愿意慢下来的探访者，展示阿尔卑斯最原始而坚韧的心跳。来这里，学会欣赏这两种截然不同的“奢华”——一种是金钱堆砌的，另一种，是时间与自然馈赠的。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/oberhofen-castle-thunersee" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥伯霍芬城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Oberhofen Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/tarasp-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塔
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塔拉斯普城堡（恩嘎丁山谷的守护者）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tarasp Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gornergrat" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    戈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">戈尔内格拉特</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gornergrat</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

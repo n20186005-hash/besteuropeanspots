@@ -1,0 +1,156 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '普里莫什滕Primošten自由行终极攻略：红屋顶半岛与“海神之眼”沙滩漫步指南',
+  description: '探索克罗地亚达尔马提亚海岸的明珠普里莫什滕（Primošten）深度游攻略。涵盖红屋顶小镇、梯田葡萄园、“海神之眼”沙滩及一日游路线，助你完美规划行程。',
+}
+
+export default function PrimostenDalmatiaTravelGuidePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '普里莫什滕', href: '/attractions/primosten-dalmatia-travel-guide' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`普里莫什滕・Primošten・克罗地亚・希贝尼克-克宁县`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你正在寻找一个能让你忘记时间、心脏为美景停跳一秒的克罗地亚小镇，那今天这份普里莫什滕私藏旅游攻略，请你一定收好。想象一下：一个由红瓦屋顶堆叠而成的石头半岛，像一艘永不启航的巨船，温柔地驶入亚得里亚海宝石般的碧波中。这里就是普里莫什滕，一个名字有点拗口，但景象绝对刻骨铭心的地方。它不像杜布罗夫尼克那样游人如织，却拥有达尔马提亚海岸最上镜的天际线之一。作为你的专属向导，这份自由行指南将带你穿过迷宫般的石巷，爬上被葡萄藤拥抱的古老山坡，最后赤脚踩进那湾名为“海神之眼”的、蓝到不真实的卵石沙滩。我们不止看风景，更要读懂这片土地上，人与岩石、与大海抗争又共生的千年故事。准备好了吗？我们的深度漫步，现在开始。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你正在寻找一个能让你忘记时间、心脏为美景停跳一秒的克罗地亚小镇，那今天这份普里莫什滕私藏旅游攻略，请你一定收好。想象一下：一个由红瓦屋顶堆叠而成的石头半岛，像一艘永不启航的巨船，温柔地驶入亚得里亚海宝石般的碧波中。这里就是普里莫什滕，一个名字有点拗口，但景象绝对刻骨铭心的地方。它不像杜布罗夫尼克那样游人如织，却拥有达尔马提亚海岸最上镜的天际线之一。作为你的专属向导，这份自由行指南将带你穿过迷宫般的石巷，爬上被葡萄藤拥抱的古老山坡，最后赤脚踩进那湾名为“海神之眼”的、蓝到不真实的卵石沙滩。我们不止看风景，更要读懂这片土地上，人与岩石、与大海抗争又共生的千年故事。准备好了吗？我们的深度漫步，现在开始。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`普里莫什滕`} />
+                <InfoRow label="英文名称" value={`Primošten`} />
+                <InfoRow label="正式名称" value={`Primošten`} />
+                <InfoRow label="国家" value={`克罗地亚`} />
+                <InfoRow label="城市" value={`希贝尼克-克宁县`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`普里莫什滕的历史，是一部关于“生存与适应”的史诗。它的名字源于克罗地亚语“primostiti”，意为“用桥连接”——这精准地道出了它的起源。最初，这里只是一个离岸小岛，居民是为了躲避奥斯曼帝国侵袭而从大陆逃来的难民。15世纪，威尼斯人统治时期，他们修建了一座木制吊桥将岛屿与大陆相连，一个易于防守的定居点由此诞生，普里莫什滕也从一个临时避难所，变成了永久的家园。当威胁远去，生活还得继续。面对半岛上贫瘠、遍布岩石的土地，先民们展现了惊人的韧性。他们用双手一块块搬走石头，堆砌成数千公里长的干石墙，创造了著名的“普里莫什滕梯田”。在这些墙后有限的土壤里，他们种下了巴巴（Babić）葡萄，这种晚熟、深色的葡萄品种，奇迹般地在此茁壮成长，酿出的葡萄酒浓烈而充满个性。可以说，普里莫什滕的历史地位，不在于王侯将相，而在于普通民众如何在一座石头岛上，凭智慧和汗水，开辟出属于自己的生活与丰饶，将防御工事变成了田园诗。这种景观，甚至在1984年被联合国粮农组织选作地中海农业遗产的代表，出现在了联合国的官方出版物封面上。`} />
+                <InfoRow label="建筑特色" value={`走近普里莫什滕，最强烈的视觉冲击莫过于那一大片在阳光下燃烧般的红瓦屋顶。它们不是整齐划一的，而是依着陡峭的山势，层层叠叠、错落有致地挤在一起，仿佛一群紧密依偎、共同抵御海风的亲人。屋顶之下，是蜂蜜色的石灰岩房屋。这些石头被岁月和海风打磨得光滑而温润，墙体厚重，窗户小巧——这是为了在炎热的夏日保持室内阴凉，在凛冽的冬季阻挡“布拉风”的侵袭。穿梭在镇子里，脚下是被磨得发亮的石板路和石阶，狭窄得只容两人侧身而过。墙壁上随处可见巨大的绿色木制百叶窗，午后，当地人会将它们半合，让柔和的光线滤进室内。阳台上和墙角边，鲜红的三角梅如火如荼地绽放，与冷峻的石头形成炽烈的对比。晾晒在窗外的白色床单，随着海风轻轻飘动，带来生活质朴的气息。整个小镇的建筑没有任何浮夸的装饰，它的美在于一种浑然天成的、与地形和功能完美结合的有机感，像从这块岩石半岛上自然生长出来的一样。`} />
+                <InfoRow label="建筑风格" value={`普里莫什滕的建筑，是达尔马提亚传统石造建筑的典范，一种深深植根于功能和地理的“ vernacular architecture”（本土建筑）。你在这里找不到宏伟的哥特教堂或华丽的巴洛克立面，它的风格是纯粹、实用且充满乡土智慧的。这种风格的核心就是“石头”。本地丰富的石灰岩是唯一的建材，造就了小镇统一的蜜糖-金色基调。建筑形态完全服从于陡峭的山地地形，房屋地基随着岩石的起伏而建，因此产生了那些迷人的阶梯状屋顶景观和蜿蜒曲折的小巷。防御性是另一个关键：小镇最初是作为要塞设计的，因此房屋外墙坚实，窗户窄小，街巷复杂如迷宫，以迷惑可能的入侵者。同时，适应地中海气候的特点无处不在：厚实的石墙提供热惰性，冬暖夏凉；红色的陶土瓦片坡度适中，利于排水；小巧的窗户和宽大的屋檐是为了遮阳。简而言之，普里莫什滕的建筑风格，就是一部用石头写就的“生存手册”，它不追求艺术流派，却因其极致的诚实与适应性，成就了无与伦比的美学和文化遗产价值。`} />
+                <InfoRow label="文化价值" value={`普里莫什滕的文化心脏，跳动在它的葡萄园、渔船和橄榄树林里。对当地人而言，小镇不仅是家园，更是一种生活方式的图腾。那种在嶙峋岩石中开辟葡萄园的顽强精神，早已渗透进他们的性格。每年秋天，巴比亚葡萄的丰收节是整个地区的盛事，人们用歌舞和自酿的美酒庆祝与自然的又一次胜利合作。小镇背后那片如同月球表面般的石墙梯田，已被视为克罗地亚民族坚韧精神的象征。更令人惊叹的是，当地农民将一株葡萄藤连同它生长的石头土壤，整体制作成雕塑，赠送给了纽约的联合国总部，永久陈列，向世界讲述着人类与贫瘠土地共生的故事。另一方面，面向大海的生活塑造了它的另一面文化：渔业传统。清晨码头边渔归的喧闹，空气中弥漫的海鲜与橄榄油香气，餐馆里必不可少的“brodet”（一种达尔马提亚式海鲜炖菜），都是海洋馈赠的文化印记。在这里，文化不是博物馆里的展品，而是清晨晒在窗台的被单，是午后咖啡馆里男人们玩着的“bela”纸牌游戏，是傍晚时分，全家老小沿着海滨长廊“Riva”悠闲散步的日常场景。它代表了一种未被过度旅游侵蚀的、缓慢而真实的达尔马提亚海岸生活。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 普里莫什滕一日游路线与必打卡攻略：从老城迷宫到“海神之眼”沙滩`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行精华漫步路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，跟着我这份一日游路线，我们不走冤枉路，完美捕捉普里莫什滕的晨昏光影。早晨（9:00-12:00）：把车停在半岛连接处的大型停车场，这是你的自由行指南第一站。迎着清爽的海风，走过那道象征意义的“桥”，正式进入老城。别急着钻巷子，先在入口处回望，拍下经典的红屋顶半岛全景。然后，让自己“迷失”在老城迷宫般的阶梯小巷里，随心所欲地向上探索，目标就是山顶的圣乔治教堂。这段爬升是值得的。中午（12:00-14:00）：从教堂下来，到海滨长廊“Riva”选一家看得见海景的餐厅。点一份当天捕获的烤鱼，配上本地巴比亚红酒和橄榄油蘸面包，这就是达尔马提亚式午餐。下午（14:00-17:00）：酒足饭饱后，有两种选择。文艺派：可以去小镇背后的“布林耶”（Brijenje）地区，徒步一段葡萄园小径，近距离感受石墙梯田的震撼。休闲派：直接换上泳衣，步行15分钟前往半岛另一侧的“海神之眼”（Raduča）沙滩，投入那片令人心醉的蓝绿色怀抱，晒太阳、游泳、读一本书。傍晚（17:00以后）：返回老城，此时光线变得金黄柔和，是摄影的魔法时刻。找一家高处的咖啡馆露台，点一杯咖啡或葡萄酒，静静等待亚得里亚海上的落日将整个小镇染成金红色。这就是完美的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  圣乔治教堂的铸铁公鸡：站在教堂前的小广场，别忘了抬头看看钟楼顶端那个黑黝黝的铸铁公鸡风标。它不仅是风向标，更是小镇的守护象征。在达尔马提亚文化中，公鸡代表警醒与重生。仔细看，它历经海风百年吹蚀，表面斑驳，但身姿依然昂然。当“布拉风”吹起，它会发出悠长而轻微的金属转动声，那声音混在风里，像来自过去时代的低语，提醒着人们这座小镇曾需要时刻保持警惕的岁月。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  从“城堡”废墟俯瞰“海神之眼”：在老城最高点，圣乔治教堂旁，有一片不起眼的石头废墟，这是中世纪城堡的遗迹。走到废墟边缘，扶着粗糙的石墙向下望，你会倒吸一口凉气——整个“海神之眼”沙滩（Raduča） 如同一块精心切割的蓝绿色宝石，镶嵌在白色的石灰岩和深绿色的松林之间。海水颜色由近岸的透明青绿，渐变为远海的深邃蔚蓝，一道防波堤温柔地环抱着这片水域。这个角度是明信片拍摄地，看着那些在沙滩上变成小点的游人，你会深刻感受到自然造物的宏伟与人类的微小。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  巷子里的石头门洞与蕾丝窗帘：当你穿行在狭窄巷弄时，请放慢脚步，观察那些古老的石头门洞。许多门楣上刻着建造年份（常见的是19世纪）或家庭符号。透过半掩的、厚重的木门，你常能看到里面另一道门上挂着的手工蕾丝窗帘（“Čipka”）。阳光透过蕾丝，在室内石地上投下精致变幻的光影。这一硬一软的对比——粗犷的石头与细腻的蕾丝，正是达尔马提亚人性格的写照：外表坚韧如石，内心却充满了对美和细致生活的追求。偶尔，门内还会飘出炖肉的香气或电视的声音，那是真实生活最动人的缝隙。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  Riva长廊的落日与归航：傍晚时分，一定要在Riva海滨长廊走一走。这不是一条普通的步行道，而是小镇的客厅。当地人在这里散步、约会、聊天。当夕阳西下，光线变得醇厚，将一排排停泊的传统木质小船（“bracera”） 的桅杆拉出长长的影子。船身随着波浪轻轻摇晃，敲打着码头，发出有节奏的、催眠般的咚咚声。海水的颜色从碧蓝转为紫金，对岸大陆的轮廓在暮色中显得深沉。空气中混合着海盐、松树脂和远处餐馆飘来的烤鱼香气。这一刻，时间慢了下来，你会明白，为什么这里的人脸上总有种悠闲的神情。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 普里莫什滕自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  时间就是一切：想获得最佳体验，避开七八月旺季是首要原则。那时小镇挤满一日游的船客，停车位一位难求，沙滩上人满为患，餐厅价格也最高。最佳游览时间是6月或9月，天气依然温暖和煦，海水宜人，但游客少得多，你能真正享受宁静。一日游的话，尽量早到（9点前），赶在大批旅行团抵达前，独占清晨的老城小巷和拍照机位。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  穿对鞋子，尊重地形：这不是开玩笑。老城里全是光滑的石灰岩台阶和坡道，穿着人字拖或光滑底子的鞋很容易滑倒，尤其是雨后。请务必穿一双防滑、舒适的运动鞋或徒步鞋。另外，去“海神之眼”沙滩的路上部分路段是土石路，好鞋子同样重要。女士尽量避免细高跟鞋，那在这里寸步难行。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  沙滩选择与准备：“海神之眼”（Raduča）沙滩是最大的，也是最知名的，因此人也最多。它主要是卵石沙滩，光脚走可能会有点硌，建议带上沙滩鞋。如果你追求更小众的体验，可以向当地人打听附近更小的海湾，比如Mala Raduča或Ložje。沙滩伞和躺椅通常需要租赁，价格不菲。可以自带沙滩巾，找一块平坦的岩石享受日光浴。停车在沙滩附近可能困难且贵，从老城步行过去反而是最轻松的选择。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  餐饮与防盗小贴士：在海滨长廊Riva上吃饭风景绝佳，但价格也通常比老城内部小巷里的小馆子贵。多走几步，钻进小巷，你可能找到更地道、更实惠的家庭餐馆。点餐时，务必询问海鲜是否是“按公斤”计价，避免结账时的“惊喜”。虽然普里莫什滕相对安全，但旺季时人多眼杂，在老城拥挤的巷弄和沙滩上，仍需看管好随身包包和贵重物品，不要将物品随意留在无人看管的沙滩上。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 普里莫什滕住宿与美食全攻略：住在风景里，吃在海味中`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`想在普里莫什滕获得沉浸式体验，住上一晚是明智之选。当一日游的游客乘船离去，小镇会恢复它原本的宁静面貌，夜晚的星空和海浪声是无价的。住宿主要有两类选择：一是住在老城或紧邻的石头房子改造的公寓里，推开木窗就是交错的红屋顶和湛蓝大海，充满历史感，但可能需爬很多台阶。二是住在半岛连接处大陆一侧的现代酒店或民宿，停车方便，空间更大，步行几分钟也能进入老城。推荐提前在预订平台搜索“Apartments in Old Town Primošten”或 “Villa with sea view”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`美食是旅程的高光。在Riva长廊上，Konoba Toni 是家可靠的老牌餐厅，露台位置绝佳，他们的烤海鲜拼盘和墨鱼饭（Crni Rižot）备受好评。想体验更传统的“konoba”（酒窖式餐馆）氛围，可以钻进老城小巷寻找Konoba Mediteran，他们家的达尔马提亚式炖鱼（Brodet） 是用多种海鲜慢炖而成，配着玉米糊（Polenta）吃，味道浓郁地道。别忘了配上一杯本地的巴比亚（Babić）红葡萄酒，这种酒体饱满、带点辛辣感的红酒是这里的灵魂。甜品可以试试Rozata，一种类似焦糖布丁的本地特色。简单的一餐，也可以在面包店买一个达尔马提亚火腿（Pršut）和奶酪馅的 burek（酥皮饼），带到海边的长椅上享用。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果你被达尔马提亚的慢生活迷住，想继续探索，有两个方向不容错过。一是向北，仅仅10分钟车程，就能到达另一个迷人的小镇克拉什尼察（Krapanj）。这是亚得里亚海最浅的有人居住的岛屿（通过短堤连接），以海绵潜水传统闻名。小镇极其宁静，几乎没有汽车，你可以参观海绵潜水博物馆，了解这项延续了几个世纪的古老职业，感受比普里莫什滕更甚的、时间停滞般的渔村氛围。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`另一个方向是向内陆进发，约40分钟车程，即可抵达克尔卡国家公园（Krka National Park）。虽然它不如十六湖国家公园名气大，但同样拥有令人惊叹的瀑布群。最著名的Skradinski buk瀑布层层叠叠，你甚至可以在这片如画的瀑布下游游泳（注意公园规定），这是绝无仅有的体验。公园内还有建于瀑布岛上的圣救主修道院（Krka Monastery），风景如画。用半天到一天时间探索克尔卡，能与海岸风光形成美妙的互补，完成一次从“碧海”到“青山绿水”的完美克罗地亚之旅。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`普里莫什滕的灵魂，在于一种坚硬的温柔。是石灰岩的冷峻与红屋顶的暖意交织，是嶙峋石墙上开出的三角梅，是渔民粗糙双手端出的、盛在精致盘子里的海鲜。它教会你的，不是匆匆打卡，而是如何像本地葡萄藤一样，在看似贫瘠的岩石中找到立足之地，然后向着阳光与大海，肆意而顽强地生长，最终酿出生活的美酒。离开时，你带走的不仅仅是相机里那片碧蓝的“海神之眼”，更是心中那份对缓慢、真实与坚韧的深深眷恋。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/pula-arena" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普拉竞技场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pula Arena</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/trako--an-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特拉科什恰恩城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trakošćan Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/labin-istria" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉宾</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Labin</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,152 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '图尔诺埃尔城堡深度旅游攻略：火山熔岩上的中世纪堡垒自由行指南',
+  description: '探索法国奥弗涅的Château de Tournoël（图尔诺埃尔城堡）深度游攻略。这座矗立在黑色熔岩上的圆塔城堡，是俯瞰火山平原的绝佳观景台，内含详细行程与避坑指南。',
+}
+
+export default function ChateauDeTournoelPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '图尔诺埃尔城堡', href: '/attractions/chateau-de-tournoel' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`图尔诺埃尔城堡・Château de Tournoël・法国・多姆山省（奥弗涅-罗讷-阿尔卑斯大区）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你厌倦了巴黎的铁塔和人潮，想找一处能真正触摸到法兰西坚硬历史脊梁的地方，那今天这份私藏的 图尔诺埃尔城堡旅游攻略，就是为你准备的。它不在寻常的旅游路线上，而是孤傲地盘踞在法国中部奥弗涅地区的一座火山锥上，脚下是绵延无尽的绿色平原和沉睡的火山群。最震撼的是，它的地基直接扎根于黑色的火山熔岩之上，仿佛是从大地深处生长出来的堡垒。这份 自由行指南 会带你绕过所有弯路，直接抵达这座中世纪要塞的灵魂深处，告诉你如何捕捉它最苍凉也最壮美的时刻，而不仅仅是拍一张打卡照。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你厌倦了巴黎的铁塔和人潮，想找一处能真正触摸到法兰西坚硬历史脊梁的地方，那今天这份私藏的 图尔诺埃尔城堡旅游攻略，就是为你准备的。它不在寻常的旅游路线上，而是孤傲地盘踞在法国中部奥弗涅地区的一座火山锥上，脚下是绵延无尽的绿色平原和沉睡的火山群。最震撼的是，它的地基直接扎根于黑色的火山熔岩之上，仿佛是从大地深处生长出来的堡垒。这份 自由行指南 会带你绕过所有弯路，直接抵达这座中世纪要塞的灵魂深处，告诉你如何捕捉它最苍凉也最壮美的时刻，而不仅仅是拍一张打卡照。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`图尔诺埃尔城堡`} />
+                <InfoRow label="英文名称" value={`Château de Tournoël`} />
+                <InfoRow label="正式名称" value={`Château de Tournoël`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`多姆山省（奥弗涅-罗讷-阿尔卑斯大区）`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`图尔诺埃尔城堡的故事，是一部写在火山岩上的权力编年史。它的核心战略价值，源于其俯瞰整个利马涅平原的绝对制高点位置。在中世纪，谁能控制这里，谁就扼住了奥弗涅地区的咽喉。城堡最早的文字记录可追溯到12世纪末，但它真正登上历史舞台的中心，是在英法百年战争期间。作为法兰西王室在南方的重要前哨，它多次抵御了外来进攻，其标志性的圆形主塔（Donjon）就是为了应对当时开始出现的火炮而设计或改建的，展现了从纯粹防御箭矢到防备炮击的军事建筑演变。它曾是强大的阿基坦公爵的财产，后来归于法国王室，并作为阿尔比十字军镇压清洁派教徒的军事行动基地之一。它的存在，不仅仅是领主炫耀武力的象征，更是法兰西民族国家形成过程中，中央王权向边缘地区辐射和控制力的一个坚硬注解。`} />
+                <InfoRow label="建筑特色" value={`初见它，你会被那种近乎粗野的威严所震慑。城堡并非建在山上，而是与那座黑色的火山锥融为一体。墙体大量使用本地开采的深色火山岩，在阳光下呈现出冷峻的灰黑与赭石色调，与周围翠绿的平原形成戏剧性的对比。最核心的建筑是那座巨大的圆柱形主塔，它敦实、厚重，几乎没有多余的装饰，墙壁厚达数米，窗户窄小如缝隙。这完全是一座为战争而生的机器。走近触摸墙壁，能感受到火山岩粗糙、多孔的独特质感，仿佛能吸收数百年的风雨与呐喊。城堡的入口隐蔽而曲折，需要穿过一道道厚重的拱门和吊桥遗迹，这种设计是为了最大限度延长进攻者的暴露时间。站在城墙下仰望，你会瞬间理解什么叫“坚不可摧”——它不是童话里的梦幻城堡，而是大地本身攥紧的一个黑色拳头。`} />
+                <InfoRow label="建筑风格" value={`图尔诺埃尔城堡主要体现的是 罗曼式晚期向哥特式早期过渡的军事建筑风格，并带有鲜明的奥弗涅地方特色。所谓的“风格”在这里，首先服从于“功能”。圆塔是它最突出的特点。与更早期常见的方形塔楼相比，圆形塔楼没有死角，更能有效偏转炮弹的冲击力，这是14世纪后军事防御思想进步的体现。城堡的整体布局是典型的“ concentric ”（同心圆）防御体系，层层递进，易守难攻。在细节上，你还能看到简朴的罗曼式半圆拱门，以及开始出现尖拱趋势的哥特式萌芽，但这些都极其克制。这里没有巴黎圣母院那种飞扶壁的轻盈，也没有香波堡文艺复兴式的华丽，有的只是巨石堆叠出的绝对力量感。可以说，它的风格就是“实用主义”风格，是火山熔岩的坚硬与中世纪战争智慧共同塑造的产物。`} />
+                <InfoRow label="文化价值" value={`对当地人而言，图尔诺埃尔城堡远不止是一座废墟。它是奥弗涅精神的象征——坚韧、深沉，扎根于这片独特的火山土地。在民间传说中，它常常与神秘的宝藏、幽灵骑士的故事相连，为当地文化增添了传奇色彩。在现代，它成为了地区身份认同的重要地标。每年夏季，城堡会举办中世纪节和历史重现活动，让本地居民和游客共同“复活”那段历史，工匠、骑士、商贩聚集于此，使古老的石墙重新充满烟火气。它也吸引着地质学家、历史学家和建筑爱好者前来研究，成为连接地质奇观与人类文明的活态课堂。这座城堡教会人们的是：文明不仅诞生于肥沃的河谷，也同样能在最坚硬、最原始的自然之力上扎根并绽放出持久的花朵。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 图尔诺埃尔城堡一日游打卡路线攻略：火山之巅的时间穿越`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线（从克莱蒙费朗出发）`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份 一日游路线 请收好。上午，建议从奥弗涅首府克莱蒙费朗出发，自驾或乘坐地区巴士前往城堡脚下的村庄。别急着上山，先在村里走走，从仰视的角度感受城堡的压迫感。接着，沿着古老的“之”字形石径徒步上山（约20分钟），这是体验城堡防御视角的最佳方式，每一步都能听到自己的心跳和历史的回声。中午，抵达城堡入口，花2-3小时进行深度探索。按照从外围防御工事到内院，最后登顶主塔的顺序游览。午餐可以简单解决，带上三明治在古城墙的阴影下野餐，景色无价。下午，重点放在城堡西侧的观景平台。此时阳光西斜，正是俯瞰利马涅平原和远处多姆山链的黄金时刻，光影给平原和城堡自身都披上金装。如果赶上晴好天气，景色壮阔得让人忘记时间。最后，在日落前沿着另一条小径下山，回望被夕阳染成金红色的城堡剪影，为旅程画上完美句号。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  黑色熔岩地基：在主塔底部或城墙根处，请务必蹲下来仔细看。城堡的基石并非普通石头，而是带有明显气孔和流动纹理的黑色玄武岩。用手触摸，你能直观感受到万年前火山喷发时熔岩的炽热与流动在此刻凝固。这种“地基”让城堡仿佛拥有了大地的脉搏，它不是在“建造”，而是在“生长”。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  主塔内部的穹顶：进入圆柱形主塔内部，抬头仰望顶部。你会看到一个精巧的石头穹顶，它由一系列交错的石拱构成，将巨大的重量均匀分散到圆形墙壁上。一束光可能从某个射击孔斜射进来，在古老的石壁上切割出明亮的光斑，空气中漂浮着细微的尘埃。这个空间曾是最后的避难所，此刻却寂静得能听到自己的呼吸，那种空间的崇高感极具冲击力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  领主大厅的壁炉：在城堡的生活区，寻找那个巨大的石制壁炉。虽然如今只剩框架，但雕刻的纹路依然可辨。想象一下冬日，壁炉里柴火噼啪作响，照亮墙上可能悬挂的挂毯，领主在此议事或宴饮。这个细节将冰冷的军事堡垒瞬间拉回有温度的人类生活场景，是体会中世纪领主日常生活的关键触点。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  西侧观景台的“全景画”：这绝非普通的观景台。站在这里，你面前展开的是一幅360度的地质史诗画卷。近处是城堡崎岖的黑色岩体，中间是如同绿色天鹅绒般铺开的利马涅平原，农田、村庄、道路如同微缩模型。而最远处，是一串浑圆或尖耸的火山锥（如多姆山），在氤氲的地平线上依次排开。这个视角完美诠释了城堡的选址智慧，也是整个旅程的视觉高潮。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`首先，时机就是一切。最佳游览季节是春末到秋初（5月-9月），天气晴朗，视野最佳。务必提前查看官网或天气预报，避免大雾或雨天前往，否则你上去只能看到一片灰蒙蒙，完全浪费了那绝世的观景台。其次，穿着是安全关键。必须穿一双鞋底防滑、支撑性好的徒步鞋！上山的那段古老石径坡度不小且石子路滑，高跟鞋或平板鞋是绝对的“危险品”。山区天气多变，即便夏日也带一件防风外套。最后，关于“人潮”和准备。这里虽小众，但夏季周末下午也可能有本地游客。建议工作日上午前往，体验包场的孤独感。城堡内部部分区域台阶陡峭、光线昏暗，手机充好电当手电筒。自驾的话，山下村庄停车位有限，早点到。记住，这里没有大型游客中心的便利设施，自带饮用水和少许干粮是最明智的选择。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 图尔诺埃尔城堡周边住宿与美食攻略（奥弗涅特色体验）`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`城堡本身没有住宿，但沉浸式体验的关键在于住在周边的乡村。推荐预订附近小镇罗什福尔-蒙塔涅 或 奥尔西瓦尔 的民宿。这些民宿多是石头砌成的传统农舍改造而成，晚上格外宁静，推开窗就能看到星空和远处城堡的轮廓，氛围感拉满。餐饮方面，一定要品尝奥弗涅的特色菜。在附近餐馆，点一道“ Truffade ”——用本地土豆、奶酪和肥肉丁烘烤的浓香菜肴，热量爆表但美味无敌。还有“ Lentilles du Puy ”（绿色小扁豆）和著名的圣内克泰尔奶酪。下山后，可以去村庄里的小咖啡馆，点一杯咖啡或本地啤酒，坐在露天座回味刚才的旅程。如果时间充裕，在克莱蒙费朗留宿一晚也是好选择，这座“黑色之城”用火山岩建造的主教堂同样震撼。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  火山熔岩石窟教堂：在图尔诺埃尔城堡附近，隐藏着一些直接从火山凝灰岩中开凿出来的小型石窟教堂或隐士居所。它们比城堡更古老，更隐秘，体现了早期基督徒在蛮荒之地寻求精神寄托的痕迹。寻找它们就像一场小型探险，能让你从另一个维度理解人类如何利用并敬畏这片火山土地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  佩里贝松小镇：驱车不远，可以到达另一个极具特色的中世纪小镇佩里贝松。它被誉为“法国最美的村庄”之一，同样坐落在火山岩山脊上，拥有漂亮的文艺复兴风格窗棂和蜿蜒的石板路。与图尔诺埃尔的荒凉雄壮不同，这里充满生活气息和精致的建筑之美，两者对比参观，能更完整地感受奥弗涅地区的多元面貌。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`图尔诺埃尔城堡的灵魂，在于那份火山熔岩般冷硬的外表下，包裹着人类在绝境中求生、在制高点上瞭望的永恒渴望。它不是一个被精心打扮的博物馆，而是一本敞开的、由风和石头写成的史书，提醒着我们，文明最坚韧的形态，往往诞生于与严酷自然的对话之中。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gouffre-de-proumeyssac" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普鲁梅萨克水晶深渊</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gouffre de Proumeyssac</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beze" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝兹</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bèze</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/saint-jean-pied-de-port-camino-france" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣让皮耶德波尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Saint-Jean-Pied-de-Port</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

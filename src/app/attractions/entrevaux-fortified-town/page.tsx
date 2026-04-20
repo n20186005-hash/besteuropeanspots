@@ -1,0 +1,147 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '昂特勒沃深度旅游攻略：跟着沃邦元帅，探索瓦尔河谷的险峻堡垒与中世纪古镇',
+  description: '昂特勒沃(Entrevaux)深度游攻略。探索沃邦元帅设计的险峻山脊堡垒与保存完好的中世纪古镇，包含门票交通、打卡路线与避坑指南。',
+}
+
+export default function EntrevauxFortifiedTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '昂特勒沃', href: '/attractions/entrevaux-fortified-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`昂特勒沃・Entrevaux・法国・上普罗旺斯阿尔卑斯省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友！如果你厌倦了普罗旺斯那些挤满游客的薰衣草田和市集，今天这份 **昂特勒沃私藏旅游攻略** ，就带你躲开人潮，一头扎进瓦尔河谷最硬核也最诗意的时光胶囊里。想象一下：一座完完整整、被蜂蜜色石墙包裹的中世纪古镇，像钉子一样楔在陡峭的山谷之间，而一条令人心跳加速的、纯粹由石头凿出的“之”字形步道，将它和头顶那座由军事天才沃邦元帅亲手设计的鹰巢城堡死死相连。这里不是迪士尼的布景，而是呼吸着的、活着的历史。作为你的专属向导，这份 **昂特勒沃自由行指南** 请收好，我们会一起走过吊桥，穿过狭巷，喘着粗气爬上山顶，最后被河谷的落日灌醉。这绝对是一次最地道的 **深度游** ，准备好了吗？`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友！如果你厌倦了普罗旺斯那些挤满游客的薰衣草田和市集，今天这份 <strong>昂特勒沃私藏旅游攻略</strong> ，就带你躲开人潮，一头扎进瓦尔河谷最硬核也最诗意的时光胶囊里。想象一下：一座完完整整、被蜂蜜色石墙包裹的中世纪古镇，像钉子一样楔在陡峭的山谷之间，而一条令人心跳加速的、纯粹由石头凿出的“之”字形步道，将它和头顶那座由军事天才沃邦元帅亲手设计的鹰巢城堡死死相连。这里不是迪士尼的布景，而是呼吸着的、活着的历史。作为你的专属向导，这份 <strong>昂特勒沃自由行指南</strong> 请收好，我们会一起走过吊桥，穿过狭巷，喘着粗气爬上山顶，最后被河谷的落日灌醉。这绝对是一次最地道的 <strong>深度游</strong> ，准备好了吗？" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`昂特勒沃`} />
+                <InfoRow label="英文名称" value={`Entrevaux`} />
+                <InfoRow label="正式名称" value={`Entrevaux`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`上普罗旺斯阿尔卑斯省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`在法国辉煌的军事工程史上，塞巴斯蒂安·勒·普雷斯特雷·德·沃邦元帅是一个神级存在。17世纪末，路易十四为了巩固王国东南边境，将改造防御工事的重任交给了这位天才。而昂特勒沃，正是他“铁腰带”防御体系上一颗关键的铆钉。它的战略地位极其险要：扼守着从尼斯通往阿尔卑斯山内陆的核心通道。在沃邦到来前，这里已有一座简陋堡垒，但他看到的，是将其打造成一个无法被正面攻克的、立体化的死亡陷阱的潜力。他不仅加固了山巅的城堡，更用他标志性的几何学智慧，为整个山脊和山脚下的古镇设计了一套无懈可击的防御体系——星形棱堡、隐蔽的炮位、多重城墙。这使得昂特勒沃在随后几个世纪的动荡中（包括西班牙王位继承战争和法国大革命时期），始终屹立不倒，成为法国东南部边防的教科书范本。它不仅是军事要塞，更是沃邦军事思想在壮丽自然景观中的一次极致雕塑。`} />
+                <InfoRow label="建筑特色" value={`走近昂特勒沃，第一重震撼来自它的 **整体性** 。那不是一座孤立的城堡，而是一个从河谷拔地而起、与山岩彻底融为一体的庞然巨物。山脚下的古镇被一圈完整、高大、呈不规则多边形的蜂蜜色石墙严密包裹，石墙表面历经风雨，呈现出深深浅浅的赭石与焦糖色。唯一的入口是一座横跨护城河（如今已干涸）的厚重石制吊桥，桥头的石门楼低矮而坚固，充满了压迫感。而最惊心动魄的，是连接古镇与山顶城堡的那条“山脊之路”。它根本不是普通的步道，而是直接从裸露的灰白色石灰岩山体上，一级一级开凿出来的“之”字形阶梯。没有任何护栏的初期部分，宽度仅容两人侧身，外侧就是令人眩晕的深谷。当你抬头仰望，山顶的城堡以最野蛮、最直接的几何形态出现——棱角分明的塔楼、厚实到夸张的墙壁，颜色是与山体几乎一致的冷峻灰色，仿佛不是建造出来的，而是从山巅生长出来的冷酷岩石。建筑材料全部就地取材，石头垒着石头，坚韧、粗糙、毫无矫饰，却散发出一种近乎神圣的威严。`} />
+                <InfoRow label="建筑风格" value={`这里的建筑风格是 **“沃邦式”军事建筑** 与 **普罗旺斯乡土风格** 的惊人融合。沃邦的风格是纯粹功能主义的巅峰：一切为了防御和杀伤。星形的棱堡设计消除了射击死角；城墙的倾斜角度是为了更好地反弹炮弹；狭窄的射击孔（炮眼）内部宽外部窄，保护了射手。这种风格在这里体现为一种冷酷的数学美感，尤其是从空中或山顶俯瞰，整个防御体系就像一幅精准的几何绘图。而与这份冷硬形成温暖对比的，是古镇内部的建筑。它们属于朴素的普罗旺斯民居风格：房屋由当地采集的暖黄色石头砌成，挤在蜿蜒起伏的鹅卵石小巷两侧，窗户窄小以抵御夏日酷暑，红色陶土瓦铺就的屋顶层层叠叠。许多门楣和窗框上还有精美的石雕装饰，刻画着葡萄、麦穗等生活化的图案。这种组合——外部是战争机器的冷酷逻辑，内部是市井生活的柔软肌理——构成了昂特勒沃独一无二的魅力：它既是堡垒，也是家园。`} />
+                <InfoRow label="文化价值" value={`今天，昂特勒沃早已卸下军事重担，但它作为“活着的遗产”的文化价值愈发凸显。对于当地人而言，这座古镇不是博物馆，而是他们世代生活的家园。你依然能看到居民在古老的石屋前打理花草，听到从小广场咖啡馆里传来的谈笑声，闻到面包房飘出的香气。这种在完整防御工事内持续生活的状态，在欧洲都极为罕见，它让历史不再是标本，而是可触摸的日常。每年的夏季，古镇会举办中世纪节，居民穿上古装，城墙上旌旗招展，瞬间将人们拉回骑士时代。山顶的城堡也从军事要塞转变为俯瞰瓦尔河谷壮丽景色的观景台和文化活动的场所。它以一种平和而坚韧的方式，向现代人讲述着关于生存、智慧与家园的故事，提醒着人们，最伟大的工程不仅用于征服，更用于守护一种珍贵的生活方式。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 昂特勒沃一日游打卡路线攻略：从古镇漫游到山顶城堡的完美动线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的向导，我们这就出发！我建议你 **一大早就到** ，不仅能躲开午后可能出现的旅行团，还能看到阳光刚刚洒满城墙的金色时刻。**上午（9:00-12:30）**：把车停在古镇外的免费停车场，步行穿过那座咯吱作响的木质吊桥，正式进入时空隧道。别急着狂奔，先在主街（Grande Rue）上感受一下苏醒的小镇，在面包房买个新鲜的可颂。然后，以镇中心的 **圣马丁教堂** 为起点，任由自己在迷宫般的小巷里“迷失”。这些巷子窄到可以和对面的邻居握手，脚下是光滑的鹅卵石。**中午（12:30-14:00）**：在主广场找一家有露天座位的餐厅，享受一顿地道的普罗旺斯午餐，看着广场上的老人玩滚球游戏。**下午（14:00-17:30）**：重头戏来了——**挑战沃邦步道**！从古镇后方找到步道起点，开始这场约45分钟、充满历史感的登山之旅。每一步都踩在历史之上，记得在中途的平台上回头，俯瞰古镇全貌的震撼风景。登顶后，探索城堡遗迹，感受山风的呼啸，然后从另一条稍缓的小路下山。**傍晚（17:30以后）**：回到古镇，在城墙上散散步，等待夕阳将整个河谷和石头建筑染成蜜糖色。这就是完美的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>吊桥与石门的仪式感</strong>：当你拉起铁索、踏过那座木质吊桥的木板时，吱呀声在山谷里回响。穿过低矮的石砌拱门洞那一瞬间，光线陡然变暗，空气也清凉下来。伸手触摸门洞内侧冰冷粗糙的石壁，上面或许还有几个世纪前马车铁轮留下的凹痕。这个从“外界”踏入“堡垒内部”的转换过程，充满了一种庄重的仪式感，是你与中世纪防御工事的第一次身体对话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>山脊步道的“之”字心跳</strong>：走在沃邦步道上，最能体会“险峻”二字的含义。最初几段“之”字弯完全没有护栏，你的外侧就是百米悬崖，河谷的风毫无阻挡地吹来。请一定停下脚步，低头看看脚下：台阶是直接在灰白色的岩层上凿出来的，边缘已被无数脚印磨得光滑如玉。抬头看，前方的步道以极其精准的角度折向上方，像一条刻在山体上的灰色缎带。在这里，你能最直观地感受到沃邦工程学的冷酷与伟大——这不是观光路径，而是一条为士兵和骡马设计的生命线。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>山顶城堡的“征服者视野”</strong>：爬上最后一级台阶，踏入城堡废墟的领地，所有疲惫瞬间被风吹散。你站在裸露的巨石和残存的墙垣之间，360度的全景像巨幕电影般展开。脚下的古镇变成了一副精致的微缩模型，蜂蜜色的屋顶挤挤挨挨。瓦尔河像一条闪亮的银丝带，在翠绿的山谷中蜿蜒。极目远眺，是层层叠叠、直至天际线的阿尔卑斯山余脉。在这个位置，你瞬间理解了沃邦的选择——统治这里，就统治了整个山谷。风在废墟的孔洞中呼啸，那是历史深沉的回响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>小巷深处的隐秘彩蛋</strong>：在探索古镇小巷时，请特别留意 <strong>圣马丁教堂</strong> 那不起眼的罗马式大门。走近细看，门楣上的石雕虽然历经风化，依然能辨认出繁复的圣经故事场景和奇异的神兽图案。更妙的是，选一条最窄的小巷走进去，比如 <strong>Rue de la Prison</strong>。两侧石墙高耸，几乎遮住天空，只留下一线光。此时，你可能会闻到某家窗口飘出的炖肉香气，听到楼上居民用法语闲聊的模糊声音，指尖划过墙缝里长出的蕨类植物。这一刻，堡垒的森严与生活的温情完美交织。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 昂特勒沃自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "首先，<strong>时间就是一切</strong>。最佳游览季节是春末（5-6月）和初秋（9-10月），天气宜人，游客相对较少。盛夏（7-8月）白天酷热，登山步道会变成“烤箱”，务必清晨或傍晚前往，并携带大量饮水。<strong>穿着是成败关键</strong>：忘掉漂亮的凉鞋或皮鞋！你必须穿一双 <strong>抓地力极强的防滑登山鞋或运动鞋</strong> ，步道上的碎石和光滑的岩石台阶非常危险。衣物选择透气速干的，并带上防晒帽和太阳镜，山顶毫无遮挡。<strong>如何避开人流</strong>：最大的游客源是途经的游轮巴士团，他们通常在上午10点后到达，下午3点前离开。因此，早到（9点前入门）或晚留（3点后开始登山）是获得清净体验的秘诀。最后，<strong>安全与防盗</strong>：小镇非常安全，但在攀登步道时，务必专心看路，不要边走边看手机或相机拍照。随身背包拉链拉好，贵重物品贴身放置。城堡废墟边缘没有护栏，拍照时务必注意脚下安全。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 昂特勒沃周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "虽然昂特勒沃古镇内住宿选择不多，但体验一晚绝对超值。你可以尝试寻找镇内的 <strong>家庭式客栈（Chambre d‘hôtes）</strong> ，通常由古老石屋改造，房间可能带有裸露的石墙和木梁，主人会为你准备地道的家庭早餐。如果订不到，附近车程15分钟内的村庄（如Puget-Théniers）也有很多舒适的乡村旅馆。<strong>美食方面</strong>，古镇主广场上的几家餐厅都不错。一定要尝尝 <strong>普罗旺斯炖菜（Ratatouille）</strong> ，用当地阳光蔬菜炖煮得烂熟入味。或者点一道 <strong>蜂蜜烤羊腿</strong> ，阿尔卑斯山的草药和本地蜂蜜赋予了羊肉独特的风味。搭配一杯普罗旺斯地区的桃红葡萄酒，坐在广场上看落日余晖爬上教堂钟楼，这就是旅行中最幸福的时刻。简单的快乐还可以来自镇上的面包店，一个夹着本地山羊奶酪和橄榄的法棍三明治，就是徒步登山的最佳能量棒。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>圣旺湖（Lac de Saint-Jean）</strong>：如果你有车且热爱自然，从昂特勒沃向西北方向开车约25分钟，就能到达这个群山环抱的高山湖泊。湖水颜色随光线和季节变幻，从翡翠绿到湛蓝色。这里游客罕至，你可以绕湖徒步，或者在湖边野餐，享受绝对的宁静。与昂特勒沃的人文史诗相比，这里是纯粹的自然乐章。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>古尔东（Gourdon）</strong>：另一个“鹰巢村”的杰出代表，位于更高更险的悬崖之上，驾车约40分钟可达。虽然同为防御性村落，但古尔东更显精致和贵族气，拥有美丽的花园和一座保存完好的城堡。从古尔东眺望的阿尔卑斯山与地中海远景堪称一绝。一天内连续探访这两个风格迥异的堡垒村落，会给你对普罗旺斯“险峻美学”更立体的理解。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "昂特勒沃的灵魂，在于那种极致的 <strong>反差与融合</strong>：沃邦元帅冷硬的军事几何，与普罗旺斯柔软的田园诗意；令人腿软的险峻步道，与山下炊烟袅袅的温存日常。它不是一个被供奉起来的历史景点，而是一个仍在呼吸的、将惊心动魄的过往化为日常生活背景音的传奇小镇。在这里，你走过的每一步，既是探险，也是归家。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/carcassonne-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔卡松城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Carcassonne Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sainte-enimie" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣埃尼米</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sainte-Enimie</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/dinan-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迪
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迪南老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dinan Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

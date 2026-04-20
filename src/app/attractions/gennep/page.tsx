@@ -1,0 +1,149 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '亨讷普旅游攻略：河流交汇处的荷兰边境小镇深度自由行指南',
+  description: '探索荷兰林堡省秘境亨讷普（Gennep）深度游攻略。漫步于马斯河与尼尔斯河交汇的宁静老街，探秘马丁努斯塔楼，感受边境小镇的百年故事与慢生活。',
+}
+
+export default function GennepPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '亨讷普', href: '/attractions/gennep' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`亨讷普・Gennep・荷兰・林堡省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果厌倦了阿姆斯特丹的人潮，今天这份**亨讷普私藏旅游攻略**，就带你躲开人潮，钻到荷兰东南角一个连很多欧洲游客都会错过的小珍珠里。亨讷普，它安静地趴在马斯河和尼尔斯河温柔的交汇处，属于林堡省。这里没有震耳欲聋的名气，却拥有一份被流水声包裹的、实实在在的中世纪质感。作为你的专属向导，这份**自由行指南**请收好，我们会一起爬上那座标志性的马丁努斯塔楼，把两河交汇的景色尽收眼底，再用脚步丈量市政厅前那条精致到骨子里的历史老街。这不仅仅是一次打卡，更是一次深入荷兰边境生活肌理的**深度游**，关于战争与和平，关于河流与土地。准备好了吗？我们的慢时光漫步，就从这两条河的拥抱处开始。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果厌倦了阿姆斯特丹的人潮，今天这份<strong>亨讷普私藏旅游攻略</strong>，就带你躲开人潮，钻到荷兰东南角一个连很多欧洲游客都会错过的小珍珠里。亨讷普，它安静地趴在马斯河和尼尔斯河温柔的交汇处，属于林堡省。这里没有震耳欲聋的名气，却拥有一份被流水声包裹的、实实在在的中世纪质感。作为你的专属向导，这份<strong>自由行指南</strong>请收好，我们会一起爬上那座标志性的马丁努斯塔楼，把两河交汇的景色尽收眼底，再用脚步丈量市政厅前那条精致到骨子里的历史老街。这不仅仅是一次打卡，更是一次深入荷兰边境生活肌理的<strong>深度游</strong>，关于战争与和平，关于河流与土地。准备好了吗？我们的慢时光漫步，就从这两条河的拥抱处开始。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`亨讷普`} />
+                <InfoRow label="英文名称" value={`Gennep`} />
+                <InfoRow label="正式名称" value={`Gennep`} />
+                <InfoRow label="国家" value={`荷兰`} />
+                <InfoRow label="城市" value={`林堡省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`亨讷普的历史，是一部典型的欧洲边境小镇编年史，充满了战略的博弈与文明的交融。它的名字最早出现在10世纪的文献中，其地处马斯河（一条重要的自然边界与贸易水道）与尼尔斯河交汇点的地理位置，注定了它的命运。在中世纪，这里是重要的渡口和贸易站，隶属于强大的盖尔德斯公国。那座坚固的马丁努斯塔楼，最初便是作为军事防御塔和税关而建，监视着河上来往的船只，宣示着主权与财富。然而，边境也意味着脆弱。尤其在近代，它不幸成为了战争的前线。在二战末期著名的“市场花园行动”中，亨讷普及其桥梁是盟军与德军激烈争夺的战略要点，小镇几乎被炮火夷为平地。你如今看到的美丽老街，绝大部分是战后精心重建的成果。因此，亨讷普的历史地位是双重的：它曾是中世纪河畔贸易的活跃节点，更在近代战争史上扮演了一个悲壮而关键的角色，其重建本身，就是欧洲从废墟中崛起的坚韧象征。`} />
+                <InfoRow label="建筑特色" value={`亨讷普的建筑，是一种“战后重生”的精致教科书。最吸睛的莫过于**马丁努斯塔楼**。它敦实而高耸，由深褐色的砖石砌成，历经风雨颜色斑驳。塔身并非笔直，带着一丝岁月沉淀的微妙倾斜。底部基座厚重，向上逐渐收分，顶部是四面陡峭的钟楼式屋顶，覆盖着深灰色的石板瓦。仔细看，墙上还保留着古老的射击孔和瞭望窗，沉默地诉说着它的防御过往。而**市政厅历史老街**则是另一番景象。这里的建筑色彩明快许多，多以奶油色、淡黄色或砖红色为主调。房屋的山墙设计各异，有阶梯形的，有颈瓶形的，装饰着精巧的白色窗框和绿色的木制百叶窗。砖砌的工艺极其考究，你能看到各种不同排列组合的砖缝图案，宛如大地上的蕾丝。街道由小块鹅卵石铺就，蜿蜒起伏，每一栋房子都像一位穿着得体、细节讲究的老绅士，并肩而立，共同守护着这条宁静而充满故事的小巷。新旧交融，质朴与精致并存，是这里最动人的建筑语言。`} />
+                <InfoRow label="建筑风格" value={`漫步亨讷普，你主要感受到的是一种 **“荷兰文艺复兴”与地域传统结合的风格**，并夹杂着战后现代修复的实用主义精神。马丁努斯塔楼是更早的**中世纪晚期哥特式风格**的遗存，体现在其坚固的防御性体量、狭窄的窗户以及强调垂直感的塔楼形制上，虽然经过修复，但骨架仍在。而围绕市政厅的历史老街建筑，则主要呈现16-17世纪荷兰文艺复兴风格的影响。这通俗地讲，就是一种“优雅的市民建筑”风格：它们不再像城堡那样追求防御，而是热衷于通过山墙的变化来展示主人的财富与品味。你看那些阶梯山墙，就像一排排精致的冠冕；山墙上时常装饰着涡卷形、贝壳形的石雕或砖雕元素。窗户又大又明亮，排列整齐，这是因为当时玻璃税降低，市民们乐于让阳光和景致进入室内。同时，作为林堡省的一部分，这里的建筑又带有一些德意志地区的影响，比典型的荷兰运河屋更显敦实，色彩也更温暖。战后重建时，工匠们怀着敬意，用现代材料和技术“复刻”了这种风格，让历史的街道在现代重生。`} />
+                <InfoRow label="文化价值" value={`对于亨讷普人和所有了解它历史的人来说，这座小镇的文化价值首先在于 **“记忆与重生”** 。它是一座活着的纪念碑，提醒人们和平的珍贵。老一辈人或许还记得战争带来的创伤，而年轻一代则在重建的美丽家园中成长，这种对比深深烙印在社区意识里。小镇的节庆、博物馆展览（如本地历史博物馆），都不断强化着这份集体记忆。其次，是 **“边境的融合”** 。虽然国界近在咫尺（距离德国仅几公里），但亨讷普的文化生活是典型的荷兰林堡式悠闲。河畔的咖啡馆、周末的市集、沿着马斯河岸骑行和散步的家庭，都展现了一种与自然河流紧密相连的慢节奏生活哲学。这里没有大城市的喧嚣，文化价值体现在日常的细节中：精心打理的前院小花园、邻里间的熟悉问候、对本地历史建筑的自豪与维护。它向现代社会提供了一种可能性：即使经历过最深的伤痛，也可以凭借社区的力量，重建一个不张扬却充满尊严和美感的家园，并在此安静地享受生活本身的馈赠。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 亨讷普一日游打卡路线攻略：从塔楼到老街的完美步行圈`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，我的专属向导身份上线！这份精心规划的**一日游路线**，能让你在松弛的节奏里摸清亨涅普的脉搏。**上午**，我们从火车站（或停车场）出发，先别急着进镇，跟着我往河边走。第一站，去**马斯河与尼尔斯河交汇点**，静静看一会儿两水相拥的景色，感受小镇的地理根基。然后，沿着河岸漫步走向镇中心，远远就能看见**马丁努斯塔楼**的身影。买张票，沿着狭窄的旋梯一路向上攀爬，当你在塔顶喘着气推开小门时，整个亨讷普的红瓦屋顶、蜿蜒河流和远处的绿色田野，会作为奖赏扑面而来。**中午**，从塔楼下来，直接扎进它身后的**市政厅历史老街**。此时阳光正好，石板路泛着光，挑一家有户外座位的咖啡馆或小餐厅，吃个简单的午餐。推荐尝尝林堡地区的特色馅饼或啤酒。**下午**，精力充沛地深入老街小巷，逛逛那些可爱的小店铺，或者去**亨讷普博物馆**（就在老街附近）深入了解小镇的千年故事。之后，可以沿着老街另一头散步，穿过宁静的住宅区，回到河岸另一侧，完成一个完美的步行环线。傍晚时分，再次回到河畔，看夕阳给马丁努斯塔楼和老街的屋顶镀上金边，结束这充实的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>塔楼顶部的“十字视野”</strong>：爬上马丁努斯塔楼顶的瞭望台，别光顾着看全景。请走到四个方向的小窗前，逐一凝视。东面，尼尔斯河像一条银色的缎带，从德国的森林方向蜿蜒而来，注入马斯河。南面，马斯河宽阔平静，运输货物的平底船慢悠悠地驶过，时间仿佛都变慢了。西面和北面，是亨讷普全镇错落有致的屋顶，你能清晰看到市政厅那独特的建筑山墙，以及老街蜿蜒的线条。这个视角，是理解亨讷普作为“水陆锁钥”地位的最直观方式。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>市政厅山墙上的“砖石密码”</strong>：在老街上，请务必在一栋颜色温暖、山墙最华丽的建筑前多停留一会儿。凑近看它的砖墙，你会发现这绝非简单的堆砌。工匠们用深色和浅色的砖，拼出了复杂的几何图案，有时是菱形，有时是十字交叉。这些图案没有实际功能，纯粹是美的炫耀，是16世纪富裕市民“低调的奢华”。用手轻轻触摸那些凹凸的砖面，感受几个世纪前工匠的手温与匠心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>老街石板路的“声音与触感”</strong>：故意放慢脚步，听听你的鞋子踩在鹅卵石路上发出的“咔嗒”声。这声音在宁静的老街里格外清晰，有节奏地回响在两旁的建筑山墙之间。午后，当阳光斜射，石子的缝隙里会拉出长长的阴影，路面变得像一幅抽象的黑白画。试着闭上眼睛走几步（确保安全！），让脚下的触感告诉你这条路的起伏和历史——哪里被岁月磨得光滑如镜，哪里又还保留着粗粝的原始质感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>河岸交汇处的“光影游戏”</strong>：在两条河交汇的岸边长椅上坐坐。观察水面，你会发现两种水流因速度、深浅不同，在交汇处形成微妙的水纹和颜色差异。微风拂过，对岸的树影和马丁努斯塔楼的倒影在水里被揉碎，又重组。傍晚时分，这里是光的天堂：夕阳的余晖将河水染成金红，归巢的水鸟掠过，划破一片绚烂。这份宁静而动态的画面，是亨讷普的灵魂所在。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想让你的亨讷普之旅完美无瑕？这几个贴士可要记牢：" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>时间选择与人流</strong>：亨讷普本身游客不多，但最美的体验在于宁静。尽量避开周六下午和周日（很多小商店和博物馆可能关门或缩短营业时间）。最佳游览时间是<strong>工作日，或者周六上午</strong>。春天（4-5月）和初秋（9-10月）气候最宜人，河边和老街的色彩也丰富。夏天虽然绿意盎然，但遇上欧洲假期，附近露营度假的人可能会多些。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿着与装备</strong>：核心建议——<strong>穿一双绝对舒适的步行鞋！</strong> 那些古老的鹅卵石路虽然漂亮，但对高跟鞋和薄底鞋极不友好。小镇不大，全靠步行探索，舒服是关键。另外，林堡省的天气多变，即便夏天也备一件轻便防风外套。河岸和塔楼顶风可能会比较大。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与计划确认</strong>：亨讷普有火车站，但从阿姆斯特丹或鹿特丹过来需要转车，务必用<strong>荷兰铁路APP（NS）</strong> 查好实时车次，周末班次可能减少。<strong>自驾</strong>是最方便的选择，镇外有停车场。最关键的一点：出发前，务必在网上查一下<strong>马丁努斯塔楼和亨讷普博物馆的开放时间</strong>！它们可能在某些周一或特定节假日关闭，白跑一趟可就扫兴了。提前官网确认，万无一失。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 亨讷普周边住宿与美食攻略：住在风景里，尝在林堡味`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想在亨讷普住一晚，彻底融入它的宁静？我强烈推荐寻找<strong>马斯河畔的民宿或小型家庭旅馆</strong>。想象一下，清晨被河面的水鸟叫声唤醒，推开窗就是波光粼粼的景色，这才是深度游的精华。镇上或附近村庄有不少这样的选择，虽然不多，但预订一间，体验会截然不同。如果追求更多酒店选择，可以住到稍大一点的邻近城镇，如<strong>芬洛（Venlo）</strong>，车程也就20分钟左右。<strong>美食</strong>方面，就在历史老街上解决吧！找一家名叫 <strong>‘t Kiekebus</strong> 或类似风格的本地咖啡馆餐厅。一定要试试<strong>林堡水果馅饼（Limburgse vlaai）</strong>，尤其是樱桃或苹果口味，这是当地的骄傲，甜而不腻。正餐可以点一份用本地食材烹饪的荷兰式煎饼（Pannenkoeken），或者简单的三明治配上一杯<strong>荷兰或比利时啤酒</strong>。坐在老街的露天座位上，看着过往的寥寥行人，享受一顿慢悠悠的饭，这就是亨讷普式的奢侈。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果逛完亨讷普还意犹未尽，有两个方向可以继续探索：第一，向北驱车或骑行约15分钟，就能到达<strong>马斯河畔自然保护区和沙丘景观区</strong>，比如 <strong>“Maasduinen”国家公园</strong>的一部分。那里有完全不同于小镇风光的广阔荒野、沙丘、森林和湖泊，是徒步和骑行的天堂，能让你看到林堡省自然野性的一面。第二，向东过境，<strong>德国就在眼前</strong>。开车不到10分钟，你就可以进入德国小镇<strong>克桑滕（Xanten）</strong>，那里有非常著名的<strong>考古公园（APX）</strong>，是一座重建的古罗马城镇，博物馆和遗址极为精彩。这种一天内穿越两国、从荷兰中世纪小镇到罗马帝国遗址的体验，只有在亨讷普这样的边境地区才能轻松实现，让你的旅程文化层次加倍丰富。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "亨讷普的灵魂，就镌刻在那两条沉默交汇的河流里。它教会我们，最深厚的力量往往源于宁静的融合；最坚韧的美丽，可以在战争的废墟上被精心重建。这里没有响亮的宣言，只有砖石的低语、流水的轻吟，以及一份在边境线上安然自处的、充满尊严的日常。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/marken-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    马
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马肯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Marken</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kasteel-de-haar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    德
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">德哈尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kasteel de Haar</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/staphorst-traditional-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯塔福斯特</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Staphorst</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

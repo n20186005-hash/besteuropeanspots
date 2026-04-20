@@ -1,0 +1,149 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '安霍尔特水上城堡深度旅游攻略：探秘德国“北威州”的水上童话与艺术宝库',
+  description: '探索德国安霍尔特水上城堡（Wasserburg Anholt）深度游攻略，涵盖门票交通、打卡路线与避坑指南。揭秘中世纪护城河城堡、英式园林与顶级画廊的完美一日游。',
+}
+
+export default function WasserburgAnholtGuidePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '安霍尔特水上城堡', href: '/attractions/wasserburg-anholt-guide' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`安霍尔特水上城堡・Wasserburg Anholt・德国・北莱茵-威斯特法伦州伊瑟洛亨镇`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你已经看腻了人山人海的新天鹅堡，今天这份安霍尔特水上城堡的私藏旅游攻略，就带你躲开人潮，去北威州（Nordrhein-Westfalen）的宁静角落，发现一座真正的“睡美人”。想象一下，一座巨大的砖红色城堡，被宽阔如镜的护城河温柔环抱，倒影摇曳，天鹅悠游——这可不是迪士尼的布景，而是实实在在存在了700多年的贵族家园。作为你的专属向导，这份自由行指南请收好，它不仅会带你穿过吊桥走进中世纪，还会领你漫步在堪比英国乡村的浪漫园林里，最后在一个意想不到的房间里，与伦勃朗、鲁本斯的真迹面对面。准备好开始一场关于静谧、艺术与时光的探险了吗？`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你已经看腻了人山人海的新天鹅堡，今天这份安霍尔特水上城堡的私藏旅游攻略，就带你躲开人潮，去北威州（Nordrhein-Westfalen）的宁静角落，发现一座真正的“睡美人”。想象一下，一座巨大的砖红色城堡，被宽阔如镜的护城河温柔环抱，倒影摇曳，天鹅悠游——这可不是迪士尼的布景，而是实实在在存在了700多年的贵族家园。作为你的专属向导，这份自由行指南请收好，它不仅会带你穿过吊桥走进中世纪，还会领你漫步在堪比英国乡村的浪漫园林里，最后在一个意想不到的房间里，与伦勃朗、鲁本斯的真迹面对面。准备好开始一场关于静谧、艺术与时光的探险了吗？" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`安霍尔特水上城堡`} />
+                <InfoRow label="英文名称" value={`Wasserburg Anholt`} />
+                <InfoRow label="正式名称" value={`Wasserburg Anholt`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`北莱茵-威斯特法伦州伊瑟洛亨镇`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`安霍尔特城堡的历史，就像一部浓缩的莱茵河下游贵族兴衰史。它的故事始于12世纪，最初是作为科隆大主教领地上的一个防御工事，守卫着重要的贸易路线。真正让它成型并闪耀的，是自1641年起成为萨尔姆-萨尔姆亲王（Fürsten zu Salm-Salm）家族的世袭居所，至今这个家族仍居住和管理着城堡。在十七世纪席卷欧洲的“三十年战争”中，城堡经历了围攻与破坏，但战后的重建使它融合了中世纪的坚固与巴洛克时期的优雅，成为地区权力与文化的象征。它并非皇室所有，却因历代亲王对艺术的热爱，积累了令人咋舌的私人收藏，使其从一个军事堡垒悄然转变为一座艺术圣殿。这种从“剑”到“笔”的蜕变，在欧洲贵族城堡中格外独特，它代表了一种生存智慧：当武力不再是一切，文化与艺术的传承才是家族不朽的真正盔甲。`} />
+                <InfoRow label="建筑特色" value={`安霍尔特城堡的外观极具视觉冲击力。它的主体由温暖的赭石色砖石砌成，历经风雨的墙面呈现出斑驳而丰富的色调。最引人注目的无疑是它被一道宽阔的护城河完全环绕，河水并非死水，而是与自然水系相连，清澈碧绿，让整座建筑如同从水中生长出来的一座巨大石岛。城堡的主楼高大敦实，带有鲜明的中世纪防御特征：高耸的斜屋顶、密布的狭长窗户（既是采光孔也是射击孔），以及角落上醒目的圆锥形塔楼。连接外部世界的是一座古朴的木制吊桥，走过时桥面轻微的吱呀声，瞬间将人拉回几个世纪前。建筑立面上装饰着简洁的砂岩窗框和家族纹章，没有过多浮夸的雕饰，却自有一种历经沧桑的厚重与威严。当阳光西斜，金色的光芒洒在砖墙和水面上，整座城堡仿佛被点燃，又倒映在如镜的水中，形成一幅完美对称、令人屏息的画面。`} />
+                <InfoRow label="建筑风格" value={`安霍尔特城堡的建筑风格是“防御性中世纪风格”与“巴洛克式居住美学”的 fascinating 混合体。它的核心骨架是纯粹的中世纪城堡风格：注重实用与防御。你看那厚达数米的城墙、环状的护城河（水是最天然的屏障）、以及高而窄的窗户，都是为了抵御攻击而设计。然而，在经历过战争破坏后，17-18世纪的重建为它注入了巴洛克时代的灵魂。巴洛克风格在这里的体现并非维也纳或巴黎式的极致华丽，而是一种更内敛、更注重舒适与对称的美学。例如，城堡内部庭院的设计开始讲究规整的几何布局；原先纯为战斗准备的房间，被改造为拥有高大天花板、大型采光窗和精美灰泥装饰的起居室、沙龙和画廊，以适应贵族社交和展示艺术收藏的需求。这种风格融合恰如其分地讲述了它的历史：从一座时刻准备战斗的堡垒，逐渐演变成一个注重生活品质与艺术熏陶的贵族家园。`} />
+                <InfoRow label="文化价值" value={`对于当地人而言，安霍尔特城堡远远不止是一个旅游景点。它是这片区域的“心脏”与精神象征。几个世纪以来，它不仅是亲王的居所，也是整个社区的经济与文化中心，提供了就业，也塑造了周边的景观（比如庞大的园林）。如今，它更是一个活的文化载体。城堡内那间藏有约600幅古典大师画作的画廊，是德国最重要的私人艺术收藏之一，定期向公众开放，使小镇居民和远道而来的游客都能轻易接触到伦勃朗、范·戴克等巨匠的作品，这种将顶级艺术从大城市博物馆“民主化”到乡村的实践，极具意义。同时，城堡与周边的英式园林共同构成了一个巨大的自然保护区，是众多动植物的家园，体现了历史保护与生态保育的现代结合。它提醒着人们，文化遗产的保护不仅是维护古老的石头，更是维系一种与自然、艺术和谐共处的生活方式。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 安霍尔特水上城堡一日游完美打卡路线攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`从护城河到画廊的自由行精华路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的向导，我建议这样安排你的一天，节奏张弛有度，精华一个不落。**上午（10:00-12:30）：穿越水镜与时光。** 建议你开馆就到达，这时光线柔和，游客稀少。别急着进门，先从外围慢慢走一圈，欣赏城堡在水中的完整倒影，聆听鸟鸣与流水声。走过古老的吊桥进入城堡庭院，那种穿越感非常强烈。跟随导览（通常为德文，但有详细的英文文字说明）参观城堡的居住区，你会走过骑士厅、华丽的巴洛克沙龙和礼拜堂，感受贵族生活的气息。**中午（12:30-14:00）：园林野餐或小镇午餐。** 参观完城堡内部，正是中午。强烈推荐你提前在镇上买好简单的午餐，到城堡后方广阔的英式风景园林里找一张长椅或一片草坪，进行一场湖畔野餐。阳光穿过古树的枝叶，洒在草地上，远处是城堡的背影，无比惬意。若想用餐馆，园林内的咖啡馆或出口外的小镇也有不错的选择。**下午（14:00-16:30）：艺术盛宴与林间漫步。** 午后，重头戏来了——进入城堡的画廊。这里需要你静下心来，慢慢走过一个个挂满名画的房间，近距离欣赏那些教科书级的面孔。预留至少一个小时给这里。之后，用剩下的时间彻底探索园林。园林设计精巧，有湖泊、小桥、林荫道、隐秘的雕塑和一座可爱的花园迷宫。沿着蜿蜒的路径散步，每一步都是风景，是消化艺术与历史的完美方式。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>吊桥上的第一瞥</strong>：当你踏上那座吱呀作响的木制吊桥时，请一定在桥中央停一停，回头望。这个视角是绝佳的。你身后是平凡的现代世界，而你眼前，穿过厚重的拱形门洞，是城堡宁静的鹅卵石庭院。阳光从门洞上方斜射下来，照亮空气中飞舞的微尘，门洞像是一个时光滤镜的边框，将中世纪的生活场景定格在此刻。这道门，是现实与童话的分界线。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>画廊里的“伦勃朗之光”</strong>：在画廊一个相对安静的角落，你会遇见伦勃朗·范·莱因的肖像画《一位戴帽子的老人》。请凑近些看（当然是在安全距离内）。伦勃朗招牌的“光影魔术”在这里展现得淋漓尽致。画中老人脸庞的绝大部分隐没在深褐色阴影中，唯有一道神秘而柔和的光，精准地照亮了他的额角、鼻翼和深邃的右眼。那眼神里有一种看透世事的疲倦与慈悲，仿佛能穿越画布与你对话。站在真迹前，你能看到颜料厚重的笔触，感受到三百多年前画家呼吸的节奏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>园林心形湖的倒影</strong>：穿过一片高大的乔木林，园林会突然给你一个惊喜：一个形状优美近乎心形的小湖泊。走到湖南岸，面向城堡方向。从这里看过去，城堡遥远的侧影与湖畔高大的树木一同倒映在平静如镜的湖面上，形成一幅绝美的、充满浪漫主义情怀的风景画。尤其在无风的午后，上下对称的世界清澈得不真实，是拍照和发呆的黄金点位。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>骑士厅的砂岩壁炉</strong>：在城堡的骑士厅，不要只抬头看屋顶的木梁。把目光投向那个巨大的文艺复兴风格壁炉。它由淡黄色的砂岩雕成，装饰着繁复的卷草纹、寓言人物和家族的纹章。用手（如果可以轻轻触摸的话）感受砂岩被岁月磨砺出的温润质感。想象一下，在寒冷的冬夜，炉火在这个壁炉里熊熊燃烧，火光在雕刻的凹凸面上跳跃，温暖着在此聚会的骑士与贵族，墙上悬挂的武器和挂毯也随着火光晃动——历史的温度，仿佛就储存在这石头里。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想要拥有一趟完美的安霍尔特之旅，这几个小贴士至关重要：" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 时间选择是王道：</strong> 最佳游览时间是<strong>平日的春季（5-6月）或初秋（9月）</strong>。此时园林花卉繁盛或秋色绚烂，气候宜人，且能完美避开周末和暑假的德国本地家庭游客潮。城堡和园林的开放时间随季节变化，<strong>出发前务必在其官网确认最新开放日期和时间</strong>，尤其注意画廊的开放时段可能与城堡主体不同，冬季部分区域可能关闭。尽量早上开馆时到达，享受宁静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. 穿着与装备建议：</strong> 参观城堡内部和画廊需要步行，且部分房间铺着古老的地板，<strong>请务必穿一双非常舒适、鞋底柔软的平底鞋</strong>。园林面积巨大，小径多为沙土或草地，高跟鞋寸步难行。德国天气多变，即使是夏季，也建议带一件防风外套。园林漫步时，防蚊液在夏季会是个好帮手。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>3. 交通与参观模式须知：</strong> 城堡位于小镇边缘，公共交通不便，<strong>最推荐的方式是自驾</strong>，停车场宽敞且免费。参观城堡内部通常<strong>必须参加定时举办的导览团</strong>（德语），这是为了保护内部陈设和控制人流。别担心听不懂，导览员通常会提供英文、荷兰语等文字说明手册，让你边看边读。门票建议购买包含城堡、画廊和园林的联票，性价比最高。参观时请保持安静，尤其画廊内禁止拍照，用眼睛和心去记录。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 安霍尔特城堡周边住宿与地道美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "安霍尔特城堡所在的伊瑟洛亨（Isselburg）及周边地区充满了宁静的乡村风情。如果你想沉浸在这种氛围中，可以考虑住在附近的家庭式民宿（Pension）或农庄酒店（Gutshof），这些住宿通常由老房子改建，房间宽敞，自带花园，早晨会被鸟叫声唤醒，价格也比大城市亲民许多。城堡自己的园林内有一家名为“Schlosscafé im Park”的咖啡馆，位置无敌，坐在露台上，眼前就是如画的园林景色。这里的咖啡和德式蛋糕（比如经典的苹果酥或黑森林蛋糕）味道不错，是下午茶歇脚的首选。若要吃正餐，可以驱车几分钟到伊瑟洛亨镇上，找一家传统的德式餐馆（Gasthaus）。务必尝试一下当地的“威斯特法伦风味”，比如一道扎实的“威斯特法伦火腿”（Westfälischer Schinken）拼盘，配上面包和酸黄瓜，或是“土豆煎饼”（Reibekuchen）配苹果泥。这些朴实的美味，和这座质朴而雄伟的城堡气质非常相配。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开安霍尔特，如果你还有余兴，我强烈推荐两个方向。<strong>一是往西驱车约20分钟，抵达荷兰边境小镇“亨厄洛”（‘s-Heerenberg）</strong>，那里有一座同样被护城河环绕的美丽城堡——<strong>亨厄洛城堡（Kasteel Huis Bergh）</strong>。它也是一座中世纪城堡，拥有高大的塔楼和精美的艺术收藏（特别是早期意大利绘画），氛围与安霍尔特相似却各有千秋，一次旅程看两座顶级水上城堡，绝对过瘾。<strong>二是往东南方向约半小时车程，探索“帝国修道院之城”——</strong> <strong>卡尔卡尔（Kalkar）</strong>。这座莱茵河畔的静谧小城以它雄伟的圣尼古拉教堂（St. Nicolai）闻名，教堂内保存着被誉为“莱茵河下游文艺复兴奇迹”的<strong>精美木雕祭坛</strong>，由大师海因里希·杜尔曼创作，人物栩栩如生，细节令人震撼。从水上的堡垒到心灵的圣殿，这样的延伸探索能让你的文化之旅层次更加丰富。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "安霍尔特水上城堡的灵魂，在于它那看似矛盾却又和谐统一的双重性：它既是环绕着冰冷护城河的坚硬堡垒，又是孕育着繁花、流水与顶级艺术的温柔家园。它告诉我们，真正的力量并非永远张扬锋芒，而是在时光的流淌中，懂得将防御的壁垒化为守护美好的屏障，让石头里开出花，让盔甲下生长出对美最敏锐的感知。这里封存的，是一个家族用七百年时间书写的，关于生存、生活与生命的安静史诗。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/lorsch-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    洛
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">洛尔施隐修院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lorsch Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/braubach-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布劳巴赫城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Braubach Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ladenburg-germany" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉登堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ladenburg</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

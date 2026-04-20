@@ -32,9 +32,8 @@ if (fs.existsSync(jsonFile)) {
 // 核心解析函数
 function cleanMarkdown(text) {
   if (!text) return '';
-  return text.replace(/\*\*/g, '') // 移除加粗
-             .replace(/\*/g, '')   // 移除单独星号
-             .replace(/#/g, '')    // 移除井号
+  // 注意：为了支持富文本，这里不再全局移除 ** 和 * 以及 >
+  return text.replace(/#/g, '')    // 移除井号
              .replace(/`/g, '');   // 移除反引号
 }
 
@@ -57,8 +56,9 @@ function parseText(text) {
       currentKey = match[1];
       currentValue = [];
     } else if (currentKey) {
-      // 移除可能存在的 Markdown 列表符 (如 "- ")
-      currentValue.push(line.replace(/^[-*]\s+/, '').replace(/^#+\s*/, ''));
+      // 不再移除 - 和 *，因为它们可能是无序列表的一部分
+      // currentValue.push(line.replace(/^[-*]\s+/, '').replace(/^#+\s*/, ''));
+      currentValue.push(line.replace(/^#+\s*/, ''));
     }
   }
   if (currentKey) {
@@ -69,17 +69,39 @@ function parseText(text) {
 
 function escapeJSX(str) {
   if (!str) return '';
-  // 对于 JSX 中的大段纯文本，不需要转义单引号，但如果在大括号 {} 或属性中需要小心
-  // 这里主要解决大括号和转义符的问题，防止 JSX 解析崩溃
+  // 解决大括号问题
   return str.replace(/\{/g, '&#123;').replace(/\}/g, '&#125;');
+}
+
+function formatRichTextHtml(text) {
+  if (!text) return '';
+  // 转换 **粗体** 为 <strong>
+  let html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  // 转换 *斜体* 为 <em>
+  html = html.replace(/\*([^\*]+)\*/g, '<em>$1</em>');
+  // 转义双引号以防破坏 JSX 属性
+  return html.replace(/"/g, '&quot;');
 }
 
 function formatParagraphs(text) {
   if (!text) return '';
   return text.split('\n')
     .filter(p => p.trim())
-    // 使用花括号括起字符串字面量解决 JSX 中单引号报错
-    .map(p => `              <p className="text-gray-700 leading-relaxed mb-4">{\`${escapeJSX(p).replace(/`/g, '\\`')}\`}</p>`)
+    .map(p => {
+      // 处理引用块 > 
+      if (p.startsWith('> ') || p.startsWith('＞ ')) {
+        const content = formatRichTextHtml(escapeJSX(p.substring(2)));
+        return `              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "${content}" }} />`;
+      }
+      // 处理无序列表 - 或 *
+      if (p.startsWith('- ') || p.startsWith('* ')) {
+        const content = formatRichTextHtml(escapeJSX(p.substring(2)));
+        return `              <li className="text-gray-700 leading-relaxed mb-2 ml-4 list-disc" dangerouslySetInnerHTML={{ __html: "${content}" }} />`;
+      }
+      // 普通段落
+      const content = formatRichTextHtml(escapeJSX(p));
+      return `              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "${content}" }} />`;
+    })
     .join('\n');
 }
 
@@ -192,7 +214,17 @@ categories.forEach(cat => {
       return;
     }
 
-    const slug = data['路由缩写(slug)'].toLowerCase().replace(/[^a-z0-9-]/g, '-');
+    // 处理路由缩写：为了避免百科、游记、历史的 URL 冲突，根据分类自动添加后缀
+    let baseSlug = data['路由缩写(slug)'].toLowerCase().replace(/[^a-z0-9-]/g, '-');
+    let slug = baseSlug;
+    
+    // 如果是游记，后缀加 -travelogue；如果是历史，后缀加 -history；百科保持原样作为主页
+    if (cat.id === 'travelogue') {
+      if (!slug.endsWith('-travelogue')) slug += '-travelogue';
+    } else if (cat.id === 'history') {
+      if (!slug.endsWith('-history')) slug += '-history';
+    }
+
     const pageDir = path.join(attractionsDir, slug);
     const pageFile = path.join(pageDir, 'page.tsx');
 
@@ -246,16 +278,17 @@ ${relatedAttractions.map(a => `              <a href="/attractions/${a.slug}" cl
     let sectionIndex = 1;
     let sectionsHtml = '';
 
-    // 1. 景点介绍
-    if (data['核心简介']) {
+    // 1. 景点介绍 / 导语
+    if (data['核心简介'] || data['导语']) {
       sectionsHtml += `
-          <Section title="${sectionIndex++}. 景点介绍">
-${formatParagraphs(data['核心简介'])}
+          <Section title="${sectionIndex++}. ${data['导语'] ? '导语' : '景点介绍'}">
+${formatParagraphs(data['核心简介'] || data['导语'])}
           </Section>\n`;
     }
 
-    // 2. 基本信息
-    sectionsHtml += `
+    // 2. 基本信息 (如果是纯历史页，可能不需要这块，但保留兼容)
+    if (data['景点中文名']) {
+      sectionsHtml += `
           <Section title="${sectionIndex++}. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
@@ -266,26 +299,68 @@ ${formatParagraphs(data['核心简介'])}
                 <InfoRow label="城市" value={\`${(data['城市'] || '').replace(/`/g, '\\`')}\`} />
               </div>
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={\`${(data['历史地位'] || '').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="建筑特色" value={\`${(data['建筑特色'] || '').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="建筑风格" value={\`${(data['建筑风格'] || '').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="文化价值" value={\`${(data['文化价值'] || '').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="历史地位" value={\`${(data['历史地位'] || '详见下文').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="建筑特色" value={\`${(data['建筑特色'] || '详见下文').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="建筑风格" value={\`${(data['建筑风格'] || '详见下文').replace(/`/g, '\\`')}\`} />
+                <InfoRow label="文化价值" value={\`${(data['文化价值'] || '详见下文').replace(/`/g, '\\`')}\`} />
               </div>
             </div>
+            ${(data['开放时间'] || data['门票价格'] || data['地址'] || data['交通方式']) ? `
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={\`${(data['开放时间'] || '全天开放').replace(/`/g, '\\`')}\`} />
               <InfoRow label="门票价格" value={\`${(data['门票价格'] || '免费').replace(/`/g, '\\`')}\`} />
               <InfoRow label="地址" value={\`${(data['地址'] || '请参考地图导航').replace(/`/g, '\\`')}\`} />
               <InfoRow label="交通方式" value={\`${(data['交通方式'] || '建议步行或公共交通').replace(/`/g, '\\`')}\`} />
+            </div>` : ''}
+          </Section>\n`;
+    }
+
+    // 3. 历史背景 / 城市起源
+    if (data['历史背景'] || data['城市起源']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. ${data['城市起源'] ? '城市/景点起源' : '历史背景'}">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+${formatParagraphs(data['城市起源'] || data['历史背景'])}
             </div>
           </Section>\n`;
+    }
 
-    // 3. 历史背景
-    if (data['历史背景']) {
+    // 3.1 历史印记 (历史页专属)
+    if (data['历史印记']) {
       sectionsHtml += `
-          <Section title="${sectionIndex++}. 历史背景">
+          <Section title="${sectionIndex++}. 镌刻时光的历史印记">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-${formatParagraphs(data['历史背景'])}
+${formatParagraphs(data['历史印记'])}
+            </div>
+          </Section>\n`;
+    }
+
+    // 3.2 名人传奇 (历史页专属)
+    if (data['名人传奇']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+${formatParagraphs(data['名人传奇'])}
+            </div>
+          </Section>\n`;
+    }
+
+    // 3.3 民间传说与人文风情 (历史页专属)
+    if (data['民间传说']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+${formatParagraphs(data['民间传说'])}
+            </div>
+          </Section>\n`;
+    }
+
+    // 3.4 历史回响 (历史页专属)
+    if (data['历史回响']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+${formatParagraphs(data['历史回响'])}
             </div>
           </Section>\n`;
     }
@@ -378,7 +453,19 @@ ${formatParagraphs(data['周边延伸探索'])}
           </Section>\n`;
     }
 
-    // 10. 总结感悟
+    // 10. 历史冷知识与问答 (FAQ)
+    if (data['历史冷知识与问答']) {
+      sectionsHtml += `
+          <Section title="${sectionIndex++}. 历史冷知识与问答 (FAQ)">
+            <div className="space-y-4">
+              <div className="bg-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+${formatParagraphs(data['历史冷知识与问答'])}
+              </div>
+            </div>
+          </Section>\n`;
+    }
+
+    // 11. 总结感悟
     if (data['总结感悟']) {
       sectionsHtml += `
           <Section title="${sectionIndex++}. 总结感悟">

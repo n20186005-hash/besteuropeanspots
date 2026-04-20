@@ -1,0 +1,150 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '福斯-杜阿雷柳自由行指南：左手狂野大西洋，右手宁静潟湖湖',
+  description: '探索葡萄牙Foz do Arelho深度游攻略！这里是大西洋海浪与奥比杜什潟湖交汇的秘境，拥有绝美沙洲与自然风光，一份攻略带你玩转两种截然不同的海。',
+}
+
+export default function FozDoArelloPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '福斯-杜阿雷柳', href: '/attractions/foz-do-arello' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`福斯-杜阿雷柳・Foz do Arelho・葡萄牙・莱里亚区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你在找一份能同时安抚躁动灵魂与疲惫身心的海边目的地攻略，那今天这份 **福斯-杜阿雷柳私藏旅游攻略**，就是为你准备的。它藏在葡萄牙中西部的“银海岸”上，不是一个通常意义上的“景点”，而是一个大自然的奇迹现场。想象一下，你站在一片神奇的沙洲上，向左转，是雷鸣般咆哮、卷着白色泡沫的**大西洋狂野海浪**，充满了无尽的能量；向右转，几步之遥，则是平滑如镜、倒映着天空与帆影的**奥比杜什潟湖**，宁静得能听见自己的心跳。这种极致的对比与和谐共存，就是福斯-杜阿雷柳最迷人的名片。这份 **自由行指南**，就带你深入这个宝藏之地，避开常规旅行团的路线，像本地人一样，感受海风的双重奏。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你在找一份能同时安抚躁动灵魂与疲惫身心的海边目的地攻略，那今天这份 <strong>福斯-杜阿雷柳私藏旅游攻略</strong>，就是为你准备的。它藏在葡萄牙中西部的“银海岸”上，不是一个通常意义上的“景点”，而是一个大自然的奇迹现场。想象一下，你站在一片神奇的沙洲上，向左转，是雷鸣般咆哮、卷着白色泡沫的<strong>大西洋狂野海浪</strong>，充满了无尽的能量；向右转，几步之遥，则是平滑如镜、倒映着天空与帆影的<strong>奥比杜什潟湖</strong>，宁静得能听见自己的心跳。这种极致的对比与和谐共存，就是福斯-杜阿雷柳最迷人的名片。这份 <strong>自由行指南</strong>，就带你深入这个宝藏之地，避开常规旅行团的路线，像本地人一样，感受海风的双重奏。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`福斯-杜阿雷柳`} />
+                <InfoRow label="英文名称" value={`Foz do Arelho`} />
+                <InfoRow label="正式名称" value={`Foz do Arelho`} />
+                <InfoRow label="国家" value={`葡萄牙`} />
+                <InfoRow label="城市" value={`莱里亚区`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`福斯-杜阿雷柳的历史，与其说镌刻在古老的石碑上，不如说写在了潮汐与沙洲的每一次变迁里。它的名字“Foz do Arelho”直译是“阿雷柳河河口”，揭示了它最初的形成逻辑——河流在此汇入大西洋，经年累月的泥沙沉积，塑造了这片分隔大海与潟湖的天然沙嘴。在很长一段时间里，这里只是卡尔达斯达赖尼亚地区渔民和农民偶然涉足的自然角落，它的“历史地位”更多是地理意义上的：作为大西洋狂暴力量与内陆潟湖温柔水系之间那道脆弱而坚韧的屏障。直到20世纪中期，随着葡萄牙沿海旅游业的发展，人们才惊觉此地无与伦比的美丽。它没有经历过罗马帝国的辉煌，也没有承载过航海大发现的荣光，但它见证了人类与海洋关系从“敬畏与索取”到“欣赏与共存”的微妙转变。如今，它是葡萄牙“银海岸”王冠上一颗独特的宝石，一个将原始自然力量与休闲度假完美结合的活态地标。`} />
+                <InfoRow label="建筑特色" value={`严格来说，这里最伟大的“建筑”并非人造，而是自然神力所筑的**沙洲**。它像一条金黄色的柔软臂膀，慵懒地伸向海洋，最窄处可能仅容数人并行。沙质极其细腻，赤脚踩上去是一种温暖的、略带潮湿的包裹感。沙洲两侧的“立面”形成鲜明对比：朝向大西洋的一面，沙滩宽阔，沙色偏白，被海浪冲刷出坚实的坡度，上面布满贝壳碎片和被磨圆的卵石，像大自然的马赛克镶嵌画；朝向潟湖的一面，坡度平缓，沙色更深，湖水在边缘浸出深色的水痕，温柔地舔舐着岸线。除了这天然的杰作，人类的活动点缀其间：沙洲尽头，一座低矮的混泥土**防波堤** 蜿蜒入海，表面被海盐和岁月染成灰白色，是垂钓者和观浪者的最爱。岸边，一些色彩明快的低矮房屋和度假公寓零星分布，大多是白色墙面配以蓝色、黄色或绿色的门窗，在强烈的海风和阳光下显得干净又顽强。一座简约的现代风格**木质观景台** 伸向潟湖，是欣赏日落绝佳的位置。`} />
+                <InfoRow label="建筑风格" value={`如果说福斯-杜阿雷柳有“建筑风格”，那它一定是 **“朴素的海滨实用主义”** 与 **“现代简约风”** 的混合体。你看不到繁复的曼努埃尔式雕花或绚丽的阿兹勒赫瓷砖，这里的建筑语言是功能性的、低矮的、与地形融为一体的。传统渔民的小屋早已被适应度假需求的住宅取代，但这些建筑依然遵循着沿海地区的本能：坚固的墙体对抗海风，倾斜或平缓的屋顶利于排水，大窗户面向最好的景观（无论是海还是湖）。色彩的应用是它最“葡萄牙”的地方——那些门窗上跳跃的蓝、黄、绿，源自于对大海、阳光和生命的直觉热爱。近年来新建的一些民宿和公共设施，则引入了更多北欧式的简约线条和大量木材、玻璃的运用，比如那个延伸至潟湖上的观景台，其设计理念就是“最小化干预，最大化观景”。这种风格的核心就是：不喧宾夺主，让建筑成为框住自然美景的“画框”，让人成为风景的一部分。在这里，建筑存在的意义，是为了更好地服务于感受风、感受水、感受光。`} />
+                <InfoRow label="文化价值" value={`对于葡萄牙人，尤其是里斯本以北的中部海岸居民来说，福斯-杜阿雷柳是一种“双重生活”的完美体现。它不是一个需要仰视的历史遗迹，而是一个可以真切生活进去的周末“避难所”。它的文化价值在于提供了一种独特的、基于地理特性的生活方式选择。清晨，你是潟湖上平静的 paddleboard 爱好者，在如镜的水面上滑行，与早起的鸟儿为伴；下午，你可以瞬间转变为大西洋边的冲浪者或逐浪少年，在澎湃的海浪中释放激情。这种在“动”与“静”、“狂野”与“安宁”之间无缝切换的自由，深深植根于当地文化中。它也是一个家庭友好型的目的地，潟湖浅滩是孩子们安全玩水的天堂。因此，这里承载了无数葡萄牙家庭的夏日记忆：沙滩上的野餐、潟湖里的第一次划船、祖父在防波堤上钓到的鱼……它代表了现代葡萄牙人休闲生活的理想范式——亲近自然，享受简单，在自然的力量中找到平衡与乐趣。它不张扬，却以一种温和而强大的方式，塑造着沿岸社区的生活节奏与精神面貌。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 福斯-杜阿雷湖一日游打卡路线攻略：从潟湖晨光到海浪日落`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行精华路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份 **一日游路线** 请收好，咱们不赶路，只感受路。**上午**，一定要早一点出发，先去潟湖（Lagoa de Óbidos）边。清晨的湖面常有一层薄雾，阳光洒下来，整个世界都是金色的宁静。你可以在湖边散散步，或者租个脚踏船、立式桨板，亲手划破那片平静。**中午**， hunger kicks in! 离开主沙滩区，往小镇中心走，找一家本地人常去的tasca（小餐馆）。点一份用当天从潟湖或大西洋捞上来的鱼做的“烤鱼”（Peixe Grelhado），配上橄榄油煮土豆，简单却鲜美无比。**下午**，是探索沙洲的黄金时间。从潟湖一侧走上沙洲，感受脚下从湿润到干燥的变化。一直走到面向大西洋的那一边，看冲浪者在浪尖起舞，或者干脆自己也加入一堂冲浪体验课。然后沿着海岸线散步，走向沙洲尽头的那片礁石区，听听海浪撞击的巨响。**傍晚**，务必回到潟湖西侧的观景台或任意一个朝西的湖边餐厅露台。点一杯葡萄牙绿酒（Vinho Verde），看着夕阳把整个潟湖染成粉紫色，天空、湖水、帆影融为一体，这是全天的高光时刻。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>沙洲分界线</strong>：一定要站在沙洲最窄的那个脊背上，张开双臂。左手边，大西洋的海风强劲、潮湿，带着咸腥味，你能听到持续不断的、低沉的“轰隆”声，那是海浪在几百米外开始堆积力量。右手边，来自潟湖的风是轻柔的、温暖的，带着淡淡的水草清香，水面平静得只能听到细小的涟漪声和偶尔的水鸟鸣叫。你的身体能清晰感知到这两股不同气流的角力与交汇，这是地理书上“海陆风”概念最生动的课堂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>灯塔与日出</strong>：虽然福斯-杜阿雷柳本身没有高塔，但远眺南边卡波卡罗角（Cabo Carvoeiro）的灯塔，是清晨的一大享受。当第一缕阳光从海平面射出，那座白色灯塔会被勾勒出一道金色的轮廓，像一枚定海神针，矗立在波涛汹涌的黑色礁石之上。逆光看去，早起渔船的身影成了黑色的剪影，在泛着金红色光芒的海面上划出长长的波纹，充满了油画般的史诗感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>潟湖的镜面时刻</strong>：在无风的清晨或傍晚，奥比杜什潟湖会变成一面完美的镜子。云朵、对岸的彩色房子、飞翔的鸟群，都被一丝不差地复制在水下世界里。这时，如果有一艘白色的帆船缓缓驶过，仿佛是在天际航行，那种天地倒置、现实与幻境模糊的错觉，让人瞬间安静下来。试着拍一张照片，你会发现很难分清哪里是天，哪里是水。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>礁石区的生命力</strong>：走到沙洲尽头的防波堤和礁石区，别只看大浪。低头仔细看那些被海水常年冲刷的黑褐色礁石表面，你会发现一个微缩的生态系统：紧紧吸附着的黑色贻贝、缓缓移动的寄居蟹、在石缝水洼里闪烁的小鱼，还有在浪花溅湿处顽强生长的地衣与海藻。这里充满了咸湿的气味和生命的韧性，是大西洋力量最直接的见证者。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 福斯-杜阿雷湖自由行避坑指南与关键行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>防风防晒，温差准备</strong>：这里风大（尤其是大西洋一侧）是出了名的，帽子最好有系绳，裙子可能会不太“听话”。防晒霜必须高倍数、勤补涂，因为水面和沙滩的反光会加倍紫外线伤害。即使是盛夏，早晚温差也可能较大，带一件防风外套或薄针织衫绝对明智。想下潟湖玩水或冲浪，速干毛巾和备换衣物要准备好。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>避开人潮与“空城”时间</strong>：7-8月是欧洲度假旺季，周末这里会聚集很多里斯本和周边来的游客，停车场紧张，餐厅可能需要排队。如果想获得更宁静的体验，建议选择6月或9月的平日来访。相反，冬季（11月-2月）虽然别有风味，但天气多变，风浪极大，许多餐厅和出租服务可能歇业，宛如“空城”，出行前务必查好信息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与停车提示</strong>：自驾是最方便的方式。主沙滩区有大型停车场，但旺季一位难求，可以尝试早点到，或把车停在小镇外围步行进入。使用公共交通工具的话，从里斯本或科英布拉坐火车到卡尔达斯达赖尼亚（Caldas da Rainha）或奥比杜什（Óbidos）是最近的，然后需要换乘当地的出租车或公交车（班次有限），务必提前查好时刻表。<strong>重要安全提示</strong>：大西洋海浪看似壮观，但暗流汹涌，下水游泳务必选择有救生员看守的海滩区域，并严格遵守安全旗语。潟湖水浅且平静，相对安全，但仍需看护好儿童。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 福斯-杜阿雷柳周边住宿与美食全攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>住宿</strong>：这里的住宿选择从豪华度假村到温馨民宿都有。如果你想醒来就看到潟湖，可以寻找沙洲靠潟湖一侧的公寓或精品酒店，比如一些设计现代的度假屋，带大露台，是观赏日落的绝佳私人点位。如果追求性价比和本地生活气息，可以住到背后的福斯-杜阿雷柳小镇里，那里有许多由家庭经营的旅馆（Pensão）或短期出租公寓，步行到海滩也就10-15分钟，晚上更加安静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>餐饮</strong>：吃海鲜是头等大事！推荐尝试一家叫 <strong>“O Facho”</strong> 的餐厅，它就在沙洲靠近小镇入口的路边，看起来其貌不扬，但本地口碑极佳。一定要点他们的“海鲜饭”（Arroz de Marisco），不是西班牙那种夹生饭，而是葡式湿软的风格，汤汁浓郁，海鲜给得豪迈。另一家 <strong>“Restaurante Duna”</strong> 位于更靠近潟湖的位置，拥有绝美的露台景观，他们的“炭烤海鲈鱼”和“蛤蜊煮白酒”是经典。别忘了配上一杯当地的白葡萄酒。简单吃的话，沙滩边的棚屋酒吧卖的“ bifana”（葡萄牙猪肉三明治）和冰啤酒，就是最爽快的沙滩餐。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>奥比杜什古城 (Óbidos)</strong>：从福斯-杜阿雷柳开车或打车仅需10-15分钟。这座被完整城墙环绕的中世纪小镇，宛如童话书里走出来的。漫步在碎石铺就的主街上，两旁是开满鲜花的白色房屋，品尝一口独特的“吉尼贾酒”（Ginja，一种樱桃利口酒，通常装在巧克力小杯里喝）。爬上城墙走一圈，可以俯瞰红瓦白墙的全景。它与福斯-杜阿雷柳的现代自然风光形成了完美的历史与人文互补。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>佩尼切 (Peniche)</strong>：向北驾车约20分钟，你会到达葡萄牙著名的冲浪圣地和大渔港。这里氛围更加硬核和活跃。除了观看高手们在世界级浪点“北大管”（Supertubos）的表演，还可以乘船前往附近的 <strong>伯莱加岛（Ilha da Berlenga）</strong> 自然保护区，那里的海水湛蓝清澈，有神秘的洞穴和古老的堡垒，适合进行一日徒步和浮潜探险，体验另一种截然不同的海洋野性之美。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "福斯-杜阿雷柳的灵魂，就在于那份上帝赋予的、无需任何妥协的“双重选择权”。它不强迫你只做一种人——你可以是安静的冥想者，也可以是澎湃的冒险家；它允许你在同一天、同一片土地上，同时拥有世界的两极。这种极致的对比与和谐，最终教会旅人的，或许正是在生活的浪潮与内心的平静之间，找到属于自己的那个平衡点。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/castelo-de-vide-judaica" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯特卢-迪维迪（阿连特茹的犹太遗风小镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castelo de Vide</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/viseu-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维塞乌古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Viseu Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/batalha-monastery" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴塔利亚修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Batalha Monastery</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

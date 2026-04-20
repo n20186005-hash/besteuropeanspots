@@ -1,0 +1,146 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '霍伦费尔斯城堡旅游攻略：入住悬崖古堡的青年旅舍奇幻体验指南',
+  description: '探索卢森堡Hollenfels Castle深度游攻略。建在陡峭岩壁上的中世纪古堡，内部竟是青年旅舍！涵盖门票交通、一日游路线及独家避坑指南。',
+}
+
+export default function HollenfelsCastleGuidePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '霍伦费尔斯城堡', href: '/attractions/hollenfels-castle-guide' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`霍伦费尔斯城堡・Hollenfels Castle・卢森堡・梅尔施`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友！如果你正计划一场卢森堡自由行，并且对千篇一律的景点感到厌倦，那么今天这份**霍伦费尔斯城堡私藏旅游攻略**，就是为你准备的。它不在喧闹的市区，而是藏在被誉为“七堡之谷”的静谧山谷里。最酷的是什么？这座看起来只存在于童话书里的石头城堡，它的主塔内部，竟然是一家正经营业的青年旅舍！想象一下，在拥有700年历史的厚重石墙里入睡，清晨被山谷的鸟鸣和透过窄窗的阳光唤醒。这份攻略，就不仅仅是带你“打卡”，而是作为你的专属向导，教你如何真正“住进”历史里，获得一份独一无二的**自由行指南**。我们会聊怎么去、怎么玩、怎么避开旅游团，以及最重要的——如何预订那间可能是你此生住过最特别的“宿舍”。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友！如果你正计划一场卢森堡自由行，并且对千篇一律的景点感到厌倦，那么今天这份<strong>霍伦费尔斯城堡私藏旅游攻略</strong>，就是为你准备的。它不在喧闹的市区，而是藏在被誉为“七堡之谷”的静谧山谷里。最酷的是什么？这座看起来只存在于童话书里的石头城堡，它的主塔内部，竟然是一家正经营业的青年旅舍！想象一下，在拥有700年历史的厚重石墙里入睡，清晨被山谷的鸟鸣和透过窄窗的阳光唤醒。这份攻略，就不仅仅是带你“打卡”，而是作为你的专属向导，教你如何真正“住进”历史里，获得一份独一无二的<strong>自由行指南</strong>。我们会聊怎么去、怎么玩、怎么避开旅游团，以及最重要的——如何预订那间可能是你此生住过最特别的“宿舍”。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`霍伦费尔斯城堡`} />
+                <InfoRow label="英文名称" value={`Hollenfels Castle`} />
+                <InfoRow label="正式名称" value={`Hollenfels Castle`} />
+                <InfoRow label="国家" value={`卢森堡`} />
+                <InfoRow label="城市" value={`梅尔施`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`霍伦费尔斯城堡可不是一座用来观赏的“花瓶”。在卢森堡乃至欧洲的军事防御史上，它占据着一个坚硬而关键的位置。它的故事始于14世纪早期，大约1320年，由当时的领主建造。名字里的“Hollen”可能源于德语“洞穴”或“地狱”，生动地暗示了其所在环境的险峻——它就像从地狱般的岩石中生长出来一样。在卢森堡著名的“七堡之谷”防御体系中，它与邻近的安斯堡、梅尔施等城堡互为犄角，共同扼守着阿尔泽特河河谷这条重要的战略通道。在烽火连天的中世纪，信使和烽烟在这些城堡塔楼间传递信息，构成了一个高效的早期预警网络。它见证过勃艮第人的围攻，也经历过西班牙、法国等势力的争夺，其厚重的城墙本身就是一部沉默的欧洲军事史卷宗。直到19世纪，它仍被用作监狱，最后被卢森堡国家收购并修复。它的历史地位，不在于某场著名战役，而在于数百年如一日地履行着“守护者”的枯燥而坚韧的职责，这种持续的军事存在感，比短暂的辉煌更为珍贵。`} />
+                <InfoRow label="建筑特色" value={`第一眼看到霍伦费尔斯城堡，你一定会倒吸一口凉气。它根本不是“建”在山上，而是与那座陡峭得近乎垂直的岩壁彻底**融为一体**。深灰色的石英岩墙体从岩石基底上拔地而起，仿佛是从大地骨骼中自然凸起的部分，充满野性的力量感。最震撼的是那座高达40米的圆柱形主塔（也叫骑士塔），它像一柄直插云霄的石头利剑，是整座城堡的灵魂。塔身并非光滑的，上面布满了岁月的疤痕、风化痕迹和小小的射击孔。城堡的其他部分——生活翼楼、庭院城墙，则围绕着主塔和岩石地形错落搭建，布局不规则，完全顺应了自然的险峻，而非人为的对称。近距离观察，你能看到石块接缝处暗绿的苔藓，以及阳光下某些矿物质闪烁的微光。那种粗粝、坚硬、与自然搏斗又共存的质感，隔着屏幕都能感受到。`} />
+                <InfoRow label="建筑风格" value={`霍伦费尔斯城堡是**晚期哥特式**军事建筑的典型代表，但它摒弃了教堂那种华丽的飞扶壁和炫目的玻璃花窗，所有的设计都服务于一个冷酷的目的：防御和生存。所谓的哥特式风格在这里，体现为**垂直的线条感和强大的上升动势**。看看那座主塔，几乎没有横向的装饰线条干扰，纯粹由垂直的墙体收束成锥形屋顶，给人一种无法撼动的稳定感和威慑力。窗户窄小而深邃，是典型的哥特式尖拱窗，但在这里不是为了采光，而是为了让弓箭手有更好的射击角度并保护自己。城堡内部的拱顶和某些门廊也能看到简洁的肋架拱顶痕迹，这是哥特式结构的骨架，但在城堡里显得更加粗壮和实用。可以说，这是一种被“军事化”和“功能化”了的哥特风，所有的美学都让位于实用主义，形成了一种残酷而庄严的独特美感。`} />
+                <InfoRow label="文化价值" value={`今天的霍伦费尔斯城堡，完成了一次无比美妙的“文化转生”。它不再用于战争或关押犯人，而是被卢森堡政府巧妙地改造为一家**青年旅舍和青年活动中心**。这个举措意义深远。首先，它让历史建筑“活”了起来。年轻人从世界各地而来，不是匆匆拍张照就走，而是住下来，在古老的庭院里烧烤、聊天，在石墙房间里阅读。历史从教科书上的名词，变成了可触摸、可居住、可感知的实体。其次，它极大地促进了文化遗产的公众教育和国际交流。住在这里的年轻人，在潜移默化中理解了欧洲中世纪的历史片段和卢森堡的自然保护理念。城堡还经常举办工作坊、艺术展览和环保主题活动，使古老的石墙内充满了当代的活力。对于当地人而言，这座城堡不仅是地标，更是一个面向未来、连接世界的活力节点，它证明了文化遗产的保护可以如此生动和充满创意。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 霍伦费尔斯城堡一日游打卡路线攻略（含青年旅舍体验）`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`从卢森堡市出发的自由行完美动线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好啦，作为你的向导，我们这就出发！这条路线专为**自由行**设计，轻松又充实。**上午**，从卢森堡市中心乘坐公交车（具体线路攻略里会细说）前往梅尔施镇。别急着去城堡，先在镇上可爱的面包店买个新鲜的三明治当午餐储备。然后沿着清晰的指示牌，开启一段约20分钟的徒步。这条路本身就是享受，穿过静谧的森林，阿尔泽特河在谷底潺潺作响。当城堡突然从树梢后显现时，准备好你的相机。**中午**，抵达城堡脚下。先在外部环绕一圈，感受它的磅礴气势。如果提前预订并成功入住青年旅舍，这时可以办理入住，把行李放进那神奇的塔楼房间。若只是参观，那就买票进入内部庭院和博物馆区域。**下午**，是深度探索时间。攀爬主塔的螺旋石阶是重头戏，登顶后的山谷全景会让你觉得一切值得。仔细参观小型历史展览，了解“七堡之谷”的故事。然后，在城堡的露天座位或庭院里，享用你带来的午餐，像中世纪贵族（或士兵）一样野餐。**傍晚**，如果你是住客，美妙的体验才刚开始。看着日游客散去，城堡重归宁静，独享落日金光洒在塔楼上的时刻。晚餐可以在旅舍的公共厨房简单料理，或步行回梅尔施镇找家家庭餐馆。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>岩壁与墙壁的嵌合点</strong>：绕到城堡靠近岩壁的那一侧，你会震惊地发现，城堡的外墙并不是立在岩石上，而是<strong>直接砌筑在原有的、近乎垂直的巨岩表面</strong>。岩石的天然纹理和起伏，与人工凿刻方正的巨石无缝衔接，有些地方甚至将岩石本身作为了墙体的一部分。用手触摸那个交界处，冰凉的石感和跨越数百年的建筑智慧，会直接传递到你的掌心。这是建筑对自然最极致的妥协与利用，是整座城堡建筑逻辑的起点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>观景塔顶的“领主视角”</strong>：爬上主塔顶端的观景平台，360度的视野瞬间炸开。这不仅仅是“风景好”，而是让你瞬间理解了城堡的<strong>战略价值</strong>。向东向西，阿尔泽特河蜿蜒的河谷尽收眼底，任何沿河移动的军队都无所遁形。眺望远方，你甚至能辨认出“七堡之谷”中其他城堡的模糊轮廓。当年守城的领主就是站在这里，掌握着整个区域的生死。风吹过耳畔，仿佛能听到历史的回响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>塔内螺旋楼梯的光影魔术</strong>：攀登主塔内部的螺旋石阶，是一场<strong>光影与空间的游戏</strong>。楼梯极为狭窄陡峭，仅容一人通过。石壁上开着小小的箭窗，阳光像一把把金色的光剑，斜插进昏暗的塔内空间。你在昏暗中旋转上行，每一步踏在磨损的石阶上都发出空洞的回音。突然在某一个转角，一束强光完全打在你身上，将你的影子投在背后的圆形石壁上，那一刻，你仿佛成了这座古堡叙事的一部分，充满了戏剧感和穿越感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>青年旅舍“骑士厅”的古今对话</strong>：如果入住，你会被分配到“骑士厅”或其他以历史命名的宿舍。房间就在厚厚的城墙内部，<strong>低矮的石拱顶、深陷的窗洞</strong>，氛围感拉满。但房间里却是整洁的现代木质高低床、充电插座和暖气。夜晚，关上灯，只有窗洞透进微弱的星光或月光，石墙的寒气仿佛在低声讲述古老的故事，而你裹在温暖的睡袋里。这种极致的古今对比与融合，是任何五星级酒店都无法提供的灵魂体验。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "听好了，这些贴士能让你的旅程顺心很多：<strong>第一，时间与交通是最大关键。</strong> 城堡并非全年全天开放，内部博物馆和登塔有固定的开放时间（通常下午4点或5点就关闭了），而青年旅舍的接待处也有工作时间。务必提前在官网查清！从卢森堡市过来的公交车班次有限，尤其是周末和傍晚回程的车，错过一班可能就要等很久。强烈建议下载本地交通APP，并规划好最晚离开时间。<strong>第二，鞋子就是你的“装备”。</strong> 这不是开玩笑。通往城堡的最后一段是森林坡道和石阶，如果下雨会非常湿滑。在城堡内部，尤其是攀登主塔的螺旋楼梯，台阶又窄又滑，磨损严重。一双<strong>防滑性能极佳的徒步鞋或运动鞋</strong>是必需品，千万别穿皮鞋或凉鞋，那简直是冒险。<strong>第三，关于入住青年旅舍。</strong> 这是热门体验，<strong>必须、务必、一定要提前很久在官网预订</strong>，它不属于大型酒店预订平台。宿舍床位有限，通常按性别分房。做好心理准备，设施是基本且共用的（卫生间、厨房），隔音等于没有（石墙传声奇妙），但这正是体验的一部分。带上睡眠耳塞和眼罩，会让你睡得更香。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 霍伦费尔斯城堡住宿与周边美食攻略（含青旅体验）`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最独一无二的住宿，当然就是<strong>城堡青年旅舍（Youth Hostel）</strong> 本身。除了上述的奇幻体验，它的公共厨房设施齐全，你可以去梅尔施小镇的超市采购食材，回来自己做一顿饭，在古老的拱顶下用餐。公共休息室有壁炉，夜晚聚在这里聊天，氛围绝佳。如果未能订到，或想要更传统的住宿，<strong>梅尔施（Mersch）小镇</strong> 是理想选择。镇上有几家温馨的家庭旅馆和民宿，例如Hotel-Restaurant de la Poste，位置中心，干净舒适。餐饮方面，在梅尔施，推荐尝试卢森堡传统菜。可以去Restaurant Um Dierfgen，尝尝“Judd mat Gaardebounen”（烟熏猪颈肉配蚕豆）这道国民美食，或者“F’rell am Rèisleck”（奶油酱汁鳟鱼）。在城堡游玩当天，午餐更推荐自带简餐野餐，因为城堡内没有正式餐厅，只有简单的饮料自动售货机，坐在历史庭院里吃三明治，比什么都香。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "探索完霍伦费尔斯，你等于拿到了“七堡之谷”的入门钥匙。强烈推荐你继续探索这条宝藏河谷。从霍伦费尔斯出发，沿着<strong>阿尔泽特河畔的徒步小径</strong>（如“七堡之谷”专题徒步路线）步行约一个多小时，就能到达另一座美丽的城堡——<strong>安斯堡城堡（Château d‘Ansembourg）</strong>。与霍伦费尔斯的野性军事风不同，安斯堡是一座17世纪的文艺复兴风格城堡，拥有<strong>华丽法式花园、雕塑和喷泉</strong>，优雅闲适。它展现了卢森堡贵族后来的生活方式从防御转向享乐的变迁。两座城堡一武一文，一险一缓，对比参观，能让你对卢森堡的历史层次有更立体的理解。而且，连接它们的徒步路线本身，就是穿越森林与溪流的绝佳享受。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "霍伦费尔斯城堡的灵魂，在于一种<strong>惊人的反差与融合</strong>——极致的险峻与奇妙的包容，冷硬的战争历史与温暖的青春活力。它告诉我们，历史不必总是被供奉在玻璃柜后，它可以有温度，有呼吸，甚至能为你提供一张安睡的床。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/vianden-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    菲
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">菲安登城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vianden Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beaufort-castle-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博福尔城堡遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beaufort Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/mullerthal-little-switzerland" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    米
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">米勒塔尔“小瑞士”（长满青苔的奇异砂岩峡谷与峡谷瀑布）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mullerthal</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

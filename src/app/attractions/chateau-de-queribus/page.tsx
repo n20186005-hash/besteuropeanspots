@@ -1,0 +1,154 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '凯里比斯城堡自由行全攻略：悬崖之巅的悲壮史诗与终极打卡指南',
+  description: '探索法国奥德省的凯里比斯城堡(Château de Quéribus)深度游攻略。这座建在垂直石柱顶端的“天空堡垒”，是卡特里派教徒最后的避难所，本文带你揭开其悲壮历史与震撼全景。',
+}
+
+export default function ChateauDeQueribusPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '凯里比斯城堡', href: '/attractions/chateau-de-queribus' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`凯里比斯城堡・Château de Quéribus・法国・奥德省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你正在规划一次与众不同的南法之旅，今天这份 凯里比斯城堡私藏旅游攻略，可能就是你要找的。它不在巴黎的喧嚣里，也不在普罗旺斯的薰衣草田旁，而是孤傲地耸立在法国奥德省一片名为“科比埃”的荒凉山野中。想象一下：一块巨大无比的石灰岩石柱，像被巨斧劈开般直插天际，而在它近乎垂直的、令人眩晕的顶端，却牢牢“生长”着一座中世纪城堡——这就是凯里比斯。它不仅仅是一个景点，更是一段关于信仰、坚守与毁灭的悲壮史诗的句点。作为你的专属向导，这份 深度游指南 会带你避开常规游客的匆匆脚步，沿着当年逃亡者的路径，去触摸石头里的绝望与坚韧，并收获一份此生难忘的、俯瞰群山与历史的辽阔视野。准备好了吗？我们的悬崖之旅，这就开始。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你正在规划一次与众不同的南法之旅，今天这份 凯里比斯城堡私藏旅游攻略，可能就是你要找的。它不在巴黎的喧嚣里，也不在普罗旺斯的薰衣草田旁，而是孤傲地耸立在法国奥德省一片名为“科比埃”的荒凉山野中。想象一下：一块巨大无比的石灰岩石柱，像被巨斧劈开般直插天际，而在它近乎垂直的、令人眩晕的顶端，却牢牢“生长”着一座中世纪城堡——这就是凯里比斯。它不仅仅是一个景点，更是一段关于信仰、坚守与毁灭的悲壮史诗的句点。作为你的专属向导，这份 深度游指南 会带你避开常规游客的匆匆脚步，沿着当年逃亡者的路径，去触摸石头里的绝望与坚韧，并收获一份此生难忘的、俯瞰群山与历史的辽阔视野。准备好了吗？我们的悬崖之旅，这就开始。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`凯里比斯城堡`} />
+                <InfoRow label="英文名称" value={`Château de Quéribus`} />
+                <InfoRow label="正式名称" value={`Château de Quéribus`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`奥德省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`要真正理解凯里比斯城堡在欧洲历史中的分量，你必须回到13世纪那场血腥的宗教清洗——阿尔比十字军东征。当时，卡特里派（又称清洁派）在南法朗格多克地区广泛传播，因其教义与罗马天主教廷相悖，被教皇英诺森三世宣布为异端，发动了长达数十年的残酷讨伐。在主要的卡特里派要塞（如蒙塞居尔）相继陷落后，凯里比斯成为了他们 最后的避难要塞。它因其近乎无法攻破的天险地形，成为了抵抗运动的终极象征和最后堡垒。直到1255年，也就是蒙塞居尔大屠杀11年后，凯里比斯才最终陷落。它的投降，正式标志着组织性的卡特里派抵抗在南法的终结。因此，在欧洲宗教迫害与镇压的历史脉络中，凯里比斯扮演了一个沉重而关键的“终章”角色。它不像巴黎圣母院那样代表荣耀与统一，而是沉默地见证了少数派在强权下的绝望坚守，是欧洲中世纪宗教冲突史上一个无法绕过的、带着悲剧色彩的坐标。`} />
+                <InfoRow label="建筑特色" value={`凯里比斯城堡的建筑本身就是一场与地形的惊险博弈。它不是建在山“上”，而是从山“里”长出来的。远看，城堡的褐黄色石墙与下方光秃秃的巨型石灰岩柱几乎融为一体，难以分辨哪里是天然岩体，哪里是人造工事。这种 “共生” 是它最震撼的特色。走近了看，你会发现城墙沿着石柱顶部的狭长边缘曲折蜿蜒，充分利用了每一寸可用的岩石平台。墙体多用当地开采的粗糙石灰岩砌成，未经精细打磨，保留了岩石原始的肌理与色彩，在烈日下呈暖黄色，在阴天则变成冷峻的灰褐色。城堡的核心——主塔楼（Donjon）厚重而敦实，像一个最后的拳头紧握在悬崖边缘。窗户狭小，与其说是为了采光，不如说是用于瞭望和射箭。最精妙的是，许多建筑结构直接以裸露的岩壁作为内墙或地基，你用手触摸到的，可能一半是千年前工匠垒砌的石块，一半是历经百万年风化的山体。这种极致的因地制宜，让城堡看起来不像建造物，更像是从悬崖顶端自然“风化”出来的一个岩石器官，充满了原始的力量感和生存的紧迫性。`} />
+                <InfoRow label="建筑风格" value={`凯里比斯城堡主要体现的是 中世纪军事建筑风格，尤其是南法地区13世纪用于防御的城堡样式。它没有后来文艺复兴宫殿的优雅装饰，也没有哥特式大教堂的飞扶壁和彩窗，它的每一个设计都服务于一个残酷的目的：在绝境中生存和战斗。这种风格在这里的体现非常直白：功能绝对压倒形式。你看那高达数米、厚度惊人的城墙，是为了抵御投石机的攻击；狭窄的“针眼”式窗户和交错布局的射击孔（称为“箭缝”），是为了在保护守军的同时最大化弓箭和弩箭的杀伤范围；迷宫般的通道和多重城门设计，是为了在敌人攻破一道防线后，仍能进行逐层抵抗；蓄水池被精心安置在岩石凹处，是为了在围城时保障最基本的水源。它不像童话里的城堡，而更像一台精密而冷酷的战争机器。虽然城堡在后来（16世纪）为适应火炮战争进行过一些加固改造，增加了更低矮、更敦实的棱堡元素，但其灵魂始终是那个中世纪最后的堡垒。在这里，所谓的“风格”就是生存本身，每一块石头都在诉说着如何在绝壁上维系一线生机。`} />
+                <InfoRow label="文化价值" value={`对于当地人，尤其是朗格多克地区的人们而言，凯里比斯远远超出一个旅游地标。它是土地上一道深刻的伤痕，也是一个关于抵抗和精神自由的永恒象征。卡特里派的历史虽然在官方史料中曾被刻意淡化，但在当地的口头传说、文学和现代地区身份认同中，却始终鲜活。城堡被视为 “被遗忘者的纪念碑”。它提醒人们，这片阳光明媚的土地也曾经历过信仰与思想被暴力统一的黑暗时期。在现代社会，它吸引的也不仅仅是寻找奇观的游客，还有许多对中世纪异端历史、宗教哲学和人类自由史感兴趣的研究者和追寻者。它成为一种文化符号，代表着对主流叙事的质疑、对少数派权利的铭记，以及在极端逆境中对信念的持守。每年，都有人们沿着崎岖的山路攀登至此，不仅是为了看风景，更是进行一场静默的朝圣，缅怀那些在此消失的信仰与生命。因此，凯里比斯的文化价值在于它持续地提出关于宽容、迫害与记忆的命题，让一片风景承载了超越时空的重量。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 凯里比斯城堡一日游终极路线与打卡攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`从山脚到云端：完美自由行时间线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的向导，我强烈建议把整整一天留给凯里比斯，因为它不仅关乎城堡本身，更关乎那段 攀登与朝圣的旅程。上午（9:00-12:30）：一定要早点从山脚小镇屈比松出发！自驾或搭乘接驳车抵达山腰的停车场，这是徒步的起点。穿上最舒服的登山鞋，带足水，开始约45分钟到1小时的徒步。这条路本身就是体验的一部分——沿着之字形山路向上，回头望，科比埃的荒野在脚下铺展，风在耳边呼啸，你会慢慢理解“要塞”的含义。中午（12:30-14:30）：抵达城堡入口。先用门票，然后不要急着冲进去。在城墙外的岩石平台找个地方坐下，简单吃点自带的三明治，面对无尽的山谷和远方的比利牛斯山影，这顿“悬崖午餐”绝对难忘。之后，开始沉浸式探索城堡内部。按照导览图的顺序，慢慢走。下午（14:30-17:00）：花至少两小时在城堡内细细品味。在主塔顶层停留最久，360度环视。然后沿着城墙走一圈，从各个角度感受它的险峻。下山会比上山快，但也要小心。傍晚（17:30之后）：回到屈比松小镇，在广场边的咖啡馆喝一杯，看着夕阳余晖染红远处山顶的城堡剪影，回味一整天的震撼。这条路线避开了最热的正午徒步，也给了城堡内部充足的探索时间，是体验 凯里比斯深度游 的黄金动线。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  主塔顶层的“王冠”与无尽视野：爬上主塔内部狭窄的螺旋石阶，当你从最后一道矮门钻出，来到露天平台时，那个瞬间会夺走你的呼吸。平台四周的雉堞像一顶破碎的石冠，戴在山峰之巅。而你的视线，毫无阻挡地飞向四面八方：北方是黑山山脉绵延的深色轮廓，南方在极晴朗时能依稀看到地中海的一抹湛蓝，东面是杂乱而富有生命力的科比埃葡萄园地貌，西面则是雄伟的比利牛斯山脉雪线。风在这里变得具体可感，呼啸着穿过石缝。这个全景，就是当年守军每日所见的希望与绝望的来源——既是无与伦比的天然屏障，也是孤立无援的残酷证明。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  螺旋石阶的“眩晕共鸣”：通往主塔上层的螺旋楼梯，是城堡建筑智慧的缩影。它极为狭窄，仅容一人通过，石阶已被无数脚步磨得中心微凹、光滑如镜。攀登时，你必须侧身，手紧紧扶住冰冷潮湿的中央石柱。当你在昏暗中盘旋上升，唯一的光源来自上方楼梯口投下的微光，一种物理上的眩晕感与历史压迫感会同时袭来。你仿佛能听到铁靴踏在石阶上的回响，感受到当年士兵或最后一批避难者急促的心跳。这不仅仅是一个通道，它是一个 将你吸入历史现场的时光隧道。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  岩壁中的蓄水池：在城堡较低层的庭院里，留意那个凿入天然岩壁的巨大蓄水池。池壁长满深绿色的苔藓，池水幽暗，倒映着头顶的一小片天空。在干燥的南法山区，水是比黄金更珍贵的战略资源。这个利用岩石天然凹槽加工而成的蓄水池，是城堡能在长期围困中坚持下去的生命线。用手触碰池边冰冷的石头，你能感受到设计者那份极致的务实与生存的渴望。它静静地告诉你，这里的每一处设计，都不是为了美观，而是为了 在绝境中多活一天。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  “箭缝”外的世界：找一个保存完好的箭缝（十字形射击孔），把眼睛凑上去。你的视野瞬间被压缩成一条狭窄的、十字形的画框。通过这个画框望出去，山下蜿蜒的上山小路、远处的村庄，都变成了一幅被精准框定的动态画面。这个简单的动作能让你瞬间 代入守军的视角：漫长围困中，日复一日，他们就是通过这样狭小的孔洞，监视着山下敌人的动向，那十字形的光，既是瞄准线，也可能是他们望向外部自由世界的唯一形状。那种逼仄与专注，令人心悸。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 凯里比斯自由行避坑指南：风、山路与历史的注意事项`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  敬畏天气与山路，装备是关键：这里最大的“坑”就是低估自然条件。最佳游览时间是春季（5-6月）和秋季（9-10月），气候温和，阳光明媚。夏季（7-8月）极其炎热且干燥，山顶毫无遮阴，务必清晨或傍晚徒步，带足2升以上饮用水，并做好高强度防晒。城堡所在的山口以狂风闻名（密史脱拉风），即使山下风和日丽，山顶也可能狂风大作，帽子务必戴牢，穿防风外套。鞋子是第一要务：必须穿专业登山鞋或至少是防滑性能极佳的徒步鞋，部分山路是松动的碎石路，普通运动鞋非常危险。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  巧妙避开人流，享受孤独感：城堡本身容量有限，旺季（夏季周末）中午时段可能小排队。最佳策略是赶早：争取成为第一批（通常9点开门）进入城堡的游客，你能独享主塔顶层的宁静。或者选择在 下午三点后 上山，此时大部分一日游旅行团已离开，你能邂逅城堡最美的黄昏光影。尽量避开7月中旬至8月底的法国全民假期。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  交通与财物安全须知：城堡位于偏远山区，公共交通极不便利，最推荐的方式是自驾。从最近的城镇屈比松开上去的盘山路狭窄多弯，请谨慎驾驶。停车场是开放的，切记不要把任何贵重物品留在车内显眼处，南法偏远景区也有小偷光顾。城堡内部楼梯陡峭、通道昏暗，参观时请 手机、相机等务必拿稳或挂好，掉下去绝无找回可能。最后，山上手机信号时有时无，提前下载好离线地图和城堡介绍资料。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 凯里比斯城堡脚下：特色住宿与地道南法乡村美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`住宿：强烈建议住在山脚下的 屈比松 或稍远一点的 库伊扎 这类古朴的山村。这里没有大型酒店，多是家庭经营的 民宿或精品小旅馆。例如，你可以找一家石头老屋改造的民宿，房间可能不大，但窗台上摆着天竺葵，推开木窗就能看见夜色中孤灯般的城堡轮廓。这种体验远比住在几十公里外的大城市来得深刻。清晨在公鸡打鸣和面包香气中醒来，直接开始你的城堡探险。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`餐饮：爬山归来，一顿扎实的南法乡村美食是最好的慰藉。在屈比松的小广场边，找一家招牌写着“Plat du Jour”（当日套餐）的餐厅。必点 科比埃地区炖菜（类似卡酥来砂锅，但本地风味更浓，多用豆类和鸭肉），搭配一杯本地产的 科比埃葡萄酒——那种粗犷、带着矿物感的口感，与这片土地的历史风味绝配。如果想吃简单点，村里的面包房有堪称艺术品的传统长棍和橄榄面包，买一个，再加点本地奶酪和萨拉米，就是一顿完美的野餐。在这里吃饭，吃的不仅是味道，更是 慢下来的山村节奏和人情味。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`从凯里比斯向西驱车约20分钟，就能抵达它的“兄弟”—— 佩尔佩图斯城堡。如果说凯里比斯是悲壮的终章，佩尔佩图斯就像一首更早的、同样坚韧的史诗序曲。它同样坐落在孤立的岩山上，是卡特里派重要的早期要塞之一。攀登佩尔佩图斯的路径甚至更为原始和富有挑战性，最终抵达的城堡遗迹也更显荒凉破碎。将两座城堡放在一起参观，你能更完整地拼图出这段历史：从佩尔佩图斯的初期坚守，到凯里比斯的最终落幕。这种 “双子星”式的探访，会让你对这段历史的规模和残酷有更立体的认知。两个城堡的远景也能互相成为对方照片里最具故事感的背景。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`凯里比斯城堡的灵魂，不是石头，而是 风——是那吹过悬崖、从未停歇的密史脱拉风。它吹走了战争的硝烟，吹干了历史的血迹，却把那份在绝境中坚持信仰的孤傲与悲凉，永远地灌注进了每一道石缝和每一个来访者的心里。站在这里，你感受到的不仅是人类的渺小，更是那种明知不可为而为之的精神所能达到的、令人敬畏的高度。它是一座没有屋顶的教堂，祭坛是群山，祷文是风声。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/najac-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    纳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳雅克</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Najac</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-beynac" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝纳克城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Beynac</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/eus-pyrenees-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    厄
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">厄斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eus</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

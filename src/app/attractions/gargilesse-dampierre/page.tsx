@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '加尔日莱斯-当皮埃尔深度旅游攻略：乔治·桑的浪漫河谷隐居地指南',
+  description: '探秘法国最美村庄加尔日莱斯-当皮埃尔（Gargilesse-Dampierre），女作家乔治·桑钟爱的艺术小镇。这份深度游攻略涵盖一日游路线、小众打卡点与避坑指南。',
+}
+
+export default function GargilesseDampierrePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '加尔日莱斯-当皮埃尔', href: '/attractions/gargilesse-dampierre' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`加尔日莱斯-当皮埃尔・Gargilesse-Dampierre・法国・安德尔省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，如果你厌倦了巴黎的喧闹，今天这份加尔日莱斯-当皮埃尔私藏旅游攻略，就带你躲进法国心脏地带最诗意的角落。这个蜷缩在安德尔河谷的石头小镇，可是藏着大秘密——19世纪文豪乔治·桑曾把这里称为“我的小圣地”，她和钢琴诗人肖邦在这里偷得浮生闲。作为你的专属向导，这份自由行指南请收好：我们会沿着鹅卵石小巷慢慢晃，在开着紫藤花的露台喝咖啡，找到那些连当地人都容易错过的小画廊。别看村子小得地图上几乎找不到，它可是官方认证的“法国最美村庄”之一，那种被时光遗忘的温柔，绝对值得你专程绕道而来。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，如果你厌倦了巴黎的喧闹，今天这份加尔日莱斯-当皮埃尔私藏旅游攻略，就带你躲进法国心脏地带最诗意的角落。这个蜷缩在安德尔河谷的石头小镇，可是藏着大秘密——19世纪文豪乔治·桑曾把这里称为“我的小圣地”，她和钢琴诗人肖邦在这里偷得浮生闲。作为你的专属向导，这份自由行指南请收好：我们会沿着鹅卵石小巷慢慢晃，在开着紫藤花的露台喝咖啡，找到那些连当地人都容易错过的小画廊。别看村子小得地图上几乎找不到，它可是官方认证的“法国最美村庄”之一，那种被时光遗忘的温柔，绝对值得你专程绕道而来。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`加尔日莱斯-当皮埃尔`} />
+                <InfoRow label="英文名称" value={`Gargilesse-Dampierre`} />
+                <InfoRow label="正式名称" value={`Gargilesse-Dampierre`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`安德尔省`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`说起欧洲文学史的浪漫篇章，加尔日莱斯-当皮埃尔可是个不能跳过的注脚。19世纪中叶，当乔治·桑厌倦了巴黎沙龙里的虚与委蛇，她发现了这个河谷深处的小村庄。1847年到1853年间，她多次隐居于此，甚至专门写了《我的一生》来描绘这里的宁静。更浪漫的是，她曾邀请肖邦来此休养——虽然历史记载肖邦最终因健康原因未能成行，但这段轶事为小镇镀上了双重艺术光环。二战期间，这里因地形隐蔽成了抵抗运动的小据点，石头房屋的地窖里曾藏过地下印刷机。如今你漫步时，仿佛能听见三个层次的回响：中世纪农民的祷告声、乔治·桑的羽毛笔沙沙声、还有当代画家在河谷写生的调色盘碰撞声。`} />
+                <InfoRow label="建筑特色" value={`整个村子就像从童话里滚出来的积木盒子！所有的房屋都用本地开采的暖黄色石灰岩砌成，经过几百年雨水冲刷，石头表面泛起蜂蜜般的柔光。屋顶是典型的法式斜坡设计，铺着鱼鳞状的深灰色石板瓦，清晨露水未干时，瓦片上会浮起一层银白色的水膜。最妙的是门窗——几乎每扇木门都被漆成不同深浅的蓝：矢车菊蓝、薰衣草蓝、午夜蓝…而窗框则是斑驳的橄榄绿或赭石色，窗台上永远堆满天竺葵和矮牵牛，那种红粉交织的绚烂，与石头的沉静形成鲜活对比。村中心教堂的钟楼方方正正，顶部四个角各蹲着一只石雕小兽（仔细看是狐狸、猫头鹰、獾和松鼠），它们被岁月磨得圆润，却依然忠诚地守着河谷的日出日落。`} />
+                <InfoRow label="建筑风格" value={`这里主导的是简化的罗曼式风格混搭乡土智慧。没有巴黎那种张扬的巴洛克装饰，而是用最质朴的方式展现结构之美。教堂的半圆形拱门低矮敦实，门楣上的雕刻不是圣经故事，而是葡萄藤与麦穗——农民把田间信仰刻进了石头。民居的墙体厚度普遍超过60厘米，这种“憨厚”的建造方式让室内冬暖夏凉，窗洞开得很小且内宽外窄，既防风又像画框般截取风景。屋檐的排水槽直接雕成张嘴的鲤鱼形状，雨水从鱼嘴吐出的场景特别生动。乔治·桑故居的木梁天花板露出原木纹理，梁与梁之间的填充物居然是黏土混着麦秆，这种传统工艺让屋子会呼吸，你能闻到淡淡干草香混着旧书纸浆的气息，这才是真正的“在地建筑智慧”。`} />
+                <InfoRow label="文化价值" value={`乔治·桑曾说这里“连空气都充满创作灵感”，这句话像咒语般影响着后世。20世纪初，一批印象派画家追随她的足迹来此建立“河谷画派”，他们迷恋晨雾在河面形成的蓝灰色调。如今每年六月举办的“作家花园节”，会有诗人在栗子树下朗诵，村民会把自家花园开放成临时展厅。更可爱的是当地小学的美术课——孩子们不是在教室画画，而是带着画板去河边描摹石桥倒影，这些作品会被裱进村口的面包店橱窗。你可能会遇见八十岁的老奶奶坐在门廊绣传统“贝里刺绣”，针法图案竟来自中世纪教堂花窗的变形。这种艺术不是陈列在博物馆的标本，而是像河水般渗透在日常起居里，连周五市集卖奶酪的摊位，都会用粉笔在木牌上写诗意的标语：“这块奶酪听过昨晚的蛙鸣”。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 加尔日莱斯-当皮埃尔一日游打卡路线攻略：从河谷晨雾到星空晚餐`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`早晨九点前抵达是最明智的选择（避开十点后的小旅行团），把车停在村外免费停车场。第一站先去河谷观景台——晨雾像薄纱般裹着石桥时，拍出的照片会有莫奈画作的质感。沿着“画家小径”下山，在路过第一个泉眼时记得用手接水喝，清甜程度会让你瞬间理解乔治·桑为什么说“这里的泉水能洗净灵魂”。十点半准时去乔治·桑故居博物馆（每日限流30人），管理员老太太会用法语混着肢体语言讲解作家用的羽毛笔和河石镇纸。午餐务必去老磨坊改造的餐厅，坐在水车旁的露台点当地特色“河谷鳟鱼配香草黄油”。下午是最悠闲的探索：先去教堂地下室的12世纪壁画前发呆半小时，光线从地面透气孔斜射进来时，壁画上的圣徒眼睛仿佛会眨；接着随意钻进某条挂着“艺术家工作室”木牌的小巷，很可能撞见画家正在画布上涂抹今日的云影。日落前爬上城堡废墟（免费开放），看着金色余晖把整片石灰岩建筑群染成蜂蜜色。晚餐后别急着走，夏夜常有村民在广场用手风琴即兴合奏，星空下的石头城墙会变成天然的音响反射板。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1. 乔治·桑书桌的斜光：她故居二楼的书桌朝东，上午十点左右的阳光会以57度角穿透菱形窗格，在橡木桌面上投下几何光斑。仔细观察桌面墨渍痕迹——不是规整的圆形，而是甩出放射状星芒，据说她写激动段落时会用力顿笔。抽屉里还留着半截蜡烛，烛泪凝固成瀑布形状，仿佛时间突然暂停在某个灵感到来的深夜。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2. 教堂地砖的磨损凹痕：中世纪地砖被无数膝盖磨出光滑的浅洼，最深一处位于圣母像正前方。有趣的是，凹痕轮廓不像跪垫那么方正，而是像水滴边缘的自然曲线——这说明几个世纪以来，信徒们都是以微侧身的习惯性姿势祈祷，也许是为了让出空间给后来的祈祷者，这种无言的默契比任何宗教壁画更动人。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3. 石桥第三拱的刻字：桥洞内侧有用小刀刻的“F.C. 1837”字样，旁边还刻了段五线谱。当地传说这是位路过的手风琴师写给病逝恋人的安魂曲片段。雨水冲刷百年后，刻痕已变得柔软如羽毛笔迹，但手指抚摸时依然能感受到当年的颤抖力度。夏季河水上涨到刻字下方10厘米时，流水声会与音符产生奇妙的共鸣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4. 面包店门楣的陶制蜥蜴：17世纪烧制的绿釉蜥蜴趴在门楣正中，尾巴巧妙设计成雨水引流槽。特别的是蜥蜴眼睛用了两粒琥珀，晴天时阳光穿透会点燃两簇金火，阴雨天则变成湿润的深褐色。面包师说这是祖先请陶匠做的“守护灵”，因为蜥蜴能预知天气变化——当琥珀完全暗沉时，说明一小时内必有大雨。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 加尔日莱斯-当皮埃尔自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`第一坑：别在7-8月周末午后挤进主街！那是法国本土游客高峰期，窄巷里摩肩接踵会毁掉宁静体验。最佳时间是5月清晨或9月傍晚，不仅能独享风景，还能赶上野生黑莓成熟——路边灌木丛随手摘的果子比市集卖的更甜。第二坑：穿错鞋会让你痛不欲生。那些“治愈系”的鹅卵石路对高跟鞋和薄底鞋简直是刑具，一定要穿登山鞋或厚底运动鞋，并且给脚踝涂点爽身粉以防摩擦起水泡。第三坑：小心“隐形门票”。教堂地下室壁画理论上免费，但出口处有个不起眼的木箱写着“维护捐助”，很多游客误以为是强制收费（其实投币自愿）。更推荐把零钱留给村口的手工绘本小摊，老爷爷卖的手绘地图标注了七个秘密观景角度，绝对值3欧元。另外记得带现金，村里唯一ATM机常故障，而大多数画廊和小咖啡馆只收现金。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 加尔日莱斯-当皮埃尔周边住宿与美食全攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`想获得完整体验，至少住一晚河谷边的“老磨坊民宿”。这座18世纪水磨坊改造的客房只有五间，每间都以本地野花命名。我住过的“矢车菊房”最妙——浴室墙面镶嵌着真正的磨盘石，淋浴时水流会沿着石纹旋转而下。早餐是女主人在石磨现磨的荞麦煎饼，配自家蜂场的栗花蜜。晚餐强烈推荐“画家餐桌”餐厅（需提前两天预约），招牌菜“河谷三重奏”很有意思：前菜是冷汤里漂着可食用花瓣（每天根据花园开花情况调整），主菜是慢炖12小时的野猪肉搭配用红酒腌过的梨，甜点则是造型像调色盘的莓果挞。酒单里藏着宝藏：一瓶2018年的本地“黑诗南”干白，标签是老板娘手绘的月下石桥。如果预算有限，村外三公里有家“牧羊人小屋”青年旅舍，晚上可以蹭老板的观星望远镜看银河——安德尔省没有光污染，星座清晰得像是伸手可触的水晶钉。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`步行四十分钟（或开车八分钟）就能到达“遗忘峡谷”，这是个连谷歌地图都标得模糊的秘境。峡谷底部有条废弃的窄轨铁路隧道，1944年德军撤退时曾在此隐藏过装甲车。如今铁轨已被野花覆盖，但隧道墙壁还留着当年士兵用炭笔画的简笔画（小心辨认能看到一只卡通造型的兔子）。更神奇的是隧道中段有个天然天窗，正午阳光直射时会在地面形成心形光斑，被当地人戏称为“战争废墟里长出的浪漫”。另一个方向开车十五分钟可到“陶艺村”拉沙特尔，那里每户人家前院都摆着陶轮，周末常有即兴的泥土工作坊。最值得买的是用本地红土烧制的铃铛，声音不像金属那么尖锐，而是类似雨滴落在石板上的闷响，带回家挂在窗前，每次听见都会想起河谷的风。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`这座村庄教会我的事是：真正的隐居不是与世隔绝，而是在鹅卵石的缝隙里种出花园，在历史裂缝中听见永恒的诗句。当乔治·桑的羽毛笔尖划过纸面，当某个无名画家把今日的云彩调成油画颜料，当面包店飘出的香气缠绕着教堂钟声——你会发现，所谓“法国最美”的秘密不在于视觉的完美，而在于每个角落都在温柔地告诉你：生活本身，就是最值得慢慢品读的艺术品。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/fontenay-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    丰
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">丰特莱修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Fontenay Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lussan-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    吕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">吕桑</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lussan</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/vezelay-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦兹莱隐修院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vézelay Abbey</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

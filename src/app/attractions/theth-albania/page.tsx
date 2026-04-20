@@ -1,0 +1,154 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '泰斯（Theth）阿尔巴尼亚自由行攻略：“被诅咒山脉”中的秘境与千年石塔指南',
+  description: '探索阿尔巴尼亚北部秘境Theth的深度游攻略。包含红色教堂、闭锁石塔详解，以及徒步、住宿、交通全指南，带你揭开“被诅咒的山脉”的宁静面纱。',
+}
+
+export default function ThethAlbaniaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点', href: '/attractions' },
+            { label: '泰斯隐修村', href: '/attractions/theth-albania' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`泰斯隐修村・Theth・阿尔巴尼亚・斯库台州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你在地图上寻找“世界的尽头”，我很可能会把手指向阿尔巴尼亚北部这片深绿色的褶皱——普罗克勒迪耶山脉，当地人更愿称它为“被诅咒的山脉”。而泰斯（Theth），就像被精心藏在这片险峻山峦掌心的一颗琥珀，是一个时间流速截然不同的高山隐修村。今天这份 泰斯私藏旅游攻略 ，就带你躲开常规旅游团的人潮，深入这片阿尔巴尼亚最后的净土。这里没有豪华酒店，没有喧嚣酒吧，有的只是震耳欲聋的宁静、标志性的红色铁皮顶教堂，和为了一段残酷历史而建的、如同巨人棋子般的闭锁石塔（Kulla）。这份 自由行指南 ，将是你通往这个隐世村庄最实用的钥匙，从如何抵达这座“孤岛”，到如何读懂石塔沉默的诉说，我都会一一为你道来。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`嘿，朋友，如果你在地图上寻找“世界的尽头”，我很可能会把手指向阿尔巴尼亚北部这片深绿色的褶皱——普罗克勒迪耶山脉，当地人更愿称它为“被诅咒的山脉”。而泰斯（Theth），就像被精心藏在这片险峻山峦掌心的一颗琥珀，是一个时间流速截然不同的高山隐修村。今天这份 泰斯私藏旅游攻略 ，就带你躲开常规旅游团的人潮，深入这片阿尔巴尼亚最后的净土。这里没有豪华酒店，没有喧嚣酒吧，有的只是震耳欲聋的宁静、标志性的红色铁皮顶教堂，和为了一段残酷历史而建的、如同巨人棋子般的闭锁石塔（Kulla）。这份 自由行指南 ，将是你通往这个隐世村庄最实用的钥匙，从如何抵达这座“孤岛”，到如何读懂石塔沉默的诉说，我都会一一为你道来。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`泰斯隐修村`} />
+                <InfoRow label="英文名称" value={`Theth`} />
+                <InfoRow label="正式名称" value={`Theth`} />
+                <InfoRow label="国家" value={`阿尔巴尼亚`} />
+                <InfoRow label="城市" value={`斯库台州`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`泰斯的历史，是一部关于“避难”的史诗。几个世纪以来，这片与世隔绝的山谷，对于山外平原上因“卡努法典”（Kanun）——一套古老的口头律法——而卷入血亲复仇（Gjakmarrja）的阿尔巴尼亚男性来说，是唯一的生路。根据严苛的规则，复仇可以无限延续，除非被追杀者能逃到一处“庇护所”并待上24小时。于是，泰斯成为了公认的“和平之地”（Besa）。那些石塔（Kulla）并非为了战争，而是为了生存而建；它们不是攻击的堡垒，而是守护生命的茧房。这种独特的社会功能，使泰斯在欧洲历史中占据了一个极其特殊的伦理与文化地位。它见证了前现代时期阿尔巴尼亚北部社会在缺乏强大中央政权时，如何用一种残酷又自洽的规则维系平衡。直到20世纪初，这种习俗才逐渐消亡，但石塔作为那段沉重历史的纪念碑被完整保留，让泰斯成为理解阿尔巴尼亚民族性格中“Besa”（信守誓言）与“避难”精神的活态博物馆。`} />
+                <InfoRow label="建筑特色" value={`泰斯的建筑景观由两种截然不同的元素构成，却在山雾中和谐共生。最引人注目的无疑是圣德肋撒天主教堂那鲜红色的铁皮尖顶，在一片苍翠的山谷和深灰色石屋中，它像一簇温暖而倔强的火苗。教堂主体是简朴的石砌结构，但这种明亮的红色屋顶，在阴雨绵绵的山区是一种导航灯般的存在，给旅人以慰藉。而与之形成强烈对比的，是散布在村庄各处的 闭锁石塔（Kulla） 。它们是实用主义的杰作：由附近河床采集的厚重石灰岩石块干砌而成，表面粗粝，颜色是山体本身的青灰色。石塔通常为三层或四层方形结构，底层用于储存和牲畜，上层居住，最顶部是带有射击孔的防御层。最特别的是其入口——往往离地数米高，仅靠一架可抽回的简易木梯连接。当复仇者逼近，男人躲入塔内，抽走梯子，那扇厚重的木门一旦从内部用横木栓死，便真正与外界隔绝，形成一个绝对意义上的“闭锁”空间。阳光只能从狭小的石缝中挤入，内部昏暗、凉爽，充满了石头和岁月沉淀的气味。`} />
+                <InfoRow label="建筑风格" value={`这里的建筑很难用传统的哥特或巴洛克来界定，它是一种根植于生存需求的 本土防御性民居风格 ，我们可以称之为“阿尔巴尼亚北部山地塔楼风格”。其核心设计哲学只有两个字：封闭与守望。石塔的形态极度简洁，几乎没有装饰性线条，一切以坚固和易守难攻为前提。厚厚的石墙（通常超过一米）是为了抵御攻击和严寒；高悬的入口是为了制造唯一的、极易控制的通道；小而深的窗户（更像是缝隙）既能采光通风，又能作为弓箭或老式火枪的射击孔。这种风格与当地严峻的自然环境和社会背景直接呼应。相比之下，教堂的建筑则呈现出一种 简化的新哥特式与本地传统的融合 。尖顶的意向来自哥特风格对天堂的指向，但材料换成了实用的铁皮，并涂上醒目的红色。教堂的窗户形状相对普通，没有繁复的彩色玻璃，一切从简，反映出这个高山社区资源有限但信仰笃实的特质。两种建筑并肩而立，恰恰诉说着这片土地的双重灵魂：对神的虔诚，与对尘世规则的严酷应对。`} />
+                <InfoRow label="文化价值" value={`对于现代阿尔巴尼亚人而言，泰斯远不止一个旅游目的地。它是一个民族坚韧与荣誉法则的圣地。血亲复仇的旧俗虽已褪去，但“Besa”所代表的荣誉、信誉与庇护客人的绝对义务，仍是阿尔巴尼亚文化最深层的代码之一。泰斯的石塔，就是刻在大地上的关于“Besa”的课文。如今，村庄里仅剩百余常住居民，旅游业成为新的生命线。游客的到来并未完全打破这里的宁静，反而促使年轻一代开始重新评估祖辈遗产的价值。他们修复祖传的石屋作为客栈，向世界讲述父辈的故事。泰斯的文化价值在于它提供了一个罕见的、完整的文化生态系统切片——从残酷的生存法则到向和平旅游业的转型，它展示了传统文化如何在现代化中寻找存续的可能，并让外界得以窥见一个常常被误解的巴尔干民族的内心世界。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全天开放`} />
+              <InfoRow label="门票价格" value={`免费`} />
+              <InfoRow label="地址" value={`请参考地图导航`} />
+              <InfoRow label="交通方式" value={`建议步行或公共交通`} />
+            </div>
+          </Section>
+
+          <Section title={`3. 泰斯秘境一日游经典打卡路线攻略（含石塔与瀑布）`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`精华徒步自由行路线安排`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份 一日游路线 请收好！假设你前一晚已入住村里的客栈。早晨，在公鸡啼鸣和溪流声中醒来，享用房东准备的简单早餐（新鲜面包、山羊奶酪和蜂蜜）。第一站直奔村庄中心的 圣德肋撒教堂 ，清晨柔和的光线最适合拍摄那个红色尖顶与背后巍峨群山的合影。接着，步行几分钟前往 Thethi National Park Visitor Centre 旁最著名的 闭锁石塔（Kulla e Ngujimit） ，趁大批徒步客还没抵达，静静感受它的压迫感与故事。上午，开始轻松徒步，沿着清晰路标前往 蓝眼泉（Syri i Kaltër） ，这是沙尔河清澈见底的源头，步行约30-40分钟。中午，返回村庄，在客栈的露台上，面对无敌山景，品尝一碗地道的“塔韦·埃尔塞”（Tavë Kosi，酸奶烤羊肉）。下午，进行本次行程最壮观的徒步：前往 格鲁纳斯瀑布（Grunasi Waterfall） 。往返需要约3小时，路径清晰但有些爬升，瀑布从百米高处坠入深潭，气势磅礴，是拍照打卡的绝佳点。傍晚，拖着疲惫但满足的身体回到村庄，在日落时分，随意漫步在乡间小径，看炊烟从石屋升起，与客栈主人或其他旅人围炉夜话，这才是泰斯最珍贵的体验。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  石塔的门与横木：当你靠近闭锁石塔，请务必仰头看清那扇离地约3米高的木门。它比想象中更厚重、更小。重点触摸门口那根巨大的、已磨损得光滑的 橡木横梁 。当年，它就是从内部穿过铁环，死死顶住门板的“生命之栓”。你的指尖划过它表面的凹痕，仿佛能听到门外世界的喧嚣与门内心跳的寂静，两种声音被这一木之隔断然分开。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  教堂红色铁皮顶的反光：在午后晴朗的时光，找个远处山坡的位置回望教堂。你会发现，那鲜红的铁皮顶并非一成不变。随着云影掠过，它时而像一块烧红的烙铁，在绿野中灼灼发亮；时而又在云朵的阴影下，变成暗沉的酒红色，如同凝固的血。这种色彩与光影的变幻，给这个庄严的宗教符号增添了一丝生动的、属于山野的灵气。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  蓝眼泉的“瞳孔”：在蓝眼泉，不要只满足于岸上观看。蹲下身，仔细看泉水中央那个不断涌出水流的最深处——它就是“蓝眼”的“瞳孔”。泉水极其清澈，呈现出一种无法形容的、介于翡翠与孔雀蓝之间的冷色调。“瞳孔”处的水流涌动仿佛有生命，将池底白色的石灰岩冲刷得纤尘不染，阳光直射时，整个泉眼就像一块被点亮的、流动的蓝宝石，魔幻得不真实。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  客栈窗台上的老物件：入住家庭客栈时，留意窗台或壁炉架。你常会发现一些“老古董”：一个锈迹斑斑的咖啡壶、一盏早已不用的煤油灯、一把手工雕刻的木勺。它们不是刻意摆设，而是主人生活的一部分。询问房东，他可能会笑着用不熟练的英语告诉你，那是他祖父躲避进石塔时，随身带的少数几件物品之一。瞬间，历史的宏大叙事就落到了这些充满温度的生活细节上。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`5. 泰斯自由行避坑指南与行前关键须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`1.  交通与季节是最大关卡：通往泰斯的山路（SH22）极度崎岖，虽是水泥路但遍布坑洼、急弯，且冬季大量封路。最佳游览时间是6月至9月。除非驾驶高底盘四驱车且技术过硬，否则强烈建议从斯库台乘坐当地小巴或预订接驳服务。自驾者务必查清最新路况，并预留充足时间。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`2.  装备务必徒步化：即使在村里漫步，也是上下坡的碎石路。必须穿着专业登山鞋或至少是防滑结实的徒步鞋，普通运动鞋很容易打滑或崴脚。山区天气瞬息万变，速干衣、保暖中层、防风防水冲锋衣是标配。背包里永远备一件轻便雨衣。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`3.  现金为王，准备基本补给：村里只有极少数客栈接受信用卡，且没有ATM。务必带足欧元或阿尔巴尼亚列克现金。村庄有小杂货店，但物资有限且价格较高。建议从斯库台适量携带自己喜欢的零食、瓶装水以及必要的个人药品。网络信号时有时无，请提前下载好离线地图。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`4.  尊重隐私与文化：石塔和教堂是当地人的生活中心与精神象征。参观时保持安静，拍照前如果有人在旁（尤其是当地人），最好微笑示意。未经允许，不要闯入那些仍有居民居住的私人石屋院落。记住，你是客人，这片宁静是他们的日常。`}</p>
+            </div>
+          </Section>
+
+          <Section title={`6. 泰斯特色住宿与山间美食全攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`在泰斯，住宿本身就是体验。推荐住在由传统石屋改造的 家庭客栈（Guesthouse） ，比如口碑很好的“Guesthouse Gjelaj”或“Guesthouse Rrashkadoli”。房间通常简朴但干净温暖，共用卫生间是常态。最大的财富是主人的热情和傍晚围坐的 大壁炉 ，柴火噼啪作响，大家分享着当天的徒步见闻。餐饮完全由客栈提供，是地道的山间农家菜。必尝 “塔韦·埃尔塞”（Tavë Kosi） ，浓郁的酸奶酱完美中和了羊肉的膻味，风味独特。早餐的山羊奶酪和自制树莓果酱也令人难忘。别忘了尝尝当地的 “拉基”（Raki） ，一种烈性的葡萄白兰地，饭后来一小杯，是当地人驱寒和表达友好的方式。在这里，美食没有精致摆盘，却有最实在的滋味和火炉边的温度。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果时间充裕，强烈建议以泰斯为基地，进行更深度的探索。可以从村庄出发，进行 更具挑战性的全天徒步，前往邻近的瓦尔博纳山谷（Valbona Valley） ，这是阿尔巴尼亚最著名的徒步路线之一，穿越山脊，景色极为壮丽，需6-8小时。或者，可以安排前往 科曼湖（Lake Koman） ，乘坐渡轮穿越这座高山峡谷水库，被称为“阿尔巴尼亚的峡湾”，水路风景堪称一绝。从斯库台有车船联运服务抵达这里。这两个延伸点都能让你从不同角度，更全面地领略“被诅咒的山脉”那令人窒息的美丽与孤寂。`}</p>
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`泰斯的灵魂，就藏在那红色教堂的温暖与灰色石塔的冷峻之间——它是人类在最严酷的自然与社会法则中，对“生存”与“庇护”所做出的最极致、最沉默、也最持久的诠释。来到这里，你带走的不是纪念品，而是一段关于山峦、石头与誓言的记忆。`}</p>
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/berat-thousand-windows" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    培
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">培拉特（千窗之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Berat</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gjirokastra-castle-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    吉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">吉诺卡斯特（千阶之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gjirokastër</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gjirokaster-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    吉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">吉诺卡斯特（石头城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gjirokastër</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
