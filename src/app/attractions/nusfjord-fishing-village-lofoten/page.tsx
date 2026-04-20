@@ -15,7 +15,7 @@ export default function NusfjordFishingVillageLofotenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '努斯峡湾', href: '/attractions/nusfjord-fishing-village-lofoten' },
           ]}
         />

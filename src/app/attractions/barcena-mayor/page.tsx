@@ -15,7 +15,7 @@ export default function BarcenaMayorPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '巴尔塞纳马约尔', href: '/attractions/barcena-mayor' },
           ]}
         />

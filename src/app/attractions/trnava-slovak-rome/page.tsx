@@ -15,7 +15,7 @@ export default function TrnavaSlovakRomePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '特尔纳瓦（斯洛伐克的小罗马）', href: '/attractions/trnava-slovak-rome' },
           ]}
         />

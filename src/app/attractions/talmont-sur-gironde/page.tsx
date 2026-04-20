@@ -15,7 +15,7 @@ export default function TalmontSurGirondePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '吉伦特河畔塔尔蒙', href: '/attractions/talmont-sur-gironde' },
           ]}
         />

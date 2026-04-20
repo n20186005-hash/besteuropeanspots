@@ -15,7 +15,7 @@ export default function WasserburgAnholtGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '安霍尔特水上城堡', href: '/attractions/wasserburg-anholt-guide' },
           ]}
         />

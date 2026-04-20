@@ -15,7 +15,7 @@ export default function ZierikzeeHistoricTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '济里克泽历史老城', href: '/attractions/zierikzee-historic-town' },
           ]}
         />

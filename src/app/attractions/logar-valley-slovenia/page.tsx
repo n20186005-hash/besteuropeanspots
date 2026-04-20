@@ -15,7 +15,7 @@ export default function LogarValleySloveniaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '洛加尔山谷', href: '/attractions/logar-valley-slovenia' },
           ]}
         />

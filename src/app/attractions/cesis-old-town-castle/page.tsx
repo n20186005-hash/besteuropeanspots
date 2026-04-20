@@ -15,7 +15,7 @@ export default function CesisOldTownCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '采西斯古城', href: '/attractions/cesis-old-town-castle' },
           ]}
         />

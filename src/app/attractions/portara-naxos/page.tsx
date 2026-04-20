@@ -15,7 +15,7 @@ export default function PortaraNaxosPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '纳克索斯波尔塔拉', href: '/attractions/portara-naxos' },
           ]}
         />

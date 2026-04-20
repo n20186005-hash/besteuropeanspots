@@ -15,7 +15,7 @@ export default function CitadelOfDinantPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '迪南要塞', href: '/attractions/citadel-of-dinant' },
           ]}
         />

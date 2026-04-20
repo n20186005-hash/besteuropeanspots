@@ -15,7 +15,7 @@ export default function AquileiaArchaeologicalSitePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿奎莱亚考古遗址', href: '/attractions/aquileia-archaeological-site' },
           ]}
         />

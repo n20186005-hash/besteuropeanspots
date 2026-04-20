@@ -15,7 +15,7 @@ export default function SzentendreArtistsVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '圣安德烈艺术小镇', href: '/attractions/szentendre-artists-village' },
           ]}
         />

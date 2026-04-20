@@ -15,7 +15,7 @@ export default function RoyalEiseEisingaPlanetariumFranekerPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '弗拉内克皇家天文馆', href: '/attractions/royal-eise-eisinga-planetarium-franeker' },
           ]}
         />

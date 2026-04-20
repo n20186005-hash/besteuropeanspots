@@ -15,7 +15,7 @@ export default function WoudrichemWaterFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '沃德里赫姆', href: '/attractions/woudrichem-water-fortress' },
           ]}
         />

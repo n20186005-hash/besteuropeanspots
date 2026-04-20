@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '瓦西亚 Vatheia｜探秘希腊“马尼之魂”，荒凉山崖上如中世纪碉堡般的无窗石塔迷宫 - 最佳欧洲景点',
-  description: '车子在仿佛没有尽头的灰色山崖上盘旋，当你几乎要怀疑导航是否出了错时，一片令人窒息的景象会猛地撞入眼帘。那不是山，那是建筑，是上百座灰到发黑的石塔，像一片从大地骨血里骤然刺出的、密密麻麻的冷兵器方阵，毫无预警地矗立在荒芜到极致的海角山巅。第一印象不是美，是一种直击心脏的凛冽和肃杀。风在这里是唯一的声音...',
+  description: '车子在仿佛没有尽头的灰色山崖上盘旋，当你几乎要怀疑导航是否出了错时，一片令人窒息的景象会猛地撞入眼帘。那不是山，那是建筑，是上百座灰到发黑的石塔，像一片从大地骨血里骤然刺出的、密密麻麻的冷兵器方阵，毫无预警地矗立在荒芜到极致的海角山巅。第一印象不是美，是一种直击心脏的凛冽和肃杀。风在这里是唯一的声音',
 }
 
 export default function VatheiaTowersPage() {
@@ -15,7 +15,7 @@ export default function VatheiaTowersPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瓦西亚', href: '/attractions/vatheia-towers' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function VatheiaTowersPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子在仿佛没有尽头的灰色山崖上盘旋，当你几乎要怀疑导航是否出了错时，一片令人窒息的景象会猛地撞入眼帘。那不是山，那是建筑，是上百座灰到发黑的石塔，像一片从大地骨血里骤然刺出的、密密麻麻的冷兵器方阵，毫无预警地矗立在荒芜到极致的海角山巅。第一印象不是美，是一种直击心脏的凛冽和肃杀。风在这里是唯一的声音，呼啸着穿过石塔间狭窄的、如同战壕般的巷弄，发出呜呜的悲鸣，夹杂着远处地中海浪涛拍打悬崖的低吼。空气里是干燥的石头、被烈日灼烤的百里香，以及无边无际的、属于时间和遗忘的气味。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`停下车，脚踩在滚烫的碎石路上走近它，那种压迫感有增无减。这些塔楼彼此挨得如此之近，近到你觉得住在隔壁塔顶的人几乎可以从射击孔里碰到对方的手。但它们又如此封闭，高达十几米的墙壁上，除了底部厚重的木门和最高处几个黑洞洞的方孔，再无任何与外界沟通的缝隙。你无法想象这里曾充满炊烟、孩子的哭闹和日常的对话。它更像一个为战争而生的巨型机器，每一块石头都在呐喊着“勿近”。阳光在这里被切割成锐利的几何形状，在巷子深处投下冰冷沉重的阴影，明暗交界线锋利得如同刀片。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，就在这片荒芜之中，生命力以最顽强的方式探头。几株仙人掌从石缝里爆出肥厚的绿掌，一丛丛野生的粉色天竺葵，在某个废弃塔楼窗台（如果那能算窗台的话）的石罐里，开得没心没肺。你会突然意识到，这并非纯粹的废墟。零星几座塔楼的烟囱飘出淡淡的炊烟，晾晒的衣物在屋顶的竹竿上轻轻摆动。极少数坚守在这里的老人，可能正从某个射击孔后静静打量着你这不速之客。这里的生活从未真正断绝，只是以一种极度内敛、近乎隐修的方式，与这片严酷的土地达成了最后的和解。它的核心魅力，正是这种极致的矛盾：将人类社群聚居的形态，塑造成了最孤独、最防御性的姿态；在最荒凉死寂的风景里，维系着最坚韧的生命火种。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在仿佛没有尽头的灰色山崖上盘旋，当你几乎要怀疑导航是否出了错时，一片令人窒息的景象会猛地撞入眼帘。那不是山，那是建筑，是上百座灰到发黑的石塔，像一片从大地骨血里骤然刺出的、密密麻麻的冷兵器方阵，毫无预警地矗立在荒芜到极致的海角山巅。第一印象不是美，是一种直击心脏的凛冽和肃杀。风在这里是唯一的声音，呼啸着穿过石塔间狭窄的、如同战壕般的巷弄，发出呜呜的悲鸣，夹杂着远处地中海浪涛拍打悬崖的低吼。空气里是干燥的石头、被烈日灼烤的百里香，以及无边无际的、属于时间和遗忘的气味。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "停下车，脚踩在滚烫的碎石路上走近它，那种压迫感有增无减。这些塔楼彼此挨得如此之近，近到你觉得住在隔壁塔顶的人几乎可以从射击孔里碰到对方的手。但它们又如此封闭，高达十几米的墙壁上，除了底部厚重的木门和最高处几个黑洞洞的方孔，再无任何与外界沟通的缝隙。你无法想象这里曾充满炊烟、孩子的哭闹和日常的对话。它更像一个为战争而生的巨型机器，每一块石头都在呐喊着“勿近”。阳光在这里被切割成锐利的几何形状，在巷子深处投下冰冷沉重的阴影，明暗交界线锋利得如同刀片。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，就在这片荒芜之中，生命力以最顽强的方式探头。几株仙人掌从石缝里爆出肥厚的绿掌，一丛丛野生的粉色天竺葵，在某个废弃塔楼窗台（如果那能算窗台的话）的石罐里，开得没心没肺。你会突然意识到，这并非纯粹的废墟。零星几座塔楼的烟囱飘出淡淡的炊烟，晾晒的衣物在屋顶的竹竿上轻轻摆动。极少数坚守在这里的老人，可能正从某个射击孔后静静打量着你这不速之客。这里的生活从未真正断绝，只是以一种极度内敛、近乎隐修的方式，与这片严酷的土地达成了最后的和解。它的核心魅力，正是这种极致的矛盾：将人类社群聚居的形态，塑造成了最孤独、最防御性的姿态；在最荒凉死寂的风景里，维系着最坚韧的生命火种。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function VatheiaTowersPage() {
                 <InfoRow label="国家" value={`希腊`} />
                 <InfoRow label="城市" value={`马尼半岛`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`马尼半岛家族世仇与血亲复仇传统的终极物理体现，是希腊乃至地中海地区最独特的防御性居住建筑范本。`} />
                 <InfoRow label="建筑特色" value={`完全由本地灰色石材垒砌而成的、密集如蜂巢般的三四层高塔式房屋，几乎没有窗户，仅有狭小的射击孔。`} />
@@ -52,6 +54,7 @@ export default function VatheiaTowersPage() {
                 <InfoRow label="文化价值" value={`一座没有硝烟的“石头的战场”，沉默诉说着马尼人桀骜不驯、以家族为单位的生存哲学与悲壮历史。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`村落全天开放，为无人管理的开放区域。建议在日出至日落期间游览，夜间无照明且道路复杂，极其危险。部分由私人修复的塔楼可能上锁，无法入内。最佳游览季节为春季（4-5月）和秋季（9-10月），夏季正午阳光暴晒、气温极高，冬季风势猛烈。`} />
               <InfoRow label="门票价格" value={`免费。整个村落为开放式遗址，无需购票。如果遇到当地居民或守护人，礼貌性的问候即可。没有任何官方收费点，谨防诈骗。`} />
@@ -62,17 +65,17 @@ export default function VatheiaTowersPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`要理解瓦西亚为何长得如此“不近人情”，你得把时钟拨回几百年前，钻进马尼半岛那群彪悍山民的脑子里。伯罗奔尼撒南端的这片石灰岩地，土地贫瘠得像被上帝遗忘，但它却成了希腊最顽固的一群人的避难所——他们是斯巴达人的后裔，血液里流淌着战士的骄傲，在拜占庭帝国崩溃后，奥斯曼土耳其人的势力也难以完全渗透这片崎岖之地。于是，这里成了一个无法无天的“国中国”，最高的法律不是苏丹的法令，而是家族的荣誉和代代相传的血债。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事就从这里变得血腥而悲壮。马尼社会的基础单元不是村庄，而是家族。家族之间为了争夺稀少的水源、可耕作的梯田、乃至一句口角，都可能引爆绵延数十代人的“血亲复仇”。一旦结仇，双方家族的男人就进入了一种永恒的狩猎与被狩猎状态。离开自家堡垒般的石屋，就可能被埋伏的对方家族成员射杀。这种仇杀如此普遍，以至于发展出一套复杂的、近乎仪式般的规则。而建筑，就成了这种生存状态最直接的反映。最初的房子只是普通的石屋，但为了防御冷箭和突袭，人们开始把房子越盖越高，墙壁越砌越厚。窗户成了致命的弱点，于是被彻底堵死，只留下高层狭小的孔洞用于观察和射击。房子变成了“塔”。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`瓦西亚，就是这个逻辑发展到登峰造极的产物。它不是自然形成的村落，更像一个经过残酷自然选择后留下的建筑标本。可以想象，在某个冲突白热化的时期，几个关系密切的家族决定联合起来，占据这个易守难攻的山头。他们不再建造分散的农舍，而是把家族的塔楼紧紧地、尽可能密集地修在一起，背靠背，肩并肩。这样，侧翼就得到了邻居塔楼的保护，形成了一个互相支援的防御共同体。巷子狭窄到仅容一人通过，且曲折如迷宫，入侵者闯入就会成为瓮中之鳖。屋顶是平的，带有矮墙，塔楼之间甚至可能通过可收放的木跳板连接，形成一条空中的防御走廊。这里没有广场，没有教堂（教堂在附近的另一处），没有公共生活的中心，一切为了生存和战斗。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`19世纪初，马尼人在希腊独立战争中扮演了凶猛先锋的角色，他们的勇悍闻名全国。但战争结束后，随着现代国家法律的进入和血亲复仇习俗被强制废除，这些塔楼瞬间失去了存在的核心意义。同时，这片土地的贫瘠无法支撑年轻一代的梦想，大迁徙开始了。人们奔向城市，奔向大海的另一头，瓦西亚以惊人的速度被遗弃。石头不会腐烂，只会沉默。于是，这片惊人的建筑群就像被突然按下了暂停键，以鼎盛时期的姿态，凝固在了时光里。近几十年，它独特的美学价值被重新发现，一些塔楼被富人或艺术家买下，精心修复成度假屋，灰色的巨塔里出现了现代化的落地窗和泳池。这又为它增添了一层新的、略带超现实色彩的叙事：从家族堡垒到艺术藏品，瓦西亚的故事，仍在石头的缝隙里继续书写。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解瓦西亚为何长得如此“不近人情”，你得把时钟拨回几百年前，钻进马尼半岛那群彪悍山民的脑子里。伯罗奔尼撒南端的这片石灰岩地，土地贫瘠得像被上帝遗忘，但它却成了希腊最顽固的一群人的避难所——他们是斯巴达人的后裔，血液里流淌着战士的骄傲，在拜占庭帝国崩溃后，奥斯曼土耳其人的势力也难以完全渗透这片崎岖之地。于是，这里成了一个无法无天的“国中国”，最高的法律不是苏丹的法令，而是家族的荣誉和代代相传的血债。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事就从这里变得血腥而悲壮。马尼社会的基础单元不是村庄，而是家族。家族之间为了争夺稀少的水源、可耕作的梯田、乃至一句口角，都可能引爆绵延数十代人的“血亲复仇”。一旦结仇，双方家族的男人就进入了一种永恒的狩猎与被狩猎状态。离开自家堡垒般的石屋，就可能被埋伏的对方家族成员射杀。这种仇杀如此普遍，以至于发展出一套复杂的、近乎仪式般的规则。而建筑，就成了这种生存状态最直接的反映。最初的房子只是普通的石屋，但为了防御冷箭和突袭，人们开始把房子越盖越高，墙壁越砌越厚。窗户成了致命的弱点，于是被彻底堵死，只留下高层狭小的孔洞用于观察和射击。房子变成了“塔”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "瓦西亚，就是这个逻辑发展到登峰造极的产物。它不是自然形成的村落，更像一个经过残酷自然选择后留下的建筑标本。可以想象，在某个冲突白热化的时期，几个关系密切的家族决定联合起来，占据这个易守难攻的山头。他们不再建造分散的农舍，而是把家族的塔楼紧紧地、尽可能密集地修在一起，背靠背，肩并肩。这样，侧翼就得到了邻居塔楼的保护，形成了一个互相支援的防御共同体。巷子狭窄到仅容一人通过，且曲折如迷宫，入侵者闯入就会成为瓮中之鳖。屋顶是平的，带有矮墙，塔楼之间甚至可能通过可收放的木跳板连接，形成一条空中的防御走廊。这里没有广场，没有教堂（教堂在附近的另一处），没有公共生活的中心，一切为了生存和战斗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "19世纪初，马尼人在希腊独立战争中扮演了凶猛先锋的角色，他们的勇悍闻名全国。但战争结束后，随着现代国家法律的进入和血亲复仇习俗被强制废除，这些塔楼瞬间失去了存在的核心意义。同时，这片土地的贫瘠无法支撑年轻一代的梦想，大迁徙开始了。人们奔向城市，奔向大海的另一头，瓦西亚以惊人的速度被遗弃。石头不会腐烂，只会沉默。于是，这片惊人的建筑群就像被突然按下了暂停键，以鼎盛时期的姿态，凝固在了时光里。近几十年，它独特的美学价值被重新发现，一些塔楼被富人或艺术家买下，精心修复成度假屋，灰色的巨塔里出现了现代化的落地窗和泳池。这又为它增添了一层新的、略带超现实色彩的叙事：从家族堡垒到艺术藏品，瓦西亚的故事，仍在石头的缝隙里继续书写。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`游览瓦西亚不适合匆匆打卡，它需要你拿出至少半天的耐心，进行一次沉浸式的“废墟漫步”。建议在下午三点左右抵达，此时灼人的正午烈日已开始西斜，光线变得金黄而富有戏剧性，能完美勾勒出石塔凌厉的轮廓。整体游览时间约为2-3小时，节奏一定要慢。这不是一个按图索骥看“景点”的地方，它的魅力在于整体的氛围和你在迷宫般巷弄中迷失的体验。从停车场开始，由外及内，由远观到近触，最后找一个高处静待日落。这样的安排能让你逐步感受它从视觉震撼到历史沉浸的全过程，并在一天中最温柔的时刻，与这片冷酷的石之城达成情感上的共鸣。`}
                 </p>
@@ -155,8 +158,9 @@ export default function VatheiaTowersPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
@@ -176,50 +180,51 @@ export default function VatheiaTowersPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`马尼半岛的特色石屋民宿非常抢手，尤其是夏季和春秋旺季，务必提前至少2-3个月预订。住在半岛内部村庄夜晚极其安静，几乎没有光污染，星空璀璨，但餐饮选择极少，最好选择含早餐并能提供简单晚餐的住所。无论住在哪里，自驾车都是探索这片区域的绝对必需品。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "马尼半岛的特色石屋民宿非常抢手，尤其是夏季和春秋旺季，务必提前至少2-3个月预订。住在半岛内部村庄夜晚极其安静，几乎没有光污染，星空璀璨，但餐饮选择极少，最好选择含早餐并能提供简单晚餐的住所。无论住在哪里，自驾车都是探索这片区域的绝对必需品。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开瓦西亚很久以后，那片灰色的剪影还会不时浮现在脑海里。它带给我的触动，并非通常古迹那种对辉煌文明的惊叹，而是一种更深沉、更近乎哲学层面的震撼。它像一面冷酷的镜子，映照出人类在极端环境下，可以被挤压出的那种惊人的生存意志和建筑智慧——这种智慧无关美学，只关乎存续。当安全成为唯一奢求时，阳光、视野、社交空间这些我们今天视为理所当然的居住要素，都可以被毫不犹豫地牺牲。走进那些巷子，你仿佛能听到几个世纪前低声的警告、紧张的呼吸，和仇恨在石头上刻下的无声叹息。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个追求开放、联通、舒适的快节奏世界里，瓦西亚的存在是一个巨大的异数。它提醒我们，人类的文明路径并非只有一条向上的、越来越光明宽敞的坦途。在某些角落，它可能曾向内收缩，变得坚硬、封闭、警惕，像一只为了活下去而紧紧蜷缩起来的石刺猬。来这里，不是为了享受，而是为了理解。理解人类情感的重量如何能塑造石头，理解仇恨如何能构建奇观，也理解时间最终如何温柔地覆盖一切，让野花从射击孔里绽放。对于热爱深度游的旅人而言，瓦西亚不是一个景点，它是一个必须亲身抵达的“心境”。它会剥去你所有关于浪漫南欧的想象，让你在绝对的荒凉与绝对的坚韧面前，沉默良久，然后重新思考“家园”与“生存”的真正含义。这趟旅程，注定是一次走向历史背光面的孤独行走，但你带回的，将是对人类故事复杂性的、更深一度的敬意。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开瓦西亚很久以后，那片灰色的剪影还会不时浮现在脑海里。它带给我的触动，并非通常古迹那种对辉煌文明的惊叹，而是一种更深沉、更近乎哲学层面的震撼。它像一面冷酷的镜子，映照出人类在极端环境下，可以被挤压出的那种惊人的生存意志和建筑智慧——这种智慧无关美学，只关乎存续。当安全成为唯一奢求时，阳光、视野、社交空间这些我们今天视为理所当然的居住要素，都可以被毫不犹豫地牺牲。走进那些巷子，你仿佛能听到几个世纪前低声的警告、紧张的呼吸，和仇恨在石头上刻下的无声叹息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在当今这个追求开放、联通、舒适的快节奏世界里，瓦西亚的存在是一个巨大的异数。它提醒我们，人类的文明路径并非只有一条向上的、越来越光明宽敞的坦途。在某些角落，它可能曾向内收缩，变得坚硬、封闭、警惕，像一只为了活下去而紧紧蜷缩起来的石刺猬。来这里，不是为了享受，而是为了理解。理解人类情感的重量如何能塑造石头，理解仇恨如何能构建奇观，也理解时间最终如何温柔地覆盖一切，让野花从射击孔里绽放。对于热爱深度游的旅人而言，瓦西亚不是一个景点，它是一个必须亲身抵达的“心境”。它会剥去你所有关于浪漫南欧的想象，让你在绝对的荒凉与绝对的坚韧面前，沉默良久，然后重新思考“家园”与“生存”的真正含义。这趟旅程，注定是一次走向历史背光面的孤独行走，但你带回的，将是对人类故事复杂性的、更深一度的敬意。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/ioannina-old-town" className="block group">
+              <a href="/attractions/temple-of-apollo-epicurius" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    约
+                    巴
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">约阿尼纳老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ioannina Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴赛阿波罗神庙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Temple of Apollo Epicurius</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/galaxidi-traditional-sailing-town" className="block group">
+              <a href="/attractions/lindos-acropolis" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    加
+                    林
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">加拉西迪</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Galaxidi</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">林多斯卫城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lindos Acropolis</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/monemvasia-fortress-town" className="block group">
+              <a href="/attractions/mystras-archaeological-site" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    莫
+                    米
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫奈姆瓦夏隐秘之城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monemvasia</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">米斯特拉斯遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mystras</p>
                   </div>
                 </div>
               </a>

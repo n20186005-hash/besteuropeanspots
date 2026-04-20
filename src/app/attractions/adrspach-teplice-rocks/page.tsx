@@ -15,7 +15,7 @@ export default function AdrspachTepliceRocksPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿德尔什帕赫-特普利采岩石群', href: '/attractions/adrspach-teplice-rocks' },
           ]}
         />

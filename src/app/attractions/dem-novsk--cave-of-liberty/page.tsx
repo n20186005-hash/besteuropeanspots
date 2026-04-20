@@ -15,7 +15,7 @@ export default function DemNovskCaveOfLibertyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德曼诺夫斯卡自由洞', href: '/attractions/dem-novsk--cave-of-liberty' },
           ]}
         />

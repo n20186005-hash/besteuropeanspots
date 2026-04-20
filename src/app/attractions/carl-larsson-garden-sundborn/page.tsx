@@ -15,7 +15,7 @@ export default function CarlLarssonGardenSundbornPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '达拉纳桑德伯恩村（卡尔·拉森故居）', href: '/attractions/carl-larsson-garden-sundborn' },
           ]}
         />

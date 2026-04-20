@@ -15,7 +15,7 @@ export default function PetrovaradinFortressNoviSadPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '诺维萨德要塞', href: '/attractions/petrovaradin-fortress-novi-sad' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function FontevraudAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '丰特夫罗修道院', href: '/attractions/fontevraud-abbey' },
           ]}
         />

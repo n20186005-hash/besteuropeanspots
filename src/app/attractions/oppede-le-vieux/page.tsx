@@ -15,7 +15,7 @@ export default function OppedeLeVieuxPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥皮内德（吕贝隆）', href: '/attractions/oppede-le-vieux' },
           ]}
         />

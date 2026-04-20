@@ -15,7 +15,7 @@ export default function HollokoOldVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '霍尔罗克传统村落', href: '/attractions/holloko-old-village' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function HeiligenkreuzAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '海利根克罗伊茨修道院', href: '/attractions/heiligenkreuz-abbey' },
           ]}
         />

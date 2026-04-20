@@ -15,7 +15,7 @@ export default function RoyalPalaceLaGranjaSanIldefonsoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '圣伊尔德丰索宫（拉格兰哈宫）', href: '/attractions/royal-palace-la-granja-san-ildefonso' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function BeringenMineBeMinePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '贝灵恩煤矿遗址', href: '/attractions/beringen-mine-be-mine' },
           ]}
         />

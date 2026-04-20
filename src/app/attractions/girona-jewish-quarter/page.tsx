@@ -15,7 +15,7 @@ export default function GironaJewishQuarterPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '赫罗纳犹太区', href: '/attractions/girona-jewish-quarter' },
           ]}
         />

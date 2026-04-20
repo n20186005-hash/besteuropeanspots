@@ -15,7 +15,7 @@ export default function ViljandiOrderCastleRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '维尔扬迪城堡废墟（汉萨同盟时期要塞）', href: '/attractions/viljandi-order-castle-ruins' },
           ]}
         />

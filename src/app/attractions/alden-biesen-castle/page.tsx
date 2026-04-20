@@ -15,7 +15,7 @@ export default function AldenBiesenCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿尔登·比森城堡（条顿骑士团的宏大封地）', href: '/attractions/alden-biesen-castle' },
           ]}
         />

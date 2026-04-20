@@ -15,7 +15,7 @@ export default function RundalePalacePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '伦达莱宫（波罗的海的凡尔赛宫）', href: '/attractions/rundale-palace' },
           ]}
         />

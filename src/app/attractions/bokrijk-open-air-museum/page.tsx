@@ -15,7 +15,7 @@ export default function BokrijkOpenAirMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '博克赖克露天博物馆', href: '/attractions/bokrijk-open-air-museum' },
           ]}
         />

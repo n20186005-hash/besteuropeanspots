@@ -15,7 +15,7 @@ export default function CasasColgadasCuencaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '昆卡悬空之屋', href: '/attractions/casas-colgadas-cuenca' },
           ]}
         />

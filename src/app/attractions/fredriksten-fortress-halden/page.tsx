@@ -15,7 +15,7 @@ export default function FredrikstenFortressHaldenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '哈尔登弗雷德里克斯滕要塞', href: '/attractions/fredriksten-fortress-halden' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function SanctuaryOfApolloAtDelphiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德尔斐阿波罗神庙', href: '/attractions/sanctuary-of-apollo-at-delphi' },
           ]}
         />

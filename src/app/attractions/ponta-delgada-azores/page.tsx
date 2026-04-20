@@ -15,7 +15,7 @@ export default function PontaDelgadaAzoresPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '蓬塔德尔gada（黑白玄武岩拼花人行道与古典建筑交织的火山岛之都）', href: '/attractions/ponta-delgada-azores' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function EttelbruckPattonMemorialCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '埃特尔布吕克', href: '/attractions/ettelbruck-patton-memorial-city' },
           ]}
         />

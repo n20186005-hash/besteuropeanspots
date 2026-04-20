@@ -15,7 +15,7 @@ export default function MuensterAltstadtPrinzipalmarktPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '明斯特老城与主广场（山形墙林立的汉萨商人街与和平之城）', href: '/attractions/muenster-altstadt-prinzipalmarkt' },
           ]}
         />

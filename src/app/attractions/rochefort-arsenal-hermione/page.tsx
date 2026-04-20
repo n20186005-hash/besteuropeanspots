@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '罗什福尔兵工厂与赫敏号 Arsenal de Rochefort (L\'Hermione)｜走进太阳王的海军梦，亲手触摸18世纪的风帆传奇 - 最佳欧洲景点',
-  description: '第一眼看到它，你可能会愣一下。这里没有想象中的金碧辉煌，取而代之的是一种巨大、沉默而精确的力量感。夏朗德河在这里拐了一个温柔的弯，河水是浑浊的土黄色，带着大西洋的气息。空气里弥漫着一股奇特的味道——干燥的木材、陈年的焦油，还有一点点旧绳索和海盐混合的气味。你的左边，是绵延的、用浅色石头砌成的长长拱廊...',
+  description: '第一眼看到它，你可能会愣一下。这里没有想象中的金碧辉煌，取而代之的是一种巨大、沉默而精确的力量感。夏朗德河在这里拐了一个温柔的弯，河水是浑浊的土黄色，带着大西洋的气息。空气里弥漫着一股奇特的味道——干燥的木材、陈年的焦油，还有一点点旧绳索和海盐混合的气味。你的左边，是绵延的、用浅色石头砌成的长长拱廊',
 }
 
 export default function RochefortArsenalHermionePage() {
@@ -15,7 +15,7 @@ export default function RochefortArsenalHermionePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗什福尔兵工厂与赫敏号', href: '/attractions/rochefort-arsenal-hermione' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function RochefortArsenalHermionePage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`第一眼看到它，你可能会愣一下。这里没有想象中的金碧辉煌，取而代之的是一种巨大、沉默而精确的力量感。夏朗德河在这里拐了一个温柔的弯，河水是浑浊的土黄色，带着大西洋的气息。空气里弥漫着一股奇特的味道——干燥的木材、陈年的焦油，还有一点点旧绳索和海盐混合的气味。你的左边，是绵延的、用浅色石头砌成的长长拱廊和仓库，线条严肃而整齐，像一排永远立正的士兵。而你的右边，河面上，赫然停泊着一艘巨大的三桅帆船，那深色的船体、层层叠叠的帆缆和直刺天空的桅杆，在阴郁的法国西部天空下，构成了一幅极具冲击力的时空错位画面。这就是罗什福尔，一个为战争与远航而生的地方。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在本地人眼里，这里远不止是个旅游景点。它是整个城市的“父亲”。傍晚时分，你会看到老夫妇沿着河岸散步，指着赫敏号对孙辈说：“看，我们造的。”话语里满是自豪。咖啡馆的老板可能曾祖辈就是这里的捻缝工。当你触摸兵工厂那些被无数双手磨得发亮的橡木大门时，你触摸的是一个社区持续了三个多世纪的集体记忆。这里的核心魅力，不在于观看，而在于“沉浸”。你不再是隔着玻璃橱窗看历史，而是站在曾经倾倒滚烫沥青的干船坞底，走在摇晃的甲板上，听着帆缆在风中的呜咽。历史在这里是有温度、有气味、有触感的。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，或许是那种极致的“复刻”所代表的执念。赫敏号不是迪士尼式的布景，它是一艘真正能远航的战舰。为了重建它，人们寻找相同的木材，使用相同的工具，学习早已失传的技艺。在这里，你能深刻体会到，所谓“传统”并非死物，而是一种可以被重新唤醒、并再次赋予生命的巨大热情。当你知道眼前这艘庞然大物的每一颗钉子，都像227年前一样被手工敲入，你会对“制造”这个词产生全新的敬意。它讲述的不是一个关于征服的故事，而是一个关于如何耐心地、一凿一斧地，将梦想变为可触摸现实的故事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一眼看到它，你可能会愣一下。这里没有想象中的金碧辉煌，取而代之的是一种巨大、沉默而精确的力量感。夏朗德河在这里拐了一个温柔的弯，河水是浑浊的土黄色，带着大西洋的气息。空气里弥漫着一股奇特的味道——干燥的木材、陈年的焦油，还有一点点旧绳索和海盐混合的气味。你的左边，是绵延的、用浅色石头砌成的长长拱廊和仓库，线条严肃而整齐，像一排永远立正的士兵。而你的右边，河面上，赫然停泊着一艘巨大的三桅帆船，那深色的船体、层层叠叠的帆缆和直刺天空的桅杆，在阴郁的法国西部天空下，构成了一幅极具冲击力的时空错位画面。这就是罗什福尔，一个为战争与远航而生的地方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在本地人眼里，这里远不止是个旅游景点。它是整个城市的“父亲”。傍晚时分，你会看到老夫妇沿着河岸散步，指着赫敏号对孙辈说：“看，我们造的。”话语里满是自豪。咖啡馆的老板可能曾祖辈就是这里的捻缝工。当你触摸兵工厂那些被无数双手磨得发亮的橡木大门时，你触摸的是一个社区持续了三个多世纪的集体记忆。这里的核心魅力，不在于观看，而在于“沉浸”。你不再是隔着玻璃橱窗看历史，而是站在曾经倾倒滚烫沥青的干船坞底，走在摇晃的甲板上，听着帆缆在风中的呜咽。历史在这里是有温度、有气味、有触感的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人心的，或许是那种极致的“复刻”所代表的执念。赫敏号不是迪士尼式的布景，它是一艘真正能远航的战舰。为了重建它，人们寻找相同的木材，使用相同的工具，学习早已失传的技艺。在这里，你能深刻体会到，所谓“传统”并非死物，而是一种可以被重新唤醒、并再次赋予生命的巨大热情。当你知道眼前这艘庞然大物的每一颗钉子，都像227年前一样被手工敲入，你会对“制造”这个词产生全新的敬意。它讲述的不是一个关于征服的故事，而是一个关于如何耐心地、一凿一斧地，将梦想变为可触摸现实的故事。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function RochefortArsenalHermionePage() {
                 <InfoRow label="国家" value={`法国`} />
                 <InfoRow label="城市" value={`滨海夏朗德省罗什福尔`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`这里是法兰西帝国海军雄心的摇篮，也是连接新大陆的自由象征。`} />
                 <InfoRow label="建筑特色" value={`太阳王时代留存至今的完整海军工业集群与一艘严格按照18世纪工艺重建的传奇风帆战舰。`} />
@@ -52,6 +54,7 @@ export default function RochefortArsenalHermionePage() {
                 <InfoRow label="文化价值" value={`它是一本关于航海文明、帝国野心与工匠精神的立体百科全书。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`兵工厂建筑群及博物馆全年开放，夏季（4月至9月）通常为9:30-19:00，冬季（10月至3月）为10:00-18:00，每周二闭馆（7、8月除外）。赫敏号复刻舰的参观时间取决于其停泊状态（常在春季至秋季），具体日期与时间表需提前在官网查询，因其可能出海航行或进行维护。节假日开放时间会有调整。`} />
               <InfoRow label="门票价格" value={`提供多种票务选择：单兵工厂区域门票约12欧元；赫敏号参观票约11欧元；最推荐的是“通行证”联票（包含兵工厂、赫敏号及缆绳工坊），约18欧元。优惠适用于学生、青少年及团体。6岁以下儿童免费。网上购票通常可享受小幅折扣并避免排队。`} />
@@ -62,17 +65,17 @@ export default function RochefortArsenalHermionePage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从一个雄心勃勃的男人和一位更雄心勃勃的国王说起。1666年，路易十四的财政大臣柯尔贝尔，正为打造一支能与英国、荷兰抗衡的强大海军而焦头烂额。布列斯特等主要军港太远，太容易受到攻击。他的目光落在了夏朗德河畔这片宁静的沼泽地。这里深入内陆，易于防守，且通过河道能迅速连接大西洋。于是，一声令下，一座完全为海军服务的“理想城”——罗什福尔，从零开始拔地而起。在太阳王无尽的黄金支持下，兵工厂迅速成为欧洲最先进、最庞大的海军工业复合体。巅峰时期，这里有一万五千名工人在此劳作，从铸造大炮到编织缆绳，从雕刻船艏像到缝制巨帆，形成了一个几乎完全自给自足的微缩王国。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`而赫敏号，就是从这个王国驶出的最著名的使者之一。1779年，一艘装备了26门火炮的轻型护卫舰在这里的干船坞下水。它本身并非舰队中最大最强的战舰，但命运为它选择了非凡的乘客——年轻的拉法耶特侯爵。1780年，赫敏号载着这位怀揣自由理想的法国贵族，冲破英国海军的封锁，横渡大西洋，将法国正式参战并给予支援的消息，送到了正在为独立苦战的华盛顿手中。这次航行，不仅改变了美国独立战争的局势，更将“自由、平等、博爱”的精神种子，通过一艘战舰，悄然埋下。然而，传奇的结局往往唏嘘。仅仅十几年后，1793年，赫敏号在法国大革命的混乱中，因导航失误，悲惨地触礁沉没于克罗瓦西克附近的海域。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`随后的两个世纪，罗什福尔兵工厂随着帝国的兴衰而浮沉。拿破仑时代它曾短暂复兴，但铁甲舰时代的到来，无情地宣判了风帆战舰与这座传统造船厂的死刑。1927年，最后一艘船从这里驶出，巨大的船坞被泥土填平，宏伟的车间沦为仓库，整个区域陷入漫长的沉睡，几乎被世人遗忘。直到1997年，一个近乎疯狂的梦想被点燃：何不重建赫敏号？这不是为了拍电影，而是要造一艘能真正下海航行的、一模一样的船。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`于是，一场长达17年的史诗级工程开始了。工匠们查阅数以万计的原始图纸，寻访古老的橡木林，重新点亮锻造炉，甚至复兴了已经消失的“缆绳工坊”——那栋长达374米的超长建筑，曾经每天能生产出够绕地球半圈的绳索。2014年，当全新的赫敏号沿着夏朗德河缓缓驶向大西洋时，整个法国都在屏息观看。它不仅是一艘船的复活，更是一座城市的复兴，一段历史的招魂。今天，你站在这里，看到的正是这两个伟大时代的重叠：柯尔贝尔规划的理性帝国，与当代人用双手复活的浪漫传奇。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从一个雄心勃勃的男人和一位更雄心勃勃的国王说起。1666年，路易十四的财政大臣柯尔贝尔，正为打造一支能与英国、荷兰抗衡的强大海军而焦头烂额。布列斯特等主要军港太远，太容易受到攻击。他的目光落在了夏朗德河畔这片宁静的沼泽地。这里深入内陆，易于防守，且通过河道能迅速连接大西洋。于是，一声令下，一座完全为海军服务的“理想城”——罗什福尔，从零开始拔地而起。在太阳王无尽的黄金支持下，兵工厂迅速成为欧洲最先进、最庞大的海军工业复合体。巅峰时期，这里有一万五千名工人在此劳作，从铸造大炮到编织缆绳，从雕刻船艏像到缝制巨帆，形成了一个几乎完全自给自足的微缩王国。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而赫敏号，就是从这个王国驶出的最著名的使者之一。1779年，一艘装备了26门火炮的轻型护卫舰在这里的干船坞下水。它本身并非舰队中最大最强的战舰，但命运为它选择了非凡的乘客——年轻的拉法耶特侯爵。1780年，赫敏号载着这位怀揣自由理想的法国贵族，冲破英国海军的封锁，横渡大西洋，将法国正式参战并给予支援的消息，送到了正在为独立苦战的华盛顿手中。这次航行，不仅改变了美国独立战争的局势，更将“自由、平等、博爱”的精神种子，通过一艘战舰，悄然埋下。然而，传奇的结局往往唏嘘。仅仅十几年后，1793年，赫敏号在法国大革命的混乱中，因导航失误，悲惨地触礁沉没于克罗瓦西克附近的海域。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随后的两个世纪，罗什福尔兵工厂随着帝国的兴衰而浮沉。拿破仑时代它曾短暂复兴，但铁甲舰时代的到来，无情地宣判了风帆战舰与这座传统造船厂的死刑。1927年，最后一艘船从这里驶出，巨大的船坞被泥土填平，宏伟的车间沦为仓库，整个区域陷入漫长的沉睡，几乎被世人遗忘。直到1997年，一个近乎疯狂的梦想被点燃：何不重建赫敏号？这不是为了拍电影，而是要造一艘能真正下海航行的、一模一样的船。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，一场长达17年的史诗级工程开始了。工匠们查阅数以万计的原始图纸，寻访古老的橡木林，重新点亮锻造炉，甚至复兴了已经消失的“缆绳工坊”——那栋长达374米的超长建筑，曾经每天能生产出够绕地球半圈的绳索。2014年，当全新的赫敏号沿着夏朗德河缓缓驶向大西洋时，整个法国都在屏息观看。它不仅是一艘船的复活，更是一座城市的复兴，一段历史的招魂。今天，你站在这里，看到的正是这两个伟大时代的重叠：柯尔贝尔规划的理性帝国，与当代人用双手复活的浪漫传奇。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`想要真正领略此地的精髓，请务必预留出完整的一天（至少5-6小时）。建议早上9点半左右抵达，这时光线柔和，旅游团尚未涌入。游览节奏宜采取“先宏观看背景，再微观亲体验”的顺序：上午专注于地面上的兵工厂建筑群，了解其恢弘的工业体系；下午则将时间交给赫敏号，沉浸式体验船上生活。中午可以在兵工厂咖啡馆或河畔餐厅简单用餐。这样的安排能让你在头脑中先构建起历史框架，再带着理解和想象去登上战舰，感受会加倍深刻。如果运气好碰上赫敏号扬帆出港或归航，那将是全天的高潮，记得提前在官网查询日程。`}
                 </p>
@@ -157,8 +160,9 @@ export default function RochefortArsenalHermionePage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
@@ -178,50 +182,51 @@ export default function RochefortArsenalHermionePage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`罗什福尔是个非常安全宁静的小城，夜晚独自在河边散步毫无压力。如果想获得最完整的体验，建议至少住两晚，这样有一天可以专门用来探索罗什福尔城内其他柯尔贝尔时代的遗产，比如那间著名的“海军医学学校”。夏季和赫敏号重大活动期间住宿非常紧俏，务必提前数月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗什福尔是个非常安全宁静的小城，夜晚独自在河边散步毫无压力。如果想获得最完整的体验，建议至少住两晚，这样有一天可以专门用来探索罗什福尔城内其他柯尔贝尔时代的遗产，比如那间著名的“海军医学学校”。夏季和赫敏号重大活动期间住宿非常紧俏，务必提前数月预订。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开罗什福尔的时候，你的手上可能还留着触摸老旧橡木的粗糙感，鼻腔里还萦绕着焦油与绳索的气味。但比这些感官记忆更深刻的，是一种奇妙的慰藉。在这个追求效率、一切皆可快速数字化复制的时代，竟然还有这样一个地方，愿意用十七年的时间，仅仅为了“重现”一艘两个半世纪前的船。他们不是在怀旧，而是在进行一场庄严的、近乎笨拙的对话——与历史对话，与失传的技艺对话，更与人类双手所能创造的极致之美对话。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`所以，它值得每一个热爱深度游的旅人前来。不仅仅是为了看一艘漂亮的大船，或是参观一个古老的工厂。而是为了来见证“执念”所能达到的浪漫高度。在这里，你会明白，历史不是教科书上冰冷的知识点，它是可以呼吸、可以航行、可以被无数普通人用热情再次点燃的活生生的存在。赫敏号静静地停泊在那里，它不再是为了运送士兵或传达密信，它成了一座关于耐心、匠心与梦想的纪念碑。它提醒着我们，有些旅程的价值不在于抵达，而在于那耗费心血、一寸一寸前行的过程本身。这，或许是我们这个快节奏世界里，最稀缺也最珍贵的一课。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开罗什福尔的时候，你的手上可能还留着触摸老旧橡木的粗糙感，鼻腔里还萦绕着焦油与绳索的气味。但比这些感官记忆更深刻的，是一种奇妙的慰藉。在这个追求效率、一切皆可快速数字化复制的时代，竟然还有这样一个地方，愿意用十七年的时间，仅仅为了“重现”一艘两个半世纪前的船。他们不是在怀旧，而是在进行一场庄严的、近乎笨拙的对话——与历史对话，与失传的技艺对话，更与人类双手所能创造的极致之美对话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，它值得每一个热爱深度游的旅人前来。不仅仅是为了看一艘漂亮的大船，或是参观一个古老的工厂。而是为了来见证“执念”所能达到的浪漫高度。在这里，你会明白，历史不是教科书上冰冷的知识点，它是可以呼吸、可以航行、可以被无数普通人用热情再次点燃的活生生的存在。赫敏号静静地停泊在那里，它不再是为了运送士兵或传达密信，它成了一座关于耐心、匠心与梦想的纪念碑。它提醒着我们，有些旅程的价值不在于抵达，而在于那耗费心血、一寸一寸前行的过程本身。这，或许是我们这个快节奏世界里，最稀缺也最珍贵的一课。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/chateau-de-hautefort" className="block group">
+              <a href="/attractions/beze" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    欧
+                    贝
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">欧特福尔城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Hautefort</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝兹</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bèze</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/gouffre-de-proumeyssac" className="block group">
+              <a href="/attractions/chateau-de-villandry" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    普
+                    维
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普鲁梅萨克水晶深渊</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gouffre de Proumeyssac</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维朗德里城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Villandry</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/sainte-agnes-france" className="block group">
+              <a href="/attractions/cordes-sur-ciel" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    圣
+                    科
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣阿涅斯</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sainte-Agnès</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尔德圣谢鲁</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cordes-sur-Ciel</p>
                   </div>
                 </div>
               </a>

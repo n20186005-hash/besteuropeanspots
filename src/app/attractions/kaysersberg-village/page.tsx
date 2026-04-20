@@ -15,7 +15,7 @@ export default function KaysersbergVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '凯斯贝格小镇', href: '/attractions/kaysersberg-village' },
           ]}
         />

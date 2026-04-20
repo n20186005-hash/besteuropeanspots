@@ -15,7 +15,7 @@ export default function SchwabischHallOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '施瓦本哈尔古城', href: '/attractions/schwabisch-hall-old-town' },
           ]}
         />

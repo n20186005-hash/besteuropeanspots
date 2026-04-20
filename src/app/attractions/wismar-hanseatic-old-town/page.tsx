@@ -15,7 +15,7 @@ export default function WismarHanseaticOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '维斯马汉萨老城', href: '/attractions/wismar-hanseatic-old-town' },
           ]}
         />

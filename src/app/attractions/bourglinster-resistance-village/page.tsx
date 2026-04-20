@@ -15,7 +15,7 @@ export default function BourglinsterResistanceVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '博尔滕斯（隐秘的抵抗之村）', href: '/attractions/bourglinster-resistance-village' },
           ]}
         />

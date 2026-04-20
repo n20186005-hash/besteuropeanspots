@@ -15,7 +15,7 @@ export default function VjetrenicaCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '风洞', href: '/attractions/vjetrenica-cave' },
           ]}
         />

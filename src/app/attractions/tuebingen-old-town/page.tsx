@@ -15,7 +15,7 @@ export default function TuebingenOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '图宾根老城', href: '/attractions/tuebingen-old-town' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function CervenyKamenCastleSlovakiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '红石古堡', href: '/attractions/cerveny-kamen-castle-slovakia' },
           ]}
         />

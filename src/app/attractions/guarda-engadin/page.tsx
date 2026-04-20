@@ -15,7 +15,7 @@ export default function GuardaEngadinPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瓜尔达（恩嘎丁山谷的苏斯罗曼什语刮画村）', href: '/attractions/guarda-engadin' },
           ]}
         />

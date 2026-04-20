@@ -15,7 +15,7 @@ export default function FortSintPieterMaastrichtCavesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '圣彼得堡要塞与地下洞穴', href: '/attractions/fort-sint-pieter-maastricht-caves' },
           ]}
         />

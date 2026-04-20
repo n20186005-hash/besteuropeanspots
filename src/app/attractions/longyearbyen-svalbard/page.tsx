@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '斯瓦尔巴朗伊尔城 Longyearbyen｜探访北极熊比人多的世界最北端小镇与全球种子库 - 最佳欧洲景点',
-  description: '飞机开始下降，窗外的景色会让你忘记呼吸。那不是你熟悉的任何一种地貌——巨大的、沉默的、被冰川雕刻出的黝黑山脉，披着永恒的雪衣，环绕着一片看似玩具般脆弱的彩色房屋。这就是你对朗伊尔城的第一眼印象：人类文明在洪荒之力边缘一次微小而倔强的定居。走出机舱，呼吸到的第一口空气凛冽、纯净，带着一种近乎金属的清澈...',
+  description: '飞机开始下降，窗外的景色会让你忘记呼吸。那不是你熟悉的任何一种地貌——巨大的、沉默的、被冰川雕刻出的黝黑山脉，披着永恒的雪衣，环绕着一片看似玩具般脆弱的彩色房屋。这就是你对朗伊尔城的第一眼印象：人类文明在洪荒之力边缘一次微小而倔强的定居。走出机舱，呼吸到的第一口空气凛冽、纯净，带着一种近乎金属的清澈',
 }
 
 export default function LongyearbyenSvalbardPage() {
@@ -15,7 +15,7 @@ export default function LongyearbyenSvalbardPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯瓦尔巴朗伊尔城', href: '/attractions/longyearbyen-svalbard' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function LongyearbyenSvalbardPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`飞机开始下降，窗外的景色会让你忘记呼吸。那不是你熟悉的任何一种地貌——巨大的、沉默的、被冰川雕刻出的黝黑山脉，披着永恒的雪衣，环绕着一片看似玩具般脆弱的彩色房屋。这就是你对朗伊尔城的第一眼印象：人类文明在洪荒之力边缘一次微小而倔强的定居。走出机舱，呼吸到的第一口空气凛冽、纯净，带着一种近乎金属的清澈感，瞬间刺穿你的肺叶。这里的气味很独特，是干净的冰雪味，偶尔混杂着从老旧煤矿飘来的、一丝淡淡的工业气息。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`小镇中心沿着山谷展开，道路是压实的砂石雪道。最打动人的是那些房子，漆成亮红、鹅黄、天空蓝，像孩子撒在雪地上的积木。但仔细看，你会发现它们全都由粗壮的支柱架离地面——底下是深达数百米的永久冻土。走在这里，你会听到的声音很单一：靴子踩在雪地上的“咯吱”声，呼啸而过的雪地摩托的轰鸣，还有风，永不停歇的风，穿过山谷，发出低沉的呜咽。在这里，当地人走路时会习惯性地扫视四周，不是为了看车，而是在进行一种下意识的“北极熊检查”。路边的警示牌上画的不是限速标志，而是北极熊的剪影。这是一种深入骨髓的认知：在这里，人类是客人，自然才是真正的主人。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，就在这片以荒凉和危险著称的土地上，却生活着大约2500名来自世界各地的居民。他们中有矿工的后代，有极地科研人员，有艺术家，有冒险家。你会看到他们穿着厚重的雪地靴，在唯一的超市里购买价格不菲的蔬菜，在全世界最北端的酒吧里喝着啤酒聊天。这里的生活有一种奇特的混合感：先进的卫星网络和古老的生存法则并存，全球化的社区与极端的孤立感交织。最让你心头一动的，可能是看到小学操场外竖着高高的防熊铁丝网，而孩子们就在里面无忧无虑地玩耍。这种强烈的对比，正是朗伊尔城最核心的魅力——它展示了人类在自知渺小的情况下，依然选择诗意地、负责地栖居。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "飞机开始下降，窗外的景色会让你忘记呼吸。那不是你熟悉的任何一种地貌——巨大的、沉默的、被冰川雕刻出的黝黑山脉，披着永恒的雪衣，环绕着一片看似玩具般脆弱的彩色房屋。这就是你对朗伊尔城的第一眼印象：人类文明在洪荒之力边缘一次微小而倔强的定居。走出机舱，呼吸到的第一口空气凛冽、纯净，带着一种近乎金属的清澈感，瞬间刺穿你的肺叶。这里的气味很独特，是干净的冰雪味，偶尔混杂着从老旧煤矿飘来的、一丝淡淡的工业气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇中心沿着山谷展开，道路是压实的砂石雪道。最打动人的是那些房子，漆成亮红、鹅黄、天空蓝，像孩子撒在雪地上的积木。但仔细看，你会发现它们全都由粗壮的支柱架离地面——底下是深达数百米的永久冻土。走在这里，你会听到的声音很单一：靴子踩在雪地上的“咯吱”声，呼啸而过的雪地摩托的轰鸣，还有风，永不停歇的风，穿过山谷，发出低沉的呜咽。在这里，当地人走路时会习惯性地扫视四周，不是为了看车，而是在进行一种下意识的“北极熊检查”。路边的警示牌上画的不是限速标志，而是北极熊的剪影。这是一种深入骨髓的认知：在这里，人类是客人，自然才是真正的主人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，就在这片以荒凉和危险著称的土地上，却生活着大约2500名来自世界各地的居民。他们中有矿工的后代，有极地科研人员，有艺术家，有冒险家。你会看到他们穿着厚重的雪地靴，在唯一的超市里购买价格不菲的蔬菜，在全世界最北端的酒吧里喝着啤酒聊天。这里的生活有一种奇特的混合感：先进的卫星网络和古老的生存法则并存，全球化的社区与极端的孤立感交织。最让你心头一动的，可能是看到小学操场外竖着高高的防熊铁丝网，而孩子们就在里面无忧无虑地玩耍。这种强烈的对比，正是朗伊尔城最核心的魅力——它展示了人类在自知渺小的情况下，依然选择诗意地、负责地栖居。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function LongyearbyenSvalbardPage() {
                 <InfoRow label="国家" value={`挪威`} />
                 <InfoRow label="城市" value={`斯瓦尔巴群岛`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`地球上最北端的永久性民用定居点，也是斯瓦尔巴群岛的行政中心，以及守护人类农业未来的“末日种子库”所在地。`} />
                 <InfoRow label="建筑特色" value={`一片散落在永久冻土上的彩色木屋群，所有建筑都被高架于地面以防止冻土融化，功能主义设计主导，兼具极地生存的实用性与令人愉悦的北欧色彩美学。`} />
@@ -52,6 +54,7 @@ export default function LongyearbyenSvalbardPage() {
                 <InfoRow label="文化价值" value={`一个超越国家归属的独特人类社区范本，展现了在极端自然法则下（北极熊为尊），人类如何构建社会、发展文化并承担起为全人类保存文明火种的全球责任。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`斯瓦尔巴朗伊尔城本身是一个全年开放的定居点，但游客活动和大部分商业服务具有强烈的季节性。夏季（5月至9月）是旅游旺季，几乎所有旅行社、餐厅、博物馆和商店都开放，且得益于极昼，活动时间很长。冬季（10月至次年4月）则是极夜和极光季节，许多户外活动（如狗拉雪橇、雪地摩托）仍照常进行，但部分旅游设施和餐厅可能减少营业时间或需要预约。全球种子库（Svalbard Global Seed Vault）外部可全年参观，但内部不对公众开放。建议在计划具体活动前，务必查看相关运营商的最新时间表。`} />
               <InfoRow label="门票价格" value={`进入朗伊尔城本身无需门票。城内各景点单独收费：斯瓦尔巴博物馆门票约100挪威克朗；北极探险博物馆门票约100挪威克朗；参加户外活动（如雪地摩托之旅、狗拉雪橇、冰川徒步、乘船游览）价格较高，通常在1500-4000挪威克朗/人不等，具体取决于时长和项目。全球种子库仅可参观外部建筑，免费。`} />
@@ -62,17 +65,17 @@ export default function LongyearbyenSvalbardPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`朗伊尔城的故事，始于煤炭和一个人的冒险。1906年，美国企业家约翰·朗伊尔乘船来到这片当时几乎只属于捕鲸者和探险家的冰封群岛。他敏锐地看到了伊斯峡湾山坡上裸露的优质煤层，并在此建立了第一个系统性的采矿定居点，小镇也以他的名字命名。最初的岁月是难以想象的艰苦。工人们在极夜的黑暗中，在零下三四十度的严寒里，用最原始的工具向大山索取温暖世界的燃料。早期的房屋简陋不堪，生活物资完全依赖夏季短暂通航期从挪威本土运来的补给。死亡是常客，来自矿井事故、雪崩，更来自那些在镇外游荡的、饥饿的北极熊。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`斯瓦尔巴群岛的地位非常特殊。根据1920年签订的《斯瓦尔巴条约》，挪威拥有主权，但所有缔约国的公民都有权在此平等地从事商业和科研活动。这使得朗伊尔城从一开始就带有一种国际化的色彩，虽然冷战时期这里主要是挪威和苏联（俄罗斯）煤矿社区的对峙前沿。你仍然能在小镇另一头看到俄罗斯定居点巴伦支堡的痕迹。采矿是这里的经济命脉，持续了近一个世纪，塑造了小镇硬朗、务实的性格。你会看到废弃的煤矿缆车轨道依旧横跨在山脊上，像巨大的钢铁伤疤，诉说着过往的工业雄心。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`转折点发生在上世纪末。一方面，煤矿的经济效益下降，矿难频发；另一方面，全球对气候和环境问题的关注日益上升。挪威政府开始有意识地推动斯瓦尔巴从纯粹的采矿经济向科研和旅游中心转型。2006年，最后一座大型煤矿关闭，标志着一个时代的终结。但另一项更具远见的工程，正在小镇旁边的山体中悄然进行。2008年，在一座砂岩山内部120米深处，斯瓦尔巴全球种子库正式启用。它被媒体称为“末日种子库”或“世界农业的诺亚方舟”。选择这里，正是因为永冻层提供了天然的低温，地质稳定，且地理位置偏远而安全。来自世界各地的种子样本被密封在特制铝箔袋中，运抵这里，储存在零下18摄氏度的仓库里，以防人类遭遇全球性灾难时，我们还能重启农业。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`如今的朗伊尔城，是这段复杂历史的生动层积。它身上既有矿工小镇粗粝的过去（博物馆里陈列着矿工们的饭盒和煤渣），又有面向未来的全球使命（大学中心里各国科学家在讨论气候变化）。小镇的居民构成也变得更加多元。他们选择在此生活，理由各不相同：有人迷恋极地的纯净与孤独，有人致力于极地科研，有人只是想来体验地球上最独特的生活方式。当你走在街上，看到那些彩色房子、全球种子库简朴的入口建筑、以及远处沉默的群山时，你看到的是一部浓缩的人类极地开拓史，从资源掠夺到科学守护，从生存挑战到存在思考的完整演变。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朗伊尔城的故事，始于煤炭和一个人的冒险。1906年，美国企业家约翰·朗伊尔乘船来到这片当时几乎只属于捕鲸者和探险家的冰封群岛。他敏锐地看到了伊斯峡湾山坡上裸露的优质煤层，并在此建立了第一个系统性的采矿定居点，小镇也以他的名字命名。最初的岁月是难以想象的艰苦。工人们在极夜的黑暗中，在零下三四十度的严寒里，用最原始的工具向大山索取温暖世界的燃料。早期的房屋简陋不堪，生活物资完全依赖夏季短暂通航期从挪威本土运来的补给。死亡是常客，来自矿井事故、雪崩，更来自那些在镇外游荡的、饥饿的北极熊。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "斯瓦尔巴群岛的地位非常特殊。根据1920年签订的《斯瓦尔巴条约》，挪威拥有主权，但所有缔约国的公民都有权在此平等地从事商业和科研活动。这使得朗伊尔城从一开始就带有一种国际化的色彩，虽然冷战时期这里主要是挪威和苏联（俄罗斯）煤矿社区的对峙前沿。你仍然能在小镇另一头看到俄罗斯定居点巴伦支堡的痕迹。采矿是这里的经济命脉，持续了近一个世纪，塑造了小镇硬朗、务实的性格。你会看到废弃的煤矿缆车轨道依旧横跨在山脊上，像巨大的钢铁伤疤，诉说着过往的工业雄心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转折点发生在上世纪末。一方面，煤矿的经济效益下降，矿难频发；另一方面，全球对气候和环境问题的关注日益上升。挪威政府开始有意识地推动斯瓦尔巴从纯粹的采矿经济向科研和旅游中心转型。2006年，最后一座大型煤矿关闭，标志着一个时代的终结。但另一项更具远见的工程，正在小镇旁边的山体中悄然进行。2008年，在一座砂岩山内部120米深处，斯瓦尔巴全球种子库正式启用。它被媒体称为“末日种子库”或“世界农业的诺亚方舟”。选择这里，正是因为永冻层提供了天然的低温，地质稳定，且地理位置偏远而安全。来自世界各地的种子样本被密封在特制铝箔袋中，运抵这里，储存在零下18摄氏度的仓库里，以防人类遭遇全球性灾难时，我们还能重启农业。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如今的朗伊尔城，是这段复杂历史的生动层积。它身上既有矿工小镇粗粝的过去（博物馆里陈列着矿工们的饭盒和煤渣），又有面向未来的全球使命（大学中心里各国科学家在讨论气候变化）。小镇的居民构成也变得更加多元。他们选择在此生活，理由各不相同：有人迷恋极地的纯净与孤独，有人致力于极地科研，有人只是想来体验地球上最独特的生活方式。当你走在街上，看到那些彩色房子、全球种子库简朴的入口建筑、以及远处沉默的群山时，你看到的是一部浓缩的人类极地开拓史，从资源掠夺到科学守护，从生存挑战到存在思考的完整演变。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`建议至少安排2-3天来真正感受朗伊尔城。第一天专注于小镇本身的文化和历史，适应环境；第二天参加一个全日户外活动，深入荒野；如果有可能，在第三天安排一个专项体验（如参观种子库外部或进行一次冬季极光追寻）。最佳的抵达时间是2-3月（极光、蓝光与白昼的平衡）或6-7月（极昼、野生动物观赏）。一天的游览节奏不宜过快，这里的一切都需要你慢慢走、慢慢看、慢慢感受。务必提前预订所有户外活动，因为运营商的承载量非常有限。`}
                 </p>
@@ -154,8 +157,9 @@ export default function LongyearbyenSvalbardPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
@@ -175,51 +179,52 @@ export default function LongyearbyenSvalbardPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`朗伊尔城住宿价格普遍高昂且供应紧张，尤其是在极光季和极昼季，务必提前数月预订。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`几乎所有酒店都会在入口处提供步枪锁和防熊喷雾使用指南，请认真阅读，这不是装饰。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朗伊尔城住宿价格普遍高昂且供应紧张，尤其是在极光季和极昼季，务必提前数月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "几乎所有酒店都会在入口处提供步枪锁和防熊喷雾使用指南，请认真阅读，这不是装饰。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开朗伊尔城许久后，那片冰原的色彩和寂静依然会时常闯入你的脑海。它带给你的触动，并非来自某栋宏伟的建筑或某件珍贵的艺术品，而是来自一种整体的存在感。在这里，人类文明被剥去了许多冗余的外壳，显露出最本质的模样：我们需要温暖、社群、安全，以及对未来的希望。全球种子库那个简单的入口，像一个埋在山体中的誓言，提醒着我们作为人类共同体的责任——即使在最偏远的世界尽头，我们也思考着如何保存和延续生命的多样性。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这就是为什么每一个热爱深度游的人，都应该来一次朗伊尔城。它不仅仅是一个旅游目的地，它是一个思想实验场，一个视角重置点。在这里，你会重新思考“边界”、“社区”、“自然”和“生存”这些词汇的重量。回到喧嚣拥挤、被各种人造规则填满的日常世界后，你会怀念那种在朗伊尔城感受到的、在极端环境中生发出的清晰和直接。你会记得，在一个北极熊比人多的地方，人类以一种谦卑而坚韧的姿态，不仅活了下来，还在为整个星球的未来保存着一份备份。这份记忆，会成为你内心一份沉静而有力的压舱石。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开朗伊尔城许久后，那片冰原的色彩和寂静依然会时常闯入你的脑海。它带给你的触动，并非来自某栋宏伟的建筑或某件珍贵的艺术品，而是来自一种整体的存在感。在这里，人类文明被剥去了许多冗余的外壳，显露出最本质的模样：我们需要温暖、社群、安全，以及对未来的希望。全球种子库那个简单的入口，像一个埋在山体中的誓言，提醒着我们作为人类共同体的责任——即使在最偏远的世界尽头，我们也思考着如何保存和延续生命的多样性。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是为什么每一个热爱深度游的人，都应该来一次朗伊尔城。它不仅仅是一个旅游目的地，它是一个思想实验场，一个视角重置点。在这里，你会重新思考“边界”、“社区”、“自然”和“生存”这些词汇的重量。回到喧嚣拥挤、被各种人造规则填满的日常世界后，你会怀念那种在朗伊尔城感受到的、在极端环境中生发出的清晰和直接。你会记得，在一个北极熊比人多的地方，人类以一种谦卑而坚韧的姿态，不仅活了下来，还在为整个星球的未来保存着一份备份。这份记忆，会成为你内心一份沉静而有力的压舱石。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/kjerringoy-traditional-trading-post" className="block group">
+              <a href="/attractions/bryggen-bergen" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    谢
+                    布
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">谢林岛传统商贸村</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kjerringøy Trading Post</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布吕根木屋群</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bryggen</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/nusfjord-fishing-village-lofoten" className="block group">
+              <a href="/attractions/naeroyfjord-norway" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    努
+                    纳
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">努斯峡湾</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nusfjord</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳柔依峡湾</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nærøyfjord</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/alesund-old-town" className="block group">
+              <a href="/attractions/stavanger" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    奥
+                    斯
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥勒松老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ålesund Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯塔万格老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Stavanger</p>
                   </div>
                 </div>
               </a>

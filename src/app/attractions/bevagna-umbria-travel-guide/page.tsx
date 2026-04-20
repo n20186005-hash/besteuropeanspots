@@ -15,7 +15,7 @@ export default function BevagnaUmbriaTravelGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '贝瓦尼亚', href: '/attractions/bevagna-umbria-travel-guide' },
           ]}
         />

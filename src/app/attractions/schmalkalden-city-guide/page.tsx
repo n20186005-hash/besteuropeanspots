@@ -15,7 +15,7 @@ export default function SchmalkaldenCityGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '施马尔卡尔登', href: '/attractions/schmalkalden-city-guide' },
           ]}
         />

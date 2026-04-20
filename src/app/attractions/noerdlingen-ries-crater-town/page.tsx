@@ -15,7 +15,7 @@ export default function NoerdlingenRiesCraterTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '讷德林根（陨石坑小镇）', href: '/attractions/noerdlingen-ries-crater-town' },
           ]}
         />

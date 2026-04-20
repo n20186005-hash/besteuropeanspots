@@ -15,7 +15,7 @@ export default function AluksneLatviaLakeFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿卢克斯内', href: '/attractions/aluksne-latvia-lake-fortress' },
           ]}
         />

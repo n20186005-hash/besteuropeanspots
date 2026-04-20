@@ -15,7 +15,7 @@ export default function ZelenHoraPilgrimageChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '绿山圣约翰朝圣教堂', href: '/attractions/zelen--hora-pilgrimage-church' },
           ]}
         />

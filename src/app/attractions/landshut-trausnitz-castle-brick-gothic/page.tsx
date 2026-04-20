@@ -15,7 +15,7 @@ export default function LandshutTrausnitzCastleBrickGothicPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '兰茨胡特（特劳斯尼茨城堡与砖砌哥特）', href: '/attractions/landshut-trausnitz-castle-brick-gothic' },
           ]}
         />

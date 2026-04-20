@@ -15,7 +15,7 @@ export default function DimitsanaGunpowderMillsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '迪米察纳（伯罗奔尼撒的火药加工中心遗址）', href: '/attractions/dimitsana-gunpowder-mills' },
           ]}
         />

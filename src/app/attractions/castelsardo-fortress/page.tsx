@@ -15,7 +15,7 @@ export default function CastelsardoFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卡斯特尔萨多（悬崖上的海防要塞）', href: '/attractions/castelsardo-fortress' },
           ]}
         />

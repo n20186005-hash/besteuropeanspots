@@ -15,7 +15,7 @@ export default function PorvooRedWoodenHousesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '波尔沃红色木屋区', href: '/attractions/porvoo-red-wooden-houses' },
           ]}
         />

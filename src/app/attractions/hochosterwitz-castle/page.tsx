@@ -15,7 +15,7 @@ export default function HochosterwitzCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '霍赫奥斯特维茨城堡', href: '/attractions/hochosterwitz-castle' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function HerendPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '赫伦瓷器小镇', href: '/attractions/herend' },
           ]}
         />

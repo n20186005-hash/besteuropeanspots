@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '维洛克深渊与遗忘工厂 Virok Chasm｜闯入地心深处的废弃工厂，看大自然如何回收人类野心 - 最佳欧洲景点',
-  description: '你第一眼看到维洛克深渊，会误以为这是一张用过度饱和滤镜处理过的奇幻电影剧照。站在悬崖边缘的木制观景台上，脚下是仿佛被巨斧劈开的、深达百余米的裂缝，氤氲的水汽从看不见的底部蒸腾而上，带着一股苔藓、湿土和某种难以名状的金属锈蚀混合的清凉气味。风穿过狭长的岩缝，发出低沉、持续的呜咽，像是大地本身在呼吸。你...',
+  description: '你第一眼看到维洛克深渊，会误以为这是一张用过度饱和滤镜处理过的奇幻电影剧照。站在悬崖边缘的木制观景台上，脚下是仿佛被巨斧劈开的、深达百余米的裂缝，氤氲的水汽从看不见的底部蒸腾而上，带着一股苔藓、湿土和某种难以名状的金属锈蚀混合的清凉气味。风穿过狭长的岩缝，发出低沉、持续的呜咽，像是大地本身在呼吸。你',
 }
 
 export default function VirokChasmForgottenFactoryPage() {
@@ -15,7 +15,7 @@ export default function VirokChasmForgottenFactoryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '维洛克深渊与遗忘工厂', href: '/attractions/virok-chasm-forgotten-factory' },
           ]}
         />
@@ -31,11 +31,12 @@ export default function VirokChasmForgottenFactoryPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`你第一眼看到维洛克深渊，会误以为这是一张用过度饱和滤镜处理过的奇幻电影剧照。站在悬崖边缘的木制观景台上，脚下是仿佛被巨斧劈开的、深达百余米的裂缝，氤氲的水汽从看不见的底部蒸腾而上，带着一股苔藓、湿土和某种难以名状的金属锈蚀混合的清凉气味。风穿过狭长的岩缝，发出低沉、持续的呜咽，像是大地本身在呼吸。你的视线会不由自主地被深渊底部那一片突兀的、色彩斑驳的构造吸引——那不是岩石，是锈成了赭红色的钢铁骨架，是爬满暗绿色藤蔓的混凝土墙壁，是纵横交错如同巨型昆虫内脏的破裂管道。一座工厂，一座被活生生“投喂”给大地的工厂。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这里几乎没有寻常景点的喧闹。偶尔遇到的，是背着专业相机的孤独徒步者，或是低声交谈、眼神里充满探究欲的地质学生。对于附近村庄的居民来说，深渊和工厂是祖父辈口中那个“疯狂年代”的遗留物，是童年时被警告不许靠近的禁忌之地，如今则成了他们向好奇外人讲述家族与地域历史的活地图。它的核心魅力，正在于这种极致的矛盾与张力：人类工程学的傲慢结晶，被更古老、更强大的地质力量捕获、拆解并重新装饰。你看到的不是废墟的衰败，而是一场仍在进行中的、安静而宏大的“回收仪式”。在这里，时间不是线性流逝的，而是循环的——人类文明的一小段插曲，正在被自然的时间长河缓缓改写。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`沿着险峻的之字形步道向下走，感官的冲击层层递进。光线逐渐变得幽暗、斑驳，因为高耸的岩壁几乎遮蔽了天空，只留下一线天光。空气湿度急剧增加，你能感到水珠凝结在皮肤上。瀑布的水声从若隐若现变得轰鸣震耳，那不是一道瀑布，而是从岩壁多处渗出的、成百上千条细小的水帘，它们汇聚成溪流，漫过工厂破碎的地板，在锈蚀的锅炉里积成水潭。植物的侵略无处不在：蕨类从控制台的裂缝中蓬勃而出，小树苗的根系撑开了水泥地面，厚厚的苔藓像绒毯一样包裹着每一个冰冷的金属表面。这里仿佛是一个被按下了暂停键的末日世界，却又生机勃勃。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的一刻，往往发生在寂静的片刻。当你避开主要水流，钻进一个半坍塌的车间，头灯的光柱划过黑暗，惊起几只蝙蝠扑棱棱飞走。你的手触摸到一面墙，一半是冰凉平滑、带着人造棱角的水泥，另一半则是潮湿、柔软、有着复杂纹理的岩壁——自然与人工的边界在这里模糊、交融。你会突然意识到，这座工厂并非“建在”深渊里，它更像是被深渊“吞下”后，正在进行缓慢的消化。这种体验，超越了普通的历史凭吊，它让你直观地感受到人类尺度的渺小，以及自然那沉默而坚韧的、收复一切的力量。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你第一眼看到维洛克深渊，会误以为这是一张用过度饱和滤镜处理过的奇幻电影剧照。站在悬崖边缘的木制观景台上，脚下是仿佛被巨斧劈开的、深达百余米的裂缝，氤氲的水汽从看不见的底部蒸腾而上，带着一股苔藓、湿土和某种难以名状的金属锈蚀混合的清凉气味。风穿过狭长的岩缝，发出低沉、持续的呜咽，像是大地本身在呼吸。你的视线会不由自主地被深渊底部那一片突兀的、色彩斑驳的构造吸引——那不是岩石，是锈成了赭红色的钢铁骨架，是爬满暗绿色藤蔓的混凝土墙壁，是纵横交错如同巨型昆虫内脏的破裂管道。一座工厂，一座被活生生“投喂”给大地的工厂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里几乎没有寻常景点的喧闹。偶尔遇到的，是背着专业相机的孤独徒步者，或是低声交谈、眼神里充满探究欲的地质学生。对于附近村庄的居民来说，深渊和工厂是祖父辈口中那个“疯狂年代”的遗留物，是童年时被警告不许靠近的禁忌之地，如今则成了他们向好奇外人讲述家族与地域历史的活地图。它的核心魅力，正在于这种极致的矛盾与张力：人类工程学的傲慢结晶，被更古老、更强大的地质力量捕获、拆解并重新装饰。你看到的不是废墟的衰败，而是一场仍在进行中的、安静而宏大的“回收仪式”。在这里，时间不是线性流逝的，而是循环的——人类文明的一小段插曲，正在被自然的时间长河缓缓改写。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沿着险峻的之字形步道向下走，感官的冲击层层递进。光线逐渐变得幽暗、斑驳，因为高耸的岩壁几乎遮蔽了天空，只留下一线天光。空气湿度急剧增加，你能感到水珠凝结在皮肤上。瀑布的水声从若隐若现变得轰鸣震耳，那不是一道瀑布，而是从岩壁多处渗出的、成百上千条细小的水帘，它们汇聚成溪流，漫过工厂破碎的地板，在锈蚀的锅炉里积成水潭。植物的侵略无处不在：蕨类从控制台的裂缝中蓬勃而出，小树苗的根系撑开了水泥地面，厚厚的苔藓像绒毯一样包裹着每一个冰冷的金属表面。这里仿佛是一个被按下了暂停键的末日世界，却又生机勃勃。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人心的一刻，往往发生在寂静的片刻。当你避开主要水流，钻进一个半坍塌的车间，头灯的光柱划过黑暗，惊起几只蝙蝠扑棱棱飞走。你的手触摸到一面墙，一半是冰凉平滑、带着人造棱角的水泥，另一半则是潮湿、柔软、有着复杂纹理的岩壁——自然与人工的边界在这里模糊、交融。你会突然意识到，这座工厂并非“建在”深渊里，它更像是被深渊“吞下”后，正在进行缓慢的消化。这种体验，超越了普通的历史凭吊，它让你直观地感受到人类尺度的渺小，以及自然那沉默而坚韧的、收复一切的力量。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -47,6 +48,7 @@ export default function VirokChasmForgottenFactoryPage() {
                 <InfoRow label="国家" value={`斯洛伐克`} />
                 <InfoRow label="城市" value={`斯洛伐克天堂国家公园区域，靠近波普拉德镇`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`一处见证了二十世纪初工业狂热与自然无情反击的、欧洲独一无二的废弃工业遗址与地质奇观结合体。`} />
                 <InfoRow label="建筑特色" value={`在巨大的天然石灰岩深渊底部，杂乱无章地镶嵌着锈蚀的钢架、破碎的混凝土厂房和纠缠的管道，所有人工造物正被苔藓、树木和瀑布水雾缓慢吞噬。`} />
@@ -54,6 +56,7 @@ export default function VirokChasmForgottenFactoryPage() {
                 <InfoRow label="文化价值" value={`它是人类征服自然欲望的失败纪念碑，也是生态自我修复力量的鲜活教材，引发了关于进步、可持续性与遗忘的深刻思考。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`深渊上部徒步路径全年24小时开放（夜间不推荐进入）。通往深渊底部及工厂废墟的官方导游路线开放时间为每年4月15日至10月31日，每日上午9:00至下午4:00（最后一组进入时间为下午3:00）。冬季（11月-3月）因冰雪危险，底部路线完全关闭。每逢周一，内部导游服务休息，但可自行在观景台远眺。重要节假日（如复活节、圣诞节）开放时间会大幅缩短或完全关闭，出行前务必查阅官网公告。`} />
               <InfoRow label="门票价格" value={`仅游览上部观景台及周边森林免费。进入深渊底部及工厂废墟核心区必须由持证导游带领，成人票价为25欧元/人。优惠票（学生、65岁以上老人）为18欧元/人。家庭票（2成人+2儿童）为65欧元。门票包含头盔、头灯租赁及专业向导讲解，需提前在官方网站预订并选择具体时段，现场几乎无法购得当日票。国家公园通票不包含此特殊探险项目。`} />
@@ -64,18 +67,18 @@ export default function VirokChasmForgottenFactoryPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`维洛克深渊的故事，始于远比人类历史悠久的亘古时代。斯洛伐克天堂国家公园所在的地区，是喀斯特地貌的宝库，地下暗河千万年的溶蚀，雕琢出了无数洞穴、峡谷和深渊。维洛克深渊便是其中最深、最隐蔽的一座。在漫长的岁月里，它只是森林深处一个令人畏惧的自然奇观，本地传说中通往地下世界的入口，除了最勇敢的猎人和采药人，无人敢深入其底。直到二十世纪初，欧洲大陆沉浸在工业革命的第二次浪潮中，对矿产和化工产品的需求暴涨。一位名叫埃米尔·霍夫曼的奥地利企业家，在勘探时意外发现深渊底部的岩壁含有一种独特的矿物质成分，被认为可用于当时新兴的染料和早期塑料生产。在利润的驱动下，一个疯狂的计划诞生了：在深渊底部建造一座化工厂。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`1912年，工程在巨大的技术挑战和争议中启动。想象一下当时的场景：没有重型直升机，所有建材——钢材、水泥、机器设备——全靠骡马队和临时搭建的陡峭索道一点点运下近乎垂直的悬崖。工人们在腰间拴着绳索，在湿滑的岩壁上开凿立足点。本地村民视之为对山神（或自然精魂）的亵渎，流传着许多不祥的预言。但资本的意志和技术的傲慢压倒了一切。经过近三年的艰苦营建，工厂终于投产。它像一个嵌在伤口里的金属异物，日夜轰鸣，灯火通明，浓烟与水汽从深渊口冒出，很远就能看见。它为奥匈帝国的战争机器生产着化工原料，也为一小撮人带来了财富。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，自然的反噬从建厂之初就如影随形。深渊里极端潮湿的环境，让机器以惊人的速度锈蚀。岩壁渗水是永不停歇的问题，经常淹掉车间。冬季，瀑布结成冰瀑，巨大的冰棱砸毁厂房顶棚。更重要的是，那被当做核心原料的矿物，实际储量远低于预期，且提炼成本高昂。工厂从一开始就处在经济上的悬崖边缘。一战的结束和奥匈帝国的解体，给了它第一次重击，市场萎缩，经营难以为继。二十年代它曾短暂转型生产化肥，试图苟延残喘。但1929年席卷全球的经济大萧条，成了压垮骆驼的最后一根稻草。工厂在1931年彻底关闭，被遗弃。资本抽身离去，只留下这个钢铁与水泥的残骸，孤独地躺在深渊底部。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`随后到来的二战和冷战时期，这个地方因其隐蔽性，被各方势力短暂地“记起”过。纳粹曾考虑将其改造为秘密仓库，但评估后认为运输成本过高而放弃。冷战时期，它位于铁幕后方，因其特殊地形，一度成为边防军巡逻路线上的一个点，但并未做任何实质性利用。真正的主角，从工厂关闭的那一天起，就重新登场了——那就是自然。没有了机器的轰鸣和人类的干预，寂静重新降临。水流恢复了它原始的路径，苔藓的孢子随风飘入，鸟雀带来了树木的种子。雨水、霜冻、植物的根系，开始了缓慢而坚定的拆迁工作。几十年过去，工厂不再是工厂，它变成了一个巨大的、现成的“人工礁石”，供生态系统附着、生长、演变。它从工业遗迹，变成了一个奇特的地质-生态混合体。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`转折点发生在二十一世纪初。随着“工业考古”和“黑暗旅游”概念的兴起，以及人们对人与自然关系的重新思考，一群本地的探险家和历史学家重新发现了这里。他们看到的不是一堆废铁，而是一个震撼人心的、具有哲学意味的当代寓言。经过漫长的评估、清理危险区域、铺设安全步道和培训专业向导，斯洛伐克天堂国家公园管理局于2015年谨慎地对外开放了有限度的探险游览。他们刻意避免过度开发，不安装夸张的灯光秀，不修建便捷的电梯，坚持由向导带领的小团队、低影响游览模式。目的就是让每一位访客都能亲身感受到那种原始的冲击力——人类野心褪色后，自然生命力的凯旋。维洛克深渊与遗忘工厂，从此不再是纯粹的失败印记，它变成了一个进行时态的自然教室，一首关于时间、衰败与新生的无言诗篇。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "维洛克深渊的故事，始于远比人类历史悠久的亘古时代。斯洛伐克天堂国家公园所在的地区，是喀斯特地貌的宝库，地下暗河千万年的溶蚀，雕琢出了无数洞穴、峡谷和深渊。维洛克深渊便是其中最深、最隐蔽的一座。在漫长的岁月里，它只是森林深处一个令人畏惧的自然奇观，本地传说中通往地下世界的入口，除了最勇敢的猎人和采药人，无人敢深入其底。直到二十世纪初，欧洲大陆沉浸在工业革命的第二次浪潮中，对矿产和化工产品的需求暴涨。一位名叫埃米尔·霍夫曼的奥地利企业家，在勘探时意外发现深渊底部的岩壁含有一种独特的矿物质成分，被认为可用于当时新兴的染料和早期塑料生产。在利润的驱动下，一个疯狂的计划诞生了：在深渊底部建造一座化工厂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1912年，工程在巨大的技术挑战和争议中启动。想象一下当时的场景：没有重型直升机，所有建材——钢材、水泥、机器设备——全靠骡马队和临时搭建的陡峭索道一点点运下近乎垂直的悬崖。工人们在腰间拴着绳索，在湿滑的岩壁上开凿立足点。本地村民视之为对山神（或自然精魂）的亵渎，流传着许多不祥的预言。但资本的意志和技术的傲慢压倒了一切。经过近三年的艰苦营建，工厂终于投产。它像一个嵌在伤口里的金属异物，日夜轰鸣，灯火通明，浓烟与水汽从深渊口冒出，很远就能看见。它为奥匈帝国的战争机器生产着化工原料，也为一小撮人带来了财富。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，自然的反噬从建厂之初就如影随形。深渊里极端潮湿的环境，让机器以惊人的速度锈蚀。岩壁渗水是永不停歇的问题，经常淹掉车间。冬季，瀑布结成冰瀑，巨大的冰棱砸毁厂房顶棚。更重要的是，那被当做核心原料的矿物，实际储量远低于预期，且提炼成本高昂。工厂从一开始就处在经济上的悬崖边缘。一战的结束和奥匈帝国的解体，给了它第一次重击，市场萎缩，经营难以为继。二十年代它曾短暂转型生产化肥，试图苟延残喘。但1929年席卷全球的经济大萧条，成了压垮骆驼的最后一根稻草。工厂在1931年彻底关闭，被遗弃。资本抽身离去，只留下这个钢铁与水泥的残骸，孤独地躺在深渊底部。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随后到来的二战和冷战时期，这个地方因其隐蔽性，被各方势力短暂地“记起”过。纳粹曾考虑将其改造为秘密仓库，但评估后认为运输成本过高而放弃。冷战时期，它位于铁幕后方，因其特殊地形，一度成为边防军巡逻路线上的一个点，但并未做任何实质性利用。真正的主角，从工厂关闭的那一天起，就重新登场了——那就是自然。没有了机器的轰鸣和人类的干预，寂静重新降临。水流恢复了它原始的路径，苔藓的孢子随风飘入，鸟雀带来了树木的种子。雨水、霜冻、植物的根系，开始了缓慢而坚定的拆迁工作。几十年过去，工厂不再是工厂，它变成了一个巨大的、现成的“人工礁石”，供生态系统附着、生长、演变。它从工业遗迹，变成了一个奇特的地质-生态混合体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转折点发生在二十一世纪初。随着“工业考古”和“黑暗旅游”概念的兴起，以及人们对人与自然关系的重新思考，一群本地的探险家和历史学家重新发现了这里。他们看到的不是一堆废铁，而是一个震撼人心的、具有哲学意味的当代寓言。经过漫长的评估、清理危险区域、铺设安全步道和培训专业向导，斯洛伐克天堂国家公园管理局于2015年谨慎地对外开放了有限度的探险游览。他们刻意避免过度开发，不安装夸张的灯光秀，不修建便捷的电梯，坚持由向导带领的小团队、低影响游览模式。目的就是让每一位访客都能亲身感受到那种原始的冲击力——人类野心褪色后，自然生命力的凯旋。维洛克深渊与遗忘工厂，从此不再是纯粹的失败印记，它变成了一个进行时态的自然教室，一首关于时间、衰败与新生的无言诗篇。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`要完整体验维洛克深渊的日与夜、宏观与微观，建议安排整整一天时间。最佳方案是上午约9:30抵达游客中心，此时晨雾未完全散尽，光线斜射入深渊上部，能拍到最佳全景。跟随上午10:00的英文导游团进入底部，整个探险过程约3.5小时，包括安全讲解、穿戴装备、下到深渊、系统探索工厂核心区及地质奇观。下午约1:30返回地面，在游客中心简单午餐后，下午可以轻松徒步环绕深渊上方的森林小径（约5公里环线，耗时2小时），从不同角度俯瞰这片奇景，并在日落前（夏季约晚上7点）回到西侧的主要观景台，捕捉金色夕阳涂抹在锈蚀钢架和湿润岩壁上的魔幻时刻。这样的节奏张弛有度，既能深度探索核心区，又不至于太过疲劳，还能领略光影变化带来的不同视觉盛宴。`}
                 </p>
@@ -154,8 +157,9 @@ export default function VirokChasmForgottenFactoryPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`经济森林小屋`}</h4>
@@ -175,50 +179,51 @@ export default function VirokChasmForgottenFactoryPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`旺季（7-8月）深渊附近的住宿非常紧俏，务必提前数月预订。山区村庄夜间非常安静黑暗，治安良好，但几乎没有夜生活，喜欢热闹的游客更适合住回波普拉德镇。许多本地民宿接受现金（欧元）支付，信用卡不一定畅通，最好备些现钞。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旺季（7-8月）深渊附近的住宿非常紧俏，务必提前数月预订。山区村庄夜间非常安静黑暗，治安良好，但几乎没有夜生活，喜欢热闹的游客更适合住回波普拉德镇。许多本地民宿接受现金（欧元）支付，信用卡不一定畅通，最好备些现钞。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开维洛克深渊好几天后，我的手指似乎还能回忆起那种触摸锈蚀金属与湿润苔藓边界的奇特触感，鼻腔里仿佛还萦绕着那种混合了铁锈、腐木和冷冽水汽的复杂气味。这个地方带给我的，不是参观一座华丽宫殿后的赞叹，也不是征服一座高山后的豪情，而是一种更为深沉、略带寒意的清醒。它像一面镜子，照见的不是我们能做到什么，而是在宏大的时空尺度下，我们的一切造物最终可能去向何方。工厂的废墟没有悲情，只有平静，因为它正在被一种更强大的秩序接纳和转化。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个崇尚增长、追求永恒的人类世界里，维洛克深渊是一个珍贵的“反面乌托邦”实景教材。它用极其直观的方式告诉我们：没有什么是真正永恒的，尤其是建立在征服自然基础上的辉煌。但与此同时，它又展现了一种希望——生命的韧性，生态系统的恢复力。这种复杂的感觉，正是深度旅行所能给予的最高馈赠：不是答案，而是能长久回味的问题。为什么每一位热爱深度游的旅人都该来此？因为在这里，你行走的每一步，都在踩在哲学、历史、地质学和生态学的交汇点上。你会暂时放下人类中心的视角，去感受星球自身的力量与节奏。这是一次对身体和心灵的双重探险，一次通往地心，也通往内心的旅程。当你从那个阴暗潮湿的深渊回到阳光之下，你会觉得头顶的天空从未如此广阔，呼吸的空气从未如此清新，而你对“家园”二字的理解，或许也悄然增添了一层更谦卑、更智慧的维度。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开维洛克深渊好几天后，我的手指似乎还能回忆起那种触摸锈蚀金属与湿润苔藓边界的奇特触感，鼻腔里仿佛还萦绕着那种混合了铁锈、腐木和冷冽水汽的复杂气味。这个地方带给我的，不是参观一座华丽宫殿后的赞叹，也不是征服一座高山后的豪情，而是一种更为深沉、略带寒意的清醒。它像一面镜子，照见的不是我们能做到什么，而是在宏大的时空尺度下，我们的一切造物最终可能去向何方。工厂的废墟没有悲情，只有平静，因为它正在被一种更强大的秩序接纳和转化。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个崇尚增长、追求永恒的人类世界里，维洛克深渊是一个珍贵的“反面乌托邦”实景教材。它用极其直观的方式告诉我们：没有什么是真正永恒的，尤其是建立在征服自然基础上的辉煌。但与此同时，它又展现了一种希望——生命的韧性，生态系统的恢复力。这种复杂的感觉，正是深度旅行所能给予的最高馈赠：不是答案，而是能长久回味的问题。为什么每一位热爱深度游的旅人都该来此？因为在这里，你行走的每一步，都在踩在哲学、历史、地质学和生态学的交汇点上。你会暂时放下人类中心的视角，去感受星球自身的力量与节奏。这是一次对身体和心灵的双重探险，一次通往地心，也通往内心的旅程。当你从那个阴暗潮湿的深渊回到阳光之下，你会觉得头顶的天空从未如此广阔，呼吸的空气从未如此清新，而你对“家园”二字的理解，或许也悄然增添了一层更谦卑、更智慧的维度。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/presov-old-town" className="block group">
+              <a href="/attractions/trnava-historic-centre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特尔纳瓦</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trnava</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/old-town-presov" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
                     普
                   </div>
                   <div className="p-4">
                     <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普雷绍夫老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Prešov Old Town</p>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Old Town of Prešov</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/presov" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    普
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普雷绍夫老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Presov</p>
-                  </div>
-                </div>
-              </a>
-              <a href="/attractions/spis-castle-slovakia" className="block group">
+              <a href="/attractions/stre-no-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
                     斯
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯皮什城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spiš Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯特雷奇诺城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Strečno Castle</p>
                   </div>
                 </div>
               </a>

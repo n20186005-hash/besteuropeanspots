@@ -15,7 +15,7 @@ export default function SchleissheimPalacePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '施莱斯海姆宫', href: '/attractions/schleissheim-palace' },
           ]}
         />

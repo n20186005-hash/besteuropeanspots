@@ -15,7 +15,7 @@ export default function PulaArenaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '普拉竞技场', href: '/attractions/pula-arena' },
           ]}
         />

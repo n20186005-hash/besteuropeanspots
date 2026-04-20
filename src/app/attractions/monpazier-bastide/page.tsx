@@ -15,7 +15,7 @@ export default function MonpazierBastidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '蒙帕齐耶', href: '/attractions/monpazier-bastide' },
           ]}
         />

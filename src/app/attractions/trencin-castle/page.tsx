@@ -15,7 +15,7 @@ export default function TrencinCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '特伦钦城堡', href: '/attractions/trencin-castle' },
           ]}
         />

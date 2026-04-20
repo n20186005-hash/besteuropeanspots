@@ -15,7 +15,7 @@ export default function LarochetteCastleRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '拉罗谢特城堡废墟', href: '/attractions/larochette-castle-ruins' },
           ]}
         />

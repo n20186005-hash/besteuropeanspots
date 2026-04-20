@@ -15,7 +15,7 @@ export default function RakotzbrCkeKromlauParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '拉科茨桥（魔鬼桥）', href: '/attractions/rakotzbr-cke-kromlau-park' },
           ]}
         />

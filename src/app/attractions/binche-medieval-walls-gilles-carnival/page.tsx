@@ -15,7 +15,7 @@ export default function BincheMedievalWallsGillesCarnivalPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '班什', href: '/attractions/binche-medieval-walls-gilles-carnival' },
           ]}
         />

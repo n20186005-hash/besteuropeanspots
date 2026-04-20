@@ -15,7 +15,7 @@ export default function HradecNadMoraviciCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '赫拉德茨-纳德莫拉维齐城堡', href: '/attractions/hradec-nad-moravici-castle' },
           ]}
         />

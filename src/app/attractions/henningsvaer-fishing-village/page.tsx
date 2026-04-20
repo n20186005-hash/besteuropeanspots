@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '亨宁斯韦尔渔村 Henningsvær｜探访北极圈内世界最美海上足球场与彩色木屋渔港 - 最佳欧洲景点',
-  description: '当渡轮缓缓靠近罗弗敦的心脏地带，首先闯入视线的不是大陆，而是一片散落在翡翠色海面上的积木般的小岛。这就是亨宁斯韦尔给你的第一印象——一个仿佛被巨人随意撒在挪威海上的梦境。海风带着一股清冽的咸味和一丝隐约的、来自远方冰川的寒气，扑面而来，瞬间洗刷掉所有长途旅行的困倦。发动机的轰鸣被海鸥悠长的鸣叫替代，...',
+  description: '当渡轮缓缓靠近罗弗敦的心脏地带，首先闯入视线的不是大陆，而是一片散落在翡翠色海面上的积木般的小岛。这就是亨宁斯韦尔给你的第一印象——一个仿佛被巨人随意撒在挪威海上的梦境。海风带着一股清冽的咸味和一丝隐约的、来自远方冰川的寒气，扑面而来，瞬间洗刷掉所有长途旅行的困倦。发动机的轰鸣被海鸥悠长的鸣叫替代，',
 }
 
 export default function HenningsvaerFishingVillagePage() {
@@ -15,7 +15,7 @@ export default function HenningsvaerFishingVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '亨宁斯韦尔渔村', href: '/attractions/henningsvaer-fishing-village' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function HenningsvaerFishingVillagePage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`当渡轮缓缓靠近罗弗敦的心脏地带，首先闯入视线的不是大陆，而是一片散落在翡翠色海面上的积木般的小岛。这就是亨宁斯韦尔给你的第一印象——一个仿佛被巨人随意撒在挪威海上的梦境。海风带着一股清冽的咸味和一丝隐约的、来自远方冰川的寒气，扑面而来，瞬间洗刷掉所有长途旅行的困倦。发动机的轰鸣被海鸥悠长的鸣叫替代，它们像白色的哨兵，在红、黄、白色的木屋上空盘旋。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`沿着蜿蜒的堤道走进村子，时间好像自动调慢了。耳边是海浪轻拍礁石的哗啦声，是绳索摩擦木桩的吱呀声，是某扇木门开合时清脆的门铃铛响。脚下是湿漉漉、反着光的石板路，缝隙里长着顽强的苔藓。那些著名的木屋就紧紧地挨在一起，漆色在北极光长时间的曝晒下有些斑驳，却更显真实。你会看到窗台上精心摆放的天竺葵，在短暂的夏季里开得轰轰烈烈；会看到晾晒的渔网和雨靴随意地靠在墙边。这里不是一个博物馆式的景点，而是一个仍然呼吸、带着鱼腥味和生活温度的活着的渔村。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，亨宁斯韦尔最摄人心魄的一笔，是那个被称为“世界最美”的足球场。它不在陆地上，而是伸向大海，三面被深邃的挪威海环绕。站在场边，你会感到一种奇妙的眩晕：脚下是绿茵，几步之外便是深不可测的墨蓝色海水和嶙峋的黑色礁石。想象一下，在午夜太阳的余晖下，一群少年在这里追逐足球，背景是覆雪的山峰和归航的渔船——这大概是体育运动与自然景观最诗意的结合了。它完美诠释了这里的精神：在最极限的环境里，创造最平凡而热烈的快乐。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当渡轮缓缓靠近罗弗敦的心脏地带，首先闯入视线的不是大陆，而是一片散落在翡翠色海面上的积木般的小岛。这就是亨宁斯韦尔给你的第一印象——一个仿佛被巨人随意撒在挪威海上的梦境。海风带着一股清冽的咸味和一丝隐约的、来自远方冰川的寒气，扑面而来，瞬间洗刷掉所有长途旅行的困倦。发动机的轰鸣被海鸥悠长的鸣叫替代，它们像白色的哨兵，在红、黄、白色的木屋上空盘旋。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沿着蜿蜒的堤道走进村子，时间好像自动调慢了。耳边是海浪轻拍礁石的哗啦声，是绳索摩擦木桩的吱呀声，是某扇木门开合时清脆的门铃铛响。脚下是湿漉漉、反着光的石板路，缝隙里长着顽强的苔藓。那些著名的木屋就紧紧地挨在一起，漆色在北极光长时间的曝晒下有些斑驳，却更显真实。你会看到窗台上精心摆放的天竺葵，在短暂的夏季里开得轰轰烈烈；会看到晾晒的渔网和雨靴随意地靠在墙边。这里不是一个博物馆式的景点，而是一个仍然呼吸、带着鱼腥味和生活温度的活着的渔村。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，亨宁斯韦尔最摄人心魄的一笔，是那个被称为“世界最美”的足球场。它不在陆地上，而是伸向大海，三面被深邃的挪威海环绕。站在场边，你会感到一种奇妙的眩晕：脚下是绿茵，几步之外便是深不可测的墨蓝色海水和嶙峋的黑色礁石。想象一下，在午夜太阳的余晖下，一群少年在这里追逐足球，背景是覆雪的山峰和归航的渔船——这大概是体育运动与自然景观最诗意的结合了。它完美诠释了这里的精神：在最极限的环境里，创造最平凡而热烈的快乐。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function HenningsvaerFishingVillagePage() {
                 <InfoRow label="国家" value={`挪威`} />
                 <InfoRow label="城市" value={`诺尔兰郡`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`罗弗敦群岛渔业黄金时代的缩影，从繁荣的鳕鱼加工中心转型为世界知名的艺术与户外运动胜地。`} />
                 <InfoRow label="建筑特色" value={`建于数座小岛与礁石之上，由桥梁和堤道相连，拥有经典的挪威“罗尔夫”彩色木屋和用于晾晒鳕鱼的巨大木质鱼架。`} />
@@ -52,6 +54,7 @@ export default function HenningsvaerFishingVillagePage() {
                 <InfoRow label="文化价值" value={`展现了北极圈人类社区与严酷自然共存的韧性，是活着的渔业文化遗产与现代创意生活的交汇点。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`这是一个开放的渔村，全年全天可自由进入。但内部部分设施（如画廊、部分餐厅、足球场更衣室）有各自的开放时间，夏季（5月至9月）一般为10:00-18:00，冬季时间缩短或不定时开放。建议不要在极夜风暴天气前往。`} />
               <InfoRow label="门票价格" value={`进入渔村本身免费。亨宁斯韦尔足球场可免费参观（有时训练或比赛期间会临时关闭）。个别小型博物馆或艺术画廊可能收取象征性门票（约50-100挪威克朗）。`} />
@@ -62,18 +65,18 @@ export default function HenningsvaerFishingVillagePage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`亨宁斯韦尔的故事，就是一部关于鳕鱼的史诗。几个世纪以来，每年冬季，北极鳕鱼都会洄游到罗弗敦群岛附近寒冷、纯净的海域产卵。从维京时代起，人们就开始捕捞这种“白色黄金”。但亨宁斯韦尔作为永久定居点的崛起，要追溯到19世纪中后期。随着渔业技术的进步和市场的扩大，这个由数个礁石岛组成的天然良港，因其优越的位置而繁荣起来。人们用木头在裸露的岩石上打下地基，建起房屋、码头和巨大的“hjell”（鱼架）。整个村庄就像是从大海里生长出来的一样。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最繁忙的季节是每年的2月至4月。那时，来自挪威各地乃至欧洲的渔民们会汇聚于此，海面上飘荡着成千上万的渔船。女人们则在岸上忙碌，处理捕获的鳕鱼：去头、剖开、清洗，然后像挂旗帜一样，把鱼身一排排挂在巨大的三角形木架上，让北极的寒风和微弱的阳光将其自然风干，制成能保存数年的“tørrfisk”（鱼干）。空气中弥漫着浓烈的海产气味，码头上人声鼎沸，交易昼夜不停。亨宁斯韦尔成为了一个充满汗水、盐粒和金钱气息的繁忙枢纽，它的木质建筑里储存着整个社区的财富和希望。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，20世纪的工业化进程和渔业资源的波动，给这种传统生活方式带来了冲击。大型加工厂的出现让许多小规模作业变得不再经济。亨宁斯韦尔面临着衰退的危机，一些年轻人离开了这里。但转折点悄然来临。罗弗敦惊人的自然风光开始吸引画家、摄影师和探险家。他们被这里变幻莫测的光线——“罗弗敦之光”所迷倒，被群山与大海戏剧性的交织所震撼。亨宁斯韦尔，凭借其独特的海岛结构和未遭破坏的传统风貌，成了艺术家们的灵感天堂。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`于是，一场安静的转型开始了。一些闲置的鱼仓库没有被拆除，而是被巧妙地改造成了艺术画廊、工作室和设计酒店。著名的画廊如“Henningsvær Kunsthall”和“Kaviar Factory”在此落户，展示着北欧当代艺术的先锋作品。与此同时，徒步、攀岩、潜水、海钓等户外运动也蓬勃发展。那个延伸入海的足球场，原本只是一块平整的礁石，被当地人自发建成了球场，却意外地通过社交媒体传遍世界，成为了亨宁斯韦尔最象征性的符号。它代表了从纯粹的生产性社区，向一个融合了文化、体育和生活美学的综合性目的地的华丽转身。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`今天的亨宁斯韦尔，是一个奇妙的混合体。你依然能看到老渔民在修补渔网，空气中偶尔飘过鱼干的咸香；但同时，你也能在时髦的咖啡馆里品尝到用本地食材制作的新北欧料理，在画廊里邂逅前沿的艺术展览。它没有抛弃自己的根，而是为古老的躯干注入了新的灵魂。每一次潮起潮落，都在诉说着这个北极渔村如何在与大海的永恒对话中，找到了属于自己的、充满韧性的未来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "亨宁斯韦尔的故事，就是一部关于鳕鱼的史诗。几个世纪以来，每年冬季，北极鳕鱼都会洄游到罗弗敦群岛附近寒冷、纯净的海域产卵。从维京时代起，人们就开始捕捞这种“白色黄金”。但亨宁斯韦尔作为永久定居点的崛起，要追溯到19世纪中后期。随着渔业技术的进步和市场的扩大，这个由数个礁石岛组成的天然良港，因其优越的位置而繁荣起来。人们用木头在裸露的岩石上打下地基，建起房屋、码头和巨大的“hjell”（鱼架）。整个村庄就像是从大海里生长出来的一样。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最繁忙的季节是每年的2月至4月。那时，来自挪威各地乃至欧洲的渔民们会汇聚于此，海面上飘荡着成千上万的渔船。女人们则在岸上忙碌，处理捕获的鳕鱼：去头、剖开、清洗，然后像挂旗帜一样，把鱼身一排排挂在巨大的三角形木架上，让北极的寒风和微弱的阳光将其自然风干，制成能保存数年的“tørrfisk”（鱼干）。空气中弥漫着浓烈的海产气味，码头上人声鼎沸，交易昼夜不停。亨宁斯韦尔成为了一个充满汗水、盐粒和金钱气息的繁忙枢纽，它的木质建筑里储存着整个社区的财富和希望。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，20世纪的工业化进程和渔业资源的波动，给这种传统生活方式带来了冲击。大型加工厂的出现让许多小规模作业变得不再经济。亨宁斯韦尔面临着衰退的危机，一些年轻人离开了这里。但转折点悄然来临。罗弗敦惊人的自然风光开始吸引画家、摄影师和探险家。他们被这里变幻莫测的光线——“罗弗敦之光”所迷倒，被群山与大海戏剧性的交织所震撼。亨宁斯韦尔，凭借其独特的海岛结构和未遭破坏的传统风貌，成了艺术家们的灵感天堂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，一场安静的转型开始了。一些闲置的鱼仓库没有被拆除，而是被巧妙地改造成了艺术画廊、工作室和设计酒店。著名的画廊如“Henningsvær Kunsthall”和“Kaviar Factory”在此落户，展示着北欧当代艺术的先锋作品。与此同时，徒步、攀岩、潜水、海钓等户外运动也蓬勃发展。那个延伸入海的足球场，原本只是一块平整的礁石，被当地人自发建成了球场，却意外地通过社交媒体传遍世界，成为了亨宁斯韦尔最象征性的符号。它代表了从纯粹的生产性社区，向一个融合了文化、体育和生活美学的综合性目的地的华丽转身。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的亨宁斯韦尔，是一个奇妙的混合体。你依然能看到老渔民在修补渔网，空气中偶尔飘过鱼干的咸香；但同时，你也能在时髦的咖啡馆里品尝到用本地食材制作的新北欧料理，在画廊里邂逅前沿的艺术展览。它没有抛弃自己的根，而是为古老的躯干注入了新的灵魂。每一次潮起潮落，都在诉说着这个北极渔村如何在与大海的永恒对话中，找到了属于自己的、充满韧性的未来。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`建议你在清晨或午后抵达亨宁斯韦尔，预留至少大半天的时间来沉浸式体验。清晨的光线柔和，适合拍照，且游客较少，你能看到村庄苏醒的样子；午后抵达则可以一直待到傍晚，享受“蓝色时刻”和可能出现的午夜太阳或冬季极光。整体游览节奏宜慢不宜快，核心是步行探索每一个角落。路线大致是一个环形，从主停车场开始，深入小巷，拜访地标，最后在码头或咖啡馆放松，总耗时约4-5小时。`}
                 </p>
@@ -158,8 +161,9 @@ export default function HenningsvaerFishingVillagePage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`经典海景民宿`}</h4>
@@ -179,32 +183,44 @@ export default function HenningsvaerFishingVillagePage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`亨宁斯韦尔内的住宿数量有限，尤其在夏季和极光季（9月-3月），必须提前数月预订。冬季预订时务必确认住宿是否提供充足的取暖设施。虽然治安极好，但夜间出行（尤其冬季）需注意路面结冰和可能变化的天气。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "亨宁斯韦尔内的住宿数量有限，尤其在夏季和极光季（9月-3月），必须提前数月预订。冬季预订时务必确认住宿是否提供充足的取暖设施。虽然治安极好，但夜间出行（尤其冬季）需注意路面结冰和可能变化的天气。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开亨宁斯韦尔许久后，闭上眼睛，脑海里浮现的不是某一栋具体的房子或某一个镜头，而是一种整体的感觉：一种在世界的尽头，一切都被简化后剩下的宁静与坚韧。这里的美，不是宫殿的辉煌或都市的喧嚣，而是一种基于生存本身生长出来的、毫不矫饰的诗意。人们在这里，不是因为浪漫的幻想，而是千百年来为了生存，不得不与最壮丽也最严酷的自然贴身博弈。那些钉在礁石上的木屋，那些迎着狂风晾晒的鱼干，那个在海中央踢球的念头，都是这种博弈开出的花。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都趋于同质化和快速消费的时代，亨宁斯韦尔像一颗固执的北极星。它提醒我们，有些地方，其价值无法用效率衡量。它告诉我们，文化不是放在玻璃柜里的化石，而是在变化中紧紧抓住自己核心的活水。来这里，你不是为了“打卡”一个足球场，而是为了体会一种可能性和一种态度：人类社区如何能在保存自己灵魂的同时，优雅地驶向未来。对于渴望深度游的旅人而言，亨宁斯韦尔是一剂解药。它用冰冷的海风和温暖的光线，洗净你的浮躁，让你重新学会为一道光影、一阵海鸥的叫声、一片挂在木架上的鱼干而感动。这，或许才是旅行最珍贵的意义。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开亨宁斯韦尔许久后，闭上眼睛，脑海里浮现的不是某一栋具体的房子或某一个镜头，而是一种整体的感觉：一种在世界的尽头，一切都被简化后剩下的宁静与坚韧。这里的美，不是宫殿的辉煌或都市的喧嚣，而是一种基于生存本身生长出来的、毫不矫饰的诗意。人们在这里，不是因为浪漫的幻想，而是千百年来为了生存，不得不与最壮丽也最严酷的自然贴身博弈。那些钉在礁石上的木屋，那些迎着狂风晾晒的鱼干，那个在海中央踢球的念头，都是这种博弈开出的花。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切都趋于同质化和快速消费的时代，亨宁斯韦尔像一颗固执的北极星。它提醒我们，有些地方，其价值无法用效率衡量。它告诉我们，文化不是放在玻璃柜里的化石，而是在变化中紧紧抓住自己核心的活水。来这里，你不是为了“打卡”一个足球场，而是为了体会一种可能性和一种态度：人类社区如何能在保存自己灵魂的同时，优雅地驶向未来。对于渴望深度游的旅人而言，亨宁斯韦尔是一剂解药。它用冰冷的海风和温暖的光线，洗净你的浮躁，让你重新学会为一道光影、一阵海鸥的叫声、一片挂在木架上的鱼干而感动。这，或许才是旅行最珍贵的意义。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/stavanger-old-town-gamle-stavanger" className="block group">
+              <a href="/attractions/arctic-cathedral-tromso" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    斯
+                    特
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯塔万格老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Stavanger Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特罗姆瑟北极大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arctic Cathedral</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/alta-rock-art-petroglyphs" className="block group">
+              <a href="/attractions/fredrikstad-fortress-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    腓
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">腓特烈斯塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Fredrikstad</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alta-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
                     阿
@@ -212,17 +228,6 @@ export default function HenningsvaerFishingVillagePage() {
                   <div className="p-4">
                     <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔塔古城</h4>
                     <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alta Old Town</p>
-                  </div>
-                </div>
-              </a>
-              <a href="/attractions/nidaros-cathedral-trondheim" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    特
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特隆赫姆尼达罗斯主教座堂</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nidaros Cathedral</p>
                   </div>
                 </div>
               </a>

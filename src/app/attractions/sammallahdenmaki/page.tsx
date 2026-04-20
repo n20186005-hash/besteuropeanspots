@@ -15,7 +15,7 @@ export default function SammallahdenmakiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '劳马老磨坊/萨马拉赫蒂青铜时代遗址', href: '/attractions/sammallahdenmaki' },
           ]}
         />

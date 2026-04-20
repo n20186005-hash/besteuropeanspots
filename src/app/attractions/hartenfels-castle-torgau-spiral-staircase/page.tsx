@@ -15,7 +15,7 @@ export default function HartenfelsCastleTorgauSpiralStaircasePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '哈滕费尔斯城堡（绝美螺旋阶梯）', href: '/attractions/hartenfels-castle-torgau-spiral-staircase' },
           ]}
         />

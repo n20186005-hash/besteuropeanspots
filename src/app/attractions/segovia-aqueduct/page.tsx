@@ -15,7 +15,7 @@ export default function SegoviaAqueductPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞哥维亚罗马水道桥', href: '/attractions/segovia-aqueduct' },
           ]}
         />

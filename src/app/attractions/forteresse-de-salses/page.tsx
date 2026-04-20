@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '萨尔斯要塞 Forteresse de Salses｜砖红半埋的边境巨兽 - 最佳欧洲景点',
-  description: '你第一眼看到它时，一定会愣住。这不像你印象中任何一座欧洲城堡——它没有纤细的塔尖，没有浪漫的轮廓，甚至不怎么“高”。相反，它像一个从红土地里生长出来的、巨大无比的几何方块，低低地、沉沉地趴在地平线上，颜色是那种被地中海阳光晒透了的暖砖红。走近了，那种压迫感才真切起来。它几乎没有窗户，只有厚重墙壁上开...',
+  description: '你第一眼看到它时，一定会愣住。这不像你印象中任何一座欧洲城堡——它没有纤细的塔尖，没有浪漫的轮廓，甚至不怎么“高”。相反，它像一个从红土地里生长出来的、巨大无比的几何方块，低低地、沉沉地趴在地平线上，颜色是那种被地中海阳光晒透了的暖砖红。走近了，那种压迫感才真切起来。它几乎没有窗户，只有厚重墙壁上开',
 }
 
 export default function ForteresseDeSalsesPage() {
@@ -15,7 +15,7 @@ export default function ForteresseDeSalsesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '萨尔斯要塞', href: '/attractions/forteresse-de-salses' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function ForteresseDeSalsesPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`你第一眼看到它时，一定会愣住。这不像你印象中任何一座欧洲城堡——它没有纤细的塔尖，没有浪漫的轮廓，甚至不怎么“高”。相反，它像一个从红土地里生长出来的、巨大无比的几何方块，低低地、沉沉地趴在地平线上，颜色是那种被地中海阳光晒透了的暖砖红。走近了，那种压迫感才真切起来。它几乎没有窗户，只有厚重墙壁上开出的狭小射击孔，沉默得像一头收紧爪牙、蛰伏了数百年的巨兽。风从比利牛斯山的方向吹来，掠过它平坦的屋顶和宽阔的护城河，发出一种低沉的呜咽，你几乎能想象出当年卫兵在此巡逻时，铠甲与兵器碰撞的细微回响。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`穿过吊桥，踏入它内部，完全是另一个世界。外面的阳光瞬间被吸收，取而代之的是一种凉爽、略带泥土和古老砖石气息的幽暗。这里不像宫殿，更像一个巨大而精密的机器。通道错综复杂，连接着兵营、马厩、厨房、礼拜堂和巨大的蓄水池。光线从高高的通风井和炮眼里斜射进来，在粗糙的红砖地上拉出长长的、明暗交错的光斑。你得放轻脚步，因为回声在这里被放得很大，甚至能听到自己心跳的声音。这种半埋于地下的设计，让它冬暖夏凉，也让它能在敌人的炮火下获得不可思议的生存能力。你触摸墙壁，砖石粗糙而温润，仿佛能直接触碰到五百年前工匠手掌的温度。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`对于今天的当地人来说，这座庞然大物不再是恐怖的战争象征，而更像一个沉默而熟悉的邻居。你会看到情侣在护城河边散步，老人带着狗在周围的草地上晒太阳，孩子们在远处的空地上奔跑嬉戏。它巨大而安宁的身影，已经融入葡萄园与远山的日常风景里。但当你静下心来，与它对视，那种从砖石缝隙中渗出的、属于边境的紧张与坚韧，依然清晰可辨。它最打动人的，正是这种矛盾的气质：既是毁灭性的战争机器，又奇迹般地被时光驯服，成为大地景观中一个温暖而沉重的部分。它不讲述童话，只讲述生存。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你第一眼看到它时，一定会愣住。这不像你印象中任何一座欧洲城堡——它没有纤细的塔尖，没有浪漫的轮廓，甚至不怎么“高”。相反，它像一个从红土地里生长出来的、巨大无比的几何方块，低低地、沉沉地趴在地平线上，颜色是那种被地中海阳光晒透了的暖砖红。走近了，那种压迫感才真切起来。它几乎没有窗户，只有厚重墙壁上开出的狭小射击孔，沉默得像一头收紧爪牙、蛰伏了数百年的巨兽。风从比利牛斯山的方向吹来，掠过它平坦的屋顶和宽阔的护城河，发出一种低沉的呜咽，你几乎能想象出当年卫兵在此巡逻时，铠甲与兵器碰撞的细微回响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "穿过吊桥，踏入它内部，完全是另一个世界。外面的阳光瞬间被吸收，取而代之的是一种凉爽、略带泥土和古老砖石气息的幽暗。这里不像宫殿，更像一个巨大而精密的机器。通道错综复杂，连接着兵营、马厩、厨房、礼拜堂和巨大的蓄水池。光线从高高的通风井和炮眼里斜射进来，在粗糙的红砖地上拉出长长的、明暗交错的光斑。你得放轻脚步，因为回声在这里被放得很大，甚至能听到自己心跳的声音。这种半埋于地下的设计，让它冬暖夏凉，也让它能在敌人的炮火下获得不可思议的生存能力。你触摸墙壁，砖石粗糙而温润，仿佛能直接触碰到五百年前工匠手掌的温度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "对于今天的当地人来说，这座庞然大物不再是恐怖的战争象征，而更像一个沉默而熟悉的邻居。你会看到情侣在护城河边散步，老人带着狗在周围的草地上晒太阳，孩子们在远处的空地上奔跑嬉戏。它巨大而安宁的身影，已经融入葡萄园与远山的日常风景里。但当你静下心来，与它对视，那种从砖石缝隙中渗出的、属于边境的紧张与坚韧，依然清晰可辨。它最打动人的，正是这种矛盾的气质：既是毁灭性的战争机器，又奇迹般地被时光驯服，成为大地景观中一个温暖而沉重的部分。它不讲述童话，只讲述生存。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function ForteresseDeSalsesPage() {
                 <InfoRow label="国家" value={`法国`} />
                 <InfoRow label="城市" value={`萨尔斯莱沙托 (Salses-le-Château)`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`一座标志着从高耸中世纪城堡向低矮现代棱堡过渡的、独一无二的军事防御工程典范，见证了法西两国数百年的边境拉锯。`} />
                 <InfoRow label="建筑特色" value={`由千万块暖红色砖石砌成，主体结构半埋于地下，外观敦厚如巨兽匍匐，内部迷宫般复杂，完美融合了城堡的居住功能与堡垒的纯粹防御目的。`} />
@@ -52,6 +54,7 @@ export default function ForteresseDeSalsesPage() {
                 <InfoRow label="文化价值" value={`不仅是一座堡垒，更是比利牛斯山地区政治、军事与文化碰撞的无声史书，其存在本身即是对欧洲近代国家疆域形成过程的深刻注解。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`全年开放，夏季（4月至9月）通常为上午9:30至晚上7:00；冬季（10月至3月）通常为上午10:00至下午5:00。每周二、1月1日、5月1日、11月1日及12月25日闭馆。具体时间可能因季节和特殊活动微调，建议出行前在其官网确认。`} />
               <InfoRow label="门票价格" value={`成人票8欧元，优惠票（18-25岁非欧盟居民）6.5欧元，18岁以下欧盟居民及残疾人士免费。另有家庭套票等可选。现场购票即可，旺季（7-8月）建议提前在线预订以避免排队。`} />
@@ -62,18 +65,18 @@ export default function ForteresseDeSalsesPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从1492年说起。那一年，哥伦布扬帆远航，格拉纳达的摩尔人王国陷落，而在比利牛斯山脚的这片盐碱荒地，硝烟味正浓。法国的路易十一已经将边境推到了这里，而山另一边的阿拉贡王国（后来成为西班牙的一部分）如芒在背。当时的西班牙君主，“天主教双王”费迪南二世和伊莎贝拉一世，决心在这里钉下一颗最坚硬的钉子，以保卫他们的领土佩皮尼昂。于是，在1497年，一项浩大工程启动了。国王钦点了当时最顶尖的军事工程师——弗朗西斯科·拉莫利，他的任务不是建造一座华美的宫殿，而是要创造一个“无法被攻克的怪物”。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`拉莫利交出的答卷，就是这座颠覆传统的萨尔斯要塞。他抛弃了中世纪末期那些虽然高大但易遭炮击的石头城堡，转而采用了超前的理念：低矮、敦实、半埋。整个堡垒的主体沉入地下，只露出顶部，这能最大限度地吸收和分散炮弹的冲击力。外墙厚达惊人的10到15米，全部用当地烧制的红砖砌成，砖结构比石材更具韧性。它的平面是一个近乎完美的正方形，四个角上是突出的菱形棱堡，形成无死角的交叉火力网。内部则像一个自给自足的微型城市，有足以支撑数月围困的粮仓、酒窖、面包房和深达32米的水井。从1497年到1504年，数千名工匠在此劳作，最终，这头砖红色的“边境巨兽”睁开了眼睛，冰冷地凝视着北方。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，堡垒竣工仅五年，预言般的战火就烧到了门前。1503年，法国军队首次围攻萨尔斯。这场战役成了新式堡垒的“毕业考试”。法军的火炮在它厚重的红砖墙上只留下浅浅的凹痕，而守军则从那些低矮的炮眼中精准还击。围攻持续了数周，最终以法军的撤退告终。萨尔斯一战成名，证明了这种新式防御理念的可怕效力。但它无法扭转整个战争的局势。1542年，经过更长时间的残酷围城，法国人终于找到了裂缝，攻占了这里。此后的近百年，萨尔斯就像一枚沉重的棋子，在法西两大强权的棋盘上反复易手，砖墙上不断增添着新的伤痕与修补的痕迹。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`真正的转折点发生在1659年。那一年，法国和西班牙签订了《比利牛斯条约》，比利牛斯山被正式确立为两国国界。曾经的前线要塞萨尔斯，一夜之间变成了“后方”。它失去了最根本的战略价值，刀剑入库，马放南山。法国太阳王路易十四的著名军事工程师沃邦视察后，认为它设计过时，且维护成本太高，于是，这头巨兽被“降级”了——它先是被用作监狱，关押那些不见天日的犯人；后来又成为一支小型驻军的营地，但昔日鼎盛时期可容纳1500名士兵的庞大空间，大部分就此空旷、沉寂下来。时光的尘埃开始悄然覆盖那些火炮导轨和士兵的涂鸦。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`直到20世纪，人们才重新认识到它的价值。不是作为武器，而是作为历史的见证。1930年，它被列为法国的历史古迹。考古学家和历史学家开始小心翼翼地梳理它的脉络，修复战争的创伤，试图还原它每一个时期的面貌。今天的我们漫步其中，能看到不同时代的层叠：中世纪的最后倔强，文艺复兴的理性计算，近代战争的残酷，以及和平年代赋予它的宁静。它不再需要阻挡任何敌人，它的存在本身，就是在阻挡遗忘。它静静地告诉我们，疆界如何被划定，和平如何从无数次冲突的灰烬中诞生，而人类最惊人的智慧与力量，有时竟是为了最纯粹的防御与分离。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从1492年说起。那一年，哥伦布扬帆远航，格拉纳达的摩尔人王国陷落，而在比利牛斯山脚的这片盐碱荒地，硝烟味正浓。法国的路易十一已经将边境推到了这里，而山另一边的阿拉贡王国（后来成为西班牙的一部分）如芒在背。当时的西班牙君主，“天主教双王”费迪南二世和伊莎贝拉一世，决心在这里钉下一颗最坚硬的钉子，以保卫他们的领土佩皮尼昂。于是，在1497年，一项浩大工程启动了。国王钦点了当时最顶尖的军事工程师——弗朗西斯科·拉莫利，他的任务不是建造一座华美的宫殿，而是要创造一个“无法被攻克的怪物”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "拉莫利交出的答卷，就是这座颠覆传统的萨尔斯要塞。他抛弃了中世纪末期那些虽然高大但易遭炮击的石头城堡，转而采用了超前的理念：低矮、敦实、半埋。整个堡垒的主体沉入地下，只露出顶部，这能最大限度地吸收和分散炮弹的冲击力。外墙厚达惊人的10到15米，全部用当地烧制的红砖砌成，砖结构比石材更具韧性。它的平面是一个近乎完美的正方形，四个角上是突出的菱形棱堡，形成无死角的交叉火力网。内部则像一个自给自足的微型城市，有足以支撑数月围困的粮仓、酒窖、面包房和深达32米的水井。从1497年到1504年，数千名工匠在此劳作，最终，这头砖红色的“边境巨兽”睁开了眼睛，冰冷地凝视着北方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，堡垒竣工仅五年，预言般的战火就烧到了门前。1503年，法国军队首次围攻萨尔斯。这场战役成了新式堡垒的“毕业考试”。法军的火炮在它厚重的红砖墙上只留下浅浅的凹痕，而守军则从那些低矮的炮眼中精准还击。围攻持续了数周，最终以法军的撤退告终。萨尔斯一战成名，证明了这种新式防御理念的可怕效力。但它无法扭转整个战争的局势。1542年，经过更长时间的残酷围城，法国人终于找到了裂缝，攻占了这里。此后的近百年，萨尔斯就像一枚沉重的棋子，在法西两大强权的棋盘上反复易手，砖墙上不断增添着新的伤痕与修补的痕迹。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的转折点发生在1659年。那一年，法国和西班牙签订了《比利牛斯条约》，比利牛斯山被正式确立为两国国界。曾经的前线要塞萨尔斯，一夜之间变成了“后方”。它失去了最根本的战略价值，刀剑入库，马放南山。法国太阳王路易十四的著名军事工程师沃邦视察后，认为它设计过时，且维护成本太高，于是，这头巨兽被“降级”了——它先是被用作监狱，关押那些不见天日的犯人；后来又成为一支小型驻军的营地，但昔日鼎盛时期可容纳1500名士兵的庞大空间，大部分就此空旷、沉寂下来。时光的尘埃开始悄然覆盖那些火炮导轨和士兵的涂鸦。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "直到20世纪，人们才重新认识到它的价值。不是作为武器，而是作为历史的见证。1930年，它被列为法国的历史古迹。考古学家和历史学家开始小心翼翼地梳理它的脉络，修复战争的创伤，试图还原它每一个时期的面貌。今天的我们漫步其中，能看到不同时代的层叠：中世纪的最后倔强，文艺复兴的理性计算，近代战争的残酷，以及和平年代赋予它的宁静。它不再需要阻挡任何敌人，它的存在本身，就是在阻挡遗忘。它静静地告诉我们，疆界如何被划定，和平如何从无数次冲突的灰烬中诞生，而人类最惊人的智慧与力量，有时竟是为了最纯粹的防御与分离。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`建议安排一个完整的上午或下午（至少3-4小时）进行深度探索。最佳抵达时间是上午开门后不久，光线柔和，游客稀少，能更好地感受堡垒内部的静谧与宏伟。游览节奏宜慢不宜快，因为这座堡垒的魅力在于细节和空间体验。路线设计为从外到内，由下至上，最后登高望远，形成一个完整的认知循环。先在外围体会它作为“地形一部分”的压迫感，再深入其“内脏”感受精密与生存，最后在屋顶平台将它的防御布局尽收眼底，并与远处的山海景色相连，完成从军事机器到历史景观的视角升华。`}
                 </p>
@@ -162,8 +165,9 @@ export default function ForteresseDeSalsesPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`隐居山丘`}</h4>
@@ -183,52 +187,53 @@ export default function ForteresseDeSalsesPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`如果选择住在萨尔斯莱沙托 village，夜晚非常安静，餐馆选择有限但地道，能体验到真正的南法乡村生活节奏。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（7-8月）是这一地区的旅游旺季，无论是民宿还是酒店都务必提前数月预订，尤其是那些拥有绝佳景观的房间。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`佩皮尼昂作为省会城市，住宿选择更多，夜生活和文化活动丰富，适合喜欢热闹和便利的旅行者，且交通前往要塞十分便捷。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果选择住在萨尔斯莱沙托 village，夜晚非常安静，餐馆选择有限但地道，能体验到真正的南法乡村生活节奏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（7-8月）是这一地区的旅游旺季，无论是民宿还是酒店都务必提前数月预订，尤其是那些拥有绝佳景观的房间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "佩皮尼昂作为省会城市，住宿选择更多，夜生活和文化活动丰富，适合喜欢热闹和便利的旅行者，且交通前往要塞十分便捷。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开萨尔斯要塞很久以后，我的脑海里反复出现的，不是某一块砖，某一间房，而是那种整体的、沉甸甸的“存在感”。它不像很多景点那样，急于向你展示美丽或诉说传奇。它只是在那里，以一种近乎固执的诚实，呈现着历史的另一种面貌——不是进步的凯歌，不是艺术的飞扬，而是关于界限、关于防御、关于如何在漫长的对立中艰难地生存下去。这种真实，带着粗粝的质感，反而具有一种直击人心的力量。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个推崇流动、融合与互联的快节奏时代，萨尔斯像一座逆向的纪念碑。它提醒我们，今日看似天然的欧洲版图，曾由无数这样的“界碑”鲜血淋漓地刻画而成。它让我们看到，人类可以为了“分隔”投入何等惊人的智慧与资源。来这里，不是为了一场轻松愉快的郊游，而是为了一次深度的历史共情。当你穿行于它迷宫般的腹地，抚摸那些温润的红砖，你会明白，和平从来不是历史的默认状态，而是需要被无数次捍卫的珍贵成果。对于每一位热爱深度游的旅人，萨尔斯要塞都是一堂无法替代的“在地历史课”，它让你用双脚丈量，用皮肤感受，何为边境，何为家园，以及两者之间那条厚重而模糊的红砖之线。这头匍匐在阳光下的“巨兽”，值得你专程而来，与它沉默地对谈一个下午。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开萨尔斯要塞很久以后，我的脑海里反复出现的，不是某一块砖，某一间房，而是那种整体的、沉甸甸的“存在感”。它不像很多景点那样，急于向你展示美丽或诉说传奇。它只是在那里，以一种近乎固执的诚实，呈现着历史的另一种面貌——不是进步的凯歌，不是艺术的飞扬，而是关于界限、关于防御、关于如何在漫长的对立中艰难地生存下去。这种真实，带着粗粝的质感，反而具有一种直击人心的力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个推崇流动、融合与互联的快节奏时代，萨尔斯像一座逆向的纪念碑。它提醒我们，今日看似天然的欧洲版图，曾由无数这样的“界碑”鲜血淋漓地刻画而成。它让我们看到，人类可以为了“分隔”投入何等惊人的智慧与资源。来这里，不是为了一场轻松愉快的郊游，而是为了一次深度的历史共情。当你穿行于它迷宫般的腹地，抚摸那些温润的红砖，你会明白，和平从来不是历史的默认状态，而是需要被无数次捍卫的珍贵成果。对于每一位热爱深度游的旅人，萨尔斯要塞都是一堂无法替代的“在地历史课”，它让你用双脚丈量，用皮肤感受，何为边境，何为家园，以及两者之间那条厚重而模糊的红砖之线。这头匍匐在阳光下的“巨兽”，值得你专程而来，与它沉默地对谈一个下午。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/salers-medieval-village" className="block group">
+              <a href="/attractions/talmont-sur-gironde" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    萨
+                    吉
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨莱尔</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Salers</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">吉伦特河畔塔尔蒙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Talmont-sur-Gironde</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/yvoire-medieval-village" className="block group">
+              <a href="/attractions/gourdon-france" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    伊
+                    古
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伊瓦尔中世纪小镇</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Yvoire</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">古尔东</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gourdon</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/amiens-cathedral" className="block group">
+              <a href="/attractions/chateau-de-cheverny" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    亚
+                    雪
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">亚眠大教堂</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Amiens Cathedral</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">雪瓦尼城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Cheverny</p>
                   </div>
                 </div>
               </a>

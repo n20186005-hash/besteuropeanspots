@@ -15,7 +15,7 @@ export default function ViterboPapalPalaceMedievalQuarterPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '维泰博（教皇宫及中世纪区）', href: '/attractions/viterbo-papal-palace-medieval-quarter' },
           ]}
         />

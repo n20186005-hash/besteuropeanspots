@@ -15,7 +15,7 @@ export default function KaunasOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '考纳斯老城', href: '/attractions/kaunas-old-town' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function OberhofenCastleThunerseePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥伯霍芬城堡', href: '/attractions/oberhofen-castle-thunersee' },
           ]}
         />

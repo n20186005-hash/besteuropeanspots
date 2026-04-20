@@ -15,7 +15,7 @@ export default function DolniVitkoviceIndustrialSitePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '下维特科维采工业遗址', href: '/attractions/dolni-vitkovice-industrial-site' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function SeaplaneHarbourPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塔林水上飞机港', href: '/attractions/seaplane-harbour' },
           ]}
         />

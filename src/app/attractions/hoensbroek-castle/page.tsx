@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '洪斯布鲁克城堡 Kasteel Hoensbroek｜探秘荷兰最大砖砌城堡，漫步史诗级护城河与中世纪塔楼 - 最佳欧洲景点',
-  description: '当车子穿过林堡省典型的、起伏平缓的丘陵地带，一片茂密树林的尽头，洪斯布鲁克城堡就这么毫无预警地撞进了视野。我的第一反应是屏住了呼吸——那不是一座孤零零的建筑，而是一整个由红砖、灰瓦、尖塔和无穷无尽的水面构成的、漂浮在陆地上的岛屿。巨大的护城河像一面墨绿色的、古老的镜子，完整地倒映出城堡威严的轮廓，水...',
+  description: '当车子穿过林堡省典型的、起伏平缓的丘陵地带，一片茂密树林的尽头，洪斯布鲁克城堡就这么毫无预警地撞进了视野。我的第一反应是屏住了呼吸——那不是一座孤零零的建筑，而是一整个由红砖、灰瓦、尖塔和无穷无尽的水面构成的、漂浮在陆地上的岛屿。巨大的护城河像一面墨绿色的、古老的镜子，完整地倒映出城堡威严的轮廓，水',
 }
 
 export default function HoensbroekCastlePage() {
@@ -15,7 +15,7 @@ export default function HoensbroekCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '洪斯布鲁克城堡', href: '/attractions/hoensbroek-castle' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function HoensbroekCastlePage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`当车子穿过林堡省典型的、起伏平缓的丘陵地带，一片茂密树林的尽头，洪斯布鲁克城堡就这么毫无预警地撞进了视野。我的第一反应是屏住了呼吸——那不是一座孤零零的建筑，而是一整个由红砖、灰瓦、尖塔和无穷无尽的水面构成的、漂浮在陆地上的岛屿。巨大的护城河像一面墨绿色的、古老的镜子，完整地倒映出城堡威严的轮廓，水波不惊，时间在这里仿佛被这潭深水吸走了流速。空气中是荷兰雨后特有的、混合着青草、湿泥土和淡淡苔藓的味道，安静得只能听见自己的脚步声，以及远处不知名水鸟划过水面的轻响。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走近了，那座敦实雄壮的主塔楼（当地人叫它“Donjon”）才真正显露出它的压迫感。深红色的砖墙历经数百年风雨，颜色变得深沉而斑驳，藤蔓植物固执地沿着墙缝向上攀爬。连接城堡与岸边的，是一座厚重的石桥，走过它，就像完成了一个小小的仪式，从21世纪一步跨入了中世纪的入口。奇怪的是，这份威严并不让人感到疏离，因为你能看到护城河里有野鸭一家在悠闲地巡游，岸边的长椅上坐着读书的当地人，城堡仿佛不是一座被供奉起来的遗迹，而是这个社区一个巨大而美丽的后院。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`一旦穿过厚重的橡木大门，室内的景象又会带来另一重惊喜。与外部粗粝的防御面貌截然不同，内部的房间被修复并布置得极其生活化。你会走进铺着厚重地毯、挂着华丽壁毯的骑士大厅，仿佛能听到昔日宴饮的刀叉轻碰与低声交谈；也能踏入一间17世纪的厨房，铜锅和陶罐在开放式壁炉旁闪着光，好像厨师只是暂时离开。最打动我的是一种“正在进行时”的感觉：没有过多的玻璃展柜和枯燥的说明牌，而是用恰到好处的家具、织物、餐具甚至气味，邀请你去想象曾经在这里流淌过的真实生活。它不是冰冷的历史教科书，而是一本可以走进去的、充满温度的立体故事书。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当车子穿过林堡省典型的、起伏平缓的丘陵地带，一片茂密树林的尽头，洪斯布鲁克城堡就这么毫无预警地撞进了视野。我的第一反应是屏住了呼吸——那不是一座孤零零的建筑，而是一整个由红砖、灰瓦、尖塔和无穷无尽的水面构成的、漂浮在陆地上的岛屿。巨大的护城河像一面墨绿色的、古老的镜子，完整地倒映出城堡威严的轮廓，水波不惊，时间在这里仿佛被这潭深水吸走了流速。空气中是荷兰雨后特有的、混合着青草、湿泥土和淡淡苔藓的味道，安静得只能听见自己的脚步声，以及远处不知名水鸟划过水面的轻响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走近了，那座敦实雄壮的主塔楼（当地人叫它“Donjon”）才真正显露出它的压迫感。深红色的砖墙历经数百年风雨，颜色变得深沉而斑驳，藤蔓植物固执地沿着墙缝向上攀爬。连接城堡与岸边的，是一座厚重的石桥，走过它，就像完成了一个小小的仪式，从21世纪一步跨入了中世纪的入口。奇怪的是，这份威严并不让人感到疏离，因为你能看到护城河里有野鸭一家在悠闲地巡游，岸边的长椅上坐着读书的当地人，城堡仿佛不是一座被供奉起来的遗迹，而是这个社区一个巨大而美丽的后院。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "一旦穿过厚重的橡木大门，室内的景象又会带来另一重惊喜。与外部粗粝的防御面貌截然不同，内部的房间被修复并布置得极其生活化。你会走进铺着厚重地毯、挂着华丽壁毯的骑士大厅，仿佛能听到昔日宴饮的刀叉轻碰与低声交谈；也能踏入一间17世纪的厨房，铜锅和陶罐在开放式壁炉旁闪着光，好像厨师只是暂时离开。最打动我的是一种“正在进行时”的感觉：没有过多的玻璃展柜和枯燥的说明牌，而是用恰到好处的家具、织物、餐具甚至气味，邀请你去想象曾经在这里流淌过的真实生活。它不是冰冷的历史教科书，而是一本可以走进去的、充满温度的立体故事书。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function HoensbroekCastlePage() {
                 <InfoRow label="国家" value={`荷兰`} />
                 <InfoRow label="城市" value={`洪斯布鲁克（Hoensbroek）， 林堡省`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`历经近八个世纪，从军事堡垒演变为贵族官邸，是荷兰南部林堡地区权力变迁与建筑发展的活化石。`} />
                 <InfoRow label="建筑特色" value={`由四座主楼围合而成，拥有荷兰最大、最壮观的城堡护城河体系，以及标志性的中世纪主塔楼（Donjon）。`} />
@@ -52,6 +54,7 @@ export default function HoensbroekCastlePage() {
                 <InfoRow label="文化价值" value={`不仅是一座博物馆，更是当地社区的文化心脏，通过生动的历史场景还原和丰富的活动，将厚重的过去与鲜活的当下紧密连接。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`周二至周日及公共假日：10:00 - 17:30；周一关闭（学校假期期间除外）。冬季（11月至次年2月）可能提前至16:30关闭，具体请出行前查阅官网最新公告。城堡在圣诞节（12月25日）和元旦（1月1日）关闭。`} />
               <InfoRow label="门票价格" value={`成人：14.5欧元；4至12岁儿童：9.5欧元；65岁以上长者：13.5欧元；家庭票（2大2小）：44欧元。持有博物馆卡（Museumkaart）可免费入场。线上预订通常有1-2欧元优惠。`} />
@@ -62,18 +65,18 @@ export default function HoensbroekCastlePage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事要追溯到大约1250年。在这片当时属于布拉班特公国的边境土地上，一个名叫赫尔曼·霍恩（Herman Hoen）的骑士家族，为了彰显权势和保护自己的领地，在一片沼泽湿地中建造了最初的防御塔楼。那时的城堡核心，就是今天我们看到的那座巨大的主塔楼（Donjon）的雏形，它纯粹为战斗而建，墙壁厚实，窗户狭小，是乱世中一个坚固的权力据点。霍恩家族的名字，也从此与这片土地紧紧相连，“Hoensbroek”（霍恩的沼泽地）因此得名。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`接下来的几个世纪，城堡的命运与家族的兴衰、地区的战火深深纠缠。在15世纪，它经历了第一次重要的扩建，从单一的塔楼变成了一个带有内庭院的方形堡垒，护城河系统也变得更加复杂。这反映了当时战争模式的改变，也彰显了霍恩家族地位的提升。然而，真正的黄金时代是在17世纪。当时的主人，阿诺德·威廉·范·霍恩（Arnold Willem van Hoen），一位在西班牙王位继承战争中为荷兰共和国效力的将军，决定将这座祖传的军事堡垒，改造成一座配得上其身份的、舒适豪华的贵族官邸。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这是城堡历史上最华丽的一次转身。他增建了优雅的厢房，引入了大量大型的玻璃窗，让阳光和风景涌入室内。房间内部装饰焕然一新，采用了当时最时髦的古典主义和后来的洛可可风格，精美的灰泥天花板、华丽的壁炉和优雅的楼梯相继出现。护城河依然存在，但防御功能大大减弱，美学和象征意义变得更加重要——它变成了一面巨大的镜子，映照着家族的财富与荣耀。城堡从一个武夫的坚硬铠甲，变成了一位贵族的锦绣华服。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，盛宴终有散场时。法国大革命和随之而来的战争浪潮席卷欧洲，旧的封建秩序土崩瓦解。霍恩家族在19世纪初失去了对城堡的所有权。此后的一个多世纪，城堡如同一个沉睡的巨人，先后被用作农场、法院办公室甚至临时监狱，昔日的荣光被尘埃覆盖，建筑本身也因缺乏维护而日渐破败。直到20世纪60年代，当地市政府和一群有远见的历史爱好者意识到了它无可替代的价值，发起了一场大规模的拯救与修复运动。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`历经数十年的精心修缮，城堡在1972年重新向公众开放。修复者们没有把它变成一座空洞的纪念碑，而是决定用“时代房间”的概念来呈现其历史。他们从各地搜集来符合各个时期风格的家具、画作和日常用品，将不同年代的房间重新“填满”，让你能直观地感受到从中世纪到20世纪初的生活变迁。今天，当我们漫步其中，听到孩子们的欢笑在古老的石廊中回荡，看到的不仅是砖石木梁，更是一个家族、一个地区跨越八百年的呼吸与心跳。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要追溯到大约1250年。在这片当时属于布拉班特公国的边境土地上，一个名叫赫尔曼·霍恩（Herman Hoen）的骑士家族，为了彰显权势和保护自己的领地，在一片沼泽湿地中建造了最初的防御塔楼。那时的城堡核心，就是今天我们看到的那座巨大的主塔楼（Donjon）的雏形，它纯粹为战斗而建，墙壁厚实，窗户狭小，是乱世中一个坚固的权力据点。霍恩家族的名字，也从此与这片土地紧紧相连，“Hoensbroek”（霍恩的沼泽地）因此得名。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "接下来的几个世纪，城堡的命运与家族的兴衰、地区的战火深深纠缠。在15世纪，它经历了第一次重要的扩建，从单一的塔楼变成了一个带有内庭院的方形堡垒，护城河系统也变得更加复杂。这反映了当时战争模式的改变，也彰显了霍恩家族地位的提升。然而，真正的黄金时代是在17世纪。当时的主人，阿诺德·威廉·范·霍恩（Arnold Willem van Hoen），一位在西班牙王位继承战争中为荷兰共和国效力的将军，决定将这座祖传的军事堡垒，改造成一座配得上其身份的、舒适豪华的贵族官邸。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这是城堡历史上最华丽的一次转身。他增建了优雅的厢房，引入了大量大型的玻璃窗，让阳光和风景涌入室内。房间内部装饰焕然一新，采用了当时最时髦的古典主义和后来的洛可可风格，精美的灰泥天花板、华丽的壁炉和优雅的楼梯相继出现。护城河依然存在，但防御功能大大减弱，美学和象征意义变得更加重要——它变成了一面巨大的镜子，映照着家族的财富与荣耀。城堡从一个武夫的坚硬铠甲，变成了一位贵族的锦绣华服。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，盛宴终有散场时。法国大革命和随之而来的战争浪潮席卷欧洲，旧的封建秩序土崩瓦解。霍恩家族在19世纪初失去了对城堡的所有权。此后的一个多世纪，城堡如同一个沉睡的巨人，先后被用作农场、法院办公室甚至临时监狱，昔日的荣光被尘埃覆盖，建筑本身也因缺乏维护而日渐破败。直到20世纪60年代，当地市政府和一群有远见的历史爱好者意识到了它无可替代的价值，发起了一场大规模的拯救与修复运动。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历经数十年的精心修缮，城堡在1972年重新向公众开放。修复者们没有把它变成一座空洞的纪念碑，而是决定用“时代房间”的概念来呈现其历史。他们从各地搜集来符合各个时期风格的家具、画作和日常用品，将不同年代的房间重新“填满”，让你能直观地感受到从中世纪到20世纪初的生活变迁。今天，当我们漫步其中，听到孩子们的欢笑在古老的石廊中回荡，看到的不仅是砖石木梁，更是一个家族、一个地区跨越八百年的呼吸与心跳。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`建议最好在一个非周末的上午，大约10点刚开门时抵达。这时游客最少，晨光柔和，你能独享护城河最静谧的倒影和城堡刚苏醒的氛围。整个深度游览建议预留至少4到5小时。节奏可以这样安排：先用一个多小时环绕外部，感受其磅礴的防御体系和与自然环境的融合；然后进入室内，按照从古老到近代的时间顺序，慢慢沉浸在不同的“时代房间”里；最后登上塔楼，将一切尽收眼底，并在城堡咖啡馆回味所见。这样的顺序让你由远及近、由外向内、由整体到细节，完成一次完整的时空穿越。`}
                 </p>
@@ -154,8 +157,9 @@ export default function HoensbroekCastlePage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`温馨民宿之选`}</h4>
@@ -175,50 +179,51 @@ export default function HoensbroekCastlePage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`洪斯布鲁克本身是一个非常宁静的村镇，夜晚极其安静，适合追求静谧休息的旅行者。如果想有更多的餐饮和购物选择，住在海尔伦或马斯特里赫特是更便利的选择。林堡省的住宿在夏季和周末相当紧俏，尤其是特色民宿，务必提前数周甚至数月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "洪斯布鲁克本身是一个非常宁静的村镇，夜晚极其安静，适合追求静谧休息的旅行者。如果想有更多的餐饮和购物选择，住在海尔伦或马斯特里赫特是更便利的选择。林堡省的住宿在夏季和周末相当紧俏，尤其是特色民宿，务必提前数周甚至数月预订。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开洪斯布鲁克城堡许久，我的脑海里依然清晰地留存着两个画面：一个是它庞大、静默、倒映在水中的雄浑侧影，如同一个从时间长河中浮起的巨兽；另一个则是城堡厨房里，那一束斜斜照在旧铜锅上的阳光，温暖而家常。这座城堡最了不起的地方，或许就在于它完美地兼容了这两种气质——史诗般的宏大叙事，与触手可及的生活温度。它没有仅仅满足于成为一个地标，而是固执地保留着烟火气。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率、一切都被加速的时代，洪斯布鲁克邀请我们做一件“低效”的事：花上半天时间，去认真地走一圈护城河，去爬一爬那些陡峭的旋转楼梯，去坐在骑士大厅里发一会儿呆，想象曾经是谁在这里欢宴或忧虑。它告诉我们，历史不是玻璃后面的标本，而是可以走进、触摸甚至呼吸的空气。对于每一位厌倦了打卡式旅游，渴望真正触摸欧洲脉络的旅人来说，这里都是一个绝佳的答案。它用砖石、流水和八个世纪的故事，为我们提供了一次珍贵的“沉浸式”时间旅行，让你真切地感受到，我们不过是漫长历史中短暂而幸运的访客。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开洪斯布鲁克城堡许久，我的脑海里依然清晰地留存着两个画面：一个是它庞大、静默、倒映在水中的雄浑侧影，如同一个从时间长河中浮起的巨兽；另一个则是城堡厨房里，那一束斜斜照在旧铜锅上的阳光，温暖而家常。这座城堡最了不起的地方，或许就在于它完美地兼容了这两种气质——史诗般的宏大叙事，与触手可及的生活温度。它没有仅仅满足于成为一个地标，而是固执地保留着烟火气。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、一切都被加速的时代，洪斯布鲁克邀请我们做一件“低效”的事：花上半天时间，去认真地走一圈护城河，去爬一爬那些陡峭的旋转楼梯，去坐在骑士大厅里发一会儿呆，想象曾经是谁在这里欢宴或忧虑。它告诉我们，历史不是玻璃后面的标本，而是可以走进、触摸甚至呼吸的空气。对于每一位厌倦了打卡式旅游，渴望真正触摸欧洲脉络的旅人来说，这里都是一个绝佳的答案。它用砖石、流水和八个世纪的故事，为我们提供了一次珍贵的“沉浸式”时间旅行，让你真切地感受到，我们不过是漫长历史中短暂而幸运的访客。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/thorn-white-village" className="block group">
+              <a href="/attractions/blutenburg-castle-munich" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    托
+                    布
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">托伦白村</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Thorn</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布伦古堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Blutenburg Castle</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/gmunden-castle" className="block group">
+              <a href="/attractions/chateau-de-pontivy" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    格
+                    蓬
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格蒙登城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gmunden Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蓬蒂维城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Pontivy</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/durnstein-castle" className="block group">
+              <a href="/attractions/kolossi-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    杜
+                    科
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">杜恩施泰因城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dürnstein Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科洛西城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kolossi Castle</p>
                   </div>
                 </div>
               </a>

@@ -15,7 +15,7 @@ export default function KyreniaHarbourCastleShipwreckMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '凯里尼亚港与城堡（塞浦路斯）', href: '/attractions/kyrenia-harbour-castle-shipwreck-museum' },
           ]}
         />

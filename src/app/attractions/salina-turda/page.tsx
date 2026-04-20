@@ -15,7 +15,7 @@ export default function SalinaTurdaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '图尔达盐矿', href: '/attractions/salina-turda' },
           ]}
         />

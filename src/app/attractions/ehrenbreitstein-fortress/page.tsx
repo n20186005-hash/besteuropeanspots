@@ -15,7 +15,7 @@ export default function EhrenbreitsteinFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '科布伦茨埃伦布赖特施泰因要塞', href: '/attractions/ehrenbreitstein-fortress' },
           ]}
         />

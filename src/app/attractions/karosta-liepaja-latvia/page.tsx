@@ -15,7 +15,7 @@ export default function KarostaLiepajaLatviaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卡罗斯塔', href: '/attractions/karosta-liepaja-latvia' },
           ]}
         />

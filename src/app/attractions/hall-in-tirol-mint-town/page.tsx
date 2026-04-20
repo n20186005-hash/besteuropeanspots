@@ -15,7 +15,7 @@ export default function HallInTirolMintTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '蒂罗尔的哈尔（古老的铸币城）', href: '/attractions/hall-in-tirol-mint-town' },
           ]}
         />

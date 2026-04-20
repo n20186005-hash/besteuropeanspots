@@ -15,7 +15,7 @@ export default function CasteloDeVideJudaicaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卡斯特卢-迪维迪（阿连特茹的犹太遗风小镇）', href: '/attractions/castelo-de-vide-judaica' },
           ]}
         />

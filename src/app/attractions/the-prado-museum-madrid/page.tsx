@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '普拉多大道上的沉默巨匠 The Prado Museum｜直面戈雅、委拉斯开兹灵魂画作的朝圣之地 - 最佳欧洲景点',
-  description: '走进普拉多博物馆的那一刻，你首先感受到的是一种庄严的寂静，但这寂静是有重量和气味的。那不是图书馆式的安静，而是数百幅古老油画颜料、上光油、以及历经岁月沉淀的木制画框所共同散发出的、略带暖意的幽微气息，混合着中央供暖系统轻微的嘶嘶声。光线是精心设计过的，大多数展厅幽暗如洞穴，只有画作被精准的射灯点亮，...',
+  description: '走进普拉多博物馆的那一刻，你首先感受到的是一种庄严的寂静，但这寂静是有重量和气味的。那不是图书馆式的安静，而是数百幅古老油画颜料、上光油、以及历经岁月沉淀的木制画框所共同散发出的、略带暖意的幽微气息，混合着中央供暖系统轻微的嘶嘶声。光线是精心设计过的，大多数展厅幽暗如洞穴，只有画作被精准的射灯点亮，',
 }
 
 export default function ThePradoMuseumMadridPage() {
@@ -15,7 +15,7 @@ export default function ThePradoMuseumMadridPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '普拉多大道上的沉默巨匠', href: '/attractions/the-prado-museum-madrid' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function ThePradoMuseumMadridPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`走进普拉多博物馆的那一刻，你首先感受到的是一种庄严的寂静，但这寂静是有重量和气味的。那不是图书馆式的安静，而是数百幅古老油画颜料、上光油、以及历经岁月沉淀的木制画框所共同散发出的、略带暖意的幽微气息，混合着中央供暖系统轻微的嘶嘶声。光线是精心设计过的，大多数展厅幽暗如洞穴，只有画作被精准的射灯点亮，仿佛它们是自己在黑暗中发光。你会听到脚步声在宽阔的大理石地面上回响，但很快，这些声音都会被眼前那些巨大画布上汹涌的情感所吞没。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这里不像卢浮宫那样是世界的百科全书，它更专注，也更深情。它的核心是西班牙的灵魂，尤其是戈雅和委拉斯开兹，这两位巨人如同两根支柱，撑起了整个博物馆的精神穹顶。在委拉斯开兹的《宫娥》前，你永远会看到最多的人长久驻足，人们试图解开那个镜子反射的谜题，画家本人正在画布后看着我们吗？这种互动感在17世纪是革命性的。而戈雅的展厅则像一场从光明到黑暗的剧烈旅行，从早期明快的挂毯草图，到晚年那批直接画在自己家墙上的“黑色绘画”，那股 raw 的、近乎疯狂的绝望力量，能瞬间攫住你的心脏。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`你会注意到很多本地人，他们可能只是进来看看自己最爱的某一幅画，就像拜访一位老朋友。一个老绅士在戈雅的《1808年5月3日》前默默摘下帽子；一个艺术系的学生在临摹鲁本斯画中某片裙摆的光泽。在这里，艺术不是高悬的、仅供瞻仰的文物，它依然是流淌在马德里人血液里的东西，是他们在谈论历史、政治和人性时，可以随时调用的视觉词典。普拉多大道上车水马龙，而馆内的时间是缓慢流淌的琥珀。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进普拉多博物馆的那一刻，你首先感受到的是一种庄严的寂静，但这寂静是有重量和气味的。那不是图书馆式的安静，而是数百幅古老油画颜料、上光油、以及历经岁月沉淀的木制画框所共同散发出的、略带暖意的幽微气息，混合着中央供暖系统轻微的嘶嘶声。光线是精心设计过的，大多数展厅幽暗如洞穴，只有画作被精准的射灯点亮，仿佛它们是自己在黑暗中发光。你会听到脚步声在宽阔的大理石地面上回响，但很快，这些声音都会被眼前那些巨大画布上汹涌的情感所吞没。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里不像卢浮宫那样是世界的百科全书，它更专注，也更深情。它的核心是西班牙的灵魂，尤其是戈雅和委拉斯开兹，这两位巨人如同两根支柱，撑起了整个博物馆的精神穹顶。在委拉斯开兹的《宫娥》前，你永远会看到最多的人长久驻足，人们试图解开那个镜子反射的谜题，画家本人正在画布后看着我们吗？这种互动感在17世纪是革命性的。而戈雅的展厅则像一场从光明到黑暗的剧烈旅行，从早期明快的挂毯草图，到晚年那批直接画在自己家墙上的“黑色绘画”，那股 raw 的、近乎疯狂的绝望力量，能瞬间攫住你的心脏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你会注意到很多本地人，他们可能只是进来看看自己最爱的某一幅画，就像拜访一位老朋友。一个老绅士在戈雅的《1808年5月3日》前默默摘下帽子；一个艺术系的学生在临摹鲁本斯画中某片裙摆的光泽。在这里，艺术不是高悬的、仅供瞻仰的文物，它依然是流淌在马德里人血液里的东西，是他们在谈论历史、政治和人性时，可以随时调用的视觉词典。普拉多大道上车水马龙，而馆内的时间是缓慢流淌的琥珀。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function ThePradoMuseumMadridPage() {
                 <InfoRow label="国家" value={`西班牙`} />
                 <InfoRow label="城市" value={`马德里`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`西班牙无可争议的艺术圣殿，收藏了世界上最为完整和顶级的西班牙绘画珍品。`} />
                 <InfoRow label="建筑特色" value={`新古典主义风格的宏伟立面和内部经过巧妙现代化改造的古典展厅空间，形成穿越时空的对话。`} />
@@ -52,6 +54,7 @@ export default function ThePradoMuseumMadridPage() {
                 <InfoRow label="文化价值" value={`它并非仅仅是画廊，而是理解西班牙民族性格、历史悲欢与精神深渊的一把视觉钥匙。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`周一至周六上午10:00至晚上8:00；周日及节假日上午10:00至晚上7:00。每年1月1日、5月1日、12月25日闭馆。特殊节日（如平安夜、新年前夜）提前至下午2:00闭馆。免费入场时段为周一至周六晚上6:00至8:00，以及周日和节假日下午5:00至7:00，但此时段人流极多。`} />
               <InfoRow label="门票价格" value={`全价票：15欧元。优惠票（65岁以上欧盟公民、青年卡持有者等）：7.5欧元。免费人群：18岁以下、18-25岁学生（需出示国际学生证）、残疾人士及一名陪同者。建议提前在官网购票并选择具体入场时段，可节省至少一小时排队时间。购票后两年内有效。`} />
@@ -62,18 +65,18 @@ export default function ThePradoMuseumMadridPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`普拉多的故事始于一位有品位的国王和一个野心勃勃的建筑计划。18世纪末，卡洛斯三世国王希望在马德里打造一个科学文化区，他委托建筑师胡安·德·比利亚努埃瓦设计一栋建筑，最初是想用作自然历史博物馆和科学院。建筑在拿破仑战争期间一度沦为骑兵军营，遭到了破坏，这个开局似乎预示了它未来将与西班牙的命运一样多舛。转机来自另一位国王——斐迪南七世，尤其是他那有着艺术慧眼的王后玛丽亚·伊莎贝尔·德·布拉甘萨。在她的推动下，这座建筑终于在1819年以“皇家绘画雕塑博物馆”的名义向公众开放，展品核心来自西班牙皇室的奢华收藏。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这些皇室收藏才是普拉多真正的根基。它的丰饶要感谢哈布斯堡和波旁王朝历代君主，特别是那位热爱艺术的“奥地利”的菲利普四世。他不仅是伟大的赞助人，更是委拉斯开兹的挚友和伯乐。正是他，将委拉斯开兹聘为宫廷画师，给予了这位天才无与伦比的创作自由和地位，才有了《宫娥》、《纺织女》等不朽杰作。可以说，没有菲利普四世，西班牙绘画的黄金时代将失去最璀璨的光芒。这些画作原本散落在各个王宫城堡，最终汇集于此，成为国家的宝藏。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`19世纪的西班牙动荡不安，战争、革命、政权更迭如同走马灯。普拉多奇迹般地在这场混乱中幸存并壮大，这本身就是一个传奇。它经历了从皇家财产到国家博物馆的身份转变，并在“失窃”的危机中增添了戏剧性。比如，戈雅那幅迷人的《裸体的玛哈》曾一度被宗教裁判所收缴，差点永远消失。博物馆的收藏也在不断扩大，不仅通过购买，更通过“国家遗产”的征收，将许多从修道院解散后流落的宗教画纳入馆藏，这使得普拉多在中世纪和文艺复兴早期西班牙艺术方面的收藏变得无与伦比。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`20世纪的西班牙内战是对普拉多最严峻的考验。当马德里成为前线，炮弹可能落在任何地方时，共和政府做出了一个英勇的决定：疏散国宝。在馆长和工作人员的努力下，数百幅最珍贵的画作被小心翼翼地从画框上取下，卷起，装上卡车，开始了一场穿越战火的“艺术大迁徙”。它们先东躲西藏，最后被运送到日内瓦的国际联盟总部暂存。佛朗哥获胜后，这些画作又历尽艰辛重返马德里。这段历史为博物馆的每一幅画都镀上了一层悲壮的光辉。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`今天的普拉多，在保留其历史灵魂的同时，也勇敢地拥抱了现代。2007年，由著名建筑师拉斐尔·莫内奥设计的扩建部分竣工，巧妙地通过地下通道与主馆连接，解决了展览空间不足的问题，新增的餐厅和休息区也让参观体验更加人性化。它不再仅仅是一个保存过去的保险箱，而是一个持续进行研究和对话的活态机构。从比利亚努埃瓦的新古典主义蓝图，到战火中的颠沛流离，再到现代的从容扩展，普拉多的建筑与它的藏品一样，讲述着西班牙如何在与自身历史的复杂对话中，走向今天。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "普拉多的故事始于一位有品位的国王和一个野心勃勃的建筑计划。18世纪末，卡洛斯三世国王希望在马德里打造一个科学文化区，他委托建筑师胡安·德·比利亚努埃瓦设计一栋建筑，最初是想用作自然历史博物馆和科学院。建筑在拿破仑战争期间一度沦为骑兵军营，遭到了破坏，这个开局似乎预示了它未来将与西班牙的命运一样多舛。转机来自另一位国王——斐迪南七世，尤其是他那有着艺术慧眼的王后玛丽亚·伊莎贝尔·德·布拉甘萨。在她的推动下，这座建筑终于在1819年以“皇家绘画雕塑博物馆”的名义向公众开放，展品核心来自西班牙皇室的奢华收藏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些皇室收藏才是普拉多真正的根基。它的丰饶要感谢哈布斯堡和波旁王朝历代君主，特别是那位热爱艺术的“奥地利”的菲利普四世。他不仅是伟大的赞助人，更是委拉斯开兹的挚友和伯乐。正是他，将委拉斯开兹聘为宫廷画师，给予了这位天才无与伦比的创作自由和地位，才有了《宫娥》、《纺织女》等不朽杰作。可以说，没有菲利普四世，西班牙绘画的黄金时代将失去最璀璨的光芒。这些画作原本散落在各个王宫城堡，最终汇集于此，成为国家的宝藏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "19世纪的西班牙动荡不安，战争、革命、政权更迭如同走马灯。普拉多奇迹般地在这场混乱中幸存并壮大，这本身就是一个传奇。它经历了从皇家财产到国家博物馆的身份转变，并在“失窃”的危机中增添了戏剧性。比如，戈雅那幅迷人的《裸体的玛哈》曾一度被宗教裁判所收缴，差点永远消失。博物馆的收藏也在不断扩大，不仅通过购买，更通过“国家遗产”的征收，将许多从修道院解散后流落的宗教画纳入馆藏，这使得普拉多在中世纪和文艺复兴早期西班牙艺术方面的收藏变得无与伦比。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "20世纪的西班牙内战是对普拉多最严峻的考验。当马德里成为前线，炮弹可能落在任何地方时，共和政府做出了一个英勇的决定：疏散国宝。在馆长和工作人员的努力下，数百幅最珍贵的画作被小心翼翼地从画框上取下，卷起，装上卡车，开始了一场穿越战火的“艺术大迁徙”。它们先东躲西藏，最后被运送到日内瓦的国际联盟总部暂存。佛朗哥获胜后，这些画作又历尽艰辛重返马德里。这段历史为博物馆的每一幅画都镀上了一层悲壮的光辉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的普拉多，在保留其历史灵魂的同时，也勇敢地拥抱了现代。2007年，由著名建筑师拉斐尔·莫内奥设计的扩建部分竣工，巧妙地通过地下通道与主馆连接，解决了展览空间不足的问题，新增的餐厅和休息区也让参观体验更加人性化。它不再仅仅是一个保存过去的保险箱，而是一个持续进行研究和对话的活态机构。从比利亚努埃瓦的新古典主义蓝图，到战火中的颠沛流离，再到现代的从容扩展，普拉多的建筑与它的藏品一样，讲述着西班牙如何在与自身历史的复杂对话中，走向今天。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`普拉多是一座需要策略和体力的艺术迷宫，试图一天看完所有精华是mission impossible。理想的深度游览需要至少5-6小时。建议选择周二至周五的上午10点开门时即入场，此时光线好，人流相对较少。游览节奏应该是“重点突破，有所舍弃”。首先直冲顶层的西班牙大师核心展区（委拉斯开兹、戈雅），在精力最充沛时面对最重磅的作品。之后下楼，根据兴趣选择佛兰德大师（博斯、鲁本斯）或意大利画派（提香）。中午可在馆内咖啡厅稍作休息，下午再浏览一些特色展厅如雕塑馆。务必保留最后半小时，回到你最爱的一幅画前，安静地告别。`}
                 </p>
@@ -148,8 +151,9 @@ export default function ThePradoMuseumMadridPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`文化心脏之选`}</h4>
@@ -169,50 +173,51 @@ export default function ThePradoMuseumMadridPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`普拉多大道和丽池公园周边区域非常安全且充满生活气息，夜晚散步极佳。马德里的酒店预订在周末和大型节日期间会非常紧张，尤其是博物馆周边，建议至少提前两个月规划。如果你追求绝对安静，请避免选择正对主要大街的低楼层房间。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "普拉多大道和丽池公园周边区域非常安全且充满生活气息，夜晚散步极佳。马德里的酒店预订在周末和大型节日期间会非常紧张，尤其是博物馆周边，建议至少提前两个月规划。如果你追求绝对安静，请避免选择正对主要大街的低楼层房间。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开普拉多时，你的背包里没有多一件实物纪念品，但你的脑海里可能已经塞满了过多的图像、色彩和故事，多到需要好几天来消化。戈雅笔下那些在黑暗中睁大的眼睛，委拉斯开兹画面中空气的震颤，博斯世界里狂欢与审判并存的奇景……它们不会立刻给你答案，反而会抛给你更多关于生命、权力、信仰和疯狂的疑问。这或许就是伟大艺术的本质：它不是装饰，而是一次次沉重而必要的叩击。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切追求快速消费和碎片信息的时代，普拉多坚持着它的“深度”与“专注”。它不试图取悦所有人，而是执着地守护并深入挖掘一片土壤——西班牙的精神土壤。来这里，你不是在完成一项“打卡世界名画”的任务，而是在进行一场缓慢的、与自己内心恐惧和欲望对视的仪式。每一位真正的旅人，都应该至少经历一次这样的仪式，在马德里的阳光下，走进这座沉默的建筑，让几个世纪前的巨匠告诉你，人类的悲欢从未改变，而艺术，是我们穿越这悲欢时，所能持有的最诚实的光。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开普拉多时，你的背包里没有多一件实物纪念品，但你的脑海里可能已经塞满了过多的图像、色彩和故事，多到需要好几天来消化。戈雅笔下那些在黑暗中睁大的眼睛，委拉斯开兹画面中空气的震颤，博斯世界里狂欢与审判并存的奇景……它们不会立刻给你答案，反而会抛给你更多关于生命、权力、信仰和疯狂的疑问。这或许就是伟大艺术的本质：它不是装饰，而是一次次沉重而必要的叩击。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切追求快速消费和碎片信息的时代，普拉多坚持着它的“深度”与“专注”。它不试图取悦所有人，而是执着地守护并深入挖掘一片土壤——西班牙的精神土壤。来这里，你不是在完成一项“打卡世界名画”的任务，而是在进行一场缓慢的、与自己内心恐惧和欲望对视的仪式。每一位真正的旅人，都应该至少经历一次这样的仪式，在马德里的阳光下，走进这座沉默的建筑，让几个世纪前的巨匠告诉你，人类的悲欢从未改变，而艺术，是我们穿越这悲欢时，所能持有的最诚实的光。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/castillo-de-los-templarios" className="block group">
+              <a href="/attractions/sos-del-rey-catolico" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    蓬
+                    索
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蓬费拉达圣殿骑士城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castillo de los Templarios</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">索斯-德尔雷伊卡托利科</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sos del Rey Católico</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/setenil-de-las-bodegas" className="block group">
+              <a href="/attractions/ubeda" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    塞
+                    乌
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塞特尼尔-德拉斯博德加斯</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Setenil de las Bodegas</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乌韦达古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Úbeda</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/zafra-white-city" className="block group">
+              <a href="/attractions/peniscola-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    萨
+                    佩
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨夫拉</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zafra</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩尼斯科拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Peñíscola</p>
                   </div>
                 </div>
               </a>

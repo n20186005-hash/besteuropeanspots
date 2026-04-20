@@ -15,7 +15,7 @@ export default function CastellarquatoMedievalVillageItalyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿夸尔夸托', href: '/attractions/castellarquato-medieval-village-italy' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function LauenburgAnDerElbePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '劳恩堡（易北河畔）', href: '/attractions/lauenburg-an-der-elbe' },
           ]}
         />

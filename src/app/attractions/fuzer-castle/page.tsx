@@ -15,7 +15,7 @@ export default function FuzerCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '菲泽尔城堡', href: '/attractions/fuzer-castle' },
           ]}
         />

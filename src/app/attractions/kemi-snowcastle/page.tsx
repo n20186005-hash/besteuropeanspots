@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '凯米雪城 Kemi SnowCastle｜每年冬日限定的波的尼亚湾纯冰雪堡垒奇幻体验 - 最佳欧洲景点',
-  description: '你第一眼看到它的时候，会怀疑自己是不是闯进了一个巨人用糖霜和钻石堆砌的梦境。那不是你在迪士尼动画里看到的石头城堡，它的轮廓在芬兰拉普兰清冽的、泛着蓝光的空气里，显得既宏伟又脆弱。走近了，那股子寒气先扑过来，不是刺痛，是一种非常干净的、带着松针和远方海洋气息的冷。手摸上外墙，触感光滑而坚硬，指尖传来的...',
+  description: '你第一眼看到它的时候，会怀疑自己是不是闯进了一个巨人用糖霜和钻石堆砌的梦境。那不是你在迪士尼动画里看到的石头城堡，它的轮廓在芬兰拉普兰清冽的、泛着蓝光的空气里，显得既宏伟又脆弱。走近了，那股子寒气先扑过来，不是刺痛，是一种非常干净的、带着松针和远方海洋气息的冷。手摸上外墙，触感光滑而坚硬，指尖传来的',
 }
 
 export default function KemiSnowcastlePage() {
@@ -15,7 +15,7 @@ export default function KemiSnowcastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '凯米雪城', href: '/attractions/kemi-snowcastle' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function KemiSnowcastlePage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`你第一眼看到它的时候，会怀疑自己是不是闯进了一个巨人用糖霜和钻石堆砌的梦境。那不是你在迪士尼动画里看到的石头城堡，它的轮廓在芬兰拉普兰清冽的、泛着蓝光的空气里，显得既宏伟又脆弱。走近了，那股子寒气先扑过来，不是刺痛，是一种非常干净的、带着松针和远方海洋气息的冷。手摸上外墙，触感光滑而坚硬，指尖传来的是零下十几度的、实实在在的“存在感”——是的，这整座带着塔楼、城墙和复杂浮雕的庞然大物，全是雪和冰，没有一块砖，没有一根钢筋。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`穿过拱形的城门，光线陡然一变。阳光透过厚厚的、被精心雕刻过的冰墙折射进来，不再是白色，而是弥漫开一种柔和的、蓝莹莹的光晕，仿佛置身于一颗巨大的宝石内部。耳边很安静，只有靴子踩在压实的雪地上发出的“咯吱”声，偶尔夹杂着其他游客压低音量的、忍不住的惊叹。你的呼吸化成白雾，迅速消散在这冰的宫殿里。这里不像一个单纯的景点，更像一个季节性的社区广场。你会看到本地的小孩兴奋地从一个冰滑梯上尖叫着溜下来，看到一对老夫妇手挽着手，在冰雪画廊里仔细端详今年的冰雕作品，那可能是关于萨米人传说的场景，也可能是一群跃出海面的独角鲸。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的，莫过于知道这一切的“短暂”。你所在的这个大厅，几个月后就会化为一滩春水，回归波的尼亚湾。明年冬天，工匠们又会从海中取冰，重新构思，建起一个全新的、只存在一季的幻梦。这种极致的“一期一会”，让每一刻的体验都充满了神圣的仪式感。你不是在参观一个古迹，你是在参与一个正在发生的、关于冬天、想象力与消亡的盛大寓言。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你第一眼看到它的时候，会怀疑自己是不是闯进了一个巨人用糖霜和钻石堆砌的梦境。那不是你在迪士尼动画里看到的石头城堡，它的轮廓在芬兰拉普兰清冽的、泛着蓝光的空气里，显得既宏伟又脆弱。走近了，那股子寒气先扑过来，不是刺痛，是一种非常干净的、带着松针和远方海洋气息的冷。手摸上外墙，触感光滑而坚硬，指尖传来的是零下十几度的、实实在在的“存在感”——是的，这整座带着塔楼、城墙和复杂浮雕的庞然大物，全是雪和冰，没有一块砖，没有一根钢筋。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "穿过拱形的城门，光线陡然一变。阳光透过厚厚的、被精心雕刻过的冰墙折射进来，不再是白色，而是弥漫开一种柔和的、蓝莹莹的光晕，仿佛置身于一颗巨大的宝石内部。耳边很安静，只有靴子踩在压实的雪地上发出的“咯吱”声，偶尔夹杂着其他游客压低音量的、忍不住的惊叹。你的呼吸化成白雾，迅速消散在这冰的宫殿里。这里不像一个单纯的景点，更像一个季节性的社区广场。你会看到本地的小孩兴奋地从一个冰滑梯上尖叫着溜下来，看到一对老夫妇手挽着手，在冰雪画廊里仔细端详今年的冰雕作品，那可能是关于萨米人传说的场景，也可能是一群跃出海面的独角鲸。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人心的，莫过于知道这一切的“短暂”。你所在的这个大厅，几个月后就会化为一滩春水，回归波的尼亚湾。明年冬天，工匠们又会从海中取冰，重新构思，建起一个全新的、只存在一季的幻梦。这种极致的“一期一会”，让每一刻的体验都充满了神圣的仪式感。你不是在参观一个古迹，你是在参与一个正在发生的、关于冬天、想象力与消亡的盛大寓言。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function KemiSnowcastlePage() {
                 <InfoRow label="国家" value={`芬兰`} />
                 <InfoRow label="城市" value={`凯米`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`世界上最大的、每年重建的冰雪堡垒，是芬兰冬季旅游的标志性创造物。`} />
                 <InfoRow label="建筑特色" value={`完全由本地海域的自然冰雪（包括波的海的雪和冰）砌成，内含酒店、餐厅、教堂等完整功能空间。`} />
@@ -52,6 +54,7 @@ export default function KemiSnowcastlePage() {
                 <InfoRow label="文化价值" value={`体现了北欧人与自然冬季共存的智慧、幽默与极致浪漫，是短暂而壮丽的“冰建筑”艺术的活态展示。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`通常于每年一月中旬至四月初开放，具体日期取决于当年冬季气温与建造进度。开放期间每天上午10点至晚上8点可进入城堡主体区域；冰雪酒店住宿区域24小时可入住。需特别注意，城堡可能因异常温暖天气提前关闭或进行局部修复，出行前务必在其官网确认最新状态。`} />
               <InfoRow label="门票价格" value={`一日通票：成人约18欧元，儿童（4-14岁）约9欧元，4岁以下免费。家庭票（2大2小）约45欧元。门票包含城堡内所有冰雪艺术画廊、冰雪教堂、冰雪餐厅公共区域及部分游乐设施的参观。冰雪酒店住宿费用另计，标准冰屋双人房一晚体验（含早餐和睡袋）约300-400欧元，价格因具体日期和房型浮动。持有芬兰博物馆通票或拉普兰地区旅游卡可能有小额折扣。`} />
@@ -62,17 +65,17 @@ export default function KemiSnowcastlePage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从1996年那个异常寒冷的冬天说起。当时的凯米，这座位于波罗的海北岸的工业小城，正苦于漫长的冬季旅游业低迷。有人提出了一个近乎疯狂的想法：何不利用我们最丰富的资源——冰雪，造点真正吸引眼球的东西？于是，为了给当年一艘破冰船的首航仪式造势，第一批工匠和艺术家们集结起来，在港口边堆砌起了第一座简陋的冰雪堡垒。没人能想到，那个带着实验性质的“一次性”项目，竟然引起了轰动。人们从芬兰各地赶来，就为了看看这座能用冰做墙、用雪当瓦的奇异建筑。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最初的几年，雪城规模不大，更像一个精致的冰雪游乐园。转机出现在千禧年前后，随着“冰雪酒店”概念在瑞典尤卡斯耶尔维兴起，凯米人看到了更深的潜力。他们想：我们能不能不只是让人看看，而是让人真正住进去？于是，冰酒吧、冰餐厅、甚至冰教堂被一点点添加进来。工匠们从波的尼亚湾切割出巨大的、晶莹剔透的海冰作为酒吧台面和教堂的“彩窗”；从森林运来纯净的积雪，压实后成为酒店的墙壁。每一年的建造都像一场与天气和时间的赛跑。通常在一月初，当气温稳定在零下十度以下，庞大的建造工程就开始了。重型机械轰鸣，但最精细的部分——那些墙面上的神话浮雕、走廊尽头的精灵雕塑、穹顶的花纹——全靠工匠们手持冰锯和凿子，一毫米一毫米地雕刻出来。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`雪城的命运也与气候变化紧紧相连。记得有几个暖冬，建造进度异常缓慢，甚至有过开放日期一推再推的窘境。这也反过来塑造了它的文化内核：它成了气候变化最直观、最美丽的“警示碑”。人们欣赏它的绚烂，也深知它的脆弱。这些年来，它的主题从北欧神话、圣诞传说，到环保倡议、极地生灵，不断演变。它经历过暴风雪的考验，部分结构曾被摧毁又紧急修复；也享受过在极光摇曳的夜空下，城堡被映照成翡翠色的高光时刻。它不再仅仅是凯米的旅游名片，更成了芬兰人冬季精神的象征——在极端严寒中，不是蜷缩躲避，而是主动创造美与欢乐，并坦然接受季节轮回带来的消逝。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`如今，每年参与建造的已经是第三代“冰雪建筑师”了。他们继承了老师傅的手艺，也引入了3D建模和更科学的保温技术。但核心从未改变：取材于自然，最终归还于自然。这座城堡没有永恒的设计图纸，它的蓝图存在于每一代工匠的想象力和对当年冬天最深的感受里。当你漫步其中，你触摸的不仅仅是冰，还是一整年的等待、数百人的协作，以及一个城市对冬季最深情的告白。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从1996年那个异常寒冷的冬天说起。当时的凯米，这座位于波罗的海北岸的工业小城，正苦于漫长的冬季旅游业低迷。有人提出了一个近乎疯狂的想法：何不利用我们最丰富的资源——冰雪，造点真正吸引眼球的东西？于是，为了给当年一艘破冰船的首航仪式造势，第一批工匠和艺术家们集结起来，在港口边堆砌起了第一座简陋的冰雪堡垒。没人能想到，那个带着实验性质的“一次性”项目，竟然引起了轰动。人们从芬兰各地赶来，就为了看看这座能用冰做墙、用雪当瓦的奇异建筑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初的几年，雪城规模不大，更像一个精致的冰雪游乐园。转机出现在千禧年前后，随着“冰雪酒店”概念在瑞典尤卡斯耶尔维兴起，凯米人看到了更深的潜力。他们想：我们能不能不只是让人看看，而是让人真正住进去？于是，冰酒吧、冰餐厅、甚至冰教堂被一点点添加进来。工匠们从波的尼亚湾切割出巨大的、晶莹剔透的海冰作为酒吧台面和教堂的“彩窗”；从森林运来纯净的积雪，压实后成为酒店的墙壁。每一年的建造都像一场与天气和时间的赛跑。通常在一月初，当气温稳定在零下十度以下，庞大的建造工程就开始了。重型机械轰鸣，但最精细的部分——那些墙面上的神话浮雕、走廊尽头的精灵雕塑、穹顶的花纹——全靠工匠们手持冰锯和凿子，一毫米一毫米地雕刻出来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "雪城的命运也与气候变化紧紧相连。记得有几个暖冬，建造进度异常缓慢，甚至有过开放日期一推再推的窘境。这也反过来塑造了它的文化内核：它成了气候变化最直观、最美丽的“警示碑”。人们欣赏它的绚烂，也深知它的脆弱。这些年来，它的主题从北欧神话、圣诞传说，到环保倡议、极地生灵，不断演变。它经历过暴风雪的考验，部分结构曾被摧毁又紧急修复；也享受过在极光摇曳的夜空下，城堡被映照成翡翠色的高光时刻。它不再仅仅是凯米的旅游名片，更成了芬兰人冬季精神的象征——在极端严寒中，不是蜷缩躲避，而是主动创造美与欢乐，并坦然接受季节轮回带来的消逝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如今，每年参与建造的已经是第三代“冰雪建筑师”了。他们继承了老师傅的手艺，也引入了3D建模和更科学的保温技术。但核心从未改变：取材于自然，最终归还于自然。这座城堡没有永恒的设计图纸，它的蓝图存在于每一代工匠的想象力和对当年冬天最深的感受里。当你漫步其中，你触摸的不仅仅是冰，还是一整年的等待、数百人的协作，以及一个城市对冬季最深情的告白。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`强烈建议在下午两点前抵达。芬兰拉普兰冬季白日短暂，下午三点左右天色就开始转暗。利用充足的自然光线（即便是灰蒙蒙的白天，冰雪也会反射柔和的光）仔细欣赏建筑和雕塑的细节。整体游览建议预留至少3-4小时。先快速浏览外围的壮观全景，然后进入城堡内部，按照从公共区域到私密体验的顺序，由动到静，最后以一杯冰杯盛的热饮或一次温暖的桑拿结束。这样安排能让你逐渐适应内部温度，并体验到从兴奋惊叹到内心宁静的完整情绪曲线。`}
                 </p>
@@ -157,8 +160,9 @@ export default function KemiSnowcastlePage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`极致体验首选`}</h4>
@@ -178,50 +182,51 @@ export default function KemiSnowcastlePage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`预订冰雪酒店一定要确认其提供的御寒装备是否齐全（通常包括睡袋、保暖内衣和帽子）。无论住哪里，冬季凯米的酒店预订都非常紧张，尤其是在二月和三月的学校假期，务必提前数月规划。市区治安极好，但冬季夜晚街道空旷寂静，女性独行旅客也无需担心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "预订冰雪酒店一定要确认其提供的御寒装备是否齐全（通常包括睡袋、保暖内衣和帽子）。无论住哪里，冬季凯米的酒店预订都非常紧张，尤其是在二月和三月的学校假期，务必提前数月规划。市区治安极好，但冬季夜晚街道空旷寂静，女性独行旅客也无需担心。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开凯米雪城很久以后，我脑海里反复出现的，不是某一块冰雕多么精致，也不是那杯冰酒多么奇特，而是一种挥之不去的关于“短暂与永恒”的思考。在我们习惯追求永恒纪念碑的世界里，竟然有这样一群人，每年投入巨大的心血，去建造一座明知会消失的城堡。这行为本身，就充满了诗意的反抗。它告诉我们，美不一定需要以千年为单位来证明自己的价值。极致地绽放一季，然后坦然融化，这何尝不是一种更勇敢、更贴近生命本质的存在方式？`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`所以，每一位热爱深度游的旅人，都应该在冬季来一次凯米。你来，不仅仅是为了一座城堡。你是来参与一个正在发生的当代神话，来触摸一种转瞬即逝的勇气，来在彻骨的寒冷中，感受最炽热的创造热情。当春天来临，城堡化为流水，你记忆里的那片蓝光，却会成为你心中一座永不消融的冰雪堡垒。它提醒你，世间有些极致的美好，正因为无法占有、无法重复，才显得如此纯粹和珍贵。这，或许就是旅行能带给我们的，最深刻的哲学课。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开凯米雪城很久以后，我脑海里反复出现的，不是某一块冰雕多么精致，也不是那杯冰酒多么奇特，而是一种挥之不去的关于“短暂与永恒”的思考。在我们习惯追求永恒纪念碑的世界里，竟然有这样一群人，每年投入巨大的心血，去建造一座明知会消失的城堡。这行为本身，就充满了诗意的反抗。它告诉我们，美不一定需要以千年为单位来证明自己的价值。极致地绽放一季，然后坦然融化，这何尝不是一种更勇敢、更贴近生命本质的存在方式？" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，每一位热爱深度游的旅人，都应该在冬季来一次凯米。你来，不仅仅是为了一座城堡。你是来参与一个正在发生的当代神话，来触摸一种转瞬即逝的勇气，来在彻骨的寒冷中，感受最炽热的创造热情。当春天来临，城堡化为流水，你记忆里的那片蓝光，却会成为你心中一座永不消融的冰雪堡垒。它提醒你，世间有些极致的美好，正因为无法占有、无法重复，才显得如此纯粹和珍贵。这，或许就是旅行能带给我们的，最深刻的哲学课。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/old-rauma" className="block group">
+              <a href="/attractions/naantali-presidential-summer-resident-and-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    劳
+                    楠
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">劳马古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Old Rauma</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">楠塔利（芬兰总统夏宫及木屋老城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Naantali</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/turku-castle" className="block group">
+              <a href="/attractions/tampere" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    图
+                    坦
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图尔库城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Turku Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">坦佩雷老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tampere</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/lenzkirch" className="block group">
+              <a href="/attractions/raseborg-castle-finland" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    伦
+                    拉
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伦茨基尔希城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lenzkirch Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉塞博里城堡遗址（森林与岩石中的中世纪堡垒）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Raseborg Castle</p>
                   </div>
                 </div>
               </a>

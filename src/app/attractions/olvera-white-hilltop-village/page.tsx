@@ -15,7 +15,7 @@ export default function OlveraWhiteHilltopVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥尔韦拉', href: '/attractions/olvera-white-hilltop-village' },
           ]}
         />

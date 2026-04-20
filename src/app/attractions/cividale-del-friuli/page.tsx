@@ -15,7 +15,7 @@ export default function CividaleDelFriuliPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奇维达莱德尔弗留利', href: '/attractions/cividale-del-friuli' },
           ]}
         />

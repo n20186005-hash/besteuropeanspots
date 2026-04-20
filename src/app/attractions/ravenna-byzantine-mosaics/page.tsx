@@ -15,7 +15,7 @@ export default function RavennaByzantineMosaicsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '拉文纳拜占庭马赛克', href: '/attractions/ravenna-byzantine-mosaics' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function RocamadourCliffVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗卡马杜尔悬崖城', href: '/attractions/rocamadour-cliff-village' },
           ]}
         />

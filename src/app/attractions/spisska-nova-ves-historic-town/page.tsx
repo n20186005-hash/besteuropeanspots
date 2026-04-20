@@ -15,7 +15,7 @@ export default function SpisskaNovaVesHistoricTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯皮什斯卡诺瓦韦斯', href: '/attractions/spisska-nova-ves-historic-town' },
           ]}
         />

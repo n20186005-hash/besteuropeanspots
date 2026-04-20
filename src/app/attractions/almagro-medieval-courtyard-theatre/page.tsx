@@ -15,7 +15,7 @@ export default function AlmagroMedievalCourtyardTheatrePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿尔马格罗', href: '/attractions/almagro-medieval-courtyard-theatre' },
           ]}
         />

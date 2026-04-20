@@ -15,7 +15,7 @@ export default function PamplonaCityWallsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '潘普洛纳古城墙', href: '/attractions/pamplona-city-walls' },
           ]}
         />

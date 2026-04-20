@@ -15,7 +15,7 @@ export default function HollenfelsCastleGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '霍伦费尔斯城堡', href: '/attractions/hollenfels-castle-guide' },
           ]}
         />

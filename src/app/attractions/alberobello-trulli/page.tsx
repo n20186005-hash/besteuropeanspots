@@ -15,7 +15,7 @@ export default function AlberobelloTrulliPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿尔贝罗贝洛圆顶石屋', href: '/attractions/alberobello-trulli' },
           ]}
         />

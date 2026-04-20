@@ -15,7 +15,7 @@ export default function PirnaSaxonSwitzerlandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '皮尔纳', href: '/attractions/pirna-saxon-switzerland' },
           ]}
         />

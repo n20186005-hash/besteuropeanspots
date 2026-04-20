@@ -15,7 +15,7 @@ export default function DuernsteinAbbeyWachauPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '杜恩施泰因修道院', href: '/attractions/duernstein-abbey-wachau' },
           ]}
         />

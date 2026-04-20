@@ -15,7 +15,7 @@ export default function GripsholmCastleNationalPortraitGalleryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '格利普霍姆堡（国家肖像画廊）', href: '/attractions/gripsholm-castle-national-portrait-gallery' },
           ]}
         />

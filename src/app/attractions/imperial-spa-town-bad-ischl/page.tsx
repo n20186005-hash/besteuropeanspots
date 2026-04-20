@@ -15,7 +15,7 @@ export default function ImperialSpaTownBadIschlPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '巴德伊舍', href: '/attractions/imperial-spa-town-bad-ischl' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function MonsterGardenEyeOfNeptunePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '怪兽花园与海神之眼', href: '/attractions/monster-garden-eye-of-neptune' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function DurbuySmallestCityBelgiumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '迪尔比', href: '/attractions/durbuy-smallest-city-belgium' },
           ]}
         />

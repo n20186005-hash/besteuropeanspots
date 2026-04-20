@@ -15,7 +15,7 @@ export default function MeteoraMonasteriesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '梅黛奥拉悬空修道院', href: '/attractions/meteora-monasteries' },
           ]}
         />

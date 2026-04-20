@@ -15,7 +15,7 @@ export default function IdsteinWitchTrialTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '伊德施泰因', href: '/attractions/idstein-witch-trial-town' },
           ]}
         />

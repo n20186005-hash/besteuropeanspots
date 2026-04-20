@@ -15,7 +15,7 @@ export default function NorciaUmbriaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '诺尔恰（圣本笃的故乡与黑松露中心）', href: '/attractions/norcia-umbria' },
           ]}
         />

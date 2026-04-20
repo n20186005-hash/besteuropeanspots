@@ -15,7 +15,7 @@ export default function SutriAmphitheatrePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '苏特里圆形竞技场', href: '/attractions/sutri-amphitheatre' },
           ]}
         />

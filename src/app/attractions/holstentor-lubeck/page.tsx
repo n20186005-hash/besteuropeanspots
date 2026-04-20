@@ -15,7 +15,7 @@ export default function HolstentorLubeckPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '吕贝克霍尔斯滕门', href: '/attractions/holstentor-lubeck' },
           ]}
         />

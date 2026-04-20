@@ -15,7 +15,7 @@ export default function AmeliaOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿梅利亚古城', href: '/attractions/amelia-old-town' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function GjirokastraCastleOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '吉诺卡斯特（千阶之城）', href: '/attractions/gjirokastra-castle-old-town' },
           ]}
         />

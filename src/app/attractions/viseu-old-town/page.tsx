@@ -15,7 +15,7 @@ export default function ViseuOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '维塞乌古城', href: '/attractions/viseu-old-town' },
           ]}
         />

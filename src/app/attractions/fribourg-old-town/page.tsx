@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '弗里堡老城 Fribourg Old Town｜悬崖上的双语中世纪瑰宝，瑞士鲜为人知的时光胶囊 - 最佳欧洲景点',
-  description: '当我第一眼看到弗里堡老城，是从火车站坐那列慢悠悠的“缆索地铁”升上来的。车厢吱呀作响，像一部老电影的开场，窗外的景色从河谷的现代楼房，陡然变成一片依着悬崖峭壁而建的、密密麻麻的暖黄色屋顶。车门打开，一股清冽的、带着石板湿气和远处面包房黄油香的风扑面而来。这里没有苏黎世班霍夫大街的喧嚣，也没有卢塞恩湖...',
+  title: '弗里堡老城深度旅游攻略：悬崖双语古城的漫步与桥梁指南',
+  description: '探索瑞士弗里堡老城Fribourg，中世纪双语悬崖之城深度游攻略，涵盖桥梁、峡谷与美食指南。',
 }
 
 export default function FribourgOldTownPage() {
@@ -15,25 +15,22 @@ export default function FribourgOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '弗里堡老城', href: '/attractions/fribourg-old-town' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`弗里堡老城・Fribourg Old Town・瑞士・弗里堡`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`弗里堡老城・Fribourg Old Town・瑞士・弗里堡州`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            {`当我第一眼看到弗里堡老城，是从火车站坐那列慢悠悠的“缆索地铁”升上来的。车厢吱呀作响，像一部老电影的开场，窗外的景色从河谷的现代楼房，陡然变成一片依着悬崖峭壁而建的、密密麻麻的暖黄色屋顶。车门打开，一股清冽的、带着石板湿气和远处面包房黄油香的风扑面而来。这里没有苏黎世班霍夫大街的喧嚣，也没有卢塞恩湖畔游客的密集脚步，只有一种沉静的、被时光浸泡过的嗡嗡声——那是远处圣尼古拉大教堂钟楼传来的悠扬报时，混杂着脚下萨林河深谷里永不停歇的、沉闷的水流声。
-你一下子就掉进了一个立体的迷宫。这里几乎没有一块平地。道路是顺着山脊的走向自然生长的，时而宽阔成一个小广场，立着喷泉和穿着古老服饰的雕像；时而又急剧收缩成一条只容一人通过的“缝隙街”，两侧砂岩墙高耸，抬头只能看见一线被屋瓦切割的天空。你的脚底感受着被无数代人鞋底打磨得光滑甚至有些凹陷的石板路，坡度陡得让你不由自主地抓住旁边的铁扶手。每一个转角都可能藏着惊喜：也许是一幅褪色的古老壁画，也许是一家门口摆满天竺葵花盆的百年铸铁作坊，也许是一条骤然向下、通往深谷河畔的、令人眩晕的阶梯。
-最动人的是它的“声音地图”。在上城的法语区，咖啡馆外的交谈声轻柔如歌；拐过一个街角，走下几段台阶，进入下城的德语区，声音的质地似乎都变得更为低沉直接。而统一这一切的，是空气中弥漫的、淡淡的奶酪火锅（Fondue）和拉可雷特奶酪（Raclette）的温暖醇香，从那些地下餐厅石头拱窗里飘出来，混合着教堂木门开合时逸出的陈旧蜡烛与木头的气息。这不是一个供人观赏的博物馆沙盘，而是一个依然在深深呼吸、带着自身独特体温的有机生命体。`}
+            {`朋友，如果你厌倦了瑞士那些明信片式的“标准风景”，今天这份**弗里堡私藏旅游攻略**，就带你一头扎进一个完全不同的、充满“地心引力”的奇幻世界。想象一下：你刚走出火车站，眼前不是一马平川，而是一个巨大的、绿意盎然的萨里讷河峡谷豁然张开。峡谷两侧，密密麻麻的中世纪房屋像乐高积木一样，从谷底一直垒到悬崖顶端，上百座形态各异的古老桥梁——木头的、石头的、带顶棚的——如同纤细的神经，将这座被生生劈成“上城”与“下城”的城市连接起来。耳边飘过的是德语和法语交织的对话，空气里是河水与古老石墙的气息。这，就是弗里堡，一个用桥梁书写历史的活化石。作为你的专属向导，这份**自由行指南**将带你避开旅行团，像当地人一样，用脚步丈量这座“三维城市”的每一层肌理。`}
           </p>
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`当我第一眼看到弗里堡老城，是从火车站坐那列慢悠悠的“缆索地铁”升上来的。车厢吱呀作响，像一部老电影的开场，窗外的景色从河谷的现代楼房，陡然变成一片依着悬崖峭壁而建的、密密麻麻的暖黄色屋顶。车门打开，一股清冽的、带着石板湿气和远处面包房黄油香的风扑面而来。这里没有苏黎世班霍夫大街的喧嚣，也没有卢塞恩湖畔游客的密集脚步，只有一种沉静的、被时光浸泡过的嗡嗡声——那是远处圣尼古拉大教堂钟楼传来的悠扬报时，混杂着脚下萨林河深谷里永不停歇的、沉闷的水流声。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`你一下子就掉进了一个立体的迷宫。这里几乎没有一块平地。道路是顺着山脊的走向自然生长的，时而宽阔成一个小广场，立着喷泉和穿着古老服饰的雕像；时而又急剧收缩成一条只容一人通过的“缝隙街”，两侧砂岩墙高耸，抬头只能看见一线被屋瓦切割的天空。你的脚底感受着被无数代人鞋底打磨得光滑甚至有些凹陷的石板路，坡度陡得让你不由自主地抓住旁边的铁扶手。每一个转角都可能藏着惊喜：也许是一幅褪色的古老壁画，也许是一家门口摆满天竺葵花盆的百年铸铁作坊，也许是一条骤然向下、通往深谷河畔的、令人眩晕的阶梯。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最动人的是它的“声音地图”。在上城的法语区，咖啡馆外的交谈声轻柔如歌；拐过一个街角，走下几段台阶，进入下城的德语区，声音的质地似乎都变得更为低沉直接。而统一这一切的，是空气中弥漫的、淡淡的奶酪火锅（Fondue）和拉可雷特奶酪（Raclette）的温暖醇香，从那些地下餐厅石头拱窗里飘出来，混合着教堂木门开合时逸出的陈旧蜡烛与木头的气息。这不是一个供人观赏的博物馆沙盘，而是一个依然在深深呼吸、带着自身独特体温的有机生命体。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朋友，如果你厌倦了瑞士那些明信片式的“标准风景”，今天这份<strong>弗里堡私藏旅游攻略</strong>，就带你一头扎进一个完全不同的、充满“地心引力”的奇幻世界。想象一下：你刚走出火车站，眼前不是一马平川，而是一个巨大的、绿意盎然的萨里讷河峡谷豁然张开。峡谷两侧，密密麻麻的中世纪房屋像乐高积木一样，从谷底一直垒到悬崖顶端，上百座形态各异的古老桥梁——木头的、石头的、带顶棚的——如同纤细的神经，将这座被生生劈成“上城”与“下城”的城市连接起来。耳边飘过的是德语和法语交织的对话，空气里是河水与古老石墙的气息。这，就是弗里堡，一个用桥梁书写历史的活化石。作为你的专属向导，这份<strong>自由行指南</strong>将带你避开旅行团，像当地人一样，用脚步丈量这座“三维城市”的每一层肌理。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -43,150 +40,107 @@ export default function FribourgOldTownPage() {
                 <InfoRow label="英文名称" value={`Fribourg Old Town`} />
                 <InfoRow label="正式名称" value={`Fribourg Old Town`} />
                 <InfoRow label="国家" value={`瑞士`} />
-                <InfoRow label="城市" value={`弗里堡`} />
-              </div>
-              <div className="space-y-4">
-                <InfoRow label="历史地位" value={`一座完美保留了中世纪城市肌理与精神的双语（法语/德语）要塞之城，是瑞士从宗教纷争走向文化共存的独特见证。`} />
-                <InfoRow label="建筑特色" value={`建于险峻河岸与山脊之上，密集的哥特式砂岩建筑、蜿蜒陡峭的阶梯小巷、古老的防御塔楼与多座跨越深谷的桥梁共同构成立体迷宫。`} />
-                <InfoRow label="建筑风格" value={`以中世纪哥特式民用和宗教建筑为主，混合了后哥特、文艺复兴及巴洛克风格的装饰元素，整体呈现出统一的砂岩暖色调。`} />
-                <InfoRow label="文化价值" value={`作为瑞士天主教文化堡垒和重要的大学城，它体现了拉丁（法语）文化与日耳曼（德语）文化数个世纪以来和谐交融的“瑞式智慧”。`} />
-              </div>
-            </div>
-            <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={`老城街区全天开放。但内部景点如圣尼古拉大教堂开放时间通常为周一至周六 9:00-18:00，周日 13:00-18:00（冬季会提前至17:00关闭）。市政厅等公共建筑在工作日办公时间可参观部分区域。各个博物馆开放时间各异，一般为周二至周日 10:00-17:00。建议行前查询具体景点官网，注意瑞士的节假日（如国庆日8月1日、圣诞节）多数室内景点会关闭。`} />
-              <InfoRow label="门票价格" value={`进入老城区域免费。圣尼古拉大教堂免费进入，登塔费用约为5瑞士法郎。州立美术与历史博物馆门票约10-15瑞士法郎。弗里堡大学的一些历史庭院可免费参观。持有瑞士旅行通票（Swiss Travel Pass）可免费进入绝大多数博物馆。`} />
-              <InfoRow label="地址" value={`Fribourg Old Town, 1700 Fribourg, Switzerland`} />
-              <InfoRow label="交通方式" value={`从苏黎世机场出发：最便捷方式是乘坐瑞士联邦铁路（SBB）的直达火车，车程约1小时20分钟，班次频繁（约半小时一班）。从日内瓦机场出发：同样有直达火车，车程约1小时40分钟。弗里堡火车站（Fribourg/Freiburg Bahnhof）就位于萨林河（Saane/Sarine）河谷下方，出站后，你可以选择步行（约10-15分钟上坡路）、乘坐1路或2路公交车（到“Bourg”或“Place Python”站），或者体验一下老城边缘的“缆索地铁”（Funiculaire），只需几分钟就能从火车站河谷直接升至老城上方的“上城”（Basse-Ville），这是融入当地生活最有趣的开场。`} />
-            </div>
-          </Section>
-
-          <Section title="3. 历史背景">
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`要理解弗里堡，你得从它的地形开始想象。1182年，策林根公爵贝尔希托尔德四世选中了萨林河这个近乎马蹄形的险峻弯道，在石灰岩山脊上打下了第一块基石。这绝非偶然的浪漫选择，而是精明的军事与商业算计。陡峭的河谷是天生的护城河，山脊是完美的防御城墙，而控制河流渡口，就等于扼住了从伯尔尼通往罗马帝国古老道路的咽喉。最初的弗里堡，就是一个标准的、带有严密网格街道的军事殖民地，它的名字“Fribourg”本身就源自德语的“自由城堡”，宣示着这是一块享有特权的公爵领地。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`石头筑起了城市，而信仰塑造了它的灵魂。13世纪，方济各会和多明我会的修士们相继到来，带来了严谨的教义与精美的建筑艺术。1283年开始建造的圣尼古拉大教堂，就像一根定海神针，在此后近三个世纪的漫长修建中，逐渐长成了今天这座令人叹为观止的哥特式杰作。它的钟楼直到1490年才完工，高达76米，成为整个城市乃至地区的精神灯塔。中世纪的弗里堡凭借毛皮贸易和皮革加工富庶起来，那些华丽的山墙、凸窗和彩绘立面，都是行会财富的无声炫耀。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`历史的转折点伴随着宗教改革的惊涛骇浪到来。当加尔文的新教浪潮席卷瑞士许多地区时，弗里堡，在强有力的贵族和天主教会的领导下，成为了坚守旧信仰的坚固堡垒。它甚至与同样信奉天主教的卢塞恩、索洛图恩等州结成“天主教联盟”，与苏黎世、伯尔尼等新教州分庭抗礼。这道深刻的宗教裂痕，意外地凝固了这座城市的文化样貌。它没有经历新教地区那种“清教徒式”的简化与破坏，巴洛克艺术的绚烂得以在17、18世纪继续装饰它的教堂和贵族宅邸。也正是这一时期，为了彰显天主教的力量，耶稣会士们在此建立了学院，这成为了后来弗里堡大学的核心，让这座城市在坚守信仰的同时，也播下了深厚人文主义的种子。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，弗里堡最了不起的篇章，写在近代的妥协与融合之中。1848年瑞士联邦宪法确立了宗教信仰自由，德语和法语被同时定为官方语言。身处文化和语言的断层线上，弗里堡自然而然地成为了双语实践的先锋。1889年，弗里堡大学正式成为瑞士唯一一所持续提供法、德双语教学的高等学府。走在老城里，你看到的路牌、听到的交谈、读到的菜单，都在无声演绎着这种日常的和谐共存。战争与和平的痕迹同样刻在石头上：那些坚固的塔楼曾抵御过伯尔尼人的进攻，而今天，它们脚下开满了鲜花；二战期间，它又以其特殊的中立文化地位，成为许多知识分子的避风港。如今的它，不再是一座防御要塞，而是一座沟通的桥梁，一个让两种强大欧洲文明在方寸之间握手言欢的、活生生的实验室。`}</p>
-            </div>
-          </Section>
-
-          <Section title="4. 游览路线">
-            <div className="space-y-6">
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  {`建议在上午9点左右抵达，这时阳光刚好洒满上城的屋顶，游客尚未涌入，咖啡馆里坐着看报的本地人，是最有生活气息的时刻。整体游览需要一整天（6-8小时），节奏宜慢。核心逻辑是从高处的“上城”（法语文化区）开始，逐步向下探索“下城”（德语文化区），最后抵达河谷河畔，完成一次从精神到世俗、从典雅到质朴的垂直穿越。中午可以在老城中心用餐，傍晚时分则适合在河边的某座古桥上看落日余晖染红砂岩城墙。这样的安排能最大程度地体验老城的立体层次和光影变化。`}
-                </p>
-                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{`穿一双绝对防滑、支撑好的步行鞋，这里的石板路在潮湿时非常滑，且上下坡极多，高跟鞋是自找苦吃。老城很多小巷没有明确的餐厅标识，跟着奶酪和咖啡的香味走，或者观察哪家门口有本地老人进出，往往是地道好店。周日除了教堂和少数咖啡馆，几乎所有商店和博物馆都关门，街道会异常宁静，适合纯粹的城市漫步和拍照，但请务必提前备好食物。`}
-                </div>
+                <InfoRow label="城市" value={`弗里堡州`} />
               </div>
               
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从“缆索地铁”上站台出来，先别急着深入，在“上城”边缘的观景平台凭栏远眺，将老城如折叠盆景般的全景和脚下深谷里的萨林河尽收眼底。`}</p>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`沿着铺满阳光的“大喷泉街”缓步向下，用手触摸那些温暖粗糙的砂岩墙，留意脚下石板路上可能出现的古老徽记和导水渠痕迹。`}</p>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`在庄严肃穆的圣尼古拉大教堂里花上至少一小时，不仅要仰望那精美绝伦的彩绘玻璃和管风琴，更要尝试登上钟楼，在呼啸的风中聆听钟声并俯瞰迷宫般的街巷。`}</p>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`从教堂侧门溜出来，钻入狭窄如隧道的“法官巷”，感受两侧高墙带来的压迫感与清凉，一直走到豁然开朗的市政厅广场，看彩绘雕像在阳光下讲故事。`}</p>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`找一家地下岩洞风格的餐厅坐下，点一份用本地格吕耶尔奶酪制作的火锅，让浓郁奶香驱散石头的寒意，像当地人一样用长叉扎着面包慢慢聊。`}</p>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`午后沿着“伯尔尼门”附近的城墙步道散步，然后顺着“下城”那些近乎垂直的阶梯“嘎腾”一路向下，探索河岸边那些最古老、散发着湿气与水车声的工匠街区。`}</p>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`一定要走过那座古老的“扎林根桥”到对岸，回头仰望，你会看到老城建筑从河床上拔地而起、层叠错落的真正堡垒姿态。`}</p>
-                </div>
-                <div className="bg-white border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
-                  <p className="text-sm text-gray-700 mb-2">{`如果还有余力，在黄昏时分去州立美术与历史博物馆，不是为了看展品，而是坐在它那面向河谷的露台咖啡馆，看着对岸老城的灯火逐一亮起，像星星落入凡间。`}</p>
-                </div>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="5. 拍照机位">
-            <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">1. {`缆索地铁上站观景台全景`}</h4>
-                  <p className="text-sm text-gray-700">{`清晨或傍晚，用长焦镜头压缩空间，将前景的老城屋顶、中景的圣尼古拉大教堂钟楼和远景的阿尔卑斯山前麓一同纳入画面，构图饱满。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣尼古拉大教堂钟楼内部螺旋石梯俯拍`}</h4>
-                  <p className="text-sm text-gray-700">{`正午阳光从顶楼小窗射入时，站在楼梯中段向上仰拍或向下俯拍，能捕捉到深邃的、充满几何美感的螺旋光线与阴影。`}</p>
-                </div>
+                <InfoRow label="历史地位" value={`弗里堡可不是一座简单的美丽老城。它成立于1157年，诞生之初就是伯尔尼地区公爵用于遏制邻邦的战略要塞。这个峡谷地形是天然的护城河，让它在冷兵器时代易守难攻。正因如此，它完整保留下了惊人的中世纪城市结构。更关键的是它的“夹缝”身份：在16世纪席卷欧洲的宗教改革风暴中，弗里堡是瑞士少数几个坚定保持天主教信仰的州之一，成了一座“信仰孤岛”。这种坚持，让它吸引了大量的修道院、神学院，塑造了其深沉、保守又充满学术气息的城市性格。同时，它地处瑞士德语区与法语区的交界线，几个世纪以来都是两种文化、语言碰撞与融合的前沿阵地。这种“双语”特性不是政策口号，而是刻在街名牌（上用法语，下用德语）、咖啡馆闲聊和教堂钟声里的日常。因此，弗里堡在欧洲历史中扮演的，是一个“坚守者”与“调和者”的双重角色，在政治的夹缝与地理的裂缝中，走出了自己独一无二的道路。`} />
+                <InfoRow label="建筑特色" value={`弗里堡的建筑是一场献给“层次”与“材质”的视觉盛宴。从峡谷对岸远眺，整个城市立面如同一幅用石头、木材和瓦片绘制的巨大拼贴画。**色彩**是温润的：砂岩建筑主体是蜂蜜黄与灰褐色，历经风雨后泛出沉稳的斑驳；无数红瓦屋顶层层叠叠，在阳光下像一片片温暖的鳞片；而点睛之笔是那些墨绿色或棕色的木质百叶窗，以及阳台上盛开的鲜红天竺葵。**材质**的对话无处不在：上城的市政厅、贵族宅邸是规整的切割石材，彰显权威；下城沿河而建的工匠房屋则多用粗犷的毛石和深色木材，显得质朴亲切。最迷人的是那些**桥梁**：比如著名的“伯恩桥”，是一座长达250米的封闭式木廊桥，走在里面光线幽暗，木板在脚下发出好听的吱呀声，两侧小窗像画框，框出流动的河水和石壁。而“圣约翰桥”则是坚实的石拱桥，桥墩巨大，爬满青苔。这些建筑不是孤立的美，它们因险峻的地势而获得了一种戏剧性的立体构图，无论从哪个角度看，都充满震撼的张力。`} />
+                <InfoRow label="建筑风格" value={`行走在弗里堡，你就像在翻阅一本活体的“中世纪建筑教科书”。这里的主导风格是**哥特式**，但不是巴黎那种飞升入云的凌厉，而是更敦实、更富乡土气息的“瑞士晚期哥特式”。最杰出的代表是**圣母主教座堂**，它的单塔楼设计（南塔）高达76米，像一柄石剑直刺苍穹。你可以仔细观察塔楼立面上繁复的雕像壁龛和镂空石雕，那是典型哥特式对垂直线条的痴迷。教堂内部的肋骨拱顶，将人的视线自然引向祭坛，充满神圣的升腾感。市政厅则是**文艺复兴**与当地传统的融合，其华丽的拱廊立面、对称的窗户布局，体现了文艺复兴对秩序与比例的追求。而遍布老城的民居，则更多地展现了**本土木筋墙建筑**风格，特别是在下城，你能看到大量外墙裸露着深色木构架，填充以浅色灰泥的建筑，这种风格实用、温暖，与土地紧密相连。弗里堡的建筑风格不是单一的，它是防御需求的实用主义、天主教信仰的庄严表达与普通市民生活美学的混合体，共同铸就了这座悬崖之城的独特风貌。`} />
+                <InfoRow label="文化价值" value={`对今天的弗里堡人来说，这座城市不仅是家园，更是一种独特生活哲学的实体化。**双语制**是其最核心的文化基因。这里的孩子从小在双语环境中长大，大学（弗里堡大学）也是瑞士唯一一所坚持双语教学的高等学府。走在街上，你可能会在面包店听到法语点单，转角书店的橱窗里却陈列着德语小说。这种自然而然的双语切换，赋予了城市一种开放、包容且略带思辨的气质。其次，它深厚的**天主教传统**并未褪色，而是转化为一种沉静的城市节奏和丰富的文化遗产（众多的教堂、修道院、宗教艺术收藏）。同时，作为大学城，年轻学生的活力又不断注入这座古老躯体，街角的现代艺术涂鸦、热闹的学生酒吧，与寂静的修道院庭院形成有趣对话。弗里堡教会现代人的，或许正是在深刻的历史根基上，如何优雅地拥抱多元与变化，如何在“上”与“下”、“过去”与“现在”、“一种声音”与“另一种声音”之间，搭建属于自己的桥梁。`} />
               </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“法官巷”或类似窄巷的纵深构图`}</h4>
-                  <p className="text-sm text-gray-700">{`下午三四点，阳光斜射入巷口时，站在巷子一端，利用两侧高耸的砂岩墙形成的天然引导线，拍摄走向巷子深处的人物剪影或光影分割。`}</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">4. {`扎林根桥上的经典回头望`}</h4>
-                  <p className="text-sm text-gray-700">{`日落前半小时，走到桥中央，转身用广角镜头拍摄老城建筑群在河面上的倒影，以及悬崖上层层叠叠的房屋被夕阳染成金红色的壮丽景象。`}</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">5. {`州立博物馆露台夜景`}</h4>
-                  <p className="text-sm text-gray-700">{`日落后蓝调时刻，在博物馆露台用三脚架长曝光，拍摄对岸老城灯火与深蓝色天空下萨林河如丝缎般的流水，画面宁静而富有诗意。`}</p>
-                </div>
-              </div>
-
             </div>
             
-            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
-              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
-              <ul className="text-sm text-purple-700 space-y-1">
-                <li>• {`老城居民注重隐私，拍摄民居窗户或阳台时请保持距离并快速抓拍，避免长时间对准室内。教堂内部通常允许非商业拍摄，但请关闭闪光灯并保持安静，弥撒期间绝对不要拍摄。使用偏振镜可以很好地消除砂岩墙壁的反光，让色彩更加饱和厚重。`}</li>
-              </ul>
-            </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`3. 弗里堡老城一日游打卡路线攻略：经典上下城漫步`}>
             <div className="space-y-6">
-              <div className="grid md:grid-cols-3 gap-4">
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
-                  <p className="text-sm text-blue-800">{`下城河岸边由15世纪磨坊改造的精品酒店，房间保留了原始的石墙和木梁，晚上枕着潺潺水声入眠，清晨在私人阳台上看雾气从河面升腾缠绕古桥。`}</p>
-                </div>
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-2">{`学院风情之选`}</h4>
-                  <p className="text-sm text-green-800">{`上城靠近大学的一栋19世纪优雅联排别墅内的家庭式旅馆，房东教授会为你准备丰盛的早餐并分享老城的奇闻轶事，书架上摆满了各种语言的书籍。`}</p>
-                </div>
-                <div className="bg-yellow-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计美学之选`}</h4>
-                  <p className="text-sm text-yellow-800">{`位于老城边缘一栋经过极简主义改造的历史建筑里的设计师酒店，古典外壳下是温暖的北欧风内饰，屋顶露台拥有俯瞰整个老城天际线的无敌视角。`}</p>
-                </div>
-                <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">{`经济实用之选`}</h4>
-                  <p className="text-sm text-purple-800">{`火车站附近由本地青年经营的现代化旅社，虽不在老城内，但交通极其方便，公共厨房设施齐全，是结识全球背包客、交换旅行故事的好地方。`}</p>
-                </div>
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线：从峡谷之巅到河岸深处`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，我的自由行伙伴们，收好这份一日游路线攻略，我们这就出发！**上午（9:00-12:30）：上城的历史心脏**。建议从火车站坐2路公交到“市政厅”站下车，直接投入上城的怀抱。首先在**市政厅广场**醒醒神，看看那座华丽的文艺复兴建筑，感受城市行政中心的庄严。然后，沿着鹅卵石小路步行几分钟，抵达今天的重头戏——**圣母主教座堂**。别急着进去，先绕到教堂东侧，那里有一个绝佳的观景台，可以第一次完整俯瞰萨里讷河峡谷和密密麻麻的下城屋顶，拍照打卡必备！接着进入教堂内部，花半小时静静欣赏那些无与伦比的彩绘玻璃窗。从教堂出来，顺着指示牌轻松走到**古城墙遗址**和**防御塔楼**，触摸真正的中世纪石头，想象士兵在此巡逻的景象。**中午（12:30-14:00）：桥梁上的午餐时光**。从城墙边的小径下坡，走向**伯恩桥**。这座带顶棚的古老木桥本身就是景点，桥内甚至有小型展览。我强烈推荐在桥头或桥尾找一家能看到河景的咖啡馆或小餐馆，比如“Le Port”，点一份当地特色的**奶酪火锅**或**弗里堡香肠配土豆饼**，看着窗外河水潺潺，享受一顿“悬浮”在峡谷之上的午餐。**下午（14:00-17:30）：下城的迷宫探险**。过桥之后，你就正式进入了迷人的下城区域。这里的街道更窄，坡度更陡，充满了意外之喜。可以随意迷失在蜿蜒的小巷里，寻找那些有数百年历史的手工工坊、古董店和迷你博物馆（如“瑞士缝纫机博物馆”，很有趣！）。一定要沿着**萨里讷河岸步道**走一段，仰视你上午站过的悬崖，视角完全反转，无比震撼。最后，搭乘**“佩罗勒”缆索地铁**（世界上最后一条依靠城市污水重量驱动的水力缆车！）轻松回到上城，结束完美的一天。`}
+                </p>
+                
               </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>圣母主教座堂的彩绘玻璃</strong>：这不是普通的彩色玻璃。请一定在午后阳光斜射时，站在中殿抬头看。由波兰艺术家Józef Mehoffer设计的这组现代风格彩绘玻璃（1940年代），打破了传统圣经故事叙事，用大胆的色块和抽象图案表现宗教主题。当阳光穿透，整个石头殿堂内会流淌起宝石蓝、翡翠绿和琥珀色的光河，光影在地面石板上缓慢移动，仿佛一场无声的神圣音乐会。那种古典空间与现代艺术的碰撞所带来的震撼，难以言喻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>古城墙上的“猫道”与瞭望口</strong>：在靠近“伯恩桥”上桥口的一段古城墙上，保留着原始的步行通道——“猫道”。走在上面，一侧是坚固的石墙，另一侧就是毫无遮挡的悬崖深渊。请蹲下来，从一个狭小的中世纪弓箭瞭望口望出去。你的视野瞬间被框成一幅生动的长卷：脚下是伯恩桥红色的木制屋顶，远处是下城棕色的房子，萨里讷河像一条绿丝带蜿蜒穿过。几百年前的守城士兵，看到的也是同样的景致（除了多了些现代屋顶），那一刻，时空仿佛重叠。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>伯恩桥内部的“私密画廊”</strong>：这座封闭式木桥内部昏暗、悠长，弥漫着木头陈年的香气。别光顾着走路，请留意桥身内侧木板墙上悬挂的一系列古老油画和说明牌。它们静静地讲述着这座桥的历史、城市的洪水记忆以及桥梁兄弟会的故事。透过桥两侧那些小巧的、如同舷窗般的玻璃窗望出去，河流与对岸的建筑被切割成一幅幅不断变化的流动画作，安静而私密，是体验弗里堡“桥文化”的最佳方式。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>下城河岸工坊的“时光胶囊”</strong>：在下城最靠近河岸的Rue de la Neuveve等小巷里，藏着一些仍在营业的传统手工工坊。比如一家小小的铁匠铺，你能听到叮叮当当的敲打声从敞开的门里传出，看到炉火的红光映在老师傅沾满煤灰的脸上。或者是一家木桶匠作坊，空气中弥漫着新鲜刨花的潮湿木头香气。这些地方几乎没有游客，它们的存在提醒着你，弗里堡不仅仅是一个博物馆，它依然是一座有呼吸、有手艺活着的城市。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 弗里堡自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>最佳时间与交通</strong>：<strong>避开</strong>周末的上午和中午，这时周边居民常来购物，主街人流较大。最佳游览时间是<strong>工作日上午或春季/秋季的午后</strong>，光线柔美，氛围宁静。从伯尔尼或洛桑坐火车到弗里堡非常方便（约20-30分钟），但请注意，老城内的景点集中但上下坡极多，<strong>穿一双绝对舒适防滑的步行鞋</strong>是头等大事！高跟鞋或硬底鞋在这里等于“刑具”。市区公交覆盖好，但探索精髓在于步行。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>破解“迷路”与“腿软”</strong>：弗里堡老城道路蜿蜒起伏，极易迷路。别依赖手机地图的直线距离，因为它不会告诉你中间有十层楼高的楼梯。秘诀是：<strong>多用“上下”概念导航</strong>。想去某个地方，先问自己它在“上城”（Haut）还是“下城”（Bas）。善用城市提供的公共电梯和那条神奇的<strong>佩罗勒水力缆车</strong>（连接新城区与下城，票价低廉），它们是节省体力的神器。另外，许多小巷楼梯又陡又窄，雨天湿滑，务必小心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>财物与餐饮贴士</strong>：瑞士整体安全，但在游客集中的市政厅广场和教堂附近，仍需看管好随身物品。用餐方面，老城餐厅价格不菲。<strong>避坑</strong>方法是：可以走到大学校区附近（上城东部），那里有很多学生青睐的性价比高的小餐馆和快餐。想体验正宗当地菜，午餐选择“当日套餐”（Menu du jour/Menü des Tages）比单点划算得多。很多咖啡馆只收现金或瑞士本地借记卡，备些小额瑞士法郎现金很必要。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 弗里堡周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`老城内的住宿数量有限且非常热门，尤其是周末和夏季，务必提前数月预订。住在“上城”更安静、文化氛围浓；住在“下城”或河边则更有生活气息，但夜晚可能稍显寂静。无论住在哪里，请做好爬坡的心理和体力准备，这是体验弗里堡不可或缺的一部分。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想沉浸式体验这座古城，建议在弗里堡住上一晚，当一日游的游客散去，夜晚的峡谷灯火与清晨的教堂钟声才是它的私藏魅力。住宿方面，上城气氛更经典。推荐<strong>Hotel du Faucon</strong>，位于一栋历史建筑内，房间古朴温馨，部分房间拥有俯瞰老城屋顶的绝美视角，早餐也很丰盛。如果想住得更具设计感，可以选<strong>Hotel de la Rose</strong>，现代舒适与古典外观结合得很好。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "餐饮是弗里堡之旅的高光。强烈推荐位于伯恩桥附近的<strong>Auberge de la Cigogne</strong>，它就在一栋历史悠久的建筑里，露台座位紧挨着悬崖边，景观无敌。必尝<strong>弗里堡奶酪火锅</strong>（Moitié-moitié），用的是本地格鲁耶尔和瓦什寒奶酪的混合，香浓不腻。配上一盘本地风干牛肉，绝了。另一道名菜是<strong>弗里堡香肠</strong>，通常搭配奶油土豆饼（Rösti）和酸菜。想吃点简单的，去下城的<strong>Café du Midi</strong>，这家老牌咖啡馆的洋葱派和自制蛋糕非常出色，氛围就像本地人的客厅。" }} />
               </div>
             </div>
           </Section>
 
-          <Section title="7. 总结感悟">
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果你的脚步还有余力，弗里堡周边有两个“秘密花园”不容错过。第一个是<strong>卡塞拉特瞭望台</strong>，它不在老城核心，但绝对值得你坐一小段公交（或步行20分钟上坡）前往。这里是俯瞰整个弗里堡峡谷全景的<strong>终极位置</strong>。你会看到城市像模型一样嵌在巨大的绿色裂缝中，所有桥梁的走向、上下城的关系一目了然，尤其在日落时分，景色壮丽到令人窒息。第二个是<strong>瑞士缝纫机博物馆</strong>，听起来很 niche，但它就藏在下城一座老房子里，收藏了从古至今数百台精美的缝纫机，像一场关于机械美学的微观艺术展，小巧有趣，能让你看到弗里堡作为手工业之城被忽略的另一面。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开弗里堡很久以后，我记忆中最清晰的，不是某个具体的建筑细节，而是一种“失衡”的体感——那种因为道路过于倾斜，身体需要不断调整重心，从而对脚下每一块石头都变得异常敏感的状态。这种感觉奇妙地隐喻了这座城市的核心精神：它始终处于一种动态的平衡之中。在高与低、法语与德语、信仰与理性、坚固的防御与开放的沟通之间，它找到了一种非静止的、充满张力的和谐。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求效率、追求扁平化的时代，弗里堡老城像一位固执而优雅的隐士，提醒着我们“深度”与“层次”的价值。它拒绝被轻易浏览，你必须用脚步去丈量它的垂直维度，用耐心去解开它平面的迷宫。在这里，旅行不再是平面的位移，而是一场全身心的沉浸。你会喘着气，会流汗，会在某个陡峭的阶梯前犹豫，但当你最终站在某个意外的角落，看到阳光把对面教堂的玫瑰窗投影在古老的墙壁上时，那种发现的喜悦是无可替代的。它告诉你，最美的风景，往往藏在那些需要你稍微费点力气才能抵达的、不平衡的地方。这，或许就是深度旅行的终极意义。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "弗里堡的灵魂，在于它那种深刻的“二元融合”：德语区的严谨与法语区的浪漫在街角咖啡馆交汇；天主教的神圣肃穆与大学城的青春活力在石板路上碰撞；峡谷的险峻自然与人类巧夺天工的桥梁建筑达成和解。它不急于炫耀，只是静静地在自己的裂缝里，用一座座桥，连接起所有的对立与差异，最终形成了一种厚重、温暖、充满智慧感的独特魅力。来到这里，你不是在看风景，而是在阅读一部用石头、木头和河流写成的，关于“连接”的哲学书。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/vitznau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    琉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">琉森湖畔维茨瑙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vitznau</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/tarasp-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塔
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塔拉斯普城堡（恩嘎丁山谷的守护者）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tarasp Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/rapperswil-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉珀斯维尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rapperswil Castle</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

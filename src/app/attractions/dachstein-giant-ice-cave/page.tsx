@@ -15,7 +15,7 @@ export default function DachsteinGiantIceCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '达赫施泰因大冰洞', href: '/attractions/dachstein-giant-ice-cave' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function MystrasByzantineRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '米斯特拉斯拜占庭遗址', href: '/attractions/mystras-byzantine-ruins' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function ExternsteineSandstoneFormationsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '埃克斯施泰因', href: '/attractions/externsteine-sandstone-formations' },
           ]}
         />

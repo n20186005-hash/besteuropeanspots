@@ -15,7 +15,7 @@ export default function TuraidaCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '图雷达城堡', href: '/attractions/turaida-castle' },
           ]}
         />

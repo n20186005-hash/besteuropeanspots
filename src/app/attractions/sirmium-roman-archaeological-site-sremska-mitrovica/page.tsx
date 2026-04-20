@@ -15,7 +15,7 @@ export default function SirmiumRomanArchaeologicalSiteSremskaMitrovicaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西尔米乌姆', href: '/attractions/sirmium-roman-archaeological-site-sremska-mitrovica' },
           ]}
         />

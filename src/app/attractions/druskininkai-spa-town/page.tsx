@@ -15,7 +15,7 @@ export default function DruskininkaiSpaTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德鲁斯基宁凯', href: '/attractions/druskininkai-spa-town' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function LecceBaroqueOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '莱切巴洛克老城', href: '/attractions/lecce-baroque-old-town' },
           ]}
         />

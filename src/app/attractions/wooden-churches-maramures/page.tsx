@@ -15,7 +15,7 @@ export default function WoodenChurchesMaramuresPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马拉穆列什木教堂群', href: '/attractions/wooden-churches-maramures' },
           ]}
         />

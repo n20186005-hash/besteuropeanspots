@@ -15,7 +15,7 @@ export default function ObidosWeddingTownPortugalPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥比杜什婚礼之城', href: '/attractions/obidos-wedding-town-portugal' },
           ]}
         />

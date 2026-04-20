@@ -15,7 +15,7 @@ export default function RostPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '勒斯特岛', href: '/attractions/rost' },
           ]}
         />

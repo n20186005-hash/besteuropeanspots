@@ -15,7 +15,7 @@ export default function RoyalMonasteryOfSantaMariaDeGuadalupePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瓜达卢佩圣玛利亚皇家修道院', href: '/attractions/royal-monastery-of-santa-maria-de-guadalupe' },
           ]}
         />

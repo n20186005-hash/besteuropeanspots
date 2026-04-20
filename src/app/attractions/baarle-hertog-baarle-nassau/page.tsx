@@ -15,7 +15,7 @@ export default function BaarleHertogBaarleNassauPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '巴尔勒-赫尔托赫与巴尔勒-拿骚（双国镇）', href: '/attractions/baarle-hertog-baarle-nassau' },
           ]}
         />

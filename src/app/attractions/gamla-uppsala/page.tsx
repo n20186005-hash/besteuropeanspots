@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '旧乌普萨拉 Gamla Uppsala｜探索维京时代的精神中心与巨型坟冢 - 最佳欧洲景点',
-  description: '车子刚在旧乌普萨拉停下，你就知道自己来到了一个不一样的地方。这里没有拥挤的街道，没有喧闹的商铺，只有一片极其开阔的、仿佛被天空用力压着的草地。风是这里永恒的主人，它呼啸着穿过原野，把高高的草压出一层层银绿色的波浪。空气中是清冽的、带着泥土和青草根茎味道的气息，纯粹得让你一下子忘了自己离现代都市只有二...',
+  description: '车子刚在旧乌普萨拉停下，你就知道自己来到了一个不一样的地方。这里没有拥挤的街道，没有喧闹的商铺，只有一片极其开阔的、仿佛被天空用力压着的草地。风是这里永恒的主人，它呼啸着穿过原野，把高高的草压出一层层银绿色的波浪。空气中是清冽的、带着泥土和青草根茎味道的气息，纯粹得让你一下子忘了自己离现代都市只有二',
 }
 
 export default function GamlaUppsalaPage() {
@@ -15,7 +15,7 @@ export default function GamlaUppsalaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '旧乌普萨拉', href: '/attractions/gamla-uppsala' },
           ]}
         />
@@ -31,11 +31,12 @@ export default function GamlaUppsalaPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子刚在旧乌普萨拉停下，你就知道自己来到了一个不一样的地方。这里没有拥挤的街道，没有喧闹的商铺，只有一片极其开阔的、仿佛被天空用力压着的草地。风是这里永恒的主人，它呼啸着穿过原野，把高高的草压出一层层银绿色的波浪。空气中是清冽的、带着泥土和青草根茎味道的气息，纯粹得让你一下子忘了自己离现代都市只有二十分钟车程。然后，你的视线就被它们抓住了——那三座巨大的土丘，像三个绿色的、沉睡的巨人，以绝对庄严的三角阵型，稳稳地蹲伏在地平线上。它们的线条是如此柔和，又如此有力，在低垂的北欧云层下，散发着一种近乎催眠的静谧力量。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`你沿着小路走向最大的那座坟冢，脚下的碎石沙沙作响，这是此刻唯一属于人类的声音。很难想象，在一千多年前的维京时代，这里会是何等喧嚣鼎沸的景象。考古学家说，这里曾是斯堪的纳维亚最富庶的定居点之一，巨大的长屋，繁忙的集市，而这三座坟冢，则是整个宇宙的中心。对于当时的北欧人来说，埋葬在这里的不是普通的逝者，而是半人半神的传奇国王，他们连接着人间与阿斯加德神域。站在冢脚向上望，坡度平缓却不容小觑，你会不自觉地压低声音，仿佛怕惊醒长眠于其中的英灵。这不是恐惧，而是一种面对浩瀚时间和古老信仰时，油然而生的敬畏。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`如今，这片圣地以一种奇异的方式融入了现代瑞典人的生活。你会看到当地人牵着狗在冢间小径慢跑，父母带着孩子在坡上翻滚玩耍，年轻的情侣并肩坐在冢顶，看着夕阳把天空染成维京船帆的颜色。历史在这里不是锁在玻璃柜里的标本，而是他们脚下可以触摸、可以奔跑、可以躺下感受的土地。这种日常与神圣的交织，赋予了旧乌普萨拉一种独特的温度——它既是国家史诗的源头，也是社区公园的后院。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`当夕阳西下，游客散去，金色的光芒斜射在古老的土丘和旁边那座红白色的小教堂上时，这种感觉最为强烈。基督教教堂紧挨着异教王陵建造，这本身就是一部无声的、充满张力的历史。光与影在草地和坟冢的曲线上流动，风声里仿佛夹杂着古老的吟唱和铁器的碰撞声。那一刻你忽然明白，旧乌普萨拉最打动人的，不是某一个具体的建筑，而是这片土地本身所承载的、关于生命、死亡、权力和信仰的全部重量。它是一片能让你听见时间回声的风景。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子刚在旧乌普萨拉停下，你就知道自己来到了一个不一样的地方。这里没有拥挤的街道，没有喧闹的商铺，只有一片极其开阔的、仿佛被天空用力压着的草地。风是这里永恒的主人，它呼啸着穿过原野，把高高的草压出一层层银绿色的波浪。空气中是清冽的、带着泥土和青草根茎味道的气息，纯粹得让你一下子忘了自己离现代都市只有二十分钟车程。然后，你的视线就被它们抓住了——那三座巨大的土丘，像三个绿色的、沉睡的巨人，以绝对庄严的三角阵型，稳稳地蹲伏在地平线上。它们的线条是如此柔和，又如此有力，在低垂的北欧云层下，散发着一种近乎催眠的静谧力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你沿着小路走向最大的那座坟冢，脚下的碎石沙沙作响，这是此刻唯一属于人类的声音。很难想象，在一千多年前的维京时代，这里会是何等喧嚣鼎沸的景象。考古学家说，这里曾是斯堪的纳维亚最富庶的定居点之一，巨大的长屋，繁忙的集市，而这三座坟冢，则是整个宇宙的中心。对于当时的北欧人来说，埋葬在这里的不是普通的逝者，而是半人半神的传奇国王，他们连接着人间与阿斯加德神域。站在冢脚向上望，坡度平缓却不容小觑，你会不自觉地压低声音，仿佛怕惊醒长眠于其中的英灵。这不是恐惧，而是一种面对浩瀚时间和古老信仰时，油然而生的敬畏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如今，这片圣地以一种奇异的方式融入了现代瑞典人的生活。你会看到当地人牵着狗在冢间小径慢跑，父母带着孩子在坡上翻滚玩耍，年轻的情侣并肩坐在冢顶，看着夕阳把天空染成维京船帆的颜色。历史在这里不是锁在玻璃柜里的标本，而是他们脚下可以触摸、可以奔跑、可以躺下感受的土地。这种日常与神圣的交织，赋予了旧乌普萨拉一种独特的温度——它既是国家史诗的源头，也是社区公园的后院。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当夕阳西下，游客散去，金色的光芒斜射在古老的土丘和旁边那座红白色的小教堂上时，这种感觉最为强烈。基督教教堂紧挨着异教王陵建造，这本身就是一部无声的、充满张力的历史。光与影在草地和坟冢的曲线上流动，风声里仿佛夹杂着古老的吟唱和铁器的碰撞声。那一刻你忽然明白，旧乌普萨拉最打动人的，不是某一个具体的建筑，而是这片土地本身所承载的、关于生命、死亡、权力和信仰的全部重量。它是一片能让你听见时间回声的风景。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -47,6 +48,7 @@ export default function GamlaUppsalaPage() {
                 <InfoRow label="国家" value={`瑞典`} />
                 <InfoRow label="城市" value={`乌普萨拉省`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`瑞典乃至整个斯堪的纳维亚地区前基督教时代最重要的政治与宗教权力中心，瑞典王权的传说起源地。`} />
                 <InfoRow label="建筑特色" value={`三座巨大的、如沉默小山般的皇家坟冢雄踞于开阔平原之上，是北欧铁器时代最宏伟的地表建筑遗存。`} />
@@ -54,6 +56,7 @@ export default function GamlaUppsalaPage() {
                 <InfoRow label="文化价值" value={`理解维京时代社会结构、信仰体系从异教向基督教转变的活态教科书，是瑞典国家认同的精神基石。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`遗址区域（坟冢及周边草地）全天24小时开放。 Gamla Uppsala博物馆开放时间随季节变化：6月至8月每日10:00-16:00；9月至次年5月一般为周二至周日12:00-16:00，周一闭馆。 旧乌普萨拉教堂通常每日10:00-16:00开放，但可能因礼拜活动临时调整。 冬季（11月至3月）雪后道路湿滑，参观需格外注意。`} />
               <InfoRow label="门票价格" value={`遗址区域（坟冢）完全免费向公众开放。 Gamla Uppsala博物馆门票：成人约80瑞典克朗，学生及青少年优惠价约60瑞典克朗，儿童免费。 持有乌普萨拉城市卡可免费进入博物馆。 教堂免费参观，欢迎自愿捐款。`} />
@@ -64,17 +67,17 @@ export default function GamlaUppsalaPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`要讲旧乌普萨拉的故事，我们得先暂时忘掉确切的年份，回到那个传说与历史还模糊交织的年代。根据北欧神话史诗《英格林加萨迦》的记载，这里是由北欧主神奥丁的后裔建立的，是传奇的英格林加王朝的摇篮。那些巨大的坟冢，被认为埋葬着公元六世纪左右的三位“半神”国王：阿恩、埃吉尔和阿迪尔斯。他们是否真实存在已难考证，但重要的是，这个传说赋予了旧乌普萨拉无与伦比的神圣性。在基督教到来之前，这里是整个北欧异教信仰的心脏地带。每隔九年，来自斯堪的纳维亚各部的国王、酋长和平民会聚集于此，举行盛大的“迪斯塔廷”祭典，向奥丁、索尔和弗雷诸神献祭（包括动物，甚至可能是人祭），以祈求接下来的九年风调雨顺。你可以想象，在漫长的极夜或短暂的盛夏，篝火照亮土丘，祭司的呼喊、人民的盟誓与牲口的嘶鸣交织，那是何等原始而狂野的场面。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，历史的浪潮终究席卷了这片圣地。关键的人物登场了——瑞典国王“胜利者”埃里克和他的儿子奥洛夫·舍特康农。大约在公元11世纪初，为了巩固王权并融入欧洲基督教世界，他们在这里强行推行基督教化。传说中，奥洛夫国王下令摧毁了宏伟的异教神庙，并在原址上，就在那些异教国王的坟冢旁边，建造了瑞典第一座大主教座堂。这是一个极具象征意义的举动：让上帝的殿堂直接矗立在古老神祇的坟墓旁，宣告着旧秩序的终结和新信仰的胜利。最初的本木结构教堂多次被焚毁又重建，直到12世纪，我们今天看到的这座罗马式石砌教堂才屹立至今。它红白相间的外墙，与旁边墨绿色的古老坟冢遥遥相对，构成了一幅浓缩了瑞典整部早期历史的画面。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`旧乌普萨拉的光芒并未因政治和宗教中心的迁移（移至今天的乌普萨拉市中心）而完全熄灭。它转变为了一个重要的朝圣地和农业村庄。中世纪的手稿继续传颂着它的古老荣光。直到19世纪，浪漫主义民族思潮兴起，瑞典人开始重新审视自己的维京根源。旧乌普萨拉的坟冢不再是可怕的异教遗迹，而变成了民族骄傲和英雄史诗的象征。考古发掘陆续展开，虽然在三座大坟冢中没有发现如传说般丰富的陪葬品（可能早已被盗），但在周边区域发现了大量贵族墓葬、武器和日用器皿，证实了这里作为顶级权力中心的地位。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`进入20世纪，尤其是二战后，系统的考古研究揭开了更多面纱。研究者发现，这片区域的人类活动遗迹远比想象中更古老和复杂。那些土丘可能不仅仅是坟墓，更是精妙的天文观测地标，其布局可能与太阳和星辰的运行有关。今天，当我们漫步于此，脚下踩着的不仅是三个国王的安息之所，更是一个绵延了上千年的、层叠着神话、政治、血腥祭典、宗教革命与民族记忆的文化地层。它沉默着，却诉说着一切。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要讲旧乌普萨拉的故事，我们得先暂时忘掉确切的年份，回到那个传说与历史还模糊交织的年代。根据北欧神话史诗《英格林加萨迦》的记载，这里是由北欧主神奥丁的后裔建立的，是传奇的英格林加王朝的摇篮。那些巨大的坟冢，被认为埋葬着公元六世纪左右的三位“半神”国王：阿恩、埃吉尔和阿迪尔斯。他们是否真实存在已难考证，但重要的是，这个传说赋予了旧乌普萨拉无与伦比的神圣性。在基督教到来之前，这里是整个北欧异教信仰的心脏地带。每隔九年，来自斯堪的纳维亚各部的国王、酋长和平民会聚集于此，举行盛大的“迪斯塔廷”祭典，向奥丁、索尔和弗雷诸神献祭（包括动物，甚至可能是人祭），以祈求接下来的九年风调雨顺。你可以想象，在漫长的极夜或短暂的盛夏，篝火照亮土丘，祭司的呼喊、人民的盟誓与牲口的嘶鸣交织，那是何等原始而狂野的场面。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，历史的浪潮终究席卷了这片圣地。关键的人物登场了——瑞典国王“胜利者”埃里克和他的儿子奥洛夫·舍特康农。大约在公元11世纪初，为了巩固王权并融入欧洲基督教世界，他们在这里强行推行基督教化。传说中，奥洛夫国王下令摧毁了宏伟的异教神庙，并在原址上，就在那些异教国王的坟冢旁边，建造了瑞典第一座大主教座堂。这是一个极具象征意义的举动：让上帝的殿堂直接矗立在古老神祇的坟墓旁，宣告着旧秩序的终结和新信仰的胜利。最初的本木结构教堂多次被焚毁又重建，直到12世纪，我们今天看到的这座罗马式石砌教堂才屹立至今。它红白相间的外墙，与旁边墨绿色的古老坟冢遥遥相对，构成了一幅浓缩了瑞典整部早期历史的画面。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旧乌普萨拉的光芒并未因政治和宗教中心的迁移（移至今天的乌普萨拉市中心）而完全熄灭。它转变为了一个重要的朝圣地和农业村庄。中世纪的手稿继续传颂着它的古老荣光。直到19世纪，浪漫主义民族思潮兴起，瑞典人开始重新审视自己的维京根源。旧乌普萨拉的坟冢不再是可怕的异教遗迹，而变成了民族骄傲和英雄史诗的象征。考古发掘陆续展开，虽然在三座大坟冢中没有发现如传说般丰富的陪葬品（可能早已被盗），但在周边区域发现了大量贵族墓葬、武器和日用器皿，证实了这里作为顶级权力中心的地位。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "进入20世纪，尤其是二战后，系统的考古研究揭开了更多面纱。研究者发现，这片区域的人类活动遗迹远比想象中更古老和复杂。那些土丘可能不仅仅是坟墓，更是精妙的天文观测地标，其布局可能与太阳和星辰的运行有关。今天，当我们漫步于此，脚下踩着的不仅是三个国王的安息之所，更是一个绵延了上千年的、层叠着神话、政治、血腥祭典、宗教革命与民族记忆的文化地层。它沉默着，却诉说着一切。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`建议用一个完整的上午或下午（约4-5小时）来沉浸式体验旧乌普萨拉。最好在清晨或午后抵达，能避开可能出现的旅游大巴，独享坟冢间的宁静。整体节奏宜缓不宜急，这趟旅程更像是一场在历史旷野中的漫步与冥想。路线设计为环形：从参观博物馆建立知识背景开始，然后全身心投入户外遗址的体验，最后以教堂的静思收尾。这样的顺序能让你从理性认知过渡到感性共鸣，对这片土地的理解层层深入。`}
                 </p>
@@ -157,8 +160,9 @@ export default function GamlaUppsalaPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`维京风情民宿`}</h4>
@@ -178,52 +182,53 @@ export default function GamlaUppsalaPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（6-8月）是乌普萨拉的旅游旺季，也是各种学术会议密集期，住宿非常紧张，务必提前数月预订。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`如果追求绝对宁静，建议选择远离乌普萨拉大学主校区和火车站区域的住宿，老城或河对岸的区域通常更安静。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`瑞典的住宿价格普遍较高，但品质和水准都很稳定，包含丰盛自助早餐是标配，这能为你一天的探索储备充足能量。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6-8月）是乌普萨拉的旅游旺季，也是各种学术会议密集期，住宿非常紧张，务必提前数月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果追求绝对宁静，建议选择远离乌普萨拉大学主校区和火车站区域的住宿，老城或河对岸的区域通常更安静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "瑞典的住宿价格普遍较高，但品质和水准都很稳定，包含丰盛自助早餐是标配，这能为你一天的探索储备充足能量。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开旧乌普萨拉很久之后，那片开阔的天空和沉默的土丘，还会时常回到你的脑海里。它不像那些金碧辉煌的宫殿教堂，用视觉的奢华直接冲击你；它更像一个低沉而悠远的背景音，需要你静下来，才能听清它的旋律。在这里，历史不是被精心修剪和展示的，它就那样粗粝地、赤裸地摊在大地上，任由风吹雨打，任由人们在它身上行走奔跑。这种坦荡，反而拥有一种直指人心的力量。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求快速、新奇和刺激的时代，旧乌普萨拉提供了一种相反的旅行价值：那就是学习与沉默、与空旷、与一种未经修饰的古老共存。它告诉我们，最深刻的震撼，未必来自信息密度，而是来自空间本身所蕴含的时间重量。当你躺在那些国王的坟冢上，看着流云变幻，你会忘记打卡，忘记拍照，甚至忘记思考。你只是在那里，成为一个瞬间的连接点，连接着千年之前的篝火与今日的阳光。对于每一位渴望在旅途中触碰文明根系，而不仅仅是掠过其表面的旅人来说，旧乌普萨拉都不是一个简单的景点，它是一场关于起源的冥想，是一次灵魂的朝圣。它让你记住，在成为任何身份之前，我们首先是站立在大地上、仰望星空的人。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开旧乌普萨拉很久之后，那片开阔的天空和沉默的土丘，还会时常回到你的脑海里。它不像那些金碧辉煌的宫殿教堂，用视觉的奢华直接冲击你；它更像一个低沉而悠远的背景音，需要你静下来，才能听清它的旋律。在这里，历史不是被精心修剪和展示的，它就那样粗粝地、赤裸地摊在大地上，任由风吹雨打，任由人们在它身上行走奔跑。这种坦荡，反而拥有一种直指人心的力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切都追求快速、新奇和刺激的时代，旧乌普萨拉提供了一种相反的旅行价值：那就是学习与沉默、与空旷、与一种未经修饰的古老共存。它告诉我们，最深刻的震撼，未必来自信息密度，而是来自空间本身所蕴含的时间重量。当你躺在那些国王的坟冢上，看着流云变幻，你会忘记打卡，忘记拍照，甚至忘记思考。你只是在那里，成为一个瞬间的连接点，连接着千年之前的篝火与今日的阳光。对于每一位渴望在旅途中触碰文明根系，而不仅仅是掠过其表面的旅人来说，旧乌普萨拉都不是一个简单的景点，它是一场关于起源的冥想，是一次灵魂的朝圣。它让你记住，在成为任何身份之前，我们首先是站立在大地上、仰望星空的人。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/lund-cathedral" className="block group">
+              <a href="/attractions/visby" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    隆
+                    维
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">隆德大教堂</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lund Cathedral</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维斯比老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Visby</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/vasteras-sweden" className="block group">
+              <a href="/attractions/ales-stenar" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    韦
+                    阿
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦斯特罗斯</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Västerås</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿莱石阵</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ale's Stones</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/eksjo-old-town" className="block group">
+              <a href="/attractions/orebro-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    埃
+                    厄
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃克舍老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eksjö Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">厄勒布鲁城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Örebro Castle</p>
                   </div>
                 </div>
               </a>

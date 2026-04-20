@@ -15,7 +15,7 @@ export default function BascarsijaOldBazaarSarajevoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '巴什卡尔希亚', href: '/attractions/bascarsija-old-bazaar-sarajevo' },
           ]}
         />

@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '科利国家公园 Koli National Park｜芬兰民族灵魂之窗，白石英岩巅峰俯瞰万湖之国 - 最佳欧洲景点',
-  description: '车子在无尽的松林与闪亮的湖泊之间穿行，当你开始觉得这片绿与蓝的韵律将永远持续下去时，道路一个转弯，它毫无征兆地出现了。那不是山，在见惯阿尔卑斯雄姿的欧洲大陆，科利的海拔几乎称得上谦卑。但那是一片突然从地平线上撕裂开来的、裸露着白色脊梁的悬崖，像一头巨大的、沉睡的古老生物，静静地卧在皮耶利宁湖深蓝色的...',
+  description: '车子在无尽的松林与闪亮的湖泊之间穿行，当你开始觉得这片绿与蓝的韵律将永远持续下去时，道路一个转弯，它毫无征兆地出现了。那不是山，在见惯阿尔卑斯雄姿的欧洲大陆，科利的海拔几乎称得上谦卑。但那是一片突然从地平线上撕裂开来的、裸露着白色脊梁的悬崖，像一头巨大的、沉睡的古老生物，静静地卧在皮耶利宁湖深蓝色的',
 }
 
 export default function KoliNationalParkPage() {
@@ -15,7 +15,7 @@ export default function KoliNationalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '科利国家公园', href: '/attractions/koli-national-park' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function KoliNationalParkPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子在无尽的松林与闪亮的湖泊之间穿行，当你开始觉得这片绿与蓝的韵律将永远持续下去时，道路一个转弯，它毫无征兆地出现了。那不是山，在见惯阿尔卑斯雄姿的欧洲大陆，科利的海拔几乎称得上谦卑。但那是一片突然从地平线上撕裂开来的、裸露着白色脊梁的悬崖，像一头巨大的、沉睡的古老生物，静静地卧在皮耶利宁湖深蓝色的绒布上。第一眼，你就会被那种沉默的威严攫住。空气瞬间变得清冽，混合着松针的冷香和湖水蒸腾起来的、略带腥甜的湿润气息。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`爬到半山腰，耳朵里只剩下风穿过云杉林顶的呜咽，以及自己踩在厚实苔藓和碎石上的沙沙声。偶尔，一声清亮的鸟鸣划破寂静，反而让周遭显得更加深邃。这里没有恢弘的乐章，只有大自然最原初的白噪音。站在乌科山顶的观景台，视野豁然开朗。眼前是芬兰的缩影：皮耶利宁湖像一块被轻轻敲裂的深蓝色玻璃，碎片洒向远方，化为无数岛屿和湾流；森林是各种绿色的拼贴画，墨绿、翠绿、黄绿，一直延伸到世界尽头的地平线，那里天地交融，模糊成一片柔光。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`你会发现，这里不只是游客的打卡地。身边常能看到穿着实用冲锋衣的芬兰家庭，父母轻声向孩子解释着某种苔藓的名字；或是装备专业的徒步者，向你点头致意后便沉默地没入林间小径。科利之于芬兰人，就像黄山之于中国人，是一种刻在骨子里的风景基因，是远行时怀念的故乡模样，是寻求内心宁静时必须回归的“圣地”。它的核心魅力不在于震撼，而在于一种深沉的抚慰。它让你相信，世界仍有如此开阔、宁静、一尘不染的角落，时间在这里是以森林的年轮和冰川的擦痕来计算的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在无尽的松林与闪亮的湖泊之间穿行，当你开始觉得这片绿与蓝的韵律将永远持续下去时，道路一个转弯，它毫无征兆地出现了。那不是山，在见惯阿尔卑斯雄姿的欧洲大陆，科利的海拔几乎称得上谦卑。但那是一片突然从地平线上撕裂开来的、裸露着白色脊梁的悬崖，像一头巨大的、沉睡的古老生物，静静地卧在皮耶利宁湖深蓝色的绒布上。第一眼，你就会被那种沉默的威严攫住。空气瞬间变得清冽，混合着松针的冷香和湖水蒸腾起来的、略带腥甜的湿润气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "爬到半山腰，耳朵里只剩下风穿过云杉林顶的呜咽，以及自己踩在厚实苔藓和碎石上的沙沙声。偶尔，一声清亮的鸟鸣划破寂静，反而让周遭显得更加深邃。这里没有恢弘的乐章，只有大自然最原初的白噪音。站在乌科山顶的观景台，视野豁然开朗。眼前是芬兰的缩影：皮耶利宁湖像一块被轻轻敲裂的深蓝色玻璃，碎片洒向远方，化为无数岛屿和湾流；森林是各种绿色的拼贴画，墨绿、翠绿、黄绿，一直延伸到世界尽头的地平线，那里天地交融，模糊成一片柔光。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你会发现，这里不只是游客的打卡地。身边常能看到穿着实用冲锋衣的芬兰家庭，父母轻声向孩子解释着某种苔藓的名字；或是装备专业的徒步者，向你点头致意后便沉默地没入林间小径。科利之于芬兰人，就像黄山之于中国人，是一种刻在骨子里的风景基因，是远行时怀念的故乡模样，是寻求内心宁静时必须回归的“圣地”。它的核心魅力不在于震撼，而在于一种深沉的抚慰。它让你相信，世界仍有如此开阔、宁静、一尘不染的角落，时间在这里是以森林的年轮和冰川的擦痕来计算的。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function KoliNationalParkPage() {
                 <InfoRow label="国家" value={`芬兰`} />
                 <InfoRow label="城市" value={`北卡累利阿区（主要入口城镇为约恩苏或利埃克萨）`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`芬兰民族精神的象征与风景画派的灵感源泉，被誉为“芬兰的国家风景”。`} />
                 <InfoRow label="建筑特色" value={`非人造建筑奇观，而是由冰河时代雕琢出的自然杰作——雄伟的白石英岩山脊从古老的皮耶利宁湖拔地而起。`} />
@@ -52,6 +54,7 @@ export default function KoliNationalParkPage() {
                 <InfoRow label="文化价值" value={`见证了芬兰从自然崇拜到民族认同构建的文化历程，是每个芬兰人心中“家乡”风景的终极模板。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`国家公园全年全天候开放，游客中心、酒店和部分服务设施有季节性开放时间。主要游客中心（Ukko）通常在夏季（6月至8月）每天开放，春秋季（5月、9月）开放时间缩短，冬季（10月至次年4月）可能仅在周末或预约开放。前往前务必在官网查询最新信息。冬季步道保持开放，但部分路线可能因积雪深度需使用雪鞋或越野滑雪板。`} />
               <InfoRow label="门票价格" value={`进入科利国家公园完全免费。国家公园遵循芬兰“每个人的权利”原则。可能的费用包括：停车场收费（夏季约5-10欧元/天，冬季可能免费）、游客中心展览门票（约6-8欧元）、导游服务、租借装备（如越野滑雪板、雪鞋、独木舟）以及酒店、餐厅等私人消费。`} />
@@ -62,17 +65,17 @@ export default function KoliNationalParkPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`科利的故事，始于遥远的冰河世纪末期。大约一万年前，厚重的冰盖缓缓退缩，像一位冷酷又充满力量的雕刻师，用亿万年的时光，将古老的石英岩地层打磨、刨蚀，最终留下了这道横亘在湖泊与平原之间的陡峭山脊。冰川留下的“羊背石”光洁表面，至今仍在阳光下闪烁着独特的灰白光泽。在很长一段时间里，这片险峻而肥沃的土地，是早期森林萨米人的狩猎场与圣地。他们将山视为神灵的居所，“Ukko”这个名字便来源于芬兰神话中的天空与雷霆之神乌科，那些最高的山峰，被认为是通往神灵世界的阶梯。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转到19世纪中叶，一股浪漫主义的春风吹遍了欧洲，芬兰也不例外。当时，芬兰还是沙皇俄国统治下的一个自治大公国，民族意识的萌芽正在寻找一个具体的情感寄托。一批艺术家、作家和作曲家，像探险家一样深入偏远的卡累利阿地区，试图寻找最纯粹、最原始的“芬兰性”。当画家埃罗·耶内费尔特第一次站在科利的山巅，面对那浩瀚无垠的湖光山色时，他被深深击中了。这未经修饰的壮丽，这寂静中蕴含的力量，不正是他们苦苦追寻的民族灵魂的写照吗？耶内费尔特、阿克塞利·加伦-卡勒拉等大师用画笔反复描绘科利，作曲家西贝柳斯的音乐里也回荡着这里的森林絮语。科利，从一个地理名称，一跃成为了芬兰民族浪漫主义的象征图标。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`随着民族独立（1917年）和现代化进程，科利的重要性有增无减。它不再是艺术家的小众秘境，而成为了全体国民共享的精神家园。为了保护这份“国家风景”免受过度开发的侵蚀，经过漫长的讨论与规划，科利国家公园于1991年正式成立。这不仅仅是一个环境保护区的设立，更是一次全民共识的加冕礼。公园的界限小心翼翼地划定了保护与体验的平衡，既守护了古老森林的生态系统和脆弱的地质形态，也为人与自然的传统联系——比如采摘浆果、蘑菇，在特定区域进行传统的“刀耕火种”以维持生物多样性——留下了空间。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`今天的科利，依然延续着它的双重生命。一方面，它是世界级的自然遗产，科学家在这里研究气候变化对北方森林的影响，徒步者遵循着标记清晰的步道探索自然。另一方面，它依然是那个灵感的源泉。当代的摄影师在等待极光掠过湖面，诗人在林间小屋里寻找词句，而普通芬兰家庭，则会在这里的传统木屋“莫基”里度过仲夏节，围着篝火，重温他们民族故事里最核心的一章——关于森林、湖泊与沉默的热爱。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "科利的故事，始于遥远的冰河世纪末期。大约一万年前，厚重的冰盖缓缓退缩，像一位冷酷又充满力量的雕刻师，用亿万年的时光，将古老的石英岩地层打磨、刨蚀，最终留下了这道横亘在湖泊与平原之间的陡峭山脊。冰川留下的“羊背石”光洁表面，至今仍在阳光下闪烁着独特的灰白光泽。在很长一段时间里，这片险峻而肥沃的土地，是早期森林萨米人的狩猎场与圣地。他们将山视为神灵的居所，“Ukko”这个名字便来源于芬兰神话中的天空与雷霆之神乌科，那些最高的山峰，被认为是通往神灵世界的阶梯。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转到19世纪中叶，一股浪漫主义的春风吹遍了欧洲，芬兰也不例外。当时，芬兰还是沙皇俄国统治下的一个自治大公国，民族意识的萌芽正在寻找一个具体的情感寄托。一批艺术家、作家和作曲家，像探险家一样深入偏远的卡累利阿地区，试图寻找最纯粹、最原始的“芬兰性”。当画家埃罗·耶内费尔特第一次站在科利的山巅，面对那浩瀚无垠的湖光山色时，他被深深击中了。这未经修饰的壮丽，这寂静中蕴含的力量，不正是他们苦苦追寻的民族灵魂的写照吗？耶内费尔特、阿克塞利·加伦-卡勒拉等大师用画笔反复描绘科利，作曲家西贝柳斯的音乐里也回荡着这里的森林絮语。科利，从一个地理名称，一跃成为了芬兰民族浪漫主义的象征图标。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随着民族独立（1917年）和现代化进程，科利的重要性有增无减。它不再是艺术家的小众秘境，而成为了全体国民共享的精神家园。为了保护这份“国家风景”免受过度开发的侵蚀，经过漫长的讨论与规划，科利国家公园于1991年正式成立。这不仅仅是一个环境保护区的设立，更是一次全民共识的加冕礼。公园的界限小心翼翼地划定了保护与体验的平衡，既守护了古老森林的生态系统和脆弱的地质形态，也为人与自然的传统联系——比如采摘浆果、蘑菇，在特定区域进行传统的“刀耕火种”以维持生物多样性——留下了空间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的科利，依然延续着它的双重生命。一方面，它是世界级的自然遗产，科学家在这里研究气候变化对北方森林的影响，徒步者遵循着标记清晰的步道探索自然。另一方面，它依然是那个灵感的源泉。当代的摄影师在等待极光掠过湖面，诗人在林间小屋里寻找词句，而普通芬兰家庭，则会在这里的传统木屋“莫基”里度过仲夏节，围着篝火，重温他们民族故事里最核心的一章——关于森林、湖泊与沉默的热爱。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`要真正感受科利的灵魂，建议至少安排一整天，甚至两天一夜的行程。最佳抵达时间是清晨，赶在日间游客巴士到达之前，独自拥有山顶的宁静。整体节奏宜慢不宜快，这里不适合“冲刺打卡”，而适合“呼吸与漫步”。第一天下午抵达，入住附近酒店，轻松徒步适应环境；第二天全天深入探索山脊与森林，傍晚欣赏日落。这样安排能让你体验科利从晨昏到日暮不同光线下的魔幻变化，也有足够时间坐在某块岩石上，什么也不做，只是看云影在湖面上移动。`}
                 </p>
@@ -157,8 +160,9 @@ export default function KoliNationalParkPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`经济森林小屋`}</h4>
@@ -178,50 +182,51 @@ export default function KoliNationalParkPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`夏季和秋季（观赏“鲁什卡”斑斓秋色）是绝对旺季，务必提前数月预订。冬季虽冷，但预订压力小，且有机会体验越野滑雪和极光。大部分优质住宿都需要自驾才能方便到达，选择住宿时请综合考虑交通因素。如果想体验真正的宁静，选择远离主游客中心、藏于林间或湖畔的住处。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季和秋季（观赏“鲁什卡”斑斓秋色）是绝对旺季，务必提前数月预订。冬季虽冷，但预订压力小，且有机会体验越野滑雪和极光。大部分优质住宿都需要自驾才能方便到达，选择住宿时请综合考虑交通因素。如果想体验真正的宁静，选择远离主游客中心、藏于林间或湖畔的住处。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开科利许久后，你会发现，最难忘的不是某一张拍下的照片，而是身体记住的感觉：是肺部充满清冷空气的舒畅，是耳朵过滤掉所有嘈杂后只剩风声的宁静，是目光可以毫无阻碍地投向地平线尽头的自由。在这个被数字屏幕和碎片信息切割的时代，科利提供了一种近乎奢侈的完整感。它让你重新学习“观看”，学习“呼吸”，学习“沉默”。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`它或许没有千年古堡的戏剧性传奇，也没有大博物馆的艺术珍品，但它拥有的是更原始、更恒久的力量——那是地球本身的故事，是一个民族将自然景观内化为精神图腾的深情。来这里，你不是为了收集又一个景点印章，而是为了完成一次内心的校准。当你站在那座白色的山脊上，与千百年前的萨米猎人、一个世纪前的民族艺术家望着同一片湖泊与森林时，你会感受到一种超越个人的、深沉的时间连接。这就是科利独一无二的礼物：它让你在壮阔的风景中，找到自己内在的那片宁静与广阔。这，正是深度旅行的终极意义所在。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开科利许久后，你会发现，最难忘的不是某一张拍下的照片，而是身体记住的感觉：是肺部充满清冷空气的舒畅，是耳朵过滤掉所有嘈杂后只剩风声的宁静，是目光可以毫无阻碍地投向地平线尽头的自由。在这个被数字屏幕和碎片信息切割的时代，科利提供了一种近乎奢侈的完整感。它让你重新学习“观看”，学习“呼吸”，学习“沉默”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它或许没有千年古堡的戏剧性传奇，也没有大博物馆的艺术珍品，但它拥有的是更原始、更恒久的力量——那是地球本身的故事，是一个民族将自然景观内化为精神图腾的深情。来这里，你不是为了收集又一个景点印章，而是为了完成一次内心的校准。当你站在那座白色的山脊上，与千百年前的萨米猎人、一个世纪前的民族艺术家望着同一片湖泊与森林时，你会感受到一种超越个人的、深沉的时间连接。这就是科利独一无二的礼物：它让你在壮阔的风景中，找到自己内在的那片宁静与广阔。这，正是深度旅行的终极意义所在。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/turku-castle-sweden-finland" className="block group">
+              <a href="/attractions/hame-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    图
+                    海
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图尔库城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Turku Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">海门林纳海门城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Häme Castle</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/riihilahti" className="block group">
+              <a href="/attractions/tampere-old-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    里
+                    坦
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里希拉赫蒂</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Riihilahti</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">坦佩雷老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tampere Old Town</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/turku-castle" className="block group">
+              <a href="/attractions/bengtskar-lighthouse" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    图
+                    本
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图尔库城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Turku Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">本特谢尔灯塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bengtskär Lighthouse</p>
                   </div>
                 </div>
               </a>

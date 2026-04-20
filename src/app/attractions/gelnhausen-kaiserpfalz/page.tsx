@@ -15,7 +15,7 @@ export default function GelnhausenKaiserpfalzPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '盖尔恩豪森（巴巴罗萨行宫）', href: '/attractions/gelnhausen-kaiserpfalz' },
           ]}
         />

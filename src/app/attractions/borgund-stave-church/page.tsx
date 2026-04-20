@@ -15,7 +15,7 @@ export default function BorgundStaveChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '博尔贡木板教堂', href: '/attractions/borgund-stave-church' },
           ]}
         />

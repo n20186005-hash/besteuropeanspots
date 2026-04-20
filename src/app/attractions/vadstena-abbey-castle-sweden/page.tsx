@@ -15,7 +15,7 @@ export default function VadstenaAbbeyCastleSwedenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瓦斯泰纳修道院及城堡', href: '/attractions/vadstena-abbey-castle-sweden' },
           ]}
         />

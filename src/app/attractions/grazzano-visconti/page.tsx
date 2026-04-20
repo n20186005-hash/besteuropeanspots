@@ -15,7 +15,7 @@ export default function GrazzanoViscontiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '格拉扎诺维斯孔蒂', href: '/attractions/grazzano-visconti' },
           ]}
         />

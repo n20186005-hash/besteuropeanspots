@@ -15,7 +15,7 @@ export default function QuedlinburgOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奎德林堡老城', href: '/attractions/quedlinburg-old-town' },
           ]}
         />

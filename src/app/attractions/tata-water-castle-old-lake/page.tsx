@@ -15,7 +15,7 @@ export default function TataWaterCastleOldLakePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '陶陶（老湖上的水上城堡）', href: '/attractions/tata-water-castle-old-lake' },
           ]}
         />

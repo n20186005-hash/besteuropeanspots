@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default function HistoryPage() {
-  const historySpots = attractions.filter(a => a.category?.includes('history'));
+  const historySpots = attractions.filter(a => a.category?.includes('history') || a.slug.endsWith('-history'));
 
   return (
     <div className="bg-white">

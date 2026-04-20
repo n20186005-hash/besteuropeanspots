@@ -15,7 +15,7 @@ export default function VoringsfossenWaterfallPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '沃尔令斯大瀑布', href: '/attractions/voringsfossen-waterfall' },
           ]}
         />

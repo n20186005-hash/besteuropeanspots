@@ -15,7 +15,7 @@ export default function TrogirHistoricTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '特罗吉尔历史古城', href: '/attractions/trogir-historic-town' },
           ]}
         />

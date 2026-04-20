@@ -15,7 +15,7 @@ export default function RolleCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗尔城堡（罗尔镇）', href: '/attractions/rolle-castle' },
           ]}
         />

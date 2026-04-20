@@ -15,7 +15,7 @@ export default function StWolfgangWhiteHorseInnPilgrimageChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '圣沃尔夫冈（白马酒店与绝美朝圣教堂）', href: '/attractions/st-wolfgang-white-horse-inn-pilgrimage-church' },
           ]}
         />

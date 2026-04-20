@@ -15,7 +15,7 @@ export default function GharDalamCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '加尔·达拉姆洞穴', href: '/attractions/ghar-dalam-cave' },
           ]}
         />

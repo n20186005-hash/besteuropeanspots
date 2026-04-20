@@ -15,7 +15,7 @@ export default function SedlecOssuaryKutnaHoraPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '库特纳霍拉（人骨教堂）', href: '/attractions/sedlec-ossuary-kutna-hora' },
           ]}
         />

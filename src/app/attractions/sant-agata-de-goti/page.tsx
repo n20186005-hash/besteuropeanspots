@@ -15,7 +15,7 @@ export default function SantAgataDeGotiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '圣阿加塔德戈蒂', href: '/attractions/sant-agata-de-goti' },
           ]}
         />

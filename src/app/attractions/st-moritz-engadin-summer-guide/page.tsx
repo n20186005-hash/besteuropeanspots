@@ -15,7 +15,7 @@ export default function StMoritzEngadinSummerGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '圣莫里茨（恩嘎丁峡谷）', href: '/attractions/st-moritz-engadin-summer-guide' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function MehmedPasaSokolovicBridgeVisegradPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '维舍格勒的穆罕默德·帕夏·索科洛维奇桥', href: '/attractions/mehmed-pasa-sokolovic-bridge-visegrad' },
           ]}
         />

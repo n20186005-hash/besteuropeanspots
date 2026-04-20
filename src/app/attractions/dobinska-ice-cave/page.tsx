@@ -15,7 +15,7 @@ export default function DobinskaIceCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '多布希纳冰洞', href: '/attractions/dobinska-ice-cave' },
           ]}
         />

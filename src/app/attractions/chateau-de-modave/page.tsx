@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '莫达夫城堡 Château de Modave｜耸立于岩石之巅的巴洛克珍宝与古代水利奇迹 - 最佳欧洲景点',
-  description: '当你第一次驱车穿过阿登高地边缘那一片片墨绿的森林，一个拐弯后，莫达夫城堡就这样毫无预兆地撞进你的视野。它不是缓缓出现在地平线上，而是“耸立”——对，只能用这个词。一整块巨大的、灰白色的天然岩柱，像被巨人随意插在大地之上，而城堡那浅黄色的石灰岩墙体，就从这岩柱的顶端生长出来，与岩石本身浑然一体，仿佛已...',
+  description: '当你第一次驱车穿过阿登高地边缘那一片片墨绿的森林，一个拐弯后，莫达夫城堡就这样毫无预兆地撞进你的视野。它不是缓缓出现在地平线上，而是“耸立”——对，只能用这个词。一整块巨大的、灰白色的天然岩柱，像被巨人随意插在大地之上，而城堡那浅黄色的石灰岩墙体，就从这岩柱的顶端生长出来，与岩石本身浑然一体，仿佛已',
 }
 
 export default function ChateauDeModavePage() {
@@ -15,7 +15,7 @@ export default function ChateauDeModavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '莫达夫城堡', href: '/attractions/chateau-de-modave' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function ChateauDeModavePage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`当你第一次驱车穿过阿登高地边缘那一片片墨绿的森林，一个拐弯后，莫达夫城堡就这样毫无预兆地撞进你的视野。它不是缓缓出现在地平线上，而是“耸立”——对，只能用这个词。一整块巨大的、灰白色的天然岩柱，像被巨人随意插在大地之上，而城堡那浅黄色的石灰岩墙体，就从这岩柱的顶端生长出来，与岩石本身浑然一体，仿佛已经在这片山谷中屹立了千万年。你甚至能听见脚下翁斯河哗哗的流水声，与风吹过森林的沙沙声交织在一起，空气里是潮湿的泥土和苔藓的清新气息。那种震撼，不是看到凡尔赛宫时的惊叹，而是一种近乎原始的、对自然与人力共同创造的敬畏。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`停好车，走过古老的石桥，城堡的大门就在眼前。进入内部，光线骤然变得柔和。你立刻会被一种极度细腻、繁复而又不失优雅的装饰所包围。天花板上，墙壁上，到处都是雪白的、像凝固的奶油又像最精致蕾丝般的灰泥雕塑。天使、花环、藤蔓、神话人物……它们不是简单的浮雕，而是充满了立体感和动态，仿佛下一秒就要从墙上飞下来。阳光透过高高的窗户，在拼花木地板上投下明亮的光斑，光影在那些起伏的灰泥曲线上滑动，让整个空间都有了呼吸和生命。你能闻到淡淡的、属于古老木材和石头的清冷气味，偶尔混合着一丝历史尘埃的味道。导游会轻声告诉你，这里任何一个厅室的灰泥作品，都足以单独成为博物馆的镇馆之宝。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最奇妙的体验在于，这座看似纯粹的贵族艺术殿堂，地下却跳动着一颗工程学的机械心脏。在参观接近尾声时，你会被引向一个不那么起眼的区域，然后沿着狭窄的螺旋石阶一路向下，深入岩石的腹地。温度越来越低，水汽弥漫在空气中，你能听到隐约的、有节奏的机械运转声和流水声。然后，你会见到它——那套建于1668年的巨大水利提升装置。巨大的木制齿轮、传动杆和活塞，虽然已经静止，但依然保持着蓄势待发的姿态。想象一下，在三百多年前，正是这套巧妙的装置，将翁斯河的水垂直提升五十多米，输送到城堡顶部的蓄水池，为整个城堡提供自来水和喷泉水力。那一刻，艺术家的灵巧与工程师的智慧，在这座岩石城堡里完成了史诗般的相遇。它不仅是伯爵的宅邸，更是一座自给自足的、超越时代的微型城市。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你第一次驱车穿过阿登高地边缘那一片片墨绿的森林，一个拐弯后，莫达夫城堡就这样毫无预兆地撞进你的视野。它不是缓缓出现在地平线上，而是“耸立”——对，只能用这个词。一整块巨大的、灰白色的天然岩柱，像被巨人随意插在大地之上，而城堡那浅黄色的石灰岩墙体，就从这岩柱的顶端生长出来，与岩石本身浑然一体，仿佛已经在这片山谷中屹立了千万年。你甚至能听见脚下翁斯河哗哗的流水声，与风吹过森林的沙沙声交织在一起，空气里是潮湿的泥土和苔藓的清新气息。那种震撼，不是看到凡尔赛宫时的惊叹，而是一种近乎原始的、对自然与人力共同创造的敬畏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "停好车，走过古老的石桥，城堡的大门就在眼前。进入内部，光线骤然变得柔和。你立刻会被一种极度细腻、繁复而又不失优雅的装饰所包围。天花板上，墙壁上，到处都是雪白的、像凝固的奶油又像最精致蕾丝般的灰泥雕塑。天使、花环、藤蔓、神话人物……它们不是简单的浮雕，而是充满了立体感和动态，仿佛下一秒就要从墙上飞下来。阳光透过高高的窗户，在拼花木地板上投下明亮的光斑，光影在那些起伏的灰泥曲线上滑动，让整个空间都有了呼吸和生命。你能闻到淡淡的、属于古老木材和石头的清冷气味，偶尔混合着一丝历史尘埃的味道。导游会轻声告诉你，这里任何一个厅室的灰泥作品，都足以单独成为博物馆的镇馆之宝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最奇妙的体验在于，这座看似纯粹的贵族艺术殿堂，地下却跳动着一颗工程学的机械心脏。在参观接近尾声时，你会被引向一个不那么起眼的区域，然后沿着狭窄的螺旋石阶一路向下，深入岩石的腹地。温度越来越低，水汽弥漫在空气中，你能听到隐约的、有节奏的机械运转声和流水声。然后，你会见到它——那套建于1668年的巨大水利提升装置。巨大的木制齿轮、传动杆和活塞，虽然已经静止，但依然保持着蓄势待发的姿态。想象一下，在三百多年前，正是这套巧妙的装置，将翁斯河的水垂直提升五十多米，输送到城堡顶部的蓄水池，为整个城堡提供自来水和喷泉水力。那一刻，艺术家的灵巧与工程师的智慧，在这座岩石城堡里完成了史诗般的相遇。它不仅是伯爵的宅邸，更是一座自给自足的、超越时代的微型城市。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function ChateauDeModavePage() {
                 <InfoRow label="国家" value={`比利时`} />
                 <InfoRow label="城市" value={`列日省（确切位置在莫达夫镇）`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`一座历经八百年风雨，从军事堡垒演变为贵族私邸，最终因其划时代的17世纪水利工程而载入技术史册的非凡城堡。`} />
                 <InfoRow label="建筑特色" value={`雄伟的石灰岩建筑群如鹰巢般牢牢嵌入巨大的天然岩石之上，内部则以大量精美绝伦的灰泥浮雕、壁画和木雕装饰而闻名。`} />
@@ -52,6 +54,7 @@ export default function ChateauDeModavePage() {
                 <InfoRow label="文化价值" value={`它不仅是建筑艺术的瑰宝，更是17世纪欧洲水利工程学与奢华生活美学结合的活化石，见证了哈布斯堡王朝统治下低地国家的技术雄心与艺术繁荣。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`城堡内部仅限导览游，通常开放季节为四月至十月，每天开放但导览有固定场次（例如上午11点，下午2点、3点、4点），冬季（十一月至三月）仅周末和学校假期开放，且场次减少。花园和公园全年免费开放。具体日期和时间每年都可能微调，务必出发前在其官方网站核实最新时刻表，国定假日可能关闭。`} />
               <InfoRow label="门票价格" value={`标准成人导览游票价约为11欧元。65岁以上长者、学生及团体（15人以上）享有优惠价，约9欧元。6至18岁青少年票价约6欧元。6岁以下儿童免费。家庭套票（2大2小）价格约为28欧元。仅参观公园和花园免费。门票通常可在入口处直接购买，但旺季强烈建议在线预订以确保有导览名额。`} />
@@ -62,17 +65,17 @@ export default function ChateauDeModavePage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`莫达夫的故事，始于岩石本身。早在罗马时代，这块俯瞰翁斯河的战略要地可能就有哨所。但城堡最早的文字记录出现在1233年，那时候它属于“莫达夫领主”，是一座典型的、注重防御的中世纪石制堡垒。在接下来的几个世纪里，它像一枚重要的棋子，在列日公国复杂的封建关系中易手。城堡伴随着战争的硝烟成长，墙壁在一次次的围攻与加固中变得越来越厚。你可以想象，在14或15世纪，身穿锁子甲的士兵在如今布满灰泥天使的厅堂里巡逻，窗外是戒备森严的吊桥和护城河。它最初的模样，是为了生存，而非享受。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`转机发生在17世纪。1642年，这座城堡迎来了它命运中最关键的主人之一：让·德·马奇伯爵。这位来自当时欧洲最富庶、艺术最前沿的南尼德兰地区（大致今天的比利时）的贵族，有着全新的眼光和雄厚的财力。他不再需要一个阴冷、昏暗的军事堡垒，他梦想的是一座配得上其地位和品味的、舒适而华丽的夏季行宫。于是，一场轰轰烈烈的改建开始了。中世纪沉重的塔楼和雉堞被更具美学感的对称立面所柔化，窗户被扩大以迎接更多的阳光。但真正让城堡脱胎换骨的，是内部的装饰。德·马奇伯爵请来了当时佛兰德斯地区最顶尖的灰泥雕塑师和画家团队。工匠们将石膏、大理石粉和水调和，如同魔法师般，在墙壁和天花板上直接“描绘”出立体的画卷。狩猎场景、古典寓言、繁花似锦的垂花饰……巴洛克艺术所追求的动态、戏剧性和奢华感，在这里被发挥到了极致。城堡从一个武夫，变成了一位风雅的诗人。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，德·马奇伯爵的雄心不止于艺术。他是一位有着远见和科学素养的贵族。城堡建在岩石顶端，日常用水是个大问题。依赖人力或牲口从河边运水既费力又不体面。于是，一项在当时堪称奇迹的工程上马了。在城堡下方的岩石中，工程师们建造了一套复杂的水力系统。他们在翁斯河上筑坝，利用水流驱动一个巨大的水轮，水轮再通过一系列巧妙的木制齿轮、曲轴和连杆，将动力传送到岩石深处的一组活塞泵。这些活塞泵像巨人的心脏一样搏动，硬生生把河水垂直提升到五十多米高的城堡储水池中。这套1668年竣工的系统，不仅满足了城堡全部的饮用、烹饪和清洁需求，还驱动了花园里令人赞叹的喷泉。想想看，当巴黎的凡尔赛宫还在为供水问题头疼时，这座偏远的比利时城堡已经用上了“自来水”和自动喷泉。这是低地国家在水利工程和机械制造方面世界领先地位的明证。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转，城堡在18、19世纪继续更换着主人，但核心的样貌得以保存。它躲过了法国大革命的剧烈动荡，也熬过了两次世界大战的炮火，不能不说是一个奇迹。20世纪中叶，城堡被一家水务公司收购——这简直是历史开的一个绝妙玩笑，仿佛这座因水利工程而辉煌的城堡，最终回到了“水”的怀抱。公司对其进行了精心的保护和修复，并向公众开放。今天，我们看到的不仅是伯爵的奢华宫殿，更是一个融合了军事史、艺术史和科技史的、层次极其丰富的时光胶囊。每一块石头，每一寸灰泥，每一根古老的木制齿轮，都在诉说着不同的故事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "莫达夫的故事，始于岩石本身。早在罗马时代，这块俯瞰翁斯河的战略要地可能就有哨所。但城堡最早的文字记录出现在1233年，那时候它属于“莫达夫领主”，是一座典型的、注重防御的中世纪石制堡垒。在接下来的几个世纪里，它像一枚重要的棋子，在列日公国复杂的封建关系中易手。城堡伴随着战争的硝烟成长，墙壁在一次次的围攻与加固中变得越来越厚。你可以想象，在14或15世纪，身穿锁子甲的士兵在如今布满灰泥天使的厅堂里巡逻，窗外是戒备森严的吊桥和护城河。它最初的模样，是为了生存，而非享受。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转机发生在17世纪。1642年，这座城堡迎来了它命运中最关键的主人之一：让·德·马奇伯爵。这位来自当时欧洲最富庶、艺术最前沿的南尼德兰地区（大致今天的比利时）的贵族，有着全新的眼光和雄厚的财力。他不再需要一个阴冷、昏暗的军事堡垒，他梦想的是一座配得上其地位和品味的、舒适而华丽的夏季行宫。于是，一场轰轰烈烈的改建开始了。中世纪沉重的塔楼和雉堞被更具美学感的对称立面所柔化，窗户被扩大以迎接更多的阳光。但真正让城堡脱胎换骨的，是内部的装饰。德·马奇伯爵请来了当时佛兰德斯地区最顶尖的灰泥雕塑师和画家团队。工匠们将石膏、大理石粉和水调和，如同魔法师般，在墙壁和天花板上直接“描绘”出立体的画卷。狩猎场景、古典寓言、繁花似锦的垂花饰……巴洛克艺术所追求的动态、戏剧性和奢华感，在这里被发挥到了极致。城堡从一个武夫，变成了一位风雅的诗人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，德·马奇伯爵的雄心不止于艺术。他是一位有着远见和科学素养的贵族。城堡建在岩石顶端，日常用水是个大问题。依赖人力或牲口从河边运水既费力又不体面。于是，一项在当时堪称奇迹的工程上马了。在城堡下方的岩石中，工程师们建造了一套复杂的水力系统。他们在翁斯河上筑坝，利用水流驱动一个巨大的水轮，水轮再通过一系列巧妙的木制齿轮、曲轴和连杆，将动力传送到岩石深处的一组活塞泵。这些活塞泵像巨人的心脏一样搏动，硬生生把河水垂直提升到五十多米高的城堡储水池中。这套1668年竣工的系统，不仅满足了城堡全部的饮用、烹饪和清洁需求，还驱动了花园里令人赞叹的喷泉。想想看，当巴黎的凡尔赛宫还在为供水问题头疼时，这座偏远的比利时城堡已经用上了“自来水”和自动喷泉。这是低地国家在水利工程和机械制造方面世界领先地位的明证。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转，城堡在18、19世纪继续更换着主人，但核心的样貌得以保存。它躲过了法国大革命的剧烈动荡，也熬过了两次世界大战的炮火，不能不说是一个奇迹。20世纪中叶，城堡被一家水务公司收购——这简直是历史开的一个绝妙玩笑，仿佛这座因水利工程而辉煌的城堡，最终回到了“水”的怀抱。公司对其进行了精心的保护和修复，并向公众开放。今天，我们看到的不仅是伯爵的奢华宫殿，更是一个融合了军事史、艺术史和科技史的、层次极其丰富的时光胶囊。每一块石头，每一寸灰泥，每一根古老的木制齿轮，都在诉说着不同的故事。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`建议将整个游览安排为半天（约3-4小时）。最佳抵达时间是下午一点左右，这样你可以先悠闲地探索城堡外围的森林步道和花园，从各个角度欣赏城堡与岩石结合的雄姿，并享受翁斯河畔的宁静。然后，参加下午两点或三点的导览团进入城堡内部（导览约1小时），此时光线正好能照亮那些华丽的灰泥装饰。导览结束后，你可以有充足的时间在城堡咖啡馆休息，回味刚才的见闻，或者在礼品店逛逛。这样的节奏张弛有度，既能深度了解内部，又不错过外部的自然美景。切勿只赶着参观内部而忽略周边环境，城堡与自然环境的互动是其魅力不可或缺的一部分。`}
                 </p>
@@ -157,8 +160,9 @@ export default function ChateauDeModavePage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`乡村风情之选`}</h4>
@@ -178,50 +182,51 @@ export default function ChateauDeModavePage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`莫达夫本身是个非常宁静的小镇，住宿选择有限且很快订满，尤其是夏季和周末，强烈建议提前数月规划预订。如果住在列日市，晚上活动丰富，但需每天往返，适合自驾游客。整个区域治安良好，但夜晚乡间道路照明较少，驾车需小心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "莫达夫本身是个非常宁静的小镇，住宿选择有限且很快订满，尤其是夏季和周末，强烈建议提前数月规划预订。如果住在列日市，晚上活动丰富，但需每天往返，适合自驾游客。整个区域治安良好，但夜晚乡间道路照明较少，驾车需小心。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开莫达夫城堡很久以后，我的脑海里依然会清晰地浮现出两个画面交织的场景：一个是阳光下那些洁白、轻盈、仿佛在跳舞的灰泥天使；另一个是地下室里那些沉重、漆黑、沉默却曾力拔山河的木制齿轮。这座城堡教会我一件事：真正的深度，往往在于这种矛盾与统一的并存。它不像那些只有金碧辉煌的宫殿，也不像那些只剩断壁残垣的废墟。它既有上升到极致的艺术追求，让你看到人类对美与享乐所能企及的高度；又有沉入地底的工程智慧，让你看到人类为了解决生存的基本问题，能展现出多么惊人的创造力。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个一切都追求快速、表面和即时满足的世界里，莫达夫像一位沉静的老者，提醒着我们“层次”的意义。它的历史是一层一层沉积下来的——中世纪的坚固、巴洛克的繁复、工业时代前的精巧技术。参观它，就像翻阅一本立体的、可以走进去的历史书，每一章都有不同的主题，却共同讲述着同一个关于人类适应、改造和美化自身环境的故事。它小众，因为它不张扬；它深刻，因为它丰富。对于厌倦了热门景点人潮、渴望一次能同时触动审美神经和好奇心的旅人来说，这座耸立在比利时岩石上的城堡，绝对是一个值得你专程前往、细细品味的梦中之地。在这里，你找到的不仅是风景，更是一种理解欧洲文明复杂性与韧性的独特视角。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开莫达夫城堡很久以后，我的脑海里依然会清晰地浮现出两个画面交织的场景：一个是阳光下那些洁白、轻盈、仿佛在跳舞的灰泥天使；另一个是地下室里那些沉重、漆黑、沉默却曾力拔山河的木制齿轮。这座城堡教会我一件事：真正的深度，往往在于这种矛盾与统一的并存。它不像那些只有金碧辉煌的宫殿，也不像那些只剩断壁残垣的废墟。它既有上升到极致的艺术追求，让你看到人类对美与享乐所能企及的高度；又有沉入地底的工程智慧，让你看到人类为了解决生存的基本问题，能展现出多么惊人的创造力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在当今这个一切都追求快速、表面和即时满足的世界里，莫达夫像一位沉静的老者，提醒着我们“层次”的意义。它的历史是一层一层沉积下来的——中世纪的坚固、巴洛克的繁复、工业时代前的精巧技术。参观它，就像翻阅一本立体的、可以走进去的历史书，每一章都有不同的主题，却共同讲述着同一个关于人类适应、改造和美化自身环境的故事。它小众，因为它不张扬；它深刻，因为它丰富。对于厌倦了热门景点人潮、渴望一次能同时触动审美神经和好奇心的旅人来说，这座耸立在比利时岩石上的城堡，绝对是一个值得你专程前往、细细品味的梦中之地。在这里，你找到的不仅是风景，更是一种理解欧洲文明复杂性与韧性的独特视角。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/orval-abbey" className="block group">
+              <a href="/attractions/garrison-border-town-of-elvas" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    奥
+                    埃
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔瓦勒修道院</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Orval Abbey</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃尔瓦什星形要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Garrison Border Town of Elvas</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/regensburg-stone-bridge" className="block group">
+              <a href="/attractions/aigues-mortes-medieval-walled-city" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    雷
+                    艾
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">雷根斯堡石桥</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Regensburg Stone Bridge</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">艾格莫尔特十字军古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Aigues-Mortes</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/olavinlinna-savonlinna" className="block group">
+              <a href="/attractions/karlstejn-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    萨
+                    卡
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨翁林纳奥拉维城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Olavinlinna</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔什特因城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Karlštejn Castle</p>
                   </div>
                 </div>
               </a>

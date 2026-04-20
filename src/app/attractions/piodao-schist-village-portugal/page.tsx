@@ -15,7 +15,7 @@ export default function PiodaoSchistVillagePortugalPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '皮奥当', href: '/attractions/piodao-schist-village-portugal' },
           ]}
         />

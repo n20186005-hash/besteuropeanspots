@@ -15,7 +15,7 @@ export default function SirogojnoOpenAirMuseumZlatiborPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '兹拉蒂博尔-西罗戈伊诺露天博物馆', href: '/attractions/sirogojno-open-air-museum-zlatibor' },
           ]}
         />

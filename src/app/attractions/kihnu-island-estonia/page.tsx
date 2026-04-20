@@ -15,7 +15,7 @@ export default function KihnuIslandEstoniaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '基赫努岛', href: '/attractions/kihnu-island-estonia' },
           ]}
         />

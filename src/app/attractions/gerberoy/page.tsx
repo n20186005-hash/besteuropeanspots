@@ -15,7 +15,7 @@ export default function GerberoyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '热尔伯鲁瓦', href: '/attractions/gerberoy' },
           ]}
         />

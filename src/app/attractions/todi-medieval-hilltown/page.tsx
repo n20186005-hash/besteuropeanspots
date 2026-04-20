@@ -15,7 +15,7 @@ export default function TodiMedievalHilltownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '托迪中世纪古城', href: '/attractions/todi-medieval-hilltown' },
           ]}
         />

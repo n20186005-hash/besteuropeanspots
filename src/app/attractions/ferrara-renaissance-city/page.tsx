@@ -15,7 +15,7 @@ export default function FerraraRenaissanceCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '费拉拉文艺复兴城市', href: '/attractions/ferrara-renaissance-city' },
           ]}
         />

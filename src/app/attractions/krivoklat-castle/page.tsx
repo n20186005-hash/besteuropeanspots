@@ -15,7 +15,7 @@ export default function KrivoklatCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克日沃克拉特城堡', href: '/attractions/krivoklat-castle' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function SegestaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞杰斯塔', href: '/attractions/segesta' },
           ]}
         />

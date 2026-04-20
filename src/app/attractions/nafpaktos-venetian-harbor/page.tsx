@@ -15,7 +15,7 @@ export default function NafpaktosVenetianHarborPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '纳夫帕克托斯（勒班陀）', href: '/attractions/nafpaktos-venetian-harbor' },
           ]}
         />

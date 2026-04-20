@@ -15,7 +15,7 @@ export default function GodolloPalaceSisiRoyalSummerResidencePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '格德勒宫', href: '/attractions/godollo-palace-sisi-royal-summer-residence' },
           ]}
         />

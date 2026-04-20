@@ -15,7 +15,7 @@ export default function BeratThousandWindowsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '培拉特（千窗之城）', href: '/attractions/berat-thousand-windows' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function GouffreDePadiracPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '帕迪拉克深渊', href: '/attractions/gouffre-de-padirac' },
           ]}
         />

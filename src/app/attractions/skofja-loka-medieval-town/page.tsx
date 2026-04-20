@@ -15,7 +15,7 @@ export default function SkofjaLokaMedievalTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '什科菲亚洛卡', href: '/attractions/skofja-loka-medieval-town' },
           ]}
         />

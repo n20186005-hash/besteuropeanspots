@@ -15,7 +15,7 @@ export default function CapelaDosOssosFaroPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法鲁人骨礼拜堂', href: '/attractions/capela-dos-ossos-faro' },
           ]}
         />

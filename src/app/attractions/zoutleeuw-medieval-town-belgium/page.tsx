@@ -15,7 +15,7 @@ export default function ZoutleeuwMedievalTownBelgiumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '佐特莱乌', href: '/attractions/zoutleeuw-medieval-town-belgium' },
           ]}
         />

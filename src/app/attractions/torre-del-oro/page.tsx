@@ -15,7 +15,7 @@ export default function TorreDelOroPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞维利亚黄金塔', href: '/attractions/torre-del-oro' },
           ]}
         />

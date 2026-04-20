@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '尼西罗斯岛斯特凡诺斯火山口 Nisyros Stefanos Crater｜走入地球脉搏，在沸腾的硫磺烟中漫步 - 最佳欧洲景点',
-  description: '车子在盘山公路上最后一个转弯，一片超越所有想象的景观猛地撞进视野。那不是山，不是谷，而是一个巨大、焦黄、冒着袅袅白烟的“伤口”，直接撕裂在深绿色山体之中。那一刻，语言是苍白的，只有倒吸一口凉气的声音。停好车，沿着边缘小路向下走，空气最先发生变化——一阵轻微但明确的、像臭鸡蛋又混合着浓烈火柴头的硫磺气...',
+  description: '车子在盘山公路上最后一个转弯，一片超越所有想象的景观猛地撞进视野。那不是山，不是谷，而是一个巨大、焦黄、冒着袅袅白烟的“伤口”，直接撕裂在深绿色山体之中。那一刻，语言是苍白的，只有倒吸一口凉气的声音。停好车，沿着边缘小路向下走，空气最先发生变化——一阵轻微但明确的、像臭鸡蛋又混合着浓烈火柴头的硫磺气',
 }
 
 export default function NissyrosStefanosVolcanicCraterPage() {
@@ -15,7 +15,7 @@ export default function NissyrosStefanosVolcanicCraterPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '尼西罗斯岛斯特凡诺斯火山口', href: '/attractions/nissyros-stefanos-volcanic-crater' },
           ]}
         />
@@ -31,11 +31,12 @@ export default function NissyrosStefanosVolcanicCraterPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子在盘山公路上最后一个转弯，一片超越所有想象的景观猛地撞进视野。那不是山，不是谷，而是一个巨大、焦黄、冒着袅袅白烟的“伤口”，直接撕裂在深绿色山体之中。那一刻，语言是苍白的，只有倒吸一口凉气的声音。停好车，沿着边缘小路向下走，空气最先发生变化——一阵轻微但明确的、像臭鸡蛋又混合着浓烈火柴头的硫磺气味，开始包裹你的呼吸。这不是令人不悦的污染，而是大地深处最原始、最蓬勃的呼吸，一种带着危险魅力的邀请。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走下木制阶梯，双脚真正踏上坑底。脚下是松软、温暖的沙土，混杂着无数柠檬黄、鲜鹅黄的硫磺晶体，像有人打翻了巨人的颜料罐。四周寂静得只剩风声，以及，当你侧耳倾听时，从四面八方传来的、低沉的“嘶嘶”声和“咕嘟”声。那是地热蒸汽从无数喷气孔（fumaroles）中逃逸的声响，是地球平稳而有力的心跳。蹲下身，你可以看到泥土在轻微颤动，看到乳白色的蒸汽从裂缝中翻滚而出，摸一摸旁边的岩石，竟是温热的。在这里，你不再是观察者，而是站在一个仍在缓慢呼吸的活体器官之上。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`对于尼西罗斯岛的居民来说，这座火山远不止是一个旅游景点。它是塑造了家园面貌的“父亲”，也是需要敬畏的“沉睡巨人”。岛上的传说里，这里是巨人波吕波特斯被雅典娜击败后埋葬之地，他的每一次喘息都化作了地热。而现实中，火山肥沃的土壤赐予了岛上甜美的杏仁和美味的 capers（刺山柑）。你能在岛民的眼神中看到一种复杂的感情：依赖、感激，以及深植于血脉的警觉。这份与危险共生的智慧，让这座岛屿散发出与众不同的沉静气质。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`斯特凡诺斯最打动人心的，正是这种“可抵达的震撼”。你不需要是地质学家，也能用双脚丈量这片月球表面般的荒芜，用皮肤感受来自地心的温度。它以一种极其直接、近乎野蛮的方式，向你展示自然最原始的力量与美。这种体验不是隔着玻璃的观看，而是全身心的沉浸——一种带着硫磺气味、脚下温热、耳边回荡着大地嗡鸣的，关于存在的深刻提醒。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在盘山公路上最后一个转弯，一片超越所有想象的景观猛地撞进视野。那不是山，不是谷，而是一个巨大、焦黄、冒着袅袅白烟的“伤口”，直接撕裂在深绿色山体之中。那一刻，语言是苍白的，只有倒吸一口凉气的声音。停好车，沿着边缘小路向下走，空气最先发生变化——一阵轻微但明确的、像臭鸡蛋又混合着浓烈火柴头的硫磺气味，开始包裹你的呼吸。这不是令人不悦的污染，而是大地深处最原始、最蓬勃的呼吸，一种带着危险魅力的邀请。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走下木制阶梯，双脚真正踏上坑底。脚下是松软、温暖的沙土，混杂着无数柠檬黄、鲜鹅黄的硫磺晶体，像有人打翻了巨人的颜料罐。四周寂静得只剩风声，以及，当你侧耳倾听时，从四面八方传来的、低沉的“嘶嘶”声和“咕嘟”声。那是地热蒸汽从无数喷气孔（fumaroles）中逃逸的声响，是地球平稳而有力的心跳。蹲下身，你可以看到泥土在轻微颤动，看到乳白色的蒸汽从裂缝中翻滚而出，摸一摸旁边的岩石，竟是温热的。在这里，你不再是观察者，而是站在一个仍在缓慢呼吸的活体器官之上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "对于尼西罗斯岛的居民来说，这座火山远不止是一个旅游景点。它是塑造了家园面貌的“父亲”，也是需要敬畏的“沉睡巨人”。岛上的传说里，这里是巨人波吕波特斯被雅典娜击败后埋葬之地，他的每一次喘息都化作了地热。而现实中，火山肥沃的土壤赐予了岛上甜美的杏仁和美味的 capers（刺山柑）。你能在岛民的眼神中看到一种复杂的感情：依赖、感激，以及深植于血脉的警觉。这份与危险共生的智慧，让这座岛屿散发出与众不同的沉静气质。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "斯特凡诺斯最打动人心的，正是这种“可抵达的震撼”。你不需要是地质学家，也能用双脚丈量这片月球表面般的荒芜，用皮肤感受来自地心的温度。它以一种极其直接、近乎野蛮的方式，向你展示自然最原始的力量与美。这种体验不是隔着玻璃的观看，而是全身心的沉浸——一种带着硫磺气味、脚下温热、耳边回荡着大地嗡鸣的，关于存在的深刻提醒。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -47,6 +48,7 @@ export default function NissyrosStefanosVolcanicCraterPage() {
                 <InfoRow label="国家" value={`希腊`} />
                 <InfoRow label="城市" value={`尼西罗斯岛`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`爱琴海上最年轻、最活跃的火山口之一，是观察火山活动与塑造希腊岛屿地质力量的鲜活窗口。`} />
                 <InfoRow label="建筑特色" value={`一个巨大、近乎完美的圆形凹陷，坑底布满鲜艳的黄色硫磺结晶、沸腾的泥浆喷口和嘶嘶作响的喷气孔，仿佛一个露天的大型化学实验室。`} />
@@ -54,6 +56,7 @@ export default function NissyrosStefanosVolcanicCraterPage() {
                 <InfoRow label="文化价值" value={`对古希腊人而言，这里是通往冥界入口的传说之地；对现代人，它是一个令人敬畏的自然纪念碑，生动诠释着地球的生命力与岛屿的诞生之谜。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`全年全天开放，但最佳访问时间为每年4月至10月，每日上午8点至日落前1小时。景区无人值守，自由进入，但极端恶劣天气（如强风、暴雨）时可能因安全原因临时关闭。冬季（11月至3月）岛上公共交通和旅游服务大幅减少，前往需提前确认。`} />
               <InfoRow label="门票价格" value={`进入火山口区域本身免费。但前往火山口的景区大门处设有一个小售票亭，收取少量维护费（约2-3欧元），用于路径维护和安全设施。无官方学生票，但对儿童和当地居民通常免费。`} />
@@ -64,18 +67,18 @@ export default function NissyrosStefanosVolcanicCraterPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`要讲斯特凡诺斯的故事，得把时间轴拉得非常非常长，甚至要混入神话的迷雾。在古希腊诗人的吟唱中，爱琴海的火山活动与神祇的愤怒息息相关。尼西罗斯岛本身就诞生于一场惊天动地的神战。传说中，海神波塞冬为了帮助宙斯对抗巨人们，举起科斯岛的一块巨石猛砸巨人波吕波特斯，巨石落入海中，便成了尼西罗斯岛。而波吕波特斯被压在了岛下，他的挣扎与怒火，化作了岛上终年不息的蒸腾热气与地震。斯特凡诺斯火山口，便是那最直接的“泄压阀”。这个古老的故事绝非空穴来风，它正是先民们对脚下这片不安分大地最富想象力的科学解释。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`从地质学的冰冷时钟上看，尼西罗斯是一座层状火山，它的故事始于大约16万年前。在爱琴海板块与非洲板块复杂的“纠缠撕扯”中，地幔的岩浆找到了突破口，一次次喷发，堆积，形成了这座圆锥形的岛屿。我们现在看到的斯特凡诺斯火山口，并非一次宏大喷发的产物，而是一次相对“年轻”的爆发结果。大约在公元前1420年（与桑托里尼岛毁灭性的火山爆发时间接近，但规模小得多），一次猛烈的普林尼式喷发撕裂了火山锥的顶部，形成了一个巨大的破火山口。而斯特凡诺斯，是这个巨大破火山口内后来形成的几个更小的“寄生”火山口中最壮观的一个。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在历史记载中，这座火山从未真正“沉睡”。公元5世纪，强大的喷发记录在拜占庭的文献里。16至19世纪，它又进入了一个活跃期，较小的喷发和强烈的喷气活动频频发生，让途经的水手们胆战心惊，视其为不祥之地。1873年，它最后一次“发怒”，形成了今天我们看到的斯特凡诺斯火山口。自那以后，它没有再喷发岩浆，但地下的岩浆房依然在缓缓冷却，释放出巨大的热量和水蒸气，维持着地表这沸腾的景象。这就像一个巨人从怒吼转为了沉重的鼾息，你依然能贴近他的口鼻，感受那炙热的气息。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`20世纪，科学家们取代了水手和农夫，成为这里最频繁的访客。斯特凡诺斯成为了研究火山学、地热化学和行星地质学的天然实验室。它的喷气孔成分被仔细分析，它的温度被持续监测，它那类似外星地貌的坑底，甚至为未来的火星探索提供了模拟场景。与此同时，随着希腊旅游业的发展，背包客和好奇的旅行者开始踏上这片禁地。起初是冒险者的私自探索，后来当地政府修建了简易的步道和观景台，让更多普通人得以安全地接近这份震撼。斯特凡诺斯从一个令人恐惧的自然现象，逐渐转变为一座蕴含着科学与美学价值的露天博物馆。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`今天的嘶嘶声，与千百年前的并无不同。但当你在坑底行走，看着那些被硫磺染成明黄色的岩石，触摸着温热的泥土，你会感到一种奇妙的连接——连接着神话里的巨人，连接着历史上目睹它发怒的岛民，也连接着那些在此驻足思考地球命运的科学家。斯特凡诺斯火山口，就是一本摊开在大地上的、用蒸汽和矿物书写的立体史书，每一页都滚烫，每一章都充满了生命的力量感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要讲斯特凡诺斯的故事，得把时间轴拉得非常非常长，甚至要混入神话的迷雾。在古希腊诗人的吟唱中，爱琴海的火山活动与神祇的愤怒息息相关。尼西罗斯岛本身就诞生于一场惊天动地的神战。传说中，海神波塞冬为了帮助宙斯对抗巨人们，举起科斯岛的一块巨石猛砸巨人波吕波特斯，巨石落入海中，便成了尼西罗斯岛。而波吕波特斯被压在了岛下，他的挣扎与怒火，化作了岛上终年不息的蒸腾热气与地震。斯特凡诺斯火山口，便是那最直接的“泄压阀”。这个古老的故事绝非空穴来风，它正是先民们对脚下这片不安分大地最富想象力的科学解释。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从地质学的冰冷时钟上看，尼西罗斯是一座层状火山，它的故事始于大约16万年前。在爱琴海板块与非洲板块复杂的“纠缠撕扯”中，地幔的岩浆找到了突破口，一次次喷发，堆积，形成了这座圆锥形的岛屿。我们现在看到的斯特凡诺斯火山口，并非一次宏大喷发的产物，而是一次相对“年轻”的爆发结果。大约在公元前1420年（与桑托里尼岛毁灭性的火山爆发时间接近，但规模小得多），一次猛烈的普林尼式喷发撕裂了火山锥的顶部，形成了一个巨大的破火山口。而斯特凡诺斯，是这个巨大破火山口内后来形成的几个更小的“寄生”火山口中最壮观的一个。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在历史记载中，这座火山从未真正“沉睡”。公元5世纪，强大的喷发记录在拜占庭的文献里。16至19世纪，它又进入了一个活跃期，较小的喷发和强烈的喷气活动频频发生，让途经的水手们胆战心惊，视其为不祥之地。1873年，它最后一次“发怒”，形成了今天我们看到的斯特凡诺斯火山口。自那以后，它没有再喷发岩浆，但地下的岩浆房依然在缓缓冷却，释放出巨大的热量和水蒸气，维持着地表这沸腾的景象。这就像一个巨人从怒吼转为了沉重的鼾息，你依然能贴近他的口鼻，感受那炙热的气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "20世纪，科学家们取代了水手和农夫，成为这里最频繁的访客。斯特凡诺斯成为了研究火山学、地热化学和行星地质学的天然实验室。它的喷气孔成分被仔细分析，它的温度被持续监测，它那类似外星地貌的坑底，甚至为未来的火星探索提供了模拟场景。与此同时，随着希腊旅游业的发展，背包客和好奇的旅行者开始踏上这片禁地。起初是冒险者的私自探索，后来当地政府修建了简易的步道和观景台，让更多普通人得以安全地接近这份震撼。斯特凡诺斯从一个令人恐惧的自然现象，逐渐转变为一座蕴含着科学与美学价值的露天博物馆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的嘶嘶声，与千百年前的并无不同。但当你在坑底行走，看着那些被硫磺染成明黄色的岩石，触摸着温热的泥土，你会感到一种奇妙的连接——连接着神话里的巨人，连接着历史上目睹它发怒的岛民，也连接着那些在此驻足思考地球命运的科学家。斯特凡诺斯火山口，就是一本摊开在大地上的、用蒸汽和矿物书写的立体史书，每一页都滚烫，每一章都充满了生命的力量感。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`要给斯特凡诺斯火山口留出至少3-4小时的完整时间，这不仅仅是为了“看”，更是为了“感受”。建议在上午10点前抵达，此时光线最适合拍照，气温也相对凉爽，更重要的是旅游团大部队尚未到达，你能独享这份寂静的震撼。游览节奏应是“慢浸入式”：先从高处俯瞰全景，建立整体认知和敬畏感；然后花充足时间慢慢走下坑底，用所有感官去探索细节；最后回到边缘，在震撼的余波中静静回味。整个路线是一个从宏观到微观，再回到宏观的完整体验循环，切忌匆匆忙忙地“打卡”上下。`}
                 </p>
@@ -156,8 +159,9 @@ export default function NissyrosStefanosVolcanicCraterPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`经济之选`}</h4>
@@ -177,50 +181,51 @@ export default function NissyrosStefanosVolcanicCraterPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`尼西罗斯岛不是圣托里尼，住宿条件整体朴实，旺季（7-8月）务必提前数月预订，选择非常有限。岛上夜晚极其宁静，治安极好，但生活节奏慢，商店餐馆关门早，建议在曼德拉基港口超市提前买好饮用水和零食。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "尼西罗斯岛不是圣托里尼，住宿条件整体朴实，旺季（7-8月）务必提前数月预订，选择非常有限。岛上夜晚极其宁静，治安极好，但生活节奏慢，商店餐馆关门早，建议在曼德拉基港口超市提前买好饮用水和零食。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开斯特凡诺斯许久之后，那混合着硫磺味的空气，脚下沙土的温热触感，还有那低沉的、无处不在的嘶嘶声，依然会清晰地回到记忆里。它不像参观一座华美的宫殿或教堂，带来的是艺术上的赞叹；它带来的是更原始、更本质的东西——一种对自身渺小的清醒认知，以及对地球这颗活行星蓬勃生命力的直接敬畏。站在那个大坑里，你会真切地感到，自己正站在创造与毁灭力量最微妙的平衡点上。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个被精致和虚拟包裹的时代，斯特凡诺斯提供了一种不可复制、无法数字化的“粗砺真实”。它不讨好你，不向你解释，只是沉默地展现着自己亿万年来从未改变的状态。正是这份毫不修饰的坦诚，具有一种强大的净化力量。它提醒每一位到访的旅人，在人类社会的喧嚣之外，存在着一个更加古老、更加宏大、遵循着自己节奏的运行体系。如果你渴望一次不只是用眼睛，更是用皮肤、呼吸和双脚去记忆的旅行，如果你想知道“大地之心”听起来和闻起来是什么样子，那么，这个爱琴海上冒着烟的黄色巨碗，绝对值得你漂洋过海来亲身站上一站。它会成为你旅行记忆中，一个带着温度与气味的、无比坚硬的锚点。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开斯特凡诺斯许久之后，那混合着硫磺味的空气，脚下沙土的温热触感，还有那低沉的、无处不在的嘶嘶声，依然会清晰地回到记忆里。它不像参观一座华美的宫殿或教堂，带来的是艺术上的赞叹；它带来的是更原始、更本质的东西——一种对自身渺小的清醒认知，以及对地球这颗活行星蓬勃生命力的直接敬畏。站在那个大坑里，你会真切地感到，自己正站在创造与毁灭力量最微妙的平衡点上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个被精致和虚拟包裹的时代，斯特凡诺斯提供了一种不可复制、无法数字化的“粗砺真实”。它不讨好你，不向你解释，只是沉默地展现着自己亿万年来从未改变的状态。正是这份毫不修饰的坦诚，具有一种强大的净化力量。它提醒每一位到访的旅人，在人类社会的喧嚣之外，存在着一个更加古老、更加宏大、遵循着自己节奏的运行体系。如果你渴望一次不只是用眼睛，更是用皮肤、呼吸和双脚去记忆的旅行，如果你想知道“大地之心”听起来和闻起来是什么样子，那么，这个爱琴海上冒着烟的黄色巨碗，绝对值得你漂洋过海来亲身站上一站。它会成为你旅行记忆中，一个带着温度与气味的、无比坚硬的锚点。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/epidaurus-theatre" className="block group">
+              <a href="/attractions/olympia" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    埃
+                    奥
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃皮达鲁斯古剧场</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Epidaurus Theatre</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥林匹亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Olympia</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/mycenae" className="block group">
+              <a href="/attractions/loutro-crete" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    迈
+                    卢
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迈锡尼遗址</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mycenae</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卢特罗</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Loutro</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/monemvasia" className="block group">
+              <a href="/attractions/kastellorizo-island-megisti" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    莫
+                    卡
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫奈姆瓦夏</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monemvasia</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯特罗里佐岛（梅吉斯蒂）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kastellorizo (Megisti)</p>
                   </div>
                 </div>
               </a>

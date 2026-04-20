@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '阿克罗科林斯 Acrocorinth｜雄踞伯罗奔尼撒咽喉的千年孤独巨岩 - 最佳欧洲景点',
-  description: '车子驶离现代的科林斯运河，拐上一条尘土飞扬的蜿蜒山路时，你还没完全准备好。直到一个急弯过后，它赫然撞入视野——阿克罗科林斯。那不是一座山，那是一头从伯罗奔尼撒平原上猛然崛起的、沉睡的巨兽。它的轮廓坚硬、陡峭，在午后的强光下呈现出一种近乎金属的灰白色，与脚下翠绿的橄榄园和远处科林斯湾的深蓝形成残酷而美...',
+  description: '车子驶离现代的科林斯运河，拐上一条尘土飞扬的蜿蜒山路时，你还没完全准备好。直到一个急弯过后，它赫然撞入视野——阿克罗科林斯。那不是一座山，那是一头从伯罗奔尼撒平原上猛然崛起的、沉睡的巨兽。它的轮廓坚硬、陡峭，在午后的强光下呈现出一种近乎金属的灰白色，与脚下翠绿的橄榄园和远处科林斯湾的深蓝形成残酷而美',
 }
 
 export default function AcrocorinthPage() {
@@ -15,7 +15,7 @@ export default function AcrocorinthPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿克罗科林斯', href: '/attractions/acrocorinth' },
           ]}
         />
@@ -31,11 +31,12 @@ export default function AcrocorinthPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子驶离现代的科林斯运河，拐上一条尘土飞扬的蜿蜒山路时，你还没完全准备好。直到一个急弯过后，它赫然撞入视野——阿克罗科林斯。那不是一座山，那是一头从伯罗奔尼撒平原上猛然崛起的、沉睡的巨兽。它的轮廓坚硬、陡峭，在午后的强光下呈现出一种近乎金属的灰白色，与脚下翠绿的橄榄园和远处科林斯湾的深蓝形成残酷而美丽的对比。热风干燥，带着百里香和岩石被炙烤后的气味，你听不到任何现代世界的噪音，只有风穿过山谷的呜咽，和脚下小石子被踢动的、孤独的脆响。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`开始攀登吧。穿过第一道巨大的威尼斯式拱门，你就把21世纪关在了身后。这里没有精致的指示牌，没有咖啡馆，只有一条被千年脚步磨得发亮、在岩石上硬生生凿出来的之字形步道。每一步都感觉踩在历史的脊梁上。阳光毫无遮拦地倾泻，汗水立刻渗出来，但奇怪的是，你并不觉得疲惫，反而有一种接近仪式感的清醒。偶尔遇到一两只不怕人的野山羊，站在残墙断壁上静静地看着你，眼神古老得像这里的石头。你会忽然明白，这座山从来不属于游客，它只属于士兵、流亡者、守卫者和时间本身。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`当你终于抵达中间平台，喘着气回望来路，整个科林斯地峡像一幅展开的巨幅地图铺在脚下。左手是爱琴海萨罗尼克湾的波光，右手是科林斯湾的深水航道。那一刻，所有的历史书都活了过来。你瞬间懂得了为什么每个人都想要它——控制了这块巨岩，就等于扼住了伯罗奔尼撒的脖子，掌握了整个希腊南北的命脉。这种地理带来的震撼，是任何博物馆的玻璃展柜都无法给予的。风吹得更猛了，灌满你的衬衫，你感觉自己渺小如尘埃，却又仿佛站在了世界的中心。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`而最动人的，或许是这座山的“空”。与雅典卫城那种被精心呵护的“遗址感”不同，阿克罗科林斯是野性的、未被完全驯服的。拜占庭的小教堂只剩下几堵矮墙，奥斯曼的清真寺宣礼塔早已倒塌，法兰克人的塔楼空空如也。野花从石缝里倔强地钻出，蜥蜴在刻着十字架的砖石上晒太阳。这种“空”不是消亡，而是一种巨大的包容，它将所有曾经在此厮杀、祈祷、生活的痕迹都沉默地吸纳进自己的岩石肌体里，形成一种沉重而磅礴的寂静。在这里，你聆听的不是解说，是风声诉说的三千年的秘密。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子驶离现代的科林斯运河，拐上一条尘土飞扬的蜿蜒山路时，你还没完全准备好。直到一个急弯过后，它赫然撞入视野——阿克罗科林斯。那不是一座山，那是一头从伯罗奔尼撒平原上猛然崛起的、沉睡的巨兽。它的轮廓坚硬、陡峭，在午后的强光下呈现出一种近乎金属的灰白色，与脚下翠绿的橄榄园和远处科林斯湾的深蓝形成残酷而美丽的对比。热风干燥，带着百里香和岩石被炙烤后的气味，你听不到任何现代世界的噪音，只有风穿过山谷的呜咽，和脚下小石子被踢动的、孤独的脆响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "开始攀登吧。穿过第一道巨大的威尼斯式拱门，你就把21世纪关在了身后。这里没有精致的指示牌，没有咖啡馆，只有一条被千年脚步磨得发亮、在岩石上硬生生凿出来的之字形步道。每一步都感觉踩在历史的脊梁上。阳光毫无遮拦地倾泻，汗水立刻渗出来，但奇怪的是，你并不觉得疲惫，反而有一种接近仪式感的清醒。偶尔遇到一两只不怕人的野山羊，站在残墙断壁上静静地看着你，眼神古老得像这里的石头。你会忽然明白，这座山从来不属于游客，它只属于士兵、流亡者、守卫者和时间本身。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你终于抵达中间平台，喘着气回望来路，整个科林斯地峡像一幅展开的巨幅地图铺在脚下。左手是爱琴海萨罗尼克湾的波光，右手是科林斯湾的深水航道。那一刻，所有的历史书都活了过来。你瞬间懂得了为什么每个人都想要它——控制了这块巨岩，就等于扼住了伯罗奔尼撒的脖子，掌握了整个希腊南北的命脉。这种地理带来的震撼，是任何博物馆的玻璃展柜都无法给予的。风吹得更猛了，灌满你的衬衫，你感觉自己渺小如尘埃，却又仿佛站在了世界的中心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而最动人的，或许是这座山的“空”。与雅典卫城那种被精心呵护的“遗址感”不同，阿克罗科林斯是野性的、未被完全驯服的。拜占庭的小教堂只剩下几堵矮墙，奥斯曼的清真寺宣礼塔早已倒塌，法兰克人的塔楼空空如也。野花从石缝里倔强地钻出，蜥蜴在刻着十字架的砖石上晒太阳。这种“空”不是消亡，而是一种巨大的包容，它将所有曾经在此厮杀、祈祷、生活的痕迹都沉默地吸纳进自己的岩石肌体里，形成一种沉重而磅礴的寂静。在这里，你聆听的不是解说，是风声诉说的三千年的秘密。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -47,6 +48,7 @@ export default function AcrocorinthPage() {
                 <InfoRow label="国家" value={`希腊`} />
                 <InfoRow label="城市" value={`伯罗奔尼撒（近现代科林斯市）`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`一座见证了从神话时代到近代，几乎所有统治过希腊的文明在此交锋与更迭的终极战略堡垒。`} />
                 <InfoRow label="建筑特色" value={`一座由不同时代的城墙、塔楼和堡垒层层叠加、修补而成的，生长在嶙峋巨岩上的“建筑化石层”。`} />
@@ -54,6 +56,7 @@ export default function AcrocorinthPage() {
                 <InfoRow label="文化价值" value={`它是地理与权力关系的实体教科书，是希腊动荡历史的沉默见证者，其岩石本身便是神话与现实的交汇点。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`通常为每日上午8:30至下午3:30开放，冬季（11月至3月）可能提前至下午3点关闭。夏季（7-8月）极端炎热时，中午时段可能短暂关闭或极其不建议游览。希腊东正教复活节及圣诞节（12月25日、26日）全天关闭。开放时间可能微调，建议出行前查看希腊文化部官方网站的公告。`} />
               <InfoRow label="门票价格" value={`标准门票价格为8欧元。冬季（11月1日至3月31日）部分时段门票可能降至4欧元。欧盟学生及65岁以上长者凭有效证件可享受半价优惠。18岁以下青少年及残障人士免费入场。持有希腊考古遗址通票可免费进入。`} />
@@ -64,18 +67,18 @@ export default function AcrocorinthPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`说起阿克罗科林斯的故事，得从比历史更早的神话讲起。传说中，海神波塞冬与太阳神阿波罗曾为争夺这块宝地而较量，最终智慧女神雅典娜获胜，成为科林斯的守护神。但更著名的，是让这座山蒙上悲剧色彩的英雄——柏勒洛丰。他骑着飞马珀伽索斯试图直达奥林匹斯山，最终从天空坠落在这片山岩上，瘸腿、孤独地度过余生。神话早已为这座山的命运定调：它是通往神圣的阶梯，也是骄傲者陨落的祭坛。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`时间跳到公元前7世纪，科林斯城邦崛起，成为希腊最富有、最强大的商业中心之一。聪明的科林斯人当然知道家门口这座575米高的巨岩价值连城。他们在山顶建造了最初的卫城，供奉着爱与美的女神阿佛洛狄忒（罗马人称维纳斯）。据说神庙里的女神侍奉者多达千名，其中不乏进行“神圣婚姻”仪式的女祭司，这使科林斯的阿佛洛狄忒崇拜带着浓烈的、享乐主义的地域色彩。那时的阿克罗科林斯，既是坚不可摧的堡垒，也是充满欲望与虔诚的宗教圣地，两种截然不同的气质奇异地融合在一起。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，帝国的车轮碾过。罗马人来了，科林斯在公元前146年被彻底摧毁，阿克罗科林斯也未能幸免。但一个世纪后，凯撒重建科林斯，它又成为罗马帝国重要的省会。巨石山上罗马时期的痕迹相对较少，仿佛那段相对和平的岁月，并未在这座为战争而生的山上留下太深的刻痕。真正的转折点在拜占庭时期，随着基督教成为国教，山顶那座“声名狼藉”的维纳斯神庙被毫不留情地摧毁，取而代之的是一座圣乔治教堂。信仰的旗帜更迭，岩石无言。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`接下来的一千年，是阿克罗科林斯作为纯粹军事要塞的“高光”也是“至暗”时刻。它的战略地位吸引了所有垂涎希腊的征服者。1204年，第四次十字军东征后，法兰克骑士们占领了它，修筑了巨大的内城防御工事，你如今看到的最核心的城墙大多出自他们之手。1458年，奥斯曼土耳其的苏丹穆罕默德二世（征服君士坦丁堡的那位）经过猛烈围攻后夺取了它。随后，它又在威尼斯共和国与奥斯曼帝国之间反复易手，就像一件珍贵的战利品被抢来夺去。1687年，威尼斯人进行了最后一次大规模加固，留下了最外围那三道令人望而生畏的巨型防御门和棱堡。1715年，奥斯曼人最终夺回，并一直控制到希腊独立战争。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`当你触摸那些城墙，会发现石头的颜色和砌法杂乱无章：巨大的古希腊四边形巨石作为地基，上面垒着粗糙的中世纪毛石，再嵌以威尼斯人规整的红砖，最后补上奥斯曼的小块碎石。这不是一座建筑，这是一部用石头写就的战争编年史，每一代占领者都在前任的伤口上打上自己的补丁。它没有单一的主人，它的主人是“战略”本身。无数士兵在这里站岗、战斗、死去，他们的名字早已湮灭，只剩下这些沉默的、混合着无数工匠指纹与血迹的墙垣，在爱琴海的烈日与狂风中年复一年地站立。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说起阿克罗科林斯的故事，得从比历史更早的神话讲起。传说中，海神波塞冬与太阳神阿波罗曾为争夺这块宝地而较量，最终智慧女神雅典娜获胜，成为科林斯的守护神。但更著名的，是让这座山蒙上悲剧色彩的英雄——柏勒洛丰。他骑着飞马珀伽索斯试图直达奥林匹斯山，最终从天空坠落在这片山岩上，瘸腿、孤独地度过余生。神话早已为这座山的命运定调：它是通往神圣的阶梯，也是骄傲者陨落的祭坛。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间跳到公元前7世纪，科林斯城邦崛起，成为希腊最富有、最强大的商业中心之一。聪明的科林斯人当然知道家门口这座575米高的巨岩价值连城。他们在山顶建造了最初的卫城，供奉着爱与美的女神阿佛洛狄忒（罗马人称维纳斯）。据说神庙里的女神侍奉者多达千名，其中不乏进行“神圣婚姻”仪式的女祭司，这使科林斯的阿佛洛狄忒崇拜带着浓烈的、享乐主义的地域色彩。那时的阿克罗科林斯，既是坚不可摧的堡垒，也是充满欲望与虔诚的宗教圣地，两种截然不同的气质奇异地融合在一起。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，帝国的车轮碾过。罗马人来了，科林斯在公元前146年被彻底摧毁，阿克罗科林斯也未能幸免。但一个世纪后，凯撒重建科林斯，它又成为罗马帝国重要的省会。巨石山上罗马时期的痕迹相对较少，仿佛那段相对和平的岁月，并未在这座为战争而生的山上留下太深的刻痕。真正的转折点在拜占庭时期，随着基督教成为国教，山顶那座“声名狼藉”的维纳斯神庙被毫不留情地摧毁，取而代之的是一座圣乔治教堂。信仰的旗帜更迭，岩石无言。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "接下来的一千年，是阿克罗科林斯作为纯粹军事要塞的“高光”也是“至暗”时刻。它的战略地位吸引了所有垂涎希腊的征服者。1204年，第四次十字军东征后，法兰克骑士们占领了它，修筑了巨大的内城防御工事，你如今看到的最核心的城墙大多出自他们之手。1458年，奥斯曼土耳其的苏丹穆罕默德二世（征服君士坦丁堡的那位）经过猛烈围攻后夺取了它。随后，它又在威尼斯共和国与奥斯曼帝国之间反复易手，就像一件珍贵的战利品被抢来夺去。1687年，威尼斯人进行了最后一次大规模加固，留下了最外围那三道令人望而生畏的巨型防御门和棱堡。1715年，奥斯曼人最终夺回，并一直控制到希腊独立战争。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你触摸那些城墙，会发现石头的颜色和砌法杂乱无章：巨大的古希腊四边形巨石作为地基，上面垒着粗糙的中世纪毛石，再嵌以威尼斯人规整的红砖，最后补上奥斯曼的小块碎石。这不是一座建筑，这是一部用石头写就的战争编年史，每一代占领者都在前任的伤口上打上自己的补丁。它没有单一的主人，它的主人是“战略”本身。无数士兵在这里站岗、战斗、死去，他们的名字早已湮灭，只剩下这些沉默的、混合着无数工匠指纹与血迹的墙垣，在爱琴海的烈日与狂风中年复一年地站立。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`要真正感受阿克罗科林斯的灵魂，你需要预留至少4-5小时，并抱着徒步探险而非休闲观光的心态。强烈建议在春季（4-5月）或秋季（9-10月）的清晨（8点一开门）就抵达山脚。此时的阳光柔和，气温适宜，不仅能避开正午的酷热，更能享受山谷间的宁静和最佳的光线。整体路线是一个持续向上的环形探索，从最外围的威尼斯防御工事开始，逐层穿越历史，最终抵达古希腊起源的山顶。节奏宜慢不宜快，每走一段就停下来回望，感受视野的变化和历史的层次。记得，这不是比赛，这是一次与时间和岩石对话的朝圣。`}
                 </p>
@@ -157,8 +160,9 @@ export default function AcrocorinthPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`古城脚下的家庭旅馆`}</h4>
@@ -178,51 +182,52 @@ export default function AcrocorinthPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`山脚村庄的住宿条件相对简单，但氛围绝对独特，且能最早一批上山避开人潮与热浪。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`伯罗奔尼撒的旅游旺季是7-8月，春季和秋季的住宿价格更合理，且更容易预订到心仪的特色住所。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "山脚村庄的住宿条件相对简单，但氛围绝对独特，且能最早一批上山避开人潮与热浪。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "伯罗奔尼撒的旅游旺季是7-8月，春季和秋季的住宿价格更合理，且更容易预订到心仪的特色住所。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开阿克罗科林斯很久以后，那股混合着热石、干土和野草药的气息，还会在某些干燥的午后突然窜入记忆。它不像其他那些被精心打理的遗址，给你清晰的故事线。它给你的，是一种巨大的、近乎压迫性的存在感，以及随之而来的、令人清醒的虚空。你带不走一片石头，也带不走一个完整的故事，你只带走一种感觉：关于时间如何以世纪为单位流淌，关于权力如何围绕地理旋转，关于人类在永恒的自然造物面前，那些雄心、信仰与挣扎，最终都化为了岩石上风化的刻痕。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在一切都追求快速消费、体验被高度包装的今天，阿克罗科林斯提供了一种“反旅行”。它不取悦你，不提供便利，甚至有些“不友好”。它要求你付出汗水、忍受曝晒、面对迷茫的废墟自己去想象和拼接。但正是这种“不妥协”，成就了它无可替代的价值。当你气喘吁吁地站上山顶，在仿佛能触摸到天空的寂静中，你会明白，你征服的不是一座山，你是在短暂地、谦卑地踏入一条历史的长河。它让你放下相机里的滤镜，用最原始的感官去触碰真实的重重。每一位热爱深度游的旅人，都应该来经历一次这种“笨拙”的朝圣，因为它最终给予你的，不是一张完美的照片，而是一颗被远古风吹拂过、变得更沉静、也更辽阔的心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开阿克罗科林斯很久以后，那股混合着热石、干土和野草药的气息，还会在某些干燥的午后突然窜入记忆。它不像其他那些被精心打理的遗址，给你清晰的故事线。它给你的，是一种巨大的、近乎压迫性的存在感，以及随之而来的、令人清醒的虚空。你带不走一片石头，也带不走一个完整的故事，你只带走一种感觉：关于时间如何以世纪为单位流淌，关于权力如何围绕地理旋转，关于人类在永恒的自然造物面前，那些雄心、信仰与挣扎，最终都化为了岩石上风化的刻痕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在一切都追求快速消费、体验被高度包装的今天，阿克罗科林斯提供了一种“反旅行”。它不取悦你，不提供便利，甚至有些“不友好”。它要求你付出汗水、忍受曝晒、面对迷茫的废墟自己去想象和拼接。但正是这种“不妥协”，成就了它无可替代的价值。当你气喘吁吁地站上山顶，在仿佛能触摸到天空的寂静中，你会明白，你征服的不是一座山，你是在短暂地、谦卑地踏入一条历史的长河。它让你放下相机里的滤镜，用最原始的感官去触碰真实的重重。每一位热爱深度游的旅人，都应该来经历一次这种“笨拙”的朝圣，因为它最终给予你的，不是一张完美的照片，而是一颗被远古风吹拂过、变得更沉静、也更辽阔的心。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/the-street-of-the-knights-rhodes" className="block group">
+              <a href="/attractions/monemvasia-fortress-town" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    骑
+                    莫
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">骑士街</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Street of the Knights</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫奈姆瓦夏隐秘之城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monemvasia</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/arachova-parnassus" className="block group">
+              <a href="/attractions/serifos" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    阿
+                    塞
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿拉霍瓦</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arachova</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塞里福斯岛</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Serifos</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/symi-island-greece" className="block group">
+              <a href="/attractions/palace-of-knossos" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    锡
+                    克
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">锡米岛</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Symi</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克诺索斯王宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Palace of Knossos</p>
                   </div>
                 </div>
               </a>

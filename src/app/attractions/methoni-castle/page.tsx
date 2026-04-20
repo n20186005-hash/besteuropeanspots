@@ -15,7 +15,7 @@ export default function MethoniCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '迈索尼要塞', href: '/attractions/methoni-castle' },
           ]}
         />

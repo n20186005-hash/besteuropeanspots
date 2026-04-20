@@ -15,7 +15,7 @@ export default function BunkArt1Page() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: 'Bunk\'Art 1 防核地堡', href: '/attractions/bunk-art-1' },
           ]}
         />

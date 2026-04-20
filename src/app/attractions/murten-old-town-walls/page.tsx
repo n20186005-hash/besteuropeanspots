@@ -15,7 +15,7 @@ export default function MurtenOldTownWallsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '穆尔滕老城及城墙', href: '/attractions/murten-old-town-walls' },
           ]}
         />

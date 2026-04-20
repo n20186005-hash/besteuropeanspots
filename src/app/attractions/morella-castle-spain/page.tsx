@@ -15,7 +15,7 @@ export default function MorellaCastleSpainPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '莫雷利亚（屹立在锥形巨岩上的城墙之池）', href: '/attractions/morella-castle-spain' },
           ]}
         />

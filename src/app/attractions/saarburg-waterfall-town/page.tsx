@@ -15,7 +15,7 @@ export default function SaarburgWaterfallTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '萨尔堡', href: '/attractions/saarburg-waterfall-town' },
           ]}
         />

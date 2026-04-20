@@ -15,7 +15,7 @@ export default function ChateauDeHautefortPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '欧特福尔城堡', href: '/attractions/chateau-de-hautefort' },
           ]}
         />

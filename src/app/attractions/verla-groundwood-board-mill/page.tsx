@@ -15,7 +15,7 @@ export default function VerlaGroundwoodBoardMillPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '韦尔拉木浆纸板厂', href: '/attractions/verla-groundwood-board-mill' },
           ]}
         />

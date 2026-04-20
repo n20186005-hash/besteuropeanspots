@@ -15,7 +15,7 @@ export default function AlkmaarCheeseMarketWeighingHousePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿尔克马尔称重房', href: '/attractions/alkmaar-cheese-market-weighing-house' },
           ]}
         />

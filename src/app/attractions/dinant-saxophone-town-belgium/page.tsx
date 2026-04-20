@@ -15,7 +15,7 @@ export default function DinantSaxophoneTownBelgiumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '迪南（铜管乐器之乡）', href: '/attractions/dinant-saxophone-town-belgium' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function TunnelOfEupalinosSamosPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '萨摩斯岛尤帕林诺斯隧道', href: '/attractions/tunnel-of-eupalinos-samos' },
           ]}
         />

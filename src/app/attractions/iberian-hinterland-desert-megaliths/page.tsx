@@ -15,7 +15,7 @@ export default function IberianHinterlandDesertMegalithsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '伊比利亚腹地：荒漠与巨石交响之地', href: '/attractions/iberian-hinterland-desert-megaliths' },
           ]}
         />

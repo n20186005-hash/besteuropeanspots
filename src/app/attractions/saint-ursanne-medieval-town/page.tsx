@@ -15,7 +15,7 @@ export default function SaintUrsanneMedievalTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '圣乌尔萨纳', href: '/attractions/saint-ursanne-medieval-town' },
           ]}
         />

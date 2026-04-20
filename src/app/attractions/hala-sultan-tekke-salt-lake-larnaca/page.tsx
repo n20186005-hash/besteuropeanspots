@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '哈拉苏丹特克 Hala Sultan Tekke｜静立在粉红火烈鸟盐湖边的伊斯兰圣地 - 最佳欧洲景点',
-  description: '车子驶离拉纳卡喧嚣的海滨大道，拐进一条安静的土路，世界仿佛瞬间被调成了静音模式。然后，它就在一片无边无际的、闪着刺眼银光的“荒漠”边缘出现了——哈拉苏丹特克。我的第一眼印象不是震撼，而是一种巨大的、压倒性的宁静。那座白色的建筑群，低矮、谦逊，几乎要融化在背后蔚蓝得没有一丝云彩的地中海天空里。空气中有...',
+  description: '车子驶离拉纳卡喧嚣的海滨大道，拐进一条安静的土路，世界仿佛瞬间被调成了静音模式。然后，它就在一片无边无际的、闪着刺眼银光的“荒漠”边缘出现了——哈拉苏丹特克。我的第一眼印象不是震撼，而是一种巨大的、压倒性的宁静。那座白色的建筑群，低矮、谦逊，几乎要融化在背后蔚蓝得没有一丝云彩的地中海天空里。空气中有',
 }
 
 export default function HalaSultanTekkeSaltLakeLarnacaPage() {
@@ -15,7 +15,7 @@ export default function HalaSultanTekkeSaltLakeLarnacaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '哈拉苏丹特克', href: '/attractions/hala-sultan-tekke-salt-lake-larnaca' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function HalaSultanTekkeSaltLakeLarnacaPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子驶离拉纳卡喧嚣的海滨大道，拐进一条安静的土路，世界仿佛瞬间被调成了静音模式。然后，它就在一片无边无际的、闪着刺眼银光的“荒漠”边缘出现了——哈拉苏丹特克。我的第一眼印象不是震撼，而是一种巨大的、压倒性的宁静。那座白色的建筑群，低矮、谦逊，几乎要融化在背后蔚蓝得没有一丝云彩的地中海天空里。空气中有一种特殊的、咸涩的干燥气味，来自旁边那片著名的拉纳卡盐湖。耳边只有风穿过橄榄树和柏树稀疏枝叶的沙沙声，以及远处，盐湖深处传来的、隐约如哨音般的鸟鸣。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走近些，你会发现这片圣地是“生长”在这片土地上的。它不是那种咄咄逼人、彰显权力的宏伟建筑。厚厚的赭石色围墙透着时间的包浆，庭院里铺着被阳光晒得发烫的碎石，踩上去有细微的喀嚓声。当地的信徒三三两两，穿着素雅的长袍，安静地坐在庭院角落的树荫下低语，或是独自面对盐湖的方向沉思。这里没有游客的喧哗，它首先是他们生活与信仰的一部分，一个寻求内心平静的港湾。你会发现，许多前来祈祷的妇女，在进入主殿前，会先走到陵墓旁，用手轻抚墙壁，低声诵读，那份专注与温柔，让周遭的空气都充满了肃穆的温度。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`而最打动人心的，莫过于它与其环境的对话。转过身，就是那片浩瀚的盐湖。在冬季雨后，它是一片浅水的镜面，倒映着天空和飞鸟；而在夏季灼热的阳光下，它则是一片皲裂的、白色的“雪原”，一直延伸到视线尽头的地平线。最神奇的馈赠，是那些如梦幻般存在的粉红色火烈鸟。它们成群地栖息在湖心，像一片移动的、淡粉色的霞光，时而优雅地昂起脖颈，时而翩然起飞，为这片神圣宁静的景观，注入了一抹来自自然的、鲜活而浪漫的生命力。神圣与野趣，寂静与生机，在这里达成了不可思议的和谐。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子驶离拉纳卡喧嚣的海滨大道，拐进一条安静的土路，世界仿佛瞬间被调成了静音模式。然后，它就在一片无边无际的、闪着刺眼银光的“荒漠”边缘出现了——哈拉苏丹特克。我的第一眼印象不是震撼，而是一种巨大的、压倒性的宁静。那座白色的建筑群，低矮、谦逊，几乎要融化在背后蔚蓝得没有一丝云彩的地中海天空里。空气中有一种特殊的、咸涩的干燥气味，来自旁边那片著名的拉纳卡盐湖。耳边只有风穿过橄榄树和柏树稀疏枝叶的沙沙声，以及远处，盐湖深处传来的、隐约如哨音般的鸟鸣。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走近些，你会发现这片圣地是“生长”在这片土地上的。它不是那种咄咄逼人、彰显权力的宏伟建筑。厚厚的赭石色围墙透着时间的包浆，庭院里铺着被阳光晒得发烫的碎石，踩上去有细微的喀嚓声。当地的信徒三三两两，穿着素雅的长袍，安静地坐在庭院角落的树荫下低语，或是独自面对盐湖的方向沉思。这里没有游客的喧哗，它首先是他们生活与信仰的一部分，一个寻求内心平静的港湾。你会发现，许多前来祈祷的妇女，在进入主殿前，会先走到陵墓旁，用手轻抚墙壁，低声诵读，那份专注与温柔，让周遭的空气都充满了肃穆的温度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而最打动人心的，莫过于它与其环境的对话。转过身，就是那片浩瀚的盐湖。在冬季雨后，它是一片浅水的镜面，倒映着天空和飞鸟；而在夏季灼热的阳光下，它则是一片皲裂的、白色的“雪原”，一直延伸到视线尽头的地平线。最神奇的馈赠，是那些如梦幻般存在的粉红色火烈鸟。它们成群地栖息在湖心，像一片移动的、淡粉色的霞光，时而优雅地昂起脖颈，时而翩然起飞，为这片神圣宁静的景观，注入了一抹来自自然的、鲜活而浪漫的生命力。神圣与野趣，寂静与生机，在这里达成了不可思议的和谐。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function HalaSultanTekkeSaltLakeLarnacaPage() {
                 <InfoRow label="国家" value={`塞浦路斯`} />
                 <InfoRow label="城市" value={`拉纳卡`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`伊斯兰世界最重要的圣地之一，与麦加、麦地那、耶路撒冷、卡尔巴拉并列，传说中安葬着先知穆罕默德的姨母乌姆·哈拉姆。`} />
                 <InfoRow label="建筑特色" value={`一座宁静、简朴的奥斯曼风格建筑群，由清真寺、陵墓、墓园和庭院组成，巧妙地依偎在巨大的盐湖畔。`} />
@@ -52,6 +54,7 @@ export default function HalaSultanTekkeSaltLakeLarnacaPage() {
                 <InfoRow label="文化价值" value={`是伊斯兰教神圣性的见证，也是塞浦路斯岛上基督教与伊斯兰教文化长期共存、相互影响的独特地标，象征着和平与包容。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`全年开放，夏季（4月至9月）通常为早上8:00至晚上7:30，冬季（10月至3月）为早上8:00至下午5:00。周五中午可能有短暂的礼拜时间，游客访问或受短暂影响。开斋节等主要伊斯兰节日期间，开放时间可能大幅调整或仅对信徒开放，建议行前再次确认。`} />
               <InfoRow label="门票价格" value={`免费参观。欢迎捐赠用于圣地维护。`} />
@@ -62,17 +65,17 @@ export default function HalaSultanTekkeSaltLakeLarnacaPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`关于哈拉苏丹特克的故事，始于一个传奇的妇女和一次意外的坠落。传说在7世纪中叶，阿拉伯军队第一次远征塞浦路斯时，先知穆罕默德的姨母（一说乳母）乌姆·哈拉姆随军前来。当年事已高的她，骑着一头骡子行进到盐湖附近时，不幸从骡背上摔下身亡。人们就将她安葬在了她跌落的地方，用简单的石块标记了墓地。这个带着悲剧色彩的传说，为这片土地播下了第一颗神圣的种子。在随后的几个世纪里，尽管塞浦路斯历经拜占庭帝国的统治，这个简陋的墓地依然被当地的穆斯林，以及一些知晓传说的旅行者所纪念，成为一处隐秘的圣所。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`转机出现在奥斯曼帝国时期。1570年，奥斯曼帝国征服塞浦路斯后，开始系统地在这座基督教岛屿上建立伊斯兰教的权威地标。大约在18世纪中叶，一位来自奥斯曼帝国的总督，或许是为了安抚驻军、凝聚信徒，也或许是真心被传说触动，决定正式在此兴建一座纪念性的建筑。他们以乌姆·哈拉姆的墓穴为核心，开始建造清真寺和附属建筑。工程断断续续，融合了来自帝国中心的奥斯曼设计风格，也不可避免地采用了本地的石材和工艺。据说，建筑用的部分石料，甚至取自附近更古老的基督教遗址，这让建筑从物质层面上就承载了历史的层叠。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这座特克（Tekke，通常指苏菲派修道院）的建成，使其重要性陡增。它不再是一个孤零零的坟墓，而是一个功能完备的宗教综合体，吸引了来自奥斯曼帝国各地的苏菲派苦修者、学者和朝圣者。他们在这里冥想、学习、礼拜，庭院里逐渐形成了小型的宗教社区。在漫长的岁月里，它见证了塞浦路斯岛的无数变迁，从奥斯曼统治到英国的殖民管理，它始终是岛上穆斯林社群不可或缺的精神灯塔。它周围的墓园也逐渐扩大，长眠于此的，有虔诚的信徒，也有地方上的显贵，他们的墓碑安静地述说着一个个归于尘埃的人生故事。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`近现代的历史浪潮同样拍打过这片宁静的湖畔。1963年和1974年的族群冲突，深刻撕裂了塞浦路斯。位于希族控制区南部的哈拉苏丹特克，却奇迹般地得到了完好的保护，没有遭到严重破坏。这或许源于当地人对神圣场所的普遍敬畏，也或许，它本身的宁静气质化解了戾气。塞浦路斯共和国政府将其认定为重要的文化遗产。今天，它由塞浦路斯穆斯林事务基金会管理，不仅对穆斯林信徒开放，也欢迎所有背景的游客。它从一个单纯的伊斯兰圣地，演化成了一个象征和平、跨文化对话的独特空间。信徒们依旧来此朝圣祈祷，而游客们则来感受这份罕见的宁静与历史交融的氛围。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于哈拉苏丹特克的故事，始于一个传奇的妇女和一次意外的坠落。传说在7世纪中叶，阿拉伯军队第一次远征塞浦路斯时，先知穆罕默德的姨母（一说乳母）乌姆·哈拉姆随军前来。当年事已高的她，骑着一头骡子行进到盐湖附近时，不幸从骡背上摔下身亡。人们就将她安葬在了她跌落的地方，用简单的石块标记了墓地。这个带着悲剧色彩的传说，为这片土地播下了第一颗神圣的种子。在随后的几个世纪里，尽管塞浦路斯历经拜占庭帝国的统治，这个简陋的墓地依然被当地的穆斯林，以及一些知晓传说的旅行者所纪念，成为一处隐秘的圣所。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转机出现在奥斯曼帝国时期。1570年，奥斯曼帝国征服塞浦路斯后，开始系统地在这座基督教岛屿上建立伊斯兰教的权威地标。大约在18世纪中叶，一位来自奥斯曼帝国的总督，或许是为了安抚驻军、凝聚信徒，也或许是真心被传说触动，决定正式在此兴建一座纪念性的建筑。他们以乌姆·哈拉姆的墓穴为核心，开始建造清真寺和附属建筑。工程断断续续，融合了来自帝国中心的奥斯曼设计风格，也不可避免地采用了本地的石材和工艺。据说，建筑用的部分石料，甚至取自附近更古老的基督教遗址，这让建筑从物质层面上就承载了历史的层叠。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座特克（Tekke，通常指苏菲派修道院）的建成，使其重要性陡增。它不再是一个孤零零的坟墓，而是一个功能完备的宗教综合体，吸引了来自奥斯曼帝国各地的苏菲派苦修者、学者和朝圣者。他们在这里冥想、学习、礼拜，庭院里逐渐形成了小型的宗教社区。在漫长的岁月里，它见证了塞浦路斯岛的无数变迁，从奥斯曼统治到英国的殖民管理，它始终是岛上穆斯林社群不可或缺的精神灯塔。它周围的墓园也逐渐扩大，长眠于此的，有虔诚的信徒，也有地方上的显贵，他们的墓碑安静地述说着一个个归于尘埃的人生故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "近现代的历史浪潮同样拍打过这片宁静的湖畔。1963年和1974年的族群冲突，深刻撕裂了塞浦路斯。位于希族控制区南部的哈拉苏丹特克，却奇迹般地得到了完好的保护，没有遭到严重破坏。这或许源于当地人对神圣场所的普遍敬畏，也或许，它本身的宁静气质化解了戾气。塞浦路斯共和国政府将其认定为重要的文化遗产。今天，它由塞浦路斯穆斯林事务基金会管理，不仅对穆斯林信徒开放，也欢迎所有背景的游客。它从一个单纯的伊斯兰圣地，演化成了一个象征和平、跨文化对话的独特空间。信徒们依旧来此朝圣祈祷，而游客们则来感受这份罕见的宁静与历史交融的氛围。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`建议在下午晚些时候开始你的游览，比如四点左右。这时候地中海炽烈的阳光开始变得柔和，金色的光线会将白色的建筑和盐湖染上温暖的色调，也是火烈鸟活动相对频繁的时段。整体游览时间建议预留2-3小时，节奏要慢，旨在感受而非打卡。先从外部环境开始，逐步走进建筑的核心，最后在盐湖边静坐收尾，这样的顺序能让你层层递进地体验这个地方从自然景观到精神内核的独特魅力。`}
                 </p>
@@ -157,8 +160,9 @@ export default function HalaSultanTekkeSaltLakeLarnacaPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`盐湖观景首选`}</h4>
@@ -178,31 +182,21 @@ export default function HalaSultanTekkeSaltLakeLarnacaPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`拉纳卡整体治安良好，但选择住宿时，老城区靠近海滨的区域夜晚更为热闹方便。夏季（6-8月）是绝对旺季，务必提前数月预订。如果想获得最宁静的盐湖体验，选择盐湖周边的住宿虽然餐厅选择较少，但那份出世感无可替代。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "拉纳卡整体治安良好，但选择住宿时，老城区靠近海滨的区域夜晚更为热闹方便。夏季（6-8月）是绝对旺季，务必提前数月预订。如果想获得最宁静的盐湖体验，选择盐湖周边的住宿虽然餐厅选择较少，但那份出世感无可替代。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开哈拉苏丹特克很久之后，脑海里挥之不去的，不是某个具体的建筑细节，而是那种混合了咸涩空气、温热石头、悠远鸟鸣和深沉寂静的“综合感觉”。在这个常常被贴上“派对岛屿”或“阳光沙滩”标签的塞浦路斯，这里提供了一个截然不同的、向内探寻的维度。它告诉你，这片土地的历史是如此层叠和复杂，神圣可以如此朴素地存在于一片荒野的盐泽之畔。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在当今这个充满了各种边界、纷争和喧嚣话语的世界里，哈拉苏丹特克像是一个温柔的隐喻。它静静地坐在那里，既是伊斯兰教的重要圣地，又受到一个基督教为主体的国家的保护与尊重。它不争辩，不张扬，只是用它的存在证明着：不同的信仰、不同的生命（无论是人类的还是火烈鸟的），完全可以在同一片天空下，共享同一片风景，各自找到安宁。这不仅仅是一个旅游景点，更是一堂关于和平、包容与内省的静默之课。对于任何渴望在旅途中获得片刻精神沉淀的旅人来说，这里都值得你专程而来，坐在那湖边的石头上，听一听风与历史共同拂过心间的的声音。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开哈拉苏丹特克很久之后，脑海里挥之不去的，不是某个具体的建筑细节，而是那种混合了咸涩空气、温热石头、悠远鸟鸣和深沉寂静的“综合感觉”。在这个常常被贴上“派对岛屿”或“阳光沙滩”标签的塞浦路斯，这里提供了一个截然不同的、向内探寻的维度。它告诉你，这片土地的历史是如此层叠和复杂，神圣可以如此朴素地存在于一片荒野的盐泽之畔。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在当今这个充满了各种边界、纷争和喧嚣话语的世界里，哈拉苏丹特克像是一个温柔的隐喻。它静静地坐在那里，既是伊斯兰教的重要圣地，又受到一个基督教为主体的国家的保护与尊重。它不争辩，不张扬，只是用它的存在证明着：不同的信仰、不同的生命（无论是人类的还是火烈鸟的），完全可以在同一片天空下，共享同一片风景，各自找到安宁。这不仅仅是一个旅游景点，更是一堂关于和平、包容与内省的静默之课。对于任何渴望在旅途中获得片刻精神沉淀的旅人来说，这里都值得你专程而来，坐在那湖边的石头上，听一听风与历史共同拂过心间的的声音。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/famagusta-walled-city" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    法
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">法马古斯塔</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Famagusta</p>
-                  </div>
-                </div>
-              </a>
               <a href="/attractions/choirokoitia-neolithic-village" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
@@ -211,6 +205,17 @@ export default function HalaSultanTekkeSaltLakeLarnacaPage() {
                   <div className="p-4">
                     <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乔伊鲁科蒂亚</h4>
                     <p className="text-sm text-gray-500 mt-1 line-clamp-1">Choirokoitia</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/amathus-cyprus" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿玛苏斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Amathus</p>
                   </div>
                 </div>
               </a>

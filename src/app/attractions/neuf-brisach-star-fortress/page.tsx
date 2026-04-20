@@ -15,7 +15,7 @@ export default function NeufBrisachStarFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '新布里萨克', href: '/attractions/neuf-brisach-star-fortress' },
           ]}
         />

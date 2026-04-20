@@ -15,7 +15,7 @@ export default function ZadarPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '扎达尔老城', href: '/attractions/zadar' },
           ]}
         />

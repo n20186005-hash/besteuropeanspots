@@ -15,7 +15,7 @@ export default function LovcenMausoleumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '洛夫琴山陵寝', href: '/attractions/lovcen-mausoleum' },
           ]}
         />

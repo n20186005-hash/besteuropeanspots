@@ -15,7 +15,7 @@ export default function KuressaareCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '库雷萨雷主教城堡', href: '/attractions/kuressaare-castle' },
           ]}
         />

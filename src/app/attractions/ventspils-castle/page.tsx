@@ -15,7 +15,7 @@ export default function VentspilsCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '文茨皮尔斯城堡', href: '/attractions/ventspils-castle' },
           ]}
         />

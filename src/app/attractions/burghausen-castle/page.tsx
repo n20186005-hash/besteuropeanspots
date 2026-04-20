@@ -15,7 +15,7 @@ export default function BurghausenCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '博格豪森城堡', href: '/attractions/burghausen-castle' },
           ]}
         />

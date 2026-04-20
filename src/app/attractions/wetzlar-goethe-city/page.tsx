@@ -15,7 +15,7 @@ export default function WetzlarGoetheCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '韦茨拉尔（歌德之城）', href: '/attractions/wetzlar-goethe-city' },
           ]}
         />

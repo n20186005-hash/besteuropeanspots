@@ -15,7 +15,7 @@ export default function VolterraEtruscanRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '沃尔泰拉伊特鲁里亚遗址', href: '/attractions/volterra-etruscan-ruins' },
           ]}
         />

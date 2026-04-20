@@ -15,7 +15,7 @@ export default function CapeGrecoCyprusPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '格雷科角', href: '/attractions/cape-greco-cyprus' },
           ]}
         />

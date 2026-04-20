@@ -15,7 +15,7 @@ export default function LoviisaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '洛维萨', href: '/attractions/loviisa' },
           ]}
         />

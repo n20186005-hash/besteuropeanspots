@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '旧雷克姆 Oud-Rekem｜踏入被时光遗忘的17世纪琥珀 - 探访法兰德斯最美村庄',
-  description: '车子拐下主干道，穿过一片平平无奇的现代住宅区，仿佛只是要去拜访某个郊区的朋友。然后，毫无预兆地，一座古老的石桥将你引渡到另一个时空。车轮碾过第一块中央广场的鹅卵石时，那种“抵达”感是轻柔却确定的——喧嚣被抛在身后，时间陡然慢了下来。这就是旧雷克姆给你的第一课：它不张扬，只是静静地在那里等着，等你自己...',
+  description: '车子拐下主干道，穿过一片平平无奇的现代住宅区，仿佛只是要去拜访某个郊区的朋友。然后，毫无预兆地，一座古老的石桥将你引渡到另一个时空。车轮碾过第一块中央广场的鹅卵石时，那种“抵达”感是轻柔却确定的——喧嚣被抛在身后，时间陡然慢了下来。这就是旧雷克姆给你的第一课：它不张扬，只是静静地在那里等着，等你自己',
 }
 
 export default function OudRekemPage() {
@@ -15,7 +15,7 @@ export default function OudRekemPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '旧雷克姆', href: '/attractions/oud-rekem' },
           ]}
         />
@@ -31,11 +31,12 @@ export default function OudRekemPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子拐下主干道，穿过一片平平无奇的现代住宅区，仿佛只是要去拜访某个郊区的朋友。然后，毫无预兆地，一座古老的石桥将你引渡到另一个时空。车轮碾过第一块中央广场的鹅卵石时，那种“抵达”感是轻柔却确定的——喧嚣被抛在身后，时间陡然慢了下来。这就是旧雷克姆给你的第一课：它不张扬，只是静静地在那里等着，等你自己发现。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`空气里有股好闻的味道，是潮湿的泥土混合着远处面包房飘来的黄油香气，还有老砖石在阳光下散发出的、类似旧书的温和气味。你的眼睛需要几秒钟来适应：这里没有刺眼的颜色，整个调色板是砖红、陶土黄、砂岩灰和木窗框的墨绿，像一幅被岁月打磨柔和的油画。声音是极简的：自己的脚步声在石板上回响，偶尔有自行车铃铛的叮铃声，某扇门后传来模糊的电视声响，还有无处不在的、林堡省乡村那种深邃的宁静，几乎能听到风穿过屋顶瓦片的声音。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人的，是这里依然“活着”。那栋有着华丽山墙的17世纪建筑，可能是一位律师的办公室；广场角落的漂亮小楼，窗户上贴着瑜伽课程表。你看到居民在自家门前的长椅上读报，冲你点头微笑，仿佛你不是闯入的游客，只是偶尔路过的邻居。历史在这里不是被圈起来供奉的标本，而是日常生活的背景墙。这种真实感，让每一块砖、每一扇门都充满了温度。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，就在于这种完美的平衡感——建筑学上的完美与社区生命力的完美结合。你感受到的不是历史的沉重，而是一种被精心维护的、从容不迫的优雅。它告诉你，美不必宏大，完整与和谐本身，就是一种震撼人心的力量。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子拐下主干道，穿过一片平平无奇的现代住宅区，仿佛只是要去拜访某个郊区的朋友。然后，毫无预兆地，一座古老的石桥将你引渡到另一个时空。车轮碾过第一块中央广场的鹅卵石时，那种“抵达”感是轻柔却确定的——喧嚣被抛在身后，时间陡然慢了下来。这就是旧雷克姆给你的第一课：它不张扬，只是静静地在那里等着，等你自己发现。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "空气里有股好闻的味道，是潮湿的泥土混合着远处面包房飘来的黄油香气，还有老砖石在阳光下散发出的、类似旧书的温和气味。你的眼睛需要几秒钟来适应：这里没有刺眼的颜色，整个调色板是砖红、陶土黄、砂岩灰和木窗框的墨绿，像一幅被岁月打磨柔和的油画。声音是极简的：自己的脚步声在石板上回响，偶尔有自行车铃铛的叮铃声，某扇门后传来模糊的电视声响，还有无处不在的、林堡省乡村那种深邃的宁静，几乎能听到风穿过屋顶瓦片的声音。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人的，是这里依然“活着”。那栋有着华丽山墙的17世纪建筑，可能是一位律师的办公室；广场角落的漂亮小楼，窗户上贴着瑜伽课程表。你看到居民在自家门前的长椅上读报，冲你点头微笑，仿佛你不是闯入的游客，只是偶尔路过的邻居。历史在这里不是被圈起来供奉的标本，而是日常生活的背景墙。这种真实感，让每一块砖、每一扇门都充满了温度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的核心魅力，就在于这种完美的平衡感——建筑学上的完美与社区生命力的完美结合。你感受到的不是历史的沉重，而是一种被精心维护的、从容不迫的优雅。它告诉你，美不必宏大，完整与和谐本身，就是一种震撼人心的力量。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -47,6 +48,7 @@ export default function OudRekemPage() {
                 <InfoRow label="国家" value={`比利时`} />
                 <InfoRow label="城市" value={`林堡省雷克姆镇`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`曾是独立伯爵领地的明珠，其近乎完整的17-18世纪城市规划和建筑群，是法兰德斯地区乡村贵族城镇的稀有活化石。`} />
                 <InfoRow label="建筑特色" value={`以中央市场广场为核心的星形布局，环绕着尺度亲切的砖石建筑，融合了贵族府的优雅与乡村的质朴，大量使用林堡地区特有的红砖与白石装饰带。`} />
@@ -54,6 +56,7 @@ export default function OudRekemPage() {
                 <InfoRow label="文化价值" value={`它不仅是一个博物馆式的村庄，更是一个持续呼吸的社区，生动展示了历史保护与现代生活如何优雅共存，是理解低地国家乡村社会结构的微观窗口。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`村庄公共区域全年全天开放。主要参观点如旧城堡（现为文化与艺术中心）、圣彼得教堂的开放时间通常为周二至周日，上午10点至下午5点。游客信息中心开放时间为每日上午10点至下午6点，冬季（11月至次年3月）可能缩短至下午4点关门。部分小型博物馆和特色工坊的开放时间较为灵活，建议行前在官网核对或抵达后先前往信息中心获取最新手册。村庄内许多建筑仍为私人住宅，请尊重私人领地标识。`} />
               <InfoRow label="门票价格" value={`进入村庄本身完全免费。参观旧城堡（艺术中心）常设展览需支付约8欧元门票，学生及65岁以上长者优惠价约6欧元，12岁以下儿童免费。定期举办的特展可能另有定价。参加由官方导游带领的村庄徒步导览（约1.5小时）费用约为每人10欧元，需在游客中心提前预订。部分季节性活动或工作坊单独收费。`} />
@@ -64,17 +67,17 @@ export default function OudRekemPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事得从一条河和一群贵族讲起。默兹河的一条小支流悄悄流过这片土地，中世纪早期，这里只是一个河边的小聚落。转机出现在12世纪，雷克姆家族获得了这片土地的统治权，并建起了第一座坚固的城堡。在接下来的几百年里，这个小领地像一颗不起眼的棋子，在勃艮第、哈布斯堡、西班牙这些大国棋盘上被微妙地移动，而正是这种相对边缘的地位，意外地保护了它免受大规模战火的彻底摧毁。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`让旧雷克姆脱胎换骨的，是17世纪的一位关键人物：阿诺德·胡伯特·范·雷克姆伯爵。这位领主不满足于仅仅拥有一座城堡，他怀揣着一个文艺复兴式的理想——为自己家族建造一个配得上其地位的“理想城市”。1640年左右，他启动了雄心勃勃的城镇规划：以宽阔的矩形中央广场为核心，放射出几条笔直的街道，街道两旁是统一规划、风格协调的住宅，供他的廷臣、官员和富裕的市民居住。他引入了当时最时尚的巴洛克建筑元素，但又巧妙地用本地材料和工匠技艺加以调和。于是，你看到了用林堡红砖砌成、却装饰着白石雕琢的古典纹样的山墙，那是贵族品味与乡土灵魂的联姻。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`整个18世纪是旧雷克姆的“黄金时代”。伯爵家族的影响力如日中天，小镇繁荣而精致。广场上定期举办集市，小巷里充斥着工匠作坊的叮当声。圣彼得教堂被扩建得更加宏伟，城堡里举办着沙龙和舞会。然而，随着法国大革命的浪潮席卷欧洲，旧雷克姆的好运戛然而止。1794年，法国军队占领此地，古老的伯爵领地被废除，城堡和财产被没收、拍卖。贵族时代落幕了，小镇陷入了长达一个多世纪的沉睡与缓慢衰落，像一个被遗忘在抽屉里的精致首饰盒。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`20世纪的大部分时间，它都是一个安静到近乎停滞的乡村角落。但“遗忘”有时是历史最好的保护剂。正是因为经济发展和现代化建设的浪潮绕过了它，那些17世纪的街道肌理和建筑立面才得以奇迹般地保存下来，没有遭到破坏性改造。直到1970年代，人们才如梦初醒，重新发现了这颗蒙尘的珍宝。保护工作谨慎而持续地展开，不是将它变成冰冷的博物馆，而是鼓励人们回来居住、生活。旧城堡甚至经历了一次意想不到的华丽转身——它曾被用作监狱，而在1990年代被精心改造为一个充满活力的文化与艺术中心。历史在此完成了一个奇妙的循环：从贵族堡垒到禁锢之地，再重生为向所有人开放的精神殿堂。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事得从一条河和一群贵族讲起。默兹河的一条小支流悄悄流过这片土地，中世纪早期，这里只是一个河边的小聚落。转机出现在12世纪，雷克姆家族获得了这片土地的统治权，并建起了第一座坚固的城堡。在接下来的几百年里，这个小领地像一颗不起眼的棋子，在勃艮第、哈布斯堡、西班牙这些大国棋盘上被微妙地移动，而正是这种相对边缘的地位，意外地保护了它免受大规模战火的彻底摧毁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "让旧雷克姆脱胎换骨的，是17世纪的一位关键人物：阿诺德·胡伯特·范·雷克姆伯爵。这位领主不满足于仅仅拥有一座城堡，他怀揣着一个文艺复兴式的理想——为自己家族建造一个配得上其地位的“理想城市”。1640年左右，他启动了雄心勃勃的城镇规划：以宽阔的矩形中央广场为核心，放射出几条笔直的街道，街道两旁是统一规划、风格协调的住宅，供他的廷臣、官员和富裕的市民居住。他引入了当时最时尚的巴洛克建筑元素，但又巧妙地用本地材料和工匠技艺加以调和。于是，你看到了用林堡红砖砌成、却装饰着白石雕琢的古典纹样的山墙，那是贵族品味与乡土灵魂的联姻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "整个18世纪是旧雷克姆的“黄金时代”。伯爵家族的影响力如日中天，小镇繁荣而精致。广场上定期举办集市，小巷里充斥着工匠作坊的叮当声。圣彼得教堂被扩建得更加宏伟，城堡里举办着沙龙和舞会。然而，随着法国大革命的浪潮席卷欧洲，旧雷克姆的好运戛然而止。1794年，法国军队占领此地，古老的伯爵领地被废除，城堡和财产被没收、拍卖。贵族时代落幕了，小镇陷入了长达一个多世纪的沉睡与缓慢衰落，像一个被遗忘在抽屉里的精致首饰盒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "20世纪的大部分时间，它都是一个安静到近乎停滞的乡村角落。但“遗忘”有时是历史最好的保护剂。正是因为经济发展和现代化建设的浪潮绕过了它，那些17世纪的街道肌理和建筑立面才得以奇迹般地保存下来，没有遭到破坏性改造。直到1970年代，人们才如梦初醒，重新发现了这颗蒙尘的珍宝。保护工作谨慎而持续地展开，不是将它变成冰冷的博物馆，而是鼓励人们回来居住、生活。旧城堡甚至经历了一次意想不到的华丽转身——它曾被用作监狱，而在1990年代被精心改造为一个充满活力的文化与艺术中心。历史在此完成了一个奇妙的循环：从贵族堡垒到禁锢之地，再重生为向所有人开放的精神殿堂。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`要真正品味旧雷克姆，请务必留出大半天时间（建议4-5小时），并选择在一个工作日的上午抵达（最好是10点前）。这样你能独享清晨宁静的街道和柔和的光线，感受村庄苏醒的节奏。游览的核心逻辑是“由外而内，再由内而外”：先从外围感受整体轮廓和氛围，再深入中心广场和建筑细节，最后登上高处或漫步河边，获得一个圆满的回顾视角。节奏一定要慢，这里不适合打卡疾走，最适合漫无目的地徘徊、坐下发呆、和偶遇的居民微笑寒暄。建议从免费的停车场开始，步行穿过石桥进入历史区域，将游客中心作为信息补充点，然后任由好奇心带领你在蛛网般的小巷中迷失。`}
                 </p>
@@ -159,8 +162,9 @@ export default function OudRekemPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`本地情怀之选`}</h4>
@@ -180,20 +184,32 @@ export default function OudRekemPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`旧雷克姆村内住宿选择极其有限，务必提前数月预订，尤其是夏季周末。住在周边村庄是更实际的选择，但请确认是否有公共交通或准备好自驾。该地区治安非常好，夜晚独自在村庄散步也很安全，但路灯可能较暗，带个小手电更有安全感。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旧雷克姆村内住宿选择极其有限，务必提前数月预订，尤其是夏季周末。住在周边村庄是更实际的选择，但请确认是否有公共交通或准备好自驾。该地区治安非常好，夜晚独自在村庄散步也很安全，但路灯可能较暗，带个小手电更有安全感。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开旧雷克姆时，我的背包里没有多出任何一件纪念品，但心里却被塞得满满的。那种充盈感，来自一种罕见的“完整”。我们见过太多被肢解的历史碎片——一座孤零零的城堡，一条商业化的老街，一个只剩外壳的教堂。但旧雷克姆给予的，是一个依然在呼吸的、功能健全的“历史有机体”。你能看到教堂、广场、豪宅、商铺、民居、城墙如何作为一个整体协同工作，如何共同塑造了数百年前人们的生活场景，并且，这种场景至今仍被温柔地使用着。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都在加速迭代、追求网红爆款的时代，旧雷克姆像一位从容的隐士，静静地守护着另一种价值观：持久、和谐、内敛的完整，比任何瞬间的绚丽都更有力量。它告诉我们，美不必喧嚣，不必迎合，只需要忠于自己原本的样子，并得到一代代人细心的珍惜。对于每一位厌倦了浮光掠影、渴望触摸历史真实肌理的深度旅人来说，旧雷克姆不是一道惊心动魄的风景，而是一剂温柔的慰藉。它邀请你慢下来，不仅仅是脚步，更是心境，在一个近乎完美的17世纪琥珀里，找回时间原本的质感，并相信有些美好，真的可以穿越风暴，宁静地存活到今天，等待与你相遇。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开旧雷克姆时，我的背包里没有多出任何一件纪念品，但心里却被塞得满满的。那种充盈感，来自一种罕见的“完整”。我们见过太多被肢解的历史碎片——一座孤零零的城堡，一条商业化的老街，一个只剩外壳的教堂。但旧雷克姆给予的，是一个依然在呼吸的、功能健全的“历史有机体”。你能看到教堂、广场、豪宅、商铺、民居、城墙如何作为一个整体协同工作，如何共同塑造了数百年前人们的生活场景，并且，这种场景至今仍被温柔地使用着。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切都在加速迭代、追求网红爆款的时代，旧雷克姆像一位从容的隐士，静静地守护着另一种价值观：持久、和谐、内敛的完整，比任何瞬间的绚丽都更有力量。它告诉我们，美不必喧嚣，不必迎合，只需要忠于自己原本的样子，并得到一代代人细心的珍惜。对于每一位厌倦了浮光掠影、渴望触摸历史真实肌理的深度旅人来说，旧雷克姆不是一道惊心动魄的风景，而是一剂温柔的慰藉。它邀请你慢下来，不仅仅是脚步，更是心境，在一个近乎完美的17世纪琥珀里，找回时间原本的质感，并相信有些美好，真的可以穿越风暴，宁静地存活到今天，等待与你相遇。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gaasbeek-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    加
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">加斯贝克城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gaasbeek Castle</p>
+                  </div>
+                </div>
+              </a>
               <a href="/attractions/citadelle-de-namur" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
@@ -205,25 +221,14 @@ export default function OudRekemPage() {
                   </div>
                 </div>
               </a>
-              <a href="/attractions/broel-towers-kortrijk" className="block group">
+              <a href="/attractions/wijnendale-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    科
+                    温
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科特赖克布罗尔双塔</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Broel Towers</p>
-                  </div>
-                </div>
-              </a>
-              <a href="/attractions/arlon-roman-archaeological-site" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    阿
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔隆古罗马遗址</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arlon Roman Ruins</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">温嫩达尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kasteel van Wijnendale</p>
                   </div>
                 </div>
               </a>

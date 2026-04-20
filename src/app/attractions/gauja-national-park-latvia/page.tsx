@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '高亚国家公园 Gauja National Park｜拉脱维亚“小瑞士”，密林深处的红砖城堡与史诗河谷 - 最佳欧洲景点',
-  description: '车子刚驶离里加的平坦街道，窗外的世界就陡然变了颜色。空气骤然清冽起来，带着松针、潮湿苔藓和远处河流的混合气息。这不是你想象中那种修剪整齐的欧洲公园，而是一片近乎原始的、呼吸着的巨肺。高亚河像一条碧绿的绸带，在深深切割的河谷中蜿蜒，两岸是高达90米的砂岩悬崖，被千百年来的风和水雕琢成奇异的形状。阳光费...',
+  description: '车子刚驶离里加的平坦街道，窗外的世界就陡然变了颜色。空气骤然清冽起来，带着松针、潮湿苔藓和远处河流的混合气息。这不是你想象中那种修剪整齐的欧洲公园，而是一片近乎原始的、呼吸着的巨肺。高亚河像一条碧绿的绸带，在深深切割的河谷中蜿蜒，两岸是高达90米的砂岩悬崖，被千百年来的风和水雕琢成奇异的形状。阳光费',
 }
 
 export default function GaujaNationalParkLatviaPage() {
@@ -15,7 +15,7 @@ export default function GaujaNationalParkLatviaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '高亚国家公园', href: '/attractions/gauja-national-park-latvia' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function GaujaNationalParkLatviaPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子刚驶离里加的平坦街道，窗外的世界就陡然变了颜色。空气骤然清冽起来，带着松针、潮湿苔藓和远处河流的混合气息。这不是你想象中那种修剪整齐的欧洲公园，而是一片近乎原始的、呼吸着的巨肺。高亚河像一条碧绿的绸带，在深深切割的河谷中蜿蜒，两岸是高达90米的砂岩悬崖，被千百年来的风和水雕琢成奇异的形状。阳光费力地穿透云杉和松树交织的顶棚，在林间空地上投下晃动的光斑，脚下是厚厚一层柔软的、发出吱呀声响的松针地毯。你瞬间就明白了，为什么这里被叫作“小瑞士”——但这里没有阿尔卑斯的喧嚣，只有波罗的海特有的、沉静的磅礴。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这片土地的心跳，远不止于自然。就在你以为要彻底迷失在绿色中时，转过一个弯，一座由暗红色砖石砌成的城堡塔楼，赫然从森林顶端探出头来。那不是迪士尼式的完美童话城堡，而是带着风霜蚀刻的痕迹、断壁残垣与顽强屹立共存的史诗。它安静地矗立在那里，仿佛森林是它忠诚的守卫，也是它试图挣脱的囚笼。这种自然与人文遗迹如此紧密、如此野性地纠缠在一起的景象，是高亚最独特的魅力。你看到的不仅是风景，更是一本摊开在大地上的立体史书。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`当地人把这里当作灵魂的后院。你会遇到穿着专业装备的徒步家庭，父亲指着树根旁的蘑菇低声讲解；会遇到在河边平坦砂岩上铺开野餐毯的青年，分享着黑麦面包和奶酪；更会遇见在古老的、被称为“歌山”的山丘下静静坐着的老人，也许他正在心里默念一首祖辈传唱的、关于森林与骑士的达伊纳（拉脱维亚民歌）。在这里，人与自然、与历史的关系不是疏远的观赏，而是日常的、亲密的共生。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子刚驶离里加的平坦街道，窗外的世界就陡然变了颜色。空气骤然清冽起来，带着松针、潮湿苔藓和远处河流的混合气息。这不是你想象中那种修剪整齐的欧洲公园，而是一片近乎原始的、呼吸着的巨肺。高亚河像一条碧绿的绸带，在深深切割的河谷中蜿蜒，两岸是高达90米的砂岩悬崖，被千百年来的风和水雕琢成奇异的形状。阳光费力地穿透云杉和松树交织的顶棚，在林间空地上投下晃动的光斑，脚下是厚厚一层柔软的、发出吱呀声响的松针地毯。你瞬间就明白了，为什么这里被叫作“小瑞士”——但这里没有阿尔卑斯的喧嚣，只有波罗的海特有的、沉静的磅礴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这片土地的心跳，远不止于自然。就在你以为要彻底迷失在绿色中时，转过一个弯，一座由暗红色砖石砌成的城堡塔楼，赫然从森林顶端探出头来。那不是迪士尼式的完美童话城堡，而是带着风霜蚀刻的痕迹、断壁残垣与顽强屹立共存的史诗。它安静地矗立在那里，仿佛森林是它忠诚的守卫，也是它试图挣脱的囚笼。这种自然与人文遗迹如此紧密、如此野性地纠缠在一起的景象，是高亚最独特的魅力。你看到的不仅是风景，更是一本摊开在大地上的立体史书。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当地人把这里当作灵魂的后院。你会遇到穿着专业装备的徒步家庭，父亲指着树根旁的蘑菇低声讲解；会遇到在河边平坦砂岩上铺开野餐毯的青年，分享着黑麦面包和奶酪；更会遇见在古老的、被称为“歌山”的山丘下静静坐着的老人，也许他正在心里默念一首祖辈传唱的、关于森林与骑士的达伊纳（拉脱维亚民歌）。在这里，人与自然、与历史的关系不是疏远的观赏，而是日常的、亲密的共生。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function GaujaNationalParkLatviaPage() {
                 <InfoRow label="国家" value={`拉脱维亚`} />
                 <InfoRow label="城市" value={`维泽梅地区（主要门户城镇：锡古尔达、采西斯）`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`波罗的海地区历史最悠久、规模最大的国家公园，是拉脱维亚自然与民族精神的象征。`} />
                 <InfoRow label="建筑特色" value={`中世纪红砖城堡废墟与全新木质观景塔在原始森林中奇妙共存，形成时空对话。`} />
@@ -52,6 +54,7 @@ export default function GaujaNationalParkLatviaPage() {
                 <InfoRow label="文化价值" value={`见证了利沃尼亚骑士团、瑞典王国、沙俄等势力的兴衰，其森林与河谷是拉脱维亚民歌和传说的源泉。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`公园全年24小时开放，但内部具体景点（如图雷达城堡、采西斯城堡博物馆等）有独立开放时间。通常夏季（5月至9月）为10:00-18:00，冬季缩短至10:00-16:00或17:00。自然小径、露营地不受限。重要提示：10月至次年4月，部分景点周一闭馆，且冬季大雪可能临时关闭部分徒步路线。`} />
               <InfoRow label="门票价格" value={`进入国家公园本身免费。内部景点单独收费：图雷达城堡博物馆约8欧元，采西斯城堡博物馆联票约10欧元。有学生、儿童及家庭优惠票。公园内的冒险公园（如锡古尔达的缆车、雪橇轨道、蹦极）需额外购票，项目价格在5-30欧元不等。`} />
@@ -62,17 +65,17 @@ export default function GaujaNationalParkLatviaPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`高亚河谷的故事，始于冰河退去后留下的丰厚沙土与深邃沟壑。但让它登上历史舞台的，是13世纪那把带着十字架印记的利剑。当时，属于日耳曼势力的利沃尼亚骑士团为了征服和教化波罗的海南岸的古老部落，沿着高亚河这条天然通道建造了一系列坚固的城堡。1207年，在图雷达的悬崖上，第一块红砖被砌下。采西斯、锡古尔达的城堡紧随其后。这些城堡不仅仅是军事要塞，更是经济、行政和宗教中心。红砖在当时是昂贵且先进的建材，它们宣告着新秩序的到来，也与森林的翠绿、砂岩的土黄形成了永恒的色彩冲撞。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`随后的几百年，这片土地成为了各方势力角逐的棋盘。骑士团内部争斗，与立陶宛大公国联姻，又一同抵抗条顿骑士团的东进。图雷达城堡甚至一度成为利沃尼亚骑士团大团长的驻地。16世纪的利沃尼亚战争像一场风暴，瑞典人、波兰-立陶宛人、沙俄在此反复拉锯，城堡在炮火中易手、损毁、重建。你可以想象，在某个秋日的黄昏，守卫士兵从塔楼望向窗外，脚下是燃烧的森林与漂着浮尸的幽暗河水，那是何等的苍凉。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`当战争的硝烟逐渐散去，城堡的军事意义褪去，它们慢慢被遗忘，被森林悄然吞噬。石头崩塌，藤蔓爬上墙头，狐狸在曾是宴会大厅的地基里做窝。然而，另一种文化力量却在这片土地上悄然生长。拉脱维亚的农民和伐木工，这些大地的真正子民，在森林的庇护下，保存了自己的语言、多神教的信仰和无数民歌传说。那些关于“歌山”下埋藏着宝藏、关于森林精灵和湖泊女神的传说，让高亚的每一块石头、每一片树林都充满了灵性。19世纪民族觉醒时期，知识分子们深入这片河谷，采集民歌，寻找民族身份的根源。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`进入20世纪，经历了两次世界大战的创伤和苏联时期，拉脱维亚人将高亚河谷视为民族精神的堡垒。1963年，它被确立为苏联第一个（也是拉脱维亚第一个）国家公园，这背后是对自然与文化双重遗产的坚定保护意志。独立后，保护工作更加系统。如今，你看到的那些看似古朴的木制观景塔、徒步栈道，都是精心设计、融入环境的现代作品。修复城堡时，人们也刻意保留了部分废墟状态，不去“完整复原”，因为时光的残缺本身，就是最真实的历史叙事。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "高亚河谷的故事，始于冰河退去后留下的丰厚沙土与深邃沟壑。但让它登上历史舞台的，是13世纪那把带着十字架印记的利剑。当时，属于日耳曼势力的利沃尼亚骑士团为了征服和教化波罗的海南岸的古老部落，沿着高亚河这条天然通道建造了一系列坚固的城堡。1207年，在图雷达的悬崖上，第一块红砖被砌下。采西斯、锡古尔达的城堡紧随其后。这些城堡不仅仅是军事要塞，更是经济、行政和宗教中心。红砖在当时是昂贵且先进的建材，它们宣告着新秩序的到来，也与森林的翠绿、砂岩的土黄形成了永恒的色彩冲撞。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随后的几百年，这片土地成为了各方势力角逐的棋盘。骑士团内部争斗，与立陶宛大公国联姻，又一同抵抗条顿骑士团的东进。图雷达城堡甚至一度成为利沃尼亚骑士团大团长的驻地。16世纪的利沃尼亚战争像一场风暴，瑞典人、波兰-立陶宛人、沙俄在此反复拉锯，城堡在炮火中易手、损毁、重建。你可以想象，在某个秋日的黄昏，守卫士兵从塔楼望向窗外，脚下是燃烧的森林与漂着浮尸的幽暗河水，那是何等的苍凉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当战争的硝烟逐渐散去，城堡的军事意义褪去，它们慢慢被遗忘，被森林悄然吞噬。石头崩塌，藤蔓爬上墙头，狐狸在曾是宴会大厅的地基里做窝。然而，另一种文化力量却在这片土地上悄然生长。拉脱维亚的农民和伐木工，这些大地的真正子民，在森林的庇护下，保存了自己的语言、多神教的信仰和无数民歌传说。那些关于“歌山”下埋藏着宝藏、关于森林精灵和湖泊女神的传说，让高亚的每一块石头、每一片树林都充满了灵性。19世纪民族觉醒时期，知识分子们深入这片河谷，采集民歌，寻找民族身份的根源。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "进入20世纪，经历了两次世界大战的创伤和苏联时期，拉脱维亚人将高亚河谷视为民族精神的堡垒。1963年，它被确立为苏联第一个（也是拉脱维亚第一个）国家公园，这背后是对自然与文化双重遗产的坚定保护意志。独立后，保护工作更加系统。如今，你看到的那些看似古朴的木制观景塔、徒步栈道，都是精心设计、融入环境的现代作品。修复城堡时，人们也刻意保留了部分废墟状态，不去“完整复原”，因为时光的残缺本身，就是最真实的历史叙事。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`强烈建议安排至少整整两天时间，才能触及高亚的灵魂。第一天聚焦于锡古尔达周边，以人文历史与壮丽全景为主；第二天深入采西斯地区，探索更幽静的森林与城堡核心。最佳的抵达时间是清晨，在游客大巴到来之前，独享森林的宁静与晨光。整体节奏宜慢不宜快，多留出时间发呆、徒步和偶遇。自驾或搭配火车与自行车是最灵活的方式。这样的安排能让你由表及里，从震撼的观景体验到深度的历史沉浸，完整感受公园的多重面貌。`}
                 </p>
@@ -157,8 +160,9 @@ export default function GaujaNationalParkLatviaPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`森林秘境小屋`}</h4>
@@ -178,50 +182,51 @@ export default function GaujaNationalParkLatviaPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（6-8月）和秋季赏叶季（9月底-10月初）住宿非常紧俏，务必提前数月预订。冬季很多森林小木屋和露营地会关闭，但小镇上的酒店照常营业，是体验冰雪童话世界的绝佳时机。公园内大部分住宿地点都非常安全宁静。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6-8月）和秋季赏叶季（9月底-10月初）住宿非常紧俏，务必提前数月预订。冬季很多森林小木屋和露营地会关闭，但小镇上的酒店照常营业，是体验冰雪童话世界的绝佳时机。公园内大部分住宿地点都非常安全宁静。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开高亚国家公园许久后，那股混合着松脂、潮湿泥土和古老砖石的气味，依然会偶尔窜入你的记忆。它带给你的震撼，不同于巴黎的奢华或罗马的恢弘，而是一种沉静而持久的力量。在这里，你仿佛能听到时间流动的两种声音：一种是地质时间，缓慢到以冰川和河流为单位，雕刻出深邃的河谷；另一种是人类时间，充满了战争、信仰、歌声与遗忘，在红砖城堡上刻下斑驳的印记。而森林，默默见证着一切，包容着一切，也最终覆盖一切。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个我们被碎片信息和虚拟世界包围的时代，高亚提供了一种珍贵的“深潜”体验。它要求你放下手机（因为常常没信号），用双脚去丈量土地，用皮肤去感受风，用全部感官去打开自己。它告诉你，历史不只在博物馆的玻璃柜里，更在森林中每一块长满青苔的石头下，在河流冲刷的每一道岩层纹理中。来这里，不是为了打卡，而是为了进行一次自我与自然、与历史深处的对话。你会发现，这片拉脱维亚的“小瑞士”，拥有的不仅是风景，更是一个古老灵魂缓慢而深沉的呼吸。这是每一位渴望真实触碰世界的旅人，都不应错过的心灵栖息地。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开高亚国家公园许久后，那股混合着松脂、潮湿泥土和古老砖石的气味，依然会偶尔窜入你的记忆。它带给你的震撼，不同于巴黎的奢华或罗马的恢弘，而是一种沉静而持久的力量。在这里，你仿佛能听到时间流动的两种声音：一种是地质时间，缓慢到以冰川和河流为单位，雕刻出深邃的河谷；另一种是人类时间，充满了战争、信仰、歌声与遗忘，在红砖城堡上刻下斑驳的印记。而森林，默默见证着一切，包容着一切，也最终覆盖一切。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个我们被碎片信息和虚拟世界包围的时代，高亚提供了一种珍贵的“深潜”体验。它要求你放下手机（因为常常没信号），用双脚去丈量土地，用皮肤去感受风，用全部感官去打开自己。它告诉你，历史不只在博物馆的玻璃柜里，更在森林中每一块长满青苔的石头下，在河流冲刷的每一道岩层纹理中。来这里，不是为了打卡，而是为了进行一次自我与自然、与历史深处的对话。你会发现，这片拉脱维亚的“小瑞士”，拥有的不仅是风景，更是一个古老灵魂缓慢而深沉的呼吸。这是每一位渴望真实触碰世界的旅人，都不应错过的心灵栖息地。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/karosta-liepaja-latvia" className="block group">
+              <a href="/attractions/rundale-palace" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    卡
+                    伦
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡罗斯塔</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Karosta</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伦达莱宫（波罗的海的凡尔赛宫）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rundāle Palace</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/sigulda-medieval-castle" className="block group">
+              <a href="/attractions/riga-art-nouveau-architecture" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    锡
+                    里
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">锡古尔达中世纪城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sigulda Medieval Castle</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里加新艺术建筑群</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Art Nouveau architecture in Riga</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/cesis-old-town-castle" className="block group">
+              <a href="/attractions/aglona-basilica" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    采
+                    阿
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">采西斯古城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cēsis Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿格洛纳大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Aglona Basilica</p>
                   </div>
                 </div>
               </a>

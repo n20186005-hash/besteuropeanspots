@@ -15,7 +15,7 @@ export default function WasserburgAmInnPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '因河畔瓦瑟堡', href: '/attractions/wasserburg-am-inn' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function BanskaStiavnicaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '班斯卡-什佳夫尼察', href: '/attractions/banska-stiavnica' },
           ]}
         />

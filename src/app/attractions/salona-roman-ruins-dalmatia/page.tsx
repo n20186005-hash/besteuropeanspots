@@ -15,7 +15,7 @@ export default function SalonaRomanRuinsDalmatiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '萨罗纳古城废墟', href: '/attractions/salona-roman-ruins-dalmatia' },
           ]}
         />

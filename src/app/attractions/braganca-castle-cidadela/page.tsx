@@ -15,7 +15,7 @@ export default function BragancaCastleCidadelaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '布拉干萨城堡（城堡区）', href: '/attractions/braganca-castle-cidadela' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function CrepyEnValoisPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瓦卢瓦地区克雷皮', href: '/attractions/crepy-en-valois' },
           ]}
         />

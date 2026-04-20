@@ -15,7 +15,7 @@ export default function KarlskronaNavalPortCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卡尔斯克鲁纳（军港古城）', href: '/attractions/karlskrona-naval-port-city' },
           ]}
         />

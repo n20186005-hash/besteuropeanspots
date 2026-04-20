@@ -15,7 +15,7 @@ export default function SHertogenboschHistoricCentrePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯海尔托亨博斯（或简称登博斯）', href: '/attractions/s-hertogenbosch-historic-centre' },
           ]}
         />

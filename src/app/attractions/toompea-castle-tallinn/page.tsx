@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '座堂山城堡 Toompea Castle｜粉红色古堡中的爱沙尼亚议会，俯瞰童话老城的权力之巅 - 最佳欧洲景点',
-  description: '当你第一次穿过塔林老城那些蜿蜒的、铺着鹅卵石的小巷，抬头望向北方时，那座耸立在石灰岩山丘上的粉红色建筑群一定会抓住你的目光。它不是那种阴森威严的典型城堡，反而在波罗的海清澈的阳光下，泛着一种近乎温柔的鲑鱼粉色，像一块巨大的草莓蛋糕被不经意地放在了城市的屋顶上。这种第一印象的错位感，正是座堂山城堡魅力...',
+  description: '当你第一次穿过塔林老城那些蜿蜒的、铺着鹅卵石的小巷，抬头望向北方时，那座耸立在石灰岩山丘上的粉红色建筑群一定会抓住你的目光。它不是那种阴森威严的典型城堡，反而在波罗的海清澈的阳光下，泛着一种近乎温柔的鲑鱼粉色，像一块巨大的草莓蛋糕被不经意地放在了城市的屋顶上。这种第一印象的错位感，正是座堂山城堡魅力',
 }
 
 export default function ToompeaCastleTallinnPage() {
@@ -15,7 +15,7 @@ export default function ToompeaCastleTallinnPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '座堂山城堡', href: '/attractions/toompea-castle-tallinn' },
           ]}
         />
@@ -31,11 +31,12 @@ export default function ToompeaCastleTallinnPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`当你第一次穿过塔林老城那些蜿蜒的、铺着鹅卵石的小巷，抬头望向北方时，那座耸立在石灰岩山丘上的粉红色建筑群一定会抓住你的目光。它不是那种阴森威严的典型城堡，反而在波罗的海清澈的阳光下，泛着一种近乎温柔的鲑鱼粉色，像一块巨大的草莓蛋糕被不经意地放在了城市的屋顶上。这种第一印象的错位感，正是座堂山城堡魅力开始的地方。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`沿着古老的“短腿街”石阶气喘吁吁地爬上来，推开那扇厚重的城门（或者说，是走进那片开阔的广场），世界瞬间变得不同。脚下是历经数百年被鞋底打磨得光滑温润的石板，空气里混合着远方海港飘来的淡淡咸味、附近花园里潮湿的泥土气息，以及从咖啡馆窗口溢出的新鲜烘焙咖啡的醇香。你的左边，是洋葱头金顶、装饰繁复到令人眩晕的亚历山大·涅夫斯基主教座堂，钟声沉郁；你的右边，就是那座粉红色的宫殿——爱沙尼亚议会。穿着西装、步履匆匆的议员或工作人员从古典的大门进进出出，与身边举着相机、慢悠悠踱步的游客共享同一片广场。历史与当下，权力与日常，在这里没有丝毫隔阂地交融在一起。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`但最震撼的时刻，是当你走到城堡西侧的观景平台。扒着古老的石墙向下望去，整个塔林老城像一幅被突然摊开的、细腻无比的微缩模型画，在你脚下铺展开来。红色瓦片的屋顶如波浪般起伏，数十座教堂的尖塔试图刺破低垂的云层，远处波罗的海的灰蓝色水域一直延伸到天际线。风很大，呼呼地吹过耳畔，卷走一切喧嚣，只剩下视觉的盛宴和历史的低语。你会瞬间明白，为什么历代征服者都要占据这里——这不只是军事制高点，这是精神的王座。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`而这座城堡最打动人心的核心，正是这种强烈的反差与统一。粉彩色的巴洛克外衣下，是条顿骑士团留下的冰冷灰色巨石地基。议会大楼里正在辩论国家未来的议员们，脚下踩着的可能是中世纪地牢的遗迹。它美得毫不设防，却又承载着这个民族最沉重的记忆和最活跃的脉搏。它不是一个供人远远观赏的遗迹，它就是爱沙尼亚跳动的心脏，古老、斑斓，且充满生命力。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你第一次穿过塔林老城那些蜿蜒的、铺着鹅卵石的小巷，抬头望向北方时，那座耸立在石灰岩山丘上的粉红色建筑群一定会抓住你的目光。它不是那种阴森威严的典型城堡，反而在波罗的海清澈的阳光下，泛着一种近乎温柔的鲑鱼粉色，像一块巨大的草莓蛋糕被不经意地放在了城市的屋顶上。这种第一印象的错位感，正是座堂山城堡魅力开始的地方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沿着古老的“短腿街”石阶气喘吁吁地爬上来，推开那扇厚重的城门（或者说，是走进那片开阔的广场），世界瞬间变得不同。脚下是历经数百年被鞋底打磨得光滑温润的石板，空气里混合着远方海港飘来的淡淡咸味、附近花园里潮湿的泥土气息，以及从咖啡馆窗口溢出的新鲜烘焙咖啡的醇香。你的左边，是洋葱头金顶、装饰繁复到令人眩晕的亚历山大·涅夫斯基主教座堂，钟声沉郁；你的右边，就是那座粉红色的宫殿——爱沙尼亚议会。穿着西装、步履匆匆的议员或工作人员从古典的大门进进出出，与身边举着相机、慢悠悠踱步的游客共享同一片广场。历史与当下，权力与日常，在这里没有丝毫隔阂地交融在一起。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但最震撼的时刻，是当你走到城堡西侧的观景平台。扒着古老的石墙向下望去，整个塔林老城像一幅被突然摊开的、细腻无比的微缩模型画，在你脚下铺展开来。红色瓦片的屋顶如波浪般起伏，数十座教堂的尖塔试图刺破低垂的云层，远处波罗的海的灰蓝色水域一直延伸到天际线。风很大，呼呼地吹过耳畔，卷走一切喧嚣，只剩下视觉的盛宴和历史的低语。你会瞬间明白，为什么历代征服者都要占据这里——这不只是军事制高点，这是精神的王座。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而这座城堡最打动人心的核心，正是这种强烈的反差与统一。粉彩色的巴洛克外衣下，是条顿骑士团留下的冰冷灰色巨石地基。议会大楼里正在辩论国家未来的议员们，脚下踩着的可能是中世纪地牢的遗迹。它美得毫不设防，却又承载着这个民族最沉重的记忆和最活跃的脉搏。它不是一个供人远远观赏的遗迹，它就是爱沙尼亚跳动的心脏，古老、斑斓，且充满生命力。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -47,6 +48,7 @@ export default function ToompeaCastleTallinnPage() {
                 <InfoRow label="国家" value={`爱沙尼亚`} />
                 <InfoRow label="城市" value={`塔林`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`这座雄踞塔林制高点近千年的堡垒，是爱沙尼亚权力更迭与民族精神的终极象征，从古代军事要塞演变为现代民主议会所在地。`} />
                 <InfoRow label="建筑特色" value={`最引人注目的是其童话般的粉红色巴洛克式外墙，内部却包裹着中世纪城堡的厚重石基，古典优雅与冷峻威严形成奇妙对比。`} />
@@ -54,6 +56,7 @@ export default function ToompeaCastleTallinnPage() {
                 <InfoRow label="文化价值" value={`它不仅是爱沙尼亚最高立法机构的所在地，更是一座“活着的”历史纪念碑，直观地诉说着这个小国被丹麦、德国、瑞典、俄国统治，最终走向独立的坚韧历程。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`城堡外部区域及观景台全天24小时开放。爱沙尼亚议会大楼（Riigikogu）内部仅对参加导览团的游客开放，导览团通常在工作日的固定时间（如下午1点或2点）提供，需提前在议会官网预约，且可能因议会会期而临时取消。建议出行前务必查询最新日程。城堡山上的亚历山大·涅夫斯基主教座堂等周边建筑有各自的开放时间。`} />
               <InfoRow label="门票价格" value={`在城堡外部游览、欣赏建筑外观和从观景台俯瞰全城免费。进入议会大楼的导览团通常也免费，但必须提前预约并携带护照等有效身份证件接受安检。`} />
@@ -64,17 +67,17 @@ export default function ToompeaCastleTallinnPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`座堂山的故事，得从一块高高的石灰岩山丘说起。爱沙尼亚人称它为“Toompea”，意思是“主教座堂的山丘”。早在公元10-11世纪，这里就已经有了爱沙尼亚古老部落的木质堡垒。但真正改变它命运的，是北方来的维京后代和十字军。1219年，丹麦国王瓦尔德马二世率领舰队在此登陆，在一场据说有红十字从天而降助阵的传奇战役后，征服了这片地区。他在山丘上建造了一座石头城堡，这就是座堂山城堡最早的雏形，塔林（Tallinn）这个名字也源于“丹麦人的城堡”（Taani linn）。今天城堡广场上那面绘有三头狮子的丹麦国旗图案，就在默默纪念着这段起源。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`丹麦人的统治没有持续太久。14世纪中期，这座城堡被卖给了雄踞中欧的条顿骑士团。骑士团是真正的筑城大师，他们拆除了大部分丹麦时期的建筑，用厚重的灰色石灰岩重建了一个坚固的方型城堡主楼，也就是今天被称为“长赫尔曼”的高塔所在的核心区域。那时的城堡阴森、功利，是一座纯粹的军事与行政堡垒，统治着山下被称为“下城”的汉萨同盟商人们。骑士团、主教和贵族们盘踞在山上的“上城”，与山下市民的世界泾渭分明，那两条连接上下的“长腿街”和“短腿街”，就像是连接两个不同星球的通道。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`时光流转到18世纪初，北方大战结束，沙皇俄国从瑞典手中夺取了爱沙尼亚。新的主人决定为这座古老的堡垒换一张面孔。1767年至1773年间，俄国女皇叶卡捷琳娜二世下令，在面向城市的那一侧，为城堡披上了一层华丽的洛可可-巴洛克风格的外衣。这就是我们今天看到的、令人过目不忘的粉红色宫殿立面。它线条优雅，颜色柔美，开着一排排整齐的白色窗户，与其说像城堡，不如说更像一座舒适的乡间别墅。这个改造极具象征意义：它淡化了城堡的军事色彩，将其转变为帝国行省总督的豪华官邸，是一种用美学进行的权力宣示。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，爱沙尼亚人的民族意识在19世纪开始觉醒。1918年，爱沙尼亚首次宣布独立。命运多舛的是，独立的火焰很快被二战和接下来的苏联占领所扑灭。那座粉红色的宫殿被用作各种苏联机构。直到1991年，爱沙尼亚重新恢复独立，国家的缔造者们做出了一个极具深意的决定：将最高议会（Riigikogu）设立在座堂山城堡内。他们拆除了苏联时期的一些内部加建，在保存历史外壳的同时，巧妙地注入了现代民主的功能。于是，每天在那些粉红色的墙壁后，在古老石墩的上方，爱沙尼亚的议员们为这个新生又古老的国家的法律和政策进行辩论。那座曾象征外来统治的堡垒，终于变成了民族自决的圣殿。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "座堂山的故事，得从一块高高的石灰岩山丘说起。爱沙尼亚人称它为“Toompea”，意思是“主教座堂的山丘”。早在公元10-11世纪，这里就已经有了爱沙尼亚古老部落的木质堡垒。但真正改变它命运的，是北方来的维京后代和十字军。1219年，丹麦国王瓦尔德马二世率领舰队在此登陆，在一场据说有红十字从天而降助阵的传奇战役后，征服了这片地区。他在山丘上建造了一座石头城堡，这就是座堂山城堡最早的雏形，塔林（Tallinn）这个名字也源于“丹麦人的城堡”（Taani linn）。今天城堡广场上那面绘有三头狮子的丹麦国旗图案，就在默默纪念着这段起源。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "丹麦人的统治没有持续太久。14世纪中期，这座城堡被卖给了雄踞中欧的条顿骑士团。骑士团是真正的筑城大师，他们拆除了大部分丹麦时期的建筑，用厚重的灰色石灰岩重建了一个坚固的方型城堡主楼，也就是今天被称为“长赫尔曼”的高塔所在的核心区域。那时的城堡阴森、功利，是一座纯粹的军事与行政堡垒，统治着山下被称为“下城”的汉萨同盟商人们。骑士团、主教和贵族们盘踞在山上的“上城”，与山下市民的世界泾渭分明，那两条连接上下的“长腿街”和“短腿街”，就像是连接两个不同星球的通道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转到18世纪初，北方大战结束，沙皇俄国从瑞典手中夺取了爱沙尼亚。新的主人决定为这座古老的堡垒换一张面孔。1767年至1773年间，俄国女皇叶卡捷琳娜二世下令，在面向城市的那一侧，为城堡披上了一层华丽的洛可可-巴洛克风格的外衣。这就是我们今天看到的、令人过目不忘的粉红色宫殿立面。它线条优雅，颜色柔美，开着一排排整齐的白色窗户，与其说像城堡，不如说更像一座舒适的乡间别墅。这个改造极具象征意义：它淡化了城堡的军事色彩，将其转变为帝国行省总督的豪华官邸，是一种用美学进行的权力宣示。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，爱沙尼亚人的民族意识在19世纪开始觉醒。1918年，爱沙尼亚首次宣布独立。命运多舛的是，独立的火焰很快被二战和接下来的苏联占领所扑灭。那座粉红色的宫殿被用作各种苏联机构。直到1991年，爱沙尼亚重新恢复独立，国家的缔造者们做出了一个极具深意的决定：将最高议会（Riigikogu）设立在座堂山城堡内。他们拆除了苏联时期的一些内部加建，在保存历史外壳的同时，巧妙地注入了现代民主的功能。于是，每天在那些粉红色的墙壁后，在古老石墩的上方，爱沙尼亚的议员们为这个新生又古老的国家的法律和政策进行辩论。那座曾象征外来统治的堡垒，终于变成了民族自决的圣殿。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`要完整感受座堂山城堡的层次与灵魂，建议留出至少3到4小时。最佳抵达时间是清晨（9点前）或工作日的下午。清晨的光线柔和，游客稀少，你能独占观景台，享受城堡山刚刚苏醒的宁静。工作日下午则有机会（如果预约成功）进入议会内部，感受古典建筑中的现代政治脉搏。游览节奏宜慢不宜快，这是一座需要你用心去“阅读”而非“扫描”的露天历史书。路线应从外部全景开始，逐步深入其历史肌理，最后以内部（若有机会）或另一个角度的俯瞰结束，形成一个完美的回环。`}
                 </p>
@@ -155,8 +158,9 @@ export default function ToompeaCastleTallinnPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`特色体验`}</h4>
@@ -176,28 +180,29 @@ export default function ToompeaCastleTallinnPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`塔林老城及座堂山区域治安非常好，夜晚行走也很安全。夏季（6-8月）是旅游绝对旺季，“上城”的精品酒店需要提前数月预订。如果想获得更本地化的体验，可以考虑预订“下城”靠近城墙区域的住宿，性价比和氛围感可能更佳。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "塔林老城及座堂山区域治安非常好，夜晚行走也很安全。夏季（6-8月）是旅游绝对旺季，“上城”的精品酒店需要提前数月预订。如果想获得更本地化的体验，可以考虑预订“下城”靠近城墙区域的住宿，性价比和氛围感可能更佳。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开座堂山城堡很久以后，我脑海中反复回响的不是某一段具体的历史年份，而是那种强烈的、可触摸的对比。柔软与坚硬，色彩与灰暗，古老与现代，权力与平凡，所有这些看似对立的面相，都被巧妙地缝合在这片不算宽阔的山丘之上。它没有试图隐藏任何一段过去，丹麦的旗帜、骑士团的石基、俄国的粉墙、苏联的痕迹，连同今天爱沙尼亚人自主的旗帜，都坦诚地展示在那里，任人评读。这种坦诚，本身就是一种强大的自信。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个世界上，太多的古迹被圈养起来，成为与当下生活毫无关系的标本。而座堂山城堡却选择了一条更艰难、也更有生命力的路——它让历史直接为今天的生活注入灵魂。当你知道，那些决定国家未来的辩论，就在中世纪地牢的上方进行；当现代的法律，诞生于征服者建造的堡垒之中，你会对“传承”与“新生”有更深刻的理解。这里不只是一个景点，它是一个民族将历史伤痛转化为前行力量的物理宣言。对于每一位渴望理解欧洲复杂历史层次和一个小国不屈精神的旅人来说，登上这座粉红色的山丘，都是一次触及灵魂的必修课。它告诉你，真正的力量，不在于忘记，而在于记住，并勇敢地在此基础上，建造属于自己的、色彩斑斓的未来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开座堂山城堡很久以后，我脑海中反复回响的不是某一段具体的历史年份，而是那种强烈的、可触摸的对比。柔软与坚硬，色彩与灰暗，古老与现代，权力与平凡，所有这些看似对立的面相，都被巧妙地缝合在这片不算宽阔的山丘之上。它没有试图隐藏任何一段过去，丹麦的旗帜、骑士团的石基、俄国的粉墙、苏联的痕迹，连同今天爱沙尼亚人自主的旗帜，都坦诚地展示在那里，任人评读。这种坦诚，本身就是一种强大的自信。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个世界上，太多的古迹被圈养起来，成为与当下生活毫无关系的标本。而座堂山城堡却选择了一条更艰难、也更有生命力的路——它让历史直接为今天的生活注入灵魂。当你知道，那些决定国家未来的辩论，就在中世纪地牢的上方进行；当现代的法律，诞生于征服者建造的堡垒之中，你会对“传承”与“新生”有更深刻的理解。这里不只是一个景点，它是一个民族将历史伤痛转化为前行力量的物理宣言。对于每一位渴望理解欧洲复杂历史层次和一个小国不屈精神的旅人来说，登上这座粉红色的山丘，都是一次触及灵魂的必修课。它告诉你，真正的力量，不在于忘记，而在于记住，并勇敢地在此基础上，建造属于自己的、色彩斑斓的未来。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/parnu-old-town" className="block group">
+              <a href="/attractions/narva-fortress-hermann-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    派
+                    纳
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">派尔努老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pärnu Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳尔瓦要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Narva Fortress</p>
                   </div>
                 </div>
               </a>
@@ -212,14 +217,14 @@ export default function ToompeaCastleTallinnPage() {
                   </div>
                 </div>
               </a>
-              <a href="/attractions/viljandi-order-castle-ruins" className="block group">
+              <a href="/attractions/paide" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    维
+                    派
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维尔扬迪城堡废墟（汉萨同盟时期要塞）</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Viljandi Order Castle Ruins</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">派德</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Paide</p>
                   </div>
                 </div>
               </a>

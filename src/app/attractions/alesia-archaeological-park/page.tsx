@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '阿莱西亚考古公园 MuséoParc Alésia｜亲临史诗古战场，触摸高卢英雄与凯撒大帝的决战之地 - 最佳欧洲景点',
-  description: '车子驶离勃艮第的葡萄园，转入一片开阔的、被柔和丘陵环绕的盆地时，一种奇特的空旷感便扑面而来。风毫无遮挡地吹过，带着青草和远处森林的湿润气息，你几乎能立刻感受到，这里的地形天生就是为了一场史诗级的围困而存在的。眼前的阿莱西亚山丘并不险峻，甚至有些平缓，但当你停好车，双脚踩上这片土地时，脚下的每一粒泥土...',
+  description: '车子驶离勃艮第的葡萄园，转入一片开阔的、被柔和丘陵环绕的盆地时，一种奇特的空旷感便扑面而来。风毫无遮挡地吹过，带着青草和远处森林的湿润气息，你几乎能立刻感受到，这里的地形天生就是为了一场史诗级的围困而存在的。眼前的阿莱西亚山丘并不险峻，甚至有些平缓，但当你停好车，双脚踩上这片土地时，脚下的每一粒泥土',
 }
 
 export default function AlesiaArchaeologicalParkPage() {
@@ -15,7 +15,7 @@ export default function AlesiaArchaeologicalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿莱西亚考古公园', href: '/attractions/alesia-archaeological-park' },
           ]}
         />
@@ -31,11 +31,12 @@ export default function AlesiaArchaeologicalParkPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子驶离勃艮第的葡萄园，转入一片开阔的、被柔和丘陵环绕的盆地时，一种奇特的空旷感便扑面而来。风毫无遮挡地吹过，带着青草和远处森林的湿润气息，你几乎能立刻感受到，这里的地形天生就是为了一场史诗级的围困而存在的。眼前的阿莱西亚山丘并不险峻，甚至有些平缓，但当你停好车，双脚踩上这片土地时，脚下的每一粒泥土仿佛都沉淀着两千多年的重量。没有巴黎圣母院那种直冲云霄的尖顶，也没有凡尔赛宫金碧辉煌的倒影，这里只有风、天空、绵延的草浪和一种巨大的、沉默的叙事感。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走进那座被称为“博物馆”的建筑本身，就是一种超现实的体验。它不像传统博物馆那样庄严耸立，反而像一个低伏的、巨大的混凝土圆环，部分嵌入地下，表面覆盖着植被，仿佛是从大地中生长出来，又或是被时光掩埋后重新揭开的一角。建筑本身就是对那段历史的第一重诠释：它既是罗马军团包围圈的抽象化再现，也像一道大地被战争撕裂后留下的疤痕。馆内的光线被精心设计，从环形走廊的窗户望出去，你的视线被直接引向窗外的山丘——那正是当年高卢人困守的最后阵地。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`对于当地人来说，阿莱西亚远不止是一个旅游景点。它渗透在地名里（周围的村庄多以“阿莱西亚”为前缀），烙印在学校的教科书上，更活在一种集体的历史记忆里。尤其是那座矗立在对面山巅的维钦托利巨型雕像，从许多村庄的窗口都能望见它持剑远眺的孤独剪影。他不仅是战败的英雄，更是“抵抗”与“身份”的最初偶像。你会在小镇的酒馆里听到人们谈论他，语气里带着一种复杂的自豪，那是一种承认失败却颂扬勇气的独特法式情怀。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`最打动人心的地方，在于它用一种极其现代、沉浸式的方式，让你“体验”而非仅仅“观看”历史。这里没有堆积如山的破碎陶罐（当然，考古发现很丰富），而是用全息投影、环绕声效和等比例重建的罗马攻城塔与高卢壁垒，把你拉入公元前52年那个绝望的夏天。你能听到战马的嘶鸣、拉丁语的号令、高卢战士的怒吼，甚至能闻到（博物馆刻意营造的）木料、金属和尘土的味道。当你走出博物馆，亲自踏上那片被考古学家精确标示出的古战场，站在罗马攻城坡道的遗迹旁，眺望维钦托利可能站立过的山丘时，书本上的文字瞬间变成了脚下三维立体的地形图，那种跨越时空的共情与震撼，是任何一本史书都无法给予的。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子驶离勃艮第的葡萄园，转入一片开阔的、被柔和丘陵环绕的盆地时，一种奇特的空旷感便扑面而来。风毫无遮挡地吹过，带着青草和远处森林的湿润气息，你几乎能立刻感受到，这里的地形天生就是为了一场史诗级的围困而存在的。眼前的阿莱西亚山丘并不险峻，甚至有些平缓，但当你停好车，双脚踩上这片土地时，脚下的每一粒泥土仿佛都沉淀着两千多年的重量。没有巴黎圣母院那种直冲云霄的尖顶，也没有凡尔赛宫金碧辉煌的倒影，这里只有风、天空、绵延的草浪和一种巨大的、沉默的叙事感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进那座被称为“博物馆”的建筑本身，就是一种超现实的体验。它不像传统博物馆那样庄严耸立，反而像一个低伏的、巨大的混凝土圆环，部分嵌入地下，表面覆盖着植被，仿佛是从大地中生长出来，又或是被时光掩埋后重新揭开的一角。建筑本身就是对那段历史的第一重诠释：它既是罗马军团包围圈的抽象化再现，也像一道大地被战争撕裂后留下的疤痕。馆内的光线被精心设计，从环形走廊的窗户望出去，你的视线被直接引向窗外的山丘——那正是当年高卢人困守的最后阵地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "对于当地人来说，阿莱西亚远不止是一个旅游景点。它渗透在地名里（周围的村庄多以“阿莱西亚”为前缀），烙印在学校的教科书上，更活在一种集体的历史记忆里。尤其是那座矗立在对面山巅的维钦托利巨型雕像，从许多村庄的窗口都能望见它持剑远眺的孤独剪影。他不仅是战败的英雄，更是“抵抗”与“身份”的最初偶像。你会在小镇的酒馆里听到人们谈论他，语气里带着一种复杂的自豪，那是一种承认失败却颂扬勇气的独特法式情怀。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人心的地方，在于它用一种极其现代、沉浸式的方式，让你“体验”而非仅仅“观看”历史。这里没有堆积如山的破碎陶罐（当然，考古发现很丰富），而是用全息投影、环绕声效和等比例重建的罗马攻城塔与高卢壁垒，把你拉入公元前52年那个绝望的夏天。你能听到战马的嘶鸣、拉丁语的号令、高卢战士的怒吼，甚至能闻到（博物馆刻意营造的）木料、金属和尘土的味道。当你走出博物馆，亲自踏上那片被考古学家精确标示出的古战场，站在罗马攻城坡道的遗迹旁，眺望维钦托利可能站立过的山丘时，书本上的文字瞬间变成了脚下三维立体的地形图，那种跨越时空的共情与震撼，是任何一本史书都无法给予的。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -47,6 +48,7 @@ export default function AlesiaArchaeologicalParkPage() {
                 <InfoRow label="国家" value={`法国`} />
                 <InfoRow label="城市" value={`科多尔省阿利塞-圣赖纳`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`这里是公元前52年决定高卢命运、奠定罗马帝国西北疆域基石的关键战役——阿莱西亚围城战的古战场遗址。`} />
                 <InfoRow label="建筑特色" value={`一个将现代解构主义建筑与广袤历史景观完美结合的考古公园，标志性的环形博物馆如同嵌入大地的一道“伤痕”或“堡垒”，与山丘顶部的维钦托利雕像古今对话。`} />
@@ -54,6 +56,7 @@ export default function AlesiaArchaeologicalParkPage() {
                 <InfoRow label="文化价值" value={`它不仅是一个军事遗址，更是法兰西民族精神的重要起源象征地之一，见证了高卢文明的悲壮抵抗与罗马文化的强势植入，是欧洲文明融合的一个关键地理坐标。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`公园与遗址常年开放，可自由漫步。核心的博物馆与重建景区开放时间一般为每日上午10点至下午6点（夏季可能延长至7点）。冬季（通常11月至次年3月）周一闭馆，且关闭时间会提前。具体日期每年微调，强烈建议出行前访问官网确认最新时刻表。特别注意，法国的节假日（如圣诞节、元旦）可能会全天关闭。`} />
               <InfoRow label="门票价格" value={`博物馆与重建景区联票成人约为15欧元，优惠票（学生、青少年等）约为12欧元。仅参观遗址公园免费。通常有针对家庭（2大2小）的套票，价格更优。持有法国国家博物馆通票或当地旅游通行证可能享有折扣。门票建议在线提前购买，尤其在夏季旺季，可以避免排队。`} />
@@ -64,18 +67,18 @@ export default function AlesiaArchaeologicalParkPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事得从那个让整个高卢颤栗的名字说起——盖乌斯·尤利乌斯·凯撒。公元前58年，他以保护罗马盟友为名介入高卢部落纷争，在此后的六年间，凭借超群的军事和政治手腕，一路征战，几乎将今天法国、比利时全境纳入罗马的势力范围。高卢各部族并非铁板一块，长期的内部争斗让他们在面对这位可怕的统帅时屡屡受挫。但压迫终将催生团结的火种，一个来自阿尔vern部落的年轻贵族站了出来，他叫维钦托利。他拥有凯撒本人也称赞的军事才华和非凡魄力，成功说服了大部分高卢部族组成一个前所未有的联盟，共同对抗罗马入侵者。公元52年春天，高卢起义的烽火燎原，凯撒遭遇了他在高卢九年征战中最严峻的挑战。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`维钦托利采取了“焦土战术”，焚烧村庄，切断罗马军队的补给，并在戈尔戈比纳战役中让凯撒吃了亏。然而，面对凯撒迅速的回击，维钦托利决定将部队撤至阿莱西亚山城。这是一个战略选择：阿莱西亚地势高，有天然水源，易守难攻。他可能指望凭借坚固防御消耗罗马军队，并等待高卢各地援军到来，里应外合。但他低估了凯撒的决心和罗马工程师的神乎其技。凯撒的军团没有强攻，而是做了一件令古代世界震惊的工程壮举——他们围绕阿莱西亚山，修建了一道全长约16公里的包围工事，包括围墙、壕沟、瞭望塔，布满陷阱（被称为“凯撒的防线”）。紧接着，得知高卢援军正在集结，他们又在第一道防线外，反向修建了另一道长约21公里的对外防御工事。就这样，罗马人把自己和围困者一起，“锁”在了两道城墙之间。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`接下来的几周是古代战争史上最残酷的围困之一。山城内的数万高卢战士和平民（包括妇女儿童）很快面临饥荒。据凯撒在《高卢战记》中描述（当然带有宣传色彩），城内食物耗尽后，景象惨不忍睹。而外围，由高卢各部族组成的庞大援军终于抵达，对罗马的对外防线发起了排山倒海般的总攻。战斗在最激烈的时刻，维钦托利率领守军也从内向外突围。那是决定命运的一天，罗马军团同时承受内外夹击，战况一度岌岌可危。但凯撒亲临前线，罗马军团严明的纪律和坚固的工事最终顶住了这波狂潮。当援军的攻势被击退，阿莱西亚山城最后的希望也随之破灭。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走投无路的维钦托利做出了悲壮的决定。为了保全追随者的生命，他选择了投降。在一个精心安排的仪式上，这位高卢最高指挥官身着最华丽的战甲，骑马绕凯撒的讲坛一周，然后下马，脱下盔甲，沉默地坐在胜利者的脚边。他被押往罗马，在凯撒的凯旋式上作为最耀眼的战利品被游街示众，数年后在监狱中被处决。阿莱西亚的陷落，标志着高卢有组织抵抗的终结，这片土地开始了近五个世纪的“罗马化”进程，拉丁语、法律、道路、城市格局逐渐生根，奠定了今日法兰西文明的基石。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，阿莱西亚的具体位置在历史长河中曾湮没无闻，直到十九世纪。拿破仑三世对这段历史有着浓厚兴趣，他资助了大规模的考古发掘。在学者和考古学家的努力下，通过在阿利塞-圣赖纳村发现的众多罗马军事遗物（矛头、弹丸、工事遗迹）以及与凯撒文字描述高度吻合的地形，这里被确认为古战场。二十世纪至今，考古工作不断有新的发现。为了保护和展示这一珍贵遗产，当地政府历时多年，打造了这座创新的MuséoParc，它不再是一个简单的遗址坑，而是一个将景观、建筑、考古和现代科技融合的叙事空间，让那段决定欧洲西部命运的历史，重新在风中响起低语。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事得从那个让整个高卢颤栗的名字说起——盖乌斯·尤利乌斯·凯撒。公元前58年，他以保护罗马盟友为名介入高卢部落纷争，在此后的六年间，凭借超群的军事和政治手腕，一路征战，几乎将今天法国、比利时全境纳入罗马的势力范围。高卢各部族并非铁板一块，长期的内部争斗让他们在面对这位可怕的统帅时屡屡受挫。但压迫终将催生团结的火种，一个来自阿尔vern部落的年轻贵族站了出来，他叫维钦托利。他拥有凯撒本人也称赞的军事才华和非凡魄力，成功说服了大部分高卢部族组成一个前所未有的联盟，共同对抗罗马入侵者。公元52年春天，高卢起义的烽火燎原，凯撒遭遇了他在高卢九年征战中最严峻的挑战。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "维钦托利采取了“焦土战术”，焚烧村庄，切断罗马军队的补给，并在戈尔戈比纳战役中让凯撒吃了亏。然而，面对凯撒迅速的回击，维钦托利决定将部队撤至阿莱西亚山城。这是一个战略选择：阿莱西亚地势高，有天然水源，易守难攻。他可能指望凭借坚固防御消耗罗马军队，并等待高卢各地援军到来，里应外合。但他低估了凯撒的决心和罗马工程师的神乎其技。凯撒的军团没有强攻，而是做了一件令古代世界震惊的工程壮举——他们围绕阿莱西亚山，修建了一道全长约16公里的包围工事，包括围墙、壕沟、瞭望塔，布满陷阱（被称为“凯撒的防线”）。紧接着，得知高卢援军正在集结，他们又在第一道防线外，反向修建了另一道长约21公里的对外防御工事。就这样，罗马人把自己和围困者一起，“锁”在了两道城墙之间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "接下来的几周是古代战争史上最残酷的围困之一。山城内的数万高卢战士和平民（包括妇女儿童）很快面临饥荒。据凯撒在《高卢战记》中描述（当然带有宣传色彩），城内食物耗尽后，景象惨不忍睹。而外围，由高卢各部族组成的庞大援军终于抵达，对罗马的对外防线发起了排山倒海般的总攻。战斗在最激烈的时刻，维钦托利率领守军也从内向外突围。那是决定命运的一天，罗马军团同时承受内外夹击，战况一度岌岌可危。但凯撒亲临前线，罗马军团严明的纪律和坚固的工事最终顶住了这波狂潮。当援军的攻势被击退，阿莱西亚山城最后的希望也随之破灭。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走投无路的维钦托利做出了悲壮的决定。为了保全追随者的生命，他选择了投降。在一个精心安排的仪式上，这位高卢最高指挥官身着最华丽的战甲，骑马绕凯撒的讲坛一周，然后下马，脱下盔甲，沉默地坐在胜利者的脚边。他被押往罗马，在凯撒的凯旋式上作为最耀眼的战利品被游街示众，数年后在监狱中被处决。阿莱西亚的陷落，标志着高卢有组织抵抗的终结，这片土地开始了近五个世纪的“罗马化”进程，拉丁语、法律、道路、城市格局逐渐生根，奠定了今日法兰西文明的基石。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，阿莱西亚的具体位置在历史长河中曾湮没无闻，直到十九世纪。拿破仑三世对这段历史有着浓厚兴趣，他资助了大规模的考古发掘。在学者和考古学家的努力下，通过在阿利塞-圣赖纳村发现的众多罗马军事遗物（矛头、弹丸、工事遗迹）以及与凯撒文字描述高度吻合的地形，这里被确认为古战场。二十世纪至今，考古工作不断有新的发现。为了保护和展示这一珍贵遗产，当地政府历时多年，打造了这座创新的MuséoParc，它不再是一个简单的遗址坑，而是一个将景观、建筑、考古和现代科技融合的叙事空间，让那段决定欧洲西部命运的历史，重新在风中响起低语。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`强烈建议安排一整个下午（至少4-5小时）来沉浸于此。最佳抵达时间是午后一点左右，先参观室内部分，此时光线最强，户外漫步则留给傍晚柔和的光线。这样的节奏让你先从学术和感官上理解战役全貌，再带着脑海中的画面去实地印证，情感铺垫会层层递进。整体路线遵循从“知”到“行”的逻辑：先在博物馆构建认知框架和情感基础，然后登上制高点获得全局视野，最后深入战场腹地，完成与历史的个人化对话。`}
                 </p>
@@ -160,8 +163,9 @@ export default function AlesiaArchaeologicalParkPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`乡村家庭旅馆`}</h4>
@@ -181,50 +185,51 @@ export default function AlesiaArchaeologicalParkPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`夏季（6-8月）和学校假期是这里的旅游旺季，住宿最好提前一个月以上预订，尤其是那些有特色的精品住所。周边村庄都非常宁静安全，入夜后几乎没有什么商业活动，适合追求静谧和深度体验的旅行者。如果选择住在更远的第戎市，虽然选择更多、夜生活丰富，但意味着每天需要花费至少一小时在往返交通上，会大大削弱沉浸于遗址氛围的连续性体验。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6-8月）和学校假期是这里的旅游旺季，住宿最好提前一个月以上预订，尤其是那些有特色的精品住所。周边村庄都非常宁静安全，入夜后几乎没有什么商业活动，适合追求静谧和深度体验的旅行者。如果选择住在更远的第戎市，虽然选择更多、夜生活丰富，但意味着每天需要花费至少一小时在往返交通上，会大大削弱沉浸于遗址氛围的连续性体验。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开阿莱西亚的时候，我的背包里没有多一件纪念品，但心里却好像装下了一整片沉重的原野和两千年的风声。这里教会我的，不是一场简单的胜败结论，而是一种看待历史的复杂目光。它让你看到文明的进程常常伴随着惨烈的阵痛，英雄的结局未必是凯旋，而可能是悲壮的沦陷。维钦托利的雕像之所以动人，正是因为他代表了那种明知不可为而为之的、人类精神中不朽的抵抗尊严。站在那片草地上，你同时是征服者凯撒，是困守者维钦托利，也是那个时代无可奈何的平民，历史的多重声音在此交响。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个追求即时满足、景点打卡的快节奏时代，阿莱西亚考古公园是一个异类。它不提供瞬间的惊艳，它要求你付出时间、脚步和想象力。它更像一个巨大的、户外的沉思室，邀请你与一段决定性的过去进行一场安静的对话。当你放下手机，让感官完全向这片土地敞开，你会发现自己读过的关于罗马、关于高卢、关于欧洲形成的所有抽象概念，突然都有了温度、形状和风向。对于每一位真正的深度旅行者而言，这里不是一个“景点”，而是一个“课堂”，一个“圣地”。它让你触摸到法兰西乃至西欧文明的古老根系，并深刻理解，今天这片大陆的和平与融合，其基础曾是多么的惊心动魄与来之不易。这趟旅程，是一次对历史脚注的亲身朝圣，更是一次对自我认知的深度更新。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开阿莱西亚的时候，我的背包里没有多一件纪念品，但心里却好像装下了一整片沉重的原野和两千年的风声。这里教会我的，不是一场简单的胜败结论，而是一种看待历史的复杂目光。它让你看到文明的进程常常伴随着惨烈的阵痛，英雄的结局未必是凯旋，而可能是悲壮的沦陷。维钦托利的雕像之所以动人，正是因为他代表了那种明知不可为而为之的、人类精神中不朽的抵抗尊严。站在那片草地上，你同时是征服者凯撒，是困守者维钦托利，也是那个时代无可奈何的平民，历史的多重声音在此交响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求即时满足、景点打卡的快节奏时代，阿莱西亚考古公园是一个异类。它不提供瞬间的惊艳，它要求你付出时间、脚步和想象力。它更像一个巨大的、户外的沉思室，邀请你与一段决定性的过去进行一场安静的对话。当你放下手机，让感官完全向这片土地敞开，你会发现自己读过的关于罗马、关于高卢、关于欧洲形成的所有抽象概念，突然都有了温度、形状和风向。对于每一位真正的深度旅行者而言，这里不是一个“景点”，而是一个“课堂”，一个“圣地”。它让你触摸到法兰西乃至西欧文明的古老根系，并深刻理解，今天这片大陆的和平与融合，其基础曾是多么的惊心动魄与来之不易。这趟旅程，是一次对历史脚注的亲身朝圣，更是一次对自我认知的深度更新。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/roussillon" className="block group">
+              <a href="/attractions/chateau-de-malbrouck" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    鲁
+                    马
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">鲁西永（红土城）</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Roussillon</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马尔旺城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Malbrouck</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/metz-old-town" className="block group">
+              <a href="/attractions/pezenas-languedoc" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    梅
+                    佩
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅茨老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Metz Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩泽纳斯（莫里哀钟爱的十七世纪古典喜剧之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pézenas</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/arles-amphitheatre" className="block group">
+              <a href="/attractions/chartres-cathedral" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    阿
+                    沙
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔勒古罗马竞技场</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arles Amphitheatre</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">沙特尔大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Chartres Cathedral</p>
                   </div>
                 </div>
               </a>

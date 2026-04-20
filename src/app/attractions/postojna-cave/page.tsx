@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '波斯托伊娜溶洞・Postojna Cave・斯洛文尼亚・波斯托伊娜 | 最佳欧洲景点',
-  description: '探索波斯托伊娜溶洞，这座欧洲第二大溶洞以独特的地下景观和可乘坐小列车游览的特色闻名，是喀斯特地貌的完美典范。',
+  title: '波斯托伊纳溶洞 Postojna Cave｜乘小火车潜入地心，探访“龙之宝库”与神奇洞螈 - 最佳欧洲景点',
+  description: '朋友，想象一下，你站在一个毫不起眼的石灰岩山体入口前，湿润的凉风从黑暗中阵阵涌出，带着一股浓重的、属于大地深处的泥土与矿物质的气息。接着，你坐上了一列看起来有些复古的敞篷小火车，随着一声汽笛般的鸣响（其实是电机声），它载着你猛地扎进一片彻底的漆黑。车轮在窄轨上发出规律的哐当声，凉爽的风扑在脸上，隧道',
 }
 
 export default function PostojnaCavePage() {
@@ -15,334 +15,223 @@ export default function PostojnaCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
-            { label: '波斯托伊娜溶洞', href: '/attractions/postojna-cave' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '波斯托伊纳溶洞', href: '/attractions/postojna-cave' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">波斯托伊娜溶洞・Postojna Cave・斯洛文尼亚・波斯托伊娜</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`波斯托伊纳溶洞・Postojna Cave・斯洛文尼亚・波斯托伊纳镇，内卡尼奥拉地区`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            波斯托伊娜溶洞是欧洲第二大溶洞，1818年被正式发现并对外开放，是世界上最奇特的地下溶洞之一。
+            {`朋友，想象一下，你站在一个毫不起眼的石灰岩山体入口前，湿润的凉风从黑暗中阵阵涌出，带着一股浓重的、属于大地深处的泥土与矿物质的气息。接着，你坐上了一列看起来有些复古的敞篷小火车，随着一声汽笛般的鸣响（其实是电机声），它载着你猛地扎进一片彻底的漆黑。车轮在窄轨上发出规律的哐当声，凉爽的风扑在脸上，隧道壁在微弱灯光下飞速后退，你感觉自己正被这小小的铁龙驮着，一路俯冲进地球的心脏。这种开场，与其说是游览，不如说是一场充满仪式感的地心探险启程礼。
+大约五分钟车程后，火车停下，你双脚真正踏上了洞内的步行道。温暖瞬间被恒久的13摄氏度清凉取代，空气湿度接近饱和，你能感觉到皮肤上的细微变化。首先震撼你的不是某个具体的石笋，而是整个空间的尺度。头灯和精心布置的景观照明逐渐揭示出一个超现实的世界：高达数十米的穹顶仿佛哥特式大教堂的殿宇，却是由流水和时间无声构筑。巨大的石灰华柱像沉默的巨人支撑着天地，而那些细如发丝的钟乳石又从穹顶垂下，在水滴的末端闪烁着晶莹的光。寂静是这里的主旋律，只有永不疲倦的水滴声，从四面八方传来，嘀嗒，嘀嗒，像一座巨型地质时钟的秒针，告诉你这里的时间是以世纪为单位流逝的。
+这个溶洞对于斯洛文尼亚人而言，远不止一个旅游景点。它是他们童年学校郊游的必去之地，是家族相册里代代相传的背景板，更是他们民族骄傲的一部分。你会在导游的口中听到他们亲切地称这里为“巨龙的地窖”，而那个粉红色、像小蜥蜴一样的洞螈，则被爱称为“人鱼”。当地人深知，这黑暗的地下世界，藏着关于这片土地最古老、最坚韧的生命故事。它的魅力，在于那种极致的对比：一方面是人力打造的、高效的小火车和步道，让你能舒适地深入险境；另一方面，则是大自然绝对的主导权，是那种亘古不变的生长与寂静，让你瞬间忘却地面上的所有喧嚣，心生敬畏。`}
           </p>
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              波斯托伊娜溶洞是欧洲第二大溶洞，1818年被正式发现并对外开放，是世界上最奇特的地下溶洞之一。溶洞全长27公里，深入地下达200米，由皮夫卡河地下暗流历经300万年溶蚀石灰岩地层形成，洞内套洞、纵横交错，钟乳石与石笋千姿百态，皮夫卡河时隐时现，兼具自然地质的鬼斧神工与人文探索的厚重底蕴，是喀斯特地貌的完美典范和可持续旅游的标杆。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朋友，想象一下，你站在一个毫不起眼的石灰岩山体入口前，湿润的凉风从黑暗中阵阵涌出，带着一股浓重的、属于大地深处的泥土与矿物质的气息。接着，你坐上了一列看起来有些复古的敞篷小火车，随着一声汽笛般的鸣响（其实是电机声），它载着你猛地扎进一片彻底的漆黑。车轮在窄轨上发出规律的哐当声，凉爽的风扑在脸上，隧道壁在微弱灯光下飞速后退，你感觉自己正被这小小的铁龙驮着，一路俯冲进地球的心脏。这种开场，与其说是游览，不如说是一场充满仪式感的地心探险启程礼。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "大约五分钟车程后，火车停下，你双脚真正踏上了洞内的步行道。温暖瞬间被恒久的13摄氏度清凉取代，空气湿度接近饱和，你能感觉到皮肤上的细微变化。首先震撼你的不是某个具体的石笋，而是整个空间的尺度。头灯和精心布置的景观照明逐渐揭示出一个超现实的世界：高达数十米的穹顶仿佛哥特式大教堂的殿宇，却是由流水和时间无声构筑。巨大的石灰华柱像沉默的巨人支撑着天地，而那些细如发丝的钟乳石又从穹顶垂下，在水滴的末端闪烁着晶莹的光。寂静是这里的主旋律，只有永不疲倦的水滴声，从四面八方传来，嘀嗒，嘀嗒，像一座巨型地质时钟的秒针，告诉你这里的时间是以世纪为单位流逝的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个溶洞对于斯洛文尼亚人而言，远不止一个旅游景点。它是他们童年学校郊游的必去之地，是家族相册里代代相传的背景板，更是他们民族骄傲的一部分。你会在导游的口中听到他们亲切地称这里为“巨龙的地窖”，而那个粉红色、像小蜥蜴一样的洞螈，则被爱称为“人鱼”。当地人深知，这黑暗的地下世界，藏着关于这片土地最古老、最坚韧的生命故事。它的魅力，在于那种极致的对比：一方面是人力打造的、高效的小火车和步道，让你能舒适地深入险境；另一方面，则是大自然绝对的主导权，是那种亘古不变的生长与寂静，让你瞬间忘却地面上的所有喧嚣，心生敬畏。" }} />
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="波斯托伊娜溶洞" />
-                <InfoRow label="英文名称" value="Postojna Cave" />
-                <InfoRow label="全称" value="Postojna Cave Park" />
-                <InfoRow label="国家" value="斯洛文尼亚（Slovenia）" />
-                <InfoRow label="城市" value="波斯托伊娜（Postojna）" />
+                <InfoRow label="中文名称" value={`波斯托伊纳溶洞`} />
+                <InfoRow label="英文名称" value={`Postojna Cave`} />
+                <InfoRow label="正式名称" value={`Postojna Cave`} />
+                <InfoRow label="国家" value={`斯洛文尼亚`} />
+                <InfoRow label="城市" value={`波斯托伊纳镇，内卡尼奥拉地区`} />
               </div>
+              
               <div className="space-y-4">
-                <InfoRow label="所属区域" value="喀斯特高原核心地带" />
-                <InfoRow label="溶洞规模" value="全长27公里，深入地下200米" />
-                <InfoRow label="形成年代" value="历经300万年地质演变" />
-                <InfoRow label="开放历史" value="1818年正式对外开放" />
+                <InfoRow label="历史地位" value={`斯洛文尼亚喀斯特地貌的皇冠明珠，也是世界上最早对游客开放、游览设施最完善的溶洞之一，在洞穴生物学史上具有里程碑意义。`} />
+                <InfoRow label="建筑特色" value={`大自然用两百万年时间雕琢的、拥有超过24公里复杂通道的地下宫殿，其宏大与精巧并存的人工-自然结合游览系统本身就是一大奇观。`} />
+                <InfoRow label="建筑风格" value={`典型的喀斯特溶洞风格，集雄伟厅堂、蜿蜒廊道、静谧地下河与千姿百态的滴水沉积物于一体。`} />
+                <InfoRow label="文化价值" value={`不仅是地质学教科书，更是斯洛文尼亚民族自然认同的核心符号，洞中独有的“人鱼”洞螈被视为国家的自然宝藏与神秘传说源泉。`} />
               </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-blue-900 mb-3">详细门票信息</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">成人门票：</span>约25欧元/人</p>
-                <p><span className="font-medium">学生票：</span>12.5欧元/人（凭有效证件）</p>
-                <p><span className="font-medium">儿童政策：</span>6岁以下儿童免费，6-15岁约15欧元/人</p>
-                <p><span className="font-medium">家庭套票：</span>2大2小约60欧元</p>
-                <p><span className="font-medium">专业导览：</span>额外收费约12欧元/人（含英文讲解）</p>
-              </div>
-            </div>
-            <div className="bg-green-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-green-900 mb-3">开放时间</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">4-5月：</span>9:00-17:00（16:00停止入园）</p>
-                <p><span className="font-medium">6-8月：</span>8:00-18:30（17:30停止入园）</p>
-                <p><span className="font-medium">9月：</span>9:00-17:00（16:00停止入园）</p>
-                <p><span className="font-medium">10月：</span>9:30-16:30（15:30停止入园）</p>
-                <p><span className="font-medium">11月-次年3月：</span>10:00-15:30（14:30停止入园）</p>
-              </div>
-            </div>
-            <div className="bg-yellow-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-yellow-900 mb-3">交通指南</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">卢布尔雅那机场：</span>→溶洞（1小时车程）</p>
-                <p><span className="font-medium">公共交通：</span>卢布尔雅那→波斯托伊娜（1.5小时大巴，10欧元/人）</p>
-                <p><span className="font-medium">克罗地亚里耶卡：</span>→波斯托伊娜（1.5小时车程）</p>
-                <p><span className="font-medium">市内交通：</span>市区→溶洞（出租车5分钟，约5欧元）</p>
-                <p><span className="font-medium">停车场：</span>溶洞周边专用停车场，收费约6欧元/天</p>
-              </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全年开放，但开放时间随季节变化。通常夏季（4月至10月）从上午9:00至下午17:00或18:00，最后一班小火车进入时间通常在闭馆前一个半小时；冬季（11月至3月）时间缩短，通常从上午10:00至下午15:00或16:00。具体时间每月可能微调，重大节日（如圣诞节、元旦）可能关闭或特殊安排，出行前务必查阅官网最新公告。`} />
+              <InfoRow label="门票价格" value={`成人票价格约27.9欧元起。有多种套票选择，例如与普雷德雅玛城堡联票。优惠票适用于学生（需持有效证件）、儿童（5-15岁）和老人。5岁以下儿童免费。门票已包含地下小火车往返和导游讲解（有多种语言可选，英语场次频繁）。建议提前在线购票以锁定入场时间，尤其在7-8月旺季。`} />
+              <InfoRow label="地址" value={`Jamska cesta 30, 6230 Postojna, Slovenia`} />
+              <InfoRow label="交通方式" value={`从卢布尔雅那出发最为方便。自驾：沿A1高速公路向科佩尔方向行驶，在Postojna出口下，跟随棕色旅游指示牌“Postojnska Jama”行驶约5分钟即达，有大型付费停车场。公共交通：从卢布尔雅那中央汽车站乘坐频繁的巴士（如Arriva公司），约50分钟直达溶洞入口停车场旁，车次每小时至少一班。从首都国际机场（LJU）出发，建议先乘机场 shuttle 或出租车到卢布尔雅那汽车站（约30分钟），再转乘上述巴士。火车也可抵达波斯托伊纳镇火车站，但下车后需步行约25分钟或转乘当地出租车。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              波斯托伊娜溶洞的形成历经300万年的地质演变，是喀斯特地貌的典型代表，其地质历史可追溯至远古时期的地壳运动与地下水溶蚀作用，而人类对它的探索与记载，已有近800年的历史，兼具自然奇观与人文底蕴，是全球洞穴旅游可持续发展的典范。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              300万年前，斯洛文尼亚西南部的喀斯特高原地区，由于地壳运动导致石灰岩地层抬升，加之皮夫卡河地下暗流长期的侵蚀与溶蚀作用，石灰岩逐渐被冲刷、溶解，形成了纵横交错的地下溶洞与地下通道，波斯托伊娜溶洞便是这一地质过程的完美产物。溶洞内的钟乳石、石笋、石幔、石帘等景观，是地下水携带的碳酸钙长期沉积形成的，每一寸景观都历经数十万年的积累，形态各异、栩栩如生，有的如利剑直指洞顶，有的如仙女翩翩起舞，有的如珊瑚晶莹剔透，构成了地下世界的奇幻画卷。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              人类对波斯托伊娜溶洞的记载最早可追溯至13世纪，当时当地居民偶然发现了溶洞近端的大厅，通道岩壁上留存的古老签名，最早可追溯至这一时期。但真正让溶洞被世界知晓的，是1818年的重大发现——当年，溶洞工作者卢卡·契奇在为迎接奥地利国王来访做准备时，攀爬上陡立的石墙，意外发现了溶洞深处的"崭新世界"，他惊呼"这是一个崭新的世界，这就是天堂！"，随后这一地下奇观正式走进公众视野。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              1816年，奥地利国王及王后曾到访波斯托伊娜溶洞，成为溶洞接待的第一批皇室贵客；1818年，溶洞正式对游客开放，成为欧洲最早开放的溶洞旅游景点之一，此后近200年间，已有近4000万人慕名前往参观。自19世纪以来，波斯托伊娜溶洞一直是喀斯特现象的重要研究基地，无数地质学家在这里开展研究，揭示了喀斯特地貌的形成规律与地下水的运动特点，为全球喀斯特地貌研究提供了重要参考。
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              20世纪以来，当地政府开始对波斯托伊娜溶洞进行系统性的保护与修缮，坚持"保护优先、合理开发"的原则，严格控制游客数量，避免人为活动对溶洞景观造成破坏，同时完善周边旅游配套设施，提升游客体验。如今，波斯托伊娜溶洞已成为世界范围内洞穴旅游的典范，曾获得世界旅游记者及作家联合会授予的金苹果奖，嘉奖其对自然及文化遗产的出色保护，以及在旅游开发中有机融入可持续发展原则。如今，它不仅是斯洛文尼亚的旅游名片，更是全球地质科普、自然教育的重要基地，每年吸引着数百万游客前来参观、探索，感受自然的鬼斧神工与人文历史的厚重。
-            </p>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从很久、很久以前说起，远在人类出现之前。大约两百万年前，皮夫卡河开始悄然溶解这一带厚厚的石灰岩层，水滴石穿的力量被放大到地质尺度，便成就了今天我们看到的宏伟空洞。但真正的人类篇章，则开启于1818年。那一年，当地一名叫卢卡·契奇的普通人，在为即将来访的奥皇弗朗茨一世准备照明设备时，意外凿开了一处新的洞口。好奇驱使下，他举着火把深入，成为了第一个窥见“音乐厅”等巨大洞室奇观的现代人。他的发现，就像打开了阿里巴巴的宝藏之门，只不过门后不是金银，而是更令人惊叹的自然艺术珍藏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二年，溶洞就正式向公众开放了，这使它成为世界上旅游业最早的“网红”之一。早期的探险家们可没有小火车坐，他们得穿着正装，举着油灯或火把，在湿滑的岩石上深一脚浅一脚地摸索。可以想象，摇曳火光中那些奇形怪状的影子，会给维多利亚时代的游客带来何等刺激的哥特式想象。正因如此，洞里最大的洞室被命名为“音乐厅”，因为这里出色的音响效果，确实在19世纪举办过真正的音乐会。想想看，绅士淑女们坐在地下百米深处，聆听莫扎特或施特劳斯，烛光映照着万千钟乳石，那是何等的魔幻场景。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，洞中最传奇的居民，在人类发现洞穴几十年后才正式“亮相”。那是一种苍白、盲眼、终生保持幼体形态的两栖动物——洞螈。直到19世纪末，科学家才系统研究它，并为之震惊。这个小家伙可以不吃不喝存活数年，寿命长达百年，对环境污染极度敏感，是名副其实的“活化石”。它的发现，让波斯托伊纳溶洞从观光胜地一跃成为生物学圣地。它像一位来自黑暗纪元的使者，向人类揭示了生命在极端环境下的生存奇迹。斯洛文尼亚人将它印在货币上，视若国宝，而关于它的神秘传说（比如它是龙的幼崽）也一直流传。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "溶洞的命运也和地上世界的动荡紧密交织。两次世界大战期间，它曾扮演过至关重要的角色。珍贵的艺术品和档案曾被秘密转移至此保存，躲避战火。更有戏剧性的是，在二战末期，纳粹德军曾将缴获的将近一千桶航空燃油隐藏在这错综复杂的地下迷宫中，企图留给未来的抵抗力量，这批燃油直到1997年才被意外发现并安全移除。和平年代，它回归本职，并不断升级游览设施。那标志性的地下小火车在1872年还是马拉的，后来才改为电力，轨道不断延伸，让更多普通人得以安全地领略地心奇观。今天，它静静地位于斯洛文尼亚西南部，像一个深邃而博大的自然博物馆，继续用它那缓慢生长的石笋和静静游弋的洞螈，讲述着关于时间、耐心与生命力的永恒故事。" }} />
+            </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">经典游览路线</h4>
-                <p className="text-gray-700 mb-4">全程为"小列车+步行"相结合，难度适中，建议安排2-2.5小时</p>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">起点：波斯托伊娜溶洞主入口</h5>
-                    <p>设有游客中心，可领取导览手册、寄存行李，周边有休息区、餐厅与纪念品商店</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第一站：地质科普展厅（游客中心内侧）</h5>
-                    <p>免费开放，通过图文、模型、实物展示溶洞地质成因、形成过程、动植物资源，参观约15分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第二站：小列车乘坐点</h5>
-                    <p>乘坐洞内小列车进入溶洞深处，车程约3.7公里，沿途观赏奇特景观，全程有导览讲解，约15分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第三站：音乐厅洞</h5>
-                    <p>小列车第一站停靠，溶洞内最宏伟洞厅之一，可容纳数千人，洞顶悬挂巨大钟乳石，参观约20分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第四站：漂亮洞</h5>
-                    <p>紧邻音乐厅洞，洞内钟乳石与石笋色彩绚丽，因含不同矿物质呈现白、黄、粉等多种颜色，参观约15分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第五站：意大利面条厅</h5>
-                    <p>因洞内钟乳石形态细长缠绕，形似意大利面条而得名，是溶洞内最具趣味性景观之一，参观约10分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第六站：皮夫卡河地下河段</h5>
-                    <p>沿步行栈道前行，可看到皮夫卡河地下河段，河水清澈见底，与周边钟乳石景观相互映衬，参观约15分钟</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第七站：小列车返程点</h5>
-                    <p>步行游览结束后，乘坐小列车返回溶洞入口区域，车程约15分钟，沿途可再次欣赏洞内景观</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">终点：游客中心</h5>
-                    <p>从列车停靠点步行5分钟返回游客中心，可购买纪念品、在餐厅补充能量，也可在休息区休息</p>
-                  </div>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的波斯托伊纳溶洞之旅，建议选择上午9点至10点之间抵达。这个时间既能避开大批一日游旅行团（他们通常10点半后涌入），又能保证有充足的日光（参观结束后出来仍是白天）。整个游览过程约1.5小时，其中小火车往返约15分钟，步行参观约5公里，在导游带领下进行，节奏舒缓但内容充实。游览是单向的，所以务必跟上自己语言组的导游。这样安排的好处是，你能在相对清净的环境中感受洞穴最初的静谧，拍照时也更容易找到没有旁人入镜的绝佳角度。游览结束后，别忘了去出口附近的“活化石”展览馆，那里可以看到真实的洞螈。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`洞内恒温13度且湿度极高，无论地面天气多热，都必须带一件保暖外套或抓绒衣，并穿防滑舒适的徒步鞋。
+紧跟你的导游，不要擅自离开指定步道，不仅危险，而且可能干扰脆弱的洞穴生态系统。
+洞内禁止触摸任何岩层，因为手指上的油脂会阻碍钟乳石继续生长，做一个文明的“地心访客”。`}
                 </div>
               </div>
               
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">温馨提示</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 溶洞内常年气温保持在12-15℃，无论季节如何，都需携带薄外套</li>
-                  <li>• 洞内地面潮湿、部分路段较滑，建议穿舒适的防滑步行鞋</li>
-                  <li>• 洞内光线较暗，部分区域需借助灯光观赏，请勿随意触摸钟乳石、石笋等景观</li>
-                  <li>• 禁止大声喧哗，保持洞内静谧，尊重其他游客</li>
-                  <li>• 小列车有固定发车时间，可提前查看发车时刻表，避免等待过久</li>
-                </ul>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在入口大厅存好厚外套后，怀揣着探险的心情登上那列明黄色的小火车，握紧扶手，感受它启动后带着你呼啸冲入山体腹地的刺激瞬间。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`火车在“大山洞”站停下，跟随英语导游的脚步踏上湿润的步道，第一个震撼点便是抬头仰望那高达四十多米、被灯光打亮宛如外星宫殿的“音乐厅”穹顶。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着蜿蜒的步道前行，你会路过“辉煌大厅”，仔细看灯光下那些被命名为“意大利面条”、“棕榈树”和“通心粉”的钟乳石群，感受自然造物的幽默与精巧。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在行程中段，你会跨过一座小桥，桥下是幽暗的地下河皮夫卡河的一段，静静倾听那潺潺水声，它是这个洞穴系统的真正雕刻师。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`行程的高潮之一是来到“斯帕加大厅”，驻足观赏那尊被称为“布里甘特”的巨型石笋，它是溶洞的标志性符号，像一座华丽的天然纪念碑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`继续深入，你会看到薄如蝉翼、垂落数十米的“新娘面纱”石幔，在特意设置的侧光下呈现出半透明的橙红色，宛如静止的瀑布。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在接近尾声的“冬季大厅”，感受这里比其他地方更低的温度和那些洁白如雪、仿佛被冰封的钟乳石，完成一场从宏伟到幽静的情绪过渡。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后在“卡尔克大厅”再次登上返程的小火车，回望身后渐渐远去的魔幻世界，让刚才所见的一切在脑海中慢慢沉淀。`}</p>
+                </div>
               </div>
             </div>
           </Section>
 
           <Section title="5. 拍照机位">
-            <div className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">音乐厅洞全景机位</h4>
-                  <p className="text-gray-700 text-sm">拍摄溶洞宏伟气势核心机位，可完整拍摄洞厅全貌，巨大钟乳石悬挂于洞顶。最佳时间：上午10:00-11:30，建议使用广角镜头</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">漂亮洞彩色钟乳石机位</h4>
-                  <p className="text-gray-700 text-sm">拍摄绚丽景观核心机位，钟乳石因含不同矿物质呈现白、黄、粉等多种颜色。最佳时间：上午11:00-12:00，关闭闪光灯避免破坏质感</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">意大利面条厅特色机位</h4>
-                  <p className="text-gray-700 text-sm">拍摄趣味性照片最佳机位，细长缠绕钟乳石形似意大利面条，形态独特极具趣味性。最佳时间：中午12:00-13:00，建议俯拍或平拍角度</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">地下河段水景机位</h4>
-                  <p className="text-gray-700 text-sm">拍摄水景与溶洞结合核心机位，皮夫卡河地下河段清澈见底，与周边钟乳石景观相互映衬。最佳时间：午后14:00-15:00，可使用慢门模式</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">小列车沿途机位</h4>
-                  <p className="text-gray-700 text-sm">拍摄溶洞动态景观独特机位，可拍摄沿途洞厅、钟乳石与隧道，画面具有纵深感。最佳时间：清晨刚开园时，使用手机防抖功能</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">溶洞入口通道机位</h4>
-                  <p className="text-gray-700 text-sm">拍摄氛围感大片绝佳机位，狭窄通道、斑驳岩壁、柔和灯光，营造静谧神秘氛围。最佳时间：清晨刚开园或傍晚闭园前</p>
-                </div>
-              </div>
-              
-              <div className="bg-purple-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-purple-900 mb-3">拍照小贴士</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 溶洞内光线较暗，建议携带手机三脚架，避免拍摄画面模糊</li>
-                  <li>• 拍摄钟乳石、水景时，可关闭闪光灯，使用自然光与洞内灯光结合，避免强光破坏景观自然质感</li>
-                  <li>• 建议穿着纯色、简约风格衣物，如白色、米白色、黑色，避免过于花哨，与溶洞景观形成呼应</li>
-                  <li>• 拍摄洞厅全景时，可使用广角镜头，拍摄细节时可使用长焦镜头，突出钟乳石纹理与质感</li>
-                  <li>• 小列车行驶过程中请勿随意站立或伸出身体，确保拍摄安全</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="6. 附近景点">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">步行可达景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">波斯托伊娜溶洞公园</span>
-                      <p className="text-sm text-gray-600">距离溶洞入口约1公里，步行15分钟。遍布喀斯特地貌景观、茂密森林与清澈溪流，免费开放</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="space-y-3">
-                <h4 className="font-semibold text-gray-900">短途出行景点</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">波斯托伊娜老城区</span>
-                      <p className="text-sm text-gray-600">距离溶洞约3公里，出租车5分钟。保留斯洛文尼亚传统建筑风貌，石板街巷蜿蜒曲折</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">皮夫卡河峡谷</span>
-                      <p className="text-sm text-gray-600">距离溶洞约10公里，自驾15分钟。皮夫卡河穿流形成的自然峡谷，两侧岩壁陡峭，植被茂密</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">卢布尔雅那城堡</span>
-                      <p className="text-sm text-gray-600">距离溶洞约60公里，大巴1.5小时，10欧元/人。斯洛文尼亚首都标志性建筑，始建于11世纪</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
-                    <div>
-                      <span className="font-medium">喀斯特高原徒步路线</span>
-                      <p className="text-sm text-gray-600">距离溶洞约5公里，全程约6公里，难度适中。沿途可欣赏喀斯特洼地、溶洞出入口、天然石拱门等景观</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="7. 住宿推荐">
-            <div className="space-y-6">
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">住宿位置选择</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">溶洞附近</h5>
-                    <p>距离核心景点最近，步行或打车几分钟即可抵达，周边多为乡村民宿和精品乡村酒店，氛围宁静，可感受喀斯特乡村静谧之美</p>
-                  </div>
-                  <div className="border-l-4 border-yellow-400 pl-4">
-                    <h5 className="font-medium">波斯托伊娜老城区</h5>
-                    <p>住宿性价比高，距离溶洞约3公里，出行便利，周边配套完善，餐厅、商铺、超市齐全，可感受当地烟火气</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">住宿类型推荐</h4>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">特色民宿</h5>
-                    <p>溶洞附近与波斯托伊娜老城区有很多小众民宿，多由当地传统民居改造，装修融合喀斯特元素与斯洛文尼亚传统风格，35-75欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">自助公寓</h5>
-                    <p>设施齐全，适合家庭或多人出行，30-65欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">精品乡村酒店</h5>
-                    <p>溶洞周边有多家精品乡村酒店，环境优美，配套完善，部分设有观景露台，可欣赏喀斯特风光，提供早餐服务，75-125欧元/晚</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">经济型酒店</h5>
-                    <p>波斯托伊娜老城区有多家性价比高的酒店，设施标准化，干净整洁，提供基础住宿服务，25-40欧元/晚</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-green-900 mb-3">预订注意事项</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 波斯托伊娜溶洞旅游旺季为5-9月，尤其是7-8月，游客较多，建议提前1-2个月预订</li>
-                  <li>• 选择可免费取消的房源，以便灵活调整行程</li>
-                  <li>• 自驾出行需确认住宿周边停车场位置与收费标准（6-8欧元/天）</li>
-                  <li>• 部分民宿位于乡村，无电梯，携带大件行李的游客可选择有行李搬运服务的住宿</li>
-                  <li>• 春秋季（4-5月、9-10月）气候最宜人，游客较少，住宿价格适中，是最佳时节</li>
-                </ul>
-              </div>
-            </div>
-          </Section>
-
-          <Section title="8. 实用贴士">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-900 mb-2">最佳游览时间</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 4-5月、9-10月：气候宜人，游客较少，住宿价格适中</li>
-                    <li>• 5-9月：旅游旺季，活动丰富但游客较多</li>
-                    <li>• 11-次年2月：旅游淡季，游客稀少，部分景点关闭</li>
-                    <li>• 上午10:00-11:30：游客较少，光线柔和，便于拍摄</li>
-                  </ul>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`音乐厅全景`}</h4>
+                  <p className="text-sm text-gray-700">{`在步道起始的观景平台，使用广角镜头，将辉煌的穹顶、巨大的石柱和下方蜿蜒的步道一并纳入构图，等待一束顶部灯光扫过时按下快门。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`新娘面纱特写`}</h4>
+                  <p className="text-sm text-gray-700">{`站在设置于石幔侧面的观景台，利用现场的侧光，对准那一片半透明的橙红色钙华帷幕，对焦在最细腻的纹理上，拍出丝绸般的质感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`布里甘特石笋仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`走到这尊标志性大石笋的底部，将相机贴近地面向上仰拍，利用现场的顶光勾勒出它雄伟的轮廓，营造出压迫性的神圣感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`皮夫卡河小桥倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`在跨越地下河的小桥上，放低机身，拍摄桥下漆黑水域中灯光反射出的石壁倒影，营造出一种深邃、静谧而神秘的氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`冬季大厅的洁白世界`}</h4>
+                  <p className="text-sm text-gray-700">{`在这个洁白的洞室，寻找一处密集的雪白钟乳石群，利用它们自身的颜色作为补光，拍摄高调、纯净如同冰雪王国般的画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`洞内禁止使用闪光灯和三脚架（除非有特殊许可），高ISO和大光圈镜头是必备。大部分区域光线昏暗且为彩色灯光，建议使用RAW格式拍摄以便后期调整白平衡。请始终尊重环境，绝对不要为了拍照而攀爬或触碰岩层。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`溶洞之畔的便捷选择`}</h4>
+                  <p className="text-sm text-blue-800">{`Postojna Cave Hotel 就位于溶洞入口步行两分钟处，由现代风格建筑与老酒店部分结合，最大的好处是你可以成为第一批进入洞穴的游客，完美避开人潮。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老城中心的温馨客栈`}</h4>
+                  <p className="text-sm text-green-800">{`入住波斯托伊纳镇中心由家族经营的老式客栈，房间铺着实木地板，早晨被教堂钟声唤醒，下楼就能在广场边的咖啡馆享用一顿地道斯洛文尼亚早餐。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`山野间的宁静民宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择距离溶洞车程约10分钟的乡村民宿，它们通常坐落在宁静的山谷中，拥有开阔的草地和花园，夜晚可以看到璀璨的星河，体验真正的喀斯特乡村生活。`}</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">参观注意事项</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 溶洞内常年气温保持在12-15℃，无论季节如何，都需携带薄外套</li>
-                    <li>• 洞内地面潮湿、部分路段较滑，建议穿舒适的防滑步行鞋</li>
-                    <li>• 请勿随意触摸钟乳石、石笋等景观，避免造成损坏</li>
-                    <li>• 禁止大声喧哗，保持洞内静谧，尊重其他游客</li>
-                  </ul>
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端历史酒店体验`}</h4>
+                  <p className="text-sm text-purple-800">{`驱车半小时前往附近的普拉纳托尔城堡酒店，住在由15世纪城堡改造的奢华客房中，享受 historical charm 与现代舒适的结合，并以此为大本营探索整个地区。`}</p>
                 </div>
               </div>
-              <div className="space-y-4">
-                <div className="bg-indigo-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-indigo-900 mb-2">特色体验</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 乘坐洞内小列车，体验独特的地下交通方式</li>
-                    <li>• 探索音乐厅洞，感受可容纳数千人的宏伟洞厅</li>
-                    <li>• 欣赏漂亮洞彩色钟乳石，观赏白、黄、粉等多种颜色的绚丽景观</li>
-                    <li>• 参观意大利面条厅，观赏形似意大利面条的独特钟乳石</li>
-                  </ul>
-                </div>
-                <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-900 mb-2">实用信息</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 当地货币：欧元，部分地方支持斯洛文尼亚货币（1欧元≈239斯洛文尼亚托拉尔）</li>
-                    <li>• 语言：斯洛文尼亚语，但旅游区英语基本通行</li>
-                    <li>• 电压：230V，插头为Type F型</li>
-                    <li>• 紧急电话：112（欧洲统一紧急电话）</li>
-                  </ul>
-                </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（尤其是7、8月）的住宿非常紧俏，务必提前数月预订。小镇及周边治安极好，夜间散步非常安全。如果选择乡村住宿，建议一定租车，否则交通会不太方便。" }} />
               </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从洞穴出来，重新站在阳光下的那一刻，有种恍如隔世的感觉。皮肤上还残留着地下的凉意，耳朵里似乎还回响着那永恒的水滴声，但眼睛却被真实的阳光晃得有些睁不开。这种强烈的感官切换，让我久久回不过神。波斯托伊纳溶洞给我的，不仅仅是一串壮观的地理名词和一张张照片，而是一种关于时间和尺度的、近乎哲学层面的震撼。在地面上，我们计较着分秒，规划着日程；而在地下，那里的一座石笋长高一厘米，可能需要一千年。它像一个巨大的、缓慢呼吸的生命体，用它自己的节奏运行着，全然不在乎人类的喧嚣。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切都追求即时、快速和效率的时代，波斯托伊纳的存在本身就是一种温柔的反抗。它提醒我们，世间仍有需要以世纪为单位来度量的生长，仍有值得保持敬畏的、沉默而伟大的力量。那个在黑暗中活了上百年的小洞螈，那些依然在悄然生长的钟乳石，它们共同守护着一个秘密：最动人的奇迹，往往需要最深的耐心和最漫长的等待。所以，每一位渴望深度体验的旅人，都应该来一次这里。这不仅仅是一次地心探险，更是一次走进“深层时间”的冥想。它会拓宽你对这个世界的感知维度，让你在回到地面后，看待阳光、雨水甚至脚下石头的眼光，都会变得有些不一样了。这，便是波斯托伊纳赠予每一位访客的、无形的、却足以珍藏一生的礼物。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/idrija-guide" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    伊
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伊德里亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Idrija</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/vintgar-gorge-slovenia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    温
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">温特加峡谷</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vintgar Gorge</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/predjama-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普列加马城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Predjama Castle</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </Section>
         </div>

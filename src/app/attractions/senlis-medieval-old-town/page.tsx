@@ -15,7 +15,7 @@ export default function SenlisMedievalOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '桑利斯中世纪老城', href: '/attractions/senlis-medieval-old-town' },
           ]}
         />

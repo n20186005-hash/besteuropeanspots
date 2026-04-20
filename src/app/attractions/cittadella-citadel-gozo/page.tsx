@@ -15,7 +15,7 @@ export default function CittadellaCitadelGozoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '维多利亚城堡（戈佐岛城堡）', href: '/attractions/cittadella-citadel-gozo' },
           ]}
         />

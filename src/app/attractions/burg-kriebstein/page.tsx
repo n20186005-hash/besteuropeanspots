@@ -15,7 +15,7 @@ export default function BurgKriebsteinPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克里布斯蒂恩城堡', href: '/attractions/burg-kriebstein' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function MarburgOldTownCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马尔堡老城与伯爵城堡', href: '/attractions/marburg-old-town-castle' },
           ]}
         />

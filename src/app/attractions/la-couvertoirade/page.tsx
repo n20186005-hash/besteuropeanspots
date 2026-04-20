@@ -15,7 +15,7 @@ export default function LaCouvertoiradePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '拉库韦尔图瓦拉德', href: '/attractions/la-couvertoirade' },
           ]}
         />

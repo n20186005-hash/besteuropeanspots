@@ -15,7 +15,7 @@ export default function BarcelosPortugalRoosterMarketPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '巴塞卢什', href: '/attractions/barcelos-portugal-rooster-market' },
           ]}
         />

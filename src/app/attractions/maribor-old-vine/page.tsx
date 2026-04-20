@@ -15,7 +15,7 @@ export default function MariborOldVinePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马里博尔老藤屋', href: '/attractions/maribor-old-vine' },
           ]}
         />

@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '马耳他蓝洞 Blue Grotto｜探访地中海蓝宝石，在光影交响的蔚蓝洞穴中乘船漫游 - 最佳欧洲景点',
-  description: '车子沿着马耳他南部高地的公路盘旋，窗外的景色从土黄色的干燥农田陡然切换成一片无垠的、蓝到不真实的绸缎——那就是地中海。而当你在观景台停好车，走到悬崖边缘的那一刻，呼吸会不由自主地屏住。脚下几十米处，海水不是一种蓝色，而是交响乐般的蓝：近岸是清澈见底的绿松石色，随着海床陡然下降，颜色层层递进为蔚蓝、钴...',
+  description: '车子沿着马耳他南部高地的公路盘旋，窗外的景色从土黄色的干燥农田陡然切换成一片无垠的、蓝到不真实的绸缎——那就是地中海。而当你在观景台停好车，走到悬崖边缘的那一刻，呼吸会不由自主地屏住。脚下几十米处，海水不是一种蓝色，而是交响乐般的蓝：近岸是清澈见底的绿松石色，随着海床陡然下降，颜色层层递进为蔚蓝、钴',
 }
 
 export default function BlueGrottoMaltaPage() {
@@ -15,7 +15,7 @@ export default function BlueGrottoMaltaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马耳他蓝洞', href: '/attractions/blue-grotto-malta' },
           ]}
         />
@@ -30,10 +30,11 @@ export default function BlueGrottoMaltaPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`车子沿着马耳他南部高地的公路盘旋，窗外的景色从土黄色的干燥农田陡然切换成一片无垠的、蓝到不真实的绸缎——那就是地中海。而当你在观景台停好车，走到悬崖边缘的那一刻，呼吸会不由自主地屏住。脚下几十米处，海水不是一种蓝色，而是交响乐般的蓝：近岸是清澈见底的绿松石色，随着海床陡然下降，颜色层层递进为蔚蓝、钴蓝，直至洞穴深处那神秘而浓郁的靛蓝。风里带着咸腥的海藻味和阳光下炙烤的岩石气息。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`耳边是永不停歇的白噪音：海浪轻柔地拍打岩壁的“哗哗”声，远处悬崖上海鸟的鸣叫，还有下方码头传来的、渔民们用马耳他语招呼游客的模糊声响。那些鲜艳的“鲁佐”小船——船头画着荷鲁斯之眼，色彩斑斓得像儿童玩具——正排着队，一船一船地将兴奋的游客送进那片蔚蓝的入口。这里不是与世隔绝的秘境，它充满了生活的烟火气。当地人开着车来，就为了在观景台边的咖啡店喝一杯，看看这片他们引以为傲的海；渔民世代在此谋生，如今将古老的捕鱼技巧转化为旅游服务，热情里带着海岛人特有的淳朴。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`但蓝洞最摄人心魄的魅力，在于光与水的魔法。这不是一个静止的景点，而是一个随着太阳角度、海水波动而每分钟都在变化的生命体。当正午的阳光以最佳角度射入海蚀洞穴的开口时，海水会吸收红光，只反射出最纯粹的蓝光，同时照亮水下橙色的珊瑚和白色的沙底，整个洞穴内部仿佛一块被点亮的、巨大的蓝宝石。船穿行其间，你会看到光影在岩壁上流动，海水在船舷边泛起钻石般的碎光，那一刻，你会忘记所有地理名词，只感到一种原始的、被自然之美击中的震撼。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子沿着马耳他南部高地的公路盘旋，窗外的景色从土黄色的干燥农田陡然切换成一片无垠的、蓝到不真实的绸缎——那就是地中海。而当你在观景台停好车，走到悬崖边缘的那一刻，呼吸会不由自主地屏住。脚下几十米处，海水不是一种蓝色，而是交响乐般的蓝：近岸是清澈见底的绿松石色，随着海床陡然下降，颜色层层递进为蔚蓝、钴蓝，直至洞穴深处那神秘而浓郁的靛蓝。风里带着咸腥的海藻味和阳光下炙烤的岩石气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "耳边是永不停歇的白噪音：海浪轻柔地拍打岩壁的“哗哗”声，远处悬崖上海鸟的鸣叫，还有下方码头传来的、渔民们用马耳他语招呼游客的模糊声响。那些鲜艳的“鲁佐”小船——船头画着荷鲁斯之眼，色彩斑斓得像儿童玩具——正排着队，一船一船地将兴奋的游客送进那片蔚蓝的入口。这里不是与世隔绝的秘境，它充满了生活的烟火气。当地人开着车来，就为了在观景台边的咖啡店喝一杯，看看这片他们引以为傲的海；渔民世代在此谋生，如今将古老的捕鱼技巧转化为旅游服务，热情里带着海岛人特有的淳朴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但蓝洞最摄人心魄的魅力，在于光与水的魔法。这不是一个静止的景点，而是一个随着太阳角度、海水波动而每分钟都在变化的生命体。当正午的阳光以最佳角度射入海蚀洞穴的开口时，海水会吸收红光，只反射出最纯粹的蓝光，同时照亮水下橙色的珊瑚和白色的沙底，整个洞穴内部仿佛一块被点亮的、巨大的蓝宝石。船穿行其间，你会看到光影在岩壁上流动，海水在船舷边泛起钻石般的碎光，那一刻，你会忘记所有地理名词，只感到一种原始的、被自然之美击中的震撼。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -45,6 +46,7 @@ export default function BlueGrottoMaltaPage() {
                 <InfoRow label="国家" value={`马耳他`} />
                 <InfoRow label="城市" value={`南区（祖里格镇）`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`大自然用数万年时间雕琢出的地质杰作，是马耳他群岛石灰岩海岸线与地中海力量共舞的终极见证。`} />
                 <InfoRow label="建筑特色" value={`无人类建筑，纯粹由海浪冲击、侵蚀和溶解软质石灰岩而形成的系列巨大海蚀拱门、洞穴和岩柱。`} />
@@ -52,6 +54,7 @@ export default function BlueGrottoMaltaPage() {
                 <InfoRow label="文化价值" value={`它不仅是震撼人心的自然奇观，更是马耳他古老渔民文化（Luzzu渔船）和当地人敬畏、利用并珍视海洋资源的鲜活象征。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`乘船游览运营时间通常为每日上午9:00至下午5:00，但完全取决于当日海况。风浪稍大便会立即停止运营，最佳游览期是每年4月至10月，海面最为平静。冬季（11月至次年3月）运营极不稳定，经常关闭。建议行前务必查看当天早晨的天气和海事公告。`} />
               <InfoRow label="门票价格" value={`乘坐传统彩色小渔船（Luzzu）游览的价格约为每人10欧元，游览时长约20-30分钟。无单独门票，费用即船费。儿童通常有优惠（约5-6欧元）。只在上观景台俯瞰不收费。`} />
@@ -62,18 +65,18 @@ export default function BlueGrottoMaltaPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`要讲述蓝洞的故事，我们得把时间轴拉回到数百万年前。那时，这里还没有马耳他群岛，一片温暖的浅海覆盖着现今的地中海区域。海洋生物的尸骸——主要是微小的浮游生物——层层堆积在海底，经过漫长的地质岁月，压实成了柔软的 Globigerina 石灰岩。后来，地球板块的运动将这片海床抬升，露出了水面，形成了马耳他群岛的基本骨架。这看似坚固的岩石，其实在海浪面前，是位温柔的“妥协者”。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`真正的雕刻师，是永不疲倦的地中海海浪，连同雨水和风。它们可不是温柔的艺术家，而是带着盐分的、持之以恒的工匠。海浪日夜冲击着悬崖底部相对脆弱的部分，先是创造出凹坑，然后是海蚀洞。当海浪从两侧同时侵蚀一个海岬，并最终相遇贯通时，一个壮丽的海蚀拱门便诞生了。蓝洞并非单一洞穴，而是一个由多个拱门和洞穴组成的复杂系统，其中最大的拱门跨度超过30米，这需要多少亿次海浪的亲吻与捶打才能完成？这过程缓慢到人类无法察觉，但站在它面前，你能感受到那种名为“地质时间”的磅礴力量。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在人类的历史里，蓝洞长期是渔民与海员的隐秘地标。在机动船出现以前，马耳他的渔民划着小小的“达伊萨”木船，凭借世代相传的知识在这片看似平静实则暗藏礁石的海域谋生。这些洞穴在风暴来临时，是绝佳的避风港；在和平的日子里，则是富含鱼类的地方。那些鲜艳的“鲁佐”渔船，船头永远画着一双“荷鲁斯之眼”，这传统可追溯到腓尼基人时代，渔民相信这双眼睛能保佑他们看清海中的危险，平安归家。蓝洞，是他们日常生活与精神信仰的一部分。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`它被外界广泛认识，其实是在现代旅游兴起之后。随着摄影技术的普及和彩色照片的传播，这片拥有不可思议蓝色的海域迅速抓住了全球旅行者的心。“蓝洞”这个名字本身，就充满了营销的浪漫，让人联想到意大利卡普里岛那个更著名的同名洞穴。但马耳他的蓝洞群更加开阔、阳光更加充足，体验也更具互动性——你可以亲自乘船钻进那些拱门之下。当地社区很快抓住了这个机会，将传统的渔业技能转向旅游业，建立了有序的乘船服务体系，让这个自然奇观得以可持续地向世界展示。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`今天，蓝洞面临着甜蜜的负担——名声。游客纷至沓来，如何保护这片脆弱的海岸生态成了首要课题。政府划定了保护区域，严格规范船只航线，以避免对水下生物和岩壁造成破坏。气候变化导致的海平面上升和更频繁的极端天气，也在无声地改变着雕刻进程。我们现在看到的蓝洞，是瞬间的地质快照，它仍在缓慢地“呼吸”和“生长”。或许几百年后，某个拱门会坍塌，形成新的景观。这使得每一次探访，都成为与一个“活着”的、不断演变的地质奇观的一次独特约会。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要讲述蓝洞的故事，我们得把时间轴拉回到数百万年前。那时，这里还没有马耳他群岛，一片温暖的浅海覆盖着现今的地中海区域。海洋生物的尸骸——主要是微小的浮游生物——层层堆积在海底，经过漫长的地质岁月，压实成了柔软的 Globigerina 石灰岩。后来，地球板块的运动将这片海床抬升，露出了水面，形成了马耳他群岛的基本骨架。这看似坚固的岩石，其实在海浪面前，是位温柔的“妥协者”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的雕刻师，是永不疲倦的地中海海浪，连同雨水和风。它们可不是温柔的艺术家，而是带着盐分的、持之以恒的工匠。海浪日夜冲击着悬崖底部相对脆弱的部分，先是创造出凹坑，然后是海蚀洞。当海浪从两侧同时侵蚀一个海岬，并最终相遇贯通时，一个壮丽的海蚀拱门便诞生了。蓝洞并非单一洞穴，而是一个由多个拱门和洞穴组成的复杂系统，其中最大的拱门跨度超过30米，这需要多少亿次海浪的亲吻与捶打才能完成？这过程缓慢到人类无法察觉，但站在它面前，你能感受到那种名为“地质时间”的磅礴力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在人类的历史里，蓝洞长期是渔民与海员的隐秘地标。在机动船出现以前，马耳他的渔民划着小小的“达伊萨”木船，凭借世代相传的知识在这片看似平静实则暗藏礁石的海域谋生。这些洞穴在风暴来临时，是绝佳的避风港；在和平的日子里，则是富含鱼类的地方。那些鲜艳的“鲁佐”渔船，船头永远画着一双“荷鲁斯之眼”，这传统可追溯到腓尼基人时代，渔民相信这双眼睛能保佑他们看清海中的危险，平安归家。蓝洞，是他们日常生活与精神信仰的一部分。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它被外界广泛认识，其实是在现代旅游兴起之后。随着摄影技术的普及和彩色照片的传播，这片拥有不可思议蓝色的海域迅速抓住了全球旅行者的心。“蓝洞”这个名字本身，就充满了营销的浪漫，让人联想到意大利卡普里岛那个更著名的同名洞穴。但马耳他的蓝洞群更加开阔、阳光更加充足，体验也更具互动性——你可以亲自乘船钻进那些拱门之下。当地社区很快抓住了这个机会，将传统的渔业技能转向旅游业，建立了有序的乘船服务体系，让这个自然奇观得以可持续地向世界展示。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，蓝洞面临着甜蜜的负担——名声。游客纷至沓来，如何保护这片脆弱的海岸生态成了首要课题。政府划定了保护区域，严格规范船只航线，以避免对水下生物和岩壁造成破坏。气候变化导致的海平面上升和更频繁的极端天气，也在无声地改变着雕刻进程。我们现在看到的蓝洞，是瞬间的地质快照，它仍在缓慢地“呼吸”和“生长”。或许几百年后，某个拱门会坍塌，形成新的景观。这使得每一次探访，都成为与一个“活着”的、不断演变的地质奇观的一次独特约会。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`完美的蓝洞之旅必须始于一个晴朗无风的早晨。建议在上午9点前抵达乘船点，这时阳光角度最适合洞内观景，海面通常最为平静如镜，能最大程度欣赏到海水晶莹剔透的质感，并且完美避开10点半后蜂拥而至的旅行团。整体耗时约3-4小时为佳：先乘船进行核心体验（约30分钟），之后上岸，沿着悬崖步道漫步至各个观景台从高处俯瞰（约1小时），最后在悬崖边的家庭餐厅享用一顿以新鲜海鱼为主的午餐，看着大海消化这场视觉盛宴。这样的节奏由动入静，由近及远，能全方位、多层次地感受蓝洞的壮美。`}
                 </p>
@@ -152,8 +155,9 @@ export default function BlueGrottoMaltaPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`渔港生活体验`}</h4>
@@ -173,20 +177,32 @@ export default function BlueGrottoMaltaPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`南部沿海小镇的住宿更具本土风情和性价比，但夜间娱乐选择较少。夏季（6-9月）是马耳他旅游绝对旺季，务必提前数月预订住宿。如果选择自驾，确保住宿地提供停车位，马耳他老城街道停车是出了名的难题。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "南部沿海小镇的住宿更具本土风情和性价比，但夜间娱乐选择较少。夏季（6-9月）是马耳他旅游绝对旺季，务必提前数月预订住宿。如果选择自驾，确保住宿地提供停车位，马耳他老城街道停车是出了名的难题。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开蓝洞许久，闭上眼睛，那片交响乐般的蓝色依然会在脑海里自动播放。它带来的触动，远不止于视网膜的惊艳。那是一种关于“时间”的具象化教育。我们日常纠结于分秒、年月，但在这里，你面对的是以万年为刻度、由海浪执笔的地质史诗。它让你瞬间感到自身的渺小，但这种渺小并不令人沮丧，反而带来一种奇特的释然——眼前的烦恼，在奔涌的海浪和屹立的岩石面前，又算得了什么呢？`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都追求快速、人造和虚拟的时代，蓝洞的存在像一个坚定的反叛者。它不需要任何VR特效，它的美是如此原始、直接且充满力量。它提醒我们，世界上最顶尖的“设计师”是自然与时间，最动人的“奇迹”往往免费，但需要你亲自到场，带着一颗安静的心去感受。为什么它值得你漂洋过海？因为它不仅是一个景点，更是一堂关于耐心、敬畏与纯粹之美的沉浸式大师课。当你乘着小船滑入那片蔚蓝，光斑在头顶摇曳时，你会找回与地球最古老、最深邃脉搏的连接感。这是一生难忘的，属于地中海的蓝色拥抱。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开蓝洞许久，闭上眼睛，那片交响乐般的蓝色依然会在脑海里自动播放。它带来的触动，远不止于视网膜的惊艳。那是一种关于“时间”的具象化教育。我们日常纠结于分秒、年月，但在这里，你面对的是以万年为刻度、由海浪执笔的地质史诗。它让你瞬间感到自身的渺小，但这种渺小并不令人沮丧，反而带来一种奇特的释然——眼前的烦恼，在奔涌的海浪和屹立的岩石面前，又算得了什么呢？" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切都追求快速、人造和虚拟的时代，蓝洞的存在像一个坚定的反叛者。它不需要任何VR特效，它的美是如此原始、直接且充满力量。它提醒我们，世界上最顶尖的“设计师”是自然与时间，最动人的“奇迹”往往免费，但需要你亲自到场，带着一颗安静的心去感受。为什么它值得你漂洋过海？因为它不仅是一个景点，更是一堂关于耐心、敬畏与纯粹之美的沉浸式大师课。当你乘着小船滑入那片蔚蓝，光斑在头顶摇曳时，你会找回与地球最古老、最深邃脉搏的连接感。这是一生难忘的，属于地中海的蓝色拥抱。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mdina-silent-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    姆
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">姆迪纳静寂之城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mdina</p>
+                  </div>
+                </div>
+              </a>
               <a href="/attractions/hagar-qim-temples-malta" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
@@ -198,25 +214,14 @@ export default function BlueGrottoMaltaPage() {
                   </div>
                 </div>
               </a>
-              <a href="/attractions/dingli-cliffs" className="block group">
+              <a href="/attractions/ggantija-temples" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    丁
+                    吉
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">丁利悬崖</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dingli Cliffs</p>
-                  </div>
-                </div>
-              </a>
-              <a href="/attractions/three-cities" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    三
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">三姐妹城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Three Cities</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">吉甘提亚神庙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ġgantija Temples</p>
                   </div>
                 </div>
               </a>

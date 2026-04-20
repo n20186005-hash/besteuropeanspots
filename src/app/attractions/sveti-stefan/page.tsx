@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '圣斯特凡岛・Sveti Stefan・黑山・布德瓦 | 最佳欧洲景点',
-  description: '探索圣斯特凡岛，这座被誉为"亚得里亚海珍珠"的陆连岛，以其蓝白相间的海滨建筑群和独特的人文历史闻名于世。',
+  title: '圣斯特凡岛 Sveti Stefan｜15世纪石屋王国，顶级避世半岛 - 最佳欧洲景点',
+  description: '第一眼看到圣斯特凡岛，你会怀疑自己是不是闯进了一本童话书的插页。从海滨公路的某个弯道一转过来，它就在那里了——不是一座岛，而是一团从翡翠色海水中骤然升起的、密不透风的赭红色“礁石城堡”。一条纤细的、如同月牙般优雅的沙洲，像一条泛白的丝带，将它轻轻系在陆地的臂弯里。车子越开越近，那团“礁石”逐渐分解成',
 }
 
 export default function SvetiStefanPage() {
@@ -15,217 +15,225 @@ export default function SvetiStefanPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '圣斯特凡岛', href: '/attractions/sveti-stefan' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">圣斯特凡岛・Sveti Stefan・黑山・布德瓦</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`圣斯特凡岛・Sveti Stefan・黑山・布德瓦`}</h1>
           <p className="text-lg text-gray-600 mb-6">
-            圣斯特凡岛是黑山亚得里亚海岸的一颗璀璨明珠，总面积约0.015平方公里，外形酷似一只静卧在海中的贝壳。
+            {`第一眼看到圣斯特凡岛，你会怀疑自己是不是闯进了一本童话书的插页。从海滨公路的某个弯道一转过来，它就在那里了——不是一座岛，而是一团从翡翠色海水中骤然升起的、密不透风的赭红色“礁石城堡”。一条纤细的、如同月牙般优雅的沙洲，像一条泛白的丝带，将它轻轻系在陆地的臂弯里。车子越开越近，那团“礁石”逐渐分解成上百栋紧紧依偎的石屋，屋顶是统一的、被阳光晒得温暖的陶土红，墙壁是历经海浪咸风啃噬后斑驳的石头原色。没有一棵树能挤进那些屋顶之间，整个岛屿就是一个完整的、坚不可摧的建筑有机体，安静地漂浮着，散发着一种古老而排外的神秘气息。
+走近连接岛屿的沙洲堤道，脚下的感觉从坚硬的沥青变成了松软的沙砾与贝壳碎屑。海风的气味变得具体起来，是咸的、清的，混合着远处松林的树脂香。你能清晰地听到两种声音：左侧，海浪温和地扑打沙滩的“唰唰”声；右侧，海浪猛烈撞击岛屿底部岩石的“轰隆”声。这条沙洲是人间的通道，却仿佛通向另一个被时间遗忘的国度。走到尽头，一堵高大的石墙和一座沉重的木门挡住了去路，门上钉着巨大的铁扣。这里是结界，门外是好奇张望的游客和售卖明信片的小摊，门内则是极致的私密与宁静。你只能把脸凑近木门的缝隙，窥见里面一条陡峭的、被岁月打磨得光滑如镜的石板路，向上延伸，消失在另一片屋角的阴影里。
+在陆地的这一侧，找一家正对岛屿的悬崖咖啡馆坐下，是理解它魅力的最好方式。点一杯本地的浓黑咖啡，看光线在岛屿的立面上游走。清晨，它是逆光的、藏青色的剪影，轮廓锋利。正午，每一块石头的纹理都在烈日下暴露无遗，红屋顶鲜艳得像要燃烧。到了黄昏，魔法时刻降临，夕阳给整个岛镀上一层流动的、蜂蜜般的金光，那些密密麻麻的窗洞变成了一只只温柔的眼睛。你会看到，岛上的灯次第亮起，不是繁华都市的璀璨，而是疏疏落落、暖黄色的星光，仿佛里面住着的不是游客，而是几个世纪前点灯准备晚餐的渔夫家庭。这一刻，你才真切感受到它的核心魅力：一种极致的、将整个社区浓缩于方寸之间的完整感与逃离感。它不是一个有景点的岛，它本身就是一个巨大的、活着的景点。`}
           </p>
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              圣斯特凡岛是黑山亚得里亚海岸的一颗璀璨明珠，总面积约0.015平方公里，外形酷似一只静卧在海中的贝壳。岛上留存着中世纪风格的石砌建筑群，蓝瓦白墙与蔚蓝大海、翠绿植被相映成趣，如今整座岛屿被安缦酒店接管，兼具历史底蕴与高端度假氛围。这里既有古朴的街巷、古老的教堂，也有澄澈的海滩、绝美的海景，是感受黑山海滨风情、探寻历史遗迹与休闲度假的绝佳去处，承载着千年的人文记忆与山海共生的独特魅力。
-            </p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一眼看到圣斯特凡岛，你会怀疑自己是不是闯进了一本童话书的插页。从海滨公路的某个弯道一转过来，它就在那里了——不是一座岛，而是一团从翡翠色海水中骤然升起的、密不透风的赭红色“礁石城堡”。一条纤细的、如同月牙般优雅的沙洲，像一条泛白的丝带，将它轻轻系在陆地的臂弯里。车子越开越近，那团“礁石”逐渐分解成上百栋紧紧依偎的石屋，屋顶是统一的、被阳光晒得温暖的陶土红，墙壁是历经海浪咸风啃噬后斑驳的石头原色。没有一棵树能挤进那些屋顶之间，整个岛屿就是一个完整的、坚不可摧的建筑有机体，安静地漂浮着，散发着一种古老而排外的神秘气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走近连接岛屿的沙洲堤道，脚下的感觉从坚硬的沥青变成了松软的沙砾与贝壳碎屑。海风的气味变得具体起来，是咸的、清的，混合着远处松林的树脂香。你能清晰地听到两种声音：左侧，海浪温和地扑打沙滩的“唰唰”声；右侧，海浪猛烈撞击岛屿底部岩石的“轰隆”声。这条沙洲是人间的通道，却仿佛通向另一个被时间遗忘的国度。走到尽头，一堵高大的石墙和一座沉重的木门挡住了去路，门上钉着巨大的铁扣。这里是结界，门外是好奇张望的游客和售卖明信片的小摊，门内则是极致的私密与宁静。你只能把脸凑近木门的缝隙，窥见里面一条陡峭的、被岁月打磨得光滑如镜的石板路，向上延伸，消失在另一片屋角的阴影里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在陆地的这一侧，找一家正对岛屿的悬崖咖啡馆坐下，是理解它魅力的最好方式。点一杯本地的浓黑咖啡，看光线在岛屿的立面上游走。清晨，它是逆光的、藏青色的剪影，轮廓锋利。正午，每一块石头的纹理都在烈日下暴露无遗，红屋顶鲜艳得像要燃烧。到了黄昏，魔法时刻降临，夕阳给整个岛镀上一层流动的、蜂蜜般的金光，那些密密麻麻的窗洞变成了一只只温柔的眼睛。你会看到，岛上的灯次第亮起，不是繁华都市的璀璨，而是疏疏落落、暖黄色的星光，仿佛里面住着的不是游客，而是几个世纪前点灯准备晚餐的渔夫家庭。这一刻，你才真切感受到它的核心魅力：一种极致的、将整个社区浓缩于方寸之间的完整感与逃离感。它不是一个有景点的岛，它本身就是一个巨大的、活着的景点。" }} />
           </Section>
 
           <Section title="2. 基本信息">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <InfoRow label="中文名称" value="圣斯特凡岛" />
-                <InfoRow label="英文名称" value="Sveti Stefan（Saint Stephen Island）" />
-                <InfoRow label="国家" value="黑山（Montenegro）" />
-                <InfoRow label="城市" value="布德瓦（Budva）" />
-                <InfoRow label="所属区域" value="黑山亚得里亚海岸" />
+                <InfoRow label="中文名称" value={`圣斯特凡岛`} />
+                <InfoRow label="英文名称" value={`Sveti Stefan`} />
+                <InfoRow label="正式名称" value={`Sveti Stefan`} />
+                <InfoRow label="国家" value={`黑山`} />
+                <InfoRow label="城市" value={`布德瓦`} />
               </div>
+              
               <div className="space-y-4">
-                <InfoRow label="岛屿类型" value="陆连岛" />
-                <InfoRow label="连接方式" value="约100米长狭长浅滩" />
-                <InfoRow label="距离布德瓦" value="约6公里" />
-                <InfoRow label="世界遗产" value="1979年列入世界文化遗产" />
+                <InfoRow label="历史地位" value={`一座从防御性渔村演变为20世纪社会名流避世天堂，再到今日顶级奢华度假胜地的传奇小岛。`} />
+                <InfoRow label="建筑特色" value={`全岛密布着宛如积木般堆叠的赭石色屋顶石屋，由狭窄的石阶和迷宫般的小巷连接，浑然一体，仿佛直接从海中礁石生长而出。`} />
+                <InfoRow label="建筑风格" value={`亚得里亚海沿岸典型的中世纪地中海风格，受到威尼斯共和国建筑的深刻影响，以粗粝石材和紧凑结构为特征。`} />
+                <InfoRow label="文化价值" value={`它是黑山海岸线历史层叠的缩影，见证了从平民渔业社群、贵族游乐场到全球奢华符号的身份转变，是一处活的建筑与社群变迁博物馆。`} />
               </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-blue-900 mb-3">详细门票信息</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">官方导览门票：</span>20欧元/人，12岁以下儿童免费，学生半价（10欧元/人）</p>
-                <p><span className="font-medium">导览时间：</span>11:00、14:00各一场，夏季旺季增加16:00场次</p>
-                <p><span className="font-medium">替代方案：</span>预订岛上酒店午餐或晚餐，餐后可免费参观</p>
-                <p><span className="font-medium">预订建议：</span>夏季旺季建议提前1天预订，避免无票</p>
-              </div>
-            </div>
-            <div className="bg-green-50 p-6 rounded-lg mt-6">
-              <h4 className="text-lg font-semibold text-green-900 mb-3">交通指南</h4>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><span className="font-medium">外部交通：</span>蒂瓦特机场→圣斯特凡岛（自驾40分钟，或机场大巴30分钟到布德瓦）</p>
-                <p><span className="font-medium">市内交通：</span>布德瓦Rozino车站→岛屿（大巴16分钟，2欧元；打车15分钟，15-20欧元）</p>
-                <p><span className="font-medium">岛屿连接：</span>步行通过约100米浅滩，注意潮汐时间</p>
-                <p><span className="font-medium">停车场：</span>岛屿入口外专用停车场，收费约5欧元/天</p>
-              </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`岛内区域目前为安缦度假村（Aman Sveti Stefan）专属区域，仅对住客及预约下午茶或晚餐的客人开放。连接岛屿与大陆的沙洲堤道可自由步行至入口门楼处拍照。外部参观建议安排在每日上午9点至傍晚6点间。度假村内部设施的开放时间需具体查询，部分餐厅和水疗中心对非住客开放预订，但政策可能随季节调整。`} />
+              <InfoRow label="门票价格" value={`进入岛屿内部（即度假村核心区）需为住客或持有消费预约（如餐厅预订）。仅参观沙洲及外部无需门票。安缦度假村的消费属于顶级奢华标准，下午茶人均约80欧元起，晚餐人均150欧元起。建议提前数月通过官网或邮件预约。`} />
+              <InfoRow label="地址" value={`Sveti Stefan, 85315 Budva, Montenegro`} />
+              <InfoRow label="交通方式" value={`最近机场是蒂瓦特机场（TIV），距离约20公里。出机场后最便捷的方式是预订接送专车或乘坐出租车，车程约30-40分钟，费用约35-50欧元。从布德瓦老城出发，可以乘坐沿海岸线行驶的本地巴士，在“Sveti Stefan”站下车，班次较为频繁，车程约15分钟，票价几欧元。自驾是最灵活的方式，沿着Jadranska Magistrala海滨公路行驶，风景绝佳，岛对面有停车场（收费）。请注意，旺季时（7-8月）这条路可能非常拥堵。`} />
             </div>
           </Section>
 
           <Section title="3. 历史背景">
-            <p className="text-gray-700 leading-relaxed mb-4">
-              圣斯特凡岛的历史源远流长，从古代海盗据点到渔村，再到如今的高端度假胜地，千年间历经变迁，每一段历史都为这座小岛增添了独特的人文底蕴，见证了黑山海岸的兴衰与发展，也留下了多元文化交融的痕迹。这座小岛凭借得天独厚的地理位置，成为古代地中海地区重要的交通要道与战略据点。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              中世纪时期，圣斯特凡岛就已成为重要的军事防御据点，相传土耳其海军之父巴巴罗萨海雷丁进攻科托尔时，曾将辎重补给船停泊于此，仅率战舰杀入科托尔峡湾。没想到当地海盗趁机洗劫了土耳其的补给船，此后这里便成为海盗的根据地，海盗们不断与土耳其人、威尼斯人等征服者展开斗争，逐渐在岛上建立起坚固的防御工事与居住群落。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              随着海盗势力的衰落，圣斯特凡岛逐渐转型为渔村，1800年左右，岛上已有400多人口、12个家庭居住，村民们以捕鱼、航海为生，在岛上修建了石砌房屋、教堂等建筑，形成了如今我们看到的中世纪街巷格局。这些石屋大多依山而建，错落有致，蓝瓦白墙的风格既适应了海滨气候，又充满了地中海风情，成为小岛最具标志性的景观。
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              19世纪至20世纪初，圣斯特凡岛凭借绝美的海景与独特的渔村风貌，逐渐被外界熟知，成为当时欧洲贵族的小众度假地。1950年代，黑山当地政府决定将这座小岛改造成高端度假酒店，岛上所有居民全部迁出，随后对原有建筑进行修缮与改造，保留了中世纪石屋的外观风貌，内部则打造为高端酒店客房、餐厅与休闲设施，圣斯特凡岛从此成为全球知名的高端度假胜地。
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              此后，无数名人墨客纷纷前往圣斯特凡岛度假，包括约瑟普·布罗兹·铁托、瓦科拉夫·哈维尔、英国玛格丽特公主、索菲亚·罗兰、史泰龙等，他们的到来让这座小岛的名气进一步提升，成为黑山的一张旅游名片。1979年，圣斯特凡岛随布德瓦老城一同被列入世界文化遗产名录，其历史建筑与自然景观得到了严格的保护，既保留了千年人文底蕴，又融入了现代度假理念，实现了历史与现代的完美融合。如今，圣斯特凡岛虽然被安缦酒店接管，但依然向游客开放导览参观，游客可在导游的带领下，探寻岛上的历史遗迹、古老教堂与中世纪街巷，感受小岛的千年变迁；同时，也可在周边海滩休闲度假，欣赏亚得里亚海的澄澈海水，体验山海共生的独特魅力，这里既是历史的见证者，也是休闲度假的理想之地。
-            </p>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于圣斯特凡岛的起源，没有恢弘的建国史诗，更像是一群普通人在乱世中迫于生存的智慧结晶。时间拉回到15世纪中叶，奥斯曼帝国的阴影笼罩着巴尔干内陆，而亚得里亚海岸则处于威尼斯共和国与当地斯拉夫势力的反复争夺中。为了躲避海盗（既有北非来的，也有本地“兼职”的）以及陆地上无休止的纷争，布德瓦地区的十二个家族做出了一个决定：搬到海中央那座小小的、易守难攻的岩礁上去。他们用最原始的方式，开采石头，背运材料，在嶙峋的岩石上，一砖一瓦地建起了第一批紧紧抱在一起的石屋。没有规划图纸，只有最朴素的生存逻辑：外墙共用以节省材料，巷道狭窄到仅容一人通过以利于防御，屋顶相连以便危急时刻快速转移。于是，一个自给自足的微型堡垒社区诞生了，它有自己的小教堂、蓄水池和公共面包房。在几百年里，这里就是一个纯粹的、艰苦的渔村，男人们出海，女人们在岩石间晾晒渔网和无花果。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转机出现在二十世纪五十年代。当时的南斯拉夫领导人铁托，一位有着独特审美和享乐品味的共产主义者，看中了这个近乎废弃、却充满画面感的小岛。在他的授意下，政府决定不进行拆迁或现代化改造，而是进行一场前所未有的“修旧如旧”工程。他们请来最好的工匠，小心翼翼地加固每一栋濒临倒塌的石屋，内部则被掏空，改造成符合当时精英口味的豪华套房，铺设了当时堪称奢侈的电力与供水系统。1956年，它以“圣斯特凡岛酒店”的身份重新开放，身份从渔村一跃成为社会主义南斯拉夫最时髦、最排外的度假胜地。铁托本人是这里的常客，他的到来就像一道金色的谕旨。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随之而来的，是整个六七十年代闪耀星光的好莱坞与欧洲名流。伊丽莎白·泰勒、索菲亚·罗兰、玛丽莲·梦露……这些名字都曾出现在酒店的登记簿上。西西里公主在这里举办婚礼，英国影星在橄榄树林里偷得浮生半日闲。对于西方世界来说，访问铁托领导下的南斯拉夫本身就带有一种“冒险”的异国情调，而圣斯特凡岛则是这段冒险中最奢华、最梦幻的终点站。它成了一个奇特的悖论：一个共产主义国家打造的，服务于资本主义世界名流的世外桃源。岛上的生活是封闭的、被精心编排的，名流们在此享受着绝对隐私，与外界那个轰轰烈烈的冷战世界完全隔绝。那段岁月，是这个小岛历史上最为纸醉金迷、也最富传奇色彩的章节。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "九十年代南斯拉夫解体带来的动荡，让小岛黯然失色，一度陷入半废弃状态。它的再次重生，要等到二十一世纪。2007年，黑山政府与安缦集团签订了一份长达30年的租约。安缦进行了史上最复杂、最精细的一次修复，目标不仅是修复建筑，更是“修复时间”。他们搜寻老照片，研究原始工艺，力求让岛屿恢复到六十年代鼎盛时期的模样，同时注入安缦标志性的极致简约与隐秘奢华。于是，今天的圣斯特凡岛，成了一个多重历史层的叠影：十五世纪渔村的骨骼，二十世纪中叶社会主义精英度假村的血肉，和二十一世纪全球顶级奢华酒店的灵魂。它不再属于渔民，也不再属于政治名流，而是属于一个新时代的、追求绝对独特体验的隐逸者。" }} />
+            </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-blue-900 mb-3">经典步行游览路线</h4>
-                <p className="text-gray-700 mb-4">全程约2-3小时，节奏舒缓，兼顾打卡与深度体验</p>
-                <div className="space-y-3 text-gray-700 text-sm">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">起点：圣斯特凡岛入口</h5>
-                    <p>设有世界文化遗产标识与导览集合点，可领取导览手册，预订私人导览（30欧元/人）</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第一站：浅滩步道（步行2分钟）</h5>
-                    <p>约100米长狭长浅滩，连接岛屿与陆地的唯一通道，可欣赏澄澈海水与海岛远景</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第二站：岛屿入口广场（步行3分钟）</h5>
-                    <p>广场上有小型纪念碑与古老石砌拱门，留存中世纪建筑痕迹，可拍照打卡</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第三站：中世纪街巷（步行5分钟）</h5>
-                    <p>核心游览区域，狭窄石板路蜿蜒曲折，两侧蓝瓦白墙石砌房屋，充满地中海风情</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第四站：圣斯特凡教堂（步行3分钟）</h5>
-                    <p>岛上最古老建筑之一，始建于15世纪，石砌结构，内部留存古老壁画与雕塑</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第五站：岛屿制高点观景台（步行4分钟）</h5>
-                    <p>位于小岛最高处，可俯瞰整个圣斯特凡岛全景，远眺布德瓦海岸风光</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">第六站：酒店观景露台（步行3分钟）</h5>
-                    <p>安缦酒店公共观景区域，可休息欣赏海景，感受高端度假氛围</p>
-                  </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h5 className="font-medium">终点：岛屿出口（步行5分钟）</h5>
-                    <p>出口处有纪念品商店，可购买小岛相关纪念品，结束后可前往周边海滩休闲</p>
-                  </div>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的圣斯特凡岛体验是一场“由外至内，再由内回味”的仪式感旅程，建议预留一整个白天加黄昏。最佳安排是上午约10点抵达，此时光线正好从侧面打亮岛屿，适合外部拍照。整个上午和午后，你都无法进入岛内核心区（除非是住客），但这恰恰是沉淀心情、从各个角度欣赏这座“海上雕塑”的最佳时机。下午可以预约岛上的下午茶或傍晚的晚餐，这是获得通行证、深入其内部迷宫的唯一途径。整体节奏应是松弛的、观察性的，重点不在于“打卡”，而在于感受它不同光线下的情绪变化，以及从公共视野到私密领域的强烈对比。这样的安排，能让等待进入的过程本身也变成一种充满悬念的享受。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`非住客务必、务必提前数月通过邮件或官网预约下午茶或晚餐，这是登岛的唯一合法途径，直接walk-in会被礼貌拒绝。
+岛上巷道陡峭且台阶湿滑，请务必穿着绝对舒适防滑的平底鞋，高跟鞋在这里不仅是折磨更是危险。
+尊重度假村的隐私规定，拍照时避免对准其他客人的私人露台或门窗，使用公共区域也请保持轻声细语。`}
                 </div>
               </div>
               
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-yellow-900 mb-3">温馨提示</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 岛屿属于世界文化遗产，游览时禁止大声喧哗、随意触摸建筑与文物</li>
-                  <li>• 导览过程中需跟随导游，不得擅自离队，部分区域为酒店私人区域</li>
-                  <li>• 夏季亚得里亚海岸紫外线极强，需携带遮阳帽、防晒霜与饮用水</li>
-                  <li>• 浅滩步道在涨潮时可能被海水淹没，建议提前查看潮汐时间</li>
-                  <li>• 尊重当地风俗习惯，拍照时避免拍摄酒店内部隐私区域与工作人员</li>
-                </ul>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`上午先从陆地对面的悬崖观景台开始，用长焦镜头捕捉岛屿全景与蜿蜒沙洲构成的完美几何构图。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着海滨步道慢慢走下沙滩，赤脚走上那条著名的沙洲堤道，感受左脚沙滩、右脚礁石的奇妙触感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在岛屿入口那扇厚重的木门前驻足，想象几个世纪以来，渔民、贵族、明星从这里进出的不同身影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`预约下午三点左右的下午茶，穿过那扇门，沿着唯一的主石阶向上攀登，两侧是高达数米的古老石墙。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`被服务生引领至一处面朝大海的隐秘露台，在橄榄树的荫蔽下，享用银质三层塔上的本地特色甜点与香槟。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`任由自己在岛内迷路（在允许的公共区域），探索那些仅容一人通过的巷子，抬头看一线天般的天空。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前半小时，来到岛屿西侧的任何一处开阔角落，看着夕阳将整个亚得里亚海和身后的陆地山峰染成金红色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐后，提着一盏酒店提供的小马灯，沿着昏暗的巷道缓缓走回出口，像中世纪的居民结束一天劳作后归家。`}</p>
+                </div>
               </div>
             </div>
           </Section>
 
           <Section title="5. 拍照机位">
-            <div className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">浅滩步道中段</h4>
-                  <p className="text-gray-700 text-sm">拍摄小岛全景经典机位，可完整拍摄圣斯特凡岛整体轮廓，蓝瓦白墙建筑群依山而建，酷似静卧海中的贝壳。最佳时间：上午9:00-10:30</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`对岸“圣斯特凡观景台”`}</h4>
+                  <p className="text-sm text-gray-700">{`导航至“Sveti Stefan Viewpoint”，这是拍摄岛屿与沙洲全景的经典机位，最佳光线在日出后一小时或日落前一小时，使用广角镜头将蜿蜒的海岸线一并纳入。`}</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">岛屿制高点观景台</h4>
-                  <p className="text-gray-700 text-sm">拍摄小岛全景最佳机位，可俯瞰整个圣斯特凡岛街巷、建筑与海滩，远眺布德瓦海岸线。最佳时间：傍晚17:00-18:00</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">圣斯特凡教堂门口</h4>
-                  <p className="text-gray-700 text-sm">拍摄复古人文风照片核心机位，教堂古朴石砌外墙、拱形门窗与周边蓝瓦白墙建筑相互映衬，充满中世纪韵味。最佳时间：上午10:30-11:30</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">半山观景台（GPS：42.258213, 18.896150）</h4>
-                  <p className="text-gray-700 text-sm">位于小岛背后山腰处，距离岛屿约2公里，拍摄小岛与亚得里亚海全貌的绝佳视角，画面层次丰富。最佳时间：日出或日落时分</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">圣萨瓦教堂下方观景台</h4>
-                  <p className="text-gray-700 text-sm">位于小岛背后山上，视野广阔，是黑山欣赏山海风光的最美观景台之一，画面浪漫壮阔。最佳时间：午后14:00-15:30</p>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-900 mb-2">岛屿西侧海滩</h4>
-                  <p className="text-gray-700 text-sm">公共海滩，海水澄澈见底，沙滩细腻柔软，可拍摄小岛侧面全景，蓝瓦白墙建筑与蔚蓝海水、洁白沙滩相映成趣。最佳时间：上午8:30-9:30</p>
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`沙洲堤道中段`}</h4>
+                  <p className="text-sm text-gray-700">{`面向岛屿入口门楼，用对称构图拍摄，将沙洲路径作为引导线，两侧不同质感的海洋（平静沙滩与汹涌礁石）形成有趣对比，适合清晨或傍晚，人物可作点缀。`}</p>
                 </div>
               </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`岛屿南侧外海礁石上`}</h4>
+                  <p className="text-sm text-gray-700">{`在退潮时（需查询潮汐表并注意安全），可以走到岛屿南面的一些巨大礁石上，用低角度仰拍岛屿建筑群，能拍出城堡般巍峨耸立、压迫感十足的画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`安缦度假村内部某条陡峭巷道上部`}</h4>
+                  <p className="text-sm text-gray-700">{`如果进入岛内，寻找一段有弧度的、两侧石墙爬满藤蔓的台阶，从上往下拍，能捕捉到巷道深邃、光影斑驳的秘境感，正午时分阳光直射时效果尤佳。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`从岛屿西端回望陆地`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏时分，站在岛屿最西端的围墙边，以岛屿本身的红屋顶和石墙为前景，拍摄远处陆地上亮起灯火的村庄和连绵山峦，构图充满故事性。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`岛上建筑材质反光率低，在强烈日光下容易拍出暗部死黑，建议使用RAW格式拍摄以便后期拉回细节，或选择在“黄金时刻”和“蓝色时刻”拍摄。`}</li>
+                <li>• {`无人机飞行在圣斯特凡岛区域受到严格管制，出于隐私和安全原因，未经明确许可请勿起飞，违者可能面临高额罚款。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
               
-              <div className="bg-purple-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-purple-900 mb-3">拍照小贴士</h4>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 最佳拍摄时间：清晨（8:30-10:30）和傍晚（17:00-18:00），光线柔和，游客较少</li>
-                  <li>• 建议穿着纯色、简约风格衣物，如白色、浅蓝色、米白色，与蓝瓦白墙、蔚蓝大海形成呼应</li>
-                  <li>• 拍摄全景时可使用广角镜头，拍摄细节时可使用长焦镜头，突出建筑雕花、窗台绿植</li>
-                  <li>• 拍摄海景时可利用水面倒影，增加画面层次感；山区与海边风较大，注意稳定设备</li>
-                  <li>• 非安缦住客禁止拍摄酒店内部隐私区域，遵守景区规定</li>
-                </ul>
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`极致隐逸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`当然是岛上的安缦度假村本身，入住意味着你将在游客散去的夜晚和清晨，独享整个岛屿王国的寂静，在百年前的石屋里听海浪拍枕。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`海岸线精华视角`}</h4>
+                  <p className="text-sm text-green-800">{`位于圣斯特凡村（陆地区）的“Aman Resort”的别墅部分或仅一墙之隔的精品酒店“Villa Montenegro”，拥有正对岛屿的无边泳池和私人海滩，视野无可匹敌。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`布德瓦老城风情`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻布德瓦老城内由古老石头房子改造的精品酒店，如“Hotel Astoria”，白天来圣斯特凡岛游玩，晚上沉浸在中世纪城邦的热闹巷弄与酒吧氛围中。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`性价比之选`}</h4>
+                  <p className="text-sm text-purple-800">{`在距离圣斯特凡岛车程10分钟的海滨小镇“Becici”，有许多家庭式公寓和三星级酒店，价格亲民，阳台同样能看到海景，适合自驾的旅行者。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "安缦的预订异常紧张，尤其是夏季，需要提前半年甚至更久规划，且价格不菲，但包含的独特体验感是无价的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "圣斯特凡岛陆地区域（村子）的住宿相对安静，但餐饮选择较少；布德瓦则热闹且选择多，但夏季可能会有些喧嚣，根据你的旅行节奏选择。" }} />
               </div>
             </div>
           </Section>
 
-          <Section title="6. 实用贴士">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-4">
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-900 mb-2">最佳游览时间</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 5-9月：气候温和，适合海滨活动</li>
-                    <li>• 7-8月：旅游旺季，活动丰富但游客较多</li>
-                    <li>• 春秋季：人流相对较少，价格更优惠</li>
-                    <li>• 清晨傍晚：光线柔和，适合拍照，游客较少</li>
-                  </ul>
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开圣斯特凡岛很久以后，记忆里最清晰的，不是某一道奢华料理的味道，也不是套房内精致的细节，而是那天黄昏，我独自站在岛上一条死胡同尽头的感受。前面是厚厚的石墙，左边右边是高耸的屋壁，身后是来路。海风在头顶很高的地方呼啸，却吹不到巷子底部。那一刻，世界被简化成了石头、天空和我自己。一种前所未有的、被包裹的安全感与孤独感同时升起。这个岛，它用如此绝对的物理形式，为你创造了一个“结界”。在这里，现代社会的噪音、碎片信息、无穷无尽的选择，全部被那圈海水和石墙过滤掉了。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这或许就是圣斯特凡岛在当今时代最珍贵的意义。它不再仅仅是一个度假村，它是一个象征。象征着我们内心对“完整”和“隔绝”的深层渴望。它告诉你，一个地方可以如此自我完满，可以不依赖任何外部补给而成为一个独立的世界。它从战乱和海盗中守护过平民，在冷战铁幕下庇护过名流，如今，它守护的是每一个来访者内心深处那点对宁静的奢求。来这里，你不是为了看一个景点，而是为了体验一种存在状态——一种浓缩的、强化的、被历史加持过的“隐居”状态。一生必去，不是因为它的奢华，而是因为它能提供一种在别处早已消亡的、关于“逃离”的极致可能性。当你走过那条沙洲，你就把那个纷杂的世界，暂时留在了彼岸。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/stari-bar-montenegro" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯塔里巴尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Stari Bar</p>
+                  </div>
                 </div>
-                <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-2">参观注意事项</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 岛屿属于高端度假区，需保持安静，避免大声喧哗</li>
-                    <li>• 亚得里亚海岸紫外线极强，必须携带遮阳帽、防晒霜</li>
-                    <li>• 浅滩步道注意潮汐变化，涨潮时可能无法通行</li>
-                    <li>• 尊重当地风俗习惯，避免拍摄私人区域</li>
-                  </ul>
+              </a>
+              <a href="/attractions/perast-bay-of-kotor" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩拉斯特</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Perast</p>
+                  </div>
                 </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-indigo-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-indigo-900 mb-2">特色体验</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 漫步浅滩步道，感受岛屿与大陆的独特连接方式</li>
-                    <li>• 登上岛屿制高点，俯瞰亚得里亚海绝美海景</li>
-                    <li>• 参观中世纪教堂，感受千年历史底蕴</li>
-                    <li>• 在周边海滩享受地中海阳光与海水</li>
-                  </ul>
+              </a>
+              <a href="/attractions/kola-in" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科拉欣</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kolašin</p>
+                  </div>
                 </div>
-                <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-900 mb-2">实用信息</h4>
-                  <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 当地货币：欧元，支持信用卡和移动支付</li>
-                    <li>• 语言：黑山语，但旅游区英语基本通行</li>
-                    <li>• 电压：230V，插头为Type F型</li>
-                    <li>• 紧急电话：112（欧洲统一紧急电话）</li>
-                  </ul>
-                </div>
-              </div>
+              </a>
             </div>
           </Section>
         </div>

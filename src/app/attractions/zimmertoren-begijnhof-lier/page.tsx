@@ -15,7 +15,7 @@ export default function ZimmertorenBegijnhofLierPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '利尔钟楼（齐默尔塔）与贝居安会院', href: '/attractions/zimmertoren-begijnhof-lier' },
           ]}
         />

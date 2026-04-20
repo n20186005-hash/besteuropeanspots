@@ -15,7 +15,7 @@ export default function StaphorstTraditionalVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯塔福斯特', href: '/attractions/staphorst-traditional-village' },
           ]}
         />

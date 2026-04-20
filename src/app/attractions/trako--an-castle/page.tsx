@@ -15,7 +15,7 @@ export default function TrakoAnCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '特拉科什恰恩城堡', href: '/attractions/trako--an-castle' },
           ]}
         />

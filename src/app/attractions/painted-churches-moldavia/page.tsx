@@ -15,7 +15,7 @@ export default function PaintedChurchesMoldaviaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '苏恰瓦彩绘修道院群', href: '/attractions/painted-churches-moldavia' },
           ]}
         />

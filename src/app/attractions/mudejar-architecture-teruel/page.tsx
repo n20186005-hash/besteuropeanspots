@@ -15,7 +15,7 @@ export default function MudejarArchitectureTeruelPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '特鲁埃尔穆德哈尔建筑群', href: '/attractions/mudejar-architecture-teruel' },
           ]}
         />

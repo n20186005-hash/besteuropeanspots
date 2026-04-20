@@ -298,12 +298,13 @@ ${formatParagraphs(data['核心简介'] || data['导语'])}
                 <InfoRow label="国家" value={\`${(data['国家'] || '').replace(/`/g, '\\`')}\`} />
                 <InfoRow label="城市" value={\`${(data['城市'] || '').replace(/`/g, '\\`')}\`} />
               </div>
+              ${(data['历史地位'] || data['建筑特色'] || data['建筑风格'] || data['文化价值']) ? `
               <div className="space-y-4">
-                <InfoRow label="历史地位" value={\`${(data['历史地位'] || '详见下文').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="建筑特色" value={\`${(data['建筑特色'] || '详见下文').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="建筑风格" value={\`${(data['建筑风格'] || '详见下文').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="文化价值" value={\`${(data['文化价值'] || '详见下文').replace(/`/g, '\\`')}\`} />
-              </div>
+                ${data['历史地位'] ? `<InfoRow label="历史地位" value={\`${data['历史地位'].replace(/`/g, '\\`')}\`} />` : ''}
+                ${data['建筑特色'] ? `<InfoRow label="建筑特色" value={\`${data['建筑特色'].replace(/`/g, '\\`')}\`} />` : ''}
+                ${data['建筑风格'] ? `<InfoRow label="建筑风格" value={\`${data['建筑风格'].replace(/`/g, '\\`')}\`} />` : ''}
+                ${data['文化价值'] ? `<InfoRow label="文化价值" value={\`${data['文化价值'].replace(/`/g, '\\`')}\`} />` : ''}
+              </div>` : ''}
             </div>
             ${(data['开放时间'] || data['门票价格'] || data['地址'] || data['交通方式']) ? `
             <div className="mt-6 space-y-3">
@@ -492,7 +493,7 @@ export default function ${componentName}() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '${cat.displayName}', href: '/category/${cat.id}' },
             { label: '${(data['景点中文名'] || '').replace(/'/g, "\\'")}', href: '/attractions/${slug}' },
           ]}
         />
@@ -521,6 +522,7 @@ ${relatedHtml}
     fs.writeFileSync(pageFile, pageContent, 'utf-8');
 
     // 更新 JSON，合并或新增分类
+    // 注意：如果是游记或历史，它们会作为独立的一条记录存在于 JSON 中，所以用独立的 slug 查找
     const existingIndex = attractionsData.findIndex(a => a.slug === slug);
     let categoryArray = [cat.id]; // 当前文案所属文件夹的分类
     
@@ -534,7 +536,7 @@ ${relatedHtml}
       country: data['国家'] || '',
       city: data['城市'] || '',
       slug: slug,
-      description: (data['核心简介'] || '').substring(0, 150).replace(/\\n/g, ' '),
+      description: (data['核心简介'] || data['导语'] || '').substring(0, 150).replace(/\\n/g, ' '),
       address: data['地址'] || '',
       transport: data['交通方式'] || '',
       region: data['国家'] || '',

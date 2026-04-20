@@ -15,7 +15,7 @@ export default function IsolaSanGiulioLakeOrtaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '圣朱利奥岛', href: '/attractions/isola-san-giulio-lake-orta' },
           ]}
         />

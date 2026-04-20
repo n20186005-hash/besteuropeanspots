@@ -15,7 +15,7 @@ export default function DolceacquaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '多尔切阿夸', href: '/attractions/dolceacqua' },
           ]}
         />

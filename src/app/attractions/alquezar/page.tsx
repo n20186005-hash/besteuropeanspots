@@ -15,7 +15,7 @@ export default function AlquezarPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿尔克萨尔', href: '/attractions/alquezar' },
           ]}
         />

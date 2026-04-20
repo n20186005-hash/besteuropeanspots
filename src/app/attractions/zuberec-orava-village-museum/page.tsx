@@ -15,7 +15,7 @@ export default function ZuberecOravaVillageMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥拉瓦民俗村博物馆（祖贝雷茨）', href: '/attractions/zuberec-orava-village-museum' },
           ]}
         />

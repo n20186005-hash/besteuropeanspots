@@ -15,7 +15,7 @@ export default function GrazOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '格拉茨老城', href: '/attractions/graz-old-town' },
           ]}
         />

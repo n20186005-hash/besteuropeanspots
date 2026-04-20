@@ -15,7 +15,7 @@ export default function BiertanFortifiedChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '别尔坦设防教堂', href: '/attractions/biertan-fortified-church' },
           ]}
         />

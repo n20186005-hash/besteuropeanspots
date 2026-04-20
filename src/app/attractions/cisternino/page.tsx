@@ -15,7 +15,7 @@ export default function CisterninoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奇斯泰尔尼诺', href: '/attractions/cisternino' },
           ]}
         />

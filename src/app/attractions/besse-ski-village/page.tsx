@@ -15,7 +15,7 @@ export default function BesseSkiVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '贝斯-圣阿纳斯泰兹（常简称为贝斯）', href: '/attractions/besse-ski-village' },
           ]}
         />

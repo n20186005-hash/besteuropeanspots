@@ -15,7 +15,7 @@ export default function StrbskePlesoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '什特尔布斯凯普莱索', href: '/attractions/strbske-pleso' },
           ]}
         />

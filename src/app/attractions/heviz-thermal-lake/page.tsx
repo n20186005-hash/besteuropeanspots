@@ -15,7 +15,7 @@ export default function HevizThermalLakePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '黑维兹温泉湖', href: '/attractions/heviz-thermal-lake' },
           ]}
         />

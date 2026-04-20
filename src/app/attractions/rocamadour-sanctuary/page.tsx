@@ -15,7 +15,7 @@ export default function RocamadourSanctuaryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗卡马杜尔宗教圣地', href: '/attractions/rocamadour-sanctuary' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function HalicCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '哈利奇大庄园', href: '/attractions/halic-castle' },
           ]}
         />

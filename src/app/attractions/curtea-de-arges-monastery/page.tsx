@@ -15,7 +15,7 @@ export default function CurteaDeArgesMonasteryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿尔杰什的库尔泰亚修道院', href: '/attractions/curtea-de-arges-monastery' },
           ]}
         />

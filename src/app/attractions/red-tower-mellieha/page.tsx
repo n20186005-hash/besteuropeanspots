@@ -15,7 +15,7 @@ export default function RedTowerMelliehaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马尔法海角红塔（圣阿加莎塔）', href: '/attractions/red-tower-mellieha' },
           ]}
         />

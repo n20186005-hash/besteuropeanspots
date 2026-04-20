@@ -15,7 +15,7 @@ export default function CastlesOfBellinzonaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '贝林佐纳三城堡', href: '/attractions/castles-of-bellinzona' },
           ]}
         />

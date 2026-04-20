@@ -15,7 +15,7 @@ export default function JajceFallsAndFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '亚伊采瀑布与城堡', href: '/attractions/jajce-falls-and-fortress' },
           ]}
         />

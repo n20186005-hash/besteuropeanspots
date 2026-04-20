@@ -15,7 +15,7 @@ export default function PetajavesiOldChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '佩泰耶韦西老教堂', href: '/attractions/petajavesi-old-church' },
           ]}
         />

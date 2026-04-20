@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '塞南克修道院 Abbaye de Sénanque｜邂逅普罗旺斯灵魂，沉浸于紫色薰衣草与千年圣咏的宁静奇迹 - 最佳欧洲景点',
-  description: '相信我，无论你看过多少张它的明信片，当你的车沿着蜿蜒的山路，突然在一个拐角后，整个山谷毫无防备地撞进你眼帘时，那种震撼依然会是百分百新鲜的。那不是一张平面的图片，而是一个立体的、充满呼吸的梦境。底部是整整齐齐、泛着灰绿银光的薰衣草田，像一块巨大的、纹理细密的丝绒地毯；中间是那座蜂蜜色的石砌修道院，线...',
+  description: '相信我，无论你看过多少张它的明信片，当你的车沿着蜿蜒的山路，突然在一个拐角后，整个山谷毫无防备地撞进你眼帘时，那种震撼依然会是百分百新鲜的。那不是一张平面的图片，而是一个立体的、充满呼吸的梦境。底部是整整齐齐、泛着灰绿银光的薰衣草田，像一块巨大的、纹理细密的丝绒地毯；中间是那座蜂蜜色的石砌修道院，线',
 }
 
 export default function SenanqueAbbeyPage() {
@@ -15,7 +15,7 @@ export default function SenanqueAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞南克修道院', href: '/attractions/senanque-abbey' },
           ]}
         />
@@ -31,11 +31,12 @@ export default function SenanqueAbbeyPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`相信我，无论你看过多少张它的明信片，当你的车沿着蜿蜒的山路，突然在一个拐角后，整个山谷毫无防备地撞进你眼帘时，那种震撼依然会是百分百新鲜的。那不是一张平面的图片，而是一个立体的、充满呼吸的梦境。底部是整整齐齐、泛着灰绿银光的薰衣草田，像一块巨大的、纹理细密的丝绒地毯；中间是那座蜂蜜色的石砌修道院，线条干净利落，屋顶是当地的片岩，在阳光下呈现出一种温暖的灰蓝色；背景则是普罗旺斯特有的、干燥的、长满矮橡树和松林的山丘。整个画面简洁得如同上帝用尺规画下的几何图形，带着一种不容置疑的静谧与庄严。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`关上车门，第一个拥抱你的是气味。那不是香水店里那种甜腻的、单一的味道，而是一种复合的、野性的芬芳。干燥的泥土气息，被烈日炙烤过的石头味道，松针的清香，当然，还有那无处不在的、略带药感的薰衣草香。它们混在一起，被山谷里的暖风搅拌着，成为塞南克独有的“嗅觉签名”。耳朵里则充斥着普罗旺斯的背景音：远处似有似无的蝉鸣，近处蜜蜂在花田间劳作发出的持续不断的、令人安心的嗡嗡声，像某种自然的白噪音。如果你足够幸运，在一天中的某个寂静时刻（通常是下午），你或许能听到修道院钟楼传来低沉、缓慢的钟声，那声音不着急，仿佛时间在这里被拉长、被稀释了。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`这里绝不仅仅是一个拍照背景板。仔细观察，你会发现修士们生活的痕迹。花田边缘摆着整齐的蜂箱，那是他们自产的“塞南克蜂蜜”的来源。修道院侧面的小门偶尔开合，或许能看到一位穿着白色会袍、腰间系着黑色绳带的身影悄无声息地走过，消失在石廊深处。这座修道院至今仍有少数西多会修士居住，他们遵循着古老的“ora et labora”（祈祷与劳作）信条，保持着近乎中世纪的生活节奏。薰衣草的种植、收割、蒸馏，不仅是为了维持修道院的生计，本身就是他们修行的一部分——在沉默的劳作中接近神性。这种“活态”感，是塞南克最打动人的地方。它不是一个博物馆里的标本，而是一棵仍然在生长的、年轮古老的树。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`所以，塞南克的魅力，远不止于夏日那几周惊心动魄的紫色。它的核心，在于一种极致的对比与和谐：人类精神追求的最高形式（简朴、禁欲、内省）与自然之美最慷慨的馈赠（绚烂、芬芳、丰饶）在此相遇、对话。修道院严峻的直线与拱券，柔和了薰衣草田波浪般的曲线；修士们内心的寂静，映衬着外界蜜蜂的喧闹。你来这里，不只是为了看一场花事，更是为了体验一种在当今世界几乎绝迹的、专注于内在秩序与平静的生活方式。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "相信我，无论你看过多少张它的明信片，当你的车沿着蜿蜒的山路，突然在一个拐角后，整个山谷毫无防备地撞进你眼帘时，那种震撼依然会是百分百新鲜的。那不是一张平面的图片，而是一个立体的、充满呼吸的梦境。底部是整整齐齐、泛着灰绿银光的薰衣草田，像一块巨大的、纹理细密的丝绒地毯；中间是那座蜂蜜色的石砌修道院，线条干净利落，屋顶是当地的片岩，在阳光下呈现出一种温暖的灰蓝色；背景则是普罗旺斯特有的、干燥的、长满矮橡树和松林的山丘。整个画面简洁得如同上帝用尺规画下的几何图形，带着一种不容置疑的静谧与庄严。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关上车门，第一个拥抱你的是气味。那不是香水店里那种甜腻的、单一的味道，而是一种复合的、野性的芬芳。干燥的泥土气息，被烈日炙烤过的石头味道，松针的清香，当然，还有那无处不在的、略带药感的薰衣草香。它们混在一起，被山谷里的暖风搅拌着，成为塞南克独有的“嗅觉签名”。耳朵里则充斥着普罗旺斯的背景音：远处似有似无的蝉鸣，近处蜜蜂在花田间劳作发出的持续不断的、令人安心的嗡嗡声，像某种自然的白噪音。如果你足够幸运，在一天中的某个寂静时刻（通常是下午），你或许能听到修道院钟楼传来低沉、缓慢的钟声，那声音不着急，仿佛时间在这里被拉长、被稀释了。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里绝不仅仅是一个拍照背景板。仔细观察，你会发现修士们生活的痕迹。花田边缘摆着整齐的蜂箱，那是他们自产的“塞南克蜂蜜”的来源。修道院侧面的小门偶尔开合，或许能看到一位穿着白色会袍、腰间系着黑色绳带的身影悄无声息地走过，消失在石廊深处。这座修道院至今仍有少数西多会修士居住，他们遵循着古老的“ora et labora”（祈祷与劳作）信条，保持着近乎中世纪的生活节奏。薰衣草的种植、收割、蒸馏，不仅是为了维持修道院的生计，本身就是他们修行的一部分——在沉默的劳作中接近神性。这种“活态”感，是塞南克最打动人的地方。它不是一个博物馆里的标本，而是一棵仍然在生长的、年轮古老的树。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，塞南克的魅力，远不止于夏日那几周惊心动魄的紫色。它的核心，在于一种极致的对比与和谐：人类精神追求的最高形式（简朴、禁欲、内省）与自然之美最慷慨的馈赠（绚烂、芬芳、丰饶）在此相遇、对话。修道院严峻的直线与拱券，柔和了薰衣草田波浪般的曲线；修士们内心的寂静，映衬着外界蜜蜂的喧闹。你来这里，不只是为了看一场花事，更是为了体验一种在当今世界几乎绝迹的、专注于内在秩序与平静的生活方式。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -47,6 +48,7 @@ export default function SenanqueAbbeyPage() {
                 <InfoRow label="国家" value={`法国`} />
                 <InfoRow label="城市" value={`沃克吕兹省，戈尔德（Gordes）附近`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`西多会修道院建筑的杰出典范，普罗旺斯地区的精神与视觉灵魂象征。`} />
                 <InfoRow label="建筑特色" value={`简约到极致的罗马式建筑，与周围山谷和薰衣草田构成浑然天成的几何构图。`} />
@@ -54,6 +56,7 @@ export default function SenanqueAbbeyPage() {
                 <InfoRow label="文化价值" value={`一座仍在呼吸的“活着的”修道院，近九百年持续不断的祈祷与劳作传统的守护者。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`修道院对游客的开放时间严格区分。内部建筑（教堂、回廊、宿舍等）仅能通过付费导览团进入，法语导览团每日多次，英语导览团通常在旅游旺季（6月至9月）的特定时段提供，需提前在官网查询并预订。修道院外部区域、书店及礼品店可自由参观，开放时间约为每日上午9:30至下午18:00，冬季（11月至次年3月）会缩短。请注意，修道院是仍在运作的宗教场所，周日上午及特定宗教节日不向游客开放，且薰衣草花田属于私人财产，严禁踏入。薰衣草最佳观赏期为6月下旬至7月中旬。`} />
               <InfoRow label="门票价格" value={`外部区域自由参观免费。内部导览团票价约为成人8-10欧元，优惠票（学生、儿童等）约5-7欧元，7岁以下儿童免费。具体票价可能随季节和导览类型变动，务必以官网实时信息为准。修道院自产的薰衣草产品、蜂蜜和书籍在商店单独出售。`} />
@@ -64,18 +67,18 @@ export default function SenanqueAbbeyPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`故事要从1148年说起。那一年，一群来自阿尔勒附近马赛扬修道院的西多会修士，在一位名叫雷蒙德·德·贝朗格的主教资助下，来到了这个名叫“塞南克”的偏僻山谷。为什么选这里？这正是西多会教规的精髓所在：他们追求彻底的苦修和自给自足，故意远离繁华城镇，寻找“荒野”之地，通过自己的双手，在孤独中开辟出与世隔绝的乐园，专心侍奉上帝。这片当时荒芜、只有一条小溪穿过的山谷，完美符合了他们的要求。最初的建筑极其简陋，但修士们凭借着惊人的毅力和手艺，一石一瓦地，建起了教堂、宿舍、回廊和作坊。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`整个12世纪是塞南克的黄金时代。它成了西多会在普罗旺斯地区最重要的修道院之一，拥有广阔的土地和影响力。你看它那教堂，没有一丝一毫多余的装饰，没有彩绘玻璃，没有雕塑，只有厚重的墙壁、朴素的柱头和半圆形的拱券。这种风格被称为“西多会罗马式”，是圣伯尔纳铎理念的直观体现：他认为过度的华丽会分散祈祷者的心神，真正的美在于比例、光线和空间的纯粹。塞南克就是这一理念的教科书。阳光从高侧窗射入，在粗糙的石壁上移动，光与影的舞蹈就是唯一的装饰。修士们在冰冷的石凳上每日七次聚集，吟唱格里高利圣咏，声音在空旷的穹顶下回荡。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，中世纪的宁静没能永远持续。16世纪的宗教战争让塞南克第一次遭受重创，它被洗劫，部分建筑被毁。更大的灾难来自18世纪末的法国大革命。革命政府没收了教会财产，修士们被驱逐，修道院被当作国家财产拍卖，差点被拆成石料卖掉。幸运的是，它被私人购买，得以幸存，但在整个19世纪，它沦为了一个谷仓、羊圈，甚至一度被用来养蚕。那些神圣的空间充斥着干草和牲畜的气味，华丽的回廊拱券被烟熏黑，壁画被白灰覆盖。塞南克沉睡了一百多年，几乎被人们遗忘。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`它的重生，像一个奇迹。20世纪初，一场保护历史古迹的运动在法国兴起，塞南克的价值被重新发现。1926年，法国文化部将其列为历史古迹。真正的转折点在1988年，一群新的西多会修士 community 在经历了漫长的谈判后，重新入驻了塞南克。他们面对的是一片亟待拯救的废墟。接下来的几十年，是一场缓慢而坚定的修复。修士们和专业的古建修复师一起，清理、加固、复原。他们不仅修复了石头建筑，也重新开垦了荒废的土地，种下了薰衣草。这种作物不仅经济实用，其宁静的紫色和芬芳的气息，也仿佛与修士们追求的精神境界天然契合。今天，你看到的井然有序的薰衣草田，本身就是一场持续了数十年的、静默的“劳作祈祷”。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`今天的塞南克，是一座平衡于过去与现在、神圣与世俗之间的微妙存在。修士们依旧保持着沉默、祈祷和劳作的传统，但他们也精明地利用薰衣草产品和有限的旅游业来维持这座庞大古建的运转。他们出版书籍，录制圣咏唱片，让这座山谷的宁静得以传播。每年夏天，当游客如潮水般涌来，只为那一抹紫色时，修士们依然在他们的回廊里按时诵读日课，仿佛外界的喧嚣只是一层可以穿透的薄雾。塞南克的故事，是一个关于信仰、毁灭、遗忘和坚韧回归的故事，它告诉我们，有些宁静，足以穿越千年的风雨，在每一个盛夏，随着薰衣草的花开，再次醒来。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从1148年说起。那一年，一群来自阿尔勒附近马赛扬修道院的西多会修士，在一位名叫雷蒙德·德·贝朗格的主教资助下，来到了这个名叫“塞南克”的偏僻山谷。为什么选这里？这正是西多会教规的精髓所在：他们追求彻底的苦修和自给自足，故意远离繁华城镇，寻找“荒野”之地，通过自己的双手，在孤独中开辟出与世隔绝的乐园，专心侍奉上帝。这片当时荒芜、只有一条小溪穿过的山谷，完美符合了他们的要求。最初的建筑极其简陋，但修士们凭借着惊人的毅力和手艺，一石一瓦地，建起了教堂、宿舍、回廊和作坊。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "整个12世纪是塞南克的黄金时代。它成了西多会在普罗旺斯地区最重要的修道院之一，拥有广阔的土地和影响力。你看它那教堂，没有一丝一毫多余的装饰，没有彩绘玻璃，没有雕塑，只有厚重的墙壁、朴素的柱头和半圆形的拱券。这种风格被称为“西多会罗马式”，是圣伯尔纳铎理念的直观体现：他认为过度的华丽会分散祈祷者的心神，真正的美在于比例、光线和空间的纯粹。塞南克就是这一理念的教科书。阳光从高侧窗射入，在粗糙的石壁上移动，光与影的舞蹈就是唯一的装饰。修士们在冰冷的石凳上每日七次聚集，吟唱格里高利圣咏，声音在空旷的穹顶下回荡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，中世纪的宁静没能永远持续。16世纪的宗教战争让塞南克第一次遭受重创，它被洗劫，部分建筑被毁。更大的灾难来自18世纪末的法国大革命。革命政府没收了教会财产，修士们被驱逐，修道院被当作国家财产拍卖，差点被拆成石料卖掉。幸运的是，它被私人购买，得以幸存，但在整个19世纪，它沦为了一个谷仓、羊圈，甚至一度被用来养蚕。那些神圣的空间充斥着干草和牲畜的气味，华丽的回廊拱券被烟熏黑，壁画被白灰覆盖。塞南克沉睡了一百多年，几乎被人们遗忘。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的重生，像一个奇迹。20世纪初，一场保护历史古迹的运动在法国兴起，塞南克的价值被重新发现。1926年，法国文化部将其列为历史古迹。真正的转折点在1988年，一群新的西多会修士 community 在经历了漫长的谈判后，重新入驻了塞南克。他们面对的是一片亟待拯救的废墟。接下来的几十年，是一场缓慢而坚定的修复。修士们和专业的古建修复师一起，清理、加固、复原。他们不仅修复了石头建筑，也重新开垦了荒废的土地，种下了薰衣草。这种作物不仅经济实用，其宁静的紫色和芬芳的气息，也仿佛与修士们追求的精神境界天然契合。今天，你看到的井然有序的薰衣草田，本身就是一场持续了数十年的、静默的“劳作祈祷”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的塞南克，是一座平衡于过去与现在、神圣与世俗之间的微妙存在。修士们依旧保持着沉默、祈祷和劳作的传统，但他们也精明地利用薰衣草产品和有限的旅游业来维持这座庞大古建的运转。他们出版书籍，录制圣咏唱片，让这座山谷的宁静得以传播。每年夏天，当游客如潮水般涌来，只为那一抹紫色时，修士们依然在他们的回廊里按时诵读日课，仿佛外界的喧嚣只是一层可以穿透的薄雾。塞南克的故事，是一个关于信仰、毁灭、遗忘和坚韧回归的故事，它告诉我们，有些宁静，足以穿越千年的风雨，在每一个盛夏，随着薰衣草的花开，再次醒来。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`要真正品味塞南克，强烈建议你在夏季的清晨（开门前抵达）或傍晚（大部分一日游团离开后）前来。这不仅是为了避开如织的人潮和正午普罗旺斯毒辣的太阳，更是因为这两个时段的斜射光线，能将修道院的石头和薰衣草田渲染出油画般浓郁而温柔的色调，氛围也最为宁静。整体游览时间建议预留2-3小时。节奏一定要慢，这里不适合赶路。流程上，先在外围感受全景和自然，再通过导览团深入建筑内部理解其精神内核，最后在书店和商店完成物质与精神的收藏。记住，安静是最大的礼貌。`}
                 </p>
@@ -154,8 +157,9 @@ export default function SenanqueAbbeyPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
@@ -175,50 +179,51 @@ export default function SenanqueAbbeyPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`戈尔德镇本身就是一个 perched village（悬崖村庄），非常安全，但夏季住宿极其紧俏，尤其是能看到薰衣草田景色的房间，务必提前数月预订。如果你在七月初来访，住在附近可以有机会看到清晨收割薰衣草的景象（如果修士们恰在那天劳作）。注意，许多乡村住宿要求最少入住两晚。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "戈尔德镇本身就是一个 perched village（悬崖村庄），非常安全，但夏季住宿极其紧俏，尤其是能看到薰衣草田景色的房间，务必提前数月预订。如果你在七月初来访，住在附近可以有机会看到清晨收割薰衣草的景象（如果修士们恰在那天劳作）。注意，许多乡村住宿要求最少入住两晚。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开塞南克许久之后，你会发现，记忆最深的可能不是那张拍得最成功的照片，而是某些微不足道的瞬间：也许是手指触碰冰凉石壁时的感觉，也许是突然飘来的一阵浓郁花香混着蜡味，也许是导览员压低嗓音讲解时，身后回廊里传来的、另一个访客轻微的呼吸声。这个地方有一种魔力，它能轻易地滤掉你内心的杂音。在一切都追求效率、速度和夸张表达的时代，塞南克固执地呈现着另一种价值观：简朴、重复、内敛、沉默。它不试图娱乐你，只邀请你存在于此，与光、与石、与植物、与一种古老的时间节拍同在。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`所以，每一位热爱深度游的旅人，都该来一次塞南克，尤其是在它被紫色包围的季节。这不仅仅是为了兑现一个关于普罗旺斯的浪漫幻想，更是为了亲身验证，在世界的某个角落，真的有一种美，源于减而非增，源于静而非闹。它提醒我们，真正的丰盛可能藏于极简之中，永恒的活力恰恰来自于对一种古老节奏的坚守。当你在喧嚣的生活中感到疲惫时，心底那份来自塞南克的、混合着石头凉意与薰衣草暖香的记忆，便会成为一帖无声的解药。它不只是景点，它是一个关于如何生活的，沉默而芬芳的启示。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开塞南克许久之后，你会发现，记忆最深的可能不是那张拍得最成功的照片，而是某些微不足道的瞬间：也许是手指触碰冰凉石壁时的感觉，也许是突然飘来的一阵浓郁花香混着蜡味，也许是导览员压低嗓音讲解时，身后回廊里传来的、另一个访客轻微的呼吸声。这个地方有一种魔力，它能轻易地滤掉你内心的杂音。在一切都追求效率、速度和夸张表达的时代，塞南克固执地呈现着另一种价值观：简朴、重复、内敛、沉默。它不试图娱乐你，只邀请你存在于此，与光、与石、与植物、与一种古老的时间节拍同在。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，每一位热爱深度游的旅人，都该来一次塞南克，尤其是在它被紫色包围的季节。这不仅仅是为了兑现一个关于普罗旺斯的浪漫幻想，更是为了亲身验证，在世界的某个角落，真的有一种美，源于减而非增，源于静而非闹。它提醒我们，真正的丰盛可能藏于极简之中，永恒的活力恰恰来自于对一种古老节奏的坚守。当你在喧嚣的生活中感到疲惫时，心底那份来自塞南克的、混合着石头凉意与薰衣草暖香的记忆，便会成为一帖无声的解药。它不只是景点，它是一个关于如何生活的，沉默而芬芳的启示。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/eguisheim-alsace" className="block group">
+              <a href="/attractions/chateau-chalon" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    埃
+                    沙
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃吉赛姆</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eguisheim</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">沙托沙隆</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château-Chalon</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/chateau-de-hautefort" className="block group">
+              <a href="/attractions/historic-centre-of-lyon" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    欧
+                    里
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">欧特福尔城堡</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Hautefort</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里昂历史中心</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Historic Centre of Lyon</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/salers-medieval-village" className="block group">
+              <a href="/attractions/vezelay-abbey" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    萨
+                    韦
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨莱尔</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Salers</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦兹莱隐修院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vézelay Abbey</p>
                   </div>
                 </div>
               </a>

@@ -15,7 +15,7 @@ export default function OsijekTvrdaFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥西耶克特夫尔贾要塞', href: '/attractions/osijek-tvrda-fortress' },
           ]}
         />

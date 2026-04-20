@@ -15,7 +15,7 @@ export default function LyonHistoricalCenterHistoryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '历史人文', href: '/category/history' },
             { label: '里昂历史中心', href: '/attractions/lyon-historical-center-history' },
           ]}
         />
@@ -42,12 +42,7 @@ export default function LyonHistoricalCenterHistoryPage() {
                 <InfoRow label="国家" value={`法国`} />
                 <InfoRow label="城市" value={`里昂`} />
               </div>
-              <div className="space-y-4">
-                <InfoRow label="历史地位" value={`详见下文`} />
-                <InfoRow label="建筑特色" value={`详见下文`} />
-                <InfoRow label="建筑风格" value={`详见下文`} />
-                <InfoRow label="文化价值" value={`详见下文`} />
-              </div>
+              
             </div>
             
           </Section>

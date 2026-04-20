@@ -15,7 +15,7 @@ export default function EgerCastleBullsBloodWineRegionPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '埃格尔城堡与公牛血产区', href: '/attractions/eger-castle-bulls-blood-wine-region' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function LePuyCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '勒皮圣母大教堂', href: '/attractions/le-puy-cathedral' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function SpoletoHistoricTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯波莱托古城', href: '/attractions/spoleto-historic-town' },
           ]}
         />

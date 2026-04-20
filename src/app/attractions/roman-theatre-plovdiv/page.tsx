@@ -15,7 +15,7 @@ export default function RomanTheatrePlovdivPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '普罗夫迪夫罗马剧场', href: '/attractions/roman-theatre-plovdiv' },
           ]}
         />

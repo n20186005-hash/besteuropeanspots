@@ -15,7 +15,7 @@ export default function DinkelsbuehlOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '丁克尔斯比尔老城', href: '/attractions/dinkelsbuehl-old-town' },
           ]}
         />

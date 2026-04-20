@@ -15,7 +15,7 @@ export default function StralsundOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '施特拉尔松德老城', href: '/attractions/stralsund-old-town' },
           ]}
         />

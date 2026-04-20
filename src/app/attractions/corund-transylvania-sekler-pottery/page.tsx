@@ -15,7 +15,7 @@ export default function CorundTransylvaniaSeklerPotteryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '科伦德（特兰西瓦尼亚塞凯伊人聚居区）', href: '/attractions/corund-transylvania-sekler-pottery' },
           ]}
         />

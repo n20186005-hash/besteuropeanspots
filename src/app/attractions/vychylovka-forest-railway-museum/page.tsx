@@ -15,7 +15,7 @@ export default function VychylovkaForestRailwayMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '维希洛夫卡（露天博物馆）', href: '/attractions/vychylovka-forest-railway-museum' },
           ]}
         />

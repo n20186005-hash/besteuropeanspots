@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '帕兰加琥珀博物馆 Palanga Amber Museum｜藏身海滨森林宫殿，遇见两万颗波罗的海“太阳泪珠” - 最佳欧洲景点',
-  description: '想象一下，你穿过一片由海风塑形的、树干扭曲如舞者的古老松林，空气中弥漫着松脂与潮湿苔藓的清新气息，隐约还能听到不远处波罗的海的涛声。就在这森林的尽头，一栋如奶油蜂蜜般温润的黄色宫殿，悄然出现在眼前。它不是孤零零地立在那里，而是被一个占地超过100公顷的庞大植物园温柔地拥抱着。这里就是帕兰加琥珀博物馆...',
+  description: '想象一下，你穿过一片由海风塑形的、树干扭曲如舞者的古老松林，空气中弥漫着松脂与潮湿苔藓的清新气息，隐约还能听到不远处波罗的海的涛声。就在这森林的尽头，一栋如奶油蜂蜜般温润的黄色宫殿，悄然出现在眼前。它不是孤零零地立在那里，而是被一个占地超过100公顷的庞大植物园温柔地拥抱着。这里就是帕兰加琥珀博物馆',
 }
 
 export default function PalangaAmberMuseumPage() {
@@ -15,7 +15,7 @@ export default function PalangaAmberMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '帕兰加琥珀博物馆', href: '/attractions/palanga-amber-museum' },
           ]}
         />
@@ -31,11 +31,12 @@ export default function PalangaAmberMuseumPage() {
         </div>
 
         <div className="space-y-8">
+
           <Section title="1. 景点介绍">
-              <p className="text-gray-700 leading-relaxed mb-4">{`想象一下，你穿过一片由海风塑形的、树干扭曲如舞者的古老松林，空气中弥漫着松脂与潮湿苔藓的清新气息，隐约还能听到不远处波罗的海的涛声。就在这森林的尽头，一栋如奶油蜂蜜般温润的黄色宫殿，悄然出现在眼前。它不是孤零零地立在那里，而是被一个占地超过100公顷的庞大植物园温柔地拥抱着。这里就是帕兰加琥珀博物馆，给你的第一印象绝非冰冷的展柜，而是一次进入童话般的森林秘境的邀请。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`走近宫殿，你会立刻被一种宁静而庄严的气氛包裹。脚下是沙沙作响的砾石小径，阳光透过层层叠叠的树叶，在宫殿明黄色的外墙上投下晃动的光斑。偶尔有当地的老人牵着小狗从旁边的小路慢悠悠走过，或是年轻的父母推着婴儿车在草坪上晒太阳——这座博物馆完全融入了帕兰加人的日常生活，它不仅仅是游客的目的地，更是市民的后花园，一个可以散步、思考、约会的精神角落。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`推开厚重的木门，室内的光线瞬间暗了下来，仿佛从明媚的夏日午后一步跨入了幽深的时光隧道。然后，你的眼睛会慢慢适应，并被眼前的一切震撼：成千上万块琥珀，在精心设计的灯光下，如同被点燃的星辰，在深色的展绒上静静燃烧。它们不是死气沉沉的石头，而是拥有生命的“时间胶囊”。你会看到金黄色的“太阳泪珠”，看到里面封存着四千多万年前的一只小蚊、一片蕨叶，甚至是晰蜴的尾巴。那种感觉奇妙极了，你隔着玻璃，与远古的一次偶然的树脂滴落，完成了一次跨越时空的对视。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`而这座博物馆最打动人心的魔力，在于它将自然的造化与人类的匠心无缝衔接。你会看到从粗糙的原石，到波罗的海沿岸渔民佩戴的朴素护身符，再到为沙皇宫廷打造的极致奢华的首饰。琥珀在这里，是科学样本，是历史见证，是艺术载体，更是连接着这片土地上每一个普通人与浩瀚宇宙、漫长历史的温暖信物。当你触摸博物馆商店里那些温润的琥珀原石（是的，他们鼓励你触摸），那股淡淡的松香仿佛能直接钻进心里，告诉你：你触摸的不是商品，是一段凝固的阳光，一段属于波罗的海的古老记忆。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想象一下，你穿过一片由海风塑形的、树干扭曲如舞者的古老松林，空气中弥漫着松脂与潮湿苔藓的清新气息，隐约还能听到不远处波罗的海的涛声。就在这森林的尽头，一栋如奶油蜂蜜般温润的黄色宫殿，悄然出现在眼前。它不是孤零零地立在那里，而是被一个占地超过100公顷的庞大植物园温柔地拥抱着。这里就是帕兰加琥珀博物馆，给你的第一印象绝非冰冷的展柜，而是一次进入童话般的森林秘境的邀请。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走近宫殿，你会立刻被一种宁静而庄严的气氛包裹。脚下是沙沙作响的砾石小径，阳光透过层层叠叠的树叶，在宫殿明黄色的外墙上投下晃动的光斑。偶尔有当地的老人牵着小狗从旁边的小路慢悠悠走过，或是年轻的父母推着婴儿车在草坪上晒太阳——这座博物馆完全融入了帕兰加人的日常生活，它不仅仅是游客的目的地，更是市民的后花园，一个可以散步、思考、约会的精神角落。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "推开厚重的木门，室内的光线瞬间暗了下来，仿佛从明媚的夏日午后一步跨入了幽深的时光隧道。然后，你的眼睛会慢慢适应，并被眼前的一切震撼：成千上万块琥珀，在精心设计的灯光下，如同被点燃的星辰，在深色的展绒上静静燃烧。它们不是死气沉沉的石头，而是拥有生命的“时间胶囊”。你会看到金黄色的“太阳泪珠”，看到里面封存着四千多万年前的一只小蚊、一片蕨叶，甚至是晰蜴的尾巴。那种感觉奇妙极了，你隔着玻璃，与远古的一次偶然的树脂滴落，完成了一次跨越时空的对视。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而这座博物馆最打动人心的魔力，在于它将自然的造化与人类的匠心无缝衔接。你会看到从粗糙的原石，到波罗的海沿岸渔民佩戴的朴素护身符，再到为沙皇宫廷打造的极致奢华的首饰。琥珀在这里，是科学样本，是历史见证，是艺术载体，更是连接着这片土地上每一个普通人与浩瀚宇宙、漫长历史的温暖信物。当你触摸博物馆商店里那些温润的琥珀原石（是的，他们鼓励你触摸），那股淡淡的松香仿佛能直接钻进心里，告诉你：你触摸的不是商品，是一段凝固的阳光，一段属于波罗的海的古老记忆。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -47,6 +48,7 @@ export default function PalangaAmberMuseumPage() {
                 <InfoRow label="国家" value={`立陶宛`} />
                 <InfoRow label="城市" value={`帕兰加`} />
               </div>
+              
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`这里曾是立陶宛贵族蒂什凯维奇伯爵家族的夏季宫殿，如今是波罗的海地区规模最大、藏品最丰富的专业琥珀博物馆。`} />
                 <InfoRow label="建筑特色" value={`一座掩映在百年古松林中的新文艺复兴风格黄色宫殿，拥有优雅的柱廊、高耸的塔楼和宁静的露台，与自然植物园完美融合。`} />
@@ -54,6 +56,7 @@ export default function PalangaAmberMuseumPage() {
                 <InfoRow label="文化价值" value={`它不仅是一座自然历史博物馆，更是立陶宛“国石”琥珀的文化圣殿，讲述着这片土地千万年的地质故事与人类千百年的艺术传奇。`} />
               </div>
             </div>
+            
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`博物馆主楼开放时间：每年6月至8月（夏季旺季），每日开放，时间为10:00至20:00；9月至次年5月（淡季），周二至周日开放，时间为11:00至17:00，周一闭馆。请注意，节假日（如元旦、复活节、圣诞节）可能有特殊安排，建议行前在官网确认。环绕博物馆的帕兰加植物园则全年全天候免费开放。`} />
               <InfoRow label="门票价格" value={`成人票：7欧元。优惠票（学生、长者）：3.5欧元。学龄前儿童免费。家庭套票（2成人+2儿童）有折扣。每年5月18日国际博物馆日及立陶宛国家纪念日等特定日期免费开放。门票包含常设展览及临时特展的参观。`} />
@@ -64,18 +67,18 @@ export default function PalangaAmberMuseumPage() {
 
           <Section title="3. 历史背景">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`这座宫殿的故事，始于一个热爱艺术与自然的贵族家族——蒂什凯维奇伯爵。19世纪末，富有的费利克斯·蒂什凯维奇伯爵决定在帕兰加这片风光旖旎的海滨，为自己和家人建造一座夏宫。他聘请了著名的德国建筑师弗朗茨·施韦chten，灵感则来源于他在欧洲游历时见过的意大利和法国文艺复兴式庄园。1897年，这座拥有45个房间、精美灰泥装饰、马赛克地板和橡木镶板的豪华宫殿落成了。它不是用于炫耀权力的城堡，而是一个用于沉思、聚会和享受自然之美的“避世桃源”。伯爵是一位狂热的收藏家，宫殿里很快就摆满了绘画、雕塑、古籍，当然，还有他深深着迷的本地瑰宝——琥珀。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`然而，20世纪动荡的历史浪潮无情地拍打了这片宁静的海岸。两次世界大战、政权的更迭，让蒂什凯维奇家族最终失去了他们的乐园。宫殿在战争中侥幸未遭严重破坏，但战后被收归国有，一度被用作儿童疗养院、艺术家之家，角色不断变换，昔日的辉煌渐渐蒙尘。直到1957年，一些有远见的立陶宛科学家和文化工作者提出了一个绝妙的想法：何不利用这座位于琥珀产地核心区的美丽建筑，建立一个专门的琥珀博物馆？这个提议得到了支持，经过紧张的筹备，1963年，帕兰加琥珀博物馆正式向公众敞开了大门。宫殿的命运由此转折，从私人的享乐之所，变成了属于全体国民的公共知识殿堂。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`当然，博物馆的真正主角——琥珀的故事，要比这座宫殿古老千万倍。大约四千万至五千万年前，覆盖着大片松柏类森林的波罗的海地区气候温暖，大量的树脂从树木上渗出、滴落。经过地壳变迁，这些树脂被埋入地下，在漫长的压力、热量和隔绝空气的环境中，慢慢石化，形成了琥珀。波罗的海沿岸是世界上最大的琥珀产区，而帕兰加所在的区域更是“琥珀海岸”的核心。自古以来，琥珀就被称为“北方的黄金”，它沿着“琥珀之路”被交易到古罗马、古希腊乃至古埃及，换回当地的葡萄酒和金属。对于立陶宛的先民来说，琥珀不仅是装饰品，更是具有神秘力量的护身符，是太阳的碎片，是生命的象征。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`博物馆的建立，让这些散落的故事被系统地收集、研究和展示。科学家们在这里研究内含古生物的琥珀，解开远古生态的谜题；历史学家梳理着琥珀贸易如何影响了波罗的海地区的文明进程；艺术家则不断从琥珀的色泽与形态中汲取灵感。博物馆的收藏从最初的几百件，扩展到如今超过两万八千件藏品，其中包含一块重达3.5公斤的“琥珀之王”，以及众多举世罕见的、包含完整脊椎动物遗骸的琥珀珍品。它不再仅仅是一个展示“漂亮石头”的地方，而是一个融合了地质学、生物学、考古学、历史学和艺术学的跨学科研究中心。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`今天，当你漫步在宫殿的展厅里，你能感受到的是一种奇妙的层叠感：脚下是伯爵时代铺设的拼花地板，窗外是他亲手规划种植的异国树木，而眼前玻璃柜中闪耀的，却是比他家族历史久远数百万倍的珍宝。战争、和平、私人记忆与公共历史，都在这里沉淀、和解。这座博物馆本身，就像一块最大的琥珀，它将蒂什凯维奇家族的优雅生活、立陶宛的民族智慧，以及大自然鬼斧神工的创造，全部温柔地封存其中，呈现给每一个前来探寻的旅人。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座宫殿的故事，始于一个热爱艺术与自然的贵族家族——蒂什凯维奇伯爵。19世纪末，富有的费利克斯·蒂什凯维奇伯爵决定在帕兰加这片风光旖旎的海滨，为自己和家人建造一座夏宫。他聘请了著名的德国建筑师弗朗茨·施韦chten，灵感则来源于他在欧洲游历时见过的意大利和法国文艺复兴式庄园。1897年，这座拥有45个房间、精美灰泥装饰、马赛克地板和橡木镶板的豪华宫殿落成了。它不是用于炫耀权力的城堡，而是一个用于沉思、聚会和享受自然之美的“避世桃源”。伯爵是一位狂热的收藏家，宫殿里很快就摆满了绘画、雕塑、古籍，当然，还有他深深着迷的本地瑰宝——琥珀。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，20世纪动荡的历史浪潮无情地拍打了这片宁静的海岸。两次世界大战、政权的更迭，让蒂什凯维奇家族最终失去了他们的乐园。宫殿在战争中侥幸未遭严重破坏，但战后被收归国有，一度被用作儿童疗养院、艺术家之家，角色不断变换，昔日的辉煌渐渐蒙尘。直到1957年，一些有远见的立陶宛科学家和文化工作者提出了一个绝妙的想法：何不利用这座位于琥珀产地核心区的美丽建筑，建立一个专门的琥珀博物馆？这个提议得到了支持，经过紧张的筹备，1963年，帕兰加琥珀博物馆正式向公众敞开了大门。宫殿的命运由此转折，从私人的享乐之所，变成了属于全体国民的公共知识殿堂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当然，博物馆的真正主角——琥珀的故事，要比这座宫殿古老千万倍。大约四千万至五千万年前，覆盖着大片松柏类森林的波罗的海地区气候温暖，大量的树脂从树木上渗出、滴落。经过地壳变迁，这些树脂被埋入地下，在漫长的压力、热量和隔绝空气的环境中，慢慢石化，形成了琥珀。波罗的海沿岸是世界上最大的琥珀产区，而帕兰加所在的区域更是“琥珀海岸”的核心。自古以来，琥珀就被称为“北方的黄金”，它沿着“琥珀之路”被交易到古罗马、古希腊乃至古埃及，换回当地的葡萄酒和金属。对于立陶宛的先民来说，琥珀不仅是装饰品，更是具有神秘力量的护身符，是太阳的碎片，是生命的象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "博物馆的建立，让这些散落的故事被系统地收集、研究和展示。科学家们在这里研究内含古生物的琥珀，解开远古生态的谜题；历史学家梳理着琥珀贸易如何影响了波罗的海地区的文明进程；艺术家则不断从琥珀的色泽与形态中汲取灵感。博物馆的收藏从最初的几百件，扩展到如今超过两万八千件藏品，其中包含一块重达3.5公斤的“琥珀之王”，以及众多举世罕见的、包含完整脊椎动物遗骸的琥珀珍品。它不再仅仅是一个展示“漂亮石头”的地方，而是一个融合了地质学、生物学、考古学、历史学和艺术学的跨学科研究中心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，当你漫步在宫殿的展厅里，你能感受到的是一种奇妙的层叠感：脚下是伯爵时代铺设的拼花地板，窗外是他亲手规划种植的异国树木，而眼前玻璃柜中闪耀的，却是比他家族历史久远数百万倍的珍宝。战争、和平、私人记忆与公共历史，都在这里沉淀、和解。这座博物馆本身，就像一块最大的琥珀，它将蒂什凯维奇家族的优雅生活、立陶宛的民族智慧，以及大自然鬼斧神工的创造，全部温柔地封存其中，呈现给每一个前来探寻的旅人。" }} />
             </div>
           </Section>
 
-          <Section title="4. 游览路线">
+          <Section title={`4. 游览路线`}>
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {`要完整体验帕兰加琥珀博物馆的魅力，建议你至少预留出整整半天（4-5小时）。最佳抵达时间是上午十点博物馆刚开门时，此时光线柔和，植物园里的游客尚少，你可以享受一段宁静的漫步。整个游览节奏应该是“外松内紧，再由内向外”：先花大约1小时在植物园里放松身心，感受环境；然后进入博物馆主楼，沉浸于琥珀世界约1.5-2小时；最后再回到植物园，沿着不同的小径探索，并在海边的长椅上结束旅程。这样的安排能让你由表及里地理解“琥珀”与“环境”不可分割的关系，避免一开始就扎进展厅带来的信息过载，也让最后的回味更有余韵。`}
                 </p>
@@ -154,8 +157,9 @@ export default function PalangaAmberMuseumPage() {
             </div>
           </Section>
 
-          <Section title="6. 住宿小贴士">
+          <Section title={`6. 住宿与餐饮推荐`}>
             <div className="space-y-6">
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-900 mb-2">{`海滨松弛之选`}</h4>
@@ -175,50 +179,51 @@ export default function PalangaAmberMuseumPage() {
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4">{`帕兰加的住宿在夏季（尤其是七八月）非常紧张，价格也最高，务必提前数月预订。如果追求性价比，可以考虑五月底或九月初的“肩季”，天气依然宜人，游客较少。小镇治安良好，但植物园范围极大，部分小径夜晚照明有限，建议不要深夜单独在园中深处逗留。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "帕兰加的住宿在夏季（尤其是七八月）非常紧张，价格也最高，务必提前数月预订。如果追求性价比，可以考虑五月底或九月初的“肩季”，天气依然宜人，游客较少。小镇治安良好，但植物园范围极大，部分小径夜晚照明有限，建议不要深夜单独在园中深处逗留。" }} />
               </div>
             </div>
           </Section>
 
           <Section title="7. 总结感悟">
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">{`离开帕兰加琥珀博物馆很久以后，我发现自己最常回味的，不是某一块价值连城的琥珀，而是那种整体的感觉——那种宫殿的沉稳黄色与森林的深绿、琥珀的暖金与波罗的海的灰蓝交织在一起的和谐。这个地方教会我的，是关于“连接”的深刻一课。它连接了地质时间的宏大与生命瞬间的脆弱（那只被永恒封存的小虫），连接了贵族私密的审美与大众公开的求知，连接了自然的偶然馈赠与人类世代不懈的解读与创造。在这个碎片化的时代，它是一个如此完整的存在。`}</p>
-              <p className="text-gray-700 leading-relaxed mb-4">{`所以，如果你热爱深度游，请不要仅仅把它当作一个收藏漂亮石头的博物馆。把它看作一扇门，一扇通向波罗的海灵魂的门。在这里，你能触摸到立陶宛这个民族的温和与坚韧——他们像呵护眼睛一样，呵护着这些来自森林与大海的“太阳泪珠”，并将它们的故事，安放在一座同样被岁月珍视的美丽宫殿里，向世界温柔地讲述。这是一次关于时间、光与记忆的旅程，它会让你相信，有些美好，真的可以穿越千万年尘埃，依然温暖如初，闪耀如新。这，正是我们旅行的意义所在。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开帕兰加琥珀博物馆很久以后，我发现自己最常回味的，不是某一块价值连城的琥珀，而是那种整体的感觉——那种宫殿的沉稳黄色与森林的深绿、琥珀的暖金与波罗的海的灰蓝交织在一起的和谐。这个地方教会我的，是关于“连接”的深刻一课。它连接了地质时间的宏大与生命瞬间的脆弱（那只被永恒封存的小虫），连接了贵族私密的审美与大众公开的求知，连接了自然的偶然馈赠与人类世代不懈的解读与创造。在这个碎片化的时代，它是一个如此完整的存在。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你热爱深度游，请不要仅仅把它当作一个收藏漂亮石头的博物馆。把它看作一扇门，一扇通向波罗的海灵魂的门。在这里，你能触摸到立陶宛这个民族的温和与坚韧——他们像呵护眼睛一样，呵护着这些来自森林与大海的“太阳泪珠”，并将它们的故事，安放在一座同样被岁月珍视的美丽宫殿里，向世界温柔地讲述。这是一次关于时间、光与记忆的旅程，它会让你相信，有些美好，真的可以穿越千万年尘埃，依然温暖如初，闪耀如新。这，正是我们旅行的意义所在。" }} />
             </div>
           </Section>
 
-          <Section title="8. 猜你喜欢">
+
+          <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/kaunas-old-town" className="block group">
+              <a href="/attractions/grutas-park" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    考
+                    格
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">考纳斯老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kaunas Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格鲁塔斯公园</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Grūtas Park</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/vilnius-old-town" className="block group">
+              <a href="/attractions/hill-of-crosses" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    维
+                    希
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维尔纽斯老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vilnius Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">希奥利艾十字架山</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hill of Crosses</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/kernav--archaeological-site" className="block group">
+              <a href="/attractions/anyksciai" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    克
+                    阿
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克尔纳韦</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kernavė</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尼克什奇艾</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Anykščiai</p>
                   </div>
                 </div>
               </a>
