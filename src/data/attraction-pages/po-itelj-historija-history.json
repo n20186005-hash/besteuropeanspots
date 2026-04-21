@@ -15,12 +15,12 @@
       "href": "/category/history"
     },
     {
-      "label": "波斯尼亚和黑塞哥维那",
-      "href": "/destinations/europe"
+      "label": "波黑",
+      "href": "/destinations/bosnia-and-herzegovina"
     },
     {
       "label": "黑塞哥维那-内雷特瓦州",
-      "href": "/destinations/europe"
+      "href": "/destinations/bosnia-and-herzegovina"
     },
     {
       "label": "波奇泰利",
@@ -28,7 +28,7 @@
     }
   ],
   "hero": {
-    "title": "波奇泰利・Počitelj・波斯尼亚和黑塞哥维那・黑塞哥维那-内雷特瓦州",
+    "title": "波奇泰利・Počitelj・波黑・黑塞哥维那-内雷特瓦州",
     "description": ""
   },
   "sections": [
@@ -38,7 +38,7 @@
     },
     {
       "title": "2. 基本信息",
-      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">波奇泰利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Počitelj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Počitelj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波斯尼亚和黑塞哥维那</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">黑塞哥维那-内雷特瓦州</div>\n</div>\n              </div>\n              \n            </div>"
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">波奇泰利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Počitelj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Počitelj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波黑</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">黑塞哥维那-内雷特瓦州</div>\n</div>\n              </div>\n              \n            </div>"
     },
     {
       "title": "3. 城市/景点起源",

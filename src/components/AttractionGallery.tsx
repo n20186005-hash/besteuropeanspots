@@ -10,6 +10,7 @@ import {
   typeLabelsEN,
   regionColors,
 } from "@/lib/attractions";
+import { getAttractionCountries } from "@/lib/countries";
 
 /* ── Attraction Card ────────────────────────────────── */
 function AttractionCard({ attraction }: { attraction: Attraction }) {
@@ -95,6 +96,7 @@ export function AttractionGallery({
 }: {
   attractions: Attraction[];
 }) {
+  const standardTypeSet = useMemo(() => new Set<string>(types), []);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [selectedType, setSelectedType] = useState<string | null>(null);
@@ -113,7 +115,7 @@ export function AttractionGallery({
       }
       
       // 分类过滤
-      if (selectedRegion && a.region !== selectedRegion) return false;
+      if (selectedRegion && !getAttractionCountries(a).includes(selectedRegion)) return false;
       if (selectedType && a.type !== selectedType) return false;
       return true;
     });
@@ -130,26 +132,20 @@ export function AttractionGallery({
             return a.name?.toLowerCase().includes(q) || a.englishName?.toLowerCase().includes(q) || a.city?.toLowerCase().includes(q) || a.country?.toLowerCase().includes(q);
           })
         : base;
-      for (const a of searchFiltered) counts[a.region] = (counts[a.region] || 0) + 1;
+      for (const a of searchFiltered) {
+        for (const country of getAttractionCountries(a)) {
+          counts[country] = (counts[country] || 0) + 1;
+        }
+      }
       return counts;
     }, [attractions, selectedType, searchQuery]);
-  
-    // 预定义的标准 6 大分类
-    const standardTypes = [
-      '城镇与村落',
-      '建筑与地标',
-      '宗教遗产',
-      '历史遗迹与考古',
-      '文化艺术与休闲',
-      '自然景观'
-    ];
 
     const typeCounts = useMemo(() => {
       const counts: Record<string, number> = {};
-      standardTypes.forEach(t => counts[t] = 0); // 初始化标准分类计数为0
+      types.forEach(t => counts[t] = 0);
 
       const base = selectedRegion
-        ? attractions.filter((a) => a.region === selectedRegion)
+        ? attractions.filter((a) => getAttractionCountries(a).includes(selectedRegion))
         : attractions;
       const searchFiltered = searchQuery
         ? base.filter(a => {
@@ -160,13 +156,12 @@ export function AttractionGallery({
 
       for (const a of searchFiltered) {
         const type = a.type;
-        if (type && standardTypes.includes(type)) {
+        if (type && standardTypeSet.has(type)) {
           counts[type] = (counts[type] || 0) + 1;
         }
       }
-      // 过滤掉计数为0的分类（可选，目前保留全部6个以保持UI统一）
       return Object.fromEntries(Object.entries(counts).filter(([_, count]) => count > 0));
-    }, [attractions, selectedRegion, searchQuery]);
+    }, [attractions, selectedRegion, searchQuery, standardTypeSet]);
 
   return (
     <section id="destinations" className="py-20">
@@ -221,11 +216,11 @@ export function AttractionGallery({
           {/* Region filter */}
           <div>
             <h4 className="text-xs uppercase tracking-widest text-muted-light mb-3 font-medium">
-              Region
+              Country
             </h4>
             <div className="flex flex-wrap gap-2">
               <FilterPill
-                label="All Regions"
+                label="All Countries"
                 active={selectedRegion === null}
                 onClick={() => setSelectedRegion(null)}
                 count={attractions.length}

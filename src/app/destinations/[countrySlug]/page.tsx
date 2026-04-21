@@ -2,10 +2,15 @@ import { attractions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { getAttractionCountries, getCountryBySlug, getCountrySlug } from "@/lib/countries";
 
 // 生成静态路由参数
 export function generateStaticParams() {
-  const slugs = Array.from(new Set(attractions.map((a) => a.countrySlug).filter(Boolean)));
+  const slugs = Array.from(
+    new Set(
+      attractions.flatMap((a) => getAttractionCountries(a)).map((country) => getCountrySlug(country))
+    )
+  );
   return slugs.map((slug) => ({
     countrySlug: slug,
   }));
@@ -13,7 +18,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ countrySlug: string }> }) {
   const { countrySlug } = await params;
-  const country = attractions.find((a) => a.countrySlug === countrySlug)?.country;
+  const country = getCountryBySlug(countrySlug);
   if (!country) {
     return { title: "目的地未找到" };
   }
@@ -25,13 +30,16 @@ export async function generateMetadata({ params }: { params: Promise<{ countrySl
 
 export default async function CountryPage({ params }: { params: Promise<{ countrySlug: string }> }) {
   const { countrySlug } = await params;
-  const countrySpots = attractions.filter((a) => a.countrySlug === countrySlug);
+  const countryName = getCountryBySlug(countrySlug);
+  if (!countryName) {
+    notFound();
+  }
+
+  const countrySpots = attractions.filter((a) => getAttractionCountries(a).includes(countryName));
 
   if (countrySpots.length === 0) {
     notFound();
   }
-
-  const countryName = countrySpots[0]!.country;
 
   return (
     <div className="bg-white min-h-screen">

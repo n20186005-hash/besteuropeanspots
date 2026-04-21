@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { parsePageTsx, writePageData, getContentFilePath } = require('./page-data-utils');
+const { normalizeAttractionRecord } = require('./taxonomy-country-utils');
 
 // 配置三个分类及对应的文件夹名
 const categories = [
@@ -567,7 +568,7 @@ ${relatedHtml}
       categoryArray = Array.from(new Set([...existingCategories, cat.id]));
     }
 
-    const newEntry = {
+    const newEntry = normalizeAttractionRecord({
       name: data['景点中文名'],
       englishName: data['景点英文名'] || '',
       country: data['国家'] || '',
@@ -579,7 +580,7 @@ ${relatedHtml}
       region: data['国家'] || '',
       type: data['类型'] || '古城',
       category: categoryArray
-    };
+    });
 
     // 保留原有的国家Slug数据，避免被清空
     if (existingIndex >= 0) {
@@ -590,9 +591,6 @@ ${relatedHtml}
       totalSuccessCount++;
       console.log(`  🔄 成功覆盖: [${data['景点中文名']}] (${slug}) -> 更新 [${cat.displayName}] 分类`);
     } else {
-      // 简单映射一下基础国家，不严谨但作为降级处理
-      const lowerCountry = (data['国家'] || 'europe').toLowerCase();
-      newEntry.countrySlug = lowerCountry === '法国' ? 'france' : lowerCountry === '意大利' ? 'italy' : 'europe';
       attractionsData.push(newEntry);
       totalSuccessCount++;
       console.log(`  ✅ 成功生成: [${data['景点中文名']}] (${slug}) -> 归入 [${cat.displayName}] 分类`);

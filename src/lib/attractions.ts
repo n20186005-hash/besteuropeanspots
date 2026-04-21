@@ -1,4 +1,5 @@
 import attractionsData from "@/data/attractions.json";
+import { getAttractionCountries } from "@/lib/countries";
 
 export interface Attraction {
   name: string;
@@ -18,8 +19,18 @@ export interface Attraction {
   tips: string;
   region: string;
   type: string;
+  raw_type?: string;
   category?: string[];
 }
+
+export const STANDARD_TYPES = [
+  "城镇与村落",
+  "建筑与地标",
+  "宗教遗产",
+  "历史遗迹与考古",
+  "文化艺术与休闲",
+  "自然景观",
+] as const;
 
 export const attractions: Attraction[] = attractionsData as Attraction[];
 
@@ -31,10 +42,11 @@ export function getAllSlugs(): string[] {
   return attractions.map((a) => a.slug);
 }
 
-// 动态提取所有的 Region 和 Type，避免硬编码导致部分数据无法显示
-export const regions = Array.from(new Set(attractions.map(a => a.region).filter(Boolean)));
-export const types = Array.from(new Set(attractions.map(a => a.type).filter(Boolean)));
-export const countries = Array.from(new Set(attractions.map(a => a.country).filter(Boolean)));
+export const regions = Array.from(
+  new Set(attractions.flatMap((a) => getAttractionCountries(a)).filter(Boolean))
+).sort((a, b) => a.localeCompare(b, "zh-CN"));
+export const types = [...STANDARD_TYPES];
+export const countries = regions;
 
 export const stats = {
   destinations: attractions.length,
@@ -44,28 +56,23 @@ export const stats = {
 };
 
 export const regionLabelsEN: Record<string, string> = {
-  "法国": "France",
-  "比利时・卢森堡": "Belgium & Luxembourg",
-  "德国": "Germany",
-  "意大利": "Italy",
-  "西班牙・葡萄牙": "Spain & Portugal",
-  "瑞士・奥地利": "Switzerland & Austria",
-  "捷克・斯洛伐克・匈牙利": "Czech Republic, Slovakia & Hungary",
-  "斯洛文尼亚・克罗地亚・波黑・黑山": "Slovenia, Croatia, Bosnia & Montenegro",
-  "希腊": "Greece",
-  "北欧": "Nordics",
-  "巴尔干・东欧": "Balkans & Eastern Europe",
+  法国: "France",
+  德国: "Germany",
+  意大利: "Italy",
+  西班牙: "Spain",
+  葡萄牙: "Portugal",
+  波黑: "Bosnia & Herzegovina",
+  英国: "United Kingdom",
+  美国: "United States",
 };
 
 export const typeLabelsEN: Record<string, string> = {
-  "古城": "Old Town",
-  "城堡": "Castle",
-  "修道院": "Abbey",
-  "教堂": "Cathedral",
-  "遗址": "Ruins",
-  "自然": "Nature",
-  "广场": "Square",
-  "其他": "Other",
+  "城镇与村落": "Towns & Villages",
+  "建筑与地标": "Architecture & Landmarks",
+  "宗教遗产": "Religious Heritage",
+  "历史遗迹与考古": "Historical Ruins & Archaeology",
+  "文化艺术与休闲": "Culture, Art & Leisure",
+  "自然景观": "Natural Landscapes",
 };
 
 // Hero images placeholder colors mapped to regions
