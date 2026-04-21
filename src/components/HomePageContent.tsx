@@ -1,8 +1,10 @@
-import { attractions, stats } from "@/lib/attractions";
+import { attractions, regionColors, stats, typeLabelsEN } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import Link from "next/link";
+import { collections } from "@/lib/collections";
 import { getAttractionCountries, getCountrySlug } from "@/lib/countries";
-import { getCountryLabel, homeCopy, type SiteLocale } from "@/lib/site-locale";
+import { getCountryLabel } from "@/lib/site-locale";
+import { homeCopy, type SiteLocale } from "@/lib/site-locale";
 
 function interpolate(template: string, values: Record<string, string | number>) {
   return template.replace(/\{(\w+)\}/g, (_, key) => String(values[key] ?? ""));
@@ -51,6 +53,17 @@ function Hero({ locale }: { locale: SiteLocale }) {
               {copy.secondaryCta}
             </Link>
           </div>
+          <div className="mt-8 flex flex-wrap gap-3">
+            {copy.quickLinks.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white/80 hover:bg-white/10 transition-colors"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
         </div>
 
         <div className="mt-16 flex flex-wrap gap-x-12 gap-y-4">
@@ -71,6 +84,37 @@ function Hero({ locale }: { locale: SiteLocale }) {
   );
 }
 
+function ContentChannels({ locale }: { locale: SiteLocale }) {
+  const copy = homeCopy[locale].portal;
+
+  return (
+    <section className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mb-10">
+          <h2 className="text-3xl font-bold text-primary mb-4">{copy.channelsTitle}</h2>
+          <p className="text-gray-600 leading-8">{copy.channelsDescription}</p>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          {copy.channels.map((channel, index) => (
+            <Link
+              key={channel.href}
+              href={channel.href}
+              className="rounded-2xl border border-border bg-surface p-7 hover:shadow-md transition-shadow"
+            >
+              <div className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700 mb-4">
+                {locale === "zh" ? `频道 0${index + 1}` : `Channel 0${index + 1}`}
+              </div>
+              <h3 className="text-xl font-semibold text-primary mb-3">{channel.title}</h3>
+              <p className="text-sm text-gray-600 leading-7 mb-5">{channel.description}</p>
+              <span className="text-sm font-medium text-primary">{channel.cta}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function RegionHighlights({ locale }: { locale: SiteLocale }) {
   const featured = homeCopy[locale].featured;
 
@@ -83,10 +127,13 @@ function RegionHighlights({ locale }: { locale: SiteLocale }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {featured.cards.map((item) => (
             <Link
-              key={item.label}
-              href="#destinations"
+              key={item.href}
+              href={item.href}
               className="bg-white p-6 rounded-xl border border-border hover:shadow-md transition-all group"
             >
+              <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700 mb-4">
+                {item.badge}
+              </span>
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-lg font-semibold text-primary group-hover:text-primary-light transition-colors">
                   {item.label}
@@ -96,6 +143,7 @@ function RegionHighlights({ locale }: { locale: SiteLocale }) {
                 </span>
               </div>
               <p className="text-sm text-muted leading-relaxed">{item.desc}</p>
+              <span className="mt-4 inline-flex text-sm font-medium text-primary">{item.cta}</span>
             </Link>
           ))}
         </div>
@@ -104,19 +152,200 @@ function RegionHighlights({ locale }: { locale: SiteLocale }) {
   );
 }
 
-function HomeSeoContent({ locale }: { locale: SiteLocale }) {
-  const seo = homeCopy[locale].seo;
+function CountryGateways({ locale }: { locale: SiteLocale }) {
+  const copy = homeCopy[locale].portal;
   const countryCounts = new Map<string, number>();
+  const countryTypeCounts = new Map<string, Map<string, number>>();
 
   attractions.forEach((attraction) => {
     getAttractionCountries(attraction).forEach((country) => {
       countryCounts.set(country, (countryCounts.get(country) || 0) + 1);
+      if (!countryTypeCounts.has(country)) {
+        countryTypeCounts.set(country, new Map<string, number>());
+      }
+      const typeMap = countryTypeCounts.get(country)!;
+      typeMap.set(attraction.type, (typeMap.get(attraction.type) || 0) + 1);
     });
   });
 
   const topCountries = Array.from(countryCounts.entries())
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 12);
+    .slice(0, 8);
+
+  return (
+    <section className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mb-10">
+          <h2 className="text-3xl font-bold text-primary mb-4">{copy.countryTitle}</h2>
+          <p className="text-gray-600 leading-8">{copy.countryDescription}</p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+          {topCountries.map(([country, count]) => {
+            const topThemes = Array.from(countryTypeCounts.get(country)?.entries() || [])
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 2)
+              .map(([type]) => (locale === "en" ? typeLabelsEN[type] || type : type));
+
+            return (
+              <Link
+                key={country}
+                href={`/destinations/${getCountrySlug(country)}`}
+                className="rounded-2xl border border-border bg-surface p-6 hover:shadow-md transition-shadow"
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-xl font-semibold text-primary">
+                    {getCountryLabel(country, locale)}
+                  </h3>
+                  <span className="text-xs bg-blue-50 text-blue-700 px-2 py-1 rounded-full">
+                    {count}
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {topThemes.map((theme) => (
+                    <span
+                      key={theme}
+                      className="inline-flex items-center rounded-full bg-white px-3 py-1 text-xs text-gray-600 border border-border"
+                    >
+                      {theme}
+                    </span>
+                  ))}
+                </div>
+                <p className="text-sm text-gray-600 mb-4 leading-7">
+                  {locale === "zh"
+                    ? `这个国家入口重点覆盖 ${topThemes.join("、")} 等内容，目前可直接浏览 ${count} 个隐藏景点。`
+                    : `This country hub currently groups ${count} hidden gems, with strong coverage in ${topThemes.join(", ")}.`}
+                </p>
+                <span className="text-sm font-medium text-primary">{copy.countryCta}</span>
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function CollectionSpotlight({ locale }: { locale: SiteLocale }) {
+  const copy = homeCopy[locale].portal;
+
+  return (
+    <section className="py-20 bg-surface">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mb-10">
+          <h2 className="text-3xl font-bold text-primary mb-4">{copy.collectionTitle}</h2>
+          <p className="text-gray-600 leading-8">{copy.collectionDescription}</p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {collections.map((collection) => {
+            const count = attractions.filter(collection.filter).length;
+            return (
+              <Link
+                key={collection.slug}
+                href={`/collections/${collection.slug}`}
+                className="rounded-2xl border border-border bg-white p-6 hover:shadow-md transition-shadow"
+              >
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 mb-4">
+                  {locale === "zh" ? `包含 ${Math.min(count, 15)} 个景点` : `${Math.min(count, 15)} attractions`}
+                </span>
+                <h3 className="text-xl font-semibold text-primary mb-3">{collection.title}</h3>
+                <p className="text-sm text-gray-600 leading-7 mb-5">{collection.description}</p>
+                <span className="text-sm font-medium text-primary">{copy.collectionCta}</span>
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function EditorPicks({ locale }: { locale: SiteLocale }) {
+  const copy = homeCopy[locale].portal;
+  const featuredSlugs = [
+    "vezelay-abbey",
+    "stari-most-mostar",
+    "valga-valka-twin-town",
+    "vjetrenica-cave",
+  ];
+  const picks = featuredSlugs
+    .map((slug) => attractions.find((item) => item.slug === slug))
+    .filter((item): item is NonNullable<typeof item> => Boolean(item));
+
+  return (
+    <section className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mb-10">
+          <h2 className="text-3xl font-bold text-primary mb-4">{copy.attractionTitle}</h2>
+          <p className="text-gray-600 leading-8">{copy.attractionDescription}</p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+          {picks.map((attraction) => (
+            <Link
+              key={attraction.slug}
+              href={`/attractions/${attraction.slug}`}
+              className="group rounded-2xl border border-border bg-surface overflow-hidden hover:shadow-md transition-shadow"
+            >
+              <div
+                className="h-36 flex items-center justify-center text-5xl font-serif text-white/25"
+                style={{
+                  background: `linear-gradient(135deg, ${(regionColors[attraction.region] || "#3b5998")}cc, ${(regionColors[attraction.region] || "#3b5998")}55)`,
+                }}
+              >
+                {(locale === "en" ? attraction.englishName || attraction.name : attraction.name)[0]}
+              </div>
+              <div className="p-6">
+                <div className="text-xs font-medium text-blue-700 mb-2">
+                  {getCountryLabel(attraction.country, locale)} · {locale === "en" ? typeLabelsEN[attraction.type] || attraction.type : attraction.type}
+                </div>
+                <h3 className="text-lg font-semibold text-primary mb-2 line-clamp-2">
+                  {locale === "en" ? attraction.englishName || attraction.name : attraction.name}
+                </h3>
+                <p className="text-sm text-gray-600 leading-7 line-clamp-4 mb-4">
+                  {locale === "en"
+                    ? `${attraction.englishName || attraction.name} is one of the standout hidden gems currently highlighted on the homepage.`
+                    : attraction.description}
+                </p>
+                <span className="text-sm font-medium text-primary">{copy.attractionCta}</span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ThemeShortcuts({ locale }: { locale: SiteLocale }) {
+  const copy = homeCopy[locale].portal;
+  const items = homeCopy[locale].seo.categories;
+
+  return (
+    <section className="py-20 bg-surface">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mb-10">
+          <h2 className="text-3xl font-bold text-primary mb-4">{copy.typeTitle}</h2>
+          <p className="text-gray-600 leading-8">{copy.typeDescription}</p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+          {items.map((item) => (
+            <Link
+              key={item.title}
+              href={item.href}
+              className="rounded-2xl border border-border bg-white p-6 hover:shadow-md transition-shadow"
+            >
+              <h3 className="text-lg font-semibold text-primary mb-3">{item.title}</h3>
+              <p className="text-sm text-gray-600 leading-7 mb-4">{item.description}</p>
+              <span className="text-sm font-medium text-primary">{copy.typeCta}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function HomeStructuredData({ locale }: { locale: SiteLocale }) {
+  const seo = homeCopy[locale].seo;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -153,98 +382,24 @@ function HomeSeoContent({ locale }: { locale: SiteLocale }) {
   };
 
   return (
-    <section className="py-20 bg-white border-t border-border">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
-            {seo.overviewTitle}
-          </h2>
-          <div className="space-y-5 text-base leading-8 text-gray-700">
-            {seo.overviewParagraphs.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-16">
-          <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">
-            {seo.categoryTitle}
-          </h2>
-          <p className="text-gray-600 max-w-3xl mb-8">{seo.categoryIntro}</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {seo.categories.map((category) => (
-              <Link
-                key={category.title}
-                href={category.href}
-                className="block rounded-xl border border-border bg-surface p-6 hover:shadow-md transition-shadow"
-              >
-                <h3 className="text-lg font-semibold text-primary mb-3">{category.title}</h3>
-                <p className="text-sm text-gray-600 leading-7">{category.description}</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-16">
-          <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">
-            {seo.countryTitle}
-          </h2>
-          <p className="text-gray-600 max-w-3xl mb-8">{seo.countryIntro}</p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {topCountries.map(([country, count]) => (
-              <Link
-                key={country}
-                href={`/destinations/${getCountrySlug(country)}`}
-                className="flex items-center justify-between rounded-xl border border-border bg-white p-4 hover:shadow-sm transition-shadow"
-              >
-                <span className="font-medium text-gray-800">{getCountryLabel(country, locale)}</span>
-                <span className="text-xs bg-blue-50 text-blue-700 px-2 py-1 rounded-full">{count}</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className="rounded-2xl bg-surface p-8 border border-border">
-            <h2 className="text-2xl font-bold text-primary mb-5">{seo.methodologyTitle}</h2>
-            <ul className="space-y-4 text-gray-700 leading-7">
-              {seo.methodologyPoints.map((point) => (
-                <li key={point} className="flex gap-3">
-                  <span className="text-blue-600 font-bold">•</span>
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="rounded-2xl bg-white p-8 border border-border">
-            <h2 className="text-2xl font-bold text-primary mb-5">{seo.faqTitle}</h2>
-            <div className="space-y-5">
-              {seo.faq.map((item) => (
-                <div key={item.question}>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.question}</h3>
-                  <p className="text-gray-700 leading-7">{item.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
   );
 }
 
 export function HomePageContent({ locale }: { locale: SiteLocale }) {
   return (
     <>
+      <HomeStructuredData locale={locale} />
       <Hero locale={locale} />
+      <ContentChannels locale={locale} />
       <RegionHighlights locale={locale} />
-      <HomeSeoContent locale={locale} />
+      <CountryGateways locale={locale} />
+      <CollectionSpotlight locale={locale} />
+      <EditorPicks locale={locale} />
+      <ThemeShortcuts locale={locale} />
       <AttractionGallery attractions={attractions} locale={locale} />
     </>
   );
