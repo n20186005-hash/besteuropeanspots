@@ -598,6 +598,15 @@ ${relatedHtml}
   });
 });
 
+// 提取共用的日志输出逻辑
+function printSummary() {
+  console.log(`\n=========================================`);
+  console.log(`🎉 批量处理完成！`);
+  console.log(`✅ 新增或更新了 ${totalSuccessCount} 个景点页面`);
+  console.log(`⏩ 智能跳过了 ${totalSkippedCount} 个已存在的文件`);
+  console.log(`=========================================\n`);
+}
+
 // 如果有任何修改，则保存更新后的 JSON
 if (totalSuccessCount > 0) {
   fs.writeFileSync(jsonFile, JSON.stringify(attractionsData, null, 2), 'utf-8');
@@ -613,7 +622,7 @@ if (totalSuccessCount > 0) {
   sitemapContent += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
   // 首页
-  sitemapContent += `  <url>\n    <loc>${baseUrl}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</lastmod>\n    <priority>1.0</priority>\n  </url>\n`;
+  sitemapContent += `  <url>\n    <loc>${baseUrl}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
 
   // 所有分类页
   const allCategories = ['encyclopedia', 'travelogue', 'history'];
@@ -639,10 +648,9 @@ if (totalSuccessCount > 0) {
   }
   fs.writeFileSync(sitemapPath, sitemapContent, 'utf-8');
   console.log(`\n🗺️  已自动更新站点地图：sitemap.xml (共包含 ${validPagesCount + 4} 个页面，其中景点 ${validPagesCount} 个)`);
+  
+  printSummary();
+} else {
+  // 即使没有生成任何新页面，也应该打印跳过的数量
+  printSummary();
 }
-
-console.log(`\n=========================================`);
-console.log(`🎉 批量处理完成！`);
-console.log(`✅ 新增生成了 ${totalSuccessCount} 个景点页面`);
-console.log(`⏩ 智能跳过了 ${totalSkippedCount} 个已存在的文件`);
-console.log(`=========================================\n`);
