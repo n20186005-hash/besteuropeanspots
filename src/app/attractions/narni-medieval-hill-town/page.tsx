@@ -1,0 +1,196 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '纳尔尼古城 Narni｜揭秘意大利“中世纪心脏”，漫步在《纳尼亚传奇》灵感之源 - 最佳欧洲景点',
+  description: '车子在翁布里亚绿色的丘陵间盘旋，当你转过一个弯，纳尔尼就像一枚从历史画卷中直接蹦出的印章，猛然间盖在了天际线上。那不是一个温和的、渐进的亮相，而是一种带着石质分量的宣告——灰白色的城墙与塔楼，紧紧地、几乎是不讲理地箍住整座山巅，在意大利充沛的阳光下，散发着一种冷峻又温柔的光泽。第一眼，你就会明白，为...',
+}
+
+export default function NarniMedievalHillTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '纳尔尼古城', href: '/attractions/narni-medieval-hill-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`纳尔尼古城・Narni・意大利・纳尔尼`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在翁布里亚绿色的丘陵间盘旋，当你转过一个弯，纳尔尼就像一枚从历史画卷中直接蹦出的印章，猛然间盖在了天际线上。那不是一个温和的、渐进的亮相，而是一种带着石质分量的宣告——灰白色的城墙与塔楼，紧紧地、几乎是不讲理地箍住整座山巅，在意大利充沛的阳光下，散发着一种冷峻又温柔的光泽。第一眼，你就会明白，为什么C.S.刘易斯会用它的拉丁语旧名“纳尼亚”（Narnia）来命名那个充满魔法的衣橱背后的世界，因为这座城本身，就散发着一种通往另一个时空的入口般的神秘气息。
+把车停在山脚下的现代城区，换乘吱呀作响的市政电梯（对，这里上山有部老电梯！）或者徒步走上古老的之字形步道，是进入纳尔尼必须的仪式。空气逐渐变得不同，引擎的噪音被远远甩在身后，取而代之的是你自己的脚步声在陡峭石板路上清脆的回响，还有不知从哪家窗户飘出的炖菜香气和咖啡的醇厚。穿过厚重的“城门”（Porta Ternana），你正式踏入了中世纪。路窄得几乎只能容两人侧身而过，两侧的石屋墙壁因年代久远而泛着蜂蜜色或深灰色，木质的百叶窗半开着，阳台上垂挂着天竺葵。你仿佛不是游客，而是不小心闯入了某个依旧按照古老节奏呼吸的有机体内部。
+它的核心魅力，正在于这种“活着的化石”状态。这里没有佛罗伦萨或锡耶纳那样汹涌的人潮，当地的老先生们依旧会聚集在加里波第广场的咖啡馆外，用浓重的方言争论着下午的纸牌游戏。主妇们提着篮子从拱门下匆匆走过，篮子里露出新鲜面包的长棍。阳光在狭窄的“吻巷”（Vicolo del Bacio）顶端切割出锐利的光影，而当你转过一个角落，雄伟的罗马式主教座堂那朴素的立面又会带来一片庄严的阴凉。在这里，历史不是被关在博物馆玻璃柜里的展品，它就是每天脚下被磨得光滑如镜的铺路石，是墙壁缝隙里探出头的野草，是空气中混合着的古老石头、木柴烟尘和家常饭菜的味道。纳尔尼的动人之处，在于它那份未被过度打扰的宁静与真实，让你能清晰地触摸到时间在这里沉淀下的每一层肌理。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`车子在翁布里亚绿色的丘陵间盘旋，当你转过一个弯，纳尔尼就像一枚从历史画卷中直接蹦出的印章，猛然间盖在了天际线上。那不是一个温和的、渐进的亮相，而是一种带着石质分量的宣告——灰白色的城墙与塔楼，紧紧地、几乎是不讲理地箍住整座山巅，在意大利充沛的阳光下，散发着一种冷峻又温柔的光泽。第一眼，你就会明白，为什么C.S.刘易斯会用它的拉丁语旧名“纳尼亚”（Narnia）来命名那个充满魔法的衣橱背后的世界，因为这座城本身，就散发着一种通往另一个时空的入口般的神秘气息。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`把车停在山脚下的现代城区，换乘吱呀作响的市政电梯（对，这里上山有部老电梯！）或者徒步走上古老的之字形步道，是进入纳尔尼必须的仪式。空气逐渐变得不同，引擎的噪音被远远甩在身后，取而代之的是你自己的脚步声在陡峭石板路上清脆的回响，还有不知从哪家窗户飘出的炖菜香气和咖啡的醇厚。穿过厚重的“城门”（Porta Ternana），你正式踏入了中世纪。路窄得几乎只能容两人侧身而过，两侧的石屋墙壁因年代久远而泛着蜂蜜色或深灰色，木质的百叶窗半开着，阳台上垂挂着天竺葵。你仿佛不是游客，而是不小心闯入了某个依旧按照古老节奏呼吸的有机体内部。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`它的核心魅力，正在于这种“活着的化石”状态。这里没有佛罗伦萨或锡耶纳那样汹涌的人潮，当地的老先生们依旧会聚集在加里波第广场的咖啡馆外，用浓重的方言争论着下午的纸牌游戏。主妇们提着篮子从拱门下匆匆走过，篮子里露出新鲜面包的长棍。阳光在狭窄的“吻巷”（Vicolo del Bacio）顶端切割出锐利的光影，而当你转过一个角落，雄伟的罗马式主教座堂那朴素的立面又会带来一片庄严的阴凉。在这里，历史不是被关在博物馆玻璃柜里的展品，它就是每天脚下被磨得光滑如镜的铺路石，是墙壁缝隙里探出头的野草，是空气中混合着的古老石头、木柴烟尘和家常饭菜的味道。纳尔尼的动人之处，在于它那份未被过度打扰的宁静与真实，让你能清晰地触摸到时间在这里沉淀下的每一层肌理。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`纳尔尼古城`} />
+                <InfoRow label="英文名称" value={`Narni`} />
+                <InfoRow label="正式名称" value={`Narni`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`纳尔尼`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`曾是古罗马帝国重要的军事要塞与商业枢纽，更是中世纪意大利众多独立城邦中一个强大而骄傲的缩影。`} />
+                <InfoRow label="建筑特色" value={`一座完全由石头构筑的“天空之城”，层层叠叠的房屋、防御工事与宗教建筑完美地镶嵌在陡峭的山脊之上。`} />
+                <InfoRow label="建筑风格" value={`以罗马式与哥特式建筑为主导，融合了古罗马遗迹、中世纪军事堡垒及文艺复兴时期的优雅装饰。`} />
+                <InfoRow label="文化价值" value={`它不仅保存了近乎完整的中世纪城市肌理，更是当代意大利慢生活哲学与深厚历史层叠共存的活态博物馆。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城本身全天开放。主要室内景点（如罗卡城堡、市政博物馆、主教座堂）开放时间通常为夏季（4月至9月）9:30-19:00，冬季（10月至3月）10:00-17:00，每周一多数博物馆闭馆。节假日可能缩短开放时间或临时关闭，具体需查询当地旅游局网站。`} />
+              <InfoRow label="门票价格" value={`进入古城免费。主要景点通常联票制，约12欧元（含罗卡城堡、市政博物馆、多米尼克修道院地下考古区等）。学生、65岁以上老人及团体有折扣，约8欧元。特定宗教节日期间主教座堂珍宝室可能单独收费（约3欧元）。`} />
+              <InfoRow label="地址" value={`05035 Narni, Province of Terni, Italy`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是罗马菲乌米奇诺机场（FCO）。从罗马特米尼火车站乘坐开往安科纳或福尔利的区域快车（约1小时15分钟）抵达特尔尼火车站。在特尔尼火车站转乘当地公交SULGA公司的班车（约30分钟）直达纳尔尼加里波第广场（Piazza Garibaldi）。公交车次约每小时一班，周末班次减少，建议提前查询时刻表。自驾是最方便的方式，从罗马沿A1高速公路向北，在“Orte”出口转E45/SS3国道，按路标指示上山，古城外围有大型付费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`纳尔尼的故事，得从铁与血开始讲起。早在公元前3世纪，这里就是古罗马人眼中一块必须攥在手里的战略要地。它雄踞在尼拉河（Nera）峡谷上方300多米的悬崖上，控制着连接罗马与亚得里亚海的重要盐路“弗拉米尼亚大道”。罗马人给了它一个名字：纳尔尼亚（Narnia），并把它建设成一个坚固的殖民地。你可以想象，当年的军团士兵就是站在你今天俯瞰峡谷的城墙位置上，监视着下方蜿蜒如丝带的道路。如今，在古城的地下深处和市政博物馆里，你还能看到那个辉煌时代的碎片：铭文、马赛克、还有从神庙里搬来的石柱。罗马帝国崩塌后，纳尔尼不可避免地卷入了蛮族入侵的洪流，哥特人与拜占庭军队曾在此反复拉锯，城墙一次次被攻破，又一次次被重建。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正让纳尔尼塑造成我们今天看到的模样的，是中世纪。大约在12世纪，这座城作为独立的城邦共和国（Comune）崛起了，它骄傲、好斗，与附近的托迪、斯波莱托等城邦既是邻居也是对手。那段时期，城里各个贵族家族争权夺利，街道上可能今天还在一起庆祝节日，明天就因 factions 冲突而拔剑相向。为了自保，也为了彰显力量，他们开始疯狂地修建塔楼——不是一两座，而是几十座。这些高耸的私人堡垒（今天很多已融入普通民居）让纳尔尼的天空线变得如同刺猬一般。同时，宏大的公共工程也在进行，比如那座令人叹为观止的“最大桥”（Ponte di Augusto）高架渠遗迹，它横跨峡谷，展现了当时惊人的工程技术，虽然后来大部分毁于战争，但残存的巨大拱门依然诉说着昔日的野心。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`14世纪末，纳尔尼的命运被一个家族改写：特里武尔齐奥家族。他们被教皇任命为这里的领主，并将统治中心设在了那座最显眼的、仿佛从山体里生长出来的巨型堡垒——罗卡阿尔博诺茨城堡（Rocca Albornoz）里。这座城堡与其说是家，不如说是一个军事威慑的符号，冰冷、坚固，时刻提醒着人们教廷的权威。走进城堡内部，你会感受到一种与外面温馨小街截然不同的氛围：巨大的厅堂空空荡荡，墙壁厚达数米，射击孔像眼睛一样盯着山谷。正是在这样的强权下，纳尔尼中世纪的市民自治荣光逐渐黯淡，成为了教皇国的一部分。然而，艺术的种子却在权力更迭的缝隙中生根发芽，文艺复兴的春风也吹进了这座山城，在主教座堂的内部，你就能看到后来增添的华丽壁画与浮雕，为石头世界注入了一丝人性的柔情。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`近代以来，纳尔尼褪去了军事与政治的光环，渐渐归于平静。它经历了统一意大利的浪潮，也默默承受了二战炮火的创伤（附近巨大的“纳尔尼地下”隧道系统曾被用作德军仓库和盟军战俘营，又是一段沉重而迷人的历史）。也许正是因为它偏离了主要的旅游高速公路，才意外地将这份跨越千年的复杂身份——罗马要塞、中世纪城邦、教皇堡垒、宁静山城——如此完好地封存了下来。今天的纳尔尼人，似乎早已与这份沉重的历史达成了和解，他们平静地生活在祖先建造的石头宫殿里，守护着这些故事，并随时准备向那些愿意停下脚步的旅人，轻声诉说。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`理想的纳尔尼深度游需要一整天时间，建议在上午9点左右抵达。此时阳光正好照亮古城东侧，游客稀少，你能享受最宁静的街道。整个游览节奏宜慢不宜快，核心是体验“迷失”在中世纪街巷的感觉。上午先探索古城的政治与宗教心脏，下午则可以深入更具生活气息的居民区并参观城堡。傍晚时分留给城墙漫步和全景欣赏。这样的安排顺应了光线变化，也能让你在午餐时间感受当地餐馆的热闹氛围。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`古城内几乎所有街道都是陡峭的台阶或坡道，务必穿一双绝对舒适防滑的鞋子。很多小巷没有明确的指示牌，迷路本身就是乐趣的一部分，大胆探索但最好用手机标记好主广场的位置。当地餐馆的午间营业时间通常很严格（比如13:00-15:00），错过就可能要等到晚上，建议提前规划用餐。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从加里波第广场开始，先喝一杯意式浓缩咖啡，感受本地人晨间聚集的能量场。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着 Via del Monte 缓缓上坡，让两侧高耸的中世纪石墙和偶尔出现的精美门楣雕塑引领你前行。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在气势恢宏的罗马式主教座堂前停下，花时间欣赏其朴素的立面和内部光影交织的宁静中殿。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过教堂旁的小巷，突然置身于开阔的市政广场，面对建于13世纪的市政宫与人民宫，想象当年市民集会的场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从广场一侧的拱门钻入迷宫般的居民区，在名为“吻巷”的狭窄通道里抬头看一线天光。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观雄踞山巅的罗卡城堡，站在其露台上让360度的翁布里亚田园风光将你淹没。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着中世纪城墙的步道向西漫步，在不同的角度回望古城错落的屋顶与塔楼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前找到位于古城西端的一个小观景台，看夕阳将整个石头城池染成温暖的金红色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`从斯波莱托方向驶来的SS3国道上的一处转弯观景台`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，用长焦镜头压缩空间，可以拍到古城全景悬浮在绿色山谷之上的魔幻景象。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`市政广场东南角的小拱门之下`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点阳光斜射时，站在拱门阴影里向外拍摄，能将广场上的人物、古老的宫殿立面与远处山谷框成一幅生动的“画中画”。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“吻巷”的底部向上仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分当阳光直射进窄巷顶部时，拍摄能获得极其强烈的明暗对比和纵深感，让人物靠在一侧墙上形成剪影效果尤为出色。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`罗卡城堡的北侧城墙边`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，逆光拍摄古城屋顶的瓦片和烟囱，它们会呈现出温暖的轮廓光，而背景是深邃的蓝色山谷。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`主教座堂后殿外的僻静角落`}</h4>
+                  <p className="text-sm text-gray-700">{`寻找攀附在老墙上的紫藤或九重葛（花期为春夏季），以花朵为前景虚化，聚焦后方古老的石窗或飞扶壁，充满古典诗意。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尊重当地居民隐私，避免将镜头直接对准居民家的窗户或阳台内部。使用无人机在意大利历史中心区通常有严格限制，在纳尔尼这样的古城上空飞行很可能违法，务必提前查询法规。室内宗教场所（如主教座堂）禁止使用闪光灯和三脚架。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在山脚下现代城区由家族经营的小旅馆，房间干净明亮，老板会热情地为你手绘古城地图，并推荐只有本地人才知道的餐馆。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`入住古城中心一栋由13世纪塔楼改造的精品民宿，螺旋的石阶、古老的木梁和现代的舒适完美结合，晚上能听见整座城陷入沉睡的寂静。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车前往古城周边丘陵间的文艺复兴风格庄园酒店，享受无边泳池、自家产的橄榄油和葡萄酒，并在露台上享用早餐，正对着云雾缭绕的纳尔尼全景。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐修之趣`}</h4>
+                  <p className="text-sm text-purple-800">{`尝试预订古城内由古老修道院部分改建的宁静客房，体验极简的石头美学，清晨在曾经的修道院回廊里漫步，感受超越时间的平和。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`古城内的住宿数量非常有限且极其抢手，尤其是在夏季和重要节日期间，务必提前数月预订。住在古城内意味着你要拖着行李走过一段不短的石阶路，请做好心理准备。山脚下的城区生活便利，有超市和免费停车场，是自驾游客的务实之选。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开纳尔尼时，我背包里没有多出什么纪念品，但心里却仿佛被那些石头填满了。那不是一种沉重的负担，而是一种奇异的踏实感。在这个一切都在加速迭代的世界里，纳尔尼的存在，像是一个坚定而温柔的“不”。它不追赶潮流，不刻意讨好，只是静静地、顽固地停留在时间里，用它那一砖一石证明着，有些东西可以比王朝更替、比时尚变迁更为持久。它让你相信，生活的质地可以如此坚实，历史并非遥不可及的传说，而就是我们脚下被无数代人踩踏得温润发亮的道路。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`所以，如果你厌倦了那些被明信片和人群定义的热门景点，如果你渴望的不仅仅是一张照片，而是一次真正的“抵达”——抵达一个地方的灵魂深处，那么，请务必来纳尔尼。专程为它绕一段路，花上一整天在其中漫无目的地游荡。让它用寂静的街道、突然出现的峡谷 vistas、陌生老人友好的点头微笑，以及黄昏时分弥漫全城的、混合着柴火与迷迭香的空气，来治愈你的匆忙。你会发现，这座以“纳尼亚”为名的城，的确拥有魔法——那是一种让你内心喧嚣沉静下来，并重新感知时间厚重与生活本真的魔法。这，正是深度旅行所能给予我们的，最珍贵的礼物。`}</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

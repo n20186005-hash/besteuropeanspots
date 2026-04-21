@@ -1,0 +1,207 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科希策老城 Kosice Old Town｜探秘斯洛伐克“欧洲文化之都”的心脏，在黄金中轴线遇见慢时光 - 最佳欧洲景点',
+  description: '记得我第一次从火车站那条略显沉闷的街道拐进老城时，那种感觉就像突然掀开了一块厚重的幕布。阳光毫无预兆地洒下来，眼前豁然开朗——一条被金色暖阳浸透的、异常宽阔又异常漫长的石板路向前铺展开去，这就是传说中的Hlavná，科希策的主街。它不是一条普通的街道，而是一个巨大的、露天的公共客厅。空气里有新鲜烘焙...',
+}
+
+export default function KosiceOldTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '科希策老城', href: '/attractions/kosice-old-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`科希策老城・Kosice Old Town・斯洛伐克・科希策`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`记得我第一次从火车站那条略显沉闷的街道拐进老城时，那种感觉就像突然掀开了一块厚重的幕布。阳光毫无预兆地洒下来，眼前豁然开朗——一条被金色暖阳浸透的、异常宽阔又异常漫长的石板路向前铺展开去，这就是传说中的Hlavná，科希策的主街。它不是一条普通的街道，而是一个巨大的、露天的公共客厅。空气里有新鲜烘焙的“lokše”（一种土豆薄饼）的焦香，混合着从古老石墙缝隙里透出的、凉丝丝的潮气。最妙的是声音：广场中央的歌唱喷泉正播放着德沃夏克的曲子，水柱随着旋律起舞；远处教堂整点的钟声浑厚地加入进来；而近处，是咖啡杯碟清脆的碰撞声和人们压低的、带着斯洛伐克语柔软尾音的谈笑声。
+你很快会发现，这里的生活节奏是横向流淌的，而不是向前冲刺的。当地人似乎把这条街当成了自家走廊。老人坐在长椅上，把面包屑掰给成群的鸽子；年轻父母推着婴儿车，在那些巴洛克立面的华丽浮雕下悠闲散步；而穿着时髦的年轻人，则窝在由古老银行大厅改造的咖啡馆角落里，对着笔记本电脑工作。圣伊丽莎白大教堂那哥特式的尖塔，像一个沉默而温柔的巨人，俯瞰着这一切日常的喧嚣与宁静。它不仅仅是地标，更是整座城市的时间轴心和精神锚点。
+真正让人着迷的，是这条主街的尺度感。它宽得奢侈，长得以至于尽头都氤氲在光影里。两旁建筑的高度与街道的宽度形成了一种奇妙的和谐比例，让你既不感到压抑，也不觉得空旷。你的目光总会不由自主地被那些立面细节吸引：一扇文艺复兴式的石雕窗框、一个巴洛克阳台下卷曲的托架、一幅新艺术运动风格的铁艺招牌……历史在这里不是博物馆里的标本，而是你散步时不断擦肩而过的邻居，它们风格各异，却奇妙地共处一堂。到了傍晚，当金色的夕阳把整个砂岩建筑群染成蜜糖色，咖啡馆纷纷在广场上支起露天座，点亮一串串小灯，空气里开始飘散开啤酒和烤香肠的香气。这时，老城才真正显露出它最温暖、最慵懒，也最欧洲的一面——一个为相聚、交谈和慢生活而存在的完美容器。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4">{`记得我第一次从火车站那条略显沉闷的街道拐进老城时，那种感觉就像突然掀开了一块厚重的幕布。阳光毫无预兆地洒下来，眼前豁然开朗——一条被金色暖阳浸透的、异常宽阔又异常漫长的石板路向前铺展开去，这就是传说中的Hlavná，科希策的主街。它不是一条普通的街道，而是一个巨大的、露天的公共客厅。空气里有新鲜烘焙的“lokše”（一种土豆薄饼）的焦香，混合着从古老石墙缝隙里透出的、凉丝丝的潮气。最妙的是声音：广场中央的歌唱喷泉正播放着德沃夏克的曲子，水柱随着旋律起舞；远处教堂整点的钟声浑厚地加入进来；而近处，是咖啡杯碟清脆的碰撞声和人们压低的、带着斯洛伐克语柔软尾音的谈笑声。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`你很快会发现，这里的生活节奏是横向流淌的，而不是向前冲刺的。当地人似乎把这条街当成了自家走廊。老人坐在长椅上，把面包屑掰给成群的鸽子；年轻父母推着婴儿车，在那些巴洛克立面的华丽浮雕下悠闲散步；而穿着时髦的年轻人，则窝在由古老银行大厅改造的咖啡馆角落里，对着笔记本电脑工作。圣伊丽莎白大教堂那哥特式的尖塔，像一个沉默而温柔的巨人，俯瞰着这一切日常的喧嚣与宁静。它不仅仅是地标，更是整座城市的时间轴心和精神锚点。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`真正让人着迷的，是这条主街的尺度感。它宽得奢侈，长得以至于尽头都氤氲在光影里。两旁建筑的高度与街道的宽度形成了一种奇妙的和谐比例，让你既不感到压抑，也不觉得空旷。你的目光总会不由自主地被那些立面细节吸引：一扇文艺复兴式的石雕窗框、一个巴洛克阳台下卷曲的托架、一幅新艺术运动风格的铁艺招牌……历史在这里不是博物馆里的标本，而是你散步时不断擦肩而过的邻居，它们风格各异，却奇妙地共处一堂。到了傍晚，当金色的夕阳把整个砂岩建筑群染成蜜糖色，咖啡馆纷纷在广场上支起露天座，点亮一串串小灯，空气里开始飘散开啤酒和烤香肠的香气。这时，老城才真正显露出它最温暖、最慵懒，也最欧洲的一面——一个为相聚、交谈和慢生活而存在的完美容器。`}</p>
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`科希策老城`} />
+                <InfoRow label="英文名称" value={`Kosice Old Town`} />
+                <InfoRow label="正式名称" value={`科希策历史中心`} />
+                <InfoRow label="国家" value={`斯洛伐克`} />
+                <InfoRow label="城市" value={`科希策`} />
+              </div>
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`斯洛伐克东部无可争议的历史、文化与经济中心，历史上匈牙利王国的重要自由皇城之一，并在2013年与法国马赛共同荣膺“欧洲文化之都”称号。`} />
+                <InfoRow label="建筑特色" value={`拥有欧洲最狭窄的三角形主广场之一，广场两侧林立着哥特式、文艺复兴式、巴洛克式及新艺术运动风格的建筑瑰宝，形成一条令人惊叹的“建筑艺术长廊”。`} />
+                <InfoRow label="建筑风格" value={`以中世纪哥特式为核心，完美融合了文艺复兴、巴洛克、古典主义及19世纪末新艺术运动风格的中欧典型历史城市风貌。`} />
+                <InfoRow label="文化价值" value={`作为东西欧文化、商贸与思想交汇的十字路口，其层层叠加的建筑与城市肌理，生动记录了从中世纪自由城邦到现代欧洲文化之都的完整演进史诗。`} />
+              </div>
+            </div>
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`老城公共区域全天24小时开放。城内主要景点（如圣伊丽莎白大教堂、雅各布宫、地下考古博物馆等）开放时间各异，通常为周二至周日 10:00-18:00，周一闭馆或缩短开放时间。冬季（11月至次年3月）部分景点开放时间会缩短，夏季常有延长开放至晚上的文化活动和夜市。具体请务必在出发前查询各场馆最新官网信息。`} />
+              <InfoRow label="门票价格" value={`漫步老城街区本身完全免费。进入主要景点需购票：
+圣伊丽莎白大教堂：成人票约8欧元，学生及儿童优惠票约5欧元，登塔费用另计约3欧元。
+地下考古博物馆：成人票约6欧元。
+雅各布宫/东斯洛伐克博物馆：联票价格约10欧元，可参观多个分馆。
+普遍对6岁以下儿童、持有效证件的残障人士及一名陪同者免费。学生、青少年及65岁以上长者享受折扣价。建议购买“科希策卡”（Kosice Card），可在规定时间内无限次乘坐公共交通并享受大部分景点的门票折扣。`} />
+              <InfoRow label="地址" value={`Hlavná ulica, 040 01 Košice, Slovakia`} />
+              <InfoRow label="交通方式" value={`从最近的科希策国际机场（Košice International Airport, KSC）出发：最便捷方式是乘坐22路公共巴士，车程约25-30分钟，终点站为“Námestie osloboditeľov”（解放者广场），步行5分钟即可进入老城主街（Hlavná ulica）。巴士班次约每30-60分钟一班，票价约1.5欧元，可在机场到达厅或上车后向司机购票。搭乘出租车前往老城费用约15-20欧元，车程20分钟。
+从科希策中央火车站（Košice hlavná stanica）出发：这是更常见的选择。出站后，沿着Moyzesova街向东北方向步行，约15-20分钟即可轻松抵达老城南端的解放者广场和歌唱喷泉，正式踏入老城区域。沿途会经过一些社会主义时期的建筑，与即将见到的中世纪老城形成有趣对比。也可在火车站前搭乘多路电车（如电车2、4、9路）或巴士，坐2-3站到“Námestie osloboditeľov”下车。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`科希策的故事，始于一场毁灭。1241年，蒙古铁骑如飓风般席卷了这里原始的斯拉夫人定居点，将一切化为焦土。但正是这场灾难，催生了新生。次年，来自德意志、佛兰德斯等地的移民受匈牙利国王贝拉四世的邀请，在这片废墟上重建了一座遵循西方城市法则的“自由皇城”。他们带来了先进的市政理念、手工艺和贸易网络，城市沿着一条古老的商路迅速生长，那条路就是今天Hlavná街的雏形。到了14世纪，科希策已是匈牙利王国最富有、最重要的城市之一，它拥有铸造自己的金币（著名的“科希策金币”）的权利，这份无上的荣耀，促成了城市心脏上一座巨构的诞生——圣伊丽莎白大教堂。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`说起这座中欧东部最大的教堂，它的建造本身就是一部跌宕的连续剧。工程断断续续进行了超过一个世纪，从纯粹的法国哥特式启程，历经多位建筑大师之手，融入了本土的理解和工艺。资金时断时续，设计图也几经修改，最终成就了我们今天看到的，这座兼具雄伟与优雅，尖塔直刺苍穹的圣地。它不仅是一座宗教建筑，更是城市财富、野心和信仰的实体宣言。教堂脚下，就是城市生活的中心广场，商人们的行会房屋、市政厅、富商的宅邸相继在此建立，财富在这里汇聚、展示和交换。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`然而，中欧的命运从来与和平无关。16世纪，奥斯曼帝国的阴影笼罩匈牙利，科希策从繁荣的商业中心，转型为坚固的边境要塞。你如今在老城边缘偶尔还能看到的零星城墙遗迹，以及那套复杂的地下通道系统（据说总长数公里），就是那个紧张时代的产物。城市在哈布斯堡王朝与反叛的匈牙利贵族之间多次易手，经历了围攻、瘟疫和火灾。但每次创伤之后，它都顽强地重生，并在18世纪的巴洛克风中，为自己披上了一层新的华丽外衣。许多中世纪房屋被赋予了波浪形的山墙、繁复的灰泥装饰和充满动感的雕塑，比如今天的“屠杀之屋”，它的立面就是一出石头刻成的戏剧。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`19世纪，随着工业革命的火车轰鸣着驶入（科希策是奥匈帝国东部重要的铁路枢纽），钢铁厂和工厂在郊区崛起，城市再次扩张。新艺术运动的风也吹到了这里，在老街上留下了优雅曲线装饰的银行大楼和公寓。二十世纪的战火与意识形态更迭，在老城的肌体上划下了更深的刻痕，但它核心的中世纪骨架奇迹般地保存了下来。2013年，当科希策与马赛共同戴上“欧洲文化之都”的桂冠时，它完成了一次华丽的现代转身。那些曾经的军营、工厂和游泳池，被改造成了当代艺术馆、创意中心和音乐厅。古老的主街，不仅回响着历史的足音，更开始跃动起先锋的节奏。这就是科希策老城，它从未活在过去，而是一直在历史的层层沉积岩上，不断地书写着新的篇章。`}</p>
+            </div>
+          </Section>
+
+          <Section title="4. 游览路线">
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">推荐路线</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味科希策老城的精髓，我强烈建议你留出一整天的时间，并且从早上九点左右开始。这个时间，旅游团还未涌入，阳光正好以柔和的角度斜射在主街上，最适合欣赏建筑立面的质感和光影。整个游览节奏应是“慢浸入式”的：以圣伊丽莎白大教堂为纵深的起点，沿着主街这条水平轴线由南向北缓慢推进，深入探访两侧如毛细血管般的小巷和庭院，最后以登上塔楼俯瞰全城或是在地下世界探寻奥秘作为收尾。下午的时光留给博物馆和意外的发现，傍晚则一定要交还给广场上的露天咖啡馆，感受昼与夜、历史与当下交接时那魔法般的时刻。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`主街石板路虽然美丽，但对高跟鞋和行李箱轮子极不友好，请务必换上最舒适行走的鞋子。
+周末的上午，主街上常有热闹的农贸集市，这是体验本地生活、品尝新鲜小吃（如羊奶酪、蜂蜜和传统糕点）的绝佳机会，不容错过。
+警惕那些在广场上过于热情、手拿问卷或廉价手链靠近你的人，礼貌而坚定地说“不，谢谢”即可，科希策治安总体很好，但这类小麻烦在旅游区难免存在。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从南端的“歌唱喷泉”开始你的旅程，静静听一首曲子，看水柱舞动，感受这座城市的现代艺术脉搏与公共空间的完美结合。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`转身仰视圣伊丽莎白大教堂的西门，花点时间细数门上那些精细到令人屏息的哥特式浮雕，它们讲述了圣徒的故事，是石头上的圣经。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`买票进入大教堂内部，让眼睛适应那片幽暗，然后被高耸的肋状拱顶和从彩色玻璃窗倾泻而下的、如同宝石碎片般的绚丽光线彻底征服。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要找到通往地下圣米迦勒礼拜堂的入口，那里阴凉、静谧，保存着中世纪的壁画和古老的石棺，是城市最古老的灵魂栖所。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂出来，沿着主街（Hlavná）北行，经过文艺复兴风格的“屠杀之屋”，想象一下它立面上那些雕像在月光下讲述的古老传说。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在市政厅塔楼前右拐，钻进狭窄的“监狱街”，探索那片被低矮拱廊和彩色房子包围的宁静区域，这里是老城最初的模样。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`继续向北走到主街尽头，你会看到圣三位一体鼠疫柱和对面巴洛克式的“泰赫霍夫宫”，这里是停下来喝杯咖啡观察行人的绝佳位置。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，可以选择参观东斯洛伐克博物馆，或者更有趣的，寻找地下考古博物馆的入口，下降到数百年历史的地基和通道中，触摸城市真正的“根”。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣伊丽莎白大教堂仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`站在主街正对教堂西立面的位置，使用广角镜头，在下午三四点阳光将教堂正面完全照亮且天空湛蓝时拍摄，能将教堂的雄伟与街道的生活气息一同纳入画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“屠杀之屋”立面特写`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点左右，阳光能恰好照亮这栋文艺复兴建筑华丽的雕花立面，靠近拍摄其细节，将行人作为模糊的前景，能获得富有故事感的照片。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`Hlavná街景纵深`}</h4>
+                  <p className="text-sm text-gray-700">{`从靠近北端鼠疫柱的位置向南拍摄，利用街道天然的透视感，将两旁色彩柔和的建筑、街灯、行人作为引导线，终点是远处朦胧的教堂尖塔，最佳光线在日出后或日落前一小时的“黄金时刻”。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`地下考古博物馆的光影`}</h4>
+                  <p className="text-sm text-gray-700">{`在参观地下通道时，利用手机或相机的弱光模式，捕捉人工灯光打在古老砖石拱顶和考古遗迹上的幽暗氛围，注意保持相机稳定。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`市政剧院旁的小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`从主街拐进剧院旁通往“监狱街”的小巷，在午后阳光将一侧墙壁照得金黄时拍摄，捕捉光影切割狭窄街道的几何美感与宁静氛围。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`教堂内部通常允许非商业用途拍照，但务必关闭闪光灯，以示尊重并保护珍贵的艺术品与壁画。`}</li>
+                <li>• {`斯洛伐克人普遍含蓄内敛，拍摄街头人物时，尽量采用远景或不经意的抓拍，避免长时间、近距离的直视镜头拍摄，如需拍摄肖像，一个微笑和事先的手势询问是基本礼仪。`}</li>
+                <li>• {`冬季雪后的老城美如童话，但气温极低，务必做好相机电池的保暖工作（可贴身存放备用电池），进入温暖的室内前，记得将相机密封在塑料袋中以防止冷凝水损坏。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title="6. 住宿小贴士">
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史中心沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻于主街上由百年历史建筑改造的精品酒店，房间可能保留了原始的拱顶或木梁，推开窗就是教堂景致，夜晚听着广场隐约的乐声入眠。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`设计感艺术公寓`}</h4>
+                  <p className="text-sm text-green-800">{`选择老城广场旁一栋新艺术运动风格公寓楼里的短租民宿，内部是现代的北欧设计，拥有设备齐全的小厨房，让你像本地人一样去早市买菜回来烹饪。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`火车站附近实用派`}</h4>
+                  <p className="text-sm text-yellow-800">{`对于预算有限或搭乘早班火车的旅客，火车站步行十分钟范围内的现代酒店是务实之选，房间宽敞干净，性价比高，往返老城核心区也非常方便。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`静谧庭院民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`藏在主街背后某条安静小巷中的家庭式民宿，拥有一个种满鲜花的内庭阳台，早餐是女主人自制的果酱和糕点，提供最深度的本地生活体验。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">{`科希策是“欧洲文化之都”遗产城市，旺季（夏季音乐节期间及圣诞市场期间）住宿非常紧俏，价格也会飙升，务必提前至少一至两个月预订。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`老城中心的酒店虽位置绝佳，但周末夜晚楼下广场可能比较热闹，浅眠者建议选择带有双层玻璃窗的房间或稍偏离主广场几个街区的住宿。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`如果自驾前来，务必确认住宿地点是否提供停车场，老城内部停车位稀少且昂贵，通常需要停在周边的公共停车场。`}</p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4">{`离开科希策好些日子了，但脑海里最常浮现的，不是某个具体的建筑细节，而是一种整体的“感觉”。那是一种被从容和宽厚包围的感觉。这座城市，尤其是它的老城，有一种罕见的“呼吸感”。它不拥挤，不焦虑，不急于向你证明什么。它就那样坦然地展开它宽阔的胸膛，任由历史在它身上留下或深或浅的印记——哥特式的尖锐、巴洛克的飞扬、战火的伤疤、社会主义的方整，还有当代艺术的调皮点缀。所有这些时代层，就像一本翻开的书，页码有点乱，但每一页都真实可触。它不试图美化或隐藏任何一段过去，这种诚实，反而造就了它复杂而迷人的气质。`}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">{`在这个一切都被加速、被扁平化的时代，科希策老城像是一个坚定的“减速带”。它提醒我们，城市最初的功能，是让人相遇、交谈、生活，而不仅仅是通行和消费。坐在主街的长椅上，看着鸽子起落，钟声按时敲响，你会不自觉地调整自己的呼吸，跟随上它的节奏。这里没有必须打卡的“网红”压力，旅行的意义回归到最本真的观察、感受和存在。对于每一位厌倦了浮光掠影、渴望在旅途中获得内心平静的深度游旅人来说，科希策老城都是一个珍贵的礼物。它不会用喧嚣的娱乐轰炸你，而是邀请你坐下来，喝一杯慢煮的咖啡，听它用石头、光影和缓慢流淌的日常，轻声讲述一个关于坚韧、融合与生活本身的中欧故事。这故事，值得你专程前来，侧耳倾听。`}</p>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

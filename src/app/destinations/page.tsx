@@ -8,12 +8,12 @@ export const metadata = {
 };
 
 export default function DestinationsPage() {
-  // 提取所有不重复的国家
+  // 提取所有国家并按拼音或首字母排序
   const countries = Array.from(
     new Map(
       attractions
-        .filter((a) => a.country && a.countrySlug)
-        .map((a) => [a.countrySlug as string, a.country as string])
+        .filter((a) => a.countrySlug && a.country)
+        .map((a) => [a.countrySlug, a.country])
     )
   ).sort((a, b) => a[0].localeCompare(b[0]));
 

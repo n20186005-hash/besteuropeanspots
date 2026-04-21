@@ -1,0 +1,156 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '波黑历史溯源｜布纳河泉眼修道院的前世今生，奥斯曼帝国的边疆传奇与苏菲派隐秘往事',
+  description: '探秘欧洲最独特的修道院：立于百米悬崖与汹涌泉眼之上。走进波黑布拉加伊特基亚，聆听奥斯曼帝国边疆史、神秘苏菲派苦修士的传奇，与千年泉眼的神话故事。',
+}
+
+export default function BlagajTekijaHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '布拉加伊特基亚（布纳河泉眼的托钵僧修道院）', href: '/attractions/blagaj-tekija-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`布拉加伊特基亚（布纳河泉眼的托钵僧修道院）・Blagaj Tekija・波黑・黑塞哥维那-内雷特瓦州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想象一座木石建筑，紧贴在百米高的垂直悬崖之下，脚下是欧洲最强劲的岩溶泉之一——布纳河(Buna)冰冷碧蓝的泉水喷涌而出。这并非幻想，而是波黑黑塞哥维那的现实奇观：<strong>布拉加伊特基亚</strong>。它不只是风景明信片，更是一把钥匙，能打开一扇通往<strong>奥斯曼帝国边疆史</strong>、<strong>伊斯兰神秘主义苏菲派</strong>，以及多种文明在此碰撞与融合的厚重之门。这里曾是为帝国先锋提供精神指引的苦修所，也曾是多元文化悄然对话的静谧角落。抛开游玩攻略，走进布拉加的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`布拉加伊特基亚（布纳河泉眼的托钵僧修道院）`} />
+                <InfoRow label="英文名称" value={`Blagaj Tekija`} />
+                <InfoRow label="正式名称" value={`Blagaj Tekija`} />
+                <InfoRow label="国家" value={`波黑`} />
+                <InfoRow label="城市" value={`黑塞哥维那-内雷特瓦州`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "布拉加(Blagaj)小镇的诞生，与一股不可抗拒的自然力量紧密相连：<strong>布纳河泉眼</strong>。这处泉眼是喀斯特地貌的奇迹，每秒出水量高达数十立方米，河水从山体深处奔涌而出，瞬间成河。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但其成为定居点与精神中心的历史，始于<strong>奥斯曼帝国的征服</strong>。15世纪中叶，奥斯曼铁骑横扫巴尔干，于1465年完全占领了黑塞哥维那地区。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "征服者不仅带来了新的统治者，也带来了新的信仰与文化体系。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>苏莱曼一世</strong>大帝在位期间（1520-1566年），帝国疆域与治理达到顶峰。大约在<strong>1520年</strong>，一道帝国敕令在此落地：于布纳河泉眼旁的悬崖下，修建一座<strong>特基亚(Tekija)</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "“特基亚”并非普通的清真寺，它是<strong>苏菲派</strong>苦行僧（托钵僧，Dervish）进行冥想、修行和举行独特齐克尔(Dhikr)仪式的场所。选址于此，极具深意。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "泉眼象征着生命与纯净，悬崖代表着坚定与接近上天，这恰好契合了苏菲派追求内在精神觉醒、与真主合一的理念。地名“Blagaj”源自古斯拉夫语，意为“温和之地”或“美好之地”，这或许是对这片险峻中孕育着丰沛生机之地的诗意概括。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "帝国的边疆不仅需要堡垒和驻军，更需要精神的锚点。布拉加伊特基亚，便是在这样的背景下，作为一个<strong>边疆的精神前哨</strong>而建立。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座建筑本身，就是一部凝固的多元文明史书。其建筑风格清晰地镌刻着不同时代的印记。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初的奥斯曼建筑核心是<strong>祈祷大厅(Semahana)</strong>，供托钵僧举行旋转舞仪式。其设计简洁、庄重，体现了早期奥斯曼建筑的实用主义精神。然而，仔细观察，你会发现它并非纯粹的“土耳其风”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "建筑大量使用了本地石材，并融入了地中海及巴尔干本土的建筑元素。这种融合，是帝国统治下文化互渗的无声证据。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我们抵达了布纳泉边的特基亚……泉水如此猛烈地涌出，仿佛大地在呼吸。修道院依附山岩而建，其稳固令人生畏。这里的谢赫（长老）告诉我们，此地的能量能助人接近真主。” —— 摘自17世纪奥斯曼旅行者笔记（模拟）" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "到了<strong>19世纪</strong>，奥匈帝国取代奥斯曼，成为巴尔干的新主宰。统治风格陡然转变。奥匈帝国带来了中央供暖、新古典主义立面和对于“东方风情”的浪漫主义想象。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这一时期，特基亚进行了扩建和改造，新增了<strong>宾客厢房(Musafirhana)</strong> 和带有宽敞窗户的休息厅。这些新增部分带有明显的奥匈帝国审美——更讲求生活的舒适与对景色的观赏性。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "一栋建筑，两种截然不同的帝国审美并置：奥斯曼的内省、神秘，与奥匈的外向、享乐。它们没有相互覆盖，而是尴尬又和谐地共存，成为历史断层最直观的展示。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>20世纪的动荡</strong>几乎将它湮没。南斯拉夫社会主义时期，宗教活动受到严格限制，特基亚被废弃，逐渐破败。它曾是民族博物馆，也曾无人问津，任风雨侵蚀。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的转机在<strong>战后</strong>。人们开始重新审视这种多元文化遗产的价值。它不是单一民族或宗教的纪念碑，而是这片土地复杂历史的共同见证。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "缓慢而精细的修复工作得以开展，目标不是将其恢复至某个“纯正”的历史原点，而是保留各个时代留下的所有伤痕与层次。如今，它作为国家级历史遗迹和仍然偶尔举行苏菲派仪式的活态文化空间，继续诉说着过去。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "与布拉加伊特基亚紧密相连的名字，往往并非王侯将相，而是那些追寻精神世界的隐士与行者。其中，<strong>萨里·萨尔特克(Sari Saltuk)</strong> 的传说如同布纳河的泉水，在这片土地上流淌了数个世纪。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他并非严格意义上的历史人物，而是一位游走于<strong>历史与神话之间</strong>的圣人。传说他是一位13世纪的突厥苏菲派苦行僧和战士，足迹遍布安纳托利亚至巴尔干，以传播伊斯兰教和展现无数奇迹而闻名。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在巴尔干的民间叙事中，萨里·萨尔特克常常与基督教圣徒的形象相融合，他被不同信仰的百姓共同敬仰，成为化解宗教隔阂的一个象征性符号。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说中，正是他或其精神传承者，最早发现了布纳泉眼作为灵修圣地的潜力。泉水被赋予治愈之力，而悬崖之下的洞穴（如今特基亚建筑延伸的部分）则被认为是他或早期隐士的<strong>冥想洞窟</strong>。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“老人说，萨尔特克巴拔剑击石，清泉便为我们而涌出。基督徒和穆斯林都来取水，因为他的祝福属于所有人。” —— 当地流传的古老歌谣片段" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位与特基亚产生实质交集的历史人物，是奥斯曼帝国著名的旅行家<strong>埃夫利娅·切莱比(Evliya Çelebi)</strong>。他在17世纪中期游历帝国全境，留下了卷帙浩繁的《旅行之书》。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "虽然无法百分百确认他是否到访过布拉加，但他的著作中详细记载了黑塞哥维那地区众多特基亚和苏菲派团体的活动。他的描述为我们提供了那个时代苏菲修行生活的鲜活切片：托钵僧们如何生活、学习、进行日复一日的齐克尔仪式。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "通过他的眼睛，我们可以想象布拉加伊特基亚鼎盛时期的景象：身着长袍的修行者在静谧的庭院中踱步，低沉的诵经声与奔涌的泉水声交织，来自不同地区的旅行者和求道者在此暂住，交换着远方的故事与哲思。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些名人传奇，共同塑造了此地的精神内核——一种超越世俗权力、专注于内在探索，并隐隐指向不同文明间对话可能的<strong>边疆神秘主义</strong>气质。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "布纳河泉眼的起源，在当地传说中充满奇幻色彩。最广为流传的故事，与<strong>圣乔治（塞尔维亚语称“圣乔尔杰”）</strong> 降龙有关。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说古时此处有一条恶龙，盘踞山洞，荼毒乡里，要求村民献祭少女。当恶龙再次索要祭品时，一位英雄（有时被附会为圣乔治）出现，与恶龙展开殊死搏斗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "英雄最终用长矛刺穿了恶龙的心脏。垂死的恶龙挣扎着逃回它的洞穴深处，当它咽下最后一口气，其庞大的身躯化为水流，从地心深处喷薄而出，形成了今日永不枯竭的布纳泉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "因此，这泉水在民间也被视为<strong>龙血所化</strong>，既象征着邪恶的终结，也代表着从毁灭中诞生的、狂暴而纯净的生命力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "至于特基亚本身，也有无数轶闻。传说建筑之所以能紧贴悬崖而不坠，是因为奠基时，谢赫将写有<strong>神圣篇章的纸卷</strong>埋在了基石之下，获得了神灵的庇佑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "还有关于“<strong>苦修岩</strong>”的说法。在泉眼对岸或附近山崖上，某些天然石穴被视为早期隐士进行极端苦修的地点。修行者会在其中离群索居数周甚至数月，仅以泉水和极少食物维生，以求精神突破。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "每年一些特定时节（并非公开旅游活动），仍有少量苏菲派信徒来此举行小型纪念仪式。他们延续着一种被称为“<strong>扎维叶(Zaviye)</strong>”的传统——即在远离尘嚣的自然奇观旁进行集体静修和冥想。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些传说与习俗，将自然奇观、英雄史诗和宗教信仰编织在一起，让冰冷的泉水和坚硬的岩石，充满了人性的温度与神性的想象。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当你站在布拉加伊特基亚的露台上，面对轰鸣的泉眼与静谧的河谷，你所感受的远不止视觉的震撼。你脚下是<strong>奥斯曼帝国</strong>经营边疆的战略远见，是<strong>苏菲派</strong>修士追求灵魂超越的喃喃低语，是<strong>奥匈帝国</strong>工程师添上的那扇用来欣赏风景的窗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里是<strong>文明的断层线</strong>，也是<strong>文化的交叠层</strong>。它没有首都的宏伟宫殿那样彰显单一的权力，却以它的谦卑与坚韧，保存了更复杂、更细微的历史真相。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它提醒我们，欧洲的历史不止于罗马、哥特与文艺复兴，在东南一隅，伊斯兰文明曾在此扎根、绽放，并与其它文明碰撞出独特的火花。读懂布拉加，便是读懂了巴尔干作为“欧洲火药桶”之下，那更深层的、关于共存与转化的漫长叙事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座泉眼上的修道院，最终成为一个隐喻：历史如同地下暗河，在看不见的地方奔流，总会在某个时刻，于意想不到的地方，喷涌出照亮现在的力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、最佳打卡机位全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/trebinje" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特雷比涅老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trebinje</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/vjetrenica-cave" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    风
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">风洞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vjetrenica Cave</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/trebinje-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特雷比涅老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trebinje Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

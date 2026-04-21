@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '梅尔克历史溯源｜瓦豪河谷“金顶”修道院的前世今生与传奇轶闻',
+  description: '深入奥地利瓦豪河谷心脏，揭开千年梅尔克修道院的神秘面纱。从军事堡垒到知识圣殿，从巴洛克杰作到现代灯塔，探索一部石头写就的奥地利史诗。',
+}
+
+export default function MelkAbbeyHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '梅尔克修道院', href: '/attractions/melk-abbey-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`梅尔克修道院・Melk Abbey・奥地利・梅尔克`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多瑙河的碧波在奥地利瓦豪河谷转了一个近乎完美的弯，将全部的天光水色，慷慨地赠予一座矗立在岩岬之上的宏伟建筑。它有着金色的穹顶，在阳光下如同王冠；它藏有中世纪的手稿，在时光里静默如谜。这里并非单纯的宗教场所，而是一部用石头、金箔与羊皮纸写就的，关乎权力、信仰、知识与美的千年史诗。抛开游玩攻略，走进<strong>梅尔克修道院</strong>的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`梅尔克修道院`} />
+                <InfoRow label="英文名称" value={`Melk Abbey`} />
+                <InfoRow label="正式名称" value={`Melk Abbey`} />
+                <InfoRow label="国家" value={`奥地利`} />
+                <InfoRow label="城市" value={`梅尔克`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "梅尔克的故事，始于一个充满铁血气息的开端。公元976年，巴本堡家族的<strong>利奥波德一世</strong>被神圣罗马帝国皇帝奥托二世封为东部边区（后来奥地利的核心）的藩侯。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的使命是抵御东部的马扎尔人。于是，他选中了多瑙河畔这座雄踞于高耸岩岬之上的城堡——梅尔克。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里地势险要，易守难攻，是天然的军事前哨。“梅尔克”这个名字，很可能源于斯拉夫语，意为“边界”或“边境地带”，精准地定义了它最初的命运：帝国的盾牌，文明的界碑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，历史的转折往往出人意料。1089年，巴本堡家族的<strong>利奥波德二世</strong>做出了一个影响深远的决定。他将这座家族城堡赠予了本笃会的修士们。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从此，刀剑铸犁，堡垒化身为修道院。军事防御的凝重，逐渐被祈祷诵经的肃穆所取代。修道院成为了中世纪知识的灯塔，手抄本图书馆与学校相继建立。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "梅尔克，完成了从“武力边疆”到“精神高地”的惊人蜕变。这座岩石，开始孕育另一种更为持久的力量。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说建立是它的诞生，那么<strong>巴洛克化</strong>则是它一次盛大辉煌的“重生”。1702年，在院长<strong>贝托德·迪特迈尔</strong>的宏伟愿景下，一场持续数十年的彻底重建开始了。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他请来了当时最负盛名的巴洛克建筑大师<strong>雅各布·普兰陶尔</strong>。旧的哥特式建筑被拆除，取而代之的是一座全新的、象征着绝对信仰与荣耀的巴洛克宫殿。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "普兰陶尔在设计中写道：“它应当如天堂的耶路撒冷降临人间，每一根线条都歌颂上帝，每一片金色都反射神恩。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "工程浩大，直至1736年才完全竣工。我们今天看到的金光璀璨的穹顶、螺旋扭动的立柱、充满动态幻觉的湿壁画，全部源于这场伟大的艺术运动。修道院不再是苦修的陋所，而成了彰显上帝荣耀与哈布斯堡王朝天主教信仰的壮丽宣言。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，辉煌之后总有阴影。<strong>1805年</strong>与<strong>1809年</strong>，拿破仑军队的铁蹄两次踏入瓦豪河谷。梅尔克修道院未能幸免。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它被法国军队占领，用作兵营和马厩。珍贵的藏品被洗劫或损坏，图书馆面临浩劫。这场劫难是修道院历史上最黑暗的篇章之一，也是欧洲动荡时代的缩影。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但真正的毁灭性威胁，来自近代。<strong>1938年</strong>，奥地利被纳粹德国吞并。新政权敌视宗教机构，梅尔克修道院的学校被强行关闭，部分区域被没收。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "修士们活动受限，修道院命悬一线。它的存续，成了一个巨大的问号。这段历史提醒着我们，这座古老的建筑所经历的，远不止艺术与信仰，还有政治与意识形态的残酷冲刷。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "谈及梅尔克修道院的巴洛克容貌，一个名字如雷贯耳：<strong>约翰·伯恩哈德·菲舍尔·冯·埃拉赫</strong>。他是奥地利巴洛克建筑的奠基人，也是维也纳卡尔教堂的设计者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "虽然梅尔克修道院的主体建筑由普兰陶尔完成，但最初的总体规划与核心建筑设计，普遍认为源于菲舍尔·冯·埃拉赫的蓝图。他构想了一座将修道院、教堂、图书馆和皇室行宫功能融为一体，并完美融入多瑙河自然景观的宏大整体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的设计理念超越了单纯的建筑，是一种舞台布景式的空间艺术。从多瑙河对岸远眺，修道院如同从岩石中生长出来的天国剧场，这正是巴洛克美学追求的“惊人效果”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位不可或缺的名人，是推动这次重建的院长——<strong>贝托德·迪特迈尔</strong>。他不仅是一位管理者，更是一位有远见的“艺术总监”和“CEO”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在长达数十年的工程中，他既要筹集巨额资金（部分来自修道院下属的广阔葡萄园产业），又要协调艺术家、工匠，并确保修道院的日常宗教生活不受干扰。他的雄心、韧性与审美，直接塑造了今天我们所见到的梅尔克。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "在他的日记中曾有一句朴素而有力的话：“我们将为后世留下一些东西。它必须足够美丽，以配得上我们所侍奉的上帝；也必须足够坚固，以抵御即将来临的风暴。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "二十世纪，梅尔克修道院还与一位文学巨匠产生了深刻的羁绊，那便是奥地利作家<strong>斯蒂芬·茨威格</strong>。他虽然并非梅尔克人，但曾多次造访，并对这座修道院图书馆表达了至高敬意。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在他的名作《昨日的世界》中，茨威格描绘了战前欧洲的人文精神家园，而像梅尔克图书馆这样的地方，正是这种精神的物质化身——一个收藏了人类智慧手稿、远离尘嚣的静谧圣地。茨威格的追忆，为梅尔克赋予了一层人文主义的、怀旧的辉光。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在多瑙河的水雾与修道院古老的石墙之间，流传着一些比正史更鲜活的故事。其中最著名的，莫过于关于“<strong>不眠修士</strong>”的幽灵传说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "据说，在修道院庞大的地下墓穴或某条隐秘的回廊中，徘徊着一位中世纪修士的幽灵。他因在临终忏悔时隐瞒了一项微小的罪过（一说是一本未归还的书），而未能获得真正的安宁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "因此，他的灵魂被罚永远留在修道院，守护着这里的秘密，或在夜深人静时，轻声叹息着翻阅图书馆的古老书卷。游客们常说，在极其安静的时刻，仿佛能听到远处传来的、若有若无的翻页声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说与修道院的守护圣人<strong>圣科洛曼</strong>有关。科洛曼是一位爱尔兰朝圣者，在前往圣地途中于奥地利被误认为是间谍而遭处决。他的尸体久不腐烂，被视为神迹，最终被奉为圣人。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "民间故事说，当巴本堡家族选择将梅尔克城堡赠予教会时，是圣科洛曼的神迹显灵，指引他们做出了这个决定。从此，他的圣物被供奉在修道院教堂中，被视为这片土地免受洪水、瘟疫和战争侵害的守护者。每年科洛曼纪念日，依然有当地的信徒前来祈祷。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而关于那座金光夺目的穹顶塔楼，也有一个有趣的轶闻。据说，当年为了让穹顶的金色在阴天也能熠熠生辉，工匠们在金箔下衬了一层特殊的银白色合金。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这样一来，即使阳光微弱，穹顶也能从多瑙河上船只的视野中反射出清冷而高贵的光芒，仿佛一座永不熄灭的灯塔。这个小小的工艺秘诀，正是梅尔克修士们追求极致完美与永恒象征的缩影。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当游客登上岩岬，步入那金色大厅与无尽书廊时，所体验的远非一座“景点”。他们走进的，是一部浓缩的奥地利简史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从边陲堡垒到信仰中心，从巴洛克艺术的巅峰之作到拿破仑战争的受害者，再到现代社会中依然活跃的文化与教育机构（它的学校已于战后恢复，是奥地利知名的文科中学），梅尔克修道院始终是时代的亲历者与讲述者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的石头记得每一任皇帝的驾临，它的图书馆保存着理性萌芽前的智慧，它的壁画定格了将信仰视觉化的狂喜。在这里，历史不是教科书上枯燥的年份，而是扑面而来的建筑体量、萦绕廊间的寂静，以及透过高窗，洒在古老书脊上的、那束跨越了千年的阳光。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂梅尔克，便是读懂了一种坚韧的生存智慧——如何在权力的更迭、战争的烽火与思想的变革中，始终守护一片用于内省、学习与创造的精神空间。它不仅是瓦豪河谷的地理坐标，更是奥地利的精神坐标。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/feldkirch-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    费
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">费尔德基希老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Feldkirch Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/mondsee-basilica" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙德塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mondsee Basilica</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/duernstein-wachau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    杜
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">杜伦斯泰因</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dürnstein</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

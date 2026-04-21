@@ -219,19 +219,11 @@ categories.forEach(cat => {
     let slug = baseSlug;
     
     // 如果是游记，后缀加 -travelogue；如果是历史，后缀加 -history；百科保持原样作为主页
-    // 如果已经有这个后缀，就不加了；如果存在不同分类但想转成新分类，我们优先以主 slug 判断
+    // 但必须确保这是在新建或者尚未包含该后缀的情况下
     if (cat.id === 'travelogue') {
       if (!slug.endsWith('-travelogue')) slug += '-travelogue';
     } else if (cat.id === 'history') {
       if (!slug.endsWith('-history')) slug += '-history';
-    }
-
-    // 防重复：如果 JSON 里已经存在同名的记录，无论它是哪个分类（历史、游记还是百科），
-    // 为了防止内链竞食和 URL 重复，我们强制使用该景点已经在 JSON 库中的主 slug！
-    // 这样就不会再生成如 "albi-history" 这种完全冗余的页面，而是直接将内容覆盖到主页面 "albi"。
-    const existingByName = attractionsData.find(a => a.name === data['景点中文名']);
-    if (existingByName) {
-      slug = existingByName.slug;
     }
 
     const pageDir = path.join(attractionsDir, slug);

@@ -102,7 +102,7 @@ export function AttractionGallery({
 
   const filtered = useMemo(() => {
     return attractions.filter((a) => {
-      // Text search filter
+      // 文本搜索过滤
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
         const matchName = a.name?.toLowerCase().includes(q);
@@ -112,7 +112,7 @@ export function AttractionGallery({
         if (!matchName && !matchEn && !matchCity && !matchCountry) return false;
       }
       
-      // Category filter
+      // 分类过滤
       if (selectedRegion && a.region !== selectedRegion) return false;
       if (selectedType && a.type !== selectedType) return false;
       return true;

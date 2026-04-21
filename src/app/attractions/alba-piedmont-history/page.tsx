@@ -1,0 +1,155 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔巴历史溯源｜“百塔之城”的前世今生与白松露传奇',
+  description: '探寻意大利皮埃蒙特的隐秘瑰宝。一座被时间浸染的中世纪小城，它的故事由罗马记忆、百座塔楼与泥土深处的白色钻石共同写就。',
+}
+
+export default function AlbaPiedmontHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '阿尔巴', href: '/attractions/alba-piedmont-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿尔巴・Alba・意大利・皮埃蒙特`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在意大利西北部朗格丘陵的温柔褶皱里，藏着一座被时间浸染的小城。世人皆知它是“白松露之都”，却常常忽略了它另一个更为古老的身份——“百塔之城”。这份双重的传奇，如同它脚下的泥土，一层是馥郁珍贵的菌香，一层是坚硬沉默的砖石。它的历史可以追溯到罗马军团的长矛之下，历经中世纪城邦的热血与算计，最终在美食与美酒的氤氲中找到了现代的平和。抛开游玩攻略，走进阿尔巴的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿尔巴`} />
+                <InfoRow label="英文名称" value={`Alba`} />
+                <InfoRow label="正式名称" value={`Alba`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`皮埃蒙特`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔巴的故事，始于一个与“白色”相关的名字。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "早在罗马人到来之前，这片肥沃的土地就已有居民生活。但真正赋予它城市形态与拉丁文名字 <strong>Alba Pompeia</strong> 的，是公元前1世纪左右的罗马人。这个名字意味深长：“Alba”源于拉丁语的“白色”，可能指代附近山丘裸露的白垩土壤，或是晨曦中朦胧的城郭；“Pompeia”则与罗马大将 <strong>庞培</strong> 有关，据信这座城市由他支持建立或获得其殖民地地位。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它并非为了荣耀或征战而生。阿尔巴最初的使命，是作为一条重要罗马大道上的驿站与防御据点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这条大道连接着沿海的港口与内陆平原，阿尔巴恰好位于一个战略性的十字路口。罗马人看中了这里的地理位置，将其建设成一个规整的“棋盘式”小城。城墙、广场、剧院相继而起，它默默地履行着交通枢纽与区域中心的职责，为往来军队和商旅提供补给与庇护。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗马帝国陨落后，阿尔巴并未湮灭。它先后经历了伦巴第人、法兰克人的统治，但“Alba”这个名字顽强地留存了下来。中世纪早期，它逐渐发展成为主教驻地，宗教权力开始在这里扎根，为后续城邦时代的激烈斗争埋下了伏笔。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座城市从诞生之初，就与“通路”和“守卫”紧密相连。无论是罗马大道上的车马，还是后来中世纪塔楼上瞭望的目光，都预示了它未来将在动荡与交流中，寻找自己独特的生存之道。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔巴最辉煌也最混乱的篇章，写于中世纪。那是<strong>塔楼林立的时代</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>公元12至13世纪</strong>，阿尔巴成为了一个繁荣的<strong>自由市</strong>。它不甘于屈从于任何强大领主或主教的意志，积极加入强大的<strong>伦巴第联盟</strong>，与神圣罗马帝国皇帝腓特烈一世（绰号“红胡子”）抗争，以捍卫城市的自治特权。这段时期，商业与手工业迅猛发展，城市财富急剧积累。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，内部的裂痕与外部的觊觎同样深重。城内势力最大的两大家族——<strong>圭尔夫派</strong>（支持教皇）与<strong>吉伯林派</strong>（支持皇帝）——将他们的政治斗争，<strong> literal</strong> 地建造成了天空之中。为了彰显实力、监视敌手、保卫家族财产，贵族和富商们竞相修建私人塔楼。这些塔楼用红砖砌成，高耸、坚固、森严。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在最鼎盛时，阿尔巴的天空线被超过一百座这样的塔楼所切割，因此赢得了“百塔之城”的称号。它们不是优雅的钟楼，而是权力的匕首，直插云霄。每一座塔楼都是一个微型的堡垒，诉说着家族间的猜忌、对抗与骄傲。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“当夕阳将塔楼的影子拉长，交织在狭窄的街巷里，整座城市便仿佛一张由阴谋与警惕编织成的巨网。”" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "——一位19世纪旅行者的笔记" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "繁荣与内斗削弱了阿尔巴。<strong>14世纪</strong>，它最终未能抵挡住强大的<strong>萨伏伊公国</strong>的扩张步伐，被其吞并。自治之梦破碎，但塔楼的建造热潮却因一个意外的法令达到了顶峰：萨伏伊统治者规定，任何家族要获得贵族头衔，<strong>必须</strong>在城内拥有一座至少一定高度的塔楼。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，塔楼从军事防御物变成了“贵族资格证书”，讽刺地迎来了最后的建设高峰。随着中央政权巩固与社会趋于和平，大多数塔楼失去了原有功能，或被拆除，或被降低高度，融入普通的民居建筑。今天，漫步阿尔巴老城，你依然能在楼宇的缝隙间，看到这些红色砖石构筑的、沉默的历史证人。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔巴的泥土孕育松露，也滋养独具风骨的人物。这里要讲述的，并非全球闻名的巨星，而是两位将生命根系深扎于此的“地方 genius”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 贝佩·费诺利奥：松露猎人与“朗格高原的诗人”</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>贝佩·费诺利奥</strong> 是一位20世纪的意大利作家。他生于阿尔巴，几乎一生未曾远离。他的写作生涯始于记者，但让他不朽的，是他那些浸润着故乡风土的小说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "费诺利奥本人就是一位热情的松露猎人，他熟知朗格丘陵的每一条小径、每一片树林，以及人与狗之间那种无言的、狩猎的默契。他的代表作《激情的岁月》等，背景就设定在二战期间的皮埃蒙特乡村与山区。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的文字粗粝、真实，充满对农民、酒农、猎户生活的深刻洞察与同情。他笔下的人物，如同阿尔巴的老砖墙，质朴而坚韧；故事里弥漫的，是雨后森林的泥土气、酒窖的芬芳，以及动荡年代里普通人寻求尊严的微光。他并不追求宏大的史诗叙事，而是忠实记录下一方水土的灵魂。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我书写我的土地，因为我了解它。我了解它的男人和女人，他们的汗水，他们的希望，他们面对命运时那份固执的沉默。这里的故事，就藏在葡萄藤的卷须里，藏在猎犬湿润的鼻尖上。”" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "——贝佩·费诺利奥" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在阿尔巴，费诺利奥不仅是一位作家，更是一种文化符号。他的作品让外界透过松露与巴罗洛葡萄酒的奢华表象，看到了这片土地深沉、复杂、充满劳作之美的人文内核。他是阿尔巴真正的“说书人”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. 贾科莫·莫兰多：将白松露推向世界的“味觉先知”</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说费诺利奥用文字为土地立传，那么<strong>贾科莫·莫兰多</strong> 则用味觉为阿尔巴加冕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位20世纪初的酒店经营者与美食家，是阿尔巴<strong>白松露</strong>从地方食材蜕变为全球顶级奢侈美食的<strong>关键推手</strong>。在他之前，松露固然被当地人珍视，但更多是区域性消费。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "莫兰多拥有非凡的商业头脑与品味自信。他在自己位于阿尔巴的酒店餐厅里，极致地推崇松露菜肴。他不仅精心烹制，更不遗余力地向到访的贵族、富豪、艺术家——包括美国作家海明威、意大利导演费里尼等——介绍这“来自地下的钻石”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他首创了将新鲜白松露现场薄片，撒在简单意面或煎蛋上的经典吃法，最大限度地凸显其霸道而迷人的香气。更重要的是，他建立了一套从挖掘、筛选、分级到售卖的完整体系，并利用自己的人脉网络，将阿尔巴白松露推向了米兰、巴黎乃至纽约的顶级餐桌。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1963年</strong>，莫兰多的远见达到了顶峰：他成功说服阿尔巴市政府，创立了<strong>阿尔巴白松露国际博览会</strong>。这个每年秋季举办的盛会，如今已成为全球美食界的殿堂级事件，彻底将阿尔巴与白松露画上了等号。莫兰多让一座中世纪古城，凭借一种真菌，在现代世界拥有了无可替代的味觉坐标。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在阿尔巴，最动人的传说与最珍贵的物产一样，深埋于地下。它连接着古老的异教信仰与基督教的融合。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当地流传，阿尔巴的松露如此丰美，是因为一片被祝福的土地。相传，在罗马时代，这片区域曾建有供奉波斯光明之神<strong>密特拉</strong>的神庙。密特拉崇拜在罗马士兵中非常流行，其核心仪式场景是“密特拉屠牛”：神杀死一头公牛，公牛的血液化作了葡萄藤，脊髓化为了小麦，赋予大地丰饶。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随着基督教成为国教，密特拉信仰被镇压，神庙被毁弃。但传说中，神性并未完全离开。密特拉屠牛时溅落的生命力，渗入了阿尔巴的土壤深处，没有变成地上的谷物与葡萄，而是转化成了另一种形态——<strong>香气强烈、形状不规则、藏于地下的块菌</strong>，即松露。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，松露被当地人视为<strong>大地受孕的象征</strong>，是古神留下的一份隐秘赠礼。猎人们相信，寻找松露不仅需要训练有素的狗或猪，更需要一份对土地的敬畏与“好运”。这种“好运”，某种程度上是与古老土地灵性的默契。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说解释了为何松露采摘被视为一种近乎神圣的活动，带有古老的仪式感。它也赋予了阿尔巴的白松露一层神秘的光环：它不仅是美味，更是这片跨越了罗马帝国、中世纪城邦与现代世界的土地，其深厚历史与生命力的直接凝结。每一颗被发现的松露，都像是一次与远古的、丰饶神灵的短暂邂逅。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日的阿尔巴，恬静而富足。秋季松露市场的喧嚣与日常巷弄的安宁形成奇妙的交响。但只有读懂它层层叠叠的往事，你脚下的每一步才拥有重量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你看到的不仅是一座美食小城，更是一座<strong>中世纪城邦自治理想的化石</strong>，那些残存的塔楼是它曾为自由而战的骨骼。你品尝的不仅是一碟昂贵的白松露，更是一份从罗马神话中流淌出的、关于土地丰饶的古老契约。你漫步的广场，可能正下方就是罗马大道的路基；你休憩的咖啡馆，墙壁里或许砌着某座贵族塔楼的砖石。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔巴的魅力，在于这种<strong>极致的融合</strong>：历史的厚重与生活的轻盈，泥土的质朴与味觉的奢华，家族争斗的残酷记忆与当下弥漫的温情市井气。它不张扬，却内涵丰厚。它用砖石、菌香和美酒，将自己复杂的前世今生，酿成了一杯令人回味悠长的巴罗洛。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这里旅行，真正的收获不是打卡了多少景点，而是能否感受到时间在这座小城身上留下的、那种从容不迫的层次感。它的故事，就写在每一道砖缝、每一缕飘过街角的香气里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/campobasso-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    坎
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">坎波巴索老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Campobasso Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/grottaglie-ceramics-district" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    格
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格罗塔列陶瓷峡谷</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Grottaglie (The Ceramics District)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/montepulciano" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙特普齐亚诺</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Montepulciano</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
