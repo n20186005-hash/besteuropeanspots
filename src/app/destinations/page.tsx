@@ -13,7 +13,7 @@ export default function DestinationsPage() {
     new Map(
       attractions
         .filter((a) => a.countrySlug && a.country)
-        .map((a) => [a.countrySlug, a.country])
+        .map((a) => [a.countrySlug as string, a.country as string])
     )
   ).sort((a, b) => a[0].localeCompare(b[0]));
 
