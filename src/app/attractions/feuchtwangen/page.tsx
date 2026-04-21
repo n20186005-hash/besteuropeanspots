@@ -16,6 +16,8 @@ export default function FeuchtwangenPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚', href: '/destinations/europe' },
             { label: '福伊希特旺根', href: '/attractions/feuchtwangen' },
           ]}
         />

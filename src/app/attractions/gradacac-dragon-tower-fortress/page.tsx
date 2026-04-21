@@ -16,6 +16,8 @@ export default function GradacacDragonTowerFortressPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '波斯尼亚和黑塞哥维那（波黑）', href: '/destinations/europe' },
+            { label: '格拉达查茨', href: '/destinations/europe' },
             { label: '格拉达查茨', href: '/attractions/gradacac-dragon-tower-fortress' },
           ]}
         />

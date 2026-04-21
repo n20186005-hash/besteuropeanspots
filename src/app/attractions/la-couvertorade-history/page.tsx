@@ -16,6 +16,8 @@ export default function LaCouvertoradeHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '阿韦龙省', href: '/destinations/europe' },
             { label: '拉库韦尔图瓦拉德', href: '/attractions/la-couvertorade-history' },
           ]}
         />

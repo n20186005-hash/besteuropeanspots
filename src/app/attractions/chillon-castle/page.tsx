@@ -15,7 +15,9 @@ export default function ChillonCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '蒙特勒', href: '/destinations/switzerland' },
             { label: '西庸城堡', href: '/attractions/chillon-castle' },
           ]}
         />

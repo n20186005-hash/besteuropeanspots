@@ -16,6 +16,8 @@ export default function OsunaAndalusiaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '奥苏纳', href: '/destinations/europe' },
             { label: '奥苏纳', href: '/attractions/osuna-andalusia' },
           ]}
         />

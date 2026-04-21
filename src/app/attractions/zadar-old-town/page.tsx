@@ -15,7 +15,9 @@ export default function ZadarOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '扎达尔', href: '/destinations/croatia' },
             { label: '扎达尔老城', href: '/attractions/zadar-old-town' },
           ]}
         />

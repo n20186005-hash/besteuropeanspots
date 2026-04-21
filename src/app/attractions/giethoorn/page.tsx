@@ -15,7 +15,9 @@ export default function GiethoornPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '斯滕韦克尔兰', href: '/destinations/netherlands' },
             { label: '羊角村', href: '/attractions/giethoorn' },
           ]}
         />

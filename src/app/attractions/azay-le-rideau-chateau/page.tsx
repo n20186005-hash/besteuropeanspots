@@ -16,6 +16,8 @@ export default function AzayLeRideauChateauPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '阿泽勒丽多镇（位于安德尔-卢瓦尔省）', href: '/destinations/europe' },
             { label: '阿泽勒丽多', href: '/attractions/azay-le-rideau-chateau' },
           ]}
         />

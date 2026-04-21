@@ -16,6 +16,8 @@ export default function SacilePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '弗留利-威尼斯朱利亚', href: '/destinations/europe' },
             { label: '萨奇莱', href: '/attractions/sacile' },
           ]}
         />

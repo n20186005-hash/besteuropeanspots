@@ -16,6 +16,8 @@ export default function NjegusiPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '黑山', href: '/destinations/europe' },
+            { label: '采蒂涅', href: '/destinations/europe' },
             { label: '涅古希', href: '/attractions/njegusi' },
           ]}
         />

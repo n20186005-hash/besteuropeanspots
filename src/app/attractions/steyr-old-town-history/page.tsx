@@ -16,6 +16,8 @@ export default function SteyrOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '上奥地利州', href: '/destinations/europe' },
             { label: '施泰尔老城', href: '/attractions/steyr-old-town-history' },
           ]}
         />

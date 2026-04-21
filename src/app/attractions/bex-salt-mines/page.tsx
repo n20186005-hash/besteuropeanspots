@@ -15,7 +15,9 @@ export default function BexSaltMinesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '沃州', href: '/destinations/switzerland' },
             { label: '贝城盐矿', href: '/attractions/bex-salt-mines' },
           ]}
         />

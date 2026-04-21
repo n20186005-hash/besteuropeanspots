@@ -16,6 +16,8 @@ export default function SymiHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '锡米岛（市镇）', href: '/destinations/europe' },
             { label: '锡米岛', href: '/attractions/symi-history' },
           ]}
         />

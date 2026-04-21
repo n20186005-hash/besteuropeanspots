@@ -15,7 +15,9 @@ export default function HolasoviceHistoricVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '南波希米亚州（捷克布杰约维采附近）', href: '/destinations/czech-republic' },
             { label: '霍拉索维采历史村落', href: '/attractions/holasovice-historic-village' },
           ]}
         />

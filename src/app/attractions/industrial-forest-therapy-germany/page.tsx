@@ -16,6 +16,8 @@ export default function IndustrialForestTherapyGermanyPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '埃森（及鲁尔区与黑森林交界地带）', href: '/destinations/europe' },
             { label: '德国工业巨石的绿色心跳：从鲁尔矿场到黑森林的疗愈之旅', href: '/attractions/industrial-forest-therapy-germany' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function SibiuOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '锡比乌', href: '/destinations/europe' },
             { label: '锡比乌老城', href: '/attractions/sibiu-old-town-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function HoiaBaciuForestPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '克卢日-纳波卡（克卢日县）', href: '/destinations/europe' },
             { label: '霍伊亚·巴丘森林', href: '/attractions/hoia-baciu-forest' },
           ]}
         />

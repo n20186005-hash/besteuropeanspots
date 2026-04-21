@@ -16,6 +16,8 @@ export default function DurnsteinAbbeyHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '瓦豪河谷', href: '/destinations/europe' },
             { label: '杜恩施泰因修道院', href: '/attractions/durnstein-abbey-history' },
           ]}
         />

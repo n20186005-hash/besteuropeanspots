@@ -15,7 +15,9 @@ export default function ChateauDeBeloelPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '埃诺省', href: '/destinations/belgium' },
             { label: '贝勒伊城堡', href: '/attractions/chateau-de-beloel' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function GharDalamCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马耳他', href: '/destinations/malta' },
+            { label: '南区（比尔古-圣格莱亚-塞纳地区）', href: '/destinations/malta' },
             { label: '加尔·达拉姆洞穴', href: '/attractions/ghar-dalam-cave' },
           ]}
         />

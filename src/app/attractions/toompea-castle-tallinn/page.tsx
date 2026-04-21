@@ -15,7 +15,9 @@ export default function ToompeaCastleTallinnPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '爱沙尼亚', href: '/destinations/estonia' },
+            { label: '塔林', href: '/destinations/estonia' },
             { label: '座堂山城堡', href: '/attractions/toompea-castle-tallinn' },
           ]}
         />

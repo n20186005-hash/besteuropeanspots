@@ -16,6 +16,8 @@ export default function SumegCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '许迈格', href: '/destinations/europe' },
             { label: '许迈格城堡', href: '/attractions/sumeg-castle-history' },
           ]}
         />

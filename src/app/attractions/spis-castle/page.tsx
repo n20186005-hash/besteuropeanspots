@@ -15,7 +15,9 @@ export default function SpisCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '斯皮什', href: '/destinations/slovakia' },
             { label: '斯皮什城堡', href: '/attractions/spis-castle' },
           ]}
         />

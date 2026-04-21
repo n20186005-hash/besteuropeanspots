@@ -16,6 +16,8 @@ export default function ConventoDosCapuchosPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '里斯本大区（辛特拉）', href: '/destinations/europe' },
             { label: '卡普舒斯修道院', href: '/attractions/convento-dos-capuchos' },
           ]}
         />

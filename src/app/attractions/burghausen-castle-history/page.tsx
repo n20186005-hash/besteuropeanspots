@@ -16,6 +16,8 @@ export default function BurghausenCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚', href: '/destinations/europe' },
             { label: '博格豪森城堡', href: '/attractions/burghausen-castle-history' },
           ]}
         />

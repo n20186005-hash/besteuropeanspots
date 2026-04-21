@@ -15,7 +15,9 @@ export default function AmarantePortugalTamegaRiverPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '波尔图区（阿马兰特市）', href: '/destinations/portugal' },
             { label: '阿马兰特（塔梅加河畔的浪漫小镇）', href: '/attractions/amarante-portugal-tamega-river' },
           ]}
         />

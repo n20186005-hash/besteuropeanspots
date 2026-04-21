@@ -15,7 +15,9 @@ export default function HuyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: 'Huy', href: '/destinations/belgium' },
             { label: '胡伊古城', href: '/attractions/huy' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function GhargurPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '马耳他', href: '/destinations/europe' },
+            { label: '北区', href: '/destinations/europe' },
             { label: '加尔古尔', href: '/attractions/ghargur' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function BetliarManorHousePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '科希策州，贝特利亚尔村', href: '/destinations/europe' },
             { label: '贝特利亚尔庄园', href: '/attractions/betliar-manor-house' },
           ]}
         />

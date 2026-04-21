@@ -16,6 +16,8 @@ export default function GrazalemaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '安达卢西亚', href: '/destinations/europe' },
             { label: '格拉萨莱马', href: '/attractions/grazalema' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function TalmontSurGirondePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '滨海夏朗德省', href: '/destinations/france' },
             { label: '吉伦特河畔塔尔蒙', href: '/attractions/talmont-sur-gironde' },
           ]}
         />

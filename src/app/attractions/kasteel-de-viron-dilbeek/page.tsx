@@ -15,7 +15,9 @@ export default function KasteelDeVironDilbeekPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '迪尔贝克', href: '/destinations/belgium' },
             { label: '迪尔贝克维龙城堡（如同童话插画般的都铎风格佛兰德斯庄园）', href: '/attractions/kasteel-de-viron-dilbeek' },
           ]}
         />

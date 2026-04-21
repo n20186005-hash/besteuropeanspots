@@ -16,6 +16,8 @@ export default function WiedIzZurrieqPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '马耳他', href: '/destinations/europe' },
+            { label: '南区', href: '/destinations/europe' },
             { label: '保拉谷（蓝窗遗址附近）', href: '/attractions/wied-iz-zurrieq' },
           ]}
         />

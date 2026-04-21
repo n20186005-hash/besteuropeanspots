@@ -16,6 +16,8 @@ export default function LandshutTrausnitzCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚州兰茨胡特市', href: '/destinations/europe' },
             { label: '兰茨胡特（特劳斯尼茨城堡与砖砌哥特）', href: '/attractions/landshut-trausnitz-castle-history' },
           ]}
         />

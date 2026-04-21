@@ -16,6 +16,8 @@ export default function NitraHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '尼特拉', href: '/destinations/europe' },
             { label: '尼特拉', href: '/attractions/nitra-history' },
           ]}
         />

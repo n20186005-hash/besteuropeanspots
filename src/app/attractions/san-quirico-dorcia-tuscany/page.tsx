@@ -15,7 +15,9 @@ export default function SanQuiricoDorciaTuscanyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '圣基里科多恰（San Quirico d\'Orcia），属锡耶纳省', href: '/destinations/italy' },
             { label: '奥尔恰谷的圣基里科', href: '/attractions/san-quirico-dorcia-tuscany' },
           ]}
         />

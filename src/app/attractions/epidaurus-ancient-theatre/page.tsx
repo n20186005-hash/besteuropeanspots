@@ -15,7 +15,9 @@ export default function EpidaurusAncientTheatrePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '埃皮达鲁斯地区（现代行政区划属伯罗奔尼撒大区阿尔戈利斯省）', href: '/destinations/greece' },
             { label: '埃皮达鲁斯古剧场', href: '/attractions/epidaurus-ancient-theatre' },
           ]}
         />

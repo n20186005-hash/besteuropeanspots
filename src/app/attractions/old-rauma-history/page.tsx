@@ -16,6 +16,8 @@ export default function OldRaumaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '芬兰', href: '/destinations/europe' },
+            { label: '劳马', href: '/destinations/europe' },
             { label: '劳马古城', href: '/attractions/old-rauma-history' },
           ]}
         />

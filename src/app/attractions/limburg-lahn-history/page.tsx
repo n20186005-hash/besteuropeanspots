@@ -16,6 +16,8 @@ export default function LimburgLahnHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '黑森州', href: '/destinations/europe' },
             { label: '林堡（兰河畔林堡）', href: '/attractions/limburg-lahn-history' },
           ]}
         />

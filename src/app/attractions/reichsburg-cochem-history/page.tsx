@@ -16,6 +16,8 @@ export default function ReichsburgCochemHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '科赫姆', href: '/destinations/europe' },
             { label: '科赫姆帝国城堡', href: '/attractions/reichsburg-cochem-history' },
           ]}
         />

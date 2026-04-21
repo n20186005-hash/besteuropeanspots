@@ -16,6 +16,8 @@ export default function LoketCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '卡罗维发利州', href: '/destinations/europe' },
             { label: '洛克特城堡（波西米亚的钥匙）', href: '/attractions/loket-castle-history' },
           ]}
         />

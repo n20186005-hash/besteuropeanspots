@@ -16,6 +16,8 @@ export default function PortoPalermoCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '阿尔巴尼亚', href: '/destinations/europe' },
+            { label: '发罗拉州（希马拉附近）', href: '/destinations/europe' },
             { label: '波尔图·巴勒莫城堡', href: '/attractions/porto-palermo-castle' },
           ]}
         />

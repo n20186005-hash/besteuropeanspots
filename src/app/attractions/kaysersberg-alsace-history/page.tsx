@@ -16,6 +16,8 @@ export default function KaysersbergAlsaceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '凯斯贝格', href: '/destinations/europe' },
             { label: '凯斯贝格小镇', href: '/attractions/kaysersberg-alsace-history' },
           ]}
         />

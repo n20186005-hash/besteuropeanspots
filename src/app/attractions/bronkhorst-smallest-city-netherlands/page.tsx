@@ -16,6 +16,8 @@ export default function BronkhorstSmallestCityNetherlandsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '海尔德兰省', href: '/destinations/europe' },
             { label: '布龙克霍斯特', href: '/attractions/bronkhorst-smallest-city-netherlands' },
           ]}
         />

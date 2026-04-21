@@ -15,7 +15,9 @@ export default function KirunaRelocationCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '北博滕省', href: '/destinations/sweden' },
             { label: '基尔纳', href: '/attractions/kiruna-relocation-city' },
           ]}
         />

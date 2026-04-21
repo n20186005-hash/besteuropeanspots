@@ -15,7 +15,9 @@ export default function UbedaOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '乌韦达', href: '/destinations/spain' },
             { label: '乌韦达古城', href: '/attractions/ubeda-old-town' },
           ]}
         />

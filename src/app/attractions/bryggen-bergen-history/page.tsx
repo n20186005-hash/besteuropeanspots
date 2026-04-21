@@ -16,6 +16,8 @@ export default function BryggenBergenHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '卑尔根', href: '/destinations/europe' },
             { label: '布吕根木屋群', href: '/attractions/bryggen-bergen-history' },
           ]}
         />

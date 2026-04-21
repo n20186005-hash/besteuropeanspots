@@ -16,6 +16,8 @@ export default function RuhnuIslandPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '爱沙尼亚', href: '/destinations/europe' },
+            { label: '萨雷县', href: '/destinations/europe' },
             { label: '鲁赫努岛', href: '/attractions/ruhnu-island' },
           ]}
         />

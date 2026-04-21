@@ -16,6 +16,8 @@ export default function AlquezarHuescaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '韦斯卡', href: '/destinations/europe' },
             { label: '阿尔克萨尔', href: '/attractions/alquezar-huesca-history' },
           ]}
         />

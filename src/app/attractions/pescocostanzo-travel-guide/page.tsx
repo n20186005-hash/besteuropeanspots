@@ -15,7 +15,9 @@ export default function PescocostanzoTravelGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '阿布鲁佐', href: '/destinations/italy' },
             { label: '佩斯科科斯坦佐', href: '/attractions/pescocostanzo-travel-guide' },
           ]}
         />

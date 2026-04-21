@@ -15,7 +15,9 @@ export default function OrienburgPalaceGardensPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '勃兰登堡州，奥拉宁堡市', href: '/destinations/germany' },
             { label: '奥拉宁堡宫', href: '/attractions/orienburg-palace-gardens' },
           ]}
         />

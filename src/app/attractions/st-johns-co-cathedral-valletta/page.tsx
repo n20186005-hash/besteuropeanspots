@@ -15,7 +15,9 @@ export default function StJohnsCoCathedralVallettaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马耳他', href: '/destinations/malta' },
+            { label: '瓦莱塔', href: '/destinations/malta' },
             { label: '圣约翰副主教座堂', href: '/attractions/st-johns-co-cathedral-valletta' },
           ]}
         />

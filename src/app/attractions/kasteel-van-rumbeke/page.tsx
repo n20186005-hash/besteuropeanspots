@@ -16,6 +16,8 @@ export default function KasteelVanRumbekePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '西佛兰德省', href: '/destinations/europe' },
             { label: '伦贝克城堡', href: '/attractions/kasteel-van-rumbeke' },
           ]}
         />

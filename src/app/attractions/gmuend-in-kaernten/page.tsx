@@ -15,7 +15,9 @@ export default function GmuendInKaerntenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '克恩顿州格明德', href: '/destinations/austria' },
             { label: '格明德（隐秘在国家公园旁的艺术家之城）', href: '/attractions/gmuend-in-kaernten' },
           ]}
         />

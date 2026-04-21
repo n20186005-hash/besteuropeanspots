@@ -15,7 +15,9 @@ export default function BelogradchikFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '保加利亚', href: '/destinations/bulgaria' },
+            { label: '贝洛格拉奇克', href: '/destinations/bulgaria' },
             { label: '贝洛格拉奇克要塞', href: '/attractions/belogradchik-fortress' },
           ]}
         />

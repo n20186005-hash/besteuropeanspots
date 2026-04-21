@@ -15,7 +15,9 @@ export default function MeissenCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: 'Meissen', href: '/destinations/germany' },
             { label: '迈森大教堂', href: '/attractions/meissen-cathedral' },
           ]}
         />

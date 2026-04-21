@@ -15,7 +15,9 @@ export default function CaveOfTheApocalypsePatmossPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '拔摩岛（Patmos）', href: '/destinations/greece' },
             { label: '拔摩岛《启示录》洞穴', href: '/attractions/cave-of-the-apocalypse-patmoss' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function TittmoningCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚，蒂特莫宁镇', href: '/destinations/europe' },
             { label: '蒂特莫宁城堡', href: '/attractions/tittmoning-castle' },
           ]}
         />

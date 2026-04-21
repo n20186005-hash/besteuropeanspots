@@ -15,7 +15,9 @@ export default function CastelDelMontePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '普利亚大区安德利亚市附近', href: '/destinations/italy' },
             { label: '卡斯泰尔德尔蒙特', href: '/attractions/castel-del-monte' },
           ]}
         />

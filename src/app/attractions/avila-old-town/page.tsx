@@ -15,7 +15,9 @@ export default function AvilaOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '阿维拉', href: '/destinations/spain' },
             { label: '阿维拉古城墙', href: '/attractions/avila-old-town' },
           ]}
         />

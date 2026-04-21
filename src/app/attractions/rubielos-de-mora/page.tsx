@@ -16,6 +16,8 @@ export default function RubielosDeMoraPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '特鲁埃尔（阿拉贡大区）', href: '/destinations/europe' },
             { label: '鲁维埃洛斯德莫拉', href: '/attractions/rubielos-de-mora' },
           ]}
         />

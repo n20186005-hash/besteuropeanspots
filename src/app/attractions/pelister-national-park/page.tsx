@@ -15,7 +15,9 @@ export default function PelisterNationalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '北马其顿', href: '/destinations/north-macedonia' },
+            { label: '比托拉', href: '/destinations/north-macedonia' },
             { label: '佩利斯特国家公园', href: '/attractions/pelister-national-park' },
           ]}
         />

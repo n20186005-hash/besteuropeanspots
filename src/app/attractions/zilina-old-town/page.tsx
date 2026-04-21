@@ -16,6 +16,8 @@ export default function ZilinaOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '日利纳', href: '/destinations/europe' },
             { label: '日利纳老城', href: '/attractions/zilina-old-town' },
           ]}
         />

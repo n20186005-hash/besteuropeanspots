@@ -15,7 +15,9 @@ export default function ThePradoMuseumMadridPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '马德里', href: '/destinations/spain' },
             { label: '普拉多大道上的沉默巨匠', href: '/attractions/the-prado-museum-madrid' },
           ]}
         />

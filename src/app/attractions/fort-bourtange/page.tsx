@@ -15,7 +15,9 @@ export default function FortBourtangePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '布尔坦赫', href: '/destinations/netherlands' },
             { label: '布尔坦赫星形要塞', href: '/attractions/fort-bourtange' },
           ]}
         />

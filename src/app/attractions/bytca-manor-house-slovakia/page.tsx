@@ -16,6 +16,8 @@ export default function BytcaManorHouseSlovakiaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '比特恰', href: '/destinations/europe' },
             { label: '比特恰庄园', href: '/attractions/bytca-manor-house-slovakia' },
           ]}
         />

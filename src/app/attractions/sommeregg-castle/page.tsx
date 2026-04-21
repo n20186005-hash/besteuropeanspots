@@ -15,7 +15,9 @@ export default function SommereggCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '克恩顿州，近特莱西恩（Treßsee）', href: '/destinations/austria' },
             { label: '索梅雷格城堡', href: '/attractions/sommeregg-castle' },
           ]}
         />

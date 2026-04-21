@@ -15,7 +15,9 @@ export default function VoringsfossenWaterfallPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '挪威', href: '/destinations/norway' },
+            { label: '韦斯特兰郡（位于哈当厄尔高原，邻近埃德菲尤尔 Eidfjord）', href: '/destinations/norway' },
             { label: '沃尔令斯大瀑布', href: '/attractions/voringsfossen-waterfall' },
           ]}
         />

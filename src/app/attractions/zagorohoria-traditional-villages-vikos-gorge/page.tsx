@@ -16,6 +16,8 @@ export default function ZagorohoriaTraditionalVillagesVikosGorgePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '伊庇鲁斯大区，约阿尼纳州', href: '/destinations/europe' },
             { label: '扎戈里霍里亚（维科斯峡谷传统村落群）', href: '/attractions/zagorohoria-traditional-villages-vikos-gorge' },
           ]}
         />

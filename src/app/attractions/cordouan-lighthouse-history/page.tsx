@@ -16,6 +16,8 @@ export default function CordouanLighthouseHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '吉伦特省（波尔多外海）', href: '/destinations/europe' },
             { label: '科尔多昂灯塔', href: '/attractions/cordouan-lighthouse-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function CordesSurCielHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '塔恩省', href: '/destinations/europe' },
             { label: '科尔德圣谢鲁', href: '/attractions/cordes-sur-ciel-history' },
           ]}
         />

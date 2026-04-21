@@ -16,6 +16,8 @@ export default function LemnosIslandTravelGuidePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '北爱琴大区', href: '/destinations/europe' },
             { label: '利姆诺斯岛', href: '/attractions/lemnos-island-travel-guide' },
           ]}
         />

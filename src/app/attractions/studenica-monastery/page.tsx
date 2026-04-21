@@ -15,7 +15,9 @@ export default function StudenicaMonasteryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞尔维亚', href: '/destinations/serbia' },
+            { label: '拉什卡州（近城镇克拉列沃）', href: '/destinations/serbia' },
             { label: '斯图代尼察修道院', href: '/attractions/studenica-monastery' },
           ]}
         />

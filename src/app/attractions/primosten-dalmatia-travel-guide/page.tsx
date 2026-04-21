@@ -15,7 +15,9 @@ export default function PrimostenDalmatiaTravelGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '希贝尼克-克宁县', href: '/destinations/croatia' },
             { label: '普里莫什滕', href: '/attractions/primosten-dalmatia-travel-guide' },
           ]}
         />

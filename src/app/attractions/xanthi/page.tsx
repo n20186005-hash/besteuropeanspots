@@ -15,7 +15,9 @@ export default function XanthiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '克桑西', href: '/destinations/greece' },
             { label: '克桑西古城', href: '/attractions/xanthi' },
           ]}
         />

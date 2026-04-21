@@ -16,6 +16,8 @@ export default function NinCroatiaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '扎达尔县', href: '/destinations/europe' },
             { label: '宁镇', href: '/attractions/nin-croatia-history' },
           ]}
         />

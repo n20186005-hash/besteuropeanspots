@@ -15,7 +15,9 @@ export default function AlbaCarolinaCitadelPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '阿尔巴尤利亚', href: '/destinations/romania' },
             { label: '阿尔巴尤利亚七芒星卡罗莱纳城堡', href: '/attractions/alba-carolina-citadel' },
           ]}
         />

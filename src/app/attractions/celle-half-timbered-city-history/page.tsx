@@ -16,6 +16,8 @@ export default function CelleHalfTimberedCityHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '策勒', href: '/destinations/europe' },
             { label: '策勒（五百座木骨架房屋之城）', href: '/attractions/celle-half-timbered-city-history' },
           ]}
         />

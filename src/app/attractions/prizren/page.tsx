@@ -15,7 +15,9 @@ export default function PrizrenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '科索沃', href: '/destinations/kosovo' },
+            { label: '普里兹伦', href: '/destinations/kosovo' },
             { label: '普里兹伦', href: '/attractions/prizren' },
           ]}
         />

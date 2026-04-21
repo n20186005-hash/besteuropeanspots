@@ -16,6 +16,8 @@ export default function KorculaOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '科尔丘拉镇', href: '/destinations/europe' },
             { label: '科尔丘拉老城', href: '/attractions/korcula-old-town-history' },
           ]}
         />

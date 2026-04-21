@@ -15,7 +15,9 @@ export default function ComacchioPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '科马基耶（科马基奥镇）', href: '/destinations/italy' },
             { label: '科马基奥', href: '/attractions/comacchio' },
           ]}
         />

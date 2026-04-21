@@ -16,6 +16,8 @@ export default function SkyrosIslandPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '斯基罗斯镇（霍拉）', href: '/destinations/europe' },
             { label: '斯基罗斯岛', href: '/attractions/skyros-island' },
           ]}
         />

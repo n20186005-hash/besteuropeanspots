@@ -15,7 +15,9 @@ export default function ConimbrigaRomanRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '孔德沙镇 (科英布拉区)', href: '/destinations/portugal' },
             { label: '科英布里加罗马遗址', href: '/attractions/conimbriga-roman-ruins' },
           ]}
         />

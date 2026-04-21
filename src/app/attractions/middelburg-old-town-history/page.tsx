@@ -16,6 +16,8 @@ export default function MiddelburgOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '泽兰省', href: '/destinations/europe' },
             { label: '米德尔堡老城', href: '/attractions/middelburg-old-town-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function TorgauHartenfelsCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '托尔高', href: '/destinations/europe' },
             { label: '哈滕费尔斯城堡', href: '/attractions/torgau-hartenfels-castle-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function MullerthalLittleSwitzerlandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卢森堡', href: '/destinations/luxembourg' },
+            { label: '埃希特纳赫', href: '/destinations/luxembourg' },
             { label: '米勒塔尔“小瑞士”（长满青苔的奇异砂岩峡谷与峡谷瀑布）', href: '/attractions/mullerthal-little-switzerland' },
           ]}
         />

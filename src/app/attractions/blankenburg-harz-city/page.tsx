@@ -16,6 +16,8 @@ export default function BlankenburgHarzCityPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '萨克森-安哈尔特州', href: '/destinations/europe' },
             { label: '布兰肯堡 (哈茨山脉)', href: '/attractions/blankenburg-harz-city' },
           ]}
         />

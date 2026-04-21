@@ -16,6 +16,8 @@ export default function AlmourolCastleTagusHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '圣塔伦区', href: '/destinations/europe' },
             { label: '阿尔莫罗城堡（塔霍河上的孤岛骑士团要塞）', href: '/attractions/almourol-castle-tagus-history' },
           ]}
         />

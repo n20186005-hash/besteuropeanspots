@@ -16,6 +16,8 @@ export default function MystrasByzantineRuinsHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '斯巴达附近', href: '/destinations/europe' },
             { label: '米斯特拉斯拜占庭遗址', href: '/attractions/mystras-byzantine-ruins-history' },
           ]}
         />

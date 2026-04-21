@@ -16,6 +16,8 @@ export default function JelgavaPalaceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '拉脱维亚', href: '/destinations/europe' },
+            { label: '叶尔加瓦', href: '/destinations/europe' },
             { label: '叶尔加瓦宫', href: '/attractions/jelgava-palace-history' },
           ]}
         />

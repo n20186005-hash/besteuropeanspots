@@ -16,6 +16,8 @@ export default function MoutiersTarentaisePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '穆蒂耶尔', href: '/destinations/europe' },
             { label: '穆蒂耶尔', href: '/attractions/moutiers-tarentaise' },
           ]}
         />

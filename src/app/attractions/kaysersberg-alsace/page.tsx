@@ -15,7 +15,9 @@ export default function KaysersbergAlsacePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '凯瑟斯贝格（上莱茵省）', href: '/destinations/france' },
             { label: '凯瑟斯贝格', href: '/attractions/kaysersberg-alsace' },
           ]}
         />

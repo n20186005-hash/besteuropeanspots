@@ -15,7 +15,9 @@ export default function AnnevoieWaterGardensPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '昂特瓦 (Annevoie-Rouillon)， 那慕尔省', href: '/destinations/belgium' },
             { label: '昂特瓦水上花园', href: '/attractions/annevoie-water-gardens' },
           ]}
         />

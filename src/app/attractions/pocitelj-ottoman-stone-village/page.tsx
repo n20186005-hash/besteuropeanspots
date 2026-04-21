@@ -15,7 +15,9 @@ export default function PociteljOttomanStoneVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
+            { label: '黑塞哥维那-内雷特瓦州，查普利纳镇附近', href: '/destinations/bosnia-and-herzegovina' },
             { label: '波奇泰利', href: '/attractions/pocitelj-ottoman-stone-village' },
           ]}
         />

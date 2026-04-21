@@ -16,6 +16,8 @@ export default function CoburgFortressHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚 科堡', href: '/destinations/europe' },
             { label: '科堡要塞（弗兰肯的王冠）', href: '/attractions/coburg-fortress-history' },
           ]}
         />

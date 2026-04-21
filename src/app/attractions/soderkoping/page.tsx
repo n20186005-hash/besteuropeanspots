@@ -16,6 +16,8 @@ export default function SoderkopingPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '东约特兰省', href: '/destinations/europe' },
             { label: '瑟德雪平', href: '/attractions/soderkoping' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function PrejmerFortifiedChurchPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '布拉索夫县', href: '/destinations/europe' },
             { label: '普雷日梅尔防御教堂', href: '/attractions/prejmer-fortified-church' },
           ]}
         />

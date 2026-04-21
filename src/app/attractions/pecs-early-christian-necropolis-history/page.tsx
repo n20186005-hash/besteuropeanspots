@@ -16,6 +16,8 @@ export default function PecsEarlyChristianNecropolisHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '佩奇', href: '/destinations/europe' },
             { label: '佩奇早期基督教陵墓', href: '/attractions/pecs-early-christian-necropolis-history' },
           ]}
         />

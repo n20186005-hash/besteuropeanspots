@@ -15,7 +15,9 @@ export default function TournaiCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '图尔奈', href: '/destinations/belgium' },
             { label: '图尔奈圣母主教座堂', href: '/attractions/tournai-cathedral' },
           ]}
         />

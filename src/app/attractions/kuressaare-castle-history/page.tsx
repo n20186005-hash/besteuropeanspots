@@ -16,6 +16,8 @@ export default function KuressaareCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '爱沙尼亚', href: '/destinations/europe' },
+            { label: '萨雷马岛', href: '/destinations/europe' },
             { label: '库雷萨雷主教城堡', href: '/attractions/kuressaare-castle-history' },
           ]}
         />

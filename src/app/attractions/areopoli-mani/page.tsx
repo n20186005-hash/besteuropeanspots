@@ -15,7 +15,9 @@ export default function AreopoliManiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '伯罗奔尼撒', href: '/destinations/greece' },
             { label: '阿雷奥波利', href: '/attractions/areopoli-mani' },
           ]}
         />

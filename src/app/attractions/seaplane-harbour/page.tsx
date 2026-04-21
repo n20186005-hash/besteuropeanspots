@@ -15,7 +15,9 @@ export default function SeaplaneHarbourPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '爱沙尼亚', href: '/destinations/estonia' },
+            { label: '哈尔尤县（塔林）', href: '/destinations/estonia' },
             { label: '塔林水上飞机港', href: '/attractions/seaplane-harbour' },
           ]}
         />

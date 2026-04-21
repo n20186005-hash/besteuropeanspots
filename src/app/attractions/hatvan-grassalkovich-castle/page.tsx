@@ -16,6 +16,8 @@ export default function HatvanGrassalkovichCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '哈特万', href: '/destinations/europe' },
             { label: '哈特万（格拉萨尔科维奇城堡）', href: '/attractions/hatvan-grassalkovich-castle' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function BadIschlImperialSpaTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '巴德伊舍（位于上奥地利州萨尔茨卡默古特地区）', href: '/destinations/austria' },
             { label: '巴德伊舍', href: '/attractions/bad-ischl-imperial-spa-town' },
           ]}
         />

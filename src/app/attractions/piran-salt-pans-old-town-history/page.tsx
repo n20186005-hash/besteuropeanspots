@@ -16,6 +16,8 @@ export default function PiranSaltPansOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛文尼亚', href: '/destinations/europe' },
+            { label: '皮兰', href: '/destinations/europe' },
             { label: '皮兰盐田与老城', href: '/attractions/piran-salt-pans-old-town-history' },
           ]}
         />

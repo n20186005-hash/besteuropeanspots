@@ -16,6 +16,8 @@ export default function EsslingenAmNeckarHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴登-符腾堡', href: '/destinations/europe' },
             { label: '埃斯林根', href: '/attractions/esslingen-am-neckar-history' },
           ]}
         />

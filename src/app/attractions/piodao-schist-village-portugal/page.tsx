@@ -15,7 +15,9 @@ export default function PiodaoSchistVillagePortugalPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '阿尔瓦科阿（科英布拉区）', href: '/destinations/portugal' },
             { label: '皮奥当', href: '/attractions/piodao-schist-village-portugal' },
           ]}
         />

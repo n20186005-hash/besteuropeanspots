@@ -15,7 +15,9 @@ export default function VychylovkaForestRailwayMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '新日利纳（Nová Bystrica）', href: '/destinations/slovakia' },
             { label: '维希洛夫卡（露天博物馆）', href: '/attractions/vychylovka-forest-railway-museum' },
           ]}
         />

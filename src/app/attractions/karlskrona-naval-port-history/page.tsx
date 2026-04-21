@@ -16,6 +16,8 @@ export default function KarlskronaNavalPortHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '布莱金厄省', href: '/destinations/europe' },
             { label: '卡尔斯克鲁纳（军港古城）', href: '/attractions/karlskrona-naval-port-history' },
           ]}
         />

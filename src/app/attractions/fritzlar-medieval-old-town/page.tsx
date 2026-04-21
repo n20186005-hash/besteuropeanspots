@@ -15,7 +15,9 @@ export default function FritzlarMedievalOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '弗里茨拉尔', href: '/destinations/germany' },
             { label: '弗里茨拉尔中世纪古城', href: '/attractions/fritzlar-medieval-old-town' },
           ]}
         />

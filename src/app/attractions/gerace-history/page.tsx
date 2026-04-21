@@ -16,6 +16,8 @@ export default function GeraceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '卡拉布里亚', href: '/destinations/europe' },
             { label: '杰拉切', href: '/attractions/gerace-history' },
           ]}
         />

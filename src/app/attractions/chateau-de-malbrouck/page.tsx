@@ -15,7 +15,9 @@ export default function ChateauDeMalbrouckPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '梅斯泰尔', href: '/destinations/france' },
             { label: '马尔旺城堡', href: '/attractions/chateau-de-malbrouck' },
           ]}
         />

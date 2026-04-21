@@ -16,6 +16,8 @@ export default function TarazonaOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '萨拉戈萨', href: '/destinations/europe' },
             { label: '塔拉索纳老城', href: '/attractions/tarazona-old-town-history' },
           ]}
         />

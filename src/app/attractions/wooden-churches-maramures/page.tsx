@@ -15,7 +15,9 @@ export default function WoodenChurchesMaramuresPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '马拉穆列什县（主要分布在瑟切勒、苏尔代什蒂、伯尔萨纳等村庄）', href: '/destinations/romania' },
             { label: '马拉穆列什木教堂群', href: '/attractions/wooden-churches-maramures' },
           ]}
         />

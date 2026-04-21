@@ -16,6 +16,8 @@ export default function KeszthelyFesteticsPalaceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '佐洛州', href: '/destinations/europe' },
             { label: '凯斯特海伊（费斯泰蒂奇宫）', href: '/attractions/keszthely-festetics-palace-history' },
           ]}
         />

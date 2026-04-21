@@ -15,7 +15,9 @@ export default function NinPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '扎达尔县', href: '/destinations/croatia' },
             { label: '宁', href: '/attractions/nin' },
           ]}
         />

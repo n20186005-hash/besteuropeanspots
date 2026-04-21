@@ -15,7 +15,9 @@ export default function MaulbronnMonasteryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '毛尔布龙（巴登-符腾堡州）', href: '/destinations/germany' },
             { label: '毛尔布龙修道院', href: '/attractions/maulbronn-monastery' },
           ]}
         />

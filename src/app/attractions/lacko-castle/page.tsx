@@ -15,7 +15,9 @@ export default function LackoCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '西约塔兰省', href: '/destinations/sweden' },
             { label: '莱克城堡', href: '/attractions/lacko-castle' },
           ]}
         />

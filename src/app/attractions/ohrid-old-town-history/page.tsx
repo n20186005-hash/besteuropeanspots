@@ -16,6 +16,8 @@ export default function OhridOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '北马其顿', href: '/destinations/europe' },
+            { label: '奥赫里德', href: '/destinations/europe' },
             { label: '奥赫里德老城', href: '/attractions/ohrid-old-town-history' },
           ]}
         />

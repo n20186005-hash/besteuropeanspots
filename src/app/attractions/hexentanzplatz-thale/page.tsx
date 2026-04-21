@@ -15,7 +15,9 @@ export default function HexentanzplatzThalePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '塔莱', href: '/destinations/germany' },
             { label: '塔莱女巫舞池', href: '/attractions/hexentanzplatz-thale' },
           ]}
         />

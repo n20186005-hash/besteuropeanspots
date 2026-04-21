@@ -16,6 +16,8 @@ export default function TodiMedievalTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '托迪', href: '/destinations/europe' },
             { label: '托迪中世纪古城', href: '/attractions/todi-medieval-town-history' },
           ]}
         />

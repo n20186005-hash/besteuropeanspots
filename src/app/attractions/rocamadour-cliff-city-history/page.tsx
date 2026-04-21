@@ -16,6 +16,8 @@ export default function RocamadourCliffCityHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '洛特省', href: '/destinations/europe' },
             { label: '罗卡马杜尔悬崖城', href: '/attractions/rocamadour-cliff-city-history' },
           ]}
         />

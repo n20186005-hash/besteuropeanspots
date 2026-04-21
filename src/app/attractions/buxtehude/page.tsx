@@ -15,7 +15,9 @@ export default function BuxtehudePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '下萨克森', href: '/destinations/germany' },
             { label: '布克斯特胡德', href: '/attractions/buxtehude' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function SaintCirqLapopieHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '洛特省', href: '/destinations/europe' },
             { label: '圣锡尔克拉波皮', href: '/attractions/saint-cirq-lapopie-history' },
           ]}
         />

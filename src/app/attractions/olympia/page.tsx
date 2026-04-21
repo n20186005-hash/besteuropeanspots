@@ -15,7 +15,9 @@ export default function OlympiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '西希腊大区', href: '/destinations/greece' },
             { label: '奥林匹亚', href: '/attractions/olympia' },
           ]}
         />

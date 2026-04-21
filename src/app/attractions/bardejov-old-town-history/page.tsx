@@ -16,6 +16,8 @@ export default function BardejovOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '巴尔代约夫', href: '/destinations/europe' },
             { label: '巴尔代约夫老城', href: '/attractions/bardejov-old-town-history' },
           ]}
         />

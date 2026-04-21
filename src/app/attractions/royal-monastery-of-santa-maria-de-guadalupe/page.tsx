@@ -15,7 +15,9 @@ export default function RoyalMonasteryOfSantaMariaDeGuadalupePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '瓜达卢佩（Guadalupe），位于卡塞雷斯省', href: '/destinations/spain' },
             { label: '瓜达卢佩圣玛利亚皇家修道院', href: '/attractions/royal-monastery-of-santa-maria-de-guadalupe' },
           ]}
         />

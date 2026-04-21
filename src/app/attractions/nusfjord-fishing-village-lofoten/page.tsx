@@ -15,7 +15,9 @@ export default function NusfjordFishingVillageLofotenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '挪威', href: '/destinations/norway' },
+            { label: '罗弗敦群岛，弗拉克斯塔德市镇', href: '/destinations/norway' },
             { label: '努斯峡湾', href: '/attractions/nusfjord-fishing-village-lofoten' },
           ]}
         />

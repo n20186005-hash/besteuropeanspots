@@ -15,7 +15,9 @@ export default function GeraceCalabriaByzantinePearlPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '杰拉切（位于卡拉布里亚大区雷焦卡拉布里亚省）', href: '/destinations/italy' },
             { label: '杰拉切', href: '/attractions/gerace-calabria-byzantine-pearl' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function UppsalaCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '乌普萨拉', href: '/destinations/sweden' },
             { label: '乌普萨拉大教堂', href: '/attractions/uppsala-cathedral' },
           ]}
         />

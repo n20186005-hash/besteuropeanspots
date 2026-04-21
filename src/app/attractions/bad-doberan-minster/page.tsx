@@ -16,6 +16,8 @@ export default function BadDoberanMinsterPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴特多贝兰', href: '/destinations/europe' },
             { label: '巴特多贝兰修道院', href: '/attractions/bad-doberan-minster' },
           ]}
         />

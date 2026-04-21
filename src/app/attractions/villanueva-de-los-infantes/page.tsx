@@ -15,7 +15,9 @@ export default function VillanuevaDeLosInfantesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '雷阿尔城省', href: '/destinations/spain' },
             { label: '比利亚努埃瓦-德洛斯因凡特斯', href: '/attractions/villanueva-de-los-infantes' },
           ]}
         />

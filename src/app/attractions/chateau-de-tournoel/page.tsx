@@ -15,7 +15,9 @@ export default function ChateauDeTournoelPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '多姆山省（奥弗涅-罗讷-阿尔卑斯大区）', href: '/destinations/france' },
             { label: '图尔诺埃尔城堡', href: '/attractions/chateau-de-tournoel' },
           ]}
         />

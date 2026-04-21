@@ -16,6 +16,8 @@ export default function SusiceBohemianForestGatewayPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '苏希采', href: '/destinations/europe' },
             { label: '苏希采', href: '/attractions/susice-bohemian-forest-gateway' },
           ]}
         />

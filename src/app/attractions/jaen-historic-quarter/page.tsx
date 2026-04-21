@@ -15,7 +15,9 @@ export default function JaenHistoricQuarterPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '哈恩', href: '/destinations/spain' },
             { label: '哈恩古城', href: '/attractions/jaen-historic-quarter' },
           ]}
         />

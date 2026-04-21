@@ -15,7 +15,9 @@ export default function CordouanLighthousePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '吉伦特河口（近韦尔东/鲁瓦扬）', href: '/destinations/france' },
             { label: '科尔多昂灯塔', href: '/attractions/cordouan-lighthouse' },
           ]}
         />

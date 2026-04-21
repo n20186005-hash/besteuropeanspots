@@ -15,7 +15,9 @@ export default function RattenbergTirolPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '蒂罗尔州拉滕贝格镇', href: '/destinations/austria' },
             { label: '拉滕贝格', href: '/attractions/rattenberg-tirol' },
           ]}
         />

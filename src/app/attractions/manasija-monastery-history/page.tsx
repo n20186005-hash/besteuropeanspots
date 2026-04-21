@@ -16,6 +16,8 @@ export default function ManasijaMonasteryHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '塞尔维亚', href: '/destinations/europe' },
+            { label: '波莫拉夫列州（波莫拉夫列镇附近）', href: '/destinations/europe' },
             { label: '马纳西亚修道院', href: '/attractions/manasija-monastery-history' },
           ]}
         />

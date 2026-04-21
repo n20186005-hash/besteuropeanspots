@@ -16,6 +16,8 @@ export default function BosaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '撒丁岛', href: '/destinations/europe' },
             { label: '博萨', href: '/attractions/bosa-history' },
           ]}
         />

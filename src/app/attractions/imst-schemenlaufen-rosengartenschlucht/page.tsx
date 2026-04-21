@@ -16,6 +16,8 @@ export default function ImstSchemenlaufenRosengartenschluchtPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '蒂罗尔州伊姆斯特', href: '/destinations/europe' },
             { label: '伊姆斯特', href: '/attractions/imst-schemenlaufen-rosengartenschlucht' },
           ]}
         />

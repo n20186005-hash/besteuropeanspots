@@ -16,6 +16,8 @@ export default function BurchtVanLeidenPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '莱顿', href: '/destinations/europe' },
             { label: '莱顿古堡', href: '/attractions/burcht-van-leiden' },
           ]}
         />

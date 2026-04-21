@@ -16,6 +16,8 @@ export default function ZuozTraditionalVillagePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '格劳宾登州', href: '/destinations/europe' },
             { label: '楚奥茨', href: '/attractions/zuoz-traditional-village' },
           ]}
         />

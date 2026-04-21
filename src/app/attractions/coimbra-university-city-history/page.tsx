@@ -16,6 +16,8 @@ export default function CoimbraUniversityCityHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '科英布拉', href: '/destinations/europe' },
             { label: '科英布拉大学城', href: '/attractions/coimbra-university-city-history' },
           ]}
         />

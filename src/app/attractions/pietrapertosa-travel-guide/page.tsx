@@ -15,7 +15,9 @@ export default function PietrapertosaTravelGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '巴斯利卡塔', href: '/destinations/italy' },
             { label: '皮耶特拉佩尔托萨', href: '/attractions/pietrapertosa-travel-guide' },
           ]}
         />

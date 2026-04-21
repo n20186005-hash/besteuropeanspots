@@ -15,7 +15,9 @@ export default function LongyearbyenSvalbardPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '挪威', href: '/destinations/norway' },
+            { label: '斯瓦尔巴群岛', href: '/destinations/norway' },
             { label: '斯瓦尔巴朗伊尔城', href: '/attractions/longyearbyen-svalbard' },
           ]}
         />

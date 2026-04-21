@@ -15,7 +15,9 @@ export default function VelikoTarnovoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '保加利亚', href: '/destinations/bulgaria' },
+            { label: '大特尔诺沃', href: '/destinations/bulgaria' },
             { label: '大特尔诺沃（沙皇之城）', href: '/attractions/veliko-tarnovo' },
           ]}
         />

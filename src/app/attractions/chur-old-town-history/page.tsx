@@ -16,6 +16,8 @@ export default function ChurOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '格劳宾登州库尔', href: '/destinations/europe' },
             { label: '库尔老城', href: '/attractions/chur-old-town-history' },
           ]}
         />

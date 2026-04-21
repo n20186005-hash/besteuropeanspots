@@ -15,7 +15,9 @@ export default function MorcoteLakeLuganoSwitzerlandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '提契诺州，莫尔科特', href: '/destinations/switzerland' },
             { label: '莫尔科特', href: '/attractions/morcote-lake-lugano-switzerland' },
           ]}
         />

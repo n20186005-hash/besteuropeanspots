@@ -16,6 +16,8 @@ export default function TaPinuBasilicaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '马耳他', href: '/destinations/europe' },
+            { label: '戈佐岛', href: '/destinations/europe' },
             { label: '塔平努大教堂', href: '/attractions/ta-pinu-basilica' },
           ]}
         />

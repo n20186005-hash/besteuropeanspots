@@ -16,6 +16,8 @@ export default function PrilepMarkoviKuliPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '北马其顿', href: '/destinations/europe' },
+            { label: '佩拉戈尼亚大区', href: '/destinations/europe' },
             { label: '普里莱普', href: '/attractions/prilep-markovi-kuli' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function RhineFallsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '沙夫豪森', href: '/destinations/switzerland' },
             { label: '沙夫豪森莱茵瀑布', href: '/attractions/rhine-falls' },
           ]}
         />

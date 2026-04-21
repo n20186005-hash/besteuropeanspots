@@ -15,7 +15,9 @@ export default function OrvietoCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '奥尔维耶托', href: '/destinations/italy' },
             { label: '奥尔维耶托大教堂', href: '/attractions/orvieto-cathedral' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function MafraNationalPalaceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '里斯本大区马夫拉', href: '/destinations/europe' },
             { label: '马夫拉宫与修道院', href: '/attractions/mafra-national-palace-history' },
           ]}
         />

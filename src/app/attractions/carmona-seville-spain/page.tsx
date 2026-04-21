@@ -15,7 +15,9 @@ export default function CarmonaSevilleSpainPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '塞维利亚省，卡尔莫纳镇', href: '/destinations/spain' },
             { label: '卡尔莫纳', href: '/attractions/carmona-seville-spain' },
           ]}
         />

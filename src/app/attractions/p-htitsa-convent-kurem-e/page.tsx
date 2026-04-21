@@ -15,7 +15,9 @@ export default function PHtitsaConventKuremEPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '爱沙尼亚', href: '/destinations/estonia' },
+            { label: '伊达-维鲁县，库雷迈埃', href: '/destinations/estonia' },
             { label: '库雷迈埃库赫蒂察修道院', href: '/attractions/p-htitsa-convent-kurem-e' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function UniversityOfSalamancaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '萨拉曼卡', href: '/destinations/europe' },
             { label: '萨拉曼卡大学城', href: '/attractions/university-of-salamanca-history' },
           ]}
         />

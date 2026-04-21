@@ -16,6 +16,8 @@ export default function ChateauDeLaRocheJaguPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '阿摩尔滨海省', href: '/destinations/europe' },
             { label: '拉罗什雅居城堡', href: '/attractions/chateau-de-la-roche-jagu' },
           ]}
         />

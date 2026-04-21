@@ -16,6 +16,8 @@ export default function SalersHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '康塔尔省', href: '/destinations/europe' },
             { label: '萨莱尔', href: '/attractions/salers-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function AndernachMedievalTownColdWaterGeyserPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '安德纳赫', href: '/destinations/europe' },
             { label: '安德纳赫', href: '/attractions/andernach-medieval-town-cold-water-geyser' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function BojniceCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '特伦钦州博伊尼采', href: '/destinations/europe' },
             { label: '博伊尼采城堡', href: '/attractions/bojnice-castle-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function KravicaWaterfallPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
+            { label: '柳布什基（根据常理推断，瀑布位于西黑塞哥维那州，柳布什基市为其主要交通枢纽）', href: '/destinations/bosnia-and-herzegovina' },
             { label: '克拉维察瀑布', href: '/attractions/kravica-waterfall' },
           ]}
         />

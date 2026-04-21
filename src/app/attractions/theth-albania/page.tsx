@@ -15,7 +15,9 @@ export default function ThethAlbaniaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿尔巴尼亚', href: '/destinations/albania' },
+            { label: '斯库台州', href: '/destinations/albania' },
             { label: '泰斯隐修村', href: '/attractions/theth-albania' },
           ]}
         />

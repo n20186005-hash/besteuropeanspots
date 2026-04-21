@@ -15,7 +15,9 @@ export default function PloenCastleHolsteinSwitzerlandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '石勒苏益格-荷尔斯泰因州', href: '/destinations/germany' },
             { label: '普伦', href: '/attractions/ploen-castle-holstein-switzerland' },
           ]}
         />

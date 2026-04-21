@@ -15,7 +15,9 @@ export default function StrbskePlesoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '高塔特拉山 Štrbské Pleso 度假村', href: '/destinations/slovakia' },
             { label: '什特尔布斯凯普莱索', href: '/attractions/strbske-pleso' },
           ]}
         />

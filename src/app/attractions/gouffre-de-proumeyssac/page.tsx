@@ -15,7 +15,9 @@ export default function GouffreDeProumeyssacPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '多尔多涅省（阿基坦大区）', href: '/destinations/france' },
             { label: '普鲁梅萨克水晶深渊', href: '/attractions/gouffre-de-proumeyssac' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function HaarlemOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '哈勒姆', href: '/destinations/netherlands' },
             { label: '哈勒姆老城', href: '/attractions/haarlem-old-town' },
           ]}
         />

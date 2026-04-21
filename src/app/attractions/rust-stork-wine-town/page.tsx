@@ -15,7 +15,9 @@ export default function RustStorkWineTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '布尔根兰州', href: '/destinations/austria' },
             { label: '鲁斯特（屋顶上筑满鹳鸟巢穴的甜酒之乡）', href: '/attractions/rust-stork-wine-town' },
           ]}
         />

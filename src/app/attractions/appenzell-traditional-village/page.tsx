@@ -15,7 +15,9 @@ export default function AppenzellTraditionalVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '阿彭策尔内罗登州', href: '/destinations/switzerland' },
             { label: '阿彭策尔传统村落', href: '/attractions/appenzell-traditional-village' },
           ]}
         />

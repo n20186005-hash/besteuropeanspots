@@ -16,6 +16,8 @@ export default function KornatiIslandsNationalParkPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '达尔马提亚地区（主要门户城市为希贝尼克或扎达尔）', href: '/destinations/europe' },
             { label: '科尔纳蒂群岛', href: '/attractions/kornati-islands-national-park' },
           ]}
         />

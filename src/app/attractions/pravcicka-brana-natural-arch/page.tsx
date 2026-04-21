@@ -15,7 +15,9 @@ export default function PravcickaBranaNaturalArchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '赫伦斯科（Hřensko）', href: '/destinations/czech-republic' },
             { label: '普拉夫奇采拱门', href: '/attractions/pravcicka-brana-natural-arch' },
           ]}
         />

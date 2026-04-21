@@ -15,7 +15,9 @@ export default function EntrevauxFortifiedTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '上普罗旺斯阿尔卑斯省', href: '/destinations/france' },
             { label: '昂特勒沃', href: '/attractions/entrevaux-fortified-town' },
           ]}
         />

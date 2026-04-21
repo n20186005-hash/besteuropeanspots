@@ -15,7 +15,9 @@ export default function HamelnOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '哈默尔恩', href: '/destinations/germany' },
             { label: '哈默尔恩老城', href: '/attractions/hameln-old-town' },
           ]}
         />

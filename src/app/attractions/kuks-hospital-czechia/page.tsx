@@ -15,7 +15,9 @@ export default function KuksHospitalCzechiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '赫拉德茨-克拉洛韦州（靠近亚罗梅日镇）', href: '/destinations/czech-republic' },
             { label: '库克堡', href: '/attractions/kuks-hospital-czechia' },
           ]}
         />

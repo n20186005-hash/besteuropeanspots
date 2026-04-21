@@ -16,6 +16,8 @@ export default function NeaMoniChiosHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '北爱琴大区', href: '/destinations/europe' },
             { label: '希俄斯新修道院', href: '/attractions/nea-moni-chios-history' },
           ]}
         />

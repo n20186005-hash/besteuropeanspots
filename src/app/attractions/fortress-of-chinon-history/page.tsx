@@ -16,6 +16,8 @@ export default function FortressOfChinonHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '安德尔-卢瓦尔省，希农镇', href: '/destinations/europe' },
             { label: '希农城堡', href: '/attractions/fortress-of-chinon-history' },
           ]}
         />

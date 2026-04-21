@@ -16,6 +16,8 @@ export default function MonsantoRockVillageHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '伊达尼亚-阿诺瓦', href: '/destinations/europe' },
             { label: '蒙桑图（巨石小镇）', href: '/attractions/monsanto-rock-village-history' },
           ]}
         />

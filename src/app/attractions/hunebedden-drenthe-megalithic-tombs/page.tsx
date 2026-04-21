@@ -16,6 +16,8 @@ export default function HunebeddenDrentheMegalithicTombsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '阿森及德伦特省周边乡村', href: '/destinations/europe' },
             { label: '德伦特巨石墓群', href: '/attractions/hunebedden-drenthe-megalithic-tombs' },
           ]}
         />

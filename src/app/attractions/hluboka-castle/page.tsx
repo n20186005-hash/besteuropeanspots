@@ -15,7 +15,9 @@ export default function HlubokaCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '南波希米亚州，赫卢博卡镇', href: '/destinations/czech-republic' },
             { label: '赫卢博卡城堡', href: '/attractions/hluboka-castle' },
           ]}
         />

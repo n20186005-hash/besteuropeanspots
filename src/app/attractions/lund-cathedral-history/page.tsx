@@ -16,6 +16,8 @@ export default function LundCathedralHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '斯科讷省隆德市', href: '/destinations/europe' },
             { label: '隆德大教堂', href: '/attractions/lund-cathedral-history' },
           ]}
         />

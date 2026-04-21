@@ -16,6 +16,8 @@ export default function LomStaveChurchPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '内陆郡', href: '/destinations/europe' },
             { label: '洛姆木板教堂', href: '/attractions/lom-stave-church' },
           ]}
         />

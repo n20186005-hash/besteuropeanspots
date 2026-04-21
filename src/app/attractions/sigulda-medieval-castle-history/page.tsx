@@ -16,6 +16,8 @@ export default function SiguldaMedievalCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '拉脱维亚', href: '/destinations/europe' },
+            { label: '锡古尔达', href: '/destinations/europe' },
             { label: '锡古尔达中世纪城堡遗迹', href: '/attractions/sigulda-medieval-castle-history' },
           ]}
         />

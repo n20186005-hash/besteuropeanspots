@@ -15,7 +15,9 @@ export default function DurnsteinCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '杜恩施泰因', href: '/destinations/austria' },
             { label: '杜恩施泰因城堡', href: '/attractions/durnstein-castle' },
           ]}
         />

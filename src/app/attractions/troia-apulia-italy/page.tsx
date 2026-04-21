@@ -16,6 +16,8 @@ export default function TroiaApuliaItalyPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '特罗亚', href: '/destinations/europe' },
             { label: '特罗亚', href: '/attractions/troia-apulia-italy' },
           ]}
         />

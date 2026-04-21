@@ -15,7 +15,9 @@ export default function SenanqueAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '沃克吕兹省，戈尔德（Gordes）附近', href: '/destinations/france' },
             { label: '塞南克修道院', href: '/attractions/senanque-abbey' },
           ]}
         />

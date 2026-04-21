@@ -15,7 +15,9 @@ export default function NeuburgAnDerDonauPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '多瑙河畔诺伊堡', href: '/destinations/germany' },
             { label: '多瑙河畔诺伊堡', href: '/attractions/neuburg-an-der-donau' },
           ]}
         />

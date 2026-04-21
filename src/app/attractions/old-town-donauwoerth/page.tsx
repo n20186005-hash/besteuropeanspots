@@ -15,7 +15,9 @@ export default function OldTownDonauwoerthPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '多瑙沃特', href: '/destinations/germany' },
             { label: '多瑙沃特古城', href: '/attractions/old-town-donauwoerth' },
           ]}
         />

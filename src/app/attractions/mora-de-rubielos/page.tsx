@@ -16,6 +16,8 @@ export default function MoraDeRubielosPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '特鲁埃尔', href: '/destinations/europe' },
             { label: '莫拉德鲁维耶洛斯', href: '/attractions/mora-de-rubielos' },
           ]}
         />

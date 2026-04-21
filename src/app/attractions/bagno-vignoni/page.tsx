@@ -16,6 +16,8 @@ export default function BagnoVignoniPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '托斯卡纳大区（锡耶纳省）', href: '/destinations/europe' },
             { label: '巴尼奥-维尼奥尼', href: '/attractions/bagno-vignoni' },
           ]}
         />

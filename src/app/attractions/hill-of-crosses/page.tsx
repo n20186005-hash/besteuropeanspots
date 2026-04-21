@@ -15,7 +15,9 @@ export default function HillOfCrossesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '立陶宛', href: '/destinations/lithuania' },
+            { label: '希奥利艾县 （距离希奥利艾市约12公里）', href: '/destinations/lithuania' },
             { label: '希奥利艾十字架山', href: '/attractions/hill-of-crosses' },
           ]}
         />

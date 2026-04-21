@@ -15,7 +15,9 @@ export default function BaezaHistoricalEnsemblePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '巴埃萨', href: '/destinations/spain' },
             { label: '巴埃萨古城', href: '/attractions/baeza-historical-ensemble' },
           ]}
         />

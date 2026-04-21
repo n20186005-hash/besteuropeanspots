@@ -16,6 +16,8 @@ export default function SyrrakoGreeceEpirusPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '伊庇鲁斯', href: '/destinations/europe' },
             { label: '锡拉科', href: '/attractions/syrrako-greece-epirus' },
           ]}
         />

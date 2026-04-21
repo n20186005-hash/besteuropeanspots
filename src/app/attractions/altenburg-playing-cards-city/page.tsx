@@ -15,7 +15,9 @@ export default function AltenburgPlayingCardsCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '阿尔滕堡', href: '/destinations/germany' },
             { label: '阿尔滕堡（纸牌游戏发源地）', href: '/attractions/altenburg-playing-cards-city' },
           ]}
         />

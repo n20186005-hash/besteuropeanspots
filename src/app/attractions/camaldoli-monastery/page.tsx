@@ -15,7 +15,9 @@ export default function CamaldoliMonasteryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '波波利（靠近阿雷佐省）', href: '/destinations/italy' },
             { label: '卡马尔多利修道院', href: '/attractions/camaldoli-monastery' },
           ]}
         />

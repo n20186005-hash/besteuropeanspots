@@ -16,6 +16,8 @@ export default function WatchValleyIceLakesAustriaSwitzerlandPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利与瑞士', href: '/destinations/europe' },
+            { label: '主要涉及奥地利萨尔茨卡默古特湖区（如哈尔施塔特、巴德伊舍）及瑞士侏罗山脉地区（如拉绍德封、力洛克）', href: '/destinations/europe' },
             { label: '奥地利·瑞士（制表名谷与冰碛湖泊）', href: '/attractions/watch-valley-ice-lakes-austria-switzerland' },
           ]}
         />

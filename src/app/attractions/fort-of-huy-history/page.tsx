@@ -16,6 +16,8 @@ export default function FortOfHuyHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '于伊', href: '/destinations/europe' },
             { label: '于伊要塞', href: '/attractions/fort-of-huy-history' },
           ]}
         />

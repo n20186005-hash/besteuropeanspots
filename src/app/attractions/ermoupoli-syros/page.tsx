@@ -15,7 +15,9 @@ export default function ErmoupoliSyrosPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '锡罗斯岛', href: '/destinations/greece' },
             { label: '埃尔穆波利（锡罗斯岛）', href: '/attractions/ermoupoli-syros' },
           ]}
         />

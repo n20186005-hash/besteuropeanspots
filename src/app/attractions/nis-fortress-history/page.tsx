@@ -16,6 +16,8 @@ export default function NisFortressHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '塞尔维亚', href: '/destinations/europe' },
+            { label: '尼沙瓦州', href: '/destinations/europe' },
             { label: '尼什要塞', href: '/attractions/nis-fortress-history' },
           ]}
         />

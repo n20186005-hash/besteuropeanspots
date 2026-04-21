@@ -16,6 +16,8 @@ export default function LierZimmertorenBegijnhofHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '利尔', href: '/destinations/europe' },
             { label: '利尔（齐默尔塔与贝居安会院）', href: '/attractions/lier-zimmertoren-begijnhof-history' },
           ]}
         />

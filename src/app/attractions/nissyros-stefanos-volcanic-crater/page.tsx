@@ -15,7 +15,9 @@ export default function NissyrosStefanosVolcanicCraterPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '尼西罗斯岛', href: '/destinations/greece' },
             { label: '尼西罗斯岛斯特凡诺斯火山口', href: '/attractions/nissyros-stefanos-volcanic-crater' },
           ]}
         />

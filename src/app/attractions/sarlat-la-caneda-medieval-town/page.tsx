@@ -15,7 +15,9 @@ export default function SarlatLaCanedaMedievalTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '萨拉拉卡内达', href: '/destinations/france' },
             { label: '萨拉拉卡内达', href: '/attractions/sarlat-la-caneda-medieval-town' },
           ]}
         />

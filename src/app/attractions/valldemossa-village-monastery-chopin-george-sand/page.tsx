@@ -16,6 +16,8 @@ export default function ValldemossaVillageMonasteryChopinGeorgeSandPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '巴尔德马萨', href: '/destinations/europe' },
             { label: '巴尔德马萨', href: '/attractions/valldemossa-village-monastery-chopin-george-sand' },
           ]}
         />

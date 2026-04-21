@@ -15,7 +15,9 @@ export default function GerolimenasManiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '伯罗奔尼撒', href: '/destinations/greece' },
             { label: '马尼半岛耶罗利梅纳斯', href: '/attractions/gerolimenas-mani' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function MatkaCanyonPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '北马其顿', href: '/destinations/north-macedonia' },
+            { label: '斯科普里郊外', href: '/destinations/north-macedonia' },
             { label: '马特卡峡谷', href: '/attractions/matka-canyon' },
           ]}
         />

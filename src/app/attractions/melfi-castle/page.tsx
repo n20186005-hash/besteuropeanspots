@@ -16,6 +16,8 @@ export default function MelfiCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '梅尔菲（巴斯利卡塔大区）', href: '/destinations/europe' },
             { label: '梅尔菲城堡', href: '/attractions/melfi-castle' },
           ]}
         />

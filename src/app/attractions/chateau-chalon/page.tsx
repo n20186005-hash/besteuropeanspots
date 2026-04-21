@@ -15,7 +15,9 @@ export default function ChateauChalonPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '汝拉省', href: '/destinations/france' },
             { label: '沙托沙隆', href: '/attractions/chateau-chalon' },
           ]}
         />

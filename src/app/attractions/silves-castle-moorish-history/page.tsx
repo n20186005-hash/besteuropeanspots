@@ -16,6 +16,8 @@ export default function SilvesCastleMoorishHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '锡尔维什', href: '/destinations/europe' },
             { label: '锡尔维什城堡', href: '/attractions/silves-castle-moorish-history' },
           ]}
         />

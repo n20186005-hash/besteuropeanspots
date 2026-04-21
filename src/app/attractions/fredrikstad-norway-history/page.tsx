@@ -16,6 +16,8 @@ export default function FredrikstadNorwayHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '维肯郡', href: '/destinations/europe' },
             { label: '腓特烈斯塔', href: '/attractions/fredrikstad-norway-history' },
           ]}
         />

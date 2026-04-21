@@ -16,6 +16,8 @@ export default function VillaFarneseCaprarolaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '拉齐奥大区，卡普拉罗拉镇', href: '/destinations/europe' },
             { label: '卡普拉罗拉法尔内塞别墅', href: '/attractions/villa-farnese-caprarola' },
           ]}
         />

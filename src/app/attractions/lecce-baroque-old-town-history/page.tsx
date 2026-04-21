@@ -16,6 +16,8 @@ export default function LecceBaroqueOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '莱切', href: '/destinations/europe' },
             { label: '莱切巴洛克老城', href: '/attractions/lecce-baroque-old-town-history' },
           ]}
         />

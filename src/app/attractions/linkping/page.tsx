@@ -15,7 +15,9 @@ export default function LinkpingPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '林雪平', href: '/destinations/sweden' },
             { label: '林雪平老城', href: '/attractions/linkping' },
           ]}
         />

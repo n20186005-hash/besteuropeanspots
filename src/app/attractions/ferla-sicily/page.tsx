@@ -16,6 +16,8 @@ export default function FerlaSicilyPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '西西里岛', href: '/destinations/europe' },
             { label: '费尔拉', href: '/attractions/ferla-sicily' },
           ]}
         />

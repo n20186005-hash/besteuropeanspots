@@ -16,6 +16,8 @@ export default function RamFortressPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞尔维亚', href: '/destinations/europe' },
+            { label: '布拉尼切沃州', href: '/destinations/europe' },
             { label: '拉姆要塞', href: '/attractions/ram-fortress' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function GoudaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '豪达', href: '/destinations/europe' },
             { label: '豪达', href: '/attractions/gouda-history' },
           ]}
         />

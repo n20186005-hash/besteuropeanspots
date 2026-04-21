@@ -16,6 +16,8 @@ export default function TripointAbbeyRuinsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '维塞', href: '/destinations/europe' },
             { label: '三国交界点与圣本笃修道院遗迹', href: '/attractions/tripoint-abbey-ruins' },
           ]}
         />

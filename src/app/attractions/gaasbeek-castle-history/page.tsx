@@ -16,6 +16,8 @@ export default function GaasbeekCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '弗拉芒布拉班特省', href: '/destinations/europe' },
             { label: '加斯贝克城堡', href: '/attractions/gaasbeek-castle-history' },
           ]}
         />

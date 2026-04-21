@@ -16,6 +16,8 @@ export default function LjubuskiHercegStjepanCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '波黑', href: '/destinations/europe' },
+            { label: '西黑塞哥维那州', href: '/destinations/europe' },
             { label: '柳布什基（赫尔采格·斯捷潘城堡）', href: '/attractions/ljubuski-herceg-stjepan-castle' },
           ]}
         />

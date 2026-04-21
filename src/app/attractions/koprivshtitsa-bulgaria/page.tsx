@@ -15,7 +15,9 @@ export default function KoprivshtitsaBulgariaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '保加利亚', href: '/destinations/bulgaria' },
+            { label: '科普里夫什蒂察镇（索菲亚州）', href: '/destinations/bulgaria' },
             { label: '科普里夫什蒂察（保加利亚民族复兴时期的彩绘起义小镇）', href: '/attractions/koprivshtitsa-bulgaria' },
           ]}
         />

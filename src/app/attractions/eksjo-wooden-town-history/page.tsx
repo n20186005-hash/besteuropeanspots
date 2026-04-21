@@ -16,6 +16,8 @@ export default function EksjoWoodenTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '延雪平省', href: '/destinations/europe' },
             { label: '埃克舍', href: '/attractions/eksjo-wooden-town-history' },
           ]}
         />

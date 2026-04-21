@@ -15,7 +15,9 @@ export default function ZnojmoHistoricCenterUndergroundLabyrinthPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '兹诺伊莫，南摩拉维亚州', href: '/destinations/czech-republic' },
             { label: '兹诺伊莫', href: '/attractions/znojmo-historic-center-underground-labyrinth' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function RethymnoOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '克里特岛', href: '/destinations/europe' },
             { label: '雷西姆诺老城', href: '/attractions/rethymno-old-town-history' },
           ]}
         />

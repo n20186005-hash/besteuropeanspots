@@ -16,6 +16,8 @@ export default function BelmonteCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '昆卡', href: '/destinations/europe' },
             { label: '贝尔蒙特城堡', href: '/attractions/belmonte-castle-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function DudelangeOldSteelworksParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卢森堡', href: '/destinations/luxembourg' },
+            { label: '阿尔泽特河畔埃施', href: '/destinations/luxembourg' },
             { label: '迪德朗日老钢铁厂遗址公园', href: '/attractions/dudelange-old-steelworks-park' },
           ]}
         />

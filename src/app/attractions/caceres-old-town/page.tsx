@@ -15,7 +15,9 @@ export default function CaceresOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '卡塞雷斯', href: '/destinations/spain' },
             { label: '卡塞雷斯老城', href: '/attractions/caceres-old-town' },
           ]}
         />

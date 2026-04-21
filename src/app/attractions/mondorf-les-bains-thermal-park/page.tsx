@@ -16,6 +16,8 @@ export default function MondorfLesBainsThermalParkPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '蒙多夫莱班', href: '/destinations/europe' },
             { label: '蒙多夫莱班', href: '/attractions/mondorf-les-bains-thermal-park' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function LyonHistoricalCenterHistoryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
             { label: '法国', href: '/destinations/france' },
+            { label: '里昂', href: '/destinations/france' },
             { label: '里昂历史中心', href: '/attractions/lyon-historical-center-history' },
           ]}
         />

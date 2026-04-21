@@ -16,6 +16,8 @@ export default function BozhentsiVillagePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '保加利亚', href: '/destinations/europe' },
+            { label: '加布罗沃州', href: '/destinations/europe' },
             { label: '博仁齐', href: '/attractions/bozhentsi-village' },
           ]}
         />

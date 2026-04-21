@@ -16,6 +16,8 @@ export default function MonemvasiaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '莫奈姆瓦夏', href: '/destinations/europe' },
             { label: '莫奈姆瓦夏', href: '/attractions/monemvasia-history' },
           ]}
         />

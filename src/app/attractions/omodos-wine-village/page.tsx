@@ -15,7 +15,9 @@ export default function OmodosWineVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞浦路斯', href: '/destinations/cyprus' },
+            { label: '利马索尔', href: '/destinations/cyprus' },
             { label: '奥莫多斯', href: '/attractions/omodos-wine-village' },
           ]}
         />

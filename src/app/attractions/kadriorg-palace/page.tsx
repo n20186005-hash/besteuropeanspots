@@ -16,6 +16,8 @@ export default function KadriorgPalacePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '爱沙尼亚', href: '/destinations/europe' },
+            { label: '塔林（哈尔尤县）', href: '/destinations/europe' },
             { label: '卡德里奥宫', href: '/attractions/kadriorg-palace' },
           ]}
         />

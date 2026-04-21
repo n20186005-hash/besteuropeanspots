@@ -16,6 +16,8 @@ export default function MonrealeCathedralPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '西西里岛巴勒莫大都会市', href: '/destinations/europe' },
             { label: '蒙雷阿莱大教堂', href: '/attractions/monreale-cathedral' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function LeidenUniversityCityHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '莱顿', href: '/destinations/europe' },
             { label: '莱顿大学城', href: '/attractions/leiden-university-city-history' },
           ]}
         />

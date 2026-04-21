@@ -16,6 +16,8 @@ export default function SinesCastleBirthplaceOfVascoDaGamaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '锡内什', href: '/destinations/europe' },
             { label: '锡内什', href: '/attractions/sines-castle-birthplace-of-vasco-da-gama' },
           ]}
         />

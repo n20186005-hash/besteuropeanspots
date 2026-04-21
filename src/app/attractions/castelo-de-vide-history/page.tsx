@@ -16,6 +16,8 @@ export default function CasteloDeVideHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '波塔莱格雷区', href: '/destinations/europe' },
             { label: '卡斯特卢-迪维迪', href: '/attractions/castelo-de-vide-history' },
           ]}
         />

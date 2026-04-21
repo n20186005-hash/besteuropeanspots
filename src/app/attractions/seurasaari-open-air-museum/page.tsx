@@ -16,6 +16,8 @@ export default function SeurasaariOpenAirMuseumPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/europe' },
+            { label: '赫尔辛基', href: '/destinations/europe' },
             { label: '伴侣岛露天博物馆', href: '/attractions/seurasaari-open-air-museum' },
           ]}
         />

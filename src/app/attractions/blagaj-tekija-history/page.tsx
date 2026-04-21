@@ -16,6 +16,8 @@ export default function BlagajTekijaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '波黑', href: '/destinations/europe' },
+            { label: '黑塞哥维那-内雷特瓦州', href: '/destinations/europe' },
             { label: '布拉加伊特基亚（布纳河泉眼的托钵僧修道院）', href: '/attractions/blagaj-tekija-history' },
           ]}
         />

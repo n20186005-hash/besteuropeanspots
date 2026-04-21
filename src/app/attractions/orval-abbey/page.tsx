@@ -15,7 +15,9 @@ export default function OrvalAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '卢森堡省，弗洛朗维尔市附近', href: '/destinations/belgium' },
             { label: '奥尔瓦勒修道院', href: '/attractions/orval-abbey' },
           ]}
         />

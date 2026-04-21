@@ -16,6 +16,8 @@ export default function NaantaliFinlandHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '芬兰', href: '/destinations/europe' },
+            { label: '西南芬兰区', href: '/destinations/europe' },
             { label: '楠塔利（芬兰总统夏宫及木屋老城）', href: '/attractions/naantali-finland-history' },
           ]}
         />

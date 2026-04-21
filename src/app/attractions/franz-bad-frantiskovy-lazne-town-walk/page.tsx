@@ -15,7 +15,9 @@ export default function FranzBadFrantiskovyLazneTownWalkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '卡罗维发利州', href: '/destinations/czech-republic' },
             { label: '弗朗齐歇克矿泉村', href: '/attractions/franz-bad-frantiskovy-lazne-town-walk' },
           ]}
         />

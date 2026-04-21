@@ -15,7 +15,9 @@ export default function MonteSantAngeloPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '普利亚大区福贾省', href: '/destinations/italy' },
             { label: '圣安杰洛山', href: '/attractions/monte-sant-angelo' },
           ]}
         />

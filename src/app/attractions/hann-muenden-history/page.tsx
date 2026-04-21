@@ -16,6 +16,8 @@ export default function HannMuendenHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '汉明登', href: '/destinations/europe' },
             { label: '汉明登（三河交汇处的木骨架之城）', href: '/attractions/hann-muenden-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function MakoOrganicThermalBathPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '毛科', href: '/destinations/europe' },
             { label: '毛科', href: '/attractions/mako-organic-thermal-bath' },
           ]}
         />

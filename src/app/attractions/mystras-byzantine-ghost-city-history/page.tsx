@@ -16,6 +16,8 @@ export default function MystrasByzantineGhostCityHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '伯罗奔尼撒', href: '/destinations/europe' },
             { label: '米斯特拉斯遗址', href: '/attractions/mystras-byzantine-ghost-city-history' },
           ]}
         />

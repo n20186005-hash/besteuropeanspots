@@ -16,6 +16,8 @@ export default function BoldogkoCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '包尔绍德-奥包乌伊-曾普伦州（邻近小镇：博尔多格克瓦劳尔约）', href: '/destinations/europe' },
             { label: '博尔多格克城堡', href: '/attractions/boldogko-castle' },
           ]}
         />

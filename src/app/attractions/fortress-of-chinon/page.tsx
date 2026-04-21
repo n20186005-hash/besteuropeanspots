@@ -15,7 +15,9 @@ export default function FortressOfChinonPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '希农（安德尔-卢瓦尔省）', href: '/destinations/france' },
             { label: '希农城堡', href: '/attractions/fortress-of-chinon' },
           ]}
         />

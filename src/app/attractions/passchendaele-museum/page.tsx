@@ -16,6 +16,8 @@ export default function PasschendaeleMuseumPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '宗讷贝克', href: '/destinations/europe' },
             { label: '帕森达勒战争纪念馆（帕森达勒博物馆）', href: '/attractions/passchendaele-museum' },
           ]}
         />

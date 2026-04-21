@@ -15,7 +15,9 @@ export default function BomJesusDoMonteBragaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '布拉加', href: '/destinations/portugal' },
             { label: '布拉加仁慈耶稣朝圣所', href: '/attractions/bom-jesus-do-monte-braga' },
           ]}
         />

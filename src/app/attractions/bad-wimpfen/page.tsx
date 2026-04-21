@@ -15,7 +15,9 @@ export default function BadWimpfenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '巴特温普芬', href: '/destinations/germany' },
             { label: '巴特温普芬', href: '/attractions/bad-wimpfen' },
           ]}
         />

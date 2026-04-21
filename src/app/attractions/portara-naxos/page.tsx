@@ -15,7 +15,9 @@ export default function PortaraNaxosPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '纳克索斯岛（Naxos）， 南爱琴大区', href: '/destinations/greece' },
             { label: '纳克索斯波尔塔拉', href: '/attractions/portara-naxos' },
           ]}
         />

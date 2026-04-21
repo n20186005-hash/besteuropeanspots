@@ -16,6 +16,8 @@ export default function MudejarArchitectureTeruelHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '特鲁埃尔', href: '/destinations/europe' },
             { label: '特鲁埃尔穆德哈尔建筑群', href: '/attractions/mudejar-architecture-teruel-history' },
           ]}
         />

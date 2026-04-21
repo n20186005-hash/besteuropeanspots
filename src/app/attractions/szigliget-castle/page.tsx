@@ -15,7 +15,9 @@ export default function SzigligetCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '巴拉顿菲赖德附近（锡盖特森特米克洛什地区）', href: '/destinations/hungary' },
             { label: '锡盖特城堡', href: '/attractions/szigliget-castle' },
           ]}
         />

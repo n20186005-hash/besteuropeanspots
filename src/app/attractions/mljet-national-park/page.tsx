@@ -15,7 +15,9 @@ export default function MljetNationalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '杜布罗夫尼克-内雷特瓦县', href: '/destinations/croatia' },
             { label: '姆列特岛国家公园', href: '/attractions/mljet-national-park' },
           ]}
         />

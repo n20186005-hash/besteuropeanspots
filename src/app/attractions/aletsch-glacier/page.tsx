@@ -15,7 +15,9 @@ export default function AletschGlacierPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '瓦莱州', href: '/destinations/switzerland' },
             { label: '阿莱奇冰川', href: '/attractions/aletsch-glacier' },
           ]}
         />

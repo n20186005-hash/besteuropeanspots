@@ -15,7 +15,9 @@ export default function PlovdivRomanTheatrePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '保加利亚', href: '/destinations/bulgaria' },
+            { label: '普罗夫迪夫', href: '/destinations/bulgaria' },
             { label: '普罗夫迪夫古罗马剧场', href: '/attractions/plovdiv-roman-theatre' },
           ]}
         />

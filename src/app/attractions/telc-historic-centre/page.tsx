@@ -15,7 +15,9 @@ export default function TelcHistoricCentrePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '泰尔奇', href: '/destinations/czech-republic' },
             { label: '泰尔奇历史中心', href: '/attractions/telc-historic-centre' },
           ]}
         />

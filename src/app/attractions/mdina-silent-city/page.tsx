@@ -15,7 +15,9 @@ export default function MdinaSilentCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马耳他', href: '/destinations/malta' },
+            { label: '姆迪纳', href: '/destinations/malta' },
             { label: '姆迪纳静寂之城', href: '/attractions/mdina-silent-city' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function FagarasFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '弗格拉什', href: '/destinations/romania' },
             { label: '弗格拉什要塞', href: '/attractions/fagaras-fortress' },
           ]}
         />

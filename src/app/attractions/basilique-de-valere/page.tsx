@@ -15,7 +15,9 @@ export default function BasiliqueDeValerePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '锡永', href: '/destinations/switzerland' },
             { label: '瓦莱尔圣母大教堂', href: '/attractions/basilique-de-valere' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function BlenheimPalacePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '英国', href: '/destinations/united-kingdom' },
+            { label: '伍德斯托克', href: '/destinations/united-kingdom' },
             { label: '布伦古堡', href: '/attractions/blenheim-palace' },
           ]}
         />

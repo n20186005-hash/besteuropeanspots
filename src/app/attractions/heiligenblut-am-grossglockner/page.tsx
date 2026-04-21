@@ -16,6 +16,8 @@ export default function HeiligenblutAmGrossglocknerPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '海利根布卢特（克恩顿州）', href: '/destinations/europe' },
             { label: '大格洛克纳山麓海利根布卢特', href: '/attractions/heiligenblut-am-grossglockner' },
           ]}
         />

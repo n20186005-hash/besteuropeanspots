@@ -16,6 +16,8 @@ export default function PitiglianoHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '皮蒂iglia诺', href: '/destinations/europe' },
             { label: '皮蒂利亚诺', href: '/attractions/pitigliano-history' },
           ]}
         />

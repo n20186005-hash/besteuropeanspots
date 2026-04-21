@@ -15,7 +15,9 @@ export default function VkolinecWoodenVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '鲁容贝罗克', href: '/destinations/slovakia' },
             { label: '弗尔科利内茨', href: '/attractions/vkolinec-wooden-village' },
           ]}
         />

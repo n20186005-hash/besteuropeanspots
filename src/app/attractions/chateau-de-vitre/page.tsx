@@ -15,7 +15,9 @@ export default function ChateauDeVitrePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '维特雷', href: '/destinations/france' },
             { label: '维特雷城堡', href: '/attractions/chateau-de-vitre' },
           ]}
         />

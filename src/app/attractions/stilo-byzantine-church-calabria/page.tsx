@@ -16,6 +16,8 @@ export default function StiloByzantineChurchCalabriaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '斯蒂洛（卡拉布里亚大区）', href: '/destinations/europe' },
             { label: '斯蒂洛', href: '/attractions/stilo-byzantine-church-calabria' },
           ]}
         />

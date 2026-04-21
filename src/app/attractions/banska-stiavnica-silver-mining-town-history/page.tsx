@@ -16,6 +16,8 @@ export default function BanskaStiavnicaSilverMiningTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '班斯卡什佳夫尼察', href: '/destinations/europe' },
             { label: '班斯卡什佳夫尼察', href: '/attractions/banska-stiavnica-silver-mining-town-history' },
           ]}
         />

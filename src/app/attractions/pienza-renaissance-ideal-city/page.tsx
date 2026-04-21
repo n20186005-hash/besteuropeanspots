@@ -15,7 +15,9 @@ export default function PienzaRenaissanceIdealCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '皮恩扎（位于锡耶纳省）', href: '/destinations/italy' },
             { label: '皮恩扎', href: '/attractions/pienza-renaissance-ideal-city' },
           ]}
         />

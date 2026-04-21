@@ -15,7 +15,9 @@ export default function StariMostMostarPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
+            { label: '莫斯塔尔', href: '/destinations/bosnia-and-herzegovina' },
             { label: '莫斯塔尔老桥', href: '/attractions/stari-most-mostar' },
           ]}
         />

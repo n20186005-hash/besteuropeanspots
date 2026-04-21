@@ -15,7 +15,9 @@ export default function FolegandrosPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '南爱琴大区', href: '/destinations/greece' },
             { label: '福莱甘兹罗斯', href: '/attractions/folegandros' },
           ]}
         />

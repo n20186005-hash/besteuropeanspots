@@ -16,6 +16,8 @@ export default function UrbaniaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '马尔凯', href: '/destinations/europe' },
             { label: '乌尔巴尼亚', href: '/attractions/urbania' },
           ]}
         />

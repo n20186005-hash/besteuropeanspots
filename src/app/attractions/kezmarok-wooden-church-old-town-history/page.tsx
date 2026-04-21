@@ -16,6 +16,8 @@ export default function KezmarokWoodenChurchOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '普列索夫州', href: '/destinations/europe' },
             { label: '凯日马罗克（木制极地教堂及老城）', href: '/attractions/kezmarok-wooden-church-old-town-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function HirsauAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '卡尔夫（Hirsau是卡尔夫市的一个区）', href: '/destinations/germany' },
             { label: '希尔绍修道院', href: '/attractions/hirsau-abbey' },
           ]}
         />

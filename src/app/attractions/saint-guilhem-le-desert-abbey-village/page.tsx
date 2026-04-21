@@ -15,7 +15,9 @@ export default function SaintGuilhemLeDesertAbbeyVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '圣吉米扬（埃罗省）', href: '/destinations/france' },
             { label: '圣吉米扬隐修村', href: '/attractions/saint-guilhem-le-desert-abbey-village' },
           ]}
         />

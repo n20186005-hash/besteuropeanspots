@@ -15,7 +15,9 @@ export default function VotiveChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '维也纳', href: '/destinations/austria' },
             { label: '沃蒂夫教堂', href: '/attractions/votive-church' },
           ]}
         />

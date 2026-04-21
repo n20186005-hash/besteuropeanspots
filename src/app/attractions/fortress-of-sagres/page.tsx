@@ -15,7 +15,9 @@ export default function FortressOfSagresPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '萨格里什， 阿尔加维地区', href: '/destinations/portugal' },
             { label: '萨格里什要塞', href: '/attractions/fortress-of-sagres' },
           ]}
         />

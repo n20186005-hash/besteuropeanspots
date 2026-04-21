@@ -15,7 +15,9 @@ export default function NaantaliPresidentialSummerResidentAndOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '芬兰', href: '/destinations/finland' },
+            { label: '楠塔利', href: '/destinations/finland' },
             { label: '楠塔利（芬兰总统夏宫及木屋老城）', href: '/attractions/naantali-presidential-summer-resident-and-old-town' },
           ]}
         />

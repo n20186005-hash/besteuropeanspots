@@ -15,7 +15,9 @@ export default function HochosterwitzCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '克恩顿州，圣格奥尔根村（邻近克拉根福）', href: '/destinations/austria' },
             { label: '霍赫奥斯特维茨城堡', href: '/attractions/hochosterwitz-castle' },
           ]}
         />

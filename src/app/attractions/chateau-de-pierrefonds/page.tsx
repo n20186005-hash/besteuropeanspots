@@ -15,7 +15,9 @@ export default function ChateauDePierrefondsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '皮埃尔丰', href: '/destinations/france' },
             { label: '皮埃尔丰城堡', href: '/attractions/chateau-de-pierrefonds' },
           ]}
         />

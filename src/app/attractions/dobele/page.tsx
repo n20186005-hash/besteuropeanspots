@@ -16,6 +16,8 @@ export default function DobelePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '拉脱维亚', href: '/destinations/europe' },
+            { label: '泽姆加尔', href: '/destinations/europe' },
             { label: '多贝莱古城', href: '/attractions/dobele' },
           ]}
         />

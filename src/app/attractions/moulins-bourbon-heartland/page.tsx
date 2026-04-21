@@ -16,6 +16,8 @@ export default function MoulinsBourbonHeartlandPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '穆兰', href: '/destinations/europe' },
             { label: '穆兰', href: '/attractions/moulins-bourbon-heartland' },
           ]}
         />

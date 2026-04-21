@@ -15,7 +15,9 @@ export default function UseldangePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卢森堡', href: '/destinations/luxembourg' },
+            { label: '雷当日', href: '/destinations/luxembourg' },
             { label: '乌塞尔当日', href: '/attractions/useldange' },
           ]}
         />

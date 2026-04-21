@@ -16,6 +16,8 @@ export default function HronsekWoodenChurchPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '班斯卡-比斯特里察州（近赫龙塞克村）', href: '/destinations/europe' },
             { label: '赫龙塞克木教堂', href: '/attractions/hronsek-wooden-church' },
           ]}
         />

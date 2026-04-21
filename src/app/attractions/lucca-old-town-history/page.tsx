@@ -16,6 +16,8 @@ export default function LuccaOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '卢卡', href: '/destinations/europe' },
             { label: '卢卡古城墙', href: '/attractions/lucca-old-town-history' },
           ]}
         />

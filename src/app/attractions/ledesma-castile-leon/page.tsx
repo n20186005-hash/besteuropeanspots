@@ -16,6 +16,8 @@ export default function LedesmaCastileLeonPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '莱德斯马', href: '/destinations/europe' },
             { label: '莱德斯马', href: '/attractions/ledesma-castile-leon' },
           ]}
         />

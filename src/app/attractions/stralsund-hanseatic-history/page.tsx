@@ -16,6 +16,8 @@ export default function StralsundHanseaticHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '施特拉尔松德', href: '/destinations/europe' },
             { label: '施特拉尔松德', href: '/attractions/stralsund-hanseatic-history' },
           ]}
         />

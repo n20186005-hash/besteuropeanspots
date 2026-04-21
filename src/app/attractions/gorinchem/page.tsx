@@ -16,6 +16,8 @@ export default function GorinchemPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '南荷兰省', href: '/destinations/europe' },
             { label: '霍林赫姆', href: '/attractions/gorinchem' },
           ]}
         />

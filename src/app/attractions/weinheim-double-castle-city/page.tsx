@@ -16,6 +16,8 @@ export default function WeinheimDoubleCastleCityPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '魏恩海姆', href: '/destinations/europe' },
             { label: '魏恩海姆', href: '/attractions/weinheim-double-castle-city' },
           ]}
         />

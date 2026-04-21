@@ -15,7 +15,9 @@ export default function ArachovaParnassusPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '阿拉霍瓦（隶属中希腊大区）', href: '/destinations/greece' },
             { label: '阿拉霍瓦', href: '/attractions/arachova-parnassus' },
           ]}
         />

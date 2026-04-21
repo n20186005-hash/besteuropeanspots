@@ -16,6 +16,8 @@ export default function BeaufortCastleRuinsHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '博福尔', href: '/destinations/europe' },
             { label: '博福尔城堡遗址', href: '/attractions/beaufort-castle-ruins-history' },
           ]}
         />

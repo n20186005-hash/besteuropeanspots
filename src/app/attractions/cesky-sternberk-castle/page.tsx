@@ -15,7 +15,9 @@ export default function CeskySternberkCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '中波希米亚州', href: '/destinations/czech-republic' },
             { label: '施特恩贝克城堡', href: '/attractions/cesky-sternberk-castle' },
           ]}
         />

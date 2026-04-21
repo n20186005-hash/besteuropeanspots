@@ -16,6 +16,8 @@ export default function HoornEastIndiaCompanyHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '北荷兰省', href: '/destinations/europe' },
             { label: '霍伦', href: '/attractions/hoorn-east-india-company-history' },
           ]}
         />

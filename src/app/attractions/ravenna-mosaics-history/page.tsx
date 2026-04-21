@@ -16,6 +16,8 @@ export default function RavennaMosaicsHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '拉文纳', href: '/destinations/europe' },
             { label: '拉文纳马赛克群', href: '/attractions/ravenna-mosaics-history' },
           ]}
         />

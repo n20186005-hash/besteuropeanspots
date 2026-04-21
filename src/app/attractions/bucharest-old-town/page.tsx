@@ -15,7 +15,9 @@ export default function BucharestOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '布加勒斯特', href: '/destinations/romania' },
             { label: '布加勒斯特老城', href: '/attractions/bucharest-old-town' },
           ]}
         />

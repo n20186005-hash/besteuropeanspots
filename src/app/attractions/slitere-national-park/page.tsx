@@ -16,6 +16,8 @@ export default function SlitereNationalParkPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '拉脱维亚', href: '/destinations/europe' },
+            { label: '库尔泽梅', href: '/destinations/europe' },
             { label: '斯利特雷国家公园', href: '/attractions/slitere-national-park' },
           ]}
         />

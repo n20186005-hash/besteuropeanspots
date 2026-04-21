@@ -16,6 +16,8 @@ export default function ChateauDeLavoutePolignacPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '上卢瓦尔省', href: '/destinations/europe' },
             { label: '拉武特-波利尼亚克城堡', href: '/attractions/chateau-de-lavoute-polignac' },
           ]}
         />

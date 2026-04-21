@@ -16,6 +16,8 @@ export default function BesaluHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '赫罗纳', href: '/destinations/europe' },
             { label: '贝萨卢', href: '/attractions/besalu-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function HeusdenFortifiedTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '赫乌斯登', href: '/destinations/netherlands' },
             { label: '赫乌斯登', href: '/attractions/heusden-fortified-town' },
           ]}
         />

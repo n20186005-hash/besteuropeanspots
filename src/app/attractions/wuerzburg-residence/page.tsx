@@ -15,7 +15,9 @@ export default function WuerzburgResidencePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '维尔茨堡', href: '/destinations/germany' },
             { label: '维尔茨堡主教宫', href: '/attractions/wuerzburg-residence' },
           ]}
         />

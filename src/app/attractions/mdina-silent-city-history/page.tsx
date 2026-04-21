@@ -16,6 +16,8 @@ export default function MdinaSilentCityHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '马耳他', href: '/destinations/europe' },
+            { label: '姆迪纳', href: '/destinations/europe' },
             { label: '姆迪纳静寂之城', href: '/attractions/mdina-silent-city-history' },
           ]}
         />

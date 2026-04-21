@@ -15,7 +15,9 @@ export default function MenerbesProvenceVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '梅内尔伯（属普罗旺斯-阿尔卑斯-蓝色海岸大区，沃克吕兹省）', href: '/destinations/france' },
             { label: '梅内尔伯', href: '/attractions/menerbes-provence-village' },
           ]}
         />

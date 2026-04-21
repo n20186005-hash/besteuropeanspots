@@ -16,6 +16,8 @@ export default function IlokMedievalFortressDanubeWineCellarsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '武科瓦尔-斯里耶姆县', href: '/destinations/europe' },
             { label: '伊洛克', href: '/attractions/ilok-medieval-fortress-danube-wine-cellars' },
           ]}
         />

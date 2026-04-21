@@ -16,6 +16,8 @@ export default function VigolenoPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '皮亚琴察省，艾米利亚-罗马涅大区', href: '/destinations/europe' },
             { label: '维戈伦诺', href: '/attractions/vigoleno' },
           ]}
         />

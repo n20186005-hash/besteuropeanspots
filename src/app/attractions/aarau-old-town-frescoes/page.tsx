@@ -15,7 +15,9 @@ export default function AarauOldTownFrescoesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '阿劳', href: '/destinations/switzerland' },
             { label: '阿劳老城', href: '/attractions/aarau-old-town-frescoes' },
           ]}
         />

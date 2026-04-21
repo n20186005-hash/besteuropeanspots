@@ -16,6 +16,8 @@ export default function VenceRoseChapelPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '旺斯', href: '/destinations/europe' },
             { label: '旺斯玫瑰念珠礼拜堂', href: '/attractions/vence-rose-chapel' },
           ]}
         />

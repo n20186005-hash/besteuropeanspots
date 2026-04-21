@@ -16,6 +16,8 @@ export default function QuedlinburgOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '奎德林堡', href: '/destinations/europe' },
             { label: '奎德林堡老城', href: '/attractions/quedlinburg-old-town-history' },
           ]}
         />

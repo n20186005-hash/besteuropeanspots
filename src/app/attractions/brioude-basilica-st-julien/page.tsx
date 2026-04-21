@@ -16,6 +16,8 @@ export default function BrioudeBasilicaStJulienPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '布里乌德', href: '/destinations/europe' },
             { label: '布里乌德', href: '/attractions/brioude-basilica-st-julien' },
           ]}
         />

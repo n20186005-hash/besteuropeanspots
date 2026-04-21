@@ -15,7 +15,9 @@ export default function RheinsteinCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '宾根', href: '/destinations/germany' },
             { label: '莱茵施泰因城堡', href: '/attractions/rheinstein-castle' },
           ]}
         />

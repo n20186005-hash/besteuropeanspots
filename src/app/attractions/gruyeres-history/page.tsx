@@ -16,6 +16,8 @@ export default function GruyeresHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '弗里堡州', href: '/destinations/europe' },
             { label: '格吕耶尔中世纪小镇', href: '/attractions/gruyeres-history' },
           ]}
         />

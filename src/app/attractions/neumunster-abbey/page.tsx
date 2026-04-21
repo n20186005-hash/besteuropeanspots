@@ -15,7 +15,9 @@ export default function NeumunsterAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卢森堡', href: '/destinations/luxembourg' },
+            { label: '卢森堡市', href: '/destinations/luxembourg' },
             { label: '诺伊明斯特修道院', href: '/attractions/neumunster-abbey' },
           ]}
         />

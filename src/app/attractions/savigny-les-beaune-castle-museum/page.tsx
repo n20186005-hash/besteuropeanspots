@@ -16,6 +16,8 @@ export default function SavignyLesBeauneCastleMuseumPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '萨维尼莱博讷（属科多尔省，近博讷市）', href: '/destinations/europe' },
             { label: '萨维尼莱博讷', href: '/attractions/savigny-les-beaune-castle-museum' },
           ]}
         />

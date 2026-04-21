@@ -16,6 +16,8 @@ export default function LaguardiaRiojaWineCellarTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '拉瓜迪亚', href: '/destinations/europe' },
             { label: '拉瓜迪亚', href: '/attractions/laguardia-rioja-wine-cellar-town' },
           ]}
         />

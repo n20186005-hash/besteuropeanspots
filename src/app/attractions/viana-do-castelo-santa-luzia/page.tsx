@@ -15,7 +15,9 @@ export default function VianaDoCasteloSantaLuziaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '维亚纳堡区', href: '/destinations/portugal' },
             { label: '维亚纳堡（俯瞰大西洋与利马河的圣卢西亚圣殿之城）', href: '/attractions/viana-do-castelo-santa-luzia' },
           ]}
         />

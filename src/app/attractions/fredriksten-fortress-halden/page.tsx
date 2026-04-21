@@ -15,7 +15,9 @@ export default function FredrikstenFortressHaldenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '挪威', href: '/destinations/norway' },
+            { label: '维肯郡（哈尔登市）', href: '/destinations/norway' },
             { label: '哈尔登弗雷德里克斯滕要塞', href: '/attractions/fredriksten-fortress-halden' },
           ]}
         />

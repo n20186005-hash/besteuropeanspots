@@ -16,6 +16,8 @@ export default function MelkAbbeyHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '梅尔克', href: '/destinations/europe' },
             { label: '梅尔克修道院', href: '/attractions/melk-abbey-history' },
           ]}
         />

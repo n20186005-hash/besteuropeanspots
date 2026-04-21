@@ -15,7 +15,9 @@ export default function TroskyCastleCeskyRajPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '利贝雷茨州（位于“波希米亚天堂”地质公园的核心区域）', href: '/destinations/czech-republic' },
             { label: '特罗斯克城堡', href: '/attractions/trosky-castle-cesky-raj' },
           ]}
         />

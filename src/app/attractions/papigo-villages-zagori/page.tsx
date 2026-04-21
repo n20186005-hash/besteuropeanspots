@@ -15,7 +15,9 @@ export default function PapigoVillagesZagoriPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '伊庇鲁斯地区，约阿尼纳州', href: '/destinations/greece' },
             { label: '帕皮戈（扎戈里山区传统石屋村落）', href: '/attractions/papigo-villages-zagori' },
           ]}
         />

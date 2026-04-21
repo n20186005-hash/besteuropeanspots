@@ -16,6 +16,8 @@ export default function AbbeyLibrarySaintGallHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '圣加仑', href: '/destinations/europe' },
             { label: '圣加仑修道院图书馆', href: '/attractions/abbey-library-saint-gall-history' },
           ]}
         />

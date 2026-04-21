@@ -16,6 +16,8 @@ export default function ObidosWeddingCityHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '奥比杜什', href: '/destinations/europe' },
             { label: '奥比杜什婚礼之城', href: '/attractions/obidos-wedding-city-history' },
           ]}
         />

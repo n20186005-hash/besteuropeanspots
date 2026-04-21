@@ -16,6 +16,8 @@ export default function MonnickendamHistoricFishingHarborPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '蒙尼肯丹（北荷兰省）', href: '/destinations/europe' },
             { label: '蒙尼肯丹', href: '/attractions/monnickendam-historic-fishing-harbor' },
           ]}
         />

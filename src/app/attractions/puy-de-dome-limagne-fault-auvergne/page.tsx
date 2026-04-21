@@ -16,6 +16,8 @@ export default function PuyDeDomeLimagneFaultAuvergnePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '克莱蒙费朗/奥弗涅地区', href: '/destinations/europe' },
             { label: '多尔山与利马涅裂谷', href: '/attractions/puy-de-dome-limagne-fault-auvergne' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function BarcenaMayorPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '坎塔布里亚', href: '/destinations/spain' },
             { label: '巴尔塞纳马约尔', href: '/attractions/barcena-mayor' },
           ]}
         />

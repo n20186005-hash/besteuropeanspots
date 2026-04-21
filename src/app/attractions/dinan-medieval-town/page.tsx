@@ -15,7 +15,9 @@ export default function DinanMedievalTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '迪南', href: '/destinations/france' },
             { label: '迪南中世纪古城', href: '/attractions/dinan-medieval-town' },
           ]}
         />

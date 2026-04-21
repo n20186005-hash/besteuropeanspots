@@ -15,7 +15,9 @@ export default function AdrspachTepliceRocksPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '位于赫拉德茨-克拉洛韦州，邻近小镇阿德尔什帕赫和特普利采', href: '/destinations/czech-republic' },
             { label: '阿德尔什帕赫-特普利采岩石群', href: '/attractions/adrspach-teplice-rocks' },
           ]}
         />

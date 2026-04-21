@@ -15,7 +15,9 @@ export default function ThuinPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '埃诺省', href: '/destinations/belgium' },
             { label: '蒂安', href: '/attractions/thuin' },
           ]}
         />

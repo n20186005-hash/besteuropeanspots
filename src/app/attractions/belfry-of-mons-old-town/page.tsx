@@ -15,7 +15,9 @@ export default function BelfryOfMonsOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '蒙斯（埃诺省）', href: '/destinations/belgium' },
             { label: '蒙斯钟楼及老城', href: '/attractions/belfry-of-mons-old-town' },
           ]}
         />

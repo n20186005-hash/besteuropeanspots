@@ -16,6 +16,8 @@ export default function IvanovoRockHewnChurchesPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '保加利亚', href: '/destinations/europe' },
+            { label: '鲁塞州', href: '/destinations/europe' },
             { label: '伊万诺沃岩凿教堂群', href: '/attractions/ivanovo-rock-hewn-churches' },
           ]}
         />

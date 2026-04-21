@@ -16,6 +16,8 @@ export default function MoustiersSainteMarieHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '上普罗旺斯阿尔卑斯省', href: '/destinations/europe' },
             { label: '穆斯捷-圣玛丽', href: '/attractions/moustiers-sainte-marie-history' },
           ]}
         />

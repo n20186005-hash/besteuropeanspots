@@ -16,6 +16,8 @@ export default function RisanAncientSettlementRomanMosaicsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '黑山', href: '/destinations/europe' },
+            { label: '科托尔市（Risan镇）', href: '/destinations/europe' },
             { label: '里森', href: '/attractions/risan-ancient-settlement-roman-mosaics' },
           ]}
         />

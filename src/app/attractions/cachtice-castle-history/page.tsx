@@ -16,6 +16,8 @@ export default function CachticeCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '恰赫季采镇， 特伦钦州', href: '/destinations/europe' },
             { label: '恰赫季采城堡', href: '/attractions/cachtice-castle-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function MontagneSainteVictoirePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '艾克斯普罗旺斯地区（主要观赏与徒步区域）', href: '/destinations/france' },
             { label: '圣维克多山', href: '/attractions/montagne-sainte-victoire' },
           ]}
         />

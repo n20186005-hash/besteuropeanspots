@@ -16,6 +16,8 @@ export default function KufsteinFortressHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '蒂罗尔州', href: '/destinations/europe' },
             { label: '库夫施泰因要塞', href: '/attractions/kufstein-fortress-history' },
           ]}
         />

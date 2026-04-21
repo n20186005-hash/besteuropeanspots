@@ -16,6 +16,8 @@ export default function HollokoVillageHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '诺格拉德州', href: '/destinations/europe' },
             { label: '霍尔罗克传统村落', href: '/attractions/holloko-village-history' },
           ]}
         />

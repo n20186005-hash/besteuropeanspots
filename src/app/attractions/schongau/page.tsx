@@ -16,6 +16,8 @@ export default function SchongauPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚', href: '/destinations/europe' },
             { label: '雄高', href: '/attractions/schongau' },
           ]}
         />

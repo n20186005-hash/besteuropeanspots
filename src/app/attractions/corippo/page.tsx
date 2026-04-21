@@ -15,7 +15,9 @@ export default function CorippoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '提契诺州', href: '/destinations/switzerland' },
             { label: '科里波', href: '/attractions/corippo' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function KakopetriaVillageTroodosPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞浦路斯', href: '/destinations/europe' },
+            { label: '尼科西亚区（特罗多斯山脉）', href: '/destinations/europe' },
             { label: '卡科佩特里亚', href: '/attractions/kakopetria-village-troodos' },
           ]}
         />

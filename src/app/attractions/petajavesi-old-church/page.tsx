@@ -15,7 +15,9 @@ export default function PetajavesiOldChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '芬兰', href: '/destinations/finland' },
+            { label: '佩泰耶西市， 中芬兰区', href: '/destinations/finland' },
             { label: '佩泰耶韦西老教堂', href: '/attractions/petajavesi-old-church' },
           ]}
         />

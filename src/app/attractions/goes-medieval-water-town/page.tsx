@@ -15,7 +15,9 @@ export default function GoesMedievalWaterTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '泽兰省', href: '/destinations/netherlands' },
             { label: '胡斯', href: '/attractions/goes-medieval-water-town' },
           ]}
         />

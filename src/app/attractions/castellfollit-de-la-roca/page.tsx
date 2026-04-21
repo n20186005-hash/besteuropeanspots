@@ -15,7 +15,9 @@ export default function CastellfollitDeLaRocaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '赫罗纳', href: '/destinations/spain' },
             { label: '卡斯特利福利特德拉罗卡', href: '/attractions/castellfollit-de-la-roca' },
           ]}
         />

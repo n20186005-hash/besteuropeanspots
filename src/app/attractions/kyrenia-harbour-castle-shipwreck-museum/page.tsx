@@ -15,7 +15,9 @@ export default function KyreniaHarbourCastleShipwreckMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞浦路斯', href: '/destinations/cyprus' },
+            { label: '凯里尼亚（当地土耳其语称“吉尔内”，Girne）', href: '/destinations/cyprus' },
             { label: '凯里尼亚港与城堡（塞浦路斯）', href: '/attractions/kyrenia-harbour-castle-shipwreck-museum' },
           ]}
         />

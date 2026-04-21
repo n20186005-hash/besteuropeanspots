@@ -15,7 +15,9 @@ export default function ZelenHoraPilgrimageChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '萨扎瓦河畔日贾尔 (Žďár nad Sázavou)', href: '/destinations/czech-republic' },
             { label: '绿山圣约翰朝圣教堂', href: '/attractions/zelen--hora-pilgrimage-church' },
           ]}
         />

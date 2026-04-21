@@ -16,6 +16,8 @@ export default function SchlossWeissensteinPommersfeldenPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚，波默斯费尔登', href: '/destinations/europe' },
             { label: '魏森施泰因宫', href: '/attractions/schloss-weissenstein-pommersfelden' },
           ]}
         />

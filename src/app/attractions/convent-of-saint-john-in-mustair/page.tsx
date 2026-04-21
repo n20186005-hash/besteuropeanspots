@@ -15,7 +15,9 @@ export default function ConventOfSaintJohnInMustairPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '米施泰尔（格劳宾登州）', href: '/destinations/switzerland' },
             { label: '米施泰尔圣约翰修道院', href: '/attractions/convent-of-saint-john-in-mustair' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function ProvinsMedievalTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '普罗万', href: '/destinations/france' },
             { label: '普罗万中世纪古城', href: '/attractions/provins-medieval-town' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function AscoliPicenoHistoricCenterPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '阿斯科利皮切诺', href: '/destinations/italy' },
             { label: '阿斯科利皮切诺', href: '/attractions/ascoli-piceno-historic-center' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function PoIteljHistorijaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '波黑', href: '/destinations/europe' },
+            { label: '黑塞哥维那-内雷特瓦州', href: '/destinations/europe' },
             { label: '波奇泰利', href: '/attractions/po-itelj-historija-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function CefaluCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '切法卢，西西里岛', href: '/destinations/italy' },
             { label: '切法卢大教堂', href: '/attractions/cefalu-cathedral' },
           ]}
         />

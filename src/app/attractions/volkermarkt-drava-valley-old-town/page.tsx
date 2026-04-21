@@ -16,6 +16,8 @@ export default function VolkermarktDravaValleyOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '费尔克马克特（克恩顿州）', href: '/destinations/europe' },
             { label: '费尔克马克特', href: '/attractions/volkermarkt-drava-valley-old-town' },
           ]}
         />

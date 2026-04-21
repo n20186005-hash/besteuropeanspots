@@ -15,7 +15,9 @@ export default function BunkArt1Page() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '阿尔巴尼亚', href: '/destinations/albania' },
+            { label: '地拉那', href: '/destinations/albania' },
             { label: 'Bunk\'Art 1 防核地堡', href: '/attractions/bunk-art-1' },
           ]}
         />

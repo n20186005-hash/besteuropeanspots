@@ -16,6 +16,8 @@ export default function EpidaurusTheatreHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '伯罗奔尼撒', href: '/destinations/europe' },
             { label: '埃皮达鲁斯古剧场', href: '/attractions/epidaurus-theatre-history' },
           ]}
         />

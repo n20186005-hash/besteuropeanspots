@@ -16,6 +16,8 @@ export default function RiegersburgCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '施泰尔马克州', href: '/destinations/europe' },
             { label: '里格斯堡', href: '/attractions/riegersburg-castle-history' },
           ]}
         />

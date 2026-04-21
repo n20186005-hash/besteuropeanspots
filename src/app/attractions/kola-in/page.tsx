@@ -15,7 +15,9 @@ export default function KolaInPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '黑山', href: '/destinations/montenegro' },
+            { label: '科拉欣', href: '/destinations/montenegro' },
             { label: '科拉欣', href: '/attractions/kola-in' },
           ]}
         />

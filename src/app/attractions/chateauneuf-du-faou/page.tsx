@@ -15,7 +15,9 @@ export default function ChateauneufDuFaouPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '菲尼斯泰尔省', href: '/destinations/france' },
             { label: '沙托纳迪福', href: '/attractions/chateauneuf-du-faou' },
           ]}
         />

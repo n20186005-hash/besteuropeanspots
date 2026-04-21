@@ -16,6 +16,8 @@ export default function BanjaLukaKastelFortressPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '波黑', href: '/destinations/europe' },
+            { label: '巴尼亚卢卡', href: '/destinations/europe' },
             { label: '巴尼亚卢卡卡斯特尔要塞', href: '/attractions/banja-luka-kastel-fortress' },
           ]}
         />

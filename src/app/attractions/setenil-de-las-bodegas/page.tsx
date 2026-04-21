@@ -15,7 +15,9 @@ export default function SetenilDeLasBodegasPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '塞特尼尔-德拉斯博德加斯（属加的斯省，安达卢西亚自治区）', href: '/destinations/spain' },
             { label: '塞特尼尔-德拉斯博德加斯', href: '/attractions/setenil-de-las-bodegas' },
           ]}
         />

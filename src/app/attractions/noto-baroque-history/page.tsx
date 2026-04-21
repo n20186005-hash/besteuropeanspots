@@ -16,6 +16,8 @@ export default function NotoBaroqueHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '西西里岛诺托', href: '/destinations/europe' },
             { label: '诺托巴洛克古城', href: '/attractions/noto-baroque-history' },
           ]}
         />

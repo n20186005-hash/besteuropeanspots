@@ -16,6 +16,8 @@ export default function RakovnikCzechMedievalTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '拉科夫尼克', href: '/destinations/europe' },
             { label: '拉科夫尼克', href: '/attractions/rakovnik-czech-medieval-town' },
           ]}
         />

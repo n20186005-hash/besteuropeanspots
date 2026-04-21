@@ -16,6 +16,8 @@ export default function SifnosPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '南爱琴大区', href: '/destinations/europe' },
             { label: '锡夫诺斯岛', href: '/attractions/sifnos' },
           ]}
         />

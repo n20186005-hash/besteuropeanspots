@@ -15,7 +15,9 @@ export default function GuadixCaveHousesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '格拉纳达', href: '/destinations/spain' },
             { label: '瓜迪斯洞穴之家', href: '/attractions/guadix-cave-houses' },
           ]}
         />

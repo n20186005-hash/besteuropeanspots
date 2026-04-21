@@ -16,6 +16,8 @@ export default function StrumicaByzantineMonasteriesSmolareWaterfallPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '北马其顿', href: '/destinations/europe' },
+            { label: '斯图米察', href: '/destinations/europe' },
             { label: '斯图米察', href: '/attractions/strumica-byzantine-monasteries-smolare-waterfall' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function KruEvoMacedoniaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '北马其顿', href: '/destinations/europe' },
+            { label: '佩拉戈尼亚大区', href: '/destinations/europe' },
             { label: '克鲁舍沃', href: '/attractions/kru-evo-macedonia-history' },
           ]}
         />

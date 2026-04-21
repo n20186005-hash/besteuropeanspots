@@ -16,6 +16,8 @@ export default function WuerzburgResidenceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '维尔茨堡', href: '/destinations/europe' },
             { label: '维尔茨堡主教宫', href: '/attractions/wuerzburg-residence-history' },
           ]}
         />

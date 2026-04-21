@@ -15,7 +15,9 @@ export default function SaintSuliacBrittanyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '伊勒-维莱讷省（布列塔尼大区）', href: '/destinations/france' },
             { label: '圣叙利亚克', href: '/attractions/saint-suliac-brittany' },
           ]}
         />

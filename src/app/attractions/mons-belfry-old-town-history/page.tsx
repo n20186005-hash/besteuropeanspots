@@ -16,6 +16,8 @@ export default function MonsBelfryOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '埃诺省', href: '/destinations/europe' },
             { label: '蒙斯钟楼及老城', href: '/attractions/mons-belfry-old-town-history' },
           ]}
         />

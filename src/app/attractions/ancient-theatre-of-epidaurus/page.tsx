@@ -15,7 +15,9 @@ export default function AncientTheatreOfEpidaurusPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '伯罗奔尼撒半岛，埃皮达鲁斯考古遗址区', href: '/destinations/greece' },
             { label: '埃皮达鲁斯古剧场', href: '/attractions/ancient-theatre-of-epidaurus' },
           ]}
         />

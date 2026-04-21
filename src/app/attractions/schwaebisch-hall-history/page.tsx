@@ -16,6 +16,8 @@ export default function SchwaebischHallHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴登-符腾堡', href: '/destinations/europe' },
             { label: '施韦比施哈尔', href: '/attractions/schwaebisch-hall-history' },
           ]}
         />

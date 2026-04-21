@@ -16,6 +16,8 @@ export default function LeobenHistoricMiningTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '莱奥本', href: '/destinations/europe' },
             { label: '莱奥本', href: '/attractions/leoben-historic-mining-town' },
           ]}
         />

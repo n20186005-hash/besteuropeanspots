@@ -16,6 +16,8 @@ export default function MonsarazPortugalHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '埃武拉区', href: '/destinations/europe' },
             { label: '蒙萨拉什', href: '/attractions/monsaraz-portugal-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function BiogradskaGoraNationalParkPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '黑山', href: '/destinations/europe' },
+            { label: '科拉欣', href: '/destinations/europe' },
             { label: '比奥格勒山国家公园', href: '/attractions/biogradska-gora-national-park' },
           ]}
         />

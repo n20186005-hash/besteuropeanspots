@@ -16,6 +16,8 @@ export default function StBenediktPassOberschwarzenbachHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利与瑞士', href: '/destinations/europe' },
+            { label: '奥地利费尔德基希 | 瑞士施瓦岑巴赫', href: '/destinations/europe' },
             { label: '圣本尼迪克特山口与上施瓦岑巴赫', href: '/attractions/st-benedikt-pass-oberschwarzenbach-history' },
           ]}
         />

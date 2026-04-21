@@ -15,7 +15,9 @@ export default function BellapaisAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞浦路斯', href: '/destinations/cyprus' },
+            { label: '凯里尼亚', href: '/destinations/cyprus' },
             { label: '贝拉佩斯修道院', href: '/attractions/bellapais-abbey' },
           ]}
         />

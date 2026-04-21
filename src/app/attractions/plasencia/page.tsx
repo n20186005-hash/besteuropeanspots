@@ -16,6 +16,8 @@ export default function PlasenciaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '埃斯特雷马杜拉', href: '/destinations/europe' },
             { label: '普拉森西亚', href: '/attractions/plasencia' },
           ]}
         />

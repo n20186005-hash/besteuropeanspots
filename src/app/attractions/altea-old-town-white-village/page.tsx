@@ -15,7 +15,9 @@ export default function AlteaOldTownWhiteVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '阿尔特亚', href: '/destinations/spain' },
             { label: '阿尔特亚白屋小镇', href: '/attractions/altea-old-town-white-village' },
           ]}
         />

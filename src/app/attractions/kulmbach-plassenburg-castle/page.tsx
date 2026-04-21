@@ -16,6 +16,8 @@ export default function KulmbachPlassenburgCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '库尔姆巴赫', href: '/destinations/europe' },
             { label: '库尔姆巴赫', href: '/attractions/kulmbach-plassenburg-castle' },
           ]}
         />

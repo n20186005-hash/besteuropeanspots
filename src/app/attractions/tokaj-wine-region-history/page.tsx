@@ -16,6 +16,8 @@ export default function TokajWineRegionHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '包尔绍德-奥包乌伊-曾普伦州', href: '/destinations/europe' },
             { label: '托卡伊葡萄酒产区历史文化景观', href: '/attractions/tokaj-wine-region-history' },
           ]}
         />

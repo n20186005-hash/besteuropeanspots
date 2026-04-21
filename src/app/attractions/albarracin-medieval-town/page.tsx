@@ -15,7 +15,9 @@ export default function AlbarracinMedievalTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '阿尔瓦拉辛', href: '/destinations/spain' },
             { label: '阿尔瓦拉辛', href: '/attractions/albarracin-medieval-town' },
           ]}
         />

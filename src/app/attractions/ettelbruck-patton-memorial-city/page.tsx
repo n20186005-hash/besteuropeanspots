@@ -15,7 +15,9 @@ export default function EttelbruckPattonMemorialCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卢森堡', href: '/destinations/luxembourg' },
+            { label: '迪基希区埃特尔布吕克市', href: '/destinations/luxembourg' },
             { label: '埃特尔布吕克', href: '/attractions/ettelbruck-patton-memorial-city' },
           ]}
         />

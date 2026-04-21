@@ -15,7 +15,9 @@ export default function RiegersburgCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '施泰尔马克州，里格斯堡镇', href: '/destinations/austria' },
             { label: '里格斯堡', href: '/attractions/riegersburg-castle' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function CastelmezzanoHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '巴斯利卡塔', href: '/destinations/europe' },
             { label: '卡斯特尔梅扎诺', href: '/attractions/castelmezzano-history' },
           ]}
         />

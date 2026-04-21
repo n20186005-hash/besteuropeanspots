@@ -15,7 +15,9 @@ export default function VirokChasmForgottenFactoryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '斯洛伐克天堂国家公园区域，靠近波普拉德镇', href: '/destinations/slovakia' },
             { label: '维洛克深渊与遗忘工厂', href: '/attractions/virok-chasm-forgotten-factory' },
           ]}
         />

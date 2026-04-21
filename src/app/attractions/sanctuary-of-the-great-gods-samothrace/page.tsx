@@ -16,6 +16,8 @@ export default function SanctuaryOfTheGreatGodsSamothracePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '萨莫色雷斯岛', href: '/destinations/europe' },
             { label: '萨莫色雷斯岛伟大神明圣域', href: '/attractions/sanctuary-of-the-great-gods-samothrace' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function TurckheimPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '上莱茵省', href: '/destinations/europe' },
             { label: '蒂尔凯姆', href: '/attractions/turckheim' },
           ]}
         />

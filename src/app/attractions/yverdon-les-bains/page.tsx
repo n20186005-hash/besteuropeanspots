@@ -16,6 +16,8 @@ export default function YverdonLesBainsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '伊韦尔东莱班', href: '/destinations/europe' },
             { label: '伊韦尔东莱班', href: '/attractions/yverdon-les-bains' },
           ]}
         />

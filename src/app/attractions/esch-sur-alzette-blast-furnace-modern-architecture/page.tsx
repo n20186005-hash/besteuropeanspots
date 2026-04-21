@@ -15,7 +15,9 @@ export default function EschSurAlzetteBlastFurnaceModernArchitecturePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卢森堡', href: '/destinations/luxembourg' },
+            { label: '阿尔泽特河畔埃施', href: '/destinations/luxembourg' },
             { label: '阿尔泽特河畔埃施', href: '/attractions/esch-sur-alzette-blast-furnace-modern-architecture' },
           ]}
         />

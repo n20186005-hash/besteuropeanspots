@@ -16,6 +16,8 @@ export default function SeguretPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '沃克吕兹省', href: '/destinations/europe' },
             { label: '塞居雷', href: '/attractions/seguret' },
           ]}
         />

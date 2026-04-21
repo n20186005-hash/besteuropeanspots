@@ -16,6 +16,8 @@ export default function CivitaDiBagnoregioHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '维泰博', href: '/destinations/europe' },
             { label: '白露里治奥（天空之城）', href: '/attractions/civita-di-bagnoregio-history' },
           ]}
         />

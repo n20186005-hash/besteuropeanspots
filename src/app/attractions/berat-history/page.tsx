@@ -16,6 +16,8 @@ export default function BeratHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '阿尔巴尼亚', href: '/destinations/europe' },
+            { label: '培拉特州', href: '/destinations/europe' },
             { label: '培拉特（千窗之城）', href: '/attractions/berat-history' },
           ]}
         />

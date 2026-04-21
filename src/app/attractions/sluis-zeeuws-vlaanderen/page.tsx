@@ -15,7 +15,9 @@ export default function SluisZeeuwsVlaanderenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '泽兰省（泽兰-佛兰德地区）', href: '/destinations/netherlands' },
             { label: '斯勒伊斯', href: '/attractions/sluis-zeeuws-vlaanderen' },
           ]}
         />

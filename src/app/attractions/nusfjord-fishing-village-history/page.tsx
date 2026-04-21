@@ -16,6 +16,8 @@ export default function NusfjordFishingVillageHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '罗弗敦群岛，诺尔兰郡', href: '/destinations/europe' },
             { label: '努斯峡湾渔村', href: '/attractions/nusfjord-fishing-village-history' },
           ]}
         />

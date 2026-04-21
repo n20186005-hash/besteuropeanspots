@@ -16,6 +16,8 @@ export default function WitchsAbyssInfiniteColumnPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '克卢日-纳波卡附近', href: '/destinations/europe' },
             { label: '女巫深渊与无限之柱', href: '/attractions/witchs-abyss-infinite-column' },
           ]}
         />

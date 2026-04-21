@@ -16,6 +16,8 @@ export default function MinerveCatharHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '埃罗省', href: '/destinations/europe' },
             { label: '米内尔沃', href: '/attractions/minerve-cathar-history' },
           ]}
         />

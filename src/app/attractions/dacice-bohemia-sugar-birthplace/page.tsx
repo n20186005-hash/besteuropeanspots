@@ -16,6 +16,8 @@ export default function DaciceBohemiaSugarBirthplacePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '南波希米亚州', href: '/destinations/europe' },
             { label: '达奇采', href: '/attractions/dacice-bohemia-sugar-birthplace' },
           ]}
         />

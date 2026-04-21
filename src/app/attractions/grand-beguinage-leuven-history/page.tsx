@@ -16,6 +16,8 @@ export default function GrandBeguinageLeuvenHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '鲁汶', href: '/destinations/europe' },
             { label: '鲁汶大贝居安会院', href: '/attractions/grand-beguinage-leuven-history' },
           ]}
         />

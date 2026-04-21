@@ -15,7 +15,9 @@ export default function FrigilianaGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '马拉加', href: '/destinations/spain' },
             { label: '弗里希利亚纳', href: '/attractions/frigiliana-guide' },
           ]}
         />

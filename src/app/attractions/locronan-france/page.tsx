@@ -16,6 +16,8 @@ export default function LocronanFrancePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '菲尼斯泰尔省', href: '/destinations/europe' },
             { label: '洛克罗南', href: '/attractions/locronan-france' },
           ]}
         />

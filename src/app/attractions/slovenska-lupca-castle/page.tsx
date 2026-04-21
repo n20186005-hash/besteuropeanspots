@@ -16,6 +16,8 @@ export default function SlovenskaLupcaCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '班斯卡-比斯特里察', href: '/destinations/europe' },
             { label: '卢普恰城堡', href: '/attractions/slovenska-lupca-castle' },
           ]}
         />

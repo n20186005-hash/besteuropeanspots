@@ -15,7 +15,9 @@ export default function CordesSurCielPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '科尔德（位于塔恩省）', href: '/destinations/france' },
             { label: '科尔德圣谢鲁', href: '/attractions/cordes-sur-ciel' },
           ]}
         />

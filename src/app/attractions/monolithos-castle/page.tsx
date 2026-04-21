@@ -15,7 +15,9 @@ export default function MonolithosCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '南爱琴大区，罗德岛', href: '/destinations/greece' },
             { label: '莫诺利索斯城堡', href: '/attractions/monolithos-castle' },
           ]}
         />

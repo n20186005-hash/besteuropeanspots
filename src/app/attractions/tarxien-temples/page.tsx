@@ -15,7 +15,9 @@ export default function TarxienTemplesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马耳他', href: '/destinations/malta' },
+            { label: '塔西安', href: '/destinations/malta' },
             { label: '塔西安神庙', href: '/attractions/tarxien-temples' },
           ]}
         />

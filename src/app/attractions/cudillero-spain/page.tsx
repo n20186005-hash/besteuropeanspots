@@ -15,7 +15,9 @@ export default function CudilleroSpainPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '阿斯图里亚斯', href: '/destinations/spain' },
             { label: '库迪列罗', href: '/attractions/cudillero-spain' },
           ]}
         />

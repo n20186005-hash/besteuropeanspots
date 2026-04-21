@@ -16,6 +16,8 @@ export default function AquileiaArchaeologicalSiteHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '弗留利-威尼斯朱利亚', href: '/destinations/europe' },
             { label: '阿奎莱亚古罗马遗址', href: '/attractions/aquileia-archaeological-site-history' },
           ]}
         />

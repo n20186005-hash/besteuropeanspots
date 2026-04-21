@@ -16,6 +16,8 @@ export default function RokiskisPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '立陶宛', href: '/destinations/europe' },
+            { label: '帕内韦日斯县', href: '/destinations/europe' },
             { label: '罗基什基斯', href: '/attractions/rokiskis' },
           ]}
         />

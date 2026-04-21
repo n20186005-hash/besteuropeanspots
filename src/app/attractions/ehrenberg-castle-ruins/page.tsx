@@ -16,6 +16,8 @@ export default function EhrenbergCastleRuinsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '蒂罗尔州（罗伊特）', href: '/destinations/europe' },
             { label: '埃伦贝格城堡废墟', href: '/attractions/ehrenberg-castle-ruins' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function PlaceVendomeParisPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '巴黎', href: '/destinations/france' },
             { label: '旺多姆广场', href: '/attractions/place-vendome-paris' },
           ]}
         />

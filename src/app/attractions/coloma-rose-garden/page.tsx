@@ -16,6 +16,8 @@ export default function ColomaRoseGardenPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '弗拉芒布拉班特省', href: '/destinations/europe' },
             { label: '科洛马玫瑰园', href: '/attractions/coloma-rose-garden' },
           ]}
         />

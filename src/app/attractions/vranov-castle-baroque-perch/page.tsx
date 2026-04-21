@@ -15,7 +15,9 @@ export default function VranovCastleBaroquePerchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '弗拉诺夫-纳德-迪伊（Vranov nad Dyjí）， 南摩拉维亚州', href: '/destinations/czech-republic' },
             { label: '弗拉诺夫城堡', href: '/attractions/vranov-castle-baroque-perch' },
           ]}
         />

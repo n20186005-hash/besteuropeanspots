@@ -16,6 +16,8 @@ export default function BelvesPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '多尔多涅省', href: '/destinations/europe' },
             { label: '贝尔韦斯', href: '/attractions/belves' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function PorecEuphrasianBasilicaIstriaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '波雷奇，伊斯特拉县', href: '/destinations/europe' },
             { label: '波雷奇', href: '/attractions/porec-euphrasian-basilica-istria' },
           ]}
         />

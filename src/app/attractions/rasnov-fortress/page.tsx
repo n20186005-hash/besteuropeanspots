@@ -15,7 +15,9 @@ export default function RasnovFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '布拉索夫县', href: '/destinations/romania' },
             { label: '勒什诺夫要塞', href: '/attractions/rasnov-fortress' },
           ]}
         />

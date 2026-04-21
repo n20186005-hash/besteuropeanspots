@@ -16,6 +16,8 @@ export default function MechelenOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '梅赫伦', href: '/destinations/europe' },
             { label: '梅赫伦老城', href: '/attractions/mechelen-old-town-history' },
           ]}
         />

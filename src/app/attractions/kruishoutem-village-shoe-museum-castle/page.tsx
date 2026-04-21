@@ -16,6 +16,8 @@ export default function KruishoutemVillageShoeMuseumCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '克吕伊斯豪特姆 (属东佛兰德省)', href: '/destinations/europe' },
             { label: '克吕伊斯豪特姆', href: '/attractions/kruishoutem-village-shoe-museum-castle' },
           ]}
         />

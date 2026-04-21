@@ -16,6 +16,8 @@ export default function BruggeBelgiumHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '布鲁日', href: '/destinations/europe' },
             { label: '布鲁日', href: '/attractions/brugge-belgium-history' },
           ]}
         />

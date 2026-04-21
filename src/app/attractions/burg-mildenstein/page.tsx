@@ -16,6 +16,8 @@ export default function BurgMildensteinPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '莱斯尼希附近', href: '/destinations/europe' },
             { label: '米尔登施泰因城堡', href: '/attractions/burg-mildenstein' },
           ]}
         />

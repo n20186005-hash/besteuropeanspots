@@ -16,6 +16,8 @@ export default function BambergOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '班贝格', href: '/destinations/europe' },
             { label: '班贝格老城', href: '/attractions/bamberg-old-town-history' },
           ]}
         />

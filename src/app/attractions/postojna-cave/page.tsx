@@ -15,7 +15,9 @@ export default function PostojnaCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛文尼亚', href: '/destinations/slovenia' },
+            { label: '波斯托伊纳镇，内卡尼奥拉地区', href: '/destinations/slovenia' },
             { label: '波斯托伊纳溶洞', href: '/attractions/postojna-cave' },
           ]}
         />

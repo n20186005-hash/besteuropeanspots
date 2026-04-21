@@ -16,6 +16,8 @@ export default function KalmarCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '卡尔马省', href: '/destinations/europe' },
             { label: '卡尔马城堡', href: '/attractions/kalmar-castle-history' },
           ]}
         />

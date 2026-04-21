@@ -15,7 +15,9 @@ export default function VitorchianoCliffVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '拉齐奥', href: '/destinations/italy' },
             { label: '维托尔基亚诺', href: '/attractions/vitorchiano-cliff-village' },
           ]}
         />

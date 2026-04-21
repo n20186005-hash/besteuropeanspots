@@ -16,6 +16,8 @@ export default function GrazSchlossbergHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '格拉茨', href: '/destinations/europe' },
             { label: '格拉茨城堡山', href: '/attractions/graz-schlossberg-history' },
           ]}
         />

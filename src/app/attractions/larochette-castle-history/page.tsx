@@ -16,6 +16,8 @@ export default function LarochetteCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '拉罗谢特', href: '/destinations/europe' },
             { label: '拉罗谢特城堡废墟', href: '/attractions/larochette-castle-history' },
           ]}
         />

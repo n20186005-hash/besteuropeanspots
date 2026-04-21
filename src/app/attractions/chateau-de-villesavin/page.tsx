@@ -16,6 +16,8 @@ export default function ChateauDeVillesavinPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '卢瓦-谢尔省，图尔市附近', href: '/destinations/europe' },
             { label: '维勒萨万城堡', href: '/attractions/chateau-de-villesavin' },
           ]}
         />

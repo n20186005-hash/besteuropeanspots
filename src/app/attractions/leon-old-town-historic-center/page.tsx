@@ -15,7 +15,9 @@ export default function LeonOldTownHistoricCenterPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '莱昂', href: '/destinations/spain' },
             { label: '莱昂老城', href: '/attractions/leon-old-town-historic-center' },
           ]}
         />

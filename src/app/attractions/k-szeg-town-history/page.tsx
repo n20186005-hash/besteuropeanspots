@@ -16,6 +16,8 @@ export default function KSzegTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '克塞格镇', href: '/destinations/europe' },
             { label: '克塞格', href: '/attractions/k-szeg-town-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function SovanaEtruscanVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '托斯卡纳', href: '/destinations/italy' },
             { label: '索瓦纳', href: '/attractions/sovana-etruscan-village' },
           ]}
         />

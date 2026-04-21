@@ -16,6 +16,8 @@ export default function ChevreuseValleyMadelaineCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '谢夫勒斯（伊夫林省）', href: '/destinations/europe' },
             { label: '谢夫勒斯谷地', href: '/attractions/chevreuse-valley-madelaine-castle' },
           ]}
         />

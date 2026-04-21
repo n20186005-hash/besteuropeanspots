@@ -16,6 +16,8 @@ export default function StariMostMostarHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '波黑', href: '/destinations/europe' },
+            { label: '莫斯塔尔', href: '/destinations/europe' },
             { label: '莫斯塔尔老桥', href: '/attractions/stari-most-mostar-history' },
           ]}
         />

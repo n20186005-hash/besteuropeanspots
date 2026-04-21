@@ -16,6 +16,8 @@ export default function MoorsAndCastlesHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙，葡萄牙', href: '/destinations/europe' },
+            { label: '安达卢西亚，阿尔加维，埃斯特雷马杜拉等', href: '/destinations/europe' },
             { label: '摩尔人遗迹与伊比利亚古堡群', href: '/attractions/moors-and-castles-history' },
           ]}
         />

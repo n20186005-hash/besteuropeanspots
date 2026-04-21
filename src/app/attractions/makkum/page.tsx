@@ -16,6 +16,8 @@ export default function MakkumPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '弗里斯兰省', href: '/destinations/europe' },
             { label: '马库姆', href: '/attractions/makkum' },
           ]}
         />

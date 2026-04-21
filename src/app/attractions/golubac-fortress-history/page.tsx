@@ -16,6 +16,8 @@ export default function GolubacFortressHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '塞尔维亚', href: '/destinations/europe' },
+            { label: '布拉尼切沃州', href: '/destinations/europe' },
             { label: '戈卢巴茨要塞', href: '/attractions/golubac-fortress-history' },
           ]}
         />

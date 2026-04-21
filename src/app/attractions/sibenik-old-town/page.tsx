@@ -15,7 +15,9 @@ export default function SibenikOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '希贝尼克', href: '/destinations/croatia' },
             { label: '希贝尼克老城', href: '/attractions/sibenik-old-town' },
           ]}
         />

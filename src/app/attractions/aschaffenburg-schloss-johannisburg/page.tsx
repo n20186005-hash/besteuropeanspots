@@ -16,6 +16,8 @@ export default function AschaffenburgSchlossJohannisburgPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚，阿沙芬堡', href: '/destinations/europe' },
             { label: '阿沙芬堡约翰尼斯堡宫', href: '/attractions/aschaffenburg-schloss-johannisburg' },
           ]}
         />

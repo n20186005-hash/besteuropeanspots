@@ -16,6 +16,8 @@ export default function LugoRomanWallsHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '卢戈', href: '/destinations/europe' },
             { label: '卢戈古罗马城墙', href: '/attractions/lugo-roman-walls-history' },
           ]}
         />

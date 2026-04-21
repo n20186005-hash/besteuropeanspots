@@ -15,7 +15,9 @@ export default function IleDeBrehatPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '阿摩尔滨海省（布列塔尼大区）', href: '/destinations/france' },
             { label: '布雷阿岛', href: '/attractions/ile-de-brehat' },
           ]}
         />

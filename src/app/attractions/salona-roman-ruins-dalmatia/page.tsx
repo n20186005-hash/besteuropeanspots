@@ -15,7 +15,9 @@ export default function SalonaRomanRuinsDalmatiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '索林（靠近斯普利特）', href: '/destinations/croatia' },
             { label: '萨罗纳古城废墟', href: '/attractions/salona-roman-ruins-dalmatia' },
           ]}
         />

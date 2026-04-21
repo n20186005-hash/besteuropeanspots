@@ -15,7 +15,9 @@ export default function SantAgataDeGotiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '坎帕尼亚', href: '/destinations/italy' },
             { label: '圣阿加塔德戈蒂', href: '/attractions/sant-agata-de-goti' },
           ]}
         />

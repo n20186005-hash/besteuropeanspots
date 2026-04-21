@@ -15,7 +15,9 @@ export default function PalaisDeLisleAnnecyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '阿讷西', href: '/destinations/france' },
             { label: '阿讷西小岛宫', href: '/attractions/palais-de-lisle-annecy' },
           ]}
         />

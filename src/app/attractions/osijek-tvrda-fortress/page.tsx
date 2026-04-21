@@ -15,7 +15,9 @@ export default function OsijekTvrdaFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '奥西耶克', href: '/destinations/croatia' },
             { label: '奥西耶克特夫尔贾要塞', href: '/attractions/osijek-tvrda-fortress' },
           ]}
         />

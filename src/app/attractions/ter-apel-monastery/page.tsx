@@ -16,6 +16,8 @@ export default function TerApelMonasteryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '泰尔阿佩尔（格罗宁根省）', href: '/destinations/europe' },
             { label: '泰尔阿佩尔修道院', href: '/attractions/ter-apel-monastery' },
           ]}
         />

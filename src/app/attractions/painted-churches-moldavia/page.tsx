@@ -15,7 +15,9 @@ export default function PaintedChurchesMoldaviaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '苏恰瓦县及周边地区（主要分布于沃罗内茨、摩尔多维察、苏切维察等地）', href: '/destinations/romania' },
             { label: '苏恰瓦彩绘修道院群', href: '/attractions/painted-churches-moldavia' },
           ]}
         />

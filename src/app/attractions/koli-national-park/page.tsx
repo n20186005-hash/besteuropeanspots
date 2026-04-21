@@ -15,7 +15,9 @@ export default function KoliNationalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '芬兰', href: '/destinations/finland' },
+            { label: '北卡累利阿区（主要入口城镇为约恩苏或利埃克萨）', href: '/destinations/finland' },
             { label: '科利国家公园', href: '/attractions/koli-national-park' },
           ]}
         />

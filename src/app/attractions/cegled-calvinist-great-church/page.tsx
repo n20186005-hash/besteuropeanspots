@@ -16,6 +16,8 @@ export default function CegledCalvinistGreatChurchPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '采格莱德', href: '/destinations/europe' },
             { label: '采格莱德加尔文派大教堂', href: '/attractions/cegled-calvinist-great-church' },
           ]}
         />

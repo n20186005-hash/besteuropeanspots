@@ -16,6 +16,8 @@ export default function SchlossSalemAbbeyPalacePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴登-符腾堡（林道与康斯坦茨之间）', href: '/destinations/europe' },
             { label: '萨勒姆修道院与王宫', href: '/attractions/schloss-salem-abbey-palace' },
           ]}
         />

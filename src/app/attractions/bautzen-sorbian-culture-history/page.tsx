@@ -16,6 +16,8 @@ export default function BautzenSorbianCultureHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '萨克森', href: '/destinations/europe' },
             { label: '包岑', href: '/attractions/bautzen-sorbian-culture-history' },
           ]}
         />

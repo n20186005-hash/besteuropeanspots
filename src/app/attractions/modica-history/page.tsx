@@ -16,6 +16,8 @@ export default function ModicaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '西西里岛', href: '/destinations/europe' },
             { label: '莫迪卡', href: '/attractions/modica-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function SchwerinCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '什未林', href: '/destinations/europe' },
             { label: '什未林城堡', href: '/attractions/schwerin-castle-history' },
           ]}
         />

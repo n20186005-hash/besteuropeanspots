@@ -15,7 +15,9 @@ export default function MurtenMedievalLakeCityWallsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '穆尔滕（莫拉）', href: '/destinations/switzerland' },
             { label: '穆尔滕环湖古城墙', href: '/attractions/murten-medieval-lake-city-walls' },
           ]}
         />

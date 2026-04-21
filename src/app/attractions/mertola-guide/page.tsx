@@ -15,7 +15,9 @@ export default function MertolaGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '贝雅区', href: '/destinations/portugal' },
             { label: '梅尔图拉', href: '/attractions/mertola-guide' },
           ]}
         />

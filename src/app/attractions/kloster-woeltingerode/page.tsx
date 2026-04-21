@@ -16,6 +16,8 @@ export default function KlosterWoeltingerodePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '下萨克森', href: '/destinations/europe' },
             { label: '沃尔廷格罗德修道院', href: '/attractions/kloster-woeltingerode' },
           ]}
         />

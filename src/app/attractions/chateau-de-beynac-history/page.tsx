@@ -16,6 +16,8 @@ export default function ChateauDeBeynacHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '多尔多涅省', href: '/destinations/europe' },
             { label: '贝纳克城堡', href: '/attractions/chateau-de-beynac-history' },
           ]}
         />

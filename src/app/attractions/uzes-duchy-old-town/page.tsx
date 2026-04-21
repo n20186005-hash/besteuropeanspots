@@ -15,7 +15,9 @@ export default function UzesDuchyOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '加尔省', href: '/destinations/france' },
             { label: '于泽斯公国古城', href: '/attractions/uzes-duchy-old-town' },
           ]}
         />

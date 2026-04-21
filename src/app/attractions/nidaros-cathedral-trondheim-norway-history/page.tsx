@@ -16,6 +16,8 @@ export default function NidarosCathedralTrondheimNorwayHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '特伦德拉格郡特隆赫姆', href: '/destinations/europe' },
             { label: '特隆赫姆尼达罗斯主教座堂', href: '/attractions/nidaros-cathedral-trondheim-norway-history' },
           ]}
         />

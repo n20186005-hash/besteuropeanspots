@@ -16,6 +16,8 @@ export default function AlcantaraRomanBridgeTemplarMonasteryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '阿尔坎塔拉（埃斯特雷马杜拉自治区）', href: '/destinations/europe' },
             { label: '阿尔坎塔拉罗马桥及圣殿骑士团神庙', href: '/attractions/alcantara-roman-bridge-templar-monastery' },
           ]}
         />

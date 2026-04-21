@@ -16,6 +16,8 @@ export default function SpiezCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '伯尔尼州', href: '/destinations/europe' },
             { label: '施皮茨城堡', href: '/attractions/spiez-castle-history' },
           ]}
         />

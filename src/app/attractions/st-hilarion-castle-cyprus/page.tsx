@@ -16,6 +16,8 @@ export default function StHilarionCastleCyprusPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞浦路斯', href: '/destinations/europe' },
+            { label: '凯里尼亚地区（北部）', href: '/destinations/europe' },
             { label: '圣伊拉里城堡', href: '/attractions/st-hilarion-castle-cyprus' },
           ]}
         />

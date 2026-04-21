@@ -16,6 +16,8 @@ export default function ManzanaresElRealCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '马德里', href: '/destinations/europe' },
             { label: '曼萨纳雷斯-埃尔雷亚尔城堡', href: '/attractions/manzanares-el-real-castle' },
           ]}
         />

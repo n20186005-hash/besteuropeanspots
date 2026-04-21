@@ -15,7 +15,9 @@ export default function RijekaOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '里耶卡', href: '/destinations/croatia' },
             { label: '里耶卡老城', href: '/attractions/rijeka-old-town' },
           ]}
         />

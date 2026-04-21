@@ -16,6 +16,8 @@ export default function GyorBarokVarosHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '杰尔', href: '/destinations/europe' },
             { label: '杰尔巴洛克老城', href: '/attractions/gyor-barok-varos-history' },
           ]}
         />

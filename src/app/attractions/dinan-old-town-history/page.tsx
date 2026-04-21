@@ -16,6 +16,8 @@ export default function DinanOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '迪南', href: '/destinations/europe' },
             { label: '迪南老城', href: '/attractions/dinan-old-town-history' },
           ]}
         />

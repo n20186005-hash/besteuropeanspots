@@ -16,6 +16,8 @@ export default function SarlatLaCanedaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '萨尔拉拉卡内达', href: '/destinations/europe' },
             { label: '萨尔拉拉卡内达', href: '/attractions/sarlat-la-caneda-history' },
           ]}
         />

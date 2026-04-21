@@ -16,6 +16,8 @@ export default function TilosPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '蒂洛斯岛', href: '/destinations/europe' },
             { label: '蒂洛斯岛', href: '/attractions/tilos' },
           ]}
         />

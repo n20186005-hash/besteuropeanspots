@@ -16,6 +16,8 @@ export default function AncientCitySalamisCyprusPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞浦路斯', href: '/destinations/europe' },
+            { label: '法马古斯塔', href: '/destinations/europe' },
             { label: '萨拉米斯古城', href: '/attractions/ancient-city-salamis-cyprus' },
           ]}
         />

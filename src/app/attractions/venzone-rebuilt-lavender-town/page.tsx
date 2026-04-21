@@ -15,7 +15,9 @@ export default function VenzoneRebuiltLavenderTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '弗留利-威尼斯朱利亚大区，文佐内镇', href: '/destinations/italy' },
             { label: '文佐内', href: '/attractions/venzone-rebuilt-lavender-town' },
           ]}
         />

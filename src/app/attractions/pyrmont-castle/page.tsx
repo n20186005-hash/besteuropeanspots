@@ -15,7 +15,9 @@ export default function PyrmontCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '莱茵兰-普法尔茨', href: '/destinations/germany' },
             { label: '皮尔蒙特城堡', href: '/attractions/pyrmont-castle' },
           ]}
         />

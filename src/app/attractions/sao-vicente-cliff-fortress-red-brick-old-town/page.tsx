@@ -16,6 +16,8 @@ export default function SaoVicenteCliffFortressRedBrickOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '维拉诺瓦德圣维森特', href: '/destinations/europe' },
             { label: '圣维森特悬崖堡垒与红砖老城', href: '/attractions/sao-vicente-cliff-fortress-red-brick-old-town' },
           ]}
         />

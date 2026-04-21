@@ -16,6 +16,8 @@ export default function HirschhornPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '黑森州', href: '/destinations/europe' },
             { label: '希尔施霍恩（内卡河谷的珍珠）', href: '/attractions/hirschhorn' },
           ]}
         />

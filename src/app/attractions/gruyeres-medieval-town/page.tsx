@@ -15,7 +15,9 @@ export default function GruyeresMedievalTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '格吕耶尔', href: '/destinations/switzerland' },
             { label: '格吕耶尔中世纪小镇', href: '/attractions/gruyeres-medieval-town' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function VillaDEstePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '拉齐奥大区蒂沃利镇', href: '/destinations/italy' },
             { label: '蒂沃利千泉宫', href: '/attractions/villa-d-este' },
           ]}
         />

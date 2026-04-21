@@ -15,7 +15,9 @@ export default function VipitenoTravelGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '特伦蒂诺-上阿迪杰', href: '/destinations/italy' },
             { label: '维皮泰诺', href: '/attractions/vipiteno-travel-guide' },
           ]}
         />

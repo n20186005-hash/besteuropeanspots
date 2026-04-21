@@ -16,6 +16,8 @@ export default function AbbeyOfEchternachHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '埃希特纳赫', href: '/destinations/europe' },
             { label: '埃希特纳赫修道院', href: '/attractions/abbey-of-echternach-history' },
           ]}
         />

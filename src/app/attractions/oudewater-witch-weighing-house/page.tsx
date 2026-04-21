@@ -15,7 +15,9 @@ export default function OudewaterWitchWeighingHousePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '奥德瓦特', href: '/destinations/netherlands' },
             { label: '奥德瓦特女巫称重房', href: '/attractions/oudewater-witch-weighing-house' },
           ]}
         />

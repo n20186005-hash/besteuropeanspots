@@ -15,7 +15,9 @@ export default function LionMoundWaterlooPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '瓦隆布拉班特省（滑铁卢镇）', href: '/destinations/belgium' },
             { label: '滑铁卢狮子丘', href: '/attractions/lion-mound-waterloo' },
           ]}
         />

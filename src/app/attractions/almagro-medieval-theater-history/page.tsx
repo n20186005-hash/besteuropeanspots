@@ -16,6 +16,8 @@ export default function AlmagroMedievalTheaterHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '雷阿尔城', href: '/destinations/europe' },
             { label: '阿尔马格罗', href: '/attractions/almagro-medieval-theater-history' },
           ]}
         />

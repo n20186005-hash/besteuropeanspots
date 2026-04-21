@@ -16,6 +16,8 @@ export default function AlteaWhiteVillageHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '阿利坎特', href: '/destinations/europe' },
             { label: '阿尔特亚白屋小镇', href: '/attractions/altea-white-village-history' },
           ]}
         />

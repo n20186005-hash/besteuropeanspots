@@ -15,7 +15,9 @@ export default function VillefrancheDeConflentFortifiedTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '自由城-孔弗朗', href: '/destinations/france' },
             { label: '自由城-孔弗朗（比利牛斯山脉的粉红大理石防御城）', href: '/attractions/villefranche-de-conflent-fortified-town' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function HvarTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '赫瓦尔岛（Hvar Island）', href: '/destinations/croatia' },
             { label: '赫瓦尔镇', href: '/attractions/hvar-town' },
           ]}
         />

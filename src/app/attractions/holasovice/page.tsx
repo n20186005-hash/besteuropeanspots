@@ -15,7 +15,9 @@ export default function HolasovicePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '霍拉肖维采', href: '/destinations/czech-republic' },
             { label: '霍拉肖维采古罗马村落', href: '/attractions/holasovice' },
           ]}
         />

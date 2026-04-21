@@ -16,6 +16,8 @@ export default function PaphosArchaeologicalParkHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '塞浦路斯', href: '/destinations/europe' },
+            { label: '帕福斯', href: '/destinations/europe' },
             { label: '帕福斯考古公园', href: '/attractions/paphos-archaeological-park-history' },
           ]}
         />

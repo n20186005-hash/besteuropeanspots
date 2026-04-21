@@ -15,7 +15,9 @@ export default function KalmarCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '卡尔马', href: '/destinations/sweden' },
             { label: '卡尔马城堡', href: '/attractions/kalmar-castle' },
           ]}
         />

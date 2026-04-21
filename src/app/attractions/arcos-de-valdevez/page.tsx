@@ -16,6 +16,8 @@ export default function ArcosDeValdevezPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '维亚纳堡区', href: '/destinations/europe' },
             { label: '阿科斯-迪瓦尔德韦什', href: '/attractions/arcos-de-valdevez' },
           ]}
         />

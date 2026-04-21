@@ -15,7 +15,9 @@ export default function HevizThermalLakePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '黑维兹', href: '/destinations/hungary' },
             { label: '黑维兹温泉湖', href: '/attractions/heviz-thermal-lake' },
           ]}
         />

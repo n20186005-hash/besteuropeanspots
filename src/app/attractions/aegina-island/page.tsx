@@ -16,6 +16,8 @@ export default function AeginaIslandPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '埃伊纳市（Aegina Town），阿提卡大区', href: '/destinations/europe' },
             { label: '艾伊纳岛', href: '/attractions/aegina-island' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function BrisighellaItalyHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '艾米利亚-罗马涅', href: '/destinations/europe' },
             { label: '布里西盖拉', href: '/attractions/brisighella-italy-history' },
           ]}
         />

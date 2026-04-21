@@ -16,6 +16,8 @@ export default function PlovdivRomanTheatreHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '保加利亚', href: '/destinations/europe' },
+            { label: '普罗夫迪夫', href: '/destinations/europe' },
             { label: '普罗夫迪夫罗马剧场', href: '/attractions/plovdiv-roman-theatre-history' },
           ]}
         />

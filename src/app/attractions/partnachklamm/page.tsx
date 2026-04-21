@@ -15,7 +15,9 @@ export default function PartnachklammPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '加米施-帕滕基兴', href: '/destinations/germany' },
             { label: '帕特纳赫峡谷', href: '/attractions/partnachklamm' },
           ]}
         />

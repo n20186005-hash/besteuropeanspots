@@ -15,7 +15,9 @@ export default function HohenemsPalacePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '霍恩埃姆斯', href: '/destinations/austria' },
             { label: '霍恩埃姆斯宫', href: '/attractions/hohenems-palace' },
           ]}
         />

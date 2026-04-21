@@ -15,7 +15,9 @@ export default function BobbioPiacenzaItalyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '艾米利亚-罗马涅大区 皮亚琴察省', href: '/destinations/italy' },
             { label: '博比奥', href: '/attractions/bobbio-piacenza-italy' },
           ]}
         />

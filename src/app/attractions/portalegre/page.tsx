@@ -16,6 +16,8 @@ export default function PortalegrePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '波塔莱格雷', href: '/destinations/europe' },
             { label: '波塔莱格雷', href: '/attractions/portalegre' },
           ]}
         />

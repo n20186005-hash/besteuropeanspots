@@ -15,7 +15,9 @@ export default function BeneluxJourneyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '布鲁塞尔、阿姆斯特丹、卢森堡市 等', href: '/destinations/belgium' },
             { label: '比利时・荷兰・卢森堡', href: '/attractions/benelux-journey' },
           ]}
         />

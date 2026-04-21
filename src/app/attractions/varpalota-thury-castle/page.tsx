@@ -16,6 +16,8 @@ export default function VarpalotaThuryCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '瓦尔保洛陶', href: '/destinations/europe' },
             { label: '瓦尔保洛陶', href: '/attractions/varpalota-thury-castle' },
           ]}
         />

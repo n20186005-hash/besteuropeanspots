@@ -15,7 +15,9 @@ export default function NafpaktosVenetianHarborPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '西希腊大区埃托利亚-阿卡纳尼亚州', href: '/destinations/greece' },
             { label: '纳夫帕克托斯（勒班陀）', href: '/attractions/nafpaktos-venetian-harbor' },
           ]}
         />

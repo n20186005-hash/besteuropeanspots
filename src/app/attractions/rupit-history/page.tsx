@@ -16,6 +16,8 @@ export default function RupitHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '巴塞罗那', href: '/destinations/europe' },
             { label: '鲁皮特（悬崖上的火山岩小镇）', href: '/attractions/rupit-history' },
           ]}
         />

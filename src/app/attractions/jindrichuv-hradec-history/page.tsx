@@ -16,6 +16,8 @@ export default function JindrichuvHradecHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '南波希米亚州', href: '/destinations/europe' },
             { label: '因德日赫城堡', href: '/attractions/jindrichuv-hradec-history' },
           ]}
         />

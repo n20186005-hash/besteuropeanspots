@@ -16,6 +16,8 @@ export default function StrangnasChurchAndOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '南曼兰省', href: '/destinations/europe' },
             { label: '斯特兰奈斯', href: '/attractions/strangnas-church-and-old-town' },
           ]}
         />

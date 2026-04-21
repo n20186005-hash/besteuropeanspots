@@ -15,7 +15,9 @@ export default function RiquewihrAlsaceFairytaleVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '里屈埃维', href: '/destinations/france' },
             { label: '里屈埃维', href: '/attractions/riquewihr-alsace-fairytale-village' },
           ]}
         />

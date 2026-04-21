@@ -16,6 +16,8 @@ export default function MonfortePortugalPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '波塔莱格雷区（Portalegre District）', href: '/destinations/europe' },
             { label: '蒙福特', href: '/attractions/monforte-portugal' },
           ]}
         />

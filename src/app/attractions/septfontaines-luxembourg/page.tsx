@@ -16,6 +16,8 @@ export default function SeptfontainesLuxembourgPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '卡佩伦', href: '/destinations/europe' },
             { label: '塞普丰泰内斯（七堡之谷）', href: '/attractions/septfontaines-luxembourg' },
           ]}
         />

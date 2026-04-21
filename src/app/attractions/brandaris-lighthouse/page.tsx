@@ -15,7 +15,9 @@ export default function BrandarisLighthousePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '泰尔斯海灵岛（Terschelling）', href: '/destinations/netherlands' },
             { label: '布兰达里斯灯塔', href: '/attractions/brandaris-lighthouse' },
           ]}
         />

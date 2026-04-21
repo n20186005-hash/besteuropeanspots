@@ -16,6 +16,8 @@ export default function DimitsanaGunpowderMillsHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '伯罗奔尼撒（阿卡迪亚地区）', href: '/destinations/europe' },
             { label: '迪米察纳', href: '/attractions/dimitsana-gunpowder-mills-history' },
           ]}
         />

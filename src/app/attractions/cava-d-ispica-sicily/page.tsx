@@ -16,6 +16,8 @@ export default function CavaDIspicaSicilyPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '西西里岛，伊斯皮卡镇旁', href: '/destinations/europe' },
             { label: '伊斯皮卡峡谷', href: '/attractions/cava-d-ispica-sicily' },
           ]}
         />

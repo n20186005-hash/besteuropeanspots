@@ -15,7 +15,9 @@ export default function MountAthosPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '中马其顿', href: '/destinations/greece' },
             { label: '阿索斯山', href: '/attractions/mount-athos' },
           ]}
         />

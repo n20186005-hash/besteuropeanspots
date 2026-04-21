@@ -16,6 +16,8 @@ export default function HrvatskaKostajnicaUnaRiverFortressPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '科斯特尔尼察镇', href: '/destinations/europe' },
             { label: '科斯特尔尼察（乌纳河畔）', href: '/attractions/hrvatska-kostajnica-una-river-fortress' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function MarsaxlokkFishingVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马耳他', href: '/destinations/malta' },
+            { label: '东南区', href: '/destinations/malta' },
             { label: '马尔萨什洛克', href: '/attractions/marsaxlokk-fishing-village' },
           ]}
         />

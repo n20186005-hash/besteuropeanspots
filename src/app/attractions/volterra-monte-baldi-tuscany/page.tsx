@@ -16,6 +16,8 @@ export default function VolterraMonteBaldiTuscanyPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '沃尔泰拉（托斯卡纳大区）', href: '/destinations/europe' },
             { label: '沃尔泰拉与巴尔迪山', href: '/attractions/volterra-monte-baldi-tuscany' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function TrakaiIslandCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '立陶宛', href: '/destinations/europe' },
+            { label: '特拉凯', href: '/destinations/europe' },
             { label: '特拉凯海岛城堡', href: '/attractions/trakai-island-castle-history' },
           ]}
         />

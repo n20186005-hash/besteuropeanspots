@@ -15,7 +15,9 @@ export default function LadenburgGermanyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '巴登-符腾堡州，拉登堡市', href: '/destinations/germany' },
             { label: '拉登堡', href: '/attractions/ladenburg-germany' },
           ]}
         />

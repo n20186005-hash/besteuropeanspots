@@ -15,7 +15,9 @@ export default function LovcenMausoleumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '黑山', href: '/destinations/montenegro' },
+            { label: '采蒂涅', href: '/destinations/montenegro' },
             { label: '洛夫琴山陵寝', href: '/attractions/lovcen-mausoleum' },
           ]}
         />

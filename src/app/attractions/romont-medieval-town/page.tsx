@@ -16,6 +16,8 @@ export default function RomontMedievalTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '罗蒙镇', href: '/destinations/europe' },
             { label: '罗蒙', href: '/attractions/romont-medieval-town' },
           ]}
         />

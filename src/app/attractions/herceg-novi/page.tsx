@@ -15,7 +15,9 @@ export default function HercegNoviPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '黑山', href: '/destinations/montenegro' },
+            { label: '新海尔采格', href: '/destinations/montenegro' },
             { label: '新海尔采格', href: '/attractions/herceg-novi' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function EriceSicilyHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '西西里岛特拉帕尼省', href: '/destinations/europe' },
             { label: '埃里切山城', href: '/attractions/erice-sicily-history' },
           ]}
         />

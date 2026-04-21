@@ -16,6 +16,8 @@ export default function PalsMedievalVillageCataloniaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '加泰罗尼亚', href: '/destinations/europe' },
             { label: '帕尔斯', href: '/attractions/pals-medieval-village-catalonia' },
           ]}
         />

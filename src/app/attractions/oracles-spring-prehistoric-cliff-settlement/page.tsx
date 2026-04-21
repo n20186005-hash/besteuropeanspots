@@ -16,6 +16,8 @@ export default function OraclesSpringPrehistoricCliffSettlementPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '阿波罗尼亚岛', href: '/destinations/europe' },
             { label: '圣谕之泉与远古崖居', href: '/attractions/oracles-spring-prehistoric-cliff-settlement' },
           ]}
         />

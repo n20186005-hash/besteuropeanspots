@@ -16,6 +16,8 @@ export default function SabbionetaRenaissanceIdealCityHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '伦巴第大区', href: '/destinations/europe' },
             { label: '萨比奥内塔', href: '/attractions/sabbioneta-renaissance-ideal-city-history' },
           ]}
         />

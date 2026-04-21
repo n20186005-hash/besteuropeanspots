@@ -16,6 +16,8 @@ export default function MonschauHalfTimberedTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '蒙绍', href: '/destinations/europe' },
             { label: '蒙绍半木结构小镇', href: '/attractions/monschau-half-timbered-town-history' },
           ]}
         />

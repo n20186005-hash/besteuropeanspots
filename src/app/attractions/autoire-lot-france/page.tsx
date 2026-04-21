@@ -16,6 +16,8 @@ export default function AutoireLotFrancePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '洛特省', href: '/destinations/europe' },
             { label: '欧图瓦尔（奥图瓦尔峡谷与村庄）', href: '/attractions/autoire-lot-france' },
           ]}
         />

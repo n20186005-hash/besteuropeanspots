@@ -16,6 +16,8 @@ export default function MeissenPorcelainAlbrechtsburgHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '迈森', href: '/destinations/europe' },
             { label: '迈森（欧洲瓷器之都及阿尔布莱希特城堡）', href: '/attractions/meissen-porcelain-albrechtsburg-history' },
           ]}
         />

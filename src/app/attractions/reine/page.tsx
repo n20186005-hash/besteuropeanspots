@@ -16,6 +16,8 @@ export default function ReinePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '诺尔兰郡', href: '/destinations/europe' },
             { label: '雷讷', href: '/attractions/reine' },
           ]}
         />

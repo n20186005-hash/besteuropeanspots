@@ -16,6 +16,8 @@ export default function RuzomberokVlkolinecUnescoPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '鲁容贝罗克 (日利纳州)', href: '/destinations/europe' },
             { label: '鲁容贝罗克与维尔科利内茨木屋村', href: '/attractions/ruzomberok-vlkolinec-unesco' },
           ]}
         />

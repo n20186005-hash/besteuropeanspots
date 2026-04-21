@@ -16,6 +16,8 @@ export default function MikulovCastleWineHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '南摩拉维亚州', href: '/destinations/europe' },
             { label: '米库洛夫城堡及葡萄园', href: '/attractions/mikulov-castle-wine-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function SuceavaPaintedMonasteriesHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '苏恰瓦县', href: '/destinations/europe' },
             { label: '苏恰瓦彩绘修道院群', href: '/attractions/suceava-painted-monasteries-history' },
           ]}
         />

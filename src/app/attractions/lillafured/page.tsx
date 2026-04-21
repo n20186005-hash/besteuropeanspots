@@ -15,7 +15,9 @@ export default function LillafuredPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '包尔绍德-奥包乌伊-曾普伦州（实际位于米什科尔茨市郊，比克国家公园内）', href: '/destinations/hungary' },
             { label: '利拉菲赖德', href: '/attractions/lillafured' },
           ]}
         />

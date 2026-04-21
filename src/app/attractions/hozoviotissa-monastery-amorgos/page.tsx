@@ -15,7 +15,9 @@ export default function HozoviotissaMonasteryAmorgosPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '南爱琴大区，阿莫尔戈斯岛', href: '/destinations/greece' },
             { label: '霍佐维奥蒂萨修道院', href: '/attractions/hozoviotissa-monastery-amorgos' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function IcehotelJukkasjarviPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '尤卡斯耶尔维（基律纳市）', href: '/destinations/sweden' },
             { label: '尤卡斯耶尔维冰酒店', href: '/attractions/icehotel-jukkasjarvi' },
           ]}
         />

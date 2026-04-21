@@ -15,7 +15,9 @@ export default function SpiezCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '施皮尔斯皮茨', href: '/destinations/switzerland' },
             { label: '施皮茨城堡', href: '/attractions/spiez-castle' },
           ]}
         />

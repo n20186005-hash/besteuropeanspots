@@ -16,6 +16,8 @@ export default function ConcarneauVilleCloseHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '菲尼斯泰尔省孔卡尔诺', href: '/destinations/europe' },
             { label: '孔卡尔诺封闭之城', href: '/attractions/concarneau-ville-close-history' },
           ]}
         />

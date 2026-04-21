@@ -16,6 +16,8 @@ export default function MiltenbergMainPearlHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚州，米尔滕贝格', href: '/destinations/europe' },
             { label: '米尔滕贝格（美因河畔的“珍珠”）', href: '/attractions/miltenberg-main-pearl-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function KjerringoyHistoricalTradingPostHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '诺尔兰郡', href: '/destinations/europe' },
             { label: '谢林岛十九世纪传统商贸村', href: '/attractions/kjerringoy-historical-trading-post-history' },
           ]}
         />

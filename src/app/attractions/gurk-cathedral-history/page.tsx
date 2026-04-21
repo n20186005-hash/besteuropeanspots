@@ -16,6 +16,8 @@ export default function GurkCathedralHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '克恩顿州', href: '/destinations/europe' },
             { label: '古尔克大教堂（罗曼式建筑杰作）', href: '/attractions/gurk-cathedral-history' },
           ]}
         />

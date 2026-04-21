@@ -16,6 +16,8 @@ export default function MissolonghiLagoonCityPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '迈索隆吉翁', href: '/destinations/europe' },
             { label: '迈索隆吉翁', href: '/attractions/missolonghi-lagoon-city' },
           ]}
         />

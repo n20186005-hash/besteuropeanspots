@@ -16,6 +16,8 @@ export default function PolignacCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '波利尼亚克', href: '/destinations/europe' },
             { label: '波利尼亚克', href: '/attractions/polignac-castle' },
           ]}
         />

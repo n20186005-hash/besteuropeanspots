@@ -15,7 +15,9 @@ export default function BishopPalaceOfAstorgaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '阿斯托加', href: '/destinations/spain' },
             { label: '阿斯托加主教宫', href: '/attractions/bishop-palace-of-astorga' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function GozoCittadellaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '马耳他', href: '/destinations/europe' },
+            { label: '戈佐岛', href: '/destinations/europe' },
             { label: '戈佐岛维多利亚城堡', href: '/attractions/gozo-cittadella-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function MathildedalPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/europe' },
+            { label: '西南芬兰区', href: '/destinations/europe' },
             { label: '马蒂尔代达尔', href: '/attractions/mathildedal' },
           ]}
         />

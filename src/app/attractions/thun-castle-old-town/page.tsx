@@ -15,7 +15,9 @@ export default function ThunCastleOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '图恩', href: '/destinations/switzerland' },
             { label: '图恩城堡与老城', href: '/attractions/thun-castle-old-town' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function DiekirchHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '迪基希', href: '/destinations/europe' },
             { label: '迪基希', href: '/attractions/diekirch-history' },
           ]}
         />

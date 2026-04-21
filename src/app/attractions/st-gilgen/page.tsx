@@ -16,6 +16,8 @@ export default function StGilgenPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '萨尔茨堡州', href: '/destinations/europe' },
             { label: '圣吉尔根', href: '/attractions/st-gilgen' },
           ]}
         />

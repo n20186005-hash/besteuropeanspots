@@ -15,7 +15,9 @@ export default function PopeyeVillageMaltaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马耳他', href: '/destinations/malta' },
+            { label: '梅列哈', href: '/destinations/malta' },
             { label: '大力水手村', href: '/attractions/popeye-village-malta' },
           ]}
         />

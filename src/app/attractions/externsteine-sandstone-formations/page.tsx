@@ -15,7 +15,9 @@ export default function ExternsteineSandstoneFormationsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '霍恩埃姆斯-锡尔马赫地区，靠近代特莫尔德市', href: '/destinations/germany' },
             { label: '埃克斯施泰因', href: '/attractions/externsteine-sandstone-formations' },
           ]}
         />

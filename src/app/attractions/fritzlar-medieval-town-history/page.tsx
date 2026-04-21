@@ -16,6 +16,8 @@ export default function FritzlarMedievalTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '黑森州', href: '/destinations/europe' },
             { label: '弗里茨拉尔中世纪古城', href: '/attractions/fritzlar-medieval-town-history' },
           ]}
         />

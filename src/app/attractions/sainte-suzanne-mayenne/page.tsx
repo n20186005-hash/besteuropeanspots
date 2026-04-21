@@ -16,6 +16,8 @@ export default function SainteSuzanneMayennePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '马耶讷省', href: '/destinations/europe' },
             { label: '圣苏珊', href: '/attractions/sainte-suzanne-mayenne' },
           ]}
         />

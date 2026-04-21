@@ -16,6 +16,8 @@ export default function BragancaCastleOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '布拉干萨', href: '/destinations/europe' },
             { label: '布拉干萨城堡与老城', href: '/attractions/braganca-castle-old-town-history' },
           ]}
         />

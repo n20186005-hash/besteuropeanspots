@@ -16,6 +16,8 @@ export default function SeinajokiPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/europe' },
+            { label: '南博滕区', href: '/destinations/europe' },
             { label: '塞伊奈约基', href: '/attractions/seinajoki' },
           ]}
         />

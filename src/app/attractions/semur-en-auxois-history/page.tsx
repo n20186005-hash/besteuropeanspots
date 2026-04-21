@@ -16,6 +16,8 @@ export default function SemurEnAuxoisHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '科多尔省', href: '/destinations/europe' },
             { label: '瑟米尔昂诺苏瓦', href: '/attractions/semur-en-auxois-history' },
           ]}
         />

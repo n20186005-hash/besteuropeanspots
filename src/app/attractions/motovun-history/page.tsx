@@ -16,6 +16,8 @@ export default function MotovunHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '伊斯特拉县', href: '/destinations/europe' },
             { label: '莫托文', href: '/attractions/motovun-history' },
           ]}
         />

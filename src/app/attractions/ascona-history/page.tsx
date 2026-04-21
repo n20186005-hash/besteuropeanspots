@@ -16,6 +16,8 @@ export default function AsconaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '提契诺州', href: '/destinations/europe' },
             { label: '阿斯科纳', href: '/attractions/ascona-history' },
           ]}
         />

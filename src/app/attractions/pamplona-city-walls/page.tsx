@@ -15,7 +15,9 @@ export default function PamplonaCityWallsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '潘普洛纳（纳瓦拉自治区）', href: '/destinations/spain' },
             { label: '潘普洛纳古城墙', href: '/attractions/pamplona-city-walls' },
           ]}
         />

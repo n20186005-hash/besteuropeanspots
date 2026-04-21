@@ -16,6 +16,8 @@ export default function AltenburgHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '图林根', href: '/destinations/europe' },
             { label: '阿尔滕堡', href: '/attractions/altenburg-history' },
           ]}
         />

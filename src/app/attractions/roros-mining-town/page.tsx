@@ -15,7 +15,9 @@ export default function RorosMiningTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '挪威', href: '/destinations/norway' },
+            { label: '勒罗斯', href: '/destinations/norway' },
             { label: '勒罗斯采矿镇', href: '/attractions/roros-mining-town' },
           ]}
         />

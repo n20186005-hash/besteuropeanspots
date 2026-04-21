@@ -16,6 +16,8 @@ export default function GuimaraesHistoricCentreHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '吉马良斯', href: '/destinations/europe' },
             { label: '吉马良斯历史中心', href: '/attractions/guimaraes-historic-centre-history' },
           ]}
         />

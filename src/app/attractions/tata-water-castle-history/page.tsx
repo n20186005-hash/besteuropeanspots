@@ -16,6 +16,8 @@ export default function TataWaterCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '陶陶', href: '/destinations/europe' },
             { label: '陶陶（老湖上的水上城堡）', href: '/attractions/tata-water-castle-history' },
           ]}
         />

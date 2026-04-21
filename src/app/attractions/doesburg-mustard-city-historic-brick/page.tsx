@@ -15,7 +15,9 @@ export default function DoesburgMustardCityHistoricBrickPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '杜斯堡', href: '/destinations/netherlands' },
             { label: '杜斯堡', href: '/attractions/doesburg-mustard-city-historic-brick' },
           ]}
         />

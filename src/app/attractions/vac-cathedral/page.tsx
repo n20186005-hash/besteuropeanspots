@@ -15,7 +15,9 @@ export default function VacCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '瓦茨', href: '/destinations/hungary' },
             { label: '瓦茨大教堂', href: '/attractions/vac-cathedral' },
           ]}
         />

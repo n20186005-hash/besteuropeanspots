@@ -16,6 +16,8 @@ export default function SlavoniceRenaissanceFrescoesHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '南波希米亚州', href: '/destinations/europe' },
             { label: '斯拉沃尼采', href: '/attractions/slavonice-renaissance-frescoes-history' },
           ]}
         />

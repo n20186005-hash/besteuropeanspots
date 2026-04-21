@@ -15,7 +15,9 @@ export default function HalaSultanTekkeSaltLakeLarnacaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞浦路斯', href: '/destinations/cyprus' },
+            { label: '拉纳卡', href: '/destinations/cyprus' },
             { label: '哈拉苏丹特克', href: '/attractions/hala-sultan-tekke-salt-lake-larnaca' },
           ]}
         />

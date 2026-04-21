@@ -15,7 +15,9 @@ export default function MeteoraMonasteriesGreecePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '卡兰巴卡', href: '/destinations/greece' },
             { label: '梅黛奥拉（天空之城修道院）', href: '/attractions/meteora-monasteries-greece' },
           ]}
         />

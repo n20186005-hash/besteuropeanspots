@@ -15,7 +15,9 @@ export default function StaraLubovnaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '斯塔拉柳博夫尼亚', href: '/destinations/slovakia' },
             { label: '斯塔拉柳博夫尼亚城堡与露天民俗博物馆', href: '/attractions/stara-lubovna' },
           ]}
         />

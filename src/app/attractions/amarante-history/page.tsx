@@ -16,6 +16,8 @@ export default function AmaranteHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '波尔图区', href: '/destinations/europe' },
             { label: '阿马兰特', href: '/attractions/amarante-history' },
           ]}
         />

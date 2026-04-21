@@ -15,7 +15,9 @@ export default function TrosaSwedenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '南曼兰省', href: '/destinations/sweden' },
             { label: '特罗萨', href: '/attractions/trosa-sweden' },
           ]}
         />

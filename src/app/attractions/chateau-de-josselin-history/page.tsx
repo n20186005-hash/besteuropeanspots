@@ -16,6 +16,8 @@ export default function ChateauDeJosselinHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '莫尔比昂省', href: '/destinations/europe' },
             { label: '若瑟兰城堡', href: '/attractions/chateau-de-josselin-history' },
           ]}
         />

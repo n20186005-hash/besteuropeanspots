@@ -15,7 +15,9 @@ export default function TangermuendeMedievalTownOnElbePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '唐格明德', href: '/destinations/germany' },
             { label: '唐格明德', href: '/attractions/tangermuende-medieval-town-on-elbe' },
           ]}
         />

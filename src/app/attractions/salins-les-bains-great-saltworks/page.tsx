@@ -15,7 +15,9 @@ export default function SalinsLesBainsGreatSaltworksPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '萨兰莱班', href: '/destinations/france' },
             { label: '萨兰莱班大盐场', href: '/attractions/salins-les-bains-great-saltworks' },
           ]}
         />

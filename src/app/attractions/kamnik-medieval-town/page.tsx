@@ -16,6 +16,8 @@ export default function KamnikMedievalTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛文尼亚', href: '/destinations/europe' },
+            { label: '中斯洛文尼亚', href: '/destinations/europe' },
             { label: '卡姆尼克', href: '/attractions/kamnik-medieval-town' },
           ]}
         />

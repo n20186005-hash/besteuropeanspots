@@ -16,6 +16,8 @@ export default function BerlengasIslandsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '莱里亚区（主要出发港口为潘尼谢）', href: '/destinations/europe' },
             { label: '贝伦加斯群岛', href: '/attractions/berlengas-islands' },
           ]}
         />

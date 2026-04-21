@@ -16,6 +16,8 @@ export default function PenafielCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '佩纳菲耶尔', href: '/destinations/europe' },
             { label: '佩纳菲耶尔城堡', href: '/attractions/penafiel-castle' },
           ]}
         />

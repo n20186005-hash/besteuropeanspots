@@ -16,6 +16,8 @@ export default function PolisChrysochousPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞浦路斯', href: '/destinations/europe' },
+            { label: '帕福斯区', href: '/destinations/europe' },
             { label: '波利斯', href: '/attractions/polis-chrysochous' },
           ]}
         />

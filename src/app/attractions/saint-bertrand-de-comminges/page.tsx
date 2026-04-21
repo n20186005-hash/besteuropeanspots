@@ -16,6 +16,8 @@ export default function SaintBertrandDeCommingesPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '上加龙省', href: '/destinations/europe' },
             { label: '圣贝特朗德科曼日', href: '/attractions/saint-bertrand-de-comminges' },
           ]}
         />

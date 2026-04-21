@@ -15,7 +15,9 @@ export default function TrakaiIslandCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '立陶宛', href: '/destinations/lithuania' },
+            { label: '特拉凯', href: '/destinations/lithuania' },
             { label: '特拉凯海岛城堡', href: '/attractions/trakai-island-castle' },
           ]}
         />

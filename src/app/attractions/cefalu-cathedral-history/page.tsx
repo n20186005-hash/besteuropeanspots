@@ -16,6 +16,8 @@ export default function CefaluCathedralHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '西西里岛切法卢', href: '/destinations/europe' },
             { label: '切法卢大教堂', href: '/attractions/cefalu-cathedral-history' },
           ]}
         />

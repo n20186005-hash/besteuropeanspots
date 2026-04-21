@@ -16,6 +16,8 @@ export default function FerraraRenaissanceCityHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '费拉拉', href: '/destinations/europe' },
             { label: '费拉拉文艺复兴城市', href: '/attractions/ferrara-renaissance-city-history' },
           ]}
         />

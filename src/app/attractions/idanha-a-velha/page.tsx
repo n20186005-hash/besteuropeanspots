@@ -15,7 +15,9 @@ export default function IdanhaAVelhaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '布朗库堡区', href: '/destinations/portugal' },
             { label: '伊达尼亚-阿韦利亚', href: '/attractions/idanha-a-velha' },
           ]}
         />

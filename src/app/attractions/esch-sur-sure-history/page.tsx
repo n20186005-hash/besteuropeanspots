@@ -16,6 +16,8 @@ export default function EschSurSureHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '埃施叙尔叙尔', href: '/destinations/europe' },
             { label: '埃施叙尔叙尔', href: '/attractions/esch-sur-sure-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function RadicofaniPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '托斯卡纳', href: '/destinations/europe' },
             { label: '拉迪科法尼', href: '/attractions/radicofani' },
           ]}
         />

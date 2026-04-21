@@ -15,7 +15,9 @@ export default function VeszpremPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '维斯普雷姆', href: '/destinations/hungary' },
             { label: '维斯普雷姆老城', href: '/attractions/veszprem' },
           ]}
         />

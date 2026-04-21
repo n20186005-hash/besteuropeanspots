@@ -16,6 +16,8 @@ export default function HolstentorLubeckHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '吕贝克', href: '/destinations/europe' },
             { label: '吕贝克霍尔斯滕门', href: '/attractions/holstentor-lubeck-history' },
           ]}
         />

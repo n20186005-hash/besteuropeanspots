@@ -16,6 +16,8 @@ export default function BlagajTekkeHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '波黑', href: '/destinations/europe' },
+            { label: '布拉加伊', href: '/destinations/europe' },
             { label: '布拉加伊特基亚修道院', href: '/attractions/blagaj-tekke-history' },
           ]}
         />

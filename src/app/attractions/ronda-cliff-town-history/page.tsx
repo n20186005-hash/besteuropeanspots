@@ -16,6 +16,8 @@ export default function RondaCliffTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '马拉加', href: '/destinations/europe' },
             { label: '龙达悬崖小镇', href: '/attractions/ronda-cliff-town-history' },
           ]}
         />

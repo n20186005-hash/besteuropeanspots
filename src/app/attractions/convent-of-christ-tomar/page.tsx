@@ -15,7 +15,9 @@ export default function ConventOfChristTomarPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '托马尔', href: '/destinations/portugal' },
             { label: '托马尔骑士团修道院', href: '/attractions/convent-of-christ-tomar' },
           ]}
         />

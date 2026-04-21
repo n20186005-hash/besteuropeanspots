@@ -16,6 +16,8 @@ export default function OldTownMunotFortressSchaffhausenPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '沙夫豪森', href: '/destinations/europe' },
             { label: '沙夫豪森老城与米诺特要塞', href: '/attractions/old-town-munot-fortress-schaffhausen' },
           ]}
         />

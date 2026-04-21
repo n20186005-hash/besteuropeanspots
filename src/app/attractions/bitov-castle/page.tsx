@@ -16,6 +16,8 @@ export default function BitovCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '南摩拉维亚州，比托夫村附近', href: '/destinations/europe' },
             { label: '比托夫城堡', href: '/attractions/bitov-castle' },
           ]}
         />

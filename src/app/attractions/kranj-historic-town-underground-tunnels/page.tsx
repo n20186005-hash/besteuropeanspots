@@ -16,6 +16,8 @@ export default function KranjHistoricTownUndergroundTunnelsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛文尼亚', href: '/destinations/europe' },
+            { label: '克拉尼', href: '/destinations/europe' },
             { label: '克拉尼', href: '/attractions/kranj-historic-town-underground-tunnels' },
           ]}
         />

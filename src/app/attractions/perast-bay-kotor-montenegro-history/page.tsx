@@ -16,6 +16,8 @@ export default function PerastBayKotorMontenegroHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '黑山', href: '/destinations/europe' },
+            { label: '佩拉斯特', href: '/destinations/europe' },
             { label: '佩拉斯特', href: '/attractions/perast-bay-kotor-montenegro-history' },
           ]}
         />

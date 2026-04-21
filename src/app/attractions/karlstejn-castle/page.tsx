@@ -15,7 +15,9 @@ export default function KarlstejnCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '中波希米亚州，卡尔什特因镇附近', href: '/destinations/czech-republic' },
             { label: '卡尔什特因城堡', href: '/attractions/karlstejn-castle' },
           ]}
         />

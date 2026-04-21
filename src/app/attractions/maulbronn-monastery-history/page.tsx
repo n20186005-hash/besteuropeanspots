@@ -16,6 +16,8 @@ export default function MaulbronnMonasteryHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴登-符腾堡州，毛尔布龙市', href: '/destinations/europe' },
             { label: '毛尔布龙修道院', href: '/attractions/maulbronn-monastery-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function HaapsaluCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '爱沙尼亚', href: '/destinations/europe' },
+            { label: '哈普萨卢', href: '/destinations/europe' },
             { label: '哈普萨卢城堡', href: '/attractions/haapsalu-castle-history' },
           ]}
         />

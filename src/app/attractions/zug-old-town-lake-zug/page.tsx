@@ -16,6 +16,8 @@ export default function ZugOldTownLakeZugPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '楚格州，楚格市', href: '/destinations/europe' },
             { label: '楚格老城与楚格湖', href: '/attractions/zug-old-town-lake-zug' },
           ]}
         />

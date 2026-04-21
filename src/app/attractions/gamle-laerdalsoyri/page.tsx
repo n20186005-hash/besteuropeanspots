@@ -16,6 +16,8 @@ export default function GamleLaerdalsoyriPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '韦斯特兰郡', href: '/destinations/europe' },
             { label: '莱达尔岛（老莱达尔镇）', href: '/attractions/gamle-laerdalsoyri' },
           ]}
         />

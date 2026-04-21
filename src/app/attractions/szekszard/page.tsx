@@ -15,7 +15,9 @@ export default function SzekszardPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '托尔瑙州', href: '/destinations/hungary' },
             { label: '塞格萨德', href: '/attractions/szekszard' },
           ]}
         />

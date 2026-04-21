@@ -16,6 +16,8 @@ export default function GorlitzOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '格尔利茨', href: '/destinations/europe' },
             { label: '格尔利茨老城', href: '/attractions/gorlitz-old-town-history' },
           ]}
         />

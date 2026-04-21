@@ -16,6 +16,8 @@ export default function PaldiskiPakriPeninsulaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '爱沙尼亚', href: '/destinations/europe' },
+            { label: '哈尔尤县', href: '/destinations/europe' },
             { label: '帕尔迪斯基（帕克里半岛）', href: '/attractions/paldiski-pakri-peninsula' },
           ]}
         />

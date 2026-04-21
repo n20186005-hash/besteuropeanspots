@@ -16,6 +16,8 @@ export default function AiguesMortesFranceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '加尔省', href: '/destinations/europe' },
             { label: '艾格莫尔特十字军古城', href: '/attractions/aigues-mortes-france-history' },
           ]}
         />

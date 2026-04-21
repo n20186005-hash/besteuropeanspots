@@ -16,6 +16,8 @@ export default function OrvalAbbeyTrappistBeerHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '卢森堡省（弗洛朗维尔市附近）', href: '/destinations/europe' },
             { label: '奥尔瓦勒修道院（特拉普修道士啤酒发源地）', href: '/attractions/orval-abbey-trappist-beer-history' },
           ]}
         />

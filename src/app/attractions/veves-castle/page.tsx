@@ -15,7 +15,9 @@ export default function VevesCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '塞勒（Celles，位于那慕尔省）', href: '/destinations/belgium' },
             { label: '韦沃城堡', href: '/attractions/veves-castle' },
           ]}
         />

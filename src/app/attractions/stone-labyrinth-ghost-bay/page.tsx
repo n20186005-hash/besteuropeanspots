@@ -16,6 +16,8 @@ export default function StoneLabyrinthGhostBayPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '卡斯特罗村， 拉西锡州， 克里特岛', href: '/destinations/europe' },
             { label: '巨石迷宫与幽灵海湾', href: '/attractions/stone-labyrinth-ghost-bay' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function HeiligenkreuzAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '海利根克罗伊茨（下奥地利州）', href: '/destinations/austria' },
             { label: '海利根克罗伊茨修道院', href: '/attractions/heiligenkreuz-abbey' },
           ]}
         />

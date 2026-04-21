@@ -16,6 +16,8 @@ export default function BrantomePerigordVeniceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '多尔多涅省', href: '/destinations/europe' },
             { label: '佩里戈尔的布朗托姆（法国威尼斯）', href: '/attractions/brantome-perigord-venice-history' },
           ]}
         />

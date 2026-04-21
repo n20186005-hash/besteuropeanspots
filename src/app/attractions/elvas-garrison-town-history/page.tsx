@@ -16,6 +16,8 @@ export default function ElvasGarrisonTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '埃尔瓦什', href: '/destinations/europe' },
             { label: '埃尔瓦什星形要塞', href: '/attractions/elvas-garrison-town-history' },
           ]}
         />

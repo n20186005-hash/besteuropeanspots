@@ -16,6 +16,8 @@ export default function JajceBosniaWaterfallFortressHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '波黑', href: '/destinations/europe' },
+            { label: '中波斯尼亚州', href: '/destinations/europe' },
             { label: '亚伊采', href: '/attractions/jajce-bosnia-waterfall-fortress-history' },
           ]}
         />

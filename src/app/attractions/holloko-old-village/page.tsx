@@ -15,7 +15,9 @@ export default function HollokoOldVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '诺格拉德州', href: '/destinations/hungary' },
             { label: '霍尔罗克传统村落', href: '/attractions/holloko-old-village' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function Arouca516SuspensionBridgePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '阿威罗区', href: '/destinations/portugal' },
             { label: '阿罗卡', href: '/attractions/arouca-516-suspension-bridge' },
           ]}
         />

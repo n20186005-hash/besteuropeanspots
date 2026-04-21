@@ -15,7 +15,9 @@ export default function PeniscolaCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '卡斯特利翁省，佩尼斯科拉镇', href: '/destinations/spain' },
             { label: '佩尼斯科拉', href: '/attractions/peniscola-castle' },
           ]}
         />

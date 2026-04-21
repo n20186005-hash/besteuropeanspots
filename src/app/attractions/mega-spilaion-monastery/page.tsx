@@ -16,6 +16,8 @@ export default function MegaSpilaionMonasteryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '伯罗奔尼撒，卡拉夫里塔附近', href: '/destinations/europe' },
             { label: '大斯皮莱翁修道院', href: '/attractions/mega-spilaion-monastery' },
           ]}
         />

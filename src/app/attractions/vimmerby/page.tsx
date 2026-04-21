@@ -15,7 +15,9 @@ export default function VimmerbyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '卡尔马省', href: '/destinations/sweden' },
             { label: '维默比', href: '/attractions/vimmerby' },
           ]}
         />

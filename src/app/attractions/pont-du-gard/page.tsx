@@ -15,7 +15,9 @@ export default function PontDuGardPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '尼姆附近（地处加尔省）', href: '/destinations/france' },
             { label: '加尔桥', href: '/attractions/pont-du-gard' },
           ]}
         />

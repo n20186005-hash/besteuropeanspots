@@ -15,7 +15,9 @@ export default function GlorenzaGlurnsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '特伦蒂诺-上阿迪杰', href: '/destinations/italy' },
             { label: '格洛伦扎', href: '/attractions/glorenza-glurns' },
           ]}
         />

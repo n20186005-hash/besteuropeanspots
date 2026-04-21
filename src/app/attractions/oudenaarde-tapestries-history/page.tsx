@@ -16,6 +16,8 @@ export default function OudenaardeTapestriesHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '奥德瓦尔德', href: '/destinations/europe' },
             { label: '奥德瓦尔德', href: '/attractions/oudenaarde-tapestries-history' },
           ]}
         />

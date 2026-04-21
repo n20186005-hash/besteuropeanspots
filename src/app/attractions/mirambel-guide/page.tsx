@@ -16,6 +16,8 @@ export default function MirambelGuidePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '特鲁埃尔', href: '/destinations/europe' },
             { label: '米拉姆贝尔', href: '/attractions/mirambel-guide' },
           ]}
         />

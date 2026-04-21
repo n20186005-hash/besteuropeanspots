@@ -16,6 +16,8 @@ export default function MaaseikHistoricalTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '马赛克', href: '/destinations/europe' },
             { label: '马赛克', href: '/attractions/maaseik-historical-town' },
           ]}
         />

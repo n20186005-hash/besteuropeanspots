@@ -15,7 +15,9 @@ export default function CastelluccioDiNorciaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '翁布里亚', href: '/destinations/italy' },
             { label: '卡斯特卢乔迪诺尔恰', href: '/attractions/castelluccio-di-norcia' },
           ]}
         />

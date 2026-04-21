@@ -16,6 +16,8 @@ export default function MatchstickTownAndOnionCapitalPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克与匈牙利边境地区', href: '/destinations/europe' },
+            { label: '赫龙河畔切尔文卡 (斯洛伐克侧)， 莫雄马扎尔古堡 (匈牙利侧)', href: '/destinations/europe' },
             { label: '火柴之城与洋葱之都', href: '/attractions/matchstick-town-and-onion-capital' },
           ]}
         />

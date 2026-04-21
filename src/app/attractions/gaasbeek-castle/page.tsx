@@ -15,7 +15,9 @@ export default function GaasbeekCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '弗拉芒布拉班特省（加斯贝克村）', href: '/destinations/belgium' },
             { label: '加斯贝克城堡', href: '/attractions/gaasbeek-castle' },
           ]}
         />

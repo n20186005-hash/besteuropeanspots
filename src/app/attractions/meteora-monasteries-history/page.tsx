@@ -16,6 +16,8 @@ export default function MeteoraMonasteriesHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '特里卡拉', href: '/destinations/europe' },
             { label: '梅黛奥拉悬空修道院', href: '/attractions/meteora-monasteries-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function BelmonteCastilePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '昆卡省贝尔蒙特镇', href: '/destinations/spain' },
             { label: '贝尔蒙特城堡', href: '/attractions/belmonte-castile' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function SzentendreHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '佩斯州', href: '/destinations/europe' },
             { label: '圣安德烈艺术小镇', href: '/attractions/szentendre-history' },
           ]}
         />

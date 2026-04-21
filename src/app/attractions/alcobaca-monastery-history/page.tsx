@@ -16,6 +16,8 @@ export default function AlcobacaMonasteryHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '阿尔科巴萨', href: '/destinations/europe' },
             { label: '阿尔科巴萨修道院', href: '/attractions/alcobaca-monastery-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function RozhnavaMiningTownClockTowerPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '罗日尼亚瓦', href: '/destinations/europe' },
             { label: '罗日尼亚瓦', href: '/attractions/rozhnava-mining-town-clock-tower' },
           ]}
         />

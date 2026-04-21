@@ -15,7 +15,9 @@ export default function WasserbilligPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卢森堡', href: '/destinations/luxembourg' },
+            { label: '格雷文马赫', href: '/destinations/luxembourg' },
             { label: '瓦瑟比利希', href: '/attractions/wasserbillig' },
           ]}
         />

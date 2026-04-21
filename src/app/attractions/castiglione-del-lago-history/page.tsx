@@ -16,6 +16,8 @@ export default function CastiglioneDelLagoHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '翁布里亚', href: '/destinations/europe' },
             { label: '卡斯蒂廖内-德尔拉戈', href: '/attractions/castiglione-del-lago-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function BuerresheimCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '莱茵兰-普法尔茨', href: '/destinations/europe' },
             { label: '比雷斯海姆城堡', href: '/attractions/buerresheim-castle' },
           ]}
         />

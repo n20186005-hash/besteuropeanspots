@@ -15,7 +15,9 @@ export default function RomanWallsOfLugoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '卢戈', href: '/destinations/spain' },
             { label: '卢戈古罗马城墙', href: '/attractions/roman-walls-of-lugo' },
           ]}
         />

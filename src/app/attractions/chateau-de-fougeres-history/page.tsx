@@ -16,6 +16,8 @@ export default function ChateauDeFougeresHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '伊勒-维莱讷省（布列塔尼地区）', href: '/destinations/europe' },
             { label: '富热尔城堡', href: '/attractions/chateau-de-fougeres-history' },
           ]}
         />

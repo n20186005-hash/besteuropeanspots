@@ -16,6 +16,8 @@ export default function BreePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '布雷', href: '/destinations/europe' },
             { label: '布雷', href: '/attractions/bree' },
           ]}
         />

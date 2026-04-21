@@ -15,7 +15,9 @@ export default function DelosIslandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '南爱琴大区，米克诺斯市（实际从米克诺斯岛乘船前往）', href: '/destinations/greece' },
             { label: '提洛岛', href: '/attractions/delos-island' },
           ]}
         />

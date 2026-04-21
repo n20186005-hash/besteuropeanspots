@@ -16,6 +16,8 @@ export default function BrigStockalperPalacePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '布里格', href: '/destinations/europe' },
             { label: '布里格', href: '/attractions/brig-stockalper-palace' },
           ]}
         />

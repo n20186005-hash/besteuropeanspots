@@ -16,6 +16,8 @@ export default function ProvinsMedievalTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '普罗万', href: '/destinations/europe' },
             { label: '普罗万中世纪古城', href: '/attractions/provins-medieval-town-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function HallerbosBluebellForestPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '弗拉芒布拉班特省', href: '/destinations/europe' },
             { label: '哈勒森林', href: '/attractions/hallerbos-bluebell-forest' },
           ]}
         />

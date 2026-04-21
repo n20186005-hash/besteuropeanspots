@@ -16,6 +16,8 @@ export default function BergheimAlsaceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '上莱茵省', href: '/destinations/europe' },
             { label: '贝尔盖姆', href: '/attractions/bergheim-alsace-history' },
           ]}
         />

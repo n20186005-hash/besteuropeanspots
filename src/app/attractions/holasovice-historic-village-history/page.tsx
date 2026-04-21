@@ -16,6 +16,8 @@ export default function HolasoviceHistoricVillageHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '南波希米亚州', href: '/destinations/europe' },
             { label: '霍拉索维采历史村落', href: '/attractions/holasovice-historic-village-history' },
           ]}
         />

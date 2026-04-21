@@ -16,6 +16,8 @@ export default function KoppelpoortHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '阿默斯福特', href: '/destinations/europe' },
             { label: '阿默斯福特中世纪城门', href: '/attractions/koppelpoort-history' },
           ]}
         />

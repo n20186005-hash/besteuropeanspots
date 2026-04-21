@@ -16,6 +16,8 @@ export default function EgerCastleBullBloodHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '埃格尔', href: '/destinations/europe' },
             { label: '埃格尔城堡与公牛血产区', href: '/attractions/eger-castle-bull-blood-history' },
           ]}
         />

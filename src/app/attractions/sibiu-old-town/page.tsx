@@ -15,7 +15,9 @@ export default function SibiuOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '锡比乌', href: '/destinations/romania' },
             { label: '锡比乌', href: '/attractions/sibiu-old-town' },
           ]}
         />

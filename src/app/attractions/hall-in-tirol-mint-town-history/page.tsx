@@ -16,6 +16,8 @@ export default function HallInTirolMintTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '蒂罗尔州', href: '/destinations/europe' },
             { label: '蒂罗尔的哈尔（铸币古城）', href: '/attractions/hall-in-tirol-mint-town-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function NidaLithuaniaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '立陶宛', href: '/destinations/lithuania' },
+            { label: '克莱佩达县', href: '/destinations/lithuania' },
             { label: '尼达', href: '/attractions/nida-lithuania' },
           ]}
         />

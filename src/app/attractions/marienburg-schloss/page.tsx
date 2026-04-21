@@ -15,7 +15,9 @@ export default function MarienburgSchlossPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '下萨克森州（靠近汉诺威）', href: '/destinations/germany' },
             { label: '玛丽安堡', href: '/attractions/marienburg-schloss' },
           ]}
         />

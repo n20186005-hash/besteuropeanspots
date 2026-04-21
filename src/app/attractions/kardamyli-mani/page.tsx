@@ -16,6 +16,8 @@ export default function KardamyliManiPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '伯罗奔尼撒', href: '/destinations/europe' },
             { label: '卡尔达米利', href: '/attractions/kardamyli-mani' },
           ]}
         />

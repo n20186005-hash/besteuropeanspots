@@ -15,7 +15,9 @@ export default function YtterbyMineSwedenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '斯德哥尔摩省', href: '/destinations/sweden' },
             { label: '伊特比矿坑', href: '/attractions/ytterby-mine-sweden' },
           ]}
         />

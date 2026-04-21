@@ -15,7 +15,9 @@ export default function LaAlbercaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '卡斯蒂利亚-莱昂', href: '/destinations/spain' },
             { label: '拉阿尔韦卡', href: '/attractions/la-alberca' },
           ]}
         />

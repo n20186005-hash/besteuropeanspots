@@ -16,6 +16,8 @@ export default function DolniKouniceRosaCoeliPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '南摩拉维亚州', href: '/destinations/europe' },
             { label: '下库尼采罗莎·科利女子修道院', href: '/attractions/dolni-kounice-rosa-coeli' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function CastlesOfBellinzonaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '贝林佐纳', href: '/destinations/europe' },
             { label: '贝林佐纳三城堡', href: '/attractions/castles-of-bellinzona-history' },
           ]}
         />

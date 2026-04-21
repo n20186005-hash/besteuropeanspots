@@ -15,7 +15,9 @@ export default function RakotzbrCkeKromlauParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '克罗姆劳，萨克森州', href: '/destinations/germany' },
             { label: '拉科茨桥（魔鬼桥）', href: '/attractions/rakotzbr-cke-kromlau-park' },
           ]}
         />

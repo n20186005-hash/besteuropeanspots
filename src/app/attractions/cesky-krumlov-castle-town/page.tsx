@@ -15,7 +15,9 @@ export default function CeskyKrumlovCastleTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '克鲁姆洛夫', href: '/destinations/czech-republic' },
             { label: '克鲁姆洛夫（CK小镇）', href: '/attractions/cesky-krumlov-castle-town' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function MariefredGripsholmHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '南曼兰省', href: '/destinations/europe' },
             { label: '玛丽弗雷德（格利普霍姆堡与国家肖像画廊）', href: '/attractions/mariefred-gripsholm-history' },
           ]}
         />

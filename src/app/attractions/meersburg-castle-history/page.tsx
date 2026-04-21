@@ -16,6 +16,8 @@ export default function MeersburgCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '梅尔斯堡', href: '/destinations/europe' },
             { label: '梅尔斯堡旧堡', href: '/attractions/meersburg-castle-history' },
           ]}
         />

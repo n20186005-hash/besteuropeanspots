@@ -16,6 +16,8 @@ export default function DifferdangeIndustrialHeritageAndMonasteryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '阿尔泽特河畔埃施', href: '/destinations/europe' },
             { label: '迪弗当日', href: '/attractions/differdange-industrial-heritage-and-monastery' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function MariborOldVinePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛文尼亚', href: '/destinations/slovenia' },
+            { label: '下施蒂利亚地区（马里博尔市）', href: '/destinations/slovenia' },
             { label: '马里博尔老藤屋', href: '/attractions/maribor-old-vine' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function JokkmokkPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '北博滕省', href: '/destinations/europe' },
             { label: '约克莫克', href: '/attractions/jokkmokk' },
           ]}
         />

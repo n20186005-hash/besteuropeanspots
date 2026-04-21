@@ -16,6 +16,8 @@ export default function BourscheidCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '布尔沙伊德', href: '/destinations/europe' },
             { label: '布尔沙伊德城堡', href: '/attractions/bourscheid-castle-history' },
           ]}
         />

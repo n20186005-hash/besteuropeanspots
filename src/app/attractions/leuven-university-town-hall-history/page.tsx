@@ -16,6 +16,8 @@ export default function LeuvenUniversityTownHallHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '鲁汶', href: '/destinations/europe' },
             { label: '鲁汶大学城与市政厅', href: '/attractions/leuven-university-town-hall-history' },
           ]}
         />

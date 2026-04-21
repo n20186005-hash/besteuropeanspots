@@ -16,6 +16,8 @@ export default function KlaipedaOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '立陶宛', href: '/destinations/europe' },
+            { label: '克莱佩达县', href: '/destinations/europe' },
             { label: '克莱佩达老城', href: '/attractions/klaipeda-old-town-history' },
           ]}
         />

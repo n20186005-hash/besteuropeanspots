@@ -16,6 +16,8 @@ export default function TursiRabatanaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '巴斯利卡塔', href: '/destinations/europe' },
             { label: '图尔西（拉巴塔纳）', href: '/attractions/tursi-rabatana' },
           ]}
         />

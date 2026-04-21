@@ -16,6 +16,8 @@ export default function TempleOfApolloDelphiHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '德尔斐', href: '/destinations/europe' },
             { label: '德尔斐阿波罗神庙', href: '/attractions/temple-of-apollo-delphi-history' },
           ]}
         />

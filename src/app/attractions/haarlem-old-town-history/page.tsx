@@ -16,6 +16,8 @@ export default function HaarlemOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '哈勒姆', href: '/destinations/europe' },
             { label: '哈勒姆老城', href: '/attractions/haarlem-old-town-history' },
           ]}
         />

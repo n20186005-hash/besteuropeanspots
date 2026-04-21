@@ -15,7 +15,9 @@ export default function OlomoucPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '奥洛穆茨', href: '/destinations/czech-republic' },
             { label: '奥洛穆茨老城', href: '/attractions/olomouc' },
           ]}
         />

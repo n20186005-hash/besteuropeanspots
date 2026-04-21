@@ -15,7 +15,9 @@ export default function WormsCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '莱茵兰-普法尔茨', href: '/destinations/germany' },
             { label: '沃尔姆斯大教堂', href: '/attractions/worms-cathedral' },
           ]}
         />

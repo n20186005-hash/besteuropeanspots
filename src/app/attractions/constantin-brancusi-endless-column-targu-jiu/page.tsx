@@ -16,6 +16,8 @@ export default function ConstantinBrancusiEndlessColumnTarguJiuPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '特尔古日乌', href: '/destinations/europe' },
             { label: '特尔古日乌', href: '/attractions/constantin-brancusi-endless-column-targu-jiu' },
           ]}
         />

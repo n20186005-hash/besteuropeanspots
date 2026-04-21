@@ -15,7 +15,9 @@ export default function CovadongaShrineSanctuaryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '阿斯图里亚斯，科加斯-德-奥尼斯市镇', href: '/destinations/spain' },
             { label: '科瓦东加（隐没在皮科斯欧洲山脉中的圣母朝圣山洞与大教堂）', href: '/attractions/covadonga-shrine-sanctuary' },
           ]}
         />

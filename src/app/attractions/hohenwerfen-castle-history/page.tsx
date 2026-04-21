@@ -16,6 +16,8 @@ export default function HohenwerfenCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '萨尔茨堡州', href: '/destinations/europe' },
             { label: '霍亨维尔芬城堡', href: '/attractions/hohenwerfen-castle-history' },
           ]}
         />

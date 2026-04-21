@@ -16,6 +16,8 @@ export default function SigmaringenCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '锡格马林根', href: '/destinations/europe' },
             { label: '锡格马林根城堡', href: '/attractions/sigmaringen-castle-history' },
           ]}
         />

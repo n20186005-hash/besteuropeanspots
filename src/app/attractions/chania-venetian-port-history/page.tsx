@@ -16,6 +16,8 @@ export default function ChaniaVenetianPortHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '克里特岛哈尼亚', href: '/destinations/europe' },
             { label: '哈尼亚威尼斯港', href: '/attractions/chania-venetian-port-history' },
           ]}
         />

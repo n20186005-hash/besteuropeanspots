@@ -15,7 +15,9 @@ export default function KrimmlWaterfallsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '萨尔茨堡州', href: '/destinations/austria' },
             { label: '克里姆尔瀑布', href: '/attractions/krimml-waterfalls' },
           ]}
         />

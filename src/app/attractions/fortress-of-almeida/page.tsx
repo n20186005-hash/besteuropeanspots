@@ -15,7 +15,9 @@ export default function FortressOfAlmeidaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '阿尔梅达镇， 瓜达区', href: '/destinations/portugal' },
             { label: '阿尔梅达要塞', href: '/attractions/fortress-of-almeida' },
           ]}
         />

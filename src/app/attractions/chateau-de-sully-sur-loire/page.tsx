@@ -15,7 +15,9 @@ export default function ChateauDeSullySurLoirePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '叙利苏卢瓦尔，卢瓦雷省', href: '/destinations/france' },
             { label: '叙利城堡', href: '/attractions/chateau-de-sully-sur-loire' },
           ]}
         />

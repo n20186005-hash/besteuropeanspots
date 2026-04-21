@@ -16,6 +16,8 @@ export default function LivadeiaWatermallsOracleCavePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '莱瓦贾', href: '/destinations/europe' },
             { label: '莱瓦贾', href: '/attractions/livadeia-watermalls-oracle-cave' },
           ]}
         />

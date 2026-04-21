@@ -16,6 +16,8 @@ export default function SegoviaAqueductHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '塞哥维亚', href: '/destinations/europe' },
             { label: '塞哥维亚罗马水道桥', href: '/attractions/segovia-aqueduct-history' },
           ]}
         />

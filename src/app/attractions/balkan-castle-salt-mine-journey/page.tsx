@@ -15,7 +15,9 @@ export default function BalkanCastleSaltMineJourneyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '塞尔维亚', href: '/destinations/serbia' },
+            { label: '戈卢巴茨 & 图尔达', href: '/destinations/serbia' },
             { label: '戈卢巴茨要塞与图尔达盐矿：穿越巴尔干的时光隧道', href: '/attractions/balkan-castle-salt-mine-journey' },
           ]}
         />

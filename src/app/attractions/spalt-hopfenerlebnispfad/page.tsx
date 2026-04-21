@@ -16,6 +16,8 @@ export default function SpaltHopfenerlebnispfadPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '施帕尔特', href: '/destinations/europe' },
             { label: '施帕尔特啤酒花之乡', href: '/attractions/spalt-hopfenerlebnispfad' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function KalymnosIslandPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '南爱琴大区（主要城镇为波萨）', href: '/destinations/europe' },
             { label: '卡林诺斯岛', href: '/attractions/kalymnos-island' },
           ]}
         />

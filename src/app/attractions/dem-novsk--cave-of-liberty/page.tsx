@@ -15,7 +15,9 @@ export default function DemNovskCaveOfLibertyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '日利纳州，德曼诺夫斯卡山谷', href: '/destinations/slovakia' },
             { label: '德曼诺夫斯卡自由洞', href: '/attractions/dem-novsk--cave-of-liberty' },
           ]}
         />

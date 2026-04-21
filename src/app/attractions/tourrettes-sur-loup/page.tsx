@@ -16,6 +16,8 @@ export default function TourrettesSurLoupPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '滨海阿尔卑斯省', href: '/destinations/europe' },
             { label: '图雷特（紫罗兰之城）', href: '/attractions/tourrettes-sur-loup' },
           ]}
         />

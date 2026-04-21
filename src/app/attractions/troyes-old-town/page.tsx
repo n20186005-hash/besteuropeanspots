@@ -15,7 +15,9 @@ export default function TroyesOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '特鲁瓦', href: '/destinations/france' },
             { label: '特鲁瓦中世纪老城', href: '/attractions/troyes-old-town' },
           ]}
         />

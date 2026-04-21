@@ -15,7 +15,9 @@ export default function ArlonRomanRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '阿尔隆', href: '/destinations/belgium' },
             { label: '阿尔隆古罗马遗址', href: '/attractions/arlon-roman-ruins' },
           ]}
         />

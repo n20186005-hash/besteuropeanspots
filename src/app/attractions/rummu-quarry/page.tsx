@@ -15,7 +15,9 @@ export default function RummuQuarryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '爱沙尼亚', href: '/destinations/estonia' },
+            { label: '哈尔尤县', href: '/destinations/estonia' },
             { label: '鲁姆采石场', href: '/attractions/rummu-quarry' },
           ]}
         />

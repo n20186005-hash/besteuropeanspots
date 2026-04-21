@@ -15,7 +15,9 @@ export default function HagarQimTemplesMaltaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马耳他', href: '/destinations/malta' },
+            { label: 'Qrendi（属马耳他南区）', href: '/destinations/malta' },
             { label: '哈加印神庙', href: '/attractions/hagar-qim-temples-malta' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function AulnaySaintPierreRomanArtPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '滨海夏朗德省', href: '/destinations/france' },
             { label: '欧奈圣皮埃尔教堂', href: '/attractions/aulnay-saint-pierre-roman-art' },
           ]}
         />

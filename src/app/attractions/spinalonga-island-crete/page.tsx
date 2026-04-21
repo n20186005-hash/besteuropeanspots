@@ -15,7 +15,9 @@ export default function SpinalongaIslandCretePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '克里特岛', href: '/destinations/greece' },
             { label: '斯皮纳隆加岛', href: '/attractions/spinalonga-island-crete' },
           ]}
         />

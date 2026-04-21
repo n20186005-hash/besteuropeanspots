@@ -15,7 +15,9 @@ export default function DolniVitkoviceIndustrialSitePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '奥斯特拉瓦', href: '/destinations/czech-republic' },
             { label: '下维特科维采工业遗址', href: '/attractions/dolni-vitkovice-industrial-site' },
           ]}
         />

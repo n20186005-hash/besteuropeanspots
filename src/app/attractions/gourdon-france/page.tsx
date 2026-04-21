@@ -15,7 +15,9 @@ export default function GourdonFrancePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '滨海阿尔卑斯省', href: '/destinations/france' },
             { label: '古尔东', href: '/attractions/gourdon-france' },
           ]}
         />

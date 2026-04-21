@@ -16,6 +16,8 @@ export default function OgulinFrankopanCastleDobraGorgePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '奥古林', href: '/destinations/europe' },
             { label: '奥古林', href: '/attractions/ogulin-frankopan-castle-dobra-gorge' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function PezenasLanguedocPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '埃罗省', href: '/destinations/france' },
             { label: '佩泽纳斯（莫里哀钟爱的十七世纪古典喜剧之城）', href: '/attractions/pezenas-languedoc' },
           ]}
         />

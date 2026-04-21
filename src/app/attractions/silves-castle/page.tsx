@@ -15,7 +15,9 @@ export default function SilvesCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '葡萄牙', href: '/destinations/portugal' },
+            { label: '锡尔维什', href: '/destinations/portugal' },
             { label: '锡尔维什城堡（红砂岩城堡）', href: '/attractions/silves-castle' },
           ]}
         />

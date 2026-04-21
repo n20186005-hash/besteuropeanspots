@@ -15,7 +15,9 @@ export default function HeddalStaveChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '挪威', href: '/destinations/norway' },
+            { label: '诺托登', href: '/destinations/norway' },
             { label: '海达尔木板教堂', href: '/attractions/heddal-stave-church' },
           ]}
         />

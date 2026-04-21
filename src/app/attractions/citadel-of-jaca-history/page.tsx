@@ -16,6 +16,8 @@ export default function CitadelOfJacaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '韦斯卡', href: '/destinations/europe' },
             { label: '哈卡城塞', href: '/attractions/citadel-of-jaca-history' },
           ]}
         />

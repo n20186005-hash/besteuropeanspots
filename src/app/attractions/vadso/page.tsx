@@ -16,6 +16,8 @@ export default function VadsoPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '特罗姆斯-芬马克郡', href: '/destinations/europe' },
             { label: '瓦德瑟', href: '/attractions/vadso' },
           ]}
         />

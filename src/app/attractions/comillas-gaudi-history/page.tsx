@@ -16,6 +16,8 @@ export default function ComillasGaudiHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '坎塔布里亚', href: '/destinations/europe' },
             { label: '科米利亚斯', href: '/attractions/comillas-gaudi-history' },
           ]}
         />

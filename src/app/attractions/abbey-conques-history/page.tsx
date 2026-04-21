@@ -16,6 +16,8 @@ export default function AbbeyConquesHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '孔克', href: '/destinations/europe' },
             { label: '孔克修道院与小镇', href: '/attractions/abbey-conques-history' },
           ]}
         />

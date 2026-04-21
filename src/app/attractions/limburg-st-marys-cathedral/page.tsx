@@ -15,7 +15,9 @@ export default function LimburgStMarysCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '林堡', href: '/destinations/germany' },
             { label: '林堡圣母教堂', href: '/attractions/limburg-st-marys-cathedral' },
           ]}
         />

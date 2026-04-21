@@ -16,6 +16,8 @@ export default function OuremCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '圣塔伦区', href: '/destinations/europe' },
             { label: '欧伦城堡', href: '/attractions/ourem-castle' },
           ]}
         />

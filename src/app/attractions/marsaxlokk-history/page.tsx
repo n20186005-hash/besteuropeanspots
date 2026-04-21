@@ -16,6 +16,8 @@ export default function MarsaxlokkHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '马耳他', href: '/destinations/europe' },
+            { label: '东南区', href: '/destinations/europe' },
             { label: '马尔萨什洛克', href: '/attractions/marsaxlokk-history' },
           ]}
         />

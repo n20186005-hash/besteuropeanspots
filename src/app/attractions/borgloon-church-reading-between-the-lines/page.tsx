@@ -16,6 +16,8 @@ export default function BorgloonChurchReadingBetweenTheLinesPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '林堡省', href: '/destinations/europe' },
             { label: '博尔赫隆“字里行间”教堂', href: '/attractions/borgloon-church-reading-between-the-lines' },
           ]}
         />

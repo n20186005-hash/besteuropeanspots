@@ -16,6 +16,8 @@ export default function DelftHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '代尔夫特', href: '/destinations/europe' },
             { label: '代尔夫特老城', href: '/attractions/delft-history' },
           ]}
         />

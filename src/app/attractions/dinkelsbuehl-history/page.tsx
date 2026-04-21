@@ -16,6 +16,8 @@ export default function DinkelsbuehlHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '丁克尔斯比尔', href: '/destinations/europe' },
             { label: '丁克尔斯比尔', href: '/attractions/dinkelsbuehl-history' },
           ]}
         />

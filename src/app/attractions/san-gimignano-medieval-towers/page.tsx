@@ -15,7 +15,9 @@ export default function SanGimignanoMedievalTowersPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '圣吉米尼亚诺', href: '/destinations/italy' },
             { label: '圣吉米尼亚诺百塔之城', href: '/attractions/san-gimignano-medieval-towers' },
           ]}
         />

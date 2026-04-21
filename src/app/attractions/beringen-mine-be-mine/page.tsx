@@ -15,7 +15,9 @@ export default function BeringenMineBeMinePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '贝灵恩， 林堡省', href: '/destinations/belgium' },
             { label: '贝灵恩煤矿遗址', href: '/attractions/beringen-mine-be-mine' },
           ]}
         />

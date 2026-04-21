@@ -16,6 +16,8 @@ export default function KarpenisiHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '中希腊大区', href: '/destinations/europe' },
             { label: '卡尔派尼西', href: '/attractions/karpenisi-history' },
           ]}
         />

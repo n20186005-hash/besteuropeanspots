@@ -16,6 +16,8 @@ export default function ValleMuggioPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '提契诺州', href: '/destinations/europe' },
             { label: '穆焦山谷', href: '/attractions/valle-muggio' },
           ]}
         />

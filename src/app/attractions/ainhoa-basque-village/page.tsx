@@ -16,6 +16,8 @@ export default function AinhoaBasqueVillagePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '大西洋比利牛斯省', href: '/destinations/europe' },
             { label: '艾诺阿', href: '/attractions/ainhoa-basque-village' },
           ]}
         />

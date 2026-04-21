@@ -15,7 +15,9 @@ export default function HradecNadMoraviciCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '摩拉维亚-西里西亚州', href: '/destinations/czech-republic' },
             { label: '赫拉德茨-纳德莫拉维齐城堡', href: '/attractions/hradec-nad-moravici-castle' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function FeldkirchOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '福拉尔贝格州', href: '/destinations/europe' },
             { label: '费尔德基希老城', href: '/attractions/feldkirch-old-town-history' },
           ]}
         />

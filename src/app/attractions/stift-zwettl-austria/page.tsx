@@ -15,7 +15,9 @@ export default function StiftZwettlAustriaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '下奥地利州茨韦特尔镇', href: '/destinations/austria' },
             { label: '茨韦特尔修道院', href: '/attractions/stift-zwettl-austria' },
           ]}
         />

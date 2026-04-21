@@ -15,7 +15,9 @@ export default function BorgundStaveChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '挪威', href: '/destinations/norway' },
+            { label: '莱达尔（Lærdal）', href: '/destinations/norway' },
             { label: '博尔贡木板教堂', href: '/attractions/borgund-stave-church' },
           ]}
         />

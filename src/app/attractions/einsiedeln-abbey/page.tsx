@@ -15,7 +15,9 @@ export default function EinsiedelnAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '施维茨州，艾因西德伦', href: '/destinations/switzerland' },
             { label: '艾因西德伦修道院', href: '/attractions/einsiedeln-abbey' },
           ]}
         />

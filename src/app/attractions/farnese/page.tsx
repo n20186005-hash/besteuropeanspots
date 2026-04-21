@@ -16,6 +16,8 @@ export default function FarnesePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '拉齐奥', href: '/destinations/europe' },
             { label: '法尔内塞', href: '/attractions/farnese' },
           ]}
         />

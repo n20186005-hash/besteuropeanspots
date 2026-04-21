@@ -16,6 +16,8 @@ export default function BraunfelsCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '黑森州，布劳恩费尔斯镇', href: '/destinations/europe' },
             { label: '布劳恩费尔斯城堡', href: '/attractions/braunfels-castle-history' },
           ]}
         />

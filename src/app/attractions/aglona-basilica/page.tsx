@@ -15,7 +15,9 @@ export default function AglonaBasilicaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '拉脱维亚', href: '/destinations/latvia' },
+            { label: '普雷利市镇（阿格洛纳小镇）', href: '/destinations/latvia' },
             { label: '阿格洛纳大教堂', href: '/attractions/aglona-basilica' },
           ]}
         />

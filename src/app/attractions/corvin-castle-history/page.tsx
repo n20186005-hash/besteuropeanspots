@@ -16,6 +16,8 @@ export default function CorvinCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '胡内多阿拉县', href: '/destinations/europe' },
             { label: '胡内多阿拉科尔文城堡', href: '/attractions/corvin-castle-history' },
           ]}
         />

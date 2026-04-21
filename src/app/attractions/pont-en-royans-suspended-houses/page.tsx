@@ -15,7 +15,9 @@ export default function PontEnRoyansSuspendedHousesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '伊泽尔省', href: '/destinations/france' },
             { label: '蓬唐鲁瓦扬', href: '/attractions/pont-en-royans-suspended-houses' },
           ]}
         />

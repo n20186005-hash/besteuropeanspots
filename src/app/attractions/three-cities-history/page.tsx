@@ -16,6 +16,8 @@ export default function ThreeCitiesHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '马耳他', href: '/destinations/europe' },
+            { label: '马耳他大港区', href: '/destinations/europe' },
             { label: '三姐妹城（圣约翰骑士团的最初海防线）', href: '/attractions/three-cities-history' },
           ]}
         />

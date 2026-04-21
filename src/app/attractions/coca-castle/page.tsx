@@ -15,7 +15,9 @@ export default function CocaCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '塞哥维亚（更精确地说是位于塞哥维亚省的Coca镇）', href: '/destinations/spain' },
             { label: '可可城堡', href: '/attractions/coca-castle' },
           ]}
         />

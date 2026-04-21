@@ -16,6 +16,8 @@ export default function EtruscanVolterraHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '沃尔泰拉', href: '/destinations/europe' },
             { label: '沃尔泰拉伊特鲁里亚遗址', href: '/attractions/etruscan-volterra-history' },
           ]}
         />

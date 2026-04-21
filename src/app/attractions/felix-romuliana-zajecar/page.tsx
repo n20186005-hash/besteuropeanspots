@@ -16,6 +16,8 @@ export default function FelixRomulianaZajecarPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞尔维亚', href: '/destinations/europe' },
+            { label: '扎耶查尔州，靠近加姆齐格勒镇', href: '/destinations/europe' },
             { label: '费利克斯·罗穆利亚纳', href: '/attractions/felix-romuliana-zajecar' },
           ]}
         />

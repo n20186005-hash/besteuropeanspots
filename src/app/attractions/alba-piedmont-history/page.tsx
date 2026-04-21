@@ -16,6 +16,8 @@ export default function AlbaPiedmontHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '皮埃蒙特', href: '/destinations/europe' },
             { label: '阿尔巴', href: '/attractions/alba-piedmont-history' },
           ]}
         />

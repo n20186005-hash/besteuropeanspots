@@ -16,6 +16,8 @@ export default function LinharesDaBeiraCastleParaglidingPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '瓜达区', href: '/destinations/europe' },
             { label: '利尼亚雷斯-达贝拉', href: '/attractions/linhares-da-beira-castle-paragliding' },
           ]}
         />

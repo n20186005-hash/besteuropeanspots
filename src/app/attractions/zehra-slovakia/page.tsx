@@ -15,7 +15,9 @@ export default function ZehraSlovakiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '科希策州，热赫拉村', href: '/destinations/slovakia' },
             { label: '热赫拉圣灵教堂', href: '/attractions/zehra-slovakia' },
           ]}
         />

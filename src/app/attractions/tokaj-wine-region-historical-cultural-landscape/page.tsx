@@ -15,7 +15,9 @@ export default function TokajWineRegionHistoricalCulturalLandscapePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '包尔绍德-奥包乌伊-曾普伦州', href: '/destinations/hungary' },
             { label: '托卡伊葡萄酒产区历史文化景观', href: '/attractions/tokaj-wine-region-historical-cultural-landscape' },
           ]}
         />

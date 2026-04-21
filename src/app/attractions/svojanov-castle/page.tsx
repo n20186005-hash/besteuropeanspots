@@ -16,6 +16,8 @@ export default function SvojanovCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '帕尔杜比采州', href: '/destinations/europe' },
             { label: '斯沃亚诺夫城堡', href: '/attractions/svojanov-castle' },
           ]}
         />

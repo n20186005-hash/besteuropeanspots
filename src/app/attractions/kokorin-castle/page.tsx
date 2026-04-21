@@ -16,6 +16,8 @@ export default function KokorinCastlePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '中波希米亚州（具体位于科科日恩地区）', href: '/destinations/europe' },
             { label: '科科日恩城堡', href: '/attractions/kokorin-castle' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function ThunCastleTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '图恩', href: '/destinations/europe' },
             { label: '图恩城堡与老城', href: '/attractions/thun-castle-town-history' },
           ]}
         />

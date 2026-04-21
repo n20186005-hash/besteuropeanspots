@@ -16,6 +16,8 @@ export default function ChateauDePuilaurensPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '奥德省', href: '/destinations/europe' },
             { label: '普伊洛朗城堡', href: '/attractions/chateau-de-puilaurens' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function ValkenburgCastleRuinsHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '法尔肯堡', href: '/destinations/europe' },
             { label: '法尔肯堡废墟城堡', href: '/attractions/valkenburg-castle-ruins-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function SoestMedievalOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '索斯特', href: '/destinations/germany' },
             { label: '索斯特', href: '/attractions/soest-medieval-old-town' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function ChateauDeBeynacPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '萨拉（靠近贝纳克-卡泽纳克公社）', href: '/destinations/france' },
             { label: '贝纳克城堡', href: '/attractions/chateau-de-beynac' },
           ]}
         />

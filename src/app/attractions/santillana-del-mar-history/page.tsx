@@ -16,6 +16,8 @@ export default function SantillanaDelMarHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '坎塔布里亚', href: '/destinations/europe' },
             { label: '桑蒂利亚纳代尔马尔', href: '/attractions/santillana-del-mar-history' },
           ]}
         />

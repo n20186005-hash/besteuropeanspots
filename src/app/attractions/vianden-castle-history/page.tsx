@@ -16,6 +16,8 @@ export default function ViandenCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '维安登', href: '/destinations/europe' },
             { label: '维安登城堡', href: '/attractions/vianden-castle-history' },
           ]}
         />

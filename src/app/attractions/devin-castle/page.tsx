@@ -15,7 +15,9 @@ export default function DevinCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '布拉迪斯拉发', href: '/destinations/slovakia' },
             { label: '德文城堡', href: '/attractions/devin-castle' },
           ]}
         />

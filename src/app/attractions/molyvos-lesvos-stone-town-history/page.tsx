@@ -16,6 +16,8 @@ export default function MolyvosLesvosStoneTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '莱斯沃斯岛（北爱琴大区）', href: '/destinations/europe' },
             { label: '莫利沃斯（依山傍海的石头城）', href: '/attractions/molyvos-lesvos-stone-town-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function PlzenHistoricalUndergroundPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '比尔森', href: '/destinations/czech-republic' },
             { label: '皮尔森历史地下城', href: '/attractions/plzen-historical-underground' },
           ]}
         />

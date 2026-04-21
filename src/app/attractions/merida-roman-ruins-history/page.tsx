@@ -16,6 +16,8 @@ export default function MeridaRomanRuinsHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '梅里达', href: '/destinations/europe' },
             { label: '梅里达罗马遗址', href: '/attractions/merida-roman-ruins-history' },
           ]}
         />

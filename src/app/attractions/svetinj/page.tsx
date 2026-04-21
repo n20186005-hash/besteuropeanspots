@@ -16,6 +16,8 @@ export default function SvetinjPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '伊斯特拉县', href: '/destinations/europe' },
             { label: '斯韦特温切纳特', href: '/attractions/svetinj' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function ChateauDeFougeresPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '富热尔（伊勒-维莱讷省）', href: '/destinations/france' },
             { label: '富热尔城堡', href: '/attractions/chateau-de-fougeres' },
           ]}
         />

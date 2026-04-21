@@ -15,7 +15,9 @@ export default function ChateauDePeyrepertusePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '奥德省，杜雅', href: '/destinations/france' },
             { label: '佩雷帕蒂斯城堡', href: '/attractions/chateau-de-peyrepertuse' },
           ]}
         />

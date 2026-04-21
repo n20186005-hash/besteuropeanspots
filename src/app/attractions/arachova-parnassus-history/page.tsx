@@ -16,6 +16,8 @@ export default function ArachovaParnassusHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '中希腊大区', href: '/destinations/europe' },
             { label: '阿拉霍瓦', href: '/attractions/arachova-parnassus-history' },
           ]}
         />

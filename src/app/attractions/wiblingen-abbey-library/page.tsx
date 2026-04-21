@@ -15,7 +15,9 @@ export default function WiblingenAbbeyLibraryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '巴登-符腾堡州，乌尔姆市', href: '/destinations/germany' },
             { label: '维布林根修道院', href: '/attractions/wiblingen-abbey-library' },
           ]}
         />

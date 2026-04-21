@@ -15,7 +15,9 @@ export default function PerougesMedievalVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '安省', href: '/destinations/france' },
             { label: '佩罗日中世纪村庄', href: '/attractions/perouges-medieval-village' },
           ]}
         />

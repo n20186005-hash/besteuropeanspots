@@ -15,7 +15,9 @@ export default function CivitellaDelTrontoFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '奇维泰拉-德尔特龙托', href: '/destinations/italy' },
             { label: '奇维泰拉-德尔特龙托', href: '/attractions/civitella-del-tronto-fortress' },
           ]}
         />

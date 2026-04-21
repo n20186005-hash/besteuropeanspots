@@ -16,6 +16,8 @@ export default function ChateauDeMontsegurPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '阿列日省', href: '/destinations/europe' },
             { label: '蒙塞居尔城堡', href: '/attractions/chateau-de-montsegur' },
           ]}
         />

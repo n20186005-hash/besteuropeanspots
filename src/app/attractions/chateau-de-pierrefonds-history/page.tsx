@@ -16,6 +16,8 @@ export default function ChateauDePierrefondsHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '瓦兹省', href: '/destinations/europe' },
             { label: '皮埃尔丰城堡', href: '/attractions/chateau-de-pierrefonds-history' },
           ]}
         />

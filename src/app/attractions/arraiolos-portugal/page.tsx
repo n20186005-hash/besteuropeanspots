@@ -16,6 +16,8 @@ export default function ArraiolosPortugalPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '埃武拉区 (阿连特茹地区)', href: '/destinations/europe' },
             { label: '阿兰迪什', href: '/attractions/arraiolos-portugal' },
           ]}
         />

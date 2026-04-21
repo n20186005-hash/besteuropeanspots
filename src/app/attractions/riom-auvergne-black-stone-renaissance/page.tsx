@@ -16,6 +16,8 @@ export default function RiomAuvergneBlackStoneRenaissancePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '里永', href: '/destinations/europe' },
             { label: '里永', href: '/attractions/riom-auvergne-black-stone-renaissance' },
           ]}
         />

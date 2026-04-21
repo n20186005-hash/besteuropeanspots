@@ -16,6 +16,8 @@ export default function LePuyCathedralHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '勒皮', href: '/destinations/europe' },
             { label: '勒皮圣母大教堂', href: '/attractions/le-puy-cathedral-history' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function BadHarzburgPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '巴特哈尔茨堡', href: '/destinations/germany' },
             { label: '巴德哈尔茨堡', href: '/attractions/bad-harzburg' },
           ]}
         />

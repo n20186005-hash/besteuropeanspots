@@ -15,7 +15,9 @@ export default function KasteelDeHaarPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '乌得勒支省，位于海尔费森村', href: '/destinations/netherlands' },
             { label: '德哈尔城堡', href: '/attractions/kasteel-de-haar' },
           ]}
         />

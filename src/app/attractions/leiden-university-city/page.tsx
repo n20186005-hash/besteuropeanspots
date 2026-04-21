@@ -15,7 +15,9 @@ export default function LeidenUniversityCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '莱顿', href: '/destinations/netherlands' },
             { label: '莱顿大学城', href: '/attractions/leiden-university-city' },
           ]}
         />

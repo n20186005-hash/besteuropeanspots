@@ -16,6 +16,8 @@ export default function ChebOldTownSquareHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '海布', href: '/destinations/europe' },
             { label: '海布', href: '/attractions/cheb-old-town-square-history' },
           ]}
         />

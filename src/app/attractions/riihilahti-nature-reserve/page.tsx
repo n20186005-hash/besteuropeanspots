@@ -15,7 +15,9 @@ export default function RiihilahtiNatureReservePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '芬兰', href: '/destinations/finland' },
+            { label: '海门林纳', href: '/destinations/finland' },
             { label: '里希拉赫蒂', href: '/attractions/riihilahti-nature-reserve' },
           ]}
         />

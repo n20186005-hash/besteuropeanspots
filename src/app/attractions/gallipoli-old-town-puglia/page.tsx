@@ -15,7 +15,9 @@ export default function GallipoliOldTownPugliaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '加里波利', href: '/destinations/italy' },
             { label: '加里波利老城', href: '/attractions/gallipoli-old-town-puglia' },
           ]}
         />

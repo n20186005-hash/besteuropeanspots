@@ -15,7 +15,9 @@ export default function NotoBaroqueTownSicilyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '诺托（位于西西里岛锡拉库萨省）', href: '/destinations/italy' },
             { label: '诺托巴洛克古城', href: '/attractions/noto-baroque-town-sicily' },
           ]}
         />

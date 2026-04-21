@@ -16,6 +16,8 @@ export default function NovoMestoSloveniaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛文尼亚', href: '/destinations/europe' },
+            { label: '诺沃梅斯托', href: '/destinations/europe' },
             { label: '诺沃梅斯托', href: '/attractions/novo-mesto-slovenia' },
           ]}
         />

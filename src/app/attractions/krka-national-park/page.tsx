@@ -15,7 +15,9 @@ export default function KrkaNationalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '克罗地亚', href: '/destinations/croatia' },
+            { label: '希贝尼克-克宁县', href: '/destinations/croatia' },
             { label: '克尔卡国家公园', href: '/attractions/krka-national-park' },
           ]}
         />

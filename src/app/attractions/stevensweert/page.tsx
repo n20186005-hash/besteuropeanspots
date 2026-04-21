@@ -16,6 +16,8 @@ export default function StevensweertPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '林堡省', href: '/destinations/europe' },
             { label: '斯蒂文斯维特', href: '/attractions/stevensweert' },
           ]}
         />

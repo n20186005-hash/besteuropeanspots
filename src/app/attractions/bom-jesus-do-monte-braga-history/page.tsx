@@ -16,6 +16,8 @@ export default function BomJesusDoMonteBragaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '布拉加', href: '/destinations/europe' },
             { label: '布拉加仁慈耶稣朝圣所', href: '/attractions/bom-jesus-do-monte-braga-history' },
           ]}
         />

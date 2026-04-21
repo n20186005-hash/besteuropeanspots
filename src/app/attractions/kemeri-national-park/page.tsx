@@ -15,7 +15,9 @@ export default function KemeriNationalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '拉脱维亚', href: '/destinations/latvia' },
+            { label: '尤尔马拉', href: '/destinations/latvia' },
             { label: '凯梅里国家公园', href: '/attractions/kemeri-national-park' },
           ]}
         />

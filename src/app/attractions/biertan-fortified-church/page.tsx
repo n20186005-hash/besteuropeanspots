@@ -15,7 +15,9 @@ export default function BiertanFortifiedChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '锡比乌县别尔坦村', href: '/destinations/romania' },
             { label: '别尔坦设防教堂', href: '/attractions/biertan-fortified-church' },
           ]}
         />

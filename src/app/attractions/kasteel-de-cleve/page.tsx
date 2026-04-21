@@ -15,7 +15,9 @@ export default function KasteelDeClevePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '阿纳姆附近 / 海尔德兰省雷嫩市', href: '/destinations/netherlands' },
             { label: '克莱沃城堡', href: '/attractions/kasteel-de-cleve' },
           ]}
         />

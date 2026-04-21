@@ -15,7 +15,9 @@ export default function KarlovaKorunaChateauPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '赫拉德茨-克拉洛韦州 （恰斯拉夫市附近）', href: '/destinations/czech-republic' },
             { label: '卡尔洛瓦科鲁纳城堡', href: '/attractions/karlova-koruna-chateau' },
           ]}
         />

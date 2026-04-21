@@ -15,7 +15,9 @@ export default function FreyrCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '那慕尔省 (默兹河畔于耶)', href: '/destinations/belgium' },
             { label: '弗雷尔城堡', href: '/attractions/freyr-castle' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function PyrgiChiosHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '希俄斯岛', href: '/destinations/europe' },
             { label: '皮尔吉', href: '/attractions/pyrgi-chios-history' },
           ]}
         />

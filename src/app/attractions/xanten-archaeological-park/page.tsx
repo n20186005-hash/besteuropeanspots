@@ -15,7 +15,9 @@ export default function XantenArchaeologicalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '克桑滕', href: '/destinations/germany' },
             { label: '克桑滕古罗马考古公园', href: '/attractions/xanten-archaeological-park' },
           ]}
         />

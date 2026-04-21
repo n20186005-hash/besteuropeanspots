@@ -15,7 +15,9 @@ export default function PampusFortIslandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '阿姆斯特丹（需从港口乘船抵达）', href: '/destinations/netherlands' },
             { label: '潘普斯堡', href: '/attractions/pampus-fort-island' },
           ]}
         />

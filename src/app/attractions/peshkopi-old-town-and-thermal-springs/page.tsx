@@ -16,6 +16,8 @@ export default function PeshkopiOldTownAndThermalSpringsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '阿尔巴尼亚', href: '/destinations/europe' },
+            { label: '佩什科比', href: '/destinations/europe' },
             { label: '佩什科比', href: '/attractions/peshkopi-old-town-and-thermal-springs' },
           ]}
         />

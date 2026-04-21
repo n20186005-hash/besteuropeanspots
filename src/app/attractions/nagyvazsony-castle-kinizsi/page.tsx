@@ -16,6 +16,8 @@ export default function NagyvazsonyCastleKinizsiPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '维斯普雷姆州', href: '/destinations/europe' },
             { label: '纳吉瓦若尼', href: '/attractions/nagyvazsony-castle-kinizsi' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function SantuarioNossaSenhoraRemediosLamegoHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '拉梅古 (Lamego)', href: '/destinations/europe' },
             { label: '拉梅古朝圣所', href: '/attractions/santuario-nossa-senhora-remedios-lamego-history' },
           ]}
         />

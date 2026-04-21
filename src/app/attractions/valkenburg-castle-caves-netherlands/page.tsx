@@ -15,7 +15,9 @@ export default function ValkenburgCastleCavesNetherlandsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '法尔肯堡市，林堡省', href: '/destinations/netherlands' },
             { label: '法尔肯堡（隐藏着绵延洞穴与地下圣诞市集的古堡废墟）', href: '/attractions/valkenburg-castle-caves-netherlands' },
           ]}
         />

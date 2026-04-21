@@ -15,7 +15,9 @@ export default function FaroSeaStacksPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '哥特兰省法罗岛', href: '/destinations/sweden' },
             { label: '法罗岛海蚀柱', href: '/attractions/faro-sea-stacks' },
           ]}
         />

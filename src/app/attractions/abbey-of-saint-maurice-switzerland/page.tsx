@@ -15,7 +15,9 @@ export default function AbbeyOfSaintMauriceSwitzerlandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '瓦莱州圣莫里斯镇', href: '/destinations/switzerland' },
             { label: '圣莫里斯修道院', href: '/attractions/abbey-of-saint-maurice-switzerland' },
           ]}
         />

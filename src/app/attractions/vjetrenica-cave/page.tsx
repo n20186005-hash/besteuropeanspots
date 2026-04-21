@@ -15,7 +15,9 @@ export default function VjetrenicaCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
+            { label: '黑塞哥维那-内雷特瓦州（靠近小镇扎瓦拉）', href: '/destinations/bosnia-and-herzegovina' },
             { label: '风洞', href: '/attractions/vjetrenica-cave' },
           ]}
         />

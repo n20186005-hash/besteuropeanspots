@@ -16,6 +16,8 @@ export default function SchlossNordkirchenPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '诺德基兴', href: '/destinations/europe' },
             { label: '诺德基兴宫', href: '/attractions/schloss-nordkirchen' },
           ]}
         />

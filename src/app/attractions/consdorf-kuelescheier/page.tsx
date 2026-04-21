@@ -16,6 +16,8 @@ export default function ConsdorfKuelescheierPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '埃希特纳赫', href: '/destinations/europe' },
             { label: '孔斯多夫（骑士裂缝）', href: '/attractions/consdorf-kuelescheier' },
           ]}
         />

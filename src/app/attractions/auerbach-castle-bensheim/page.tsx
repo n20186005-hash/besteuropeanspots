@@ -16,6 +16,8 @@ export default function AuerbachCastleBensheimPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '黑森州，本斯海姆', href: '/destinations/europe' },
             { label: '本斯海姆-奥尔巴赫城堡', href: '/attractions/auerbach-castle-bensheim' },
           ]}
         />

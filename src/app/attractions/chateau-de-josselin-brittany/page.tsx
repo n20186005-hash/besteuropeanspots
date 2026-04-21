@@ -15,7 +15,9 @@ export default function ChateauDeJosselinBrittanyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '若瑟兰及周边地区（莫尔比昂省）', href: '/destinations/france' },
             { label: '若瑟兰城堡', href: '/attractions/chateau-de-josselin-brittany' },
           ]}
         />

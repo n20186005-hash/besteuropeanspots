@@ -16,6 +16,8 @@ export default function MollnTravelGuidePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '石勒苏益格-荷尔斯泰因', href: '/destinations/europe' },
             { label: '莫尔恩', href: '/attractions/molln-travel-guide' },
           ]}
         />

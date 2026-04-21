@@ -15,7 +15,9 @@ export default function LudwigslustPalacePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '路德维希斯卢斯特', href: '/destinations/germany' },
             { label: '路德维希斯卢斯特宫', href: '/attractions/ludwigslust-palace' },
           ]}
         />

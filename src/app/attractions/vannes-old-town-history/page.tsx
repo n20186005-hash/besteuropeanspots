@@ -16,6 +16,8 @@ export default function VannesOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '瓦讷', href: '/destinations/europe' },
             { label: '瓦讷老城', href: '/attractions/vannes-old-town-history' },
           ]}
         />

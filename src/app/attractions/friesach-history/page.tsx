@@ -16,6 +16,8 @@ export default function FriesachHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '克恩顿州', href: '/destinations/europe' },
             { label: '弗里萨赫', href: '/attractions/friesach-history' },
           ]}
         />

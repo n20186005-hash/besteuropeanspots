@@ -16,6 +16,8 @@ export default function NafpaktosVenetianPortLepantoHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '西希腊大区纳夫帕克托斯', href: '/destinations/europe' },
             { label: '纳夫帕克托斯（勒班陀战役发生地威尼斯港）', href: '/attractions/nafpaktos-venetian-port-lepanto-history' },
           ]}
         />

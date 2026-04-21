@@ -15,7 +15,9 @@ export default function CastelmolaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '西西里岛', href: '/destinations/italy' },
             { label: '卡斯泰尔莫拉', href: '/attractions/castelmola' },
           ]}
         />

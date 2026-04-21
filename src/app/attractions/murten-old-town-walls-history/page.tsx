@@ -16,6 +16,8 @@ export default function MurtenOldTownWallsHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '弗里堡州', href: '/destinations/europe' },
             { label: '穆尔滕老城及城墙', href: '/attractions/murten-old-town-walls-history' },
           ]}
         />

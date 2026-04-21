@@ -15,7 +15,9 @@ export default function MolyvosTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '希腊', href: '/destinations/greece' },
+            { label: '莱斯沃斯岛', href: '/destinations/greece' },
             { label: '莫利沃斯（依山傍海的石头城）', href: '/attractions/molyvos-town' },
           ]}
         />

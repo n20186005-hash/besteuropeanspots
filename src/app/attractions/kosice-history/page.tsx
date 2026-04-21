@@ -16,6 +16,8 @@ export default function KosiceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '科希策', href: '/destinations/europe' },
             { label: '科希策', href: '/attractions/kosice-history' },
           ]}
         />

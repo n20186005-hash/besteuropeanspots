@@ -16,6 +16,8 @@ export default function MonteriggioniTuscanyCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '托斯卡纳', href: '/destinations/europe' },
             { label: '蒙特里焦尼', href: '/attractions/monteriggioni-tuscany-castle-history' },
           ]}
         />

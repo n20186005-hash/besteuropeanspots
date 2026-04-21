@@ -15,7 +15,9 @@ export default function CicmanyVillageSlovakiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '日利纳州', href: '/destinations/slovakia' },
             { label: '奇奇马尼', href: '/attractions/cicmany-village-slovakia' },
           ]}
         />

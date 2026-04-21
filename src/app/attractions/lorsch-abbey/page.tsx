@@ -15,7 +15,9 @@ export default function LorschAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '黑森州，洛尔施市', href: '/destinations/germany' },
             { label: '洛尔施隐修院', href: '/attractions/lorsch-abbey' },
           ]}
         />

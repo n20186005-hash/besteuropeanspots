@@ -16,6 +16,8 @@ export default function GrannaPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '延雪平省', href: '/destinations/europe' },
             { label: '格兰纳', href: '/attractions/granna' },
           ]}
         />

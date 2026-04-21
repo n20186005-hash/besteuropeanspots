@@ -15,7 +15,9 @@ export default function FiskarsVillageFinlandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '芬兰', href: '/destinations/finland' },
+            { label: '新地区', href: '/destinations/finland' },
             { label: '菲斯卡斯艺术村落', href: '/attractions/fiskars-village-finland' },
           ]}
         />

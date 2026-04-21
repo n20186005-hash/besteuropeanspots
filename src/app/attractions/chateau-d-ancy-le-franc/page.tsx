@@ -16,6 +16,8 @@ export default function ChateauDAncyLeFrancPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '约讷省', href: '/destinations/europe' },
             { label: '昂西勒弗朗城堡', href: '/attractions/chateau-d-ancy-le-franc' },
           ]}
         />

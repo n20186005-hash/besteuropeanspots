@@ -15,7 +15,9 @@ export default function LesundPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '挪威', href: '/destinations/norway' },
+            { label: '奥勒松', href: '/destinations/norway' },
             { label: '奥勒松老城', href: '/attractions/lesund' },
           ]}
         />

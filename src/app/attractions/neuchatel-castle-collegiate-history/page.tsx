@@ -16,6 +16,8 @@ export default function NeuchatelCastleCollegiateHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '纳沙泰尔', href: '/destinations/europe' },
             { label: '纳沙泰尔城堡与大教堂', href: '/attractions/neuchatel-castle-collegiate-history' },
           ]}
         />

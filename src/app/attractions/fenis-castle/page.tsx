@@ -15,7 +15,9 @@ export default function FenisCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '瓦莱达奥斯塔', href: '/destinations/italy' },
             { label: '费尼斯城堡', href: '/attractions/fenis-castle' },
           ]}
         />

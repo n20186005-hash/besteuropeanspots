@@ -15,7 +15,9 @@ export default function SkopjeOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '北马其顿', href: '/destinations/north-macedonia' },
+            { label: '斯科普里', href: '/destinations/north-macedonia' },
             { label: '斯科普里老城', href: '/attractions/skopje-old-town' },
           ]}
         />

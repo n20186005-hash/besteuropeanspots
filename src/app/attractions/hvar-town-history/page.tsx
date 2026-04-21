@@ -16,6 +16,8 @@ export default function HvarTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '克罗地亚', href: '/destinations/europe' },
+            { label: '赫瓦尔', href: '/destinations/europe' },
             { label: '赫瓦尔镇', href: '/attractions/hvar-town-history' },
           ]}
         />

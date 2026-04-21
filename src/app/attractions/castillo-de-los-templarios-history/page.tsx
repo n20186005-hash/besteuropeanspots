@@ -16,6 +16,8 @@ export default function CastilloDeLosTemplariosHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '蓬费拉达', href: '/destinations/europe' },
             { label: '蓬费拉达圣殿骑士城堡', href: '/attractions/castillo-de-los-templarios-history' },
           ]}
         />

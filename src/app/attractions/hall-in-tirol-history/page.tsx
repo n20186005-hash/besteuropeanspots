@@ -16,6 +16,8 @@ export default function HallInTirolHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '因斯布鲁克郊区', href: '/destinations/europe' },
             { label: '哈尔', href: '/attractions/hall-in-tirol-history' },
           ]}
         />

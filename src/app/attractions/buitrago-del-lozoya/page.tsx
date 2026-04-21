@@ -15,7 +15,9 @@ export default function BuitragoDelLozoyaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '西班牙', href: '/destinations/spain' },
+            { label: '布伊特拉戈德尔洛索亚', href: '/destinations/spain' },
             { label: '布伊特拉戈德尔洛索亚', href: '/attractions/buitrago-del-lozoya' },
           ]}
         />

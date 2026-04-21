@@ -16,6 +16,8 @@ export default function SuureMoisaManorPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '爱沙尼亚', href: '/destinations/europe' },
+            { label: '希乌马县', href: '/destinations/europe' },
             { label: '苏雷梅伊萨庄园', href: '/attractions/suure-moisa-manor' },
           ]}
         />

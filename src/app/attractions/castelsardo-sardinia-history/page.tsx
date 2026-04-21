@@ -16,6 +16,8 @@ export default function CastelsardoSardiniaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '撒丁岛', href: '/destinations/europe' },
             { label: '卡斯特尔萨多', href: '/attractions/castelsardo-sardinia-history' },
           ]}
         />

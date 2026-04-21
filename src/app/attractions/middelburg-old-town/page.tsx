@@ -15,7 +15,9 @@ export default function MiddelburgOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '荷兰', href: '/destinations/netherlands' },
+            { label: '米德尔堡', href: '/destinations/netherlands' },
             { label: '米德尔堡老城', href: '/attractions/middelburg-old-town' },
           ]}
         />

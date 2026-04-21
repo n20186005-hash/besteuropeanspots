@@ -16,6 +16,8 @@ export default function SchlossKornbergPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '施泰尔马克州', href: '/destinations/europe' },
             { label: '科恩贝格城堡', href: '/attractions/schloss-kornberg' },
           ]}
         />

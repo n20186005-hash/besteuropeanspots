@@ -16,6 +16,8 @@ export default function NoviPazarStariRasSerbiaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '塞尔维亚', href: '/destinations/europe' },
+            { label: '拉什卡州', href: '/destinations/europe' },
             { label: '诺维帕扎尔与斯塔里拉斯', href: '/attractions/novi-pazar-stari-ras-serbia-history' },
           ]}
         />

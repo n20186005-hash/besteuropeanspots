@@ -15,7 +15,9 @@ export default function HypogeumOfHalSaflieniPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '马耳他', href: '/destinations/malta' },
+            { label: '保拉 (Paola)', href: '/destinations/malta' },
             { label: '哈尔·萨夫列尼地下宫殿', href: '/attractions/hypogeum-of-hal-saflieni' },
           ]}
         />

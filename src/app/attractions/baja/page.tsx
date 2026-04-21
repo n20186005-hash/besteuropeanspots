@@ -15,7 +15,9 @@ export default function BajaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '巴奇-基什孔州', href: '/destinations/hungary' },
             { label: '包姚', href: '/attractions/baja' },
           ]}
         />

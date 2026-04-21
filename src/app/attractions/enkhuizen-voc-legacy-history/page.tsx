@@ -16,6 +16,8 @@ export default function EnkhuizenVocLegacyHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '北荷兰省', href: '/destinations/europe' },
             { label: '恩克赫伊曾', href: '/attractions/enkhuizen-voc-legacy-history' },
           ]}
         />

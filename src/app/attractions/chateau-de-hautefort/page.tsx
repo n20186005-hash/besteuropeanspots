@@ -15,7 +15,9 @@ export default function ChateauDeHautefortPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '多尔多涅省，欧特福尔', href: '/destinations/france' },
             { label: '欧特福尔城堡', href: '/attractions/chateau-de-hautefort' },
           ]}
         />

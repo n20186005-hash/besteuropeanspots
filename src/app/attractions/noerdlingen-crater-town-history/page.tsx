@@ -16,6 +16,8 @@ export default function NoerdlingenCraterTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '讷德林根', href: '/destinations/europe' },
             { label: '讷德林根', href: '/attractions/noerdlingen-crater-town-history' },
           ]}
         />

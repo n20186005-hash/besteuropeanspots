@@ -16,6 +16,8 @@ export default function OrvietoCathedralHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '奥尔维耶托', href: '/destinations/europe' },
             { label: '奥尔维耶托大教堂', href: '/attractions/orvieto-cathedral-history' },
           ]}
         />

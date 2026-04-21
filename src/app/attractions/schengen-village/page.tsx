@@ -15,7 +15,9 @@ export default function SchengenVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '卢森堡', href: '/destinations/luxembourg' },
+            { label: '雷米希', href: '/destinations/luxembourg' },
             { label: '申根（缔造欧洲无国界公约的酿酒小村）', href: '/attractions/schengen-village' },
           ]}
         />

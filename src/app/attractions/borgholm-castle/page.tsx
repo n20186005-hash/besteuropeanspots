@@ -15,7 +15,9 @@ export default function BorgholmCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '博里霍尔姆', href: '/destinations/sweden' },
             { label: '博里霍尔姆城堡', href: '/attractions/borgholm-castle' },
           ]}
         />

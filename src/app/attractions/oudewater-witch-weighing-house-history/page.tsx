@@ -16,6 +16,8 @@ export default function OudewaterWitchWeighingHouseHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '乌得勒支省', href: '/destinations/europe' },
             { label: '奥德瓦特（女巫称重房）', href: '/attractions/oudewater-witch-weighing-house-history' },
           ]}
         />

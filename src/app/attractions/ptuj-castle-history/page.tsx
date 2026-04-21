@@ -16,6 +16,8 @@ export default function PtujCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛文尼亚', href: '/destinations/europe' },
+            { label: '普图伊', href: '/destinations/europe' },
             { label: '普图伊城堡', href: '/attractions/ptuj-castle-history' },
           ]}
         />

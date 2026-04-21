@@ -15,7 +15,9 @@ export default function CastellarquatoMedievalVillageItalyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '皮亚琴察省 (Province of Piacenza)', href: '/destinations/italy' },
             { label: '阿夸尔夸托', href: '/attractions/castellarquato-medieval-village-italy' },
           ]}
         />

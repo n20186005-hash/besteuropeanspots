@@ -15,7 +15,9 @@ export default function GamlaUppsalaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞典', href: '/destinations/sweden' },
+            { label: '乌普萨拉省', href: '/destinations/sweden' },
             { label: '旧乌普萨拉', href: '/attractions/gamla-uppsala' },
           ]}
         />

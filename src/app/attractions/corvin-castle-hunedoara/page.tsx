@@ -15,7 +15,9 @@ export default function CorvinCastleHunedoaraPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '胡内多阿拉县（胡内多阿拉市）', href: '/destinations/romania' },
             { label: '胡内多阿拉科尔文城堡', href: '/attractions/corvin-castle-hunedoara' },
           ]}
         />

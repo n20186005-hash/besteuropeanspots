@@ -15,7 +15,9 @@ export default function ChateauDeValencayPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: '安德尔省', href: '/destinations/france' },
             { label: '瓦朗塞城堡', href: '/attractions/chateau-de-valencay' },
           ]}
         />

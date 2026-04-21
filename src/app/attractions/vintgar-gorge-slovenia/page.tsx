@@ -15,7 +15,9 @@ export default function VintgarGorgeSloveniaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛文尼亚', href: '/destinations/slovenia' },
+            { label: '上卡尼奥拉地区，邻近布莱德', href: '/destinations/slovenia' },
             { label: '温特加峡谷', href: '/attractions/vintgar-gorge-slovenia' },
           ]}
         />

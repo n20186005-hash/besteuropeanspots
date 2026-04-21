@@ -16,6 +16,8 @@ export default function OravaCastleSlovakiaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '奥拉瓦河畔城堡镇', href: '/destinations/europe' },
             { label: '奥拉瓦城堡', href: '/attractions/orava-castle-slovakia-history' },
           ]}
         />

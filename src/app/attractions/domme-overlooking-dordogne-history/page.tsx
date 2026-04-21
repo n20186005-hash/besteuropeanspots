@@ -16,6 +16,8 @@ export default function DommeOverlookingDordogneHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '多尔多涅省', href: '/destinations/europe' },
             { label: '多姆（俯瞰多尔多涅河谷的防御巴斯蒂德）', href: '/attractions/domme-overlooking-dordogne-history' },
           ]}
         />

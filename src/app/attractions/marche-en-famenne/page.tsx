@@ -15,7 +15,9 @@ export default function MarcheEnFamennePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '马尔什昂法梅讷', href: '/destinations/belgium' },
             { label: '马尔什昂法梅讷', href: '/attractions/marche-en-famenne' },
           ]}
         />

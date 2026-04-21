@@ -15,7 +15,9 @@ export default function GrossglocknerHighAlpineRoadPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '海尔布隆（主要入口）', href: '/destinations/austria' },
             { label: '大格洛克纳高山公路', href: '/attractions/grossglockner-high-alpine-road' },
           ]}
         />

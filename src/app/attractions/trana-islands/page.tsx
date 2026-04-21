@@ -16,6 +16,8 @@ export default function TranaIslandsPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '诺尔兰郡', href: '/destinations/europe' },
             { label: '特雷纳群岛', href: '/attractions/trana-islands' },
           ]}
         />

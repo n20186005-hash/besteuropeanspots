@@ -16,6 +16,8 @@ export default function BiertanFortifiedChurchHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '锡比乌县', href: '/destinations/europe' },
             { label: '别尔坦设防教堂（特兰西瓦尼亚的萨克森堡垒教堂）', href: '/attractions/biertan-fortified-church-history' },
           ]}
         />

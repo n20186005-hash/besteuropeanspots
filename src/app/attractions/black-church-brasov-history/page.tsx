@@ -16,6 +16,8 @@ export default function BlackChurchBrasovHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '布拉索夫', href: '/destinations/europe' },
             { label: '布拉索夫黑教堂', href: '/attractions/black-church-brasov-history' },
           ]}
         />

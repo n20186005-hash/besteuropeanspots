@@ -16,6 +16,8 @@ export default function TratzbergCastleTirolHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '蒂罗尔州', href: '/destinations/europe' },
             { label: '特拉茨堡城堡', href: '/attractions/tratzberg-castle-tirol-history' },
           ]}
         />

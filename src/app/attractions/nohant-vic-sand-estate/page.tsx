@@ -16,6 +16,8 @@ export default function NohantVicSandEstatePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '安德尔省', href: '/destinations/europe' },
             { label: '诺昂维克', href: '/attractions/nohant-vic-sand-estate' },
           ]}
         />

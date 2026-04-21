@@ -15,7 +15,9 @@ export default function HallInTirolMintTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '奥地利', href: '/destinations/austria' },
+            { label: '蒂罗尔州，因斯布鲁克附近', href: '/destinations/austria' },
             { label: '蒂罗尔的哈尔（古老的铸币城）', href: '/attractions/hall-in-tirol-mint-town' },
           ]}
         />

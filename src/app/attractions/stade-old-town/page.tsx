@@ -15,7 +15,9 @@ export default function StadeOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '施塔德', href: '/destinations/germany' },
             { label: '施塔德老城', href: '/attractions/stade-old-town' },
           ]}
         />

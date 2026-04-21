@@ -16,6 +16,8 @@ export default function TrebicJewishQuarterHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '特热比奇', href: '/destinations/europe' },
             { label: '特热比奇犹太区', href: '/attractions/trebic-jewish-quarter-history' },
           ]}
         />

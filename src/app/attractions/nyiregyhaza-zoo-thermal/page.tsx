@@ -15,7 +15,9 @@ export default function NyiregyhazaZooThermalPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '匈牙利', href: '/destinations/hungary' },
+            { label: '索博尔奇-索特马尔-拜赖格州', href: '/destinations/hungary' },
             { label: '尼赖吉哈佐', href: '/attractions/nyiregyhaza-zoo-thermal' },
           ]}
         />

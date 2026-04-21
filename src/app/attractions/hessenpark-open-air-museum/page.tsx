@@ -15,7 +15,9 @@ export default function HessenparkOpenAirMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '新乌尔姆', href: '/destinations/germany' },
             { label: '黑森公园', href: '/attractions/hessenpark-open-air-museum' },
           ]}
         />

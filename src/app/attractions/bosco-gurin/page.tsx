@@ -16,6 +16,8 @@ export default function BoscoGurinPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '提契诺州，格鲁嫩', href: '/destinations/europe' },
             { label: '博斯科古林', href: '/attractions/bosco-gurin' },
           ]}
         />

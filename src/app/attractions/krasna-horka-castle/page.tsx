@@ -15,7 +15,9 @@ export default function KrasnaHorkaCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '科希策州', href: '/destinations/slovakia' },
             { label: '克拉斯纳霍卡城堡', href: '/attractions/krasna-horka-castle' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function DozzaMuralVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '意大利', href: '/destinations/italy' },
+            { label: '多扎（属于博洛尼亚省，艾米利亚-罗马涅大区）', href: '/destinations/italy' },
             { label: '多扎壁画村', href: '/attractions/dozza-mural-village' },
           ]}
         />

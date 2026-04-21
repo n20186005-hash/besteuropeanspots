@@ -16,6 +16,8 @@ export default function AlberobelloTrulliHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/europe' },
+            { label: '阿尔贝罗贝洛', href: '/destinations/europe' },
             { label: '阿尔贝罗贝洛圆顶石屋', href: '/attractions/alberobello-trulli-history' },
           ]}
         />

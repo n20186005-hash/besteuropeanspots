@@ -509,7 +509,9 @@ export default function ${componentName}() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '${cat.displayName}', href: '/category/${cat.id}' },
             { label: '${data['国家'] || '欧洲'}', href: '/destinations/${countrySlug}' },
+${data['城市'] ? `            { label: '${data['城市'].replace(/'/g, "\\'")}', href: '/destinations/${countrySlug}' },` : ''}
             { label: '${(data['景点中文名'] || '').replace(/'/g, "\\'")}', href: '/attractions/${slug}' },
           ]}
         />

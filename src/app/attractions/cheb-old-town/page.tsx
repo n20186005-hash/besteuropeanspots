@@ -15,7 +15,9 @@ export default function ChebOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '捷克', href: '/destinations/czech-republic' },
+            { label: '海布', href: '/destinations/czech-republic' },
             { label: '海布老城', href: '/attractions/cheb-old-town' },
           ]}
         />

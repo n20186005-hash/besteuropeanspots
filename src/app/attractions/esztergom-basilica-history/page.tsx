@@ -16,6 +16,8 @@ export default function EsztergomBasilicaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '科马罗姆-埃斯特戈姆州埃斯泰尔戈姆市', href: '/destinations/europe' },
             { label: '埃斯泰尔戈姆大教堂', href: '/attractions/esztergom-basilica-history' },
           ]}
         />

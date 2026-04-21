@@ -15,7 +15,9 @@ export default function NaeroyfjordNorwayPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '挪威', href: '/destinations/norway' },
+            { label: '居德旺恩（可视为峡湾游览的主要门户小镇，位于峡湾尽头）', href: '/destinations/norway' },
             { label: '纳柔依峡湾', href: '/attractions/naeroyfjord-norway' },
           ]}
         />

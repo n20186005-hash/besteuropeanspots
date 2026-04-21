@@ -16,6 +16,8 @@ export default function RoussillonProvenceHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/europe' },
+            { label: '沃克吕兹省', href: '/destinations/europe' },
             { label: '鲁西永（普罗旺斯的赭石红土城）', href: '/attractions/roussillon-provence-history' },
           ]}
         />

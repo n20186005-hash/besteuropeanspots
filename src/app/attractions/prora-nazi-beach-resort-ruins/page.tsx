@@ -15,7 +15,9 @@ export default function ProraNaziBeachResortRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '梅克伦堡-前波美拉尼亚（吕根岛）', href: '/destinations/germany' },
             { label: '普罗拉', href: '/attractions/prora-nazi-beach-resort-ruins' },
           ]}
         />

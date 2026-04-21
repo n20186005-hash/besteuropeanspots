@@ -16,6 +16,8 @@ export default function MarburgOldTownCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '黑森州马尔堡', href: '/destinations/europe' },
             { label: '马尔堡老城与伯爵城堡', href: '/attractions/marburg-old-town-castle-history' },
           ]}
         />

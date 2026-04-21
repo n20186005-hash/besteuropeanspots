@@ -15,7 +15,9 @@ export default function RigaArtNouveauArchitecturePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '拉脱维亚', href: '/destinations/latvia' },
+            { label: '里加', href: '/destinations/latvia' },
             { label: '里加新艺术建筑群', href: '/attractions/riga-art-nouveau-architecture' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function PlaceStanislasPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '法国', href: '/destinations/france' },
+            { label: 'Nancy', href: '/destinations/france' },
             { label: '南锡斯坦尼斯拉斯广场', href: '/attractions/place-stanislas' },
           ]}
         />

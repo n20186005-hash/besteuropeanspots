@@ -16,6 +16,8 @@ export default function LevocaOldTownHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '莱沃恰', href: '/destinations/europe' },
             { label: '莱沃恰老城', href: '/attractions/levoca-old-town-history' },
           ]}
         />

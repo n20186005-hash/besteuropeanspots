@@ -15,7 +15,9 @@ export default function TrogenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '外阿彭策尔州', href: '/destinations/switzerland' },
             { label: '特罗根', href: '/attractions/trogen' },
           ]}
         />

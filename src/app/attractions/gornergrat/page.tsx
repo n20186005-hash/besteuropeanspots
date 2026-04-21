@@ -15,7 +15,9 @@ export default function GornergratPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '采尔马特', href: '/destinations/switzerland' },
             { label: '戈尔内格拉特', href: '/attractions/gornergrat' },
           ]}
         />

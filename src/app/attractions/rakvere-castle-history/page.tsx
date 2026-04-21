@@ -16,6 +16,8 @@ export default function RakvereCastleHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '爱沙尼亚', href: '/destinations/europe' },
+            { label: '西维鲁县', href: '/destinations/europe' },
             { label: '拉克韦雷中世纪城堡', href: '/attractions/rakvere-castle-history' },
           ]}
         />

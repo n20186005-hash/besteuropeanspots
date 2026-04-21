@@ -16,6 +16,8 @@ export default function EstavayerLeLacPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '弗里堡州', href: '/destinations/europe' },
             { label: '埃斯塔瓦耶', href: '/attractions/estavayer-le-lac' },
           ]}
         />

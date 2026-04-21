@@ -16,6 +16,8 @@ export default function HalberstadtOrganProjectRebuiltOldTownPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '哈尔伯施塔特', href: '/destinations/europe' },
             { label: '哈尔伯施塔特', href: '/attractions/halberstadt-organ-project-rebuilt-old-town' },
           ]}
         />

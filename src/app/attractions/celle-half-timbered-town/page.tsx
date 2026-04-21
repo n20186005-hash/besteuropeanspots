@@ -15,7 +15,9 @@ export default function CelleHalfTimberedTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '德国', href: '/destinations/germany' },
+            { label: '策勒', href: '/destinations/germany' },
             { label: '策勒（五百座木骨架房屋之城）', href: '/attractions/celle-half-timbered-town' },
           ]}
         />

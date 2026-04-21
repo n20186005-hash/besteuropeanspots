@@ -15,7 +15,9 @@ export default function LunigoRomanRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '瑞士', href: '/destinations/switzerland' },
+            { label: '卢尼戈', href: '/destinations/switzerland' },
             { label: '卢尼古罗马遗址', href: '/attractions/lunigo-roman-ruins' },
           ]}
         />

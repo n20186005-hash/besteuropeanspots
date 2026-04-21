@@ -16,6 +16,8 @@ export default function CorveyAbbeyHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '北莱茵-威斯特法伦州，赫克斯特尔', href: '/destinations/europe' },
             { label: '科尔维修道院', href: '/attractions/corvey-abbey-history' },
           ]}
         />

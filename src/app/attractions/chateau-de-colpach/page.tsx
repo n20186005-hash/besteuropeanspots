@@ -16,6 +16,8 @@ export default function ChateauDeColpachPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '雷当日', href: '/destinations/europe' },
             { label: '科尔帕赫城堡', href: '/attractions/chateau-de-colpach' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function KernavArchaeologicalSitePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '立陶宛', href: '/destinations/lithuania' },
+            { label: '希尔温托斯区', href: '/destinations/lithuania' },
             { label: '克尔纳韦', href: '/attractions/kernav--archaeological-site' },
           ]}
         />

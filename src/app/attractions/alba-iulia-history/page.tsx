@@ -16,6 +16,8 @@ export default function AlbaIuliaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '罗马尼亚', href: '/destinations/europe' },
+            { label: '阿尔巴县', href: '/destinations/europe' },
             { label: '阿尔巴尤利亚', href: '/attractions/alba-iulia-history' },
           ]}
         />

@@ -16,6 +16,8 @@ export default function OldTownFribourgHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '弗里堡', href: '/destinations/europe' },
             { label: '弗里堡老城', href: '/attractions/old-town-fribourg-history' },
           ]}
         />

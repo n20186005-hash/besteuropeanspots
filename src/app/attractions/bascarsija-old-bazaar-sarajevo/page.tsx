@@ -15,7 +15,9 @@ export default function BascarsijaOldBazaarSarajevoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
+            { label: '萨拉热窝', href: '/destinations/bosnia-and-herzegovina' },
             { label: '巴什卡尔希亚', href: '/attractions/bascarsija-old-bazaar-sarajevo' },
           ]}
         />

@@ -15,7 +15,9 @@ export default function SintTruidenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '比利时', href: '/destinations/belgium' },
+            { label: '林堡省', href: '/destinations/belgium' },
             { label: '圣特雷登', href: '/attractions/sint-truiden' },
           ]}
         />

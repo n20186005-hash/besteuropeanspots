@@ -15,7 +15,9 @@ export default function DobinskaIceCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
             { label: '斯洛伐克', href: '/destinations/slovakia' },
+            { label: '多布希纳镇（隶属于科希策州）', href: '/destinations/slovakia' },
             { label: '多布希纳冰洞', href: '/attractions/dobinska-ice-cave' },
           ]}
         />
