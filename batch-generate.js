@@ -219,6 +219,7 @@ categories.forEach(cat => {
     let slug = baseSlug;
     
     // 如果是游记，后缀加 -travelogue；如果是历史，后缀加 -history；百科保持原样作为主页
+    // 但必须确保这是在新建或者尚未包含该后缀的情况下
     if (cat.id === 'travelogue') {
       if (!slug.endsWith('-travelogue')) slug += '-travelogue';
     } else if (cat.id === 'history') {
@@ -298,12 +299,12 @@ ${formatParagraphs(data['核心简介'] || data['导语'])}
                 <InfoRow label="国家" value={\`${(data['国家'] || '').replace(/`/g, '\\`')}\`} />
                 <InfoRow label="城市" value={\`${(data['城市'] || '').replace(/`/g, '\\`')}\`} />
               </div>
-              ${(data['历史地位'] || data['建筑特色'] || data['建筑风格'] || data['文化价值']) ? `
+              ${(data['历史地位'] || data['建筑特色'] || data['建筑风格'] || data['文化价值']) && (data['历史地位'] !== '详见下文' || data['建筑特色'] !== '详见下文' || data['建筑风格'] !== '详见下文' || data['文化价值'] !== '详见下文') ? `
               <div className="space-y-4">
-                ${data['历史地位'] ? `<InfoRow label="历史地位" value={\`${data['历史地位'].replace(/`/g, '\\`')}\`} />` : ''}
-                ${data['建筑特色'] ? `<InfoRow label="建筑特色" value={\`${data['建筑特色'].replace(/`/g, '\\`')}\`} />` : ''}
-                ${data['建筑风格'] ? `<InfoRow label="建筑风格" value={\`${data['建筑风格'].replace(/`/g, '\\`')}\`} />` : ''}
-                ${data['文化价值'] ? `<InfoRow label="文化价值" value={\`${data['文化价值'].replace(/`/g, '\\`')}\`} />` : ''}
+                ${data['历史地位'] && data['历史地位'] !== '详见下文' ? `<InfoRow label="历史地位" value={\`${data['历史地位'].replace(/`/g, '\\`')}\`} />` : ''}
+                ${data['建筑特色'] && data['建筑特色'] !== '详见下文' ? `<InfoRow label="建筑特色" value={\`${data['建筑特色'].replace(/`/g, '\\`')}\`} />` : ''}
+                ${data['建筑风格'] && data['建筑风格'] !== '详见下文' ? `<InfoRow label="建筑风格" value={\`${data['建筑风格'].replace(/`/g, '\\`')}\`} />` : ''}
+                ${data['文化价值'] && data['文化价值'] !== '详见下文' ? `<InfoRow label="文化价值" value={\`${data['文化价值'].replace(/`/g, '\\`')}\`} />` : ''}
               </div>` : ''}
             </div>
             ${(data['开放时间'] || data['门票价格'] || data['地址'] || data['交通方式']) ? `
@@ -476,6 +477,21 @@ ${formatParagraphs(data['总结感悟'])}
           </Section>\n`;
     }
 
+    // 检查是否有传入的国家slug作为参数
+    let countrySlug = 'europe';
+    if (existingIndex >= 0 && attractionsData[existingIndex].countrySlug) {
+      countrySlug = attractionsData[existingIndex].countrySlug;
+    } else {
+      const lowerCountry = (data['国家'] || 'europe').toLowerCase();
+      countrySlug = lowerCountry === '法国' ? 'france' : lowerCountry === '意大利' ? 'italy' : 'europe';
+    }
+
+    // Regex to match the second item in Breadcrumb
+    const breadcrumbRegex = /(<Breadcrumb\s+items=\{\[\s*\{\s*label:\s*'首页',\s*href:\s*'\/'\s*\},)(\s*\{\s*label:\s*'[^']+',\s*href:\s*'\/[^']+'\s*\},)/;
+    
+    // 如果生成的是面包屑，我们在模板中直接使用 destinations
+    // 之前模板中写死了 category，我们这里把它改掉
+    
     const pageContent = `import { Metadata } from 'next'
 import { Section } from '@/components/Section'
 import { InfoRow } from '@/components/InfoRow'
@@ -493,7 +509,7 @@ export default function ${componentName}() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '${cat.displayName}', href: '/category/${cat.id}' },
+            { label: '${data['国家'] || '欧洲'}', href: '/destinations/${countrySlug}' },
             { label: '${(data['景点中文名'] || '').replace(/'/g, "\\'")}', href: '/attractions/${slug}' },
           ]}
         />
@@ -519,15 +535,29 @@ ${relatedHtml}
     if (!fs.existsSync(pageDir)) {
       fs.mkdirSync(pageDir, { recursive: true });
     }
-    fs.writeFileSync(pageFile, pageContent, 'utf-8');
+    // 只有当文件内容有变化，或者文件不存在时才写入
+    let writeNeeded = true;
+    if (fs.existsSync(pageFile)) {
+      const oldContent = fs.readFileSync(pageFile, 'utf-8');
+      if (oldContent === pageContent) {
+        writeNeeded = false;
+      }
+    }
+    
+    if (writeNeeded) {
+      fs.writeFileSync(pageFile, pageContent, 'utf-8');
+    }
 
     // 更新 JSON，合并或新增分类
     // 注意：如果是游记或历史，它们会作为独立的一条记录存在于 JSON 中，所以用独立的 slug 查找
     const existingIndex = attractionsData.findIndex(a => a.slug === slug);
     let categoryArray = [cat.id]; // 当前文案所属文件夹的分类
     
-    if (existingIndex >= 0 && Array.isArray(attractionsData[existingIndex].category)) {
-      categoryArray = Array.from(new Set([...attractionsData[existingIndex].category, cat.id]));
+    if (existingIndex >= 0 && attractionsData[existingIndex].category) {
+      const existingCategories = Array.isArray(attractionsData[existingIndex].category) 
+        ? attractionsData[existingIndex].category 
+        : [attractionsData[existingIndex].category];
+      categoryArray = Array.from(new Set([...existingCategories, cat.id]));
     }
 
     const newEntry = {
@@ -544,14 +574,21 @@ ${relatedHtml}
       category: categoryArray
     };
 
+    // 保留原有的国家Slug数据，避免被清空
     if (existingIndex >= 0) {
+      if (attractionsData[existingIndex].countrySlug) {
+        newEntry.countrySlug = attractionsData[existingIndex].countrySlug;
+      }
       attractionsData[existingIndex] = { ...attractionsData[existingIndex], ...newEntry };
       totalSuccessCount++;
-      console.log(`  🔄 成功覆盖: [${data['景点中文名']}] -> 更新 [${cat.displayName}] 分类`);
+      console.log(`  🔄 成功覆盖: [${data['景点中文名']}] (${slug}) -> 更新 [${cat.displayName}] 分类`);
     } else {
+      // 简单映射一下基础国家，不严谨但作为降级处理
+      const lowerCountry = (data['国家'] || 'europe').toLowerCase();
+      newEntry.countrySlug = lowerCountry === '法国' ? 'france' : lowerCountry === '意大利' ? 'italy' : 'europe';
       attractionsData.push(newEntry);
       totalSuccessCount++;
-      console.log(`  ✅ 成功生成: [${data['景点中文名']}] -> 归入 [${cat.displayName}] 分类`);
+      console.log(`  ✅ 成功生成: [${data['景点中文名']}] (${slug}) -> 归入 [${cat.displayName}] 分类`);
     }
 
     // 生成成功后，自动删除原文本文件

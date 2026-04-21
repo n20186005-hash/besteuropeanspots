@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '考纳斯历史溯源｜两度首都的立陶宛之心，一座被低估的百年传奇小城',
-  description: '探秘立陶宛“第二首都”考纳斯：从条顿骑士团要塞到短暂的国家心脏，聆听老城石头诉说的东欧百年风云与艺术传奇。',
+  title: '考纳斯历史溯源｜立陶宛之心，一座临时首都的前世今生与现代主义传奇',
+  description: '探索考纳斯，立陶宛两次世界大战间的“临时首都”。走进老城，聆听中世纪城堡的厮杀、现代主义建筑的无声宣言，与流亡艺术家们未竟的梦想。',
 }
 
 export default function KaunasOldTownHistoryPage() {
@@ -21,7 +21,7 @@ export default function KaunasOldTownHistoryPage() {
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`考纳斯老城・Kaunas Old Town・立陶宛・考纳斯县`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`考纳斯老城・Kaunas Old Town・立陶宛・考纳斯`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {``}
           </p>
@@ -30,10 +30,7 @@ export default function KaunasOldTownHistoryPage() {
         <div className="space-y-8">
 
           <Section title="1. 导语">
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说维尔纽斯是立陶宛典雅的王冠，那么考纳斯，就是它倔强而充满创造力的心脏。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座位于涅里斯河与涅穆纳斯河交汇处的城市，在20世纪的动荡中，曾两度被推上历史的前台，成为立陶宛短暂却辉煌的临时首都。它的故事，是一部关于抵抗、流亡与文艺复兴的东欧史诗。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里的老城，没有过度的商业喧嚣，只有鹅卵石街道、哥特与文艺复兴风格的建筑立面，以及空气中弥漫的、属于“考纳斯现代主义”的独特气息。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "抛开游玩攻略，走进考纳斯的尘封往事，遇见属于它的坚韧、失落与不朽传奇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在波罗的海东岸，立陶宛的故事并非只有一个主角。当维尔纽斯的光芒被强权暂时遮蔽，另一座城市被迫走向历史前台，仓促却坚定地扛起了一个民族复国的全部尊严与梦想。它就是考纳斯，立陶宛在两次世界大战间那段狂风暴雨岁月里，悲壮而璀璨的“临时首都”。这段不足二十年的“插曲”，却以惊人的艺术爆发力，在世界建筑史上刻下了独一无二的“考纳斯现代主义”印记。抛开游玩攻略，走进考纳斯的尘封往事，遇见属于它的坚韧、诗意与未完成的传奇。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -43,7 +40,7 @@ export default function KaunasOldTownHistoryPage() {
                 <InfoRow label="英文名称" value={`Kaunas Old Town`} />
                 <InfoRow label="正式名称" value={`Kaunas Old Town`} />
                 <InfoRow label="国家" value={`立陶宛`} />
-                <InfoRow label="城市" value={`考纳斯县`} />
+                <InfoRow label="城市" value={`考纳斯`} />
               </div>
               
             </div>
@@ -52,101 +49,97 @@ export default function KaunasOldTownHistoryPage() {
 
           <Section title="3. 城市/景点起源">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "考纳斯的起源，深植于波罗的海地区永恒的冲突与贸易之中。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的名字最早见于<strong>1361年</strong>的编年史。普遍认为，“Kaunas”源自古波罗的语词汇，意为“低洼的草地”或“沼泽地”，精准描述了其位于两条大河交汇处的冲积平原地理特征。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但地理的馈赠也伴随着风险。这里自古便是交通要冲与兵家必争之地。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>13世纪末</strong>，立陶宛大公国为抵御来自西方的<strong>条顿骑士团</strong>的持续侵扰，决定在此建立一座坚固的<strong>石头城堡</strong>。这座城堡的遗迹至今仍矗立在涅穆纳斯河畔，它是考纳斯作为<strong>军事防御前哨</strong>诞生的最直接证明。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初的定居点便在城堡的庇护下，于河对岸逐渐形成。<strong>1408年</strong>，维陶塔斯大公授予考纳斯<strong>马格德堡权利</strong>，这意味着城市获得了自治权，可以建立市政厅、设立集市、发展手工业与贸易。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "自此，这座“低地城堡”正式登上历史舞台，从一个战略据点，转变为连接汉萨同盟与东欧腹地的重要<strong>商贸枢纽</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "考纳斯的故事，始于两条河流的相遇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>奈里斯河</strong>与<strong>尼亚穆纳斯河</strong>在此交汇，形成了一个天然的十字路口与防御要地。据13世纪的文献记载，这里的原住民早已在此生活、贸易，并与入侵的<strong>条顿骑士团</strong>不断发生血腥冲突。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城市的名字“Kaunas”本身，就弥漫着古老的烟火气。一种广为接受的词源学解释，源于波罗的语系中的“<em>kaunas</em>”，意为“低洼的草地”或“沼泽地”，直观描述了河流交汇处的地貌。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当地民间则更偏爱一个生动的传说（这为冰冷的地名赋予了人格化的温度）：" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "一位名叫<strong>考纳斯</strong>的强壮铁匠，在此建立了第一个锻铁炉。他的炉火旺盛，声名远播，吸引人们聚集，逐渐形成了定居点。于是，这里便以他的名字命名。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "无论起源是地理还是人物，战略价值决定了它的命运。考纳斯第一次被明确记载，是在<strong>1361年</strong>条顿骑士团摧毁当地城堡的编年史中。这意味着，至迟在14世纪中叶，一座具有军事意义的木质城堡已经矗立在此。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1408年</strong>，维陶塔斯大公授予考纳斯<strong>马格德堡权利</strong>，即城市自治权。这是它命运的正式转折点——从一个边境堡垒，升格为一座拥有自立法庭、市场权和贸易特权的<strong>汉萨同盟</strong>商贸城市。河运带来的财富，开始在这里沉淀。" }} />
             </div>
           </Section>
 
           <Section title="4. 镌刻时光的历史印记">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "考纳斯的历史，是东欧地缘政治变动最敏感的晴雨表。它的建筑，便是刻满记号的石碑。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>15-16世纪的“黄金时代”</strong>，得益于优越的河运位置，考纳斯成为立陶宛大公国最重要的内陆港之一。来自西欧的布料、盐、鲱鱼，与来自东方的毛皮、蜂蜡、木材在此交换。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如今老城中心的<strong>市政厅</strong>，被誉为“白天鹅”，其底层的哥特式结构便建于那个商贸鼎盛的时期。广场周围色彩柔和的商人之家，无声诉说着往日的繁华。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，历史的转折在<strong>1795年</strong>到来。第三次瓜分波兰-立陶宛联邦后，考纳斯被纳入<strong>俄罗斯帝国</strong>版图。俄国沙皇为了抹去立陶宛的民族记忆，推行严苛的<strong>俄罗斯化政策</strong>。" }} />
-              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "一位19世纪的旅行者在日记中写道：“在这里，你听到的官方语言是俄语，看到的标识是西里尔字母，但人们的眼神和低语中，仍燃烧着立陶宛的魂灵。”" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但压迫催生了反抗。这座城市成为了<strong>立陶宛民族复兴运动</strong>的 clandestine中心。秘密印刷所在此运转，将用拉丁字母书写的立陶宛语书籍偷运过境，对抗俄国的文化灭绝。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "考纳斯最深刻的历史烙印，莫过于<strong>1919-1940年</strong>。这一时期，维尔纽斯地区被波兰占领，考纳斯被迫临危受命，成为<strong>立陶宛共和国的临时首都</strong>。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这短暂的二十年，却是考纳斯城市性格定型的“黄金时代”。国家倾注资源建设，城市规模急剧扩张，在市中心新区催生了独一无二的 <strong>“考纳斯现代主义”建筑浪潮</strong>。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些建筑融合了装饰艺术、立体主义、新古典主义与立陶宛民族符号，大胆、自信、充满未来感，是年轻共和国昂扬精神的物质化身。它们让考纳斯赢得了“小巴黎”的绰号。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "考纳斯的肌理，是由三道截然不同的历史年轮镌刻而成。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一道年轮，深藏在<strong>考纳斯城堡</strong>残存的砖红色塔楼里。这座始建于14世纪的石头城堡，是立陶宛大公国抵御西方十字军东侵的最前线堡垒。它见证了无数次惨烈的围攻，最著名的一次发生在<strong>1362年</strong>，条顿骑士团围城数月，最终用挖地道的方式使其部分坍塌。今天，残缺的城堡静立在河畔，它的伤痕本身就是一部无字的立陶宛边疆抗争史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二道年轮，是19世纪帝国扩张的沉重烙印。沙俄吞并立陶宛后，将考纳斯定位为西部边境的重要军事据点。<strong>1882年</strong>，沙皇批准修建庞大的<strong>考纳斯要塞</strong>体系。这道由砖石堡垒、炮台和兵营组成的防御圈，粗暴地改变了城市格局，也预示了它将承受的20世纪战火。一战中，德军在此与俄军激战；二战时，它又成为纳粹的监狱和屠杀场。堡垒的砖墙冰冷地记录着强权交替的暴力循环。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而最璀璨、也最令人心碎的年轮，属于 <strong>“临时首都”时期（1919-1940）</strong>。一战后，维尔纽斯地区被波兰占领，新生的立陶宛共和国别无选择，只能定都考纳斯。这原本是权宜之计，却激发了一场文化上的“狂飙突进”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "国家机构、外国使馆、银行、剧院、大学蜂拥而至。一座仓促的“首都”需要一张全新的面孔。于是，一场建筑革命应运而生——<strong>考纳斯现代主义</strong>。它不是对西欧风格的简单模仿，而是一种独特的“民族装饰艺术风格”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "年轻的立陶宛建筑师们，将传统的木雕图案、民间纺织纹样、基督教符号，大胆地融入当时最时髦的立体主义、装饰艺术和功能主义的建筑框架中。走在<strong>自由大道</strong>上，那些线条流畅、立面装饰着太阳、橡树叶、铁狼（立陶宛国徽）浮雕的建筑，无声地呐喊着这个年轻国家的文化自信与独立意志。这短短的二十年，为考纳斯留下了超过6000座现代主义建筑，密度堪称欧洲之最，并在2023年成功入选联合国教科文组织世界遗产名录。这是一座城，为一个民族赊账购买的、浓缩的黄金时代。" }} />
             </div>
           </Section>
 
           <Section title="5. 与这座城共生的名人传奇">
             <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在考纳斯担任临时首都的激荡岁月里，一位天才的灵魂与这座城市深深共鸣，并在此达到创作的巅峰。他就是<strong>米科拉斯·康斯坦蒂纳斯·丘尔廖尼斯</strong>。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "丘尔廖尼斯（<strong>1875-1911</strong>）是立陶宛的国宝，一位罕见的<strong>通感艺术家</strong>——他既是作曲家，也是画家。他相信色彩拥有声音，旋律可以化作形状。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他出生于维尔纽斯附近，但人生与事业的成熟期与考纳斯紧密相连。正是在这里，他参与了蓬勃的民族文化运动，并留下了最丰富的遗产。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1907年</strong>，他在考纳斯组织并举办了立陶宛有史以来第一场<strong>大型艺术展览</strong>。更重要的是，他与一群志同道合的艺术家、音乐家共同创立了 <strong>“立陶宛艺术协会”</strong> ，奠定了这个国家现代艺术发展的基石。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的画作《国王》、《十字架之山》、《奏鸣曲》系列，将立陶宛的神话、风景与宇宙星辰融为一体，充满神秘主义与象征色彩。同时，他创作了交响诗《大海》、钢琴曲等大量音乐作品。" }} />
-              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "他曾写道：“我试图用声音绘画，用色彩作曲。整个宇宙是一首伟大的交响乐，我们都是其中的音符。”" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "不幸的是，这位天才因积劳成疾和精神困扰，于1911年英年早逝，未能亲眼见到他深爱的立陶宛获得独立。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，他的精神永远留在了考纳斯。今天的<strong>M. K. Čiurlionis 国家艺术博物馆</strong>（其分馆位于他曾经居住和工作过的街区）收藏了他最核心的作品。漫步在考纳斯的现代主义街区，那些建筑上抽象、几何的装饰线条，仿佛也能让人瞥见丘尔廖尼斯画作中的旋律与结构。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "除了丘尔廖尼斯，考纳斯还哺育或吸引了众多文化精英。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "诺贝尔文学奖得主<strong>切斯瓦夫·米沃什</strong>的童年与青少年时期在此度过，城市的河流与街景后来流淌在他的诗篇之中。立陶宛第一位总统<strong>安塔纳斯·斯梅托纳</strong>，其官邸就设在考纳斯。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "还有更多无名者：那些在咖啡馆里密谋复兴的作家，那些在新建的大学里授课的教授，那些设计出未来主义建筑的年轻设计师……他们共同塑造了考纳斯作为二十世纪初立陶宛<strong>智力与创意之都</strong>的传奇身份。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在考纳斯那段“临时首都”的非常岁月里，它不仅是政治中心，更成为一块吸引和滋养文人艺术家的磁石。他们的命运与这座城的命运紧紧缠绕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>米科拉斯·瓦尔丘纳斯 ， 肖像后的民族之魂</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>米科拉斯·瓦尔丘纳斯</strong>，这个名字在立陶宛艺术史上如雷贯耳，而他最精华的创作生涯，几乎全部献给了考纳斯。他并非考纳斯本地人，但<strong>1919年</strong>，当而立之年的他来到这座突然被推上首都位置的城市时，便找到了灵魂的归宿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他是立陶宛肖像画的巨匠。在他的画布上，你可以看到那个时代立陶宛几乎所有的知识精英与领袖：总统、诗人、作曲家、科学家。但他最动人的作品，恰恰是那些普通人。他善于捕捉人物深邃的内心世界，笔触间充满人性的温度与哲学的沉思。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "瓦尔丘纳斯与考纳斯的羁绊，深植于他的生活与教学。他长期任教于<strong>考纳斯艺术学院</strong>，培养了整整一代立陶宛画家。他的工作室，成为城中文化沙龙的中心。然而，命运的转折点再次降临。<strong>1940年</strong>，苏联第一次吞并立陶宛，随后是纳粹占领，接着是苏联的再次回归。许多知识分子选择流亡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但瓦尔丘纳斯留了下来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这是一个充满风险的决定。他的艺术被视为“资产阶级形式主义”，与苏维埃提倡的社会现实主义格格不入。他被禁止公开创作和展览，只能私下作画，或为教堂修复壁画（这也是他艺术生涯的另一隐秘瑰宝）。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "在他的日记中，曾有这样隐晦的流露：“颜色是我唯一的祖国。当外在的世界被涂抹上统一的灰色，我必须在画布上守护立陶宛天空的蓝，田野的绿，和人民眼中未熄灭的光。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他选择留在考纳斯，直至<strong>1967年</strong>去世。他成了这座城、这个民族坚韧精神的活化身。他的故居如今是博物馆，那里陈列的不仅是画作，更是一个艺术家在历史洪流中，用沉默和画笔进行的不屈抵抗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>佐西玛斯·巴库斯， 吟唱石头的“建筑诗人”</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说瓦尔丘纳斯用画笔记录灵魂，那么<strong>佐西玛斯·巴库斯</strong>则用文字为考纳斯的石头建筑谱写哀歌。他是一位诗人、散文家，更是一位痴迷的建筑美学家。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "巴库斯出生于维尔纽斯，但考纳斯的“临时首都”时期，正是他文学创作的成熟期。他着魔般地游走在考纳斯新建的现代主义街区与古老的老城巷陌之间。在他的笔下，建筑不是冰冷的物体，而是有生命、有记忆的实体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他创造了独特的“建筑散文”体裁，用极其细腻、感性的文字，描述建筑的线条、光影、装饰细节，并将它们与立陶宛的历史命运、民族性格甚至神秘主义哲学联系起来。他写道，考纳斯的现代主义建筑是“用混凝土和玻璃书写的民族史诗”，那些装饰是“从古老森林和神话中走出的精灵，附着在了新时代的墙壁上”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，他的视角总是带着一丝忧郁的预见性。他赞叹这些建筑的美丽，却也仿佛预感到它们所代表的那个自由、富有创造力的时代终将逝去。当苏联时代来临，许多现代主义建筑被改造、贬低时，巴库斯的文字成了它们最珍贵的“精神档案”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他是一个小众的、非主流的观察者，却为考纳斯提供了一份无可替代的人文解读。今天，当我们漫步考纳斯，看着那些装饰艺术风格的银行或公寓楼，脑海中或许会响起巴库斯诗意的描述，那便是历史在石头中留下的、最温柔的余音。" }} />
             </div>
           </Section>
 
           <Section title="6. 民间传说与人文风情">
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "考纳斯的传说，往往与它的建筑和河流一样古老，交织着爱情、悲剧与超自然的力量。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其中最著名的，莫过于关于<strong>市政厅钟楼</strong>的传说。这座被昵称为“白天鹅”的优雅建筑，其钟楼在历史上曾多次遭遇火灾与重建。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "民间流传，钟楼内住着一位“钟楼守护灵”。每当城市即将遭遇重大灾难或外敌入侵时，大钟会在深夜无人敲击时自行鸣响，声音沉郁而哀伤，向市民发出警示。据说，在二战爆发前夕，就有老居民声称听到了这不祥的自鸣。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则围绕着<strong>考纳斯城堡</strong>。相传在立陶宛大公国时期，一位名叫<strong>考纳斯</strong>的年轻勇士（城市据信以他命名）在此抵御十字军。他英勇战死，鲜血渗入城堡的基石。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的爱人，一位女祭司，因悲痛而投涅穆纳斯河自尽。自此，人们传说在月圆之夜，能在城堡的废墟上看到勇士透明的身影持剑巡逻，而在河面的薄雾中，则会传来女子哀婉的哭泣声。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "老城的许多老房子也有自己的“住户”传说。比如在自由大道附近一栋装饰艺术风格的公寓里，据说住着一位<strong>“镜子里的绅士”</strong>。他是一位20世纪30年代绅士气质的幽灵，只出现在某些特定的古老镜子里，默默注视着房客，却从不打扰，仿佛只是舍不得离开这个他曾度过美好年华的现代主义之家。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些传说，无论是关乎家国命运，还是个人情愫，都为考纳斯砖石木瓦的实体，披上了一层朦胧而富有情感的薄纱，让历史变得更加可感、可叹。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "考纳斯的民间记忆，充满了与魔鬼斗智斗勇的幽默，以及对苦难的神性慰藉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "老城<strong>市政厅广场</strong>旁，矗立着一尊有趣的雕塑：一只憨态可掬的“魔鬼”正读着报纸。这源于一个古老传说：当初上帝与魔鬼比赛，看谁能为这座新兴城市带来更多繁荣。上帝赐予了河流与肥沃土地，而魔鬼则试图用火灾和纠纷搞破坏。结果当然是魔鬼输了，并被勒令永远守护这座城市。于是，考纳斯人便带着一丝调侃，将“魔鬼”视为城市的另类守护神，认为他如今已改邪归正，每天通过读报来关心市民生活。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而关于<strong>圣米迦勒大天使教堂</strong>（现常被称为“军官教堂”），有一个悲伤又神圣的传说。苏联占领时期，这座教堂被改为画廊。据说，曾有军官试图将教堂内的圣像移除，当他用钉子将圣像钉在墙上时，钉子却奇迹般地反弹回来，反而将他的军大衣钉在了柱子上，使他动弹不得，惊恐万分。这个故事在民间秘密流传，成为了信仰在压迫下不可摧毁的象征。如今教堂已恢复宗教功能，那个“被钉住的军官”传说，依旧被老一代考纳斯人低声讲述。" }} />
             </div>
           </Section>
 
           <Section title="7. 历史回响：读懂这座城的旅行意义">
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "行走在考纳斯老城，你触摸的不仅是中世纪哥特式的墙砖，更是一段<strong>压缩的、高强度的东欧现代史</strong>。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里没有维也纳的奢华，没有布拉格的浪漫童话感。考纳斯的气质是<strong>深沉、坚韧且略带忧郁的</strong>。它的美，在于那份背负着历史重量的真实感，在于两次被迫成为首都的“临危受命”所激发的、短暂却无比灿烂的文化爆发。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它提醒我们，首都的身份并非文明深度的唯一标尺。恰恰是在主流视野边缘的“第二城市”里，往往保存着一个民族在逆境中最为顽强、最具创造力的精神火种。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从丘尔廖尼斯通感艺术中流淌出的立陶宛灵魂，到遍布街区的考纳斯现代主义建筑所彰显的共和国雄心，再到战争伤痕的沉默纪念碑——考纳斯老城本身就是一座<strong>露天的、活态的历史博物馆</strong>。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂考纳斯，便是读懂了立陶宛民族在20世纪寻求独立、身份与表达的一部微观史诗。它或许小众，却绝对深刻。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "考纳斯，因此从来不是维尔纽斯的平淡副本。它是一部立陶宛民族的“B面史诗”：当A面主旋律被迫中断时，它在仓促间奏响了最高亢、最富创造力的乐章。它的老城诉说着中世纪商人的雄心，而遍布全城的现代主义建筑群，则是一座露天的、关于国家建构与文化认同的博物馆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂考纳斯，便是读懂一个小国在历史夹缝中，如何用石头、画笔和文字，极致地展现其文化韧性与尊严。这里没有童话般的完美，却有着更真实、更动人的生命张力——那种在明知短暂与不安中，依然全力创造永恒之美的勇气。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "行走在尼亚穆纳斯河畔，左岸是古老的城堡与教堂剪影，右岸是轮廓鲜明的现代主义天际线。考纳斯将历史的分裂与连续，如此直观地并置在你眼前。它告诉你，历史不仅有王侯将相的大叙事，更有在一段“临时”时光里，一个民族倾尽全力的文化绽放。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？如何探访现代主义建筑瑰宝、老城漫步路线与特色美食，请点击相关游记页。" }} />
             </div>
           </Section>
 
 
           <Section title="猜你喜欢">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <a href="/attractions/nida-lithuania" className="block group">
+              <a href="/attractions/rumisikes-open-air-museum" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    尼
+                    伦
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">尼达</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nida</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伦希什凯斯露天民俗博物馆</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rumšiškės Open-Air Museum</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/klaipeda-old-town" className="block group">
+              <a href="/attractions/kernav--archaeological-site" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
                     克
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克莱佩达老城</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Klaipėda Old Town</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克尔纳韦</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kernavė</p>
                   </div>
                 </div>
               </a>
-              <a href="/attractions/anyksciai" className="block group">
+              <a href="/attractions/trakai-island-castle" className="block group">
                 <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
                   <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    阿
+                    特
                   </div>
                   <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尼克什奇艾</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Anykščiai</p>
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特拉凯海岛城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trakai Island Castle</p>
                   </div>
                 </div>
               </a>
