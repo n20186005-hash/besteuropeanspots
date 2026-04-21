@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '波契泰利城堡・Počitelj・波黑・波契泰利 | 最佳欧洲景点',
-  description: '探索波契泰利城堡，这座波黑保存最完整的中世纪军事城堡，以厚重的石砌城墙和多元文化交融的历史闻名于世。',
+  title: '波契泰利城堡・Počitelj・波斯尼亚和黑塞哥维那・波契泰利 | 最佳欧洲景点',
+  description: '探索波契泰利城堡，这座波斯尼亚和黑塞哥维那保存最完整的中世纪军事城堡，以厚重的石砌城墙和多元文化交融的历史闻名于世。',
 }
 
 export default function PociteljPage() {
@@ -16,23 +16,23 @@ export default function PociteljPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
-            { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
+            { label: '波斯尼亚和黑塞哥维那', href: '/destinations/bosnia-and-herzegovina' },
             { label: '波契泰利', href: '/destinations/bosnia-and-herzegovina' },
             { label: '波契泰利城堡', href: '/attractions/pocitelj' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">波契泰利城堡・Počitelj・波黑・波契泰利</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">波契泰利城堡・Počitelj・波斯尼亚和黑塞哥维那・波契泰利</h1>
           <p className="text-lg text-gray-600 mb-6">
-            波契泰利城堡是波黑中世纪军事建筑的典范，始建于14世纪，依山而建、傍水而居，整体采用石砌结构，占地约1.2万平方米，兼具军事防御与居住功能。
+            波契泰利城堡是波斯尼亚和黑塞哥维那中世纪军事建筑的典范，始建于14世纪，依山而建、傍水而居，整体采用石砌结构，占地约1.2万平方米，兼具军事防御与居住功能。
           </p>
         </div>
 
         <div className="space-y-8">
           <Section title="1. 景点介绍">
             <p className="text-gray-700 leading-relaxed mb-4">
-              波契泰利城堡是波黑中世纪军事建筑的典范，始建于14世纪，依山而建、傍水而居，整体采用石砌结构，占地约1.2万平方米，兼具军事防御与居住功能。城堡依山势分层而建，从山脚到山顶依次分布着居民区、防御工事和主塔楼，错落有致、气势恢宏。这里留存着中世纪的城墙、塔楼、教堂、清真寺等建筑，融合了拜占庭、奥斯曼、斯拉夫等多种文化风格，既有军事城堡的庄严厚重，又有人文建筑的细腻韵味，是探寻波黑历史、感受多元文化、欣赏河谷风光的绝佳去处。
+              波契泰利城堡是波斯尼亚和黑塞哥维那中世纪军事建筑的典范，始建于14世纪，依山而建、傍水而居，整体采用石砌结构，占地约1.2万平方米，兼具军事防御与居住功能。城堡依山势分层而建，从山脚到山顶依次分布着居民区、防御工事和主塔楼，错落有致、气势恢宏。这里留存着中世纪的城墙、塔楼、教堂、清真寺等建筑，融合了拜占庭、奥斯曼、斯拉夫等多种文化风格，既有军事城堡的庄严厚重，又有人文建筑的细腻韵味，是探寻波斯尼亚和黑塞哥维那历史、感受多元文化、欣赏河谷风光的绝佳去处。
             </p>
           </Section>
 
@@ -41,9 +41,9 @@ export default function PociteljPage() {
               <div className="space-y-4">
                 <InfoRow label="中文名称" value="波契泰利城堡" />
                 <InfoRow label="英文名称" value="Počitelj Fortress" />
-                <InfoRow label="国家" value="波斯尼亚和黑塞哥维那（波黑）" />
+                <InfoRow label="国家" value="波斯尼亚和黑塞哥维那" />
                 <InfoRow label="城市" value="波契泰利（Počitelj）" />
-                <InfoRow label="所属区域" value="波黑黑塞哥维那地区南部" />
+                <InfoRow label="所属区域" value="波斯尼亚和黑塞哥维那黑塞哥维那地区南部" />
               </div>
               <div className="space-y-4">
                 <InfoRow label="始建年代" value="14世纪" />
@@ -59,7 +59,7 @@ export default function PociteljPage() {
                 <p><span className="font-medium">城堡参观：</span>免费开放，无需购买门票</p>
                 <p><span className="font-medium">导游讲解：</span>约20欧元/小时，提供英文、波斯尼亚语讲解</p>
                 <p><span className="font-medium">文物陈列室：</span>单独付费，约5欧元/人，学生半价，12岁以下儿童免费</p>
-                <p><span className="font-medium">支付方式：</span>支持现金支付，建议准备欧元或波黑马克</p>
+                <p><span className="font-medium">支付方式：</span>支持现金支付，建议准备欧元或波斯尼亚和黑塞哥维那马克</p>
               </div>
             </div>
             <div className="bg-green-50 p-6 rounded-lg mt-6">
@@ -75,19 +75,19 @@ export default function PociteljPage() {
 
           <Section title="3. 历史背景">
             <p className="text-gray-700 leading-relaxed mb-4">
-              波契泰利城堡的历史可追溯至14世纪，其诞生与巴尔干半岛的军事纷争、民族迁徙和文化交融紧密相关，历经数百年沧桑，见证了波黑从中世纪到现代的变迁，承载着多元文化碰撞的印记，是波黑历史文化的重要载体。城堡的建造最初源于军事防御需求，凭借内雷特瓦河沿岸的险峻地势，成为控制河谷交通要道的战略据点。
+              波契泰利城堡的历史可追溯至14世纪，其诞生与巴尔干半岛的军事纷争、民族迁徙和文化交融紧密相关，历经数百年沧桑，见证了波斯尼亚和黑塞哥维那从中世纪到现代的变迁，承载着多元文化碰撞的印记，是波斯尼亚和黑塞哥维那历史文化的重要载体。城堡的建造最初源于军事防御需求，凭借内雷特瓦河沿岸的险峻地势，成为控制河谷交通要道的战略据点。
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               14世纪初，塞尔维亚贵族拉扎尔·赫雷别利亚诺维奇为抵御奥斯曼帝国的入侵，下令修建波契泰利城堡，作为内雷特瓦河流域的重要防御工事，城堡依山而建，利用天然地形构建起坚固的防御体系，城墙高大厚重，设有多个瞭望塔和射击孔，可全方位监控河谷动向，抵御外敌入侵。建成初期，城堡仅作为军事据点，驻扎着少量军队，随着时间推移，逐渐形成了围绕城堡的居民区，成为当地居民的聚居地。
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              15世纪中叶，奥斯曼帝国征服波黑地区，波契泰利城堡被奥斯曼军队接管，成为奥斯曼帝国在巴尔干半岛南部的重要军事要塞。奥斯曼帝国对城堡进行了大规模修缮与扩建，在保留原有军事防御功能的基础上，新增了清真寺、浴室、集市等建筑，将奥斯曼文化元素融入城堡的建筑风格中，形成了"军事防御+人文居住"的复合格局。这一时期，城堡周边的居民区逐渐扩大，汇聚了塞尔维亚人、波斯尼亚人、克罗地亚人等多个民族，多元文化在此交融共生，形成了独特的地域文化。
+              15世纪中叶，奥斯曼帝国征服波斯尼亚和黑塞哥维那地区，波契泰利城堡被奥斯曼军队接管，成为奥斯曼帝国在巴尔干半岛南部的重要军事要塞。奥斯曼帝国对城堡进行了大规模修缮与扩建，在保留原有军事防御功能的基础上，新增了清真寺、浴室、集市等建筑，将奥斯曼文化元素融入城堡的建筑风格中，形成了"军事防御+人文居住"的复合格局。这一时期，城堡周边的居民区逐渐扩大，汇聚了塞尔维亚人、波斯尼亚人、克罗地亚人等多个民族，多元文化在此交融共生，形成了独特的地域文化。
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              19世纪，随着奥斯曼帝国的衰落，波契泰利城堡逐渐失去军事防御功能，成为当地居民的普通聚居地，城堡的部分建筑因年久失修出现破损。20世纪初，波黑成为南斯拉夫的一部分，南斯拉夫政府对波契泰利城堡进行了首次系统性修缮，重点修复了坍塌的城墙和塔楼，保留了其历史原貌。此后，城堡逐渐被外界熟知，成为波黑重要的历史遗迹之一。
+              19世纪，随着奥斯曼帝国的衰落，波契泰利城堡逐渐失去军事防御功能，成为当地居民的普通聚居地，城堡的部分建筑因年久失修出现破损。20世纪初，波斯尼亚和黑塞哥维那成为南斯拉夫的一部分，南斯拉夫政府对波契泰利城堡进行了首次系统性修缮，重点修复了坍塌的城墙和塔楼，保留了其历史原貌。此后，城堡逐渐被外界熟知，成为波斯尼亚和黑塞哥维那重要的历史遗迹之一。
             </p>
             <p className="text-gray-700 leading-relaxed">
-              20世纪90年代，波黑战争爆发，波契泰利城堡遭到一定程度的破坏，部分城墙、塔楼和民居被损毁，大量文物遗失。战争结束后，在国际社会的援助下，波黑政府启动了城堡修复工程，严格遵循"修旧如旧"的原则，修复破损的建筑，打捞遗失的文物，逐步恢复城堡的历史风貌。如今，波契泰利城堡不仅是波黑重要的历史文化遗产，更是巴尔干半岛多元文化交融的见证，吸引着全球历史爱好者、建筑学者和游客前来探寻其背后的故事。如今，城堡内依然留存着中世纪的防御工事、奥斯曼风格的清真寺、斯拉夫式民居等建筑，行走在城堡的石板路上，既能感受到军事城堡的庄严厚重，又能领略到多元文化的独特魅力，每一处建筑、每一块石板，都镌刻着波契泰利的千年沧桑与变迁。
+              20世纪90年代，波斯尼亚和黑塞哥维那战争爆发，波契泰利城堡遭到一定程度的破坏，部分城墙、塔楼和民居被损毁，大量文物遗失。战争结束后，在国际社会的援助下，波斯尼亚和黑塞哥维那政府启动了城堡修复工程，严格遵循"修旧如旧"的原则，修复破损的建筑，打捞遗失的文物，逐步恢复城堡的历史风貌。如今，波契泰利城堡不仅是波斯尼亚和黑塞哥维那重要的历史文化遗产，更是巴尔干半岛多元文化交融的见证，吸引着全球历史爱好者、建筑学者和游客前来探寻其背后的故事。如今，城堡内依然留存着中世纪的防御工事、奥斯曼风格的清真寺、斯拉夫式民居等建筑，行走在城堡的石板路上，既能感受到军事城堡的庄严厚重，又能领略到多元文化的独特魅力，每一处建筑、每一块石板，都镌刻着波契泰利的千年沧桑与变迁。
             </p>
           </Section>
 
@@ -230,7 +230,7 @@ export default function PociteljPage() {
                     <span className="text-blue-600 mr-2">•</span>
                     <div>
                       <span className="font-medium">莫斯塔尔考古博物馆</span>
-                      <p className="text-sm text-gray-600">距离城堡约32公里，打车35分钟，费用约30欧元。收藏波黑南部出土文物，免费开放</p>
+                      <p className="text-sm text-gray-600">距离城堡约32公里，打车35分钟，费用约30欧元。收藏波斯尼亚和黑塞哥维那南部出土文物，免费开放</p>
                     </div>
                   </li>
                 </ul>
@@ -259,7 +259,7 @@ export default function PociteljPage() {
                 <div className="space-y-3 text-gray-700 text-sm">
                   <div className="border-l-4 border-blue-400 pl-4">
                     <h5 className="font-medium">特色民宿</h5>
-                    <p>波契泰利小镇有很多小众民宿，多由当地石屋改造，装修简约古朴，保留波黑传统建筑特色，30-70欧元/晚</p>
+                    <p>波契泰利小镇有很多小众民宿，多由当地石屋改造，装修简约古朴，保留波斯尼亚和黑塞哥维那传统建筑特色，30-70欧元/晚</p>
                   </div>
                   <div className="border-l-4 border-blue-400 pl-4">
                     <h5 className="font-medium">自助公寓</h5>
@@ -267,7 +267,7 @@ export default function PociteljPage() {
                   </div>
                   <div className="border-l-4 border-blue-400 pl-4">
                     <h5 className="font-medium">精品乡村酒店</h5>
-                    <p>波契泰利小镇和莫斯塔尔市周边有少量精品酒店，装修融合波黑传统元素与现代风格，55-100欧元/晚</p>
+                    <p>波契泰利小镇和莫斯塔尔市周边有少量精品酒店，装修融合波斯尼亚和黑塞哥维那传统元素与现代风格，55-100欧元/晚</p>
                   </div>
                   <div className="border-l-4 border-blue-400 pl-4">
                     <h5 className="font-medium">经济型酒店</h5>
@@ -324,7 +324,7 @@ export default function PociteljPage() {
                 <div className="bg-orange-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-orange-900 mb-2">实用信息</h4>
                   <ul className="text-gray-700 text-sm space-y-1">
-                    <li>• 当地货币：可兑换欧元或波黑马克，部分地方支持欧元</li>
+                    <li>• 当地货币：可兑换欧元或波斯尼亚和黑塞哥维那马克，部分地方支持欧元</li>
                     <li>• 语言：波斯尼亚语为主，旅游区英语基本通行</li>
                     <li>• 电压：230V，插头为Type F型</li>
                     <li>• 紧急电话：112（欧洲统一紧急电话）</li>

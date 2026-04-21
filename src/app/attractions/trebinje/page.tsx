@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '巴尔干小众目的地指南｜波黑特雷比涅老城，人少景美超治愈 - 最佳欧洲景点',
-  description: '特雷比涅老城是一座藏在波黑最南端、距离克罗地亚杜布罗夫尼克仅约30公里的小镇，坐落在特雷比什尼察河沿岸的山谷里，四周山丘环绕，往南再走十来公里就到亚得里亚海边了。老城核心区不大，鹅卵石窄巷纵横交错，石...',
+  title: '巴尔干小众目的地指南｜波斯尼亚和黑塞哥维那特雷比涅老城，人少景美超治愈 - 最佳欧洲景点',
+  description: '特雷比涅老城是一座藏在波斯尼亚和黑塞哥维那最南端、距离克罗地亚杜布罗夫尼克仅约30公里的小镇，坐落在特雷比什尼察河沿岸的山谷里，四周山丘环绕，往南再走十来公里就到亚得里亚海边了。老城核心区不大，鹅卵石窄巷纵横交错，石...',
 }
 
 export default function TrebinjePage() {
@@ -16,7 +16,7 @@ export default function TrebinjePage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
-            { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
+            { label: '波斯尼亚和黑塞哥维那', href: '/destinations/bosnia-and-herzegovina' },
             { label: '特雷比涅', href: '/destinations/bosnia-and-herzegovina' },
             { label: '特雷比涅老城', href: '/attractions/trebinje' },
           ]}
@@ -26,7 +26,7 @@ export default function TrebinjePage() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">特雷比涅老城</h1>
           <p className="text-xl text-gray-600 mb-4">Trebinje</p>
           <div className="flex flex-wrap gap-2 mb-6">
-            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">波黑</span>
+            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">波斯尼亚和黑塞哥维那</span>
             <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">特雷比涅</span>
           </div>
         </div>
@@ -34,9 +34,9 @@ export default function TrebinjePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="md:col-span-2 space-y-8">
             <Section title="景点简介">
-              <p className="text-gray-700 leading-relaxed mb-4">特雷比涅老城是一座藏在波黑最南端、距离克罗地亚杜布罗夫尼克仅约30公里的小镇，坐落在特雷比什尼察河沿岸的山谷里，四周山丘环绕，往南再走十来公里就到亚得里亚海边了。老城核心区不大，鹅卵石窄巷纵横交错，石砌老屋外墙上爬满了葡萄藤和青苔，河岸两侧是茂密的老梧桐树，夏天树荫浓得能把整条步道遮住。我走在街上逛着逛着发现，这里没有杜布罗夫尼克那种拥挤的人潮，也没有莫斯塔尔那种旅游团大巴排着队的喧嚣，满城是一种说不清的松弛感。亲测下来，特雷比涅旅游特别适合想慢下来的人，无论是特雷比涅一个人背包游、波黑小众景点深度探索，还是和伴侣牵着手在河边散步，都能在这里找到属于自己的节奏。有小孩的家庭也不会太累，老城里几乎没有陡坡和长台阶，推着婴儿车走起来很轻松，整座城平缓得就像本地人的性子。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">基本信息方面，波黑特雷比涅老城本身是一个开放的历史街区，不设统一门票，核心景点散落在老城及周边，游览时随时可以进出。城里的赫塞戈瓦奇卡博物馆开放时间为周二至周日10:00-18:00（周一闭馆），门票约5波黑马克（折合约2.5欧元）。距离老城约5公里的特弗多什修道院每日9:00-17:00开放，免门票入场。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">老城边缘的布兰科维奇塔在工作日9:00-16:00开放，周末需要预约，门票约3波黑马克（折合1.5欧的样子）。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">特雷比涅老城是一座藏在波斯尼亚和黑塞哥维那最南端、距离克罗地亚杜布罗夫尼克仅约30公里的小镇，坐落在特雷比什尼察河沿岸的山谷里，四周山丘环绕，往南再走十来公里就到亚得里亚海边了。老城核心区不大，鹅卵石窄巷纵横交错，石砌老屋外墙上爬满了葡萄藤和青苔，河岸两侧是茂密的老梧桐树，夏天树荫浓得能把整条步道遮住。我走在街上逛着逛着发现，这里没有杜布罗夫尼克那种拥挤的人潮，也没有莫斯塔尔那种旅游团大巴排着队的喧嚣，满城是一种说不清的松弛感。亲测下来，特雷比涅旅游特别适合想慢下来的人，无论是特雷比涅一个人背包游、波斯尼亚和黑塞哥维那小众景点深度探索，还是和伴侣牵着手在河边散步，都能在这里找到属于自己的节奏。有小孩的家庭也不会太累，老城里几乎没有陡坡和长台阶，推着婴儿车走起来很轻松，整座城平缓得就像本地人的性子。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">基本信息方面，波斯尼亚和黑塞哥维那特雷比涅老城本身是一个开放的历史街区，不设统一门票，核心景点散落在老城及周边，游览时随时可以进出。城里的赫塞戈瓦奇卡博物馆开放时间为周二至周日10:00-18:00（周一闭馆），门票约5波斯尼亚和黑塞哥维那马克（折合约2.5欧元）。距离老城约5公里的特弗多什修道院每日9:00-17:00开放，免门票入场。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">老城边缘的布兰科维奇塔在工作日9:00-16:00开放，周末需要预约，门票约3波斯尼亚和黑塞哥维那马克（折合1.5欧的样子）。</p>
               <p className="text-gray-700 leading-relaxed mb-4">夏季旺季（5月至9月）个别小景点可能延后些关门，</p>
               <p className="text-gray-700 leading-relaxed mb-4">冬季（11月至2月）部分场所下午三四点就收工了，要去的行程要规划好。</p>
               <p className="text-gray-700 leading-relaxed mb-4">老城广场和河边步道全年全天免费开放，春夏交替时节游客最多，想安静逛的话真心建议挑春秋的清晨或黄昏时候去。</p>
@@ -56,9 +56,9 @@ export default function TrebinjePage() {
             </Section>
             <Section title="注意事项">
               <p className="text-gray-700 leading-relaxed mb-4">这里我踩过的坑绝对值得记下来。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">第一，大部分小酒庄和街边咖啡馆只收现金，波黑马克BAM或欧元都行，但找零通常给BAM，我当时兜里只有卡，想买杯手冲咖啡都喝不上，只能看着隔壁桌慢悠悠喝完一壶，馋得不行。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">第一，大部分小酒庄和街边咖啡馆只收现金，波斯尼亚和黑塞哥维那马克BAM或欧元都行，但找零通常给BAM，我当时兜里只有卡，想买杯手冲咖啡都喝不上，只能看着隔壁桌慢悠悠喝完一壶，馋得不行。</p>
               <p className="text-gray-700 leading-relaxed mb-4">第二，老城里的石头路面被几百年的脚步磨得又光又滑，穿平底鞋最稳，穿皮鞋或硬底凉鞋走快了容易打滑。</p>
-              <p className="text-gray-700 leading-relaxed mb-4">第三，波黑与克罗地亚之间的那个边境检查站有时候会排长队，尤其旺季夏天，从杜布罗夫尼克坐大巴来特雷比涅的朋友记得预留足够的时间，别卡着点儿赶车排队时间要预算进去。</p>
+              <p className="text-gray-700 leading-relaxed mb-4">第三，波斯尼亚和黑塞哥维那与克罗地亚之间的那个边境检查站有时候会排长队，尤其旺季夏天，从杜布罗夫尼克坐大巴来特雷比涅的朋友记得预留足够的时间，别卡着点儿赶车排队时间要预算进去。</p>
               <p className="text-gray-700 leading-relaxed mb-4">第四，手机信号在老城深处部分窄巷不太稳定，下载离线地图再出发，我因为没下载结果在老城边上的岔路口绕了二十分钟，直到闻到河边草香才走对方向。</p>
             </Section>
             <Section title="历史背景">

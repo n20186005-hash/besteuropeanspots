@@ -23,7 +23,7 @@ export default function BaarleHertogBaarleNassauPage() {
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴尔勒-赫尔托赫与巴尔勒-拿骚（双国镇）・Baarle-Hertog / Baarle-Nassau・比利时 / 荷兰・巴尔勒（双属）`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴尔勒-赫尔托赫与巴尔勒-拿骚（双国镇）・Baarle-Hertog / Baarle-Nassau・比利时和荷兰・巴尔勒（双属）`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {`嘿，朋友，想象一下：你坐在一家咖啡馆里喝咖啡，脚踩在比利时，伸个懒腰手就搭在了荷兰的桌子上。这可不是什么行为艺术，而是欧洲腹地一个真实存在的、奇妙的日常。今天这份 巴尔勒双国镇旅游攻略 ，就要带你躲开常规路线的人潮，钻进这个地图上都难以精确描绘的“碎布地”飞地。这里没有巍峨的古堡或恢弘的博物馆，它的全部魅力，都藏在那蜿蜒曲折、像孩童涂鸦般穿越花园、客厅甚至酒吧吧台的国境线里。作为你的专属向导，这份 自由行指南 请收好，我们将一起用脚步丈量国界，用好奇心解码这段纠缠了八百年的奇特历史，体验一份真正的 边境深度游 。`}
           </p>
@@ -41,7 +41,7 @@ export default function BaarleHertogBaarleNassauPage() {
                 <InfoRow label="中文名称" value={`巴尔勒-赫尔托赫与巴尔勒-拿骚（双国镇）`} />
                 <InfoRow label="英文名称" value={`Baarle-Hertog / Baarle-Nassau`} />
                 <InfoRow label="正式名称" value={`Baarle-Hertog / Baarle-Nassau`} />
-                <InfoRow label="国家" value={`比利时 / 荷兰`} />
+                <InfoRow label="国家" value={`比利时和荷兰`} />
                 <InfoRow label="城市" value={`巴尔勒（双属）`} />
               </div>
               <div className="space-y-4">

@@ -16,7 +16,7 @@ export default function MehmedPasaSokolovicBridgeVisegradPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
-            { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
+            { label: '波斯尼亚和黑塞哥维那', href: '/destinations/bosnia-and-herzegovina' },
             { label: '维舍格勒', href: '/destinations/bosnia-and-herzegovina' },
             { label: '维舍格勒的穆罕默德·帕夏·索科洛维奇桥', href: '/attractions/mehmed-pasa-sokolovic-bridge-visegrad' },
           ]}
@@ -56,9 +56,9 @@ export default function MehmedPasaSokolovicBridgeVisegradPage() {
             </div>
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`全天24小时开放，可随时步行上桥参观。桥上没有照明设施，建议日间游览以确保安全。冬季（11月至次年3月）时，桥上可能有积雪或薄冰，需格外小心。周边的游客信息中心通常在夏季（5月至9月）的工作日（上午9点至下午5点）开放，提供有限的信息服务。`} />
-              <InfoRow label="门票价格" value={`参观桥梁本身完全免费。若想参观桥头的“安德里奇之城”博物馆（主要展示诺贝尔奖作家伊沃·安德里奇的作品及相关文化），门票约为5波黑马克（约2.5欧元），学生及儿童享有半价优惠。`} />
+              <InfoRow label="门票价格" value={`参观桥梁本身完全免费。若想参观桥头的“安德里奇之城”博物馆（主要展示诺贝尔奖作家伊沃·安德里奇的作品及相关文化），门票约为5波斯尼亚和黑塞哥维那马克（约2.5欧元），学生及儿童享有半价优惠。`} />
               <InfoRow label="地址" value={`Mehmed Paše Sokolovića bb, Višegrad 73240, Bosnia and Herzegovina`} />
-              <InfoRow label="交通方式" value={`最近的国际机场是塞尔维亚贝尔格莱德的尼古拉·特斯拉机场（BEG）或波黑萨拉热窝机场（SJJ）。从贝尔格莱德机场出发：可乘坐机场大巴至贝尔格莱德市中心巴士站，转乘前往维舍格勒的长途巴士，车程约4-5小时，班次每日3-4班。从萨拉热窝出发：从萨拉热窝东站（Istočno Sarajevo）有频繁的巴士开往维舍格勒，车程约2.5-3小时，班次较为密集（每天约6-8班）。抵达维舍格勒巴士站后，古桥就在德里纳河畔，步行约10-15分钟即可到达。当地没有火车服务。建议提前在线或直接在车站购买巴士票，夏季旺季时可能需提前一天预订。`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是塞尔维亚贝尔格莱德的尼古拉·特斯拉机场（BEG）或波斯尼亚和黑塞哥维那萨拉热窝机场（SJJ）。从贝尔格莱德机场出发：可乘坐机场大巴至贝尔格莱德市中心巴士站，转乘前往维舍格勒的长途巴士，车程约4-5小时，班次每日3-4班。从萨拉热窝出发：从萨拉热窝东站（Istočno Sarajevo）有频繁的巴士开往维舍格勒，车程约2.5-3小时，班次较为密集（每天约6-8班）。抵达维舍格勒巴士站后，古桥就在德里纳河畔，步行约10-15分钟即可到达。当地没有火车服务。建议提前在线或直接在车站购买巴士票，夏季旺季时可能需提前一天预订。`} />
             </div>
           </Section>
 

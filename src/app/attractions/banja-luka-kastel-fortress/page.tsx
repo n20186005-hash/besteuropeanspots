@@ -4,7 +4,7 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '巴尼亚卢卡卡斯特尔要塞 Kastel Fortress｜弗尔巴斯河畔的千年石语者，见证波黑文明碰撞的沉默方舟 - 最佳欧洲景点',
+  title: '巴尼亚卢卡卡斯特尔要塞 Kastel Fortress｜弗尔巴斯河畔的千年石语者，见证波斯尼亚和黑塞哥维那文明碰撞的沉默方舟 - 最佳欧洲景点',
   description: '说实话，第一眼看到卡斯特尔要塞，它并不像那些童话里尖顶耸立的城堡。它更像一个巨大的、黄褐色的石头巨兽，极其沉稳地趴在弗尔巴斯河岸，河水在它脚下拐了一个从容的弯。阳光把它的石墙晒得暖烘烘的，走近了能闻到一种混合了青草、古老石头和淡淡河水腥气的味道。城墙太高太厚了，影子投下来，瞬间就把城市的喧嚣隔开，耳',
 }
 
@@ -16,14 +16,14 @@ export default function BanjaLukaKastelFortressPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '景点百科', href: '/category/encyclopedia' },
-            { label: '波黑', href: '/destinations/europe' },
+            { label: '波斯尼亚和黑塞哥维那', href: '/destinations/europe' },
             { label: '巴尼亚卢卡', href: '/destinations/europe' },
             { label: '巴尼亚卢卡卡斯特尔要塞', href: '/attractions/banja-luka-kastel-fortress' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴尼亚卢卡卡斯特尔要塞・Kastel Fortress・波黑・巴尼亚卢卡`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴尼亚卢卡卡斯特尔要塞・Kastel Fortress・波斯尼亚和黑塞哥维那・巴尼亚卢卡`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {`说实话，第一眼看到卡斯特尔要塞，它并不像那些童话里尖顶耸立的城堡。它更像一个巨大的、黄褐色的石头巨兽，极其沉稳地趴在弗尔巴斯河岸，河水在它脚下拐了一个从容的弯。阳光把它的石墙晒得暖烘烘的，走近了能闻到一种混合了青草、古老石头和淡淡河水腥气的味道。城墙太高太厚了，影子投下来，瞬间就把城市的喧嚣隔开，耳边只剩下风穿过墙头荒草的声音，还有河水永不停歇的、沉沉的流淌声。那种感觉，不是惊艳，而是一种被历史重量轻轻按压住心口的肃穆。
 你很快会发现，这里绝不是一个冰冷的遗址。下午时分，本地人三三两两地来了。有慢跑者沿着城墙下的步道规律地呼吸奔跑；有情侣手牵手爬上主城墙，坐在古老的炮口边，腿晃荡着看河；爷爷带着小孙子，指着那些巨大的石块，讲着也许他自己也半信半疑的骑士传说。这座要塞早已融入了巴尼亚卢卡的呼吸和脉搏，它不是供在玻璃柜里的古董，而是市民后院一座无比雄伟的“老房子”，带着一身伤疤，却提供了最坚实的依靠和风景。
@@ -45,7 +45,7 @@ export default function BanjaLukaKastelFortressPage() {
                 <InfoRow label="中文名称" value={`巴尼亚卢卡卡斯特尔要塞`} />
                 <InfoRow label="英文名称" value={`Kastel Fortress`} />
                 <InfoRow label="正式名称" value={`Kastel Fortress`} />
-                <InfoRow label="国家" value={`波黑`} />
+                <InfoRow label="国家" value={`波斯尼亚和黑塞哥维那`} />
                 <InfoRow label="城市" value={`巴尼亚卢卡`} />
               </div>
               
@@ -53,13 +53,13 @@ export default function BanjaLukaKastelFortressPage() {
                 <InfoRow label="历史地位" value={`一座跨越近两千年、在古罗马哨站基础上不断重建与加固的军事防御核心，是巴尼亚卢卡城市起源与沧桑历史的物理基石。`} />
                 <InfoRow label="建筑特色" value={`一个由厚重石墙、棱堡、塔楼和地下通道构成的庞大不规则多边形防御体系，沉稳地扼守着弗尔巴斯河的战略拐弯处。`} />
                 <InfoRow label="建筑风格" value={`层叠了从古罗马的粗犷地基、中世纪斯拉夫王国的木质工事、奥斯曼帝国典型的星形棱堡石砌技术，到奥匈帝国时期加固改造的多元建筑印记。`} />
-                <InfoRow label="文化价值" value={`它不仅是军事建筑，更是波黑北部地区复杂历史、多民族共存与冲突的沉默见证者，如今已转化为市民休闲与文化生活的和平公共空间。`} />
+                <InfoRow label="文化价值" value={`它不仅是军事建筑，更是波斯尼亚和黑塞哥维那北部地区复杂历史、多民族共存与冲突的沉默见证者，如今已转化为市民休闲与文化生活的和平公共空间。`} />
               </div>
             </div>
             
             <div className="mt-6 space-y-3">
               <InfoRow label="开放时间" value={`要塞城墙及公园区域全天24小时开放；内部的巴尼亚卢卡城市博物馆分馆开放时间为周一至周五 8:00-19:00，周六 9:00-14:00，周日及法定节假日闭馆。冬季（11月至3月）露天区域照明有限，建议日间游览。`} />
-              <InfoRow label="门票价格" value={`进入要塞堡垒区域完全免费。仅城市博物馆分馆收取象征性门票，约2欧元（4波黑马克），学生、儿童及65岁以上长者享有半价优惠。`} />
+              <InfoRow label="门票价格" value={`进入要塞堡垒区域完全免费。仅城市博物馆分馆收取象征性门票，约2欧元（4波斯尼亚和黑塞哥维那马克），学生、儿童及65岁以上长者享有半价优惠。`} />
               <InfoRow label="地址" value={`Kastel Fortress, 78000 Banja Luka, Bosnia and Herzegovina`} />
               <InfoRow label="交通方式" value={`从巴尼亚卢卡国际机场出发，乘坐出租车是最便捷的方式，车程约20分钟，费用约15欧元。若从市中心的火车站或巴士总站步行，沿着弗尔巴斯河岸向西漫步约15-20分钟即可抵达要塞东侧入口。市内也有多条公交线路（如1路、2路、6路）停靠“Kastel”或“Gospodska ulica”站，班次频繁，单程票约1欧元。建议购买一日交通卡，方便在城市内探索。`} />
             </div>
@@ -184,7 +184,7 @@ export default function BanjaLukaKastelFortressPage() {
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-purple-900 mb-2">{`隐世之选`}</h4>
-                  <p className="text-sm text-purple-800">{`开车15分钟外的“乡村家庭旅馆”，位于宁静的村庄里，可以体验真正的波黑家庭 hospitality，品尝主人自酿的拉基亚水果白兰地和从菜园直接采摘烹调的晚餐。`}</p>
+                  <p className="text-sm text-purple-800">{`开车15分钟外的“乡村家庭旅馆”，位于宁静的村庄里，可以体验真正的波斯尼亚和黑塞哥维那家庭 hospitality，品尝主人自酿的拉基亚水果白兰地和从菜园直接采摘烹调的晚餐。`}</p>
                 </div>
               </div>
               <div className="text-gray-700 leading-relaxed">

@@ -4,7 +4,7 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '波黑历史溯源｜石头阶梯古村的前世今生与奥斯曼传奇',
+  title: '波斯尼亚和黑塞哥维那历史溯源｜石头阶梯古村的前世今生与奥斯曼传奇',
   description: '悬崖上的奥斯曼帝国前哨，波奇泰利。一座用石头写成的史诗，历经战火与遗忘，如今时间在此凝固。深入探寻它的防御密码、诗人轶事与不朽传说。',
 }
 
@@ -16,14 +16,14 @@ export default function PoIteljHistorijaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
-            { label: '波黑', href: '/destinations/europe' },
+            { label: '波斯尼亚和黑塞哥维那', href: '/destinations/europe' },
             { label: '黑塞哥维那-内雷特瓦州', href: '/destinations/europe' },
             { label: '波奇泰利', href: '/attractions/po-itelj-historija-history' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`波奇泰利・Počitelj・波黑・黑塞哥维那-内雷特瓦州`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`波奇泰利・Počitelj・波斯尼亚和黑塞哥维那・黑塞哥维那-内雷特瓦州`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {``}
           </p>
@@ -41,7 +41,7 @@ export default function PoIteljHistorijaHistoryPage() {
                 <InfoRow label="中文名称" value={`波奇泰利`} />
                 <InfoRow label="英文名称" value={`Počitelj`} />
                 <InfoRow label="正式名称" value={`Počitelj`} />
-                <InfoRow label="国家" value={`波黑`} />
+                <InfoRow label="国家" value={`波斯尼亚和黑塞哥维那`} />
                 <InfoRow label="城市" value={`黑塞哥维那-内雷特瓦州`} />
               </div>
               
@@ -66,7 +66,7 @@ export default function PoIteljHistorijaHistoryPage() {
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，第二个印记是<strong>1685年的炮火与创伤</strong>。随着奥斯曼与威尼斯争夺亚得里亚海沿岸控制权，战火烧到了内雷特瓦河。威尼斯名将<strong>弗朗切斯科·莫罗西尼</strong>率领大军围攻波奇泰利。持续数周的炮击，几乎将这座石城化为废墟。瞭望塔被毁，城墙坍塌，清真寺受损。这次围城是致命的，它终结了波奇泰利作为边境重镇的黄金时代，人口锐减，繁华不再。" }} />
               <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "一位威尼斯军官在战地日记中写道：“我们的大炮对着那座悬崖上的巢穴怒吼了十八天。石头在燃烧，灰尘遮天蔽日。当我们最终登上废墟时，只剩寂静与死亡。”" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第三个印记，是<strong>20世纪的沉浮与“新生”</strong>。二战后，南斯拉夫政府将其列为国家级文化遗产，启动了缓慢的修复。但真正有趣的篇章发生在<strong>1960至1970年代</strong>。一群来自萨拉热窝和贝尔格莱德的画家、雕塑家被这里与世隔绝的沧桑之美吸引，自发前来居住创作。他们修复老屋作为画室，将波奇泰利变成了一个非官方的<strong>艺术家殖民地</strong>。战争废墟，意外成为了前卫艺术的温床。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "可惜，<strong>1992-1995年的波黑战争</strong>再次重创此地。波奇泰利处于前线，遭到炮击，包括清真寺在内的许多建筑严重受损。战后的国际援助项目小心翼翼地复原了它。今天你看到的，是一个在废墟上重建的“原版”，伤痕依旧可见，却更显厚重。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "可惜，<strong>1992-1995年的波斯尼亚和黑塞哥维那战争</strong>再次重创此地。波奇泰利处于前线，遭到炮击，包括清真寺在内的许多建筑严重受损。战后的国际援助项目小心翼翼地复原了它。今天你看到的，是一个在废墟上重建的“原版”，伤痕依旧可见，却更显厚重。" }} />
             </div>
           </Section>
 
@@ -74,7 +74,7 @@ export default function PoIteljHistorijaHistoryPage() {
             <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "波奇泰利的风骨，不仅在于石头，更在于与石头共呼吸的人。其中两位，一位用笔，一位用砖，定义了这座城的灵魂。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>诗人与战士：伊利亚斯·哈吉-穆罕默多维奇</strong>" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在波黑文学史上，<strong>伊利亚斯·哈吉-穆罕默多维奇</strong>并非最闪耀的名字，但他的生命与波奇泰利交织之深，无人能及。他生于<strong>17世纪早期</strong>的波奇泰利，成长于奥斯曼文化的熏陶下，精通波斯语、阿拉伯语与土耳其语，是一名出色的诗人，用细腻的笔触描绘故乡的自然与信仰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在波斯尼亚和黑塞哥维那文学史上，<strong>伊利亚斯·哈吉-穆罕默多维奇</strong>并非最闪耀的名字，但他的生命与波奇泰利交织之深，无人能及。他生于<strong>17世纪早期</strong>的波奇泰利，成长于奥斯曼文化的熏陶下，精通波斯语、阿拉伯语与土耳其语，是一名出色的诗人，用细腻的笔触描绘故乡的自然与信仰。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，时代的巨变将他推向了另一条路。当威尼斯军队兵临城下，这位文人毅然拿起了武器。<strong>1685年</strong>，他作为本地守军的指挥官之一，亲身经历了那场惨烈的围城。城破之后，他被俘并被押往威尼斯。关于他的结局，一说他在狱中逝世，另一说他最终被赎回，在颠沛流离中度过余生，再未回到已成废墟的故乡。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的诗作大多散佚，但留存下的片段，充满了对波奇泰利深沉的眷恋与一种悲剧性的预感。他笔下的故乡，是“鹰巢”，是“石头的祈祷”。他本人，则成了这座城<strong>文武双全却又悲剧性命运</strong>的化身——一个文化的创造者，最终被自己时代的战争机器所吞噬。如今，波奇泰利的一条小径以他的名字命名，游客踩过的石阶，或许正是这位诗人兼战士曾经守卫过的地方。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>建造者：哈吉-阿利</strong>" }} />

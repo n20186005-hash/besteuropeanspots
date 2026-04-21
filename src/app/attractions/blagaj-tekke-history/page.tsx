@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '波黑布拉加伊历史溯源｜隐士之城的悬崖修道院与波斯尼亚苏菲传奇',
-  description: '探秘波黑“隐士之城”布拉加伊。悬崖之下，布纳泉畔，一座特基亚修道院如何成为苏菲派神秘主义的圣地？穿越奥斯曼与中世纪，聆听岩石、泉水与苦行僧的传说。',
+  title: '波斯尼亚和黑塞哥维那布拉加伊历史溯源｜隐士之城的悬崖修道院与波斯尼亚苏菲传奇',
+  description: '探秘波斯尼亚和黑塞哥维那“隐士之城”布拉加伊。悬崖之下，布纳泉畔，一座特基亚修道院如何成为苏菲派神秘主义的圣地？穿越奥斯曼与中世纪，聆听岩石、泉水与苦行僧的传说。',
 }
 
 export default function BlagajTekkeHistoryPage() {
@@ -16,14 +16,14 @@ export default function BlagajTekkeHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
-            { label: '波黑', href: '/destinations/europe' },
+            { label: '波斯尼亚和黑塞哥维那', href: '/destinations/europe' },
             { label: '布拉加伊', href: '/destinations/europe' },
             { label: '布拉加伊特基亚修道院', href: '/attractions/blagaj-tekke-history' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`布拉加伊特基亚修道院・Blagaj Tekke・波黑・布拉加伊`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`布拉加伊特基亚修道院・Blagaj Tekke・波斯尼亚和黑塞哥维那・布拉加伊`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {``}
           </p>
@@ -32,7 +32,7 @@ export default function BlagajTekkeHistoryPage() {
         <div className="space-y-8">
 
           <Section title="1. 导语">
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在波黑，如果莫斯塔尔的老桥象征着地理与文化的连接，那么东南方十几公里外的<strong>布拉加伊</strong>，则代表着精神的沉潜与归隐。这座小城最震撼的风景，莫过于从数十米高的灰白色悬崖腹地喷涌而出的<strong>布纳河源头</strong>，以及紧紧依偎在悬崖脚下、仿佛从岩石中生长出来的<strong>布拉加伊特基亚修道院</strong>。这里不是普通的景点，而是一处仍在低语的精神地标，一个关于水、石、神性与苦修的传奇。抛开游玩攻略，走进布拉加伊的尘封往事，遇见属于它的时光与传奇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在波斯尼亚和黑塞哥维那，如果莫斯塔尔的老桥象征着地理与文化的连接，那么东南方十几公里外的<strong>布拉加伊</strong>，则代表着精神的沉潜与归隐。这座小城最震撼的风景，莫过于从数十米高的灰白色悬崖腹地喷涌而出的<strong>布纳河源头</strong>，以及紧紧依偎在悬崖脚下、仿佛从岩石中生长出来的<strong>布拉加伊特基亚修道院</strong>。这里不是普通的景点，而是一处仍在低语的精神地标，一个关于水、石、神性与苦修的传奇。抛开游玩攻略，走进布拉加伊的尘封往事，遇见属于它的时光与传奇。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -41,7 +41,7 @@ export default function BlagajTekkeHistoryPage() {
                 <InfoRow label="中文名称" value={`布拉加伊特基亚修道院`} />
                 <InfoRow label="英文名称" value={`Blagaj Tekke`} />
                 <InfoRow label="正式名称" value={`Blagaj Tekke`} />
-                <InfoRow label="国家" value={`波黑`} />
+                <InfoRow label="国家" value={`波斯尼亚和黑塞哥维那`} />
                 <InfoRow label="城市" value={`布拉加伊`} />
               </div>
               
@@ -68,8 +68,8 @@ export default function BlagajTekkeHistoryPage() {
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它并非清真寺，而是<strong>特基亚</strong>——一种专门供伊斯兰教苏菲派教团进行集体修行、冥想和举行神秘主义仪式的场所。建造者选择了最震撼的位置：让建筑的一部分悬于水上，石基直接插入布纳泉涌出的池中。这绝非偶然。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在苏菲派的观念里，水是纯净与生命的象征，而巨大的石灰岩悬崖则代表着永恒与神性的威严。将修行场所置于二者之间，意味着修持者居于自然神力交汇的枢纽，便于进行<strong>“齐克尔”</strong>——一种通过反复颂念真主之名以达到入神状态的修行。" }} />
               <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "一位19世纪的旅行者在日记中写道：“建筑与自然在这里达成了神圣的共谋。瀑布的轰鸣是永恒的齐克尔声，岩石的阴影是沉思的斗篷。苦行僧们在此寻求的，或许正是将自我消融在这水石交响之中的境界。”" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第三个印记，是其罕见的<strong>共存韧性</strong>。特基亚在历史上并非一帆风顺。在<strong>奥匈帝国</strong>占领波黑后（1878年起），许多伊斯兰建筑被改建或废弃。然而，布拉加伊特基亚因其独特的美学与历史价值得以保存，甚至继续发挥着宗教功能。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "二战后，南斯拉夫社会主义时期对宗教活动有所限制，它曾一度被改为博物馆。但<strong>1990年代</strong>波黑战争后，随着宗教自由恢复，它又被交还给苏菲教团，再次成为活的修行所。这种跨越帝国、王国、联邦与共和国的持续生命力，使其成为波斯尼亚多元层积历史的活化石。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第三个印记，是其罕见的<strong>共存韧性</strong>。特基亚在历史上并非一帆风顺。在<strong>奥匈帝国</strong>占领波斯尼亚和黑塞哥维那后（1878年起），许多伊斯兰建筑被改建或废弃。然而，布拉加伊特基亚因其独特的美学与历史价值得以保存，甚至继续发挥着宗教功能。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "二战后，南斯拉夫社会主义时期对宗教活动有所限制，它曾一度被改为博物馆。但<strong>1990年代</strong>波斯尼亚和黑塞哥维那战争后，随着宗教自由恢复，它又被交还给苏菲教团，再次成为活的修行所。这种跨越帝国、王国、联邦与共和国的持续生命力，使其成为波斯尼亚多元层积历史的活化石。" }} />
             </div>
           </Section>
 

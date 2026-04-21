@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '波黑历史溯源｜布纳河泉眼修道院的前世今生，奥斯曼帝国的边疆传奇与苏菲派隐秘往事',
-  description: '探秘欧洲最独特的修道院：立于百米悬崖与汹涌泉眼之上。走进波黑布拉加伊特基亚，聆听奥斯曼帝国边疆史、神秘苏菲派苦修士的传奇，与千年泉眼的神话故事。',
+  title: '波斯尼亚和黑塞哥维那历史溯源｜布纳河泉眼修道院的前世今生，奥斯曼帝国的边疆传奇与苏菲派隐秘往事',
+  description: '探秘欧洲最独特的修道院：立于百米悬崖与汹涌泉眼之上。走进波斯尼亚和黑塞哥维那布拉加伊特基亚，聆听奥斯曼帝国边疆史、神秘苏菲派苦修士的传奇，与千年泉眼的神话故事。',
 }
 
 export default function BlagajTekijaHistoryPage() {
@@ -16,14 +16,14 @@ export default function BlagajTekijaHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
-            { label: '波黑', href: '/destinations/europe' },
+            { label: '波斯尼亚和黑塞哥维那', href: '/destinations/europe' },
             { label: '黑塞哥维那-内雷特瓦州', href: '/destinations/europe' },
             { label: '布拉加伊特基亚（布纳河泉眼的托钵僧修道院）', href: '/attractions/blagaj-tekija-history' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`布拉加伊特基亚（布纳河泉眼的托钵僧修道院）・Blagaj Tekija・波黑・黑塞哥维那-内雷特瓦州`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`布拉加伊特基亚（布纳河泉眼的托钵僧修道院）・Blagaj Tekija・波斯尼亚和黑塞哥维那・黑塞哥维那-内雷特瓦州`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {``}
           </p>
@@ -32,7 +32,7 @@ export default function BlagajTekijaHistoryPage() {
         <div className="space-y-8">
 
           <Section title="1. 导语">
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想象一座木石建筑，紧贴在百米高的垂直悬崖之下，脚下是欧洲最强劲的岩溶泉之一——布纳河(Buna)冰冷碧蓝的泉水喷涌而出。这并非幻想，而是波黑黑塞哥维那的现实奇观：<strong>布拉加伊特基亚</strong>。它不只是风景明信片，更是一把钥匙，能打开一扇通往<strong>奥斯曼帝国边疆史</strong>、<strong>伊斯兰神秘主义苏菲派</strong>，以及多种文明在此碰撞与融合的厚重之门。这里曾是为帝国先锋提供精神指引的苦修所，也曾是多元文化悄然对话的静谧角落。抛开游玩攻略，走进布拉加的尘封往事，遇见属于它的时光与传奇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想象一座木石建筑，紧贴在百米高的垂直悬崖之下，脚下是欧洲最强劲的岩溶泉之一——布纳河(Buna)冰冷碧蓝的泉水喷涌而出。这并非幻想，而是波斯尼亚和黑塞哥维那黑塞哥维那的现实奇观：<strong>布拉加伊特基亚</strong>。它不只是风景明信片，更是一把钥匙，能打开一扇通往<strong>奥斯曼帝国边疆史</strong>、<strong>伊斯兰神秘主义苏菲派</strong>，以及多种文明在此碰撞与融合的厚重之门。这里曾是为帝国先锋提供精神指引的苦修所，也曾是多元文化悄然对话的静谧角落。抛开游玩攻略，走进布拉加的尘封往事，遇见属于它的时光与传奇。" }} />
           </Section>
 
           <Section title="2. 基本信息">
@@ -41,7 +41,7 @@ export default function BlagajTekijaHistoryPage() {
                 <InfoRow label="中文名称" value={`布拉加伊特基亚（布纳河泉眼的托钵僧修道院）`} />
                 <InfoRow label="英文名称" value={`Blagaj Tekija`} />
                 <InfoRow label="正式名称" value={`Blagaj Tekija`} />
-                <InfoRow label="国家" value={`波黑`} />
+                <InfoRow label="国家" value={`波斯尼亚和黑塞哥维那`} />
                 <InfoRow label="城市" value={`黑塞哥维那-内雷特瓦州`} />
               </div>
               

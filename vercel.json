@@ -404,6 +404,21 @@
       "source": "/attractions/turku-cathedral(/?)",
       "destination": "/attractions/turku-castle-sweden-finland",
       "permanent": true
+    },
+    {
+      "source": "/destinations/bosnia(/?)",
+      "destination": "/destinations/bosnia-and-herzegovina",
+      "permanent": true
+    },
+    {
+      "source": "/destinations/bohei(/?)",
+      "destination": "/destinations/bosnia-and-herzegovina",
+      "permanent": true
+    },
+    {
+      "source": "/destinations/saipulusi(/?)",
+      "destination": "/destinations/cyprus",
+      "permanent": true
     }
   ]
 }

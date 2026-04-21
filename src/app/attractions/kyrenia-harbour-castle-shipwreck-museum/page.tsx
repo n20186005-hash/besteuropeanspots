@@ -23,7 +23,7 @@ export default function KyreniaHarbourCastleShipwreckMuseumPage() {
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`凯里尼亚港与城堡（塞浦路斯）・Kyrenia Harbour & Castle・塞浦路斯（事实上由北塞浦路斯土耳其共和国控制）・凯里尼亚（当地土耳其语称“吉尔内”，Girne）`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`凯里尼亚港与城堡（塞浦路斯）・Kyrenia Harbour & Castle・塞浦路斯和土耳其・凯里尼亚（当地土耳其语称“吉尔内”，Girne）`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {`想象一下，你从一条蜿蜒的、飘着茉莉花香的小巷里钻出来，眼前豁然开朗。一片温柔的、蓝得不像话的地中海海湾，像一块巨大的、微微晃动的丝绒，毫无保留地铺展在你面前。这就是凯里尼亚港给你的第一记视觉直拳。空气是咸的，混合着烤鱼、新鲜油漆（总有小船在修补）和浓烈咖啡的复杂气味。耳边是叮叮当当的缆绳敲打桅杆声，像风铃，但又更结实；是渔民用你听不懂的土耳其语高声交谈的笑声；是海浪轻轻拍打古老石砌防波堤的、永恒的叹息声。
 港口呈完美的马蹄形，被色彩柔和的威尼斯式建筑环绕——那些有着木制百叶窗和鲜艳阳台的建筑，如今大多是餐厅和咖啡馆。而真正统治这一切的，是港口北端那座雄赳赳的、土黄色的凯里尼亚城堡。它不像童话里的城堡那么纤细精致，它矮壮、沉稳、棱角分明，像一个攥紧的拳头，深深地嵌入海中。阳光打在古老的石墙上，每一块石头都吸饱了热量，散发出干燥的历史气味。当地人早已习惯了它的存在，老人们坐在海堤上钓一整天的鱼，情侣们在城墙根下的长椅上看日落，它不再是遥远的景点，而是小镇日常生活最坚实、最沉默的背景板。
@@ -44,7 +44,7 @@ export default function KyreniaHarbourCastleShipwreckMuseumPage() {
                 <InfoRow label="中文名称" value={`凯里尼亚港与城堡（塞浦路斯）`} />
                 <InfoRow label="英文名称" value={`Kyrenia Harbour & Castle`} />
                 <InfoRow label="正式名称" value={`Kyrenia Castle and the Shipwreck Museum`} />
-                <InfoRow label="国家" value={`塞浦路斯（事实上由北塞浦路斯土耳其共和国控制）`} />
+                <InfoRow label="国家" value={`塞浦路斯和土耳其`} />
                 <InfoRow label="城市" value={`凯里尼亚（当地土耳其语称“吉尔内”，Girne）`} />
               </div>
               <div className="space-y-4">

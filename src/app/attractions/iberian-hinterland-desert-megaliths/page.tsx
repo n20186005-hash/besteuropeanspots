@@ -23,7 +23,7 @@ export default function IberianHinterlandDesertMegalithsPage() {
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`伊比利亚腹地：荒漠与巨石交响之地・The Hinterland of Iberia・西班牙，葡萄牙・葡萄牙：梅尔图拉，埃尔瓦什 | 西班牙：巴达霍斯省西部`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`伊比利亚腹地：荒漠与巨石交响之地・The Hinterland of Iberia・西班牙和葡萄牙・葡萄牙：梅尔图拉，埃尔瓦什 | 西班牙：巴达霍斯省西部`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {`车子驶离阿尔加夫海岸的绿意与喧嚣，向内陆开去不到一小时，世界仿佛被一键切换了滤镜。湛蓝的海水与度假公寓消失了，取而代之的是一望无际、起伏延绵的赭黄色荒原。空气瞬间变得干燥、炽烈，带着野生迷迭香和烤焦泥土的混合气味。风是这里永恒的主人，它呼啸着穿过低矮的橄榄树林，发出类似远古叹息的声音。这就是伊比利亚腹地，一个被大多数游客彻底忽略，却藏着欧洲最古老心跳的地方。它不是单一景点，而是一片辽阔的、沉浸式的时空剧场。
 你的第一眼震撼，往往来自那些沉默的巨石。它们不是精巧的宫殿，而是最原始、最巨大的存在。在阿尔莫纳斯特雷阿尔附近，你会猝不及防地与一群立石相遇。它们就那么突兀地矗立在荒草丛中，被五千年来的阳光晒得发黑，表面布满风蚀的孔洞。触摸上去，石头是温热的，质感粗糙得如同大地本身的皮肤。周边万籁俱寂，只有风声和虫鸣。你会不由自主地屏住呼吸，试图解读这些巨石的秘密——它们是指引星象的坐标？是部落祭祀的圣坛？还是远古巨人漫不经心丢下的玩具？没有答案，只有亘古的沉默与强大的磁场，让你感到自身的渺小与时光的浩渺。
@@ -44,7 +44,7 @@ export default function IberianHinterlandDesertMegalithsPage() {
                 <InfoRow label="中文名称" value={`伊比利亚腹地：荒漠与巨石交响之地`} />
                 <InfoRow label="英文名称" value={`The Hinterland of Iberia`} />
                 <InfoRow label="正式名称" value={`The Hinterland of Iberia`} />
-                <InfoRow label="国家" value={`西班牙，葡萄牙`} />
+                <InfoRow label="国家" value={`西班牙和葡萄牙`} />
                 <InfoRow label="城市" value={`葡萄牙：梅尔图拉，埃尔瓦什 | 西班牙：巴达霍斯省西部`} />
               </div>
               <div className="space-y-4">

@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: '莫斯塔尔历史溯源｜石桥上的城市，前世今生与战火重生的传奇',
-  description: '穿越奥斯曼帝国的荣光与波黑战争的创伤。探寻莫斯塔尔老桥不止于一座桥的故事——它是建筑奇迹、分裂符号，更是和解的永恒象征。',
+  description: '穿越奥斯曼帝国的荣光与波斯尼亚和黑塞哥维那战争的创伤。探寻莫斯塔尔老桥不止于一座桥的故事——它是建筑奇迹、分裂符号，更是和解的永恒象征。',
 }
 
 export default function StariMostMostarHistoryPage() {
@@ -16,14 +16,14 @@ export default function StariMostMostarHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
-            { label: '波黑', href: '/destinations/europe' },
+            { label: '波斯尼亚和黑塞哥维那', href: '/destinations/europe' },
             { label: '莫斯塔尔', href: '/destinations/europe' },
             { label: '莫斯塔尔老桥', href: '/attractions/stari-most-mostar-history' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`莫斯塔尔老桥・Stari Most・波黑・莫斯塔尔`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`莫斯塔尔老桥・Stari Most・波斯尼亚和黑塞哥维那・莫斯塔尔`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {``}
           </p>
@@ -41,7 +41,7 @@ export default function StariMostMostarHistoryPage() {
                 <InfoRow label="中文名称" value={`莫斯塔尔老桥`} />
                 <InfoRow label="英文名称" value={`Stari Most`} />
                 <InfoRow label="正式名称" value={`Stari Most`} />
-                <InfoRow label="国家" value={`波黑`} />
+                <InfoRow label="国家" value={`波斯尼亚和黑塞哥维那`} />
                 <InfoRow label="城市" value={`莫斯塔尔`} />
               </div>
               
@@ -67,10 +67,10 @@ export default function StariMostMostarHistoryPage() {
               <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“当最后的支架被移除时，建筑师深知，若计算有毫厘之差，整个建筑将瞬间崩塌。他悄悄地准备好了自己的葬礼。然而，当支撑木被砍断，石桥巍然不动，与两岸岩壁浑然一体。”" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这段民间传说，道尽了建造时的如履薄冰与成功后的狂喜。<strong>1566年</strong>，老桥落成。它不仅是工程学的胜利，更是帝国力量与美学的宣示。其优美的弧线倒映在水中，形成一个完美的圆形，被诗人赞为“石制的月亮”。此后四百年，它岿然不动，目睹商队往来，见证城市在它两端繁荣滋长，成为奥斯曼文化遗产在巴尔干最璀璨的明珠之一。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二道印记：现代的伤痕 (1993年11月9日)</strong>" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光跃至20世纪末。随着南斯拉夫解体，波黑陷入惨烈的内战。莫斯塔尔成为波黑克族与穆族武装血腥争夺的焦点。老桥，这座曾经团结两岸的象征，在极端民族主义者的眼中，变成了对方民族身份和文化认同的“图腾”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光跃至20世纪末。随着南斯拉夫解体，波斯尼亚和黑塞哥维那陷入惨烈的内战。莫斯塔尔成为波斯尼亚和黑塞哥维那克族与穆族武装血腥争夺的焦点。老桥，这座曾经团结两岸的象征，在极端民族主义者的眼中，变成了对方民族身份和文化认同的“图腾”。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1993年11月9日，在经历了长达数日的密集炮击后，这座屹立了427年的石桥，在全世界电视镜头的注视下轰然坍塌，坠入内雷特瓦河。那不仅仅是一座建筑的毁灭。" }} />
               <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "一位当地老人在日记中写道：“他们不是在炸桥，他们是在炸掉我们的记忆，炸掉我们共同生活的最后证明。桥塌的那一刻，我的一部分也死了。”" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这一天，成为莫斯塔尔乃至整个波黑战争创伤的代名词。老桥的废墟沉在河底，如同一个巨大的伤口，将城市和人民彻底撕裂。东岸（穆族）与西岸（克族）从此物理与文化上彻底隔绝，城市一分为二。这道印记，是冰冷而暴烈的现代性对古老文明的一次精准摧毁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这一天，成为莫斯塔尔乃至整个波斯尼亚和黑塞哥维那战争创伤的代名词。老桥的废墟沉在河底，如同一个巨大的伤口，将城市和人民彻底撕裂。东岸（穆族）与西岸（克族）从此物理与文化上彻底隔绝，城市一分为二。这道印记，是冰冷而暴烈的现代性对古老文明的一次精准摧毁。" }} />
             </div>
           </Section>
 

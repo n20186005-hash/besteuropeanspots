@@ -16,14 +16,14 @@ export default function MoorsAndCastlesHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
-            { label: '西班牙，葡萄牙', href: '/destinations/europe' },
+            { label: '西班牙和葡萄牙', href: '/destinations/europe' },
             { label: '安达卢西亚，阿尔加维，埃斯特雷马杜拉等', href: '/destinations/europe' },
             { label: '摩尔人遗迹与伊比利亚古堡群', href: '/attractions/moors-and-castles-history' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`摩尔人遗迹与伊比利亚古堡群・The Lands of Moors and Castles・西班牙，葡萄牙・安达卢西亚，阿尔加维，埃斯特雷马杜拉等`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`摩尔人遗迹与伊比利亚古堡群・The Lands of Moors and Castles・西班牙和葡萄牙・安达卢西亚，阿尔加维，埃斯特雷马杜拉等`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {``}
           </p>
@@ -41,7 +41,7 @@ export default function MoorsAndCastlesHistoryPage() {
                 <InfoRow label="中文名称" value={`摩尔人遗迹与伊比利亚古堡群`} />
                 <InfoRow label="英文名称" value={`The Lands of Moors and Castles`} />
                 <InfoRow label="正式名称" value={`The Lands of Moors and Castles`} />
-                <InfoRow label="国家" value={`西班牙，葡萄牙`} />
+                <InfoRow label="国家" value={`西班牙和葡萄牙`} />
                 <InfoRow label="城市" value={`安达卢西亚，阿尔加维，埃斯特雷马杜拉等`} />
               </div>
               

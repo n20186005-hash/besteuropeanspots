@@ -4,8 +4,8 @@ import { InfoRow } from '@/components/InfoRow'
 import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: '亚伊采历史溯源｜瀑布上的波黑王国之都，南斯拉夫诞生的传奇前夜',
-  description: '揭秘波黑“鸡蛋城”亚伊采：瀑布上的王国之都，末代国王殉难地，铁托诞生的南斯拉夫传奇。走进瀑布轰鸣声中的千年史诗。',
+  title: '亚伊采历史溯源｜瀑布上的波斯尼亚和黑塞哥维那王国之都，南斯拉夫诞生的传奇前夜',
+  description: '揭秘波斯尼亚和黑塞哥维那“鸡蛋城”亚伊采：瀑布上的王国之都，末代国王殉难地，铁托诞生的南斯拉夫传奇。走进瀑布轰鸣声中的千年史诗。',
 }
 
 export default function JajceBosniaWaterfallFortressHistoryPage() {
@@ -16,14 +16,14 @@ export default function JajceBosniaWaterfallFortressHistoryPage() {
           items={[
             { label: '首页', href: '/' },
             { label: '历史人文', href: '/category/history' },
-            { label: '波黑', href: '/destinations/europe' },
+            { label: '波斯尼亚和黑塞哥维那', href: '/destinations/europe' },
             { label: '中波斯尼亚州', href: '/destinations/europe' },
             { label: '亚伊采', href: '/attractions/jajce-bosnia-waterfall-fortress-history' },
           ]}
         />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`亚伊采・Jajce・波黑・中波斯尼亚州`}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`亚伊采・Jajce・波斯尼亚和黑塞哥维那・中波斯尼亚州`}</h1>
           <p className="text-lg text-gray-600 mb-6">
             {``}
           </p>
@@ -32,7 +32,7 @@ export default function JajceBosniaWaterfallFortressHistoryPage() {
         <div className="space-y-8">
 
           <Section title="1. 导语">
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在波黑的心脏地带，有一座将瀑布轰鸣当作永恒背景音乐的中世纪古城。它并非寻常的山间要塞，而是两个王国先后陨落与一个现代国家奇迹诞生的十字路口。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在波斯尼亚和黑塞哥维那的心脏地带，有一座将瀑布轰鸣当作永恒背景音乐的中世纪古城。它并非寻常的山间要塞，而是两个王国先后陨落与一个现代国家奇迹诞生的十字路口。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里是<strong>亚伊采</strong>。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "作为<strong>波斯尼亚王国最后的王都</strong>，它见证了王冠坠地、信仰更迭的悲壮瞬间。数百年后，它又化身<strong>南斯拉夫联邦的“产房”</strong>，在二战硝烟中接生了一个崭新的国家构想。瀑布依旧奔腾，冲刷着岩石，也冲刷着被层层叠叠的历史浸透的城墙。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "抛开游玩攻略，走进亚伊采的尘封往事，遇见属于它的时光与传奇。" }} />
@@ -44,7 +44,7 @@ export default function JajceBosniaWaterfallFortressHistoryPage() {
                 <InfoRow label="中文名称" value={`亚伊采`} />
                 <InfoRow label="英文名称" value={`Jajce`} />
                 <InfoRow label="正式名称" value={`Jajce`} />
-                <InfoRow label="国家" value={`波黑`} />
+                <InfoRow label="国家" value={`波斯尼亚和黑塞哥维那`} />
                 <InfoRow label="城市" value={`中波斯尼亚州`} />
               </div>
               
@@ -107,7 +107,7 @@ export default function JajceBosniaWaterfallFortressHistoryPage() {
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "瀑布的轰鸣，滋养了无数神秘的想象。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最动人的传说，关乎城市本身。人们说，亚伊采的守护神并非圣人，而是那条创造瀑布的<strong>水之龙</strong>。它沉睡在普利瓦河地下溶洞的深处，它的呼吸化为地表永不枯竭的湍流，它的梦境则化为环绕古城的雾气。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "每当城市面临危难，瀑布的水声会变得异常汹涌，那是巨龙在深渊中翻身的警示。" }} />
-              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于 <strong>“国王的宝藏”</strong> ，则有另一个版本。传说末代国王斯捷潘·托马舍维奇在城破前，将波黑王国的国宝与大量黄金秘密藏于城堡之下错综复杂的地道或附近某个洞穴中。几个世纪以来，无数寻宝者试图破解这个谜题，但都以失败告终。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于 <strong>“国王的宝藏”</strong> ，则有另一个版本。传说末代国王斯捷潘·托马舍维奇在城破前，将波斯尼亚和黑塞哥维那王国的国宝与大量黄金秘密藏于城堡之下错综复杂的地道或附近某个洞穴中。几个世纪以来，无数寻宝者试图破解这个谜题，但都以失败告终。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "老人们说，宝藏被国王的诅咒守护着，只有心无贪念、真正热爱这片土地的人，才能在月圆之夜瀑布呈现银白色时，瞥见入口的微光。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而城市下方庞大的 <strong>“普利瓦湖与溶洞群”</strong> 本身，就是传说的舞台。其中一个溶洞深处，有一处被称作“教堂”的巨大穹窿，洞壁上有难以解释的古老刻痕。" }} />
               <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当地人说，那是中世纪 <strong>“波格米勒派”</strong> 异端教徒秘密集会的地点。他们在瀑布的巨响掩护下诵读自己的经文，相信流动的水能净化灵魂，并将他们的信仰铭刻在石头上，等待后人发现。" }} />
