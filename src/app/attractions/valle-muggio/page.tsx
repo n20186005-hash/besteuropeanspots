@@ -1,0 +1,147 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '穆焦山谷旅游攻略：探秘瑞士提契诺最南端百年冰窖与峡谷秘境',
+  description: '这份Valle Muggio深度游攻略带你走进瑞士提契诺州最南端的隐秘峡谷，探索百年石造冰窖与水磨坊，获取最实用的小众徒步攻略与避坑指南。',
+}
+
+export default function ValleMuggioPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '穆焦山谷', href: '/attractions/valle-muggio' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`穆焦山谷・Valle Muggio・瑞士・提契诺州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你觉得瑞士只有雪山和手表，那今天这份 **穆焦山谷私藏旅游攻略** ，可要带你彻底换换口味了。这里位于提契诺州最南端的角落，地图上几乎只是意大利和瑞士边界线上一道细细的褶皱。它不是热门景点，而是一个“活”着的、极其原生态的民族学露天博物馆。想象一下：一条深邃、狭窄的峡谷切开大地，里面散落着上百年来当地人用石头垒起的圆顶冰窖、仍在潺潺流水驱动的水磨坊，以及被遗忘的牧人小屋。整座山谷本身就是一件展品，安静地讲述着前工业化时代人类与自然共存的智慧。作为你的专属向导，这份 **穆焦山谷自由行指南** 请收好，我们将避开所有旅行团，来一场真正的时间回溯之旅。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你觉得瑞士只有雪山和手表，那今天这份 <strong>穆焦山谷私藏旅游攻略</strong> ，可要带你彻底换换口味了。这里位于提契诺州最南端的角落，地图上几乎只是意大利和瑞士边界线上一道细细的褶皱。它不是热门景点，而是一个“活”着的、极其原生态的民族学露天博物馆。想象一下：一条深邃、狭窄的峡谷切开大地，里面散落着上百年来当地人用石头垒起的圆顶冰窖、仍在潺潺流水驱动的水磨坊，以及被遗忘的牧人小屋。整座山谷本身就是一件展品，安静地讲述着前工业化时代人类与自然共存的智慧。作为你的专属向导，这份 <strong>穆焦山谷自由行指南</strong> 请收好，我们将避开所有旅行团，来一场真正的时间回溯之旅。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`穆焦山谷`} />
+                <InfoRow label="英文名称" value={`Valle Muggio`} />
+                <InfoRow label="正式名称" value={`Valle Muggio`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`提契诺州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`在宏大的欧洲历史叙事里，穆焦山谷的名字几乎不会被提及。没有王公贵族在此决战，也没有艺术家在此留下传世之作。然而，它的历史地位恰恰在于这种“沉默的在场”。这片山谷是阿尔卑斯山南麓一个鲜活的、凝固的时间胶囊。几个世纪以来，这里的居民发展出了一套精妙而可持续的山地生存系统。那些星罗棋布的石造建筑——尤其是用于在夏季储存冰雪以保存食物的“冰窖”（当地人称为“Nevère”）——是前冰箱时代人类工程学的杰出见证。它没有被战争或现代化彻底摧毁，而是以一种近乎“化石”的状态保存下来。2006年，整个穆焦山谷及其文化遗产被提名为“瑞士遗产”名录，并被学者视为研究阿尔卑斯山区传统农业社会、土地管理和社区协作模式的“露天教科书”。它的价值不在于影响了谁，而在于它完好地保留了“另一种可能”的生活样本。`} />
+                <InfoRow label="建筑特色" value={`漫步谷中，你会被一种粗粝而和谐的美感包围。这里的建筑主角是石头，来自山谷本身的灰色片岩。**冰窖**是最引人注目的存在：它们像一个个从山坡上冒出来的灰色石头穹顶，或半埋入土中，外形酷似爱斯基摩人的冰屋，但材质却无比坚硬。走近细看，石块未经精细打磨，不规则地层层叠砌，缝隙间填满了更小的石片和苔藓，透着一种手工的、有机的温度。圆顶的曲线非常优美，是为了结构的稳固和内部冷空气的循环。而**水磨坊**则多建在溪流边，同样是石墙木顶，巨大的木质水车轮往往已经静止，但石质的磨盘槽道里仿佛还残留着玉米粉的香气。这些建筑的色彩是大地色的——石头的灰、木头的褐、屋顶石板被风雨浸染出的深黑，以及攀附其上的、浓得化不开的绿苔与地衣。阳光透过树荫，在粗糙的石墙上投下跳跃的光斑，仿佛给这些古老的建筑注入了呼吸。`} />
+                <InfoRow label="建筑风格" value={`如果非要定义一种风格，那就是“提契诺乡土石构建筑”，一种纯粹的功能主义美学。它不属于任何一个著名的艺术运动（如哥特或巴洛克），而是地理、气候和资源的直接产物。**风格的核心体现就是“因地制宜”与“实用至上”**。圆顶冰窖的穹顶结构，不是为了美观，而是为了实现无柱的内部空间，最大化储冰容量，并且圆拱形能最好地分散上方土石的压力。厚重的石墙（通常超过一米厚）不是为了彰显财富，而是为了隔绝外部的炎热，充当天然的“保温层”。建筑几乎没有装饰性雕刻，所有的美感都来自材料本身的质感、精准的砌筑技术和与地形完美融合的姿态。你会看到磨坊紧贴着悬崖，冰窖嵌在背阴的坡地，村舍的朝向都是为了捕捉阳光和躲避北风。这是一种“长”出来的建筑，是人类智慧向自然地形谦卑妥协又巧妙利用的结果，堪称阿尔卑斯山生存哲学的石头宣言。`} />
+                <InfoRow label="文化价值" value={`穆焦山谷的文化价值，在今天这个追求高效和全球化的时代，显得尤为珍贵和具有启示性。对当地人而言，这些遗址不再是生产工具，而是祖先记忆和地域认同的锚点。它们证明了他们的祖辈并非“落后”，而是拥有极高生态智慧，创造了一套循环、零废弃的生存系统（冰窖用自然冰，磨坊用水能，建材取自本地）。山谷作为一个整体的“露天博物馆”，其管理理念本身就是文化价值的体现——它没有将建筑围起来收门票，而是通过修复的小径、精心设置的信息牌，引导游客在真实的景观中理解过去。它向现代游客传递的核心信息是：可持续生活并非未来的科技幻想，它存在于我们过去的实践中。来到这里，你消费的不是纪念品，而是一段关于资源节制、社区协作与适应自然的沉思。它像一面镜子，让我们反思现代生活的消耗模式，其文化影响力安静却深刻。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 穆焦山谷一日游路线与徒步攻略：从冰窖到磨坊的时空漫步`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行徒步路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好啦，地图拿出来（或者打开手机），我们的一日徒步攻略正式开始！**强烈建议你上午早点出发**，捕捉山谷最宁静的晨光。起点推荐设在**库廖（Cureglia）** 或**布鲁萨塔（Brusata）**附近有标识的徒步小径入口。上午的精力最好，我们先沿着清晰标记的“Sentiero delle Nevère”（冰窖之路）向上探索。这条路会带你串联起好几个保存完好的石造冰窖，你可以钻进半地下的阴凉空间（记得带头灯或手机照明），感受那股仿佛穿越百年的沁凉。中午时分，走到**阿尔比（Albi）**或**莫拉（Mora）** 这样的古老小村落附近，在村民经营的简单小餐馆或者自带干粮，在泉眼边的野餐区享用午餐，听着潺潺水声。下午的路线则沿着谷底的**布雷加利亚（Bregaglia）**溪流下行，重点参观修复后的水磨坊群，看看清澈的溪水如何推动古老的机械。全程徒步时间约4-5小时（含停留拍照和探索），路线有上有下，但坡度平缓，属于中等难度。傍晚时分，伴着夕阳的余晖缓缓走出山谷，结束这场充实的**穆焦山谷深度游**。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>布雷加利亚冰窖的“门”与“光”</strong>：一定要找一个可以进入的冰窖（如位于Sentiero delle Nevère沿线的）。低头穿过低矮的石砌门洞的瞬间，世界骤然安静，温度直降。阳光从唯一的入口斜射进来，在内部圆拱形的墙壁上切割出一道明亮的光柱，光柱里尘埃缓慢飞舞。用手触摸内壁，石头冰凉且潮湿，凝结着细密的水珠。站在中央抬头看穹顶，石块精确的垒砌形成一个完美的闭合，那种古老的工艺带来的稳定感，让人心生敬畏。你可以轻声说话，声音会在圆顶空间里产生奇妙的回响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>谷底水磨坊的“声音图谱”</strong>：走近一座修复后的水磨坊，别急着进去。先闭上眼睛听。最响亮的是不远处瀑布或溪流跌落的哗哗声；接着是引水渠里水流急促的汩汩声；最近处，是水流冲击木质水车叶片时，发出的有节奏的“咯噔—哗啦…”的循环声响，像一颗巨大的、缓慢跳动的心脏。睁开眼睛，看水流如何被石槽精准引导，看布满青苔的木轮如何被唤醒、缓缓转动。这是一首由水、木、石合奏的、延续了数百年的交响乐。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>圣灵小教堂的“孤独守望”</strong>：在徒步路线的某个高点上，你很可能会遇见一座极其微小的石砌教堂，比如位于阿尔比（Albi）上方的圣灵小教堂。它小到可能只能容纳三五个人。粗糙的石墙，简单的木门，屋顶的石板瓦。它没有华丽的壁画，但那份在旷野和群山怀抱中的孤独与虔诚，直击人心。站在它面前，你会瞬间理解，对于昔日散居在山谷各处的牧民和农民来说，这方寸之间的精神寄托是何等重要。它是风景里的一个句点，一个让灵魂歇脚的驿站。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>“喝”一口阿尔卑斯山泉</strong>：沿途你会经过多处用铁管或石槽引出的山泉。<strong>千万不要错过！</strong> 这是最地道的体验。蹲下身，用手捧起或直接用嘴接住流出的泉水。水是刺骨的冰凉，带着一丝清冽的甜味和淡淡的岩石矿物质气息。几百年来，徒步者、牧羊人和建造冰窖的工人都曾在此解渴。这一口泉水，是连接你与这座山谷生命线的最直接方式。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 穆焦山谷自由行避坑指南：交通、着装与安全贴士`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这份<strong>避坑指南</strong>能让你玩得更安心。第一，<strong>交通是最大难点</strong>。山谷公共交通班次非常稀疏（尤其是周末和冬季），务必提前在SBB（瑞士联邦铁路）APP或官网上查好前往“Cureglia”或“Brusata”的巴士时刻表，并计划好返程时间，错过一班可能就要等一两小时。强烈建议自驾，停车相对方便。第二，<strong>装备务必专业</strong>。这不是城市公园散步！必须穿<strong>防滑耐磨的徒步鞋</strong>，山路常有碎石和湿滑处。夏季也带一件防风外套，山谷阴凉处和冰窖内很冷。带上充足的水、高能量零食、防晒霜、帽子，以及一只<strong>手电筒或头灯</strong>（探索冰窖内部必备）。第三，<strong>安全与环保</strong>。部分冰窖结构古老，进入时注意头顶和脚下，不要攀爬损坏结构。全程沿标记好的徒步小径行走，不要擅自闯入私人牧场或密林。带上所有垃圾，做到“无痕山林”。提前下载好离线地图，因为谷内手机信号可能不稳定。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 穆焦山谷周边住宿与地道美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "山谷内几乎没有商业住宿，体验其宁静的最佳方式是住在周边提契诺风情的村镇。推荐<strong>门德里西奥（Mendrisio）</strong>或<strong>布鲁萨塔（Brusata）</strong>的家庭式民宿或农庄（Agriturismo）。这些地方通常由家族经营，房间温馨，早晨能吃到自家制的果酱和新鲜面包，主人往往能给你讲很多山谷的老故事。至于美食，徒步结束后，一定要在附近的<strong>格罗托（Grotto，一种典型的提契诺乡村餐馆）</strong> 大快朵颐。点一份用柴火慢炖的<strong> Brasato al Barolo</strong>（巴罗洛红酒炖牛肉），或经典的<strong> Risotto con Funghi</strong>（野生蘑菇烩饭）。配上一盘本地腌肉拼盘（Salumi Ticinesi），和一杯醇厚的<strong>梅洛（Merlot del Ticino）</strong>红酒。这些餐馆通常坐落在老葡萄藤下的庭院里，用粗糙的木桌石凳，食物味道扎实粗犷，是抚慰徒步后疲惫身躯的绝佳选择。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走出穆焦山谷，提契诺州的精彩还在延续。强烈推荐两个方向：第一，驱车或乘缆车前往<strong>门德里西奥山（Monte Generoso）</strong>。从山顶的观景台，你可以获得一个“上帝视角”，俯瞰刚刚徒步过的整个穆焦山谷如何像一道绿色的伤痕嵌在大地上，更能将卢加诺湖和阿尔卑斯山群峰尽收眼底，景象无比壮阔。第二，探访另一处文化遗产<strong>克雷佐谷（Valle di Creggio）</strong>，那里有同样古老的石屋村落和教堂，但氛围更加孤寂，游客更少。两者距离穆焦山谷都不远，能让你从“微观”的山谷生态细节探索，上升到“宏观”的提契诺山区景观欣赏，形成完美的旅行层次。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "穆焦山谷的灵魂，不在于它的险峻或秀美，而在于它那份“安静而磅礴”的智慧。它教会我们的不是征服自然，而是如何像溪水绕过石头一样，巧妙地、恭敬地与之共生。离开时，你带走的不是照片，而是一段关于时间、石头与流水的记忆，和一颗被古老智慧轻轻叩击过的心。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/oeschinen-lake" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    厄
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">厄希宁湖</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Oeschinensee</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/poschiavo-switzerland" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    波
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">波斯基亚沃</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Poschiavo</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gornergrat" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    戈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">戈尔内格拉特</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gornergrat</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -15,7 +15,7 @@ export default function VisegradCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/hungary' },
             { label: '维谢格拉德（多瑙河湾的云端皇宫遗址）', href: '/attractions/visegrad-castle' },
           ]}
         />

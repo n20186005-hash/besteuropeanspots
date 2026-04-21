@@ -15,7 +15,7 @@ export default function OrvelteOpenAirMuseumVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/netherlands' },
             { label: '奥尔韦尔特', href: '/attractions/orvelte-open-air-museum-village' },
           ]}
         />

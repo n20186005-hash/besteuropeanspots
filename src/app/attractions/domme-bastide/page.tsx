@@ -15,7 +15,7 @@ export default function DommeBastidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '多姆（俯瞰多尔多涅河谷的防御巴斯蒂德）', href: '/attractions/domme-bastide' },
           ]}
         />

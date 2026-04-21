@@ -1,0 +1,150 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '利尼亚雷斯-达贝拉旅游攻略：探秘星星山脉边缘的巨石城堡与滑翔伞圣地',
+  description: '这份葡萄牙Linhares da Beira深度游攻略，带你探索荒凉壮观的双塔罗马式城堡，体验“欧洲最佳”滑翔伞起飞场，感受石头山城的千年孤独与自由。',
+}
+
+export default function LinharesDaBeiraCastleParaglidingPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '利尼亚雷斯-达贝拉', href: '/attractions/linhares-da-beira-castle-paragliding' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`利尼亚雷斯-达贝拉・Linhares da Beira・葡萄牙・瓜达区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果我说在葡萄牙内陆，藏着一个仿佛被时间遗忘的“石头王冠”，你会心动吗？今天这份**利尼亚雷斯-达贝拉私藏旅游攻略**，就带你躲开人潮，直奔那片名为“星星山脉”（Serra da Estrela）的荒凉边缘。想象一下：你站在海拔800多米的山脊上，脚下是依着巨大花岗岩拔地而起的中世纪古村，而前方，两座威严的城堡塔楼像巨人的瞭望哨，刺破天际线。更酷的是，这座昔日抵御外敌的军事要塞，如今是风靡全球的滑翔伞极限运动圣地——古老石墙与现代飞行的碰撞，就在这里发生。作为你的专属向导，这份**自由行指南**请收好，我们将一起揭开这座山城的双重面纱：一半是深入石头肌理的千年历史，另一半，是拥抱无边天空的绝对自由。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果我说在葡萄牙内陆，藏着一个仿佛被时间遗忘的“石头王冠”，你会心动吗？今天这份<strong>利尼亚雷斯-达贝拉私藏旅游攻略</strong>，就带你躲开人潮，直奔那片名为“星星山脉”（Serra da Estrela）的荒凉边缘。想象一下：你站在海拔800多米的山脊上，脚下是依着巨大花岗岩拔地而起的中世纪古村，而前方，两座威严的城堡塔楼像巨人的瞭望哨，刺破天际线。更酷的是，这座昔日抵御外敌的军事要塞，如今是风靡全球的滑翔伞极限运动圣地——古老石墙与现代飞行的碰撞，就在这里发生。作为你的专属向导，这份<strong>自由行指南</strong>请收好，我们将一起揭开这座山城的双重面纱：一半是深入石头肌理的千年历史，另一半，是拥抱无边天空的绝对自由。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`利尼亚雷斯-达贝拉`} />
+                <InfoRow label="英文名称" value={`Linhares da Beira`} />
+                <InfoRow label="正式名称" value={`Linhares da Beira`} />
+                <InfoRow label="国家" value={`葡萄牙`} />
+                <InfoRow label="城市" value={`瓜达区`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`别看利尼亚雷斯现在宁静得只有风声和鹰啸，回到12世纪，这里可是葡萄牙建国初期疆土上的一道硬骨头、一颗关键铆钉。它的存在，直接关系到年轻的葡萄牙王国能否在基督教王国与摩尔人势力的拉锯战中，守住东北方向的防线。葡萄牙第一位国王阿方索·恩里克斯，在完成国家初步 Reconquista（收复失地运动）的版图规划时，就将目光投向了这片战略高地。城堡的建立，不仅仅是为了防御，更是一个强烈的政治信号：葡萄牙王国在此扎根，并向东凝视。它属于著名的“贝拉防线”城堡群之一，与蒙塔尔万、特兰科索等城堡遥相呼应，共同构成了一道守护王国腹地的石头锁链。在随后的几个世纪里，它见证了边境的纷争、领主的更迭，并在 Manueline 时期（16世纪初）进行了最后的加固。当烽火平息，它的军事使命结束，留下的，便是一座记录着葡萄牙民族诞生初期坚韧与决心的石头史诗，矗立在旷野之中，孤独而骄傲。`} />
+                <InfoRow label="建筑特色" value={`这里的建筑风格是**罗马式**，而且是极具葡萄牙本土特色、服务于军事目的的罗马式。你不需要懂复杂的建筑术语，只需感受：**厚重、坚固、实用**。罗马式风格的精髓——“坚固如堡垒”，在这里被诠释到了极致。看看那些墙壁，厚得惊人，窗户小得如同缝隙，都是为了最大限度地抵御攻击和严寒。城堡的拱门是典型的半圆拱，线条简洁有力。这种风格没有后来哥特式的轻盈飞天感，它强调的是扎根大地、抵御八面来风的稳定感。有趣的是，你在城堡内部和村庄教堂（如圣施洗约翰教堂）中，还能看到一些罗马式风格的雕刻痕迹，虽然朴素，但线条古朴有力，描绘着宗教故事。整座山城，就是一个巨大的罗马式建筑宣言，它告诉你，在中世纪的边境，生存是第一美学，而力量，就是最美的形式。`} />
+                
+                <InfoRow label="文化价值" value={`对于当地人而言，利尼亚雷斯远不止是一个旅游景点或历史遗迹。它是家族的根脉，是“贝拉人”坚韧性格的源头象征。许多村民的祖先世代居住在这些石头房子里，与严酷的自然环境和孤立的地理位置抗争。这种“石头文化”塑造了他们沉默、务实却又热情的性格。而对于现代社会，它的文化价值发生了奇妙的嬗变。城堡从“禁锢”和“防御”的象征，转变为“起飞”和“自由”的平台，这本身就是一个极具诗意的文化隐喻。每年，来自世界各地的滑翔伞爱好者聚集于此，他们敬畏地仰望古老的塔楼，然后从城墙边一跃而下，融入蓝天。古老的巨石见证了人类从守卫土地到征服天空的梦想演变。这里也成为户外运动文化、小众旅行文化与厚重历史对话的绝佳场所，吸引着那些不满足于打卡、渴望精神共鸣的旅行者。它教会我们：历史不是压在肩上的重担，而是可以助跑的坚实跑道。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 利尼亚雷斯-达贝拉一日游打卡路线攻略：从千年城堡到天空翱翔`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行经典路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的向导，咱们这么安排一天，精华和节奏都拿捏住！**上午（9:00-12:30）：沉浸石头史诗。** 一早从山下驱车盘旋而上，在晨光中第一眼看见山巅城堡的剪影。停车后别急着进村，先走到城堡下方的观景台，拍下它倚靠星星山脉的全景。然后从古老的**圣施洗约翰教堂**旁进入村庄，顺着鹅卵石主街（Rua Direita）缓缓上行，两旁是挂着天竺葵的古老石屋，注意看门楣上的古老徽章。直奔城堡入口，花一个多小时仔细探索两座主塔、城墙走道，在制高点感受360度的荒原狂风。**中午（12:30-14:30）：品味山间风味。** 下山回到村庄，找一家家庭餐馆，务必尝尝当地的“塞拉奶酪”、烟熏火腿和“阿索尔达”汤。**下午（14:30-日落）：体验飞行的灵魂。** 这个时段气流最稳定，是观赏或体验滑翔伞的黄金时间。前往城堡西侧的**滑翔伞起飞场**（有明确标识）。即使你不飞，也一定要在这里呆上一两个小时，看色彩斑斓的伞花如何以古老城堡为背景，一次次优雅地跃入深渊，滑向谷底的科瓦达贝拉湖。日落时分，金光洒满整个山谷，是最震撼的时刻。如果精力充沛，日落后再回老街逛逛，夜晚的石头城在星空下别有风味。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>城堡大门与盾徽</strong>：进入城堡的主拱门上方，镌刻着<strong>葡萄牙王国曼努埃尔一世的纹章</strong>——浑天仪。用手轻轻抚摸那被风雨模糊但仍清晰可辨的雕刻，你会瞬间被拉回大航海时代的荣耀。这个纹章不仅仅是一个装饰，它是国王的“到此一游”，宣示着王权对这座边境要塞的最终掌控。石匠的凿痕在今天看来依然充满力量感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>主塔楼顶的“风之交响”</strong>：攀上较高的那座主塔（记得穿防滑鞋！），当你从狭窄的螺旋石阶探身登上垛口，突如其来的狂风会给你一个最热烈的拥抱。站稳后极目远眺：东面是葡萄牙大陆的最高点——星星山脉的连绵雪峰（冬季）；西面是平坦如棋盘的内陆平原，一直延伸到天际线；脚下，村庄的红色屋顶像紧紧依偎在巨人脚边的积木。在这里，你能清晰听到风穿过箭孔发出的呜咽与呼啸，那是城堡自己的语言，诉说千年的守望。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>滑翔伞起飞瞬间</strong>：在起飞平台，找一个安全的位置静静观察。看飞行员铺开巨大的伞翼，检查绳索，等待风讯。最迷人的一刻，是起跑、拉升、双脚离地的瞬间。他们从坚实的、承载历史的岩石边缘助跑几步，然后地心引力仿佛失效，人如鸟儿般轻盈腾空。<strong>以灰黑色的千年城堡墙体为垂直画板，鲜亮的滑翔伞成为划过的最灵动一笔</strong>，古典与现代，沉寂与飞扬，在此刻达成完美的对视与共舞。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>老街的鹅卵石与门环</strong>：村中主街的鹅卵石被岁月磨得温润发光，拼嵌出海浪般的图案。请低头细看，也请留意两旁木门上的<strong>铁制门环</strong>。造型各异，有简洁的圆环，有海螺形状，甚至有蜥蜴或龙的小雕塑。每一个门环都被无数代人的手摸得锃亮，你可以想象数百年来，访客叩响门环，门后传来脚步声的生活图景。这是宏大历史叙事之下，最鲜活的生活肌理。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 利尼亚雷斯自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>防风防晒防温差，武装到牙齿</strong>：这里是山顶，天气说变就变。<strong>即使盛夏，也务必带一件防风外套</strong>，城堡上和起飞场的风能把你吹到怀疑人生。防晒霜、墨镜、帽子必不可少，高海拔紫外线极其强烈。最佳游览时间是<strong>春末（5-6月）和初秋（9-10月）</strong>，气候相对温和，野花盛开或秋色浸染，风景绝美。尽量避开冬季最冷的几个月，除非你想体验真正的“孤寂岭”风格。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿对鞋，保住脚踝</strong>：整个村庄和城堡都是凹凸不平的古老石头路、陡峭的台阶和光滑的斜坡。<strong>绝对不要穿高跟鞋或凉鞋！</strong> 一双抓地力强的徒步鞋或运动鞋是你的最佳伴侣。攀登城堡塔楼时，注意脚下，有些石阶磨损严重，需要手脚并用。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与观伞安全须知</strong>：此地公共交通极少，<strong>强烈建议自驾</strong>前往，导航定位准确。山路弯多，请小心驾驶。如果你是滑翔伞体验者，务必选择有正规资质、保险齐全的俱乐部（可提前在网上预订）。如果只是观看，<strong>务必听从现场教练指挥，远离起飞和降落区域</strong>，给飞行员留出足够空间。不要为了拍照而闯入危险地带，山顶边缘常有碎石松动，非常危险。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 利尼亚雷斯周边住宿与滑翔伞小镇美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "山城本身住宿选择很少，但有极具特色的<strong>石头房子改造的民宿</strong>，住在里面就像睡在历史里，夜晚静谧得只能听到风声。更推荐住在<strong>车程20分钟左右的瓜达市区（Guarda）或曼泰加斯（Manteigas）小镇</strong>，选择更多，生活便利。瓜达作为葡萄牙最高城市，本身也值得一游。餐饮方面，在山城的<strong>“O Albertino”</strong> 或 <strong>“Taberna do Gabão”</strong> 这类家庭餐馆，一定要点本地特色：<strong>“Chanfana”</strong>（红酒炖山羊）、<strong>“Serra da Estrela”奶酪</strong>（膏状，用勺子挖着吃，香气浓烈），配上一杯<strong>道（Dão）产区</strong>的红酒。在瓜达，可以尝试更精致的餐厅。如果运气好，在村里的小酒吧能碰到当地人，他们或许会请你喝一杯樱桃利口酒“Ginja”，那是来自山野的甜暖问候。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>蒙特里奥岩石（Penhas do Monteiro）</strong>：从利尼亚雷斯往星星山脉腹地开车约30分钟，你会看到一片超现实的花岗岩巨石阵。奇形怪状的岩石散落在高山草甸上，是徒步和摄影的天堂。这里比城堡更加荒凉孤寂，能让你更深刻地感受这片土地的地质力量。站在巨石之上，四下无人，只有风声掠过石缝的尖啸，是一种近乎冥想的体验。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>科尔武河观景台（Miradouro do Rio Corvo）</strong>：如果沿着山路继续探索，这个观景台可以让你从另一个角度俯瞰利尼亚雷斯。你会看到城堡和村庄是如何作为一个整体，傲然盘踞在悬崖之巅，背景是层峦叠嶂。这个视角能完美解释它为何被称为“不可攻克的要塞”。适合在离开前，作一次最后的回望与告别。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "利尼亚雷斯-达贝拉的灵魂，是石头与风的二重奏。石头是它的骨骼，记录了所有沉重的、防御的、扎根于大地的过往；风是它的气息，带来了轻盈的、自由的、向往天空的当下。在这里，你触摸的每一块岩石都有故事，而你头顶掠过的每一道伞影，都是正在书写的新诗篇。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/costa-nova-striped-houses" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科斯塔诺瓦</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Costa Nova</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/angra-do-heroismo" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    英
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">英雄港</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Angra do Heroísmo</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/foz-do-arello" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    福
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">福斯-杜阿雷柳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Foz do Arelho</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

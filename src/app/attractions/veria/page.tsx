@@ -15,7 +15,7 @@ export default function VeriaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '韦里亚古城', href: '/attractions/veria' },
           ]}
         />

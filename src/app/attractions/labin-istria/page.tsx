@@ -15,7 +15,7 @@ export default function LabinIstriaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/croatia' },
             { label: '拉宾', href: '/attractions/labin-istria' },
           ]}
         />

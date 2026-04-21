@@ -15,7 +15,7 @@ export default function AlcobacaAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '葡萄牙', href: '/destinations/portugal' },
             { label: '阿尔科巴萨修道院', href: '/attractions/alcobaca-abbey' },
           ]}
         />

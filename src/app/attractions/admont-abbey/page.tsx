@@ -15,7 +15,7 @@ export default function AdmontAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/austria' },
             { label: '阿德蒙特修道院', href: '/attractions/admont-abbey' },
           ]}
         />

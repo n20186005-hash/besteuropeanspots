@@ -1,0 +1,159 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '罗卡马杜尔历史溯源｜悬崖奇迹之城的前世今生、圣母传说与中世纪朝圣传奇',
+  description: '探秘法国悬崖上的神圣之城罗卡马杜尔。从传奇隐士到圣母奇迹，从圣雅各之路到国王的朝拜，揭开这座垂直小城尘封八百年的信仰与史诗。',
+}
+
+export default function RocamadourCliffCityHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '罗卡马杜尔悬崖城', href: '/attractions/rocamadour-cliff-city-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`罗卡马杜尔悬崖城・Rocamadour・法国・洛特省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在法国多尔多涅河谷的峭壁之上，有一座垂直生长于岩面的中世纪城镇，它本身就是一部镌刻在石灰岩上的信仰史诗。这里并非寻常要塞或村落，而是与<strong>圣地亚哥-德孔波斯特拉</strong>齐名的中世纪基督教世界第二大朝圣地，一个以“奇迹”为名的精神灯塔。它的历史，交织着隐士的神秘、圣母的显灵、战火的摧毁与浪漫主义的重生。抛开游玩攻略，走进<strong>罗卡马杜尔</strong>的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`罗卡马杜尔悬崖城`} />
+                <InfoRow label="英文名称" value={`Rocamadour`} />
+                <InfoRow label="正式名称" value={`Rocamadour`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`洛特省`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗卡马杜尔的诞生，源于一场神秘的死亡与一个不朽的传说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间需回溯到中世纪早期。根据当地最古老的文献记载，大约在<strong>1166年</strong>，修士们在古老的圣母礼拜堂祭坛下，发现了一具保存完好的男性遗体。这一发现震惊了整个基督教世界。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "遗体被认定为是圣经中的税吏<strong>撒该</strong>，相传他是耶穌的门徒，在逃亡至此时化身隐士，并在此终老。人们称他为 <strong>“圣阿马杜尔”</strong>。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“岩石中发现了圣洁的躯体，他面容如生，仿佛刚刚安睡。人们相信，正是这位圣徒的庇护，让此地成为神圣之所。” —— 12世纪编年史摘要" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，地名 <strong>Rocamadour</strong> 便由此而来，意为 <strong>“岩石上的阿马杜尔”</strong> 。但城镇的根源远比这更早。在圣徒遗骸发现之前，峭壁间的天然洞穴可能早已是早期基督徒或隐士的避难所。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "公元9世纪左右，第一批修士在此建立了最初的圣母小教堂。险峻的地形并非为了防御世俗敌人，而是为了实践一种极致的苦修与隔离，寻求与上帝更接近的“垂直”距离。城市，便围绕着这处最初的信仰核心，如同藤蔓般，在几乎垂直的崖壁上层层铺展、向上攀爬，形成了举世无双的“阶梯之城”格局。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的起源，从一开始就摒弃了常见的政治或经济动机，深深烙印着神圣与传奇的色彩。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗卡马杜尔的历史，是一部由“奇迹”书写，历经辉煌与劫难，最终在废墟中重获新生的史诗。其中三个印记，尤为深刻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一道印记：圣母奇迹与朝圣鼎盛（12世纪）</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "圣阿马杜尔遗骸的发现，只是序曲。真正将罗卡马杜尔推向神坛的，是一系列记载于《圣母奇迹录》中的神迹。这本成书于<strong>1172年</strong>的册子，收录了<strong>126项</strong>因向罗卡马杜尔黑圣母祈祷而发生的奇迹。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其中，最著名的是水手<strong>圣殿骑士团团员</strong>的获救。这吸引了无数海员、商旅、贵族乃至国王前来朝圣。它与通往西班牙的<strong>圣雅各之路</strong>的一条重要支线相连，成为朝圣者心中不可或缺的灵性站点。一时间，崖壁上教堂林立，旅舍遍布，香火鼎盛，罗卡马杜尔成为欧洲最具影响力的精神中心之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二道印记：战火、掠夺与漫长的沉寂（13-18世纪）</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "盛极必衰。<strong>英法百年战争</strong>（1337-1453）的烽火蔓延至此。作为战略要地和精神象征，罗卡马杜尔无法幸免。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1562年</strong>，法国宗教战争期间，新教胡格诺派军队攻占了这座天主教圣城。他们洗劫了圣殿，<strong>圣阿马杜尔的遗骸被付之一炬</strong>，无数珍宝散失。这场浩劫是毁灭性的，不仅摧毁了物质财富，更几乎掐断了朝圣的传承。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随后几个世纪，罗卡马杜尔逐渐被世人遗忘。朝圣之路荒芜，建筑在风雨中倾颓。它从欧洲的焦点，沦落为偏僻省区一个近乎废弃的悬崖村落，沉睡在时光的尘埃里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第三道印记：浪漫主义时代的重生（19世纪）</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转机出现在法国大革命之后。<strong>19世纪</strong>，浪漫主义思潮席卷欧洲，人们开始重新欣赏中世纪的历史与“废墟美学”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "一位关键人物出现了：当地主教。在他的大力推动下，一场大规模的修复运动于<strong>19世纪中叶</strong>展开。工程师和建筑师们小心翼翼地修复了<strong>大阶梯</strong>、圣母教堂和城堡。这次修复并非完全复古，而是带着浪漫主义的想象，重新“建构”了人们心目中那个庄严、神秘的中世纪圣城形象。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "正是这次重生，为我们今天所见的罗卡马杜尔奠定了面貌，让它从历史的废墟中重新站立起来，再次迎接世界的目光。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗卡马杜尔的传奇，吸引了无数显赫的名字在此留下足迹。他们并非此地的长居者，但他们的朝圣行为，如同最强的背书，层层叠加着这座圣城的声望。其中两位的来访，最具代表性。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 圣女贞德：战士的祈祷</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1429年</strong>，一位改变法国命运的农家少女，正踏上她传奇的征程。在前往希农城堡面见王太子查理之前，<strong>圣女贞德</strong>与她的兄弟专程绕道，来到了罗卡马杜尔。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此时的法国，正处在百年战争最黑暗的时期。贞德来到这里，绝非普通旅行。她攀登那著名的<strong>216级朝圣大阶梯</strong>（许多虔诚者以膝盖跪行而上），来到黑圣母像前。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我们可以想象，这位自称受到“神启”的少女，在决定国家命运的关键时刻，来到这处闻名遐迩的奇迹之地，是为了寻求指引、确认使命，还是祈求胜利？史料没有记载她的具体祷词，但这次朝圣本身，就将罗卡马杜尔与她神圣的救国使命联系在了一起。她的到来，为这座圣城增添了民族英雄的虔诚注脚。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. 英格兰国王亨利二世：罪人的忏悔</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在贞德到来之前两个半世纪，另一位重量级人物以更为轰动的方式，将罗卡马杜尔推上头条。他便是英格兰国王<strong>亨利二世</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1159年</strong>，亨利二世在与法兰西国王路易七世的战争中，围攻了图卢兹。这场战役本身并不出奇，但问题在于，图卢兹伯爵是路易七世的弟弟，而亨利二世的妻子，正是路易七世的前妻——那位传奇的<strong>阿基坦的埃莉诺</strong>。这场战争，在教会看来带有“不义”的色彩。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "更重要的是，亨利二世与挚友、坎特伯雷大主教<strong>托马斯·贝克特</strong>的矛盾正日益激化（数年后，贝克特即在坎特伯雷大教堂被亨利二世的骑士杀害）。或许是为了平息内心的不安，或许是为了舆论，<strong>1170年</strong>，亨利二世专程渡海来到罗卡马杜尔进行朝圣忏悔。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“国王卸下王袍，赤足攀爬阶梯，谦卑地祈求圣母宽恕。他在此留下大量捐赠，包括一条象征王室权威的纯金镣铐，以此将自己‘束缚’于圣母脚下。” —— 中世纪朝圣记录" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "一位权势滔天的国王，以最卑微的苦修者姿态在此忏悔，这无疑是对罗卡马杜尔灵验性与权威性的终极认证。这个消息传遍欧洲，极大地刺激了朝圣热潮。亨利二世的朝圣，是罗卡马杜尔<strong>12世纪黄金时代</strong>最耀眼的高光时刻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些名人传奇并非偶然。它们揭示了一个逻辑：罗卡马杜尔因其“奇迹”声望，成为了权力者寻求精神合法性、罪人寻求灵魂救赎的顶级舞台。他们的到来与馈赠，又进一步反哺和提升了圣城的地位，形成了一个神圣声望的循环。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在罗卡马杜尔，最核心的传说并非关于建城，而是关于那座使城市不朽的圣像——<strong>黑圣母</strong>。她的故事，比圣阿马杜尔的发现更早，也更富神性。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "相传，这座木制的圣母抱子像，是由圣经人物、耶稣的门徒<strong>圣亚玛丢</strong>（后与圣阿马杜尔传说融合）亲手雕刻而成。在罗马帝国迫害基督徒的时期，圣像被秘密藏匿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转到中世纪早期。一位虔诚的牧羊人，受到天堂之音的指引，来到罗卡马杜尔的峭壁前。他的公牛突然失控，用蹄子疯狂地刨击一处岩壁。岩石剥落，竟显露出一个隐藏的洞穴。牧羊人走入洞中，在微光里，他看到了静静矗立着的、面容慈祥黝黑的圣母圣婴像。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“公牛不愿离去，以蹄叩石，如叩天国之门。石开，圣光自内出，圣母之容现焉，其面如古木，沉静而深邃。” —— 当地古老歌谣传唱" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "圣像由此重见天日，被供奉于最初开凿在岩壁上的小教堂内。因为几个世纪在密闭洞穴中被烟熏火燎（另一种说法是木质氧化的结果），圣像通体呈深褐色，故被称为“黑圣母”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说，这座圣母像具有庇护水手免于海难、治愈不治之症的神力。无数还愿牌——描绘获救船只的小银船、代表康复的肢体模型——挂满了教堂的墙壁，成为几个世纪以来无声却最有力的奇迹见证。黑圣母传说，是罗卡马杜尔一切信仰活动的核心起源，也是它灵魂所在。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当游客们惊叹于罗卡马杜尔险峻奇绝的垂直景观，乘坐电梯上下穿梭时，所见的不仅是地理奇观，更是一部浓缩的、立体的欧洲精神史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它从苦修隐逸的初心诞生，因神迹与传说抵达声望的顶峰，又因时代战乱的残酷而几乎湮灭，最终在人们对往昔的浪漫怀想中重生。它的每一级阶梯、每一处岩凿教堂，都回荡着中世纪朝圣者的喘息、国王忏悔的私语、战士祈祷的密愿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂罗卡马杜尔，便读懂了中世纪信仰如何以最极致的方式，利用自然、塑造景观、凝聚人心。它不是一个“景点”，而是一个持续了八百年的“现象”。站在它的观景台上，俯瞰河谷，你凝视的并非风景，而是时间的层理与信仰的深度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座悬崖之城提醒我们，有些地方的存在，本就是为了承载超越世俗的重力，让人在攀登中，完成内心的仪式。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、徒步路线全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gargilesse-dampierre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    加
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">加尔日莱斯-当皮埃尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gargilesse-Dampierre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/corte-citadel" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尔泰</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Corte</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/cordouan-lighthouse" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尔多昂灯塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cordouan Lighthouse</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

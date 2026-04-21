@@ -15,7 +15,7 @@ export default function CastilloDeZafraGuidePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '萨夫拉城堡', href: '/attractions/castillo-de-zafra-guide' },
           ]}
         />

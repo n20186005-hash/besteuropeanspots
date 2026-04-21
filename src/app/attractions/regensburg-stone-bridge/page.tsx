@@ -15,7 +15,7 @@ export default function RegensburgBridgePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '雷根斯堡石桥', href: '/attractions/regensburg-stone-bridge' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function DirouCavesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '迪洛斯溶洞', href: '/attractions/dirou-caves' },
           ]}
         />

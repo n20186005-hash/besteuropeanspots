@@ -15,7 +15,7 @@ export default function TromsoArcticCathedralPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/norway' },
             { label: '特罗姆瑟北极大教堂', href: '/attractions/tromso-arctic-cathedral' },
           ]}
         />

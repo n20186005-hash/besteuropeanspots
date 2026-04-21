@@ -15,7 +15,7 @@ export default function TravnikPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
             { label: '特拉夫尼克', href: '/attractions/travnik' },
           ]}
         />

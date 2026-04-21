@@ -15,7 +15,7 @@ export default function GradoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '格拉多古城', href: '/attractions/grado' },
           ]}
         />

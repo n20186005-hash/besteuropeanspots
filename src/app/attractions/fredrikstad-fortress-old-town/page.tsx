@@ -15,7 +15,7 @@ export default function FredrikstadFortressOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/norway' },
             { label: '腓特烈斯塔', href: '/attractions/fredrikstad-fortress-old-town' },
           ]}
         />

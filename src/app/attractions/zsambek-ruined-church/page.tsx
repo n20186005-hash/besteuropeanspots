@@ -1,0 +1,150 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '日山贝克修道院废墟旅游攻略：探秘地震遗迹与绝美建筑结构深度游指南',
+  description: '探索匈牙利佩斯州的日山贝克修道院废墟，一处融合晚期罗马式与早期哥特式风格的震撼遗迹。本深度游攻略带你揭开其沧桑历史与结构美学，提供完整的打卡路线与避坑指南。',
+}
+
+export default function ZsambekRuinedChurchPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '日山贝克修道院废墟', href: '/attractions/zsambek-ruined-church' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`日山贝克修道院废墟・Zsámbék Premonstratensian Church Ruins・匈牙利・佩斯州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你厌倦了布达佩斯的人潮，想找一处能让你安静发呆、内心震撼的地方，那今天这份 **日山贝克私藏旅游攻略** 就是为你准备的。开车从布达佩斯向西不到一小时，在佩斯州一片宁静的乡村间，你会突然撞见它——日山贝克修道院教堂的废墟。它不像那些修缮完好的景点等着被观赏，而是像一位沉默的巨人，带着1763年大地震留下的深刻伤疤，赤裸地站在天空下。作为你的专属向导，这份 **自由行指南** 将不仅仅告诉你门票与交通，更会带你读懂每一块石头上的故事，感受那种在极致破碎中诞生的、惊心动魄的结构之美。准备好一场关于时间、灾难与艺术的沉思之旅了吗？`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你厌倦了布达佩斯的人潮，想找一处能让你安静发呆、内心震撼的地方，那今天这份 <strong>日山贝克私藏旅游攻略</strong> 就是为你准备的。开车从布达佩斯向西不到一小时，在佩斯州一片宁静的乡村间，你会突然撞见它——日山贝克修道院教堂的废墟。它不像那些修缮完好的景点等着被观赏，而是像一位沉默的巨人，带着1763年大地震留下的深刻伤疤，赤裸地站在天空下。作为你的专属向导，这份 <strong>自由行指南</strong> 将不仅仅告诉你门票与交通，更会带你读懂每一块石头上的故事，感受那种在极致破碎中诞生的、惊心动魄的结构之美。准备好一场关于时间、灾难与艺术的沉思之旅了吗？" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`日山贝克修道院废墟`} />
+                <InfoRow label="英文名称" value={`Zsámbék Premonstratensian Church Ruins`} />
+                <InfoRow label="正式名称" value={`Zsámbék Premonstratensian Church Ruins`} />
+                <InfoRow label="国家" value={`匈牙利`} />
+                <InfoRow label="城市" value={`佩斯州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`日山贝克修道院的故事，是匈牙利中世纪宗教与政治力量交织的缩影，也见证了自然力量的残酷无情。这座教堂最初由普雷蒙特雷修会（Premonstratensian）于13世纪初兴建，这个修会在当时是推动基督教在匈牙利传播的重要力量。教堂的建造跨越了从罗马式风格向更轻盈、更向上的哥特式风格过渡的关键时期，这使得它本身就成了一部“石头写就的建筑史书”。在随后的几个世纪里，它一直是当地重要的宗教与社区中心。然而，它的历史在1763年戛然而止。一场毁灭性的地震袭击了该地区，教堂的拱顶和大部分墙体坍塌，留下了我们今天看到的残骸。这场灾难不仅摧毁了一座建筑，也永远改变了一个社区的生活轨迹。因此，日山贝克的废墟具有双重历史价值：它记录了匈牙利中世纪鼎盛时期的宗教艺术雄心，也成为了欧洲地震史上一个悲惨而具体的注脚。`} />
+                <InfoRow label="建筑特色" value={`走近这片废墟，第一眼的冲击力是无与伦比的。它没有任何屋顶，巨大的墙体直接切割着天空，阳光毫无遮拦地倾泻在内部的地面上。建筑的主要材料是当地的砂岩，历经风雨，呈现出一种温暖的、介于蜂蜜色与灰褐色之间的斑驳色调。最令人屏息的是其残存的结构本身：高大的西立面依然倔强地矗立，上面玫瑰窗的轮廓依稀可辨，虽然窗棂早已消失，但那圆形的空洞仿佛一只凝视苍穹的眼睛。侧面墙体上，你能看到一系列厚重的扶壁，这是罗马式建筑稳固性的体现，但它们支撑的，却是已经崩塌的、本该指向天空的哥特式拱顶的起拱点。地面上散落着巨大的石块，蔓生的野草从缝隙中钻出，生命与衰败在此形成奇妙的共生。傍晚时分，夕阳将长长的阴影投射在残垣断壁上，那些清晰的几何线条和深邃的暗影，构成了一幅极简而充满力量感的画面。`} />
+                <InfoRow label="建筑风格" value={`日山贝克教堂是晚期罗马式向早期哥特式过渡的“活化石”，这种混合风格在这里体现得淋漓尽致。罗马式风格的特征表现在其厚重、坚固的墙体，小而深的窗户（从残留的窗洞可判断），以及半圆形的拱券遗迹。你能感受到那种敦实、防御性的力量，仿佛建筑在紧紧拥抱大地。然而，就在这敦实之上，早期哥特式的灵魂已经开始萌动。最显著的证据是它平面布局中体现的“拉丁十字”形制和试图向上发展的空间野心。虽然拱顶已塌，但从墙体上留下的支撑结构（如束柱的基座）可以想象，建造者当时正试图用更复杂的肋拱技术来创造更高的内部空间，让光线更多地进入——这正是哥特式精神的精髓：让物质变得轻盈，让心灵通往天国。站在这片废墟中，你仿佛能看见两位建筑时代的巨人正在握手交接，而一场地震，将这个未完成的瞬间凝固成了永恒。`} />
+                <InfoRow label="文化价值" value={`对于现代人而言，日山贝克早已超越了单纯的宗教遗址意义。它不再是一个进行礼拜的场所，而是演变成了一个强大的文化符号和露天美术馆。首先，它是匈牙利国家遗产与集体记忆的一部分，提醒着人们自然力量的不可抗与生命的脆弱，这种“废墟美学”引发了关于永恒与短暂的哲学思考。其次，其独特的结构美感吸引了大量的艺术家、摄影师和建筑师前来。裸露的建筑骨架、光影在断壁上的舞蹈、自然对人工造物的重新侵蚀，这些景象提供了无尽的创作灵感。更重要的是，它成为了一个社区公园和宁静的沉思之地。当地人在这里散步，游客在这里凭吊历史，它以一种开放、不设防的姿态融入当代生活，成为连接过去与现在、灾难与美丽、失落与希望的一个独特节点。它教会我们，美有时正存在于不完美和伤痕之中。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 日山贝克修道院废墟一日游打卡路线攻略：从布达佩斯出发的时空漫步`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行精华路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`这份 **一日游路线** 主打悠闲与深度体验，适合不想赶路的你。**上午**：建议从布达佩斯租车或查询前往Zsámbék镇的巴士，车程约40-50分钟。早上10点左右抵达，这时光线柔和，适合拍照。先别急着冲进废墟，在环绕遗址的小径上走一圈，从各个角度远观它的全貌，感受它融入乡村环境的整体气势。**中午**：在废墟入口附近树荫下简单野餐（建议自备干粮和水），或者步行至小镇中心，找一家本地小餐馆（étterem）品尝匈牙利家常汤。**下午**：这是探索的黄金时间。深入废墟内部，花至少1-2小时慢慢踱步。用手触摸冰凉的砂岩，寻找墙壁上雕刻的细节，坐在某个倒塌的石柱上，静静感受风声掠过空旷的厅堂。记得仔细观察西立面和侧墙的建筑节点。如果感兴趣，可以查阅手机里提前存好的建筑复原图，在脑海中重构它昔日的荣光。**傍晚**：在日落前离开，回程路上不妨在某个高处回望，夕阳下的废墟会呈现出一天中最戏剧化的色彩。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>西立面玫瑰窗的“空洞之眼”</strong>：一定要站在正前方仰视它。虽然彩色玻璃和精细的石雕早已无存，但那个巨大的圆形窗洞依旧框住了天空的流云。随着时间推移，光线变化，这个“眼睛”里的景象从湛蓝到金黄再到暮紫，仿佛废墟在与天空进行一场无声的对话。仔细观察窗洞边缘，或许还能找到当年用于固定窗棂的石槽痕迹。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>墙体交接处的石刻“密码”</strong>：在残存墙体的一些角落，尤其是内墙底部，仔细寻找那些被岁月磨平了棱角的石刻符号。可能是某个石匠留下的简单标记，一个十字架，或是一段流畅的叶饰浮雕的残端。这些微小的细节是穿越时空的直接触手，让你想象800年前，工匠们在此劳作时的心境与技艺。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>地震撕裂的断口与自然共生</strong>：走近最大的坍塌面，看那些参差不齐的断裂痕迹，那是大地震暴力瞬间的凝固。然而，就在这些狰狞的伤口里，几百年下来，苔藓为其披上了绿绒，倔强的小树从石缝中生根。这种毁灭与重生、人工与自然的强烈对比，是日山贝克最动人的诗篇，记得用镜头捕捉一条从石头中挣扎而出的野花。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>扶壁与天空的几何构图</strong>：从侧面看去，一排排厚重的扶壁像巨人的肋骨伸向天空。下午的阳光会将这些扶壁的影子长长地投射在地面或对面的墙上，形成极其规整、富有节奏感的明暗条纹。这个角度是摄影爱好者的最爱，建筑的结构逻辑以一种最直观、最抽象的方式呈现出来。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>交通与时间避坑</strong>：公共交通班次有限，务必提前在匈牙利交通官网查询从布达佩斯到Zsámbék镇的巴士时刻表，并预留返程时间，避免错过末班车被困小镇。<strong>最佳游览时间</strong>是春季（5-6月）和秋季（9-10月），天气凉爽，草木丰茂，景色层次更丰富。夏季中午暴晒，废墟内毫无遮阴；冬季则可能荒凉寒冷，风雨交加。尽量选择工作日前往，你很可能享受到“包场”的宁静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿着与安全须知</strong>：这<strong>不是</strong>平整的观光栈道！<strong>务必穿着抓地力强的防滑徒步鞋或运动鞋</strong>，因为废墟内外地面不平，常有碎石和泥土。避免穿凉鞋或高跟鞋。进入废墟范围后，时刻注意脚下，切勿攀爬任何看起来不稳固的墙体。地震遗迹本身结构脆弱，人为攀爬既危险也是对文物的破坏。带小孩的游客务必看好孩子。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>设施与准备</strong>：景点非常“原生态”，<strong>没有售票处、没有商店、也没有公共厕所</strong>（需在小镇中心寻找）。请自带充足的饮用水和必要的零食。同时，准备好零钱（匈牙利福林）用于小镇消费。记得给手机、相机充满电，因为这里的美景会让你拍个不停，且镇上未必方便充电。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 日山贝克周边住宿与美食攻略：沉浸匈牙利乡村风情`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "日山贝克小镇本身住宿选择极少，更适合作为一日游目的地。如果你想沉浸于乡村宁静，可以考虑住在附近更大的城镇如<strong>埃尔德（Érd）</strong>或返回<strong>布达佩斯</strong>。在餐饮方面，游览结束后，强烈推荐你在Zsámbék镇中心找一家家庭式餐馆体验地道风味。可以尝试经典的 <strong>“匈牙利炖牛肉”（Gulyás）</strong> 或是 <strong>“渔夫汤”（Halászlé）</strong>，配上一杯本地葡萄酒。小镇的氛围安静祥和，餐馆里多是本地居民，价格亲民。如果只是想要一杯咖啡歇脚，小镇广场旁的咖啡馆是不错的选择。坐在户外，看着当地人悠闲的生活，你会感觉时间都慢了下来。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>格德勒皇宫（Gödöllő Palace）</strong>：从日山贝克往东北方向驾车约30分钟即可到达。这是匈牙利规模最大的巴洛克式宫殿，曾是奥匈帝国伊丽莎白皇后（茜茜公主）最钟爱的夏宫。与日山贝克的荒凉废墟形成鲜明对比，这里的宫殿建筑金碧辉煌，花园精致优雅，能让你一口气从中世纪跨越到19世纪的贵族生活，历史体验非常饱满。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>圣安德烈（Szentendre）</strong>：如果时间充裕，回布达佩斯的路上可以绕道这个位于多瑙河湾的著名艺术小镇，车程大约1小时。这里色彩斑斓的巴洛克建筑、众多的美术馆、工艺品商店和河畔风光，能为你充满沉思的一天，画上一个轻松、文艺又美味的句号。尝尝这里著名的罂粟籽蛋糕吧！" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "日山贝克修道院废墟的灵魂，不在于它曾经是什么，而在于它如今是什么——一首用石头、伤痕、光影和野草写就的，关于时间与存在的开放式诗篇。它不提供简单的答案，只给予凝视它的人以无尽的沉默与叩问。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/eszterhaza-palace-fertod" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    费
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">费尔特德埃斯泰尔哈兹宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eszterháza Palace</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/aggtelek-baradla-cave" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿格泰莱克溶洞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Aggtelek Karst (Baradla Cave)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kalocsa" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    考
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">考洛乔老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kalocsa</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

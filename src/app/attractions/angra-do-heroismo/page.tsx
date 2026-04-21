@@ -15,7 +15,7 @@ export default function AngraDoHeroismoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/portugal' },
             { label: '英雄港', href: '/attractions/angra-do-heroismo' },
           ]}
         />

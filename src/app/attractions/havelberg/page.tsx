@@ -15,7 +15,7 @@ export default function HavelbergPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '哈弗尔贝格', href: '/attractions/havelberg' },
           ]}
         />

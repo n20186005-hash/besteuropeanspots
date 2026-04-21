@@ -15,7 +15,7 @@ export default function MedievalCityRhodesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '罗德岛老城（骑士街）', href: '/attractions/medieval-city-rhodes' },
           ]}
         />

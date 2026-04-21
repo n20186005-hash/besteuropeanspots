@@ -15,7 +15,7 @@ export default function VillageDesBoriesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '戈尔德博里村', href: '/attractions/village-des-bories' },
           ]}
         />

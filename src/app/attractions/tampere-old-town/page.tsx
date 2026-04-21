@@ -15,7 +15,7 @@ export default function TampereOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/finland' },
             { label: '坦佩雷老城', href: '/attractions/tampere-old-town' },
           ]}
         />

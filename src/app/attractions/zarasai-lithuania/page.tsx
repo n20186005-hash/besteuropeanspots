@@ -15,7 +15,7 @@ export default function ZarasaiLithuaniaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '立陶宛', href: '/destinations/lithuania' },
             { label: '扎拉赛', href: '/attractions/zarasai-lithuania' },
           ]}
         />

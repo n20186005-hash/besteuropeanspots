@@ -15,7 +15,7 @@ export default function AnyksciaiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '立陶宛', href: '/destinations/lithuania' },
             { label: '阿尼克什奇艾', href: '/attractions/anyksciai' },
           ]}
         />

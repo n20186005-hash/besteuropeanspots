@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     description:
       "Discover 100 hidden gems across Europe — medieval old towns, forgotten abbeys, ancient ruins, and breathtaking natural wonders.",
   },
+  other: {
+    "google-adsense-account": "ca-pub-9279583389810634",
+  },
 };
 
 export default function RootLayout({
@@ -42,6 +45,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN" className={`${geistSans.variable} h-full antialiased`}>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9279583389810634"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
       <body className="min-h-full flex flex-col bg-white text-foreground">
         <Header />
         <main className="flex-1">{children}</main>

@@ -1,0 +1,169 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: 'The Three Cities历史溯源｜圣约翰骑士团的海防传奇与马耳他大围攻的前世今生',
+  description: '维托里奥萨、森格莱阿、科斯皮夸——The Three Cities，圣约翰骑士团在马耳他的最初堡垒。1565年大围攻的荣光战场，骑士、海港与不屈传说的前世今生。',
+}
+
+export default function ThreeCitiesHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '三姐妹城（圣约翰骑士团的最初海防线）', href: '/attractions/three-cities-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`三姐妹城（圣约翰骑士团的最初海防线）・The Three Cities・马耳他・马耳他大港区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果瓦莱塔是圣约翰骑士团加冕的王冠，那么隔水相望的三座半岛老城，便是铸造这顶王冠的熔炉与铁砧。这里是<strong>比尔古（Birgu）、森格莱阿（Senglea）和科斯皮夸（Cospicua）</strong>，统称“三姐妹城”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它们不是为观光而生的布景，而是马耳他骑士国汹涌澎湃的史诗起点。<strong>1565年</strong>那场决定地中海命运的伟大围攻，第一滴血与最后的凯歌，都铭刻在此的石墙与海堤之间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "抛开游玩攻略，走进The Three Cities的尘封往事，遇见属于它的铁血、信仰与时光传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`三姐妹城（圣约翰骑士团的最初海防线）`} />
+                <InfoRow label="英文名称" value={`The Three Cities`} />
+                <InfoRow label="正式名称" value={`The Three Cities`} />
+                <InfoRow label="国家" value={`马耳他`} />
+                <InfoRow label="城市" value={`马耳他大港区`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "三姐妹城的脉搏，与圣约翰骑士团的命运紧密相连。故事的开端，远在<strong>1522年</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "那一年，骑士团被奥斯曼苏丹苏莱曼大帝的大军逐出了经营两个世纪的罗德岛。漂泊七年后，神圣罗马帝国皇帝<strong>查理五世</strong>将马耳他群岛赐予了他们。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1530年</strong>，骑士团登陆这片“光秃秃的岩石”。他们急需一个易守难攻的海军基地。目光立刻锁定了马耳他主岛东南部那片天然良港——如今的大港（Grand Harbour）。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "港口南岸，三个如手指般伸入海中的狭长半岛，成了天选之地。它们彼此相依，又能互为犄角。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最东侧的半岛最早被选中，骑士团在此建立了他们的第一个据点，命名为<strong>比尔古（Birgu）</strong>。他们加固了半岛顶端的<strong>圣安杰洛堡</strong>，修建了码头、教堂和客栈（骑士团各“语系”的驻地）。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "很快，中间名为<strong>伊斯拉（Isla）</strong>的半岛也开始建设，因其狭长的地形，被昵称为<strong>森格莱阿（Senglea）</strong>，源自当时大团长的姓氏。最内侧的半岛则发展为<strong>科斯皮夸（Cospicua）</strong>，其名意为“显赫”，彰显其作为造船与后勤中心的地位。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "三座城的命运从此绑定。它们共同构成了骑士团在地中海的崭新“鹰巢”，一个为战争而生的海上要塞复合体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "“三姐妹城”这个充满温情的统称，其实是近代才流传开的浪漫说法。在长达数世纪的烽火岁月里，它们只有一个共同的名字——<strong>“骑士团在马耳他的最初防线”</strong>。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "三姐妹城的历史，是一部用火药、鲜血与石头写就的防御史诗。其中两个事件，彻底重塑了它们的筋骨与灵魂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一个，无疑是<strong>1565年的“马耳他大围攻”</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这是基督教欧洲与奥斯曼帝国之间的终极海上对决。超过四万奥斯曼大军压境，目标直指骑士团的核心——三姐妹城及圣安杰洛堡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战役初期，敌军首先猛攻港口北端的圣埃尔莫堡。经过惨烈厮杀，堡垒陷落。但这场消耗战为三姐妹城赢得了宝贵的喘息时间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随后，奥斯曼的炮火与士兵如潮水般涌向<strong>比尔古</strong>和<strong>森格莱阿</strong>。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“他们日夜不停地炮击，城墙在颤抖。但我们知道，身后是欧洲的咽喉，退无可退。”——一位匿名骑士的战场日记片段。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "森格莱阿的尖端堡垒被轰塌，比尔古的海墙多次被突破。守军与马耳他本地居民并肩作战，用血肉之躯填补缺口。最危急的时刻，连医院里的伤病员都挣扎着拿起武器。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这场围城持续了近四个月，最终以奥斯曼大军溃退告终。三姐妹城伤痕累累，但旗帜未倒。这场胜利被誉为“拯救了基督教欧洲”，也让骑士团和这三座城赢得了不朽的声名。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "为了纪念，比尔古被更名为<strong>维托里奥萨（Vittoriosa）</strong>，意为“胜利之城”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二个深刻印记，是<strong>1798-1800年，骑士团时代的终结</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "拿破仑在远征埃及途中，轻易地占领了马耳他。骑士团未作激烈抵抗便投降，黯然离开。三姐妹城的海防瞬间失去了灵魂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，法国人的统治不得人心。仅仅两年后，马耳他人民起义，将法军围困在瓦莱塔。英国皇家海军介入，马耳他自此成为英帝国在地中海的关键枢纽。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "角色发生了根本转变。三姐妹城从骑士团的神权军事堡垒，转型为英国皇家海军的重要造船厂和基地。<strong>科斯皮夸</strong>的船坞得到了极大扩展，开始为蒸汽铁甲舰服务。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这段英国殖民时期，给城市肌理增添了维多利亚时代的仓库与工坊，也使其在<strong>第二次世界大战</strong>中再次成为轴心国空军猛烈轰炸的目标。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "伤痕之上，叠加着伤痕。但每一次，石头都再次垒起。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这座为骑士精神而筑的城中，一位大团长的名字必须用火焰般的文字铭刻：<strong>让·德·瓦莱特（Jean de Valette）</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "瓦莱特并非出身最高贵的骑士。他来自法国一个中等贵族家庭，年轻时曾在北非做过一段时间俘虏。但多年的战火与磨难，将他锤炼成了钢铁般的战士与领袖。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1557年</strong>，他当选为骑士团大团长时，已年近七十。但所有人都感受到了他眼中那份冰冷的决心。他预见到奥斯曼必将卷土重来，于是疯狂地加固三姐妹城的防御。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他亲自监督城墙的加厚，督促储存粮草与火药。当<strong>1565年</strong>的围攻真的来临时，瓦莱特成为了整个防御体系的大脑与脊梁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的指挥所就设在比尔古前线。传说他每日身着全套甲胄，在最危险的城墙上巡视。他不仅指挥骑士，更懂得激励普通的马耳他士兵和平民。在圣埃尔莫堡陷落，敌军将俘虏斩首并将尸体抛入海湾后，瓦莱特的回应是将所有奥斯曼俘虏处决，并用大炮将他们的头颅轰回敌阵。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这是一种残酷的震慑，也表明了他决不妥协、战至最后一人的意志。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我们正在进行的，是一场信仰之战。如果我们战死，便是殉道；如果我们胜利，便是将基督之名从亵渎中解救。没有第三条路。”——据传为瓦莱特大围攻期间的讲话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最终，他等来了援军，也赢得了胜利。但瓦莱特的传奇并未止步于防守。大围攻后，面对几乎成为废墟的三姐妹城，他做出了一个更大胆的决定：在港口北侧的谢伯拉斯山脊上，兴建一座全新的、更坚固的首都。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是以他名字命名的——<strong>瓦莱塔（Valletta）</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，这位铁血英雄却未能亲眼看到新城的落成。<strong>1568年</strong>，他在马耳他安然离世，被安葬在瓦莱塔的<strong>圣约翰大教堂</strong>。但他最初战斗和胜利的地方，比尔古，已永远更名为“维托里奥萨”，成为他荣耀的第一座丰碑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在三姐妹城，你可以在<strong>胜利教堂</strong>感受到他的存在，可以在<strong>圣劳伦斯教堂</strong>（他曾是该教堂的牧师）想象他祈祷的身影。他不是一个遥远的雕像，而是这座城市灵魂里最坚硬的那块基石。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位不得不提的，是军事工程师<strong>弗朗西斯科·拉佩雷利（Francesco Laparelli）</strong>。大围攻后，瓦莱特邀请这位教皇的军事建筑师来到马耳他。正是拉佩雷利，绘制了瓦莱塔最初的理想化矩形网格城市规划图。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但同样重要的是，他对遭受重创的三姐妹城防御体系进行了现代化改造与强化。他设计的棱堡与炮台，使得这三座老城在后续 centuries 中依然保持着强大的防御功能。他是连接创伤过去与坚固未来的那位“医生”。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "坚硬的堡垒之下，流淌着柔软的民间记忆。三姐妹城的传说，往往与守护和奇迹有关。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在<strong>维托里奥萨</strong>的<strong>圣劳伦斯教堂</strong>，流传着这样一个故事：当年骑士团初抵马耳他，他们的舰队在<strong>1530年</strong>的圣劳伦斯节（8月10日）驶入大港。他们向这位殉道圣人祈祷，许愿若得到他的庇佑在此立足，将兴建一座宏伟的教堂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此后，这座教堂便成为骑士团在马耳他的第一个牧区教堂，也是<strong>大围攻期间</strong>的精神支柱。传说在炮火最猛烈的时候，教堂内的圣劳伦斯像曾显灵，保护建筑未被直接击中。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“老水手们常说，暴风雨夜经过大港，有时还能听到圣劳伦斯教堂的钟声，那是骑士团的亡灵仍在守护着海港的入口。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说围绕<strong>森格莱阿</strong>的别称“守望者之城”（Città Invicta）。大围攻中，森格莱阿的堡垒几乎被夷平，但一面绘有圣母像的城旗始终未被敌人的炮火击落。这被视为神迹，从此圣母也被尊为森格莱阿的守护神。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而关于“三姐妹”这个名称本身，民间也有诗意解读。人们将三座城拟人化为三位共同历经磨难、守望相助的姐妹：<strong>维托里奥萨是坚毅勇敢的大姐，森格莱阿是顽强不屈的二姐，科斯皮夸则是支撑家庭、提供补给的三妹</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些传说，将冰冷的历史石头，焐热成了有温度的家园记忆。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日漫步于三姐妹城，你会感到一种与瓦莱塔截然不同的气质。这里没有宽阔的广场与规整的棋盘街道，只有迷宫般狭窄、陡峭的巷弄，厚重的城墙直接浸入幽蓝的海水。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "每一步，都踩在历史的断层上。<strong>圣安杰洛堡</strong>的巨石沉默如初，<strong>宗教裁判官宫殿</strong>的幽暗走廊仿佛仍有低语，<strong>海事博物馆</strong>里陈列的，是骑士团纵横地中海的龙骨与风帆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里不是被打扮一新的历史主题公园。墙上清晰的弹痕，建筑上不同时代的修补印记，都在诉说着层叠的创伤与重生。你能触摸到的，是真实的、未经过度粉饰的“前世”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂三姐妹城，便是读懂了马耳他灵魂中那股<strong>混杂交织的坚韧</strong>——骑士的尚武、水手的冒险、信徒的虔诚，以及普通民众在一次次毁灭边缘抓住家园的顽强。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它提醒我们，有些地方的存在，本身就是为了<strong>抵御</strong>。为了抵御外敌，抵御时间，也抵御被遗忘。当你站在森格莱阿的瞭望台，看向对岸繁华的瓦莱塔，你会明白：所有的荣光与优雅，都始于此处最原始的生存与抵抗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里的故事，比任何攻略书上的打卡点都更厚重。它值得你放慢脚步，用想象力的耳朵，去倾听石头缝隙里传来的、<strong>1565年</strong>那个夏天的炮火与钟声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/popeye-village-malta" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    大
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">大力水手村</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Popeye Village</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/wied-iz-zurrieq" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    保
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">保拉谷（蓝窗遗址附近）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Wied iż-Żurrieq</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/three-cities" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    三
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">三姐妹城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Three Cities</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

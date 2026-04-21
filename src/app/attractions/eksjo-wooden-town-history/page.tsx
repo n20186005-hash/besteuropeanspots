@@ -1,0 +1,138 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '埃克舍历史溯源｜瑞典“烧不掉的木城”前世今生，与隐匿于斯莫兰高地的名人传奇',
+  description: '穿越1568年大火的灰烬，探访瑞典保存最完好的木造古城埃克舍。从橡树之地到“斯莫兰的明珠”，看建筑如何幸存，听诗人与工匠在此留下的永恒回响。',
+}
+
+export default function EksjoWoodenTownHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '埃克舍', href: '/attractions/eksjo-wooden-town-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`埃克舍・Eksjö・瑞典・延雪平省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在瑞典南部斯莫兰连绵的森林与湖泊之间，藏着一座被誉为“瑞典木造建筑瑰宝”的小城——埃克舍。它的标签不是宏伟的王宫，也不是喧嚣的港口，而是近乎奇迹般保存下来的、超过两百栋色彩柔和的古老木屋。它们整齐地排列在卵石街道两侧，仿佛时间在此凝固。然而，这座宁静小镇的历史，却始于一场毁灭性的烈焰。抛开游玩攻略，走进埃克舍的尘封往事，遇见属于它的坚韧、匠心与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`埃克舍`} />
+                <InfoRow label="英文名称" value={`Eksjö`} />
+                <InfoRow label="正式名称" value={`Eksjö`} />
+                <InfoRow label="国家" value={`瑞典`} />
+                <InfoRow label="城市" value={`延雪平省`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "埃克舍的源头，深植于斯莫兰高地茂密的橡树林中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的名字“Eksjö”本身便是一个地理注脚，源自古诺尔斯语，意为“橡树之地”或“橡树旁的湖泊”。这片土地最初的使命，便与森林和贸易紧密相连。早在中世纪，这里就已是一个重要的<strong>驿站</strong>和<strong>贸易点</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它坐落于连接瑞典南北的古老要道之上，是往来的商人、士兵与朝圣者必经的歇脚处。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>14世纪</strong>，埃克舍获得了城市的特许状，这标志着它从一个聚居地正式转变为一座具有行政和商业功能的城镇。初生的埃克舍围绕着一座中世纪教堂（圣玛丽亚教堂）发展起来，其最初的布局与功能，清晰反映了中世纪瑞典城镇的典型模式：一个服务于周边农业社区的贸易与宗教中心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的命运与木材深深绑定。广袤的森林提供了取之不尽的建筑原料，也奠定了其经济基础。木构建筑成为最自然、最经济的选择，一座座木屋拔地而起，形成了早期城镇的肌理。然而，木质建筑在带来温暖与便捷的同时，也埋下了巨大的隐患——火灾。这座“橡树之地”的未来，注定要在与火焰的博弈中跌宕起伏。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当然，与木构城市的永恒斗争并未结束。<strong>19世纪</strong>，火灾的阴影再次降临。<strong>1856年</strong>，又一场大火吞噬了城市的部分区域。但这一次，埃克舍人做出了一个影响深远的决定：<strong>不再向火灾屈服而改变建筑的本质</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们没有像许多同时代城市那样，转向砖石结构，而是选择忠于传统，严格依照历史样式和布局进行原貌重建。这一选择，需要极大的勇气与社区共识。它源于对故乡独特身份的深刻认同，以及对先祖所创建筑美学的自豪与坚守。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "正是这次<strong>19世纪的重建</strong>，巩固并最终完整保留了埃克舍作为木造城市博物馆般的风貌。它不仅是建筑的幸存，更是一种文化意志的胜利。因此，当你漫步在今天的埃克舍老街，你所看到的并非全是1568年的原物，而是一幅跨越数个世纪、由几代埃克舍人共同守护与续写的、活着的建筑史诗。每一块木板，每一抹颜色，都在诉说着 resilience（韧性）的故事。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位与埃克舍紧密相连的灵魂，是瑞典儿童文学的先驱之一——<strong>安娜·玛丽亚·鲁斯</strong>。她于<strong>1862年</strong>出生在埃克舍的一个富裕家庭。与塞德伯格塑造城市的外部形态不同，鲁斯用她的笔，为埃克舍乃至瑞典的儿童世界，描绘了温暖的色彩与想象的翅膀。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "鲁斯的童年就在埃克舍老城的木屋里度过，那些铺着鹅卵石的街道、幽静的后花园、集市日的喧嚣，都成为她日后创作中鲜活的背景。她是一位极具开创性的作家，在<strong>19世纪末20世纪初</strong>，她勇敢地摆脱当时儿童文学中浓重的说教风气，转而关注儿童的真实情感、日常生活与冒险幻想。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "她的代表作《<strong>长袜子</strong>》系列等作品，充满了对自然的亲近、对弱者的同情以及对独立精神的歌颂。这些主题，与斯莫兰地区质朴、坚韧、贴近自然的人文气质一脉相承。虽然她成年后长期居住在斯德哥尔摩，但埃克舍始终是她精神的故乡和创作的源泉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "她的故居至今仍保留在埃克舍老城，是一座明黄色的美丽木屋，向访客静静诉说着这位“瑞典的安徒生”的故事。鲁斯让埃克舍的名字，通过成千上万本童书，进入瑞典千家万户的睡前时光。她证明，一座小城所能孕育的伟大，可以超越砖木的界限，直抵心灵的最柔软处。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "围绕埃克舍的起源，流传着一个充满神秘色彩的古老传说。这个故事试图解释“橡树之地”这个名字最浪漫的由来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "相传，在很久很久以前，第一批来到此地的拓荒者，站在环绕的湖泊边，为寻找一个合适的定居点而踌躇。他们向当地的神灵祈求指引。夜幕降临时，一位长者梦到一位身披绿叶的森林精灵。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "精灵在梦中对他说：“明日清晨，去往湖畔阳光最先照耀的水面。在那里，你会看见一株巨大的<strong>橡树</strong>的影子，不是倒映在水中，而是从湖心向上生长，直指天空。在影子触及的岸边，便是你们家园的基石，它将受到森林的庇护，永享安宁与丰饶。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "次日拂晓，人们将信将疑地来到湖边。奇迹果然发生了：在初升旭日的奇特角度下，对岸一株参天橡树的影子，因水汽与光线的折射，看上去正如梦中所言，仿佛一株巨大的幻影之树从湖中升起，树冠没入晨光。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "拓荒者们便在影子所指的岸边打下了第一根木桩。他们认为这是神灵的启示，于是将此地命名为“Ek-sjö”（橡树-湖），以纪念这决定命运的景象。这个传说代代相传，成为埃克舍人对自己家乡“天命所归”的美好诠释。尽管今天的我们深知这是光学现象，但那份对森林与湖泊的敬畏，以及对家园起源的诗意想象，依然为这座木构小城披上了一层迷人的薄纱。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "行走在埃克舍，你踏过的不是普通的观光步道，而是一部以木头书写的、关于幸存与坚持的立体史书。它的价值远不止于“拍照很出片”。在这里，你能读到中世纪北欧城镇的原始模板，能触摸到“大国时代”战争与和平的脉搏，更能深切感受到一个社区面对灾难时，对自身文化根脉的惊人忠诚。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "埃克舍是一座<strong>活化石</strong>，但它拒绝成为博物馆里僵死的标本。它依然是一个充满生活气息的家园。这份“活着的完整性”，才是它最珍贵的人文魅力。它向现代旅人展示了一种可能性：发展与保护并非必然对立，现代化进程中可以保有不随波逐流的独特灵魂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你在鹅卵石上聆听自己的脚步声，在彩色木墙间感受阳光的倾斜，你正是在与数百年的北欧民间智慧、工匠精神以及乡土深情进行一场无声的对话。埃克舍的故事告诉我们，真正的传奇，有时就藏在那些安静地、倔强地保持自我的地方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gamla-uppsala" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    旧
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">旧乌普萨拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gamla Uppsala</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/linkping" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    林
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">林雪平老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Linköping</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ales-stenar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿莱石阵</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ale's Stones</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

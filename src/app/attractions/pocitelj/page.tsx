@@ -15,7 +15,7 @@ export default function PociteljPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '波黑', href: '/destinations/bosnia-and-herzegovina' },
             { label: '波契泰利城堡', href: '/attractions/pocitelj' },
           ]}
         />

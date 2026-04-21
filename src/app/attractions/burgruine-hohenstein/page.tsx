@@ -15,7 +15,7 @@ export default function BurgruineHohensteinPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/austria' },
             { label: '霍恩施泰因城堡遗址', href: '/attractions/burgruine-hohenstein' },
           ]}
         />

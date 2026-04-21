@@ -15,7 +15,7 @@ export default function LeuvenUniversityTownHallPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/belgium' },
             { label: '鲁汶大学城与市政厅', href: '/attractions/leuven-university-town-hall' },
           ]}
         />

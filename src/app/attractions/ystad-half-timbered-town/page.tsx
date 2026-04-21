@@ -15,7 +15,7 @@ export default function YstadHalfTimberedTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/sweden' },
             { label: '于斯塔德半木结构小镇', href: '/attractions/ystad-half-timbered-town' },
           ]}
         />

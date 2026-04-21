@@ -15,7 +15,7 @@ export default function TrebicJewishQuarterPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '特热比奇犹太区', href: '/attractions/trebic-jewish-quarter' },
           ]}
         />

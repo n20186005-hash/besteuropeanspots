@@ -4,6 +4,7 @@ export interface Attraction {
   name: string;
   englishName: string;
   country: string;
+  countrySlug?: string;
   city: string;
   slug: string;
   description: string;

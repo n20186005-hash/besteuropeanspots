@@ -1,0 +1,149 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '乌赫罗韦茨城堡自由行指南：探秘斯特拉若夫山脉的失落堡垒与终极打卡攻略',
+  description: '探索斯洛伐克特伦钦州神秘的Uhrovec Castle城堡废墟。这份深度游攻略提供一日游路线、避坑指南及交通贴士，带你解锁深藏山林的震撼奇景。',
+}
+
+export default function UhrovecCastleRuinsPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '乌赫罗韦茨城堡', href: '/attractions/uhrovec-castle-ruins' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`乌赫罗韦茨城堡・Uhrovec Castle・斯洛伐克・特伦钦州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你厌倦了那些被游人围得水泄不通的“明信片景点”，渴望一场真正带有冒险气息的旅行，那么今天这份 **乌赫罗韦茨城堡私藏旅游攻略**，就是为你准备的。它不是什么容易抵达的地方——它深藏在斯洛伐克西部人迹罕至的斯特拉若夫山脉（Strážovské vrchy）的密林深处，只剩下一副由岩石和岁月雕琢的骨骼。但相信我，当你气喘吁吁地拨开最后一丛树枝，看到那巨大、残破、却又无比威严的罗马式与哥特式城堡废墟突兀地耸立在悬崖之巅时，那种视觉与心灵的双重冲击，会让你觉得一切跋涉都值回票价。这份 **自由行指南**，就是你的专属向导，我会告诉你如何找到它、避开哪些坑，以及如何读懂这片石头诉说的千年孤独。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你厌倦了那些被游人围得水泄不通的“明信片景点”，渴望一场真正带有冒险气息的旅行，那么今天这份 <strong>乌赫罗韦茨城堡私藏旅游攻略</strong>，就是为你准备的。它不是什么容易抵达的地方——它深藏在斯洛伐克西部人迹罕至的斯特拉若夫山脉（Strážovské vrchy）的密林深处，只剩下一副由岩石和岁月雕琢的骨骼。但相信我，当你气喘吁吁地拨开最后一丛树枝，看到那巨大、残破、却又无比威严的罗马式与哥特式城堡废墟突兀地耸立在悬崖之巅时，那种视觉与心灵的双重冲击，会让你觉得一切跋涉都值回票价。这份 <strong>自由行指南</strong>，就是你的专属向导，我会告诉你如何找到它、避开哪些坑，以及如何读懂这片石头诉说的千年孤独。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`乌赫罗韦茨城堡`} />
+                <InfoRow label="英文名称" value={`Uhrovec Castle`} />
+                <InfoRow label="正式名称" value={`Uhrovec Castle`} />
+                <InfoRow label="国家" value={`斯洛伐克`} />
+                <InfoRow label="城市" value={`特伦钦州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`乌赫罗韦茨城堡可不是一座简单的贵族别墅，它在斯洛伐克的中世纪历史中扮演着至关重要的“守门人”角色。它最初建于13世纪下半叶，正值匈牙利王国（当时斯洛伐克是其一部分）巩固边境、防御外敌的关键时期。它的位置极其险要，扼守着从特伦钦通向波希米亚的重要商路和军事通道，是王国西北边境防御链上坚固的一环。在随后动荡的岁月里，它经历了多次易主和扩建，从最初的罗马式堡垒演变为更宏伟的哥特式城堡，见证了当地贵族家族（如巴托里家族）的兴衰。它的命运在18世纪初急转直下，在一场战乱中被焚毁，从此废弃，任由森林将其慢慢吞没。正因如此，它成了一座“时间胶囊”，其废墟的形态基本定格在18世纪初的模样，没有经过后世过多的修复和干扰，对于研究中世纪军事建筑和边境历史具有不可替代的原真性价值。`} />
+                <InfoRow label="建筑特色" value={`走近乌赫罗韦茨，第一眼绝对是震撼。它不是精致的，而是粗粝的、野性的。巨大的城墙依着山脊的天然岩石而建，仿佛是从山体里生长出来的怪物。最主要的材料就是本地开采的灰色石灰岩，经过几百年风雨，颜色变得深沉，覆满了深绿和灰黑的苔藓地衣。最引人注目的是那座高达数十米的主塔（Bergfrid）废墟，它像一根被巨斧劈开的手指，倔强地指向天空。塔身早已没有了屋顶和楼层，只剩下参差不齐的厚实墙体，阳光从巨大的缺口肆意穿过，在内部的地面上投下变幻莫测的光影。连接各部分的城墙大多已坍塌，形成一道道由乱石堆成的斜坡，野草和灌木从石缝中蓬勃钻出。整体色彩是一种高级的灰调“废墟色系”——岩石的冷灰、苔藓的墨绿、枯藤的赭石，在森林的浓绿背景衬托下，构成一幅充满力量感和悲剧美的画面。`} />
+                <InfoRow label="建筑风格" value={`乌赫罗韦茨城堡清晰地展现了从 **罗马式** 向 **哥特式** 过渡的混合风格。早期（13世纪）的 **罗马式** 特征体现在其极度厚重、坚固的墙体和小而高的窗口上，一切为了防御服务，造型敦实，线条简洁有力。你可以在城堡地基部分和某些残存的墙面上看到典型的半圆拱痕迹。而后期（14-15世纪）的扩建部分，则明显带上了 **哥特式** 的烙印。虽然同样是为了防御，但建筑变得更高、更挺拔，残存的窗框依稀能看出更修长的比例。更重要的是，其平面布局和塔楼的设计体现了更复杂的军事建筑思想，比如利用地形制造多层次防御。在这里，风格不是为了美观，而是生存技术的进化史。罗马式的“盾”与哥特式的“矛”在此融合，共同讲述着一个关于权力、恐惧与生存的冰冷故事。`} />
+                <InfoRow label="文化价值" value={`对于现代人，尤其是当地人，乌赫罗韦茨早已超越了一个历史遗迹的范畴。它成为一种精神象征，代表着斯洛伐克民族历史中坚韧、独立的一面。它隐匿于深山，拒绝了轻易的到访，这种“难以接近”的特质，反而激发了一种类似朝圣的情感。它出现在当地的诗篇、绘画和传说中，是“被遗忘的荣耀”的化身。在当代，它吸引了那些不满足于表面观光的徒步爱好者、历史迷和摄影师。它的存在提醒着人们，历史不仅有金碧辉煌的宫殿，也有这些在荒芜中沉默、却更接近历史真实质地的角落。探索乌赫罗韦茨，变成了一种主动的、需要付出体力和勇气的文化对话，这种体验本身，就是对快餐式旅游的一种反思。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 乌赫罗韦茨城堡一日游终极打卡路线攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`探险者专属的徒步与探索时间线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`听好，这份路线是为“探险式自由行”设计的，需要一整天和良好的体力。**早上（9:00-12:00）**：从最近的小镇出发（建议前一晚住在附近）。自驾或乘坐当地交通抵达徒步起点——通常是小村庄 Uhrovec 附近的山路入口。这是最挑战的一段，约1.5-2小时的持续上坡徒步，穿行在茂密的混合林间，路径明显但崎岖。**中午（12:00-14:30）**：抵达城堡废墟脚下。先别急着冲上去，在废墟外围的斜坡上找个安全的大石头坐下，吃点自带的三明治，用这个时间让心跳平复，静静打量这座庞然大物的全貌。然后开始核心探索，沿着残存的通道和阶梯，从不同角度攀爬、观察。主塔内部、残破的大厅、城墙顶端（注意安全！）都是必去点位。**下午（14:30-17:00）**：花足够时间拍照、发呆、想象。然后必须预留充足的下山时间（约1.5小时），务必在天黑前走出森林。下山后，驱车前往附近小镇，用一顿扎实的斯洛伐克晚餐犒劳自己。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>主塔的“天空之窗”</strong>：一定要设法（在绝对安全的前提下）站到主塔废墟的内部中心，抬头仰望。塔壁高耸，将天空切割成一个不规则的多边形天井。浮云快速掠过这狭窄的窗口，光线随之明灭变幻，那一刻你会感到自己仿佛置身于一口巨大的、通往过去的时光之井底部，静谧而神圣。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>石墙上的雕刻痕迹</strong>：仔细查看一些尚算平整的内墙石块，你可能会发现极其模糊的浅刻痕迹——可能是一个简单的十字架，或是一段难以辨认的铭文。指尖轻轻拂过这些冰冷石头上几乎被磨平的凸起，仿佛能触碰到某个中世纪石匠短暂的呼吸，那是穿越数百年、最私密也最动人的签名。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>西侧悬崖的视野</strong>：小心地移动到城堡西侧残存的城墙边缘（务必远离松动边缘！）。眼前会豁然开朗，斯特拉若夫山脉连绵起伏的森林绿浪在脚下铺展，直至天际。你可以想象中世纪哨兵在此瞭望的情景——远方任何一缕异常的烟尘，都可能意味着战争或商队的到来。风毫无阻挡地呼啸而过，带来松针和远处荒野的气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>拱门下的光影游戏</strong>：寻找一处尚保存着完整拱券的门洞或窗洞。在下午的斜射阳光下，拱券优美的曲线会在地上或对面的残墙上投下清晰的影子。随着时间推移，这道影子会像时针一样缓慢移动，与地上散落的石块、生长的小草构成一幅不断变化的、关于秩序与废墟、光阴与永恒的超现实画作。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 乌赫罗韦茨城堡自由行避坑指南与安全须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>时机与天气是关键</strong>：最佳游览时间是 <strong>春末到秋初（5月-9月）</strong>，确保山路无冰雪、草木不过于湿滑。出行前务必查看天气预报，雨天或雨后绝对不要前往，泥泞崎岖的山路和湿滑的岩石极端危险。尽量选择 <strong>工作日</strong> 前往，你很可能独占整座城堡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>装备是安全保障</strong>：这不是城市散步！必须穿 <strong>专业登山鞋或至少是防滑性能极佳的徒步鞋</strong>。衣物要防风、透气、分层。双肩背包、充足的水和高能量零食、手套（攀爬时保护手）、登山杖（极大节省下山时的膝盖受力）必不可少。头灯或手电筒也要带上以防万一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>安全第一，防盗其次</strong>：这里人迹罕至，但基本没有小偷（因为根本没游客可偷）。最大的“坑”是自身安全。<strong>城堡废墟本身极其危险！</strong> 墙体松动、地面不平、没有护栏。每一步都要先试探是否稳固，绝不攀爬看似危险的残垣。手机信号可能很弱或没有，最好结伴而行，并告知他人你的行程计划。拍照时务必先确认脚下安全，勿后退取景。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 乌赫罗韦茨城堡周边住宿推荐与地道美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡本身周边没有任何设施，最近的基地是山脚下的 <strong>小镇特尔斯泰（Trenčianske Teplice）或更大一点的特伦钦（Trenčín）</strong>。在特伦钦，推荐尝试一家叫“<strong>Šenk pod Branou</strong>”的传统餐厅，就在特伦钦城堡山下。这里能吃到正宗的斯洛伐克“<strong>Bryndzové halušky</strong>”（羊奶酪土豆面疙瘩），浓郁咸香的羊奶酪酱配上熏肉丁，是补充爬山大耗体力的绝佳选择。再点一杯本地啤酒，完美。住宿方面，特伦钦有各类酒店和民宿。如果想更贴近自然，可以在徒步起点附近的村庄如 Uhrovec 寻找家庭式民宿（Penzión），虽然条件简单，但能让你更早出发，并体验宁静的山村夜晚。记得提前预订并确认早餐时间。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从乌赫罗韦茨城堡下山后，如果意犹未尽且天色尚早，强烈推荐驱车前往 <strong>博伊尼采城堡（Bojnice Castle）</strong>（车程约1小时）。这形成了极其有趣的对比：乌赫罗韦茨是野性、残破的“真废墟”，而博伊尼采则是浪漫、精致、完美修复的“童话城堡”，宛如从迪士尼动画中直接搬来。它拥有华丽的文艺复兴和哥特式外观、迷人的护城河以及内部丰富的博物馆收藏。一天之内，从极致荒芜到极致浪漫，你会对斯洛伐克的历史层次感有更立体的理解。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "乌赫罗韦茨城堡的灵魂，不在于它曾有多么辉煌，而在于它坦然接受衰败、并与山脉森林重归一体后，所散发出的那种巨大、沉默、却直击人心的力量。它不是让你来消费的景观，而是邀请你来参与一场与时间和自然的严肃对话。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/puchov-archaeological-site-hornik-manor" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普霍夫（瓦赫河畔的考古重镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Púchov</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kezmarok-wooden-artic-church-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    凯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">凯日马罗克（木制极地教堂及老城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kežmarok</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nitra" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    尼
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">尼特拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nitra</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

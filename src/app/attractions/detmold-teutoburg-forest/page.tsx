@@ -15,7 +15,7 @@ export default function DetmoldTeutoburgForestPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '代特莫尔德', href: '/attractions/detmold-teutoburg-forest' },
           ]}
         />

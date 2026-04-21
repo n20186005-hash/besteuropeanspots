@@ -15,7 +15,7 @@ export default function EstellaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '埃斯特利亚', href: '/attractions/estella' },
           ]}
         />

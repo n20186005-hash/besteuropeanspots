@@ -15,7 +15,7 @@ export default function ReichsburgCochemPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '科赫姆帝国城堡', href: '/attractions/reichsburg-cochem' },
           ]}
         />

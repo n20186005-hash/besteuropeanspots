@@ -1,0 +1,152 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '柳布什基自由行指南：探秘黑塞哥维那的失落城堡与河谷秘语',
+  description: '波黑Ljubuški深度游攻略，揭秘悬崖上的赫尔采格·斯捷潘城堡废墟，俯瞰特雷比沙特河谷的震撼全景。小众景点推荐与完整避坑指南。',
+}
+
+export default function LjubuskiHercegStjepanCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '柳布什基（赫尔采格·斯捷潘城堡）', href: '/attractions/ljubuski-herceg-stjepan-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`柳布什基（赫尔采格·斯捷潘城堡）・Ljubuški (Herceg Stjepan Castle)・波黑・西黑塞哥维那州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你厌倦了人挤人的打卡地，想找一处能让心跳和呼吸都慢下来的秘境，那今天这份**柳布什基私藏旅游攻略**，就是为你准备的。它藏在波黑西南部，一个名字有点绕口却充满故事感的地方——西黑塞哥维那。我们的主角，不是繁华的城镇，而是一座盘踞在险峻石灰岩山巅、几乎被野草和时光吞噬的城堡废墟：赫尔采格·斯捷潘城堡。它将带给你最强烈的对比体验：一边是攀登时脚下碎石滚落的荒芜与孤独，另一边是登顶后，眼前特雷比沙特河谷（Trebižat）那片铺展开的、令人屏息的富饶绿野。作为你的专属向导，这份**柳布什基自由行指南**，会带你安全地完成这场时空穿梭，告诉你如何触摸那些冰冷的石头里沉睡的热血历史，以及怎样避开所有让旅行扫兴的坑。相信我，这绝对是一趟后劲十足的**深度游**。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你厌倦了人挤人的打卡地，想找一处能让心跳和呼吸都慢下来的秘境，那今天这份<strong>柳布什基私藏旅游攻略</strong>，就是为你准备的。它藏在波黑西南部，一个名字有点绕口却充满故事感的地方——西黑塞哥维那。我们的主角，不是繁华的城镇，而是一座盘踞在险峻石灰岩山巅、几乎被野草和时光吞噬的城堡废墟：赫尔采格·斯捷潘城堡。它将带给你最强烈的对比体验：一边是攀登时脚下碎石滚落的荒芜与孤独，另一边是登顶后，眼前特雷比沙特河谷（Trebižat）那片铺展开的、令人屏息的富饶绿野。作为你的专属向导，这份<strong>柳布什基自由行指南</strong>，会带你安全地完成这场时空穿梭，告诉你如何触摸那些冰冷的石头里沉睡的热血历史，以及怎样避开所有让旅行扫兴的坑。相信我，这绝对是一趟后劲十足的<strong>深度游</strong>。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`柳布什基（赫尔采格·斯捷潘城堡）`} />
+                <InfoRow label="英文名称" value={`Ljubuški (Herceg Stjepan Castle)`} />
+                <InfoRow label="正式名称" value={`Ljubuški (Herceg Stjepan Castle)`} />
+                <InfoRow label="国家" value={`波黑`} />
+                <InfoRow label="城市" value={`西黑塞哥维那州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`别看它如今这般寂寥残破，在15世纪，这座城堡可是跺跺脚就能让整个地区震三震的存在。它的名字“赫尔采格·斯捷潘”，源自当时波黑的实际统治者——赫尔采格（公爵）斯捷潘·武克契奇·科萨查。在那个奥斯曼帝国铁蹄不断西扩、基督教世界奋力抵抗的动荡年代，这座城堡就是斯捷潘大公权力与威望的象征，也是守护他领地的关键军事堡垒。它矗立在至关重要的交通和战略要冲，俯瞰着下方丰饶的河谷与通往亚得里亚海的道路。城堡见证了中世纪波斯尼亚王国的最后辉煌，也亲历了随后被奥斯曼帝国吞并的历史转折。它不仅仅是一堆石头，更是波斯尼亚本地贵族政权在欧洲东南部这片复杂棋局上，落下的一枚沉重而悲壮的棋子。当帝国更迭，它的军事价值消退，便被逐渐遗忘在群山之中，成了今天这幅模样——一个被历史洪流冲刷后留下的、充满隐喻的骨架。`} />
+                <InfoRow label="建筑特色" value={`攀登接近山顶时，城堡的轮廓才从稀松的松林和裸露的岩层后隐隐浮现。第一眼冲击你的，绝不是华丽，而是那种粗粝、顽固的生存感。墙体几乎全部由当地开采的灰白色石灰岩粗糙垒砌而成，石块大小不一，缝隙间填充着更小的碎石和风化的砂浆。经过几个世纪的风吹日晒雨淋，岩石表面变得斑驳，爬满了深褐色的地衣和暗绿色的苔藓，在阳光下呈现一种油画般的厚重质感。城堡的形态完全依山势而建，与嶙峋的悬崖融为一体，部分城墙就是直接从山体岩石上凿刻、砌筑起来的，仿佛是从大山骨头里生长出来的防御器官。残存的塔楼基座和城墙豁口，像巨兽被时间啃噬后留下的齿痕。站在废墟中，脚下是松动的大小石块，手触摸到的是冰凉、粗糙且棱角分明的岩石表面，空气中弥漫着干草、百里香的野生香气和石头特有的尘土味。`} />
+                <InfoRow label="建筑风格" value={`这里谈不上教科书式的哥特或巴洛克，它体现的是一种非常纯粹的、功能至上的**晚期中世纪军事建筑风格**，并带有浓厚的**奥斯曼帝国边境要塞**的影响痕迹。它的设计核心只有两个词：防御和瞭望。你能看到厚得惊人的城墙断面（有些地方超过两米），这是为了抵御早期火炮的攻击。残存的拱门和窗洞都非常狭小，呈简单的半圆形或尖拱形，目的是减少受攻击面并利于守军射击。城堡内部布局紧凑，通道狭窄曲折，易守难攻。同时，由于后来奥斯曼人的占领和加固，可能融入了一些简单的伊斯兰军事建筑元素，比如对制高点和视野的极致利用，以及利用自然地形形成多重防御层次。说白了，这里的每一块石头都在诉说着“实用主义”，没有一丝多余的装饰，所有的美学都来自其与险峻地势结合的磅礴气势，以及岁月侵蚀后留下的、充满力量感的残缺之美。`} />
+                <InfoRow label="文化价值" value={`对于今天的柳布什基当地人而言，这座废墟远不止是一个旅游景点。它是一个地标，一个国家的记忆锚点，象征着这片土地上曾经有过的独立与强大。它提醒着人们关于波斯尼亚自身复杂的历史层次——既非纯粹的东方，也非纯粹的西方。在现代波黑人的集体情感中，这样的中世纪遗址是他们民族历史连续性和独特性的重要证明。同时，它也成为一种精神象征：那种在绝境中屹立（literally建在悬崖上）、在衰败后依然以另一种形式（作为风景和历史遗迹）滋养后人的韧性。近年来，随着户外运动和深度旅游的兴起，城堡吸引了越来越多的徒步爱好者、历史迷和摄影师。它不再仅仅是历史课本上的名字，而是变成了一个活化的文化空间，人们来这里徒步、冥想、看日落、思考历史，它以一种安静而强大的方式，持续参与并塑造着当地的文化认同和社区自豪感。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 柳布什基一日游打卡路线攻略：从河谷到悬崖的时空漫步`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，攻略来了！想把城堡和河谷的精华一网打尽，我强烈建议你安排一整天。**上午（9:00-12:30）**：从柳布什基镇中心出发，自驾或打车前往城堡山脚下的徒步起点。早上光线柔和，气温适宜，是攀登的黄金时间。山路原始陡峭，请务必穿防滑的徒步鞋，带足水。大约40-60分钟的攀爬后，你将置身废墟之中。别急着拍照，先找个阴凉处喘口气，让眼睛慢慢适应这片苍凉。然后，沿着残垣断壁慢慢探索，触摸历史的质感。**中午（12:30-14:30）**：下山！回到河谷地区。这时该犒劳自己了。驱车前往特雷比沙特河畔，找一家有露天座位的“卡法纳”（传统餐厅），比如著名的“卡法纳 kod毛”，品尝用河水冷却的本地啤酒和现烤的“ćevapi”（肉肠）。饭后，就在河边散步，看当地人钓鱼，感受河谷的富庶与宁静。**下午（14:30-17:00）**：前往河谷另一大奇观——克拉维采瀑布（Kravice Waterfall）。这不是我们行程的配角，而是与城堡的荒凉形成绝妙对比的、充满生命力的自然乐章。你可以游泳、划船，或者只是坐在瀑布边发呆。**傍晚（17:00以后）**：如果意犹未尽，可以返回柳布什基小镇，逛逛宁静的街道，在中央教堂广场的咖啡馆喝一杯浓郁的波斯尼亚咖啡，看着夕阳把小城染成金色，完美结束这充实的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>“上帝之眼”峡谷全景</strong>：爬上城堡西侧最高处的残存墙基（注意安全！）。当你转身，特雷比沙特河谷会像一个巨大的、翠绿色的盆景突然在你脚下展开。蜿蜒的河水像银色的丝带，切割出一块块整齐的农田、果园和零星的红屋顶村庄。这种从极度荒芜到极度丰饶的视觉切换，毫无过渡，震撼到让人失语。记得听那一刻的风声，它穿过废墟孔洞的呜咽，与河谷传来的、几乎听不见的田园牧歌般的微弱生机，形成奇妙的和声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>主塔楼的“骨骼”</strong>：城堡中心区域的主塔楼只剩地基和部分一人多高的墙体。走进去，你会发现内壁上有明显的、排列规则的方形凹槽。那是当年支撑木制楼层梁架留下的痕迹。想象一下，当梁木还健在时，士兵们在此跑动、守卫、生活。如今梁木早已腐烂消失，只留下这些石头上的“伤疤”，宛如建筑本身的骨骼标本，清晰诉说着它曾经的功能和结构。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>古老的蓄水池</strong>：在废墟内部寻找那个凿刻在岩石中的、长方形的水池。池壁长满青苔，底部积着一点雨水。在炎热的黑塞哥维那，水源是城堡生存的命脉。这个看似普通的水池，是守军能在被围困时坚持下去的关键。触摸池边被无数只手磨得光滑的石头边缘，你能瞬间理解“坚守”二字最具体、最原始的含义。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>拱门下的光影游戏</strong>：找一个保存相对完好的门洞或窗洞，在下午侧光时分站在那里。阳光斜射进来，在粗糙的石板地上投下清晰的、几何形的光斑。光影的边界随着时间缓慢移动，尘埃在光柱中飞舞。这个简单的场景，因为背景是废墟和远山，会变得极具哲学感和电影画面感，仿佛时光本身正在你眼前静静流淌、变形。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "首先，<strong>时间就是一切</strong>。最佳游览季节是<strong>春末（5-6月）和初秋（9-10月）</strong>，此时天气温暖干燥，山野泛绿或呈金黄，且避开了七八月酷热的烈日。一天中务必<strong>早上攀登城堡</strong>，下午的岩石会被晒得滚烫，且光线刺眼不利于拍照和体验。其次，<strong>装备是安全的关键</strong>。你必须穿<strong>抓地力强的登山鞋或徒步鞋</strong>！山路是天然的碎石坡和岩石路，普通运动鞋极易打滑摔倒。带上<strong>至少1升水</strong>、防晒霜、帽子和一件防风外套（山顶风大）。第三，<strong>防盗与安全</strong>：城堡本身是无人管理的废墟，请务必结伴而行，互相照应。贵重物品不要离身，但整体而言当地民风淳朴，治安良好。更重要的“坑”是<strong>自身准备不足</strong>：不要试图在暴雨后立即攀登（路滑危险），不要为了拍惊险照片而攀爬不稳固的墙体。最后，<strong>交通提示</strong>：公共交通不便，强烈建议<strong>租车自驾</strong>或从莫斯塔尔等地预订包车一日游，这是实现<strong>柳布什基深度游</strong>最自由的方式。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 柳布什基周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "柳布什基小镇本身不大，住宿以家庭旅馆和少量小型酒店为主，价格亲民，氛围安静。如果你想沉浸式体验，可以住在镇上，推荐<strong>Pansion Marija</strong>这类家庭旅店，主人通常热情好客，能给你很多本地建议。但更多人会选择住在半小时车程外的<strong>莫斯塔尔</strong>，那里是旅游中心，住宿餐饮选择丰富，夜生活也热闹，更适合作为探索整个黑塞哥维那地区的大本营。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>美食是此行的另一高潮！</strong> 在河谷地区，你必须尝试：" }} />
+              <li className="text-gray-700 leading-relaxed mb-2 ml-4 list-disc" dangerouslySetInnerHTML={{ __html: "<strong>Ćevapi</strong>：波黑国菜，小牛肉或混合肉馅制成的香嫩小肉肠，通常配以新鲜松软的“索姆恩”（Somun）面包、生洋葱和酸奶油。在特雷比沙特河畔的餐厅享用，风味最佳。" }} />
+              <li className="text-gray-700 leading-relaxed mb-2 ml-4 list-disc" dangerouslySetInnerHTML={{ __html: "<strong>烤鳟鱼</strong>：特雷比沙特河以清澈见底和盛产鳟鱼闻名。河边餐厅提供现捞现烤的鳟鱼，只需简单盐和柠檬调味，鲜嫩无比。" }} />
+              <li className="text-gray-700 leading-relaxed mb-2 ml-4 list-disc" dangerouslySetInnerHTML={{ __html: "<strong>波斯尼亚咖啡</strong>：下山后，回到柳布什基小镇中心，找一家传统的“卡费那”（咖啡店）。点一杯装在精致铜壶（džezva）里的波斯尼亚咖啡。它比土耳其咖啡稍淡，仪式感十足。慢慢啜饮，配上一块甜点，看着小镇居民悠闲来往，这才是巴尔干式的生活节奏。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>克拉维采瀑布（Kravice Waterfall）</strong>：从城堡河谷驱车只需约20分钟。这简直是个迷你版的伊瓜苏！特雷比沙特河在此处跌落，形成一个宽阔的半月形瀑布群，水声轰鸣，水雾弥漫。夏季你可以跳进瀑布下的湖中游泳，租一艘皮划艇，或者就在岸边的草地上野餐。它与荒凉城堡的对比，是自然生命力最极致的展示。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>波奇泰利耶（Počitelj）</strong>：如果时间充裕，可以向南开车约40分钟，抵达这个被联合国教科文组织关注的古村落。它同样建在山坡上，拥有保存完好的奥斯曼时期建筑群（钟楼、清真寺、商队驿站），被誉为“石头之城”。风格与柳布什基城堡的荒芜截然不同，这里充满生活气息和历史层次的和谐交融，能让你对黑塞哥维那的文化融合有更立体的理解。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "柳布什基的灵魂，就藏在那道触目惊心的视觉分割线里——上方，是历史用石头写就的、关于权力与消亡的冷峻诗篇；下方，是大地用河流与绿意谱写的、关于生命与繁衍的温暖散文。它教会你的，不是征服，而是在苍茫与丰饶的并置中，读懂一种更深沉的平衡与宁静。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/titos-nuclear-bunker-konjic" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尼茨铁托核掩体</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tito's Bunker (ARK D-0)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/jajce-falls-and-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    亚
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">亚伊采瀑布与城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Jajce Waterfall and Fortress</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/banja-luka-kastel-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴尼亚卢卡卡斯特尔要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kastel Fortress</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

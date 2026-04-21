@@ -1,0 +1,150 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '卡科佩特里亚深度旅游攻略：躲进清凉山涧，漫步千年石巷的避世指南',
+  description: '探索塞浦路斯卡科佩特里亚（Kakopetria）的清凉秘境。这份深度游攻略带你漫步松林峡谷，解密沿溪而建的传统石木老村，提供一日游路线、交通与避坑全指南。',
+}
+
+export default function KakopetriaVillageTroodosPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卡科佩特里亚', href: '/attractions/kakopetria-village-troodos' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`卡科佩特里亚・Kakopetria・塞浦路斯・尼科西亚区（特罗多斯山脉）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果夏天的地中海阳光让你想逃，那我今天这份私藏的**卡科佩特里亚旅游攻略**，就是你的解药。它藏在特罗多斯山脉的心脏里，不是一个“景点”，而是一个活着的、呼吸着的千年山村。想象一下：燥热被彻底拦在山外，取而代之的是沁入骨髓的松木清香和永不疲倦的潺潺水声。整个老村，就像孩子撒在山涧溪流旁的积木，那些赭石色屋顶的石头房子一栋挨着一栋，密密麻麻地沿着陡坡生长，脚下就是清冽见底的急流。作为你的专属向导，这份**自由行指南**不只是地图，更是一把钥匙，带你打开一扇通往慢时光、真凉意和厚重历史的后门。准备好，我们要躲进这个19度恒温的天然空调房了。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果夏天的地中海阳光让你想逃，那我今天这份私藏的<strong>卡科佩特里亚旅游攻略</strong>，就是你的解药。它藏在特罗多斯山脉的心脏里，不是一个“景点”，而是一个活着的、呼吸着的千年山村。想象一下：燥热被彻底拦在山外，取而代之的是沁入骨髓的松木清香和永不疲倦的潺潺水声。整个老村，就像孩子撒在山涧溪流旁的积木，那些赭石色屋顶的石头房子一栋挨着一栋，密密麻麻地沿着陡坡生长，脚下就是清冽见底的急流。作为你的专属向导，这份<strong>自由行指南</strong>不只是地图，更是一把钥匙，带你打开一扇通往慢时光、真凉意和厚重历史的后门。准备好，我们要躲进这个19度恒温的天然空调房了。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`卡科佩特里亚`} />
+                <InfoRow label="英文名称" value={`Kakopetria`} />
+                <InfoRow label="正式名称" value={`Kakopetria`} />
+                <InfoRow label="国家" value={`塞浦路斯`} />
+                <InfoRow label="城市" value={`尼科西亚区（特罗多斯山脉）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`卡科佩特里亚的名字在希腊语里意为“坏石头”，据说源于村口一块曾引发悲剧的巨石传说。但这个“坏”字，却守护了它千百年的“好”。在中世纪，乃至奥斯曼帝国统治时期，特罗多斯山脉一直是塞浦路斯内陆的行政与文化中心，也是希腊正教信仰的坚固堡垒。卡科佩特里亚作为山脉北麓最重要的村落之一，它并非王公将相的舞台，而是普通山民生活的永恒样本。它的历史地位，正体现在这种“平凡的完整”上——没有遭受大规模现代化改造，几乎原封不动地保留了拜占庭晚期到奥斯曼时期山村聚落的原始肌理。这里的每一条狭窄石阶、每一座跨越溪流的小桥、每一栋依靠巨大山石而建的房子，都讲述着塞浦路斯内陆山民如何利用有限资源，与崎岖地形和季节河流共生共存的古老智慧。它是研究地中海山地民居和社区形态的活化石。`} />
+                <InfoRow label="建筑特色" value={`这里的建筑是“长”出来的，而不是“建”出来的。材料全部就地取材：从河床里捞起光滑的鹅卵石，从山体开采出赭色和灰色的毛石，用泥土和稻草混合成粘合剂，垒成厚实到令人心安的墙壁。木材来自周边漫山遍野的松林和雪松，构成屋顶的梁架、阳台和窗户。最迷人的是它们的“无序之序”：为了争取宝贵的平地，房子们相互倚靠，你家的地基可能是我家的屋顶，共用一面山墙是常事。阳台上精细的木雕栏杆早已被岁月磨出温润的包浆，攀爬的九重葛和天竺葵从栏杆缝隙里爆发出热烈的色彩。屋顶是倾斜的，铺着 flat tile（平板瓦），经年累月的雨水在瓦片上留下深色的苔痕。石墙的颜色并非单一，从浅黄、赭红到深灰，层层叠叠，像一幅用大地颜料绘制的抽象画。当你触摸那些石头，指尖传来的不是粗糙，而是一种被无数风雨和手掌打磨后的光滑与凉意。`} />
+                <InfoRow label="建筑风格" value={`卡科佩特里亚的建筑风格可以定义为“塞浦路斯特罗多斯山地民居风格”，它是功能主义与朴素美学的完美结合，深受拜占庭和奥斯曼乡村建筑的影响。这里没有教堂那种华丽的穹顶，一切为实用和适应环境服务。**坡屋顶**是为了快速排走冬季山区的丰沛雨雪。**极小的窗户**（早期建筑）是为了在冬季保温、夏季隔热，并保护室内隐私。**延伸出的木制阳台**（“sachnisi”）是这种风格的标志，它最大限度地拓展了狭窄屋内的生活空间，是家庭劳作、社交和享受峡谷微风的核心场所。建筑底层通常用作储藏室或畜栏，上层住人，这种垂直分区充分利用了陡峭地形。建筑风格还体现在细节上：门楣上简单的十字架或日月雕刻带有拜占庭遗风；而一些老宅内部复杂的木结构天花板，则隐约可见奥斯曼装饰的影子。它不是博物馆里冷冰冰的标本，而是风格融于生活、长在自然里的鲜活案例。`} />
+                <InfoRow label="文化价值" value={`对于塞浦路斯人而言，卡科佩特里亚不仅是一个旅游目的地，更是一个文化情感的锚点。它代表着一种濒临消失的、“前旅游时代”的山村生活图景：溪边洗衣的妇女、广场上玩“塔夫利”（西洋双陆棋）的老人、空气中飘散的“弗雷卡”（乡村咖啡）和烤肉香气。老村的成功保护（被列为国家文化遗产），激发了整个社会对传统聚落价值的重新认识。它像一个活态的文化课堂，让年轻一代直观感受到祖辈的生存智慧。同时，它也塑造了一种新的现代山居美学。许多被精心修复的老石头房子变成了精品民宿、艺术工作室和家庭餐馆，传统技艺（如木雕、编织）得以在旅游经济中延续。这种“活化保护”模式，为塞浦路斯乃至整个地中海地区类似村庄的可持续发展提供了宝贵范本。它证明，古老的文化肌理与现代的舒适生活可以共存，并产生迷人的化学反应。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 卡科佩特里亚一日游打卡路线攻略：从晨光石巷到星空溪畔`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行漫步路线（附地图指引）`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，咱们的探险正式开始！这份**一日游路线**能让你不错过任何精华。**上午（9:00-12:30）**：建议把车停在村口免费停车场，从老村“新区”与“旧区”交界处那座标志性的小石桥开始。过桥就正式踏入了时光隧道。别走大路，专挑那些只容一人通过的、被磨得发亮的石板阶梯往上爬，目标是高处的**圣尼古拉奥斯教堂（Agios Nikolaos tis Stegis）**——这座11世纪的联合国教科文组织世界遗产藏在村外山坡上，步行约20分钟，沿途松林如盖。教堂内部保存着塞浦路斯最精美的拜占庭湿壁画群，那是穿越千年的凝视。**中午（12:30-14:30）**：下山回到老村中心，饥肠辘辘时，找一家**溪流边的传统酒馆**。一定要坐在水边的露台上，听着白噪音点餐。必尝“克莱夫特科”（慢烤山地羊肉）和新鲜的山野菜。**下午（14:30-18:00）**：这是沉浸式漫步时间。沿着主溪流**卡科佩特里亚河**的两岸小径闲逛，不要怕迷路，每条岔路都通往惊喜：可能是一家飘着松木香的木雕店，可能是一个被改造成小博物馆的旧磨坊，也可能是一个开满鲜花的隐秘庭院。重点关注“老村保护区”的核心，那里的建筑最密集也最原始。傍晚时分，光线变得金黄柔和，是拍照的黄金时刻。**晚上**：如果不住下，就在村里的传统咖啡馆喝一杯塞浦路斯咖啡，享受山间清冷的夜晚，看灯火逐一点亮石窗。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>溪流上的老磨坊与洗衣石</strong>：在村子中心，你会看到一座古老的水磨坊遗址，巨大的木制水轮或许已静止，但水流依旧汹涌地从其下穿过。紧邻它的，是一排表面被磨得凹陷光滑的<strong>巨大石板</strong>，斜插在水中。这是旧时全村妇女的社交中心——公共洗衣场。闭上眼睛，你几乎能听到棒槌敲打衣物的“啪啪”声、潺潺水声和妇女们的谈笑声交织在一起。石板上深深的凹痕，是数百年日常生活留下的最温柔的刻痕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>“拥抱巨石”的老宅</strong>：留意那些与巨型山岩融为一体的房子。最典型的一处，房屋的后墙直接就是天然的山体巨石，建筑像是依偎在岩石的怀抱中生长出来。这不仅展示了惊人的建筑适应性，更形成了一种震撼的视觉效果：坚硬冰冷的巨石与温暖手工垒砌的石墙，自然与人力在此达成了永恒的默契。触摸那堵“墙”，一半是人工的规整，一半是自然亿万年造就的粗粝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>圣尼古拉奥斯教堂内的“全能者基督”壁画</strong>：走进那座低调的石头教堂内部，你的目光会立刻被后殿穹顶上的<strong>Pantocrator（全能者基督）</strong> 像所摄取。这幅出自11世纪大师之手的湿壁画，基督的目光深邃而悲悯，仿佛能穿透时光与信仰的隔阂，直接与你的灵魂对话。壁画色彩虽历经千年仍显庄重，特别是基督右手祝福的姿态和左手所持的经文，是拜占庭艺术的顶级表现。那一束从高窗射入的光，恰好常常照亮他的脸庞，神圣感瞬间满溢。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>某处阳台的“生活剧场”</strong>：随便找一个高处的角落驻足，俯瞰下方层层叠叠的屋顶和阳台。你会发现一个<strong>挂着蕾丝窗帘的木框窗户</strong>敞开着，窗台上摆着几盆盛放的红色天竺葵。窗内阴影处，或许有一位老奶奶静坐的剪影；下方阳台上，晾晒的白色床单在峡谷穿堂风中轻轻摆动。这个构图完美的画面，没有任何表演性质，它就是日复一日的生活本身，是一出静谧而充满生命力的“生活剧场”，也是山村灵魂最生动的注脚。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>最佳时间与“错峰”秘籍</strong>：这里四季皆宜，但<strong>夏季（6-9月）</strong> 是避暑天堂，也是旺季，周末午后可能游人稍多。想独占清幽？强烈建议<strong>工作日早晨</strong>抵达，或者选择<strong>深秋（10-11月）</strong>，那时层林尽染，气候凉爽，游客稀少。冬季山区较冷，部分餐馆可能歇业，但雪景绝美。切记，<strong>导航务必输入“Kakopetria Old Village”或“Palaia Kakopetria”</strong>，否则可能把你带到毫无特色的新村。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿着与行路安全</strong>：老村全是<strong>光滑的鹅卵石路和陡峭石阶</strong>，请务必放弃高跟鞋和光滑鞋底的鞋子，穿上<strong>防滑耐磨的徒步鞋或运动鞋</strong>。山区天气多变，即使是夏天，早晚也非常凉快，一件轻薄防风外套必不可少。随身带个小手电或确保手机电量充足，有些小巷子即使在白天也光线幽暗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与消费提示</strong>：从尼科西亚自驾过来约1小时，山路蜿蜒但路况良好。村里停车免费但车位有限，早到为妙。公共交通不便，强烈建议自驾或参加当地一日游团。餐饮价格比海边旅游区实在，但在溪边“景观位”就餐可能略贵。现金（欧元）和信用卡都适用，但小店可能只收现金。这里民风淳朴，治安极好，无需过度担心防盗，但仍建议看管好随身物品。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 卡科佩特里亚周边住宿与美食全攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想真正感受山村从喧闹到静谧、从晨雾到星空的完整韵律，<strong>住一晚是必须的</strong>。强烈推荐住在由<strong>老石屋改造的精品民宿</strong>里，它们通常保留了原始的石头墙壁和木梁，但内部装修极具格调，配有壁炉和现代化设施。比如“<strong>传统石屋酒店</strong>”这类地方，晚上在私密的小阳台上听着溪流声喝一杯本地葡萄酒，体验无与伦比。餐饮方面，除了之前提到的溪边酒馆，一定要试试“<strong>To Perasma</strong>”或“<strong>Kakopetria Tavern</strong>”这类家庭式餐馆。必点菜品包括：<strong>“Souvla”</strong>（大块串烤猪肉或羊肉）、<strong>“Afelia”</strong>（红酒和香菜炖猪肉）、以及用山间野菜做的<strong>“Horta”</strong>（水煮野菜淋橄榄油）。搭配本地产的“<strong>KEO</strong>”啤酒或“<strong>Commandaria</strong>”甜葡萄酒。早餐可以去村里的面包店，尝尝新鲜出炉的“<strong>flaounes</strong>”（复活节奶酪派）或芝麻面包圈。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>徒步特罗多斯森林小径</strong>：从村子边缘就可以直接进入<strong>特罗多斯国家森林公园</strong>的徒步网络。最经典的是沿着<strong>卡科佩特里亚河上游</strong>漫步的生态小径，路线清晰平坦，深入松林、雪松林和杨树林，沿途有解说牌介绍本地动植物。走大约1-2小时，你会完全被原始森林的宁静和负氧离子包围，这是洗肺静心的绝佳选择。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>探访附近山村佩杜拉斯（Pedoulas）</strong>：开车向山上再行驶约20分钟，就能到达另一个迷人的山村佩杜拉斯。这里的吸引力在于<strong>Archangelos Michael教堂</strong>，同样以精美拜占庭壁画闻名，且游客更少。村庄本身建在更陡峭的山坡上，景观壮丽，还能参观一个有趣的<strong>民间艺术博物馆</strong>。将两村串联，能让你更全面地理解特罗多斯山脉的村庄文化。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "卡科佩特里亚的灵魂，不在于某个惊世骇俗的景点，而在于那<strong>溪水、石头与松涛声共同谱写的永恒协奏曲</strong>。它教会我们，真正的奢华不是雕梁画栋，而是与自然深度咬合的生活方式，是时间在石头上留下的包浆，是每一处为适应环境而生的、不完美的智慧。离开时，你带走的不仅是照片，还有皮肤记忆里的那份19度的清凉，和耳朵里循环播放的、让人内心瞬间平静的潺潺水声。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/choirokoitia-neolithic-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乔
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乔伊鲁科蒂亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Choirokoitia</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/hala-sultan-tekke-salt-lake-larnaca" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈拉苏丹特克</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hala Sultan Tekke</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/paphos-archaeological-park" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    帕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕福斯考古公园</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Paphos Archaeological Park</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

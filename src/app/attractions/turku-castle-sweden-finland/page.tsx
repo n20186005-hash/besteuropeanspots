@@ -15,7 +15,7 @@ export default function TurkuCastleSwedenFinlandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/finland' },
             { label: '图尔库城堡', href: '/attractions/turku-castle-sweden-finland' },
           ]}
         />

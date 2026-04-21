@@ -15,7 +15,7 @@ export default function ZemunOldTownBelgradePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞尔维亚', href: '/destinations/serbia' },
             { label: '泽蒙老城', href: '/attractions/zemun-old-town-belgrade' },
           ]}
         />

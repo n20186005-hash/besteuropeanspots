@@ -15,7 +15,7 @@ export default function GarrovillasDeAlconetarPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '加罗维利亚斯-德阿尔科内塔尔', href: '/attractions/garrovillas-de-alconetar' },
           ]}
         />

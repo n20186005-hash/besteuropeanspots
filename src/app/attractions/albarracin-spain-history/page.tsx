@@ -1,0 +1,158 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔瓦拉辛历史溯源｜悬崖上的摩尔小镇，西班牙“最美村庄”的前世今生与骑士传奇',
+  description: '探寻西班牙“最美村庄”阿尔瓦拉辛的尘封史诗。从摩尔堡垒到基督教要塞，穿越红色悬崖上的千年时光，聆听石墙诉说的征服、信仰与艺术故事。',
+}
+
+export default function AlbarracinSpainHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '阿尔瓦拉辛', href: '/attractions/albarracin-spain-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿尔瓦拉辛・Albarracín・西班牙・阿拉贡`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在西班牙内陆的荒原与松林之间，一座小镇如同从红色岩壁上生长出来的幻梦，被《国家地理》誉为“西班牙最美村庄”。<strong>阿尔瓦拉辛</strong>，这个名字本身就带有摩尔风的韵律。它并非一个温和的田园诗，而是一部用岩石、防御墙与家族徽章写就的边疆史诗。这里曾是伊斯兰泰法王国的心脏，也是基督教骑士团征伐的前线，更是艺术家追寻光影的秘境。抛开游玩攻略，走进阿尔瓦拉辛的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿尔瓦拉辛`} />
+                <InfoRow label="英文名称" value={`Albarracín`} />
+                <InfoRow label="正式名称" value={`Albarracín`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`阿拉贡`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔瓦拉辛的故事，始于险峻。它的历史可追溯到<strong>罗马时期</strong>，但真正的城市雏形与灵魂，由<strong>摩尔人</strong>塑造。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间来到<strong>十一世纪</strong>。后倭马亚王朝崩溃后，伊比利亚半岛分裂成众多泰法王国。一个名为 <strong>“贝努·拉辛”</strong> 的柏柏尔人部落，看中了瓜达拉维瓦尔河拐弯处这道天然的<strong>红色砂岩悬崖</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们在此筑城，并以其部落之名命名此地——<strong>“阿尔瓦拉辛”</strong>（Albarracín），意为“拉辛家族之地”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个选址堪称军事杰作。三面被河流深切峡谷环绕，形成天堑，只需在唯一易受攻击的西面修筑坚固防御。它生来就是为<strong>战争与守卫</strong>而存在。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初，它是<strong>泰法王国</strong>的首都，一个独立而富庶的小型伊斯兰政权。悬崖之上，宫殿、清真寺、市集和复杂的供水系统次第建成。水源是生命线，摩尔人精巧的引水渠系统，至今仍有遗迹可寻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个名字，从阿拉伯语源流变至今，凝固了一段被基督教重新征服却未被完全抹去的<strong>安达卢斯记忆</strong>。它提醒着每一位来访者，西班牙的历史，远非单一叙事。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔瓦拉辛的城墙，每一块石头都镌刻着权力的更迭与边疆的烽烟。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一个印记，是“失落的王国”（1170-1300）。</strong> 基督教收复失地运动如火如荼。<strong>1167年</strong>，摩尔人国王将此地赠予盟友<strong>阿萨格拉家族</strong>，一个信奉基督教的西哥特贵族后裔。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个家族在此建立了半独立的<strong>阿尔瓦拉辛领主国</strong>。他们巧妙周旋于强大的<strong>阿拉贡王国</strong>与<strong>卡斯蒂利亚王国</strong>之间，维持了长达百余年的自治。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这段时期，小镇留下了深刻的烙印。<strong>圣马利亚大教堂</strong>开始在原清真寺地基上建造，建筑风格融合了<strong>罗马式</strong>的厚重与<strong>穆德哈尔式</strong>的精致砖雕几何图案。这是一种无声的宣言：新的信仰在此扎根，但并未完全驱逐旧有的文化肌理。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“领主佩德罗·费尔南德斯·德·阿萨格拉，于此地行使着国王般的权力，铸币、立法。他的城堡俯瞰峡谷，警惕着来自任何方向的威胁。” —— 地方编年史摘要" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二个印记，是“王冠的征服”（1300年）。</strong> 自治终究难敌大势。<strong>阿拉贡国王海梅二世</strong>决心终结这个“国中之国”。经过漫长围困，阿尔瓦拉辛最终在<strong>1300年</strong>臣服，正式并入阿拉贡王国。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡上升起了阿拉贡的条纹旗，但小镇并未衰落。它成为了王国重要的<strong>边境要塞</strong>和<strong>牧羊业中心</strong>（得益于著名的<strong>梅西塔高原</strong>迁徙路线）。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第三个印记，写在建筑的血肉里。</strong> 走在弯弯曲曲的陡峭小巷中，你触摸到的便是历史。因空间极度有限，房屋向上向外生长，形成独特的<strong>悬挑阳台</strong>和<strong>木制走廊</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些建筑多为<strong>红色石膏</strong>粉刷，与地基的红色岩层融为一体，在夕照下如火焰燃烧。这不是为了美观，而是就地取材的生存智慧，也是摩尔建筑传统的延续。城墙、城堡废墟、塔楼，共同构成了一个庞大的<strong>中世纪防御系统博物馆</strong>，沉默诉说着边疆生活的紧张与坚韧。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔瓦拉辛的历史星空中，有两位人物格外耀眼，一位是雄心勃勃的领主，另一位则是远道而来的“洋骑士”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 胡安·努涅斯·德·拉拉：末代领主的悲歌</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他是阿尔瓦拉辛自治时代的<strong>最后一位领主</strong>，也是其悲剧色彩的注脚。<strong>胡安·努涅斯</strong>并非庸才，他继承了祖先的政治手腕，竭力在阿拉贡与卡斯蒂利亚的夹缝中维系家族统治。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的生涯充满戏剧性。曾与卡斯蒂利亚王室联姻，权倾一时；也曾因政治斗争沦为阶下囚。最终，他面对的是<strong>阿拉贡国王海梅二世</strong>碾压性的力量。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“领主自知不敌，但骑士的荣誉不许他不战而降。他站在城堡最高处，看着城外连绵的敌军帐篷，也许想起了百年前祖先在此立国的豪情。那是一种明知不可为而为之的孤独。” —— 基于史料的文学描绘" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1300年</strong>的臣服，终结了拉腊家族在这里的统治。胡安·努涅斯本人后来在另一场战役中阵亡。他的故事，是伊比利亚中世纪那些<strong>半独立小领主</strong>命运的缩影——在统一王权的浪潮下，无论多么精明强悍，最终的落幕往往充满无奈。如今，小镇的纹章上仍保留着拉腊家族的纹章元素，纪念那段独特的自治历史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. 约翰·马丁·泽尔梅斯：普鲁士来的军事工程师</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光跳转到<strong>十八世纪</strong>。阿尔瓦拉辛早已不再是边境前线，但其军事遗产引起了欧洲一位专业人士的注意。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>约翰·马丁·泽尔梅斯</strong>，一位<strong>普鲁士</strong>的军事工程师兼画家。当时，西班牙波旁王朝正致力于现代化改革，引进欧洲先进技术。泽尔梅斯受聘来到西班牙，考察并加固各地的防御工事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他来到了阿尔瓦拉辛。与别人不同，他不仅用工程学的眼光测量城墙的角度与厚度，更用<strong>艺术家的心灵</strong>捕捉了这座小镇令人震撼的景观。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他留下了一系列极其珍贵的<strong>水彩画</strong>与<strong>平面图</strong>。这些作品细致入微地记录了小镇在现代化改造前的原始风貌：完整的城墙体系、教堂的细节、民居的样貌。尤其是他笔下的<strong>峡谷与城堡</strong>，结合了军事地图的精准与风景画的诗意。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“这座城镇的防御位置是大自然鬼斧神工的礼物……它的房屋仿佛重叠在一起，街道狭窄得惊人，一切都是为了防御而设计。” —— 译自泽尔梅斯的考察笔记" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位普鲁士人成了阿尔瓦拉辛最早的“影像记录者”。他的作品如今是研究小镇建筑史的无价之宝，也让后人得以窥见三百年前，这座岩石要塞未被时间过多改变的雄姿。一个德国人，却成了西班牙文化遗产最关键的见证人之一，这本身就是一个迷人的历史巧合。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "石头垒起的历史，总会滋生出充满人性温度的传说。在阿尔瓦拉辛，有两个故事代代相传。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一个，关于“城墙上的耶稣”。</strong> 小镇的<strong>城墙</strong>有一段被称为“<strong>悬崖上的基督</strong>”。传说，在一次惨烈的围攻中，守城者即将弹尽粮绝。此时，一个光芒四射的<strong>基督形象</strong>显现在城墙上，震慑了敌军，使其溃退。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从此，那段城墙被奉为神圣，人们相信基督是这座虔诚小镇的守护者。这个传说巧妙地将基督教的信仰与摩尔人建造的物理防御融为一体，象征着精神力量是最后也是最坚固的城墙。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二个，则是凄美的爱情故事“水渠之源”。</strong> 小镇的<strong>引水渠</strong>通往山中的“<strong>情人泉</strong>”。传说，一位美丽的摩尔公主与一位年轻的基督教俘虏坠入爱河。他们的恋情为世所不容。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "公主为帮助爱人逃脱，告诉了他一条通过地下水源离开城堡的秘道。离别前，他们在泉边立下誓言。然而，青年在逃离后被俘杀害，公主听闻噩耗，终日以泪洗面，她的泪水汇入了泉眼。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“从此，这眼泉水格外清甜，也格外冰冷。老人们说，那是公主未流尽的眼泪，也是爱情永恒的温度。” —— 当地导游口述的传说版本" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，这条为城堡输送生命之水的工程杰作，也染上了跨越文化、生死相隔的浪漫悲剧色彩。每当人们饮用到清冽的泉水，便会想起那个关于爱与牺牲的古老故事。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当游客为阿尔瓦拉辛的明信片风光惊叹时，真正让其灵魂颤动的，是那份<strong>厚重的层叠感</strong>。它不是一座被凝固在琥珀中的博物馆，而是一个<strong>仍然呼吸的历史有机体</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "基督教教堂扎根于清真寺地基之上，穆德哈尔风格的砖塔与文艺复兴的贵族徽章共享同一片天空，悬挑的木阳台讲述着中世纪市民的生存智慧。每一步，你都踩在不同的文明层上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂阿尔瓦拉辛，就是读懂西班牙的<strong>边疆史诗</strong>——关于征服与融合，坚守与适应，信仰与生存。它小众，因为它从未处于历史的中心舞台，却始终在边缘地带演绎着最真实、最坚韧的剧情。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里没有宏大的帝国叙事，只有一个个家族、一位位领主、一代代匠人，在红色悬崖上为生存和信仰写下的壮丽诗篇。它被誉为“最美”，美在险峻与柔情的反差，美在石头里渗透的千年记忆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "来此，不是寻找休闲，而是进行一场<strong>穿越时空的对话</strong>。与摩尔工程师、基督教骑士、牧羊人、普鲁士画家，进行一场无声的、关于何为家园的对话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/penafiel-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩纳菲耶尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Peñafiel Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/coca-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    可
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">可可城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Coca Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/covadonga-shrine-sanctuary" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科瓦东加（隐没在皮科斯欧洲山脉中的圣母朝圣山洞与大教堂）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Covadonga</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

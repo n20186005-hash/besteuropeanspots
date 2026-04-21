@@ -15,7 +15,7 @@ export default function PalmanovaStarFortressCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '帕尔马诺瓦', href: '/attractions/palmanova-star-fortress-city' },
           ]}
         />

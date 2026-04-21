@@ -1,0 +1,150 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '罗基什基斯自由行指南：红砖教堂与木雕庄园的立陶宛北部时光漫步',
+  description: '探索立陶宛北部的隐秘瑰宝石Rokiškis深度游攻略。穿梭于新哥特红砖教堂与收藏丰富的木雕庄园，体验真正的波罗的海宁静。',
+}
+
+export default function RokiskisPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '罗基什基斯', href: '/attractions/rokiskis' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`罗基什基斯・Rokiškis・立陶宛・帕内韦日斯县`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你已经厌倦了人挤人的热门打卡地，今天这份罗基什基斯私藏旅游攻略，就带你躲开人潮，一头扎进立陶宛北部最静谧、最有味道的庄园小城。这里没有喧哗的旅行团，只有风吹过百年橡树林的沙沙声，和阳光在暗红色砖墙上缓缓移动的光影。罗基什基斯就像一颗被时光小心收藏的琥珀，核心是两件珍宝：一座仿佛从童话里直接搬出来的、极其抢眼的新哥特式红砖教堂，以及一个保留着旧世界灵魂、收藏了令人惊叹的木雕艺术的伯爵庄园。作为你的专属向导，这份自由行指南请收好，我们将一起揭开这座小城宁静外表下的深厚历史与艺术脉搏，绝对是一趟让你灵魂慢下来的深度游。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你已经厌倦了人挤人的热门打卡地，今天这份罗基什基斯私藏旅游攻略，就带你躲开人潮，一头扎进立陶宛北部最静谧、最有味道的庄园小城。这里没有喧哗的旅行团，只有风吹过百年橡树林的沙沙声，和阳光在暗红色砖墙上缓缓移动的光影。罗基什基斯就像一颗被时光小心收藏的琥珀，核心是两件珍宝：一座仿佛从童话里直接搬出来的、极其抢眼的新哥特式红砖教堂，以及一个保留着旧世界灵魂、收藏了令人惊叹的木雕艺术的伯爵庄园。作为你的专属向导，这份自由行指南请收好，我们将一起揭开这座小城宁静外表下的深厚历史与艺术脉搏，绝对是一趟让你灵魂慢下来的深度游。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`罗基什基斯`} />
+                <InfoRow label="英文名称" value={`Rokiškis`} />
+                <InfoRow label="正式名称" value={`Rokiškis`} />
+                <InfoRow label="国家" value={`立陶宛`} />
+                <InfoRow label="城市" value={`帕内韦日斯县`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`别小看这座宁静的小城，它在历史上可是个“边界上的哨兵”。罗基什基斯地处历史上的十字路口，位于立陶宛、拉脱维亚和俄罗斯（旧时帝国）文化影响的交汇处。在中世纪，这里就是重要的定居点和贸易站。它的命运与统治这里的贵族家族——提森豪森家族紧密相连，这个家族从16世纪中期开始在此扎根，建造了宏伟的庄园，将这里经营成区域的文化与经济中心。在立陶宛被沙俄帝国吞并的时期，以及后来复杂多变的一战、二战岁月里，罗基什基斯虽历经动荡，却奇迹般地保留了其建筑遗产的核心。它就像一个沉默的见证者，目睹了立陶宛民族国家的起落、独立与重生。这座庄园和教堂之所以能如此完好地保存下来，某种程度上，正是因为它的“偏远”和“宁静”，让它在历史的大风大浪中成了一处避风港，也因此为我们今天能看到的丰富收藏提供了可能。它的历史，是一部微缩的立陶宛东北部边境史。`} />
+                <InfoRow label="建筑特色" value={`让我们先聊聊那个一进城就抓住你眼球的“红色巨人”——圣马太使徒教堂。请想象一下，在平坦的绿色原野和低矮的传统木屋村落中，突然升起一座完全由暗红色砖块砌成的庞然大物，那种视觉冲击力是照片无法传达的。它不是那种经岁月打磨变得温润的砖红，而是一种深沉、浓郁、带着一丝庄重肃穆的暗红色。教堂主体是拉丁十字形布局，最震撼的是那座高达68米的钟楼尖塔，像一柄利剑直指波罗的海灰蓝色的天空。走近看，你会发现砖块并非单调堆砌，工匠们用不同排列方式构成了精美的几何图案和浮雕装饰。巨大的玫瑰花窗、狭长的尖拱窗，所有细节都由红砖勾勒，没有繁复的大理石或金色装饰，这种纯粹的材料运用，反而赋予它一种粗粝又神圣的力量感。阳光在不同时刻照射其上，砖墙的颜色会从深枣红变为泛着紫调的暖棕色，光影在凹凸的砖面上跳舞，充满了生命力。`} />
+                <InfoRow label="建筑风格" value={`这座教堂是新哥特式建筑在立陶宛的杰出代表。什么是新哥特式？简单说，就是19世纪人们对于中世纪哥特风格的浪漫主义复兴与再创造。它继承了哥特式的灵魂——渴望接近上帝，所以拼命向上延伸（看看那惊人的尖塔！），追求轻盈与光。在这里，设计师摒弃了传统哥特式常用的石头，而大量使用本地烧制的红砖作为主要材料，这本身就是一种极具地方特色的创新。你可以看到所有经典的哥特语汇：高耸的尖拱门和窗户，让建筑看起来更加修长；教堂内部交叉的肋状拱顶，仿佛一棵棵石头（在这里是砖）生长出的树木；还有外墙上的飞扶壁（虽然相对简洁），它们不仅是装饰，更承担着支撑高大墙壁的结构作用。但与中世纪哥特教堂内部的幽暗神秘不同，新哥特式往往引入更多光线。罗基什基斯教堂内部的彩绘玻璃窗（虽然可能不如西欧教堂那般古老绚丽）会在晴朗的午后，将五彩斑斓的光斑投射在砖墙上和地面上，为这座“红色圣殿”增添了一丝温柔与灵动，完美融合了哥特式的精神性与波罗的海地区的材料美学。`} />
+                <InfoRow label="文化价值" value={`罗基什基斯的文化心脏，无疑在蒂森豪森伯爵庄园及其无价的木雕收藏里。这里不仅仅是一个旅游景点，更是立陶宛民族精神与艺术传统的活态档案馆。庄园内的区域博物馆，收藏了超过17000件木雕作品，是立陶宛乃至整个波罗的海地区最庞大、最重要的木雕收藏之一。这些木雕并非来自遥远的国度，它们绝大部分是19世纪末至20世纪中期，由立陶宛北部和拉脱加尔地区的民间艺术家创作的。题材从庄严的基督受难像、悲悯的圣母，到描绘农民劳作、日常生活的朴素场景，每一刀都凝聚着普通民众的信仰、希望与情感。在苏联时期，当许多传统文化表达受到压制时，这个收藏的存在本身就是一种坚韧的守护。如今，它持续教育着新一代立陶宛人关于他们祖先的审美与精神世界。对于本地人而言，这个庄园和教堂不仅是地标，更是社区凝聚力的象征，是举办夏季音乐会、传统节日市集的文化中心。它提醒着人们，在快速全球化的今天，根植于土地和手工的传统，拥有永不褪色的价值与温度。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 罗基莱斯基斯一日游打卡路线攻略：从红砖圣殿到木雕王国`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典步行路线规划`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好啦，攻略部分开始！作为你的向导，我建议把一整天都交给这座小城，节奏放慢，用心感受。**上午（10:00-13:00）：精神的震撼。** 我强烈建议你把第一站留给圣马太教堂。清晨的阳光斜射，是拍摄红砖建筑质感最好的时候。别急着进去，先绕着教堂走一圈，感受它庞大的体积和砖砌的细节。然后轻轻推开那扇厚重的木门，进入内部。让眼睛适应一下光线变化，静静坐在长椅上，听听或许有的管风琴练习声，抬头看阳光透过彩窗。**中午（13:00-14:30）：庄园的午餐时光。** 从教堂步行几分钟就能抵达蒂森豪森庄园建筑群。先别急着进博物馆，在庄园园林里散散步，看看池塘、老树，然后找一家附近的传统餐厅（比如“Senoji Rūkykla”）享用一顿立陶宛家常午餐，尝尝当地的土豆饺子和冷甜菜汤。**下午（14:30-17:30）：艺术的沉醉。** 养足精神后，深入探索庄园宫殿本身。这里是重头戏，至少预留2小时给区域博物馆。重点当然是木雕展厅，你需要慢慢走，细细看。**傍晚（17:30之后）：城市的散步。** 参观完博物馆，如果还有精力，可以到罗基什基斯小镇中心广场逛逛，看看市政厅和一些色彩柔和的老房子。在夕阳下，以当地人的视角，结束这充实的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>教堂入口的“守护者”：</strong> 走进教堂主门时，别忘了低头看看脚下和摸摸门柱。厚重的橡木门历经风雨，表面布满深浅不一的纹路和旧铜门环的磨损痕迹。门槛的石块被无数信徒的步履打磨得中间微微凹陷，光滑温润。当你手扶同样被岁月包浆的门框时，那一刻的触感冰凉而坚实，仿佛能直接触摸到一百多年的时光与无数个默默走进这里的祈祷瞬间。这是一个容易被忽略，却最能连接你与场所精神的细节。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>庄园主楼梯的“凝视”：</strong> 进入庄园宫殿，那座通往二楼的宽敞主楼梯本身就是一件艺术品。请抬头看楼梯转角平台上方墙壁。那里通常悬挂着蒂森豪森家族成员的肖像或一幅大型油画。试着与画中人的目光对视。无论是一位身着旧式礼服、表情严肃的伯爵，还是一位眼神温柔、佩戴珍珠的女士，他们的目光仿佛穿越画布，静静审视着来来往往的现代访客。这个空间曾是家族日常生活的中心，站在这里，你不再是游客，更像是一个被短暂允许进入私人历史的客人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>木雕圣像的“泪痕”：</strong> 在木雕展厅，请寻找一尊被称为“悲悯圣母”或“忧伤基督”的圣像。凑近看（当然，保持安全距离），你会发现民间艺术家如何用最质朴的工具刻画极致的痛苦。重点看眼眶部分。有些雕像的眼睛下方，雕刻着极其细微的、仿佛正在流淌的木质纹路，被巧妙地处理成泪痕。更动人的的是，由于木材年久干燥产生的自然裂痕，有时会恰好出现在脸颊位置，宛如真正的哭泣裂纹。这种材料本身的“缺陷”与艺术家的意图浑然天成，充满了震撼人心的悲剧美感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>庄园瞭望塔的“风语”：</strong> 参观完博物馆内部，一定要去庄园建筑背后的公园走走，那里有一个不太高的小土丘或古老的瞭望塔遗址（视具体保存情况）。爬上去，这里是俯瞰整个庄园建筑群和远处教堂尖塔的绝佳地点。闭上眼睛，听——风穿过高大橡树和松树林的声音，与城市里任何一种风声都不同，它更空旷、更自由，夹杂着远处田野的气息和偶尔的鸟鸣。数百年前，庄园的主人或许就站在这里聆听同样的风声，巡视他的土地。这个声音，是罗基什基斯宁静灵魂最直接的注解。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>时机就是一切：</strong> 避开冬季（11月-3月）的深冬时段，除非你专程来看雪中城堡（但部分室内场馆开放时间会大幅缩短或需要预约）。<strong>最佳游览时间是5月到9月</strong>，尤其是6-8月，草木葱茏，气候宜人，庄园公园最美，且所有场馆开放时间最长。尽量<strong>避开周一</strong>，因为博物馆很可能闭馆！出行前务必在官网再次确认开放时间。小城非常宁静，几乎没有“人流高峰”，但周末的午后本地人会多一些，反而更有生活气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿着与装备：</strong> 立陶宛天气多变，即便夏天，也请务必带一件防风外套或薄毛衣。教堂和庄园内部石木结构，体感比室外凉，穿着层次方便穿脱的衣物最明智。鞋子！请穿一双<strong>绝对舒适、适合长时间站立和行走的鞋</strong>，博物馆展厅和庄园花园地面多为硬质（石板、木地板、砂石路），高跟鞋或底太薄的鞋会让你痛苦不堪。另外，记得带一个轻便购物袋，博物馆商店可能会有关于木雕艺术的有趣书籍或明信片。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与沟通：</strong> 罗基什基斯没有火车站（最近的火车站在帕内韦日斯或陶拉格），主要靠长途巴士或自驾抵达。如果自驾，城区内停车很方便，且大多免费，但请留意标识。小城里英语普及度不算高，尤其在餐厅或小店，但人们非常友善。提前学几句简单的立陶宛语问候（比如“Labas”你好，“Ačiū”谢谢），或准备好谷歌翻译的离线功能，会很有帮助。参观博物馆时，如果英文解说器或导览册有限，不妨静心用眼睛去“阅读”那些木雕的故事，有时无言的艺术更能直击心灵。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 罗基什基斯周边住宿与美食攻略：住在庄园里的梦`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想在罗基什基斯获得完整体验，我强烈推荐你考虑 <strong>“Rokiškio Dvaro Sodyba”庄园酒店</strong>。它就在蒂森豪森庄园建筑群内或附近，由历史建筑改造而成。想象一下，住在经过精心修复的古老厢房里，房间可能保留着裸露的木梁和复古的装饰，窗外就是宁静的庄园花园。清晨在鸟鸣中醒来，步行几分钟就能开始你的探索，这种沉浸感是无与伦比的。如果庄园酒店订满或想体验更本地化的生活，小镇中心也有几家干净舒适的民宿或小型酒店。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "餐饮方面，一定要尝尝立陶宛北部（奥克施泰蒂亚地区）的特色。推荐餐厅 <strong>“Senoji Rūkykla”</strong>（意为“老熏制坊”），它通常由老房子改造，氛围质朴温暖。必点菜品包括：<strong>“Šaltibarščiai”</strong>——粉红色的冷甜菜汤，搭配热土豆和酸奶油，夏天喝清爽开胃；<strong>“Cepelinai”</strong>——巨大的土豆饺子，内馅是肉或奶酪，外形像齐柏林飞艇，淋上酸奶油和炸猪油渣，是扎实美味的comfort food；还有各种本地蘑菇制作的菜肴，秋天尤其鲜美。如果只是想喝杯咖啡歇脚，小镇广场附近的咖啡馆是不错的选择，坐在户外，看着当地人悠闲路过，你就是此刻风景的一部分。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果你有多余的大半天时间，有两个非常棒的周边延伸选择：1. <strong>琥珀展示工坊（步行或短途车程可达）：</strong> 立陶宛是琥珀王国。在罗基什基斯周边，你可能找到小型的家庭式琥珀工作坊或展示厅。这里不是大型旅游商店，你能看到匠人如何打磨、雕刻这种“北方的黄金”，听他们讲述如何从波罗的海海边捡拾原料的故事，并可能淘到独一无二的原石或设计简单的首饰，这比任何纪念品都更有意义。2. <strong>希卢托斯山（驾车约40分钟）：</strong> 这是立陶宛最高的山丘之一（其实海拔仅294米，但在平坦的立陶宛已算“高峰”）。山顶有一座美丽的木制教堂，登顶后可眺望一望无际的湖泊、森林和田野构成的经典波罗的海风光。这里徒步路线轻松，是彻底融入自然、呼吸最纯净空气的完美补充。这两个地方都能让你从艺术历史之旅，自然过渡到对这片土地自然与人文更深一层的理解。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗基什基斯的灵魂，在于一种深邃的宁静与坚韧的留存。它不喧嚣，不炫耀，只是静静地在立陶宛北部的平原上，用一座红砖的诗歌和一屋子木头的记忆，守护着一段关于信仰、艺术与家园的完整叙事。来到这里，你带走的不仅是照片，更是一种让时间变稠、让心灵沉淀的珍贵能力。它让你相信，世界上最动人的风景，往往藏在最安静的角落里，等待着真正愿意慢下来的人去发现。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kaunas-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    考
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">考纳斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kaunas Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/trakai-island-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特拉凯海岛城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trakai Island Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nida-lithuania" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    尼
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">尼达</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nida</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

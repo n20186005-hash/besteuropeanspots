@@ -1,0 +1,164 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '锡比乌历史溯源｜“特兰西瓦尼亚之眼”的前世今生与萨克森传奇',
+  description: '穿越七百年时光，探寻罗马尼亚锡比乌老城的萨克森根源。从蒙古铁蹄到启蒙之光，从屋顶“眼睛”到布鲁肯塔尔的遗产，揭开东欧最迷人小城的尘封史诗。',
+}
+
+export default function SibiuOldTownHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '锡比乌老城', href: '/attractions/sibiu-old-town-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`锡比乌老城・Sibiu Old Town・罗马尼亚・锡比乌`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在罗马尼亚心脏的特兰西瓦尼亚，有一座被屋顶上数百只“眼睛”凝视了七个世纪的老城。它并非童话的造物，而是中欧历史最坚韧的见证者之一。<strong>锡比乌</strong>，这个名字背后，是<strong>萨克森移民</strong>用法律与石墙构筑的边疆堡垒，是抵御蒙古风暴的信仰之盾，是点燃东南欧第一缕印刷文明之火的知识殿堂。这里的每一块卵石，都回响着商队驼铃与学者辩论的交响。抛开游玩攻略，走进锡比乌的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`锡比乌老城`} />
+                <InfoRow label="英文名称" value={`Sibiu Old Town`} />
+                <InfoRow label="正式名称" value={`Sibiu Old Town`} />
+                <InfoRow label="国家" value={`罗马尼亚`} />
+                <InfoRow label="城市" value={`锡比乌`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "锡比乌的故事，始于一条古老的地理与政治裂痕——<strong>喀尔巴阡山脉</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "山脉环抱的特兰西瓦尼亚高原，在12世纪是匈牙利王国的东部边疆，一片需要开拓与镇守的“<strong>边疆之地</strong>”。为了抵御东方的游牧势力并发展经济，匈牙利国王们实施了一项大胆的殖民政策。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们从神圣罗马帝国，主要是<strong>莱茵兰、摩泽尔和卢森堡</strong>地区，招募了大量技艺精湛的工匠、矿工和农民。这些移民被统称为 <strong>“特兰西瓦尼亚萨克森人”</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "约在<strong>1190年</strong>前后，一批这样的萨克森先驱，在奇滨河畔一处易于防御的高地上，建立了最初的定居点。它最初的名字是 <strong>“赫尔曼斯多夫”</strong>，意为“赫尔曼的村庄”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个名字很可能来源于这群移民的领袖。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，这座城市注定不会只是一个村庄。得益于连接巴尔干与中欧的繁忙商路，以及萨克森人带来的城市自治传统与精湛技艺，定居点迅速膨胀。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "到了<strong>1223年</strong>，文献中首次出现了拉丁语名“<strong>Cibinium</strong>”，这源于流经此地的奇滨河。而“锡比乌”这个罗马尼亚语名称，以及德语的“<strong>赫尔曼施塔特</strong>”，都从此演化而来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城市的诞生，从一开始就烙上了双重印记：作为<strong>军事边疆的堡垒</strong>，与作为<strong>跨国贸易的枢纽</strong>。这种双重性，塑造了它最初的骨骼——坚固的城墙与开阔的市场广场并存。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "萨克森人不仅带来了石匠手艺，更带来了至关重要的 <strong>“马格德堡权利”</strong> ，一套赋予城市高度自治权的法律体系。这使锡比乌在匈牙利王权之下，得以像一个微型的共和国般运转，奠定了它未来数个世纪繁荣与独立的基石。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "锡比乌的城墙，目睹过最漆黑的恐惧，也守护过最璀璨的文明火种。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一道深刻的印记，来自东方。<strong>1241年</strong>，蒙古铁骑如燎原烈火般横扫东欧，特兰西瓦尼亚未能幸免。锡比乌，这座新兴的城镇，经历了它早期历史中最残酷的洗礼。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "尽管城墙初具规模，但面对拔都汗麾下久经战阵的军队，城市仍遭受了严重破坏。然而，传说在这场劫难中诞生，并成为了城市精神的核心。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "民间传说讲述，当蒙古人兵临城下，城内的<strong>大祭司</strong>手持圣物，登上城墙祈祷。他的信念如此坚定，竟让侵略者望而却步，城市的一部分因此得以保全。这位祭司后来被尊为城市的守护者，其勇气化为锡比乌人“以信念为盾”的集体记忆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这场灾难后，萨克森人以更大的决心重建。他们修筑了<strong>三道同心圆式的防御城墙</strong>，总计超过40座塔楼和4个坚固的城门。其中，<strong>“攻城塔”</strong> 至今巍然屹立，它并非用于进攻，而是储存火药的防御核心。这些工程让锡比乌成为东南欧最坚固的城池之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二道印记，是关于知识与力量的和平征服。<strong>1494年</strong>，一个划时代的事件在此发生。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在<strong>大广场</strong>旁的一栋建筑里，一部印刷机开始运转。它印制出的，不仅是拉丁语书籍，更有<strong>罗马尼亚语</strong>的宗教文本。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "这在东正教世界具有革命性意义。当时，罗马尼亚语主要以西里尔字母书写，且多为手抄。锡比乌的印刷所，成为了<strong>罗马尼亚语文化启蒙</strong>的重要起点，将知识的力量注入这片土地的精神血脉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第三道印记，刻在城市的建筑肌理上。锡比乌的<strong>“眼睛”</strong> ，是其最独特的标志。老城屋顶上成千上万个阁楼通风口，被巧妙地设计成<strong>似人眼般的狭长造型</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这不仅是萨克森工匠实用主义与美感的结合，更衍生出一种深邃的历史隐喻：整座城市仿佛一个巨大的、永不沉睡的守望者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些“眼睛”凝视着广场上<strong>15世纪建成的“谎言桥”</strong>——传说恋人若在桥上撒谎，桥身便会坍塌；也凝视着<strong>1904年落成的“布鲁肯塔尔宫”</strong>——它昭示着这座城市从自治城邦，最终融入奥匈帝国宏大叙事的历史轨迹。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "每一次战火、瘟疫与王朝更迭，都被这些沉默的“眼睛”记录，化为砖石间的年轮。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "锡比乌的历史星空，闪耀着几位独特的人物，他们并非征战四方的君王，而是用知识、收藏与远见塑造城市灵魂的贤者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一位，萨穆埃尔·冯·布鲁肯塔尔。</strong> 他是锡比乌最著名的儿子，也是哈布斯堡王朝在特兰西瓦尼亚统治的象征性人物。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1721年</strong>，布鲁肯塔尔出生在锡比乌一个萨克森裔贵族家庭。他接受了杰出的教育，精通多门语言，后进入哈布斯堡宫廷任职。凭借卓越的才能，他一路晋升，最终在<strong>1777年被玛丽亚·特蕾莎女皇任命为特兰西瓦尼亚总督</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这是他生涯的巅峰，但他对故乡最不朽的贡献，却始于他的私人热情。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "布鲁肯塔尔是一位狂热的<strong>启蒙运动追随者和收藏家</strong>。他利用其财富与遍布欧洲的关系网络，系统性地收集了海量的艺术品、古籍、钱币、矿物标本和自然科学藏品。他的目标，是创建一个“<strong>万有宝库</strong>”。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "在他的日记中曾写道：“无知是自由的坟墓，而收藏与展示，是驱散黑暗的烛台。” 他相信，通过接触人类文明的精华，可以启迪民智。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他将这些珍宝悉数运回锡比乌。<strong>1790年</strong>，总督任期结束三年后，他在自己的宫殿内，向<strong>特定公众</strong>开放了他的收藏。这比卢浮宫向公众开放还要早三年，是东南欧最早、最现代化的博物馆之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1817年</strong>，布鲁肯塔尔去世，他将全部财产与收藏遗赠给故乡。他的宫殿与藏品，成为了今日<strong>布鲁肯塔尔国家博物馆</strong>的核心。走进那里，你不仅能看到提香、伦勃朗的画作，更能触摸到一位开明总督，试图用文明的火种照亮帝国边疆的雄心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二位，赫尔曼·奥伯特。</strong> 这位“现代火箭之父”之一，与锡比乌的羁绊，是一段被战争与政治割裂的传奇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1894年</strong>，奥伯特出生于锡比乌（当时称赫尔曼施塔特）。他的童年，就在老城的街巷与奇滨河畔度过。据说，少年时代的他，痴迷于儒勒·凡尔纳的《从地球到月球》，并自己推导出了火箭运动的基本方程。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，他的学术之路并不平坦。一战爆发后，他应征入伍。战后，由于特兰西瓦尼亚被划归罗马尼亚，作为德裔的奥伯特，身份变得微妙。他前往德国深造并最终在那里成名，发表了划时代的著作《飞往星际空间的火箭》。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "尽管他后来为纳粹德国的火箭计划工作（他的学生包括冯·布劳恩），并长居德国，但他从未忘记自己的出生地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在罗马尼亚，他被尊称为 <strong>“罗马尼亚火箭之父”</strong> 。锡比乌以他为荣，在<strong>“大桥广场”</strong> 上设立了他的半身像。他的故事，是20世纪中东欧民族与身份变迁的缩影——一个在锡比乌仰望星空的男孩，最终推动了全人类探索太空的征程，而他的根，永远留在了特兰西瓦尼亚的这座老城。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在锡比乌，历史不仅书写在羊皮纸上，更在街头巷尾的口耳相传中呼吸。最生动的传说，围绕着老城屋顶上那些神秘的 <strong>“眼睛”</strong> 。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "官方解释是，这些阁楼通风孔的设计，是为了让仓储存放的谷物能够良好通风，其狭长造型能有效防止雨水侵入。但在民间想象中，它们被赋予了生命与意志。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "流传最广的故事版本，将我们带回中世纪。那时，锡比乌作为富庶的商业中心，吸引了各方来客，也引来了盗贼与间谍的觊觎。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "据说，城市议会曾雇佣了一位神秘的<strong>老守望者</strong>。他不上塔楼，而是终日游走在屋顶的瓦片之间，目光如炬，能洞察任何角落的罪恶与阴谋。在他的守护下，市场里缺斤少两的商贩会被当众揭穿，潜入城内的探子总会莫名失手。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "老守望者去世后，市民们为了纪念他，并延续这份“被守护”的安全感，一致决定，将新建房屋的阁楼通风口，都修成他<strong>那双犀利、深邃的眼睛形状</strong>。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "于是，传说诞生了：这些“眼睛”继承了老守望者的灵魂。它们永不闭合，白天吸收日光，夜晚则闪烁着微光，默默监察着整座城市。若有心怀不轨者走在广场上，总会感到脊背发凉，仿佛被无数道目光刺穿。因此，锡比乌的犯罪率一直很低，因为“<strong>你永远不知道，哪只眼睛正在看着你</strong>”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说，巧妙地融合了萨克森民族严谨、守序、重视社区安全的特性。它让冰冷的建筑构件，变成了有温度的城市守护神，也解释了为何漫步在锡比乌的街头，总会感到一种奇特的宁静与安全感——你正身处一座“醒着”的城市之中。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当游客漫步在锡比乌起伏的广场，穿过“谎言桥”，与屋顶上千百只“眼睛”对视时，他们所体验的，远不止是东欧的风景明信片。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们走过的，是<strong>萨克森法学家</strong>用自治宪章铺就的石板路；仰望的，是抵御了<strong>蒙古风暴</strong>与<strong>奥斯曼阴影</strong>的坚固塔楼；呼吸的，是<strong>布鲁肯塔尔</strong>试图汇聚的整个欧洲启蒙时代的空气；感受的，是<strong>奥伯特</strong>从这里望向宇宙星辰的原始好奇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "锡比乌是一座“层叠的城市”。它的每一层——萨克森的、匈牙利的、罗马尼亚的、奥匈帝国的——都没有被粗暴抹去，而是在战火与时间的缝隙中，达成了奇异的和解，最终沉淀为一种独一无二的<strong>特兰西瓦尼亚身份</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它提醒我们，欧洲的伟大不仅在于巴黎或罗马的恢弘，更在于像锡比乌这样，在历史十字路口上，凭借坚韧的市民精神、对法律的信仰和对知识的渴求，一次次守护并重塑自身文明的小城。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂锡比乌，便是读懂一部微缩的、生动的中东南欧生存史诗。它的魅力，在于这份穿越七个世纪，依然清晰可辨的、沉静而骄傲的<strong>历史脉搏</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/biertan-fortified-church" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    别
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">别尔坦设防教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Biertan Fortified Church</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/peles-castle-sinaia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    锡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">锡纳亚（佩列什城堡）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sinaia (Peleș Castle)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/rasnov-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    勒
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">勒什诺夫要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Râșnov Fortress</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -15,7 +15,7 @@ export default function DrottningholmPalacePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/sweden' },
             { label: '卓宁霍姆宫', href: '/attractions/drottningholm-palace' },
           ]}
         />

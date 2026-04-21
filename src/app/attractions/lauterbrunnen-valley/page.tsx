@@ -15,7 +15,7 @@ export default function LauterbrunnenValleyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '劳特布龙嫩山谷', href: '/attractions/lauterbrunnen-valley' },
           ]}
         />

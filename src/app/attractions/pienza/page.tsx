@@ -15,7 +15,7 @@ export default function PienzaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '皮恩扎古城', href: '/attractions/pienza' },
           ]}
         />

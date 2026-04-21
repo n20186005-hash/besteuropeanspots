@@ -15,7 +15,7 @@ export default function PatonesDeArribaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '帕托内斯德阿里瓦（上帕托内斯村）', href: '/attractions/patones-de-arriba' },
           ]}
         />

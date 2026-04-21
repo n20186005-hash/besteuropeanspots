@@ -15,7 +15,7 @@ export default function AnsembourgCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/luxembourg' },
             { label: '安森堡', href: '/attractions/ansembourg-castle' },
           ]}
         />

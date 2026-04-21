@@ -15,7 +15,7 @@ export default function CocaCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '可可城堡', href: '/attractions/coca-castle' },
           ]}
         />

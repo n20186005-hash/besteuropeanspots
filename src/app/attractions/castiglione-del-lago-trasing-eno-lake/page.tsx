@@ -15,7 +15,7 @@ export default function CastiglioneDelLagoTrasingEnoLakePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '卡斯蒂廖内-德尔拉戈', href: '/attractions/castiglione-del-lago-trasing-eno-lake' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function GubbioOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '古比奥古城', href: '/attractions/gubbio-old-town' },
           ]}
         />

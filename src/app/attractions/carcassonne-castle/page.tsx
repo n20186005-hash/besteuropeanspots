@@ -15,7 +15,7 @@ export default function CarcassonneCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '法国', href: '/destinations/france' },
             { label: '卡尔卡松城堡', href: '/attractions/carcassonne-castle' },
           ]}
         />

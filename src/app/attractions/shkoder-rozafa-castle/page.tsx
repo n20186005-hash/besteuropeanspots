@@ -15,7 +15,7 @@ export default function ShkoderRozafaCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '阿尔巴尼亚', href: '/destinations/albania' },
             { label: '斯库台', href: '/attractions/shkoder-rozafa-castle' },
           ]}
         />

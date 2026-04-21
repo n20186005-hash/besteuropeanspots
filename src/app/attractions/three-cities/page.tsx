@@ -15,7 +15,7 @@ export default function ThreeCitiesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '马耳他', href: '/destinations/malta' },
             { label: '三姐妹城', href: '/attractions/three-cities' },
           ]}
         />

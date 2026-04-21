@@ -15,7 +15,7 @@ export default function LohrAmMainSnowWhitePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '美因河畔洛尔', href: '/attractions/lohr-am-main-snow-white' },
           ]}
         />

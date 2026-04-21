@@ -15,7 +15,7 @@ export default function AnnabergBuchholzOreMountainsMiningWoodcarvingPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '安纳贝格-布赫霍尔茨（厄尔士山脉的矿业与木雕中心）', href: '/attractions/annaberg-buchholz-ore-mountains-mining-woodcarving' },
           ]}
         />

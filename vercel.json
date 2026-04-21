@@ -1,0 +1,409 @@
+{
+  "redirects": [
+    {
+      "source": "/attractions/albi-cathedral(/?)",
+      "destination": "/attractions/episcopal-city-of-albi",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/conques-abbey(/?)",
+      "destination": "/attractions/conques-abbey-village",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/abbey-of-sainte-foy-conques(/?)",
+      "destination": "/attractions/conques-abbey-village",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/dinan-old-town(/?)",
+      "destination": "/attractions/dinan-medieval-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/citadel-of-dinant(/?)",
+      "destination": "/attractions/dinant-saxophone-town-belgium",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/rocamadour-cliff-village(/?)",
+      "destination": "/attractions/rocamadour-sanctuary",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/riquewihr-alsace-france(/?)",
+      "destination": "/attractions/riquewihr-alsace-fairytale-village",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/gjirokastra-castle-old-town(/?)",
+      "destination": "/attractions/gjirokaster-city",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/roussillon(/?)",
+      "destination": "/attractions/roussillon-ochre-village",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/provins-medieval-city(/?)",
+      "destination": "/attractions/provins-medieval-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/durbuy-town(/?)",
+      "destination": "/attractions/durbuy-smallest-city-belgium",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/echternach-abbey(/?)",
+      "destination": "/attractions/abbey-of-echternach",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/quedlinburg-abbey(/?)",
+      "destination": "/attractions/quedlinburg-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/trier-cathedral(/?)",
+      "destination": "/attractions/trier-roman-monuments",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/trier-amphitheater(/?)",
+      "destination": "/attractions/trier-roman-monuments",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/noerdlingen-ries-crater-town(/?)",
+      "destination": "/attractions/nordlingen-ries-crater-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/meersburg-castle-old-castle(/?)",
+      "destination": "/attractions/meersburg-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/celle-half-timbered-houses(/?)",
+      "destination": "/attractions/celle-half-timbered-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/volterra-etruscan-ruins(/?)",
+      "destination": "/attractions/volterra-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/lecce-baroque-city(/?)",
+      "destination": "/attractions/lecce-baroque-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/mantua(/?)",
+      "destination": "/attractions/mantua-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/mantua-city(/?)",
+      "destination": "/attractions/mantua-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/ravenna-mosaics(/?)",
+      "destination": "/attractions/ravenna-byzantine-mosaics",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/historic-centre-urbino(/?)",
+      "destination": "/attractions/urbino-historic-centre",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/ferrara-castle(/?)",
+      "destination": "/attractions/ferrara-renaissance-city",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/ascoli-piceno(/?)",
+      "destination": "/attractions/ascoli-piceno-historic-center",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/spoleto(/?)",
+      "destination": "/attractions/spoleto-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/spoleto-historic-town(/?)",
+      "destination": "/attractions/spoleto-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/spoleto-aqueduct-and-duomo-complex(/?)",
+      "destination": "/attractions/spoleto-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/spoleto-umbria(/?)",
+      "destination": "/attractions/spoleto-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/casas-colgadas-cuenca(/?)",
+      "destination": "/attractions/cuenca-hanging-houses",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/avila-city-walls(/?)",
+      "destination": "/attractions/avila-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/avila-walls(/?)",
+      "destination": "/attractions/avila-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/san-vicente-avila(/?)",
+      "destination": "/attractions/avila-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/historic-centre-guimaraes(/?)",
+      "destination": "/attractions/guimaraes-historical-centre",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/evora-roman-temple(/?)",
+      "destination": "/attractions/evora-bone-chapel-historic-centre",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/obidos-portugal(/?)",
+      "destination": "/attractions/obidos-wedding-town-portugal",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/duernstein-abbey-wachau(/?)",
+      "destination": "/attractions/durnstein-castle",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/schlossberg-graz(/?)",
+      "destination": "/attractions/graz-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/schwabisch-hall(/?)",
+      "destination": "/attractions/schwabisch-hall-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/schwaebisch-hall(/?)",
+      "destination": "/attractions/schwabisch-hall-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/schwaebisch-hall-old-town(/?)",
+      "destination": "/attractions/schwabisch-hall-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/hall-in-tirol(/?)",
+      "destination": "/attractions/hall-in-tirol-mint-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/bad-ischl(/?)",
+      "destination": "/attractions/bad-ischl-imperial-spa-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/imperial-spa-town-bad-ischl(/?)",
+      "destination": "/attractions/bad-ischl-imperial-spa-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/st-gallen-abbey(/?)",
+      "destination": "/attractions/abbey-of-saint-gall-library",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/abbey-library-saint-gall(/?)",
+      "destination": "/attractions/abbey-of-saint-gall-library",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/thun-castle(/?)",
+      "destination": "/attractions/thun-castle-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/sion(/?)",
+      "destination": "/attractions/sion-twin-hills",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/sion-valais-switzerland(/?)",
+      "destination": "/attractions/sion-twin-hills",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/murten-medieval-ramparts(/?)",
+      "destination": "/attractions/murten-medieval-lake-city-walls",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/murten-old-town-walls(/?)",
+      "destination": "/attractions/murten-medieval-lake-city-walls",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/telc-water-castle(/?)",
+      "destination": "/attractions/telc-historic-centre",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/sedlec-ossuary-kutna-hora(/?)",
+      "destination": "/attractions/sedlec-ossuary-kutna-hora-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/spis-castle-slovakia(/?)",
+      "destination": "/attractions/spis-castle",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/gyor(/?)",
+      "destination": "/attractions/gyor-baroque-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/gyor-old-town(/?)",
+      "destination": "/attractions/gyor-baroque-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/eger-castle(/?)",
+      "destination": "/attractions/eger-castle-bulls-blood-wine-region",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/eger-minaret(/?)",
+      "destination": "/attractions/eger-castle-bulls-blood-wine-region",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/szentendre-artists-village(/?)",
+      "destination": "/attractions/szentendre-art-town-hungary",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/tokaj-wine-region-historic-cultural-landscape(/?)",
+      "destination": "/attractions/tokaj-wine-region-historical-cultural-landscape",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/piran-old-town(/?)",
+      "destination": "/attractions/piran-salt-pans-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/rovinj-old-town-istria(/?)",
+      "destination": "/attractions/rovinj-coastal-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/trogir-old-town(/?)",
+      "destination": "/attractions/trogir-historic-centre",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/trogir-historic-town(/?)",
+      "destination": "/attractions/trogir-historic-centre",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/korcula(/?)",
+      "destination": "/attractions/korcula-old-town-marco-polo",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/perast-bay-of-kotor(/?)",
+      "destination": "/attractions/perast-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/ohrid-old-town(/?)",
+      "destination": "/attractions/ohrid-lake-and-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/roman-theatre-plovdiv(/?)",
+      "destination": "/attractions/plovdiv-roman-theatre",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/sighisoara-citadel(/?)",
+      "destination": "/attractions/sighisoara-dracula-historic-centre",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/berat-albania-thousand-windows(/?)",
+      "destination": "/attractions/berat-thousand-windows",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/nafplio-greece(/?)",
+      "destination": "/attractions/nafplio-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/monemvasia(/?)",
+      "destination": "/attractions/monemvasia-fortress-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/meteora-monasteries(/?)",
+      "destination": "/attractions/meteora-monasteries-greece",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/chania-venetian-harbour(/?)",
+      "destination": "/attractions/chania-old-town-venetian-harbor-lighthouse",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/visby(/?)",
+      "destination": "/attractions/visby-city-wall",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/ystad-medieval-town-sweden(/?)",
+      "destination": "/attractions/ystad-half-timbered-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/porvoo(/?)",
+      "destination": "/attractions/porvoo-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/porvoo-red-wooden-houses(/?)",
+      "destination": "/attractions/porvoo-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/turku-castle(/?)",
+      "destination": "/attractions/turku-castle-sweden-finland",
+      "permanent": true
+    },
+    {
+      "source": "/attractions/turku-cathedral(/?)",
+      "destination": "/attractions/turku-castle-sweden-finland",
+      "permanent": true
+    }
+  ]
+}

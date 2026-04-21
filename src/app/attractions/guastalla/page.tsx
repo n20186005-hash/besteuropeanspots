@@ -1,0 +1,247 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '瓜斯塔拉 Guastalla｜波河畔被遗忘的文艺复兴珍珠，在红砖柱廊下找回意大利慢时光 - 最佳欧洲景点',
+  description: '说实话，在踏入瓜斯塔拉的中心广场之前，我脑子里对“文艺复兴理想城市”的概念还停留在教科书那些枯燥的几何图上。但当我从狭窄的巷子一步跨进宽阔的Piazza Mazzini时，那种感觉，就像突然有人调低了世界的音量，同时调高了色彩的饱和度。午后阳光正斜斜地打在环绕广场一周的红砖柱廊上，把那些历经四五百年',
+}
+
+export default function GuastallaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瓜斯塔拉', href: '/attractions/guastalla' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`瓜斯塔拉・Guastalla・意大利・瓜斯塔拉`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，在踏入瓜斯塔拉的中心广场之前，我脑子里对“文艺复兴理想城市”的概念还停留在教科书那些枯燥的几何图上。但当我从狭窄的巷子一步跨进宽阔的Piazza Mazzini时，那种感觉，就像突然有人调低了世界的音量，同时调高了色彩的饱和度。午后阳光正斜斜地打在环绕广场一周的红砖柱廊上，把那些历经四五百年风雨的砖块照得温暖而通透，光影在连续的拱券下切割出明暗交替的深邃走廊。空气里有种好闻的味道——咖啡香从某家老吧台飘出来，混合着不远处面包店刚出炉的“ciabatta”的酵母气息，还有石头上微微的、凉丝丝的潮气。
+这里没有乌泱泱的旅行团，没有举着自拍杆的人流。柱廊下，几位老人坐在藤椅上，面前摆着小小的咖啡杯，用我完全听不懂的艾米利亚方言缓慢地聊着天，声音轻柔得像背景里的白噪音。一个妈妈推着婴儿车慢悠悠地走过，车轮在几百年前铺就的光滑鹅卵石地面上发出规律的“嗒、嗒”声。我的视线不由自主地被那些柱廊吸引，它们像一条沉稳而优雅的红色丝带，把广场四周的建筑——公爵宫、市政厅、教堂、老店铺——温柔地串联在一起。这种设计不仅是美观，更是一种天才的生活哲学：无论刮风下雨还是烈日当空，市民都可以在柱廊的庇护下，从容地走遍城市的核心，进行他们的社交、购物和沉思。
+瓜斯塔拉最打动人心的，或许正是这种“活着”的宁静。它没有成为博物馆里的标本，也没有被过度商业化吞噬。这里的柱廊不是为游客准备的风景照背景，而是老太太去买菜的必经之路，是年轻人约见面时说的“老地方”，是孩子学骑自行车时不会担心摔倒的安全空间。你站在这里，能真切地感受到一种源于文艺复兴时期、却延续至今的“人性尺度”的城市梦想：城市不是炫耀权力的冰冷纪念碑，而是为人服务、滋养日常幸福的温暖容器。当你在拱廊下找个位置坐下，点一杯Aperol Spritz，看着光影从西移到东，你会感觉到一种久违的、属于生活的节奏正在你身体里重新苏醒。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说实话，在踏入瓜斯塔拉的中心广场之前，我脑子里对“文艺复兴理想城市”的概念还停留在教科书那些枯燥的几何图上。但当我从狭窄的巷子一步跨进宽阔的Piazza Mazzini时，那种感觉，就像突然有人调低了世界的音量，同时调高了色彩的饱和度。午后阳光正斜斜地打在环绕广场一周的红砖柱廊上，把那些历经四五百年风雨的砖块照得温暖而通透，光影在连续的拱券下切割出明暗交替的深邃走廊。空气里有种好闻的味道——咖啡香从某家老吧台飘出来，混合着不远处面包店刚出炉的“ciabatta”的酵母气息，还有石头上微微的、凉丝丝的潮气。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里没有乌泱泱的旅行团，没有举着自拍杆的人流。柱廊下，几位老人坐在藤椅上，面前摆着小小的咖啡杯，用我完全听不懂的艾米利亚方言缓慢地聊着天，声音轻柔得像背景里的白噪音。一个妈妈推着婴儿车慢悠悠地走过，车轮在几百年前铺就的光滑鹅卵石地面上发出规律的“嗒、嗒”声。我的视线不由自主地被那些柱廊吸引，它们像一条沉稳而优雅的红色丝带，把广场四周的建筑——公爵宫、市政厅、教堂、老店铺——温柔地串联在一起。这种设计不仅是美观，更是一种天才的生活哲学：无论刮风下雨还是烈日当空，市民都可以在柱廊的庇护下，从容地走遍城市的核心，进行他们的社交、购物和沉思。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "瓜斯塔拉最打动人心的，或许正是这种“活着”的宁静。它没有成为博物馆里的标本，也没有被过度商业化吞噬。这里的柱廊不是为游客准备的风景照背景，而是老太太去买菜的必经之路，是年轻人约见面时说的“老地方”，是孩子学骑自行车时不会担心摔倒的安全空间。你站在这里，能真切地感受到一种源于文艺复兴时期、却延续至今的“人性尺度”的城市梦想：城市不是炫耀权力的冰冷纪念碑，而是为人服务、滋养日常幸福的温暖容器。当你在拱廊下找个位置坐下，点一杯Aperol Spritz，看着光影从西移到东，你会感觉到一种久违的、属于生活的节奏正在你身体里重新苏醒。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`瓜斯塔拉`} />
+                <InfoRow label="英文名称" value={`Guastalla`} />
+                <InfoRow label="正式名称" value={`Guastalla`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`瓜斯塔拉`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`文艺复兴时期贡扎加家族精心规划的“理想城市”典范，曾是波河畔一个繁荣而独立的微型公爵国首都。`} />
+                <InfoRow label="建筑特色" value={`规整几何布局的市中心，由连绵的红色砖石柱廊统一起来，形成和谐而人性化的步行尺度空间。`} />
+                <InfoRow label="建筑风格" value={`文艺复兴城市规划思想与伦巴第地区本土红砖建筑传统的完美融合。`} />
+                <InfoRow label="文化价值" value={`一个活生生的、未被大众旅游浪潮淹没的社区样本，展示了宁静、和谐且充满日常美感的欧洲小城理想。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城广场及公共街道区域全天24小时开放。主要历史建筑如公爵宫（Palazzo Ducale）内部参观时间通常为周二至周日 9:00-13:00 & 15:00-19:00（冬季下午时间可能缩短至17:00），周一及主要节假日闭馆。建议行前查询当地旅游局网站确认临时展览或活动安排，夏季夜晚广场常有露天音乐会或市集，氛围极佳。`} />
+              <InfoRow label="门票价格" value={`漫步古城街道、广场及欣赏外部建筑完全免费。公爵宫内部参观通常免费，但特设临时展览可能收取少量费用（约3-5欧元）。城市历史博物馆（Museo della Città）门票约2-4欧元，学生及老人有优惠。无需提前预订。`} />
+              <InfoRow label="地址" value={`Piazza Mazzini, 1, 42016 Guastalla RE, Italy`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是帕尔马“朱塞佩·威尔第”机场（PMF），距离约40公里。从机场可乘坐出租车（约50欧元，40分钟）或提前预订接驳车。最便捷的公共交通是从雷焦艾米利亚中央火车站（Reggio Emilia AV Mediopadana）出发，乘坐当地公交公司TPL Extra的“2/”路线巴士，约50分钟车程，班次每小时1-2班，车票可在车站烟草店或上车购买。如果自驾，可将车停在古城外围的免费停车场（如Via Gramsci附近），然后步行进入中心区，古城内多为限行区域。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "瓜斯塔拉的故事，离不开一个显赫的家族——贡扎加（Gonzaga）。不过，这里的主角并非曼托瓦的那一支主系，而是一个旁系后代，费兰特·贡扎加。时间回到16世纪，曼托瓦的贡扎加家族正如日中天，但家族内部也像所有豪门一样，充满分支和竞争。费兰特是次子，一个有野心也有能力的贵族子弟。1540年，神圣罗马帝国皇帝查理五世做了一笔交易，将瓜斯塔拉这片位于波河肥沃平原上的土地，从原来的统治者手里剥离出来，提升为“公爵领地”，并将其作为一份厚礼，赐封给了费兰特。于是，瓜斯塔拉公爵国诞生了，费兰特成为了第一任公爵。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位新公爵看着自己这块不算太大但位置重要的领地，心里萌生了一个雄心勃勃的计划。他要的不只是一个城堡或宫殿，他要建造一座符合文艺复兴最新潮思想的“理想城市”（Città Ideale）。那时的意大利，经过达芬奇、阿尔伯蒂等大师的鼓吹，建筑师和领主们都痴迷于用几何、对称和比例来创造完美的城市形态，认为这能反映宇宙的和谐，并培育出品德高尚的公民。费兰特请来了当时顶尖的建筑师兼军事工程师多梅尼科·琼蒂尼。他们的方案清晰而大胆：以一座坚固的星形堡垒防御外敌，内部则是一个规整的、近乎方形的网格状城市核心。而这一切的核心，就是那个我们今天看到的巨大矩形广场，以及它周围统一、连续的红砖柱廊。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "红砖，是理解瓜斯塔拉建筑灵魂的关键。伦巴第平原缺乏优质的石材，但黏土资源丰富。于是，烧制红砖成了最本土、最经济的选择。贡扎加公爵和琼蒂尼并没有鄙视这种“廉价”材料，反而将它提升到了美学的高度。那些烧制精良的砖块，呈现出从暖橘到深褐的丰富色调，砌筑出优雅的拱券、壁柱和檐口。柱廊的设计更是神来之笔，它赋予了城市建筑统一的“表情”，创造了一种宏伟却不逼人的公共空间。你能想象在十六世纪，当这座规划整齐、柱廊连绵的新城在波河畔拔地而起时，给过往旅人和周边居民带来的震撼吗？它就像一个宣言，宣告着秩序、繁荣与文明。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，小国的命运总是随风飘摇。贡扎加家族统治瓜斯塔拉近两个世纪，其间不乏文化艺术的短暂繁荣。但随着家族绝嗣，这块土地在1748年后先后被并入帕尔马公国、拿破仑帝国，最后成为意大利统一的一部分。幸运的是，它躲过了大规模的战火摧毁，特别是二战期间，虽然波河防线是激烈战场，但瓜斯塔拉的历史中心却奇迹般地保存了下来。它的衰落，某种意义上也是一种幸运。因为不再具有重要的政治经济地位，它也就避免了二十世纪大刀阔斧的“现代化”改造。那些柱廊没有被拆掉拓宽成马路，广场也没有被停车场吞噬。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，时间在这里仿佛被按下了慢放键。当你今天漫步其中，你脚下是贡扎加公爵时期铺就的石头，手触摸的是十六世纪砌筑的砖柱。公爵宫（现在部分是市政厅和法院）的立面依然庄严，广场另一端的“龙卡利宫”如今是迷人的古董店和咖啡馆。你甚至能找到费兰特公爵的个人标志——一个石榴（“Melagrana”，在意大利语中与“Guastalla”有词源联想）被雕刻在一些建筑的角落，这是属于这个小城独有的、等待你去发现的秘密纹章。瓜斯塔拉的历史，不是写在壮烈的史诗里，而是沉淀在每一块红砖的温度中，在每一个午后柱廊下长长的影子里。它是一部关于规划、梦想、家族兴衰，最终归于平静的微型编年史。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`游览瓜斯塔拉的精髓在于“慢”和“沉浸”。建议在午后两点左右抵达，这时意大利人的午休（riposo）刚过，小城开始缓缓苏醒，阳光角度也变得非常适合欣赏红砖建筑的光影层次。整个深度游览无需匆忙，耗时约4-5小时，可以从容地走遍核心区，并包含一次咖啡小憩和简单的傍晚开胃酒（Aperitivo）。路线设计为从古城边缘向中心广场汇聚，再向外探索至波河畔，最后回到广场感受夜幕降临时的氛围变化。这样安排能让你逐步被这座小城的韵律所感染，由外至内体会其规划之美。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`千万不要在周日早上或周一白天来，那时大部分商店和博物馆都关门，城市会显得过于寂静甚至有些萧条。
+穿着舒适的平底鞋至关重要，古城内几乎全是鹅卵石和石板路，高跟鞋会是一场灾难。
+如果看到柱廊下聚集着聊天的老人，不妨微笑点头，他们很可能就是这座小城活的记忆库，一份善意的问候可能会换来一个温暖的微笑甚至一段故事。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从古老的“博尔戈门”（Porta del Borgo）或类似的古城入口进入，立刻让自己被那些狭窄却干净的石板小巷包裹，两旁的民居窗户台上有绽放的天竺葵。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着Via Gonzaga或Via Martiri della Liberazione等主要街道向中心漫步，刻意走在红砖柱廊之下，感受头顶拱廊带来的庇护感和光线明暗的节奏变化。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在玛志尼广场（Piazza Mazzini）中心驻足，顺时针缓缓环视一周，辨认公爵宫、市政厅、钟楼和龙卡利宫等主要建筑，观察它们如何在柱廊的统一下既和谐共存又各具特色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进公爵宫（Palazzo Ducale）敞开的庭院，抬头看那些文艺复兴式的拱廊和楼梯，想象当年贵族马车在此进出的场景，现在这里是市民办理事务的地方，充满生活气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻找广场或附近街道建筑立面上隐藏的“石榴”（Melagrana）雕刻，这是贡扎加公爵的象征，完成一次与历史的小小寻宝游戏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着Via XX Settembre向东走，穿过柱廊和安静的居住区，一直走到城市的边缘，那里有绿树成荫的公众花园和通向波河（Po River）堤岸的小径。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在波河堤岸上散步，看着宽阔平静的河水向南流去，回望瓜斯塔拉小城的天际线，理解这条大河如何塑造了这片土地的历史与生活。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前返回主广场，在柱廊下挑选一家咖啡馆或酒吧，点一杯当地产的兰布鲁斯科（Lambrusco）起泡酒或经典的阿佩罗（Aperol Spritz），融入傍晚当地人“开胃酒时光”的社交 ritual。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`公爵宫东侧柱廊纵深`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点左右，阳光从西面低角度射入，站在柱廊一端向另一端拍摄，能捕捉到一道道金色光柱与深邃拱廊形成的强烈透视感和光影韵律。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`玛志尼广场西南角仰望钟楼`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚柔和光线下，从这个角落可以将前景的红砖拱廊作为画框，聚焦后方高耸的钟楼，构图古典而平衡。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`波河堤岸远眺城市剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落时分（“金色时刻”），走到河对岸或侧面的堤坝上，用长焦镜头压缩空间，拍摄古城建筑群在温暖天光下的轮廓，波河水面的倒影能为画面增色。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`龙卡利宫殿（Palazzo Rangoni）拱门内窥视广场`}</h4>
+                  <p className="text-sm text-gray-700">{`透过宫殿底层精美的拱形门洞向内拍摄广场上活动的人们，形成天然的取景框，增添照片的故事性和层次感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`某条小巷尽头的柱廊一瞥`}</h4>
+                  <p className="text-sm text-gray-700">{`找一条安静的小巷，在巷子尽头等待一个行人或一辆自行车恰好穿过远处被阳光照亮的柱廊开口，瞬间捕捉充满生活气息的明暗对比画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`建议携带一支24-70mm的标准变焦镜头，足以应付从广阔广场到建筑细节的各种拍摄；一支轻便的长焦镜头（如70-200mm）则对在波河畔捕捉城市远景非常有帮助。`}</li>
+                <li>• {`尊重当地居民隐私，避免将镜头直接对准在私人阳台或窗户内的人，拍摄柱廊下的人物场景时最好采用背影或侧影，营造氛围而非侵犯隐私。`}</li>
+                <li>• {`清晨七点到八点之间，广场上空无一人，阳光清澈，是拍摄纯净建筑立面的绝佳时机，那时的光线能让红砖的质感格外突出。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`广场柱廊下的优雅住所`}</h4>
+                  <p className="text-sm text-blue-800">{`位于玛志尼广场柱廊内的一家小型精品酒店，房间窗户正对着广场，清晨在咖啡香中醒来，夜晚看着广场灯光在古老砖石上投下温馨的光晕。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`由古老修道院回廊改造的宁静民宿`}</h4>
+                  <p className="text-sm text-green-800">{`坐落在离广场步行三分钟的一条静谧小巷里，保留了原始的拱顶和庭院，房东会为你准备丰盛的艾米利亚式早餐，包括当地著名的奶酪和冷切肉。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`波河畔的舒适农庄（Agriturismo）`}</h4>
+                  <p className="text-sm text-yellow-800">{`如果你有车，不妨选择城外三公里一处由家族经营的河畔农庄，住在充满乡村风情的房间里，品尝农场自产的农产品，享受绝对的宁静，夜晚能看到璀璨的星空。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`市中心的历史公寓短租`}</h4>
+                  <p className="text-sm text-purple-800">{`通过平台租下公爵宫附近一套挑高老公寓，体验一天“瓜斯塔拉居民”的生活，自己去早市买新鲜食材，在古老的厨房里做一顿饭，完全融入当地节奏。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小城治安极好，夜晚独自在中心区域行走也完全安全，但依然建议保持一般的旅行警觉性。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6月至8月）是当地节庆（如美食节、夏季音乐节）较多的时期，住宿会比较紧俏，建议提前数周预订；春秋两季是体验舒适气候和宁静氛围的更佳选择。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果选择住在城外农庄，请务必确认他们提供晚餐服务或附近有餐馆，因为晚上进城可能不够方便。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开瓜斯塔拉的时候，我背包里没有多一件纪念品，但心里却好像被某种东西填得满满的，很踏实。那种感觉，不是看到了惊天动地奇观的兴奋，而更像是在一位老友家度过了一个悠长下午后的平和与充盈。在这个一切都被加速、被放大、被 hashtag 标记的时代，瓜斯塔拉提供了一种珍贵的“反主流”体验——它允许你无所事事，允许你仅仅只是“存在”于一条美丽的柱廊下，看着光阴以最古典的方式在地上移动。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个地方的意义，远远超出一处“景点”。它是一把尺子，度量着城市与人的关系该有的温度；它是一个提醒，告诉我们生活可以有另一种密度和节奏。在这里，美不是被隔离在博物馆玻璃后的崇拜对象，而是砌筑你身边每一面墙的砖块，是笼罩你头顶的连绵拱券，是你脚下被无数代人鞋底打磨光滑的石头。这种美是功能性的，是为人服务的，是日复一日生活的一部分。它不喧哗，却拥有沉默而持久的力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了在热门景点的人潮中浮光掠影，如果你渴望触摸欧洲脉络中那些依然跳动着的、温热的日常心脏，那么，请一定来瓜斯塔拉看看。它可能不会让你在社交媒体上收获无数点赞，但它会在你心里种下一颗关于“理想生活”的种子。在未来的某个忙碌而疲惫的日子里，你或许会突然想起那个波河畔的黄昏，想起红砖柱廊下那杯酒的金色反光，然后，嘴角浮起一丝微笑，内心重新变得安静而宽阔。这，就是深度旅行能给予我们的、最宝贵的礼物。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/hanko-finland" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    汉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">汉科</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hanko</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/fribourg-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    弗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">弗里堡老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Fribourg Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/schwabisch-hall-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施瓦本哈尔古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Schwäbisch Hall</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

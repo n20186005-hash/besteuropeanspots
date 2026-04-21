@@ -1,0 +1,153 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科洛马玫瑰园深度旅游攻略：探秘全球顶级玫瑰基因库与古堡花园漫步指南',
+  description: '探索比利时隐秘的科洛马玫瑰园(Coloma Rose Garden)，全球顶级玫瑰基因库，三千品种六万株玫瑰绽放。这份深度游攻略带你避开人潮，感受古堡与花海的浪漫交响。',
+}
+
+export default function ColomaRoseGardenPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '科洛马玫瑰园', href: '/attractions/coloma-rose-garden' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`科洛马玫瑰园・Coloma Rose Garden・比利时・弗拉芒布拉班特省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你已经厌倦了布鲁塞尔大广场的人声鼎沸，正在为你的比利时之行寻找一个真正能呼吸、能沉醉的角落，那么，请收好今天这份私藏版的「科洛马玫瑰园自由行指南」。它不在常规的旅游路线上，甚至很多当地人都未必知晓它的全部魅力——但它，绝对是这颗星球上献给玫瑰最深情、最宏大的一封情书。想象一下，一座17世纪的静谧古堡公园内，超过3000个品种、足足6万多株玫瑰，如同被施了魔法般在此安家。这不是一个普通的花园，而是一座活着的、呼吸着的“玫瑰方舟”，一个全球顶尖的植物基因库。作为你的专属向导，这份攻略将带你深入这片芬芳的秘境，告诉你何时来才能遇见它最美的容颜，如何漫步才能读懂每一朵花背后的故事，以及如何避开可能的小麻烦，完整体验这场极致的感官与文化盛宴。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你已经厌倦了布鲁塞尔大广场的人声鼎沸，正在为你的比利时之行寻找一个真正能呼吸、能沉醉的角落，那么，请收好今天这份私藏版的「科洛马玫瑰园自由行指南」。它不在常规的旅游路线上，甚至很多当地人都未必知晓它的全部魅力——但它，绝对是这颗星球上献给玫瑰最深情、最宏大的一封情书。想象一下，一座17世纪的静谧古堡公园内，超过3000个品种、足足6万多株玫瑰，如同被施了魔法般在此安家。这不是一个普通的花园，而是一座活着的、呼吸着的“玫瑰方舟”，一个全球顶尖的植物基因库。作为你的专属向导，这份攻略将带你深入这片芬芳的秘境，告诉你何时来才能遇见它最美的容颜，如何漫步才能读懂每一朵花背后的故事，以及如何避开可能的小麻烦，完整体验这场极致的感官与文化盛宴。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`科洛马玫瑰园`} />
+                <InfoRow label="英文名称" value={`Coloma Rose Garden`} />
+                <InfoRow label="正式名称" value={`Coloma Rose Garden`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`弗拉芒布拉班特省`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`说起科洛马玫瑰园的历史，它并非拥有数百年花龄的古园，但其根基却深深扎在历史的土壤里。花园所在的科洛马城堡公园，其历史可追溯至17世纪，曾是当地贵族的领地。而玫瑰园本身，则是一个充满远见的现代杰作。它始建于20世纪90年代，但它的诞生与一个宏大的使命紧密相连：保护和收藏全球的玫瑰品种。你知道吗？在全球范围内，许多古老、珍稀的玫瑰品种正因气候变化、城市扩张而面临消失的风险。科洛马玫瑰园正是在这样的背景下，由一群充满热情的园艺家和植物学家牵头，与世界玫瑰联合会（WFRS）等机构合作，逐步建立起来的。它不仅仅是一个观赏花园，更是一个至关重要的“活体基因库”，一个植物保护的诺亚方舟。在欧洲乃至全球的园艺界，它都享有崇高的学术地位，是研究者、育种家和顶级玫瑰爱好者的圣地。它默默承担着保存玫瑰生物多样性、供未来研究和培育新种的重任，这份沉静而伟大的使命，让它在欧洲众多华丽花园中，拥有了独一无二、不可替代的历史与文化份量。`} />
+                <InfoRow label="建筑特色" value={`严格来说，玫瑰园的主角是植物，但承载它的“舞台”本身，就是一幅动人的建筑画卷。花园的核心背景是科洛马城堡（Kasteel van Coloma），一座宏伟的砖红色历史建筑。城堡主体呈现出沉稳的对称结构，中央主楼高耸，屋顶覆盖着经年累月形成铜绿的圆顶，在阳光下闪烁着低调而优雅的光泽。城堡的外墙是典型的佛兰德红砖，砖块细腻的纹理与深色的窗框形成对比，藤蔓植物轻柔地攀附其上，平添几分沧桑与柔情。玫瑰园并非围绕城堡紧密布局，而是以城堡为壮丽的远景或借景，在开阔的公园草地上铺陈开来。花园的设计充满了精巧的几何美感：你会看到由矮绿篱精心勾勒出的一个个“房间”式花坛，里面按品种、颜色或主题分类种植着玫瑰。笔直或蜿蜒的砂石小径引导你深入花海，而古典的铁艺拱门、纯白的木制凉亭、以及隐藏在林间的石雕座椅，则作为点缀，提供了休憩与构图的节点。最迷人的是那些爬满古老墙壁或专门花架的藤本月季，它们将建筑的刚硬线条彻底柔化，用怒放的花朵和垂落的枝条，为砖石结构披上了一袭流动的、芬芳的锦绣华服。`} />
+                <InfoRow label="建筑风格" value={`科洛马玫瑰园的整体氛围，是历史主义风格的城堡与法式古典主义园林风格的一次完美对话。**城堡建筑**本身属于历史主义风格，融合了文艺复兴和早期巴洛克的元素，强调对称、庄严与纪念性。红砖的大量运用是低地国家的典型特征，敦实而温暖。而环绕它的**花园规划**，则深受法式古典园林美学的影响。你可以看到勒·诺特尔式园林的影子：以城堡的中轴线为视觉延伸，花园布局讲究秩序、比例与透视。那些由黄杨绿篱精心修剪出的规整图案花坛，就是对这种“秩序之美”的致敬。然而，与凡尔赛宫纯粹的几何霸气不同，科洛马更多了一份英式风景园的浪漫与自然。在规整的花坛之外，是大片缓坡草地和疏林，玫瑰被成群、成片地自然种植，模拟它们在山野中蓬勃的生命状态。这种“规整”与“野趣”的融合，形成了独特的风格——既有人类对美的理性规划与收藏的野心，又充分尊重和展现了玫瑰作为生命体本身的感性与奔放。拱门、凉亭等小品建筑则多采用新古典或田园风格，线条简洁优美，其作用是服务于植物，成为玫瑰攀爬、展示的舞台，而非喧宾夺主。`} />
+                <InfoRow label="文化价值" value={`科洛马玫瑰园的文化价值，早已超越了“一个漂亮花园”的范畴。对于当地社区而言，它是自豪的绿肺与露天课堂。许多家庭会定期来访，孩子们在这里学习植物知识，恋人们在此定格婚纱照，老人们则在长椅上享受芬芳的宁静。它潜移默化地塑造着一种与自然之美、与细致生活紧密相连的地方文化。对现代社会而言，它更是一座无声的警示碑与希望灯塔。在生物多样性急剧丧失的今天，它将“保护”这一宏大课题，转化为每个人都可以直观感受、并为之惊叹的6万份美丽样本。每一株玫瑰都是一个故事，一个来自遥远大陆或古老岁月的基因密码。它让公众意识到，保护物种不仅仅是科学家的责任，也与每个人欣赏美、传承文化的权利息息相关。同时，它也是国际园艺文化交流的枢纽。每年，来自世界各地的专家在此交流，新的品种在此测试、登录。它像一个温和而坚定的使者，通过玫瑰这世界通用的语言，促进着知识、技术与美的全球共享。在这里，文化是看得见、闻得着的生命力，是连接过去与未来、科学与艺术、本地与全球的芬芳纽带。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 科洛马玫瑰园一日游打卡路线攻略：从古堡晨曦到玫瑰园漫步`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，我的专属路线规划来啦！想要一天内沉浸式体验科洛马而不走马观花，跟着我这样走准没错。**上午（10:00-12:30）：古堡印象与全景初探。** 建议一早从布鲁塞尔乘火车抵达圣彼得斯-莱乌（Sint-Pieters-Leeuw）站，再转短途公交或打车（约10分钟）抵达。先从公园入口远眺科洛马城堡，让那座红砖建筑在晨光中给你第一眼震撼。别急着冲进玫瑰丛，先沿着城堡外围的步道走走，从不同角度欣赏建筑与水面倒影。然后，走向玫瑰园区的至高点（通常地图有标注），那里能俯瞰大部分花园的几何布局，拍下“花海地毯”的壮丽全景。**下午（12:30-17:00）：深度芬芳漫步与细节发现。** 在公园内的咖啡馆简单午餐后，正式开始你的“玫瑰发现之旅”。拿上一份园区地图（通常免费），它会按编号划分区域。我强烈建议你重点探索“古老玫瑰品种区”和“现代玫瑰展示区”，对比两者截然不同的花型与香气。走进那些绿篱围起的“小房间”，俯身细看标签上的品种名和来历。记得去寻找那些造型各异的玫瑰拱廊，穿行其中，让花香包裹你。在“香氛小径”上，闭上眼睛，仅凭嗅觉去辨识不同品种。累了就在凉亭或随处可见的长椅上坐下，静静看蜜蜂采蜜，光影在花瓣上移动。**傍晚（17:00-18:30）：温柔时刻与返程。** 傍晚光线是摄影的黄金时间，柔和的金色会为玫瑰和城堡披上梦幻外衣。在闭园前，再次回到城堡前的开阔地，感受喧嚣退去后，花园重归宁静的魔法时刻。最后心满意足地踏上返程。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>古堡与玫瑰园的交响：</strong> 一定要找到一个能将城堡完整纳入画面的角度，前景是怒放的大片玫瑰。我特别喜欢站在一片浅粉色“遗产”玫瑰后方望向城堡。砖红的沉稳与玫瑰的娇嫩，石造的永恒与花开的刹那，在此形成诗歌般的对话。下午时分，城堡的阴影慢慢拉长，覆盖部分花坛，光与影的分界线上，花朵的颜色仿佛在呼吸间变化，那种动态的构图美得令人屏息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>空中俯览的几何奇迹：</strong> 走到花园设计的制高点俯瞰，你会震撼于人类规划与自然生命共同创造的图案。深红、明黄、纯白、淡粉的玫瑰区块，像一块块巨大的、有生命的马赛克，被墨绿色的黄杨绿篱线条清晰地分割、编织。这种宏观的秩序感，与你穿行花间时感受到的微觀的繁复与野趣，构成完全不同的体验层次，让你瞬间理解这座花园作为“收藏”和“研究”机构的宏大格局。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>活色生香的基因库：</strong> 蹲下来，仔细阅读那些插在植株旁的标签。你会发现诸如“Rosa gallica ‘Officinalis’（药用法国玫瑰），13世纪已有记载”，或“来自中国西藏的珍稀野生种”。这一刻，你眼前的不仅仅是一朵花，而是一个跨越数百甚至上千年、旅行了上万公里的生命故事。触摸一片古老玫瑰天鹅绒质感的花瓣，再对比现代杂交玫瑰硬挺光洁的质地，你能亲手感触到玫瑰育种史的脉络。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>香氛小径的感官盛宴：</strong> 花园中特意设计了依靠嗅觉体验的区域。闭上眼睛，缓缓走过。最先涌来的可能是经典大马士革玫瑰那浓郁、甜润、略带辛辣的复古香气；几步之外，也许会变成一种清冽的茶香，淡雅如初春的早晨；偶尔，一丝类似荔枝或水果糖的活泼甜香会钻入鼻腔。这不仅是闻香，更是在用鼻子“阅读”一部复杂的、无形的玫瑰香水谱。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>花期是王道，错过等一年：</strong> 这是最重要的贴士！玫瑰园的最佳观赏期是每年的 <strong>5月下旬到6月中旬</strong>，这是第一波也是最主要的花期，绝大多数品种竞相开放，壮观无比。7月至9月会有部分品种复花，但花量和新颖度无法与盛花期相比。10月后基本凋零。行前务必在官网或社交媒体查看实时花况，避免满怀期待却扑空。工作日前往，人流量会少很多，体验更佳。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿着与装备：</strong> 务必穿一双<strong>绝对舒适、不怕尘土的步行鞋</strong>，你将在砂石路和草地上走很多路。花园开阔，晴天时防晒至关重要，帽子、太阳镜、防晒霜必不可少。建议携带轻便外套，比利时天气多变，午间暖阳早晚可能转凉。爱拍照的朋友，浅色系衣物在花海中更出片哦！" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与时间规划要精准：</strong> 花园位置相对僻静，公共交通班次可能不频繁（尤其是返程车）。务必提前查好从圣彼得斯-莱乌火车站到花园的公交时刻表，或者预留打车预算（使用本地打车App如Uber）。计算好游览和返程时间，避免傍晚在车站久等。自驾则最方便，停车场通常免费且充足。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>保持尊重，耐心探索：</strong> 这里是活体博物馆，请勿采摘或踩踏花朵！拍照时小心后退，别碰倒植株。花园面积巨大，不要试图匆匆“打卡”所有角落，那样只会筋疲力尽。选择几个重点区域深度体验，反而收获更多。园内指示牌多为荷兰语和法语，可提前下载翻译App或对照地图编号识别。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 科洛马玫瑰园周边住宿与美食攻略：住在花香里的比利时慢生活`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "游览科洛马玫瑰园，并不需要住在紧邻的花园旁（周边主要是宁静的住宅区）。我更推荐你将住宿安排在交通枢纽 <strong>圣彼得斯-莱乌镇</strong> 或返回 <strong>布鲁塞尔</strong>。在布鲁塞尔，你可以有无数住宿选择，从市中心的历史酒店到艺术区的设计民宿，游览完花园后还能继续享受首都的夜生活。如果追求极致宁静，圣彼得斯-莱乌镇上有些舒适的B&B，让你体验真正的比利时小镇晨昏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "餐饮方面，强烈建议在玫瑰园内解决午餐。花园的咖啡馆或小餐厅（通常在城堡附楼或温室旁）环境得天独厚。点一份简单的三明治、一份地道的比利时薯条，或是一块手工蛋糕，配上一杯咖啡或本地啤酒，坐在露天座位的遮阳伞下，眼前是無边的花海，耳畔是蜂鸣鸟叫，这顿饭的体验值直接拉满。如果晚餐想吃得正式些，可以返回布鲁塞尔，去圣凯瑟琳区品尝新鲜的海鲜，或者找一家传统的棕色咖啡馆（‘bruin café’）享用一锅浓郁的啤酒炖牛肉（Carbonade Flamande），用丰盛的比利时风味结束这芬芳的一天。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果你的时间还有盈余，科洛马玫瑰园所在的弗拉芒布拉班特省藏着更多惊喜。我推荐两个方向：" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>格林德尔伯斯城堡（Kasteel van Gaasbeek）：</strong> 距离科洛马大约15分钟车程。这是一座同样迷人的中世纪城堡，坐落在巨大的英式风景公园内。城堡内部装饰华丽，收藏了大量艺术品，公园里有湖泊、森林和浪漫的小建筑。它与科洛马的古堡花园主题呼应，但更侧重于建筑、历史和森林漫步，是很好的风格补充。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>瓦雷泽贝克镇（Vlezenbeek）及周边田园：</strong> 如果你有自行车或喜欢短途徒步，可以探索玫瑰园所在的更广阔的Pajottenland地区。这片区域以缓坡丘陵、小溪流和传统农庄著称，是布鲁塞尔附近的“绿色后背”。骑上自行车，沿着乡间小径漫无目的地穿行，你会路过啤酒花田、安静的村庄教堂和本地小酒馆，感受比荷卢地区那份低调而质朴的田园诗意，与你刚体验过的极致华丽的花园形成有趣对照。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "科洛马玫瑰园教会我的，远不止认识了几种玫瑰。它让我看到，人类对美的追求可以如此执着而系统，化身为一座拯救生命的“方舟”；它让我感受到，最极致的浪漫，或许不是一瞬间的惊艳，而是安静地坐在六万份绽放的生命中间，听风讲述它们跨越时空的旅程。这里保存的不仅是花朵的基因，更是我们与自然世界那份古老而芬芳的联结，一种秩序与野性共舞的、充满希望的生存哲学。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/belfry-of-mons-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙斯钟楼及老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Belfry of Mons and the Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/arlon-roman-archaeological-site" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔隆古罗马遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arlon Roman Ruins</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/veves-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦沃城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castle of Vêves</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

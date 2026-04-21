@@ -15,7 +15,7 @@ export default function InnsbruckOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/austria' },
             { label: '因斯布鲁克老城', href: '/attractions/innsbruck-old-town' },
           ]}
         />

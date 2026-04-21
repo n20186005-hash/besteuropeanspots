@@ -15,7 +15,7 @@ export default function StMarysBasilicaKrakowPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '波兰', href: '/destinations/poland' },
             { label: '圣玛利亚大教堂', href: '/attractions/st-marys-basilica-krakow' },
           ]}
         />

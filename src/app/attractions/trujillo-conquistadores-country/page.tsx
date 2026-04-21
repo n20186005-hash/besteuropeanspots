@@ -15,7 +15,7 @@ export default function TrujilloConquistadoresCountryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '特鲁希略（征服者之乡）', href: '/attractions/trujillo-conquistadores-country' },
           ]}
         />

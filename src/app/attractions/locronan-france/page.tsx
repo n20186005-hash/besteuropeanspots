@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '洛克罗南旅游攻略：探秘法国布列塔尼纯花岗岩中世纪电影村',
+  description: '洛克罗南（Locronan）深度游攻略。走进法国布列塔尼这座保存完好的纯花岗岩村落，揭秘其帆布制造历史与电影取景地故事，提供完整的一日游路线与避坑指南。',
+}
+
+export default function LocronanFrancePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '洛克罗南', href: '/attractions/locronan-france' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`洛克罗南・Locronan・法国・菲尼斯泰尔省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你已经厌倦了巴黎的铁塔和人潮，今天这份洛克罗南私藏旅游攻略，或许能带你瞬间穿越到另一个法国。它藏在布列塔尼大区菲尼斯泰尔省的腹地，不是那种地图上显眼的大城市，而是一个仿佛被时光刻意遗忘的石头村落。但千万别小看它——整个村子，从宏伟的教堂到最不起眼的民宅围墙，全部由当地开采的花岗岩砌成，在数百年的海风与雨水打磨下，泛着一种温润的银灰色光泽。这里曾是欧洲顶尖的帆布制造中心，财富曾堪比都市；如今，它是多部电影钟爱的中世纪取景地，宁静得只听得到自己的脚步声和远处咖啡馆里杯碟的轻响。作为你的专属向导，这份洛克罗南自由行指南，就带你绕开常规旅游团，像本地人一样，用一整天的时间，去触摸那些冰冷石头背后滚烫的历史与生活。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你已经厌倦了巴黎的铁塔和人潮，今天这份洛克罗南私藏旅游攻略，或许能带你瞬间穿越到另一个法国。它藏在布列塔尼大区菲尼斯泰尔省的腹地，不是那种地图上显眼的大城市，而是一个仿佛被时光刻意遗忘的石头村落。但千万别小看它——整个村子，从宏伟的教堂到最不起眼的民宅围墙，全部由当地开采的花岗岩砌成，在数百年的海风与雨水打磨下，泛着一种温润的银灰色光泽。这里曾是欧洲顶尖的帆布制造中心，财富曾堪比都市；如今，它是多部电影钟爱的中世纪取景地，宁静得只听得到自己的脚步声和远处咖啡馆里杯碟的轻响。作为你的专属向导，这份洛克罗南自由行指南，就带你绕开常规旅游团，像本地人一样，用一整天的时间，去触摸那些冰冷石头背后滚烫的历史与生活。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`洛克罗南`} />
+                <InfoRow label="英文名称" value={`Locronan`} />
+                <InfoRow label="正式名称" value={`Locronan`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`菲尼斯泰尔省`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`洛克罗南的历史地位，简直是一部从“工匠村”逆袭成“欧洲供应链顶端”的爽文剧本。从15世纪到17世纪，这里是全欧洲最优质的船帆和帆布的核心产地。你想啊，大航海时代，一艘船的命脉就是它的风帆，而洛克罗南出产的“Locronan canvas”以其无与伦比的坚固和密实度，成为了法国乃至西班牙、荷兰等国海军和商船队的指定供应商。这门生意给村子带来了泼天的富贵，我们今天看到的那些精美绝伦的石头豪宅、气派的圣罗南教堂，都是那个黄金时代“不差钱”的证明。它甚至享有免缴盐税的特权，地位超然。然而，随着帆布制造业的衰落，洛克罗南也陷入了漫长的沉睡，这份“沉睡”反而奇迹般地保护了它完整的中世纪肌理，没有受到现代工业的破坏。二十世纪以来，《苔丝》、《漫长婚约》等经典电影纷纷来此取景，正是看中了这份时间凝固般的纯粹。所以，它不仅是布列塔尼的经济史缩影，更是一座活着的、石头筑就的“中世纪博物馆”。`} />
+                <InfoRow label="建筑特色" value={`洛克罗南的建筑特色，总结起来就一个词：**纯粹**。这是一种令人震撼的视觉统一性。走在蜿蜒的石板主街上，目光所及，所有的墙体都是同一种材质——本地花岗岩。这种石头并非我们想象中粗糙的毛石，而是被匠人精心凿成规整的方块，严丝合缝地垒砌起来。经过几个世纪的风化，石头表面失去了尖锐的棱角，覆盖着一层青灰色的地衣和苔藓，在阳光下泛着微微的银光，而在布列塔尼常见的雨天里，则被浸润成深沉的铅灰色，油亮亮的。建筑细节处处体现着曾经的富裕：许多房屋的窗户边缘有精美的石雕窗框，门楣上刻着建造日期或船锚、绳结等与航海相关的浮雕。屋顶是陡峭的板岩瓦片，为了快速排走丰沛的雨水。整个村落没有一根外露的木头（除了门窗），没有一块现代的瓷砖，这种极致的花岗岩质感，让光线在这里的反射都变得格外沉静和清冷，仿佛连空气都带着石头的重量与清凉触感。`} />
+                <InfoRow label="建筑风格" value={`洛克罗南的主体建筑风格是**晚期哥特式与文艺复兴早期风格的融合**，并带有强烈的布列塔尼本地特色。说哥特式，最典型的代表就是村中心的圣罗南教堂（Église Saint-Ronan），你可以看到那高耸的、带有扶壁的塔楼，以及教堂内部虽不巨大却极其精致的肋状拱顶，这种结构旨在将人的视线引向上方，充满神圣感。但与此同时，村子里的许多民居（如前帆布商人的宅邸）则显示出文艺复兴的影响：立面更加对称、规整，装饰浮雕从纯粹的宗教题材转向了更世俗的几何图案、家族徽章或行业象征。不过，所有这些风格元素都被统一在了厚重的花岗岩材质中，形成了独一无二的“洛克罗南样式”。这里没有巴黎那种繁复到眼花缭乱的洛可可装饰，所有的美都源于石头本身的力量、比例和工匠的凿刻痕迹，呈现出一种质朴而坚毅的奢华，这正是布列塔尼人性格的物化体现——面对大西洋的狂风巨浪，他们需要的正是这种能屹立千年的坚实与厚重。`} />
+                <InfoRow label="文化价值" value={`对于现代人，洛克罗南的文化价值超越了“风景明信片”。它是一座活着的社区，而不仅仅是旅游景点。尽管常住人口只有几百人，但许多古老的石屋依旧有人居住，窗台上摆放着天竺葵，门口停着居民的汽车，这种“活着”的状态尤为珍贵。它的存在，持续向世界证明着传统手工艺与社区生活的价值。村里仍有不少艺术家工作室和手工艺作坊（陶艺、绘画、羊毛制品），延续着此地深厚的匠人血脉。同时，作为著名的电影取景地，它成为了连接历史与流行文化的桥梁，让无数通过电影认识它的观众，心生对真实历史的探寻欲望。每年夏季的“洛克罗南小型电影节”和传统的“特朗桑朝圣节”，更是将古老的宗教传统与现代表达相结合。对于布列塔尼人而言，洛克罗南是他们的骄傲，是祖先智慧与勤劳的丰碑，提醒着他们在全球化时代，坚守本土身份与文化遗产的重要性。在这里，文化不是博物馆里的展品，而是清晨面包店的香气、是石匠后人打磨新作品的声音、是当地老人向你讲述帆布故事时眼中的光芒。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 洛克罗南一日游打卡路线攻略：从教堂广场到隐秘石巷`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行漫步路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，攻略在手，跟我来一场完美的洛克罗南一日深度游吧！**上午（10:00-12:30）**：建议把车停在村子外围的免费停车场，步行进入。你的第一站必然是村子核心的**老广场（Place de l‘Église）**。先在广场边的咖啡馆“Créperie Saint-Ronan”喝杯咖啡，醒醒神，同时好好端详对面雄伟的圣罗南教堂和周围一圈完美的文艺复兴时期豪宅，感受一下这个“露天沙龙”的气场。接着，花至少45分钟参观**圣罗南教堂**及其珍宝馆，了解小镇的守护圣徒故事。出来后，别急着走，仔细看看广场中央的**古老石井**和四周房屋上的精美雕刻。**中午（12:30-14:00）**：就在老广场或旁边的“Rue Moal”街上找一家可丽饼店（Crêperie），品尝布列塔尼最地道的荞麦咸可丽饼（Galette）配苹果酒（Cidre）。**下午（14:00-17:00）**：这是探索迷宫般小巷的黄金时间。从广场出发，随意钻进任何一条如“Rue du Four”或“Rue des Charrettes”这样的小巷，你会发现比主街更原生态的景致。重点寻找那些**帆布商人故居**（门口常有解说牌）和隐蔽的**小花园**。记得去“Chapelle du Pénity”小礼拜堂看看。村里的手工艺作坊也大多下午开放，可以逛逛。**傍晚（17:00以后）**：当一日游的游客开始散去，村子重归宁静。这时，你可以漫步到村子高处的边缘，眺望一下远处的田野，然后找一家温馨的小餐馆享用晚餐，感受石头房子在黄昏暖光下变成金红色的魔法时刻。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 圣罗南教堂玫瑰窗下的“帆船”石雕</strong>：走进教堂，别只顾着看高高的祭坛。请留意右侧耳堂一扇不起眼的石窗下方。那里雕刻着一艘清晰的<strong>中世纪帆船</strong>，船舷、风帆甚至绳索都清晰可辨。这可不是随意装饰，而是洛克罗南的“商标”和财富之源——帆布制造业的骄傲宣言。工匠将行业的象征虔诚地刻在供奉上帝之所，这份将世俗生计与精神信仰紧密结合的举动，充满了动人的力量。当午后阳光穿过彩色玻璃，斑驳的光影落在这艘石船上，仿佛能听到几个世纪前鼎盛时期的繁忙喧嚣。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. 老广场石井边的磨损凹槽</strong>：广场中央那口被铁艺亭子罩住的古井，周围铺地的花岗岩上，有着深深浅浅、光滑无比的<strong>凹槽</strong>。那是几百年间，无数运水马车在此停靠、转弯时，车轮铁箍与坚硬石头反复摩擦留下的痕迹。用手摸一摸这些凹槽，触感冰凉而光滑如水。它们是时间本身刻下的年轮，无声地诉说着这个广场曾经作为生活枢纽的繁忙——妇女们在此汲水聊天，商旅车队在此补给休整。这些痕迹比任何文字都更有力地证明了这座“博物馆村庄”曾是一个充满烟火气的鲜活城镇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>3. 门楣上的“绳结”与“日期”浮雕</strong>：漫步小巷时，请务必抬头看居民们的门楣。除了常见的家族纹章，你会频繁发现两种雕刻：一种是复杂的<strong>绳结图案</strong>，这是造船和帆布行业的专业符号，彰显屋主的手艺人身份；另一种是罗马数字刻写的<strong>建造日期</strong>（如“1617”）。最妙的是，透过这些日期，你能直观“阅读”街区的扩张史：广场周围的房子最早（16世纪末），越往边缘年代越近（17世纪中后期）。每个门楣都是一张简洁的名片，告诉你：“我，这栋石头房子，生于帆布业的黄金年代，已在此静观风云四百年。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>4. “Rue du Four”巷尾的意外光影</strong>：这条通往旧面包炉坊的小巷异常狭窄，两侧石墙高耸。在晴天的下午，阳光只能以极斜的角度射入巷子底部，在对面墙壁上切割出极其锐利、明亮的<strong>三角形光斑</strong>，而其余部分则沉浸在深沉的阴影中。明暗对比强烈到宛如舞台布景。站在光斑中，你能清晰看到墙上每一粒花岗岩的晶体都在闪烁，而阴影里的苔藓则呈现出墨绿的丝绒质感。这个角落没有任何著名雕像或纪念牌，却是摄影家和静心者的秘密宝地，它展现了洛克罗南建筑如何成为光的完美画布，演绎出随时间变幻的、最朴素的戏剧。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 洛克罗南自由行避坑指南与行前关键贴士`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>时机就是一切</strong>：洛克罗南很小，上午10点后到下午4点之间是旅游巴士和一日游游客的高峰期，老广场可能人满为患。<strong>最佳游览时间是清晨（9点前）或傍晚（5点后）</strong>，你能独占最美的光影和宁静。尽量避开7-8月盛夏的周末。如果只能白天到，那就先钻进外围小巷，等大队人马集中在广场时再去探索核心区。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>为石头和天气做好准备</strong>：村子所有道路都是<strong>古老的石板路，凹凸不平且雨天湿滑</strong>。务必穿一双绝对舒适、防滑的步行鞋，高跟鞋或薄底鞋在这里是“自虐”。布列塔尼天气多变，十分钟前晴空万里，十分钟后可能大雨倾盆。无论天气预报如何，包里永远装一件轻便的防风防水外套和一把折叠伞。即使在夏天，海风也可能很凉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>停车与消费须知</strong>：村子内部严禁外来车辆驶入。导航请直接设置到村口的<strong>免费公共停车场（Parking Gratuit）</strong>，车位有限，早到早得。村里餐馆和咖啡馆价格会略高于普通法国乡村（毕竟是热门景点），但大多数不设陷阱。午餐吃可丽饼是性价比最高的选择。商店里出售的纪念品很多是本地手工制作（陶器、羊毛品），品质不错，但购买前可以多看几家比价。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 洛克罗南周边住宿与美食体验攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想在洛克罗南获得完整体验，强烈建议在附近住一晚。村子本身有几家由古老石屋改造的<strong>精品民宿（Chambre d‘hôte）</strong>，例如“Maison d‘Armorine”，能让你在游客散尽后，独享中世纪街道的夜晚和清晨，但需提前很久预订。更实际的选择是住在车程10-15分钟内的周边小镇，如<strong>坎佩尔（Quimper）</strong> 或 <strong>孔卡诺（Concarneau）</strong>，选择更多，晚上也可以体验更丰富的布列塔尼城镇生活。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "餐饮方面，在老广场，<strong>Crêperie Ahna</strong> 是品尝传统荞麦可丽饼的热门选择，推荐搭配一份海鲜内馅（如虾仁）和当地的“Brut”干型苹果酒。如果想吃得正式些，可以试试广场另一侧的<strong>Le Poisson d‘Avril</strong>，提供精致的海鲜料理，环境优雅。别忘了尝一口布列塔尼特色的“Kouign-amann”黄油酥饼，虽然热量爆炸，但那种焦糖化的甜脆与黄油的浓香，是旅途中最罪恶也最幸福的犒赏。村里的小面包店早上出炉的面包和法棍，带着石炉烘烤的香气，是开启一天的完美方式。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>卡朗泰克海滩（Plage de Carantec）</strong>：驱车约30分钟可达。如果你看够了石头，渴望大海，这里是一片美丽的白沙滩和清澈水域。它与洛克罗南形成鲜明对比——一个是人类雕琢的石头史诗，一个是大自然挥洒的蔚蓝画卷。夏天可以游泳、玩帆板，海边小镇Carantec本身也很可爱。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>多尔修道院遗址（Abbaye de Daoulas）</strong>：距离洛克罗南约25分钟车程。这是一座保存完好的12世纪罗马式修道院遗址，拥有令人惊叹的回廊、药草园和宁静的氛围。它和洛克罗南一样古老，但风格迥异（罗马式 vs 哥特/文艺复兴），且游客通常少得多。修道院的药草园种植着来自世界各地的数百种植物，将中世纪僧侣的智慧与全球文化交流的主题连接起来，提供了一个沉静思考的完美尾声。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "洛克罗南的灵魂，就凝结在那一块块沉默的花岗岩里。它告诉你，真正的奢华并非炫目的装饰，而是时间、技艺与共同记忆的厚重沉积。离开时，你带不走的不是某件纪念品，而是手指触摸过冰凉石壁的触感，是雨后石板路反射的天光，以及一种确信——在这个喧嚣变幻的世界里，依然有一些地方，固执地、美丽地保持着几个世纪前的模样，宁静而永恒。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/corte-citadel" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尔泰</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Corte</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/metz-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    梅
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅茨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Metz Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beauvais-cathedral-saint-pierre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博韦大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beauvais Cathedral</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

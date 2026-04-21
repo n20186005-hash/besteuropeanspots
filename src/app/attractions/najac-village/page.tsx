@@ -15,7 +15,7 @@ export default function NajacVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '纳雅克', href: '/attractions/najac-village' },
           ]}
         />

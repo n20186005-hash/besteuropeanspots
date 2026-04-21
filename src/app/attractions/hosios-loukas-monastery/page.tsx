@@ -15,7 +15,7 @@ export default function HosiosLoukasMonasteryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '霍西奥斯·卢卡斯修道院', href: '/attractions/hosios-loukas-monastery' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function SolothurnPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '索洛图恩', href: '/attractions/solothurn' },
           ]}
         />

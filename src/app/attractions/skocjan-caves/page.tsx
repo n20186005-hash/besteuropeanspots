@@ -15,7 +15,7 @@ export default function SkocjanCavesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛文尼亚', href: '/destinations/slovenia' },
             { label: '什科茨扬溶洞', href: '/attractions/skocjan-caves' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function BurgKreuzenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/austria' },
             { label: '克罗伊岑城堡', href: '/attractions/burg-kreuzen' },
           ]}
         />

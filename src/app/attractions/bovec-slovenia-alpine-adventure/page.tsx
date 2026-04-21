@@ -15,7 +15,7 @@ export default function BovecSloveniaAlpineAdventurePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛文尼亚', href: '/destinations/slovenia' },
             { label: '博韦茨', href: '/attractions/bovec-slovenia-alpine-adventure' },
           ]}
         />

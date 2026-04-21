@@ -15,7 +15,7 @@ export default function PitiglianoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '皮蒂利亚诺（凝灰岩之城）', href: '/attractions/pitigliano' },
           ]}
         />

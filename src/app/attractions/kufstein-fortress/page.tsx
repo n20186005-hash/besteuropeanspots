@@ -15,7 +15,7 @@ export default function KufsteinFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/austria' },
             { label: '库夫施泰因要塞', href: '/attractions/kufstein-fortress' },
           ]}
         />

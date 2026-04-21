@@ -1,0 +1,149 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '曼萨纳雷斯埃尔雷亚尔城堡旅游攻略：马德里近郊军事与艺术的岩石诗篇',
+  description: '探索马德里近郊的Manzanares el Real Castle城堡，一份完整的深度游攻略，带你走进十五世纪门多萨家族的华丽宫殿堡垒，揭秘其从军事要塞到文艺复兴杰作的变身史。',
+}
+
+export default function ManzanaresElRealCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '曼萨纳雷斯-埃尔雷亚尔城堡', href: '/attractions/manzanares-el-real-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`曼萨纳雷斯-埃尔雷亚尔城堡・Castle of Manzanares el Real・西班牙・马德里`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果腻了马德里市区的博物馆和人潮，今天这份**曼萨纳雷斯埃尔雷亚尔城堡私藏旅游攻略**，就带你躲开人潮，去瓜达拉马山脉的怀里，找一块会讲故事的“白色岩石”。从马德里出发，不到一小时车程，当圣洁的雪山轮廓在地平线上愈发清晰，曼萨纳雷斯河蜿蜒的碧水旁，一座近乎完美的城堡就这样撞进视线——它不是迪士尼的幻想，而是真实矗立了五个多世纪的“石头的交响乐”。作为你的专属向导，这份**自由行指南**请收好，我们不仅要看它的壮观，更要读懂它如何从一门心思想着打仗的“糙汉子”，蜕变成一位热爱艺术与生活的“优雅贵族”。这里的故事，比任何一本历史书都生动。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果腻了马德里市区的博物馆和人潮，今天这份<strong>曼萨纳雷斯埃尔雷亚尔城堡私藏旅游攻略</strong>，就带你躲开人潮，去瓜达拉马山脉的怀里，找一块会讲故事的“白色岩石”。从马德里出发，不到一小时车程，当圣洁的雪山轮廓在地平线上愈发清晰，曼萨纳雷斯河蜿蜒的碧水旁，一座近乎完美的城堡就这样撞进视线——它不是迪士尼的幻想，而是真实矗立了五个多世纪的“石头的交响乐”。作为你的专属向导，这份<strong>自由行指南</strong>请收好，我们不仅要看它的壮观，更要读懂它如何从一门心思想着打仗的“糙汉子”，蜕变成一位热爱艺术与生活的“优雅贵族”。这里的故事，比任何一本历史书都生动。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`曼萨纳雷斯-埃尔雷亚尔城堡`} />
+                <InfoRow label="英文名称" value={`Castle of Manzanares el Real`} />
+                <InfoRow label="正式名称" value={`Castle of Manzanares el Real`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`马德里`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`曼萨纳雷斯埃尔雷亚尔城堡可不是一座简单的“老房子”，它是理解西班牙卡斯蒂利亚王国权力演变的活化石。15世纪末，天主教双王统治时期，强大的门多萨家族（这个家族出过红衣主教、海军上将，是王权背后最重要的支柱之一）决定在这里建造新家园。选址本身就充满战略智慧：背靠瓜达拉马山天险，前拥曼萨纳雷斯河与通往塞哥维亚的古老牧道，既是守护马德里北方的军事前哨，也是彰显家族无上财富与品味的舞台。它建于1475年至1480年间，恰逢中世纪向文艺复兴过渡的黎明。城堡见证了西班牙最辉煌的“黄金世纪”前夜，其建筑风格的“纠结”与“融合”，正是那个时代精神的最佳写照——旧时代的骑士尚武精神未褪，新时代对人文学科和美的追求已悄然萌芽。可以说，它是伊比利亚半岛上，最后一批伟大的中世纪城堡之一，也是最早一批拥抱文艺复兴精神的世俗宫殿之一，这种承上启下的“双重身份”，在欧洲建筑史中极为珍贵。`} />
+                <InfoRow label="建筑特色" value={`第一眼看到它，你一定会被那种精雕细琢的强悍所震撼。整座城堡采用当地出产的浅灰色花岗岩砌成，在西班牙炽烈的阳光下泛着清冷的银白色光泽，与背后深绿的山峦和湛蓝的天空构成一幅饱和度极高的油画。它的轮廓是典型卡斯蒂利亚方形城堡，四角矗立着巨大的圆柱形塔楼，但不同于早期城堡的粗粝，这些塔楼的顶部装饰着一圈精美的“Machicolations”（堞口，用于向下投掷防御物的悬空结构），像给塔楼戴上了华丽的石头皇冠。最引人注目的是外墙上的无数窗户——这在中世纪防御堡垒中是罕见的“奢侈”。窗户大小不一，但许多都装饰着复杂的花岗岩窗棂和家族纹章雕花。特别是面向庭院的那一面，巨大的哥特式尖拱窗连续排列，仿佛给厚重的石头城墙打开了一扇扇取景框，将山光水色引入室内。这种在厚重防御外墙上开大量采光窗的大胆设计，宣告着居住舒适性首次与防御能力平起平坐。`} />
+                <InfoRow label="建筑风格" value={`这座城堡是 **“伊萨贝里诺哥特式”与早期文艺复兴风格混搭的绝佳范例**。通俗点说，就是“穿着铠甲跳起了优雅的宫廷舞”。哥特式风格体现在其垂直的线条、尖拱的门窗、以及那些无处不在的华丽浮雕（尤其是盾徽、绳索、石榴等天主教双王的象征元素）上，整体仍保留着军事建筑的肃穆与向上感。而文艺复兴的春风，则温柔地吹拂在细节里：你看那些环绕中央庭院的**双柱式回廊**，柱子纤细优雅，带有古典柱式的韵味，这在当时的西班牙是极其前卫的设计。庭院本身的比例追求和谐与对称，体现了文艺复兴对古典秩序的回归。内部一些大厅的拱顶，开始尝试更轻盈、更有几何装饰感的“星星拱顶”，而非纯粹的哥特肋拱。最妙的融合点是它的**角塔**：底部是实打实的防御工事，顶部却设计成了舒适的观景厅，拥有大型窗户。这种风格上的“跨界”，正是门多萨家族作为当时最开明、最国际化贵族的宣言：他们既能执剑捍卫王国，也能执笔欣赏艺术。`} />
+                <InfoRow label="文化价值" value={`对于今天的西班牙人，尤其是马德里人而言，这座城堡早已超越了历史遗迹的范畴，成了社区生活与文化自豪感的一部分。它不仅是学生们历史课的户外课堂，更是当地人周末漫步、举办中世纪市集、古典音乐会甚至婚礼的热门场地。城堡内部设有专门展区，详细讲述门多萨家族的历史与卡斯蒂利亚的社会变迁，让历史变得可触摸。更重要的是，它作为一个极其上镜的“明星”，频繁出现在电影、电视剧（如西班牙历史剧《伊莎贝尔》）和无数明信片上，成为了马德里大区乃至西班牙的一张文化名片。它向现代人展示了一种“平衡的智慧”：如何将力量（军事防御）与美感（艺术生活）完美结合。站在城堡上眺望不远处的现代化小镇和更远处的水库，你能清晰地感受到这种古今对话——它不再需要抵御外敌，但它所承载的关于权力、艺术与生存的思考，依然在宁静的山谷中回响。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 曼萨纳雷斯埃尔雷亚尔城堡一日游打卡路线攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的“一日导游”，我们这样安排最舒服：**上午**从马德里乘坐公交车（724路）或自驾出发，建议9点左右抵达小镇。别急着进城堡，先到城堡下方的河畔草地走走，这里是拍摄城堡全景和背后雪山倒影的黄金机位，清晨光线柔和，人最少。**10点整**，城堡开门，第一批进入，享受最清净的室内参观。花2-2.5小时，按照从底层武器库、到主层大厅、再登上塔楼的顺序，细细品味。**中午12点半左右**下山，步行5分钟到小镇主广场（Plaza del Pueblo），找一家有户外座位的餐厅享用午餐，尝尝当地的烤羊肉或炖豆子。**下午**，可以在小镇石板巷弄里随意逛逛，参观一下古老的**圣母升天教堂**，或者沿着曼萨纳雷斯河边的步道散散步，感受当地人的生活节奏。如果精力充沛，可以在**下午4点前**再次凭门票（通常当日有效）进入城堡，这时光线西斜，是拍摄城堡外墙和庭院光影的绝佳时刻。**傍晚**，带着满满的照片和故事，心满意足地返回马德里。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>“骑士窗”的侧颜杀</strong>：在主厅（Salón de los Pasos Perdidos）东侧，找到那扇被称为“骑士窗”的巨型哥特式尖拱窗。别只看窗棂雕花，一定要<strong>侧身站在窗边，向外望去</strong>。窗框恰好将远处的拉佩德里萨雪山山峰精准“装裱”起来，如同一幅永恒的风景画。当年领主是否也常在此驻足，思索远方与征途？花岗岩窗台的边缘被无数手臂磨得温润光滑，阳光穿过古老的玻璃，在地板上投下斑斓光影，时光在这一刻有了形状。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>回廊双柱的指尖触感</strong>：中央庭院的文艺复兴式双柱回廊是灵魂所在。走近，<strong>用手轻轻触摸那些石灰岩柱身</strong>。你能感受到工匠雕刻时留下的细微凿痕与流畅弧线。仔细观察，每对柱子的雕刻纹路都有微妙差异，并非机械复制。下午的阳光会斜射进来，在回廊地面上拉出长长短短的光柱和柱影，构成一个不断移动的几何迷宫。就在这里静静地坐一会儿，听风声穿过拱廊的轻响，仿佛能听到几个世纪前，身着华服的贵族在此低声交谈、踱步思考的回音。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>厨房与大厅的“冰火两重天”</strong>：一定要去底层看看巨大的中世纪厨房，巨大的石砌灶台和烟囱诉说着当年宴饮的规模。然后立刻对比楼上领主大厅（Salón de Honor）的华丽木雕天花和挂毯遗迹。这种<strong>从厚重、烟熏火燎的实用空间，陡然上升到明亮、装饰性极强的礼仪空间的过渡</strong>，戏剧化地展示了城堡生活的两面：服务于肉身的烟火气，与服务于精神与权力的仪式感。厨房的阴冷石壁与大厅可能曾有的地毯和壁炉（想象中）的温暖，形成了最真切的感官对比。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>北塔顶的“风之语”</strong>：鼓起勇气，沿着旋转石阶登上北面角塔的顶部观景台。当山风猛然拥抱你，360度的全景会让你忘记呼吸。<strong>转身面向城堡内部</strong>，你会发现一个秘密：从这个高度俯瞰，城堡严谨的几何布局——方形主体、对称的塔楼、中央庭院——宛如一个巨大的石头棋盘。而向外观望，曼萨纳雷斯河像一条银色缎带，小镇的红瓦屋顶如积木般可爱，远方连绵的瓜达拉马山脉则是永不褪色的背景幕布。在这里，你能最透彻地理解建造者“掌控全局”的野心与匠心。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 曼萨纳雷斯埃尔雷亚尔城堡自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>时间与门票陷阱</strong>：<strong>周一通常闭馆</strong>，去之前务必在官网再次确认开放时间。夏天旺季和周末下午人会非常多，强烈建议<strong>上午一开门就进去</strong>，或者在网上提前购买指定时间的门票，避免在门口大排长队（尤其是自驾的朋友，停车场车位有限）。门票不贵，但带上学生证等可能有折扣。<strong>避坑重点</strong>：城堡内部部分区域（如某些塔楼楼梯）非常狭窄陡峭且光线昏暗，穿高跟鞋或行动不便的话会非常辛苦，务必穿一双舒适防滑的鞋子。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>气候与穿着魔法</strong>：这里是山区，天气说变就变！即使是夏天，早晚和城堡内部（特别是底层）也相当阴凉，<strong>必须带一件防风外套或薄毛衣</strong>。中午在阳光下和登上塔楼无遮挡处又会很晒，防晒霜、帽子和墨镜是必备的。冬天风大气温低，保暖措施要做足。<strong>避坑重点</strong>：别被马德里的晴热天气欺骗，山脚下的风可能很大，帽子最好有系绳，不然在塔顶可能会上演“追帽子”的喜剧。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与餐饮贴士</strong>：如果乘坐公交，一定要在车站看好724路的返程时刻表（通常一小时一班），错过一班可能要等很久。自驾的话，城堡脚下有收费停车场，但位置紧张，可以停在小镇边缘的免费停车区，步行上去也就10分钟，还能逛逛小镇。<strong>午餐</strong>不必非挤在城堡旁那两家餐厅，多走几步到小镇广场或小巷里，选择更多，价格也更实在。记得西班牙午餐时间通常下午1点半才开始，去早了可能没开门。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 曼萨纳雷斯埃尔雷亚尔周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "虽然大多数游客选择一日往返马德里，但如果你想沉浸式体验山间宁静的夜晚，小镇上有几家精致的乡村旅馆（Casa Rural）是不错的选择，比如用石头和老木头装饰的，推开窗就能看到城堡灯光的那种，氛围感拉满。<strong>餐饮</strong>是重头戏！午餐我推荐去广场附近的 <strong>“El Rancho de Guadiana”</strong> 或 <strong>“Mesón el Castillo”</strong>。一定要尝尝地道卡斯蒂利亚菜：<strong>“Cochinillo Asado”（烤乳猪）</strong>皮脆肉嫩；<strong>“Judiones de La Granja”</strong> 是用巨大白豆子与各种肉肠一起慢炖的浓汤，暖心暖胃；还有 <strong>“Sopa Castellana”（卡斯蒂利亚汤）</strong>，蒜香面包汤上卧一个流心蛋。点一杯当地产的葡萄酒，坐在露天座，看着小镇人来人往，这才是旅行的滋味。如果只是喝杯咖啡歇脚，河岸边有几家小咖啡馆，景观无敌。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从城堡出发，你有两个绝佳的延伸选择：一是 <strong>深入瓜达拉马山脉</strong>。开车或参加当地的徒步团，只需很短车程就能进入国家公园范围，进行轻量级的徒步，比如去 <strong>“La Pedriza”</strong> 区域，那里遍布奇形怪状的花岗岩巨石，是攀岩和徒步爱好者的天堂，风景非常粗犷震撼，与城堡的人文精致形成鲜明对比。二是前往 <strong>曼萨纳雷斯水库（Embalse de Manzanares el Real）</strong>。就在城堡不远处，湖水湛蓝，背靠雪山，是野餐、帆板、风筝冲浪的热门地点。夕阳时分，水库边遥望城堡剪影，又是另一番风情。这两个地方都能让你从历史中抽离，投入西班牙令人惊叹的自然怀抱。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "曼萨纳雷斯埃尔雷亚尔城堡的灵魂，在于它那份 <strong>“坚韧的优雅”</strong>。它用最坚硬的石头，讲述了一个关于转型与平衡的故事——如何在不放下手中剑的同时，学会欣赏一朵雕刻的石榴花；如何在确保城墙坚不可摧时，不忘为生活与美打开一扇窗。它不只是山脚下的一座古堡，更像是卡斯蒂利亚精神的一个立体注解：务实而浪漫，强悍而细腻。离开时，你带走的不仅是照片，或许还有一点在纷扰世界中，如何守护内心“城堡”与“花园”的古老智慧。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/villanueva-de-los-infantes" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    比
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">比利亚努埃瓦-德洛斯因凡特斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Villanueva de los Infantes</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/castillo-de-los-templarios" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蓬
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蓬费拉达圣殿骑士城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castillo de los Templarios</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/peniscola-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩尼斯科拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Peñíscola</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

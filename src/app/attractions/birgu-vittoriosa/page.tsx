@@ -15,7 +15,7 @@ export default function BirguVittoriosaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '马耳他', href: '/destinations/malta' },
             { label: '比尔古/维托里奥萨', href: '/attractions/birgu-vittoriosa' },
           ]}
         />

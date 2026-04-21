@@ -15,7 +15,7 @@ export default function RozmberkCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '罗日姆贝尔克城堡', href: '/attractions/rozmberk-castle' },
           ]}
         />

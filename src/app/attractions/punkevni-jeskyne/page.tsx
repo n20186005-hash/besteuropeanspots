@@ -15,7 +15,7 @@ export default function PunkevniJeskynePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '普恩克瓦溶洞', href: '/attractions/punkevni-jeskyne' },
           ]}
         />

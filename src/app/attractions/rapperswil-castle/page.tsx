@@ -15,7 +15,7 @@ export default function RapperswilCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '拉珀斯维尔城堡', href: '/attractions/rapperswil-castle' },
           ]}
         />

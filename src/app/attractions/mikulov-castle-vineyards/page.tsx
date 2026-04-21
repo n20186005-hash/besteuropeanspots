@@ -15,7 +15,7 @@ export default function MikulovCastleVineyardsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '米库洛夫城堡及葡萄园', href: '/attractions/mikulov-castle-vineyards' },
           ]}
         />

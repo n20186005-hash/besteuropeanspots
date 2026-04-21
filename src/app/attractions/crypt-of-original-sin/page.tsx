@@ -15,7 +15,7 @@ export default function CryptOfOriginalSinPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '原罪地穴', href: '/attractions/crypt-of-original-sin' },
           ]}
         />

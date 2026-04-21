@@ -15,7 +15,7 @@ export default function PalangaAmberMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '立陶宛', href: '/destinations/lithuania' },
             { label: '帕兰加琥珀博物馆', href: '/attractions/palanga-amber-museum' },
           ]}
         />

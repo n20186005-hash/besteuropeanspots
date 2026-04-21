@@ -15,7 +15,7 @@ export default function MycenaePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '迈锡尼遗址', href: '/attractions/mycenae' },
           ]}
         />

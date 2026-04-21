@@ -15,7 +15,7 @@ export default function HospicesDeBeaunePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '博讷主宫医院', href: '/attractions/hospices-de-beaune' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function RumisikesOpenAirMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '立陶宛', href: '/destinations/lithuania' },
             { label: '伦希什凯斯露天民俗博物馆', href: '/attractions/rumisikes-open-air-museum' },
           ]}
         />

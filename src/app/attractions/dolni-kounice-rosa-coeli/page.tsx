@@ -1,0 +1,147 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '捷克下库尼采罗莎·科利修道院深度旅游攻略：废墟美学与星空教堂自由行指南',
+  description: '探索捷克南摩拉维亚的下库尼采与罗莎·科利修道院深度游攻略。走进这座失去屋顶的哥特式红砖教堂废墟，感受藤蔓缠绕的沧桑与星空下的震撼，获取详细门票交通与拍照打卡指南。',
+}
+
+export default function DolniKouniceRosaCoeliPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '下库尼采罗莎·科利女子修道院', href: '/attractions/dolni-kounice-rosa-coeli' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`下库尼采罗莎·科利女子修道院・Dolní Kounice (Rosa Coeli)・捷克・南摩拉维亚州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果觉得布拉格城堡人太多，想找一处真正能让你心跳漏拍、呼吸暂停的地方，那今天这份**下库尼采自由行指南**，请务必收好。从布尔诺向南驱车不到半小时，你会在安静的伊赫拉瓦河弯道旁，遇见“罗莎·科利”（Rosa Coeli，意为“天堂的玫瑰”）。这绝对不是你想象中的那种修缮完美的景点——它是一首用红砖、藤蔓与天空写成的残缺史诗。作为你的专属向导，这份**深度游攻略**将带你深入这座“没有屋顶的教堂”，告诉你如何避开常规游客，在最魔幻的时刻（比如星空下）独享这份极致荒凉的美。准备好接受震撼了吗？我们出发。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果觉得布拉格城堡人太多，想找一处真正能让你心跳漏拍、呼吸暂停的地方，那今天这份<strong>下库尼采自由行指南</strong>，请务必收好。从布尔诺向南驱车不到半小时，你会在安静的伊赫拉瓦河弯道旁，遇见“罗莎·科利”（Rosa Coeli，意为“天堂的玫瑰”）。这绝对不是你想象中的那种修缮完美的景点——它是一首用红砖、藤蔓与天空写成的残缺史诗。作为你的专属向导，这份<strong>深度游攻略</strong>将带你深入这座“没有屋顶的教堂”，告诉你如何避开常规游客，在最魔幻的时刻（比如星空下）独享这份极致荒凉的美。准备好接受震撼了吗？我们出发。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`下库尼采罗莎·科利女子修道院`} />
+                <InfoRow label="英文名称" value={`Dolní Kounice (Rosa Coeli)`} />
+                <InfoRow label="正式名称" value={`Dolní Kounice (Rosa Coeli)`} />
+                <InfoRow label="国家" value={`捷克`} />
+                <InfoRow label="城市" value={`南摩拉维亚州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`罗莎·科利的历史，是一部从辉煌跌入尘泥，又在废墟中重获新生的故事。它始建于12世纪末，最初是普雷蒙特雷修会的一座女子修道院，也是前斯拉夫科夫修道院的重要分支。在13至14世纪，它曾繁荣一时，是当地重要的宗教与文化中心。然而，历史的车轮无情碾过。15世纪的胡斯战争给了它第一重击，修道院部分被毁。随后，在1782年，那位以改革著称的神圣罗马帝国皇帝约瑟夫二世，颁布了解散修道院的法令，罗莎·科利被彻底世俗化，其财产被变卖，建筑逐渐被遗弃，沦为采石场和仓库。正是这种“被抛弃”的命运，反而让它逃脱了后世大规模的巴洛克式改造或修缮，意外地将其中世纪晚期的哥特式骨架原原本本地保存了下来，以一种极其戏剧性和悲壮的方式。如今，它作为国家级文化古迹，其价值不在于金碧辉煌，而在于这份凝固了时间创伤的真实，是欧洲宗教建筑史上一页独特的“废墟篇章”。`} />
+                <InfoRow label="建筑特色" value={`第一眼看到它，你会忘记所有关于教堂的既定印象。巨大的、暖橘红色的砖墙拔地而起，但向上望去，却没有了屋顶的遮蔽，直接框出了一片不断变幻的天空——可能是蔚蓝，可能是灰蒙，也可能是繁星点点。这就是它最摄人心魄的特点：一座向天空敞开的教堂。砖石是绝对的主角，历经数百年风雨，颜色呈现出从深赭石到浅玫瑰色的丰富层次，质感粗糙而温暖。夏天，疯狂的常春藤和野生藤蔓如同绿色的瀑布或血脉，从高高的窗洞、拱券顶端倾泻而下，或紧紧吸附在墙壁上，给坚硬的砖石披上了一件动态的、有生命的斗篷。建筑细节上，仔细观察那些高耸的扶壁、尖拱窗的纤细窗框（尽管玻璃早已无踪），以及内部残留的肋拱穹顶的起拱点，你能清晰看到砖石严谨而精巧的砌筑工艺。阳光在不同时间穿过没有遮挡的“天窗”，在地上投下移动的光斑和长长的阴影，整个空间就是一个巨大的、自然的光影剧场。`} />
+                <InfoRow label="建筑风格" value={`罗莎·科利是晚期哥特式建筑在捷克地区的一个非常纯粹且有力的例证，而且是用砖砌筑的。哥特式风格的核心——向上飞升的动势、对高度的追求、对光线的崇拜——在这里以一种废墟的形式被极端化地呈现了。没有了屋顶，那种向天空延伸的渴望不仅没有被阻断，反而被无限放大，你的视线会不由自主地顺着高耸的墙壁直抵苍穹。典型的哥特式建筑语言随处可见：尖拱形的门廊和窗洞（虽然很多已残缺），曾经支撑复杂拱顶的肋拱结构依稀可辨，厚重的扶壁为了对抗侧推力而设计得格外坚实有力。特别值得一提的是它的红砖材质。在中欧地区，尤其是摩拉维亚，砖砌哥特式非常典型。比起法国等地常用的石材，红砖赋予建筑一种更亲切、更质朴，同时也更热烈的气质。在罗莎·科利，这种红砖质感与废墟的沧桑、植被的野性结合，产生了一种独一无二的“浪漫主义废墟”美学，这甚至超越了它原本的宗教建筑范畴，成为了某种直击心灵的艺术装置。`} />
+                <InfoRow label="文化价值" value={`对于当地人而言，罗莎·科利早已超越了单纯的宗教遗迹。它是一个强大的地标，一个承载着地方历史记忆的符号，也是一种审美上的自豪。它提醒人们历史的层叠与无常，从虔诚、繁荣到废弃、遗忘，再到被重新“发现”为美学对象。在现代社会，它的价值发生了微妙的转变。它成为了艺术家、摄影师、诗人和寻求宁静者的圣地。那种残缺的、不设防的美，极具感染力，激发着无数的创作灵感。它也是一个独特的文化活动现场——夏季，这里偶尔会举办音乐会或戏剧演出，想象一下，在星空下的废墟中聆听古典乐，是何等奇妙的体验！更重要的是，它促使每一个到访者思考“美”的定义：完满是一种美，而这种充满时间力量、与自然共生的残缺，何尝不是一种更深刻、更动态的美？它教会人们欣赏“过程”而非仅仅是“结果”。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 下库尼采罗莎·科利一日游打卡路线攻略：废墟、小镇与河岸漫步`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好啦，跟着我这份**一日游路线**，咱们把一天安排得明明白白。建议你前一晚住在布尔诺，或者直接住到南摩拉维亚的乡村民宿，体验更佳。**上午**：睡个自然醒，早饭后从布尔诺出发，自驾或乘坐公共交通（需在布尔诺中央车站查询前往Dolní Kounice的巴士，班次需提前规划）前往下库尼采镇。直接导航到“Rosa Coeli”，停车场就在附近。上午的光线非常适合拍摄修道院东侧和南侧的立面，红砖在侧光下纹理格外清晰。花上1.5-2小时，慢慢探索废墟内部，顺着螺旋楼梯（如果开放）登上残存的塔楼或回廊，从不同视角感受空间的宏伟。**中午**：步行回到宁静的下库尼采小镇中心（大约10分钟），找一家本地小酒馆解决午餐，尝尝摩拉维亚特色的炸奶酪或炖牛肉。**下午**：饭后在小镇里随意逛逛，看看色彩柔和的巴洛克式民居和宁静的广场。然后，沿着指示牌，散步到伊赫拉瓦河畔，从河对岸回望修道院——这个角度是明信片经典机位，建筑与水中倒影相映成趣。如果还有体力，可以沿着河岸走走，享受田园风光。**傍晚**：这是**打卡攻略**的精髓！在日落前返回修道院。日落时分，夕阳会把整片红砖染成金黄色，随后天空变为粉紫，氛围感拉满。如果天气好且你胆子够大（务必注意安全！），等到天色全黑，星空初现，废墟在星空下的剪影绝对是你此生难忘的画面。最后，心满意足地返回住宿地。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>“废墟之门”的光影游戏</strong>：站在原主入口的巨型尖拱门下抬头望。门洞本身就像一个巨大的画框，框住的是不断流动的天空云彩。仔细观察拱门内侧的砖石接缝和磨损痕迹，想象几个世纪以来人们从此进出的场景。下午时分，阳光斜射进来，会在内墙投下清晰的、带着尖拱形状的光斑，仿佛是一扇“光之門”被短暂地打开。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>“藤蔓壁画”</strong>：找一面被藤蔓完全覆盖的高墙。这绝非普通的植物生长，而像是一位狂野的自然艺术家创作的巨幅生命壁画。深绿、浅绿、黄绿色的叶片层层叠叠，到了秋天还会晕染上红色和金色。凑近看，藤蔓的触须紧紧嵌入砖缝，仿佛在尝试修复这些裂缝。微风拂过，整面墙的叶子都飒飒作响，是这座沉默废墟唯一持续的“呼吸声”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>“星空穹顶”</strong>：夜晚，如果条件允许（确保安全并确认是否允许夜间停留），躺在废墟中央的草地上（如果干燥）。你会发现，那些残存的拱肋和墙壁的剪影，在夜幕中形成了一个不规则的、巨大的画框，而画布就是璀璨的银河。没有屋顶的遮挡，星空仿佛直接倾泻在这个原本神圣的空间里，这是一种极其浪漫且带有哲学意味的体验——宗教的穹顶或许消失了，但宇宙的穹顶永恒存在。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>红砖的肌理与色彩</strong>：别只是远观，请一定用手（轻轻）触摸一下墙砖。数百年的风霜雨雪将其表面侵蚀得如同老人的皮肤，粗糙但温暖。每一块砖的颜色都有微妙差异，从氧化铁的深红，到蒙上苔藓的灰绿，再到被雨水冲刷出的浅粉，共同构成了一幅无比丰富的色彩马赛克，这是任何人工涂料都无法模拟的时光之色。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 下库尼采自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这份<strong>避坑指南</strong>能让你的旅程更顺利：1. <strong>最佳时间与“错峰”</strong>：旺季（5-9月）的周末下午可能会有少量游客，但相比主流景点依然清净。想追求极致孤独感，请选择工作日清晨或傍晚前往。春季新绿和秋季黄叶时色彩层次最美。冬季雪覆废墟别有风味，但务必小心地滑且部分区域可能关闭。2. <strong>穿着与装备</strong>：废墟内部地面是原始的土地、碎石和草地，<strong>务必穿一双结实防滑的徒步鞋或运动鞋</strong>，高跟鞋是绝对灾难。夏季注意防蚊虫，带上饮用水，里面没有商店。如果计划拍摄星空，带上三脚架和保暖外套，夜晚郊区很凉。3. <strong>安全与礼仪</strong>：这里是受保护的古迹，也是危险的废墟。<strong>切勿攀爬残破的墙体或结构不明确的区域</strong>，松动砖石是潜在风险。尊重此地，不要刻画或带走任何砖石、植物。出发前最好在官网或旅游信息网站查询最新开放时间和门票信息（通常门票非常便宜）。自驾的话，停车场免费但位置有限。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 下库尼采周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "下库尼采小镇本身非常宁静，住宿选择不多，但体验地道。推荐小镇中心的 <strong>Penzion Rosa</strong>，房间干净朴素，有些房间窗口就能望见修道院的塔楼，主人通常很热情，能给你讲些本地故事。如果想住得更舒适，可以返回布尔诺，有从青旅到豪华酒店的各种选择。<strong>美食</strong>方面，下山回到镇里，一定要试试 <strong>Restaurace U Kapličky</strong>。这家家庭式餐馆氛围 cozy，推荐点一份经典的“Smažený sýr”（炸奶酪配土豆沙拉）或“Guláš”（捷克炖牛肉），配上一杯本地产的南摩拉维亚白葡萄酒或皮尔森啤酒。坐在露天座位，看着小镇居民悠闲路过，这才是结束废墟震撼之旅后，最抚慰人心的方式。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "逛完罗莎·科利，如果意犹未尽，我强烈推荐两个<strong>小众景点推荐</strong>：1. <strong>斯拉夫科夫城堡（Austerlitz Castle）</strong>：没错，就是那个“奥斯特里茨”战役（三皇会战）的所在地，距离下库尼采仅约15分钟车程。城堡本身是巴洛克风格，宏伟壮观，内部的展览讲述了那场著名战役的历史。更重要的是，你可以登上城堡高地，俯瞰周围广阔的战场地形，历史感扑面而来。2. <strong>米库洛夫（Mikulov）</strong>：一个稍微远一点（约40分钟车程）但绝对值得的美丽小镇。它坐落在葡萄园环绕的山丘上，山顶是米库洛夫城堡，山下是色彩斑斓的文艺复兴和巴洛克式房屋。这里是摩拉维亚主要的葡萄酒产区，参观完可以找家酒窖品酒。这两个地方都能让你更深入地领略南摩拉维亚的历史与风土。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "下库尼采的罗莎·科利，是一曲用废墟谱写的生命赞歌。它教会我们，真正的震撼未必来自金碧辉煌的完满，而可能来自时光与自然联袂创作的、那惊心动魄的残缺与生长。来这里，不是参观一个景点，而是参与一场与历史、与天空、与顽强生命的沉默对话。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/valtice-wine-castle-czech" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瓦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓦尔季采</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Valtice</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/slavonice-renaissance-frescoes" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯拉沃尼采</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Slavonice</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/brno-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布尔诺老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Brno Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

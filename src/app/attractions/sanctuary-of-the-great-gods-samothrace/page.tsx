@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '萨莫色雷斯岛伟大神明圣域 Sanctuary of the Great Gods ｜ 解密希腊最神秘的古老宗教，亲临胜利女神诞生地 - 最佳欧洲景点',
+  description: '想象一下，你坐了几个小时的船，穿越爱琴海北部墨蓝色的波涛，终于看到一个被云雾笼罩的、崎岖的绿色岛屿从海平面升起。踏上萨莫色雷斯岛的那一刻，空气就和雅典不一样了，带着一种清冽的、咸湿的，混合着松树和野生薄荷的气息。当你沿着山路向圣域进发，四周安静得只有风声、蝉鸣和自己的心跳。然后，一片开阔的谷地突然出',
+}
+
+export default function SanctuaryOfTheGreatGodsSamothracePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '萨莫色雷斯岛伟大神明圣域', href: '/attractions/sanctuary-of-the-great-gods-samothrace' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`萨莫色雷斯岛伟大神明圣域・Sanctuary of the Great Gods (Samothrace)・希腊・萨莫色雷斯岛`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`想象一下，你坐了几个小时的船，穿越爱琴海北部墨蓝色的波涛，终于看到一个被云雾笼罩的、崎岖的绿色岛屿从海平面升起。踏上萨莫色雷斯岛的那一刻，空气就和雅典不一样了，带着一种清冽的、咸湿的，混合着松树和野生薄荷的气息。当你沿着山路向圣域进发，四周安静得只有风声、蝉鸣和自己的心跳。然后，一片开阔的谷地突然出现在眼前——那不是你在卫城看到的那种规整辉煌的庙宇，而是一片巨大的、散落在山坡和溪流边的石头废墟。巨大的地基、断裂的圆柱、模糊的台阶，一切都沉浸在一种近乎神圣的静谧里，只有远处爱琴海永不止息的浪涛声作为背景音。
+当地人说起这里，语气里总带着一种特别的敬意，又混杂着一丝不易察觉的距离感。对他们而言，这不是一个单纯的旅游景点，而是一个“地方”——一个充满古老能量和秘密的地方。你可能会看到老牧羊人赶着羊群从遗址边缘的土路上缓缓经过，仿佛千年来都是如此。这里的核心魅力，不在于视觉上的恢弘（尽管规模令人震撼），而在于那种压倒性的“神秘感”。你站在这里，立刻就会明白，为什么古希腊人会选择这个偏远、多风、甚至有些险峻的岛屿，作为与那些“伟大神明”——卡比里神——进行最隐秘沟通的圣地。它不是用来炫耀的，而是用来体验和感悟的。
+最打动人的，是一种强烈的时空错位感。你的脚下是两千多年前信徒们赤足走过的“神圣之路”；你身旁的溪流，曾经在仪式中被用来施行净化；你眼前那个圆形遗址，是新人会者经历脱胎换骨般仪式的地方。风穿过石柱的孔洞，发出呜咽般的哨音，你几乎能“听”到古代祭司低沉的吟诵。阳光在这里都显得不同，上午是清透的金色，洒在白色的石灰岩上；到了下午，长长的阴影从山后拉过来，整个山谷陷入一种蓝灰色的、忧郁的调子，仿佛那些古老的秘密随着暮色一起沉入了大地。这里没有喧嚣的旅游团，只有零星几个和你一样，带着朝圣者般表情的访客，各自安静地徘徊、触摸、沉思。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想象一下，你坐了几个小时的船，穿越爱琴海北部墨蓝色的波涛，终于看到一个被云雾笼罩的、崎岖的绿色岛屿从海平面升起。踏上萨莫色雷斯岛的那一刻，空气就和雅典不一样了，带着一种清冽的、咸湿的，混合着松树和野生薄荷的气息。当你沿着山路向圣域进发，四周安静得只有风声、蝉鸣和自己的心跳。然后，一片开阔的谷地突然出现在眼前——那不是你在卫城看到的那种规整辉煌的庙宇，而是一片巨大的、散落在山坡和溪流边的石头废墟。巨大的地基、断裂的圆柱、模糊的台阶，一切都沉浸在一种近乎神圣的静谧里，只有远处爱琴海永不止息的浪涛声作为背景音。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当地人说起这里，语气里总带着一种特别的敬意，又混杂着一丝不易察觉的距离感。对他们而言，这不是一个单纯的旅游景点，而是一个“地方”——一个充满古老能量和秘密的地方。你可能会看到老牧羊人赶着羊群从遗址边缘的土路上缓缓经过，仿佛千年来都是如此。这里的核心魅力，不在于视觉上的恢弘（尽管规模令人震撼），而在于那种压倒性的“神秘感”。你站在这里，立刻就会明白，为什么古希腊人会选择这个偏远、多风、甚至有些险峻的岛屿，作为与那些“伟大神明”——卡比里神——进行最隐秘沟通的圣地。它不是用来炫耀的，而是用来体验和感悟的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人的，是一种强烈的时空错位感。你的脚下是两千多年前信徒们赤足走过的“神圣之路”；你身旁的溪流，曾经在仪式中被用来施行净化；你眼前那个圆形遗址，是新人会者经历脱胎换骨般仪式的地方。风穿过石柱的孔洞，发出呜咽般的哨音，你几乎能“听”到古代祭司低沉的吟诵。阳光在这里都显得不同，上午是清透的金色，洒在白色的石灰岩上；到了下午，长长的阴影从山后拉过来，整个山谷陷入一种蓝灰色的、忧郁的调子，仿佛那些古老的秘密随着暮色一起沉入了大地。这里没有喧嚣的旅游团，只有零星几个和你一样，带着朝圣者般表情的访客，各自安静地徘徊、触摸、沉思。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`萨莫色雷斯岛伟大神明圣域`} />
+                <InfoRow label="英文名称" value={`Sanctuary of the Great Gods (Samothrace)`} />
+                <InfoRow label="正式名称" value={`Sanctuary of the Great Gods`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`萨莫色雷斯岛`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是古希腊世界最重要的奥秘宗教中心之一，其影响力与埃莱夫西斯的秘密仪式齐名，并因出土了旷世杰作“萨莫色雷斯的胜利女神”雕像而举世闻名。`} />
+                <InfoRow label="建筑特色" value={`依山面海层层叠建的神圣建筑群，巧妙地利用自然地形和山涧溪流营造出神秘肃穆的仪式氛围。`} />
+                <InfoRow label="建筑风格" value={`主要是希腊化时期风格，融合了更早的前希腊时代和古典时期的元素，结构朴实而富有力量感。`} />
+                <InfoRow label="文化价值" value={`为理解古希腊非正统的民间宗教信仰、神秘的人会仪式以及艺术与宗教的深刻联系提供了独一无二的实物见证。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`夏季（4月1日至10月31日）每日上午8:00至晚上8:00开放；冬季（11月1日至3月31日）开放时间缩短为上午8:30至下午3:30。每周二闭馆（除非是法定假日）。具体开放时间可能因天气和工作人员安排有微调，建议出行前查看官网公告。岛上冬季风浪大，部分日期可能全天关闭。`} />
+              <InfoRow label="门票价格" value={`全价票：8欧元。半价票（65岁以上欧盟公民、非欧盟学生凭有效证件）：4欧元。免费人群：18岁以下青少年、希腊及欧盟国家学生、残疾人士及陪同人员。特定免费开放日：每年的3月6日、4月18日、5月18日、9月最后一个周末、10月28日。门票为联票，包含圣域遗址和岛上的考古博物馆。`} />
+              <InfoRow label="地址" value={`Sanctuary of the Great Gods, Samothrace 680 02, Greece`} />
+              <InfoRow label="交通方式" value={`前往萨莫色雷斯岛本身就是一场探险。最近的国际机场在希腊亚历山德鲁波利或塞萨洛尼基。你需要先从雅典或塞萨洛尼基乘飞机（约1小时）或火车（约5-6小时）到亚历山德鲁波利。从亚历山德鲁波利港口，乘坐渡轮前往萨莫色雷斯岛的主要港口卡马廖提萨，航程约2-3小时（快船约1.5小时，但班次少且受天气影响大）。夏季渡轮班次较多（每日1-2班），冬季可能缩减至每周数班，务必提前在Ferryhopper或当地港口网站查好时刻表。抵达卡马廖提萨后，圣域位于岛屿北部的山麓，距离港口约6公里。没有直达公交，最方便的方式是租车或雇出租车（单程约15-20欧元），车程约15分钟。山路蜿蜒但景色绝美。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从一个比奥林波斯诸神信仰更古老、更地下的神祇团体说起——“伟大神明”，或者叫卡比里神。关于他们的起源，连古希腊人都说不清楚，有人说是来自小亚细亚，有人说是本地的前希腊神。他们不是宙斯、雅典娜那样的“明星神”，而是掌管丰产、冥界、保护航海者和工匠的“底层”神祇，更接地气，也更具危险性。他们的仪式是绝对保密的“奥秘”，入会者严禁向外泄露，违者据说会遭致可怕的命运。正是这种极致的隐秘性，吸引了全地中海世界的人前来。从公元前7世纪开始，这个偏远的岛屿就成了一个磁石，吸引着国王、哲学家、艺术家和普通百姓，他们历经艰险跨海而来，只为获得神明特殊的庇护和一种精神上的重生。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "圣域的黄金时代是在希腊化时期，也就是亚历山大大帝死后他的将领们互相征伐的年代。这些统治者们特别热衷于此地的奥秘仪式，因为卡比里神被认为能带来战争的好运和统治的稳固。马其顿的国王们，尤其是德米特里一世和他的儿子安提柯二世，是这里最慷慨的赞助人。你现在看到的那些最宏伟的建筑遗迹——比如巨大的柱廊、举行盛宴的“阿尔西诺伊翁厅”，大多是在那个时期修建的。他们用华丽的大理石建筑“包装”了这个原本可能更质朴的圣地，试图将民间信仰纳入王室荣耀的体系，但圣域核心的、黑暗的仪式内核，或许从未改变。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当然，让这里在现代世界声名大噪的，是1863年那个惊人的发现。当时，法国考古学家兼外交官查尔斯·尚帕佐，在圣域区域进行发掘。据说是一个当地的农民领他去看一些“从土里冒出来的大理石碎片”。当尚帕佐和他的团队小心翼翼地拨开泥土，一尊无头无臂、却充满惊天动地动感的女性雕像逐渐显现。她仿佛刚刚降临舰船之首，海风吹拂，薄纱制成的衣裙紧贴身体，展现出近乎真实的湿透质感，翅膀在身后有力地展开。这就是“萨莫色雷斯的胜利女神”。学者们认为，这尊雕像很可能是罗德岛的居民为了纪念一次关键的海战胜利（可能是公元前2世纪初击败安提柯王朝舰队）而献给圣域的还愿礼物。它最初可能矗立在一个俯瞰大海的船首形基座上，既是感谢神明庇佑取得胜利，本身也是胜利的辉煌宣言。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，圣域的繁荣并未永续。随着罗马帝国皈依基督教，一切异教崇拜被逐渐禁止。公元4世纪后，这里的奥秘仪式彻底停止，建筑被遗弃，石材被当地居民搬走去盖房子、修教堂。伟大的神明沉默了，胜利女神也被埋入泥土，唯有山风和海浪继续拍打这片废墟。直到19世纪的考古发掘，才让它重见天日。耐人寻味的是，雕像的主体部分被送往巴黎卢浮宫，成为了举世瞩目的明星，而它的“根”——这片赋予它灵魂和语境的神圣土地——却依然保持着寂静和神秘。你在这里看到的每一个石头基座，都可能曾是某座还愿雕像或祭坛的立足之地，胜利女神只是其中最幸运、最杰出的一位“幸存者”。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`请务必预留一整天给这个圣域。最佳抵达时间是早上9点开门时，此时的阳光能最好地勾勒出建筑的轮廓，山谷里也最安静。整体游览建议耗时4-5小时，节奏宜慢不宜快。先在考古博物馆（位于圣域入口附近）花1小时参观，那里陈列着从这里出土的精美浮雕、铭文和器物复制品（真品很多在雅典和巴黎），最重要的是，那里有一个胜利女神雕像的原尺寸复制品，让你能近距离感受其细节。这能为你即将踏入的废墟提供至关重要的“背景知识”。之后，用3-4小时沉浸于遗址本身。路线设计为由低到高，从公共区域走向最核心的秘仪场所，最后在高处俯瞰全貌，体验一种精神上的攀升感。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿最舒适、防滑的徒步鞋，遗址内路面不平，多碎石和斜坡。
+岛上天气瞬息万变，即使是夏天也请带一件防风外套，山区小气候可能随时下雨。
+请绝对尊重遗址，不要攀爬任何古代石构件，也不要从遗址带走哪怕一块小石头，这不仅违规，也据说会带来古老的“诅咒”。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在考古博物馆昏暗的展厅里，先静静地绕行那座胜利女神复制品一周，感受海风如何被大理石凝固。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过博物馆后的松林小径，眼前豁然开朗，首先迎接你的是曾容纳千人的巨大柱廊废墟，试着想象古代朝圣者在此聚集、等待入会时的嘈杂与期盼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着古老的“神圣之路”向北漫步，脚下是光滑的石板，右手边是潺潺流过整个圣域的溪流，它曾是仪式中必不可少的净化之水。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在道路尽头左转，踏入圣域最神圣的区域，找到那个深陷地下的圆形建筑“阿纳克托隆”的遗址，这里是奥秘仪式最核心的举行地，气氛瞬间变得幽闭而凝重。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从圣地核心区向上攀登，到达较高处的“阿尔西诺伊翁厅”遗迹，这是一个巨大的宴会厅，想象入会仪式后，新信徒们在此欢宴庆祝的场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`继续向上，来到一片开阔的坡地，这里散落着许多“纪念碑基座”，当年竖立着各路贵族和城邦进献的雕像，胜利女神的基座也在此附近。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，一定要走到遗址区的最高点或边缘，找一块平坦的石头坐下，静静眺望远处深蓝色的爱琴海，让海风把你从千年前的思绪中慢慢吹回来。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`神圣之路中段仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后，站在“神圣之路”中段，用广角镜头向上拍摄，将蜿蜒的石板路、两侧的森林和远处山坡上的建筑遗迹一同纳入画面，光线会形成迷人的纵深光影。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`阿纳克托隆圆形遗址俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚低角度光线时，蹲在圆形遗址的矮墙边，将手机或相机贴近地面，拍摄遗址内部 concentric circles （同心圆）的石基和对面的人物剪影，能拍出极具戏剧性和神秘感的构图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`胜利女神发现地联想拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`在遗址北部纪念碑区，找到介绍胜利女神发现位置的指示牌，将你的镜头对准那片如今空荡荡的草地和后方的大海，拍一张“缺席的存在”之照，让观者自行想象雕像昔日的荣光。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`全景框景拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`在阿尔西诺伊翁厅的巨大门框遗迹处，以残破的石门为画框，将对面的青山、废墟和一线大海框入其中，营造一幅天然的“古典画卷”。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尽量使用自然光，避免使用闪光灯，以免破坏遗址的古朴氛围和他人沉思。`}</li>
+                <li>• {`这里更适合拍摄大场景和细节纹理（如风化的石头、地板的图案），尝试捕捉光影与废墟的对话，而非标准的“游客打卡照”。`}</li>
+                <li>• {`未经许可，请勿对遗址内正在进行的研究或修复工作的区域拍照。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`港口生活之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在卡马廖提萨港口附近的家庭式旅馆，每天早晨被渔船引擎声和海鸥叫声唤醒，晚上在码头边的 taverna 吃最新鲜的烤鱼，体验岛民的日常节奏。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`隐居山野之选`}</h4>
+                  <p className="text-sm text-green-800">{`圣域附近村庄里由石头老屋改造的民宿，拥有面朝群山的花园，夜晚没有光污染，星空璀璨得让人屏息，主人会端来自制的果酱和讲述岛屿传说。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计感避世之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`岛屿东海岸某处悬崖上的小型精品酒店，拥有极简的线条和无敌海景泳池，将原始的荒野与当代的舒适完美结合，适合在探索一天后彻底放松。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`生态探险之选`}</h4>
+                  <p className="text-sm text-purple-800">{`藏在岛内森林中的传统牧羊人小屋（ refurbished ），不通汽车，需步行一小段抵达，提供最纯粹的寂静和与自然融为一体之感，清晨可能有山羊来敲门。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "萨莫色雷斯岛旅游设施相对原始，高端连锁酒店极少，民宿和家庭旅馆是主流，这恰恰是其魅力所在，请调整预期。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "岛上旺季（7-8月）住宿非常紧张，务必提前数月预订，尤其是那些口碑好的特色住所。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "许多住宿地点位于山坡或偏远地带，租一辆车或小摩托几乎是在岛上游览的必需品，预订时请确认交通可达性。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开萨莫色雷斯圣域的时候，我的背包里没有纪念品，但心里却沉甸甸的，装满了石头的气息、风的形状和海的回响。这个地方教会我，有些目的地，不是为了“看到”什么壮观景象，而是为了“感受”一种缺席，为了聆听寂静本身所诉说的、远比喧嚣更丰富的故事。在胜利女神翱翔向巴黎之后，这片土地留下的空白，反而成了一种更强大的存在。它提醒我们，真正的神圣往往栖身于隐秘和残缺之中，真正的历史不仅仅是那些被歌颂的胜利，更是无数个体在黑暗中寻求意义时，那份共同的颤栗与希望。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个快得令人眩晕的世界里，萨莫色雷斯像是一个坚定的减速带，一个精神的避风港。它不提供即时的感官刺激或完美的 Instagram 背景，它只提供一片荒野、一片废墟和无穷无尽的时间。它要求你付出努力——旅途的颠簸、脚步的跋涉和思想的专注——然后才可能赐予你一瞬间的领悟：关于人类对超越性的永恒追求，关于荣耀的短暂与秘密的持久，关于我们如何在一个充满不确定性的世界里，为自己寻找仪式和基石。每一位热爱深度游的旅人，都应该来这里一次，不是为了收集又一个景点，而是为了经历一场安静的、与自己灵魂深处的“伟大神明”的对话。在这里，你会找到旅游指南无法记载的东西。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/veria" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦里亚古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Veria</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/temple-of-apollo-epicurius" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴赛阿波罗神庙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Temple of Apollo Epicurius</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nafplio-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    纳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳夫普利翁老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nafplio</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

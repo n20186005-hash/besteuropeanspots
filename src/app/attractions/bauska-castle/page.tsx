@@ -15,7 +15,7 @@ export default function BauskaCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '拉脱维亚', href: '/destinations/latvia' },
             { label: '包斯卡城堡', href: '/attractions/bauska-castle' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function SzombathelyIsisTempleRomanRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/hungary' },
             { label: '松博特海伊', href: '/attractions/szombathely-isis-temple-roman-ruins' },
           ]}
         />

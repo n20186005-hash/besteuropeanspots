@@ -15,7 +15,7 @@ export default function DurbuyOldTownWorldsSmallestCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/belgium' },
             { label: '德尔比老城', href: '/attractions/durbuy-old-town-worlds-smallest-city' },
           ]}
         />

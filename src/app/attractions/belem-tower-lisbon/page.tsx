@@ -15,7 +15,7 @@ export default function BelemTowerLisbonPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/portugal' },
             { label: '贝伦塔', href: '/attractions/belem-tower-lisbon' },
           ]}
         />

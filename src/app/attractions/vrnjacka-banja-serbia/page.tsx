@@ -15,7 +15,7 @@ export default function VrnjackaBanjaSerbiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞尔维亚', href: '/destinations/serbia' },
             { label: '弗尔尼亚奇卡矿泉镇', href: '/attractions/vrnjacka-banja-serbia' },
           ]}
         />

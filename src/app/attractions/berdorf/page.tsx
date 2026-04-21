@@ -15,7 +15,7 @@ export default function BerdorfPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/luxembourg' },
             { label: '贝尔多夫（米勒塔尔“小瑞士”的中心）', href: '/attractions/berdorf' },
           ]}
         />

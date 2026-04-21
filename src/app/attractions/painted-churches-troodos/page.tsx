@@ -15,7 +15,7 @@ export default function PaintedChurchesTroodosPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞浦路斯', href: '/destinations/cyprus' },
             { label: '特罗多斯彩绘教堂群', href: '/attractions/painted-churches-troodos' },
           ]}
         />

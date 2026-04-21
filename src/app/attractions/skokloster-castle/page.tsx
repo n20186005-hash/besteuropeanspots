@@ -15,7 +15,7 @@ export default function SkoklosterCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/sweden' },
             { label: '斯科克洛oster城堡', href: '/attractions/skokloster-castle' },
           ]}
         />

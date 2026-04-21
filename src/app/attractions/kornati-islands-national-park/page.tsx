@@ -1,0 +1,248 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科尔纳蒂群岛 Kornati Islands｜在克罗地亚的月球表面迷宫，邂逅极致的荒芜与湛蓝 - 最佳欧洲景点',
+  description: '你得先飞过一片宝石蓝得不太真实的海，然后，窗外的景色突然变了。之前还是连绵的绿色海岸和星星点点的红瓦小镇，一下子全消失了。取而代之的，是一片你无法立即理解的景象：海面上密密麻麻地铺满了某种灰白色的东西，像是有人把全世界的粉笔头都倒进了染缸，又像是月球表面被撕下一大块，随手扔在了这里。这就是你对科尔纳',
+}
+
+export default function KornatiIslandsNationalParkPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '科尔纳蒂群岛', href: '/attractions/kornati-islands-national-park' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`科尔纳蒂群岛・Kornati Islands・克罗地亚・达尔马提亚地区（主要门户城市为希贝尼克或扎达尔）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`你得先飞过一片宝石蓝得不太真实的海，然后，窗外的景色突然变了。之前还是连绵的绿色海岸和星星点点的红瓦小镇，一下子全消失了。取而代之的，是一片你无法立即理解的景象：海面上密密麻麻地铺满了某种灰白色的东西，像是有人把全世界的粉笔头都倒进了染缸，又像是月球表面被撕下一大块，随手扔在了这里。这就是你对科尔纳蒂群岛的第一眼，从高空俯瞰的震撼。那种密集程度，那种整齐又混乱的排列，会让你瞬间失语。
+等你真正乘船驶入这片迷宫，感官才被全面唤醒。空气是灼热而清冽的，带着海盐的咸腥和阳光下干燥岩石的气息。发动机的嗡嗡声是背景音，更清晰的是船头劈开那片蓝得如同孔雀石般海水的声音，哗啦，哗啦。海水太清澈了，你能一直看下去，看到水下岩壁上的纹路，看到偶尔一闪而过的鱼群影子。而那些岛屿，它们静默地矗立着，越来越近。你才发现它们根本不是“岛”的传统模样，没有沙滩，没有树木，甚至几乎没有土壤。它们是一座座巨大的、光秃秃的石灰岩台地，边缘陡直如墙，顶部平坦得像被巨神用刀削过。阳光砸在上面，反射出刺眼的白光，而岩石的阴影处，则是深邃的、冰冷的灰蓝。这是一种压倒性的荒芜之美，一种近乎残酷的简洁。
+你可能会疑惑，这样的地方，在 locals 的生活中意味着什么？它并非日常。在希贝尼克或扎达尔的咖啡馆里，人们聊起科尔纳蒂，眼神会变得有些不同。那是一种混合着自豪与敬畏的神情。对大多数克罗地亚人来说，这里不是后花园，而是祖先们搏击风浪、牧羊晒盐的沉默战场，是夏天里一段需要精心策划的冒险旅程。群岛的大部分土地至今仍是私有，属于几个古老的沿海家族，他们像守护传家宝一样守护着这片岩石的领地。渔民会季节性地来这里，在避风的小湾里停泊，修补渔网。除此之外，这里只属于阳光、风、海鸥和蜥蜴。
+那么，它的核心魅力究竟是什么？是那片令人心颤的蓝与白的对比吗？是，但不全是。当你站在某座岛屿的至高点上，环视三百六十度被这种奇异地貌填满的海平面时，你会感到一种前所未有的孤独与自由。这里剥离了一切文明的装饰——没有教堂尖顶，没有古堡遗迹，没有售卖明信片的小铺。它迫使你直面自然最原始、最本质的面貌：坚硬的石头，柔软的水，无尽的光。这是一种极简主义的美学暴击，它不取悦你，它只是存在，并以这种存在，让你重新思考“丰饶”与“贫瘠”、“生命”与“荒凉”的定义。在这里，你会感到自己非常渺小，同时又奇异地成为了这宏大画卷的一部分。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你得先飞过一片宝石蓝得不太真实的海，然后，窗外的景色突然变了。之前还是连绵的绿色海岸和星星点点的红瓦小镇，一下子全消失了。取而代之的，是一片你无法立即理解的景象：海面上密密麻麻地铺满了某种灰白色的东西，像是有人把全世界的粉笔头都倒进了染缸，又像是月球表面被撕下一大块，随手扔在了这里。这就是你对科尔纳蒂群岛的第一眼，从高空俯瞰的震撼。那种密集程度，那种整齐又混乱的排列，会让你瞬间失语。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "等你真正乘船驶入这片迷宫，感官才被全面唤醒。空气是灼热而清冽的，带着海盐的咸腥和阳光下干燥岩石的气息。发动机的嗡嗡声是背景音，更清晰的是船头劈开那片蓝得如同孔雀石般海水的声音，哗啦，哗啦。海水太清澈了，你能一直看下去，看到水下岩壁上的纹路，看到偶尔一闪而过的鱼群影子。而那些岛屿，它们静默地矗立着，越来越近。你才发现它们根本不是“岛”的传统模样，没有沙滩，没有树木，甚至几乎没有土壤。它们是一座座巨大的、光秃秃的石灰岩台地，边缘陡直如墙，顶部平坦得像被巨神用刀削过。阳光砸在上面，反射出刺眼的白光，而岩石的阴影处，则是深邃的、冰冷的灰蓝。这是一种压倒性的荒芜之美，一种近乎残酷的简洁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你可能会疑惑，这样的地方，在 locals 的生活中意味着什么？它并非日常。在希贝尼克或扎达尔的咖啡馆里，人们聊起科尔纳蒂，眼神会变得有些不同。那是一种混合着自豪与敬畏的神情。对大多数克罗地亚人来说，这里不是后花园，而是祖先们搏击风浪、牧羊晒盐的沉默战场，是夏天里一段需要精心策划的冒险旅程。群岛的大部分土地至今仍是私有，属于几个古老的沿海家族，他们像守护传家宝一样守护着这片岩石的领地。渔民会季节性地来这里，在避风的小湾里停泊，修补渔网。除此之外，这里只属于阳光、风、海鸥和蜥蜴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "那么，它的核心魅力究竟是什么？是那片令人心颤的蓝与白的对比吗？是，但不全是。当你站在某座岛屿的至高点上，环视三百六十度被这种奇异地貌填满的海平面时，你会感到一种前所未有的孤独与自由。这里剥离了一切文明的装饰——没有教堂尖顶，没有古堡遗迹，没有售卖明信片的小铺。它迫使你直面自然最原始、最本质的面貌：坚硬的石头，柔软的水，无尽的光。这是一种极简主义的美学暴击，它不取悦你，它只是存在，并以这种存在，让你重新思考“丰饶”与“贫瘠”、“生命”与“荒凉”的定义。在这里，你会感到自己非常渺小，同时又奇异地成为了这宏大画卷的一部分。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`科尔纳蒂群岛`} />
+                <InfoRow label="英文名称" value={`Kornati Islands`} />
+                <InfoRow label="正式名称" value={`Kornati Islands`} />
+                <InfoRow label="国家" value={`克罗地亚`} />
+                <InfoRow label="城市" value={`达尔马提亚地区（主要门户城市为希贝尼克或扎达尔）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它是亚得里亚海，乃至整个地中海地区，海岸线皇冠上最原始、最野性的一颗明珠。`} />
+                <InfoRow label="建筑特色" value={`无传统意义上的建筑，其“建筑”是大地与海洋亿万年协作的结晶——数百座光秃秃的石灰岩台地如巨型阶梯般从海底升起，构成一座浩瀚而沉默的石头迷宫。`} />
+                <InfoRow label="建筑风格" value={`无传统建筑风格，展现的是大地与海洋亿万年雕琢的自然杰作，风格可称为“地质极简主义”。`} />
+                <InfoRow label="文化价值" value={`一部关于光、石、海与人类坚韧生存的露天史诗，是理解达尔马提亚海岸人与自然关系的深刻寓言。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`国家公园全年开放，但游览活动（主要为乘船游览）强烈依赖于天气和季节，通常只在每年4月至10月之间运营。公园管理处和部分岛上设施（如餐馆）也主要在此时间段开放。具体船只班次和导游团需提前向授权旅行社查询并预订，冬季（11月至次年3月）除极少数特许行程外，几乎没有游览服务。`} />
+              <InfoRow label="门票价格" value={`进入科尔纳蒂国家公园需要支付门票，费用不固定，通常包含在从希贝尼克、扎达尔、或其他沿海城镇出发的授权导览游船票中。一日游船票价格大致在300-600库纳（约40-80欧元）之间，包含门票、交通和导游讲解。多日船宿之旅价格更高。门票对儿童、学生和团体有相应折扣，购票时请务必通过公园官方授权的旅行社或船只运营商购买，以确保费用包含公园维护费。`} />
+              <InfoRow label="地址" value={`国家公园管理处地址：Butina 2, 22243 Murter, Croatia`} />
+              <InfoRow label="交通方式" value={`前往科尔纳蒂群岛的唯一方式是乘船。首先，你需要抵达达尔马提亚海岸的主要城市，如扎达尔（Zadar）或希贝尼克（Šibenik）。从扎达尔机场或希贝尼克车站，你需要乘坐出租车或巴士前往沿海的出发码头，最常见的是穆尔特尔岛（Murter）的贝特拉纳（Betina）或希贝尼克附近的港口。从这些码头，有定期出发的授权游船前往群岛，航程约1.5到2.5小时，具体取决于目的地岛屿。强烈建议提前在线或通过当地旅行社预订一日或多日游船行程，旺季时当日票可能售罄。自驾游客可将车停在穆尔特尔岛，然后上船。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想象一下，回到千万年前。这里还是一片古老的特提斯洋海底，沉积了厚厚的石灰岩。然后，大地开始咆哮、挤压、抬升。海底变成了高山，又在冰河与雨水的缓慢侵蚀下，被切割、溶解。海水进退之间，留下了我们今天看到的这群奇特岛屿——地质学家称之为“喀斯特台地”。这个过程缓慢得令人窒息，却也造就了这片土地最初的性格：坚硬，多孔，沉默。早在人类出现之前，它们就已经是这副月球表面的模样，静静等待着未来的故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "人类的身影出现在这片岩石迷宫的时间，比我们想象的要晚。古伊利里亚人和罗马人可能曾把这些岛屿作为航海的地标，或许也在某些避风湾里短暂停靠，但几乎没有留下永久定居的痕迹。石头无法耕种，淡水极其稀缺，生存的难度太大了。真正的故事要从中世纪讲起，主角是那个叱咤地中海的海上共和国——威尼斯。随着威尼斯共和国的势力延伸到达尔马提亚海岸，科尔纳蒂群岛的战略价值凸显出来。它们成了监视亚得里亚海航道的前哨，也是躲避风暴和海盗的临时锚地。威尼斯人留下了他们最典型的印记：一座简单坚固的方形石塔，矗立在曼娜岛上，像一颗孤独的牙齿，至今仍守望着海面。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但群岛更重要的用途，是牧场。是的，在这片看似不可能养活任何东西的石头地上，人们放羊。从14、15世纪开始，沿海城镇（尤其是扎达尔和希贝尼克）的贵族和教会家族开始宣称对这些岛屿的所有权。他们将山羊和绵羊用船运到岛上。这些顽强的动物能以岩缝中稀少的草和灌木为食。岛民（更多是季节性过来的牧民）会收集雨水，用石头垒起矮墙划分领地，建造简陋的石屋“bunja”作为栖身之所。你能在许多岛屿的平坦顶部看到这些纵横交错的干石墙遗迹，它们像大地的皱纹，诉说着一段与严酷自然搏斗的、艰辛的生存史。这段时期，群岛也是威尼斯共和国与奥斯曼帝国在海上拉锯的前沿，平静的牧歌时常被战火和劫掠打断。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间跳到19世纪，随着奥匈帝国接管达尔马提亚，科学的眼光第一次仔细审视了这片群岛。学者们开始绘制详细的海图，研究其独特的地质和生态。然而，生活的艰辛模式并未改变。直到20世纪，随着现代渔业的发展，群岛周围富饶的海域才吸引了更多渔民，一些条件稍好的岛屿上建起了小型的渔民定居点。二战后，南斯拉夫政府意识到了这片区域的独特价值。1980年，科尔纳蒂群岛的大部分区域被宣布为国家公园，这是保护其脆弱生态环境的关键一步。也正是在这个时期，群岛那超凡脱俗的“月球景观”开始吸引艺术家、摄影师和最初的冒险旅行者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "克罗地亚独立后，特别是随着旅游业的蓬勃发展，科尔纳蒂迎来了新的篇章。它不再是那个只属于牧羊人和渔民的艰苦世界，而成为了世界级的自然奇观。保护与开发的平衡成为主题。国家公园管理局严格管理游客活动，只有授权的船只才能进入核心区域，以保护那些敏感的海底草地和脆弱的岩壁植被。今天，当你乘船穿行其间，你看到的既是亘古不变的地质奇迹，也是一部浓缩的人类适应史——从威尼斯哨塔的残垣，到牧羊人石屋的废墟，再到今日偶尔出现的、与岩石浑然一体的现代餐厅。它没有变成迪士尼式的景点，它依然荒凉，依然高傲，只是静静地向懂得欣赏它的人，展示着时间、自然与人类意志共同写就的传奇。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`深度体验科尔纳蒂的精髓，绝不能满足于匆匆一日游。我强烈建议参加一个2-3天的“船宿”之旅，也就是住在传统的木制游船“bracera”或舒适的现代游艇上。这样你才能逃离一日游游客的喧嚣，在清晨和黄昏这两个黄金时段，独享群岛的魔幻时刻。第一天下午从穆尔特尔岛登船出发，缓缓驶入群岛腹地，在日落时分停泊在一个宁静的海湾。第二天用一整天时间，乘小艇探索不同的岛屿，徒步、游泳、浮潜，并在岛上的传奇餐厅享用午餐。第三天清晨再看一次日出后返航。这样的节奏慢而深，让你有时间感受光影在岩石上的每一寸移动，倾听不同时辰下大海的呼吸，真正融入这片石与海的韵律之中。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必提前数月预订信誉良好的多日船宿之旅，这是体验群岛灵魂的关键，旺季临时几乎不可能找到空位。
+这里的阳光极其猛烈，且岩石和水面反射强烈，高倍数防晒霜、帽子、太阳镜和长袖防晒衣是绝对必需品，物理防晒比任何乳液都管用。
+尊重这片脆弱的自然，除了脚印什么都不留下，除了照片什么都不带走，更不要从岩石上敲下任何“纪念品”。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`破晓时分，裹着毯子躺在甲板上，看灰蓝色的天光如何一点点勾勒出群岛锯齿状的黑色剪影，仿佛世界还未被命名。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`乘小艇登陆曼娜岛，手脚并用地爬上缓坡，去探访那座孤独的威尼斯要塞遗迹，用手触摸被海风打磨了数百年的粗糙石墙。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在著名的“悬崖餐厅”点一份当天清晨捕捞的鱼，坐在露台的木桌前，看着脚下数十米处水晶般的海水，品尝最原始的海之味。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午选一个僻静的小海湾抛锚，戴上浮潜面罩跃入海中，在另一个由海绵、海胆和鱼群构成的缤纷世界里，仰望头顶岛屿投下的巨大阴影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在领队带领下，徒步登上某个岛屿的至高点，展开一场三百六十度的全景冥想，让视野里只剩下蓝、白、灰三种颜色，和无限延伸的海平线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`黄昏时分，船长会找一个完美的避风港停泊，当落日把所有的石灰岩染成炽烈的金红色时，跳入尚存暖意的海水中享受一场日落泳。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`入夜后，关闭船上所有灯光，躺在甲板上仰望银河，你会发现这里的星空因为毫无光污染而璀璨得令人心悸，仿佛触手可及。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`第二天，可以去探访一个仍有渔民季节性居住的小湾，看看那些彩色的木屋和晾晒的渔网，感受这里所剩无几的、真实的生活气息。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`“悬崖餐厅”（Restaurant Opat）的露台本身就是一个绝佳观景台，用广角镜头可以拍下餐厅木棚、用餐的人们与脚下深渊般的湛蓝海水及远方层层叠叠岛屿的震撼组合，最佳时间是正午前后，光线最能体现海水的层次。`}</h4>
+                  <p className="text-sm text-gray-700">{`“悬崖餐厅”（Restaurant Opat）的露台本身就是一个绝佳观景台，用广角镜头可以拍下餐厅木棚、用餐的人们与脚下深渊般的湛蓝海水及远方层层叠叠岛屿的震撼组合，最佳时间是正午前后，光线最能体现海水的层次。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`曼娜岛威尼斯要塞的拱门或窗口是完美的天然画框，将镜头对准框外的一片蓝海和一角孤岛，能拍出极具故事感和框架构图的照片，建议在清晨或傍晚的侧光下拍摄，质感最强。`}</h4>
+                  <p className="text-sm text-gray-700">{`曼娜岛威尼斯要塞的拱门或窗口是完美的天然画框，将镜头对准框外的一片蓝海和一角孤岛，能拍出极具故事感和框架构图的照片，建议在清晨或傍晚的侧光下拍摄，质感最强。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`在Telašćica湾（国家公园一部分）的盐湖旁，找到面向海湾开阔水面的角度，等待一艘帆船或传统木船驶过时按下快门，能捕捉到“悬崖、静水、帆影”的经典达尔马提亚风情画，下午的光线最为柔和。`}</h4>
+                  <p className="text-sm text-gray-700">{`在Telašćica湾（国家公园一部分）的盐湖旁，找到面向海湾开阔水面的角度，等待一艘帆船或传统木船驶过时按下快门，能捕捉到“悬崖、静水、帆影”的经典达尔马提亚风情画，下午的光线最为柔和。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`如果你有无人机（务必提前确认并遵守克罗地亚及国家公园的无人机法规），从高空垂直俯拍群岛，最能展现其如迷宫棋盘或细胞组织般令人难以置信的密集结构和几何美感，无风的中午是获得清晰稳定画面的好时机。`}</h4>
+                  <p className="text-sm text-gray-700">{`如果你有无人机（务必提前确认并遵守克罗地亚及国家公园的无人机法规），从高空垂直俯拍群岛，最能展现其如迷宫棋盘或细胞组织般令人难以置信的密集结构和几何美感，无风的中午是获得清晰稳定画面的好时机。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`浮潜或自由潜时，使用防水相机或GoPro，贴近海底的白沙地向上拍摄，将游泳者的剪影、荡漾的水波和水面以上的岩石岛屿轮廓纳入同一画面，创造梦幻的“水下看世界”视角。`}</h4>
+                  <p className="text-sm text-gray-700">{`浮潜或自由潜时，使用防水相机或GoPro，贴近海底的白沙地向上拍摄，将游泳者的剪影、荡漾的水波和水面以上的岩石岛屿轮廓纳入同一画面，创造梦幻的“水下看世界”视角。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`一片高质量的偏振镜（CPL）在这里是神器，它能极大消除海面反光，让你拍出那种通透见底的宝石蓝海水，效果立竿见影。`}</li>
+                <li>• {`克罗地亚对无人机飞行有严格规定，在国家公园内飞行通常需要特殊许可，务必提前通过公园官网查询并申请，切勿黑飞，以免面临高额罚款。`}</li>
+                <li>• {`拍摄牧民石屋等遗迹时，请怀有敬意，避免轻佻或破坏性的摆拍，这些沉默的石头是历史的一部分。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`灵魂之选`}</h4>
+                  <p className="text-sm text-blue-800">{`预订一艘传统的木制“bracera”或舒适的现代双体船进行船宿，晚上睡在随波轻摇的船舱里，听着轻柔的水浪声入眠，这才是体验科尔纳蒂岛屿生活的终极方式。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`隐居体验`}</h4>
+                  <p className="text-sm text-green-800">{`在国家公园边缘、穆尔特尔岛上的古老石屋里找一家家庭民宿，主人可能就是个老水手，能用一杯自酿的拉基亚酒和你聊上一整晚群岛的传说。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`陆上基地`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在希贝尼克或扎达尔老城的设计酒店，将群岛探险与古城文化之旅结合，白天出海感受荒凉壮美，晚上回归中世纪街巷的浪漫喧嚣。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端野奢`}</h4>
+                  <p className="text-sm text-purple-800">{`寻找提供“Robinson Crusoe”式体验的极简主义生态小屋，它们可能坐落在某个僻静岛屿上，仅通过太阳能供电，提供绝对的隐私和与世隔绝的宁静。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "船宿之旅的住宿条件通常紧凑而基本，但非常干净，重要的是体验而非奢华，预订时仔细阅读关于卫浴设施（通常是共享）和舱房大小的描述。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "穆尔特尔岛本身就是一个宁静可爱的岛屿，住宿性价比通常高于扎达尔或希贝尼克，且更靠近出海码头，能为你节省清晨赶路的时间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "无论选择哪种住宿，夏季（7-8月）的价格都是顶峰且一房难求，尽量选择6月或9月出行，天气依然美好，但游客较少，体验更佳。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开科尔纳蒂好几天后，我的眼睛似乎还在适应。适应那些普通的绿色，那些拥挤的建筑，那些嘈杂的声音。群岛给我留下了一种后遗症：对“空”的渴望。在那个由石与海构成的极端世界里，一切都被简化到了极致。没有多余的色彩，没有复杂的线条，没有琐碎的声响。这种极致的“空”，反而在心里装满了东西。它像一场视觉和心灵的排毒，洗掉了所有浮华的滤镜，让你重新看见天地之初的轮廓，感受到一种近乎宗教性的宁静与宏大。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个人人追逐打卡、信息过载的时代，科尔纳蒂提供了一种反向的旅行价值。它不提供舒适的古迹讲解，不提供精致的购物体验，甚至不提供一片让你躺平的沙滩。它只提供一片令人敬畏的荒芜，和一片包容一切的湛蓝。它要求你付出一些体力，忍受一些烈日，才能换取那几个站在世界尽头的瞬间。但正是这些瞬间，会成为你记忆里闪光的锚点。当你日后被生活的纷扰困住时，或许可以闭上眼睛，回想那片月光下的石之海。它会提醒你，世界远比你想象的辽阔、古老而沉默，而我们的那点烦恼，在亿万年的岩石和万顷碧波面前，或许可以轻轻地放下。这，就是为什么每个渴望深度游的灵魂，都应该来一次科尔纳蒂。它不仅仅是一片风景，更是一场关于存在本身的、沉默的叩问。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/rijeka-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    里
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里耶卡老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rijeka Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/veliki-tabor-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦利基塔博尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Veliki Tabor Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sibenik-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    希
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">希贝尼克老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Šibenik Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -15,7 +15,7 @@ export default function RaseborgCastleFinlandPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/finland' },
             { label: '拉塞博里城堡遗址（森林与岩石中的中世纪堡垒）', href: '/attractions/raseborg-castle-finland' },
           ]}
         />

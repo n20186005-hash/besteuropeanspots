@@ -15,7 +15,7 @@ export default function GolubacFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞尔维亚', href: '/destinations/serbia' },
             { label: '戈卢巴茨要塞', href: '/attractions/golubac-fortress' },
           ]}
         />

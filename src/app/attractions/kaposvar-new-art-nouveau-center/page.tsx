@@ -15,7 +15,7 @@ export default function KaposvarNewArtNouveauCenterPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/hungary' },
             { label: '卡波什堡（多莫斯山丘包围的南特兰斯丹努比亚中心）', href: '/attractions/kaposvar-new-art-nouveau-center' },
           ]}
         />

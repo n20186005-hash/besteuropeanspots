@@ -15,7 +15,7 @@ export default function RagusaIblaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '拉古萨伊布拉（叠落山谷的古城）', href: '/attractions/ragusa-ibla' },
           ]}
         />

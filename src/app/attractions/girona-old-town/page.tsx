@@ -15,7 +15,7 @@ export default function GironaOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '赫罗纳古城', href: '/attractions/girona-old-town' },
           ]}
         />

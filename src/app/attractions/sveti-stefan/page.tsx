@@ -15,7 +15,7 @@ export default function SvetiStefanPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '黑山', href: '/destinations/montenegro' },
             { label: '圣斯特凡岛', href: '/attractions/sveti-stefan' },
           ]}
         />

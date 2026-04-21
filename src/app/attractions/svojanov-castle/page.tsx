@@ -1,0 +1,152 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '斯沃亚诺夫城堡旅游攻略：捷克“铁与玫瑰”的中世纪深度游指南',
+  description: '探索捷克Svojanov Castle深度游攻略。这座“铁与玫瑰”城堡融合哥特防御与帝国优雅，是完整的中世纪生活画卷，提供详细门票与交通指南。',
+}
+
+export default function SvojanovCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯沃亚诺夫城堡', href: '/attractions/svojanov-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`斯沃亚诺夫城堡・Svojanov Castle・捷克・帕尔杜比采州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你已经看腻了布拉格广场的人山人海，想找一处真正能触摸到捷克坚硬历史脊梁的地方，那今天这份 **斯沃亚诺夫城堡私藏旅游攻略** ，就是为你准备的。它藏在帕尔杜比采州宁静的森林山谷中，不像卡尔施泰因城堡那样游客扎堆，却拥有一种粗粝而真实的魔力。想象一下：一座为守护波希米亚王国财富而生的堡垒，历经近八百年风雨，城墙厚到离谱，却在后来披上了帝国风格的优雅外衣——这种“铁汉柔情”般的反差，正是它最迷人的地方。这份 **自由行指南** 将带你一步步揭开它的面纱，从如何抵达这座“孤岛”，到在哪个角落能拍到绝美光影，再到如何避开旅行团享受包场般的宁静。准备好了吗？我们出发，去拜访这位沉默的“王国守卫者”。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你已经看腻了布拉格广场的人山人海，想找一处真正能触摸到捷克坚硬历史脊梁的地方，那今天这份 <strong>斯沃亚诺夫城堡私藏旅游攻略</strong> ，就是为你准备的。它藏在帕尔杜比采州宁静的森林山谷中，不像卡尔施泰因城堡那样游客扎堆，却拥有一种粗粝而真实的魔力。想象一下：一座为守护波希米亚王国财富而生的堡垒，历经近八百年风雨，城墙厚到离谱，却在后来披上了帝国风格的优雅外衣——这种“铁汉柔情”般的反差，正是它最迷人的地方。这份 <strong>自由行指南</strong> 将带你一步步揭开它的面纱，从如何抵达这座“孤岛”，到在哪个角落能拍到绝美光影，再到如何避开旅行团享受包场般的宁静。准备好了吗？我们出发，去拜访这位沉默的“王国守卫者”。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`斯沃亚诺夫城堡`} />
+                <InfoRow label="英文名称" value={`Svojanov Castle`} />
+                <InfoRow label="正式名称" value={`Svojanov Castle`} />
+                <InfoRow label="国家" value={`捷克`} />
+                <InfoRow label="城市" value={`帕尔杜比采州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`说到斯沃亚诺夫城堡在欧洲历史中的分量，你得先把自己拽回13世纪。那时，波希米亚国王奥托卡二世正忙着打造一条连接布拉格与摩拉维亚的坚固贸易与军事通道，而这座城堡，就是这条命脉上最关键的一把“锁”。建于1265年的它，从诞生之日起就不是用来享受的奢华宫殿，而是一个纯粹的、功能性的战略要塞。它的核心任务是守护王室的巨额白银财富和重要文件，是名副其实的“国王的保险箱”。在胡斯战争那段烽火连天的岁月里，当许多城堡化为废墟时，斯沃亚诺夫却因其极度坚固的设计而屹立不倒，甚至成为天主教阵营的重要据点。它见证了普热米斯尔王朝的强盛，也经历了多次转手与扩建，从纯粹的军事堡垒逐渐转变为带有居住功能的贵族庄园。可以说，它是一部用石头写成的、关于波希米亚王国边境防御与内部权力变迁的编年史，其地位不在于曾有多少王室在此长居，而在于它数百年来“守卫”这一角色的高度纯粹性与有效性。`} />
+                <InfoRow label="建筑特色" value={`第一眼看到斯沃亚诺夫，你肯定会先被那堵巨大无匹的城墙震慑住。那不是普通的墙，那是一道仿佛从山体中生长出来的、令人望而生畏的屏障。它的主体是深灰色的粗凿石材，表面布满岁月的凹痕和深色苔藓，在阴雨天会泛出冷峻的铁青色光泽。最惊人的是其厚度——局部超过7米，你几乎可以在墙体内的通道里开个小房间！然而，建筑的戏剧性就在这里展开：绕过这堵“铁幕”，你会看到后来增建的主楼，其立面却呈现出柔和的鹅黄色调，窗户轮廓清晰优雅，带有新古典主义式的简洁线条。城堡的塔楼也体现了这种矛盾：古老的防御塔低矮敦实，射击孔窄小；而后期修缮的部分则有了装饰性的屋顶和更明亮的观景窗。这种粗野与精致、黑暗与明亮在同一视野里碰撞的景象，极具视觉冲击力，仿佛一个身披重甲的骑士，胸前却别着一朵新鲜的玫瑰。`} />
+                <InfoRow label="建筑风格" value={`斯沃亚诺夫城堡的建筑风格可以精准地概括为“哥特-帝国混合风”，这种组合在捷克乃至全欧洲都极其罕见。最初的城堡是 **极端功能主义的哥特式防御建筑** 的教科书范例。这里没有飞扶壁和玫瑰窗的优雅，只有最原始的生存逻辑：极高的位置、难以逾越的深壕、最小化的窗户（仅作射箭孔用）、以及为了承受投石器攻击而设计的夸张墙厚。一切为了生存，一切为了防御。而到了19世纪浪漫主义时期，当时的主人受哈布斯堡帝国流行的 **帝国风格（新古典主义的一种演变）** 影响，对城堡进行了改造。于是，我们看到了内部房间出现石膏花饰、几何图案的镶木地板、线条优雅的壁炉和家具。这种风格追求的是庄严、秩序与古典的复兴，与原本哥特式的阴郁压抑截然不同。这种融合并非和谐统一，而是留下了清晰的拼接痕迹，恰恰是这种“不和谐”，让你能一目了然地阅读出它从战争机器向居住场所演变的历史分层，非常生动。`} />
+                <InfoRow label="文化价值" value={`对于现代捷克人而言，斯沃亚诺夫城堡远不止是一个旅游景点。它是一个民族韧性的象征。在二战后的几十年里，它曾一度荒废，近乎被遗忘，是当地民间保护组织的努力和90年代后的精心修复，才让它重获新生。如今，它更像一个活跃的“露天博物馆”和文化中心。城堡内部陈设极力还原了19世纪末一个贵族家庭的真实生活场景，从厨房的铜锅到书房的书信，细节满满，让历史变得可感可触。它每年夏季举办的“中世纪市集”和历史重演活动，会吸引整个地区的人们前来。演员们穿上甲胄，工匠们点燃冶炉，空气中弥漫着烤肉和麦酒香——这不仅仅是表演，更是社区对自己根源的一次集体重温与庆祝。此外，它还是许多捷克戏剧和电影的取景地，其独特的空间感为艺术创作提供了无限灵感。它教会人们，历史不是教科书上扁平的文字，而是可以走进、触摸，甚至在其中欢笑的立体存在。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 斯沃亚诺夫城堡一日游打卡路线攻略：穿越中世纪时光`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行步行游览全攻略`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份 **一日游路线** 请收好！建议你上午10点前抵达，避开可能的小型旅行团。**上午**，我们从城堡外缘开始：别急着进门，先沿着外围走一圈，从各个角度仰望那堵巨墙和塔楼，感受其压迫性的防御姿态（也是拍照的好时机）。然后穿过石桥进入第一庭院，在售票处拿一份地图。参观从**骑士大厅**开始，这里是权力中心，感受空间。接着进入**小教堂**，享受片刻宁静。**中午**，强烈建议就在城堡内的餐厅（通常设在古老的地窖或拱厅里）用餐，尝尝地道的捷克炖牛肉和一杯黑啤，氛围满分。**下午**，探索生活区：**领主卧室**、**书房**和**女士客厅**，对比贵族生活的精致。然后一定要参加**城墙徒步**，在厚度惊人的墙顶通道行走，俯瞰整个山谷。最后，登上最高的**瞭望塔**，将波希米亚-摩拉维亚高地的如画风光尽收眼底。如果还有时间，去城堡后面的英式花园散散步，结束完美的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>“叹息之墙”的触感</strong>：当你走进连接主楼与塔楼的内部通道时，会经过一段原始的、未加修饰的石墙。伸手触摸它，那种冰凉、粗糙、带有颗粒感的触觉会瞬间将你拉回中世纪。石头上深浅不一的凿痕，可能是某个石匠800年前留下的。仔细观察，某些石块上还有隐约的标记，可能是采石场的符号。墙根处常年阴凉，散发着淡淡的、泥土与陈年石材特有的湿润气味。这堵墙不是展品，它就是历史本身的身体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>骑士大厅的“光之舞”</strong>：下午两三点，阳光会以特定角度穿过大厅高处的窄窗。这些窗户内部宽、外部窄，是标准的防御设计。光束像经过精密计算的长矛，斜射入略显昏暗的大厅，在空中形成一道清晰的光柱。尘埃在光柱中飞舞，光斑精准地落在古老的木地板上，随着时间缓慢移动。站在光里，你能感受到中世纪建筑如何利用这吝啬而珍贵的光源，创造出一种庄严而神秘的宗教仪式感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>小教堂的静谧回响</strong>：城堡小 chapel 很小，彩绘玻璃也是后来修复的，但它的 acoustics（音响效果）极其奇妙。试着轻轻哼唱一句，或者只是拍一下手，声音会被光滑的石壁柔和地包裹、延长，形成一种空灵的回响，仿佛有许多声音在低声附和。这里没有宏伟的管风琴，但这种自然的混响，让人想象当年驻守于此的士兵和贵族在此祈祷时，他们的诵经声是如何充盈这个小小空间，给予他们心灵慰藉的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>“黑厨房”的烟火气</strong>：复原的中世纪厨房是个宝藏。注意看那个巨大的开放式壁炉，熏黑的痕迹深入石砖肌理。架子上挂着各种 replica（复制品）的铜罐和铁钩。想象一下，这里曾终日炉火不熄，充斥着烤肉吱吱作响的声音、炖汤的翻滚声、以及柴火的噼啪声。空气中混合着烟火、油脂、香草和面包的复杂气味。这里是城堡的“胃”，是所有华丽表象背后，维持生命运作的、热闹而辛劳的角落。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 斯沃亚诺夫城堡自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>时间就是一切</strong>：<strong>最佳游览时间</strong>是5月至9月的 <strong>工作日</strong>，并尽量赶在上午10点开门时就进入。周末和公共假日会有更多本地家庭游客。春秋季天气变幻莫测，城堡位于高地，风大温度低，务必带一件防风外套。冬天部分区域可能关闭，行前务必上官網确认。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿对鞋子，轻松一半</strong>：城堡内遍布古老的石阶、鹅卵石路面和狭窄螺旋楼梯，且很多地方为了保持原貌，地面不平且光滑。<strong>绝对不要</strong>穿高跟鞋或硬底鞋！建议穿一双抓地力好的运动鞋或徒步鞋，这是最重要的 <strong>避坑贴士</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与现金准备</strong>：城堡位置较偏，<strong>公共交通</strong>班次有限（通常从斯维塔维或波利奇卡有巴士，但一天可能只有几班）。最方便的方式是<strong>自驾</strong>，导航设置准确，停车场在城堡下方，需步行一段上坡路。另外，城堡内的纪念品商店和小餐厅<strong>可能不接受信用卡</strong>，记得准备一些捷克克朗现金。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>深度体验秘诀</strong>：很多游客只是走马观花看房间。如果你想 <strong>深度游</strong>，提前查看官网是否提供 <strong>“非游览线路”导览</strong> 或 <strong>专题导览</strong>（如“中世纪防御工事揭秘”），这些通常需要预约，但能带你进入普通门票看不到的密室、地牢或防御工事内部，价值远超普通参观。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 斯沃亚诺夫城堡周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "住在城堡脚下，才能完整感受它暮色与晨光中的不同面容。最独特的体验当然是预订城堡本身经营的<strong>客栈</strong>，房间通常由古老的客房改造，石墙木梁，氛围感拉满，但数量极少需提前数月预订。更实际的选择是驱车10-15分钟，到附近的<strong>Svojanov或Bělá nad Svitavou</strong>这样的小村庄，那里有许多温馨的 <strong>“Penzion”</strong>（家庭旅馆），主人热情好客，提供丰盛的家常早餐，晚上安静得只能听到风声和虫鸣。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>美食</strong>方面，城堡内的餐厅是首选，一定要试试 <strong>“Svojanovský guláš”</strong>（斯沃亚诺夫炖牛肉），据说用的是古方，味道醇厚。搭配捷克经典的 <strong>“knedlíky”</strong>（面包饺子）和酸菜，再来一杯本地帕尔杜比采地区的啤酒，才算圆满。如果下山用餐，村庄小酒馆里的 <strong>烤猪肘</strong> 和 <strong>炸奶酪</strong> 也是不会出错的选择。别忘了饭后尝尝 <strong>“trdelník”</strong>（烟囱卷），虽然它已风靡全捷，但在乡村炭火烤制的，格外香脆。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>“恶魔石”</strong>：从城堡出发，沿着林间小径徒步约40分钟，你会到达一组巨大的花岗岩石群，当地传说这是恶魔扔下的石头。这里几乎没有游客，是野餐和享受森林浴的绝佳地点。站在巨石上，回望森林树冠之上巍然耸立的城堡，你会真正理解它作为地形主宰者的地位。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>利托米什尔古镇</strong>：如果时间充裕，可以驱车约40分钟前往被联合国教科文组织列入名录的<strong>利托米什尔</strong>。那里有令人惊叹的文艺复兴时期城堡及其独特的“连环拱廊”，与斯沃亚诺夫的粗犷形成鲜明对比。老城区色彩柔和的建筑和悠闲的广场，能让你从中世纪的紧张感中舒缓下来，体验捷克小镇的精致一面。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "斯沃亚诺夫城堡的灵魂，在于那份毫不妥协的“真实”。它没有为了讨好游人而被打磨得光滑亮丽，它的美是棱角分明的，是石头般的沉默与坚韧。在这里，你触摸到的不仅是冰冷的城墙，更是一个民族在动荡历史中紧紧守护核心的记忆与尊严。它告诉我们，真正的力量，往往藏于最质朴的坚守之中。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/bouzov-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博乌佐夫城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bouzov Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/rakovnik-czech-medieval-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉科夫尼克</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rakovník</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/dolni-vitkovice-industrial-site" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    下
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">下维特科维采工业遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dolní Vítkovice</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

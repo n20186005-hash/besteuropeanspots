@@ -15,7 +15,7 @@ export default function HervartovWoodenChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/slovakia' },
             { label: '赫尔瓦尔托夫木教堂', href: '/attractions/hervartov-wooden-church' },
           ]}
         />

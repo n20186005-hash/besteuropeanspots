@@ -15,7 +15,7 @@ export default function RomainmotierPrioryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '罗曼穆捷隐修院', href: '/attractions/romainmotier-priory' },
           ]}
         />

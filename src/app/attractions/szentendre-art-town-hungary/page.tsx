@@ -15,7 +15,7 @@ export default function SzentendreArtTownHungaryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/hungary' },
             { label: '圣安德烈（艺术小镇）', href: '/attractions/szentendre-art-town-hungary' },
           ]}
         />

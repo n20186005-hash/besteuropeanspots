@@ -15,7 +15,7 @@ export default function OrangeRomanTheatrePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '法国', href: '/destinations/france' },
             { label: '奥朗日凯旋门与古罗马剧场', href: '/attractions/orange-roman-theatre' },
           ]}
         />

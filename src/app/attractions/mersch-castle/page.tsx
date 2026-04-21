@@ -15,7 +15,7 @@ export default function MerschCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/luxembourg' },
             { label: '梅尔施城堡', href: '/attractions/mersch-castle' },
           ]}
         />

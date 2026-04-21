@@ -15,7 +15,7 @@ export default function ForteresseDeSalsesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '萨尔斯要塞', href: '/attractions/forteresse-de-salses' },
           ]}
         />

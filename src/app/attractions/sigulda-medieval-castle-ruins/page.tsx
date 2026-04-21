@@ -15,7 +15,7 @@ export default function SiguldaMedievalCastleRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '拉脱维亚', href: '/destinations/latvia' },
             { label: '锡古尔达中世纪城堡遗址', href: '/attractions/sigulda-medieval-castle-ruins' },
           ]}
         />

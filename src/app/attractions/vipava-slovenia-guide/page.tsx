@@ -1,0 +1,150 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '维帕瓦小镇深度旅游攻略：喀斯特河谷的隐秘水城与慢生活指南',
+  description: '探索斯洛文尼亚的“水上珍珠”维帕瓦（Vipava）！本攻略涵盖喀斯特河流奇观、威尼斯风格建筑、葡萄酒文化深度游及实用避坑贴士，带你解锁小众秘境。',
+}
+
+export default function VipavaSloveniaGuidePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '维帕瓦河谷小镇', href: '/attractions/vipava-slovenia-guide' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`维帕瓦河谷小镇・Vipava・斯洛文尼亚・戈里齐亚地区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果我说有个地方，河水像突然从地底苏醒的巨龙，在鹅卵石广场边轰然喷涌而出，形成一道倒三角的碧蓝瀑布——而你就站在离它不到十步的咖啡馆露台上，手里咖啡的涟漪都在随之颤动——你会不会觉得我在编童话？今天这份维帕瓦私藏旅游攻略，就带你躲开人潮，钻进斯洛文尼亚西北角这个被喀斯特山脉环抱的河谷小镇。它常被称作“斯洛文尼亚的威尼斯”，但我觉得它更像个被时光遗忘的水精灵：维帕瓦河（Vipava River）的源头竟赤裸裸地敞在镇中心，水流以近乎魔幻的三角形豁口从岩层中奔腾而出，瞬间化作穿城而过的翡翠色飘带。作为你的专属向导，这份自由行指南不仅要带你摸清河道脉络，还会告诉你何时能独享晨雾中的古桥、去哪家酒窖喝到脚软的橙酒，以及怎样避开一日游团的车流。系好鞋带，我们要潜入水声潺潺的梦境了。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果我说有个地方，河水像突然从地底苏醒的巨龙，在鹅卵石广场边轰然喷涌而出，形成一道倒三角的碧蓝瀑布——而你就站在离它不到十步的咖啡馆露台上，手里咖啡的涟漪都在随之颤动——你会不会觉得我在编童话？今天这份维帕瓦私藏旅游攻略，就带你躲开人潮，钻进斯洛文尼亚西北角这个被喀斯特山脉环抱的河谷小镇。它常被称作“斯洛文尼亚的威尼斯”，但我觉得它更像个被时光遗忘的水精灵：维帕瓦河（Vipava River）的源头竟赤裸裸地敞在镇中心，水流以近乎魔幻的三角形豁口从岩层中奔腾而出，瞬间化作穿城而过的翡翠色飘带。作为你的专属向导，这份自由行指南不仅要带你摸清河道脉络，还会告诉你何时能独享晨雾中的古桥、去哪家酒窖喝到脚软的橙酒，以及怎样避开一日游团的车流。系好鞋带，我们要潜入水声潺潺的梦境了。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`维帕瓦河谷小镇`} />
+                <InfoRow label="英文名称" value={`Vipava`} />
+                <InfoRow label="正式名称" value={`Vipava`} />
+                <InfoRow label="国家" value={`斯洛文尼亚`} />
+                <InfoRow label="城市" value={`戈里齐亚地区`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`别看维帕瓦现在像个恬静的田园诗，它在欧洲历史长河里可是个反复被争夺的“河畔要塞”。罗马人最早盯上这里丰沛的水源和战略山谷，留下了灌溉系统的基础；中世纪时，它成了威尼斯共和国与哈布斯堡王朝拉锯的前线，那些斑驳的城堡墙垣上还嵌着不同统治者的徽章。最戏剧性的章节在一战时期上演：小镇恰好处在意大利战场（Soška fronta）的咽喉位置，奥匈帝国与意大利军队隔着河谷对峙，山顶堡垒至今留着弹孔密布的瞭望口。战后归属意大利，二战后又划归南斯拉夫，直至斯洛文尼亚独立。这种“边境基因”塑造了维帕瓦独特的混血文化——你能在方言里听到意大利语尾音，在菜市场看到奥地利风格的熏肠，却在教堂壁画上找到斯拉夫民族的质朴笔触。它像一本被多次翻译的古书，每页都沾着不同王朝的指纹。`} />
+                <InfoRow label="建筑特色" value={`维帕瓦的建筑是“水与石头的二重奏”。沿着主街漫步，你会看到威尼斯共和国时期留下的联排屋：墙面刷着熟杏色、薄荷绿或日落粉的灰泥，但墙角地基却裸露着本地特有的喀斯特石灰岩，粗糙的米白色石块与光滑彩墙碰撞出奇妙的质感。窗框是深栗木制的，多数仍保留着17世纪的双扇百叶窗，午后阳光会把窗格影子拉成长长的菱形，投在斑驳的墙上。最惊艳的是那些跨河而建的老宅——有的房屋底层直接架在河道上方，推开地板暗门就能听到哗哗水声，当地人曾用这天然“冰箱”储藏葡萄酒。屋顶多是暗红色陶瓦，瓦缝间钻出毛茸茸的青苔，雨季时整个小镇的屋顶会泛起丝绒般的绿意。走到水源广场（Izvir Vipave）时，建筑突然退让，眼前豁然展开那片三角形出水口：石灰岩崖壁被水流磨出象牙般的温润弧度，水面之下墨绿色的水草如长发般摇曳，仿佛整座小镇是从这块碧玉里生长出来的。`} />
+                <InfoRow label="建筑风格" value={`这里没有恢弘的大教堂，建筑风格是“平民化威尼斯风”与本地乡村智慧的混合体。所谓威尼斯风，主要体现在立面的装饰性元素：比如门楣上浅浮雕的海洋纹样（贝壳、海豚），暗示着曾受威尼斯海洋文化影响；二层常见的“三连拱窗”虽用不起大理石，却用赭石色灰泥捏出仿拱廊造型。但更深层的风格藏在结构里：因河水频发，房屋底层普遍采用“石拱+砖填充”的防洪结构，拱洞如今多改成酒窖或作坊。屋顶坡度刻意放缓，方便收集雨水汇入地下蓄水池——这是喀斯特地区应对干旱的古老智慧。镇上唯一的地标教堂圣斯蒂芬（Sv. Štefan）则是罕见的“边境折衷主义”：巴洛克式的洋葱顶钟楼戴在了罗马式长方堂的“身体”上，内部壁画兼有意大利的明暗法和斯拉夫民族的鲜亮色块。这种不纯粹的混搭，反而让维帕瓦的建筑有了种“野生感”，像河岸边的野花，自顾自地开得任性。`} />
+                <InfoRow label="文化价值" value={`对当地人而言，维帕瓦河不是风景，是血脉。每年四月“水源节”（Praznik izvira），全镇人会穿着传统服饰聚集在三角形出水口旁，往河里抛掷鲜花编织的圆环，老人用方言吟诵感谢水流滋养河谷的诗篇——这种对水源的崇拜可追溯到前基督教时代的自然神信仰。水也塑造了他们的生活哲学：慢。咖啡馆常客会端着 espresso 在河边发呆半小时，理由是“在看水流怎么转弯”。而比水更流淌的是葡萄酒文化：河谷斜坡上遍布家族酒庄，他们信奉“风土即真理”，用本地特色品种泽琳（Zelen）酿出带青草气息的白葡萄酒。很多酒窖门口挂着“开放与否看心情”的木牌，但若你礼貌敲门，主人很可能拉你直接对着发酵桶喝新酒。这种“液态灵魂”让维帕瓦成了欧洲自然酒运动的热土，每年秋季酿酒师们会踩着葡萄跳进河道狂欢，仿佛在与水源完成一场古老的仪式交换。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 维帕瓦河谷一日游打卡路线攻略：从魔幻水源到城堡日落`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`10小时沉浸式自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`早晨8点，趁旅行团大巴还没涌入，我们先扑向水源广场（Izvir Vipave）。这时的三角形出水口还裹着薄雾，水流声在寂静中格外清越。站在观景木台上，你会看到晨曦如何把碧水染成金绿色。接着往东走5分钟，钻进周五才有的农夫市集（通常在主广场Trg svobode），买份夹着本地熏火腿（Kraški pršut）的燕麦面包，摊主老奶奶可能会多塞给你一把腌渍刺山柑。9点半沿河岸步道（Vipavska pot）向北慢行，途中会经过三座中世纪石桥，最老的“魔鬼桥”（Hudičev most）桥墩上刻着模糊的恶魔脸——传说建筑师生气时凿的。中午前抵达圣斯蒂芬教堂，花20分钟看阳光透过玫瑰窗在石地上投出彩虹光斑。午饭必须留给河畔餐厅“Pri Gaborju”（记得提前一天预约窗边位），尝他们的招牌南瓜饺子（Štruklji）配灰比诺葡萄酒。下午两点，有点微醺时最适合爬坡——沿着标记清晰的步道登上旧城堡（Stari grad Vipava）废墟，25分钟汗湿后背的攀登后，你会在野草丛生的瞭望塔获得奖励：整个河谷像绿丝绒褶皱般在脚下展开，河流如银线缝缀其间。下山后拐进家庭酒庄“Vinoteka Vipava”，让老板带你品三种不同海拔的泽琳白葡萄酒。日落前回到水源广场，这时逆光中的出水口会泛起蓝宝石光泽，拍人像剪影美到窒息。晚餐简单些，去家庭小馆“Gostilna Repovž”吃陶罐炖野味（Divjačina），听老板用口琴吹斯洛文尼亚民谣。如果还有精力，夜游河道会有萤火虫在芦苇丛明明灭灭——但大多数人来过维帕瓦后，都选择带着水声梦境早早入睡。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1. <strong>水源的“三角喉咙”</strong>：蹲在出水口右侧的石灰岩平台上细看（小心滑！），你会发现水流不是平稳涌出，而是以一种急促的脉冲节奏从岩缝喷射。最神奇的是三角形顶点处，水面下有个漩涡状的凹坑，不断把漂浮的落叶吸进去又吐出来，仿佛河流在呼吸。正午阳光直射时，能看清水下三米处雪白的钙华沉积，像沉没的珊瑚森林。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2. <strong>魔鬼桥的“脚心石”</strong>：走过这座14世纪单拱石桥时，低头找桥面中央一块微微凹陷的青石板。世代居民和牲畜的踩踏让它光滑如镜，雨天会积起薄薄的水膜，倒映着桥拱的阴影。当地人传说若赤脚站在石上许愿，愿望会随桥下流水飘向亚得里亚海——试试看，石头常年带着凉丝丝的湿气。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3. <strong>酒窖的“呼吸窗”</strong>：随便推开一家沿河酒窖的木门（门口有葡萄藤标记的都可进），都会注意到地窖墙面高处有个巴掌大的铁格窗，正对着河道。这不是为了采光，而是利用河面吹来的湿润微风调节窖内湿度。把掌心贴上去，能感到微弱的气流带着青苔和河水的气息，这是几个世纪前酿酒师发明的天然空调。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4. <strong>教堂钟楼的“错时影”</strong>：下午四点左右站在圣斯蒂芬教堂南侧小巷，观察钟楼影子爬过对面粉墙的过程。由于钟楼造型不规则，影子边缘会先出现一个弯曲的缺口——那是洋葱顶铜帽的投影，随后整个影子慢慢扭曲成类似酒壶的形状。当地人说这隐喻着“时光如酒液流淌”，影子完全消失时，就该去喝傍晚第一杯酒了。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 维帕瓦自由行避坑指南与行前须知：躲开人潮和雨季陷阱`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <li className="text-gray-700 leading-relaxed mb-2 ml-4 list-disc" dangerouslySetInnerHTML={{ __html: "<strong>时间陷阱</strong>：千万别在7-8月周末中午抵达水源广场，那时一日游巴士会把这里变成嘈杂的观景台。建议要么赶早（8点前），要么傍晚（18点后）。雨季（10-11月）虽美但危险——喀斯特地区暴雨后河水可能突然暴涨，河边步道部分低洼段会暂时关闭，出行前务必查维帕瓦市政官网的水位公告。" }} />
+              <li className="text-gray-700 leading-relaxed mb-2 ml-4 list-disc" dangerouslySetInnerHTML={{ __html: "<strong>穿着玄机</strong>：看起来平坦的小镇实则暗藏“立体陷阱”。去城堡废墟的路是未经修整的碎石坡，务必穿防滑徒步鞋；同时河边水汽重，夏日清晨路面青石板格外湿滑，凉鞋和光滑底皮鞋是摔跤神器。建议采用“洋葱式穿法”：短袖+薄外套，河谷风会在晴雨间瞬间变脸。" }} />
+              <li className="text-gray-700 leading-relaxed mb-2 ml-4 list-disc" dangerouslySetInnerHTML={{ __html: "<strong>防盗冷知识</strong>：小镇治安整体极好，但水源广场拍照时仍需警惕“白鸽骗局”——有人会突然往你肩上撒谷粒引鸽子，同伙则趁机摸包。简单摆手快速离开即可。自驾的话别把任何行李留车内，包括后备箱，建议停到付费监控停车场（如Ob zidu街旁）。" }} />
+              <li className="text-gray-700 leading-relaxed mb-2 ml-4 list-disc" dangerouslySetInnerHTML={{ __html: "<strong>隐藏福利</strong>：多数游客不知道，旅游信息中心（在主干道Vipavska cesta 4号）可免费租借“声音地图”——戴上耳机沿河走，会在特定位置自动播放当地老人的口述历史，包括二战时期的私奔故事。每周三下午3点还有免费酿酒师导览，但仅限前8位预约者。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 维帕瓦周边住宿与美食攻略：住在酒庄与河畔的治愈系夜晚`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想真正融入河谷的节奏，建议至少住一晚。首推“Vipava 1898”精品酒店，它由百年酿酒世家宅邸改造，房间保留着木梁天花板和复古釉面砖炉，最妙的是每间房都配有小阳台直面河道，夜晚枕着水声入眠。预算有限可选“Apartmaji Vipavski izvir”公寓，房东会送你自酿的欢迎酒。餐饮方面，除了前述的Pri Gaborju，隐蔽在葡萄园里的“Gostilna Mahorčič”是本地人秘密据点：必点裹在罂粟籽面团里的烤鳟鱼（Postrv），鱼就来自窗外河道；甜点试试“维帕瓦之梦”——用河谷蜂蜜和野莓叠成塔，淋上甜酒汁。早餐别错过面包房“Pekarna Vipava”的核桃卷（Orehova potica），配一杯他们家特有的“水源咖啡”（用过滤后的河水冲泡）。记住：在这里点酒时若说“po domače”（按家里方式），老板可能会端出未过滤的混浊实验款——那是把你当朋友的信号。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果被维帕瓦的水魔法迷住，不妨再多花半天探索它的“水脉兄弟”。从小镇开车20分钟就能抵达 <strong>索查河（Soča River）上游的托尔明峡谷（Tolminski kot）</strong> ，这里的水是不可思议的绿松石色，夏季可报名2小时的软性漂流，过程中会穿过二战留下的铁索桥遗迹。另一个更隐秘的选择是向西徒步1小时（或开车15分钟）到 <strong>科斯塔涅维察洞（Kostanjevica Cave）</strong> ，这个喀斯特溶洞深处藏着地下河与微型瀑布，导游会带你乘小舟在漆黑中聆听滴水奏鸣曲。两个地方都完美延续了维帕瓦的“水主题”，却展现出截然不同的性格——一个奔放如少年，一个幽邃如老者。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "维帕瓦教会我：最美的风景不是被展示的，而是被“泄漏”的。当一条河选择以如此坦荡的方式，在咖啡馆与面包店之间撕开地壳露出心脏，它其实是在邀请你重新定义“亲密”——人与水、与土地、与慢时光的亲密。离开时我的鞋底还沾着河边的湿泥，但它很快干裂成细小的喀斯特地图纹样。这大概就是维帕瓦的魔法：它让你带走的不只是照片，还有一小片会呼吸的河谷。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kranj-historic-town-underground-tunnels" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克拉尼</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kranj</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ptuj-castle-slovenia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普图伊城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ptuj Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/idrija-guide" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    伊
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伊德里亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Idrija</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,237 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '多尔山与利马涅裂谷 Puy de Dôme and Limagne Fault｜漫步在法国心脏的火山之巅与静谧谷地 - 最佳欧洲景点',
+  description: '车子刚转过一个弯，多尔山就那么毫无预兆地撞进了视野。它不是连绵的山脉，而是一座孤独、近乎完美的圆锥体，带着一种近乎固执的优雅，稳稳地坐落在平缓起伏的绿色原野之上。山顶总绕着一圈薄薄的云雾，像是给它戴上了一顶变幻莫测的礼帽。第一眼的感觉不是震撼，而是一种奇异的宁静——仿佛地球在这里轻轻叹了一口气，吐出',
+}
+
+export default function PuyDeDomeLimagneFaultAuvergnePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '多尔山与利马涅裂谷', href: '/attractions/puy-de-dome-limagne-fault-auvergne' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`多尔山与利马涅裂谷・Puy de Dôme and Limagne Fault・法国・克莱蒙费朗/奥弗涅地区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子刚转过一个弯，多尔山就那么毫无预兆地撞进了视野。它不是连绵的山脉，而是一座孤独、近乎完美的圆锥体，带着一种近乎固执的优雅，稳稳地坐落在平缓起伏的绿色原野之上。山顶总绕着一圈薄薄的云雾，像是给它戴上了一顶变幻莫测的礼帽。第一眼的感觉不是震撼，而是一种奇异的宁静——仿佛地球在这里轻轻叹了一口气，吐出了一座山。
+当你开始沿着火山渣铺成的步道向上走，脚下是咯吱作响的、多孔的黑色碎石。空气变得清冽，带着高海拔特有的、混合了湿冷泥土和远处针叶林的味道。四周异常安静，只有风掠过耳边，以及自己略显急促的呼吸声。爬到半山腰回望，景象豁然开朗：身后是宛如绿色天鹅绒地毯般的利马涅平原，被阳光分割成深浅不一的田块，红色的农舍像积木一样点缀其中，极致的平坦与祥和。而前方，是更为野性、由数十个火山锥组成的“多尔山链”，它们像沉睡的巨兽的脊背，在云雾中若隐若现。这种在同一视野里并存的静谧田园与洪荒地质的对比，正是此地最摄人心魄的魅力。
+更迷人的是它的“烟火气”。在山脚下的村庄，你会看到牧羊人赶着真正的奥弗涅萨能羊群穿过古老的玄武岩巷子。小酒馆里飘出用本地奶酪制作的“阿尔玛”炖菜的浓香。当地人谈起这座山，语气就像谈论一位德高望重的老邻居。它不是一座仅供远观的纪念碑，而是他们生活的背景、气候的预报员、传说的源头。这种自然奇观与日常生活的无缝交融，让这里充满了温度。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子刚转过一个弯，多尔山就那么毫无预兆地撞进了视野。它不是连绵的山脉，而是一座孤独、近乎完美的圆锥体，带着一种近乎固执的优雅，稳稳地坐落在平缓起伏的绿色原野之上。山顶总绕着一圈薄薄的云雾，像是给它戴上了一顶变幻莫测的礼帽。第一眼的感觉不是震撼，而是一种奇异的宁静——仿佛地球在这里轻轻叹了一口气，吐出了一座山。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你开始沿着火山渣铺成的步道向上走，脚下是咯吱作响的、多孔的黑色碎石。空气变得清冽，带着高海拔特有的、混合了湿冷泥土和远处针叶林的味道。四周异常安静，只有风掠过耳边，以及自己略显急促的呼吸声。爬到半山腰回望，景象豁然开朗：身后是宛如绿色天鹅绒地毯般的利马涅平原，被阳光分割成深浅不一的田块，红色的农舍像积木一样点缀其中，极致的平坦与祥和。而前方，是更为野性、由数十个火山锥组成的“多尔山链”，它们像沉睡的巨兽的脊背，在云雾中若隐若现。这种在同一视野里并存的静谧田园与洪荒地质的对比，正是此地最摄人心魄的魅力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "更迷人的是它的“烟火气”。在山脚下的村庄，你会看到牧羊人赶着真正的奥弗涅萨能羊群穿过古老的玄武岩巷子。小酒馆里飘出用本地奶酪制作的“阿尔玛”炖菜的浓香。当地人谈起这座山，语气就像谈论一位德高望重的老邻居。它不是一座仅供远观的纪念碑，而是他们生活的背景、气候的预报员、传说的源头。这种自然奇观与日常生活的无缝交融，让这里充满了温度。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`多尔山与利马涅裂谷`} />
+                <InfoRow label="英文名称" value={`Puy de Dôme and Limagne Fault`} />
+                <InfoRow label="正式名称" value={`Chaîne des Puys - Limagne Fault`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`克莱蒙费朗/奥弗涅地区`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这是法国中部奥弗涅火山群最耀眼的明珠，其近乎完美的火山锥形态是欧洲大陆裂谷形成的教科书式例证，于2018年被联合国教科文组织列为世界自然遗产。`} />
+                <InfoRow label="建筑特色" value={`非人造建筑，而是大自然的鬼斧神工：一座高达1465米、由火山渣堆砌而成的近乎对称的圆形锥体，与一旁因地质断层下沉形成的广阔、肥沃的利马涅平原形成戏剧性的垂直落差。`} />
+                <InfoRow label="建筑风格" value={`火山玄武岩地质奇观与乡村田园风光。`} />
+                <InfoRow label="文化价值" value={`它不仅是地质学上的活化石，更深深嵌入奥弗涅人的身份认同中，是当地神话、传说、农业传统和慢生活哲学的物理核心。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`自然区域全年24小时开放。多尔山山顶的罗马墨丘利神庙遗址及游客中心开放时间为：夏季（4月至9月）9:00-19:00；冬季（10月至3月）10:00-17:30，恶劣天气可能提前关闭。帕诺拉马小火车运行时间约为每年4月中至11月初，具体需查询官网。谷地中的村庄、小径无时间限制。`} />
+              <InfoRow label="门票价格" value={`进入自然公园及徒步小径完全免费。多尔山山顶可选择付费乘坐帕诺拉马小火车往返，成人票价约12欧元，儿童有优惠。自驾上山需支付约6欧元的私家车通行费（仅夏季特定时段允许）。游客中心内的展览和神庙遗址参观通常免费。`} />
+              <InfoRow label="地址" value={`Chaîne des Puys, 63870 Orcines, France`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是克莱蒙费朗奥弗涅机场（CFE），有巴黎等国内航班。从机场租车自驾是最佳选择，约30分钟车程即可抵达多尔山脚下。
+从克莱蒙费朗火车站（Gare de Clermont-Ferrand）出发，可搭乘当地的Ligne P火车至罗扬站（Royat），再转乘62路公交车至“Puy de Dôme - Panoramique”站，总耗时约1-1.5小时，班次有限，务必提前查好时刻表。强烈建议自驾或参加当地的一日游小团，自由度最高，也能深入探索谷地中那些公共交通无法抵达的隐秘角落。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从大约三千万年前讲起。那时候，欧洲大陆的“皮肤”在这里被狠狠撕开了一道口子，这就是著名的“西欧裂谷系”的一部分。利马涅平原所在的区域沿着断层线猛然下沉，而两侧的地壳则被挤压抬升。地质的剧痛远未结束。大约九万五千年前，在地壳相对薄弱的抬升区域，炽热的岩浆找到了突破口。那不是电影里那种毁灭一切的狂暴喷发，而是一次相对温和但持久的“斯通波利式”喷发。想象一下：大地持续地、间歇性地咳嗽，将灼热的岩浆碎屑和火山渣喷向空中，它们像黑色的雨点般落下，围绕在喷发口周围，一层又一层，经过数千年的堆积，最终形成了我们今天看到的这座近乎标准的火山锥——多尔山。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "人类很早就被这座奇特的山峰所吸引。在罗马帝国时期，大约公元二世纪，人们不辞辛苦地将巨大的石块运上这近1500米的山顶，建造了一座献给商业之神墨丘利的神庙。这本身就充满了象征意义：在一个由地质力量创造的、充满原始力量的地方，人类试图建立秩序、进行沟通与贸易。如今，神庙只剩下一片地基废墟，但当你站在那些被苔藓覆盖的巨石旁，依然能感受到那种跨越时空的野心——人类总是渴望在自然最宏伟的造物上，留下自己的印记。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "中世纪到近代，多尔山和它脚下的利马涅谷地成为了奥弗涅地区的生活中心。肥沃的火山土壤让谷地变成了粮仓和牧场。人们开采山体的玄武岩建造房屋和教堂，那些深灰色的石头建筑至今点缀着乡村，厚重而温暖。关于火山和山谷的传说也流传开来，有人说山里有巨龙，有人说某个火山口是通往精灵世界的入口。这座山，从纯粹的自然现象，变成了地方文化不可或缺的精神图腾。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的转折点发生在十八世纪末。一位名叫德多洛米厄的法国地质学家来到这里，他被多尔山近乎教科书般的形态深深吸引。他的研究和论述，让这里成为了现代地质学的诞生地之一，开启了用科学眼光解读地球历史的新篇章。从此，它不仅是牧羊人和农民的“吾乡之山”，也成了科学家眼中的“地球档案”。2018年，它获得联合国教科文组织的认可，正是对其跨越自然与文化双重价值的最高褒奖。今天的它，静静地站在那里，既是远古地球心跳的记录，也是人类故事绵延的舞台。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受这里，强烈建议安排一整天时间。最佳方案是上午探索火山之巅，下午沉浸静谧谷地。建议一大早就出发（夏季最好在8点前），自驾或乘坐首班小火车上多尔山顶。清晨的山顶游客稀少，光线柔和，有极大机会看到云雾在山谷中流淌的仙境景象，并能安静地参观古罗马遗址。在山顶逗留2-2.5小时后，乘小火车或徒步下山。下午驱车深入利马涅裂谷，选择一条连接古老村庄和田野的徒步小径，体验极致的田园宁静，并在一个村庄的小餐馆享用迟来的午餐。这样的安排让你在同一天内，体验从地质奇观的壮阔到人间烟火的温馨的完美过渡。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`山顶风大温度低，即使是盛夏也要带一件防风外套。徒步鞋是必需品，火山渣小路非常松散，普通运动鞋很容易打滑。谷地中的餐馆大多下午2点后就休息了，要么早点吃午饭，要么自备一些干粮和水。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`赶在第一批帕诺拉马小火车发车前抵达山脚，在晨雾缭绕中乘坐那列红色的小火车缓缓爬升，如同驶入云端。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在山顶环形步道的起点，先不急着走，静静站几分钟，感受360度无死角的视野和仿佛能触摸到天空的稀薄空气。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着步道顺时针漫步，仔细辨认远处那些形态各异的火山兄弟：圆顶的、塌陷的、被森林覆盖的，听风讲述它们各自不同的喷发故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在古罗马墨丘利神庙的遗址石堆旁坐下，用手触摸那些冰凉的石块，想象两千年前的祭司在此眺望同样一片平原时的思绪。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后，驱车前往谷地中的奥夫纳小镇，把车停在教堂边，随意选一条通向田野深处的石子小路开始漫步。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一处开满野花的田埂坐下，看着云影在广阔的平原上缓慢移动，耳边只有昆虫的嗡嗡声和远处偶尔的牛铃声。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在夕阳西下前，抵达谷地中的圣萨蒂南小镇，在广场边的咖啡馆要一杯本地啤酒，看粉色的霞光渐渐染上远方多尔山漆黑的剪影。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`多尔山西侧观景台全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，利用侧光拍摄利马涅平原的田园风光，将蜿蜒的小路、孤立的树木和远处的村庄作为前景，营造深邃的空间感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`火山锥内部仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`从山顶步道靠近中心凹陷处的位置，用广角镜头向上拍摄，将巨大的弧形山口边缘与飘过的云朵一同构图，凸显自然的几何美感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`谷地麦田与火山同框`}</h4>
+                  <p className="text-sm text-gray-700">{`在利马涅平原的D941公路某段，春夏季节找到一片金色的麦田或绿色的牧草地作为前景，将多尔山完整的锥形放在画面中央，拍摄经典的法式田园与地质奇观结合的照片。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣萨蒂南小镇街景`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚蓝调时刻，在小镇用鹅卵石铺就的狭窄街道上，以古老的深色玄武岩房屋为框架，拍摄尽头处被暖黄色灯光照亮的多尔山轮廓。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`罗马遗址细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨光线柔和时，蹲下来贴近神庙遗迹的石块，拍摄上面斑驳的苔藓、地衣和 weathering 的纹理，讲述时间的故事。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效减少火山渣岩石表面的反光，让黑色更纯粹，并增强蓝天与白云的对比。在村庄拍照时请务必尊重当地居民隐私，避免将镜头直接对准人家的窗户或私人庭院。无人机飞行在此区域有严格限制，务必提前查询并遵守自然公园的规定。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`山居体验`}</h4>
+                  <p className="text-sm text-blue-800">{`住在多尔山半山腰的古老石屋改造的民宿里，清晨推窗便是翻滚的云海，晚上在壁炉旁听房东讲述火山传说。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`田园牧歌`}</h4>
+                  <p className="text-sm text-green-800">{`选择利马涅裂谷中心一个家庭农场改造的住宿加早餐旅馆，早晨被新鲜的羊奶气味和公鸡啼鸣唤醒，还能参与喂食小动物的农事活动。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`克莱蒙费朗市区一家由老厂房改造的精品设计酒店，将工业风与奥弗涅本土元素巧妙融合，是探索一天后享受现代舒适生活的完美基地。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐秘奢华`}</h4>
+                  <p className="text-sm text-purple-800">{`入住位于附近森林边缘的一座19世纪贵族狩猎小屋改建的小型豪华酒店，享有绝对的静谧，水疗中心使用的正是富含矿物质的火山温泉水。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "山上的民宿和谷地的农庄通常客房数量很少，且深受徒步旅行者喜爱，务必提前数月预订，尤其是在夏季和周末。如果选择住在克莱蒙费朗市区，虽然生活便利，但意味着每天需要至少40分钟车程进出山区，更适合自驾深入的旅行者。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开多尔山和利马涅裂谷好多天了，但我的心里好像还留着一块那个地方的空间。那是一种很奇特的感受，不是兴奋，也不是一般的放松，而是一种被“巨大的宁静”和“深远的时间感”安抚后的平和。在这里，你同时面对着两种截然不同的时间尺度：一种是以百万年计的地质时间，火山在那里沉默地诉说着地球的童年；另一种是乡村日常的、以季节和农时为刻度的人类时间，缓慢、循环、扎根于土地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个越来越快、越来越虚拟的世界里，这个地方像一块坚定的压舱石。它提醒我们，有些东西是永恒不变的——地球运动的力量，季节的轮回，以及人类对土地最质朴的依赖与敬畏。当你站在山顶，看着脚下那片由地壳沉降创造、又被人类耕耘了千百年的丰饶谷地时，你会突然理解什么是“家园”在地理和情感上的双重含义。它不是一个被观赏的景点，而是一个让你重新感知自己与脚下这颗星球之间深刻联系的场所。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了打卡式的旅行，如果你渴望一次能沉静下来、与自然和历史的深层脉搏对话的旅程，请一定要来这里。它不是巴黎，没有炫目的时尚；它不是蔚蓝海岸，没有热情的喧嚣。但它拥有法国，乃至整个欧洲，最独特、最深沉的一种灵魂——一种来自大地深处的，安静而磅礴的力量。在这里走一遭，带走的不仅仅是一张火山顶的照片，更是一种被古老时间洗礼过的、内心的宽广与从容。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/les-machines-de-l-ile-nantes" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    南
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">南特机械岛</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Les Machines de l'île de Nantes</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-tournoel" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    图
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图尔诺埃尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Tournoël</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/rochefort-arsenal-hermione" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    罗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">罗什福尔兵工厂与赫敏号</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arsenal de Rochefort (L'Hermione)</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

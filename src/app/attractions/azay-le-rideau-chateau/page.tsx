@@ -1,0 +1,229 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿泽勒丽多城堡 Azay-le-Rideau｜卢瓦尔河谷的水上梦幻宫殿，巴尔扎克盛赞的钻石 - 最佳欧洲景点',
+  description: '你得选一个天色将晚未晚的黄昏时分来。当我沿着安德尔河畔的小径慢慢走近，第一眼看见阿泽勒丽多时，呼吸真的会停一拍。它不像那些雄踞山巅、睥睨四野的堡垒，它太安静、太优雅了，就那么轻盈地“泊”在水中央，白色的石灰岩墙体被夕阳染上蜂蜜色的光晕，完整的倒影在墨绿色的水面上微微颤动，仿佛水底还有一个同样完美的世',
+}
+
+export default function AzayLeRideauChateauPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '阿泽勒丽多', href: '/attractions/azay-le-rideau-chateau' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿泽勒丽多・Azay-le-Rideau・法国・阿泽勒丽多镇（位于安德尔-卢瓦尔省）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`你得选一个天色将晚未晚的黄昏时分来。当我沿着安德尔河畔的小径慢慢走近，第一眼看见阿泽勒丽多时，呼吸真的会停一拍。它不像那些雄踞山巅、睥睨四野的堡垒，它太安静、太优雅了，就那么轻盈地“泊”在水中央，白色的石灰岩墙体被夕阳染上蜂蜜色的光晕，完整的倒影在墨绿色的水面上微微颤动，仿佛水底还有一个同样完美的世界。四周是巨大的雪松、黎巴嫩香柏和古老的树木，沙沙的叶响、潺潺的水声，还有远处花园里隐约飘来的玫瑰与黄杨树修剪后的青涩气味，共同包裹着这座城堡。它不像一个景点，更像一个做了几百年的、不愿醒来的梦。
+本地人的生活似乎也绕着这个梦展开。你会看到镇上的老人牵着狗在城堡外围的公园里散步，年轻的母亲推着婴儿车在河岸边驻足，他们看城堡的眼神里没有游客的惊叹，而是一种习以为常的温柔，仿佛在打量一位相处了几代人的、沉静优雅的老邻居。城堡脚下那片开阔的草地，是属于孩子们的乐园，他们的欢笑声飘过水面，给这座古老的建筑注入了鲜活的生机。这就是阿泽勒丽多最动人的地方——它没有被供奉在神坛上，它诗意地栖居于水和自然之中，成为了日常风景的一部分。
+走进它，魅力从宏大转向精微。最震撼的是那座被誉为“杰作中的杰作”的开放式主楼梯。它不再是藏在厚墙里的螺旋暗道，而是大胆地矗立在建筑核心，拥有着轻盈的拱廊和雕刻精美的浮雕。光线从巨大的窗户涌入，在浅色的石阶上跳舞。你可以想象，十六世纪的贵族淑女们如何提着裙摆，在这些台阶上缓缓上下，衣裙窸窣，低语轻笑，楼梯仿佛一个巨大的舞台，展示着新时代对舒适、光明与社交的追求。每一个房间的壁炉上都雕刻着故事，蜥蜴、贝壳、花环，还有最初主人吉尔·贝特洛的蝴蝶标志——那是他家族纹章的暗语，是一个新贵渴望被历史记住的微小而执着的签名。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你得选一个天色将晚未晚的黄昏时分来。当我沿着安德尔河畔的小径慢慢走近，第一眼看见阿泽勒丽多时，呼吸真的会停一拍。它不像那些雄踞山巅、睥睨四野的堡垒，它太安静、太优雅了，就那么轻盈地“泊”在水中央，白色的石灰岩墙体被夕阳染上蜂蜜色的光晕，完整的倒影在墨绿色的水面上微微颤动，仿佛水底还有一个同样完美的世界。四周是巨大的雪松、黎巴嫩香柏和古老的树木，沙沙的叶响、潺潺的水声，还有远处花园里隐约飘来的玫瑰与黄杨树修剪后的青涩气味，共同包裹着这座城堡。它不像一个景点，更像一个做了几百年的、不愿醒来的梦。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "本地人的生活似乎也绕着这个梦展开。你会看到镇上的老人牵着狗在城堡外围的公园里散步，年轻的母亲推着婴儿车在河岸边驻足，他们看城堡的眼神里没有游客的惊叹，而是一种习以为常的温柔，仿佛在打量一位相处了几代人的、沉静优雅的老邻居。城堡脚下那片开阔的草地，是属于孩子们的乐园，他们的欢笑声飘过水面，给这座古老的建筑注入了鲜活的生机。这就是阿泽勒丽多最动人的地方——它没有被供奉在神坛上，它诗意地栖居于水和自然之中，成为了日常风景的一部分。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进它，魅力从宏大转向精微。最震撼的是那座被誉为“杰作中的杰作”的开放式主楼梯。它不再是藏在厚墙里的螺旋暗道，而是大胆地矗立在建筑核心，拥有着轻盈的拱廊和雕刻精美的浮雕。光线从巨大的窗户涌入，在浅色的石阶上跳舞。你可以想象，十六世纪的贵族淑女们如何提着裙摆，在这些台阶上缓缓上下，衣裙窸窣，低语轻笑，楼梯仿佛一个巨大的舞台，展示着新时代对舒适、光明与社交的追求。每一个房间的壁炉上都雕刻着故事，蜥蜴、贝壳、花环，还有最初主人吉尔·贝特洛的蝴蝶标志——那是他家族纹章的暗语，是一个新贵渴望被历史记住的微小而执着的签名。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿泽勒丽多`} />
+                <InfoRow label="英文名称" value={`Azay-le-Rideau`} />
+                <InfoRow label="正式名称" value={`Château d‘Azay-le-Rideau`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`阿泽勒丽多镇（位于安德尔-卢瓦尔省）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`法国文艺复兴初期建筑艺术的典范，完美体现了意大利艺术风格与法国传统建筑在卢瓦尔河谷的第一次优雅融合。`} />
+                <InfoRow label="建筑特色" value={`一座仿佛从安德尔河水面上生长出来的梦幻宫殿，其标志性的L形主体与角落的圆塔和谐共生，倒影构成了绝美的对称画面。`} />
+                <InfoRow label="建筑风格" value={`早期法国文艺复兴风格，带有明显的意大利装饰元素（如楼梯塔、对称立面）和法国中世纪城堡的防御结构遗风。`} />
+                <InfoRow label="文化价值" value={`不仅是建筑瑰宝，更是法国文学史中的一个意象符号，承载着从财务官的新贵梦想到国家珍宝的文化身份转变。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全年开放，具体时间随季节调整。通常为：1月至3月、10月至12月：上午10点至下午5点15分；4月至6月及9月：上午9点30分至下午6点；7月至8月：上午9点30分至下午7点。城堡内部及花园关闭前45分钟停止入场。每周二（1月至3月、10月至12月期间）、1月1日、5月1日及12月25日关闭。建议行前务必在官网核查最新时刻表，夏季夜间有时有特别灯光秀活动。`} />
+              <InfoRow label="门票价格" value={`全价票：11.5欧元。优惠票（18-25岁非欧盟居民）：9欧元。18岁以下欧盟居民及26岁以下欧盟居民免费，但需出示身份证件。持有“卢瓦尔河谷城堡通票”可享受折扣。门票包含城堡主体、常设及临时展览、法式花园及公园。语音导览器需额外支付3欧元。`} />
+              <InfoRow label="地址" value={`19 Rue Balzac, 37190 Azay-le-Rideau, France`} />
+              <InfoRow label="交通方式" value={`从巴黎出发：最便捷方式是乘坐高铁（TGV）至圣皮耶尔德科尔站（Saint-Pierre-des-Corps，位于图尔市郊），车程约1小时。从该站换乘地区列车（TER）前往阿泽勒丽多镇，车程约20-30分钟，班次约每小时1班。从图尔市中心出发：可在图尔火车站直接乘坐前往希农（Chinon）方向的TER，在阿泽勒丽多站下车，车程约25分钟。火车站步行至城堡约15-20分钟，沿途风景秀丽。自驾是最灵活的方式，从图尔出发沿A85或D751公路行驶约30分钟即达，城堡外有付费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事得从一个名叫吉尔·贝特洛的人讲起。1515年，弗朗索瓦一世登基，法国宫廷正痴迷于从意大利带回的新奇艺术。贝特洛不是世袭贵族，他是国王的财务官，说白了，就是替皇家管钱袋子的能人。他娶了位富有的太太，手里有了钱，心里便燃起一团火——要在故乡阿泽勒丽多，建一座配得上新时代、也能彰显自己地位的宅邸。他买下了一座建于中世纪、但在百年战争中被烧毁的堡垒旧址，雄心勃勃地要在这里创造奇迹。你看，历史的戏剧性就在于此，一个掌管金钱的人，最终却用石头和梦想，为自己铸造了不朽。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "建造的过程，就是一部生动的文化交流史。贝特洛请来的工匠，想必是见识过意大利那些美第奇别墅和宫殿的。他们把中世纪的防御高墙推倒，引入了对称的立面、大量的窗户，让光线成为主角。尤其是那个革命性的楼梯，完全颠覆了法国传统。但有趣的是，他们并没有全盘意化。城堡的角楼、高耸的屋顶、以及建筑整体坐落在岛屿上的布局，依然保留了法国城堡的基因。于是，阿泽勒丽多成了“混血儿”，一个在卢瓦尔河畔诞生的、兼具意式优雅与法式风骨的宁馨儿。可惜，贝特洛没能看到它彻底完工。1527年，他失宠了，这座尚未完成的华丽宫殿被国王弗朗索瓦一世没收，成了皇冠财产。主人的梦碎了，但建筑的生命却以另一种方式延续了下去。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在随后的几个世纪里，城堡如同一位优雅的妇人，不断更换着“衣裳”。它先后属于多个贵族家族。十八世纪，启蒙时代的思潮吹到这里，当时的主人为它引入了更浪漫的英式园林景观，拆除了部分附属建筑，让城堡更独立地展现于水面之上——这几乎是我们今天所见风貌的决定性一笔。十九世纪，浪漫主义浪潮席卷欧洲，古老的城堡成为诗人画家钟爱的题材。文学巨匠巴尔扎克，他深爱着图尔地区，在他笔下，阿泽勒丽多获得了那个流传千古的美誉：“镶嵌在安德尔河上的琢面钻石”。这个比喻是如此精准，它捕捉到了这座建筑的精髓：不是巨石，而是珍宝；不是靠体量压迫，而是靠光影折射出的璀璨来征服人心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，钻石也历经蒙尘的时刻。法国大革命期间，它像许多贵族财产一样被充公，几经转手，一度面临被拆解出售的危机。转机出现在1905年，法国政府将它购回，并列为“历史古迹”。国家接手后，进行了漫长而细致的修复，旨在剥离后来附加的装饰，尽可能回归它十六世纪最初的文艺复兴精神。今天的我们能看到如此纯净、和谐的建筑形象，正是得益于这次“溯源”工程。如今，它由法国国家古迹中心管理，不仅是一座博物馆，更是一个持续呼吸的文化空间，举办展览、音乐会，让古老的石头与现代的脉搏一同跳动。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完美体验阿泽勒丽多，请务必预留至少三到四小时，并强烈建议在上午城堡刚开门或下午晚些时候抵达。上午光线清澈，水面如镜，倒影最为完美；傍晚则能邂逅金色的夕照，氛围感无与伦比。游览节奏宜慢不宜快，核心哲学是“由远及近，由外向内”。首先，不要急着冲进城堡，应该花至少半小时在公园和河岸漫步，从各个角度欣赏它与水、与林木构成的画面，这是理解其精髓的前奏。随后进入城堡内部，仔细品味建筑细节与陈列。最后，在花园中放松，回味全程。这样张弛有度的安排，才能让你真正吸收这座“钻石”的每一道折光。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季（尤其是七月和八月）游客众多，尽量选择工作日早上参观，可极大提升体验。城堡内部分楼梯较陡且石阶光滑，建议穿着舒适防滑的鞋子。内部展览多为法语说明，强烈建议租用语音导览器（含中文），否则可能会错过许多精彩的故事细节。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡正门进入后，先别上楼，在入口大厅仰头欣赏那华丽的天花板雕刻与巨大的壁炉，感受最初主人迎接宾客的雄心`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着革命性的开放式主楼梯缓缓而上，用手指触摸石柱上精致的文艺复兴浮雕，想象五百年前衣裙摩擦台阶的窸窣声响`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在二楼的领主卧室驻足，凝视墙上罕见的十六世纪佛兰德斯挂毯，其丰富的色彩与细节讲述了圣经故事，是城堡内的无价之宝`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过长廊来到面向花园的客厅，站在高大的窗前，让目光越过几何图案的法式花园，一直投向远处林木蓊郁的英式公园`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要下到城堡的厨房和地下室看看，粗糙的石壁、巨大的壁炉和古老的炊具将你从贵族的优雅瞬间拉回到朴实的日常生活`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走出城堡后门，立刻投身于那座精美的法式复兴风格花园，沿着整洁的砂石小径散步，感受黄杨树篱被修剪后的独特清香`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，一定要绕到城堡对岸的安德尔河畔，找一张长椅坐下，静静等待，看天色变化如何在这座水上宫殿的立面上演绎光影的魔法`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡西北侧对岸的河畔`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前约一小时，阳光从侧面照亮城堡白色立面，能拍到建筑与其完整金色倒影共存的经典全景，使用长焦镜头压缩空间感效果更佳`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`法式花园中央的喷泉附近`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨时分，以低角度拍摄，将前景的喷泉与修葺整齐的黄杨树篱作为画框，聚焦远处的城堡角楼，营造深邃的景深感`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城堡主楼梯的内部`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个阳光充沛的午后，站在楼梯中段向上拍摄，捕捉光线透过窗户在螺旋上升的拱廊上形成的光影韵律，记得调高ISO以应对室内光线`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城堡南面底部靠近水边的平台`}</h4>
+                  <p className="text-sm text-gray-700">{`利用广角镜头，将前景的安德尔河水、中景的石基与背景的城堡主体一同纳入，表现城堡“从水中生长”的奇妙视觉`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`三脚架在城堡内部通常禁止使用，以防阻碍通道和损坏古建，手持拍摄需注意稳定。无人机在城堡及公园上空飞行严格禁止，除非获得特殊许可。尊重隐私，避免将其他游客的特写作为主要拍摄对象。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨家庭旅馆`}</h4>
+                  <p className="text-sm text-blue-800">{`住在镇上由十九世纪别墅改造的B&B，女主人会奉上自家果园的果酱和刚烤好的可颂，花园里就能望见城堡的尖顶`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色历史宅邸`}</h4>
+                  <p className="text-sm text-green-800">{`下榻位于城堡步行五分钟内、一座文艺复兴时期私人宅邸改造的精品酒店，睡在古老的木梁下，感受时光凝固的宁静`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代设计型酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择图尔市中心火车站附近的时尚酒店，交通极其便利，白天沉醉于城堡的古典，夜晚回归都市的便捷与活力`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`浪漫乡村度假屋`}</h4>
+                  <p className="text-sm text-purple-800">{`在安德尔河上游的宁静村庄租一间带小花园的石屋，自己开车往来，享受完全融入卢瓦尔河谷田园诗画的完整体验`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿泽勒丽多镇本身非常小巧宁静，夜间娱乐选择有限，适合追求静谧的旅行者。若希望夜生活丰富一些，建议以图尔市为住宿基地。夏季和节假日务必提前数月预订，尤其是镇上那些仅有几间房的特色住所，非常抢手。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开阿泽勒丽多的时候，我脑子里反复回响的不是某段具体的历史，而是一种感觉。那是一种极度精致的平衡感—— between water and stone, between Italian innovation and French tradition, between aristocratic aspiration and intimate harmony with nature. 在当今这个追求极致、崇拜宏大与颠覆的时代，这座城堡像一个温柔的提醒。它告诉我们，美有时不必张扬夺目，而是存在于和谐的比例、清澈的倒影、以及光影在石雕上每日例行的漫步之中。它不讲述权力的强悍，而诉说着一个关于美梦、关于融合、关于如何优雅栖居的故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是为什么，每一个厌倦了喧嚣、渴望在旅途中找到一片心灵镜像之湖的人，都应该来阿泽勒丽多坐一坐。它不仅仅是一座城堡，它是一个心境。当你凝视着水中那个同样真实却微微摇曳的世界，你会不由自主地开始内观，平息内心的波澜。巴尔扎克称它为钻石，而我觉得，它更像是一颗沉在安德尔河底的、温润的珍珠，历经水流冲刷，光泽愈发内敛、迷人。它等待的，不是匆匆一瞥的打卡，而是一次静静的凝视，一场与倒影、与历史、也与自己内心的对话。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/chateau-de-chantilly" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    尚
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">尚蒂伊城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Chantilly</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/neuf-brisach-star-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    新
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">新布里萨克</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Neuf-Brisach</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/monpazier-bastide" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙帕齐耶</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monpazier</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

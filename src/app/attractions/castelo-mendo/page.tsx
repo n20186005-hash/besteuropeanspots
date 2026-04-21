@@ -1,0 +1,150 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '卡斯特卢门杜深度游攻略：探秘葡萄牙边境千年石城与神秘雕塑',
+  description: '探索葡萄牙卡斯特卢门杜(Castelo Mendo)古城深度游全攻略，涵盖一日游路线、必看神秘雕塑、避坑指南与自由行贴士，带你走进被时光遗忘的花岗岩世界。',
+}
+
+export default function CasteloMendoPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卡斯特卢门杜', href: '/attractions/castelo-mendo' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`卡斯特卢门杜・Castelo Mendo・葡萄牙・瓜达区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果厌倦了里斯本的人潮和波尔图的酒香，今天这份 **卡斯特卢门杜私藏旅游攻略**，就带你躲开人潮，钻进葡萄牙东部腹地一个近乎被时间冻结的地方。想象一下：你站在一片荒凉而美丽的高原上，眼前是一座完全由巨大花岗岩垒成的中世纪村庄，它不像宫殿般华丽，却有着战士般的粗粝与固执。这就是卡斯特卢门杜，一座建立在边境线上的石头要塞。作为你的专属向导，这份 **Castelo Mendo 自由行指南** 请收好——它不仅仅是一堆石头，而是一本立体的、关于生存、信仰与神秘符号的石头史书。我们会一起抚摸那些被千年风雨打磨光滑的城墙，寻找镶嵌在墙上的诡异石雕，并在绝对静谧中，听风讲述古老的故事。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果厌倦了里斯本的人潮和波尔图的酒香，今天这份 <strong>卡斯特卢门杜私藏旅游攻略</strong>，就带你躲开人潮，钻进葡萄牙东部腹地一个近乎被时间冻结的地方。想象一下：你站在一片荒凉而美丽的高原上，眼前是一座完全由巨大花岗岩垒成的中世纪村庄，它不像宫殿般华丽，却有着战士般的粗粝与固执。这就是卡斯特卢门杜，一座建立在边境线上的石头要塞。作为你的专属向导，这份 <strong>Castelo Mendo 自由行指南</strong> 请收好——它不仅仅是一堆石头，而是一本立体的、关于生存、信仰与神秘符号的石头史书。我们会一起抚摸那些被千年风雨打磨光滑的城墙，寻找镶嵌在墙上的诡异石雕，并在绝对静谧中，听风讲述古老的故事。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`卡斯特卢门杜`} />
+                <InfoRow label="英文名称" value={`Castelo Mendo`} />
+                <InfoRow label="正式名称" value={`Castelo Mendo`} />
+                <InfoRow label="国家" value={`葡萄牙`} />
+                <InfoRow label="城市" value={`瓜达区`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`卡斯特卢门杜的历史，就是一部浓缩的葡萄牙边境争霸史。它的战略地位至关重要，正好位于历史上葡萄牙与西班牙莱昂王国动荡的边界线上。早在罗马时代，这里就已有人类活动的痕迹，但它的高光时刻是在中世纪。13世纪初，葡萄牙国王桑乔二世为了巩固新收复的领土，于1229年授予其特许状，并下令重建城堡与城墙，使其成为一个具有行政和军事功能的“边境镇”。它的存在，就像一颗坚硬的牙齿，死死咬住国家的东大门。这里不仅是军事前哨，更是一个拥有自治权的社区，拥有自己的集市（至今每年还有中世纪集市重现），是周边区域经济与生活的中心。随着15世纪边界线向东推移，卡斯特卢门杜逐渐失去了军事价值，像一位退休的老兵，慢慢沉入寂静。这种“被遗忘”，恰恰是它得以近乎完整保存至今的原因，让它成为研究中世纪边境社会形态和军事建筑的活化石，其完整性在葡萄牙乃至整个伊比利亚半岛都属罕见。`} />
+                <InfoRow label="建筑特色" value={`卡斯特卢门杜的建筑，可以用一个词概括：**花岗岩的史诗**。整个村镇，从宏伟的城墙到最小的民宅，几乎全部取材于当地灰白色的花岗岩。石材没有经过精细雕琢，保持着开采时的粗犷棱角，在阳光下泛着冷冽的银灰色光泽。最震撼的是那**双重城门**——这是它作为防御要塞的核心。外门较低矮敦实，内门则高耸坚固，两门之间形成一个致命的“瓮城”区域。当你穿过幽暗、布满岁月凹痕的门洞时，能清晰感受到石头的冰冷触感和空气中弥漫的、带着苔藓味的潮湿气息。城墙顺着山势蜿蜒，与天然岩石融为一体，有些地方你甚至分不清哪里是人工垒砌，哪里是天造地设。建筑的色彩是单调而高级的：岩石的本色、深绿的地衣、锈红色的瓦片屋顶，以及无比蔚蓝的、仿佛永远没有云朵打扰的葡萄牙天空，构成一幅极具冲击力的画面。`} />
+                <InfoRow label="建筑风格" value={`这里没有华丽的哥特飞扶壁，也没有繁复的巴洛克装饰。卡斯特卢门杜的建筑风格是纯粹的 **“军事罗曼式”或“民间罗曼式”** 。这是一种服务于实用与防御的功能性风格。如何体现？首先看**厚重的墙体**，窗户极小，如同碉堡的射击孔，这是为了防御弓箭和投石。其次，**拱门结构**大量运用，无论是城门还是城内残存教堂的入口，都是简洁的半圆拱，这种造型能有效分散上方石墙的巨大压力，稳固耐用。最后是**与地形的完美结合**，建筑不追求对称美观，而是像藤蔓一样紧紧依附、利用每一块突出的岩石和高地，形成层层设防的立体防御体系。走在其中，你不会惊叹于它的精美，而是会折服于它那种纯粹的、为生存而战的逻辑美感。这种风格，是边境动荡时代最真实的建筑语言，每一块石头都在沉默地诉说着关于安全、警戒和社区凝聚力的故事。`} />
+                <InfoRow label="文化价值" value={`对于当地人而言，卡斯特卢门杜早已不是一个单纯的旅游景点，而是一个**精神地标和身份象征**。村子里常住居民可能只有寥寥数十人，他们守护的是一份沉重的家族记忆和地域骄傲。每年八月举办的 **“中世纪集市”** 是它文化价值的集中爆发。那一刻，石头城“复活”了，村民们穿上中世纪的服装，在广场上摆起手工艺摊位，空气中飘荡着烤栗子和草药的味道，骑士表演和传统音乐回荡在城墙之间。这个活动不仅吸引了游客，更重要的是，它让散居在各地的后代们归来，重新连接起断裂的传统纽带。在现代社会，它的价值更在于提供了一种“减速”的可能。这里没有网红咖啡馆，信号也可能时断时续，它强迫来访者放下手机，用双脚丈量历史，用双手触摸真实，去思考在物质匮乏的时代，人们如何依靠集体的智慧和石头的坚韧，构建起一个可以称之为“家”的避难所。它是一个强大的提醒：文明不止于繁华，更在于存续的韧性。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 卡斯特卢门杜一日游经典打卡路线攻略`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`从城门到神秘石雕，不走回头路深度漫步指南`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好啦，攻略书收起来，现在跟着我的声音，开始我们的一日时光漫步吧。**上午（10点-12点）**：建议你一早从瓜达或周边小镇出发，抵达时山间的晨雾可能刚刚散去，光线最佳。把车停在村子外的免费停车场，你的探索将从那座标志性的**双重城门（Porta da Vila）**开始。别急着冲进去，先在瓮城里站一会儿，摸摸墙壁，感受一下“瓮中捉鳖”的防御设计。穿过内门，你就正式进入了中世纪。沿着主路Rua do Forno缓缓上行，路边是荒废又迷人的花岗岩老屋。目标是到达村子最高点的**城堡遗址**，这里只剩残垣断壁，但视野无敌，可以360度俯瞰周边如波浪般的山丘和远方的西班牙边境。**中午（12点-14点）**：下到村子中心的**圣维森特教堂（Igreja de São Vicente）** 前的小广场，这里通常有几把长椅。如果恰逢周末或集市日，可能会有小吃摊。否则，我强烈建议你自带一份简单的三明治和水果，在这里野餐。听着钟声（如果教堂钟还在的话），看着懒猫晒太阳，这是最地道的体验。**下午（14点-日落）**：午餐后，开始我们的“寻宝”环节。在主路和岔路小巷仔细搜寻墙壁，寻找那个著名的**“门杜夫妇”神秘雕塑**（下文会细说）。然后去找到古老的**公共水井**，试着想象当年居民在此打水聊天的场景。最后，沿着另一段保存完好的**城墙漫步**，从不同角度回望村庄。日落时分，一定要回到城堡遗址或城门附近，看金色的阳光如何为这座石头城披上温暖的铠甲，这是一天中最魔幻的时刻。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>“门杜夫妇”神秘雕塑</strong>：这绝对是整个城堡最怪异也最迷人的焦点。它不是立在基座上，而是直接<strong>镶嵌</strong>在一面民居的外墙上，离地约一人高。雕刻的是一男一女两张面孔，紧密相邻，表情肃穆甚至有些哀伤，雕刻风格极其古朴、抽象，带着强烈的原始崇拜气息。关于他们的身份众说纷纭——是城市的创建者？是某对传奇的贵族夫妇？还是一个古老的保护神符号？当你伸出手指，轻轻拂过他们被风雨侵蚀得模糊的五官时，那种直接与千年未知历史对话的颤栗感，是任何博物馆玻璃展柜都无法给予的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>双重城门的光影游戏</strong>：正午时分，当你站在内外城门之间的瓮城里，抬头看，阳光只能从高高的门洞斜射进来一束，在地上拉出长长的、锐利的光斑。光柱中尘埃飞舞，而周围是沁入骨髓的阴凉与幽暗。这一明一暗、一暖一冷的强烈对比，本身就是一场关于“内外”、“安全与危险”的无声戏剧。试着在这里拍一张剪影照片，你会得到一张充满故事感的作品。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>古老公共水井的“回音”</strong>：水井位于村子内部一处凹陷的平地上，井口被石圈围起。它不像装饰性喷泉，就是一个纯粹为生存而设的工具。俯身看向深不见底的黑暗，你能闻到一股湿润的泥土和石头的气息。试着轻轻喊一声，或者丢一颗小石子，等待那声遥远的、空洞的回响传来。这口井是村庄的生命线，它的回声仿佛是这个寂静石头社区曾经鲜活心跳的微弱余音。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>城墙与自然的融合</strong>：请仔细观察城墙的拐角处或底部，你会发现<strong>巨大的原生花岗岩岩体直接被作为城墙的一部分</strong>，人工砌筑的墙体严丝合缝地“长”在岩石上。有些地方，顽强的<strong>石松或无花果树</strong>从墙缝中挣扎而出，根系像有力的手指扒开石缝。这种石头、植物与建筑完全共生的状态，充满了一种野蛮而蓬勃的生命力，让你感到这座城不是建在山上，它本身就是山。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>时间与交通是王道</strong>：<strong>最佳游览时间</strong>是春季（4-6月）和秋季（9-10月），天气温和，野花烂漫或秋色浸染，光线极美。盛夏（7-8月）中午非常炎热暴晒，且可能遇到中世纪集市期间的人流（虽然也不算多）。这里<strong>没有公共交通直达</strong>，必须<strong>自驾</strong>。使用谷歌地图导航“Castelo Mendo”即可，从瓜达（Guarda）开车过来约40分钟。山路蜿蜒但路况良好，请享受驾驶乐趣。停车免费，停在村口指定区域，切勿开车进村。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>装备与穿着要务实</strong>：<strong>鞋子！鞋子！鞋子！</strong> 重要的事情说三遍。村里全是凹凸不平的碎石路、陡峭的台阶和光滑的岩石表面，一双<strong>防滑耐磨的徒步鞋或运动鞋</strong>是保命神器。女士请绝对放弃高跟鞋。衣着建议<strong>分层穿着</strong>，即使夏天也带件防风外套，山顶风大且天气多变。帽子、墨镜、防晒霜、充足的饮用水是标配，村里几乎没有商业设施。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>管理预期，享受荒凉</strong>：这不是一个提供完善服务的旅游区。村里<strong>几乎没有餐厅、咖啡馆或商店</strong>（可能有一家小酒吧季节性开放），请务必自备干粮和水。厕所设施也可能难寻，建议在出发地或途中的加油站解决。也正因如此，你才能收获极致的宁静。防盗防骗在这里不是问题，因为人太少了，但请务必<strong>尊重私人领地</strong>，很多破败的老屋仍属私人财产，不要擅自闯入。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 卡斯特卢门杜周边住宿与地道美食体验攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "坦白说，住在卡斯特卢门杜村里是不现实的选择，但它周边的乡村地区却藏着宝藏。推荐你以 <strong>“葡萄牙石头小镇”瓜达（Guarda）</strong> 作为大本营。瓜达是葡萄牙最高城市，本身也有一座壮观的大教堂和古城墙。这里住宿选择多，从设计酒店到温馨的家庭旅馆都有。餐饮方面，一定要在瓜达尝试当地特色：<strong>“奶油奶酪”</strong> 搭配当地蜂蜜作为前菜，主菜可以点 <strong>“烤小羊肉”</strong> 或 <strong>“炖野猪肉”</strong>，都是山区风味。如果自驾途中经过小村庄，看到写着“<strong>Taberna</strong>”或“<strong>Casa de Pasto</strong>”招牌的小馆子，大胆进去，往往能吃到最朴实美味的农家菜，比如用大陶罐炖煮的 <strong>“豆子杂烩”</strong>。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>阿尔梅达星形堡垒（Almeida）</strong>：从卡斯特卢门杜向东北驱车约30分钟，你会到达另一个令人瞠目结舌的边境防御杰作——阿尔梅达。这是一个<strong>巨大的十二角星形要塞</strong>，由宽阔的护城河和厚重的土墙构成，是18世纪军事工程的巅峰之作。走在星芒状的壁垒上，俯瞰脚下如同几何图案般的城镇，与卡斯特卢门杜的中世纪粗糙感形成鲜明对比，堪称一堂生动的“防御工事进化史”实践课。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>蒙塔尔万城堡（Castelo de Montalvão）周边葡萄酒庄</strong>：如果你对美食美酒更感兴趣，可以向西进入<strong>上杜罗河（Alto Douro）</strong> 的边缘产区。这里有一些家庭经营的小型酒庄，提供参观和品酒。在参观完粗犷的石头城堡后，坐下来品一杯醇厚的当地红酒，让味蕾也沉浸在这片土地的风土之中，是一种完美的体验闭环。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "卡斯特卢门杜的灵魂，就镌刻在每一块沉默的花岗岩里，它不是关于征服的炫耀，而是关于<strong>守护的执念</strong>——守护家园，守护边界，守护在乱世中一份脆弱的日常。离开时，你带走的不是纪念品，而是指尖残留的石头的凉意，和心中那片被远古静谧涤荡过的清澈。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/santuario-nossa-senhora-remedios-lamego" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉梅古朝圣所</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sanctuary of Nossa Senhora dos Remédios</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/convent-of-christ-tomar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    托
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">托马尔骑士团修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Convent of Christ</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/vila-vicosa" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维拉维索萨</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vila Viçosa</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

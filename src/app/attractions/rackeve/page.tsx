@@ -1,0 +1,233 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '拉茨凯韦 Ráckeve｜多瑙河隐秘岛城，探访拜占庭修道院与奥斯曼宫殿 - 最佳欧洲景点',
+  description: '你绝对想不到，就在离布达佩斯喧嚣不到一小时的地方，多瑙河会如此任性，它分出一条温柔的臂弯，圈出一座名叫瑟派德（Csepel）的大岛。而拉茨凯韦，就像被这颗巨大翡翠轻轻衔在嘴角的一颗珍珠，安静得几乎要被世界遗忘。我刚从晃晃悠悠的HÉV小火车上下来，踏上这座岛的第一感觉，不是惊艳，而是一种沉静的接纳。空',
+}
+
+export default function RackevePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '拉茨凯韦', href: '/attractions/rackeve' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`拉茨凯韦・Ráckeve・匈牙利・佩斯州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`你绝对想不到，就在离布达佩斯喧嚣不到一小时的地方，多瑙河会如此任性，它分出一条温柔的臂弯，圈出一座名叫瑟派德（Csepel）的大岛。而拉茨凯韦，就像被这颗巨大翡翠轻轻衔在嘴角的一颗珍珠，安静得几乎要被世界遗忘。我刚从晃晃悠悠的HÉV小火车上下来，踏上这座岛的第一感觉，不是惊艳，而是一种沉静的接纳。空气里有河水的湿润气息，混合着远处人家花园里飘来的玫瑰香和刚修剪过的青草味。耳边没有游客的喧哗，只有自行车轮碾过老旧路面的沙沙声，以及从不知道哪个巷子深处传来的、断断续续的教堂钟鸣——那声音浑厚而苍凉，像是从时间的深井里打捞上来的。
+我沿着一条两边种着高大栗子树的路往镇中心走，阳光透过树叶，在石板路上洒下晃动的光斑。这里的生活节奏慢得让人心慌，老爷爷们坐在广场长椅上，就着一小杯咖啡能消磨一整个上午，他们的眼神平静，仿佛看惯了河水的涨落与帝国的兴衰。然后，在一个毫不起眼的转角，圣尼古拉斯教堂那古朴的、带着暗红色砖瓦的拜占庭式穹顶，就那样猝不及防地撞进眼帘。它不高大，不华丽，甚至有些矮胖敦实，但那种穿越了至少五个世纪的沉静气场，瞬间就让周围的一切现代声音都褪去了。它不像景点，更像一位沉默的守护者，嵌在寻常百姓家的院落之间，炊烟与祈祷在此共同升起。
+而当你以为这就是全部时，沿着河边再走一段，瑟切尼宫那鹅黄色的立面会给你另一个惊喜。它优雅、规整，带着一种迥异于修道院的、慵懒的贵族气，可细看窗棂和拱廊的线条，又能嗅到一丝来自东方的、奥斯曼帝国的余韵。这种奇异的混搭，毫不突兀地生长在这座小城里。拉茨凯韦最打动人心的，正是这种“层叠感”——拜占庭的虔敬、奥斯曼的印记、奥匈帝国的余晖，以及当下匈牙利小镇的慵懒日常，就像多瑙河的泥沙，一层一层，沉淀成了如今你脚下踩着的历史。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你绝对想不到，就在离布达佩斯喧嚣不到一小时的地方，多瑙河会如此任性，它分出一条温柔的臂弯，圈出一座名叫瑟派德（Csepel）的大岛。而拉茨凯韦，就像被这颗巨大翡翠轻轻衔在嘴角的一颗珍珠，安静得几乎要被世界遗忘。我刚从晃晃悠悠的HÉV小火车上下来，踏上这座岛的第一感觉，不是惊艳，而是一种沉静的接纳。空气里有河水的湿润气息，混合着远处人家花园里飘来的玫瑰香和刚修剪过的青草味。耳边没有游客的喧哗，只有自行车轮碾过老旧路面的沙沙声，以及从不知道哪个巷子深处传来的、断断续续的教堂钟鸣——那声音浑厚而苍凉，像是从时间的深井里打捞上来的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我沿着一条两边种着高大栗子树的路往镇中心走，阳光透过树叶，在石板路上洒下晃动的光斑。这里的生活节奏慢得让人心慌，老爷爷们坐在广场长椅上，就着一小杯咖啡能消磨一整个上午，他们的眼神平静，仿佛看惯了河水的涨落与帝国的兴衰。然后，在一个毫不起眼的转角，圣尼古拉斯教堂那古朴的、带着暗红色砖瓦的拜占庭式穹顶，就那样猝不及防地撞进眼帘。它不高大，不华丽，甚至有些矮胖敦实，但那种穿越了至少五个世纪的沉静气场，瞬间就让周围的一切现代声音都褪去了。它不像景点，更像一位沉默的守护者，嵌在寻常百姓家的院落之间，炊烟与祈祷在此共同升起。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你以为这就是全部时，沿着河边再走一段，瑟切尼宫那鹅黄色的立面会给你另一个惊喜。它优雅、规整，带着一种迥异于修道院的、慵懒的贵族气，可细看窗棂和拱廊的线条，又能嗅到一丝来自东方的、奥斯曼帝国的余韵。这种奇异的混搭，毫不突兀地生长在这座小城里。拉茨凯韦最打动人心的，正是这种“层叠感”——拜占庭的虔敬、奥斯曼的印记、奥匈帝国的余晖，以及当下匈牙利小镇的慵懒日常，就像多瑙河的泥沙，一层一层，沉淀成了如今你脚下踩着的历史。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`拉茨凯韦`} />
+                <InfoRow label="英文名称" value={`Ráckeve`} />
+                <InfoRow label="正式名称" value={`Ráckeve`} />
+                <InfoRow label="国家" value={`匈牙利`} />
+                <InfoRow label="城市" value={`佩斯州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座被多瑙河怀抱的隐秘岛城，是塞尔维亚人在匈牙利历史上最重要的避难与文化留存地之一，其修道院是匈牙利境内拜占庭艺术独一无二的见证。`} />
+                <InfoRow label="建筑特色" value={`塞尔维亚东正教修道院融合了质朴的拜占庭主体与后期添加的巴洛克钟楼，而古典宫殿则罕见地呈现了早期奥斯曼风格与中欧古典主义的交融。`} />
+                <InfoRow label="建筑风格" value={`以拜占庭风格为核心，带有鲜明的塞尔维亚正教建筑特色，辅以巴洛克元素及奥斯曼古典主义影响。`} />
+                <InfoRow label="文化价值" value={`一个展现多瑙河流域塞尔维亚、匈牙利、奥斯曼三大文化碰撞、共存与再生的活化石，是平静水面下历史暗流的直观讲述者。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`塞尔维亚东正教修道院（圣尼古拉斯教堂）内部开放时间较为灵活，通常为每日上午9点至下午5点，但强烈建议在上午10点后或下午3点前前往，以防神职人员因礼拜活动暂时离开。古典宫殿（瑟切尼宫）的参观需提前预约，旺季（5月至9月）每周二至周日开放，时间为10:00-18:00；淡季（10月至次年4月）仅周末开放或只接受团体预约。所有景点周一通常关闭维护。具体日期请出行前查阅当地旅游局最新公告。`} />
+              <InfoRow label="门票价格" value={`圣尼古拉斯修道院教堂参观免费，但欢迎捐赠以支持修缮，建议捐赠金额为1000-2000匈牙利福林（约3-6欧元）。瑟切尼宫门票为2500匈牙利福林（约7欧元），学生及65岁以上老人享半价优惠。购买“拉茨凯韦文化通票”（约4000福林）可包含宫殿门票及老城小型历史展览馆，可在游客信息中心购买。`} />
+              <InfoRow label="地址" value={`主要景点区域：Ráckeve, 2300 Hungary。圣尼古拉斯教堂具体地址：Ráckeve, Kossuth Lajos u. 2, 2300。瑟切尼宫具体地址：Ráckeve, Szabadság tér 1, 2300。`} />
+              <InfoRow label="交通方式" value={`从布达佩斯出发最为便捷。在布达佩斯“Népliget”长途汽车站乘坐前往拉茨凯韦的巴士（如Volánbusz公司），车程约40-50分钟，班次在工作日较为密集（约每小时一班），周末稍减。更推荐的体验是乘坐HÉV郊区火车（H6线）从布达佩斯“Boráros tér”站出发，抵达“Ráckeve”站，车程约1小时，沿途可欣赏多瑙河与田园风光。出站后，老城核心区步行可达（约15分钟）。自驾从布达佩斯沿51号公路向南，过桥即达岛上，约30分钟车程。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说起拉茨凯韦的故事，就得把时钟拨回到一个充满苦难与迁徙的大时代。那是在十四世纪末，奥斯曼帝国的铁蹄正不断叩击着巴尔干半岛的大门。无数塞尔维亚人为了躲避战火与压迫，背井离乡，沿着多瑙河向北寻找新的家园。其中一支，就在当时匈牙利国王的许可下，来到了瑟派德岛南端的这片河滩地定居下来。拉茨凯韦这个名字，本身就源于塞尔维亚语，意思是“塞尔维亚人的地方”。你可以想象，这些流亡者用双手建造家园，心中最迫切需要的是一个精神寄托。于是，一座属于他们自己信仰的教堂——供奉着水手与旅行者守护神圣尼古拉斯的东正教教堂，在1487年左右拔地而起。它采用了他们最熟悉的拜占庭式样，那个圆圆的穹顶，仿佛是从故土直接搬来的一片天空，安抚着游子的乡愁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，平静的日子并未持续太久。十六世纪，奥斯曼帝国最终还是征服了匈牙利中部，拉茨凯韦也未能幸免。有趣的是，征服者似乎对这座塞尔维亚人建立的教堂手下留情了，它没有被改为清真寺，而是被用作仓库，这或许是不幸中的万幸。但真正的劫难发生在1686年，当哈布斯堡王朝的军队从奥斯曼手中夺回布达城堡时，撤退的土耳其军队一怒之下放火烧毁了拉茨凯韦，教堂也遭受重创，内部精美的中世纪壁画几乎毁于一旦。我们今天看到的教堂主体，正是那次大火后，在原有基础上重建的。墙壁上那些深深浅浅的颜色，就像愈合后的伤疤，诉说着那段烽火连天的岁月。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间走到十八世纪，拉茨凯韦迎来了它另一位重要的“塑造者”——瑟切尼家族。这个匈牙利最显赫的贵族家族之一，从哈布斯堡皇帝手中获得了这片土地的所有权。1715年，米克洛什·瑟切尼伯爵决定在这里建造一座夏宫。负责设计的建筑师，据信是曾为奥斯曼苏丹服务过的土耳其建筑师，这也就解释了为什么这座典型的欧洲古典主义宫殿，会带着如此明显的奥斯曼风情：那些优雅的拱券、细腻的石膏花纹、以及建筑整体的横向延展感，都透着一股东方帝国的慵懒与精致。这座宫殿仿佛一个凝固的符号，标志着这片土地从奥斯曼统治向奥匈帝国贵族领地的和平过渡，文化在此不是被取代，而是被奇妙地融合了。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "接下来的两百年，拉茨凯韦在瑟切尼家族的经营下，成了一个宁静的农业与手工业小镇。塞尔维亚社区继续围绕着他们的教堂生活，而匈牙利族群也逐渐增多。教堂在十八世纪加建了巴洛克式的钟楼，就像给一位严肃的拜占庭老修士戴上了一顶时髦的礼帽，略显突兀却又和谐共生。二战和1956年匈牙利事件再次给小镇带来创伤，瑟切尼宫一度荒废。直到近几十年，经过缓慢而精心的修复，这座宫殿和那座历经沧桑的修道院教堂，才重新向世人展露容颜，静静诉说着这座多瑙河小岛层叠交错、如同河水般曲折流动的往事。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味拉茨凯韦，你需要预留完整的一天，并放慢脚步。建议搭乘早晨9点左右的HÉV列车从布达佩斯出发，这样你可以在10点多抵达，避开可能的午后小旅行团，独享清晨的宁静。整体游览节奏应如多瑙河的水流，舒缓而深入。先从河岸与老城街道感受生活气息，再深入探访两大核心建筑，最后以一场河畔日落或晚餐收尾。这样的安排能让你由表及里，从空间到时间，层层剥开这座小镇的独特内核。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`参观修道院教堂时请务必保持安静肃穆，如果内有信徒祈祷，应耐心等候或安静离开。小镇餐饮选择不多且关门较早，建议午餐就在老城解决，或自备一些零食。许多小店只收现金福林，务必提前准备。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`趁着上午柔和的光线，先从火车站慢慢溜达到多瑙河畔，看本地人钓鱼、遛狗，感受河风裹挟着水汽拂过面庞。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`转身钻进老城曲折安静的小巷，任由脚步带你发现那些颜色斑驳的百叶窗、爬满藤蔓的院墙和突然出现的小小圣母像。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`来到圣尼古拉斯教堂前那片安静的院落，先别急着进去，绕着这座砖红色的拜占庭“小胖子”走一圈，触摸它被风雨打磨得温润的墙体。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开教堂那扇厚重的木门，让眼睛适应内部的幽暗，然后抬头凝视那座历经火劫幸存下来的木质圣像屏风，感受空气中弥漫的古老蜡油与香料的混合气味。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在中央广场的露天咖啡馆点一杯匈牙利特色的“浓缩咖啡”，像当地人一样无所事事地坐上一会儿，观察广场上流动的日常戏剧。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`步行前往瑟切尼宫，在它前方开阔的英式花园草坪上躺一躺，从远处欣赏这座鹅黄色建筑在绿树掩映下的全貌。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随讲解员（或租用语音导览）走进宫殿内部，特别注意那些天花板上的石膏雕花和壁炉的造型，寻找隐藏其中的奥斯曼美学线索。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分，一定要回到多瑙河岸，顺着堤坝散步，看夕阳将河水、对岸的树林和镇上教堂的尖顶一并染成金色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`多瑙河对岸堤坝远眺`}</h4>
+                  <p className="text-sm text-gray-700">{`在连接主岛与陆地的桥梁南侧堤坝上，用长焦镜头可以拍到拉茨凯韦老建筑群与教堂钟楼倒映在平静河面上的全景，最佳时间是清晨或日落前黄金一小时。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣尼古拉斯教堂内部光影`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，西侧小窗的阳光会斜射入教堂中殿，恰好照亮部分圣像屏风，此时蹲低身体，利用长椅作为前景，可以拍出神圣而静谧的光影构图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`瑟切尼宫拱廊下的对称之美`}</h4>
+                  <p className="text-sm text-gray-700">{`站在宫殿主立面正前方的中轴线上，利用建筑两侧的拱廊形成强烈的透视与对称线条，广角镜头能捕捉到建筑与天空的几何对话，晴天的上午光线最佳。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`老城小巷的生活切片`}</h4>
+                  <p className="text-sm text-gray-700">{`在通往河岸的任意一条石板小巷中，等待一个骑自行车的老者或提着面包篮的妇人经过，以斑驳的彩色墙壁为背景，捕捉瞬间流淌的日常诗意。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在教堂内部拍照前，务必征得看管人的许可，并且绝对禁止使用闪光灯。拍摄当地居民时请尽量保持距离，以尊重为先。多瑙河畔的晨雾和晚霞瞬息万变，建议使用三脚架进行长时间曝光，捕捉水流的柔滑质感。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`河滨温馨民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`直接坐落在多瑙河岸边的百年老屋，房东奶奶会为你准备丰盛的匈牙利式早餐，晚上枕着潺潺水声入眠。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老城中心公寓`}</h4>
+                  <p className="text-sm text-green-800">{`由古老药剂师店铺改造的挑高公寓，保留了原始的砖墙和木梁，位置极佳，推窗即是教堂广场的日常生活图景。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`瑟派德岛庄园酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于小镇外不远处的宁静庄园，拥有大片葡萄园和花园，适合想要彻底放松、体验乡村贵族氛围的旅行者。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`布达佩斯设计酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`如果不想留宿小镇，可选择布达佩斯时尚区的设计酒店，将拉茨凯韦作为一日游目的地，晚上回到大都市享受繁华夜生活。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "岛上住宿选择非常有限，且多为家庭经营，旺季（夏季周末）务必提前数月预订。小镇治安极好，夜晚非常安静。如果选择住在布达佩斯，需仔细计算往返交通时间，避免匆忙。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开拉茨凯韦的时候，我脑子里反复回响着一个词：沉淀。在这个追求速度与刺激的时代，我们习惯了追逐那些名声在外的“必打卡”之地，却常常忽略了，历史与文化的深度，恰恰需要在这种被遗忘的角落，才能静静地、完整地沉淀下来。拉茨凯韦没有惊心动魄的奇观，它的魅力是谦逊的，需要你蹲下身，贴近地面，才能听见那些交织在风声与水声里的多重回响——塞尔维亚移民的祈祷、奥斯曼工匠的雕凿、匈牙利贵族的马蹄，以及今天小镇居民平淡如水的日子。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它像一本被翻阅过很多次、边角都已磨损的古老书籍，书页里夹着不同种类的干花，代表着不同的时代与记忆。这本书就摊开在多瑙河这个安静的段落里，不向任何人推销自己的故事。也正因如此，拜访它才像是一次真正的发现，而不是被规划的消费。对于热爱深度游的灵魂来说，拉茨凯韦是一面镜子，它照见的不仅是欧洲复杂历史的微小剖面，更提醒着我们：旅行的意义，有时不在于收集了多少地标，而在于你是否曾在一个陌生的地方，真正地安静下来，让那些层层叠叠的时间，有机会漫过你的脚面。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/eszterhaza-palace-fertod" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    费
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">费尔特德埃斯泰尔哈兹宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eszterháza Palace</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nagyvazsony-castle-kinizsi" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    纳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳吉瓦若尼</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nagyvázsony</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/szombathely-isis-temple-roman-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    松
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">松博特海伊</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Szombathely</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

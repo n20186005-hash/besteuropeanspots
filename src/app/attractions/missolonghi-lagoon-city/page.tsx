@@ -1,0 +1,247 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '迈索隆吉翁 Missolonghi｜拜伦勋爵长眠的潟湖英雄城与水上高脚渔屋 - 最佳欧洲景点',
+  description: '第一眼看到迈索隆吉翁，你可能会有点困惑。这里没有雅典卫城那样夺目的古老石柱，也没有圣托里尼那样炫目的蓝白房子。取而代之的，是一片广阔、平静得有些忧郁的浅水潟湖，在阳光下泛着银灰色的光。陆地边缘的城市低矮而宁静，街道宽敞，种着松树和棕榈。空气里有海水的咸味，混合着从湖边湿地飘来的、淡淡的水生植物和泥土',
+}
+
+export default function MissolonghiLagoonCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '迈索隆吉翁', href: '/attractions/missolonghi-lagoon-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`迈索隆吉翁・Missolonghi・希腊・迈索隆吉翁`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到迈索隆吉翁，你可能会有点困惑。这里没有雅典卫城那样夺目的古老石柱，也没有圣托里尼那样炫目的蓝白房子。取而代之的，是一片广阔、平静得有些忧郁的浅水潟湖，在阳光下泛着银灰色的光。陆地边缘的城市低矮而宁静，街道宽敞，种着松树和棕榈。空气里有海水的咸味，混合着从湖边湿地飘来的、淡淡的水生植物和泥土的气息。风声很大，穿过电线，发出持续的呜咽，仿佛在低语着一个古老的故事。
+但当你把目光投向潟湖深处，魔法就出现了。远远的，水天相接之处，散落着一个个小黑点。眯起眼睛仔细看，才发现那是一幢幢小房子——但它们不是建在岛上，而是仿佛直接从水里长出来，被细细的木桩高高地托在水面之上。这就是迈索隆吉翁的灵魂所在：著名的“高脚渔屋”。想象一下，在清晨的薄雾中，渔民划着小船，在这些宛如水上孤岛的屋子间穿梭；黄昏时分，灯火在空旷的水面上零星亮起，倒影被拉得很长。这是一种极其孤独、却又无比自由的生活图景。城市本身，就安静地背靠着这片无边无际的水域生活着，节奏缓慢，人们会在海堤上散步，在咖啡馆里长久地坐着，谈论天气和捕鱼的收获。
+然而，迈索隆吉翁的宁静之下，埋藏着火山般炽热的历史。这份宁静，是惨烈牺牲换来的加冕。1820年代，这座看似不起眼的小城，因其特殊的潟湖地形（易守难攻），成为了希腊独立战争的关键堡垒。而它最响亮的名字，永远与一位英国诗人相连——乔治·戈登·拜伦勋爵。他不仅用笔，更用生命，将自己最后的激情与理想，永久地烙印在了这里的泥土和潮水中。于是，今天你走在这里，脚下踩着的不仅是土地，更是一层由诗意、自由渴望和英雄鲜血共同浇筑的精神地层。
+所以，迈索隆吉翁的核心魅力是双重的。它是一幅活着的、人与自然和谐共处的独特生态画卷，是潟湖上随风轻摆的渔屋剪影。同时，它更是一座精神的圣殿，让你能触摸到那个为理想赴死的浪漫时代最后的余温。这种朴素自然与厚重历史的奇异结合，让迈索隆吉翁成为了希腊乃至全欧洲最独特、最值得沉思的目的地之一。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一眼看到迈索隆吉翁，你可能会有点困惑。这里没有雅典卫城那样夺目的古老石柱，也没有圣托里尼那样炫目的蓝白房子。取而代之的，是一片广阔、平静得有些忧郁的浅水潟湖，在阳光下泛着银灰色的光。陆地边缘的城市低矮而宁静，街道宽敞，种着松树和棕榈。空气里有海水的咸味，混合着从湖边湿地飘来的、淡淡的水生植物和泥土的气息。风声很大，穿过电线，发出持续的呜咽，仿佛在低语着一个古老的故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但当你把目光投向潟湖深处，魔法就出现了。远远的，水天相接之处，散落着一个个小黑点。眯起眼睛仔细看，才发现那是一幢幢小房子——但它们不是建在岛上，而是仿佛直接从水里长出来，被细细的木桩高高地托在水面之上。这就是迈索隆吉翁的灵魂所在：著名的“高脚渔屋”。想象一下，在清晨的薄雾中，渔民划着小船，在这些宛如水上孤岛的屋子间穿梭；黄昏时分，灯火在空旷的水面上零星亮起，倒影被拉得很长。这是一种极其孤独、却又无比自由的生活图景。城市本身，就安静地背靠着这片无边无际的水域生活着，节奏缓慢，人们会在海堤上散步，在咖啡馆里长久地坐着，谈论天气和捕鱼的收获。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，迈索隆吉翁的宁静之下，埋藏着火山般炽热的历史。这份宁静，是惨烈牺牲换来的加冕。1820年代，这座看似不起眼的小城，因其特殊的潟湖地形（易守难攻），成为了希腊独立战争的关键堡垒。而它最响亮的名字，永远与一位英国诗人相连——乔治·戈登·拜伦勋爵。他不仅用笔，更用生命，将自己最后的激情与理想，永久地烙印在了这里的泥土和潮水中。于是，今天你走在这里，脚下踩着的不仅是土地，更是一层由诗意、自由渴望和英雄鲜血共同浇筑的精神地层。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，迈索隆吉翁的核心魅力是双重的。它是一幅活着的、人与自然和谐共处的独特生态画卷，是潟湖上随风轻摆的渔屋剪影。同时，它更是一座精神的圣殿，让你能触摸到那个为理想赴死的浪漫时代最后的余温。这种朴素自然与厚重历史的奇异结合，让迈索隆吉翁成为了希腊乃至全欧洲最独特、最值得沉思的目的地之一。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`迈索隆吉翁`} />
+                <InfoRow label="英文名称" value={`Missolonghi`} />
+                <InfoRow label="正式名称" value={`Missolonghi`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`迈索隆吉翁`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`希腊独立战争中最悲壮也最崇高的象征之一，被誉为“自由圣城”，也是浪漫主义巨擘拜伦勋爵的人生终点站。`} />
+                <InfoRow label="建筑特色" value={`一座与水共生的低地城市，其精髓不在于宏伟石筑，而在于潟湖之上星罗棋布的“pelades”——用木材高高架起的传统渔屋。`} />
+                <InfoRow label="建筑风格" value={`朴素的新古典主义与拜占庭元素在城镇建筑中融合，而潟湖中的渔屋则呈现纯粹的功能性民间木构风格。`} />
+                <InfoRow label="文化价值" value={`是近代希腊民族精神觉醒的物理丰碑，也是西方浪漫主义文学与政治行动结合的地理坐标，其水乡生活传统是爱奥尼亚海沿岸独特的文化遗产。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城市本身全天开放。主要纪念馆（如拜伦博物馆、历史与艺术博物馆）和“英雄花园”的开放时间通常为：夏季（4月至10月）周二至周日 8:30-15:30；冬季（11月至3月）周二至周日 8:30-15:00。周一闭馆。请注意，希腊的开放时间可能因季节和工作人员安排临时变动，出发前最好再次确认。`} />
+              <InfoRow label="门票价格" value={`进入城市和潟湖区域免费。主要博物馆和纪念馆门票约为2-3欧元。持有欧盟学生证、65岁以上老人及18岁以下青少年通常享受半价或免费优惠。部分纪念日（如3月25日希腊独立日、4月19日拜伦逝世纪念日）可能免费开放。`} />
+              <InfoRow label="地址" value={`Missolonghi 302 00, Greece`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是雅典国际机场（ATH）。从雅典出发，最便捷的方式是自驾，沿E75/A5高速公路向西，转入E55国道，车程约2.5-3小时。公共交通方面，从雅典的KTEL巴士总站有长途巴士直达迈索隆吉翁，班次约每天4-5班，车程约3.5小时，建议提前在KTEL网站或车站购票。也可以从雅典乘火车到帕特雷（约2.5小时），再转乘巴士前往迈索隆吉翁（约1小时）。城内景点集中，步行即可游览，探索潟湖则需要租车或参加当地船只游览。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解迈索隆吉翁，你必须回到19世纪初的巴尔干半岛。当时，希腊处于奥斯曼土耳其帝国近四百年的统治之下。爱琴海各处，争取独立的火种正在秘密燃起。迈索隆吉翁，这座位于科林斯湾北岸的潟湖城镇，因为被浅滩、沼泽和错综复杂的水道环绕，陆路难以接近，天然成为了起义者的理想据点。1822年，希腊革命爆发后的第二年，土耳其军队首次围攻迈索隆吉翁，却在这片水网面前铩羽而归。小城的初次胜利，像一颗信号弹，照亮了希腊的天空，也让它成为了自由的象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但真正的考验和传奇，还在后面。1824年1月，一个轰动欧洲的消息传来：英国最著名、最富有也最放荡不羁的诗人——拜伦勋爵，抵达了迈索隆吉翁。他不是来采风旅游的，他是带着资金、武器、和一腔近乎天真的浪漫革命热情而来。想象一下那个场景：这位穿着华丽制服的贵族，踏上了这片泥泞、潮湿、被战火威胁的土地。他住在一栋普通的房子里，积极协调各方势力，甚至自掏腰包组建了一支“ Byron’s Brigade”。对欧洲的知识界来说，拜伦的举动无异于一颗炸弹——最顶尖的文艺精英，竟然用生命为政治理想做注。他让希腊独立事业，获得了前所未有的国际关注。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，命运充满了残酷的讽刺。拜伦没能牺牲在冲锋的战场上。1824年4月，在一次骑马外出后，他染上了严重的发烧。当时的医疗条件简陋，放血等疗法可能加速了他的衰弱。在病榻上挣扎了十天后，4月19日，这位36岁的天才诗人在这座潮湿的潟湖小城与世长辞。他临终前说的话充满了遗憾：“我给了我的时间，我的财富，我的健康——现在我将给出我的生命。除此之外，我还能做什么？”他的死，震动西方。希腊人将他尊为国家级英雄，他的心脏留在了迈索隆吉翁，而遗体被运回英国。拜伦的死，某种程度上比他活着更能激励人心，他成了为希腊自由献祭的“圣人”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "拜伦死后，迈索隆吉翁的苦难达到顶峰。1825年，土耳其军队在埃及援军的帮助下，发动了第三次，也是最后一次围城。这场围城持续了整整一年，是独立战争中最惨烈的一页。城内粮食耗尽，人们吃老鼠、皮革，甚至泥土。但守军和居民宁死不降。1826年4月10日夜晚，在绝望中，城内的守军和百姓决定发动一场自杀式的突围。只有不到三分之一的人成功逃脱，大部分人在沼泽和土耳其军的火力下丧生。这场“大突围”的悲壮，彻底固化了迈索隆吉翁“自由圣城”的地位。它的陷落，反而激发了欧洲更强烈的同情和干预，最终助推了希腊的独立。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战争结束后，迈索隆吉翁在废墟中重建。它没有被遗忘，而是作为民族精神的灯塔被纪念。人们修建了“英雄花园”，安葬着无名烈士的遗骨；竖起了高大的“英雄门”，门上铭刻着“自由圣城”的字样。而那些潟湖上的高脚渔屋，也一代代保留了下来，它们不仅仅是捕鱼的工棚，更成为了这座城市与水共生、坚韧生存的文化符号。今天的宁静，是穿越了惊涛骇浪后的深沉回响。在这里，每一阵风，每一道水波，都在讲述着关于牺牲、自由与生存的永恒故事。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天（甚至两天一夜）来沉浸体验迈索隆吉翁。最好在上午九点左右抵达，此时光线柔和，游客稀少。整体游览节奏宜慢不宜快，核心在于感受氛围而非赶景点。上午先在陆地的纪念区感受历史的重量，下午将时光交给广阔的潟湖和水上渔屋，最后以一场完美的潟湖日落作为一天的终结。如果时间充裕，第二天清晨可以去潟湖边看日出和晨雾中的渔屋，那将是完全不同的梦幻景象。这样的安排能让你由“史”入“景”，由沉重步入开阔，完成一次完整的情感与感官旅程。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`潟湖游船请务必选择当地有信誉的小公司或通过住宿处预订，提前确认价格、时长和路线，避免临时被宰。
+春季和秋季是最佳游览季节，夏季午后炎热且蚊虫较多，需做好防晒防蚊措施。
+参观纪念馆和教堂时着装需庄重，避免过于暴露的短裤或背心。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城市西侧庄严的“英雄门”开始你的朝圣，默读门上“迈索隆吉翁·自由圣城”的铭文，感受扑面而来的历史肃穆感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进紧邻的“英雄花园”，在浓密的柏树与常青藤环绕下，寻找拜伦勋爵心脏埋葬处的纪念碑和那些为自由牺牲的无名烈士墓。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`漫步到市中心的拜伦勋爵雕像前，看看这位诗人被塑造出的英雄姿态，然后拐进附近安静的街道，寻找那栋他度过最后时光的简朴房子（现为拜伦博物馆）。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在港口边的传统小 taverna 享用一顿午餐，务必点一份当天从潟湖捕获的鲜鱼，配上一杯当地的松香酒。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`租一条小船或参加一个小型潟湖游船之旅，让船夫带你缓缓驶向那片迷宫般的水域，近距离观察甚至登上那些木桩支撑的神秘渔屋。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`将船停在潟湖中央某个安静的水域，关掉引擎，静静倾听风声、水声和远处海鸟的鸣叫，感受天地间的辽阔与孤寂。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前一小时回到陆地上的海堤或码头，找一张长椅坐下，看着夕阳将整个潟湖、远处的渔屋和埃托利科山脉染成一片壮丽的金红色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`夜幕降临后，在旧城区找一家有现场传统音乐的小酒馆，点一杯酒，融入当地人悠闲的夜生活，让白天的历史沉思在水波般的音乐中慢慢沉淀。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`英雄门仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，站在门前的广场较低处向上仰拍，将巨大的石门与天空纳入构图，能拍出纪念碑式的庄严感与孤独感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`潟湖渔屋长焦压缩`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前两小时，从城市东侧的海堤上用长焦镜头对准远方的渔屋群，利用黄昏的暖色调和潟湖的水汽，拍出水墨画般朦胧诗意的层叠效果。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`拜伦雕像的侧逆光肖像`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点后，阳光从雕像侧面掠过，此时站在雕像左前方，可以捕捉到诗人面容上深邃的光影，背景虚化的城市街道能增添故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`渔屋内部框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`如果有机会进入一座渔屋，从屋内的小窗框向外拍摄潟湖的水面与天空，形成天然的画框构图，极具生活感和沉浸感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`码头泊船与倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`风平浪静的清晨，在主要码头蹲下低角度拍摄，将色彩斑驳的小渔船、它在水中的清晰倒影以及远方的渔屋一同纳入画面，宁静而富有生机。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄渔民或渔屋内部前，请务必先微笑示意并征得同意，这是基本的尊重。`}</li>
+                <li>• {`潟湖地区水汽重，早晚温差大，注意保护相机镜头免受潮气侵袭，可准备简单的防潮袋。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`潟湖视野民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`位于城市边缘一栋新古典风格老房子的顶层，拥有一个私人小露台，正对无边潟湖，是观赏日出日落和星空的绝佳私人包厢。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`市中心历史公寓`}</h4>
+                  <p className="text-sm text-green-800">{`由一栋19世纪商人住宅改造，内部保留了高高的天花板和复古家具，位置极佳，下楼就是咖啡馆和拜伦雕像，体验地道城镇生活。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`精品设计酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在安静街区，由建筑师精心设计，将现代极简风格与本地元素结合，拥有一个种满橄榄树的内庭花园，是闹中取静的奢华避世所。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`传统家庭旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`港口附近由渔民家庭经营，房间简单干净，主人热情好客，晚上常在公共区域分享自家酿的酒和捕鱼故事，是深度接触本地文化的窗口。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旺季（6-8月及复活节假期）建议提前数周预订，尤其是带有潟湖景观的房间非常抢手。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "大多数住宿不设电梯且位于老建筑中，如果携带大件行李或行动不便，预订时最好确认楼层和设施。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "住在港口附近晚上可能略为热闹，追求绝对安静的可选择离中心稍远但面向潟湖的住处。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开迈索隆吉翁许久，那幅画面仍会在脑海中浮现：一边是庄严石门与沉默花园，承载着无法被时间冲淡的沉重记忆；另一边，是无限延伸的潟湖水光，和那些在水面上轻轻摇曳、仿佛随时会随着雾气消散的渔屋。这种强烈的对比，恰恰是此地最迷人的哲学。它告诉我们，历史并非总是凝固在宏伟的石材里，它也可以流淌在水中，呼吸在风中，延续在最日常、最坚韧的生存方式里。拜伦和烈士们用生命追求的自由，其终极形态或许并非永恒的呐喊，而是像这些渔屋一样，在风雨中保持平衡，在孤寂中享受宁静，在平凡的日子里，拥有选择如何生活的权利。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、热衷于打卡“必去”景点的时代，迈索隆吉翁是一剂清醒的良药。它不会用惊艳的视觉效果瞬间俘获你，而是邀请你慢下来，用脚步丈量，用心神倾听。它要求你同时带上对历史的敬畏与对自然的感知力。当你理解了这片潟湖的泥土为何如此沉重，又为何如此丰饶时，你获得的将不仅仅是一次旅行的记忆，而是一种更深层的连接——与人类共通的、对自由与家园的渴望相连，也与自然界那种沉默而强大的生命力相连。所以，如果你厌倦了浮光掠影，渴望一次能沉入灵魂深处的旅行，请一定来迈索隆吉翁。在这里，你能触摸到希腊的筋骨与灵魂，而不只是她的阳光与笑容。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/rethymno-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    罗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">罗希姆诺老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rethymno Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kastoria-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯托里亚老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kastoria Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/loutro-crete" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卢
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卢特罗</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Loutro</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

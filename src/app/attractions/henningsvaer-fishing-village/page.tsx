@@ -15,7 +15,7 @@ export default function HenningsvaerFishingVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/norway' },
             { label: '亨宁斯韦尔渔村', href: '/attractions/henningsvaer-fishing-village' },
           ]}
         />

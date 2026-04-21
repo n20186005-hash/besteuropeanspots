@@ -15,7 +15,7 @@ export default function AncientCityOfAcheronPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '阿切伦扎古城', href: '/attractions/ancient-city-of-acheron' },
           ]}
         />

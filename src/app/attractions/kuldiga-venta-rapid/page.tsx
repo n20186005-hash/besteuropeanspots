@@ -15,7 +15,7 @@ export default function KuldigaVentaRapidPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '拉脱维亚', href: '/destinations/latvia' },
             { label: '库尔迪加文塔瀑布', href: '/attractions/kuldiga-venta-rapid' },
           ]}
         />

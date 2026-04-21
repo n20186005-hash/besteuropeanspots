@@ -15,7 +15,7 @@ export default function FozDoArelloPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/portugal' },
             { label: '福斯-杜阿雷柳', href: '/attractions/foz-do-arello' },
           ]}
         />

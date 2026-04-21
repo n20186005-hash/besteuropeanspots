@@ -15,7 +15,7 @@ export default function StolbergCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '施托尔贝格城堡', href: '/attractions/stolberg-castle' },
           ]}
         />

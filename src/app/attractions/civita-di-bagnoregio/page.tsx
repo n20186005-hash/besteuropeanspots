@@ -15,7 +15,7 @@ export default function CivitaDiBagnoregioPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '白露里治奥古城（天空之城）', href: '/attractions/civita-di-bagnoregio' },
           ]}
         />

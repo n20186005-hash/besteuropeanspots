@@ -15,7 +15,7 @@ export default function LedniceValticePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '莱德尼采–瓦尔季采庄园', href: '/attractions/lednice-valtice' },
           ]}
         />

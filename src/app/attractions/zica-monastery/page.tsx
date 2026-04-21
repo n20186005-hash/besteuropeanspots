@@ -15,7 +15,7 @@ export default function ZicaMonasteryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞尔维亚', href: '/destinations/serbia' },
             { label: '日查修道院', href: '/attractions/zica-monastery' },
           ]}
         />

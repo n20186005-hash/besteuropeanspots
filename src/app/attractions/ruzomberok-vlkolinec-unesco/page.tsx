@@ -1,0 +1,233 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '鲁容贝罗克 维尔科利内茨｜探索联合国保护的深山木屋古村与工业时光胶囊 - 最佳欧洲景点',
+  description: '车子沿着蜿蜒的山路向上爬升，鲁容贝罗克镇的灰色屋顶和工厂烟囱渐渐缩小成谷底的一幅拼贴画。当你以为这趟旅程是关于那座带着工业印记的小镇时，一个转弯，维尔科利内茨就毫无预警地跌入眼帘。那一刻，时间仿佛被山间的清冽空气凝住了。不是震撼，而是一种温柔的撞击。几十栋深棕色的原木小屋，像被一只巨手小心翼翼地安放',
+}
+
+export default function RuzomberokVlkolinecUnescoPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '鲁容贝罗克与维尔科利内茨木屋村', href: '/attractions/ruzomberok-vlkolinec-unesco' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`鲁容贝罗克与维尔科利内茨木屋村・Ružomberok and Vlkolínec・斯洛伐克・鲁容贝罗克 (日利纳州)`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子沿着蜿蜒的山路向上爬升，鲁容贝罗克镇的灰色屋顶和工厂烟囱渐渐缩小成谷底的一幅拼贴画。当你以为这趟旅程是关于那座带着工业印记的小镇时，一个转弯，维尔科利内茨就毫无预警地跌入眼帘。那一刻，时间仿佛被山间的清冽空气凝住了。不是震撼，而是一种温柔的撞击。几十栋深棕色的原木小屋，像被一只巨手小心翼翼地安放在绿色的山坡上，烟囱里飘出细细的、几乎是透明的炊烟，混着松木和潮湿泥土的香气。你听不到任何属于21世纪的喧嚣，只有风吹过屋后大片草甸的沙沙声，远处传来几声清晰的牛铃叮当，还有木门开合时那种特有的、干涩又厚实的吱呀声。这里安静得能听到自己的心跳，和几个世纪前某个山民在此驻足时的心跳，似乎重合了。
+走进村落，脚下的路是裸露的土地和随意铺就的石头。木屋的墙壁被岁月和风雨打磨成近乎黑色的深褐，但木头纹理依然倔强地清晰可见。窗框漆着斯洛伐克乡村典型的淡蓝或白色，像一双双安静的眼睛。你会注意到，这里没有精致的花园，木屋前后是用粗糙木栅栏围起的实用空间，堆着整齐的柴火，或许停着一辆老旧的拖拉机。这不是舞台布景，这就是生活本身。村民们——大多是老人——会平静地从屋里出来，冲你点点头，然后继续去后院忙活。他们的存在，让这片世界遗产有了心跳和温度。站在村子高处的木制小钟楼下俯瞰，整个聚落的布局一目了然，它完美地嵌入地形，与背后的伟岸山脊和前方的开阔山谷对话，你会瞬间理解什么叫“天人合一”的居住智慧。
+而当你下山，回到鲁容贝罗克，时间的流速陡然加快。这座城镇呈现出一种奇特的“分层感”。中心是宁静的中世纪广场，圣安德烈教堂的尖塔指向天空，周围环绕着色彩柔和的古典主义建筑。但只需走几个街区，你就能看到庞大的、略显破败的旧造纸厂建筑群，红砖烟囱沉默地矗立，见证着这里曾是奥匈帝国重要的工业中心。沃尔瓦河的流水声，曾经驱动着工厂的水车，如今依然哗哗作响，但意义已然不同。空气中似乎还残留着一丝旧工业时代的气息，混合着咖啡香从广场边的咖啡馆飘出。当地人在这里购物、闲聊，孩子们在广场上追逐，现代生活与历史遗迹无缝交织。这种从深山原始村落，到河谷工业城镇的强烈对比与共生，正是此地最独特、最打动人心的核心魅力——它完整地呈现了斯洛伐克从传统农耕文明走向现代工业时代的一整部立体史诗。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子沿着蜿蜒的山路向上爬升，鲁容贝罗克镇的灰色屋顶和工厂烟囱渐渐缩小成谷底的一幅拼贴画。当你以为这趟旅程是关于那座带着工业印记的小镇时，一个转弯，维尔科利内茨就毫无预警地跌入眼帘。那一刻，时间仿佛被山间的清冽空气凝住了。不是震撼，而是一种温柔的撞击。几十栋深棕色的原木小屋，像被一只巨手小心翼翼地安放在绿色的山坡上，烟囱里飘出细细的、几乎是透明的炊烟，混着松木和潮湿泥土的香气。你听不到任何属于21世纪的喧嚣，只有风吹过屋后大片草甸的沙沙声，远处传来几声清晰的牛铃叮当，还有木门开合时那种特有的、干涩又厚实的吱呀声。这里安静得能听到自己的心跳，和几个世纪前某个山民在此驻足时的心跳，似乎重合了。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进村落，脚下的路是裸露的土地和随意铺就的石头。木屋的墙壁被岁月和风雨打磨成近乎黑色的深褐，但木头纹理依然倔强地清晰可见。窗框漆着斯洛伐克乡村典型的淡蓝或白色，像一双双安静的眼睛。你会注意到，这里没有精致的花园，木屋前后是用粗糙木栅栏围起的实用空间，堆着整齐的柴火，或许停着一辆老旧的拖拉机。这不是舞台布景，这就是生活本身。村民们——大多是老人——会平静地从屋里出来，冲你点点头，然后继续去后院忙活。他们的存在，让这片世界遗产有了心跳和温度。站在村子高处的木制小钟楼下俯瞰，整个聚落的布局一目了然，它完美地嵌入地形，与背后的伟岸山脊和前方的开阔山谷对话，你会瞬间理解什么叫“天人合一”的居住智慧。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你下山，回到鲁容贝罗克，时间的流速陡然加快。这座城镇呈现出一种奇特的“分层感”。中心是宁静的中世纪广场，圣安德烈教堂的尖塔指向天空，周围环绕着色彩柔和的古典主义建筑。但只需走几个街区，你就能看到庞大的、略显破败的旧造纸厂建筑群，红砖烟囱沉默地矗立，见证着这里曾是奥匈帝国重要的工业中心。沃尔瓦河的流水声，曾经驱动着工厂的水车，如今依然哗哗作响，但意义已然不同。空气中似乎还残留着一丝旧工业时代的气息，混合着咖啡香从广场边的咖啡馆飘出。当地人在这里购物、闲聊，孩子们在广场上追逐，现代生活与历史遗迹无缝交织。这种从深山原始村落，到河谷工业城镇的强烈对比与共生，正是此地最独特、最打动人心的核心魅力——它完整地呈现了斯洛伐克从传统农耕文明走向现代工业时代的一整部立体史诗。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`鲁容贝罗克与维尔科利内茨木屋村`} />
+                <InfoRow label="英文名称" value={`Ružomberok and Vlkolínec`} />
+                <InfoRow label="正式名称" value={`Ružomberok and the Vlkolínec Folk Architecture Reserve`} />
+                <InfoRow label="国家" value={`斯洛伐克`} />
+                <InfoRow label="城市" value={`鲁容贝罗克 (日利纳州)`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`维尔科利内茨是喀尔巴阡山脉地区保存最完好的传统山民聚落群，1993年被列入联合国教科文组织世界文化遗产名录。`} />
+                <InfoRow label="建筑特色" value={`以超过45栋原始木屋为核心，全部由原木构建，覆以厚实木瓦屋顶，构成一幅依偎在大自然怀抱中的立体画卷。`} />
+                <InfoRow label="建筑风格" value={`典型的喀尔巴阡山民 vernacular 建筑风格，展现了中欧北部山区传统的木结构建筑技艺。`} />
+                <InfoRow label="文化价值" value={`它并非冻结的博物馆，而是一个仍在呼吸的活态社区，真实记录了斯洛伐克山区人民数百年来与自然共生的生活方式。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`维尔科利内茨木屋村作为活态村落全年可外部参观，但村内博物馆和特定木屋（如编号16的民俗展览屋）开放时间多变，通常为五月至九月的周二至周日，10:00-17:00，冬季极可能关闭或仅周末开放。鲁容贝罗克城镇的中世纪广场、教堂及工业遗迹区为公共空间，全天开放。强烈建议行前查阅斯洛伐克国家遗产管理机构的最新季节性公告。`} />
+              <InfoRow label="门票价格" value={`进入维尔科利内茨村落本身免费。若要进入有管理的民俗展览木屋或小型博物馆，门票约2-3欧元。鲁容贝罗克镇的造纸博物馆门票约4欧元。对学生、老人及家庭有常规优惠。`} />
+              <InfoRow label="地址" value={`Vlkolínec, 034 03 Ružomberok, Slovakia；鲁容贝罗克主广场：Námestie Andreja Hlinku, 034 01 Ružomberok`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是波普拉德-塔特拉机场（约60公里）或科希策机场（约100公里）。最便捷的方式是乘坐火车或巴士抵达鲁容贝罗克镇本身，该镇是斯洛伐克北部重要的铁路枢纽，从首都布拉迪斯拉发乘火车约3-3.5小时，班次频繁。从鲁容贝罗克火车站或巴士总站前往维尔科利内茨村，可搭乘本地13路巴士，车程约20分钟，班次每小时1-2班，终点站即村口。也可打车，费用不高。自驾最灵活，从鲁容贝罗克镇中心沿山路开车上山约15分钟即可抵达木屋村停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "维尔科利内茨的名字第一次出现在文字记载中，要追溯到1376年。但学者们相信，这些木屋的根源更深，可能源于更早的斯拉夫殖民时期。想象一下，第一批来到这片险峻山麓的人们，他们需要什么？是躲避平原的战乱，还是追寻新的牧地与生计？答案已随风而逝，但他们留下的生存智慧却凝固在这些木头里。他们砍伐当地丰富的云杉和冷杉，不使用一根钉子，仅靠榫卯和木楔，就建起了能抵御严冬暴雪和山风的坚固家园。屋顶铺上厚重的木瓦，随着时间的推移，木瓦上长满青苔，让屋子仿佛从土地里生长出来一样。村子的布局也充满智慧：房屋沿着溪流和唯一的主路松散排列，共享的牧场和森林在周边，形成了一个自给自足的微型宇宙。几百年来，这里的山民过着几乎与世隔绝的生活，放牧、伐木、种植少量作物，他们的信仰与小小的罗马天主教木制教堂紧密相连，节日和仪式构成了年度循环的节拍。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间的洪流并非没有冲击过这片山地。18、19世纪，山下的鲁容贝罗克因地处交通要道，加上沃尔瓦河充沛的水力资源，迎来了命运的转折。来自维也纳的资本和先进的造纸技术在此落地生根，一座座工厂拔地而起，滚滚浓烟取代了山间的薄雾。鲁容贝罗克迅速成为奥匈帝国重要的造纸和纺织中心，被誉为“斯洛伐克的曼彻斯特”。工业化吸引了大量人口，城镇快速扩张，建起了漂亮的市民广场、学校、剧院和铁路。山上的维尔科利内茨与山下的鲁容贝罗克，仿佛进入了两个平行的时空隧道：一个加速奔向机器轰鸣的未来，一个则依然按照古老的节拍缓慢呼吸。有趣的是，这种“落后”反而成了维尔科利内茨的救赎。正因为它的偏远和经济上的“无足轻重”，使得大规模现代化改造绕开了它，那些珍贵的木屋群落才得以幸存。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "20世纪的风云变幻，给两地都留下了深刻的烙印。两次世界大战，共产主义时期的国有化浪潮，鲁容贝罗克的工业或被摧毁，或被改造，但城市骨架留存。而维尔科利内茨则面临着另一种危机：年轻一代被山下城镇和城市更好的工作机会、更现代的生活所吸引，纷纷离开，村落不可避免地走向老龄化和空心化。它几乎要成为一个被遗忘的幽灵村。转机发生在1993年，斯洛伐克独立的同一年，联合国教科文组织将维尔科利内茨列为世界文化遗产。这块金字招牌不是为了把它封存在玻璃罩里，而是为它的保护和延续注入了新的生命力。一些木屋得到了精心的修复，基础设施在不破坏风貌的前提下得到改善，少数村民选择留下，甚至有些年轻人开始回归，尝试用新的方式延续传统。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的景象，正是历史层层累积的结果。在鲁容贝罗克，你可以在翻新过的旧造纸厂里参观博物馆，了解那段辉煌的工业往事；你也可以在广场上看到纪念当地历史人物的雕塑。而在山上，维尔科利内茨的炊烟依旧。它不再是闭塞的象征，而是一种主动选择的、与遗产共生的生活方式的证明。从木屋村望向山下城镇的灯火，你能清晰地看到一条从传统山林文明到河谷工业文明，再到后工业时代对共同遗产进行反思与珍视的时间线。这片土地的故事，是关于适应，关于生存，关于在时代巨变中如何守护记忆的根脉。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天进行深度探索。最佳节奏是“先上后下，从静到动”。上午约9点从鲁容贝罗克出发前往维尔科利内茨，此时山间空气清新，光线柔和，游客稀少，能感受到村落最本真的苏醒氛围。在木屋村悠闲漫步2-3小时，细细品味每一处细节。中午返回鲁容贝罗克，在镇中心广场找一家本地餐厅享用午餐，感受城镇的生活气息。下午专注于鲁容贝罗克的历史层面：探访中世纪核心区，然后前往工业遗迹区，感受时光的对比。这样的安排让你能在一天内体验从宁静山村到活力城镇的完整叙事弧光，理解这片土地的两个灵魂。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`在维尔科利内茨请务必保持安静和尊重，这是别人的家园，不要擅自进入未开放或标有私人住宅的院落，拍照人物前最好先征得同意。山区天气多变，即使夏季也请带一件防风外套。在鲁容贝罗克，周日许多商店和博物馆可能关门或缩短营业时间，需提前规划。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨搭乘本地巴士上山，在维尔科利内茨村口下车，第一眼就收获那片错落有致的木屋群与背后苍翠山峦构成的完美画面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着主路缓缓上行，仔细打量每一栋木屋独特的构造、颜色剥落的窗框和门廊下堆放的柴火，尝试与偶尔出门的当地老人交换一个微笑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要找到编号16的木屋（如果开放），进去看看被改造成民俗博物馆的内部陈设，触摸那些巨大的传统炉灶和古朴的家居用品。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上村落最高点的那座可爱的木制钟楼，从这里360度环视整个村庄的布局和周围环绕的喀尔巴阡山森林草甸。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山回到鲁容贝罗克，直接去主广场（安德烈·赫林科广场），坐在露天咖啡座观察来来往往的本地人，并欣赏广场周围色彩柔和的新古典主义建筑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从广场步行不远，去寻找圣安德烈教堂及其古老的哥特式核心，感受城镇宗教生活的中心。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着沃尔瓦河散步，一直走到旧造纸厂和工业区的红砖建筑群附近，仰望那些沉默的烟囱，想象一个世纪前的繁忙景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间允许，参观鲁容贝罗克博物馆或造纸博物馆，让上午的感性体验获得扎实的历史知识补充。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`维尔科利内茨村口停车场旁的草坡`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏时分，以此为前景，可以拍下木屋村全景与远山叠嶂的经典构图，炊烟升起时氛围最佳。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`村落中央小十字架旁`}</h4>
+                  <p className="text-sm text-gray-700">{`午后阳光斜射时，站在这里可以捕捉到光线勾勒木屋侧面纹理以及道路延伸的纵深感，人物可作为生动点缀。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`鲁容贝罗克主广场东侧建筑二楼露台（某些咖啡馆可达）`}</h4>
+                  <p className="text-sm text-gray-700">{`华灯初上时，用广角镜头拍下广场全景、教堂尖塔与远处山峦的暮色交融。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`旧造纸厂遗址的某个拱形窗户或破损墙体框架内`}</h4>
+                  <p className="text-sm text-gray-700">{`以这些工业废墟的几何结构为画框，拍摄后方依然屹立的巨大烟囱或现代城镇，形成强烈的时空对话。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在木屋村使用长焦镜头可以捕捉到许多生动的细节，如门上的铁艺、窗台的盆花、木瓦的肌理，而不必打扰居民。无人机飞行在维尔科利内茨上空可能有严格限制，因是居住区，务必提前查询并遵守当地法规。尊重隐私永远是第一位的。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`性价比之选`}</h4>
+                  <p className="text-sm text-blue-800">{`鲁容贝罗克镇中心火车站附近的现代风格酒店，交通极其便利，房间干净明亮，是探索城镇和作为上山基地的完美后勤站。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`维尔科利内茨村内经过现代化改造的传统木屋民宿，虽然数量极少且需提前数月预订，但能让你在夜晚的绝对宁静中，聆听山风与木头的对话，清晨被牛铃声唤醒。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`山林静谧`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于鲁容贝罗克郊外、通往木屋村山路旁的精品山林小屋，拥有面对森林的私人阳台，提供地道的斯洛伐克家庭晚餐，主人能讲述许多本地传说。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-purple-800">{`日利纳市（约30分钟车程）的四星级历史宫殿酒店，将古典优雅与现代舒适完美结合，适合追求全方位高品质服务，并以此处为据点辐射探索整个上瓦赫河谷地区的旅行者。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "住在鲁容贝罗克镇中心最大的好处是餐饮和交通选择多，生活便利。如果选择住在维尔科利内茨或极偏远的山林中，请务必确认晚餐安排，因为晚上可能没有任何营业的餐馆。无论住在哪里，通过本地预订网站或直接邮件/电话联系房东，有时比大型国际平台能获得更优惠的价格和更个性化的服务。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开鲁容贝罗克和维尔科利内茨很久之后，脑海中萦绕不去的，不是某一张具体的明信片般的风景，而是一种感觉。那是一种存在于深山木屋的炊烟与河谷工厂的烟囱之间的张力，一种在极致的宁静与尘封的喧嚣之间取得的微妙平衡。这个地方教会我的，是历史的完整性。它没有仅仅展示田园牧歌的怀旧，也没有只炫耀工业革命的遗产，而是坦诚地将一个地区发展的所有层理——美好的、艰辛的、原始的、进步的——都并置在你面前。你会看到，文明的前行脚步，并非总是以彻底抛弃过去为代价；在鲁容贝罗克，现代生活与历史肌理交织在一起；在维尔科利内茨，古老的形式里依然搏动着当代的生命力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这或许就是它在今天这个快节奏、常常追求单一网红视角的世界里，显得如此珍贵的原因。它邀请你进行一场深度的阅读，而不是匆忙的打卡。它要求你放慢脚步，去闻木头和青草的味道，去触摸粗糙的红砖，去倾听不同时代留下的回声。对于每一位渴望真正理解中欧灵魂，而不仅仅是掠过其表面的旅行者来说，这里是一把钥匙。它打开的不仅仅是一个景点，而是一个关于生存、适应与记忆的完整故事。在这里，你感受到的是一种扎根于土地的厚重与真实，它会提醒你，旅行的意义，有时就在于找到这些依然在缓慢而坚定地呼吸着的时间胶囊，并在其中，照见我们自己与历史、与自然关系的倒影。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/banska-bystrica-leaning-clock-tower-square" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    班
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">班斯卡-比斯特里察老城广场与倾斜钟塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Banská Bystrica Old Town Square & Leaning Clock Tower</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/rozhnava-mining-town-clock-tower" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    罗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">罗日尼亚瓦</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rožňava</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/hervartov-wooden-church" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    赫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">赫尔瓦尔托夫木教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hervartov Wooden Church</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

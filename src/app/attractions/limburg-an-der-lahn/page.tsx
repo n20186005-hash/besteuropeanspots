@@ -15,7 +15,7 @@ export default function LimburgAnDerLahnPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '林堡（兰河畔的中世纪彩绘大教堂小镇）', href: '/attractions/limburg-an-der-lahn' },
           ]}
         />

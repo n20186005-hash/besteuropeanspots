@@ -15,7 +15,7 @@ export default function BanskaBystricaLeaningClockTowerSquarePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/slovakia' },
             { label: '班斯卡-比斯特里察老城广场与倾斜钟塔', href: '/attractions/banska-bystrica-leaning-clock-tower-square' },
           ]}
         />

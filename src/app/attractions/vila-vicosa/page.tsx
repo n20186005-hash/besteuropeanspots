@@ -15,7 +15,7 @@ export default function VilaVicosaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/portugal' },
             { label: '维拉维索萨', href: '/attractions/vila-vicosa' },
           ]}
         />

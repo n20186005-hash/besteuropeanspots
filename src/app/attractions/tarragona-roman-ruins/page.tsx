@@ -15,7 +15,7 @@ export default function TarragonaRomanRuinsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '塔拉戈纳古罗马遗址', href: '/attractions/tarragona-roman-ruins' },
           ]}
         />

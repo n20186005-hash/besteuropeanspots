@@ -15,7 +15,7 @@ export default function GalaxidiTraditionalSailingTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '加拉西迪', href: '/attractions/galaxidi-traditional-sailing-town' },
           ]}
         />

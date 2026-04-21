@@ -15,7 +15,7 @@ export default function SchlossWeikersheimPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '魏克斯海姆宫', href: '/attractions/schloss-weikersheim' },
           ]}
         />

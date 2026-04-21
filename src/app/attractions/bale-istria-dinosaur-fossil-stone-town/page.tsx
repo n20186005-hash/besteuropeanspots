@@ -15,7 +15,7 @@ export default function BaleIstriaDinosaurFossilStoneTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/croatia' },
             { label: '巴莱（伊斯特拉半岛的恐龙化石与石屋小镇）', href: '/attractions/bale-istria-dinosaur-fossil-stone-town' },
           ]}
         />

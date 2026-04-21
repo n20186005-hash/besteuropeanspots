@@ -1,0 +1,153 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '莫迪卡历史溯源｜巴洛克之城的裂谷重生，甜香与地震的千年传奇',
+  description: '探秘西西里“双城”莫迪卡，一座被地震撕裂又在巴洛克糖霜中重生的古城。隐藏在山谷裂缝中的权谋、甜蜜与韧性故事。',
+}
+
+export default function ModicaHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '莫迪卡', href: '/attractions/modica-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`莫迪卡・Modica・意大利・西西里岛`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在意大利靴尖踢出的宝石——西西里岛上，有一座城市并非“建”于平地，而是“长”在两道深邃峡谷的陡峭崖壁之上。它的名字叫<strong>莫迪卡</strong>，一个被<strong>1693年大地震</strong>彻底重塑，又在<strong>巧克力甜香</strong>中治愈创伤的巴洛克奇迹。这里的历史，是权力更迭的厚重册页，更是普通人在自然伟力面前，用蜂蜜与可可粉写就的生存史诗。抛开游玩攻略，走进莫迪卡的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`莫迪卡`} />
+                <InfoRow label="英文名称" value={`Modica`} />
+                <InfoRow label="正式名称" value={`Modica`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`西西里岛`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "莫迪卡的起源，深埋在西西里岛层叠的文明土壤之下。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的名字“Modica”，被认为源于前罗马时期的西西里土著<strong>西库利人</strong>的语言。“Mùrika”意为“集会地”或“岩石”，精准描绘了这片最初聚居地的地理特质——一处易守难攻的岩架。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "公元前8世纪，希腊殖民者的帆影出现在地中海。他们在此建立了据点，称其为“Motyka”。然而，莫迪卡真正的城市雏形与命运，与后来的征服者紧密相连。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "公元9世纪，来自北非的<strong>阿拉伯人</strong>征服了西西里。他们不仅带来了先进的农业技术与水利工程，更赋予了此地新的战略价值。阿拉伯人看中了峡谷地形天然的防御优势，将其建设为重要的军事与行政中心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "“莫迪卡”的阿拉伯语词源“Mudiqah”，意为“地方”或“居住点”，朴素而有力。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "民间有传说，阿拉伯总督在选择城址时，看到山鹰在两道峡谷间的岩壁上筑巢，认为这象征稳固与庇护，遂下令在此建城。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "诺曼人于11世纪接手后，莫迪卡迎来了它的黄金时代。它成为西西里岛上最强大、最富有的<strong>伯爵领地</strong>之一。伯爵们在此建造城堡，统治着几乎整个东南西西里，权势一度可与国王比肩。这座从岩石中生长出的城市，自此奠定了它作为区域权力中心的厚重底色。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "莫迪卡的历史，镌刻在两次深刻的“撕裂”与“重塑”之中。一次来自人，一次来自天。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一次印记，是<strong>伯爵时代的权力辉煌与陨落</strong>。中世纪鼎盛时期，莫迪卡伯爵领地的版图辽阔，经济繁荣。位于上城险峻岩顶的<strong>莫迪卡城堡</strong>，不仅是军事堡垒，更是权力象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，随着中央王权的加强，伯爵的自治权在15世纪后逐渐被西班牙阿拉贡王室削弱。城堡从权力中枢变成了监狱与兵营，俯瞰着城市的兴衰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二次，也是最彻底的一次印记，来自自然之力。<strong>1693年1月11日</strong>，一场毁灭性的特大地震席卷了整个西西里东南部。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "那一天，被称为“西西里的大审判日”。莫迪卡，这座依山而建的中世纪城市，遭受了灭顶之灾。古老的诺曼与哥特式建筑、贵族宫殿、寻常巷陌，在剧烈的摇晃中化为瓦砾，数千生命被吞噬。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "一位幸存者在日记中写道：“大地张开了口，教堂的钟声在坠落中哀鸣。当尘埃落定，我们熟悉的城市消失了，只剩下山体的骨架和遍野的哭声。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但莫迪卡的故事没有终结于废墟。紧随地震而来的，是一场声势浩大的<strong>巴洛克重建</strong>。作为重建的范本——“诺托谷地巴洛克城镇群”中最壮观的一员，莫迪卡获得了新生。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "建筑师们没有试图平整土地，而是极具智慧地顺应了原有的峡谷地貌。他们在废墟之上，沿着陡坡修建起层层叠叠的阶梯、蜿蜒的街道，以及一座座用当地蜂蜜色石材砌成的<strong>巴洛克教堂与宫殿</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其中，<strong>圣乔治大教堂</strong>如同一艘巨大的石船，从下城的阶梯尽头昂然“驶”向天际，其恢弘的立面成为莫迪卡不屈精神的最强音符。这次重建，并非简单的复原，而是一次美学的涅槃，将城市的创伤永恒地凝固为巴洛克艺术的壮丽。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在莫迪卡的巴洛克天际线下，两位文化巨子的身影与这座城市紧紧交织。他们一位用诗歌雕刻故土之魂，一位用音符诉说家园之痛。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>萨尔瓦多·奎西莫</strong>，是20世纪意大利文坛无法忽视的西西里声音。他于1901年出生于莫迪卡一个中产家庭。故乡的风景、历史、方言与民间生活，是他文学宇宙的核心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "奎西莫的写作深深扎根于这片土地。他的代表作《天鹅之死》等作品，充满了对西西里乡村与城镇的细腻描绘，以及对现代化冲击下传统世界消逝的深沉哀悼。他笔下的人物，常常带有莫迪卡人特有的坚韧与沉默的激情。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他一生都与莫迪卡保持着精神上的脐带连接。即便后来旅居各地，故乡始终是他创作的源泉和灵魂归宿。他的故居如今受到保护，他使用的方言词汇和描绘的场景，成为了解旧日莫迪卡的一扇文学之窗。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "奎西莫曾写道：“我的语言，我的记忆，我的梦的边界，都由莫迪卡那些陡峭的街道和峡谷的风所划定。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位与莫迪卡共呼吸的名人，是作曲家<strong>皮埃特罗·弗洛里迪亚</strong>。他于1860年出生于莫迪卡的一个音乐世家。他的才华很早就显现出来，后来成为享誉欧洲的作曲家和音乐教育家。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "弗洛里迪亚的音乐生涯与家乡紧密相连。他最著名的歌剧作品《<strong>马尔瓦西亚</strong>》，其创作灵感直接来源于莫迪卡及西西里本土的历史传说与民间旋律。他将故乡的声音带到了米兰斯卡拉歌剧院等顶级舞台。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "更为动人的是，弗洛里迪亚晚年选择回到莫迪卡，并在此逝世。他将毕生积累的乐谱、手稿和一座珍贵的<strong>古键琴</strong>留给了故乡。如今，在莫迪卡的市政音乐学校，学生们仍在使用他留下的遗产学习音乐。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他不仅用作品铭记了莫迪卡，更用实体馈赠滋养了故土后来的艺术生命。奎西莫与弗洛里迪亚，一位在文字中封存土地的魂，一位在音符中流淌家乡的血，共同构成了莫迪卡近代人文精神的脊梁。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在莫迪卡，最甜蜜的传说与最神圣的信仰，都融入了城市的肌理。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于莫迪卡享誉世界的特产——<strong>“莫迪卡式巧克力”</strong>，有一个美丽的传说。这种巧克力保留了阿兹特克时代的古老“冷加工”工艺，质地粗糙，口感独特，带有颗粒感。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "传说在西班牙统治时期，莫迪卡伯爵的夫人罹患无名忧郁，食欲不振。一位来自新大陆的西班牙修道士，用他秘传的古老美洲方法，将本地产的可可豆与伯爵领地上特有的香料、鲜花蜜混合，制成了一种粗糙但香气馥郁的“药膏”。夫人食用后竟日渐康复，笑颜重现。这种制作方法便在莫迪卡的修道院和家庭作坊中秘密流传下来，成为城市的甜蜜符号。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说将莫迪卡与遥远美洲的文明连接起来，也为它“巧克力之城”的美誉增添了传奇色彩。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一则传说则与城市的守护神有关。莫迪卡有两位主保圣人：<strong>圣乔治</strong>（上城）和<strong>圣彼得</strong>（下城）。关于圣乔治屠龙的故事在欧洲广为流传，但在莫迪卡，它有了本地化的版本。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "相传，恶龙盘踞的深渊，便是如今莫迪卡所在的峡谷。圣乔治为解救被献祭的公主，与恶龙在此激战。最终，利剑刺入龙喉的瞬间，龙血化作蜂蜜流淌（呼应本地悠久的养蜂传统），而龙躯坠落山谷，其骨骼化作了建造教堂的岩石。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说巧妙地解释了莫迪卡奇特的地形、盛产的蜂蜜，以及人们为何在如此险峻之地兴建宏伟教堂——那是为了镇压恶龙残余的邪气，并感恩神迹。每年4月的圣乔治节，盛大的游行依然会沿着陡峭的阶梯举行，仿佛在重演那场神话中的胜利。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当游客气喘吁吁地攀爬连接莫迪卡上下城的<strong>数百级阶梯</strong>时，他们踩踏的不仅是石头，更是层层叠叠的历史。每一次俯瞰峡谷两侧如瀑布般倾泻而下的蜂蜜色建筑，看到的都是一部立体的编年史：阿拉伯的智慧、诺曼的强权、地震的创伤、巴洛克的复兴、以及平民用巧克力的甜蜜对生活的终极抚慰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "莫迪卡的价值，远不止于被列为世界遗产的巴洛克建筑群。它是一座关于<strong>韧性</strong>的露天博物馆。它教会世人，文明如何在天灾的废墟上，凭借美与秩序重生；地方文化如何在外来原料（可可）与古老工艺的结合中，创造出独一无二的身份标识。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂莫迪卡，便是读懂一种在西西里阳光与地震阴影下，在权力的峡谷与平民的灶台间，顽强盛开的人文之花。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？如何攀爬那些传奇阶梯、品尝正宗的古老巧克力、探寻奎西莫的足迹，交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mantua-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    曼
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">曼托瓦老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mantua Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/trevi-umbria" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特雷维</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trevi</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/norcia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    诺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">诺奇古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Norcia</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

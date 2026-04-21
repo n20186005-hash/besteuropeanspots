@@ -15,7 +15,7 @@ export default function LikavaCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/slovakia' },
             { label: '利卡瓦城堡', href: '/attractions/likava-castle' },
           ]}
         />

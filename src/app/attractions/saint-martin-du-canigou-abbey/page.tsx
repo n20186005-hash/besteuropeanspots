@@ -15,7 +15,7 @@ export default function SaintMartinDuCanigouAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '卡尼古圣马丁修道院', href: '/attractions/saint-martin-du-canigou-abbey' },
           ]}
         />

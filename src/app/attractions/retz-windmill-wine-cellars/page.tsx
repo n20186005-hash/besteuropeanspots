@@ -1,0 +1,239 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '雷茨 Retz｜风车旋转下的地下迷宫，奥地利隐秘的千年酒窖小镇 - 最佳欧洲景点',
+  description: '如果你在地图上寻找奥地利，目光多半会被维也纳的金色、萨尔茨堡的湖光或哈尔施塔特的仙境吸引。但请允许我把你的视线稍稍东移，落在下奥地利州那片被阳光烤得温暖的、起伏的丘陵地带。这里藏着雷茨，一个名字念起来短促有力的小镇。你第一眼看到它，可能会觉得，哦，又是一个精致的奥地利老城嘛——中央广场铺着光滑的鹅卵',
+}
+
+export default function RetzWindmillWineCellarsPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '雷茨', href: '/attractions/retz-windmill-wine-cellars' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`雷茨・Retz・奥地利・雷茨`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`如果你在地图上寻找奥地利，目光多半会被维也纳的金色、萨尔茨堡的湖光或哈尔施塔特的仙境吸引。但请允许我把你的视线稍稍东移，落在下奥地利州那片被阳光烤得温暖的、起伏的丘陵地带。这里藏着雷茨，一个名字念起来短促有力的小镇。你第一眼看到它，可能会觉得，哦，又是一个精致的奥地利老城嘛——中央广场铺着光滑的鹅卵石，色彩柔和的联排房屋戴着尖顶或山形墙的“帽子”，露天咖啡馆的遮阳棚下，人们慢悠悠地啜饮着白葡萄酒。空气里有刚出炉的“果馅卷”的甜香，混合着咖啡味。一切都符合你对欧洲小镇的美好想象。
+但请抬头，望向小镇的西北角。那里矗立着一座巨大的、漆成深褐色的风车，四片帆翼安静地停在天空下。它是地标，更是一个沉默的暗示。风车之下，大地并非实心。当你跟随向导，从广场某个不起眼的、厚重的木门弯腰进入，沿着陡峭的石阶盘旋而下时，另一个世界豁然开朗。温度骤降，一股混合着陈年橡木、潮湿岩石和淡淡酒酸的、复杂而醇厚的凉气包裹了你。耳边导游的声音有了回响，手电筒的光柱划破黑暗，照亮了拱顶——那不是砖砌的，而是直接从一种赭红色的砂岩层中凿刻出来的。拱顶连绵不绝，通道纵横交错，像巨人的血管网络。你会瞬间明白，地面上那个安静的小镇，只是冰山一角；它的真正心脏，在这片深邃、清凉、充满酒神气息的地底。
+这就是雷茨最打动人心的魔力：它的生活是双层的。地面上，人们在广场集市买卖，在教堂祈祷，在风车旁散步，过着按部就班、被阳光亲吻的日子。而地底，是他们共同的“地下宫殿”和“保险库”。自13世纪起，一代代的市民就在这里，一锤一凿，为自己的财富——葡萄酒，开凿出永恒的栖身之所。这里不光是酒窖，更是战乱时的避难所，是社群凝聚力的证明。地面上生活井然，地面下藏着一个民族的酿造灵魂与生存智慧。这种对比，这种隐秘的深度，让雷茨超越了普通的风景明信片，成为一段可以触摸、可以呼吸的立体史诗。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果你在地图上寻找奥地利，目光多半会被维也纳的金色、萨尔茨堡的湖光或哈尔施塔特的仙境吸引。但请允许我把你的视线稍稍东移，落在下奥地利州那片被阳光烤得温暖的、起伏的丘陵地带。这里藏着雷茨，一个名字念起来短促有力的小镇。你第一眼看到它，可能会觉得，哦，又是一个精致的奥地利老城嘛——中央广场铺着光滑的鹅卵石，色彩柔和的联排房屋戴着尖顶或山形墙的“帽子”，露天咖啡馆的遮阳棚下，人们慢悠悠地啜饮着白葡萄酒。空气里有刚出炉的“果馅卷”的甜香，混合着咖啡味。一切都符合你对欧洲小镇的美好想象。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但请抬头，望向小镇的西北角。那里矗立着一座巨大的、漆成深褐色的风车，四片帆翼安静地停在天空下。它是地标，更是一个沉默的暗示。风车之下，大地并非实心。当你跟随向导，从广场某个不起眼的、厚重的木门弯腰进入，沿着陡峭的石阶盘旋而下时，另一个世界豁然开朗。温度骤降，一股混合着陈年橡木、潮湿岩石和淡淡酒酸的、复杂而醇厚的凉气包裹了你。耳边导游的声音有了回响，手电筒的光柱划破黑暗，照亮了拱顶——那不是砖砌的，而是直接从一种赭红色的砂岩层中凿刻出来的。拱顶连绵不绝，通道纵横交错，像巨人的血管网络。你会瞬间明白，地面上那个安静的小镇，只是冰山一角；它的真正心脏，在这片深邃、清凉、充满酒神气息的地底。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是雷茨最打动人心的魔力：它的生活是双层的。地面上，人们在广场集市买卖，在教堂祈祷，在风车旁散步，过着按部就班、被阳光亲吻的日子。而地底，是他们共同的“地下宫殿”和“保险库”。自13世纪起，一代代的市民就在这里，一锤一凿，为自己的财富——葡萄酒，开凿出永恒的栖身之所。这里不光是酒窖，更是战乱时的避难所，是社群凝聚力的证明。地面上生活井然，地面下藏着一个民族的酿造灵魂与生存智慧。这种对比，这种隐秘的深度，让雷茨超越了普通的风景明信片，成为一段可以触摸、可以呼吸的立体史诗。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`雷茨`} />
+                <InfoRow label="英文名称" value={`Retz`} />
+                <InfoRow label="正式名称" value={`Retz`} />
+                <InfoRow label="国家" value={`奥地利`} />
+                <InfoRow label="城市" value={`雷茨`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座将葡萄种植与中世纪贸易智慧深埋于地下的活态历史博物馆，见证了奥地利下奥地利州数百年的葡萄酒文明与城市防御史。`} />
+                <InfoRow label="建筑特色" value={`地上是整齐的文艺复兴与巴洛克风格立面围合的广场和风车，地下则是规模惊人、由红色砂岩手工开凿出的、总长超过20公里的窖洞迷宫。`} />
+                <InfoRow label="建筑风格" value={`地面建筑以中世纪晚期和文艺复兴风格为主，混杂巴洛克元素；地下酒窖则是纯粹功能性的中世纪工程学杰作，粗犷而坚固。`} />
+                <InfoRow label="文化价值" value={`这里不仅是葡萄酒产区，更是一种独特生活哲学的体现：将生计、防御、社区生活与大地紧密相连，形成了地上恬静、地下磅礴的双重城市肌理。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。地下酒窖迷宫（Historische Weinkeller）游览仅限导游带领，通常每日有固定场次，旺季（4月至10月）场次较多，约每天2-4场；淡季（11月至3月）场次减少，可能仅周末开放或需提前预约。风车（Windmühle）内部参观有特定开放日，通常为夏季的周末下午。所有具体时间均强烈建议出行前在官网或当地旅游信息中心确认，冬季部分设施可能关闭维护。`} />
+              <InfoRow label="门票价格" value={`地下酒窖迷宫标准成人票价约12-15欧元，含一杯品鉴酒。学生、老年人及团体（10人以上）享有优惠价。家庭票可选。风车参观门票约5欧元。购买“雷茨体验卡”可能包含多个景点和一杯酒，性价比更高。部分小镇博物馆联票可供选择。`} />
+              <InfoRow label="地址" value={`Hauptplatz 1, 2070 Retz, Austria`} />
+              <InfoRow label="交通方式" value={`从维也纳出发最为便捷。自驾：沿A22/E59高速公路向北，转入B30公路，车程约1小时至1小时15分钟，小镇外围有免费停车场。火车：从维也纳中央火车站（Wien Hauptbahnhof）或弗朗茨·约瑟夫火车站（Wien Franz-Josefs-Bahnhof）乘坐区域快车（REX）或区域列车（R），通常在霍尔拉布伦（Hollabrunn）或采勒恩多夫（Zellerndorf）换乘一次，总耗时约1.5小时，下车后步行10分钟即可到达老城中心。购票建议使用奥地利联邦铁路（ÖBB）App或网站提前查询班次，购买州票或周末票更划算。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "雷茨的故事，始于葡萄藤蔓，成于石头与匠心。早在12世纪，这片土地就被发现特别适合种植葡萄，这要归功于它独特的潘诺尼亚气候和富含矿物质的土壤。但让雷茨真正崛起的，是13世纪末一位名叫“阿尔布雷希特一世”的哈布斯堡公爵。1288年，他授予了这片聚居地市场权，并在几十年后正式升格为城市。城市需要防御，也需要经济支柱。聪明的雷茨人发现，脚下一种叫做“雷茨砂岩”的岩层，质地均匀且相对松软，易于挖掘却又异常坚固。一个绝妙的想法诞生了：何不在地下为自己宝贵的葡萄酒建造一个天然恒温的仓库？于是，从14世纪开始，一场持续数百年的“地下造城”运动悄然启动。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初的挖掘可能是零散的，各家在各家的房子下面动工。但很快，一个更宏大、更系统的计划出现了。为了促进贸易和安全，市政当局主导挖掘了主要的地下干道，然后像树干分杈一样，将“开采权”出售或分配给市民，让他们自行向两侧和深处拓展自己的窖室。这就形成了今天我们看到的主干清晰、枝节复杂的迷宫格局。整个工程没有任何现代机械，全靠人力、镐头和篝火照明（用火加热岩石再泼冷水使其开裂）。你可以想象，在无数个日夜，叮叮当当的敲击声在这片土地下回响，红色的砂岩粉末弥漫在空气中，一代人接着一代人，像蚂蚁般执着，为家族的未来开拓着地下的疆土。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些酒窖不仅仅是储物间。在动荡的中世纪和近代早期，当土耳其军队的威胁如乌云般笼罩，或是当各路军队穿梭于这片战略要地时，这些深达20米、入口隐蔽、且有独立通风和水源（通过渗水井）的地下网络，就成了全城居民的诺亚方舟。他们可以在这里躲藏数周，储存的粮食和水，当然，还有能慰藉心灵的葡萄酒。酒窖成了生存的保障。到了和平繁荣的16、17世纪，地面上的小镇也焕然一新，广场周围的许多房子建起了华丽的文艺复兴和巴洛克立面，展现出市民的财富与自信。而那座建于18世纪的巨大风车，则成为了这片丰饶土地的象征，日夜不息地研磨着谷物，与地下静默的酒窖一上一下，共同运转着小镇的生命循环。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光进入19、20世纪，雷茨的地下迷宫继续发挥着作用。两次世界大战期间，它们再次成为重要的防空洞。战后，随着酿酒技术的现代化，许多家庭不再需要如此庞大的传统酒窖，部分通道曾被遗忘。但雷茨人从未真正切断与地下的联系。从上世纪后期开始，人们重新认识到这片地下遗产的独特文化价值。经过谨慎的清理、加固和开发，其中最具代表性的一段——长达数公里、拥有多个历史酒窖房间的“历史酒窖迷宫”——向公众开放。如今，当你行走其间，看到的不仅是空洞的隧道，还有当年留下的铭文、独特的拱顶结构、古老的酿酒工具，甚至二战时期避难者留下的涂鸦。每一道凿痕，都在低语着过去的故事。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受雷茨的双重灵魂，建议安排整整一天时间。最佳抵达时间是上午9点左右，此时小镇刚刚苏醒，光线柔和，游客稀少。整个游览节奏应是“先地上，后地下，再回归地上”，形成一种沉浸式的对比体验。上午用2-3小时漫步老城，感受地面的生活气息和建筑之美；午后参加地下酒窖的导览游（约1.5小时），深入大地腹地；导览结束后的品酒环节正好作为下午茶。傍晚时分，可以再次回到地面，登上风车或漫步至附近的葡萄园山丘，在日落时分回味一天的见闻。这样的安排让你能从视觉、体感、味觉全方位理解这座小镇。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`地下酒窖温度常年保持在10摄氏度左右，即使盛夏也务必带一件外套或披肩。务必提前在旅游信息中心或官网预订酒窖导览游，尤其是旺季和周末，现场很可能满员。小镇石板路和地下酒窖台阶多且滑，请务必穿一双舒适防滑的鞋子。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从主广场（Hauptplatz）开始，用手抚摸市政厅外墙上那块著名的、用于中世纪度量衡的“铁尺”，感受历史的精确刻度。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕着广场慢走一圈，抬头细看每一栋联排房屋立面各不相同的山花、窗饰和壁画，猜猜它们背后家族的故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着Znaim街走向那座巨大的深褐色风车，抚摸它粗糙的木制基座，想象它几个世纪以来俯瞰城镇与田野的视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`预约下午时分参加“历史酒窖迷宫”的导览，在导游的带领下弯腰穿过厚重的木门，踏入那条通往地心深处的清凉石阶。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在地下迷宫的某个古老酒窖房间停下来，在绝对的寂静中倾听导游讲述关于战争、避难与家族传承的隐秘往事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`导览结束后，在地面指定的品酒室举起一杯本地产的茨威格或绿维特利纳白葡萄酒，让阳光下的果香与地底的陈年气息在口中交汇。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`趁着夕阳西下，从风车后面的一条小径走上附近的葡萄园，回头眺望被金色光芒笼罩的小镇全景和那座沉默的风车剪影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果恰逢周末，晚上可以去广场边的某家老牌酒馆（Heuriger），和当地人一起享用冷盘拼盘，再喝一杯当年新酿的酒，听他们用方言闲聊。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`风车仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`从葡萄园小径上（风车东南侧），下午四点到日落前，用广角镜头将巨大的风车、一部分红瓦屋顶和远处的田野一同构图，捕捉田园诗般的画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主广场透视感`}</h4>
+                  <p className="text-sm text-gray-700">{`站在广场一端，利用两侧连续的拱廊和色彩柔和的建筑立面形成强烈的纵深感，清晨或傍晚的光线会让建筑阴影拉长，质感倍增。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`地下酒窖入口的明暗对比`}</h4>
+                  <p className="text-sm text-gray-700">{`从酒窖内部向外拍摄入口，让门框外的明亮广场与门内深邃的黑暗、粗糙的红砂岩壁形成戏剧性对比，建议使用三脚架进行长曝光。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`迷宫通道的引导线`}</h4>
+                  <p className="text-sm text-gray-700">{`在地下酒窖的主干道中，将相机放在地面高度，利用拱顶和两侧石壁形成的、无限延伸的线条作为引导线，营造神秘幽深的氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`风车与星空`}</h4>
+                  <p className="text-sm text-gray-700">{`如果夜间停留，在无月光且晴朗的夜晚，于风车北面空地使用三脚架和长曝光，可以拍出风车在璀璨星空下静静伫立的超现实景象。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`地下酒窖内通常允许拍照，但严禁使用闪光灯，以免影响其他游客并保护敏感的历史环境。拍摄当地人或在私人酒馆内，请先礼貌询问。使用无人机在小镇上空飞行需特别注意奥地利严格的空域法规，最好提前查询并避开人群密集区。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史中心民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`住在主广场旁一栋16世纪商人宅邸改造的民宿里，木梁天花板嘎吱作响，早晨推开窗就能闻到面包房飘来的香气，老板可能就是当地酿酒师。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`葡萄园农庄体验`}</h4>
+                  <p className="text-sm text-green-800">{`住在小镇外围一家家庭经营的葡萄园农庄，房间简朴但温馨，晚餐享用自家产的酒和食物，夜晚安静得只能听到风声和虫鸣。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`精品设计酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻由古老修道院部分建筑改造的精品酒店，将极简现代设计融入石墙与拱顶之中，配有顶级的SPA和一间藏酒丰富的酒窖酒吧。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`风车景观公寓`}</h4>
+                  <p className="text-sm text-purple-800">{`租住一套能直接看到风车的顶层公寓，拥有宽敞的露台，傍晚可以自己买些本地食材和葡萄酒，在私密空间里享受最地道的“雷茨时光”。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旺季（夏季和秋季葡萄收获季）的住宿非常紧俏，务必提前数月预订。小镇非常安全，夜晚安静，选择住在老城内虽然可能听到教堂钟声，但更能融入本地节奏。许多住宿提供“葡萄酒体验套餐”，包含酒窖参观和品酒，值得考虑。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开雷茨许久后，我时常会想起那种脚踏实地的感觉——不仅是踩在广场光滑鹅卵石上的触感，更是知晓在脚下数十米深处，存在着一个由人类双手创造的、庞大而有序的平行世界。这让我感到一种莫名的踏实。在当今这个信息漂浮、一切追求即时和表面的时代，雷茨提供了一种厚重的、向下扎根的生存智慧。它告诉我们，真正的财富和安全感，或许不在于向上堆积摩天大楼，而在于向下开凿，与土地建立一种深刻的、滋养与被滋养的关系。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了那些被过度曝光、人潮汹涌的景点，如果你想寻找一个能同时安抚感官与思绪的地方，请来雷茨。这里没有喧嚣的表演，只有风车缓慢的转动声；没有浮夸的装饰，只有地底岩石最质朴的纹理。它邀请你做的，仅仅是走一走，看一看，品一杯酒，然后安静地想象：几百年来，阳光如何每日拂过广场，而与此同时，地下的黑暗里，美酒如何在恒定的温度中静静熟成。这是一种地上与地下、时光与酿造、人类与自然和谐共存的诗意。它不只是一处景点，更是一种关于深度、耐心与传承的活态启示，值得每一位渴望深度旅行的灵魂前来细细品味，并带走一片属于大地深处的宁静。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/hohenems-palace" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    霍
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">霍恩埃姆斯宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hohenems Palace</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/krems-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克雷姆斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Krems Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/st-wolfgang-white-horse-inn-pilgrimage-church" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣沃尔夫冈（白马酒店与绝美朝圣教堂）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">St. Wolfgang im Salzkammergut</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

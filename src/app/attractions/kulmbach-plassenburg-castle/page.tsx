@@ -1,0 +1,243 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '库尔姆巴赫 Kulmbach｜沉醉啤酒香与城堡秘境的巴伐利亚宝藏小镇 - 最佳欧洲景点',
+  description: '说实话，在听到“库尔姆巴赫”这个名字时，我满脑子都是冰镇啤酒泛起的金色泡沫。没错，它是“巴伐利亚的啤酒之城”，空气里常年飘着一股甜丝丝的麦芽发酵的香气，老酒馆的木质桌椅都被这股香气浸透了。但当我真正站在它面前时，最先征服我的，却是远处山丘上那座沉默的巨兽——普拉森堡。它不像新天鹅堡那样梦幻，而是一种',
+}
+
+export default function KulmbachPlassenburgCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '库尔姆巴赫', href: '/attractions/kulmbach-plassenburg-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`库尔姆巴赫・Kulmbach・德国・库尔姆巴赫`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，在听到“库尔姆巴赫”这个名字时，我满脑子都是冰镇啤酒泛起的金色泡沫。没错，它是“巴伐利亚的啤酒之城”，空气里常年飘着一股甜丝丝的麦芽发酵的香气，老酒馆的木质桌椅都被这股香气浸透了。但当我真正站在它面前时，最先征服我的，却是远处山丘上那座沉默的巨兽——普拉森堡。它不像新天鹅堡那样梦幻，而是一种坚硬的、棱角分明的存在，赭石色的城墙在夏日午后的阳光里泛着暖光，像一块巨大的琥珀，把几个世纪的历史都凝固在里面。
+从火车站拖着箱子走向老城，石板路被岁月磨得光滑锃亮，脚步声嗒嗒地回响。小镇安静得出奇，偶尔有自行车叮铃铃地划过，或是一扇窗被推开，飘出咖啡的醇香。当地人拎着面包袋不慌不忙地走着，生活节奏慢得让人瞬间卸下心防。你会觉得，城堡是小镇庄严的冠冕，而流淌在街巷里的啤酒和生活气息，才是它温热的脉搏。这种对比太迷人了，一边是严肃的权力史诗，一边是欢腾的民间日常，它们在这里和谐共处了数百年。
+当你开始向城堡山进发，感官的体验更加层层叠叠地涌来。穿过茂密的森林小径，脚下是松软的泥土和掉落的松针，空气中混合着树木的清香和远处啤酒花田隐约的苦香。越往上走，城堡的轮廓越清晰，压迫感也越强。等到终于穿过厚重的拱形城门，眼前豁然开朗——那个被誉为“德国最美之一”的文艺复兴庭院，就这样毫无预兆地铺展在眼前。四层楼高的拱廊优雅地环绕，每一根立柱、每一处雕花都精细无比，午后的阳光把影子拉得长长的，在淡黄色的砂石墙面上缓慢移动。那一刻，你几乎能听见文艺复兴时期工匠们凿刻石头的声音，和贵族们在此漫步的低语。
+而最让人心头一软的，是藏在这坚硬堡垒腹地里的那份极致温柔——世界上最大的锡制人偶博物馆。走进那些展厅，仿佛瞬间被缩小了，置身于一个由三万个小人构成的、无比精密又充满故事的世界。你会看到整个中世纪城镇的市集，人物栩栩如生；会看到拿破仑战争的宏大场面，士兵的制服纤毫毕现。这不仅仅是收藏，这是一种用童心和历史感共同完成的、对逝去时代的深情复原。从宏大的城堡到微缩的人偶，库尔姆巴赫用一种惊人的尺度反差，完成了它对“历史”的完整叙述。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说实话，在听到“库尔姆巴赫”这个名字时，我满脑子都是冰镇啤酒泛起的金色泡沫。没错，它是“巴伐利亚的啤酒之城”，空气里常年飘着一股甜丝丝的麦芽发酵的香气，老酒馆的木质桌椅都被这股香气浸透了。但当我真正站在它面前时，最先征服我的，却是远处山丘上那座沉默的巨兽——普拉森堡。它不像新天鹅堡那样梦幻，而是一种坚硬的、棱角分明的存在，赭石色的城墙在夏日午后的阳光里泛着暖光，像一块巨大的琥珀，把几个世纪的历史都凝固在里面。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从火车站拖着箱子走向老城，石板路被岁月磨得光滑锃亮，脚步声嗒嗒地回响。小镇安静得出奇，偶尔有自行车叮铃铃地划过，或是一扇窗被推开，飘出咖啡的醇香。当地人拎着面包袋不慌不忙地走着，生活节奏慢得让人瞬间卸下心防。你会觉得，城堡是小镇庄严的冠冕，而流淌在街巷里的啤酒和生活气息，才是它温热的脉搏。这种对比太迷人了，一边是严肃的权力史诗，一边是欢腾的民间日常，它们在这里和谐共处了数百年。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你开始向城堡山进发，感官的体验更加层层叠叠地涌来。穿过茂密的森林小径，脚下是松软的泥土和掉落的松针，空气中混合着树木的清香和远处啤酒花田隐约的苦香。越往上走，城堡的轮廓越清晰，压迫感也越强。等到终于穿过厚重的拱形城门，眼前豁然开朗——那个被誉为“德国最美之一”的文艺复兴庭院，就这样毫无预兆地铺展在眼前。四层楼高的拱廊优雅地环绕，每一根立柱、每一处雕花都精细无比，午后的阳光把影子拉得长长的，在淡黄色的砂石墙面上缓慢移动。那一刻，你几乎能听见文艺复兴时期工匠们凿刻石头的声音，和贵族们在此漫步的低语。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而最让人心头一软的，是藏在这坚硬堡垒腹地里的那份极致温柔——世界上最大的锡制人偶博物馆。走进那些展厅，仿佛瞬间被缩小了，置身于一个由三万个小人构成的、无比精密又充满故事的世界。你会看到整个中世纪城镇的市集，人物栩栩如生；会看到拿破仑战争的宏大场面，士兵的制服纤毫毕现。这不仅仅是收藏，这是一种用童心和历史感共同完成的、对逝去时代的深情复原。从宏大的城堡到微缩的人偶，库尔姆巴赫用一种惊人的尺度反差，完成了它对“历史”的完整叙述。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`库尔姆巴赫`} />
+                <InfoRow label="英文名称" value={`Kulmbach`} />
+                <InfoRow label="正式名称" value={`Kulmbach`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`库尔姆巴赫`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`普拉森堡要塞不仅是德国最重要的文艺复兴城堡之一，更是霍亨索伦家族在弗兰肯地区权力的象征与中心。`} />
+                <InfoRow label="建筑特色" value={`一座雄踞山巅、拥有壮观几何形防御工事与精美绝伦文艺复兴庭院的庞大城堡复合体。`} />
+                <InfoRow label="建筑风格" value={`以文艺复兴风格为主，融合了中世纪晚期的防御建筑特点与巴洛克式的内部装饰元素。`} />
+                <InfoRow label="文化价值" value={`这里封存了弗兰肯地区复杂的领地斗争史，并通过世界上最大的锡制人偶博物馆，以微缩形式生动再现了欧洲数百年的社会生活与军事史。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`普拉森堡要塞开放时间因季节而异：通常四月至十月，每日上午9点至下午6点；十一月至三月，周二至周日上午10点至下午4点，周一闭馆。锡制人偶博物馆与城堡开放时间一致。请注意，巴伐利亚的公共节假日开放时间可能有调整，建议行前在官网二次确认。小镇本身全天可漫步游览。`} />
+              <InfoRow label="门票价格" value={`普拉森堡要塞（含所有博物馆）成人票约8欧元，优惠票（学生、残疾人等）约6欧元，家庭票约18欧元。仅参观要塞庭院免费。库尔姆巴赫啤酒酿造博物馆门票约7欧元。有联票可供选择。6岁以下儿童免费。`} />
+              <InfoRow label="地址" value={`Plassenburg, 95326 Kulmbach, Germany`} />
+              <InfoRow label="交通方式" value={`从最近的国际枢纽纽伦堡机场出发，最便捷的方式是搭乘火车。在机场火车站乘坐S-Bahn（S1或S2线）直达纽伦堡中央火车站，车程约15分钟。然后换乘区域火车（RE或RB线）前往库尔姆巴赫，班次频繁，约每小时一班，车程约1小时至1.5小时。从库尔姆巴赫火车站步行至老城区约15分钟，上山至普拉森堡要塞则需额外20-30分钟步行，或乘坐当地巴士在“Plassenburg”站下车。自驾则沿A70/A9高速公路前往，有清晰路标。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "普拉森堡的故事，是一部典型的欧洲权力争夺剧，充满了阴谋、联姻、战火与重建。它的起源可以追溯到12世纪，最初可能只是一座简单的瞭望塔，看守着重要的贸易路线。但真正让它登上历史舞台的，是那个后来统治普鲁士乃至德意志帝国的家族——霍亨索伦。大约在14世纪，这个家族的分支，勃兰登堡-库尔姆巴赫系（后来称为勃兰登堡-拜罗伊特），获得了这片土地。城堡成了他们在弗兰肯地区统治的基石和炫耀武力的标志。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，这座石头巨兽的命运并非一帆风顺。16世纪初，一场灾难性的大火几乎将它夷为平地。这反而成了一个转折点。当时的藩侯阿尔布雷希特二世·阿尔喀比亚德斯，一位野心勃勃又热爱艺术的统治者，决定不只是在废墟上重建，而是要打造一座配得上家族野心与文艺复兴美学潮流的宫殿。他请来了那个时代顶尖的建筑师，比如卡斯帕尔·菲舍尔。于是，我们今天看到的这座拥有几何形棱堡、足以抵御当时最新式火炮的坚固要塞，以及内部那个美得令人屏息的拱廊庭院，便是在这个时期诞生的。它既是盾牌，也是冠冕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡的军事属性在接下来的世纪里被反复考验。特别是1632年，在残酷的三十年战争期间，它被强大的华伦斯坦军队围困。尽管防御工事出色，但终究沦陷，遭受了劫掠和破坏。战争结束后，它被逐渐修复，但角色开始缓慢转变。随着边境线的稳定和武器的发展，它的战略价值下降，一度甚至被用作国家监狱。阴冷的地牢里关押过各式各样的囚犯，石墙上留下了无数刻痕，那是另一段无声的、压抑的历史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的拯救来自于19世纪浪漫主义时期。当时，整个德国都在重新“发现”和珍视自己的中世纪遗产。普拉森堡被从废墟和遗忘的边缘拉了回来，进行了系统性的修复和保护。它不再是一个功能性的堡垒或监狱，而变成了一个纪念碑，一个代表着弗兰肯地区身份与历史的符号。也正是在这个时期，一位名叫埃尔温的当地商人，开始将他毕生收藏的锡制人偶捐赠给城堡。这些精巧绝伦的小玩意，最初只是贵族儿童的玩具，后来演变成描绘历史场景的微缩模型。它们为这座刚硬的城堡注入了一股奇异而动人的生命力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，当你漫步在城堡中，你能触摸到所有这些时代的层理。地牢的阴冷、庭院阳光的温暖、博物馆玻璃柜里小人偶折射的微光，交织在一起。它见证了藩侯的野心、士兵的恐惧、囚徒的绝望，最终收藏了一个收藏家的童真与一个民族的集体记忆。普拉森堡不再需要证明它的武力，它本身，就是一部立体的、可触摸的史书。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受库尔姆巴赫的精华，建议安排整整一天时间。早上十点左右抵达小镇最佳，这时商铺开门，晨雾散去，光线柔和。游览节奏宜先“下”后“上”：先用2-3小时沉浸在小镇的啤酒文化与老城氛围里，午餐后开始上山探索城堡，将最需要体力的部分放在下午，并在城堡高处欣赏日落时分的金色小镇。这样的安排既避开了正午最烈的日头爬山，又能让你在城堡博物馆里安静徜徉，最后以壮丽的景色收尾。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周一部分博物馆和小商店可能关门，尽量避开周一进行深度文化游览。穿着绝对要舒适，尤其是鞋子，上山下山全是坡道和台阶。小镇和城堡的指示牌以德文为主，提前在手机上下载好离线地图或翻译软件会方便很多。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在老城区马克特广场边的百年面包房买一个新鲜出炉的弗兰肯果酱卷，配一杯咖啡，坐在露天座位上看彩色房子在阳光下苏醒`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着劳伯河散步走到著名的库尔姆巴赫啤酒酿造博物馆，花一小时沉浸在那迷人而复杂的麦芽、啤酒花和酵母的世界里`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在镇上历史悠久的“鹅卵石”酒馆享用一顿扎实的巴伐利亚午餐，必点本地黑啤和烤猪肘，感受木板墙传来的嗡嗡聊天声`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后顺着清晰路标开始缓步攀登通往普拉森堡的森林小径，让树林的荫凉和鸟鸣为你洗去尘嚣`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过城堡威严的防御门洞后别急着进博物馆，先在文艺复兴庭院中心的空地上站一会儿，仰头感受四面拱廊带来的宁静与对称之美`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花至少两小时泡在锡制人偶微缩博物馆，蹲下来细细观察那些橱窗里上演的无数个微型历史剧和日常生活场景`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`别忘了爬上城堡最高的防御平台，在这里迎着风，俯瞰脚下红屋顶的小镇像玩具一样铺开，远处是弗兰肯地区起伏的绿色山丘`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后回到老城，在傍晚时分找一家传统的啤酒花园，点一杯当天最新鲜的“库尔姆巴赫”啤酒，和当地人一起庆祝这完美的一天`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`劳伯河上的老石桥回望城堡`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在桥中央，将城堡作为背景，前景是流淌的河水和老房子，能拍到明信片式的经典构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`文艺复兴庭院拱廊下的光影长廊`}</h4>
+                  <p className="text-sm text-gray-700">{`晴日上午十点或下午三点左右，阳光斜射入拱廊，形成强烈的明暗对比，站在一层或二层对角线上拍摄纵深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`锡制人偶博物馆的微观世界特写`}</h4>
+                  <p className="text-sm text-gray-700">{`利用手机或相机的微距模式，贴近橱窗玻璃，聚焦某个精致的人物场景，营造穿越进童话历史的奇妙感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城堡北侧棱堡之上的全景视野`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，整个小镇被染成金红色，用广角镜头可以收下城堡防御墙的曲线与远处辽阔田园风光的壮丽同框。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`老城马克特广场的彩色立面与喷泉`}</h4>
+                  <p className="text-sm text-gray-700">{`午后顺光时，捕捉广场周围那些粉色、鹅黄色、淡绿色房屋的柔和色彩，以及当地人坐在喷泉边聊天的生动瞬间。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在博物馆内拍摄锡制人偶时请务必关闭闪光灯，强光会对这些脆弱的百年颜料造成损害。使用三脚架在城堡室内拍摄需要提前询问是否被允许。当地人通常不介意被拍入街景，但拍摄特写前一个微笑和眼神交流是礼貌的通行证。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济舒适之选`}</h4>
+                  <p className="text-sm text-blue-800">{`位于火车站和老城之间的家庭式旅馆，房间整洁得像祖母家，早餐桌上的自制果酱和新鲜面包能让你元气满满地开始一天探索。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色历史体验`}</h4>
+                  <p className="text-sm text-green-800">{`藏身于老城一栋16世纪木桁架建筑里的精品酒店，楼梯吱呀作响，梁木低垂，但现代设施一应俱全，晚上能听到广场传来的隐隐钟声。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`城堡山腰的宁静绿洲`}</h4>
+                  <p className="text-sm text-yellow-800">{`由一栋19世纪别墅改造的民宿，拥有一个可以俯瞰部分小镇花园，清晨在鸟鸣和花园的芬芳中醒来，步行上山仅需十分钟。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端尊享`}</h4>
+                  <p className="text-sm text-purple-800">{`位于小镇边缘一处静谧庄园内的四星级酒店，将古典优雅与现代设计完美结合，水疗中心用的都是本地啤酒花成分，让你彻底放松身心。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季啤酒节期间和圣诞市场时段，住宿会非常紧张且价格飙升，务必提前数月预订。老城内的住宿虽然氛围无敌，但可能无法停车，自驾的朋友要确认好酒店的停车安排。小镇治安极好，夜间行走非常安全。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开库尔姆巴赫好些天了，手指仿佛还能搓捻到空气中那种微甜的麦芽气息，眼前也总会闪过那座山巅城堡沉稳的轮廓。这个地方的魔力，在于它一种奇妙的平衡术。它没有一味沉浸在“啤酒之乡”那种狂欢节式的热闹里，也没有仅仅端坐在历史的冷峻石座上。它让醇厚的民间烟火与庄严的贵族史诗比邻而居，让豪饮的欢乐与微缩模型所需的极致静心相互对照。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率和刺激的世界里，库尔姆巴赫教会我们另一种“深度”的乐趣。这种乐趣，是花一个下午，只为看清一个锡制士兵脸上的表情；是爬一段气喘吁吁的山路，只为换取那一刻与数百年前庭院光影的独处。它让我们慢下来，不仅用眼睛看，更用鼻子去闻空气里的啤酒花苦香，用手去触摸城堡石块上阳光留下的温度，用心去想象那些在小人偶橱窗里被定格了的生活瞬间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了那些被匆匆打卡的“必到景点”，如果你渴望一次能同时喂养感官、头脑和心灵的旅行，请把库尔姆巴赫放入你的清单。它不仅仅是一个目的地，它更像一个温暖的提醒：历史可以如此雄伟，也可以如此精巧；生活可以如此朴素，也可以如此芬芳。在这里，你会找回那种久违的、对细节的惊叹，并带着一颗被微缩世界和广阔视野同时充盈的心，满足地离开。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kalkar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔卡尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kalkar</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/schmalkalden-city-guide" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施马尔卡尔登</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Schmalkalden</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bebenhausen-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝本豪森修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bebenhausen Abbey</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

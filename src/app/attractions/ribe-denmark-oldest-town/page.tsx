@@ -15,7 +15,7 @@ export default function RibeDenmarkOldestTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '丹麦', href: '/destinations/denmark' },
             { label: '里伯', href: '/attractions/ribe-denmark-oldest-town' },
           ]}
         />

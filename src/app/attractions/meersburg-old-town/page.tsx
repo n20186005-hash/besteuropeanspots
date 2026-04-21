@@ -15,7 +15,7 @@ export default function MeersburgOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '梅尔斯堡旧城', href: '/attractions/meersburg-old-town' },
           ]}
         />

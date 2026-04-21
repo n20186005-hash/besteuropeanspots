@@ -15,7 +15,7 @@ export default function KasteelAmerongenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/netherlands' },
             { label: '阿梅龙根城堡', href: '/attractions/kasteel-amerongen' },
           ]}
         />

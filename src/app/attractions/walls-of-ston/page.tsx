@@ -15,7 +15,7 @@ export default function WallsOfStonPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/croatia' },
             { label: '斯通古城墙', href: '/attractions/walls-of-ston' },
           ]}
         />

@@ -1,0 +1,196 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '多姆历史溯源｜悬崖巴斯蒂德的兴衰、圣殿骑士团与《蒙田随笔》的诞生地',
+  description: '法兰西王室建造的军事要塞，圣殿骑士的最后监狱，蒙田的沉思之地。探索悬崖小镇多姆不为人知的权力博弈、信仰冲突与思想光辉。',
+}
+
+export default function DommeOverlookingDordogneHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '多姆（俯瞰多尔多涅河谷的防御巴斯蒂德）', href: '/attractions/domme-overlooking-dordogne-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`多姆（俯瞰多尔多涅河谷的防御巴斯蒂德）・Domme・法国・多尔多涅省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在法国多尔多涅河谷，有一座被称为“悬崖上的王冠”的中世纪小镇。它并非自然生长的村落，而是一枚被<strong>法兰西王室</strong>精准钉入边境的战略铆钉。1271年，一场惨烈的王室联姻，让整个佩里戈尔地区并入了法国国王的版图。为了巩固这来之不易的成果，抵御南方英属阿基坦公国的威胁，一座前所未有的“巴斯蒂德”防御城镇，于<strong>1281年</strong>在河谷之巅拔地而起。这里，是权力与信仰激烈碰撞的舞台，圣殿骑士团的末路在此被封存，近代思想巨人蒙田的哲思在此沉淀。抛开游玩攻略，走进多姆的尘封往事，遇见属于它的权力、信仰与时光传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`多姆（俯瞰多尔多涅河谷的防御巴斯蒂德）`} />
+                <InfoRow label="英文名称" value={`Domme`} />
+                <InfoRow label="正式名称" value={`Domme`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`多尔多涅省`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多姆的诞生，源于一场精密的王室地理政治算计。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间回到<strong>13世纪下半叶</strong>。彼时，英法两国围绕富庶的阿基坦地区争斗不休。多尔多涅河是天然的交通动脉与边界线，控制其高地，就等于扼住了敌人的咽喉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1271年</strong>，法国国王<strong>腓力三世</strong>迎来了一个关键机会。他的弟弟，阿方斯·德·普瓦捷去世，其庞大的领地（包括整个图卢兹伯爵领及佩里戈尔）因无子嗣而“归还”王室。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "法兰西的疆域向南大幅推进。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "为了消化这片新领土，并防御河对岸英属领土的侵扰，腓力三世决定采用当时最先进的城镇建设模式——“巴斯蒂德”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这是一种经过规划、带有明确防御和殖民目的的“新城”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1281年3月3日</strong>，国王的特许状正式颁布。多姆，作为一座王室直属的巴斯蒂德，开始在其选定的悬崖台地上建造。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的选址堪称军事工程的典范：三面是近乎垂直的百米悬崖，俯瞰多尔多涅河蜿蜒的河道，仅有一面与陆地相连，易于设防。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "“多姆”这个名字的由来，充满了古老的地域色彩。它很可能源于高卢语中的“<strong>dumos</strong>”，意为“山丘”或“高地”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这与它的地理特征完全吻合。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从诞生之日起，它就不是一个普通的乡村聚落。整齐的棋盘格街道布局，中心广场周围的拱廊，坚固的城墙与城门，都彰显着其作为<strong>前沿军事堡垒</strong>和<strong>王家权力象征</strong>的初始使命。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它是一座被设计出来的城镇，是法兰西王权插入这片古老土地的一把利剑。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多姆的历史，刻在它的石头城墙与幽深地牢之中。两段关键历史，定义了它的沉重与辉煌。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一道印记：圣殿骑士团的覆灭与“国王的监狱”</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "14世纪初，欧洲发生了一场震撼人心的信仰地震——圣殿骑士团被取缔。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个富可敌国、战力强大的修会，在<strong>1307年</strong>一个清晨，被法国国王<strong>腓力四世</strong>（美男子）下令全境逮捕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罪名是异端与亵渎。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "远离巴黎的多姆，因其绝佳的地理封闭性与坚固的防御，被选中作为关押西南法地区圣殿骑士的重要监狱。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>大约70名骑士</strong>被押送至这里，囚禁在市政厅下方、直接从岩石中开凿出的地牢中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阴暗、潮湿的洞穴，成了这些昔日英雄的最终牢笼。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我们被铁链锁在冰冷的岩壁上，只有高处狭小的缝隙透进一丝光，也透进河谷的风。那风带来的不是自由，是更深重的寒意。” ——后世根据囚犯可能的境遇所重构的描述。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们在此被审讯、被折磨，以期榨取供词和传说中的宝藏下落。<strong>1310年</strong>，其中一批骑士被转移至巴黎，最终被处以火刑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多姆的地牢，见证了圣殿骑士团悲剧的最后一章。至今，岩壁上仍清晰可见骑士们刻下的十字架、帆船等符号，沉默诉说着绝望与信仰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二道印记：百年战争的拉锯与《布勒蒂尼和约》</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多姆作为边境堡垒的命运，在<strong>英法百年战争</strong>中达到顶峰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它因其战略位置，成为双方反复争夺的焦点。整个14世纪到15世纪初，多姆在英法旗帜间多次易主。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最富戏剧性的一刻发生在<strong>1360年</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "经过漫长战争，英法两国决定议和。和约的签订地点，没有选在巴黎或伦敦，却选在了这个前线小镇——多姆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是著名的 <strong>《布勒蒂尼和约》</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "谈判在镇上某处（很可能在当时的守备长官府邸）进行。和约暂时休战，并规定法国支付巨额赎金以赎回被俘的国王约翰二世，同时将包括佩里戈尔在内的大片领土割让给英国。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多姆，因此短暂成为了英国领土。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但和平是脆弱的。仅仅几年后，战火重燃。多姆的居民在近一个世纪里，生活在弓箭与围城的阴影下。直到<strong>1437年</strong>，法国军队才最终将它彻底收复。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战争赋予了多姆坚韧的性格。那些加厚的城墙、加固的城门，不仅是石头，更是几代人关于生存的记忆。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在多姆，一位思想家的名字与小镇的灵魂紧密相连——<strong>米歇尔·德·蒙田</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位文艺复兴后期的伟大散文家、哲学家，并非多姆的匆匆过客。他的人生最后阶段，与这座悬崖小镇结下了不解之缘。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 镇长蒙田：从退隐哲人到公共管理者</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "蒙田出身波尔多的贵族家庭，早年从政，曾任波尔多最高法院顾问，甚至做过两任波尔多市长。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1570年</strong>，三十七岁的他选择从公共生活“退休”，回到自家的城堡，埋头于阅读、思考与写作，完成了《随笔集》的前两卷。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，命运并未让他完全远离世事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1581年</strong>，蒙田被任命为<strong>多姆的镇长</strong>。这个职位并非虚衔。当时的法国正深陷残酷的宗教战争（胡格诺战争），身为天主教徒的蒙田，需要在一个天主教与新教势力交织的地区维持秩序与平衡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多姆，正是这样一个微缩的战场。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的就任并非出于强烈的权力欲，更多是一种人文主义者的责任。他在《随笔集》中流露出对公共事务的复杂态度：既渴望宁静的私人生活，又无法对同胞的苦难袖手旁观。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在多姆的市政厅（至今仍存），他处理政务，调解纠纷。他的治理风格，或许正如其文字般，强调经验、宽容与审慎。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. 《随笔集》第三卷与“多姆塔楼”的沉思</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "蒙田一生最重要的著作《随笔集》第三卷，其大部分的写作与修订，正是在他担任多姆镇长期间及之后完成的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇的<strong>市政厅塔楼</strong>，传统上被认为是蒙田当时偏爱的写作处所之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "试想这样的场景：在处理完烦琐的公务后，他拾级而上，来到塔楼的高处。窗外，是壮阔而宁静的多尔多涅河谷，永恒的河流冲刷着战争的创伤。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "窗内，一位哲人面对稿纸，思考着“<strong>我知道什么？</strong>”" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我的书房设在塔楼的三层。第一层是小礼拜堂，第二层是卧室和壁橱，我通常睡在那里。为了独处，我上面还有一间宽敞的更衣室……这里俯瞰着我的家的庭院、花园和全部领地。” —— 蒙田《随笔集》第三卷第三章《三种交往》" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "（注：此段描述本指其城堡塔楼，但完美契合了多姆塔楼可能提供的氛围——一种抽离的、俯瞰的沉思视角。）" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多姆的五年，是他思想完全成熟的时期。第三卷的随笔，如《论经验》、《论虚荣》，比前两卷更个人化，更深刻地探讨了自我、疾病、死亡与生命的偶然性。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战乱时代的镇长经历，无疑为这些思考提供了最尖锐的注脚。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>3. 最后的旅程与不朽的痕迹</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1588年</strong>，蒙田卸任镇长。但他与多姆的联系并未断绝。晚年，他仍时常往来于自己的城堡与多姆之间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1592年</strong>，蒙田在城堡去世。而他留在多姆的，远不止一段任期。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇的中心广场，被命名为 <strong>“蒙田广场”</strong> 。广场边的市政厅塔楼，被称为“蒙田塔楼”。游客可以攀登其上，或许能依稀感受到那位哲人俯瞰河谷、思索人类境遇时的心境。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在多姆，蒙田不是教科书上的遥远名字。他是一位曾在此处散步、决策、苦恼并写下不朽篇章的邻居。他的精神遗产——怀疑主义、人文关怀与对自我的诚实审视——如同河谷的微风，浸润着这座古老要塞的每一块石头。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "除了信史，多姆的岩石与城墙也滋生着神秘的传说，为它的刚硬轮廓蒙上了一层柔和的纱。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>“地下宝藏”与幽灵骑士</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "圣殿骑士团的囚禁，为多姆带来了最经久不衰的传说：宝藏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "人们坚信，骑士们在被逮捕前，已将巨额财富（包括那件传说中的“圣殿骑士团宝藏”）秘密转移并藏匿。而多姆，这个他们最后的囚禁地，地下纵横交错的天然洞穴和地牢，被认为是最可能的藏宝处。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "数个世纪以来，不断有人试图在夜晚潜入洞穴寻找，但皆无所获。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，传说演化出了守护灵的故事：月圆之夜，在多姆城墙下的幽谷中，能看到隐约的、银白色盔甲的<strong>幽灵骑士</strong>在巡逻，默默守护着那些永不现世的秘密。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>“多姆的叹息”</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则与小镇的地理特征有关。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多姆高悬于悬崖之上，多尔多涅河谷的风穿过岩石缝隙时，常会发出呜咽般的声音。尤其是在冬季的夜晚，风声格外凄清。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当地人称之为 <strong>“多姆的叹息”</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说这叹息声有两种来源。一说是被囚禁的圣殿骑士亡魂的哀叹。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一说则更浪漫：这是一位美丽的贵族少女的叹息。在百年战争期间，她的爱人奔赴战场前，两人在多姆的城墙上立誓。然而爱人战死沙场，永未归来。少女每日在悬崖边守望，最终化入风中，她的叹息便永远留在了山谷之间，随风响起，年复一年。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“当你听到河谷的风声变得悠长而哀婉，那不是风，是多姆在回忆。它在回忆骑士的铁血，也在回忆少女的柔情。” —— 当地一位老居民的口述传统。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些传说，让历史的棱角变得生动可感。它们是多姆人文血脉的一部分，提醒着来访者：石头会记忆，风也会诉说。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日的多姆，静谧、优美，是旅游手册上的“法国最美乡村”之一。然而，当你漫步在它的拱廊下，触摸那些因无数代人手抚而光滑的石头栏杆，俯瞰脚下亘古流淌的多尔多涅河时，你触摸的是一部立体的欧洲史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它从一张<strong>王室军事蓝图</strong>中诞生，见证了中世纪王国博弈的冷酷。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的地牢承载了<strong>信仰与权力冲突</strong>中最黑暗的一页，圣殿骑士的刻痕是无声的呐喊。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它在<strong>百年战争</strong>的烽火中摇摆，城墙的每一道修补痕迹都是一次生存的胜利。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最终，它又意外地哺育了<strong>文艺复兴的人文精神</strong>，为蒙田的晚年沉思提供了那方“塔楼”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多姆的魅力，正在于这种极致的层叠。它不仅是风景，更是一个历史的切片，一个从防御工事、囚牢、战场，最终蜕变为思想高地的传奇之地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂多姆，便是读懂了权力如何塑造空间，悲剧如何烙印记忆，而人类的哲思又如何能在一切之上，寻得一片宁静的瞭望台。它的每一块石头，都在讲述着关于边界、禁锢与超越的故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/chateau-de-chantilly" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    尚
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">尚蒂伊城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Chantilly</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/uzes-duchy-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    于
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">于泽斯公国古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Uzès</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-villandry-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维朗德里城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Villandry</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -15,7 +15,7 @@ export default function OstrogMonasteryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '黑山', href: '/destinations/montenegro' },
             { label: '奥斯特罗格修道院', href: '/attractions/ostrog-monastery' },
           ]}
         />

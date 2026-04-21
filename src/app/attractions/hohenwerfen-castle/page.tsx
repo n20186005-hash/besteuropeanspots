@@ -15,7 +15,7 @@ export default function HohenwerfenCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/austria' },
             { label: '霍亨维尔芬城堡（飞鹰堡）', href: '/attractions/hohenwerfen-castle' },
           ]}
         />

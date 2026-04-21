@@ -1,0 +1,244 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '奥森豪森 Ochsenhausen｜在巴洛克艺术圣殿与蒸汽火车的时光隧道中穿行 - 最佳欧洲景点',
+  description: '当你从公交车上跳下来，双脚落在奥森豪森小镇的石板路上时，第一口呼吸到的空气就有点特别——那是一股混合了远处森林的松针清香、面包房飘来的新鲜酵母味，还有一丝若有若无、只有老式机械才会散发出的淡淡柴油与旧木头的气息。这份感官预告简直精准极了，因为它精准地概括了这里的全部灵魂：一半是飘在云端、精美绝伦的巴',
+}
+
+export default function OchsenhausenAbbeyPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥森豪森', href: '/attractions/ochsenhausen-abbey' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`奥森豪森・Ochsenhausen・德国・奥森豪森`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你从公交车上跳下来，双脚落在奥森豪森小镇的石板路上时，第一口呼吸到的空气就有点特别——那是一股混合了远处森林的松针清香、面包房飘来的新鲜酵母味，还有一丝若有若无、只有老式机械才会散发出的淡淡柴油与旧木头的气息。这份感官预告简直精准极了，因为它精准地概括了这里的全部灵魂：一半是飘在云端、精美绝伦的巴洛克艺术圣殿，另一半，则是一条喘着粗气、扎扎实实奔跑在森林大地上的老火车。
+我们先说那“飘在云端”的部分。穿过小镇宁静的、外墙刷着柔和黄色或粉色灰泥的民居，路的尽头毫无预兆地展开一片无比开阔的广场，而那座庞大的、有着明黄色外墙和暗红色屋顶的修道院建筑群，就那样气势磅礴地横亘在眼前。它不是建在山巅，却因为其无与伦比的体量与对称的庄严感，仿佛自带了一座山丘的沉稳力量。走进修道院教堂的瞬间，你会忍不住轻轻“啊”一声，然后立刻压低，生怕惊扰了这片金色的宁静。光线从高侧窗和穹顶泻下，经过无数繁复的灰泥装饰、镀金雕像和巨幅湿壁画的折射，变成了一种温润的、蜂蜜般的色调，弥漫在整个中殿。空气中漂浮着极淡的旧书、烛蜡和石头冷却后的味道，安静得能听见自己的心跳，以及偶尔从祭坛方向传来的、管风琴调试音管的几个低沉音符。你会明白，这不是一个冰冷的博物馆，它依然是小镇跳动的心脏，是当地人举办婚礼、音乐会，或只是午后来此静坐片刻的精神客厅。
+而当你还沉浸在那种神圣的宁静中时，一阵清脆的汽笛声会像一把有趣的钥匙，“咔嚓”一声把你拉回另一个时空。声音来自小镇另一头的火车站——一个看起来像从童话绘本里搬出来的、有着木饰山墙的可爱小站。那列火车本身就是个明星：车头短小精悍，漆着亮红的颜色，烟囱里喷出真正的、带着好闻煤炭味的白烟，车厢是开放式的，木制长椅被磨得发亮。它将要驶入的，不是遥远的国度，而是小镇身后那片浓密的、名叫“舒森里德”的森林。铁轨只有750毫米宽，像两条温柔的银线，引向密林深处。这就是奥森豪森最打动人心的魔法：它毫不费力地将精神的崇高与尘世的烟火，将艺术的永恒与工业的时间感，编织进了同一个日常。在这里，去教堂弥撒和去坐森林火车，都是生活中同等重要、同样令人愉悦的仪式。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你从公交车上跳下来，双脚落在奥森豪森小镇的石板路上时，第一口呼吸到的空气就有点特别——那是一股混合了远处森林的松针清香、面包房飘来的新鲜酵母味，还有一丝若有若无、只有老式机械才会散发出的淡淡柴油与旧木头的气息。这份感官预告简直精准极了，因为它精准地概括了这里的全部灵魂：一半是飘在云端、精美绝伦的巴洛克艺术圣殿，另一半，则是一条喘着粗气、扎扎实实奔跑在森林大地上的老火车。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我们先说那“飘在云端”的部分。穿过小镇宁静的、外墙刷着柔和黄色或粉色灰泥的民居，路的尽头毫无预兆地展开一片无比开阔的广场，而那座庞大的、有着明黄色外墙和暗红色屋顶的修道院建筑群，就那样气势磅礴地横亘在眼前。它不是建在山巅，却因为其无与伦比的体量与对称的庄严感，仿佛自带了一座山丘的沉稳力量。走进修道院教堂的瞬间，你会忍不住轻轻“啊”一声，然后立刻压低，生怕惊扰了这片金色的宁静。光线从高侧窗和穹顶泻下，经过无数繁复的灰泥装饰、镀金雕像和巨幅湿壁画的折射，变成了一种温润的、蜂蜜般的色调，弥漫在整个中殿。空气中漂浮着极淡的旧书、烛蜡和石头冷却后的味道，安静得能听见自己的心跳，以及偶尔从祭坛方向传来的、管风琴调试音管的几个低沉音符。你会明白，这不是一个冰冷的博物馆，它依然是小镇跳动的心脏，是当地人举办婚礼、音乐会，或只是午后来此静坐片刻的精神客厅。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你还沉浸在那种神圣的宁静中时，一阵清脆的汽笛声会像一把有趣的钥匙，“咔嚓”一声把你拉回另一个时空。声音来自小镇另一头的火车站——一个看起来像从童话绘本里搬出来的、有着木饰山墙的可爱小站。那列火车本身就是个明星：车头短小精悍，漆着亮红的颜色，烟囱里喷出真正的、带着好闻煤炭味的白烟，车厢是开放式的，木制长椅被磨得发亮。它将要驶入的，不是遥远的国度，而是小镇身后那片浓密的、名叫“舒森里德”的森林。铁轨只有750毫米宽，像两条温柔的银线，引向密林深处。这就是奥森豪森最打动人心的魔法：它毫不费力地将精神的崇高与尘世的烟火，将艺术的永恒与工业的时间感，编织进了同一个日常。在这里，去教堂弥撒和去坐森林火车，都是生活中同等重要、同样令人愉悦的仪式。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`奥森豪森`} />
+                <InfoRow label="英文名称" value={`Ochsenhausen`} />
+                <InfoRow label="正式名称" value={`Ochsenhausen Abbey`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`奥森豪森`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座前本笃会帝国修道院曾是施瓦本地区最重要的精神与文化中心之一，其巨大的规模与财富在历史上享有“黑色森林旁的宏伟修道院”之誉。`} />
+                <InfoRow label="建筑特色" value={`一个将庄严的巴洛克教堂、恢弘的修道院宫殿、静谧的回廊花园与仍在运行的19世纪森林窄轨铁路完美融合的立体生活画卷。`} />
+                <InfoRow label="建筑风格" value={`以南德绚丽的晚期巴洛克与洛可可风格为主导，教堂内部装饰极尽华美，而附属建筑则保留了严谨的文艺复兴与古典主义线条。`} />
+                <InfoRow label="文化价值" value={`它不仅是一座建筑纪念碑，更是一个持续演变的社区，艺术信仰的宁静与工业遗产的轰鸣在此奇妙共生，见证了从宗教虔诚到世俗生活的数百年变迁。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`本笃会修道院教堂全年每日白天开放（通常为8:00-18:00）；修道院博物馆（原帝国大厅）开放时间为4月至10月的周二至周日 10:00-12:00 及 14:00-17:00，11月至3月仅周末开放；历史悠久的“奥森豪森森林铁路”蒸汽/柴油窄轨火车通常在5月至10月的周末及节假日运行，具体发车时刻表需查阅当年时刻表。圣诞期间及元旦部分设施关闭。`} />
+              <InfoRow label="门票价格" value={`修道院教堂免费参观；修道院博物馆门票约5欧元，学生及团体票约3欧元；森林铁路火车单程票价约8欧元，往返约14欧元，家庭票有优惠。持有“施瓦本巴洛克之路”通票可享受折扣。`} />
+              <InfoRow label="地址" value={`Schlossplatz 1, 88416 Ochsenhausen, Germany`} />
+              <InfoRow label="交通方式" value={`从最近的国际枢纽斯图加特机场出发，搭乘S-Bahn（城铁）S2或S3线前往斯图加特主火车站（约30分钟）。在斯图加特主火车站乘坐开往乌尔姆或比伯拉赫方向的区域火车（RE/IRE），在比伯拉赫站下车（车程约1小时15分钟，班次频繁）。在比伯拉赫火车站外换乘951路公交车，直达奥森豪森镇中心（车程约25分钟，每小时1-2班）。若自驾，从斯图加特沿A8/A7高速公路前往，转入B312国道，全程约1.5小时。购买巴登-符腾堡州州票（Baden-Württemberg-Ticket）可用于当日所有区域火车和公交，非常划算。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "奥森豪森的故事，始于一个非常朴素的中世纪愿景。早在1093年，文献中首次提到了这里的一座小型修道院。但真正改变它命运的，是1100年左右，一群严格遵守本笃会规的修士的到来。他们追求“祈祷与劳作”的生活，在这片当时还是荒野与农田交界的地带扎根，开垦土地，管理森林，建立起自给自足的生活。它的崛起之路颇为神奇，并非依靠某位显赫的皇家奠基人，而是通过一系列精明的政治运作和虔诚捐赠。到了1391年，它成功地从地方主教区获得了“帝国直辖”的地位，这意味着修道院院长本人就是神圣罗马帝国的一名诸侯，直接向皇帝负责，而不受任何地方领主或主教的管辖。这一跃升，为它带来了巨大的政治特权和经济独立，财富开始滚滚而来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "整个15到16世纪，是修道院的黄金时代。它拥有的土地和森林不断扩大，几乎成了施瓦本地区一个“国中之国”。然而，宗教改革的浪潮也猛烈地冲击了这里。附近的帝国自由城市乌尔姆成了新教的重镇，奥森豪森作为坚定的天主教前哨，其压力可想而知。但历任院长凭借其帝国诸侯的身份和政治手腕，顽强地守住了信仰的阵地，甚至利用其影响力，使修道院成为天主教在施瓦本地区复兴的一个重要基地。这种繁荣在十七世纪达到了顶峰，也正是在这个时候，它决定褪去中世纪略显沉闷的外衣，换上最时髦的“新装”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这场持续近一个世纪的“变装秀”，便是我们今天看到的巴洛克与洛可可盛景。领导这场艺术革命的，是像约翰·费舍尔这样雄心勃勃的院长。他聘请了当时南德最炙手可热的艺术家家族：来自韦索布伦的费格麦尔兄弟负责那些令人眼花缭乱的湿壁画和灰泥装饰，来自阿尔高的克里斯蒂安·温克则主持了华美的圣坛雕刻。走进教堂，穹顶上描绘的是本笃会圣徒的荣耀升天，墙壁上是宏大的圣经场景，所有的线条都充满了动感，所有的天使都仿佛要挣脱石膏的束缚飞向天际。这不仅仅是为了美，更是一场精心的“反宗教改革”视觉布道，用无可比拟的感官盛宴，来彰显天主教会的荣耀与胜利，坚定信徒的信仰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但是，所有由人建造的世俗辉煌，都难逃历史的转折。1803年，席卷德意志的“世俗化”运动像一道不可抗拒的政令，解散了这座存在了七百多年的修道院。它的财产被没收，建筑被拍卖。幸运的是，它没有被拆毁，而是被符腾堡王国买下，先后成为了王室的行宫、骑兵营房，甚至是一所教师培训学院。这种“转型”意外地保护了建筑的主体结构。而小镇的生活，也渐渐从围绕修道院运转，转变为更普通的市镇模式。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "就在修道院步入世俗生活的同时，另一种“现代性”正从它的森林里生长出来。19世纪末，为了高效运输茂密森林中砍伐的木材，一条窄轨铁路开始铺设。1899年，“奥森豪森森林铁路”正式通车。最初它全靠蒸汽机车牵引，粗犷的机械力量与静谧的森林形成了奇妙的对照。后来，柴油机车逐渐取代了蒸汽机，但这条铁路的生命力一直延续，从单纯的工业运输，慢慢加入了客运功能，承载着小镇居民和远足者进入森林腹地。二战后，随着人们对工业遗产和传统价值的重新认识，这条铁路和巴洛克修道院一起，被赋予了新的文化意义。蒸汽机车被精心修复，重新上线，变成了活的博物馆。今天，当那列红色的小火车鸣响汽笛，它拉响的不仅是蒸汽，更是整个小镇从中世纪修道院庄园到现代宜居家园的、绵长而动人的回声。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受奥森豪森的双面魅力，强烈建议安排一整天时间，并最好选择一个森林铁路运行的周末。理想的节奏是上午沉浸于巴洛克的静穆与辉煌，中午在小镇享受一顿地道的施瓦本午餐，下午则投身于蒸汽火车的森林冒险。建议早上9点左右抵达，先前往修道院建筑群，此时游客稀少，教堂内的光线清透柔和，最适合静静欣赏。游览内部约需2小时。午饭后，步行约15分钟前往森林铁路车站，乘坐下午的班次进入森林。在终点站或中途的徒步点下车，进行一小段森林漫步，再乘返程车回来。这样的安排张弛有度，既能深度感受艺术，又能体验独特的交通遗产，完美呼应了此地精神与自然、历史与生活的双重脉络。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必提前在森林铁路的官方网站核对运行日期与时刻表，它在非旺季和非周末的班次非常有限，避免扑空。
+参观修道院教堂时请保持安静，如果遇到宗教活动，应静候一旁或短暂离开，尊重当地社区的信仰生活。
+穿着舒适耐走的鞋子至关重要，因为你需要在修道院的石板地、小镇街道和森林的土路之间轻松切换。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨先从侧面走近修道院，感受那绵长如宫殿般的明黄色立面在晨光中苏醒的宏伟尺度。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开厚重的木门踏入修道院教堂，让眼睛适应那从恢弘穹顶洒下的、被金色灰泥过滤的蜂蜜色光线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要登上管风琴画廊，近距离仰望那拥有三千多根音管的巨大乐器，并想象周日礼拜时乐声充满整个空间的震撼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过安静的十字回廊，来到曾经的帝国大厅（现为博物馆），看历代院长的肖像与珍宝如何诉说权力与信仰的交织。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在修道院花园的长椅上坐一会儿，看本地老人悠闲散步，感受这座昔日“国中之国”如何融入今日小镇的平和日常。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到小镇另一头那座童话般的木质火车站，买一张往返车票，等待那台红色蒸汽机车喷着白烟铿锵进站。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跳上开放式的木制车厢，任由火车以悠闲的节奏带你扎进茂密的松林与冷杉林，感受清风混合着煤烟与树木清香的独特气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在森林深处的车站下车，沿着标记清晰的徒步小径走上一段，听听鸟鸣与溪流声，彻底洗净都市的烦嚣。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`火车站台经典视角`}</h4>
+                  <p className="text-sm text-gray-700">{`在奥森豪森森林铁路的主站台，使用中焦段，等待蒸汽火车头进站停稳时，以远处修道院教堂的钟楼为背景，捕捉机械遗产与巴洛克尖顶同框的绝妙对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`修道院教堂中殿仰角`}</h4>
+                  <p className="text-sm text-gray-700">{`站在中殿中央，将相机贴近地面向上仰拍，广角镜头能收纳下从祭坛到管风琴画廊再到穹顶湿壁画的完整纵深，上午十点后的侧光能让灰泥装饰的立体感达到极致。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`十字回廊的光影长廊`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个阳光明媚的午后，站在回廊的东南角，利用廊柱形成的天然框架，拍摄光线在连续拱券下投下的规律性阴影，营造宁静而富有几何美感的空间意境。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`森林铁路弯道动态抓拍`}</h4>
+                  <p className="text-sm text-gray-700">{`在森林中段一个知名的观赏弯道（提前向司机或车站询问），提前架好相机，用较慢的快门速度（如1/60秒）拍摄火车经过时车轮的动感与车身相对的清晰，背景是深邃的树林。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`修道院广场全景`}</h4>
+                  <p className="text-sm text-gray-700">{`退到广场最远的对角，用广角镜头拍摄修道院建筑群的全景，将前景的行人、中景的广场喷泉与背景的宏伟立面一同纳入，最佳时间是日落前的一小时，温暖的夕阳光会给明黄色的外墙镀上金边。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在修道院教堂内部，通常允许不使用闪光灯的静音拍摄，但务必留意是否有禁止拍照的标识（特别是在博物馆区域）。使用三脚架可能需要提前申请许可。`}</li>
+                <li>• {`拍摄森林铁路时，尊重工作人员指引，勿在铁道线上站立或行走。与蒸汽机车合影时保持安全距离，注意喷出的蒸汽和煤灰可能较烫且易弄脏镜头。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨家庭旅馆`}</h4>
+                  <p className="text-sm text-blue-800">{`位于小镇中心一栋有百年历史的半木结构房屋里，房东太太会为你准备丰盛的施瓦本式早餐，从房间的小窗就能望见修道院的钟楼。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`修道院旁精品酒店`}</h4>
+                  <p className="text-sm text-green-800">{`由修道院附属的历史建筑改造而成，房间挑高很高，保留了原始的砖石墙面与现代设计融合，住在里面仿佛成了修道院历史的一部分。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`森林边缘度假公寓`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于小镇靠近森林铁路起点的安静街区，带小厨房和阳台，适合家庭或长住，清晨能被鸟鸣和淡淡的松木香唤醒。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`特色农家民宿`}</h4>
+                  <p className="text-sm text-purple-800">{`位于奥森豪森周边的小村庄，由真正的农场改造，提供有机食材制作的晚餐，体验巴登-符腾堡乡村的宁静，开车前往小镇仅需十分钟。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇整体治安极好，夜晚非常宁静。如果选择周末来访并计划乘坐森林火车，建议至少提前一个月预订住宿，因为这条特色线路会吸引不少火车爱好者和家庭游客。夏季是旺季，但春秋两季的森林色彩斑斓，同样迷人且游客相对较少。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开奥森豪森的时候，我的脑海里反复回响着两种声音：一种是管风琴庄严而恢弘的和声，它从石头穹顶降落，直抵内心最需要宁静的角落；另一种是蒸汽火车头“吭哧吭哧”的、有点笨拙却充满生命力的喘息，它沿着窄窄的铁轨，把人带向森林未知的绿意深处。这多么像我们自身对旅行的双重渴望啊——一方面，我们寻找那些能让我们仰望、让精神得以沉淀的永恒之物，比如艺术，比如信仰在建筑上凝固成的形式；另一方面，我们又渴望触摸真实的生活脉络，感受那些仍在运转的、带着温度与声响的历史，比如一条仍在运营的老铁路，一个依然活在当地人心中的地标。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "奥森豪森恰恰完美地同时提供了这两者，并且让它们不是彼此割裂的景点，而是呼吸与共的有机整体。它没有把自己冻结在某个辉煌的过去，成为仅供瞻仰的标本。巴洛克修道院依然是社区生活的中心，窄轨火车依然承载着人们的欢笑驶向自然。在这里，你能体会到一种非常健康的“历史观”：历史不是压在肩上的沉重包袱，而是可以居住的空间、可以乘坐的交通工具、可以聆听的故事与乐音。这种将厚重遗产转化为当下生活滋养的能力，本身就充满了智慧与温度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了那些仅仅打卡拍照的“完美”景点，如果你渴望一个地方，能同时安放你对美的敬畏与对生活烟火气的热爱，那么，请来奥森豪森。花一天时间，在这里完成一次从天堂到人间、从神殿到森林的穿越。你会发现，最动人的欧洲深度游，不止于看到什么，更在于体验到一种完整、自洽、绵延不绝的生活哲学。而这，正是奥森豪森这个施瓦本小镇，给予旅人最慷慨的礼物。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/havelberg" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈弗尔贝格</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Havelberg</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lohr-am-main-snow-white" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    美
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">美因河畔洛尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lohr am Main</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alsfeld" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔斯费尔德</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alsfeld</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

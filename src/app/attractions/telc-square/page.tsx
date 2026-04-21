@@ -15,7 +15,7 @@ export default function TelcSquarePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '特尔奇广场', href: '/attractions/telc-square' },
           ]}
         />

@@ -1,0 +1,147 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '米拉姆贝尔深度旅游攻略：探秘阿拉贡荒原的中世纪围城私藏指南',
+  description: '探寻西班牙特鲁埃尔的隐秘瑰宝Mirambel（米拉姆贝尔）。这份深度游攻略带你走进完好的石铺街道与圣殿骑士团修女院，揭秘中世纪围城的打卡路线与避坑指南。',
+}
+
+export default function MirambelGuidePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '米拉姆贝尔', href: '/attractions/mirambel-guide' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`米拉姆贝尔・Mirambel・西班牙・特鲁埃尔`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你厌倦了巴塞罗那和马德里的人潮，今天这份**米拉姆贝尔私藏旅游攻略**，就带你躲开一切喧嚣，一头扎进西班牙阿拉贡地区那片被时间遗忘的荒原深处。米拉姆贝尔不是一个大名鼎鼎的目的地，它安静地蜷伏在特鲁埃尔省的群山中，是一座保存得惊人完好的中世纪围墙小镇。想象一下：当你穿过唯一的城门，脚下是几个世纪前铺设、被岁月磨得光滑的石板路，眼前是蜂蜜色的石头房屋，而空气中只有风声和你自己的脚步声。作为你的专属向导，这份**自由行指南**请收好——我们将一起探索那些带有精美木质阳台的古老修女院，触摸圣殿骑士团留下的印记，并告诉你如何用一天时间，彻底沉浸在这座活化石般的小镇里。这绝对是一次穿越，而非简单的游览。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你厌倦了巴塞罗那和马德里的人潮，今天这份<strong>米拉姆贝尔私藏旅游攻略</strong>，就带你躲开一切喧嚣，一头扎进西班牙阿拉贡地区那片被时间遗忘的荒原深处。米拉姆贝尔不是一个大名鼎鼎的目的地，它安静地蜷伏在特鲁埃尔省的群山中，是一座保存得惊人完好的中世纪围墙小镇。想象一下：当你穿过唯一的城门，脚下是几个世纪前铺设、被岁月磨得光滑的石板路，眼前是蜂蜜色的石头房屋，而空气中只有风声和你自己的脚步声。作为你的专属向导，这份<strong>自由行指南</strong>请收好——我们将一起探索那些带有精美木质阳台的古老修女院，触摸圣殿骑士团留下的印记，并告诉你如何用一天时间，彻底沉浸在这座活化石般的小镇里。这绝对是一次穿越，而非简单的游览。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`米拉姆贝尔`} />
+                <InfoRow label="英文名称" value={`Mirambel`} />
+                <InfoRow label="正式名称" value={`Mirambel`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`特鲁埃尔`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`米拉姆贝尔的历史，是一部浓缩的西班牙边境史诗。它最初由穆斯林建立，在12世纪基督教再征服运动中被阿拉贡王国夺取。其真正的战略地位在13世纪后凸显，成为基督教王国对抗南方格拉纳达酋长国的前沿要塞之一。这里最引人遐想的一笔，是它与**圣殿骑士团**的紧密联系。骑士团曾在此拥有大量财产和影响力，他们留下的不只是军事防御工事的雏形，更是一种深刻的宗教与殖民烙印。小镇后来被赠予蒙托亚骑士团（圣殿骑士团解散后的继承者之一），其城镇规划与核心建筑都深深打上了军事修会的印记。在随后的几个世纪里，尽管边境线南移，米拉姆贝尔因其偏僻的位置，奇迹般地避开了大规模的现代化改造和战争破坏，如同一枚被琥珀完整封存的中世纪标本。它不仅仅是阿拉贡的遗产，更是理解伊比利亚半岛上基督教与伊斯兰文明漫长拉锯、以及军事修会如何塑造边境社会的一个绝佳微观案例。`} />
+                <InfoRow label="建筑特色" value={`走进米拉姆贝尔，你首先会被一种极其和谐统一的**材质与色彩**所征服：几乎所有的建筑都采用本地开采的暖黄色石灰岩。石头表面未经粉刷，在阿拉贡强烈的阳光下，从清晨的淡金色逐渐过渡到正午的蜜糖色，再到傍晚时分泛出玫瑰金的色泽。**石铺街道**是这里的灵魂，它们狭窄、蜿蜒，石块大小不一，拼接却异常紧密，数百年人迹与车辙的打磨，让表面呈现出如丝绸般温润的光泽，雨天时会倒映出两侧石墙的身影。而最令人屏息的细节，莫过于那些源自**修女院古建**的**木质阳台**。它们从厚重的石墙上挑出，雕工繁复精美——不是卡斯蒂利亚地区那种华丽 ironwork 的封闭式阳台，而是敞开的、由深色木材（通常是橡木或松木）雕刻而成的走廊式阳台。栏杆上布满几何图案或简化的植物纹样，有些还保留着古老的天竺葵花盆，那一抹跳跃的红色或粉色，与深褐的木、暖黄的石形成绝妙对比，是刚毅中世纪风貌中一抹温柔的生命力。`} />
+                <InfoRow label="建筑风格" value={`米拉姆贝尔的整体建筑风格可以定义为**乡村哥特式与穆德哈尔风格的混合体**，并以强烈的**军事防御性**为底层逻辑。所谓“乡村哥特式”，在这里体现为建筑的简洁与实用：尖拱窗不多，但会出现；飞扶壁等复杂结构被省略，代之以极其厚实的承重石墙。而**穆德哈尔风格**，作为西班牙独有的基督教与伊斯兰艺术融合的产物，在这里表现得非常含蓄却深刻。它主要体现在那些**木质阳台**和部分建筑的砖雕装饰上。阳台的镂空几何图案（如星星、菱形网格）就源自伊斯兰艺术的审美传统，通过当时归顺基督教王国的穆斯林工匠（穆德哈尔人）之手实现。更重要的是，整个小镇的布局：高耸的、几乎没有窗户的临外墙，唯一的入口城门，内部迷宫般狭窄的街道（易于巷战防守），都清晰地表明这是一座为战争和边境冲突设计的**围城**。所以，它的美不是宫殿式的炫耀，而是一种生于忧患、功能与形式高度统一的、充满力量感的朴素之美。`} />
+                <InfoRow label="文化价值" value={`对于仅有百余位常住居民的米拉姆贝尔来说，这座小镇不是博物馆，而是他们生活的全部背景与身份根源。完整保存的中世纪肌理，让每天的散步都成为与历史的对话。当地人对石头房屋的维护（使用传统工艺和材料），对古老节庆（如纪念守护神的庆典）的坚持，本身就是一种活态的文化传承。这里的文化价值在于一种“连续性”。它没有沦为纯粹旅游观赏的空壳，居民在古老的房子里过着现代生活，但节奏缓慢，尊重传统。这种氛围深刻影响着居民，培养出一种沉静、坚韧且充满社区凝聚力的性格。对现代社会而言，米拉姆贝尔是一面镜子，提醒我们在追求发展的同时，关于“根”与“记忆”的重要性。它被授予“西班牙最美村庄”之一，并得到精心保护，其价值已超越本地，成为欧洲文化遗产中关于“如何让历史社区继续生存”的一个珍贵范本。来到这里，你消费的不是商品，而是一段仍在呼吸的时间。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 米拉姆贝尔一日游打卡路线攻略：漫游中世纪围城全记录`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行步行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好啦，跟着我的声音，我们开始这趟时间旅行吧。**一日游路线**建议你上午抵达，将车停在城墙外的免费停车场。我们的探索从**圣玛丽亚门**开始——这是进入中世纪围城的唯一通道，摸一摸那厚重的门拱，仪式感拉满。穿过门洞，立刻右转上坡，沿着**城墙步道**走一小段，这是俯瞰小镇全景和周围荒原的第一个绝佳视角。随后回到主街**Calle Mayor**，慢慢向小镇中心广场**Plaza de la Iglesia**溜达，感受石板路在脚下的起伏。中午前，重点参观广场上的**圣母升天教堂**和紧邻的**前圣殿骑士团修女院**（现为文化中心），仔细品味那些木质阳台。午餐就在广场附近解决。下午，钻进教堂后面那些如迷宫般的**小巷**，目标是找到“Arco de la Mora”等几个古老的石拱门。之后，可以去小镇另一头的**古老洗衣房**看看，想象几个世纪前妇女们在此劳作交谈的场景。傍晚时分，再次回到城墙高处，等待夕阳将整个小镇和远方的荒原染成金色——那是一天中最魔幻的时刻。晚上如果留宿，寂静的星空和绝对的黑暗会让你终生难忘。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>修女院的木质阳台</strong>：站在修女院（现文化中心）的庭院里抬头看。那些深褐色的木质阳台从蜂蜜色的石墙上优雅地探出。仔细观察栏杆，上面雕刻着重复的菱形和星形几何图案，阳光穿过，会在下方的石地上投下不断移动的、如同蕾丝般的光影。想象一下几个世纪前，修女们或许就站在这片阴影之下，俯瞰着下方寂静的庭院，外面是充满不确定性的边境世界。木头的温润与石头的冷峻，在此达成了一种充满张力的和谐。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>石铺街道的质感</strong>：刻意选择一条小巷，比如<strong>Calle de las Monjas</strong>，蹲下来触摸地面。这些石板不是整齐划一的，它们大小形状各异，边缘因为常年的磨损而变得圆润。石头的颜色也深浅不一，从灰白到赭黄，拼贴出一幅天然的抽象画。雨后，石板会变成深褐色，散发出淡淡的、潮湿的泥土和矿石的气息，映出两侧石墙和一线天空的倒影，仿佛街道本身变成了一条浅浅的溪流。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>城墙的垛口与视野</strong>：从圣玛丽亚门旁登上残存的<strong>城墙</strong>。走到一个垛口前，将手放在被风吹日晒得粗糙不堪的石块上。从这里望出去，视野陡然开阔：近处是小镇层层叠叠的陶土瓦屋顶，远处是阿拉贡荒原特有的、辽阔而干燥的赭石色大地，点缀着低矮的灌木和橄榄树。风声在这里变得清晰可闻，呼啸着穿过垛口。这一刻，你瞬间理解了“边境要塞”的含义——一种建立在孤寂与警惕之上的壮美。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>门廊下的光影游戏</strong>：小镇有几个保存完好的古老石拱门通道，如<strong>Arco de la Mora</strong>。在正午时分站在拱门下，你会看到阳光从一侧狭窄的街道斜射进来，被拱门的弧线切割，在另一侧的墙壁和地面上投射出清晰而明亮的弧形光斑。光区与阴影区对比极其强烈，空气中飞舞的微尘在光柱中清晰可见。这个场景像极了文艺复兴时期的油画，安静、深邃，充满了形而上的宁静感，是摄影的绝妙时机。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 米拉姆贝尔自由行避坑指南与关键行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "首先，<strong>最佳游览时间</strong>是春季（5-6月）和秋季（9-10月）。夏天阿拉贡内陆非常炎热干燥，荒原景观可能过于焦灼，且小镇几乎无树荫遮蔽。冬季则寒冷多风，虽然更有中世纪萧瑟感，但体感不佳。<strong>穿着建议</strong>至关重要：请务必，务必穿一双<strong>绝对舒适、防滑的平底鞋</strong>！那些美丽的石板路历经数百年，表面光滑且凹凸不平，高跟鞋或硬底鞋简直是灾难。服装以休闲、便于活动的为主，并随身携带一件防风外套，荒原上的天气和风瞬息万变。关于<strong>避开人流</strong>——这里几乎永远没有“人流”，最大的“人群”可能就是一个十来人的旅行团。但如果你想获得最纯粹的寂静体验，建议工作日前往，并尽量在上午10点前或下午4点后游览中心区域，这时居民活动也较少。最后，<strong>防盗防骗</strong>方面这里极其安全，民风淳朴。但需注意，小镇服务设施有限：几乎没有ATM机，很多小餐馆和商店只收现金（欧元），务必提前备好零钱。餐馆营业时间非常“西班牙”，下午1点半后才供应午餐，晚上8点后半才供应晚餐，规划好用餐时间避免饿肚子。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 米拉姆贝尔周边住宿与在地美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想在米拉姆贝尔过夜，需要提前计划，因为住宿选择非常有限，但体验无价。小镇内有一两家由古老石屋改造的<strong>乡村民宿</strong>，通常只有几个房间，需要提前邮件或电话预订。住在里面，你能感受到一米多厚石墙带来的与世隔绝的静谧，清晨被教堂钟声（如果还有的话）或鸟鸣唤醒，推开木窗就是中世纪街景。如果订不到，可以住在约15分钟车程外的<strong>坎塔维耶哈</strong>或<strong>拉伊格莱苏埃拉</strong>等稍大的村镇，也有不错的乡村旅馆。<strong>餐饮</strong>方面，小镇广场上或主街旁的家庭式餐馆是唯一选择。不要期待豪华料理，而是享受地道朴实的<strong>阿拉贡乡村菜</strong>。必点包括：用本地食材慢炖的 <strong>“山地菜”</strong>，烤羔羊肉，以及特色甜品。午餐的“当日菜单”性价比最高。找一家有户外座位的，点一杯本地的红酒，看着广场上几乎静止的时光，这就是最地道的体验。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从米拉姆贝尔出发，你的阿拉贡荒原<strong>小众景点推荐</strong>之旅才刚刚开始。强烈推荐驱车约20分钟，前往同样被誉为最美村庄的 <strong>坎塔维耶哈</strong>。它比米拉姆贝尔规模稍大，同样拥有令人惊叹的悬崖地理位置和完好的中世纪风貌，山顶教堂的视野更为壮阔。两个小镇风格相近又微妙不同，连着一起看，能更深刻感受这片土地的建筑统一性与多样性。另一个方向，可以探索<strong>莫拉摩尔高原</strong>的自然景观，那里有怪石嶙峋的地貌和徒步小径，能从另一个角度理解这片塑造了中世纪边境文化的、严峻而美丽的自然力量。这两个地方都与米拉姆贝尔形成完美的文化-自然互补一日游。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "米拉姆贝尔的灵魂，在于那份极致的“静”与“韧”。它不像一个景点，更像一个遗世独立的句号，沉默地坐落在荒原尽头，用完整的石躯讲述着关于坚守、时间以及文明边缘如何开出一朵朴素之花的故事。来这里，不是为了收集打卡照，而是为了让自己的节奏，彻底慢成一场中世纪黄昏的光影。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/combarro-galicia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贡巴罗</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Combarro</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ubeda" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乌
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乌韦达古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Úbeda</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/santillana-del-mar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    桑
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">桑蒂利亚纳德尔马尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Santillana del Mar</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

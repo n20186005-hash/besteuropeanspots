@@ -15,7 +15,7 @@ export default function MostaRotundaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '马耳他', href: '/destinations/malta' },
             { label: '姆斯塔圆顶教堂', href: '/attractions/mosta-rotunda' },
           ]}
         />

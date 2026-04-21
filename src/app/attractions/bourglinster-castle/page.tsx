@@ -15,7 +15,7 @@ export default function BourglinsterCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/luxembourg' },
             { label: '布尔格林斯特城堡（隐秘的十二世纪贵族双堡）', href: '/attractions/bourglinster-castle' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function OlavinlinnaSavonlinnaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/finland' },
             { label: '萨翁林纳奥拉维城堡', href: '/attractions/olavinlinna-savonlinna' },
           ]}
         />

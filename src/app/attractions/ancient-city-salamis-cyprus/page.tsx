@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '萨拉米斯古城深度旅游攻略：探秘地中海沉睡巨人的终极自由行指南',
+  description: '探索塞浦路斯萨拉米斯古城（Salamis）深度游攻略，揭秘古希腊罗马巨型剧场与海滨废墟，包含一日游路线、避坑指南及门票交通全信息。',
+}
+
+export default function AncientCitySalamisCyprusPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '萨拉米斯古城', href: '/attractions/ancient-city-salamis-cyprus' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`萨拉米斯古城・Salamis・塞浦路斯・法马古斯塔`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，想象一下：你走在一条被烈日烤得发白的沙土小径上，耳边是地中海永不止息的海浪声，空气里混合着野生迷迭香的干燥香气和一丝咸腥。忽然间，一片令人屏息的巨大石造圆弧，从茂密得几乎有些蛮荒的松树与金雀花灌木丛中“撞”入你的视野——这就是萨拉米斯。今天这份萨拉米斯古城私藏旅游攻略，就带你躲开人潮，深入这座被时间与绿意吞噬的千年都城。它不是修剪整齐的博物馆，而是一场真正的、带着尘土与海风气息的时空探险。作为你的专属向导，这份自由行指南请收好，我们会一起摸到那些被阳光晒得温热的罗马柱石，听到风穿过剧场所唱的史诗。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，想象一下：你走在一条被烈日烤得发白的沙土小径上，耳边是地中海永不止息的海浪声，空气里混合着野生迷迭香的干燥香气和一丝咸腥。忽然间，一片令人屏息的巨大石造圆弧，从茂密得几乎有些蛮荒的松树与金雀花灌木丛中“撞”入你的视野——这就是萨拉米斯。今天这份萨拉米斯古城私藏旅游攻略，就带你躲开人潮，深入这座被时间与绿意吞噬的千年都城。它不是修剪整齐的博物馆，而是一场真正的、带着尘土与海风气息的时空探险。作为你的专属向导，这份自由行指南请收好，我们会一起摸到那些被阳光晒得温热的罗马柱石，听到风穿过剧场所唱的史诗。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`萨拉米斯古城`} />
+                <InfoRow label="英文名称" value={`Salamis`} />
+                <InfoRow label="正式名称" value={`Salamis`} />
+                <InfoRow label="国家" value={`塞浦路斯`} />
+                <InfoRow label="城市" value={`法马古斯塔`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`萨拉米斯可不是一般的古城遗址。在荷马史诗《伊利亚特》的记载里，它的建立者正是特洛伊战争中的英雄、弓箭手透克罗斯。这就意味着，当你踏入这片土地，你踩着的传说是直接连着特洛伊木马和阿喀琉斯之踵的。历史上，它是塞浦路斯岛上最早、最重要且最持久的城邦之一，从青铜时代晚期（约公元前11世纪）一直繁荣到拜占庭时期。它的心脏跳动与整个地中海文明史同步：作为重要的铜贸易中心（塞浦路斯的名字就源于“铜”），它积累了惊人的财富；它先后被亚述人、埃及人、波斯人统治，又在希腊化时代大放异彩；罗马时期，它更是塞浦路斯的行政首府，达到了鼎盛。公元4世纪那场毁灭性的大地震，以及后来阿拉伯人的袭掠，才让它最终被遗弃，将辉煌深埋于沙土与丛林之下。所以，这里每一块石头，都叠压着从神话时代到帝国黄昏的层层历史。`} />
+                <InfoRow label="建筑特色" value={`萨拉米斯的建筑，美在一种“巨物”与“残破”交织的震撼。最夺目的无疑是那座**大剧场**。它依着小山坡而建，如同一个半开的、石质的贝壳。33排观众席，能容纳超过一万五千人，即便今天大部分座位石已风化或消失，其巨大的弧形轮廓依然能瞬间让你感受到古代的“流量”规模。石阶被千年的人流磨得光滑，缝隙里长出一丛丛顽强的野花。走下舞台区，抬头仰望层层座位，压迫感与崇高感并存。另一处杰作是**罗马浴场**的列柱群。数十根巨大的科林斯式石柱，由粉红色的花岗岩制成，虽然大部分只剩光秃的柱身，却依然以整齐又略显踉跄的队列，倔强地立在蓝天下。柱头雕刻的莨苕叶纹虽已模糊，但阳光移动时，仍能在石面上勾勒出精巧的阴影。这些柱子原本支撑着宏伟的拱顶，如今，拱顶早已坍塌，柱子们便成了直接“支撑”着蓝天白云的雕塑，残破，却有一种悲剧性的壮丽。`} />
+                <InfoRow label="建筑风格" value={`萨拉米斯是古希腊与古罗马建筑风格的露天教科书。剧场的形制是典型的**希腊化风格**，完美的半圆形（而不是罗马时期更常见的完整圆形），利用自然山坡的坡度，将声学效果和景观视野最大化。你可以试站在舞台中央低声说话，声音真的能清晰地传送到高处——这是古希腊人对数学与物理的精妙应用。而**罗马风格**则淋漓尽致地体现在浴场、健身房和别墅遗址上。罗马人热爱公共生活与享乐，他们的建筑追求宏大、实用与奢华。浴场复杂的地暖系统（通过砖柱支撑地板，留下热气通道的遗迹仍可辨认）、健身房宽阔的庭院、以及马赛克地板，都是罗马工程学与生活美学的体现。此外，你还能看到早期**拜占庭风格**的痕迹，比如巴西利卡式教堂巨大的地基和雕刻着基督教符号的柱头，展示了这座城从多神信仰转向基督教的历程。`} />
+                <InfoRow label="文化价值" value={`对于塞浦路斯人而言，萨拉米斯远不止一个旅游景点。它是民族认同的源头之一，是“我们曾如此辉煌”的实体证明。这个岛屿地处欧亚非十字路口的特殊位置，使得萨拉米斯成为文化融合的熔炉——希腊的哲学、罗马的法律、埃及的艺术、东方的神秘主义都在此交汇。今天，它像一位沉默的导师，提醒着人们这片土地复杂而深厚的历史层次。对现代世界，它的价值在于提供了一种“未过度修复”的考古现场体验。不同于一些被精心“装扮”过的遗址，萨拉米斯在很大程度上保持了被发现时的状态：废墟与自然（那些茂密的灌木丛）激烈地争夺着空间。这种“野性”迫使参观者动用更多的想象力，去拼凑往日的繁华，从而获得更深刻、更个人化的历史共鸣。它教会我们，文明的衰亡与自然的再生，可以是同一首诗的两个篇章。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 萨拉米斯古城一日游打卡路线攻略：从巨剧院到罗马浴场全景探索`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行核心路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的向导，我建议把一整天交给萨拉米斯，它太大，值得慢慢品。**上午（9:00-12:30）**：从主入口进入后，直奔 **“心脏”——大剧场**。趁早晨光线柔和、人还不多，在这里静静坐一会儿，感受空旷与回声。然后向北走，探索**罗马健身房遗址**，看看那些残存的黑白马赛克地板，想象古罗马运动员在此训练。接着，穿过一片橄榄树林，前往**柱廊大街**，虽然只剩基座，但能清晰看出这条当年城市中轴线的恢弘尺度。**中午（12:30-14:00）**：走到遗址区北端的**海滨区域**，这里通常有树荫，可以面对地中海野餐（记得自带食物和水，遗址内无餐饮）。吹着海风休息，是绝佳体验。**下午（14:00-17:00）**：重头戏是探索**罗马浴场建筑群**，花时间在那些粉红色列柱间穿梭、拍照。然后向南参观巨大的**水库遗址**和**拜占庭教堂群**。最后，如果体力允许，可以去更南端的**“监狱”遗址**看看（其实可能是仓库或工坊），那里更幽静。日落时分，回到剧场附近，金色的光线会让整个废墟变成琥珀色，是完美的收官时刻。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>剧院舞台中央的那块“原石”</strong>：走到圆形舞台的正中心，低头看。这里往往有一块颜色稍深、未经精细雕琢的大石板。传说这就是最初舞台的核心。试着在这里拍手或轻轻哼唱，听听声音如何被弧形石壁聚拢、放大、向上传送。那一刻，你仿佛成了千年间的第一个也是最后一个演员，与建筑产生了最直接的物理连接。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>罗马浴场列柱的“粉色光泽”</strong>：下午三四点的阳光斜射时，找到那几根保存较好的粉红色花岗岩列柱。走近，用手触摸（请轻柔）。石面在阳光的加热下温暖异常，并且会透出一种类似肌肤的、内敛的粉色光泽，与周围灰白色的石灰石柱截然不同。想象这些巨柱是如何从远方采石场运来，又如何在工匠手中被竖立，这抹粉色是奢华与坚韧的混合印记。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>柱廊大街尽头的海景框</strong>：站在柱廊大街的废墟上，朝北望向地中海。那些整齐排列的柱基，在视觉上形成了一条强有力的引导线，把你的目光直接引向蔚蓝的海平面。这个构图本身就是古代城市规划的杰作——将城市最重要的礼仪大道与掌控他们命运的大海轴线对齐。拍下这个画面，它是最能体现萨拉米斯“海滨大都”气魄的视角。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>健身房遗址的马赛克“小丑”</strong>：在健身房一个房间的角落，仔细寻找地面残存的马赛克。你可能会发现一个几何图案中，镶嵌着一个非常生动的小人物头像，表情滑稽，像个街头艺人或小丑。在如此宏伟的公共建筑里，这个充满生活情趣的小细节格外动人。它提醒你，历史不只有帝王将相，也有普通人的幽默与烟火气。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>对抗“烧烤”模式</strong>：塞浦路斯夏季（6-9月）阳光极其毒辣，萨拉米斯遗址几乎没有遮阴。<strong>最佳游览时间是春季（3-5月）和秋季（10-11月）</strong>。如果只能夏天来，务必早晨一开门（通常是8:30）就进去，中午最热时撤退到阴凉处或结束游览。帽子、太阳镜、高倍数防晒霜、<strong>大量饮用水</strong>（人均至少2升）是保命装备。穿<strong>轻便、透气的长袖长裤</strong>不仅能防晒，还能防灌木刮擦。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>鞋履是关键</strong>：地面是沙土、碎石和凹凸不平的古代石板路。<strong>绝对不要穿拖鞋或凉鞋</strong>！一定要穿包裹脚踝、防滑耐磨的<strong>徒步鞋或运动鞋</strong>。否则，脚底打滑或被尖锐石块硌伤会毁了整个旅程。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>规划路线，避免“鬼打墙”</strong>：遗址面积巨大，标志牌虽然有一些，但在茂密灌木丛中容易错过。<strong>强烈建议在入口处拿一份纸质地图，或提前在手机里存好高清遗址地图</strong>。大致按我们上面推荐的路线走，可以覆盖精华且不走回头路。如果看到某条小径完全被灌木淹没，不要强行闯入，可能有蛇或摔伤风险。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>财物与补给</strong>：遗址内没有任何商店或自动售货机。所有需要的食物、水必须自带。同时，保管好随身物品，虽然这里不像大城市拥挤，但把包随意放在无人看管的地方也不安全。建议使用轻便的背包，解放双手。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 萨拉米斯周边住宿与美食攻略：住在法马古斯塔城墙内的风情`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "萨拉米斯本身没有住宿，最近的基地是<strong>法马古斯塔（Famagusta）</strong> 城区，尤其推荐住在<strong>威尼斯城墙包围的老城内</strong>。这里氛围独特，夜晚在古老石街上散步非常惬意。餐厅方面，老城内有不少地道小馆。一定要尝试<strong>塞浦路斯特色“哈鲁米”（Halloumi）奶酪</strong>，煎烤后外焦里嫩，奶香咸鲜。<strong>“苏夫拉”（Souvla）</strong>——大块烤肉，也是必点。找一家有露天座位的餐厅，点一份海鲜拼盘，搭配本地产的<strong>“Commandaria”甜葡萄酒</strong>，这就是完美的塞浦路斯之夜了。如果想吃简餐，老城港口附近的咖啡馆提供不错的意面和沙拉，可以一边吃一边看港口帆船。住宿选择从精品酒店到家庭旅馆都有，提前预订旺季房源。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>法马古斯塔城墙与奥赛罗城堡</strong>：从萨拉米斯驱车十分钟即可回到法马古斯塔老城。一定要花时间<strong>步行环绕或登上一部分威尼斯城墙</strong>，这是中世纪最杰出的防御工事之一。<strong>奥赛罗城堡</strong>（Othello‘s Castle）坐守港口，据说莎士比亚的《奥赛罗》灵感来源于此。登上塔楼，俯瞰整个老城红瓦屋顶与碧海港湾的景色，与萨拉米斯的古老形成有趣的时空对话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>圣尼古拉斯大教堂（拉拉·穆斯塔法帕夏清真寺）</strong>：同在法马古斯塔老城内，这座建筑是历史层积的绝佳象征。它原本是14世纪建成的哥特式大教堂，精致无比，后来被改为清真寺。你可以同时看到<strong>哥特式的玫瑰窗、飞扶壁和旁边矗立的奥斯曼式宣礼塔</strong>。内部虽然已是清真寺的布置，但基督教建筑的骨架清晰可见。这种强烈的文化碰撞，能让你对塞浦路斯复杂的历史有更立体的理解。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "萨拉米斯的灵魂，在于那种无言的磅礴与宁静的忧伤。它不像一个被精心供奉的纪念碑，而更像一位沉睡在地中海阳光与灌木丛中的巨人，允许你在它的骨骼间自由穿行、触摸和想象。这里教会你的，不是具体的历史日期，而是一种重量——时间足以让最辉煌的帝国化为尘埃，但阳光、海浪和石头的温度，却依然在讲述着永不落幕的故事。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kyrenia-harbour-castle-shipwreck-museum" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    凯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">凯里尼亚港与城堡（塞浦路斯）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kyrenia Harbour & Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/amathus-cyprus" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿玛苏斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Amathus</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lefkara-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莱
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莱夫卡拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lefkara</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

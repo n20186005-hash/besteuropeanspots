@@ -15,7 +15,7 @@ export default function TarazonaOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '塔拉索纳老城', href: '/attractions/tarazona-old-town' },
           ]}
         />

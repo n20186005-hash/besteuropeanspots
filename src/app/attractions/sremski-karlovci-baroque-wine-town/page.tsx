@@ -15,7 +15,7 @@ export default function SremskiKarlovciBaroqueWineTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞尔维亚', href: '/destinations/serbia' },
             { label: '斯雷姆斯基卡尔洛夫奇（巴洛克酒乡）', href: '/attractions/sremski-karlovci-baroque-wine-town' },
           ]}
         />

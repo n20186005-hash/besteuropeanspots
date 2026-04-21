@@ -15,7 +15,7 @@ export default function LasMedulasRomanGoldMinePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '拉斯梅杜拉斯', href: '/attractions/las-medulas-roman-gold-mine' },
           ]}
         />

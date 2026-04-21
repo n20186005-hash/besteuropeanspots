@@ -15,7 +15,7 @@ export default function SanJuanDeGaztelugatxePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '加兹特鲁加特岛', href: '/attractions/san-juan-de-gaztelugatxe' },
           ]}
         />

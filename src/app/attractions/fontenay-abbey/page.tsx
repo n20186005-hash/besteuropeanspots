@@ -15,7 +15,7 @@ export default function FontenayAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '法国', href: '/destinations/france' },
             { label: '丰特莱修道院', href: '/attractions/fontenay-abbey' },
           ]}
         />

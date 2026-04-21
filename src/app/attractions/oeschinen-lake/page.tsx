@@ -15,7 +15,7 @@ export default function OeschinenLakePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '厄希宁湖', href: '/attractions/oeschinen-lake' },
           ]}
         />

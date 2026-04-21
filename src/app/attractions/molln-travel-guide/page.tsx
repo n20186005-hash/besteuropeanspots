@@ -1,0 +1,150 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '莫尔恩旅游攻略：探访蒂尔故乡与千湖之城的童话漫步指南',
+  description: '探索德国莫尔恩（Mölln）深度游攻略，揭秘捣蛋鬼蒂尔的长眠之地，漫步中世纪老城与宁静湖畔。这份实用指南涵盖门票、交通与一日游路线。',
+}
+
+export default function MollnTravelGuidePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '莫尔恩', href: '/attractions/molln-travel-guide' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`莫尔恩・Mölln・德国・石勒苏益格-荷尔斯泰因`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果让我推荐一个能瞬间让你逃离喧嚣、跌进童话书页里的德国小镇，莫尔恩（Mölln）绝对榜上有名。想象一下：你被上百个晶莹的湖泊温柔地环抱着，脚下是鹅卵石铺就的蜿蜒小巷，空气里混合着烤杏仁糖的甜香和湖水的清冽。而这里最大的秘密，是那位传说中恶作剧不断、机智讽刺的民间英雄——“捣蛋鬼蒂尔·奥伊伦施皮格尔”的长眠之地。今天这份**莫尔恩自由行指南**，就像你的一位老友在领路，带你躲开标准化的旅游陷阱，深入这座“千湖之城”的心脏，去触摸它中世纪的面庞，聆听蒂尔穿越时空的窃笑声。这不仅仅是一份**打卡攻略**，更是一次关于传说、湖泊与慢时光的**深度游**邀请函。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果让我推荐一个能瞬间让你逃离喧嚣、跌进童话书页里的德国小镇，莫尔恩（Mölln）绝对榜上有名。想象一下：你被上百个晶莹的湖泊温柔地环抱着，脚下是鹅卵石铺就的蜿蜒小巷，空气里混合着烤杏仁糖的甜香和湖水的清冽。而这里最大的秘密，是那位传说中恶作剧不断、机智讽刺的民间英雄——“捣蛋鬼蒂尔·奥伊伦施皮格尔”的长眠之地。今天这份<strong>莫尔恩自由行指南</strong>，就像你的一位老友在领路，带你躲开标准化的旅游陷阱，深入这座“千湖之城”的心脏，去触摸它中世纪的面庞，聆听蒂尔穿越时空的窃笑声。这不仅仅是一份<strong>打卡攻略</strong>，更是一次关于传说、湖泊与慢时光的<strong>深度游</strong>邀请函。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`莫尔恩`} />
+                <InfoRow label="英文名称" value={`Mölln`} />
+                <InfoRow label="正式名称" value={`Mölln`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`石勒苏益格-荷尔斯泰因`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`别看莫尔恩现在一副与世无争的宁静模样，它在历史上可是北德“汉萨同盟”的重要成员之一。这个由商人城市组成的强大联盟，在中世纪掌控着波罗的海和北海的贸易命脉。莫尔恩凭借其得天独厚的水路网络——它正好位于古老的“盐路”上，连接着吕贝克和吕讷堡——成为了食盐、鲱鱼等商品转运的关键枢纽。这种繁荣在13世纪达到了顶峰，并为此后几个世纪的城镇建设奠定了财富基础。然而，让它真正在欧洲文化版图上留下独特烙印的，并非仅仅是商业，而是一个“不靠谱”的传奇人物：蒂尔·奥伊伦施皮格尔。根据传说，这位出生于14世纪的农夫之子，以一系列荒诞又充满智慧的恶作剧，嘲笑了贵族、教士和市侩的虚伪。他于1350年在莫尔恩死于瘟疫，并葬于此地。蒂尔的故事通过民间话本传遍整个德语世界乃至欧洲，成为一种反抗权威、歌颂平民智慧的文化符号。因此，莫尔恩从一个汉萨贸易城，升华为了一个欧洲级民间传说的永恒载体，这份文化遗产的重量，丝毫不亚于任何一座宏伟的宫殿。`} />
+                <InfoRow label="建筑特色" value={`漫步在莫尔恩的老城，你会感觉时光被小心翼翼地封存在了蜜色的砖石里。这里的建筑不像南德那样色彩绚烂，而是带着北德特有的沉稳与坚实。大量红砖结构的房屋是主角，那种经过岁月沉淀的暗红色，在阴天显得厚重古朴，在阳光下则泛着温暖的橘调。许多山墙屋顶的房子有着阶梯形的轮廓，像一本本厚重的古籍书脊并列在街道两侧。仔细看，你会发现不少门楣上雕刻着精致的日期和象征丰收的麦穗图案。圣尼古拉教堂是绝对的地标，其红砖砌成的高耸塔楼是典型的北德砖砌哥特式风格，线条硬朗而庄严。走近了看，砖块拼接的工艺本身就是一种艺术，形成几何感强烈的装饰图案。老市政厅是一座迷人的半木结构建筑，白色的墙面被深色的木条分割成整齐的格子，二楼凸出的窗户仿佛在好奇地打量着广场上的行人。这些建筑的色彩是内敛的：砖红、木棕、墙白、瓦灰，共同调和出一幅宁静、朴实而又充满细节的中世纪小镇画卷。`} />
+                <InfoRow label="建筑风格" value={`莫尔恩的建筑风格以北德**砖砌哥特式**和**文艺复兴**时期的半木结构为主。**砖砌哥特式**在这里体现得淋漓尽致，尤其是在圣尼古拉教堂。你可以理解为，当法国人用精致的石雕追求轻盈飞升时，北德的工匠们则用一块块烧制的粘土砖，垒砌出同样指向天空的渴望。因为缺乏优质石材，砖块成了主要材料。这种风格显得更加几何化、更有重量感。教堂塔楼上那些狭长的尖拱窗、墙壁上由不同颜色砖块拼出的装饰带，都是砖砌哥特式的典型语言，它不追求繁复的雕刻，而是在砖块的排列组合中展现庄严与力量。另一方面，老城里遍布的**半木结构房屋**则代表了文艺复兴后期至巴洛克初期富裕市民的住宅风格。你可以通俗地把它想象成“木头骨架的房子”：深色的、粗壮的木梁构成房屋的框架，像裸露的骨骼，框架之间再用砖或灰泥填充。这不仅是一种坚固的建筑方式，那些“人”字形、“十字”形的木架结构本身也具有强烈的装饰美感，展示了主人的财力。在莫尔恩，这两种风格和谐共存，砖砌的教堂诉说神权与城市的荣耀，半木结构的民宅则洋溢着世俗生活的温暖与富足。`} />
+                <InfoRow label="文化价值" value={`对于莫尔恩乃至整个德语文化圈的人来说，“捣蛋鬼蒂尔”绝不仅仅是一个历史书上的名字。他早已融入了当地的血液，成为了一种精神象征和集体认同。每年，小镇都会举办与蒂尔相关的活动，他的形象出现在商店招牌、纪念品和街头雕塑上。蒂尔代表着一种接地气的智慧、一种用幽默反抗不公的勇气，以及一种永不褪色的民间活力。他提醒人们，笑声和机智也是重要的生存工具。对于现代社会而言，莫尔恩守护蒂尔遗产的努力，是一种对非物质文化遗产的珍视。同时，这座被湖泊森林环绕的小镇，也代表了一种与自然和谐共处的“北德生活哲学”。这里没有工业化的匆忙，生活节奏随着湖面的波光慢慢荡漾。它向游客展示了一种可能性：幸福可以很简单，是周末的一次湖上泛舟，是咖啡馆露台上的一杯长时凝视，是沿着古老运河的一次漫无目的的散步。莫尔恩的文化价值，就在于它同时守护了一个嬉笑怒骂的灵魂和一片能让灵魂安歇的静谧山水。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 莫尔恩一日游打卡路线攻略：从蒂尔喷泉到湖畔夕阳`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行步行路线推荐`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`作为你的专属向导，这份**一日游路线**请收好。我们不走马观花，而是像当地人一样“浸泡”其中。**上午**，从老城西侧的“吕贝克门”开始，这是进入中世纪莫尔恩的古老入口。穿过它，立刻右转去**蒂尔喷泉**，和这位铜铸的“捣蛋鬼”打个照面，看他那狡黠的表情如何开启你的一天。接着，让鹅卵石小路带你走向中心地标——**圣尼古拉教堂**，记得进去看看那些古老的彩绘玻璃和静谧的内庭。出来后，对面就是精美的**老市政厅**和热闹的**集市广场**，可以在周围的咖啡馆买一杯咖啡，坐在广场边看人来人往。**中午**，务必在广场附近找一家有“Fischbrötchen”（鱼排汉堡）的小店解决午餐，这是北德湖畔的味觉灵魂。**下午**，从广场向东，沿着“蒂尔街”漫步，两侧是迷人的半木结构老房子和小精品店。这条路会把你引向**城市历史博物馆**（位于一座老修道院内），帮你梳理小镇的前世今生。之后，继续向东走到**运河边**，这里是莫尔恩水网的核心。沿着运河向北散步，看船只慢慢通过古老的水闸，最终你会到达**城市湖**的南岸。**傍晚**，在湖边的长椅或啤酒花园坐下来，什么都不做，只是等待夕阳把湖水、帆船和对岸的森林染成金黄。这就是最完美的莫尔恩节奏。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>蒂尔喷泉上的狡黠眼神</strong>：在集市广场附近，一定要蹲下来，平视那座青铜的蒂尔雕像。他盘腿坐着，一手托腮，脸上挂着那种“你懂的”笑容。最妙的是他的眼睛，无论你从哪个角度看他，他似乎都在与你对视，眼神里充满了顽童般的机灵和一丝嘲讽。雕塑家完美捕捉了传说中那个永远在谋划下一个恶作剧的灵魂，这个细节让冰冷的金属充满了生命力，仿佛下一秒他就会跳起来，给你讲一个讽刺权贵的笑话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>圣尼古拉教堂的彩绘“商船”窗</strong>：走进教堂主堂，别忘了抬头寻找那扇特别的彩绘玻璃窗。上面描绘的不是圣徒，而是一艘中世纪汉萨同盟的商船，正在波涛中航行。阳光透过这扇窗，会把彩色的光影投射在古老的条凳上。这个细节罕见而直接地宣告了莫尔恩的历史身份——一个依靠贸易繁荣的城市。在神的殿堂里为世俗的功业留一席之地，这体现了北德商人务实而虔诚的独特心态，仿佛在说：“上帝保佑，我们的船只平安，生意兴隆。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>老市政厅山墙上的金色风向标</strong>：抬头仔细看老市政厅陡峭的山墙顶端，那里立着一个精致的金色风向标，形状是一条优美的鲱鱼。这不仅是个实用的工具，更是一个充满自豪感的城市徽章。在中世纪，腌鲱鱼是北海-波罗的海贸易中最重要的大宗商品之一，是汉萨同盟财富的源泉。这条在风中旋转的“金鲱鱼”，永远提醒着人们莫尔恩作为贸易枢纽的光辉往事，它是一个闪闪发光的梦想，把海洋的气息和财富的期望，日夜带回到这个内陆湖泊之城的上空。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>运河船闸旁的缓慢时光</strong>：走到老城东侧的运河边，找一张长椅坐下，看船只过闸。这个过程缓慢而有序：船驶入闸室，厚重的木闸门缓缓关闭，水流声汩汩作响，水位慢慢上升或下降，与另一面的运河持平，然后对面的闸门再打开。这可能是你能体验到最“慢”的几分钟。这个机械而古老的细节，是莫尔恩水网生命的脉搏。它不像火车般迅疾，却有一种安稳的确定性，让人心也随之平静下来，真切地感受到何为“流淌的时光”。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 莫尔恩自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>避开火车道口的尴尬时刻</strong>：莫尔恩老城被一条仍在使用的铁路线穿过，有几个无人看守的道口。谷歌地图可能会指引你穿越这些道口小路。切记，当警报响起、栏杆落下时，千万不要尝试抢行或从栏杆下钻过，即使看起来火车还有一段距离。北德的区域性火车有时很安静，速度也不慢。安全第一，多等几分钟，正好欣赏一下老火车驶过红色砖墙的画面，这也是种体验。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿对鞋子，征服鹅卵石</strong>：老城几乎全由大小不一的鹅卵石铺就，虽然极富风情，但对鞋子的要求很高。务必放弃漂亮但底薄或高跟鞋，选择一双<strong>舒适防滑的步行鞋或运动鞋</strong>。你的脚踝和游览心情会因此得到拯救。另外，这些石子路在雨后可能有些湿滑，行走时稍加注意。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>留意“宁静的周日”与商店营业时间</strong>：德国北部尤其注重周日休息。除了餐馆和咖啡馆，几乎所有商店、超市周日都会关门。周六下午4点后，许多小店也会打烊。因此，如果你的<strong>一日游</strong>安排在周日，请提前准备好现金（有些小咖啡馆可能只收现金），并且将期待更多地放在自然风光、教堂和户外散步上，而非购物。工作日游览，商店通常在上午10点后才开门。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 莫尔恩周边住宿与湖畔美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果你想真正沉浸在这片湖光山色中，强烈建议在莫尔恩或紧邻的<strong>吕贝克尔湖畔</strong>住一晚。莫尔恩城内有一些由半木结构老屋改造的<strong>精品酒店或家庭旅馆</strong>，住在里面就像睡在历史里，推开窗可能就是教堂塔楼。更推荐的是寻找湖边（如离莫尔恩很近的Schaalsee湖或Ratzeburger See湖）的<strong>度假公寓或花园民宿</strong>，清晨在鸟鸣和波光中醒来是无价的体验。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "美食方面，必须尝试北德的“湖鲜”。在集市广场的 <strong>“Ratskeller”</strong>（市政厅地窖餐厅）或任何一家看起来本地人很多的餐馆，点一道<strong>鳟鱼</strong>或<strong>梭鲈鱼</strong>，通常是简单煎制或水煮，配以黄油土豆和时蔬，鲜美无比。<strong>杏仁糖</strong>也是这里的特产，老城有专门的糖果店，那浓郁的坚果香气飘满整条街。下午茶时间，可以找一家运河边的咖啡馆，点一块经典的<strong>北德苹果蛋糕</strong>，配上一大勺打发奶油，看着船只来来往往，这才是度假的感觉。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从莫尔恩向东南驱车或乘坐地区巴士约20分钟，就能抵达另一颗汉萨明珠——<strong>拉策堡</strong>。这座小城坐落在拉策堡湖的一座岛屿上，通过堤道与陆地相连，风景如画。那里的<strong>拉策堡大教堂</strong>是著名的红砖建筑杰作，比莫尔恩的教堂更为宏伟。在拉策堡，你可以换一个角度，体验另一种“湖中城”的静谧与壮丽。如果时间更充裕，莫尔恩所在的这片“荷尔斯泰因瑞士”地区遍布湖泊和森林，租一辆自行车或划一艘小船，才是打开这里最地道的方式。探索那些地图上没有名字的小湖湾，你会发现自己完全融入了这片绿色的迷宫。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "莫尔恩的灵魂，是水的灵动与传说的顽皮交织而成的。湖水给了它宁静的底色，而蒂尔那永不熄灭的幽默感，则像投入湖心的一颗石子，在历史的平静水面上，漾开了一圈圈生动而智慧的涟漪。在这里，你找到的不仅是一处风景，更是一种举重若轻的生活态度。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gottorf-castle-schleswig" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    戈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">戈托尔夫城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gottorf Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bad-wimpfen" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴特温普芬</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bad Wimpfen</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/stolberg-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施托尔贝格城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Stolberg Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -15,7 +15,7 @@ export default function DiksmuideIjzertorenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/belgium' },
             { label: '迪克斯迈德（伊泽尔塔与一战弗拉芒平原重镇）', href: '/attractions/diksmuide-ijzertoren' },
           ]}
         />

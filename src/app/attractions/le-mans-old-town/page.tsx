@@ -15,7 +15,7 @@ export default function LeMansOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '勒芒老城', href: '/attractions/le-mans-old-town' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function OchtinskaAragoniteCavePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/slovakia' },
             { label: '奥赫廷斯卡文石洞', href: '/attractions/ochtinska-aragonite-cave' },
           ]}
         />

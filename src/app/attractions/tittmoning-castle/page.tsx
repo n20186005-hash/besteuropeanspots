@@ -1,0 +1,149 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '蒂特莫宁城堡旅游攻略：探秘萨尔察赫河畔的雄伟边境要塞',
+  description: '探索德国巴伐利亚的Tittmoning蒂特莫宁城堡深度游攻略。本指南带你走进雄伟的中世纪边境要塞，揭秘其历史与建筑魅力，提供实用路线与避坑建议。',
+}
+
+export default function TittmoningCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '蒂特莫宁城堡', href: '/attractions/tittmoning-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`蒂特莫宁城堡・Tittmoning Castle・德国・巴伐利亚，蒂特莫宁镇`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友！如果厌倦了慕尼黑的人潮，想找一处真正能触摸到历史铠甲与听见河水低语的地方，那今天这份**蒂特莫宁城堡私藏旅游攻略**，就是为你准备的。它不像新天鹅堡那样童话，但当你第一眼看到这座庞大、极其四方的砖石巨兽，威严地矗立在翠绿的萨尔察赫河弯道之上时，那种直击心灵的震撼，是任何明信片都无法给予的。这里曾是巴伐利亚公国生死攸关的边防前线，每一块砖都浸透着边境的紧张与荣光。**作为你的专属向导，这份自由行指南请收好**，我们将一起绕过旅游团，潜入这座活着的军事堡垒，感受从箭孔中吹过的、跨越了几个世纪的风。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友！如果厌倦了慕尼黑的人潮，想找一处真正能触摸到历史铠甲与听见河水低语的地方，那今天这份<strong>蒂特莫宁城堡私藏旅游攻略</strong>，就是为你准备的。它不像新天鹅堡那样童话，但当你第一眼看到这座庞大、极其四方的砖石巨兽，威严地矗立在翠绿的萨尔察赫河弯道之上时，那种直击心灵的震撼，是任何明信片都无法给予的。这里曾是巴伐利亚公国生死攸关的边防前线，每一块砖都浸透着边境的紧张与荣光。<strong>作为你的专属向导，这份自由行指南请收好</strong>，我们将一起绕过旅游团，潜入这座活着的军事堡垒，感受从箭孔中吹过的、跨越了几个世纪的风。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`蒂特莫宁城堡`} />
+                <InfoRow label="英文名称" value={`Tittmoning Castle`} />
+                <InfoRow label="正式名称" value={`Tittmoning Castle`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`巴伐利亚，蒂特莫宁镇`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`蒂特莫宁城堡的历史，就是一部浓缩的德意志边境争夺史。它的战略地位至关重要，因为脚下的萨尔察赫河在漫长岁月里并非一条普通河流，而是萨尔茨堡大主教区与巴伐利亚公国之间反复划动、充满火药味的国界线。城堡最早建于13世纪，在随后几百年里不断加固、扩建，根本目的只有一个：死死盯住河对岸，防御来自萨尔茨堡方向的威胁。它不仅是军事前哨，更是巴伐利亚权力与意志的象征。在多次边境冲突与战争中，这座要塞都发挥了关键作用，成为巴伐利亚东南部防御体系的坚实盾牌。它的存在，确保了后方领土的安全与贸易路线的通畅。理解蒂特莫宁，你就理解了中世纪欧洲封建领主间那种微妙的、时战时和的边境生态——它不是国与国的清晰边界，而是势力范围犬牙交错的锋面，而这座城堡，就是钉在最前沿的那颗最硬的钉子。`} />
+                <InfoRow label="建筑特色" value={`走近它，你会被其纯粹的力量感所折服。城堡整体呈现一个规整的四方体形制，这是军事防御建筑最经典的形态，没有任何冗余的装饰，一切为了实用与坚固。外墙是厚重的砖石结构，历经风雨呈现出一种深沉的赭石与灰黑色调。墙角高大的圆形防御塔楼是视觉焦点，塔身开有狭长的射击孔，像警惕的眼睛。城堡主体建筑高耸，红瓦铺就的陡峭屋顶，与白色的石灰勾缝形成鲜明对比，在巴伐利亚的蓝天白云下格外醒目。最令人印象深刻的是它整体的“完整性”——城墙、主楼、塔楼、庭院保存极为完好，没有沦为断壁残垣，而是作为一个雄健的整体盘踞在山丘上，仿佛随时可以进入战备状态。当你用手触摸那些冰凉粗糙的砖石，能清晰地感觉到时光的颗粒感与建造者的匠心。`} />
+                <InfoRow label="建筑风格" value={`蒂特莫宁城堡主要体现了**中世纪晚期的防御性建筑风格**，并融入了部分文艺复兴时期的居住元素。它的核心风格是“要塞建筑”，特点非常鲜明：高耸、厚重、封闭。你看那几乎垂直的外墙，是为了让攻城者难以攀爬；狭小的窗户（后期才扩大），是为了减少防御弱点；巨大的城门和吊桥遗迹，诉说着当年严密的关卡控制。城堡的四方布局和角楼设计，确保了无死角的火力覆盖。不过，它并非一味粗犷。在内部庭院和后来的居住区域，你能看到优雅的拱廊、装饰性的壁画痕迹以及更开阔的窗户，这反映了16世纪后，随着火炮的出现，纯粹的城堡防御功能下降，居住舒适性开始提升，建筑风格向文艺复兴宫殿过渡的痕迹。但无论如何演变，其骨子里的那股军事堡垒的硬朗气质，始终未曾改变。`} />
+                <InfoRow label="文化价值" value={`今天的蒂特莫宁城堡，早已卸下战甲，温柔地融入了当地社区的脉搏。它不再是边境冲突的焦点，而是蒂特莫宁镇的灵魂与市政厅所在地。这种“军转民”的转变极具象征意义：曾经用于防御外敌的坚固空间，如今服务于本地市民的公共事务与文化生活在城堡内举办音乐会、艺术展览和传统市集，已成为常态。对当地人而言，它不仅是地理地标，更是身份认同的源泉——他们是生活在“要塞”脚下、被历史守护着的一群人。城堡也承载着集体的历史记忆，教育着一代代年轻人关于和平的珍贵。它从“对峙的前线”转变为“文化交流的窗口”，每年吸引着对历史感兴趣的游客，安静地讲述着关于边界、冲突与最终和解的故事，这对于现代欧洲的一体化进程，是一种无声却有力的历史注脚。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 蒂特莫宁城堡一日游路线攻略：从河畔漫步到要塞之巅`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行步行打卡路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，攻略的核心——路线来了！咱们就按一天来规划，节奏刚刚好。**上午**，别急着冲进城堡。我强烈建议你先从河对岸开始。把车停在镇外，沿着萨尔察赫河畔散步。这个角度是拍摄城堡全景的绝佳位置，晨曦中的城堡倒映在平静的河面上，气势恢宏。过桥进入小镇，在石板路两旁的面包房买一个新鲜的“Brezen”（扭结面包），感受小镇清晨的苏醒。**中午**，开始正式的城堡探索。从山脚下的主城门进入，沿着坡道向上，感受被高墙包围的压迫感。参观城堡内部的庭院、小教堂（如果开放）以及作为市政厅的部分公共区域。**下午**，重点放在城堡的户外部分。沿着城墙漫步，从不同的角度俯瞰蒂特莫宁镇的红屋顶和远处的田野。如果体力允许，一定要登上最高的塔楼（或观景平台），将萨尔茨堡方向的阿尔卑斯山前风光尽收眼底。傍晚时分，夕阳会给砖石外墙镀上金色，这时在下山路上回望，又是另一番迷人景象。最后，在山脚下找家啤酒花园，用一顿巴伐利亚晚餐结束完美的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>萨尔察赫河湾与城堡倒影</strong>：一定要在上午光线柔和时，走到小镇外侧的河边。从这里看，庞大的城堡与其在水中的完整倒影构成一个完美的对称图形，河水潺潺，背景是绿野与远山。这个画面浓缩了城堡与自然环境相依相存数百年的关系，是<strong>打卡攻略</strong>里绝不能错过的封面级镜头。静静地看一会儿，你会感到一种穿越时空的宁静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>主城门与坡道</strong>：进入城堡的通道本身就是一个防御杰作。厚重的木门（有时是铁门）、上方用于倾泻滚油或箭矢的“谋杀洞”结构清晰可见。走在倾斜的石头坡道上，脚步声在城墙间回荡，你能瞬间代入一名中世纪士兵或商旅的角色，体验那种进入安全庇护所前最后的紧张与期待。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>内庭文艺复兴拱廊</strong>：穿过厚重的防御工事，进入内庭可能会让你眼前一亮。这里有一排优雅的文艺复兴式拱廊，轻快的线条与外面军事化的厚重形成戏剧性对比。阳光透过拱廊，在地上投下规律的光影。这里曾是领主生活起居的地方，仔细看柱头和墙壁，或许还能找到残存的装饰浮雕，诉说着城堡功能从纯粹防御向舒适居住的转变。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>城墙俯瞰视角</strong>：沿着城墙步行道走到面向东北的段落。这里是整个<strong>一日游路线</strong>的视觉高潮。眼前豁然开朗，蒂特莫宁小镇色彩斑斓的屋顶像积木一样铺展在山坡下，更远处是萨尔察赫河蜿蜒的翠绿河谷，以及天际线上若隐若现的阿尔卑斯山轮廓。这个视角能让你彻底明白城堡选址的精妙——制高点，绝对的视野控制。想象一下哨兵在此瞭望的情景。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>时间与人流避坑</strong>：城堡最美的时刻是清晨和黄昏，旅游大巴团通常集中在上午10点到下午3点。<strong>作为小众景点推荐</strong>，建议你工作日来访，或利用周末的早晚时段，能独享大部分宁静。注意，城堡内部作为市政厅，办公区域通常不开放给游客随意进入，但庭院和外部城墙全年可自由参观（部分塔楼可能限时开放或收费，行前最好在官网确认）。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿着与行走</strong>：这座城堡建在山丘上，全程需要步行，且很多路段是古老的石头路，不平整且可能有坡度。<strong>务必</strong>穿一双舒适防滑的徒步鞋或运动鞋，千万别穿高跟鞋或皮鞋。巴伐利亚天气多变，即使是夏天，城堡高处风也可能很大，带一件防风外套或披肩是明智之举。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>交通与停车</strong>：蒂特莫宁小镇街道狭窄。最省心的方式是<strong>将车停在镇外指定的游客停车场（Parkplatz am Wasserwerk是个好选择），然后步行5-10分钟进入镇中心和城堡。</strong> 避免尝试把车开进老城狭窄的巷道，既难开又难停。使用公共交通的话，从慕尼黑或萨尔茨堡出发需要火车加大巴接驳，务必提前在DB（德铁）官网查好班次，乡镇地区车次不那么频繁。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 蒂特莫宁周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "住宿方面，如果你想沉浸式体验，蒂特莫宁镇上就有几家迷人的家庭式旅馆或民宿，通常是由传统木结构房屋改造，房间不大但温馨干净，价格实惠。比如“Gasthof zur Post”就在镇中心，位置绝佳。更推荐的是住在周边风景优美的乡村客栈，开车10分钟范围内有很多选择，能享受到更纯粹的巴伐利亚田园风光和宁静夜晚。美食是重头戏！下山后，一定要去镇上的“Brauereigasthof Wasserwirt”或“Gasthof Neuwirt”。点一份经典的巴伐利亚烤猪肘（Schweinshaxe）配酸菜和土豆丸子，或者白香肠（Weißwurst）配甜芥末酱。别忘了佐以当地酿造的清冽啤酒。在啤酒花园里，和当地人一起坐在长条木椅上，这才是最地道的体验。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "蒂特莫宁本身已足够独特，但如果你还有半天时间，强烈推荐两个<strong>周边小众景点</strong>。一是驱车前往仅约15分钟车程的 <strong>“Burg Burghausen”</strong>（布尔高城堡）。没错，就是那座号称“世界最长城堡”（长度超过1公里）的惊人建筑。从蒂特莫宁这个“点”状的强大要塞，到布尔高这条“线”状的巨型城堡防线，你能对巴伐利亚东南部的整个边境防御体系有更立体、震撼的理解。另一个方向是沿着萨尔察赫河向北漫游，河边有许多徒步和骑行小道，风景如画，会经过一些更不知名的小村和宁静的河湾，适合喜欢随意探索的旅行者。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "蒂特莫宁的灵魂，在于它那从“锋利边境之矛”悄然化为“温暖家园之盾”的宁静力量。它不再需要证明自己的武力，只是静静地坐在河边，看着河水奔流、世代更迭，将那段关于守卫与边界的故事，沉淀成砖石里每一道温柔的光影。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/braunfels-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布劳恩费尔斯城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Braunfels Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/naumburg-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瑙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瑙姆堡大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Naumburg Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/dinkelsbuehl-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    丁
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">丁克尔斯比尔老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dinkelsbühl</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -15,7 +15,7 @@ export default function KeszthelyFesteticsPalacePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/hungary' },
             { label: '凯斯特海伊（费斯泰蒂奇宫）', href: '/attractions/keszthely-festetics-palace' },
           ]}
         />

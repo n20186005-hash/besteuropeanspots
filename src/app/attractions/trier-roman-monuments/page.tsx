@@ -15,7 +15,7 @@ export default function TrierRomanMonumentsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '特里尔古罗马遗迹', href: '/attractions/trier-roman-monuments' },
           ]}
         />

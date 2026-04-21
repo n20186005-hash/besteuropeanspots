@@ -15,7 +15,7 @@ export default function ParkOfTheMonstersBomarzoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '博马尔佐怪兽公园', href: '/attractions/park-of-the-monsters-bomarzo' },
           ]}
         />

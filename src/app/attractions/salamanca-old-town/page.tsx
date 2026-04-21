@@ -15,7 +15,7 @@ export default function SalamancaOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '萨拉曼卡老城', href: '/attractions/salamanca-old-town' },
           ]}
         />

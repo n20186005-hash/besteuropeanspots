@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '拉斯雷斯Lastres深度旅游攻略：打卡西班牙陡峭阶梯渔村的治愈之旅',
+  description: '探索西班牙阿斯图里亚斯的拉斯雷斯Lastres，一座建在悬崖上的迷人渔村。本深度游攻略涵盖一日游路线、打卡机位及避坑指南，带你领略坎塔布里亚海的无敌风光。',
+}
+
+export default function LastresAsturiasPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '拉斯雷斯', href: '/attractions/lastres-asturias' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`拉斯雷斯・Lastres・西班牙・阿斯图里亚斯`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你正在寻找一个能让时间慢下来、让心跳（和腿脚）加速的梦幻之地，那阿斯图里亚斯的拉斯雷斯，绝对是你的私藏清单上必须拥有名字的地方。今天这份**拉斯雷斯旅游攻略**，就带你躲开人潮，深入这个“挂在”悬崖上的彩色积木小镇。想象一下：成百上千栋白墙红瓦、或黄或蓝的小屋，像被一只巨手随意却精心地撒在面向坎塔布里亚海的陡峭山坡上，房屋之间由无数蜿蜒、狭窄、陡得惊人的石阶和小巷相连，最终簇拥着一个依然活跃的渔港。海风永远带着咸味和生命力，海鸥的叫声是这里的背景音。作为你的专属向导，这份**Lastres自由行指南**会告诉你，如何用最舒服的姿势，征服这些阶梯，收获最壮阔的风景，而不仅仅是“到此一游”。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你正在寻找一个能让时间慢下来、让心跳（和腿脚）加速的梦幻之地，那阿斯图里亚斯的拉斯雷斯，绝对是你的私藏清单上必须拥有名字的地方。今天这份<strong>拉斯雷斯旅游攻略</strong>，就带你躲开人潮，深入这个“挂在”悬崖上的彩色积木小镇。想象一下：成百上千栋白墙红瓦、或黄或蓝的小屋，像被一只巨手随意却精心地撒在面向坎塔布里亚海的陡峭山坡上，房屋之间由无数蜿蜒、狭窄、陡得惊人的石阶和小巷相连，最终簇拥着一个依然活跃的渔港。海风永远带着咸味和生命力，海鸥的叫声是这里的背景音。作为你的专属向导，这份<strong>Lastres自由行指南</strong>会告诉你，如何用最舒服的姿势，征服这些阶梯，收获最壮阔的风景，而不仅仅是“到此一游”。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`拉斯雷斯`} />
+                <InfoRow label="英文名称" value={`Lastres`} />
+                <InfoRow label="正式名称" value={`Lastres`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`阿斯图里亚斯`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`别看拉斯雷斯现在一副与世无争的治愈模样，它的历史可一点儿也不“清淡”。作为一个传统渔村，它的存在与北大西洋的波涛紧密相连了几个世纪。早在中世纪文献中就有它的记载，但其真正的发展黄金期是在16至18世纪，那时它已成为阿斯图里亚斯地区重要的捕鲸和捕鳕鱼基地。这里的渔民以勇敢著称，他们驾驭着小船，深入变幻莫测的坎塔布里亚海，与风浪搏斗，带回维系整个社区生存的财富。渔业的繁荣塑造了村庄的社会结构和建筑格局——为了最近距离地靠近赖以生存的大海，房子只能一层一层向悬崖上“生长”，形成了今天我们看到的独特垂直村落景观。它没有王公贵族的城堡传奇，却拥有一部由普通渔民书写的、充满盐分、汗水与勇气的鲜活海洋史诗，这本身就是它在欧洲海滨村落历史中，最独特、最动人的地位。`} />
+                <InfoRow label="建筑特色" value={`拉斯雷斯的建筑是一场视觉与功能的完美协奏。走近看，那些让你远处惊叹的“彩色积木”，其实大多是朴实而坚固的。墙体主要采用当地的花岗岩，石头表面粗糙，带着历经风雨的灰白或深褐色，给人一种顽强的生命力感。窗户和木制阳台是点睛之笔：阳台通常被漆成深绿、海蓝或巧克力棕色，从白色的墙壁上探出来，阳台上永远摆放着盛放的天竺葵或天空葵，红、粉、紫的花朵在深色木框的衬托下，明媚得耀眼。屋顶是典型的西班牙北部样式，铺着浓重的赤陶瓦片，经过海风和雨水的洗礼，颜色变得深沉而富有层次。最迷人的是建筑之间的“负空间”——那些陡峭的阶梯（“Calle Real”主阶梯是最著名的代表）和窄巷。阶梯的扶手可能是简单的铁栏，台阶被无数足迹磨得光滑，缝隙里长出小小的青草。阳光在不同时间切割着这些巷道，创造出明明暗暗的光影戏剧，一个转角，可能就是一幅构图完美的画面。`} />
+                <InfoRow label="建筑风格" value={`这里没有恢弘的哥特教堂或华丽的巴洛克立面，拉斯雷斯呈现的是最纯粹、最动人的**阿斯图里亚斯乡土建筑风格**。这种风格的核心就是“实用与适应”。如何理解？首先，它“适应”了极端的地形：建筑根据地势起伏而建，你常会看到一栋房子的屋顶，正好是上面一栋房子的庭院或入口平台，这种层层叠叠、相互借力的关系，是平地建筑中绝对看不到的奇观。其次，它“实用”于渔民生活：房屋通常不大，结构紧凑以保暖防风；宽敞的阳台和窗户用于晾晒渔网、观察海况；厚实的石墙用以抵御大西洋凛冽的海风。色彩的应用也颇具心思，明亮的门窗框颜色不仅是为了美观，更是在灰蒙蒙的雾天或阴沉的海面上，成为归家渔船最清晰的指引灯塔。所以，这里的建筑风格，就是一部关于生存、社区和与自然共存的立体教科书，比任何教科书都更生动。`} />
+                <InfoRow label="文化价值" value={`对当地人而言，拉斯雷斯不仅仅是一个家，更是一种身份认同和生命节奏的象征。尽管旅游业带来了变化，但村庄的灵魂依然系在港口。清晨，引擎的突突声、渔民的吆喝声、拍卖市场的喧闹，是唤醒小镇的序曲。你可以看到老酒馆里，围坐着一群脸庞刻着风霜的渔民，他们聊天的内容离不开天气、鱼群和船只。这种深厚的渔业传统，孕育了独特的文化，比如当地的海鲜美食节，以及那些流传于酒馆中的、关于大海的传说与歌谣。对现代社会来说，拉斯雷斯就像一剂高效的“降压药”。它代表着一种未被过度包装的、真实的地中海（确切说是坎塔布里亚海）生活方式，吸引着渴望逃离都市格子间、寻找本真与宁静的人们。它甚至因为其无与伦比的景观，成为了多部西班牙影视剧的取景地，从另一个维度向世界传递着它的美。在这里，文化价值不在于博物馆的收藏，而在于港口的气息、阶梯上的日常，和每一扇面向大海的窗户后的生活。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 拉斯雷斯Lastres一日游打卡路线攻略：从港口到观景台的全景漫步`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行徒步路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，咱们的徒步探险正式开始！这份**一日游路线**主打一个“由低到高，全景收藏”。**上午**，我们把起点放在灵魂所在——**渔港（Puerto de Lastres）**。别急着爬坡，先感受一下活力：看看归航的渔船，闻闻空气中咸腥的海风味，如果运气好，还能目睹海鲜拍卖的热闹场面。在港口边的咖啡馆喝杯咖啡醒神。接着，沿着水边向村庄底部走，找到那条著名的**皇家阶梯（Calle Real）** 的起点，准备“攀登”。**中午**，沿着阶梯缓缓而上，不必赶路，每一个平台、每一个转角都是拍照点。中途会经过古老的**圣玛丽亚教堂（Iglesia de Santa María de Sábada）**，虽然朴素，但门口广场视野极佳。午餐时间，可以在阶梯半腰找一家家庭餐馆，务必尝尝当天捕上来的**阿斯图里亚斯炖鱼（Caldereta）**。**下午**，继续向上，目标是山顶的**圣罗克观景台（Mirador de San Roque）**。这是体力的终极考验，但回报是震撼的——整个拉斯雷斯如画卷般铺展在你脚下，远眺无尽的坎塔布里亚海。之后，可以选择另一条稍平缓的小径下山，换一个角度欣赏村庄。**傍晚**，回到港口，看夕阳将白色的房屋染成金黄，在港口餐厅享用一顿完美的海鲜晚餐，结束圆满的一天。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>“悬空”的阳台与花盆</strong>：在攀登阶梯时，务必抬头或侧目。你会发现许多阳台仿佛是从陡峭的石壁上“凭空生长”出来的。特别留意那些木质栏杆已经有些斑驳的古老阳台，上面密密麻麻摆满了陶土花盆，里面爆棚的天竺葵几乎要倾泻而下。阳光透过花瓣，在古老的石墙上投下颤动的影子，这是生命与岁月、柔软与坚硬最极致的对话。找一个这样的阳台作为前景，背后是层层叠叠的屋顶和大海，就是一张教科书级的拉斯雷斯明信片。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>港口防波堤的垂钓者剪影</strong>：下午或黄昏时分，走到港口的防波堤尽头。这里通常会有一两个安静的垂钓者，像雕塑般坐在石墩上，背对着村庄和漫天霞光。他们的鱼竿伸向大海，身形在广阔的海天背景下显得孤独而专注。这个场景充满了哲学感和电影感。海浪拍打堤坝的声音，海鸥的鸣叫，以及那份无限的等待，共同构成了一幅动态的《老人与海》画面，精准捕捉了这座渔村宁静而坚韧的精神内核。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>门楣上的船只浮雕与铁艺灯</strong>：仔细观察一些老房子的石门楣。有时你会发现上面雕刻着简单却传神的小帆船图案，这是渔民家庭的荣耀徽章。此外，许多门廊或街道转角还保留着古老的铁艺街灯。这些灯造型古朴，在白天是精致的装饰，想象入夜后，它们发出昏黄温暖的光晕，照亮湿漉漉的鹅卵石小路和海雾弥漫的街道，那种氛围瞬间将你拉回几十年前甚至更古老的时光。触摸一下那冰凉的铁艺和粗糙的石雕，是直接与历史握手。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>从观景台俯瞰的“屋顶交响乐”</strong>：站在圣罗克观景台，别只顾着拍大全景。请仔细俯瞰脚下那片无边无际的屋顶之海。赤陶瓦片铺就的斜坡，在阳光下呈现出从橙红到赭石色的丰富渐变，它们被白色的女儿墙分割成一个个不规则的几何图形。烟囱像小士兵一样排列，电视天线略显突兀却充满生活气息。这些屋顶的线条全部指向一个方向——大海，形成了一种强烈的视觉动势，仿佛整个村庄正缓缓滑向蔚蓝的坎塔布里亚海，壮观又充满奇妙的动感。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 拉斯雷斯自由行避坑指南与行前须知`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>脚上的功夫最重要</strong>：这不是开玩笑！<strong>拉斯雷斯的阶梯又陡又密，很多路段坡度极大</strong>。请务必、必须、一定要穿一双<strong>防滑、舒适、支撑性好的徒步鞋或运动鞋</strong>。女性千万别穿高跟鞋或硬底皮鞋，那简直是“酷刑”。轻装上阵，双肩包比单肩包更省力。如果你的膝盖或体力不太好，可以考虑只游览港口和下半部分村庄，山顶观景台量力而行。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>征服光线与人群的秘诀</strong>：<strong>最佳游览时间是春季（5-6月）和初秋（9-10月）</strong>，天气温和，游客相对较少。夏季是旺季，中午阳光直射且游客多。如果想拍出光线柔美、人少的街道，<strong>一定要早起</strong>（清晨7-9点），那时的阳光是金色的，斜射进小巷，光影效果绝佳。或者等到傍晚日落前，光线同样迷人。中午时分不妨在餐厅或咖啡馆休息，避开最晒的时候。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>停车与防盗贴士</strong>：自驾的朋友，村庄高处有停车场（如 near Mirador de San Roque），但旺季车位紧张，建议早点到达。港口附近也有停车区。<strong>车内切勿留下任何行李或显眼物品</strong>，即便是在看似安静的渔村，这也是西班牙旅行的通用安全准则。随身背包在拥挤的观景台或餐馆时，也请保持关注。此外，村庄里很多小巷GPS信号可能不佳，提前下载离线地图或认准主要路标（指向Mirador, Puerto）更靠谱。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 拉斯雷斯周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想在拉斯雷斯沉浸式体验，<strong>强烈建议在村里或附近住一晚</strong>，感受游客散去后的宁静和清晨港口苏醒的生机。村里有一些由老房子改造的<strong>乡村民宿（Casa Rural）</strong>，通常石头外墙、内部木结构，装饰温馨，主人往往能提供最地道的游玩建议。住在半山腰的民宿，推窗就是海景，绝美。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "美食是此行高潮！港口边有几家餐厅堪称宝藏。<strong>Restaurante El Remo</strong> 和 <strong>La Rula</strong> 都是当地口碑之选。点菜时，眼睛要盯着“当日鲜鱼”（Pescado del día）。<strong>必尝阿斯图里亚斯炖鱼（Caldereta Asturiana）</strong>，用多种海鱼、龙虾、贝类与洋葱、番茄、白葡萄酒一起炖煮，汤汁浓郁鲜美，用面包蘸着吃是灵魂。<strong>烤海鲜拼盘（Mariscada a la Plancha）</strong> 能让你一次性尝遍大西洋的鲜美：大虾、蜘蛛蟹、扇贝…原汁原味。搭配本地清爽的苹果酒（Sidra），看酒保从高处倒酒（这是传统！）也是一种乐趣。简单点的话，港口酒吧的<strong>鱿鱼圈（Rabas）</strong>和一杯啤酒，也足够惬意。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>里瓦德塞利亚海滩（Playa de la Griega）</strong>：从拉斯雷斯沿海岸线开车或乘坐短途公交，很快就能到达这个美丽的沙滩。它以巨大的恐龙脚印化石而闻名！你可以沿着沙滩散步，寻找嵌入岩石中的史前足迹，想象亿万年前的光景。海滩本身也非常宽阔，沙质细腻，是放松和家庭游玩的好去处。将壮观的悬崖渔村与史前自然奇迹结合，会让你的阿斯图里亚斯海岸之旅层次更加丰富。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>科隆布雷斯渔村（Colombres）</strong>：如果你对“印第安诺”（Indiano）建筑风格感兴趣，可以驱车前往不远处的科隆布雷斯。这里是19世纪末20世纪初，在美洲发财后归国富商兴建豪宅的集中地。这些建筑风格华丽混搭，充满异国情调，与拉斯雷斯的朴素乡土风形成鲜明对比。参观<strong>印第安诺档案馆（Archivo de Indianos）</strong>，能深入了解这段跨洋追梦的历史。从渔村到“豪”村，感受阿斯图里亚斯多元的文化面相。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "拉斯雷斯的灵魂，就镌刻在那些通向大海的陡峭阶梯上，它从不试图变得平坦易行，而是坦然展示着生活原本的坡度与重量；它存在于每扇被海风敲打的木窗后，那里没有匆忙的步履，只有与潮汐同频的、缓慢而坚韧的呼吸。这里告诉你，最美的风景，往往需要你付出汗水去攀登，而最踏实的生活，就藏在一碗热气腾腾的炖鱼和一声熟悉的渔船汽笛声中。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/leon-old-town-historic-center" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莱
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莱昂老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">León Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/patones-de-arriba" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    帕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕托内斯德阿里瓦（上帕托内斯村）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Patones de Arriba</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/las-medulas-roman-gold-mine" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉斯梅杜拉斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Las Médulas</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

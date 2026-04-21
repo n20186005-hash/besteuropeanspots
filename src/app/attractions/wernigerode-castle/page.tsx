@@ -15,7 +15,7 @@ export default function WernigerodeCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '韦尔尼格罗德城堡', href: '/attractions/wernigerode-castle' },
           ]}
         />

@@ -1,0 +1,240 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科斯特尔尼察 Hrvatska Kostajnica｜乌纳河上的边境时光胶囊，聆听克罗地亚与波黑的千年对话 - 最佳欧洲景点',
+  description: '车子拐下主路，穿过一片茂密的树林，乌纳河那翡翠般的绿意就这么毫无征兆地撞进了眼帘。而河对岸，一片红瓦屋顶和一座小山丘上的堡垒遗迹静静矗立，那里就是波黑了。科斯特尔尼察，这个名字拗口的小镇，就卧在克罗地亚这一侧的河岸上。第一印象是惊人的安静，只听见河水潺潺，以及微风穿过岸边老柳树的沙沙声。空气里有河水',
+}
+
+export default function HrvatskaKostajnicaUnaRiverFortressPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '科斯特尔尼察（乌纳河畔）', href: '/attractions/hrvatska-kostajnica-una-river-fortress' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`科斯特尔尼察（乌纳河畔）・Hrvatska Kostajnica・克罗地亚・科斯特尔尼察镇`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子拐下主路，穿过一片茂密的树林，乌纳河那翡翠般的绿意就这么毫无征兆地撞进了眼帘。而河对岸，一片红瓦屋顶和一座小山丘上的堡垒遗迹静静矗立，那里就是波黑了。科斯特尔尼察，这个名字拗口的小镇，就卧在克罗地亚这一侧的河岸上。第一印象是惊人的安静，只听见河水潺潺，以及微风穿过岸边老柳树的沙沙声。空气里有河水的湿润气息，混合着远处人家院子里飘来的柴火烟味，一种属于乡村边境的、质朴而安稳的味道。
+你把车停在河边，走上那座并不算雄伟、却连接着两个国家的桥。脚下是奔腾的乌纳河，河水清澈得能看到水下摇曳的水草。几个当地老人坐在河边的长椅上，用你听不懂的方言慢悠悠地聊天，偶尔瞥一眼你这个稀罕的来访者，眼神里没有好奇，只有一种见惯世事的淡然。这里不是为游客准备的舞台，它就是它自己——一个曾经刀光剑影、如今却几乎被时间遗忘的边境水岸。最打动人的，正是这种强烈的反差感：如此险要的地理位置，却弥漫着一种近乎慵懒的和平气息；如此厚重的历史，却沉淀为日常的炊烟与垂钓。
+镇子的核心，是那座奶黄色的圣凯瑟琳方济各会修道院。它不像欧洲其他大修道院那样气势迫人，反而像一位慈祥的长者，张开手臂环抱着小镇。午后的阳光把修道院钟楼的影子拉得老长，覆盖在鹅卵石铺就的广场上。你会看见修女们悄无声息地穿过回廊，也会看见孩子们在修道院墙根下追逐嬉戏。信仰与生活在这里没有界限，它们共同构成了小镇平稳跳动的心脏。而当你沿着狭窄的小路往山丘上爬，废弃的城堡城墙和塔楼渐渐显现，荒草从石缝中钻出，俯瞰着脚下平静的河流与对岸的国度。那一刻，你才真切触摸到“边境”二字的重量。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子拐下主路，穿过一片茂密的树林，乌纳河那翡翠般的绿意就这么毫无征兆地撞进了眼帘。而河对岸，一片红瓦屋顶和一座小山丘上的堡垒遗迹静静矗立，那里就是波黑了。科斯特尔尼察，这个名字拗口的小镇，就卧在克罗地亚这一侧的河岸上。第一印象是惊人的安静，只听见河水潺潺，以及微风穿过岸边老柳树的沙沙声。空气里有河水的湿润气息，混合着远处人家院子里飘来的柴火烟味，一种属于乡村边境的、质朴而安稳的味道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你把车停在河边，走上那座并不算雄伟、却连接着两个国家的桥。脚下是奔腾的乌纳河，河水清澈得能看到水下摇曳的水草。几个当地老人坐在河边的长椅上，用你听不懂的方言慢悠悠地聊天，偶尔瞥一眼你这个稀罕的来访者，眼神里没有好奇，只有一种见惯世事的淡然。这里不是为游客准备的舞台，它就是它自己——一个曾经刀光剑影、如今却几乎被时间遗忘的边境水岸。最打动人的，正是这种强烈的反差感：如此险要的地理位置，却弥漫着一种近乎慵懒的和平气息；如此厚重的历史，却沉淀为日常的炊烟与垂钓。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "镇子的核心，是那座奶黄色的圣凯瑟琳方济各会修道院。它不像欧洲其他大修道院那样气势迫人，反而像一位慈祥的长者，张开手臂环抱着小镇。午后的阳光把修道院钟楼的影子拉得老长，覆盖在鹅卵石铺就的广场上。你会看见修女们悄无声息地穿过回廊，也会看见孩子们在修道院墙根下追逐嬉戏。信仰与生活在这里没有界限，它们共同构成了小镇平稳跳动的心脏。而当你沿着狭窄的小路往山丘上爬，废弃的城堡城墙和塔楼渐渐显现，荒草从石缝中钻出，俯瞰着脚下平静的河流与对岸的国度。那一刻，你才真切触摸到“边境”二字的重量。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`科斯特尔尼察（乌纳河畔）`} />
+                <InfoRow label="英文名称" value={`Hrvatska Kostajnica`} />
+                <InfoRow label="正式名称" value={`Hrvatska Kostajnica`} />
+                <InfoRow label="国家" value={`克罗地亚`} />
+                <InfoRow label="城市" value={`科斯特尔尼察镇`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`克罗地亚与波斯尼亚和黑塞哥维那之间最具代表性的古老边境要塞之一，数个世纪以来一直是军事、文化和宗教交锋与共存的前哨。`} />
+                <InfoRow label="建筑特色" value={`一座依偎在翠绿乌纳河畔、建在岩石山丘上的紧凑防御工事体系，融合了修道院的宁静与堡垒的沧桑。`} />
+                <InfoRow label="建筑风格" value={`以中世纪防御工事为基础，混合了奥斯曼帝国影响下的东方元素、巴洛克式的宗教建筑以及朴素的巴尔干民间建筑。`} />
+                <InfoRow label="文化价值" value={`一座活的边境编年史，见证了战争与和平、信仰与权力在此地的反复拉锯与最终和解，是理解巴尔干半岛复杂历史的微观窗口。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。圣凯瑟琳方济各会修道院内部庭院开放时间约为每日9:00-17:00，夏季可能延长。城堡塔楼和部分城墙遗迹的开放情况不定，建议抵达后向当地旅游信息中心或修道院询问具体进入许可。部分区域可能在宗教活动或私人仪式期间临时关闭。`} />
+              <InfoRow label="门票价格" value={`进入小镇及漫步公共区域免费。参观圣凯瑟琳方济各会修道院教堂及内部庭院通常免费，但欢迎捐赠以支持修缮。若有机会进入城堡塔楼等受保护遗迹，可能会有象征性的维护捐赠费用（约10-20库纳）。无强制门票，深度体验更多依赖于对当地的尊重和探索精神。`} />
+              <InfoRow label="地址" value={`Ulica Stjepana Radića 12, 44430, Hrvatska Kostajnica, Croatia`} />
+              <InfoRow label="交通方式" value={`从克罗地亚首都萨格勒布出发是最佳选择。在萨格勒布中央汽车站乘坐前往锡萨克或更远方向（如杜布罗夫尼克，但需中途下车）的长途巴士，告诉司机在Hrvatska Kostajnica下车。车程约2-2.5小时，班次每日约3-4班，建议提前在车站查询并购买车票。自驾是最灵活的方式，沿E70/A3高速公路向锡萨克方向，然后转入地方公路，跟随路标即可抵达，全程约1小时45分钟。小镇内步行即可探索所有景点。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "科斯特尔尼察的故事，从一开始就写在了乌纳河上。这条河不仅是风景，更是天然的国界与命运的划线者。早在13世纪，文献中就已经出现了它的名字，当时它是克罗地亚贵族与波斯尼亚统治者之间一个重要的边防哨所。为什么是这里？你看一眼地图就明白：河流在此处形成一个相对平缓的渡口，两岸山丘制高点是设立关卡、征收关税、同时也是防御入侵的绝佳位置。最初的木质堡垒守卫着这个战略要冲，也守护着河上往来的贸易船只，那是它相对平静的童年。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，巴尔干的命运总是与帝国的碰撞交织在一起。15世纪中叶，奥斯曼帝国的铁骑如洪流般席卷巴尔干半岛。科斯特尔尼察首当其冲，成为了基督教世界抵御东方扩张的前线堡垒之一。原来的木堡被加固改建为石质城堡，小镇的居民日夜生活在警报可能响起的阴影下。1524年，堡垒终究陷落，落入了奥斯曼帝国手中。接下来的一个半世纪，科斯特尔尼察成为了奥斯曼帝国在克罗地亚腹地的一个坚固据点。伊斯兰教的星月旗飘扬在城堡上空，清真寺的唤拜声与修道院的钟声隔河相望。这段时期在小镇的肌理上留下了不可磨灭的印记，从一些建筑的底层结构到某些地名，都藏着那段融合与对抗的过往。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转机伴随着哈布斯堡王朝的强势反击而来。在17世纪末的大土耳其战争中，哈布斯堡军队经过惨烈战斗，终于从奥斯曼人手中夺回了科斯特尔尼察。城堡再次易主，方济各会修士们回归，并着手重建在战火中受损的圣凯瑟琳修道院。你如今看到的巴洛克风格的教堂立面，正是那个复兴时代的产物。然而，和平依旧脆弱。城堡被不断加固，成为奥匈帝国边境军事体系（即著名的“军事边境”）中的一个环节。小镇居民许多是边屯民，亦农亦兵，他们的生活始终与戒备和戍边联系在一起。河，依然是那条界河；守望，成了刻入基因的使命。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间跳转到20世纪，战争的阴云再次笼罩。在二战及随后的南斯拉夫内战中，科斯特尔尼察由于其边境位置，再次遭受了严重的破坏。1991年至1995年的克罗地亚独立战争期间，它位于前线，承受了猛烈的炮火。修道院和许多古老建筑被击中，城堡的遗迹上增添了新的伤痕。那些如今你在老屋墙面上仍能依稀辨认的弹孔，不是遥远历史的遗存，而是上一代人的记忆。这段惨痛的近代史，让小镇的“边境”含义从历史书上的概念，变成了居民们亲身经历的、血与火的现实。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走到今天，枪炮声终于远去，余音化作了乌纳河永恒的流水声。边境检查站变得高效而安静，欧盟与未入盟的波黑之间，人员往来日益便利。科斯特尼察的角色，从一个军事要塞，悄然转变为一个宁静的河畔小镇和一段活态历史的见证者。它没有刻意修复所有伤疤，而是让它们与新生并存——坍塌的堡垒城墙与精心打理的家庭花园相邻，战争的记忆与当下平和垂钓的画面重叠。它不再需要证明自己的强大，只是沉默地坐在河边，看着河水带走硝烟，带来新的时光。这份从冲突中生长出来的宁静，是它最深厚、也最动人的底色。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`理想的方式是预留一整天，从清晨到日暮，体验小镇从沉睡到苏醒再到沉浸于金色光辉的全过程。建议在上午九点左右抵达，此时旅行团尚未到来，阳光柔和，是探索修道院和漫步宁静街巷的完美时机。上午的重点是宗教与民用建筑构成的镇中心，感受其日常生活脉搏。午后，当阳光变得强烈，正是沿着绿树成荫的河岸散步，或登上城堡山丘在断壁残垣间怀古的好时候。将傍晚留给乌纳河畔，看夕阳如何为对岸的波黑土地和眼前的河水镀上金光，这是全天的高潮。节奏一定要慢，这里的魅力不在于打卡多少景点，而在于感受时间在此地流淌的独特韵律。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`如果计划徒步探索城堡山丘遗迹，请务必穿抓地力强的徒步鞋，因为路径原始且可能有碎石。虽然小镇非常安全，但拍摄当地居民，尤其是老人时，请先微笑致意或征得同意，这是基本的尊重。河对岸即是波黑，如有兴趣可步行过桥（需携带有效护照以备边检抽查），但请留意边境开放时间，切勿逗留至夜间关口关闭。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨第一站先去圣凯瑟琳方济各会修道院，在空无一人的回廊里聆听自己脚步的回响，感受几个世纪积累下的宁静。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开教堂厚重的木门，让眼睛适应内部昏暗的光线，寻找那些在战火中幸存下来的巴洛克祭坛细节和柔和的壁画。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从修道院侧门走出，沿着由巨大鹅卵石铺成、被岁月打磨得光滑如镜的“拉德街”向上漫步，观察两旁色彩斑驳的奥匈帝国风格老屋。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`努力攀爬一小段野草丛生的陡峭小径，抵达中世纪城堡仅存的塔楼基座，靠在残存的城墙上，想象哨兵曾以同样的视角警惕地眺望河对岸。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后沿着乌纳河岸那条被柳荫覆盖的小路一直向西走，直到小镇建筑渐渐稀疏，在这里你能听到最纯粹的流水与鸟鸣的交响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`中午就在河边那家只有四张桌子、老板兼厨师的家庭餐馆“Kod Ive”坐下，品尝当天从乌纳河捞起的鲜鱼，用炭火简单炙烤而成。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后找一家临街的咖啡馆，点一小杯本地浓咖啡，坐在户外观察小镇居民不慌不忙的来来往往，他们的面容刻着边境特有的故事感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要在日落前半小时回到连接克罗地亚与波黑的那座公路桥上，但不是为了过境，而是为了看着夕阳将整条乌纳河染成一条熔金的绸带。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`乌纳河对岸（波黑一侧）的远眺视角`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，从波黑境内寻找一个高点，可以拍摄科斯特尔尼察小镇全景连同其背后的山丘城堡遗迹，河水作为天然的前景引导线。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣凯瑟琳修道院回廊的拱门框架`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点左右的阳光斜射入回廊，站在一侧，利用连续的拱门作为天然画框，拍摄另一侧庭院中的绿植与光影构成的宁静画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城堡废墟断墙处的剪影创作`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚日落时分，以残存的塔楼石门或城墙缺口为框架，拍摄背后被夕阳染成暖橘色的天空和乌纳河，人物可以成为一个小小的剪影点缀。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`乌纳河畔的石阶与柳树`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光透过柳叶，在古老的河畔石阶上投下斑驳光影，低角度拍摄石阶延伸至水面的线条，捕捉河水流动的柔和质感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`连接两国的桥梁中线`}</h4>
+                  <p className="text-sm text-gray-700">{`利用桥面的线条形成视觉引导，对称构图拍摄桥梁本身通向两岸小镇的延伸感，最佳时机是蓝调时刻，两岸灯光初亮，天空尚有微光。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`乌纳河的水流速度时缓时急，拍摄长曝光流水效果时，需根据光线使用减光镜。航拍器爱好者请注意，此处为边境区域，未经明确许可，严格禁止放飞无人机，以免引起不必要的边检警报。多利用清晨和黄昏的“魔法时刻”，小镇平淡的色彩会在此时变得无比饱满和富有戏剧性。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`河岸宁静小屋`}</h4>
+                  <p className="text-sm text-blue-800">{`直接坐落于乌纳河岸边的传统石屋民宿，推开窗就能垂钓，夜晚在潺潺水声中入眠，主人会奉上自家酿的果酒。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`修道院旁的历史客房`}</h4>
+                  <p className="text-sm text-green-800">{`由镇中心一栋19世纪老宅改造的精品客房，保留了高高的天花板和复古家具，位置极佳，下楼就是小镇生活的中心舞台。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`家庭农场体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于小镇外围丘陵上的家庭农场，提供简单的客房，清晨在鸡鸣声中醒来，品尝完全自产的早餐，体验真正的边境乡村生活。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`锡萨克城区酒店（备用选择）`}</h4>
+                  <p className="text-sm text-purple-800">{`如果追求更标准的住宿设施，可驱车半小时返回更大的城市锡萨克，那里有现代酒店，但将失去沉浸于科斯特尼察独特氛围的机会。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "科斯特尔尼察镇内住宿选择极其有限且鲜见于大型预订平台，强烈建议通过当地旅游网站或直接致电感興趣的餐馆、咖啡馆老板询问有无熟人出租房间。小镇治安极好，夜晚安静得只有自然之声，是都市人难得的疗愈之地。夏季和初秋是最佳游览季，但即便是旺季，这里也罕有游客喧嚣。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开科斯特尔尼察很久以后，我发现自己常常想起的，不是某个具体的建筑或画面，而是一种感觉。那是一种站在边界线上的清醒与平静。这里曾经是剑拔弩张的战场，是文化拉锯的前线，但如今，河水依旧东流，柳树依旧年复一年地绿了又黄。它像一个曾经激烈争辩后陷入沉思的老人，所有的故事都化作了皱纹般的街道和眼神般深邃的河水。它告诉我们，历史最深刻的教训，或许不是铭记仇恨，而是在经历一切之后，依然能够享有并守护一份平凡的早晨——修女走过回廊的脚步声，老人垂钓时凝固的身影，咖啡杯里缓缓升起的热气。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、热衷打卡的快节奏世界里，科斯特尔尼察的存在几乎是一种“反叛”。它没有什么惊天动地的奇观，不提供任何便捷的娱乐。它只提供一条河，一座小山，一些伤痕与修复并存的老房子，和大量留白的、需要你用耐心去填满的时间。它要求你慢下来，静静地看，听，感受边界两侧的空气是否真的有不同。对于真正的深度旅者而言，这里正是一面珍贵的镜子：让我们反思自己旅行的目的，是否只是为了收集地名，还是为了在某个独特的坐标上，真正理解一片土地层叠的记忆，并在其中照见我们自身对和平与归宿的渴望。它不是终点，而是一个让你内心变得清晰和沉静的驿站。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/zadar-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    扎
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">扎达尔老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zadar Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bale-istria-dinosaur-fossil-stone-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴莱（伊斯特拉半岛的恐龙化石与石屋小镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bale / Valle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/zadar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    扎
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">扎达尔老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zadar</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

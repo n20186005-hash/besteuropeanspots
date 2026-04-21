@@ -15,7 +15,7 @@ export default function BlutenburgCastleMunichPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '布伦古堡', href: '/attractions/blutenburg-castle-munich' },
           ]}
         />

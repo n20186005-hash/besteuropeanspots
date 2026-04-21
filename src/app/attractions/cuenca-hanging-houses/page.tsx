@@ -15,7 +15,7 @@ export default function CuencaHangingHousesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '昆卡悬屋', href: '/attractions/cuenca-hanging-houses' },
           ]}
         />

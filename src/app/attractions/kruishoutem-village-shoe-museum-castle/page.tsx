@@ -1,0 +1,249 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '克吕伊斯豪特姆 Kruishoutem｜比利时法兰德斯宝藏小镇，探秘独一无二的鞋子博物馆与静谧城堡庄园 - 最佳欧洲景点',
+  description: '朋友，如果你厌倦了布鲁日如织的人潮和布鲁塞尔广场的喧嚣，想找个地方真正喘口气，听我聊聊克吕伊斯霍特姆吧。车子刚转下主干道，世界仿佛就被调低了音量。扑面而来的是刚割过的青草混合着湿润泥土的气息，甜丝丝的，带着凉意。路两旁是典型的法兰德斯田园，田野被修剪得整整齐齐，像一块块墨绿和鹅黄拼接的绒毯，偶有几头',
+}
+
+export default function KruishoutemVillageShoeMuseumCastlePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克吕伊斯豪特姆', href: '/attractions/kruishoutem-village-shoe-museum-castle' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`克吕伊斯豪特姆・Kruishoutem・比利时・克吕伊斯豪特姆 (属东佛兰德省)`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，如果你厌倦了布鲁日如织的人潮和布鲁塞尔广场的喧嚣，想找个地方真正喘口气，听我聊聊克吕伊斯霍特姆吧。车子刚转下主干道，世界仿佛就被调低了音量。扑面而来的是刚割过的青草混合着湿润泥土的气息，甜丝丝的，带着凉意。路两旁是典型的法兰德斯田园，田野被修剪得整整齐齐，像一块块墨绿和鹅黄拼接的绒毯，偶有几头棕白相间的奶牛慢悠悠地甩着尾巴，时间在这里似乎被拉长了，黏稠得像当地产的蜂蜜。
+小镇中心安静得能听见自己的脚步声。广场不大，几栋砖砌的房子有着阶梯形的山墙，颜色是经年风雨洗过的暖红色。最引人注目的，就是那座瘦高的钟楼——也就是鞋子博物馆的所在。你绝对想不到，一座如此庄重、甚至带着点神圣感的中世纪钟楼，里面收藏的竟然是成千上万双鞋子。这种反差本身就充满了故事感。走进广场边的面包房，刚出炉的“马鞭”面包的焦香瞬间包裹了你，买一个，外皮硬脆，内里柔软，就坐在广场长椅上，看着本地老爷爷骑着老式自行车叮铃铃经过，你会觉得，自己不小心闯进了一幅活着的老油画。
+而小镇的另一个灵魂，藏在离中心不远的一片宁静水域旁。奥伊德城堡就那样优雅地倒映在护城河里，尖塔、山墙、拱窗，被水和绿树柔柔地抱着。它不是那种令人望而生畏的军事堡垒，而是一座充满诗意的居住庄园。沿着河边小径散步，看天鹅拨开平静的水面，城堡的倒影碎成一片晃动的金箔，那一刻，你会明白法兰德斯贵族追求的，不是权力的彰显，而是一种与自然和谐共处的、宁静致远的生存美学。这里没有戏剧性的风景，却有一种渗透到骨子里的安宁与富足。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朋友，如果你厌倦了布鲁日如织的人潮和布鲁塞尔广场的喧嚣，想找个地方真正喘口气，听我聊聊克吕伊斯霍特姆吧。车子刚转下主干道，世界仿佛就被调低了音量。扑面而来的是刚割过的青草混合着湿润泥土的气息，甜丝丝的，带着凉意。路两旁是典型的法兰德斯田园，田野被修剪得整整齐齐，像一块块墨绿和鹅黄拼接的绒毯，偶有几头棕白相间的奶牛慢悠悠地甩着尾巴，时间在这里似乎被拉长了，黏稠得像当地产的蜂蜜。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇中心安静得能听见自己的脚步声。广场不大，几栋砖砌的房子有着阶梯形的山墙，颜色是经年风雨洗过的暖红色。最引人注目的，就是那座瘦高的钟楼——也就是鞋子博物馆的所在。你绝对想不到，一座如此庄重、甚至带着点神圣感的中世纪钟楼，里面收藏的竟然是成千上万双鞋子。这种反差本身就充满了故事感。走进广场边的面包房，刚出炉的“马鞭”面包的焦香瞬间包裹了你，买一个，外皮硬脆，内里柔软，就坐在广场长椅上，看着本地老爷爷骑着老式自行车叮铃铃经过，你会觉得，自己不小心闯进了一幅活着的老油画。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而小镇的另一个灵魂，藏在离中心不远的一片宁静水域旁。奥伊德城堡就那样优雅地倒映在护城河里，尖塔、山墙、拱窗，被水和绿树柔柔地抱着。它不是那种令人望而生畏的军事堡垒，而是一座充满诗意的居住庄园。沿着河边小径散步，看天鹅拨开平静的水面，城堡的倒影碎成一片晃动的金箔，那一刻，你会明白法兰德斯贵族追求的，不是权力的彰显，而是一种与自然和谐共处的、宁静致远的生存美学。这里没有戏剧性的风景，却有一种渗透到骨子里的安宁与富足。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`克吕伊斯豪特姆`} />
+                <InfoRow label="英文名称" value={`Kruishoutem`} />
+                <InfoRow label="正式名称" value={`Kruishoutem`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`克吕伊斯豪特姆 (属东佛兰德省)`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一个将法兰德斯乡村贵族生活传统与近代手工业智慧完美凝结的静谧之地。`} />
+                <InfoRow label="建筑特色" value={`博物馆由中世纪钟楼巧妙改造，城堡则是文艺复兴与法兰德斯风格交融的水畔梦幻庄园。`} />
+                <InfoRow label="建筑风格" value={`鞋子博物馆为哥特式钟楼与现代展陈的结合；奥伊德城堡为16世纪重建的文艺复兴风格，带有鲜明的法兰德斯地域特色。`} />
+                <InfoRow label="文化价值" value={`通过“脚下之物”的微观视角，展现法兰德斯地区普通民众的生活史、技艺传承与乡土情感。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`鞋子博物馆（Schoenentoren）开放时间较为灵活，通常为每年四月至十月的每周三、周六和周日下午1点至5点开放，冬季开放时间缩短或仅接受预约参观。
+奥伊德城堡庄园（Kasteel Ooidonk）的花园部分通常在春季到秋季的周末及节假日午后对公众开放，具体日期每年微调，建议出行前务必查阅其官方网站公告。
+小镇本身及公共区域全天可自由漫步。
+节假日如复活节、圣诞节期间，开放时间可能有特殊安排或闭馆。`} />
+              <InfoRow label="门票价格" value={`鞋子博物馆：成人票约6欧元，学生及65岁以上长者票约5欧元，12岁以下儿童免费。有时提供包含小镇导览地图的联票。
+奥伊德城堡花园：入园参观费约8欧元，仅参观外部花园。城堡内部为私人宅邸，一般不对外开放。
+部分小镇节庆活动（如夏季农贸市集或古董鞋展）可能收取小额入场费，约2-3欧元。`} />
+              <InfoRow label="地址" value={`鞋子博物馆：Schoenentoren, Markt 1, 9770 Kruishoutem, Belgium
+奥伊德城堡：Ooidonkdreef 9, 9770 Kruishoutem, Belgium`} />
+              <InfoRow label="交通方式" value={`从布鲁塞尔国际机场（BRU）出发，最便捷的方式是租车自驾，沿E40高速公路向西，转入A10/E17，约1小时15分钟即可抵达克吕伊斯霍特姆，小镇有免费停车场。
+依赖公共交通则需更多耐心：从布鲁塞尔中央火车站乘坐火车前往根特圣彼得斯站（约35分钟，班次频繁），在根特换乘前往奥德纳尔德或库尔特赖的地区巴士。前往克吕伊斯霍特姆的巴士班次较少，约每小时一班，车程约40分钟。建议使用比利时铁路APP（SNCB/NMBS）规划精确的火车+巴士接驳行程。
+从布鲁日或安特卫普出发，自驾均在1小时左右，乘坐公共交通则需在根特中转。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要听懂克吕伊斯霍特姆的低语，你得把耳朵贴在这片土地上，听它讲两个看似不相关、却又血脉相连的故事。第一个故事关于“脚”。时间倒回几个世纪，这里和法兰德斯许多地方一样，纺织业是命脉。但比起华美的布料，人们更离不开的，是一双能跋涉泥泞田间、能承受漫长工时的结实鞋子。小镇的制鞋匠人名声在外，他们用的皮革、针法，乃至对付比利时常见阴湿天气的防潮技巧，都是代代相传的秘诀。鞋子不是商品，是伙伴，是生计，是记录一个人一生足迹的沉默史书。新婚的木鞋、矿工的厚底靴、孩童的第一双软底鞋……每一道磨损的痕迹都是一个家庭的悲欢。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，到了上世纪中叶，当一位当地的鞋匠后代萌生出收集这些“生活化石”的念头时，整个社区都觉着这是个再自然不过的好主意。他们把目光投向了广场上那座沉默的钟楼——它建于15世纪，曾负责鸣钟警示火灾、召集民众，是小镇集体记忆的守望者。让一个守望记忆的建筑，来珍藏承载记忆的物件，还有比这更恰当的归宿吗？就这样，一座也许是全世界最独特、也最接地气的鞋子博物馆诞生了。它不是卢浮宫，没有耀世的珍宝，但当你看到那些按照工种、年龄、节日分门别类陈列的鞋子，旁边可能还摆着使用者的照片和简短故事时，你会感到一种直击心灵的震撼。历史在这里，不是帝王将相的编年史，而是每一个平凡个体走过的、温热的路。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个故事，则关于“水”与“石”，关于奥伊德城堡。这片土地上的第一座堡垒可追溯到黑暗的中世纪，那纯粹是为了防御和征税。战火几度将它夷为平地，直到16世纪，一位来自安特卫普的富商兼外交官，菲利普·德·蒙莫朗西，买下了这片废墟。他心中所想的，不再是剑与盾，而是美与宁静。他聘请了来自意大利和本地的能工巧匠，以当时风靡的文艺复兴风格为蓝本，融合了法兰德斯人喜爱的砖石结构、阶梯山墙和高耸屋顶，在勒耶河曲水环绕之处，重建了这座城堡。它拥有优雅的拱窗、精致的雕刻，以及广阔的花园和猎场，彻底从军事要塞转型为享受田园生活的奢华庄园。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此后的数百年，城堡在几个显赫的贵族家族间传承，每次都添上新的装饰或花园设计，但它避开了大革命时期最猛烈的破坏，奇迹般地保存了那份16世纪的风韵。它像一个不愿被打扰的旧梦，静静藏在水道和林地之间。如今，城堡依然是私人宅邸，这份“私密性”恰恰保留了它的魂——它不是冰冷空洞的展览壳，你感受到的，是连续几个世纪以来，一种对精致、宁静、与自然共生生活方式的执着守护。从农夫脚下的鞋，到贵族水畔的城堡，克吕伊斯霍特姆讲述的，是同一片土地上，不同层面的人们，如何用双手和智慧，为自己建造踏实而美好生活的、并行不悖的两重史诗。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天时间，充分享受这里的慢节奏。最佳抵达时间是上午九点半左右，此时小镇刚刚苏醒，阳光柔和，面包店香气正浓。整个游览节奏应如散步般闲适，上午沉浸于小镇中心与鞋子博物馆的微观历史，午后则将身心交付给城堡庄园的自然与宁静。这样安排既能错开可能出现的极少数旅行团，也能让你在光线最美的黄昏时分，漫步于城堡湖畔。整体耗时约6-8小时，包括一顿悠闲的午餐和下午茶时间。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`鞋子博物馆内部楼梯陡峭且狭窄，参观时务必穿一双方便行走的平底鞋。
+城堡内部为私人居所，除非遇到极为罕见的特殊开放日，否则切勿擅自闯入或靠近主建筑窗户，尊重隐私是欣赏这里的前提。
+小镇周日多数商店关门，但面包店和咖啡馆通常上午营业，餐厅最好提前确认。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`上午先从镇中心广场的百年面包店开始，买一个新鲜出炉的奶油面包或当地特色的“ spéculoos”饼干，感受指尖的温度和鼻尖的甜香。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`带着面包走进广场上那座高耸的哥特式钟楼，在鞋子博物馆里花上一两个小时，细细阅读每双鞋旁边那些普通人的小故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从博物馆出来，在广场找家小咖啡馆，比如‘In den Toer’，点一杯醇厚的比利时咖啡，就着阳光看完刚才买的博物馆介绍手册。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着从广场延伸出去的宁静住宅区街道慢慢散步，欣赏各家各户精心打理的花园和色彩柔和的门窗。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后驱车或乘坐预约的出租车前往奥伊德城堡（约5分钟车程），在城堡外围的树林和草坪间找一个长椅，享受自带的简单野餐。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着护城河畔的环形小径完整地走一圈，从每一个角度欣赏城堡与水光林影交织的不同画面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果城堡花园当日开放，务必进去走走，看看精心修剪的黄杨木迷宫和古老的玫瑰花丛。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`黄昏前返回小镇中心，或许能碰上每周一次的小市集，或者干脆在本地小餐馆‘De Zwane’用一顿以当地食材烹制的法兰德斯风味晚餐。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡经典倒影镜面`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三至五点，太阳西斜时，走到城堡正门对岸的石桥中央，将相机贴近水面，能拍出城堡与完美倒影上下对称、天鹅游弋其中的梦幻画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`鞋子博物馆的窗与鞋`}</h4>
+                  <p className="text-sm text-gray-700">{`在博物馆高层展厅，利用那些古老的哥特式窄窗作为天然画框，聚焦窗下一双陈列的旧童鞋或新娘鞋，让窗外小镇的红屋顶成为朦胧背景，故事感十足。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`田园小路纵深线`}</h4>
+                  <p className="text-sm text-gray-700">{`在通往城堡的乡间小径上，选择一条两侧种有高大山毛榉或白杨树的道路，站在路中，利用树木形成的自然透视引导线，拍摄蜿蜒道路通向远方城堡尖塔的深远景象。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小镇广场生活切片`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或午后，在广场咖啡店外的座位，用长焦镜头捕捉本地居民骑车经过钟楼、在面包店前寒暄、或只是坐着看报的日常瞬间，色彩明亮的建筑立面是绝佳背景板。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城堡花园迷宫俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`如果花园开放且迷宫允许进入，尝试找到迷宫中心的轻微隆起处，或请求管理员允许在侧面矮墙处，拍摄迷宫蜿蜒曲折的绿色几何图案与远处城堡的合影。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在博物馆内拍摄请务必关闭闪光灯，强光会对脆弱的皮革和纺织品藏品造成不可逆的损伤。使用无人机拍摄城堡全景理论上需要申请特别许可，且很可能因隐私原因被拒绝，不建议尝试。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨家庭B&B`}</h4>
+                  <p className="text-sm text-blue-800">{`选择镇上由老房子改造的床与早餐，主人会为你准备丰盛的自制果酱和新鲜鸡蛋早餐，晚上还能在花园里听他们讲讲小镇的趣闻轶事。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色庄园体验`}</h4>
+                  <p className="text-sm text-green-800">{`预订城堡附近少数几家由古老农庄改建的精品客房，睡在裸露的原木梁下，清晨推开窗就是弥漫着轻雾的牧场和马匹。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端历史酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车15分钟可到达附近更大城镇如瓦勒海姆的一些小型城堡酒店，享受四柱床、古董家具和米其林推荐餐厅，将宁静的乡居与精致的服务结合。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`露营与房车`}</h4>
+                  <p className="text-sm text-purple-800">{`如果是在夏季，可以入住小镇边缘设施良好的小型露营地，夜晚在星空下烤火，体验最贴近法兰德斯田园的户外生活。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇住宿数量非常有限，尤其在夏季周末和春秋美景时节，务必提前数月预订。这里的夜晚极其安静，治安极好，但相应的，夜间几乎没有娱乐活动，正是享受宁静星空和深度睡眠的好时机。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开克吕伊斯霍特姆的时候，我行李箱里没有多出什么纪念品，但心里却好像被熨过了一样，平整而温润。这里教会我的，是一种“向下看”和“向内寻”的旅行哲学。我们总是习惯于仰望高耸入云的大教堂、追逐声名显赫的博物馆，却常常忽略了脚下那双带我们走遍世界的鞋，也忽略了内心对一片纯粹安宁的渴望。这个小镇，把最平凡的生活物件供奉在历史的钟楼里，又把最奢华的生活梦想安放在静谧的河水边，它以一种温柔而坚定的方式告诉你：伟大的不止是史诗，日常的、踏实的、与土地相连的生命痕迹，同样值得被铭记和颂扬。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切都追求效率、追求“网红同款”的快节奏世界里，克吕伊斯霍特姆像一块沉静的压舱石。它不急着向你证明什么，也不提供任何惊心动魄的景观。它只是在那里，有着面包房的香气，有天鹅划开的水纹，有无数双沉默的鞋在诉说着走过的路。来这里，不是为了打卡，而是为了找回呼吸的节奏，是为了让你相信，世界的一角依然可以这样不慌不忙、美好自足。如果你也曾在旅途的喧嚣中感到一丝疲惫，渴望一场真正的心灵散步，那么请把它列入你的清单。它不是终点，而是一个让你重新学会感受的、温柔起点。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/durbuy-old-town-worlds-smallest-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    德
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">德尔比老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Durbuy</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/borgloon-church-reading-between-the-lines" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博尔赫隆“字里行间”教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Reading between the Lines</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/belfry-of-mons-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙斯钟楼及老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Belfry of Mons and the Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -15,7 +15,7 @@ export default function BardenasRealesNaturalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '巴尔德纳斯雷尔斯自然公园', href: '/attractions/bardenas-reales-natural-park' },
           ]}
         />

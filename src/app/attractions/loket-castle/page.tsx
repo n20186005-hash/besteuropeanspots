@@ -15,7 +15,7 @@ export default function LoketCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '洛克特城堡（波西米亚的钥匙）', href: '/attractions/loket-castle' },
           ]}
         />

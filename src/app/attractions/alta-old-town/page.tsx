@@ -15,7 +15,7 @@ export default function AltaOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/norway' },
             { label: '阿尔塔古城', href: '/attractions/alta-old-town' },
           ]}
         />

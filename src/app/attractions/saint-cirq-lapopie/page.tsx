@@ -15,7 +15,7 @@ export default function SaintCirqLapopiePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '圣锡尔克拉波皮', href: '/attractions/saint-cirq-lapopie' },
           ]}
         />

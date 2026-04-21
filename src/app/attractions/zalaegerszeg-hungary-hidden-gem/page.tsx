@@ -15,7 +15,7 @@ export default function ZalaegerszegHungaryHiddenGemPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/hungary' },
             { label: '佐洛埃格塞格', href: '/attractions/zalaegerszeg-hungary-hidden-gem' },
           ]}
         />

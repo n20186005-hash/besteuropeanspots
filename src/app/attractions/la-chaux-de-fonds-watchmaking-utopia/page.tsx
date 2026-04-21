@@ -15,7 +15,7 @@ export default function LaChauxDeFondsWatchmakingUtopiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '拉绍德封', href: '/attractions/la-chaux-de-fonds-watchmaking-utopia' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function FamagustaWalledCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞浦路斯', href: '/destinations/cyprus' },
             { label: '法马古斯塔', href: '/attractions/famagusta-walled-city' },
           ]}
         />

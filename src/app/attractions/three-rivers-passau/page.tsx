@@ -15,7 +15,7 @@ export default function ThreeRiversPassauPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '帕绍（三河交汇之城）', href: '/attractions/three-rivers-passau' },
           ]}
         />

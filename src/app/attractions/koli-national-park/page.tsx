@@ -15,7 +15,7 @@ export default function KoliNationalParkPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/finland' },
             { label: '科利国家公园', href: '/attractions/koli-national-park' },
           ]}
         />

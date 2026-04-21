@@ -15,7 +15,7 @@ export default function BryggenBergenPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/norway' },
             { label: '布吕根木屋群', href: '/attractions/bryggen-bergen' },
           ]}
         />

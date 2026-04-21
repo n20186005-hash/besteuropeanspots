@@ -15,7 +15,7 @@ export default function RjukanIndustrialHeritageTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/norway' },
             { label: '留坎', href: '/attractions/rjukan-industrial-heritage-town' },
           ]}
         />

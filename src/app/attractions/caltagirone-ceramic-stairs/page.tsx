@@ -15,7 +15,7 @@ export default function CaltagironeCeramicStairsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '卡尔塔吉罗内', href: '/attractions/caltagirone-ceramic-stairs' },
           ]}
         />

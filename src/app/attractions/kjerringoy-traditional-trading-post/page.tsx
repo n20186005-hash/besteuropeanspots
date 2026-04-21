@@ -15,7 +15,7 @@ export default function KjerringoyTraditionalTradingPostPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/norway' },
             { label: '谢林岛传统商贸村', href: '/attractions/kjerringoy-traditional-trading-post' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function ParosPanagiaEkatontapilianiPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '帕罗斯岛百门教堂', href: '/attractions/paros-panagia-ekatontapiliani' },
           ]}
         />

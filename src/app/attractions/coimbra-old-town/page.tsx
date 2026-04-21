@@ -15,7 +15,7 @@ export default function CoimbraOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/portugal' },
             { label: '科英布拉老城', href: '/attractions/coimbra-old-town' },
           ]}
         />

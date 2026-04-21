@@ -15,7 +15,7 @@ export default function MaglicFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞尔维亚', href: '/destinations/serbia' },
             { label: '马格利奇要塞', href: '/attractions/maglic-fortress' },
           ]}
         />

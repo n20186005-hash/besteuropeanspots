@@ -15,7 +15,7 @@ export default function DensusChurchPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '罗马尼亚', href: '/destinations/romania' },
             { label: '登苏什教堂', href: '/attractions/densus-church' },
           ]}
         />

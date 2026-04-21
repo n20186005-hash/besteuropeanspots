@@ -15,7 +15,7 @@ export default function GammelstadChurchTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/sweden' },
             { label: '加默尔斯塔德教堂村', href: '/attractions/gammelstad-church-town' },
           ]}
         />

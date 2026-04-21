@@ -15,7 +15,7 @@ export default function YpresClothHallPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/belgium' },
             { label: '伊佩尔布料厅', href: '/attractions/ypres-cloth-hall' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function BraubachCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '布劳巴赫城堡', href: '/attractions/braubach-castle' },
           ]}
         />

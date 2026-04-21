@@ -15,7 +15,7 @@ export default function CorfuOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '科孚老城', href: '/attractions/corfu-old-town' },
           ]}
         />

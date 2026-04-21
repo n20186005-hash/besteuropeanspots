@@ -15,7 +15,7 @@ export default function RovinjCoastalOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/croatia' },
             { label: '罗维尼海滨古城', href: '/attractions/rovinj-coastal-old-town' },
           ]}
         />

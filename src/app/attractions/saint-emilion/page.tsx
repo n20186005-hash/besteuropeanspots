@@ -15,7 +15,7 @@ export default function SaintEmilionPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '法国', href: '/destinations/france' },
             { label: '圣埃米利翁古城', href: '/attractions/saint-emilion' },
           ]}
         />

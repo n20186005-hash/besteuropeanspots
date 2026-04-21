@@ -1,0 +1,149 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '纳吉瓦若尼与基尼兹城堡深度游攻略：匈牙利硬核堡垒的自由行指南',
+  description: '探索匈牙利纳吉瓦若尼（Nagyvázsony）与传奇的基尼兹城堡遗址。这份深度游攻略涵盖一日游路线、历史秘闻与避坑指南，带你走进平民英雄的硬核堡垒。',
+}
+
+export default function NagyvazsonyCastleKinizsiPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '纳吉瓦若尼', href: '/attractions/nagyvazsony-castle-kinizsi' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`纳吉瓦若尼・Nagyvázsony・匈牙利・维斯普雷姆州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你厌倦了布达佩斯的喧闹，想找一处真正能触摸到匈牙利铁血灵魂的地方，那跟我来。今天这份**纳吉瓦若尼私藏旅游攻略**，就带你躲开人潮，钻进匈牙利中部巴科尼森林边缘的宁静小镇。这里的地标，是一座名叫“基尼兹”的城堡遗址，它没有茜茜公主的浪漫，却有着碾压一切的石砌力量感。它的主人，帕尔·基尼兹，是15世纪从磨坊主之子一路拼杀成国家英雄的传奇人物。作为你的专属向导，这份**自由行指南**请收好——我们将深入这座**极其雄伟的方形哥特式主塔**，感受它如何以沉默的巨石，讲述一段关于守卫、荣耀与平民逆袭的硬核史诗。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你厌倦了布达佩斯的喧闹，想找一处真正能触摸到匈牙利铁血灵魂的地方，那跟我来。今天这份<strong>纳吉瓦若尼私藏旅游攻略</strong>，就带你躲开人潮，钻进匈牙利中部巴科尼森林边缘的宁静小镇。这里的地标，是一座名叫“基尼兹”的城堡遗址，它没有茜茜公主的浪漫，却有着碾压一切的石砌力量感。它的主人，帕尔·基尼兹，是15世纪从磨坊主之子一路拼杀成国家英雄的传奇人物。作为你的专属向导，这份<strong>自由行指南</strong>请收好——我们将深入这座<strong>极其雄伟的方形哥特式主塔</strong>，感受它如何以沉默的巨石，讲述一段关于守卫、荣耀与平民逆袭的硬核史诗。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`纳吉瓦若尼`} />
+                <InfoRow label="英文名称" value={`Nagyvázsony`} />
+                <InfoRow label="正式名称" value={`Nagyvázsony`} />
+                <InfoRow label="国家" value={`匈牙利`} />
+                <InfoRow label="城市" value={`维斯普雷姆州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`在15世纪奥斯曼帝国如乌云般压向欧洲的阴影下，匈牙利成了基督教世界最前线的盾牌。纳吉瓦若尼的基尼兹城堡，正是这块盾牌上最坚硬的铆钉之一。它的历史地位，与它的主人帕尔·基尼兹紧密相连。基尼兹并非贵族出身，而是一个凭借惊人勇武和军事天赋，从平民阶层跃升为匈牙利王国最高军事统帅（“国家统帅”）的罕见人物。他被誉为“奥斯曼人的克星”，在战场上令敌人闻风丧胆。这座城堡不仅仅是他荣耀的象征，更是他受命于国王马加什一世，为拱卫王国腹地、监视巴科尼山脉通道而建造的**硬核堡垒**。它守护的不仅是王国的边疆，更是一种“王侯将相宁有种乎”的平民精神。在贵族城堡林立的欧洲，基尼兹城堡是一座“逆袭”的纪念碑，见证了个人才华可以突破森严的阶级壁垒，也见证了匈牙利民族在存亡之际迸发出的最顽强抵抗力。`} />
+                <InfoRow label="建筑特色" value={`走近城堡，你会瞬间被它的**方形主塔**所震慑。那是一种剥离了所有繁复装饰、纯粹由力量构成的美学。主塔由巨大的、未经细致打磨的深色石块垒砌而成，石缝间填满岁月的风尘，颜色是介于铁灰与赭石之间的厚重色调，在阳光下显得冷峻，在阴雨天则几乎与乌云融为一体。它的**极其雄伟**体现在绝对的比例上：高耸、敦实、棱角分明，像一枚被巨人狠狠砸入大地的方印。塔楼窗户狭小，是典型的防御性设计，远远望去像一双双警惕的眼睛。墙体底部异常厚重，向上略有收分，稳稳扎根于山丘之巅。当你触摸那些粗糙冰凉的石头表面，仿佛能感受到当年工匠们灌注其中的、对抗火药时代早期战争的决心。它不是宫殿，而是一个纯粹的**军事机器**，每一个细节都诉说着功能至上。`} />
+                <InfoRow label="建筑风格" value={`基尼兹城堡是晚期哥特式军事建筑的杰出典范。这里的“哥特式”褪去了大教堂那种直插云霄的灵性，转而强调垂直线条带来的稳固与威严感。通俗点说，你可以把它看作“战斗版的哥特风”。**方形主塔**的垂直性被极度强化，但这种垂直不是为了接近上帝，而是为了获得更好的瞭望视野和防御高度。城堡的拱门、狭窄的射击孔（箭窗）都带有简化的哥特式尖拱轮廓。其建筑风格是纯粹的“匈牙利哥特式”，深受中欧地区务实精神的影响，摒弃了西欧哥特后期常见的华丽装饰（如火焰式窗花）。在这里，哥特风格的骨架——肋骨拱顶、扶壁结构——都被内化和强化为支撑巨大石砌体量、抵御炮火的内在力量。它体现的是一种“形式追随恐惧”的原则，所有美学都让位于生存和战斗的需要。`} />
+                <InfoRow label="文化价值" value={`对于匈牙利人而言，帕尔·基尼兹及其城堡远不止一个旅游景点。他是民族叙事中一个极具魅力的文化符号，代表了勤奋、勇猛、忠诚和通过个人奋斗守护家园的价值观。在民间传说和学校里，他被塑造成一个“平民英雄”，激励着一代代人。这座城堡遗址，因此成为民族坚韧精神的物化寄托。在当地社区，城堡是身份认同的核心。小镇的广场以他命名，节日活动也常围绕这段历史展开。在现代社会，它提醒着人们，历史不仅仅由国王和贵族书写，那些来自底层的力量同样可以塑造国家的命运。它也是一种“硬核遗产”，吸引着那些对中世纪军事史、城堡建筑学和非主流英雄故事感兴趣的探访者，为小镇注入了独特的文化旅游生命力。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 纳吉瓦若尼一日游打卡路线攻略：从硬核堡垒到小镇时光`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐自由行路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好了，攻略正式开始！假设你有一个完整的白天，跟我这样走，精华不漏。**上午（9:00-12:30）**：直接奔赴核心——**基尼兹城堡遗址**。趁早上光线好、人少，先去仰望那座**方形主塔**的雄姿。买票进入遗址区（门票信息后面会提），别急着登塔，先环绕城堡底座走一圈，感受它的压迫感。然后进入内部庭院，参观小型博物馆，快速了解帕尔·基尼兹的生平，这样你看石头才会有故事。重头戏是**攀登主塔**！虽然台阶陡峭，但顶部的视野绝对值得，将巴科尼森林的连绵绿浪尽收眼底。**中午（12:30-14:00）**：下山回到小镇中心的**基尼兹·帕尔广场**。找一家露台餐馆，比如“Kinizsi Csárda”，品尝地道的匈牙利炖菜（比如红椒鸡），配上一杯本地葡萄酒，享受悠闲的乡村午餐。**下午（14:00-16:30）**：在广场散步，看看基尼兹的雕像和宁静的圣米哈伊教堂。然后，步行约10分钟，前往**露天民俗博物馆（Szabadtéri Néprajzi Múzeum）**，这里聚集了从巴科尼地区迁移来的古老农舍和手工业作坊，让你瞬间从军事硬核切换到田园诗歌。最后，留点时间在小镇的街巷里随意走走，感受那种时间慢下来的平和。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>主塔之巅的“守卫者视野”</strong>：当你气喘吁吁爬完最后一段陡峭的石阶，从塔楼顶部的垛口探出身去，那一刻就是历史与当下的交汇点。眼前不再是威胁，而是无尽的巴科尼森林绿毯，和如玩具般散落的小镇红屋顶。试着想象500年前，哨兵就是在这里，用肉眼搜寻着地平线上的尘烟。风在这里毫无阻挡，呼啸而过，吹走所有杂念，只剩下天地间的苍茫与守卫的责任感。<strong>打卡</strong>这个视角，是理解这座堡垒灵魂的关键。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>石墙上的“弹痕”与刻痕</strong>：在主塔底部厚重的石墙上，仔细寻找。你会看到一些并非自然风化的凹坑，传说中是当年围攻战留下的痕迹。更微妙的是那些模糊的刻痕，可能是昔日士兵百无聊赖时的涂鸦，也可能是后世游客的留名。用指尖轻轻拂过这些不平整的表面，冰凉粗糙的触感直接连接着数个世纪的距离。这块石头见证过恐惧、无聊、荣耀，也见证了你此刻的触摸。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>城堡庭院井口的幽深反光</strong>：在城堡内院，有一口深邃的古井。探头望去，井口石圈被磨得光滑，井下极深处，一点微弱的水光如静止的瞳孔，幽幽地反射着上方一小块天空。在依赖水井存活的围城岁月里，这一口井就是生命线。那种深邃的寂静和微光，比任何武器都更能让你体会到堡垒内生活的封闭与对基本生存资源的依赖。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>广场雕像的坚毅侧影</strong>：小镇广场中央，帕尔·基尼兹的雕像手持利剑，目视远方。下午的阳光常常从西侧打来，给他的金属脸庞镀上金边，同时也在身后拉出长长的影子。观察他盔甲上的细节和面部紧绷的线条，没有贵族的优雅，只有战士的果决。这个雕像不是远在天边的英雄，而是小镇日常生活的中心，孩子们在周围玩耍，老人坐在长椅上晒太阳——英雄就这样融入了社区的血肉。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 实用避坑指南`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>最佳时间与交通避坑</strong>：春秋两季（5-6月，9-10月）是最佳游览季，天气温和，景色宜人。夏季中午较热，且可能遇到旅游小巴团。<strong>最关键的交通贴士</strong>：纳吉瓦若尼没有火车站，主要靠汽车。从最近的大城市维斯普雷姆（Veszprém）或巴拉顿菲赖德（Balatonfüred）乘坐本地巴士可达，但班次<strong>并不频繁</strong>！务必提前在Menetrendek.hu网站上查好往返时刻表，并预留足够候车时间，错过一班可能要等很久。自驾是最方便的选择，城堡和小镇中心都有免费停车场。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>穿着与攀登建议</strong>：<strong>必须穿一双防滑、支撑性好的徒步鞋或运动鞋</strong>！攀登主塔的内部楼梯是原始的螺旋石阶，又窄又陡，光线昏暗，穿凉鞋或高跟鞋简直是冒险。服装也以轻便、便于活动的为宜。塔顶风大，即使夏天也带件薄外套。背包建议双肩背，解放双手扶墙。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>避开人流与门票贴士</strong>：这里算不上人山人海，但周末和节假日中午前后，可能遇到匈牙利本国家庭游客。想获得更宁静的体验，尽量<strong>工作日前来</strong>，并安排在早上开门（通常9点或10点）后第一时间进入城堡。门票可在遗址入口直接购买，价格合理，通常包含博物馆和登塔。准备好一些匈牙利福林现金，虽然可能也收卡，但小地方网络可能不稳定。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 纳吉瓦若尼周边住宿与美食攻略`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果你想沉浸在这中世纪氛围里，小镇和周边有几家特色选择。推荐小镇内的<strong>“Vázsony-kő Panzió”</strong>，这是一家家庭经营的民宿，由传统石屋改建，房间朴素干净，主人热情好客，能提供最地道的本地信息，晚上格外宁静。如果追求更多设施，可以住在车程15分钟左右的温泉小镇<strong>“Nagyvázsony-Tál”</strong>或<strong>“Zánka”</strong>，那里有带温泉的酒店。<strong>美食</strong>方面，广场上的<strong>“Kinizsi Csárda”</strong>是首选，尝试招牌菜“基尼兹拼盘”，分量十足，包含烤肉、香肠和煎饼，体验一把“战士的盛宴”。别忘了点一碗“匈牙利鱼汤”（Halászlé），味道浓郁。甜品可以试试“酸奶馅饼”（Túrógombóc）。配餐酒一定要选<strong>巴科尼地区的本地葡萄酒</strong>，尤其是霞多丽或西克（Cikó）混酿，果香充沛。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从纳吉瓦若尼出发，有两处绝佳的延伸探索点。一是<strong>赫维兹（Hévíz）</strong>，车程约30分钟。这里是欧洲最大的天然温泉湖，一年四季都可以在露天湖中泡温泉，氤氲的水汽与周围的森林构成魔幻场景，与你刚刚经历的硬核城堡形成极致反差疗愈。二是<strong>蒂豪尼修道院（Tihanyi Apátság）</strong>，车程约40分钟，坐落于巴拉顿湖北岸的半岛上。这座巴洛克式的修道院拥有绝佳的湖景视野，地下教堂保留着11世纪的原貌，宁静而神圣。在这里，你可以从“陆地守卫”的视角，切换到“湖光山色”与“精神守望”的维度，完美丰富你对匈牙利中部多元风貌的认知。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "纳吉瓦若尼的灵魂，就铸在那座方形巨塔沉默的石头里——它不讲述浪漫童话，只诉说一个朴素的真理：最强大的堡垒，并非天生贵胄的城墙，而是平凡人为守护身后家园而挺起的、永不弯曲的脊梁。在这里，你触摸到的不是历史的浮光，而是民族背水一战时，那股最硬核、最滚烫的生命力。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/baja" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    包
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">包姚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Baja</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/diosgyor-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迪
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迪欧什焦尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Diósgyőr Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/szeged-dom-square" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塞
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塞格德圆顶广场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Szeged Dom Square</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

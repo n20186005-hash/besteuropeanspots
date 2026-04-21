@@ -15,7 +15,7 @@ export default function PorvooOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/finland' },
             { label: '波尔沃老城', href: '/attractions/porvoo-old-town' },
           ]}
         />

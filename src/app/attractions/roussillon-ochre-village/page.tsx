@@ -15,7 +15,7 @@ export default function RoussillonOchreVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '鲁西永（普罗旺斯赭石红土城）', href: '/attractions/roussillon-ochre-village' },
           ]}
         />

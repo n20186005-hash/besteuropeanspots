@@ -15,7 +15,7 @@ export default function CesisOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '拉脱维亚', href: '/destinations/latvia' },
             { label: '采西斯古城', href: '/attractions/cesis-old-town' },
           ]}
         />

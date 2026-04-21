@@ -15,7 +15,7 @@ export default function OhridLakeAndOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '北马其顿', href: '/destinations/north-macedonia' },
             { label: '奥赫里德湖与老城', href: '/attractions/ohrid-lake-and-old-town' },
           ]}
         />

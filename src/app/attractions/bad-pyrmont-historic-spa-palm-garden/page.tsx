@@ -1,0 +1,245 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '巴特皮尔蒙特 Bad Pyrmont｜探寻欧洲贵族钟爱的温泉秘境与中欧最大露天棕榈园 - 最佳欧洲景点',
+  description: '走下火车，第一口呼吸到的空气就和别处不同。那是一种极其微妙的混合气息：清新草木的底子上，缠绕着一丝几乎难以察觉的、类似火柴划过瞬间的矿物味儿——这是硫磺泉的味道，巴特皮尔蒙特的灵魂气息。我拖着箱子走过寂静的街道，两旁的建筑不高，却有着统一的、奶油色的外墙和深绿色的窗棂，一种不张扬的优雅。然后，毫无预',
+}
+
+export default function BadPyrmontHistoricSpaPalmGardenPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '巴特皮尔蒙特', href: '/attractions/bad-pyrmont-historic-spa-palm-garden' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴特皮尔蒙特・Bad Pyrmont・德国・巴特皮尔蒙特`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`走下火车，第一口呼吸到的空气就和别处不同。那是一种极其微妙的混合气息：清新草木的底子上，缠绕着一丝几乎难以察觉的、类似火柴划过瞬间的矿物味儿——这是硫磺泉的味道，巴特皮尔蒙特的灵魂气息。我拖着箱子走过寂静的街道，两旁的建筑不高，却有着统一的、奶油色的外墙和深绿色的窗棂，一种不张扬的优雅。然后，毫无预兆地，一片巨大的、没有围墙的绿色在眼前铺开。这就是传说中的疗养公园了。它不是被“参观”的，而是被“生活”着的。清晨，有老人拄着精致的手杖，沿着沙沙作响的林间小径慢走；午後，一家人在如茵的草地上野餐；傍晚，穿着得体的人们手持小小的陶瓷杯，在装饰着女神雕像的矿泉亭边相遇，啜饮，轻声交谈。这里的时间流速，仿佛被温润的泉水调和过，变得缓慢而从容。
+而这片宁静绿洲的心脏，便是那座令人瞠目的棕榈园。当你穿过一片规整的英式花园，突然看到数棵高达十几米的巨大棕榈树，以一种近乎魔幻的姿态矗立在北德意志的天空下时，那种时空错位感是震撼的。它们不是温室里的娇客，而是真正扎根于此，在夏季尽情舒展着羽状叶片。风吹过，叶片摩擦发出沙沙的巨响，混合着远处喷泉的淙淙水声，还有不知名鸟类的鸣叫，形成一首独特的自然交响乐。走在其中，你一会儿仿佛置身于地中海沿岸，一会儿又拐进一个充满东方情调的小亭，下一秒抬头，却能望见一座德国古典主义的宫殿立面。这种奇妙的拼贴感，正是巴特皮尔蒙特最迷人的地方。
+最打动人心的，或许是这里无所不在的“疗愈”氛围。这种疗愈不仅是身体上的，更是精神上的。你可以看到人们虔诚地接着泉水，按照古老的“库尔疗程”定时定量饮用；也可以看到人们只是单纯地坐在长椅上，对着池塘里悠闲的天鹅发呆。几个世纪以来，从备受神经痛折磨的贵族，到在工业都市中疲惫的中产市民，人们来到这里，寻求的不仅仅是一口有疗效的水，更是一段允许自己慢下来、与自己对话的时光。巴特皮尔蒙特的核心魅力，就在于它完好地保存了这种“古典疗愈”的仪式感与生活哲学，像一枚被琥珀封存的时间胶囊，在喧嚣的现代世界里，提供着一处珍贵的精神避难所。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走下火车，第一口呼吸到的空气就和别处不同。那是一种极其微妙的混合气息：清新草木的底子上，缠绕着一丝几乎难以察觉的、类似火柴划过瞬间的矿物味儿——这是硫磺泉的味道，巴特皮尔蒙特的灵魂气息。我拖着箱子走过寂静的街道，两旁的建筑不高，却有着统一的、奶油色的外墙和深绿色的窗棂，一种不张扬的优雅。然后，毫无预兆地，一片巨大的、没有围墙的绿色在眼前铺开。这就是传说中的疗养公园了。它不是被“参观”的，而是被“生活”着的。清晨，有老人拄着精致的手杖，沿着沙沙作响的林间小径慢走；午後，一家人在如茵的草地上野餐；傍晚，穿着得体的人们手持小小的陶瓷杯，在装饰着女神雕像的矿泉亭边相遇，啜饮，轻声交谈。这里的时间流速，仿佛被温润的泉水调和过，变得缓慢而从容。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而这片宁静绿洲的心脏，便是那座令人瞠目的棕榈园。当你穿过一片规整的英式花园，突然看到数棵高达十几米的巨大棕榈树，以一种近乎魔幻的姿态矗立在北德意志的天空下时，那种时空错位感是震撼的。它们不是温室里的娇客，而是真正扎根于此，在夏季尽情舒展着羽状叶片。风吹过，叶片摩擦发出沙沙的巨响，混合着远处喷泉的淙淙水声，还有不知名鸟类的鸣叫，形成一首独特的自然交响乐。走在其中，你一会儿仿佛置身于地中海沿岸，一会儿又拐进一个充满东方情调的小亭，下一秒抬头，却能望见一座德国古典主义的宫殿立面。这种奇妙的拼贴感，正是巴特皮尔蒙特最迷人的地方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人心的，或许是这里无所不在的“疗愈”氛围。这种疗愈不仅是身体上的，更是精神上的。你可以看到人们虔诚地接着泉水，按照古老的“库尔疗程”定时定量饮用；也可以看到人们只是单纯地坐在长椅上，对着池塘里悠闲的天鹅发呆。几个世纪以来，从备受神经痛折磨的贵族，到在工业都市中疲惫的中产市民，人们来到这里，寻求的不仅仅是一口有疗效的水，更是一段允许自己慢下来、与自己对话的时光。巴特皮尔蒙特的核心魅力，就在于它完好地保存了这种“古典疗愈”的仪式感与生活哲学，像一枚被琥珀封存的时间胶囊，在喧嚣的现代世界里，提供着一处珍贵的精神避难所。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`巴特皮尔蒙特`} />
+                <InfoRow label="英文名称" value={`Bad Pyrmont`} />
+                <InfoRow label="正式名称" value={`Bad Pyrmont`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`巴特皮尔蒙特`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它是德国乃至欧洲温泉文化黄金时代的活化石，被誉为“北方的威斯巴登”，曾是沙皇、国王与文豪们争相造访的顶级社交与疗愈圣地。`} />
+                <InfoRow label="建筑特色" value={`将庄严的巴洛克宫殿、优雅的新古典主义柱廊与充满异国情调的巨型棕榈温室完美融合于一片宁静的山水园林之中。`} />
+                <InfoRow label="建筑风格" value={`以18-19世纪盛行的古典主义与疗养地建筑风格为主导，点缀着华丽的巴洛克细节与浪漫主义园林艺术。`} />
+                <InfoRow label="文化价值" value={`它不仅是一个疗养地，更是一个承载了欧洲“库尔”文化、贵族社交史与早期全球植物学交流的露天博物馆。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`棕榈园与疗养公园全年全天24小时开放，免费进入。园内主要建筑如新宫殿、矿泉亭等的开放时间各异：新宫殿博物馆开放时间为周二至周日10:00-17:00；历史矿泉饮水厅“Hygeia”通常在每日8:00-12:00及14:00-17:00开放供游客取用泉水。部分温泉酒店及水疗中心的公共浴场开放时间请查询各自官网。冬季（11月至次年3月）部分设施可能缩短开放时间或仅周末开放，建议行前在旅游局官网核实。`} />
+              <InfoRow label="门票价格" value={`广阔的疗养公园和棕榈园主体区域免费。进入新宫殿博物馆参观需购票，成人票约6欧元，优惠票约4欧元。在公共矿泉亭“Hygeia”品尝泉水免费，但如需使用特定泉眼接水容器，可支付小额押金租用。若想体验传统的“库尔”水疗，可在旅游局购买包含多次饮水疗愈、导游讲解和博物馆门票的“经典库尔卡”，价格约25欧元。`} />
+              <InfoRow label="地址" value={`Kurpark Bad Pyrmont, 31812 Bad Pyrmont, Germany`} />
+              <InfoRow label="交通方式" value={`从最近的汉诺威机场出发，乘坐S-Bahn（S5线）前往汉诺威中央火车站，车程约25分钟，班次密集。在汉诺威中央火车站换乘开往巴特皮尔蒙特的区域列车（RE或RB线路），车程约1小时至1小时15分钟，每小时至少有1-2班车。巴特皮尔蒙特火车站小巧精致，出站后步行约10-15分钟即可穿过宁静的老城区，直达疗养公园核心区。建议购买下萨克森州州票，适合多人同行且性价比高。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "巴特皮尔蒙特的故事，始于大地深处涌动的热流。关于这里的泉水，最早的传说甚至可以追溯到罗马时代，但真正将它写入历史的，是1582年那个偶然。据说，一位猎人在追踪受伤的猎物时，发现了一处散发着奇特气味的浑浊水塘，周围的动物骨骸暗示了它的不同寻常。消息传开后，当地领主开始尝试利用这些泉水，最初简陋的木制浴盆吸引了周边痛苦的民众。真正改变小镇命运的，是1740年代采邑主教赫尔曼·冯·绍姆堡-利珀的一个决定。他不仅是一位统治者，更是一位有着文艺复兴式品味的设计师。他梦想将这里打造成配得上欧洲顶级贵族的新雅典。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，一场宏大的建设开始了。巴洛克风格的新宫殿拔地而起，不是为了防御，而是为了优雅的居住和盛大的宴会。广阔的公园被精心规划，笔直的林荫大道、几何形的花坛、精巧的雕塑与喷泉，一切都彰显着人类理性对自然的完美修饰。绍姆堡-利珀主教甚至引入了当时最时髦的“社交饮水”仪式，建造了华丽的饮水厅。很快，沙俄的彼得大帝和凯瑟琳大帝、普鲁士的腓特烈大帝、丹麦国王、无数的诸侯公爵，以及歌德、莱辛这样的文化巨匠，都成为了这里的常客。小镇的旺季，简直就是一场流动的欧洲宫廷盛会，政治密谈、文艺沙龙、爱情轶事在泉水流淌声中悄然发生。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "十九世纪，随着资产阶级的兴起，巴特皮尔蒙特迎来了第二次辉煌。它不再仅仅是贵族的专属，富裕的市民阶层也开始追求这种“库尔”生活。建筑风格转向了更亲切的新古典主义，长长的柱廊被修建起来，供人们在任何天气下漫步。而最大胆的一笔，出现在1864年。当时的公园总监决心创造一个奇迹：让热带棕榈树在德国户外过冬。通过精心的培育、选择耐寒品种（主要是来自中国的 Trachycarpus fortunei），以及冬季用草席和木架进行的复杂防护，他成功了。中欧地区最大、最古老的露天棕榈园由此诞生。这些异域巨树与周围的欧陆园林形成了戏剧性的对话，也象征着当时欧洲人对探索世界、征服自然的无限渴望。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "两次世界大战给这个宁静的绿洲蒙上了阴影。宫殿曾沦为军营和医院，贵族与游客消失了。然而，战争并未摧毁它的根基。战后，巴特皮尔蒙特迅速找回了自己的定位。它不再是阶级森严的社交场，而是转型为一个面向大众的、致力于健康与休憩的现代疗养地。古老的饮水仪式被科学化地继承，现代化的水疗中心在古建筑旁建起，但核心的公园与棕榈园被小心翼翼地保存和维护。今天，当你漫步其中，你走过的每一步，都叠加着主教的设计蓝图、沙皇的足迹、十九世纪园艺师的雄心，以及无数普通疗养者寻求安宁的渴望。它是一部用石头、树木与泉水写就的，关于欧洲社会变迁与永恒疗愈需求的立体史诗。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味巴特皮尔蒙特，我强烈建议至少停留两个完整的白天。节奏一定要慢，把自己想象成一位来进行“库尔疗养”的客人。第一天，重点探索疗养公园、棕榈园和历史建筑群。建议在上午九点左右抵达公园，这时晨雾初散，光线柔和，本地疗养者刚开始活动，游客尚未大批涌入。用大半天时间，以散步和停留观察为主，细细感受空间的层次与氛围。第二天，则可以更深入地体验温泉文化，比如参观博物馆内部，或者预约一个传统的水疗疗程，并探索公园外围更自然的森林步道。这样的安排既能领略其文化景观的全貌，又能给自己足够的时间沉浸在那份特有的宁静之中。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`公园内部分历史泉眼的水温较高，直接饮用可能烫口，接水时请小心。
+虽然公园免费，但请尊重这是他人的疗愈空间，保持安静，不要踩踏花坛或惊扰野生动物。
+如果想体验完整的饮水疗法，最好在游客中心咨询当下的疗程建议，盲目大量饮用不同泉眼的水可能不适合所有人。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从巴特皮尔蒙特火车站出发，沿着标识清晰的“Kurpark”方向，穿过点缀着精品店和咖啡馆的宁静老城主街，让小镇的舒缓节奏逐渐浸染你`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从公园主入口开始，首先沿着宽阔的“林荫大道”走向新宫殿，感受两侧高大树木形成的庄严通道和远处宫殿立面的视觉吸引力`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕到新宫殿的东侧，这里藏着小小的“镜厅”，走进去感受无数面镜子与窗外绿意创造的无限延伸的魔幻空间`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直前往棕榈园的核心，站在那座横跨水渠的小拱桥上，仰头凝视四周环绕的巨型棕榈树，让热带的风情与温带的气候在你脑中形成奇妙的碰撞`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在棕榈园中心的古老温室“Palmenhaus”里坐下来，点一杯咖啡，听玻璃屋顶上风吹过的声音，观察那些在室内滋养的、更为娇嫩的异域植物`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`前往公园北侧的“Hygeia”矿泉亭，用准备好的杯子接一些温热的、富含铁矿的“一号泉”水，小口品尝它那独特而强烈的“铁锈”风味`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从矿泉亭向西漫步，进入“公主花园”区域，这里布局更为私密浪漫，寻找那尊著名的“泉边少女”雕塑，感受十九世纪的感伤主义情调`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在傍晚时分，走到公园最大的池塘边，找一张面对水面的长椅坐下，等待夕阳将宫殿、树影和天鹅的轮廓染成金色，直到路灯在暮色中渐次亮起`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`棕榈园拱桥中心仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`在下午三四点阳光西斜时，站在拱桥中央，用广角镜头仰拍，将拱桥的石栏作为前景框架，捕捉棕榈树巨大的扇形叶片在蓝天下伸展的震撼姿态，光线能为叶片打出明亮的轮廓光。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`新宫殿镜厅内部对称构图`}</h4>
+                  <p className="text-sm text-gray-700">{`选择晴天的正午，当阳光能充分照亮庭院时，站在镜厅正中，拍摄镜中反射的对面窗户及窗外绿景，形成一种深邃、对称、虚实交织的超现实画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“Hygeia”矿泉亭人物剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前后半小时，站在矿泉亭建筑外，逆光拍摄前来取水的人们在古典门廊下的剪影，重点捕捉他们手持水杯的动作与建筑的轮廓，故事感十足。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`公主花园的泉边少女雕塑特写`}</h4>
+                  <p className="text-sm text-gray-700">{`利用清晨的侧光或阴天的柔和散射光，近距离拍摄“泉边少女”雕塑的面部细节与水流纹理，浅景深能让背景的绿植化为朦胧的色块，突出雕塑的静谧忧伤。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`池塘边全景接片`}</h4>
+                  <p className="text-sm text-gray-700">{`在日出后或日落前一小时，于池塘西岸寻找机位，用接片模式横向拍摄，将水面倒影中的新宫殿、岸边的树木与游弋的天鹅一同收入画中，营造一幅古典主义的宁静画卷。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效消除树叶和水面的反光，让公园的绿色更加浓郁饱和。`}</li>
+                <li>• {`拍摄正在疗养或取水的当地人时，请务必保持尊重，最好远距离用长焦捕捉氛围，或事先微笑征得同意。`}</li>
+                <li>• {`冬季来访若逢雪天，棕榈树上覆盖着白雪将是独一无二的奇景，但需注意保暖和保护设备。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`古雅民宿之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在紧邻疗养公园的百年别墅改造的家庭民宿里，房东老夫妇会为你准备丰盛的当地早餐，并从阳台指给你看公园里最老的那棵橡树。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`宫殿酒店体验`}</h4>
+                  <p className="text-sm text-green-800">{`下榻由历史建筑改造的五星级“宫殿酒店”，房间天花板还保留着古老的浮雕，晚上可以穿着浴袍直接散步进入静谧无人的公园，独享皇室般的氛围。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代水疗酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择公园边缘设计现代的温泉酒店，房间拥有全景落地窗直面绿意，入住即享先进的温泉浴场和桑拿，将古典风情与当代舒适完美结合。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`静谧森林小筑`}</h4>
+                  <p className="text-sm text-purple-800">{`预订公园后方山坡上的小型精品酒店，需要步行一段上坡路才能到达，但回报是能俯瞰整个公园与小镇的绝美全景，夜晚只有风声与星斗为伴。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旺季（夏季和圣诞市场期间）住宿非常紧张，务必提前数月预订，尤其是那些有特色的历史酒店。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇治安极好，夜晚公园部分区域有照明，但深入小径还是建议结伴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "许多酒店都提供包含早餐和公园内某项活动（如导游或水疗入场券）的“库尔套餐”，预订时比较一下往往更划算。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开巴特皮尔蒙特好多天了，我的舌头似乎还记得那口铁锈味泉水的触感，涩，却有一种奇异的回甘。但比味道更持久的，是身体里留下的一种节奏感。那是一种被公园里的千年古树、被日复一日取水的老人的步伐、被泉水不疾不徐的涌流所校准过的节奏。在这个凡事求快、信息爆炸的时代，我们太习惯“体验”和“打卡”，却几乎忘记了如何“沉浸”与“疗愈”。巴特皮尔蒙特像一位沉默而智慧的长者，它不向你炫耀惊世骇俗的奇观，只是静静展开它精心打理了几个世纪的花园，提供一杯温热的水，然后告诉你：停下来，感受你的呼吸，观察一片树叶的纹理，听一听自己心跳的声音。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你感到疲惫，不是那种睡一觉就能解决的劳累，而是心灵深处需要被熨帖的褶皱，那么，请把巴特皮尔蒙特放入你的清单。它不仅仅是一个旅游目的地，它是一次针对现代病的温和疗法。来这里，像几个世纪以来的人们一样，完成一场小小的、自我关照的仪式。你会发现，最深刻的旅行，有时不是向外看到了多么壮丽的风景，而是向内，在一片古老的宁静中，重新找到了与自己和平相处的方式。这片拥有着热带棕榈的北德花园，最终治愈你的，或许正是它那跨越时间、始终如一的从容。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/corvey-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尔维修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Corvey Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/holstentor-lubeck" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    吕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">吕贝克霍尔斯滕门</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Holstentor</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/limburg-an-der-lahn" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    林
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">林堡（兰河畔的中世纪彩绘大教堂小镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Limburg an der Lahn</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

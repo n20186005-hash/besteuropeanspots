@@ -1,0 +1,157 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿奎莱亚历史溯源｜从小罗马到废墟与镶嵌画中的千年荣光',
+  description: '探索被遗忘的罗马首都：阿奎莱亚。从帝国北方堡垒到基督教艺术圣地，解码镶嵌画下的权力更迭与阿提拉的毁灭之火。一段浓缩的欧洲史。',
+}
+
+export default function AquileiaArchaeologicalSiteHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '阿奎莱亚古罗马遗址', href: '/attractions/aquileia-archaeological-site-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿奎莱亚古罗马遗址・Aquileia・意大利・弗留利-威尼斯朱利亚`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在意大利东北部，波河平原与亚得里亚海之间，藏着一座被时光刻意淡忘的“小罗马”。它的名字叫阿奎莱亚。这里没有罗马城的喧嚣，也没有庞贝的悲情戏剧，却曾是帝国最富庶、最坚固的北方首都。千年风沙掩埋了宫殿与市集，却让世界上最大、最绚烂的早期基督教镶嵌画重见天日。历史在这里，不是断壁残垣的简单堆砌，而是一幅用无数彩色石片精心拼贴的恢弘叙事诗。抛开游玩攻略，走进阿奎莱亚的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿奎莱亚古罗马遗址`} />
+                <InfoRow label="英文名称" value={`Aquileia`} />
+                <InfoRow label="正式名称" value={`Aquileia`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`弗留利-威尼斯朱利亚`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>公元前181年</strong>，一队罗马士兵和殖民者在此打下了第一根木桩。这不是心血来潮的开拓，而是一次深思熟虑的战略布局。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当时，罗马共和国已将目光投向富饶的波河流域和更北的阿尔卑斯世界。然而，来自东方的伊利里亚部落和北方的阿尔卑斯山民，始终是心腹之患。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿奎莱亚的选址，堪称古代军事地理学的典范。它背靠天然河道纳蒂索内河，面向潟湖与海洋，易守难攻。元老院的法令清晰地界定了它的使命：<strong>“防御阿尔卑斯山蛮族，巩固意大利东北门户。”</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于其名字“Aquileia”的由来，迷雾重重。最浪漫的推测与鹰（aquila）有关——罗马军团的标志。或许军团在此安营时，有雄鹰盘旋，被视为吉兆。另一种更务实的解释则指向水（aqua），因其地处水网密布的潟湖地带。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "无论起源如何，这座为战争而生的殖民地，凭借其连接东西、贯通南北的枢纽位置，迅速超越了军事职能。来自地中海的商船、来自多瑙河的行省货物、来自东方的奢侈品在此交汇。它很快成为帝国向潘诺尼亚、诺里库姆等北方行省扩张的跳板与补给中枢。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "一座“小罗马”在蛮族边疆拔地而起，其最初的棋盘式街道规划、广场与神庙，都彰显着罗马文明在此扎根的决心。它从诞生之初，就注定了不平凡的命运。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城市的第一个黄金时代，伴随着罗马帝国的全盛期到来。<strong>公元一至三世纪</strong>，阿奎莱亚已成为意大利北部最重要的城市之一，被誉为“第二个罗马”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其繁荣的基石是贸易与手工业。这里是琥珀之路的南方终点，波罗的海的珍贵琥珀在此加工，运往帝国心脏。玻璃制造、冶金、珠宝雕刻作坊林立。繁忙的河港与海港，吞吐着粮食、葡萄酒、橄榄油和奴隶。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，边疆的繁华总是与危机相伴。<strong>公元238年</strong>，一个决定性事件将其推上历史巅峰。皇帝马克西米努斯·色雷克斯在征讨叛乱时，兵临阿奎莱亚城下。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这场围城战异常惨烈。市民在元老院议员克里斯皮努斯的激励下，进行了不可思议的顽强抵抗。最终，久攻不克的士兵发生哗变，杀死了马克西米努斯。阿奎莱亚的坚守，直接改变了一场帝位争夺的结局，其“帝国之盾”的声望达到顶点。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“城墙如此坚固，市民如此勇敢，仿佛罗马的元老院与人民（SPQR）之魂，已全然倾注于此。” ——后世史学家对此战的评价。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但最深刻的印记，来自毁灭。<strong>公元452年</strong>，上帝之鞭<strong>阿提拉</strong>率领匈人大军席卷意大利。富甲一方的阿奎莱亚成了首要目标。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说围城持续了三个月，匈人久攻不下。一日，阿提拉看到鹳鸟携幼鸟离城飞走，他大喊：“看，连鸟都知道此城将亡！” 他以此激励士气，最终以强大的攻城器械摧毁了部分城墙，潮水般的骑兵涌入。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "屠城是彻底的。大火焚烧了数日，宫殿、神庙、市集化为焦土，居民或死或逃。这座辉煌了六个多世纪的都市，几乎从地图上被抹去。阿提拉的劫掠，为罗马时代的阿奎莱亚画上了鲜血淋漓的句号。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，文明的火种并未熄灭。幸存者逃往附近的潟湖岛屿，那些沼泽中的避难所，后来逐渐演变成另一座传奇水城——<strong>威尼斯</strong>的雏形。阿奎莱亚以自身的死亡，孕育了新的生命。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座城市最著名的“过客”，并非帝王将相，而是一位福音书作者——<strong>圣马可</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "根据古老而坚固的当地传统，在<strong>圣彼得</strong>前往罗马建立教会之前，他的门徒兼秘书马可，曾受命前往意大利北部传教。他的目的地，正是当时罗马世界最重要的城市之一：阿奎莱亚。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说<strong>圣马可</strong>在前往埃及的亚历山大之前，曾在阿奎莱亚停留并建立了基督教社区。这个说法并非空穴来风。早期基督教在阿奎莱亚的发展异常迅速且组织严密，在三世纪就已形成重要的教会中心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "更传奇的是，当地传说坚信，<strong>圣马可</strong>从阿奎莱亚前往亚历山大港时，乘坐的船只曾在今天的威尼斯附近遭遇风暴。他在潟湖中的一个小岛上避难，并在梦中得到天使的启示：“<strong>马可，愿你安息于此。</strong>” 这被解释为预言他将来会安葬在威尼斯。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，一条无形的神圣纽带将阿奎莱亚、亚历山大和威尼斯串联起来。几个世纪后，威尼斯的商人“窃取”了圣马可的遗骸从亚历山大运回，奉为城邦守护神，其合法性部分根源，正来自于圣马可曾踏足阿奎莱亚的这一“前传”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说圣马可的传奇带有神圣色彩，那么另一位人物则代表了阿奎莱亚在世俗学术史上的高光时刻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>鲁菲努斯</strong>，一位出生于阿奎莱亚附近、活跃于四世纪末五世纪初的修士、翻译家和历史学家。他是早期拉丁教父中至关重要的人物。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的最大贡献，是将希腊教父<strong>奥利金</strong>的大量神学著作翻译成拉丁文，尽管其中一些观点后来被认定为异端，但这项翻译工作本身，极大地丰富了西方拉丁世界的思想资源，影响了包括圣杰罗姆在内的整整一代学者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "鲁菲努斯还撰写了一部《教会史》，续写了尤西比乌斯的著作，是研究四世纪教会历史的关键材料。他的一生，见证了阿奎莱亚从异教罗马城市向基督教中心转变的关键时期。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的存在证明，即便在帝国晚期动荡的岁月里，阿奎莱亚依然是一个能够产生顶尖思想输出的文化重镇，而不仅仅是商业与军事要塞。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在阿奎莱亚的民间记忆里，最动人的传说并非关于帝王圣徒，而是一个关于“起源”的朴素故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "相传在很久以前，这片土地还是一片荒芜的沼泽。有三个男人，可能是逃难者，也可能是最早的拓荒者，来到了这里。他们筋疲力尽，不知该去往何方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这时，其中一人抬头望天，看到一轮明亮的太阳。他提议：“让我们跟着太阳走吧，它去哪里，我们就去哪里。” 另外两人赞同。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，他们追随着太阳移动的轨迹，在泥泞与芦苇中艰难前行。太阳最终停下的地方，是一片地势略高、靠近河流的坚实土地。他们决定在此定居，建立家园。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“太阳是我们的向导，它为我们选择了这片福地。让我们在此劳作、繁衍，让子孙后代铭记，是太阳引领我们找到了家园。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个被称为 <strong>“三个男人与太阳”</strong> 的传说，代代相传。它没有神奇的法术或英雄事迹，却充满了早期殖民者面对未知荒野时的务实、坚韧以及对自然指引的敬畏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史学家认为，这个传说或许微妙地映射了罗马殖民者最初来此建城的历史事实——遵循某种“神意”（元老院法令或占卜征兆）的指引，在陌生的边疆选定城址。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则与地标建筑有关。在阿奎莱亚大教堂的钟楼（建于十一世纪）旁，有一块奇特的红色大理石。当地人称之为 <strong>“魔鬼之石”</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说在建钟楼时，魔鬼前来阻挠，不断在夜间毁掉白天砌好的部分。建筑师无奈，与魔鬼达成协议：魔鬼可以搬来一块他认为最重的石头，如果人类能用它砌墙，魔鬼就罢休。魔鬼从遥远的伊斯特拉半岛搬来这块巨石，但聪明的建筑师用木轮和杠杆，成功将其安放到位。魔鬼羞愤而去，石头则留了下来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些传说，如同散落在历史正典边缘的珍珠，赋予了阿奎莱亚冰冷石头以温暖的温度，告诉我们居住于此的人们，如何用想象和理解来装点自己的故乡。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "行走在阿奎莱亚，你踩踏的不是“遗址”，而是一层层清晰可辨的文明年轮。从共和国的边疆堡垒，到帝国的繁荣都会；从阿提拉铁蹄下的焦土，到中世纪早期倔强重生的基督教中心。它像一块海绵，饱吸了罗马的秩序、蛮族的冲击、基督教的虔诚，最后在宁静中沉淀。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的价值，不在于拥有最宏伟的罗马建筑（许多石材被后世拆走去建威尼斯），而在于其历史的“完整性”与“转折性”。这里能看到一个罗马城市完整的生、老、病、死与转世。大教堂地下那幅面积近 <strong>760平方米</strong> 的<strong>四世纪镶嵌画</strong>，不仅是艺术瑰宝，更是一部用图像书写的“地下圣经”和城市编年史，描绘着约拿、好牧人等场景，也记录着捐助者的世俗面孔。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂阿奎莱亚，你就读懂了一个微观的欧洲：文明与蛮荒的拉锯，毁灭与重生的循环，物质辉煌终将逝去，而精神与艺术的基因却能在灰烬中变异、传承。它提醒我们，今日欧洲文化的多元与复杂，正是在无数个如阿奎莱亚般的十字路口，一次次选择、碰撞与融合的结果。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里不需要匆匆打卡。它邀请你蹲下身，仔细辨认镶嵌画中每一片彩石的光芒；它邀请你静下心，在废墟广场上聆听穿过野草的风声，那风中或许还夹杂着远古市集的嘈杂、保卫者的呐喊，以及诵经的袅袅余音。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/pienza" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    皮
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">皮恩扎古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pienza</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/anagni-papal-town-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿纳尼</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Anagni</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nola-lily-festival-historic-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    诺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">诺拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nola</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -15,7 +15,7 @@ export default function KorculaOldTownMarcoPoloPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/croatia' },
             { label: '科尔丘拉老城', href: '/attractions/korcula-old-town-marco-polo' },
           ]}
         />

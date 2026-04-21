@@ -15,7 +15,7 @@ export default function TaraspCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '塔拉斯普城堡（恩嘎丁山谷的守护者）', href: '/attractions/tarasp-castle' },
           ]}
         />

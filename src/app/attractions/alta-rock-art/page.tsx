@@ -15,7 +15,7 @@ export default function AltaRockArtPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/norway' },
             { label: '阿尔塔岩画', href: '/attractions/alta-rock-art' },
           ]}
         />

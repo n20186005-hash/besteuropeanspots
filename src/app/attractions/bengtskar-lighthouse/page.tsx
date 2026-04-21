@@ -15,7 +15,7 @@ export default function BengtskarLighthousePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/finland' },
             { label: '本特谢尔灯塔', href: '/attractions/bengtskar-lighthouse' },
           ]}
         />

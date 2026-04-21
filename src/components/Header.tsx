@@ -7,6 +7,8 @@ export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
+    { label: "目的地", href: "/destinations" },
+    { label: "精选榜单", href: "/collections" },
     { label: "景点百科", href: "/category/encyclopedia" },
     { label: "景点游记", href: "/category/travelogue" },
     { label: "历史人文", href: "/category/history" },

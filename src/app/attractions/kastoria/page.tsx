@@ -15,7 +15,7 @@ export default function KastoriaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '卡斯托里亚', href: '/attractions/kastoria' },
           ]}
         />

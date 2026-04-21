@@ -15,7 +15,7 @@ export default function RagusaOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '拉古萨老城', href: '/attractions/ragusa-old-town' },
           ]}
         />

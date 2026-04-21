@@ -15,7 +15,7 @@ export default function HelfstynCastleMoraviaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '波尔卡斯特城堡', href: '/attractions/helfstyn-castle-moravia' },
           ]}
         />

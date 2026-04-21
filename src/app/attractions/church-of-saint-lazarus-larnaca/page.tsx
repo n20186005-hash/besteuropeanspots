@@ -15,7 +15,7 @@ export default function ChurchOfSaintLazarusLarnacaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞浦路斯', href: '/destinations/cyprus' },
             { label: '拉纳卡圣拉撒路教堂', href: '/attractions/church-of-saint-lazarus-larnaca' },
           ]}
         />

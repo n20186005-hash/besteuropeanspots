@@ -1,0 +1,231 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '大斯皮莱翁修道院 Mega Spilaion Monastery｜探访惊悚垂直悬崖洞穴中的千年悲壮重生 - 最佳欧洲景点',
+  description: '车子在伯罗奔尼撒的群山中不知拐了多少个弯，就在你觉得前路唯有苍翠松林与裸露岩石时，它毫无征兆地撞进了你的视野——那一刻，你几乎要倒抽一口冷气。那不是一座“建”在山上的修道院，而是一个庞然大物，被一只无形巨手狠狠地“塞”进了悬崖那张漆黑、深不可测的巨口之中。垂直的灰白色石灰岩崖壁高达上百米，光滑得令人',
+}
+
+export default function MegaSpilaionMonasteryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '大斯皮莱翁修道院', href: '/attractions/mega-spilaion-monastery' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`大斯皮莱翁修道院・Mega Spilaion Monastery・希腊・伯罗奔尼撒，卡拉夫里塔附近`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在伯罗奔尼撒的群山中不知拐了多少个弯，就在你觉得前路唯有苍翠松林与裸露岩石时，它毫无征兆地撞进了你的视野——那一刻，你几乎要倒抽一口冷气。那不是一座“建”在山上的修道院，而是一个庞然大物，被一只无形巨手狠狠地“塞”进了悬崖那张漆黑、深不可测的巨口之中。垂直的灰白色石灰岩崖壁高达上百米，光滑得令人绝望，而在它中部，一个巨大的天然洞穴张着嘴，里面层层叠叠、密密麻麻地嵌着白色的楼宇、红色的瓦顶、木制的阳台，像极了岩壁本身生长出的奇异骨骼，又像是一个即将被山体吞噬、却仍在拼命向外探出身体的悲壮生命体。视觉上的惊悚感是第一重冲击。
+沿着之字形的山路继续向上，空气变得清冷，带着岩石的土腥味和远处松涛的树脂香气。停好车，你需要步行最后一段陡坡。四周异常安静，只有你自己的脚步声和风穿过峡谷的呜咽。然而，当你走近那扇相对朴素的大门，一种低沉而持续的嗡鸣开始传入耳际——那是洞穴本身放大后的声音：烛火的噼啪声，修士黑袍摩擦石地的窸窣声，还有那仿佛从地心传来的、绵延不断的诵经回响。这声音不像来自人间，倒像是这座山在用它自己的语言祷告。
+走进主洞穴内部，感官的尺度被彻底重置。高达数十米的天然穹顶笼罩一切，光线从洞口和几处凿开的岩窗斜射进来，在氤氲的香烟中形成道道光柱。你的眼睛需要时间适应昏暗，随后才会看清，四壁并非原始岩石，而是被无数圣像、银质贡品和几个世纪以来烟熏火燎的痕迹所覆盖。最动人的，是那些年迈的修士。他们沉默地移动，照顾着长明灯，向你微微点头，眼神里有一种在绝壁上生活了千年才淬炼出的平静。这里没有世俗的喧嚣，只有一种沉重的、近乎实体化的虔诚，压在你的肩头，也沉入你的心底。它不是一座供人轻松游览的“景点”，而是一个依然剧烈跳动着的、在极端环境中存活下来的信仰心脏。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在伯罗奔尼撒的群山中不知拐了多少个弯，就在你觉得前路唯有苍翠松林与裸露岩石时，它毫无征兆地撞进了你的视野——那一刻，你几乎要倒抽一口冷气。那不是一座“建”在山上的修道院，而是一个庞然大物，被一只无形巨手狠狠地“塞”进了悬崖那张漆黑、深不可测的巨口之中。垂直的灰白色石灰岩崖壁高达上百米，光滑得令人绝望，而在它中部，一个巨大的天然洞穴张着嘴，里面层层叠叠、密密麻麻地嵌着白色的楼宇、红色的瓦顶、木制的阳台，像极了岩壁本身生长出的奇异骨骼，又像是一个即将被山体吞噬、却仍在拼命向外探出身体的悲壮生命体。视觉上的惊悚感是第一重冲击。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沿着之字形的山路继续向上，空气变得清冷，带着岩石的土腥味和远处松涛的树脂香气。停好车，你需要步行最后一段陡坡。四周异常安静，只有你自己的脚步声和风穿过峡谷的呜咽。然而，当你走近那扇相对朴素的大门，一种低沉而持续的嗡鸣开始传入耳际——那是洞穴本身放大后的声音：烛火的噼啪声，修士黑袍摩擦石地的窸窣声，还有那仿佛从地心传来的、绵延不断的诵经回响。这声音不像来自人间，倒像是这座山在用它自己的语言祷告。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进主洞穴内部，感官的尺度被彻底重置。高达数十米的天然穹顶笼罩一切，光线从洞口和几处凿开的岩窗斜射进来，在氤氲的香烟中形成道道光柱。你的眼睛需要时间适应昏暗，随后才会看清，四壁并非原始岩石，而是被无数圣像、银质贡品和几个世纪以来烟熏火燎的痕迹所覆盖。最动人的，是那些年迈的修士。他们沉默地移动，照顾着长明灯，向你微微点头，眼神里有一种在绝壁上生活了千年才淬炼出的平静。这里没有世俗的喧嚣，只有一种沉重的、近乎实体化的虔诚，压在你的肩头，也沉入你的心底。它不是一座供人轻松游览的“景点”，而是一个依然剧烈跳动着的、在极端环境中存活下来的信仰心脏。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`大斯皮莱翁修道院`} />
+                <InfoRow label="英文名称" value={`Mega Spilaion Monastery`} />
+                <InfoRow label="正式名称" value={`Mega Spilaion Monastery`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`伯罗奔尼撒，卡拉夫里塔附近`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`希腊最古老、最受崇敬的修道院之一，其历史可追溯至公元4世纪，被誉为“希腊东正教的摇篮和坚韧精神的丰碑”。`} />
+                <InfoRow label="建筑特色" value={`一座完全嵌入在垂直石灰岩悬崖巨大洞穴之中的多层复合建筑，外观犹如悬贴在崖壁上的蜂巢，惊险而壮观。`} />
+                <InfoRow label="建筑风格" value={`以拜占庭风格为基底，但因多次毁坏与重建，融合了后拜占庭、奥斯曼时期乃至近代简易的修复风格，呈现一种独特的、层叠的生存式建筑风貌。`} />
+                <InfoRow label="文化价值" value={`不仅是宗教圣地，更是希腊民族在无数次外族入侵、战争与火灾中顽强守护信仰与文化认同的活态象征。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`通常每日上午8:30至下午15:00开放，冬季（11月至3月）可能提前至下午14:00关闭。宗教节日期间（如圣母安息日，8月15日）开放时间可能延长且活动丰富，但修士进行祷告仪式时部分区域会暂时关闭。前往前最好在当地旅游信息中心确认。`} />
+              <InfoRow label="门票价格" value={`免费入场，但欢迎游客捐赠以支持修道院的维护。修道院商店出售手工蜡烛、圣像和橄榄油等，所得也用于维持修道院运转。`} />
+              <InfoRow label="地址" value={`Mega Spilaion, Kalavryta 250 01, Greece`} />
+              <InfoRow label="交通方式" value={`从雅典国际机场出发，最灵活的方式是租车自驾。沿E94高速公路驶向帕特雷，然后转入E65/E951公路前往卡拉夫里塔方向，全程约3小时。接近目的地时，需沿着蜿蜒的山路行驶，注意寻找指示“Mega Spilaion”的棕色旅游路标。也可以从雅典乘坐火车到迪亚科夫托，换乘著名的窄轨小火车“odontotos”抵达卡拉夫里塔镇（约1小时，沿途风景绝美），再从镇上搭乘出租车前往修道院（车程约20分钟，建议提前预约返程车辆）。公共交通班次有限，自驾是首选。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从一个神谕般的梦开始讲起。公元362年，两位虔诚的修士，西缅和西奥多，在梦中得到圣母玛利亚的指示，要他们去寻找一幅由福音书作者路加亲手绘制的圣母圣像。他们历经艰辛，最终跟随一只神秘飞鸟的指引，来到了伯罗奔尼撒腹地这个几乎无法抵达的巨型洞穴。就在那里，他们不仅发现了圣像，更发现了一处流淌着清泉的隐秘所在。这个发现如同神迹，立刻吸引了第一批隐修者，他们在洞穴中搭建起最简陋的栖身之所，大斯皮莱翁（意为“大洞穴”）修道院的生命，就此在嶙峋的岩石间扎下了根。最初的几个世纪，它像一株石缝中的野草，在乱世中默默生长，成为早期基督徒重要的灵修堡垒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，它的地理位置注定了命运多舛。第一次巨大的打击发生在840年，一场原因不明的大火将木制结构的修道院吞噬殆尽。但修士们没有离开这片被祝圣的土地，他们在灰烬中寻找，奇迹般地发现那幅路加圣像竟完好无损。这场“神迹”坚定了他们的信念，他们用石头重建，让修道院在烈焰后获得了第一次“重生”。此后的千年，它如同一块磁石，不断吸引着侵略者的目光。拉丁十字军来过，掠夺过；奥斯曼土耳其帝国的铁骑多次兵临山下，威胁要摧毁这个东正教的象征。修道院不止一次被部分破坏，修士流散，但每一次，总有人回来，重新点燃圣坛的灯火。它的存在本身，就成了希腊民族精神不灭的隐喻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最悲壮也最惨烈的一章，写在近代。1943年12月，纳粹德军为了报复当地游击队的抵抗，实施了骇人听闻的卡拉夫里塔大屠杀。他们同样没有放过这座悬崖上的修道院。德军冲上山，将修道院洗劫一空，随后纵火焚烧。古老的经文、圣器、木制结构在火焰中化为焦土。然而，据说又是在废墟的核心，那幅路加圣像再次幸存。二战结束后，幸存的老修士和新的追随者们，面对着几乎是一片冒烟的残骸的“家”，做出了一个惊人的决定：不放弃，再次重建。他们用双手，一砖一瓦，在依然滚烫的岩石上，开始了最艰难的重建。这次重建，少了许多华美的装饰，多了几分实用与简朴，但那份决绝的意志，却比任何大理石材都更加坚硬。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天你看到的建筑，主体便是那次战后重建的结果。它不像一些修缮完好的古迹那样光鲜，墙壁上甚至能看到不同时期修补的痕迹，材料也显得简单。但正是这种“粗糙”，诉说着最真实的历史。那幅传奇的圣像，历经四次毁灭性大火而存世，如今被供奉在主圣殿最显眼的位置，被视为修道院不朽灵魂的见证。修道院的生活依然严苛，遵循着古老的作息。当你站在洞穴深处，触摸着那些被烟火熏黑、冰凉刺骨的岩壁时，你触摸的不仅是石头，是一层又一层被烈火淬炼过的时光，是一代又一代修士用生命书写的、关于“坚持”的史诗。它没有金碧辉煌的穹顶，它的辉煌，在于它站在那里本身，就是一个奇迹。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在上午10点前抵达。这个时间，晨祷结束，光线正好从东南方向照亮洞穴立面，景色最为震撼，而且能避开午后可能到来的少量团队游客。整体游览时间建议预留2.5至3小时，节奏要慢。这是一个需要用心去“感受”远多于用脚去“走完”的地方。首先在远处观景台花足够时间消化那种视觉冲击，然后怀着敬畏之心走近、进入。在内部，不要急于穿梭，多在昏暗的光线下静立片刻，观察细节，感受氛围。这样的安排，能让你从最初的惊愕，逐步过渡到内心的沉思，完整体验这个地方的精神层次。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿着遮盖肩膀和膝盖的庄重服装，否则可能会被拒绝入内，门口通常有披肩可供借用但最好自备。
+保持绝对安静，尤其是在圣殿内部，关闭手机铃声，不要使用闪光灯拍照，这是对修行生活最基本的尊重。
+山区天气变化快，即使山下炎热，带上一件轻便外套也很必要，洞穴内更是常年阴凉。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`先把车停在最外侧的观景平台，下车，站在那里至少十分钟，什么也别做，就看着那座嵌在巨大岩洞中的白色建筑群，让最初的震撼感慢慢沉淀。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着步行小径向上，注意脚下陡峭的石阶，同时感受空气变得清凉，聆听山谷的风声和越来越清晰的修道院钟声。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`通过那扇不起眼的入口进入洞穴内部，立刻在门厅处停顿，让眼睛适应昏暗，并深深吸入那股混合了蜂蜡、旧书和岩石的独特气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`缓缓步入主圣殿（Katholikon），仰头看那高耸的天然洞穴穹顶，然后寻找并静静瞻仰那幅被视为奇迹的、由圣路加绘制的古老圣母圣像。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`跟随指示，谨慎而安静地参观修士们使用的古老食堂、藏骨堂以及展示历史文物的小博物馆，看看那些被烧焦的圣器残骸。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果得到许可且举止庄重，可以走到外部的木制阳台走廊，那里是感受悬崖高度和俯瞰下方葱翠山谷的最佳位置。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`离开前，在修道院的小商店停留，可以捐一些钱，或者买一罐修士自产的橄榄油或一小瓶玫瑰香水作为纪念。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`回程时，不要马上上车，在山路拐角处再回望一次，你会发现阳光角度变化下，修道院呈现出完全不同的色调与气质。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`远处之字形山路第一个开阔拐角处`}</h4>
+                  <p className="text-sm text-gray-700">{`上午九至十点，利用长焦镜头压缩空间，将蜿蜒的山路作为前景，捕捉修道院悬于巨大岩洞中的全景，构图突出其险峻与孤独。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`修道院主入口内侧回望`}</h4>
+                  <p className="text-sm text-gray-700">{`正午前后，阳光射入洞口时，站在门内阴影中，向外拍摄，以门口的木门或铁艺为框，拍出洞外蓝天绿谷与洞内昏暗宗教氛围的强烈对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`主圣殿内仰望穹顶`}</h4>
+                  <p className="text-sm text-gray-700">{`需要高感光度相机或稳定手机，在烛光最亮时，避开人流，拍摄天然岩顶与悬挂的银质圣灯，捕捉那种神秘、庄严的光影层次。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`外部木制走廊视角`}</h4>
+                  <p className="text-sm text-gray-700">{`下午早些时候，阳光能照到部分走廊，站在走廊尽头，以木质栏杆和红色屋顶为引导线，拍摄下方深不见底的峡谷，体现“空中楼阁”的惊险感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`室内拍摄绝对禁止使用闪光灯和三脚架，以免打扰清修。拍摄修士背影或侧影前，最好用眼神或轻微动作示意，获得默许，直接正面拍摄是不礼貌的。山谷里午后容易起雾，如果想拍朦胧意境可以等等，但清晰度会下降。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`卡拉夫里塔镇上的家庭旅馆，房间干净温暖，主人会给你讲很多关于修道院和窄轨火车的当地故事，早晨能吃到自制的希腊酸奶和蜂蜜。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`修道院本身在附近山腰经营着几间简朴的招待所（Archontariki），需提前电话询问，入住这里能体验绝对的宁静，夜晚只有星空与风声，清晨可跟随修士的晨钟醒来。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车约40分钟，前往山另一侧葡萄酒产区的精品庄园酒店，坐落在橄榄园与葡萄园中，拥有无敌的山景露台和豪华水疗，在经历了修道院的灵魂震撼后，这里能提供身体上的极致舒缓。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果选择住在卡拉夫里塔镇，夜晚小镇非常宁静安全，是探索周边其他历史遗迹（如古克拉维斯城堡）的好基地。预订修道院招待所必须有心理准备，条件非常简朴，近乎苦修，且可能需要遵守宵禁。旅游旺季（7-8月）和宗教节日期间，整个地区住宿都很紧张，务必提前数月预订。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开大斯皮莱翁很久，那个嵌在悬崖里的白色影像，依然会毫无征兆地闯入脑海。但最初那种“惊悚”的感觉，慢慢发酵，变成了一种深沉的敬畏。我们旅行，常常是为了寻找美，那种和谐的、愉悦的、令人心旷神怡的美。而大斯皮莱翁给予的，是一种截然不同的东西——一种关于“生存”的壮美。它不追求与环境的和谐共处，它展现的是一种近乎固执的、对抗性的存在。对抗地心引力，对抗烈火，对抗侵略，对抗遗忘。每一块砖石，都像是在对深渊呐喊：“我就在这里，我不走。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、崇尚舒适、习惯快速遗忘的时代，这样一个地方的存在，像是一记响亮的钟声。它提醒我们，世界上还有一些价值，值得用最笨拙、最艰苦、最不计成本的方式去守护。它不是供人消费的景观，它是一个依然在呼吸的信念。当你站在那阴凉的洞穴里，看着长明灯映照在一位老修士平静的脸上时，你会突然明白，真正的力量，不在于征服了多少高度，而在于能在多么深的绝境中，依然点亮一盏不灭的灯。这或许就是为什么，每一位渴望深度旅行的灵魂，都应该来一次这里。它不会让你轻松，但很可能，会让你在离开时，内心某个部分变得比以前更加坚实。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/acrocorinth" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿克罗科林斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Acrocorinth</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/arta" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔塔古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arta</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kardamyli-mani" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔达米利</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kardamyli</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

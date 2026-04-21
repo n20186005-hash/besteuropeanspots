@@ -15,7 +15,7 @@ export default function AquileiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '阿奎莱亚遗址', href: '/attractions/aquileia' },
           ]}
         />

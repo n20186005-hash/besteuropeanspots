@@ -15,7 +15,7 @@ export default function KlatovyCatacombsPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '克拉托维耶稣会教堂与地下墓穴', href: '/attractions/klatovy-catacombs' },
           ]}
         />

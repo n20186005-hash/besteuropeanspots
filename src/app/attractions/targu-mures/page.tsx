@@ -15,7 +15,7 @@ export default function TarguMuresPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '罗马尼亚', href: '/destinations/romania' },
             { label: '特尔古穆列什', href: '/attractions/targu-mures' },
           ]}
         />

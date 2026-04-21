@@ -15,7 +15,7 @@ export default function AinsaMedievalTownPyrneesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/spain' },
             { label: '艾恩萨', href: '/attractions/ainsa-medieval-town-pyrnees' },
           ]}
         />

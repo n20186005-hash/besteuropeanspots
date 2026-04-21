@@ -15,7 +15,7 @@ export default function BrissagoIslandsMaggiorePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '布里萨戈群岛', href: '/attractions/brissago-islands-maggiore' },
           ]}
         />

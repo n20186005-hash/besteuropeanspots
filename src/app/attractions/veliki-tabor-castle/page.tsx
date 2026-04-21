@@ -15,7 +15,7 @@ export default function VelikiTaborCastlePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '克罗地亚', href: '/destinations/croatia' },
             { label: '韦利基塔博尔城堡', href: '/attractions/veliki-tabor-castle' },
           ]}
         />

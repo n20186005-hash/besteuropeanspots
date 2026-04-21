@@ -15,7 +15,7 @@ export default function HallstattPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '奥地利', href: '/destinations/austria' },
             { label: '哈尔施塔特镇', href: '/attractions/hallstatt' },
           ]}
         />

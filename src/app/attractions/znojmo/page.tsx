@@ -15,7 +15,7 @@ export default function ZnojmoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '捷克', href: '/destinations/czech-republic' },
             { label: '兹诺伊莫古城', href: '/attractions/znojmo' },
           ]}
         />

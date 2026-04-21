@@ -15,7 +15,7 @@ export default function AragonCastleIschiaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '伊斯基亚阿拉贡城堡', href: '/attractions/aragon-castle-ischia' },
           ]}
         />

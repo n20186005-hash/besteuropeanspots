@@ -15,7 +15,7 @@ export default function SaltPansOfXwejniPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '马耳他', href: '/destinations/malta' },
             { label: '戈佐岛盐田', href: '/attractions/salt-pans-of-xwejni' },
           ]}
         />

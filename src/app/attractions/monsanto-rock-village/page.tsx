@@ -15,7 +15,7 @@ export default function MonsantoRockVillagePage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/portugal' },
             { label: '蒙桑图巨石村', href: '/attractions/monsanto-rock-village' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function AiguesMortesMedievalWalledCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
             { label: '艾格莫尔特十字军古城', href: '/attractions/aigues-mortes-medieval-walled-city' },
           ]}
         />

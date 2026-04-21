@@ -15,7 +15,7 @@ export default function BebenhausenAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '贝本豪森修道院', href: '/attractions/bebenhausen-abbey' },
           ]}
         />

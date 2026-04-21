@@ -1,0 +1,149 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '塞居雷旅游攻略：普罗旺斯最后的秘密石头村自由行指南',
+  description: '探索法国Séguret（塞居雷），这座14世纪的纯粹石头村。深度游攻略涵盖历史、建筑与美食，带你避开人潮，体验真正的普罗旺斯生活。',
+}
+
+export default function SeguretPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞居雷', href: '/attractions/seguret' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`塞居雷・Séguret・法国・沃克吕兹省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`嘿，朋友，如果你已经厌倦了普罗旺斯那些被游客挤爆的“明信片小镇”，今天这份塞居雷私藏旅游攻略，就是为你准备的。想象一下：开车在当泰勒德蒙米拉伊山脉蜿蜒的公路上，一个转弯，一座由蜜糖色石头垒成的村庄，如同从山体自然生长出来一般，层层叠叠、安静地依附在巨大的山脚之下。这里就是塞居雷，一个几乎没有商业痕迹、时间仿佛停摆在十四世纪的古老村落。作为你的专属向导，这份自由行指南将带你穿过它标志性的胡格诺派古城门，踏着被岁月磨光的石板路，去倾听石头诉说的故事，并告诉你如何完美规划一日游，避开所有旅行团，独享这份属于普罗旺斯的、极其纯粹的秘密。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "嘿，朋友，如果你已经厌倦了普罗旺斯那些被游客挤爆的“明信片小镇”，今天这份塞居雷私藏旅游攻略，就是为你准备的。想象一下：开车在当泰勒德蒙米拉伊山脉蜿蜒的公路上，一个转弯，一座由蜜糖色石头垒成的村庄，如同从山体自然生长出来一般，层层叠叠、安静地依附在巨大的山脚之下。这里就是塞居雷，一个几乎没有商业痕迹、时间仿佛停摆在十四世纪的古老村落。作为你的专属向导，这份自由行指南将带你穿过它标志性的胡格诺派古城门，踏着被岁月磨光的石板路，去倾听石头诉说的故事，并告诉你如何完美规划一日游，避开所有旅行团，独享这份属于普罗旺斯的、极其纯粹的秘密。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`塞居雷`} />
+                <InfoRow label="英文名称" value={`Séguret`} />
+                <InfoRow label="正式名称" value={`Séguret`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`沃克吕兹省`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`塞居雷的历史地位，与其说是某个宏大事件的中心，不如说是一座见证了普罗旺斯边缘地带坚韧生存的活化石。它的名字本身就源于古普罗旺斯语“Segur”，意为“安全之地”，这精准地定义了它的角色。14世纪，当宗教冲突的风暴席卷法国，这里坚固的城墙为当时受迫害的胡格诺派（法国新教徒）提供了难得的庇护所。这些至今保存完好的城墙，不仅仅是防御工事，更是一个社区在动荡年代紧紧凝聚、捍卫自身信仰与生活方式的象征。村庄从未发展成大型城镇，也因此奇迹般地避开了后来大规模的现代化改造。它像一个被精心封存在琥珀里的标本，保留了中世纪普罗旺斯乡村最原始的社会结构和建筑肌理。在法国“最美村庄”（Les Plus Beaux Villages de France）的名单中，塞居雷不是最华丽的，但绝对是最“本真”的代表之一，它诉说的不是王公贵族的传奇，而是普通山民与教徒如何在艰险环境中扎根、繁衍的沉默史诗。`} />
+                <InfoRow label="建筑特色" value={`塞居雷的建筑特色，用一个词概括就是“纯粹”。这里的房子没有多余的装饰，全是就地取材，用当泰勒德蒙米拉伊山开采的石灰岩一块块垒砌而成。石头并非整齐划一，形状各异，颜色也从淡淡的奶油黄到深邃的蜂蜜金，在一天中不同的光线下变幻着色彩，午后阳光直射时，整个村庄就像一块巨大的、正在融化的太妃糖，散发着暖融融的光泽。墙壁厚实粗粝，你能清晰地看到石块的纹理和灰浆的痕迹。屋顶是经典的普罗旺斯式罗马瓦，经年累月的风霜雨雪让它们染上了深沉的赤陶色甚至墨绿色。房屋紧紧依偎，共用山墙，狭窄的巷道（叫“calade”）由鹅卵石铺就，中间微微凹陷，是几个世纪以来雨水和脚步共同雕刻的痕迹。门窗窄小，多为厚重的木结构，有些还保留着古老的铁艺门环和插销。整个村庄的建筑群遵循着山势的等高线层层上升，从山下仰望，仿佛一个巨大的、结构精密的石头蜂巢，坚固、有机，与背后的山脉浑然一体。`} />
+                <InfoRow label="建筑风格" value={`塞居雷的建筑风格，是典型的、未经修饰的**普罗旺斯乡土建筑**，也有人称之为“罗曼风格的影响”或纯粹的中世纪民用建筑。它没有宏伟的哥特尖塔，也没有繁复的巴洛克装饰。它的风格精髓全在于“功能性与适应性”。为了抵御普罗旺斯著名的密史脱拉风和夏季的酷热，房屋设计得低矮紧凑，小巷狭窄曲折，能有效遮阳和防风。厚实的石墙提供了天然的隔热层，做到冬暖夏凉。拱廊和拱门是常见的元素，它们不仅起到结构支撑作用，也在狭窄空间里创造了通透感和连贯的步行通道。这种风格的美学来源于实用：每一块石头的堆叠都为了稳固，每一条小巷的走向都为了便利和防护。走在村里，你不会惊叹于某个孤立的建筑杰作，而是会沉浸于一种整体的、和谐的、与自然环境达成完美平衡的居住智慧之中。它是建筑对地理和气候最直白、最真诚的回应。`} />
+                <InfoRow label="文化价值" value={`塞居雷的文化价值，在于它作为一种“活着的遗产”所传递的生活方式与社区精神。对于当地人而言，这里不是一个博物馆式的景点，而是他们世代生活的家园。村庄中心广场上的那棵老梧桐树和公共喷泉，依然是居民日常社交的中心。每年夏季，村庄会举办小而传统的节庆活动，比如“葡萄采收节”，延续着与周边葡萄园紧密相连的农耕文化。它对现代社会的影响，是一种“减速”的启示。在这个追求效率与规模的时代，塞居雷的存在本身就是一个宣言：它证明了小而美、慢而精的社区模式可以持续数百年。它被列入“法国最美村庄”保护名录，不仅保护了石头建筑，更保护了一种注重邻里关系、尊重自然节律、珍视手工传承的价值观。来到这里的人，或多或少都会被这种宁静、自足的氛围感染，重新思考“美好生活”的定义。它如同一块人文磁石，吸引着那些渴望在喧嚣世界之外寻找真实连接与内心平静的现代人。`} />
+              </div>
+            </div>
+            
+          </Section>
+
+          <Section title={`3. 塞居雷一日游打卡路线攻略：从城门到葡萄园的全景漫步`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`经典自由行时间线推荐`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`好啦，跟着我这份塞居雷自由行指南，我们来规划完美的一天。**早上9点**，别急着冲进村，先把车停在村口下方的免费停车场。步行往上，在“Porte de la Bise”（风之门）旁的露天咖啡馆，点一杯浓缩咖啡，看着晨光慢慢点亮城门上古老的石雕，这是你与中世纪最初的问候。**上午10点**，正式穿过城门，开启探索。沿着主干道“Grand Rue”缓缓上行，两旁的石头房屋就是最好的风景。务必拐进那些看似不起眼的窄巷，惊喜往往就在拐角。**中午12点半**，抵达村庄高处的“Place de la Fontaine”（喷泉广场），在广场边那家挂着蓝色招牌的家庭餐厅享用午餐，一定要点一道用当地黑松露或羊奶酪做的普罗旺斯特色菜。**下午2点**，参观完小巧精致的圣丹尼斯教堂后，沿着“Chemin des Ramparts”（城墙小径）走一圈，这里是**塞居雷深度游**的精髓，你可以从不同角度俯瞰被葡萄园包裹的沃克吕兹平原，远眺当泰勒德蒙米拉伊山的嶙峋山脊。**下午4点**，下山，可以去村口一两家本地艺术家的小工坊看看。**傍晚6点**，驱车或步行到村庄对面山坡的D7公路边（有个小观景台），那是欣赏塞居雷全景和金色日落的最佳地点，看着灯光一点点在这个石头蜂巢里亮起，你会觉得这一天的奔波都值了。`}
+                </p>
+                
+              </div>
+              
+            </div>
+          </Section>
+
+          <Section title="4. 必看亮点">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>风之门（Porte de la Bise）的石雕与光影</strong>：这是进入村庄的主要古城门，也是拍照的绝佳地点。重点看拱门上方那个已经模糊但风骨犹存的石雕纹章。下午三四点的斜阳会恰好从城门洞穿过，在内部粗粝的石板路上投下长长的、界限分明的光影，你站在明暗交界线上，仿佛一脚在现在，一脚踏进了14世纪。触摸门洞内壁，冰凉的石头上满是凿刻的痕迹，那是几个世纪以来车轴无数次摩擦留下的凹槽，是时间最直观的刻度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>喷泉广场的老梧桐与流水声</strong>：村庄的心脏地带。广场中央的铸铁喷泉常年流淌着清冽的山泉水，水声潺潺，是巷弄寂静中最悦耳的背景音。坐在池边，仰头看那棵巨大的百年梧桐树，阳光透过层层叠叠的叶片，洒下晃动的金色光斑。这里是观察本地生活的绝佳窗口，可能会看到老人提着水壶来接水，或是邻居在此驻足闲聊，生活的气息与历史的沉淀在此完美交融。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "3.  <strong>某扇古老的胡桃木门</strong>：在迷宫般的小巷里，留意那些厚重的旧木门。我特别记得一扇在Rue de la Poterne附近的门，深胡桃木色，布满干裂的纹路，巨大的铁制门钉已经锈蚀成暗红色，门环是一个简朴的圆环，被磨得异常光滑。门扉紧闭，门楣上却精心摆放着一盆盛开的天空葵，娇艳的粉红色与沧桑的木石形成强烈对比，瞬间让冰冷的建筑有了温度，仿佛在说：这是一个被精心爱护着的家。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "4.  <strong>城墙小径的“缝隙观景台”</strong>：走在Chemin des Ramparts上，不要只看远处的平原。在某些段落，城墙的垛口或石墙的缝隙，会构成天然的画框。从一个不到半米宽的缝隙望出去，前景是粗糙的石块肌理，中景是村庄另一部分错落的屋顶和烟囱，远景则是无限延伸的、整齐的葡萄园方格。这个视角极其独特，像是村庄为自己设计的一幅幅动态风景画，你需要放慢脚步，蹲下身子，才能发现这些隐秘的惊喜。" }} />
+            </div>
+          </Section>
+
+          <Section title={`5. 塞居雷自由行避坑指南与行前须知：玩转石头村的关键细节`}>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "首先，<strong>时间就是一切</strong>。塞居雷极小，旅游大巴无法进入核心区，但旺季（7-8月）的上午10点到下午4点，狭窄的主街仍可能人头攒动。最佳游览时间是<strong>平季（5-6月，9-10月）的清晨或黄昏</strong>，不仅能拍到最柔和的光线，还能享受近乎包场的宁静。其次，<strong>穿着与装备</strong>：请务必、务必、务必穿一双<strong>防滑、舒适、鞋底有花纹的平底鞋</strong>！村里的石板路和鹅卵石斜坡经过几个世纪的磨砺，光滑无比，尤其在晨露或雨后堪比溜冰场。穿高跟鞋或光滑底的运动鞋来这里简直是冒险。另外，村庄依山而建，全程是上下坡，轻装上阵为佳。最后，<strong>交通与设施</strong>：自驾是最方便的方式，村口下方有免费停车场，但车位有限，早点到是王道。村里没有大型超市，只有一两家小纪念品店和咖啡馆，建议自带一瓶水。这里民风淳朴，治安极好，但依然建议看管好随身物品，尤其是在人多的观景台拍照时。记住，这里不是一个消费型景点，它的魅力在于沉浸式的漫步和观察，请放慢你的脚步和心情。" }} />
+            </div>
+          </Section>
+
+          <Section title={`6. 塞居雷周边住宿与美食攻略：住在石头里，品在地风味`}>
+            <div className="space-y-6">
+              
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "想在塞居雷获得极致体验，我强烈建议至少住上一晚。村庄本身有几家由古老石屋改造的精品民宿（Chambre d‘hôte），它们通常只有几间房，需要提前数月预订。住在里面，你能在游客散去后，独享村庄的静谧夜晚和星空，清晨在鸟鸣中醒来。如果订不到，周边几公里内（如附近的Sablet或Cairanne村）有很多优质的葡萄酒庄民宿，既能享受田园风光，又方便探索周边酒庄。<strong>美食</strong>方面，喷泉广场上的 <strong>“Le Mesclun”</strong> 餐厅是本地人的心头好。一定要尝试他们的“Agneau de Sisteron”（锡斯特龙羔羊肉），肉质鲜嫩，带有普罗旺斯香草的独特香气；或者当季的松露煎蛋，简单却极致鲜美。搭配一杯塞居雷所属的“罗讷河谷村庄区”（Côtes du Rhône Villages）产的红葡萄酒，风味绝佳。午餐后，可以去村里的<strong>面包坊</strong>买一个传统的“Fougasse”（普罗旺斯香草面包），刚出炉的香味能飘满整个小巷。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 周边延伸探索">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "塞居雷本身就是探索这一片“宝石村”区域的完美起点。我推荐两个步行或短途车程可达的延伸目的地：" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1.  <strong>萨布莱（Sablet）</strong>：开车仅需5分钟。这也是一个美丽的环形石头村，同样被葡萄园环绕。与塞居雷的垂直陡峭不同，萨布莱地势更平缓，村庄中心有一个漂亮的环形广场和更大的教堂。这里的氛围更加生活化，有几家很棒的酒窖可以品酒。你可以对比两个村庄不同的布局和气质。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "2.  <strong>当泰勒德蒙米拉伊山脉徒步起点</strong>：如果你是户外爱好者，从塞居雷出发，有多条标记清晰的徒步小径直接进入当泰勒德蒙米拉伊山。其中一条中等难度的路线可以带你爬到更高的 vantage point，从另一个方向回望塞居雷，你会更加惊叹这个村庄是如何“镶嵌”在山体之中的。这是一种从“置身其中”到“纵观全局”的视角升华，能让你更深刻地理解这片土地的地理逻辑。" }} />
+            </div>
+          </Section>
+
+          <Section title="8. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "塞居雷的灵魂，不在于某座辉煌的建筑，而在于那种由厚重石头、蜿蜒窄巷、山泉清响和葡萄园气息共同酿造的、缓慢而坚韧的“存在感”。它像一个沉默而智慧的守护者，告诉你生活可以不必急于扩张与炫耀，只需深深地扎根于自己的土地，顺应四季与山风，便能拥有穿越数个世纪的安稳与丰饶。在这里走一遭，你带走的不是纪念品，而是一份关于宁静、纯粹与时光重量的、可以反复回味的心灵印记。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/savigny-les-beaune-castle-museum" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨维尼莱博讷</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Savigny-lès-Beaune</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/carcassonne-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔卡松城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Carcassonne Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-meung-sur-loire" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    马
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马尔旺城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Meung-sur-L-Loire</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

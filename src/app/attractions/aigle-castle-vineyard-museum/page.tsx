@@ -15,7 +15,7 @@ export default function AigleCastleVineyardMuseumPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '埃格勒城堡', href: '/attractions/aigle-castle-vineyard-museum' },
           ]}
         />

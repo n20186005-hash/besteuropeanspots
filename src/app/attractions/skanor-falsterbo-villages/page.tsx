@@ -15,7 +15,7 @@ export default function SkanorFalsterboVillagesPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/sweden' },
             { label: '斯堪诺与法尔斯特布双子镇', href: '/attractions/skanor-falsterbo-villages' },
           ]}
         />

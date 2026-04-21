@@ -15,7 +15,7 @@ export default function BlackChurchBrasovPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '罗马尼亚', href: '/destinations/romania' },
             { label: '布拉索夫黑教堂', href: '/attractions/black-church-brasov' },
           ]}
         />

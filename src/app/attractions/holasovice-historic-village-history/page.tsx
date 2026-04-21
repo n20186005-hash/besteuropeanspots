@@ -1,0 +1,144 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '霍拉索维采历史溯源｜波希米亚乡村巴洛克的前世今生与静谧传奇',
+  description: '穿越七百年时光，探访捷克世界遗产霍拉索维采。从黑死病幸存者的坚韧，到波希米亚乡村巴洛克的宁静诗意，听石头与田野讲述中欧农民的文明史诗。',
+}
+
+export default function HolasoviceHistoricVillageHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '霍拉索维采历史村落', href: '/attractions/holasovice-historic-village-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`霍拉索维采历史村落・Holašovice・捷克・南波希米亚州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在捷克南波希米亚的田园深处，时间仿佛被施了魔法。这里没有恢弘的城堡与教堂，有的只是一片由22座农舍围成的宁静村庄。它不是一座“死”的博物馆，而是一本“活”着的史书——<strong>霍拉索维采</strong>。1998年，它因其完整保存的18-19世纪“乡村巴洛克”建筑群而被列入世界遗产名录，被誉为“中欧传统村庄的完美典范”。但UNESCO的评语远不足以概括它的灵魂。它的故事，关乎瘟疫后的重生，关乎土地与农民的尊严，更关乎一种被主流历史书写长期忽略的、源自乡野的审美与文明。抛开游玩攻略，走进霍拉索维采的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`霍拉索维采历史村落`} />
+                <InfoRow label="英文名称" value={`Holašovice`} />
+                <InfoRow label="正式名称" value={`Holašovice`} />
+                <InfoRow label="国家" value={`捷克`} />
+                <InfoRow label="城市" value={`南波希米亚州`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "霍拉索维采的起点，深埋在波希米亚茂密的森林与肥沃的田野之下。它的名字首次出现在<strong>1292年</strong>的一份拉丁文文件中，名为“<strong>Holasowicze</strong>”。这个名字的由来，指向一位名叫 <strong>“霍拉什”（Holas）</strong> 的斯拉夫领主。在古捷克语中，“-ovice”后缀意为“属于……的人民或领地”。因此，“霍拉索维采”直译便是“霍拉什子民的土地”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的诞生，与<strong>13世纪捷克王国的大规模殖民运动</strong>息息相关。当时，波希米亚国王<strong>普热米斯尔·奥托卡二世</strong>等君主，为了开发边境森林、增加财政收入，鼓励德意志移民进入南波希米亚地区。霍拉索维采很可能就是在这样的背景下，由一位斯拉夫领主建立，并吸引了德意志农民前来垦殖。这使得村庄从源头就带上了<strong>斯拉夫与德意志文化交融</strong>的基因。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初，它只是一个典型的封建庄园制下的农业村落。农民们向位于附近<strong>捷克布杰约维采</strong>的修道院或贵族领主缴纳赋税，终生与土地捆绑。村庄的布局遵循了中世纪南德地区的“<strong>绿色村庄</strong>”模式：所有农舍紧密环绕一个巨大的、绿草如茵的矩形公共池塘与广场，宅地后方延伸出狭长的条状耕地，一直延伸到远处的森林边界。这种布局高效、平等，体现了早期日耳曼移民社区强烈的集体主义精神。七百年来，任凭外部王朝更迭、战争席卷，这个最初的格局竟奇迹般地被完整保留了下来，成为解读中欧乡村社会史的活态密码。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "霍拉索维采的历史，并非帝王将相的编年史，而是一部由<strong>韧性、灾难与审美</strong>交织的平民史诗。其中几个关键印记，深刻塑造了它今日的面貌。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一个无法绕开的印记，是<strong>1520-1521年的黑死病</strong>。这场恐怖的瘟疫几乎将村庄从地图上抹去。根据记载，瘟疫过后，全村仅剩<strong>两名幸存者</strong>。这场灭绝性灾难的阴影如此之深，以至于后来村庄中心立起的<strong>瘟疫纪念柱</strong>（建于1722年），其悲怆感远超一般的宗教虔诚。它是对几乎断代的重生记忆的刻石铭记。然而，浩劫之后，领主很快从德语地区引入了新的移民。正是这些新移民的后代，在此后的几个世纪里，重建并最终定义了霍拉索维采。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“当死亡马车拉走了最后一位邻居的遗体，寂静笼罩了广场。只有风穿过空荡的门廊。然后，新的脚步声从远方传来，带着不同的口音，却怀着同样的渴望：在这片被死亡洗礼过的土地上，重新建立家园。” —— 基于地方史料的文学化描述" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二个印记，是<strong>18世纪末至19世纪中叶的“乡村巴洛克”建筑风潮</strong>。这不是来自维也纳或布拉格的命令，而是一场<strong>自下而上的民间艺术运动</strong>。当时，受益于农产品价格上涨和农奴制改革，南波希米亚的农民阶层积累了前所未有的财富和自信。他们不再满足于简陋的木结构农舍，开始聘请流浪的泥瓦匠和工匠，按照当时流行的巴洛克风格重建家园。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但这不是宫廷巴洛克的直接复制。农民们去除了繁复的雕塑与金碧辉煌，将其<strong>本土化、实用化</strong>。于是，我们看到了粉刷成明黄、淡绿、天蓝色的山墙，上面装饰着简洁优美的波浪形曲线、贝壳纹样和圣经浅浮雕。每个农舍都是一个独立的艺术品，山墙形式无一雷同，却又和谐统一。这不仅仅是建筑的更新，更是<strong>农民阶级自我意识觉醒与文化表达</strong>的宣言。霍拉索维采广场，因此变成了一座露天的、平民的巴洛克艺术馆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第三个印记，是<strong>20世纪的风暴与幸存</strong>。二战后，苏台德地区的德意志居民被驱逐，霍拉索维采虽未直接卷入，但也经历了集体农庄时代。许多类似的村庄在现代化浪潮中面目全非，钢筋混凝土取代了传统农舍。霍拉索维采因其偏僻的位置和当时的经济滞后，反而<strong>意外地“被遗忘”</strong>。它的建筑瑰宝在寂静中沉睡，躲过了大规模的“现代化”破坏。直到<strong>1990年代</strong>，它的价值才被重新发现，经过精心修缮，最终走向世界遗产的殿堂。它的历史，是一部关于“边缘”如何因祸得福，保存了最珍贵核心的寓言。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "霍拉索维采的传奇，不属于远方的国王，而属于这片土地上的建造者与记录者。这里要讲述的，是一位“无名”的大师和一位用镜头“救赎”村庄的诗人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 泥瓦匠大师：约翰内斯·林哈特的“指纹”</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在霍拉索维采，你最常听到的“名人”名字，或许就是<strong>约翰内斯·林哈特</strong>。然而，关于他的生平，官方史料几乎一片空白。他不是艺术家年鉴中的人物，他只是一位<strong>18世纪末19世纪初活跃在南波希米亚的泥瓦匠兼施工队长</strong>。他的“作品集”，就是霍拉索维采广场上近一半的巴洛克式农舍山墙。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史学家通过比对建筑风格、装饰细节和零星的匠人签名，辨认出了他的“指纹”。例如，广场<strong>6号</strong>和<strong>15号</strong>农舍的山墙，那优雅对称的波浪形轮廓、中央精致的壁龛和两侧装饰性的小尖塔，被认为是他成熟期的代表风格。林哈特深谙如何将昂贵的石雕效果，用<strong>灰泥粉刷</strong>这种经济的方式实现。他带来的，不是僵化的设计图，而是一套灵活多变的装饰“词汇库”，根据主人的财力和喜好进行组合。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“主人家想要一个与众不同的山墙，最好能像教堂那样庄严，但又不能太贵。林哈特蹲在院子里，用树枝在土地上画了几个样式。‘这个波浪边，配上简单的贝壳纹，我再给中央加一个守护神圣徒的浮雕，如何？材料用灰泥，我能让它看起来像石头一样结实。’” —— 基于传统匠人工作场景的构想" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他是真正的民间艺术家。他的“工作室”是露天工地，他的“赞助人”是富裕起来的农民。他没有留下肖像，但他的审美却凝固在霍拉索维采的每一道阳光与阴影中。他代表了那个时代无数无名工匠的集体智慧，正是他们，将巴洛克艺术从神坛和宫殿，请入了寻常百姓的农家院落。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. 摄影诗人：约瑟夫·苏德克的静谧凝视</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说林哈特用灰泥塑造了村庄的形体，那么捷克摄影大师<strong>约瑟夫·苏德克</strong>，则在20世纪用光影捕捉并升华了它的灵魂。苏德克以拍摄布拉格城市景观和静谧的摄影小品闻名，但他与霍拉索维采的邂逅，别具深意。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1950年代</strong>，正值捷克集体化运动高峰期，传统的乡村生活模式遭到巨大冲击。苏德克敏锐地感受到一种文明形态正在消失。他于<strong>1953至1954年间</strong>多次造访霍拉索维采。当时，村庄尚未被“发现”，破败而宁静。苏德克没有拍摄宏大的全景，而是将镜头对准了<strong>细节</strong>：一扇斑驳的蓝色大门，门口的石墩；阳光斜照在粉墙上，投下窗格的几何阴影；空无一人的广场，只有瘟疫柱的倒影在水中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的照片充满了<strong>静谧、乡愁与挽歌</strong>般的诗意。在意识形态高涨的年代，这些照片无关政治，只关乎美与时间。它们像一封封视觉信笺，默默诉说着一个即将被时代洪流淹没的旧世界。这些作品后来集结出版，让无数捷克知识分子和艺术家，第一次“看见”了霍拉索维采惊人的建筑之美与历史价值。可以说，苏德克的镜头，是在村庄最寂寥的岁月里，为其进行了一次深刻的<strong>美学存档与精神启蒙</strong>，为日后声势浩大的文化遗产保护运动埋下了感性的伏笔。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在霍拉索维采，历史不仅镌刻在石头上，也流淌在村民口耳相传的故事里。这些传说为冰冷的建筑注入了温热的生命气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于村庄中心那个巨大的矩形水池，有一个古老的传说。它不仅是牲畜的饮水源和消防储备，更是村庄的“<strong>生命之眼</strong>”。老人们说，水池底部与地下深处的神秘水系相连，守护着村庄的安宁。如果水池干涸，灾难便会降临。<strong>1520年大瘟疫</strong>前，就有人声称看到池水莫名变得浑浊、水位下降，这被后世解读为不祥的预兆。因此，保持水池的清澈与丰盈，成了村民潜意识中的集体责任。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "广场北侧的<strong>圣约翰·内波穆克雕像</strong>旁，则流传着关于“<strong>沉默的守护者</strong>”的故事。圣约翰是捷克的主保圣人之一，也是守口如瓶的象征。村民相信，每当夜幕降临，圣约翰的雕像会缓缓转过头，默默巡视广场上每一座农舍，确保家庭的秘密不被泄露，守护夜晚的平安。这让孩子们对这位圣人既敬畏又亲切。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最有趣的传说与建筑装饰有关。许多农舍山墙的装饰中，除了基督教符号，还隐藏着古老的<strong>异教或民间信仰元素</strong>，比如太阳纹、玫瑰结（一种象征无限与保护的编织图案）。相传，这些是女主人执意要求添加的。泥瓦匠起初认为这不合教规，但女主人坚持说：“巴洛克风格是给外人看的体面，但这些古老的符号，是保佑我们灶台永远温暖、谷物永远丰盈的<strong>家族咒语</strong>，必须留在家里最显眼的位置。”于是，一种奇妙的融合诞生了：巴洛克的形制包裹着 pagan 的灵魂，这正是霍拉索维采文化层叠感的生动体现。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当你站在霍拉索维采空旷的广场上，时光的层次感扑面而来。脚下是<strong>13世纪</strong>规划的草地，眼前是<strong>18-19世纪</strong>农民自豪的巴洛克杰作，耳边仿佛还回响着<strong>20世纪</strong>苏德克按下快门的轻微声响。它不是一座被抽空生活的遗址，仍有少数居民在此居住，晾晒的衣服、窗台的花朵，让历史依然呼吸。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂霍拉索维采，意味着跳出以宫殿教堂为中心的历史叙事，去欣赏一部<strong>由农民书写的中欧乡村文明史诗</strong>。它见证了平民在灾难后的惊人韧性，见证了经济独立带来的文化自信如何催生出独一无二的审美，更见证了“边缘”与“落后”如何在阴差阳错中成为文化遗产最忠实的守护者。这里的一砖一瓦，诉说的不是权力的荣耀，而是<strong>生活的尊严、社区的智慧与手工的温度</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "来到霍拉索维采，你不是在看景点，而是在阅读一本立体的、关于生存、美与记忆的书。它的价值，不在于震撼，而在于<strong>完整个体所传递的宁静与真实力量</strong>。在这片被世界遗忘又铭记的田园，历史从未远去，它只是换了一种更沉默、更坚韧的方式，与时光并肩而立。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/valtice-wine-castle-czech" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瓦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓦尔季采</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Valtice</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/olomouc-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥洛穆茨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Olomouc Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lednice-valtice" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莱
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莱德尼采–瓦尔季采庄园</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lednice–Valtice Cultural Landscape</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

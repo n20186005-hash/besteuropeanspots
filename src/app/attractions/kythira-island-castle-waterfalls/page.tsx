@@ -1,0 +1,243 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '基西拉岛 Kythira｜威尼斯城堡与秘境瀑布的希腊遗珠 - 最佳欧洲景点',
+  description: '飞机开始下降时，我透过舷窗第一次看到基西拉。它不像那些明信片上的希腊岛屿，没有连绵的白房子蓝教堂，而是一片广袤的、带着赭石与灰绿色调的褶皱土地，边缘被爱琴海深蓝色的丝绒温柔包裹。降落后，干燥而带着咸味的风扑面而来，里面混杂着野生百里香的辛辣香气和阳光炙烤岩石的热烈气味。开车前往霍拉的路上，世界安静得',
+}
+
+export default function KythiraIslandCastleWaterfallsPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '基西拉岛', href: '/attractions/kythira-island-castle-waterfalls' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`基西拉岛・Kythira・希腊・基西拉镇（霍拉）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`飞机开始下降时，我透过舷窗第一次看到基西拉。它不像那些明信片上的希腊岛屿，没有连绵的白房子蓝教堂，而是一片广袤的、带着赭石与灰绿色调的褶皱土地，边缘被爱琴海深蓝色的丝绒温柔包裹。降落后，干燥而带着咸味的风扑面而来，里面混杂着野生百里香的辛辣香气和阳光炙烤岩石的热烈气味。开车前往霍拉的路上，世界安静得只剩下风声和车轮碾过碎石的声响，偶尔有山羊铃铛的叮当声从远处的山坡飘来，空灵得像另一个世纪的回声。
+当你第一眼看到霍拉山顶的城堡时，那种震撼是缓慢而持久的。它不是一座精致的宫殿，而是一片从岩石中生长出来的、巨大而沉默的褐色废墟群。沿着之字形小路向上走，脚下是几个世纪以来被无数脚步磨得光滑的石阶。穿过巨大的威尼斯式拱门，仿佛一步跨入了时间的真空。城堡内部是迷宫般的断壁残垣，荒草从石缝中倔强地探出，废弃的圣教堂只剩下穹窿的骨架，阳光从那里倾泻而下，在地上切割出锋利的光影。站在城墙边缘，狂风几乎要把人吹透，眼前是360度无垠的海平面，那种绝对的孤寂与磅礴，会让你瞬间忘记所有都市的喧嚣。
+然而，基西拉的魔法在于它的双重灵魂。驱车向内陆行驶半小时，穿过点缀着橄榄树和矮石墙的乡村，你会抵达另一个世界——米洛波塔莫斯山谷。沿着潺潺水声向下走，空气陡然变得湿润清凉。阳光被茂密的悬铃木和梧桐树叶筛成闪烁的金斑，苔藓像绿色的天鹅绒覆盖着每一块巨石。然后，瀑布出现了，不是一道，而是一连串的阶梯式水潭，清澈见底的山泉从不同高度的岩石上跃下，汇成一个个翡翠色的天然泳池。当地的孩子笑着从石头上跳入水中，声音在山谷里清脆地回荡。这里与山顶城堡的苍凉形成了不可思议的对比，一个是人类为防御而建的、面向海洋的坚硬外壳，另一个是大自然赐予的、向内生长的柔软心脏。
+这就是基西拉最打动人心的魅力：它从未试图讨好谁。它保持着一种骄傲的疏离感，同时又以最隐秘的方式向你展示它的丰饶。在霍拉迷宫般的小巷里，你会看到老奶奶坐在爬满九重葛的门前剥豆子，猫咪在午后阳光下睡得肆无忌惮。咖啡馆里的人们用缓慢的语速交谈，仿佛时间在这里被拉长、稀释。它不是景点，而是一个仍在呼吸、有着自己脉搏的生命体，你来或不来，它的风继续吹，它的瀑布继续流，它的城堡继续在落日中投下漫长的影子。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "飞机开始下降时，我透过舷窗第一次看到基西拉。它不像那些明信片上的希腊岛屿，没有连绵的白房子蓝教堂，而是一片广袤的、带着赭石与灰绿色调的褶皱土地，边缘被爱琴海深蓝色的丝绒温柔包裹。降落后，干燥而带着咸味的风扑面而来，里面混杂着野生百里香的辛辣香气和阳光炙烤岩石的热烈气味。开车前往霍拉的路上，世界安静得只剩下风声和车轮碾过碎石的声响，偶尔有山羊铃铛的叮当声从远处的山坡飘来，空灵得像另一个世纪的回声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你第一眼看到霍拉山顶的城堡时，那种震撼是缓慢而持久的。它不是一座精致的宫殿，而是一片从岩石中生长出来的、巨大而沉默的褐色废墟群。沿着之字形小路向上走，脚下是几个世纪以来被无数脚步磨得光滑的石阶。穿过巨大的威尼斯式拱门，仿佛一步跨入了时间的真空。城堡内部是迷宫般的断壁残垣，荒草从石缝中倔强地探出，废弃的圣教堂只剩下穹窿的骨架，阳光从那里倾泻而下，在地上切割出锋利的光影。站在城墙边缘，狂风几乎要把人吹透，眼前是360度无垠的海平面，那种绝对的孤寂与磅礴，会让你瞬间忘记所有都市的喧嚣。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，基西拉的魔法在于它的双重灵魂。驱车向内陆行驶半小时，穿过点缀着橄榄树和矮石墙的乡村，你会抵达另一个世界——米洛波塔莫斯山谷。沿着潺潺水声向下走，空气陡然变得湿润清凉。阳光被茂密的悬铃木和梧桐树叶筛成闪烁的金斑，苔藓像绿色的天鹅绒覆盖着每一块巨石。然后，瀑布出现了，不是一道，而是一连串的阶梯式水潭，清澈见底的山泉从不同高度的岩石上跃下，汇成一个个翡翠色的天然泳池。当地的孩子笑着从石头上跳入水中，声音在山谷里清脆地回荡。这里与山顶城堡的苍凉形成了不可思议的对比，一个是人类为防御而建的、面向海洋的坚硬外壳，另一个是大自然赐予的、向内生长的柔软心脏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是基西拉最打动人心的魅力：它从未试图讨好谁。它保持着一种骄傲的疏离感，同时又以最隐秘的方式向你展示它的丰饶。在霍拉迷宫般的小巷里，你会看到老奶奶坐在爬满九重葛的门前剥豆子，猫咪在午后阳光下睡得肆无忌惮。咖啡馆里的人们用缓慢的语速交谈，仿佛时间在这里被拉长、稀释。它不是景点，而是一个仍在呼吸、有着自己脉搏的生命体，你来或不来，它的风继续吹，它的瀑布继续流，它的城堡继续在落日中投下漫长的影子。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`基西拉岛`} />
+                <InfoRow label="英文名称" value={`Kythira`} />
+                <InfoRow label="正式名称" value={`Kythira Island`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`基西拉镇（霍拉）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座孤悬于伯罗奔尼撒与克里特岛之间的战略要冲，是爱琴海文明交汇、冲突与守望的千年哨兵。`} />
+                <InfoRow label="建筑特色" value={`威尼斯堡垒的冷峻石墙与内陆山谷中葱郁的瀑布水潭，形成了荒凉与生机并存的戏剧性对比。`} />
+                <InfoRow label="建筑风格" value={`以威尼斯共和国鼎盛时期的军事堡垒建筑为核心，融合了后期奥斯曼与希腊本土的简单民居风格。`} />
+                <InfoRow label="文化价值" value={`在希腊神话中被尊为爱与美之女神阿芙洛狄忒的诞生地，其历史地层叠加着神话、威尼斯殖民、海盗传说与孤岛农耕文明。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`霍拉城堡（Kastro）开放时间较为灵活，通常为每日上午8:30至日落前，冬季（11月至3月）可能提前关闭或仅在周末开放，强烈建议行前查看当地旅游网站或询问酒店。米洛波塔莫斯山谷瀑布（Mylopotamos Waterfalls）及徒步路径全年24小时开放，但最佳游览和安全时段为白天。请注意，岛上许多小型博物馆和教堂有午休习惯，下午2点至5点可能闭门。`} />
+              <InfoRow label="门票价格" value={`霍拉城堡门票约为3欧元，学生及65岁以上长者享有半价优惠。米洛波塔莫斯瀑布区域免费进入。岛上的部分小型民俗博物馆票价在2-4欧元不等，常与城堡门票有联票优惠。`} />
+              <InfoRow label="地址" value={`霍拉城堡：Chora, Kythira 801 00, Greece
+米洛波塔莫斯瀑布：Mylopotamos, Kythira 801 00, Greece`} />
+              <InfoRow label="交通方式" value={`抵达基西拉岛是一场小小的探险。最常用路线是从雅典国际机场（ATH）出发，乘车约1小时至比雷埃夫斯港或拉夫里奥港，搭乘渡轮前往。渡轮班次随季节变化极大，夏季每天可能有1-2班，航行时间约5-7小时（视船型和天气而定）；冬季可能一周仅2-3班。强烈建议通过Ferryhopper等网站提前数月预订船票。岛上有小型机场，仅季节性开通从雅典的短途航班（约50分钟），航班少且易受天气影响。上岛后，游览的绝对关键是租一辆车，岛上公共交通极其稀疏，租车点集中在港口和主要城镇，建议提前在线预订。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解基西拉，得从神话的薄雾开始。在古老的颂歌里，克洛诺斯阉割了乌拉诺斯，滴落的精血落入这片海域，海浪翻涌中，爱与美的女神阿芙洛狄忒诞生了，她乘着贝壳首先踏上了基西拉的海岸。因此，在古典时代，这里曾是供奉这位女神的重要圣地，来自希腊各地的朝圣者跨海而来，寻求爱情与丰饶的祝福。然而，神话的浪漫很快被地缘政治的冷酷取代。因为它恰好卡在伯罗奔尼撒、克里特岛和爱琴海诸岛航线的十字路口，谁控制了这里，谁就扼住了海上贸易与军事行动的咽喉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，威尼斯人来了。13世纪，这个强大的海洋共和国将目光投向了这片战略要地。他们不是来欣赏风景的，而是来建造一座永不沉没的航空母舰。1503年，在现在的霍拉山顶，一座庞大的堡垒开始在海风中垒起。威尼斯工程师利用了最险峻的天然悬崖，用巨大的方形石料筑起了双层城墙、棱堡和秘密通道。他们把这座城堡设计成一个自给自足的世界，里面有总督府、兵营、教堂、监狱，甚至蓄水池。站在城墙上，哨兵可以监视方圆数十里的海面，任何船只都无所遁形。城堡下的霍拉镇依山而建，迷宫般狭窄的街道本身就是一道防御工事，用来迷惑和阻击可能攻上来的敌人。你可以想象那些威尼斯贵族和士兵，在这个远离家乡水都的孤岛上，听着滔天海浪，在油灯下书写家信，心中满是乡愁与对战争的警惕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "堡垒的坚固并未能永久阻挡历史的浪潮。16世纪，奥斯曼帝国的海军如黑云压境，基西拉几度易手，在威尼斯与奥斯曼之间反复争夺。战争、围城、瘟疫……每一次动荡都在石墙上留下新的伤疤。更致命的威胁来自海上——北非巴巴里海盗。这些令人闻风丧胆的掠夺者时常袭击岛屿，掳走居民贩卖为奴。于是，岛上出现了另一种奇观：许多内陆村庄，房屋都没有窗户，或者窗户极小，门厚得像堡垒，整个村庄藏在山谷褶皱里，从海上根本看不见。米洛波塔莫斯这样的山谷瀑布区，不仅是水源地，更成了乱世中村民隐藏和求生的庇护所。文明在恐惧中向内收缩，形成了独特的防御性聚落景观。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随着威尼斯共和国的衰落和近代希腊的独立，基西拉的战略意义逐渐褪去。它从一个烽火连天的前线，变成了一个被遗忘的角落。19世纪末到20世纪中期，和许多希腊岛屿一样，它经历了大规模的人口外流，人们去雅典、去美国、去澳大利亚寻找生机。城堡彻底荒废了，藤蔓爬上了炮口，山羊在曾经的教堂里栖身。那些内陆的村庄也变得人烟稀少，只剩下老人和古老的橄榄树看守着土地。时间在这里仿佛停滞，但也正是这种停滞，意外地保存了它最原始的风貌，没有大规模旅游开发，没有迎合游客的廉价装饰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "直到近二三十年，随着小众旅行和寻根之旅的兴起，基西拉才慢慢重新进入世界的视野。一些离开的岛民后代回来了，将祖辈的石屋改造成优雅的民宿。艺术家和隐士被这里的孤寂与原始美吸引，前来定居。世界开始发现，这座岛屿保留了一份在爱琴海几乎已绝迹的、未被修饰的真实。今天的城堡不再有士兵巡逻，但它依然在履行着守望的职责——不过它守望的，是一份关于时间、坚韧与宁静的古老契约。当你触摸那些被海风侵蚀了五百年的石墙时，你触摸的是一整部地中海文明的浓缩史诗，从神话的诞生，到帝国的野心，再到普通人在历史夹缝中求生的智慧，最后归于一种哲学般的平静。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要深度感受基西拉的双重灵魂，建议至少安排两天一夜。第一天聚焦于海洋与历史，以霍拉城堡为核心，感受威尼斯时代的冷峻与苍凉；第二天深入岛屿的内陆与心灵，探索米洛波塔莫斯瀑布山谷与静谧村庄。最佳的节奏是“慢”，这里的魅力需要时间浸泡才能显现。建议第一天上午早些抵达霍拉，趁凉爽和旅游团未到（如果真有的话）时探访城堡，午后在老城小巷迷失，傍晚守候一场爱琴海落日。第二天睡到自然醒，驱车悠闲前往内陆，将整个下午留给瀑布徒步与野餐，享受山林水泽的私密时光。这样的安排让你既能领略历史的重量，又能沉醉于自然的抚慰，完成一次完整的感官与心灵之旅。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`岛上风大，尤其在城堡区域，即使是夏季也建议带一件防风外套，同时帽子最好有系绳。
+前往瀑布的山路部分地段湿滑且有碎石，务必穿一双防滑、能涉水的结实鞋子（如溯溪鞋或运动凉鞋）。
+基西拉几乎没有“打卡式”景点，请放下严格的行程表，允许自己迷路、发呆、和当地的老人用微笑和简单手势交谈。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨九点前抵达霍拉山脚下的停车场，沿着那条被岁月磨得发亮、两旁开着粉色天竺葵的石阶小路开始向城堡攀登`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过那道标志性的、雕刻着威尼斯飞狮却已斑驳难辨的巨大拱门，瞬间踏入一个风声呼啸、视野豁然开朗的石头世界`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`用至少一小时漫无目的地穿梭在堡垒的废墟间，用手掌感受不同石块的温度，在废弃小教堂的静寂中倾听自己的心跳`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡西门沿着悬崖边的步道缓缓下山，让目光追随着蔚蓝海平面上那些如同静止的货轮与帆船的剪影`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进霍拉老城那蛛网般交错、永远有猫咪蹲守转角的小巷，寻找那家飘出新鲜咖啡和蜜糖果仁千层酥香气的传统烘焙店`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午三点，当阳光把白色墙壁晒得发烫时，钻进一家海景小酒馆的阴凉露台，点一盘烤章鱼和番茄炸丸子，配上一杯冰镇的白葡萄酒`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`第二天午饭后驱车驶入岛屿腹地，在通往米洛波塔莫斯村的岔路口停好车，沿着清晰标记的土路向山谷深处的潺潺水声走去`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`脱掉鞋子踩进瀑布下第一个、也是最大的那个翡翠色水潭，让冰凉清澈的山泉瞬间带走所有的疲惫与暑气`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡东侧棱堡的拱门框景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，以巨大的石拱门为画框，将远方浩瀚的爱琴海和隐约的安提基西拉岛纳入其中，形成强烈的古今与尺度对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`米洛波塔莫斯主瀑布潭边仰角`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，站在水潭中较低的石头上向上仰拍，捕捉瀑布水流撞击岩石溅起的水雾和彩虹，用周围的绿色植被作为天然相框。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`霍拉老城某条陡峭小巷的转角`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点左右，当阳光斜射入狭窄的巷弄，在一面粉刷成蛋壳黄色的墙壁上投下隔壁阳台九重葛的婆娑影子时，等待一位当地人缓缓走过。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`岛屿北海岸的“风车悬崖”`}</h4>
+                  <p className="text-sm text-gray-700">{`在金色黎明时分，从远处略高的坡地拍摄那几座早已停转、只剩下骨架的古老石制风车，它们以孤独的姿态矗立在嶙峋的红色悬崖边缘，背景是渐变的晨曦海空。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地居民，尤其是长者，务必先微笑并征得同意，一个简单的手势和尊重能换来最真诚的肖像。`}</li>
+                <li>• {`瀑布和水潭区域光线复杂，水面对比度高，建议使用偏光镜（CPL）来消除反光，让水下的石头和绿色更加清澈通透。`}</li>
+                <li>• {`不要只追逐明信片角度，基西拉的魅力常在细节：一扇生锈的门锁、石墙上的蜥蜴、咖啡馆桌上半杯咖啡的倒影，这些更能讲述岛屿的故事。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`隐秘石屋民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`住在霍拉老城一栋由18世纪商人石屋修复而成的民宿里，房间有原始的拱形石顶和小巧的阳台，夜晚能看见城堡被灯光勾勒出的神秘轮廓，清晨被邻居家炖菜的香气唤醒。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`海滩旁的家庭公寓`}</h4>
+                  <p className="text-sm text-green-800">{`选择卡波斯或阿维莱莫纳斯海滩附近由家族经营的简单公寓，推开窗就是橄榄园和几步之遥的清澈海湾，老板会送你自家产的橄榄油，并告诉你哪个小海湾最适合浮潜。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`山谷传统客栈`}</h4>
+                  <p className="text-sm text-yellow-800">{`体验真正内陆生活的绝佳选择，住在米洛波塔莫斯或类似村庄的客栈，由古老的村屋改造，被核桃树和溪流环绕，晚上只有虫鸣和流水声，白天步行即可深入瀑布秘境。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感隐居别墅`}</h4>
+                  <p className="text-sm text-purple-800">{`对于追求私密与设计的旅客，岛屿南部或西部有一些现代风格的别墅，拥有无边泳池和全景露台，直面荒凉壮美的海岸线，适合在绝对静谧中观星、阅读、思考人生。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "基西拉的旅游旺季很短（主要是7-8月），但最佳体验季节是春末（5-6月）和初秋（9-10月），此时气候温和，野花盛开或葡萄成熟，且更容易预订到心仪的住宿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "几乎所有有特色的住宿都散布在岛屿各处，且服务设施简单，强烈建议租车，否则会极大限制你的探索自由和体验深度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "部分更偏远或传统的住宿可能网络信号不稳定，请将此视为彻底数字 detox、沉浸于自然与书本的机会。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开基西拉的那天清晨，我又去了一次城堡。海风依旧猛烈，阳光把每一块石头都晒得发烫。我坐在一段矮墙上，看着脚下无声奔流的海。那一刻我突然觉得，这座岛像一位历经沧桑却选择沉默的智者。它见证过女神诞生的华美神话，承受过帝国铁蹄的践踏，聆听过海盗来袭的警钟，也目送过一代代儿女背井离乡的帆影。它把所有这些惊心动魄的故事，都沉淀成了此刻的宁静——风的声音，草的味道，石头亘古的溫度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在当今这个一切都被加速、被展示、被消费的世界里，基西拉提供了一种罕见的“反叙事”。它不急着告诉你它有多美，不提供便捷的观光套餐，甚至有些“难接近”。但正是这种特质，构成了它最珍贵的价值。来到这里，你不是一个被服务的游客，而是一个需要调动所有感官、付出一些体力、保持一份耐心的探访者。你会学会欣赏荒凉废墟中顽强生命的诗意，理解悬崖与瀑布并存的自然哲学，享受在慢节奏中与自己真诚相处的时光。它洗去的不仅是身体的疲惫，更是信息时代附着在心灵上的那层焦虑的尘埃。每一位渴望真正深度游的旅人，都该来一次基西拉，不是为了收集又一个景点，而是为了完成一场与自己、与时间、与地中海古老灵魂的对话。在这里，你会发现，最美的风景，往往存在于世界安静的那一面。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/rethymno-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    罗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">罗希姆诺老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rethymno Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/veria" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    韦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">韦里亚古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Veria</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/meteora-monasteries-greece" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    梅
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅黛奥拉（天空之城修道院）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meteora</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

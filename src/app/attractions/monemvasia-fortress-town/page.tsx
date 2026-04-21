@@ -15,7 +15,7 @@ export default function MonemvasiaFortressTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/greece' },
             { label: '莫奈姆瓦夏隐秘之城', href: '/attractions/monemvasia-fortress-town' },
           ]}
         />

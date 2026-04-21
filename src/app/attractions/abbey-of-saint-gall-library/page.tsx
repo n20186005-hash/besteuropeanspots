@@ -15,7 +15,7 @@ export default function AbbeyOfSaintGallLibraryPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/switzerland' },
             { label: '圣加仑修道院图书馆', href: '/attractions/abbey-of-saint-gall-library' },
           ]}
         />

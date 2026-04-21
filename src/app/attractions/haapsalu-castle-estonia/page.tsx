@@ -15,7 +15,7 @@ export default function HaapsaluCastleEstoniaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '爱沙尼亚', href: '/destinations/estonia' },
             { label: '哈普萨卢城堡', href: '/attractions/haapsalu-castle-estonia' },
           ]}
         />

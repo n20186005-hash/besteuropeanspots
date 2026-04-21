@@ -1,0 +1,152 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '凯斯特海伊历史溯源｜费斯泰蒂奇宫的巴洛克传奇与欧洲最后贵族图书馆',
+  description: '深入巴拉顿湖畔的时光胶囊。探索匈牙利费斯泰蒂奇家族的权力史诗，揭秘欧洲最大私人贵族图书馆的百年孤寂，聆听“茜茜公主”未诉说的湖畔往事。',
+}
+
+export default function KeszthelyFesteticsPalaceHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '凯斯特海伊（费斯泰蒂奇宫）', href: '/attractions/keszthely-festetics-palace-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`凯斯特海伊（费斯泰蒂奇宫）・Keszthely (Festetics Palace)・匈牙利・佐洛州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在匈牙利“内海”巴拉顿湖的西岸，有一座被葡萄园与百年菩提树温柔包裹的小城。它的名字并非响彻寰宇，却封存着一段匈牙利贵族黄金时代最完整的记忆。这里不是布达佩斯，没有多瑙河的喧嚣；这里是 <strong>凯斯特海伊</strong>，一座以一座宫殿和一个图书馆定义自身灵魂的宁静之地。它的心跳，与 <strong>费斯泰蒂奇</strong> 这个统治此地近七个世纪的家族血脉紧密相连。抛开游玩攻略，走进凯斯特海伊的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`凯斯特海伊（费斯泰蒂奇宫）`} />
+                <InfoRow label="英文名称" value={`Keszthely (Festetics Palace)`} />
+                <InfoRow label="正式名称" value={`Keszthely (Festetics Palace)`} />
+                <InfoRow label="国家" value={`匈牙利`} />
+                <InfoRow label="城市" value={`佐洛州`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "凯斯特海伊的名字，在匈牙利语中并无特殊含义。它源自更古老的斯拉夫语，意为“石板地”或“石板场”。这指向了它最初的地理特征——一片位于巴拉顿湖与丘陵之间、土壤下蕴藏着石板的土地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "考古证据显示，早在罗马时代，这里就已有定居点。但城市的真正成形，要归功于中世纪一次关键的权力转移。<strong>1247年</strong>，国王贝拉四世将这片土地赐予了 <strong>海杜</strong> 家族。然而，改变凯斯特海伊命运的决定性时刻，发生在近一个世纪后。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1336年</strong>，一个来自克罗地亚的贵族家庭——<strong>费斯泰蒂奇</strong> 家族，通过联姻和国王的赏赐，正式入主凯斯特海伊。从此，这个家族的命运与这座小城紧密捆绑，直至20世纪中叶。城市最初的布局与功能，完全服务于这个家族的庄园经济。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在费斯泰蒂奇家族的经营下，凯斯特海伊从一个普通的庄园村落，逐渐发展为区域性的行政与经济中心。它的“城市”身份，是在 <strong>1421年</strong> 获得的特许状中确立的。但与其说它是一座自治的城市，不如说它是一个被精心规划的、宏大家产的核心部分。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "当地有一句古老谚语：“在凯斯特海伊，太阳为费斯泰蒂奇家族升起，雨水为他们的葡萄园落下。” 这并非夸张，而是几个世纪里近乎真实的社会写照。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一道印记：宫殿的演进史</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我们今天所见的宏伟的 <strong>费斯泰蒂奇宫</strong>，并非一蹴而就。它是一部用石头写就的家族编年史。最初的庄园府邸建于 <strong>1745年</strong>，是简单的巴洛克风格。但真正让它蜕变的，是 <strong>克里斯托夫·费斯泰蒂奇</strong> 伯爵。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他在 <strong>18世纪70年代</strong> 启动了大规模扩建，邀请了奥地利建筑师将其改造为华丽的洛可可式宫殿。然而，这座建筑最经典的样貌，定格在 <strong>19世纪初</strong>。在 <strong>保罗一世·费斯泰蒂奇</strong> 公爵的主持下，宫殿完成了最后的、也是最具标志性的翼楼建设，形成了如今和谐统一的新古典主义外观。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座宫殿不仅是一座住宅，更是一个微缩的王国。它拥有独立的教堂、剧院、马厩、酿酒厂和庞大的花园。它的存在，本身就是匈牙利贵族在哈布斯堡帝国框架下，保持自身文化独立性与经济实力的宣言。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二道印记：知识的圣殿——海尔康图书馆</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说宫殿是家族的躯体，那么图书馆就是其灵魂。<strong>1799年</strong>，<strong>保罗一世·费斯泰蒂奇</strong> 公爵做出了一个超越时代的决定：在宫殿内建立一座向学者开放的私人图书馆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是闻名欧洲的 <strong>海尔康图书馆</strong>。其名称“Helikon”源于希腊神话中缪斯女神居住的神山，寓意此地为灵感与知识之源。公爵投入巨资，从欧洲各地采购书籍，特别是在 <strong>1802年</strong> 一次性购入了超过一万五千册的珍贵藏书。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "图书馆的借阅记录簿上，至今保留着一条特殊的规章：“本书馆之灯火，永为渴求真理之心而明，无论来访者头衔为何。” 这在等级森严的当时，是极其开明的举措。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座图书馆奇迹般地躲过了两次世界大战的烽火与动荡，完整保存了约九万卷藏书，其中包含大量16-18世纪的珍本、手稿和地球仪。它被誉为 <strong>“欧洲现存最大的、仍位于原址的贵族私人图书馆”</strong> ，书脊上烫金的家族纹章，沉默地诉说着一个家族对文明传承的执着。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第三道印记：1842年的舞会与时代的裂缝</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1842年</strong>，一场极尽奢华的舞会在宫殿大厅举行。这场为了庆祝家族成员生日而举办的盛会，几乎邀请了整个匈牙利上流社会，甚至吸引了哈布斯堡皇室的注意。它成了匈牙利贵族社交季的巅峰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，这场繁华背后，裂缝已经显现。此时，欧洲民族主义思潮风起云涌，匈牙利正在酝酿 <strong>1848年革命</strong>。费斯泰蒂奇家族作为大贵族，身处保守与改革思潮的夹缝中。这场舞会，仿佛是旧秩序最后一次无拘无束的华丽绽放。此后，农奴制改革、战争、家族命运与帝国一同步入缓慢而不可逆的黄昏。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>保罗一世·费斯泰蒂奇：启蒙公爵与他的“理想国”</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>保罗一世</strong> 是费斯泰蒂奇家族史上最具远见和影响力的族长。他生于 <strong>1759年</strong>，逝世于 <strong>1823年</strong>。他不仅是巨额财富的继承者，更是一位深受欧洲启蒙思想影响的“开明专制”践行者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的传奇，始于对凯斯特海伊系统性、现代化的改造。他引入先进的农业技术，将家族庄园打造成高效的模范农场。<strong>1797年</strong>，他创办了 <strong>欧洲第一所农学院</strong> ，比匈牙利的任何同类机构都要早。这使得凯斯特海伊一度成为中欧农业科学的前沿阵地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但他最不朽的功绩，无疑是创立 <strong>海尔康图书馆</strong>。他将藏书从私人珍藏转变为公共文化资源，定期邀请诗人、科学家、学者前来访问研究，将宫殿变成了一个文化沙龙。诗人 <strong>米哈伊·维特兹</strong>、语言学家 <strong>费伦茨·卡津奇</strong> 等都曾是座上宾。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "在一封写给友人的信中，保罗一世写道：“<strong>宫殿的墙壁会颓圮，田地的产出有丰歉，唯有人类思想汇聚成的书册，能为这片土地注入永恒的活力。</strong> 我将以此，而非头衔或领地，定义我的姓氏。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他与奥地利皇室关系微妙，既保持着忠诚，又极力维护匈牙利贵族的权益与文化独特性。他的人生，完美诠释了18世纪末19世纪初，那些试图在传统框架内推动社会进步的欧洲贵族精英的理想与矛盾。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>玛丽娅·安娜·冯·维特根斯坦：来自远方的女主人</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位为凯斯特海伊注入独特气质的名人，并非生于斯，而是嫁入斯。她是 <strong>玛丽娅·安娜·冯·维特根斯坦</strong>，<strong>塔西洛·费斯泰蒂奇</strong> 公爵的妻子，于 <strong>19世纪60年代</strong> 成为宫殿的女主人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "她来自德意志著名的维特根斯坦家族，带来了更广阔的中欧文化视野。正是她，深度影响了宫殿内部装饰的风格，将更多浪漫主义时期的艺术品味融入其中。她也是一位热心的慈善家，在当地资助建立了医院和学校。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，她最为后人津津乐道的，是她与一位传奇访客的友谊——<strong>奥地利皇后伊丽莎白</strong>，即广为人知的 <strong>“茜茜公主”</strong>。茜茜皇后因热爱匈牙利，时常造访巴拉顿湖区。玛丽娅·安娜以其优雅的谈吐和相似的忧郁气质，成为了皇后在凯斯特海伊少数可以交心的朋友。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "玛丽娅·安娜在日记中隐秘地记述：“皇后陛下今日独自骑马至湖畔，神情比巴拉顿湖最深处的湖水还要忧伤。她问我，是否有一座宫殿，真的能关住幸福。我无言以对，只能指给她看书房中，保罗公爵关于图书馆的那句箴言。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位女主人见证了家族最后的辉煌，也亲历了其缓慢的衰落。她的存在，像一条细腻的丝线，将凯斯特海伊这个相对闭塞的匈牙利庄园，与中欧贵族网络乃至皇家秘辛悄然连接。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于费斯泰蒂奇宫，最广为流传的传说与“白色夫人”有关。据说，在宫殿漫长的走廊里，偶尔会出现一位身着19世纪白色纱裙的幽雅女性身影。她从不惊扰他人，只是静静地飘过，最终消失在图书馆紧锁的橡木大门后。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当地人相信，这是某一位热爱阅读的费斯泰蒂奇家族女眷的魂魄。她因过于眷恋图书馆中浩瀚的知识世界，以至于灵魂不愿离去，依旧在夜间巡视这座她心爱的智慧宝库。也有更浪漫的说法认为，她是在等待一封从未寄达的情书，而信中的秘密，就藏匿在某一本无人问津的古籍扉页之中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则与宫殿花园里的古老树木有关。据说，家族每一位新生儿降临后，都会在花园里种下一棵菩提树。这些树木被赋予灵性，会随着所对应的家族成员的命运而荣枯。其中有一棵被称为“公爵的叹息”的菩提树，据说在 <strong>1918年</strong>，奥匈帝国解体、家族命运急转直下之际，一夜之间凋零了大半枝叶。至今，园丁们仍会格外小心地照料这些古树，视它们为连接过去与现在的沉默见证者。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "漫步在凯斯特海伊，你触摸到的不是冰冷的历史标本，而是一段尚未完全退场的时光。费斯泰蒂奇宫不是一个空洞的博物馆，它依然充盈着原初的精神：图书馆的书香、家族肖像画的目光、剧院舞台留下的回音。这里保存的，是匈牙利贵族文化一个罕见且完整的切片——它的抱负、它的教养、它的辉煌与它的沉静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂凯斯特海伊，意味着理解中欧历史中那种复杂的层次感：本土与帝国、庄园与启蒙、封闭与开放、永恒的权力与对永恒知识的追求。它比布达佩斯的皇宫更亲切，比许多喧嚣的古堡更深刻。它邀请你做的，不是匆匆一瞥，而是沉浸在一本由石头、羊皮纸和家族传奇共同写就的厚重书卷之中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/papa-hungary" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    帕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕帕</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pápa</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/szilvasvarad" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    锡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">锡尔瓦什瓦劳德</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Szilvásvárad</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lillafured" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    利
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">利拉菲赖德</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lillafüred</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

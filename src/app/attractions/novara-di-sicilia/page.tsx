@@ -15,7 +15,7 @@ export default function NovaraDiSiciliaPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
             { label: '诺瓦拉迪西西里', href: '/attractions/novara-di-sicilia' },
           ]}
         />

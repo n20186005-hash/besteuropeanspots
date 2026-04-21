@@ -15,7 +15,7 @@ export default function VacBaroqueCityPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/hungary' },
             { label: '瓦茨', href: '/attractions/vac-baroque-city' },
           ]}
         />

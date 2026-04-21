@@ -1,0 +1,239 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '莱瓦贾 Livadeia｜探秘失落的古希腊神谕洞穴，漫步千年水磨坊间的清凉河谷 - 最佳欧洲景点',
+  description: '车子刚开进莱瓦贾，你第一感觉不是看到了什么，而是“听到”和“感觉到”了什么。车窗摇下来，一股带着水汽的清冽空气涌进来，紧接着是轰轰然、永不停歇的流水声，不是一条河，而是无数道水流在石缝间奔涌、跌落、回旋的交响。这就是赫克纳河，它不像别的河流那样安分地流淌，而是像一把液态的刻刀，硬生生在这片岩石高原上',
+}
+
+export default function LivadeiaWatermallsOracleCavePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '莱瓦贾', href: '/attractions/livadeia-watermalls-oracle-cave' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`莱瓦贾・Livadeia・希腊・莱瓦贾`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子刚开进莱瓦贾，你第一感觉不是看到了什么，而是“听到”和“感觉到”了什么。车窗摇下来，一股带着水汽的清冽空气涌进来，紧接着是轰轰然、永不停歇的流水声，不是一条河，而是无数道水流在石缝间奔涌、跌落、回旋的交响。这就是赫克纳河，它不像别的河流那样安分地流淌，而是像一把液态的刻刀，硬生生在这片岩石高原上劈出了一道深邃葱郁的峡谷。你的视线顺着声音往下探，心脏会微微一紧——整座老城，那些有着暖黄色墙壁和赤陶瓦屋顶的房子，就密密麻麻地建在峡谷边缘，仿佛稍有不慎就会滑入那一片绿色的深渊与水声中。
+沿着石阶往下走，真正进入河谷底部，才是魔法开始的时刻。光线骤然变暗，温度下降了好几度，空气湿润得能拧出水来。你的头顶是横跨峡谷的古老拱桥，脚下是被岁月打磨得如黑玉般光滑的石板路，而身边，是数十座依崖壁而建的石屋，它们可不是普通的房子，而是古老的水磨坊。巨大的木制水轮依然在转动，被墨绿色的青苔覆盖了一半，流水冲击水轮的声音浑厚而催眠。你会看到当地人牵着狗在河边散步，老人在长椅上读报，这一切日常都发生在这宛如奇幻电影场景的背景下。水，在这里不是风景，是血液，是脉搏，是这座小城存在的唯一理由。
+而莱瓦贾最吊人胃口的秘密，就藏在这片水声轰鸣的峡谷上方。当你抬头，目光越过层层叠叠的屋顶和绿得发黑的树冠，能看到陡峭的岩壁顶端，有几个幽暗的洞穴入口。那就是传说中让人又敬又畏的特罗福尼乌斯神谕所。想象一下，在古希腊时代，当德尔斐的阿波罗神谕响彻地中海时，这里却提供着一条截然不同的、通往幽冥世界的“咨询”服务。求谕者需要经历一系列恐怖的净化仪式，然后像被吞没一样降入黑暗的地穴，去获取来自冥界先知的特异启示。今天河谷的清凉宁静，与古代那种令人神经紧绷的肃穆恐惧，形成了不可思议的时空叠印。这种极致的反差，正是莱瓦贾最核心的魅力——它把神话的深邃骇人与田园生活的恬淡安然，压缩在了同一个山谷里。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子刚开进莱瓦贾，你第一感觉不是看到了什么，而是“听到”和“感觉到”了什么。车窗摇下来，一股带着水汽的清冽空气涌进来，紧接着是轰轰然、永不停歇的流水声，不是一条河，而是无数道水流在石缝间奔涌、跌落、回旋的交响。这就是赫克纳河，它不像别的河流那样安分地流淌，而是像一把液态的刻刀，硬生生在这片岩石高原上劈出了一道深邃葱郁的峡谷。你的视线顺着声音往下探，心脏会微微一紧——整座老城，那些有着暖黄色墙壁和赤陶瓦屋顶的房子，就密密麻麻地建在峡谷边缘，仿佛稍有不慎就会滑入那一片绿色的深渊与水声中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沿着石阶往下走，真正进入河谷底部，才是魔法开始的时刻。光线骤然变暗，温度下降了好几度，空气湿润得能拧出水来。你的头顶是横跨峡谷的古老拱桥，脚下是被岁月打磨得如黑玉般光滑的石板路，而身边，是数十座依崖壁而建的石屋，它们可不是普通的房子，而是古老的水磨坊。巨大的木制水轮依然在转动，被墨绿色的青苔覆盖了一半，流水冲击水轮的声音浑厚而催眠。你会看到当地人牵着狗在河边散步，老人在长椅上读报，这一切日常都发生在这宛如奇幻电影场景的背景下。水，在这里不是风景，是血液，是脉搏，是这座小城存在的唯一理由。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而莱瓦贾最吊人胃口的秘密，就藏在这片水声轰鸣的峡谷上方。当你抬头，目光越过层层叠叠的屋顶和绿得发黑的树冠，能看到陡峭的岩壁顶端，有几个幽暗的洞穴入口。那就是传说中让人又敬又畏的特罗福尼乌斯神谕所。想象一下，在古希腊时代，当德尔斐的阿波罗神谕响彻地中海时，这里却提供着一条截然不同的、通往幽冥世界的“咨询”服务。求谕者需要经历一系列恐怖的净化仪式，然后像被吞没一样降入黑暗的地穴，去获取来自冥界先知的特异启示。今天河谷的清凉宁静，与古代那种令人神经紧绷的肃穆恐惧，形成了不可思议的时空叠印。这种极致的反差，正是莱瓦贾最核心的魅力——它把神话的深邃骇人与田园生活的恬淡安然，压缩在了同一个山谷里。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`莱瓦贾`} />
+                <InfoRow label="英文名称" value={`Livadeia`} />
+                <InfoRow label="正式名称" value={`Livadeia`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`莱瓦贾`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座将古希腊神话中的“幽冥神谕”与奥斯曼帝国时期精妙水利工程奇妙融合于同一山谷的千年古城。`} />
+                <InfoRow label="建筑特色" value={`不见宏伟神庙，唯有依陡峭河岸而建、被奔流泉水永恒驱动的古老水磨坊石屋群，与山顶俯瞰众生的中世纪城堡废墟遥相呼应。`} />
+                <InfoRow label="建筑风格" value={`质朴无华的巴尔干半岛传统石砌民居与因地制宜的功能性水利工业建筑，深受奥斯曼时期建筑影响，呈现出一种实用至上的沉静美感。`} />
+                <InfoRow label="文化价值" value={`这里是“水”主宰一切的微型宇宙，是活着的“水之城”，展现了人类如何依靠并崇敬自然之力，构筑起跨越三千年的生活图景。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`整个老城与水磨坊河谷区域全天开放。特罗福尼乌斯神谕洞穴的官方考古遗址入口开放时间较为灵活，通常为夏季（4月-10月）周二至周日 8:30-15:00；冬季时间可能缩短或仅周末开放。强烈建议出行前查询希腊文化部官网或向当地旅游信息中心确认。`} />
+              <InfoRow label="门票价格" value={`漫步古城与赫克纳河畔的水磨坊群完全免费。进入特罗福尼乌斯神谕洞穴考古遗址需购票，全票约6欧元，欧盟学生及65岁以上长者享有半价优惠。有时会与附近的其他考古点出售联票。`} />
+              <InfoRow label="地址" value={`Plateia Iroon Politechniou， Livadeia 321 00， Greece （莱瓦贾市政厅广场可作为中心参考点）`} />
+              <InfoRow label="交通方式" value={`从雅典国际机场出发最便捷的方式是租车自驾，沿A1/E75高速公路向北行驶约1小时15分钟即可抵达莱瓦贾，沿途风光壮丽。若使用公共交通，可从雅典拉里西斯火车站乘坐前往塞萨洛尼基方向的城际列车，在莱瓦贾站下车，车程约1.5小时，班次频率每日4-6班。也可从雅典Liossion长途汽车站乘坐巴士，班次更多但耗时稍长（约2小时）。小镇内部步行即可轻松探索所有核心景点。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "莱瓦贾的故事，始于一片黑暗与流水。早在公元前，这里便因赫克纳河提供的充沛水源和峡谷天险而有人定居。但它真正被载入史册，是因为那个与德尔斐的光明神谕相对的、黑暗的兄弟——特罗福尼乌斯神谕。根据古希腊传说，特罗福尼乌斯和他的兄弟阿伽墨得斯是神话般的建筑师，他们为国王建造宝库时暗中设计了一条通道，以便偷窃财富。事情败露后，特罗福尼乌斯逃入此地的一个洞穴，从此再未出来，反而成了能与冥界沟通的先知，他的洞穴也成了神谕所。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个神谕的“服务流程”堪称古希腊世界最硬核的体验。求谕者不能直接问事。他们必须先在一处献给幸运女神堤喀的神圣建筑里住上几天，进行净化，献祭大量祭品。然后，在一个特定的夜晚，被引入峡谷高处那个令人不寒而栗的洞穴入口。他们手握蜂蜜糕（或许是为了安抚地府守卫？），顺着梯子或绳索下降到漆黑一片的狭缝深处。在那里，经历的不是清晰的预言，而是一种魂飞魄散的感官冲击——据说他们会听到巨响，看到幻象，以非正常的方式“接收”信息。最后，他们会被像鱼一样“钓”出来，精神恍惚，需要好几天才能恢复，并由祭司解读他们那些支离破碎的呓语。罗马时代的许多名人，包括苏拉和马其顿国王佩尔修斯，都曾来此寻求这种极端的“神启”。公元4世纪基督教被定为国教后，这类异教神谕所被强制关闭，洞穴逐渐被遗忘，湮没在荒草与传说中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间快进到中世纪，莱瓦贾在拜占庭帝国时期是一座有城墙的坚固小镇。13世纪后，它先后被法兰克人、加泰罗尼亚人和意大利人统治，山顶上那座雄踞的城堡就是这段混乱时期的见证。但真正塑造了今天莱瓦贾肌肤与骨骼的，是奥斯曼土耳其人的统治时期。土耳其人带来了他们精湛的水利工程技术和对水力磨坊的依赖。他们看中了赫克纳河永不枯竭的水力和峡谷的陡峭地形，沿着河岸修建了一套复杂而高效的水磨坊系统。这些石砌的磨坊，利用自然落差驱动水轮，为整个地区研磨谷物。奥斯曼时期的莱瓦贾因此繁荣起来，成为了重要的农业加工中心。那些我们今天看到的、爬满藤蔓的美丽石屋，绝大多数都是那个时代的实用主义杰作。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "19世纪希腊独立战争期间，莱瓦贾是激烈的战场之一。峡谷和城堡再次发挥了军事防御作用。独立后，随着现代工业化面粉厂的出现，古老的水磨坊逐渐停止了商业运转。但它们没有被拆除，一部分被改造成储藏室或工坊，更多的则静静地留在那里，任由流水继续冲刷着水轮，成为了一道独特的风景。上世纪后期，人们重新“发现”了特罗福尼乌斯洞穴的考古价值，经过清理和加固，它终于再次向世人开放，不再是恐怖的神谕所，而是一个引人深思的历史遗迹。于是，今天你看到的莱瓦贾，是一幅层次丰富的拼贴画：河谷底部是奥斯曼帝国实用水利工程的活化石，终日水声喧哗；河谷上方悬崖处，则是古希腊神秘主义留下的、寂静的洞穴眼窝；而山顶，是中世纪领主凝视一切的城堡废墟。三种截然不同的时空，被一条河紧紧地缝合在了一起。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受莱瓦贾的魔力，建议你预留一整个白天。最佳的游览节奏是“先下后上，最后登顶”。早晨九点左右抵达，趁着阳光刚刚洒进峡谷上半部分，光线最佳时，先去探索河谷底部的水磨坊迷宫，感受那份沁人心脾的清凉与轰鸣。中午前后，当峡谷底部光线变暗时，正是去探访上方神谕洞穴的好时机，那种幽暗的氛围正契合其历史气质。下午，回到老城街巷中漫步，找家咖啡馆歇脚。傍晚时分，一定要留足体力爬上城堡山，那里有俯瞰整个峡谷与小镇的、令人屏息的落日全景。这样安排，你就能在光影变幻中，体验这座城市从古至今、从幽冥到人间的完整维度。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`探索河谷和水磨坊区域时，石板路常年潮湿，请务必穿防滑性能好的鞋子。进入特罗福尼乌斯洞穴内部光线极暗且地面不平，手机电筒不够用，建议自带一个小手电筒。小镇周一很多小型博物馆或咖啡馆可能休息，规划行程时请留意。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从雅典出发，一路欣赏着希腊乡村的橄榄树与远山风光，直到你听见隐隐的水声，便知莱瓦贾近了。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`将车停在老城边缘，沿着任何一条向下延伸的、布满九重葛的阶梯小巷走，你会感觉自己正被引向一个地心深处的绿色秘境。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过低矮的拱门，瞬间踏入赫克纳河谷底，让轰鸣的水声和扑面的水汽包裹你，沿着蜿蜒的步道逐一辨认那些仍在转动的古老水磨坊和它们门楣上模糊的刻字。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着“To Spilaio tou Trophonia”（特罗福尼乌斯洞穴）的指示牌，开始攀爬峡谷侧壁陡峭但修建完好的阶梯，在绿荫与岩壁的缝隙间寻找那个通往古希腊幽冥世界的入口。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后，在老城错综复杂的石板街巷里随意迷失，邂逅那些刷成天空蓝或奶酪黄的小教堂，以及阳台上开满天竺葵的奥斯曼风格老宅。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在市政厅广场旁的咖啡馆找张露天座位，点一杯冰镇弗雷斯卡咖啡，看着当地人骑着摩托车呼啸而过，孩子们在广场上追鸽子。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进宏大的圣乔治教堂，仰头看看那些华丽的镀金圣像屏，感受与河谷异教遗迹截然不同的东正教神圣气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`务必在日落前半小时开始攀登通往城堡废墟的山路，在残垣断壁间找一个朝西的位置，看夕阳把整个赫克纳河谷、红屋顶小镇和远方的平原染成金色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`河谷入口拱桥下的仰角`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点左右，站在最下方的步道，向上拍摄拱桥与悬垂的绿植、以及桥上行人的剪影，能完美框出峡谷的纵深感与层次。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`水磨坊内部的水轮特写`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一座水流充沛的水磨坊，在正午阳光直射入峡谷时进入（如果开放），利用门框或石窗做前景，拍摄水轮转动时飞溅的水花与幽暗室内的光影对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`神谕洞穴入口的凝视视角`}</h4>
+                  <p className="text-sm text-gray-700">{`下午探访时，站在洞穴口内侧一点，向外拍摄，将参观者眺望峡谷的剪影与洞口外的绿意盎然一同纳入，营造神秘与生机并存的矛盾感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`老城广场咖啡馆的露台`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚时分，坐在高处露台，用长焦镜头压缩空间，拍摄远处峡谷上的拱桥和隐约可见的水磨坊屋顶，前景是悠闲的咖啡客，构成一幅生动的“崖上生活图”。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城堡山落日全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落时分，使用广角镜头，将城堡的残墙作为前景框架，拍摄脚下整个莱瓦贾老城、蜿蜒的赫克纳河谷以及远方无垠的平原被晚霞笼罩的恢弘景象。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`河谷内光线复杂，明暗对比强烈，建议使用相机的HDR模式或后期合成以确保暗部细节。拍摄当地人，尤其是长者时，请务必先微笑示意并获得同意，这里是安静的社区而非旅游舞台。使用无人机前，请查询希腊最新的航空法规，并绝对避开教堂、城堡等敏感区域。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`峡谷边缘的隐秘石屋`}</h4>
+                  <p className="text-sm text-blue-800">{`由老水磨坊工人宿舍改造的精品客房，推开木窗就是轰轰的水声与满眼绿意，晚上枕着流水声入眠，是独一无二的体验。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老城中心的家庭旅馆`}</h4>
+                  <p className="text-sm text-green-800">{`由一栋19世纪新古典主义宅邸经营，主人会为你手绘地图，推荐只有本地人才知道的小酒馆，天台早餐能望见城堡尖顶。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`郊外田园风度假屋`}</h4>
+                  <p className="text-sm text-yellow-800">{`如果你自驾，可以选择距离小镇几分钟车程的乡村传统石屋，周围是橄榄园，安静至极，夜晚星空璀璨，适合追求绝对宁静的旅人。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`舒适型现代酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`位于新城区的商务酒店，设施可靠，停车方便，步行到老城入口仅需十分钟，是探索完一天后回归现代舒适的稳妥选择。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "住在老城或河谷边固然有风情，但需接受街道狭窄、停车困难且夜晚可能持续有流水声的事实。莱瓦贾治安非常好，民风淳朴，晚上独自在老城散步也很安全。夏季旅游旺季和周末希腊人也会来此度假，建议提前预订，尤其是那些特色石屋民宿。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开莱瓦贾好几天，耳朵里仿佛还回荡着那种低沉的、永不停歇的轰鸣。那不仅仅是水声，那是时间本身流动的声音。在这个被遗忘在希腊腹地的小城，我找到了一种在现代旅行中越来越稀缺的东西：一种连续的质感。这里没有为了旅游而表演的“历史”，也没有被精心剥离出来的“景点”。神话时代的恐惧、中世纪争战的残酷、奥斯曼时期的勤劳、以及今天小镇的慵懒日常，所有这些时间的层次，没有被清理干净，而是像河床里的沉积岩一样，一层压着一层，任由赫克纳河的流水把它们全部浸透、混合在一起。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我们总在追寻“独特”的体验，而莱瓦贾给出的答案如此朴素而深刻：独特不在于奇观，而在于完整的保存。它允许神圣与世俗并肩，允许恐惧与安宁共存，允许宏大的历史叙事与细碎的生活声响交织。当你坐在城堡废墟上，看着夕阳沉入河谷，你会明白，旅行不只是为了“看到”什么，更是为了“感知”一种存在的方式。莱瓦贾，这个被水声包裹的微型宇宙，用它三千年的层叠耳语，温柔地提醒着我们：生命如流水，文明亦如流水，真正的力量与美，不在于对抗或截断，而在于顺应、利用，并最终与之达成一首永恒轰鸣的、动人的合唱。这，或许是比任何神谕都更清晰的启示。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/xanthi" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克桑西古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Xanthi</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/meteora" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迈措翁</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meteora</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kastellorizo-island-megisti" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯特罗里佐岛（梅吉斯蒂）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kastellorizo (Megisti)</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

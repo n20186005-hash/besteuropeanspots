@@ -15,7 +15,7 @@ export default function CasteloBrancoPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点', href: '/attractions' },
+            { label: '葡萄牙', href: '/destinations/portugal' },
             { label: '布朗库堡', href: '/attractions/castelo-branco' },
           ]}
         />

@@ -15,7 +15,7 @@ export default function EkenSOldTownPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/finland' },
             { label: '埃克奈斯（亦称坦佩雷萨里）', href: '/attractions/eken-s-old-town' },
           ]}
         />

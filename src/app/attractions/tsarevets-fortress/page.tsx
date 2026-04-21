@@ -15,7 +15,7 @@ export default function TsarevetsFortressPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '保加利亚', href: '/destinations/bulgaria' },
             { label: '查雷韦茨要塞', href: '/attractions/tsarevets-fortress' },
           ]}
         />

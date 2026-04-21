@@ -15,7 +15,7 @@ export default function EberbachAbbeyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '埃伯巴赫修道院', href: '/attractions/eberbach-abbey' },
           ]}
         />

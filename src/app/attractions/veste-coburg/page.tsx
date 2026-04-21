@@ -15,7 +15,7 @@ export default function VesteCoburgPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/germany' },
             { label: '科堡要塞（弗兰肯的王冠）', href: '/attractions/veste-coburg' },
           ]}
         />

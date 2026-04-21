@@ -15,7 +15,7 @@ export default function GarrisonBorderTownOfElvasPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/portugal' },
             { label: '埃尔瓦什星形要塞', href: '/attractions/garrison-border-town-of-elvas' },
           ]}
         />
