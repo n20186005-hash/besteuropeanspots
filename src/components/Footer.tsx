@@ -1,7 +1,14 @@
+"use client";
+
 import Link from "next/link";
-import { regions, regionLabelsEN, stats } from "@/lib/attractions";
+import { regions, stats } from "@/lib/attractions";
+import { getCountryLabel, getLocaleFromPathname, homeCopy } from "@/lib/site-locale";
+import { usePathname } from "next/navigation";
 
 export function Footer() {
+  const pathname = usePathname();
+  const locale = getLocaleFromPathname(pathname);
+  const copy = homeCopy[locale].footer;
   const halfRegions = Math.ceil(regions.length / 2);
   
   return (
@@ -10,18 +17,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-semibold mb-3">Best European Spots</h3>
+            <h3 className="text-xl font-semibold mb-3">{copy.aboutTitle}</h3>
             <p className="text-white/70 text-sm leading-relaxed">
-              Curating {stats.destinations} of Europe&apos;s most captivating hidden gems — from
-              forgotten abbeys and medieval old towns to ancient ruins and
-              natural wonders off the beaten path.
+              {copy.aboutDescription}
             </p>
           </div>
 
           {/* Regions */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-accent">
-              Regions
+              {copy.regions}
             </h4>
             <ul className="space-y-2 text-sm text-white/70">
               {regions.slice(0, halfRegions).map((r) => (
@@ -30,7 +35,7 @@ export function Footer() {
                     href={`/#destinations`}
                     className="hover:text-white transition-colors"
                   >
-                    {regionLabelsEN[r] || r}
+                    {getCountryLabel(r, locale)}
                   </Link>
                 </li>
               ))}
@@ -40,7 +45,7 @@ export function Footer() {
           {/* More Regions */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-accent">
-              More Regions
+              {copy.moreRegions}
             </h4>
             <ul className="space-y-2 text-sm text-white/70">
               {regions.slice(halfRegions).map((r) => (
@@ -49,7 +54,7 @@ export function Footer() {
                     href={`/#destinations`}
                     className="hover:text-white transition-colors"
                   >
-                    {regionLabelsEN[r] || r}
+                    {getCountryLabel(r, locale)}
                   </Link>
                 </li>
               ))}
@@ -62,22 +67,22 @@ export function Footer() {
             {/* Legal Links */}
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-accent">
-                Legal
+                {copy.legal}
               </h4>
               <ul className="space-y-2 text-sm text-white/70">
                 <li>
                   <Link href="/privacy-policy" className="hover:text-white transition-colors">
-                    Política de Privacidad
+                    {copy.privacy}
                   </Link>
                 </li>
                 <li>
                   <Link href="/terms-of-service" className="hover:text-white transition-colors">
-                    Términos de Servicio
+                    {copy.terms}
                   </Link>
                 </li>
                 <li>
                   <Link href="/cookie-settings" className="hover:text-white transition-colors">
-                    Configuración de Cookies
+                    {copy.cookies}
                   </Link>
                 </li>
               </ul>
@@ -86,7 +91,7 @@ export function Footer() {
             {/* Support */}
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-accent">
-                Soporte
+                {copy.support}
               </h4>
               <ul className="space-y-2 text-sm text-white/70">
                 <li>
@@ -95,7 +100,7 @@ export function Footer() {
                   </a>
                 </li>
                 <li className="text-xs">
-                  Para soporte técnico de este sitio web
+                  {copy.supportHint}
                 </li>
               </ul>
             </div>
@@ -103,17 +108,17 @@ export function Footer() {
             {/* About */}
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-accent">
-                Acerca de
+                {copy.about}
               </h4>
               <p className="text-sm text-white/70 leading-relaxed">
-                Sitio independiente de información turística descubriendo las gemas ocultas de Europa.
+                {copy.aboutSite}
               </p>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/50 border-t border-white/10 pt-8">
             <p>&copy; {new Date().getFullYear()} besteuropeanspots.com</p>
-            <p>{stats.destinations} Hidden Gems. One Continent. Endless Discovery.</p>
+            <p>{stats.destinations} {copy.copyrightSuffix}</p>
           </div>
         </div>
       </div>

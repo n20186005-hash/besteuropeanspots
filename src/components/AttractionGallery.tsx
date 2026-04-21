@@ -6,15 +6,42 @@ import type { Attraction } from "@/lib/attractions";
 import {
   regions,
   types,
-  regionLabelsEN,
   typeLabelsEN,
   regionColors,
 } from "@/lib/attractions";
 import { getAttractionCountries } from "@/lib/countries";
+import { getCountryLabel, homeCopy, type SiteLocale } from "@/lib/site-locale";
+
+function interpolate(template: string, values: Record<string, string | number>) {
+  return template.replace(/\{(\w+)\}/g, (_, key) => String(values[key] ?? ""));
+}
+
+function buildEnglishSummary(attraction: Attraction) {
+  const englishType = typeLabelsEN[attraction.type] || attraction.type;
+  const country = getCountryLabel(attraction.country, "en");
+  const name = attraction.englishName || attraction.name;
+  return `${name} is a hidden gem in ${country}, featured under ${englishType}.`;
+}
 
 /* ── Attraction Card ────────────────────────────────── */
-function AttractionCard({ attraction }: { attraction: Attraction }) {
+function AttractionCard({
+  attraction,
+  locale,
+}: {
+  attraction: Attraction;
+  locale: SiteLocale;
+}) {
   const color = regionColors[attraction.region] || "#555";
+  const cardTitle = locale === "en" ? attraction.englishName || attraction.name : attraction.name;
+  const typeLabel = locale === "en" ? typeLabelsEN[attraction.type] || attraction.type : attraction.type;
+  const countryLabel = getCountryLabel(attraction.country, locale);
+  const cardSubtitle =
+    locale === "en"
+      ? `${countryLabel} · ${typeLabel}`
+      : `${attraction.city} · ${countryLabel}`;
+  const cardDescription = locale === "en" ? buildEnglishSummary(attraction) : attraction.description;
+  const cardInitial = (locale === "en" ? attraction.englishName || attraction.name : attraction.name).trim()[0] || "B";
+
   return (
     <Link
       href={`/attractions/${attraction.slug}`}
@@ -29,28 +56,25 @@ function AttractionCard({ attraction }: { attraction: Attraction }) {
       >
         <div className="absolute inset-0 flex items-center justify-center">
           <span className="text-white/30 text-6xl font-serif">
-            {attraction.name[0]}
+            {cardInitial}
           </span>
         </div>
-        {/* Type badge */}
         <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-xs font-medium px-2.5 py-1 rounded-full text-primary">
-          {typeLabelsEN[attraction.type] || attraction.type}
+          {typeLabel}
         </span>
-        {/* Country badge */}
         <span className="absolute top-3 right-3 bg-black/40 backdrop-blur-sm text-white text-xs px-2.5 py-1 rounded-full">
-          {attraction.country}
+          {countryLabel}
         </span>
       </div>
-      {/* Content */}
       <div className="p-5">
         <h3 className="text-base font-semibold text-primary mb-1 group-hover:text-primary-light transition-colors leading-snug">
-          {attraction.name}
+          {cardTitle}
         </h3>
         <p className="text-sm text-muted mb-3">
-          {attraction.englishName} &middot; {attraction.city}
+          {cardSubtitle}
         </p>
         <p className="text-sm text-muted-light leading-relaxed line-clamp-2">
-          {attraction.description}
+          {cardDescription}
         </p>
       </div>
     </Link>
@@ -93,9 +117,12 @@ function FilterPill({
 /* ── Main Gallery ───────────────────────────────────── */
 export function AttractionGallery({
   attractions,
+  locale = "zh",
 }: {
   attractions: Attraction[];
+  locale?: SiteLocale;
 }) {
+  const copy = homeCopy[locale].gallery;
   const standardTypeSet = useMemo(() => new Set<string>(types), []);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
@@ -166,24 +193,20 @@ export function AttractionGallery({
   return (
     <section id="destinations" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-3">
-            Explore All Destinations
+            {copy.title}
           </h2>
           <p className="text-muted max-w-2xl mx-auto">
-            {attractions.length} carefully curated hidden gems across Europe.
-            Filter by region or type to find your next adventure.
+            {interpolate(copy.description, { count: attractions.length })}
           </p>
         </div>
 
-        {/* Filters and Search */}
         <div id="regions" className="mb-10 space-y-6">
-          {/* Search Bar */}
           <div className="max-w-2xl mx-auto relative">
             <input
               type="text"
-              placeholder="Search by name, city, or country... (e.g., Paris, Castle, 巴黎)"
+              placeholder={copy.searchPlaceholder}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full px-5 py-3.5 pl-11 rounded-xl border border-gray-200 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all shadow-sm text-gray-700 bg-white"
@@ -213,14 +236,13 @@ export function AttractionGallery({
             )}
           </div>
 
-          {/* Region filter */}
           <div>
             <h4 className="text-xs uppercase tracking-widest text-muted-light mb-3 font-medium">
-              Country
+              {copy.countryLabel}
             </h4>
             <div className="flex flex-wrap gap-2">
               <FilterPill
-                label="All Countries"
+                label={copy.allCountries}
                 active={selectedRegion === null}
                 onClick={() => setSelectedRegion(null)}
                 count={attractions.length}
@@ -228,7 +250,7 @@ export function AttractionGallery({
               {regions.map((r) => (
                 <FilterPill
                   key={r}
-                  label={regionLabelsEN[r] || r}
+                  label={getCountryLabel(r, locale)}
                   active={selectedRegion === r}
                   onClick={() =>
                     setSelectedRegion(selectedRegion === r ? null : r)
@@ -239,21 +261,20 @@ export function AttractionGallery({
             </div>
           </div>
 
-          {/* Type filter */}
           <div>
             <h4 className="text-xs uppercase tracking-widest text-muted-light mb-3 font-medium">
-              Type
+              {copy.typeLabel}
             </h4>
             <div className="flex flex-wrap gap-2">
               <FilterPill
-                label="All Types"
+                label={copy.allTypes}
                 active={selectedType === null}
                 onClick={() => setSelectedType(null)}
               />
               {types.map((t) => (
                 <FilterPill
                   key={t}
-                  label={typeLabelsEN[t] || t}
+                  label={locale === "en" ? typeLabelsEN[t] || t : t}
                   active={selectedType === t}
                   onClick={() =>
                     setSelectedType(selectedType === t ? null : t)
@@ -265,47 +286,44 @@ export function AttractionGallery({
           </div>
         </div>
 
-        {/* Results count */}
         <p className="text-sm text-muted mb-6">
-          Showing <strong className="text-primary">{filtered.length}</strong>{" "}
-          destination{filtered.length !== 1 && "s"}
+          {copy.showing} <strong className="text-primary">{filtered.length}</strong>{" "}
+          {copy.destinations}
           {selectedRegion && (
             <span>
               {" "}
-              in{" "}
+              {copy.in}{" "}
               <strong className="text-primary">
-                {regionLabelsEN[selectedRegion]}
+                {getCountryLabel(selectedRegion, locale)}
               </strong>
             </span>
           )}
           {selectedType && (
             <span>
               {" "}
-              &middot; type:{" "}
+              &middot; {copy.typePrefix}:{" "}
               <strong className="text-primary">
-                {typeLabelsEN[selectedType]}
+                {locale === "en" ? typeLabelsEN[selectedType] : selectedType}
               </strong>
             </span>
           )}
         </p>
 
-        {/* Grid */}
         {filtered.length > 0 ? (
           <>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {filtered.slice(0, visibleCount).map((a) => (
-                <AttractionCard key={a.slug} attraction={a} />
+                <AttractionCard key={a.slug} attraction={a} locale={locale} />
               ))}
             </div>
             
-            {/* Load More Button */}
             {visibleCount < filtered.length && (
               <div className="mt-12 text-center">
                 <button
                   onClick={() => setVisibleCount(prev => prev + 24)}
                   className="inline-flex items-center px-8 py-3 bg-white border border-gray-300 text-gray-700 font-medium rounded-full hover:bg-gray-50 hover:text-primary transition-all shadow-sm"
                 >
-                  Load More ({filtered.length - visibleCount} remaining)
+                  {copy.loadMore} ({filtered.length - visibleCount} {copy.remaining})
                   <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -315,7 +333,7 @@ export function AttractionGallery({
           </>
         ) : (
           <div className="text-center py-20 text-muted">
-            <p className="text-lg mb-2">No destinations match your search or filters.</p>
+            <p className="text-lg mb-2">{copy.noResults}</p>
             <button
               onClick={() => {
                 setSearchQuery("");
@@ -325,7 +343,7 @@ export function AttractionGallery({
               }}
               className="text-primary font-medium underline underline-offset-4"
             >
-              Clear all filters
+              {copy.clearFilters}
             </button>
           </div>
         )}

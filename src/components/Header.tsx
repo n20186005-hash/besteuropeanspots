@@ -2,16 +2,21 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { getLocaleFromPathname, homeCopy } from "@/lib/site-locale";
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const locale = getLocaleFromPathname(pathname);
+  const copy = homeCopy[locale];
 
   const navLinks = [
-    { label: "目的地", href: "/destinations" },
-    { label: "精选榜单", href: "/collections" },
-    { label: "景点百科", href: "/category/encyclopedia" },
-    { label: "景点游记", href: "/category/travelogue" },
-    { label: "历史人文", href: "/category/history" },
+    { label: copy.nav.destinations, href: "/destinations" },
+    { label: copy.nav.collections, href: "/collections" },
+    { label: copy.nav.encyclopedia, href: "/category/encyclopedia" },
+    { label: copy.nav.travelogue, href: "/category/travelogue" },
+    { label: copy.nav.history, href: "/category/history" },
   ];
 
   return (
@@ -25,23 +30,43 @@ export function Header() {
                 Best European Spots
               </span>
               <span className="text-[10px] uppercase tracking-[0.2em] text-muted hidden sm:block">
-                Hidden Gems Across Europe
+                {copy.headerTagline}
               </span>
             </div>
           </Link>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
-            {navLinks.map((link) => (
+          <div className="hidden md:flex items-center gap-6">
+            <nav className="flex items-center gap-8 text-sm font-medium">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className="text-gray-600 hover:text-primary transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+            <div className="flex items-center gap-2 border border-border rounded-full p-1">
               <Link
-                key={link.label}
-                href={link.href}
-                className="text-gray-600 hover:text-primary transition-colors"
+                href="/"
+                className={`px-3 py-1 text-xs font-semibold rounded-full transition-colors ${
+                  locale === "zh" ? "bg-primary text-white" : "text-gray-600 hover:text-primary"
+                }`}
               >
-                {link.label}
+                {copy.language.zh}
               </Link>
-            ))}
-          </nav>
+              <Link
+                href="/en"
+                className={`px-3 py-1 text-xs font-semibold rounded-full transition-colors ${
+                  locale === "en" ? "bg-primary text-white" : "text-gray-600 hover:text-primary"
+                }`}
+              >
+                {copy.language.en}
+              </Link>
+            </div>
+          </div>
 
           {/* Mobile Hamburger Button */}
           <button
@@ -72,6 +97,26 @@ export function Header() {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white border-b border-border shadow-lg">
           <nav className="flex flex-col px-4 pt-2 pb-4 space-y-3">
+            <div className="flex items-center gap-2 px-3 py-2">
+              <Link
+                href="/"
+                className={`px-3 py-1 text-xs font-semibold rounded-full transition-colors ${
+                  locale === "zh" ? "bg-primary text-white" : "bg-surface text-gray-600"
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {copy.language.zh}
+              </Link>
+              <Link
+                href="/en"
+                className={`px-3 py-1 text-xs font-semibold rounded-full transition-colors ${
+                  locale === "en" ? "bg-primary text-white" : "bg-surface text-gray-600"
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {copy.language.en}
+              </Link>
+            </div>
             {navLinks.map((link) => (
               <Link
                 key={link.label}
