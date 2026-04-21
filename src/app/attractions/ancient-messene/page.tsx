@@ -1,0 +1,259 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '古墨西拿 Ancient Messene｜沉睡千年的完整城邦，在伯罗奔尼撒的山谷与时光对话 - 最佳欧洲景点',
+  description: '车子拐出橄榄树林，当你第一眼看到古墨西拿时，恐怕会下意识地踩一脚刹车。它不像雅典卫城那样高踞山巅，充满戏剧性的宣告感。相反，它慵懒地铺展在一整片被群山温柔环抱的肥沃山谷里，像一头在午后阳光下打盹的雄狮，沉静，却蕴含着压倒性的力量。风是这里的第一位向导，它穿过巨大的石柱，发出低沉悠长的呜鸣，混合着百里',
+}
+
+export default function AncientMessenePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '伯罗奔尼撒， Mavromati 村附近', href: '/destinations/europe' },
+            { label: '古墨西拿', href: '/attractions/ancient-messene' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`古墨西拿・Ancient Messene・希腊・伯罗奔尼撒， Mavromati 村附近`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子拐出橄榄树林，当你第一眼看到古墨西拿时，恐怕会下意识地踩一脚刹车。它不像雅典卫城那样高踞山巅，充满戏剧性的宣告感。相反，它慵懒地铺展在一整片被群山温柔环抱的肥沃山谷里，像一头在午后阳光下打盹的雄狮，沉静，却蕴含着压倒性的力量。风是这里的第一位向导，它穿过巨大的石柱，发出低沉悠长的呜鸣，混合着百里香和野茴香的干燥香气，还有被阳光烤热的石头特有的尘土味。巨大的寂静笼罩着这里，那不是空无一物的寂静，而是被千年岁月填满后沉淀下来的、厚重的宁静。
+走进遗址，你会立刻迷失在尺度的震撼中。这里的“大”是铺天盖地的。古代竞技场（Stadium）的跑道长得仿佛没有尽头，两侧的石看台层层叠叠，足以容纳上万名观众。你可以轻易想象出当年运动会上鼎沸的人声、肌肉摩擦沙土的声音和胜利者的欢呼。而当你站在古罗马剧场（Theatre）的中心向舞台讲话时，声音会清晰地反弹回来，古希腊的声学设计让现代人也为之叹服。最妙的是，这里几乎没有游客的喧嚣，只有蜥蜴在石缝间迅疾跑过的窸窣声，和蜜蜂绕着野花飞舞的嗡嗡声，时间仿佛被山谷这个巨大的琥珀凝固了。
+这里最动人的，是一种“生活感”的残留。不同于许多仅剩下神庙地基的遗址，古墨西拿是一个功能完整的城市“标本”。你有清晰的市场（Agora）轮廓，能分辨出议事厅（Bouleuterion）、体育馆（Gymnasium）、甚至公共厕所的遗迹。走在宽阔的“城墙内街道”上，两旁住宅地基的格局依然可辨，你会不自觉地想象，某个午后，这里的市民是否也曾夹着书卷，匆匆走过，去参加一场关于民主的辩论？这种完整的肌理，让你感觉不是在看一堆废墟，而是在翻阅一本立体的、可以触摸的城市日记。
+而这一切的守护神，便是那座遥望可见的伊索米山。山顶的古城堡废墟与山脚的城邦遗址遥相呼应，讲述着同一个故事：这是一个为自由而建，也为守护自由而存在的家园。站在巨大的阿卡迪亚城门前，抚摸那些历经风雨却依旧棱角分明的巨石，你触摸到的不是冰冷的考古学，而是一个民族炽热的心跳。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子拐出橄榄树林，当你第一眼看到古墨西拿时，恐怕会下意识地踩一脚刹车。它不像雅典卫城那样高踞山巅，充满戏剧性的宣告感。相反，它慵懒地铺展在一整片被群山温柔环抱的肥沃山谷里，像一头在午后阳光下打盹的雄狮，沉静，却蕴含着压倒性的力量。风是这里的第一位向导，它穿过巨大的石柱，发出低沉悠长的呜鸣，混合着百里香和野茴香的干燥香气，还有被阳光烤热的石头特有的尘土味。巨大的寂静笼罩着这里，那不是空无一物的寂静，而是被千年岁月填满后沉淀下来的、厚重的宁静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进遗址，你会立刻迷失在尺度的震撼中。这里的“大”是铺天盖地的。古代竞技场（Stadium）的跑道长得仿佛没有尽头，两侧的石看台层层叠叠，足以容纳上万名观众。你可以轻易想象出当年运动会上鼎沸的人声、肌肉摩擦沙土的声音和胜利者的欢呼。而当你站在古罗马剧场（Theatre）的中心向舞台讲话时，声音会清晰地反弹回来，古希腊的声学设计让现代人也为之叹服。最妙的是，这里几乎没有游客的喧嚣，只有蜥蜴在石缝间迅疾跑过的窸窣声，和蜜蜂绕着野花飞舞的嗡嗡声，时间仿佛被山谷这个巨大的琥珀凝固了。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里最动人的，是一种“生活感”的残留。不同于许多仅剩下神庙地基的遗址，古墨西拿是一个功能完整的城市“标本”。你有清晰的市场（Agora）轮廓，能分辨出议事厅（Bouleuterion）、体育馆（Gymnasium）、甚至公共厕所的遗迹。走在宽阔的“城墙内街道”上，两旁住宅地基的格局依然可辨，你会不自觉地想象，某个午后，这里的市民是否也曾夹着书卷，匆匆走过，去参加一场关于民主的辩论？这种完整的肌理，让你感觉不是在看一堆废墟，而是在翻阅一本立体的、可以触摸的城市日记。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而这一切的守护神，便是那座遥望可见的伊索米山。山顶的古城堡废墟与山脚的城邦遗址遥相呼应，讲述着同一个故事：这是一个为自由而建，也为守护自由而存在的家园。站在巨大的阿卡迪亚城门前，抚摸那些历经风雨却依旧棱角分明的巨石，你触摸到的不是冰冷的考古学，而是一个民族炽热的心跳。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`古墨西拿`} />
+                <InfoRow label="英文名称" value={`Ancient Messene`} />
+                <InfoRow label="正式名称" value={`Archaeological Site of Ancient Messene`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`伯罗奔尼撒， Mavromati 村附近`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它是古希腊世界最后规划建立的主要城邦之一，也是唯一一个几乎未被后世建筑覆盖、完整保留了古典时期城市格局的考古奇迹。`} />
+                <InfoRow label="建筑特色" value={`其防御工事系统堪称古代军事工程的巅峰，长达9.5公里的城墙与气势恢宏的阿卡迪亚城门构成了无与伦比的整体。`} />
+                <InfoRow label="建筑风格" value={`以成熟的古典希腊风格为基调，完美融合了多利克式的庄严与后来希腊化时期的宏伟尺度。`} />
+                <InfoRow label="文化价值" value={`这里不仅是石头与柱廊的集合，更是一部镌刻在大地上的“反斯巴达”独立宣言，见证了美塞尼亚人失而复得的自由与尊严。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`夏季（4月1日至10月31日）：每日上午8:00至晚上8:00。
+冬季（11月1日至3月31日）：每日上午8:30至下午3:30。
+请注意：周二可能提前闭馆（下午3:00），节假日开放时间常有变动，建议行前查阅官网。
+遗址区域非常广阔，建议至少预留3小时以上游览时间。`} />
+              <InfoRow label="门票价格" value={`全价票：12欧元。
+优惠票：6欧元（适用于欧盟学生及65岁以上非欧盟长者）。
+冬季票价（11月至3月）有时会下调至6欧元。
+免费入场：18岁以下未成年人、欧盟学生（特定条件）、11月1日至3月31日期间的每月第一个周日。
+购票处位于主入口博物馆旁，门票包含遗址和现场考古博物馆。`} />
+              <InfoRow label="地址" value={`Archaeological Site of Messene, Mavromati 240 02, Greece`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是卡拉马塔国际机场（KLX），距离约35公里。从机场出发最便捷的方式是租车自驾，沿国家公路E55/E961行驶，车程约45分钟。
+若使用公共交通：从卡拉马塔市中心巴士站（KTEL）搭乘前往Meligalas或Androusa方向的巴士，在“Mavromati”村下车，但班次非常稀疏（每天可能只有1-2班），下车后需步行约15分钟至遗址入口。强烈建议自驾或预订包含交通的一日游。
+从雅典出发：自驾经科林斯运河进入伯罗奔尼撒，沿E65/E55公路行驶，总车程约3-3.5小时。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要听懂古墨西拿的石头在诉说什么，我们必须回到公元前371年的那个冬天。那一年，在遥远的留克特拉平原，底比斯的天才将领伊巴密浓达，用一种创新的“斜线阵”战术，彻底击溃了不可一世的斯巴达重装步兵方阵。这场胜利的涟漪，最终荡到了伯罗奔尼撒西南部的这片山谷。斯巴达的霸权铁幕，第一次被撕开了一道口子。而美塞尼亚人，这些被斯巴达奴役了长达三个多世纪的“希洛人”，看到了曙光。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "伊巴密浓达不仅是个军事家，更是一位深谋远虑的政治建筑师。他意识到，要永久性地削弱斯巴达，光打败它的军队还不够，必须在其后院建立一个强大的、敌对的独立国家，像一根楔子钉进斯巴达的势力范围。于是，在他的支持和庇护下，流亡在外的美塞尼亚人被召集回来。公元前369年，一个新的城邦在美塞尼亚地区的中心被奠基，它就是“美塞尼”（Messene），我们今天所说的古墨西拿。它的建立，本身就是一记响亮的政治耳光，是对斯巴达“领土不可侵犯”神话的公然挑战。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座城市从诞生之初就带着强烈的防御基因和自由象征。它的设计者可能是当时最顶尖的城市规划师。长达9.5公里的城墙依山势而建，将整片山谷的咽喉锁住，城墙上的塔楼、碉堡构成了一套令人望而生畏的防御系统。而作为城市脸面的阿卡迪亚城门，更是被设计成一座兼具军事堡垒和礼仪门户的庞然大物——内外两道巨大的门洞，中间是一个致命的瓮城。任何来犯之敌，即便突破了第一道门，也会在这个石制陷阱里成为瓮中之鳖。这不是一道门，这是一句用巨石写就的宣言：“自由来之不易，我们将誓死捍卫。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在随后的希腊化时代和罗马时期，古墨西拿迎来了繁荣。它不再是那个紧绷着肌肉、时刻准备战斗的年轻城邦，而变成了一个文化、商业和宗教的中心。你看到的那个气势恢宏的剧场，最初建于希腊化时期，后来被罗马人改建，增加了华丽的舞台建筑。巨大的竞技场不仅举办体育赛事，也成了市民社交的核心场所。广场周围立起了英雄和神祇的雕像，市井之声充满了街道。它甚至拥有了自己的“阿斯克勒庇俄斯圣所”（ Asclepieion），一个包含神庙、祭坛和画廊的庞大疗愈与宗教中心，吸引着远道而来的朝圣者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，就像所有古典城邦的命运一样，时间的洪流最终漫过了城墙。地震、蛮族入侵、帝国的更迭……城市的中心逐渐转移，古老的城区被遗弃，泥土和植被慢慢覆盖了街道与房舍。颇具讽刺意味的是，正是这种“被遗忘”，成了它最好的保护神。因为没有现代城市在其上建造，它得以在泥土下完整地沉睡。直到19世纪，考古学家们才开始系统地唤醒这片土地。每一铲土下去，露出的都是一个近乎完美的城市断面。它没有像罗马那样被不断重建覆盖，也没有像其他遗址那样被洗劫一空。它只是睡着了，等待着风再次吹过它的柱廊，等待着人们来聆听，一个关于自由、尊严与城市理想的，完整无缺的故事。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正领略古墨西拿的宏大与精妙，请务必留出一整个上午或下午（至少4小时）。建议在早上8点开门或下午3点后抵达，以避开正午最灼热的阳光，同时捕捉最美的光线。游览节奏宜慢不宜快，这不是一场打卡竞赛，而是一场时空漫步。路线设计上，建议从高处的博物馆和俯瞰点开始，建立整体印象，然后深入遗址核心，最后以最震撼的阿卡迪亚城门作为压轴终点，这样在体力和视觉体验上都会形成层层递进的高潮。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适、适合长时间行走和应对粗糙石路的运动鞋或登山鞋。
+夏季游览必须携带足量饮用水、防晒霜和遮阳帽，遗址内几乎没有遮荫处，小卖部也可能关闭。
+请尊重遗址，不要攀爬任何石刻或墙壁，很多区域看起来稳固，实则历经千年已非常脆弱。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从现场考古博物馆开始你的旅程，那里精美的雕塑和复原模型是你理解这片废墟的“解码器”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着小径走到遗址南侧的俯瞰点，静静地坐下来，用十分钟时间凝视整个山谷中城市棋盘般的恢弘布局。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`缓步下山，首先探索静谧而庄严的阿斯克勒庇俄斯圣所，在残留的爱奥尼柱式下想象古希腊人寻求身心疗愈的仪式。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过圣所进入巨大的中心广场（Agora），在曾经的市井喧嚣之地，试着辨认议事厅、商铺和神庙的地基轮廓。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`直奔那座令人屏息的古罗马剧场，走到圆形舞台的正中央，测试一下两千年前的声学奇迹，对着空荡荡的石阶座席唱句歌或念句诗。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着“城墙内主街”向北漫步，让你的脚步与古代市民的足迹重叠，留意路边住宅区那些仍然清晰的院落和房间分割。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在竞技场长达200米的跑道上走一个来回，感受古代运动员脚踩沙土的心跳，并爬上东侧高耸的石看台。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`将最大的惊叹号留给最后：从竞技场北门走出，沿着一段原野小径，走向那座史诗般的阿卡迪亚城门，从内到外仔细审视这座巨石堡垒的每一个细节。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`竞技场东侧看台最高处`}</h4>
+                  <p className="text-sm text-gray-700">{`下午日落前一小时，阳光将跑道和西侧看台染成金色，用广角镜头可以捕捉到整个竞技场的磅礴曲线与远方群山。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`阿卡迪亚城门的内部门洞`}</h4>
+                  <p className="text-sm text-gray-700">{`站在内门洞内，向外门洞和远处的山谷取景，利用门洞天然的景深框架，营造穿越时空隧道的强烈纵深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`阿斯克勒庇俄斯圣所的爱奥尼柱列旁`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚的侧光能完美勾勒出柱头精美涡卷的立体感，以单根或数根残柱为主体，让荒草和废墟作为背景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`遗址南侧山腰俯瞰点`}</h4>
+                  <p className="text-sm text-gray-700">{`全天皆可，但尤以晴朗的上午为佳，光线清晰，能拍下城市遗址、橄榄树林与背后伊索米山的全景画卷，展现天人合一的选址智慧。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`剧场舞台中心仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射入剧场，站在舞台中心向上拍摄一圈圈升起的石阶座席，能获得极具几何美感和压迫感的对称构图。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尝试用黑白模式拍摄建筑的局部和纹理（如城墙巨石），能剥离色彩的干扰，更突出历史的沧桑质感与结构的永恒之美。`}</li>
+                <li>• {`飞无人机在希腊考古遗址上空通常是严格禁止的，请务必遵守规定，不要试图航拍，以免面临高额罚款。`}</li>
+                <li>• {`当地人（包括工作人员）对遗址抱有深厚的敬意，拍照时请保持庄重，避免搞怪或夸张的姿势。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`山居静谧之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在遗址脚下Mavromati村的传统石屋民宿，清晨在公鸡啼鸣和教堂钟声中醒来，推开窗就能看到遗址的城墙，真正与古迹为邻。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`田园风情体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择附近村庄（如Valyra）的橄榄园农庄，住在由家族经营的guesthouse里，享用自家产的橄榄油和早餐，主人可能就是一部活的地方史。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`便捷城镇据点`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在30分钟车程外的卡拉马塔海滨，选择一家设计酒店，白天探索古迹，晚上享受海滨步道的微风和新鲜的海鲜大餐，动静结合。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐世修院风格`}</h4>
+                  <p className="text-sm text-purple-800">{`预订一间由老修道院建筑改造的精品酒店（在更远一些的山区），体验极致的宁静，在星空如洗的夜晚彻底脱离现代喧嚣。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果选择住在Mavromati或周边小村，请做好晚上极为安静、餐饮选择极其有限的准备，建议在超市提前采购一些补给。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "伯罗奔尼撒的乡村治安极好，民风淳朴，但夜间道路照明不足，自驾需小心驾驶。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旺季（6-9月）时，小而美的民宿非常抢手，务必提前数月预订。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开古墨西拿的时候，我的背包里仿佛不是只装了相机和矿泉水瓶，还沉甸甸地装满了风声、石头的温度和一片完整的寂静。这个地方教会我，真正的宏大未必需要仰望，也可以是这样坦然地平铺开来，邀请你走进去，成为它时空维度里的一粒微尘。在大多数游客涌向雅典卫城和德尔斐的时候，这里像一片被时间特意留存下来的净土，让你有机会独享与一个古典文明进行漫长、不受打扰的对话的特权。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切都被加速、被碎片化的时代，古墨西拿是一种反向的治愈。它要求你慢下来，用脚步丈量一座城市的理想；它让你看到，自由与独立的价值，曾经值得人们用如此精妙的工程和壮美的艺术去浇筑和歌颂。那一块块严丝合缝的巨石，不仅垒起了城墙，更垒起了一个民族重新挺直的脊梁。它不是一个死去的废墟，而是一个关于生存、尊严与共同体记忆的永恒课堂。如果你也曾被古希腊的精神所吸引，那么请一定要来古墨西拿。在这里，你将触摸到的，不是神话的缥缈，而是一部写在大地上的、坚实而滚烫的史诗。它会让你相信，有些石头，比纸页更能传世，有些山谷，比任何博物馆都更擅长收藏灵魂。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/areopoli-mani" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿雷奥波利</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Areopoli</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/serifos" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塞
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塞里福斯岛</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Serifos</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/skyros-island" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯基罗斯岛</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Skyros</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

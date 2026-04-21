@@ -1,0 +1,243 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '梅萨纳半岛 Methana｜火山温泉与沉睡的巨人 - 最佳欧洲景点',
+  description: '车子驶过那条只有两车道宽、像一根细线般缝合着大陆与半岛的地峡时，你一定会摇下车窗。左手是萨罗尼克湾深沉的湛蓝，右手是海湾内平静如镜的浅蓝，海风混杂着咸味与一丝隐约的、类似火柴划过后的矿物质气息扑面而来。这就是梅萨纳给你的第一份见面礼：一种地理上的奇迹感和大地深处隐隐脉动的预告。当你真正进入半岛，时间',
+}
+
+export default function MethanaPeninsulaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '梅萨纳镇', href: '/destinations/europe' },
+            { label: '梅萨纳半岛', href: '/attractions/methana-peninsula' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`梅萨纳半岛・Methana・希腊・梅萨纳镇`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子驶过那条只有两车道宽、像一根细线般缝合着大陆与半岛的地峡时，你一定会摇下车窗。左手是萨罗尼克湾深沉的湛蓝，右手是海湾内平静如镜的浅蓝，海风混杂着咸味与一丝隐约的、类似火柴划过后的矿物质气息扑面而来。这就是梅萨纳给你的第一份见面礼：一种地理上的奇迹感和大地深处隐隐脉动的预告。当你真正进入半岛，时间立刻慢了下来。这里没有圣托里尼的喧哗，也没有米克诺斯的精致，只有沿着山坡层层叠叠的白色小屋，被巨大的仙人掌和九重葛热烈地簇拥着，安静得只能听到渔船引擎的突突声和驴子的偶尔嘶鸣。
+但你很快会注意到那些不一样的细节。在一些村庄的边缘，比如历史悠久的小村卡梅尼霍拉，空气中那股硫磺的味道会变得具体起来。那不是臭味，而是一种温暖的、带着生命感的泥土气息。石头缝里冒出缕缕白烟，脚下的溪水居然是温热的，流淌过被矿物质染成赭石和明黄色的河床。当地的老人会提着水桶来这里打温泉水，他们相信这能治疗关节炎。你会发现，火山在这里不是教科书上的概念，而是日常生活的一部分，是 grandmother 们聊着天去接一桶“药水”的寻常背景。
+而梅萨纳最打动人心的魅力，恰恰在于这种极致的反差与统一。白天，你可以在帕莱亚洛克里索这样的渔村码头，就着一盘刚刚打捞上来的炸小鱼，看海水呈现出由绿到蓝的梦幻渐变，生活闲适得仿佛一部缓慢的欧洲电影。但当你抬头，望向半岛中央那些深紫色、寸草不生的嶙峋山脊时，你会清晰地意识到，那片宁静的海湾和冒着热气的地泉，都来自于同一个沉睡的巨人——那座塑造了这一切的火山。这种脚下既是温柔田园又是狂暴地质力量的感觉，独一无二，让人对自然心生无比的敬畏与亲近。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子驶过那条只有两车道宽、像一根细线般缝合着大陆与半岛的地峡时，你一定会摇下车窗。左手是萨罗尼克湾深沉的湛蓝，右手是海湾内平静如镜的浅蓝，海风混杂着咸味与一丝隐约的、类似火柴划过后的矿物质气息扑面而来。这就是梅萨纳给你的第一份见面礼：一种地理上的奇迹感和大地深处隐隐脉动的预告。当你真正进入半岛，时间立刻慢了下来。这里没有圣托里尼的喧哗，也没有米克诺斯的精致，只有沿着山坡层层叠叠的白色小屋，被巨大的仙人掌和九重葛热烈地簇拥着，安静得只能听到渔船引擎的突突声和驴子的偶尔嘶鸣。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但你很快会注意到那些不一样的细节。在一些村庄的边缘，比如历史悠久的小村卡梅尼霍拉，空气中那股硫磺的味道会变得具体起来。那不是臭味，而是一种温暖的、带着生命感的泥土气息。石头缝里冒出缕缕白烟，脚下的溪水居然是温热的，流淌过被矿物质染成赭石和明黄色的河床。当地的老人会提着水桶来这里打温泉水，他们相信这能治疗关节炎。你会发现，火山在这里不是教科书上的概念，而是日常生活的一部分，是 grandmother 们聊着天去接一桶“药水”的寻常背景。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而梅萨纳最打动人心的魅力，恰恰在于这种极致的反差与统一。白天，你可以在帕莱亚洛克里索这样的渔村码头，就着一盘刚刚打捞上来的炸小鱼，看海水呈现出由绿到蓝的梦幻渐变，生活闲适得仿佛一部缓慢的欧洲电影。但当你抬头，望向半岛中央那些深紫色、寸草不生的嶙峋山脊时，你会清晰地意识到，那片宁静的海湾和冒着热气的地泉，都来自于同一个沉睡的巨人——那座塑造了这一切的火山。这种脚下既是温柔田园又是狂暴地质力量的感觉，独一无二，让人对自然心生无比的敬畏与亲近。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`梅萨纳半岛`} />
+                <InfoRow label="英文名称" value={`Methana`} />
+                <InfoRow label="正式名称" value={`Methana`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`梅萨纳镇`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是爱琴海火山弧的最西端，是希腊大陆板块上最年轻、最活跃的火山区域之一，自远古起便是神圣的疗愈之地。`} />
+                <InfoRow label="建筑特色" value={`这里没有恢弘的人造宫殿，其“建筑”是大地本身：由熔岩塑造的崎岖海岸线、富含矿物质的硫磺泉眼、以及散落在橄榄园与火山岩间的纯白渔村民居。`} />
+                <InfoRow label="建筑风格" value={`原始粗粝的地质构造与基克拉迪斯风格的简约村落建筑和谐共存，形成一种被时光淬炼过的朴素美学。`} />
+                <InfoRow label="文化价值" value={`它代表了地中海生活中一种低调而坚韧的智慧——与脚下不稳定的、充满力量的大地平静共处，并从中汲取疗愈与安宁。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`自然区域及海岸线全天开放。主要地热温泉中心“Methana Spa”开放时间为每日08:00至20:00。徒步路径信息中心（通常位于市政厅旁）工作日09:00-15:00开放。火山口遗迹区域无限制，但强烈建议在白天光线充足时前往。冬季部分徒步路径可能因天气临时关闭，出行前建议查询当地市政网站。`} />
+              <InfoRow label="门票价格" value={`探索半岛本身完全免费。地热温泉中心的基础泡池体验约为每人8-12欧元，具体护理套餐价格另计。租赁登山杖或购买详细徒步地图约需3-5欧元。半岛上没有大型收费景点，主要开销在于交通、餐饮和温泉体验。`} />
+              <InfoRow label="地址" value={`Methana, 180 30, Peloponnese, Greece`} />
+              <InfoRow label="交通方式" value={`从雅典国际机场出发，最便捷的方式是租车自驾。取车后沿E94/A8高速公路朝科林斯方向行驶，约1小时到达科林斯运河，然后转入EO67公路，经过特洛伊曾地区，最终沿着极其狭窄、两侧都是海水的美丽地峡公路驶入半岛，总车程约2-2.5小时。若使用公共交通，可从雅典基菲索斯长途汽车站乘坐前往梅萨纳的巴士，每天约3-4班，车程约3小时，班次较少需提前规划。半岛内部公交稀疏，强烈建议自驾或租用当地摩托车，以便自由探索隐秘的海湾和徒步起点。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "梅萨纳的故事，要从一场惊天动地的“拥抱”说起。大约在九十万年前，非洲板块像一个固执的求爱者，缓缓向北俯冲，挤入欧亚板块之下。这场缓慢而巨大的碰撞，在爱琴海下方催生了一条炽热的岩浆通道，像一条不安分的火龙，沿着弧线寻找出口。梅萨纳，就是这条火山弧西端最后一个苏醒的节点。地质学家告诉我们，半岛上最年轻的一次喷发，可能就发生在公元前三世纪左右，在人类文明已有清晰记忆的年代。想象一下，古希腊的渔民或许曾惊恐地望见山巅冒出浓烟与火光，并将之记录为神明赫菲斯托斯（火与锻造之神）在地下工坊里敲打的巨响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "正是这种与人类历史交织的“年轻”，让梅萨纳充满了神话与现实的交融。古希腊历史学家斯特拉博和保萨尼亚斯都曾记载，这里有一处“赫拉克勒斯温泉”，英雄在此沐浴以恢复神力。罗马人更是这里的忠实粉丝，他们热衷于这种天然的“spa”，相信富含硫磺和矿物质的热水能治愈百病，从战士的伤口到贵族的痛风。考古学家在温泉区发现了罗马浴场的遗迹，那些精美的马赛克碎片仿佛还在诉说着两千年前的休闲社交场景。中世纪至奥斯曼时期，半岛相对偏远的位置让它成为了一个宁静的避风港，居民以种植橄榄、葡萄和捕捞为生，火山带来的肥沃土壤和地热资源，成了他们沉默而慷慨的伙伴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "现代地质学之父查尔斯·莱尔爵士在19世纪早期到访这里，他被那些清晰可见的火山岩层和熔岩流遗迹深深吸引，梅萨纳的案例为他“均变论”的地质思想提供了重要佐证。自此，这个小半岛正式进入了科学研究的视野。但科学并没有驱散它的神秘。二十世纪初，半岛开始发展温泉疗养 tourism，建起了几座朴素的疗养院，吸引着雅典人来此进行“水疗”。然而，它始终没有像其他希腊岛屿那样被 tourism 的洪流彻底改变。也许是因为那条狭窄的地峡形成了一种心理上的屏障，也许是因为火山“随时可能醒来”的传说让大规模开发心存忌惮，梅萨纳奇迹般地保留了一种前 mass tourism 时代的淳朴气质。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的半岛居民，与他们的祖先一样，学会了一种充满哲理的共存之道。他们利用地热种植早熟的蔬菜，在温泉边建造简单的浴池，指引游客去探索那些古老的火山口。他们知道脚下的大地在沉睡，而非死亡。这种知晓危险却依然平静生活的态度，或许就是梅萨纳赠予 visitor 最深刻的一课：我们不是自然的主宰，而是它宏大叙事中一个渺小却灵动的注脚。当你赤脚踩在温泉水流过的温暖石头上，你连接的不仅是地热，更是一段从神话时代延续至今的、关于疗愈、敬畏与生存的绵长故事。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正领略梅萨纳的精髓，建议安排至少两天一夜的行程。第一天专注于半岛的“柔”与“暖”：上午抵达后，先去体验地热温泉，让身心放松；下午探索宁静的渔村和海岸线，感受当地生活节奏，傍晚在火山背景下欣赏爱琴海日落。第二天则献给半岛的“刚”与“野”：用整个上午徒步前往最壮观的古老火山口，与沉睡的巨人面对面，中午在徒步下山后享用慰藉身心的午餐。这样的安排张弛有度，让你能由表及里，从感官享受到精神震撼，完整地理解这片土地的两面性。建议清晨或黄昏出行，以避开正午的烈日，并捕捉最美的光影。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季徒步务必在清晨或傍晚进行，并携带足量饮水，火山岩地形吸热且缺乏遮荫，正午高温易导致中暑。
+前往天然温泉区时请尊重环境，不要使用化学洗浴用品，并穿着防滑的涉水鞋，某些泉眼周围岩石湿滑。
+半岛上许多小路 signage 简单，建议在市政信息中心购买或索取详细的徒步地图，或使用可靠的离线地图APP。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从地峡公路驶入时，务必在安全处停车，回望那条分割双海的纤细陆桥，感受被海水包围的奇妙入场仪式。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`直接前往卡梅尼霍拉村的天然温泉溪流区，脱掉鞋袜把脚浸入温暖的、带着硫磺气息的流水，让大地最直接的抚慰唤醒感官。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`漫步至梅萨纳主镇的小港口，坐在桅杆林立的渔船边，点一杯厚重的希腊咖啡，看渔民修补渔网，海鸥在湛蓝水面上划出弧线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`挑选一条标识清晰的徒步路径，比如通往克拉夫西火山口的路线，穿过散发着芬芳的松林和齐腰高的灌木，脚下是咯吱作响的火山砾石。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`站在巨大的斯塔夫罗波吉圆形火山口边缘，俯瞰那宛如月球表面的、布满红色和黑色火山渣的凹陷盆地，寂静中只听见风声呼啸。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后驱车前往僻静的瓦提哈迪渔村，在唯一的海边小酒馆里，用沾满面包屑的油炸西葫芦和冰凉的白葡萄酒慰劳自己。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要在半岛西侧的某个无名海湾等待日落，看着夕阳的余晖先将海水染成金红，再为远处锯齿状的火山剪影镶上滚烫的红边。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`地峡全景机位`}</h4>
+                  <p className="text-sm text-gray-700">{`在从大陆驶入半岛后第一个稍高的转弯处，用长焦镜头压缩空间，拍下那条细长公路笔直伸向火山群、两侧海水颜色迥异的超现实画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`卡梅尼霍拉温泉蒸汽`}</h4>
+                  <p className="text-sm text-gray-700">{`在清晨或雨后，温泉蒸汽最为氤氲，蹲低角度，让乳白色的热气从色彩斑斓（橙黄赭石）的矿泉石缝中袅袅升起，前景带入一只当地人的水桶或一双赤脚。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`克拉夫西火山口边缘`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，站在火山口东侧边缘，让同伴站在对面的西侧边缘（人物会非常渺小），利用广角镜头捕捉人物、巨大的火山口盆地和远方萨罗尼克湾的壮丽全景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`帕莱亚洛克里索渔村色彩`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，在渔村码头拍摄那些并排停靠的、漆成天蓝、赤红和明黄色的木质渔船，高饱和度的色彩与背景的纯白房屋、深蓝海水形成极佳的视觉冲击。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`徒步小径的延伸感`}</h4>
+                  <p className="text-sm text-gray-700">{`在松林与火山岩交界的小径上，将相机贴近地面，利用蜿蜒的小路作为引导线，指向远方朦胧的火山锥，营造出一种孤独而深邃的探索氛围。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`火山口区域光线强烈、对比度高，建议使用渐变灰滤镜或拍摄RAW格式以便后期平衡天空与地面的曝光。`}</li>
+                <li>• {`拍摄当地村民或渔民时，务必先微笑示意并获得默许，尊重他们的隐私和生活节奏，这是一种基本的旅行礼貌。`}</li>
+                <li>• {`半岛的星空极其清澈，若在夏秋季节留宿，可在远离村庄光污染的海边或山腰，尝试拍摄银河横跨火山轮廓的震撼夜景。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`主镇山坡上的家庭式旅馆“安娜之家”，房间简朴但一尘不染，阳台正对海湾，清晨能在老板娘准备早餐的叮当声和海浪声中醒来。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`卡梅尼霍拉村由老石屋改造的民宿，紧邻天然温泉溪流，晚上可以听着潺潺水声入眠，体验最地道的“与泉共居”。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`半岛西北角隐秘海湾旁的精品酒店“火山视野”，每间套房都拥有无敌海景和私密露台，提供以本地火山矿物为灵感的高级Spa疗程。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐居爱好者`}</h4>
+                  <p className="text-sm text-purple-800">{`租下瓦提哈迪渔村一栋带小厨房的临海小屋，白天跟着邻居老船长出海钓几条鱼，晚上自己烹饪，过几天真正的岛民生活。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "半岛住宿数量有限，尤其在七月至八月的温泉疗养旺季，务必提前数周甚至数月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "选择住宿时注意地理位置，如果主要计划是徒步，住在半岛中部的村庄比住在主镇更方便；若以放松和泡温泉为主，则卡梅尼霍拉村附近是上选。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里的夜晚非常安静，除了海浪和虫鸣几乎没有其他声音，适合寻求彻底放松的旅人，但不适合期待夜生活和热闹酒吧的游客。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开梅萨纳几天后，我的脚底仿佛还能感觉到那些温泉石头光滑而温暖的触感，鼻腔里也偶尔会闪过那一丝独特的、带着生命力的硫磺气息。但这片土地留给我的，远不止感官记忆。它更像一个温柔的寓言，讲述着人类该如何与一种更庞大、更古老、甚至潜藏危险的力量共处。这里的人们没有试图征服火山，将它变成纯粹的观光噱头；也没有因为恐惧而远离。他们只是学会了倾听大地的呼吸，接受它的馈赠——温暖的泉水、肥沃的土壤、举世无双的景观，同时也坦然接受它的沉默和可能的咆哮。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个人人追求极致体验、打卡网红景点的时代，梅萨纳是一种反向的治愈。它不提供 instant 的视觉狂欢，它要求你付出一点体力去徒步，放缓心跳去感受，打开所有毛孔去呼吸那份混杂着海盐、松香与矿物的复杂空气。它让你明白，旅行的深度不在于拍了多少张照片，而在于你是否曾在一个地方，真正地“站”了一会儿，感受过脚下土地的体温，并因此对自己、对自然生出了一份新的理解。如果你厌倦了 curated 的完美，渴望一场与地球原始力量和朴素生活智慧的真实对话，那么这个沉睡的火山半岛，正静静地等待着你的脚步声，成为它漫长故事中又一个细微而动人的音节。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/epidaurus-theatre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃皮达鲁斯古剧场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Epidaurus Theatre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/skyros-island" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯基罗斯岛</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Skyros</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/oracles-spring-prehistoric-cliff-settlement" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣谕之泉与远古崖居</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Oracle's Spring and Prehistoric Cliff Settlement</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,151 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '伊斯基亚历史溯源｜阿拉贡城堡的前世今生，火山岩上的千年史诗与囚徒君主传奇',
+  description: '探秘伊斯基亚岛心脏：矗立火山岩上2500年的海上堡垒。从希腊要塞到阿拉贡王冠，囚禁过国王，庇护过贵族，聆听石头诉说的地中海军政史诗。',
+}
+
+export default function CastelloAragoneseIschiaHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '伊斯基亚', href: '/destinations/italy' },
+            { label: '伊斯基亚阿拉贡城堡', href: '/attractions/castello-aragonese-ischia-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`伊斯基亚阿拉贡城堡・Castello Aragonese d'Ischia・意大利・伊斯基亚`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在伊斯基亚波尔图的海湾中，一座由火山岩构成的孤山破水而出，一座城堡如同从海底生长出的巨石王冠，以一道长桥与现世相连。这并非童话布景，而是 <strong>伊斯基亚阿拉贡城堡</strong> —— 一部镌刻在岩石上的、跨越二十五世纪的立体史书。它的基石由古希腊殖民者奠定，瞭望塔被阿拉贡国王重建，地牢囚禁过那不勒斯国王，沙龙又曾回荡文艺复兴的诗句。抛开游玩攻略，走进这座海上孤岩的尘封往事，遇见属于它的铁血、风雅与时光传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`伊斯基亚阿拉贡城堡`} />
+                <InfoRow label="英文名称" value={`Castello Aragonese d'Ischia`} />
+                <InfoRow label="正式名称" value={`Castello Aragonese d'Ischia`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`伊斯基亚`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座“城堡”的本质，是一座约莫 <strong>公元前474年</strong> 从海底火山活动中隆起的小型火山岩岛。它的故事并非始于砖石，而是始于地壳的呼吸。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最早的建造者，是来自希腊锡拉库萨的殖民者。当时，伊斯基亚岛被称为“Pithecusae”，是希腊人在第勒尼安海的重要前哨。将军 <strong>Hiero I of Syracuse</strong> 看中了这座离岸岩岛的天然防御优势，下令在上面建立了第一个军事据点，用于监视海面、防范日益强大的伊特鲁里亚人和迦太基人的威胁。这座岩岛最初的名字已湮灭于时光，但其“海上哨所”的命运从此注定。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗马时代，它继续作为瞭望点存在，但并未大规模扩建。真正的“城堡”形态，要等到中世纪早期。随着罗马帝国崩溃，第勒尼安海海盗肆虐，伊斯基亚岛的居民开始向这座易守难攻的岩岛迁移。他们在岩石上开凿住所，修建简易城墙，形成了一个与世隔绝的微型避难所社区。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而它名字中永恒的烙印——“阿拉贡”——则来自 <strong>1441年</strong>。当时，统治那不勒斯王国的阿拉贡王朝国王 <strong>阿方索五世</strong>，在夺取伊斯基亚岛后，决定将这个古老据点彻底改造为一座无法攻克的现代堡垒，以巩固他对这片海域的控制。他下令修建了连接岩岛与伊斯基亚主岛的石桥（取代了旧木桥），并围绕岩体建造了坚固的城墙与塔楼。从此，这座岩岛 fortress 与“阿拉贡”王朝的荣耀与权谋永久绑定。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡的岩石肌理上，层叠着地中海权力的每一次剧变。它不仅是建筑，更是重大历史的亲历者与载体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一个核心印记：希腊的“瞭望之眼”与罗马的隐匿。</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡的基石之下，是古希腊的军事野心。在 <strong>公元前8世纪</strong> 至前5世纪的希腊殖民浪潮中，这座岩岛是第一道防线。希腊人留下的痕迹如今已深埋，但他们的选择定义了此地的基因：隔绝、防御、掌控海路。随后的罗马人更注重主岛的温泉与农业，岩岛归于沉寂，仿佛在积蓄力量，等待下一个风云际会的时代。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二个，也是最深刻的印记：阿拉贡王朝的“铁王冠”。</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1441年</strong> 阿拉贡国王阿方索五世的改建，是城堡的“成年礼”。工程浩大，意图明确：打造一个兼具王室行宫与终极要塞功能的复合体。岩石被凿出隧道、台阶和蓄水池；城墙依险峻地势而建，配备当时先进的火炮位点。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "一位当时的编年史家记载：“国王陛下意图在此建立一座永不陷落的堡垒，它的大门面向他的朋友，而它的墙壁将使任何敌人感到绝望。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这次改建不仅赋予了城堡如今的名称与主体轮廓，更将其推向了历史的前台。它成为了阿拉贡家族控制那不勒斯湾、震慑热那亚和法国竞争对手的象征性存在。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第三个血腥印记：1809年的炮火与囚徒。</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡最戏剧性的章节发生在拿破仑战争时期。<strong>1809年</strong>，英国舰队与支持拿破仑的法军在那不勒斯王国激战。英军对驻扎在城堡内的法军发动了猛烈炮击。剧烈的轰炸严重损毁了城堡的上层建筑，包括教堂和部分贵族宫殿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，比炮火更富传奇性的是它在此前作为“王室监狱”的角色。最著名的囚徒是 <strong>那不勒斯国王费迪南多一世</strong> 的王后——玛丽亚·卡罗琳娜（奥地利女大公，玛丽·安托瓦内特的姐姐）。她在拿破仑入侵后，曾一度被反对派软禁于此。而更早的 <strong>18世纪</strong>，城堡阴森的地牢里曾关押过众多政治犯，他们的故事为城堡蒙上了一层幽暗、悲情的色彩。岩石的坚固，既保护了权贵，也囚禁了失败者。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说城墙定义了城堡的骨骼，那么曾栖身于此的人们，则赋予了它灵魂与温度。这里并非只有国王与将军，更吸引了在历史夹缝中寻找安宁或灵感的灵魂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>维托里奥·科隆纳：文艺复兴的诗意避难所</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其中最闪耀的名字，当属 <strong>维托里奥·科隆纳</strong>。她被誉为意大利文艺复兴时期最重要的女诗人。<strong>1492年</strong> 出生于罗马贵族家庭，后嫁给同样出身显赫的佩斯卡拉侯爵。然而，丈夫早逝后，科隆纳将余生献给了诗歌与宗教沉思。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>16世纪30年代</strong>，她选择隐居伊斯基亚岛，并频繁造访阿拉贡城堡。这里远离教廷与宫廷的纷扰，海天一色的壮丽景色与城堡遗世独立的氛围，与她的心境完美契合。在她写给友人，特别是写给艺术大师米开朗基罗（两人是挚友，保有大量通信）的信件中，流露出了对伊斯基亚宁静生活的珍视。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "她在信中曾如此描述：“在这里，岩石的坚实与大海的辽阔，让灵魂得以舒展。城堡虽是人造的壁垒，却比任何浮华宫殿都更接近天堂的沉默。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "科隆纳在城堡的居所，成为了一个小型的文化沙龙。她的存在，为这座军事堡垒注入了罕见的人文主义光辉。想象一下，在厚重的石墙内，回荡着的不是兵器交击，而是对十四行诗韵律的探讨，对信仰与爱情的哲学思辨。她的诗作也深受此地影响，充满了对自然、永恒与内心宁静的意象。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>芙拉维亚·斯多帕斯：乱世中的守护女神</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位与城堡命运交织的女性，生活在更近的 <strong>20世纪</strong>。<strong>英裔作家芙拉维亚·斯多帕斯</strong> 并非天生贵族，却成了城堡的拯救者。<strong>1910年</strong>，她的父亲——一位英国作曲家买下了当时已成废墟、被遗弃的城堡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当第二次世界大战的战火席卷意大利时，伊斯基亚岛和城堡未能幸免。德军曾占据此地。正是在这段黑暗时期，斯多帕斯展现出了非凡的勇气。她利用自己外国人的身份和对城堡的熟悉，巧妙周旋，保护了许多躲避战火的意大利平民和反法西斯人士，将他们藏匿在城堡迷宫般的隧道与废弃房间中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战后，她倾尽毕生精力与财力，独自一人开始了城堡缓慢而艰辛的修复工作。她并非富商巨贾，修复过程充满艰辛，但她怀抱着对这片历史遗迹的深切热爱，一点一点地让城堡重获生机。直到 <strong>20世纪90年代</strong>，她一直居住在此，既是主人，也是守护者、导游和历史讲述者。正是她的努力，我们今天才能看到这座城堡，而不只是一片荒芜的遗迹。她将个人命运与城堡的现代重生紧紧绑定。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "坚硬的火山岩堡垒，也包裹着柔软的传说。当地流传最广的故事，与城堡地下那座 <strong>“修女墓园”</strong> 有关。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡内曾有一所 <strong>16世纪</strong> 的本笃会修道院。修道院有一项特殊传统：已故修女的遗体并不下葬，而是被安放在地下墓穴特制的石椅之上，任由时间风干，成为“坐着的木乃伊”。这一方面是由于岩岛土地珍贵，更深层则是某种静默修行观念的延续——即便死后，仍以端坐沉思的姿态面对上帝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说在月圆之夜，海雾漫过石桥笼罩城堡时，能听到地下传来细微的、集体的吟唱声，那是修女们的灵魂仍在举行永恒的晚祷。更有故事说，曾有无知的水手闯入墓穴，惊扰了寂静，之后便总在睡梦中见到一排排静坐的阴影，无声地凝视着他，直到他请来神父为之祈祷方才安宁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个略带阴森却神圣的传说，为城堡增添了超越军事与贵族生活的灵性维度。它提醒着来访者，这里不仅是权力角斗场，也曾是灵魂寻求最终安宁的栖所。生与死，权欲与虔诚，在这座岩石孤岛上达成了某种诡异的平衡。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当你走过那二百多米长的石桥，迈向这座海上孤岩时，你踏上的不仅仅是一条通道，更是一条时间回廊。伊斯基亚阿拉贡城堡的每一层岩石，都是一页史书：古希腊的拓荒雄心，阿拉贡王朝的霸业蓝图，拿破仑时代的硝烟，文艺复兴的诗篇，乃至一位现代女性孤身守护文明的执着。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的价值，远不止于“打卡”的壮丽外观。在于让你亲身丈量“历史”的厚度——那是地壳运动百万年堆叠出的基座，是人类文明两千五百年持续书写的注脚。在这里，你能最直观地感受到，欧洲的历史从未死去，它就凝固在这些石头里，等待着被阅读、被触摸、被理解。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂这座城堡，便读懂了第勒尼安海千年来的波涛因何而起，权力如何塑造景观，而人文精神又如何在堡垒的缝隙中顽强生长。这是一次与时间本身的对话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？如何登岛、探索神秘隧道、参观修女墓园，以及伊斯基亚岛的交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/trevi-umbria" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特雷维</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trevi</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alghero" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔盖罗</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alghero</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/narni-sotterranea" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    纳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">纳尔尼古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Narni Sotterranea</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

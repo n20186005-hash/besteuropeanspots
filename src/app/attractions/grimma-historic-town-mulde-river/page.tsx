@@ -1,0 +1,247 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '格里马 Grimma｜德国萨克森的千年古镇与穆尔德河明珠 - 最佳欧洲景点',
+  description: '如果说德累斯顿是萨克森华丽的外交礼服，那么格里马就是它一件熨帖舒适的亚麻衬衣。我的第一脚踩在市集广场那些被几个世纪脚步磨得温润的石板上时，耳边听到的不是游客的喧哗，而是市政厅钟楼悠扬的报时声，混杂着旁边面包店飘出的、带着黄油和焦糖香气的暖风。阳光斜斜地打在广场四周那些彩色的、微微有些倾斜的文艺复兴立',
+}
+
+export default function GrimmaHistoricTownMuldeRiverPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '格里马', href: '/destinations/europe' },
+            { label: '格里马', href: '/attractions/grimma-historic-town-mulde-river' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`格里马・Grimma・德国・格里马`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`如果说德累斯顿是萨克森华丽的外交礼服，那么格里马就是它一件熨帖舒适的亚麻衬衣。我的第一脚踩在市集广场那些被几个世纪脚步磨得温润的石板上时，耳边听到的不是游客的喧哗，而是市政厅钟楼悠扬的报时声，混杂着旁边面包店飘出的、带着黄油和焦糖香气的暖风。阳光斜斜地打在广场四周那些彩色的、微微有些倾斜的文艺复兴立面上，光影分明，时间在这里仿佛被调成了0.5倍速。
+然后你往河边走。穿过窄窄的、开着各色小手工艺品店和小酒馆的巷子，穆尔德河的气息就混着水汽和青苔的味道扑面而来。突然间，视野豁然开朗，那道长达数百米的灰白色城墙，像一条沉默而坚定的臂弯，紧紧搂抱着老城。城墙太高太长了，你站在它的脚下抬头望，脖子会发酸。石缝里长出的野草在风里轻轻摇晃，墙砖上留着雨水冲刷几个世纪后的痕迹，颜色深浅不一。你能听见河水在不远处哗哗流淌，偶尔有自行车铃声清脆地划过，那是当地人正骑着车，从你身边悠然经过，去往河对岸的森林。
+最动人的是那座横跨穆尔德河的古老木结构吊桥——穆尔德桥。它不是什么宏伟的建筑，甚至有些朴素，木头桥身被漆成深绿色，走上去会发出轻微的、好听的吱呀声。但正是这座桥，把古城和对岸的田园风光连接了起来。当地人会在这里遛狗、跑步、或是干脆停下来，靠在栏杆上看着河水发呆。这座桥不是博物馆里的陈列品，它就是生活的一部分，是小镇呼吸的通道。站在桥中央，回头望是城墙巍峨的侧影，往前看是绿意盎然的河谷，你会瞬间明白，为什么格里马人如此深爱他们的家乡。它的魅力不在于某个惊天动地的单一景点，而在于这种完整的、活着的、被精心呵护下来的历史生态。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说德累斯顿是萨克森华丽的外交礼服，那么格里马就是它一件熨帖舒适的亚麻衬衣。我的第一脚踩在市集广场那些被几个世纪脚步磨得温润的石板上时，耳边听到的不是游客的喧哗，而是市政厅钟楼悠扬的报时声，混杂着旁边面包店飘出的、带着黄油和焦糖香气的暖风。阳光斜斜地打在广场四周那些彩色的、微微有些倾斜的文艺复兴立面上，光影分明，时间在这里仿佛被调成了0.5倍速。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然后你往河边走。穿过窄窄的、开着各色小手工艺品店和小酒馆的巷子，穆尔德河的气息就混着水汽和青苔的味道扑面而来。突然间，视野豁然开朗，那道长达数百米的灰白色城墙，像一条沉默而坚定的臂弯，紧紧搂抱着老城。城墙太高太长了，你站在它的脚下抬头望，脖子会发酸。石缝里长出的野草在风里轻轻摇晃，墙砖上留着雨水冲刷几个世纪后的痕迹，颜色深浅不一。你能听见河水在不远处哗哗流淌，偶尔有自行车铃声清脆地划过，那是当地人正骑着车，从你身边悠然经过，去往河对岸的森林。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最动人的是那座横跨穆尔德河的古老木结构吊桥——穆尔德桥。它不是什么宏伟的建筑，甚至有些朴素，木头桥身被漆成深绿色，走上去会发出轻微的、好听的吱呀声。但正是这座桥，把古城和对岸的田园风光连接了起来。当地人会在这里遛狗、跑步、或是干脆停下来，靠在栏杆上看着河水发呆。这座桥不是博物馆里的陈列品，它就是生活的一部分，是小镇呼吸的通道。站在桥中央，回头望是城墙巍峨的侧影，往前看是绿意盎然的河谷，你会瞬间明白，为什么格里马人如此深爱他们的家乡。它的魅力不在于某个惊天动地的单一景点，而在于这种完整的、活着的、被精心呵护下来的历史生态。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`格里马`} />
+                <InfoRow label="英文名称" value={`Grimma`} />
+                <InfoRow label="正式名称" value={`Grimma`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`格里马`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`萨克森选帝侯重要的夏宫所在地与行政中心，被誉为“穆尔德河畔的珍珠”。`} />
+                <InfoRow label="建筑特色" value={`保存完好的中世纪城市肌理，拥有德国最长的连续古城墙段之一，与独特的木结构河畔吊桥相映成趣。`} />
+                <InfoRow label="建筑风格" value={`以晚期哥特式和文艺复兴风格为主，混杂着巴洛克和古典主义元素，呈现出层次丰富的历史叠加感。`} />
+                <InfoRow label="文化价值" value={`是体验萨克森州内陆小镇宁静、坚韧历史与河流文化的绝佳样本，展现了战争与和平周期中普通城镇的生存智慧。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城区域（城墙、街道、广场）全天24小时开放。穆尔德河吊桥可随时步行通过。圣奥古斯丁修道院遗址的露天区域全天可参观，其附属的小型历史展览馆开放时间为每年4月至10月，周二至周日上午10点至下午5点，周一闭馆；11月至次年3月仅周末上午11点至下午4点开放。市政厅历史展览室开放时间与修道院展览馆同步。冬季（12月至2月）部分户外设施如城墙步道在结冰或大雪时可能临时关闭。`} />
+              <InfoRow label="门票价格" value={`进入格里马古城本身免费。圣奥古斯丁修道院遗址露天区域免费。修道院历史展览馆门票：成人4欧元，学生及优惠票2.5欧元，6岁以下儿童免费。市政厅历史展览室门票：成人3欧元。家庭联票（涵盖两个展览点）为10欧元。持有“萨克森文化卡”可免费进入所有收费景点。`} />
+              <InfoRow label="地址" value={`Rathausplatz 1, 04668 Grimma, Germany`} />
+              <InfoRow label="交通方式" value={`从最近的莱比锡/哈勒机场出发，最便捷的方式是乘坐火车。在机场火车站乘坐S-Bahn（S5或S5X线）前往莱比锡主火车站，车程约30分钟，班次密集。在莱比锡主火车站换乘区域列车（RB或RE线），前往“Grimma”站，车程约35-45分钟，每小时至少有1-2班车。从“Grimma”火车站出来，步行约15分钟（穿过一片宁静的居民区并下坡）即可抵达老城中心的市集广场。自驾的话，从莱比锡沿B107公路向东行驶约35公里即可到达，古城外围有多个付费停车场（推荐“P1 Am Rathaus”停车场，位置最方便）。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "格里马的故事，是从穆尔德河的一个拐弯处开始的。早在12世纪，斯拉夫部落就在这里定居，但真正赋予它城市灵魂的，是那些来自西部的德国移民和商人。穆尔德河是条黄金水道，运送着木材、货物和财富。于是，为了保护这些财富，城墙的建造成了必然。到14世纪，一道长达1.5公里的坚固城墙环绕着小镇拔地而起，它不仅仅是一道墙，更是格里马独立与繁荣的宣言。那些高耸的塔楼和厚重的城门，至今仍在诉说着中世纪城镇的自豪与警惕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇命运的转折点，与韦廷家族——萨克森的统治者们——紧密相连。15世纪，格里马被选为萨克森选帝侯的夏宫所在地。你可以想象一下，当华丽的选帝侯马车队驶过吊桥，进入城门时，整个小镇该是何等沸腾。他们在老城里修建了气派的宫殿（可惜原建筑已毁，原址上是后来的学校），格里马一度成为地区行政和文化的副中心。这个时期，文艺复兴的风也吹到了这里，市集广场上那些带有精美山墙和彩绘立面的市民住宅，大多建于这个黄金时代。小镇不仅有钱，还有了品味。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，历史的河流从不只有平静的流淌。17世纪的三十年战争，像一场冰冷的暴雨浇透了整个欧洲，格里马也未能幸免。城墙没能抵挡住瑞典军队的炮火，小镇多次被占领、掠夺和焚烧。战后重建是缓慢而艰辛的，人们用巴洛克式的简洁和实用，修补着哥特和文艺复兴的创伤。你会发现许多建筑的下半部分是古老的石基，而上半部分却是朴素的巴洛克灰泥立面，这就是那个时代留下的、隐忍的疤痕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "更大的考验在1945年来临。二战尾声，纳粹德军炸毁了那座连接两岸几个世纪的穆尔德桥，试图阻挡盟军前进。轰然巨响中，不仅是木石结构的倒塌，更是小镇生命线的断裂。战后，格里马处在东德的治下，物资匮乏，但当地人用一种令人动容的执着，一砖一瓦地、完全按照历史原貌重建了这座吊桥。这不是为了旅游，而是为了重新连接被撕裂的生活与记忆。同样被精心修复的，还有那连绵的城墙。在社会主义时期，这种对“封建遗产”的维护，需要极大的勇气和智慧。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "两德统一后，格里马没有急于把自己包装成旅游热点，而是继续着这种沉稳的修复。今天的你，能看到中世纪、文艺复兴、巴洛克乃至近现代修复的痕迹和谐共存。圣奥古斯丁修道院的遗址安静地躺在河边，残存的拱廊和墙基在绿草中显得肃穆而苍凉，它曾是重要的宗教中心，却在宗教改革后被世俗化，用途几经变迁。它不试图恢复原状，就那样坦然地展示着时间的断层。格里马的每一块砖，每一道木纹，都在讲述一个关于毁灭、重生与日常坚持的故事，它是一部用石头、木头和河水写就的萨克森编年史。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味格里马，你需要一整个从容的白天。建议早上9点左右抵达，这时晨雾可能还未从河面完全散去，阳光柔和，游客稀少，是感受古镇苏醒气息的最佳时刻。整体游览耗时约6-7小时，节奏应慢如流水。先从中心广场向外围探索，再沿着城墙漫步至河边，最后过桥去对岸获得全景视角，这样的路线由内而外，由细节到全景，能让你层层递进地理解这座城镇的空间逻辑和历史层次。中午务必在老城的小餐馆享用一顿本地午餐，下午的时光则适合坐在河边发呆，或者深入探索某个小博物馆。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`城墙步道部分段落较窄且无护栏，脚下石板可能湿滑，建议穿防滑舒适的鞋子，有恐高症的游客需谨慎。
+小镇周日和节假日大部分商店和博物馆闭馆，但餐馆通常营业，如果想参观室内展览请避开这些日子。
+当地人以低调和尊重隐私著称，拍照时请尽量避免将镜头直接对准居民家的窗户或私人庭院。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从市集广场的文艺复兴式市政厅开始，仔细看它外墙上精美绝伦的日晷和雕刻，感受作为古老行政中心的气场。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`随意钻进市政厅旁任意一条鹅卵石小巷，比如通往河边的“Hintergasse”，用指尖触摸两旁房屋那些凹凸不平的彩色灰泥墙面和古老木门。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着清晰的路标找到“Stadtmauer”入口，登上那保存完好的漫长城墙步道，一路从高处俯瞰红瓦屋顶的海洋和庭院深处隐秘的花园。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城墙的“Fischertor”（渔夫门）出来，径直走到穆尔德河畔，站在古老的石阶码头上，看野鸭游过，感受河水带来的微凉湿气。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`步行穿过那座会微微晃动的历史木吊桥，在桥中央停下，完成从“城内”到“城外”的空间转换，并回望城墙全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`过桥后向左转，沿着平缓的“哲学家小径”走上山坡，大约15分钟后，在一处无名的长椅获得俯瞰整个格里马老城与河流弯道的明信片视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后回到老城，寻找圣奥古斯丁修道院的遗址，在残存的哥特式拱廊下静坐片刻，想象修士们曾经在此诵经的脚步声。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`将最后一站留给河边的一家传统酒馆“Gasthof Muldeblick”，点一杯本地啤酒或咖啡，就着黄昏时分河面上粼粼的金光，结束这完美的一天。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`穆尔德桥南侧河岸仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光时分，站在桥南岸的草地上，将古老的木桥、桥上行人与后方高耸的城墙塔楼一同纳入画面，构图充满故事性和纵深感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城墙“Pulverturm”（火药塔）转角处`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，利用城墙自身形成的天然框架，拍摄远处市集广场的钟楼和层层叠叠的屋顶，光影对比强烈，极具层次。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`哲学家小径中段观景长椅`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前约一小时，阳光将老城的屋顶染成温暖的金黄色，使用长焦镜头压缩空间，可以拍到城墙、河流、桥梁和教堂尖塔同框的经典全景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣奥古斯丁修道院遗址拱门内`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射时，走进残存的拱廊，拍摄拱门框住对面绿树和河水的画面，形成明暗与废墟生机的强烈对比，富有哲理意味。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`老城巷弄的晨间光影`}</h4>
+                  <p className="text-sm text-gray-700">{`早上八点到九点之间，阳光斜射入狭窄的“Schlossgasse”巷子，捕捉光影在鹅卵石路面和彩色墙面上移动的瞬间，拍出宁静的生活气息。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效消除河面及古老窗玻璃上的反光，让城墙砖石和木桥的色彩更加饱和厚重。`}</li>
+                <li>• {`当地人对拍照很宽容，但商业摄影或使用无人机需要提前向市政厅申请许可，在居民区放飞无人机被视为不礼貌的行为。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨民宿之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在老城墙内一栋18世纪修复的桁架木屋里，女主人会为你准备丰盛的萨克森风味早餐，从阁楼的小窗户望出去就是邻居家种满天竺葵的阳台。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色历史体验`}</h4>
+                  <p className="text-sm text-green-800">{`由古老水磨坊改造的精品酒店，房间保留了原始的粗木梁和石墙，晚上伴着穆尔德河温柔的流水声入眠，早餐是现磨的有机麦片和新鲜牛奶。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端河景享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于河对岸山坡上的现代设计酒店，拥有直面古城全景的无敌露台，在星空下泡个热水澡，将格里马的灯火阑珊尽收眼底，是浪漫的终极选择。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`经济便捷旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`火车站附近一家干净明亮的家庭经营旅馆，价格亲民，交通方便，主人会热情地为你手绘老城探索地图，并推荐只有本地人才知道的小餐馆。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "格里马非常安全宁静，夜间独自散步毫无问题，但大部分生活设施晚上八点后就关闭了，建议提前备好必需品。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季和圣诞市场期间是旺季，住宿需提前数周预订；春秋两季前来，不仅能享受更优价格，还能看到小镇最本真的面貌。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "住在老城内虽然氛围绝佳，但可能无法直接将车开到门口，需要将车停在指定的外围停车场，并拖着行李走一小段石板路。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开格里马时，我的背包里没有多少纪念品，但心里却装得很满。那种感觉，不是看了惊天动地奇观后的震撼，而像是拜访了一位温和睿智的长者，听他絮絮地讲完一生的故事——有辉煌的时刻，有痛苦的断裂，但更多的是日复一日的坚持与修缮。在这个追求速度与尖叫体验的时代，格里马提供了一种截然不同的旅行价值：慢下来的勇气，以及欣赏“完整”而非“顶尖”的美学。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它教会我，历史不是封存在玻璃柜里的标本，而是可以行走其上的城墙，是可以吱呀作响的桥板，是面包房里持续飘出的香气。每一位热爱深度游的旅人都该来这里，不是为了打卡，而是为了进行一次关于时间与存在的沉思。在这里，你会明白，一座城镇最伟大的成就，或许不是从未被摧毁，而是每一次被摧毁后，人们都选择记住它的样子，并怀着爱与耐心，将它重新拼凑起来。格里马，这颗穆尔德河畔的珍珠，它的光泽不是刺眼的钻石光芒，而是温润的、来自时间深处的包浆，越摩挲，越能感受到它的温度与力量。这是一趟能让你内心安静下来的旅程。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/quedlinburg-old-town-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奎
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奎德林堡老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Quedlinburg</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/besigheim" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝西希海姆</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Besigheim</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/stolzenfels-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施托尔岑费尔斯城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Stolzenfels Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

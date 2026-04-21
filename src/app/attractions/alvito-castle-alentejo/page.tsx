@@ -1,0 +1,250 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔维托 Alvito｜探秘阿连特茹白色迷宫，遇见红砖与白石交融的混血城堡 - 最佳欧洲景点',
+  description: '车子在阿连特茹无尽的金色平原与软木橡树林间穿行，当你以为这片土地只有一种枯燥的辽阔时，阿尔维托就像海市蜃楼般出现了。一片洁白无瑕的房屋，如同从地上生长出来的积木，层层叠叠地簇拥着一座小山丘，而山丘之巅，便是那座让人过目不忘的城堡——它不是印象中灰暗冷峻的巨石堡垒，而像是一位穿着白袍、却在领口和袖口精',
+}
+
+export default function AlvitoCastleAlentejoPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '阿尔维托（贝雅区）', href: '/destinations/europe' },
+            { label: '阿尔维托', href: '/attractions/alvito-castle-alentejo' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿尔维托・Alvito・葡萄牙・阿尔维托（贝雅区）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在阿连特茹无尽的金色平原与软木橡树林间穿行，当你以为这片土地只有一种枯燥的辽阔时，阿尔维托就像海市蜃楼般出现了。一片洁白无瑕的房屋，如同从地上生长出来的积木，层层叠叠地簇拥着一座小山丘，而山丘之巅，便是那座让人过目不忘的城堡——它不是印象中灰暗冷峻的巨石堡垒，而像是一位穿着白袍、却在领口和袖口精心绣上了红褐色滚边的优雅绅士，在炽烈的南葡萄牙阳光下，散发着温暖而奇异的魅力。
+停好车，走进小镇，瞬间就被一种宁静的嗡嗡声包围。那不是噪音，而是生活本身的低语：老咖啡馆里瓷杯的轻碰声，某扇窗户后传来的轻柔法多歌声，风吹过狭窄巷弄时带来的、混杂着野花香和新鲜烤面包气息的微风。小镇的街道是典型的伊斯兰式迷宫，为了躲避烈日而设计得窄小曲折，刷着石灰的墙壁反射着阳光，让一切都明亮却不刺眼。当地的老人就坐在自家门前的矮凳上，看着你这个陌生的闯入者，眼神里没有好奇，只有一种见惯世事的淡然，仿佛几百年来，城堡就这么看着小镇，小镇就这么守着城堡，一切都没变过。
+而当你终于走到城堡脚下，那种混合感就更强烈了。厚重的方形塔楼和雄堞诉说着它的军事出身，但那些环绕窗户、门廊和大面积墙体的、用红砖精心砌成的菱形、锯齿形和绳结状装饰带，却像华丽的蕾丝，瞬间柔化了建筑的刚硬线条。这些红砖图案，既有摩尔人几何艺术的魂，又带着葡萄牙曼努埃尔风格那种对海洋与探险的浪漫表达。它不张扬，却无比精致，仿佛建造它的主人既想彰显权力，又渴望在此处获得一种别处没有的、充满异域情调的宁静与美感。
+最打动人的，或许是它的“活着”。它不像许多被掏空仅供参观的城堡。一部分仍是私有住宅，一部分被改造成了特色酒店。你隐约能听到内院传来孩子的笑声，或是看到阳台上晾晒的衣物。这种奇特的共存——厚重的历史与轻盈的当下，防御性的建筑与居家感的细节——让阿尔维托城堡不再是一个冰冷的景点，而是一个仍然在呼吸、在生活的故事本身。它完美诠释了阿连特茹的灵魂：在严酷的自然环境下，人们用最纯粹的白抵御炎热，用最炽热的红砖艺术表达对生活的热爱与坚韧。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在阿连特茹无尽的金色平原与软木橡树林间穿行，当你以为这片土地只有一种枯燥的辽阔时，阿尔维托就像海市蜃楼般出现了。一片洁白无瑕的房屋，如同从地上生长出来的积木，层层叠叠地簇拥着一座小山丘，而山丘之巅，便是那座让人过目不忘的城堡——它不是印象中灰暗冷峻的巨石堡垒，而像是一位穿着白袍、却在领口和袖口精心绣上了红褐色滚边的优雅绅士，在炽烈的南葡萄牙阳光下，散发着温暖而奇异的魅力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "停好车，走进小镇，瞬间就被一种宁静的嗡嗡声包围。那不是噪音，而是生活本身的低语：老咖啡馆里瓷杯的轻碰声，某扇窗户后传来的轻柔法多歌声，风吹过狭窄巷弄时带来的、混杂着野花香和新鲜烤面包气息的微风。小镇的街道是典型的伊斯兰式迷宫，为了躲避烈日而设计得窄小曲折，刷着石灰的墙壁反射着阳光，让一切都明亮却不刺眼。当地的老人就坐在自家门前的矮凳上，看着你这个陌生的闯入者，眼神里没有好奇，只有一种见惯世事的淡然，仿佛几百年来，城堡就这么看着小镇，小镇就这么守着城堡，一切都没变过。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你终于走到城堡脚下，那种混合感就更强烈了。厚重的方形塔楼和雄堞诉说着它的军事出身，但那些环绕窗户、门廊和大面积墙体的、用红砖精心砌成的菱形、锯齿形和绳结状装饰带，却像华丽的蕾丝，瞬间柔化了建筑的刚硬线条。这些红砖图案，既有摩尔人几何艺术的魂，又带着葡萄牙曼努埃尔风格那种对海洋与探险的浪漫表达。它不张扬，却无比精致，仿佛建造它的主人既想彰显权力，又渴望在此处获得一种别处没有的、充满异域情调的宁静与美感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人的，或许是它的“活着”。它不像许多被掏空仅供参观的城堡。一部分仍是私有住宅，一部分被改造成了特色酒店。你隐约能听到内院传来孩子的笑声，或是看到阳台上晾晒的衣物。这种奇特的共存——厚重的历史与轻盈的当下，防御性的建筑与居家感的细节——让阿尔维托城堡不再是一个冰冷的景点，而是一个仍然在呼吸、在生活的故事本身。它完美诠释了阿连特茹的灵魂：在严酷的自然环境下，人们用最纯粹的白抵御炎热，用最炽热的红砖艺术表达对生活的热爱与坚韧。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿尔维托`} />
+                <InfoRow label="英文名称" value={`Alvito`} />
+                <InfoRow label="正式名称" value={`Castelo e Paço dos Senhores de Alvito`} />
+                <InfoRow label="国家" value={`葡萄牙`} />
+                <InfoRow label="城市" value={`阿尔维托（贝雅区）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座见证了葡萄牙中世纪贵族权力、基督教与伊斯兰文化悄然融合的独特封建领主城堡与宫殿。`} />
+                <InfoRow label="建筑特色" value={`一座将军事防御性的城堡与舒适居住性的宫殿完美结合的建筑群，其最显著标志是大量运用了具有伊斯兰几何美学又经曼努埃尔风格演绎的红砖装饰带，与纯白的墙体形成戏剧性对比。`} />
+                <InfoRow label="建筑风格" value={`曼努埃尔风格与穆德哈尔风格的独特混血，以本地化的方式展现了葡萄牙大航海时代初期的那种自信与包容。`} />
+                <InfoRow label="文化价值" value={`它是阿连特茹地区“白色小镇”美学的浓缩体现，也是葡萄牙民族形成过程中文化层叠与再造的一个宁静而精美的活化石。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡内部开放时间较为灵活，通常为周二至周日上午10点至下午1点，下午3点至6点。冬季（11月至2月）下午可能提前至5点关闭。周一、元旦、复活节和圣诞节闭馆。强烈建议行前通过贝雅区旅游网站或致电当地旅游局确认，因为这里的管理更像一位随性的老管家，而非严格的机构。`} />
+              <InfoRow label="门票价格" value={`参观城堡庄园内部门票约为5欧元。持有学生证、65岁以上长者及贝雅区居民享有折扣票价（约3欧元）。12岁以下儿童免费。门票通常在城堡入口处的临时小桌购买，只收现金，请备好零钱。`} />
+              <InfoRow label="地址" value={`Largo do Castelo, 7920-999 Alvito, Portugal`} />
+              <InfoRow label="交通方式" value={`阿尔维托是典型的阿连特茹腹地小镇，抵达本身就像一场探险。最近的主要交通枢纽是贝雅（Beja）市。从里斯本出发：乘火车或巴士抵达贝雅（火车约2.5小时，巴士约2小时）。从贝雅到阿尔维托：公共交通极少，一天可能只有1-2班 regional bus，耗时约40分钟。最推荐的方式是在贝雅火车站租车自驾（约30分钟车程），或预订一辆当地的出租车（提前电话预约，单程约25-30欧元）。自驾请使用离线地图，乡间路标可能不太清晰。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要读懂阿尔维托城堡的红白密码，得把时钟拨回公元8世纪。那时，伊比利亚半岛的大部分土地，包括如今宁静的阿连特茹，都在摩尔人的统治之下。阿尔维托这个地名，很可能就源于阿拉伯语。摩尔人擅长利用高地建立防御据点，并带来了先进的灌溉技术与建筑美学，特别是他们对砖块的运用和复杂的几何装饰图案。虽然城堡主体并非建于那时，但这片土地的文化底色，早已深深浸染了伊斯兰的基因。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间来到13世纪，基督教收复失地运动的浪潮席卷南下。葡萄牙第一位国王阿方索·亨里克斯的军队，终于在13世纪中叶从摩尔人手中夺取了这片区域。王国需要巩固新领土，最有效的方式就是分封给有功的贵族。于是，阿尔维托作为一块重要的封地，在13世纪末被授予了皇室侍卫长迪奥戈·洛博。城堡最初的军事防御工事，大概就在这个时期开始夯下地基。它的首要任务很明确：镇守边境，威慑可能的反扑，并成为基督教势力在此地扎根的象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡真正迎来它艺术性的蜕变，要等到15世纪末。1482年，国王若昂二世将阿尔维托的领主爵位授予了迪奥戈·费尔南德斯·德·阿尔梅达，他是一位与王室关系密切的贵族。他的儿子，若昂·费尔南德斯·德·阿尔梅达，继承了爵位并成为了这座城堡命运的关键塑造者。若昂生活在葡萄牙历史上最辉煌的年代——大航海时代初期。曼努埃尔一世国王统治下，财富从印度、非洲和巴西滚滚而来，一种新的、洋溢着海洋气息和奢华装饰欲望的建筑风格——曼努埃尔风格——正在里斯本和全国兴起。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "若昂领主显然被这种新时代的浪潮所感染。但他没有简单地模仿首都那些用石材雕刻出锚链和珊瑚的夸张风格。相反，他做了一件极其聪明且富有诗意的事：他邀请了可能同时精通晚期哥特式、曼努埃尔风格和传统穆德哈尔（Mudéjar，指收复失地后留在基督教地区的摩尔工匠及其艺术风格）工艺的建筑师与工匠。他们利用本地最丰富、最经济的材料——红粘土烧制的砖，和取自附近的白色石灰岩——来进行创作。于是，我们看到了那种奇迹般的融合：城堡的主体结构是哥特式的坚实与简洁，而大量精美的装饰带，则用红砖编织出了既像伊斯兰格子窗，又像航海绳索，还像某种抽象自然图腾的图案。这仿佛是领主在用自己的方式宣告：我扎根于这片曾属于摩尔人的土地（红砖与几何纹），我效忠于正在开拓海洋的葡萄牙王国（曼努埃尔风格的创新精神），而我，将在这里建造一个独一无二的、既安全又美丽的家。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此后的几个世纪，城堡历经变迁。它见证了葡萄牙王朝的更迭，贵族家族的兴衰。它可能曾被部分废弃，也经历了修缮。但它奇迹般地避开了大规模战争的直接摧毁，其独特的建筑特征得以保存。20世纪中期，它被葡萄牙政府列为国家遗产。而更妙的是，在近些年的修复与利用中，它没有被博物馆化，而是部分转型为酒店。这种“活化”让古老的砖石继续聆听生命的声响，让那段关于文化融合、贵族梦想与地域认同的历史，不是被封存在玻璃柜里，而是依然在阿尔维托的微风与阳光下，轻轻述说。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议用一整天来慢慢消化阿尔维托。最佳抵达时间是清晨9点左右，这时阳光角度好，气温凉爽，小镇刚刚苏醒。整体游览节奏务必“慢”。上午先用2-3小时深度探索城堡及其周边，沉浸在那红白交织的建筑细节和登高望远的辽阔视野中。中午在城堡内或小镇广场找家家庭餐馆享用漫长的阿连特茹午餐。下午则用2小时彻底迷失在小镇那迷人的白色巷弄里，与慵懒的猫咪和友好的当地人偶遇。傍晚前是摄影的黄金时间。这样的安排既能避开午后最灼热的阳光，又能完整感受小镇从宁静到活跃再到重归宁静的日常韵律。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`绝对不要尝试在下午一点到三点半之间安排主要户外步行，阿连特茹的烈日会让你迅速耗尽所有热情。
+小镇几乎没有英文标识，学会用“Bon dia”（早上好/下午好）和“Obrigado/a”（谢谢）打开交流之门，当地人会非常乐意用肢体语言帮助你。
+穿着绝对舒适的步行鞋，那些几百年的鹅卵石路面对高跟鞋是灾难性的。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从城堡主入口那扇厚重的木门进入，立刻被内院那片宁静与混合着古老石材和九重葛花香的空气所包围`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花至少二十分钟，什么也不做，只是仰头细细观察主楼立面上那些红砖镶嵌出的每一道菱形网格和锯齿边饰，想象工匠们烧制砌筑时的专注`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要登上主塔楼的屋顶平台，让视野瞬间被阿连特茹无垠的金色平原、深绿橡树林和宛如白色积木堆成的小镇全景所填满，听风声过耳`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`探访城堡内小巧的曼努埃尔风格礼拜堂，注意祭坛周围那些用红砖勾勒出的简约而优雅的框架线条，感受信仰的静谧`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡侧门走出，沿着被岁月打磨光滑的石阶下行，随机拐进一条仅容一人通过的纯白小巷，让直觉带你探索`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在镇中心的小广场（Largo do Pelourinho）找那家有蓝色门框的老咖啡馆，点一杯bica（浓缩咖啡），像本地老人一样看着广场发呆`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着咖啡馆老板指的方向，去寻找那间外墙有着巨大蓝色手绘瓷砖画的圣母子小神龛，那是小镇信仰的街头印记`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前回到城堡外围的较低处，回望被夕阳染成金红色的砖饰与洁白墙体形成的终极对比，为这一天画上完美句号`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡塔楼顶西南角`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，将镜头对准小镇层层叠叠的白色屋顶和远处平原，用长焦压缩空间，让红砖城堡的一角作为前景，构成一幅层次分明的“权力与生活”画卷。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡主立面红砖装饰带特写`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点左右阳光斜射时，贴近墙面，聚焦于红砖与白墙交接的细节，利用光影突出砖块的纹理和几何图案的立体感，拍出建筑的肌肤之感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从Rua da Misericórdia小巷仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`中午小巷两侧高墙形成天然“光廊”时，站在巷子中段，向上拍摄城堡塔楼从狭窄的白色巷弄和一线蓝天中拔地而起的构图，极具戏剧张力。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小镇东南侧外围麦田边`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨有薄雾或傍晚时分，远离小镇，用广角镜头将前景的金色麦浪或绿色田野、中景的整个白色小镇群落、以及远景耸立的城堡一同纳入，拍下阿尔维托作为“平原明珠”的全景诗篇。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城堡内院拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光洒进内院时，穿过一道古老的石拱门或回廊立柱，以门框为画框，拍摄庭院中的人物剪影、绿植或对面的红砖窗饰，增加照片的故事感和纵深感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尊重隐私，拍摄居民或他们房屋的细节时，先微笑示意并获得默许。许多阳台和门窗仍是私人生活空间。`}</li>
+                <li>• {`阿连特茹的光线极其硬朗，中午时分阴影对比强烈，建议携带一块小型反光板或善用手机HDR模式来平衡建筑立面的高光与暗部细节。`}</li>
+                <li>• {`飞无人机前务必查清当地法规，并绝对避开城堡酒店住客的隐私区域。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`直接入住城堡本身改造而成的Pousada Castelo de Alvito酒店，选择一间带有原始石墙和红砖装饰细节的房间，夜晚当游客散去，你便独享这座数百年历史的建筑，在星空下的城垛上散步。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`本土体验`}</h4>
+                  <p className="text-sm text-green-800">{`小镇中心由古老宅邸改建的精品客栈，房间围绕着一个传统的天井庭院，早餐能尝到房东太太自制的阿连特茹蜂蜜和奶酪，晚上还能听到邻居家传来的吉他声。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园牧歌`}</h4>
+                  <p className="text-sm text-yellow-800">{`租住在城堡视野范围内、距离小镇步行15分钟的乡村独栋石屋（通常通过 Airbnb 预订），拥有私人小泳池和烧烤架，白天看羊群走过，夜晚在绝对的寂静和璀璨星河下入眠。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`便捷舒适`}</h4>
+                  <p className="text-sm text-purple-800">{`驱车15分钟可达的贝雅（Beja）市中心现代酒店，适合将阿尔维托作为一日游据点、同时希望有更多餐厅选择和城市便利设施的旅行者，性价比通常更高。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "若想入住城堡酒店，务必提前数月预订，房间数量极少且非常抢手，尤其在春秋两季。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇内的住宿选择非常有限且可能不接待深夜入住，无论选择哪里，一定要提前与房东确认具体的入住时间和钥匙交接方式。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿连特茹乡村地区夜晚极为安静黑暗，选择偏远农庄住宿需做好心理准备，那是一种彻底的、与世隔绝的宁静。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开阿尔维托许久，那红与白的强烈对比，还会在不经意间闯入脑海。它不像那些声名显赫、让人瞬间震撼的欧洲地标。它的力量是渗透性的，是后知后觉的。当你回味时，才会惊觉它所讲述的，是一个关于“融合”而非“征服”的、更加微妙和珍贵的故事。这里的红砖装饰，不是战利品，不是生硬的嫁接，而是一种经过时间沉淀、发自内心的欣赏与再创造。它告诉我们，文化最美的样子，未必是纯粹的，而可能是在交汇处生长出的、独一无二的新生枝条。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求速度、标榜“纯粹”的世界里，阿尔维托像一位沉默的智者。它矗立在广阔的平原上，坦然展示着自己混血的容颜，毫不掩饰历史的复杂层次。它邀请你的，不是匆忙的打卡，而是慢下来的凝视与感受。在这里，你会明白，深度旅行寻找的，或许不只是一处风景或一座建筑，而是一种存在于世的方式——如何在历史的激流中找到自己的位置，如何用坚韧（白墙抵御炎热）与热爱（红砖装饰生活）将家园雕琢成一件温暖的艺术品。专程为它绕一段路，值得。因为它赠予你的，将是一把理解葡萄牙乃至整个伊比利亚半岛灵魂的、精巧而独特的钥匙。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/elvas-garrison-town-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃尔瓦什星形要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Garrison Border Town of Elvas</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/mertola-guide" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    梅
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅尔图拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mértola</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/foz-do-arello" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    福
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">福斯-杜阿雷柳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Foz do Arelho</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

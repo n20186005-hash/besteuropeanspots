@@ -1,0 +1,150 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '埃格勒城堡历史溯源｜瑞士葡萄酒王国心脏，从中世纪税卡到酒香博物馆的前世今生',
+  description: '探秘瑞士埃格勒城堡：不止于葡萄酒博物馆。深入萨伏伊公爵的军事雄心、伯尔尼领主的权杖之下，聆听葡萄园中“医生”与“囚徒”的传奇，发现阿尔卑斯山脚下被酒香浸透的千年史诗。',
+}
+
+export default function AigleCastleHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '沃州埃格勒镇', href: '/destinations/europe' },
+            { label: '埃格勒城堡', href: '/attractions/aigle-castle-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`埃格勒城堡・Aigle Castle・瑞士・沃州埃格勒镇`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在瑞士沃州，有一座城堡，它的命运与葡萄藤蔓紧紧缠绕。它并非王族居所，也非惨烈战场，而是<strong>葡萄酒</strong>这门生意最忠实的守卫与记录者。从<strong>萨伏伊家族</strong>控制罗纳河谷通道的税卡，到<strong>伯尔尼</strong>征服者管理富庶葡萄园的行政中心，再到如今飘满酒香的博物馆，埃格勒城堡的每一块石头，都浸润着几个世纪以来人类对风土、贸易与权力的执着。抛开游玩攻略，走进埃格勒的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`埃格勒城堡`} />
+                <InfoRow label="英文名称" value={`Aigle Castle`} />
+                <InfoRow label="正式名称" value={`Aigle Castle`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`沃州埃格勒镇`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "埃格勒（Aigle）这个名字，在法语中意为“鹰”。传说源自附近山崖上曾有雄鹰筑巢。但历史学家更倾向于一个更务实的解释：它可能源于拉丁语“<em>Aquila</em>”或“<em>Aculeus</em>”，后者意为“尖刺”或“高地”，精准描述了这座小镇坐落在罗纳河谷北侧、背靠山峦突起之地的地理特征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇的兴起，完全得益于其<strong>战略位置</strong>。它扼守着从罗纳河谷通往阿尔卑斯山辛普朗山口的重要通道。在货物与军队流动必经之路上设卡，意味着财富与权力。有证据表明，早在罗马时代，这里就可能存在驻防点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，埃格勒真正登上历史舞台，始于<strong>萨伏伊家族</strong>的雄心。这个发源于阿尔卑斯山西部的家族，梦想着将势力向东扩张至整个罗纳河谷。约在<strong>12世纪后期</strong>，他们在埃格勒的岩石山嘴上，建造了第一座坚固的塔楼堡垒。其目的非常明确：<strong>军事控制与征收关税</strong>。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "当地一则古老的谚语如此形容：“罗纳河的水流带来鱼群，而通往意大利的道路则带来金币。”萨伏伊的领主们深谙此道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡俯瞰着脚下的平原与道路，任何商队、朝圣者或军队经过，都难逃塔楼上守卫的眼睛。这座最初功能单一的军事前哨，便是今日埃格勒城堡的胚胎。它生来就不是为了宫廷奢华，而是为了计算与盘剥，为了确保每一串运往北方的葡萄酒、每一块运往南方的奶酪，都能为领主的口袋增添一枚钱币。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "埃格勒城堡的历史转折，清晰烙印在瑞士联邦形成与宗教改革的宏大叙事中。第一个核心印记，是<strong>1475年的伯尔尼征服</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当时，统治埃格勒的<strong>萨伏伊公爵</strong>与新兴的联邦州<strong>伯尔尼</strong>为敌。伯尔尼的军队强大且纪律严明。1475年，他们南下攻占了包括埃格勒在内的整个下瓦莱地区。城堡在战火中受损，但征服者看到了它更大的价值。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "伯尔尼人没有摧毁它，而是将其修复并改造为统治这片新领地的<strong>行政与司法中心</strong>。城堡内设立了地方法院和监狱，伯尔尼派来的行政长官（<em>Balli</em>）在此办公。城堡的角色，从萨伏伊家族扩张的矛尖，转变为伯尔尼共和国管理富庶农业区的权杖。这一统治持续了<strong>超过三个世纪</strong>，直到1798年法国革命军入侵，旧制度终结。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二个深刻印记，是城堡与<strong>葡萄园经济</strong>的深度绑定。伯尔尼时期，城堡不仅是政治中心，更是整个地区葡萄种植与葡萄酒贸易的经济心脏。行政长官的一项重要职责，便是监督葡萄酒的品质、度量衡以及税收。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡的地下酒窖被不断扩大，用以储存作为税收缴纳的葡萄酒。城堡周围的土地被精心开垦为梯田葡萄园。<strong>16世纪</strong>左右，城堡进行了大规模改建，增加了居住翼楼和宏伟的拱形酒窖，其建筑风格反映了伯尔尼执政官的实用主义与些许文艺复兴的审美。城堡，从一个冰冷的石质税卡，逐渐演变成一个弥漫着橡木桶与葡萄发酵气息的、活着的经济实体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第三个印记，则是<strong>1970年代的华丽转身</strong>。随着现代行政体系的建立，城堡失去了原有功能，一度面临荒废。然而，当地人看到了它无与伦比的文化价值。经过精心修复，城堡在<strong>1971年</strong>被改造为<strong>葡萄酒与葡萄酒标签博物馆</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这不是一个偶然的选择，而是对城堡数百年灵魂最完美的呼应。曾经的税收账簿，被各个年代的酒标、酿酒工具和历史文件所取代。囚禁犯人的地牢，如今陈列着古老的压榨机。权力更迭的舞台，最终回归到它一直守护的核心——<strong>葡萄酒文化</strong>本身。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "埃格勒的传奇，并非由叱咤风云的帝王将相书写，而是由那些与土地和葡萄共呼吸的“小人物”所铸就。其中两位，被当地人尊称为葡萄园的“医生”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一位是<strong>亨利·博杜安博士</strong>。他并非土生土长的埃格勒人，却在19世纪末于此留下了不可磨灭的功绩。当时，一场灾难席卷了欧洲葡萄园：<strong>根瘤蚜虫</strong>。这种来自美洲的微小害虫，几乎摧毁了整个法国的葡萄酒产业，并迅速向瑞士蔓延。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "博杜安博士在1890年的一份报告中绝望地写道：“葡萄藤正在成片地死去，农民们的眼中充满了恐惧，几个世纪的耕作传统面临毁灭。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "就在此时，博杜安博士被派往埃格勒地区。他是一位富有实践精神的农学家。经过艰苦试验，他发现将欧洲葡萄品种的枝条，嫁接在对根瘤蚜免疫的美洲葡萄砧木上，是唯一可行的拯救方法。他在埃格勒建立了试验田，手把手教当地葡萄农学习嫁接技术。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的方法成功了。埃格勒乃至整个沃州的葡萄园得以重生，并奠定了现代葡萄种植的基础。城堡博物馆中至今保存着他当年的研究手稿和嫁接工具。他是一位用科学与耐心治愈土地的“医生”，挽救了一方产业与文化。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二位“名人”，则更富戏剧色彩——<strong>约瑟夫·吉约</strong>。他是一位<strong>伪造货币的天才</strong>，也是城堡地牢里最著名的“囚徒”。18世纪中叶，吉约因伪造伯尔尼政府发行的硬币而被捕，关押在埃格勒城堡阴冷的地牢中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，他的才华甚至让他的敌人感到惊叹。在狱中，他利用简陋的工具，竟然为看守他的狱卒雕刻了精美的印章和私人纹章。他的案件卷宗在伯尔尼档案中格外厚实，充满了对他技艺的惊叹与对其罪行的愤怒交织的复杂记录。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最终，他被判处终身苦役。但关于他的传说却在埃格勒流传下来。人们说，他雕刻的一枚纹章戒指，至今可能还藏在城堡某块石头的缝隙里。吉约的故事，为这座充满酒香的城堡增添了一抹叛逆与技艺的暗色，提醒人们这里不仅是经济中心，也曾是行使司法威严、禁锢人生自由的地方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "一“医”一“囚”，一位拯救产业，一位挑战秩序，他们从截然不同的角度，共同注解了埃格勒历史上<strong>生存与规则</strong>的永恒主题。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在埃格勒，最动人的传说与它的名字“鹰”和它的灵魂“葡萄酒”紧密相连。故事发生在遥远的萨伏伊伯爵统治初期。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说一位年轻的伯爵，在城堡初建时来此巡视。他野心勃勃，却为如何让这片贫瘠山地产出足够财富供养军队而发愁。一日，他看见一只雄鹰从城堡塔楼飞起，俯冲下山谷，久久不归。好奇的伯爵带人循迹而去，发现雄鹰正在啄食野生葡萄藤上的果实。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "伯爵尝了尝那深紫色的小果，酸甜的汁液让他精神一振。他召来随行的修士，修士告诉他，这里的阳光与坡地，或许正是种植葡萄的佳处。伯爵下令，开辟梯田，引种葡萄。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "老人们讲述这个故事时总会压低声音：“第一年幼苗枯死大半，伯爵几乎要放弃。但那只鹰又一次出现，盘旋在幸存的那片葡萄园上空。人们说，那是山神的启示。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，葡萄种植在埃格勒扎下了根。人们相信，正是那只神鹰，为城堡和城镇指明了生存之道——不是仅靠掠夺过往商旅，而是依靠经营脚下这片慷慨的土地。从此，“鹰”不仅成为地名，更成为守护葡萄园丰收的象征。每年葡萄采收前，一些老种植户仍会抬头望望山崖，仿佛在寻找那只传说中鹰的踪影。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则关于城堡的酒窖。据说在伯尔尼执政官时期，地窖里藏着一桶特别的“执政官之酒”，唯有在庆祝重大胜利或迎接贵宾时才会开启。这桶酒永远不会喝完，每次取用后，翌日便会神秘地恢复到原来的液位。人们相信，只要这桶酒常在，埃格勒的葡萄园就永不受霜冻与病害侵扰。当然，这桶“魔法酒”从未被正式记载，但它代表了农人对风调雨顺、永续丰收最质朴的祈愿。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当游客漫步在埃格勒城堡，品尝着博物馆提供的当地佳酿时，他所体验的，是一部浓缩的、活着的阿尔卑斯山脚经济史。这里没有金戈铁马的轰鸣，却有账簿翻动的沙沙声、葡萄压榨的潺潺声、以及囚徒雕刻石头细微的叮当声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的价值，在于它如此坦诚地展示了<strong>权力如何与地理结合，最终又如何被经济与文化重塑</strong>。从军事税卡到行政中心，再到文化博物馆，城堡的每一次角色转换，都是欧洲历史一个侧面的微观折射。它告诉我们，历史不总是由宫殿和战场定义，更多是由仓库、地窖、法庭和试验田这些日常空间所承载。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂埃格勒，便是读懂一片土地如何从“通道”和“税源”，通过人的智慧与劳作，转变为拥有自身身份与骄傲的“家园”和“风土”。城堡不再需要刀剑守卫，它被如海的葡萄园温柔环抱，它本身，已成为一瓶需要静静品读的、复杂而醇厚的历史佳酿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、品酒体验打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/spiez-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施皮茨城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spiez Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/abbey-of-saint-gall-library" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣加仑修道院图书馆</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Abbey of Saint Gall</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bulle-medieval-town-gruyeres" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    比
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">比勒</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bulle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

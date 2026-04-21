@@ -1,0 +1,231 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔斯霍特 Aarschot｜德梅尔河畔的暗红奇迹，聆听铁石教堂的低语 - 最佳欧洲景点',
+  description: '第一次见到阿尔斯霍特的圣母大教堂，你可能会愣上几秒。那不是你记忆中冰冷苍白的石灰岩，也不是明亮夺目的白大理石。它是一种沉静、温暖，甚至带着些许忧郁的暗红色，像是陈年的勃艮第葡萄酒，又像是被夕阳久久亲吻过的土地。它就那么稳稳地矗立在德梅尔河拐弯处的市场广场上，塔楼高耸，却奇异地给人一种敦厚、亲切的感觉',
+}
+
+export default function AarschotDemeredGothicTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '阿尔斯霍特 (位于弗拉芒布拉班特省)', href: '/destinations/europe' },
+            { label: '阿尔斯霍特', href: '/attractions/aarschot-demered-gothic-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿尔斯霍特・Aarschot・比利时・阿尔斯霍特 (位于弗拉芒布拉班特省)`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一次见到阿尔斯霍特的圣母大教堂，你可能会愣上几秒。那不是你记忆中冰冷苍白的石灰岩，也不是明亮夺目的白大理石。它是一种沉静、温暖，甚至带着些许忧郁的暗红色，像是陈年的勃艮第葡萄酒，又像是被夕阳久久亲吻过的土地。它就那么稳稳地矗立在德梅尔河拐弯处的市场广场上，塔楼高耸，却奇异地给人一种敦厚、亲切的感觉，仿佛一位穿着红褐色绒布外套的沉稳长者，早已看惯了数百年来的市集喧嚣与河水流光。
+走近了，那种质感更加强烈。空气里有股河畔城市特有的、淡淡的水腥味和旧书卷气混在一起的味道。教堂脚下，石板路被岁月磨得光滑如镜，倒映着砖石那独特的色泽。你伸手去触摸墙壁，指尖传来的不是光洁，而是一种略带颗粒感的粗糙与坚实，微微的暖意似乎能透过皮肤传递进来。那是铁矿石的体温。鸽子扑棱棱地从塔楼的小窗格里飞出来，翅膀扇动的声音在广场上显得格外清晰。周围是典型的弗拉芒老房子，山形墙色彩斑斓，但所有颜色在这座暗红巨兽面前，都成了谦逊的陪衬。当地人推着自行车匆匆而过，或是在广场边的咖啡馆闲聊，他们对这座教堂的存在习以为常，它就像呼吸一样自然，是他们生活背景里永恒不变的底色。
+而它最动人的魅力，恰恰在于这种“在地性”。它不是被某个远方国王或主教强行植入的符号，它的每一块石头都来自不远处的丘陵，由本地的工匠用本地的技艺垒砌，为了本地的社区而建。那种色彩，是这片土地血脉的颜色。当你绕到教堂侧面，看到德梅尔河平静的墨绿色河水缓缓流淌，对岸是普通的民居和后花园，你会突然明白，这座伟大的建筑从未试图凌驾于生活之上，它就是从这生活与河流中生长出来的最高精神枝干。它的美，不是孤傲的、仅供仰望的，而是可触摸的、可共鸣的，带着泥土的实在与人间烟火气的温暖。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一次见到阿尔斯霍特的圣母大教堂，你可能会愣上几秒。那不是你记忆中冰冷苍白的石灰岩，也不是明亮夺目的白大理石。它是一种沉静、温暖，甚至带着些许忧郁的暗红色，像是陈年的勃艮第葡萄酒，又像是被夕阳久久亲吻过的土地。它就那么稳稳地矗立在德梅尔河拐弯处的市场广场上，塔楼高耸，却奇异地给人一种敦厚、亲切的感觉，仿佛一位穿着红褐色绒布外套的沉稳长者，早已看惯了数百年来的市集喧嚣与河水流光。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走近了，那种质感更加强烈。空气里有股河畔城市特有的、淡淡的水腥味和旧书卷气混在一起的味道。教堂脚下，石板路被岁月磨得光滑如镜，倒映着砖石那独特的色泽。你伸手去触摸墙壁，指尖传来的不是光洁，而是一种略带颗粒感的粗糙与坚实，微微的暖意似乎能透过皮肤传递进来。那是铁矿石的体温。鸽子扑棱棱地从塔楼的小窗格里飞出来，翅膀扇动的声音在广场上显得格外清晰。周围是典型的弗拉芒老房子，山形墙色彩斑斓，但所有颜色在这座暗红巨兽面前，都成了谦逊的陪衬。当地人推着自行车匆匆而过，或是在广场边的咖啡馆闲聊，他们对这座教堂的存在习以为常，它就像呼吸一样自然，是他们生活背景里永恒不变的底色。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而它最动人的魅力，恰恰在于这种“在地性”。它不是被某个远方国王或主教强行植入的符号，它的每一块石头都来自不远处的丘陵，由本地的工匠用本地的技艺垒砌，为了本地的社区而建。那种色彩，是这片土地血脉的颜色。当你绕到教堂侧面，看到德梅尔河平静的墨绿色河水缓缓流淌，对岸是普通的民居和后花园，你会突然明白，这座伟大的建筑从未试图凌驾于生活之上，它就是从这生活与河流中生长出来的最高精神枝干。它的美，不是孤傲的、仅供仰望的，而是可触摸的、可共鸣的，带着泥土的实在与人间烟火气的温暖。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿尔斯霍特`} />
+                <InfoRow label="英文名称" value={`Aarschot`} />
+                <InfoRow label="正式名称" value={`Aarschot`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`阿尔斯霍特 (位于弗拉芒布拉班特省)`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座因独特铁矿石资源而兴起的商贸古城，其圣母大教堂是比利时“德梅尔哥特式”建筑风格最纯粹、最杰出的代表。`} />
+                <InfoRow label="建筑特色" value={`整座建筑，从宏伟的塔楼到精细的窗棂，均由当地开采的棕红色铁矿石砌成，呈现出温暖而沉郁的独特砖红色调，宛如从大地中生长出来。`} />
+                <InfoRow label="建筑风格" value={`德梅尔哥特式，一种起源于比利时德梅尔河谷地区的晚期哥特式地方变体，以其使用特殊的铁砂岩和相对简朴但有力的装饰线条而闻名。`} />
+                <InfoRow label="文化价值" value={`它不仅是信仰的丰碑，更是这片土地地质馈赠与中世纪工匠智慧的永恒见证，深深烙印在当地社区的集体记忆与身份认同之中。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`圣母大教堂内部开放时间通常为每日上午9点至下午5点（冬季可能提前至下午4点关闭）。教堂前的市场广场及古城区域全天可自由漫步。请注意，周日及宗教节日（如复活节、圣诞节）期间，教堂仅开放用于礼拜仪式，旅游参观可能受限。教堂塔楼登顶的开放时间较为有限，通常仅在每年4月至10月的周末下午1点至5点开放，且受天气影响，建议行前在市政官网再次确认。`} />
+              <InfoRow label="门票价格" value={`进入圣母大教堂主体内部免费参观。登顶教堂塔楼（需爬301级台阶）的门票约为成人5欧元，学生及65岁以上长者3欧元，12岁以下儿童免费。教堂内有时会举办小型历史展览或管风琴音乐会，此类特别活动需额外购票，价格约为8-10欧元。建议携带少量现金，部分小规模收费处可能不接受信用卡。`} />
+              <InfoRow label="地址" value={`Grote Markt 1, 3200 Aarschot, Belgium`} />
+              <InfoRow label="交通方式" value={`从布鲁塞尔国际机场出发最为便捷。在机场火车站乘坐火车前往鲁汶，车程约15-20分钟，班次频繁。在鲁汶火车站换乘前往阿尔斯霍特的当地列车，车程约15分钟。从布鲁塞尔市中心（如中央车站）也有直达阿尔斯霍特的火车，车程约30-40分钟。抵达阿尔斯霍特火车站后，出站即能望见教堂塔楼，步行约10分钟即可穿过老城到达市场广场核心区。建议使用比利时国家铁路APP（SNCB/NMBS）查询实时班次，购买标准车票即可。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔斯霍特的故事，始于德梅尔河一个平缓的转弯处。河水带来了贸易，也暴露了宝藏。早在罗马时代，人们就发现了河岸丘陵中埋藏着一种特殊的石材——一种富含氧化铁的砂岩。这种石头坚硬异常，开采困难，但一旦经过能工巧匠的手，便能呈现出无与伦比的耐久性与独特的棕红光泽。中世纪早期，这里逐渐形成了一个热闹的市镇， Lords of Aarschot 的贵族家族在此建立了统治。财富与野心，最终需要一座与之相配的信仰纪念碑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "13世纪末，建造一座新教堂的雄心开始酝酿。当时的决策者做了一个大胆而浪漫的决定：不用从远方运来的昂贵石材，就用我们脚下土地里的铁矿石来建造我们的神殿。这不仅仅是为了节约成本，更是一种骄傲的宣告。于是，采石场在城郊轰鸣，石匠们世代相传的技艺与这些坚硬的红色石块搏斗、磨合。教堂的建设断断续续，跨越了几个世纪。你可以从建筑细节上读到时间的层叠：早期部分显得更为厚重朴实，而后期（尤其是15-16世纪）的塔楼和窗饰，则展现出德梅尔哥特式在娴熟技艺下的精致与优雅，那镂空的石雕窗花在红褐色背景下，如同精致的深色蕾丝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，历史的烈火多次试图吞噬这座石头的史诗。尤其是在16世纪的宗教战争和两次世界大战中，阿尔斯霍特因其战略位置屡遭兵燹。最惨痛的一次或许是1914年，德国军队在此进行了残酷的报复，老城大量建筑被毁，包括教堂也受到了严重损毁。你如今看到的，很多是战后精心修复的结果。但耐人寻味的是，正是这些修复工程，再次催生了对古老采石场的重新启用，工匠们用同一种石材、同一种方法，让伤口愈合，让历史延续。石头沉默，却记录了每一次创伤与重生。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，当你漫步在老城，你会发现这种铁矿石的应用远不止于教堂。许多古老的民居围墙、街角的墩柱、甚至河岸的护堤，都使用了同样的红色石头。教堂并非孤例，它是整个城市建筑语汇的母题和高潮。它告诉我们，一个地方的文化与身份，往往就建立在它与脚下土地最物质、最直接的对话之上。阿尔斯霍特人用石头与河流对话，建造了家园，也塑造了自己的灵魂模样。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议选择一个晴朗的上午（最好是周二或周四，可以结合早市的热闹氛围）抵达阿尔斯霍特。整个深度游览需要大约4-5小时，节奏应当舒缓，重在感受与细节发现。从火车站出发，不直接奔向教堂，而是沿着河岸迂回接近，能让你更好地理解这座城与水、与石头的关系。中午时分在市场广场用餐，下午专注探索教堂内部、登塔（如果开放）以及老城街巷。这样的安排让你能体验到从外围环境到核心建筑，从宏观印象到微观细品的完整层次感。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`教堂内部时常举行礼拜或婚礼，请保持安静并尊重宗教活动，若遇仪式不妨在后排静观片刻，这是感受建筑生命力的好机会。老城石板路湿滑，建议穿一双舒适防滑的鞋子。不要期待这里有如布鲁日般的旅游化喧嚣，享受它的宁静和本地氛围才是正解。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从阿尔斯霍特火车站出来，别急着看地图，先深吸一口气，然后朝着德梅尔河的方向信步走去，让潺潺水声和两岸用暗红色石块砌成的古老护墙做你的第一个向导。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着“Beguinage”街区宁静的巷子漫步，这里铺路石和矮墙也泛着熟悉的红色，在爬藤植物的掩映下体会这种石材如何融入最日常的居住空间。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从河边小径的某个豁口第一次抬头远望圣母大教堂的塔楼，看它在绿树与民居的屋顶线条之上，呈现出一种沉稳的守护者姿态。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕到教堂东侧的后方，这里游客罕至，安静地观察飞扶壁的沉重结构与红色石壁如何严丝合缝，感受纯粹的力学之美。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从侧门轻轻推开厚重的木门进入教堂中殿，让眼睛适应内部相对幽暗的光线，第一时间去注意柱子、拱廊同样由那种红色石材构筑而成的整体氛围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花时间寻找那些被精心修复的彩色玻璃窗，特别是现代题材的窗画，看阳光如何透过它们，将五彩光影投射在古老的红色石地上，完成一场古今对话。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上市场广场边某家咖啡馆的露天座位，点一杯当地的啤酒，从正面平视教堂全貌，看鸽子绕着塔楼盘旋，消化一整天的视觉与历史信息。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`德梅尔河南岸仰拍视角`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，站在连接Beguinage区的小桥上，将河水作为前景，拍摄教堂塔楼与水中倒影，红色建筑在金色天光下会呈现油画般的质感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`市场广场斜侧方构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光偏西时，站在广场西北角的市政厅附近，利用广场上的集市摊位（如有）或行人作为生动前景，拍摄教堂正面与钟楼，展现其与市井生活的交融。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`教堂中殿拱廊下的纵深线`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个阳光能从侧面高窗射入的上午，站在中殿一端，使用广角镜头压低视角，捕捉红色石柱形成的连续拱廊序列，以及地面上的长长光斑。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣器室旁的小天井`}</h4>
+                  <p className="text-sm text-gray-700">{`从教堂内部某个侧门走出，进入一个被高墙围合、铺满红色碎石的小庭院，仰拍一隅被切割出的蓝天与教堂红色砖石墙体的几何构图，色彩对比极具张力。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`教堂内部允许非商业用途摄影，但禁用闪光灯和三脚架，以免打扰他人。拍摄当地人尤其是虔诚祈祷者时，务必保持距离并征得同意，尊重隐私。铁矿石的红色在阴天会显得格外沉郁厚重，是表现其历史沧桑感的绝佳时机，不妨尝试黑白模式。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`河畔静谧之选`}</h4>
+                  <p className="text-sm text-blue-800">{`德梅尔河岸旁一座19世纪翻新的绅士宅邸，房间窗户正对着缓缓流水和远处的教堂塔楼剪影，夜晚只能听到细浪轻拍石岸的声音。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老城中心体验`}</h4>
+                  <p className="text-sm text-green-800">{`市场广场边缘一栋有着阶梯形山墙的历史建筑里的精品酒店，内部是现代简约设计，但厚重的红色石墙被特意裸露出来，让你在舒适中与历史共眠。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园风光归宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于城郊古采石场遗址附近的一家家庭式农场客栈，房间宽敞质朴，早晨提供自酿果酱和新鲜鸡蛋，饭后可以散步到当年的采石坑，直观感受教堂石料的来源。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计爱好者据点`}</h4>
+                  <p className="text-sm text-purple-800">{`由旧纺织工厂改造的LOFT风格公寓，粗犷的工业混凝土结构与从本地旧货市场淘来的复古家具混搭，提供另一种解读这座城市历史层次的角度。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔斯霍特非常安全宁静，但夜生活几乎为零，喜欢安静氛围的旅行者会非常享受。如果计划周末前往，特别是夏季，建议提前一两周预订，因为本地人也喜欢在周末来此度短假。住在老城内虽然景致绝佳，但部分房间窗户面对石板路，清晨垃圾收集车的声音可能会有些吵，对声音敏感者可以提前询问房间朝向。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开阿尔斯霍特很久之后，那种暗红色的调子还会时不时地浮现在眼前。它不像许多世界级古迹那样，用压倒性的辉煌让你震撼失语。相反，它用一种缓慢的、渗透的方式，进入你的记忆。它让你思考，什么才是一个地方真正不可复制的灵魂。不是仿造的宫殿，不是舶来的风格，而是像这样，用本地土生土长的材料，回应本地的天空、河流与生活需求，所生长出的独一无二的形态。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个全球化和同质化席卷一切的时代，阿尔斯霍特的圣母大教堂像一个温柔的提醒。它告诉我们，深度旅行不仅仅是去看不同的风景，更是去触摸不同的质地，去理解不同的“为什么”——为什么这里的石头是红的？为什么这座教堂看起来如此“接地气”？答案就藏在德梅尔河的水流里，藏在丘陵上早已废弃的采石场里，藏在咖啡馆里老人聊天的方言里。这座教堂，就是打开这本关于土地、人民与时间之书的钥匙。它值得你专程而来，放慢脚步，用手心去感受那份来自大地深处的、粗糙而恒久的温暖。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/damme-belgium" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    达
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">达默</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Damme</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/tournai-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    图
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图尔奈圣母主教座堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tournai Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-beloel" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝勒伊城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Belœil</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

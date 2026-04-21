@@ -1,0 +1,245 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '施普吕根 Splügen｜探访活着的瓦尔瑟高山博物馆，在巨大石板屋顶下聆听古老隘口的商队回响 - 最佳欧洲景点',
+  description: '车子在最后一个弯道转过来时，施普吕根就像一本突然在你面前打开的、厚重而古老的立体书。第一眼抓住你的，不是色彩，而是质感与重量。那些深灰色的、巨大的石板屋顶，一块压着一块，层层叠叠地从陡峭的山坡上倾斜下来，坡度之大，仿佛下一秒就会滑落，却又被时光牢牢地焊接在了木屋之上。阳光照在上面，不是反射，而是被吸',
+}
+
+export default function SpluegenVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '格劳宾登州', href: '/destinations/europe' },
+            { label: '施普吕根', href: '/attractions/spluegen-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`施普吕根・Splügen・瑞士・格劳宾登州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在最后一个弯道转过来时，施普吕根就像一本突然在你面前打开的、厚重而古老的立体书。第一眼抓住你的，不是色彩，而是质感与重量。那些深灰色的、巨大的石板屋顶，一块压着一块，层层叠叠地从陡峭的山坡上倾斜下来，坡度之大，仿佛下一秒就会滑落，却又被时光牢牢地焊接在了木屋之上。阳光照在上面，不是反射，而是被吸收，泛出一种湿润的、金属般的光泽，像是巨鲸的背脊。整个村庄没有鲜艳的颜色，只有木头经年累月后的深褐，石板被风雨侵蚀的灰黑，以及窗台上天竺葵那一点点倔强的猩红。
+紧接着，你的耳朵会捕捉到这里的“背景音”。那不是城市的喧嚣，而是山谷深处传来的、永不停歇的溪流白噪音，混合着偶尔几声清脆的牛铃，叮叮当当，从遥远的草坡上被风捎过来。空气是清冽的，带着高山特有的、负离子饱满的甜味，仔细嗅，还能分辨出老木头散发出的淡淡松脂香，从某户人家烟囱里飘出的干燥木柴烟味，以及晾晒在巨大阳台上的亚麻床单所携带的阳光与青草气息。村子静极了，但这种静是充满生命力的静。你会看到一位裹着头巾的老妇人，正不疾不徐地将沉甸甸的羊毛毯子搭在木栏杆上；一个孩子从迷宫般的阳台走廊里跑过，脚下的木板发出有节奏的、空洞的咚咚声。
+这就是施普吕根最打动人的地方——它不是一个被圈起来的景点，而是一个仍在呼吸、仍在生活的器官。那些令人惊叹的“瓦尔瑟”建筑，不是为了取悦游客而存在的样板，而是数百年来人们为了对抗长达数月的深雪、利用每一寸空间储存干草与粮食、并让家人在逼仄的山地中拥有最大生活面积而进化出的生存智慧结晶。巨大的屋顶是为了滑落积雪，狭窄却绵长的阳台是为了在冬日也能晾晒衣物、进行手工劳作。你走在其中，能真切地感受到一种人与环境激烈谈判后达成的、充满尊严的和解。它不是精致的，甚至有些粗粝，但每一道木纹、每一块石板，都记录着真实的、热气腾腾的生活。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在最后一个弯道转过来时，施普吕根就像一本突然在你面前打开的、厚重而古老的立体书。第一眼抓住你的，不是色彩，而是质感与重量。那些深灰色的、巨大的石板屋顶，一块压着一块，层层叠叠地从陡峭的山坡上倾斜下来，坡度之大，仿佛下一秒就会滑落，却又被时光牢牢地焊接在了木屋之上。阳光照在上面，不是反射，而是被吸收，泛出一种湿润的、金属般的光泽，像是巨鲸的背脊。整个村庄没有鲜艳的颜色，只有木头经年累月后的深褐，石板被风雨侵蚀的灰黑，以及窗台上天竺葵那一点点倔强的猩红。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "紧接着，你的耳朵会捕捉到这里的“背景音”。那不是城市的喧嚣，而是山谷深处传来的、永不停歇的溪流白噪音，混合着偶尔几声清脆的牛铃，叮叮当当，从遥远的草坡上被风捎过来。空气是清冽的，带着高山特有的、负离子饱满的甜味，仔细嗅，还能分辨出老木头散发出的淡淡松脂香，从某户人家烟囱里飘出的干燥木柴烟味，以及晾晒在巨大阳台上的亚麻床单所携带的阳光与青草气息。村子静极了，但这种静是充满生命力的静。你会看到一位裹着头巾的老妇人，正不疾不徐地将沉甸甸的羊毛毯子搭在木栏杆上；一个孩子从迷宫般的阳台走廊里跑过，脚下的木板发出有节奏的、空洞的咚咚声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是施普吕根最打动人的地方——它不是一个被圈起来的景点，而是一个仍在呼吸、仍在生活的器官。那些令人惊叹的“瓦尔瑟”建筑，不是为了取悦游客而存在的样板，而是数百年来人们为了对抗长达数月的深雪、利用每一寸空间储存干草与粮食、并让家人在逼仄的山地中拥有最大生活面积而进化出的生存智慧结晶。巨大的屋顶是为了滑落积雪，狭窄却绵长的阳台是为了在冬日也能晾晒衣物、进行手工劳作。你走在其中，能真切地感受到一种人与环境激烈谈判后达成的、充满尊严的和解。它不是精致的，甚至有些粗粝，但每一道木纹、每一块石板，都记录着真实的、热气腾腾的生活。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`施普吕根`} />
+                <InfoRow label="英文名称" value={`Splügen`} />
+                <InfoRow label="正式名称" value={`Splügen`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`格劳宾登州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`作为穿越阿尔卑斯山的关键隘口之一，施普吕根是连接北欧与南欧、莱茵河流域与波河平原千年商道的咽喉与驿站。`} />
+                <InfoRow label="建筑特色" value={`以“瓦尔瑟”风格为代表，最震撼的是其巨大、厚重、倾斜度惊人的深灰色石板屋顶，以及层层叠叠、如同蜂巢般紧密排列的狭窄木制阳台与走廊。`} />
+                <InfoRow label="建筑风格" value={`阿尔卑斯山瓦尔瑟传统民居建筑。`} />
+                <InfoRow label="文化价值" value={`一个将功能性建筑美学、严酷山地生存智慧与跨区域商贸历史完美融合的活态文化标本。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`村庄本身全天可自由漫步。主要的民居博物馆、游客信息中心和部分历史建筑内部开放时间通常为每年六月至九月的上午10点至下午5点，冬季（十二月到三月）可能只在周末或预约开放。具体开放日建议出行前查询当地旅游局网站，因为高山气候和当地节庆（如丰收节、圣诞市集）会影响安排。`} />
+              <InfoRow label="门票价格" value={`进入施普吕根村庄免费。参观核心的“施普吕根之屋”民居博物馆门票约为8瑞士法郎（约合7欧元），持瑞士旅行通票可享受折扣。村内有时组织的向导徒步游价格在25-35瑞士法郎之间，需提前在游客中心预订。`} />
+              <InfoRow label="地址" value={`Via Alps 112, 7435 Splügen, Switzerland`} />
+              <InfoRow label="交通方式" value={`从苏黎世机场出发，乘坐火车是最佳选择。先搭乘火车前往库尔（Chur），车程约1.5小时，班次频繁。在库尔换乘前往施库尔（Scuol）或圣莫里茨方向的地区列车，在“Thusis”站下车，车程约40分钟。最后在Thusis火车站前的公交站换乘邮政巴士（PostBus）511路，方向“Splügen”，约50分钟即可直达村庄中心。巴士班次每小时1-2班，沿途风景绝美，强烈建议坐在右侧。可使用瑞士旅行通票全程覆盖。自驾则沿A13/E43高速在“Thusis”出口下，随后转入蜿蜒但路况良好的山道，约40分钟车程。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解施普吕根，你必须先忘记现代的公路和隧道，把你的想象拉回到车轮还是木头做的、货物全靠骡马驮运的年代。这里的故事，始于一条路——施普吕根隘口。早在罗马时代，这条连接今日瑞士库尔地区和意大利基亚文纳的山路就已存在雏形，但真正让它登上历史舞台的，是中世纪后期。当圣哥达等更著名的隘口因各种原因通行不畅时，商人们便把目光投向了这里。想象一下这样的画面：长长的骡马商队，驮着来自北方的毛皮、金属、奶酪，南方的丝绸、香料、葡萄酒，在夏秋短暂的通行季里，冒着坠崖的风险，艰难地翻越海拔两千多米的山口。而施普吕根，就是他们翻越天险前后，必须停靠的“服务站”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，财富随着商队的铃铛声，叮叮当当地流入了这个高山村落。从17世纪到19世纪初，是施普吕根的“黄金时代”。那些我们今天看到的、宛如堡垒般坚固的石木建筑，大多在这个时期兴建或大规模改建。当地的家族因为经营客栈、货物仓储、骡马租赁和向导服务而积累了可观的财富。他们把钱都“盖”在了房子上，但不是为了炫富，而是为了实用与防御。巨大的石板屋顶下，是巨大的储物空间，可以囤积足够全家和牲畜度过漫长寒冬的粮草。房屋的外墙底层用巨石砌成，坚固无比，既能抵御风雪，也能在动荡年代防范匪徒。木制的阳台和走廊系统，像血管一样将建筑内部复杂地连接起来，确保在深及屋顶的大雪封门时，家人依然能在建筑内部自由走动，照料牲畜，进行日常活动。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史的转折点出现在19世纪。1818-1823年，一条更适合车辆通行的现代化隘口公路修建完成，这曾给施普吕根带来了最后的辉煌。但好景不长，随着19世纪末和20世纪铁路网，特别是阿尔布拉铁路和圣哥达铁路隧道的开通，这条古老的商道迅速没落。施普吕根仿佛被按下了暂停键，从繁忙的交通枢纽，变回了寂静的高山农业村。塞翁失马，焉知非福。也正是因为这种“被遗忘”，施普吕根奇迹般地躲过了20世纪大规模现代化改造的浪潮。当山下的城镇纷纷用水泥和玻璃改造自己的面貌时，施普吕根那些“过时”的瓦尔瑟老屋，却得以完整保存。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二次世界大战期间，这里因为地处要冲，再次成为军事关注的焦点，但并未遭受破坏。战后，随着文化遗产保护意识的觉醒，人们重新发现了这个“活化石”的价值。村民们没有选择搬空老屋、将其变成纯粹的博物馆，而是继续居住其中，小心翼翼地用传统工艺进行维护。今天，你看到的烟囱里冒出的炊烟，窗台上晾晒的衣物，都是这种“活态保护”最动人的证明。施普吕根的历史，不是写在教科书里的，而是镌刻在每一块被鞋底磨亮的门槛石上，回荡在每一条幽深的、充满干草气味的走廊里。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`想要真正品味施普吕根，请至少留出一整天的时间。建议在上午十点前抵达，这时旅行团还未涌入，阳光刚好照亮村庄东侧的建筑立面，是拍照和静静感受的黄金时段。整体游览节奏宜慢不宜快，核心在于“漫步”与“观察”。上午先用2-3小时在村庄中心区域细细探索建筑细节和博物馆，中午找一家传统餐馆享用高山午餐。下午则进行一场轻度徒步，要么沿着历史商道向隘口方向走一段，要么爬上村子对面的山坡，从高处俯瞰全景。这样的安排既能深入文化肌理，又能从自然视角领略其地理位置的险要，动静结合，方得精髓。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`村子里的石板路和坡道在雨后或融雪时非常湿滑，务必穿一双防滑性能好的徒步鞋或健行鞋。
+尊重当地居民的隐私，那些漂亮的木阳台很多直接连通住家卧室，拍照时请尽量避免将镜头对准窗户或私人生活区域。
+高山天气变化极快，即使夏季也要随身携带一件防风防雨的外套和保暖中层。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从村口的古老石制喷泉开始，用手感受一下冰凉的山水，听听水流溅落在石槽里的清脆声响，这是村庄百年不变的生命律动。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着主街“Via Alps”缓步向上，让你的视线沿着那些巨大石板屋顶的倾斜线条游走，仔细观察屋顶石板如何像鳞片一样紧密交叠。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`随意拐进一条窄巷，凑近观察一座典型瓦尔瑟民居的木制阳台，看那被岁月染成深黑色的木板、精巧的榫卯结构，以及阳台上可能还摆放着的旧陶罐或小木凳。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走进“施普吕根之屋”民居博物馆，亲手触摸那些巨大的木制粮仓立柱，想象一下冬日里整个家族围绕火炉的生活场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从村庄西侧的小路向上徒步约15分钟，直到能回望整个村庄全景的地方，看那些层叠的屋顶如何与背后的险峻山体融为一体。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一段保存完好的古老骡马道石板路，赤脚或用手抚摸一下那些被无数马蹄和脚步磨得光滑甚至凹陷的石块，这是最直接的历史触感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在下午的暖阳里，寻一处村中小广场的木凳坐下，什么都不做，就看光影在石板墙上缓慢移动，听本地老人用古老的罗曼什语闲聊。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分，如果住在村里，务必在炊烟升起时再次出门散步，那时空气中混合着木柴烟和饭菜香，窗户里透出温暖的灯光，村庄会展现出它最温柔的一面。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`隘口公路俯瞰点`}</h4>
+                  <p className="text-sm text-gray-700">{`从村庄往施普吕根隘口方向开车或步行约3公里处有一个宽阔的转弯平台，在日落前一小时，利用侧光可以拍到整个村庄被巨大山体环抱、屋顶泛着金光的壮阔全景，长焦镜头能压缩空间，突出建筑的密集感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`清晨主街光影巷`}</h4>
+                  <p className="text-sm text-gray-700">{`太阳初升时，走到主街东侧的小巷里，等待阳光穿过两栋高耸木屋的缝隙，形成一道道光柱打在对面建筑古老木墙板的纹理上，这是捕捉光影戏剧性和建筑质感的绝佳时刻。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“Haus Galli”建筑侧面`}</h4>
+                  <p className="text-sm text-gray-700">{`这座拥有超长木制阳台的经典建筑，在下午三点左右的斜射光下，其阳台复杂的木栏杆会在地上投下长长的、交错的阴影，构图时可以将阴影作为引导线，聚焦阳台一角悬挂的鲜花或传统装饰。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`古老石板桥与溪流`}</h4>
+                  <p className="text-sm text-gray-700">{`在村庄下方的后雷河畔，以古老的石拱桥为前景，溪流为中景，层叠的村庄建筑为背景，使用慢门拍摄溪流雾化的效果，能营造出动静结合、古今交融的诗意画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`民居博物馆内部细节`}</h4>
+                  <p className="text-sm text-gray-700">{`在博物馆内，寻找从狭小窗口射入的光束，照亮室内某个古老的物件，如一个雕花的黄油模具、一个生锈的马蹄铁或一本翻开的旧账本，用大光圈特写拍摄，讲述细微之处的历史故事。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`建议携带一个偏振镜（CPL），可以有效消除石板屋顶和湿木头表面的反光，让色彩更加饱和深沉，天空的蓝色也更突出。`}</li>
+                <li>• {`冬季拍摄雪景时，注意相机的保暖和电池消耗，同时要增加曝光补偿以避免雪景发灰。雪后初晴的蓝色时刻，村庄的灯光与深蓝色天空对比，氛围感绝佳。`}</li>
+                <li>• {`使用无人机前务必查询当地法规，村庄部分区域可能属于禁飞区，且飞行时请务必远离民居，尊重居民安宁。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`高山家园体验`}</h4>
+                  <p className="text-sm text-blue-800">{`住在由世代家族经营的“Gasthof Bodenhaus”客栈，房间保留了原木的温暖质感，晚上在古老的餐厅壁炉边，主人会为你讲述隘口的鬼怪传说，早餐是自家蜂场的蜂蜜和农场奶酪。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`设计感山居`}</h4>
+                  <p className="text-sm text-green-800">{`位于村庄高处的“Splügen Suite”，由老谷仓改造而成，室内是极简的北欧风与粗犷的木梁结合，巨大的落地窗正对山谷和星空，配有地暖，是现代舒适与古老灵魂的对话。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`经济徒步者之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`村口的“Jugendherberge Splügen”青年旅舍，干净明亮，共用厨房设施齐全，是背包客和徒步者的社交中心，从这里出发探索周边徒步网络极其方便，晚上能在露台结识世界各地的旅人。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`奢华隐世之选`}</h4>
+                  <p className="text-sm text-purple-800">{`距离村庄车程10分钟、位于静谧山坳中的“Hotel Schlosshotel”，由一座古老庄园改建，房间宽敞奢华，水疗中心直面雪山，提供从直升机观光到私人向导徒步的一站式高端服务，是犒赏自己的完美选择。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "施普吕根本身非常迷你，住宿选择有限，尤其在夏季徒步旺季和冬季滑雪季（附近有小型滑雪场），务必提前数月预订。村庄治安极好，几乎夜不闭户，但高山环境要求你对天气变化保持敏感。住在村里，才能真正体验“当最后一班邮政巴士离开，整个山谷都属于你”的宁静。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开施普吕根很久以后，闭上眼睛，脑海里最清晰的不是某一张明信片般的风景，而是一种混合的感觉：是手指触碰那些冰凉的、粗糙的石板时的触感；是午后阳光把木阳台晒得暖烘烘的、散发出淡淡松香的气味；是整个村庄在夜幕降临前那种深沉的、被大山守护着的寂静。这个地方教给你的，不是波澜壮阔的历史事件，而是一种沉静而坚韧的生存哲学。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在一切都追求效率、光滑和快速更迭的今天，施普吕根像一位沉默的智者，固执地保留着另一种时间的刻度。它告诉你，美可以来源于最严苛的生存需求，宏伟可以隐藏在看似笨拙的粗粝之中，而真正的永恒，恰恰在于与自然周期的和谐共舞，在于日复一日、代复一代的持续使用与细心维护。它不是一座用来“参观”的博物馆，而是一个依然在“生活”的古老机体。对于每一位渴望深度游的旅人来说，来这里，不仅仅是为了看一片风景，更是为了进行一次时间的冥想，触摸一种即将消逝的、人类与山地共存的智慧与尊严。在这个意义上，施普吕根不是目的地，而是一面镜子，让我们照见自己来时的路，与可能选择的未来。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/lunigo-roman-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卢
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卢尼古罗马遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Roman Ruins of Lunnigo</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/rolle-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    罗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">罗尔城堡（罗尔镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Rolle (Town of Rolle)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/spiez-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施皮茨城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spiez Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

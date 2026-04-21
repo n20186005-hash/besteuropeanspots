@@ -1,0 +1,158 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '扎戈里历史溯源｜帕皮戈石屋村，隐匿于希腊深山的史诗与牧羊人传奇',
+  description: '在希腊扎戈里心脏，帕皮戈不是景点，而是一部刻在石头上的史诗。走进奥斯曼时期的避难所，聆听关于巨人、草药师与鹰鹫之王的尘封往事。',
+}
+
+export default function PapigoVillagesHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '伊庇鲁斯', href: '/destinations/europe' },
+            { label: '帕皮戈', href: '/attractions/papigo-villages-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`帕皮戈・Papigo・希腊・伊庇鲁斯`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在希腊西北部嶙峋的扎戈里山区，时间以石头的形态凝固。这里没有蔚蓝海岸的喧嚣，只有<strong>帕皮戈</strong>——一组悬于绝壁、俯瞰深谷的灰色石屋村落，像鹰巢般紧紧依附在<strong>蒂米菲山</strong>的褶皱里。它并非为游客而生，它的存在本身，就是一部关于生存、信仰与隐秘历史的立体文献。抛开游玩攻略，走进帕皮戈的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`帕皮戈`} />
+                <InfoRow label="英文名称" value={`Papigo`} />
+                <InfoRow label="正式名称" value={`Papigo`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`伊庇鲁斯`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "帕皮戈的诞生，源于一个最原始的需求：<strong>隐匿与生存</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它没有确切的“建城日”。其历史脉络深植于<strong>奥斯曼帝国</strong>统治希腊的漫长阴影期（约15世纪-19世纪）。当平原与海岸被征服者控制，一群不甘屈服的<strong>伊庇鲁斯山民</strong>开始向最险峻、最难以抵达的山区撤退。他们选中了<strong>维科斯峡谷</strong>边缘这片几乎垂直的崖壁。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我们向上走，直到岩石成为墙壁，云雾成为邻居。这里，苏丹的骑兵上不来。” —— 当地口述历史中的古老谚语" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "“帕皮戈”这个名字，其词源已漫漶不清。一种流传最广的解释，指向弗拉赫人（游牧的瓦拉几亚人）的古老语言，意为 <strong>“泉水之地”</strong> 或 <strong>“松树之地”</strong> 。这精准描述了它的环境：村庄背靠的绝壁中，有终年不涸的泉水渗出，而周围的山坡上曾遍布黑松林。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初的石屋，纯粹是功能性的堡垒兼家园。厚重的石板取自山体本身，无需灰泥，仅凭精准的堆叠艺术便屹立数百年。窗户窄小如箭孔，门楣低矮，所有建筑都背对主导风，相互簇拥，共享墙壁，形成一个抵御严冬与入侵的<strong>有机整体</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里从未发展成城镇，它从起源就是一处<strong>高山避难所</strong>，一个自给自足的微型世界。它的冷门，正源于这份刻意为之的、与世隔绝的“隐士”基因。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "帕皮戈的历史，并非由轰轰烈烈的王朝更迭书写，而是由<strong>季节的轮回、牧群的迁徙和社区的无声坚韧</strong>镌刻而成。它的印记，留在石头的纹理和集体记忆的深处。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一个核心印记：奥斯曼时期的“隐形”生活（15-19世纪）</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在近四百年的奥斯曼统治下，帕皮戈成为<strong>东正教信仰</strong>与<strong>希腊语言</strong>的隐秘庇护所。表面臣服，实则保持着高度的文化自治。村庄高处的<strong>圣职者教堂</strong>，其建造年代已不可考，但无疑是那段时期的精神中心。没有宏伟的穹顶，它低伏于地，与石屋浑然一体，内部却藏着精美的后拜占庭风格木雕圣像屏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里的经济命脉是<strong>牧羊业</strong>。男人们驱使羊群在夏季前往更高的高原牧场，秋季再返回。这条牧道，也是一条秘密的通讯和补给线。帕皮戈的石头，见证了山民如何利用复杂地形，维持着一个几乎“隐形”的独立社会网络。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二个印记：19世纪末的“定格”与联结</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "19世纪希腊独立后，帕皮戈并未迎来扩张，反而因为外部世界的吸引力（尤其是<strong>1898年</strong>修建的、连接约阿尼纳与海滨的道路）而面临人口流失。然而，讽刺的是，正是这份“停滞”，使它得以完整保留传统面貌。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "同时，一条著名的<strong>徒步小径</strong>被系统化：连接大、小帕皮戈两村及周边山区的石阶网络。这些由一代代村民肩扛手凿铺就的阶梯，是村庄的血管，也是它最终被外界“发现”的纽带。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第三个印记：从“被遗忘”到“被凝视”的转折（20世纪中后期）</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>20世纪50-70年代</strong>，是现代希腊城市化浪潮最汹涌的时期。帕皮戈几乎成为空村，只剩最年长者看守着石头家园。转机出现在<strong>70年代末</strong>，随着欧洲徒步探险风潮的兴起，以及人们对“失落传统”的怀旧，第一批探险家和文化学者叩响了它的石门。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们看到的不是废墟，而是一个保存完好的、前工业时代人类聚落的<strong>活化石</strong>。帕皮戈没有经历“现代化改造”，反而因其彻底的“过时”而获得了无可替代的历史价值。这标志着它从纯粹的生活场所，开始向一个<strong>文化遗产符号</strong>转变。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "帕皮戈的传奇，不属于征服四方的帝王，而属于读懂大山脉搏的凡人。这里走出的人物，他们的故事与岩石、草药和飞鸟紧密相连。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>传奇一：“鹰鹫之王”季米特里奥斯·“米塔拉斯”·拉波斯</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "若要为帕皮戈选一位守护神，那必定是<strong>季米特里奥斯·拉波斯</strong>，更多人叫他 <strong>“米塔拉斯”</strong> （意为“兀鹫”）。他生于<strong>1910年</strong>，逝于<strong>2004年</strong>，几乎与整个动荡的20世纪同步。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他并非学者或艺术家，而是一位<strong>牧羊人、猎人和草药师</strong>。他的传奇，在于他对<strong>维科斯峡谷</strong>及周边山区无与伦比的熟悉。他是最后一代完全依循古老方式生活的人，能仅凭风向和云彩预测天气，熟知每一条隐秘的兽径和每一处可饮用的山泉。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“山不是用来征服的，而是用来对话的。你安静地坐在岩石上，风会告诉你故事，鹰会指出道路。” —— 米塔拉斯晚年对访客的讲述" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的“王國”是天空。他与栖息在峡谷绝壁上的<strong>髭兀鹰</strong>（一种巨型猛禽）建立了近乎神话的联系。传说他能用特殊的口哨声呼唤它们，并理解它们的飞行轨迹所预示的吉凶。欧洲的生物学家和登山家在<strong>1970-1990年代</strong>陆续前来，不为观光，只为在米特拉斯的带领下，进入常人无法抵达的峡谷深处进行研究。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他终生住在祖传的石屋里，拒绝现代化设施。他的存在本身，就是帕皮戈古老生活方式的<strong>活体丰碑</strong>。他去世后，村里人说：“最后一位真正懂这座山的人走了。” 如今，当地一些最好的徒步向导，都是他的徒子徒孙。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>传奇二：“植物猎人”与隐士奥古斯丁·亨利博士（旅居者）</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "与本土的米塔拉斯不同，<strong>奥古斯丁·亨利</strong>是一位来自远方的“归人”。这位<strong>爱尔兰</strong>籍的植物学家与医生，在第一次世界大战后身心俱疲，于<strong>20世纪20年代</strong>偶然流浪至帕皮戈。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他被这里与世隔绝的宁静和丰富的<strong>高山植物群</strong>深深吸引，决定长居。他租下一间废弃石屋，过起了半隐居的生活。亨利博士的系统性研究，首次向西方科学界详细记录了扎戈里地区数百种特有植物的分布与特性，其中多种植物后来以他的名字命名。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，他更重要的贡献在于人文。他用相机和日记，详尽记录了<strong>1920-1930年代</strong>帕皮戈村民的日常生活、节日仪式、建筑细节和口头传说。这些资料在当时的希腊本土都属罕见，成为了解那个转型期山村社会的<strong>无价文献</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1935年</strong>，他因健康原因离开，但将大部分收藏赠予村庄。他的石屋旧址，虽不对外开放，但仍是老村民口中“那个安静的爱尔兰人”的纪念。他是一个外部世界对帕皮戈的<strong>深情凝视</strong>，证明了这片土地的吸引力足以让一个饱经沧桑的学者找到心灵的故土。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在帕皮戈，自然景观从来不只是风景，而是充满神性的叙事者。最动人的传说，围绕着村庄面前那令人望而生畏的<strong>维科斯峡谷</strong>和村旁宛如被巨斧劈开的<strong>“悬崖浴池”</strong> 。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于峡谷的形成，当地流传着一个巨人国王的故事。传说在远古时代，一位名叫<strong>阿斯特拉</strong>的巨人国王统治着这片山区。他力大无穷却性格暴戾。为了向众神炫耀力量，他决定用脚踩出一条世界上最深的沟壑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他猛踩地面，大地裂开，形成了维科斯峡谷的雏形。飞溅的碎石落在了今天的帕皮戈，成为了村民建造房屋的基石。而峡谷中那条蜿蜒的<strong>沃伊多马蒂斯河</strong>，则是阿斯特拉汗水汇成的溪流。最终，他的傲慢触怒了宙斯，被化为峡谷尽头的一座山峰，永远守卫（也囚禁于）自己的“作品”之中。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“看那峡谷的岩壁，像不像巨人的指痕？听那谷底的风声，是不是他沉睡的鼾声？” —— 老牧羊人在火塘边讲述的故事" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而大帕皮戈村旁那处著名的自然奇观——<strong>“悬崖浴池”</strong>，实为冰川侵蚀形成的岩石凹槽与清澈水潭。传说则赋予了它浪漫色彩：这是山林仙女<strong>德莉亚</strong>的沐浴之地。她爱上了一位英俊的牧羊人，每晚在此沐浴，用歌声吸引他前来相会。他们的爱情不被神族允许，最终，宙斯将牧羊人化为村后的一棵千年老橡树，而德莉亚的泪水则填满了这个浴池，泉水从此常年不涸，冰冷彻骨，据说能洗涤心灵的忧伤。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些传说，将帕皮戈严酷的自然环境<strong>人格化、神性化</strong>，解释了先民为何选择在此定居——他们相信自己生活在神话现场，被巨人、仙女和古老的力量所环绕与保护。每一块石头，每一处水源，都有了生命和故事。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当旅行者气喘吁吁地攀上最后一级石阶，站在帕皮戈的广场上，他所看到的，远不止是“美丽的传统村落”或“徒步起点”。他站在一个<strong>历史的断层上</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "眼前的石屋群，是奥斯曼时期山民抗争与智慧的结晶；脚下的石板路，回荡着牧羊人与“鹰鹫之王”米特拉斯的脚步声；窗台上的野花，或许正是亨利博士当年精心记录过的品种；而远处雷鸣般的峡谷风声，依然在讲述着巨人阿斯特拉的古老传说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "帕皮戈的魅力，不在于它提供了什么现代娱乐，而在于它<strong>拒绝得如此彻底</strong>。它是一部以天空为顶、岩石为页的<strong>开放式史书</strong>。它的价值，在于其完整的生态链：不仅是建筑生态，更是<strong>历史记忆、生产方式和精神世界</strong>的生态。来到这里，你不是在“参观”一个博物馆，而是在<strong>步入一个仍在微弱呼吸的过往时代</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂帕皮戈，便是读懂人类如何以最谦卑又最坚韧的姿态，与极端自然共舞，并在其中捍卫文明的火种。它的每一道石缝，都封存着一段求生、信仰与传承的史诗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、徒步打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/ermoupoli-syros-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃尔穆波利</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ermoupoli</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/paros-panagia-ekatontapiliani" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    帕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕罗斯岛百门教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Panagia Ekatontapiliani</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/stone-labyrinth-ghost-bay" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巨石迷宫与幽灵海湾</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Stone Labyrinth & Ghost Bay</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

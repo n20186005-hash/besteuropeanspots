@@ -1,0 +1,156 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '班什历史溯源｜城墙与狂欢节下的前世今生，遇见欧洲小众活态遗产',
+  description: '探寻比利时班什：一座被完整中世纪城墙包裹的“活着的狂欢节博物馆”。走进“吉勒”面具下的百年传奇，聆听城墙诉说的战争、财富与疯狂。',
+}
+
+export default function BincheBelgiumHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '埃诺省', href: '/destinations/europe' },
+            { label: '班什', href: '/attractions/binche-belgium-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`班什・Binche・比利时・埃诺省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在比利时瓦隆尼亚平原上，有一座小镇，仿佛被时光遗忘在中世纪。它不是布鲁日那样的浪漫水城，也不是布鲁塞尔那样的欧洲心脏。它的独一无二，在于两样东西：一圈令人惊叹的、保存完好的<strong>中世纪城墙</strong>，以及一个被联合国教科文组织列入名录、堪称“欧洲最古老狂欢节”之一的<strong>“吉勒”狂欢节</strong>。这里的历史不是沉默的石头，而是每年二月在街道上狂奔、跳跃的鲜活灵魂。抛开游玩攻略，走进班什的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`班什`} />
+                <InfoRow label="英文名称" value={`Binche`} />
+                <InfoRow label="正式名称" value={`Binche`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`埃诺省`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "班什的源头，深埋在墨洛温王朝早期的迷雾之中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于其名字的由来，语言学家们有两种有趣的推测。一种说法认为，“Binche”源自拉丁语“<em>bini</em>”，意为“两个”或“一对”，可能指代当地的两座早期山丘据点。另一种更生动的理论则将其与日耳曼语系的“<em>binca</em>”联系起来，意为“防御工事”或“栅栏”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这后一种解释，恰好预言了这座小城未来的命运——它天生就是一座要塞。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初的定居点建立在一条名为“特里尼”的小溪旁的石灰岩山脊上，这片高地易守难攻，俯瞰着周边的农田。考古证据显示，早在公元七世纪，这里已有重要活动。然而，真正让班什从村庄走向城镇的，是<strong>12世纪</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当时，统治埃诺地区的伯爵们看中了这里的战略位置。他们开始在此修建坚固的城堡和防御工事，作为伯爵领地东南边境的重要支点。城市雏形，围绕着城堡的“上城区”慢慢生长开来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "到了<strong>14世纪</strong>，随着纺织业（尤其是优质羊毛贸易）的繁荣，班什迎来了它的第一个黄金时代。财富的积累，使得大规模建造城墙成为可能。这座城，从此被一道坚不可摧的石环所定义。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "当地有句古老的谚语：“上帝创造了平原，班什人创造了山岗。” 这不仅指其地理，更隐喻了班什人通过坚韧与智慧，在历史中为自己构筑了不可撼动的地位。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "班什的历史，是一部围绕“城墙”与“节庆”展开的双重叙事。它的荣耀与创伤，都刻在了这两者之上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "首先，是那道<strong>城墙</strong>。它始建于14世纪中叶，历经扩建与加固，最终在16世纪形成了我们今天看到的宏伟规模。全长约两公里，拥有27座塔楼和数座气势磅礴的城门。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这道墙见证了太多。在英法<strong>百年战争</strong>的动荡岁月里，它保护了城内的居民与财富。然而，真正的毁灭性打击来自<strong>1554年</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当时，班什是哈布斯堡王朝在欧洲的明珠之一。但法国国王亨利二世为报复查理五世，派遣军队血洗埃诺地区。法军攻破了城墙，将这座富庶的小城付之一炬。城堡、市政厅、教堂和大部分民居化为废墟。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这场“班什之火”，几乎抹去了它中世纪的辉煌。我们今天看到的许多建筑，都是大火后在文艺复兴风格下重建的。但奇迹的是，城墙的主体结构幸存了下来，如同一位伤痕累累却屹立不倒的巨人，继续守护着这座城。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而另一个镌刻在时间中的印记，就是<strong>狂欢节</strong>。它的鼎盛，恰恰与城墙的辉煌时代重合。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1549年</strong>，是班什历史上最为闪亮的一年。统治此地的<strong>玛丽·德·匈牙利</strong>——神圣罗马帝国皇帝查理五世的妹妹，为了迎接她的侄儿、未来的西班牙国王腓力二世，举办了一场空前绝后的盛大庆典。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这场持续数日的盛宴，极尽奢华之能事。骑士比武、古典戏剧、神话游行、焰火表演……来自欧洲各地的贵族云集于此。历史学家普遍认为，正是这场为王室举办的盛典，极大地塑造并提升了当地传统狂欢节的规格与形式，将“吉勒”这个核心形象，推向了仪式化的巅峰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城墙防御着现实，狂欢节则宣泄着精神。一动一静，构成了班什历史的筋骨与血脉。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解班什的灵魂，有两位人物无法绕过：一位是赋予它荣耀的宫廷贵胄，另一位则是守护它灵魂的普通神父。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一位，无疑是<strong>玛丽·德·匈牙利</strong>（1505-1558）。她不仅是西班牙国王，更是<strong>尼德兰总督</strong>，一位在男性主导的政治世界中展现出非凡魄力的女性统治者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "玛丽与班什的羁绊极深。她将班什城堡选为自己的主要居所之一，并投入巨资将其改建为一座宏伟的文艺复兴式宫殿，被誉为“低地国家的枫丹白露”。她对这座小城的偏爱，让其在16世纪中叶一度成为哈布斯堡王朝在尼德兰的非正式政治与文化中心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，玛丽对班什最不朽的贡献，并非建筑，而是节庆。上文提到的<strong>1549年</strong>那场盛典，便是她一手策划。历史记载显示，她事无巨细地亲自督导筹备工作。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "在一封保存下来的信件中，她写道：“这里的狂欢节传统（<em>les festes de Binche</em>）必须成为典范，要让所有人都看到我们土地的欢乐与忠诚。” 她或许未曾想到，这场为政治宣传服务的盛宴，竟成了传统民俗的催化剂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "正是通过这次“国家级”的展示，“吉勒”游行中那些昂首阔步、身穿绣有纹章华服、向人群投掷橘子的形象被固定下来。玛丽的身影早已消散，但每年二月，狂欢节上那些气宇轩昂的“吉勒”，依然折射着五百年前那个宫廷的辉煌倒影。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位传奇，则平凡得多，也神秘得多。他被称为“班什的隐士”——<strong>帕特里斯神父</strong>（Père Patrice， 1871-1943）。他并非声名显赫的伟人，却是20世纪上半叶小镇集体记忆的核心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "帕特里斯神父是一位加尔默罗会修士，大部分时间都生活在班什城墙附近的一座简陋修道院里。他以其极端的简朴、深邃的智慧和据说能治愈疾病、预知未来的“天赋”而闻名。无数当地人，无论贫富，都会去他的小屋寻求建议或慰藉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的传奇，在于他与<strong>狂欢节</strong>的深刻联系。人们相信，他对“吉勒”的精神内涵有着超乎常人的理解。在两次世界大战之间的动荡岁月里，尤其是在二战德军占领时期，他成为了当地人精神抵抗与内心希望的象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "有一种说法是，他预言了狂欢节传统的永恒不息，即便在最黑暗的年代。他本人也成了狂欢节民间传说的一部分。对于班什人来说，玛丽女总督赋予了狂欢节“形”，而帕特里斯神父则守护了它的“魂”。一位连接着宫廷与历史，另一位则扎根于泥土与信仰。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在班什，历史与传说往往交织在一起，分不清界限。最著名的传说，就关于那场赋予狂欢节意义的<strong>1549年</strong>盛宴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "相传，在那次为腓力王子举办的庆典上，来自“异域”的表演者（一说为印加人，受哥伦布发现新大陆的影响）穿着绚丽的羽毛服装，跳着狂野的舞蹈，给当地人留下了不可磨灭的印象。庆典结束后，班什的年轻人模仿这些舞者的装扮，用本地材料——粗麻布衣和蜡环装饰，创造了最初的“吉勒”形象。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "那标志性的<strong>鸵鸟羽毛帽冠</strong>，据说就源于此。而向人群投掷橘子的传统，则被解释为是在模仿这些“异域来客”向王室成员抛掷珍贵水果（如金橘）的举动。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "老人们会在酒馆里低声讲述：“我们的吉勒，跳的不是法国的舞，也不是西班牙的舞，他跳的是从世界尽头带回来的、太阳的舞蹈。” 这个传说，为狂欢节披上了一层哥伦布大航海时代的浪漫冒险色彩。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个更接地气的传说，则关乎城墙的建造。故事说，当年修建城墙时，资金一度短缺。一位富有的啤酒酿造商挺身而出，捐出了巨额资金，条件是允许他在城墙的某一处秘密修建一条管道，能将他的啤酒直接输送到城外的仓库，以避税。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，工人们在建造时，真的在某段城墙内部预留了通道。这个传说被称为“<strong>啤酒墙</strong>”轶事。虽然无从考证，但它生动地反映了中世纪城市行会的势力、商人的智慧，以及班什与啤酒酿造业悠久的历史联系。走在城墙下，人们或许会会心一笑，猜想哪块石头后面，曾流淌过金色的酒液。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日的班什，依然生活在它自己创造的时空节律里。它是一座<strong>活态历史的罕见典范</strong>。城墙不再是军事防御的必需品，但它界定着城市的轮廓，也界定着居民的身份认同——我们是“城墙内的人”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而狂欢节，更是一场年复一年的<strong>历史重演与情感宣泄</strong>。当数百名“吉勒”踏着铿锵的鼓点，踩着千篇一律却又充满力量的舞步穿过古老的街巷时，他们不仅仅是在庆祝。他们是在召唤1549年的幽灵，是在纪念玛丽女总督的遗产，也是在延续帕特里斯神父所代表的、平凡人的坚韧精神。那投掷出的橘子，是分享，也是抵抗庸常生活的快乐武器。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂班什，便是读懂一种欧洲小镇如何将自己的创伤（大火、战争）与荣耀（宫廷庆典）全部融入一个持续数百年的民间仪式中，并以此作为生存与认同的核心。这里没有宏大的战争叙事，只有一圈石头，一群戴面具的人，和一种代代相传的、近乎执拗的快乐。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史在这里不是博物馆的展柜，而是每年二月街道上飞扬的羽毛与橘香。它邀请每一位访客，去触摸石墙的冰凉，去感受鼓点的震颤，然后明白：有些传统，本身就是最深刻的历史文献。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？如何抵达、最佳观赏狂欢节的位置、城墙漫步路线及门票信息，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/chateau-de-beloel" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝勒伊城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Belœil</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/binche-medieval-walls-gilles-carnival" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    班
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">班什</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Binche</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/japanese-garden-hasselt" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈瑟尔特日本花园</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Japanese Garden Hasselt</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,242 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '新巴斯坦 Nuevo Baztán｜探秘西班牙罕见的乌托邦工业小镇 - 最佳欧洲景点',
+  description: '车子缓缓驶离马德里喧嚣的公路网，闯入一片被橄榄树和葡萄园覆盖的干燥高原。就在你觉得眼前只有无尽旷野时，一片如同从古典画卷中剪裁下来、却又整齐得不可思议的建筑群突然出现在地平线上。那就是新巴斯坦。我的第一印象是强烈的秩序感与暖色调的碰撞。下午四五点的阳光，锋利地切过网格状的街道，把每一栋用当地金褐色石',
+}
+
+export default function NuevoBaztanPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '马德里自治区', href: '/destinations/europe' },
+            { label: '新巴斯坦', href: '/attractions/nuevo-baztan' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`新巴斯坦・Nuevo Baztán・西班牙・马德里自治区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子缓缓驶离马德里喧嚣的公路网，闯入一片被橄榄树和葡萄园覆盖的干燥高原。就在你觉得眼前只有无尽旷野时，一片如同从古典画卷中剪裁下来、却又整齐得不可思议的建筑群突然出现在地平线上。那就是新巴斯坦。我的第一印象是强烈的秩序感与暖色调的碰撞。下午四五点的阳光，锋利地切过网格状的街道，把每一栋用当地金褐色石灰岩砌成的建筑都染成了蜂蜜色，投下长长的、笔直的阴影。空气里是干燥的尘土味，混合着远处花园隐约飘来的迷迭香和枯草气息。
+这里安静得能听见自己的脚步声在石板路上回响，间或有一两个老人坐在广场长椅上低声交谈，声音被厚重的石墙吸收，显得遥远而模糊。与西班牙其他热气腾腾、充满生活褶皱的老城完全不同，新巴斯坦有一种近乎实验室般的洁净与疏离。它不是自然生长出来的，而是像一个精美的模型，被一双充满理想主义的手，“放置”在这片土地上的。你很快会发现，那看似宫殿的宏伟立面背后，可能是曾经的玻璃作坊或织布车间。巴洛克的华丽装饰不是为了歌颂神权或王权，而是为了给“劳动”和“工业”加冕——这种错位感，正是它最迷人的地方。
+走在它的主广场上，你会感觉到一种微妙的张力。一方面，是巴洛克建筑特有的那种动感曲线、华丽雕花（尽管因为经费问题比真正的宫廷建筑简朴许多）；另一方面，是整个小镇那横平竖直、一丝不苟的街道布局，透露出启蒙时代对理性、效率和秩序的崇拜。这里没有蜿蜒的神秘小巷供你探索，它的美是坦荡的、几何的、充满目的性的。它不像一个家，而更像一个宣言。当地的居民似乎也习惯了这种独特的气质，他们平静地生活在这个“露天博物馆”里，在曾经的工厂拱廊下开设咖啡馆，让历史以一种温柔的方式继续呼吸。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子缓缓驶离马德里喧嚣的公路网，闯入一片被橄榄树和葡萄园覆盖的干燥高原。就在你觉得眼前只有无尽旷野时，一片如同从古典画卷中剪裁下来、却又整齐得不可思议的建筑群突然出现在地平线上。那就是新巴斯坦。我的第一印象是强烈的秩序感与暖色调的碰撞。下午四五点的阳光，锋利地切过网格状的街道，把每一栋用当地金褐色石灰岩砌成的建筑都染成了蜂蜜色，投下长长的、笔直的阴影。空气里是干燥的尘土味，混合着远处花园隐约飘来的迷迭香和枯草气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里安静得能听见自己的脚步声在石板路上回响，间或有一两个老人坐在广场长椅上低声交谈，声音被厚重的石墙吸收，显得遥远而模糊。与西班牙其他热气腾腾、充满生活褶皱的老城完全不同，新巴斯坦有一种近乎实验室般的洁净与疏离。它不是自然生长出来的，而是像一个精美的模型，被一双充满理想主义的手，“放置”在这片土地上的。你很快会发现，那看似宫殿的宏伟立面背后，可能是曾经的玻璃作坊或织布车间。巴洛克的华丽装饰不是为了歌颂神权或王权，而是为了给“劳动”和“工业”加冕——这种错位感，正是它最迷人的地方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走在它的主广场上，你会感觉到一种微妙的张力。一方面，是巴洛克建筑特有的那种动感曲线、华丽雕花（尽管因为经费问题比真正的宫廷建筑简朴许多）；另一方面，是整个小镇那横平竖直、一丝不苟的街道布局，透露出启蒙时代对理性、效率和秩序的崇拜。这里没有蜿蜒的神秘小巷供你探索，它的美是坦荡的、几何的、充满目的性的。它不像一个家，而更像一个宣言。当地的居民似乎也习惯了这种独特的气质，他们平静地生活在这个“露天博物馆”里，在曾经的工厂拱廊下开设咖啡馆，让历史以一种温柔的方式继续呼吸。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`新巴斯坦`} />
+                <InfoRow label="英文名称" value={`Nuevo Baztán`} />
+                <InfoRow label="正式名称" value={`Nuevo Baztán`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`马德里自治区`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`18世纪初西班牙启蒙运动时期一个罕见的、由私人资本与国家意志结合打造的理想工业社区范本。`} />
+                <InfoRow label="建筑特色" value={`将巴洛克风格的宫殿、教堂与功能性工业厂房完美融合在一个严谨的网格状城镇规划中。`} />
+                <InfoRow label="建筑风格" value={`以西班牙巴洛克风格为主，融合了理性主义的城市规划思想，呈现独特的“工业巴洛克”风貌。`} />
+                <InfoRow label="文化价值" value={`它是西班牙早期工业化与社会乌托邦实践的活化石，见证了从传统手工业向现代工业转型的雄心与挫折。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。核心历史建筑群（宫殿-工厂与教堂）的开放时间因季节和修复工程而异，通常为周二至周日上午10:00至下午6:00，周一闭馆（除非是公共假日）。内部博物馆或特定展厅的开放时间可能更短，建议出行前访问马德里自治区官方网站核实最新安排。每年九月小镇会举办盛大的传统节庆，届时所有建筑都会延长开放。`} />
+              <InfoRow label="门票价格" value={`进入小镇及在公共街道漫步完全免费。参观宫殿-工厂建筑（Palacio-Fábrica）及内部的常设展览通常收取象征性费用，约3-5欧元。学生、65岁以上长者及团体可享受折扣，12岁以下儿童免费。特定文化活动和临时展览可能单独收费。`} />
+              <InfoRow label="地址" value={`Plaza de la Iglesia, 1, 28514 Nuevo Baztán, Madrid, Spain`} />
+              <InfoRow label="交通方式" value={`从马德里出发是最便捷的方式。在马德里Avenida de América公交枢纽乘坐261路或251路公共汽车，直达新巴斯坦小镇中心，车程约50-60分钟，班次在工作日较为密集（约每30-60分钟一班），周末班次减少，务必提前查询时刻表。自驾是最灵活的选择，沿A-3高速公路向东，转入M-204或M-219公路，跟随“Nuevo Baztán”路标即可，从马德里市中心开车约40分钟。小镇内街道整齐，停车方便。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从一个名叫胡安·德·戈约内切的纳瓦拉商人说起。时间是18世纪初，西班牙波旁王朝刚刚站稳脚跟，整个国家试图从漫长的衰退中苏醒。戈约内切不是普通的商人，他是一个怀有强烈爱国情怀和乌托邦理想的企业家。他看到了西班牙与欧洲列强在制造业上的巨大差距，决心要打造一个能够生产高质量奢侈品（特别是玻璃、水晶、挂毯和皮革）的工业中心，减少进口，振兴经济。更重要的是，他想创造一个“理想国”——一个为工人提供住房、教育、医疗和宗教生活的自给自足社区，将生产效率与人文关怀结合起来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1709年，戈约内切获得了国王腓力五世的支持，在这片属于他的荒芜土地上，开始了这项前所未有的社会实验。他请来了当时著名的巴洛克建筑师何塞·德·丘里格拉拉（正是设计萨拉曼卡马约尔广场的那位大师）来规划整个小镇。丘里格拉拉的设计大胆而创新：一个严格对称的矩形网格，中心是巨大的广场，广场一端是兼具工厂和管理功能的宏伟“宫殿-工厂”综合体，另一端则是献给小镇守护神圣弗朗西斯科·哈维尔的教堂。工人的住宅整齐排列在周围的街区，等级分明——官员住大房子，工匠住联排屋。这里甚至规划了医院、学校、监狱和客栈，一切都为了社区的自我运转。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初几十年，新巴斯坦一度辉煌。它的玻璃制品晶莹剔透，挂毯精美绝伦，远销国内外。小镇不仅是一个工厂，更成了一个吸引好奇目光的“样板工程”，来访的贵族和学者无不惊叹于这种将产业、建筑与社会福利整合一体的模式。戈约内切的梦想似乎正在变成现实：工人们在整洁的房子里生活，去宏伟的教堂祷告，在规划良好的环境中工作，他们的子女能接受教育。这比欧洲许多著名的空想社会主义者的蓝图更早地得到了实践。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，乌托邦的基石往往是脆弱的。新巴斯坦的成功高度依赖戈约内切个人的雄心、资本和与王室的关系。当这位核心人物于1735年去世后，小镇失去了它的灵魂舵手和最主要的经济保护伞。更致命的是，它地处内陆，原材料运输和成品外销成本高昂，在市场竞争中逐渐失去优势。工厂一个接一个倒闭，工匠们纷纷离去，去寻找更有生机的地方。这个精心设计的社区，如同一个被遗弃的精密钟表，齿轮渐渐停止了转动。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随后的两个多世纪，新巴斯坦陷入了漫长的沉睡。它没有被战争彻底摧毁，也没有被现代化浪潮完全吞没，只是慢慢地被遗忘，成为高原上一座时间胶囊般的“鬼城”。直到20世纪后期，人们才开始重新认识到它独一无二的历史价值。它不再是失败的象征，而是西班牙启蒙运动、早期工业化和社会思想史上一个珍贵而悲怆的篇章。如今的修复与保护工作，正是为了让后人能触摸到这段几乎被尘封的、关于理想与实践的复杂记忆。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味新巴斯坦，你需要大半天的时间，并抱着一种考古学家般的细致心态。建议在上午10点左右抵达，这时阳光正好照亮宫殿-工厂的东立面，游客也尚未大批到来。整体游览节奏宜慢不宜快，重点在于感受空间与光影的对话，以及解读建筑细节背后的故事。建议先以广场为中心进行宏观感受，再深入建筑内部探寻细节，最后漫步外围街区体会规划之妙，总耗时约4-5小时。午餐可以安排在广场旁的咖啡馆，融入当地的日常节奏。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇内餐饮选择有限，只有广场旁寥寥几家酒吧咖啡馆，建议自带少量饮水零食。夏季高原日照强烈，务必做好防晒，戴帽子和墨镜。尊重当地居民隐私，这里是他们的家园而非纯粹的景区，拍照时尽量避免打扰他人生活。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先踏入巨大的Plaza de la Iglesia广场，让自己被两侧对称的巴洛克立面和中轴线上巍峨的教堂塔楼所形成的庄严气场彻底包围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到广场北端，仰头仔细端详宫殿-工厂那混合了军事堡垒气派与宫廷装饰元素的独特主立面，寻找代表工业和农业的雕刻符号。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`进入宫殿-工厂内部，穿过那些曾回响着机器轰鸣、如今却异常静谧的高大拱顶厅堂，想象玻璃熔炉燃烧时的炙热光影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上建筑侧翼的台阶或平台，从高处俯瞰整个广场和网格状的城镇布局，理解规划者那上帝视角般的理性设计。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进广场南端的圣弗朗西斯科·哈维尔教堂，感受其内部相对朴素的装饰，并留意它与“宫殿”之间那条充满象征意义的视觉轴线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`探索宫殿后方那片被称为“El Laberinto”的规整花园遗址，在迷宮般的矮树墙间散步，思考这里曾是工人们休憩的田园诗角落。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着任何一条笔直的次要街道漫无目的地行走，观察那些统一又各有细微差别的工匠住宅立面，留意门楣上的古老铭文。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落时分回到主广场，坐在石阶上，看金色的余晖如何为整个石头小镇披上最后也是最温柔的一层光衣。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`宫殿-工厂东立面全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或上午，站在广场中央偏西的位置，用广角镜头捕捉建筑全貌，将地面石板的反光和天空一并纳入，凸显其宏伟与孤独。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`教堂钟楼视角`}</h4>
+                  <p className="text-sm text-gray-700">{`若有可能进入教堂钟楼（需询问开放情况），从这里俯拍整个棋盘格式的街道和广场，获得最具震撼力的规划全景图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“El Laberinto”花园几何构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午斜射光时，走进花园遗址，低角度拍摄树墙形成的强烈几何阴影与线条，营造超现实的神秘感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`工匠住宅街道纵深感`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一条笔直的街道，在午后利用两侧建筑形成的“光隧道”，拍摄街道尽头消失于光影中的深邃画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`宫殿拱廊下的光影游戏`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分，阳光直射入宫殿内部的拱廊，捕捉光柱穿过拱券在地上投下清晰明暗交界线的瞬间，人物剪影会非常出彩。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`小镇建筑以暖黄色系为主，建议将相机白平衡稍向暖色调偏移，更能还原黄昏时的金色魔力。使用偏振镜可以有效减少石质立面反光，让雕刻细节更突出。飞无人机前务必查清当地法规，历史保护区通常有严格限制。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸式首选`}</h4>
+                  <p className="text-sm text-blue-800">{`由古老工匠住宅改造的精品客栈“Casa del Fundador”，石头墙壁、木梁天花板，庭院里有一口老井，夜晚安静得能听见星星的声音。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`现代便利之选`}</h4>
+                  <p className="text-sm text-green-800">{`位于小镇边缘新建区的舒适度假公寓，带厨房和小阳台，空间宽敞明亮，适合家庭或长住，步行五分钟即达历史中心。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`庄园体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`开车十分钟可达周边乡间的“Cortijo”农庄酒店，住在真正的西班牙乡村别墅里，享受露天泳池、自家产的橄榄油和绝对的静谧。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`马德里往返基选`}</h4>
+                  <p className="text-sm text-purple-800">{`如果不介意通勤，强烈建议住在马德里市中心，选择地铁沿线酒店，白天往返新巴斯坦探索，夜晚享受首都的繁华与美食。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇内住宿极为有限且非常抢手，尤其是旅游旺季和节庆期间，务必提前数月预订。选择住在马德里则灵活得多，但需精确规划好公交班次，避免错过末班车。周边乡村治安极好，但夜间几乎没有路灯，自驾需注意。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开新巴斯坦时，我的背包里没有带回任何实体纪念品，但心里却装满了沉甸甸的思绪。它不像那些让人直接坠入爱河的浪漫古镇，它的美是冷峻的、带着问号的。它让你不断地思考理想与现实的缝隙，思考一个社会蓝图从纸上落到地上所需要付出的代价，以及当激情褪去后，那些石头所承载的寂静重量。在这个追求即时满足、一切都在快速迭代的时代，新巴斯坦是一个珍贵的“减速带”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它提醒我们，人类历史上曾有过如此宏大的、试图用理性和秩序塑造幸福生活的尝试。尽管它以经济上的失败告终，但那份将美学、社区福祉与生产活动结合在一起的愿景，至今依然闪烁着动人的光芒。对于深度旅行者而言，来这里不是寻找明信片风景，而是进行一场与历史幽灵的对话。你会触摸到启蒙时代的温度与冰凉，感受到一个梦想具体化成砖石后的骄傲与脆弱。它可能不会让你欢呼雀跃，但一定会让你沉默良久。在这个意义上，新巴斯坦不是目的地，它是一个沉思的坐标，是所有对建筑、城市、社会理想和人类命运感兴趣的人，一生中应该至少抵达一次的思想现场。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mora-de-rubielos" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫拉德鲁维耶洛斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mora de Rubielos</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/almagro-medieval-courtyard-theatre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔马格罗</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Almagro</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/frias-castle-medieval-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    弗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">弗里亚斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Frías</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

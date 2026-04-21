@@ -1,0 +1,205 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '维京港湾与中世纪砖墙 Viking Harbour & Medieval Brick Walls｜漫步在汉萨同盟的砖石记忆与维京海风的交汇处 - 最佳欧洲景点',
+  description: '海风是第一声问候。当你从蜿蜒的现代街道拐进那道巨大的砖砌拱门，一股混合着咸湿海藻、远处面包房焦糖香气和古老石头淡淡霉味的空气，瞬间包裹了你。眼前豁然开朗：不是想象中废墟的苍凉，而是一片被时光浸透、却依旧生机勃勃的彩色迷宫。巨大的、赭红色的城墙像沉睡的巨人手臂，温柔地环抱着一片橘红、鹅黄、苔绿的山形屋',
+}
+
+export default function VikingHarbourMedievalBrickWallsPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '北欧及波罗的海地区（跨爱沙尼亚、拉脱维亚、瑞典、芬兰等多国）', href: '/destinations/europe' },
+            { label: '以塔林、里加、维斯比、图尔库等为代表城市', href: '/destinations/europe' },
+            { label: '维京港湾与中世纪砖墙', href: '/attractions/viking-harbour-medieval-brick-walls' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`维京港湾与中世纪砖墙・Viking Harbour & Medieval Brick Walls・北欧及波罗的海地区（跨爱沙尼亚、拉脱维亚、瑞典、芬兰等多国）・以塔林、里加、维斯比、图尔库等为代表城市`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`海风是第一声问候。当你从蜿蜒的现代街道拐进那道巨大的砖砌拱门，一股混合着咸湿海藻、远处面包房焦糖香气和古老石头淡淡霉味的空气，瞬间包裹了你。眼前豁然开朗：不是想象中废墟的苍凉，而是一片被时光浸透、却依旧生机勃勃的彩色迷宫。巨大的、赭红色的城墙像沉睡的巨人手臂，温柔地环抱着一片橘红、鹅黄、苔绿的山形屋顶。阳光透过塔楼间的缝隙，在坑洼不平的鹅卵石路面上切出锐利的光影。你听见的不是肃穆的钟声，而是海鸥清亮的鸣叫、某扇木窗被推开的吱呀声，以及巷子深处传来咖啡馆碟盘的轻微碰撞。这里首先是一座活着的城，然后才是历史的遗迹。当地人提着购物袋从城墙下的拱门穿行，孩子在小广场上追逐，游客的惊叹淹没在日常的市声里——这种奇异的和谐，正是它最迷人的地方。
+它的核心魅力，在于一种触手可及的“层叠感”。指尖划过某段城墙，粗糙的砖面下，可能覆盖着更早的石灰岩；抬头看一座塔楼，下半部是14世纪严谨的防御工事，上半部却添了16世纪商人为了炫耀财富而增建的华丽山花。在港口，你能看到现代游艇的桅杆与古老木制帆船复制品的轮廓交织在一起。这不是一个被凝固在某个历史节点的标本，而是一本持续书写了八百年的立体书，每一代人都在前人的字句旁留下了自己的批注。最打动人的，或许是黄昏时分。当游客渐渐散去，夕阳把整面砖墙烧成温暖的橙金色，港口的水面泛起粼粼波光。你独自走在空无一人的城墙上，仿佛能听见砖石的低语，那是维京长船破浪的水声、汉萨商人讨价还价的喧哗、战火中士兵的奔跑、以及和平年代工匠的凿刻声。历史在这里，不是需要努力想象的知识，而是一种弥漫在空气中、可以用全身心去感受的温度。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "海风是第一声问候。当你从蜿蜒的现代街道拐进那道巨大的砖砌拱门，一股混合着咸湿海藻、远处面包房焦糖香气和古老石头淡淡霉味的空气，瞬间包裹了你。眼前豁然开朗：不是想象中废墟的苍凉，而是一片被时光浸透、却依旧生机勃勃的彩色迷宫。巨大的、赭红色的城墙像沉睡的巨人手臂，温柔地环抱着一片橘红、鹅黄、苔绿的山形屋顶。阳光透过塔楼间的缝隙，在坑洼不平的鹅卵石路面上切出锐利的光影。你听见的不是肃穆的钟声，而是海鸥清亮的鸣叫、某扇木窗被推开的吱呀声，以及巷子深处传来咖啡馆碟盘的轻微碰撞。这里首先是一座活着的城，然后才是历史的遗迹。当地人提着购物袋从城墙下的拱门穿行，孩子在小广场上追逐，游客的惊叹淹没在日常的市声里——这种奇异的和谐，正是它最迷人的地方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的核心魅力，在于一种触手可及的“层叠感”。指尖划过某段城墙，粗糙的砖面下，可能覆盖着更早的石灰岩；抬头看一座塔楼，下半部是14世纪严谨的防御工事，上半部却添了16世纪商人为了炫耀财富而增建的华丽山花。在港口，你能看到现代游艇的桅杆与古老木制帆船复制品的轮廓交织在一起。这不是一个被凝固在某个历史节点的标本，而是一本持续书写了八百年的立体书，每一代人都在前人的字句旁留下了自己的批注。最打动人的，或许是黄昏时分。当游客渐渐散去，夕阳把整面砖墙烧成温暖的橙金色，港口的水面泛起粼粼波光。你独自走在空无一人的城墙上，仿佛能听见砖石的低语，那是维京长船破浪的水声、汉萨商人讨价还价的喧哗、战火中士兵的奔跑、以及和平年代工匠的凿刻声。历史在这里，不是需要努力想象的知识，而是一种弥漫在空气中、可以用全身心去感受的温度。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`维京港湾与中世纪砖墙`} />
+                <InfoRow label="英文名称" value={`Viking Harbour & Medieval Brick Walls`} />
+                <InfoRow label="正式名称" value={`北欧及波罗的海维京历史港口与汉萨同盟中世纪城墙遗址群`} />
+                <InfoRow label="国家" value={`北欧及波罗的海地区（跨爱沙尼亚、拉脱维亚、瑞典、芬兰等多国）`} />
+                <InfoRow label="城市" value={`以塔林、里加、维斯比、图尔库等为代表城市`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`波罗的海沿岸保存最完好的汉萨同盟商业城镇网络遗存，见证了北欧维京时代海上贸易向中世纪欧洲城市同盟经济的关键转型。`} />
+                <InfoRow label="建筑特色" value={`巨大而敦实的红砖砌筑的环形城墙与防御塔楼，与天然花岗岩地基、木制码头和彩色山墙商人屋宇形成鲜明质感对比。`} />
+                <InfoRow label="建筑风格" value={`以北欧哥特式砖砌建筑为核心，融合了本地防御工事的实用主义与汉萨同盟商人的文艺复兴装饰元素。`} />
+                <InfoRow label="文化价值" value={`活着的“中世纪教科书”，至今仍是本地社区生活的中心，而非单纯的博物馆，完整保留了城市空间的历史层次感。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城墙及公共港口区域全年24小时开放。各城墙塔楼博物馆及游客中心的开放时间各异：通常夏季（5月至9月）为上午10点至下午6点，冬季（10月至次年4月）缩短为上午11点至下午4点或5点。多数室内场馆周一闭馆。具体节庆日（如中世纪节）期间部分塔楼会延长开放至夜晚。建议出行前查阅具体城市的旅游官网获取最新信息。`} />
+              <InfoRow label="门票价格" value={`漫步城墙外部、港口滨海步道及老城街道完全免费。登临个别修复完好的标志性塔楼（如塔林的“胖玛格丽特”塔、里加的“火药塔”）需购票，成人票约5-8欧元，学生及老人享有折扣。购买“老城博物馆通票”更为划算，约15-20欧元，可覆盖3-5个主要塔楼和城市博物馆。12岁以下儿童在多数场馆免费。`} />
+              <InfoRow label="地址" value={`此为跨区域概念性景点，核心体验区地址示例：爱沙尼亚塔林老城，Vene 15, 10123 Tallinn（塔林游客中心地址）`} />
+              <InfoRow label="交通方式" value={`抵达最近枢纽：塔林伦纳特·梅里机场（TLL）或里加国际机场（RIX）。
+从塔林机场：乘坐2号电车直达“Viru”站，下车即老城入口，耗时约20分钟，车次频繁，票价2欧元。出租车约15分钟，15-20欧元。
+从里加机场：乘坐22路公交车至“13. janvāra iela”站，换乘电车或步行15分钟进入老城，总耗时约35分钟。机场巴士“AirBaltic Coach”直达老城中央车站，约30分钟。
+若从赫尔辛基乘渡轮至塔林，下船后步行10分钟即进入古城，是最具氛围的抵达方式。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从北海凛冽的风和维京人手中的橡木船桨讲起。早在这些砖墙垒起之前，这里的天然深水港湾就是斯堪的纳维亚探险家和商人最珍贵的财富。公元8-11世纪，维京长船从这里出发，沿着河流深入欧洲腹地，也向东抵达罗斯诸国。他们不仅仅是掠夺者，更是开拓者和贸易者，建立了最初的季节性营地，用毛皮、琥珀和奴隶换取东方的银币与丝绸。这些木质码头和简陋的围栏，是今天宏伟砖石城市的胚胎。随着基督教传入和王权巩固，脆弱的木栅栏显得不堪一击。于是，13世纪，在条顿骑士团和丹麦国王的推动下，一场用砖石“武装”城市的运动开始了。烧制砖块的技术从吕贝克传来，本地丰富的粘土提供了原料。烧砖窑炉的烟雾，成了那个时代进步的标志。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的黄金时代属于汉萨同盟。14到16世纪，从塔林到里加，从维斯比到图尔库，这些港口城市加入了这个强大的中世纪商业联盟。财富如潮水般涌来，砖砌的城墙越修越高、越修越厚，不是为了防御蛮族，而是为了彰显经济实力和保卫堆积如山的货物——羊毛、蜂蜡、谷物、鲱鱼。商人们赚得盆满钵满，他们开始不满足于仅仅住在坚固的屋子里。于是，我们在城墙内看到了今天这些令人目眩的景象：高耸的、带有精美阶梯形山墙的商人宅邸，内部是温暖的木雕装饰和瓷砖火炉；宏伟的市政厅广场，宣告着城市自治的骄傲；高大如堡垒般的教堂，既是信仰中心，也是存放贵重商品的仓库。每一块砖都浸透着商业的精明与市民的自豪。这个时期砌筑的砖墙，厚重、规整、充满自信的几何美感，是同盟共同审美与实用主义结合的巅峰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，繁荣从未长久。战争的阴影始终笼罩着波罗的海。17世纪的瑞典-波兰战争、18世纪的大北方战争，炮火一次又一次地轰击这些砖墙。城墙的意义从“财富的炫耀”变回了最原始的“生命的屏障”。你仔细看那些砖石，会发现许多修补的痕迹，颜色略有差异的砖块填补着巨大的缺口，那是战争留下的伤疤，也是城市顽强生命力的证明。最残酷的考验在二战及苏联时期到来，许多塔楼和城墙段落遭到严重破坏，老城一度凋敝。但奇迹般地，这些砖石结构的主体幸存了下来，成为民族记忆和身份认同的物理锚点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最近三十年，是重生与对话的时代。随着各国独立，一场规模浩大、极其精细的修复工程展开了。工匠们并非简单地推倒重建，而是像外科手术一样，仔细清理每一块原有砖石，用传统工艺烧制新砖填补缺失部分，让新旧材料在阳光下共同诉说历史。今天，漫步其中，你看到的不仅是中世纪风貌的复原，更是一场跨越时空的对话：古老的城墙下开着时尚的设计商店，城墙塔楼里是前卫的艺术画廊，港口边停泊着维京船复制品也停靠着去往赫尔辛基的现代快艇。这些砖墙，终于从沉重的防御者，变成了包容的见证者，静静地看着新的故事，在旧日的轮廓里不断生长。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的体验始于清晨（8点左右），此时旅游团尚未涌入，光线柔和，本地生活刚刚苏醒。建议用一整天的时间，以“由外至内，由高至低，最后回归港口”的节奏沉浸其中。上午先沿着外围城墙步道行走，从宏观上感受其规模和气势，并选择一座最有代表性的塔楼登顶，俯瞰全城。中午深入老城迷宫般的街巷，感受其微观生活气息并用午餐。下午重点探访港口区，理解其与海洋的永恒联系。傍晚时分再次回到城墙某段，欣赏日落金辉。这样的安排能让你从不同尺度和光影下，全方位理解这个“活着的遗迹”的脉搏。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季中午时分老城核心广场和主街人潮汹涌，建议此时避入小巷或城墙上的开阔地带。穿着绝对舒适的平底鞋，那些美丽的鹅卵石路对高跟鞋和脚踝是巨大考验。警惕过于热情、提供“特别导览”的街头人员，正规导游都有官方标识。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从“胖玛格丽特”塔附近开始，用手掌感受巨大城门冰凉的、带着海盐湿气的砖石表面，聆听头顶海鸥的叫声与港口隐约的汽笛声混合。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着城墙根下安静的步道向东走，寻找那段允许行人上去漫步的城墙段落，踩在历经数百年风雨已微微凹陷的砖石步道上，看阳光把自己的影子长长地投在城内红色的屋顶上。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`选择一座开放的塔楼（如“守望塔”）盘旋而上，在狭窄的砖砌螺旋楼梯里喘息片刻，最终到达塔顶，让360度的全景风像打开画卷一样在眼前展开——城内是彩色积木般的房子，城外是蓝色的波罗的海。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从塔楼下来，毫不犹豫地扎进老城最窄的“腿街”或“圣凯瑟琳通道”，让两侧高耸的砖墙几乎遮住天空，专注欣赏脚下被岁月打磨得光滑如镜的鹅卵石和墙根处潮湿的苔藓。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在市政厅广场旁的百年老咖啡馆坐下，点一杯热巧克力配当地杏仁糖，观察广场上的人们，看鸽子如何在古老的井台边与游客和平共处。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后慢慢踱向港口区，穿过“大海岸门”，站在防波堤上，看现代游艇与仿古帆船并泊，试着想象汉萨商船密密麻麻泊满港湾的盛况。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一家港口边的海鲜餐厅，享用一份当天捕捞的波罗的海鲱鱼，让味蕾也加入这场历史之旅，同时观看窗外砖砌的仓库建筑在午后阳光下变换色彩。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前一小时，再次登上一段西向的城墙，找一个垛口坐下，安静地看着夕阳将整个砖石世界染成一片辉煌的金红，直到灯光在老城的窗户里星星点点亮起。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`港口防波堤向西拍摄“大海岸门”与塔楼剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，利用港湾水面作为前景，捕捉金色光线勾勒砖砌门洞和塔楼轮廓的经典画面，可等待一艘帆船驶入构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“腿街”或类似狭窄巷道的纵深感构图`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，巷子上方会形成一道“光河”，站在巷口用长焦镜头压缩空间，捕捉行人走过时身影与两侧无尽砖墙形成的强烈透视与光影对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从某座高塔（如圣奥拉夫教堂塔楼）顶层拍摄老城屋顶与城墙的“龙脊”全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚侧光时分，拍摄连绵起伏的红色屋顶被蜿蜒的灰色城墙“腰带”所环绕的图案之美，注意纳入远方的一抹海面蓝。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城墙某处拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`利用厚重的砖砌拱门作为天然画框，框住门洞另一侧色彩鲜艳的建筑立面或行人动态瞬间，营造穿越时空的视觉效果，阴天柔和光线更能突出砖石的质感细节。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`港口边以古老砖砌仓库墙面为背景拍摄人像`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点的斜射光能完美展现砖块的纹理和色彩，让人物靠在墙上或在前景走动，形成历史环境与鲜活生命的互动。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效减少古老砖石表面的反光，并让天空与红墙的色彩对比更饱和。航拍器使用在此类受保护的历史城区通常有严格限制甚至禁止，务必提前查证当地法规。尊重当地居民隐私，避免透过住户窗户向内拍摄。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`老城墙内由15世纪商人住宅改造的精品酒店，房间保留原始木梁与砖墙，窗户推开就能触摸到隔壁塔楼的砖石，夜晚安静得能听见历史的呼吸。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`设计风范`}</h4>
+                  <p className="text-sm text-green-800">{`港口区旧仓库改造的设计师酒店，挑高的红砖空间融合了北欧极简家具，巨大落地窗外就是停满桅杆的港湾，清晨在咖啡香中看船只出入。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`温馨民宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`藏在老城安静角落的家族经营民宿，女主人会端出 homemade 的接骨木花茶和你分享她祖辈与城墙的故事，房间虽小却充满了家的暖意和鲜花。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`现代便捷`}</h4>
+                  <p className="text-sm text-purple-800">{`坐落在老城边缘现代建筑中的高端酒店，步行五分钟即达古城门，提供绝佳的城市天际线视角和无与伦比的舒适设施，是探索后完美放松的基地。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "老城内的酒店多有数百年历史，隔音可能不如现代建筑，但这正是魅力的一部分。夏季和圣诞市场期间预订异常紧张，需提前数月规划。无论住在哪里，夜晚独自在城墙根下散步都非常安全，这是本地人也会享受的日常。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开的时候，我的背包里没有带走一块砖石，但指尖却仿佛长久地留存着那种粗糙而温润的触感。这些砖墙教会我的，不是关于某个王侯将相的丰功伟绩，而是一种更为朴素和坚韧的道理：如何与时间相处。它们没有被供奉在玻璃柜里，而是坦然接受风吹雨打、日晒霜冻，接受战争在其表面留下伤疤，也接受和平年代咖啡馆的招牌倚靠在其身上。这种“被使用着”的状态，让历史脱离了教科书里冰冷的陈述，变得可感、可触、可生活其中。在这里，历史不是过去完成时，而是现在进行时。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在当今这个追求崭新、光滑、高效的世界，这样一个地方的存在，更像一种温柔的抵抗。它提醒我们，真正的价值往往在于叠加的厚度，在于伤疤愈合后的纹理，在于新旧之间那份从容的对话。每一位热爱深度游的旅人，都应该来此感受一下。你不是来“参观”一个景点，而是来体验一种不同的时间维度。当你背靠这堵八百岁的砖墙，看着波罗的海的海平线，你会忽然觉得，自己那些生活的焦灼与烦忧，在这漫长而沉稳的呼吸面前，被奇妙地安抚了。这里给予的，不是逃离现实的幻梦，而是一份将自身置于更广阔时间河流中的踏实与平静。这份礼物，值得你远渡重洋来亲自领取。" }} />
+            </div>
+          </Section>
+
+
+        </div>
+      </div>
+    </div>
+  )
+}

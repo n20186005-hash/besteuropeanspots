@@ -1,0 +1,152 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '贝兹历史溯源｜泉水溶洞之上的千年修道院小镇前世今生与隐修传奇',
+  description: '探秘法国隐秘的泉水小镇贝兹。千年历史始于地下溶洞涌出的奇迹之泉，圣徒、修士、领主在此交织出中世纪传奇。走进时光胶囊，倾听石墙低语。',
+}
+
+export default function BezeSpringHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '法国', href: '/destinations/france' },
+            { label: '科多尔省', href: '/destinations/france' },
+            { label: '贝兹', href: '/attractions/beze-spring-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`贝兹・Bèze・法国・科多尔省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在勃艮第的宁静田园之下，暗藏着一个水声轰鸣的黑暗世界。地上，是一座仿佛被时光遗忘的石砌小镇；地下，是法国最强大的涌泉之一，从深邃溶洞中奔流而出。这里的一切历史与传奇，都始于那眼从未枯竭的泉水。抛开游玩攻略，走进贝兹的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`贝兹`} />
+                <InfoRow label="英文名称" value={`Bèze`} />
+                <InfoRow label="正式名称" value={`Bèze`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`科多尔省`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "贝兹的名字，源自古凯尔特语或拉丁语中意为“白蜡树”的词汇。但赋予它灵魂与形体的，是水。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "公元600年左右，一位名叫<strong>圣伯多禄</strong>的爱尔兰僧侣游历至此。传说中，他手中的牧杖插入地面，一股清泉便喷涌而出。这并非诗意的夸张，而是地质现实。贝兹泉是法国第五大涌泉，源自地下庞大复杂的喀斯特水系，瞬时流量可达每秒数千升。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这眼永不枯竭、清澈无比的泉水，是上天最丰厚的馈赠。它意味着生命、洁净与守护。<strong>圣伯多禄</strong>和追随他的修士们，在泉眼旁建立了最初的修道院。修道院不仅是精神中心，更是实际上的定居点核心。人们逐水而居，受修道院庇护，形成了最早的社区。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "因此，贝兹的起源清晰而独特：它不是军事要塞，不是贸易驿站，而是一个因<strong>神圣奇迹</strong>与<strong>自然恩赐</strong>双重加持而诞生的隐修定居点。泉水决定了它的位置，修道院定义了它的气质。这份始于七世纪的宁静与虔诚，为它后续近千年的历史定下了基调。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "修道院的建立并非一劳永逸。贝兹虽僻静，却无法隔绝于时代的洪流。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>9世纪诺曼人的恐怖</strong>如阴影般袭来。这些维京掠夺者沿河流深入欧洲腹地，寻求财富与毁灭。贝兹修道院未能幸免。据编年史记载，修道院被洗劫、焚毁。修士们可能带着最珍贵的圣物（相传是圣伯多禄的遗骨）四散逃难。这次摧毁是深刻的创伤，但也促成了重建。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“邪恶的异教徒舰队溯河而上，所到之处尽是火焰与哭泣……上帝之所亦化为废墟。”" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "—— 后世编年史家对诺曼人侵袭的描绘" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>中世纪盛期的自治斗争</strong>是另一条主线。重建后的修道院势力渐强，成为地区重要领主。它与勃艮第公爵、当地贵族的关系错综复杂。修道院寻求保护，也渴望自治。小镇的城墙、塔楼陆续建起，既为防御外敌，也隐隐象征着一种独立的姿态。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "石砌房屋环绕着修道院教堂生长，街道布局自然而有机。你会注意到，小镇的核心建筑——教堂、修道院遗迹、部分老屋——都采用同样的金色石灰岩。它们取自当地，被泉水滋润，呈现出温润的光泽。建筑是凝固的编年史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最大的转折发生在<strong>法国大革命</strong>。作为旧制度的象征，修道院被国家没收、拍卖，修士团体被解散。宗教建筑被分割、改造，甚至沦为采石场。神圣的泉水驱动起了磨坊，服务于更世俗的生产。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这段“世俗化”历程残酷却真实。它打断了近千年的隐修传统，将贝兹抛入现代国家的轨道。那些被凿去的宗教雕塑、改造为民居的修道院回廊，无声诉说着这场巨变。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "贝兹的历史星光，或许不如巴黎、罗马那般璀璨夺目，但其人物却更贴近土地与信仰，散发着独特的人文微光。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "首要人物，无疑是奠基人<strong>圣伯多禄（Saint Peter of Bèze）</strong>。关于他早期的记载混杂着传说。他可能出身爱尔兰贵族，在修道院教育中成长，后成为热忱的传教士。选择贝兹并非偶然。当时的传教士常有意识地在异教圣地（如泉水、森林）附近建立基督教据点，以完成信仰的“征服”与转化。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我主赐此地以活水，使之成为旷野甘泉，滋养信众之灵。”" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "—— 后世传记中赋予圣伯多禄的言语" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的最大功绩不仅是创立修道院，更在于确立了以<strong>本笃会会规</strong>为准则的社区生活。祈祷与劳动，灵性追求与物质建设相结合。这种模式保证了社区在乱世中的生存与延续。他的遗骨曾是最重要的圣物，在节庆时被抬出巡游，是连接小镇与神圣的纽带。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位关键人物，是十世纪的修士<strong>阿马杜斯（Amadeus of Bèze）</strong>。他本身并非国际显赫的圣徒，却是一位重要的<strong>历史记录者</strong>。他续写了《贝兹编年史》，这份文献是了解九至十世纪勃艮第地区历史不可或缺的原始资料。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "透过他的笔，我们看到了封建关系的形成、地方的纷争、修道院日常的忧虑。例如，他详细记录了一次贵族对修道院土地的侵占，以及院长如何通过法律诉讼和上级领主调解，艰难地维护权益。这些琐碎的记载，远比宏大叙事更能让我们触摸到中世纪生活的真实肌理。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿马杜斯代表了贝兹的另一种贡献：在静默的祈祷之余，以文字守护记忆。修道院不仅是信仰堡垒，也是知识中心。抄写室里的羊皮纸和墨水，同样是在构建一座不朽的殿堂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "十八世纪，还有一位访客留下了印记：<strong>伏尔泰</strong>。这位启蒙运动的旗手，曾因避祸或访友在勃艮第盘桓。虽然没有直接证据表明他长住贝兹，但当地传说他曾在泉边漫步，并感慨于自然之力与宗教组织对此地命运的绝对掌控。这为小镇的历史增添了一笔哲学性的注脚。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于贝兹泉的起源，除了圣伯多禄的圣迹，民间还流传着一个更古老、更富异教色彩的故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说在基督教到来之前，泉眼所在之处曾是一片干旱的荒地。一位当地领主的女儿美丽而善良，她怜悯焦渴的百姓，日夜向未知的神明祈祷。一天夜里，她梦见一位白衣老者，指引她将一枚银戒指投入山脚下的岩缝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "梦醒后，她照做了。戒指落下的瞬间，大地轰鸣，一股巨大的水柱冲天而出，顷刻间形成溪流。泉水治愈了土地，也引来了最早的定居者。然而，少女却因耗尽心力，在泉水边化作了一棵白蜡树，永远守护着水源。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“她不是消失，而是与土地合为一体。看那泉边最茂盛的老树，风过时的沙沙声，就是她在低语。”" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "—— 当地老人口中的传说版本" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说反映了人们对自然力量的原始敬畏，以及将地方特征（白蜡树、泉水）人格化、神圣化的普遍心理。基督教传入后，故事的主角自然地被圣伯多禄取代，但“少女-祈祷-奇迹之泉”的故事内核却被保留并转化。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个习俗也与水有关：直至近代，当地居民在每年春季仍会举行简单的“净泉”仪式，清理泉眼周围的杂物，并向水中投掷鲜花，祈求全年水源丰沛、免受洪灾。这无疑是前基督教时代水神崇拜的遗风，悄然附着在了世俗生活之中。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日漫步贝兹，你会看到游客在泉眼观景台赞叹自然奇观，在教堂遗址前拍照。但若你了解它的往事，所见将截然不同。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "那轰鸣涌出的地下水，是时间本身的声音。它见证了第一间茅草礼拜堂的搭建，目睹了诺曼人的火把，映照过中世纪修士们肃穆的游行，也推动过革命后嗡嗡作响的磨轮。小镇的每一块石头，都浸透了水汽与祷文。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "贝兹的价值，在于它提供了一个<strong>连续而完整的微观样本</strong>。从早期中世纪修道院定居点的典范，到中世纪领主统治下的自治小镇，再到近代国家中的平凡村落，欧洲历史的主要脉络在此清晰可辨。它没有遭遇毁灭性的重建或战争，其变迁是层累的、渐进式的，如同一本可供细读的地层之书。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂贝兹，便是读懂一段关于<strong>信仰、自然与社区韧性</strong>的千年叙事。它提醒我们，历史的动力不仅是王侯将相，更是那些寻找水源、坚守信仰、在动荡中努力维持日常生活的普通人。在这里，传奇沉入了日常，神圣融入了泉水流淌的每一刻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/entrevaux-fortified-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    昂
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">昂特勒沃</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Entrevaux</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/cordouan-lighthouse-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科尔多昂灯塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cordouan Lighthouse</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/dinan-old-town-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迪
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迪南老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dinan Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

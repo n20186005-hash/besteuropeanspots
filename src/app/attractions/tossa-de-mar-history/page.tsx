@@ -1,0 +1,147 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '滨海托萨历史溯源｜布拉瓦海岸唯一中世纪城墙的前世今生与电影传奇',
+  description: '探秘西班牙布拉瓦海岸的蓝宝石。这里不仅是“蓝色海岸”的代名词，更是一座活的中世纪博物馆。从罗马别墅到海盗堡垒，从好莱坞女神的足迹到城墙守护者的传说。',
+}
+
+export default function TossaDeMarHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '赫罗纳', href: '/destinations/europe' },
+            { label: '滨海托萨', href: '/attractions/tossa-de-mar-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`滨海托萨・Tossa de Mar・西班牙・赫罗纳`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在地中海耀眼的阳光下，布拉瓦海岸如同一串洒落的蓝宝石。而在其中最独特的一颗，不是纯粹的度假海滩，而是一座从海浪与岩石中生长出来的中世纪堡垒——<strong>滨海托萨</strong>。它是整个布拉瓦海岸线上，唯一完整保留了中世纪城墙与城堡的城镇。这道蜿蜒的古老石墙，分隔开的不仅仅是陆与海，更是喧嚣的现代与凝固的旧时光。走进城墙之内，时间仿佛自动调慢了速率。抛开游玩攻略，走进滨海托萨的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`滨海托萨`} />
+                <InfoRow label="英文名称" value={`Tossa de Mar`} />
+                <InfoRow label="正式名称" value={`Tossa de Mar`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`赫罗纳`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "托萨的故事，远比“海滨度假胜地”这个标签古老得多。它的历史可以追溯到遥远的<strong>罗马时代</strong>。公元一世纪左右，罗马人看中了这片背山面海的天然良港，在此建立了一个名为 <strong>“图罗”（Turo）</strong> 的定居点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里并非宏伟的军事要塞，而是一个富庶的<strong>渔港和贸易站</strong>。来自地中海的商船在此停泊，交换着伊比利亚的矿产、葡萄酒与橄榄油。更重要的是，附近山丘盛产一种珍贵的红色染料原料——<strong>骨螺</strong>。加工这种染料的工坊遗址，至今仍可在城镇附近找到，那是古罗马紫色荣耀的余晖。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "当地流传着一句古老谚语：“先有骨螺的紫，才有托萨的墙。” 意指这座城的初始财富，源于大海的馈赠。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>“Tossa”</strong> 这个名字的由来，笼罩着一层迷雾。一种流传较广的说法认为，它源于拉丁语 <strong>“Turissa”</strong> 的讹变，而“Turissa”很可能就是从“Turo”演化而来。另一种更具画面感的民间词源则联想到其地形——这座城堡所在的山头，形似一个倒扣的碗，在古加泰罗尼亚语中，“tossa”有“圆丘”之意。无论真相如何，这个名字从此与这座岩石半岛紧密相连。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>公元12世纪</strong>，面对地中海日益猖獗的海盗（尤其是北非巴巴里海盗）威胁，托萨的居民决定在罗马遗址之上，建造一座真正用于防御的城池。这才是我们今天所见的托萨老城的真正开端。它从一开始，就带着深深的生存烙印。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "托萨的历史印记，深深镌刻在它的石头里。首要的，当然是那座标志性的<strong>中世纪城墙（Muralla medieval）</strong>。它始建于<strong>12世纪</strong>，并在<strong>14世纪</strong>得到大规模加固和扩建，形成了今日环绕整个老城区（Vila Vella）的完整轮廓。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这不是一座国王的城堡，而是一座<strong>平民的堡垒</strong>。当时，几乎所有居民都居住在这道周长约300米的城墙之内。城墙设有四座主要塔楼和三座城门，其中面朝陆地的主城门<strong>Portal de la Vila</strong>尤为坚固，带有吊桥和闸门遗迹。其目的非常纯粹：当海盗的帆影出现在海平面上时，钟声敲响，所有人撤回城内，拉起吊桥，用厚重的石门将恐惧挡在外面。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "在市政档案中，曾记载了一次惨烈的袭击：“<strong>1415年</strong>，海盗来袭，未能攻破城墙，遂劫掠城外村庄，掳走三十七人。” 城墙，成了生存与毁灭的最后界线。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城墙内的<strong>老城堡（Castell de Tossa）</strong>，如今虽多已倾颓，但其最高处的<strong>灯塔</strong>却是历史的另一个隐喻。这座灯塔建于<strong>1917年</strong>，建立在古老的瞭望塔基之上。它象征着威胁的转变——从看得见的海盗船，变为看不见的航海风险。灯塔的柔光取代了烽火，指引着和平年代的航船，日夜诉说着这片海域从未平静的故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个不可忽视的印记，藏在地下。在老城区的入口处，坐落着<strong>市立博物馆（Museu Municipal）</strong>。这座博物馆本身，就是一座建于<strong>1387年</strong>的晚期哥特式宫殿。而它的地下室，则保存着托萨的“前世”——一座<strong>公元4-6世纪的古罗马别墅（Vila romana dels Ametllers）</strong> 遗址。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "精美的马赛克地板、供暖系统（hypocaust）、酿酒作坊……无不诉说着罗马时代这里的富足与文明。有趣的是，中世纪建造城墙时，大量拆用了这些罗马废墟的石料。于是，当你抚摸城墙上某块粗糙的砂岩时，指尖之下，可能正压着一块雕刻着罗马花纹的碎片。历史在这里，以一种粗粝而直接的方式完成了层叠。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说城墙是托萨坚硬的骨骼，那么一位好莱坞传奇女星的到来，则为它披上了一层柔美而永恒的光环。这位名人就是<strong>阿娃·加德纳（Ava Gardner）</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1950年</strong>，导演<strong>亨利·金</strong>率领剧组来到托萨，拍摄电影 <strong>《Pandora and the Flying Dutchman》</strong>（中文译名《红尘》或《潘多拉与飞翔的荷兰人》）。这部电影本身就是一个充满宿命与爱情悲剧的奇幻故事。而阿娃·加德纳饰演的绝世美女潘多拉，其魅力足以让男人为她去死。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "现实与电影在此产生了奇妙的交融。时年28岁的阿娃，正处于她惊人的美貌与情感漩涡的巅峰。她与片中男主角、英国演员<strong>詹姆斯·梅森</strong>的绯闻，以及她当时与美国传奇歌手<strong>弗兰克·辛纳屈</strong> 纠缠的婚姻，都让这次拍摄充满了戏剧性。托萨几乎全体居民都成了临时演员和热情的观众。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "在阿娃后来的回忆中，她写道：“<strong>托萨是天堂。我在那里度过了一个漫长的、充满阳光的夏天。那里的人们那么热情，海水那么蓝，让我暂时忘记了一切烦恼。</strong>”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "电影的拍摄，将托萨独一无二的美景——中世纪城墙、蓝色海湾、古朴渔港——第一次以彩色胶片的形式，带到了全世界观众眼前。电影中，阿娃·加德纳站在城墙灯塔下的经典镜头，成为了电影史和旅游宣传史上不朽的画面。从此，托萨不再只是一个加泰罗尼亚的渔村，它成了“阿娃·加德纳之城”，是“蓝色梦想”的具象化。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "为了永久纪念这段情缘，托萨人在老城区的城墙上，为她竖起了一尊<strong>铜像</strong>。雕像上的阿娃并非盛装华服，而是悠闲地坐在城垛上，眺望着她曾戏水、漫步的地中海。雕像基座上刻着：“<strong>Ava Gardner - 1922-1990 - 托萨，她永远的避风港</strong>。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位电影女神与小镇的羁绊并未因拍摄结束而终止。她一生曾多次重返托萨，将这里视为逃离好莱坞纷扰的“避风港”。当地的老人们至今仍会津津乐道，说起阿娃如何在小酒馆里与当地人一起喝酒跳舞，说起她如何喜爱在清晨无人的海滩游泳。她的传奇，为托萨的中世纪厚重感，增添了一抹来自二十世纪的、鲜活而忧伤的浪漫色彩。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在托萨，最动人的传说与它的守护者有关。这个传说没有具体的年代，它像海雾一样，萦绕在古老的城墙上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "相传，在抵御海盗最频繁、最黑暗的岁月里，每当月黑风高的夜晚，城墙上总会自动亮起一簇幽蓝的火焰。这火焰无形无温，却能让远方的海盗船望而生畏，误以为城内守备森严，灯火通明，从而不敢靠近。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "居民们相信，这是<strong>托萨的守护精灵</strong>，是这座城市不屈灵魂的化身。它由历代为保卫家园而牺牲的战士的勇气、渔夫们对大海的敬畏、以及母亲们祈祷的眼泪凝聚而成。它没有实体，却存在于每一块被海风侵蚀的墙石中。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "老渔民们会告诫孩子：“当你听到风穿过城墙孔洞发出呜咽时，那不是风，是守护者在巡视。它认得每一个托萨的孩子。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则关于老城堡下方的<strong>“情人洞”</strong>。那是一个隐秘的天然海蚀洞穴，退潮时方可进入。传说在中世纪，一位贵族小姐与一位平民渔夫相爱，遭到家族强烈反对。两人便常常在此洞穴秘密相会，倾听潮汐的韵律，仿佛那是大海为他们的爱情奏响的乐章。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "后来，青年在一次出海抵御海盗时再未归来。小姐每日在城堡上眺望，最终郁郁而终。人们说，每逢满月大潮之夜，在洞穴深处仍能听到隐约的私语和海浪也冲刷不掉的誓言。这个传说为托萨的刚毅气质，注入了一丝凄婉的柔情，仿佛在说：再坚固的城墙，也围不住人心深处最柔软的渴望。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的滨海托萨，无疑是一个热门的旅游目的地。但它的魅力，远不止于明信片般的风景。读懂托萨，在于理解它的<strong>双重灵魂</strong>：一面是面对海洋威胁时凝聚出的、充满生存智慧的<strong>集体坚韧</strong>（ embodied in the wall）；另一面，则是源于罗马时代、流淌在骨子里的，对<strong>生活之美与浪漫</strong>的个体追求（ reflected in the Roman mosaics and Ava’s legend）。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你穿过<strong>Portal de la Vila</strong>那厚重的拱门，脚步声在石巷中回响，你正踏过罗马别墅的遗迹，走过中世纪逃难者的足迹，也或许正与阿娃·加德纳某个夏日的影子擦肩而过。这座城本身就是一座<strong>层叠的史书</strong>，每一页都由不同的时代、不同的人书写。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旅行的意义，在这里超越了观光。它是一场与时间层的对话。你触摸的城墙，是真实的生存史诗；你仰望的雕像，是鲜活的现代神话；你脚下的碎石，可能承载着两千年前的晚餐温度。这就是滨海托萨独一无二的历史价值——它将宏大的历史叙事与细微的个人命运，完美地封存在了一片蔚蓝的海岸线上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/rupit-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    鲁
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">鲁皮特</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rupit</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/allariz-travel-guide" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿利亚里斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Allariz</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/peniscola-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩尼斯科拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Peñíscola</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

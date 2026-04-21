@@ -1,0 +1,238 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔特多夫 Altdorf｜寻找威廉·退尔的故乡与瑞士精神的摇篮 - 最佳欧洲景点',
+  description: '火车缓缓驶入阿尔特多夫站台，第一口呼吸到的空气就带着明显的不同——那是一种清冽、干脆的寒意，混合着远处山林松针和近处湿漉漉石板路的味道。走出小小的站台，视线毫无遮挡地投向不远处的山峦，它们像巨人沉默的臂弯，将这个小镇稳稳地揽在怀里。你立刻明白了它的地理位置为何被称为“咽喉”，所有通往南方圣哥达山口的',
+}
+
+export default function AltdorfWilliamTellSwitzerlandPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '阿尔特多夫', href: '/destinations/europe' },
+            { label: '阿尔特多夫', href: '/attractions/altdorf-william-tell-switzerland' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿尔特多夫・Altdorf・瑞士・阿尔特多夫`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`火车缓缓驶入阿尔特多夫站台，第一口呼吸到的空气就带着明显的不同——那是一种清冽、干脆的寒意，混合着远处山林松针和近处湿漉漉石板路的味道。走出小小的站台，视线毫无遮挡地投向不远处的山峦，它们像巨人沉默的臂弯，将这个小镇稳稳地揽在怀里。你立刻明白了它的地理位置为何被称为“咽喉”，所有通往南方圣哥达山口的古老道路，都必须经过这里。
+朝着镇中心走，几分钟后，你便站在了那个著名的广场上。午后的阳光斜斜地打过来，把那些木筋房子外墙的暖黄色照得发亮，木梁的深褐色阴影在墙面上勾勒出几何图案。广场并不算宏大，却异常整洁、安宁。你能听到的最主要的声音，是广场边咖啡馆里杯碟轻微的碰撞声，几位白发老人用德语方言低声交谈的笑语，以及不知从哪条小巷深处传来的，山泉水流过石槽的淙淙声。生活在这里缓慢而扎实，退尔的传说不是尘封的历史，而是窗台上的一盆天竺葵，是面包店橱窗里印着弓箭图案的饼干，是当地人眼神里那份不言自明的从容。
+然后，你的目光一定会被广场中央那座巨大的青铜雕像牢牢抓住。那就是威廉·退尔和他的儿子。退尔的身姿高大、紧绷，拉满的弓弦仿佛下一刻就要释放；他年幼的儿子则静静地站着，头顶着那个致命的苹果。这一动一静的瞬间被永恒地凝固在这里。奇妙的是，这座充满戏剧张力的雕像，并没有让广场变得肃杀，反而因为周围日常生活的流动——骑自行车穿过的邮差，坐在长椅上吃冰淇淋的孩童——而获得了一种奇异的平衡。它讲述着抗争，但也被平和的生活所拥抱。
+这就是阿尔特多夫最打动人心的魅力：它是一个将史诗传说与琐碎日常完美缝合的地方。你不是走进一个冰冷的历史标本，而是走进了一个依然在呼吸、在生长、并以自己的起源故事为荣的活生生的社区。你能触摸到木筋房古老的纹理，也能闻到咖啡和刚出炉的“楚格樱桃蛋糕”的香甜。在这里，神话是生活的一部分，而生活本身，就是神话最坚实的注脚。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "火车缓缓驶入阿尔特多夫站台，第一口呼吸到的空气就带着明显的不同——那是一种清冽、干脆的寒意，混合着远处山林松针和近处湿漉漉石板路的味道。走出小小的站台，视线毫无遮挡地投向不远处的山峦，它们像巨人沉默的臂弯，将这个小镇稳稳地揽在怀里。你立刻明白了它的地理位置为何被称为“咽喉”，所有通往南方圣哥达山口的古老道路，都必须经过这里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朝着镇中心走，几分钟后，你便站在了那个著名的广场上。午后的阳光斜斜地打过来，把那些木筋房子外墙的暖黄色照得发亮，木梁的深褐色阴影在墙面上勾勒出几何图案。广场并不算宏大，却异常整洁、安宁。你能听到的最主要的声音，是广场边咖啡馆里杯碟轻微的碰撞声，几位白发老人用德语方言低声交谈的笑语，以及不知从哪条小巷深处传来的，山泉水流过石槽的淙淙声。生活在这里缓慢而扎实，退尔的传说不是尘封的历史，而是窗台上的一盆天竺葵，是面包店橱窗里印着弓箭图案的饼干，是当地人眼神里那份不言自明的从容。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然后，你的目光一定会被广场中央那座巨大的青铜雕像牢牢抓住。那就是威廉·退尔和他的儿子。退尔的身姿高大、紧绷，拉满的弓弦仿佛下一刻就要释放；他年幼的儿子则静静地站着，头顶着那个致命的苹果。这一动一静的瞬间被永恒地凝固在这里。奇妙的是，这座充满戏剧张力的雕像，并没有让广场变得肃杀，反而因为周围日常生活的流动——骑自行车穿过的邮差，坐在长椅上吃冰淇淋的孩童——而获得了一种奇异的平衡。它讲述着抗争，但也被平和的生活所拥抱。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是阿尔特多夫最打动人心的魅力：它是一个将史诗传说与琐碎日常完美缝合的地方。你不是走进一个冰冷的历史标本，而是走进了一个依然在呼吸、在生长、并以自己的起源故事为荣的活生生的社区。你能触摸到木筋房古老的纹理，也能闻到咖啡和刚出炉的“楚格樱桃蛋糕”的香甜。在这里，神话是生活的一部分，而生活本身，就是神话最坚实的注脚。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿尔特多夫`} />
+                <InfoRow label="英文名称" value={`Altdorf`} />
+                <InfoRow label="正式名称" value={`Altdorf`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`阿尔特多夫`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是瑞士建国神话威廉·退尔射苹果故事的核心发生地，被誉为瑞士联邦自由精神的象征性起源地。`} />
+                <InfoRow label="建筑特色" value={`小镇中心围绕纪念铜像的广场布局经典，四周环绕着装饰精美壁画（ Lüftlmalerei ）的传统木筋结构房屋（Fachwerkhaus），充满了浓郁的乌里州山地特色。`} />
+                <InfoRow label="建筑风格" value={`以中世纪晚期至文艺复兴时期的瑞士木筋房建筑为主，混有19世纪历史主义风格的纪念性雕塑与部分巴洛克壁画装饰。`} />
+                <InfoRow label="文化价值" value={`退尔传说超越了历史真实，深深嵌入了瑞士的国家认同与文化心理，使这个宁静小镇成为一处活态的民族精神圣地。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`威廉·退尔纪念碑广场及老城街道全天开放。镇立历史博物馆（Tell Museum）开放时间为每年4月至10月，周二至周日10:00-17:00；11月至次年3月仅周六日开放，13:00-16:00，具体开放日期建议行前在其官网确认。广场旁的“退尔之屋”（Tellenhaus）外墙壁画可随时观看。冬季圣诞季期间广场有市集，开放至晚间。`} />
+              <InfoRow label="门票价格" value={`威廉·退尔纪念碑广场免费参观。镇立历史博物馆（Tell Museum）成人票8瑞士法郎，学生及65岁以上老人5瑞士法郎，6-16岁儿童3瑞士法郎，6岁以下免费。持有瑞士旅行通票（Swiss Travel Pass）可享受门票折扣或免费（请以当日公告为准）。`} />
+              <InfoRow label="地址" value={`Rathausplatz， 6460 Altdorf， Switzerland`} />
+              <InfoRow label="交通方式" value={`从苏黎世国际机场（ZRH）出发最为便捷。在机场火车站乘坐直达琉森（Lucerne）的火车，班次频繁，约1小时车程。抵达琉森后，在同一个中央车站换乘前往“Göschenen”或“Andermatt”方向的山区火车（马特洪-哥达铁路线），约30分钟即可抵达阿尔特多夫站。从火车站步行至镇中心的退尔广场仅需5分钟。建议使用瑞士联邦铁路（SBB）App提前查询时刻表并购买车票，瑞士通票在此线路上完全适用。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解阿尔特多夫，就必须先理解威廉·退尔。但有趣的是，退尔这个人很可能从未真实存在过。他的故事最早出现在15世纪瑞士的编年史中，讲述的是14世纪初，哈布斯堡王朝的奥地利总督格斯勒在阿尔特多夫广场竖起一根杆子，顶上放着自己的帽子，命令所有路过的人都必须向帽子鞠躬。农民神箭手威廉·退尔带着儿子路过时拒绝行礼，因此被捕。格斯勒出了个残忍的主意：在退尔儿子头上放一个苹果，命令退尔在百步之外射中它，若成功可免死，失败或拒绝则父子皆亡。退尔一箭射中苹果，但他承认，如果失手误伤儿子，第二支箭就会射向格斯勒。总督大怒，将他押往湖对岸的库斯纳赫特城堡。途中遇到风暴，退尔趁机逃脱，最终埋伏在格斯勒必经之路上，用那支预备好的箭射杀了暴君。这个故事迅速点燃了乌里、施维茨、下瓦尔登“老三州”反抗哈布斯堡统治的烽火，成为1291年《联邦宪章》所象征的瑞士自由同盟的精神号角。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说在数百年间被不断传唱、加工，尤其在18世纪末19世纪初，欧洲民族主义思潮风起云涌之时。弗里德里希·席勒1804年的戏剧《威廉·退尔》和罗西尼1829年的同名歌剧，将退尔推向了世界舞台，使他从一个地区英雄变成了自由反抗暴政的全球性象征。而阿尔特多夫，作为故事中“射苹果”一幕的发生地，自然也获得了无与伦比的文化地位。小镇广场上最初可能只有一根纪念柱，但到了1895年，瑞士举国庆祝联邦成立650周年之际，人们决定用一种更宏伟的方式纪念这位民族英雄。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，我们看到了今天广场上这尊震撼人心的铜像。它出自瑞士雕塑家理查德·基斯林之手。基斯林没有选择射箭后或胜利后的瞬间，而是精准地捕捉了弓弦拉至满月、箭在弦上、千钧一发的最紧张时刻。退尔肌肉贲张，全神贯注，儿子的表情则天真而带着一丝困惑。这种永恒的“悬停”，比任何胜利的姿态都更有力量，它象征着决心、风险、以及为自由必须承受的巨大压力。雕像的落成，正式将阿尔特多夫广场命名为“退尔广场”，也完成了这个小镇从“地理要冲”到“精神圣地”的最后加冕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当然，阿尔特多夫的历史不止于传说。它的名字（Altdorf，意为“老村庄”）本身就说明了其悠久。作为乌里州的首府，它一直是上乌里地区行政和商业的中心。中世纪时，这里是翻越圣哥达山口商队的重要歇脚点和关税站，财富的积累体现在那些精美的壁画木筋房上。小镇也经历过战火，1799年法国革命军与俄奥联军在此激战，部分建筑被毁。但每一次，它都像传说中的退尔一样，坚韧地重建起来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的阿尔特多夫，坦然接受着自己“传说之地”的身份，但并没有躺在神话上睡大觉。镇立历史博物馆里，学者们会客观地探讨退尔传说的历史源流与象征意义。小镇居民既以退尔为荣，也过着现代化、国际化的生活。圣哥达基线隧道的开通，让这个古老的“咽喉”拥有了全新的战略意义。历史、神话与现实，在这里交织成一条奔流不息的河流，就像从它身边穿过的罗伊斯河，源自冰川，途经险隘，最终滋养出一片坚实而自由的土地。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排大半天（约5-6小时）来深度体验阿尔特多夫。最好在上午9点左右抵达，此时阳光正好照亮广场东侧的退尔雕像，游客尚少，小镇刚刚苏醒的宁静氛围最为迷人。游览节奏宜缓不宜急，核心是沉浸式感受广场及其周边街巷的生活气息与历史层次。路线将从火车站开始，以环形方式漫步老城，重点品味广场、博物馆、壁画建筑与当地生活场景，最后以一杯湖畔咖啡或一次短途徒步展望结束，充分理解这个小镇作为“门户”与“家园”的双重角色。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周末上午广场可能有小型市集，虽然热闹但会影响拍摄雕像全景，纯粹拍照建议避开。小镇几乎所有室内场所（包括博物馆和餐厅）地面都是光滑的石板或木地板，建议穿着防滑舒适的步行鞋。这里不是喧嚣的旅游区，商品价格实在，基本无需担心“旅游陷阱”，可以放心在本地餐馆用餐。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来深吸一口山间清冽的空气，然后沿着标有“Tellplatz”的指示牌轻松步行五分钟前往镇中心。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先在退尔广场的东北角静静驻足，让目光越过咖啡馆的遮阳棚完整地欣赏那座青铜雕像在晨光中的剪影与细节。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕着雕像慢走一圈，从各个角度观察退尔紧抿的嘴唇、儿子头顶的苹果，以及基座上描绘传说场景的浮雕。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进广场西侧那栋有着精美壁画外墙的“退尔之屋”，仔细辨认墙面彩绘所讲述的退尔故事和本地历史画面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过广场南侧的小拱门，钻进迷宫般安静迷人的老城小巷，用手指触摸那些带有温暖色泽的木筋墙的粗糙质感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在镇立历史博物馆里花上一个小时，不只是看退尔的弓箭，更要了解乌里州真实的地理、农牧与政治发展史。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一家面对广场的咖啡馆（比如Hotel & Restaurant Bahnhof的露天座）坐下，点一份当地点心，纯粹地观察小镇日常的流动。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间和体力允许，沿着罗伊斯河向北漫步一段，回望小镇被群山环抱、屋宇层叠的如画全景。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`退尔广场东南侧邮局门前`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点前，利用长焦镜头压缩空间，将退尔雕像与背后装饰着精美壁画的木筋房同框，构成历史传说与生活背景的完美叙事。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`老城小巷仰拍视角`}</h4>
+                  <p className="text-sm text-gray-700">{`中午阳光直射时，选择一条狭窄的小巷仰拍，让两侧陡峭的木筋房山墙和纵横交错的木梁线条充满画面，捕捉典型的中世纪街道肌理。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`罗伊斯河步行桥之上`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚日落前半小时，走到镇北的步行桥上，将蜿蜒的河流、色彩柔和的老房子屋顶、远处的教堂尖顶以及巍峨的山峦一同纳入镜头，拍摄阿尔特多夫作为山水小镇的经典全景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`博物馆内部窗框构图`}</h4>
+                  <p className="text-sm text-gray-700">{`在历史博物馆内，找到一扇面向广场的老式木窗，以窗框为画框，拍摄窗外广场上的人群与雕像的局部，创造一幅“画中画”的生动瞬间。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地居民尤其是老人与儿童时，请务必先微笑并示意，获得对方同意后再拍摄，尊重他们的隐私。冬季雪后是拍摄的绝佳时机，洁白的雪会覆盖屋顶并勾勒出木筋房的深色线条，但需注意防寒和脚下湿滑。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史核心之选`}</h4>
+                  <p className="text-sm text-blue-800">{`广场边的Gasthof-Hotel Kreuz，家族经营数代，房间窗户直接对着退尔雕像，在晨光与暮色中私享无人的广场，木板走廊吱呀作响满是故事。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`山景静谧之选`}</h4>
+                  <p className="text-sm text-green-800">{`坐落在小镇上方山坡上的Bed & Breakfast Altdorf，房间宽敞明亮，拥有一个种满鲜花的大露台，可以一边享用丰盛早餐一边俯瞰整个老城屋顶和远山全景。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`舒适现代之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`火车站对面的Hotel & Restaurant Bahnhof，交通极其便利，内部装饰温暖现代，餐厅提供地道的乌里州风味菜肴，是探索小镇后放松身心的可靠基地。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`家庭体验之选`}</h4>
+                  <p className="text-sm text-purple-800">{`老城边缘的Landgasthof Schlüssel，由传统农舍改造而成，氛围亲切如家，后院有小型游乐场，主人会热情推荐周边适合家庭的徒步小径。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔特多夫是非常安全的瑞士小镇，夜晚极其宁静。由于不是大规模旅游热点，住宿通常不难预订，但夏季徒步旺季和冬季滑雪季（它靠近安德马特等滑雪场）建议提前数周预定。住在镇上，你将有机会看到退尔广场在游客散去后，真正属于本地人的、灯火温馨的夜晚模样。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开阿尔特多夫时，我的背包里没有多出什么纪念品，但心里却好像被什么东西填满了。那不是激动人心的震撼，而是一种沉静而确信的温暖。我回想起的，不单是那座技艺高超的铜像，更是铜像下追逐鸽子的孩子，是广场边面包店里飘出的香气，是博物馆里那位管理员提起退尔传说时，眼中那份既认真又略带幽默的复杂神情。在这里，神话没有被供奉在不可触及的神坛上，而是被编织进了日常生活的经纬之中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求速成、热衷打卡的时代，阿尔特多夫提供了一种截然不同的旅行价值。它邀请你来的，不是验证一个课本上的故事，而是感受一种精神如何落地生根，如何成为一个社区共同呼吸的空气。它告诉你，自由、勇气这些宏大的词汇，其最真实的面貌，或许就体现在拒绝屈膝的倔强、守护家人的专注，以及经营好自己平凡生活的尊严里。这个群山环抱的小镇，像一块历经风雨却越发温润的古老琥珀，将一段激昂的传说，包裹在平和、坚实、美丽的现实生活之中。对于任何一位渴望在旅途中寻找故事温度与文化深度的旅人来说，阿尔特多夫都不是一个匆匆路过的小站，而是一个值得你停下脚步，深深呼吸，并与之静静对话的精神故乡。在这里，你会明白，有时候，一个民族最强大的力量，恰恰源于那些他们共同相信并生活着的美好故事。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/valle-muggio" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    穆
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">穆焦山谷</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Valle Muggio</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/aletsch-glacier" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿莱奇冰川</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Aletsch Glacier</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ascona-lago-maggiore" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿斯科纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ascona</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

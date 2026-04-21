@@ -1,0 +1,178 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '施派尔历史溯源｜帝国皇陵、红砖史诗与“输掉的和平”传说',
+  description: '探秘德国施派尔大教堂：神圣罗马帝国皇帝的终极安息之地。红砖罗曼式建筑的巅峰，见证帝国千年兴衰。这里埋葬着八位帝王，更流传着“输掉的和平”传奇。',
+}
+
+export default function SpeyerCathedralHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '施派尔', href: '/destinations/europe' },
+            { label: '施派尔大教堂', href: '/attractions/speyer-cathedral-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`施派尔大教堂・Speyer Cathedral・德国・施派尔`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在莱茵河畔，一座用赭红色砂岩砌成的巨人，已沉默伫立了整整十个世纪。它并非普通的教堂，而是<strong>神圣罗马帝国</strong>皇权的终极宣言与皇家家族的永恒寝宫。<strong>施派尔大教堂</strong>，一部用石头写就的萨利安王朝兴衰史，欧洲罗曼式建筑无可争议的王者。从<strong>1025年</strong>奠基的雄心，到<strong>1689年</strong>战火中的倾覆，再到十九世纪浪漫主义的重生，它的每一条砖缝都浸透着帝国的荣光与创伤。抛开游玩攻略，走进施派尔的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`施派尔大教堂`} />
+                <InfoRow label="英文名称" value={`Speyer Cathedral`} />
+                <InfoRow label="正式名称" value={`Speyer Cathedral`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`施派尔`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "施派尔的名字，源于拉丁语“<strong>Castrum Speyer</strong>”，意为“施派尔军营”。它的故事早在大教堂诞生前就已开始。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座城起源于古罗马人在莱茵河畔建立的一座边境堡垒，用以防范日耳曼部落。随着罗马势力消退，这里逐渐成为法兰克王国的一部分。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的转折点发生在<strong>萨利安法兰克人</strong>时期。施派尔所在的区域，是萨利安王朝的核心领地之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当<strong>康拉德二世</strong>于<strong>1024年</strong>被选为德意志国王（后加冕为神圣罗马帝国皇帝）时，他所属的萨利安家族急需一个强有力的权力象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他需要一座前所未有的建筑，来宣告新王朝的合法性与永恒性。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，他的目光投向了莱茵河畔的施派尔。这里不仅是他的家族故地，更具有战略与象征意义。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "选择在此建造皇家教堂，是深思熟虑的政治布局。它远离旧有的权力中心，意在建立全新的、属于萨利安皇帝的圣地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "教堂的官方名称为“<strong>圣母玛利亚和圣史蒂芬皇帝主教座堂</strong>”。从命名就直白宣告了其与帝国皇权的共生关系。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它从一开始，就被设定为帝国的中心教堂，以及萨利安王朝及其继任者的皇家陵寝。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1025年</strong>，工程在康拉德二世的主持下动工。这不仅仅是一次建筑活动，更是一场规模浩大的“权力演出”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初的构想极其宏伟：要建造当时基督教世界最大、最高的教堂。其规模之巨，足以令同时期的所有建筑黯然失色。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这种尺度是对上帝与皇权的双重致敬，也是对帝国疆域内所有诸侯的无声威慑。红砂岩墙体厚实沉重，给人一种坚不可摧的帝国印象。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，教堂的命运与帝国的命运紧密交织。第一个重大印记是<strong>亨利四世</strong>与教皇格里高利七世那场著名的权力斗争。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我，亨利国王，在听到您对我的判决后，深感恐惧……我恳求您的宽恕。”——据传亨利四世在卡诺莎的忏悔词。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位在<strong>卡诺莎之行</strong>中受尽屈辱的皇帝，最终和他的政敌教皇以奇特的方式“和解”了——他们都长眠于施派尔大教堂的地下室。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最深刻的伤痕来自于<strong>1689年</strong>。在<strong>九年战争</strong>中，法国国王路易十四的军队纵火焚毁了这座千年圣殿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "大火吞噬了木制屋顶，内部华丽的装饰化为灰烬，宏伟的西立面建筑群轰然倒塌。昔日帝国的象征，沦为一片冒烟的废墟。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这场毁灭是刻意为之，旨在抹去德意志民族的神圣罗马帝国记忆。教堂的残骸在接下来一个多世纪里，如同帝国破碎的躯壳，裸露在风雨中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转机出现在十九世纪。随着浪漫主义与民族主义思潮的兴起，德意志人开始重新审视自己的历史遗产。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>巴伐利亚国王路德维希一世</strong>成为了关键人物。他资助并推动了教堂的大规模修复与重建。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这次重建并非简单的复原，而是一次浪漫主义的历史想象。建筑师们试图“恢复”他们认为的教堂原初的中世纪荣耀。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，我们今天看到的西立面双塔、那高耸入云的八角形塔楼，以及彩绘的内部拱顶，都是这个时期的作品。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它成了一座“混血”的纪念碑：承载着十一世纪的基石与地宫，包裹着十九世纪的外衣与顶冠。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1981年，它因其在罗曼式建筑史上的卓越地位，以及作为欧洲历史见证的独特价值，被列入世界文化遗产名录。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座教堂的灵魂，与两位萨利安王朝的皇帝深深绑定。他们的故事，就是教堂最初百年的编年史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 奠基者：康拉德二世 (约990–1039)</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "康拉德二世是萨利安王朝的开创者，也是大教堂的奠基之父。他的登基充满了偶然与机遇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1024年，前一个王朝绝嗣，贵族们选举了这位并非出身最显赫的伯爵为国王。他急需巩固权力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "建造施派尔大教堂，是他最重要的政治投资。这不仅仅是一座建筑，更是一个王朝合法性的“石质证书”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他意图将这里打造成王朝的永恒之家。<strong>1039年</strong>，他在教堂尚未完全竣工时便去世了，成为了首位安葬于教堂地下室的皇帝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的石棺朴实无华，但这恰恰符合他务实、强硬的性格。他的遗骸至今仍静卧于地下 crypt 中，守护着他开创的基业。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "通过这座教堂，他成功地将一个地方性的家族墓地，提升为整个帝国的中心圣陵，重塑了德意志王权的葬礼传统。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. 悲剧皇帝：亨利四世 (1050–1106)</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "亨利四世的一生，是帝国与教权激烈斗争的缩影，他的结局与大教堂的命运一样，充满了悲剧色彩。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他最著名的事迹是<strong>1077年</strong>的“卡诺莎之行”。在与教皇格里高利七世的叙任权斗争中失利，他被开除教籍，面临诸侯叛乱。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位皇帝不得不在严冬翻越阿尔卑斯山，来到卡诺莎城堡，赤足立于雪地中三天，乞求教皇的宽恕。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这场公开的屈辱，虽暂时保住了王位，却深刻动摇了皇权的神圣性。他与教皇的斗争贯穿其一生。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "晚年，他遭到自己儿子的背叛和废黜，在权力斗争中孤独离世。起初，他因仍受教廷绝罚，不能被安葬在圣地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但最终，他的遗体被运回施派尔。经过漫长的谈判和其子的努力，教皇的禁令在<strong>1111年</strong>被解除。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "亨利四世得以最终安息在教堂地下室里，就在他的父亲亨利三世身旁。他的石棺上雕刻着庄严的皇帝形象，仿佛在无言中诉说着他一生的波澜与最终的平静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的入葬，标志着一场跨越时代的政教之争，在死亡面前达成了讽刺性的“和解”。他与他的死敌格里高利七世（其教廷理念影响深远）的故事，共同构成了教堂历史中最具戏剧性的章节。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "除了皇帝，另一位与教堂紧密相连的人物是<strong>主教里姆伯特</strong>。他是教堂建造初期的主持者，康拉德二世的忠实伙伴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说他事必躬亲，监督每一块石料的砌筑。他的尽职确保了教堂在创始皇帝去世后，工程仍能继续。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "围绕着这座巨石的诞生，当地流传着一个充满寓言色彩的故事，名为“<strong>输掉的和平</strong>”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说在筹划建造时，康拉德二世与魔鬼做了一个交易。魔鬼答应帮助建造这座举世无双的教堂，但代价是取走第一个走进教堂的生物的灵魂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "皇帝同意了。在教堂竣工之日，魔鬼得意地等在门口，准备收取灵魂作为报酬。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，康拉德二世并未违背承诺。他没有让任何人率先进去，而是命人驱赶一匹狼或一只公鸡（版本不一）率先冲进教堂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "被欺骗的魔鬼勃然大怒，却无可奈何。盛怒之下，他用手猛击教堂的西门，留下了一个深深的掌印（至今有指向前门的凹痕被称为“魔鬼之掌”）。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“狡猾的人类！你们赢走了我的劳作，却输掉了永远的和平！”魔鬼诅咒道，“从此，这座建筑将永无宁日，被争斗与火焰缠绕！”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说以神话的方式，预言了教堂多舛的命运。从<strong>亨利四世</strong>与教皇的争斗，到<strong>1689年</strong>法国人的焚毁，似乎都应验了“输掉的和平”这一诅咒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说关乎地下 crypt。这里是欧洲现存最大的罗马式柱厅，气氛庄严肃穆。共有八位德意志皇帝与国王、四位王后及多位主教长眠于此。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说在万灵节前后，地下 crypt 中会传出低沉的叹息与铠甲摩擦之声。那是沉睡的帝王们在梦中仍在为帝国的往事而叹息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当地人说，这不是恐怖的幽灵，而是历史的回响。这些声音提醒着生者，荣耀与尘埃，最终都归于这永恒的寂静。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，当你站在施派尔大教堂空旷的中殿，阳光透过高窗洒在赭红色的砂岩上，你触摸的不仅是一座建筑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你触摸的是<strong>神圣罗马帝国</strong>童年期的雄心与焦虑，是政教撕裂欧洲时的痛苦烙印，是民族意识在废墟中重新觉醒的浪漫诗篇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它不是凝固的音乐，而是石头的史书。每一块重建的砖石，都写着“记忆”；每一处古老的遗存，都刻着“根源”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里没有轻浮的游客喧嚣，只有沉重的历史呼吸。它是理解德意志乃至欧洲中世纪王权、信仰与艺术之间复杂博弈的一把钥匙。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂施派尔，便读懂了一段帝国试图在人间建立永恒秩序的史诗，以及这部史诗最终如何化为一段供人凭吊的、壮丽的废墟美学。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/quedlinburg-old-town-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奎
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奎德林堡老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Quedlinburg</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/zons" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    措
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">措恩斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zons</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/blankenburg-harz-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布兰肯堡 (哈茨山脉)</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Blankenburg (Harz)</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

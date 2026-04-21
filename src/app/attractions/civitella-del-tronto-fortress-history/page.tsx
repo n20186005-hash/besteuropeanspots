@@ -1,0 +1,139 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '奇维泰拉-德尔特龙托历史溯源｜欧洲最大波旁要塞村的陷落、重生与隐秘传奇',
+  description: '探秘意大利最后的波旁堡垒。一座悬崖小镇如何抵抗统一洪流？深入欧洲最壮观的山顶要塞，解码其尘封的围攻日记、流亡贵族与守护幽灵的故事。',
+}
+
+export default function CivitellaDelTrontoFortressHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '阿布鲁佐', href: '/destinations/italy' },
+            { label: '奇维泰拉-德尔特龙托', href: '/attractions/civitella-del-tronto-fortress-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`奇维泰拉-德尔特龙托・Civitella del Tronto・意大利・阿布鲁佐`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在意大利粗犷的阿布鲁佐山区，有一座小镇，它的命运与一道长达500米的巨石城墙死死捆绑。这里不是托斯卡纳的明信片山村，而是<strong>欧洲现存规模最大的波旁王朝军事要塞</strong>。1861年3月20日，当新兴的意大利王国已在半岛大部分地区宣告成立，这里的守军仍为覆灭的两西西里王国降下了最后一面旗帜。它的历史，是一部关于忠诚、终结与坚韧的悬崖编年史。抛开游玩攻略，走进<strong>奇维泰拉-德尔特龙托</strong>的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`奇维泰拉-德尔特龙托`} />
+                <InfoRow label="英文名称" value={`Civitella del Tronto`} />
+                <InfoRow label="正式名称" value={`Civitella del Tronto`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`阿布鲁佐`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "奇维泰拉的故事，始于刀锋般的山脊之上。其名“Civitella”源于拉丁语“Civitas”，意为“小城邦”；“del Tronto”则指明了它俯瞰特龙托河谷的战略位置。公元10世纪左右，最早的定居点在此出现，初衷并非田园诗，而是生存与防御。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在动荡的中世纪早期，沿海居民为躲避萨拉森海盗的频繁袭扰，被迫向内陆高山迁徙。这座海拔近600米的岩石山巅，因其三面悬崖、易守难攻的天险，成为了完美的天然避难所。最初的建筑紧贴岩壁，道路狭窄如缝，这并非出于美学，而是严峻安全考量的结果。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇的雏形，是一个自给自足的<strong>边境哨所</strong>。它位于教皇国与那不勒斯王国（后为两西西里王国）模糊而敏感的边界线上。这种“前沿”属性，深深烙进了它的基因。它生来就是瞭望者、守卫者，而非繁华的商业中心。石头是这里唯一的主角，从房屋到街道，冰冷而坚硬，诉说着最初居民在乱世中求存的坚定决心。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇的命运转折点，在于它被军事帝国选中。16世纪中叶，西班牙哈布斯堡王朝统治着南意大利。面对法国入侵的威胁和本地土匪的骚扰，总督决定将这里打造成一个永不陷落的堡垒。<strong>1557年</strong>，工程师<strong>加西亚·德·托莱多</strong>主持了首次大规模要塞建设。但真正的巨变，属于波旁时代。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "18世纪中叶，波旁王朝的两西西里国王<strong>卡洛三世</strong>，决心建造一个现代化的军事工程奇迹。他聘请顶尖军事工程师，进行了史诗般的扩建。我们今天看到的庞大要塞主体，便源于此时期。它不再是中世纪城堡，而是一个拥有兵营、指挥部、教堂、监狱、蓄水池乃至面包房的<strong>立体化山中堡垒城</strong>，可长期驻扎上千名士兵。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，这座为守护王国而生的要塞，最终却见证了王国的终结。<strong>1860-1861年</strong>的意大利统一战争（复兴运动）是它最悲壮的时刻。加里波第的红衫军已征服南方，维托里奥·埃马努埃莱二世即将加冕为意大利国王。奇维泰拉，成了波旁王朝在亚平宁半岛最后的据点之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从1860年11月到<strong>1861年3月20日</strong>，不足400名波旁守军和部分忠诚的镇民，在这座悬崖要塞中，抵挡了皮埃蒙特王国军队长达数月的猛烈围攻。孤立无援，补给断绝，他们依靠对旧王朝的忠诚和要塞的坚固苦苦支撑。最终，在王国已不复存在的消息确认后，守军才体面地放下武器。这场“最后的围攻”，为意大利的统一画上了一个充满矛盾与牺牲的句号，也让奇维泰拉永远载入了史册。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "与这座军事要塞共生的，往往是军人的面孔。其中最具悲剧色彩的一位，是末代守军指挥官<strong>皮埃特罗·瓜莱里奥上校</strong>。然而，更令人动容的细节，来自一位中级军官的日记。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>埃马努埃莱·迪·洛伊肖少校</strong>，一个并非出身顶层的职业军人，在围攻期间留下了珍贵的私人记录。他的日记没有宏大叙事，只有严寒、饥饿、炮弹的呼啸以及对远方家人的思念。他在日记中写道，士兵们不得不杀掉最后的战马充饥，而镇里一些妇女偷偷将本已稀缺的面包塞给站岗的年轻士兵。这些文字，将史诗般的围攻还原为一个个血肉之躯的日常煎熬。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“<strong>1861年2月14日</strong>，情人节。雪封锁了一切。哨兵的脸冻伤了。我们谈论的不是爱情，是洋葱。地窖里最后一点洋葱的香味，成了全要塞的奢望。今天，有一个来自博洛尼亚的年轻学生兵哭了，不是因为害怕炮弹，而是因为他想起母亲做的汤。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "迪·洛伊肖少校在投降后幸存，但像许多前波旁军官一样，在新生的意大利国家中边缘化，郁郁而终。他的日记手稿沉睡百年，最终成为解读那段历史最人性化的密码。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇还孕育了另一种截然不同的灵魂——作曲家<strong>弗朗切斯科·保罗·托斯蒂</strong>（1846-1916）。他出生于奇维泰拉一个富裕家庭，自幼展现出音乐天赋。然而，这座保守的军事重镇似乎容不下他艺术家的敏感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "青年托斯蒂前往罗马、后来长期旅居伦敦，成为沙龙音乐大师，尤其以优雅感伤的浪漫歌曲闻名，如《再见》、《小夜曲》。他服务英国王室，名流云集，与故乡的石头堡垒和边境风云仿佛两个世界。但晚年，一种深刻的乡愁缠绕着他。他的音乐中那份精致的忧郁，或许正源自阿布鲁佐山区的凌厉与故乡那座无法回去的、充满沉重记忆的悬崖之城。他最终葬于罗马，但奇维泰拉仍以这位“逃离”的儿子为傲，他的故居默默诉说着一种选择：不是所有人都注定与堡垒共存亡，有些人用另一种方式，让故乡的名字在世界的沙龙中低回。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如此坚硬的要塞，自然缠绕着柔软的鬼魂。当地流传最广的传说，是关于“<strong>要塞新娘</strong>”（La Sposa della Fortezza）的。故事说，在16世纪的一次盛大婚礼上，新郎是一位年轻军官，新娘是镇上最美的姑娘。婚礼正在要塞内举行，突然警报响起，敌军突袭。新郎毫不犹豫地冲上城墙指挥战斗，不幸被流矢击中身亡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "新娘得知噩耗，没有哭泣。她穿着洁白的婚纱，一步步走上新郎战死的城墙垛口，纵身跃下悬崖。从此，每当月圆之夜或暴风雨来临前，人们都说能看到一个白色的身影在城墙上游荡，不是在哭泣，而是在平静地巡视，仿佛接替了她的爱人，永远守护着这座堡垒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则与一口井有关。在要塞最深的庭院里，有一口名为“<strong>希望之井</strong>”的古井。据说在漫长的围城期间，井水几乎干涸。一天夜里，驻守的老神父梦见圣母玛利亚指示他某块墙壁。第二天，人们敲开那里，发现了一处隐秘的泉眼，细流涓涓，虽不足以解决危机，却极大地鼓舞了守军的士气。至今，这口井依然存在，被视为坚韧与奇迹的象征。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日的奇维泰拉，宁静而傲然。漫步在它的主街“国王之路”上，脚下是波旁国王曾踏过的石板，两旁是中世纪的拱门与文艺复兴的宫殿立面。而头顶，那座巨大的要塞如同山的王冠，沉默地覆盖一切。它不再发射炮弹，而是向天空发射着历史的重量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂奇维泰拉，意味着读懂一种“<strong>终结之美</strong>”。它并非胜利者的纪念碑，而是一个旧时代忠诚、倔强直至最后一刻的化石。这里的每一块石头，都浸泡过亚平宁统一过程中那些被主流叙事忽略的复杂性、地方忠诚与国家理念的冲突。它提醒我们，历史的前进，从不只是欢庆的凯歌，也包含悬崖之上孤堡的沉默陷落。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座小镇的魅力，正在于这种矛盾的统一：极致的军事严谨与意大利小镇的生活柔情，壮丽的毁灭与顽强的重生。它不是一座“死”的博物馆，而是一个依然在呼吸的、将史诗承载于日常的社区。当你触摸它冰凉的城墙，你触摸的是欧洲近代史一个决定性的句点，以及句点之后，生命如何继续在悬崖边绽放的永恒故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？如何抵达这座天空之城、要塞博物馆探秘、地道美食推荐及步行路线，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/civita-di-bagnoregio" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    白
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">白露里治奥古城（天空之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Civita di Bagnoregio</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lecce-baroque-old-town-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莱
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莱切巴洛克老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lecce (Florence of the South)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/vitorchiano-cliff-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维托尔基亚诺</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vitorchiano</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

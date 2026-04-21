@@ -1,0 +1,231 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '圣安蒂奥科 Sant‘Antioco｜探访连接天地的撒丁岛隐秘古城，潜入三千年地下墓穴，触摸“海之王丝” - 最佳欧洲景点',
+  description: '开车穿过那条像细线一样缝合撒丁岛主岛与圣安蒂奥科岛的人工地峡时，你会感觉正驶向世界的边缘。两边是闪着碎钻光芒的浅海，风里有浓烈的盐和野茴香的味道。然后，一个被阳光晒得发白的、低矮而宁静的小镇出现在眼前。第一印象？它太不起眼了，就像任何一个慵懒的地中海渔村。但秘密，都藏在地下和巷陌深处。 走在镇子的石',
+}
+
+export default function SantAntiocoSardiniaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '撒丁岛圣安蒂奥科镇（通过人工地峡与撒丁岛主岛相连）', href: '/destinations/italy' },
+            { label: '圣安蒂奥科', href: '/attractions/sant-antioco-sardinia' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`圣安蒂奥科・Sant‘Antioco・意大利・撒丁岛圣安蒂奥科镇（通过人工地峡与撒丁岛主岛相连）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`开车穿过那条像细线一样缝合撒丁岛主岛与圣安蒂奥科岛的人工地峡时，你会感觉正驶向世界的边缘。两边是闪着碎钻光芒的浅海，风里有浓烈的盐和野茴香的味道。然后，一个被阳光晒得发白的、低矮而宁静的小镇出现在眼前。第一印象？它太不起眼了，就像任何一个慵懒的地中海渔村。但秘密，都藏在地下和巷陌深处。
+走在镇子的石板路上，脚下偶尔会传来空洞的轻响——那不是你的错觉。整个小镇就建在一个巨大的、蜂窝状的地下世界上方。阳光炽烈，把墙壁烤得滚烫，空气里飘着晾晒的渔网和海藻的腥气，混杂着某户人家飘出的炖羊肉和迷迭香的浓郁香气。教堂的钟声懒洋洋地敲响，老人们坐在广场树荫下，用你听不懂的撒丁方言交谈，眼神像身后的海水一样深。这里的节奏不是“慢”，而是另一种维度的时间，深厚而绵长。
+但圣安蒂奥科最打动人心的，是两种极致的对比与共存。一种是关于死亡的宏大与寂静：深入地下，那是跨越三千年的墓穴长廊，无数灵魂安息的黑暗空间，冰冷、肃穆，刻满了古老的符号。另一种则是关于生命的极致细腻与坚韧：在某个不起眼的工作坊里，一位老人正用近乎失传的技艺，将从地中海特有的一种“海丝蛤”足丝中提取的、比头发还细的金色纤维，纺织成一片轻薄如雾、闪耀着月光般光泽的织物——这就是传说中的“海之王丝”。从深邃的死亡归宿，到用最脆弱的海生物创造出的、象征永恒华美的织物，这种哲学般的对立与统一，就是圣安蒂奥科的核心魅力。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "开车穿过那条像细线一样缝合撒丁岛主岛与圣安蒂奥科岛的人工地峡时，你会感觉正驶向世界的边缘。两边是闪着碎钻光芒的浅海，风里有浓烈的盐和野茴香的味道。然后，一个被阳光晒得发白的、低矮而宁静的小镇出现在眼前。第一印象？它太不起眼了，就像任何一个慵懒的地中海渔村。但秘密，都藏在地下和巷陌深处。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走在镇子的石板路上，脚下偶尔会传来空洞的轻响——那不是你的错觉。整个小镇就建在一个巨大的、蜂窝状的地下世界上方。阳光炽烈，把墙壁烤得滚烫，空气里飘着晾晒的渔网和海藻的腥气，混杂着某户人家飘出的炖羊肉和迷迭香的浓郁香气。教堂的钟声懒洋洋地敲响，老人们坐在广场树荫下，用你听不懂的撒丁方言交谈，眼神像身后的海水一样深。这里的节奏不是“慢”，而是另一种维度的时间，深厚而绵长。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但圣安蒂奥科最打动人心的，是两种极致的对比与共存。一种是关于死亡的宏大与寂静：深入地下，那是跨越三千年的墓穴长廊，无数灵魂安息的黑暗空间，冰冷、肃穆，刻满了古老的符号。另一种则是关于生命的极致细腻与坚韧：在某个不起眼的工作坊里，一位老人正用近乎失传的技艺，将从地中海特有的一种“海丝蛤”足丝中提取的、比头发还细的金色纤维，纺织成一片轻薄如雾、闪耀着月光般光泽的织物——这就是传说中的“海之王丝”。从深邃的死亡归宿，到用最脆弱的海生物创造出的、象征永恒华美的织物，这种哲学般的对立与统一，就是圣安蒂奥科的核心魅力。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`圣安蒂奥科`} />
+                <InfoRow label="英文名称" value={`Sant‘Antioco`} />
+                <InfoRow label="正式名称" value={`Sant‘Antioco`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`撒丁岛圣安蒂奥科镇（通过人工地峡与撒丁岛主岛相连）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`圣安蒂奥科是腓尼基人在西地中海最早建立的殖民地之一，其庞大的地下墓穴网络是前基督教时代丧葬文化的罕见见证，而延续至今的“海丝”纺织技艺更是全球孤本。`} />
+                <InfoRow label="建筑特色" value={`地面之上是朴素的地中海小镇风貌，地面之下却隐藏着跨越千年的、迷宫般的多层地下墓穴，构成一个“倒置的城市”。`} />
+                <InfoRow label="建筑风格" value={`腓尼基基础结构之上，叠加了古罗马的扩建与中世纪至今的不断改建，形成独特的地中海混合风格。`} />
+                <InfoRow label="文化价值" value={`这里不仅是一处考古遗址，更是一个活态的文化层，从史前、腓尼基、罗马、中世纪到现代的手工艺传承，层层叠叠，至今仍在呼吸。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`考古区与地下墓穴（Catacombe）：夏季（4月1日-9月30日）每日9:30-19:00，最后入场时间18:15；冬季（10月1日-3月31日）周二至周日9:30-17:30，周一闭馆（除非是节假日）。海丝（Bisso）博物馆与作坊开放时间较为灵活，建议提前在市政旅游网站查询或电话预约。镇上的主要教堂全年开放，但内部博物馆有午休时间（通常13:00-15:30关闭）。`} />
+              <InfoRow label="门票价格" value={`考古区与地下墓穴联票：全价12欧元，优惠票（65岁以上、18-25岁学生）10欧元，18岁以下免费。仅参观考古博物馆或仅参观地下墓穴：各8欧元。海丝博物馆参观（通常包含大师演示）：建议捐赠5-10欧元。门票可在考古区入口处购买。`} />
+              <InfoRow label="地址" value={`Piazza della Repubblica, 1, 09017 Sant‘Antioco SU, Italia`} />
+              <InfoRow label="交通方式" value={`从撒丁岛主岛最近的卡利亚里机场（Cagliari）出发，驾车沿SS130公路向西，约1小时15分钟即可通过那条迷人的人工地峡抵达圣安蒂奥科岛，沿途海景绝佳。公共交通稍复杂：先从卡利亚里火车站乘坐前往伊格莱西亚斯的火车（约1小时），再换乘当地ARST巴士前往圣安蒂奥科镇（约30-40分钟，班次有限，每日约4-6班，务必提前查好时刻表）。最自在的方式无疑是租车自驾，自由探索岛屿各处。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从三千年前讲起。一队腓尼基航海家，这些古代地中海的“商人兼探险家”，驾着他们的长船沿着撒丁岛西南海岸寻找安全的港湾和贸易站。他们发现了这个与主岛隔海相望的小岛，给它起名叫“苏尔奇”。这里地势易守难攻，有良港，更关键的是，岛上有丰富的矿产和盐田。于是，一个殖民地诞生了。这些精于航海和贸易的民族，不仅在地上建起了神庙、房屋和工坊，更按照他们的传统，开始向地下挖掘，为逝者建造永恒的居所——最初的墓穴网络就这样开始了。他们相信，死者应该被妥善安置，远离生者的领域，但又不能太远。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转，腓尼基的荣光逐渐被罗马的鹰旗取代。罗马人来了，他们看中了这里的战略位置和渔业资源。罗马人没有摧毁这里，而是习惯性地在上面叠加自己的文明。他们扩建了港口，修建了引水渠，也给地下世界带来了新的“居民”。罗马时期的墓穴沿着腓尼基的脉络继续开凿，墓室的形制、陪葬的器物（灯、油瓶、硬币）都带上了罗马的风格。你可以想象，在长达数百年的时间里，地面上是忙碌的罗马小镇，地下则是按家族、按时代有序排列的漫长寂静。有趣的是，早期的基督徒也悄然使用了一部分墓穴，留下了一些简单的十字架符号，与更古老的异教符号共处一室。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "中世纪早期，蛮族入侵和海盗劫掠让海岸变得危险。地面上的繁荣城镇萎缩了，很多人甚至忘记了地下那些错综复杂的通道。直到公元二世纪，一位来自北非毛里塔尼亚的年轻基督徒殉道者——圣安蒂奥科的遗骸据说被带到这里安葬，小镇因此得名，并围绕他的圣祠重新发展起来。人们在他的坟墓上方建起了教堂，而地下那些古老的墓穴，在战乱时期再次成为活人的避难所。历史在这里开了一个轮回：从死者的城市，又变回生者的庇护所。那些被烟熏黑的洞顶，也许就诉说着某个家族在躲避萨拉森海盗时，在此担惊受怕点燃火把的故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "近现代，圣安蒂奥科一直是一个以渔业和农业为主的安静角落。直到考古学的曙光降临。十九世纪末开始，学者们系统地发掘和清理了部分地下墓穴，震惊于世。但比石头更柔软的遗产，却在民间悄然延续。那就是“海丝”技艺。这门技艺的源头可能比腓尼基人更古老，与地中海的古老文明息息相关。它需要从“海丝蛤”的足丝中手工分离出那缕珍贵的、带有丝绸光泽的天然金线，再以古老的手纺车和织机纺织。过程极其繁复，产量以厘米计算。在二十世纪，这门技艺几乎灭绝。直到本地一位名叫埃菲西奥·普茨的渔民，从小跟随祖母学习，用一生的孤独坚持，成为了世界上最后一位掌握全套“海丝”工艺的大师。他守护的不是一件产品，而是一个从海洋深处连接到人类手指的、关于耐心与美的古老神话。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正感受圣安蒂奥科，你需要整整一天时间，并且最好在上午九点前抵达，以避开撒丁岛午后灼热的阳光。整体节奏应该是“先下后上，先古后今”：上午光线尚好、头脑清晰时，去探索阴凉但需要集中精神的地下世界；下午感受地面小镇的生活气息，并拜访那间充满生命温度的手工作坊。这样安排能让你清晰感受到这个地方从“死亡与历史”到“生命与传承”的完整脉络，体验一场从黑暗走向光明的时空之旅。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`地下墓穴内全年恒温约15-17度，且潮湿，即使外面酷热也务必带一件薄外套。参观海丝作坊是极大的荣幸，务必保持绝对安静，未经明确允许千万不要拍照或触摸。小镇周日和午后许多店铺餐馆会关门休息，计划午餐要趁早或自备零食。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨先从考古博物馆开始，那里精致的腓尼基小雕像和罗马玻璃器会让你对即将进入的时空有个温暖的预习。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`然后毫不犹豫地钻进毗邻博物馆的地下墓穴入口，让眼睛适应昏暗，沿着蜿蜒的阶梯下降，用手轻轻触摸那些被千万次摩挲过的、刻有古老“塔尼特”女神符号的墓室门楣。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从地下重返阳光后，慢慢踱步到山顶的圣安蒂奥科殉道者教堂，在朴素的前廊坐下，俯瞰整个小镇的红色屋顶和远处湛蓝的两片海。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山穿过迷宫般的小巷，留意那些突然出现的、通往地下墓穴其他入口的铁栅栏门，想象它们如同时间的井口。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`根据提前预约的时间，去拜访海丝大师（或他的传承人）的工作室，安静地看他如何从一团纠结的褐色“海草”中，魔法般地理出一缕金色光泽。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前，一定要开车或步行到小镇西北角的“苏尔奇”腓尼基-罗马考古区，站在残存的城墙和神庙地基上，看夕阳把整片遗迹和远处的海染成金色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐就在港口边的家庭餐馆解决，点一份用当地“ bottarga”（腌金枪鱼卵）做的意面，味道咸鲜，仿佛浓缩了大海和历史。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`人工地峡远眺点`}</h4>
+                  <p className="text-sm text-gray-700">{`在从主岛驶向圣安蒂奥科的人工地峡中途，有一个小小的观景台，黄昏时分在此可以拍摄到小镇全景沐浴在金色夕阳下，长长的地峡如一道光路劈开碧海。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`地下墓穴光影通道`}</h4>
+                  <p className="text-sm text-gray-700">{`在墓穴的某些交叉口，管理方设置了柔和的灯光，选择一个有阶梯纵深的视角，利用灯光的引导线，可以拍出充满神秘感和历史纵深感的照片。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`海丝作坊的微观世界`}</h4>
+                  <p className="text-sm text-gray-700">{`如果获得许可，将镜头对准大师布满皱纹的双手与正在纺车上成形的、几乎看不见的金色丝线，使用大光圈特写，捕捉技艺与时间对抗的瞬间。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣安蒂奥科教堂钟楼俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`爬上教堂旁的矮墙（注意安全），用广角镜头拍下教堂前广场、层层叠叠的屋顶与远方两个海湾（东侧的圣安蒂奥科湾和西侧的外海）同框的绝妙构图。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`地下墓穴内禁用闪光灯，高感光度的相机或手机夜间模式非常有用。拍摄当地居民尤其是老人，一个微笑和简单的手势询问是最好的“通行证”。三脚架在狭窄的墓穴和教堂内通常不被允许，如需使用最好提前申请。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`海港风情`}</h4>
+                  <p className="text-sm text-blue-800">{`港口边那些刷成蓝色或粉色的小型家庭旅馆，推开窗就是桅杆摇曳的风景，晚上能听到轻柔的海浪声和归航渔船的引擎低鸣。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`古城怀抱`}</h4>
+                  <p className="text-sm text-green-800">{`由古老石屋改造的精品民宿，隐藏在小镇中心的静谧巷弄里，房间有着裸露的原始石墙和拱顶，店主早上会送来新鲜烤制的“纸拖鞋”面包和自制果酱。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园牧歌`}</h4>
+                  <p className="text-sm text-yellow-800">{`在岛屿的内陆区域，靠近腓尼基考古区的乡村农庄，被橄榄树和无花果树环绕，拥有宽阔的庭院和泳池，夜晚能看见毫无光污染的璀璨银河。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`现代简约`}</h4>
+                  <p className="text-sm text-purple-800">{`如果你需要更现代的舒适，人工地峡入口处有几家设计感很强的四星级酒店，拥有全景海景露台和无边泳池，是放松身心的完美基地。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（7-8月）是撒丁岛的超级旺季，住宿价格飙升且一房难求，务必提前数月预订。如果想体验真正的本地生活，选择镇中心的民宿是最好的。岛上整体非常安全，夜晚独自在老街散步也很惬意。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开圣安蒂奥科时，我的手里仿佛还残留着地下墓穴石壁的冰凉触感，和那缕海丝若有若无的、阳光般的温暖。这真是一个奇妙的地方，它把最厚重的死亡与最轻盈的生命，如此和谐地编织在了一起。地下的墓穴是沉默的史诗，讲述了征服、贸易、信仰与遗忘；而地上的那缕金丝，则是仍在跳动的脉搏，讲述着坚持、耐心与对极致之美的信仰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、一切都在加速数字化的时代，圣安蒂奥科像一个固执的隐喻。它提醒我们，有些深度需要向下挖掘，有些价值需要时间的沉淀，有些美脆弱到近乎神话，却正因如此才值得用一生去守护。它不仅仅是一个旅游目的地，更是一堂关于时间、记忆与传承的沉浸式哲学课。每一位热爱深度游的旅人，都应该来感受一下这种脚踩历史、手触传奇的奇妙体验，它会让你重新思考，什么才是我们值得连接与传递的“遗产”。来这里，不只是看风景，更是为了校准内心与时间的关系。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/bard-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴德堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bard Fortress</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/orvieto-cathedral-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔维耶托大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Orvieto Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/martina-franca" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    马
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马丁纳弗兰卡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Martina Franca</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,152 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '多扎历史溯源｜壁画城堡的前世今生与艺术传奇',
+  description: '穿越多扎千年时光，从军事要塞到露天画布。在壁画城堡探寻历史与艺术的完美交响，解锁宝藏小镇的隐秘故事。',
+}
+
+export default function DozzaHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '艾米利亚-罗马涅', href: '/destinations/italy' },
+            { label: '多扎', href: '/attractions/dozza-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`多扎・Dozza・意大利・艾米利亚-罗马涅`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在艾米利亚-罗马涅的丘陵间，藏着两个多扎——一个是始建于中世纪的石头堡垒，另一个是诞生于二十世纪的露天画廊。这座人口不足千人的小镇，因其墙壁上绵延不绝的当代壁画而闻名于世，被誉为“意大利壁画之城”。然而，鲜少有人追问，在画笔与颜料覆盖之前，这片山脊之上究竟镌刻着怎样的过往？抛开游玩攻略，走进多扎的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`多扎`} />
+                <InfoRow label="英文名称" value={`Dozza`} />
+                <InfoRow label="正式名称" value={`Dozza`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`艾米利亚-罗马涅`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "多扎的故事，始于刀兵，而非画笔。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最早的历史记载可追溯到<strong>1116年</strong>。彼时，这片俯瞰里诺河与塞特河交汇处的山丘，其战略价值不言而喻。博洛尼亚的主教们看中了这里，最初的定居点很可能是一个由他们控制的<strong>军事前哨和税收据点</strong>。它的名字“Dozza”来源扑朔迷离，一说可能源于拉丁语“Dulcia”（意为甜美之地，指其丰饶），但更可能源自一个名为“Docius”或“Dozius”的早期领主。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在教权与皇权激烈斗争的年代，位置即是命运。多扎恰好位于<strong>教皇派</strong>（归尔甫）与<strong>皇帝派</strong>（吉伯林）两大阵营拉锯的前沿。因此，它的早期历史充满了动荡与易主。石墙与塔楼并非为了美学，而是生存的必需。小镇的轮廓——那沿着山脊线紧凑排列的房屋、陡峭的阶梯和唯一的入口——从一开始就被设计为易守难攻的<strong>堡垒形态</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的“小众”与“冷门”，恰恰源于这份厚重的军事出身。在几个世纪里，它始终是地区权力棋盘上的一枚棋子，而非主角。这种边缘性，意外地为它保存下完整的中世纪肌理，静待数百年后一场色彩的革命将其重新唤醒。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光在多扎留下了两道最深的刻痕：<strong>马拉泰斯塔家族的统治</strong>与<strong>壁画双年展的诞生</strong>。前者塑造了它的形体，后者则赋予了它不朽的灵魂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一道印记：石头堡垒的奠定者</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "15世纪，多扎迎来了决定性的主人——<strong>马拉泰斯塔家族</strong>。这个以里米尼为基地的显赫家族，以军事才能、艺术赞助和复杂的权谋著称。1466年，<strong>教皇保罗二世</strong>将多扎封给<strong>卡洛·马拉泰斯塔</strong>。马拉泰斯塔家族在此留下了至今仍是小镇心脏的建筑：<strong>罗卡</strong>（城堡）。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“坚固的城堡是权力的象征，也是馈赠给未来岁月的礼物。” —— 同时代编年史对贵族修建城堡的普遍记载。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座城堡并非凭空新建，而是在更早的防御工事基础上加固、扩建而成。它标志着多扎从一个简陋的军事据点，向一个拥有领主宅邸、具备行政与居住功能的<strong>封建庄园中心</strong>的转变。城堡的厚重墙壁、拱形地窖和了望塔，诉说着那个武力即真理的时代。在随后的几个世纪里，城堡多次易手，历经<strong>本蒂沃利奥</strong>、<strong>卡米洛·普罗斯佩里</strong>等家族，但其核心结构得以保存，最终在1960年被多扎市政府购得，命运再次转折。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二道印记：从防御之墙到画布之墙</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说城堡的石头是历史的骨骼，那么遍布全镇的壁画就是它焕发的神采。这一切始于<strong>1965年</strong>。那一年，一位富有远见的文化推动者提议，将正在修复的城堡地窖用于举办当代艺术展。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个看似偶然的点子，催生了 <strong>“多扎壁画双年展”</strong>。其核心理念革命性且简单：邀请意大利及国际知名的艺术家，直接在镇内房屋的外墙上进行创作，主题由艺术家自由发挥，但作品永久留存。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一届双年展于<strong>1965年</strong>举办，从此每两年一次，从未间断。第一幅壁画就此诞生。古老的石墙，这些曾经用于抵御外敌、划分界限的壁垒，被彻底重新定义。它们变成了与天空相连的<strong>公共画布</strong>，变成了艺术与社区、历史与当下对话的媒介。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这一创举，被记录在市政档案与早期参与者的回忆中，被视为一场平静而彻底的文化“政变”。多扎从此拥有了双重生命：一个看得见的中世纪躯壳，和一个不断生长、变化的当代艺术灵魂。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在多扎的艺术传奇中，<strong>乔治·德·基里科</strong> 的身影犹如一个神秘的锚点。这位<strong>形而上学画派</strong>的奠基人，虽非多扎本地人，却以一种深刻而意外的方式，与这座小镇的命运交织在一起。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>乔治·德·基里科：形而上学大师的遗产</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>德·基里科</strong>以其充满谜团、光影错置、将古典雕塑与现代道具并置的梦幻场景而闻名。他影响了超现实主义，却始终行走在自己的哲学道路上。他与多扎的关联，始于他的一位亲密友人兼赞助人——<strong>画家兼收藏家朱利奥·利卡尔迪</strong>。利卡尔迪深深着迷于多扎壁画双年展的构想。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "正是通过利卡尔迪的力邀，<strong>德·基里科</strong>在1975年第十届壁画双年展上留下了他唯一的室外大型壁画作品。这幅名为 <strong>《酒神颂》</strong> 的壁画，绘制在城堡入口附近一栋房子的山墙上。画中展现了他标志性的意象：空旷的广场、长长的阴影、古典风格的躯干雕像。这幅画的出现，如同为这个新兴的“壁画小镇”项目，盖上了一枚权威的<strong>艺术认证印章</strong>。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我画我看到的，和我看不见的。” —— 乔治·德·基里科" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，故事并未结束。德·基里科于<strong>1978年</strong>在罗马逝世。根据他的遗嘱，其庞大的个人艺术收藏——包括他自己的数百幅画作、素描，以及其弟<strong>阿尔贝托·萨维尼奥</strong>的文学作品手稿等——并未留给任何大型国家博物馆，而是出人意料地遗赠给了<strong>多扎市</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这份厚重的遗产，如今安放在多扎城堡的 <strong>“德·基里科基金会”</strong> 展厅内。这使得这座偏远小镇的城堡，成为世界上研究德·基里科艺术最重要的中心之一。一个世界级大师的毕生心血，最终归宿竟是一个城墙不足一公里的小镇。这本身就是一段充满形而上学色彩的传奇——现实与超现实的交织，偶然与必然的对话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "除了德·基里科，每一届双年展都像一次艺术家的朝圣。从<strong>布鲁诺·萨埃尔</strong>、<strong>塞巴斯蒂亚诺·万尼</strong>到<strong>恩佐·库基</strong>，众多意大利战后重要艺术家的名字和作品，永久地留在了多扎的街巷转角。他们不是匆匆过客，而是以壁画为碑，将自己的一个片段永远融入了小镇的呼吸之中。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在多扎，并非所有故事都以颜料和签名告终。在艺术的光晕之下，更古老、更幽微的低语仍在石缝间流传。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其中最动人的传说，关乎小镇的主城门——<strong>“泪之门”</strong>。这道拱门是进入中世纪核心区的唯一通道，其名并非来自建筑特征，而是一段凄美的爱情故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "相传在遥远的过去，镇上一位美丽的姑娘爱上了一位来自敌对城镇的年轻骑士。他们的恋情为家族与世俗所不容。骑士被迫离开，奔赴远方战场。临行前，他与姑娘约定，待战争结束，必将归来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "姑娘深信不疑。自此之后，<strong>每一个黄昏，她都会登上城门旁的塔楼，或倚在门洞边，眺望远方的道路</strong>。日复一日，年复一年，她的眼泪无声滑落，浸湿了门边的石头。直到青丝成雪，她等待的身影依然在那里，最终化作城门的一部分。人们说，至今在某些细雨迷蒙的傍晚，仍能听到门洞处传来细微的、如叹息般的呜咽，那是思念穿越时间的回响。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“石墙记得每一滴为爱而流的泪，它将悲伤凝固成永恒的守望。” —— 当地老人口述的传说版本。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说，为冰冷的防御工事注入了人性的温度。它也解释了为何多扎的墙壁，似乎天生就准备好去承载情感与故事——无论是用泪水，还是用颜料。当今天的游客穿过“泪之门”，他们不仅跨越了空间，也步入了由传说、历史和艺术共同编织的叙事场域。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日漫步多扎，每一步都是时光的叠印。指尖划过粗糙的十四世纪石墙，目光所及却是二十世纪后半叶最鲜活的艺术创造。城堡地窖里回荡着马拉泰斯塔时代的冷峻，而窗外的墙壁上，色彩正与地中海阳光嬉戏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂多扎，便是读懂一种奇迹般的<strong>转化与共生</strong>。它并未将自己博物馆化，成为一具中世纪的干尸；也未曾割裂过去，盲目追求现代。它找到了一条独一无二的路径：<strong>用最当代的笔触，去书写最古老的书页</strong>。每一幅壁画都不是涂鸦，而是对承载它的那面墙、那座屋、那条街的历史的回应与致敬。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "来到这里，你不是在参观一个“景点”，而是在体验一个<strong>持续进行中的公共艺术史诗</strong>。历史在这里不是背景板，而是对话的另一方。这使多扎超越了单纯的“壁画村”概念，成为一个关于记忆、创造与社区活力的鲜活范本。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的魅力在于这种深层的和谐——军事要塞的严谨轮廓，与艺术想象的自由流淌，竟能结合得如此天衣无缝。这，或许才是多扎留给世界最宝贵的“历史回响”：过去，可以成为未来的画布；而未来，能让过去重获新生。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/ferrara-renaissance-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    费
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">费拉拉文艺复兴城市</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ferrara</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/san-quirico-dorcia-tuscany" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔恰谷的圣基里科</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">San Quirico d'Orcia</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/teatro-olimpico-vicenza" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维琴察奥林匹克剧院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Teatro Olimpico</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

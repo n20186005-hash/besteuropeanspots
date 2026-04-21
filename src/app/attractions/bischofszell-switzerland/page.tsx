@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '比绍夫斯采尔 Bischofszell｜瑞士隐秘的巴洛克玫瑰小镇与中世纪石桥 - 最佳欧洲景点',
+  description: '朋友，想象一下，你从一个普普通通的现代瑞士火车站走出来，拐过两个弯，时光的滤镜就“咔哒”一声切换了。脚下的路瞬间变成了被无数代人鞋底磨得温润发亮的鹅卵石，空气里飘来刚出炉的“Zopf”面包的黄油香，混杂着旁边花店门口摆着的盆栽泥土的清新气味。这不是一个被围起来收门票的“景点”，而是一个鲜活的、仍在均',
+}
+
+export default function BischofszellSwitzerlandPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '图尔高州', href: '/destinations/europe' },
+            { label: '比绍夫斯采尔', href: '/attractions/bischofszell-switzerland' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`比绍夫斯采尔・Bischofszell・瑞士・图尔高州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下，你从一个普普通通的现代瑞士火车站走出来，拐过两个弯，时光的滤镜就“咔哒”一声切换了。脚下的路瞬间变成了被无数代人鞋底磨得温润发亮的鹅卵石，空气里飘来刚出炉的“Zopf”面包的黄油香，混杂着旁边花店门口摆着的盆栽泥土的清新气味。这不是一个被围起来收门票的“景点”，而是一个鲜活的、仍在均匀呼吸着的小镇。你的第一眼，大概率会被那连绵成片的、有着柔和山墙和精美凸窗的房屋所吸引。它们不是单调的，而是穿着奶油黄、淡鲑鱼粉、薄荷绿和天空蓝的外衣，在阿尔卑斯山北麓清澈的阳光下，像一大盒被打翻了的、高级的马卡龙，甜美却不甜腻。
+你慢慢往前走，耳朵里是自行车铃轻轻的叮铃声，是咖啡馆露天座上瓷杯碰撞的脆响，是远处不知哪家窗口飘出的若有若无的古典音乐。当地人提着帆布袋从容地走过，会对你投来一个好奇但友好的微笑。这里的核心魅力，就在于这种“被精心呵护的日常感”。那些教科书上说的“晚期巴洛克风格”，在这里不是冰冷的知识点，而是窗框上雕刻的细腻藤蔓，是门楣上方带着俏皮笑容的小天使石膏像，是每一扇擦得锃亮的玻璃窗后，那精心布置的、露出一角的蕾丝窗帘和盛开的天竺葵。生活，本身就是这里最动人的展品。
+而当你走到小镇的尽头，场景陡然开阔。桑纳河与瑟河在此交汇，一座坚实的、有着三个低矮拱洞的石桥横跨水面。站上这座中世纪桥梁，刚才的精致与甜美忽然多了份历史的厚重感。桥下河水潺潺，声音清冷；回头望去，那片彩色房屋的背景是教堂深色的尖顶。这一柔一刚，一艳一朴，构成了比绍夫斯采尔无法被复制的双重奏。但如果你在六月末来，这场双重奏会加入第三个华丽的乐章——玫瑰。届时，整个小镇将成为花朵的海洋，但那又是另一番必须亲身经历的魔幻景象了。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朋友，想象一下，你从一个普普通通的现代瑞士火车站走出来，拐过两个弯，时光的滤镜就“咔哒”一声切换了。脚下的路瞬间变成了被无数代人鞋底磨得温润发亮的鹅卵石，空气里飘来刚出炉的“Zopf”面包的黄油香，混杂着旁边花店门口摆着的盆栽泥土的清新气味。这不是一个被围起来收门票的“景点”，而是一个鲜活的、仍在均匀呼吸着的小镇。你的第一眼，大概率会被那连绵成片的、有着柔和山墙和精美凸窗的房屋所吸引。它们不是单调的，而是穿着奶油黄、淡鲑鱼粉、薄荷绿和天空蓝的外衣，在阿尔卑斯山北麓清澈的阳光下，像一大盒被打翻了的、高级的马卡龙，甜美却不甜腻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你慢慢往前走，耳朵里是自行车铃轻轻的叮铃声，是咖啡馆露天座上瓷杯碰撞的脆响，是远处不知哪家窗口飘出的若有若无的古典音乐。当地人提着帆布袋从容地走过，会对你投来一个好奇但友好的微笑。这里的核心魅力，就在于这种“被精心呵护的日常感”。那些教科书上说的“晚期巴洛克风格”，在这里不是冰冷的知识点，而是窗框上雕刻的细腻藤蔓，是门楣上方带着俏皮笑容的小天使石膏像，是每一扇擦得锃亮的玻璃窗后，那精心布置的、露出一角的蕾丝窗帘和盛开的天竺葵。生活，本身就是这里最动人的展品。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你走到小镇的尽头，场景陡然开阔。桑纳河与瑟河在此交汇，一座坚实的、有着三个低矮拱洞的石桥横跨水面。站上这座中世纪桥梁，刚才的精致与甜美忽然多了份历史的厚重感。桥下河水潺潺，声音清冷；回头望去，那片彩色房屋的背景是教堂深色的尖顶。这一柔一刚，一艳一朴，构成了比绍夫斯采尔无法被复制的双重奏。但如果你在六月末来，这场双重奏会加入第三个华丽的乐章——玫瑰。届时，整个小镇将成为花朵的海洋，但那又是另一番必须亲身经历的魔幻景象了。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`比绍夫斯采尔`} />
+                <InfoRow label="英文名称" value={`Bischofszell`} />
+                <InfoRow label="正式名称" value={`Bischofszell`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`图尔高州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座由康斯坦茨主教于13世纪建立的“主教城堡”，后发展成为图尔高地区重要的行政与贸易中心，其完整的中世纪城镇格局与精美的晚期巴洛克建筑群在瑞士北部独树一帜。`} />
+                <InfoRow label="建筑特色" value={`以柔和的粉彩色调装饰的晚期巴洛克及洛可可风格市民府邸与坚固的砂岩拱桥形成鲜明对比，展现了从实用主义的中世纪到追求优雅与展示的近代社会的建筑演变。`} />
+                <InfoRow label="建筑风格" value={`以18世纪盛行的晚期巴洛克和洛可可风格为主导，融合了更早时期哥特式建筑的遗迹，整体呈现出一种和谐、精致且充满生活气息的小镇风貌。`} />
+                <InfoRow label="文化价值" value={`是瑞士德语区保存完好的“小城美学”典范，其每年夏季的玫瑰节不仅是一场花卉盛会，更是社区传统、手工艺术与本地认同感的集中体现，活态传承着欧洲小镇的公共生活文化。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇公共区域全天开放。主要历史建筑（如市政厅、圣乔治教区教堂）内部开放时间通常为周一至周五上午9点至下午5点，周六上午10点至下午4点，周日及宗教节日仅下午开放（具体时间随季节微调，冬季可能缩短）。最重要的“玫瑰节”节庆活动固定在每年六月的最后一个完整周末举行。小镇游客信息中心夏季（5月至9月）工作时间为9:00-12:00，14:00-17:00；冬季时间可能缩短，建议行前在其官网确认。`} />
+              <InfoRow label="门票价格" value={`进入比绍夫斯采尔古镇及在街道、广场、桥梁上漫步完全免费。参观个别历史建筑内部（如市政厅的特定展厅或教堂塔楼）可能收取小额费用，约3-8瑞士法郎。夏季的“玫瑰节”期间，进入主节庆广场免费，但参与某些工作坊、品尝特定美食或乘坐复古马车需额外付费。`} />
+              <InfoRow label="地址" value={`Stadtplatz 1, 9220 Bischofszell, Switzerland`} />
+              <InfoRow label="交通方式" value={`从苏黎世机场出发是最佳选择。在苏黎世机场火车站直接乘坐开往“St. Gallen”或“Romanshorn”方向的城际列车（IR或IC），约50分钟后在“Sulgen”站下车。在此换乘前往“Bischofszell”的支线小火车（Thurbo公司运营，班次频繁，约每30分钟一班），车程仅8-10分钟，即可抵达比绍夫斯采尔站。从火车站步行约5-7分钟即可进入古镇核心区。建议使用瑞士旅行通票（Swiss Travel Pass）或购买包含此区域的区域日票，在SBB手机应用上购票和查询实时班次非常方便。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "比绍夫斯采尔的故事，始于一位主教的一个决定。时间回到1250年前后，康斯坦茨教区的主教们看中了桑纳河与瑟河交汇处的这片战略要地。在这里建起一座设防的住所（“城堡”），既能管理教区土地，又能控制重要的河流渡口。“Bischofszell”这个名字直白地揭示了它的出身：Bischof（主教）的 Zell（居所或城堡）。最初的它，就是一个为宗教与世俗权力服务的堡垒。石头城墙圈起了一片安全区域，吸引了工匠和商人，一个小镇的雏形在教堂和城堡的阴影下慢慢生长。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "到了15世纪，小镇已经初具规模，那座今天我们看到的标志性石桥（当时是木桥的石头替代品）也修建起来，它成了连接瑞士东北部与博登湖地区贸易网络的关键一环。然而，中世纪晚期并不平静。1499年，瑞士邦联与神圣罗马帝国皇帝马克西米利安一世之间爆发了斯瓦比亚战争，比绍夫斯采尔不幸身处战区，遭受了严重的破坏。战火褪去后，小镇的人们用石头和毅力重新筑起了家园，那份坚韧从此写进了小镇的基因里。宗教改革的浪潮也席卷了这里，带来了信仰和社会的深刻变革。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的“变身”发生在18世纪。战争记忆逐渐遥远，经济复苏，一股追求美好生活的风气在市民阶层中弥漫。那些经历了风霜的中世纪木筋墙房子，在富裕的商人、官员和行会领袖看来，已经不够体面了。于是，一场悄无声息却又轰轰烈烈的“外墙改造运动”开始了。他们请来工匠，用当时最时髦的晚期巴洛克和洛可可风格，为老房子穿上新衣：华丽的灰泥浮雕装饰着窗框和门楣，描绘着花卉、贝壳和飘带；宁静雅致的粉彩色覆盖了原本可能深暗的外墙；优雅的凸窗不仅为了美观，也为了引入更多光线。没有统一的规划，却形成了惊人的和谐。这不是王公贵族的炫富，而是市民阶层自信与审美趣味的集体表达。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转到近代，瑞士经历了工业化，但比绍夫斯采尔似乎故意放慢了脚步。它没有变成喧嚣的工业中心，而是幸运地保存下了那份18世纪的优雅风貌。两次世界大战中，瑞士的中立国身份使它免于战火直接摧残，这些美丽的建筑得以幸存。战后，当人们意识到这份遗产的珍贵时，精心的保护便开始了。而“玫瑰节”的传统，则在20世纪中期被正式确立并发扬光大，为这座静态的历史博物馆注入了年年焕新的生命力。于是，我们今天看到的比绍夫斯采尔，就像一颗被多层时光包裹的琥珀：中世纪的桥墩、宗教改革的烙印、巴洛克的盛装、现代的保护意识与节庆的欢愉，全部凝结在一起，在桑纳河畔散发着宁静而持久的光芒。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味比绍夫斯采尔，我强烈建议你预留一整天，并选择在玫瑰节期间的周末前来（需提前很久预订住宿），这样你能同时领略它的日常之美与节庆之华。如果是在普通日子，请务必在上午9点左右抵达，这时晨雾初散，阳光斜射，彩墙色彩最为饱和，游客也尚未涌入。整个游览节奏宜慢不宜快，核心区域并不大，用5-6小时漫步、驻足、喝咖啡、逛小店是完美的安排。路线设计为一个大致的环形，从现代世界步入历史中心，感受市井生活，探访宗教核心，最后在河流与桥梁的自然景观中回味，形成一个完整的感官闭环。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇周日和周一许多小店和咖啡馆可能休息，餐厅也较少，规划行程时最好避开。石板路虽美但穿高跟鞋会是一场灾难，务必选择舒适平底鞋。这里治安极好，但依然建议保管好随身物品，尤其在节庆拥挤时段。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来，沿着有明确“Altstadt”（老城）标识的小径，穿过保留着古城墙遗迹的“Obertor”（上城门），正式踏入时空隧道。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`让脚步带领你漫无目的地在小巷中穿行一会儿，用指尖感受不同颜色建筑外墙的纹理，抬头寻找那些藏在屋檐下的有趣雕塑和风向标。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`自然而然地被吸引到“Stadtplatz”（市政厅广场），在广场中央的喷泉边坐下，观察周围建筑立面上竞赛般精美的灰泥装饰，看市政厅钟楼上的时钟缓慢走动。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进广场一侧的圣乔治教区教堂，让眼睛适应内部的昏暗，静听空旷中自己的脚步声，仰望祭坛和后殿那些繁复到令人屏息的晚期哥特式木雕与彩绘。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂侧门出来，沿着“Untergasse”街向下坡方向走，感受脚下坡度变化，直到豁然开朗，那座敦实的砂岩三拱桥完整地出现在你面前。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`缓步走过古老的石桥，在正中的拱顶下停下，触摸冰凉而粗糙的桥石，听两条河水在桥墩处交汇流淌的混合水声。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`过桥后不要离开，在河对岸的小径上回望，将彩色房屋、教堂尖顶与石桥一同纳入眼帘，拍下那张经典的明信片角度照片。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果正值玫瑰节，那么此刻就让自己彻底迷失在广场和街道上的花海、音乐、市集摊位和身着传统服饰的人群中吧。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`石桥南岸回望全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点到日落前，阳光从西侧照亮古镇建筑立面，站在河对岸小径的开阔处，用长焦镜头压缩空间，将石桥作为前景框架，中景是彩色房屋，远景是教堂塔尖，构图饱满而富有层次。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`市政厅广场建筑细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点后，阳光能充分照亮广场东侧建筑立面，寻找一扇装饰着特别精美洛可可灰泥浮雕的窗户或大门，使用大光圈镜头近距离拍摄，将华丽的装饰与斑驳的墙体质感一同捕捉。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`桑纳河畔的倒影与生活`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚光线柔和时，在石桥上游的河岸步道，蹲下身子低角度拍摄，捕捉彩墙建筑在水中的完美倒影，如果有天鹅或鸭子游过则更添生动。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`玫瑰节期间的俯视花毯`}</h4>
+                  <p className="text-sm text-gray-700">{`如果节庆期间主广场用玫瑰花瓣铺设了大型图案（“Blumenteppich”），想办法登上市政厅或旁边咖啡馆的二楼窗口（如果开放），用广角镜头垂直或倾斜俯拍，展现壮观的社区艺术创作。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄私人住宅的窗户或阳台时请保持尊重，避免使用过长的镜头窥探隐私，若屋主在窗前，一个微笑和示意通常能换来友善的回应。使用无人机在瑞士城镇上空飞行有严格规定，通常需要提前申请许可，在人群密集的节庆期间基本禁止。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`家庭式温馨体验`}</h4>
+                  <p className="text-sm text-blue-800">{`“Gasthaus Kreuz”旅馆本身就是一栋有历史的老建筑，房间简洁干净，楼下的餐厅供应地道的图尔高家常菜，晚上可以像本地人一样在公共餐桌上喝一杯啤酒。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`历史中心精品之选`}</h4>
+                  <p className="text-sm text-green-800">{`“Hotel Garni Bischofszell”位于古镇绝对核心，由一栋漂亮的巴洛克风格宅邸改造，房间保留了古老的木地板和高挑的天花板，开窗即是如画的街道风景。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`宁静河景住处`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于石桥另一侧、河岸边的“Bed & Breakfast am Fluss”，房间现代舒适，拥有俯瞰河流与古镇的绝佳阳台，早餐丰盛，能享受远离中心稍许的静谧。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`玫瑰节专属露营`}</h4>
+                  <p className="text-sm text-purple-800">{`如果为玫瑰节而来且喜欢户外，可以提前预订小镇附近专为节庆开设的临时露营区，体验与来自各地旅行者一同欢庆的独特社区氛围，但需自备装备且对设施不要奢求。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "玫瑰节期间的住宿通常提前半年就会售罄，务必极早规划。古镇内的住宿能让你体验入夜后和清晨游客散去时的绝妙宁静，但可能需提行李走一小段石板路。小镇所有区域都非常安全，夜间独自步行毫无压力。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开比绍夫斯采尔时，我的背包里没有多出什么沉重的纪念品，但心里却被填满了一种轻快的、温暖的充实感。这种充实，并非来自看到了多么惊天动地的奇观，而是源于一种“完美的尺度”和“生动的延续”。在这里，美不是被供奉在玻璃罩后的、只可远观的圣物，而是窗台上的一盆花，门廊下的一声问候，面包房里传来的香气，是渗入日常呼吸的每一个细节。它让你相信，历史并非总是沉重的断壁残垣，它也可以是一种鲜活的、被热爱着的现在进行时。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、向往宏大的世界里，比绍夫斯采尔像一首轻声吟唱的小诗。它提醒着我们，深度旅行有时不在于追逐清单上的地名，而在于有勇气慢下来，去一个地方生活一天——哪怕只是模拟的生活。去感受一座桥的坚实如何守护了一片房屋的柔美，去理解一场延续数十年的玫瑰节如何凝聚了一个社区的灵魂。对于每一位厌倦了打卡、渴望在旅程中寻找内心宁静共振的旅人来说，比绍夫斯采尔就是这样一处值得你专程绕道、并为之停留一整天的目的地。它不会用震撼让你尖叫，但会用其全部的、温和的善意，在你心里种下一颗关于“美好生活”究竟可以有何种模样的种子。而这颗种子，或许会陪你走很久很久。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/altdorf-william-tell-switzerland" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔特多夫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Altdorf</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/oberhofen-castle-thunersee" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥伯霍芬城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Oberhofen Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/appenzell-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿彭策尔传统村落</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Appenzell Traditional Villages</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

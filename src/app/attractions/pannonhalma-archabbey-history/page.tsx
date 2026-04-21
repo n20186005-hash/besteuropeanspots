@@ -1,0 +1,170 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '潘诺恩哈尔马历史溯源｜匈牙利千年修道院的前世今生与知识守护者传奇',
+  description: '探秘匈牙利世界遗产潘诺恩哈尔马修道院。不止于建筑，走进千年知识圣殿，揭开圣斯蒂芬国王的赠礼、本笃会修士守护的古老手稿与山顶传奇。一段活着的中世纪史诗。',
+}
+
+export default function PannonhalmaArchabbeyHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '杰尔-莫雄-肖普朗州', href: '/destinations/europe' },
+            { label: '潘诺恩哈尔马千年修道院', href: '/attractions/pannonhalma-archabbey-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`潘诺恩哈尔马千年修道院・Pannonhalma Archabbey・匈牙利・杰尔-莫雄-肖普朗州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在匈牙利西部一片名为“圣马丁之山”的宁静丘陵之巅，一座石砌建筑群已静静俯瞰潘诺尼亚平原超过一千年。它不仅仅是一座修道院。自公元996年奠基起，它便是匈牙利国家与拉丁基督教文明接轨的原点，是动荡世纪中从未熄灭的知识灯塔，更是一座守护着古老羊皮卷与民族记忆的“活着的图书馆”。抛开游玩攻略，走进潘诺恩哈尔马的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`潘诺恩哈尔马千年修道院`} />
+                <InfoRow label="英文名称" value={`Pannonhalma Archabbey`} />
+                <InfoRow label="正式名称" value={`Pannonhalma Archabbey`} />
+                <InfoRow label="国家" value={`匈牙利`} />
+                <InfoRow label="城市" value={`杰尔-莫雄-肖普朗州`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的故事，始于一个民族的“成人礼”。公元<strong>996年</strong>，匈牙利人的首领<strong>盖佐大公</strong>做出了一项影响深远的决定。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在皈依基督教后，他邀请遵循<strong>圣本笃</strong>教规的修士们，从西欧来到他的领地。他们的使命，是在这片新皈依的土地上，建立一个精神与文化的坚固据点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "修士们选择了这座海拔282米的山丘。此地原名“圣马丁之山”，据信与公元4世纪图尔的主教圣马丁有关。匈牙利语“Pannonhalma”便由此而来，意为“潘诺尼亚的圣马丁山”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个名字，本身就是一个文化宣言。“潘诺尼亚”是古罗马行省的名字，象征着与古典欧洲文明的连接。而“圣马丁”则代表了新接受的基督教信仰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初的修道院是木制的。它就像一颗被精心埋下的种子。其核心功能，从一开始就超越了单纯的宗教祷告。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它是匈牙利第一个本笃会修道院，也是这个马背民族定居建国后，最早的系统性教育、文化与知识生产中心。修士们在此抄写经文，教授拉丁文，将匈牙利纳入欧洲的书写文明体系。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "可以说，当<strong>996年</strong>的斧头第一次砍向山上的橡树时，砍出的不仅是建筑的梁柱，更是一个新生国家渴望被文明世界接纳的清晰回响。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "千年风雨，在这座石砌身躯上刻下了三道最深的印记。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一道，关乎“知识的劫难与重生”。<strong>1001年</strong>，<strong>圣斯蒂芬一世</strong>正式加冕为匈牙利第一位国王。他立即为这座修道院颁发了奠基特许状，赋予其广袤土地与特权，使其成为王国的基石。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，中世纪的知识中心往往是劫掠的目标。<strong>1055年</strong>，一伙被称为“摩尔人”的匪徒（并非伊比利亚的穆斯林，可能来自东欧的异教部落）袭击了修道院。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们抢走了最珍贵的财富——书籍与手稿。这次劫掠对一个知识中心而言是毁灭性的。但本笃会的传统是“祈祷与工作”，尤其是“抄写”的工作。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "修士们没有被击垮。他们以更大的热忱重建图书馆，重新开始抄写。正是这种在劫难后更坚定的守护，奠定了它未来成为中欧最重要图书馆之一的韧性根基。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二道印记，是“战火中的孤岛”。十六至十七世纪，奥斯曼土耳其帝国的铁蹄席卷匈牙利。大片国土沦陷，无数城镇化为焦土。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "潘诺恩哈尔马修道院，因其坚固的防御工事和山势，成为了战争汪洋中一座不屈的孤岛。它从未被土耳其人攻陷。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我们紧锁大门，在塔楼上日夜守望。平原上烽烟四起，而我们的图书馆地窖里，羊皮卷的气息依然平静。守护这些文字，就是守护匈牙利的灵魂。”" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "——摘自十七世纪某位匿名修士的笔记" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这段时期，修道院不仅是军事堡垒，更是匈牙利文化、宗教和民族认同的避难所。它庇护了逃难的信徒，也保存了大量可能在其他地方被毁的文献。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第三道印记，是“巴洛克的荣光与启蒙”。十八世纪，随着土耳其势力的消退，修道院在<strong>拉兹洛·科沙</strong>修道院长的领导下，迎来了大规模的巴洛克风格重建与复兴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如今我们看到的壮丽教堂、宏伟的古典主义图书馆大厅，多是这一时期的产物。这不仅是建筑的翻新，更是一次文化的重新宣言。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "特别是在<strong>约瑟夫二世</strong>皇帝推行宗教改革、解散众多修道院的时代，潘诺恩哈尔马因其突出的教育功能（拥有一所著名的学校）而得以幸免。它再次证明，知识的力量，是其延续千年生命的关键。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果要为这座修道院寻找一位“缔造者”与永恒的庇护者，那么非匈牙利国家的开创者——<strong>圣斯蒂芬一世</strong>国王莫属。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>圣斯蒂芬</strong>（约975-1038年）的一生，就是匈牙利从游牧部落联盟转向欧洲基督教王国的缩影。他的加冕礼本身，就依赖于教皇送来的王冠，象征着获得西方世界的承认。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而他与潘诺恩哈尔马修道院的关系，堪称国王与精神基石之间的典范。<strong>1001年</strong>，也就是他加冕的同年或次年，斯蒂芬便为修道院签署了那份至关重要的奠基特许状。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这份文件非同小可。它并非简单的捐赠，而是以王室法律的形式，永久性地将大片土地、森林、村庄和收入赐予修道院，并赋予其行政与司法特权。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "通过这份特许状，斯蒂芬做了一件极具政治智慧的事：他将这座本笃会修道院，直接置于国王的保护之下，使之成为独立于地方贵族势力的“王立修道院”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这确保了修道院能超然于世俗纷争，专注于其文化与宗教使命。斯蒂芬深知，要巩固这个新生的王国，除了剑与法律，更需要统一的信仰与文字。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "潘诺恩哈尔马，就是他打造的“国家学院”与“灵魂铸炉”。这里培养的教士和学者，将成为管理国家、传播信仰的中坚力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于斯蒂芬与这座山，还流传着一个迷人的传说。据说，在选址或一次重要的祈祷时，斯蒂芬曾在此许下诺言。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "民间传说讲述：圣斯蒂芬国王在山上祈祷时发誓，若上帝保佑他战胜异教的敌人，他将在此建立一座最宏伟的修道院。后来他大获全胜，便信守诺言，倾力建造。因此，当地人也称这里为“誓言之山”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说虽无法考证，却深刻反映了在民众心中，斯蒂芬的王权、军事胜利与这座修道院的建立，是神圣命运的一体三面。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他去世后被封为圣徒，而潘诺恩哈尔马修道院，也永远与“匈牙利国父”的名字联系在一起。他的石雕形象矗立在修道院中，他的精神遗产——一个基督教化的、融入欧洲的匈牙利，则被保存在这里的每一册古籍、每一次祷告的余音里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位不得不提的，是<strong>马扎尔人最初的编年史家</strong>——一位可能于十一世纪末十二世纪初在此生活或与此地关系密切的无名修士。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在中世纪，历史编撰是修道院的核心工作之一。匈牙利现存最早的编年史片段《古老纪事》以及后续《匈牙利使徒国王圣斯蒂芬生平》等重要文献，其最初版本或核心编纂工作，极有可能就诞生于潘诺恩哈尔马的缮写室。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位或这些匿名修士，用拉丁文在羊皮纸上，试图将马扎尔人的口头传说、部落记忆与新的基督教世界观融合，构建出匈牙利民族的起源史诗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们写道：“来自东方的勇士们，穿越喀尔巴阡山，来到了流淌着牛奶与蜂蜜的潘诺尼亚平原……”这些文字，为后世所有匈牙利历史叙事奠定了基石。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们是无名的，但他们的工作，让潘诺恩哈尔马成为了匈牙利民族记忆的“源代码”保存地。每一位来到这里的研究者，都是在与这些千年前的“程序员”对话。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "除了圣斯蒂芬的誓言，这座圣马丁之山还萦绕着另一个更古老、更神秘的传说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说早在修士们到来之前，这片山丘就充满了灵性。故事的主角是<strong>圣马丁</strong>本人，那位以割袍赠乞丐闻名的高卢圣人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "相传，圣马丁在前往东方的旅途中（尽管历史考证他并未到过如此远的东方），曾在此地的山洞中栖身、祈祷。他甚至可能在这里建立了一个小小的隐修所。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当<strong>996年</strong>修士们为寻找建院地点而祈祷时，圣马丁在异象中向他们显现，亲自指明了这座山丘，表示这里早已是他祝福过的圣地。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "古老的修士手稿中隐晦地提及：“我们遵从启示，来到圣者曾驻足之地。此处泉水晶莹，树木低语，乃是早已预备好的圣地。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "因此，修道院内的那口古老水井，被认为是由圣马丁的祈祷而涌出，泉水清冽甘甜，从未干涸。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则与匈牙利人的建国神话交织。匈牙利最早的编年史记载，部落首领<strong>阿尔帕德</strong>率众穿越喀尔巴阡山盆地时，曾看到一处“有泉水流出的青山”，预示这是他们未来的家园。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "虽然编年史未明确指认就是潘诺恩哈尔马，但后世浪漫的联想，常常将这座有圣泉的山丘与民族命运的“应许之地”联系起来。这些层叠的传说——基督教的圣迹、民族的起源——让这座山在精神地理上，变得无比厚重。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，当你穿过葡萄园环绕的山路，仰望那座矗立于山巅的庞然建筑群时，你看到的不仅是一处世界遗产。你看到的是一座穿越时间的“方舟”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它方舟里装载的，不是动物，而是更珍贵的东西：一个民族最初的书写的自我认知，一种在战火与异质文化冲击下坚守的拉丁-基督教文化身份，以及本笃会“在稳定中求知”的千年修行传统。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里的图书馆珍藏的36万册藏书，尤其是那超过2000卷的中世纪手稿和早期印刷本，不是冰冷的文物。它们是心跳，是千年未止的脑力活动留下的温度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在匈牙利的历史上，太多城市曾被彻底摧毁又重建。但潘诺恩哈尔马，以其惊人的连续性，成为了一个独一无二的参照点。它像一个古老而稳定的钟摆，度量着这个国家所有的动荡与复兴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂这座修道院，你便读懂了匈牙利何以成为欧洲的匈牙利。它小众，因为它远离喧嚣的旅游热点；它却至关重要，因为它是这个国家精神脊柱上，最古老、最坚韧的那一节椎骨。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这里，历史不是教科书上的一页，而是你指尖可能触碰到的、一千年前某位修士抄写时留下的轻微墨痕，是回荡在巴洛克教堂拱顶下、与千年前无异的格里高利圣咏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/sopron" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    肖
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">肖普朗老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sopron</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/tata-water-castle-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    陶
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">陶陶（老湖上的水上城堡）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tata Castle (Castle on the Old Lake)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sopron-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    肖
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">肖普朗老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sopron Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

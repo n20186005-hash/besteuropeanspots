@@ -1,0 +1,242 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '埃希特纳赫罗马别墅 Roman Villa Echternach｜探秘阿尔卑斯山以北最奢华的罗马庄园与地暖奇迹 - 最佳欧洲景点',
+  description: '说实话，当我按照导航拐进埃希特纳赫一条安静的居民区小路时，心里是有点打鼓的。想象中的古老遗址，不都应该在荒郊野外，带着一种苍凉的孤独感吗？直到那栋低调的现代玻璃建筑出现在眼前，推开厚重的隔音门，一切都变了。外面的世界瞬间被静音，一股混合着古老石材、湿润泥土和现代空调过滤后的独特气味扑面而来。然后，你',
+}
+
+export default function RomanVillaEchternachPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '埃希特纳赫', href: '/destinations/europe' },
+            { label: '埃希特纳赫罗马别墅', href: '/attractions/roman-villa-echternach' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`埃希特纳赫罗马别墅・Roman Villa Echternach・卢森堡・埃希特纳赫`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，当我按照导航拐进埃希特纳赫一条安静的居民区小路时，心里是有点打鼓的。想象中的古老遗址，不都应该在荒郊野外，带着一种苍凉的孤独感吗？直到那栋低调的现代玻璃建筑出现在眼前，推开厚重的隔音门，一切都变了。外面的世界瞬间被静音，一股混合着古老石材、湿润泥土和现代空调过滤后的独特气味扑面而来。然后，你的视线毫无防备地跌入脚下——透过脚下巨大的玻璃地板，一个跨越了1700多年的繁华世界，正在地底向你无声地呐喊。
+那不是一个简单的“地基”，而是一幅用红砖、砂岩和灰泥精心绘制的巨大平面图。你可以清晰地看到一个个房间的隔断，像迷宫一样展开。最引人注目的是那一排排整齐的矮砖墩，它们曾支撑起整个房间的地板，下面则是流淌过热烟、让整个大厅温暖如春的地暖管道。我蹲下来，试图用手去感受玻璃下方那份早已冷却的温度，想象力却开始狂奔。我仿佛能听见管道里气流隐隐的轰鸣，闻到空气中混合着沐浴香油的蒸汽，看到身着托加袍的主人与宾客，在这片如今看似残破的砖石地上谈笑风生。这里不是冰冷的遗迹，而是一个被瞬间定格、然后缓慢沉入地底的鲜活家庭。
+走出主展厅，来到半露天的浴池区域，感觉更为奇妙。阳光毫无遮挡地洒在那些巨大的浴池坑洞上，深浅不一，分别对应着当年的热水池、温水池和冷水池。你能看到精美的排水口遗迹，想象着活水如何汩汩流入又排出。闭上眼睛，水声、谈笑声、奴隶添加柴火的噼啪声似乎就在耳边。这个庄园远离罗马城，却把最代表文明和享乐的浴场文化，原封不动地搬到了摩泽尔河畔的森林边缘。它告诉你，罗马的荣光，不仅在于大竞技场和万神殿，更在于这种深入骨髓的、对舒适与精致生活的追求，它能抵达帝国的每一个角落。
+如今，这个遗址被精心保护在博物馆之下，成了小镇孩子们历史课的课外教室，也是当地居民散步时会骄傲地向外来者指认的地标。它安静地躺在那里，不再是财富与权力的喧嚣象征，而是变成了连接古今的一个沉静触点，让你突然意识到，脚下这片看似普通的欧洲土地，曾是如何的非凡。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说实话，当我按照导航拐进埃希特纳赫一条安静的居民区小路时，心里是有点打鼓的。想象中的古老遗址，不都应该在荒郊野外，带着一种苍凉的孤独感吗？直到那栋低调的现代玻璃建筑出现在眼前，推开厚重的隔音门，一切都变了。外面的世界瞬间被静音，一股混合着古老石材、湿润泥土和现代空调过滤后的独特气味扑面而来。然后，你的视线毫无防备地跌入脚下——透过脚下巨大的玻璃地板，一个跨越了1700多年的繁华世界，正在地底向你无声地呐喊。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "那不是一个简单的“地基”，而是一幅用红砖、砂岩和灰泥精心绘制的巨大平面图。你可以清晰地看到一个个房间的隔断，像迷宫一样展开。最引人注目的是那一排排整齐的矮砖墩，它们曾支撑起整个房间的地板，下面则是流淌过热烟、让整个大厅温暖如春的地暖管道。我蹲下来，试图用手去感受玻璃下方那份早已冷却的温度，想象力却开始狂奔。我仿佛能听见管道里气流隐隐的轰鸣，闻到空气中混合着沐浴香油的蒸汽，看到身着托加袍的主人与宾客，在这片如今看似残破的砖石地上谈笑风生。这里不是冰冷的遗迹，而是一个被瞬间定格、然后缓慢沉入地底的鲜活家庭。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走出主展厅，来到半露天的浴池区域，感觉更为奇妙。阳光毫无遮挡地洒在那些巨大的浴池坑洞上，深浅不一，分别对应着当年的热水池、温水池和冷水池。你能看到精美的排水口遗迹，想象着活水如何汩汩流入又排出。闭上眼睛，水声、谈笑声、奴隶添加柴火的噼啪声似乎就在耳边。这个庄园远离罗马城，却把最代表文明和享乐的浴场文化，原封不动地搬到了摩泽尔河畔的森林边缘。它告诉你，罗马的荣光，不仅在于大竞技场和万神殿，更在于这种深入骨髓的、对舒适与精致生活的追求，它能抵达帝国的每一个角落。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如今，这个遗址被精心保护在博物馆之下，成了小镇孩子们历史课的课外教室，也是当地居民散步时会骄傲地向外来者指认的地标。它安静地躺在那里，不再是财富与权力的喧嚣象征，而是变成了连接古今的一个沉静触点，让你突然意识到，脚下这片看似普通的欧洲土地，曾是如何的非凡。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`埃希特纳赫罗马别墅`} />
+                <InfoRow label="英文名称" value={`Roman Villa Echternach`} />
+                <InfoRow label="正式名称" value={`Roman Villa Echternach`} />
+                <InfoRow label="国家" value={`卢森堡`} />
+                <InfoRow label="城市" value={`埃希特纳赫`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它是阿尔卑斯山以北地区已发现并对外开放的规模最大、最奢华的罗马时期乡村庄园（Villa Rustica）遗址。`} />
+                <InfoRow label="建筑特色" value={`其核心震撼之处在于保存完好的、极其复杂的地下热水地暖系统（Hypocaust）和一系列功能齐全的浴池遗迹。`} />
+                <InfoRow label="建筑风格" value={`典型的罗马帝国晚期乡村庄园建筑，融合了实用性与奢华享受，体现了罗马文明在边境行省的强大影响力。`} />
+                <InfoRow label="文化价值" value={`它是一座封存于地下的时间胶囊，生动揭示了罗马帝国鼎盛时期，其边远行省上层精英的日常生活、技术水平和审美趣味。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`博物馆全年开放，但开放时间随季节调整。每年4月1日至10月31日，每天上午10点至下午6点开放，最后入场时间为下午5点半。每年11月1日至次年3月31日，开放时间缩短为周三至周日的上午10点至下午5点，周一和周二闭馆维护。每年的1月1日、11月1日和12月25日闭馆。具体的特别展览和节假日安排建议出行前在其官网再次确认。`} />
+              <InfoRow label="门票价格" value={`标准成人票价为7欧元。学生、65岁以上长者及10人以上团体可享受优惠票价为5欧元。18岁以下青少年及儿童可免费入场。持有卢森堡旅游卡（Luxembourg Card）可免费进入。门票包含语音导览器（提供多国语言服务）的使用权，这是深度了解遗址的必备工具。`} />
+              <InfoRow label="地址" value={`Roman Villa Echternach, 5 Rue des Romains, 6480 Echternach, Luxembourg`} />
+              <InfoRow label="交通方式" value={`最便捷的方式是先抵达卢森堡城。从卢森堡城中央火车站（Gare Centrale）出发，乘坐火车前往埃希特纳赫（Echternach）方向。乘坐Regional-Express (RE)列车，约每半小时一班，车程大约45分钟，直达埃希特纳赫站。出火车站后，遗址距离车站约1.2公里，可以悠闲地步行15-20分钟穿过风景如画的小镇中心，或者乘坐本地巴士（线路111、180等）坐2站到“Echternach, Centre”站下车，再步行5分钟即可。如果自驾，从卢森堡城出发沿A1/E44高速公路向东，转入N10公路，约40分钟车程，遗址附近有收费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从两千年前说起。公元1世纪左右，罗马帝国的疆域如巨人般扩张，今天的卢森堡东部，属于上日耳曼行省。这里不再是战火纷飞的前线，而成为了帝国稳固的内陆。肥沃的土地、茂密的森林和流经的摩泽尔河支流，吸引了眼光独到的罗马贵族或富商。他们选中了埃希特纳赫这块风水宝地，开始营建一座不仅仅是农场，更是彰显地位与生活品味的乡间度假庄园。最初的建筑可能还是木结构，但随着家族财富的积累和对这片土地归属感的增强，一场雄心勃勃的扩建工程开始了。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "公元3世纪到4世纪，是这座别墅的黄金时代。我们不知道主人的确切名字，但他一定是一位极其富有且深谙罗马生活艺术的人物。他不满足于简单的住所，决心要在家乡复刻罗马城的奢华。于是，最复杂的热坑式地暖系统被建造起来。这不是小打小闹，而是为一个面积超过1000平方米的主居住区提供均匀的热量。工匠们先在地下砌好密密麻麻的砖墩，然后在上面铺设巨大的石板作为地板，热量从独立的锅炉房通过管道输送到地板下，再通过墙壁中的陶管向上散发。想想看，在阿尔卑斯山以北寒冷潮湿的冬天，这座庄园的厅堂里却温暖如春，这是何等惊人的技术炫耀和财富象征！" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "与此同时，一个标准的罗马式浴场综合体也拔地而起。它严格遵循“渐进式沐浴”的仪式：先从更衣室进入，在健身房活动身体，然后依次进入热水池、温水池，最后跳进冷水池收缩毛孔。浴场不仅是清洁身体的地方，更是社交、谈生意、放松身心的俱乐部。庄园里还发现了大量来自高卢和莱茵河流域的精美陶器、玻璃器皿，甚至还有远道而来的西班牙橄榄油双耳罐的碎片。这一切都表明，主人过着一种高度罗马化的生活，通过贸易网络与帝国各地紧密相连，在自己的领地上扮演着一个小型文化中心的主人角色。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，所有的盛宴都有散场之时。进入公元4世纪后期，罗马帝国西部危机四伏，蛮族部落的压力日益增大。边境不再安全，贸易路线可能中断，维持这样一座奢华庄园所需的庞大奴隶劳动力、燃料和物资供应变得困难重重。这座别墅可能是在一个相对平缓的过程中被逐渐废弃的，而非毁于战火。主人一家或许带着细软离开了，奴隶们散去，屋顶慢慢坍塌，华丽的壁画被雨水冲刷，精美的马赛克地板被泥土掩埋。在随后漫长的中世纪里，人们在这片土地上耕种、建造，完全忘记了脚下沉睡的辉煌。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间的转机出现在1975年。当时，埃希特纳赫计划在此地建设新的学校建筑。当推土机掘开土层，那些整齐的罗马红砖和复杂的结构震惊了所有人。考古工作迅速展开，持续了数年，一层层揭开泥土，就像翻开一本倒置的历史书。人们惊讶于其保存的完整性和规模的宏大。为了保护这珍贵的发现，原先的建筑计划被修改，最终决定在原址之上建造一个专门的保护性博物馆，于是才有了我们今天看到的这种“地上现代、地下古代”的奇特而完美的共存景象。它从遗忘中被唤醒，重新向世人诉说着一段被尘埃封存的边疆传奇。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正沉浸在这座罗马别墅的故事里，建议安排一个完整的上午或下午，总共留出至少3到4小时。最好在开门后不久（比如上午10点半）抵达，这时游客最少，你能拥有更多与古迹安静对话的空间。游览节奏宜慢不宜快，这是一个需要大量想象力的地方。路线设计上，建议先自上而下建立宏观认知，再自下而上进行细节探索。先快速浏览博物馆上层的介绍和模型，对庄园全貌有个概念，然后下到遗址层，沿着设计的参观步道慢走细看，最后回到上层展厅深度研究出土文物，这样一个循环能让你对这段历史的感知从模糊到清晰，从骨架到血肉，层层深入。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`遗址层温度常低于地面，且需要长时间站立行走，请务必穿一双非常舒适保暖的鞋子。
+语音导览器内容极其丰富，是理解遗址的关键，请务必领取并耐心收听，不要只是走马观花地看砖头。
+由于展品很多是残片且光线为保护文物而较暗，参观时需要耐心和细心，匆匆忙忙会错过大部分乐趣。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`进入博物馆后先别急着下楼，在前厅花十分钟看看那个巨大的别墅复原模型和年代轴，让它在你的脑海里先搭建起一个立体的轮廓。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着缓坡走下遗址层，第一眼就去寻找那一片如森林矮柱般整齐排列的地暖系统砖墩，这是整个庄园科技与奢华的灵魂所在。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着架高的玻璃步道慢慢踱步，尝试辨认脚下各个房间的功能分区：哪里是宏伟的迎宾中庭，哪里是私密的家庭卧室，哪里又是忙碌的厨房区域。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在浴池复合体的区域多停留一会儿，站在热水池（Caldarium）的残迹边缘，想象蒸汽缭绕中罗马人关于身体与社交的仪式。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`抬头看看墙壁上复原的壁画残片和装饰线脚，注意那些柔和的红色、黄色与几何图案，感受罗马审美在边远行省的落地生根。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`回到上层展厅，在灯光柔和的陈列柜前弯腰细看那些出土的日常器物：陶灯、梳子、游戏棋子，它们让历史从宏大的建筑变成了可触摸的温度。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`不要错过那个精致的马赛克地砖残片，看看上面简单的几何图案，想象它曾经铺设在哪个房间的脚下。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后在博物馆商店挑一本关于罗马日常生活的小册子或一张明信片，把这份跨越时空的连接感带回家。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`遗址层全景俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`站在入口处通往遗址层的楼梯中段或尽头，用广角镜头向下拍摄，可以将纵横交错的墙基、地暖系统和现代建筑结构一同纳入画面，形成古今对话的震撼构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`地暖系统特写`}</h4>
+                  <p className="text-sm text-gray-700">{`蹲在玻璃步道边，将镜头贴近玻璃，对准一排排整齐的砖墩，利用侧向的照明灯光，拍出砖石深邃的质感和强烈的纵深感，最好能带上一部分模糊的现代建筑倒影。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`浴池光影捕捉`}</h4>
+                  <p className="text-sm text-gray-700">{`选择在晴天下午，当阳光斜射进半露天的浴池区域时，光影会在池壁和阶梯上形成美丽的明暗分割线，这是拍摄建筑结构美感的最佳时刻。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`出土文物窗景`}</h4>
+                  <p className="text-sm text-gray-700">{`在上层展厅，找到一个能将橱窗内精致的罗马玻璃器皿或陶罐与窗外埃希特纳赫小镇的屋顶、教堂尖塔同时纳入镜头的角度，这张照片能完美诠释“历史层叠”的概念。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`遗址层内严禁使用闪光灯和三脚架，以防对古迹造成损害和妨碍其他游客，高感光度相机或大光圈镜头在这里是更好的选择。`}</li>
+                <li>• {`拍摄玻璃展柜内的文物时，注意调整角度，避免自己的倒影和室内灯光在玻璃上的反光，可以尝试将镜头紧贴玻璃拍摄。`}</li>
+                <li>• {`尊重考古现场，绝不跨越护栏或触摸任何遗迹，你的照片应该体现的是对历史的敬畏之心。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济实用`}</h4>
+                  <p className="text-sm text-blue-800">{`埃希特纳赫青年旅舍，坐落于宁静的街区，距离别墅仅步行十分钟，提供整洁的宿舍和双人间，公共厨房能让你体验一把本地市集买菜自己下厨的乐趣。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`小镇中心由老房子改建的家庭式精品酒店，房间不大但充满温馨的卢森堡风情，老板会给你手绘地图，告诉你哪些角度看罗马别墅遗址背后的山丘最美。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于摩泽尔河畔的四星级酒店，拥有俯瞰河流的露台餐厅，在享用了一顿用本地河鱼烹制的晚餐后，沿着河岸慢步走回遗址区，夜色中的博物馆灯光别有一番韵味。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐居之选`}</h4>
+                  <p className="text-sm text-purple-800">{`预订遗址周边乡村的度假农庄或公寓，清晨被鸟鸣唤醒，推开窗就是田园风光，你可以像当年的罗马庄园主一样，享受一段远离喧嚣的静谧时光。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "埃希特纳赫是座宁静的旅游小镇，治安非常好，晚上可以放心散步。夏季尤其是跳蚤市场节或传统舞蹈节期间住宿非常紧张，务必提前数月预订。如果想体验更丰富的夜生活，可以选择住在卢森堡城，当天乘火车往返，但会损失一些清晨或黄昏探索小镇的悠闲。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开埃希特纳赫罗马别墅很久以后，我脑海里反复出现的，不是那些恢弘的浴池规模，也不是精妙的地暖结构，而是一个极其平凡的瞬间：我站在玻璃地板上，看着脚下不远处一块半嵌在泥土里的、边缘已经磨损的普通红砖。就在那一瞬间，我仿佛穿透了时间，看到了一千七百多年前，一位不知名的罗马工匠或奴隶，用沾满泥浆的手，将这块砖稳稳地砌入墙基。他可能在想晚上的饭食，或在担忧家人的健康，全然不知自己正在参与建造一个会让人惊叹千年的奇迹。历史在这里，不再是教科书上冰冷的年代和事件，而是通过这块砖、那片陶罐的碎片，变成了可感可触的、由无数平凡人生构成的温度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求快速打卡、信息爆炸的时代，埃希特纳赫这样的地方提供了一种珍贵的“减速”体验。它要求你停下脚步，俯身观察，调动所有的想象力去填补时光的留白。它告诉你，欧洲的深度不止于巴黎的铁塔和罗马的竞技场，更藏在这些看似不起眼的小镇地下，等待着愿意倾听的人。这座别墅是一个绝佳的隐喻：最扎实的文明根基，往往沉默地承载着一切，而最奢华的生活梦想，即使在边疆也能扎根生长。它值得每一个热爱深度游的旅人专程而来，不是为了收集另一个景点，而是为了完成一次与时间、与那些早已消散却又无处不在的平凡生命的深刻对话。这趟旅程，关乎的不是眼睛看到了什么，而是心灵触摸到了什么。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/beaufort-castle-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博福尔城堡遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beaufort Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/mondorf-les-bains-thermal-park" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙多夫莱班</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mondorf-les-Bains</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/diekirch-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迪
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迪基希</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Diekirch</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,249 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿佩拉海滩 Apella Beach｜希腊喀帕喀斯岛隐秘天堂，松石绿海水与悬崖的绝唱 - 最佳欧洲景点',
+  description: '当你终于把车停在那个简陋的土坡停车场，推开车门的那一瞬间，整个世界的声音仿佛被抽走了，只剩下一种低沉的、温柔的轰鸣——那是爱琴海永恒不变的呼吸声。紧接着，一股混合着咸涩海风、灼热阳光和被碾碎的松针清香的味道扑面而来，灌满你的肺。然后你才看见它。 沿着陡峭的石阶往下走，每一步，那抹颜色都在扩大、在加深',
+}
+
+export default function ApellaBeachKarpathosPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '喀帕喀斯岛', href: '/destinations/europe' },
+            { label: '阿佩拉海滩', href: '/attractions/apella-beach-karpathos' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿佩拉海滩・Apella Beach・希腊・喀帕喀斯岛`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你终于把车停在那个简陋的土坡停车场，推开车门的那一瞬间，整个世界的声音仿佛被抽走了，只剩下一种低沉的、温柔的轰鸣——那是爱琴海永恒不变的呼吸声。紧接着，一股混合着咸涩海风、灼热阳光和被碾碎的松针清香的味道扑面而来，灌满你的肺。然后你才看见它。
+沿着陡峭的石阶往下走，每一步，那抹颜色都在扩大、在加深、在歌唱。那根本不是你在明信片上见过的那种标准的天蓝，而是一种近乎不真实的、浓郁的松石绿，像融化的宝石，又像神灵打翻的调色盘。海水如此清澈，以至于你能一眼看穿十几米下沙床的纹路和偶尔游过的小鱼银白的肚皮。沙滩是那种被千年浪涛磨洗得极其细腻的金白色粉末，赤脚踩上去，微微发烫，却又柔软得像母亲的掌心。
+悬崖是这里的守护神。它们不是温和的，而是嶙峋的、陡峭的，带着一种沉默的威严。灰白色的岩壁上顽强地生长着一丛丛深绿色的地中海松，它们的根须像鹰爪一样抠进岩石的缝隙，树冠则向着阳光与海的方向倾斜，构成一幅动态的、充满生命力的壁画。寥寥几把蓝白相间的遮阳伞和几张躺椅，谦卑地散落在沙滩边缘，提醒着你这里仍有一丝文明社会的痕迹，但主体永远是属于自然的。
+在这里，时间是以浪花的节奏计算的。你会看到一家希腊人，祖孙三代，爷爷在树荫下打着盹，父母在浅滩里教孩子浮潜，而那个孩子，举着一个从沙滩上捡来的粉色贝壳，对着太阳看，发出咯咯的笑声。这份简单而巨大的快乐，是阿佩拉最打动人心的馈赠。它不讨好你，不喧嚣，只是静静地、无比慷慨地展开它惊世骇俗的美，等待那些不惧山路迢迢的旅人，前来领取一份关于宁静与震撼的礼物。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你终于把车停在那个简陋的土坡停车场，推开车门的那一瞬间，整个世界的声音仿佛被抽走了，只剩下一种低沉的、温柔的轰鸣——那是爱琴海永恒不变的呼吸声。紧接着，一股混合着咸涩海风、灼热阳光和被碾碎的松针清香的味道扑面而来，灌满你的肺。然后你才看见它。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沿着陡峭的石阶往下走，每一步，那抹颜色都在扩大、在加深、在歌唱。那根本不是你在明信片上见过的那种标准的天蓝，而是一种近乎不真实的、浓郁的松石绿，像融化的宝石，又像神灵打翻的调色盘。海水如此清澈，以至于你能一眼看穿十几米下沙床的纹路和偶尔游过的小鱼银白的肚皮。沙滩是那种被千年浪涛磨洗得极其细腻的金白色粉末，赤脚踩上去，微微发烫，却又柔软得像母亲的掌心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "悬崖是这里的守护神。它们不是温和的，而是嶙峋的、陡峭的，带着一种沉默的威严。灰白色的岩壁上顽强地生长着一丛丛深绿色的地中海松，它们的根须像鹰爪一样抠进岩石的缝隙，树冠则向着阳光与海的方向倾斜，构成一幅动态的、充满生命力的壁画。寥寥几把蓝白相间的遮阳伞和几张躺椅，谦卑地散落在沙滩边缘，提醒着你这里仍有一丝文明社会的痕迹，但主体永远是属于自然的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这里，时间是以浪花的节奏计算的。你会看到一家希腊人，祖孙三代，爷爷在树荫下打着盹，父母在浅滩里教孩子浮潜，而那个孩子，举着一个从沙滩上捡来的粉色贝壳，对着太阳看，发出咯咯的笑声。这份简单而巨大的快乐，是阿佩拉最打动人心的馈赠。它不讨好你，不喧嚣，只是静静地、无比慷慨地展开它惊世骇俗的美，等待那些不惧山路迢迢的旅人，前来领取一份关于宁静与震撼的礼物。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿佩拉海滩`} />
+                <InfoRow label="英文名称" value={`Apella Beach`} />
+                <InfoRow label="正式名称" value={`Apella Beach`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`喀帕喀斯岛`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`喀帕喀斯岛南部海岸线上最令人叹为观止的自然杰作，代表了爱琴海未受侵扰的原始之美。`} />
+                <InfoRow label="建筑特色" value={`非人工建筑，其“特色”在于大自然鬼斧神工的造景：新月形的细白沙湾被高耸的灰色悬崖与茂密松林从三面温柔环抱。`} />
+                <InfoRow label="建筑风格" value={`无建筑风格，属于纯粹的地中海海湾自然地貌。`} />
+                <InfoRow label="文化价值" value={`是体验传统希腊岛屿“与世隔绝”感和敬畏自然力量的绝佳目的地，展现了人类活动与壮丽自然景观的和谐共存。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全年全天24小时开放。请注意，海滩本身无时间限制，但通往海滩的山区公路在夜间无照明，极其危险，强烈建议仅在日间游览。海滩上的小型酒水吧运营时间通常为每年五月至十月的上午十点至日落时分，季节性很强，出行前建议核实。`} />
+              <InfoRow label="门票价格" value={`完全免费。海滩为公共自然区域，不收取任何入场费用。若使用海滩上的日光浴床和遮阳伞，需要向租赁经营者支付费用，价格约为每套每天10-15欧元。`} />
+              <InfoRow label="地址" value={`Apella Beach, Karpathos 857 00, Greece`} />
+              <InfoRow label="交通方式" value={`抵达喀帕喀斯岛主要依靠飞机或渡轮。从岛上的主要机场“喀帕喀斯岛国家机场”（IATA: AOK）或主要港口皮加迪亚（Pigadia）出发，自驾是前往阿佩拉海滩的唯一实用方式。租车建议选择动力较好的小型SUV或四驱车以应对险峻山路。从皮加迪亚镇出发，沿通往岛北的蜿蜒山路行驶，一路有“Apella”路标，但道路狭窄崎岖、急弯众多，部分路段紧贴悬崖，驾驶需极度谨慎，全程约25公里，耗时约50-70分钟。没有固定的公共巴士直达海滩。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿佩拉海滩的故事，与其说是一部人类建造史，不如说是一部自然的塑造史和一部现代旅行者“发现”史。喀帕喀斯岛本身，就像一颗被遗忘在爱琴海南端的时光胶囊。与隔壁商业化的罗德岛或圣托里尼不同，喀帕喀斯多山崎岖的地形，长久以来守护了它的偏僻与传统。岛上的村庄高踞山脊，人们曾世代以渔业和少量农业为生，目光更多地投向赖以生存的内陆，而非难以抵达的峭壁海岸。阿佩拉所在的海湾，在漫长岁月里，或许只是渔民偶然躲避风浪的处所，或是牧羊人寻找水源时惊鸿一瞥的风景。它的美，是孤独的，不为外界所知。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转变的契机始于上世纪后半叶全球旅游业的萌芽和交通技术的进步。当最早一批 adventurous 的背包客和航海者，驾着船或鼓起勇气租车上路，沿着岛上唯一那条颠簸的土路向北探索时，他们成了阿佩拉海滩的第一批“朝圣者”。关于一个“隐藏天堂”的传说开始在小圈子里流传：需要经历一段令人胆战心惊的驾驶，但终点是值得的。没有电话，没有电，只有一片完美无瑕的海滩。这种“抵达的难度”与“极致的奖赏”之间的反差，恰恰构成了阿佩拉最初的神秘魅力，吸引了那些追求纯粹体验的旅行者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "进入21世纪，随着喀帕喀斯岛机场的扩建和渡轮班次的增加，更多游客得以登岛。通往北部村庄的道路得到了修缮（尽管依然惊险），阿佩拉海滩的名字开始出现在越来越多人撰写的旅行博客和指南书中。当地社区敏锐地察觉到了这个变化。一些有远见的家庭开始以最轻微的方式介入：他们在沙滩后方搭建了简易的木棚，出售冰镇饮料、简单的希腊沙拉和 souvlaki；他们带来了几十张躺椅和遮阳伞，规则地排列，但绝不侵占沙滩的中心地带。这种开发是克制的、有尊严的，仿佛他们只是海滩的临时管家，而非主人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，阿佩拉海滩依然保持着一种脆弱的平衡。它名声在外，旺季时停车场会停满车辆，沙滩上也比往日热闹。但那条必经的、如同考验般的山路，如同一道天然的过滤器，筛掉了绝大部分的大巴旅游团和一日游的喧嚣。来到这里的人，都付出了相应的“旅程代价”，因此也格外珍惜这份景致。悬崖和松林依旧巍然，海水依旧如琉璃般澄澈。阿佩拉的故事，是一个关于自然如何以其绝对的壮美征服人类，而人类又如何以最小的足迹去致敬这份壮美的现代寓言。它提醒我们，有些极致之美，注定需要一番跋涉才能亲近，而这份跋涉本身，就是体验不可或缺的一部分。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`这是一场以“抵达”本身为重头戏的朝圣之旅。建议一大清早（8点前）从皮加迪亚或你住宿的南部村庄出发，趁着晨光柔和、车流稀少时挑战那段传奇山路，驾驶过程会更安全，心情也更从容。整个旅程建议预留完整的一天。上午抵达后，先用两到三个小时沉浸于海滩，游泳、浮潜、晒太阳。中午在沙滩小馆享用简单的希腊午餐。下午可以探索海滩两侧岩石区的小型海蚀洞，或在松林边缘的阴凉处彻底放松、阅读、发呆。务必在日落前至少一个半小时启程返航，绝对不要尝试在夜色中行驶那段悬崖公路。这样的安排确保了安全，并让你能充分体验海滩从清晨到午后不同光线下的变幻之美。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`绝对不要在下午太晚才出发前往海滩或试图在日落后返程，那段山路没有路灯且弯道辨识度极低，极其危险。
+穿一双结实耐走的沙滩鞋或溯溪鞋，保护脚底不被烫沙和水中礁石所伤，并方便进行岩石区的小探索。
+海滩设施极其有限，务必自备充足的饮用水、防晒霜、遮阳帽和毛巾，并将所有垃圾随身带走。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在破晓时分从皮加迪亚镇租车出发，摇下车窗，让清凉的晨风伴随着沿途百里香和灌木丛的野性香气充满车厢。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`全神贯注地驾驭每一个令人手心冒汗的急转弯，同时不忘在偶尔出现的开阔处停车，俯瞰脚下深蓝爱琴海与连绵群山的壮阔画卷。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`将车停在海滩上方悬崖的简陋停车场，沿着那陡峭但修葺良好的石阶一步步向下，感受心跳加速与眼前那片松石绿海域逐渐展开的双重震撼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`踏入清凉透骨的海水，让那份纯净的蔚蓝淹没肩膀，然后戴上浮潜面镜，低头探索岸边岩石区色彩斑斓的小鱼和海底沙床的光影游戏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在海滩后方那家家庭经营的小木棚里，点一份用岛上番茄和羊奶酪做的希腊沙拉，就着冰镇啤酒，听着老板用口音浓重的英语讲述冬天的风暴。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一片松树投下的阴影铺上毛巾，躺在温暖的沙子上，什么都不做，只是听浪花周而复始的节奏，看光影在悬崖壁上的移动，直到昏昏欲睡。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在下午三四点阳光依旧热烈但人潮开始散去时，沿着海滩右侧的岩石堆小心行走，去寻找被海水冲刷出的天然小洞穴和僻静的迷你水湾。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前带着一身海水盐渍和阳光气息，恋恋不舍地攀回停车场，踏上归途，并在途中某个视野绝佳的平台停下，回望已被暮色染成金色的阿佩拉湾。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`停车场下方悬崖俯拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点前，阳光从东面照亮整个海湾，使用广角镜头从台阶起点附近俯拍，将新月形沙滩、翡翠色海水和背景的层层山峦全部纳入画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`海滩中央侧拍海岸线`}</h4>
+                  <p className="text-sm text-gray-700">{`午后阳光西斜时，站在海水边缘面向沙滩方向拍摄，侧光能完美勾勒出沙滩的纹理、躺椅的线条和悬崖森林的层次感，色彩饱和度最高。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`松林边缘框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`寻找一处从悬崖伸出的松树枝桠作为天然画框，透过枝叶的缝隙去拍摄下方海滩上的人物或海面的波光，营造深度感和故事性。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`浮潜水下视角`}</h4>
+                  <p className="text-sm text-gray-700">{`如果有防水相机或GoPro，在正午阳光直射海底时拍摄水下世界，清澈的海水能让你捕捉到沙纹、游鱼和阳光穿透水面的丁达尔效应光束。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`返程山路观景台回望`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前返程时，在第一个能清晰看到阿佩拉湾全貌的观景台停车，用长焦镜头压缩空间，拍摄海湾在金色暖光下的宁静全景，远处海滩上的小人影能增添生动感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`正午顶光强烈，拍人像容易产生难看阴影，建议利用遮阳伞下的柔光或选择清晨傍晚拍摄人像。`}</li>
+                <li>• {`尊重他人隐私，拍摄其他游客（尤其是特写）前最好先微笑示意，希腊人通常很友好。`}</li>
+                <li>• {`使用无人机前请务必谨慎，强风和海风可能会影响飞行，且需注意不要打扰到其他享受宁静的游客。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`山村民宿体验`}</h4>
+                  <p className="text-sm text-blue-800">{`预订阿佩拉海滩上方山脊传统村庄奥林波斯（Olympos）里的家庭客栈，醒来便是云海和风车，深度体验岛民慢生活，驱车下山至海滩约20分钟。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`海滨便捷之选`}</h4>
+                  <p className="text-sm text-green-800">{`住在岛屿中部或南部如莱夫科斯（Lefkos）或皮加迪亚（Pigadia）的海滨小型酒店或公寓，拥有更多餐饮选择，作为每日探索不同海滩（包括阿佩拉）的舒适基地。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`隐居者天堂`}</h4>
+                  <p className="text-sm text-yellow-800">{`在喀帕喀斯岛北部寻找由古老石屋改造的独家别墅，通常配备私人露台和无边泳池，直面爱琴海，享受极致的私密与奢华，前往阿佩拉海滩路程更近。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`背包客社交站`}</h4>
+                  <p className="text-sm text-purple-800">{`选择皮加迪亚港口的背包客旅舍，认识来自世界各地的旅行者，分享租车信息和探险故事，是预算有限且喜欢社交的年轻旅行者的理想起点。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "岛上住宿总体朴素，星级酒店很少，旺季（7-8月）时所有类型的住宿都极其紧俏，务必提前数月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果主要目标是阿佩拉海滩，住在北部的奥林波斯或迪亚法尼（Diafani）地区能大大缩短颠簸车程，但这些村庄夜晚非常安静，设施有限，适合追求宁静的旅行者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "无论住在哪里，租车都是探索喀帕喀斯岛，尤其是前往像阿佩拉这样隐秘海滩的绝对必要条件，请将此预算纳入计划。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开阿佩拉许久后，那抹松石绿还会不时在眼前晃动。我发现，令我魂牵梦萦的，不仅仅是那片海的颜色，更是“抵达”它的整个过程。在那个被悬崖与松林守护的隐秘世界里，现代生活的所有噪音——手机的提示音、社交媒体的焦虑、城市的车马喧嚣——都被那道险峻的山路和澎湃的海浪声彻底过滤掉了。你被迫变得专注：专注于手中的方向盘，专注于脚下温热的沙，专注于眼前每一刻都在变幻的光与海。这是一种奢侈的、全身心的“在场”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个过度曝光、一切美景都可以通过屏幕一键获取的时代，阿佩拉像一位高傲的古典美人，坚持着自己的规则。它不提供便捷，它只提供真实。它用一段令人敬畏的旅程来考验你的诚意，然后用一片毫无保留的绝景来奖赏你的勇气。这恰恰是深度旅行的精髓所在：最美的风景，往往不在路的尽头，而在通往它的路上，在你为之付出的专注与期待里。阿佩拉海滩不仅仅是一个地理坐标，它是一种心境，一个提醒——提醒我们，真正的震撼与宁静，需要穿越一段崎岖，方能抵达。这份记忆，会成为你对抗日后所有平庸时光的一剂解药。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/schengen-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    申
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">申根（缔造欧洲无国界公约的酿酒小村）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Schengen</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/mount-athos" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿索斯山</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mount Athos</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sigtuna-sweden" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    锡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">锡格蒂纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sigtuna</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

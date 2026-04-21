@@ -478,6 +478,7 @@ ${formatParagraphs(data['总结感悟'])}
     }
 
     // 检查是否有传入的国家slug作为参数
+    const existingIndex = attractionsData.findIndex(a => a.slug === slug);
     let countrySlug = 'europe';
     if (existingIndex >= 0 && attractionsData[existingIndex].countrySlug) {
       countrySlug = attractionsData[existingIndex].countrySlug;
@@ -552,7 +553,7 @@ ${relatedHtml}
 
     // 更新 JSON，合并或新增分类
     // 注意：如果是游记或历史，它们会作为独立的一条记录存在于 JSON 中，所以用独立的 slug 查找
-    const existingIndex = attractionsData.findIndex(a => a.slug === slug);
+    // existingIndex 已经在上方检查 countrySlug 时定义过，无需重新声明
     let categoryArray = [cat.id]; // 当前文案所属文件夹的分类
     
     if (existingIndex >= 0 && attractionsData[existingIndex].category) {

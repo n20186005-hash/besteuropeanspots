@@ -1,0 +1,246 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '富尔塞 Fourcès｜探秘法国唯一圆形巴斯蒂德，漫步时光凝固的完美圆环 - 最佳欧洲景点',
+  description: '当我第一次把车停在村外，沿着一条窄巷向里走时，完全没预料到即将看到的景象。巷子尽头的光亮越来越近，然后，像一个慢放的镜头，一个完美的圆形在我面前豁然展开。那不是广场，更像是一个被建筑温柔环抱起来的巨大庭院。中央空地上，几棵巨大的悬铃木和栗树撑起墨绿色的华盖，树荫下随意摆放着几张铁艺桌椅，阳光透过叶隙',
+}
+
+export default function FourcesBastideVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
+            { label: '热尔省，位于法国西南部', href: '/destinations/france' },
+            { label: '富尔塞', href: '/attractions/fources-bastide-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`富尔塞・Fourcès・法国・热尔省，位于法国西南部`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当我第一次把车停在村外，沿着一条窄巷向里走时，完全没预料到即将看到的景象。巷子尽头的光亮越来越近，然后，像一个慢放的镜头，一个完美的圆形在我面前豁然展开。那不是广场，更像是一个被建筑温柔环抱起来的巨大庭院。中央空地上，几棵巨大的悬铃木和栗树撑起墨绿色的华盖，树荫下随意摆放着几张铁艺桌椅，阳光透过叶隙，在古老的石板地上洒下晃动的金币。时间在这里仿佛是黏稠的蜂蜜，流动得极其缓慢。
+我的耳朵立刻被一种宁静的“白噪音”包裹。不是寂静，而是生活本身最温和的声响：树叶在微风里的沙沙声，广场另一边咖啡馆里杯碟轻微的碰撞声，一位老先生在拱廊下读报时翻动纸张的哗啦声，还有远处隐约传来的、滚球游戏金属球相碰的清脆“叮”声。空气里有好闻的味道——上午面包房残留的黄油焦香，混合着老木头被太阳晒暖后散发出的干燥气息，以及从某家花园飘来的玫瑰和迷迭香的清新。这里没有景点的喧嚣，它就是它自己，一个活着的、呼吸着的古老社区。
+我沿着圆环漫步，手指拂过那些半木结构房屋裸露的深色木梁。它们有些笔直，有些因年代久远而微微弯曲，像老人的脊背。淡黄色或浅粉色的砖块填充其间，许多窗台上盛开着天竺葵，红色的花朵在古朴的背景上跳脱出活泼的生命力。拱廊下光影交错，形成一条凉爽的走廊，几家小店藏身其中，卖着本地陶器或鸭肝酱。我忽然明白了这个圆形布局的魔力：它没有焦点，没有方向，每一个点都是中心，又都不是。它迫使你慢下来，环绕，停留，以一种平等的视角去观察和感受每一栋房子，每一个人。
+最打动我的，是它如何将防御功能美学化、生活化。那些房屋紧密相连，背对外部世界，形成一个坚固的圆环壁垒，保护着内部的安宁。而今天，这种“保护”不再是抵御弓箭，而是抵御了时间的洪流和现代社会的纷扰。居民们依然在这里生活，在栗树下玩滚球游戏，在拱廊下闲聊，周末的圆形空地会变成热闹的集市。这个圆，是他们的舞台，也是他们的庇护所。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当我第一次把车停在村外，沿着一条窄巷向里走时，完全没预料到即将看到的景象。巷子尽头的光亮越来越近，然后，像一个慢放的镜头，一个完美的圆形在我面前豁然展开。那不是广场，更像是一个被建筑温柔环抱起来的巨大庭院。中央空地上，几棵巨大的悬铃木和栗树撑起墨绿色的华盖，树荫下随意摆放着几张铁艺桌椅，阳光透过叶隙，在古老的石板地上洒下晃动的金币。时间在这里仿佛是黏稠的蜂蜜，流动得极其缓慢。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我的耳朵立刻被一种宁静的“白噪音”包裹。不是寂静，而是生活本身最温和的声响：树叶在微风里的沙沙声，广场另一边咖啡馆里杯碟轻微的碰撞声，一位老先生在拱廊下读报时翻动纸张的哗啦声，还有远处隐约传来的、滚球游戏金属球相碰的清脆“叮”声。空气里有好闻的味道——上午面包房残留的黄油焦香，混合着老木头被太阳晒暖后散发出的干燥气息，以及从某家花园飘来的玫瑰和迷迭香的清新。这里没有景点的喧嚣，它就是它自己，一个活着的、呼吸着的古老社区。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我沿着圆环漫步，手指拂过那些半木结构房屋裸露的深色木梁。它们有些笔直，有些因年代久远而微微弯曲，像老人的脊背。淡黄色或浅粉色的砖块填充其间，许多窗台上盛开着天竺葵，红色的花朵在古朴的背景上跳脱出活泼的生命力。拱廊下光影交错，形成一条凉爽的走廊，几家小店藏身其中，卖着本地陶器或鸭肝酱。我忽然明白了这个圆形布局的魔力：它没有焦点，没有方向，每一个点都是中心，又都不是。它迫使你慢下来，环绕，停留，以一种平等的视角去观察和感受每一栋房子，每一个人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动我的，是它如何将防御功能美学化、生活化。那些房屋紧密相连，背对外部世界，形成一个坚固的圆环壁垒，保护着内部的安宁。而今天，这种“保护”不再是抵御弓箭，而是抵御了时间的洪流和现代社会的纷扰。居民们依然在这里生活，在栗树下玩滚球游戏，在拱廊下闲聊，周末的圆形空地会变成热闹的集市。这个圆，是他们的舞台，也是他们的庇护所。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`富尔塞`} />
+                <InfoRow label="英文名称" value={`Fourcès`} />
+                <InfoRow label="正式名称" value={`Fourcès`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`热尔省，位于法国西南部`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座始建于13世纪末、布局极其罕见的圆形巴斯蒂德（中世纪防御新城），是法国加斯科涅地区历史与社区规划的活化石。`} />
+                <InfoRow label="建筑特色" value={`其最震撼之处在于一个完美的圆形中心空地（而非传统方形广场），空地中央绿树成荫，被连续的两层半木结构房屋和拱廊严谨地环绕，形成封闭、内向且和谐的社区核心。`} />
+                <InfoRow label="建筑风格" value={`以加斯科涅地区典型的半木结构房屋为主体，混合了中世纪民用防御建筑与后期文艺复兴的装饰元素，整体呈现质朴温暖的砖木色调。`} />
+                <InfoRow label="文化价值" value={`它不仅仅是一个建筑奇观，更体现了中世纪城镇规划中对于社区平等、集体防御与内部凝聚力的哲学思考，至今仍是当地居民生活的真实中心。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`村落全天开放，公共区域可自由漫步。大部分私人宅邸不对外开放，但外部建筑可随意观赏。村内小博物馆、画廊及部分商店的开放时间较为灵活，通常为每年四月至十月的上午10点至下午6点，冬季（十一月至三月）部分歇业或仅在周末开放。建议避开周一，因为很多小店会选择这天休息。`} />
+              <InfoRow label="门票价格" value={`进入村落免费。若参加当地旅游局组织的向导步行游览（非常推荐），费用约为每人8欧元，时长1.5小时，需提前在旅游局网站或现场预约。村内小型历史陈列室自愿捐赠入场。`} />
+              <InfoRow label="地址" value={`Place de la Mairie, 32250 Fourcès, France`} />
+              <InfoRow label="交通方式" value={`富尔塞隐匿于乡村，最适合自驾探索。从图卢兹-布拉尼亚克机场出发，租车后沿A62高速公路向西北方向行驶，在阿根出口下高速，转入乡间D路，全程约1小时20分钟。若乘坐火车，可抵达最近的城市康东，但从康东火车站前往富尔塞仅有的出租车班次稀少，车程约25分钟，强烈建议提前预约车辆。村落内街道为古老石板路，车辆需停放在村口指定的免费停车场，然后步行进入。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "让我们把时钟拨回1289年。那时的加斯科涅地区可不是什么宁静田园，它是英法两大王国争夺的焦点，战火与领地纠纷是家常便饭。为了巩固统治、安置人口并发展经济，一种新型的城镇开始被有计划地建造出来，这就是“巴斯蒂德”。通常，它们有着严谨的方格棋盘布局，中心是一个矩形广场用于市场和集会。但富尔塞的缔造者，可能是当时的领主或修道院院长，却做出了一个极其大胆甚至有些叛逆的决定：我们要建一个圆形的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "有人说，这源于更古老的凯尔特环形聚落的记忆；也有人说，这是为了最大限度地利用这块土地的地形。但当你站在圆心环顾四周，一个更深刻的原因会浮现心头：圆形意味着绝对的平等与团结。没有哪一栋房子比另一栋更靠近中心，没有哪个角落会被边缘化。在危机四伏的年代，这种布局象征着居民们必须背靠背，形成一个无死角的防御共同体。每一户人家，既是家园，也是城墙的一部分。这份建于13世纪末的社区契约，以石头和木头的形式被永恒地凝固下来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座圆形堡垒在随后的世纪里经历了严峻的考验。英法百年战争的战火曾蔓延至此，宗教战争的阴影也曾笼罩。据说，村庄曾筑有城墙和城门，但今天只剩下一些痕迹和那座标志性的钟楼门（Porte de l’Horloge）提醒着人们它曾经的军事身份。有趣的是，在相对和平的16、17世纪，富尔塞的居民们开始“软化”他们的堡垒。他们为房屋添加了更多文艺复兴风格的装饰性细节，比如雕刻精美的门楣和更宽敞的窗户。防御的紧迫性让位于生活的舒适与美感，砖木结构的房子被维护和美化，那个内向的圆环，开始向内部的庭院生活绽放。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "法国大革命的风暴也席卷了这个偏远的村庄。象征着封建权力的领主城堡被部分拆毁，而那些属于社区的公地——也就是我们看到的巨大圆形空地——被保留下来，成为了全体村民的共同财富。这个转变至关重要，它让富尔塞的核心从“领主的庭院”彻底转变为“人民的广场”。19世纪和20世纪，当工业化吸引着人们涌向城市时，富尔塞像许多法国乡村一样，经历了缓慢的衰落，但也因此意外地保存了它的原貌，没有被现代建筑所破坏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "直到人们重新发现乡村的价值，富尔塞这颗隐藏的明珠才再次闪耀。它没有被做成僵化的博物馆，而是由一代代居民小心翼翼地守护着它的灵魂。今天的房屋里，依然住着木匠、画家、退休教师和经营着小旅馆的家庭。他们修复老房子，但不会改变它的筋骨；他们欢迎游客，但不会出卖小镇的宁静。这座圆的巴斯蒂德，历经战争、革命与时代变迁，最终找到了它最和谐的节奏：作为一个活生生的社区，继续在时间之圆里，从容地旋转。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`游览富尔塞的秘诀在于“慢”和“绕”。建议在上午十点前抵达，这时游客尚少，阳光斜射，拱廊下的光影格外迷人。整个深度游览无需匆忙，预留至少3-4小时为佳，其中包含在广场咖啡馆发呆的时间。核心体验就是沿着那个完美的圆形反复漫步，从不同角度观察和感受。先从外部建立整体印象，再深入圆环内部体验其怀抱感，最后探索周边的巷道和小细节。这样的节奏能让你真正领会这个圆形布局的空间魔力，而不只是走马观花。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`千万不要尝试开车进入村内迷宫般的狭窄石板路，不仅会破坏氛围，也极易刮蹭车辆，村口停车场是唯一且方便的选择。
+夏季午后可能较热，圆形空地树荫下是绝佳的避暑点，但记得带上防蚊水，绿树和水边难免有蚊虫。
+尊重当地居民的隐私，很多漂亮的房屋是私人住宅，拍照时请避免对准窗户或室内，在拱廊公共区域拍摄建筑外观则完全没有问题。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在村口免费的停车场，然后不急于进村，先沿着外围的小路走一段，从远处眺望那片由深色木梁和暖色砖墙构成的、连绵起伏的圆形屋顶轮廓线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从东侧的拱廊入口正式进入圆形空地，让那个绿树成荫的完美圆形全景瞬间充满你的视野，静静地站在圆心感受被历史环抱的震撼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺时针沿着拱廊阴影慢慢行走，仔细观察每一栋半木结构房屋的细节——木材的纹理、砖块的颜色、窗台上的鲜花和那些古老的门环。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到圆形空地的西北角，抬头仰望那座厚重的钟楼门，想象它曾是村庄主要出入口和防御塔楼的时代。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在空地中央栗树的荫凉下找张椅子坐下，点一杯咖啡，什么也不做，就看当地的老人玩滚球游戏，听他们带着浓重口音的谈笑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过钟楼门或另一条小巷，探索圆形布局之外的安静街巷，那里有隐藏的小花园、古老的洗衣池和贴着瓷砖的质朴民居。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`别忘了拜访村公所所在的小楼，里面通常有关于村庄历史的简单展览，能帮你更好地理解眼前的一切。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在离开前，再次绕行圆形空地一周，这次逆时针方向，你会发现光线和视角完全改变了，仿佛是一个全新的地方。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圆心仰拍环廊`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在圆形空地的正中心，用广角镜头向上仰拍，将四周环绕的半木结构房屋、拱廊和参天大树全部收入镜中，构图极具向心力和震撼感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`拱廊下的纵深光影`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点左右，阳光斜射入东侧拱廊时，站在廊内一端向另一端拍摄，利用拱廊的重复结构和地面上长长的光影，营造深邃的时空隧道感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`钟楼门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，从圆形空地内部，透过钟楼门的拱形门洞向外拍摄外面的街道和房屋，用门洞作为天然画框，形成一幅生动的乡村生活小品。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`外围小路俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`从村庄南侧外围的田间小路上回望，可以拍到富尔塞圆形建筑群坐落在田园风光中的全景，尤其是日落时分，暖金色的阳光会给整个村落镀上辉煌的色彩。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`滚球游戏纪实`}</h4>
+                  <p className="text-sm text-gray-700">{`在树荫下，用长焦镜头捕捉当地老人玩滚球游戏时的专注神情和手势，这是最能体现富尔塞生活气息的人文瞬间。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`当地居民对拍照通常很友善，但拍摄人物前，一个微笑和眼神示意是最好的沟通方式。飞无人机拍摄全景前，务必了解法国乡村地区的无人机法规，并绝对避开私人住宅上空。柔和的光线是展现这座砖木村庄温暖质感的关键，正午的顶光会让细节平淡，尽量选择黄金时段拍摄。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸圆环之心`}</h4>
+                  <p className="text-sm text-blue-800">{`直接住在圆形广场拱廊上的百年半木结构房屋里，房东将阁楼改造成了温馨的民宿，晚上等游客散尽，你就能独享这座中世纪圆环的魔法时刻，听木头在夜色中细语。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`静谧田园隐居`}</h4>
+                  <p className="text-sm text-green-800">{`距离村庄步行五分钟的一处翻修后的老农庄，拥有独立的花园和游泳池，早晨会被鸟鸣和田野的香气唤醒，适合想要绝对宁静的旅人。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`古堡贵族遗梦`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在三公里外一座由16世纪小城堡改造的精品酒店，体验石墙、壁炉和古董家具，在花园里就能远眺富尔塞的轮廓，享受现代舒适与历史厚重的结合。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`作家旅舍灵感屋`}</h4>
+                  <p className="text-sm text-purple-800">{`村里一家由本地艺术家经营的小型旅舍，只有四个房间，每个都以一位与加斯科涅有关的作家命名，充满了书籍和原创画作，是文艺灵魂的完美归宿。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "富尔塞本身非常小，住宿选择有限且极具特色，尤其是在夏季和周末集市日，必须提前数月预订。住在村里能体验清晨和夜晚无人打扰的秘境感，但需接受隔音可能相对古老的事实。选择周边农庄则能享受更宽敞的空间和星空，但需要短途驾车或步行进出村。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开富尔塞很久以后，那个圆形的意象还会时常在我脑中浮现。它不像那些恢弘的大教堂或宫殿，用高度和奢华震撼你；它用的是另一种力量，一种向内的、包容的、循环的力量。在这个圆环里，你找不到起点和终点，这似乎是一种隐喻：关于历史，它从未真正断裂，而是以另一种形式延续在日常的咖啡香和滚球声中；关于社区，它告诉我们，最强的防御不是高墙，而是人与人之间紧密的联结与彼此的照应。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、崇尚直线和棱角的时代，富尔塞的存在像一首古老的田园诗，温柔地提出异议。它证明，完美可以是圆润的，生活可以是缓慢的，社区可以是亲密的。每一个来到这里的人，都不知不觉被这个“圆”所吸纳，暂时放下外界的纷扰，成为这个和谐画面的一部分。它不仅仅是一个“景点”，更是一个关于如何生活、如何与历史共存、如何构建人际空间的永恒启示。对于那些厌倦了走马观花、渴望在旅途中找到片刻心灵归宿的旅人来说，富尔塞这个隐秘的圆环，无疑是值得你绕一段远路，去亲身感受的一次深度拥抱。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/historic-centre-of-lyon" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    里
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里昂历史中心</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Historic Centre of Lyon</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beauvais-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博韦大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beauvais Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-villandry" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维朗德里城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Villandry</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

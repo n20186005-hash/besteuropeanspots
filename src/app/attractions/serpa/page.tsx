@@ -1,0 +1,244 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '塞尔帕 Serpa｜探秘阿连特茹宁静边境防御城，漫步古老渡槽下品味辛辣羊奶酪 - 最佳欧洲景点',
+  description: '车子缓缓爬上一个缓坡，当那座被阳光晒成蜜糖色的城镇猛然跳入眼帘时，时间仿佛“咯噔”一下慢了下来。最抓人眼球的，不是某座高耸的教堂，而是一道异常宽阔、仿佛巨人臂膀般的石砌渡槽，它毫不突兀地从一排排白墙红瓦的民居中横跨而过，几座拱门干脆化作了某户人家院子的一部分。这就是塞尔帕给你的第一印象：实用、质朴，',
+}
+
+export default function SerpaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '塞尔帕', href: '/destinations/europe' },
+            { label: '塞尔帕', href: '/attractions/serpa' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`塞尔帕・Serpa・葡萄牙・塞尔帕`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子缓缓爬上一个缓坡，当那座被阳光晒成蜜糖色的城镇猛然跳入眼帘时，时间仿佛“咯噔”一下慢了下来。最抓人眼球的，不是某座高耸的教堂，而是一道异常宽阔、仿佛巨人臂膀般的石砌渡槽，它毫不突兀地从一排排白墙红瓦的民居中横跨而过，几座拱门干脆化作了某户人家院子的一部分。这就是塞尔帕给你的第一印象：实用、质朴，把历史的宏大叙事悄无声息地编织进了日常的肌理里。
+停好车，穿过一道低矮的拱形城门，你便跌入了一片由狭窄小巷构成的迷宫。空气里弥漫着一股复杂的气味：被正午烈日烘烤过的石头散发出干燥的尘土气息，间或飘来某个庭院里九重葛的淡香，但最霸道、最持久的，是一种浓烈、咸鲜、略带羊膻味的成熟奶酪气息——它从那些挂着“Queijo”招牌的小店门缝里钻出来，顽固地停留在你的鼻腔里，宣告着这片土地的主权。你的脚步声在巷弄里回荡，偶尔有老人坐在阴凉的门槛上，用浑浊而平静的目光打量着你，一只花猫在墙头懒洋洋地伸展身体。这里的宁静是有重量的，带着阿连特茹平原烈日下那种昏昏欲睡的慵懒。
+走到古城的高处，站在残缺的城堡塔楼下，你才能真正读懂塞尔帕的布局。那道将老城紧紧包裹的城墙，厚实得令人安心，墙体的走道狭窄到仅容一人侧身通过，这绝非为了浪漫，而是冷峻的军事考量。你的手掌抚过粗糙的墙面，能感受到数百年来风沙的磨砺。向东望去，是一望无际的、在热浪中微微颤动的平原，边境线就在那片寂寥的远方。此刻，你忽然明白，这不仅仅是一个美丽的小镇，它是一个曾经紧绷着神经、时刻警惕着来犯之敌的边境哨所，它的每一块石头都曾被士兵的体温熨烫过。
+而那份紧绷，最终被生活本身所化解和延续。你看那些居民，他们将防御的城墙当作自家后院的外墙，在渡槽的阴影下摆放桌椅喝下午茶。那种辛辣的羊奶酪，就像是这种坚韧精神的味觉化身：初尝刺激，回味却醇厚悠长，带着土地的野性。塞尔帕的魅力，就在于这种毫不做作的融合——战争与和平，宏大工程与市井烟火，都在这里达成了奇妙的和解。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子缓缓爬上一个缓坡，当那座被阳光晒成蜜糖色的城镇猛然跳入眼帘时，时间仿佛“咯噔”一下慢了下来。最抓人眼球的，不是某座高耸的教堂，而是一道异常宽阔、仿佛巨人臂膀般的石砌渡槽，它毫不突兀地从一排排白墙红瓦的民居中横跨而过，几座拱门干脆化作了某户人家院子的一部分。这就是塞尔帕给你的第一印象：实用、质朴，把历史的宏大叙事悄无声息地编织进了日常的肌理里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "停好车，穿过一道低矮的拱形城门，你便跌入了一片由狭窄小巷构成的迷宫。空气里弥漫着一股复杂的气味：被正午烈日烘烤过的石头散发出干燥的尘土气息，间或飘来某个庭院里九重葛的淡香，但最霸道、最持久的，是一种浓烈、咸鲜、略带羊膻味的成熟奶酪气息——它从那些挂着“Queijo”招牌的小店门缝里钻出来，顽固地停留在你的鼻腔里，宣告着这片土地的主权。你的脚步声在巷弄里回荡，偶尔有老人坐在阴凉的门槛上，用浑浊而平静的目光打量着你，一只花猫在墙头懒洋洋地伸展身体。这里的宁静是有重量的，带着阿连特茹平原烈日下那种昏昏欲睡的慵懒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走到古城的高处，站在残缺的城堡塔楼下，你才能真正读懂塞尔帕的布局。那道将老城紧紧包裹的城墙，厚实得令人安心，墙体的走道狭窄到仅容一人侧身通过，这绝非为了浪漫，而是冷峻的军事考量。你的手掌抚过粗糙的墙面，能感受到数百年来风沙的磨砺。向东望去，是一望无际的、在热浪中微微颤动的平原，边境线就在那片寂寥的远方。此刻，你忽然明白，这不仅仅是一个美丽的小镇，它是一个曾经紧绷着神经、时刻警惕着来犯之敌的边境哨所，它的每一块石头都曾被士兵的体温熨烫过。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而那份紧绷，最终被生活本身所化解和延续。你看那些居民，他们将防御的城墙当作自家后院的外墙，在渡槽的阴影下摆放桌椅喝下午茶。那种辛辣的羊奶酪，就像是这种坚韧精神的味觉化身：初尝刺激，回味却醇厚悠长，带着土地的野性。塞尔帕的魅力，就在于这种毫不做作的融合——战争与和平，宏大工程与市井烟火，都在这里达成了奇妙的和解。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`塞尔帕`} />
+                <InfoRow label="英文名称" value={`Serpa`} />
+                <InfoRow label="正式名称" value={`Serpa`} />
+                <InfoRow label="国家" value={`葡萄牙`} />
+                <InfoRow label="城市" value={`塞尔帕`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座见证了葡萄牙与西班牙漫长边境纷争的坚固要塞，其防御体系是阿连特茹地区军事建筑的杰出代表。`} />
+                <InfoRow label="建筑特色" value={`保存完好的中世纪城墙与一座宏伟的、兼具防御与供水功能的古老渡槽（Aqueduto）完美融合，形成了独一无二的城市天际线。`} />
+                <InfoRow label="建筑风格" value={`以朴素的曼努埃尔晚期和文艺复兴军事风格为主，混搭了早期摩尔人防御工事的遗风，整体呈现厚重的赭石色调。`} />
+                <InfoRow label="文化价值" value={`这里是葡萄牙传统羊奶酪（Queijo de Serpa）PDO产区的核心，其独特的辛辣风味承载着数百年来阿连特茹牧羊人的生活方式与智慧。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城区域全天24小时开放。城内主要博物馆（如塞尔帕城堡、考古博物馆）及奶酪工坊的开放时间一般为周二至周日，上午10:00至下午13:00，下午14:00至18:00（冬季可能提前至17:00关闭）。周一通常闭馆。具体景点的开放时间可能因季节和节假日临时调整，建议行前查阅市政官网或游客中心告示。`} />
+              <InfoRow label="门票价格" value={`进入塞尔帕古城本身免费。城堡遗址和部分博物馆会收取小额门票，通常为2-3欧元。65岁以上老人、学生及12岁以下儿童享有折扣，本地居民有时免费。购买包含多个小景点的通票可能更划算，价格约5欧元，可在游客中心咨询购买。`} />
+              <InfoRow label="地址" value={`Praça da República, 7830-389 Serpa, Portugal`} />
+              <InfoRow label="交通方式" value={`从里斯本出发最为常见。在里斯本东方车站（Gare do Oriente）乘坐火车前往贝雅（Beja），车程约2小时，班次每天约4-5班。抵达贝雅后，在火车站外的公交总站换乘前往塞尔帕的城际巴士（Rodoviária do Alentejo运营），车程约45分钟至1小时，每天班次有限（通常上下午各2-3班），务必提前查好时刻表并预留充足换乘时间。自驾是最灵活的方式，从里斯本沿A2/E90高速公路南下，在Ferreira do Alentejo转向IP2公路，全程约2小时。古城外有免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要听懂塞尔帕的故事，你的耳朵得先习惯风中传来的两种声音：一种是悠远的牧羊铃铛，另一种则是兵刃相交的铿锵回响。这片俯瞰着瓜迪亚纳河流域的山丘，战略位置太关键了，注定无法平静。早在罗马时期，这里就有人类聚落的痕迹，但真正为塞尔帕奠定雏形的，是来自北非的摩尔人。大约在8世纪，精于水利和防御的摩尔人看中了这里，他们筑起了最早期的防御工事，可能还初步规划了利用山势引水的系统，因为对于这片干旱的土地，水与城墙同等重要。那时的塞尔帕，是科尔多瓦哈里发国边境上一颗安静的棋子。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转折发生在13世纪，随着基督教王国向南的“再征服运动”势如破竹。1165年左右，葡萄牙的第一位国王阿方索·恩里克斯的军队从摩尔人手中夺取了塞尔帕。但这仅仅是动荡的开始。由于其紧邻卡斯提尔王国（后来的西班牙）的边境位置，塞尔帕在接下来的几百年里，就像拔河绳中间的红布，反复易手，饱受战火蹂躏。城墙一次次被攻破，又一次次被加固。直到13世纪末，在国王迪尼斯一世治下，塞尔帕获得了重要的特许状，真正的城墙和城堡得以系统性重建，它作为葡萄牙王国南部边境堡垒的地位被正式确立。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，坚固的城墙需要忠贞的守卫者。为了巩固边防，王国鼓励甚至命令贵族和骑士家族迁居至此，赐予他们土地和特权。这些家族在城内建起了朴素的庄园宅邸，他们的生活与防御任务紧密相连。也是在这个时期，那个成为塞尔帕标志的渡槽开始兴建。这绝非一项单纯的民生工程，而是一个深思熟虑的战备项目。在可能被围困的日子里，可靠的水源是生存的关键。于是，工匠们将渡槽的主体部分设计得异常厚重，其顶部甚至可以作为守卫通行的步道，一道水渠，同时也是一道空中防线。这是塞尔帕人将生存智慧刻进石头里的典型例证。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "和平的曙光真正来临，要等到15世纪末，随着葡萄牙与西班牙边界的最终划定。硝烟渐渐散去，塞尔帕的军事压力减缓，但它并未衰落，而是迎来了角色的华丽转身。城墙之内，生活气息日益浓厚。那些曾经用于储备军粮的地窖，开始飘出奶酪发酵的独特酸味。阿连特茹广阔的平原为牧羊提供了理想场所，塞尔帕的家庭主妇们利用富余的羊奶，借鉴了可能源自摩尔人的凝乳技艺，加入当地特有的蓟菜花凝乳酶，创造出了风味强劲的羊奶酪。这种奶酪不易腐败，易于储存和交易，很快从家庭食物变成了重要的经济产品。防御之城，悄然变成了美食之乡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "近代的塞尔帕避开了工业化的喧嚣，也因此幸运地保存了中世纪的格局。它的城墙和渡槽在20世纪得到了精心的修复，但不是变成冰冷的博物馆，而是继续作为城市肌体的一部分呼吸着。今天，当你漫步其中，你走过的每一步，都踩在层层叠叠的历史上：摩尔人的地基、中世纪骑士的城垛、文艺复兴时期市民加高的屋舍、还有空气里那从古至今未曾改变的、浓烈的奶酪香。它的历史不是断裂的章节，而是一首绵延不绝的、关于坚韧与适应的叙事诗。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在上午9点左右抵达塞尔帕，此时阳光已足够明亮，但尚未达到阿连特茹午间那灼人的热度，柔和的光线最适合拍摄蜜色的城墙与渡槽。预留整整一天的时间给这里，节奏一定要慢，因为它不是一个用脚步丈量的景点清单，而是一个需要你用全部感官去浸泡的环境。上午专注于探索城墙、城堡和渡槽构成的“硬核”防御体系，感受历史的沉重。中午在古城内找一家家庭餐馆，品尝以塞尔帕奶酪入馔的本地菜肴。下午则彻底放松，穿梭于迷宮般的小巷，探访奶酪作坊，在广场上喝一杯浓咖啡，等待日落时分金色光芒为古城披上最华丽的衣裳。这样的安排能让你既读懂它的过去，也体验到它当下鲜活的心跳。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`阿连特茹的夏季正午极其炎热，务必避开12点到下午3点间的暴晒时段进行户外长距离行走，此时最适合找个阴凉的室内用餐或参观小博物馆。穿一双绝对舒适的步行鞋，古城内几乎全是凹凸不平的碎石路和陡峭的短坡。不要因为奶酪气味强烈而拒绝品尝，本地人常搭配无花果酱或蜂蜜来平衡其辛辣感，这是一种颠覆性的美味体验。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从主城门（Porta de Beja）进入，让手掌贴在那被无数代人进出磨得光滑的冰凉石壁上，感受穿越时空的触感起点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着城墙内侧狭窄的步道向北缓行，在一处豁口停下，俯瞰城墙与民居后墙惊人紧密的共生关系，看晾晒的衣物在古老的垛口旁飘扬。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到古城西北角，仰望那座将防御与供水功能完美结合的宏大渡槽，寻找拱门下被改造成车库或储藏间的空间，体会何为“活着的古迹”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻着空气中愈发浓郁的咸鲜气味，钻进一家门口挂着“Queijo de Serpa DOP”标志的家庭作坊，看店主用传统手法切割那块油润成熟的奶酪，并勇敢地讨一小块品尝。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在共和国广场（Praça da República）的树荫下找张长椅坐下，观察本地老人如何在市政厅和历史悠久的慈悲教堂（Misericórdia）前缓慢地度过一个下午。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`探访塞尔帕城堡遗址，不要只盯着主塔，而是在残垣断壁间坐下，想象守卫士兵当年眺望边境平原时眼中的寂寥与警惕。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着蜿蜒的小巷向东南方最高处漫步，目标是古老的圣玛利亚教堂（Igreja de Santa Maria），在其前方的空地上获得一个俯瞰全镇红瓦屋顶与远方无垠平原的辽阔视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前回到渡槽西侧的开阔地，看夕阳如何将巨大的石拱染成燃烧般的金红色，结束这感官充盈的一天。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`渡槽全景与生活气息`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点到六点，从共和国广场西侧的小路后退，用长焦镜头压缩空间，将宏伟的渡槽拱门与前景中阳台上绚烂的花卉、晾晒的衣物一同纳入画面，讲述历史与当下的对话。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`狭窄城墙步道的纵深感`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚太阳角度较低时，站在城墙步道入口向内拍摄，利用两侧高耸石墙形成的天然框架，捕捉阳光在粗糙石面上拉出的长长光影，等待一个当地居民缓缓走过的身影作为点睛之笔。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`巷弄尽头的指引之光`}</h4>
+                  <p className="text-sm text-gray-700">{`正午当阳光垂直洒入深巷时，寻找一条尽头有明亮出口的狭窄小巷，站在阴影里向光明处拍摄，利用强烈的明暗对比，让古老的石阶和墙壁的纹理在黑暗中浮现，出口处的门洞或人影会形成完美的视觉焦点。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`山顶教堂前的背影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，在圣玛利亚教堂前的空地上，以人物背对镜头、眺望远方平原和整个古城瓦屋顶的视角构图，将天空的暖色调与大地沉静的赭色调融为一体，营造故事感和辽阔意境。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`奶酪作坊的温暖细节`}</h4>
+                  <p className="text-sm text-gray-700">{`在允许拍照的作坊内，利用窗棂透入的侧光，特写店主布满皱纹的双手切割奶酪的瞬间，或是陶罐中正在凝固的乳白色奶液，焦点对准纹理和光线，传递手工艺的温度。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`阿连特茹的光线非常硬朗清澈，中午阴影边缘锐利，建议利用这个特点拍摄结构感强的建筑细节；而日出日落时分则色调温暖柔和，适合拍摄全景和人文氛围。拍摄当地居民，尤其是老人，务必先微笑并用手势征求同意，他们通常很友善，但直接的镜头可能会被视作冒犯。许多室内奶酪作坊禁止使用闪光灯，以免影响发酵过程。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济舒适之选`}</h4>
+                  <p className="text-sm text-blue-800">{`入住由百年老宅改造的市中心客栈，房间环绕着一个安静的 interior patio（内庭院），早餐能尝到房东自制的奶酪和果酱，晚上在庭院里能听见清晰的虫鸣。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验之选`}</h4>
+                  <p className="text-sm text-green-800">{`选择城墙边一栋将石拱门融入客厅的独特公寓，躺在床上就能透过古老的窗洞看见一段渡槽，厨房里还备有传统的陶制奶酪模具，让你仿佛住进历史里。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园风光之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在城外几公里处一个家庭经营的农庄（Monte），房间简朴干净，傍晚可以跟随主人去羊圈看看，清晨在广阔的橄榄园中散步，彻底融入阿连特茹的乡村节奏。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感隐居之选`}</h4>
+                  <p className="text-sm text-purple-800">{`位于附近小山丘上由旧农舍改造的现代精品酒店，拥有极简主义的白色内饰和无敌全景露台，在私人泳池边就能俯瞰塞尔帕古城全貌和星空，享受静谧的奢华。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季和传统节日（如奶酪节）期间住宿非常紧张，务必提前数月预订。老城内的住宿大多位于步行区，需要将车停在城外指定区域，但换来的是一出门就沉浸在中世纪氛围里的特权。如果追求绝对安静，请确认住宿是否临主广场，节庆时广场可能比较热闹。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开塞尔帕好些天了，但指尖似乎还残留着触摸那些厚重城墙时的粗砺感，鼻腔里也偶尔会幻觉般地飘过那股混合着石头、干草和辛辣奶酪的复杂气味。这个地方没有那种令人瞬间屏息的、戏剧性的美，它的力量是渗透式的，像阿连特茹的阳光，慢慢将你包裹、浸透。它教会你一种不同的“阅读”历史的方式：历史不只在博物馆的玻璃柜里，更在老婆婆挎着菜篮穿过渡槽门洞的背影里，在咖啡馆老板熟稔地为你切下一角油亮奶酪的手法里，在那道既防御敌人也承载着水管、既分隔内外也融为家园一部分的城墙哲学里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、热衷打卡的快节奏世界里，塞尔帕就像一个固执的、缓慢的 breath。它提醒我们，文明真正的韧性，不在于永远保持进攻或防御的姿态，而在于懂得如何将战争的遗产转化为和平生活的基石，将生存的必需升华成文化的骄傲。来这里，你不是为了收集又一个“到访过”的地名，而是为了体验一种完整的生活逻辑——一种紧贴土地、尊重传统、在时间沉淀中愈发醇厚的逻辑。当你最终品懂了那份初尝刺激、回味无穷的奶酪，你大概也就品懂了塞尔帕，品懂了阿连特茹的灵魂。这是一堂关于坚韧与温柔的深度课，值得每一个渴望在旅行中寻找生活本质的灵魂，亲自前来聆听。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/santuario-nossa-senhora-remedios-lamego" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉梅古朝圣所</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sanctuary of Nossa Senhora dos Remédios</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/viana-do-castelo-santa-luzia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维亚纳堡（俯瞰大西洋与利马河的圣卢西亚圣殿之城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Viana do Castelo</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bucaco-forest-national-palace" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布萨科国家森林</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Buçaco Forest</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

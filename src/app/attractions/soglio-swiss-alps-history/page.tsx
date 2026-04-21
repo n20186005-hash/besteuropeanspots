@@ -1,0 +1,176 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '索格里奥历史溯源｜“通往天堂门槛”的阿尔卑斯石板村前世今生与艺术家传奇',
+  description: '探秘瑞士索格里奥——阿尔卑斯山的“天堂门槛”。千年石板村如何诞生？为何让画家塞甘蒂尼痴迷一生？走进被时光定格的布雷加利亚山谷传奇。',
+}
+
+export default function SoglioSwissAlpsHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '格劳宾登州', href: '/destinations/europe' },
+            { label: '索格里奥', href: '/attractions/soglio-swiss-alps-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`索格里奥・Soglio・瑞士・格劳宾登州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在瑞士格劳宾登州，布雷加利亚山谷的尽头，海拔约1100米的台地上，悬着一个被世界遗忘的村落。它不是因旅游手册而闻名，而是因一位画家灵魂的呐喊。<strong>乔瓦尼·塞甘蒂尼</strong>曾无数次站在这里，凝视着阳光下泛着银灰色光芒的石板屋顶、远处锯齿状的阿尔卑斯群峰，以及教堂尖顶刺破的纯净蓝天，他称此处为 <strong>“通往天堂的门槛”</strong> 。这座村，就是索格里奥。抛开游玩攻略，走进索格里奥的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`索格里奥`} />
+                <InfoRow label="英文名称" value={`Soglio`} />
+                <InfoRow label="正式名称" value={`Soglio`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`格劳宾登州`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "索格里奥的诞生，源于阿尔卑斯山民的坚韧与对阳光的原始崇拜。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的历史可追溯至中世纪早期，最早的文字记载出现在12世纪。但它的生命脉搏，或许更早就随着第一批定居者的脚步，在这片陡峭的山坡上开始跳动。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "村名“Soglio”的来源充满诗意与地理特征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "一种广为接受的说法是，它源自古拉丁语“<em>solium</em>”，意为“宝座”或“高处”。这精准地描述了村庄的地理位置——它如同一个庄严的王座，安坐于布雷加利亚山谷之上，俯瞰着下方奔流的梅拉河。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一种解释则与罗曼什语“<em>sogl</em>”有关，意为“门槛”或“入口”。这恰好与后来塞甘蒂尼“天堂门槛”的比喻不谋而合，仿佛千年之前，山民们就已感知到此地是通往另一个神圣世界的入口。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "村庄的建立，纯粹出于生存。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里的土地并不肥沃，但朝南的缓坡提供了珍贵的阳光和相对安全的定居点。最初的居民是讲罗曼什语的农民和牧民，他们利用当地最丰富的资源——<strong>片岩</strong>，建造家园。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这种深灰色、易于剥离成片的岩石，成为了索格里奥的基因。每一块石板，都取自山体，由工匠的双手垒砌。村庄不是为了美观而设计，而是为抵御严冬的暴雪和山谷的狂风。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的存在本身，就是一部沉默的、关于阿尔卑斯山民如何与自然谈判并顽强存续的史诗。在漫长的世纪里，它远离主要的贸易通道和权力中心，在寂静中缓慢生长，形成了今日我们看到的、仿佛从山岩中自然生长出来的独特肌理。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "索格里奥的历史，并非由轰轰烈烈的战争或王朝更迭书写，而是镌刻在石板、教堂与一场关乎生存的谈判中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一道印记：圣劳伦斯教堂的钟声</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "村庄的中心，是建于17世纪初的<strong>圣劳伦斯教堂</strong>。它取代了更早的一座小礼拜堂，成为索格里奥信仰与社区生活的绝对核心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座巴洛克风格的教堂并不宏伟，却与村庄的尺度完美契合。它的建立，标志着索格里奥从一个松散的聚居点，向一个有自我意识和集体认同的稳固社区演变。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "钟楼高高耸立，其钟声不仅召唤信徒，更在数百年的时间里，为山谷中的居民报时，在浓雾或暴风雪中为牧归人指引方向。教堂内部的装饰朴实无华，却保存着记录村庄生老病死的古老名册。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些泛黄的纸页，是索格里奥作为一个生命共同体最直接的证据。它见证了家族的繁衍、季节的轮回，以及山民们面对自然威力的虔诚与谦卑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二道印记：“塔楼谈判”与地缘孤岛</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "索格里奥所在的布雷加利亚山谷，在历史上是一块具有战略意义的缓冲地带。它位于<strong>瑞士联邦</strong>与<strong>米兰公国</strong>（后期受奥地利哈布斯堡王朝影响）两大势力范围的交界处。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这种微妙的位置，让索格里奥的居民必须精通生存的智慧。他们没有强大的军队，但有自己的“外交”。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "当地流传着这样一个故事：在某个动荡的年代（可能是18世纪初的普法战争期间），一队外国士兵试图进入山谷征税或征用物资。索格里奥的长老们没有选择硬抗，而是邀请对方的指挥官登上村庄的制高点——那座古老的石砌塔楼（可能是今天“帕拉维奇尼之家”的一部分）。在那里，他们请他共饮一杯本地烈酒，并向他展示村庄的贫瘠与险峻，委婉地说明这里无利可图，且易守难攻。最终，士兵们悻悻离去。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个故事的真伪已难考证，但它生动体现了索格里奥的生存哲学：利用地理的隔绝作为屏障，以低调和智慧化解危机，守护社区的自治与宁静。这种“孤岛”状态，反而成了它保存原始风貌的历史冰箱。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第三道印记：石板建筑的永恒诗歌</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最深刻的历史印记，就写在村庄的每一面墙上、每一片屋顶上。索格里奥的<strong>石板建筑</strong>，不是美学选择，而是历史的必然。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些厚重的片岩，冬暖夏凉，经久耐用。建造一栋房屋，就是一次家族几代人的投资。石板屋顶的铺设是一门即将失传的手艺，厚重的石板层层叠加，角度精确，才能确保风雪无法侵入。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走在狭窄的“卡尔达”小巷，手指触摸过那些因风雨和时光打磨而变得光滑温润的石墙，你触摸的就是一部<strong>有形的、关于劳作、传承与适应环境的生活史</strong>。这些建筑群本身，就是索格里奥最庞大、最沉默的历史档案。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "索格里奥的历史星图中，最耀眼的一颗星，无疑是<strong>乔瓦尼·塞甘蒂尼</strong>。这位19世纪末的意大利画家，用他的生命与画笔，将索格里奥从地理坐标，升华为了一个精神象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>乔瓦尼·塞甘蒂尼：为光与山而生的灵魂</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "塞甘蒂尼并非索格里奥的土著。他1858年生于奥地利蒂罗尔（今意大利北部），一生颠沛流离，饱尝贫困与孤独。但他对阿尔卑斯山的光、空气与崇高感，有着近乎宗教般的狂热。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1893年</strong>，塞甘蒂尼首次来到上恩加丁地区，很快就被附近的索格里奥深深吸引。此后直到<strong>1899年</strong>他意外病逝，索格里奥及周边的谢尔高原，成为了他艺术创作的最后也是最重要的舞台。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他为何独爱索格里奥？" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "首先，是<strong>光</strong>。索格里奥朝南的地理位置，使得阳光在这里产生了魔法般的效果。清晨，第一缕阳光点燃教堂尖顶；正午，炽烈的光芒让石板屋顶泛起冷冽的金属光泽；黄昏，整个村庄被染成金色，而后沉入深蓝色的山影。这种瞬息万变、纯净到极致的山地之光，正是塞甘蒂尼“分光主义”绘画技法追求的核心——用细碎、明亮的笔触捕捉光线本身的振动与色彩。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其次，是<strong>静</strong>。远离尘嚣的索格里奥，给了他灵魂所需的绝对宁静。在这里，他可以全然沉浸于自然，观察一朵云掠过山脊的轨迹，或是一头牛在牧场上反刍的剪影。这种宁静，渗透到了他晚期作品的深层结构中，画面充满了冥想的、纪念碑式的庄严。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "他在给朋友的信中写道：“在索格里奥，我感觉自己站在了世界的屋脊，离天空如此之近。这里的每一样事物——石头、树木、甚至空气——都充满了神性。我不是在描绘风景，我是在记录造物主的气息。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他在索格里奥创作了《生命·自然·死亡》三联画（现藏于圣莫里茨的塞甘蒂尼博物馆）等巅峰之作。画中的牧羊人、母亲、牛羊，都与背后的阿尔卑斯山融为一体，充满象征主义色彩，表达着生、死、自然轮回的永恒主题。索格里奥的景物，成为了他哲学表达的完美载体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1899年9月28日</strong>，悲剧发生。塞甘蒂尼在距离索格里奥不远的谢尔高原上突患腹膜炎，因地处偏远，救治不及而猝然离世，年仅41岁。他的遗体最初被安葬在附近的小教堂，后迁至圣莫里茨。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "塞甘蒂尼的传奇，将索格里奥永远定格在了艺术史的地图上。他留下的不仅是画作，更是一种观看这片土地的方式。今天，漫步村中，你仍能透过他的眼睛，看到那“通往天堂的门槛”上的神圣光影。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>另一位守护者：克莱门斯神父</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "除了塞甘蒂尼，另一位与索格里奥紧密相连的人物是<strong>神父兼学者彼得罗·克莱门斯</strong>。他在19世纪末20世纪初长期居住于此，并非艺术家，却是村庄历史记忆的忠实记录者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他孜孜不倦地收集、整理索格里奥及布雷加利亚山谷的口述历史、民间传说、 genealogies（族谱）和地方档案。他的工作，在印刷术尚未普及、历史容易被遗忘的山村，至关重要。他编纂的地方志，成为了后世了解索格里奥前现代社会生活、习俗与语言（罗曼什语方言）的宝贵钥匙。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说塞甘蒂尼赋予了索格里奥艺术的灵魂，那么克莱门斯神父则守护了它世俗的血肉与记忆。两人一前一后，用不同的方式，共同完成了对这座阿尔卑斯山村的精神塑形。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在索格里奥，坚硬石板筑起的现实世界之下，流淌着由想象与神秘编织的传说之河。这些故事，是山民们解释自然、慰藉心灵的方式。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>“精灵之井”的传说</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "村庄深处，有一口古老的石砌水井，被当地人称为“<strong>精灵之井</strong>”。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "传说在很久以前，这口井由山中的精灵守护。它们并非害人的精怪，而是害羞、洁净的自然之灵。精灵们确保井水常年清澈甘洌，永不枯竭，作为回报，村民取水时必须心怀敬畏，保持安静，且绝不能让任何污物靠近井口。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: ">" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "据说，曾有外来的淘气少年向井中扔了石块，当晚，全村都听到了从井底传来的、细微而悲伤的哭泣声。次日，井水变得浑浊。村中长者带领众人举行了简单的祈福仪式，并严令所有人必须尊重这口井。不久，水质才恢复如初。从此，这口井被格外小心地维护，人们相信，只要尊重自然，自然便会慷慨馈赠。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说，本质上是一部口传的“环保公约”，用超自然的力量，约束人们保护珍贵的水源，体现了阿尔卑斯社群与自然资源相处的古老伦理。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>“盖世太保幽灵”与历史阴影</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个相对近代、却充满诡异色彩的故事，与二战时期的一栋建筑有关。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "索格里奥有一栋被称为“<strong>老旅馆</strong>”的石楼（并非现在营业的酒店）。当地老人会压低声音讲述，在战争末期，曾有疑似<strong>盖世太保</strong>（纳粹德国秘密警察）的高级军官匿居于此。他们行踪诡秘，与外界隔绝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: ">" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "传说这些人撤离后，楼里在特定夜晚（尤其是风雨交加时）会出现奇怪的现象：无人走廊传来沉重的皮靴脚步声，老旧的百叶窗无风自动，仿佛有人在内窥视。人们猜测，或许是有不可告人的秘密被留在了石墙之内，那些不安的灵魂仍未离去。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说为索格里奥宁静的表象，蒙上了一层短暂却深刻的历史阴影。它提醒人们，即便是如此与世隔绝的“天堂门槛”，在20世纪全球性的动荡中，也未能完全幸免，成为了宏大历史叙事中一个隐秘的注脚。真实与否已不重要，它已成为村庄集体记忆的一部分，为其增添了复杂的历史层次感。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的索格里奥，依然安静地坐在它的“宝座”上。游客的到来并未改变它石板小巷的幽深与教堂钟声的苍凉。理解索格里奥，不在于打卡了多少个“塞甘蒂尼取景地”，而在于读懂这种“不变”背后的价值。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它是一个<strong>活态博物馆</strong>，展示着前工业时代人类社区与阿尔卑斯极端环境共存的智慧与美感。每一栋石板屋，都是这种智慧的结晶。它也是一座<strong>露天美术馆</strong>，塞甘蒂尼的目光为这里的山川草木赋予了永恒的艺术灵晕，让你学会用另一种视角——一种充满敬畏与沉思的视角——去观看自然。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "更重要的是，索格里奥是一种<strong>存在状态的证明</strong>。它证明了缓慢、专注、与土地深度联结的生活，并未完全被现代性的洪流卷走。在这里，时间以季节和光线的推移来计算，而非分秒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你穿过村口古老的拱门，踏上被岁月磨光的石板路，你不仅走进了一个瑞士山村，更是步入了一段连续了数百年的、关于生存、信仰与美的静谧史诗。石板与光，共同定义了索格里奥的灵魂，也让它成为阿尔卑斯山脊上一枚不可复制的、沉静的珍宝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/wengen" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    文
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">文根</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Wengen</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/saint-ursanne-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣乌尔萨纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Saint-Ursanne</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/valle-muggio" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    穆
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">穆焦山谷</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Valle Muggio</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

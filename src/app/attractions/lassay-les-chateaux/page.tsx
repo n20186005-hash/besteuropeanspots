@@ -1,0 +1,242 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '拉赛双堡 Lassay-les-Châteaux｜探秘法国乡村，一次邂逅三座沉睡的中世纪城堡 - 最佳欧洲景点',
+  description: '朋友，想象一下这样的画面：你拐过一个种满绣球花的安静街角，眼前豁然开朗，一片如镜的池塘静静地躺在那里，而池塘的对岸，一座被苔藓和藤蔓半包裹着的灰色石头城堡，就那样毫无预兆地、完整地倒映在水中。没有喧嚣的旅游大巴，没有成群的游客，只有几声清脆的鸟鸣和风吹过芦苇的沙沙声。这就是拉赛双堡给你的第一份礼物—',
+}
+
+export default function LassayLesChateauxPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
+            { label: '拉赛莱索镇（马耶讷省）', href: '/destinations/france' },
+            { label: '拉赛双堡', href: '/attractions/lassay-les-chateaux' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`拉赛双堡・Lassay-les-Châteaux・法国・拉赛莱索镇（马耶讷省）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下这样的画面：你拐过一个种满绣球花的安静街角，眼前豁然开朗，一片如镜的池塘静静地躺在那里，而池塘的对岸，一座被苔藓和藤蔓半包裹着的灰色石头城堡，就那样毫无预兆地、完整地倒映在水中。没有喧嚣的旅游大巴，没有成群的游客，只有几声清脆的鸟鸣和风吹过芦苇的沙沙声。这就是拉赛双堡给你的第一份礼物——一种穿越时空的静谧。空气里是湿润的泥土气息、刚割过的青草香，还有远处玫瑰园飘来的、若有似无的甜香。
+这里所说的“双堡”其实是个美丽的谦称，小镇拥有的，是三座从15世纪就屹立于此的城堡遗迹。它们不像卢瓦尔河谷的那些华丽宫殿，被打理得光鲜亮丽，等着被瞻仰。这里的城堡是“活”的废墟，是小镇生活背景的一部分。你会看到当地人牵着狗沿着池塘散步，向城堡投去平淡而熟悉的一瞥，仿佛那是他们一位沉默的老邻居。最打动人的，正是这种历史与日常生活的无缝交融。威严的城墙下，可能是一片被精心打理的小菜园；昔日护城河的河道里，现在游着几只悠闲的野鸭。石头是冰冷的，但环绕着它的生命气息却是温暖而蓬勃的。
+每一座城堡都有自己独特的表情。拉赛城堡（Château de Lassay）最为雄伟，带着不容置疑的防御威严；博伊斯堡（Château du Bois）则羞涩地藏在树林深处，只剩下爬满常春藤的拱门和窗框，像是森林偷偷守护的一个秘密；而布瓦托堡（Château de Bois-Thibault）最为梦幻，唯一的圆塔孤零零地矗立在一个小岛中央，只能通过一座小小的木桥与之相连，仿佛随时会消失在晨雾里。在这里游览，你不是在“参观”景点，而是在进行一次温柔的“探寻”，每一次转身，都可能与一段沉睡的石头史诗不期而遇。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朋友，想象一下这样的画面：你拐过一个种满绣球花的安静街角，眼前豁然开朗，一片如镜的池塘静静地躺在那里，而池塘的对岸，一座被苔藓和藤蔓半包裹着的灰色石头城堡，就那样毫无预兆地、完整地倒映在水中。没有喧嚣的旅游大巴，没有成群的游客，只有几声清脆的鸟鸣和风吹过芦苇的沙沙声。这就是拉赛双堡给你的第一份礼物——一种穿越时空的静谧。空气里是湿润的泥土气息、刚割过的青草香，还有远处玫瑰园飘来的、若有似无的甜香。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里所说的“双堡”其实是个美丽的谦称，小镇拥有的，是三座从15世纪就屹立于此的城堡遗迹。它们不像卢瓦尔河谷的那些华丽宫殿，被打理得光鲜亮丽，等着被瞻仰。这里的城堡是“活”的废墟，是小镇生活背景的一部分。你会看到当地人牵着狗沿着池塘散步，向城堡投去平淡而熟悉的一瞥，仿佛那是他们一位沉默的老邻居。最打动人的，正是这种历史与日常生活的无缝交融。威严的城墙下，可能是一片被精心打理的小菜园；昔日护城河的河道里，现在游着几只悠闲的野鸭。石头是冰冷的，但环绕着它的生命气息却是温暖而蓬勃的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "每一座城堡都有自己独特的表情。拉赛城堡（Château de Lassay）最为雄伟，带着不容置疑的防御威严；博伊斯堡（Château du Bois）则羞涩地藏在树林深处，只剩下爬满常春藤的拱门和窗框，像是森林偷偷守护的一个秘密；而布瓦托堡（Château de Bois-Thibault）最为梦幻，唯一的圆塔孤零零地矗立在一个小岛中央，只能通过一座小小的木桥与之相连，仿佛随时会消失在晨雾里。在这里游览，你不是在“参观”景点，而是在进行一次温柔的“探寻”，每一次转身，都可能与一段沉睡的石头史诗不期而遇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`拉赛双堡`} />
+                <InfoRow label="英文名称" value={`Lassay-les-Châteaux`} />
+                <InfoRow label="正式名称" value={`Lassay-les-Châteaux`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`拉赛莱索镇（马耶讷省）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座小镇罕见地完整保留了三个不同家族的中世纪城堡遗迹，堪称露天军事建筑博物馆，静静诉说着法国西部领主的纷争与兴衰。`} />
+                <InfoRow label="建筑特色" value={`三座城堡虽同为废墟，却风格迥异：拉赛堡是威严的矩形主塔与双层城墙的典范；博伊斯堡是隐匿于森林中的浪漫废墟；而布瓦托堡则仅余一座孤塔立于水中央，充满诗意。`} />
+                <InfoRow label="建筑风格" value={`典型的中世纪军事建筑风格，融合了罗曼式的厚重与早期哥特式的元素，后期部分区域加入了文艺复兴时期的居住性改造痕迹。`} />
+                <InfoRow label="文化价值" value={`它不仅是石头写就的战争史，更是法国乡村如何与历史遗产共生，将废墟转化为社区灵魂与静谧美学空间的完美范例。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡庭院及外部景观全年全天开放，可自由漫步。内部塔楼及小型博物馆的开放时间较为灵活，通常为每年四月至十月的周二至周日下午2点至6点开放，冬季（十一月至三月）仅周末开放或需预约参观。节假日（如复活节、圣诞节）可能关闭，建议出行前查看小镇旅游局官网的实时公告。`} />
+              <InfoRow label="门票价格" value={`参观城堡外部废墟、花园及池塘区域完全免费。进入城堡主塔（拉赛城堡）内部参观并登上塔楼，门票约为5欧元；包含三座城堡废墟导览地图的小册子可在旅游局以2欧元购买。学生、12-18岁青少年及团体享有优惠票价（约3.5欧元），12岁以下儿童免费。当地推出的“文化遗产护照”联票（约8欧元）可进入省内多个小型景点，性价比高。`} />
+              <InfoRow label="地址" value={`Place de la Mairie, 53110 Lassay-les-Châteaux, France`} />
+              <InfoRow label="交通方式" value={`最近的主要机场是雷恩布列塔尼机场（Aéroport de Rennes Bretagne），驾车约1小时15分钟可达。最经典的路线是从巴黎蒙帕纳斯火车站（Gare Montparnasse）乘坐TGV高速列车至拉瓦勒（Laval）站，车程约1.5小时。抵达拉瓦勒后，换乘前往马耶讷（Mayenne）方向的区域巴士（Line 12），在“Lassay-les-Châteaux”站下车，巴士班次约每日2-3班，车程约50分钟，务必提前查询时刻表。最推荐的方式是租车自驾，从拉瓦勒沿D35/D7公路行驶约40分钟，乡间道路风景绝美，可随时停车。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要讲明白这三座城堡的故事，我们得把时钟拨回到英法百年战争那段混乱的岁月。拉赛这块地方，正处于英国控制的诺曼底与法国王室领土之间脆弱的边界上，堪称“风暴眼”。大约在14世纪末，让·德·拉赛二世领主决定，是时候建造一座坚固的堡垒来保卫自己的家族和领民了。于是，拉赛城堡拔地而起。它可不是为了优雅的舞会而建，它是一个纯粹的战争机器：高达30多米的矩形主塔（donjon），墙壁厚达4米，双重城墙，带有吊桥的宏伟入口，以及精心设计的箭孔和堞口。它的诞生，就带着一股浓浓的硝烟味和生存的紧迫感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，最传奇的一页在1428年写下。那一年，一位名叫约翰·法斯托夫的英国将领率领军队兵临城下。按照中世纪战争的常规剧本，这样一座坚固的城堡，围攻战可能会持续数月甚至数年。但守城的拉赛夫人（Dame de Lassay），也就是领主的妻子，展现出了惊人的勇气与智慧。传说她不仅亲自指挥防御，鼓舞士气，还用巧计迷惑了敌军。围攻持续了仅仅六天，英军竟莫名其妙地撤退了。这场“拉赛之围”的胜利，让城堡和这位夫人成为了地方的传奇。它证明了，再坚固的石头，也需要不屈的意志来驻守。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当战争的阴云逐渐散去，和平年代来临，城堡的功能也开始演变。博伊斯堡和布瓦托堡的建造年代稍晚，它们虽然也具备防御功能，但已经更多地考虑了居住的舒适性，窗户开得更大，内部空间也更宜居。尤其是博伊斯堡，它见证了从军事要塞向贵族乡间宅邸的缓慢过渡。你可以从残留的华丽窗棂和巨大的壁炉烟道想象出，后来的主人是如何试图在厚重的城墙内，营造出一方温馨天地的。可惜，随着中央集权的加强，地方领主的军事作用消失，这些远离权力中心的城堡不可避免地走向了衰落。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "法国大革命给了这些旧时代的象征最后一击。它们被没收、被变卖，甚至被当作采石场，珍贵的石料被村民搬走去建造自己的房屋和谷仓。这是一种令人唏嘘的轮回：曾经保护他们的壁垒，最终以另一种形式融入了他们的日常生活。整个19世纪，三座城堡都在无人问津中慢慢被自然回收，树木在庭院中生根，藤蔓爬满了高墙。然而，正是这种“被遗忘”，意外地赋予了它们一种浪漫主义时代所痴迷的、忧伤而美丽的气质——如画般的废墟。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转机发生在20世纪。当地社区和文化遗产保护者逐渐意识到，这些沉默的巨人不是负担，而是无价的瑰宝。他们开始小心翼翼地清理、加固，但不是要恢复原状，而是要让废墟“健康地”继续存在下去。于是，我们今天看到了这个奇迹：在一个只有2000多居民的小镇上，三个曾经的军事对手，如今和谐地共处一地，被规划成一座宏大的历史公园。池塘被重新挖掘，玫瑰园被精心种植，蜿蜒的小径将三者串联。历史从一部战争编年史，变成了一首写给时光的田园诗。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`想要完全沉浸在这三座城堡的魔法中，建议你预留整整一个白天，从清晨开始。最佳的抵达时间是早上九点之前，这时阳光柔和，池塘水面上笼罩着一层薄纱般的雾气，城堡的倒影最为梦幻，而且几乎拥有整个景区的宁静。整体游览节奏一定要慢，这不是打卡，而是散步和发现。建议先从拉赛城堡开始，因为它最宏伟，信息也最全，能帮你建立历史背景。然后沿着标示清晰的“三堡之路”小径，漫步至森林中的博伊斯堡，最后在午后阳光西斜时，抵达最唯美的布瓦托堡水塔。这样的安排顺应了光线的变化和景观的节奏，由宏大到隐秘，再到空灵，情绪体验是层层递进的。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇餐馆不多且午休时间长，建议自备简单午餐和水，在风景中野餐是最佳体验。部分通往城堡的小径是自然的土路或草地，建议穿一双舒适防滑的徒步鞋。森林和池塘边蚊虫在夏季较多，备好驱蚊液。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先从游客中心（位于小镇市政厅旁）拿一份地图，然后沿着老巷子步行五分钟，让第一眼惊艳从拉赛城堡前那片倒映着天空与城墙的平静池塘开始。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过古老的石桥走进拉赛城堡的双层城墙之间，用手触摸那些冰凉而粗糙的巨石，仰头感受主塔带来的压迫感与威严。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在主塔脚下的信息板前花点时间，读懂那段“六日围城”的传奇故事，想象拉赛夫人站在你现在的位置上指挥若定的身影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`离开拉赛堡，沿着一条被橡树和山毛榉遮蔽的松软土路慢行约二十分钟，在森林的静谧中突然发现博伊斯堡残破却优雅的拱门与窗洞。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在博伊斯堡的废墟石阶上坐下，静静聆听风穿过树林和石缝的声音，观察阳光如何移动，将光影的斑点慢慢画在古老的石壁上。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`返回小镇中心，在面包房买一个新鲜的长棍三明治，带到布瓦托堡旁草地上的野餐桌，对着水中央的孤塔享受一顿最简单也最诗意的午餐。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后走过吱呀作响的小木桥，近距离环绕布瓦托堡的孤塔走一圈，从每一个角度观察它与水和天空构成的不同画面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，在日落前回到拉赛城堡的玫瑰园，当夕阳的金色光线为古老的城墙披上暖色调时，坐在长椅上，让一天探寻的感悟慢慢沉淀。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`拉赛城堡池塘倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时或日落前一小时，站在池塘东侧，利用无风的时刻拍摄城堡及其完美倒影，构图时将水面与实景对称分割，意境悠远。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`博伊斯堡森林之窗`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射时，走到城堡最大的那个残破拱窗内侧，向外拍摄被窗框切割的茂密森林，形成强烈的明暗对比与框架构图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`布瓦托堡孤岛全景`}</h4>
+                  <p className="text-sm text-gray-700">{`在连接小岛的木桥入口处，使用广角镜头，将小木桥作为前景引导线，将孤塔置于画面中央，背景是开阔的池塘与天空，最佳拍摄时间为下午侧光时。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`拉赛城堡玫瑰园前景`}</h4>
+                  <p className="text-sm text-gray-700">{`春季或初夏玫瑰盛开时，以低角度将绽放的玫瑰作为前景虚化，聚焦后方厚重的城堡城墙，形成脆弱之美与永恒力量的对话。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城墙缝隙中的小镇`}</h4>
+                  <p className="text-sm text-gray-700">{`登上拉赛城堡主塔（若开放），从狭窄的箭孔或垛口向外拍摄，框住远处小镇的红色屋顶和教堂尖顶，讲述历史与现实的对视。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏光镜可以极大消除池塘水面的反光，让城堡倒影更清晰通透。航拍在这里能完美展现三堡一镇的格局，但需提前确认当地法规并远离私人领地。尊重遗迹，不要为了拍照攀爬或移动任何古老的石块。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`乡村民宿之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在镇上由古老石屋改造的家庭民宿，女主人会为你准备装满本地果酱和热牛奶的早餐篮，夜晚安静得只能听到教堂钟声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验之选`}</h4>
+                  <p className="text-sm text-green-800">{`距离小镇十分钟车程的18世纪磨坊改造的精品酒店，房间流水潺潺，晚餐是主人用自家菜园食材烹调的农家盛宴，十足的法式田园梦。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端静谧之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于附近埃夫龙（Évron）的文艺复兴风格庄园酒店，拥有广阔的花园和 Spa，适合在历史探秘后彻底放松身心，享受精致的法式服务。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`背包客营地`}</h4>
+                  <p className="text-sm text-purple-800">{`拉赛镇外几公里处有设施完善的宁静露营地，躺在帐篷里就能仰望无光污染的星空，清晨在鸟鸣中醒来，是最贴近自然的体验。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇住宿非常有限，旺季（夏季和周末）务必提前数周甚至数月预订。整个马耶讷省治安极好，夜晚独自散步也安全感十足。选择住在周边村庄是更明智的选择，能深入体验真正的法国乡村生活节奏。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开拉赛双堡很久之后，我脑海里反复出现的，不是某一块具体的石头或塔楼，而是一种感觉——一种时间在这里被拉长、被柔化的感觉。在这个一切都追求崭新、快速和效率的世界里，这个地方却堂而皇之地展示着破损、缓慢和静止的美学。它不像那些被精心修复、灯火通明的宫殿，告诉你历史有多么辉煌；它只是平静地展示着衰败，却在衰败中生长出玫瑰、倒映出云彩、容纳了鸟巢，这反而让我们对时间本身，产生了一种奇特的温柔与敬意。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，为什么每个热爱深度游的人都该来一次拉赛？因为在这里，你找寻的不是一个景点，而是一种心境。它教会我们，真正的历史不是锁在玻璃柜里的，而是散落在草丛中的断壁残垣，是融入当地人每日散步路线里的风景。它提醒我们，最动人的财富或许不是永垂不朽，而是在不可避免地老去与变化中，依然能被温柔地注视、妥帖地安放，并成为新生活诗意的一部分。来拉赛吧，不是为了看三座城堡，而是为了让自己慢下来，聆听石头、水和风共同吟唱的那首关于时光的，悠长而宁静的歌谣。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/seguret" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塞
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塞居雷</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Séguret</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/saint-martin-du-canigou-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尼古圣马丁修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Abbey of Saint-Martin-du-Canigou</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/piana-corsica" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    皮
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">皮亚纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Piana</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,200 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科普日夫尼采太脱拉技术博物馆 Kopřivnice Tatra Technical Museum｜探秘世界第一辆流线型汽车的诞生地 - 最佳欧洲景点',
+  description: '朋友，当你推开那扇厚重的大门，扑面而来的首先是一股味道。那不是普通的尘土味，而是一种混合了陈年机油、经年皮革、淡淡铁锈，或许还有一丝远方森林木材气息的独特味道。这就是太脱拉技术博物馆给你的第一声问候。光线从高大的窗户斜射进来，照亮空气中飞舞的微尘，也照亮了眼前这个由钢铁巨兽构成的“森林”。巨大的卡车',
+}
+
+export default function KoprivniceTatraTechnicalMuseumPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克共和国', href: '/destinations/europe' },
+            { label: '科普日夫尼采', href: '/destinations/europe' },
+            { label: '科普日夫尼采太脱拉技术博物馆', href: '/attractions/koprivnice-tatra-technical-museum' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`科普日夫尼采太脱拉技术博物馆・Kopřivnice Tatra Technical Museum・捷克共和国・科普日夫尼采`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，当你推开那扇厚重的大门，扑面而来的首先是一股味道。那不是普通的尘土味，而是一种混合了陈年机油、经年皮革、淡淡铁锈，或许还有一丝远方森林木材气息的独特味道。这就是太脱拉技术博物馆给你的第一声问候。光线从高大的窗户斜射进来，照亮空气中飞舞的微尘，也照亮了眼前这个由钢铁巨兽构成的“森林”。巨大的卡车底盘、锃亮的流线型车身、粗犷的发动机，它们静静地停在那里，仿佛只是打了个盹，随时会发出低沉的咆哮。
+这里没有卢浮宫的金碧辉煌，也没有圣维特大教堂的直入云霄。它的美是另一种——一种充满力量感、逻辑感和雄性荷尔蒙的工业美学。你会发现，很多来访者不是普通的游客，而是头发花白的老工程师、眼神发亮的汽车爱好者，或者带着孩子来寻找祖父故事的家庭。他们用手轻轻抚摸冰冷的引擎盖，低声讨论着某个技术细节，眼神里充满了敬意。博物馆的展品不是被供奉起来的古董，更像是这个小镇血脉的一部分。你几乎能想象，几十年前，成千上万的工人就在隔壁的车间里，敲打着这些钢板，组装着这些零件，让一台台“太脱拉”驶向世界。
+最打动人的，是那种从极致粗犷到极致优雅的奇妙跨度。一边是庞大如山、用于征服矿山和极地的巨型卡车，零件外露，充满了原始的力量；另一边，则是那辆1934年的T77，世界上第一辆量产流线型汽车，光滑得如同一滴坠落的水银，优雅得仿佛不属于这个钢铁世界。这种矛盾统一，恰恰是捷克民族性格的写照：在强邻环伺的夹缝中求生存，既要有磐石般的坚韧（造出最坚固的卡车），也要有风一般的智慧与优雅（创造出划时代的流线型设计）。在这里，汽车不再是简单的交通工具，而是国家命运与人民智慧的结晶。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朋友，当你推开那扇厚重的大门，扑面而来的首先是一股味道。那不是普通的尘土味，而是一种混合了陈年机油、经年皮革、淡淡铁锈，或许还有一丝远方森林木材气息的独特味道。这就是太脱拉技术博物馆给你的第一声问候。光线从高大的窗户斜射进来，照亮空气中飞舞的微尘，也照亮了眼前这个由钢铁巨兽构成的“森林”。巨大的卡车底盘、锃亮的流线型车身、粗犷的发动机，它们静静地停在那里，仿佛只是打了个盹，随时会发出低沉的咆哮。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里没有卢浮宫的金碧辉煌，也没有圣维特大教堂的直入云霄。它的美是另一种——一种充满力量感、逻辑感和雄性荷尔蒙的工业美学。你会发现，很多来访者不是普通的游客，而是头发花白的老工程师、眼神发亮的汽车爱好者，或者带着孩子来寻找祖父故事的家庭。他们用手轻轻抚摸冰冷的引擎盖，低声讨论着某个技术细节，眼神里充满了敬意。博物馆的展品不是被供奉起来的古董，更像是这个小镇血脉的一部分。你几乎能想象，几十年前，成千上万的工人就在隔壁的车间里，敲打着这些钢板，组装着这些零件，让一台台“太脱拉”驶向世界。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人的，是那种从极致粗犷到极致优雅的奇妙跨度。一边是庞大如山、用于征服矿山和极地的巨型卡车，零件外露，充满了原始的力量；另一边，则是那辆1934年的T77，世界上第一辆量产流线型汽车，光滑得如同一滴坠落的水银，优雅得仿佛不属于这个钢铁世界。这种矛盾统一，恰恰是捷克民族性格的写照：在强邻环伺的夹缝中求生存，既要有磐石般的坚韧（造出最坚固的卡车），也要有风一般的智慧与优雅（创造出划时代的流线型设计）。在这里，汽车不再是简单的交通工具，而是国家命运与人民智慧的结晶。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`科普日夫尼采太脱拉技术博物馆`} />
+                <InfoRow label="英文名称" value={`Kopřivnice Tatra Technical Museum`} />
+                <InfoRow label="正式名称" value={`Tatra Technical Museum in Kopřivnice`} />
+                <InfoRow label="国家" value={`捷克共和国`} />
+                <InfoRow label="城市" value={`科普日夫尼采`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是捷克乃至世界汽车工业史上一个传奇品牌——太脱拉的摇篮和心脏。`} />
+                <InfoRow label="建筑特色" value={`由功能主义风格的现代展馆与充满历史感的原始砖石厂房建筑群巧妙结合而成。`} />
+                <InfoRow label="建筑风格" value={`以20世纪初的工业建筑为基础，融合了现代简约的功能主义改造风格。`} />
+                <InfoRow label="文化价值" value={`不仅是一座汽车博物馆，更是一部用钢铁、皮革和汽油书写的捷克民族工业精神史诗。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`全年开放，但季节性时间有所调整。四月至十月：周二至周日 9:00 - 17:00（周一闭馆，节假日除外）。十一月至三月：周二至周五 9:00 - 16:00，周六周日 10:00 - 17:00（周一闭馆）。请注意，每年的1月1日、复活节周日、12月24日至26日博物馆关闭。建议出行前在其官方网站确认最新时间。`} />
+              <InfoRow label="门票价格" value={`成人票：180捷克克朗。优惠票（学生、6-15岁青少年、65岁以上老人）：100捷克克朗。家庭票（2成人+最多3名儿童）：400捷克克朗。6岁以下儿童免费。接受捷克克朗现金及主流国际信用卡支付。`} />
+              <InfoRow label="地址" value={`Štefánikova 226/115, 742 21 Kopřivnice, Czech Republic`} />
+              <InfoRow label="交通方式" value={`从布拉格出发最方便。在布拉格中央火车站乘坐前往俄斯特拉发方向的火车，在俄斯特拉发主站下车，车程约3-3.5小时，班次频繁。抵达俄斯特拉发后，换乘前往科普日夫尼采的郊区火车或巴士（如巴士编号为333路），约30-40分钟即可到达小镇，博物馆距离小镇火车站/巴士站步行约15分钟，有清晰路标。如果自驾，从布拉格沿D1高速公路向东，在俄斯特拉发附近转道，全程约350公里，需3.5-4小时。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从更早的时候讲起。19世纪中叶，科普日夫尼采还只是摩拉维亚地区一个以陶器和农业闻名的小镇。1897年，一个名叫伊格纳茨·舒斯塔拉的人，在自己的陶器作坊旁边，开始手工制造一辆名叫“总统”的汽车。这并非异想天开，因为附近的摩拉维亚地区早有制造马车和马具的优秀传统，工匠精神流淌在当地人的血液里。这辆“总统”汽车成功完成了从科普日夫尼采到维也纳的漫长旅程，一鸣惊人，也正式点燃了这片土地的汽车梦。作坊随之转型，成为了Nesselsdorfer Wagenbau-Fabriksgesellschaft（NW）公司，这便是太脱拉的前身。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的传奇，在20世纪初拉开序幕。一位名叫汉斯·雷德温卡的年轻工程师加入了公司。他像个汽车界的哲学家，痴迷于寻找最本质、最合理的解决方案。当时的汽车大多模仿马车结构，前置发动机，用沉重的底盘和硬轴。雷德温卡却另辟蹊径，从零开始思考。他创造了“ backbone chassis”中央脊管式车架——一根粗壮的钢管贯穿车身，所有重要部件都依附其上，既轻便又极其坚固。他坚持后置风冷发动机，让结构更紧凑，在寒冷或沙漠地区无需担心水箱结冰或开锅。这套看似古怪的“太脱拉理念”，却奠定了其未来百年独树一帜、硬派无比的基因。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "博物馆里那辆闪耀的明星——Tatra T77，诞生于1934年，正是雷德温卡天才的巅峰之作。受到空气动力学和飞艇设计的启发，他设计出了这个水滴状的奇迹。它不仅外形科幻，更采用了V8风冷发动机、中央脊管车架等全套太脱拉核心技术。据说，当时德国的一位年轻工程师费迪南德·保时捷对此深感震撼，并在后来设计“国民车”大众甲壳虫时，“借鉴”了不少T77的理念，甚至因此引发了一场长达数十年的法律纠纷。二战打断了它的辉煌，工厂被纳粹控制，生产军用车辆。但太脱拉火种未灭。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战后，在社会主义计划经济体制下，太脱拉找到了新的方向：制造世界上最好的重型卡车和特种车辆。它们不再追求民用的优雅，而是将坚固可靠发挥到极致。博物馆里那些庞然大物，就是那个时代的英雄。它们征服了西伯利亚的冻土、非洲的沙漠、南美的雨林，成为苏联、中国等众多国家建设工地上不可或缺的力量象征。直到1989年天鹅绒革命后，市场巨变，太脱拉的民用轿车生产画上句号，但卡车的传奇仍在继续。这座博物馆，就像一位沉默的巨人，收藏着它从婴儿啼哭到纵横四海的每一个脚印，等待着人们来聆听钢铁是如何被赋予灵魂的。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天给这个博物馆，它值得你细细品味。最好在上午9点半左右抵达，此时游客较少，光线适合在综合馆内拍照。整体游览耗时约4-5小时，节奏宜慢不宜快。先从主综合馆开始，按时间顺序建立整体认知；然后深入旁边的专属展览馆，近距离膜拜那些传奇车型；最后如果有余力，可以步行到不远处的创始人故居或小镇里看看。这样的安排能让你从宏观到微观，从技术到人文，完整地理解太脱拉的世界。中午可以在博物馆简洁的咖啡角休息，吃个简单的三明治，沉浸在周围的工业氛围里。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双舒适的鞋子，博物馆地面多是水泥或石板，且需要长时间站立和走动。
+馆内大部分标识为捷克语和英语，对技术术语不了解也不用担心，展品本身极具视觉冲击力。
+小镇周日许多商店餐馆关门，如需用餐最好提前在俄斯特拉发或博物馆咖啡角解决。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进主展厅迎面撞见那辆1897年的“总统”车，仔细看它木质轮毂和简陋结构，想象它颠簸驶向维也纳的勇敢`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在“流线型革命”展区久久驻足，环绕那辆银色的T77走三圈，从不同角度感受它超越时代的水滴形曲线和精致的细节`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`用手触摸中央脊管式车架的实物剖面，感受这根贯穿品牌百年的“钢铁脊梁”的坚硬与巧妙设计`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`站在巨型的Tatra 815极地卡车轮胎旁抬头仰望，感受人类征服严酷自然环境的力量与决心`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在“驾驶室体验区”坐进一台老卡车高高的驾驶座，握住硕大的方向盘，透过风挡玻璃看看前方的“道路”`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`去往旁边的专属展馆，在相对昏暗静谧的光线下，寻找那几辆保存完美的复古轿车，感受它们作为艺术品的另一面`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后在纪念品商店翻看那些老图纸、旧海报和精致的汽车模型，带一份钢铁记忆回家`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`综合馆中央大厅仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点后，阳光充足时，站在大厅中心仰拍，将交织的钢铁楼梯、悬挂的老式飞机与地面的经典车型一同纳入镜头，构图充满工业交响乐般的层次感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`T77流线型车尾特写`}</h4>
+                  <p className="text-sm text-gray-700">{`利用展馆的射灯，聚焦于T77圆润完美的车尾曲线和精致的尾灯，使用大光圈虚化背景，突出其雕塑般的质感与科幻感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`巨型卡车车轮与人像对比`}</h4>
+                  <p className="text-sm text-gray-700">{`让同伴站在Tatra矿山巨卡的车轮旁，利用广角镜头拍摄，夸张的尺寸对比能瞬间凸显工业造物的震撼尺度。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`零件墙抽象构图`}</h4>
+                  <p className="text-sm text-gray-700">{`面对那面由成千上万种齿轮、扳手等旧工具组成的装饰墙，近距离对焦某个局部，拍摄出充满秩序美感和岁月锈蚀痕迹的抽象图案。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`馆内光线复杂，混合自然光和射灯，建议提高相机感光度或使用大光圈镜头以保证快门速度。`}</li>
+                <li>• {`拍摄时请务必遵守规定，不要使用闪光灯，以免对脆弱的古老漆面和内饰材料造成伤害。`}</li>
+                <li>• {`尝试捕捉一些细节，如皮革座椅的纹理、仪表盘的刻度、车标上的污渍，故事感往往藏在这些细微之处。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济实用之选`}</h4>
+                  <p className="text-sm text-blue-800">{`俄斯特拉发市中心火车站旁的现代酒店，交通枢纽位置，往返博物馆和小镇非常便捷，晚上还能感受这座工业城市的夜景。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验之选`}</h4>
+                  <p className="text-sm text-green-800">{`科普日夫尼采小镇上由老建筑改造的温馨民宿，房东可能正是太脱拉退休的老工程师，早餐时能听到最地道的品牌往事。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端设计之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`布尔诺市区的设计酒店，将摩拉维亚现代设计与历史感结合，白天探索工业传奇，晚上回到这座充满活力的大学城享受美食与夜生活。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`沉浸式怀旧之选`}</h4>
+                  <p className="text-sm text-purple-800">{`俄斯特拉发附近一些由旧矿工公寓改造的特色酒店，风格粗犷朴实，能让你彻底沉浸在捷克工业区的历史氛围中。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果追求夜生活与餐饮丰富度，建议以布尔诺或俄斯特拉发为住宿基地，小镇科普日夫尼采非常安静，夜晚娱乐选择有限。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这一区域治安良好，但典型的工业城市风貌可能略显硬朗，这正是旅行体验的一部分。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旺季（夏季和周末）建议提前预订，尤其是小镇上的特色民宿数量非常有限。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开博物馆很久，那混合着机油与旧皮革的味道，似乎还萦绕在鼻尖。但我想，那不只是物质的味道，那是一个时代、一种精神的余温。在当今这个一切追求平滑、虚拟、快速迭代的世界里，太脱拉博物馆像一块坚硬的磐石。它告诉你，曾经有人如此执着于“正确”而非“流行”的工程哲学，为了一个更合理的车架结构，可以对抗整个行业的习惯。这种近乎偏执的工匠精神，造就了这些能穿越时间、征服极地的钢铁造物。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，来这里不仅仅是为了看车。更是为了触摸一种即将消逝的实在感——金属的冰凉、橡胶的弹性、手工捶打的钣金痕迹。是为了聆听一个夹在大国缝隙中的小民族，如何用智慧和坚韧，在车轮上找到自己的尊严和通往世界的道路。每一位热爱深度游的旅人，都应该来这里上一课。它没有童话般的城堡外观，却有着比城堡更坚固的内核；它不讲述王侯将相的故事，却歌颂了无数无名工匠的荣耀。当你站在那辆光滑如水的T77旁边，你会明白，美与力量，智慧与坚持，从来都可以完美地融为一体，驱动人类向前。这，就是科普日夫尼采留给世界最珍贵的流线型遗产。" }} />
+            </div>
+          </Section>
+
+
+        </div>
+      </div>
+    </div>
+  )
+}

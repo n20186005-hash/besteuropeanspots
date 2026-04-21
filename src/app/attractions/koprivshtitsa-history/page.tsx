@@ -1,0 +1,155 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科普里夫什蒂察历史溯源｜保加利亚彩绘小镇的前世今生与起义英雄传奇',
+  description: '探秘保加利亚的“活态博物馆”。走入被时间凝固的彩绘小镇科普里夫什蒂察，揭开四月起义第一枪背后的历史、彩绘豪宅主人的传奇，聆听钟声里的古老传说。',
+}
+
+export default function KoprivshtitsaHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '保加利亚', href: '/destinations/europe' },
+            { label: '索菲亚州', href: '/destinations/europe' },
+            { label: '科普里夫什蒂察', href: '/attractions/koprivshtitsa-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`科普里夫什蒂察・Koprivshtitsa・保加利亚・索菲亚州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果保加利亚的民族复兴有颜色，那一定是 <strong>科普里夫什蒂察</strong> 的颜色。这座藏在索菲亚东南部巴尔干山谷里的小镇，如同一部用石头、木材和斑斓彩绘写成的立体史书。它的每一座宅邸都是一个家族史诗，每一条鹅卵石街道都回荡着 <strong>1876年四月起义</strong> 的第一声枪响。这里不是单纯的景区，而是保加利亚灵魂的摇篮，国家意识的原乡。抛开游玩攻略，走进 <strong>科普里夫什蒂察</strong> 的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`科普里夫什蒂察`} />
+                <InfoRow label="英文名称" value={`Koprivshtitsa`} />
+                <InfoRow label="正式名称" value={`Koprivshtitsa`} />
+                <InfoRow label="国家" value={`保加利亚`} />
+                <InfoRow label="城市" value={`索菲亚州`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "科普里夫什蒂察的故事，始于奥斯曼帝国漫长的阴影之下。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的诞生与一个悲伤而坚韧的群体息息相关——<strong>“隐退者”</strong>。自14世纪末保加利亚沦陷后，许多不愿屈服的原贵族、手工艺人和富农，选择逃离平原，遁入巴尔干山脉深处地势险要的谷地，建立自治的堡垒式社区。<strong>科普里夫什蒂察</strong> 便是其中之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于其建立的确切年份已湮没无闻，但普遍认为在 <strong>15-16世纪</strong> 成型。它最初可能只是牧羊人的季节性居所，后来逐渐发展成为拥有自治权的山村。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇的名字源自保加利亚语中的“<strong>荨麻草</strong>”（kopriva）。一种说法是，此地最初遍布这种带刺的植物；另一种更富诗意的解释是，如同荨麻看似普通却能给人留下深刻印记，这座看似偏远的小镇，将在国家命运中留下不可磨灭的烙印。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在奥斯曼统治的数百年间，得益于山区地形和内部凝聚力，科普里夫什蒂察发展出一种独特的生存模式。这里的男人组成商队，远赴奥斯曼帝国全境乃至中欧从事<strong>羊毛、皮革和染料贸易</strong>，积累了惊人的财富。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而女人则守在家中，用这笔财富，以最华丽的方式，构筑家族的尊严与民族的记忆。正是这种“男商女建”的模式，为小镇日后令人惊叹的建筑奇观奠定了基础。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座小镇的历史，由两个决定性时刻深深镌刻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一个，也是最重要的印记，是 <strong>1876年4月20日</strong>。那天清晨，小镇教堂的钟声没有如常呼唤祈祷，而是敲响了<strong>起义的警钟</strong>。保加利亚反抗奥斯曼统治的“四月起义”在这里打响了第一枪。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "起义的领导者之一 <strong>托多尔·卡贝斯基</strong>，在他位于主广场的宅邸阳台上，向集结的民众宣读了起义公告。枪声从这座房子传出，标志着长达五个世纪沉寂的终结。然而，起义很快遭到血腥镇压，小镇被付之一炬，无数志士牺牲。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我们决定，在基督复活的神圣日子，举起自由的旗帜。要么自由地活着，要么在争取自由的斗争中死去！” —— <strong>1876年四月起义公告节选</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这场悲剧虽未成功，却如惊雷般震动了欧洲，直接导致了随后的<strong>俄土战争</strong>和<strong>保加利亚的解放</strong>。科普里夫什蒂察因此被永久地载入史册，成为保加利亚民族精神的圣地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二个印记，则体现在它<strong>幸存的建筑</strong>上。大火吞噬了木制部分，但那些坚固的石基和墙体留存了下来。解放后，流散的居民回归，他们在废墟之上，依照原样，甚至更加精美地重建了家园。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就引向了小镇最显著的特征：<strong>民族复兴时期建筑</strong>。这些宅邸绝非简单的民居，它们是财富、身份与民族美学的宣言。高耸的石砌围墙内，是两到三层的对称木质结构。外立面装饰着复杂精美的<strong>木雕花饰</strong>，而内部则是一个色彩与光影的奇幻世界。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "每一栋大宅都有其独特的彩绘主题。几何图案、藤蔓花卉、寓言人物、甚至整幅的风景画，被直接绘制在墙壁和天花板上。这些绘画不仅为了美观，更暗藏隐喻：描绘<strong>君士坦丁堡</strong> 象征对故都的怀念，绘制太阳和星星寓意光明与希望。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇因此没有沦为凝固的化石，而是一座“<strong>活态的纪念碑</strong>”，建筑本身就是一部反抗、重生与文化认同的物证史。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "科普里夫什蒂察的传奇，与几位从山谷走向国家舞台的人物紧密相连。其中，<strong>柳宾·卡拉维洛夫</strong> 与<strong>迪米塔尔·贝罗诺格夫</strong>的人生轨迹，完美诠释了小镇的 spirit。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>柳宾·卡拉维洛夫</strong>是保加利亚民族复兴后期最重要的<strong>革命思想家、作家和记者</strong>。他并非出生于此，但他的妻子和后半生与小镇血脉相融。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他早年在莫斯科求学，深受俄国革命民主主义思想影响。回国后，他成为最激进的革命鼓动者之一，坚信武装起义是唯一的出路。他周游巴尔干地区，创办报刊，撰写大量政论和小说，为革命做思想和舆论准备。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“保加利亚人的症结不在于缺乏勇气，而在于缺乏组织。需要一个中心，一个大脑来指挥所有力量。” —— <strong>柳宾·卡拉维洛夫</strong> 的书信" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1873年</strong>，他与来自科普里夫什蒂察富商家庭的女子结婚，并在此后经常居住于妻子的家族宅邸（现为 <strong>卡拉维洛夫博物馆</strong>）。这座房子成了革命者秘密集会的沙龙。正是在这里，他与本地志士深入谋划，他的思想直接浇灌了 <strong>1876年四月起义</strong> 的种子。起义失败后，他悲愤交加，健康恶化，于<strong>1879年</strong> 在故乡附近的鲁塞去世，但他的精神遗产长存。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一位更具悲剧英雄色彩的人物是 <strong>迪米塔尔·贝罗诺格夫</strong>。他是土生土长的科普里夫什蒂察人，一位充满浪漫主义激情的<strong>教师和革命者</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在<strong>四月起义</strong>中，他担任小镇起义军的指挥官之一。当奥斯曼军队逼近，起义面临失败时，他和一小队战友退守到小镇上方险峻的<strong>“桥”地区</strong>，进行最后的抵抗。弹尽粮绝后，他们拒绝投降。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说，面对围困，贝罗诺格夫对同伴说，他们不会落入敌手受辱。随后，幸存的起义者将最后一颗子弹留给了自己。<strong>迪米塔尔·贝罗诺格夫</strong> 英勇就义，年仅28岁。他的牺牲，成为保加利亚文学和艺术中不朽的悲壮题材，象征着为自由宁死不屈的极致精神。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如今，小镇有以他命名的学校和街道，他的雕像屹立在山坡上，守望着他誓死保卫的家园。他的故居保存完好，向访客静静诉说着那个炽热而短暂的青春，以及一个民族对自由的决绝渴望。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在科普里夫什蒂察，历史与传说在石板路间交织。最著名的传说，围绕小镇中心古老的 <strong>“圣母安息”教堂</strong> 的钟声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "据说，在奥斯曼统治时期，当局禁止基督徒敲响教堂钟声，以免其“干扰”穆斯林的祈祷。这对于虔诚信奉东正教的居民而言，是巨大的精神压抑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，小镇的工匠们想出了一个巧妙而勇敢的办法。他们秘密改造了钟楼的机械，设计了一套复杂的<strong>绳索与杠杆系统</strong>。敲钟人无需在钟楼上拉动钟绳，而是可以在地下室一个隐蔽的房间里操作。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "老人们常说，每当钟声响起，那声音仿佛不是来自钟楼，而是从大地深处传来，是土地本身在低语、在祈祷、在积蓄力量。他们说，这是“土地的脉搏”，奥斯曼人永远无法禁止。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，在官方的 silence 之下，科普里夫什蒂察的钟声依然会在重要的宗教节日和礼拜时“神秘地”响起。声音沉闷而幽远，仿佛来自地底。土耳其官员屡次搜查钟楼却一无所获，最终将其归为“神迹”或风声，不了了之。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个“<strong>地底钟声</strong>”的传说，不仅是机智反抗的体现，更被赋予了深刻的象征意义：民族的信仰与文化如同这钟声，表面被压制，实则根植于大地深处，从未断绝。它预告了后来那一声真正的、响彻云霄的起义枪响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说与建筑有关。许多宅邸的彩绘中，反复出现一只<strong>回头张望的鹿</strong>的图案。当地人相信，这源于一个古老的家族故事：一位祖先在深山被猎人追赶，一只神秘的鹿突然出现引导他脱险，并回头示意他跟随，最终将他带到了这片建立家园的福地。因此，鹿的图案被视为守护与指引的图腾。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，漫步在科普里夫什蒂察，你踏过的不是景点，而是<strong>层叠的历史地质</strong>。脚下是奥斯曼时期的鹅卵石，指尖触碰的是民族商人用财富铸就的木雕，目光所及是起义者誓言的彩绘穹顶，耳畔仿佛仍能听到那决定命运的钟声与枪响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座小镇之所以独特，在于它将宏大的国家叙事，完全溶解在<strong>具体而微的日常生活景观</strong>之中。每一扇窗、每一道门廊、每一幅壁画，都是一个家族故事的索引，串联起贸易、艺术、反抗与重生这条完整的历史链条。它没有变成空旷的博物馆，至今仍有居民生活在这些遗产之中，让历史保持着体温。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂科普里夫什蒂察，便是读懂保加利亚如何在一个帝国漫长的统治下，通过<strong>财富的积累、美学的坚持与血液的牺牲</strong>，艰难而执着地保存并重塑了自己的民族认同。它是一座山中的堡垒，守护的不仅是人身安全，更是一个民族的灵魂核心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这里，历史不是教科书上枯燥的章节，而是可以漫步其中、呼吸感知的鲜活存在。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/plovdiv-roman-theatre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普罗夫迪夫古罗马剧场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Plovdiv Roman Theatre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/tsarevets-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    查
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">查雷韦茨要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tsarevets Fortress</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sozopol-old-town-black-sea" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    索
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">索佐波尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sozopol</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

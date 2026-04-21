@@ -1,0 +1,186 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '纳瓦拉历史溯源｜沙漠秘境巴尔德纳斯雷尔斯的前世今生与传奇',
+  description: '探索西班牙的“没有苏丹的王国”——巴尔德纳斯雷尔斯。穿越千年，从骑士要塞到《权游》取景地，揭开这片火星地表般奇景背后真实的历史尘埃与人类勇气。',
+}
+
+export default function BardenasRealesHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '纳瓦拉', href: '/destinations/europe' },
+            { label: '巴尔德纳斯雷尔斯', href: '/attractions/bardenas-reales-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴尔德纳斯雷尔斯・Bardenas Reales・西班牙・纳瓦拉`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在西班牙北部葱郁的纳瓦拉，一片面积超过400平方公里的荒原如同大地的伤疤，又似外星降临的奇观。这里不是城市，却拥有比许多古城更跌宕的史诗。它是边境的堡垒、盗匪的巢穴、隐士的修道所、电影的光影画布。<strong>巴尔德纳斯雷尔斯</strong>，一处被风与水雕刻了千万年的地质奇观，也是一部由牧羊人、士兵、逃犯与梦想家共同书写的、关于生存与信仰的边疆之书。抛开游玩攻略，走进这片“王国”的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`巴尔德纳斯雷尔斯`} />
+                <InfoRow label="英文名称" value={`Bardenas Reales`} />
+                <InfoRow label="正式名称" value={`Bardenas Reales`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`纳瓦拉`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里没有城墙与集市，它的“建城史”始于地壳的呻吟与河流的耐心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>巴尔德纳斯雷尔斯</strong>并非传统意义上的城镇，而是一片广袤的半荒漠自然区域。它的形成是一部跨越数千万年的地质史诗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "大约在2000万年前的中新世，这里曾是一片广阔的浅海与湖泊。随着地壳抬升，水体退去，留下了厚厚的、由黏土、石膏和白垩岩构成的松软沉积层。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随后，时间与自然成为了最伟大的雕刻师。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "埃布罗河的支流们像任性的艺术家，季候性的暴雨是它们的刻刀。千万年的侵蚀，将松软的岩层切割、掏空，塑造出我们今天看到的平顶山、深谷和孤峰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的名字本身就诉说着荒凉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "“<strong>巴尔德纳斯</strong>”（Bardenas）一词很可能源于纳瓦拉语，意为“贫瘠之地”、“荒地”。而“<strong>雷尔斯</strong>”（Reales）意为“皇家的”，点明了其历史上作为<strong>纳瓦拉王国</strong>皇室领地的身份。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "人类在此的踪迹，则是一部与严酷环境共舞的编年史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最早的确切记载可追溯到<strong>公元11世纪</strong>。当时，基督教王国正从摩尔人手中收复伊比利亚半岛。这片荒原因其战略位置和稀少的植被，未被大规模开垦，而是被王室划定为公共牧区。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“赐予图德拉居民……在巴尔德纳斯草原上放牧其牲畜的权利。”——<strong>公元1117年</strong>，纳瓦拉国王<strong>阿尔方索一世</strong>的特许状。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这份古老文件，奠定了此后近千年这里作为边境“公地”的命运——不属于任何个人，属于王室，服务于周边村镇的集体生计。它的起源，是地质的偶然，更是中世纪王国政治与经济需求的必然。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史的刀锋与风沙的磨蚀，在这里留下了同样深刻的印记。它不是静态的风景，而是一个动荡的舞台。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一幕：边境要塞与无法之地。</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "由于其地处<strong>纳瓦拉王国</strong>与<strong>阿拉贡王国</strong>，乃至后来与<strong>卡斯蒂利亚王国</strong>接壤的边境，巴尔德纳斯在很长一段时间里是法律难以触及的灰色地带。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这种特殊性催生了两种独特的景观：军事堡垒与盗匪文化。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "为了监控这片广阔区域，从<strong>中世纪</strong>到<strong>16世纪</strong>，一系列瞭望塔和小型要塞被建立起来。其中最著名的，是位于荒原心脏地带的<strong>卡斯提亚尔桑乔城堡</strong>遗迹。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座城堡并非为了奢华居住，而是一个纯粹的功能性前哨。它监视着穿越荒原的走私小径和潜在的边境冲突。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "民间谚语云：“风、灰尘和悲伤，是卡斯提亚尔桑乔的永恒伴侣。”它道出了驻守于此的士兵们面对的极端孤独与艰苦。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "与此同时，荒原复杂的地形也成为了逃犯、走私者和土匪的理想藏身之所。直到<strong>19世纪</strong>，这里依然以出没的强盗而闻名。这种“无法之地”的色彩，为其蒙上了一层野性、危险又自由的传奇面纱。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二幕：从军事靶场到世界遗产。</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>20世纪</strong>，历史的车轮在这里猛然转向。<strong>1951年</strong>，西班牙空军相中了这片荒无人烟、地形特殊的区域，在此建立了<strong>托尔拉帕扎轰炸练习场</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "巨大的爆炸声开始定期打破荒原的寂静。战机的呼啸取代了羊群的咩叫。这对自然环境造成了影响，却也意外地以另一种方式“保护”了这片土地，阻止了大规模的农业或工业开发。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "军事用途限制了公众进入，但也激发了外界对其神秘面貌的好奇。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转折点发生在<strong>1999年</strong>，这片土地因其无与伦比的地质与生态价值，被联合国教科文组织宣布为<strong>生物圈保护区</strong>。<strong>2000年</strong>，它被宣布为<strong>自然公园</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "身份的转变，标志着巴尔德纳斯从边缘的“有用之地”，升华为被全人类珍视的自然瑰宝。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第三幕：光影画布上的现代传奇。</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "进入21世纪，巴尔德纳斯雷尔斯迎来了新的身份——顶级影视取景地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其超凡脱俗的地貌，吸引了全球导演的目光。它曾化身《权力的游戏》中多斯拉克海的一部分，成为龙母征程的背景。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它也出现在<strong>007系列电影《大破天幕杀机》</strong>中，作为反派席尔瓦的废弃岛巢穴。詹姆斯·邦德在这里上演了经典的追逐戏码。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些影视作品，将这片古老荒原的视觉冲击力传递给了全世界，使其从一个地域性的地理名词，一跃成为旅行者与摄影师的梦想之地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史在这里层层叠加：牧羊人的足迹、士兵的孤寂、盗匪的传说、轰炸的震动，最终与全球化的光影文化交汇，形成了独一无二的复合印记。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这片看似荒芜的土地，却吸引并孕育了特立独行的灵魂。他们的故事，为坚硬的岩土注入了人性的温度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>隐士圣维吉利奥：荒原中的信仰灯塔。</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在巴尔德纳斯的核心地带，有一座完全由岩石凿建而成的小型隐修院遗迹，名为<strong>圣维吉利奥隐修所</strong>。它关联着一位充满传奇色彩的圣人——<strong>圣维吉利奥</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于他的生平，史料与传说交织。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "普遍认为他生活在<strong>公元8世纪</strong>左右，可能是一位来自北非的僧侣。为了追寻极致的苦修和与上帝的交流，他选择了这片伊比利亚半岛上最荒凉、最严酷的土地之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说中，他独自在此生活多年，以最简陋的方式生存，对抗着孤独、恶劣气候和可能的危险（无论是真实的野兽还是象征性的心魔）。他的事迹逐渐传开，吸引了其他寻求指引的修士。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“他居住在岩石之中，以天空为屋顶，以大地为床榻。他的祈祷比风更持久，他的信念比白垩岩更坚固。”——后世关于他的记载充满了如此诗意的描述。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他去世后，被葬在隐修院附近。人们相信他的遗骸具有神圣的力量，他的墓地成为了朝圣的地点。尽管隐修院早已废弃，但“圣维吉利奥”这个名字，却成为巴尔德纳斯精神维度的象征——一种在绝境中坚守信仰与内心宁静的永恒力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "每年一月的第三个星期日，附近的居民仍会举行传统的“<strong>圣维吉利奥朝圣</strong>”活动，徒步前往遗迹，纪念这位荒原的守护圣人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>“熙德”的幽灵：史诗英雄的传说回响。</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "虽然历史考证并未明确将这位英雄与巴尔德纳斯直接联系，但在这片充满史诗感的土地上，流传着与西班牙最著名的民族英雄——<strong>罗德里戈·迪亚斯·德·维瓦尔</strong>，即“<strong>熙德</strong>”——相关的传说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "熙德生活在<strong>11世纪</strong>，正是基督教王国“收复失地运动”的关键时期。他以卓越的军事才能和复杂的政治生涯（曾同时为基督教国王和摩尔君主服务）而闻名，死后成为文学史诗《熙德之歌》的主角。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "传说认为，熙德在被卡斯蒂利亚国王<strong>阿方索六世</strong>流放期间，其纵横驰骋的足迹曾覆盖伊比利亚东部广大区域。巴尔德纳斯作为重要的地理通道和战略缓冲地，很可能曾是他的军队途经或短暂驻扎之地。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "在一些最古老、最奇崛的孤峰下，当地老人会指着风化的岩壁说：“看，那是熙德的士兵留下的马蹄印。”或是“那座城堡（指卡斯提亚尔桑乔），熙德曾在那里眺望过敌人的烟尘。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些传说真假难辨，但它们的重要性在于，将巴尔德纳斯纳入了西班牙最宏大的民族叙事之中。它不再是纯粹的荒地，而是英雄史诗可能上演过的背景板。熙德的形象——流亡者、战士、在复杂忠诚中寻求荣誉的领袖——某种程度上也隐喻了这片土地的历史命运：在各方势力的边缘求生，在混乱中保持自己的“法则”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些名人传奇，一实一虚，一静一动，共同构成了巴尔德纳斯人文传奇的双翼。圣维吉利奥代表了向内探寻的灵性深度，而熙德的传说则赋予了它向外拓展的历史广度。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "风穿过岩柱的孔洞，发出呜咽般的哨音。在这片仿佛被时间遗忘的土地上，人类的想象力填补了自然的留白，诞生了无数口耳相传的故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其中最著名的是关于“<strong>狼嚎骑士</strong>”的传说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事说，在很久以前，一位贵族骑士爱上了一位平民女子。这段恋情遭到双方家族的强烈反对。绝望之下，骑士带着心爱的人逃入了茫茫的巴尔德纳斯荒原。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们在迷宫般的沟壑中躲避追兵，依靠猎食和岩洞藏身。然而，严酷的冬季和匮乏的食物最终夺去了女子的生命。骑士悲痛欲绝，他的哀嚎响彻荒原。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "传说讲述道：“他的悲伤如此之深，以至于上帝（或魔鬼，版本不一）将他的灵魂与荒原的狼群结合在一起。从此，每当月圆之夜，风声中便会传来似人似狼的凄厉长嚎，那是骑士仍在寻找他失去的爱人。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "直至今日，一些来此露营或徒步的人，在寂静的深夜听到奇特的风声或动物的远吠时，仍会下意识地想起这个悲伤的故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则与地质奇观本身相关。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在一片被称为“<strong>独眼巨人之地</strong>”的区域，矗立着数根巨大的黏土柱。传说它们并非自然形成，而是一位被流放到此的<strong>独眼巨人</strong>的杰作。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这位巨人性格暴戾，但因只剩一只眼而行动不便，终日郁郁寡欢。为了排遣寂寞，他用手抓起湿软的黏土，随意捏制成各种古怪的形状——有的像城堡，有的像动物，有的像扭曲的人脸。玩腻了，他就将其弃置一旁，任其被太阳晒干、被风雨塑形。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些带着巨人怨气与无聊的“玩具”，历经风雨，变成了如今令人惊叹的天然雕塑。人们说，如果你静静聆听，有时还能听到巨石深处传来巨人沉闷的叹息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些传说或许“不科学”，但它们正是巴尔德纳斯人文灵魂的重要组成部分。它们将无情的地质过程，转化为承载着人类情感——爱情、悲伤、孤独、创造力——的叙事。让来访者看到的不仅仅是奇景，更是被一代代人投射在景觀之上的集体梦境与恐惧。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当你站在<strong>Castildetierra</strong>平顶山前，或在<strong>Pisquerra</strong>的峡谷中穿行时，你踏足的不仅是一片自然保护区。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你行走在一部以百万年计的地质史册上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你呼吸着中世纪牧羊人与边境士兵曾呼吸过的、带着尘土与鼠尾草气息的空气。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你的影子与传说中熙德的骑兵、孤独的隐士、神秘的强盗的影子重叠。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你的镜头追逐着曾被詹姆斯·邦德的阿斯顿·马丁掠过的那道山脊。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "巴尔德纳斯雷尔斯的价值，远超越其“火星景观”的视觉奇观。它是一个<strong>多重时空的叠加态</strong>。它见证了自然绝对的力量，也见证了人类在边缘地带最坚韧、最野性、最具创造力的生存样态。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里的历史没有辉煌的宫殿与油画，而是写在了风蚀的岩壁、废弃的堡垒基石和牧羊小径的尘土里。读懂它，意味着理解一种与绝大多数欧洲历史叙事不同的节奏——一种更缓慢、更粗粝、更直接与天地对话的文明脉搏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它提醒我们，历史不仅存在于繁华的都市，也存在于被遗忘的荒野。而最动人的传奇，往往诞生于文明与荒原的交界线上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？如何安全自驾、最佳徒步路线、摄影机位与开放时间全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/caceres-old-town-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡塞雷斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cáceres Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/peratallada-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩拉塔利亚达</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Peratallada</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/zuheros-andalusia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    苏
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">苏埃罗斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zuheros</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

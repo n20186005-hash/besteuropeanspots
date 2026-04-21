@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '埃格尔松 Egersund | 探秘挪威西南海岸的百年彩色木屋避风港 - 最佳欧洲景点',
+  description: '车子刚从主干道拐下来，第一眼看到埃格尔松，我就觉得像是翻开了一本被海风浸润了百年的童话书。不是那种恢弘的、令人屏息的史诗，而是亲切的、带着生活褶皱的故事。眼前就是那片著名的天然避风港，海水是深沉的钴蓝色，平静得像一块巨大的绸缎，几十艘白色的渔船和小艇懒洋洋地泊着，随着微波轻轻摇晃，桅杆发出细微的、有',
+}
+
+export default function EgersundNorwayFishingVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '埃格尔松（属罗加兰郡）', href: '/destinations/europe' },
+            { label: '埃格尔松', href: '/attractions/egersund-norway-fishing-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`埃格尔松・Egersund・挪威・埃格尔松（属罗加兰郡）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子刚从主干道拐下来，第一眼看到埃格尔松，我就觉得像是翻开了一本被海风浸润了百年的童话书。不是那种恢弘的、令人屏息的史诗，而是亲切的、带着生活褶皱的故事。眼前就是那片著名的天然避风港，海水是深沉的钴蓝色，平静得像一块巨大的绸缎，几十艘白色的渔船和小艇懒洋洋地泊着，随着微波轻轻摇晃，桅杆发出细微的、有节奏的吱呀声。空气里是那股熟悉的、清冽的北欧海风味道，混杂着淡淡的咸腥、潮湿的木料气息，还有从某扇开着的厨房窗户里飘出来的、刚煮好的咖啡香。这里的声音是低语级的：海鸥在头顶盘旋鸣叫，远处码头传来收拾渔网的窸窣声，还有你自己踩在湿漉漉的鹅卵石路上那清脆又实在的脚步声。
+而环绕着港口的，就是埃格尔松的灵魂——那片密密麻麻、色彩柔和的木头房子。它们不是博物馆里冷冰冰的展品，就是活生生的家。鹅黄色、淡粉色、灰蓝色、奶油白……这些颜色经过百余年的风吹日晒和海盐的侵蚀，褪成了一种无比高级的莫兰迪色调，温柔又坚韧。很多房子的二楼窗户都探出一小截铁艺栏杆，上面挂着盛开的天竺葵花盆，红艳艳的，像是给这素雅的画面点上了一个个活泼的逗号。你能看到一位老爷爷正慢悠悠地擦拭自家那扇深绿色的门，隔壁的窗户里，主妇在布置早餐桌。这个地方的美，不在于隔绝，而在于沉浸，它至今仍然是当地人呼吸、生活、相爱和变老的家园。
+最能将这种“活着的历史”具象化的，无疑是达拉内民俗博物馆。它本身就是一个由好几栋老建筑组成的微型社区。走进去，时间仿佛被调慢了。这里没有玻璃展柜的疏离感，而是完全还原了19世纪一个沿海中产家庭和渔民工坊的生活场景。厨房的炉灶仿佛刚刚熄火，木桌上面包好像还带着余温；卧室里手工纺织的亚麻床单铺得整整齐齐。最打动我的是那股味道——老木头、羊毛织物和淡淡石蜡混合的、温暖而陈旧的气味，它比任何文字说明都更能将你拉回过去。这里诉说的不是王侯将相的丰功伟绩，而是普通挪威人如何靠海吃海，如何用双手和智慧构筑起一个能抵御严酷自然、又充满人情味的家园。在埃格尔松，历史不是书本上的铅字，而是你指尖触摸到的木纹，是鼻尖闻到的海风，是眼睛看到的、依然在闪烁的日常之光。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子刚从主干道拐下来，第一眼看到埃格尔松，我就觉得像是翻开了一本被海风浸润了百年的童话书。不是那种恢弘的、令人屏息的史诗，而是亲切的、带着生活褶皱的故事。眼前就是那片著名的天然避风港，海水是深沉的钴蓝色，平静得像一块巨大的绸缎，几十艘白色的渔船和小艇懒洋洋地泊着，随着微波轻轻摇晃，桅杆发出细微的、有节奏的吱呀声。空气里是那股熟悉的、清冽的北欧海风味道，混杂着淡淡的咸腥、潮湿的木料气息，还有从某扇开着的厨房窗户里飘出来的、刚煮好的咖啡香。这里的声音是低语级的：海鸥在头顶盘旋鸣叫，远处码头传来收拾渔网的窸窣声，还有你自己踩在湿漉漉的鹅卵石路上那清脆又实在的脚步声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而环绕着港口的，就是埃格尔松的灵魂——那片密密麻麻、色彩柔和的木头房子。它们不是博物馆里冷冰冰的展品，就是活生生的家。鹅黄色、淡粉色、灰蓝色、奶油白……这些颜色经过百余年的风吹日晒和海盐的侵蚀，褪成了一种无比高级的莫兰迪色调，温柔又坚韧。很多房子的二楼窗户都探出一小截铁艺栏杆，上面挂着盛开的天竺葵花盆，红艳艳的，像是给这素雅的画面点上了一个个活泼的逗号。你能看到一位老爷爷正慢悠悠地擦拭自家那扇深绿色的门，隔壁的窗户里，主妇在布置早餐桌。这个地方的美，不在于隔绝，而在于沉浸，它至今仍然是当地人呼吸、生活、相爱和变老的家园。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最能将这种“活着的历史”具象化的，无疑是达拉内民俗博物馆。它本身就是一个由好几栋老建筑组成的微型社区。走进去，时间仿佛被调慢了。这里没有玻璃展柜的疏离感，而是完全还原了19世纪一个沿海中产家庭和渔民工坊的生活场景。厨房的炉灶仿佛刚刚熄火，木桌上面包好像还带着余温；卧室里手工纺织的亚麻床单铺得整整齐齐。最打动我的是那股味道——老木头、羊毛织物和淡淡石蜡混合的、温暖而陈旧的气味，它比任何文字说明都更能将你拉回过去。这里诉说的不是王侯将相的丰功伟绩，而是普通挪威人如何靠海吃海，如何用双手和智慧构筑起一个能抵御严酷自然、又充满人情味的家园。在埃格尔松，历史不是书本上的铅字，而是你指尖触摸到的木纹，是鼻尖闻到的海风，是眼睛看到的、依然在闪烁的日常之光。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`埃格尔松`} />
+                <InfoRow label="英文名称" value={`Egersund`} />
+                <InfoRow label="正式名称" value={`Egersund`} />
+                <InfoRow label="国家" value={`挪威`} />
+                <InfoRow label="城市" value={`埃格尔松（属罗加兰郡）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`挪威西南海岸历史悠久的渔业重镇和重要避风港，其保存完好的木结构建筑群是挪威海洋文化遗产的活化石。`} />
+                <InfoRow label="建筑特色" value={`密集而保存完好的18-19世纪彩色木结构建筑群，紧密排列在鹅卵石街道两侧，形成一幅和谐而生动的沿海社区画卷。`} />
+                <InfoRow label="建筑风格" value={`新古典主义与挪威本土木结构传统的融合，体现在简洁对称的山墙立面、柔和的色彩运用以及实用的建筑布局上。`} />
+                <InfoRow label="文化价值" value={`活态保存了挪威西海岸传统渔业社区的生活方式与文化记忆，展现了人与自然（尤其是海洋）共生的古老智慧。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`埃格尔松老城区（公共区域）全天开放。达拉内民俗博物馆（Dalen Museum）开放时间因季节而异：夏季（6月至8月）通常为每日10:00-17:00；春秋季（5月、9月）开放日减少，多为周三至周日；冬季（10月至次年4月）基本闭馆或仅周末预约开放。具体日程务必在行前于当地旅游局官网核实，挪威的公共假期也可能影响开放。`} />
+              <InfoRow label="门票价格" value={`漫步老城区免费。达拉内民俗博物馆成人票约为120挪威克朗，学生及儿童有优惠，通常家庭套票更划算。持有“罗加兰郡博物馆通票”可能享受折扣。部分历史建筑内的特展可能单独收费。`} />
+              <InfoRow label="地址" value={`Dalen Museum, Museumsvegen 1, 4370 Egersund, Norway（此为博物馆地址）`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是斯塔万格索拉机场（SVG）。从斯塔万格出发，最便捷的方式是乘坐挪威国铁（Vy）列车，斯塔万格中央车站到埃格尔松站车程约1小时，沿途海岸风光绝美，班次频繁，约每小时一班，建议提前在线购票以获取优惠价。若自驾，沿E39号公路行驶约1小时即可抵达，小镇中心有付费停车场。小镇内部完全可步行探索。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解埃格尔松为何是今天这个样子，你得把手指放在挪威绵长而曲折的西海岸地图上。这里峡湾深邃，风暴频繁，找到一个天然的深水避风港，对于以海为生的先民来说，无异于找到了生存的命脉。早在维京时代，这片平静的水域可能就已经是船隻的临时庇护所。而它的真正崛起，要等到中世纪之后。得益于其得天独厚的地理位置——背靠丰富的渔业资源，面前是通往北海的航道，埃格尔松逐渐从一个零散的渔村，发展成了重要的渔货贸易站。鳕鱼、鲱鱼从这里被腌制、晾干，运往欧洲各地，财富开始在这个小小的港湾积累。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "18世纪到19世纪初期，是埃格尔松木屋建设的“黄金时代”。当时，一场大火（这在全是木结构建筑的北欧小镇历史上屡见不鲜）摧毁了部分老旧的房屋，却也催生了重建的契机。新兴的商人和富裕的船主们，开始按照当时流行的新古典主义风格建造他们的住宅和仓库。但你得知道，挪威人有自己根深蒂固的木构传统。于是，你看到了这种有趣的融合：建筑的外观是简洁、对称的，有着规整的山墙和装饰性的檐口，显得端庄体面；但它的内核，从承重结构到隔热方式，完全是挪威本土的智慧——使用粗壮的原木，精密的榫卯，以及填充苔藓来密封缝隙。这些房子被刷上从矿石和植物中提取的颜料，不仅为了美观，更是为了保护木材免受严酷气候的侵蚀。它们一栋挨着一栋，紧密地排列在港口边，既节省了珍贵的平地空间，也在寒冷的冬季里能彼此依靠，保存热量，形成了一个充满凝聚力的社区物理形态。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇的命运始终与海洋的馈赠和残酷紧密相连。19世纪中叶，随着腌鲱鱼产业的巨大繁荣，埃格尔松迎来了它的鼎盛时期，成为挪威最重要的渔港之一。码头上日夜忙碌，空气中弥漫着浓烈的鱼腥和盐卤味道，来自各地的船只挤满了港湾。财富让小镇更加繁荣，更多的精美木屋被建造起来，也催生了教堂、学校和公共建筑。然而，海洋的恩赐并非永恒。渔业资源的波动、现代冷藏技术的出现以及更大港口的竞争，让埃格尔松在20世纪经历了经济的起伏。它没有像一些资源枯竭的城镇那样衰落，而是缓缓地沉淀下来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "二战时期，挪威被德军占领，作为重要港口的埃格尔松自然也未能幸免，经历了压抑和困苦的岁月。但或许正是因为它并非战略要地，这些珍贵的木结构建筑群才得以在战火中幸存，没有遭到毁灭性的破坏。战后的现代化浪潮中，许多挪威城镇选择了推倒旧建筑，兴建混凝土楼房。但埃格尔松的居民做出了不同的选择。他们看到了这些老房子无可替代的价值——不仅是历史的见证，更是社区身份的根基。从上世纪六七十年代起，自觉而有力的保护运动开始了。居民们精心修缮自己的家园，政府制定了严格的保护法规。达拉内民俗博物馆的建立，更是将这种保护从个体建筑提升到了整体生活方式的保存层面。它搜集了来自整个地区的农舍、工坊和家居物品，原样重建，不是为了封存死亡的历史，而是为了向后人生动地讲述：你们的祖辈，曾这样充满尊严和美感地生活过。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议你预留完整的一天给埃格尔松，最好是从斯塔万格乘坐早班火车抵达，大约在上午九点半左右。这样的安排能让你在旅行团大巴到来之前，独享老城区的宁静晨光。整个游览节奏应该是慢而沉浸的，核心在于“漫步”与“感受”。上午的精力留给户外探索，用脚步丈量港口和彩色的街巷；中午享用一顿地道的海鲜午餐；下午则深入室内的达拉内民俗博物馆，在那些充满生活气息的场景里完成一次时间的穿越。傍晚时分，如果天气晴好，务必回到港口，看夕阳将木屋和海水染成金色，这是一天游览最完美的句点。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适的步行鞋，老城区的鹅卵石路面虽然迷人但对脚踝是考验。夏季是旅游旺季，但即便在此时，上午十一点前和下午四点后游客也会大幅减少，是拍照和静静感受的最佳时段。留意港口附近是否有大型游轮停靠（可查港口日程），游轮日可能会瞬间涌入大量一日游旅客。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`早上九点多从埃格尔松火车站走出来，先别急着乱逛，花五分钟走到游客中心拿一张老城区地图。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`信步走向港口，让第一眼那宝石般的平静海湾和油画般的彩色木屋倒影给你最直接的视觉冲击。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`选一条看起来最窄最曲折的鹅卵石小巷钻进去，比如Øvre街或Vågsgata街，仰头看看那些古老的山墙、窗户和生机勃勃的花箱。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到并参观埃格尔松教堂，这座19世纪的砖石建筑内部有着令人意外的明亮与宁静，是感受当地社区精神的好地方。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在港口边的长椅上坐一会儿，看渔民整理渔网，海鸥争食，真正理解“避风港”一词的物理与精神双重含义。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午将至少两小时留给达拉内民俗博物馆，不要走马观花，试着在复原的厨房或卧室里想象一百年前某个冬夜的生活场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在博物馆附近或老城中心找一家可爱的咖啡馆，比如“Kaffebønna”，点一杯醇厚的挪威咖啡和一块肉桂卷，像当地人一样享受“Fika”（咖啡休憩时光）。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果体力允许，沿着标记清晰的步道走上小镇旁边的Vardåsen山丘，从高处俯瞰整个港口、木屋群和远处的外海，全景视野会让你对小镇格局有全新的认识。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`港口东侧渡轮码头附近`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，利用平静如镜的水面拍摄彩色木屋群的完美倒影，构图时将实景与倒影对称分割，画面宁静而富有诗意。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`Øvre街中段仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光斜射时，站在狭窄的鹅卵石小巷中央，用广角镜头仰拍，让两侧高耸的彩色木屋山墙和一线蓝天构成富有纵深感与冲击力的画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`达拉内民俗博物馆室内窗前`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一扇有薄纱窗帘的老式窗户，利用从窗外透进来的柔和的侧逆光，拍摄室内旧桌椅、陶瓷或纺织品的静物特写，充满故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`Vardåsen山丘观景台`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，从此处用长焦镜头捕捉港口、木屋、教堂和远海的层叠关系，夕阳的金色光芒会将所有色彩统一成温暖的色调。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`挪威的夏季光线极其柔和且漫长，尤其是“黄金时刻”可能持续数小时，请善加利用。拍摄私人住宅窗户或庭院时请保持尊重距离，如需拍摄居民作为环境人像，一个微笑和简单询问会非常受欢迎。雨天也别收起相机，湿漉漉的鹅卵石反射着灯光和色彩，能拍出格外忧郁而迷人的北欧氛围感。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`港口边的精品酒店`}</h4>
+                  <p className="text-sm text-blue-800">{`选择一间窗户正对港湾的房间，清晨在枕边就能看到第一缕阳光洒在彩色木屋上，夜晚听着轻柔的波浪声入眠，位置完美。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老木屋改造的民宿`}</h4>
+                  <p className="text-sm text-green-800">{`入住一栋真正有百年历史的木结构房子内部，亲手触摸那些带着温度的原木墙壁，在复古的小厨房里为自己准备早餐，体验一日本地人。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`家庭经营的舒适旅馆`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在安静住宅区，主人会热情地为你准备丰盛的北欧早餐，并提供只有当地人才知道的徒步小道信息，性价比极高。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计型小型酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`由旧码头仓库改造而成，保留了粗犷的木梁和石墙，但内部是斯堪的纳维亚的简约设计，融合了历史感与现代舒适，适合追求风格的旅行者。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "埃格尔松的住宿数量有限，尤其在六月至八月的夏季，务必提前数月预订。许多民宿和家庭旅馆不提供24小时前台服务，需提前沟通好入住方式。小镇治安极好，夜晚独自在老城区漫步也完全安心，但冬季部分区域路灯可能较暗。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开埃格尔松好些日子了，我脑海里最常浮现的，不是某张明信片般的风景，而是一种感觉。那是一种被妥帖安放、被温柔包裹的宁静感。在这个追求效率、热衷颠覆的时代，埃格尔松选择了一条相反的路：它小心翼翼地守护着过去的速度、过去的形态，甚至过去的气味。它告诉你，发展未必意味着推倒重来，现代化也可以是与历史深情地握手言和。走在那些被无数代人鞋底磨得光亮的石头上，你会感到一种扎实的连续感——你的脚步，正叠印在百年前某个渔民、某个主妇、某个孩童的足迹之上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了那些被过度消费、只剩下喧嚣外壳的景点，如果你想找一个地方，那里时间流淌的方式不一样，那里的人们依然懂得如何从一片海、一栋老屋、一杯热咖啡中汲取简单的幸福，那么，请把埃格尔松放入你的清单。它不会用震撼让你目瞪口呆，却会用一种涓涓细流般的浸润，悄悄修复你某些自己都未曾察觉的褶皱。在这里，你会发现，真正的富足，或许就藏在这一片宁静的港湾，和这些被阳光晒暖的、彩色的木头房子里。它提醒我们，在疾驰的世界里，依然有一些角落，选择慢慢地、美好地活着。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/longyearbyen-svalbard" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯瓦尔巴朗伊尔城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Longyearbyen</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/posebyen-kristiansand" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克里斯蒂安桑波塞比恩区</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Posebyen (Kristiansand)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alta-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔塔古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alta Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

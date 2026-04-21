@@ -1,0 +1,148 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '兰茨贝格历史溯源｜罗曼蒂克大道色彩之城的盐路往事与希特勒铁窗秘闻',
+  description: '探索德国色彩之城兰茨贝格不为人知的前世今生：从中世纪盐路堡垒到希特勒的囚禁地，漫步在老桥与塔楼间，聆听巴洛克大师与囚徒的传奇故事。',
+}
+
+export default function LandsbergAmLechHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴伐利亚', href: '/destinations/europe' },
+            { label: '莱希河畔兰茨贝格', href: '/attractions/landsberg-am-lech-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`莱希河畔兰茨贝格・Landsberg am Lech・德国・巴伐利亚`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在德国浪漫之路的中段，莱希河用一道温柔的弧线，环抱着一座被时光染成鹅黄、粉红与淡绿的小城。人们为它明信片般的色彩而来，却少有人追问，这斑斓之下深埋着何等沉重的历史层积。这里是<strong>莱希河畔兰茨贝格</strong>，一座曾以盐富甲一方、又以囚禁恶魔而背负复杂记忆的古城。它的美丽，与它的伤痕一样深刻。抛开游玩攻略，走进兰茨贝格的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`莱希河畔兰茨贝格`} />
+                <InfoRow label="英文名称" value={`Landsberg am Lech`} />
+                <InfoRow label="正式名称" value={`Landsberg am Lech`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`巴伐利亚`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "兰茨贝格的故事，始于那条奔腾的莱希河与一条更重要的“白色黄金”之路。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "公元<strong>12世纪</strong>，韦尔夫公爵<strong>“狮子”亨利</strong>的目光锁定了莱希河畔的这座山丘。这里地势险要，是控制河流渡口与南北商道的绝佳位置。于是，一座城堡拔地而起，它最初的名字简单直接——<strong>“城堡之地”</strong>。德语中“Land”（土地）与“Berg”（山/城堡）的结合，揭示了它最初的军事与领土功能。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，真正让这座小镇命运转折的，并非刀剑，而是盐。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它恰好位于从巴特赖兴哈尔和贝希特斯加登盐矿通往富裕的施瓦本地区的重要<strong>盐路</strong>之上。盐，在中世纪是堪比黄金的稀缺品，用于保存食物、制作皮革，是财富与权力的象征。兰茨贝格成了这条贸易命脉上的关键驿站与关税站。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "源源不断的盐商车队在这里歇脚、交易，财富随之涌入。最初的军事据点，迅速演变为一个繁荣的商业城镇。<strong>12</strong>世纪末，它被正式授予“城市权利”，城墙得以修筑，市政自治的雏形由此诞生。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城市的名字也随着河流被铭记，最终定格为 <strong>“莱希河畔兰茨贝格”</strong> 。一条河，一条路，共同奠定了这座色彩之城最初的基石。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史的刀锋与时代的洪流，在兰茨贝格留下了几道无法磨灭的印记。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一道印记，属于中世纪的巅峰。得益于盐路贸易，<strong>15</strong>至<strong>16</strong>世纪成为兰茨贝格的“黄金时代”。巨大的财富转化成了今天我们仍能看到的壮丽建筑。<strong>1435</strong>年，宏伟的<strong>老市政厅</strong>开始建造，其华丽的哥特式阶梯山墙，无声宣告着市民阶层的自信与富足。市政厅广场上那座优雅的<strong>“母亲”喷泉</strong>，则建于<strong>16</strong>世纪，是文艺复兴风格流入此地的见证。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "当地编年史中记载：“盐商的马蹄声日夜不息，银币在集市上叮当作响。我们的塔楼越来越高，房屋越来越美，连河水都仿佛带着咸味与金子的光泽。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二道深刻的伤疤，来自<strong>三十年战争</strong>。这场席卷欧洲的惨烈宗教战争并未放过这座富庶小城。<strong>1632</strong>年，瑞典军队兵临城下。尽管市民们进行了英勇的抵抗，但城市最终仍被攻陷并遭到劫掠。战火与瘟疫带走了大量人口，黄金时代戛然而止。战后重建的进程缓慢而艰难，直至下个世纪。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第三道转折，则与一位征服者的身影相关。<strong>19</strong>世纪初，<strong>拿破仑</strong>的铁骑重塑了欧洲版图。<strong>1803</strong>年，通过《帝国代表重要决议》，兰茨贝格所在的教会领地世俗化，并最终并入<strong>巴伐利亚王国</strong>。这一政治归属的改变一直延续至今。拿破仑时代也带来了新的建筑思潮，古典主义的简洁线条开始点缀城市景观。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些印记——繁荣、创伤与变迁，共同雕刻出兰茨贝格复杂而迷人的历史面容，凝固在每一块古老的墙砖之中。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "兰茨贝格与两位身份天差地别的人物命运紧密交织，一位是创造美的艺术家，另一位则是酿造灾难的囚徒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "首先，是本土的巴洛克大师——<strong>多米尼克·齐默尔曼</strong>。<strong>1685年</strong>，他出生在兰茨贝格附近的一个工匠家庭。齐默尔曼并非只是短暂旅居，他的艺术根系深扎于这片土地。他与兄长约翰·巴普蒂斯特共同经营一家成功的建筑工作室，将南德巴洛克艺术的华美与轻盈发挥到极致。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他最伟大的作品之一，著名的<strong>维斯朝圣教堂</strong>（位于施泰因加登附近，距兰茨贝格不远），虽不在城内，但其精神与风格却深深浸润着故乡的灵气。而在兰茨贝格本市，他留下了诸多手笔：<strong>圣约翰教堂</strong>华丽繁复的灰泥装饰，据说就出自其工作室。他的宅邸至今仍矗立在老城中，成为这位“灰泥魔法师”的无声纪念碑。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "艺术史学家评论：“齐默尔曼的艺术，如同莱希河上反射的阳光，是流动的、欢快的、充满世俗喜悦的巴洛克，这或许正源于他家乡那明亮、色彩丰富的环境熏陶。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，兰茨贝格在20世纪被强行写入世界历史的篇章，却与另一个名字相关：<strong>阿道夫·希特勒</strong>。<strong>1923年</strong>啤酒馆暴动失败后，希特勒被关押在兰茨贝格的<strong>旧监狱</strong>。这段囚徒岁月，远非普通的监禁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他被安置在条件相对舒适的7号囚室，允许接待大量访客、收取邮件和礼物。正是在这里，他向忠诚的助手<strong>鲁道夫·赫斯</strong>口授了那本日后将世界拖入深渊的著作——《<strong>我的奋斗</strong>》的第一卷。兰茨贝格监狱因此被纳粹后来宣传为“国家社会主义思想的摇篮”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1924年12月</strong>，希特勒获释。二十年后，<strong>1944-1945</strong>年间，这座监狱又成为纳粹政权关押和处决政治犯与“失败主义者”的场所。今天，监狱建筑依然存在，它作为一座纪念馆，沉重地提醒着人们德国历史上最黑暗的一页。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从齐默尔曼到希特勒，兰茨贝格见证了人类精神创造极致之美与策划极致之恶的双重可能，这种强烈的反差，构成了它历史叙事中最令人深思的部分。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在官方历史之外，莱希河的流水与老城的墙壁间，还回荡着一些更古老、更缥缈的传说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最著名的传说关乎城市的守护与那条不息的大河。相传，莱希河中住着一位善变的女水妖。她时而是带来丰饶的守护者，时而是掀起洪水的破坏者。老人们说，中世纪建造那座坚固的<strong>老桥</strong>时，工匠们曾向水中投入最好的祭品，祈求水妖的保佑，让桥梁稳固，商贸畅通。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则围绕着<strong>拜恩门</strong>那座高耸的塔楼。据说在瘟疫流行的黑暗年代，塔楼里曾住着一位隐修的僧侣。他日夜为城市祈祷，某天夜里，天使在他梦中显现，指引他在城门上刻下特殊的保护符号。从此，瘟疫的魔爪绕城而过。至今，一些老人仍相信，触摸城门上某块古老的石头能带来健康。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "一首古老的民歌这样唱道：“莱希河，莱希河，你从山中来的水妖/请守护我们的桥，我们的盐，我们的塔楼高高/用你的温柔，锁住你的咆哮。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "至于那些让游客沉醉的、粉彩色的外墙，也有自己的故事。并非所有房屋自古如此鲜艳。有一种说法是，19世纪一位深爱妻子的画家，为了治愈病中妻子郁结的心情，开始将自家墙面涂成明亮的颜色，并画上花卉图案。邻居们竞相模仿，最终形成了今天宛如童话世界的街景。这个传说或许并非史实，但它为兰茨贝格的“色彩之城”美誉，增添了一抹温暖的人文浪漫。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日漫步兰茨贝格，你踩踏的每一块鹅卵石，都承载着多层记忆。从盐商马车沉重的辘辘声，到巴洛克教堂飘出的圣咏；从拿破仑军队行进的步伐，到旧监狱里沉重的历史回声——这里是一部浓缩的、立体的欧洲史书。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它不仅仅是一座“浪漫之路上色彩斑斓的小镇”。它的美，因其背负的历史重量而显得更加真实、更具深度。理解兰茨贝格，意味着理解德国乃至欧洲历史的复杂性：繁荣与创伤，创造与毁灭，极致的美丽与沉重的反思，可以如此紧密地共生于一地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "来到这里，是一场与历史多维度的对话。当你穿过拜恩门，目光掠过彩色的立面，望向宁静的莱希河时，你所见的不仅是风景，更是时光本身。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gorlitz-old-town-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    格
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格尔利茨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Görlitz Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bad-wildbad-guide" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴特维尔德巴特</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bad Wildbad</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bad-doberan-minster" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴特多贝兰修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bad Doberan Minster</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

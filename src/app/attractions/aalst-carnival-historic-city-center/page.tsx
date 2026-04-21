@@ -1,0 +1,244 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '奥尔斯特 Aalst｜沉浸于比利时最狂野的狂欢节与最古老的哥特式市政厅 - 最佳欧洲景点',
+  description: '你第一眼看到奥尔斯特的市集广场，可能会觉得它和许多宁静的比利时老城广场没什么不同：鹅卵石地面，周围环绕着色调温柔的联排房屋，人们坐在露天咖啡馆里喝着啤酒。空气里飘着淡淡的咖啡香和刚出炉的华夫饼甜味。但如果你稍微凑近广场东侧那座看起来异常古老、甚至有些庄严的前市政厅，你会发现它的石雕窗棂旁，可能还残留',
+}
+
+export default function AalstCarnivalHistoricCityCenterPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '奥尔斯特', href: '/destinations/europe' },
+            { label: '奥尔斯特', href: '/attractions/aalst-carnival-historic-city-center' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`奥尔斯特・Aalst・比利时・奥尔斯特`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`你第一眼看到奥尔斯特的市集广场，可能会觉得它和许多宁静的比利时老城广场没什么不同：鹅卵石地面，周围环绕着色调温柔的联排房屋，人们坐在露天咖啡馆里喝着啤酒。空气里飘着淡淡的咖啡香和刚出炉的华夫饼甜味。但如果你稍微凑近广场东侧那座看起来异常古老、甚至有些庄严的前市政厅，你会发现它的石雕窗棂旁，可能还残留着去年狂欢节时彩纸屑的痕迹。这时你才意识到，你脚下这片平整的石头地，每年都有三天会变成一片沸腾的、近乎失控的欢乐海洋。
+那种宁静只是假象。跟当地人聊上五分钟，他们的眼神就会亮起来，迫不及待地跟你分享狂欢节的故事——那是刻在他们骨子里的东西。你开始注意到酒吧橱窗里全年陈列的夸张服装，书店里关于“王子”和“童子”的漫画，甚至肉铺门口都可能挂着一张往届“狂欢节市长”的照片。这座城市有两副面孔：一副是日常的、温和的、带着些微磨损的佛兰德生活画卷；另一副，则是深植于血脉中，等待在每年春天某个特定周末彻底爆发的、集体性的狂喜与讽刺精神。
+而连接这两副面孔的，正是广场上那些沉默的石头建筑。那座建于13世纪中叶的前市政厅，是比利时现存最古老的哥特式市政建筑。它不像布鲁塞尔或根特的同类建筑那样宏伟壮丽，却有一种朴素的、来自市民阶层的力量感。它见证了数个世纪以来，这里的市民如何治理自己，如何庆祝，如何在战争与和平的轮回中生存下来。站在它面前，你能触摸到一种非常具体的“本地”历史，不是关于国王和主教，而是关于商人、行会成员和普通百姓。
+所以，来奥尔斯特，你不仅是来看建筑的，更是来感受一种“气氛”。一种在历史沉淀的厚重感与当下生命力的极致宣泄之间，所形成的奇妙张力。这种张力，在狂欢节那三天达到顶峰，但在平常的日子里，它也像背景音一样，隐隐浮动在城市的空气里，等待你去聆听。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你第一眼看到奥尔斯特的市集广场，可能会觉得它和许多宁静的比利时老城广场没什么不同：鹅卵石地面，周围环绕着色调温柔的联排房屋，人们坐在露天咖啡馆里喝着啤酒。空气里飘着淡淡的咖啡香和刚出炉的华夫饼甜味。但如果你稍微凑近广场东侧那座看起来异常古老、甚至有些庄严的前市政厅，你会发现它的石雕窗棂旁，可能还残留着去年狂欢节时彩纸屑的痕迹。这时你才意识到，你脚下这片平整的石头地，每年都有三天会变成一片沸腾的、近乎失控的欢乐海洋。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "那种宁静只是假象。跟当地人聊上五分钟，他们的眼神就会亮起来，迫不及待地跟你分享狂欢节的故事——那是刻在他们骨子里的东西。你开始注意到酒吧橱窗里全年陈列的夸张服装，书店里关于“王子”和“童子”的漫画，甚至肉铺门口都可能挂着一张往届“狂欢节市长”的照片。这座城市有两副面孔：一副是日常的、温和的、带着些微磨损的佛兰德生活画卷；另一副，则是深植于血脉中，等待在每年春天某个特定周末彻底爆发的、集体性的狂喜与讽刺精神。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而连接这两副面孔的，正是广场上那些沉默的石头建筑。那座建于13世纪中叶的前市政厅，是比利时现存最古老的哥特式市政建筑。它不像布鲁塞尔或根特的同类建筑那样宏伟壮丽，却有一种朴素的、来自市民阶层的力量感。它见证了数个世纪以来，这里的市民如何治理自己，如何庆祝，如何在战争与和平的轮回中生存下来。站在它面前，你能触摸到一种非常具体的“本地”历史，不是关于国王和主教，而是关于商人、行会成员和普通百姓。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，来奥尔斯特，你不仅是来看建筑的，更是来感受一种“气氛”。一种在历史沉淀的厚重感与当下生命力的极致宣泄之间，所形成的奇妙张力。这种张力，在狂欢节那三天达到顶峰，但在平常的日子里，它也像背景音一样，隐隐浮动在城市的空气里，等待你去聆听。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`奥尔斯特`} />
+                <InfoRow label="英文名称" value={`Aalst`} />
+                <InfoRow label="正式名称" value={`City of Aalst`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`奥尔斯特`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座拥有比利时最古老前市政厅的城市，其狂野不羁的狂欢节被联合国教科文组织列为人类非物质文化遗产。`} />
+                <InfoRow label="建筑特色" value={`市集广场上，早期哥特式前市政厅的精致石雕与旁边高耸的巴洛克式钟楼形成跨越数个世纪的和谐对话。`} />
+                <InfoRow label="建筑风格" value={`前市政厅是罕见的早期哥特式民用建筑典范，而钟楼则是典型的法兰德斯巴洛克风格。`} />
+                <InfoRow label="文化价值" value={`它是理解法兰德斯地区平民精神与世俗欢庆文化的活化石，狂欢节中的讽刺与喧闹是当地社群身份认同的核心表达。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城市全天开放。前市政厅内部开放时间较为复杂：通常从四月至九月，每周日14:00-17:00对外开放；十月至次年三月，仅在每月第一个周日14:00-17:00开放。狂欢节官方活动每年固定于大斋首主日前的周日、周一和周二举行，具体日期随复活节变化。钟楼登顶需参加特定导览团，时间不固定，建议提前在游客中心查询。`} />
+              <InfoRow label="门票价格" value={`前市政厅内部参观免费。钟楼登顶导览团通常为5欧元/人。狂欢节期间街道活动免费参与，但某些室内派对或特定观礼台需要购票，价格在10-50欧元不等。游客中心提供的城市徒步导览约8欧元/人。`} />
+              <InfoRow label="地址" value={`Grote Markt 1, 9300 Aalst, Belgium`} />
+              <InfoRow label="交通方式" value={`从布鲁塞尔国际机场出发最便捷。在机场火车站乘坐火车前往布鲁塞尔北站或中央站，换乘前往根特方向的火车，在“Aalst”站下车。全程约1小时，火车班次频繁，约15-20分钟一班，可直接在车站售票机购买车票。从奥尔斯特火车站步行至老城大广场仅需10分钟，沿着标志清晰的市中心方向即可。如果自驾，老城区停车位紧张，建议使用市郊的“P+R”换乘停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "奥尔斯特的故事，是从斯海尔德河的一条小支流——登德尔河畔开始的。早在罗马时代，这里就有人定居。但让它真正登上历史舞台的，是中世纪盛期的纺织业繁荣。大约在1164年，它从佛兰德伯爵手中获得了城市特许状，意味着可以建立城墙、举办市场和享有一定的自治权。财富随之积累，到了13世纪中叶，富裕的市民们决定建造一座配得上他们城市的市政厅。于是，在1250年至1300年间，我们今天看到的这座早期哥特式杰作便拔地而起。它的风格深受当时教堂建筑的影响，但用于世俗的市政管理，这本身就是市民阶层崛起的宣言。看看那些精美的拱窗和沉稳的线条，你能想象当年商人和行会首领们在此议事，决定城市事务的场景。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，城市的命运并非一帆风顺。它先后被勃艮第、哈布斯堡和西班牙统治，经历了宗教战争的动荡。但真正让城市物理面貌发生剧变的，是两次世界大战，尤其是第二次世界大战末期。1944年，盟军的轰炸旨在摧毁德军占据的火车站，却意外地严重损毁了老城的大部分地区，包括那座珍贵的圣马丁教堂。你现在看到的市中心许多建筑，其实是战后精心重建的，努力还原了战前的风貌。这场灾难在某种程度上塑造了奥尔斯特人坚韧甚至有些顽皮的性格——生活必须继续，而且要笑着继续。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就不得不提到它举世闻名的狂欢节了。它的起源与天主教传统有关，在大斋期前尽情欢乐。但奥尔斯特人把它发展成了一种独一无二、充满地方政治讽刺和市井幽默的盛大活动。传统可以追溯到19世纪中叶，但真正定型是在20世纪。狂欢节的核心是“王子”和“他的臣民”，但这个“王子”是通过购买“王位”产生的，充满了对权力和金钱游戏的戏谑。高潮是“Voil Jeanetten”游行，男人们身着夸张的女性服装，这是对性别规范和传统最放肆的嘲弄。它不仅仅是派对，更是一种年度性的社会压力释放阀和本地身份的强化仪式。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而广场上的另一座地标——钟楼，则来自一个稍晚的时代。它建于1460年，原本是圣马丁教堂的一部分，但在19世纪教堂被拆除后，它被保留并改造成了一座独立的钟楼。它属于比利时和法国北部一系列被列为世界遗产的“法兰德斯和瓦隆尼亚的钟楼”之一。这些钟楼象征着市民的自由与繁荣。奥尔斯特的钟楼在十七世纪被加盖了华丽的巴洛克式尖顶，里面藏着一组美妙的排钟。每逢节庆，钟声敲响，声音覆盖全城，那是一种深沉而欢庆的历史回音。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从13世纪的前市政厅，到15世纪的钟楼，再到延续至今的狂欢节，奥尔斯特的魅力在于这种层层叠加的历史层次感。每一层都讲述着市民如何在这个地方生活、建造、庆祝，并在灾难后重建。它没有皇家的金碧辉煌，却充满了鲜活、顽强，有时甚至有些粗俗的“人”的味道。这种真实感，让它与众不同。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要深度感受奥尔斯特，建议安排一整天。如果你在狂欢节期间来访，那请做好彻底融入游行和派对的准备，路线会完全被人潮和活动主导。而在平日，最佳的游览节奏是从清晨开始。早上九点左右抵达市集广场，这时光线柔和，咖啡馆刚开门，城市尚未完全苏醒，你可以静静欣赏前市政厅和钟楼的建筑细节。上午专注探索历史核心，下午则可以沿着运河散步，感受更本地的生活区，并在傍晚前找一家传统的棕色咖啡馆坐下，像当地人一样点杯啤酒。这样的安排既能领略其历史底蕴，又能捕捉到它日常的生活气息。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`狂欢节期间人潮极其拥挤，务必看管好个人财物，穿着舒适且不怕脏的鞋，并提前查好游行路线以便占个好位置。平日参观前市政厅内部前，务必再次确认官网或游客中心的开放时间，因为它开放得非常有限。当地许多小商店周一可能休息，规划购物和探店时需留意。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从市集广场的鹅卵石地面开始，仰头仔细打量前市政厅立面上那些被岁月磨洗出光泽的蓝灰色石料和精致的早期哥特式拱窗。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕着前市政厅走一圈，在建筑的侧面和后巷寻找那些有趣的石雕细节，包括一个藏在角落的、传说中与狂欢节有关的小魔鬼雕像。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上钟楼（如果开放），在狭窄的旋转楼梯攀爬后，从顶部的观景平台俯瞰全城一片连绵的红瓦屋顶和远处蜿蜒的登德尔河。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到广场西侧，找一家有露天座位的传统咖啡馆，点一杯本地特色的“Aalsterse Tierenteyn”芥末酱搭配奶酪或香肠，观察广场上来往的人群。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着Kattestraat或Nieuwstraat这些老商业街漫步，留意那些家族经营了几代人的巧克力店、啤酒专卖店和肉铺，它们的橱窗本身就是一部微型城市生活史。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着Oude Vismarkt（旧鱼市）走到运河边，在安静的河岸长椅上坐一会儿，看天鹅游过，对比喧嚣的广场与静谧的水边两种截然不同的城市性格。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要拜访一下“狂欢节之家”，这个小博物馆里满是华丽的服装、历史照片和荒诞的纪念品，它是理解这座城市灵魂的钥匙。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落时分，钻进一家典型的“棕色咖啡馆”，在昏暗的灯光、木质家具和陈年烟草气味中，结束你的奥尔斯特之旅。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`前市政厅魔鬼石雕仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点的侧光能完美勾勒出藏在前市政厅南侧墙角那个古老石雕魔鬼的诡异表情，用广角镜头贴近拍摄，让石雕与上方的哥特式拱窗形成构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`钟楼俯瞰红瓦屋顶全景`}</h4>
+                  <p className="text-sm text-gray-700">{`登顶钟楼后，将镜头对准西北方向，能拍到圣马丁教堂现代主义风格的新屋顶与周围传统红瓦老房子形成的强烈新旧对比，雨后初晴时色彩最饱和。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`狂欢节人物特写（如遇节期）`}</h4>
+                  <p className="text-sm text-gray-700">{`在“Voil Jeanetten”游行中，聚焦于一位身着盛装、表情夸张的“男扮女装”参与者，使用大光圈虚化背景，捕捉那充满讽刺与欢乐的瞬间眼神。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`运河倒影与老屋`}</h4>
+                  <p className="text-sm text-gray-700">{`在Oude Vismarkt附近的运河桥中央，清晨无风时，可以拍摄两岸色彩柔和的老房子及其在水中的完美倒影，营造出静谧的北方威尼斯之感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`“狂欢节之家”内部细节`}</h4>
+                  <p className="text-sm text-gray-700">{`在博物馆内，利用橱窗玻璃的反光，叠加拍摄里面陈列的、镶满亮片的华丽狂欢节服装与现代参观者的身影，形成时空交错感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`狂欢节期间拍照请务必尊重参与者，拍摄人物前最好先微笑示意，许多当地人很乐意被拍但礼貌很重要。在咖啡馆或商店内部拍摄前，请先询问店主是否允许。使用无人机在历史中心上空飞行有严格限制，需提前查询当地法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`性价比之选`}</h4>
+                  <p className="text-sm text-blue-800">{`一家由老纺织工厂改造的设计旅舍，位于运河边，工业风的 loft 房间保留了原始的砖墙和高挑天花板，公共厨房里总能碰到来自世界各地的有趣背包客。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`藏身于市集广场拱廊后的家庭式精品酒店，房间不多但每一间都以一位狂欢节传奇人物命名，装饰着相关的古董海报，老板会在早餐时给你讲最地道的城市八卦。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在城市边缘宁静公园内的新艺术风格庄园酒店，曾经是工业家的私人宅邸，拥有一个超美的室内泳池和花园露台，是狂欢节喧嚣后完美的避世休憩所。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`狂欢节专属`}</h4>
+                  <p className="text-sm text-purple-800">{`节日期限定的“节日公寓”，由当地人在自家老宅顶层阁楼改造，虽然设施简单，但位置极佳，推开窗就能看到游行队伍，沉浸感无与伦比。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "狂欢节期间的住宿需要提前至少半年预订，且价格会飙升数倍。平日则非常宽松。如果想体验最local的氛围，建议选择老城内的住宿，虽然夜晚可能从酒吧传来些许喧闹，但这才是真实的奥尔斯特。城市总体治安良好，但车站周边夜晚稍显冷清，步行时注意基本安全即可。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开奥尔斯特很久以后，我时常想起的不是某个具体的建筑轮廓，而是一种感觉。那是一种巨大的、健康的、属于普通人的生命力。在当今这个被算法和精致影像所塑造的世界里，很多旅行体验变得趋同且追求“上镜”。但奥尔斯特抗拒这种同化。它的高潮——狂欢节，是粗糙的、汗津津的、带着啤酒气息的，它不追求美观，追求的是真实的宣泄与联结。那种成千上万人为了一个自己才完全懂的本地笑话而哄堂大笑的场面，具有震撼人心的力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，你来这里，最终学到的可能不是一段清晰的艺术史，而是一种生活哲学：如何与历史共存，如何在创伤后依然选择欢笑，如何用一年中最疯狂的三天，来定义另外三百六十二天的平静。这座拥有比利时最古老市政厅的城市，用它最年轻、最躁动的节日，向我们展示了历史不是僵死的陈列，而是可以舞蹈、可以讽刺、可以被普通人重新演绎的活生生的传统。它或许不够优雅，但绝对真实；它或许不够安静，但充满温度。对于一个寻找深度体验的旅人来说，这种真实与温度，比任何完美的明信片风景都更为珍贵。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/oudenaarde-tapestry-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥德瓦尔德</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Oudenaarde</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/arlon-roman-archaeological-site" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔隆古罗马遗址</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arlon Roman Ruins</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/orval-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔瓦勒修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Orval Abbey</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

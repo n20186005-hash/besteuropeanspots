@@ -1,0 +1,247 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '哈特姆 Hattem｜漫步童话般的荷兰汉萨古城与安东·皮克博物馆 - 最佳欧洲景点',
+  description: '车子驶离主干道，钻入一片浓密的绿荫，当阳光再次洒下来时，眼前突然出现了一幅宛如立体绘本的画面：一道深深的、泛着绿波的护城河环抱着一排红砖城墙，一座有着尖尖屋顶和高耸塔楼的石砌城门——迪克波特，像一位沉默而忠诚的卫士，跨在水面上。水面上天鹅和野鸭的倒影被微风揉碎，远处一架古老的风车缓缓转动着叶片。那一',
+}
+
+export default function HattemHanzeTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '海尔德兰省（艾瑟尔河畔）', href: '/destinations/europe' },
+            { label: '哈特姆', href: '/attractions/hattem-hanze-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`哈特姆・Hattem・荷兰・海尔德兰省（艾瑟尔河畔）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子驶离主干道，钻入一片浓密的绿荫，当阳光再次洒下来时，眼前突然出现了一幅宛如立体绘本的画面：一道深深的、泛着绿波的护城河环抱着一排红砖城墙，一座有着尖尖屋顶和高耸塔楼的石砌城门——迪克波特，像一位沉默而忠诚的卫士，跨在水面上。水面上天鹅和野鸭的倒影被微风揉碎，远处一架古老的风车缓缓转动着叶片。那一瞬间，你几乎能听到历史的书页被轻轻翻开的脆响。这里没有阿姆斯特丹的喧嚣，只有护城河水轻轻拍打岸边的声音，和自行车铃铛偶尔划破空气的清脆。
+穿过城门拱洞，就像穿过了一条时光隧道。脚下是中央微微凹陷、被无数双脚打磨得光滑发亮的鹅卵石路。空气里有一股好闻的复合香气：从面包房飘出的新鲜焦糖华夫饼（stroopwafel）的甜腻，混合着老木头、潮湿石头和河边青苔的清新土腥味。街道窄窄的，两边是色彩柔和、肩并肩挤在一起的房子，巧克力棕、奶油黄、陶土红，每一扇窗台上都必然摆放着盛放的天竺葵或郁金香，窗帘拉开一半，仿佛主人刚刚离开。你会看到头发花白的老先生慢悠悠地蹬着自行车从你身边过去，车篮里装着刚买的长棍面包；咖啡馆露天座上，几个人端着小小的咖啡杯，可以闲聊一个下午。
+而让这座小镇骨子里透出魔力的，是无所不在的童话感。这感觉并非来自迪士尼式的营造，而是源于一位深爱此地的画家——安东·皮克。他的插画塑造了荷兰人对于“ gezellig”（温馨惬意）和传统生活的全部想象。在哈特姆，他画笔下那些戴着高帽的绅士、穿着长裙的妇人、冒着蒸汽的老火车、点着煤气灯的小店，似乎都从画纸里走了出来，变成了你眼前的现实。小镇的灵魂，一半是坚实厚重的历史砖石，另一半便是这轻盈美妙的童话笔触，两者交融得如此自然，让你忍不住微笑，脚步也自然而然地慢了下来。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子驶离主干道，钻入一片浓密的绿荫，当阳光再次洒下来时，眼前突然出现了一幅宛如立体绘本的画面：一道深深的、泛着绿波的护城河环抱着一排红砖城墙，一座有着尖尖屋顶和高耸塔楼的石砌城门——迪克波特，像一位沉默而忠诚的卫士，跨在水面上。水面上天鹅和野鸭的倒影被微风揉碎，远处一架古老的风车缓缓转动着叶片。那一瞬间，你几乎能听到历史的书页被轻轻翻开的脆响。这里没有阿姆斯特丹的喧嚣，只有护城河水轻轻拍打岸边的声音，和自行车铃铛偶尔划破空气的清脆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "穿过城门拱洞，就像穿过了一条时光隧道。脚下是中央微微凹陷、被无数双脚打磨得光滑发亮的鹅卵石路。空气里有一股好闻的复合香气：从面包房飘出的新鲜焦糖华夫饼（stroopwafel）的甜腻，混合着老木头、潮湿石头和河边青苔的清新土腥味。街道窄窄的，两边是色彩柔和、肩并肩挤在一起的房子，巧克力棕、奶油黄、陶土红，每一扇窗台上都必然摆放着盛放的天竺葵或郁金香，窗帘拉开一半，仿佛主人刚刚离开。你会看到头发花白的老先生慢悠悠地蹬着自行车从你身边过去，车篮里装着刚买的长棍面包；咖啡馆露天座上，几个人端着小小的咖啡杯，可以闲聊一个下午。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而让这座小镇骨子里透出魔力的，是无所不在的童话感。这感觉并非来自迪士尼式的营造，而是源于一位深爱此地的画家——安东·皮克。他的插画塑造了荷兰人对于“ gezellig”（温馨惬意）和传统生活的全部想象。在哈特姆，他画笔下那些戴着高帽的绅士、穿着长裙的妇人、冒着蒸汽的老火车、点着煤气灯的小店，似乎都从画纸里走了出来，变成了你眼前的现实。小镇的灵魂，一半是坚实厚重的历史砖石，另一半便是这轻盈美妙的童话笔触，两者交融得如此自然，让你忍不住微笑，脚步也自然而然地慢了下来。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`哈特姆`} />
+                <InfoRow label="英文名称" value={`Hattem`} />
+                <InfoRow label="正式名称" value={`Hattem`} />
+                <InfoRow label="国家" value={`荷兰`} />
+                <InfoRow label="城市" value={`海尔德兰省（艾瑟尔河畔）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座保存极为完好的荷兰汉萨同盟城镇，是北方水运与贸易历史的活化石。`} />
+                <InfoRow label="建筑特色" value={`拥有完整的星形护城河、中世纪砖砌城墙与威严的城门，小巧的街道建筑充满童话般的倾斜屋顶与精致山墙。`} />
+                <InfoRow label="建筑风格" value={`以荷兰中世纪防御建筑风格为主，融合了晚期哥特式与文艺复兴时期的民居元素。`} />
+                <InfoRow label="文化价值" value={`完美体现了汉萨同盟时期的商业城镇格局，并因童话插画大师安东·皮克而成为荷兰人心中的“童梦之城”。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。主要景点如安东·皮克博物馆（Anton Pieck Museum）和哈特姆博物馆（Museum Hattem）的开放时间通常为周二至周日 11:00 - 17:00，周一闭馆（节假日除外）。标志性的迪克波特城门（Dijkpoort）塔楼在夏季（4月至10月）的周末下午常有向导带领登塔游览。具体时间请务必在行前查看官网，因为荷兰博物馆常有临时闭馆维护。`} />
+              <InfoRow label="门票价格" value={`漫步古城本身完全免费。安东·皮克博物馆成人票约12欧元，65岁以上长者及学生票约10欧元，13-18岁青少年约6欧元，12岁以下儿童免费。持有博物馆卡（Museumkaart）可免费入场。迪克波特城门登塔参观费用约3-4欧元，仅在开放时段现场购票。`} />
+              <InfoRow label="地址" value={`安东·皮克博物馆地址：Achterstraat 46-48, 8051 GC Hattem, Netherlands`} />
+              <InfoRow label="交通方式" value={`从阿姆斯特丹史基浦机场出发最方便。在机场火车站直接乘坐开往兹沃勒（Zwolle）方向的区间火车，约1小时15分钟抵达兹沃勒主火车站。在兹沃勒车站前的公交枢纽，换乘开往哈特姆的公交（如71路），车程约15-20分钟，班次通常每小时2-4班，非常频繁。建议使用OV-chipkaart（荷兰公共交通通用芯片卡）上下车刷卡支付，比单独购票更便捷划算。如果自驾，从阿姆斯特丹出发约1小时车程，古城外围有多个收费停车场，建议将车停在“P1 Stadhuis”然后步行进入。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "哈特姆的故事始于大约800年前。大约在12世纪左右，一些农民和渔民在艾瑟尔河这条重要的贸易水道旁定居下来，形成了一个小聚落。“Hattem”这个名字很可能源于一个叫“Hatto”的人，意为“Hatto的家园”。它的命运转折点在14世纪，凭借优越的水运位置，它加入了强大的汉萨同盟——一个遍布北欧的商业城市联盟。想象一下，当时这里的码头该有多繁忙，来自波罗的海的木材、毛皮，来自德意志的啤酒、金属，在这里装卸、交易。财富随之涌来，小镇有了建造防御工事的资本和必要。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，一圈坚实的城墙和护城河被建造起来，迪克波特城门便是那个时代的骄傲。它不仅是防御工事，更是彰显财富与身份的凯旋门。城门上的石雕、枪眼和厚重的木门，都在诉说着那个既充满机遇也遍布风险的时代。镇内的主要街道规划得笔直而实用，通向中心的集市广场，广场上的市政厅和称重房（Waag）管理着一切贸易往来。你可以想象戴着皮帽的商人在此大声议价，空气中弥漫着远洋货物特有的咸湿与香料气味。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，汉萨同盟的黄金时代并未永远持续。随着大航海时代开启，贸易中心南移，以及连绵的战争，哈特姆逐渐沉寂。它经历了西班牙统治时期的动荡，也在法国拿破仑军队的占领下吃过苦头。19世纪，它变成了一个安静的农业小镇，那些曾经骄傲的城墙甚至一度面临被拆除的命运，因为它们被认为阻碍了发展。幸运的是，理智与怀旧之情占了上风，它们被保留了下来，成为了今天我们所见的珍贵遗迹。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正让哈特姆在现代重获新生的，是20世纪的童话插画大师安东·皮克。他并非哈特姆本地人，却在一次造访后深深爱上了这里。他说，哈特姆就是他梦中荷兰小镇的样子。他笔下的世界温暖、怀旧、充满细节和幽默感，成为了荷兰圣诞出版物、童话书和甚至主题公园（如埃夫特琳）的视觉基石。1973年，为了存放和展示他海量的作品，安东·皮克基金会决定将博物馆设立在哈特姆。这个决定仿佛给小镇施了魔法，它从此与“童话”这个词永远绑定。如今，小镇不仅守护着中世纪的身体，也珍藏着20世纪最美好的童梦灵魂。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议用一个完整且悠闲的白天来品味哈特姆。最好在上午10点前抵达，这时旅行团还未涌入，晨光斜射在城墙上，护城河面平静如镜，是拍照和感受宁静氛围的黄金时间。整体游览节奏应如小镇的生活节奏一样“慢”。路线是一个自然而惬意的环形：从标志性的迪克波特城门进入，沿着护城河漫步半圈，参观核心的安东·皮克博物馆，随后钻入老城迷宫般的小巷，在集市广场歇脚，最后登上城墙或风车远眺，在夕阳时分回到城门附近。这样安排既能领略其防御体系的宏观格局，又能深入其充满生活气息和艺术魅力的肌理。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇石板路和鹅卵石路对行李箱和高跟鞋极不友好，务必穿上最舒适耐走的平底鞋。
+周六集市日（上午）广场会非常热闹，想感受本地生活可选此时，追求绝对宁静则避开。
+小镇居民友好但注重隐私，拍照时请尽量避免将镜头直接对准人家窗户或私人庭院。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨先从城外开始，沿着绿草如茵的护城河堤漫步，从各个角度欣赏迪克波特城门在水中的完美倒影和风车的剪影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`伸手触摸迪克波特城门那冰凉而粗糙的砂岩墙壁，穿过幽暗的拱门洞，想象几个世纪前马车辘辘驶过的回声。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在安东·皮克博物馆里花上一两个小时，让自己完全沉浸在那数以千计细腻温暖的原画、模型和复古收藏品之中，找回童年的好奇心。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`随意拐进一条名为“Achterstraat”或“Kerkstraat”的安静小巷，仰头看那些歪歪扭扭的山墙和古老街灯，用脚步丈量鹅卵石的起伏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在集市广场（Markt）边的咖啡馆外找把椅子坐下，点一杯咖啡配一块苹果派，看着市政厅的钟楼，听整点钟声清越地敲响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要推开“Het Gelders Bakhuys”老面包房的门，让新鲜烘焙的奶油曲奇和香料饼（speculaas）的浓郁香气包裹你，买上一袋边走边吃。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻着咯吱咯吱的声音找到位于城墙边的“De Fortuin”风车，如果它正在转动，不妨进入内部看看古老的磨盘如何工作。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前爬上小镇西北段修复完好的城墙步道，从这里俯瞰红色的屋顶、远处的艾瑟尔河与无垠的绿色平原，看夕阳把一切染成金色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`迪克波特城门护城河倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，站在城门西北侧的河岸边，等待无风时刻，利用水面拍摄城门与风车的完整对称倒影，构图力求简洁。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城门拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，站在城门内侧的阴影里，以拱门为画框，拍摄门外阳光下绿树、河水和骑自行车路人的生动街景，形成明暗对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`风车与老城屋顶全景`}</h4>
+                  <p className="text-sm text-gray-700">{`从“P1 Stadhuis”停车场附近的小坡上，用长焦镜头压缩空间，将转动的风车叶片与一片片巧克力棕色的阶梯式山墙屋顶纳入同一画面，最佳时间是下午侧光时。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`安东·皮克博物馆窗边`}</h4>
+                  <p className="text-sm text-gray-700">{`博物馆内靠窗的座位区域，下午的阳光透过蕾丝窗帘，在你面前的古董桌椅上投下柔和光影，摆上一本博物馆画册，拍摄静物氛围感细节。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城墙落日剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，登上西北段城墙，以城墙的垛口为前景，拍摄远处风车、教堂尖顶和漫天彩霞的剪影，人物可以小小地融入其中。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`建议携带一支变焦范围较大的镜头，便于在狭窄街道拍摄建筑细节和在城墙拍摄广阔远景。`}</li>
+                <li>• {`博物馆内部允许拍照，但严禁使用闪光灯和三脚架，请调高相机感光度（ISO）以捕捉室内温暖光线。`}</li>
+                <li>• {`拍摄当地居民或商店主人时，一个微笑和简单的手势询问会让他们更乐意配合你的镜头。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`运河边温馨民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`住在护城河沿岸一栋17世纪的老房子里，房东会为你准备好早餐篮，清晨在私人小码头边享用咖啡，看天鹅从窗前游过。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`古城门旁的精品酒店`}</h4>
+                  <p className="text-sm text-green-800">{`由历史建筑改造，房间拥有裸露的原始木梁和现代设计家具，部分房间的窗口正对着迪克波特城门，夜晚亮灯后的景色宛如童话剧舞台。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`郊外庄园静修处`}</h4>
+                  <p className="text-sm text-yellow-800">{`距离小镇仅2公里的一座19世纪庄园，被大片森林和草地环绕，提供豪华客房和自行车，适合追求极致宁静与自然气息的旅人。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`艺术家工作室客栈`}</h4>
+                  <p className="text-sm text-purple-800">{`老城中心一间由画家工作室改造的小型客栈，装饰充满艺术感，店主会热情地为你推荐本地人才知道的隐秘角落和家庭式餐馆。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "哈特姆住宿资源有限，尤其在夏季和周末，务必提前数周甚至数月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇极其安全且夜间异常安静，能享受到真正的沉睡，但喜欢夜生活的游客可能会觉得过于沉寂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "许多民宿不提供全天候前台服务，需提前与房东确认入住交接的具体时间。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开哈特姆的时候，我的背包里没有多出什么纪念品，但心里却好像被填得满满的。那种感觉，不是看了多么震撼奇观的激动，而是一种被温柔安抚后的平和。在这个一切都追求“更快”、“更大”、“更刺激”的世界里，哈特姆固执地守护着一种“小而美”的哲学。它告诉你，历史不一定是教科书上枯燥的年份，它可以是一道仍能跨过的城门，一块被踩得发亮的石头；美好也不一定在遥远的彼岸，它就在面包房飘出的香气里，在窗台上一盆精心打理的花卉中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了标准化的旅游打卡，如果你心里还住着一个相信童话的孩子，或者你只是想找一个地方，让紧绷的神经彻底松弛下来，那么，请来哈特姆。它可能不会让你热血沸腾，但它会像安东·皮克画中那位慈祥的老祖父，微笑着给你讲一个关于时间、石头与梦想的故事。在这里走一圈，你会带着一颗被熨帖过的心，重新爱上这个平凡却温暖的人间。这，或许就是深度旅行所能给予我们最珍贵的礼物。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kampen-hanza-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    坎
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">坎彭汉萨老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kampen Hanseatic Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sluis-zeeuws-vlaanderen" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯勒伊斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sluis</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/oudewater-witch-weighing-house" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥德瓦特女巫称重房</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Oudewater Witch Weighing House</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

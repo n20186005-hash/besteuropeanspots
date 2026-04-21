@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '韦尔斯 Wels｜马克西米利安一世最后的城堡与色彩明快的千年商镇 - 最佳欧洲景点',
+  description: '第一眼看到韦尔斯的主广场，你会忍不住“哇”出声来——不是因为震撼，而是因为一种扑面而来的、温暖的明媚。阳光洒在那些鹅黄、淡粉、薄荷绿和赭石色的巴洛克立面上，每一栋房子都像一块精心装饰的蛋糕，拱廊下的阴影里飘着刚煮好的咖啡和新鲜烤面包的香气。广场中央的喷泉潺潺作响，当地人推着自行车慢悠悠地路过，提着帆',
+}
+
+export default function WelsHistoricCenterPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '韦尔斯', href: '/destinations/europe' },
+            { label: '韦尔斯', href: '/attractions/wels-historic-center' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`韦尔斯・Wels・奥地利・韦尔斯`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到韦尔斯的主广场，你会忍不住“哇”出声来——不是因为震撼，而是因为一种扑面而来的、温暖的明媚。阳光洒在那些鹅黄、淡粉、薄荷绿和赭石色的巴洛克立面上，每一栋房子都像一块精心装饰的蛋糕，拱廊下的阴影里飘着刚煮好的咖啡和新鲜烤面包的香气。广场中央的喷泉潺潺作响，当地人推着自行车慢悠悠地路过，提着帆布袋从市集满载而归的老太太们站在街角闲聊。那种感觉，不像闯入了一个景区，而是像不小心走进了一幅仍然在呼吸的、关于中欧小镇幸福生活的风俗画。
+但只要你把视线从这些糖果色的房子上稍稍移开，往东边望去，故事的温度就骤然变化了。那里矗立着韦尔斯城堡深色的、近乎沉重的轮廓。它没有维也纳霍夫堡宫的恢弘，更像一个严肃的、穿着深色外套的老绅士，沉默地凝视着脚下这片欢快的广场。特劳恩河在城堡脚下静静流淌，河水倒映着城堡塔楼的影子，带出一种凉意。这种强烈的对比，正是韦尔斯最迷人的地方：一边是市井生活的勃勃生机与色彩，另一边是历史沉淀下来的、无法被鲜艳涂料覆盖的厚重与宿命感。
+你很快会发现，韦尔斯人早已习惯了这种共存。孩子们在广场喷泉边嬉戏，他们的笑声与几个世纪前回荡在城堡石廊里的帝国脚步声重叠。当地人最爱去的咖啡馆，可能就开在一栋有着五百年历史拱顶的地下室里。这里最打动人心的，正是这种“历史并非陈列在玻璃柜中，而是砌在每日生活的砖缝里”的真实感。马克西米利安一世在这里咽下最后一口气，但韦尔斯的生活从未因此而停滞，它只是把那段记忆像一枚古老的勋章一样，别在了自己鲜艳的衣襟上，然后继续向前走去。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一眼看到韦尔斯的主广场，你会忍不住“哇”出声来——不是因为震撼，而是因为一种扑面而来的、温暖的明媚。阳光洒在那些鹅黄、淡粉、薄荷绿和赭石色的巴洛克立面上，每一栋房子都像一块精心装饰的蛋糕，拱廊下的阴影里飘着刚煮好的咖啡和新鲜烤面包的香气。广场中央的喷泉潺潺作响，当地人推着自行车慢悠悠地路过，提着帆布袋从市集满载而归的老太太们站在街角闲聊。那种感觉，不像闯入了一个景区，而是像不小心走进了一幅仍然在呼吸的、关于中欧小镇幸福生活的风俗画。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但只要你把视线从这些糖果色的房子上稍稍移开，往东边望去，故事的温度就骤然变化了。那里矗立着韦尔斯城堡深色的、近乎沉重的轮廓。它没有维也纳霍夫堡宫的恢弘，更像一个严肃的、穿着深色外套的老绅士，沉默地凝视着脚下这片欢快的广场。特劳恩河在城堡脚下静静流淌，河水倒映着城堡塔楼的影子，带出一种凉意。这种强烈的对比，正是韦尔斯最迷人的地方：一边是市井生活的勃勃生机与色彩，另一边是历史沉淀下来的、无法被鲜艳涂料覆盖的厚重与宿命感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你很快会发现，韦尔斯人早已习惯了这种共存。孩子们在广场喷泉边嬉戏，他们的笑声与几个世纪前回荡在城堡石廊里的帝国脚步声重叠。当地人最爱去的咖啡馆，可能就开在一栋有着五百年历史拱顶的地下室里。这里最打动人心的，正是这种“历史并非陈列在玻璃柜中，而是砌在每日生活的砖缝里”的真实感。马克西米利安一世在这里咽下最后一口气，但韦尔斯的生活从未因此而停滞，它只是把那段记忆像一枚古老的勋章一样，别在了自己鲜艳的衣襟上，然后继续向前走去。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`韦尔斯`} />
+                <InfoRow label="英文名称" value={`Wels`} />
+                <InfoRow label="正式名称" value={`Wels`} />
+                <InfoRow label="国家" value={`奥地利`} />
+                <InfoRow label="城市" value={`韦尔斯`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座位于特劳恩河畔的千年商镇，因其富庶与战略地位，成为神圣罗马帝国皇帝马克西米利安一世生命旅程的终点，其逝世于此的城堡是帝国从中世纪迈向近代的关键地理坐标。`} />
+                <InfoRow label="建筑特色" value={`巴洛克的明快色彩与文艺复兴的严谨比例在广场立面上达成奇妙的和谐，而肃穆的晚期哥特式城堡遗迹则如同一个沉稳的黑色锚点，镇住了整片欢快的建筑乐章。`} />
+                <InfoRow label="建筑风格" value={`以主广场（Stadtplatz）为核心，呈现从晚期哥特式到文艺复兴，再到绚丽巴洛克立面的混搭风格，记录了其作为重要贸易中心数个世纪的繁荣与审美变迁。`} />
+                <InfoRow label="文化价值" value={`它不仅是一座“皇帝驾崩之地”的历史纪念碑，更是一个鲜活的上奥地利州商业与文化中心，其每周的市集、节庆和市民生活，完美体现了奥地利小镇那种扎根于历史又惬意于当下的市民精神。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`韦尔斯老城街道及广场全天开放。城市博物馆（Stadtmuseum）开放时间为周二至周五 9:00-18:00，周六 10:00-17:00，周日及节假日 10:00-16:00，周一闭馆。城堡遗址（Burg）的庭院部分可随时参观，内部历史展厅开放时间与博物馆同步，但冬季（11月至3月）部分室内区域可能缩短开放时间或仅限预约参观。主要节庆日如圣诞市场期间，广场区域会延长亮灯时间至晚上10点。`} />
+              <InfoRow label="门票价格" value={`漫步韦尔斯老城完全免费。城市博物馆及城堡历史展厅联合门票为成人8欧元，持学生证、老年证或团体票（10人以上）为6欧元，19岁以下青少年免费。每年5月18日国际博物馆日和9月最后一个周日奥地利文化遗产日，所有场馆免费开放。购买“上奥地利州文化卡”可在一年内无限次参观州内多家博物馆，包含韦尔斯景点，售价29欧元。`} />
+              <InfoRow label="地址" value={`Stadtplatz 1-70， 4600 Wels， Austria`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是林茨机场（Blue Danube Airport Linz），距离韦尔斯约25公里。从机场可搭乘出租车（约35分钟，车费50-60欧元）或乘坐机场巴士至林茨中央火车站（Linz Hbf），再转乘区域火车。从林茨中央火车站出发最为便捷：乘坐开往韦尔斯或萨尔茨堡方向的区域快车（Regional-Express， RE），车程仅15-20分钟，班次密集，高峰时段每15-20分钟一班，单程票价约5欧元。从维也纳中央火车站（Wien Hbf）出发，乘坐直达的城际列车（IC）或高速列车（RJ），约1小时15分钟可达韦尔斯，建议提前在奥地利联邦铁路（ÖBB）官网或App购票，常有折扣。到达韦尔斯火车站后，老城核心区就在正南方，步行穿过特劳恩河上的小桥，仅需10分钟即可抵达色彩斑斓的主广场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要说清楚韦尔斯的故事，特劳恩河是第一个主角。早在罗马帝国时期，这条河就是重要的交通动脉，一个名为“Ovilava”的定居点在此兴起。但真正让韦尔斯在历史地图上变得不可忽视的，是它在中世纪作为盐与谷物贸易枢纽的身份。来自萨尔茨卡默古特地区的盐，和上奥地利肥沃平原产的粮食，在这里交换、集散，财富随之滚滚而来。你可以想象一下，十二、三世纪的时候，这个广场上挤满了来自各地的商人，马车辚辚，各种语言交织，空气中是牲畜、香料和潮湿木头的味道。有钱了，就要盖房子，要彰显地位，于是那些最初简陋的木结构房屋，逐渐被石质的、带有精美拱廊的文艺复兴式建筑取代，城市的雏形和自信就此奠定。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，让韦尔斯意外地镌刻进帝国史册的，并非持续的繁荣，而是一次充满悲剧色彩的“路过”。时间来到1519年，神圣罗马帝国皇帝马克西米利安一世，那位被称为“中世纪最后一位骑士”的传奇君主，已经年迈体衰。他在因斯布鲁克附近的旅途上病重，却坚持要前往他的领地林茨。韦尔斯，这座他治下富庶的城镇，成了他生命旅程无法逾越的终点站。他被抬进了当时韦尔斯城堡——一座坚固的晚期哥特式建筑——的房间里。关于他生命最后几天的记载充满了戏剧性：他自知大限将至，却依然保持着帝王的尊严，处理政务，安排后事。城堡那个冰冷的石室，见证了一个旧时代（骑士精神与中世纪）随着这位皇帝的呼吸一同缓缓消逝。他的死，仿佛一个时代的句点，也让韦尔斯城堡从一个地方贵族的居所，一跃成为了帝国历史的一个关键坐标。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "马克西米利安一世死后，韦尔斯继续着它作为贸易重镇的命运。十七、十八世纪，巴洛克之风席卷奥地利，韦尔斯的商贾和贵族们显然也追逐着这股时尚。但他们没有推倒重来，而是在原有文艺复兴建筑的结构上，进行了华丽的“换脸手术”。于是，我们今天看到的奇迹出现了：原本方正、理性的文艺复兴立面，被曲线优美的巴洛克山花墙、栩栩如生的灰泥雕塑和明媚愉悦的色彩覆盖。这就像给一位严肃的学者穿上了一件华丽的丝绸外套，内在的骨架依然严谨，外表却变得热情洋溢。这种叠加，恰恰是韦尔斯实用主义与艺术情感结合的完美体现。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史的考验并未结束。第二次世界大战的炸弹曾落在这里，摧毁了部分老建筑。但战后，韦尔斯人做出了一个了不起的决定：修复，但不是凭空复古。他们仔细清理废墟，依据照片和历史图纸，一砖一瓦地重建了那些彩色的立面，让广场恢复了战前的容貌。同时，他们也没有试图掩盖伤疤，城堡部分残留的、未经过多修饰的墙体，就是那段历史的沉默见证。今天的韦尔斯，于是成为一个层次极其丰富的文本：罗马的基石、中世纪的贸易基因、文艺复兴的骨架、巴洛克的妆容、战争的伤痕，以及战后重生的生命力，全部清晰可辨。它没有在某个辉煌时刻凝固，而是一直在生长、覆盖、修复，成为一个活着的历史剖面。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`我强烈建议你在一个晴朗的下午抵达韦尔斯，把主要游览时间放在午后到黄昏。这样安排，既能避开上午可能存在的旅游团，又能享受到午后阳光将那些巴洛克立面渲染得金光灿灿的魔法时刻，最终在城堡遗址旁迎接特劳恩河上的美丽日落。整体游览节奏应是从历史的重磅冲击（城堡）开始，逐步沉浸到市井的轻松愉悦（广场与街巷）中，全程步行，耗时大约4-5小时，是一场恰到好处的时空漫步。傍晚时分，广场周围的餐厅和酒馆亮起温暖的灯光，正是体验当地夜生活的最佳时机。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`广场上的餐厅和咖啡馆对于游客来说价格稍高，往旁边的小街巷里走五十米，往往能找到性价比更高、本地人更常光顾的馆子。参观教堂时请保持安静，尤其是周末可能有礼拜活动。夏季的韦尔斯夜晚常有小型露天音乐会或市集，信息可以提前在市政厅门口的布告栏查看。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来，先别急着奔向广场，不妨绕一点路沿着特劳恩河东岸走，从河对岸完整眺望那座深色城堡与背后明快老城形成的戏剧性天际线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过小桥，直接走向城堡庭院，用手触摸那些冰凉粗糙的石壁，站在据说皇帝病榻所在的塔楼下，感受历史本身的重量与寂静。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡安静的侧门出来，让自己迷失在通往主广场的弯曲小巷里，留意那些门楣上的古老徽记、庭院里探出的玫瑰和地面被岁月磨光的圆石。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在主广场（Stadtplatz）找一张喷泉边的长椅坐下，什么都不做，只是看鸽子起落、行人穿梭，让眼睛饱览四周色彩的交响乐，直到你几乎能分辨出每一栋房子的性格。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`务必在广场北侧寻找那栋标记着“皇帝之死”的房子（Kaiserhaus），抬头看它朴素的文艺复兴窗户，想象1519年那个寒冷的正月，与一墙之隔的喧闹市集形成多么残酷的对比。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进装饰华丽的市政厅（Rathaus），即使不参观内部，也看一眼它中庭的拱廊和壁画，这里是感受小镇自治精神与市民骄傲的核心。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`让脚步带你走进圣若望教堂（St. Johannes Kirche），让眼睛适应内部的昏暗，然后欣赏那精美的晚期哥特式肋状拱顶和绚丽的彩色玻璃。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，在日落前回到特劳恩河边，找一家有临河座位的传统酒馆（Heuriger），点一杯本地产的白葡萄酒，看着夕阳把城堡的剪影和流淌的河水染成金色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`特劳恩河东岸草地`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，以平静的河水为前景，拍摄城堡与老城建筑群的完整倒影，使用长焦镜头压缩空间感，能得到一幅古典油画般的作品。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`站在城堡内院的拱形门洞下，将镜头对准门外色彩斑斓的广场建筑，让深色的石拱成为天然画框，强烈对比下框中的巴洛克世界如同一个梦幻舞台。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`市政厅二楼窗口视角`}</h4>
+                  <p className="text-sm text-gray-700">{`如果市政厅开放，设法来到二楼面向广场的窗口，从这里俯拍广场全景和放射状的街道，能获得最具“小镇心脏”感的构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣若望教堂内部仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午光线从西侧窗户射入时，站在中殿中央，广角镜头垂直向上，捕捉哥特式肋拱顶向上延伸的震撼线条与神圣光影。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`莱德巷（Lederergasse）光影长廊`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，阳光斜射进这条狭窄的古老皮匠街，拍摄光影在凹凸不平的墙面上切割出的明暗几何图案，极具氛围感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`黄昏时的“蓝色时刻”（日落后天空呈深蓝色但尚未全黑时）是拍摄城堡灯光与深蓝天幕对比的绝佳时机，记得带上三脚架。使用无人机在韦尔斯老城上空拍摄需要特别许可，务必提前查询当地法规。在教堂内拍摄请务必关闭闪光灯和快门声音，以示尊重。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济舒适之选`}</h4>
+                  <p className="text-sm text-blue-800">{`火车站附近由家族经营的“火车头旅馆”，房间简洁干净，老板能提供最地道的游玩小贴士，早餐的 homemade 果酱是一绝。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`历史中心体验`}</h4>
+                  <p className="text-sm text-green-800">{`主广场旁边一栋经过智能改造的16世纪老建筑里的精品酒店，古老木梁与现代设计碰撞，部分房间的小阳台直接俯瞰热闹的广场街景。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`宁静河畔庄园`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于特劳恩河上游一点、被绿树环绕的19世纪庄园改建的酒店，房间宽敞充满古典气息，带一个绝美的花园，适合想要彻底放松的旅人。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`本地生活融入`}</h4>
+                  <p className="text-sm text-purple-800">{`老城边缘一栋公寓楼里的设计师民宿，由一对建筑师夫妇打理，装修风格现代明亮，厨房设施齐全，让你能像本地人一样去市集买菜做饭。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "韦尔斯的治安非常好，即使夜晚独行在老城也很安全。如果计划在夏季音乐节或圣诞市场期间到访，务必提前至少两个月预订住处，因为这些时候小镇会变得格外受欢迎。住在主广场附近虽然方便，但周五周六夜晚可能能听到一些酒吧传来的隐约欢笑声，如果你睡眠很轻，可以选择靠河或靠居民区一侧的房间。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开韦尔斯的时候，我脑子里反复回响的不是某段具体的历史，而是一种感觉。那是一种“韧性”的感觉。这座小镇经历了帝国的兴衰、战争的炮火、经济的起落，但它没有被任何一个标签钉死——没有仅仅成为“皇帝驾崩地”的苍白符号，也没有在战后的重建中失去自己的灵魂。它像特劳恩河一样，知道如何承载重量（历史），也知道如何轻盈地流淌（生活）。那些明亮的色彩，不是对历史的涂抹，而是在承认所有伤痕之后，依然选择拥抱阳光和欢庆的生命态度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求“网红地标”和“极致体验”的快节奏旅行时代，韦尔斯提供了一种截然不同的价值。它邀请你慢下来，坐在一张长椅上发呆，看日常生活的河流如何漫过历史的河床。它不试图用宏伟震撼你，而是用那种深厚的、层叠的、依然在呼吸的“真实感”来触动你。在这里，你能同时触摸到死亡的肃穆与生命的绚烂，听到帝国的余响与市集的喧闹，它们不是对立，而是交织成了一首复杂的、关于时间与存在的复调音乐。对于每一位厌倦了浅尝辄止、渴望在旅行中感受到历史脉搏与生活温度的人来说，韦尔斯都是一个不容错过的心灵驿站。它告诉你，最好的欧洲深度游，不仅是去看那些名声在外的奇迹，更是去发现这些连接着过去与现在、沉重与轻盈的，活生生的小世界。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/burg-kreuzenstein" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克罗伊岑施泰因城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Burg Kreuzenstein</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/melk-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    梅
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅尔克修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Melk Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/hardegg-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈德格城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hardegg Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

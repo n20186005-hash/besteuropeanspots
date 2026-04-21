@@ -1,0 +1,147 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '捷克利托米什尔历史溯源｜文艺复兴刮画城堡与斯美塔那故乡的前世今生',
+  description: '探秘捷克隐秘的文艺复兴明珠利托米什尔。走进世界遗产刮画城堡，追寻音乐家斯美塔那的童年足迹，聆听一座小城凝固在墙壁与音符中的百年传奇。',
+}
+
+export default function LitomyslCastleHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '帕尔杜比采州', href: '/destinations/europe' },
+            { label: '利托米什尔', href: '/attractions/litomysl-castle-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`利托米什尔・Litomyšl・捷克・帕尔杜比采州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在捷克东部，有一座城，它的名字被镌刻在两项世界遗产名录之中：一项是石头的史诗——<strong>利托米什尔城堡</strong>，另一项是声音的诗篇——作曲家<strong>贝德里赫·斯美塔那</strong>的故乡。这里没有布拉格的喧嚣，却拥有东波希米亚最精致的文艺复兴面孔与最丰沛的音乐灵魂。城堡外墙8000多幅无一雷同的“刮画”诉说着贵族的美学执念，而广场石板路则回响着《我的祖国》最初的和声。抛开游玩攻略，走进利托米什尔的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`利托米什尔`} />
+                <InfoRow label="英文名称" value={`Litomyšl`} />
+                <InfoRow label="正式名称" value={`Litomyšl`} />
+                <InfoRow label="国家" value={`捷克`} />
+                <InfoRow label="城市" value={`帕尔杜比采州`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "利托米什尔的源头，深藏在<strong>10世纪</strong>的密林与传说中。相传，一位名为“利托米什尔”的骑士在此建立了定居点，城市便以他为名。但更确凿的历史曙光，出现在<strong>12世纪</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1143年</strong>，一队西多会的修士来到了这片河谷。他们受命于波希米亚的统治者，在此建立了一座修道院。修道院不仅是信仰的中心，更是当时先进的农业、文化与建筑技术的枢纽。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座<strong>西多会修道院</strong>，正是利托米什尔城市的真正奠基者。修士们开垦土地，引入规划，吸引了手工业者和商人在周边聚集。拉丁语文献中，这里最早被称为“Litemisl”，逐渐演变为今天的“Litomyšl”。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "古老的编年史中模糊地记载：“在森林与河流之间，他们（西多会修士）建立了一座献给圣母玛利亚的修道院，那里将成为新的光之源。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "到了<strong>13世纪后期</strong>，利托米什尔的重要性日益凸显，被提升为皇家城镇。其地理位置处于波希米亚与摩拉维亚的历史商道上，滋养了它的繁荣。然而，城市的命运在随后几个世纪里，将与一个家族的雄心紧紧捆绑，并最终在<strong>16世纪</strong>迎来震惊世人的华丽蜕变。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "利托米什尔的历史肌理上，有两道最深刻的印记。一道是<strong>文艺复兴的辉煌馈赠</strong>，另一道是<strong>启蒙时代的荣耀来访</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一道印记，便是那座无可替代的城堡。<strong>1568年</strong>，权倾一时的捷克贵族<strong>弗拉蒂斯拉夫·佩尔恩施泰因</strong>，决定在此兴建一座配得上其家族地位的宅邸。他选择了当时风靡中欧的<strong>文艺复兴风格</strong>，但要求做到极致。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "建筑师们没有采用常见的湿壁画，而是运用了一种极为复杂耗时的手法——“<strong>刮画</strong>”。工匠先在墙壁上涂抹深色底层，再覆盖浅色灰浆，在灰浆未干时，用工具“刮”出图案，露出深底，形成永恒的浮雕式装饰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "整个城堡外立面，被创作了<strong>八千多幅</strong>刮画图案。神话场景、寓言故事、几何纹样，<strong>无一重复</strong>。这不仅是一座宫殿，更是一本石头上的“露天人文主义百科全书”，彰显着主人的学识、财富与艺术品味。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "城堡档案中记载着对工匠的苛刻要求：“图案需具教益与美感，每一幅都应是独一的创造，以彰显永恒与卓绝。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二道深刻印记，发生在<strong>1754年</strong>。奥地利的<strong>玛丽亚·特蕾莎</strong>女皇，在前往布拉格的加冕途中，决定驻跸利托米什尔城堡。这对小镇是至高无上的荣耀。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "全城为迎接女皇进行了疯狂准备。城堡内饰被翻新，剧院紧急排演新剧，街道铺上了崭新的砂石。女皇在此停留了三天，她的到来，如同一道强光，照亮了这座偏居一隅的小城，极大地提升了其在帝国版图中的知名度与政治地位。这次访问，也被视为利托米什尔文化黄金时代的顶峰象征。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "若论与利托米什尔血脉相连的名人，有且只有一个名字：<strong>贝德里赫·斯美塔那</strong>。这位被誉为“捷克民族音乐之父”的巨匠，<strong>1824年3月2日</strong>就出生在城堡酿造厂的一间公寓里——他的父亲是城堡的酿酒师。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>斯美塔那的童年记忆</strong>，深深植根于这座小城的每一个角落。城堡巍峨的轮廓是他眼中的日常，圣器街的石板路是他奔跑的乐谱。他在自传中回忆，最早的音乐启蒙来自于父亲演奏的舞曲，以及当地教堂的钟声与管风琴。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "斯美塔那在晚年写道：“我生命最初的音符，是在利托米什尔的空气中学会的。城堡的阴影、广场的喷泉、学校钟楼的声响，构成了我内心的原始节奏。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "尽管<strong>11岁</strong>后他便离开故乡前往外地求学，但利托米什尔塑造了他最初的民族情感与艺术敏感。他的不朽交响诗套曲《<strong>我的祖国</strong>》，其中第二乐章《伏尔塔瓦河》那潺潺流动、汇成壮阔江河的旋律意象，很难说没有故乡萨扎瓦河支流给他留下的灵感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "更直接的联系是他创作的第一部歌剧《<strong>勃兰登堡人在波希米亚</strong>》，其剧本背景就取材于利托米什尔地区的历史事件。音乐中饱含的对波希米亚土地的热爱，源头正是这座小城。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "斯美塔那的传奇并未随他的离去而终结。<strong>1924年</strong>，在他百年诞辰之际，一项伟大的传统在利托米什尔诞生——<strong>“斯美塔那的利托米什尔”国际歌剧节</strong>。这是捷克最古老、最负盛名的古典音乐节之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "每年夏天，来自全球的顶尖艺术家汇聚于此，在城堡那精美的<strong>18世纪古典剧院</strong>（世界遗产的一部分）里，专门上演斯美塔那的歌剧及其他捷克作曲家的作品。音乐节让利托米什尔从一座静止的历史博物馆，变成了一个跳动的、活着的音乐心脏。斯美塔那的灵魂，仿佛每年此时都会归来，再次充满这座城的街巷。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "除了正史与名人，利托米什尔的砖石间还游荡着神秘的精灵。其中最著名的，是关于城堡的守护精灵——<strong>“棕仙”</strong> 的传说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "不同于可怕的地精，棕仙被认为是善良、勤快但略带调皮的小精灵。传说在佩尔恩施泰因家族建造和居住于城堡期间，就有一位棕仙在此安家。它会在夜间帮助诚实的仆人们完成未竟的杂活，比如擦拭银器、打扫厨房角落，或是为马厩里的马匹梳理鬃毛。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但它性情敏感，厌恶懒惰与欺骗。作为回报，人们只需要在厨房角落为它留下一小碟牛奶或一块面包。如果遗忘或吝啬，它就会施展恶作剧：藏起钥匙、弄乱线团，或在寂静的夜晚发出恼人的敲击声。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "当地老仆人中流传着这样的告诫：“永远要尊重看不见的居住者。当你听到地窖里传来细微的沙沙声，那或许是棕仙在巡视他的领地。留下一份小小的感激，安宁便会降临全家。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说代代相传，甚至融入了当地的文化中。如今，在利托米什尔的旅游纪念品店里，你常能看到棕仙可爱形象的玩偶或装饰。它不再是一个令人畏惧的未知存在，而成为了这座城市亲切、幽默、充满烟火气的守护神象征，连接着宏伟城堡与普通百姓的日常生活。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的利托米什尔，是一座行走的“立体历史书”。它的每一页，都由刮画的纹路、歌剧的咏叹调和卵石路的凹凸共同书写。来到这里，你触摸的不是冰冷的景点，而是一段连续了几个世纪的生命脉搏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡是文艺复兴人文精神的物质结晶，斯美塔那是捷克民族觉醒的声音化身，而棕仙的传说则是民间朴素世界观的温情遗存。这三者奇妙地共存于同一片天空下，让利托米什尔超越了单纯的美景，成为一处能让人深刻感知中欧历史层次与精神渊源的秘境。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂这座城，便读懂了波希米亚大地如何在贵族美学、民族情感与民间信仰的交织中，塑造出自己独特而坚韧的灵魂。它提醒我们，真正的伟大，往往诞生于专注与热爱，正如那些精心刮擦的墙壁，和从酿酒房飘向世界的音符。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/dacice-bohemia-sugar-birthplace" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    达
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">达奇采</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Dačice</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/karlova-koruna-chateau" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔洛瓦科鲁纳城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Karlova Koruna Chateau</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/holasovice-historic-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    霍
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">霍拉索维采历史村落</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Holašovice</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

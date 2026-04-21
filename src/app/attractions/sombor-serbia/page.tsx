@@ -1,0 +1,242 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '松博尔 Sombor｜塞尔维亚最绿之城，奥匈帝国的黄色时光胶囊 - 最佳欧洲景点',
+  description: '说实话，在来到松博尔之前，我对“塞尔维亚最绿城市”这个称号没什么概念。直到我的大巴缓缓驶离主干道，进入它的林荫道——那一瞬间，我仿佛不是进入一座城，而是跌进了一个巨大的、活着的绿色穹顶。道路两旁是遮天蔽日的百年悬铃木和椴树，阳光被滤成碎金，洒在脚下。空气里有刚修剪过的草地清香，混合着远处咖啡馆飘来的',
+}
+
+export default function SomborSerbiaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞尔维亚', href: '/destinations/europe' },
+            { label: '松博尔市', href: '/destinations/europe' },
+            { label: '松博尔', href: '/attractions/sombor-serbia' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`松博尔・Sombor・塞尔维亚・松博尔市`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，在来到松博尔之前，我对“塞尔维亚最绿城市”这个称号没什么概念。直到我的大巴缓缓驶离主干道，进入它的林荫道——那一瞬间，我仿佛不是进入一座城，而是跌进了一个巨大的、活着的绿色穹顶。道路两旁是遮天蔽日的百年悬铃木和椴树，阳光被滤成碎金，洒在脚下。空气里有刚修剪过的草地清香，混合着远处咖啡馆飘来的咖啡醇香。第一个撞进眼睛的颜色，是那种温暖的、像融化中蜂蜜一样的黄色。一整排，一整街，一整片城区，建筑们都穿着这身“松博尔黄”的衣裳，在绿树的环抱中，安静地发着光。这里没有急匆匆的脚步，只有自行车铃声叮铃铃掠过，和坐在长椅上读报老人的翻页声。
+我沿着弗兰卡·拉迪切瓦街慢慢走，感觉时间像这里的树影一样被拉长了。松博尔不是用来“看”的，是用来“生活”的。它的核心魅力，就在于这种近乎奢侈的宁静与秩序感。你会看到老太太们提着菜篮从巴洛克式的门洞里出来，隔壁画廊的年轻画家靠在黄色的墙边抽烟，孩子们在巨大的城市公园里追逐。艺术和生活没有界限，历史和当下温柔共存。那座收藏了无数珍宝的米兰·科尼奥维奇美术馆，外表看起来也就是一栋漂亮的黄房子，谦逊地站在街角，等着你去推开它那扇不起眼的门。
+最打动人的，是那种深入骨髓的“绿”。这不仅仅是树多，更是一种城市哲学。这里有精心维护的公园、庭院里的果树、窗台上的天竺葵，甚至每条小巷的尽头，似乎都通往一片小小的绿洲。水渠在城中静静流淌，倒映着黄色的墙壁和绿色的树冠。你坐在市中心广场的咖啡馆，喝着一杯浓得化不开的土耳其咖啡，听着周围低低的塞尔维亚语交谈声，忽然就明白了：松博尔守护的，是一种失传已久的生活节奏，一种让心灵和眼睛都得到深呼吸的可能。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说实话，在来到松博尔之前，我对“塞尔维亚最绿城市”这个称号没什么概念。直到我的大巴缓缓驶离主干道，进入它的林荫道——那一瞬间，我仿佛不是进入一座城，而是跌进了一个巨大的、活着的绿色穹顶。道路两旁是遮天蔽日的百年悬铃木和椴树，阳光被滤成碎金，洒在脚下。空气里有刚修剪过的草地清香，混合着远处咖啡馆飘来的咖啡醇香。第一个撞进眼睛的颜色，是那种温暖的、像融化中蜂蜜一样的黄色。一整排，一整街，一整片城区，建筑们都穿着这身“松博尔黄”的衣裳，在绿树的环抱中，安静地发着光。这里没有急匆匆的脚步，只有自行车铃声叮铃铃掠过，和坐在长椅上读报老人的翻页声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我沿着弗兰卡·拉迪切瓦街慢慢走，感觉时间像这里的树影一样被拉长了。松博尔不是用来“看”的，是用来“生活”的。它的核心魅力，就在于这种近乎奢侈的宁静与秩序感。你会看到老太太们提着菜篮从巴洛克式的门洞里出来，隔壁画廊的年轻画家靠在黄色的墙边抽烟，孩子们在巨大的城市公园里追逐。艺术和生活没有界限，历史和当下温柔共存。那座收藏了无数珍宝的米兰·科尼奥维奇美术馆，外表看起来也就是一栋漂亮的黄房子，谦逊地站在街角，等着你去推开它那扇不起眼的门。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人的，是那种深入骨髓的“绿”。这不仅仅是树多，更是一种城市哲学。这里有精心维护的公园、庭院里的果树、窗台上的天竺葵，甚至每条小巷的尽头，似乎都通往一片小小的绿洲。水渠在城中静静流淌，倒映着黄色的墙壁和绿色的树冠。你坐在市中心广场的咖啡馆，喝着一杯浓得化不开的土耳其咖啡，听着周围低低的塞尔维亚语交谈声，忽然就明白了：松博尔守护的，是一种失传已久的生活节奏，一种让心灵和眼睛都得到深呼吸的可能。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`松博尔`} />
+                <InfoRow label="英文名称" value={`Sombor`} />
+                <InfoRow label="正式名称" value={`Град Сомбор / Grad Sombor`} />
+                <InfoRow label="国家" value={`塞尔维亚`} />
+                <InfoRow label="城市" value={`松博尔市`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`伏伊伏丁那平原上奥匈帝国文化遗产的静谧守护者，塞尔维亚公认的“绿色与文化之都”。`} />
+                <InfoRow label="建筑特色" value={`满城尽是“松博尔黄”——一种温暖柔和的鹅黄色，覆盖着整整齐齐的古典主义与巴洛克风格建筑立面。`} />
+                <InfoRow label="建筑风格" value={`以奥匈帝国时期的古典主义、巴洛克及新艺术风格为主，整齐划一又充满细节。`} />
+                <InfoRow label="文化价值" value={`多重文明（塞尔维亚、匈牙利、奥匈、犹太）在此交融沉淀的见证，一种悠闲、诗意且与自然深度连结的生活哲学的实体呈现。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城市本身全天开放。核心景点米兰·科尼奥维奇美术馆开放时间为周二至周五 10:00-18:00，周六 10:00-14:00，周日及周一闭馆。市政厅等建筑外部可随时参观，内部参观需提前查询市政安排或参加导览。夏季（6月至9月）各类文化活动和露天咖啡馆营业时间会延长。`} />
+              <InfoRow label="门票价格" value={`漫步古城免费。米兰·科尼奥维奇美术馆门票约300第纳尔（约合2.5欧元），学生及老人有优惠。市政厅内部导览费用视具体项目而定，通常在500第纳尔左右。城市公园及所有绿色空间免费。`} />
+              <InfoRow label="地址" value={`Trg cara Uroša 1, 25000 Sombor, Serbia`} />
+              <InfoRow label="交通方式" value={`最便捷的是从塞尔维亚首都贝尔格莱德出发。在贝尔格莱德汽车站（BAS）乘坐前往苏博蒂察的大巴，告诉司机在松博尔下车，车程约2.5-3小时，班次频繁。或从苏博蒂察搭乘 regional bus，约40分钟即可抵达松博尔市中心。如果你从匈牙利或克罗地亚自驾而来，它就在E70/E75公路旁，交通十分方便。城内所有景点步行可达，根本不需要车。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "松博尔的故事，始于一片多水的平原。它的名字最早出现在史料中时，还只是一个位于扎索维察河和亚萨河之间的渔村。但命运在14世纪发生了转折，当时的匈牙利国王将这片土地赐予了一位名叫桑博里（Csombor）的贵族，城市的名字便由此演化而来。此后的几个世纪，它就像伏伊伏丁那平原上大多数城镇一样，在匈牙利王国和奥斯曼帝国的夹缝中摇摆，直到18世纪初，随着奥斯曼势力的全面退出，它才真正迎来了属于自己的黄金时代。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当奥匈帝国的双头鹰旗帜在这里升起，松博尔被赋予了全新的城市蓝图。帝国派来了最好的规划师和建筑师，他们笔下的街道横平竖直，像棋盘一样规整，但他们最天才的一笔，是赋予了这座城市无与伦比的绿色基因。宽阔的林荫大道被规划出来，大量的悬铃木、椴树和橡树被种植，公园和公共花园成为城市的核心组件。同时，那种标志性的、温暖明亮的黄色，被选定为官方建筑的主色调，从市政厅到民居，都披上了这层统一而和谐的外衣。这不是偶然，而是帝国试图展现秩序、繁荣与文明的高级审美。也正是在这一时期，来自塞尔维亚、匈牙利、克罗地亚、犹太等不同民族的商人、手工业者和艺术家汇聚于此，造就了它独特的文化融合性。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，平静的时光在20世纪被战火撕裂。两次世界大战，尤其是二战，给松博尔带来了深重灾难。但它最珍贵的遗产——那些黄房子和绿树，却奇迹般地大部分保存了下来。战后，它归于南斯拉夫，虽然不再是行政中心，但它作为区域文化心脏的地位从未动摇。这要归功于它的儿子们，那些从这里走出去，又用才华回馈故乡的艺术家们。其中最重要的两位，无疑是画家米兰·科尼奥维奇和诗人久拉·雅西奇的朋友杜山·马蒂奇。科尼奥维奇用自己的画作和收藏，为家乡奠定了美术馆的世界级基础。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的松博尔，更像一位阅尽沧桑的优雅绅士。它没有沉溺于过去，而是把历史变成了日常的背景。奥匈帝国的建筑里开着时尚的设计小店，犹太会堂被改造为文化中心，公园里举办着先锋的艺术节。它经历了帝国、王国、战争和共和，每一次变迁都在它的街道、建筑和人们的脸上留下层叠的印记，最终熬成了这一碗温润、平静、又带着一丝甜味的黄色浓汤。走在这里，你触摸到的不是冰冷的历史标本，而是一段依然在平稳呼吸的、活着的过往。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`游览松博尔，请务必把节奏调到“慢速”。建议用一整天（最好能住一晚）来沉浸。最佳的抵达时间是清晨或午后，避开日头最烈的时候。整体路线是一个以市中心广场为起止点的环形漫步，全程步行，耗时约5-6小时，中间包含大量发呆、喝咖啡和逛小店的时间。这样安排的原因在于，松博尔的美在于细节和氛围，你需要时间去让感官适应它的色彩、光线和宁静，匆匆走过是对它的辜负。从最具视觉冲击力的美术馆开始，让艺术为你打开感知的阀门，然后深入绿色的脉络，最后在黄昏时分回到生活的广场，完成一次完美的感官循环。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周日下午和周一，许多小店和博物馆可能闭馆，请务必提前规划。
+穿着最舒适的步行鞋，因为最好的风景都在需要用脚步丈量的小巷和公园里。
+无需担心治安，这里是非常安全友好的小城，但夜间独自在偏僻公园深处漫步仍不建议。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从宏伟如宫殿般的米兰·科尼奥维奇美术馆开始你的旅程，让那些震撼的南斯拉夫现代主义画作和丰富的国际收藏先为你定下艺术的基调。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`然后沿着弗兰卡·拉迪切瓦街那条著名的绿荫长廊慢慢往北走，让你的眼睛尽情享受两旁鹅黄色建筑立面与头顶绿色穹顶交织的和谐交响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在绿荫道的尽头拐进圣乔治主教座堂广场，仰头看看那座绿色尖顶的巴洛克式教堂，并坐在长椅上观察当地人是如何在这个精神中心周围自然而然地生活。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要钻进主广场旁迷宫般的旧城区小巷，寻找那些隐藏在小门脸后的传统烘焙店，买一个新鲜出炉的“布雷克”馅饼，感受最地道的伏伊伏丁那风味。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把下午的时光留给巨大的城市公园，沿着宁静的水渠散步，找到那座浪漫的小城堡，然后就像当地人一样，找一张面对池塘的长椅坐下来读几页书或单纯地发呆。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前回到自由广场，环绕广场欣赏市政厅、剧院和前商人们华丽的豪宅立面，看夕阳如何将那一整片“松博尔黄”染成醉人的金黄色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐后（如果留宿），进行一次小小的夜游，看看路灯下泛着暖光的建筑立面，和那些从咖啡馆窗户里透出的、温暖而热闹的人间烟火。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`米兰·科尼奥维奇美术馆二楼朝东的窗户`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点的阳光斜射进来时，以古典的窗框为画框，拍摄窗外满眼的绿树和黄房子，构成一幅绝佳的层次感画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`弗兰卡·拉迪切瓦绿荫道中段`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个晴朗的清晨，站在道路中央（注意安全），用长焦镜头压缩空间，让两侧无尽的黄色建筑和头顶交织的树冠形成强烈的透视与色彩冲击。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣乔治主教座堂对面的长椅视角`}</h4>
+                  <p className="text-sm text-gray-700">{`午后，坐在广场的长椅上，将教堂的绿色尖顶和巴洛克立面作为背景，前景捕捉悠然走过的当地人或飞过的鸽子，营造生动的生活场景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`市中心传统市集附近的小巷口`}</h4>
+                  <p className="text-sm text-gray-700">{`上午市集活跃时，在巷口用广角镜头，一侧是色彩鲜艳的瓜果蔬菜摊，另一侧是宁静的黄色住宅墙，对比鲜明，充满生活气息。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`自由广场东南角仰拍市政厅塔楼`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏时分，金黄色的光线打在市政厅的新文艺复兴立面上，仰拍可以同时捕捉到精美的建筑细节和塔楼背后渐变色的天空。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`当地人非常友善且习惯被拍摄，但拍摄人物时，尤其是老人和市场商贩，一个微笑和简单的手势征得同意会让过程更愉快。`}</li>
+                <li>• {`利用雨后湿润的石板路，它能倒映出建筑和树木的色彩，拍出非常有质感的照片。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`市中心公寓之选`}</h4>
+                  <p className="text-sm text-blue-800">{`租住一栋经过翻新但保留了原始木地板和高天花板的奥匈时期公寓，清晨推开窗户，椴树的花香和面包店的香气会一起涌入你的房间。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`艺术主题精品酒店`}</h4>
+                  <p className="text-sm text-green-800">{`位于安静街区由老银行建筑改造的小型酒店，每个房间都以一位塞尔维亚画家命名，内部装饰充满设计感，早餐在绿意盎然的内庭享用。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`公园边缘静谧民宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在巨大城市公园旁的一栋独立黄色别墅里，房东夫妇会为你准备 homemade 的果酱和欢迎酒，晚上只能听到风吹过树梢的声音。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端庄园体验`}</h4>
+                  <p className="text-sm text-purple-800">{`位于城郊不远处的传统“萨拉什”庄园改造的酒店，拥有自己的马场和池塘，让你彻底沉浸于伏伊伏丁那平原的乡村宁静之中，进城也只需十分钟车程。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季和九月艺术节期间住宿非常紧俏，务必提前数月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "老城中心的住宿可能没有电梯，预订时如有需要请特别注意。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "选择公园或水渠旁的住宿，意味着你将拥有无价的自然景致和绝对的宁静。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开松博尔好多天了，但闭上眼睛，那片温暖的黄色和沉静的绿色，依然像底片一样印在我的脑海里。它给我的触动，不是那种惊心动魄的震撼，而是一种柔和的、持续不断的安抚。在这个每个人都急着奔向未来的世界里，松博尔像一个温柔的制动阀，它用满城的绿树告诉你：慢下来是允许的，它用统一的黄墙告诉你：和谐与秩序是美的，它用空无一人的午后街道告诉你：宁静是一种可贵的拥有。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个地方的意义，在于它证明了深度和丰富不一定需要喧嚣与庞大。它只是一个平原上的小城，却囊括了帝国兴衰的印记、多民族文化共生的智慧、对艺术至高无上的尊敬，以及对自然近乎虔诚的亲近。它是一部活着的、关于如何优雅生活的教科书。每一位热爱深度游的旅人都应该来这里，不是为了打卡，而是为了体验一种可能性——一种让历史成为日常背景，让艺术呼吸在空气里，让绿荫成为心灵庇护所的生活可能。在这里，你会重新学会如何用眼睛去品尝颜色，用耳朵去聆听宁静，用整个身心去感受什么是“妥帖地活着”。松博尔，是送给疲惫现代灵魂的一小段黄色治愈时光。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/novi-pazar-stari-ras-serbia-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    诺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">诺维帕扎尔与斯塔里拉斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Novi Pazar and Stari Ras</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nis-fortress-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    尼
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">尼什要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Niš Fortress</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/sirmium-roman-archaeological-site-sremska-mitrovica" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    西
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">西尔米乌姆</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sirmium</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

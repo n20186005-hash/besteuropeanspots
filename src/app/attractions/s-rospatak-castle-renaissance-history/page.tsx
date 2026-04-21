@@ -1,0 +1,176 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: 'Sárospatak历史溯源｜匈牙利文艺复兴古堡的前世今生与名门传奇',
+  description: '探秘匈牙利“雅典”，沙罗什保陶克。文艺复兴城堡与神学院背后，是拉科奇家族的权谋、科梅尼乌斯的教育革命，一部被遗忘的中欧史诗。',
+}
+
+export default function SRospatakCastleRenaissanceHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '包尔绍德-奥包乌伊-曾普伦州', href: '/destinations/europe' },
+            { label: '沙罗什保陶克', href: '/attractions/s-rospatak-castle-renaissance-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`沙罗什保陶克・Sárospatak・匈牙利・包尔绍德-奥包乌伊-曾普伦州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在匈牙利东北部，博德罗格河静静流淌的谷地中，藏着一座被冠以“匈牙利雅典”之名的静谧小城。它的标签并非喧闹的游客，而是文艺复兴的堡垒、新教思想的熔炉、欧洲贵族的摇篮。这里的一砖一瓦，都浸透着<strong>拉科奇家族</strong>的雄心和<strong>科梅尼乌斯</strong>的智慧。抛开游玩攻略，走进<strong>沙罗什保陶克</strong>的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`沙罗什保陶克`} />
+                <InfoRow label="英文名称" value={`Sárospatak`} />
+                <InfoRow label="正式名称" value={`Sárospatak`} />
+                <InfoRow label="国家" value={`匈牙利`} />
+                <InfoRow label="城市" value={`包尔绍德-奥包乌伊-曾普伦州`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沙罗什保陶克的诞生，与水息息相关。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的名字 <strong>Sárospatak</strong>，在匈牙利语中意为“泥泞的浅滩”。这直接指向了它最初的地理特征——位于博德罗格河汇入蒂萨河的交汇处，一个天然形成的、易于涉水而过的渡口。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "早在中世纪早期，这里便因优越的交通位置形成了定居点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1241年</strong>，蒙古铁骑如风暴般席卷匈牙利，所到之处一片焦土。然而，这场灾难也催生了坚固石制城堡的修建浪潮。沙罗什保陶克便是在这股浪潮中，于蒙古入侵后不久，正式获得了城镇特权。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最初的城堡是典型的防御工事，守护着河谷与商道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但使其命运发生转折的，是<strong>15世纪</strong>它与匈牙利最显赫的贵族家族之一——<strong>拉科奇家族</strong>的联姻。这座城镇，从此不再是边陲哨站，而逐渐演变成一个权力与文化的中心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的命运，与这个家族的兴衰紧紧绑定。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 拉科奇家族的文艺复兴之梦</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1534年</strong>，拉科奇家族正式入主城堡。最初，它仍是带有浓厚哥特风格的军事堡垒。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但到了<strong>16世纪末至17世纪</strong>，在动荡的宗教战争与土耳其威胁的背景下，城堡迎来了一次华丽的蜕变。当时的领主们，尤其是<strong>日格蒙德·拉科奇</strong>，深受意大利文艺复兴思潮影响。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们决心将这座军事要塞，改建为一座宜居、奢华且能彰显人文主义精神的宫殿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，我们今天看到的城堡最精华部分——<strong>文艺复兴式红砖回廊庭院</strong>应运而生。优雅的拱廊、精致的石刻、采光充足的内庭，彻底改变了城堡阴郁的气质。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座庭院不仅是建筑杰作，更是一个象征：在奥斯曼帝国兵锋遥指的动荡年代，匈牙利贵族仍执着地在北方一隅，培育着文明的优雅与宁静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. “匈牙利人的牛津”：新教神学院的建立</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果说城堡是权力的躯体，那么<strong>1531年</strong>在此建立的<strong>新教神学院</strong>，则是沙罗什保陶克跳动的心脏与灵魂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当时，宗教改革之风已吹遍欧洲。拉科奇家族是坚定的新教支持者，他们将这座小城打造成匈牙利乃至中欧新教教育的灯塔。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我们需要一个地方，不仅培养牧师，更要培养有学识、有道德、能清晰思考的公民。”——早期神学院章程中的理念。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "神学院迅速吸引了来自匈牙利王国各地乃至欧洲的学子。它的图书馆藏有大量珍贵手稿和早期印刷书籍，成为知识传播的中心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1635年</strong>，著名的教育改革家、捷克哲人<strong>扬·阿姆斯·科梅尼乌斯（John Amos Comenius）</strong> 受邀来访并在此任教。他的“泛智教育”理念在此得到实践，主张通过感官和经验学习，教育应面向所有人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这使沙罗什保陶克神学院声望达到顶峰，被誉为 <strong>“匈牙利人的牛津”</strong> 或 <strong>“蒂萨河上的雅典”</strong>。它输出的不是士兵，而是思想家、作家和牧师，深刻影响了匈牙利乃至中欧的文化与民族意识。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>3. 独立战争的策源地与沉寂</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>18世纪初</strong>，沙罗什保陶克卷入了匈牙利历史上最后一次，也是规模最大的反哈布斯堡王朝独立战争——<strong>拉科奇独立战争（1703-1711年）</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战争的领导者，<strong>费伦茨二世·拉科奇</strong>，正是在这座城堡中长大。这里不仅是他的家，更是他早期集结支持者、谋划大业的秘密基地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡的墙壁，仿佛仍回荡着当年贵族们密议时的低语。然而，战争最终失败。哈布斯堡王朝胜利后，对参与叛乱的贵族进行了严厉清算。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "拉科奇家族流亡，财产被没收。沙罗什保陶克这座曾经的思想与权力中心，随之陷入了长达两个多世纪的沉寂与边缘化。它的辉煌，凝固在了18世纪初的那个瞬间。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>费伦茨二世·拉科奇：从城堡王子到流亡亲王</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1676年</strong>，费伦茨二世·拉科奇出生在巴黎，但他的根与魂，属于沙罗什保陶克。他的母亲是匈牙利传奇女英雄<strong>伊洛娜·兹里尼</strong>，一位曾顽强守卫城堡抵抗奥地利军队的巾帼将领。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "年幼时，他被带回匈牙利，在沙罗什保陶克城堡的文艺复兴回廊下接受教育。母亲伊洛娜的坚韧与对自由匈牙利的执着，成为他生命最初的烙印。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，他的童年笼罩在阴谋之中。由于家族的反哈布斯堡立场，年幼的费伦茨曾被维也纳宫廷“扣为人质”，在耶稣会学校接受教育，试图将其培养成帝国的忠诚者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但这反而加深了他对匈牙利民族处境的认识。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1703年</strong>，农民起义的烽火点燃了匈牙利积压已久的反哈布斯堡情绪。起义者主动找到时年27岁的费伦茨，恳请这位拉科奇家族的后裔出任领袖。他毫不犹豫地接过了旗帜。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沙罗什保陶克城堡，自然成了这场独立战争最初的政治与军事核心。他在这里发布文告，接见使者，城堡从文化中心再度转变为战争指挥部。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他领导的战争曾一度成功，控制了几乎整个匈牙利王国，他本人也被推选为特兰西瓦尼亚大公和匈牙利国家元首。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“为了祖国和人民的自由。”——费伦茨二世·拉科奇誓言中的核心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，欧洲大战局的变化（西班牙王位继承战争）使他失去国际支持，内部矛盾也日益凸显。<strong>1711年</strong>，战争以《索特马尔和约》的签订告终，独立梦想破灭。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此后，费伦茨终生流亡，最终客死土耳其。但他留下了著名的《忏悔》，以及一个永不屈服的匈牙利民族英雄形象。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沙罗什保陶克城堡，是他梦想启航和破碎的见证。每一个房间，都可能曾是他沉思或决断的场所。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>扬·阿姆斯·科梅尼乌斯：流亡教育家在此播种</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1635年</strong>，因宗教信仰迫害而离开故乡波西米亚的科梅尼乌斯，收到了沙罗什保陶克神学院的盛情邀请。此时的沙罗什保陶克，是新教世界备受尊敬的学术圣地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "对科梅尼乌斯而言，这里不仅是一个避难所，更是一个实践其革命性教育理念的宝贵试验田。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在沙罗什保陶克期间，他进一步完善了他的“泛智教育”体系。他主张教育应遵循自然规律，循序渐进；提倡使用图画教材（他创作了世界上第一部带有插图的儿童教科书《世界图绘》）；强调知识的实用性，以及通过母语进行教学。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他在神学院的讲台上，向来自各地的年轻学子播撒这些思想的种子。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "虽然他在沙罗什保陶克只停留了数年（后继续前往瑞典、荷兰等地），但这段经历巩固了他的国际声誉，也将其人文主义教育思想深深镌刻在这座“雅典”的基因里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "神学院的图书馆至今珍藏着他的著作与信件。他让沙罗什保陶克的“思想灯塔”之名，拥有了更具体、更普世的光辉——那是对知识与人类进步的永恒追求。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在沙罗什保陶克城堡中，有一座名为 <strong>“红塔”</strong> 的古老塔楼。关于它为何是红色的，有一个凄美而固执的传说。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事发生在某个久远的战争年代。城堡被敌军重重围困，形势岌岌可危。守城的领主向援军发出烽火求救，但援军迟迟未到。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "领主的女儿，一位名叫<strong>罗莎</strong>的美丽少女，坚信她的爱人——一位远在他乡的年轻骑士——看到信号一定会飞驰来援。她日复一日地站在最高的塔楼上眺望，望眼欲穿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "围城持续了数月，粮草殆尽，希望渺茫。最终，在一个血色黄昏，绝望的罗莎从塔楼上一跃而下，她的鲜血染红了塔楼的石壁。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "从此，无论风雨如何冲刷，这座塔楼的墙壁始终保持着一种暗沉的红色，仿佛在诉说那段无望的等待与忠贞。人们说，那是罗莎的魂灵依附于此，仍在守望着远方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说为城堡刚硬的轮廓，增添了一抹柔情的悲剧色彩。它或许并非真实历史，却真实地反映了这片土地上人们对于忠诚、爱情与牺牲的集体记忆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当游客触摸那面“红墙”时，触摸的不仅是石头，也是一段被代代传颂的集体情感。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日的沙罗什保陶克，宁静得像一首被遗忘的田园诗。但当你穿过红砖回廊，置身于神学院古老的图书馆，或仰望那座传说中的红塔时，历史的层叠感便会扑面而来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里不只是一座保存完好的文艺复兴城堡。它是一座思想的纪念碑，铭刻着匈牙利民族在逆境中对教育、文化与独立身份的极致追求。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "拉科奇家族的雄心与陨落，科梅尼乌斯的智慧与漂泊，共同编织了这座小城的灵魂。它见证了权力从剑锋到笔锋的微妙转移，也见证了理想在现实政治中的燃烧与冷却。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂沙罗什保陶克，便读懂了匈牙利历史中一段充满张力与荣光的章节——那是在大国夹缝中，一个小民族对自身文明火种的顽强守护。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "来到这里，你不是在参观一个景点，而是在翻阅一部立体的、用石头与灵魂写就的中欧史诗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、城堡打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/vac-cathedral" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瓦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓦茨大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vác Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/monostor-fortress-komarom" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科马罗姆巨型要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monostor Fortress (Komárom)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/pannonhalma-archabbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    潘
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">潘诺恩哈尔马千年修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Pannonhalma Archabbey</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '鲁塞 Ruse｜多瑙河畔的“小维也纳”，保加利亚最优雅的建筑宝库 - 最佳欧洲景点',
+  description: '当我第一眼看到鲁塞，我以为自己走错了地方。车子刚从乏味的现代街区拐入市中心，一座奶油色与淡绿色相间的宏伟建筑就撞进了视野，它有着波浪形的山墙、精致的小天使雕塑和金色的装饰线条，那种扑面而来的维也纳或布达佩斯气质，让我瞬间忘了自己身处巴尔干半岛的保加利亚。空气里有股混合的气味——多瑙河吹来的、略带腥味',
+}
+
+export default function RuseBulgariaDanubeViennaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '保加利亚', href: '/destinations/europe' },
+            { label: '鲁塞', href: '/destinations/europe' },
+            { label: '鲁塞', href: '/attractions/ruse-bulgaria-danube-vienna' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`鲁塞・Ruse・保加利亚・鲁塞`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当我第一眼看到鲁塞，我以为自己走错了地方。车子刚从乏味的现代街区拐入市中心，一座奶油色与淡绿色相间的宏伟建筑就撞进了视野，它有着波浪形的山墙、精致的小天使雕塑和金色的装饰线条，那种扑面而来的维也纳或布达佩斯气质，让我瞬间忘了自己身处巴尔干半岛的保加利亚。空气里有股混合的气味——多瑙河吹来的、略带腥味的湿润水汽，混杂着从街角面包店飘出的黄油香，还有老建筑石材在午后阳光下散发的、微微暖烘烘的尘土味道。
+我沿着自由广场慢慢走，脚下是平整的石板路，耳边是轻快的保加利亚语交谈声，夹杂着有轨电车驶过时“叮叮”的清脆铃声。这里的节奏不是慵懒的，而是一种带着自豪的从容。穿着得体的老人在长椅上读报，年轻情侣在装饰着缪斯女神雕像的喷泉旁低语。这座城市最打动人的，不是某一个孤立的景点，而是一种弥漫在整个街区的、完整而自洽的优雅氛围。每一栋房子都在“说话”，争先恐后地展示着百年前主人对美的理解和财富的炫耀——这家窗框上缠绕着铸铁葡萄藤，那家门楣上矗立着神话英雄的半身像，转角处一栋粉色宅邸的阳台，被锻造成如同盛开的花朵。
+在这里，历史不是躺在博物馆玻璃柜里的标本，而是当地人每天推开窗看到的风景，是他们在里面办公、听音乐会、喝咖啡的日常空间。这种“活着的华丽”是鲁塞独一无二的魅力。它没有首都的喧嚣，也没有海滨度假地的浮躁，它就是多瑙河畔一位静静老去的贵妇，衣衫或许有些旧了，但针脚里的精致与骄傲，一丝不苟。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当我第一眼看到鲁塞，我以为自己走错了地方。车子刚从乏味的现代街区拐入市中心，一座奶油色与淡绿色相间的宏伟建筑就撞进了视野，它有着波浪形的山墙、精致的小天使雕塑和金色的装饰线条，那种扑面而来的维也纳或布达佩斯气质，让我瞬间忘了自己身处巴尔干半岛的保加利亚。空气里有股混合的气味——多瑙河吹来的、略带腥味的湿润水汽，混杂着从街角面包店飘出的黄油香，还有老建筑石材在午后阳光下散发的、微微暖烘烘的尘土味道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我沿着自由广场慢慢走，脚下是平整的石板路，耳边是轻快的保加利亚语交谈声，夹杂着有轨电车驶过时“叮叮”的清脆铃声。这里的节奏不是慵懒的，而是一种带着自豪的从容。穿着得体的老人在长椅上读报，年轻情侣在装饰着缪斯女神雕像的喷泉旁低语。这座城市最打动人的，不是某一个孤立的景点，而是一种弥漫在整个街区的、完整而自洽的优雅氛围。每一栋房子都在“说话”，争先恐后地展示着百年前主人对美的理解和财富的炫耀——这家窗框上缠绕着铸铁葡萄藤，那家门楣上矗立着神话英雄的半身像，转角处一栋粉色宅邸的阳台，被锻造成如同盛开的花朵。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这里，历史不是躺在博物馆玻璃柜里的标本，而是当地人每天推开窗看到的风景，是他们在里面办公、听音乐会、喝咖啡的日常空间。这种“活着的华丽”是鲁塞独一无二的魅力。它没有首都的喧嚣，也没有海滨度假地的浮躁，它就是多瑙河畔一位静静老去的贵妇，衣衫或许有些旧了，但针脚里的精致与骄傲，一丝不苟。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`鲁塞`} />
+                <InfoRow label="英文名称" value={`Ruse`} />
+                <InfoRow label="正式名称" value={`Ruse`} />
+                <InfoRow label="国家" value={`保加利亚`} />
+                <InfoRow label="城市" value={`鲁塞`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`作为保加利亚的“复兴之都”，它是19世纪末至20世纪初国家现代化与欧洲文化交融最闪耀的见证。`} />
+                <InfoRow label="建筑特色" value={`整个城市中心如同一座露天的建筑艺术博物馆，密布着装饰极尽繁复、充满曲线与雕塑的华丽立面。`} />
+                <InfoRow label="建筑风格" value={`以新巴洛克、洛可可复兴和新艺术运动风格为主导，混杂了东方与巴尔干的地方元素。`} />
+                <InfoRow label="文化价值" value={`它代表了保加利亚从奥斯曼帝国统治下解放后，对欧洲优雅、进步与美好生活的集体向往与物质化追求。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`鲁塞整个历史中心区全天24小时开放，供人自由漫步。但内部的重要建筑（如巴洛克风格的音乐厅、剧院、画廊）通常开放时间为周二至周日的上午10点至下午6点，周一大多闭馆维护。核心的市历史博物馆开放时间可能有季节性调整，夏季（4月至10月）通常延长至晚8点，冬季会提前至下午5点关门。部分私人拥有的华丽宅邸在特定节日（如欧洲遗产日）才会对公众开放内部参观。`} />
+              <InfoRow label="门票价格" value={`漫步欣赏建筑外观本身是完全免费的。进入主要博物馆（如市历史博物馆、潘泰列伊蒙·帕穆科夫故居）的门票价格通常在5-10保加利亚列弗（约2.5-5欧元）之间。学生、儿童和老人享受半价优惠。保加利亚国家银行（现为博物馆）等特定景点可能有象征性收费。观看歌剧或芭蕾舞演出的票价则根据座位从20列弗到100列弗不等。`} />
+              <InfoRow label="地址" value={`保加利亚鲁塞州鲁塞市，市中心历史区，邮编7000`} />
+              <InfoRow label="交通方式" value={`鲁塞是多瑙河畔的重要交通枢纽。最近的国际机场是位于罗马尼亚布加勒斯特的亨利·科安德国际机场，距离约80公里，是国际游客最方便的门户。从布加勒斯特机场或市中心，可以搭乘频繁的长途巴士或火车，跨境前往鲁塞，车程约1.5-2小时。从保加利亚首都索非亚出发，则有直达的夜间火车（车程约7-8小时）或日间长途巴士（车程约5-6小时）。在鲁塞市内，所有主要景点都集中在紧凑的步行区，无需公共交通。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "鲁塞的故事，是一部关于河流、帝国与梦想的编年史。它的命运始终与脚下这条灰蓝色的多瑙河紧密相连。在漫长的奥斯曼帝国统治时期，它被称为“鲁舒克”，是帝国在多瑙河南岸最重要的军事堡垒和贸易港口，东方商队带来的香料与欧洲的货物在此交换，但城镇的模样，依然是低矮的东方风格建筑和狭窄的巷弄。真正的剧变发生在1878年，俄土战争后，保加利亚获得自治，鲁塞从奥斯曼帝国的边陲重镇，一夜之间变成了新生的保加利亚王国面向欧洲的“北方首都”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "那是一个全国上下充满希望与激情的时代，人们急切地想洗去“东方”的痕迹，拥抱“欧洲”的现代与文明。而鲁塞，凭借其优越的河港位置和最早接触到西欧风潮的商人阶层，成为了这场“复兴运动”的先锋舞台。第一批去维也纳、巴黎留学或经商归来的保加利亚精英，带回了最新的建筑图纸和生活理念。他们不再是建造坚固的堡垒，而是要建造象征智慧、艺术与繁荣的宫殿。于是，从19世纪80年代到第一次世界大战前，一场轰轰烈烈的“造城运动”在这里展开。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关键人物们纷纷登场。像银行家帕穆科夫、大商人萨拉利耶夫这样的富贾，他们不惜重金聘请奥地利、意大利和捷克的设计师，甚至直接进口建筑材料，只为建造一栋能彰显家族地位与品味的宅邸。建筑师们则自由地挥洒才华，将维也纳环城大道上的巴洛克恢弘、巴黎的洛可可细腻，以及当时最新潮的新艺术运动曲线，统统搬到了多瑙河畔。保加利亚第一座现代音乐厅、第一家保险公司大楼、最宏伟的银行总部，都争先恐后地在这里拔地而起。当时的鲁塞，是保加利亚第一个安装街道电力照明、第一个拥有有轨电车系统的城市，名副其实的“时尚之都”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，时代的洪流并未永远眷顾这里。随着政治中心稳固在索非亚，以及多瑙河航运地位的相对下降，鲁塞的黄金时代在20世纪中期逐渐落幕。它经历了战争的创伤，也承受了社会主义时期对历史建筑一定程度的忽视。但奇迹般地，那成片成片的华丽建筑群主体被保留了下来。当保加利亚人回望自己的历史，他们发现，鲁塞这座几乎被时光“冻结”的城市，完好地保存了那个民族最渴望融入欧洲、最意气风发的青春梦想。它不是仿制品，而是一个特定时代、特定人群，用砖石写就的、无比真诚的“情书”。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味鲁塞，你需要预留一整天的时间，并穿上最舒适的步行鞋。最佳的游览节奏是“由外至内，由宏观到细节”。建议在上午九点左右抵达自由广场，此时阳光正好洒在建筑立面上，光线柔和，游客尚少。你可以先花一个上午，像寻宝一样在历史中心的主干道和交错的小街中穿梭，尽情仰头欣赏那些令人目不暇接的建筑细节。下午则将重点转向室内，参观一两处精华博物馆，并务必体验一次在多瑙河畔的咖啡馆或餐厅享用下午茶，看着河水静静流淌。傍晚时分，则可以去歌剧院碰碰运气，或者仅仅是在华灯初上时，再看一次被灯光点亮的“小维也纳”，那又是另一番梦幻景象。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`许多最美建筑的内部是私人办公场所或银行，未经允许不可进入，请尊重“私人财产”的标识，在门外欣赏即可。
+当地一些出租车司机可能会对明显是游客的人索要高价，建议使用打车软件或请酒店帮忙叫车。
+多瑙河畔风有时较大，即使是夏季，也建议带一件薄外套。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城市的心脏自由广场开始，围绕那座标志性的“自由女神”雕像缓缓转一圈，让四周如舞台布景般华丽的建筑立面给你最震撼的初印象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着亚历山大大街向西漫步，像阅读一本立体故事书一样，逐栋辨认那些融合了新巴洛克涡卷、洛可可花卉与新艺术铸铁线条的宅邸门面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要推开那扇厚重的木门，走进保加利亚第一座现代音乐厅（德沃夏克音乐厅）的内部，即使没有演出，也去感受一下那镀金包厢与红色天鹅绒座椅构成的古典氛围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到那栋最奢华的“萨拉利耶夫之家”，仔细端详它立面上那些栩栩如生的古希腊神话人物雕塑，想象百年前主人的宴客厅里曾回荡着怎样的音乐与欢笑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在午餐前后，去探访由旧保加利亚国家银行大楼改造的博物馆，站在其宏伟的圆形大厅里，仰头凝视彩绘玻璃穹顶，感受昔日金融帝国的气势。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后顺着“河岸大街”走向多瑙河畔，在任何一个有露天座位的咖啡馆坐下，点一杯保加利亚咖啡，什么也不做，就看河对岸罗马尼亚的城镇轮廓和往来船只。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过河边公园，走上雄伟的鲁塞-久尔久友谊大桥（保加利亚段），走到桥中央，回望鲁塞城市天际线，那是欣赏它建筑群整体轮廓的最佳视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果恰逢周末或演出季，晚上去鲁塞歌剧院尝试购买一张临时退票，亲身参与一场当地人的文化之夜，那是体验这座城市优雅灵魂的最直接方式。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`自由广场东南角仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点到六点，阳光会为广场西侧的建筑群披上金色的侧光，此时站在东南角，可以拍到雕像、喷泉与宏伟的音乐厅立面同框的经典画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`亚历山大大街中段拱廊下`}</h4>
+                  <p className="text-sm text-gray-700">{`利用街道两侧建筑形成的天然“画框”，在清晨或傍晚的低光环境下，拍摄街道深邃的透视感和行人、电车构成的生动场景。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`多瑙河岸堤防步道`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前后半小时，以平静的多瑙河河水为前景，对岸罗马尼亚的景色为中景，鲁塞色彩斑斓的建筑群为背景，可以拍出层次丰富、色调温柔的明信片照片。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`萨拉利耶夫之家细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光垂直照射时，建筑立面上的雕塑阴影最小，最适合用长焦镜头捕捉那些窗楣上的天使、门柱上的葡萄藤等无比精致的装饰细节。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效减少建筑立面上玻璃和石材的反光，让色彩和细节更加饱和突出。`}</li>
+                <li>• {`拍摄当地居民时，请务必先微笑示意并获得同意，保加利亚人通常很友好，但不喜欢被突兀地拍摄。`}</li>
+                <li>• {`飞无人机需特别谨慎，市中心靠近多瑙河边境区域，飞行法律限制严格，务必提前查询最新法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`河景性价比之选`}</h4>
+                  <p className="text-sm text-blue-800">{`位于河岸大街上的老牌三星酒店，房间或许不大，但几乎每个窗户都能框出一幅多瑙河流动的油画，清晨在汽笛声中醒来是独特的体验。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`中心历史宅邸酒店`}</h4>
+                  <p className="text-sm text-green-800">{`由一栋19世纪末的新巴洛克风格商人宅邸修复而成，房间挑高极高，保留了 original 的拼花地板和石膏雕花天花板，楼梯间的彩绘玻璃窗美得令人窒息。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计师文艺公寓`}</h4>
+                  <p className="text-sm text-yellow-800">{`隐藏在历史区安静小巷里的 loft 式公寓，由本地设计师打造，将保加利亚传统织物与现代极简风巧妙融合，自带小厨房，像住在当地朋友家里一样自在。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端奢华宫殿`}</h4>
+                  <p className="text-sm text-purple-800">{`城市边缘一座带巨大花园的19世纪宫殿式建筑，内部装饰极尽奢华，有室内泳池和 Spa，提供私人导览服务，让你彻底沉浸于“鲁塞黄金时代”的梦境。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6-8月）是旅游旺季，且多瑙河游轮旅客较多，建议至少提前一个月预订心仪的特色住宿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史中心的酒店大多由老建筑改造，可能没有电梯或房间大小不一，预订时仔细阅读描述和住客评价。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "鲁塞治安整体良好，但夜间在较偏僻的公园或河岸区域单独行走仍需保持一般的旅行警惕。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开鲁塞很久以后，我脑海里反复回味的，不是某一张具体的照片，而是那种整体沉浸其中的感觉。在这个人人追求“网红打卡点”的时代，鲁塞提供了一种反潮流的旅行价值——它要求你慢下来，抬起头，用目光细细抚摸过每一寸雕花的墙面，去聆听建筑无声的讲述。它告诉我们，美有时不是惊心动魄的奇观，而是一种成体系的、渗透到日常肌理中的教养与追求。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座多瑙河畔的“小维也纳”，更像是一个关于文化选择与身份认同的永恒隐喻。它见证了保加利亚民族在历史十字路口的激情、梦想与创造力。那些华丽得有些夸张的立面，与其说是炫富，不如说是一个新生国家及其人民，向世界急切而真诚地展示自我、寻求认可的“视觉宣言”。今天，当全球化让城市面貌越来越趋同，鲁塞这份固执的、略带时光尘埃的优雅，显得格外珍贵。它不属于匆忙的过客，只属于愿意花时间，与一段凝固的辉煌历史静静对话的深度旅人。来这里，不只是看建筑，更是读懂一个民族青春时代的心跳。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/koprivshtitsa-bulgaria" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科普里夫什蒂察（保加利亚民族复兴时期的彩绘起义小镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Koprivshtitsa</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/belogradchik-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝洛格拉奇克要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Belogradchik Fortress</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ivanovo-rock-hewn-churches" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    伊
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伊万诺沃岩凿教堂群</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ivanovo Rock-Hewn Churches</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,146 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '立陶宛特洛伊历史溯源｜克尔纳韦考古遗址的前世今生与传奇湮灭',
+  description: '探索被遗忘的立陶宛摇篮——克尔纳韦。从辉煌初代都城到1390年十字军烈焰下的悲歌，再到沉睡地下的考古宝库，揭开“立陶宛特洛伊”的尘封传奇。',
+}
+
+export default function KernaveHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '立陶宛', href: '/destinations/europe' },
+            { label: '希尔温托斯区', href: '/destinations/europe' },
+            { label: '克尔纳韦考古遗址', href: '/attractions/kernave-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`克尔纳韦考古遗址・Kernavė・立陶宛・希尔温托斯区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "晨曦穿透薄雾，照亮五座城堡山的剪影，山下涅里斯河蜿蜒如带。这里没有巍峨宫殿的残垣，只有青草覆盖的土丘与深谷，静默如谜。然而，脚下每一寸泥土，都封存着一个民族初生的心跳与猝然中断的呼吸。这里曾是<strong>立陶宛大公国</strong>强盛时代的第一个首都，却在巅峰之际被战火彻底抹去，从此隐入山林与传说，直到现代考古铲揭开泥土，一个堪比<strong>特洛伊</strong>的庞大聚落才重见天日。抛开游玩攻略，走进<strong>克尔纳韦</strong>的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`克尔纳韦考古遗址`} />
+                <InfoRow label="英文名称" value={`Kernavė`} />
+                <InfoRow label="正式名称" value={`Kernavė`} />
+                <InfoRow label="国家" value={`立陶宛`} />
+                <InfoRow label="城市" value={`希尔温托斯区`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "克尔纳韦的故事，远比“城市”二字古老。它的脉搏，始于冰川退去后的新石器时代。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "早在公元前八千年，猎人们就已在这片俯瞰涅里斯河的高地上活动。但真正的序章，在公元四世纪后才徐徐展开。波罗的海部落在此定居，利用天然山丘构筑防御。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "“克尔纳韦”这个名字本身，就是一首无声的史诗。学界普遍认为，它源自古波罗的海语，可能与河流的弯曲（“<em>kern-</em>”意为弯曲、转折）或一种鸟类的名称有关。另一种迷人的说法是，它源于某个名为<strong>Kernius</strong>或<strong>Kernys</strong>的部落首领之名。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史的聚光灯，在<strong>13世纪</strong>骤然亮起。当条顿骑士团的铁十字阴影从西方逼近，立陶宛各部落急需一个坚固的联盟与政治中心。克尔纳韦凭借其易守难攻的阶梯式山丘群（五座城堡山沿河依次排开）和肥沃的河谷，被选中了。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它不仅仅是军事堡垒。考古发现揭示，从山巅的贵族堡垒、山坡上的木质卫城，到山脚下广袤的平民城镇、手工业区和异教神庙区，这里构成了一个功能完整、层次分明的早期国家都城。克尔纳韦，由此成为<strong>立陶宛民族国家成型</strong>的最初熔炉与心脏。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "克尔纳韦的历史，是一部浓缩的立陶宛建国史诗，其印记以两种截然相反的形式留存：地下的辉煌，与地上的寂灭。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一个印记，是 <strong>“王城”的诞生（1279-1283）</strong> 。在<strong>明道加斯大公</strong>遇刺后，立陶宛陷入短暂动荡。但很快，一位新的强权人物——<strong>特莱德尼斯大公</strong>将权力中心稳固于克尔纳韦。编年史中首次明确提及克尔纳韦为“立陶宛大公之座”，正是在他的时代。这里不仅是行政中心，更是抵抗<strong>条顿骑士团</strong>持续北方十字军东征的指挥中枢。城堡山上的木质防御工事一次次被加固，山下的市集繁荣，吸纳着来自欧洲各地的商人。克尔纳韦见证了早期立陶宛从一个松散部落联盟，向一个中央集权、信奉异教却与欧洲积极贸易的强国的关键转型。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“从立陶宛来了一位信使，报告说他们的国王特莱德尼斯在克纳罗（Kernov）城堡做好了战斗准备……” ——《利沃尼亚编年史》（约1290年）" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第二个，也是最深刻的印记，是 <strong>“毁灭与遗忘（1390）”</strong> 。1387年，立陶宛接受基督教化，政治中心自然转向了更便于与西方沟通的<strong>维尔纽斯</strong>。克尔纳韦逐渐褪去光环，但依然是重要的军事据点。然而，<strong>1390年</strong>的夏天，命运给了它致命一击。条顿骑士团与内部政敌联手，发动了一场毁灭性突袭。战火吞噬了一切。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "木质结构的城堡、教堂、民宅、工坊，在冲天烈焰中化为灰烬。烈火如此炽烈，甚至将泥土烧成了永久性的红色硬层。劫掠之后，幸存者没有选择重建。这座曾喧嚣的都城，被彻底遗弃了。泥土渐渐覆盖废墟，青草在焦土上生长，历史在此戛然而止，沉睡了超过<strong>五百年</strong>。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "正因这次彻底的、未被后世干扰的毁灭与掩埋，克尔纳韦得以成为一个无与伦比的 <strong>“时间胶囊”</strong> 。它保存了13-14世纪立陶宛社会最完整的横截面，从大公的金饰到农夫的陶罐，从异教祭祀的器物到早期基督教的痕迹，一切都被定格在1390年那个炽热的夏天。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在克尔纳韦的传奇中，两位人物如双星闪耀：一位是它的缔造者与毁灭见证者，另一位是它沉睡数百年后的唤醒者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第一位，是维陶塔斯大帝。</strong> 他是立陶宛历史上最伟大的统治者之一，但他在克尔纳韦的故事，却充满复杂的悲剧色彩。<strong>维陶塔斯</strong>是<strong>约盖拉</strong>大公（后来的波兰国王瓦迪斯瓦夫二世）的堂弟，一生致力于立陶宛的独立与强盛。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "克尔纳韦曾是他的重要堡垒。然而，在立陶宛复杂的内部权力斗争中，<strong>1390年</strong>，正是维陶塔斯（当时与条顿骑士团结盟以对抗约盖拉）亲自引导骑士团军队，攻打了这座属于他堂兄的城市。史学家认为，他意图夺取这座象征正统的故都。那场导致克尔纳韦彻底毁灭的大火，维陶塔斯是关键的参与者，甚至是导演者之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "颇具讽刺与宿命感的是，几十年后，已成为立陶宛大公的维陶塔斯，又曾下令重建克尔纳韦的教堂。毁灭者与缅怀者的双重身份，在他身上交织。他的足迹，从早期的争夺、中期的毁灭，到后期的些许修复，勾勒出克尔纳韦在政治漩涡中沉浮的悲剧命运。他的人生宏图，无意中为后世封存了一座最完好的中世纪考古圣地。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“维陶塔斯公爵与骑士团大师……率大军深入立陶宛，围攻并焚烧了克纳罗（Kernov）城堡……” ——《条顿骑士团年表》" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>第二位，是考古学家埃瓦尔达斯·沃尔泰拉。</strong> 如果没有他，克尔纳韦可能至今仍是牧羊人脚下的无名山丘。19世纪末，当立陶宛民族意识复兴，人们开始在民歌与传说中寻找失落的都城。<strong>埃瓦尔达斯·沃尔泰拉</strong>，一位医生兼考古爱好者，被这些传说深深吸引。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从<strong>19世纪80年代</strong>开始，他凭借个人热情与有限的资源，系统性地对克尔纳韦的山丘群进行勘察与挖掘。他是第一个用科学眼光审视这片土地的人，发现了大量墓葬、兵器和生活遗迹。他的工作首次向世界证明：这里不是普通的丘陵，而是一个巨大古城遗址。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沃尔泰拉的发掘，点燃了立陶宛学界重新发现民族起源的激情。他不仅找到了文物，更找回了一段被抹去的历史尊严。他的开创性工作，为20世纪下半叶大规模的系统考古发掘铺平了道路。因此，他被尊称为 <strong>“克尔纳韦考古之父”</strong> 。他的一生印证了：有时，让一座城市重生的，不是帝王将相，而是一个心怀执着与乡愁的探索者。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史沉睡之处，传说便肆意生长。克尔纳韦的每一座山丘、每一道山谷，都被赋予了魔幻的色彩。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最著名的传说关乎 <strong>“城堡山”的起源</strong>。相传，这些山丘并非自然形成，而是一位名叫<strong>丽佳</strong>的巨人女孩的杰作。她深爱着这片土地，为了保卫它免受入侵，她用围裙从远方兜来了巨量的泥土，堆砌成了这些防御山丘。当她匆忙中围裙带子断裂，泥土洒落，便形成了如今山丘间蜿蜒的沟壑。这个传说，巧妙地将地貌与远古的保卫之战联系起来，赋予自然景观以英雄主义的母性守护色彩。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个流传甚广的故事，是关于 <strong>“大公的宝藏”</strong> 。传说在1390年那场大火前夕，惊慌的居民将城中无法带走的财富——包括大公的金冠、异教神像和无数金币——投入了城堡山下的沼泽与涅里斯河中。数个世纪以来，关于“在特定月圆之夜，沼泽水底会泛起金光”的传闻从未断绝。这个传说不仅反映了那场灾难的突然与惨烈，也寄托了人们对失落辉煌的无限遐想，仿佛那些宝藏仍在守护着这片土地的旧日荣耀。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此外，关于 <strong>“白衣女子”</strong> 的幽灵传说也在当地口耳相传。据说在破晓前的雾霭中，有时会看见一位身着白裙的女子在城堡山巅徘徊，低声吟唱着古老的立陶宛挽歌。人们说，她是末代城主的女儿，在城破之日殉情或被杀，灵魂永远守护着家族的故土。这些传说，让冰冷的考古遗址，弥漫着挥之不去的人性与哀愁。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "行走在克尔纳韦青草萋萋的山丘之间，你踏足的并非寻常风景。你脚下是一个民族国家呱呱坠地的产房，也是一座城市猝然死亡的墓园。这里的价值，不在于观赏残垣断壁的壮观，而在于感知 <strong>“层累的历史”</strong> ——从新石器时代的燧石，到异教时代的祭坛，再到中世纪都城的焦土，最后是今日宁静牧场的草香。这种完整的、未被后期建筑打乱的序列，在欧洲都极为罕见。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它被誉为 <strong>“立陶宛的特洛伊”</strong> ，并非夸张。与特洛伊一样，它曾被认为仅是传说，直到考古学赋予其血肉。它的毁灭是彻底的，也因此，它的保存是完美的。它教会我们，历史的重量有时并非由屹立不倒的巨石衡量，而是由深埋地下的灰烬与记忆承载。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂克尔纳韦，便是读懂了立陶宛民族韧性中最深沉的一面：在强敌环伺中凝聚，在烈焰焚身后于灰烬中重生。这座露天博物馆，没有玻璃展柜的隔阂，历史就渗透在吹过山丘的风里，在每一步松软的泥土之下。它邀请每一位访客，成为一名短暂的时间考古学家，亲手触摸民族源头的温度与创痛。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、博物馆打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kernav--archaeological-site" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克尔纳韦</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kernavė</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/anyksciai" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尼克什奇艾</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Anykščiai</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/rumisikes-open-air-museum" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    伦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伦希什凯斯露天民俗博物馆</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rumšiškės Open-Air Museum</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

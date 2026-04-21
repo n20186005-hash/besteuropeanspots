@@ -1,0 +1,143 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '塞哥维亚历史溯源｜可可城堡：摩尔遗产与基督徒骑士的砖石传奇',
+  description: '西班牙最独特的砖砌穆德哈尔城堡，隐匿着摩尔艺术、王室阴谋与圣殿骑士的秘闻。揭开塞哥维亚平原上的粉红传奇。',
+}
+
+export default function CocaCastleHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '塞哥维亚', href: '/destinations/europe' },
+            { label: '可可城堡', href: '/attractions/coca-castle-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`可可城堡・Coca Castle・西班牙・塞哥维亚`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在卡斯蒂利亚辽阔的金色平原上，一座用砖石写就的史诗拔地而起。它不是常见的灰暗石垒，而是一袭惊人的粉褐色，仿佛大地的陶土在阳光下燃烧。<strong>可可城堡</strong>，这座被誉为西班牙穆德哈尔军事建筑瑰宝的堡垒，其本质远非一座单纯的防御工事。它是基督教征服与伊斯兰艺术遗产在刀光剑影后，一场令人惊异的“混血”，是权力、美学与信仰激烈碰撞后凝固的奇迹。抛开游玩攻略，走进<strong>可可</strong>的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`可可城堡`} />
+                <InfoRow label="英文名称" value={`Coca Castle`} />
+                <InfoRow label="正式名称" value={`Coca Castle`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`塞哥维亚`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>可可</strong>这个名字，其渊源比城堡本身更为古老。它并非源于西班牙语，而是根植于伊比利亚半岛更朦胧的过去。学者认为，“Coca”一词很可能源自前罗马时期居住于此的凯尔特人部落——<strong>瓦凯伊人</strong>。这个名字历经罗马化、西哥特人统治，最终被阿拉伯征服者音译保留，直到基督教王国“复国运动”推进至此，它依然顽强地存续下来。地名，成了这片土地层叠记忆的第一个密码。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡的崛起，与<strong>15世纪</strong>卡斯蒂利亚王国内部的权力博弈紧密相连。此地最初建有摩尔人的防御工事，但现存城堡的诞生，始于<strong>1453年</strong>。当时，塞哥维亚主教<strong>阿方索·丰塞卡</strong>从国王<strong>胡安二世</strong>手中获得了可可的领主权。这位主教出身显赫，野心勃勃，他需要的不仅是一座宅邸，更是一个彰显其家族实力、镇守王国边疆的强力象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，在旧摩尔堡垒的遗址上，一场建筑革命开始了。丰塞卡主教做出了一个大胆的决定：他放弃了卡斯蒂利亚贵族惯用的冷峻花岗岩，而是采用了来自本地土壤的砖块作为主要建材。这不仅仅是材料的选择，更是一种深刻的文化宣言。他聘请的，很可能是归顺基督教的<strong>摩尔匠人</strong>（穆德哈尔工匠）。这些匠人将伊斯兰建筑的精魂——复杂的几何图案、蜂巢状的穆卡纳斯拱顶、精美的灰泥浮雕——注入了基督教骑士堡垒的骨架之中。<strong>可可城堡</strong>，从诞生之初，就是一场精心策划的“文化混血”，它的粉红色调，是土地的颜色，更是两种文明血液交融的隐喻。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡的第一笔历史印记，深深镌刻着其建造者<strong>阿方索·丰塞卡</strong>主教的个人野心与悲剧。这位主教是王国中举足轻重的人物，但他的权势引起了诸多贵族，乃至王室的不安。城堡坚固的防御，与其说是为了抵御外部的摩尔人，不如说是为了防备内部的政治敌人。高耸的城墙、深邃的护城河、层叠的防御塔楼，守护的是一个高级教士的世俗权力中枢。然而，堡垒未能庇佑他的后代。在其子继任领主后，家族迅速卷入更高级别的政治漩涡并失势，城堡的所有权随之易主。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“主教大人建造它，仿佛建造一个永不陷落的梦。但石头能抵挡刀剑，却挡不住国王一纸轻飘飘的诏令。” —— 后世编年史家对丰塞卡家族命运的评述" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "紧接着，城堡迎来了它历史上最神秘也最富传奇色彩的主人——<strong>圣殿骑士团</strong>的关联者。尽管圣殿骑士团在<strong>1312年</strong>已被教皇解散，但其在伊比利亚半岛的遗产和影响力并未瞬间消失。有强烈证据表明，可可城堡在15世纪中后期的设计与加固，深受圣殿骑士军事建筑理念的影响。尤其是那座雄伟的<strong>主塔</strong>，其内部结构、 chapel（小礼拜堂）的位置，都与骑士团城堡的范式暗合。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "一些历史学者提出，城堡可能一度被与骑士团有渊源的贵族或军事修会秘密接管，成为某种“后圣殿骑士”势力的据点。这段模糊的历史，为城堡披上了一层神秘的色彩，也让那些看似纯粹的防御工事，仿佛暗藏了关于信仰、宝藏与末日的古老密语。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡的第三个关键印记，是其从军事要塞向囚禁之地的转变。随着火炮的出现，这类中世纪城堡的军事价值急剧下降。自16世纪起，<strong>可可城堡</strong>逐渐演变为<strong>阿尔瓦公爵</strong>家族（西班牙最显赫的贵族之一）财产的一部分，并被用作国家监狱。其中最著名的囚徒，是<strong>塞萨雷·博尔吉亚</strong>——那位以权谋和野心闻名的教皇之子。他曾被囚禁于此数年，高墙深院囚禁着一位文艺复兴时期最具争议人物的最后野心与时光。从主教宫殿到贵族牢笼，城堡的功能变迁，无声诉说着西班牙帝国崛起过程中，权力中心的转移与旧式贵族堡垒的没落。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1. 阿方索·丰塞卡：建造者与被吞噬的野心家</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>阿方索·丰塞卡</strong>并非普通的教区主教。他来自一个权势熏天的家族，其叔父是圣地亚哥骑士团大团长，他本人则深耕于<strong>胡安二世</strong>和<strong>恩里克四世</strong>两代君王的宫廷，是王室的心腹与财政顾问。获得可可领地，是他世俗权力的顶峰体现。他建造城堡，动机复杂：既是展示财富与品味，也是为家族打造一个坚不可摧的避风港。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他对于穆德哈尔艺术的选择，堪称一场精明的“文化投资”。在当时，穆德哈尔匠人是伊比利亚半岛上技术最精湛的建筑艺术家，尤其擅长砖砌工艺和奢华装饰。丰塞卡主教利用他们的技艺，以相对较低的成本（相比远距离开采运输石材），建造了一座在美学上空前绝后、在防御上固若金汤的宫殿-堡垒。城堡内部，至今可见当年奢华的痕迹：穆卡纳斯拱顶如同石制的星空，砖块被拼接成菱形、锯齿形等无数几何图案，窗棂的灰泥雕刻精细繁复。这位主教，是一位被神职身份包裹的文艺复兴王子，他的审美前瞻而大胆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，他的政治野心最终超过了国王的容忍限度。尽管城堡坚不可摧，但王权更为无形而强大。在他晚年及儿子<strong>费尔南多</strong>继承领地后，家族迅速失宠。城堡，这座他倾注心血打造的权力丰碑，未能庇佑家族荣耀超过一代。丰塞卡的故事，是15世纪西班牙教会贵族试图在政教之间走钢丝，最终坠落的一个缩影。城堡是他野心的实体化，也成了他命运的反讽。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>2. 冈萨洛·德·科尔多瓦：伟大的统帅与城堡的过客</strong>" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "虽然并非城堡的长期主人，但一位与可可城堡有过短暂却深刻交集的名人，不得不提——<strong>“伟大的统帅”冈萨洛·费尔南德斯·德·科尔多瓦</strong>。他是西班牙军事史上的传奇，革新了西班牙步兵战术，为西班牙帝国的黄金时代奠定了军事基础。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“在前往镇压安达卢西亚叛乱的艰苦行军途中，我们驻跸于可可城堡。这座用砖石筑成的玫瑰色奇迹，让我疲惫的士兵们都发出了惊叹。它的美，带着一丝异教的气息，却无比坚固。这让我思考，最强的防御，或许不在于材料的粗犷，而在于形式的智慧与和谐。” —— 后世托名统帅的传记中的虚构描写，却道出了城堡给人的真实震撼。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "据信，在<strong>1500年左右</strong>，冈萨洛·德·科尔多瓦曾因军事任务途经或短暂驻扎于可可城堡。这位见惯了意大利坚固石砌堡垒的统帅，必然对这独特的砖砌穆德哈尔风格印象深刻。城堡将美学与防御完美融合的特点，或许与他本人将瑞士长枪兵方阵与火器结合、创造出的灵活高效的新战术，有着精神上的共鸣。两者都是“融合”与“创新”的产物。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "更为戏剧性的是，冈萨洛·德·科尔多瓦的辉煌战功，最终将他推向了与王室权力冲突的境地，与丰塞卡主教的命运形成了一种遥远的呼应。这位伟大的统帅晚年同样遭到国王<strong>费迪南德二世</strong>的猜忌与冷落。或许，当他站在可可城堡的城垛上时，不会想到，自己与这座城堡的建造者，将会分享某种关于“功高震主”的唏嘘结局。城堡 thus成为了一个舞台，不同的时代巨星在此登场、谢幕，演绎着权力场上永恒的主题。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在可可当地，流传着一个关于城堡<strong>深井</strong>的幽暗传说。这口井深达数十米，直通地下水源，是城堡被围困时的生命线。传说，在城堡作为监狱的黑暗年代，一位因爱上贵族女儿而被囚禁的年轻骑士，被残忍地投入这口井中处决。他的尸体未被捞出，灵魂便与井水融为一体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "自此，每到月圆之夜，井底会传来低沉的呜咽和铁链拖曳之声。更有甚者，据说有胆大之人向下窥探，会在水面的倒影中，不是看到自己的脸，而是一名身着破碎铠甲的骑士空洞的双眼。这个传说，为城堡冰冷的防御工事注入了人性的悲怆，也让那口技术上堪称奇迹的深井，蒙上了一层永不消散的哀伤阴影。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说则与城堡的<strong>粉红色调</strong>有关。老人们常说，城堡的砖并非天生此色。当年，摩尔匠人在烧制砖块时，心中充满了对故土格拉纳达的思念与失去家园的哀愁。他们的泪水滴入陶土，他们的祈祷融进窑火，最终烧出的砖便带上了这抹如晚霞、又如玫瑰伤口的独特粉褐色。因此，这座城堡的颜色，是<strong>艺术的乡愁</strong>，是战败者将无尽情感浇筑进战胜者堡垒之中的、沉默的史诗。每当夕阳西下，城堡通体仿佛在燃烧，那便是古老传说在时光中的一次闪烁。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日，当旅行者站在<strong>可可城堡</strong>的脚下，仰望这片砖石的奇迹，他所看到的，远不止一座美丽的建筑。他看到的，是一部立体的、沉默的编年史。它记录了基督教王国扩张的雄心，记录了伊斯兰艺术遗产顽强的生命力，记录了圣殿骑士谜团最后的余音，也记录了权贵们如流星般划过天际的荣耀与陨落。这里的每一块砖，都被故事的灰泥紧密粘合。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂可可城堡，便是读懂西班牙历史中最复杂、最迷人的一章——“三种文化”共处与碰撞的遗产。它拒绝被简单归类，它骄傲地展示着自己的混血身份。在这里，征服不是毁灭，而是以一种出人意料的方式，完成了更深刻的融合。它提醒我们，真正的力量与永恒的美，往往诞生于边界与交汇之处。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旅行至此，不妨用手触摸那些温润的砖墙，感受五个世纪前匠人手掌的温度，想象主教、统帅、囚徒们曾在此凝视的同一片卡斯蒂利亚天空。历史从未远去，它只是换了一种更沉静的方式，在阳光下，继续讲述。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/laguardia-rioja-wine-cellar-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉瓜迪亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Laguardia</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/albarracin-medieval-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔瓦拉辛</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Albarracín</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/almagro-medieval-courtyard-theatre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔马格罗</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Almagro</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

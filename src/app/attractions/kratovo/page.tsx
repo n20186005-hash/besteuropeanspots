@@ -1,0 +1,247 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '克拉托沃 Kratovo｜探秘“塔与桥之城”，漫步于死火山口中的中世纪时光胶囊 - 最佳欧洲景点',
+  description: '当你乘坐的巴士费力地爬上一个山坡，然后猛地向下一拐时，你一定会忍不住发出一声低呼。眼前仿佛大地突然张开了一个巨大的、绿意盎然的碗，而碗底密密麻麻挤满了红瓦屋顶的石头房子，像极了一幅被不小心打翻的玩具积木模型。这就是你对克拉托沃的第一眼——一种超现实的、带着地质奇迹感的震撼。车子沿着碗壁盘旋而下，你才',
+}
+
+export default function KratovoPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '北马其顿', href: '/destinations/europe' },
+            { label: '克拉托沃', href: '/destinations/europe' },
+            { label: '克拉托沃', href: '/attractions/kratovo' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`克拉托沃・Kratovo・北马其顿・克拉托沃`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你乘坐的巴士费力地爬上一个山坡，然后猛地向下一拐时，你一定会忍不住发出一声低呼。眼前仿佛大地突然张开了一个巨大的、绿意盎然的碗，而碗底密密麻麻挤满了红瓦屋顶的石头房子，像极了一幅被不小心打翻的玩具积木模型。这就是你对克拉托沃的第一眼——一种超现实的、带着地质奇迹感的震撼。车子沿着碗壁盘旋而下，你才渐渐看清，连接那些屋顶的，不是寻常的街道，而是一座座高耸的拱形石桥，它们飞跃在深不见底的沟壑之上，而山坡上，一座座敦实的石制塔楼像沉默的哨兵，凝视着这一切。
+走进镇子，感官的细节才扑面而来。脚下是无数个世纪被矿工、居民和驴子磨得光滑的火山岩石板路，陡峭得让你气喘吁吁。空气里有种清冽的、混合着苔藓、湿石头和远处山林的气息。仔细听，除了你自己的脚步声，还有从那些深邃沟壑（这里人叫它们“karluk”）底部传来的、几乎永不间断的汩汩水声，那是河流在地下奔流。时不时，某座塔楼里会传来当地人聊天的嗡嗡回声，或是某个小广场上教堂的钟声，清脆地落在这一片石头的寂静里。你会看到老奶奶坐在自家桥头的门槛上晒太阳，脚边趴着懒洋洋的猫；孩子们在迷宫般的小巷里追逐，笑声在石墙间弹跳。这里不是一个冰冷的景点，而是一个仍然在缓慢呼吸的有机体。
+克拉托沃最打动人心的，正是这种极致的反差与和谐。它坐落在一个狂暴地质运动形成的火山口里，却孕育出了无比精巧的人类居所。它曾经因地下蕴藏的财富（白银）而繁荣，塔楼是富有的矿主家族修建来彰显实力和提供防御的，而如今，财富早已采尽，留下的却是这些更持久的、关于社区和生存的见证。走在那些桥上，你脚下跨越的不仅是地理的沟壑，更是时间的深渊。这里的魅力不在于某个辉煌的宫殿或教堂，而在于整个城镇作为一件完整艺术品的姿态，一种在极端地形中迸发出的人类居住智慧与诗意，一种被时光善意遗忘的宁静。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你乘坐的巴士费力地爬上一个山坡，然后猛地向下一拐时，你一定会忍不住发出一声低呼。眼前仿佛大地突然张开了一个巨大的、绿意盎然的碗，而碗底密密麻麻挤满了红瓦屋顶的石头房子，像极了一幅被不小心打翻的玩具积木模型。这就是你对克拉托沃的第一眼——一种超现实的、带着地质奇迹感的震撼。车子沿着碗壁盘旋而下，你才渐渐看清，连接那些屋顶的，不是寻常的街道，而是一座座高耸的拱形石桥，它们飞跃在深不见底的沟壑之上，而山坡上，一座座敦实的石制塔楼像沉默的哨兵，凝视着这一切。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进镇子，感官的细节才扑面而来。脚下是无数个世纪被矿工、居民和驴子磨得光滑的火山岩石板路，陡峭得让你气喘吁吁。空气里有种清冽的、混合着苔藓、湿石头和远处山林的气息。仔细听，除了你自己的脚步声，还有从那些深邃沟壑（这里人叫它们“karluk”）底部传来的、几乎永不间断的汩汩水声，那是河流在地下奔流。时不时，某座塔楼里会传来当地人聊天的嗡嗡回声，或是某个小广场上教堂的钟声，清脆地落在这一片石头的寂静里。你会看到老奶奶坐在自家桥头的门槛上晒太阳，脚边趴着懒洋洋的猫；孩子们在迷宫般的小巷里追逐，笑声在石墙间弹跳。这里不是一个冰冷的景点，而是一个仍然在缓慢呼吸的有机体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "克拉托沃最打动人心的，正是这种极致的反差与和谐。它坐落在一个狂暴地质运动形成的火山口里，却孕育出了无比精巧的人类居所。它曾经因地下蕴藏的财富（白银）而繁荣，塔楼是富有的矿主家族修建来彰显实力和提供防御的，而如今，财富早已采尽，留下的却是这些更持久的、关于社区和生存的见证。走在那些桥上，你脚下跨越的不仅是地理的沟壑，更是时间的深渊。这里的魅力不在于某个辉煌的宫殿或教堂，而在于整个城镇作为一件完整艺术品的姿态，一种在极端地形中迸发出的人类居住智慧与诗意，一种被时光善意遗忘的宁静。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`克拉托沃`} />
+                <InfoRow label="英文名称" value={`Kratovo`} />
+                <InfoRow label="正式名称" value={`Kratovo`} />
+                <InfoRow label="国家" value={`北马其顿`} />
+                <InfoRow label="城市" value={`克拉托沃`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座被完整保存在古死火山口内的中世纪矿业城镇，是奥斯曼帝国时期巴尔干地区重要的白银和铁矿开采中心。`} />
+                <InfoRow label="建筑特色" value={`独特的“塔楼-石桥-沟壑”三维立体城镇结构，桥梁不是跨河而是跨越被河流切割出的深邃城市沟壑。`} />
+                <InfoRow label="建筑风格" value={`奥斯曼巴尔干民间防御与居住建筑风格的杰出代表，融合了实用性与地域特色。`} />
+                <InfoRow label="文化价值" value={`一个活生生的建筑博物馆，其未经大规模现代化改造的城镇布局和石构建筑，罕见地保留了16-19世纪巴尔干山城的生活图景与社区脉络。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇公共区域全天开放。镇上主要的六座中世纪塔楼（Saat Kula, Simikjeva Kula等）内部开放时间较为灵活，通常取决于看守的当地人，夏季（4月-10月）白天大多能找到人开门，冬季可能需提前向旅游局或Information House询问。镇上的小型博物馆和Information House通常在周一至周五的上午9点至下午4点开放，周末开放时间缩短或需预约。`} />
+              <InfoRow label="门票价格" value={`进入克拉托沃古镇本身免费。参观个别塔楼内部或小型地方博物馆可能收取象征性费用，约50-100第纳尔（约合1-2欧元），有时这笔费用也包含在聘请当地向导的服务中。没有复杂的套票系统。`} />
+              <InfoRow label="地址" value={`Krusevska bb, 1360 Kratovo, North Macedonia`} />
+              <InfoRow label="交通方式" value={`从北马其顿首都斯科普里出发是最佳选择。在斯科普里汽车站（Avtobuska Stanica）乘坐前往克拉托沃的直达巴士，车程约2-2.5小时，每天约有3-4班车，发车时间集中在上午和中午，建议出发前一晚确认最新时刻表。巴士会蜿蜒上山，最终驶入火山口边缘，景色豁然开朗。自驾则更为方便，从斯科普里沿A2/E65公路东北方向行驶，转入地方公路后跟随“Kratovo”路标即可，全程约110公里。古镇内街道狭窄陡峭，建议将车停在镇口免费停车场，然后步行探索。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要讲克拉托沃的故事，我们得先从脚下这个“碗”说起。数百万年前，这里曾是一片火海，剧烈的火山喷发塑造了这个独特的碗状地貌。火山沉寂后，雨水汇聚成河，千万年的冲刷在柔软的火山凝灰岩上切割出了六条深邃的放射状沟壑，这就是后来决定城镇格局的“karluk”。人类很早就被这里吸引，不是因为风景，而是因为地下的宝藏——金、银、铜、铁。罗马人曾在此开采，但真正让克拉托沃登上历史舞台的，是中世纪。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "大约在13世纪，随着塞尔维亚帝国的扩张和这一地区矿业的复兴，人们开始在这个易守难攻的火山口内定居。但真正的黄金时代是在奥斯曼帝国统治时期，大约从15世纪到18世纪。奥斯曼人看到了这里矿产的巨大价值，给予了采矿特许权，吸引了大量矿工、商人和工匠前来，其中很多是来自萨索斯岛的希腊人。白银从这里被开采出来，铸造钱币，支撑着帝国的财政。财富滚滚而来，城镇迅速膨胀。但如何在这样一个被沟壑撕裂的陡峭地形中建造房屋、连接社区呢？克拉托沃人的答案充满了天才的想象力：他们顺着沟壑两岸建造房屋，然后用高大的石桥将两岸连接起来。这些桥不是装饰，而是主干道，是生活的动脉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而财富也带来了不安全感。富裕的矿主和商人家族开始建造坚固的塔楼（Kula）。这些塔楼通常有四五层高，底层用作仓库或作坊，上层是生活区。厚厚的石墙、狭小的窗户和沉重的木门，都是为了防御。在动荡的年代，一旦有土匪或军队来袭，全家甚至整条街的人都可以躲进塔楼固守。鼎盛时期，据说镇上有近百座这样的塔楼，如今保存下来的还有六座，每一座都有自己的名字和故事，比如Saat Kula（钟楼），顶上曾有一座从匈牙利运来的大钟；又比如Zlatkov Kula，属于最富有的矿主家族之一。塔楼与桥梁，一竖一横，构成了克拉托沃独一无二的三维城市骨架。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，就像所有依赖单一资源的城镇一样，克拉托沃的繁荣也随着矿脉的枯竭而衰落。从19世纪开始，矿业活动逐渐停止，人口外流，城镇陷入了长达一个多世纪的沉睡。也正是这种“被遗忘”，奇迹般地保护了它。它没有经历大规模的城市化改造，没有宽阔的马路推平古老的街区，那些石桥、塔楼、迷宫般的小巷和数百年的老房子，都原封不动地保存了下来。20世纪中期，它被重新“发现”，并被列为国家保护的文化遗产。如今，采矿的喧嚣早已远去，地下不再流出白银，但地面上流淌着的是更加珍贵的时光。克拉托沃从一座“白银之城”，蜕变成了一座“时光之城”。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味克拉托沃，你需要整整一天的时间，并且把脚步放到最慢。建议早上从斯科普里出发，争取在上午十点左右抵达。这个时间，晨雾刚散，阳光正开始温柔地照亮火山口一侧的塔楼和红瓦，游客也尚未到来，小镇正在慢慢苏醒。你的第一站应该是镇口的“Information House”，这里由一座老房子改造而成，可以拿到简单的地图，了解六座塔楼的位置。整个游览节奏应该是散漫的、探索式的，不要追求打卡所有点，而是让自己迷路在小巷中。从Information House开始，沿着主干道向镇中心广场探索，逐一拜访那些可进入的塔楼，走过每一座有名字的古桥，中午在广场边的传统餐馆享用一顿漫长的午餐，下午则去探索更僻静的小巷和沟壑边缘，最后在黄昏时分，爬到火山口边缘的制高点，等待落日将整个石头小镇染成金黄。这样的安排让你既能抓住最好的光线拍照，又能体验到小镇从宁静到充满生活气息，再重归宁静的完整韵律。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适防滑的徒步鞋，这里的街道坡度远超你的想象，而且古老的石板在潮湿时非常滑。
+小镇几乎没有ATM机，餐馆和小店大多只收现金（北马其顿第纳尔），记得在斯科普里就取好足够现金。
+夏季正午阳光直射火山口内会非常炎热，记得戴帽子、涂防晒霜，并随身携带足够饮水，小镇商店分布稀疏。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在Information House那栋充满柴火香气的老石头房子里，向和蔼的管理员要一份手绘地图，听他用地道的马其顿口音英语指点几个必看之地。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从Saat Kula钟楼开始你的攀登，沿着狭窄旋转的石阶爬到顶层，从那些狭小的窗户像中世纪哨兵一样俯视全镇红瓦屋顶如波浪般铺开。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走过连接两岸社区的Krstevski Most石桥，一定要在桥中央停留，低头俯瞰脚下数十米深、植被茂密的沟壑，听那仿佛来自地心的流水轰鸣。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进Simikjeva Kula塔楼内部，让眼睛适应昏暗的光线，触摸那些被烟火熏黑的厚重石墙，想象一个家族在此生活几个世纪的故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`中午时分晃到中心广场的“Stara Kuka”老房子餐馆，在露台上找张桌子，点一份陶罐炖肉和当地沙拉，边吃边看广场上无所事事的老人和下棋的街坊。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后沿着最陡峭的Kostadinovska街往下溜达，任由自己被狭窄巷弄牵引，经过爬满葡萄藤的院落和传出电视声的百年老宅门口。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到藏在小巷深处的圣尼古拉斯小教堂，轻轻推开虚掩的木门，里面烛光摇曳，空气中有蜂蜡和古老木头的混合气息，安静地坐几分钟。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前沿着指示牌徒步上山，走到火山口边缘的观景点，回望整个克拉托沃像一颗被精心安放在墨绿色天鹅绒盒子里的琥珀，在夕阳下闪闪发光。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`火山口东侧边缘公路拐弯处`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，从这里可以用长焦镜头压缩空间，将层层叠叠的屋顶、耸立的塔桥与远山框入同一画面，温暖侧光会让石头呈现金色。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`Krstevski Most石桥的南端`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点左右，阳光刚刚能照亮桥拱的内壁，站在桥下台阶上仰拍，可以捕捉到行人走过时被桥洞勾勒出的剪影，背景是透着蓝光的天空。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从Sveti Nikola教堂的小广场向西望`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，阳光穿过狭窄的巷子，在石板路上投下长长的光影，以一座石桥的侧面为前景，可以拍出极具纵深感的故事性画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`任意一条深邃的“karluk”沟壑边缘`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射沟底，找到一处安全围栏，垂直向下拍摄，可以捕捉到被绿植覆盖的岩壁、隐约的流水与一线天的奇特构图。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`本地人称为“Kula Simikjeva”塔楼的顶层窗洞`}</h4>
+                  <p className="text-sm text-gray-700">{`将相机镜头贴近古老的石窗框，以其为自然画框，拍摄窗外另一座塔楼和一片红色屋顶，形成“框中画”的趣味视角。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`早晚的“黄金时刻”和“蓝色时刻”在这里效果绝佳，柔和的光线能极大增强石头建筑的质感和立体感，正午的强光反而会让画面缺乏层次。`}</li>
+                <li>• {`拍摄当地居民尤其是老人和孩子时，请务必先微笑示意并征求同意，这里不是繁忙的旅游区，居民享有他们的宁静，尊重是首要的。`}</li>
+                <li>• {`使用无人机拍摄前，最好咨询一下Information House，虽然小镇没有明确禁飞，但需注意避开私人庭院和教堂上空，并保持低调。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸体验之选`}</h4>
+                  <p className="text-sm text-blue-800">{`镇中心由19世纪石头大宅改造的“Guest House Kratovo”，房东老夫妇会给你讲镇上的传说，早晨在种满天竺葵的庭院里享用家酿果酱和新鲜面包。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`景观至上之选`}</h4>
+                  <p className="text-sm text-green-800">{`位于火山口边缘的“Villa Kratovo”，房间拥有俯瞰整个火山口盆地无敌全景的落地窗或阳台，夜晚看着小镇灯火如星河落入碗底。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`历史气息之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`住在经过现代化改造的“Kula Zlatkov”塔楼本身里，体验一把中世纪矿主的感觉，厚重的石墙让室内夏凉冬暖，但楼梯确实陡峭有趣。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`经济便捷之选`}</h4>
+                  <p className="text-sm text-purple-800">{`镇口停车场附近的家庭式公寓“Apartmani Kratovo”，装修简单干净，自带小厨房，适合想要自己动手做饭和长时间停留的旅行者。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "克拉托沃的住宿选择非常有限，总共只有十来间客房，旺季（夏季和初秋周末）务必提前数周甚至数月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "住在镇上夜晚极其安静，只有风声和水声，能享受到真正的黑暗与星空，但相应的，夜生活为零，餐馆也关门很早，请做好心理准备。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果订不到镇内住宿，可以考虑住在约半小时车程外的更大城镇库马诺沃，但会失去清晨和夜晚独占古镇的珍贵体验。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开克拉托沃的时候，我的裤脚还沾着清晨小巷里的露水，手指上似乎还残留着触摸那些火山岩墙体时的粗粝凉意。回望那个渐渐隐没在山峦后的巨大“碗”，我感到一种奇特的平静。在这个追求更高、更快、更闪亮的时代，克拉托沃的存在本身就像一个温柔的悖论。它因向地下索取财富而崛起，却因地面的独特形态而被永恒铭记；它曾经的防御性塔楼，如今成了我们眺望风景、理解历史的窗口；它那些为了跨越障碍而建的桥，现在连接的是我们与一段慢速流逝的旧时光。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个地方教会我的，是一种“深度”的另一种诠释。旅行的深度不在于收集了多少个目的地，而在于你是否允许自己沉浸在一个地方的“褶皱”里——不仅仅是地理的沟壑，更是时间、故事和日常生活的褶皱。在克拉托沃，你无法匆匆忙忙。陡峭的坡度强迫你慢下来，迷路是常态，而每一次迷路都可能带你撞见一个在门口纺线的老奶奶，或者一个从未在地图上标注的、看往沟壑的绝美角度。这里没有恢弘的叙事，只有具体的生存、具体的家、具体的连接彼此的一座座桥。它提醒着我们，文明最动人的形态，往往不是征服自然，而是如何巧妙地、富有创造性地与之共舞，并在舞步中留下独一无二的美。如果你厌倦了欧洲那些被精心包装、人潮汹涌的经典，那么，请来克拉托沃。来这个死火山口中的活古镇，走一走时间的钢索，听一听石头与流水的低语，它会还你一颗沉静下来、能够听见自己心跳的心。这，或许才是深度旅行最终极的收获。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/matka-canyon" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    马
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">马特卡峡谷</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Matka Canyon</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kru-evo-macedonia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克鲁舍沃</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kruševo</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ohrid-lake-and-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥赫里德湖与老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ohrid Lake and Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,249 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔卡尼思 Alcañiz｜探秘山顶骑士团城堡与文艺复兴壁画瑰宝 - 最佳欧洲景点',
+  description: '车子驶离萨拉戈萨的平原地带，窗外的风景逐渐变得硬朗起来。土地是赭石色的，被一道道深绿的橄榄树和杏仁树林网格状分割，空气里有一种干燥的、混合着尘土与野生迷迭香的气味。然后，就在一个转弯后，你看到了它——阿尔卡尼思。它不像童话里的城堡那样尖顶玲珑，而是以一种近乎固执的、岩石般的棕黄色，牢牢地“生长”在城',
+}
+
+export default function CastleOfAlcanizParadorPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '阿拉贡自治区，特鲁埃尔省，阿尔卡尼思', href: '/destinations/europe' },
+            { label: '阿尔卡尼思', href: '/attractions/castle-of-alcaniz-parador' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿尔卡尼思・Alcañiz・西班牙・阿拉贡自治区，特鲁埃尔省，阿尔卡尼思`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子驶离萨拉戈萨的平原地带，窗外的风景逐渐变得硬朗起来。土地是赭石色的，被一道道深绿的橄榄树和杏仁树林网格状分割，空气里有一种干燥的、混合着尘土与野生迷迭香的气味。然后，就在一个转弯后，你看到了它——阿尔卡尼思。它不像童话里的城堡那样尖顶玲珑，而是以一种近乎固执的、岩石般的棕黄色，牢牢地“生长”在城镇之巅的那座小山上。第一眼的印象是力量，是威严，仿佛那头沉睡的石狮随时会醒来，俯瞰着脚下那些红瓦白墙、密密麻麻如同蜂巢般依附着的房屋。整个小镇的生活，似乎都以一种谦卑的姿态，环绕着这座山丘展开。
+停好车，沿着被正午阳光晒得发烫的石板路向山上走。寂静是这里最大的声音，只有你自己的脚步声，偶尔夹杂着远处广场传来的模糊人语，或是某扇百叶窗后飘出的电视声。当地人似乎习惯了与这座庞然大物共生，老人们坐在荫凉的门廊下摇着扇子，对游客投来平淡而友好的目光。通往城堡的上坡路两旁，墙壁是各种层次的黄，被岁月冲刷出斑驳的纹理，墙头探出怒放的天竺葵，那抹鲜红在炽烈的光线下几乎有些不真实。空气是热的，静止的，带着古老石墙在日晒下散发出的特有的、微暖的矿物质气息。
+当你终于站在城堡脚下，仰头望去，那种压迫感更为具体。高耸的塔楼几乎没有窗户，只有一些狭长的射击孔，沉默地诉说着它最初的使命绝非款待宾客。然而，走近了你会发现，入口处挂着“国营客栈”的精致招牌，一种奇妙的冲突感油然而生——最坚硬的军事堡垒，如今变成了最柔软的 hospitality 场所。推开厚重的木门，内部是一个阳光灿烂的庭院，精心修剪的绿植和舒适的藤椅瞬间缓和了外部的严峻。穿着得体制服的服务生对你微笑，空气中飘着咖啡香和淡淡的柠檬清洁剂味道。历史在这里，不再是博物馆里冰冷的展品，而是你即将枕着入眠的墙壁，是可以用手触摸到的温度。
+但阿尔卡尼思的灵魂，不只在山顶。下山走到主广场，那是另一番天地。广场不大，三面环绕着带有优雅拱廊的建筑，第四面则是令人屏息的市政厅立面。就在这里，藏着真正的宝藏——哥特式廊厅。走进那幽暗的拱廊内部，时光仿佛陡然慢了下来。凉意沁入肌肤，光线从街面透过拱门斜射进来，形成一道道光柱，照亮了空气中飞舞的微尘。然后，你抬起头，就会遇见那些壁画。它们不是在天花板上，而是在墙壁高处，描绘着骑士、贵族、寓言人物和圣经场景。颜色历经数百年依然惊人地鲜艳，朱红、宝蓝、金黄。最打动人的是那份生动，骑士的马蹄仿佛下一秒就要踏出墙面，人物的衣袍褶皱充满了雕刻般的质感。这不是高高在上的神谕，而是一部描绘着权力、信仰与日常生活的，绘制在墙上的史诗。从山顶的粗粝巨石，到广场的精妙笔触，阿尔卡尼思就这样，用两种截然不同的语言，向你完整地讲述了自己的故事。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子驶离萨拉戈萨的平原地带，窗外的风景逐渐变得硬朗起来。土地是赭石色的，被一道道深绿的橄榄树和杏仁树林网格状分割，空气里有一种干燥的、混合着尘土与野生迷迭香的气味。然后，就在一个转弯后，你看到了它——阿尔卡尼思。它不像童话里的城堡那样尖顶玲珑，而是以一种近乎固执的、岩石般的棕黄色，牢牢地“生长”在城镇之巅的那座小山上。第一眼的印象是力量，是威严，仿佛那头沉睡的石狮随时会醒来，俯瞰着脚下那些红瓦白墙、密密麻麻如同蜂巢般依附着的房屋。整个小镇的生活，似乎都以一种谦卑的姿态，环绕着这座山丘展开。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "停好车，沿着被正午阳光晒得发烫的石板路向山上走。寂静是这里最大的声音，只有你自己的脚步声，偶尔夹杂着远处广场传来的模糊人语，或是某扇百叶窗后飘出的电视声。当地人似乎习惯了与这座庞然大物共生，老人们坐在荫凉的门廊下摇着扇子，对游客投来平淡而友好的目光。通往城堡的上坡路两旁，墙壁是各种层次的黄，被岁月冲刷出斑驳的纹理，墙头探出怒放的天竺葵，那抹鲜红在炽烈的光线下几乎有些不真实。空气是热的，静止的，带着古老石墙在日晒下散发出的特有的、微暖的矿物质气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你终于站在城堡脚下，仰头望去，那种压迫感更为具体。高耸的塔楼几乎没有窗户，只有一些狭长的射击孔，沉默地诉说着它最初的使命绝非款待宾客。然而，走近了你会发现，入口处挂着“国营客栈”的精致招牌，一种奇妙的冲突感油然而生——最坚硬的军事堡垒，如今变成了最柔软的 hospitality 场所。推开厚重的木门，内部是一个阳光灿烂的庭院，精心修剪的绿植和舒适的藤椅瞬间缓和了外部的严峻。穿着得体制服的服务生对你微笑，空气中飘着咖啡香和淡淡的柠檬清洁剂味道。历史在这里，不再是博物馆里冰冷的展品，而是你即将枕着入眠的墙壁，是可以用手触摸到的温度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但阿尔卡尼思的灵魂，不只在山顶。下山走到主广场，那是另一番天地。广场不大，三面环绕着带有优雅拱廊的建筑，第四面则是令人屏息的市政厅立面。就在这里，藏着真正的宝藏——哥特式廊厅。走进那幽暗的拱廊内部，时光仿佛陡然慢了下来。凉意沁入肌肤，光线从街面透过拱门斜射进来，形成一道道光柱，照亮了空气中飞舞的微尘。然后，你抬起头，就会遇见那些壁画。它们不是在天花板上，而是在墙壁高处，描绘着骑士、贵族、寓言人物和圣经场景。颜色历经数百年依然惊人地鲜艳，朱红、宝蓝、金黄。最打动人的是那份生动，骑士的马蹄仿佛下一秒就要踏出墙面，人物的衣袍褶皱充满了雕刻般的质感。这不是高高在上的神谕，而是一部描绘着权力、信仰与日常生活的，绘制在墙上的史诗。从山顶的粗粝巨石，到广场的精妙笔触，阿尔卡尼思就这样，用两种截然不同的语言，向你完整地讲述了自己的故事。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿尔卡尼思`} />
+                <InfoRow label="英文名称" value={`Alcañiz`} />
+                <InfoRow label="正式名称" value={`Alcañiz`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`阿拉贡自治区，特鲁埃尔省，阿尔卡尼思`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座雄踞山巅的城堡是西班牙基督教收复失地运动的前沿堡垒，也是强大的卡拉特拉瓦军事骑士团在阿拉贡地区最重要的指挥中心之一。`} />
+                <InfoRow label="建筑特色" value={`一座将严峻军事防御功能与后来增添的民用、宗教建筑巧妙结合的综合体，从山顶威严地俯瞰并守护着脚下蔓延开的整个古镇。`} />
+                <InfoRow label="建筑风格" value={`以粗犷的罗马式与哥特式军事建筑为基底，融合了后来修建的穆德哈尔式元素以及华丽的文艺复兴时期壁画装饰，呈现出层次分明的建筑史画卷。`} />
+                <InfoRow label="文化价值" value={`它见证了基督教与伊斯兰文明在伊比利亚半岛的漫长拉锯与交融，其壁画更是西班牙文艺复兴早期世俗艺术的罕见珍品，生动记录了骑士团的荣耀与城镇的市民生活。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡（现国营客栈）公共区域及观景露台全天24小时对住客开放，非住客可进入大堂、庭院及部分指定区域参观，时间通常为上午9点至晚上8点。城堡内的瞭望塔及古老礼拜堂的开放时间较短，一般为上午10点至下午2点及下午5点至7点。市中心广场的文艺复兴壁画廊（Lonja Gótica）开放时间较为固定，周二至周六上午10点至下午2点，下午5点至晚上8点；周日上午10点至下午2点。周一闭馆。以上时间可能有季节性微调，部分宗教节日期间城堡内部可能临时关闭。`} />
+              <InfoRow label="门票价格" value={`城堡（国营客栈）作为酒店，入住需支付房费（视季节和房型，每晚约120-250欧元）。仅参观公共区域（大堂、主庭院、部分露台）通常免费。若要进入内部历史展区或由向导带领参观特定区域（如骑士团大厅），可能收取小额导览费（约3-5欧元）。市中心壁画廊门票统一为2欧元，学生及65岁以上长者享受半价优惠，12岁以下儿童免费。`} />
+              <InfoRow label="地址" value={`Castillo de los Calatravos, 44600 Alcañiz, Teruel, Aragón, Spain`} />
+              <InfoRow label="交通方式" value={`从最近的国际机场萨拉戈萨机场出发，最佳方式是租车自驾。取车后驶上A-68高速公路往东南方向，转入A-222公路，全程约110公里，耗时约1小时20分钟，沿途是典型的阿拉贡干旱高原风光，非常壮阔。如果乘坐公共交通，可从萨拉戈萨的Delicias车站搭乘由HIFE公司运营的城际巴士，每天约有3-4班车前往阿尔卡尼思，车程约1小时45分钟，建议提前在售票处或网上查好时刻表，班次不算密集。小镇内部非常紧凑，所有景点均可轻松步行抵达。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔卡尼思的故事，始于流淌在它脚下的瓜达洛佩河。这条河的名字源于阿拉伯语“Wadi-al-lup”，意为“狼之河”，揭示着这片土地最早的主人。在穆斯林统治伊比利亚半岛的漫长岁月里，这里就是一个重要的据点，控制着从海岸通往内陆的贸易路线。山头或许早已有了防御工事，默默注视着山下平原的变迁。转折点发生在12世纪，基督教王国收复失地的浪潮席卷而来。1169年，阿拉贡国王阿方索二世将这片战略要地，赐予了当时正如日中天的军事修会——卡拉特拉瓦骑士团。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "骑士团的到来，彻底改变了这座山的命运。他们可不是来欣赏风景的。他们是战士，是僧侣，也是殖民者。他们的首要任务，是建造一个坚不可摧的堡垒，作为进一步向南推进、与穆斯林格拉纳达王国对峙的跳板和屏障。于是，我们今天看到的城堡核心部分拔地而起：高大的主塔、厚重的城墙、蓄水池、粮仓、兵营。石头被一块块垒起，每一道缝隙都充满了紧迫感。这里成了边境前线，空气里弥漫着戒备与祈祷的气息。骑士们白天巡逻、训练，晚上在简陋的小教堂里诵经，他们的生活严格遵循着“祈祷与战斗”的准则。城堡不仅是军事要塞，也成了整个地区的行政与经济中心，骑士团管理者周围的土地、村庄和居民。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转到14、15世纪，随着边境线逐渐南移，阿尔卡尼思的直接军事压力减小了。城堡的功能开始演变，从纯粹的战争机器，转向权力与管理的象征。就是在这个相对和平与繁荣的时期，城镇在山下蓬勃发展，而城堡也迎来了它艺术上的高光时刻。15世纪初，也许是某位富有的骑士团指挥官，或是当地崛起的市民贵族，出资聘请了画师。他们或许来自阿拉贡的首府，甚至受到意大利文艺复兴风潮的间接影响。这些无名的大师在城堡的小礼拜堂和山下广场的市政厅廊墙上，留下了那些辉煌的壁画。这些画作非同寻常，因为它们大量描绘了世俗主题：骑士团的纹章、狩猎场景、寓言故事，甚至可能是捐赠者的肖像。它们自信、生动，色彩奔放，将一种新的、对人的关注和描绘方式，带到了这个内陆要塞。艺术，第一次如此强势地侵入了军事建筑的严肃空间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，历史的浪潮起起伏伏。随着天主教双王完成统一，军事修会的作用逐渐削弱。城堡失去了昔日的战略意义，开始走向漫长的衰落。它曾被用作监狱，在拿破仑战争期间遭到法军的破坏，一度近乎废墟。曾经鲜艳的壁画被灰尘和白灰覆盖，被人遗忘。直到20世纪，人们才重新认识到它的价值。一场漫长而细致的修复工程展开，剥去掩盖的灰层，壁画惊世之美重见天日。而城堡本身，则在1960年代被改造成西班牙著名的“国营客栈”网络中的一员。这是一个绝妙的主意：用酒店运营的收入来维护古迹，同时让普通人有机会真正“住进”历史里。工人们小心翼翼地改造内部空间，加入现代设施，但最大限度地保留了石墙、拱顶和古老的氛围。于是，战马的嘶鸣变成了客人的低语，骑士的厅堂变成了阅读的角落，哨兵守望的露台变成了品尝当地葡萄酒的绝佳地点。历史没有死去，它只是换了一种方式，继续呼吸和讲述。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天来沉浸式体验阿尔卡尼思。最佳抵达时间是前一晚入住城堡酒店，这样你就能独享清晨无人时分城堡的宁静与壮丽。第二天上午，利用光线柔和的时段深度探索城堡内部、塔楼和露台，感受其作为军事堡垒的清晨肃穆。临近中午下山，此时阳光直射，正好躲进老城狭窄阴凉的街巷，漫步至主广场。在广场拱廊下的咖啡馆享用一顿悠闲的西班牙式午餐后，下午重点参观凉爽的哥特式壁画廊，细细品味那些文艺复兴杰作。傍晚时分，可以再次上山（或留在山下），看着夕阳将城堡和整个小镇染成金色。这样的节奏张弛有度，既能捕捉到景点在不同光线下的最美时刻，又能避开最灼热的中午阳光进行户外徒步，完美融合了历史探索、艺术欣赏和当地生活体验。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`阿拉贡内陆夏季午后非常炎热，务必携带充足饮用水、帽子和太阳镜，正午时分尽量安排在室内（如壁画廊或咖啡馆）活动。
+参观壁画廊时请保持安静，不要使用闪光灯，这些古老的颜料极为脆弱，需要每个人的呵护。
+小镇许多小巷坡度较陡且铺着光滑的古老石板，建议穿一双舒适防滑的步行鞋，高跟鞋在这里绝对是灾难。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`前一晚入住城堡国营客栈，在星空下的城堡露台喝一杯当地的歌海娜葡萄酒，听风穿过古老石墙缝隙的声音。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`次日清晨趁其他游客还未抵达，独自登上城堡主塔楼的顶端，看着晨光如何一点点驱散山谷间的薄雾，照亮脚下红瓦连绵的古镇。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在城堡餐厅享用一顿包含当地火腿和特级初榨橄榄油的丰盛早餐，想象几个世纪前骑士们在此准备出征的场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着蜿蜒的“Cuesta de los Jardines”花园步道慢慢下山，用手触摸沿途饱经风霜的古老石墙，观察墙壁缝隙里顽强生长的野花。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进主广场的拱廊阴影下，找一家老字号咖啡馆坐下，点一杯浓咖啡和“torta de alma”，看着当地人在广场上不紧不慢地相遇、聊天。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花至少一个小时沉浸在哥特式廊厅的壁画前，从那些生动的骑士肖像和寓言场景中，寻找可能隐藏的历史细节和故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从广场钻进通往圣玛利亚教堂的小巷，探索犹太人区残存的古老街道布局，感受不同文化层在此留下的隐秘印记。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前返回城堡山脚下的某个观景点，或如果你仍是住客，就回到露台，见证夕阳将整个巨石城堡燃烧成辉煌的金红色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡东侧露台日出时分`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨太阳从平原方向升起，站在城堡东侧的观景露台，可以拍到金色阳光为城堡塔楼勾勒出锋利轮廓，而脚下的古镇还沉浸在蓝色阴影中的经典明暗对比画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主广场拱廊内侧仰拍壁画`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光斜射入廊厅时，站在壁画下方的角落，向上仰拍，利用拱券作为天然画框，捕捉光线照亮局部壁画细节而周围环境陷入幽暗的神秘感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从“Mirador de la Plaza de España”观景台远眺城堡`}</h4>
+                  <p className="text-sm text-gray-700">{`这个位于城镇较低处的观景台，是拍摄城堡雄踞全城经典全景的最佳地点，黄昏时分华灯初上，城堡亮起暖光，与深蓝色的天空形成冷暖对比，画面极具戏剧性。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`犹太人区蜿蜒小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`利用小巷两侧高耸的黄色墙壁形成的天然引导线构图，拍摄小巷尽头突然出现的城堡一角，这种“意外邂逅”的视角最能体现城堡与城镇肌理的紧密融合。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城堡内部庭院拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`中午当庭院充满阳光时，寻找一个古老的石拱门或门洞作为前景框架，拍摄庭院中的人物活动或是另一端的建筑细节，营造出“窥探历史”的景深感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`阿拉贡的阳光非常“硬”，尤其是在正午，建议利用清晨和黄昏的“黄金小时”进行外景拍摄，光线柔和，色彩温暖。`}</li>
+                <li>• {`拍摄古老壁画时，请绝对关闭闪光灯，高感光度和大光圈镜头是更好的选择，如果需要更长时间曝光，可携带一个小型便携三脚架。`}</li>
+                <li>• {`尊重当地居民隐私，避免将镜头直接对准居民家的窗户或门内，拍摄人物时最好先微笑示意，获得默许。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`极致历史沉浸`}</h4>
+                  <p className="text-sm text-blue-800">{`毫无疑问就是城堡国营客栈本身，选择一间由古老石砌房间改造的客房，夜晚的寂静是百分百中世纪的，清晨打开窗，整个阿拉贡平原都在你的脚下。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老城中心便利之选`}</h4>
+                  <p className="text-sm text-green-800">{`主广场或附近步行一两分钟距离内的精品酒店或家庭旅馆，通常由老宅改建，拥有木梁天花板和古董家具，晚上可以听着广场的隐约人声入睡，体验纯粹的市井生活。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`宁静乡村风情`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车前往小镇外围几公里处的“卡萨 Rural”（乡村农庄），这些由古老农舍改造的住宿提供宽敞的空间、私人泳池和真正的田园风光，晚上能看到璀璨的银河，适合想要绝对宁静的家庭或情侣。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感现代体验`}</h4>
+                  <p className="text-sm text-purple-800">{`在离历史区稍远但仍步行可达的新区，有一些设计风格简约现代的酒店，提供全新的设施和当代舒适感，与古老的历史景观形成有趣反差，适合对住宿现代性有要求的旅行者。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡国营客栈非常热门，尤其是在春秋最佳旅行季节和周末，务必提前数月预订，并直接在其官网查看是否有针对历史房间的特殊套餐。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果选择住在老城内，请注意部分非常古老的建筑隔音可能不佳，且停车位紧张，通常需要停在城镇边缘的公共停车场，但这也意味着你获得了最地道的步行体验。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "住在郊外农庄虽然宁静，但晚餐选择较少，通常需要驱车返回镇上，建议提前和房东确认晚餐安排，或者体验一次他们地道的农家自制晚餐。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开阿尔卡尼思的时候，我背包里沉甸甸的，不是买了多少纪念品，而是装满了各种质感的记忆：城堡巨石粗粝的触感、壁画廊里那种混合着凉意与古老颜料的神秘气息、午后广场咖啡的苦涩醇香，还有橄榄树林在风中发出的、像海浪一样的沙沙声。这个地方教会我，历史从来不是单薄的。它可以是山顶上挥之不去的、充满力量感的实体存在，压迫着你，让你感到自身的渺小；同时，它也可以是广场拱廊下，那一笔一划精心描绘的、关于人性与美的脆弱诉说，需要你屏住呼吸，细心聆听。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在当今这个追求快速、光滑、一致性的世界里，阿尔卡尼思像一个倔强的旧日符号。它没有为了讨好谁而把自己打磨得精致易读，它坦然展示着自己的所有层次：战争的伤疤、和平时期的荣光、衰落的无奈，以及重生的智慧。它允许你住进它的心脏，在曾经回荡着战马嘶鸣的厅堂里安睡；它也允许你在它的广场上，像个当地人一样无所事事地虚度一个下午。这种真实与包容，才是深度旅行最珍贵的馈赠。它不仅仅是一个“景点”，它是一个依然在呼吸的有机体，一个让你能同时触摸到岩石的冰冷与阳光的温暖，感受到时间的重量与生命延续的轻盈的地方。每一位不愿只做风景过客的旅人，都应该来此住上一晚，听听这座山、这些石头和壁画，在寂静中对你诉说的，关于坚持、变迁与永恒的故事。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/zafra-white-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨夫拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Zafra</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/frigiliana-guide" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    弗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">弗里希利亚纳</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Frigiliana</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/castellfollit-de-la-roca" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡斯特利福利特德拉罗卡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castellfollit de la Roca</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

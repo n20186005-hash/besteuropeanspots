@@ -1,0 +1,149 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '申根前世今生｜从酿酒村到欧洲无国界象征的传奇蜕变',
+  description: '一个改变欧洲地图的摩泽尔河畔小村。探寻申根协定签署地背后的千年酿酒史，与那艘游船上决定性的时刻。历史在此转向。',
+}
+
+export default function SchengenHistoryPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '历史人文', href: '/category/history' },
+            { label: '卢森堡', href: '/destinations/europe' },
+            { label: '雷米希', href: '/destinations/europe' },
+            { label: '申根', href: '/attractions/schengen-history' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`申根・Schengen・卢森堡・雷米希`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {``}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 导语">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在摩泽尔河舒缓的河湾处，<strong>申根</strong>的葡萄藤沿着向阳的坡地绵延。若非<strong>1985年6月14日</strong>那个下午，它或许永远只是卢森堡一个宁静的酿酒村庄。然而，历史选择了它。一项在河心游船上签署的协议，彻底抹去了欧洲大陆内在的边界线，让“申根”从一个地名升华为“自由通行”的代名词。但条约的荣光之下，是更深厚的土地记忆。抛开游玩攻略，走进申根的尘封往事，遇见属于它的时光与传奇。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`申根`} />
+                <InfoRow label="英文名称" value={`Schengen`} />
+                <InfoRow label="正式名称" value={`Schengen`} />
+                <InfoRow label="国家" value={`卢森堡`} />
+                <InfoRow label="城市" value={`雷米希`} />
+              </div>
+              
+            </div>
+            
+          </Section>
+
+          <Section title="3. 城市/景点起源">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "申根的名字，远比那纸著名的协定古老。它的源头，藏在水流与语言之中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个名字来源于凯尔特语“<em>Skenos</em>”，意为“弯曲的”或“曲折的”。这精准描绘了摩泽尔河在此地的形态——河流画出一道优美的弧线，冲刷出一片肥沃的冲积平原。罗马人到来后，拉丁化为“<em>Scensinga</em>”，中世纪时演变为今天的“Schengen”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的诞生，与河运和贸易血脉相连。早在罗马时代，这里就是一个渡口和小型定居点。河流是天然的公路，申根因水而兴，成为货物与人员往来的节点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，赋予它灵魂的，是土地与阳光。摩泽尔河谷特有的板岩土壤和温和气候，是葡萄种植的天堂。自中世纪早期，本笃会修士们就在这里系统地开垦梯田，种植葡萄，酿造葡萄酒。申根的根基，是一个酿酒村的根基。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的历史，始终与“边界”若即若离。它位于卢森堡、德国、法国三国交汇的咽喉之地，这种地理位置既带来了商业机会，也使其在漫长的世纪里，常成为军事争夺的前沿或领土变更的筹码。直到20世纪，你仍能在这里看到三个国家的海关检查站。这种“交界”特质，为它日后成为消除边界象征，埋下了最深刻的伏笔。" }} />
+            </div>
+          </Section>
+
+          <Section title="4. 镌刻时光的历史印记">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "申根的历史，由两个截然不同的篇章构成：漫长静谧的农业岁月，与一个石破天惊的现代时刻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一个印记，镌刻在层层葡萄梯田上。<strong>酿酒传统</strong>是申根千年不变的脉搏。这里的雷司令葡萄藤，有些根须已深入板岩土壤超过百年。酒窖中巨大的橡木桶，承载着家族世代相传的技艺。葡萄酒不仅是经济支柱，更是社区生活的中心，每年的葡萄酒节是村庄最重要的庆典。这份田园诗般的宁静，是申根的本质。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而第二个印记，则彻底改写了它的命运，也改写了欧洲。那便是<strong>《申根协定》的签署</strong>。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“我们选择在摩泽尔河上，在三国交界的水域中签署这份文件，这具有强烈的象征意义。边界就在那里，但在河中央，它们消失了。” —— 一位与会者的回忆" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间回到<strong>1985年</strong>。欧洲共同体内部关于逐步取消边境检查的谈判已进行多年，但需要一个标志性的地点来达成最终突破。为何是申根？正因为其微型的“三国交界”特性，最能直观体现“消除内部边界”的理念。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>1985年6月14日下午</strong>，法国总统<strong>弗朗索瓦·密特朗</strong>、德国总理<strong>赫尔穆特·科尔</strong>、以及比利时、荷兰、卢森堡三国的政府代表，并未在宏伟的宫殿会面。他们登上了停泊在摩泽尔河申根段的一艘名为“公主玛丽-阿斯特丽德”的游船。在河心，在不属于任何单一国家的流动水域上，他们签署了这份具有里程碑意义的《申根协定》。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "签署地点本身，就是最大的政治宣言。那一刻，河畔古老的国界碑瞬间失去了意义。这份最初仅有五国参与的协议，如同滚雪球般扩展，最终塑造了今日拥有二十多个成员国的“申根区”。申根，从地图上的一个点，变成了一个概念，一个面积超过400万平方公里的“无国界王国”的代名词。" }} />
+            </div>
+          </Section>
+
+          <Section title="5. 与这座城共生的名人传奇">
+            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "申根本身并未孕育出叱咤风云的帝王将相，但《申根协定》将它推至台前，也让几位关键人物的身影，与这个小村庄永久绑定。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "其中最具远见与魄力的，当属法国总统<strong>弗朗索瓦·密特朗</strong>和德国总理<strong>赫尔穆特·科尔</strong>。他们不仅是协议的签署者，更是欧洲一体化进程的坚定推动者，被称为“申根之父”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>赫尔穆特·科尔</strong>，这位来自德国边境地区莱茵兰-普法尔茨的总理，对“边界”带来的痛苦与不便有着切身体会。他的政治生涯始终贯穿着对法德和解与欧洲统一的执着追求。在申根谈判的关键时刻，他展现了巨大的政治勇气，说服国内的安全部门接受取消边境管控的“风险”，因为他深信，一个开放的欧洲才是永久和平的保障。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "<strong>弗朗索瓦·密特朗</strong>，这位经历过二战的法国政治家，同样将欧洲联合视为防止大陆再次陷入战争的唯一途径。他与科尔虽然党派不同、个性迥异，却建立了深厚的政治友谊和信任，即著名的“法德发动机”。在申根游船上的握手，是他们共同推动欧洲拆除有形壁垒的最高光象征之一。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他们的羁绊，让申根超越了地理意义。据说，在签署仪式前的非正式会谈中，科尔和密特朗曾一起漫步申根的葡萄园，讨论的不仅是条款细节，更有欧洲未来的愿景。对于他们而言，申根不是一个偶然的选择，而是一个精心挑选的“舞台”，用以向世界宣告一个新时代的来临。" }} />
+              <blockquote className="border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r" dangerouslySetInnerHTML={{ __html: "“当我们走下那艘船时，我们知道有些东西永远地改变了。不是纸上的文字，而是人们心中的地图。” —— 一位当时在场的卢森堡外交官日后回忆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此外，卢森堡当时的首相兼外交大臣<strong>雅克·桑特</strong>也功不可没。作为东道主和积极的协调人，他利用卢森堡“小国中立、善于斡旋”的特点，在各方之间穿针引线，最终促成了在自家国土上这个历史性时刻。申根，也因此成为卢森堡这个“欧洲橱窗”最闪亮的一张名片。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些政治家并非申根的子民，但他们的决定，将申根塑造成他们政治遗产的永恒丰碑。如今，在申根建立的欧洲博物馆前，矗立着纪念他们的纪念碑，他们凝视的方向，正是那条不再有边界的摩泽尔河。" }} />
+            </div>
+          </Section>
+
+          <Section title="6. 民间传说与人文风情">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在官方历史之外，申根的民间叙事，始终围绕着“边界”这个主题，交织着人们对流动的渴望与对界限的敬畏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "一个流传已久的传说讲述着“<strong>边界幽灵</strong>”的故事。在三国边境尚未消失的年代，传说在摩泽尔河起雾的夜晚，会有一个模糊的身影在河岸徘徊。他不是亡灵，而是一个古老的精灵，守护着“交界之地”的秩序。他会帮助诚实的旅人找到渡口，也会惩罚试图偷越边境的走私者，将他们引入河上的迷雾迷宫。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个传说，折射出边境地区人民复杂的心态：边界既带来管制与风险，也定义了家乡独特的身份。而据说，在《申根协定》签署后，当地人笑言，“边界幽灵”终于可以退休了，因为他的看守职责已被永久解除。他化作了一阵风，自由地吹过三国曾经的边境线，如今只在新酿的葡萄酒香气中偶尔现身。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传说与地标<strong>“三国纪念碑”</strong>有关。这座建于19世纪的石柱，最初是为纪念复杂的领土划分。民间故事说，石柱的基石下埋藏着一把来自三个国家的泥土、一粒葡萄籽和一枚旧钱币。它们分别代表土地、生计与贸易。老人们说，只有当这三样东西所代表的愿望——归属、富足与流通——都实现时，边境才会真正安宁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "有趣的是，随着申根区的实现，这个传说被赋予了新的解读：那粒葡萄籽早已长出藤蔓，藤蔓跨越了石柱所标记的界线；而贸易的自由流通，让旧钱币的寓意成为日常。古老的预言，以意想不到的方式成真了。" }} />
+            </div>
+          </Section>
+
+          <Section title="7. 历史回响：读懂这座城的旅行意义">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今日造访申根，你会感受到一种奇妙的并置：一边是象征欧洲一体化的<strong>“欧洲博物馆”</strong>和高大的纪念碑；另一边，是酒农开着拖拉机缓缓驶过，空气中弥漫着发酵葡萄的甜香。历史在此并非冰冷的展陈，而是活生生的当下。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "读懂申根，就是读懂一种“历史的偶然与必然”。一个籍籍无名的村庄，因地理和政治的因缘际会，被推上了世界舞台的中心。它的故事告诉我们，改变历史的，不总是大都市和宏伟宫殿，有时就是一艘平凡的游船，和一个拥抱开放的勇气决定。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的价值在于其强大的象征意义：它证明了壁垒可以被拆除，信任可以建立，人员、思想与文化的自由流动，能够塑造一个更紧密、更和平的共同家园。申根的存在，本身就是一篇关于欧洲从分裂走向联合的浓缩史诗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "站在摩泽尔河畔，你脚下踩着的，是千年酿酒文明的土壤，眼中望见的，是一个没有边境检查站的、开阔的欧洲。这种厚重与轻盈的交融，这份地方性与超国家性的共存，正是申根独一无二的人文魅力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/schengen-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    申
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">申根（缔造欧洲无国界公约的酿酒小村）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Schengen</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/esch-sur-sure" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃施河畔绍尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Esch-sur-Sûre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/neumunster-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    诺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">诺伊明斯特修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Neumünster Abbey</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,244 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '特里卡里科 Tricarico｜探秘南意山城的阿拉伯-诺曼魂与狂野牛头面具节 - 最佳欧洲景点',
+  description: '车子在巴斯利卡塔的橄榄树丘陵间盘旋，当你以为下一个转弯还是无尽的荒凉时，特里卡里科就像一座从大地骨骼中直接生长出来的堡垒，骤然撞进视线。它不是那种明信片式的甜美意大利小镇，第一眼的感觉是粗粝、坚硬，甚至有些戒备。密密麻麻的白色石屋紧贴着三座山脊，层层叠叠，仿佛随时会顺着山坡滚落，却又被某种古老的力量',
+}
+
+export default function TricaricoBasilicataItalyPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '特里卡里科（位于马泰拉省）', href: '/destinations/italy' },
+            { label: '特里卡里科', href: '/attractions/tricarico-basilicata-italy' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`特里卡里科・Tricarico・意大利・特里卡里科（位于马泰拉省）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在巴斯利卡塔的橄榄树丘陵间盘旋，当你以为下一个转弯还是无尽的荒凉时，特里卡里科就像一座从大地骨骼中直接生长出来的堡垒，骤然撞进视线。它不是那种明信片式的甜美意大利小镇，第一眼的感觉是粗粝、坚硬，甚至有些戒备。密密麻麻的白色石屋紧贴着三座山脊，层层叠叠，仿佛随时会顺着山坡滚落，却又被某种古老的力量牢牢地焊在一起。空气里有干草、岩石被太阳灼烤的气味，还有远处飘来的，一丝淡淡的牲畜棚的味道——这提醒着你，这里首先是一个农人和牧羊人的家园，然后才是一个景点。
+把车停在山脚下，开始沿着那些陡得惊人的阶梯往上爬。脚下的石板被几个世纪的脚步磨得中心凹陷，光滑如镜。周围寂静得出奇，只能听到自己的呼吸声和远处一两声空洞的狗吠。你很快会迷失在“阿拉伯区”（Rione Arab）的巷弄里，这里的街道窄得夸张，有些地方两个人都要侧身而过，头顶的天空被两旁的房檐裁剪成一条细长的、明亮的蓝色缎带。窗户很小，门廊低矮，这种设计不是为了诗意，而是为了遮荫和防御。你触摸着粗糙的石灰岩墙壁，能感到历史并非躺在书本里，它就凝结在这肌肤般的触感中。
+然后，地势陡然升高，你进入了“诺曼区”（Rione Norman）。这里的街道稍微宽敞一些，建筑的格局也显得更为“正式”和有序。而这一切的顶点，就是那座巍峨的诺曼塔（Torre Normanna）。它方方正正，用一种不容置疑的权威感矗立在城市的最高点，像一枚钉入山体的巨大石钉。站在塔下的广场回望，你会瞬间读懂这座城市的语言：山下是迷宫般交织的、属于平民和过往居住者的生活网络，山上则是秩序、防御和统治的象征。这种空间的对抗与共存，就是特里卡里科最核心的剧本。
+但特里卡里科的灵魂，远不止于石头。如果你在一月或二月到访，空气中会弥漫着另一种完全不同的躁动。那是皮革、蜡油和动物躁动气息的混合。你会看到作坊里，人们正在精心制作巨大的、长角的牛头面具。平日里沉默、甚至有些内向的当地人，眼神里会闪烁起一种近乎神圣的兴奋。因为在这里，最辉煌的时刻不是阳光下的古迹，而是冬日寒风里，那场源自史前，关于土地、生育与驱赶黑暗的狂野游行。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在巴斯利卡塔的橄榄树丘陵间盘旋，当你以为下一个转弯还是无尽的荒凉时，特里卡里科就像一座从大地骨骼中直接生长出来的堡垒，骤然撞进视线。它不是那种明信片式的甜美意大利小镇，第一眼的感觉是粗粝、坚硬，甚至有些戒备。密密麻麻的白色石屋紧贴着三座山脊，层层叠叠，仿佛随时会顺着山坡滚落，却又被某种古老的力量牢牢地焊在一起。空气里有干草、岩石被太阳灼烤的气味，还有远处飘来的，一丝淡淡的牲畜棚的味道——这提醒着你，这里首先是一个农人和牧羊人的家园，然后才是一个景点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "把车停在山脚下，开始沿着那些陡得惊人的阶梯往上爬。脚下的石板被几个世纪的脚步磨得中心凹陷，光滑如镜。周围寂静得出奇，只能听到自己的呼吸声和远处一两声空洞的狗吠。你很快会迷失在“阿拉伯区”（Rione Arab）的巷弄里，这里的街道窄得夸张，有些地方两个人都要侧身而过，头顶的天空被两旁的房檐裁剪成一条细长的、明亮的蓝色缎带。窗户很小，门廊低矮，这种设计不是为了诗意，而是为了遮荫和防御。你触摸着粗糙的石灰岩墙壁，能感到历史并非躺在书本里，它就凝结在这肌肤般的触感中。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然后，地势陡然升高，你进入了“诺曼区”（Rione Norman）。这里的街道稍微宽敞一些，建筑的格局也显得更为“正式”和有序。而这一切的顶点，就是那座巍峨的诺曼塔（Torre Normanna）。它方方正正，用一种不容置疑的权威感矗立在城市的最高点，像一枚钉入山体的巨大石钉。站在塔下的广场回望，你会瞬间读懂这座城市的语言：山下是迷宫般交织的、属于平民和过往居住者的生活网络，山上则是秩序、防御和统治的象征。这种空间的对抗与共存，就是特里卡里科最核心的剧本。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但特里卡里科的灵魂，远不止于石头。如果你在一月或二月到访，空气中会弥漫着另一种完全不同的躁动。那是皮革、蜡油和动物躁动气息的混合。你会看到作坊里，人们正在精心制作巨大的、长角的牛头面具。平日里沉默、甚至有些内向的当地人，眼神里会闪烁起一种近乎神圣的兴奋。因为在这里，最辉煌的时刻不是阳光下的古迹，而是冬日寒风里，那场源自史前，关于土地、生育与驱赶黑暗的狂野游行。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`特里卡里科`} />
+                <InfoRow label="英文名称" value={`Tricarico`} />
+                <InfoRow label="正式名称" value={`Tricarico`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`特里卡里科（位于马泰拉省）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座深刻烙印着阿拉伯-诺曼文化分层与冲突的“活化石”山城，见证了南意大利千年来的政权更迭与文化融合。`} />
+                <InfoRow label="建筑特色" value={`罕见的城市肌理保留了清晰的阿拉伯聚居区（Rione Arab）与诺曼聚居区（Rione Norman）的划分，并以一座雄浑的诺曼塔作为权力象征俯瞰全城。`} />
+                <InfoRow label="建筑风格" value={`以阿拉伯风格的密集、迷宫般街巷与诺曼罗马式建筑的厚重、防御性特征交织并存为主要风格。`} />
+                <InfoRow label="文化价值" value={`其年度“牛头面具狂欢节”（Carnevale di Tricarico）是欧洲最古老、最原始的狂欢仪式之一，直接关联着古老的畜牧文化与驱邪迎春的异教传统。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇全天可漫步参观。主要地标如诺曼塔（Torre Normanna）和部分教堂的开放时间较为灵活，通常为每日上午9:30至下午1:00，下午3:30至日落前（约傍晚7点，夏季会延长）。内部参观强烈建议提前联系当地旅游局或查看教堂门口的手写通知。冬季部分小型教堂可能不定期关闭。`} />
+              <InfoRow label="门票价格" value={`进入古镇及在街道漫步免费。登诺曼塔或进入某些特定历史建筑内部可能需要小额捐赠（通常2-5欧元），用于维护。狂欢节期间无入场费，但参与特定活动或工作坊可能需要预约和费用。`} />
+              <InfoRow label="地址" value={`Piazza Garibaldi, 1, 75019 Tricarico MT, Italy`} />
+              <InfoRow label="交通方式" value={`最近的主要机场是巴里（Bari）国际机场（约150公里）或那不勒斯（Naples）机场（约200公里）。从巴里中央火车站（Bari Centrale）乘坐区域火车前往马泰拉（Matera）站，车程约1.5小时，班次每天约10-12班。抵达马泰拉后，需换乘公共巴士（SITA公司）前往特里卡里科，车程约50分钟，但每日班次有限（通常上午2-3班，下午回程2-3班），务必提前查好时刻表。最灵活的方式是租车自驾，从马泰拉出发沿SS7公路行驶约40分钟即可抵达，山城入口有免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解特里卡里科，你得把手放在它的石头上，感受那些层层叠叠的温度。最早在这里留下深刻印记的，是公元9-10世纪的阿拉伯人。他们不是匆匆过客，而是定居者。当时西西里及南意部分地区处于阿拉伯势力影响下，“阿拉伯区”那迷宫般的布局正是他们的城市规划杰作：狭窄蜿蜒的街道（称为“Kasbah”式）能有效遮荫，形成穿堂风，并在遭受袭击时让入侵者陷入困境。那不是随意的杂乱，而是一种高度适应环境和防御需求的生活智慧。你可以想象，当年这里充斥着不同的语言、香料市场的气味和异域的生活节奏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，南意的政治棋盘在11世纪被彻底掀翻。诺曼人，那群来自北方的冒险家和征服者，在传奇人物罗伯特·吉斯卡尔德和他的兄弟们的率领下，如狂风般席卷了这片土地。1068年，特里卡里科被诺曼人攻占。征服者习惯在被征服的土地上打下权力的烙印。于是，在阿拉伯聚居区的上方，地势更高的山脊上，“诺曼区”被规划出来。街道更笔直、更宽阔，适合骑兵移动和展示权威。而最极致的象征，就是那座建于11世纪末的诺曼塔。它不仅仅是一座瞭望塔，更是一个宣言，一个从物理和精神上俯视并控制着下方古老阿拉伯社区的宣言。石头成了权力的语言。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此后的数百年，特里卡里科就像南意许多地方一样，在诸王国（霍亨斯陶芬、安茹、阿拉贡）的统治下辗转，它的建筑上也叠加了哥特式和巴洛克式的细微装饰，比如圣方济各教堂（Chiesa di San Francesco）那精美的玫瑰窗。它经历过繁荣，是周边农业区的中心；也经历过瘟疫、地震和贫困的磨砺。但奇妙的是，城市的基本骨骼——阿拉伯区与诺曼区的对立统一结构——却顽强地保存了下来。或许是因为偏僻，因为它从未真正站在历史舞台的聚光灯下，反而让它像一颗琥珀，封存了某个关键的历史瞬间。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而在这所有的政治史之下，另一条更古老、更顽强的血脉从未断绝，那就是与土地和牲畜共生的农耕文化。正是这条血脉，孕育了特里卡里科真正的灵魂仪式：牛头面具狂欢节。它的根源可以追溯到罗马甚至前罗马时期的牧神节和迎春仪式。中世纪时，基督教日历吸收了这些异教传统，形成了狂欢节。但在特里卡里科，它没有被宫廷化、戏剧化，而是深深地扎根在每家每户的牲口棚里。面具代表公牛和母牛，游行模仿牲畜从冬季圈养走向春季草场的仪式，铃声和脚步声是为了驱散冬天的邪灵，唤醒土地的生命力。这个节日，是特里卡里科人民用身体和信仰书写的另一部历史，一部关于生存、希望与循环的史诗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的特里卡里科，安静地面对着小城人口流失的现代困境。但正是这种“非旅游化”的真实感，让它格外珍贵。当你行走其中，你不是在参观一个博物馆式的布景，你是在行走于一个仍然在呼吸的历史断层之上，能同时听到阿拉伯巷弄的回响、诺曼塔楼的沉默，以及从大地深处传来的、属于耕牛和牧铃的古老心跳。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在上午9点左右抵达，将车停在山脚下（靠近Via Roma的免费停车场）。整个深度游览需要一整天（约6-7小时），节奏宜慢不宜快。上午光线柔和，适合探索迷宫般的阿拉伯区巷弄和感受宁静的日常氛围；中午前后登高至诺曼塔区域，俯瞰全景并在高地用简单的午餐；下午参观主要教堂，并悠闲地穿梭于诺曼区，感受两个区域的不同气质。这样的安排顺应了地势由低到高，也符合光线变化，更能体会城市从生活区到权力中心的层次递进。务必穿一双绝对舒适、防滑的徒步鞋，因为这里不是平地漫步，而是真正的“登山”游览。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周日和周一上午，很多小店和教堂可能关闭，但街道氛围更本地化。当地几乎没有针对游客的骗局，但同样，旅游服务设施（如英语标识、纪念品商店）也极少，请将其视为探索的乐趣而非不便。绝对不要试图开车进入老城中心狭窄的巷弄，那是步行者和居民的空间，且极易卡住。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从山脚下沿着最具原始感的Salita dei Gradoni石阶开始向上攀登，让身体先适应这座城市陡峭的垂直节奏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一头扎进Rione Arab阿拉伯区核心的Vico II Duomo小巷，让自己彻底迷失在那些宽度不足一米的、光影交错的白色通道里。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在巷弄的偶然转角处，停下来静静观察一户人家门楣上的古老符号、窗台上的陶罐，或是一位老妇人正在用方言喂猫的日常场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`努力找到通往诺曼塔的上坡路，在登上最后一段台阶后，让自己完全暴露在塔楼那巨大、沉默的阴影之下，感受那种历史的压迫感。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕到塔楼东侧的小广场，这里拥有俯瞰整个阿拉伯区屋顶波浪和远处无尽丘陵的、毫无遮挡的绝佳视野。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山途中拜访圣方济各教堂，在昏暗的室内寻找那扇将阳光变成彩色宝石雨的14世纪玫瑰窗。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走进主座教堂（Duomo）内部，不要只看它的巴洛克立面，去感受其地下 chapel 的幽深与安静，那里藏着更早的历史层。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在黄昏时分，重新回到阿拉伯区某条安静的阶梯坐下，看夕阳将对面诺曼区的石墙染成蜂蜜金色，等待小镇的灯光逐一亮起。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`诺曼塔东侧观景台全景`}</h4>
+                  <p className="text-sm text-gray-700">{`最佳在下午四点后，侧光让山城的立体感和石材质感达到极致，用广角镜头将诺曼塔作为前景，囊括脚下蔓延的白色屋海与远山。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`阿拉伯区Vico I San Francesco巷的“一线天”`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射入窄巷时，拍摄光影切割的明暗对比，让人物站在光柱中形成剪影，构图极具张力。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣方济各教堂内部玫瑰窗光斑`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个阳光强烈的正午，站在中殿地面上彩色光斑投射的位置，向上拍摄玫瑰窗本身，或向下拍摄光斑洒在古老地砖上的细节。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`从Salita dei Gradoni阶梯低处向上仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，利用阶梯本身的引导线，拍摄行人正向上攀登、背景是层层叠叠房屋和天空的纵深感画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`狂欢节期间牧人广场（Piazza dei Pastori）的仪式动态`}</h4>
+                  <p className="text-sm text-gray-700">{`使用高速快门捕捉面具舞者跳跃、转身的瞬间，以及周围人群原始而热烈的表情特写。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尊重当地居民隐私，拍摄人物（尤其是老人和儿童）前请务必用微笑和手势征得同意。狂欢节是非常神圣的社区活动，拍照时请保持敬意，避免使用闪光灯干扰仪式参与者，并随时注意不妨碍游行队伍的行进。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸式老城民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`住在经过修复的阿拉伯区石屋里，体验夜晚巷道彻底沉寂后，只有风吹过门缝的嘶嘶声和远处教堂钟声的极致安宁。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`乡间农庄体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择城外几公里处由家族经营的“农宿”（Agriturismo），享受用自家橄榄油、蔬菜和奶酪烹制的晚餐，清晨在鸡鸣和驴叫声中醒来。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`马泰拉基地住宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`如果追求更多餐饮和住宿选择，可以下榻在约40分钟车程外的世界遗产马泰拉（Matera），将特里卡里科作为一日游目的地，体验古今双城记的对比乐趣。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`简单本地小旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`特里卡里科镇上也有少数几家简朴但干净的家庭式小旅馆，直接位于镇上，方便早晚捕捉无人时分的老城光影。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "老城内的民宿可能需要徒步一小段阶梯才能到达，且隔音可能较差（古老的石墙结构），这正是历史体验的一部分。治安非常好，但夜间照明有限，自备一个小手电会很实用。如果计划在狂欢节期间前往，住宿必须提前至少3-4个月预订。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开特里卡里科很久以后，记忆里最清晰的，不是某一张具体的照片，而是那种混合的“感觉”：脚底石板冰冷的触感，狭窄巷弄里包裹而来的寂静，以及从诺曼塔上俯瞰时，那种既被历史深深震撼，又对脚下顽强日常生出的温柔敬意。这座城市拒绝被轻易地定义和消费。它不讨好，不炫耀，只是沉默地坐在那里，让你自己去攀爬，去迷失，去解读石头上书写的千年密码。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求高效打卡的时代，特里卡里科是一种“逆行”的旅行。它告诉你，真正的深度，不在于收集了多少个著名地标，而在于你是否愿意让一个地方的层次和矛盾，缓慢地浸入你的感知。在这里，你能触摸到文明冲突与融合的具象痕迹，更能见证一种比任何帝国都更持久的力量——那就是人与土地之间，通过劳动、仪式和信仰建立起的永恒连接。那个狂野的牛头面具，不只是节日的装扮，它是这片土地的心跳声。所以，来这里，不是为了一张美照，而是为了接受一次关于历史复杂性与生命韧性的、沉默而深刻的教诲。它会让你重新思考，什么才是真正值得追寻的旅行意义。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/gaeta" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    加
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">加埃塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gaeta</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/aragon-castle-ischia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    伊
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">伊斯基亚阿拉贡城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Aragonese Castle of Ischia</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/urbino-historic-centre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乌
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乌尔比诺历史中心</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Urbino</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

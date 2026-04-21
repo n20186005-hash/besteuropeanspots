@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '马尔萨斯卡拉 Marsaskala｜马耳他未被过度打扰的彩色渔港与骑士团堡垒 - 最佳欧洲景点',
+  description: '如果你从马耳他喧嚣的旅游中心而来，车子拐进马尔萨斯卡拉的那一刻，世界突然就慢了下来。第一眼看到的，永远是那一片铺展在眼前的、近乎不真实的蓝绿色海湾，海水清澈得像融化了的琉璃。然后，你的目光会被岸边那一排排“咯咯”轻响的彩色渔船抓住——不是那种招揽游客的摆设，而是真正的、带着鱼腥味和补丁的工作船。柠檬',
+}
+
+export default function MarsaskalaFishingVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '马耳他', href: '/destinations/europe' },
+            { label: '东南区（Marsaskala镇）', href: '/destinations/europe' },
+            { label: '马尔萨斯卡拉', href: '/attractions/marsaskala-fishing-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`马尔萨斯卡拉・Marsaskala・马耳他・东南区（Marsaskala镇）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`如果你从马耳他喧嚣的旅游中心而来，车子拐进马尔萨斯卡拉的那一刻，世界突然就慢了下来。第一眼看到的，永远是那一片铺展在眼前的、近乎不真实的蓝绿色海湾，海水清澈得像融化了的琉璃。然后，你的目光会被岸边那一排排“咯咯”轻响的彩色渔船抓住——不是那种招揽游客的摆设，而是真正的、带着鱼腥味和补丁的工作船。柠檬黄、天蓝、鲜红、墨绿，它们懒洋洋地靠在湛蓝的海水边，随着微波起伏，像一群玩累了躺在一起休息的孩童。
+空气里的味道是复杂的，层次分明。最底层是地中海阳光烘焙石灰岩的干燥暖香，中间一层是清新又略带腥咸的海风，而最生动的，是从小巷里飘来的、某户人家炖煮鱼汤的浓郁香气，混合着晒在窗台床单的肥皂味。耳边没有嘈杂的旅游广播，只有海浪轻拍石岸的沙沙声、渔船缆绳拉扯木桩的吱呀声，以及远处咖啡馆传来的、模糊而欢快的马耳他语交谈声。这里不是一个“景点”，而是马耳他人生活着的、呼吸着的海边家乡。
+而守护着这片宁静海湾的，是那座矗立在远处岬角上的巨塔——圣托马斯塔。它不像童话里的城堡那么精致，而是方方正正、厚重敦实，由蜂蜜色的石灰岩砌成，在烈日下显得沉默而坚定。它站在那里已经四百多年，看着渔船日出而作、日落而归，看着海湾从纯粹的军事要塞变成充满生活气的渔港。这种反差感，正是马尔萨斯卡拉最迷人的核心：一边是承载着沉重历史的军事堡垒，一边是洋溢着烟火人间的日常渔村，它们被同一片温柔的海湾拥抱，毫不冲突。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果你从马耳他喧嚣的旅游中心而来，车子拐进马尔萨斯卡拉的那一刻，世界突然就慢了下来。第一眼看到的，永远是那一片铺展在眼前的、近乎不真实的蓝绿色海湾，海水清澈得像融化了的琉璃。然后，你的目光会被岸边那一排排“咯咯”轻响的彩色渔船抓住——不是那种招揽游客的摆设，而是真正的、带着鱼腥味和补丁的工作船。柠檬黄、天蓝、鲜红、墨绿，它们懒洋洋地靠在湛蓝的海水边，随着微波起伏，像一群玩累了躺在一起休息的孩童。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "空气里的味道是复杂的，层次分明。最底层是地中海阳光烘焙石灰岩的干燥暖香，中间一层是清新又略带腥咸的海风，而最生动的，是从小巷里飘来的、某户人家炖煮鱼汤的浓郁香气，混合着晒在窗台床单的肥皂味。耳边没有嘈杂的旅游广播，只有海浪轻拍石岸的沙沙声、渔船缆绳拉扯木桩的吱呀声，以及远处咖啡馆传来的、模糊而欢快的马耳他语交谈声。这里不是一个“景点”，而是马耳他人生活着的、呼吸着的海边家乡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而守护着这片宁静海湾的，是那座矗立在远处岬角上的巨塔——圣托马斯塔。它不像童话里的城堡那么精致，而是方方正正、厚重敦实，由蜂蜜色的石灰岩砌成，在烈日下显得沉默而坚定。它站在那里已经四百多年，看着渔船日出而作、日落而归，看着海湾从纯粹的军事要塞变成充满生活气的渔港。这种反差感，正是马尔萨斯卡拉最迷人的核心：一边是承载着沉重历史的军事堡垒，一边是洋溢着烟火人间的日常渔村，它们被同一片温柔的海湾拥抱，毫不冲突。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`马尔萨斯卡拉`} />
+                <InfoRow label="英文名称" value={`Marsaskala`} />
+                <InfoRow label="正式名称" value={`Marsaskala`} />
+                <InfoRow label="国家" value={`马耳他`} />
+                <InfoRow label="城市" value={`东南区（Marsaskala镇）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`圣约翰骑士团为防御奥斯曼帝国入侵而在马耳他东南海岸线建造的关键瞭望与防御塔楼之一。`} />
+                <InfoRow label="建筑特色" value={`一座敦实厚重的方形石灰岩塔楼，矗立在海湾岬角之上，与周围色彩柔和的民居和波光粼粼的海湾形成鲜明对比。`} />
+                <InfoRow label="建筑风格" value={`骑士团防御工事建筑，属于文艺复兴晚期的军事建筑风格，注重实用性与威慑力。`} />
+                <InfoRow label="文化价值" value={`它是马耳他岛上海岸防御历史的活化石，也是传统渔业社区与现代海滨生活和谐共存的宁静样本。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇本身全天开放。核心历史遗迹圣托马斯塔（St. Thomas Tower）的开放时间较为灵活，通常为周一至周六上午10点至下午1点，但强烈建议出行前查看马耳他遗产官网的最新公告。小镇的活力与渔船作息相关，清晨和傍晚是最佳体验时段。全年无休，但夏季（6-9月）海边活动最多，冬季风大但宁静。`} />
+              <InfoRow label="门票价格" value={`进入马尔萨斯卡拉小镇免费。参观圣托马斯塔内部通常需要门票，价格约为5欧元，学生及老年人有优惠。有时塔楼仅在特定导览日开放，建议提前确认。`} />
+              <InfoRow label="地址" value={`St. Thomas Tower, Triq it-Torri, Marsaskala, MSK 4012, Malta`} />
+              <InfoRow label="交通方式" value={`从马耳他国际机场（MLA）出发最为便捷。建议乘坐出租车，车程约15-20分钟，费用20-25欧元。公共交通可乘坐公交车，在机场外的公交站乘坐X4路，直接抵达Marsaskala中心，车程约30-40分钟，班次每小时1-2班，车票2欧元（夏季2.5欧元），可在车上购买或使用Tallinja公交卡。从首都瓦莱塔出发，可乘坐91、92或93路公交车，车程约45分钟。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光倒回16世纪末，地中海可不是今天这般度假天堂的模样。那是圣约翰骑士团与奥斯曼帝国海上霸权激烈交锋的年代，海盗和敌舰的威胁如影随形。马耳他岛漫长的海岸线，尤其是像马尔萨斯卡拉这样易于登陆的天然海湾，成了最脆弱的一环。骑士团的大团长阿洛夫·德·维尼亚库尔深感忧虑，他不能容忍自己的王国腹地门户洞开。于是，在1614年，一项重要的防御计划启动了，圣托马斯塔便是这盘沿海防御棋局上落下的一颗关键棋子。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "建造这座塔的故事，离不开一位名叫托马索·因吉内罗的骑士。他不仅是位战士，更是一位颇有远见的工程师。他设计的塔楼摒弃了花哨的装饰，一切以实用和坚固为最高准则。方形的结构能更好地抵御炮火，厚厚的墙壁令敌人望而生畏，高高的位置则拥有无与伦比的视野。据说，建造用的石灰岩都是从附近采石场一块块运来，由当地工匠和骑士们共同垒砌。当塔楼最终在17世纪初巍然屹立时，它就像一个沉默的哨兵，塔顶日夜燃烧的烽火，成了连接整个马耳他海岸预警网络的重要节点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此后的岁月里，这座塔见证了无数的风云变幻。拿破仑的军队曾短暂地占领过它，将它纳入自己的防御体系。而当英国人在19世纪成为马耳他的新主人后，他们同样看中了它的战略价值，并在塔楼附近加建了兵营和炮位。然而，马尔萨斯卡拉海湾的命运，却随着战争的远去而悄然改变。坚船利炮的时代过去了，渔业和盐业成为了海湾新的主题。那座曾经象征着紧张与冲突的塔楼，渐渐退出了战争舞台，它的倒影开始与归航的渔船为伴。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正让马尔萨斯卡拉融入平凡生活的，是二十世纪。特别是二战期间，当瓦莱塔等大城市遭受猛烈空袭时，相对偏远的马尔萨斯卡拉成了许多马耳他人的避难所，人口悄然增加。战争结束后，人们没有离开，反而在此定居下来，建造起色彩柔和的房屋，海湾的渔业社区日益繁荣。圣托马斯塔在很长一段时间里被遗忘，甚至沦为仓库，直到人们重新认识到它作为历史见证者的价值。经过修缮，它今天终于能以平静的姿态，向每一个来访者讲述那段烽火连天的往事，以及一个地方从战争前沿回归生活本身的漫长旅程。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要深度感受马尔萨斯卡拉，请务必安排一整天的时间，并将节奏调到“当地模式”。建议在清晨7点左右抵达，这时渔民已归航，港口最富生活气息。整个游览可以沿海湾呈一个环形进行，从充满活力的码头开始，沿着风景优美的海岸步道漫步至历史塔楼，再折返探索镇中心的小巷，最后以一场完美的海湾日落晚餐结束。这样的安排既能捕捉到光影最美的时刻，又能体验到渔村从清晨忙碌到傍晚闲适的完整韵律，避免走马观花。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季正午阳光非常暴烈，海岸步道缺乏遮荫，务必做好防晒并携带充足饮水。小镇民风淳朴，治安良好，但参观历史塔楼内部时最好提前查询开放时间，避免吃闭门羹。穿着舒适的步行鞋非常重要，因为小镇许多小路是古老的石灰岩石板路。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要在晨光熹微时赶到Marsaskala码头，看满载而归的渔船靠岸，鱼获在阳光下闪着银光，听渔夫们用马耳他语高声交谈和交易。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着绵长的海堤（Marsaskala Bay Promenade）慢慢向西走，左手是停满游艇和传统鲁祖船（Luzzu）的平静内港，右手是开阔的地中海，感受海风拂面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`步行大约二十分钟，抵达岬角尽头，仰望并参观那座宛如从岩石中生长出来的、厚重雄伟的圣托马斯防御塔。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从塔楼返回时，不要走原路，可以绕到塔楼后方的圣托马斯湾（St. Thomas Bay），这是一个更小巧的卵石海滩，夏季是游泳的好去处。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午餐必须回到主码头附近，找一家挂着当天鱼获菜单的海边家庭餐厅，点一份用当天捕捞的鱼烹制的“ lampuki ”（鬼头刀鱼）或炖鱼汤。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后消食，钻入码头后方那片迷宫般的宁静住宅区小巷，欣赏阳台上怒放的九重葛和彩色的门窗，感受居民不紧不慢的日常。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午晚些时候，在沿海步道找一家看得见风景的咖啡馆，点一杯“Kinnie”（马耳他特色苦橙汽水）或咖啡，什么都不做，只是看海、看船、看过往的行人。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`将晚餐时间留给日落，提前预定一家拥有海湾西向视野的餐厅，看着夕阳将圣托马斯塔、彩色渔船和整个天空染成金红色，享用一顿漫长的地中海晚餐。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`码头渔船特写`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点前，阳光角度较低，柔和的光线能完美勾勒出渔船鲜艳的色彩和木质纹理，蹲低角度以水面为前景拍摄，画面充满活力。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣托马斯塔全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后，从塔楼东侧的海岸步道回望，此时阳光从西面照亮塔身，可以将其与湛蓝海湾和对岸城镇一同纳入镜头，构图恢弘。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`海湾弧形海岸线`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，登上码头西侧的小矮墙或餐厅露台，用长焦镜头压缩空间，捕捉海岸线优美的弧度、星星点点的船只与暖色调的天空。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小巷生活一瞥`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点或下午三点，阳光斜射入狭窄巷弄时，捕捉居民在彩色门窗前闲聊、晾晒衣物的场景，光影对比强烈，生活气息浓郁。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄渔民和本地居民时，请务必先微笑并征得同意，以示尊重。马耳他的光线在夏季中午过于强硬，容易造成严重阴影，建议将重要拍摄集中在日出后两小时和日落前两小时。使用偏振镜可以有效减少海面反光，让海水颜色更加深邃迷人。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`海景阳台民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`码头附近一栋传统马耳他式排屋的顶楼公寓，拥有一个可以俯瞰整个海湾和圣托马斯塔的私人露台，晚上能听着海浪声入睡。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`家庭经营精品客栈`}</h4>
+                  <p className="text-sm text-green-800">{`由一对老夫妇经营的石头小屋，只有六个房间，庭院里种满了柠檬树和茉莉花，每天早晨都能吃到家制的ġbejniet（马耳他奶酪）和果酱。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代海滨公寓`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于圣托马斯湾附近的新建公寓楼，设计简洁明亮，带设备齐全的小厨房和落地窗，适合家庭或希望自己烹饪海鲜的旅人。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`宁静乡村宾馆`}</h4>
+                  <p className="text-sm text-purple-800">{`位于小镇边缘稍高处的独栋房屋，房间宽敞安静，拥有一个美丽的泳池和花园，步行十分钟即可下山到达海边，兼顾宁静与便利。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6月至9月）是马耳他的绝对旺季，马尔萨斯卡拉的住宿虽然比旅游核心区稍多，但仍建议至少提前两个月预订。选择码头附近的住宿固然方便热闹，但夜晚可能略有人声；追求绝对安静可考虑小镇外围或圣托马斯湾一侧。几乎所有住宿都提供免费的Wi-Fi，但空调在夏季是必需项，预订时请确认。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开马尔萨斯卡拉许久后，闭上眼，脑海里浮现的不是某个壮丽的建筑细节，而是一种整体的、安宁的色调。是海湾那种柔和的蓝，是渔船明亮的色彩块，是石灰岩房屋在夕阳下的暖金色。这个地方教会我的，是一种“去景点化”的旅行意义。它没有令人瞠目结舌的宏伟，却有一种细水长流的、生活本真的吸引力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个快节奏、一切都被精心包装成“体验”出售的世界里，马尔萨斯卡拉倔强地保持着自己的节奏。它提醒着我们，旅行的深度不在于收集了多少地标性的打卡照片，而在于你是否曾在一个陌生的地方，静静地度过了一段如同本地人般的时光——在同样的市场买鱼，在同样的咖啡馆发呆，看同样的日落染红同样的古老塔楼。这里是一位沉默的历史哨兵与一个鲜活的生活社区共舞的舞台，它值得每一位厌倦了浮光掠影的旅人前来，花上一整天，什么都不做，只是感受时间如何在这里，被海风和阳光烘焙得柔软而悠长。来这里，不是为了看一个地方，而是为了感受一种生活依然可以如此简单、如此自得的可能性。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/three-cities-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    三
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">三姐妹城（圣约翰骑士团的最初海防线）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Three Cities</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/fort-st-angelo" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣安杰洛堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Fort St. Angelo</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/mdina-silent-city" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    姆
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">姆迪纳静寂之城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mdina</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

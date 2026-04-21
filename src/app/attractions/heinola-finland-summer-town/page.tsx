@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '黑诺拉 Heinola｜芬兰湖区优雅夏都，漫步百年木桥与治愈系温泉 - 最佳欧洲景点',
+  description: '火车缓缓驶入黑诺拉站台，车窗外的景色从赫尔辛基郊区的松林，骤然切换成一片无垠的、闪着碎钻般光芒的蓝色——那是派耶内湖。空气立刻变得不一样了，清冽、湿润，带着松针、湖水和水边苔藓混合的独特香气，一下子就把城市的所有喧嚣滤净。我的第一感觉是，这里不像一个“景点”，而像一个被芬兰人小心翼翼保护起来的、关于',
+}
+
+export default function HeinolaFinlandSummerTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/europe' },
+            { label: '黑诺拉', href: '/destinations/europe' },
+            { label: '黑诺拉', href: '/attractions/heinola-finland-summer-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`黑诺拉・Heinola・芬兰・黑诺拉`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`火车缓缓驶入黑诺拉站台，车窗外的景色从赫尔辛基郊区的松林，骤然切换成一片无垠的、闪着碎钻般光芒的蓝色——那是派耶内湖。空气立刻变得不一样了，清冽、湿润，带着松针、湖水和水边苔藓混合的独特香气，一下子就把城市的所有喧嚣滤净。我的第一感觉是，这里不像一个“景点”，而像一个被芬兰人小心翼翼保护起来的、关于完美夏日的集体记忆。火车站小巧得像积木房子，走出来不过五分钟，你就站在了那座著名的木制拱桥——黑诺拉大桥上。脚踩在厚实的木板上发出好听的“咚咚”声，桥身漆成沉稳的暗红色，在阳光下温暖而扎实。站在桥中央向两侧望去，湖水温柔地拥抱着小镇，白色的游艇和红色的船屋静静泊在岸边，对岸是层层叠叠、在夏季呈现出无限层次绿意的森林。这里没有急匆匆的游客，只有推着婴儿车散步的年轻父母、骑着自行车去买面包的老人，以及像我一样，只是站着，任由湖风拂面的发呆者。
+小镇的中心街区有种低调的优雅。鹅卵石小路两旁，是那些淡黄色、鹅卵石色墙面的新古典主义建筑，它们不高大，却比例匀称，窗台上必然点缀着盛开的天空葵或三色堇。这里曾是派耶特海梅区的首府，你能从这些建筑的庄重气度中，窥见它昔日的行政荣光。但那种庄重毫无压迫感，反而被无处不在的湖泊与森林的柔美中和了。最动人的，是这些建筑在本地人生活中的“嵌入感”。旧市政厅里可能正在举办一场社区的画展，曾经的州长官邸如今是一家温馨的咖啡馆，飘出刚烘焙好的肉桂卷的甜香。你看到的不只是历史，更是历史如何自然地活在了今天。
+而让黑诺拉散发出独特安宁气质的，莫过于它的百年温泉疗养传统。温泉建筑群坐落在湖畔的公园深处，几栋奶白色与浅黄色的“Jugend”风格建筑，线条流畅优雅，像从森林里自然生长出来的童话宫殿。即便你不进去泡汤，只是在它精心修剪的英国式花园里坐一坐，听喷泉的淅沥声，看人们披着浴袍、脸颊红扑扑地从桑拿房走向湖边码头，都能感受到一种深入骨髓的、北欧式的疗愈氛围。这里的一切都在轻声告诉你：慢下来，呼吸，感受自然的馈赠。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "火车缓缓驶入黑诺拉站台，车窗外的景色从赫尔辛基郊区的松林，骤然切换成一片无垠的、闪着碎钻般光芒的蓝色——那是派耶内湖。空气立刻变得不一样了，清冽、湿润，带着松针、湖水和水边苔藓混合的独特香气，一下子就把城市的所有喧嚣滤净。我的第一感觉是，这里不像一个“景点”，而像一个被芬兰人小心翼翼保护起来的、关于完美夏日的集体记忆。火车站小巧得像积木房子，走出来不过五分钟，你就站在了那座著名的木制拱桥——黑诺拉大桥上。脚踩在厚实的木板上发出好听的“咚咚”声，桥身漆成沉稳的暗红色，在阳光下温暖而扎实。站在桥中央向两侧望去，湖水温柔地拥抱着小镇，白色的游艇和红色的船屋静静泊在岸边，对岸是层层叠叠、在夏季呈现出无限层次绿意的森林。这里没有急匆匆的游客，只有推着婴儿车散步的年轻父母、骑着自行车去买面包的老人，以及像我一样，只是站着，任由湖风拂面的发呆者。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇的中心街区有种低调的优雅。鹅卵石小路两旁，是那些淡黄色、鹅卵石色墙面的新古典主义建筑，它们不高大，却比例匀称，窗台上必然点缀着盛开的天空葵或三色堇。这里曾是派耶特海梅区的首府，你能从这些建筑的庄重气度中，窥见它昔日的行政荣光。但那种庄重毫无压迫感，反而被无处不在的湖泊与森林的柔美中和了。最动人的，是这些建筑在本地人生活中的“嵌入感”。旧市政厅里可能正在举办一场社区的画展，曾经的州长官邸如今是一家温馨的咖啡馆，飘出刚烘焙好的肉桂卷的甜香。你看到的不只是历史，更是历史如何自然地活在了今天。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而让黑诺拉散发出独特安宁气质的，莫过于它的百年温泉疗养传统。温泉建筑群坐落在湖畔的公园深处，几栋奶白色与浅黄色的“Jugend”风格建筑，线条流畅优雅，像从森林里自然生长出来的童话宫殿。即便你不进去泡汤，只是在它精心修剪的英国式花园里坐一坐，听喷泉的淅沥声，看人们披着浴袍、脸颊红扑扑地从桑拿房走向湖边码头，都能感受到一种深入骨髓的、北欧式的疗愈氛围。这里的一切都在轻声告诉你：慢下来，呼吸，感受自然的馈赠。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`黑诺拉`} />
+                <InfoRow label="英文名称" value={`Heinola`} />
+                <InfoRow label="正式名称" value={`Heinola`} />
+                <InfoRow label="国家" value={`芬兰`} />
+                <InfoRow label="城市" value={`黑诺拉`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座曾荣耀一时的区域行政首府，是芬兰内陆湖区间一颗被时光温柔珍藏的优雅明珠。`} />
+                <InfoRow label="建筑特色" value={`新古典主义与民族浪漫风格交织的官邸建筑群，与全芬兰最长的木制公路拱桥共同谱写湖畔乐章。`} />
+                <InfoRow label="建筑风格" value={`以19世纪末至20世纪初的新古典主义和民族浪漫主义（Jugend）风格为主，融合了质朴优美的芬兰木结构传统。`} />
+                <InfoRow label="文化价值" value={`它完美体现了芬兰人“每个芬兰人内心都有一片森林与湖泊”的生活哲学，是体验传统芬兰夏日别墅文化与温泉疗养历史的活态博物馆。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全年全天开放。核心历史建筑与温泉疗养区开放时间各异：多数博物馆和历史建筑夏季（6月至8月）每天10:00-18:00开放；冬季（9月至次年5月）通常为周二至周日11:00-16:00。百年温泉建筑（Heinolan Kylpylä）的公共区域（如咖啡馆、部分花园）通常从早8点开放至晚10点，具体水疗服务需提前预约并查询当日安排。建议出行前查阅官网确认，芬兰的仲夏节（6月下旬）和圣诞节期间营业时间可能有较大调整。`} />
+              <InfoRow label="门票价格" value={`进入黑诺拉小镇及漫步湖区、木桥均免费。历史博物馆（如旧市政厅博物馆）门票约8欧元，学生及儿童有优惠。百年温泉建筑入内参观免费，如需使用温泉池、桑拿或预订水疗疗程则需付费，单次温泉体验约35-50欧元起。小镇经常推出“夏日文化卡”，约15欧元可畅游多个景点，非常划算。`} />
+              <InfoRow label="地址" value={`Heinola, 18100 Päijät-Häme, Finland`} />
+              <InfoRow label="交通方式" value={`从赫尔辛基万塔机场（HEL）出发最方便。你可以选择火车或巴士。乘坐机场快线或普通通勤列车到赫尔辛基中央火车站（约30分钟），然后转乘长途火车前往黑诺拉，直达车程约1小时40分钟，班次频繁，沿途湖景绝美。也可以从赫尔辛基巴士总站乘坐长途巴士，车程约2小时，班次略少于火车。抵达黑诺拉后，小镇中心区域紧凑，所有主要景点均可轻松步行到达。如果自驾，从赫尔辛基沿E75/E12公路向北行驶约140公里，一个半小时即可抵达。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "黑诺拉的故事，和芬兰这个国家的命运紧紧缠绕。1776年，瑞典国王古斯塔夫三世一纸令下，黑诺拉被正式授予城镇地位，并在此设立了地区法庭。但让它真正步入黄金时代的，是19世纪。随着芬兰成为俄罗斯帝国下的自治大公国，整个国家的行政体系需要重新梳理和建设。1839年，一项重要的决定改变了黑诺拉的命运：它被选定为新建的派耶特海梅区的行政首府。你可以想象，这个位于两大湖泊（派耶内湖和韦西湖）之间的战略要地，一时间吸引了多少建筑师、官员和商人。资金和人才涌入，小镇开始了第一次大规模的规划和建设热潮。我们今天看到的镇中心那些端庄的新古典主义建筑——州长官邸、市政厅、学校——大多建于这个时期。它们的设计标准很高，风格上与赫尔辛基的帝国风格遥相呼应，仿佛在宣示：即使身处内陆湖区，我们也是这个新兴国家体系中重要而现代的一部分。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，历史的走向常常出人意料。19世纪末，随着铁路网络的延伸，地理位置更具优势的拉赫蒂逐渐崛起。1920年代，芬兰独立后重新进行行政区划调整，经过一番激烈的辩论甚至全民公投，区域首府的桂冠在1938年最终还是移交给了拉赫蒂。这对黑诺拉无疑是一个沉重的打击，发展的引擎仿佛突然熄火。但有趣的是，正是这种“失意”，反而以一种奇妙的方式保护了它。大规模的城市化进程放缓了脚步，那些精美的19世纪建筑没有被推倒重建为摩天大楼，而是静静地留在了原地，等待时光赋予它们另一种价值。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "与此同时，另一条发展脉络却在悄然生长，并且最终定义了黑诺拉的灵魂——那就是温泉疗养。早在19世纪80年代，人们就发现这里的湖水与气候特别有益健康。1896年，第一家正式的温泉疗养院在湖边开业，主要服务于需要休养的官员和富裕阶层。1912年，一栋宏伟的、当时最时髦的民族浪漫风格（即“Jugend”风格）温泉主楼拔地而起，配备了先进的理疗设施和豪华的客房，甚至吸引了来自圣彼得堡的俄国贵族。沙皇的军官们曾在这里疗伤，芬兰的艺术家和作家来这里寻找灵感。温泉，让黑诺拉从一座严肃的行政小镇，转变为一个充满治愈感的度假目的地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "二战后的芬兰百废待兴，黑诺拉的温泉疗养院继续发挥着作用，为经历过战争创伤的人们提供身心康复的港湾。上世纪七八十年代，随着全民福利体系的完善和休闲观念的普及，温泉不再是精英的专属，而成为普通芬兰家庭夏日度假的一站。政府也对历史建筑进行了精心的修缮和维护。今天，你漫步在这里，看到的是历史的层层积淀：19世纪的行政尊严、20世纪初的疗养优雅，以及二战后深入民间的休闲传统。它没有被任何单一的时代浪潮完全吞没，而是在每一次转折中都找到了自己优雅的立足点，最终沉淀为我们今天看到的、这座充满故事与宁静力量的湖畔夏都。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议你安排完整的一天来品味黑诺拉。最好在上午十点前抵达，这时晨雾刚刚散尽，湖面如镜，光线柔和，小镇还未完全苏醒，最适合静静感受它的气质。整体游览节奏应该像当地人的生活一样，不疾不徐。从火车站或停车场出发，以步行方式探索，路线是一个环绕镇中心与湖畔的环线，总耗时约6-8小时，中间务必留出时间在湖边野餐、喝咖啡，甚至体验一下传统的烟熏桑拿。这样的安排能让你由历史街区深入自然湖畔，再以温泉区的宁静作为完美收尾，全方位沉浸在这个“芬兰夏日”的缩影里。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季（尤其是七月）是旺季，建议提前预订温泉体验和热门餐厅。小镇非常安全，夜晚散步也很惬意。进入桑拿房是芬兰的国家仪式，请务必提前了解基本礼仪（如冲洗身体、保持安静、通常需裸体）。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来，深呼吸一口湖畔清冽的空气，沿着种满橡树的林荫道走向镇中心广场`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在铺着鹅卵石的集市广场驻足，看看当地农妇摆卖的新鲜浆果和手工编织品，感受小镇的生活脉搏`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走过那座深红色的木制拱桥，在桥中央停下，360度欣赏派耶内湖将小镇温柔环抱的绝景`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观旧市政厅改建的博物馆，透过那些老地图和照片，聆听这个小镇从首府到度假天堂的身份转变故事`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从博物馆出来，拐进小巷里那家挂着复古招牌的咖啡馆，点一份热气腾腾的卡累利阿派和黑咖啡当作午餐`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后沿着湖滨小径慢慢散步，找一张面向湖泊的长椅坐下，什么都不做，只是看鸭子游过、帆船飘远`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`前往隐藏在森林公园里的百年温泉建筑群，即使不泡温泉，也要在其优雅的回廊和花园里感受一个世纪的宁静`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间允许，傍晚时分参加一次湖边码头的传统烟熏桑拿体验，然后在夕阳下跳进清凉的湖水中畅游`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`木制拱桥全景机位`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或日落前，从桥南侧的小公园岸边拍摄，能将整座红色拱桥、对岸的色彩斑斓的木屋和波光粼粼的湖面一同纳入镜框，构图饱满而有层次`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`旧州长官邸立面与街道`}</h4>
+                  <p className="text-sm text-gray-700">{`下午的阳光斜射时，站在官邸斜对面的街角，拍摄建筑优雅的立柱与明暗对比鲜明的墙面，等待一个骑自行车的人或散步的老夫妇进入画面，增添生活气息`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`百年温泉主楼倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`在风平浪静的清晨，走到温泉建筑群前的码头附近，蹲低机位，拍摄奶白色 Jugend 风格建筑及其在湖水中完美对称的倒影，画面纯净如童话`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`湖畔森林小径纵深`}</h4>
+                  <p className="text-sm text-gray-700">{`走进温泉区后面的森林小径，利用两侧笔直高耸的松树作为天然引导线，将视线引向小径尽头隐约可见的湖光，营造深邃宁静的北欧森林感`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`派耶内湖游船视角`}</h4>
+                  <p className="text-sm text-gray-700">{`如果乘坐观光小游船，在船离开码头驶向湖心时，回身拍摄小镇全景，星星点点的彩色房子依偎在森林和湖泊之间，是最经典的黑诺拉明信片角度`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`芬兰夏季光线极佳且时间长，“午夜阳光”时段（晚上10点后）的湖景泛着金色暖光，有魔幻效果。尊重当地人隐私，拍摄私人夏日别墅或桑拿房时请保持距离。多利用湖水、森林作为天然反光板和柔光罩，让人像肤色显得通透。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`湖畔木屋民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`租一栋带有私人桑拿房和栈桥的红色小木屋，晚上在湖畔生起篝火，体验最地道的芬兰“ mökki ”（夏季别墅）生活`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`镇中心设计酒店`}</h4>
+                  <p className="text-sm text-green-800">{`由历史建筑改造的精品酒店，房间保留了高高的天花板和旧式窗棂，但内饰是简约的北欧设计，下楼就是最好的餐厅和咖啡馆`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`温泉酒店经典体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`直接入住百年温泉建筑群内的酒店，包含早餐和温泉通行证，清晨可以独享如镜面般的湖面和无人的花园`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`森林边缘静谧别墅`}</h4>
+                  <p className="text-sm text-purple-800">{`位于小镇外围森林中的独栋别墅，被蓝莓丛和云杉包围，极度私密安静，晚上可能邂逅麋鹿，适合追求彻底放空的旅行者`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6月至8月）的住宿非常紧俏，尤其是带有桑拿的湖畔木屋，务必提前数月预订。如果追求性价比，可以考虑春秋季（5月或9月）来访，颜色层次丰富，游客稀少，温泉同样开放。小镇区域都很安全，但住在森林边的别墅时，晚上注意关好门窗，避免好奇的小动物来访。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开黑诺拉的时候，我的背包里没有多出什么纪念品，但心里却好像被那湖水和森林的绿色，好好地洗涤过一遍，变得清透而安稳。这个地方教会我的，是一种“优雅的从容”。它曾拥有首府的荣光，也经历过失去光环的失落，但它没有因此变得焦虑或急于证明自己。相反，它安然地接纳了这一切，将历史的馈赠转化为生活的底蕴，将自然的恩赐升华为疗愈的艺术。在这里，辉煌的历史不是被锁在博物馆玻璃柜里的标本，而是人们每天走过的一座桥、喝咖啡的一栋老房子、放松身心的一座温泉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个全世界都在追逐“更快、更高、更强”的节奏里，黑诺拉像是一个温柔的逆行者。它存在的意义，就是提醒我们：停下来，看看湖水如何变化光影，听听风吹过松林的声响，感受木头在脚下传来的温润质感。它代表了芬兰精神中那种与自然深度联结、重视内心平和与身体感受的哲学。每一位热爱深度游的旅人，都应该来这里住上几天。不是为了打卡，而是为了体验一种可能已经被我们遗忘的生活频率——一种属于夏日的、缓慢的、充满呼吸感的生命节奏。当你离开时，你会发现，带走的不只是照片，更是一份关于如何与自己、与自然宁静相处的，北欧式的智慧。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/suomenlinna-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    芬
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">芬兰堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Suomenlinna</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/riihimki" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    里
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里希拉赫蒂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Riihimäki</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/naantali-finland-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    楠
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">楠塔利（芬兰总统夏宫及木屋老城）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Naantali</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
