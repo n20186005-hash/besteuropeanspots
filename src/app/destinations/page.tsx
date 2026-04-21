@@ -26,6 +26,12 @@ const getSlug = (str: string) => {
   return pinyin(str, { toneType: 'none', type: 'array' }).join('').toLowerCase();
 };
 
+type AttractionWithCountries = {
+  country?: string;
+  countries?: string[];
+  countrySlug?: string;
+};
+
 export default function DestinationsPage() {
   // 扫描 JSON 中的真实数据，判断哪些国家有景点
   const activeCountriesCount: Record<string, number> = {};
@@ -33,10 +39,15 @@ export default function DestinationsPage() {
 
   attractions.forEach(a => {
     // 支持 countries 数组（跨国景点）或单 country 字段
-    const countryList = a.countries || (a.country ? [a.country] : []);
-    countryList.forEach(c => {
+    const attraction = a as AttractionWithCountries;
+    const countryList = Array.isArray(attraction.countries)
+      ? attraction.countries
+      : attraction.country
+        ? [attraction.country]
+        : [];
+    countryList.forEach((c: string) => {
       activeCountriesCount[c] = (activeCountriesCount[c] || 0) + 1;
-      activeCountriesSlugs[c] = a.countrySlug || getSlug(c);
+      activeCountriesSlugs[c] = attraction.countrySlug || getSlug(c);
     });
   });
 
