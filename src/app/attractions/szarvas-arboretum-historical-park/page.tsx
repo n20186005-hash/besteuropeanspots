@@ -1,0 +1,231 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '索尔沃什树木园 Szarvasi Arboretum｜漫步匈牙利心脏的绿色王国与建筑史诗 - 最佳欧洲景点',
+  description: '朋友，想象一下，当你穿过一个毫不起眼的小镇街道，拐过一个弯，突然整个世界都安静了下来，色彩和尺度都变了。你面前展开的不是一片普通的树林，而是一个被精心打理得如同自然生长出来的梦境。这就是索尔沃什树木园给我的第一击。空气立刻变得不同，混合着潮湿的泥土、刚修剪过的青草，还有某种我叫不出名字的、甜丝丝的花',
+}
+
+export default function SzarvasArboretumHistoricalParkPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '匈牙利', href: '/destinations/europe' },
+            { label: '索尔沃什', href: '/destinations/europe' },
+            { label: '索尔沃什树木园与历史公园', href: '/attractions/szarvas-arboretum-historical-park' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`索尔沃什树木园与历史公园・Szarvasi Arboretum and Historical Park・匈牙利・索尔沃什`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下，当你穿过一个毫不起眼的小镇街道，拐过一个弯，突然整个世界都安静了下来，色彩和尺度都变了。你面前展开的不是一片普通的树林，而是一个被精心打理得如同自然生长出来的梦境。这就是索尔沃什树木园给我的第一击。空气立刻变得不同，混合着潮湿的泥土、刚修剪过的青草，还有某种我叫不出名字的、甜丝丝的花香——那可能是远处几丛盛开的丁香。阳光透过高大悬铃木层层叠叠的叶子，在地上投下明明灭灭的光斑，耳边只有风声、鸟鸣，以及自己踩在砂石小径上沙沙的脚步声。时间在这里，好像被调慢了半拍。
+往里走，你会看到本地居民的身影。这不是一个冷冰冰的景点，而是索尔沃什人生活的一部分。有老夫妇挽着手，慢悠悠地散步，在一棵特别的树下驻足，低声交谈，仿佛在拜访一位老朋友。有父亲推着婴儿车，指着奇形怪状的松树逗孩子笑。更有带着素描本的学生，坐在长椅上，对着眼前如画的风光写生。这座园子早已超越了“公园”的范畴，它是小镇的客厅，是呼吸的肺叶，是几代人共同记忆的储藏室。你能感觉到，人们爱它，并且以它为荣。
+而它最打动人心的核心魅力，在于那种“一园看尽匈牙利”的宏大叙事与细腻温情的奇妙结合。一方面，作为匈牙利最大的树木园，它收藏了来自世界各地的两千多种植物，像一位博学的植物学家，严谨而沉默。但另一方面，那个名为“迷你匈牙利”的角落，却用一种近乎童真和虔诚的方式，将这个国家历史上最著名的教堂、城堡、宫殿，以1:25的比例精巧复刻，散落在绿茵之间。上一秒你还在仰望一棵来自北美的高大红杉，下一秒你就“俯瞰”着微缩的布达王宫和马蒂亚斯教堂。这种尺度的跳跃，让你在自然之宏大与人文之精微之间来回穿梭，产生一种独特的眩晕感和领悟——原来，匈牙利的灵魂，既扎根于这片丰饶的土地，也凝结于那些石头垒起的历史记忆之中。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朋友，想象一下，当你穿过一个毫不起眼的小镇街道，拐过一个弯，突然整个世界都安静了下来，色彩和尺度都变了。你面前展开的不是一片普通的树林，而是一个被精心打理得如同自然生长出来的梦境。这就是索尔沃什树木园给我的第一击。空气立刻变得不同，混合着潮湿的泥土、刚修剪过的青草，还有某种我叫不出名字的、甜丝丝的花香——那可能是远处几丛盛开的丁香。阳光透过高大悬铃木层层叠叠的叶子，在地上投下明明灭灭的光斑，耳边只有风声、鸟鸣，以及自己踩在砂石小径上沙沙的脚步声。时间在这里，好像被调慢了半拍。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "往里走，你会看到本地居民的身影。这不是一个冷冰冰的景点，而是索尔沃什人生活的一部分。有老夫妇挽着手，慢悠悠地散步，在一棵特别的树下驻足，低声交谈，仿佛在拜访一位老朋友。有父亲推着婴儿车，指着奇形怪状的松树逗孩子笑。更有带着素描本的学生，坐在长椅上，对着眼前如画的风光写生。这座园子早已超越了“公园”的范畴，它是小镇的客厅，是呼吸的肺叶，是几代人共同记忆的储藏室。你能感觉到，人们爱它，并且以它为荣。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而它最打动人心的核心魅力，在于那种“一园看尽匈牙利”的宏大叙事与细腻温情的奇妙结合。一方面，作为匈牙利最大的树木园，它收藏了来自世界各地的两千多种植物，像一位博学的植物学家，严谨而沉默。但另一方面，那个名为“迷你匈牙利”的角落，却用一种近乎童真和虔诚的方式，将这个国家历史上最著名的教堂、城堡、宫殿，以1:25的比例精巧复刻，散落在绿茵之间。上一秒你还在仰望一棵来自北美的高大红杉，下一秒你就“俯瞰”着微缩的布达王宫和马蒂亚斯教堂。这种尺度的跳跃，让你在自然之宏大与人文之精微之间来回穿梭，产生一种独特的眩晕感和领悟——原来，匈牙利的灵魂，既扎根于这片丰饶的土地，也凝结于那些石头垒起的历史记忆之中。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`索尔沃什树木园与历史公园`} />
+                <InfoRow label="英文名称" value={`Szarvasi Arboretum and Historical Park`} />
+                <InfoRow label="正式名称" value={`索尔沃什树木园与历史公园 (Szarvasi Arborétum és Történelmi Park)`} />
+                <InfoRow label="国家" value={`匈牙利`} />
+                <InfoRow label="城市" value={`索尔沃什`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座由十九世纪贵族园艺家精心打造、并在二十世纪被赋予国家记忆功能的生态与文化圣地，被誉为“匈牙利平原的绿色心脏”。`} />
+                <InfoRow label="建筑特色" value={`将英式风景园林的浪漫布局、严谨的植物学收藏体系与极具巧思的匈牙利历史建筑微缩模型完美融合的综合性大地艺术品。`} />
+                <InfoRow label="建筑风格" value={`以自然风景式园林为主导，点缀新古典主义、浪漫主义及传统匈牙利民居风格的亭台与展馆。`} />
+                <InfoRow label="文化价值" value={`它不仅是一个植物园，更是一部用树木书写、用微缩模型凝固的立体匈牙利民族史诗，是理解匈牙利民族性与土地情感的生动教科书。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`公园全年开放，每日上午9:00至日落（夏季约至晚上8:00，冬季约至下午5:00）。室内展馆与“迷你匈牙利”模型区开放时间为4月1日至10月31日，每天10:00-18:00；11月1日至次年3月31日，仅周末及节假日11:00-16:00开放，周一至周五闭馆维护。重要节假日如圣诞节、元旦当日关闭。`} />
+              <InfoRow label="门票价格" value={`公园入园免费。进入“迷你匈牙利”微缩模型展区及附属展馆需购票：成人票1800福林，学生及退休人士票1200福林，6岁以下儿童免费。家庭套票（2大2小）4500福林。提供园区导览图免费，语音导览器租赁费用为800福林/台。`} />
+              <InfoRow label="地址" value={`Szarvasi Arborétum, 5540 Szarvas, Várkert sétány 1, Hungary`} />
+              <InfoRow label="交通方式" value={`从布达佩斯出发是最常见路线。在布达佩斯 Népliget 汽车站乘坐直达索尔沃什的长途大巴，车程约2.5小时，每日约5-6班次，建议提前在车站或匈牙利巴士公司（Volánbusz）官网购票。若自驾，沿M5高速公路向南至Kecskemét附近转55号公路，全程约170公里，耗时约2小时。抵达索尔沃什小镇后，树木园位于镇东侧蒂萨河畔，从镇中心主广场步行约15-20分钟即可到达，沿途有清晰路标。小镇内也有本地出租车，但数量不多。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座园子的故事，得从一位名叫安道尔·法鲁迪的贵族说起。十九世纪中叶，匈牙利民族复兴运动风起云涌，不仅仅是语言和文学，对大自然的科学探索与美化也被视为塑造民族精神的重要部分。法鲁迪不是那种只会在城堡里享乐的伯爵，他是个真正的“植物猎人”和园艺天才。大约在1870年代，他看中了索尔沃什附近蒂萨河畔的这块冲积平原。这里的土壤肥沃，水源充足，但当时只是一片有些杂乱的林地。他心中有一个宏大的蓝图：要在这里创造一个能与英国邱园媲美的植物学天堂。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，一场持续数十年的“绿色创作”开始了。法鲁迪亲自规划道路、挖掘池塘、引种树木。他利用自己广泛的人脉和财富，从欧洲、亚洲甚至北美引进珍稀树种。据说，有些树苗是历经千辛万苦，用专门的马车和船运来的。他摒弃了当时欧洲宫廷流行的、刻板的法式几何园林，转而拥抱更浪漫、更尊重自然本色的英式风景园风格。蜿蜒的小径引导视线，开阔的草坪与茂密的树丛形成对比，水面像镜子般倒映天光云影。到他晚年时，这里已经初具规模，成为当时中欧地区最杰出的私人植物园之一，吸引了许多学者和爱好者前来参观。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，二十世纪的动荡几乎将它摧毁。两次世界大战，尤其是二战的战火，虽然没有直接焚毁这片土地，但无人照料和物资匮乏让许多珍稀植物枯死，园景荒芜。转折点发生在二战后，新成立的匈牙利政府意识到了这片土地的文化与科学价值，于1945年将其国有化，并开始了艰难的修复工作。这不再是某个贵族的花园，它被赋予了新的使命：成为全民的财富，一个进行植物学科研、教育和休憩的公共空间。园林学家们像修补一幅珍贵的古画，一点点清理、补种、恢复旧观。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而那个让它变得独一无二、充满童趣与深意的“迷你匈牙利”点子，则诞生于更近的1970年代。当时，匈牙利正处于一个相对稳定的时期，人们开始更系统地梳理和展示自己的民族文化。有人提出，何不在这片美丽的园子里，用微缩模型的方式，集中展示匈牙利历史上和全国各地的经典建筑呢？这个想法立刻获得了支持。工匠们以令人惊叹的精度，用几年时间，一件件制作出了从罗马式教堂到巴洛克宫殿，从乡村木教堂到宏伟国会大厦的模型。当这些“小可爱”被安放在草地上、小河边，整个园子顿时增添了叙事的层次。它不再仅仅是植物的集合，更成了一本立体的、可以漫步其中的匈牙利建筑史图画书。从此，每一个来到这里的匈牙利孩子，都能在游戏中认识自己国家的轮廓；每一个外国游客，也能在半天之内，获得一场穿越时空的匈牙利文明速览。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整领略这里的双重魅力，我强烈建议你留出至少4-5小时的充裕时间，并且最好在上午9点开园后不久就抵达。上午的光线柔和，人流量少，最适合在静谧中感受植物园的呼吸和进行深度摄影。游览节奏应该是“慢-快-慢”：先以放松的心态漫步主园区，沉浸于自然；接着带着探索的趣味穿梭于“迷你匈牙利”；最后再回到大树的荫蔽下，找一个长椅坐下来消化所见所感。这样的安排能让你在自然之美与人文之思之间获得完美的平衡，不会因为赶路而错过任何细微的感动。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`园区内餐饮点较少且价格偏高，建议自带一瓶水和简单零食，但请务必带走所有垃圾。微缩模型区域严禁触摸和踩踏草坪，请务必在指定小径上行走观赏。夏季蚊虫较多，建议穿着长裤并提前喷洒驱蚊液。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从正门进入后，先别急着走主干道，向右拐进那条通往“橡树大道”的僻静小径，让高耸的树冠为你搭起一条绿色的长廊`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要在“镜湖”边的长椅上坐一会儿，看天鹅划过如绸缎般的水面，倒影中的天空和树影仿佛另一个颠倒的世界`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着湖边小路向北，去寻找那棵标志性的、树冠如巨伞的“法鲁迪悬铃木”，站在它的树荫下感受近一个半世纪的时光重量`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`然后带着朝圣般的心情进入“迷你匈牙利”区域，从入口处拿一份地图，试着按历史时间顺序寻找那些微缩的珍宝`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`记得在微缩的“霍洛克传统村落”模型前蹲下来，仔细看那些窗棂和屋顶的细节，你会惊叹于工匠的鬼斧神工`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过微缩建筑区后，前往僻静的“高山植物园”角落，那里有从喀尔巴阡山引种的独特花卉，在石缝间展示着顽强的生命力`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，在离开前，绕到园区东侧的“玫瑰园”，若是五月下旬到六月来访，你将陷入一片馥郁芬芳与绚烂色彩的海洋`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`镜湖南岸逆光拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏日落前约一小时，站在湖南岸向西拍摄，天鹅游过时，逆光会为它们和粼粼波光勾勒出金色的轮廓，对焦在天鹅上，让背景的树木和天空过曝成梦幻的光晕`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`法鲁迪悬铃木仰拍视角`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光强烈时，别拍整体，而是躺在树下的草坪上，用超广角镜头垂直向上拍摄交织的枝干与透过缝隙的点点光斑，能获得极具视觉冲击力的抽象构图`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`迷你匈牙利对角线构图`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一组有前后层次的微缩建筑（如教堂与城堡），在下午侧光时分，蹲低机位，利用小径形成视觉引导线，将主体建筑放在画面的黄金分割点，能拍出深邃的“小人国”故事感`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`玫瑰园特写与氛围结合`}</h4>
+                  <p className="text-sm text-gray-700">{`在玫瑰园，除了拍摄特写，更可尝试用中长焦镜头，以某丛盛放的玫瑰作为前景虚化框，聚焦于后方正在观赏花园的人物剪影，营造出静谧而充满生活诗意的画面`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效减少树叶和水面的反光，让绿色和蓝色更加饱和浓郁。请尊重其他游客和本地居民，拍摄人物时尽量征得同意，尤其是在进行长曝光或使用三脚架时，注意不要阻塞通道。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`河畔宁静民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`位于蒂萨河畔的一座翻新农舍，房东夫妇会为你准备丰盛的匈牙利家常早餐，傍晚搬把椅子坐在河边看夕阳染红水面，是体验本地慢生活的绝佳选择`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老城中心公寓`}</h4>
+                  <p className="text-sm text-green-800">{`索尔沃什镇广场旁一栋老建筑里的自助式公寓，推开木窗就能听到广场教堂的钟声，下楼即是面包店和咖啡馆，烟火气十足，生活便利极了`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`庄园风格酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`距离树木园约3公里的一座十九世纪小型庄园改造的精品酒店，房间宽敞充满古董家具，花园里就有百年古树，提供自行车租借，让你优雅地骑行前往公园`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`经济型旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`位于小镇入口处主干道旁，虽然陈设简单但非常干净，老板能提供最地道的本地游玩建议，且价格亲民，适合预算有限的背包客`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "索尔沃什是非常安全宁静的小镇，但夜间娱乐活动较少，喜欢夜生活的朋友可能会觉得单调。夏季（6-8月）是旅游旺季，住宿最好提前1-2周预订，尤其是周末。如果自驾，预订时务必确认住宿地是否提供免费停车位。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开索尔沃什树木园许久，我脑海里挥之不去的，不是某一棵具体的树，也不是某一个精致的模型，而是一种感觉。那是一种在别处很难找到的、深厚的“扎根感”。这个园子，它不像那些闻名世界的宫殿或大教堂，用巍峨震撼你，用奢华冲击你。它更像一位温和博学的老者，用一片叶子的脉络，用一块微缩的砖瓦，轻声细语地告诉你：看，这就是匈牙利，它曾经这样在历史中矗立，它现在这样在自然中生长。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切都追求快速、高效、眼球效应的时代，这样一个地方的存在，本身就是一种温柔的反抗。它邀请你慢下来，弯腰看看脚边的小花，蹲下来用孩子的视角看看“微型城堡”。它把宏大的国家叙事，拆解成你可以触摸、可以闻见、可以在树荫下静静思索的片段。在这里，爱国不是一句空洞的口号，而是对脚下土地所孕育出的每一片绿色、所承载的每一段石头记忆的具体认知与深情。所以，如果你厌倦了在热门景点的人潮中浮光掠影，如果你想真正理解匈牙利这个民族沉稳内敛又充满韧性的灵魂，请一定来索尔沃什，来这个匈牙利的“心脏”地带。让这座绿色的王国，为你上一堂关于自然、历史与归属感的，无声却无比深刻的课。它会是你匈牙利之旅中，最安静也最丰盈的回忆。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/eger-castle-bull-blood-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃格尔城堡与公牛血产区</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eger Castle & Egri Bikavér Region</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/szentendre-art-town-hungary" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    圣
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">圣安德烈（艺术小镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Szentendre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/eszterhaza-palace-fertod" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    费
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">费尔特德埃斯泰尔哈兹宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Eszterháza Palace</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

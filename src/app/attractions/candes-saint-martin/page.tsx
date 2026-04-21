@@ -1,0 +1,247 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '康德圣马丁 Candes-Saint-Martin｜卢瓦尔河与维埃纳河交汇处的小众圣地，在图尔圣马丁长眠之地触摸千年时光 - 最佳欧洲景点',
+  description: '车子从图尔平坦的田野间拐入一条林荫小道，当视线豁然开朗时，你第一眼看到的不是建筑，而是光。那是午后时分，卢瓦尔河与维埃纳河像两条宽阔的、懒洋洋的银色绸带，在阳光下闪着细碎的波光，缓缓地拥抱在一起。而康德圣马丁，这座淡金色的石头小镇，就安然地睡在这个温柔的“V”字形怀抱里，仿佛千百年来从未被惊扰。空气',
+}
+
+export default function CandesSaintMartinPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
+            { label: '安德尔-卢瓦尔省', href: '/destinations/france' },
+            { label: '康德圣马丁', href: '/attractions/candes-saint-martin' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`康德圣马丁・Candes-Saint-Martin・法国・安德尔-卢瓦尔省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子从图尔平坦的田野间拐入一条林荫小道，当视线豁然开朗时，你第一眼看到的不是建筑，而是光。那是午后时分，卢瓦尔河与维埃纳河像两条宽阔的、懒洋洋的银色绸带，在阳光下闪着细碎的波光，缓缓地拥抱在一起。而康德圣马丁，这座淡金色的石头小镇，就安然地睡在这个温柔的“V”字形怀抱里，仿佛千百年来从未被惊扰。空气里有河水的微腥，混合着岸边青草被晒暖的气息，还有远处不知名野花的淡淡香味。
+停好车，踏上通往小镇中心的白石板路。这些石板真是迷人，被几个世纪的脚步和雨水打磨得温润发亮，在阳光下反射着象牙般柔和的光泽。路很窄，两旁是蜂蜜色石头垒成的矮墙和房屋，有些墙头垂下成片的紫色铁线莲或红色天竺葵。安静极了，只能听见自己的脚步声、远处的几声鸟鸣，以及——如果你侧耳细听——那似有若无的、两股巨大水流相遇时深沉的嗡嗡声，那是大地脉搏的震动。偶尔有骑着老旧自行车的老人向你点头微笑，或者一只花斑猫从门洞里探出头，又懒洋洋地缩回去。这里的时间流速，似乎比外面的世界慢了好几拍。
+然后，路尽头忽然开阔，学院教堂那宏伟的后殿毫无预兆地矗立在眼前。它不像很多大教堂那样试图用尖塔刺向天空，而是敦实地、甚至有些倔强地坐在那里，厚重的扶壁像巨人的臂膀环抱着建筑主体。岩石的颜色是温暖的米白，带着岁月留下的灰黑斑驳。最震撼的是它后殿的线条，那种火焰哥特式的优雅曲线，与底部军事堡垒般的坚固形成了奇妙的对话。你站在它投下的巨大阴影里，忽然明白了这个地方的核心魅力：它既是灵魂归宿的宁静圣所，也是历史上兵家必争之地的防御要塞，两种截然不同的气质，在此处被时光完美地糅合进了同一堆石头里。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子从图尔平坦的田野间拐入一条林荫小道，当视线豁然开朗时，你第一眼看到的不是建筑，而是光。那是午后时分，卢瓦尔河与维埃纳河像两条宽阔的、懒洋洋的银色绸带，在阳光下闪着细碎的波光，缓缓地拥抱在一起。而康德圣马丁，这座淡金色的石头小镇，就安然地睡在这个温柔的“V”字形怀抱里，仿佛千百年来从未被惊扰。空气里有河水的微腥，混合着岸边青草被晒暖的气息，还有远处不知名野花的淡淡香味。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "停好车，踏上通往小镇中心的白石板路。这些石板真是迷人，被几个世纪的脚步和雨水打磨得温润发亮，在阳光下反射着象牙般柔和的光泽。路很窄，两旁是蜂蜜色石头垒成的矮墙和房屋，有些墙头垂下成片的紫色铁线莲或红色天竺葵。安静极了，只能听见自己的脚步声、远处的几声鸟鸣，以及——如果你侧耳细听——那似有若无的、两股巨大水流相遇时深沉的嗡嗡声，那是大地脉搏的震动。偶尔有骑着老旧自行车的老人向你点头微笑，或者一只花斑猫从门洞里探出头，又懒洋洋地缩回去。这里的时间流速，似乎比外面的世界慢了好几拍。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然后，路尽头忽然开阔，学院教堂那宏伟的后殿毫无预兆地矗立在眼前。它不像很多大教堂那样试图用尖塔刺向天空，而是敦实地、甚至有些倔强地坐在那里，厚重的扶壁像巨人的臂膀环抱着建筑主体。岩石的颜色是温暖的米白，带着岁月留下的灰黑斑驳。最震撼的是它后殿的线条，那种火焰哥特式的优雅曲线，与底部军事堡垒般的坚固形成了奇妙的对话。你站在它投下的巨大阴影里，忽然明白了这个地方的核心魅力：它既是灵魂归宿的宁静圣所，也是历史上兵家必争之地的防御要塞，两种截然不同的气质，在此处被时光完美地糅合进了同一堆石头里。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`康德圣马丁`} />
+                <InfoRow label="英文名称" value={`Candes-Saint-Martin`} />
+                <InfoRow label="正式名称" value={`Candes-Saint-Martin`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`安德尔-卢瓦尔省`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是基督教早期重要圣徒、图尔主教圣马丁（Saint Martin of Tours）于公元397年逝世的确切地点，标志着卢瓦尔河谷基督教传播的一个原点。`} />
+                <InfoRow label="建筑特色" value={`一座坚固而优美的堡垒式学院教堂，拥有高大的后殿和独特的防御性外观，雄踞于两河交汇的岬角之上。`} />
+                <InfoRow label="建筑风格" value={`主要以13世纪初期的哥特式风格（尤其是火焰哥特式后殿）为主，同时也保留了部分更早的罗马式建筑结构与特征。`} />
+                <InfoRow label="文化价值" value={`它不仅是重要的朝圣遗址，更是卢瓦尔河与维埃纳河交汇处历史、宗教与河流文明的静默见证者。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。学院教堂（Collégiale）通常开放时间为上午9点至下午6点（夏季可能延长至7点）。请注意，教堂在中午12点至下午2点之间可能短暂关闭。弥撒期间（通常为周日上午）游客需保持安静。冬季开放时间可能缩短，建议出行前查询当地旅游信息板。`} />
+              <InfoRow label="门票价格" value={`进入小镇及在公共区域游览完全免费。参观学院教堂内部免收门票，但欢迎自愿捐赠（建议2-5欧元）用于教堂维护。教堂内有时有小型展览或音乐会，此类特殊活动可能收取少量费用。`} />
+              <InfoRow label="地址" value={`Collégiale de Candes-Saint-Martin, 1 Place de l‘Église, 37500 Candes-Saint-Martin, France`} />
+              <InfoRow label="交通方式" value={`从巴黎出发：乘坐高速列车（TGV）约1小时抵达图尔（Tours）圣皮埃尔-des-Corps火车站。从图尔火车站前，乘坐前往“Chinon”方向的56路区域巴士（Région Centre - Rémi），在“Candes-Saint-Martin”站下车，车程约45分钟至1小时，班次约为每天4-6班（周末减少），务必提前在车站或通过Rémi应用查看时刻表。自驾是最灵活的方式，从图尔出发沿D7公路向西南行驶约30公里即达，小镇入口有免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从一位罗马士兵讲起。公元4世纪，一位名叫马丁的年轻士兵，在亚眠的城门口用剑割开自己的斗篷，分给一个衣不蔽体的乞丐。这个著名的善举，预示了他非凡的一生。后来，马丁成为图尔的主教，他积极传教，在卢瓦尔河谷地区建立修道院，化身为农民与穷人的守护者。公元397年，年事已高的圣马丁来到康德——这个当时已经是重要河港的村庄——试图调解当地教士间的纠纷。就在这里，在这两条伟大河流的交汇处，他病重去世。传说，当时正值深秋，但他逝世后，康德地区却百花齐放，草木返青，俨然一个“圣马丁之夏”，这一神迹让此地瞬间神圣化。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "他的离世引发了一场“争夺”。图尔的居民希望将圣人的遗体带回他们的城市安葬，而康德人则希望圣马丁长眠于此。一场拉锯战在夜色中上演。最终，据说是在天使的指引或某种默契下，图尔人成功用船载着圣人的遗体顺流而下。但康德的这片土地，因承载了圣人最后的呼吸和神迹，已变得永不磨灭。人们很快在他逝世的原址上建起了一座小教堂，朝圣者开始从欧洲各地涌来，渴望触摸这份最后的恩泽。康德从一个河港，变成了一个重要的朝圣中心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间跳到13世纪初，一座更宏大的教堂开始在这里拔地而起。为什么要建得如此坚固，像个城堡？因为地理位置。卢瓦尔河与维埃纳河交汇处，是极其关键的战略要冲和水路贸易枢纽。在中世纪连绵不断的冲突中——无论是英法百年战争，还是后来的宗教战争——这里都是各方势力觊觎和争夺的要点。于是，建造者们赋予这座敬献给圣马丁的教堂双重使命：它高耸的后殿和精致的窗棂用于赞美上帝，而它厚重的墙壁、狭窄的窗户和防御工事般的结构，则用于抵御敌人的弓箭与炮火。它见证了战船在河面交锋，也庇护了战火中祈祷的平民。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此后的几个世纪，康德圣马丁随着河流贸易的兴衰而起落。法国大革命的风暴也曾席卷这里，教堂内的许多珍宝被损毁或散失，建筑本身也遭到一定破坏。但小镇和教堂如同河床上的巨石，顽强地存续下来。当工业时代来临，主要交通干线远离此地，康德逐渐从历史的喧嚣前台隐退，变成了我们今天看到的、仿佛被时光遗忘的宁静模样。那份因圣人之死而来的神圣感，和因战火锤炼而来的坚韧感，都沉淀在了每一块石头的纹理里，化作了午后阳光下的一片静谧。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在午前抵达，预留至少3-4小时进行沉浸式探索。这样安排可以让你先感受小镇晨间的清新与宁静，在光线最适合的时候欣赏教堂外部和河景，随后在镇上午餐，下午再深入教堂内部感受其幽静氛围，最后在傍晚柔和的光线下于高处俯瞰两河交汇的壮丽景色。节奏宜慢不宜快，核心是感受“此地”独特的时空感。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇石板路很美但穿着舒适的平底鞋绝对必要，高跟鞋在这里是“灾难”。
+教堂内部禁止使用闪光灯，并且请始终保持低声细语，这里是仍在使用的宗教场所。
+夏季午后阳光可能很烈，教堂后殿广场缺乏遮荫，记得戴上帽子和太阳镜，并带足饮用水。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在镇口的免费停车场，沿着那条著名的、闪着光的白石板主路（Rue de la Cure）慢慢向镇中心溜达，用手心感受石头的温度`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在道路尽头的小广场（Place de l‘Église）站定，花十分钟什么都不做，只是抬头从不同角度欣赏学院教堂那融合了神圣与防御气息的独特侧影与后殿`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂南侧的小门进入内部，让你的眼睛适应昏暗的光线，然后去寻找那根被称为“圣马丁之柱”的古老罗马式柱头，上面雕刻的图案讲述着古老的故事`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花一点时间坐在中殿的长椅上，静静聆听：或许能听到外面河流的隐约水声，以及建筑本身在寂静中发出的、几乎无法察觉的石头“呼吸”声`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂北门出来，沿着“Rue du Grenier à Sel”等小巷随意穿梭，用鼻子寻找一家散发着烤面包或炖菜香味的小餐馆，点一份简单的当地午餐`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后沿着“Montée de la Poterne”小路向上，穿过古老的城门遗址，一直走到小镇西侧的山丘观景台`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在观景台上找张长椅坐下，看着脚下卢瓦尔河与维埃纳河如何像两条巨蟒般蜿蜒、纠缠，最终合二为一，流向远方`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山时选择另一条小巷，比如“Rue du Château”，顺便看看那些挂着古老招牌的手工艺作坊或不对公众开放但外观迷人的私人宅邸`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`河对岸（D116公路边）的宽阔草地`}</h4>
+                  <p className="text-sm text-gray-700">{`日出时分，可以拍到学院教堂和小镇建筑群沐浴在金色晨光中，倒影在平静河面上的完整全景，构图时将交汇的河流作为前景`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`教堂后殿东侧脚下`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，阳光斜射在火焰哥特式的扶壁和飞扶券上，石头的纹理和雕塑的细节会产生戏剧性的明暗对比，用长焦捕捉局部结构之美`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`白石板路“Rue de la Cure”的中段拐角`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，低角度的光线会把石板路照得如同一条发光的河，等待一个当地人或一只猫经过，拍下带有生活气息的纵深画面`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`山顶观景台（Table d‘Orientation）`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，利用广角镜头囊括两河交汇的壮阔曲线，将小镇的屋顶和教堂的后殿作为画面的焦点，天空的霞光是天然滤镜`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`教堂内部中殿望向祭坛`}</h4>
+                  <p className="text-sm text-gray-700">{`当一束阳光恰好从高侧窗射入，照亮空气中漂浮的微尘和古老的祭坛时，迅速捕捉这束“神圣之光”，注意提高ISO保证快门速度，稳定呼吸`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地居民或他们的私有财产（如美丽的花园）前，请务必先微笑并征得同意，一个友好的手势能避免误会。`}</li>
+                <li>• {`小镇光线变化丰富，尤其清晨和黄昏，建议携带一支轻便的三脚架，用于长曝光拍摄流水或弱光下的建筑内部。`}</li>
+                <li>• {`尝试用黑白模式拍摄石板路和建筑细节，能更好地突出历史的质感与岁月的层次。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`河畔静谧之选`}</h4>
+                  <p className="text-sm text-blue-800">{`镇上仅有的一家精品客栈“Auberge de la confluence”，房间不多，但每间都正对或侧望河流，晚上能枕着水声入眠，早餐的羊角包是老板清早从隔壁村面包房新鲜取回的`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`历史沉浸体验`}</h4>
+                  <p className="text-sm text-green-800">{`住在三公里外蒙索罗（Montsoreau）城堡脚下的石头老屋改造的民宿，那里也是《玛戈王后》的取景地，晚上可以沿着河岸散步回康德看星空下的教堂剪影`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园风光享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车十五分钟，入住卢瓦尔河畔葡萄园环绕的乡村庄园酒店，在无边泳池里就能眺望远处康德圣马丁所在的山丘，享受静谧的田园夜晚与现代舒适的完美结合`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`图尔城便捷选择`}</h4>
+                  <p className="text-sm text-purple-800">{`如果希望有更多餐饮选择，可以返回图尔市中心，住在老城区的古典酒店，将康德圣马丁作为一次完美的白日深度出游目的地`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "康德圣马丁镇内住宿极其有限，务必提前数月预订，尤其是夏季和周末。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果想获得最宁静的体验，强烈建议在工作日（周日至周四晚）入住，周末白天游客会稍多。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "无论住在镇上还是周边，晚上一定要出门散步，星空下无人的小镇和被灯光轻微勾勒的教堂，是与白日截然不同的魔幻景象。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开康德圣马丁时，我总会忍不住回头再望一眼。它渐渐缩小在后视镜里，最终化成一个岬角上模糊的金色光点。但很奇怪，那份由河流水声、白石板路的凉意、教堂石头的厚重感以及几乎凝固的宁静所混合成的独特“感觉”，却清晰地留在了身体里。在这个追求效率、充斥噪音的世界，康德圣马丁提供了一种珍贵的“失重感”。它不急于向你证明什么，不提供惊险的游乐项目，没有排长队的网红打卡点。它只是在那里，存在着，以它本来的样子——一个因圣人逝世而诞生，因战争洗礼而坚固，因时光流逝而宁静的古老存在。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是为什么每一个渴望深度游的灵魂都应该来这里。它不仅仅是一个景点，更是一个时间的容器，一个让你真切触摸“历史”并非书本上枯燥年份，而是脚下发亮的石板、手边粗糙的墙砖、耳边永恒的水流声的地方。在这里，你能瞬间理解什么叫“一方水土养一方神灵”，理解人类如何将信仰、生存、艺术和对美的追求，全部浇筑进石头与河流的风景里。来康德圣马丁，不是为了收集一个地名，而是为了让自己慢下来，在卢瓦尔河与维埃纳河永恒的拥抱中，聆听一次自己内心深处的、安静的回响。这份宁静而丰厚的馈赠，足以让你在回归纷扰都市后，长久地反复咀嚼。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/la-couvertoirade" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉库韦尔图瓦拉德</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">La Couvertoirade</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/provins-medieval-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普罗万中世纪古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Provins</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/place-stanislas" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    南
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">南锡斯坦尼斯拉斯广场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Place Stanislas</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

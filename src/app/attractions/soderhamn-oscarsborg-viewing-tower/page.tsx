@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '瑟德港 Söderhamn｜登上纯白奥斯卡堡，私享整个瑞典东海岸的松林与群岛 - 最佳欧洲景点',
+  description: '说实话，如果你只是匆匆路过E4公路，很可能就错过了瑟德港。这个波的尼亚湾畔的小镇，安静得就像一本被轻轻合上的书。但如果你愿意为一个名字绕一点路，你会收获整个瑞典东海岸最慷慨的馈赠。把车停在满是松针的林间空地，推开车门，那股清冽的空气瞬间灌满胸腔——那是松脂的涩香、苔藓的湿润，以及从海湾方向飘来的、一',
+}
+
+export default function SoderhamnOscarsborgViewingTowerPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '瑟德港', href: '/destinations/europe' },
+            { label: '瑟德港', href: '/attractions/soderhamn-oscarsborg-viewing-tower' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`瑟德港・Söderhamn・瑞典・瑟德港`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，如果你只是匆匆路过E4公路，很可能就错过了瑟德港。这个波的尼亚湾畔的小镇，安静得就像一本被轻轻合上的书。但如果你愿意为一个名字绕一点路，你会收获整个瑞典东海岸最慷慨的馈赠。把车停在满是松针的林间空地，推开车门，那股清冽的空气瞬间灌满胸腔——那是松脂的涩香、苔藓的湿润，以及从海湾方向飘来的、一丝几乎难以察觉的咸味。沿着指示清晰的小径向上走，脚下是柔软的针叶地毯，四周只有风穿过挪威云杉的沙沙声，还有不知名鸟雀短促的鸣叫。
+然后，在一个转弯后，它就这样毫无防备地撞进你的视野。奥斯卡堡。它和你想象中的任何瑞典建筑都不同，不是稳重红色的木屋，也不是庄严的石头教堂。它通体洁白，在墨绿色森林的包裹中，像一块被精心放置的方糖，又像是一个从童话里直接搬出来的迷你城堡。那种白，在北欧清澈的阳光下，甚至有些耀眼。它静静地立在山丘之顶，姿态有些孤独，却又充满了一种笃定的优雅。你会不由自主地加快脚步，想知道从那个白色的塔顶望出去，世界是什么模样。
+登塔的过程本身就是一种仪式。木质楼梯盘旋而上，踩上去发出好听的“咚咚”声，空气里弥漫着老木头和油漆的味道。每上一层，从狭长的窗框望出去的风景就开阔一分。直到你终于踏上最高的那个露天平台。那一刻，语言是苍白的。整个波的尼亚湾在你脚下铺展开来，那是一种近乎奢侈的辽阔。近处是深绿色的松林，像厚实的天鹅绒毯子覆盖着起伏的丘陵；中间是星罗棋布的暗红色小岛和礁石，点缀在钢蓝色的大海上；最远处，海天融成一片淡淡的银灰。没有喧嚣，只有永恒的风声和海鸥遥远的鸣叫。你会看到当地人带着孩子和狗，悠闲地坐在长椅上，指着远方辨认某个小岛的名字——这里不是游客的专属，它是瑟德港人日常呼吸的一部分，是他们骄傲的后花园。
+最打动人心的，或许是这份美景的“易得性”。它不像那些需要历经艰险才能抵达的绝境，这座白色的塔楼，就像一个友善的巨人，微微弯下腰，把一个国家级的风光轻轻放在了每个普通人的眼前。它不设门槛，不问来处，只是静静地在这里，等着每一个愿意抬头、愿意攀登的人。这种朴素而巨大的慷慨，正是瑞典式幸福哲学最动人的体现：最美的风景，理应属于所有人的眼睛。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说实话，如果你只是匆匆路过E4公路，很可能就错过了瑟德港。这个波的尼亚湾畔的小镇，安静得就像一本被轻轻合上的书。但如果你愿意为一个名字绕一点路，你会收获整个瑞典东海岸最慷慨的馈赠。把车停在满是松针的林间空地，推开车门，那股清冽的空气瞬间灌满胸腔——那是松脂的涩香、苔藓的湿润，以及从海湾方向飘来的、一丝几乎难以察觉的咸味。沿着指示清晰的小径向上走，脚下是柔软的针叶地毯，四周只有风穿过挪威云杉的沙沙声，还有不知名鸟雀短促的鸣叫。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然后，在一个转弯后，它就这样毫无防备地撞进你的视野。奥斯卡堡。它和你想象中的任何瑞典建筑都不同，不是稳重红色的木屋，也不是庄严的石头教堂。它通体洁白，在墨绿色森林的包裹中，像一块被精心放置的方糖，又像是一个从童话里直接搬出来的迷你城堡。那种白，在北欧清澈的阳光下，甚至有些耀眼。它静静地立在山丘之顶，姿态有些孤独，却又充满了一种笃定的优雅。你会不由自主地加快脚步，想知道从那个白色的塔顶望出去，世界是什么模样。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "登塔的过程本身就是一种仪式。木质楼梯盘旋而上，踩上去发出好听的“咚咚”声，空气里弥漫着老木头和油漆的味道。每上一层，从狭长的窗框望出去的风景就开阔一分。直到你终于踏上最高的那个露天平台。那一刻，语言是苍白的。整个波的尼亚湾在你脚下铺展开来，那是一种近乎奢侈的辽阔。近处是深绿色的松林，像厚实的天鹅绒毯子覆盖着起伏的丘陵；中间是星罗棋布的暗红色小岛和礁石，点缀在钢蓝色的大海上；最远处，海天融成一片淡淡的银灰。没有喧嚣，只有永恒的风声和海鸥遥远的鸣叫。你会看到当地人带着孩子和狗，悠闲地坐在长椅上，指着远方辨认某个小岛的名字——这里不是游客的专属，它是瑟德港人日常呼吸的一部分，是他们骄傲的后花园。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人心的，或许是这份美景的“易得性”。它不像那些需要历经艰险才能抵达的绝境，这座白色的塔楼，就像一个友善的巨人，微微弯下腰，把一个国家级的风光轻轻放在了每个普通人的眼前。它不设门槛，不问来处，只是静静地在这里，等着每一个愿意抬头、愿意攀登的人。这种朴素而巨大的慷慨，正是瑞典式幸福哲学最动人的体现：最美的风景，理应属于所有人的眼睛。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`瑟德港`} />
+                <InfoRow label="英文名称" value={`Söderhamn`} />
+                <InfoRow label="正式名称" value={`Söderhamn`} />
+                <InfoRow label="国家" value={`瑞典`} />
+                <InfoRow label="城市" value={`瑟德港`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座纯白的奥斯卡堡观景塔，是瑞典东海岸“大众漫步权”与浪漫民族主义精神的实体象征，见证了从军事瞭望点到公共休闲之地的和平转变。`} />
+                <InfoRow label="建筑特色" value={`一座形如中世纪城堡塔楼的纯白色木质结构建筑，突兀而优美地矗立在森林山巅，通过内部陡峭的旋转楼梯连接着数个观景平台。`} />
+                <InfoRow label="建筑风格" value={`北欧新浪漫主义风格，融合了古斯塔夫时期建筑元素与童话般的城堡意象。`} />
+                <InfoRow label="文化价值" value={`它体现了瑞典人将自然景观权公有化、民主化的理念，是一个供所有人免费（后象征性收费）欣赏祖国壮丽山河的“人民观景台”。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`奥斯卡堡观景塔的开放时间随季节灵活变动。通常从五月中旬至九月中旬，每天上午10点至下午6点开放，夏季（六月至八月）甚至会延长至晚上8点，以便游客欣赏午夜日落。冬季（十月至次年四月）则通常仅在周末的上午11点至下午3点开放，且天气恶劣时可能临时关闭。建议行前务必查看当地旅游局官网的最新公告。`} />
+              <InfoRow label="门票价格" value={`登塔门票非常亲民。成人票价为60瑞典克朗，学生及65岁以上长者享有优惠票价为40瑞典克朗。12岁以下儿童在成人陪同下可免费入场。此外，持有耶夫勒堡省旅游通票的游客可以免费进入。门票均在塔底的小木屋现场购买，支持信用卡和瑞典主流移动支付。`} />
+              <InfoRow label="地址" value={`Oscarsborg, Söderhamn, 826 31, Sweden`} />
+              <InfoRow label="交通方式" value={`从斯德哥尔摩阿兰达机场出发，最惬意的方式是乘坐铁路。首先搭乘机场快线或区域列车前往斯德哥尔摩中央火车站，耗时约20-40分钟。然后换乘开往于默奥或松兹瓦尔的北行列车，在“Söderhamn”站下车，这段旅程约2.5至3小时，沿途森林湖泊景色绝美，班次每天约6-8趟。从瑟德港火车站出来，奥斯卡堡观景塔就在小镇南侧的山丘上，步行约25分钟即可抵达，或者乘坐本地开往“Söderåsen”方向的巴士，在“Oscarsborg”站下车。如果自驾，从斯德哥尔摩沿E4号公路向北行驶约260公里，跟着“Oscarsborg”的棕色旅游标识即可轻松到达山脚停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "瑟德港的故事，和瑞典东海岸大多数城镇一样，始于海洋的馈赠。早在中世纪，这里就是一个重要的渔港和贸易点，鲱鱼群带来的财富让它在历史上几度沉浮。但真正让这个小港口在十九世纪末焕发新生的，是工业革命的脉搏。木材和钢铁成了新的“黄金”，瑟德港凭借其天然良港的优势，迅速成为重要的物流枢纽，蒸汽机的轰鸣取代了帆船的桅杆声。小镇迎来了它的黄金时代，宽阔的林荫大道和漂亮的别墅区被建设起来，空气中充满了雄心勃勃的味道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而奥斯卡堡观景塔的诞生，则与一个名字紧密相连：奥斯卡二世。这位瑞典和挪威的国王，是一位对航海和工程技术有着浓厚兴趣的君主。时间来到1901年，瑟德港希望为来访的国王献上一份特别的礼物，同时也想为小镇创造一个不朽的地标。于是，建造一座观景塔的想法应运而生。它被命名为“奥斯卡堡”，以表达对国王的敬意。设计灵感并非来自传统的瑞典建筑，而是当时盛行于北欧的“民族浪漫主义”风潮。设计师们从瑞典中世纪的城堡塔楼和防御工事中汲取元素，但摒弃了石头的沉重，大胆采用了轻盈的木质结构，并涂以醒目的纯白色，使其在自然景观中既突出又和谐，更像一个浪漫的宣言而非防御工事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "塔楼建成后的几十年，它首先扮演的是一个实用角色：一个绝佳的瞭望点。在两次世界大战那阴云密布的年月，波的尼亚湾的战略地位凸显。这座白色的高塔，曾一度被用于海岸监视，守卫着瑞典的中立与宁静。士兵们或许曾站在你今天拍照的位置，用望远镜紧张地扫视海平面，寻找不属于这片海域的船只轮廓。战争的阴影最终没有降临，而高塔也幸运地完好保存了下来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战后，随着和平年代的到来和全民户外运动的兴起，奥斯卡堡的意义发生了根本性的转变。它从一种带有军事和纪念性质的建筑，彻底转变为一个纯粹的休闲观景点。瑞典人著名的“阿尔lemansrätten”（大众漫步权）精神在这里得到了完美体现——每个人都有权接近并享受自然。这座塔，成为了实践这一权利的完美工具。它被精心维护，楼梯加固，平台拓宽，成了家庭远足、学校旅行和情侣约会的首选目的地。它不再属于某位国王或某个时代，它属于每一个在周末开车前来，只为看一场海上日落的普通人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的瑟德港，早已褪去了工业鼎盛时期的喧嚣，回归了一种宁静、自信的滨海小镇生活节奏。而奥斯卡堡，如同一位沉默的守护者，见证了这一切变迁。它看过蒸汽轮船喷吐着浓烟驶入港口，也看过集装箱货轮安静地滑过海面；它聆听过战备时期的紧张电波，更日日浸润在孩子们登顶时的欢声笑语里。它白色的身躯上，凝结着一个小镇的百年悲欢，更映射出一个民族如何将历史、自然与公共生活温柔地编织在一起。它站在那里，本身就是一首关于时间、和平与共享之美的诗。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`我强烈建议你将整个瑟德港之旅安排成一个从容的下午至傍晚。最佳抵达时间是午后两三点，这时小镇上午的宁静还未完全散去，而阳光正为登顶观景准备好最柔和的光线。整体耗时大约4-5小时，节奏务必放慢，这里不适合赶路。先花一个小时在小镇中心漫步，感受它的日常脉搏，然后带着期待缓缓走向森林山丘。目标是登上奥斯卡堡，恰好赶上晚餐前后的黄金光线，并有机会守候一场波的尼亚湾上壮丽的日落或午夜霞光（夏季）。这样的安排，既能体验小镇生活，又能将自然景观的震撼最大化，由浅入深，由人间烟火至天地辽阔。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季前来务必携带有效的驱蚊剂，森林和近水区域的蚊虫相当活跃。登塔楼梯陡峭且狭窄，请务必穿着舒适防滑的鞋子，高跟鞋是绝对不适宜的。计划看日落的话，提前查好精确的日落时间，并带上一件防风外套，塔顶的风会比想象中更凉。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从瑟德港火车站出来，先不急着找塔，而是沿着主要街道走向港口，看看那些随着海浪轻轻摇晃的白色小游艇和色彩明快的木屋。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕到港口背后的老街区，在石板路上走走，留意那些十九世纪末建造的漂亮商人别墅，它们安静诉说着小镇昔日的繁荣。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拜访小巧精致的瑟德港海事博物馆，花二十分钟了解这个城镇如何与海洋共生，让之后的风景更有历史的厚度。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从镇中心顺着清晰的路标，开始漫步走向奥斯卡堡所在的山丘，享受那段被松林香气包裹的、渐入佳境的徒步过程。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`用力推开观景塔底那扇厚重的木门，开始攀登内部古老的旋转楼梯，感受脚步在木板上回响，光线从不同高度的窗口变幻着洒入。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在塔顶的露天平台，找个角落静静坐下，用至少半小时，让自己的眼睛慢慢扫过森林、群岛和海平面的每一个细节，直到心完全静下来。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后如果正值夏季，不妨去小镇的海滨公共浴场走走，看看当地人如何跳进清冽的海水中游泳，彻底融入这份北欧夏日的闲适。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`港口远眺全景机位`}</h4>
+                  <p className="text-sm text-gray-700">{`站在瑟德港主港口防波堤的尽头，使用中长焦镜头，将纯白的奥斯卡堡置于墨绿色山丘的中央，捕捉它如童话城堡般的孤高身影，清晨或傍晚的侧光能赋予建筑立体感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`塔顶360度全景接片`}</h4>
+                  <p className="text-sm text-gray-700">{`在观景塔顶层平台，将相机或手机竖拍，以缓慢稳定的速度水平旋转拍摄6-8张照片，后期拼接，能完美呈现森林、城镇、群岛与大海环绕的震撼全景，光线柔和的全天皆可，但避免正午顶光。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`森林小径仰拍视角`}</h4>
+                  <p className="text-sm text-gray-700">{`在通往观景塔的最后一段森林小径中，寻找一个树木自然形成的“画框”，蹲下放低机位向上仰拍，让洁白的塔尖从深色的松枝间穿透而出，构图极具故事感和层次感，下午的阳光能照亮塔身。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`内部旋转楼梯光影`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个阳光充沛的下午，在塔内楼梯的中段，向上或向下拍摄螺旋状的楼梯结构，等待阳光从楼梯间的窗户射入，形成强烈的明暗对比和几何光影，这是捕捉建筑内部魅力的绝佳机会。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄白色塔身时，酌情减少0.3到0.7档曝光补偿，可以避免高光过曝，保留更多细节。在塔顶拍摄时，请格外注意尊重其他游客的隐私，避免将镜头长时间对准休息或家庭聚会的人群。使用无人机拍摄前，务必确认当地法规，该区域可能因靠近港口和自然保护地带有飞行限制。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`海滨历史酒店`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻港口边那家由十九世纪航运公司办公楼改造的精品酒店，在房间的窗边就能看到渔船归航，晚上枕着轻微的海浪声入眠。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`森林隐居民宿`}</h4>
+                  <p className="text-sm text-green-800">{`选择镇外森林湖畔的一处传统红色小木屋，体验真正的“sommarstuga”（夏日别墅）生活，自己生火煮咖啡，在私人码头上看晨雾弥漫。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`市中心设计公寓`}</h4>
+                  <p className="text-sm text-yellow-800">{`租住一套位于老式建筑顶层的现代公寓，拥有开阔的露台，既能方便探索小镇美食，又能在私密空间里以不同角度欣赏远方的奥斯卡堡。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`特色灯塔住宿`}</h4>
+                  <p className="text-sm text-purple-800">{`如果追求极致体验，可以预订驱车约半小时可达的、位于外岛上的古老灯塔看守人房，体验被大海完全包围的孤独与壮美，需提前数月预定。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（六月至八月）是绝对旺季，所有特色住宿都需尽早预订，至少提前两到三个月为佳。小镇治安极好，可以放心夜归，但夏季昼长夜短，请保持安静，尊重邻里。很多民宿提供自行车租赁，这是探索小镇周边森林和海岸小径的完美方式。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开瑟德港好些天了，但闭上眼睛，那片从奥斯卡堡顶看到的、铺天盖地的蓝与绿，依然清晰得仿佛触手可及。那里没有令人窒息的拥挤，没有必须打卡的清单，它给你的，就是一片风景，一阵风，和一段完全属于你自己的时间。在这个凡事都讲究效率、追求“网红同款”的时代，这种简单和安静，反而成了最奢侈的东西。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我想，奥斯卡堡存在的意义，远不止是一个观景台。它是一个温柔的提醒，提醒我们最美的风景有时就在“绕一点路”的地方，提醒我们享受自然的权利是如此平凡而珍贵。它不试图震撼你，只是静静地陪伴你，让你自己去看，去听，去感受风吹过发梢，去发现内心久违的宁静。所以，如果你也厌倦了浮光掠影，渴望一场真正与风景、也与自己对话的旅行，请一定把瑟德港和它的白色城堡，放进你的地图。它或许不会出现在最畅销的旅行指南封面，但它会稳稳地、安静地，落在你心里最柔软的那个角落，成为你回忆欧洲时，一段闪着光的、私密的珍藏。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kalmar-castle-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔马城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kalmar Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kalmar-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔马城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kalmar Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/trosa-sweden" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特罗萨</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trosa</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

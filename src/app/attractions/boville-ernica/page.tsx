@@ -1,0 +1,233 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '博维莱埃尔尼卡 Boville Ernica｜被独眼巨人城墙守护的乔托珍宝 - 最佳欧洲景点',
+  description: '开车盘旋而上，当那个被巨大、粗粝的灰白色石墙严密包裹的“石冠”突然从奥尔本山丘的绿色绒毯中浮现时，你会瞬间忘记呼吸。那不是常见的、带着塔楼的优美城堡轮廓，而是一种近乎原始的、带有几何压迫感的庞然大物。城墙的石块大得离谱，形状不规则，却严丝合缝地咬合在一起，没有砂浆，只有三千年的地心引力和沉默。这就是',
+}
+
+export default function BovilleErnicaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '博维莱埃尔尼卡', href: '/destinations/italy' },
+            { label: '博维莱埃尔尼卡', href: '/attractions/boville-ernica' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`博维莱埃尔尼卡・Boville Ernica・意大利・博维莱埃尔尼卡`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`开车盘旋而上，当那个被巨大、粗粝的灰白色石墙严密包裹的“石冠”突然从奥尔本山丘的绿色绒毯中浮现时，你会瞬间忘记呼吸。那不是常见的、带着塔楼的优美城堡轮廓，而是一种近乎原始的、带有几何压迫感的庞然大物。城墙的石块大得离谱，形状不规则，却严丝合缝地咬合在一起，没有砂浆，只有三千年的地心引力和沉默。这就是博维莱埃尔尼卡给你的第一记视觉重拳——一种来自铁器时代的、沉默的威严。
+穿过古老的城门拱洞，时间陡然慢了下来。喧嚣被过滤在墙外，耳边只剩下自己的脚步声在狭窄的石板巷弄里回荡，偶尔被某扇木窗后飘出的歌剧咏叹调或煎蒜的香气打断。小镇活着，以一种极其内敛的方式。老太太们在自家门阶上晒着太阳，手边是编织到一半的毛线；男人们聚集在唯一的小广场酒吧里，讨论着橄榄的收成。你的目光会不由自主地被那些蜿蜒的台阶、突然出现的拱门和从墙头垂落的紫藤花所吸引，但心里始终惦记着那个传说中的“宝藏”。它不在显眼处，它需要你去寻找。
+而宝藏，就藏在不起眼的圣彼得教堂里。推开那扇厚重的木门，从昏暗的中世纪氛围中抬起头，你的视线会毫无防备地被祭坛上方那一片金光攫住。那一刻，空气都仿佛变得神圣而稀薄。那就是《圣彼得在宝座上》，一片繁复、璀璨到令人失语的马赛克镶嵌画。光线从侧窗流入，无数微小的玻璃和石材立方体被激活，彼得的面容慈祥而庄严，衣袍的褶皱流淌着金色的光泽。你几乎能想象乔托当年在罗马绘制它的草稿时，笔尖的虔诚。而它，这件本该在西方基督教世界最核心圣殿的作品，竟因为历史的偶然，漂流到了这个山巅小镇，在一个宁静的午后，被你这样一个风尘仆仆的旅人独自瞻仰。这种极致的“错位”与“隐藏”，正是博维莱埃尔尼卡最核心的魔力——它将一段波澜壮阔的欧洲艺术史，轻声细语地藏进了自己的石头心窝里。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "开车盘旋而上，当那个被巨大、粗粝的灰白色石墙严密包裹的“石冠”突然从奥尔本山丘的绿色绒毯中浮现时，你会瞬间忘记呼吸。那不是常见的、带着塔楼的优美城堡轮廓，而是一种近乎原始的、带有几何压迫感的庞然大物。城墙的石块大得离谱，形状不规则，却严丝合缝地咬合在一起，没有砂浆，只有三千年的地心引力和沉默。这就是博维莱埃尔尼卡给你的第一记视觉重拳——一种来自铁器时代的、沉默的威严。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "穿过古老的城门拱洞，时间陡然慢了下来。喧嚣被过滤在墙外，耳边只剩下自己的脚步声在狭窄的石板巷弄里回荡，偶尔被某扇木窗后飘出的歌剧咏叹调或煎蒜的香气打断。小镇活着，以一种极其内敛的方式。老太太们在自家门阶上晒着太阳，手边是编织到一半的毛线；男人们聚集在唯一的小广场酒吧里，讨论着橄榄的收成。你的目光会不由自主地被那些蜿蜒的台阶、突然出现的拱门和从墙头垂落的紫藤花所吸引，但心里始终惦记着那个传说中的“宝藏”。它不在显眼处，它需要你去寻找。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而宝藏，就藏在不起眼的圣彼得教堂里。推开那扇厚重的木门，从昏暗的中世纪氛围中抬起头，你的视线会毫无防备地被祭坛上方那一片金光攫住。那一刻，空气都仿佛变得神圣而稀薄。那就是《圣彼得在宝座上》，一片繁复、璀璨到令人失语的马赛克镶嵌画。光线从侧窗流入，无数微小的玻璃和石材立方体被激活，彼得的面容慈祥而庄严，衣袍的褶皱流淌着金色的光泽。你几乎能想象乔托当年在罗马绘制它的草稿时，笔尖的虔诚。而它，这件本该在西方基督教世界最核心圣殿的作品，竟因为历史的偶然，漂流到了这个山巅小镇，在一个宁静的午后，被你这样一个风尘仆仆的旅人独自瞻仰。这种极致的“错位”与“隐藏”，正是博维莱埃尔尼卡最核心的魔力——它将一段波澜壮阔的欧洲艺术史，轻声细语地藏进了自己的石头心窝里。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`博维莱埃尔尼卡`} />
+                <InfoRow label="英文名称" value={`Boville Ernica`} />
+                <InfoRow label="正式名称" value={`Boville Ernica`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`博维莱埃尔尼卡`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座静卧于拉丁姆山丘上的中世纪要塞小镇，其命运与一段源自罗马圣彼得大教堂的珍贵艺术漂泊史紧密相连。`} />
+                <InfoRow label="建筑特色" value={`被庞大、原始而神秘的前罗马时期“独眼巨人”多边形城墙完整环绕，城内则意外藏匿着文艺复兴早期的无价马赛克珍宝。`} />
+                <InfoRow label="建筑风格" value={`前罗马时期的“独眼巨人式”多边形砌石城墙与内部中世纪、文艺复兴风格的建筑和谐共存。`} />
+                <InfoRow label="文化价值" value={`是原始防御工事的活化石与文艺复兴艺术灯塔的奇妙融合，展现了意大利小镇作为文明庇护所的深层角色。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。圣彼得教堂开放时间较为灵活，通常为每日上午9:00至12:30，下午15:30至18:30；冬季下午开放时间可能缩短。建议出行前查看当地教区网站或致电确认，周日弥撒期间可参观但需保持安静。`} />
+              <InfoRow label="门票价格" value={`进入博维莱埃尔尼卡小镇及参观城墙完全免费。圣彼得教堂免费进入，但欢迎自愿捐赠以支持古老的维护工作。`} />
+              <InfoRow label="地址" value={`Piazza Mazzoli, 03022 Boville Ernica FR, Italy`} />
+              <InfoRow label="交通方式" value={`从罗马钱皮诺机场出发是最佳选择。在机场乘坐直达大巴或 regional train （区域火车）前往罗马 Termini 火车站。从 Termini 乘坐前往卡西诺方向的火车，在“Frosinone” 或 “Ceccano” 站下车（车程约40-60分钟，班次频繁）。出站后，在车站前的公交站换乘前往 Boville Ernica 的 local bus （地方巴士），班次较少，约1-2小时一班，车程约30分钟蜿蜒上山。更灵活的方式是提前预订从火车站出发的出租车（约25-30欧元），告诉司机去“Centro Storico di Boville Ernica”。自驾是最方便的，从罗马沿A1高速公路向南，在Frosinone出口下，随后跟随棕色旅游标识上山即可。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "关于这些城墙的故事，比罗马本身还要古老。公元前八世纪前后，一股神秘的、被称为赫尼奇人的意大利古民族，选择了这座海拔近五百米、俯瞰整个萨科河谷的山丘。他们不是用工具，而是用信仰和蛮力，将从山体开采出的巨石灰岩，不借助任何粘合剂，一块块垒砌成这道长达两公里的多边形屏障。古人称这种技术为“独眼巨人式砌石”，传说只有神话中的独眼巨人才能搬动如此巨石。这堵墙不是为了美观，而是为了生存，它在冷兵器时代几乎是不可攻破的。赫尼奇人在这里祭祀、生活，直到罗马人的铁蹄踏平亚平宁半岛，这里顺理成章地成了罗马共和国的一个前沿哨站。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗马帝国陨落后，博维莱埃尔尼卡在黑暗时代的中世纪浪潮中沉浮，先后被伦巴第人、拜占庭人争夺，最终在公元十世纪左右，随着修道院的建立，逐渐形成了我们今天看到的紧凑中世纪城镇格局。那些巨石城墙被中世纪的人们巧妙地利用、加高，成为了他们家园最可靠的外壳。小镇的名字“Boville”可能源于拉丁语的“牛群”，暗示着它曾经作为牧场的经济角色，而“Ernica”则骄傲地宣示着其赫尼奇血统。它在教宗国与地方贵族之间的夹缝中谋求自治，城墙之内，是一个自给自足的小世界。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间来到十六世纪，一场看似遥远的艺术“流亡”，永远改变了小镇的精神内核。1573年，教宗庇护五世下令对旧圣彼得大教堂（即现在圣彼得大教堂的前身）进行大规模改建。在拆除旧祭坛时，一组由文艺复兴之父乔托在十三世纪末设计的马赛克镶嵌画——《圣彼得在宝座上》面临着被毁弃或遗忘的命运。时任红衣主教、同时也是博维莱埃尔尼卡领主的尼古拉·卡埃塔尼，意识到了这件艺术品的无价。他动用影响力，设法将这巨幅马赛克（它被分成28块运输）从罗马运出，历经艰辛，最终安放于他家乡的圣彼得教堂。这不仅仅是一次搬迁，更像是一次秘密的“艺术营救”，让一件标志着从中世纪僵化风格向自然主义和人本主义过渡的关键作品，在战争的阴云和宗教改革的动荡之外，找到了一个宁静的避风港。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从此，博维莱埃尔尼卡的命运拥有了双重性。在外，它依然是那个有着狰狞古墙的军事堡垒，见证过拿破仑军队的过境，也承受过二战炮火的擦伤。但在内，在教堂温柔的昏暗光线下，乔托的彼得静静地注视着信徒。马赛克上使徒的目光，仿佛穿透了教堂的石壁、中世纪的房屋和远古的城墙，与山脚下绵延的、曾属于古罗马的田园风光连接在一起。小镇将最野蛮的防御和最精致的文明同时封存，它自己则变成了一个时间的胶囊，一个文明的守护者，而不仅仅是居住地。今天，当你抚摸那些冰凉的“独眼巨人”巨石时，你触摸的是公元前；当你仰望乔托的金色马赛克时，你连接的是文艺复兴的黎明。博维莱埃尔尼卡，就这样举重若轻地，将三千年时光扛在了自己小小的山巅之上。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在午后抵达，这时温暖的斜阳会将“独眼巨人”城墙染成蜂蜜般的金色，视觉效果最为震撼。整体游览时间预留4-5小时为佳，节奏务必放慢。先别急着钻进小镇，而是从城墙外围开始，感受它的磅礴气势，随后进入迷宫般的巷弄，让自已“迷失”片刻，最后以圣彼得教堂的朝圣作为高潮和内心的沉淀。傍晚时分，当游客散去，留在小镇吃一顿地道的农家晚餐，看灯火在古老的石屋窗户里逐一点亮，才是完整的体验。这样安排，既能捕捉最佳光线，又能避开可能出现的极小规模旅行团，独享那份穿越时空的宁静。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿绝对舒适防滑的步行鞋，小镇内的石板路陡峭且常有起伏。
+教堂内部禁止使用闪光灯，拍摄马赛克画时最好将相机感光度调高，保持安静是基本的尊重。
+小镇几乎没有商业旅游氛围，商店稀少，自动取款机也可能不好找，建议随身携带适量欧元现金。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在城墙外的免费停车场，先别进城，沿着城墙根向北走一段，仰头感受那些数千吨巨石的压迫感和近乎完美的几何拼接。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从古老的圣彼得罗城门进入，立刻右转钻进第一条狭窄的小巷，让你的手指划过两边房屋被岁月打磨得光滑的石灰岩墙。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`毫无目的地在小镇纵横交错的台阶和拱门下穿梭，留意那些精致的铁艺阳台、门楣上的圣像和空气中飘散的迷迭香与炖肉香气。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`循着偶尔出现的“Chiesa di San Pietro”褐色指示牌，找到那座看似朴素的罗马式教堂，在门口停顿一下，整理心情。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开圣彼得教堂的木门，让眼睛适应昏暗，然后缓缓走向祭坛，让自己有足够的时间被乔托马赛克那突然涌现的金色光辉所震撼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂出来后，直奔小镇的观景台，在夕阳下俯瞰整个萨科河谷和平原，找找看远方那些依稀可辨的古罗马道路遗迹。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐时间走进主广场边那家人声鼎沸的 trattoria，点一份手工的“pasta alla ciociara”和当地产的 Cesanese 红酒，像当地人一样吃饭聊天。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城墙全景拍摄点`}</h4>
+                  <p className="text-sm text-gray-700">{`位于小镇西南方向的SR156公路的一个转弯处，下午日落前一小时，利用长焦镜头可以压缩空间，拍出被金色阳光笼罩的巨墙与山顶小镇房屋叠叠层层的经典画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣彼得教堂内部光影`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个晴天的下午三点左右，当阳光从教堂西侧窗射入，正好会以低角度照亮部分马赛克，此时蹲在中殿侧面，可以拍到金色光芒与幽暗教堂形成的强烈对比，以及画中圣彼得仿佛被神光照耀的瞬间。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`小巷生活感捕捉`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点或傍晚五点后，在小镇中心的 Salita degli Archi 拱门阶梯，等待一位本地居民自然走过，利用拱门作为框架，捕捉人物与千年石墙互动的生动场景，光线柔和且富有故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`河谷夜景与小镇灯光`}</h4>
+                  <p className="text-sm text-gray-700">{`入夜后，从观景台向东望去，使用三脚架长曝光，可以将山下平原上星星点点的村镇灯火作为前景，衬托出山顶博维莱埃尔尼卡城墙轮廓线上温暖的点点窗光，画面宁静而深邃。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄居民或他们的私人财产（如精美的门环、窗台）前，一个微笑和简单的手势询问会得到更友善的回应。无人机飞行在当地可能有严格限制，因小镇属历史保护区域，起飞前务必查明法规或直接放弃此念头。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`融入本地`}</h4>
+                  <p className="text-sm text-blue-800">{`住在小镇中心广场旁的“德拉罗卡”家庭旅馆，由一栋十六世纪石屋改造，早餐能吃到房东阿姨自制的杏子果酱和新鲜 ricotta 奶酪，晚上能听到广场上年轻人的谈笑声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`乡间宁静`}</h4>
+                  <p className="text-sm text-green-800">{`选择小镇下方橄榄园环抱的“农庄民宿”，独享一座带游泳池的古老农舍，白天在田野散步，夜晚只有虫鸣和星空，房东会奉上用自家橄榄油烹饪的晚餐。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`历史沉浸`}</h4>
+                  <p className="text-sm text-yellow-800">{`预订经过精心修复的“帕拉齐托”历史住宅，它本身就镶嵌在一段古城墙里，保留了原始的拱顶和石壁，现代舒适的设施与古老氛围完美结合，就像睡在博物馆的展厅。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`便捷之选`}</h4>
+                  <p className="text-sm text-purple-800">{`若自驾且偏好现代设施，可以选择山下菲乌吉市镇的温泉酒店，享受一番罗马贵族也钟爱的硫磺温泉后，再轻松驱车20分钟上山探索古镇。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇内的住宿数量极少且非常热门，务必提前数月预订，尤其是夏季和春秋旺季。住在镇上意味着彻底融入其宁静的节奏，晚上八点后街道可能空无一人，但安全感极高。如果选择山下住宿，请务必注意返回的山路没有路灯，驾驶需格外谨慎。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开博维莱埃尔尼卡时，我带回的不仅仅是对乔托马赛克的视觉记忆，更是一种关于“重量”与“轻盈”的悖论感。那城墙是如此的沉重，是物理的、历史的、生存的重量，它代表着人类面对未知世界的恐惧与防御本能。而墙内珍藏的那片金色光芒，却是精神的、艺术的、超越的轻盈，它代表着人类对美、信仰和永恒的不懈追求。这个小镇将这两种截然相反的力量，不可思议地平衡在了同一座山丘上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个快得令人眩晕的时代，博维莱埃尔尼卡像一个固执的守望者。它不迎合，不喧嚣，甚至有些难找。但正是这种“不轻易示人”的特质，让它保存了旅行最本真的魅力——发现。它教会我们，真正的珍宝往往不在聚光灯下，而在一次转弯、一次仰望、一次耐心的寻找之后。对于渴望深度的旅人来说，这里不仅仅是一个景点，它是一个鲜活的隐喻：我们每个人的内心，或许也都需要这样一段古老的“城墙”来守护自己最珍贵、最柔软的部分，同时也需要一束“乔托的金光”，来照亮前行的方向。专程为它而来，是你对自己旅行品味的信任，也是一次与沉静历史和自己内心的郑重对话。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/tindari-sicily" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    廷
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">廷达里</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tindari</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/spoleto-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯波莱托古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Spoleto</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/campobasso-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    坎
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">坎波巴索老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Campobasso Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,248 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '普拉特利亚伊 Plateliai｜在立陶宛最美湖边，探秘地下冷战核导弹基地 - 最佳欧洲景点',
+  description: '车子穿过一片片深绿色的松林，当视野突然开阔时，普拉特利亚湖就像一块被遗忘在人间的巨大绿松石，毫无征兆地撞进了眼里。湖水是那种带着乳白光泽的碧绿色，据说是因为湖底特殊的白垩土壤。风从湖面吹来，带着水藻的清新和远方森林的松脂味。岸边的木制码头随着微波轻轻摇晃，发出“咯吱、咯吱”的慵懒声响。几个当地人坐在',
+}
+
+export default function PlateliaiSamogitiaColdWarMissileBasePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '立陶宛', href: '/destinations/europe' },
+            { label: '特尔希艾县', href: '/destinations/europe' },
+            { label: '普拉特利亚伊', href: '/attractions/plateliai-samogitia-cold-war-missile-base' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`普拉特利亚伊・Plateliai・立陶宛・特尔希艾县`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子穿过一片片深绿色的松林，当视野突然开阔时，普拉特利亚湖就像一块被遗忘在人间的巨大绿松石，毫无征兆地撞进了眼里。湖水是那种带着乳白光泽的碧绿色，据说是因为湖底特殊的白垩土壤。风从湖面吹来，带着水藻的清新和远方森林的松脂味。岸边的木制码头随着微波轻轻摇晃，发出“咯吱、咯吱”的慵懒声响。几个当地人坐在自家小屋前的长椅上，安静地钓鱼，或者只是看着湖水发呆。时间在这里，仿佛被湖水泡软了，流淌得异常缓慢。这就是萨莫吉希亚的心脏，立陶宛人心中最纯粹的“故乡”模样。
+然而，空气里还飘荡着另一层东西，一种难以言喻的张力。当你向镇子边缘的森林望去，那些过于笔直、如今已略显残破的柏油路，那些隐藏在树丛后的高大铁丝网围栏遗迹，都在悄悄低语着一个截然不同的故事。当地人指指湖对岸的密林，语气平静却意味深长：“那边，地下，是另一个世界。”这种极致的宁静与一种曾压得人喘不过气的历史阴影，在此处共生。最美的湖，和最深的恐惧，仅仅相隔一片树林。这种巨大的反差，正是普拉特利亚伊最摄人心魄的核心魅力——它逼着你同时去感受生命的美好与脆弱。
+漫步在镇上，你会看到彩色的木屋，窗台上摆满天竺葵，烟囱里飘出柴火香。孩子们骑着自行车呼啸而过。一切看起来都那么正常，那么美好。但你知道，就在几十年前，脚下的土地深处，可能正躺着足以毁灭文明的导弹，穿着厚重防化服的士兵在昏暗的灯光下值班。这种认知让眼前的阳光、湖面的波纹、甚至一杯简单的农家蜂蜜茶，都变得无比珍贵和深刻。这里不是一个单纯的度假小镇，它是一个活生生的寓言，关于和平的代价，关于记忆的重量，关于自然如何在历史的伤痕上重新生长。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子穿过一片片深绿色的松林，当视野突然开阔时，普拉特利亚湖就像一块被遗忘在人间的巨大绿松石，毫无征兆地撞进了眼里。湖水是那种带着乳白光泽的碧绿色，据说是因为湖底特殊的白垩土壤。风从湖面吹来，带着水藻的清新和远方森林的松脂味。岸边的木制码头随着微波轻轻摇晃，发出“咯吱、咯吱”的慵懒声响。几个当地人坐在自家小屋前的长椅上，安静地钓鱼，或者只是看着湖水发呆。时间在这里，仿佛被湖水泡软了，流淌得异常缓慢。这就是萨莫吉希亚的心脏，立陶宛人心中最纯粹的“故乡”模样。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，空气里还飘荡着另一层东西，一种难以言喻的张力。当你向镇子边缘的森林望去，那些过于笔直、如今已略显残破的柏油路，那些隐藏在树丛后的高大铁丝网围栏遗迹，都在悄悄低语着一个截然不同的故事。当地人指指湖对岸的密林，语气平静却意味深长：“那边，地下，是另一个世界。”这种极致的宁静与一种曾压得人喘不过气的历史阴影，在此处共生。最美的湖，和最深的恐惧，仅仅相隔一片树林。这种巨大的反差，正是普拉特利亚伊最摄人心魄的核心魅力——它逼着你同时去感受生命的美好与脆弱。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "漫步在镇上，你会看到彩色的木屋，窗台上摆满天竺葵，烟囱里飘出柴火香。孩子们骑着自行车呼啸而过。一切看起来都那么正常，那么美好。但你知道，就在几十年前，脚下的土地深处，可能正躺着足以毁灭文明的导弹，穿着厚重防化服的士兵在昏暗的灯光下值班。这种认知让眼前的阳光、湖面的波纹、甚至一杯简单的农家蜂蜜茶，都变得无比珍贵和深刻。这里不是一个单纯的度假小镇，它是一个活生生的寓言，关于和平的代价，关于记忆的重量，关于自然如何在历史的伤痕上重新生长。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`普拉特利亚伊`} />
+                <InfoRow label="英文名称" value={`Plateliai`} />
+                <InfoRow label="正式名称" value={`Plateliai`} />
+                <InfoRow label="国家" value={`立陶宛`} />
+                <InfoRow label="城市" value={`特尔希艾县`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一片见证了从田园诗般湖泊生活到冷战核恐惧最前沿剧烈转变的土地。`} />
+                <InfoRow label="建筑特色" value={`地上是质朴的木屋村落与浩瀚的冰川湖，地下是冰冷钢筋混凝土构成的、宛如迷宫般的致命军事堡垒。`} />
+                <InfoRow label="建筑风格" value={`地上部分为传统萨莫吉希亚木质建筑风格；地下部分为典型的苏联功能性军事工业风格，极简、坚固、令人窒息。`} />
+                <InfoRow label="文化价值" value={`立陶宛民族坚韧精神的缩影，将自然的疗愈力量与对极权历史的深刻反思并置，形成独一无二的情感与思想冲击场。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`普拉特利亚湖区域全年全天候开放。普拉特利亚镇本身无限制。前苏联冷战核导弹基地遗址“普拉格达里亚斯博物馆”开放时间复杂：夏季（5月至9月）通常为周三至周日10:00-18:00；冬季（10月至次年4月）仅周末开放，且需提前至少24小时通过电话或邮件预约导览。国家公园内的其他小型展览点开放时间各异，行前务必在萨莫吉希亚国家公园官网复核。每年1月1日、2月16日、3月11日、7月6日及12月25-26日闭馆。`} />
+              <InfoRow label="门票价格" value={`进入普拉特利亚镇及湖区免费。普拉格达里亚斯导弹基地博物馆门票：成人约8欧元，学生及老人约4欧元。导览服务（强烈推荐，否则无法理解其深意）额外收费，约15-30欧元/团，视语言和时长而定。萨莫吉希亚国家公园游客中心的小型展览门票约2欧元。可购买联票。6岁以下儿童免费。`} />
+              <InfoRow label="地址" value={`Plateliai, 90420 Telšiai District Municipality, Lithuania （此为小镇中心地址。导弹基地具体地址：Plokštinės g. 20, Plateliai, 在镇外约7公里森林中）`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是帕兰加国际机场（Palanga），距离约90公里。从帕兰加机场：搭乘出租车是最便捷方式，耗时约1小时15分钟，费用约70-90欧元。或先乘巴士到克莱佩达（Klaipėda）巴士站，再转乘前往普拉特利亚伊的巴士，总耗时约2.5-3小时，班次有限，每日约3-4班。从首都维尔纽斯出发：可乘火车或长途巴士到特拉凯或特尔希艾，再转乘当地巴士前往普拉特利亚伊，总行程约4-5小时。自驾是最推荐的方式，从维尔纽斯出发约3.5小时，沿途风景优美。小镇内及前往基地需依靠步行、自行车（可租赁）或自驾车。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "普拉特利亚伊的故事，远早于任何导弹或铁丝网。它的名字源于立陶宛语中“宽阔”一词，指的就是这片由冰川撤退留下的、辽阔而美丽的湖泊。几个世纪以来，萨莫吉希亚人在这里渔猎、耕作，他们的异教信仰最后皈依基督教，但森林与湖泊始终是他们精神世界的主角。木雕的十字架、古老的多神教符号，依然点缀在村庄和路旁。这里代表着立陶宛最古老、最顽强的文化根系，一种与土地紧密相连的、沉默而坚韧的生活方式。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转折点随着铁幕的降落而到来。上世纪60年代初，冷战进入最紧张的阶段。苏联军方在寻找部署中程弹道导弹的绝密地点时，看中了萨莫吉希亚这片茂密、偏僻的森林。在绝对的保密状态下，一个代号为“普拉格达里亚斯”的庞大工程启动了。成百上千的军事工程兵被运送到这里，当地居民被以各种理由迁离。在普拉特利亚湖不远的地下，工人们夜以继日地挖掘，浇筑混凝土，建造起一个拥有四个发射井的R-12导弹基地。整个基地深入地下数十米，有独立的发电系统、通风系统、指挥中心和生活区，像一座为末日准备的地下城市。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在近三十年的时间里，这个基地如同一把上了膛的枪，隐藏在欧洲宁静的田园风光之下。导弹瞄准着西欧的目标。驻守在此的士兵与军官，生活在一种与世隔绝的、高度紧张的状态中。他们从厚重的防爆门后进出，在模拟发射训练中度过无数个日夜，而地面上，普拉特利亚湖的渔民照样撒网，森林里的蘑菇照样生长。两个平行世界，一个充满阳光和生命，一个充斥着金属的冰冷和核毁灭的想象，诡异地共存着。直到1991年立陶宛恢复独立，苏联军队仓皇撤离，他们试图炸毁基地，但未能完全成功，留下了一个巨大而空洞的伤口。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "基地废弃后，一度被遗忘，成为冒险者和涂鸦者的乐园。但立陶宛人没有选择掩盖或彻底抹去这段历史。相反，他们决定把它变成一座博物馆，一座警示碑。经过艰难的清理和部分修复，“普拉格达里亚斯导弹基地博物馆”向公众开放。这不是为了歌颂军事力量，而是为了展示极权体制的封闭与恐怖，为了让后人触摸那段令人窒息的岁月。如今，导游（常常是历史学者或极富热情的当地人）会带领游客走下那阴森恐怖的竖井，走进冰冷的水泥迷宫，讲述那些曾在此值班的年轻人的故事，解释核按钮背后的逻辑。这个过程，本身就是一种强大的历史教育。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，普拉特利亚伊完成了它当代的蜕变。它既是立陶宛灵魂的温柔故乡——那片碧绿的湖，又是这个民族近代伤痛的硬核见证——那座地下的坟墓。当地人在湖边建起舒适的民宿，发展生态旅游，用蜂蜜、奶酪和草药招待世界；同时，他们也严肃地守护着森林里的那个秘密，确保来访者不仅能享受自然之美，也能理解自由与和平的来之不易。这种将创伤转化为智慧，将恐惧转化为警示的能力，让这片土地拥有了远超寻常景点的深度与重量。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天时间（至少8小时）进行深度体验，节奏上遵循“先扬后抑再升华”的情感曲线。最好在上午9点前抵达普拉特利亚镇，先用2-3小时沉浸于湖区的自然宁静与小镇生活，让身心充分感受此地的美好基底。午后，带着这种对“美好”的感知，驱车或骑行前往7公里外的导弹基地遗址，参加预约好的导览（约2-2.5小时），经历深刻而沉重历史冲击。傍晚时分，务必返回湖边，用一场日落漫步或静坐来消化情绪，让自然的疗愈力量平复心绪，完成整个体验的闭环。这样的安排能让你最深刻地体会此地自然与历史对话的独特哲学。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`导弹基地内部常年温度只有8-10度，且非常潮湿，务必带上一件保暖外套，穿防滑的鞋子。
+基地导览必须提前预约，切勿直接前往吃闭门羹，预约时询问是否可以提供英语导览（虽然立陶宛语导览体验更原汁原味）。
+尊重当地人的情感，在基地遗址避免喧哗嬉笑，这是一个被视为国家伤痛记忆的严肃场所。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨先从镇中心的游客中心租一辆自行车，沿着湖滨小路慢骑，让皮肤感受湖面吹来的凉风，眼睛饱览沿岸色彩斑斓的传统木屋。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`骑到湖南侧的观景台停下，走上木制栈道，什么也不做，就静静看着湖水变幻的光泽和远处划着独木舟的零星人影。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`返回镇上，找一家家庭经营的餐馆，点一份用湖鱼制作的传统萨莫吉希亚鱼汤，配上黑麦面包，和店主聊聊天。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午准时到达森林深处的导弹基地博物馆入口，跟随导览员走下那深不见底的竖井楼梯，感受温度骤降和空气变得凝重。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在昏暗的地下指挥中心里，触摸那些巨大的、冰冷的原装控制面板，听导游还原一次模拟发射指令下达时的紧张场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走出地下工事，在地面的废弃营房和瞭望塔间行走，看自然如何慢慢 reclaim 这些水泥建筑——藤蔓爬上墙壁，小鸟在通风管里筑巢。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚回到普拉特利亚湖边，挑一块平坦的石头坐下，看夕阳把湖面和整个小镇染成金黄色，耳畔只有水声和归巢的鸟鸣。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`若有余力，晚餐后可以去小镇的文化中心或某家酒吧，那里有时会举办关于萨莫吉希亚历史或冷战时期间谍故事的民间讲座。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`湖北岸的经典明信片角度`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时，阳光柔和地洒在湖面和小镇木屋上，使用长焦镜头压缩空间，将教堂尖顶、彩色木屋和湖中倒影一并纳入构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`森林中导弹基地入口的仰拍视角`}</h4>
+                  <p className="text-sm text-gray-700">{`选择阴天或晴天的午后，以高耸的、锈迹斑斑的导弹发射井盖（已打开）为前景，背景是压抑的松树林，营造冷峻、神秘的氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`地下指挥中心控制台的特写`}</h4>
+                  <p className="text-sm text-gray-700">{`利用导游的手电筒光或自己携带的便携补光灯，从侧面打亮那些布满按钮和俄文标签的控制面板，聚焦于细节，传递历史的沉重感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`从基地地面瞭望塔顶层远眺`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏时分，向西拍摄，可以将前景中荒废的军事设施剪影与背景中宁静的普拉特利亚湖及落日余晖形成震撼对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`小镇木屋与鲜花小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`下午的光线最适合，找一条小巷，利用木屋的纵深线条和窗台上鲜艳的天竺葵作为引导线，拍摄出充满生活气息和温暖感的画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在导弹基地内部拍摄时，务必先征得导游同意，某些区域可能出于保护或尊重原因禁止拍照。`}</li>
+                <li>• {`使用三脚架在光线昏暗的地下工事中非常有用，但请注意不要妨碍其他参观者或导览行进。`}</li>
+                <li>• {`拍摄当地人生活场景时，请保持礼貌距离，微笑是最好的沟通语言，通常对方也会回报以微笑。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`湖景情怀之选`}</h4>
+                  <p className="text-sm text-blue-800">{`直接坐落在湖岸边的老式木屋民宿，主人是一对老夫妇，早晨他们会为你准备自家蜂场的蜂蜜早餐，晚上可以听着轻柔的波浪声入眠。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`森林隐居体验`}</h4>
+                  <p className="text-sm text-green-800">{`位于普拉特利亚镇与导弹基地之间的森林小木屋，完全被松树环绕，拥有私人的桑拿房，在星空下蒸完桑拿跳进清凉的露台浴桶，是极致的身心放松。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`萨莫吉希亚传统农庄`}</h4>
+                  <p className="text-sm text-yellow-800">{`距离小镇几分钟车程的 working farm，你可以参与喂马、采集鸡蛋，晚餐食材直接来自农场，深度体验立陶宛乡村的质朴与热情。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感精品酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`位于特尔希艾县城内，由历史建筑改造，将现代北欧设计与传统元素完美融合，适合对住宿品质有较高要求，且不介意短途驾车的旅客。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（7-8月）是立陶宛的度假旺季，普拉特利亚伊的住宿非常紧俏，务必提前数月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "选择湖边住宿固然美妙，但夏季蚊虫较多，建议备好驱蚊液。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果你对冷战历史极度着迷，可以考虑住在基地附近唯一的民宿（需仔细搜寻），体验夜晚森林的寂静与历史的回响，但心理承受能力要强。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开普拉特利亚伊很久以后，我的脑海里依然会交替出现两个画面：一个是阳光下闪烁着亿万片金鳞的碧绿湖面，一个是手电筒光束下泛着冰冷水珠的混凝土墙壁。这种奇特的记忆纠缠，恰恰是这个地方留给旅人最宝贵的礼物。它没有让你轻松地享受风景，也没有让你沉闷地回顾历史，它把两者毫无缓冲地并置在你面前，迫使你去思考：美与恐惧，宁静与动荡，生命与毁灭，它们之间的距离究竟有多远？答案可能就藏在那片森林里——近在咫尺。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求单一体验的快节奏旅行时代，普拉特利亚伊提供了一种罕见的“复合型深度”。它要求你动用全部感官和心灵去参与。你来这里，不只是为了看一个湖，或者参观一个博物馆；你是来经历一场微妙而深刻的情感教育。你会更加珍惜湖面上那只振翅飞过的白鹭，因为你知道了地底曾藏着什么；你也会更加严肃地看待那段并不遥远的历史，因为你看到了生命是如何顽强地、美好地继续着。所以，如果你厌倦了浮光掠影，渴望一次能触动灵魂、引发长久回响的旅程，请一定要来普拉特利亚伊。在这片立陶宛的湖光山色与地下迷宫里，你会找到关于和平、记忆与重生的，最沉默也最振聋发聩的答案。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kaunas-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    考
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">考纳斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kaunas Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/vilnius-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维尔纽斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Vilnius Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/grutas-park" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    格
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格鲁塔斯公园</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Grūtas Park</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

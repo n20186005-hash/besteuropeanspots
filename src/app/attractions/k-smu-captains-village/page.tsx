@@ -1,0 +1,247 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '凯斯穆Käsmu｜爱沙尼亚神秘的“船长村”，在白屋松林与波罗的海涛声中穿越航海时代 - 最佳欧洲景点',
+  description: '车子驶离主路，拐进一条被高大松林严密守护的静谧小道时，整个世界仿佛瞬间被调成了静音模式。引擎声减弱，取而代之的是风穿过松针发出的、持续不断的沙沙低语，像极了遥远的海浪提前传来的问候。然后，一片耀眼的白毫无预兆地闯入视线——不是一两栋，而是几十栋纯白色的木屋，像被海浪精心推送上岸的贝壳，整齐又错落地散',
+}
+
+export default function KSmuCaptainsVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '爱沙尼亚', href: '/destinations/europe' },
+            { label: '西维鲁县（位于拉赫马国家公园内）', href: '/destinations/europe' },
+            { label: '凯斯穆船长村', href: '/attractions/k-smu-captains-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`凯斯穆船长村・Käsmu・爱沙尼亚・西维鲁县（位于拉赫马国家公园内）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子驶离主路，拐进一条被高大松林严密守护的静谧小道时，整个世界仿佛瞬间被调成了静音模式。引擎声减弱，取而代之的是风穿过松针发出的、持续不断的沙沙低语，像极了遥远的海浪提前传来的问候。然后，一片耀眼的白毫无预兆地闯入视线——不是一两栋，而是几十栋纯白色的木屋，像被海浪精心推送上岸的贝壳，整齐又错落地散落在林间空地与道路两旁。空气里是清冽的松脂香，混合着从海湾方向飘来的、微咸而湿润的气息。这就是凯斯穆给你的第一眼，纯净，安宁，带着一种与世隔绝的骄傲。
+走在村里唯一的主街上，脚下是细碎的沙石路。这里的静，不是空洞的静，而是充满细节的静。你能听到自己脚步的悉索声，听到隔壁院子里老苹果树偶尔掉落一颗果实的闷响，听到某扇白色木窗后传来轻柔的爱沙尼亚语广播声。几乎每栋白屋的门楣或花园里，都藏着与海洋有关的秘密：一个古老生锈的船锚被当作花园装饰，窗台上摆着用漂流木雕成的小船模型，褪色的木门上钉着一块刻有经纬度数字的黄铜片。这里没有喧嚣的游客，只有偶尔骑着自行车缓慢经过的银发老人，对你投来平静的一瞥，仿佛你只是他们航海日记中一个寻常的过客。
+最动人的时刻在傍晚。踱步到村子边缘的小码头，波罗的海在这里展开一片近乎私人的翡翠色海湾。海水轻柔地拍打着布满苔痕的木质栈桥，发出慵懒的“噗嗒”声。对岸是墨绿色的、连绵起伏的森林海岸线。坐在长椅上，看夕阳把每一栋白屋的侧面染成蜂蜜般的金黄，炊烟从烟囱里袅袅升起，带着木材燃烧的温暖香气。你会突然明白，这里迷人的不是某个地标，而是一种完整的生活方式——一种将生命与大海紧密编织，即使足踏陆地，灵魂也依旧随着潮汐呼吸的、古老而优雅的节奏。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子驶离主路，拐进一条被高大松林严密守护的静谧小道时，整个世界仿佛瞬间被调成了静音模式。引擎声减弱，取而代之的是风穿过松针发出的、持续不断的沙沙低语，像极了遥远的海浪提前传来的问候。然后，一片耀眼的白毫无预兆地闯入视线——不是一两栋，而是几十栋纯白色的木屋，像被海浪精心推送上岸的贝壳，整齐又错落地散落在林间空地与道路两旁。空气里是清冽的松脂香，混合着从海湾方向飘来的、微咸而湿润的气息。这就是凯斯穆给你的第一眼，纯净，安宁，带着一种与世隔绝的骄傲。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走在村里唯一的主街上，脚下是细碎的沙石路。这里的静，不是空洞的静，而是充满细节的静。你能听到自己脚步的悉索声，听到隔壁院子里老苹果树偶尔掉落一颗果实的闷响，听到某扇白色木窗后传来轻柔的爱沙尼亚语广播声。几乎每栋白屋的门楣或花园里，都藏着与海洋有关的秘密：一个古老生锈的船锚被当作花园装饰，窗台上摆着用漂流木雕成的小船模型，褪色的木门上钉着一块刻有经纬度数字的黄铜片。这里没有喧嚣的游客，只有偶尔骑着自行车缓慢经过的银发老人，对你投来平静的一瞥，仿佛你只是他们航海日记中一个寻常的过客。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最动人的时刻在傍晚。踱步到村子边缘的小码头，波罗的海在这里展开一片近乎私人的翡翠色海湾。海水轻柔地拍打着布满苔痕的木质栈桥，发出慵懒的“噗嗒”声。对岸是墨绿色的、连绵起伏的森林海岸线。坐在长椅上，看夕阳把每一栋白屋的侧面染成蜂蜜般的金黄，炊烟从烟囱里袅袅升起，带着木材燃烧的温暖香气。你会突然明白，这里迷人的不是某个地标，而是一种完整的生活方式——一种将生命与大海紧密编织，即使足踏陆地，灵魂也依旧随着潮汐呼吸的、古老而优雅的节奏。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`凯斯穆船长村`} />
+                <InfoRow label="英文名称" value={`Käsmu`} />
+                <InfoRow label="正式名称" value={`Käsmu Captain's Village`} />
+                <InfoRow label="国家" value={`爱沙尼亚`} />
+                <InfoRow label="城市" value={`西维鲁县（位于拉赫马国家公园内）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`波罗的海东岸最负盛名的航海社区与民间航海教育中心，被誉为“爱沙尼亚的船长摇篮”。`} />
+                <InfoRow label="建筑特色" value={`连绵成片的纯白色木结构房屋，线条简洁硬朗，与深色木门窗和红色屋顶形成鲜明对比，充满了实用主义航海美学。`} />
+                <InfoRow label="建筑风格" value={`爱沙尼亚传统木构建筑与19世纪末北欧实用主义风格的融合。`} />
+                <InfoRow label="文化价值" value={`保存了欧洲罕见的、以家族代际传承为核心的完整航海社区文化与生活方式。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`村庄公共区域全天24小时开放。凯斯穆海事博物馆开放时间：每年6月至8月，每日上午10点至下午6点；5月及9月，仅周末上午11点至下午4点开放；10月至次年4月冬季闭馆。村内小型咖啡馆与民宿开放时间不定，建议夏季前往。`} />
+              <InfoRow label="门票价格" value={`进入村庄免费。凯斯穆海事博物馆门票：成人5欧元，学生及长者3欧元，12岁以下儿童免费。村内无其他强制收费景点。`} />
+              <InfoRow label="地址" value={`Käsmu küla, Vihula vald, Lääne-Viru maakond, 46032, Estonia`} />
+              <InfoRow label="交通方式" value={`从爱沙尼亚首都塔林出发是唯一推荐路线。在塔林中央汽车站乘坐前往沃苏的巴士，车程约1.5小时，班次平日约每2-3小时一班，周末减少，务必提前在塔林巴士站官网查询并购买车票。抵达沃苏后，需换乘当地出租车前往凯斯穆村，车程约20分钟，出租车需提前电话预约。自驾是最方便的方式，从塔林沿1号公路转往拉赫马国家公园方向，全程约80公里，约1小时20分钟车程，村庄入口有免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "凯斯穆的故事，始于波罗的海的波涛与沿岸森林的馈赠。早在17世纪，这里优越的天然深水港湾就吸引了零星渔民。但真正让它命运转折的，是19世纪中期。那时，沙俄帝国统治着爱沙尼亚，波罗的海的贸易日益繁忙。凯斯穆的男人们发现，出海不仅是捕鱼，更能驾驭更大的货船，将木材、焦油运往遥远的圣彼得堡、斯德哥尔摩甚至更远的港口。第一代船长从这里诞生，他们带回的不仅是财富，还有外面世界的见识与野心。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的传奇在1884年写下。村里一位富有远见的船长——约汉·库斯克，深感航海知识需要系统传承。他在自家白色的木屋里，创办了爱沙尼亚第一所、也是当时整个波罗的海地区罕见的民间航海学校。这不是官方的学院，却比任何学院都更贴近生命。男孩们在这里学习看星象辨方位、绘制海图、操作蒸汽机，甚至学习必要的礼仪，以便未来能与外国港口的商人得体交谈。库斯克家温暖的炉火旁，培养出了一代又一代技术精湛、品德受尊敬的船长。鼎盛时期，村里几乎每一户都有男人在海上担任船长或大副，“船长村”的名号不胫而走，成为信誉与专业的代名词。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "财富随之涌入，但凯斯穆的审美却惊人地统一。船长们用航海收入建造新家，他们不追求繁复的巴洛克或新古典样式，而是秉持着航海者的实用与整洁观。高大的白色木屋纷纷立起，窗户开得很大，为了采光；结构坚固，为了抵御从海湾吹来的强风；阁楼特别高，用来存放风帆、绳索和远洋带回的奇异物件。这些房子形成了村庄独特的面貌，仿佛一艘艘巨大的、倒扣在陆地上的白色船身，安静地停泊在松林的港湾里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "二十世纪的动荡同样冲刷着这座海岸村庄。两次世界大战，爱沙尼亚的独立、被占领与再独立，让许多航线中断，一些家庭离散。苏联时期，这里曾一度被划为边防重镇，普通人难以进入，某种程度上也意外地保护了它免受大规模现代化改造的破坏。那些白屋静静地等待着，如同搁浅的船等待着下一次涨潮。直到爱沙尼亚重新独立，凯斯穆才缓缓向世界重新打开它的大门，不再是繁忙的航海教育中心，却蜕变成为一个活生生的航海文化博物馆，一段凝固在松涛海韵中的航海史诗。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排整整一天时间沉浸于此，最好在清晨抵达，以避开可能出现的零星一日游客人，独享村庄苏醒时的静谧。上午用两到三个小时，以海事博物馆为核心，深入理解村庄灵魂，随后在村中慢走细看。中午在本地咖啡馆简单用餐后，下午留给自然，沿着海岸森林小径散步至古老的航海学校遗址和灯塔。傍晚必须留在码头或海滩，见证波罗的海的日落将白屋染金的魔法时刻。这样的节奏张弛有度，既能吸收人文历史，又能充分感受此地与自然共呼吸的疗愈氛围。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`村庄内没有银行和ATM，仅有的咖啡馆可能只收现金，务必提前备好适量欧元现金。
+夏季蚊虫较多，尤其是在林间小径，请务必携带驱蚊液。
+尊重当地居民隐私，这些美丽的白屋大多是私人住宅，拍照时请避免对准窗户或院内，保持安静。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开凯斯穆海事博物馆那扇厚重的木门，立刻被老房子特有的木材、旧书与海风混合的气息包围，从粗糙的船长日志到精致的老式六分仪，每件展品都在低声诉说家族与海洋的故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在博物馆后院那艘实物大小的古老木制帆船骨架旁站一会儿，用手触摸被海水浸泡出深灰色纹理的船板，想象它当年如何鼓起风帆驶向茫茫大海。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着主街向南漫步，刻意放慢脚步，去辨认每栋白屋门廊上那些独特的装饰——也许是一个舵轮造型的邮箱，也许是一扇用船窗玻璃改造的采光窗。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到村庄最南端的卵石小海滩，脱掉鞋子踩进清凉的波罗的海水中，抬头看对岸无尽的森林线，感受自己正站在大陆与海洋交接的脆弱前沿。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着海滩东侧清晰标记的森林小径徒步约二十分钟，找到隐藏在松林深处的老航海学校白色主楼遗址，虽然只剩基础轮廓，但站在那里依然能感受到知识曾在此汇聚的庄严。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从学校遗址继续向前，抵达那座红顶的简朴灯塔，坐在灯塔下的岩石上，听风声、松涛声与遥远的海浪声交织成一首三重奏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`返回村庄中心，在“凯斯穆船长咖啡馆”找一张靠窗的木桌，点一份用当地熏鱼制作的三明治和一杯黑麦汁，像本地人一样看着窗外时光缓缓流淌。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`务必在日落前半小时回到主码头，找一张面西的长椅，什么都不做，只是看着夕阳如何一点一点将整个村庄、森林和海面点燃成一片温暖的金红色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`村庄北侧小山坡俯拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏光线柔和时，从通往沃苏道路刚进村不远的一个小土坡上，可以拍到白色屋群落于墨绿松林和蓝色海湾之间的经典构图，屋顶的红与森林的绿形成点睛之笔。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`海事博物馆窗框构图`}</h4>
+                  <p className="text-sm text-gray-700">{`上午阳光射入博物馆老屋时，透过那些有着厚厚窗框的古老木窗向外拍摄街道或花园，窗框自然成为画框，营造出穿越时光的叙事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`码头船桩与白屋倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`风平浪静的清晨，蹲在木质码头边缘，低角度拍摄系船木桩以及水中清晰的白色房屋倒影，对称构图充满宁静的诗意。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`森林小径纵深透视`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光穿过松林形成道道光束时，站在通往灯塔的森林小径中间，利用两侧笔直的树干形成自然的引导线，将视线引向小路尽头的光亮。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`海滩卵石与孤独长椅`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前夕，在海滩上选取一块布满花纹的卵石作为前景焦点，将背景虚化为波光粼粼的海面和海岸线上的白屋与长椅，营造孤独而浪漫的氛围。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`爱沙尼亚人对隐私极为重视，拍摄人物（尤其是老人和儿童）务必事先征得明确同意，一个微笑和手势询问是基本礼仪。`}</li>
+                <li>• {`夏季日落时间很晚（可能接近晚上10点），“黄金时刻”持续时间较长，有充足时间寻找和等待最佳光线。`}</li>
+                <li>• {`冬季来拍摄雪景中的白屋是另一番绝美景象，但务必做好防寒准备，电池在低温下消耗极快。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经典白屋体验`}</h4>
+                  <p className="text-sm text-blue-800">{`入住由真正船长祖宅改造的民宿，木地板会随着脚步发出亲切的吱呀声，书架里可能还留着老海图，早晨房东会为你准备传统的黑面包和自家果酱。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`森林隐居小屋`}</h4>
+                  <p className="text-sm text-green-800">{`村庄边缘松林中的独栋小木屋，拥有全景玻璃窗和私人的桑拿房，夜晚在蒸腾的热气中仰望完全没有光污染的星空，耳畔只有松涛。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计师海滨公寓`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于码头附近一栋经过现代简约风格改造的白屋内，保留了原始木梁，却配备了北欧设计家具和设施齐全的小厨房，推开门就是海景。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`拉赫马公园生态旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`若想扩大探索范围，可以选择位于几公里外、拉赫马国家公园内的传统庄园式旅馆，在更宏大的自然背景下体验该地区的宁静。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "凯斯穆的住宿数量极其有限，夏季房源非常紧张，强烈建议提前至少两到三个月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "大部分民宿不提供每日客房清洁服务，且入住时间可能较晚（下午4点后），退房时间较早（上午10点前），需提前与房东沟通确认。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "村庄夜晚没有任何夜生活，甚至路灯都很少，一片漆黑寂静，这正是体验其魅力的关键，但也请准备好手电筒并注意脚下。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开凯斯穆许久后，那片纯净的白和深邃的松绿，还会在不经意间闯入脑海。它不像那些宏伟宫殿或大教堂，用磅礴的气势震撼你；它更像一首低声吟唱的古谣，用细节和氛围慢慢浸润你。这里让你看到，一种专业、一种传统、一种生活方式，如何能如此深刻地塑造一个地方的物理面貌与精神气质，并且代代相传，成为融入血脉的基因。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、崇尚快速更迭的世界里，凯斯穆像一颗被时光胶囊封存起来的琥珀。它提醒我们，真正的深度和魅力，往往存在于专注与传承之中。每一位船长的一生，都是一部与大海搏斗又相依的史诗；每一栋沉默的白屋，都曾聆听过远航归来的风尘故事。对于渴望逃离表面喧嚣、触摸真实历史纹理的旅人而言，这里不仅仅是一个景点，更是一次心灵的返航。它让你在波罗的海的风中，重新思考什么是家园，什么是传承，什么是在浩瀚世界面前，保持一份安静而坚定的专业与尊严。这份触动，远比任何打卡留念更为持久，也更能定义旅行的意义。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/voru-cultural-town-estonia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    瓦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">瓦斯图-罗萨，爱沙尼亚的沃鲁</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Võru</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/tartu-university-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塔
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塔尔图大学城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tartu University Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/hiiumaa-kopu-lighthouse" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    希
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">希乌马岛（凯普灯塔）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Hiiumaa (Kõpu Lighthouse)</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

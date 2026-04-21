@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '沃尔克姆 Workum｜弗里斯兰水乡明珠与平民艺术殿堂 - 最佳欧洲景点',
+  description: '第一眼看到沃尔克姆，你会怀疑时间在这里是不是被运河的水流拖慢了。没有乌特勒支或莱顿那种游人如织的喧嚣，这里只有风掠过水面、自行车铃叮当作响、以及远处偶尔传来的帆船桅杆碰撞声。空气里有一股独特的味道——是北海吹来的微咸海风，混合着老砖石缝里苔藓的湿润气息，还有从某户人家后院飘来的、刚烤好的“oranj',
+}
+
+export default function WorkumFrieslandPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '沃尔克姆', href: '/destinations/europe' },
+            { label: '沃尔克姆', href: '/attractions/workum-friesland' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`沃尔克姆・Workum・荷兰・沃尔克姆`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到沃尔克姆，你会怀疑时间在这里是不是被运河的水流拖慢了。没有乌特勒支或莱顿那种游人如织的喧嚣，这里只有风掠过水面、自行车铃叮当作响、以及远处偶尔传来的帆船桅杆碰撞声。空气里有一股独特的味道——是北海吹来的微咸海风，混合着老砖石缝里苔藓的湿润气息，还有从某户人家后院飘来的、刚烤好的“oranjekoek”（弗里斯兰橙味蛋糕）的甜香。这里的运河不像阿姆斯特丹那般宽阔张扬，它们更像小镇的静脉，安静地流淌在色彩柔和的房屋之间，倒映着三角形的山墙和湛蓝的天空。当地人会在午后沿着河岸遛狗，或者在自家的“opkamer”（一种凸出的飘窗）里读报，生活节奏缓慢得像一首古老的民歌。
+而这座小镇的灵魂，藏在 Noord 街上那座不起眼的砖砌建筑里——乔皮·惠斯曼博物馆。走进这里，你会经历一次关于“看见”的震撼教育。惠斯曼不是一个学院派大师，他曾是废品商、工匠。他的画作主题是磨损的工装靴、用旧的铁皮玩具、渔民起皱的手、一把生锈的钥匙。但在他浓烈到几乎要滴出画布的油彩下，这些被遗弃的物件和被忽视的普通人，焕发出一种神圣的、史诗般的光辉。站在那幅著名的《靴子》前，你几乎能闻到皮革、汗水和泥土混杂的气味，能听到穿着它走过无数里路的沉重脚步声。这个博物馆不是一个艺术圣殿，而是一首用画笔写就的、献给所有辛勤劳作无名者的赞美诗，它让沃尔克姆从众多风景明信片般的水乡中脱颖而出，拥有了直指人心的温度。
+当夕阳把运河染成金红色，你会明白为什么弗里斯兰人如此热爱他们的“Elfsteden”（十一城）。沃尔克姆的美，在于它完整的生活感。水闸依然在运转，驳船轻轻穿过，穿着传统木鞋的居民可能正在修理自家的小码头。这里的一切都不是为了表演给游客看，而是数百年来的生活本身。你可以坐在“Waag”（古老的称量房）咖啡馆的露台上，看着天鹅缓缓游过，心里那份来自现代社会的焦躁，会不知不觉地被这水波般的宁静荡涤干净。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一眼看到沃尔克姆，你会怀疑时间在这里是不是被运河的水流拖慢了。没有乌特勒支或莱顿那种游人如织的喧嚣，这里只有风掠过水面、自行车铃叮当作响、以及远处偶尔传来的帆船桅杆碰撞声。空气里有一股独特的味道——是北海吹来的微咸海风，混合着老砖石缝里苔藓的湿润气息，还有从某户人家后院飘来的、刚烤好的“oranjekoek”（弗里斯兰橙味蛋糕）的甜香。这里的运河不像阿姆斯特丹那般宽阔张扬，它们更像小镇的静脉，安静地流淌在色彩柔和的房屋之间，倒映着三角形的山墙和湛蓝的天空。当地人会在午后沿着河岸遛狗，或者在自家的“opkamer”（一种凸出的飘窗）里读报，生活节奏缓慢得像一首古老的民歌。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而这座小镇的灵魂，藏在 Noord 街上那座不起眼的砖砌建筑里——乔皮·惠斯曼博物馆。走进这里，你会经历一次关于“看见”的震撼教育。惠斯曼不是一个学院派大师，他曾是废品商、工匠。他的画作主题是磨损的工装靴、用旧的铁皮玩具、渔民起皱的手、一把生锈的钥匙。但在他浓烈到几乎要滴出画布的油彩下，这些被遗弃的物件和被忽视的普通人，焕发出一种神圣的、史诗般的光辉。站在那幅著名的《靴子》前，你几乎能闻到皮革、汗水和泥土混杂的气味，能听到穿着它走过无数里路的沉重脚步声。这个博物馆不是一个艺术圣殿，而是一首用画笔写就的、献给所有辛勤劳作无名者的赞美诗，它让沃尔克姆从众多风景明信片般的水乡中脱颖而出，拥有了直指人心的温度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当夕阳把运河染成金红色，你会明白为什么弗里斯兰人如此热爱他们的“Elfsteden”（十一城）。沃尔克姆的美，在于它完整的生活感。水闸依然在运转，驳船轻轻穿过，穿着传统木鞋的居民可能正在修理自家的小码头。这里的一切都不是为了表演给游客看，而是数百年来的生活本身。你可以坐在“Waag”（古老的称量房）咖啡馆的露台上，看着天鹅缓缓游过，心里那份来自现代社会的焦躁，会不知不觉地被这水波般的宁静荡涤干净。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`沃尔克姆`} />
+                <InfoRow label="英文名称" value={`Workum`} />
+                <InfoRow label="正式名称" value={`Workum`} />
+                <InfoRow label="国家" value={`荷兰`} />
+                <InfoRow label="城市" value={`沃尔克姆`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`作为弗里斯兰“十一城”之一，它是荷兰北部水网贸易与抗海历史的核心见证者。`} />
+                <InfoRow label="建筑特色" value={`红砖房屋与木质山墙沿静谧运河依次排开，古老的称量房与船闸构成了小镇的生活枢纽。`} />
+                <InfoRow label="建筑风格" value={`典型的弗里斯兰水乡风格，融合了荷兰文艺复兴晚期与质朴的乡土建筑元素。`} />
+                <InfoRow label="文化价值" value={`这里不仅是保存完好的水乡标本，更因乔皮·惠斯曼的艺术，升华为歌颂平凡生活与人性尊严的精神家园。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。核心景点乔皮·惠斯曼博物馆（Jopie Huisman Museum）开放时间为周二至周日上午10点至下午5点，周一闭馆。请注意，荷兰的博物馆日（Museum Day）等特殊节假日可能会延长开放时间，冬季（11月至次年3月）有时会提前至下午4点闭馆，建议出行前在其官网确认。小镇的游船服务通常在四月至十月的晴朗日运营。`} />
+              <InfoRow label="门票价格" value={`乔皮·惠斯曼博物馆成人票为12.5欧元，65岁以上老人及13-18岁青少年为10欧元，13岁以下儿童免费。持有荷兰博物馆卡（Museumkaart）可免费入场。运河游船价格因航线长短而异，经典小镇环游约为10-15欧元每人。`} />
+              <InfoRow label="地址" value={`Jopie Huisman Museum, Noard 6, 8711 AH Workum, Netherlands`} />
+              <InfoRow label="交通方式" value={`从阿姆斯特丹斯希普霍尔机场（AMS）出发，最便捷的方式是乘坐火车。先在机场火车站搭乘前往吕伐登（Leeuwarden）方向的城际列车，在斯内克（Sneek）站下车，车程约1小时45分钟，班次频繁。然后在斯内克火车站前乘坐前往沃尔克姆的巴士（通常是50路或51路），约25-30分钟即可抵达小镇中心。建议购买OV-chipkaart（荷兰公共交通卡）或使用9292.nl App规划具体行程和购票。如果自驾，从阿姆斯特丹出发约1.5小时车程，小镇外围有充足的免费停车场（P+R），然后步行或租用自行车进入古镇区。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沃尔克姆的故事，是从与大海的争斗和妥协中开始的。早在13世纪，一群不畏艰险的弗里斯兰人就在这片靠近须德海（现在的艾瑟尔湖）的泥泞地带定居下来。他们的首要敌人是海水，于是筑起堤坝，挖通运河，硬生生从海洋手中夺得了土地。1355年，沃尔克姆正式获得了城市权利，这不仅是法律上的认可，更是商业生命的开端。它迅速成为弗里斯兰地区重要的贸易港口，木材、布料、奶酪和鲱鱼在这里集散。那座建于17世纪的“Waag”（称量房）就是繁华的证明，所有交易的商品都必须在这里过磅、纳税，砖墙上每一道风雨的痕迹，都记录着金币的叮当声和商人的讨价还价。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇的命运与水和船紧密相连。镇中心那座至今仍在使用的“Heechslûs”（高水闸）是工程学上的小巧奇迹。它巧妙地调节着运河与艾瑟尔湖之间的水位差，在帆船时代，它是船只通往内陆腹地的咽喉要道。可以想象，几个世纪以来，满载货物的帆船在这里排队等候，水手们用粗犷的弗里斯兰语交谈，绞盘发出吱呀的声响，闸门开启时水流哗然涌入。然而，繁荣也伴随着灾难。1665年和1674年，两场毁灭性的大火席卷了小镇，木结构的房屋化为灰烬。坚韧的沃尔克姆人用红砖和石头重建了家园，今天我们看到的那些有着阶梯式山墙和白色窗框的可爱房屋，大多源自那个重建的时代，它们比之前的木屋更坚固，也塑造了小镇延续至今的朴素而温暖的视觉基调。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "19世纪，随着铁路的兴起和大型港口城市的发展，像沃尔克姆这样的小型水运枢纽不可避免地衰落了。它渐渐沉睡，成为艾瑟尔湖边一个安静的后花园。然而，正是这种“被遗忘”，让它完好保存了历史肌理，没有被现代化浪潮彻底改造。转机出现在20世纪后半叶，一位名叫乔皮·惠斯曼的本地人，为小镇注入了全新的灵魂。惠斯曼生于1922年，他干过无数底层工作，最后以收集废金属为生。但他在废品中看到了别人看不到的美。他开始画画，无师自通，画的全是破旧的工装、工具、和他周围的普通人。他的艺术粗粝、真诚、充满力量，震撼了整个荷兰艺术界。他去世后，小镇将他的故居和工作室扩建为博物馆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，惠斯曼博物馆不仅是展示他作品的地方，更是一座纪念碑，纪念着那些在历史宏大叙事中通常被忽略的个体生命。它让沃尔克姆的旅游从单纯的风光游览，上升为一次深刻的文化和哲学体验。小镇也因此找到了在当代世界的定位：它既是一个活着的弗里斯兰水乡博物馆，也是一处追寻生活本真意义的精神驿站。每年的“Elfstedentocht”（十一城滑冰之旅）如果举行，滑冰者们会从它的冰封运河上呼啸而过，那一刻，古老的传统与现代的体育精神在此交汇，沃尔克姆便会从平日的宁静中短暂苏醒，变回那个充满活力的、属于全体弗里斯兰人的荣耀之城。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议你在一个晴朗的早晨，大约9点半抵达沃尔克姆。这时游客尚未涌入，阳光斜照在运河上，小镇正从睡梦中缓缓苏醒，是最能感受其本真面貌的时刻。整体游览可以安排大半天时间，节奏宜慢不宜快。上午重点探索小镇的水系精华和核心博物馆，午餐后沿着运河漫步，深入居民区感受生活气息，最后在黄昏时分回到主运河边，看光影变幻。这样的安排既能保证深度体验核心文化，又能留出足够的闲逛和发呆时间，契合小镇舒缓的脉搏。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇石板路和桥梁较多，建议穿一双舒适平底鞋，高跟鞋在这里会非常痛苦。博物馆内禁止使用闪光灯，拍照前请务必确认。绝大多数本地人都能说流利的英语，但如果你能用弗里斯兰语说一句“Goeie moarn”（早上好），会收获格外热情的笑容。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`先把车停在镇外的免费停车场，租一辆白色自行车，像本地人一样沿着 Prinsengracht 运河缓缓骑向镇中心。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在古老的 Heechslûs 水闸边驻足，看一艘小船缓缓通过，听水流与闸门机关发出的老派机械声响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进乔皮·惠斯曼博物馆，花至少两小时沉浸在他用浓烈色彩描绘的旧靴子、破玩偶和劳动者面孔的世界里。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从博物馆出来后，在隔壁的称量房咖啡馆找一张运河边的露天座位，点一份弗里斯兰糖浆华夫饼和咖啡，看天鹅梳理羽毛。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着 Noard 街和 Merk 街漫步，欣赏那些有着独特山墙和精美门楣的17世纪商人住宅，留意门牌上的建造年份。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拐进一条名叫 Achterom 的小巷，这里游客罕至，后院花园里的花香和晾晒的衣物会让你感觉闯入了当地人的生活幕布。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果正值夏季，一定要去小镇码头询问并搭乘一趟一小时的环镇电动船之旅，从水上的视角重新认识那些你刚才走过的街道和桥梁。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前回到主运河的 iron bridge 上，等待夕阳把整排砖房染成蜜糖色，水面泛起粼粼金光。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`Heechslûs 水闸正面对称构图`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在水闸前的固定桥上，利用水闸本身的砖石结构和闸门形成完美的对称与引导线，等待一艘小船驶入画面中央。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`乔皮·惠斯曼博物馆二楼北侧窗边`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三点左右的侧光，以古老的窗框为前景，拍摄窗外运河与对岸色彩柔和的老房子，构图时可以将窗台上的一本旧书或一副眼镜纳入，致敬惠斯曼的静物美学。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`Achterom 小巷深处`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，光线会照亮小巷一侧的红砖墙和爬藤植物，另一侧则在阴影中，形成强烈的明暗对比，拍摄一个骑自行车远去的背影，故事感十足。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`Merkstraat 街角仰拍山墙`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏时分，走到街道尽头，仰拍那些装饰着海豚、贝壳等海洋元素石雕的山墙顶端，此时天空呈宝蓝色，建筑轮廓被暖金色的夕阳勾勒，色彩对比绝佳。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`iron bridge 长曝光夜景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落后蓝调时刻，将相机固定在桥栏杆上，用小光圈和慢速快门拍摄运河两岸点亮的暖黄色窗户灯光，水面会变得如丝绸般平滑，倒影如梦似幻。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`弗里斯兰的天空瞬息万变，一块积云就可能带来戏剧性的光线，随时准备好你的相机。尊重当地居民隐私，拍摄他人住宅内部或居民特写时，请先微笑示意并征得同意。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`水岸浪漫`}</h4>
+                  <p className="text-sm text-blue-800">{`由17世纪船长之家改造的精品酒店，房间拥有裸露的原木横梁和运河景观小阳台，晚上能听到轻柔的水波拍岸声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`艺术之家`}</h4>
+                  <p className="text-sm text-green-800">{`毗邻惠斯曼博物馆的家族式小旅馆，每个房间都以惠斯曼的一幅画命名，装饰着相关的复古物件，早餐会提供地道的弗里斯兰黑麦面包和奶酪。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园牧歌`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在镇外圩田上的现代设计B&B，拥有无敌的开放式视野，可以看到奶牛、风车和地平线，主人会提供自行车并为你手绘周边骑行地图。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`历史沉浸`}</h4>
+                  <p className="text-sm text-purple-800">{`镇上最古老的客栈之一，楼梯陡峭狭窄，房间低矮但充满古意，楼下就是热闹但不喧闹的本地酒吧，是深入体验弗里斯兰社交文化的绝佳选择。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇住宿数量有限，尤其在夏季和周末非常紧俏，务必提前数月预订。所有住宿地点都非常安全，夜晚极其宁静，唯一的“噪音”可能是远处传来的牛铃声或教堂钟声。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开沃尔克姆许久后，在我脑海中挥之不去的，不是某一幅具体的画面，而是一种整体的感觉——一种被温柔包裹的宁静，和一种对平凡事物的重新敬意。在这个追求宏大、新奇和刺激的世界里，沃尔克姆像一位沉默的智者，它提醒我们：美不必在远方，它就在每日生活的磨损与光泽里；历史不只是王侯将相的故事，更是每一个普通人为生活奋斗的痕迹。惠斯曼用他的画笔为我们打开了这双眼睛。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了那些被过度消费的景点，如果你的心渴望一次真正的沉淀，请来沃尔克姆。来这里，不只是看一个荷兰水乡，更是来完成一次内心的朝圣。在运河的倒影里看清自己，在惠斯曼的旧靴子前感受生命的重量，在弗里斯兰辽阔的天空下，找回那种久违的、缓慢而扎实的幸福感。它可能不会给你瞬间的视觉轰炸，但它给予的，是一种能带走的、沉在心底的安宁力量。这，正是深度旅行的终极意义所在。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/hunebedden-drenthe-megalithic-tombs" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    德
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">德伦特巨石墓群</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Drenthe Megalithic Tombs (Hunebedden)</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/appingedam-hidden-kitchens" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿平厄丹</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Appingedam</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/harlingen-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    哈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">哈灵根</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Harlingen</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,237 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '亚希莫夫 Jáchymov｜美元词源的银矿传奇与世界首座氡温泉疗养地 - 最佳欧洲景点',
+  description: '车子沿着蜿蜒的山路向上爬升，当卡罗维发利那精致的温泉回廊消失在身后，森林变得越来越密，空气也陡然清冽起来。一个拐弯后，亚希莫夫就像一幅被遗忘的画卷，突然摊开在狭窄而深邃的山谷里。第一眼望去，它绝谈不上惊艳，甚至有些灰扑扑的：两侧山坡上密密麻麻挤着色彩暗淡的民居，一条主街沿着溪流贯穿谷底，所有建筑都带',
+}
+
+export default function JachymovSilverRadioactiveSpaTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '捷克', href: '/destinations/europe' },
+            { label: '亚希莫夫', href: '/destinations/europe' },
+            { label: '亚希莫夫', href: '/attractions/jachymov-silver-radioactive-spa-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`亚希莫夫・Jáchymov・捷克・亚希莫夫`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子沿着蜿蜒的山路向上爬升，当卡罗维发利那精致的温泉回廊消失在身后，森林变得越来越密，空气也陡然清冽起来。一个拐弯后，亚希莫夫就像一幅被遗忘的画卷，突然摊开在狭窄而深邃的山谷里。第一眼望去，它绝谈不上惊艳，甚至有些灰扑扑的：两侧山坡上密密麻麻挤着色彩暗淡的民居，一条主街沿着溪流贯穿谷底，所有建筑都带着一种被岁月和湿气浸润的沉静。但当你摇下车窗，那股混合了针叶林清香、湿润岩石味和一丝若有若无的……类似地下室的矿物质气息，会立刻抓住你，告诉你这里绝不普通。
+走在由不规则石板铺就的街道上，脚步声显得格外清晰，偶尔有电车叮当驶过，声音在山谷里回荡。你的左边可能是墙上刻着1520年字样的文艺复兴老屋，窗台上摆着天竺葵；右边却赫然矗立着一栋线条流畅、装饰着华丽马赛克壁画的新艺术风格大厦，门口挂着“放射疗养院”的牌子。穿着浴袍、步履缓慢的疗养客，与提着购物袋匆匆回家的本地居民擦肩而过，这种景象奇特又和谐。这里没有游客的喧嚣，时间仿佛以两种速度在流淌：一种是属于疗养者的、缓慢的、向内修复的节奏；另一种，则是深埋在地下矿道里，那沉默了数个世纪的、关于财富与苦难的沉重回声。
+亚希莫夫最打动人心的，正是这种极致的反差与层叠。它不像其他古镇，将历史封存在玻璃橱窗后供人观赏。它的历史是活着的，是呼吸着的。你脚下踩着的，是曾经产出巨额白银、支撑神圣罗马帝国财政的矿脉；而你呼吸的空气和看到的泉水，却蕴含着另一种从同一片大地深处渗出的、名为“氡”的神秘能量，它曾被视为奇迹，如今抚慰着无数人的病痛。这里的故事，是关于人类如何向大地索取，又如何被大地所改变、所疗愈的深刻寓言。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子沿着蜿蜒的山路向上爬升，当卡罗维发利那精致的温泉回廊消失在身后，森林变得越来越密，空气也陡然清冽起来。一个拐弯后，亚希莫夫就像一幅被遗忘的画卷，突然摊开在狭窄而深邃的山谷里。第一眼望去，它绝谈不上惊艳，甚至有些灰扑扑的：两侧山坡上密密麻麻挤着色彩暗淡的民居，一条主街沿着溪流贯穿谷底，所有建筑都带着一种被岁月和湿气浸润的沉静。但当你摇下车窗，那股混合了针叶林清香、湿润岩石味和一丝若有若无的……类似地下室的矿物质气息，会立刻抓住你，告诉你这里绝不普通。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走在由不规则石板铺就的街道上，脚步声显得格外清晰，偶尔有电车叮当驶过，声音在山谷里回荡。你的左边可能是墙上刻着1520年字样的文艺复兴老屋，窗台上摆着天竺葵；右边却赫然矗立着一栋线条流畅、装饰着华丽马赛克壁画的新艺术风格大厦，门口挂着“放射疗养院”的牌子。穿着浴袍、步履缓慢的疗养客，与提着购物袋匆匆回家的本地居民擦肩而过，这种景象奇特又和谐。这里没有游客的喧嚣，时间仿佛以两种速度在流淌：一种是属于疗养者的、缓慢的、向内修复的节奏；另一种，则是深埋在地下矿道里，那沉默了数个世纪的、关于财富与苦难的沉重回声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "亚希莫夫最打动人心的，正是这种极致的反差与层叠。它不像其他古镇，将历史封存在玻璃橱窗后供人观赏。它的历史是活着的，是呼吸着的。你脚下踩着的，是曾经产出巨额白银、支撑神圣罗马帝国财政的矿脉；而你呼吸的空气和看到的泉水，却蕴含着另一种从同一片大地深处渗出的、名为“氡”的神秘能量，它曾被视为奇迹，如今抚慰着无数人的病痛。这里的故事，是关于人类如何向大地索取，又如何被大地所改变、所疗愈的深刻寓言。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`亚希莫夫`} />
+                <InfoRow label="英文名称" value={`Jáchymov`} />
+                <InfoRow label="正式名称" value={`Jáchymov`} />
+                <InfoRow label="国家" value={`捷克`} />
+                <InfoRow label="城市" value={`亚希莫夫`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是欧洲近代金融史的摇篮，“Joachimsthaler”银币的诞生地，其名称最终演变为“美元”；同时也是世界放射性医学与水疗的先驱，开创了氡温泉治疗。`} />
+                <InfoRow label="建筑特色" value={`一座被群山环抱的狭长山谷小镇，建筑呈现从文艺复兴到新艺术风格的奇妙混合，朴素的矿工住宅与华丽疗养院并存。`} />
+                <InfoRow label="建筑风格" value={`以文艺复兴晚期和巴洛克风格为核心，混入大量19世纪末至20世纪初的新艺术运动（Secession）疗养建筑。`} />
+                <InfoRow label="文化价值" value={`见证了人类从对地下矿产财富的狂热掠夺，到对地球深处另一种“能量”——放射性氡的敬畏与疗愈利用的完整认知转变。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。核心景点如皇家铸币厂博物馆、矿工苦难历史博物馆等开放时间为每年4月至10月，周二至周日 9:00-12:00， 13:00-17:00；11月至次年3月仅周末开放或需预约。各大疗养院内部参观通常需提前预订疗养套餐或导览。冬季运营时间可能缩短，出行前务必查询官网。`} />
+              <InfoRow label="门票价格" value={`皇家铸币厂博物馆门票约120捷克克朗，学生及老人优惠票约80克朗。矿工苦难历史博物馆门票约100克朗。小镇通票（含2-3个主要博物馆）约200克朗。进入部分仍在运营的疗养院建筑内部参观（非住宿）通常需参加导览团，费用约250-400克朗。6岁以下儿童免费。`} />
+              <InfoRow label="地址" value={`Jáchymov, 362 51 Karlovy Vary Region, Czech Republic`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是布拉格瓦茨拉夫·哈维尔机场。从布拉格出发最便捷的方式是乘坐火车或巴士前往卡罗维发利。从布拉格主火车站搭乘直达列车前往卡罗维发利，车程约3小时。抵达卡罗维发利后，在巴士总站换乘前往亚希莫夫的本地巴士，班次约每小时一班，车程约30分钟，沿途山路风景优美。也可从卡罗维发利乘坐出租车，车程约25分钟，费用较高。自驾是最灵活的方式，从卡罗维发利沿路标清晰的235号公路向山上行驶约12公里即可到达，小镇入口有付费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从一个叫施利克的贵族说起。1516年，就在这片当时还叫“康拉德格伦”的寂静山谷，施利克伯爵的矿工们发现了异常丰富的银矿脉。消息像野火一样传开，一场轰轰烈烈的“白银 rush”席卷而来。短短几年，山谷里挤满了来自萨克森、蒂罗尔等地的矿工、工匠和冒险家，人口爆炸式增长。为了管理这巨大的财富和混乱的人群，施利克伯爵说服国王，于1520年授予这里城市特权，并以守护神圣约阿希姆的名字，将其命名为“约阿希姆斯塔尔”（Joachimsthal），也就是亚希莫夫。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "财富随之喷涌而出。这里很快成为了中欧最大、最现代化的银矿。更关键的一刻发生在1520年，当地建立了皇家铸币厂，开始大规模铸造一种成色极佳、重量统一的银币。这种银币正面是波西米亚狮，背面是圣约阿希姆像，被人们亲切地称为“Joachimsthaler”。它的声誉太好了，好到这个名字超越了地域，成为优质银币的代名词，简称“Thaler”。这个词汇漂洋过海，最终进入了英语，演变成了今天我们熟知的“Dollar”（美元）。可以说，现代世界金融体系的一个基石称谓，就诞生于这个偏僻的山谷。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，白银不会无穷无尽。到了18世纪，富矿逐渐枯竭，小镇陷入了漫长的萧条。矿工们开始转向开采其他矿物，如钴、铋、镍，还有那种伴随着铀矿出现的、闪着黑光的沥青铀矿。当时没人知道这种矿石的真正意义，它被当作颜料使用。命运的齿轮在19世纪末再次转动。1898年，玛丽·居里和皮埃尔·居里正是从亚希莫夫矿渣中，分离出了两种新元素：钋和镭。放射性的大门被轰然推开，世界为之震动。而亚希莫夫的矿工们，却在长期接触这些矿石后，饱受着未知辐射病的折磨。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史的吊诡之处在于，同一种带来病痛的物质，又被发现了另一面。1906年，当地一位敏锐的医生注意到，尽管矿工们肺部患病，但他们关节炎等疾病的发病率却异常低。他将此归因于矿井空气中高浓度的氡气（镭的衰变产物）。基于这个观察，世界第一座专门的放射性氡水疗中心于1906年在亚希莫夫建立，利用稀释的氡泉水进行治疗。一战前后，这里声名鹊起，成为欧洲贵族和知识分子的疗养圣地。小镇的建筑风貌也因此第二次改变，那些线条优雅、装饰着健康女神图案的新艺术风格疗养院拔地而起，与古老朴素的矿工住宅形成了戏剧性的对话。从“白银之谷”到“镭的摇篮”再到“疗愈之泉”，亚希莫夫用五百年的时间，完成了一次关于地球能量与人类命运的、充满悖论与启示的完整叙事。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天时间进行深度探索。最佳抵达时间是上午9点左右，此时晨雾可能还未完全散去，为山谷增添一抹神秘感，而且博物馆刚刚开门。游览节奏宜慢不宜快，充分感受小镇两种截然不同的气质。上午专注于它的“白银时代”，沿着主街（Rudná Street）从西向东，探访与铸币和矿业相关的历史遗迹。下午则沉浸于它的“疗养时代”，参观那些新艺术风格的疗养建筑，并体验一段轻松的山间漫步。这样的安排能清晰感知小镇历史脉络的戏剧性转折。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇部分街道坡度较大，请务必穿一双舒适防滑的步行鞋。疗养院区域非常安静，是休养之地，参观时请保持低声交谈，尊重疗养客的隐私与安宁。许多小博物馆的解说牌仅限捷克语和德语，可提前在官网查看是否有英文语音导览或下载翻译APP辅助理解。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从镇西的老城门遗址开始，触摸那些粗糙的墙砖，想象五百年前满载银锭的马车从这里隆隆驶出的景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进镇广场旁的皇家铸币厂博物馆，亲手掂量一下那枚著名的“Joachimsthaler”银币复刻品的重量，听听它清脆的响声。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着略有坡度的石板主街向下，寻找那些门楣上刻着矿工镐和数字的古老房子，那是当年富有矿工家庭的标志。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在矿工苦难历史博物馆阴凉的展厅里，静静地看那些磨损的矿灯、简陋的防护工具，和记录着矽肺病与辐射病历史的沉重档案。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`中午在广场边一家家庭餐馆坐下，点一份扎实的捷克炖牛肉，看窗外电车慢悠悠地划过新旧交织的建筑立面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`选一家外观最华丽的新艺术风格疗养院（如Radium Palace或Agricola），即使不住宿，也在它阳光充盈、布满绿植的门厅回廊里坐一会儿，感受那种宁静而怀旧的疗愈氛围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`乘坐古老的缆车或沿着标记清晰的步道爬上亚希莫夫附近的山脊（如Klínovec峰方向），从高处回望整个狭长的山谷，红瓦屋顶如鳞片般嵌在墨绿森林中，你会对这座小镇的地理格局有全新的理解。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`小镇东侧瞭望台（靠近缆车站）`}</h4>
+                  <p className="text-sm text-gray-700">{`在日落前半小时抵达，暖金色的光线会均匀地洒满整个山谷，将红屋顶、淡黄色疗养院外墙和深绿森林染上油画般的色调，用长焦镜头压缩空间感，能拍出小镇层层叠叠的建筑韵律。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`皇家铸币厂博物馆内互动区`}</h4>
+                  <p className="text-sm text-gray-700">{`借助窗边的自然光，将手举着特制的巨大银币模型（通常是拍照道具）作为前景，背景虚化成古老的铸币机器或历史图片，巧妙连接古今。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`老城门拱洞之下`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点左右的侧光会穿过拱门，在石板路上拉出长长的光影，站在光暗交界处拍摄人物剪影或走向光明的背影，极具故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“镭宫”疗养院（Radium Palace）正门阶梯`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光能照亮建筑精美的立面浮雕和马赛克，站在阶梯中段仰拍，将华丽的门楣、廊柱与一角蓝天纳入构图，展现新艺术建筑的优雅与力量。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`后山森林步道回头视角`}</h4>
+                  <p className="text-sm text-gray-700">{`在徒步上山约十五分钟后，会自然出现几个缺口，可以框住山谷中的几栋标志性疗养院尖顶和教堂钟楼，用森林的深色枝叶作为自然画框，营造“秘境中的明珠”之感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用无人机在亚希莫夫上空拍摄需极为谨慎，最好提前查询当地法规，因为部分区域靠近国境线且有疗养院对安静要求极高。拍摄疗养客是绝对禁忌，请始终将镜头对准建筑与风景。室内博物馆通常允许拍照但禁用闪光灯，以保护脆弱的历史文物。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济怀旧之选`}</h4>
+                  <p className="text-sm text-blue-800">{`主街上由老房子改造的 Pension Montana，房间朴素干净，老板能讲很多小镇的老故事，早餐是家庭自制的蜂蜜和面包，晚上能听到远处酒馆传来的隐约手风琴声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色历史体验`}</h4>
+                  <p className="text-sm text-green-800">{`下榻在由旧矿工公寓改造的精品酒店 Lázně Jáchymov 旗下历史建筑，房间保留了高高的天花板和厚实的墙壁，有些还装饰着与采矿历史相关的复古画作，睡在其中仿佛与过去的矿工共享同一片宁静。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端疗养享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`直接入住著名的 Radium Palace 或 Agricola 疗养院酒店，不仅能在建筑瑰宝中安眠，还可以预约专业的医学评估和氡温泉疗养疗程，体验一次真正意义上的历史性疗愈之旅。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`山间隐居小屋`}</h4>
+                  <p className="text-sm text-purple-800">{`在镇外森林边缘租一栋传统的木制夏季度假屋（chata），完全融入当地人的周末生活，白天在露台看书听鸟鸣，夜晚看山谷灯光如星河，享受绝对的静谧。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果预订真正的疗养院酒店（而非普通酒店房间），通常需要预订包含诊断和疗法的套餐，价格较高且需要提前很久预定。普通游客选择“酒店”模式的房间即可。小镇夜间极为安静，娱乐场所很少，适合追求宁静和历史感的旅行者。冬季前往时，确认住宿是否有充足的供暖，山区夜晚非常寒冷。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开亚希莫夫时，我的口袋里没有银币，身体里也没有进行放射性治疗。但我带走的，是一种无比复杂而丰沛的感受。这座小镇像一本厚重而立体的书，它的第一章写着欲望与财富，是用白银的冷光和矿工的汗水写就的；中间几章充满了科学的偶然与人类的苦难，闪烁着幽蓝的镭光和沉重的叹息；而如今的篇章，则散发着温泉的氤氲热气和平和的疗愈之光。它没有试图美化或隐藏任何一段过去，而是让它们层层叠加，共同构成了今天这种独一无二的、带着伤痕与智慧的宁静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在一切追求效率、热衷贴标签的当下，亚希莫夫的存在是一个温柔的提醒。它告诉我们，一个地方的意义可以如此多元甚至矛盾，一段历史可以同时承载创生与伤痛。它邀请我们进行一场超越观光层面的旅行：不是简单地惊叹于建筑的华丽，或满足于打卡一个“美元起源地”的名头，而是去试着理解，大地如何馈赠又如何索取，人类如何狂热探索又如何学习敬畏与共处。来这里，是阅读一段关于平衡的寓言。每一位热爱深度游的旅人，都应该来感受一下这种历史的重量与温度，在这座沉默的山谷里，聆听来自地心深处，关于财富、科学与疗愈的三重回响。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/holasovice" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    霍
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">霍拉肖维采古罗马村落</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Holašovice</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lednice-valtice" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莱
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莱德尼采–瓦尔季采庄园</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lednice–Valtice Cultural Landscape</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/trosky-castle-cesky-raj" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特罗斯克城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Trosky Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

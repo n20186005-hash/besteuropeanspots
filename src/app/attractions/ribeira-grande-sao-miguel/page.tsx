@@ -1,0 +1,245 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '里韦拉大城 Ribeira Grande｜探秘火山玄武岩镶边的古朴酒乡与海浪之吻 - 最佳欧洲景点',
+  description: '车子沿着圣米格尔岛北岸蜿蜒的公路行驶，当一片密集的、仿佛被墨线勾勒过的黑白房屋群突然映入眼帘时，你就知道，里韦拉大城到了。它与岛屿首府蓬塔德尔加达那种更规整、更“大陆”的气质截然不同。第一印象是强烈的对比：深不见底的黑色玄武岩粗粝而坚硬，包裹着雪白平整的墙面，像是一幅巨大的、立体的素描画，被北大西洋',
+}
+
+export default function RibeiraGrandeSaoMiguelPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '亚速尔群岛，圣米格尔岛', href: '/destinations/europe' },
+            { label: '里韦拉大城', href: '/attractions/ribeira-grande-sao-miguel' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`里韦拉大城・Ribeira Grande・葡萄牙・亚速尔群岛，圣米格尔岛`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子沿着圣米格尔岛北岸蜿蜒的公路行驶，当一片密集的、仿佛被墨线勾勒过的黑白房屋群突然映入眼帘时，你就知道，里韦拉大城到了。它与岛屿首府蓬塔德尔加达那种更规整、更“大陆”的气质截然不同。第一印象是强烈的对比：深不见底的黑色玄武岩粗粝而坚硬，包裹着雪白平整的墙面，像是一幅巨大的、立体的素描画，被北大西洋潮湿的海风经年累月地晕染着。空气中永远弥漫着一股复杂的味道——湿润的青苔附着在火山石上的土腥味，远处海浪拍打礁石的咸腥，还有从某扇虚掩的门后飘出的、一丝若有若无的甜腻果香。
+这座城是活在河与海之间的。里贝拉·格兰德河（意为“大河”）穿城而过，将它一分为二，最终注入大西洋。清晨，你可以看到当地老人坐在河岸广场的长椅上，看着河水潺潺流向不远处的入海口，那里海浪正激起白色的泡沫。时间在这里的流速似乎被调慢了。镇中心没有嘈杂的旅游商店，取而代之的是面包房传出刚烤好的“波洛”面包的麦香，五金店门口堆着渔网，还有那些门口挂着“Licor”字样的小作坊，低调得让你几乎错过。这里的核心魅力，是一种被火山和海洋共同锻造出的坚韧与宁静，它不张扬，却深深嵌在每一道石缝和每一缕空气里。
+最打动人心的，莫过于那种“正在生活”的真实感。这不是一个博物馆式的景点，而是亚速尔人传统海岛生活的鲜活样本。你会看到主妇在黑白相间的宅邸阳台上晾晒床单，海风把它们吹得像船帆；孩子们在河口的浅滩嬉戏，笑声混着海浪声；而在那些不起眼的作坊里，代代相传的蒸馏器正轻声哼唱着，将岛上菠萝、百香果、甚至辣椒，转化为琥珀色或翠绿色的琼浆。这里的一切，都讲述着人类如何与一片肥沃而桀骜的火山土地共生共荣的故事。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子沿着圣米格尔岛北岸蜿蜒的公路行驶，当一片密集的、仿佛被墨线勾勒过的黑白房屋群突然映入眼帘时，你就知道，里韦拉大城到了。它与岛屿首府蓬塔德尔加达那种更规整、更“大陆”的气质截然不同。第一印象是强烈的对比：深不见底的黑色玄武岩粗粝而坚硬，包裹着雪白平整的墙面，像是一幅巨大的、立体的素描画，被北大西洋潮湿的海风经年累月地晕染着。空气中永远弥漫着一股复杂的味道——湿润的青苔附着在火山石上的土腥味，远处海浪拍打礁石的咸腥，还有从某扇虚掩的门后飘出的、一丝若有若无的甜腻果香。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座城是活在河与海之间的。里贝拉·格兰德河（意为“大河”）穿城而过，将它一分为二，最终注入大西洋。清晨，你可以看到当地老人坐在河岸广场的长椅上，看着河水潺潺流向不远处的入海口，那里海浪正激起白色的泡沫。时间在这里的流速似乎被调慢了。镇中心没有嘈杂的旅游商店，取而代之的是面包房传出刚烤好的“波洛”面包的麦香，五金店门口堆着渔网，还有那些门口挂着“Licor”字样的小作坊，低调得让你几乎错过。这里的核心魅力，是一种被火山和海洋共同锻造出的坚韧与宁静，它不张扬，却深深嵌在每一道石缝和每一缕空气里。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人心的，莫过于那种“正在生活”的真实感。这不是一个博物馆式的景点，而是亚速尔人传统海岛生活的鲜活样本。你会看到主妇在黑白相间的宅邸阳台上晾晒床单，海风把它们吹得像船帆；孩子们在河口的浅滩嬉戏，笑声混着海浪声；而在那些不起眼的作坊里，代代相传的蒸馏器正轻声哼唱着，将岛上菠萝、百香果、甚至辣椒，转化为琥珀色或翠绿色的琼浆。这里的一切，都讲述着人类如何与一片肥沃而桀骜的火山土地共生共荣的故事。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`里韦拉大城`} />
+                <InfoRow label="英文名称" value={`Ribeira Grande`} />
+                <InfoRow label="正式名称" value={`Ribeira Grande`} />
+                <InfoRow label="国家" value={`葡萄牙`} />
+                <InfoRow label="城市" value={`亚速尔群岛，圣米格尔岛`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`圣米格尔岛北岸最古老且最重要的定居点之一，见证了亚速尔群岛殖民开发、农业经济转型与独特海岛文化形成的活化石。`} />
+                <InfoRow label="建筑特色" value={`以当地开采的深色火山玄武岩作为房屋骨架和边框，搭配以白色石灰粉刷的墙壁和彩色窗框，形成鲜明而质朴的黑白对比，被称为“玄武岩镶边”建筑。`} />
+                <InfoRow label="建筑风格" value={`大西洋岛屿民间建筑与早期殖民时期实用主义风格的融合，深受火山地质材料和海洋气候的影响。`} />
+                <InfoRow label="文化价值" value={`这里是亚速尔传统果酒（Aguardente）与利口酒（Licor）的酿造中心，其饮食文化与手工技艺深深植根于火山土壤孕育的丰富物产之中。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。主要历史建筑（如老市政厅、教堂）及博物馆开放时间通常为上午10点至下午6点，夏季（6月至9月）可能延长至晚上7点。小型家庭式利口酒作坊参观需提前预约。请注意，许多商店和餐馆在周日下午及周一可能不营业。重要的宗教节日（如圣灵节）期间，镇上会有盛大活动，但部分常规服务可能调整。`} />
+              <InfoRow label="门票价格" value={`进入小镇免费。参观里韦拉大城城市博物馆门票约2-3欧元。特色果酒或利口酒厂导览品尝体验，价格从10欧元到25欧元不等，通常包含几种产品的品尝。部分历史建筑内部参观可能象征性收费1-2欧元。`} />
+              <InfoRow label="地址" value={`Ribeira Grande, 9600-xxx São Miguel, Açores, Portugal`} />
+              <InfoRow label="交通方式" value={`最近的机场是位于圣米格尔岛上的若昂·保罗二世机场（PDL）。从机场出发，最推荐的方式是租车自驾，沿北部海岸的EN1-1A公路向西北方向行驶，车程约30-40分钟，沿途海岸风光绝美。如果搭乘公共交通，可以先从机场乘坐出租车或班车到蓬塔德尔加达市区（约15分钟），然后在长途汽车站换乘前往里韦拉大城的班车（由“Micaelense”公司运营），班次约为每天5-6班，车程约50分钟，建议提前查询并预留充足时间，因为岛上的公交通常不太频繁。小镇内部完全可以步行探索。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从15世纪中叶说起。葡萄牙的探险家们像撒豆子一样，将定居点散布在亚速尔群岛的各个海岸。圣米格尔岛北岸这片肥沃的冲积平原和丰饶的渔场，很快就吸引了第一批拓荒者。他们给这里起名为“里韦拉大城”，既因那条重要的河流，也寄托了对其未来规模的期望。最初的建筑是简陋的，直到他们发现了脚下土地无尽的宝藏：黑色的火山玄武岩。这种石材坚硬、耐久，且随处可见。于是，一种独特的建筑语言诞生了：用巨大的黑色石块垒砌房屋的基座、角落和门窗边框，如同给建筑穿上了一件坚不可摧的铠甲，以抵御大西洋狂暴的天气。这不仅仅是美学选择，更是生存智慧。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，岛上的生活从来不是田园诗。地震、海啸、风暴，以及大西洋航路上变幻莫测的财富与风险，共同塑造了这里的性格。小镇曾因小麦种植和“蓝染料”（一种从植物中提取的靛蓝）贸易繁荣，也曾在自然灾害中受损。但真正的转折点，隐藏在一片片茂盛的果园里。早期定居者发现，岛上温和的气候和肥沃的火山土特别适合水果生长。当收获季来临，过剩的水果如何保存？智慧的岛民求助于古老的技艺——蒸馏。最初或许只是为了不浪费上帝的馈赠，却意外酿造出了酒精度极高、风味浓郁的果酒“阿瓜丹特”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "到了18、19世纪，里韦拉大城成了某种意义上的“走私者天堂”。这里生产的烈酒被水手和私掠者们悄悄带上船，成为漫长航程中的慰藉品，甚至成为一种硬通货。小镇的街巷里，弥漫着秘密交易与冒险故事的气息。也正是这一时期，一些家族开始钻研更精细的调味酒品，他们将蒸馏后的烈酒与糖、本地香料及水果精华再次融合，创造出了色彩缤纷、口味各异的利口酒。每一家都有自己的秘方，如同守护家族荣誉般代代相传，形成了小镇独特的经济与文化支柱。那个时代，空气里甜腻的发酵香气，就是繁荣的味道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进二十世纪，两次世界大战和移民潮冲击了群岛。许多人背井离乡去寻找新大陆的梦，里韦拉大城也曾一度沉寂。但总有一些人选择留下，守护着祖先的石屋和铜制蒸馏器。有趣的是，正是这种相对的“落后”与“闭塞”，使得那份原真性得以保存。当全球旅游浪潮最终涌向亚速尔时，人们惊喜地发现，这里还保留着一份未被过度修饰的容颜。如今，新一代的酿酒师在尊重传统的同时，也开始尝试新的口味和创新营销，让古老的利口酒走向世界。那些黑白色的老房子，在被精心维护的同时，内部可能已经变成了舒适的民宿或富有设计感的咖啡馆。里韦拉大城就像它酿造的陈年烈酒一样，在时间的橡木桶中沉淀、转化，最终散发出复杂而迷人的醇香，迎接懂得欣赏它的旅人。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味里韦拉大城，建议安排一整天的时间，并抱着悠闲探索的心态。最好在上午9点前抵达，这时晨光柔和，小镇刚刚苏醒，游客稀少。你可以把车停在城镇边缘的免费停车场（如河边区域），然后开始全程的步行探索。路线将从河岸广场开始，深入老城迷宫般的街巷，触摸那些玄武岩的肌理，随后拜访一家传统的利口酒作坊，了解酿造的秘密并品尝，接着漫步至大西洋岸边，感受海浪的冲击，最后在老城内找一家家庭餐馆享用晚餐。整体节奏应该是缓慢的、沉浸式的，留出足够的时间发呆、拍照，和偶尔遇到的当地人微笑致意。这样安排的目的是让你能同步感受小镇的建筑之美、历史之味、生活之趣与自然之力。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`品尝利口酒时，即使酒精度不高也不要贪杯，尤其是如果之后计划自驾，亚速尔对酒驾检查非常严格。
+小镇的天气说变就变，即使早上阳光灿烂，也务必随身带一件防风防雨的外套或薄冲锋衣。
+尊重当地居民的隐私，那些美丽的黑白房屋很多是私人住宅，拍照时请避免将镜头对准窗户或院内。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从卡洛斯·马查多博士广场出发，坐在河边听着水声，看阳光逐渐照亮对岸那一排黑白分明的古老宅邸立面。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着狭窄的卡尔萨达街往里走，让你的指尖划过那些冰冷粗糙、布满孔隙的火山玄武岩墙壁，感受几个世纪的风雨侵蚀。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在老市政厅那幢优雅的白色建筑前驻足，抬头看看它精致的黑色石雕窗框和阳台上盛开的天空葵，想象昔日官员在此办公的景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要推开一家挂着“Fabrica de Licores”招牌的家族小酒厂的门，让浓郁的果香和蒸汽包裹你，听店主讲述他祖父那辈就开始使用的铜制蒸馏器的故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到城镇西侧的圣母教堂，在相对朴素的内部静坐片刻，聆听管风琴的试音或当地老人的祷告低语，这里是小镇信仰生活的核心。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过城镇，朝着海浪声越来越响的方向走去，直到眼前豁然开朗，巨大的黑色礁石和汹涌的北大西洋毫无遮拦地展现在你面前。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在河口附近找一家用渔网和浮漂装饰的小餐馆，点一份当天捕捞的“鳕鱼天堂”炖菜，配上一杯本地产的干白葡萄酒。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`黄昏时分，再次回到河岸，看夕阳的余晖将白色的墙面染成金黄，而玄武岩的黑色则显得更加深邃凝重，这时按下快门捕捉最富戏剧性的光影。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`河岸广场仰角全景`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点前，站在河北岸的广场上，面向南岸的老建筑群拍摄，此时阳光从侧面照亮白墙，黑石框的立体感最强，能拍到建筑在水中的倒影。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`狭窄巷弄的框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`午后走进一条仅容一人通过的窄巷，利用两侧高耸的、镶嵌着黑色玄武岩的白色墙壁作为天然画框，将巷子尽头的一抹蓝天或一个路人的身影作为焦点。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`海堤与火山岩的对比`}</h4>
+                  <p className="text-sm text-gray-700">{`晴朗的下午，走到城镇西侧的海边防波堤上，用广角镜头将前景巨大的、蜂窝状黑色火山礁石与中景彩色的小渔船、远景黑白相间的城镇房屋一同纳入画面，展现自然与人文的碰撞。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`利口酒作坊的细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`在获得允许后，近距离拍摄那些古老的黄铜蒸馏器、布满糖渍和指纹的玻璃瓶、或是店主苍老的手正在灌注酒液的瞬间，这些都是充满故事感的画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`圣灵节拱门夜景`}</h4>
+                  <p className="text-sm text-gray-700">{`如果你在五月至六月间的圣灵节期间到访，夜晚拍摄镇上各街区搭建的、用鲜花和彩纸装饰的圣灵节拱门，它们被灯光点亮，在黑白色调的街道中宛如童话世界的人口。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`这里的阴天其实也别有风味，低饱和度的光线能更好地凸显建筑结构的线条和黑白色块的抽象美感，不要因为阴雨就收起相机。`}</li>
+                <li>• {`使用偏振镜可以有效消除玄武岩表面的反光，让黑色的纹理更加清晰深邃。拍摄海浪冲击礁石时，尝试慢速快门（如1/4秒或更慢），可以将海水雾化，营造出梦幻的动态效果。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨家庭旅馆`}</h4>
+                  <p className="text-sm text-blue-800">{`选择一栋由19世纪商人住宅改造的客栈，房间拥有挑高的木梁天花板和原始的玄武岩特色墙壁，女主人会为你准备丰盛的自制亚速尔早餐，包括新鲜的奶酪和木瓜酱。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`设计感精品酒店`}</h4>
+                  <p className="text-sm text-green-800">{`住在河畔一栋经过现代美学重构的历史建筑里，室内是简约的北欧风，但巨大的窗户却框出了老城最经典的黑白街景，屋顶露台是傍晚小酌的绝佳去处。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`海岸线景观民宿`}</h4>
+                  <p className="text-sm text-yellow-800">{`预订一间位于城镇西部、离海仅几步之遥的独立公寓，每天在咆哮的海浪声中醒来，推开窗就能看到大西洋的日出，厨房里还贴心准备了本地利口酒供你品尝。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`庄园式乡村体验`}</h4>
+                  <p className="text-sm text-purple-800">{`如果不介意住在城外几分钟车程的地方，可以选择一个被郁郁葱葱的茶园和凤梨温室包围的古老农庄，享受绝对的宁静，晚上可以看到璀璨的星空。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旺季（7-8月及宗教节日期间）住宿非常紧张，务必提前数月预订，尤其是那些特色鲜明的家庭式旅馆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇整体治安极好，夜晚散步也很安全，但老城部分街道照明较暗，建议携带小手电。住在靠海的地方虽然风景壮丽，但冬季风浪声会很大，对睡眠轻的人可能是个考验。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开里韦拉大城许久后，记忆中挥之不去的，不是某个具体的画面，而是一种综合的“感觉”。那种感觉是手指触碰火山岩时粗粝的质感，是利口酒滑过喉咙后泛起的水果余香，是海风裹挟着水汽扑面而来的湿润，是黑白两色在眼前无限组合的简约与力量。这个地方教会我，真正的深度不在于看到了多少景点，而在于你允许自己沉浸在一种截然不同的生活频率里有多久。在这里，时间是以海潮涨落、水果成熟、蒸馏器滴下一滴酒液来计算的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在当今这个追求效率、热衷打卡的快节奏世界里，里韦拉大城像一位沉默而睿智的老者。它不迎合，不喧嚣，只是静静地伫立在大西洋的边缘，用它火山石的骨骼和海洋的呼吸，讲述着一个关于适应、创造与坚持的故事。每一位热爱深度游的旅人都应该来这里，不仅仅是为了看一种独特的建筑，或品尝一杯特别的酒，更是为了体验一种生存哲学——如何用最本地、最质朴的材料，建造出既坚固又美丽的家园；如何将大自然的馈赠，哪怕是过剩的果实，转化为慰藉心灵的佳酿。来这里，是给自己一个机会，重新连接土地、海洋与双手创造的原始而动人的节奏。这份宁静而丰沛的触动，足以抵御外界很久的喧嚣。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/horta-azores" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔塔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Horta</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alcoutim-guardiana-river" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿尔科廷</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Alcoutim</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/viana-do-castelo-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    维
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">维亚纳堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Viana do Castelo</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

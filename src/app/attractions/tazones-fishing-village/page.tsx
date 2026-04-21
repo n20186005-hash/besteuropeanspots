@@ -1,0 +1,237 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '塔索内斯 Tazones｜查理五世登陆地、恐龙脚印海岸与隐秘渔村 - 最佳欧洲景点',
+  description: '车子在蜿蜒的绿意中盘旋而下，一个拐弯，大西洋的风就毫无预兆地、满满当当地灌了进来。不是那种腥咸刺鼻的海风，而是混合了崖壁野草、潮湿木头和被阳光晒暖的石头的气味。然后，塔索内斯就像一枚被遗忘的贝壳，静静地躺在V字形海湾的怀抱里，出现在你眼前。第一眼是震撼的静——没有喧哗，只有海浪一遍遍拍打防波堤的、沉',
+}
+
+export default function TazonesFishingVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '阿斯图里亚斯自治区，维利亚维西奥萨市镇（Municipio de Villaviciosa）', href: '/destinations/europe' },
+            { label: '塔索内斯', href: '/attractions/tazones-fishing-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`塔索内斯・Tazones・西班牙・阿斯图里亚斯自治区，维利亚维西奥萨市镇（Municipio de Villaviciosa）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在蜿蜒的绿意中盘旋而下，一个拐弯，大西洋的风就毫无预兆地、满满当当地灌了进来。不是那种腥咸刺鼻的海风，而是混合了崖壁野草、潮湿木头和被阳光晒暖的石头的气味。然后，塔索内斯就像一枚被遗忘的贝壳，静静地躺在V字形海湾的怀抱里，出现在你眼前。第一眼是震撼的静——没有喧哗，只有海浪一遍遍拍打防波堤的、沉稳的“哗啦”声，和偶尔几声尖锐的海鸥鸣叫。那些粉的、黄的、蓝的小房子，紧紧挨着，仿佛是从山岩里自然生长出来的，沿着陡峭的坡道毫无章法却又无比和谐地堆叠着，每扇窗都固执地望向大海。
+你沿着主路——其实只是一条勉强容两车错身的坡道——向下走，很快就融入了村子的节奏。这里没有“景点”的做作感，它就是它自己。清晨，码头边会有零星的老渔民整理着橙色的渔网，他们交谈的阿斯图里亚斯方言短促而低沉，像海浪的碎语。空气中飘着咖啡和新鲜烤面包的香气，从某扇敞开的门里溢出。村里的猫在石阶上晒太阳，对你的经过爱答不理。这个地方的核心魅力，就在于这种极致的“小”与“真实”。它小到十分钟就能从村头走到村尾，却又深邃到足以容纳一个帝国的开端和亿万年前的恐龙足迹。它不是舞台布景，而是一个仍然在呼吸、在捕鱼、在庆祝苹果酒节的活生生的社区。在这里，历史不是教科书上的章节，而是你脚下可能踩到的、被海浪冲刷光滑的古老石板路；永恒不是抽象概念，而是岩壁上那些沉默的、巨大的脚印。
+最打动人的，是那种时空交错的奇异感。你可以站在据说查理五世当年蹒跚上岸的简陋码头（如今停泊着彩色的小渔船），想象那位晕船虚弱的年轻王子如何望向这片陌生土地；转身走几步，钻进一家昏暗的苹果酒屋，看店主用潇洒的姿势从高处将金色的苹果酒“哗”地注入宽口杯底，激荡起清脆的泡沫，这是阿斯图里亚斯人延续了几个世纪的日常欢愉；然后，沿着海岸线散步，不经意间，你就会在灰黑色的岩层上，与那些直径超过一米的巨大圆形凹痕相遇——那是蜥脚类恐龙在一亿五千万年前漫步留下的永恒签名。过去与现在，皇室与平民，史诗与日常，在此处毫无隔阂地交织在一起。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在蜿蜒的绿意中盘旋而下，一个拐弯，大西洋的风就毫无预兆地、满满当当地灌了进来。不是那种腥咸刺鼻的海风，而是混合了崖壁野草、潮湿木头和被阳光晒暖的石头的气味。然后，塔索内斯就像一枚被遗忘的贝壳，静静地躺在V字形海湾的怀抱里，出现在你眼前。第一眼是震撼的静——没有喧哗，只有海浪一遍遍拍打防波堤的、沉稳的“哗啦”声，和偶尔几声尖锐的海鸥鸣叫。那些粉的、黄的、蓝的小房子，紧紧挨着，仿佛是从山岩里自然生长出来的，沿着陡峭的坡道毫无章法却又无比和谐地堆叠着，每扇窗都固执地望向大海。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你沿着主路——其实只是一条勉强容两车错身的坡道——向下走，很快就融入了村子的节奏。这里没有“景点”的做作感，它就是它自己。清晨，码头边会有零星的老渔民整理着橙色的渔网，他们交谈的阿斯图里亚斯方言短促而低沉，像海浪的碎语。空气中飘着咖啡和新鲜烤面包的香气，从某扇敞开的门里溢出。村里的猫在石阶上晒太阳，对你的经过爱答不理。这个地方的核心魅力，就在于这种极致的“小”与“真实”。它小到十分钟就能从村头走到村尾，却又深邃到足以容纳一个帝国的开端和亿万年前的恐龙足迹。它不是舞台布景，而是一个仍然在呼吸、在捕鱼、在庆祝苹果酒节的活生生的社区。在这里，历史不是教科书上的章节，而是你脚下可能踩到的、被海浪冲刷光滑的古老石板路；永恒不是抽象概念，而是岩壁上那些沉默的、巨大的脚印。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人的，是那种时空交错的奇异感。你可以站在据说查理五世当年蹒跚上岸的简陋码头（如今停泊着彩色的小渔船），想象那位晕船虚弱的年轻王子如何望向这片陌生土地；转身走几步，钻进一家昏暗的苹果酒屋，看店主用潇洒的姿势从高处将金色的苹果酒“哗”地注入宽口杯底，激荡起清脆的泡沫，这是阿斯图里亚斯人延续了几个世纪的日常欢愉；然后，沿着海岸线散步，不经意间，你就会在灰黑色的岩层上，与那些直径超过一米的巨大圆形凹痕相遇——那是蜥脚类恐龙在一亿五千万年前漫步留下的永恒签名。过去与现在，皇室与平民，史诗与日常，在此处毫无隔阂地交织在一起。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`塔索内斯`} />
+                <InfoRow label="英文名称" value={`Tazones`} />
+                <InfoRow label="正式名称" value={`Tazones`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`阿斯图里亚斯自治区，维利亚维西奥萨市镇（Municipio de Villaviciosa）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`1517年，未来统领半个世界的查理五世首次踏上西班牙领土的登陆点，开启了西班牙哈布斯堡王朝的黄金时代。`} />
+                <InfoRow label="建筑特色" value={`依傍陡峭山崖而建的微型渔村，色彩明快的房屋层层叠叠，狭窄陡峭的阶梯和巷道取代了常规街道，直通小巧的港口。`} />
+                <InfoRow label="建筑风格" value={`简朴的阿斯图里亚斯乡土建筑，以白色墙面、木制阳台、石板或瓦片屋顶为主，充满实用主义的渔家风情。`} />
+                <InfoRow label="文化价值" value={`一个将重大全球历史事件、古老的手工渔业传统与史前自然奇迹完美浓缩于方寸之间的活态文化博物馆。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`村庄本身全天开放，无限制。主要看点如恐龙脚印海岸（Playa de la Griega）全天可探访，但建议白天前往以确保安全。当地的小型渔网工坊博物馆或信息中心（如有开放）通常在夏季（6月至9月）的上午10点至下午2点、下午4点至7点开放，冬季时间大幅缩短或仅周末开放，行前最好在维利亚维西奥萨旅游局官网确认。部分提供参观服务的传统苹果酒屋（sidrerías）需提前预约。`} />
+              <InfoRow label="门票价格" value={`进入塔索内斯村免费。参观恐龙脚印海岸免费。如有小型地方博物馆或工坊参观，可能收取象征性费用（约1-3欧元）。村庄停车通常免费，但旺季车位紧张。`} />
+              <InfoRow label="地址" value={`Puerto de Tazones, 33315 Villaviciosa, Asturias, Spain`} />
+              <InfoRow label="交通方式" value={`从阿斯图里亚斯首府奥维耶多出发是最佳选择。在奥维耶多汽车站（Estación de Autobuses）乘坐ALSA公司前往维利亚维西奥萨（Villaviciosa）的班车，车程约45分钟至1小时，班次在工作日较为频繁（约每小时一班），周末减少。抵达维利亚维西奥萨后，需换乘前往塔索内斯的本地小巴或出租车。小巴班次稀疏，尤其是下午和周末，强烈建议提前在维利亚维西奥萨汽车站查询时刻表或直接搭乘出租车，前往塔索内斯的车程约10-15分钟。自驾最为方便，从奥维耶多沿A-8高速公路向东，在Villaviciosa出口下，再根据路标行驶约10公里即达，沿途是美丽的阿斯图里亚斯田园风光。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间拨回1517年9月。北大西洋的秋季风浪正盛，一支船队在风暴中颠簸前行。中心那艘船上，站着一位面色苍白、年仅十七岁的年轻人——来自弗兰德斯的查理，他刚继承了祖父“天主教双王”伊莎贝拉和费尔南多的西班牙王位，正赶赴他的新王国。严重的晕船折磨着他和随从。他们原本的目的地是更南方的桑坦德或拉雷多，但恶劣天气迫使舰队寻找最近的避风港。于是，他们看到了阿斯图里亚斯这处深邃、隐蔽的小海湾。塔索内斯，这个当时只有几户渔民和一座小教堂的落脚点，就这样意外地登上了历史舞台。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "据编年史记载，查理五世登陆时状态极差，几乎无法站立，是被用椅子抬上岸的。这个不那么威武的开场，丝毫没有影响此地作为帝国起点的象征意义。他在岸边简陋的房舍里休整，据说吃了当地的沙丁鱼和新鲜面包，补充体力。几天后，他才启程前往附近的维利亚维西奥萨镇，并最终走向托莱多和巴利亚多利德，接受臣民的效忠。这次迫降式的登陆，像一则隐喻：一个庞大的帝国，始于一次偶然和一份不适。而塔索内斯，也因为这个瞬间，从无数个默默无闻的渔村中脱颖而出，它的名字被谨慎地记录在帝国的档案里。不过，历史的光芒并未彻底改变它。此后几百年，它依然是那个塔索内斯，渔民们日出而作，日落而息，用祖传的方法编织渔网，用橡木桶酿造苹果酒。王侯的传奇是茶余饭后的谈资，而餐桌上的鱼和杯中的酒，才是生活本身。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "村子真正的建筑格局，完全由渔业生产决定。没有规划整齐的广场，房屋为了尽可能靠近港口和躲避北风，紧紧簇拥在面向海湾的南坡上。陡峭的阶梯和窄巷（称为“caleyas”）是公共道路，也是为了方便将渔获快速搬运回家。这些朴实无华的房子，外墙刷上石灰防潮，用从海滩捡来的鹅卵石或本地石材装饰门槛和窗沿，木制阳台则用来晾晒渔网和衣物。每一处设计都诉说着与大海共生的智慧。二十世纪中叶，随着工业化捕捞的冲击，像塔索内斯这样的小渔村一度面临衰落。但正是它的“不变”，它的“落后”，在后来成了珍宝。人们重新发现了它的历史价值和无与伦比的宁静之美。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而另一个更古老的故事，则在二十世纪末被揭开。地质学家在海湾东侧的“希腊海滩”（Playa de la Griega）的岩层上，发现了清晰得令人震撼的恐龙脚印化石。研究表明，这些属于侏罗纪晚期的蜥脚类恐龙（可能是雷龙或梁龙的近亲），当时这里是一片温暖的滨海泥滩。这些直径可达1.3米的巨大圆形足迹，仿佛昨天才留下，瞬间将时间轴拉长到以亿年计。于是，塔索内斯的叙事变得更加丰厚：它不仅见证了一个人类帝国的黎明，更保存了地球生命史上巨兽漫步的黄昏。从恐龙到国王，再到渔民，这片海湾沉默地见证了一切生命的来去，而潮汐依旧，日落依旧。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受塔索内斯的魅力，建议安排一整天时间，从清晨开始。清晨（9点前抵达最佳）人最少，你能看到渔村苏醒的模样，光线柔和适合拍照，也容易在码头找到停车位。整体游览节奏应是悠闲的“探索式”，而非赶路的“打卡式”。上午聚焦于村庄本身的历史与生活气息，中午享用漫长的海鲜午餐，下午则留给海岸线和震撼的史前遗迹。这样的安排顺应了西班牙的生活节奏，也让你有充足时间消化这里多层的历史与情感。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`穿一双绝对防滑、适合走陡坡和岩石的鞋子，村里的石板路和海岸岩石在潮湿时非常滑。午餐时间西班牙较晚（下午1点半甚至2点才开始），很多餐馆厨房在下午4点前可能只提供简单小吃，规划好用餐时间避免失望。村庄内几乎没有商业化的纪念品店，请尊重当地居民的隐私，拍照时尽量避免直接对准住户的窗户或正在劳作的人。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一早从主路坡道缓缓下行，先在小码头驻足，看着彩色的渔船随波轻摇，想象1517年那个历史性的早晨。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着码头边最陡峭的那条石板阶梯“Caleya del Sol”向上爬，在两旁彩绘房屋的簇拥下感受村庄的立体脉搏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻找并参观仍在运作的传统渔网修补工坊（通常敞着门），看老匠人如何用灵巧的手势让破损的渔网重获新生。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在村里找一家挂着“Sidrería”招牌的苹果酒屋坐下，点一份当天捕获的烤章鱼或阿斯图里亚斯炖豆，体验酒从高处注入杯中的独特仪式。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着村庄东侧清晰的海岸小径漫步，穿过一小片桉树林，前往“希腊海滩”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在退潮时分仔细搜寻海滩东端延伸入海的黑色岩层，亲自用手触摸那些直径惊人的恐龙脚印凹痕。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分回到村庄高处的观景平台，看夕阳将海湾、房屋和远山染成金红色，等待渔船的灯火星星点点亮起。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`码头栈桥尽头回望村庄`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时或日落前一小时，将彩色的房屋、山坡绿意和港口渔船一并纳入镜头，使用广角端捕捉层次感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“Caleya del Sol”阶梯中段仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，阶梯两侧高耸的房屋会形成强烈的明暗对比，捕捉行人走过时光影切割的戏剧性画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`渔网工坊内部特写`}</h4>
+                  <p className="text-sm text-gray-700">{`利用门框或窗户作为自然画框，拍摄老匠人布满皱纹的手部特写和色彩斑斓的渔网纹理，故事感十足。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`恐龙脚印与潮汐同框`}</h4>
+                  <p className="text-sm text-gray-700">{`退潮时，选择较低角度，让涌来的海浪刚好漫过一部分恐龙足迹时按下快门，体现永恒与瞬间的交织。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`村庄至高观景台全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落后“蓝调时刻”，海湾水面的余晖与村庄逐渐亮起的暖黄色灯光形成冷暖对比，拍摄长时间曝光获得静谧大片。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`阿斯图里亚斯天气多变，海边尤甚，善用变化的云层和突然出现的光束能为照片增添灵气。拍摄当地人或其财产时，一个微笑和简单的手势询问（如举起相机、指向远处）能获得更友善的回应，尊重是前提。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`渔村沉浸`}</h4>
+                  <p className="text-sm text-blue-800">{`入住港口边由老渔民石屋改造的家庭旅馆，夜晚在涛声中入眠，清晨被海鸥的叫声和渔船引擎的“突突”声唤醒。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`田园牧歌`}</h4>
+                  <p className="text-sm text-green-800">{`选择坐落在村庄上方山丘的乡村民宿，拥有俯瞰整个海湾的无敌露台，主人会端来自家的苹果酒和奶酪作为欢迎礼。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`古城依托`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻在十分钟车程外的维利亚维西奥萨镇中心的历史酒店，既能享受舒适的设施和丰富的餐饮选择，又能方便地探索这座同样迷人的中世纪古镇。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐秘奢华`}</h4>
+                  <p className="text-sm text-purple-800">{`预订距离村庄几公里外、隐藏在森林与山谷中的小型精品酒店，极简设计融入自然，提供米其林级别的阿斯图里亚斯创新菜肴和顶级水疗。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "塔索内斯村内住宿选择非常有限且极其抢手，尤其在夏季和周末，务必提前数月预订。如果住在村外，请务必确认晚上的交通安排，因为出租车在夜间可能很难叫到。阿斯图里亚斯的住宿普遍温馨朴实，不要期待过于豪华的连锁酒店服务，这里体验的是真实与亲切。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开塔索内斯时，我带走的不再仅仅是关于查理五世或恐龙脚印的知识碎片，而是一种关于“尺度”的全新感悟。在这个一切都追求宏大、快速、喧嚣的时代，这个微小得在地图上几乎找不到的渔村，却安静地守护着人类历史上一个决定性的时刻，以及地球生命史上更恢弘的篇章。它没有试图去夸大什么，没有建造雄伟的纪念碑，只是让历史自然地沉淀在每一级被脚步磨亮的石阶里，让远古的印记裸露在海风与潮汐之中。这种举重若轻的承载，反而具有直抵人心的力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它提醒我们，真正的深度不在于去了多少地方，而在于我们是否允许自己在一个地方停下来，用所有的感官去触摸它的纹理，去聆听它多层次的故事。塔索内斯就是一个完美的“停顿点”。在这里，你可以同时是一个历史侦探，一个地质学爱好者，一个美食家，一个单纯的、被美景治愈的旅人。它告诉我们，伟大与渺小、永恒与刹那，从来都不是对立，它们可以如此和谐地共存于同一片海湾的呼吸里。每一位寻求深度体验的旅人，都应该来塔索内斯坐一坐，不是为了收集一个传奇地名，而是为了亲身体验这种时空折叠的魔法，重新找到旅行的初心——那种对世界复杂性与美丽最纯粹的好奇与敬畏。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/rupit-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    鲁
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">鲁皮特（悬崖上的火山岩小镇）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rupit</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ronda-cliff-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    龙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">龙达悬崖小镇</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ronda</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/morella-castle-spain" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫雷利亚（屹立在锥形巨岩上的城墙之池）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Morella</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

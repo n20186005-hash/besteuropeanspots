@@ -1,0 +1,246 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '阿尔科廷 Alcoutim | 滑索飞越国界，坠入葡萄牙最宁静的河畔边境时光 - 最佳欧洲景点',
+  description: '车子驶离主干道，拐进通往阿尔科廷的最后一段蜿蜒下坡路。当整个河谷突然毫无防备地在你眼前铺开时，你会不由自主地轻呼一声。那是一种被巨大宁静击中的感觉。瓜迪亚纳河像一条宽阔的、纹丝不动的银绿色缎带，慵懒地将大地一分为二。对岸西班牙的桑卢卡尔镇（Sanlúcar de Guadiana）清晰得仿佛触手可及',
+}
+
+export default function AlcoutimGuardianaRiverPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '葡萄牙', href: '/destinations/europe' },
+            { label: '阿尔加维地区（阿尔科廷市）', href: '/destinations/europe' },
+            { label: '阿尔科廷', href: '/attractions/alcoutim-guardiana-river' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`阿尔科廷・Alcoutim・葡萄牙・阿尔加维地区（阿尔科廷市）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子驶离主干道，拐进通往阿尔科廷的最后一段蜿蜒下坡路。当整个河谷突然毫无防备地在你眼前铺开时，你会不由自主地轻呼一声。那是一种被巨大宁静击中的感觉。瓜迪亚纳河像一条宽阔的、纹丝不动的银绿色缎带，慵懒地将大地一分为二。对岸西班牙的桑卢卡尔镇（Sanlúcar de Guadiana）清晰得仿佛触手可及，红色屋顶在阳光下像一堆温暖的乐高积木。而这边，阿尔科廷就安安静静地依偎在山坡上，白墙在午后的光线下泛着柔和的米黄，几乎听不到任何现代世界的喧嚣，只有风声、偶尔的鸟鸣，以及你自己放慢的呼吸声。
+下车，沿着石板路往镇子里走。空气里有股特别好闻的味道，是干燥的泥土、野生迷迭香和被太阳烤暖的石头的混合气息。镇子小极了，街巷窄得只能容一人通过，两边的墙壁刷得雪白，蓝色的窗框和门框，窗台上摆着鲜红的天竺葵。你遇到的每个当地人，无论是拎着面包的老奶奶，还是坐在咖啡馆外看报纸的老爷爷，都会对你点头微笑，那笑容里有一种“我们知道这里很偏僻，但你能来真不错”的默契。时间在这里不是被填满的，而是被拉长、摊平了，像河面的倒影。
+而最奇妙的“声音”，时常会划破这份宁静——那是一阵由远及近的“嗡嗡”声，紧接着是一声短促的兴奋尖叫。你抬头望向河面高空，会看到一个小小的人影，正沿着钢索从西班牙那头的山丘，向着葡萄牙的河岸飞速滑来。那就是传说中的跨国滑索“Limite Zero”。看着一个旅行者以这种近乎童话的方式“飞越国境”，你会突然笑出来。这大概是世界上最快乐的边境检查了——没有盖章，没有盘问，只有风声在耳边呼啸。这一刻，历史课本上那些关于边界、战争、关税的沉重词汇，都被这条轻盈的钢索解构了，只剩下纯粹的、孩子气的快乐。
+这就是阿尔科廷最核心的魅力。它不是一个拥有炫目景点的地方，而是一种状态，一种氛围。它让你同时体验到两种东西：一种是深入葡萄牙内陆乡村才能找到的、近乎凝固的古老宁静；另一种则是通过那条滑索象征的、充满想象力的现代连接。你站在这里，左脚是沉淀了百年的寂寥，右脚是正在发生的、轻松的跨国友谊。这种奇妙的矛盾与和谐，才是它令人过目不忘的真正原因。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子驶离主干道，拐进通往阿尔科廷的最后一段蜿蜒下坡路。当整个河谷突然毫无防备地在你眼前铺开时，你会不由自主地轻呼一声。那是一种被巨大宁静击中的感觉。瓜迪亚纳河像一条宽阔的、纹丝不动的银绿色缎带，慵懒地将大地一分为二。对岸西班牙的桑卢卡尔镇（Sanlúcar de Guadiana）清晰得仿佛触手可及，红色屋顶在阳光下像一堆温暖的乐高积木。而这边，阿尔科廷就安安静静地依偎在山坡上，白墙在午后的光线下泛着柔和的米黄，几乎听不到任何现代世界的喧嚣，只有风声、偶尔的鸟鸣，以及你自己放慢的呼吸声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "下车，沿着石板路往镇子里走。空气里有股特别好闻的味道，是干燥的泥土、野生迷迭香和被太阳烤暖的石头的混合气息。镇子小极了，街巷窄得只能容一人通过，两边的墙壁刷得雪白，蓝色的窗框和门框，窗台上摆着鲜红的天竺葵。你遇到的每个当地人，无论是拎着面包的老奶奶，还是坐在咖啡馆外看报纸的老爷爷，都会对你点头微笑，那笑容里有一种“我们知道这里很偏僻，但你能来真不错”的默契。时间在这里不是被填满的，而是被拉长、摊平了，像河面的倒影。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而最奇妙的“声音”，时常会划破这份宁静——那是一阵由远及近的“嗡嗡”声，紧接着是一声短促的兴奋尖叫。你抬头望向河面高空，会看到一个小小的人影，正沿着钢索从西班牙那头的山丘，向着葡萄牙的河岸飞速滑来。那就是传说中的跨国滑索“Limite Zero”。看着一个旅行者以这种近乎童话的方式“飞越国境”，你会突然笑出来。这大概是世界上最快乐的边境检查了——没有盖章，没有盘问，只有风声在耳边呼啸。这一刻，历史课本上那些关于边界、战争、关税的沉重词汇，都被这条轻盈的钢索解构了，只剩下纯粹的、孩子气的快乐。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是阿尔科廷最核心的魅力。它不是一个拥有炫目景点的地方，而是一种状态，一种氛围。它让你同时体验到两种东西：一种是深入葡萄牙内陆乡村才能找到的、近乎凝固的古老宁静；另一种则是通过那条滑索象征的、充满想象力的现代连接。你站在这里，左脚是沉淀了百年的寂寥，右脚是正在发生的、轻松的跨国友谊。这种奇妙的矛盾与和谐，才是它令人过目不忘的真正原因。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`阿尔科廷`} />
+                <InfoRow label="英文名称" value={`Alcoutim`} />
+                <InfoRow label="正式名称" value={`Alcoutim`} />
+                <InfoRow label="国家" value={`葡萄牙`} />
+                <InfoRow label="城市" value={`阿尔加维地区（阿尔科廷市）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`瓜迪亚纳河上默默见证葡萄牙与西班牙数百年边境纷争与和解的战略要地。`} />
+                <InfoRow label="建筑特色" value={`白色房屋沿着舒缓的山坡层层叠落，簇拥着山顶由粗糙石料垒砌的方形城堡。`} />
+                <InfoRow label="建筑风格" value={`深受摩尔风格影响的葡萄牙南部乡土建筑与中世纪军事防御工事的结合。`} />
+                <InfoRow label="文化价值" value={`一个通过一条滑索将沉重历史转变为轻松连接的现代寓言，体现了边境生活的双重性——分隔与融合。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇街道及公共区域全天开放。主要景点阿尔科廷城堡（Castelo de Alcoutim）及市立博物馆的开放时间一般为夏季（4月-9月）9:30-13:00，14:00-18:00；冬季（10月-3月）9:00-13:00，14:00-17:00，周一闭馆。跨国滑索（Limite Zero / Tirolesa Internacional）需提前预约，运营时间通常在上午10点至日落前，受天气和团队安排影响较大。`} />
+              <InfoRow label="门票价格" value={`进入古镇免费。阿尔科廷城堡及博物馆门票约2-3欧元，学生及老年人有折扣。跨国滑索（Limite Zero）体验费用约为20欧元/次，包含装备和简短的跨国手续讲解，需在线或现场提前预订并确认。`} />
+              <InfoRow label="地址" value={`Largo do Castelo, 8970-053 Alcoutim, Portugal`} />
+              <InfoRow label="交通方式" value={`最便捷的方式是自驾。从法鲁机场出发，沿A22高速公路向东行驶约1小时20分钟，转入N122公路后跟随指示牌即可抵达。沿途是典型的阿尔加维丘陵地貌，风景开阔。若依赖公共交通会非常耗时且班次稀少：可从法鲁乘坐长途巴士到维拉雷亚尔（Vila Real de Santo António），再换乘每天仅几班的当地巴士前往阿尔科廷，全程可能需要3小时以上。强烈建议租车。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要听懂阿尔科廷的沉默，你得先听听瓜迪亚纳河的水声。这条河从来不是一条简单的河流，它是线，是墙，是生存的依靠，也是冲突的源头。早在罗马时期，这里就是一个渡口。但真正为它写下第一笔浓重注脚的，是来自北非的摩尔人。他们在八世纪跨过直布罗陀海峡，征服了伊比利亚半岛大片土地，也包括这个易守难攻的河湾。山顶上最初堡垒的基石，很可能就是那时埋下的。你能在今天城堡的垒石方法中，隐约看到那种实用至上的军事思维，不是为了美观，纯粹是为了活着。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "基督教王国开始从北方向南“收复失地”，这片边境地带就成了拉锯战的焦点。十三世纪，葡萄牙国王唐·迪尼斯终于从摩尔人手中夺回了这里，并立即着手加固城堡。因为河对岸不再是异教徒，而是另一个正在崛起的基督教王国——卡斯蒂利亚（后来的西班牙）。盟友有时候比敌人更让人紧张。于是，阿尔科廷城堡被建成了今天我们看到的方形格局，厚实的城墙、高高的塔楼，时刻警惕地盯着对岸。河两岸的农民或许会隔河交换一些货物，但双方的士兵，在塔楼上守望的每一刻，眼神里都充满了不信任。这条河，从贸易通道变成了军事前线。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "接下来的几百年，是走私犯的“黄金时代”。官方的战争时断时续，但民间的“贸易”从未停止。关税太高？法律太严？没关系，瓜迪亚纳的夜色和隐蔽的河湾是最好的掩护。烟草、织物、盐、甚至是消息，在桨声灯影里悄悄过河。阿尔科廷和桑卢卡尔的许多居民，祖上可能都干过这“第二职业”。这种在官方对立背景下滋生的民间共生关系，塑造了边境人民独特的性格：他们对法律保持一种灵活的尊重，更深信邻里互助的生存法则。你会在当地老人讲述家族故事时，捕捉到那一丝狡黠而温暖的笑意。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间的洪流最终冲淡了火药味。两国加入欧盟，边境检查站形同虚设。阿尔科廷和大多数内陆乡村一样，面临着年轻人口流失、渐渐老去的困境。它太安静了，静得快要被世界遗忘。直到2002年，一个异想天开的点子诞生了——为什么不建一条连接两国的高空滑索呢？最初这可能只是一个旅游噱头，但它却被赋予了“欧洲第一条跨国滑索”的宏大 title。当第一批游客尖叫着划过天空，从一个国家“飞”到另一个国家时，某种象征意义完成了。它用一种极致轻松的方式，为数百年的沉重对峙画上了一个幽默的句号。曾经的军事禁区，变成了冒险乐园；瞭望敌情的哨塔，现在成了欣赏对岸风景的最佳观景台。历史在这里，完成了一次漂亮的转身。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，当你今天漫步在阿尔科廷，你踩着的每一块石板，都叠印着多层记忆：摩尔士兵的足迹、葡萄牙骑士的马蹄声、走私者轻快的脚步、以及现代旅行者登山鞋的沙沙声。城堡不再需要防御任何人，它只是守护着这片宁静，和那段关于分离与重逢的复杂故事。那条在阳光下闪闪发光的滑索钢缆，就像一道微笑的皱纹，刻在这片古老土地的脸上，告诉人们：看，最终连接我们的，总是比分隔我们的，更有力量。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在上午十点前抵达阿尔科廷，此时光线柔和，小镇刚刚苏醒，旅游团尚未到来，你能独占最美的宁静。整体游览可以安排一整天，节奏宜慢不宜快。上午聚焦于历史文化，探索城堡和古镇内部；午后在河边放松，感受慢生活；下午晚些时候体验滑索或在对岸徒步，傍晚则留给日落与晚餐。这样的安排既能深入感受小镇的内核，又能体验其最独特的跨国互动，并且完美捕捉一天中光影最动人的时刻。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适的步行鞋，古镇所有道路都是凹凸不平的石头路，高跟鞋是“自虐”行为。
+跨国滑索务必至少提前一天在其官网或通过电话预约，现场很可能排不上，且活动完全依赖天气状况。
+小镇的ATM机很少且可能故障，咖啡馆和小餐馆大多只收现金，记得提前备好适量欧元零钱。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`先把车停在镇外高处的免费停车场，让自己第一眼就被那河谷全景震撼，并拍下无人打扰的明信片角度。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着蜿蜒的“ Calçada de São Francisco”石板步道向下走进老镇中心，伸手触摸那些被岁月打磨得异常光滑的蓝色窗台和门框。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直登上阿尔科廷城堡，在空旷的瞭望台上转一圈，用手指划过粗糙的城墙，想象士兵如何日复一日监视着对岸桑卢卡尔城堡的动静。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在城堡脚下的小型市立博物馆里花上半小时，看看那些从罗马硬币到走私工具的有趣藏品，听馆长用带着浓重口音的英语讲一两个冷门传说。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午餐就在河畔唯一的露台餐厅“O Soeiro”解决，点一份炭烤河鱼或炖羊肉，边吃边看鸭子在水面划出长长的涟漪。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后沿着河边步道“Praceta do Rio”慢慢散步，一直走到滑索的葡萄牙站平台，看一个个“飞人”大呼小叫地抵达，为他们鼓掌。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果勇气足够（且提前预约好），亲自体验一把LimiteZero滑索，在河中央高空感受几秒钟“无国界”的悬浮感，降落西班牙后喝杯啤酒再坐小船返回。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落时分回到葡萄牙一侧，找一块河边的平滑巨石坐下，看着夕阳把对岸西班牙小镇的墙壁染成蜜糖色，等待繁星一颗颗在越来越深的蓝丝绒上亮起。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡顶层西北角垛口`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光能完美勾勒出城堡石头的质感，以瓜迪亚纳河和对岸桑卢卡尔的红屋顶为背景，构图饱满而有故事性。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`河边步道中段的古老无花果树下`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，以盘根错节的老树为前景框架，拍摄河面和对岸城堡的倒影，画面宁静富有诗意。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`跨国滑索葡萄牙着陆点附近`}</h4>
+                  <p className="text-sm text-gray-700">{`使用连拍模式捕捉“飞人”即将触地时脸上混合着兴奋与解脱的生动表情，背景是山坡上的白色房屋。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`老镇“Rua do Castelo”巷子`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光直射时，窄巷两侧高耸的白墙会形成强烈的明暗对比，拍下光影切割出的几何线条和远处一抹蓝天。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`从西班牙桑卢卡尔城堡回望`}</h4>
+                  <p className="text-sm text-gray-700">{`如果你滑索过去或乘船过去，一定要在对岸城堡拍摄阿尔科廷的全景，那才是明信片上的经典角度。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尝试用手机的全景模式拍摄河谷，能更好地展现山河对峙的壮阔感。尊重当地居民隐私，拍摄挂着衣服的阳台或坐在门前的老人时，最好先微笑致意或获得许可。河面反光强烈，拍摄时注意调整曝光补偿，避免对岸景色一片漆黑。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`河畔时光`}</h4>
+                  <p className="text-sm text-blue-800">{`镇上唯一的精品客栈“Casa do Sal”，由古老盐仓改造，房间直接面向河水，晚上能听着温柔的流水声入睡。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`隐居山丘`}</h4>
+                  <p className="text-sm text-green-800">{`镇外三公里处由家族经营的“Monte das Pias”乡村民宿，拥有大片橄榄树林和私人泳池，提供地道的农家晚餐，是彻底逃离喧嚣的完美选择。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`对岸冒险`}</h4>
+                  <p className="text-sm text-yellow-800">{`如果想过一个“跨国”之夜，可以滑索后住在西班牙桑卢卡尔的“La Posada”小旅馆，体验截然不同的安达卢西亚风情，次日再坐渡船回来。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`经济便捷`}</h4>
+                  <p className="text-sm text-purple-800">{`阿尔科廷入口处简单的“Residencial Pontal”旅馆，房间干净明亮，老板能提供最地道的旅行建议，适合预算有限的背包客。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "阿尔科廷的住宿选择极其有限，旺季（夏季周末）必须提前数周甚至数月预订。住在镇上晚上异常安静，几乎没有夜生活，喜欢热闹的旅行者需有心理准备。选择对岸西班牙住宿时，请确认好返回葡萄牙的渡船最晚班次（通常很早结束），避免滞留。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开阿尔科廷很久以后，你脑海里反复回放的，可能不是某个具体的画面，而是一种混合的感觉：皮肤上记得的是河畔微风的轻柔触感，鼻腔里仿佛还残留着干燥的草本香气，耳朵里则是那一片深邃的、几乎能听见自己心跳的宁静。你会发现，这个小镇没有试图用任何宏伟的东西震撼你，它只是坦然地将自己的全部——包括那份被现代世界遗忘的寂寥——摊开在你面前。这种诚实，反而成了一种强大的力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在一个人人都追求效率、渴望被信息填满的时代，阿尔科廷提供了一种反向的治愈。它告诉你，边界可以不是障碍，而是一次充满笑声的飞跃；历史可以不是负担，而是一本可以轻松合上的故事书；而“无所事事”本身，就是一种珍贵的、需要重新学习的能力。那条横跨两国、闪闪发光的滑索，就像一个现代的隐喻：我们总是习惯于筑起高墙、加深沟壑，但真正酷的，永远是搭建桥梁，哪怕只是一条简单到让人尖叫的钢索。所以，如果你感到疲惫，如果你对快餐式的旅行感到厌倦，那么请来阿尔科廷。这里没有答案，但有一条河，一座山，一个安静的下午，和一次飞跃国界的勇气，等着你亲自来领取。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/garrison-border-town-of-elvas" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃尔瓦什星形要塞</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Garrison Border Town of Elvas</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/conimbriga-roman-ruins-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科英布里加罗马遗迹</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Conímbriga</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/quinta-da-regaleira-sintra" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    雷
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">雷加莱拉庄园</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Quinta da Regaleira</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

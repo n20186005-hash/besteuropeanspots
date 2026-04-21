@@ -1,0 +1,249 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '马拉泰阿 Maratea｜第勒尼安海的明珠，44座教堂与山顶巨型救世主雕像的隐秘天堂 - 最佳欧洲景点',
+  description: '车子沿着第勒尼安海岸线蜿蜒，当转过一个巨大的海岬，马拉泰阿就像一场突然降临的梦，毫无防备地撞进你的视野。它不是平铺直叙的沙滩小镇，而是层层叠叠、从蔚蓝海水直接“生长”到峻峭山巅的立体画卷。白色的房子像贝壳一样黏在陡坡上，被无尽的橄榄树和地中海灌木丛托举着。第一印象是寂静，唯有海风穿过古老石巷的呜咽，',
+}
+
+export default function MarateaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '马拉泰阿', href: '/destinations/italy' },
+            { label: '马拉泰阿', href: '/attractions/maratea' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`马拉泰阿・Maratea・意大利・马拉泰阿`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子沿着第勒尼安海岸线蜿蜒，当转过一个巨大的海岬，马拉泰阿就像一场突然降临的梦，毫无防备地撞进你的视野。它不是平铺直叙的沙滩小镇，而是层层叠叠、从蔚蓝海水直接“生长”到峻峭山巅的立体画卷。白色的房子像贝壳一样黏在陡坡上，被无尽的橄榄树和地中海灌木丛托举着。第一印象是寂静，唯有海风穿过古老石巷的呜咽，和远处隐约传来的教堂钟声，那声音清越、孤独，在山与海之间回荡良久。
+你的探索会从鼻子开始。空气中混杂着海水的微咸、晒热的石头气息、从某家隐秘庭院溢出的茉莉花香，还有咖啡的浓郁香气——它们从那些门口摆着两张小桌的酒吧飘出来。老城（Borgo）的街道窄得只容两人错身，脚下的石板被几个世纪的脚步磨得光亮如镜，映出头顶一线天的蓝。你会惊奇地发现，每走几步，就有一座小小的教堂或礼拜堂出现在转角，门楣上的圣像安静地注视着你。这不是一个博物馆式的景点，它就是当地人生活的内核：老太太们提着菜篮从教堂里做完晨祷出来，店主人把椅子搬到门口晒太阳，时间在这里不是金钱，是阳光下缓缓移动的光斑。
+而当你抬头，无论在老城的哪个角落，视线最终都会被牵引至蒙特圣比亚焦山的顶峰。那里，一座洁白的巨人静静伫立，张开双臂，仿佛在拥抱整个第勒尼安海。那就是高达21米的救世主雕像，马拉泰阿无可争议的灵魂。它不像里约热内卢的基督像那样充满喧嚣的象征意义，而是更加内敛、坚定，像一个沉默的守护者，看顾着脚下44座教堂的尖顶、红瓦的屋顶，以及那片变幻莫测的、宝石般的大海。这种从微观的虔诚到宏观的壮美之间的张力，正是马拉泰阿最核心的魅力——它让你同时感受到信仰的亲切与自然的崇高。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子沿着第勒尼安海岸线蜿蜒，当转过一个巨大的海岬，马拉泰阿就像一场突然降临的梦，毫无防备地撞进你的视野。它不是平铺直叙的沙滩小镇，而是层层叠叠、从蔚蓝海水直接“生长”到峻峭山巅的立体画卷。白色的房子像贝壳一样黏在陡坡上，被无尽的橄榄树和地中海灌木丛托举着。第一印象是寂静，唯有海风穿过古老石巷的呜咽，和远处隐约传来的教堂钟声，那声音清越、孤独，在山与海之间回荡良久。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你的探索会从鼻子开始。空气中混杂着海水的微咸、晒热的石头气息、从某家隐秘庭院溢出的茉莉花香，还有咖啡的浓郁香气——它们从那些门口摆着两张小桌的酒吧飘出来。老城（Borgo）的街道窄得只容两人错身，脚下的石板被几个世纪的脚步磨得光亮如镜，映出头顶一线天的蓝。你会惊奇地发现，每走几步，就有一座小小的教堂或礼拜堂出现在转角，门楣上的圣像安静地注视着你。这不是一个博物馆式的景点，它就是当地人生活的内核：老太太们提着菜篮从教堂里做完晨祷出来，店主人把椅子搬到门口晒太阳，时间在这里不是金钱，是阳光下缓缓移动的光斑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你抬头，无论在老城的哪个角落，视线最终都会被牵引至蒙特圣比亚焦山的顶峰。那里，一座洁白的巨人静静伫立，张开双臂，仿佛在拥抱整个第勒尼安海。那就是高达21米的救世主雕像，马拉泰阿无可争议的灵魂。它不像里约热内卢的基督像那样充满喧嚣的象征意义，而是更加内敛、坚定，像一个沉默的守护者，看顾着脚下44座教堂的尖顶、红瓦的屋顶，以及那片变幻莫测的、宝石般的大海。这种从微观的虔诚到宏观的壮美之间的张力，正是马拉泰阿最核心的魅力——它让你同时感受到信仰的亲切与自然的崇高。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`马拉泰阿`} />
+                <InfoRow label="英文名称" value={`Maratea`} />
+                <InfoRow label="正式名称" value={`Maratea`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`马拉泰阿`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`巴斯利卡塔大区第勒尼安海岸线上唯一的海港城镇，被誉为“上帝的阳台”，以其密集的宗教建筑和震撼的山顶地标守护着这片土地。`} />
+                <InfoRow label="建筑特色" value={`迷宫般的中世纪老城与明亮的地中海港口和谐共存，山顶矗立着南意大利最高的救世主雕像，形成强烈的视觉与精神象征。`} />
+                <InfoRow label="建筑风格" value={`以朴素而坚固的中世纪石造建筑为主，混杂着巴洛克教堂的装饰元素，整体呈现出未经过度修饰的地中海山城本色。`} />
+                <InfoRow label="文化价值" value={`是理解意大利南部“梅佐乔诺”地区历史层叠、民间信仰与海洋文化交融的活态教科书，体现了人与严酷自然环境及漫长历史达成和解的生存智慧。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。主要教堂（如圣比亚焦教堂）开放时间一般为上午9:00至下午1:00，下午3:30至晚上7:00，冬季或会缩短。山顶救世主雕像（Cristo Redentore）观景平台全年开放，但建议在日出至日落间前往，夜间无照明。具体教堂开放时间可能因宗教活动临时调整，建议行前在镇中心旅游信息处确认。`} />
+              <InfoRow label="门票价格" value={`进入马拉泰阿小镇免费。参观各教堂通常免费，但欢迎自愿捐赠以支持维护。前往山顶救世主雕像的道路免费通行。若参加由当地导游带领的“44座教堂主题徒步游”等专业导览，费用约为每人25-40欧元。`} />
+              <InfoRow label="地址" value={`Via Grotte, 85046 Maratea PZ, Italy`} />
+              <InfoRow label="交通方式" value={`最近的机场是拉梅齐亚泰尔梅国际机场（SUF），距离约110公里。从机场可搭乘租车或预约接送服务，沿A2/E45高速公路行驶约1.5小时抵达。最近的火车站是“Maratea”站，有来自萨莱诺、那不勒斯等地的区间火车。从火车站到山上的老城区（Borgo）或港口区（Maratea Porto），需要换乘当地的出租车或预约的小型巴士，车程约15-20分钟，班次有限，提前联系酒店安排接站最为稳妥。自驾是最方便的方式，蜿蜒的山路风景绝美，但需注意路窄弯急。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "马拉泰阿的故事，深埋在它那些看似随意散落的石头里。这里最早的人类痕迹可以追溯到旧石器时代，山坡上的洞穴就是证明。但真正赋予它最初形貌的，是古希腊人。公元前8世纪左右，他们可能在此建立了名为“梅拉”的定居点，这个名字或许就是“马拉泰阿”的起源。然而，古希腊的荣光在这里留下的物理遗迹不多，更像是一个遥远的回响。随后罗马人到来，他们更感兴趣的是这里作为海上航路节点的战略位置，以及山坡上肥沃的土地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "让马拉泰阿长成今天我们看到的模样的，是中世纪。大约在10-11世纪，为了躲避不断袭扰海岸线的萨拉森海盗，沿海的居民开始向险峻的山上迁移。他们在易守难攻的岩石山脊上建起了围墙、塔楼和房屋，这就是老城的雏形。安全带来了繁荣，信仰成为了社区凝聚的核心。从诺曼统治到安茹王朝，再后来到阿拉贡家族，一代又一代的领主和居民，将他们最虔诚的感恩与祈求，都倾注在石头上。于是，在并不辽阔的城区内，教堂、礼拜堂、修道院如同雨后春笋般涌现，鼎盛时期据说有超过70座。每一座都诉说着一个家族、一个行会或一次集体获救的还愿故事。你看到的圣比亚焦主教堂，供奉着城镇的守护神圣布莱斯，其地下甚至藏着一座更古老的、可能建于8-9世纪的“圣母洞窟教堂”，就像历史的年轮，一层覆盖着一层。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "漫长的世纪里，马拉泰阿凭借其山城的坚固和港口的活力，在南方动荡的历史中保持了一种相对独立和繁荣。它曾是一个拥有特权的“皇家城市”，这解释了为何它能积累如此惊人的文化和建筑财富。然而，它也无法完全逃离命运的波折。17世纪的大瘟疫曾重创这里，你可以从一些教堂内纪念逝者的碑文中读到那份悲伤。但每一次打击后，社区总能在信仰中找到重建的力量。时间来到19世纪，随着意大利统一和海盗威胁的彻底消失，人们开始慢慢向山下更便利、更开阔的沿海地区迁移，建立了如今的港口区（Maratea Porto）。山上的老城一度面临被遗弃的危机，但那份深入骨髓的美与宁静，最终让它被重新发现和珍视。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "现代马拉泰阿最 iconic 的符号——山顶的救世主雕像，则是一个相对年轻的故事。它建于1963年到1965年，由当地艺术家布鲁诺·因诺琴蒂设计，佛罗伦萨的雕塑家用卡拉拉大理石雕刻了头部和双手，身体则由钢筋混凝土浇筑，外覆大理石板。它的诞生并非源于古老的传说，而是战后意大利经济奇迹时期，社区寻求新的身份认同和精神地标的愿望体现。然而，当这座重达400吨的雕像被直升机一块块吊上532米高的山顶并组装起来时，它奇迹般地与这片古老的土地融为一体，仿佛它一直就在那里，守护着千百年来在山与海之间生生不息的人们。它连接起了古老的信仰与现代的视野，成为了第勒尼安海上永不熄灭的灯塔。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的马拉泰阿一日深度游，应该是一场从海到天、从尘世到天堂的缓慢朝圣。建议一大清早（8点左右）就从港口区开始，这时阳光温柔，渔船归港，市场苏醒，你能感受到小镇最生活化的一面。然后搭乘出租车或沿着指示清晰的步道（如需徒步请留足1小时）上山，进入老城核心。整个白天都留给老城迷宫般的街巷和那些隐秘的教堂，节奏一定要慢，允许自己迷路。下午三四点，当阳光开始变得金黄，便是出发前往山顶救世主雕像的最佳时机。你可以选择驾车直达雕像脚下的停车场，也可以从老城后方挑战一段约45分钟的有氧徒步步道。务必在日落前半小时抵达雕像脚下，那是光线与情感都达到巅峰的时刻。这样的安排，让你完整经历了小镇的生命层次：海洋的活力、人间烟火的温度、历史的厚度，最终抵达精神的巅峰，并用一场无与伦比的日落作为圆满的句点。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`老城许多小巷阶梯陡峭且不规则，务必穿一双绝对舒适防滑的鞋子，高跟鞋在这里是“灾难级”选择。夏季午后山顶日照强烈且风大，需备好防晒衣物、帽子和防风外套，并带上足够饮水，山顶没有商店。自驾上山前往雕像的路最后一段非常狭窄崎岖，需谨慎驾驶，旺季时停车场可能很快停满，尽量早到。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清早在马拉泰阿港口区，看渔船卸下银光闪闪的渔获，在临海咖啡馆喝一杯意式浓缩，让海风叫醒你的感官`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从港口沿着“圣维托路”的古老阶梯或蜿蜒公路向上，感受景观从海洋蓝过渡到山石褐与橄榄绿的过程`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一头扎进老城主街“维托里奥·埃马努埃莱三世路”，任由自己迷失在那些岔开的小巷里，用手触摸冰凉的千年石墙`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开圣比亚焦主教堂厚重的木门，让眼睛适应内部的昏暗，寻找地下洞窟教堂的入口，体验从巴洛克到早期基督教的时空穿越`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拜访小巧的“圣母 delle Grazie”教堂，如果运气好，会遇到当地老人静静祷告，感受那种无需言语的虔诚氛围`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻访“安农齐亚塔”教堂，欣赏其朴素的罗马式外观与内部意外的巴洛克装饰，品味这种风格上的“冲突”与和谐`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在拉塞拉街区找一家家庭经营的餐厅，坐在葡萄藤荫下，享用一顿以新鲜凤尾鱼和当地山羊奶酪为特色的漫长午餐`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后沿着清晰路标驱车或徒步向蒙特圣比亚焦山顶进发，每一步升高，回望的海景都愈加壮阔，充满期待的仪式感`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 9 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最终站在救世主雕像张开的双臂下，迎着第勒尼安海上吹来的强风，俯瞰脚下如微缩模型般的城镇、蜿蜒的海岸线和远方的卡普里岛`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 10 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`等到夕阳将雕像、山石和你自己的影子都拉得很长，海水变成熔化的金子，才舍得缓缓下山，心中已被这份壮美填满`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`港口区防波堤回望山城全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，使用长焦镜头压缩空间，将色彩斑斓的港口小船、中间层次的老城房屋与山顶的白色雕像全部纳入画面，构图饱满`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`老城“拉塞拉”观景台`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨光线清澈时，站在这个突出的石制阳台，拍摄对面山坡上层叠的房屋、教堂钟楼与远处海景构成的经典明信片角度`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣比亚焦教堂内部仰拍穹顶`}</h4>
+                  <p className="text-sm text-gray-700">{`上午阳光从侧面窗户射入时，调高相机感光度，捕捉巴洛克装饰与天然洞窟岩石结合形成的独特光影质感，充满神秘感`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`前往雕像的山路弯道处`}</h4>
+                  <p className="text-sm text-gray-700">{`在驱车上山途中，寻找那些能同时拍到蜿蜒山路、茂密植被和远处雕像侧影的转弯处，利用道路的线条引导视线，塑造旅程感`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`救世主雕像脚下低角度仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`日落时分，蹲下以极低的角度向上拍摄，将雕像伸开的双臂融入金红色的天空，凸显其作为精神图腾的宏伟与孤独感`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄教堂内部前，务必观察是否有禁止拍照的标识，尤其在进行弥撒等宗教活动时绝对不要拍摄，这是基本的尊重。使用无人机拍摄全景前，请务必了解当地法规，尤其注意避开私人住宅区域和雕像正上空，强烈的山风对无人机也是巨大挑战。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`港口区海景民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`住在港口一排彩色房子里，每天清晨在阳台上看着渔船进出，楼下就是海鲜餐厅，空气里满是海的味道，生活便利又充满风情`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老城中心石头屋民宿`}</h4>
+                  <p className="text-sm text-green-800">{`由中世纪民居改造，厚厚的石墙隔绝了所有喧嚣，住在历史的核心，夜晚能听到远处教堂的钟声和巷子里的猫步声，深度沉浸`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`山腰隐居式农庄`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于老城与山顶之间的橄榄园中，独立的小石屋拥有无敌的海景露台，主人会奉上自产的橄榄油和葡萄酒，享受真正的田园诗生活`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端设计酒店（位于山间）`}</h4>
+                  <p className="text-sm text-purple-800">{`坐落在俯瞰海湾的独立山丘上，拥有无边泳池和米其林推荐餐厅，现代极简的设计与原始自然环境形成戏剧性对比，是疗愈身心的奢华避世之所`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "老城的住宿多有数百年的历史，格局可能较小且需要爬很多楼梯，但氛围无可替代；港口区住宿则更现代化、平坦。旺季（7-8月）住宿非常紧俏，需提前数月预订，而春秋季前往不仅能享受更好价格，气候也更为宜人。无论住在哪里，夜晚都非常安全宁静。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开马拉泰阿许久，那片山、海与雕像构成的画面，依然会在某些安静的瞬间浮现在眼前。它教会我的，是一种“垂直的旅行哲学”。我们太多时候的旅行是在平面上铺开，追逐一个又一个的地标。但在这里，旅程是向上的，从海洋的律动，到人间街巷的烟火，最终抵达山顶那寂静的、与天空对话的精神高地。这何尝不是一种隐喻？我们的人生，也需要这样一次次的“向上看”，从日常的琐碎中抽离，去寻觅那个更高的视角，那个能拥抱更广阔世界的自己。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了那些被游客脚步磨平了棱角的“热门”意大利，如果你渴望一场能同时震撼眼睛和心灵的旅程，请一定要来马拉泰阿。它不会用喧嚣的娱乐招待你，它给你的礼物是风声、钟声、橄榄树的婆娑声，是石头的温度，是海的光芒，是当你站在那座张开双臂的雕像下，突然感受到的、与这片古老土地深深连接的那份宁静与力量。这不是一个路过打卡的景点，这是一次值得你专程前往、缓慢呼吸、并装入记忆深处携带一生的沉浸式朝圣。第勒尼安海的明珠，等待懂得它的旅人。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/craco-ghost-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克拉科鬼城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Craco</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/grado" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    格
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格拉多古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Grado</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/montepulciano" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙特普齐亚诺</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Montepulciano</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

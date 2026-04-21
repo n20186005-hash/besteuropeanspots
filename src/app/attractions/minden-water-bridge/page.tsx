@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '明登 Minden｜看运河凌空飞渡威悉河的工程奇迹 - 最佳欧洲景点',
+  description: '老实说，第一次站在明登的水道桥下抬头望，我半天没合上嘴。那感觉太超现实了——你眼前是一条宽阔平静、流淌了千万年的威悉河，河面上鸥鸟盘旋，带着水汽的微风拂面。然后，你的视线缓缓上移，会看到一座巨大的、宛如罗马高架渠的灰色建筑，横跨在河流之上。而最不可思议的是，那建筑的“顶部”竟然是一条波光粼粼的“空中',
+}
+
+export default function MindenWaterBridgePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '明登', href: '/destinations/europe' },
+            { label: '明登', href: '/attractions/minden-water-bridge' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`明登・Minden・德国・明登`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`老实说，第一次站在明登的水道桥下抬头望，我半天没合上嘴。那感觉太超现实了——你眼前是一条宽阔平静、流淌了千万年的威悉河，河面上鸥鸟盘旋，带着水汽的微风拂面。然后，你的视线缓缓上移，会看到一座巨大的、宛如罗马高架渠的灰色建筑，横跨在河流之上。而最不可思议的是，那建筑的“顶部”竟然是一条波光粼粼的“空中运河”，一艘货船正不慌不忙地从你头顶大约十层楼高的地方悠然驶过，发出低沉温吞的引擎声。河在流，船在“天上”走，汽车在你身边的桥洞里穿行，时间在这里仿佛被折叠成了奇妙的立体维度。
+走下河岸，混入老城区的石板路，又是另一番光景。空气里的味道从河水的微腥变成了咖啡香和刚出炉的“普雷结”面包的焦香。明登大教堂那两座不对称的塔楼沉默地矗立在街角，它的石头被岁月染成了蜜糖般的暖黄色。这里的节奏很慢，老人们坐在广场长椅上晒太阳，自行车铃叮当作响。你会瞬间明白，那座震撼的工程奇观，并非一个孤立的展览品，它早已是当地人日常生活背景音的一部分。他们习惯了在河边散步时，仰望那些“空中航船”，就像我们习惯抬头看云。
+这座城市的魅力，恰恰在于这种极致的反差与和谐。一边是千年教堂的钟声，讲述着信仰与传承；另一边是钢铁混凝土的奇迹，歌唱着工业与理性。它们被威悉河温柔地串联起来，构成了明登独一无二的灵魂。在这里，你不仅能“看”到一个工程学上的奇观，更能“感受”到一种文化心态：德国人如何将他们骨子里的严谨与秩序，以一种不破坏自然之美、反而与之共舞的方式，深情地安放在故乡的土地上。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "老实说，第一次站在明登的水道桥下抬头望，我半天没合上嘴。那感觉太超现实了——你眼前是一条宽阔平静、流淌了千万年的威悉河，河面上鸥鸟盘旋，带着水汽的微风拂面。然后，你的视线缓缓上移，会看到一座巨大的、宛如罗马高架渠的灰色建筑，横跨在河流之上。而最不可思议的是，那建筑的“顶部”竟然是一条波光粼粼的“空中运河”，一艘货船正不慌不忙地从你头顶大约十层楼高的地方悠然驶过，发出低沉温吞的引擎声。河在流，船在“天上”走，汽车在你身边的桥洞里穿行，时间在这里仿佛被折叠成了奇妙的立体维度。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走下河岸，混入老城区的石板路，又是另一番光景。空气里的味道从河水的微腥变成了咖啡香和刚出炉的“普雷结”面包的焦香。明登大教堂那两座不对称的塔楼沉默地矗立在街角，它的石头被岁月染成了蜜糖般的暖黄色。这里的节奏很慢，老人们坐在广场长椅上晒太阳，自行车铃叮当作响。你会瞬间明白，那座震撼的工程奇观，并非一个孤立的展览品，它早已是当地人日常生活背景音的一部分。他们习惯了在河边散步时，仰望那些“空中航船”，就像我们习惯抬头看云。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座城市的魅力，恰恰在于这种极致的反差与和谐。一边是千年教堂的钟声，讲述着信仰与传承；另一边是钢铁混凝土的奇迹，歌唱着工业与理性。它们被威悉河温柔地串联起来，构成了明登独一无二的灵魂。在这里，你不仅能“看”到一个工程学上的奇观，更能“感受”到一种文化心态：德国人如何将他们骨子里的严谨与秩序，以一种不破坏自然之美、反而与之共舞的方式，深情地安放在故乡的土地上。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`明登`} />
+                <InfoRow label="英文名称" value={`Minden`} />
+                <InfoRow label="正式名称" value={`Minden`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`明登`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座见证了从查理大帝时期到工业革命的千年古城，更以其“水上十字路口”——中部运河凌空跨越威悉河的巨型水道桥而闻名于世。`} />
+                <InfoRow label="建筑特色" value={`一座宏伟的双层交通枢纽：上层是承载船只航行的水渠，下层是供汽车通行的公路桥，实现了水路与陆路在三维空间的神奇交汇。`} />
+                <InfoRow label="建筑风格" value={`水道桥主体是敦实厚重的工业新古典主义风格，采用钢筋混凝土结构，与下方自然蜿蜒的威悉河及周边古朴的老城区建筑形成强烈而和谐的对比。`} />
+                <InfoRow label="文化价值" value={`它是德国精密工程思维与自然景观、历史传统完美融合的典范，生动诠释了人类如何以智慧和尊重，在古老的土地上书写新的传奇。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城区全天开放。水道桥（Minden Water Bridge）及周边步行道24小时可参观，但夜间照明至晚上11点。相关的“水道桥信息中心”开放时间一般为周二至周日上午10点至下午5点，周一闭馆。威悉河游船运营期为每年4月至10月，每日有多班次，具体时间随季节调整，冬季通常停运。建议出行前在官网核对最新时刻表。`} />
+              <InfoRow label="门票价格" value={`参观水道桥及在桥上步行完全免费。威悉河游船票价根据航线长短而异，短途体验航线约60分钟，成人票价为15欧元左右，儿童、学生及家庭票有优惠。老城区的明登大教堂（Minden Cathedral）可免费进入，但登塔或参加导览团需支付少量费用（约3-5欧元）。建议携带少量现金，部分小型纪念品店或咖啡厅可能不接受信用卡。`} />
+              <InfoRow label="地址" value={`Mittellandkanal / Weser, 32423 Minden, Germany`} />
+              <InfoRow label="交通方式" value={`从最近的汉诺威机场（HAJ）出发，最便捷的方式是乘坐火车。在机场火车站搭乘区域列车（RE或RB线）前往汉诺威主火车站，换乘前往明登的直达列车，全程约1小时至1小时20分钟，班次频繁，约半小时一班。从明登火车站（Minden (Westf) Bahnhof）出站后，步行约15-20分钟即可抵达水道桥和老城区核心地带，沿途标识清晰。如果你自驾，从汉诺威沿A2高速公路行驶，从明登出口下，约45分钟车程。市内停车建议使用老城区周边的公共停车场（如“Parkhaus Am Rathaus”），费用合理。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "明登的故事，得从一条河和一个帝王说起。公元798年，查理大帝，那位几乎统一了西欧的传奇君主，看中了威悉河这个战略要地，在此建立了明登教区。河流是那个年代的“高速公路”，明登很快凭借优越的水陆位置，成了连接西欧与北欧贸易网络的关键节点。中世纪鼎盛时期，它是汉萨同盟的重要成员，商船云集，财富随着威悉河的波浪滚滚而来。老城区那些山墙陡峭、木筋毕露的房屋，就是那个黄金时代留下的无声证词。你可以想象，码头上堆满了来自波罗的海的毛皮、东方的香料，空气里混杂着汗水、木材和远方的气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，真正让明登在现代世界地图上留下独特一笔的，是十九世纪末那股席卷欧洲的工业革命狂潮。德国统一后，为了将鲁尔区的工业重镇与东部柏林及更远的波兰地区连接起来，一条贯穿东西的交通大动脉——中部运河的构想被提上日程。但一个巨大的难题横亘在工程师面前：运河路线必须跨越南北流向的威歇河。怎么办？绕道？成本高昂且效率低下。于是，一个大胆到近乎疯狂的想法诞生了：为什么不直接让运河从河上“飞”过去？" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "经过长达数年的规划和争论，这座史无前例的工程于1911年动工。想象一下当时的场景：没有现代巨型计算机辅助设计，工程师们靠着计算尺、图纸和无比缜密的头脑，指挥着工人们浇筑数万吨的钢筋混凝土。一战爆发曾令工程中断，但战后很快复工。终于在1916年，第一艘船缓缓驶过了这座悬浮在威歇河上空13米的水渠。它不仅是当时的技术巅峰，更是一个国家迈向工业现代化的雄心宣言。二战末期，这座桥曾被部分炸毁，但德国人在战后迅速将其修复，因为它已是这片土地经济复苏不可或缺的生命线。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如今我们看到的水道桥，其实是2014年完成大规模现代化扩建后的新貌。新桥与老桥并行，组成了一道更壮观的“水上双桥”景观。它每天默默地承载着数百艘货船和无数车辆，将北德的煤炭、钢铁、谷物运往四面八方。当你触摸那冰凉粗糙的桥墩，仿佛能听到一个多世纪以来，钢铁的碰撞、轮船的汽笛、还有设计图纸上铅笔划过的沙沙声，全部汇聚成一首关于人类智慧与毅力的交响诗。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`理想的明登深度游，应该从静谧的清晨开始，先感受古城未醒时的容颜，再迎接运河上逐渐繁忙的生机，最后在夕阳下品味水桥的辉煌。建议安排一整天时间，节奏宜慢不宜快。上午专注于老城的历史纹理，下午沉浸于水道桥的工程震撼与河上视角，傍晚则在河边找一家餐馆，看着华灯初上。这样的安排能让你完整体验明登“古今交融、水陆交响”的双重魅力。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`水道桥上人行道较窄，且常有自行车快速通过，步行时请务必靠边并注意安全。老城区部分石板路不平整，建议穿舒适防滑的鞋子。如果想拍摄水道桥全景且避开游人，工作日清晨是最佳时段。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清早第一站先去老城中心的集市广场，看着摊主们支起彩棚，空气里飘来新鲜奶酪和烤肠的香气，感受小城苏醒的脉搏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着广场旁的小巷走向明登大教堂，用手触摸那些被无数信徒抚摸而变得光滑的砂岩柱廊，静静听一场管风琴的晨间练习。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂后方沿着安静的住宅区缓步走向威悉河岸，途中会经过几段保存完好的中世纪城墙遗址。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`抵达威悉河北岸，找到那个绝佳的观景点，第一次完整地仰视那座如同空中楼阁般的巨型水道桥，看早班货船缓缓驶入桥上的水槽。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`勇敢地走上水道桥的人行道，与航行的船只处于同一平面，感受脚下传来的微弱震动，目送巨大的货轮擦身而过。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在桥的另一端下行，前往“水道桥信息中心”，通过模型和历史照片深入了解这项工程的来龙去脉和惊人数据。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`来到码头，跳上一班威悉河游船，从河面的动态视角回望水道桥，欣赏它横跨天际线的完整雄姿。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分，在南岸的草坪或河畔餐厅找位置坐下，点一杯当地啤酒，等待夕阳为灰色的桥体镀上温暖的金边，灯光逐一亮起。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`威悉河南岸草坪远眺点`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前约两小时，阳光从侧面照亮水道桥结构，使用长焦镜头压缩空间，将桥体、河面、老城教堂塔楼一同纳入画框，形成古今同框的绝佳构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`水道桥下层公路桥洞内`}</h4>
+                  <p className="text-sm text-gray-700">{`站在桥洞中央，利用桥洞形成的天然画框，拍摄洞口外波光粼粼的河面和驶过的帆船，营造深邃的透视感和故事性。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`老城区某条小巷的尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，从老城弯曲小巷的尽头望出去，恰好能将水道桥的一段作为背景，前景是古朴的鹅卵石街道和砖木房屋，形成强烈的大小与时代对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`威悉河游船行进途中`}</h4>
+                  <p className="text-sm text-gray-700">{`当游船从水道桥正下方穿过时，将相机镜头垂直向上仰拍，捕捉桥底厚重的混凝土结构以及桥上水渠边缘的波纹天光，获得极具视觉冲击力的颠倒视角。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`水道桥顶部人行道近距离平拍`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一艘色彩鲜明的休闲船艇驶过时，以平行视角拍摄船体与水渠、后方广阔的天空，画面简洁而富有动感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`航拍能获得最震撼的全局画面，但务必提前查询当地无人机飞行法规，水道桥及周边区域可能有空域限制。拍摄货船通过时，耐心等待船只行进到结构感最强的桥拱正中位置，画面会更平衡。尊重隐私，避免对准桥下公路行驶车辆的车牌或私人游艇上的乘客进行特写拍摄。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`老城故事`}</h4>
+                  <p className="text-sm text-blue-800">{`入住一栋由16世纪商人大宅改造的精品酒店，房间屋顶有着裸露的原始木梁，窗外就是教堂尖塔，晚上能听到清晰的钟声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`河景现代居所`}</h4>
+                  <p className="text-sm text-green-800">{`选择威悉河畔一座设计感十足的现代酒店，房间拥有整面的落地窗，躺在沙发上就能看船只来来往往，和水道桥的日夜光影秀。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`乡村静谧小屋`}</h4>
+                  <p className="text-sm text-yellow-800">{`在明登近郊的威悉河弯处，有一家由家族经营的温馨民宿，带一个种满玫瑰的花园，早晨主人会准备好丰盛的农家早餐篮。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`背包客驿站`}</h4>
+                  <p className="text-sm text-purple-800">{`老火车站附近有一家干净友好的青年旅舍，由旧仓库改建，公共厨房视野开阔，是结识各国旅行者、交流旅行故事的好地方。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旺季（夏季及圣诞市场期间）建议至少提前一个月预订，尤其是老城区的特色住宿非常抢手。选择河畔住宿时，问问房间是否面向水道桥，景观差异很大。明登整体治安良好，但无论住在哪里，夜晚在河边公园散步时还是建议结伴而行。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开明登很久以后，脑海里时常浮现的不是某个单一的画面，而是一种感觉：一种坚实的厚重与轻盈的灵动同时存在的和谐感。那座水道桥，它无疑是沉重的，数万吨的混凝土和钢铁，是人类意志对抗重力的明证。但它呈现的方式又是如此轻盈，像一条银色的缎带，优雅地飘过河流的上空，甚至托起了航行的船只。这多么像我们渴望的人生状态——肩负着责任与历史的重量，却仍能找寻到一种诗意的方式前行。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、一切都似乎要扁平化、快餐化的时代，明登的存在像是一个温柔的提醒。它告诉我们，发展不必以抹去记忆为代价，现代工程可以成为风景的一部分，而非破坏者。它让我们看到，当理性和浪漫握手，当计算好的图纸遇上一条河的古老曲线，能碰撞出何等动人的奇迹。在这里，你既能触摸到千年石头上的冰凉，也能感受到脚下现代工程传来的、充满生命力的微弱震颤。这不仅仅是一次旅行，更是一场关于平衡、关于融合、关于人类如何在时间的长河中既创造历史又敬畏自然的深刻对话。每一位热爱深度探索的旅人，都该来明登站一站，看看河，看看桥，然后想一想我们自己。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/burg-eltz-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃尔茨城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Burg Eltz</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/wustrow-fischland-baltic-sea-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    武
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">武斯特罗</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Wustrow</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/calw-hesse-black-forest" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔夫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Calw</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

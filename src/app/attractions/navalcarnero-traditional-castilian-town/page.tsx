@@ -1,0 +1,235 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '纳瓦尔卡内罗 Navalcarnero｜马德里南部的时光琥珀，漫步在彩绘错觉与古老拱廊下的纯正卡斯蒂利亚 - 最佳欧洲景点',
+  description: '你从马德里喧嚣的车流中抽身，沿着A-5号公路向南不过半小时，世界陡然慢了下来。当导航提示你已进入纳瓦尔卡内罗时，迎接你的不是宏伟的纪念碑，而是一种包裹全身的、沉静而温暖的气息。空气里混杂着刚出炉的面包香、附近酒吧飘来的淡淡咖啡醇香，还有一种属于卡斯蒂利亚平原的、干燥而干净的泥土味。这里的声音是生活本',
+}
+
+export default function NavalcarneroTraditionalCastilianTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '马德里', href: '/destinations/europe' },
+            { label: '纳瓦尔卡内罗', href: '/attractions/navalcarnero-traditional-castilian-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`纳瓦尔卡内罗・Navalcarnero・西班牙・马德里`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`你从马德里喧嚣的车流中抽身，沿着A-5号公路向南不过半小时，世界陡然慢了下来。当导航提示你已进入纳瓦尔卡内罗时，迎接你的不是宏伟的纪念碑，而是一种包裹全身的、沉静而温暖的气息。空气里混杂着刚出炉的面包香、附近酒吧飘来的淡淡咖啡醇香，还有一种属于卡斯蒂利亚平原的、干燥而干净的泥土味。这里的声音是生活本身谱写的：广场上老人们坐在长椅上用低沉而快速的西班牙语聊天的碎音，拱廊下店铺老板开关木门时铰链发出的悠长“吱呀”声，以及远处教堂偶尔传来的、并不急促的钟鸣。
+你的目光会不由自主地被那个巨大的主广场——塞哥维亚广场——所吸附。它不像欧洲许多精心雕琢的广场那般具有压迫性的美感，反而像一块被岁月盘磨得温润的巨石，坦然地铺陈在大地上。广场四周，是它最迷人的标志：连绵不断的木制拱廊。那些粗壮的、漆成深褐色或原木色的立柱，稳稳地托起一片片陶瓦铺就的斜顶，在石板地面上投下一道道深邃而清凉的阴影走廊。走在拱廊下，光影在你身上明明灭灭，仿佛穿行在时间的肋骨之间。廊下是小镇跳动的心脏：古老的五金店、飘着油墨香的报刊亭、挂着火腿的酒吧、面包房……当地人在这里完成他们一天中最重要的社交与采买。
+但纳瓦尔卡内罗还有一个更奇妙的魔法，它把历史“画”给你看。当你抬起头，不再仅仅注视商铺和行人，你会发现广场周围乃至许多小巷的墙壁上，布满了巨大而精美的错视画。一幅画可能再现了1643年腓力四世国王在此举行婚礼的盛大场景，贵族马车仿佛正从墙壁里驶出；另一幅则描绘了传统的葡萄收获节，欢庆的人物栩栩如生，几乎能听到他们的笑声。这些壁画不是冰冷的装饰，它们是小镇的记忆库，是居民们出门便能读到的家族相册。这种奇妙的沉浸感，让你觉得自己不只是游客，更像一个偶然闯入了某本立体故事书的读者，每一个转角都可能翻开新的一页。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你从马德里喧嚣的车流中抽身，沿着A-5号公路向南不过半小时，世界陡然慢了下来。当导航提示你已进入纳瓦尔卡内罗时，迎接你的不是宏伟的纪念碑，而是一种包裹全身的、沉静而温暖的气息。空气里混杂着刚出炉的面包香、附近酒吧飘来的淡淡咖啡醇香，还有一种属于卡斯蒂利亚平原的、干燥而干净的泥土味。这里的声音是生活本身谱写的：广场上老人们坐在长椅上用低沉而快速的西班牙语聊天的碎音，拱廊下店铺老板开关木门时铰链发出的悠长“吱呀”声，以及远处教堂偶尔传来的、并不急促的钟鸣。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你的目光会不由自主地被那个巨大的主广场——塞哥维亚广场——所吸附。它不像欧洲许多精心雕琢的广场那般具有压迫性的美感，反而像一块被岁月盘磨得温润的巨石，坦然地铺陈在大地上。广场四周，是它最迷人的标志：连绵不断的木制拱廊。那些粗壮的、漆成深褐色或原木色的立柱，稳稳地托起一片片陶瓦铺就的斜顶，在石板地面上投下一道道深邃而清凉的阴影走廊。走在拱廊下，光影在你身上明明灭灭，仿佛穿行在时间的肋骨之间。廊下是小镇跳动的心脏：古老的五金店、飘着油墨香的报刊亭、挂着火腿的酒吧、面包房……当地人在这里完成他们一天中最重要的社交与采买。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但纳瓦尔卡内罗还有一个更奇妙的魔法，它把历史“画”给你看。当你抬起头，不再仅仅注视商铺和行人，你会发现广场周围乃至许多小巷的墙壁上，布满了巨大而精美的错视画。一幅画可能再现了1643年腓力四世国王在此举行婚礼的盛大场景，贵族马车仿佛正从墙壁里驶出；另一幅则描绘了传统的葡萄收获节，欢庆的人物栩栩如生，几乎能听到他们的笑声。这些壁画不是冰冷的装饰，它们是小镇的记忆库，是居民们出门便能读到的家族相册。这种奇妙的沉浸感，让你觉得自己不只是游客，更像一个偶然闯入了某本立体故事书的读者，每一个转角都可能翻开新的一页。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`纳瓦尔卡内罗`} />
+                <InfoRow label="英文名称" value={`Navalcarnero`} />
+                <InfoRow label="正式名称" value={`Navalcarnero`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`马德里`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座见证了西班牙皇室婚礼（腓力四世）并完美保留了卡斯蒂利亚乡村城镇原始肌理与生活方式的活化石。`} />
+                <InfoRow label="建筑特色" value={`以宏大的主广场为核心，环绕着带有古朴木制立柱和瓦片顶棚的连拱廊，沿街房屋外立面上遍布充满故事性的巨幅错视画。`} />
+                <InfoRow label="建筑风格" value={`卡斯蒂利亚乡村民用建筑风格，深受哈布斯堡王朝时期建筑影响，简洁、实用而厚重。`} />
+                <InfoRow label="文化价值" value={`这里是马德里自治区“错视画艺术之路”上的重要一站，其壁画不仅美化市容，更是一部绘在墙上的地方编年史，生动传承了当地的历史记忆与民俗文化。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。主广场及周边拱廊下的商店、酒吧营业时间通常为上午9点至晚上11点，部分店铺可能在下午2点至5点有午休。市政厅等官方建筑通常在工作日（周一至周五）上午9点至下午2点开放接待。建议避开周日，因大部分服务设施可能歇业。`} />
+              <InfoRow label="门票价格" value={`进入小镇本身无需门票。镇上主要的教堂（La Asunción de Nuestra Señora）可免费入内参观。若参观小镇的葡萄酒博物馆（Museo del Vino de Navalcarnero），门票约为2-3欧元，具体价格可能随展览调整。65岁以上长者及12岁以下儿童通常有折扣。`} />
+              <InfoRow label="地址" value={`Plaza de Segovia, 1, 28600 Navalcarnero, Madrid, Spain`} />
+              <InfoRow label="交通方式" value={`从马德里出发最为便捷。在马德里南部的“Méndez Álvaro”公交枢纽站，乘坐522路或526路公交车，车程约50分钟至1小时，票价单程约4欧元，班次密集，高峰时段每15-20分钟一班，可上车购票。从马德里阿托查火车站乘坐C-5号线郊区火车至“Móstoles-El Soto”站，出站后换乘522路公交车，总耗时约1小时15分钟。自驾则沿A-5高速公路向南行驶约30公里，从22号出口下高速，有明显路标指示，小镇周边有免费公共停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "纳瓦尔卡内罗的故事，始于一段逃离与追寻。它的名字源自古语，意为“羊群之地”或“多石之地”，最初是附近更古老城镇的牧民们寻找新牧场时建立的定居点。但真正将它刻入西班牙史册的，是1643年11月一个寒冷的日子。当时，年轻的国王腓力四世正深陷三十年战争的泥潭，急需巩固国内政治联盟。他选择在这个远离马德里宫廷耳目、相对僻静的小镇，与表妹玛丽安娜·德·奥地利举行婚礼。你可以想象，当国王的车驾驶入这个尘土飞扬的广场时，是怎样的景象：整个小镇的木质廊柱恐怕都挂上了临时搜罗来的挂毯，本地乡绅和农夫们挤在广场上，目瞪口呆地望着这场极尽奢华的皇家仪式。这场婚礼没有改变欧洲的格局，却像一颗时间胶囊，将哈布斯堡王朝最后的辉煌瞬间，永久地封存在了纳瓦尔卡内罗的集体记忆里，也为它日后在墙壁上作画的传统，埋下了最华丽的第一笔素材。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，王室的荣光并未带来持久的繁荣。随后的几个世纪，小镇和卡斯蒂利亚高原上的许多地方一样，经历了瘟疫、饥荒和沉寂。它的建筑没有资金进行大规模巴洛克或新古典主义的改造，反而因祸得福，将十六、十七世纪那种朴实无华、以功能性为主的乡村建筑风貌原汁原味地保存了下来。那些支撑拱廊的粗壮木柱，那些简单抹上白灰或赭石色涂料的墙壁，都凝固在了旧时光里。小镇的生活围绕着农业和畜牧业缓缓流淌，广场是交易市场，教堂是精神中心，拱廊是遮风避雨的社交厅。这种近乎停滞的发展，让它成为工业时代浪潮下一块未被冲刷的鹅卵石。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转变以一种艺术的方式悄然到来。二十世纪后期，随着人们对文化遗产和乡土认同的重新珍视，纳瓦尔卡内罗的居民和当地艺术家们开始思考，如何在不破坏古镇风貌的前提下，为它注入新的生命力。于是，“错视画”计划应运而生。这不是一时兴起的涂鸦，而是一项深思熟虑的文化复兴工程。艺术家们研究地方档案，走访长者，挖掘从罗马时代、摩尔人时期、天主教双王时代到腓力四世婚礼乃至近代民俗的所有历史片段。然后，他们用高超的透视和绘画技巧，将这些故事“安装”在建筑物最合适的墙面上。一幅关于古代牧羊人的画，可能就出现在曾经的羊圈外墙上；描绘传统“Botijo”陶罐节日的画，则位于老陶器作坊的旧址。绘画不仅美化了环境，更成了一场持续进行的、全民参与的地方史教育。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，漫步在纳瓦尔卡内罗，你看到的是一个层次分明的“考古现场”。最底层是它中世纪晚期的城镇规划与砖石结构；之上是哈布斯堡时期赋予它的历史高光时刻与建筑基调；而最鲜活、最生动的那一层，则是这些覆盖在表面、不断与过往对话的错视画壁画。它们让历史从书本和档案中走出来，变得可触摸、可对视，也让这座小镇在全球化浪潮中，牢牢握紧了自己独一无二的身份名片。它不曾是帝国权力的中心，却成为了保存卡斯蒂利亚灵魂最完整的容器之一。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在一个晴朗的 weekday（周二至周四为佳）早晨10点左右抵达，此时阳光正好，游客稀少，本地生活刚刚苏醒。整个深度游览需要5-6小时，节奏宜慢不宜快。我们的路线将以主广场为绝对核心，像波纹一样向外扩散，先感受广场的宏伟与生活气息，再深入拱廊和壁画细节，接着探索周边街道和教堂，最后在黄昏时分回到广场，体验昼夜交替的魅力。这样的安排能让你由面到点，再由点及面，全方位沉浸在小镇的时空维度中。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`午餐时间（下午2点至4点）很多餐厅非常忙碌，建议要么提前一点（1:30）要么稍晚一点（3:30）前去，才能获得更悠闲的用餐体验。小镇地面多为石板路，请务必穿着舒适平坦的鞋子。尊重当地居民隐私，错视画很多位于民居外墙上，拍照时请避免将住户的窗户或阳台内部摄入镜头。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在镇外免费停车场后，沿着种有梧桐树的小路漫步，让第一眼看见塞哥维亚广场全貌的震撼感毫无防备地击中你`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`先别急着细看，在主广场中央随便找一张长椅坐下，花十分钟纯粹地观察：看鸽子如何掠过拱廊的瓦顶，看送货员如何与酒吧老板寒暄，让自己融入这个空间的呼吸节奏`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`起身开始探索北侧拱廊，用手指轻轻触摸那些被无数人倚靠过、光滑冰凉的木柱，并抬头逐一辨认拱廊内侧天花板下那些记载着行业标志的古老木雕`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着广场东侧行走，专门寻找外墙上的大型错视画，尤其要找到那幅著名的“腓力四世婚礼图”，试着从画中人物的服饰和表情里想象当年的喧嚣`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从广场东南角转入狭窄的“Mayor”街，这里墙壁上的壁画主题更为民间，留意那幅描绘妇女们在河边洗衣的巨大画面，仿佛能听到潺潺水声与谈笑声`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观完所有心仪的壁画后，走进广场西侧的圣母升天教堂，让眼睛适应内部昏暗的光线，静静欣赏那个精美绝伦的巴洛克式镀金祭坛`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在下午两点左右的西班牙午餐时间，选择一家拱廊下的传统餐厅，点一份当地特色的烤乳羊或炖菜，就着一杯纳瓦尔卡内罗本地葡萄酒慢慢享用`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后不必急着离开，可以选一家广场边的咖啡馆，点一杯咖啡或雪莉酒，坐在室外，看阳光逐渐拉长柱廊的影子，直到金色的黄昏为所有错视画披上最后一道完美的高光`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`塞哥维亚广场东南角仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点到六点，太阳西斜时，站在广场东南角向西北方向拍摄，可以将宏伟的木制连拱廊、广场上的行人以及背景的教堂钟楼全部纳入画面，光影对比极具层次感`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“国王婚礼”错视画前的人物互动`}</h4>
+                  <p className="text-sm text-gray-700">{`请你的同伴站在那幅大型历史壁画前，做出与画中人物自然互动的姿势（如抬头仰望国王马车），摄影师从侧面稍远距离拍摄，能将真人完美融入画中场景，产生穿越时空的趣味效果`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`拱廊下的纵深走廊`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一条光线斑驳的拱廊通道，蹲下放低机位，对准地面被岁月打磨光滑的石板路和一根根重复的立柱，拍摄出强烈的透视纵深感，最佳时间是正午阳光直射时，廊内外的明暗对比最戏剧化`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣母升天教堂内部祭坛细节`}</h4>
+                  <p className="text-sm text-gray-700">{`关闭闪光灯，将相机感光度调高，在教堂内侧翼找一个稳固的支撑点，拍摄巴洛克祭坛上繁复精美的金色雕花与圣母像，柔和的天窗光线会让照片充满神圣静谧的氛围`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄错视画时，尽量选择正面角度，以保证壁画透视不变形，画面更真实震撼。许多壁画位于街角，拍摄时请注意来往车辆，安全第一。卡斯蒂利亚的阳光非常强烈，建议随身携带一块小型反光板，用于给人物面部补光，尤其是在拱廊的阴影下拍摄时。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`广场灵魂住所`}</h4>
+                  <p className="text-sm text-blue-800">{`直接位于塞哥维亚广场拱廊之上的一家小型精品酒店，房间窗户推开即是广场全景，夜晚入眠时能听到小镇最轻柔的呼吸声，清晨则在咖啡香中醒来`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`田园诗休养地`}</h4>
+                  <p className="text-sm text-green-800">{`坐落在镇外不远橄榄园中的一所乡村别墅，由古老农舍改造，带有私人花园和泳池，极致安静，星空璀璨，是体验卡斯蒂利亚乡村宁静夜晚的完美选择`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`历史宅邸沉浸`}</h4>
+                  <p className="text-sm text-yellow-800">{`一栋经过精心修复的17世纪贵族宅邸，内部保留了原始的石墙、木梁和瓷砖地板，现代舒适的设施与古朴的家具交融，让你住在活的历史博物馆里`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`经济友好驿站`}</h4>
+                  <p className="text-sm text-purple-800">{`由本地家庭经营的舒适民宿，位于一条安静的步行小巷，女主人会热情地为你准备丰盛的卡斯蒂利亚风格早餐，并提供最地道的游玩建议，像回家一样亲切`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果选择住在镇上，特别是广场周边，请做好心理准备，周末夜晚（尤其是夏季）广场可能比较热闹，酒吧营业到较晚，喜欢绝对安静的游客建议选择镇外住宿。小镇治安非常好，但老房子隔音可能一般，这是体验的一部分。旺季（五月节和九月葡萄收获节期间）住宿非常紧张，务必提前数月预订。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开纳瓦尔卡内罗时，我背包里没有多出任何一件纪念品，但心里却被塞得满满的。那种充实感，不是来自于征服了某个著名地标，而是源于一种深刻的“融入”与“理解”。在这里，历史不是锁在玻璃柜里需要费力解读的文物，而是你走路时脚下的石板，乘凉时依靠的木柱，一抬头就与你四目相对的墙上的故事。它用一种最亲切、最直观的方式，完成了文化与旅人之间的对话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在一切都在追求“更快”、“更炫”的今天，纳瓦尔卡内罗的存在，像一句温柔的提醒。它告诉我们，深度旅行真正的宝藏，往往不在人头攒动的世界遗产名录首页，而在这些依然在认真呼吸、固执地用自己方式讲述故事的生活现场。它让你放慢脚步，打开所有感官，去触摸木头的纹理，去辨识壁画上的细节，去品尝一杯酒里风土的味道，去和广场上晒太阳的老人交换一个微笑。这里是卡斯蒂利亚的灵魂，一个离马德里只有一步之遥，却保存了时间另一个维度的珍贵角落。每一位厌倦了浮光掠影、渴望与旅行目的地产生真实情感连接的旅人，都应该来这里，让这座用木头、石头和色彩筑成的小镇，为你上一堂关于时间、记忆与生活之美的，静谧而深刻的课。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/tarazona-old-town-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    塔
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">塔拉索纳老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tarazona</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/girona-jewish-quarter" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    赫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">赫罗纳犹太区</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Girona Jewish Quarter</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/olvera-white-hilltop-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔韦拉</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Olvera</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

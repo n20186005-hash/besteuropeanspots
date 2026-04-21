@@ -1,0 +1,238 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '圣纳帕 Ayia Napa｜不止是派对之都，探秘千年海蚀奇观与岩凿墓穴 - 最佳欧洲景点',
+  description: '说实话，在听到“Ayia Napa”这个名字时，我脑子里蹦出的全是电音节奏、沙滩派对和彻夜狂欢的模糊画面。直到我的脚步真正离开那片喧嚣的主海滩，向东走去，这个地中海岸边小镇才向我展露出它截然不同、甚至有些神圣的沉默一面。空气中的咸味依旧，但震耳的音乐渐渐被海浪拍打岩石的、有节奏的轰鸣所取代，一种空旷',
+}
+
+export default function AyiaNapaSeaCavesAndMakronissosPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '塞浦路斯', href: '/destinations/europe' },
+            { label: '法马古斯塔区', href: '/destinations/europe' },
+            { label: '圣纳帕', href: '/attractions/ayia-napa-sea-caves-and-makronissos' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`圣纳帕・Ayia Napa・塞浦路斯・法马古斯塔区`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，在听到“Ayia Napa”这个名字时，我脑子里蹦出的全是电音节奏、沙滩派对和彻夜狂欢的模糊画面。直到我的脚步真正离开那片喧嚣的主海滩，向东走去，这个地中海岸边小镇才向我展露出它截然不同、甚至有些神圣的沉默一面。空气中的咸味依旧，但震耳的音乐渐渐被海浪拍打岩石的、有节奏的轰鸣所取代，一种空旷而原始的寂静开始包裹你。
+首先迎接你的，是那片被称为“海蚀洞”的奇迹海岸。这里根本不像地球上的景色，倒像是某个被遗忘的巨人用奶油色的岩石随意捏造的雕塑花园。阳光是这里最伟大的魔术师，在正午时分，它垂直射入那些被海水掏空的洞穴深处，将海水映照得如同摇晃的液态翡翠，光芒在粗糙的岩壁上折射、碎裂，变成无数跳跃的光斑。你需要手脚并用地爬过一些岩石，当你探身进入一个洞穴的阴影时，瞬间的清凉和浓重的、带着海藻与千年岩石气息的味道扑面而来。耳边只有两种声音：洞外远处海浪持续的“哗——哗——”白噪音，以及洞内顶端偶尔滴下的水珠，落在下方小水洼里那一声清脆至极的“叮咚”。时间在这里，是被水滴和海浪计量的。
+而当你转向内陆不远处的马克罗尼索斯时，气氛变得更加肃穆。这里没有惊涛拍岸，只有风吹过低矮灌木的沙沙声，以及无边的、灼人的阳光。一片平缓的丘陵地上，散落着一个个方形的、深入岩石内部的开口。这不是自然的造物，这是人类之手留下的印记。弯下腰，钻进其中一个墓穴的入口，外面的世界瞬间被隔绝。昏暗的光线里，你能看到岩石被精心开凿出的壁龛、放置遗体的石台。指尖触摸到的是冰冷、粗糙的岩石内壁，那种触感直接连通着两千多年前的某个时刻——一个家族在这里安葬了他们的亲人，举行了某种我们已无从知晓的仪式。热闹的海滩派对与这片寂静的死者之城，直线距离不过几公里，却仿佛隔着整个文明的厚度。这种极致的对比，正是圣纳帕最震撼人心的核心魅力——它毫不掩饰地将生命的狂欢与死亡的宁静并置，让你在一天之内，同时体验地中海最鲜活的当下和最深邃的过去。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说实话，在听到“Ayia Napa”这个名字时，我脑子里蹦出的全是电音节奏、沙滩派对和彻夜狂欢的模糊画面。直到我的脚步真正离开那片喧嚣的主海滩，向东走去，这个地中海岸边小镇才向我展露出它截然不同、甚至有些神圣的沉默一面。空气中的咸味依旧，但震耳的音乐渐渐被海浪拍打岩石的、有节奏的轰鸣所取代，一种空旷而原始的寂静开始包裹你。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "首先迎接你的，是那片被称为“海蚀洞”的奇迹海岸。这里根本不像地球上的景色，倒像是某个被遗忘的巨人用奶油色的岩石随意捏造的雕塑花园。阳光是这里最伟大的魔术师，在正午时分，它垂直射入那些被海水掏空的洞穴深处，将海水映照得如同摇晃的液态翡翠，光芒在粗糙的岩壁上折射、碎裂，变成无数跳跃的光斑。你需要手脚并用地爬过一些岩石，当你探身进入一个洞穴的阴影时，瞬间的清凉和浓重的、带着海藻与千年岩石气息的味道扑面而来。耳边只有两种声音：洞外远处海浪持续的“哗——哗——”白噪音，以及洞内顶端偶尔滴下的水珠，落在下方小水洼里那一声清脆至极的“叮咚”。时间在这里，是被水滴和海浪计量的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你转向内陆不远处的马克罗尼索斯时，气氛变得更加肃穆。这里没有惊涛拍岸，只有风吹过低矮灌木的沙沙声，以及无边的、灼人的阳光。一片平缓的丘陵地上，散落着一个个方形的、深入岩石内部的开口。这不是自然的造物，这是人类之手留下的印记。弯下腰，钻进其中一个墓穴的入口，外面的世界瞬间被隔绝。昏暗的光线里，你能看到岩石被精心开凿出的壁龛、放置遗体的石台。指尖触摸到的是冰冷、粗糙的岩石内壁，那种触感直接连通着两千多年前的某个时刻——一个家族在这里安葬了他们的亲人，举行了某种我们已无从知晓的仪式。热闹的海滩派对与这片寂静的死者之城，直线距离不过几公里，却仿佛隔着整个文明的厚度。这种极致的对比，正是圣纳帕最震撼人心的核心魅力——它毫不掩饰地将生命的狂欢与死亡的宁静并置，让你在一天之内，同时体验地中海最鲜活的当下和最深邃的过去。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`圣纳帕`} />
+                <InfoRow label="英文名称" value={`Ayia Napa`} />
+                <InfoRow label="正式名称" value={`Ayia Napa`} />
+                <InfoRow label="国家" value={`塞浦路斯`} />
+                <InfoRow label="城市" value={`法马古斯塔区`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一处将史前人类墓葬文明与大自然鬼斧神工完美结合的罕见之地。`} />
+                <InfoRow label="建筑特色" value={`非人造建筑，其特色在于由海浪与时光共同雕琢出的奇幻洞穴、石拱与岩层，以及古代人类在岩石上开凿出的永久性墓穴。`} />
+                <InfoRow label="建筑风格" value={`自然侵蚀地貌与古希腊/罗马时期的岩凿墓穴建筑风格。`} />
+                <InfoRow label="文化价值" value={`见证了塞浦路斯岛从史前时期到早期基督教时代的人类活动与生死观念，是地质史与人类文明史的立体教科书。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`海蚀洞区域全天24小时开放，可自由探索；马克罗尼索斯（Makronissos）墓穴群考古遗址的官方区域通常在日出至日落期间开放，具体围栏入口处可能有信息牌，建议白天游览。无季节性关闭，但夏季强烈建议清晨或傍晚前往以避免酷热。`} />
+              <InfoRow label="门票价格" value={`完全免费。无论是海岸线的海蚀洞群，还是马克罗尼索斯墓穴群，目前均不收取任何门票费用，属于开放的自然资源与考古遗址。`} />
+              <InfoRow label="地址" value={`海蚀洞主要区域：Ayia Napa Sea Caves, Cape Greco, Ayia Napa, Famagusta
+马克罗尼索斯墓穴群：Makronissos Tombs, Ayia Napa, Famagusta`} />
+              <InfoRow label="交通方式" value={`从最近的拉纳卡国际机场出发，最便捷的方式是租车自驾。沿A3公路向东行驶约45分钟即可抵达圣纳帕镇中心。从镇中心前往海蚀洞，可沿“Cape Greco”路标行驶约10分钟；墓穴群位于镇西约3公里处，沿“Makronissos”方向有路标。若乘坐公共交通，从圣纳帕镇中心有前往“Cape Greco”方向的零星巴士，但班次较少，且下车后仍需步行较远，强烈建议自驾或租用四轮摩托车以获得最大探索自由。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这片土地的故事，得从远比人类出现更早的时候说起。我们现在看到的这些柔软如海绵、却又坚硬如骨骼的石灰岩，形成于数百万年前的海底。地壳运动将它们托举出海面，随后，真正的雕刻师——地中海的海浪与风雨——开始了它们缓慢而持久的工作。千年万载，海浪寻找着岩石的每一条薄弱缝隙，日夜不息地冲刷、侵蚀、掏空。风则像最耐心的砂纸，打磨着岩石的表面。于是，拱门诞生了，巨大的“天窗”被凿开了，迷宫般的洞穴网络形成了。在人类到来之前，这里已经是一个充满奇幻光影和回声的自然圣殿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最早被这里吸引的，或许正是史前的人类。马克罗尼索斯那些岩凿墓穴，考古学家将它们的起源追溯到古希腊时期，甚至更早的塞浦路斯古风时代（公元前8-5世纪）。想象一下，当时的居民划着船沿着海岸线寻找安身立命之所，他们看到了这片易于开采的石灰岩丘陵。对于他们来说，坚硬的岩石意味着永恒。将亲人的遗体安置在岩石深处，远离潮湿和野兽，是一种庄严的告别，也是对来世的一种物质寄托。这些墓穴往往家族共用，一代又一代人安息在同一个岩石空间里，形成了一个地下的、沉默的家族谱系。后来，罗马人来了，早期基督徒也可能继续使用或改造过部分墓穴。这些简单的石室，没有辉煌的壁画或陪葬品，却更直接地诉说着普通人对生死最基本的理解和尊重。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转到中世纪。圣纳帕的名字“Ayia Napa”源自一段传说：一位猎人在这片茂密的森林（“Napa”在希腊语中有森林山谷之意）中发现了一幅圣母圣像，于是在一个洞穴旁修建了一座修道院，即今天镇中心那座著名的圣纳帕修道院。而海岸边的这些天然洞穴，在动荡的年代里，很可能扮演过更现实的角色——海盗的藏身之所、躲避袭击的临时避难处，或是走私者的秘密港湾。海浪声掩盖了所有秘密的交谈，错综复杂的洞穴提供了完美的逃脱路线。自然的奇观，就这样与人类的冒险、恐惧和生存本能交织在一起。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "近代以来，尤其是上世纪后期，圣纳帕因为其美丽的沙滩而迅速转变为欧洲知名的度假胜地，派对文化成了它的新标签。而海岸岩石奇观和古老墓穴，一度只是资深旅行指南书里不起眼的脚注。值得庆幸的是，随着人们对深度旅游体验的追求，这些沉默的见证者重新获得了关注。它们没有被圈起来做成昂贵的景点，依然以一种近乎野生的状态存在着。你可以自由地攀爬、探索、触摸历史与自然本身。今天，当你在日落时分看到一个年轻人安静地坐在海蚀洞的悬崖边，而不是在酒吧街狂饮时，你就知道，圣纳帕的灵魂，正在这古老的岩石与海浪之间，悄然回归其最本真、最深邃的平静。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的圣纳帕深度一日游，关键在于“反向操作”和“追随光影”。建议一大早就出发，先去内陆的马克罗尼索斯墓穴群。清晨的阳光角度低斜，能为墓穴入口投射出富有戏剧性的阴影，气温也最凉爽宜人。在这里花费大约一个半小时，沉浸于历史的宁静。之后，驱车前往海蚀洞区域，大约在上午十点左右抵达。此时阳光已经足够明亮，可以开始探索海岸线，但午间的顶光即将来临。你可以先在外围的岩石上徒步，大约在中午最热的时候，正好躲进某个巨大的海蚀洞穴里午餐（自带简餐和水），享受天然的空调和梦幻的光影秀。下午三四点后，阳光再次变得柔和，是攀爬拍照和探索更隐蔽洞穴的黄金时间。一定要留到日落前，这是整个旅程的高潮，金色的光芒会将整个岩石海岸染成蜂蜜色。这样的安排既避开了酷热，又捕捉到了一天中最美的光线变化，节奏张弛有度。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿结实防滑的徒步鞋或橡胶底运动鞋，岩石表面经常被海水打湿，非常滑。除了防晒霜，务必携带充足的饮用水，整个海岸线几乎没有遮阴处和补给点。尽量避免在中午最晒的时候进行长距离的岩石徒步，以防中暑。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在清晨清冽的空气中走向马克罗尼索斯墓穴群，踩着沙沙作响的碎石小路，惊起几只蜥蜚。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`弯腰进入一个保存完好的岩凿墓室，让眼睛适应昏暗，用手电筒的光束缓缓扫过那些两千多年前人工开凿的平整壁龛。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`站在墓穴群的高处回望，看到远处湛蓝的地中海与近处这片黄褐色的死亡之城形成的鲜明对比。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`开车抵达海蚀洞海岸，首先被那座巨大的天然岩石拱门震撼，听着海浪从下方隧道穿过的轰隆回响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一个宽阔的洞穴钻进去，坐在干燥的沙地上，看着洞口处阳光将海浪的波纹反射到洞顶，形成流动的光之壁画。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`小心翼翼地爬过一片光滑的岩石区，发现一个隐蔽的、只能容纳一两人的小海蚀窗，趴着看脚下碧蓝的海水在岩洞里打旋。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在傍晚时分，找到一个朝西的悬崖边坐下，静静等待太阳像一颗巨大的咸蛋黄，坠入被海蚀柱剪影分割的地平线。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`天然岩石拱门下的仰拍视角`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，站在拱门内侧的阴影里，向外拍摄被拱门框住的碧海蓝天，等待一艘小船或一个剪影行人经过画框，增添故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`洞穴深处的向外拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个有水潭的洞穴，在正午阳光直射水潭时，将相机贴近水面，拍摄洞口倒映在水中的完美圆形光斑和扭曲的岩石轮廓。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`马克罗尼索斯墓穴入口的框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，利用一个墓穴的方形入口作为画框，聚焦于框内远处的现代度假酒店或风车，形成古老与当代的时空对话。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“爱之桥”岩石上的广角全景`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，爬上那个被称为“爱之桥”的薄薄石梁（注意安全），用广角镜头拍摄脚下深邃的海沟和远处被夕阳染成金红色的层层岩壁。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`隐蔽岩池的人物剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`找到一个小而深的、与大海相连的岩池，让同伴坐在池边，在日落后的蓝调时刻拍摄其背对深蓝水面的剪影，充满静谧与神秘感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`建议携带广角镜头以捕捉洞穴的宏伟和海岸线的开阔，偏振镜可以有效减少岩石表面的反光并让海水颜色更饱和。无人机飞行需谨慎，此地海风多变，且需尊重其他游客的隐私与宁静。切勿为了拍照在湿滑的岩石边缘做出危险动作。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在圣纳帕镇中心边缘的家庭式公寓，带一个小厨房，晚上可以去本地市场买新鲜的海鲜自己烹饪，阳台上能吹到带着淡淡咸味的舒爽晚风。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择Cape Greco国家森林公园附近的独栋石屋民宿，被地中海灌木丛环绕，夜晚安静得只能听到虫鸣，清晨在屋顶露台能看到第一缕阳光照亮远方的海蚀崖。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`入住圣纳帕湾南侧悬崖顶端的五星级设计酒店，拥有无边泳池仿佛与地中海相连，房间的落地窗正对日落方向，泡在浴缸里就能欣赏一场私人海上落日典礼。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`潜水爱好者基地`}</h4>
+                  <p className="text-sm text-purple-800">{`海岸线附近专为潜水者服务的精品酒店，提供直接前往海蚀洞潜点的船只，晚上可以在酒店酒吧里和来自世界各地的潜水员交流洞穴潜水的惊奇见闻。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6-8月）是绝对旺季，务必提前数月预订，尤其是特色民宿和高端酒店。如果想获得更自由的探索节奏，强烈建议选择提供租车服务的住宿或自己提前租好车，因为核心景观区分散，公共交通不便。圣纳帕整体治安很好，但即使住在镇上，也请尽量选择远离主要酒吧街的住宿，以保证夜晚的休息质量。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开圣纳帕的那天傍晚，我最后一次坐在海蚀洞的岩石上。派对海滩的方向传来了隐约的音乐声，像这个世界遥远的背景音，而眼前，只有亘古不变的海浪声，一遍遍拍打着这些被它自己塑造出的奇异形状。那一刻我忽然觉得，圣纳帕就像一位拥有双重身份的老人：白天，他是活力四射的派对主人，慷慨地展示着阳光、沙滩和青春的欢愉；而到了清晨与黄昏，他便收起喧嚣，变回那位沉默的智者，带你走进他珍藏了千万年的记忆长廊，那里有岩石的年轮、墓穴的耳语和大海永恒的呼吸。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个一切都被加速、被扁平化的时代，这样的地方显得尤为珍贵。它拒绝被单一的定义框定。它强迫你慢下来，用脚去感受岩石的粗糙，用手去触摸历史的冰凉，用心去聆听自然最原始的节奏。它告诉你，一次真正的旅行，不仅仅是地理上的移动，更是感知维度的切换——从听觉的喧闹到宁静，从视觉的浮华到朴拙，从对当下的沉迷到对时间纵深的一瞥。如果你也厌倦了打卡式的观光，渴望在旅途中找到一片能让内心沉静下来的角落，那么，请一定要来圣纳帕，来找寻这片超越派对、直抵地心与远古的岩石海岸。它会给你一场与众不同的地中海记忆，一场关于永恒与瞬间的、沉默而壮美的对话。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/kolossi-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科洛西城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kolossi Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/tombs-of-the-kings-paphos" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    国
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">国王陵墓</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tombs of the Kings</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/omodos-wine-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥莫多斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Omodos</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

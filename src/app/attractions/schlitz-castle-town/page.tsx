@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '施利茨 Schlitz｜探访德国鲜为人知的“城堡之镇”，在一座山丘上邂逅五座骑士城堡的童话 - 最佳欧洲景点',
+  description: '车子刚转过一个弯，那片景象就毫无征兆地撞进了眼帘——不是一座，不是两座，而是一簇童话般的尖塔、山墙和防御塔楼，紧密地拥抱着一个翠绿的山丘顶部。那一瞬间，你甚至会怀疑导航是不是出了错，把某个迪士尼乐园的布景搬到了黑森州宁静的乡村里。但随即，空气中那股清冷、略带潮湿的石头气味，还有远处传来的、真实的教堂',
+}
+
+export default function SchlitzCastleTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '施利茨', href: '/destinations/europe' },
+            { label: '施利茨', href: '/attractions/schlitz-castle-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`施利茨・Schlitz・德国・施利茨`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子刚转过一个弯，那片景象就毫无征兆地撞进了眼帘——不是一座，不是两座，而是一簇童话般的尖塔、山墙和防御塔楼，紧密地拥抱着一个翠绿的山丘顶部。那一瞬间，你甚至会怀疑导航是不是出了错，把某个迪士尼乐园的布景搬到了黑森州宁静的乡村里。但随即，空气中那股清冷、略带潮湿的石头气味，还有远处传来的、真实的教堂钟声，会立刻把你拉回现实。这就是施利茨，一个低调到甚至有些“隐居”气质的小镇，却把整整五座中世纪城堡，像家族珍藏的珠宝一样，安然摆放在同一座山丘上。
+停好车，沿着缓缓上升的小路走向老城。脚下是凹凸不平的玄武岩铺路石，被几个世纪的雨水和马蹄打磨得光滑而富有光泽。你的第一站很可能是那座最显眼的 Hinterburg，它厚重的方形主塔楼沉默地矗立着。走近时，你会听到风穿过塔楼箭孔发出的细微呜咽声，混合着附近花园里玫瑰丛的窸窣声。这里没有大批旅游团的喧嚣，只有本地居民推着自行车叮铃铃地经过，或是咖啡馆露台上传来瓷器轻轻碰撞的脆响。城堡不是被圈起来的博物馆，而是小镇生活密不可分的一部分——市政厅在一座城堡里，图书馆在另一座，而有些城堡的庭院，干脆就是居民们傍晚散步遛狗的后花园。
+最迷人的时刻在黄昏。当夕阳把暖金色的光芒斜斜地打在Vorderburg城堡文艺复兴风格的精美山墙上时，阴影被拉得极长，每一块砖石的纹理都凸显出来。你站在 Ottoburg 城堡的矮墙边向下望，可以看到整个老城红色的屋顶层层叠叠，像一片温暖的波浪，被古老的城墙环抱着。炊烟的气息混合着某户人家后院烧烤的香味袅袅升起。这时你会恍然大悟：施利茨的魅力不在于某座单一的、宏伟的建筑，而在于这种难以置信的整体性。它是一幅完整保存下来的中世纪生活画卷，城堡、城墙、民居、教堂和蜿蜒的小巷共同构成了一个仍在呼吸的有机体。在这里，历史不是教科书上的章节，而是你指尖触碰到的冰凉石墙，是脚下石缝里钻出的顽强青草，是视线所及处那浑然一体的、穿越了时间的宁静与坚固。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子刚转过一个弯，那片景象就毫无征兆地撞进了眼帘——不是一座，不是两座，而是一簇童话般的尖塔、山墙和防御塔楼，紧密地拥抱着一个翠绿的山丘顶部。那一瞬间，你甚至会怀疑导航是不是出了错，把某个迪士尼乐园的布景搬到了黑森州宁静的乡村里。但随即，空气中那股清冷、略带潮湿的石头气味，还有远处传来的、真实的教堂钟声，会立刻把你拉回现实。这就是施利茨，一个低调到甚至有些“隐居”气质的小镇，却把整整五座中世纪城堡，像家族珍藏的珠宝一样，安然摆放在同一座山丘上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "停好车，沿着缓缓上升的小路走向老城。脚下是凹凸不平的玄武岩铺路石，被几个世纪的雨水和马蹄打磨得光滑而富有光泽。你的第一站很可能是那座最显眼的 Hinterburg，它厚重的方形主塔楼沉默地矗立着。走近时，你会听到风穿过塔楼箭孔发出的细微呜咽声，混合着附近花园里玫瑰丛的窸窣声。这里没有大批旅游团的喧嚣，只有本地居民推着自行车叮铃铃地经过，或是咖啡馆露台上传来瓷器轻轻碰撞的脆响。城堡不是被圈起来的博物馆，而是小镇生活密不可分的一部分——市政厅在一座城堡里，图书馆在另一座，而有些城堡的庭院，干脆就是居民们傍晚散步遛狗的后花园。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最迷人的时刻在黄昏。当夕阳把暖金色的光芒斜斜地打在Vorderburg城堡文艺复兴风格的精美山墙上时，阴影被拉得极长，每一块砖石的纹理都凸显出来。你站在 Ottoburg 城堡的矮墙边向下望，可以看到整个老城红色的屋顶层层叠叠，像一片温暖的波浪，被古老的城墙环抱着。炊烟的气息混合着某户人家后院烧烤的香味袅袅升起。这时你会恍然大悟：施利茨的魅力不在于某座单一的、宏伟的建筑，而在于这种难以置信的整体性。它是一幅完整保存下来的中世纪生活画卷，城堡、城墙、民居、教堂和蜿蜒的小巷共同构成了一个仍在呼吸的有机体。在这里，历史不是教科书上的章节，而是你指尖触碰到的冰凉石墙，是脚下石缝里钻出的顽强青草，是视线所及处那浑然一体的、穿越了时间的宁静与坚固。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`施利茨`} />
+                <InfoRow label="英文名称" value={`Schlitz`} />
+                <InfoRow label="正式名称" value={`Schlitz`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`施利茨`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座小镇是德国保存最完好的中世纪城堡城镇典范之一，其独特的“五堡一城”防御格局在中欧范围内极为罕见。`} />
+                <InfoRow label="建筑特色" value={`五座独立的骑士城堡（Hinterburg, Vorderburg, Ottoburg, Schachtenburg, Niederburg）如棋子般错落有致地分布在山丘台地上，与带有完整城墙、塔楼和城门的老城区有机融合。`} />
+                <InfoRow label="建筑风格" value={`主体城堡建筑跨越了从坚固的罗马式晚期到更具装饰性的哥特式及文艺复兴风格的演变，而镇内木桁架房屋则主要是精致的文艺复兴晚期及巴洛克风格。`} />
+                <InfoRow label="文化价值" value={`它是一部活着的石砌编年史，生动展现了中世纪晚期德国贵族领地治理、骑士文化向市民社会过渡的完整图景。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城堡庭院、老城街道及大部分外部区域全天24小时开放。主要博物馆（ Hinterburg博物馆）开放时间为每年四月至十月的周二至周日上午10点至下午5点，冬季（十一月至三月）仅周末开放或需提前预约。五座城堡中仅 Hinterburg 和 Vorderburg 的部分区域定期向公众开放内部参观，导览团通常仅在周末下午2点举行，强烈建议出发前查看市政官网的最新公告。圣诞节期间及重大地方节日（如城堡节）开放时间会有变动。`} />
+              <InfoRow label="门票价格" value={`进入施利茨老城及城堡外部区域完全免费。Hinterburg 博物馆门票为成人5欧元，学生及65岁以上长者3欧元，家庭票（2大2小）12欧元。周末的城堡内部联合导览游票价约为15欧元/人，包含两座城堡的讲解，需在旅游信息中心提前购票。每年夏季的“施利茨城堡之夜”等特殊活动需单独购票，价格在25-35欧元不等。`} />
+              <InfoRow label="地址" value={`Schlitz, 36110 Schlitz, 德国`} />
+              <InfoRow label="交通方式" value={`从法兰克福国际机场（FRA）出发是最佳选择。在机场区域火车站乘坐区域快车（RE）或区域列车（RB）前往富尔达（Fulda）主火车站，车程约1小时15分钟，班次频繁（每小时2-3班）。抵达富尔达后，换乘前往阿尔斯费尔德（Alsfeld）或劳特巴赫（Lauterbach）方向的区域巴士（如Line 371），在“Schlitz Marktplatz”或“Schlitz Burg”站下车，巴士车程约35分钟，每小时1班。如果自驾，从法兰克福沿A66/A7高速公路驶向富尔达，再转B254国道，全程约1.5小时。小镇内所有景点步行可达，建议将车停在老城边缘的免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解施利茨为何如此独特，得把时钟拨回到近千年前。大约在公元9世纪，富尔达修道院——当时神圣罗马帝国境内最有权势的修道院之一——的院长们看中了这片位于肥沃富尔达河谷与茂密森林交界处的山丘。它的战略地位不言而喻：既能控制重要的商道，又能作为修道院广阔地产的前哨。最初的堡垒很可能只是木质的，但到了12世纪，坚固的石头建筑开始出现。最初的城堡核心，就是今天我们看到的 Hinterburg（后堡）的前身。它由富尔达修道院的院长们建造，并委托给忠诚的骑士家族“冯·施利茨”进行管理和守卫。这个家族的名字，最终成为了这片土地永恒的名称。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "有趣的故事从这里真正开始。随着时间的推移，“冯·施利茨”家族开枝散叶，但家族内部的财产继承却并非总是和睦。为了避免争端，或者更可能的是为了强化对这片关键领地的共同防御，这个家族的几个分支做出了一个非同寻常的决定：他们不争夺唯一的主堡，而是在同一座山丘顶部的有限区域内，各自建造自己的城堡！于是，从13世纪到16世纪，Vorderburg（前堡）、Ottoburg、Schachtenburg 和 Niederburg（下堡）相继在咫尺之遥的地方拔地而起。想象一下那个场景：叔侄兄弟比邻而居，各自拥有带塔楼和围墙的独立城堡，既能相互支援，又保持着一箭之地的微妙距离。这构成了施利茨举世无双的城市肌理，也是中世纪德国贵族家族结构和领地管理方式的鲜活化石。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这些城堡并非一直沐浴在和平之中。它们见证了无数的冲突，最严峻的考验来自十七世纪那场撕裂欧洲的三十年战争。1634年，凶悍的克罗地亚骑兵作为帝国军队的一部分洗劫了施利茨。战火几乎摧毁了小镇，五座城堡也遭到严重破坏。战争的创伤是深重的，但施利茨的筋骨未断。战争结束后，幸存下来的贵族家族和市民们以惊人的毅力开始了重建。我们今天看到的许多城堡建筑，特别是那些带有优雅文艺复兴窗框和华丽山墙的部分，大多是这场17世纪中叶大规模重建的成果。重建不是简单的复原，而是融入了新的时代审美，让哥特式的严峻与文艺复兴的优雅在同一个屋顶下共存。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "18、19世纪，当欧洲的许多城堡因失去军事价值而走向荒废时，施利茨的城堡却走上了另一条路。它们逐渐从纯粹的防御工事和贵族宅邸，转变为行政机构和公共生活空间。一座城堡成了地方法院，另一座成了档案室，还有的变成了私人住宅或学校。这种功能的和平转化，恰恰是施利茨得以完整保存的秘密。城堡没有被抛弃，而是被持续地使用和维护，融入了小镇日常的脉搏之中。即使是两次世界大战，这座隐藏在乡村深处的小镇也幸运地躲过了大规模的轰炸，使得这份从中世纪直接传承下来的遗产，几乎原封不动地交到了我们手中。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`理想的施利茨深度游览需要预留一整天，最佳方式是前一天下午抵达，住上一晚，第二天用完整的白天探索。建议游览从清晨（9点左右）开始，此时阳光柔和，游客稀少，你能独享城堡的宁静。整个路线是一个环线，从山谷的老城边缘开始，缓缓上山，依次探访主要的城堡和观景点，最后下山穿过老城中心，全程步行约4-5小时，节奏舒缓，留有充足的发呆、拍照和咖啡馆小憩时间。这样的安排既能领略城堡群的全景气势，又能深入巷陌感受细节，并在光线最美的黄昏时分，回到至高点欣赏金色夕阳下的古镇。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇周日和周一很多商店、博物馆甚至餐厅可能休息，务必提前查好目标地点开放状态。城堡内部导览游德语为主，可提前向旅游信息中心询问是否有英文资料或极少数安排的英语导览。穿着绝对舒适的步行鞋，因为上下山和古老的石头路面非常考验脚力。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从老城东侧的“上城门”开始，沿着古老的城墙遗址步道向上走，感受湿润的空气和鸟鸣，并逐步看到城堡群在山丘上展开的全景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先走进五座城堡中保存最完好、最具博物馆功能的Hinterburg（后堡），在其厚重的罗马式塔楼内部感受阴凉与寂静，细细观看展示本地历史的古老武器、家具和文献。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从Hinterburg的庭院出来，漫步到几步之遥的Vorderburg（前堡），欣赏它那立面装饰着精美石雕的文艺复兴风格主楼，并绕到城堡后方的小花园，那里是俯瞰老城屋顶波浪的绝佳地点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着铺满鹅卵石的“城堡路”向下，探访如今作为迷人酒店和餐厅的Ottoburg，在它爬满藤蔓的城墙下坐一会儿，想象骑士们曾经在此进出。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山穿过古老的“肉铺门”，进入被木桁架房屋包围的集市广场，在广场边的传统面包房买一个刚出炉的“施利茨拱顶蛋糕”品尝。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`拜访广场旁略显简朴但内部拥有精美晚期哥特式穹顶和祭坛的圣马格努斯教堂，感受市民信仰空间的宁静。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂北侧的小巷拐出，沿着一段保存完好的老城墙走到“水门”和磨坊区，看清澈的施利茨河如何自古至今推动着水车。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，在傍晚时分再次爬上山丘，选择在Niederburg城堡遗址旁的绿地长椅坐下，看着夕阳将对面几座城堡的轮廓依次点燃成金色，结束完美的一天。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`Hinterburg城堡塔楼下的拱门望向集市广场`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光能照亮拱门石壁的质感，同时将广场上的木桁架房屋和教堂塔楼作为纵深背景，构图极具故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`从镇外西北方向的田野小径回望`}</h4>
+                  <p className="text-sm text-gray-700">{`日出后一小时或日落前一小时，利用长焦镜头压缩空间，将五座城堡的塔楼和山墙叠加在一起，拍出它们密集如模型般的奇幻效果。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`Vorderburg城堡后方悬崖边的长椅处`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏金色时刻，以城堡石墙为前景框架，拍摄脚下老城连绵红瓦屋顶被暖光笼罩的全景，等待一两只飞鸟或一缕炊烟入镜。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣马格努斯教堂内祭坛侧面的小窗`}</h4>
+                  <p className="text-sm text-gray-700">{`正午阳光强烈时，光线会透过这扇小窗在古老的石地板上投下清晰的光斑，将窗棂的十字架形状与内部幽暗的祈祷氛围一同捕捉。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`老城墙“水门”旁的磨坊与水车`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨顺光环境下，拍摄施利茨河水推动古老木制水车的场景，以绿植和古老石桥为衬托，体现古镇的生命力。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用无人机在德国受到严格管制，在施利茨这样的历史城镇上空飞行基本不被允许，请勿尝试。拍摄居民或私人庭院时请保持礼貌，先微笑示意。室内教堂允许拍照，但请关闭闪光灯并保持绝对安静。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`沉浸式历史体验`}</h4>
+                  <p className="text-sm text-blue-800">{`直接下榻在Ottoburg城堡内改造的精品酒店，住在有裸露原始石墙和厚重木梁的房间里，清晨在城堡露台上享用早餐，感觉自己就是城堡的临时主人。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`温馨家庭之选`}</h4>
+                  <p className="text-sm text-green-800">{`位于老城中心一栋16世纪木桁架房屋里的家庭旅馆，老板娘会热情提供手绘的徒步地图，房间窗户正对着宁静的内院，晚上能听到教堂的报时钟声。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`现代舒适公寓`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于老城边缘一栋经过智能改造的谷仓内， loft风格的设计充满现代感，却拥有眺望城堡群的巨大落地窗，厨房设施完备，适合家庭或长住。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端隐秘度假`}</h4>
+                  <p className="text-sm text-purple-800">{`距离小镇几分钟车程、坐落在森林边缘的复古庄园别墅，提供Spa和 gourmet晚餐，极致安静，是探索一天后完美放松的奢华据点。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（尤其是七月城堡节期间）和秋季赏叶季节住宿非常紧俏，务必提前数月预订。老城内的住宿停车位有限，通常需停在指定公共停车场，预订时请确认停车安排。小镇治安极好，夜晚行走非常安全。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开施利茨许久后，脑海中挥之不去的，不是某一张具体的明信片风景，而是一种整体的、安宁的感觉。在这个一切都在追求更大、更高、更炫目的世界里，施利茨固执地保持着它的“小”与“完整”。它没有新天鹅堡那样的浪漫传奇，没有科隆大教堂那样的慑人尺度，但它拥有的是更为珍贵的东西：真实性。这份真实，源于它从未被当作一个标本封存起来，而是像一棵老树，虽然生长缓慢，却从未停止与四季、与生活在这里的人们共同呼吸。城堡的墙壁上既有冷兵器砍凿的痕迹，也有后来安装暖气管道时小心翼翼的钻孔。历史在这里不是层层剥离的断层，而是绵密交织的织物。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这或许正是我们这些现代旅人内心深处渴望的东西——一种连续的、可触摸的时空感。在施利茨，你能够用脚步轻易丈量从中世纪骑士到当代市民生活的全部半径。你会明白，所谓遗产，最好的保护方式不是供起来，而是温柔地使用它，让它继续在日光月华中变老，并承载新的记忆。它提醒我们，真正的力量往往来自于聚合与凝聚，就像那五座城堡，分开来看，每一座都算不得惊天动地，但当它们肩并肩地站在山丘上，与城墙和老屋连成一体时，便成就了任何宏伟单体建筑都无法替代的、一个活生生的世界的重量。如果你厌倦了打卡式的旅行，渴望一次能沉静下来、用皮肤去感受历史纹理的旅程，那么，请一定要来施利茨。它不会用喧嚣迎接你，但会用一整座山丘的沉默故事，温柔地填补你心中某个连自己都未曾察觉的空白。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/meersburg-castle-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    梅
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">梅尔斯堡旧堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Meersburg Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bad-wimpfen-im-tal" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    巴
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">巴特温普芬</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bad Wimpfen</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gengenbach-old-town-christmas" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    根
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">根根巴赫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gengenbach</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

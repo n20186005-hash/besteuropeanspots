@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '陶格夫皮尔斯要塞 Daugavpils Fortress｜沙俄巨型星形堡垒与罗斯科艺术圣殿的传奇共生 - 最佳欧洲景点',
+  description: '当你第一眼看到它，绝不会想到“艺术”这个词。巨大的、青灰色的砖墙像沉默的巨兽，匍匐在道加瓦河畔。汽车驶近，那些整齐划一的、带着拱形窗户的三层楼营房，以一种近乎冷酷的几何感压迫过来。空气里有种特别的清冷味道，混合了河水的湿润、老砖石缝隙里苔藓的土腥味，还有一种空旷之地特有的、无所阻挡的风的气息。四周太',
+}
+
+export default function DaugavpilsFortressMarkRothkoArtCentrePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '拉脱维亚', href: '/destinations/europe' },
+            { label: '陶格夫皮尔斯', href: '/destinations/europe' },
+            { label: '陶格夫皮尔斯要塞', href: '/attractions/daugavpils-fortress-mark-rothko-art-centre' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`陶格夫皮尔斯要塞・Daugavpils Fortress・拉脱维亚・陶格夫皮尔斯`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你第一眼看到它，绝不会想到“艺术”这个词。巨大的、青灰色的砖墙像沉默的巨兽，匍匐在道加瓦河畔。汽车驶近，那些整齐划一的、带着拱形窗户的三层楼营房，以一种近乎冷酷的几何感压迫过来。空气里有种特别的清冷味道，混合了河水的湿润、老砖石缝隙里苔藓的土腥味，还有一种空旷之地特有的、无所阻挡的风的气息。四周太安静了，只有你自己的脚步声在巨大的方形庭院里回荡，偶尔有鸟从高高的屋顶飞过，翅膀扑棱的声音被放大。你忽然意识到，这里曾经容纳过数千名士兵、战马和火炮，而如今，寂静是这里唯一的主人。
+但转折就藏在最厚重的历史门扉之后。走进那座曾经储存炮弹的老火炮库，时光的颗粒仿佛瞬间改变了质地。粗糙的砖墙还在，高耸的拱顶还在，但弥漫在空气中的，是松节油、亚麻布和崭新木地板温和的香气。自然光从高处精心设计的窗洞倾泻而下，在光滑的水磨石地面上投下清晰的光斑。这里就是马克·罗斯科艺术中心。看着那些巨大、色彩仿佛在颤动和呼吸的抽象画，被悬挂在曾经充满火药味的空间里，你会产生一种奇异的晕眩感。生于斯、长于斯（尽管幼年便离开）的罗斯科，其作品追求的精神崇高与内在光辉，竟以这种方式，回到了这个诞生于铁与血构想中的地方。
+这不仅仅是一个景点，它是陶格夫皮尔斯这座城市的脉搏。你会看到本地老人绕着要塞的土垒散步，那是他们一生的背景板；你会看到艺术系的学生带着素描本，坐在棱堡的斜坡上，对着古老的砖墙写生。周末，中心前的空地上可能会有小型的市集或露天音乐会，手风琴的声音在堡垒间飘荡，给冰冷的几何结构注入了一丝人间烟火。它的核心魅力，正是这种极致的反差与和解——最坚硬的军事外壳，包裹着最柔软、最寻求超越的艺术灵魂。你来这里，不是简单地看一个堡垒或一个美术馆，而是体验一场关于暴力与美、禁锢与自由、历史伤痕与当代治愈的、无声却震耳欲聋的对话。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你第一眼看到它，绝不会想到“艺术”这个词。巨大的、青灰色的砖墙像沉默的巨兽，匍匐在道加瓦河畔。汽车驶近，那些整齐划一的、带着拱形窗户的三层楼营房，以一种近乎冷酷的几何感压迫过来。空气里有种特别的清冷味道，混合了河水的湿润、老砖石缝隙里苔藓的土腥味，还有一种空旷之地特有的、无所阻挡的风的气息。四周太安静了，只有你自己的脚步声在巨大的方形庭院里回荡，偶尔有鸟从高高的屋顶飞过，翅膀扑棱的声音被放大。你忽然意识到，这里曾经容纳过数千名士兵、战马和火炮，而如今，寂静是这里唯一的主人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但转折就藏在最厚重的历史门扉之后。走进那座曾经储存炮弹的老火炮库，时光的颗粒仿佛瞬间改变了质地。粗糙的砖墙还在，高耸的拱顶还在，但弥漫在空气中的，是松节油、亚麻布和崭新木地板温和的香气。自然光从高处精心设计的窗洞倾泻而下，在光滑的水磨石地面上投下清晰的光斑。这里就是马克·罗斯科艺术中心。看着那些巨大、色彩仿佛在颤动和呼吸的抽象画，被悬挂在曾经充满火药味的空间里，你会产生一种奇异的晕眩感。生于斯、长于斯（尽管幼年便离开）的罗斯科，其作品追求的精神崇高与内在光辉，竟以这种方式，回到了这个诞生于铁与血构想中的地方。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这不仅仅是一个景点，它是陶格夫皮尔斯这座城市的脉搏。你会看到本地老人绕着要塞的土垒散步，那是他们一生的背景板；你会看到艺术系的学生带着素描本，坐在棱堡的斜坡上，对着古老的砖墙写生。周末，中心前的空地上可能会有小型的市集或露天音乐会，手风琴的声音在堡垒间飘荡，给冰冷的几何结构注入了一丝人间烟火。它的核心魅力，正是这种极致的反差与和解——最坚硬的军事外壳，包裹着最柔软、最寻求超越的艺术灵魂。你来这里，不是简单地看一个堡垒或一个美术馆，而是体验一场关于暴力与美、禁锢与自由、历史伤痕与当代治愈的、无声却震耳欲聋的对话。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`陶格夫皮尔斯要塞`} />
+                <InfoRow label="英文名称" value={`Daugavpils Fortress`} />
+                <InfoRow label="正式名称" value={`Daugavpils Fortress`} />
+                <InfoRow label="国家" value={`拉脱维亚`} />
+                <InfoRow label="城市" value={`陶格夫皮尔斯`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它是19世纪沙皇俄国为防御西方入侵而建造的、欧洲现存最庞大且保存最完好的星形防御要塞之一，冷战时期曾作为军事禁区，如今是文化与艺术重生的象征。`} />
+                <InfoRow label="建筑特色" value={`占地超过150公顷的巨型星形土垒与砖石结构复合体，拥有十座棱堡、深邃的壕沟和隐秘的地下通道网络，中心区域是规整的新古典主义军官建筑群。`} />
+                <InfoRow label="建筑风格" value={`主体为19世纪初盛行的新古典主义军事建筑风格，融合了功能至上的防御工事设计与帝国审美的庄严立面。`} />
+                <InfoRow label="文化价值" value={`这里是将沉重的军事遗产转化为当代艺术灵感的典范，更是抽象派大师马克·罗斯科（出生于此）的精神回归之地，形成了历史暴力与纯粹美学之间的深刻对话。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`要塞区域全天开放。马克·罗斯科艺术中心开放时间为周二至周日 10:00-18:00（夏季至20:00），每周一闭馆。请注意，冬季（11月至3月）部分户外区域可能因冰雪封闭，艺术中心开放时间可能缩短，建议出行前在其官网二次确认。重大节日如圣诞节、元旦及拉脱维亚独立日（11月18日）可能有特殊安排。`} />
+              <InfoRow label="门票价格" value={`进入要塞建筑群外围及公共区域免费。马克·罗斯科艺术中心常设展览门票：成人8欧元，学生及老人4欧元。家庭票（2大2小）15欧元。每周三下午最后两小时对所有访客免费。提供英语、俄语、拉脱维亚语导览服务，需提前预约，费用另计（约20-30欧元/团）。`} />
+              <InfoRow label="地址" value={`Rothko Art Centre, Daugavpils Fortress, Vienības iela 1, Daugavpils, LV-5401, Latvia`} />
+              <InfoRow label="交通方式" value={`从里加国际机场出发：最便捷方式是租车自驾，沿A6/E262公路向东行驶约230公里，车程约2.5-3小时，路况良好。公共交通：从里加中央火车站乘坐开往陶格夫皮尔斯的城际列车，班次频繁（约每小时一班），车程约3-3.5小时，票价约10-15欧元。抵达陶格夫pils火车站后，出站换乘7路或11路公交车至“Fortress”（要塞）站，约15分钟车程，或步行25-30分钟穿过道加瓦河上的桥即可抵达要塞入口。建议在里加火车站购买拉脱维亚铁路联票，或在车上向列车员购票。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事要从拿破仑战争后的欧洲地图讲起。沙皇亚历山大一世站在地图前，目光忧虑地投向西部边境。经历了与法兰西皇帝的惨烈大战后，他深知帝国的软肋。于是，一道旨意下达：要在西部边境线，建造一系列坚不可摧的“边境要塞群”，让任何来自西方的铁骑都望而却垣。陶格夫pils，这座位于道加瓦河畔的战略要冲，被选中了。从1810年开始，数以万计的农奴、士兵和工匠被征召至此，在沼泽与森林间，开始塑造这个庞大的土木砖石巨人。整整三十年，这项工程时断时续，但帝国的意志始终未改。最终，一座拥有十角星形轮廓、内部设施齐全的“城中城”诞生了。它能驻军五千，储备足够维持一年的粮草，深壕高垒，棱堡互为犄角，是那个时代军事工程的巅峰之作。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，讽刺的是，这座为战争而生的堡垒，在它建成后的近百年里，几乎没经历过真正意义上的炮火洗礼。它更像一个巨大的兵营和仓库，见证的是帝国日常的军事管理、士兵的枯燥生活，以及边境城市的兴衰。转机（或者说另一种形式的创伤）发生在一战和二战。它的战略价值终于被兑现，但方式是被反复易手——德军、苏军、拉脱维亚独立军、再次苏军……城墙上的弹孔至今可见，诉说着那段混乱而残酷的岁月。二战结束后，它落入了苏联手中，命运发生了最戏剧性的转变：它变成了一个封闭的军事技术学校，后来甚至成为苏联空军雷达部队的驻地。整个区域成为与世隔绝的禁区，在地图上是一片空白，本地居民也无法靠近。高墙之内，是另一个与外界平行的、充满纪律与监视的世界。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "冷战结束，苏联解体，拉脱维亚重获独立。庞大的要塞被遗弃了。军队撤走，留下空荡荡的营房、生锈的铁门和无数秘密文件化为的灰烬。整个90年代，它像一个被遗忘的巨兽骸骨，在风吹雨打中迅速衰败。本地人对其感情复杂——它既是压迫历史的象征，又是家乡地理上无法忽视的庞大存在。转机出现在新世纪。一位本地的文化学者，在翻阅资料时，再次注意到了那个名字：马克斯·罗斯科维茨——后来闻名世界为马克·罗斯科。这位抽象表现主义的巨匠，1903年就出生在陶格夫皮尔斯（当时叫德文斯克）的一个犹太家庭。一个大胆的念头产生了：为什么不将这个充满沉重历史记忆的地方，献给一位追求纯粹精神与色彩光晕的艺术家？" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这是一个近乎天才的救赎构想。获得罗斯科家族遗产委员会的认可是关键而艰难的一步。当委员会的成员亲自来到要塞，站在那座空旷的老火炮库里，他们被震撼了。粗粝的砖墙、巨大的空间、从天窗洒下的光线，与罗斯科晚年创作那些教堂系列画作时所追求的神圣、冥想氛围不谋而合。这不是一个精致的白色立方体画廊，这是一个有灵魂的“场域”。2003年，罗斯科百年诞辰之际，计划正式启动。经过漫长的修复、改造和筹款，2013年，马克·罗斯科艺术中心在这座老火炮库中揭幕。这不是一个简单的纪念馆，它是一个活跃的国际当代艺术平台，永久陈列着罗斯科的六幅珍贵原作（这是东欧唯一的罗斯科原作收藏地），并不断举办前沿展览。历史的车轮在这里完成了一个惊人的回旋：为战争而建的空间，最终被献给了人类最非功利、最追求和平与内在启示的艺术形式。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美的深度体验需要一整天时间。建议在上午10点前抵达，这时晨光正好，游客稀少，你能充分感受要塞清晨的静谧与庄严。整体游览节奏应是“由外向内，由历史向艺术，再回归日常”。上午专注于探索庞大的户外防御工事体系，理解其军事逻辑；中午在艺术中心内部沉浸，让罗斯科的色彩洗礼感官；下午则穿梭于修复后的军官住宅街巷，并登上棱堡俯瞰全城，最后在黄昏时分离开，目睹夕阳为这座星形堡垒镀上金边。这样的安排让你能从宏观到微观，从历史沉思到艺术感悟，完整地捕捉到此地的多层灵魂。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适、适合走土路和碎石路的鞋子，探索棱堡斜坡和壕沟区域时你会感谢这个决定。艺术中心内严禁用闪光灯拍摄罗斯科原作，强烈的光线会不可逆地损害那些脆弱的色彩层。冬季来访时，户外地面可能结冰极滑，部分区域会封闭，但雪覆星形堡垒的景象极为震撼，且艺术中心内温暖如春，是淡季静心观赏的好时机。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从正门尼古拉耶夫门进入，沿着笔直的中心大道前行，让两旁一模一样的黄色营房建筑像沉默的仪仗队般将你引向深处。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`向左拐入一条通往棱堡斜坡的小径，手脚并用地爬上土垒顶端，站在飘扬的拉脱维亚国旗下，360度眺望由壕沟、河流与城市屋顶构成的复杂拼图。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走下棱堡，径直前往那座最显眼的红色砖砌建筑——老火炮库，推开厚重的木门，立刻踏入由罗斯科巨大色块画作所统治的光与影的殿堂。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在艺术中心一楼咖啡馆的落地窗边坐下，点一杯拉脱维亚传统的香薄荷茶，看着窗外庭院里光线的移动，回味刚才在画作前感受到的情绪波动。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后，悠闲地漫步在被称为“军官街”的修复街区，观察那些新古典主义立面上精美的浮雕和如今变为工作室、住宅的窗户里透出的生活气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻找通往地下通道的指示牌（如果开放），戴好头盔，在导游的带领下深入要塞冰冷、潮湿的“内脏”，用手电筒的光束照亮数百年前的砖拱。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前一小时，再次登上面向道加瓦河的那座棱堡，找一个安静的角落坐下，看着夕阳将河面、对岸的教堂和整个要塞建筑染成暖橙色直至暗紫色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从要塞西门走出，穿过小桥进入陶格夫皮尔斯老城，用一顿温暖的拉特加尔风味晚餐（比如格雷查尼汤和烤肉）来结束这趟跨越时空的旅程。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`要塞东南角棱堡顶端的国旗处`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，以国旗为前景，用广角镜头拍摄脚下蜿蜒的星形土垒轮廓和远方城市的天际线，构图充满几何张力。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`马克·罗斯科艺术中心主展厅内`}</h4>
+                  <p className="text-sm text-gray-700">{`选择正午阳光直射天窗时，站在两幅大型画作中间，拍摄光线在画布表面产生的微妙光泽与砖墙阴影形成的强烈对比，注意将参观者的剪影纳入以体现尺度。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`尼古拉耶夫门内侧拱门`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨太阳初升时，从门洞内向中心大道方向拍摄，阳光将长长的门廊分割成明暗相间的光带，等待一个行人或骑自行车的人经过以增加故事感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`道加瓦河对岸的观景台`}</h4>
+                  <p className="text-sm text-gray-700">{`黄昏蓝调时刻，从河对岸用长焦镜头压缩空间，拍摄要塞建筑群在水中的倒影和逐渐亮起的窗户灯火，呈现其静谧而神秘的另一面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`“军官街”某扇彩色的门与斑驳的墙`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光斜射时，聚焦于一面有剥落油漆的墙和一扇颜色鲜亮的门，拍摄特写，细节中蕴藏着从军事到艺术社区变迁的叙事。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`航拍能完美捕捉星形轮廓，但务必提前查询拉脱维亚无人机法规，要塞部分区域可能属于限飞区。拍摄当地居民或艺术家工作室内部时，请务必先微笑并征得同意，这里社区感很强，尊重是相互的。冬季拍摄雪景时，注意相机的保温，从极冷室外进入温暖室内前，将相机密封在塑料袋中以防止冷凝水损坏设备。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`住在要塞河对岸老城区的“维泽梅”家庭旅馆，房间朴素干净，主人会为你手绘一份独家探索要塞小径的地图，早餐能尝到主妇自制的黑麦面包和果酱。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`入住要塞内唯一一家由旧军官宿舍改造的精品公寓“堡垒阁楼”，保留了高高的天花板和原木横梁，夜晚当游客散去，你就能独享这座星空下寂静无声的石头迷宫。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车15分钟前往郊外森林湖畔的“Ezeri”度假酒店，入住带全景落地窗的房间，在桑拿浴后，泡一杯茶，远眺夜幕中灯光勾勒出的要塞轮廓，如同欣赏一件大地艺术品。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`艺术爱好者之选`}</h4>
+                  <p className="text-sm text-purple-800">{`预订艺术中心合作的艺术家驻留项目旁的简易客房，虽然设施简单，但你有机会在清晨画廊开放前，独自在罗斯科画作前静坐冥想，这是无价的体验。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要塞内的住宿选择极其有限且非常抢手，务必提前数月预订。老城区住宿选择更多，且餐馆和超市便利，夜间隔着河看灯火阑珊的要塞别有风味。拉脱维亚东部冬季严寒，选择住宿时务必确认供暖充足，许多老房子改造的民宿可能取暖设施较简单。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开陶格夫皮尔斯要塞很久以后，那些画面还会不时撞进脑海：不是某幅具体的罗斯科画作，也不是某座棱堡精确的角度，而是一种感觉。一种坚硬的、充满棱角的、为抵御和分隔而存在的物理现实，与柔软的、弥漫的、旨在连通人类深层情感的精神表达，共同存在于同一时空的奇妙感觉。这个地方教会你，历史从来不是单面的。同一堵墙，既曾映照过士兵冰冷的枪刺，也正辉映着画布上温暖而悲伤的色彩。它没有被简单美化或娱乐化，而是被赋予了一种更严肃、更深刻的用途——成为一面镜子，让我们审视暴力与创造这对看似对立的力量，如何在人类文明的进程中纠缠不休。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求快节奏打卡的世界里，陶格夫皮尔斯像一个固执的沉思者。它不提供轻松的娱乐，却提供沉重的启迪。它要求你付出时间，步行去丈量它的庞大；付出耐心，去感受艺术中心里几乎凝滞的时间；付出思考，去理解这片土地上发生过和正在发生的复杂故事。但所有的付出都是值得的。当你最终站在黄昏的棱堡上，看着脚下这个巨大的星形印记，你会明白，你探访的不仅仅是一个景点。你完成的，是一场从历史伤痕走向美学救赎的微小 pilgrimage（朝圣）。对于任何相信旅行是去理解世界复杂性和人性韧性的深度旅者来说，这里都不该被错过。它是东欧大地上，一颗由砖石、泥土、色彩与记忆共同熔铸的、沉默而璀璨的星。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/ventspils-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    文
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">文茨皮尔斯城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ventspils Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bauska-castle-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    包
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">包斯卡城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bauska Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/riga-art-nouveau-architecture" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    里
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">里加新艺术建筑群</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Art Nouveau architecture in Riga</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,232 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '米拉 Mira｜探访奥弗涅火山之心，漫步三座黑色玄武岩守护的千年山城与圣母雕像 - 最佳欧洲景点',
+  description: '朋友，想象一下这样的画面：当你驱车在奥弗涅起伏的绿色丘陵间穿行，忽然，地平线上三座突兀的、近乎黑色的圆锥形山丘撞入眼帘，像三只沉睡巨兽的背脊。而就在那最陡峭的一座山顶，一尊洁白的雕像静静矗立，在深色岩体的衬托下，仿佛悬浮于天地之间。那就是米拉给你的第一眼震撼——一种近乎神话的地理奇观与人类信仰结合的',
+}
+
+export default function MiraFrancePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
+            { label: '康塔尔省（奥弗涅地区）', href: '/destinations/france' },
+            { label: '米拉', href: '/attractions/mira-france' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`米拉・Mira・法国・康塔尔省（奥弗涅地区）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`朋友，想象一下这样的画面：当你驱车在奥弗涅起伏的绿色丘陵间穿行，忽然，地平线上三座突兀的、近乎黑色的圆锥形山丘撞入眼帘，像三只沉睡巨兽的背脊。而就在那最陡峭的一座山顶，一尊洁白的雕像静静矗立，在深色岩体的衬托下，仿佛悬浮于天地之间。那就是米拉给你的第一眼震撼——一种近乎神话的地理奇观与人类信仰结合的景象。
+停好车，走进小镇，感官立刻被切换。脚下是岁月磨得光滑的黑色玄武岩石板路，透着凉意。空气里有种特别的清新，混合着远处草场飘来的干草香、从老房子石头缝隙里渗出的淡淡潮气，还有面包店刚出炉的“巴布卡”黄油蛋糕那暖烘烘的甜香。你的耳朵会先捕捉到寂静——那不是空洞的寂静，而是被放大的一些细微声响：山泉在暗渠里汩汩流淌，某个院落的木门发出“吱呀”一声，广场上咖啡馆的杯碟轻碰。这里的时间流速，和外面那个世界截然不同。
+米拉不是一座仅供观赏的“博物馆小镇”。你会看到留着白胡子的老爷爷提着长棍面包，不紧不慢地踱过集市大厅那些古老的石柱；主妇们在小广场的公共泉水池边一边接水一边闲聊。那座俯瞰众生的布雷东圣母雕像，对游客而言是风景，对当地人而言则是日常的守护神，是家族记忆的一部分。它的存在，让整个小镇笼罩在一种安宁、被庇佑的氛围里。这里的核心魅力，恰恰在于这种“活着的古意”——火山赐予了它骨骼，中世纪赋予了它形态，而世代居住于此的人们，用最平凡的生活气息，为它注入了灵魂。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "朋友，想象一下这样的画面：当你驱车在奥弗涅起伏的绿色丘陵间穿行，忽然，地平线上三座突兀的、近乎黑色的圆锥形山丘撞入眼帘，像三只沉睡巨兽的背脊。而就在那最陡峭的一座山顶，一尊洁白的雕像静静矗立，在深色岩体的衬托下，仿佛悬浮于天地之间。那就是米拉给你的第一眼震撼——一种近乎神话的地理奇观与人类信仰结合的景象。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "停好车，走进小镇，感官立刻被切换。脚下是岁月磨得光滑的黑色玄武岩石板路，透着凉意。空气里有种特别的清新，混合着远处草场飘来的干草香、从老房子石头缝隙里渗出的淡淡潮气，还有面包店刚出炉的“巴布卡”黄油蛋糕那暖烘烘的甜香。你的耳朵会先捕捉到寂静——那不是空洞的寂静，而是被放大的一些细微声响：山泉在暗渠里汩汩流淌，某个院落的木门发出“吱呀”一声，广场上咖啡馆的杯碟轻碰。这里的时间流速，和外面那个世界截然不同。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "米拉不是一座仅供观赏的“博物馆小镇”。你会看到留着白胡子的老爷爷提着长棍面包，不紧不慢地踱过集市大厅那些古老的石柱；主妇们在小广场的公共泉水池边一边接水一边闲聊。那座俯瞰众生的布雷东圣母雕像，对游客而言是风景，对当地人而言则是日常的守护神，是家族记忆的一部分。它的存在，让整个小镇笼罩在一种安宁、被庇佑的氛围里。这里的核心魅力，恰恰在于这种“活着的古意”——火山赐予了它骨骼，中世纪赋予了它形态，而世代居住于此的人们，用最平凡的生活气息，为它注入了灵魂。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`米拉`} />
+                <InfoRow label="英文名称" value={`Mira`} />
+                <InfoRow label="正式名称" value={`Mira`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`康塔尔省（奥弗涅地区）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座从火山熔岩中生长、因朝圣与集市而繁荣的中世纪山城要塞。`} />
+                <InfoRow label="建筑特色" value={`黑色火山岩（玄武岩）与浅色砂岩构筑的房屋，紧密簇拥在三座陡峭的火山颈山丘上，形成极具防御性的蜂窝状聚落。`} />
+                <InfoRow label="建筑风格" value={`奥弗涅地区乡土建筑与中世纪罗马风元素的朴素结合。`} />
+                <InfoRow label="文化价值" value={`是理解法国中部火山地区历史、信仰与民间生活方式的活态标本，保留了罕见的带有顶棚的中世纪集市大厅。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇本身全天开放。布雷东圣母雕像所在的露天区域全年开放。具有代表性的中世纪集市大厅（Les Halles）通常每日上午9点至傍晚6点开放，但内部空间可能仅在夏季旅游季（5月至9月）或每周六早市期间完全敞开。建议行前在当地旅游局官网核实具体日期与活动安排。`} />
+              <InfoRow label="门票价格" value={`进入米拉小镇无需门票。攀登至布雷东圣母雕像及游览山丘步道完全免费。中世纪集市大厅可自由穿行参观。小镇可能提供付费的导游徒步讲解服务（约10-15欧元），可在旅游局现场咨询报名。`} />
+              <InfoRow label="地址" value={`Place de la Mairie, 15300 Mira, France`} />
+              <InfoRow label="交通方式" value={`最近的主要交通枢纽是克莱蒙-费朗奥弗涅机场（CFE）或奥里亚克火车站。从克莱蒙-费朗驾车出发，沿A75高速公路向南，在“Massiac”出口驶出，随后转入D926和蜿蜒的乡村公路前往米拉，全程约1小时15分钟。公共交通较为不便：可先乘火车至奥里亚克（Aurillac）或圣弗卢尔（Saint-Flour），再转乘极少数量的区域巴士或预订出租车，耗时约1.5-2小时。强烈建议自驾，既能自由掌控时间，也能沿途欣赏壮丽的奥弗涅火山群景色。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要讲米拉的故事，得从比人类历史更久远的地球脉搏说起。眼前这三座陡峭的山丘，并非普通的山，它们是“火山颈”——亿万年前，炽热的岩浆曾在此喷涌，形成火山。当火山活动停止，较软的火山锥被岁月风化侵蚀殆尽，只留下内部这些极其坚硬的凝固岩浆柱，像大地的骨骼般裸露出来。这些黑色的玄武岩，成为了后来一切故事的基石。中世纪早期，动荡不安的年代，人们本能地寻求易守难攻之地。这三座天然形成的岩石堡垒，成了上天赐予的避难所。于是，最早的定居者沿着险峻的山坡，开始用唾手可得的黑色石头垒砌房屋、城墙。米拉，字面意义或许就与“凝视”、“守望”有关，它生来就是为了俯瞰和保护。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "到了十一、十二世纪，随着宗教热潮的席卷，山巅的位置自然被赋予了神圣意义。布雷东圣母的崇拜在此扎根。最初的雕像可能只是简陋的石刻，但信仰的力量让这里成为区域性的朝圣中心。朝圣者带来了人流，也带来了商业的契机。精明的米拉人在山脚下相对平缓的地带，建造了那座宏伟的集市大厅。它巨大的石柱和厚重的木结构屋顶，像一把保护伞，为商贩和商品遮风挡雨。每周六的集市，成了方圆数十里内最重要的经济活动：农民带来奶酪、牲口，工匠展示铁器、皮革，空气中充斥着讨价还价的喧嚷、牲口的叫声和各种食物的气味。这座大厅，是米拉跳动的心脏，也是它经济独立的保证。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "漫长的中世纪里，米拉虽小，却因其战略位置和宗教影响力，扮演了微妙角色。它曾卷入领主间的纷争，城墙见证过小规模的冲突。但更多时候，它依靠易守难攻的地形和务实的民风，维持着一种相对的自治与平静。黑死病、宗教战争……外界的巨浪一次次拍打过来，这座山城就像暴风雨中的礁石，居民们缩回他们的石头堡垒，等待风暴过去。建筑不断被修复、加盖，但材料始终是那黑色的火山岩和从稍远地方运来的浅色砂岩，形成独特而和谐的色彩对比。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "法国大革命的风暴也曾席卷此地，教堂的财产被没收，但民众对圣母的信仰根深蒂固，以更隐蔽的方式延续。雕像或许曾被移走或损毁，但后来又得以重建。真正改变米拉命运的，是十九世纪末开始的工业化和城市化。平原地区交通更便利，年轻人开始外流寻找机会，山城的军事和商业重要性急剧下降。米拉一度陷入沉寂，时间仿佛在此停滞。然而，塞翁失马，焉知非福。正是这种“被遗忘”，使得它大规模现代化改造的浪潮中得以幸存，完整保留了中世纪的整体格局和建筑肌理。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "直到近几十年，人们重新发现了这种“停滞”的价值。米拉被列为法国“最美村庄”之一。那尊在二战结束后重新树立的、更宏伟的布雷东圣母白色雕像，不仅继续守护着信仰，也成了旅行者最瞩目的地标。古老的集市大厅依然在每个周六迎来集市，只是交易的商品从牲口变成了本地奶酪、蜂蜜和手工艺品。今天的米拉，不再需要防御敌人，它防御的是时间的同质化。它静静地坐在它的火山王座上，向每一个来访者讲述着一个关于岩石、信仰与坚韧生活的漫长故事。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天（至少6-8小时）给米拉，才能真正感受它的晨昏之美。最佳抵达时间是上午九点前，此时游客尚少，阳光为黑色山岩勾勒出金色的边。整体节奏宜慢不宜快，核心是“攀登”与“漫步”的结合。上午精力充沛时，先去挑战攀登至布雷东圣母雕像，收获全景和心灵的震撼；中午下山，在集市大厅或广场附近享用一顿悠长的午餐，感受当地生活气息；下午则放任自己在迷宫般的小巷里迷路，探索细节；傍晚时分，留在小镇，看光影变幻，享受一日将尽时的宁静。这样的安排张弛有度，既能覆盖所有精华，又留有足够空间用于发呆和感受。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`穿一双绝对舒适、防滑的徒步鞋是首要铁律，攀登山丘的石阶可能湿滑且不平。周六上午集市时小镇最热闹也最有生活气息，但停车位会非常紧张，建议提早抵达或把车停得稍远一些步行进入。小镇部分小巷极其狭窄陡峭，拉行李箱会非常痛苦，建议将大件行李留在车上或住处。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从小镇东侧的“驴径”起步，沿着古老而略显陡峭的石阶向上攀登，感受腿部微微发酸时，转身俯瞰山谷里渐渐苏醒的田园与晨雾。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`抵达布雷东圣母雕像的脚下，在一片寂静中绕行一周，触摸冰凉基座，感受山风呼啸着吹过衣襟，并与圣母平静的俯视目光相遇。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从山顶另一侧平缓的小径下山，让目光流连于沿途野蛮生长的野花、地衣覆盖的黑色巨岩，以及偶尔从石缝中探出的顽强小树。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`直接步入那座宏伟的中世纪集市大厅，用手指划过那些被无数人靠过、磨得温润光滑的巨型石柱底座，想象几个世纪前这里人声鼎沸的市集景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`随意选一条从主广场辐射出去的、宽度只容一人通过的小巷钻进去，仰头看“一线天”般的天空，观察每扇木门、每个窗台上不一样的铁艺装饰和鲜花。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在共和国广场边的老咖啡馆外摆一张椅子，点一杯奥弗涅地区的黑啤或一杯咖啡，什么也不做，就看当地老人玩滚球游戏，听他们带着浓重口音的谈笑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`趁日落前最后的光线再次漫步到小镇边缘，回望被夕阳染成金红色的三座火山岩山丘和山上那尊发光的白色雕像，拍下它最美的剪影。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣母雕像侧面全景位`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后，太阳西斜时，站在雕像基座西南侧的岩石平台上，可以拍到圣母庄严的侧影与山下小镇层层叠叠的黑色屋顶、远处无垠的绿色山谷融为一体的壮阔画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`集市大厅内部结构框景`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光从高侧窗射入时，站在大厅一角，利用一排排厚重的石柱形成的天然纵深感框架，聚焦于尽头门口透出的光亮和走动的人物剪影，营造神秘的历史氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`“明信片角度”远眺点`}</h4>
+                  <p className="text-sm text-gray-700">{`驱车或步行至小镇南面约一公里外的D路弯道处，清晨或傍晚，使用长焦镜头压缩空间，将三座黑色山丘、山巅白色雕像以及山脚下小镇的建筑群落全部收纳进一幅画面，色彩与层次感极佳。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小巷光影捕捉`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，当阳光斜射入狭窄巷道，寻找那些光影切割明暗对比强烈的角落，聚焦于一扇被阳光照亮的老木门、一道爬满藤蔓的石墙，或是一只蜷缩在光斑中的猫，充满故事感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以有效减少黑色玄武岩表面的反光，让岩石纹理更清晰深邃。航拍能获得无与伦比的震撼视角，但务必注意小镇上空可能有飞行限制，且山丘附近气流多变。尊重当地居民隐私，拍摄居民或其住宅窗户前，请先用微笑和手势征得同意。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`山城石屋体验`}</h4>
+                  <p className="text-sm text-blue-800">{`入住镇中心一栋由十六世纪石屋改造的民宿，卧室的墙壁就是原始的火山岩，冬暖夏凉，夜晚能听到绝对的静谧，主人会奉上自家酿的果酒。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`田园风光疗愈所`}</h4>
+                  <p className="text-sm text-green-800">{`选择小镇外一公里处一座由传统农舍改建的精品酒店，房间拥有面对山谷和火山岩山丘的无敌视野，附带户外恒温泳池，在星空下泡澡放松登山的疲惫。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`历史宅邸沉浸游`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻位于主广场旁一栋曾属于当地贵族的古老宅邸，内部装饰保留了复古的家具和油画，早餐在铺着古老瓷砖的厨房享用，仿佛成了这座小镇历史的一部分。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`自驾者便捷之选`}</h4>
+                  <p className="text-sm text-purple-800">{`位于进入米拉主要路口附近的现代风格小型酒店，停车方便，设施崭新，是探索周边多个“最美村庄”和火山景区的理想基地。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "镇中心的老房子隔音普遍一般，这是体验的一部分，对声音敏感者可自备耳塞。夏季和周末务必提前数周甚至数月预订，尤其是那些特色石屋民宿。选择镇外住宿需权衡交通便利性，夜晚小镇路灯昏暗，步行回住处需带手电。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开米拉许久后，闭上眼睛，脑海里最清晰的不是某一张具体的照片，而是一种感觉：手掌贴在黑色火山岩上那种沁入骨髓的凉，混合着正午阳光晒在石头上散发的微微暖意。这座城市教会我的，是关于“根基”的沉思。它的存在本身，就是一场地质奇迹与人类生存意志的合谋。人们没有去征服那座山，而是选择了去适应它、依靠它、最终成为它的一部分。每一块黑色的石头，都承载着千万年的地球记忆和数百代人的体温。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、一切趋向平滑和快速的世界里，米拉是一种温柔的“反叛”。它顽固地停留在山坡上，道路崎岖，拒绝汽车的深入，迫使你只能用最原始的步履去丈量。它告诉你，有些风景，有些心境，必须付出一点汗水、放缓一点节奏才能获得。那尊圣母雕像，日夜守望的，或许不只是一方水土，更是一种即将消逝的、与自然紧密相连的生活哲学。来这里，不只是为了看一座古老的小镇，更是为了感受时间另一种存在的形态——它可以是凝固在火山岩里的亿万斯年，也可以是流淌在周六集市喧嚷中的当下片刻。对于每一位渴望在旅途中找到沉淀与内心回响的深度旅者来说，米拉是一堂无声却震撼的必修课。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/carcassonne-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡尔卡松城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Carcassonne Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/provins-medieval-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普罗万中世纪古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Provins</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/salers-medieval-village" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    萨
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">萨莱尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Salers</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

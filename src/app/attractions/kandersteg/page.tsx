@@ -1,0 +1,242 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '坎德施泰格 Kandersteg｜徒步天堂与美好时代的时光胶囊 - 最佳欧洲景点',
+  description: '火车缓缓驶入站台，推开车门的那一刹那，你首先吸入的是一种混合着干草、冷杉和远处雪山气息的清澈空气。耳朵里瞬间安静下来，只有潺潺的坎德河水流声，和偶尔从远处山坡传来的、像是为整座山谷打着节拍的牛铃声。眼前不是想象中的繁华小镇，而是一幅缓缓展开的、饱和度极高的油画：墨绿色的针叶林包裹着山谷，锯齿状的雪峰',
+}
+
+export default function KanderstegPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '伯尔尼州', href: '/destinations/europe' },
+            { label: '坎德施泰格', href: '/attractions/kandersteg' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`坎德施泰格・Kandersteg・瑞士・伯尔尼州`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`火车缓缓驶入站台，推开车门的那一刹那，你首先吸入的是一种混合着干草、冷杉和远处雪山气息的清澈空气。耳朵里瞬间安静下来，只有潺潺的坎德河水流声，和偶尔从远处山坡传来的、像是为整座山谷打着节拍的牛铃声。眼前不是想象中的繁华小镇，而是一幅缓缓展开的、饱和度极高的油画：墨绿色的针叶林包裹着山谷，锯齿状的雪峰像王冠一样镶在天际线，而山谷中心，是一簇簇巧克力棕色木屋，它们安静地趴伏在草地上，每一座的木头阳台都像被施了魔法，爆发出瀑布般的红色天空葵。
+这里的时间流速似乎不同。你会发现当地人打招呼的节奏都慢半拍，笑容里有种不慌不忙的笃定。主街上没有连锁商店，只有家族经营了几代的面包房，飘出刚出炉的“楚格樱桃蛋糕”的甜香，和五金店门口挂着的老式牛奶桶。坎德施泰格的核心魅力，在于它不是一个“为游客准备的布景”，而是一个仍然在深呼吸、有着自己心跳的活生生的社区。徒步客们背着巨大的行囊从火车站涌出，迫不及待地跳上前往厄希宁湖的缆车；而戴着传统呢帽的老爷爷，可能正不紧不慢地修理着他的木柴堆。自然与人文在这里没有边界，徒步小径的尽头可能就是百年的奶酪作坊。
+最打动人心的，是那种穿越时空的错位感。走在街上，你会恍惚觉得某些细节来自一百多年前：酒店门廊上精致的铸铁招牌，咖啡馆里厚重的实木家具和蕾丝窗帘，甚至人们脸上那种从容、优雅的气质。因为坎德施泰格小心翼翼地珍藏着一个秘密：它是瑞士少数几个将“美好时代”风范原汁原味保存下来的地方。那时，没有飞机的喧嚣，欧洲的贵族和名流坐着火车来此避暑，在山间散步、在沙龙里社交。而这份遗产，没有被做成标本封存在博物馆里，而是流淌在日常的脉络中。在这里，壮丽的阿尔卑斯山不只是背景板，更是生活的一部分；而历史也不是教科书里的章节，是窗台上盛开的花，是壁炉里燃烧的木柴香，是每一个宁静如常的黄昏。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "火车缓缓驶入站台，推开车门的那一刹那，你首先吸入的是一种混合着干草、冷杉和远处雪山气息的清澈空气。耳朵里瞬间安静下来，只有潺潺的坎德河水流声，和偶尔从远处山坡传来的、像是为整座山谷打着节拍的牛铃声。眼前不是想象中的繁华小镇，而是一幅缓缓展开的、饱和度极高的油画：墨绿色的针叶林包裹着山谷，锯齿状的雪峰像王冠一样镶在天际线，而山谷中心，是一簇簇巧克力棕色木屋，它们安静地趴伏在草地上，每一座的木头阳台都像被施了魔法，爆发出瀑布般的红色天空葵。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里的时间流速似乎不同。你会发现当地人打招呼的节奏都慢半拍，笑容里有种不慌不忙的笃定。主街上没有连锁商店，只有家族经营了几代的面包房，飘出刚出炉的“楚格樱桃蛋糕”的甜香，和五金店门口挂着的老式牛奶桶。坎德施泰格的核心魅力，在于它不是一个“为游客准备的布景”，而是一个仍然在深呼吸、有着自己心跳的活生生的社区。徒步客们背着巨大的行囊从火车站涌出，迫不及待地跳上前往厄希宁湖的缆车；而戴着传统呢帽的老爷爷，可能正不紧不慢地修理着他的木柴堆。自然与人文在这里没有边界，徒步小径的尽头可能就是百年的奶酪作坊。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人心的，是那种穿越时空的错位感。走在街上，你会恍惚觉得某些细节来自一百多年前：酒店门廊上精致的铸铁招牌，咖啡馆里厚重的实木家具和蕾丝窗帘，甚至人们脸上那种从容、优雅的气质。因为坎德施泰格小心翼翼地珍藏着一个秘密：它是瑞士少数几个将“美好时代”风范原汁原味保存下来的地方。那时，没有飞机的喧嚣，欧洲的贵族和名流坐着火车来此避暑，在山间散步、在沙龙里社交。而这份遗产，没有被做成标本封存在博物馆里，而是流淌在日常的脉络中。在这里，壮丽的阿尔卑斯山不只是背景板，更是生活的一部分；而历史也不是教科书里的章节，是窗台上盛开的花，是壁炉里燃烧的木柴香，是每一个宁静如常的黄昏。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`坎德施泰格`} />
+                <InfoRow label="英文名称" value={`Kandersteg`} />
+                <InfoRow label="正式名称" value={`Kandersteg`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`伯尔尼州`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`曾是从伯尔尼高地翻越勒奇山隆口通往瓦莱州的重要贸易与朝圣通道上的驿站。`} />
+                <InfoRow label="建筑特色" value={`拥有大量保存完好的18-19世纪深色木屋，外墙上装饰着精美的“卢塞纳”（Lüster）彩绘和满溢鲜花的窗台。`} />
+                <InfoRow label="建筑风格" value={`典型的瑞士伯尔尼高地传统木结构建筑风格，融合了“美好时代”的优雅度假村元素。`} />
+                <InfoRow label="文化价值" value={`一个将阿尔卑斯山传统生活方式与19世纪末欧洲贵族旅行文化完美融合并活态传承的“露天博物馆”。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`坎德施泰格村镇本身全天24小时自由出入。但主要的游客信息中心、博物馆及周边收费景点（如蓝湖Blausee）有固定开放时间：游客中心通常为周一至周五8:00-12:00，13:30-18:00，夏季周末也会开放；蓝湖公园全年开放，夏季（约4月至10月）为9:00-21:00，冬季缩短至9:00-17:00。许多家庭经营的旅馆和小型博物馆的开放时间较为灵活，建议提前查询。请注意，瑞士的许多商店和服务在周日及节假日会关门或缩短营业时间。`} />
+              <InfoRow label="门票价格" value={`进入坎德施泰格村镇无需门票。周边主要付费景点：蓝湖自然公园（Blausee）成人票约10瑞士法郎，儿童优惠；乘坐缆车前往厄希宁湖（Oeschinensee）的上山缆车票往返约22瑞士法郎；当地的历史博物馆或“美好时代”主题导览游价格不一，通常在10-20瑞士法郎之间。持有瑞士旅行通票（Swiss Travel Pass）可在蓝湖、缆车等项目上享受折扣。许多徒步小径完全免费。`} />
+              <InfoRow label="地址" value={`Kandersteg, 3718, Switzerland`} />
+              <InfoRow label="交通方式" value={`从苏黎世机场（ZRH）或日内瓦机场（GVA）出发，最经典的方式是乘坐瑞士国铁（SBB）火车。旅程本身就是风景。以苏黎世机场为例：在机场火车站乘坐直达伯尔尼（Bern）的火车（约1小时15分钟），在伯尔尼换乘前往布里格（Brig）的区域列车，在坎德施泰格站下车（从伯尔尼出发约1小时10分钟）。全程约2.5-3小时，班次频繁，每小时至少有1-2班。从日内瓦出发时间相近。强烈建议使用SBB手机App实时查询和购票，瑞士火车以精准著称，提前购票可能有优惠。下车后，村镇小而紧凑，所有景点步行可达。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解坎德施泰格，你得先把地图倒回几百年，那时这里没有游客，只有驮着货物的骡子和风尘仆仆的旅人。小镇所在的坎德河谷，是穿越雄伟的伯尔尼高地阿尔卑斯山脉的关键隘口之一。从中世纪起，一条艰难的小径就从这里开始向上攀升，翻越海拔近2700米的勒奇山隆口，连接着伯尔尼州和瓦莱州。这条路上运送过盐、奶酪、羊毛，也走过前往罗马的朝圣者。坎德施泰格最初就是为这些跋涉者提供歇脚的驿站，几间木屋，一个马厩，温暖的火炉和一碗热汤，就是全部。你可以想象冬日暴风雪来临时，困在这里的人们围着火堆分享故事的情景，山谷的隔绝塑造了他们坚韧又互助的性格。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "命运的转折点发生在19世纪。随着铁路技术的奇迹，阿尔卑斯山不再是不敢触碰的屏障。1856年，伯尔尼到图恩的铁路开通，但勒奇山隧道还是个遥不可及的梦。聪明的工程师们想出了一个临时方案：在坎德施泰格和戈彭施泰因之间修建一条窄轨铁路，用缆车将整节火车车厢吊过山隘！这个异想天开的“列车缆车”系统从1913年运行到2007年，成了世界铁路史上一段奇谈。正是铁路，为坎德施泰格迎来了它的黄金时代——“美好时代”。欧洲的贵族、艺术家和富裕的中产阶级，迷恋上了阿尔卑斯山的纯净空气和壮丽风光。他们乘着豪华列车而来，下榻在刚刚建起的、拥有宽阔阳台和精致餐厅的大酒店，比如现在的皇家酒店。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，小镇的面貌悄然改变。它不再仅仅是农民和脚夫的山村，而成了一个国际化的高山度假胜地。本地人建起更多木屋旅馆，但严格遵守传统的建筑样式；他们为客人担任向导，带领他们探索厄希宁湖这样的高山秘境。山间小径被仔细修缮，第一次不是为了生计，而是为了审美和健康。这种外来精英文化与本地山民文化的碰撞没有带来破坏，反而形成了一种奇妙的共生。当地人吸收了“美好时代”的优雅服务精神，而访客则深深尊重并爱上了这里原始、质朴的山野传统。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，两次世界大战的阴影笼罩了欧洲，那个优雅而缓慢的旅行时代骤然结束。战后，大众旅游兴起，滑雪成为新风尚，许多阿尔卑斯小镇选择改头换面，用混凝土酒店和滑雪缆车迎接新时代。但坎德施泰格做出了不同的选择。它仿佛集体按下了暂停键，决定守护自己最珍贵的两样东西：无与伦比的自然环境和那份来自“美好时代”的、独特的宁静格调。它没有大规模开发滑雪场，而是将自己定位为“徒步与宁静之旅的天堂”。老酒店被精心维护而非拆毁，家族生意代代相传，年轻人依然愿意学习传统的木屋建造和奶酪制作技艺。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最令人动容的是他们对历史的活态传承。每年一月，当小镇笼罩在深冬的静谧中，一个神奇的传统“Gastereytag”会上演。几乎全镇居民都会自发穿上他们曾祖父母辈的服装——男士是厚呢外套和毡帽，女士是长裙和围裙——走上街头。他们不是在进行一场表演，而是在“重现”一天1900年左右的生活：用传统方式劈柴、喂马、在老式炉灶上做饭、在街头随意聊天。没有观众售票，游客只是偶然闯入这个时空隧道的旁观者。这个传统并非为了旅游，而是社区对自己根源的深情凝视和集体记忆的重温。它告诉每一个到访者：坎德施泰格的灵魂，从未因时代的车轮而改变，它只是选择了一条更安静、更悠长的路，与它的山川和历史，并肩而行。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议你在坎德施泰格停留至少完整的一天，才能真正感受它的昼夜韵律。理想的节奏是“上午沉浸自然，下午漫步人文，傍晚感受静谧”。早上8点左右抵达最为完美，这时徒步大军尚未完全出发，山间晨雾未散，光线最是温柔。先用半天时间献给阿尔卑斯的湖光山色，乘坐第一班缆车上到厄希宁湖区域。中午前后返回镇上，此时的阳光正好洒满主街，适合悠闲地探索那些精美的老木屋、博物馆和小店，并享用一顿漫长的午餐。下午晚些时候，可以前往较近的蓝湖，避开午间的人群。傍晚时分，请务必留给小镇本身，沿着坎德河散步，或只是坐在旅馆的露台上，看夕阳将雪峰染成粉金色。这样的安排张弛有度，既能饱览自然奇观，又能深入触摸到小镇的历史肌理。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`如果计划徒步厄希宁湖周边更长的路线，请务必穿戴专业的登山鞋并查询当天天气，高山天气变化极快，即使夏季也可能突然转冷或起雾。小镇的商店和餐厅在晚上八点后基本都关门了，请提前安排好晚餐或购买零食。尊重当地居民的隐私，拍照时请尽量避免将私人住宅的窗户或居民作为直接焦点。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨跳上从火车站开往厄希宁湖的缆车，在几乎无人的车厢里俯瞰山谷在脚下苏醒。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着清晰的标识徒步约20分钟抵达厄希宁湖畔，找个面对湖面与冰川的大石头坐下，静静聆听冰裂融水坠入湖中的空灵回响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在湖边的高山餐厅点一份用当地牛奶做的热汤和面包，隔着巨大的玻璃窗看阳光在湖面上跳舞。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`乘缆车下山后，慢悠悠地晃进镇中心，寻找外墙有最美“卢塞纳”彩绘的百年木屋，猜猜上面画的家族徽章或圣经故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开当地历史博物馆那扇厚重的木门，听管理员老先生用带着德语音调的英语，讲述列车缆车的老照片和过去居民的生活器具。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在家庭经营的奶酪作坊直接买一块还带着地窖湿气的“阿尔卑斯山奶酪”，感受那股浓烈而醇厚的山野气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前顺着坎德河往小镇边缘走，直到人声完全消失，只有流水、风声和你的呼吸为伴。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一家有 Panorama 露台的酒店餐厅，在星空初现时享用晚餐，看山谷里零星的灯光依次亮起，像倒映在人间的银河。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`厄希宁湖东侧徒步道拐角处`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点前，顺光照射在碧绿的湖水和背后的布吕姆利斯阿尔卑斯冰川上，利用湖边的岩石或野花作为前景，能拍出层次感极强的明信片风光。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`蓝湖（Blausee）心形小岛旁`}</h4>
+                  <p className="text-sm text-gray-700">{`尽量在开门第一时间或闭园前最后一小时前往，避开人群，利用湖面如镜的倒影拍摄树林和小木船的对称构图，梦幻的蓝绿色调在阴天反而更显浓郁。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`坎德施泰格主街后方的山坡草甸`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚“黄金小时”，爬上小镇南侧的任何一条小径回望，暖黄色的夕阳会给成片的巧克力色木屋屋顶镀上金边，远处雪山为背景，捕捉炊烟袅袅的生活气息。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“美好时代”酒店建筑细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`利用正午阳光充足时，拍摄如皇家酒店门廊的铸铁花纹、木质阳台栏杆的雕花、或是窗台上绚烂的天竺葵，这些细节最能体现时代的精致感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`从缆车车厢内向外拍摄`}</h4>
+                  <p className="text-sm text-gray-700">{`在缆车上升或下降过程中，将镜头贴近玻璃，拍摄下方如积木般的村镇全景和蜿蜒的坎德河，动态感十足。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`阿尔卑斯山的光线在日出后一小时和日落前一小时最为迷人，色彩柔和，立体感强，请珍惜这两个时段。无人机飞行在瑞士受到严格管制，尤其在自然保护区和水源地上空，飞行前务必查询并遵守当地法规。拍摄当地居民或他们的传统活动（如一月的Gastereytag）时，请先微笑示意并取得对方同意，这是最基本的尊重。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温暖家庭之选`}</h4>
+                  <p className="text-sm text-blue-800">{`由祖孙三代经营的老牌家庭旅馆，房间不大但一尘不染，早餐桌上的蜂蜜是房东自家蜂箱产的，晚上回来总能闻到公共客厅壁炉里柴火的味道。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`美好时代沉浸体验`}</h4>
+                  <p className="text-sm text-green-800">{`直接下榻在历史悠久的皇家酒店或类似的老牌酒店，睡在古董家具旁，在曾经贵族社交的沙龙里喝一杯茶，阳台正对无敌山景，全程沉浸式穿越。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`山景木屋公寓`}</h4>
+                  <p className="text-sm text-yellow-800">{`适合家庭或小团体，租住一栋独立的传统风格小木屋，设施现代，拥有全木质厨房和宽敞的露台，可以自己烹饪当地食材，享受隐居般的宁静。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高海拔冒险者基地`}</h4>
+                  <p className="text-sm text-purple-800">{`位于厄希宁湖上方的高山小屋，设施简单（通常为宿舍式），但拥有无可比拟的星空和日出视角，是徒步者和摄影爱好者的秘密天堂。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "坎德施泰格非常安全，治安极好，但几乎所有住宿都不配备空调，夏季夜晚也很凉爽，请放心。旺季（七月、八月和滑雪季的周末）务必提前数月预订，尤其是那些特色家庭旅馆和山间小屋。许多住宿提供“客人大卡”，可免费乘坐当地巴士或享受景点折扣，入住时别忘了询问。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开坎德施泰格许多天后，我的脑海里最清晰的，不是某个具体的湖或某座山峰，而是一种整体的“感觉”。那是一种身心被彻底洗涤后的清透，是耳朵习惯了风声水声后对自然律动的敏感，是一种从喧嚣世界抽离出来后，内心重获的宁静与秩序。在这个一切都追求更快、更响、更刺激的时代，坎德施泰格的存在本身，就像一句温柔而坚定的反驳。它告诉你，美好可以是用一百年时间细心维护一栋木屋的窗台，可以是社区集体守护一个古老的传统而非用它来牟利，可以是在世界级的风景面前，依然选择保持谦卑和安静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了打卡式的奔波，如果你渴望一场旅行不仅能装满相机，更能安顿心灵，那么请来坎德施泰格。它不仅仅是一个“景点”，它是一种生活方式的证明，一个关于“如何与自己的历史、与周围的自然和谐相处”的活答案。在这里，徒步不是为了征服某座山，而是为了与山对话；欣赏“美好时代”的遗风，不是为了怀旧，而是为了理解一种不曾过时的优雅与从容。你会带着一身松木的清香和满心的平静离开，并且知道，在阿尔卑斯的某个山谷里，时光依然以自己的步调，美好地流淌着。这才是它值得被列入一生必访清单的、最珍贵的理由。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mendrisio-the-magnificent" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    门
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">门德里西奥</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mendrisio</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/castles-of-bellinzona-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝林佐纳三城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castles of Bellinzona</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/arosa-switzerland" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿罗萨</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Arosa</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

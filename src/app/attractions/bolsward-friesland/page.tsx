@@ -1,0 +1,245 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '博尔斯瓦德 Bolsward｜探秘荷兰北方的静谧砖城与水乡遗珠 - 最佳欧洲景点',
+  description: '车子缓缓驶离主干道，周遭现代世界的嘈杂像潮水般退去，取而代之的是一种近乎凝滞的宁静。你的第一眼博尔斯瓦德，很可能是一幅倒映在墨绿色运河里的红砖画——那些房子不像阿姆斯特丹的那么纤细拥挤，它们更敦实、更沉稳，用的是那种被北海风雨浸润了数百年的深红色砖块，在北方清透的光线下，泛着一种哑光绒布般的暖意。空',
+}
+
+export default function BolswardFrieslandPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '博尔斯瓦德', href: '/destinations/europe' },
+            { label: '博尔斯瓦德', href: '/attractions/bolsward-friesland' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`博尔斯瓦德・Bolsward・荷兰・博尔斯瓦德`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子缓缓驶离主干道，周遭现代世界的嘈杂像潮水般退去，取而代之的是一种近乎凝滞的宁静。你的第一眼博尔斯瓦德，很可能是一幅倒映在墨绿色运河里的红砖画——那些房子不像阿姆斯特丹的那么纤细拥挤，它们更敦实、更沉稳，用的是那种被北海风雨浸润了数百年的深红色砖块，在北方清透的光线下，泛着一种哑光绒布般的暖意。空气中有一股独特的味道，是湿润的泥土、淡淡的河水腥气，还有从某扇敞开的门扉里飘出的、新鲜咖啡与烤苹果派的甜香交织在一起的味道。耳边只有自行车轮碾过古老砖桥的轻微声响，和远处教堂钟声在水面上荡开的悠长回音。
+这里没有汹涌的人潮，你看到的更多是本地人的生活节奏。一位老爷爷正不紧不慢地擦拭着临运河窗玻璃；主妇骑着装满面包的自行车叮铃而过；几个孩子坐在废弃的系船柱上，晃着腿，朝着运河里的鸭子扔面包屑。市政厅那座宏伟的17世纪建筑，就那么理所当然地矗立在市中心，它不再是需要仰望的冰冷古迹，而是小镇跳动的心脏，人们进出办理事务，游客在它门口的台阶上小憩，鸽子在它精美的山形墙雕塑旁咕咕作伴。这种“活着的古迹”感，是博尔斯瓦德最打动人心的初印象。
+而当你踱步到老城边缘，那片被绿草茵茵环绕的废墟——马丁教堂遗址，会给你另一种完全不同的触动。没有屋顶，只剩下几面高大的红砖残墙和空洞的拱窗，直指苍穹。阳光毫无遮挡地倾泻下来，照亮墙壁上每一道风霜的裂纹，野花在昔日的祭坛位置星星点点地开放。这里静得能听见风吹过砖缝的呜咽，和草丛里昆虫的窸窣。辉煌与寂灭，坚固与残损，在这里形成了一种极具张力的对话。它不像完整的教堂那样诉说神的完满，而是以一种坦然的残缺，讲述着时间本身的力量，以及生命（无论是建筑的还是草木的）那种顽强不息的循环。
+这就是博尔斯瓦德的魅力核心：它是一本可以漫步进入的立体历史书，既有黄金时代商贸成功的坚实印记（市政厅），也有宗教变迁留下的诗意伤痕（教堂遗址），而贯穿始终的，是弗里斯兰人那种与水相依、从容不迫的生活哲学。它不张扬，不喧哗，只是静静地在北荷兰的平原上，等着那些愿意偏离常规路线的旅人，来读懂它砖石间的沉默故事。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子缓缓驶离主干道，周遭现代世界的嘈杂像潮水般退去，取而代之的是一种近乎凝滞的宁静。你的第一眼博尔斯瓦德，很可能是一幅倒映在墨绿色运河里的红砖画——那些房子不像阿姆斯特丹的那么纤细拥挤，它们更敦实、更沉稳，用的是那种被北海风雨浸润了数百年的深红色砖块，在北方清透的光线下，泛着一种哑光绒布般的暖意。空气中有一股独特的味道，是湿润的泥土、淡淡的河水腥气，还有从某扇敞开的门扉里飘出的、新鲜咖啡与烤苹果派的甜香交织在一起的味道。耳边只有自行车轮碾过古老砖桥的轻微声响，和远处教堂钟声在水面上荡开的悠长回音。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里没有汹涌的人潮，你看到的更多是本地人的生活节奏。一位老爷爷正不紧不慢地擦拭着临运河窗玻璃；主妇骑着装满面包的自行车叮铃而过；几个孩子坐在废弃的系船柱上，晃着腿，朝着运河里的鸭子扔面包屑。市政厅那座宏伟的17世纪建筑，就那么理所当然地矗立在市中心，它不再是需要仰望的冰冷古迹，而是小镇跳动的心脏，人们进出办理事务，游客在它门口的台阶上小憩，鸽子在它精美的山形墙雕塑旁咕咕作伴。这种“活着的古迹”感，是博尔斯瓦德最打动人心的初印象。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你踱步到老城边缘，那片被绿草茵茵环绕的废墟——马丁教堂遗址，会给你另一种完全不同的触动。没有屋顶，只剩下几面高大的红砖残墙和空洞的拱窗，直指苍穹。阳光毫无遮挡地倾泻下来，照亮墙壁上每一道风霜的裂纹，野花在昔日的祭坛位置星星点点地开放。这里静得能听见风吹过砖缝的呜咽，和草丛里昆虫的窸窣。辉煌与寂灭，坚固与残损，在这里形成了一种极具张力的对话。它不像完整的教堂那样诉说神的完满，而是以一种坦然的残缺，讲述着时间本身的力量，以及生命（无论是建筑的还是草木的）那种顽强不息的循环。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是博尔斯瓦德的魅力核心：它是一本可以漫步进入的立体历史书，既有黄金时代商贸成功的坚实印记（市政厅），也有宗教变迁留下的诗意伤痕（教堂遗址），而贯穿始终的，是弗里斯兰人那种与水相依、从容不迫的生活哲学。它不张扬，不喧哗，只是静静地在北荷兰的平原上，等着那些愿意偏离常规路线的旅人，来读懂它砖石间的沉默故事。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`博尔斯瓦德`} />
+                <InfoRow label="英文名称" value={`Bolsward`} />
+                <InfoRow label="正式名称" value={`Bolsward`} />
+                <InfoRow label="国家" value={`荷兰`} />
+                <InfoRow label="城市" value={`博尔斯瓦德`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`作为弗里斯兰“十一城”之一，这座曾以繁荣的乳制品和啤酒贸易闻名的水城，是荷兰北方黄金时代商贸网络与宗教生活的重要见证。`} />
+                <InfoRow label="建筑特色" value={`标志性的深红色砖砌建筑、优雅的山形墙、与静谧运河交织的古老街道，共同构成了这座低地水城坚实而温润的肌理。`} />
+                <InfoRow label="建筑风格" value={`以荷兰文艺复兴风格为主，尤见于市政厅；而马丁教堂遗址则保留了晚期哥特式的残存风骨。`} />
+                
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`市政厅（现为市政办公室与游客中心）通常在周一至周五的政府办公时间开放，具体为上午9点至下午5点，但内部历史厅室的参观可能需要预约或参加特定导览。马丁教堂遗址及周边绿地全天24小时开放。小镇本身作为生活街区，随时可漫步游览。请注意，市政厅在荷兰公共假日及周末可能不对外开放，计划深度参观前建议查看弗里斯兰省旅游官网或致电游客中心确认。`} />
+              <InfoRow label="门票价格" value={`漫步博尔斯瓦德老城街道、欣赏运河风光及外部建筑完全免费。进入市政厅历史区域参观通常免费，但若遇特殊展览或要求官方导览，可能收取少量费用（约3-5欧元）。马丁教堂遗址为开放式公共空间，无需门票。小镇内其他小型博物馆（如当地历史博物馆）门票约4-6欧元。持有荷兰博物馆卡可能适用。`} />
+              <InfoRow label="地址" value={`Groot Kerkhof 1, 8701 HC Bolsward, Netherlands`} />
+              <InfoRow label="交通方式" value={`最近的主要交通枢纽是吕伐登火车站。从阿姆斯特丹中央车站出发，乘坐Intercity直达列车至吕伐登，车程约2小时，班次频繁。从吕伐登火车站前公交站，乘坐区域巴士（如Arriva公司的97路或98路）前往博尔斯瓦德，车程约25-30分钟，每小时约有2-3班车。自驾是最灵活的方式，从吕伐登沿A7公路转N359公路，约20分钟即可抵达，小镇外围有清晰指示的免费停车场。更地道的体验是骑自行车，从吕伐登沿优美的弗里斯兰乡间自行车道骑行至此约1小时，沿途尽是牧场、风车和宁静水道。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要听懂博尔斯瓦德的砖石密语，得把时钟拨回一千多年前。这里的故事始于水，也成于水。早在中世纪早期，这片弗里斯兰的泥炭沼泽地带，就因为位于几条重要水道交汇处而形成了定居点。聪明的弗里斯兰人筑起堤坝（terpen），像建造诺亚方舟一样，在周期性被海水侵扰的土地上，垒起人工高地作为家园和避难所。博尔斯瓦德的名字可能就源于一位名叫“Bolle”的早期领袖和他的“ward”（防御工事）。那时候，这里的人们靠的是渔业和一点点农业，生活艰苦却顽强。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转折点出现在它加入“弗里斯兰十一城”同盟之后。这个松散而强大的城市同盟，掌控了北海和波罗的海之间繁荣的贸易航线。凭借发达的运河网络，博尔斯瓦德成了内陆农产品，尤其是闻名遐迩的弗里斯兰黄油和奶酪的出口港，同时也是啤酒酿造的重镇。金钱随着商船流入，小镇在15、16世纪迎来了第一次建筑繁荣，大量的砖砌房屋和防御工事被建立起来。当时的信仰中心，便是那座雄伟的圣马丁教堂，一座典型的哥特式砖砌大教堂，它的尖塔曾是航行船只的灯塔，钟声指引着归家的方向。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，历史的浪潮总是起伏不定。16世纪的宗教改革风暴席卷了低地国家。1572年，追随新教的“海上乞丐”军队占领了信奉天主教的博尔斯瓦德，圣马丁教堂在这场变革中遭受重创，其内部珍贵的天主教装饰被移除或摧毁。但真正的毁灭性打击来自一场意外。1666年，一场灾难性的大火吞噬了包括市政厅在内的大片老城区。塞翁失马，这场火却也催生了今天我们看到的瑰宝。1670年，一座全新的、更为宏伟的市政厅在原址拔地而起。它由建筑师雅各布·罗曼设计，采用了当时最时兴的荷兰古典主义风格，但那鲜艳的弗里斯兰红砖和复杂精美的山形墙雕刻，又赋予了它独一无二的地方特色。它骄傲地宣告着：尽管经历了战火与灾难，博尔斯瓦德在黄金时代的荷兰，依然是一个富裕且重要的城市。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "可是，好运并未一直眷顾。随着荷兰经济重心南移，以及须德海逐渐淤塞影响了航运，博尔斯瓦德的贸易地位在18世纪后慢慢衰落。更大的悲剧在1831年降临。由于长期的结构问题，宏伟的圣马丁教堂的主体部分在一次暴风雨中轰然坍塌。人们没有选择重建，而是清理了废墟，保留了部分残墙，将这片区域变成了一个宁静的公共绿地和纪念公园。这个决定，看似是一种放弃，实则是一种智慧的开端。它让时间的伤痕本身成为了景观，让废墟讲述的故事，比一座修复一新的教堂更为深刻和哲学。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进现代，博尔斯瓦德安然接受了自己作为一座宁静历史小镇的新角色。它没有被过度旅游化，而是精心维护着它的运河、桥梁和古老的砖砌建筑。市政厅至今仍部分作为市政办公场所，马丁教堂遗址是市民散步和沉思的公园。它从一座繁忙的商埠，蜕变成了一颗时光胶囊，封存了弗里斯兰的灵魂。它的历史，不再是一连串辉煌的胜利清单，而是一条河流——有奔涌的贸易繁荣期，有激烈的宗教改革激流，有灾难的断崖，最终汇入一片平静而深邃的回忆之湖，映照着天空与过往。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要给博尔斯瓦德一天时间，节奏一定要慢。建议在上午9点左右抵达，这时晨雾刚散，阳光柔和，本地商店陆续开门，小镇刚刚苏醒，是最有生活气息的时刻。整体游览可以轻松地花费5-6小时，这包括了漫步、发呆、喝咖啡和细细品味建筑细节的时间。路线设计为一个环线，从市政厅广场这个核心开始，先感受黄金时代的辉煌，再沿着运河深入寻常巷陌，体会水城生活，最后抵达教堂遗址，在历史的寂静中沉思并结束旅程。这样的安排由闹入静，由完整入残缺，能让你最完整地体会这座小镇的情感光谱。记得穿一双舒适的步行鞋，因为最美的风景往往藏在那些汽车无法到达的砖石小径上。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇中心区域非常小巧，完全靠步行即可轻松游览，无需使用任何交通工具。许多小餐馆和咖啡馆在下午较早（约5点前）就停止供应热食，只提供饮品，计划用餐时间需留意。弗里斯兰省的天气说变就变，即使晴天也建议随身带一件轻便防风外套。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从市政厅广场（Grote Markt）开始，先别急着进去，而是绕着这座红砖杰作走一圈，仰头细细欣赏它山形墙上象征公正、智慧与繁荣的精美砂岩雕塑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开市政厅厚重的木门，走进大厅感受那穿越了三百五十年的肃穆与典雅，留意脚下黑白相间的大理石地板和头顶华丽的彩绘天花板。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从市政厅南侧的小巷钻出去，立刻投入运河的怀抱，选一条最安静的河边小路，比如沿着“Appingedamsterdwarsstraat”慢慢走，看红砖房、绿河水与蓝天形成完美的色块构图。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在运河边找一家有着大窗户的棕色咖啡馆（bruin café），比如‘De Waag’，点一杯醇厚的本地啤酒或咖啡，就着苹果派，看桥起桥落，船只缓缓通过。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`按照路标的指引，漫步穿过一片安静的住宅区，让宏伟的圣马丁教堂废墟如同一个巨大的惊叹号，突然出现在一片绿意盎然的开阔地之前。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`踏入教堂遗址公园，用手触摸那些粗糙冰凉、留有火灾和风雨痕迹的砖墙，然后找一片阳光下的草地坐下，任凭思绪随云飘荡。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从遗址公园的另一侧出口离开，沿着“Broereplein”小巷折返，这时你会经过一些有趣的本地小店和工作室，不妨进去看看弗里斯兰的手工艺品。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在夕阳西下前回到主运河边，此时光线变得金黄，是拍摄运河与倒影的魔法时刻，为这一天画上一个光影璀璨的句号。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`市政厅倒影之镜`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，站在市政厅前广场通向运河的小石桥（Brug bij het Stadhuis）上，低角度拍摄市政厅主体及其在水中的完美对称倒影，此时光线柔和，水面平静。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`运河街景纵深`}</h4>
+                  <p className="text-sm text-gray-700">{`在“Appingedamsterstraat”运河段，利用笔直的河道和两岸整齐的红砖房屋作为引导线，拍摄出具有强烈纵深感的画面，最佳时间是上午侧光时。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`马丁遗址的框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`站在马丁教堂遗址保留的某个高大拱门内部，以残破的砖拱作为前景框架，拍摄对面另一段矗立在蓝天绿草中的残墙，形成强烈的历史对话感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小巷光影捕捉`}</h4>
+                  <p className="text-sm text-gray-700">{`午后，钻进“Schultenstraat”这类狭窄小巷，等待阳光将两旁房屋的山形墙投影在古老的砖石路面上，形成明暗交替的几何图案，捕捉瞬间的光影戏剧。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`生活化场景`}</h4>
+                  <p className="text-sm text-gray-700">{`在老城区的某座小桥边，抓拍本地居民骑自行车过桥、或是在河边长椅阅读的瞬间，将宏伟建筑作为背景，让照片充满故事感和生活气息。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`弗里斯兰的光线以清澈、低角度著称，尤其擅长塑造建筑的质感，请珍惜日出后和日落前一小时的黄金时刻。拍摄居民住宅或私人花园时请保持尊重，尽量避免将镜头直接对准屋内。使用偏振镜可以极大增强消除运河水面反光，让倒影更清澈，红砖色彩更饱和。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`运河边历史小屋`}</h4>
+                  <p className="text-sm text-blue-800">{`入住一栋17世纪翻新的运河边砖砌小屋，木梁裸露，窗户直对潺潺流水，晚上能听到轻微的波浪拍岸声，是沉浸式的水乡体验。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`田园牧场民宿`}</h4>
+                  <p className="text-sm text-green-800">{`选择镇外骑行距离内的一家真正弗里斯兰农场民宿，醒来是奶牛哞叫，早餐是新鲜挤的牛奶和自制奶酪，主人会热情分享本地故事。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`精品设计酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻由老邮局改造的现代设计酒店，内部是极简北欧风，却完美保留了古老的砖墙立面，在历史外壳里享受最舒适的当代睡眠。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`静谧教堂遗址旁B&B`}</h4>
+                  <p className="text-sm text-purple-800">{`一家正对马丁教堂遗址花园的温馨家庭旅馆，房间窗户望出去就是那片震撼的废墟，在晨光与暮色中独享这份静谧与苍凉。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "博尔斯瓦德本身的住宿选择非常有限且抢手，尤其在夏季和周末，务必提前数月预订。也可以考虑以吕伐登为住宿基地，乘短途公交或骑车往返，这样夜晚有更多餐饮选择。小镇治安极好，夜晚安静得只有风声水声，适合追求彻底放松的旅人。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开博尔斯瓦德好多天了，但闭上眼，指尖仿佛还能触碰到那些红砖的粗糙与温润，鼻腔里还萦绕着那股混合了水汽、咖啡香和青草味的独特气息。这个地方教给我的，是一种“缓慢的深刻”。它没有试图用惊世骇俗的景观或沸反盈天的热闹来取悦你，它只是静静地在那里，如同一位经历了荣华与幻灭后变得通达从容的老者，不疾不徐地展示着它的皱纹与微笑，它的完整与残缺。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、迷恋“打卡”的时代，博尔斯瓦德的存在像是一剂解药。它提醒我们，旅行的意义有时不在于收集了多少地标，而在于你是否允许自己在一个地方真正地“停留”，去聆听砖石的低语，去感受光影的流动，去理解一种与水和时间和平共处的生活方式。马丁教堂的废墟，与其说是一个终点，不如说是一个起点——它启发了关于永恒与变迁、建造与消逝的无限沉思。而依然伫立的市政厅，则证明了人类文明在无常中寻求持久与美好的不懈努力。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了那些被旅游大巴塞满的街道，如果你的内心渴望一段能真正沉静下来的时光，请务必把博尔斯瓦德放入你的清单。它不会是你旅程中最喧闹的一站，但很可能，会成为你记忆中最安宁、最厚重、最挥之不去的一笔。来这里，不仅仅是用眼睛看一座荷兰小镇，更是用整个身心，去体验一段凝练在砖与水中的、关于时间本身的哲学。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/giethoorn-netherlands-steenwijkerland-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    羊
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">羊角村</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Giethoorn</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/valkenburg-castle-caves-netherlands" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    法
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">法尔肯堡（隐藏着绵延洞穴与地下圣诞市集的古堡废墟）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Valkenburg Castle Ruins & Caves</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/giethoorn" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    羊
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">羊角村</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Giethoorn</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,248 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '巴本豪森 Babenhausen｜探秘被时光遗忘的中世纪珍宝，漫步富格尔家族的金融帝国遗迹 - 最佳欧洲景点',
+  description: '当你把车停在镇外，徒步穿过那道厚重的、爬满藤蔓的东门（Obertor）时，时间仿佛“咔嗒”一声被调慢了。首先迎接你的不是景点指示牌，而是脚下被无数代人的鞋底磨得温润发亮的石板路，它们在不规则地延伸，引领你深入一个由蜂蜜色木筋房子构成的迷宫。空气里有股好闻的混合气息：老木头晒过太阳后的干燥味道，从某家',
+}
+
+export default function BabenhausenMedievalTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '巴本豪森镇（黑森州）', href: '/destinations/europe' },
+            { label: '巴本豪森', href: '/attractions/babenhausen-medieval-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`巴本豪森・Babenhausen・德国・巴本豪森镇（黑森州）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当你把车停在镇外，徒步穿过那道厚重的、爬满藤蔓的东门（Obertor）时，时间仿佛“咔嗒”一声被调慢了。首先迎接你的不是景点指示牌，而是脚下被无数代人的鞋底磨得温润发亮的石板路，它们在不规则地延伸，引领你深入一个由蜂蜜色木筋房子构成的迷宫。空气里有股好闻的混合气息：老木头晒过太阳后的干燥味道，从某家后院飘来的修剪过的青草香，还有一丝若有若无的、从面包房飘出的甜腻。你的脚步声在狭窄的巷弄里带回音，偶尔与骑着自行车、篮子里装着长法棍的居民擦肩而过，他向你点头说“Moin”（当地方言的问候），自然得就像你是这里的常客。
+这种奇妙的融入感，正是巴本豪森最核心的魅力。它不是一个被玻璃罩起来的博物馆，而是一个活着的、呼吸着的中世纪社区。你可以伸手触摸那些城墙——石材冰凉粗粝的质感直达掌心，有些石块上还留着当年石匠随性的刻痕。抬头看那些木筋房，黑色的木梁纵横交错，在浅黄或淡粉的墙面上画出几何图案，有些窗台上盛开着天竺葵，艳红如火。站在中心集市广场，你会瞬间明白这座小镇的格局：一切都以古老的圣尼古拉斯教堂和市政厅为圆心，被一圈绵延近一公里的城墙温柔而坚定地拥抱着。这份“被包围”的安全感，是穿越了八百年来到你身边的。
+而真正让这片静谧泛起历史波澜的，是那座沉默的富格尔城堡。它不像新天鹅堡那样张扬于山巅，而是低调地嵌在城墙的一角，与民宅为邻。但当你走近，看到它深邃的护城河（如今已变成宁静的花园）、厚重的拱门和墙面上那些用于架设火炮的方形射孔，你便能感受到一股截然不同的力量——不是田园诗歌，而是资本与权力的重量。这里，曾是连接奥格斯堡、安特卫普和威尼斯的金融神经网络上一个重要的节点。漫步于此，你仿佛能听到算盘的噼啪声、汇票的沙沙声，以及改变欧洲命运的金钱的无声流动。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你把车停在镇外，徒步穿过那道厚重的、爬满藤蔓的东门（Obertor）时，时间仿佛“咔嗒”一声被调慢了。首先迎接你的不是景点指示牌，而是脚下被无数代人的鞋底磨得温润发亮的石板路，它们在不规则地延伸，引领你深入一个由蜂蜜色木筋房子构成的迷宫。空气里有股好闻的混合气息：老木头晒过太阳后的干燥味道，从某家后院飘来的修剪过的青草香，还有一丝若有若无的、从面包房飘出的甜腻。你的脚步声在狭窄的巷弄里带回音，偶尔与骑着自行车、篮子里装着长法棍的居民擦肩而过，他向你点头说“Moin”（当地方言的问候），自然得就像你是这里的常客。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这种奇妙的融入感，正是巴本豪森最核心的魅力。它不是一个被玻璃罩起来的博物馆，而是一个活着的、呼吸着的中世纪社区。你可以伸手触摸那些城墙——石材冰凉粗粝的质感直达掌心，有些石块上还留着当年石匠随性的刻痕。抬头看那些木筋房，黑色的木梁纵横交错，在浅黄或淡粉的墙面上画出几何图案，有些窗台上盛开着天竺葵，艳红如火。站在中心集市广场，你会瞬间明白这座小镇的格局：一切都以古老的圣尼古拉斯教堂和市政厅为圆心，被一圈绵延近一公里的城墙温柔而坚定地拥抱着。这份“被包围”的安全感，是穿越了八百年来到你身边的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而真正让这片静谧泛起历史波澜的，是那座沉默的富格尔城堡。它不像新天鹅堡那样张扬于山巅，而是低调地嵌在城墙的一角，与民宅为邻。但当你走近，看到它深邃的护城河（如今已变成宁静的花园）、厚重的拱门和墙面上那些用于架设火炮的方形射孔，你便能感受到一股截然不同的力量——不是田园诗歌，而是资本与权力的重量。这里，曾是连接奥格斯堡、安特卫普和威尼斯的金融神经网络上一个重要的节点。漫步于此，你仿佛能听到算盘的噼啪声、汇票的沙沙声，以及改变欧洲命运的金钱的无声流动。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`巴本豪森`} />
+                <InfoRow label="英文名称" value={`Babenhausen`} />
+                <InfoRow label="正式名称" value={`Babenhausen`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`巴本豪森镇（黑森州）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座完整保留了中世纪防御体系的小镇，更是欧洲金融史上叱咤风云的富格尔家族在德国北部的重要权力据点。`} />
+                <InfoRow label="建筑特色" value={`由暗红色砂岩城墙严密环绕，城内是错落有致的木筋（Fachwerk）房屋，标志性的“女巫塔”高耸，而富格尔城堡则完美融合了军事防御的厚重与文艺复兴时期贵族生活的优雅。`} />
+                <InfoRow label="建筑风格" value={`以晚期哥特式木筋结构民居为主体，混合了文艺复兴风格的城堡扩建部分，城墙与塔楼则体现了典型的中世纪防御建筑特征。`} />
+                <InfoRow label="文化价值" value={`它像一枚时间胶囊，封存了从神圣罗马帝国的地方防御要塞，到银行家族通过资本力量影响欧洲政治经济的微观历史轨迹。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇公共区域全天开放。富格尔城堡博物馆开放时间为每年4月至10月，周二至周日上午10:00至下午5:00；11月至次年3月仅周末上午11:00至下午4:00开放。13世纪女巫塔仅在夏季的周六下午2:00-5:00开放登塔，或通过当地旅游局预约导览。圣诞节期间及新年第一天大部分室内景点关闭。`} />
+              <InfoRow label="门票价格" value={`进入古镇免费。富格尔城堡博物馆成人票6欧元，优惠票（学生、残疾人）4欧元，家庭票（2大2小）14欧元。包含博物馆与女巫塔导览的联票为10欧元。6岁以下儿童免费。每月第一个周日博物馆门票半价。`} />
+              <InfoRow label="地址" value={`Schlossplatz 1, 64832 Babenhausen, Germany`} />
+              <InfoRow label="交通方式" value={`从法兰克福国际机场（FRA）出发最便捷。在机场长途火车站乘坐区域快车（RE）或区域列车（RB）前往迪堡（Dieburg）站，车程约25分钟，班次密集约每半小时一班。在迪堡站换乘K55或OF-42路公交车，约20分钟直达巴本豪森镇中心“Rathaus”站。全程约1.5小时。建议购买黑森州一日通票（Hessen Ticket），可无限次乘坐区域内所有公交和慢车，非常划算。若自驾，从法兰克福沿A3高速公路向东，于57号出口驶出，沿Staatsstraße 231号公路约15分钟即可抵达，镇外有多个免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "巴本豪森的故事，始于一道皇帝的命令。1237年，德意志国王康拉德四世授予这里市场权和筑城权，一道坚固的城墙开始在美因河畔的平原上崛起，旨在保护帝国通往富饶莱茵河流域的商路。最初的城堡是纯粹的军事堡垒，而那座今天被称为“女巫塔”（Hexenturm）的监狱塔楼，从13世纪起就阴森地矗立在东北角。它的名字来源于更晚近的、黑暗的传说，但在数百年里，它关押过真正的囚犯、敌方的士兵，石壁浸透了无数无声的叹息。小镇在城墙的庇护下缓慢生长，木筋房一栋栋立起，教堂的钟声每日定时敲响，规训着田园诗般的时光。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "命运的转折点发生在1538年。一个来自南德奥格斯堡的姓氏，彻底改写了小镇的篇章。那就是富格尔（Fugger）家族，欧洲文艺复兴时期最显赫的银行王朝，被称为“神圣罗马帝国的出纳员”。他们贷款给皇帝和教皇，资助葡萄牙的香料远征，其商业帝国版图横跨大洲。当时家族的掌门人安东·富格尔，为了巩固在北部的势力，从陷入财政困境的冯·巴本豪森骑士手中，买下了这座城堡和整个领地。对富格尔家族而言，这并非一处度假别墅，而是一项战略资产——一个靠近法兰克福金融中心、守卫重要陆路交通线的坚固据点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，资本的洪流开始重塑这座军事堡垒。富格尔家族投入巨资，将城堡从一座冷冰冰的防御工事，改造为兼具居住舒适性与威慑力的庄园。他们加建了文艺复兴风格的华丽立面，开凿了巨大的酒窖，但同时又强化了城墙和塔楼，保留了完整的防御体系。你可以想象，当满载银币的马车在武装护卫下隆隆驶入城堡庭院，当来自欧洲各处的商业信函在这里被解码和回复时，这个安静的小镇如何悄然成为一张巨大金融网络上的活跃节点。城堡不仅是家，更是银行、保险库和外交使馆的复合体。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，财富也引来了风暴。十七世纪席卷欧洲的三十年战争（1618-1648）将巴本豪森拖入了深渊。作为新教地区的重要据点，它先后被天主教联盟军和瑞典军队反复争夺、占领、洗劫。城墙经受了炮火的考验，许多民居被焚毁，人口锐减。富格尔家族虽然财力雄厚，但面对战争的全面破坏也无力回天。战争结束后，家族逐渐将重心移回南德，这座城堡在随后的几个世纪里多次易主，从军事要塞变为行政官邸，再变为单纯的私人住宅，昔日的金融荣光渐渐蒙尘，只剩下建筑本身倔强地诉说着过往。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转到现代，巴本豪森幸运地躲过了二战的猛烈破坏。二十世纪中叶起，当地居民和文物保护者开始有意识地修复和维护这份珍贵的中世纪遗产。木筋房被精心修缮，城墙得到了加固，城堡也被地方政府收回并改建为博物馆和活动场所。今天，当你走在这里，你看到的不仅是保存完好的历史建筑，更是一个社区共同守护记忆的生动范例。从帝王的边境要塞，到银行家的权力棋盘，再到战争硝烟后的平静小镇，巴本豪森层叠的历史，就像它木筋墙面的纹理一样，清晰可辨，触手可及。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受巴本豪森的层次，建议安排一整天时间，从容不迫地漫游。最佳抵达时间是上午九点左右，这时游客尚少，晨光柔和，能拍到城墙和街道最宁静的画面。整个游览节奏宜慢不宜快，核心是“沉浸”二字。建议先从外围的城墙开始，建立整体空间感，然后深入小巷感受生活气息，最后重点参观富格尔城堡博物馆，将感官体验与历史知识融合。下午晚些时候，光线变得金黄，是登高（如果开放）或是在城墙边漫步的最佳时刻。整体耗时约4-5小时，不包括午餐和咖啡时光。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必提前在镇政府官网或当地旅游局页面确认富格尔城堡博物馆和女巫塔的具体开放日期，它们可能因私人活动或维修突然关闭。
+小镇石板路多且不平，请务必穿着舒适耐走的平底鞋，高跟鞋在这里绝对是“灾难”。
+尊重当地居民隐私，拍照时尽量避免直接对准住户的窗户或私人庭院，许多木筋房仍是私人住宅。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从最具标志性的东门（Obertor）进入古镇，亲手触摸那扇厚重的橡木门板和门洞内壁被马车轮磨出的深深凹槽。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着内侧的城墙小径（Wallgraben）向北慢慢行走，抬头观察城墙雉堞和巡逻道的细节，感受自己被历史防线环绕的独特视角。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在城墙东北角驻足，仰望那座阴郁而坚实的13世纪女巫塔，想象它曾俯瞰过的无数悲欢与战火。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`穿过宁静的住宅区，走到富格尔城堡的护城河花园，从外侧欣赏城堡与城墙融为一体的防御姿态，然后通过拱桥进入内庭院。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在城堡博物馆里花上一个小时，细细观看那些展示富格尔家族全球商业网络、本地生活和中世纪防御工事的古老地图、账簿与武器。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`寻找机会登上城堡主楼或城墙的某一段（根据开放情况），俯瞰整个小镇如玩具积木般错落的红瓦屋顶和教堂尖顶。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`随意迷失在集市广场（Marktplatz）周围如蛛网般的小巷里，用目光抚摸每一栋木筋房不同的雕刻图案和倾斜角度。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`最后，在夕阳西下时，绕到古镇西侧的城墙外，回望这座在暖金色光芒中宛如童话模型的完整中世纪小镇，为旅程画上圆满句号。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`东门外护城河畔仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨八点前，站在东门外的绿地，用广角镜头仰拍城门塔楼与完整城墙的倒影映在宁静的水面上，构图力求对称。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡庭院拱门框景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三点左右，阳光斜射入城堡内院，站在通向花园的拱门下，以拱门为画框，拍摄庭院中沐浴在光影里的文艺复兴建筑立面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`女巫塔剪影与晚霞`}</h4>
+                  <p className="text-sm text-gray-700">{`夏季傍晚约七点后，走到小镇北面的农田小径上，用长焦镜头捕捉女巫塔在绚烂晚霞映衬下的黑色剪影，突出其孤独而古老的神韵。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`集市广场木筋房光影`}</h4>
+                  <p className="text-sm text-gray-700">{`正午时分阳光直射时，在集市广场寻找阳光照射在木筋墙面上形成的强烈明暗对比，聚焦于窗户、雕刻和阴影构成的几何图案。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城墙徒步道俯瞰小镇`}</h4>
+                  <p className="text-sm text-gray-700">{`在城墙南段开放的徒步道上，找到一个能同时囊括圣尼古拉斯教堂尖顶、一片红瓦屋顶和远方田野的视角，使用中焦段拍摄，营造层次感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄木筋房时，尝试寻找有鲜花点缀的窗户或特色门环的细节，这比拍摄整栋房子更能体现生活气息与美感。`}</li>
+                <li>• {`德国人对隐私极其重视，若想拍摄居民或他们的房屋，一个友好的微笑和事先的手势询问能避免不必要的误会。`}</li>
+                <li>• {`利用雨后的湿润石板路反射天光和街灯，能拍出极具氛围感的夜景，但要注意保护相机设备。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨家庭旅馆`}</h4>
+                  <p className="text-sm text-blue-800">{`住在古镇中心一栋有300年历史的木筋房家庭旅馆里，房东老夫妇会为你准备丰盛的德式早餐，并在壁炉边分享小镇不为人知的传说。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`骑士之家民宿`}</h4>
+                  <p className="text-sm text-green-800">{`由一栋十六世纪骑士住宅改造的精品民宿，房间保留了原始的木梁结构和石墙，现代化的设施隐匿其中，夜晚格外宁静，只有窗外传来的教堂钟声。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`葡萄园庄园酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于小镇外约3公里处的一座家族经营葡萄园内，房间宽敞，拥有直面葡萄田的阳台，可以品尝庄园自酿的雷司令，享受完全静谧的多间夜晚。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`法兰克福当日往返`}</h4>
+                  <p className="text-sm text-purple-800">{`如果你行程紧张，完全可以将巴本豪森作为从法兰克福出发的一日游目的地，法兰克福有从国际连锁到设计酒店的众多选择，交通也十分便利。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如果选择住在古镇内，请做好夜晚极其安静、几乎没有夜生活的准备，这正是体验中世纪小镇慢时光的精髓。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旺季（夏季和圣诞市场期间）古镇内的住宿非常抢手，建议至少提前两个月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇治安极好，但古老房屋隔音可能一般，这是体验的一部分，不妨带上耳塞以备不时之需。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开巴本豪森许久，我脑海里最清晰的画面，不是某座雄伟的塔楼，而是那个午后，我在城墙根下看到的一幕：一位白发老奶奶，正慢悠悠地擦拭着她家木筋房窗台上的花盆。她的动作熟练而轻柔，身后是经历了无数风雨的黑色木梁。那一刻，历史不再是教科书上遥远的词汇，而是眼前触手可及的生活。巴本豪森教会我的，正是这种“历史与当下”的浑然一体。它没有把辉煌的过去供奉起来，而是让它们成为今天人们窗台上的鲜花、脚下光滑的石路、和傍晚厨房里飘出的土豆汤香气。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、一切都被加速的世界里，巴本豪森的存在，像一声悠长的、坚定的深呼吸。它提醒我们，有些价值无法被量化，比如一道城墙给予一个社区千年的安全感，比如一代代人对家园样貌的执着守护。来这里，你不是为了收集又一个“景点”，而是为了让自己慢下来，用脚步丈量时间的厚度，用手指感知石头的记忆，并重新思考什么是真正的“富有”。富格尔家族用金钱建造和改造了它，但最终，让这座小镇熠熠生辉的，是时间本身，以及那些选择与时间温柔相处的普通人。这或许就是深度旅行最珍贵的礼物：它让你看到的不仅是风景，更是风景背后，那缓慢而坚韧的、人类生活的韵律。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/danube-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    多
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">多瑙沃特古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Danube Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/weilburg" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    威
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">威尔堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Weilburg</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/reichsburg-cochem" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科赫姆帝国城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Reichsburg Cochem</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

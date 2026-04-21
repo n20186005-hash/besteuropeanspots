@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '扎尔特博默尔 Zaltbommel｜探访瓦尔河畔没有尖顶的守望者，漫步中世纪城墙绿道 - 最佳欧洲景点',
+  description: '当我第一次从火车站走出来，沿着一条安静的林荫道走向扎尔特博默尔时，完全没料到迎接我的会是这样一幅画面。穿过那道被称为“水门”的古老城门洞，仿佛一步跨过了时间的薄膜。外面是典型的、整洁有序的荷兰现代小镇，里面却是一个被时光按下暂停键的微型世界。空气里的味道都不一样了，有一股老砖石在阳光下微微发热的干燥',
+}
+
+export default function ZaltbommelFortressTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '荷兰', href: '/destinations/europe' },
+            { label: '扎尔特博默尔', href: '/destinations/europe' },
+            { label: '扎尔特博默尔', href: '/attractions/zaltbommel-fortress-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`扎尔特博默尔・Zaltbommel・荷兰・扎尔特博默尔`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当我第一次从火车站走出来，沿着一条安静的林荫道走向扎尔特博默尔时，完全没料到迎接我的会是这样一幅画面。穿过那道被称为“水门”的古老城门洞，仿佛一步跨过了时间的薄膜。外面是典型的、整洁有序的荷兰现代小镇，里面却是一个被时光按下暂停键的微型世界。空气里的味道都不一样了，有一股老砖石在阳光下微微发热的干燥气息，混合着从路边咖啡馆飘出的新鲜咖啡香和烤苹果派的甜腻。最震撼的视觉冲击，莫过于一抬眼就撞见那座圣马丁教堂的塔楼——它那么高，那么稳地占据着天际线，但顶端却是平的，像一个被巨人小心翼翼削去了尖顶的铅笔，沉默而古怪地指向天空。那种不协调感，反而成了它最强烈的个性签名。
+耳朵里听到的声音也很有层次。远处瓦尔河上货轮低沉悠长的汽笛声，近处自行车铃铛清脆的“叮铃”声，还有步道上推着婴儿车的父母、慢跑者、遛狗的老人互相打招呼的轻柔荷兰语。这里丝毫没有一些热门古城那种被游客挤满的喧嚣。城墙，这座城市的盔甲，如今彻底卸下了防御的使命。我顺着石阶爬上城墙步道，脚下是宽厚的砖石，身边是高大的椴树和梧桐，它们的树冠在头顶交织成绿色的穹顶，阳光碎成金币洒在脸上。从这里望出去，一侧是红瓦黄砖、屋顶错落有致的安宁古城，另一侧是开阔的、闪烁着银光的瓦尔河与无垠的绿色圩田。风毫无阻挡地吹过来，带着河水的湿润和青草的清新。这一刻，历史不再是教科书上冰冷的文字，而是你脚下踏着的、手边摸着的、眼里看着的鲜活存在。
+扎尔特博默尔最打动人心的，正是这种“活着”的状态。你看到的历史遗迹，不是被栏杆围起来仅供瞻仰的标本。老太太在城墙下的长椅上织毛衣，孩子们在教堂广场上追逐鸽子，年轻人坐在古老的防御土墙上喝着啤酒看日落。那座没有尖顶的教堂，不再是需要仰视的遥远神迹，它就像一位沉默而慈祥的老邻居，每日俯视着市集的开设、节庆的游行、人们的悲欢。在这里，中世纪的城市肌理与现代荷兰人的日常生活，缝合得天衣无缝。它让你明白，最好的保护不是封存，而是让历史自然地呼吸，成为社区心跳的一部分。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当我第一次从火车站走出来，沿着一条安静的林荫道走向扎尔特博默尔时，完全没料到迎接我的会是这样一幅画面。穿过那道被称为“水门”的古老城门洞，仿佛一步跨过了时间的薄膜。外面是典型的、整洁有序的荷兰现代小镇，里面却是一个被时光按下暂停键的微型世界。空气里的味道都不一样了，有一股老砖石在阳光下微微发热的干燥气息，混合着从路边咖啡馆飘出的新鲜咖啡香和烤苹果派的甜腻。最震撼的视觉冲击，莫过于一抬眼就撞见那座圣马丁教堂的塔楼——它那么高，那么稳地占据着天际线，但顶端却是平的，像一个被巨人小心翼翼削去了尖顶的铅笔，沉默而古怪地指向天空。那种不协调感，反而成了它最强烈的个性签名。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "耳朵里听到的声音也很有层次。远处瓦尔河上货轮低沉悠长的汽笛声，近处自行车铃铛清脆的“叮铃”声，还有步道上推着婴儿车的父母、慢跑者、遛狗的老人互相打招呼的轻柔荷兰语。这里丝毫没有一些热门古城那种被游客挤满的喧嚣。城墙，这座城市的盔甲，如今彻底卸下了防御的使命。我顺着石阶爬上城墙步道，脚下是宽厚的砖石，身边是高大的椴树和梧桐，它们的树冠在头顶交织成绿色的穹顶，阳光碎成金币洒在脸上。从这里望出去，一侧是红瓦黄砖、屋顶错落有致的安宁古城，另一侧是开阔的、闪烁着银光的瓦尔河与无垠的绿色圩田。风毫无阻挡地吹过来，带着河水的湿润和青草的清新。这一刻，历史不再是教科书上冰冷的文字，而是你脚下踏着的、手边摸着的、眼里看着的鲜活存在。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "扎尔特博默尔最打动人心的，正是这种“活着”的状态。你看到的历史遗迹，不是被栏杆围起来仅供瞻仰的标本。老太太在城墙下的长椅上织毛衣，孩子们在教堂广场上追逐鸽子，年轻人坐在古老的防御土墙上喝着啤酒看日落。那座没有尖顶的教堂，不再是需要仰视的遥远神迹，它就像一位沉默而慈祥的老邻居，每日俯视着市集的开设、节庆的游行、人们的悲欢。在这里，中世纪的城市肌理与现代荷兰人的日常生活，缝合得天衣无缝。它让你明白，最好的保护不是封存，而是让历史自然地呼吸，成为社区心跳的一部分。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`扎尔特博默尔`} />
+                <InfoRow label="英文名称" value={`Zaltbommel`} />
+                <InfoRow label="正式名称" value={`Zaltbommel`} />
+                <InfoRow label="国家" value={`荷兰`} />
+                <InfoRow label="城市" value={`扎尔特博默尔`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座瓦尔河（Waal）畔的战略要塞，曾是荷兰“水线”防御体系中的重要一环，其标志性的无顶圣马丁教堂塔楼，见证了从中世纪贸易繁荣到近代战争洗礼的完整历史。`} />
+                <InfoRow label="建筑特色" value={`最引人注目的是一座被中世纪城墙完整环绕的紧凑古城，城墙顶部现已化身成为一条绿树成荫、风景如画的环形公共步道，而城内的圣马丁教堂则拥有一座在16世纪被闪电击毁尖顶后、以独特平顶造型屹立至今的哥特式塔楼。`} />
+                <InfoRow label="建筑风格" value={`以中世纪晚期的哥特式砖砌建筑为主，防御工事体现了典型的荷兰堡垒城市布局，后期修复融合了简约实用的现代功能主义。`} />
+                <InfoRow label="文化价值" value={`它是一个活生生的社区而非纯粹的博物馆，完美展示了荷兰人如何将沉重历史遗产转化为日常休闲生活空间的生活哲学。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`圣马丁教堂塔楼开放时间随季节变化：通常4月至10月，周二至周六下午1点至5点开放；11月至3月仅周六下午开放。环绕古城的城墙步道（Boomse Walk）全天24小时免费开放。城墙博物馆（Museum Stadskasteel Zaltbommel）开放时间为周二至周五上午11点至下午5点，周末下午1点至5点，周一闭馆。具体开放时间建议出行前查看官网，荷兰的公共节假日可能影响开放。`} />
+              <InfoRow label="门票价格" value={`圣马丁教堂主体免费进入，登塔楼门票约为5欧元，学生及65岁以上长者有优惠。城墙步道完全免费。城墙博物馆门票约为8欧元，持有博物馆卡（Museumkaart）可免费进入。教堂和博物馆常有联票优惠，详情以现场公告为准。`} />
+              <InfoRow label="地址" value={`Grote Kerkstraat 2, 5301 GB Zaltbommel, Netherlands`} />
+              <InfoRow label="交通方式" value={`从阿姆斯特丹史基浦机场出发，最便捷的方式是乘坐火车。在机场火车站搭乘前往乌得勒支中央火车站的列车（Intercity，约30分钟），在乌得勒支换乘前往蒂尔堡或斯海尔托亨博思方向的火车，在“Zaltbommel”站下车（车程约25-30分钟）。从火车站步行至古城中心约需10-15分钟，沿着清晰的指示牌穿过宁静的居民区即可抵达老城门。火车班次非常频繁，通常15-20分钟一班，建议使用荷兰铁路（NS）APP或售票机购票，选择电子票（E-ticket）最为方便。若自驾，可将车停在古城外的免费或收费停车场（如‘P+R Zaltbommel’），避免驶入狭窄的古城街道。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "扎尔特博默尔的故事，是和一条河紧紧捆绑在一起的。瓦尔河，莱茵河最重要的分支，像一条动脉贯穿荷兰中部。早在罗马时代，这里可能就有一个渡口。但真正让这个定居点登上历史舞台的，是公元13世纪。它获得了城市特许状，名字里的“Bommel”据说源于一条古老的小溪，而“Zalt”（盐）则揭示了它早期作为盐贸易站的重要性。河流带来了财富，也带来了危险。于是，一圈坚固的城墙被修筑起来，将教堂、市集和民居牢牢护在其中。那时的扎尔特博默尔，是一个典型的、欣欣向荣的中世纪河畔商业城镇，塔楼尖顶高耸，象征着与上帝和繁荣的紧密联系。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，命运在1540年7月23日这一天，开了一个残酷的玩笑。一场猛烈的雷暴袭击了城市，一道闪电不偏不倚地击中了圣马丁教堂骄傲的尖顶。火焰腾空而起，木结构的尖顶在全城人的惊恐注视下坍塌、燃烧殆尽。你可以想象那幅景象：浓烟滚滚，灰烬像黑色的雪一样飘满全城，人们跪在废墟前祈祷。重建尖顶需要巨资，而随后席卷尼德兰的宗教改革风暴与八十年战争，让这座城市再也无力恢复它昔日的天际线轮廓。于是，那座被烧焦、剃平了头的塔楼，就这么带着伤痕留存了下来，意外地成为了城市最独特的标志。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的戏剧性转折发生在16世纪末至17世纪。扎尔特博默尔因其扼守瓦尔河的战略位置，成了兵家必争之地。它被卷入了荷兰独立战争（八十年战争）的漩涡。大名鼎鼎的奥兰治亲王威廉一世（沉默者威廉）曾在此指挥作战，他的军队与西班牙军队围绕这座城市反复争夺。城墙在炮火中不断加固、变形，从一道中世纪屏障，进化成为荷兰“水线”防御体系中的一个正式堡垒。所谓“水线”，是荷兰人最天才也最无奈的国防发明：在敌人来犯时，打开闸门淹没大片土地，形成一道无法逾越的水障。扎尔特博默尔，就是这道水线上一颗关键的“钉子”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "和平年代终于到来后，城墙失去了军事意义。它们一度成为碍事的废墟，甚至面临被拆除的命运。但幸运的是，在19世纪末20世纪初，一种新的观念兴起：历史遗迹是民族的身份记忆。于是，城墙得到了修复。但荷兰人没有把它做成一个死气沉沉的展示品。他们想出了一个绝妙的主意：将城墙顶部拓宽，铺上路径，种上树木，把它变成了一条供市民散步、跑步、骑车的环形公园。这个改造，堪称点睛之笔。它彻底改变了城墙与人的关系——从隔阂的壁垒，变成了连接的纽带；从战争的工具，变成了生活的享受。今天我们所见的绿树成荫的“Boomse Walk”，正是这一智慧最美丽的体现。它诉说着一个道理：最坚固的防御，最终会败给时间；但最温柔的接纳，却能赢得永恒。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要彻底领略扎尔特博默尔的精髓，我强烈建议你安排一个大半天的时光，最好从午后开始。这样的节奏能让你避开可能的旅游团（虽然这里本就小众），在阳光最柔和的傍晚时分漫步城墙，并有机会看到古城的日落。整个深度游览耗时大约4-5小时。起点自然是火车站，步行入城的这段路是很好的情绪铺垫。核心路线是一个“由内而外，再由外环抱”的循环：先深入古城中心，感受它的脉搏；然后登上城墙步道，换个上帝视角俯瞰它；最后在河边结束，看河流与古城的对话。这样的安排能让你从微观到宏观，全方位理解这座堡垒城市的空间逻辑和独特魅力。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`教堂塔楼的楼梯非常狭窄陡峭且旋转，上下楼需格外小心，不建议有严重幽闭恐惧症或行动不便者攀登。城墙步道部分路段没有护栏且地面不平，建议穿一双舒适防滑的鞋子。周日很多小商店和博物馆可能关门或缩短营业时间，但咖啡馆和餐厅通常照常营业。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从火车站出来，跟着“Binnenstad”（市中心）的棕色指示牌，悠闲地穿过宁静的住宅区，让那座没有尖顶的塔楼慢慢成为你前进的向导。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从古老的“水门”（Waterpoort）拱门下穿过，用手触摸一下那冰凉湿润的砖石，正式踏入被城墙环抱的中世纪世界。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`径直走向圣马丁教堂广场，在咖啡馆“De Bakkerij”的露天座位坐下，点一杯咖啡，什么也不做，就看着广场上的人和那座沉默的塔楼，感受时间的流速。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`进入圣马丁教堂内部，感受高大中殿的宁静，然后鼓起勇气爬上塔楼的数百级台阶，在平顶的观景台上迎着风，将棋盘般的古城和银色缎带般的瓦尔河尽收眼底。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂出来，拐进任何一条狭窄的、铺着鹅卵石的小巷，比如Korte Achterstraat，漫无目的地闲逛，欣赏那些山形墙民居上精美的细节和窗台盛开的鲜花。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到登上“Boomse Walk”城墙步道的石阶（例如在Gasthuisstraat附近），开始你的高空漫步，在绿荫中从各个角度欣赏古城屋顶的韵律和城外的田园风光。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着步道一直走到西北角，这里视野最为开阔，找一张长椅坐下，静静等待夕阳为瓦尔河和对岸的风景镀上金边。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落之后，从步道下来，沿着河道（Waalkade）散步，看灯火初上的古城倒映在漆黑的水面上，最后找一家河边餐厅，比如‘t Waaltje，用一顿地道的荷兰晚餐结束这完美的一天。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`瓦尔河对岸堤坝远眺`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前约一小时，从河北岸（例如在Gamersch镇方向）用长焦镜头拍摄，能将完整的古城轮廓、城墙绿带、圣马丁教堂平顶塔楼以及河中的倒影一同收入画面，构图饱满而富有层次。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣马丁教堂塔楼下仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个晴朗的午后，站在教堂广场的东南角，用广角镜头向上拍摄，将那座极具特色的平顶塔楼与荷兰典型的流动云层一同构入画面，凸显其历史的沧桑与天空的灵动。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`城墙步道“Boomse Walk”俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`在步道的东南段，找到一个缺口或转弯处，向下俯拍古城内交错的红瓦屋顶、狭窄的街巷和点缀其间的绿色庭院，最好能捕捉到一两个骑自行车穿行的当地人，让画面充满生活气息。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“水门”拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚光线柔和时，站在城门内侧或外侧，透过深邃的拱门隧道拍摄对面的街景或教堂塔楼，利用拱门形成天然的画框，增加照片的纵深感和故事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`古城区内街角光影`}</h4>
+                  <p className="text-sm text-gray-700">{`在下午三四点，阳光斜射入狭窄小巷时，寻找那些被阳光照亮一半的古老砖墙、门洞和鹅卵石路面，拍摄细节或等待一个路人走过，捕捉光与影、历史与当下的瞬间交汇。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`荷兰天气多变，多云天气的光线其实非常柔和，适合拍摄建筑细节和人文场景，不必一味追求蓝天。拍摄居民房屋和私人庭院时，请务必保持尊重，避免 intrusive 的长焦窥探。使用无人机在当地有严格限制，特别是在历史建筑和住宅区上空，起飞前务必查清当地法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`精品酒店之选`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻于古城中心一栋17世纪商人住宅改造的精品酒店，房间保留了古老的木梁和壁炉，窗户正对着圣马丁教堂的塔楼，清晨在悠远的教堂钟声中醒来。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`温馨家庭旅馆`}</h4>
+                  <p className="text-sm text-green-800">{`住在城墙根下一对艺术家夫妇经营的温馨B&B，女主人会为你准备丰盛的本地早餐，房间里摆满了主人的收藏和画作，后花园直通城墙步道。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计感公寓体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`租住运河边一间现代化的 loft 公寓，拥有整面的玻璃窗，可以一边在开放式厨房烹饪，一边欣赏窗外古老的城墙与流淌的河水形成的时空对话。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`城外庄园静谧`}</h4>
+                  <p className="text-sm text-purple-800">{`如果追求绝对宁静，可以选择驱车10分钟到达城外圩田中的一家古老农庄改造的旅馆，在无边的绿色田野和星空下入睡，体验真正的荷兰乡村风情。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "古城内住宿选择有限且非常热门，尤其是夏季和周末，务必提前数月预订。住在城墙内的好处是沉浸感无敌，但可能受教堂整点钟声影响（对有些人来说是情趣）。城外住宿更静谧，空间也更大，但需要依赖自行车或汽车交通。无论住在哪里，这里的夜晚都非常安全宁静。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开扎尔特博默尔时，我的脑海里反复出现着那座平顶塔楼的形象。它不像其他完美的大教堂那样，给你一种抵达天堂的眩晕感。它的不完美，它的残缺，恰恰成了它最诚实、最有力的语言。它像一个经历了战火、灾难、岁月磨洗却依然笔直站立的老人，不再追求触不可及的天穹，而是稳稳地、温柔地守护着脚下这片土地和世代生活于此的人们。这种“守望”的姿态，比任何华丽的尖顶都更令人动容。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在当今这个追求效率、渴望崭新、热衷于打卡“完美”景点的快节奏世界里，扎尔特博默尔提供了一种截然不同的旅行价值。它教你慢下来，去欣赏一种“未完成”的美，去体会历史如何以伤疤的形式成为身份的一部分。它向你展示，伟大的遗产保护，不是制造一个无菌的琥珀化石，而是赋予历史以新的、充满活力的生命形式——就像那条将防御工事变为社区客厅的城墙步道。在这里，你会感受到一种罕见的平和与完整。它或许不会用恢弘的气势震撼你，但它会用一种细腻的、渗透到日常纹理中的历史感，轻轻叩动你的心扉。对于任何一位厌倦了浮光掠影，渴望触摸欧洲历史真实脉搏与温度的深度旅者来说，这个瓦尔河畔的宁静堡垒，都值得你专程为它停留一日，让它告诉你，关于时间、 resilience 与生活本身，一个沉默而悠长的故事。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/veere-historic-port" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    费
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">费勒</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Veere</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/forchtenstein-castle-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    福
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">福尔希滕施泰因城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Forchtenstein Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/orvelte-drenthe-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔韦尔特（无车活体民俗村落）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Orvelte</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

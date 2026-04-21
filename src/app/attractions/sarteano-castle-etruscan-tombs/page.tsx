@@ -1,0 +1,245 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '萨尔泰阿诺 Sarteano｜托斯卡纳隐秘山城，探访阿拉贡城堡与震撼的伊特鲁里亚“地狱四马战车”壁画墓 - 最佳欧洲景点',
+  description: '车子在托斯卡纳典型的丝绒般起伏的丘陵间穿行，当你以为眼前尽是熟悉的葡萄园和柏树大道风景时，一个尖锐的、灰褐色的轮廓突然刺破地平线。那就是萨尔泰阿诺的阿拉贡城堡，它不像那些被打理得过于精致的城堡，而是带着一种粗粝的、警觉的气质，牢牢钉在石灰岩山脊的最高点，仿佛一头沉睡的石鹰。第一眼，你就能感到它的不同',
+}
+
+export default function SarteanoCastleEtruscanTombsPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '萨尔泰阿诺（锡耶纳省）', href: '/destinations/italy' },
+            { label: '萨尔泰阿诺', href: '/attractions/sarteano-castle-etruscan-tombs' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`萨尔泰阿诺・Sarteano・意大利・萨尔泰阿诺（锡耶纳省）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在托斯卡纳典型的丝绒般起伏的丘陵间穿行，当你以为眼前尽是熟悉的葡萄园和柏树大道风景时，一个尖锐的、灰褐色的轮廓突然刺破地平线。那就是萨尔泰阿诺的阿拉贡城堡，它不像那些被打理得过于精致的城堡，而是带着一种粗粝的、警觉的气质，牢牢钉在石灰岩山脊的最高点，仿佛一头沉睡的石鹰。第一眼，你就能感到它的不同：这里没有旅游大巴的喧嚣，空气里只有干燥的松针味、远处教堂隐约的钟声，和一种近乎凝滞的宁静。
+把车停在镇子边缘，徒步走进中世纪拱门，时间立刻慢了下来。脚下的鹅卵石被岁月打磨得光滑如卵，折射着上午温和的阳光。主街上，几个老人坐在酒吧外，用小得如同玩具的咖啡杯喝着浓缩咖啡，他们交谈的声音很低，混着咖啡机蒸汽的嘶嘶声。晾晒的床单在古老石窗间飘荡，散发出阳光和肥皂的干净气味。你会瞬间明白，城堡不仅是景点，更是这个社区永恒的背景板，是孩子们玩耍时仰望的坐标，是老人们一生故事的沉默见证者。生活的脉搏在这里平稳跳动，与游客的探访互不干扰。
+然而，萨尔泰阿诺真正的灵魂，不仅在山巅，更在脚下的大地深处。驱车前往镇外一片不起眼的橄榄林，预约好的向导会带你走进一扇现代修建的保护门，沿着陡峭的阶梯向下，深入阴凉、散发着泥土气息的地底。当灯光亮起，时间在刹那间被抽空——你正站在一个公元前4世纪的伊特鲁里亚墓室中。四周墙壁上，绚烂的色彩扑面而来：朱红的背景上，绘着葬礼宴席、舞者、还有那只存在于神话中的生物。最令人屏息的，是墓室后墙那幅“地狱四马战车”：一个蓝色的恶魔（或许是冥界使者）驾着一辆由四匹雪白骏马拉动的战车，正疾驰在通往亡者世界的路上。那种动感、那种对死后世界的生动想象，带着一种直击心灵的原始力量，让你忘却呼吸。
+这就是萨尔泰阿诺最打动人心的核心魅力：它提供了一种极其私密而又深刻的历史对话。上午，你还在中世纪城堡的塔楼上，迎着山风俯瞰领主曾守卫的疆土；下午，你便已潜入更古老、更神秘的地下世界，与一个早已消失的文明面对面。这种垂直维度的时空穿梭，这种从战争堡垒到灵魂居所的强烈对比，在托斯卡纳乃至整个意大利，都独此一份。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在托斯卡纳典型的丝绒般起伏的丘陵间穿行，当你以为眼前尽是熟悉的葡萄园和柏树大道风景时，一个尖锐的、灰褐色的轮廓突然刺破地平线。那就是萨尔泰阿诺的阿拉贡城堡，它不像那些被打理得过于精致的城堡，而是带着一种粗粝的、警觉的气质，牢牢钉在石灰岩山脊的最高点，仿佛一头沉睡的石鹰。第一眼，你就能感到它的不同：这里没有旅游大巴的喧嚣，空气里只有干燥的松针味、远处教堂隐约的钟声，和一种近乎凝滞的宁静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "把车停在镇子边缘，徒步走进中世纪拱门，时间立刻慢了下来。脚下的鹅卵石被岁月打磨得光滑如卵，折射着上午温和的阳光。主街上，几个老人坐在酒吧外，用小得如同玩具的咖啡杯喝着浓缩咖啡，他们交谈的声音很低，混着咖啡机蒸汽的嘶嘶声。晾晒的床单在古老石窗间飘荡，散发出阳光和肥皂的干净气味。你会瞬间明白，城堡不仅是景点，更是这个社区永恒的背景板，是孩子们玩耍时仰望的坐标，是老人们一生故事的沉默见证者。生活的脉搏在这里平稳跳动，与游客的探访互不干扰。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，萨尔泰阿诺真正的灵魂，不仅在山巅，更在脚下的大地深处。驱车前往镇外一片不起眼的橄榄林，预约好的向导会带你走进一扇现代修建的保护门，沿着陡峭的阶梯向下，深入阴凉、散发着泥土气息的地底。当灯光亮起，时间在刹那间被抽空——你正站在一个公元前4世纪的伊特鲁里亚墓室中。四周墙壁上，绚烂的色彩扑面而来：朱红的背景上，绘着葬礼宴席、舞者、还有那只存在于神话中的生物。最令人屏息的，是墓室后墙那幅“地狱四马战车”：一个蓝色的恶魔（或许是冥界使者）驾着一辆由四匹雪白骏马拉动的战车，正疾驰在通往亡者世界的路上。那种动感、那种对死后世界的生动想象，带着一种直击心灵的原始力量，让你忘却呼吸。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是萨尔泰阿诺最打动人心的核心魅力：它提供了一种极其私密而又深刻的历史对话。上午，你还在中世纪城堡的塔楼上，迎着山风俯瞰领主曾守卫的疆土；下午，你便已潜入更古老、更神秘的地下世界，与一个早已消失的文明面对面。这种垂直维度的时空穿梭，这种从战争堡垒到灵魂居所的强烈对比，在托斯卡纳乃至整个意大利，都独此一份。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`萨尔泰阿诺`} />
+                <InfoRow label="英文名称" value={`Sarteano`} />
+                <InfoRow label="正式名称" value={`Sarteano`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`萨尔泰阿诺（锡耶纳省）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座山顶小镇是托斯卡纳层叠历史的完美缩影，其阿拉贡城堡是15世纪意大利城邦军事博弈的见证，而山下发现的“地狱四马战车”墓则是迄今关于伊特鲁里亚文明生死观最震撼、最完整的考古发现之一。`} />
+                <InfoRow label="建筑特色" value={`城堡以坚固的五边形结构雄踞山巅，高耸的主塔楼仿佛从岩石中生长出来；而地下墓室则以其保存惊人的彩色壁画闻名，特别是描绘蓝色恶魔驾驭四匹白马战车驰骋冥界的中心场景，色彩历经两千三百年依旧鲜活。`} />
+                <InfoRow label="建筑风格" value={`城堡呈现典型的晚期中世纪军事建筑风格，带有文艺复兴初期加固改造的痕迹；墓葬壁画则体现了公元前4世纪晚期伊特鲁里亚艺术与希腊化风格的深刻融合，叙事宏大，笔触流畅。`} />
+                <InfoRow label="文化价值" value={`这里如同一本立体的历史书，将伊特鲁里亚人的神秘葬礼文化、中世纪托斯卡纳的领主争斗与今日慢生活的田园诗，不可思议地压缩在了同一片橄榄树与葡萄园覆盖的山丘之间。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`阿拉贡城堡与公民考古博物馆：通常为周二至周日上午10:00至下午6:00（夏季可能延长至晚7:00），冬季（11月至3月）可能缩短至下午5:00闭馆，每周一、12月25日、1月1日闭馆。“地狱四马战车”壁画墓的参观必须提前预约由导游带领的特定场次，通常每天仅限2-3个时间段，每个小组人数严格限制，每年开放预约时段主要为春季至秋季（4月至10月），冬季仅不定期开放。`} />
+              <InfoRow label="门票价格" value={`阿拉贡城堡与公民考古博物馆联票：全价票约8欧元，优惠票（学生、65岁以上老人）约6欧元。“地狱四马战车”壁画墓导览游：票价约12-15欧元（含预约费与导游费），必须与博物馆提前预订。部分日期（如每月第一个周日）博物馆可能免费入场，但壁画墓游览不适用。`} />
+              <InfoRow label="地址" value={`阿拉贡城堡地址：Via del Castello, 1, 53047 Sarteano SI, Italy
+公民考古博物馆地址：Via del Museo, 53047 Sarteano SI, Italy
+“地狱四马车”墓地址（大致区域）：Località Le Tombe, 53047 Sarteano SI, Italy（具体入口需按预约指示前往）`} />
+              <InfoRow label="交通方式" value={`最近的主要国际机场是佛罗伦萨机场或罗马菲乌米奇诺机场。从佛罗伦萨出发，最便捷的方式是自驾（约1.5小时），沿A1高速公路向南，在“Chiusi-Chianciano Terme”出口下，再沿SR146公路行驶约15分钟即达。若乘坐公共交通，可从佛罗伦萨或锡耶纳搭乘火车至“Chiusi-Chianciano Terme”火车站（班次频繁，约每1-2小时一班），出站后转乘当地巴士（LAFER公司线路）前往萨尔泰阿诺镇中心（车程约20分钟，班次较少，每天约6-8班，需提前查好时刻表）。从罗马自驾北上约2小时。镇上景点集中，但前往镇外的壁画墓需自驾、打车或参加当地组织的交通接驳。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要讲萨尔泰阿诺的故事，得从阳光照不到的深处讲起。早在罗马人称霸亚平宁半岛之前，这片富饶的丘陵就是伊特鲁里亚人的家园。这个神秘而先进的民族，以其复杂的宗教信仰和对死后世界的极度重视而闻名。大约在公元前4世纪，一位可能是当地贵族或祭司的人物，选择了萨尔泰阿诺南坡一处地方，为自己和家人开凿了永恒的居所。墓室墙壁被精心打磨，请来了当时最高明的画师，用昂贵的矿物颜料描绘出他们信仰中死后的旅程。那幅“地狱四马战车”壁画，并非为了恐吓，而是伊特鲁里亚人宇宙观的体现：死亡是另一段旅程的开始，由神使护送，穿越冥界。然而，随着罗马的崛起和同化，伊特鲁里亚文明逐渐湮没，这座墓穴也被遗忘，在泥土的密封下奇迹般地保存了色彩，沉睡了超过两千年。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转到中世纪，地表之上的世界已是另一番景象。萨尔泰阿诺因其战略位置，成了锡耶纳共和国和奥尔维耶托、乃至后来佛罗伦萨共和国之间反复争夺的棋子。小镇在战火中几次易主，城墙被摧毁又重建。直到15世纪中叶，局势才因一个外来家族而改变：阿拉贡家族。这个源自西班牙的显赫家族，其成员通过婚姻和政治联盟，在意大利南部和中部获得了广泛影响力。当时掌管此地的领主，为了稳固统治、震慑周边，决定建造一座配得上其野心的堡垒。他们看中了小镇的制高点，那里本就有些更早期的防御工事遗迹。于是，一座全新的、采用当时先进军事设计的城堡开始修建。它被设计成不规则的五边形，以更好地防御火炮攻击，高耸的主塔楼提供了无死角的瞭望视野。石头都是从本地开采，沉重而坚固，垒砌的方式带着一种务实的粗犷。城堡与其说是一座宫殿，不如说是一座兵营，一个权力的冰冷宣言。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "此后的几个世纪，城堡随着领主家族的兴衰和意大利的统一，逐渐失去了军事价值。它曾被用作粮仓、监狱，甚至一度荒废，任由风雨侵蚀。而山下的伊特鲁里亚墓穴，依旧在沉睡。转机发生在20世纪后期。当地的考古学家和文物爱好者，基于零星的线索和盗墓活动的痕迹，开始系统地勘探小镇周围地区。1990年，一个爆炸性的发现震动了考古界：在离镇中心不远处，他们找到了那座几乎完好无损的壁画墓。当考古学家们清理完墓道口的泥土，第一次用手电光照亮内部时，现场的空气都凝固了。壁画的鲜艳程度超出了所有人的想象，尤其是那幅独一无二的“地狱四马战车”场景，为研究伊特鲁里亚宗教和艺术提供了前所未有的材料。这个发现，一下子将萨尔泰阿诺从托斯卡纳无数美丽小镇中推向了世界级考古地图的前沿。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，21世纪的萨尔泰阿诺开始了它的新生。城堡得到了精心修复，不再是废墟，而是成为了一座讲述本地千年历史的博物馆，里面陈列着从伊特鲁里亚时期到中世纪的各种文物。镇上的公民考古博物馆则成了解读壁画墓的中心，通过精细的复制品和多媒体展示，为参观者进入真墓做好知识和情感的铺垫。小镇小心翼翼地平衡着保护与开放：对壁画墓实行最严格的限流和保护措施，确保这份脆弱的遗产能传给后代；同时，又以城堡和博物馆为窗口，热情而低调地迎接那些愿意深入探索的旅人。从伊特鲁里亚的墓室画师，到中世纪的石匠，再到现代的考古学家，不同时代的人们在这片土地上的努力，最终交织成了我们今天看到的、层次丰富的萨尔泰阿诺。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完美体验萨尔泰阿诺的双重灵魂，建议安排一整天的深度游览。最佳抵达时间是上午9点左右，这时小镇刚刚苏醒，阳光柔和，游客稀少。整体的节奏应该是“先上后下，由近及远”：上午精力充沛时攀登城堡，俯瞰全局，建立空间感；中午在镇上悠闲午餐，感受本地生活脉搏；下午进行需要预约和专注的壁画墓探访，深入地下世界；最后在黄昏时分漫步小镇街道，让一天的震撼慢慢沉淀。这样的安排既符合体力消耗的规律，也顺应了景点开放和导览的时间逻辑。自驾是最推荐的方式，可以灵活往返于镇中心和墓址之间。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`“地狱四马战车”墓的预约必须提前至少一周在公民考古博物馆官网或通过电话完成，旺季可能需要更早，切勿指望现场有空位。参观墓室时温度较低且湿度稳定，即使外面炎热也建议带一件薄外套。小镇道路多为陡峭的鹅卵石路，一双舒适防滑的步行鞋是全天愉悦体验的绝对保证。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨先从小镇中心的加富尔广场开始，在面包店买一个新鲜出炉的牛角包，边吃边看本地人在泉水边闲聊。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着陡峭的、被称作“Costa del Castello”的古老步道向上攀登，感受脚下石阶的磨损和身边石墙的凉意。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`进入阿拉贡城堡内部，花时间在主塔楼的顶层停留，顺时针环视整个瓦尔迪基亚纳山谷和远方的特拉西梅诺湖。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`慢慢参观城堡内的博物馆展厅，特别留意那些从附近伊特鲁里亚墓葬出土的小型陪葬陶器，它们是地下壁画的“前奏”。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后选择一家有露天座位的传统餐厅享用午餐，必点一份用本地基亚纳山谷牛肉制作的意面或烤肉。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`提前集合，跟随向导乘车或自驾前往镇外预约好的“地狱四马战车”墓入口，怀着朝圣般的心情走下那几十级现代楼梯。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在墓室保护门内静静地站立至少十分钟，让眼睛适应光线，仔细辨认壁画上每一个细节，聆听向导讲述色彩背后的神话。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`黄昏时分回到镇上，随意钻进一条没有游客的小巷，看夕阳的金色光芒如何把古老的石墙染成蜜糖的颜色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`从南边SR146公路的一个弯道处远眺`}</h4>
+                  <p className="text-sm text-gray-700">{`最好在日出后一小时内或日落前黄金一小时，将城堡的黑色剪影与前景的葡萄园、晨雾或晚霞一同构图，展现其孤傲的选址。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡主塔楼顶层东南角`}</h4>
+                  <p className="text-sm text-gray-700">{`上午光线最佳，可以拍摄到蜿蜒的乡村道路、红色的屋顶与远方特拉西梅诺湖面反射的阳光，构成一幅层次分明的托斯卡纳全景画。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`公民考古博物馆内“地狱四马战车”壁画1:1精细复制品前`}</h4>
+                  <p className="text-sm text-gray-700">{`利用室内柔和灯光，聚焦于战车动态的线条和蓝色恶魔的细节，为无法在真墓内拍照的遗憾做弥补。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小镇通往城堡的“Costa del Castello”步道中段回望`}</h4>
+                  <p className="text-sm text-gray-700">{`下午侧光时，拍摄蜿蜒而上的古老石阶、墙头的野花与远处教堂钟楼的同框，充满叙事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`墓室外部环境（在得到向导允许且不干扰的前提下）`}</h4>
+                  <p className="text-sm text-gray-700">{`在参观结束后，于橄榄树林中拍摄现代保护入口与自然环境的对比，寓意古今交汇。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`墓室内严格禁止拍照、摄像和使用闪光灯，这是为了保护极其脆弱的古老颜料，请务必遵守。在城堡塔楼等高处拍摄时，山风可能很大，使用长焦镜头时要注意稳定性。尊重当地居民隐私，避免透过敞开的门窗拍摄民居内部。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`镇上由家族经营的老石头房子民宿，房间简朴但一尘不染，早餐是女主人自制的果酱和新鲜蛋糕，晚上能听到广场上轻柔的谈话声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`由15世纪修道院部分建筑改建的精品酒店，保留了原始的拱形石顶和宁静的回廊庭院，房间里有关于本地历史的书籍，氛围沉静如水。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在城堡视线所及的丘陵上的庄园农舍，拥有无边泳池和广阔的橄榄园，在私人露台上用早餐时，城堡就像一幅挂在眼前的油画。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`深度文化爱好者之选`}</h4>
+                  <p className="text-sm text-purple-800">{`预订公民考古博物馆学者运营的少量学术公寓，位于历史中心，书房里塞满了考古报告和艺术史书籍，仿佛住进一个研究站。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇夜间极其安静，几乎没有任何夜生活，适合寻求宁静和深度休息的旅人。夏季（7-8月）也是本地度假季，建议提前两个月预订心仪的住宿。几乎所有住宿都需要自驾或打车才能方便到达，且停车位在历史中心可能有限，预订时务必确认停车安排。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开萨尔泰阿诺许久后，我脑海里反复浮现的不是某个具体的画面，而是一种感觉：一种关于“层次”的深刻体悟。我们常常在旅行中寻找“纯粹”——纯粹的中世纪、纯粹的文艺复兴、纯粹的田园风光。但萨尔泰阿诺拒绝了这种简单。它固执地向你展示着历史的层叠与交织：古老的死亡艺术与中世纪的生存战争，竟然在同一片土地上下并存。站在城堡上吹着山风时，你的脚下深处，正安放着另一个文明关于永恒的瑰丽想象。这种物理和精神上的垂直结构，让人感到自身的渺小，也让人惊叹人类文明记忆的坚韧与绵长。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求快餐式打卡的时代，萨尔泰阿诺是一种温和的抵抗。它不讨好，不喧哗，甚至设置了一些门槛（比如严格的预约）。它只等待那些愿意慢下来、愿意深入下去的旅人。来这里，你不是消费一个景点，而是参与一次跨越两千多年的对话。你会触摸到石头不同的温度——城堡防御工事石块的冷峻，和墓室里承载着彩色神话的岩壁的温润。最终，你会带走一种更复杂的关于托斯卡纳、关于意大利、乃至关于人类历史的认知。它告诉你，阳光下的田园诗，其根基可能深植于对幽冥世界的深邃思考之中。这，正是深度旅行最珍贵的礼物：不是答案，而是更深邃、更迷人的问题。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/sperlonga" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    斯
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">斯佩尔隆加</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Sperlonga</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/orvieto-cathedral-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔维耶托大教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Orvieto Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ascoli-piceno-historic-center" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿斯科利皮切诺</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ascoli Piceno</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

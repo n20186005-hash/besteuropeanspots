@@ -1,0 +1,244 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '罗斯基勒 Roskilde｜千年古都，探秘丹麦王室陵寝与硬核维京船遗产 - 最佳欧洲景点',
+  description: '从罗斯基勒火车站走出来，迎面就是一条缓缓上坡的、用老鹅卵石铺成的小街。空气里有种北欧小镇特有的清冽，混着一丝从面包房里飘出来的、暖洋洋的肉桂香。你顺着人流，或者说，顺着那种无形的历史引力往前走，不出五分钟，一片巨大的、用暗红色砖块垒砌成的建筑群就毫无预警地撞进眼帘。那就是罗斯基勒大教堂。它不是优雅纤',
+}
+
+export default function RoskildePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '丹麦', href: '/destinations/europe' },
+            { label: '罗斯基勒', href: '/destinations/europe' },
+            { label: '罗斯基勒', href: '/attractions/roskilde' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`罗斯基勒・Roskilde・丹麦・罗斯基勒`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`从罗斯基勒火车站走出来，迎面就是一条缓缓上坡的、用老鹅卵石铺成的小街。空气里有种北欧小镇特有的清冽，混着一丝从面包房里飘出来的、暖洋洋的肉桂香。你顺着人流，或者说，顺着那种无形的历史引力往前走，不出五分钟，一片巨大的、用暗红色砖块垒砌成的建筑群就毫无预警地撞进眼帘。那就是罗斯基勒大教堂。它不是优雅纤细的那种美，而是一种敦实的、沉默的、带着某种沉重威严的“存在”。阳光斜斜地打在那些历经几百年风霜的砖墙上，颜色深一块浅一块，像是时间的斑驳印章。教堂的钟声响起，声音沉郁而绵长，瞬间就盖过了街上的车流声，把你拉进另一个时空维度。当地人骑着自行车从它身边叮铃铃地掠过，熟视无睹——这座安葬了38位丹麦国王和王后的庞然大物，早已是他们日常背景音的一部分。
+走进教堂内部，光线骤然变暗，温度也低了几度。一股混合了古老石头、木头和一丝淡淡蜡油的气味包裹了你。眼睛需要一点时间来适应。然后，你就会看到它们——一座又一座装饰繁复、风格各异的石棺和纪念堂，沿着中殿和两侧的翼廊排列，仿佛一个沉默的、石头的王室家族聚会。从中世纪朴素的石棺到文艺复兴时期华丽的纪念像，再到新古典主义风格的精美 chapel，你仿佛在用脚步丈量一部立体的丹麦王权编年史。最震撼的时刻，是当你站在中殿中央，抬头望向那个高耸的、布满星辰般壁画的拱顶，再环视四周这些沉睡的君主，你会感到一种奇特的宁静与肃穆。这里没有阴森，只有一种完成了历史使命后的、巨大的平静。
+当你从教堂那种陆地王权的厚重感中抽身，步行二十分钟来到罗斯基勒峡湾边的港口，气氛陡然一变。咸湿的海风猛地灌进鼻腔，带着绳索、帆布和浸水木头的气味。眼前就是维京船博物馆，它的核心是几座看似低调的船库。但走进去的瞬间，你会倒抽一口凉气。五艘巨大的、残缺不全的木船骨架，被精密的金属支架静静地托举在半空中。这就是从峡湾海底打捞上来的千年真船，它们的木板被海水浸泡得发黑，船钉锈蚀，但流线型的船体依然散发着一种凌厉的力量感，仿佛下一秒就要冲破玻璃，驶向茫茫北海。这种“硬核”的震撼还未平息，隔壁船坞里传来的凿木声和松脂香味又会把你拉回现实。在这里，工匠们正用千年前的工具和方法，一斧一凿地复刻着新的维京长船。木屑在空中飞舞，空气中弥漫着生机勃勃的劳作气息。
+这就是罗斯基勒最打动人心的魅力——它在方寸之地，为你并置了丹麦灵魂的两极。一边是陆地之上，通过教堂与石棺凝固的、秩序井然的王权与信仰史；另一边是海洋之畔，通过残船与斧凿鲜活的、充满野性与冒险精神的维京民族基因。你在这里能触摸到的，不是一个被精心包装的旅游符号，而是一个民族从海盗到王国，那粗粝、真实又无比生动的成长疤痕与荣耀勋章。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "从罗斯基勒火车站走出来，迎面就是一条缓缓上坡的、用老鹅卵石铺成的小街。空气里有种北欧小镇特有的清冽，混着一丝从面包房里飘出来的、暖洋洋的肉桂香。你顺着人流，或者说，顺着那种无形的历史引力往前走，不出五分钟，一片巨大的、用暗红色砖块垒砌成的建筑群就毫无预警地撞进眼帘。那就是罗斯基勒大教堂。它不是优雅纤细的那种美，而是一种敦实的、沉默的、带着某种沉重威严的“存在”。阳光斜斜地打在那些历经几百年风霜的砖墙上，颜色深一块浅一块，像是时间的斑驳印章。教堂的钟声响起，声音沉郁而绵长，瞬间就盖过了街上的车流声，把你拉进另一个时空维度。当地人骑着自行车从它身边叮铃铃地掠过，熟视无睹——这座安葬了38位丹麦国王和王后的庞然大物，早已是他们日常背景音的一部分。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走进教堂内部，光线骤然变暗，温度也低了几度。一股混合了古老石头、木头和一丝淡淡蜡油的气味包裹了你。眼睛需要一点时间来适应。然后，你就会看到它们——一座又一座装饰繁复、风格各异的石棺和纪念堂，沿着中殿和两侧的翼廊排列，仿佛一个沉默的、石头的王室家族聚会。从中世纪朴素的石棺到文艺复兴时期华丽的纪念像，再到新古典主义风格的精美 chapel，你仿佛在用脚步丈量一部立体的丹麦王权编年史。最震撼的时刻，是当你站在中殿中央，抬头望向那个高耸的、布满星辰般壁画的拱顶，再环视四周这些沉睡的君主，你会感到一种奇特的宁静与肃穆。这里没有阴森，只有一种完成了历史使命后的、巨大的平静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你从教堂那种陆地王权的厚重感中抽身，步行二十分钟来到罗斯基勒峡湾边的港口，气氛陡然一变。咸湿的海风猛地灌进鼻腔，带着绳索、帆布和浸水木头的气味。眼前就是维京船博物馆，它的核心是几座看似低调的船库。但走进去的瞬间，你会倒抽一口凉气。五艘巨大的、残缺不全的木船骨架，被精密的金属支架静静地托举在半空中。这就是从峡湾海底打捞上来的千年真船，它们的木板被海水浸泡得发黑，船钉锈蚀，但流线型的船体依然散发着一种凌厉的力量感，仿佛下一秒就要冲破玻璃，驶向茫茫北海。这种“硬核”的震撼还未平息，隔壁船坞里传来的凿木声和松脂香味又会把你拉回现实。在这里，工匠们正用千年前的工具和方法，一斧一凿地复刻着新的维京长船。木屑在空中飞舞，空气中弥漫着生机勃勃的劳作气息。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是罗斯基勒最打动人心的魅力——它在方寸之地，为你并置了丹麦灵魂的两极。一边是陆地之上，通过教堂与石棺凝固的、秩序井然的王权与信仰史；另一边是海洋之畔，通过残船与斧凿鲜活的、充满野性与冒险精神的维京民族基因。你在这里能触摸到的，不是一个被精心包装的旅游符号，而是一个民族从海盗到王国，那粗粝、真实又无比生动的成长疤痕与荣耀勋章。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`罗斯基勒`} />
+                <InfoRow label="英文名称" value={`Roskilde`} />
+                <InfoRow label="正式名称" value={`Roskilde`} />
+                <InfoRow label="国家" value={`丹麦`} />
+                <InfoRow label="城市" value={`罗斯基勒`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`丹麦的精神故都和王权永恒安息地，也是通往维京海洋霸权时代的实体门户。`} />
+                <InfoRow label="建筑特色" value={`壮观的红砖建筑群与沉睡的石棺王室谱系；以及由真船残骸、古法复刻长船和鲜活船坞构成的硬核海事遗产矩阵。`} />
+                <InfoRow label="建筑风格" value={`以北欧晚期哥特式红砖建筑为主体的教堂建筑，融合了后续多个时代的皇家礼拜堂增建。`} />
+                <InfoRow label="文化价值" value={`丹麦民族记忆的双重核心：陆地之上王权的神圣秩序，与海洋之中维京先民的冒险灵魂。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`罗斯基勒大教堂：全年开放，4月至9月 9:00-17:00；10月至3月 10:00-16:00；周日开放时间较晚，通常中午开始。维京船博物馆：全年开放，6月至8月 10:00-17:00；9月至5月 10:00-16:00。请注意，两个场馆在圣诞节、新年及部分丹麦公共假日可能关闭或缩短开放时间，出行前务必在官网确认。`} />
+              <InfoRow label="门票价格" value={`罗斯基勒大教堂：成人125丹麦克朗，学生/青年（18-25岁）115丹麦克朗，18岁以下免费。维京船博物馆：成人160丹麦克朗，学生/青年145丹麦克朗，儿童（4-17岁）115丹麦克朗，4岁以下免费。强烈推荐购买“罗斯基勒组合票”，可参观大教堂、维京船博物馆及城市其他部分景点，成人票约260丹麦克朗，性价比极高。`} />
+              <InfoRow label="地址" value={`罗斯基勒大教堂：Domkirkepladsen 3, 4000 Roskilde, Denmark
+维京船博物馆：Vindeboder 12, 4000 Roskilde, Denmark`} />
+              <InfoRow label="交通方式" value={`从哥本哈根出发最为便捷。从哥本哈根中央火车站乘坐前往罗斯基勒的区域列车（RE或Regional），车程约25-30分钟，班次极其密集，高峰时段每10-15分钟一班。建议使用DOT通票或丹麦铁路DSB App购票，单程票价约70丹麦克朗。抵达罗斯基勒火车站后，出站步行约10-15分钟即可抵达大教堂；前往维京船博物馆则需继续步行约20分钟，或搭乘当地301路公交车，坐3站到“博物馆港”下车。整个行程轻松无压力，堪称一日游的完美选择。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗斯基勒的故事，得从维京人说起。早在公元10世纪之前，这个深入罗斯基勒峡湾的天然良港，就已经是斯堪的纳维亚地区举足轻重的贸易中心和聚居地。传说中，国王哈拉尔蓝牙王（Harald Bluetooth）的父亲，老戈尔姆国王就将这里作为他的权力基地。你可以想象一下当时的场景：峡湾里停满了吃水很深的商船和线条流畅的长船，岸上是木头和泥土搭建的房屋，空气中混杂着鱼干、皮毛、琥珀和金属的味道。这里不仅是物资交换的码头，更是信息、权力和野心的汇聚点。公元960年左右，哈拉尔蓝牙王在此建立了丹麦第一座基督教木制教堂，这不仅是一个宗教行为，更是一个强烈的政治信号——标志着丹麦开始融入欧洲基督教文明圈，王权试图用新的信仰来凝聚和统治这片土地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随着基督教扎根，木教堂很快被更宏伟的石建筑取代。公元1170年左右，在一位名叫阿布萨隆的、既是主教又是军事领袖的强人主持下，罗斯基勒大教堂的建造工程正式启动。他们选择了当时北欧最时髦的材料——红砖。这可不是简单的建材选择，砖块需要烧制，建筑工艺复杂，这本身就是财富、技术和组织能力的炫耀。教堂的建造断断续续持续了几个世纪，其建筑风格也从最初的罗马式，慢慢融入了后来风靡的哥特式。而让这座教堂真正与众不同的，是丹麦王室一个持续了数百年的决定：将这里作为家族的安息之地。第一位安葬于此的君主是12世纪的玛格丽特一世吗？不，其实更早。但这个传统被坚定地执行了下去。每一个时代，都在教堂里增添新的皇家礼拜堂或纪念陵墓，建筑风格也从哥特到文艺复兴，再到巴洛克和新古典主义，教堂本身成了一部活着的、用石头写成的丹麦王族审美变迁史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间跳到20世纪50年代。当教堂里的石棺数量不断增长，成为一部静止的历史时，罗斯基勒的港口却传来一个爆炸性的发现。当地渔民和潜水员一直传说峡湾水底有“沉船”。1957年，考古学家们开始了系统性的发掘。他们用临时搭建的围堰抽干海水，露出了令世界震惊的景象：五艘11世纪左右的维京船被故意沉没在此，用作堵塞主要航道、抵御海敌的“屏障”。这些船类型各异，有用于远洋贸易的宽体货船，也有用于快速劫掠的狭长战船。这项发现就像打开了一个时间胶囊，让后人能直接研究维京时代顶尖的造船技术。为了保护和研究这些国宝，维京船博物馆在沉船发现地旁边建立起来。但这还不是终点，博物馆开创性地建立了“文化遗产船坞”，招募工匠用考古发现的技术和工具，从零开始复刻这些古船。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，历史在这里形成了一个完美的闭环。一千年前，维京人在这里生活、造船、出海，最终将船沉入峡湾保卫家园。一千年后，他们的后人从海底捞起祖先的遗产，并在几乎相同的地点，用祖先的手艺再次让同样的船只复活。这种“研究-复刻-航行”的模式，让罗斯基勒超越了单纯的博物馆范畴，成为了一个活态的实验考古学圣地。复刻的长船“海克拉号”甚至成功横渡了北大西洋，抵达了都柏林。1995年，罗斯基勒大教堂因其独特的建筑和历史价值被列入世界遗产名录。今天的罗斯基勒，一边是教堂钟声里永恒的王权记忆，一边是船坞凿声中奔腾的维京之魂。它平静地告诉每一个来访者：丹麦的故事，既在庄严的祭坛与石棺间，也在咸湿的海风与木头的纹理里。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排完整的一天（约7-8小时）进行深度游览。上午人的精力最充沛，适合感受大教堂的肃穆与历史厚重感；下午阳光较好，适合在港口博物馆进行户外活动和体验。最佳节奏是“由静至动”，从室内沉思走向户外实践。早上9点半左右抵达罗斯基勒，避开丹麦人稍晚的出行习惯，能让你在教堂获得片刻宁静。中午在老城中心用餐，品尝开放式三明治，感受本地生活气息。下午将时间充分交给维京船博物馆，务必参与体验活动。傍晚时分，可以沿着峡湾散步，看夕阳为这个古老的城市镀上金色。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`大教堂内请务必保持安静与尊重，这是仍在使用的宗教场所和王室安息地，拍照请关闭闪光灯。维京船博物馆的出海体验和特定手工活动非常受欢迎，尤其在夏季，强烈建议提前在官网查看时间表并预约。罗斯基勒老城街道多为石板路，请穿一双舒适耐走的鞋子。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从火车站步行穿过老城安静的鹅卵石街道，让罗斯基勒大教堂那红砖砌成的雄伟双塔作为你一天探索的庄严序幕。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在教堂开门的第一时间走入中殿，趁人潮未至静静凝视从简朴到华丽的历代王室石棺，感受时间在空间里凝固的重量。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花点时间寻找那些最精美的皇家礼拜堂，比如克里斯蒂安四世华丽的文艺复兴式 chapel，欣赏不同时代对永恒的不同诠释。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着螺旋石阶登上教堂塔楼（如果开放），在凛冽的风中俯瞰整个罗斯基勒红顶老城与如镜面般的峡湾，将历史与地理尽收眼底。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂步行至港口，让感官从石头的冷峻切换到海风的咸湿，远远就能望见博物馆建筑群和停泊在外的复刻维京长船。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`进入博物馆主展厅，屏住呼吸仰望那五艘从海底捞起的千年真船残骸，绕着它们走一圈，观察每一处修补痕迹和船体线条。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要走进叮当作响的船坞车间，看工匠如何用古老的手艺处理木材，甚至亲手触摸那些散发着松脂香味的半成品船体。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果季节允许（通常是夏季），务必报名参加乘坐复刻维京船出海的短程航行，在峡湾中亲手划桨，体验维京水手的视角。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`大教堂南侧外墙全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点的阳光能最佳地勾勒出红砖建筑的纹理与层次，站在教堂广场的草坪边缘，将宏伟的双塔与一部分老城屋顶一同纳入画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`大教堂中殿彩色玻璃窗下`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个阳光充沛的午后，让光线透过巨大的彩色玻璃窗投射在古老的地砖或石棺上，形成斑斓而神圣的光影构图，捕捉瞬间的静谧。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从教堂塔楼俯瞰城市与峡湾`}</h4>
+                  <p className="text-sm text-gray-700">{`如果有幸登塔，使用广角镜头，将前景的教堂石雕与中景密密麻麻的红顶房屋，以及远景碧蓝的罗斯基勒峡湾构成一幅层次分明的全景图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`维京船博物馆主展厅船骸仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`站在五艘千年古船残骸的下方，使用超广角镜头向上仰拍，捕捉那些被金属框架悬吊的巨大船体，营造出一种极具张力与历史感的震撼视角。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`港口码头复刻长船出海瞬间`}</h4>
+                  <p className="text-sm text-gray-700">{`在体验航海时，让同伴从岸上或另一条船上，捕捉你所在的复刻维京船扬起风帆或众人划桨驶离港口的动态画面，充满故事感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`教堂内部光线较暗，提高感光度（ISO）比使用闪光灯是更好的选择，既能保证画质也能维护庄严氛围。拍摄船坞工匠时，请先微笑示意并获得对方默许，尊重他们的工作空间。峡湾边风大，拍摄长曝光或延时摄影时务必注意器材和三脚架的稳定。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济实惠之选`}</h4>
+                  <p className="text-sm text-blue-800">{`入住罗斯基勒市中心火车站附近由老房子改建的温馨民宿或小型酒店，价格亲民，交通便利，晚上可以悠闲地逛逛老城寂静的街道。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验之选`}</h4>
+                  <p className="text-sm text-green-800">{`选择坐落在罗斯基勒峡湾边的精品设计酒店，房间拥有直面水景的落地窗，清晨在鸥鸟的叫声中醒来，看薄雾从维京船博物馆的方向缓缓升起。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`历史沉浸之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻位于老城核心区、拥有数百年历史的贵族宅邸改造的酒店，房间保留着古朴的木梁和壁炉，仿佛睡在历史里，步行到大教堂仅需三分钟。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`奢华放松之选`}</h4>
+                  <p className="text-sm text-purple-800">{`驱车前往罗斯基勒郊外被森林与田野环绕的庄园酒店，享受北欧设计的宁静与奢华，在一天的暴走之后，在桑拿房和露天热水浴池里彻底放松身心。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6月至8月）是旅游旺季，住宿紧张且价格上浮，建议至少提前一个月预订。老城中心的住宿夜晚非常安静，但周末清晨可能偶尔会听到教堂悠远的钟声，这何尝不是一种独特的体验。如果选择港口区域的住宿，请备一件防风外套，峡湾边的风常常不分昼夜地吹拂。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开罗斯基勒的时候，我的背包里仿佛装下了两种截然不同的重量。一种来自大教堂，是那些沉默石棺所代表的秩序、传承与终将归于尘埃的肃穆；另一种来自港口，是木屑、海风与长船龙骨所承载的开拓、冒险与生生不息的活力。这种奇妙的并置让我思考，一个民族的完整灵魂究竟是什么？它或许从来不是单一的面貌。正是在罗斯基勒，我看到丹麦人如何坦然地供奉着他们的双重根源：既敬畏于陆地之上建立的王国与律法，又骄傲于血液里流淌的、曾征服海洋的野性与自由。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、热衷贴标签的快节奏世界里，罗斯基勒拒绝被简单定义。它不像一个被精心打捞干净、放在丝绒上的古董，而更像一片依然在自然呼吸的历史森林。你可以闻到古老砖石的潮气，也能闻到船坞新鲜松木的香气；你能听到教堂里吟唱的诗班，也能听到码头边工匠斧凿的铿锵。这里是活的，历史从未被制成标本。对于热爱深度游的旅人而言，罗斯基勒是一次难得的“触摸历史质地”的机会。它告诉你，真正的文化遗产，不仅是用来瞻仰的纪念碑，更是可以亲手划动、能够感受到风吹过帆面的真实力量。来这里，不只是为了看国王的棺材和古代的破船，而是为了理解，一个现代安宁祥和的国度，其内心同时住着一位威严的君主，和一个永不满足的水手。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/helsingor-kronborg" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    赫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">赫尔辛格</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Helsingør</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/aero-island-aeroskobing" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    艾
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">艾尔岛</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Aero Island</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/den-gamle-by" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥尔胡斯老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Den Gamle By</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

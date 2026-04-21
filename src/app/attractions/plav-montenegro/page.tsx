@@ -1,0 +1,248 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '普拉夫 Plav｜探秘“被诅咒的山脉”脚下，纯净冰川湖与古老血亲复仇防御塔的时光胶囊 - 最佳欧洲景点',
+  description: '车子刚拐过最后一个山坳，普拉夫就像一块被山神失手跌落的翡翠，毫无征兆地撞进眼里。那一刻，你甚至会忘了呼吸。那不是普通的绿，是冰川融化后沉淀了千万年的、带着乳白色光泽的绿松石色，安静地躺在“被诅咒的山脉”——普罗克莱蒂耶那些锯齿般凌厉的灰白色石灰岩山峰脚下。湖面平滑如镜，倒映着天空流云与巍峨山影，只有',
+}
+
+export default function PlavMontenegroPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '黑山', href: '/destinations/europe' },
+            { label: '普拉夫', href: '/destinations/europe' },
+            { label: '普拉夫', href: '/attractions/plav-montenegro' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`普拉夫・Plav・黑山・普拉夫`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子刚拐过最后一个山坳，普拉夫就像一块被山神失手跌落的翡翠，毫无征兆地撞进眼里。那一刻，你甚至会忘了呼吸。那不是普通的绿，是冰川融化后沉淀了千万年的、带着乳白色光泽的绿松石色，安静地躺在“被诅咒的山脉”——普罗克莱蒂耶那些锯齿般凌厉的灰白色石灰岩山峰脚下。湖面平滑如镜，倒映着天空流云与巍峨山影，只有几只野鸭划过，荡开一圈圈细密的涟漪，那水声轻得几乎被风吹松涛吞没。空气里是清冽的、混合着高山草甸野花和潮湿松木的味道，深吸一口，肺腑都像是被洗过一样。
+沿着湖边慢走，小镇的生活节奏就这样摊开在你面前。几个老人家坐在老杨树下，用我听不懂的语言（很可能是阿尔巴尼亚语）低声闲聊，手里的咖啡杯冒着热气。远处，一座有着细长尖塔的清真寺悄然矗立，宣礼的声音在清晨和黄昏定时响起，与教堂的钟声在这山谷间形成了一种奇妙的、互不干扰的和弦。这里不是为游客准备的舞台，它是自给自足的。你会看到当地人开着老旧的车子去湖边钓鱼，主妇们在院子里晾晒着红彤彤的辣椒，孩子追着足球跑过鹅卵石街道。时间在这里有自己的流速，缓慢、扎实，围绕着湖泊的丰枯与山峦的明暗而转动。
+但普拉夫最打动人心的，远不止这摄人心魄的自然之美。当你走进小镇深处，与那些高大、严肃、用粗糙石头和深色木材垒砌的建筑面对面时，另一种更厚重、更凛冽的气息扑面而来。那就是古老的“库拉”式防御塔，当地人叫它Redoubt。它们不像城堡那样彰显权力，更像一个个紧绷着肌肉、时刻保持警惕的卫士。这些塔楼的存在，默默地讲述着这片土地上曾经严酷的生存法则——关于家族、荣誉、仇恨与长达几个世纪的“血亲复仇”。正是这种极致美丽的自然与极端凝重的人文历史所形成的巨大张力，构成了普拉夫独一无二的灵魂。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子刚拐过最后一个山坳，普拉夫就像一块被山神失手跌落的翡翠，毫无征兆地撞进眼里。那一刻，你甚至会忘了呼吸。那不是普通的绿，是冰川融化后沉淀了千万年的、带着乳白色光泽的绿松石色，安静地躺在“被诅咒的山脉”——普罗克莱蒂耶那些锯齿般凌厉的灰白色石灰岩山峰脚下。湖面平滑如镜，倒映着天空流云与巍峨山影，只有几只野鸭划过，荡开一圈圈细密的涟漪，那水声轻得几乎被风吹松涛吞没。空气里是清冽的、混合着高山草甸野花和潮湿松木的味道，深吸一口，肺腑都像是被洗过一样。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "沿着湖边慢走，小镇的生活节奏就这样摊开在你面前。几个老人家坐在老杨树下，用我听不懂的语言（很可能是阿尔巴尼亚语）低声闲聊，手里的咖啡杯冒着热气。远处，一座有着细长尖塔的清真寺悄然矗立，宣礼的声音在清晨和黄昏定时响起，与教堂的钟声在这山谷间形成了一种奇妙的、互不干扰的和弦。这里不是为游客准备的舞台，它是自给自足的。你会看到当地人开着老旧的车子去湖边钓鱼，主妇们在院子里晾晒着红彤彤的辣椒，孩子追着足球跑过鹅卵石街道。时间在这里有自己的流速，缓慢、扎实，围绕着湖泊的丰枯与山峦的明暗而转动。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但普拉夫最打动人心的，远不止这摄人心魄的自然之美。当你走进小镇深处，与那些高大、严肃、用粗糙石头和深色木材垒砌的建筑面对面时，另一种更厚重、更凛冽的气息扑面而来。那就是古老的“库拉”式防御塔，当地人叫它Redoubt。它们不像城堡那样彰显权力，更像一个个紧绷着肌肉、时刻保持警惕的卫士。这些塔楼的存在，默默地讲述着这片土地上曾经严酷的生存法则——关于家族、荣誉、仇恨与长达几个世纪的“血亲复仇”。正是这种极致美丽的自然与极端凝重的人文历史所形成的巨大张力，构成了普拉夫独一无二的灵魂。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`普拉夫`} />
+                <InfoRow label="英文名称" value={`Plav`} />
+                <InfoRow label="正式名称" value={`Plav`} />
+                <InfoRow label="国家" value={`黑山`} />
+                <InfoRow label="城市" value={`普拉夫`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`黑山北部与阿尔巴尼亚接壤的边陲重镇，历史上长期作为部落冲突的缓冲地与文化交流的十字路口。`} />
+                <InfoRow label="建筑特色" value={`湖畔小镇融合了奥斯曼帝国风格的清真寺尖塔与本地独特的、用于防御血亲复仇的坚固石木结构塔楼。`} />
+                <InfoRow label="建筑风格" value={`巴尔干本土山地民居与奥斯曼影响的混搭风格。`} />
+                <InfoRow label="文化价值" value={`一个活着的博物馆，保存了阿尔巴尼亚族与黑山族共融的社区文化，以及濒临消失的“血亲复仇”习俗下的独特防御建筑遗产。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`普拉夫镇及普拉夫湖全年全天开放。相关的游客信息中心和部分历史建筑（如防御塔内部）通常在夏季旅游季（5月至9月）的上午9点至下午5点开放，冬季开放时间大幅缩短或需提前预约确认。周边普罗克莱蒂耶国家公园的徒步小径全年开放，但高海拔路线在10月至次年4月可能因积雪封闭，务必提前查询当地天气和路况。`} />
+              <InfoRow label="门票价格" value={`进入普拉夫镇及观赏普拉夫湖完全免费。参观小镇上标志性的Redoubt防御塔内部象征性收费约2-3欧元，用于维护。普罗克莱蒂耶国家公园无统一门票，但若参加当地向导带领的专业徒步团，费用通常在30-50欧元/人/天。`} />
+              <InfoRow label="地址" value={`Plav, Montenegro
+邮政编码：84325`} />
+              <InfoRow label="交通方式" value={`从黑山两大主要入境点出发：1. 波德戈里察机场（TGD）：驾车是首选。租车后沿E65/E80公路向东，经科拉欣转向R13公路，全程约2.5-3小时，山路蜿蜒但风景绝美。公共交通较周折：先从机场大巴到波德戈里察汽车站，再换乘前往普拉夫的长途巴士，每天约2-3班，车程约4小时。2. 从科托尔/蒂瓦特方向：建议自驾，沿风景壮丽的P1公路穿越洛夫琴国家公园和杜米托尔国家公园边缘，车程约4小时，这是一条世界级的景观公路。巴士班次稀少，需在尼克希奇或波德戈里察中转。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解普拉夫，你必须先听懂“普罗克莱蒂耶”这个名字背后的低语。在阿尔巴尼亚语中，它意为“被诅咒的山脉”。这个可怕的名字并非源于地质险峻，而是来自一段浸满鲜血的古老传说。相传，一群仙子在山中举行婚礼时被人类惊扰，盛怒之下她们诅咒了整片山脉，让此后生活在这里的人们陷入无尽的家族仇杀循环。这个传说，像是为这片土地定下了一个黑暗的基调，而历史，竟也残酷地依此演绎。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在中世纪，普拉夫所在的地区是塞尔维亚帝国与拜占庭帝国拉锯的边缘。奥斯曼帝国铁骑的到来彻底改变了这里的面貌。自15世纪被征服后，普拉夫逐渐成为奥斯曼统治下的一个重要行政管理点。伊斯兰文化随着统治者和商旅抵达，建起了清真寺和带有东方色彩的市集。然而，帝国的直接统治往往止步于城镇，在广袤、险峻的山丘，实际权力仍掌握在一个个高度自治的、以血亲为纽带的部落氏族手中。这里盛行着源自古老《卡努法典》的习俗，其中最重要、也最残酷的一条，就是“血亲复仇”。一个家族成员被杀害，其全体男性亲属都有义务追杀凶手或其家族的任何男性成员，仇恨可能延续数代。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "正是在这样的社会土壤里，普拉夫那些独特的防御塔楼应运而生。它们并非为了抵御外敌军队，而是为了在家族仇杀中自我保护。这些塔楼通常有三到四层高，底层饲养牲畜，上层居住，最高层是战斗平台。墙壁极厚，窗户狭小如枪眼，入口往往在高处，需要通过可收起的梯子才能进入。一旦发生袭击，全家人（有时甚至是整个小家族）便退守塔内，储存好粮食和水，进行长期坚守。走在普拉夫，你会看到一些这样的塔楼依然矗立在民居之中，它们沉默的石头身躯，就是一部部无字的家族生存史诗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "19世纪到20世纪，随着黑山公国的崛起和奥斯曼帝国的衰落，巴尔干战争与两次世界大战的烽火也席卷了这个宁静的山谷。政治版图数次更迭，普拉夫在黑山、塞尔维亚、南斯拉夫之间流转。但有趣的是，外部政治的巨变，并未立刻抹去内部古老的社会结构。血亲复仇的阴影，直到20世纪中后期才在南斯拉夫铁腕政府的强力干预和现代化进程中逐渐淡化。今天的普拉夫，是黑山境内阿尔巴尼亚族裔的重要聚居地，清真寺与东正教堂共存，古老的防御塔与新建的住宅比邻，那段充满冲突的过往，最终沉淀为一种复杂而独特的文化分层。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议你在清晨抵达，用一整天的时间，跟随“从湖光到山魂”的脉络深度体验普拉夫。上午光线柔和，重点放在普拉夫湖的静谧与小镇日常的探访上，节奏舒缓。午后当阳光变得强烈，正是深入街巷探寻历史防御塔和奥斯曼遗迹的好时机，在建筑的阴影里感受历史。如果体力充沛，一定要在下午晚些时候开始一场轻徒步，走向山脚，从高处回望整个湖泊与小镇，这是理解其地理格局的关键。整体耗时约8-10小时，请务必穿着舒适耐磨的徒步鞋，因为最美的视角往往在稍微需要跋涉的地方。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇部分区域路面是凹凸不平的鹅卵石，务必穿一双鞋底厚实防滑的鞋子，高跟鞋在这里是“灾难级”选择。
+这里民风淳朴，但涉及部落历史和家族过往的话题仍较为敏感，除非对方主动提及，否则尽量避免对防御塔的主人刨根问底。
+夏季蚊虫较多，尤其是湖边和草甸，请务必准备好有效的驱蚊液。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨第一站直奔普拉夫湖北岸，看晨雾如轻纱般从墨绿色的湖面升起，远处被诅咒的山脉峰顶被初阳染成金色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着湖东岸的步行小径慢慢晃到小镇南端，找一家面对湖泊的家庭咖啡馆，点一杯浓烈的土耳其咖啡，看本地人如何开始他们的一天。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进小镇迷宫般的鹅卵石巷弄，用目光寻找那些外墙斑驳、窗户狭小、与周围民居格格不入的高耸石木结构——古老的防御塔。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`轻轻推开一栋向公众开放的防御塔那扇厚重的木门，沿着陡峭的木梯爬上顶楼，想象一个家族在此围困坚守时的紧张与孤寂。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`中午在镇中心市场附近，品尝一份用湖鱼烹制的“普拉夫鳟鱼”或是阿尔巴尼亚风味的烤肉卷饼。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后拜访一下镇上的主要清真寺和古老的钟楼，感受不同信仰在这片山谷中留下的和谐印记。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果体力允许，从镇子西侧找一条清晰的小径，向普罗克莱蒂耶山脚方向徒步半小时，抵达第一个开阔的观景台。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前返回湖边西侧，静静地坐着，看夕阳的余晖如何将山脉、小镇和湖泊熔铸成一幅色调温暖的油画。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`普拉夫湖西北角观景台`}</h4>
+                  <p className="text-sm text-gray-700">{`日出时分，太阳从山脉后方升起，光线侧射湖面，能拍出湖水分层的梦幻色彩与山脉冷峻倒影的对称构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`小镇老桥与防御塔同框`}</h4>
+                  <p className="text-sm text-gray-700">{`站在镇中心的老石桥上，用长焦镜头压缩空间，将前景的桥、中景的Redoubt防御塔与背景锯齿状的山峰全部纳入画面，讲述自然与人文防御的双重故事。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`防御塔内部楼梯仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`进入塔内，将相机贴近陡峭的木制楼梯底部向上仰拍，利用狭小空间形成的强烈纵深感，搭配从高处小窗射入的一束光线，营造出极具戏剧性的明暗对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`山腰草甸俯瞰全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午徒步至镇子西南方的山腰草甸，用广角镜头捕捉普拉夫小镇的全景、蜿蜒的河流与整个翡翠色湖泊，此时顺光拍摄，色彩饱和度最高。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`湖畔黄昏剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落后十分钟的蓝调时刻，以湖面为前景，拍摄小镇灯火初上、山脉轮廓渐渐融入深蓝色天幕的静谧画面，对焦点放在远处山脉上。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地居民，尤其是长者或正在进行传统活动的人，请务必先用微笑和手势征得对方同意，尊重是第一位的。`}</li>
+                <li>• {`使用无人机前，请务必了解当地法规，并远离住宅区和可能干扰野生动物（如鸟类栖息地）的区域。`}</li>
+                <li>• {`山区天气瞬息万变，记得为你的相机设备做好防风防尘的准备。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`湖畔木屋民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`直接住在普拉夫湖边的传统木屋中，晚上能听到轻柔的水浪声，清晨推开门就是一幅山水画卷，主人常会送上自制的果酱和新鲜牛奶。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`老城中心家庭旅馆`}</h4>
+                  <p className="text-sm text-green-800">{`由一栋百年老屋改造而成，房间保留了古老的木梁和石墙，女主人擅长烹饪地道阿尔巴尼亚家庭菜肴，是深入体验本地日常的绝佳选择。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`山脚下生态客栈`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在进入普罗克莱蒂耶国家公园的徒步起点附近，设计简约自然，拥有面向山脉的无敌视野，是徒步爱好者的大本营，晚上可以围坐在壁炉前交换旅行故事。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`小镇边缘宁静公寓`}</h4>
+                  <p className="text-sm text-purple-800">{`适合家庭或小团体，设施现代齐全，带有一个可以烧烤的小阳台，能让你在体验小镇风情的同时，享有更自在的私人空间。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（7-8月）是徒步旺季，住宿非常紧俏，务必提前至少一个月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "许多家庭式住宿不提供每日客房清洁或24小时前台服务，入住时需和主人确认好钥匙交接和注意事项。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "冬季这里降雪丰富，景色别样，但部分民宿可能因取暖条件有限而关闭，预订前一定要确认是否营业以及供暖情况。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开普拉夫许久，那抹翡翠般的湖绿和防御塔沉郁的剪影，还会时常交织在脑海里。它不像那些被无数明信片打磨得光滑无比的知名景点，美得直接，美得张扬。它的美，是带着复杂层次的。你需要先为自然的奇迹所倾倒，继而为其历史的沉重所震撼，最后，在为这两者看似矛盾却共生多年的现实沉思中，感受到一种深刻的真实。这里的美从不承诺纯粹的愉悦，它夹杂着山风的凛冽、传说的阴郁和石头缝里渗出的过往凉意，但也正因如此，它才如此动人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、渴望一键获取所有体验的世界里，普拉夫是一个温柔而坚定的“减速带”。它告诉你，有些风景需要徒步一段才能看见，有些历史需要触摸冰冷的石墙才能感知，有些宁静需要你真正坐下来，等一场日落才能品到。它不仅仅是一个目的地，更是一种状态的提醒：旅行的意义，在于让自己沉浸于另一种时空的流速中，去理解不同生存逻辑下绽放的人类文明之花。如果你厌倦了浮光掠影，渴望一场能沉入土地、触及灵魂的旅行，那么，请一定来普拉夫。让被诅咒的山脉守护你的思绪，让冰川湖水洗亮你的眼睛，在这座活着的时光胶囊里，找到旅途中那份最珍贵的、沉默的力量。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/budva-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    布
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">布德瓦老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Budva Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/biogradska-gora-national-park" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    比
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">比奥格勒山国家公园</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Biogradska Gora National Park</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/perast-bay-kotor-montenegro-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩拉斯特</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Perast</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '菲纳莱利古雷 Finalborgo｜被中世纪城墙完美包裹的攀岩天堂 - 最佳欧洲景点',
+  description: '还记得我第一次穿过那道厚重的圣乔瓦尼门拱时，那种突如其来的静谧感吗？就好像世界突然被调低了音量，换上了暖黄色的滤镜。车轮碾过现代化海滨大道的声音瞬间消失，脚下变成了被岁月打磨得光滑如镜的石板路，每一步都发出好听的、轻微的“嗒嗒”声。空气里的味道变了，海风的咸湿被老石头缝隙里苔藓的清新、某户人家窗口飘',
+}
+
+export default function FinalborgoMedievalVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '菲纳莱利古雷', href: '/destinations/italy' },
+            { label: '菲纳莱利古雷（菲纳尔博戈）', href: '/attractions/finalborgo-medieval-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`菲纳莱利古雷（菲纳尔博戈）・Finalborgo・意大利・菲纳莱利古雷`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`还记得我第一次穿过那道厚重的圣乔瓦尼门拱时，那种突如其来的静谧感吗？就好像世界突然被调低了音量，换上了暖黄色的滤镜。车轮碾过现代化海滨大道的声音瞬间消失，脚下变成了被岁月打磨得光滑如镜的石板路，每一步都发出好听的、轻微的“嗒嗒”声。空气里的味道变了，海风的咸湿被老石头缝隙里苔藓的清新、某户人家窗口飘出的罗勒酱浓香，以及从街角面包店涌出的、带着小麦焦香的热气所取代。阳光被狭窄的“卡鲁吉”（caruggi，利古里亚方言中的小巷）切割成明晃晃的光带，斜斜地打在蜜糖色的墙壁上，照亮了阳台上肆意生长的天竺葵，那红色鲜艳得像是刚画上去的。
+这里的时间是双重的。你看到穿着围裙的老奶奶，挎着菜篮，慢悠悠地走在十四世纪铺就的街道上，和邻居用快节奏的利古里亚方言聊着天。而与此同时，你的身边不断走过另一群人：他们穿着鲜艳的紧身裤，皮肤晒成小麦色，肩上轻松地甩着塞满绳索和镁粉袋的背包，脚上的攀岩鞋还沾着远处悬崖的白色石灰岩粉。他们在古老的喷泉边接水，在始建于中世纪的广场石阶上拉伸肌肉，讨论着今天要挑战哪一条“线路”。这两种画面交织在一起，竟没有丝毫违和。菲纳尔博戈的魅力就在于此——它不是一个供人观赏的博物馆式古镇，而是一个有心跳、有呼吸的活体。城墙将它守护了七百年，如今守护的不仅是一段历史，更是一种独特的生活选择：在古老的宁静中，孕育着冲向天空的动感。
+当你走到小镇的中心，圣比亚焦教堂前的广场时，这种感受会达到顶峰。咖啡馆的遮阳伞下，坐着刚从岩壁上下来、喝着庆祝啤酒的攀岩者，他们的眼神还带着征服岩点的兴奋；而旁边的长椅上，本地老人正眯着眼晒太阳，脚边卧着懒洋洋的猫。教堂的钟声敲响，声音浑厚，在城墙内回荡。你忽然明白，这座小镇最打动人心的，不是它保存得多好（虽然它确实好得惊人），而是它如何将“根”与“翼”完美结合。它的根，深扎在利古里亚的土地和历史中；它的翼，则是那些指向蔚蓝天空的悬崖，以及人们不断向上探索的勇气。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "还记得我第一次穿过那道厚重的圣乔瓦尼门拱时，那种突如其来的静谧感吗？就好像世界突然被调低了音量，换上了暖黄色的滤镜。车轮碾过现代化海滨大道的声音瞬间消失，脚下变成了被岁月打磨得光滑如镜的石板路，每一步都发出好听的、轻微的“嗒嗒”声。空气里的味道变了，海风的咸湿被老石头缝隙里苔藓的清新、某户人家窗口飘出的罗勒酱浓香，以及从街角面包店涌出的、带着小麦焦香的热气所取代。阳光被狭窄的“卡鲁吉”（caruggi，利古里亚方言中的小巷）切割成明晃晃的光带，斜斜地打在蜜糖色的墙壁上，照亮了阳台上肆意生长的天竺葵，那红色鲜艳得像是刚画上去的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里的时间是双重的。你看到穿着围裙的老奶奶，挎着菜篮，慢悠悠地走在十四世纪铺就的街道上，和邻居用快节奏的利古里亚方言聊着天。而与此同时，你的身边不断走过另一群人：他们穿着鲜艳的紧身裤，皮肤晒成小麦色，肩上轻松地甩着塞满绳索和镁粉袋的背包，脚上的攀岩鞋还沾着远处悬崖的白色石灰岩粉。他们在古老的喷泉边接水，在始建于中世纪的广场石阶上拉伸肌肉，讨论着今天要挑战哪一条“线路”。这两种画面交织在一起，竟没有丝毫违和。菲纳尔博戈的魅力就在于此——它不是一个供人观赏的博物馆式古镇，而是一个有心跳、有呼吸的活体。城墙将它守护了七百年，如今守护的不仅是一段历史，更是一种独特的生活选择：在古老的宁静中，孕育着冲向天空的动感。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你走到小镇的中心，圣比亚焦教堂前的广场时，这种感受会达到顶峰。咖啡馆的遮阳伞下，坐着刚从岩壁上下来、喝着庆祝啤酒的攀岩者，他们的眼神还带着征服岩点的兴奋；而旁边的长椅上，本地老人正眯着眼晒太阳，脚边卧着懒洋洋的猫。教堂的钟声敲响，声音浑厚，在城墙内回荡。你忽然明白，这座小镇最打动人心的，不是它保存得多好（虽然它确实好得惊人），而是它如何将“根”与“翼”完美结合。它的根，深扎在利古里亚的土地和历史中；它的翼，则是那些指向蔚蓝天空的悬崖，以及人们不断向上探索的勇气。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`菲纳莱利古雷（菲纳尔博戈）`} />
+                <InfoRow label="英文名称" value={`Finalborgo`} />
+                <InfoRow label="正式名称" value={`Finalborgo`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`菲纳莱利古雷`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`中世纪利古里亚海岸防御体系中的关键一环，如今是欧洲攀岩界无可争议的“圣地”与精神家园。`} />
+                <InfoRow label="建筑特色" value={`保存近乎完事的椭圆形中世纪城墙，内部是棋盘状布局的整齐街巷，建筑多为暖色调的石头与灰泥外墙，配有精致的门廊与拱窗。`} />
+                <InfoRow label="建筑风格" value={`典型的热那亚共和国时期军事防御城镇规划与利古里亚民间建筑的完美结合。`} />
+                <InfoRow label="文化价值" value={`一座活着的、将千年历史沉淀与极限户外生活方式和谐共融的独特社区典范。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古镇公共区域全天24小时开放。镇内的城堡博物馆（Castello di San Giovanni）和市政美术馆开放时间通常为周二至周日，上午10点至下午1点，下午3点至6点（夏季可能延长至7点），周一闭馆。部分小型工艺品店铺和餐馆有各自的午休时间，大致在下午1点至3点。攀岩活动不受时间限制，但建议仅在白天进行。`} />
+              <InfoRow label="门票价格" value={`进入菲纳尔博戈古镇本身完全免费。参观城堡博物馆和市政美术馆需购买联票，约5欧元。有学生证、65岁以上老人及团体可享受折扣票，约3欧元。12岁以下儿童在成人陪同下免费。参加向导攀岩或课程费用另计，根据时长和难度，半日体验约50-80欧元/人起。`} />
+              <InfoRow label="地址" value={`Via delle Mura, 17024 Finalborgo SV, Italy`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是热那亚哥伦布机场（GOA），距离约50公里。从机场可搭乘火车前往菲纳莱利古雷火车站（Finale Ligure Station）。火车是抵达的最佳方式，从热那亚市中心火车站（Genova Brignole或Genova Piazza Principe）出发，乘坐开往文蒂米利亚（Ventimiglia）方向的区域火车，约1小时车程，在“Finale Ligure”站下车，班次频繁，约半小时一班。出火车站后，步行是融入小镇最好的开始，穿过现代化的菲纳莱滨海区（Finale Ligure），沿着清晰的指示牌（或跟随背着彩色攀岩包的年轻人）步行约15-20分钟，即可抵达被古老城墙环绕的菲纳尔博戈。若自驾，可将车停在城墙外的公共停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要讲菲纳尔博戈的故事，我们得把时钟拨回到十三世纪。那时候，热那亚共和国和它的老对头威尼斯正为了地中海的贸易权争得你死我活，沿海的居民饱受海盗和敌对城邦的骚扰。于是，热那亚的统治家族——德尔卡雷托家族，做了一个决定：在内陆一点、更易防守的地方，建造一座坚固的设防城镇。他们选中了这里，菲纳莱河流域的一个战略要地。大约在12世纪末到13世纪初，菲纳尔博戈的雏形诞生了。它的规划非常先进，甚至可以说“超前”：一个近乎完美的椭圆形，被高大厚实的城墙严密包裹，只有四座城门与外界相连。内部的街道横平竖直，像棋盘一样规整，这在中世纪杂乱无章的城镇建设中极为罕见。这种设计不仅是为了美观，更是为了防御和高效管理——敌人一旦攻入，也无法在笔直的街道上藏身，守军可以迅速调动。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座小镇生来就带着军事的基因，在随后的几百年里，它成了德尔卡雷托家族权力的核心。他们在这里建造了宫殿、法庭和铸币厂。我们今天还能看到的圣乔瓦尼城堡，最初就是家族的堡垒。小镇的命运随着主人家族的兴衰而起伏，先后被米兰的斯福尔扎家族、法国的安茹家族统治，最终在1602年，被彻底并入热那亚共和国。城墙见证了无数的谈判、联姻、背叛与小规模冲突，石头上浸透了权力的味道。然而，当大炮的出现让高墙逐渐失去军事意义后，菲纳尔博戈并没有像许多类似的要塞城镇那样走向衰败。它悄然转型，成了一个繁荣的农业和手工业中心，生产橄榄油、葡萄酒，并以其精美的铁艺闻名。城墙从防御工具，变成了家园的温馨边界。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正的转折点发生在二十世纪中期，但不是因为战争，而是因为一项运动。菲纳莱利古雷周边那些壮观的、仿佛被巨斧劈开的白色石灰岩悬崖，吸引了第一批先锋攀岩者的目光。六七十年代，当攀岩在欧洲还是一项极为小众的冒险时，这里就成了探险家的秘密花园。岩壁质量极高，线路丰富，从适合新人的缓坡到令高手颤栗的垂直绝壁应有尽有，加上利古里亚得天独厚的温和气候，几乎全年可爬。攀岩者们来了，他们最初可能只是在小镇边缘扎营，但很快就被菲纳尔博戈的魅力征服——还有什么比在挑战自然极限之后，回到一个有着温暖石头房子、美味食物和舒服床铺的千年古镇更惬意的事呢？" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，一种奇妙的共生关系开始了。攀岩者们为小镇带来了新的活力、国际化的气息和一种自由的精神。小镇则以它包容的胸怀接纳了这些“现代吉普赛人”。古老的建筑里开出了专为攀岩者服务的装备店、洗衣房、信息中心和富有活力的酒吧餐馆。本地居民从一开始的好奇，到理解，再到参与其中——许多家庭旅馆的老板自己就是攀岩好手。历史没有成为发展的桎梏，反而成了最独特的背景板。菲纳尔博戈完成了一场华丽的变身：从中世纪军事要塞，到宁静乡村古镇，再到世界攀岩之都。它的城墙从未被攻破，如今却以一种更开放的方式，迎接着全世界热爱岩石与天空的人们。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要深度体验菲纳尔博戈，我强烈建议你安排整整一天时间，并在这里住上一晚。最佳抵达时间是清晨，大约九点前，这时旅游巴士还未到达，小镇刚刚苏醒，光线柔和，是拍照和感受宁静氛围的黄金时间。上午用2-3小时慢慢探索城墙内的每一个角落，让脚步跟着好奇心走。中午一定要在镇内的餐馆享用一顿漫长的利古里亚午餐。下午有两种选择：如果你是户外爱好者，可以轻装前往附近的岩区体验或观摩（即便不爬，风景也绝美）；若想更深入历史，则可以参观城堡博物馆。傍晚时分回到镇上，此时攀岩者们归来，小镇的社交氛围达到高潮，最适合喝一杯，听听他们的故事。这样的节奏能让你同时领略到小镇的古典之魂与户外之心。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`小镇地面全是石板路，请务必穿一双舒适防滑的鞋子，高跟鞋在这里是“灾难级”选择。许多小型店铺和博物馆有较长的午休时间（约13:00-15:30），规划参观时请注意。如果你对攀岩感兴趣但毫无经验，镇上有多家专业向导机构提供体验课程，绝对不要自行尝试。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从最具地标性的圣乔瓦尼门进入，立刻用手触摸那冰凉而粗糙的古老石壁，感受七个世纪前工匠留下的痕迹。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`毫无目的地在棋盘格般的“卡鲁吉”小巷中迷一次路，留意那些门楣上的浮雕、铁艺窗棂和从内院探出头的柠檬树。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在静谧的圣比亚焦教堂里稍坐片刻，让眼睛适应昏暗的光线，看阳光透过玫瑰窗在长椅上投下彩色的光斑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要去小镇中心的加富尔广场，坐在台阶上观察来来往往的人群，看本地主妇、悠闲游客和风尘仆仆的攀岩者如何共享这个空间。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找到通往城墙顶部的步道入口（通常靠近城堡），走上去，沿着垛口漫步一圈，从制高点俯瞰红瓦屋顶的波浪和远处若隐若现的石灰岩巨墙。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`探访一家本地的攀岩装备店，即使不买东西，店里贴满的线路图、旧海报和正在保养绳索的店主本身就是一道风景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在由古老修道院回廊改造的市政美术馆里，看看从中世纪到现代的艺术如何讲述这片土地的故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落时分，选择一家城墙根下的餐馆户外座位，点一份经典的“热那亚青酱面”和本地白葡萄酒，看着城墙被夕阳染成金黄色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣乔瓦尼门内侧仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的斜阳会让门洞内的拱石呈现出迷人的明暗对比，等待一个背包的攀岩者或骑自行车的小孩穿过，能瞬间抓住古今交融的灵魂。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`加富尔广场的拱廊下`}</h4>
+                  <p className="text-sm text-gray-700">{`利用拱廊形成的天然画框，拍摄广场上生动的人物场景，特别是傍晚华灯初上、咖啡馆桌灯点亮时的温暖氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`从西北段城墙俯瞰小镇屋顶`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或日落前半小时，光线最为柔和，可以拍到连绵的暖红色屋顶与远处圣比亚焦教堂钟楼构成的经典层次感画面。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`“卡鲁吉”小巷的纵深`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一条有强烈光影对比的小巷，站在巷口，利用石板路形成的引导线，将视线引向小巷尽头的一扇彩门或一盆鲜花，营造故事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`小镇外通往岩区的路上回眸`}</h4>
+                  <p className="text-sm text-gray-700">{`走出小镇一段距离后，回头拍摄菲纳尔博戈被完整城墙环绕的全景，将它置于巨大的石灰岩山体背景下，凸显其作为“攀岩大本营”的独特环境。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地居民，尤其是老人，请务必先微笑示意并获得默许，尊重他们的隐私。攀岩者在岩壁上是高度专注的，使用长焦镜头远距离捕捉动态为佳，切勿在关键路段呼喊或使用闪光灯干扰他们。无人机飞行在古镇和岩区上空可能有严格限制，起飞前务必查清当地法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`背包客之选`}</h4>
+                  <p className="text-sm text-blue-800">{`由古老石屋改造的攀岩主题青年旅舍，宿舍床铺宽敞舒适，公共厨房总聚集着世界各地来的岩友，信息板贴满了拼车和结伴攀岩的纸条，是结交旅伴的绝佳之地。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`位于古镇核心区一栋16世纪贵族宅邸内的精品酒店，房间保留了原始的石头墙壁和木梁，但配备了最现代化的设施，屋顶露台提供360度环绕的古城与山景早餐。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`家庭氛围`}</h4>
+                  <p className="text-sm text-yellow-800">{`由本地家庭经营的“住宿加早餐”旅馆，女主人会为你准备丰盛的自制利古里亚早餐，并热情地分享那些旅游指南上找不到的本地餐馆和隐秘的观景角落。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`静谧避世`}</h4>
+                  <p className="text-sm text-purple-800">{`坐落在小镇边缘橄榄园中的独立度假屋，拥有私密的花园和开阔的视野，白天尽享宁静，步行十分钟又能融入小镇的喧闹生活，适合寻求平衡的旅行者。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6月至9月）和重要的攀岩赛事期间住宿非常紧张，务必提前数月预订。古镇内的住宿停车位极其有限，预订时一定要确认停车安排。选择住在城墙内，才能真正体验入夜后和清晨时分，游客散去、小镇重归本地人手中的那种静谧魔力。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开菲纳尔博戈很久之后，我闭上眼，脑海里浮现的不仅仅是那些美丽的石头街道或壮观的悬崖。我想到的是一种“完整性”。在这个碎片化的时代，我们习惯了割裂：历史是博物馆里的，冒险是荒野中的，日常生活是另一个频道。但菲纳尔博戈拒绝这种割裂。它把所有这些元素——厚重的历史、社区的温度、自然的挑战、身体的极限——全部编织进了同一幅生活图景里。在这里，一个攀岩者追求极致线路时的专注，与一位老石匠当年雕琢城门拱石的专注，在精神上或许是相通的；咖啡馆里的欢声笑语，与几个世纪前广场上市集的嘈杂，延续的是同一种人间烟火。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它之所以应该被列入一生必去的清单，不是因为它有多奢华或多罕见，而是因为它提供了一种珍贵的生活可能性证明。它告诉我们，传统不必是前进的包袱，反而可以是最坚实的基石；极限运动也不意味着疏离文明，它可以扎根在一个充满温情的社区里。当你背着攀岩包走过古老的城门，你同时穿越了时间与空间。你不仅是在游览一个景点，更是在体验一种浑然一体的、充满热情与归属感的生活方式。在这里，你会重新思考“家园”和“探索”的定义——家园可以是让你安心出发的堡垒，而最远的探索，或许最终是为了更好地回到那个点着温暖灯光的、石头砌成的家。菲纳尔博戈，就是一个这样让你心安定下来，同时又让灵魂想要飞翔的地方。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/loreto-aprutino-abruzzo" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    洛
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">洛雷托阿普鲁蒂诺</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Loreto Aprutino</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/civitella-del-tronto-fortress" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奇
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奇维泰拉-德尔特龙托</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Civitella del Tronto</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ancient-city-amelia" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    阿
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">阿梅利亚古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">The Ancient City of Amelia</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

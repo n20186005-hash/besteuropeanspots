@@ -1,0 +1,243 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '贝托纳 Bettona｜翁布里亚的“伊特鲁里亚阳台”，沉浸于橄榄林海与千年城墙的静谧时光 - 最佳欧洲景点',
+  description: '车子在翁布里亚绵延起伏的绿色丘陵间盘旋而上，当你第一眼看到贝托纳时，它不像那些张扬的托斯卡纳古镇，而更像一枚被时光精心包裹的琥珀，静静地镶嵌在长满橄榄树的山脊上。最震撼的是那段赭石色的城墙，没有经过文艺复兴的精雕细琢，石块巨大、质朴，甚至有些粗粝，就那么沉默而坚固地嵌在后来修建的红砖房屋之间。那是一',
+}
+
+export default function BettonaUmbriaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '意大利', href: '/destinations/italy' },
+            { label: '贝托纳', href: '/destinations/italy' },
+            { label: '贝托纳', href: '/attractions/bettona-umbria' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`贝托纳・Bettona・意大利・贝托纳`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在翁布里亚绵延起伏的绿色丘陵间盘旋而上，当你第一眼看到贝托纳时，它不像那些张扬的托斯卡纳古镇，而更像一枚被时光精心包裹的琥珀，静静地镶嵌在长满橄榄树的山脊上。最震撼的是那段赭石色的城墙，没有经过文艺复兴的精雕细琢，石块巨大、质朴，甚至有些粗粝，就那么沉默而坚固地嵌在后来修建的红砖房屋之间。那是一种直白的历史宣言，告诉你脚下这片土地，早在罗马人挥舞鹰旗之前，就已是一个伟大民族的坚实据点。
+推开车门，一股混合着干燥石粉、野生茴香和远处橄榄林清冽气味的山风扑面而来。沿着缓坡走向主要城门，脚下的石板被无数代人磨得温润发亮。城内的宁静是包裹性的，时间在这里变成了黏稠的蜂蜜。你听到的主要声音，是远处教堂浑厚的钟声，某扇木窗被推开的吱呀声，以及自己的脚步声在狭窄巷弄里的回响。偶尔有白发的老奶奶端着咖啡杯，从二楼阳台好奇而友善地瞥你一眼，随即又消失在厚重的木门后。这里没有旅游团的喧嚣，生活以它几个世纪以来近乎不变的缓慢节奏流淌着。
+它的核心魅力，是一种“悬浮感”。站在任何一段保存完好的伊特鲁里亚城墙上，你就是站在了“伊特鲁里亚的阳台”上。眼前毫无遮挡，翁布里亚的经典画卷在你脚下徐徐铺开：无垠的橄榄林海像绿色的绒毯，一直蔓延到天际线，其间点缀着深绿色的柏树，像大地竖起的墨绿色箭头；更远处，特拉西梅诺湖在阳光下泛着细碎的银光。你瞬间就明白了伊特鲁里亚人选择此地的智慧——这不仅是防御，更是一种统治和凝视。这种将自身置于历史与风景交汇点的体验，是贝托纳独一无二的馈赠。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在翁布里亚绵延起伏的绿色丘陵间盘旋而上，当你第一眼看到贝托纳时，它不像那些张扬的托斯卡纳古镇，而更像一枚被时光精心包裹的琥珀，静静地镶嵌在长满橄榄树的山脊上。最震撼的是那段赭石色的城墙，没有经过文艺复兴的精雕细琢，石块巨大、质朴，甚至有些粗粝，就那么沉默而坚固地嵌在后来修建的红砖房屋之间。那是一种直白的历史宣言，告诉你脚下这片土地，早在罗马人挥舞鹰旗之前，就已是一个伟大民族的坚实据点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "推开车门，一股混合着干燥石粉、野生茴香和远处橄榄林清冽气味的山风扑面而来。沿着缓坡走向主要城门，脚下的石板被无数代人磨得温润发亮。城内的宁静是包裹性的，时间在这里变成了黏稠的蜂蜜。你听到的主要声音，是远处教堂浑厚的钟声，某扇木窗被推开的吱呀声，以及自己的脚步声在狭窄巷弄里的回响。偶尔有白发的老奶奶端着咖啡杯，从二楼阳台好奇而友善地瞥你一眼，随即又消失在厚重的木门后。这里没有旅游团的喧嚣，生活以它几个世纪以来近乎不变的缓慢节奏流淌着。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的核心魅力，是一种“悬浮感”。站在任何一段保存完好的伊特鲁里亚城墙上，你就是站在了“伊特鲁里亚的阳台”上。眼前毫无遮挡，翁布里亚的经典画卷在你脚下徐徐铺开：无垠的橄榄林海像绿色的绒毯，一直蔓延到天际线，其间点缀着深绿色的柏树，像大地竖起的墨绿色箭头；更远处，特拉西梅诺湖在阳光下泛着细碎的银光。你瞬间就明白了伊特鲁里亚人选择此地的智慧——这不仅是防御，更是一种统治和凝视。这种将自身置于历史与风景交汇点的体验，是贝托纳独一无二的馈赠。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`贝托纳`} />
+                <InfoRow label="英文名称" value={`Bettona`} />
+                <InfoRow label="正式名称" value={`Bettona`} />
+                <InfoRow label="国家" value={`意大利`} />
+                <InfoRow label="城市" value={`贝托纳`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座跨越近三千年，完整经历了伊特鲁里亚文明、罗马时代、中世纪直至今日的“活态”山城见证者。`} />
+                <InfoRow label="建筑特色" value={`以厚重、未经雕琢的赭石色伊特鲁里亚原始城墙为核心，与中世纪砖石建筑完美融合，构成一座俯瞰翁布里亚绿色山谷的空中堡垒。`} />
+                <InfoRow label="建筑风格" value={`伊特鲁里亚防御工事基础与中世纪翁布里亚山城风格的结合体。`} />
+                <InfoRow label="文化价值" value={`是理解伊特鲁里亚文明在亚平宁半岛中部生存与消亡，以及中世纪城市重生与延续的绝佳微观样本。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古城本身全天开放。主要景点如 Collegiata di Santa Maria Maggiore 教堂开放时间一般为 8:00-12:00 及 15:00-19:00（冬季可能缩短）。市政博物馆（Pinacoteca）开放时间通常为周二至周日 10:30-13:00，15:00-18:00（建议行前查看当地旅游网站确认最新时间）。城墙步道全天可自由漫步。`} />
+              <InfoRow label="门票价格" value={`进入古城免费。市政博物馆门票约 5 欧元，学生及65岁以上老人享有折扣价约 3 欧元。教堂参观免费（欢迎捐赠）。部分节庆活动或特殊展览可能单独收费。`} />
+              <InfoRow label="地址" value={`Piazza Cavour, 06084 Bettona PG, Italy`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是佩鲁贾圣方济各机场（PEG），距离约20公里。从机场可乘坐出租车直达贝托纳山下，车程约30分钟，费用约40-50欧元。更经济的方案是先乘坐机场大巴到佩鲁贾火车站（约20分钟），再转乘前往贝托纳的巴士（线路APM E007/E017），班次较为稀疏，每天约4-6班，车程约45分钟，务必提前查好时刻表。自驾是最推荐的方式，从佩鲁贾出发沿SS3bis/E45公路向南，约20分钟车程即可抵达山脚下，有清晰的指示牌引导至停车场（城外）。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "大约在公元前八到七世纪，当罗马还只是台伯河畔几个不起眼的村落时，擅长水利、金属冶炼和占卜的伊特鲁里亚人，就已经看中了这座陡峭的山丘。他们用巨大的石灰岩块，不依靠灰泥，仅凭精准的切割和堆叠，筑起了坚固的城墙。贝托纳，或者说它的前身“Vettona”，成为了他们十二座重要城邦联盟中的一员，控制着从台伯河谷到亚得里亚海之间的贸易路线。这些沉默的石头，见证了伊特鲁里亚文明的鼎盛，也目睹了它如何在与新兴罗马的角力中逐渐黯淡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗马人的铁蹄最终踏平了亚平宁。公元前三世纪，经过血腥的征服，贝托纳被纳入罗马共和国。然而，罗马人通常聪明地保留并利用这些现成的防御工事。城墙被加固和延伸，山城内修建起了罗马式的神庙、广场和水渠。有趣的是，伊特鲁里亚人的某些神灵和习俗，悄然融入了罗马的万神殿。这段时期的贝托纳，像一个文化的熔炉，两种文明在此叠加，石头底下压着更古老的石头。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "中世纪的到来伴随着无尽的动荡。哥特人、伦巴第人的入侵让城墙一次次经受考验。真正毁灭性的一击来自十三世纪，与邻城佩鲁贾的血腥战争中，贝托纳被几乎完全摧毁。我们今天看到的城市肌理，绝大部分源于那次浩劫之后的重建。幸存下来的伊特鲁里亚城墙基座，成为了新城墙坚固的骨架。中世纪的工匠们在古老的巨石之上，用更规整的砖石垒砌起新的家园、教堂和塔楼。于是，你看到了现在这种奇妙的共生：一段粗糙的、有着两千五百年历史的巨石墙，上方严丝合缝地“长”出了一座十五世纪的砖砌民居阳台，阳台上晾晒着今天的床单。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "随后的几个世纪，贝托纳相对平静，先后处于不同贵族领主的统治下，并以其优质的橄榄油和宁静的修道院生活而闻名。黑死病的阴影、拿破仑军队的过境，都在它身上留下了淡淡的痕迹，但从未改变它作为一座自给自足的山城本质。它没有追逐文艺复兴或巴洛克的华丽风潮，只是静静地守护着自己的古老根源和缓慢生活。这种“不追赶”的姿态，反而让它奇迹般地保存了一种近乎原始的历史层次感。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议在下午三点左右抵达贝托纳。这个时间避开了正午的炎热，阳光开始变得金黄温柔，是探索小巷和城墙步道的完美时刻。整体游览可以安排3-4小时，以闲散的漫步节奏为主，精髓在于“绕城一周”和“登高望远”。路线设计为从主要城门入城，先感受城内宁静的中世纪氛围，再重点环绕保存完好的城墙段行走，最后在城墙最佳观景处等待日落。这样的安排能让你由内而外，层层深入地体验这座山城作为“阳台”的立体魅力，并在一天中最美的光线里，收获最难忘的回忆。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`城墙步道部分路段没有护栏且石板湿滑，请务必穿着防滑舒适的鞋子，并注意脚下。
+小镇餐馆不多且关门较早，若计划晚餐，最好在晚上八点前入座，或提前在佩鲁贾用餐。
+这里几乎没有大型旅游商店，购买纪念品（如本地橄榄油）请认准家庭经营的小杂货铺，那是支持本地社区的最好方式。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从古老的圣天使门进入，立刻让自己迷失在仅容两人侧身通过的、挂满天竺葵的蜿蜒巷弄里。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`前往 Collegiata di Santa Maria Maggiore 教堂，在昏暗的光线下寻找佩鲁吉诺画派那些静谧而哀伤的圣母像。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕到教堂后方，亲手触摸那段裸露的、冰冷而粗糙的伊特鲁里亚原始城墙巨石，感受跨越两千多年的温度差。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`爬上城墙步道的石阶，沿着西北段城墙慢慢走，让视线随着橄榄林的海浪一直涌向地平线。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在市政厅的小型博物馆里，驻足于那些从农田里挖出的伊特鲁里亚陶罐和罗马硬币前，拼凑碎片化的历史。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一家正对着小广场的咖啡馆，点一杯浓缩咖啡，看着本地老人围坐在一起玩牌，直到钟声再次敲响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前半小时，务必走到城墙的西南角，找一张石凳坐下，看金红色的光芒如何为整个翁布里亚山谷镀上蜂蜜色。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城墙下来后，再次穿过寂静的巷道回到城门，回头看，山城已在暮色中亮起星星点点的暖黄灯光。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城墙西南角全景台`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时至日落后蓝调时刻，将城墙垛口作为前景框架，拍摄橄榄林、柏树和远山构成的层次丰富的暖色调画卷。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`Via dell‘Arco 街巷光影`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点左右，阳光斜射入狭窄的巷子，利用两侧石墙形成天然引导线，拍摄光影切割下的门洞、阶梯和盆栽。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣天使门洞框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或上午，站在门洞内侧向外拍，以厚重的拱门为画框，框住门外漫山遍野的橄榄林，形成强烈对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`城墙与民居共生细节`}</h4>
+                  <p className="text-sm text-gray-700">{`寻找那些伊特鲁里亚巨石与中世纪砖石结合的部位，利用侧光突出石材的不同纹理和质感，讲述时间层叠的故事。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`城外橄榄林仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`从山脚下停车场附近的小路回望，用长焦镜头压缩空间，拍摄古城全貌屹立于翠绿山巅，天空如有流云则更佳。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`尊重当地居民隐私，避免将镜头直接对准民居窗户或阳台内的人。拍摄人物最好先微笑示意并获得同意。无人机飞行在意大利历史中心区有严格限制，在贝托纳这样的古镇上空飞行很可能违法，请勿使用。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`全景民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`住在城墙边一座由13世纪塔楼改造的公寓里，古老的石拱窗正对无垠山谷，清晨在橄榄林的清香和百鸟鸣唱中醒来。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`庄园农庄体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择城外一公里处一座被橄榄树和葡萄园环绕的古老农庄，主人会带你参观榨油作坊，并奉上用自家食材烹制的传统晚餐。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`历史中心小酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于主广场旁一栋经过精心修复的16世纪建筑内，房间保留了原始的砖拱天花板，下楼就能融入傍晚散步的本地人潮中。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感隐居`}</h4>
+                  <p className="text-sm text-purple-800">{`一间由艺术家经营的极简风格客房，隐藏在小镇最安静的角落，巨大的落地窗将山谷风景变成一幅动态的壁画，适合寻求静谧的创作者。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "贝托纳的住宿数量非常有限，尤其是在夏季和橄榄收获季（秋季），务必提前数月预订。住在城内晚上极其安静，几乎没有任何夜生活，是真正的“隐居”。如果选择城外农庄，虽然需要驾车往返，但能获得更开阔的田园视野和深度农事体验。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开贝托纳时，你带走的可能不是某件具体的纪念品，而是一种关于“时间厚度”的感知。在这个习惯于刷新、迭代和速朽的时代，贝托纳的存在本身就像一种温和的反抗。它不炫耀，不争辩，只是沉默地展示着历史的断层与延续——伊特鲁里亚的石头托着中世纪的砖，中世纪的砖支撑着现代生活的阳台。它告诉你，文明不是断裂的，而是像这里的城墙一样，一层一层，缓慢而坚韧地累积起来的。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是为什么每一位真正的深度旅行者都应该来一次贝托纳。它不仅仅是一个观景台，更是一个沉思的驿站。在这里，你会被迫慢下来，聆听风声穿过古老石缝的声音，观察光线在山谷中移动的轨迹，思考自身在漫长历史中的位置。当你站在那个“伊特鲁里亚的阳台”上，看着两千多年前同样的人看过的风景，你会感到一种奇妙的连接。这种连接，能治愈现代的浮躁，让你重新获得一种沉静的力量。贝托纳是一首用石头写成的、缓慢的诗，值得你专程前来，静静地读上一遍。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mantua-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    曼
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">曼托瓦老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mantua Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/lucca-old-town-walls" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卢
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卢卡古城墙</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Lucca Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/otranto-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥特朗托老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Otranto Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

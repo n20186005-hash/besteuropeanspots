@@ -1,0 +1,240 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '卡尔斯塔德 Karlstad｜瑞典的阳光与水域之心，徜徉在维纳恩湖百年石桥之上 - 最佳欧洲景点',
+  description: '当我第一眼看到卡尔斯塔德，扑面而来的不是城市的喧嚣，而是一种被水与光拥抱的宽阔感。空气里是干净的、带着点湖水腥甜和松针清冽的味道，视野毫无阻拦地投向远方那片银蓝色的浩瀚——那就是维纳恩湖，瑞典的“海洋”。你会发现，这座城市不是建在湖边，而是生长在水系之中，无数条小河与运河像血管一样穿梭在街道和花园之',
+}
+
+export default function KarlstadCityPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞典', href: '/destinations/europe' },
+            { label: '卡尔斯塔德', href: '/destinations/europe' },
+            { label: '卡尔斯塔德', href: '/attractions/karlstad-city' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`卡尔斯塔德・Karlstad・瑞典・卡尔斯塔德`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`当我第一眼看到卡尔斯塔德，扑面而来的不是城市的喧嚣，而是一种被水与光拥抱的宽阔感。空气里是干净的、带着点湖水腥甜和松针清冽的味道，视野毫无阻拦地投向远方那片银蓝色的浩瀚——那就是维纳恩湖，瑞典的“海洋”。你会发现，这座城市不是建在湖边，而是生长在水系之中，无数条小河与运河像血管一样穿梭在街道和花园之间，阳光在这里似乎格外慷慨，即使在北欧，也把每一片水面都照得碎金闪烁。
+最动人的莫过于那座横跨在克拉尔河（Klarälven）入湖口的百年石桥。它不张扬，却有种沉静的力量。走上桥面，脚下是被岁月磨得光滑的厚重石板，两侧是敦实的石砌拱券，一个接一个，延伸向对岸绿意盎然的诺尔岛。站在桥中央，你可以同时看到三种风景：左手边是克拉尔河平缓流淌而来的河道，右手边是豁然开朗、一望无际的维纳恩湖湖面，正前方则是卡尔斯塔德色彩柔和的市中心轮廓。耳边只有风声、水声和偶尔掠过的海鸟鸣叫，时间在这里，仿佛也随着水流慢了下来。
+当地人似乎把这座桥和生活彻底融为了一体。你会看到慢跑的人有节奏地穿过每一个桥拱，推着婴儿车的父母停在桥边指着远处的帆船，老人们则倚着栏杆，一动不动地享受午后的阳光浴。这座桥连接的不是两岸，而是一种闲适从容的心境。卡尔斯塔德的核心魅力，就在于这种罕见的和谐——人类聚落的温暖尺度，与北欧荒野般壮阔的自然水域，被一座古老的石桥巧妙地缝合在一起，创造出一种独一无二的、充满阳光与呼吸感的城市氛围。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当我第一眼看到卡尔斯塔德，扑面而来的不是城市的喧嚣，而是一种被水与光拥抱的宽阔感。空气里是干净的、带着点湖水腥甜和松针清冽的味道，视野毫无阻拦地投向远方那片银蓝色的浩瀚——那就是维纳恩湖，瑞典的“海洋”。你会发现，这座城市不是建在湖边，而是生长在水系之中，无数条小河与运河像血管一样穿梭在街道和花园之间，阳光在这里似乎格外慷慨，即使在北欧，也把每一片水面都照得碎金闪烁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最动人的莫过于那座横跨在克拉尔河（Klarälven）入湖口的百年石桥。它不张扬，却有种沉静的力量。走上桥面，脚下是被岁月磨得光滑的厚重石板，两侧是敦实的石砌拱券，一个接一个，延伸向对岸绿意盎然的诺尔岛。站在桥中央，你可以同时看到三种风景：左手边是克拉尔河平缓流淌而来的河道，右手边是豁然开朗、一望无际的维纳恩湖湖面，正前方则是卡尔斯塔德色彩柔和的市中心轮廓。耳边只有风声、水声和偶尔掠过的海鸟鸣叫，时间在这里，仿佛也随着水流慢了下来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当地人似乎把这座桥和生活彻底融为了一体。你会看到慢跑的人有节奏地穿过每一个桥拱，推着婴儿车的父母停在桥边指着远处的帆船，老人们则倚着栏杆，一动不动地享受午后的阳光浴。这座桥连接的不是两岸，而是一种闲适从容的心境。卡尔斯塔德的核心魅力，就在于这种罕见的和谐——人类聚落的温暖尺度，与北欧荒野般壮阔的自然水域，被一座古老的石桥巧妙地缝合在一起，创造出一种独一无二的、充满阳光与呼吸感的城市氛围。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`卡尔斯塔德`} />
+                <InfoRow label="英文名称" value={`Karlstad`} />
+                <InfoRow label="正式名称" value={`Karlstad`} />
+                <InfoRow label="国家" value={`瑞典`} />
+                <InfoRow label="城市" value={`卡尔斯塔德`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`由瑞典国王卡尔九世于1604年亲自下令建立并以其名字命名的城市，历史上是重要的贸易与行政中心。`} />
+                <InfoRow label="建筑特色" value={`城市肌理与辽阔的维纳恩湖及其纵横交错的河道水系完美融合，拥有北欧最长的多拱石桥之一。`} />
+                <InfoRow label="建筑风格" value={`整体呈现19世纪末重建后的新古典主义与民族浪漫主义风格，夹杂着典雅木结构建筑的北欧风情。`} />
+                <InfoRow label="文化价值" value={`被誉为“瑞典最阳光的城市”，代表了瑞典人亲近自然、享受夏日与水域的典型生活方式和精神归属。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城市公共区域全天开放。主要景点如韦姆兰博物馆（Värmlands Museum）和阿尔维德斯霍尔姆城堡（Alvidsholms Herrgård）夏季（5月至9月）通常为10:00-17:00；冬季（10月至4月）开放时间缩短，多为11:00-16:00，周一常闭馆。维纳恩湖游船服务仅在温暖季节（约5月中至9月中）运营。具体开放时间建议出行前查看官网，瑞典公共假日期间可能有特殊安排。`} />
+              <InfoRow label="门票价格" value={`进入卡尔斯塔德城市本身免费。韦姆兰博物馆成人票约120瑞典克朗，学生及青少年有优惠，18岁以下通常免费。阿尔维德斯霍尔姆城堡参观花园免费，进入建筑内部或有展览时收取约80-100瑞典克朗。维纳恩湖游船根据航线不同，票价在150-400瑞典克朗之间。持有斯德哥尔摩卡（Stockholm Pass）等通票可能享有折扣。`} />
+              <InfoRow label="地址" value={`主要访客中心地址：Köpmangatan 28, 652 24 Karlstad, Sweden`} />
+              <InfoRow label="交通方式" value={`最近的机场是卡尔斯塔德机场（Karlstad Airport，KSD），距离市中心约15公里。从机场可乘坐机场巴士（Flygbussarna）直达市中心巴士总站，车程约20-25分钟，班次与航班抵达时间衔接。从斯德哥尔摩中央火车站乘坐SJ高速列车前往卡尔斯塔德是最舒适的方式，车程约2-2.5小时，班次频繁（每小时至少一班），建议提前在SJ官网或App购票以获取优惠价。市内公共交通便利，步行和自行车是探索市中心及滨湖区域的最佳方式，可在游客中心租借自行车。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "卡尔斯塔德的故事，始于一位国王的远见和一条河流的命运。时间回到1604年，瑞典瓦萨王朝的国王卡尔九世，看中了克拉尔河流入维纳恩湖这片富饶的三角洲。这里水路四通八达，是控制内陆贸易、连接挪威边境的战略要地。于是，他亲自下令在这里建立一座城市，并慷慨地以自己的名字“Karl”为其命名——“Karlstad”意为“卡尔的城镇”。从此，这片由河流冲积而成的土地，开始了它作为韦姆兰省首府和重要商埠的历程。最初的城镇围绕着一个方形广场（今称为“大广场”）建设，木质建筑是主角，贸易的货物通过河流与湖泊运进运出，空气中混合着焦油、皮毛和来自远方的香料气味。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，像许多北欧木构城市一样，火灾是永恒的梦魇。卡尔斯塔德经历了数次毁灭性大火，其中最严重的一次发生在1865年，几乎将整个市中心化为灰烬。但正是这场灾难，催生了我们今天看到的城市骨架。灾后重建并非简单复原，而是一次现代化的规划。街道被拓宽，建筑采用了更防火的砖石结构，并流行起当时欧洲风行的新古典主义风格，显得庄严而有序。而重建工程中最伟大的作品，便是那座连接城市主体与诺尔岛、横跨克拉尔河口的石桥。它于1874年建成，长达168米，拥有12个拱券，在当时是工程学的壮举。它不仅仅是一座桥，更是城市从灰烬中重生、通向未来的坚实象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座城市还有一个别称：“太阳之城”。这并非纯粹的营销口号，而是有气象数据支撑的——卡尔斯塔德是瑞典年平均日照时间最长的城市之一。这种得天独厚的自然馈赠，深深地塑造了本地人的性格和文化。当漫长的冬季退去，阳光重新变得慷慨，整个城市就像从冬眠中苏醒。湖畔的露天咖啡馆座无虚席，人们迫不及待地跳进湖中游泳、驾驶帆船出航，或者在遍布城市的公园和沙滩上进行“日光浴”。这种对夏日阳光近乎崇拜的享受，是深入骨髓的北欧生活哲学。20世纪以来，卡尔斯塔德稳步发展，保留了那份从容不迫的节奏，没有成为工业巨兽，而是进化成一个以教育、旅游和高质量生活闻名的宜居之城。它的历史，就是一部人与河流、湖泊、阳光相互适应、共同成长的诗篇。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要深度感受卡尔斯塔德，建议安排一整天的悠闲时光。最佳抵达时间是上午九点左右，这时阳光正好变得明亮柔和，城市刚刚苏醒。整体游览节奏宜慢不宜快，核心是亲水和步行。从市中心的游客中心开始，获取地图和信息，然后沿着水系向湖边漫步，将百年石桥作为上午的高潮点。下午可以探索对岸的诺尔岛和充满艺术气息的桑登区（Sanden），最后在傍晚时分回到滨湖公园，等待维纳恩湖上那场壮丽的日落。这样的安排能让你充分体验从城市肌理到自然浩渺的层次过渡，并捕捉到一天中不同光影下城市与湖泊变幻的美。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季（尤其是七月）是旅游旺季，湖边和桥上人会增多，建议清晨或傍晚前往以获得更宁静的体验。瑞典天气多变，即使夏天也请随身携带一件防风防雨的外套。在城市里，大胆使用公共饮水机（泉水清冽甘甜），这是体验本地生活的一部分。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先去位于Köpmangatan街的游客中心，拿一份免费地图并听听工作人员关于当日活动的贴心建议。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着游客中心旁的小运河漫步，欣赏两岸色彩斑斓的19世纪建筑以及停泊着的小船，感受水城气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`慢慢走向城市的心脏——大广场（Stora Torget），看看广场中央的卡尔九世铜像，然后在周边的本地面包店买一个新鲜出炉的肉桂卷。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要穿过古老的石桥（Östra bron），在每一个桥拱下停留，感受从河道狭窄视野到湖面豁然开朗的震撼对比。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`过桥后探索宁静的诺尔岛（Norrholmen），这里绿树成荫，有许多适合野餐的草坪，可以近距离观看克拉尔河汇入维纳恩湖的河口。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`折返后前往充满波西米亚风情的桑登区（Sanden），逛逛独立设计小店和画廊，这里曾是工人聚居区，如今是创意中心。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`参观韦姆兰博物馆，通过丰富的展览深入了解这个地区的森林、湖泊、工业和历史人文故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前一小时，来到市中心的滨湖公园（Mariebergsskogen）或沙滩，找一张长椅坐下，静静欣赏维纳恩湖被夕阳染成金红色的无边水域。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`百年石桥中段靠下游侧`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏时分，利用石拱作为天然画框，拍摄克拉尔河流向维纳恩湖的纵深画面，光线柔和时水面会泛起金色或粉色的光泽。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`诺尔岛东南角草坪`}</h4>
+                  <p className="text-sm text-gray-700">{`上午阳光侧射时，从这里可以拍摄石桥全景与其在水中完美对称的倒影，将城市天际线作为背景纳入。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`维纳恩湖游船甲板之上`}</h4>
+                  <p className="text-sm text-gray-700">{`参加一次短途游船，从湖心回望卡尔斯塔德城市全景，能将石桥、教堂尖顶与连绵森林一同收入镜头，视角独一无二。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`桑登区（Sanden）的某条小巷`}</h4>
+                  <p className="text-sm text-gray-700">{`下午阳光洒在鹅卵石街道和色彩柔和的木屋外墙时，捕捉这里宁静而富有生活气息的角落，常常有鲜花点缀窗台。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`大广场（Stora Torget）边缘`}</h4>
+                  <p className="text-sm text-gray-700">{`采用低角度仰拍，将卡尔九世国王雕像与后方古老的法院建筑（Domkyrkan）一同构入画面，展现历史厚重感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`瑞典法律非常重视隐私，拍摄私人住宅或庭院内的居民时需格外谨慎，最好先微笑示意或避免拍摄。夏季“午夜阳光”时段（虽然这里不至于真正午夜，但日落极晚）的光线非常魔幻，适合拍摄带有蓝调时刻氛围的湖景与城市夜景。使用偏振镜可以有效消除湖面反光，让湖水颜色更加深邃碧蓝。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济舒适之选`}</h4>
+                  <p className="text-sm text-blue-800">{`市中心步行距离内的设计感青旅，由老建筑改造，公共厨房设施完备，是结交各国旅行者的好地方，晚上顶楼露台能看到城市灯火。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`中档特色之选`}</h4>
+                  <p className="text-sm text-green-800">{`位于克拉尔河畔的历史酒店，部分房间拥有直接面向石桥和河流的阳台，早晨在潺潺水声中醒来，包含丰盛的北欧自助早餐。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`本地体验之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`桑登区（Sanden）一栋百年木屋里的精品民宿，主人是位艺术家，装饰充满个性，她会为你推荐只有本地人才知道的小众漫步路线。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端奢华之选`}</h4>
+                  <p className="text-sm text-purple-800">{`坐落在维纳恩湖畔私人庄园内的五星级酒店，拥有无边泳池和米其林推荐餐厅，每个房间都享有绝佳湖景，是彻底放松身心的避世之所。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "卡尔斯塔德夏季的住宿非常抢手，尤其是周末和仲夏节期间，务必提前数月预订。选择住在市中心或桑登区可以最大限度享受步行便利。需要注意的是，临湖的房间虽然景色无敌，但在春秋季节可能会稍显潮湿凉爽。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开卡尔斯塔德许久，我脑海里最清晰的画面，不是某个具体的建筑，而是一种感觉：是站在那座古老石桥上，任凭来自湖面的风吹拂脸庞时，内心感到的无比开阔与平静。这座城市教会我，深度旅行未必是追寻惊世骇俗的奇观，有时恰恰是沉浸于一种和谐的生活韵律之中。在这里，人类文明的痕迹——那座敦实的桥、那些彩色的房子——并没有试图征服自然，而是谦逊地、巧妙地镶嵌在湖泊与河流的怀抱里，成为了自然景观的一部分。这是一种高级的共存智慧。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个万事求快的世界里，卡尔斯塔德像是一个温柔的提醒。它拥有“太阳之城”的美誉，却并不张扬喧嚣，只是安然享受着每一缕馈赠的阳光。它守护着瑞典最大的湖泊，却从未将其仅仅视为旅游资源，而是当作呼吸的空气、生活的背景、灵魂的镜子。每一位热爱深度游的旅人都该来这里住上几天，不是为了打卡，而是为了体验一种被水域和阳光重新校准的生活节奏。你会明白，为什么瑞典人的幸福指数如此之高——或许，秘密就藏在这座桥连接起的，那片波光粼粼的辽阔里。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/linkoping-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    林
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">林雪平老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Linköping Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gammelstad-church-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    加
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">加默尔斯塔德教堂村</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gammelstad Church Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/gripsholm-castle-national-portrait-gallery" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    格
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">格利普霍姆堡（国家肖像画廊）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Gripsholm Castle (National Portrait Gallery)</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

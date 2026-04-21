@@ -1,0 +1,236 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '马特赖 Matrei in Osttirol｜奥地利阿尔卑斯之心，冰川门户与时光静止的山谷 - 最佳欧洲景点',
+  description: '车子刚刚拐出最后一道山弯，马特赖就像一幅被精心卷藏了许久的古画，倏然在眼前铺开。第一眼抓住你的绝不是某种恢弘，而是一种沉静到骨子里的秩序感。空气清冽得仿佛能嚼出甜味，那是融雪溪流、冷杉林和远处冰川共同调制的气息。小镇的屋顶尖尖的，漆成深棕或墨绿，严丝合缝地嵌在翠绿的山谷怀抱里，窗台上无一例外怒放着天',
+}
+
+export default function MatreiInOsttirolPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '奥地利', href: '/destinations/europe' },
+            { label: '马特赖', href: '/destinations/europe' },
+            { label: '马特赖', href: '/attractions/matrei-in-osttirol' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`马特赖・Matrei in Osttirol・奥地利・马特赖`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子刚刚拐出最后一道山弯，马特赖就像一幅被精心卷藏了许久的古画，倏然在眼前铺开。第一眼抓住你的绝不是某种恢弘，而是一种沉静到骨子里的秩序感。空气清冽得仿佛能嚼出甜味，那是融雪溪流、冷杉林和远处冰川共同调制的气息。小镇的屋顶尖尖的，漆成深棕或墨绿，严丝合缝地嵌在翠绿的山谷怀抱里，窗台上无一例外怒放着天竺葵的嫣红与洁白，在阿尔卑斯通透的阳光下，色彩饱和得不像人间。你几乎听不到任何属于城市的背景音，只有伊萨尔河源头溪流永不止息的哗哗声，像小镇平稳的脉搏，还有偶尔传来的、辨识度极高的牛铃声，从遥远的山坡草场悠悠荡荡地飘下来，比任何钟表都更能告诉你时间的节奏。
+圣尼古拉斯教堂那座方正的、带着一种憨厚力量的钟楼，就矗立在几排民居后面，它不是要凌驾于生活之上，而像是从这片土地里自然生长出来的岩石，是社区坚实的脊柱。你会看到穿着传统背带皮裤（Lederhosen）的老人，从教堂旁的小径慢悠悠地踱向镇中心的面包房，步伐和几个世纪前的祖先并无二致。这里的核心魅力，就在于这种“如常”。它不是一个被抽离出来的景点，它就是生活本身——一种与高耸入云的雪山、与变换的季节、与内心的信仰达成了深刻和解的生活。你站在这里，会突然明白，所谓“阿尔卑斯风情”从来不是明信片上的图案，而是屋檐下飘出的新鲜面包香，是村民向你道“Grüß Gott”（上帝祝福你）时眼角的皱纹，是那种知道自己是群山子孙的坦然。
+而当你仰起头，目光越过层层叠叠的屋顶和教堂钟楼，更高处的山脊上，魏森施泰因城堡的残破身影在稀薄的云气中若隐若现。那一瞬间，整个画面的纵深和故事感才彻底完整。脚下是安宁的、炊烟袅袅的人间烟火，高处是孤独的、守望千年的历史遗迹，而这一切的背景板，是那片沉默不语的、闪耀着亘古寒光的冰川与山峰。马特赖就像一个三重奏的和谐音符，将自然、历史与当下生活完美地谱进了同一首阿尔卑斯牧歌里。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子刚刚拐出最后一道山弯，马特赖就像一幅被精心卷藏了许久的古画，倏然在眼前铺开。第一眼抓住你的绝不是某种恢弘，而是一种沉静到骨子里的秩序感。空气清冽得仿佛能嚼出甜味，那是融雪溪流、冷杉林和远处冰川共同调制的气息。小镇的屋顶尖尖的，漆成深棕或墨绿，严丝合缝地嵌在翠绿的山谷怀抱里，窗台上无一例外怒放着天竺葵的嫣红与洁白，在阿尔卑斯通透的阳光下，色彩饱和得不像人间。你几乎听不到任何属于城市的背景音，只有伊萨尔河源头溪流永不止息的哗哗声，像小镇平稳的脉搏，还有偶尔传来的、辨识度极高的牛铃声，从遥远的山坡草场悠悠荡荡地飘下来，比任何钟表都更能告诉你时间的节奏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "圣尼古拉斯教堂那座方正的、带着一种憨厚力量的钟楼，就矗立在几排民居后面，它不是要凌驾于生活之上，而像是从这片土地里自然生长出来的岩石，是社区坚实的脊柱。你会看到穿着传统背带皮裤（Lederhosen）的老人，从教堂旁的小径慢悠悠地踱向镇中心的面包房，步伐和几个世纪前的祖先并无二致。这里的核心魅力，就在于这种“如常”。它不是一个被抽离出来的景点，它就是生活本身——一种与高耸入云的雪山、与变换的季节、与内心的信仰达成了深刻和解的生活。你站在这里，会突然明白，所谓“阿尔卑斯风情”从来不是明信片上的图案，而是屋檐下飘出的新鲜面包香，是村民向你道“Grüß Gott”（上帝祝福你）时眼角的皱纹，是那种知道自己是群山子孙的坦然。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你仰起头，目光越过层层叠叠的屋顶和教堂钟楼，更高处的山脊上，魏森施泰因城堡的残破身影在稀薄的云气中若隐若现。那一瞬间，整个画面的纵深和故事感才彻底完整。脚下是安宁的、炊烟袅袅的人间烟火，高处是孤独的、守望千年的历史遗迹，而这一切的背景板，是那片沉默不语的、闪耀着亘古寒光的冰川与山峰。马特赖就像一个三重奏的和谐音符，将自然、历史与当下生活完美地谱进了同一首阿尔卑斯牧歌里。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`马特赖`} />
+                <InfoRow label="英文名称" value={`Matrei in Osttirol`} />
+                <InfoRow label="正式名称" value={`Matrei in Osttirol`} />
+                <InfoRow label="国家" value={`奥地利`} />
+                <InfoRow label="城市" value={`马特赖`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`它是穿越阿尔卑斯山南北要道上历经千年的守护者与驿站，更是通往奥地利最高峰大格洛克纳山的神圣门户。`} />
+                <InfoRow label="建筑特色" value={`厚重质朴的罗马式教堂与傲立崖壁的中世纪城堡废墟形成刚柔并济的对话，共同构筑了人类在险峻自然中寻求精神与物理庇护的史诗轮廓。`} />
+                <InfoRow label="建筑风格" value={`以罗马式建筑为基石，融合了后续哥特式的局部增修与典型的蒂罗尔州山区木石结构民居风格。`} />
+                <InfoRow label="文化价值" value={`一个活生生的阿尔卑斯社区样本，其中虔诚的宗教传统、坚韧的山区生计与对巍峨自然的永恒敬畏，紧密交织，不可分割。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇本身全天开放。核心历史景点：罗马式的圣尼古拉斯教堂（Pfarrkirche St. Nikolaus）通常每日上午8点至傍晚6点开放，冬季可能缩短。高高在上的魏森施泰因城堡（Burg Weißenstein）一般为季节性开放，通常在五月至十月的周二至周日，上午10点至下午5点，且可能仅限导览游，冬季关闭。前往大格洛克纳山国家公园的徒步小径全年开放，但高海拔路线仅在六月至十月间可行。出行前务必查阅最新官网信息。`} />
+              <InfoRow label="门票价格" value={`进入马特赖小镇免费。圣尼古拉斯教堂免费参观，但欢迎捐赠以支持维护。魏森施泰因城堡通常收取小额入场费，成人约8欧元，学生及儿童有优惠。国家公园本身无门票，但如驾车通过著名的大格洛克纳山高山公路（Großglockner Hochalpenstraße）则需要支付不菲的通行费（按日或季计算）。建议购买东蒂罗尔地区卡，可能包含部分景点折扣。`} />
+              <InfoRow label="地址" value={`Pfarrplatz 1, 9971 Matrei in Osttirol, Austria`} />
+              <InfoRow label="交通方式" value={`马特赖是典型的阿尔卑斯山谷小镇，公共交通需要一些耐心但绝对值得。最近的国际机场是因斯布鲁克机场（INN），约2小时车程；或萨尔茨堡机场（SZG），约2.5-3小时车程。最经典的火车加巴士路线：先乘火车抵达东蒂罗尔的首府利恩茨（Lienz），从利恩茨火车站前，换乘邮政巴士（Postbus）410路或417路，约1小时即可直达马特赖的镇中心巴士站，班次平日较为频繁，周末及节假日减少，务必提前在ÖBB（奥地利联邦铁路）官网或APP查询并购买联票。自驾则是最灵活的方式，从利恩茨沿B107公路行驶约40分钟即到，沿途阿尔卑斯风光壮丽。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要听懂马特赖的沉默，你得先把手掌贴上圣尼古拉斯教堂那些冰冷而粗糙的岩石外墙。这些石头，是最早的叙事者。早在公元9世纪，甚至更早，这里就已经是一个定居点。它的名字“Matrei”源自古语，意为“林中垦地”，道尽了第一批定居者在此披荆斩棘、向大山讨生活的艰辛。但马特赖注定不凡，因为它恰好卡在了一条至关重要的南北走廊上——从温暖的意大利威尼斯地区，翻越险峻的阿尔卑斯山脉，通往巴伐利亚和多瑙河流域。在中世纪，这不是风景观光路，这是盐、金属、商品和思想的“高速公路”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "于是，大约在12世纪末，那座罗马式的圣尼古拉斯教堂被建立起来。它没有后来哥特式教堂那种欲要飞升的尖啸，它敦实、稳固，有着小而深的窗洞和厚重的墙壁，仿佛建造者最先考虑的不是美学，而是如何在严冬暴雪和可能的动荡中，为旅人和信徒提供一个绝对安全的避难所。你可以想象，无数风尘仆仆的商人、虔诚的朝圣者、疲惫的士兵，在穿过荒凉的山口后，看到河谷中这座石头教堂的温暖灯光时，心中涌起的感激。教堂不仅是灵魂的归宿，更是这条生命线路上最关键的灯塔和驿站。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "几乎与教堂同时，或者稍晚，贵族们也将目光投向了这个战略要地。魏森施泰因城堡在13世纪开始耸立于俯瞰全镇的险峻山崖上。它的建立，充满了权力的算计。戈尔茨（Görz）伯爵家族在这里设卡收税，监控着脚下川流不息的财富。城堡与教堂，一高一低，一个掌控世俗，一个安抚心灵，共同构成了中世纪马特赖的权力与信仰图谱。城堡里的贵族或许更迭，从戈尔茨家族到哈布斯堡王朝，但它的功能始终未变：威慑、控制和保护。石墙上的箭孔，望向的是山谷的入口，也是潜在的威胁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，真正的转折点或许不是某场著名战役，而是一个女人的决定。16世纪，一位名叫保拉的伯爵夫人，在城堡已显颓势时，没有选择加固军事工事，而是出资为山下的圣尼古拉斯教堂增建了精美的哥特式唱诗班席和侧翼礼拜堂。这个看似微小的举动，像一个清晰的信号：军事重心正在转移，交通要道的地位或许会变化，但社区信仰与生活的中心，将更加坚定地扎根于山谷之中。城堡的命运自此走向缓慢的衰落，在后续的战争（比如拿破仑战争）中沦为废墟，而教堂却在一次次修缮中，始终是小镇跳动的心脏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间的河流继续冲刷。19世纪末，当阿尔卑斯登山运动兴起，欧洲人开始用浪漫主义的眼光重新审视高山时，马特赖的角色再一次被重新定义。它不再仅仅是古道驿站，而是成为了通往“奥地利屋脊”——大格洛克纳山及其庞大冰川群——最经典、最神圣的门户。探险家、科学家、早期游客以此为基地，向那片令人敬畏的白色世界进发。20世纪建立大格洛克纳山国家公园，更从国家层面确认了它作为自然圣殿守护者的新身份。今天的马特赖，那些色彩明丽的木屋可能内里已是现代化的公寓，但它的灵魂，依然是那个由罗马式教堂的钟声、城堡废墟的守望和冰川吹来的风共同塑造的，坚韧、虔诚而又向世界温柔敞开的阿尔卑斯山之子。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受马特赖的三重奏，我建议你留出完整的一天。请务必在清晨抵达，这时游客未至，山谷里只有本地人的生活声响和纯净的光线。整体节奏应是“先融入，再攀登，后回味”。上午在小镇温暖的核心区漫步，拜访教堂，感受社区脉搏；中午前后开始向城堡废墟进发，这是一段需要体力的攀登，但回报是无敌的视野和历史苍凉感；下午下山后，可以选择一条轻松的河边步道走向国家公园的边缘，用自然景观抚慰身心；傍晚则必须留给镇上的小酒馆，用一顿地道的蒂罗尔晚餐为这一天画上圆满句号。这样的安排，让你由近及远，由人间至自然再回归人间，完成一次深度的沉浸循环。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季上午10点后可能会有旅游巴士短暂停留，想享受宁静务必早到。攀登城堡废墟的路径是原始的山路，请务必穿着防滑耐磨的徒步鞋。城堡内部没有任何服务设施，请自备饮水和小食，并随身带走所有垃圾。出发前务必在镇上的旅游信息中心确认城堡当日是否开放，以免白跑一趟。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨第一站就走到圣尼古拉斯教堂前，用手触摸那在千年风雨中变得温润的罗马式石墙，感受从幽深门洞内传来的凉意与蜡烛混合的气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`绕到教堂侧面安静的墓园，读一读那些刻着古老姓氏和质朴祷词的墓碑，想象几个世纪以来山谷居民在此长眠的安详。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着教堂后一条开满野花的小径往镇中心广场走，务必在传统面包房“Bäckerei Huber”停留，买一个刚出炉的、撒满粗盐的“农家面包”，感受最扎实的本地味道。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`以广场为起点，开始寻找指向“Burg Weißenstein”的棕色徒步标志，穿过几户人家的后院和一片苹果园，正式踏上通往中世纪的上山路。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在攀登约40分钟后抵达城堡废墟的脚下，喘着气穿过那道只剩石拱的山门，想象当年守卫在此盘问你的情景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花至少半小时在废墟中游荡，找到那个朝东的断墙缺口，坐在晒得发热的石头上，俯瞰整个马特赖小镇像模型一样铺展在绿色山谷中，背后是层叠的雪山。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下山后沿着清澈的伊萨尔河支流散步，朝着国家公园的方向走，直到人声彻底消失，耳边只有流水、风声和鸟鸣，找一块平坦的石头坐下，静静吃完你带的干粮。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`黄昏时分，回到镇里，钻进一家挂着鹿角招牌的“Gasthof”（乡村客栈），点一份蒂罗尔奶酪面（Kaspressknödel）或炖牛肉，和邻桌喝啤酒的老人点头微笑。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`圣尼古拉斯教堂逆光肖像`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨太阳刚从山脊升起时，站在教堂东侧的小巷里，让低角度的金色阳光勾勒出教堂罗马式钟楼厚重的轮廓，并捕捉到石墙上细腻的纹理和质感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡废墟的框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`在城堡内部，找到一个完整的石窗或拱门残骸作为画框，将对面的马特赖小镇、教堂和远山一同纳入框中，形成强烈的前中后景纵深与古今对比。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`山谷全景与生活气息`}</h4>
+                  <p className="text-sm text-gray-700">{`从城堡下山途中，在半山腰一处无遮挡的草坡，用长焦镜头压缩空间，将一两栋特色木屋、窗台鲜花、教堂尖顶和背景的雪山冰川全部收进同一画面，讲述完整故事。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`伊萨尔河畔的慢速溪流`}</h4>
+                  <p className="text-sm text-gray-700">{`在国家公园方向的河边，找一处林木掩映、岩石错落的地方，使用三脚架和减光镜，以慢门（如1秒以上）拍摄流淌的溪水，将其化作丝绸般的雾状，与坚硬的岩石和岸边的野花形成动静对比。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`阿尔卑斯山区光线变化极快，尤其是清晨和黄昏的“黄金时刻”非常短暂，请提前构思好画面并迅速行动。拍摄民居和当地人时，请始终保持礼貌，先微笑示意，获得默许后再拍摄，尊重他们的隐私。山区天气瞬息万变，务必保护好你的摄影器材，同时多变的云层和光线也是创造戏剧性作品的好机会。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`家庭式温暖`}</h4>
+                  <p className="text-sm text-blue-800">{`镇中心广场旁的“Gasthof Goldener Adler”旅馆，由家族经营了上百年，房间铺着厚重的实木地板，早餐有女主人自制的果酱，晚上可以在摆满古董家具的客厅壁炉边喝杯茶。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`山景阳台独享`}</h4>
+                  <p className="text-sm text-green-800">{`位于小镇边缘但步行可至的“Bergidyll”公寓，拥有朝南的全景阳台，直面魏森施泰因城堡和大格洛克纳山群峰，你可以穿着睡衣，在晨光中看着山峦染上金粉，享用自制的咖啡。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`传统农庄体验`}</h4>
+                  <p className="text-sm text-yellow-800">{`距离镇子约2公里、坐落在山坡草场中的“Bauernhof”（观光农庄），住在充满松木香气的阁楼房间，清晨被奶牛的低哞唤醒，还能亲眼看到并品尝农场自产奶酪的制作过程。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`设计感山居`}</h4>
+                  <p className="text-sm text-purple-800">{`近年来由古老谷仓改造的精品酒店“Almflora”，在保留木石结构外表的同时，内部是极简舒适的现代设计，巨大的落地窗将山景引入室内，并配有出色的本地风味餐厅。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "马特赖不是大城市，热门住宿（尤其是农庄和特色旅馆）在夏季徒步季和冬季滑雪季非常紧俏，务必提前数月预订。住在镇中心固然方便，但选择稍微外围一点的住处，往往能获得更开阔的景致和更宁静的夜晚。这里的住宿普遍安全、整洁、友好，是体验阿尔卑斯山地道“Gemütlichkeit”（舒适惬意感）的关键部分。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开马特赖好多天了，我脑海里反复出现的，不是某一张具体的明信片风景，而是一种混合的感觉：是教堂石头表面的凉，是爬山后膝盖的酸，是农家面包麦香的实，是坐在城堡废墟上那种四下无人的静。这个地方有种神奇的力量，它不急于向你炫耀什么，只是从容地展开它本来的样子——有信仰的厚重，有历史的伤痕，有生活的暖意，更有自然的威严。它让你慢下来，不仅仅是脚步，更是心跳和思维的节奏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个快得让人眩晕的时代，马特赖的存在像一个温柔的隐喻。它告诉你，有些门不需要金碧辉煌，厚重的罗马式拱门就足以守护千年的安宁；有些高处不是为了征服，残破的城堡废墟只是为了提醒你守望的意义；而最极致的风景，往往就在你家门口那条溪流的尽头，在需要你付出一点汗水去攀登的山脊之后。它不是终点，而是一个起点，一个让你重新学习如何与土地、与历史、与内心真诚对话的起点。每一位热爱深度游的旅人，都该来这里住上几天，不是为了打卡，而是为了让自己被这种完整而从容的“如常”洗礼一遍，然后带着这份山间的宁静与力量，回到我们自己的生活中去。这，或许就是阿尔卑斯山给予我们最珍贵的礼物。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/friesach-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    弗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">弗里萨赫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Friesach</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/erl-passion-plays" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃尔</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Erl</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/rattenberg-tirol-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉滕贝格</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Rattenberg</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,238 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '普雷韦扎 Preveza｜在古希腊与威尼斯的十字路口，邂逅一片被时光遗忘的蔚蓝 - 最佳欧洲景点',
+  description: '车子穿过一片茂密的橄榄树林，当你还没回过神，一片无边无际、蓝得不像话的海就猛地撞进了视野。这就是安布拉基亚湾，平静得像一块巨大的、微微流动的琉璃。而普雷韦扎，就躺在这片琉璃的入口处，像一个慵懒的看门人。第一印象不是什么震撼的古迹，而是气味——咸湿清冽的海风里，混杂着码头边咖啡馆飘出的浓郁希腊咖啡香，',
+}
+
+export default function PrevezaNicopolisGreecePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '普雷鲁斯（伊庇鲁斯大区）', href: '/destinations/europe' },
+            { label: '普雷韦扎', href: '/attractions/preveza-nicopolis-greece' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`普雷韦扎・Preveza・希腊・普雷鲁斯（伊庇鲁斯大区）`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子穿过一片茂密的橄榄树林，当你还没回过神，一片无边无际、蓝得不像话的海就猛地撞进了视野。这就是安布拉基亚湾，平静得像一块巨大的、微微流动的琉璃。而普雷韦扎，就躺在这片琉璃的入口处，像一个慵懒的看门人。第一印象不是什么震撼的古迹，而是气味——咸湿清冽的海风里，混杂着码头边咖啡馆飘出的浓郁希腊咖啡香，还有附近渔船上刚卸下海鱼的淡淡腥气，所有这些都被午后炽热的阳光烘焙成一种独特的、地中海的暖烘烘的味道。
+镇子很小，节奏慢得让人不自觉就把手表摘掉。沿着码头散步，耳边是缆绳轻拍桅杆的啪啪声，海鸥的鸣叫，以及希腊老人们在遮阳篷下玩西洋双陆棋时棋子落下的清脆声响和激烈的讨论声。彩色的小船随着波浪轻轻摇晃，漆成蓝色和白色的房子在烈日下干净得发亮。这里不像圣托里尼那样为明信片而生，它就是一个活生生的、仍在呼吸的希腊小港，历史是它生活的背景，而非全部。你会看到年轻的父亲带着孩子在古威尼斯城堡的城墙根下钓鱼，老太太们提着菜篮穿过奥斯曼时代留下的狭窄拱门街道。
+但普雷韦扎最勾人的魅力，在于这种日常生活的烟火气，与咫尺之遥的磅礴历史形成的巨大张力。从镇子骑车向北，不过十分钟，景象骤然切换。连绵的丘陵上，巨大的石柱横卧，半圆形剧场的轮廓从野草和红罂粟中浮现，这里静默得只能听见风声和虫鸣。这就是尼科波利斯，屋大维的“胜利之城”。站在荒芜的遗址中心，回头就能望见远处港湾里星星点点的游艇和镇上白色的房屋。两千年前的帝国荣耀与今天一杯弗雷斯卡（冰咖啡）的简单快乐，在此地形成了不可思议的对视。这种时空折叠的奇妙体验，正是普雷韦扎独一无二的灵魂所在。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子穿过一片茂密的橄榄树林，当你还没回过神，一片无边无际、蓝得不像话的海就猛地撞进了视野。这就是安布拉基亚湾，平静得像一块巨大的、微微流动的琉璃。而普雷韦扎，就躺在这片琉璃的入口处，像一个慵懒的看门人。第一印象不是什么震撼的古迹，而是气味——咸湿清冽的海风里，混杂着码头边咖啡馆飘出的浓郁希腊咖啡香，还有附近渔船上刚卸下海鱼的淡淡腥气，所有这些都被午后炽热的阳光烘焙成一种独特的、地中海的暖烘烘的味道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "镇子很小，节奏慢得让人不自觉就把手表摘掉。沿着码头散步，耳边是缆绳轻拍桅杆的啪啪声，海鸥的鸣叫，以及希腊老人们在遮阳篷下玩西洋双陆棋时棋子落下的清脆声响和激烈的讨论声。彩色的小船随着波浪轻轻摇晃，漆成蓝色和白色的房子在烈日下干净得发亮。这里不像圣托里尼那样为明信片而生，它就是一个活生生的、仍在呼吸的希腊小港，历史是它生活的背景，而非全部。你会看到年轻的父亲带着孩子在古威尼斯城堡的城墙根下钓鱼，老太太们提着菜篮穿过奥斯曼时代留下的狭窄拱门街道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但普雷韦扎最勾人的魅力，在于这种日常生活的烟火气，与咫尺之遥的磅礴历史形成的巨大张力。从镇子骑车向北，不过十分钟，景象骤然切换。连绵的丘陵上，巨大的石柱横卧，半圆形剧场的轮廓从野草和红罂粟中浮现，这里静默得只能听见风声和虫鸣。这就是尼科波利斯，屋大维的“胜利之城”。站在荒芜的遗址中心，回头就能望见远处港湾里星星点点的游艇和镇上白色的房屋。两千年前的帝国荣耀与今天一杯弗雷斯卡（冰咖啡）的简单快乐，在此地形成了不可思议的对视。这种时空折叠的奇妙体验，正是普雷韦扎独一无二的灵魂所在。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`普雷韦扎`} />
+                <InfoRow label="英文名称" value={`Preveza`} />
+                <InfoRow label="正式名称" value={`Preveza`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`普雷鲁斯（伊庇鲁斯大区）`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`连接伊奥尼亚海与安布拉基亚湾的战略要冲，其附近的尼科波利斯是屋大维（奥古斯都）为纪念亚克兴海战决定性胜利而建立的“胜利之城”，标志着罗马共和国时代的终结与帝国时代的开端。`} />
+                <InfoRow label="建筑特色" value={`威尼斯城堡的坚固石墙与奥斯曼时期清真寺的纤细宣礼塔在湛蓝海天背景下形成奇妙的对话，而郊外规模宏大的古罗马废墟则静卧于橄榄树与野花之中。`} />
+                <InfoRow label="建筑风格" value={`威尼斯共和国防御工事与奥斯曼帝国民用建筑的混搭，叠加了远处纯粹的古希腊罗马遗址风格，形成跨越千年的建筑风格剖面图。`} />
+                <InfoRow label="文化价值" value={`希腊本土、威尼斯殖民与奥斯曼统治三层文明的鲜活切片，一个将史诗级历史战场、繁荣罗马古城与悠闲现代地中海生活无缝衔接的独特存在。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`普雷韦扎城镇全天开放。尼科波利斯考古遗址及博物馆开放时间通常为：夏季（4月-10月）08:00-20:00；冬季（11月-3月）08:30-15:30。每周二闭馆（夏季有时会调整），重要节假日（如1月1日、复活节周日、12月25日）关闭。具体时间建议行前在希腊文化部官网进行最终确认。`} />
+              <InfoRow label="门票价格" value={`尼科波利斯考古遗址与博物馆联票约8欧元。优惠政策：欧盟学生及65岁以上长者半价，18岁以下青少年及特定纪念日（如国际博物馆日）免费。仅参观遗址外围部分免费。`} />
+              <InfoRow label="地址" value={`尼科波利斯考古遗址：Nicopolis, Preveza 481 00, Greece
+普雷韦扎码头区：Preveza Port, Preveza 481 00, Greece`} />
+              <InfoRow label="交通方式" value={`最近的机场是阿克兴国家机场（Aktion National Airport， PVK），距离普雷韦扎仅7公里，有季节性欧洲航班。从机场乘出租车10分钟即可抵达普雷韦扎镇中心（约15-20欧元）。若从雅典出发，可乘飞机至阿克兴，或乘坐长途巴士（约6小时）至普雷韦扎巴士站。在普雷韦扎镇中心，前往尼科波利斯遗址最方便的方式是租一辆自行车或小摩托车（租赁点集中在码头附近），沿着清晰的海滨路骑行约20分钟即可抵达。遗址区面积广阔，建议预留充足步行时间。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "让我们把时钟拨回两千多年前，那场决定西方世界命运的海战就在你眼前这片看似平静的海域打响。公元前31年9月2日，屋大维的舰队在这里的亚克兴角，与马克·安东尼和埃及女王克利奥帕特拉的联合舰队展开了决战。海面上战舰如林，箭矢如蝗，撞击声、呐喊声与波涛声混杂。最终，屋大维取得了压倒性胜利。这不仅仅是一场战役的终结，它宣告了罗马共和国的覆灭，屋大维扫清了所有障碍，成为首位罗马皇帝“奥古斯都”，开启了辉煌的罗马帝国时代。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "为了纪念这场奠定帝国基业的胜利，骄傲的屋大维在战场附近的海角上，建立了一座全新的城市，并赋予它一个充满力量的名字：尼科波利斯，意即“胜利之城”。这不是普通的城市，它被规划得极为宏伟，拥有宽敞的街道、宏伟的公共建筑、巨大的体育场和两个壮观的剧院——一个给希腊人，一个给罗马人，象征着他所统治的世界的融合。城市享有免税等特权，迅速吸引来自希腊各地的移民，成为亚得里亚海东南岸最重要的政治、经济和宗教中心之一。早期的基督徒也在此留下了深刻印记，圣保罗的学生提多曾在此传教，它后来成为重要的主教区，修建了华丽的巴西利卡教堂，那些精美的马赛克地板至今仍有一部分在原址闪烁微光。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，帝国的光辉逐渐暗淡。公元5世纪后，地震、蛮族入侵和海盗袭扰，使得这座伟大的城市日渐衰落。居民们逐渐向更易于防守的普雷韦扎现今所在的位置迁移。历史在这里翻开了另一页。中世纪，这片战略要地引起了威尼斯共和国的强烈兴趣。他们于15世纪在此修筑了坚固的城堡（今圣安德烈亚斯城堡），以控制通往安布拉基亚湾的狭窄水道，守护他们的海上贸易帝国。你可以想象，威尼斯商船满载着东方的香料和货物，在此停靠补给，城堡上飘扬着圣马可狮旗。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但威尼斯人的统治并非永恒。奥斯曼土耳其的势力席卷而来。在长达数个世纪的拉锯战中，普雷韦扎多次易主，城堡被加固、改造，城中也留下了奥斯曼建筑的痕迹，比如那座被改造为教堂的古老清真寺宣礼塔。这种争夺一直持续到现代希腊独立战争时期。直到1912年，普雷韦扎才最终成为希腊的一部分。二战的硝烟也曾在此弥漫，但你今天漫步的宁静街道和港口，已经将所有这些惊涛骇浪都沉淀为脚下温润的石板和墙上斑驳的痕迹。尼科波利斯庞大的废墟在野花中沉睡，而它孕育出的城镇，则在阳光下继续着它的市井生活，仿佛一位历经沧桑却依旧平和从容的老者，将所有的故事都化作了嘴角一抹淡淡的微笑。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味普雷韦扎的层次感，建议安排整整一天时间。最佳节奏是“先远后近，先静后闹”。清晨，当暑气还未升起，游人尚未到来时，直接前往尼科波利斯考古遗址。用2-3个小时沉浸在远古的宁静与广阔中，让想象力在废墟间自由驰骋。中午返回普雷韦扎镇，在老城找一家临海的 taverna（小酒馆）享用漫长的午餐，感受地中海的慢生活。下午，带着饱足感和悠闲的心情，探索镇子里的威尼斯城堡、奥斯曼遗迹和迷人的码头区，最后在日落时分，找一个港口边的位置，看夕阳把海面、帆船和古老城堡染成金色。这样的安排，让你既能深度触碰历史的厚重，又不错过当下生活的鲜活与惬意。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`遗址区面积大且缺乏遮荫，务必携带足量饮水、防晒霜和帽子，并穿一双适合在碎石路上行走的舒适鞋子。尼科波利斯遗址的博物馆室内部分较小，但藏品精致，切勿因为外观朴实而错过。在码头区餐馆点海鲜前，不妨先看看冰柜里有什么以及价格，新鲜程度一目了然。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`趁着一日之初的凉爽与宁静，租一辆自行车穿过开满野花的小径直奔尼科波利斯遗址，在空无一人的古罗马剧场中央试着发出一点声音感受绝佳的 acoustics。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在遗址博物馆里仔细观看那些从沙土中苏醒的精美马赛克与雕塑，想象它们昔日装饰的是怎样繁华的街道与庭院。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`回到普雷韦扎老城，故意迷失在那些狭窄的、晾晒着衣服的巷道里，寻找奥斯曼时期建筑遗留下的拱门与水泉。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`爬上植被茂盛的圣安德烈亚斯威尼斯城堡城墙，从制高点俯瞰整个安布拉基亚湾入口的壮丽海景与城镇全貌。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在码头区随意选一家有遮阳棚的餐馆，点一份当天捕捞的烤鱼和本地特色的 “bourdeto” （辛辣鱼汤），就着一杯冰镇 Assyrtiko 白葡萄酒看船只往来。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前漫步到防波堤的尽头，坐在灯塔旁，看着夕阳缓缓沉入伊奥尼亚海，把威尼斯城堡的剪影和归航的渔船都变成一幅流动的油画。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果恰逢周末晚上，别忘了去市政广场附近转转，很可能偶遇当地人的小型音乐聚会，在 bouzouki 琴声中体验最地道的希腊夜晚。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`尼科波利斯剧院遗址日出全景`}</h4>
+                  <p className="text-sm text-gray-700">{`在夏季日出时分（约早上6点），站在剧院观众席的最高处，向东拍摄，可以将整个石砌剧场弧线、远处零星的石柱剪影与瑰丽的朝霞一同纳入镜头，画面充满史诗感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`圣安德烈亚斯城堡俯拍海港`}</h4>
+                  <p className="text-sm text-gray-700">{`下午日落前两小时，登上城堡西侧城墙，使用中长焦镜头，可以压缩海港密集的游艇桅杆、对岸的陆地与更远处的群山，形成丰富的层次，光线温暖柔和。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`老城拱门与生活场景`}</h4>
+                  <p className="text-sm text-gray-700">{`午后阳光斜射时，在老城纵横交错的窄巷里，寻找那些奥斯曼风格的拱形门廊，等待一位当地居民（如骑自行车的老爷爷或提着购物袋的妇人）经过时抓拍，瞬间充满故事性与生活气息。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`遗址马赛克地板特写与倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`在尼科波利斯遗址的早期基督教大教堂Basilica of Alkison附近，找到保存完好的马赛克地板局部，用小光圈拍摄清晰细节，如果刚下过小雨，可利用地面积水拍摄对称倒影，更具艺术感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`码头黄昏蓝调时刻`}</h4>
+                  <p className="text-sm text-gray-700">{`日落后约20-30分钟的“蓝调时刻”，在防波堤上拍摄灯塔和系泊的彩色小船，此时天光呈深邃的蓝色，船上的暖黄色灯光刚刚亮起，色彩对比非常迷人。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地人，尤其是长者或商店主，一个友好的微笑和简单的手势征询同意永远是最佳方式，尊重能换来最真诚的肖像。在海边和遗址拍摄，建议使用偏振镜（CPL），可以有效消除水面反光并让蓝天废墟的色彩更饱和。无人机飞行在希腊受到严格管制，特别是在考古遗址和历史纪念物上空是绝对禁止的，起飞前务必查清当地法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`海港风情之选`}</h4>
+                  <p className="text-sm text-blue-800">{`码头边一栋19世纪新古典主义风格建筑改造的家庭旅馆，房间窗户正对威尼斯城堡，清晨在阳台上就能看到渔船归航，老板娘会为你准备一托盘自家制的果酱和蜂蜜。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`历史沉浸体验`}</h4>
+                  <p className="text-sm text-green-800">{`由一座经过精心修复的19世纪船长宅邸变身的小型精品酒店，隐藏在老城安静巷弄中，房间保留了原有的石墙和高挑木梁，内部装饰充满航海元素，院子里的柠檬树硕果累累。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园诗画别墅`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于普雷韦扎城郊一片橄榄园中的独立石砌别墅，带私人泳池和宽敞的露台，远离喧嚣，开车到镇中心和遗址都只需几分钟，是享受静谧希腊乡村夜晚的完美基地。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端海滨享受`}</h4>
+                  <p className="text-sm text-purple-800">{`坐落在城镇以南一片宁静海滩旁的现代设计酒店，所有房间均享有无敌海景，拥有出色的泳池和海景餐厅，适合追求舒适与设计感，并希望将海滩休闲与文化探索结合的旅人。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（7-8月）是绝对旺季，普雷韦扎虽不像热门岛屿那样拥挤，但心仪的特色住宿仍需尽早预订。老城内的住宿多有 charm 但停车可能稍麻烦，通常有指定的附近区域；选择郊区别墅或酒店则自驾更方便。整体治安良好，但无论住在哪里，夜晚在港口区散步都倍感安全与惬意。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开普雷韦扎很久之后，我发现自己最常回味的，不是某张拍下的照片，也不是某顿美味的海鲜，而是一种感觉。那是一种站在巨大时间跨度中央的宁静。一边是沉寂了二十个世纪的石头，它们曾经承载着胜利的欢呼、市民的喧嚣、信徒的祈祷；另一边则是今天鲜活的一切——咖啡杯的叮当声，摩托车的突突声，孩子们在海堤上奔跑的笑声。历史在这里不是被封存在玻璃柜里的标本，而是生长在土地里、弥漫在空气中的养分。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求“效率”和“打卡”的旅行时代，普雷韦扎提供了一种难得的“呼吸感”。它不催促你，不试图用浮夸的景观震撼你。它只是在那里，安然地呈现着自己的所有层次：古希腊的荣光，罗马的雄心，威尼斯的精明，奥斯曼的痕迹，以及现代希腊人那份乐天知命的生活哲学。它教会旅人的，或许正是如何去聆听一片土地的“多重奏”，如何在辉煌的废墟与平凡的日常之间，找到一种连接，并理解正是这绵延不绝的、普通人的生活，才是文明最坚韧的续章。如果你渴望一次真正能走进历史脉络、又能触摸生活温度的旅程，那么，这个安布拉基亚湾入口的“看门人”，值得你为它停留。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/achilleion-corfu" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    科
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">科孚岛阿喀琉斯宫</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Achilleion</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kimolos-island" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    基
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">基莫洛斯岛</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kimolos</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/monemvasia-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    莫
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">莫奈姆瓦夏</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Monemvasia</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

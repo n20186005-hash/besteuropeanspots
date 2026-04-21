@@ -1,0 +1,241 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '利勒哈默尔 Lillehammer｜冬奥小镇与时光秘境，在北欧最大露天博物馆 Maihaugen 走进百年挪威 - 最佳欧洲景点',
+  description: '火车缓缓驶入利勒哈默尔站，扑面而来的不是大城市的喧嚣，而是一种混合着松木清香和湖水微凉气息的宁静。这个坐落在米约萨湖最北端、被绵延森林和缓坡环绕的小镇，第一眼望去，就像一幅用柔和的木色调绘成的北欧风情画。彩色的低矮木屋沿着山坡错落有致，街道干净得不可思议，行人步伐从容，空气中仿佛还回荡着几十年前冬奥',
+}
+
+export default function LillehammerNorwayFolkMuseumMaihaugenPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '挪威', href: '/destinations/europe' },
+            { label: '利勒哈默尔', href: '/destinations/europe' },
+            { label: '利勒哈默尔', href: '/attractions/lillehammer-norway-folk-museum-maihaugen' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`利勒哈默尔・Lillehammer・挪威・利勒哈默尔`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`火车缓缓驶入利勒哈默尔站，扑面而来的不是大城市的喧嚣，而是一种混合着松木清香和湖水微凉气息的宁静。这个坐落在米约萨湖最北端、被绵延森林和缓坡环绕的小镇，第一眼望去，就像一幅用柔和的木色调绘成的北欧风情画。彩色的低矮木屋沿着山坡错落有致，街道干净得不可思议，行人步伐从容，空气中仿佛还回荡着几十年前冬奥赛场的欢呼与呐喊，但更深的底色，是一种沉稳的、源自土地和森林的古老静谧。你会立刻感觉到，这里绝不仅仅是一个“冬奥名城”的标签那么简单。
+而真正让利勒哈默尔成为时光秘境的钥匙，藏在镇边那片巨大的露天博物馆——Maihaugen。走进它的那一刻，仿佛踏入了另一个维度。耳边是真实的羊咩鸟鸣，脚下是通往不同世纪的小径。你的眼睛会先被那一座座深棕色、带着岁月包浆的木屋吸引，它们不像展览品，更像是刚刚还有人生活过，只是主人暂时去了森林。草皮屋顶上甚至开着小小的野花，炊烟似乎下一秒就会从石头烟囱里袅袅升起。这里没有玻璃展柜的隔阂，你可以径直走进谷仓，触摸冰凉的工具；可以探头望向农舍昏暗的室内，想象炉火映照下的冬日长夜。Maihaugen 最打动人心的，是那种惊人的“生动感”。它保存的不是死去的标本，而是挪威人祖辈呼吸的节奏、劳作的温度，以及他们与严酷自然博弈共生中，淬炼出的那种既坚韧又充满诗意的生存哲学。
+这个博物馆在挪威人心中，远非一个旅游景点。它是民族的记忆锚点，是 grandparents 带着孙子孙女，指着某座农舍说“你曾曾祖父的家就和这一模一样”的地方。它无声地讲述着：现代挪威的设计简洁、对自然的尊崇、甚至“koselig”（舒适温馨）的生活美学，其根系都深深扎在这些看似朴拙的木墙和温暖的壁炉里。在利勒哈默尔，冬奥的激情与历史的深沉，就像米约萨湖的湖水与环绕的群山，完美地融合在一起，让你同时触摸到挪威的过去与现在。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "火车缓缓驶入利勒哈默尔站，扑面而来的不是大城市的喧嚣，而是一种混合着松木清香和湖水微凉气息的宁静。这个坐落在米约萨湖最北端、被绵延森林和缓坡环绕的小镇，第一眼望去，就像一幅用柔和的木色调绘成的北欧风情画。彩色的低矮木屋沿着山坡错落有致，街道干净得不可思议，行人步伐从容，空气中仿佛还回荡着几十年前冬奥赛场的欢呼与呐喊，但更深的底色，是一种沉稳的、源自土地和森林的古老静谧。你会立刻感觉到，这里绝不仅仅是一个“冬奥名城”的标签那么简单。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而真正让利勒哈默尔成为时光秘境的钥匙，藏在镇边那片巨大的露天博物馆——Maihaugen。走进它的那一刻，仿佛踏入了另一个维度。耳边是真实的羊咩鸟鸣，脚下是通往不同世纪的小径。你的眼睛会先被那一座座深棕色、带着岁月包浆的木屋吸引，它们不像展览品，更像是刚刚还有人生活过，只是主人暂时去了森林。草皮屋顶上甚至开着小小的野花，炊烟似乎下一秒就会从石头烟囱里袅袅升起。这里没有玻璃展柜的隔阂，你可以径直走进谷仓，触摸冰凉的工具；可以探头望向农舍昏暗的室内，想象炉火映照下的冬日长夜。Maihaugen 最打动人心的，是那种惊人的“生动感”。它保存的不是死去的标本，而是挪威人祖辈呼吸的节奏、劳作的温度，以及他们与严酷自然博弈共生中，淬炼出的那种既坚韧又充满诗意的生存哲学。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个博物馆在挪威人心中，远非一个旅游景点。它是民族的记忆锚点，是 grandparents 带着孙子孙女，指着某座农舍说“你曾曾祖父的家就和这一模一样”的地方。它无声地讲述着：现代挪威的设计简洁、对自然的尊崇、甚至“koselig”（舒适温馨）的生活美学，其根系都深深扎在这些看似朴拙的木墙和温暖的壁炉里。在利勒哈默尔，冬奥的激情与历史的深沉，就像米约萨湖的湖水与环绕的群山，完美地融合在一起，让你同时触摸到挪威的过去与现在。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`利勒哈默尔`} />
+                <InfoRow label="英文名称" value={`Lillehammer`} />
+                <InfoRow label="正式名称" value={`Lillehammer`} />
+                <InfoRow label="国家" value={`挪威`} />
+                <InfoRow label="城市" value={`利勒哈默尔`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`1994年冬奥会的举办地，同时拥有北欧规模最大、保存最完好的露天民俗博物馆群，是理解挪威从农业社会走向现代国家的鲜活教科书。`} />
+                <InfoRow label="建筑特色" value={`Maihaugen 博物馆内汇集了超过200座从挪威各地原样搬迁、重建的传统木建筑，从简陋农舍到精致宅邸，形成一个完整的“活态”历史村落。`} />
+                <InfoRow label="建筑风格" value={`以典型的挪威木构建筑为主，包括古老的“斯塔夫”式木板教堂、带草皮屋顶的“洛斯”农舍，以及19世纪风格多样的城镇木屋。`} />
+                <InfoRow label="文化价值" value={`它不仅是建筑的集合，更是挪威民族精神与生活方式的“基因库”，生动展现了“户外生活”哲学和与自然共存的智慧如何塑造了现代挪威人。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`露天博物馆 Maihaugen：夏季（6月至8月）每日 10:00-17:00 开放；春秋季（5月、9月）通常为 11:00-16:00；冬季（10月至次年4月）开放时间缩短，通常为周六周日 11:00-15:00，且部分户外区域可能因积雪封闭。具体日期每年略有调整，出发前务必查阅官网。市中心及冬奥场馆全年可自由参观，但室内设施有各自开放时间。`} />
+              <InfoRow label="门票价格" value={`Maihaugen 博物馆成人票约 180 挪威克朗，儿童票有优惠，家庭套票更划算。持有挪威文化遗产通行证（Heritage Pass）可免费进入。部分冬季户外活动（如雪橇、滑冰）需额外付费。小镇本身无需门票，漫步免费。`} />
+              <InfoRow label="地址" value={`Maihaugen, Maihaugvegen 1, 2609 Lillehammer, Norway`} />
+              <InfoRow label="交通方式" value={`从奥斯陆出发最方便。火车：从奥斯陆中央火车站乘坐“Regiontog”区域列车，约 2 小时直达利勒哈默尔站，班次频繁，沿途风景优美，推荐选择靠窗座位。巴士：也有多班次长途巴士，时间稍长约 2.5 小时。自驾：沿 E6 号公路向北行驶约 180 公里，约 2 小时车程，冬季需注意路况。抵达利勒哈默尔火车站后，步行约 15-20 分钟即可抵达 Maihaugen 博物馆入口，小镇核心区步行可达。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光倒回一百多年前，利勒哈默尔还只是一个宁静的湖畔市集小镇。改变它命运的第一个关键人物，不是政治家，而是一位名叫安德斯·桑维格的牙医。这位怀有浓厚历史情怀的医生，看着挪威快速步入工业化时代，那些承载着数百年生活智慧的传统木建筑正被迅速拆毁、遗忘，他感到一种紧迫的悲伤。于是，从1887年开始，他做了一件当时看来近乎疯狂的事：自费购买那些即将消失的老房子，小心翼翼地将它们拆解，把每一根梁木、每一块木板编号，然后用马车和船只，千里迢迢地运回利勒哈默尔，在自己拥有的土地上重新搭建起来。第一座建筑，就是他从古德布兰兹达尔山谷“拯救”来的一座木制仓库。这，就是 Maihaugen 传奇的起点。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "桑维格医生的举动，起初被许多人视为怪癖。但随着一栋栋农舍、磨坊、乃至一座精美的“斯塔夫”木教堂（Garmo Stave Church）在湖畔山丘上重新站立，一个消失中的挪威渐渐浮现。人们开始理解他的远见：这不是在收集旧房子，而是在抢救一个民族的集体记忆。博物馆在1904年正式对外开放，并随着捐赠和收购不断扩大，最终形成了今天由“乡村区”、“小镇区”和“居民区”三部分构成的宏大格局，每一区都代表着一个特定的历史时期。漫步其中，你实际上是在徒步穿越从中世纪到20世纪初的挪威社会史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而让利勒哈默尔在全球舞台上闪耀的，则是1994年的那场冬季奥运会。这成了小镇命运的第二个转折点。当时，冬奥会首次与夏季奥运会错开两年举行，利勒哈默尔作为主办地，向世界展示了一种截然不同的“小型、环保、亲切”的奥运理念。场馆设计与自然景观完美融合，比如那条令人惊叹的滑雪跳台，从城市边缘的山坡伸向空中，至今仍是小镇最醒目地标。冬奥遗产并没有随着圣火熄灭而消失，那些世界级的场馆（如海盗船竞技场、利勒哈默尔奥林匹克公园）转而成为全民健身、运动训练和旅游体验的中心。你夏天可以站在跳台顶端俯瞰全镇，冬天则可以体验奥运级别的雪道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "更为难得的是，利勒哈默尔成功地在奥运现代性与历史传承之间找到了平衡。冬奥带来的全球关注和基础设施提升，并没有吞噬它原本的小镇灵魂和 Maihaugen 所代表的厚重历史。相反，两者相得益彰。游客因为冬奥知道这里，却因 Maihaugen 而深深记住这里。小镇的发展也始终保持着一种克制的优雅，没有过度商业化，那些冬奥场馆就像是从森林和山坡中自然生长出来的一样，与桑维格医生收集的古老木屋共享着同一片天空与湖水。这就是利勒哈默尔的独特故事：一位医生的文化救赎，与一场全球体育盛事，共同编织了它今日的复杂与迷人。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受利勒哈默尔的魅力，建议安排一整天时间。最佳节奏是上午将完整的时间交给 Maihaugen 露天博物馆，此时光线柔和，游客相对较少，你能安静地沉浸在那个古老的挪威里。午餐后，将目光转向冬奥遗产，去体验现代运动的激情。傍晚则留给宁静的米约萨湖畔和老城街道，感受小镇的生活气息。这样的安排张弛有度，让你在历史与当代、静谧与活力之间自如切换，理解这个小镇的两面灵魂。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`Maihaugen博物馆面积很大且多坡道，请务必穿一双舒适防滑的徒步鞋。北欧天气多变，即使在夏季，也请随身携带一件防风防水的外套。小镇消费水平较高，建议自备一些饮用水和零食，博物馆内的餐厅是体验的一部分，但正餐可以考虑回老城选择更多。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨九点半左右从镇中心步行穿过宁静的住宅区，朝着那片像被时光遗忘的山谷——Maihaugen露天博物馆进发。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在博物馆入口处拿一份地图，然后放任自己迷失在由鹅卵石小径和木栅栏分割开的“乡村区”，随意推开一扇虚掩的农舍木门，让眼睛适应室内的昏暗并闻到若有似无的旧木和烟熏味。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要找到那座从戈莫迁移而来的中世纪“斯塔夫”木教堂，绕着它黑色的木墙走一圈，然后轻轻走进去，聆听绝对的寂静，仰头看那些仿佛来自维京时代的、雕刻着龙首的立柱。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`转到“小镇区”，沿着仿造19世纪风格的街道散步，透过商店和工坊的橱窗看里面摆放整齐的古老货物，想象着当时居民的生活节奏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在博物馆内的老式面包房或咖啡馆稍作休息，尝尝用传统方法烤制的“黄油面包”或一杯热可可。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午离开博物馆，乘坐穿梭巴士或步行前往利勒哈默尔奥林匹克公园，勇敢地搭乘缆车登上滑雪跳台的顶端观景台，让整个小镇和碧蓝的米约萨湖在你脚下展开。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着湖畔的“艺术家之路”漫步，看看那些雕塑，找一张长椅坐下，静静观察本地人遛狗、跑步、推着婴儿车交谈的日常场景。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分回到老城主街“斯托盖塔”，挑一家有户外座位的餐厅，点一份挪威风味的鳕鱼或鹿肉，在渐暗的天光中和温暖的灯光下结束完美的一天。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`Maihaugen乡村区的山坡高处`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点的侧光最佳，可以俯拍一片连绵的草皮屋顶农舍和远处的森林，营造出层次丰富的田园史诗感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`Garmo木教堂内部`}</h4>
+                  <p className="text-sm text-gray-700">{`选择中午光线从高处小窗射入时，站在中殿后方，对准祭坛方向拍摄，捕捉那道穿透黑暗尘埃的光柱，营造神圣静谧的氛围。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`奥林匹克滑雪跳台下方的弧形坡道`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或日落时分，站在坡道底部向上仰拍，利用跳台巨大的弧形结构形成强烈的视觉引导线，将天空或远处的城镇纳入构图。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`米约萨湖畔的码头栈道`}</h4>
+                  <p className="text-sm text-gray-700">{`在晴朗的傍晚，以栈道为前景，拍摄对岸彩色的木屋建筑群和它们在平静湖面的完美倒影，色调温柔。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`斯托盖塔老街的转角`}</h4>
+                  <p className="text-sm text-gray-700">{`找一个雨后的清晨，利用湿润的石板路反射街边彩色木屋的倒影，拍摄带有生活气息却又不失整洁美感的北欧街道画面。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在Maihaugen博物馆室内拍照时请关闭闪光灯，以保护古老的木器和纺织品。拍摄当地居民或他们的私人财产（如花园）前，请先微笑示意并征得同意，挪威人非常注重隐私和礼貌。冬季拍摄雪景时，注意相机的电池保暖，并适当增加曝光补偿以应对雪地的反光。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`历史沉浸之选`}</h4>
+                  <p className="text-sm text-blue-800">{`下榻由百年木屋精心修复而成的精品酒店，房间保留了原始的粗大木梁和壁炉角落，晚上你能听到木头因温度变化发出的细微“咔嗒”声，仿佛睡在历史里。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`冬奥体验之选`}</h4>
+                  <p className="text-sm text-green-800">{`选择坐落在奥林匹克公园附近的现代风格酒店，部分房间拥有直面滑雪跳台的震撼视野，清晨醒来仿佛置身于赛事筹备中心，运动感十足。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`湖畔静谧之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于米约萨湖稍远处的一处家庭经营旅馆，由主人亲自打理的美丽花园直接通往私人湖岸，你可以租一条小船划向湖心，享受绝对的宁静。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`实惠便捷之选`}</h4>
+                  <p className="text-sm text-purple-800">{`镇中心火车站旁的设计旅舍，价格亲民，公共区域宽敞明亮，是结识全球背包客的好地方，步行即可探索全镇。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "利勒哈默尔治安极好，任何区域都无需担心。夏季和冬季滑雪旺季是住宿高峰，务必提前数月预订，尤其是那些特色酒店。如果选择稍远离中心的住宿，请确认交通接驳，虽然小镇不大，但冬季夜晚步行仍需考虑路况和气温。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开利勒哈默尔好多天了，但脑海里总会出现两个画面交替闪烁：一个是 Maihaugen 那座古老木教堂里，从高窗斜射下来、照亮空气中微尘的寂静光柱；另一个是奥林匹克滑雪跳台上，俯瞰到的那个被森林湖泊拥抱的、充满生命力的现代小镇。这两个画面，一个指向深邃的过去，一个指向蓬勃的现在，看似矛盾，却在利勒哈默尔和谐共存，彼此注释。这让我思考，什么才是真正的“富有”？不是拥有崭新的摩天大楼，而是能坦然地将祖先的谷仓和草屋，作为自己城市最骄傲的客厅；是在举办过世界级盛会之后，依然能守护住湖边漫步的那份宁静日常。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，利勒哈默尔给予旅人的，远不止一次观光。它提供了一种难得的“时间深度体验”。在这里，你不仅仅是用眼睛看风景，更是用脚步去丈量一个民族从山林走向世界、却始终不忘根本的精神历程。它告诉你，现代文明并非要建立在湮灭过去的基础之上，相反，只有懂得珍藏来时路上每一座木屋、每一段故事，一个社区、乃至一个国家，才能走得更加从容和自信。对于每一位厌倦了浅尝辄止、渴望在旅行中触摸文化血脉的深度游者来说，利勒哈默尔就像一本立体的、可以走进去的挪威史诗，值得你专程前来，静静地读上一天。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/urnes-stave-church" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    乌
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">乌尔内斯木板教堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Urnes Stave Church</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nidaros-cathedral-trondheim" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    特
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">特隆赫姆尼达罗斯主教座堂</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nidaros Cathedral</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/alesund-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥勒松老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ålesund Old Town</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

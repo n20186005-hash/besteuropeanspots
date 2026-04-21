@@ -1,0 +1,247 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '穆焦 Muggio｜瑞士最后的桃花源，探访未被时光触碰的栗树林石板屋世界 - 最佳欧洲景点',
+  description: '车子在盘山道上最后一次转弯，当我把头探出车窗，第一个击中我的不是景象，而是声音——或者说，是一种厚重的、包裹一切的“寂静”。引擎声熄火后，世界仿佛被调低了音量。取而代之的，是风穿过山谷对面大片栗子林梢的沙沙声，是远处隐约的、有节奏的叮当声（后来我知道那是系在牛脖子上的铃铛），还有自己忽然变得格外清晰',
+}
+
+export default function MuggioVillagePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '瑞士', href: '/destinations/europe' },
+            { label: '提契诺州，穆焦山谷', href: '/destinations/europe' },
+            { label: '穆焦', href: '/attractions/muggio-village' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`穆焦・Muggio・瑞士・提契诺州，穆焦山谷`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子在盘山道上最后一次转弯，当我把头探出车窗，第一个击中我的不是景象，而是声音——或者说，是一种厚重的、包裹一切的“寂静”。引擎声熄火后，世界仿佛被调低了音量。取而代之的，是风穿过山谷对面大片栗子林梢的沙沙声，是远处隐约的、有节奏的叮当声（后来我知道那是系在牛脖子上的铃铛），还有自己忽然变得格外清晰的心跳声。穆焦，就这样以它沉静如水的呼吸，迎接了我。
+我站上村口的小小平台，眼前的画面像一幅被遗忘在中世纪的手稿插图。几十座灰褐色的石板屋，毫无章法又无比和谐地散落在陡峭的山坡上，屋顶的石板片像巨大的鱼鳞，在午后的阳光下泛着冷峻的光泽。没有鲜艳的招牌，没有售卖明信片的店铺，只有一条被脚步磨得发亮的石板小径蜿蜒向上，连接着这些沉默的石头房子。空气中弥漫着一股复杂的香气：湿润的泥土味，晒干的牧草味，还有一丝丝从某扇木门后飘出的、燃烧果木的烟熏味。这不是一个为游客准备的舞台，这是一个被时光善意地遗漏了的角落，生活在这里以最本初的节奏继续着：一位老奶奶在屋前的石台上晒着红辣椒，几个孩子追逐着跑过巷子，他们的笑声在石壁间清脆地回荡又消失。
+它的核心魅力，恰恰在于这种“非景点”的日常感。在这里，你不是在“参观”一种生活，而是在不小心“闯入”了一段仍在延续的旧时光。每一块被摸得光滑的门闩，每一片长满青苔的屋顶，每一棵姿态遒劲的老栗树，都不是陈列品，而是仍在履行着数百年职责的生命体。你会突然意识到，这座山谷本身就是一座没有围墙的、巨大的露天博物馆，而展品就是清晨的薄雾、傍晚的炊烟、人们劳作时弯曲的脊背，以及那维系着这一切的、名为“栗子”的古老黄金。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子在盘山道上最后一次转弯，当我把头探出车窗，第一个击中我的不是景象，而是声音——或者说，是一种厚重的、包裹一切的“寂静”。引擎声熄火后，世界仿佛被调低了音量。取而代之的，是风穿过山谷对面大片栗子林梢的沙沙声，是远处隐约的、有节奏的叮当声（后来我知道那是系在牛脖子上的铃铛），还有自己忽然变得格外清晰的心跳声。穆焦，就这样以它沉静如水的呼吸，迎接了我。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我站上村口的小小平台，眼前的画面像一幅被遗忘在中世纪的手稿插图。几十座灰褐色的石板屋，毫无章法又无比和谐地散落在陡峭的山坡上，屋顶的石板片像巨大的鱼鳞，在午后的阳光下泛着冷峻的光泽。没有鲜艳的招牌，没有售卖明信片的店铺，只有一条被脚步磨得发亮的石板小径蜿蜒向上，连接着这些沉默的石头房子。空气中弥漫着一股复杂的香气：湿润的泥土味，晒干的牧草味，还有一丝丝从某扇木门后飘出的、燃烧果木的烟熏味。这不是一个为游客准备的舞台，这是一个被时光善意地遗漏了的角落，生活在这里以最本初的节奏继续着：一位老奶奶在屋前的石台上晒着红辣椒，几个孩子追逐着跑过巷子，他们的笑声在石壁间清脆地回荡又消失。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的核心魅力，恰恰在于这种“非景点”的日常感。在这里，你不是在“参观”一种生活，而是在不小心“闯入”了一段仍在延续的旧时光。每一块被摸得光滑的门闩，每一片长满青苔的屋顶，每一棵姿态遒劲的老栗树，都不是陈列品，而是仍在履行着数百年职责的生命体。你会突然意识到，这座山谷本身就是一座没有围墙的、巨大的露天博物馆，而展品就是清晨的薄雾、傍晚的炊烟、人们劳作时弯曲的脊背，以及那维系着这一切的、名为“栗子”的古老黄金。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`穆焦`} />
+                <InfoRow label="英文名称" value={`Muggio`} />
+                <InfoRow label="正式名称" value={`Muggio`} />
+                <InfoRow label="国家" value={`瑞士`} />
+                <InfoRow label="城市" value={`提契诺州，穆焦山谷`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一个将前工业时代阿尔卑斯高山农业与栗树经济完整保存至今的活化石社区。`} />
+                <InfoRow label="建筑特色" value={`完全由本地石材和栗木搭建的“石板屋”（Rustici）群，屋顶是厚重的片岩板，与森林和梯田浑然一体。`} />
+                <InfoRow label="建筑风格" value={`提契诺乡土农居建筑，属于阿尔卑斯山原始功能主义风格，无任何多余装饰，纯粹为生存与劳作而生。`} />
+                <InfoRow label="文化价值" value={`它并非一个静态的博物馆，而是一个仍在微弱呼吸的、关于人类如何依赖并敬畏自然的文化生态系统，展现了栗子作为“穷人的面包”如何塑造了整个社区的生命循环。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`山谷与村落全天开放，但建议在日出至日落间游览。核心的“穆焦山谷民族博物馆”（分布于山谷各处）其室内展点（如旧磨坊、奶酪厂）通常在四月至十月的周二至周日，上午10:00至下午5:00开放，周一闭馆（节假日除外）。冬季（十一月至三月）大部分室内设施关闭，但村落与自然景观仍可探访，行前务必查阅当地旅游局官网确认具体开放状态。`} />
+              <InfoRow label="门票价格" value={`进入穆焦山谷及村落本身完全免费。如想进入有管理的博物馆站点（如“Cà da Rüsca”栗子烘干屋、“Cascina Mungisc”奶酪厂等），可购买“穆焦山谷博物馆通票”，成人约8瑞士法郎，学生及老人约5瑞士法郎。6岁以下儿童免费。通票可在山谷入口处的信息点或任意一个开放的博物馆站点购买。`} />
+              <InfoRow label="地址" value={`Valle di Muggio, 6838 Muggio, Ticino, Switzerland`} />
+              <InfoRow label="交通方式" value={`最近的国际机场是米兰马尔彭萨机场（MXP）或瑞士卢加诺机场（LUG）。最经典的路线是从卢加诺出发：首先在卢加诺火车站前的公交站乘坐邮政巴士（PostBus）525路，方向“Erbonne/Capo Lago”，约50分钟车程，在“Muggio, Paese”站下车即到村落中心。巴士班次稀疏，尤其是淡季和周末，一天可能只有4-6班，务必在SBB Mobile APP上查好精确时刻表并提前到站等候。自驾是最灵活的方式，从卢加诺沿A2高速转入山谷公路，约40分钟，但最后一段是狭窄崎岖的山路，需谨慎驾驶，村落入口有小型免费停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解穆焦，你必须先理解栗子。几个世纪以来，在这片贫瘠但倔强的山谷里，栗子树不是风景，而是命脉。在玉米和土豆尚未从新大陆传来的漫长岁月里，富含淀粉的栗子就是“穷人的面包”，是让山民们能在严冬生存下来的宝贵口粮。于是，整个社区的文化、经济、建筑乃至时间观念，都围绕着这棵树的生长周期来构建。秋天，全家老少会像过节一样上山“收栗子”，那是关乎生死的丰收；而冬天，人们就围在“metato”（栗子烘干屋）的火塘边，用慢火熏烤栗子以便长期保存，火光映照着一代代人的脸庞，也烘干着他们的希望。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这种与自然极度绑定的生活，催生了穆焦独特的建筑形态——“rustici”（乡村石屋）。人们从山间采来片岩做瓦，从林中伐来粗壮的栗木做梁，用河边拾取的圆石砌墙。房子不求美观，只求坚固、实用、能抵御高山风雪。屋顶的石板瓦厚重无比，以至于许多老屋的墙壁都被经年累月的重量压得微微内倾，仿佛一个疲惫但坚毅的巨人。这些屋子往往底层圈养牲畜，利用其体温为上层的人类居住空间供暖，阁楼则储存干草和栗子，形成了一个完美自洽的、能量与物质循环的微观系统。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，二十世纪的现代化浪潮无情地冲刷着每一个偏远的角落。二战之后，随着瑞士经济的腾飞，穆焦山谷的年轻人和他们的祖辈做了截然不同的选择：走出大山，去卢加诺、去苏黎世、去工厂和办公楼里寻找更轻松、更有“未来”的生活。村庄以惊人的速度空心化，学校关闭，教堂的钟声沉寂，曾经精心维护的梯田被灌木丛重新吞没，仿佛自然正温柔而坚定地收回它的领地。到上世纪末，穆焦几乎成了一座幽灵谷，只有寥寥几位最年长的居民，还守着祖屋和记忆。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "转机来自一种深情的回望。一些从山谷走出去的后代，以及一批有远见的文化保护者，开始意识到这片即将消失的风景所蕴含的无价价值。他们发起的不再是简单的“旅游开发”，而是一场名为“穆焦山谷民族博物馆”的宏大文化抢救行动。这个“博物馆”没有集中展馆，而是将散落山谷的旧磨坊、烘干屋、榨油坊、奶酪厂、礼拜堂一一修复，让它们作为原址上的“文化标本”重新“活”起来。更重要的是，他们鼓励和支持少数选择回归的年轻人，用传统方式打理栗子林、制作山羊奶酪、维护石板屋。今天的穆焦，不是一场复古cosplay，而是一场小心翼翼的文化复育实验，是在现代性的边缘，为一种古老的生活方式保留最后的火种。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`完美体验穆焦需要一整天的时间，并请彻底抛弃“打卡”心态。建议乘坐早上从卢加诺出发的第一班邮政巴士（约8-9点），这样能在游客最少、光线最柔和的上午抵达。整体游览节奏应放得非常慢，核心不在于走完多少个点，而在于沉浸和感受。路线是一个环线：从村中心开始，先探访核心的博物馆站点了解文化背景，然后沿着标记清晰的“栗子之路”徒步上山，深入林地与高山牧场，最后从另一侧下山回到村庄，感受空间的起伏和生活的层次。全程徒步距离约6-8公里，加上参观停留，需预留5-6小时。傍晚时分，坐在村口长椅上，看夕阳为石板屋顶镀上金边，是结束一天的最佳方式。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双绝对舒适防滑的徒步鞋，山谷小径多碎石和树根，下雨后会非常湿滑。
+村里没有ATM机，咖啡馆和微型商店也只收少量现金（瑞士法郎或欧元），请提前备好。
+巴士时刻表就是你的圣经，错过末班车会非常麻烦，建议用手机拍下车站的时刻表。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在村中心那口古老的石砌喷泉边灌满你的水壶，尝尝那清冽至极的山泉水。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进“Cà da Rüsca”栗子烘干屋，让眼睛适应昏暗的光线，想象着火塘的余温与空气中曾经弥漫的甜糯香气。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着陡峭的石阶向上，去拜访那座拥有精致巴洛克内饰与粗犷石头外表的圣灵小教堂，感受信仰在荒僻之地的扎根。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`踏上“栗子之路”，在参天古栗树的荫蔽下行走，用手触摸树干上沧桑的纹路，辨认路边介绍栗子文化与本地植物的信息牌。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在高山牧场上邂逅那些脖子上挂着沉重牛铃的褐色山羊，看牧羊人如何用古老的口哨声与它们交流。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在“Cascina Mungisc”奶酪厂稍作停留，如果运气好能看到奶酪匠人正在用传统的大铜锅凝乳。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着下山小径穿过已经荒废但轮廓仍在的梯田，遥想当年这里每一寸土地都被精耕细作的繁忙景象。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`回到村庄低处，找一块晒得暖洋洋的大石头坐下，什么都不做，只是听风、看云、等待山谷的影子慢慢拉长。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`从村口巴士站附近的高处俯拍`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四点后的侧光能完美勾勒出层层叠叠石板屋顶的质感和整个村落嵌入山谷的磅礴肌理。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“栗子之路”上的森林光影`}</h4>
+                  <p className="text-sm text-gray-700">{`选择晴朗日子的上午十点或下午三点左右，阳光斜射入古老的栗子林，会形成一道道神圣的丁达尔光线，以布满青苔的巨石或蜿蜒树根为前景拍摄。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`圣灵教堂内部仰拍穹顶壁画`}</h4>
+                  <p className="text-sm text-gray-700">{`需使用高感光度和大光圈，捕捉巴洛克天使们在昏暗烛光与金色装饰映衬下飞翔的动感瞬间。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`高山牧场俯瞰全景`}</h4>
+                  <p className="text-sm text-gray-700">{`徒步至路线最高点的牧场边缘，用广角镜头将 foreground 的野花、中景的悠闲牛羊、背景的深邃山谷与远山全部收纳进一幅画面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`石板屋门窗细节特写`}</h4>
+                  <p className="text-sm text-gray-700">{`寻找一扇带有精美铁艺门环的旧木门或一扇用石头雕琢出花饰的窄窗，在柔和的漫射光下（阴天或阴影中）拍摄，能捕捉到岁月最细腻的纹理。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`请绝对尊重当地居民的隐私，拍摄房屋内部或居民肖像前，务必先微笑并征得对方明确同意。`}</li>
+                <li>• {`无人机飞行在此类文化遗产地和自然保护区受到严格限制，未经许可请勿起飞。`}</li>
+                <li>• {`山谷内光线变化大，建议携带一块小型反光板，为人像或静物细节补光，效果远超闪光灯。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`山谷民宿体验`}</h4>
+                  <p className="text-sm text-blue-800">{`入住由本地石屋改造的“Cà Genziana”民宿，主人会为你准备用自家栗子粉做的早餐蛋糕，夜晚能听到壁炉里柴火的噼啪声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`高山农庄简宿`}</h4>
+                  <p className="text-sm text-green-800">{`徒步路径上的“Alpe di Paghè”提供最基本的铺位和农家晚餐，让你彻底融入牧人生活，清晨在牛铃声中醒来。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`湖畔舒适之选`}</h4>
+                  <p className="text-sm text-yellow-800">{`若追求舒适，可住在山谷出口、意大利边境附近的科莫湖畔小镇，如“Hotel Lago di Como”，推窗即见湖光山色，驱车进山谷仅20分钟。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`背包客山间木屋`}</h4>
+                  <p className="text-sm text-purple-800">{`提前预订“Rifugio di Erbonne”这座位于意瑞边境的山间小屋，设施简单但景色无敌，是观星和拍摄晨雾的绝佳基地。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "山谷内的住宿极其有限且原始，务必提前数月预订，并做好没有独立卫浴和稳定网络的心理准备。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "住在山谷里，夜晚是真正的黑暗与寂静，请带上头灯以备不时之需，并尽情享受这份都市中绝无仅有的安宁。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季山区蚊虫较多，尽管海拔较高也不能大意，备好驱虫剂。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开穆焦的时候，我的背包里没有多一件纪念品，但心里却好像被塞进了一些沉甸甸的、具体的东西。那不是感动，更像是一种清醒的“校准”。在这个我们习惯于追逐效率、更新和爆炸性信息的世界里，穆焦的存在，像一座固执的钟摆，以它千年不变的缓慢节奏，提醒着我们另一种时间的计量方式——以栗子花的开落为一季，以屋顶石板的寿命为一代，以山谷云雾的来去为一天。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个地方之所以必须被列入深旅者的清单，不是因为它有多壮观（它甚至有些“寒酸”），而是因为它提供了一种稀缺的“真实性”。这种真实，不是表演出来的传统，而是一种与土地生死相依后留下的、深刻的生存印记。它让我们看到，人类文明除了向前狂奔的钢铁洪流，还有这样一条向内扎根的、沉默而坚韧的路径。来这里，你不仅是在游览一个景点，更是在完成一次对自己生活节奏的提问。当你在那片古老的栗子林下坐下，你会听到风的声音，树的声音，或许，还有你自己内心被都市喧嚣掩盖已久的声音。这才是穆焦馈赠给每一位跋涉而至的旅人，最珍贵的礼物。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/einsiedeln-abbey" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    艾
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">艾因西德伦修道院</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Einsiedeln Abbey</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/switzerland-birthplace-schwyz" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    施
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">施维茨</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Schwyz</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/oberhofen-castle-thunersee" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    奥
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">奥伯霍芬城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Oberhofen Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

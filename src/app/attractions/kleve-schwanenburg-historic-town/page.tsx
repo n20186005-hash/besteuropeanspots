@@ -1,0 +1,242 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '克莱沃 Kleve｜天鹅堡与安妮王后的故乡，德国隐秘的莱茵河畔童话 - 最佳欧洲景点',
+  description: '第一眼看到克莱沃，你会觉得它像一本被无意间翻开在某一页的古老童话书。火车缓缓驶入站台，车窗外的风景从工业区的规整陡然切换到开阔的绿色平原，然后，一座绿意盎然的山丘拔地而起，山顶上，白色的天鹅堡塔楼在云端若隐若现。那种感觉不是震撼，而是一种安静的召唤。拖着行李箱走上那条通往山丘的、被菩提树荫覆盖的街道',
+}
+
+export default function KleveSchwanenburgHistoricTownPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '德国', href: '/destinations/europe' },
+            { label: '克莱沃', href: '/destinations/europe' },
+            { label: '克莱沃', href: '/attractions/kleve-schwanenburg-historic-town' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`克莱沃・Kleve・德国・克莱沃`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`第一眼看到克莱沃，你会觉得它像一本被无意间翻开在某一页的古老童话书。火车缓缓驶入站台，车窗外的风景从工业区的规整陡然切换到开阔的绿色平原，然后，一座绿意盎然的山丘拔地而起，山顶上，白色的天鹅堡塔楼在云端若隐若现。那种感觉不是震撼，而是一种安静的召唤。拖着行李箱走上那条通往山丘的、被菩提树荫覆盖的街道，你能闻到空气里湿润的泥土味、刚修剪过的草坪香气，间或飘来面包房刚出炉的“ Printen”姜饼的甜香。这里的节奏慢得让人忘记时间，偶尔有老人骑着老式自行车叮铃铃地从身旁经过，向你投来一个平静友好的微笑。
+爬上山丘，站在天鹅堡宽阔的庭院里，世界仿佛在你脚下铺开。风毫无遮拦地吹过，带着远方莱茵河的水汽。向西北望去，是无边无际的荷兰低地，天空显得格外高远，云影在大地上缓慢移动。城堡本身不像新天鹅堡那样充满戏剧性，它更沉稳，更生活化。一部分是威严的城堡，另一部分则被改造成了地方法院，穿着正式西装的人们拿着公文包进出，让这座中世纪的建筑依然在呼吸，依然承担着社区的职能。这种古今交融的日常感，正是克莱沃最迷人的地方——历史不是被封存的标本，而是人们每天散步、遛狗、眺望风景的背景板。
+而这座城市最动人的灵魂，是一位名叫安妮的女性。在市政厅广场上，你会发现她的雕像——克莱沃的安妮，亨利八世的第四任妻子。她安静地站在那里，目光低垂，手里拿着一本书。走近了看，雕像的裙摆纹理里藏着故事。1540年，她就是从这里出发，穿越欧洲，去赴那场著名的、却以“长得像弗拉芒母马”为由被迅速废止的婚姻。但在克莱沃，她不是那个被史书调侃的“丑王后”，她是家乡的公主，是“善良的安妮女士”。当地人会带着一种近乎温柔的骄傲谈起她，仿佛她只是出了一趟远门的女儿。这种充满人情味的、与宏大历史叙事截然不同的地方记忆，给冰冷的石头建筑注入了恒久的温度。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "第一眼看到克莱沃，你会觉得它像一本被无意间翻开在某一页的古老童话书。火车缓缓驶入站台，车窗外的风景从工业区的规整陡然切换到开阔的绿色平原，然后，一座绿意盎然的山丘拔地而起，山顶上，白色的天鹅堡塔楼在云端若隐若现。那种感觉不是震撼，而是一种安静的召唤。拖着行李箱走上那条通往山丘的、被菩提树荫覆盖的街道，你能闻到空气里湿润的泥土味、刚修剪过的草坪香气，间或飘来面包房刚出炉的“ Printen”姜饼的甜香。这里的节奏慢得让人忘记时间，偶尔有老人骑着老式自行车叮铃铃地从身旁经过，向你投来一个平静友好的微笑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "爬上山丘，站在天鹅堡宽阔的庭院里，世界仿佛在你脚下铺开。风毫无遮拦地吹过，带着远方莱茵河的水汽。向西北望去，是无边无际的荷兰低地，天空显得格外高远，云影在大地上缓慢移动。城堡本身不像新天鹅堡那样充满戏剧性，它更沉稳，更生活化。一部分是威严的城堡，另一部分则被改造成了地方法院，穿着正式西装的人们拿着公文包进出，让这座中世纪的建筑依然在呼吸，依然承担着社区的职能。这种古今交融的日常感，正是克莱沃最迷人的地方——历史不是被封存的标本，而是人们每天散步、遛狗、眺望风景的背景板。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而这座城市最动人的灵魂，是一位名叫安妮的女性。在市政厅广场上，你会发现她的雕像——克莱沃的安妮，亨利八世的第四任妻子。她安静地站在那里，目光低垂，手里拿着一本书。走近了看，雕像的裙摆纹理里藏着故事。1540年，她就是从这里出发，穿越欧洲，去赴那场著名的、却以“长得像弗拉芒母马”为由被迅速废止的婚姻。但在克莱沃，她不是那个被史书调侃的“丑王后”，她是家乡的公主，是“善良的安妮女士”。当地人会带着一种近乎温柔的骄傲谈起她，仿佛她只是出了一趟远门的女儿。这种充满人情味的、与宏大历史叙事截然不同的地方记忆，给冰冷的石头建筑注入了恒久的温度。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`克莱沃`} />
+                <InfoRow label="英文名称" value={`Kleve`} />
+                <InfoRow label="正式名称" value={`Schwanenburg & the Historic Town of Kleve`} />
+                <InfoRow label="国家" value={`德国`} />
+                <InfoRow label="城市" value={`克莱沃`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座矗立在德国西部边境的战略要地，不仅是莱茵河下游地区的历史权力中心，更因一位远嫁英格兰都铎王朝的“弗拉芒的白天鹅”而永载欧洲史册。`} />
+                <InfoRow label="建筑特色" value={`融合了中世纪防御工事的雄浑与文艺复兴时期宫殿的优雅，其标志性的白色天鹅塔楼在广袤的低地平原上如同灯塔般孤高而浪漫。`} />
+                <InfoRow label="建筑风格" value={`以中世纪罗马式与哥特式城堡为基础，在十七世纪由荷兰建筑师之手进行了巴洛克风格的华丽改造，并拥有精美的英式景观园林。`} />
+                <InfoRow label="文化价值" value={`它是莱茵河文化圈与低地国家文化交融的活化石，其历史叙事从神圣罗马帝国的选帝侯一直延续到影响英国宗教改革的传奇婚姻，层层叠叠。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`天鹅堡塔楼及博物馆开放时间：4月至10月，周二至周日 10:00 - 18:00；11月至3月，周二至周日 10:00 - 16:00；每周一闭馆（公众假期除外）。城堡庭院及周边公园全年全天开放。老城区商业及餐饮店铺通常营业至晚八点，周日部分歇业。具体日期请于行前查阅官网，冬季偶有因天气调整。`} />
+              <InfoRow label="门票价格" value={`天鹅堡塔楼（含博物馆）成人票：6欧元；优惠票（学生、残疾人、团体）：4欧元；家庭票（2大+最多4小）：14欧元。六岁以下儿童免费。每月第一个周日可免费进入博物馆。克莱沃市立博物馆联票价格请单独查询。`} />
+              <InfoRow label="地址" value={`Schwanenburg, 47533 Kleve, Germany`} />
+              <InfoRow label="交通方式" value={`从最近的国际枢纽杜塞尔多夫机场出发：在机场火车站乘坐区域快车（RE10或RE19），方向为克雷费尔德或埃默里希，约50分钟直达克莱沃主火车站（Kleve Bahnhof）。班次每小时1-2班，车票可在DB Navigator应用或车站自动售票机购买。从克莱沃火车站出站后，天鹅堡的塔尖便是你的方向标，步行约15-20分钟上坡即达。若携带大件行李，火车站前有出租车，车程约5分钟。自驾可将车停在山脚下的公共停车场。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要读懂克莱沃，你得把手放在城堡那冰凉厚重的墙砖上，感受它的脉搏。它的故事始于公元10世纪左右，最初是法兰克贵族的一个堡垒，守护着莱茵河渡口。到了11世纪，“天鹅骑士”的神话开始在这里流传，据说一位神秘骑士驾着天鹅船而来，解救了陷入危机的克莱沃伯爵，城堡也因此得名“天鹅堡”。这浪漫的传说为它的历史涂上了第一层传奇色彩。在接下来的几百年里，克莱沃伯爵们的权势日益显赫，甚至在1350年获得了选帝侯的尊荣，这意味着他们有权选举神圣罗马帝国的皇帝。城堡不断被加固、扩建，成为莱茵河下游一股不可小觑的力量。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，真正让克莱沃的名字冲出德语世界，闯入英格兰乃至整个欧洲历史舞台的，是16世纪一桩精心策划的政治婚姻。当时，克莱沃公国由一位开明而人文主义色彩浓厚的君主威廉五世统治。他的妹妹，就是安妮。得益于父亲的前瞻眼光，安妮接受了超越当时女性常规的教育，她能读会写，精通音乐，举止端庄。当英王亨利八世在第三任妻子简·西摩去世后，急于通过新的联姻来巩固自己的政治和宗教地位时，画师小汉斯·荷尔拜因被派往克莱沃为安妮画像。那幅著名的肖像画展现了一位衣着华丽、面容端庄的淑女。基于这幅画和使节的报告，婚事被敲定。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1540年1月，安妮踏上了前往英格兰的旅程。现实却给了所有人一记重击。当亨利八世满怀期待地以化装舞会的形式去迎接她时，却被眼前真实的安妮（据说语言不通和着装风格差异加剧了误解）所“惊吓”，直言“我不喜欢她”。婚姻在六个月内宣告无效。但故事的转折在于，安妮表现出惊人的智慧和务实。她没有抗争，而是平静地接受了安排，同意宣布婚姻无效，并获得了亨利慷慨的赡养费，被称为“国王心爱的妹妹”。她在英格兰富裕而平静地度过了余生，甚至与亨利和他的孩子们保持了良好关系。在克莱沃，这场失败的婚姻并未被视为耻辱，反而因安妮的得体应对和其后的人生智慧而被纪念，她成了故乡坚韧与优雅的象征。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "天鹅堡的命运在17世纪迎来了另一个辉煌的转折。在“三十年战争”的动荡之后，克莱沃迎来了它伟大的建设者——勃兰登堡选帝侯弗里德里希·威廉，以及他来自荷兰的杰出建筑师皮特·波斯特。波斯特为城堡带来了浓厚的荷兰古典主义风格，将其从中世纪要塞改造为一座宜居的巴洛克式宫殿。更重要的是，他以天才的笔触，以城堡山为中心，设计建造了辐射状的林荫大道、精巧的运河、喷泉和阶梯花园，将整个城市打造成一件宏大的艺术品。这就是今天你看到的克莱沃城市肌理的由来，它不像许多德国老城那样迷宫般错综，而是充满了几何美学和开阔的视野，宛如一座“巴洛克剧院”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡在二战末期遭受了近乎毁灭性的轰炸，塔楼和主体建筑严重受损。战后的重建是缓慢而充满敬意的，克莱沃人没有试图将它恢复成某个单一时代的模样，而是巧妙地保留了部分废墟的沧桑感，同时让修复的部分清晰可辨。如今，城堡的一部分是博物馆，讲述着从罗马时代到安妮王后的本地史；另一部分是依然在使用的法院。这种“活着”的状态，恰恰是它最珍贵的地方。它不再是王公贵族的私产，也不是仅供凭吊的废墟，它历经神话、战争、政治联姻与毁灭重生，最终沉淀为一座小镇日常生活的脊梁与背景，继续俯瞰着莱茵河平原上的日升月落。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天时间给克莱沃，让自己完全沉浸在这种慢节奏的、历史与自然交织的氛围中。最好的抵达时间是上午九点左右，此时旅行团尚未涌入，晨光温柔，适合开始爬坡探访城堡。整体游览节奏应松弛有度，上午聚焦山顶城堡区，下午徜徉老城与巴洛克花园，傍晚则留给山丘上的落日全景。这样的安排既能捕捉天鹅堡在晨光与夕照下不同的美，又能体验老城从苏醒到宁静的日常韵律。记得穿一双非常舒适、适合走石板路和坡道的鞋子，这是探索这座山丘之城最重要的装备。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`周日和周一许多博物馆和商店关门，尽量避开这两日进行深度文化游览。老城餐厅的午餐高峰通常在12:30-13:30，稍早或稍晚前往能获得更悠闲的体验。山丘顶部风大，即使是夏季也建议带一件防风外套。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从火车站出来，先别急着上山，在山脚下找一家面包店买一个刚出炉的“猪耳朵”面包或小姜饼，边吃边仰望那条通往云端城堡的、被浓荫覆盖的舒特大街。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着缓坡一路向上，不急不缓，留意两旁那些有着精美山墙和彩色窗棂的巴洛克风格民居，它们安静地讲述着小镇富庶的过往。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`首先抵达天鹅堡开阔的前庭，别立刻冲进塔楼，而是绕着城堡外墙走半圈，从各个角度感受它雄踞山巅的气势，并找到那个能将城堡、老城屋顶和远方荷兰平原尽收眼底的观景点。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`进入天鹅堡博物馆，重点寻找那间关于“克莱沃的安妮”的展室，静静端详那些复制品画像和书信，试着想象五百年前那位年轻女子从此地出发时的心境。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`中午时分下山，钻进市政厅广场周边任何一家挂着“Gasthaus”招牌的家庭餐馆，点一份地道的莱茵风味炖牛肉或炸猪排，搭配一杯清冽的本地 Altbier 老啤酒。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`饭后沿着波斯特设计的中轴线——林荫道散步，一直走到“春天”喷泉和阶梯花园，坐在长椅上看来往行人，感受巴洛克城市规划带来的独特空间秩序与宁静。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果还有余力，可以去市立博物馆看看，或者更简单地，在老城的小巷里随意迷失，逛逛那些卖手工艺品、古董和书籍的个性小店。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`务必在日落前半小时重新回到天鹅堡山丘，不必登上塔楼，就在城堡花园的草地上找个位置，看着夕阳将白色的塔楼、红色的屋顶和整个天际线染成温暖的金红色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡山南侧葡萄园小径仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，站在通往山下的葡萄园小路上，用长焦镜头压缩空间，将天鹅堡的塔楼、城墙与前景的葡萄藤蔓一同收入画中，构成一幅充满生命力的历史画卷。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`天鹅堡庭院拱门框景`}</h4>
+                  <p className="text-sm text-gray-700">{`上午十点后，阳光洒满庭院时，站在内庭的拱门下，以拱门为画框，拍摄对面被阳光照亮的、爬满藤蔓的石墙和远处的塔楼，营造深邃的叙事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`市政厅广场安妮雕像与城堡同框`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时段，站在安妮雕像的侧后方，以她沉静的侧影作为前景，焦点对准远处山丘上清晰可见的天鹅堡，形成历史人物与命运地标的时空对话。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`巴洛克轴线林荫道尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`利用林荫大道强烈的透视感，在道路尽头拍摄人物走向远处城堡山的身影，两侧高大的树木形成天然的引导线，照片极具几何美感和纵深感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`老城小巷光影捕捉`}</h4>
+                  <p className="text-sm text-gray-700">{`午后阳光斜射时，钻进老城狭窄的巷子，捕捉光线在鹅卵石路面、彩色木门和古老墙砖上投射出的迷人光影与质感。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`德国对隐私保护非常严格，拍摄居民窗户、私人庭院以及店铺内部前务必征得同意。利用克莱沃多变的天气，阴雨天的城堡反而更能拍出中世纪的神秘和忧郁氛围。无人机飞行在此区域有严格限制，起飞前务必查清当地法规。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`温馨家庭旅馆`}</h4>
+                  <p className="text-sm text-blue-800">{`位于天鹅堡山腰一栋17世纪老房子里的家庭旅馆，女主人会为你准备丰盛的北莱茵风味早餐，从餐厅窗户就能看见城堡塔楼尖顶。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`设计感历史酒店`}</h4>
+                  <p className="text-sm text-green-800">{`由老城内一座新古典主义风格建筑改造的精品酒店，房间保留了原有的高挑天花板和装饰线条，家具则是简约的北欧设计，古今融合得恰到好处。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`田园度假公寓`}</h4>
+                  <p className="text-sm text-yellow-800">{`位于城堡山脚下带小花园的自助式公寓，厨房设施齐全，适合家庭或长住，可以像当地人一样去市集买菜做饭，沉浸式体验小镇生活。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端水疗酒店`}</h4>
+                  <p className="text-sm text-purple-800">{`坐落在城外宁静森林边缘的四星级酒店，拥有完善的温泉泳池和桑拿设施，白天探索历史，晚上可以彻底放松疲惫的双脚，享受静谧的自然。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "克莱沃治安极好，深夜独行也完全无虞。夏季旅游旺季和春季花园节期间住宿紧张，务必提前预订。选择住在老城或城堡山附近，才能真正体验到入夜后和清晨游人未至时，小镇那种专属的、静谧魔法时刻。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开克莱沃很久以后，我记忆最深的不是某个具体的展品或建筑细节，而是一种整体的感觉——一种被平和与深厚包裹的感觉。它不像那些举世闻名的景点，用磅礴的气势瞬间将你征服。它更像一汪深潭，你需要静下来，走近它，才能看清其中沉淀的层层叠叠的历史倒影：骑士传说、选帝侯的权杖、画师笔下决定命运的肖像、巴洛克大师的规划蓝图、战火的伤痕与重生的坚韧……所有这些，最终都化为了今天小镇居民遛狗时的一声问候，面包房里飘出的香气，和山顶永不停歇的风。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求效率、热衷于打卡的世界里，克莱沃提供了一种珍贵的“冗余”。它不着急向你证明什么，只是坦然展示着它的全部：荣耀与挫折，完好与残缺，历史与日常。它让你明白，一个地方的魅力，不仅在于它曾有多么辉煌的顶峰，更在于它如何承载了时间的全部重量，并将之转化为一种从容不迫的生活本身。所以，如果你厌倦了人潮汹涌的经典路线，渴望一次真正能走进历史褶皱、与地方灵魂对话的旅行，请务必来克莱沃。在这里，你不是旁观者，你会成为那个在山顶与风同行，在心中与一位五百年前的公主默默对话的旅人，收获一段只属于你自己的、宁静而丰厚的欧洲记忆。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/heppenheim-medieval-town-starkenburg-ruins" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    黑
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">黑彭海姆</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Heppenheim</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/burg-vischering" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    菲
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">菲舍林城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Burg Vischering</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/buedingen" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    比
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">比丁根</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Büdingen</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

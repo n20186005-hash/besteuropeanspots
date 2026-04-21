@@ -1,0 +1,244 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '希迈 Chimay｜探秘比利时修道院啤酒源头，品尝传奇奶酪，漫步亲王城堡 - 最佳欧洲景点',
+  description: '开车驶入希迈的时候，你会先被一种静谧的绿色拥抱。道路在阿登高地边缘的丘陵间蜿蜒，两旁是深深浅浅的绿，那是牧场、森林和正在休耕的田地。然后，一片密集的、有着暗红色或浅黄色砖墙的屋顶群出现在山谷里，而在一座小山的顶端，耸立着几个童话般的尖塔与塔楼——那就是德·克罗伊家族的亲王城堡了。整个画面不像那些宏大',
+}
+
+export default function ChimayPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '希迈', href: '/destinations/europe' },
+            { label: '希迈', href: '/attractions/chimay' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`希迈・Chimay・比利时・希迈`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`开车驶入希迈的时候，你会先被一种静谧的绿色拥抱。道路在阿登高地边缘的丘陵间蜿蜒，两旁是深深浅浅的绿，那是牧场、森林和正在休耕的田地。然后，一片密集的、有着暗红色或浅黄色砖墙的屋顶群出现在山谷里，而在一座小山的顶端，耸立着几个童话般的尖塔与塔楼——那就是德·克罗伊家族的亲王城堡了。整个画面不像那些宏大的首都，它小巧、安详，空气中飘散着淡淡的青草与湿润泥土的气息，混合着一丝若有若无的、类似酵母和麦芽的甜香，那是风从修道院方向带来的秘密耳语。
+当你把车停在镇中心的格兰德广场，双脚踩上被岁月磨得光滑的鹅卵石地面时，那种“活着的传统”感会更加强烈。广场周围是三四层高的老房子，有些外墙漆成了温柔的鹅黄或奶油色，咖啡馆的露天座位零星摆着。当地人并不太多，他们步履从容，见面会停下来闲聊几句，声音柔和。你的目光很难不被广场一侧那座宏伟的、有着精美山墙的市政厅建筑吸引，但更牵引你的，可能是鼻尖捕捉到的一缕更复杂的香气：从某家餐馆厨房飘出的、融化了洋葱的浓郁奶酪锅（fondue）味道，坚实而热烈。这里的一切，似乎都围绕着两种圣物：啤酒和奶酪。而它们的源头，就在几公里外那片静谧的树林后面。
+你必须去拜访那个源头——西多会圣母修道院。开车穿过一条林荫道，世界陡然安静下来。修道院的建筑群是朴素的砖石结构，没有任何浮夸的装饰，坚固、沉默，像一群正在祈祷的修士。你无法进入酿酒的车间，但可以站在围墙外，听着里面隐约传来的、工业时代却带着神圣节奏的微弱声响。然后，你回到小镇的“Espace Chimay”体验中心。当你终于将一口Chimay Red（红帽）送入口中，那复杂的果香、麦芽甜味与细腻的泡沫在舌尖炸开时，你会瞬间明白，这不仅是饮料，它是这片土地、这儿的空气、修士们的祈祷与漫长工时共同凝结成的琥珀色灵魂。喝下的，是一段沉默的历史。
+傍晚时分，散步走向城堡所在的山丘。从山腰回望，小镇灯火初上，修道院方向已沉入暮色。城堡在夜色中亮起灯，倒映在山脚下的池塘里。这时你会感到，希迈的魅力不在于某个惊世骇俗的单一景点，而在于这种完整的、自给自足的生态系统：贵族的历史、宗教的虔信、匠人的技艺、社区的温暖，共同发酵出了一种独特而醇厚的生活滋味。它不喧哗，却足以醉人。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "开车驶入希迈的时候，你会先被一种静谧的绿色拥抱。道路在阿登高地边缘的丘陵间蜿蜒，两旁是深深浅浅的绿，那是牧场、森林和正在休耕的田地。然后，一片密集的、有着暗红色或浅黄色砖墙的屋顶群出现在山谷里，而在一座小山的顶端，耸立着几个童话般的尖塔与塔楼——那就是德·克罗伊家族的亲王城堡了。整个画面不像那些宏大的首都，它小巧、安详，空气中飘散着淡淡的青草与湿润泥土的气息，混合着一丝若有若无的、类似酵母和麦芽的甜香，那是风从修道院方向带来的秘密耳语。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "当你把车停在镇中心的格兰德广场，双脚踩上被岁月磨得光滑的鹅卵石地面时，那种“活着的传统”感会更加强烈。广场周围是三四层高的老房子，有些外墙漆成了温柔的鹅黄或奶油色，咖啡馆的露天座位零星摆着。当地人并不太多，他们步履从容，见面会停下来闲聊几句，声音柔和。你的目光很难不被广场一侧那座宏伟的、有着精美山墙的市政厅建筑吸引，但更牵引你的，可能是鼻尖捕捉到的一缕更复杂的香气：从某家餐馆厨房飘出的、融化了洋葱的浓郁奶酪锅（fondue）味道，坚实而热烈。这里的一切，似乎都围绕着两种圣物：啤酒和奶酪。而它们的源头，就在几公里外那片静谧的树林后面。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "你必须去拜访那个源头——西多会圣母修道院。开车穿过一条林荫道，世界陡然安静下来。修道院的建筑群是朴素的砖石结构，没有任何浮夸的装饰，坚固、沉默，像一群正在祈祷的修士。你无法进入酿酒的车间，但可以站在围墙外，听着里面隐约传来的、工业时代却带着神圣节奏的微弱声响。然后，你回到小镇的“Espace Chimay”体验中心。当你终于将一口Chimay Red（红帽）送入口中，那复杂的果香、麦芽甜味与细腻的泡沫在舌尖炸开时，你会瞬间明白，这不仅是饮料，它是这片土地、这儿的空气、修士们的祈祷与漫长工时共同凝结成的琥珀色灵魂。喝下的，是一段沉默的历史。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "傍晚时分，散步走向城堡所在的山丘。从山腰回望，小镇灯火初上，修道院方向已沉入暮色。城堡在夜色中亮起灯，倒映在山脚下的池塘里。这时你会感到，希迈的魅力不在于某个惊世骇俗的单一景点，而在于这种完整的、自给自足的生态系统：贵族的历史、宗教的虔信、匠人的技艺、社区的温暖，共同发酵出了一种独特而醇厚的生活滋味。它不喧哗，却足以醉人。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`希迈`} />
+                <InfoRow label="英文名称" value={`Chimay`} />
+                <InfoRow label="正式名称" value={`希迈小镇与西多会圣母修道院`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`希迈`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座将中世纪贵族传承与活着的特拉普派修道院传统完美融合的小镇，是欧洲修道院啤酒文化的地理与精神核心之一。`} />
+                <InfoRow label="建筑特色" value={`山顶的亲王城堡（哥特复兴风格）与山谷中的朴素修道院建筑群隔空相望，小镇中心则是色彩柔和的瓦隆传统联排屋，构成一幅和谐的立体画卷。`} />
+                <InfoRow label="建筑风格" value={`以19世纪哥特复兴风格为主的城堡建筑与遵循西多会严规（Trappist）极简、实用主义的修道院工业建筑交织。`} />
+                <InfoRow label="文化价值" value={`这里是“慢生活”哲学的实践地，见证了宗教虔诚如何转化为举世闻名的酿造技艺，并塑造了整个社区的品格与节奏。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`小镇公共区域全天开放。希迈亲王城堡（Château des Princes de Chimay）的导览参观通常在四月至十月的周末及节假日下午开放，具体时间每年微调，建议行前查阅官网。西多会圣母修道院（Abbaye Notre-Dame de Scourmont）的教堂向公众开放，用于祈祷和静思，但修士生活区及啤酒厂不对外开放游览。不过，小镇上有官方的啤酒体验中心“Espace Chimay”提供导览和品鉴，开放时间为周二至周六10:00-17:00，周日及周一休息。酒厂的生产参观需提前在官网预约特定时段。`} />
+              <InfoRow label="门票价格" value={`进入小镇免费。亲王城堡导览票价约10欧元，学生及老人有优惠。Chimay啤酒体验中心“Espace Chimay”的基础参观与品鉴组合票约15欧元。具体价格可能随季节调整。`} />
+              <InfoRow label="地址" value={`Grand-Place 14, 6460 Chimay, Belgium`} />
+              <InfoRow label="交通方式" value={`希迈位于比利时瓦隆大区的偏远角落，公共交通是冒险的一部分，自驾最为推荐。若乘火车，从布鲁塞尔南站乘坐前往沙勒罗瓦（Charleroi）方向的列车，在沙勒罗瓦南站换乘前往希迈的地方线路列车。全程约需2.5至3小时，班次稀疏，尤其是支线部分，一天可能只有几班，务必提前在比利时铁路（SNCB）官网查好时刻表并预留充足时间。从最近的国际机场布鲁塞尔南沙勒罗瓦机场（CRL）出发，需先乘巴士到沙勒罗瓦火车站再转火车，全程也近3小时。强烈建议租车，从布鲁塞尔自驾约1.5小时，沿途是阿登高地起伏的森林与田园风光，本身就是享受。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "希迈的故事，是由两条时而平行、时而交织的线编织而成的：一条是世俗贵族的权力与城堡，另一条是出世修士的信仰与劳作。德·克罗伊家族作为神圣罗马帝国时期就显赫的诸侯，早在中世纪就在此建立了权威。他们的城堡多次毁于战火，尤其是在17世纪的法西战争期间几乎成为废墟，但家族总是一次次地重建，象征着世俗权力在此地的根深蒂固。而真正让希迈的灵魂发生转变的，是19世纪中叶一群修士的到来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "1850年，一群来自法国西多会修道院的特拉普派修士，在德·克罗伊家族当时的亲王馈赠的土地上，建立了圣母修道院。最初的岁月极其艰苦。这里土地贫瘠，气候寒冷。修士们遵循“祈祷并劳作”的圣本笃会规，开始了最基础的农业开垦。他们种植庄稼，饲养奶牛，最初制作奶酪和啤酒，只是为了满足修道院自身的需求，并以此换取一些必要的生活物资。那时的啤酒，恐怕只是简单的乡村酿造。然而，虔诚与专注，往往是无心插柳的源泉。修士们对手艺的极致追求，让这些产品渐渐有了口碑。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "修道院的命运在20世纪经历了严峻考验。两次世界大战，尤其是二战期间，这片地区被激烈争夺，修士们不得不一度撤离。但战火熄灭后，他们又回到了残破的家园，带着更大的决心。正是战后这段时期，在一位极具远见和科学精神的修士——阿洛伊修斯修士的推动下，修道院的啤酒酿造实现了现代化和品质的飞跃。他们引入了科学的酿造控制，同时严格坚持传统配方与长时间的发酵熟成。Chimay啤酒从此不再是地区特产，它开始征服世界啤酒爱好者的味蕾，成为全球仅有的十几家“正统特拉普派啤酒”中的耀眼明星。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "与此同时，山上的德·克罗伊家族也在二战后的欧洲新秩序中，找到了自己的新位置。他们精心修复了城堡，将其一部分作为展示家族辉煌历史的博物馆，另一部分则用于文化活动和家族居住。他们不再是统治者，而是成为了地方历史与文化的守护者。有趣的是，家族与修道院之间，始终保持着一种互相尊重、共生共荣的默契。家族是修道院最初的土地赠予者和保护者，而修道院用其举世闻名的手艺，将希迈这个名字推向了世界，反过来也滋养了整个小镇的经济与声誉。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，当你品尝着印有“Authentic Trappist Product”标志的Chimay蓝帽或白帽啤酒时，你品尝的是一百七十多年不间断的祈祷、静默、失败与重来的历史。它来自贫瘠土地上的坚持，来自战火后的复兴，来自将信仰融入每一道工序的专注。而当你仰望夜色中的城堡尖塔时，你看到的是一个家族千年兴衰的剪影。在希迈，神圣与世俗，历史与当下，以一种异常和谐又美味的方式，共存了。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排整整一天的时间给希迈，最好能在上午十点左右抵达，以避开可能的人群（尽管这里很少人潮汹涌），并充分享受小镇慵懒苏醒的节奏。整体的游览节奏应当是松弛的、带有品鉴性质的“慢游”。上午聚焦于小镇的历史核心与视觉体验，中午享用一顿以本地产品为特色的长午餐，下午深入啤酒文化的探索与感官体验，傍晚则用一场轻松的散步和城堡外观游览来收尾。这样的安排让你既能触摸到小镇的历史脉络，又能沉浸在其最引以为傲的美食文化中，最后在宁静的暮色里消化这一天的所有感受。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`啤酒体验中心和生产参观非常热门，务必提前在其官方网站上预订门票和时段，尤其是旺季的周末。参观修道院外部时请务必保持安静与尊重，那是修士们真实生活与祈祷的地方，不要擅闯非公共区域。小镇街道多坡道和鹅卵石，请务必穿一双非常舒适、便于行走的鞋子。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`上午抵达后先将车停在镇中心外围，步行穿过窄巷走到铺满鹅卵石的格兰德广场，静静观察市政厅建筑上精致的雕塑和当地人在广场周边的日常活动。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`不急着进室内，而是顺着广场一侧的斜坡小路向高处漫步，从不同角度仰望雄踞在山顶的亲王城堡及其在水中的倒影，感受小镇的空间层次。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`返回广场，参观小镇的旅游信息中心，获取地图并确认当天城堡或啤酒体验中心可能有的特别安排。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`找一家本地小餐馆坐下，点一份用Chimay奶酪制作的经典菜式，比如奶酪火腿烤三明治或奶酪火锅，让味蕾先为下午的啤酒品鉴做好热身准备。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下午开车或步行前往“Espace Chimay”啤酒体验中心，跟随导览了解修道院啤酒的历史与酿造哲学，并在品鉴环节中认真对比不同款Chimay啤酒的风味层次。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从体验中心出来，如果时间允许且已提前预约，可以参加啤酒厂的深入生产参观（非必须），或者直接驱车前往几公里外的圣母修道院，在围墙外的静默中感受其庄严氛围。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`傍晚时分回到小镇，沿着城堡山脚下的池塘漫步，等待夕阳的余晖将城堡的石墙染成金黄，这是拍照和静思的完美时刻。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐选择另一家餐厅，尝试用Chimay啤酒入料的炖菜，完整地体验从原料到成品的风味闭环。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城堡远景与池塘倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前一小时，位于城堡山脚下公路旁的池塘边，利用平静的水面拍摄城堡完整的哥特式倒影，对称构图极具美感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`格兰德广场拱廊下`}</h4>
+                  <p className="text-sm text-gray-700">{`晴天的正午前后，阳光斜射进广场一侧的拱廊，站在阴影里拍摄被阳光照亮的鹅卵石地面、彩色房子外墙和行走的人物，光影对比充满故事感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`通往城堡的小径仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或傍晚，从镇中心通往城堡的上山小径中途回望，可以拍到小镇层层叠叠的屋顶作为前景，城堡尖塔耸立于远方的经典视角。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`啤酒体验中心品鉴室`}</h4>
+                  <p className="text-sm text-gray-700">{`在品鉴环节，利用窗边的自然光，近距离拍摄一杯Chimay啤酒丰富的泡沫层、深邃的酒液颜色以及杯壁上凝结的水珠，特写镜头充满质感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`修道院外墙与林间道`}</h4>
+                  <p className="text-sm text-gray-700">{`下午时分，站在修道院建筑群外侧的林间道路上，利用延伸的路径和两侧高大的树木作为引导线，将视线引向朴素而庄严的修道院建筑主体。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`在公共区域拍摄人物（尤其是当地人）时，请先微笑示意并获得默许，尊重隐私。修道院区域内严禁使用无人机。拍摄啤酒时，请店员推荐一个光线较好的角落，他们通常很乐意帮助展现他们产品的美。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`经济型便捷之选`}</h4>
+                  <p className="text-sm text-blue-800">{`位于镇中心入口处的现代风格小酒店，房间干净明亮，停车方便，步行即可探索全镇，性价比极高。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色家庭民宿`}</h4>
+                  <p className="text-sm text-green-800">{`由一对老夫妇经营的石头老屋民宿，位于宁静的半山腰，房间装饰着复古家具，早餐有自家熬的果酱和新鲜面包，能体验到瓦隆家庭的真诚热情。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`城堡附近精品酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`坐落在城堡山脚下古老建筑内的精品酒店，将历史感与现代设计巧妙融合，部分房间拥有直接眺望城堡的私密露台，夜晚格外静谧。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端乡村隐居`}</h4>
+                  <p className="text-sm text-purple-800">{`开车距离小镇约十分钟车程的独栋乡间别墅式酒店，被广阔的田野和森林包围，提供顶级床品和私家主厨餐桌体验，适合追求绝对宁静与奢华 retreat 的旅人。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "希迈的住宿数量有限，尤其在夏季啤酒节或周末，非常抢手，建议至少提前一个月预订。住在镇中心固然方便，但选择稍远一点的乡村住宿，能让你更深刻地体验阿登高地夜晚的星空与寂静。大部分住宿都提供免费的私家停车位。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开希迈好几天后，我的舌尖似乎还残留着Chimay蓝帽那深色水果与香料交织的复杂回味，但更持久的，是一种内心的平静。这个地方教会我的，是一种“深度”的另一种诠释：它不在于博物馆藏品的数量，也不在于建筑的宏伟尺度，而在于一种生活方式的完整性与沉浸感。在这里，你看到历史没有被封存在玻璃柜里，而是被酿造、被品尝、被每日的生活所延续。修士们的祈祷化作了啤酒中绵密的气泡，贵族的荣光化作了城堡傍晚亮起的温暖灯火，而普通人的劳作，则化作了咖啡馆里一块醇厚的奶酪。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求快速与效率的世界里，希迈像是一个温柔的反叛。它坚持用至少三周的时间去发酵一瓶啤酒，坚持用古老的菌种去呵护一块奶酪的熟成。它告诉你，美好事物的诞生需要沉默的坚守与时间的馈赠。当你放慢脚步，花一天时间去品味这种“慢”，你其实是在品尝一种即将失传的生活哲学。对于每一位厌倦了打卡式旅游、渴望在旅途中获得内心滋养的深度游旅人来说，希迈不仅仅是一个目的地，它更像是一次心灵的“退修”。它邀请你来的，不只是眼睛和胃，更是那颗需要被宁静与专注重新校准的心。所以，把它列在你的清单上吧，不是为了收集又一个地名，而是为了体验一段时光发酵出的、醇厚的人生滋味。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/passchendaele-museum" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    帕
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">帕森达勒战争纪念馆（帕森达勒博物馆）</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Memorial Museum Passchendaele 1917</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/damme-belgium" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    达
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">达默</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Damme</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/citadelle-de-namur" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    那
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">那慕尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Citadelle de Namur</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

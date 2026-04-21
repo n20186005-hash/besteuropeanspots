@@ -1,0 +1,242 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '弗尔讷 Veurne｜时光静止的佛兰德斯珍宝，西班牙文艺复兴建筑的露天博物馆 - 最佳欧洲景点',
+  description: '说实话，如果你从布鲁日那种游人如织的地方过来，初到弗尔讷的市集广场，第一感觉会是……安静，一种近乎奢侈的、被时光厚待的宁静。清晨的阳光斜斜地打在广场四周那一圈蜂蜜色与砖红色的建筑立面上，空气里是刚刚出炉的面包和黄油的香气，混杂着从附近咖啡馆飘来的、浓郁得化不开的咖啡香。没有旅行团的大巴，没有喧嚣的商',
+}
+
+export default function VeurneMarketSquarePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '比利时', href: '/destinations/europe' },
+            { label: '弗尔讷', href: '/destinations/europe' },
+            { label: '弗尔讷', href: '/attractions/veurne-market-square' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`弗尔讷・Veurne・比利时・弗尔讷`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，如果你从布鲁日那种游人如织的地方过来，初到弗尔讷的市集广场，第一感觉会是……安静，一种近乎奢侈的、被时光厚待的宁静。清晨的阳光斜斜地打在广场四周那一圈蜂蜜色与砖红色的建筑立面上，空气里是刚刚出炉的面包和黄油的香气，混杂着从附近咖啡馆飘来的、浓郁得化不开的咖啡香。没有旅行团的大巴，没有喧嚣的商铺叫卖，只有几个本地老人坐在长椅上慢悠悠地读报，自行车偶尔叮铃一声滑过被岁月打磨得光滑的石板路。你仿佛不是闯入了一个景点，而是不小心翻开了历史书里被完好保存的一页，连翻页的声音都轻柔无比。
+站在广场中央环顾四周，那种视觉上的震撼是层层递进的。你的眼睛会忙不过来——左边是宏伟的市政厅，它的阶梯式山墙像一顶华丽而庄重的王冠，每一层都装饰着精美的雕像和金色的纹章；右边是那座有着奇特洋葱头圆顶的钟楼，在蓝天下显得既古怪又可爱；正对面则是线条简洁却气势恢宏的圣尼古拉教堂。最迷人的是那些建筑立面上的细节：砂岩雕刻的丘比特、水果花环、神话人物，在阳光下泛着温润的光泽；红色的砖墙则呈现出深深浅浅的斑驳，那是几个世纪风雨留下的温柔笔触。你几乎能想象出17世纪的商人、主妇、工匠们，就在这些拱廊下交易、交谈、生活。
+这里最打动我的，是它无比真实的“活着”的状态。广场上的每周市场（周三上午）依然热闹非凡，农夫的卡车直接开进来，摆开新鲜的奶酪、带着泥土的蔬菜和刚剪下的鲜花。市政厅里仍在处理着本地的政务，教堂的钟声准时在整点敲响，提醒着祷告的时间。这些建筑不是被真空包装的博物馆展品，它们依然是这个小镇跳动的心脏和骨架。你坐在广场边的咖啡馆，点一杯本地酿造的啤酒，看着光影在那些文艺复兴式的山墙上缓慢移动，会突然明白什么叫作“历史的质感”——它不是厚重的教科书，而是弥漫在空气中的面包香、脚下冰凉的石头触感，以及那份不被打扰的、从容不迫的日常节奏。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说实话，如果你从布鲁日那种游人如织的地方过来，初到弗尔讷的市集广场，第一感觉会是……安静，一种近乎奢侈的、被时光厚待的宁静。清晨的阳光斜斜地打在广场四周那一圈蜂蜜色与砖红色的建筑立面上，空气里是刚刚出炉的面包和黄油的香气，混杂着从附近咖啡馆飘来的、浓郁得化不开的咖啡香。没有旅行团的大巴，没有喧嚣的商铺叫卖，只有几个本地老人坐在长椅上慢悠悠地读报，自行车偶尔叮铃一声滑过被岁月打磨得光滑的石板路。你仿佛不是闯入了一个景点，而是不小心翻开了历史书里被完好保存的一页，连翻页的声音都轻柔无比。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "站在广场中央环顾四周，那种视觉上的震撼是层层递进的。你的眼睛会忙不过来——左边是宏伟的市政厅，它的阶梯式山墙像一顶华丽而庄重的王冠，每一层都装饰着精美的雕像和金色的纹章；右边是那座有着奇特洋葱头圆顶的钟楼，在蓝天下显得既古怪又可爱；正对面则是线条简洁却气势恢宏的圣尼古拉教堂。最迷人的是那些建筑立面上的细节：砂岩雕刻的丘比特、水果花环、神话人物，在阳光下泛着温润的光泽；红色的砖墙则呈现出深深浅浅的斑驳，那是几个世纪风雨留下的温柔笔触。你几乎能想象出17世纪的商人、主妇、工匠们，就在这些拱廊下交易、交谈、生活。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这里最打动我的，是它无比真实的“活着”的状态。广场上的每周市场（周三上午）依然热闹非凡，农夫的卡车直接开进来，摆开新鲜的奶酪、带着泥土的蔬菜和刚剪下的鲜花。市政厅里仍在处理着本地的政务，教堂的钟声准时在整点敲响，提醒着祷告的时间。这些建筑不是被真空包装的博物馆展品，它们依然是这个小镇跳动的心脏和骨架。你坐在广场边的咖啡馆，点一杯本地酿造的啤酒，看着光影在那些文艺复兴式的山墙上缓慢移动，会突然明白什么叫作“历史的质感”——它不是厚重的教科书，而是弥漫在空气中的面包香、脚下冰凉的石头触感，以及那份不被打扰的、从容不迫的日常节奏。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`弗尔讷`} />
+                <InfoRow label="英文名称" value={`Veurne`} />
+                <InfoRow label="正式名称" value={`Veurne Market Square (Grote Markt)`} />
+                <InfoRow label="国家" value={`比利时`} />
+                <InfoRow label="城市" value={`弗尔讷`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`弗尔讷市集广场是17世纪西班牙统治时期南尼德兰地区城市规划与建筑艺术的罕见完整样本，被誉为“西班牙文艺复兴建筑在低地国家的露天百科全书”。`} />
+                <InfoRow label="建筑特色" value={`红砖与浅色砂岩的精妙组合，繁复华丽的阶梯式山墙、雕花立柱和镀金风向标，共同构成了和谐而庄严的立面交响曲。`} />
+                <InfoRow label="建筑风格" value={`以南尼德兰本地传统为基础的西班牙文艺复兴风格（或称佛兰德斯文艺复兴），混合了后期哥特式的某些结构元素。`} />
+                <InfoRow label="文化价值" value={`它并非为王室建造，而是富裕市民阶层自治与商业繁荣的见证，生动体现了佛兰德斯城镇的公民自豪感和黄金时代的生活美学。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`市集广场及外部建筑全天24小时开放。周边主要建筑内部开放时间各异：市政厅（Stadhuis）通常为周二至周日上午10点至下午5点，周一及法定节假日关闭；圣尼古拉教堂（Sint-Niklaaskerk）开放时间较为灵活，通常为每日上午9点至下午6点，但可能因弥撒活动临时关闭。肉市场（Beenhouwerstraat）建筑外部可随时参观，内部不常对公众开放。建议出行前在弗尔讷旅游局官网核对最新时间，冬季部分建筑开放时间可能缩短。`} />
+              <InfoRow label="门票价格" value={`进入弗尔讷市集广场及漫步周边街道完全免费。参观市政厅内部通常需要支付约6欧元的门票，学生及65岁以上老人可享受折扣价约4欧元，12岁以下儿童免费。圣尼古拉教堂自愿捐赠入场，建议捐赠2-3欧元以支持维护。旅游局提供的步行导览游价格约为每人8-10欧元，需提前预约。`} />
+              <InfoRow label="地址" value={`Grote Markt 1, 8630 Veurne, Belgium`} />
+              <InfoRow label="交通方式" value={`弗尔讷位于比利时西佛兰德斯省，最近的国际机场是法国加莱的加莱-敦刻尔克机场（约70公里）或比利时布鲁日的奥斯坦德-布鲁日国际机场（约40公里），但航班较少。最便捷的方式是先抵达布鲁塞尔或根特，再换乘火车。从布鲁塞尔中央车站乘坐IC城际列车前往奥斯坦德方向，在根特-圣彼得斯站换乘前往科特赖克/波珀灵厄的地方列车，在弗尔讷站下车，总耗时约1小时45分钟，班次每小时1-2班。从火车站步行至市集广场仅需8-10分钟，沿着清晰的“Grote Markt”路标即可轻松抵达。建议购买比利时铁路的周末票或多次票更划算。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解弗尔讷广场为何如此特别，我们得把时钟拨回到它的“黄金时代”。弗尔讷在中世纪曾是繁荣的纺织和贸易城镇，但真正塑造了今天广场风貌的，是16世纪末到17世纪那段复杂动荡的时期。当时，整个低地国家（大致相当于今天的荷兰、比利时）正处于反抗西班牙哈布斯堡王朝统治的“八十年战争”漩涡中。战火将许多佛兰德斯名城，如伊珀尔、里尔，都夷为平地。但弗尔讷，由于地处相对偏远的西部，且幸运地处于西班牙控制区相对稳固的后方，奇迹般地躲过了最惨烈的破坏。当别处还在废墟中挣扎时，弗尔讷的富商和市政官员们，已经迫不及待地开始用石头和砖块，宣告他们的财富、信仰和城市自治的骄傲。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "故事的关键人物并非某位国王，而是一群我们不知姓名的市民代表、建筑师和石匠。他们没有照搬当时欧洲流行的意大利或法国式文艺复兴，而是发展出了一种独特的“南尼德兰风格”。看看市政厅吧，它始建于1596年，正是战争间隙的喘息之期。设计者大胆地将本地传统的阶梯式山墙（一种哥特式遗产）与文艺复兴的对称、古典装饰元素结合。那些立面上雕刻的正义女神、象征谨慎和节制的寓言人物，都在无声地诉说着这座城镇自我管理的理想。而大量使用的本地红砖和从附近采石场运来的浅色砂岩，不仅出于成本考虑，更形成了一种温暖而坚固的视觉语言，仿佛在说：我们扎根于此。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "另一个传奇事件围绕着那座可爱的钟楼。广场上的旧钟楼在16世纪晚期倒塌了。1617年，市民们决定建造一座新的。你猜主导者是谁？是当地的民兵协会！他们集资建造了这座被称为“西班牙士兵”的钟楼，顶部那个洋葱形的穹顶，据说灵感来自当时西班牙军队士兵头盔的样式。这简直是一个绝妙的历史讽刺：用统治者的军事象征，来为一座象征市民自由和公共时间的建筑加冕。钟楼内部复杂的机械钟和一组49个的编钟，至今仍在精准报时，每一个钟声都在敲打着历史的回音。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战争的阴影并未完全远离。17世纪后期，法国“太阳王”路易十四的军队曾多次蹂躏西佛兰德地区。弗尔讷的城墙被加固，但它真正的铠甲，或许是那份由繁荣商业带来的内在韧性。广场周边的建筑，如肉市场（当时是肉类检验和交易的权威场所）和曾经的法官宫，相继以统一的风格建成，形成了一个和谐的建筑群落。这并非偶然，而是市政当局有意识的城市规划结果——他们想要一个庄严、有序、能彰显城市声誉的中心。就这样，在西班牙王权遥远的凝视下，一个佛兰德斯小镇用自己的方式，完成了对“美”和“秩序”的市民化定义。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间来到近现代，弗尔讷的幸运仍在延续。两次世界大战的战火再次绕过了它（尽管附近就是惨烈的伊珀尔战役战场）。20世纪，当许多欧洲城市忙着拆旧建新时，弗尔讷人选择了守护。他们精心修复每一块砖石，清理每一尊雕塑，让广场保持了原汁原味。今天，当我们漫步于此，我们所看到的，几乎就是400年前一位佛兰德斯商人所看到的景象。这种完整性本身，就是一个关于选择、坚持和尊重的漫长故事。它没有被封存，而是在持续的日常生活中被呼吸、被使用、被爱着，这才是它最了不起的地方。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完整感受弗尔讷，我强烈建议你留出整整一天时间，并且务必在这里过一夜。理想的节奏是从清晨开始，那时的广场沐浴在第一缕阳光中，空无一人，是摄影和静静感受的黄金时刻。上午专注于参观广场核心建筑的内外细节，下午则用来悠闲地探索从广场辐射出去的那些迷人小街巷和运河边，傍晚再回到广场，享受华灯初上时分的魔力。这样安排不仅能避开可能出现的零星旅行团（多在一日游的上午10点至下午3点间），更能体验到小镇从清晨的静谧到午后的慵懒，再到夜晚温馨的完整韵律。深度游的精髓不在于赶路打卡，而在于让自己沉浸在这种缓慢流淌的时光里。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必避开周一，因为几乎所有博物馆和市政厅内部都会关闭，你会错过很多精彩内容。穿一双绝对舒适的平底鞋，这里的石板路古老而起伏，高跟鞋会是一场灾难。虽然小镇极其安全，但进入教堂和市政厅内部时，请保持低声交谈，尊重当地的宁静氛围和可能正在进行的宗教活动。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨七点半，独自拥有整个空旷的市集广场，从各个角度仰望那些被柔和晨光照亮的阶梯山墙和镀金风向标，听自己的脚步声在石板路上回响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`推开市政厅厚重的木门，走进那个装饰着精美挂毯和橡木镶板的议事厅，想象17世纪的议员们就在这里决定城市的命运。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`登上“西班牙士兵”钟楼（如果开放），在狭窄的螺旋石阶中盘旋而上，从高处俯瞰红瓦屋顶如同波浪般铺展向远处的田园。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走到广场东北角的肉市场建筑下，仔细欣赏它底层优雅的拱廊和上层那些象征丰饶与贸易的砂岩雕刻。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着Beenhouwerstraat街漫步，寻找那些隐藏在外墙上的古老石雕门楣和铁艺招牌，感受黄金时代商贾之家的低调奢华。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进圣尼古拉教堂，让眼睛适应内部昏暗的光线，然后寻找那幅令人惊叹的巴洛克式讲道坛，上面雕刻着整个圣经故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在广场边的‘De Zwarte Kat’咖啡馆户外座坐下，点一杯真正的比利时咖啡，看广场上的生活如同慢镜头般在你眼前展开。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`黄昏时分，再次回到广场中央，看夕阳给所有建筑镀上金边，灯光从窗户里透出温暖的黄色，整个空间仿佛变成了一个巨大的、温暖的客厅。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`市政厅正面仰拍`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨太阳刚升起或傍晚日落前半小时，站在广场对角线位置，用广角镜头低角度仰拍，将宏伟的阶梯式山墙和蓝天一同纳入构图，能最大化建筑的庄严感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`钟楼与街道的框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`从广场通向钟楼的狭窄街道（如Genthof）向回拍，利用街道两侧的建筑自然形成引导线，将钟楼的洋葱顶置于街道尽头，中午时分光线能均匀照亮街道立面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`肉市场拱廊下的人像剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`下午三四点，阳光斜射入拱廊，让人站在拱门下形成剪影，以内部深邃的走廊为背景，能拍出极具故事感和层次感的照片。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`圣尼古拉教堂彩色玻璃窗特写`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一个阳光灿烂的午后，走进教堂，找到阳光直射的彩色玻璃窗，拍摄光线穿透彩色玻璃在古老长椅上投下斑斓光影的细节。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`广场全景与生活气息`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚“蓝色时刻”（日落后天未全黑），从市政厅台阶上拍摄广场全景，将暖色调的建筑灯光、街灯和深蓝色的天空一起捕捉，画面中纳入一两个骑自行车或散步的当地人，让照片充满生气。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用偏振镜可以极大增强天空的蓝色和砂岩雕塑的质感，减少砖墙表面的反光。拍摄建筑内部前，请务必确认是否允许使用闪光灯和三脚架（通常不允许），依靠高感光度和稳定手持技巧。尊重当地居民隐私，避免将镜头直接对准私人住宅的窗户或正在休息的居民。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`广场旁由16世纪联排屋改造的家庭旅馆“Auberge du Vieux Marché”，房间虽小但充满古董家具，老板娘会为你准备丰盛的佛兰德斯式早餐，在阁楼房间能听见广场的钟声。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`位于宁静运河边的“Hotel Patritius”，由一座新艺术风格宅邸改建，内部保留了华丽的楼梯和彩绘玻璃，花园精致优美，是闹中取静的完美选择。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`驱车十分钟可达的“Kasteel Beauvoorde”，一座被护城河环绕的17世纪城堡酒店，入住其中仿佛成为城堡主人，在四柱床上入睡，清晨在私人园林中散步。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`长途旅行者驿站`}</h4>
+                  <p className="text-sm text-purple-800">{`对于自驾探索佛兰德斯地区的旅行者，城外“B&B Ter Driezen”提供宽敞的客房和超大的免费停车场，主人是当地历史通，能给你最地道的旅行建议。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "弗尔讷本身非常宁静安全，但选择住宿时还是推荐广场步行五分钟范围内的区域，这样才能充分享受清晨和夜晚独一无二的氛围。夏季和周末务必提前数周预订，尤其是那些特色精品酒店，房间非常抢手。如果你打算以弗尔讷为基地探索西佛兰德战场遗址和海岸线，选择提供免费停车场的住宿会方便得多。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开弗尔讷好些日子了，但那个广场黄昏的画面，总会在某个忙碌的间隙突然闯进脑海。我想，它给我的最大触动，是一种关于“尺度”的启示。在这个追求宏大、新奇、刺激的时代，弗尔讷骄傲地展示着另一种可能：一个小尺度的人类居所，如何因为一代代人的珍视、使用和传承，而拥有了超越时间的巨大价值。它不试图震撼你，而是温柔地邀请你慢下来，去观察一块砖的色泽，去聆听一次钟声的余韵，去品味日常生活在伟大遗产中自然流淌的那种和谐。在这里，历史不是压在肩上的重担，而是呼吸的空气和脚下的土地。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是为什么我认为，每一位真正的深度旅行者，都应该来弗尔讷住上一晚。它就像一面清澈的镜子，照见的不仅是17世纪佛兰德斯的荣光，更是我们内心对安宁、完整和美的那份永恒渴望。在全世界许多地方，过去与现在是割裂的，游客与居民是对立的。但在弗尔讷，你会看到一个理想的模样：最美的风景，就是人们依然在认真生活的寻常街道。它提醒我们，最好的保护不是将历史锁进玻璃柜，而是让它继续在面包的香气、自行车的铃声和傍晚相聚的谈笑声中，活生生地跳动。这份“活的遗产”，才是送给未来最珍贵的礼物。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/thuin" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒂
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒂安</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Thuin</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/citadelle-de-namur" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    那
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">那慕尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Citadelle de Namur</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/freyr-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    弗
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">弗雷尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Freÿr (Castle of Freÿr)</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

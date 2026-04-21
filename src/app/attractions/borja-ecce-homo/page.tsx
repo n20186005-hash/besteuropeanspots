@@ -1,0 +1,238 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '博尔哈 Borja｜揭秘“猴子耶稣”壁画小镇，漫步加尔纳恰葡萄酒原乡 - 最佳欧洲景点',
+  description: '车子缓缓爬坡，驶入博尔哈的时候，空气里最先捕捉到的不是视觉信号，而是一种混合的气息。干燥的、被烈日烘焙过的泥土味，隐隐约约从远处葡萄园飘来的、类似果酱发酵前微微的甜酸气，还有老房子石墙上苔藓的湿润感，一起构成了这里的第一印象。它太安静了，午后的阳光把一条条窄巷照得明晃晃的，却几乎看不见人，只有几只猫',
+}
+
+export default function BorjaEcceHomoPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '西班牙', href: '/destinations/europe' },
+            { label: '博尔哈', href: '/destinations/europe' },
+            { label: '博尔哈', href: '/attractions/borja-ecce-homo' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`博尔哈・Borja・西班牙・博尔哈`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子缓缓爬坡，驶入博尔哈的时候，空气里最先捕捉到的不是视觉信号，而是一种混合的气息。干燥的、被烈日烘焙过的泥土味，隐隐约约从远处葡萄园飘来的、类似果酱发酵前微微的甜酸气，还有老房子石墙上苔藓的湿润感，一起构成了这里的第一印象。它太安静了，午后的阳光把一条条窄巷照得明晃晃的，却几乎看不见人，只有几只猫在阴影里打盹，你的脚步声在石板上显得格外清晰。这种静谧，让你几乎忘记自己是奔着一个“网红”目的地而来。
+走到镇中心的慈悲耶稣朝拜堂前，那种反差感更强了。这是一座毫无张扬之气的朴素建筑，砖石结构，带着岁月温和的磨损。然而，就在它内部一间不起眼的小祈祷室里，保存着可能是21世纪最“出圈”的一幅宗教画——或者说，是它的“修复”结果。当你真正站在《看这个人》壁画前，那种感觉非常奇妙。褪色斑驳的原始壁画上，覆盖着一层……嗯，该怎么形容呢？一种孩童般笨拙又真诚的笔触。那位本想修复它的老妇人塞西莉亚，用她业余的油画颜料，把悲悯的耶稣面孔，画成了一幅近似卡通猴子的模样。现场看，冲击力不在于滑稽，而在于那种巨大的、令人沉默的“错位”。神圣与世俗，专业与业余，毁灭与拯救，所有界限在这里模糊成了一团温柔又尴尬的迷雾。
+但博尔哈绝不仅仅是关于这幅画。当你从教堂走出来，顺着蜿蜒的小路往山顶城堡走，真正的博尔哈才开始对你展开怀抱。晾晒在阳台上的床单随风轻摆，老人在门口慢悠悠地打理盆栽，空气里的葡萄甜香越来越明显。这里的生活节奏，依然牢牢地锚定在土地和季节里。酒窖（Bodegas）的招牌低调地挂在古老石拱门上，推开厚重的木门，里面是凉爽的、充满橡木桶和陈年酒香的世界。那幅意外走红的壁画，像是投入平静湖面的一颗石子，涟漪过后，湖底深厚的沉积——几个世纪的葡萄酒酿造史、家族传承、日复一日的田园劳作——依然沉静如初。这才是博尔哈最打动人的核心魅力：一场全球性的网络狂欢，被一个古老小镇以自己的步调从容地消化、吸收，然后继续过着它自己的日子。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子缓缓爬坡，驶入博尔哈的时候，空气里最先捕捉到的不是视觉信号，而是一种混合的气息。干燥的、被烈日烘焙过的泥土味，隐隐约约从远处葡萄园飘来的、类似果酱发酵前微微的甜酸气，还有老房子石墙上苔藓的湿润感，一起构成了这里的第一印象。它太安静了，午后的阳光把一条条窄巷照得明晃晃的，却几乎看不见人，只有几只猫在阴影里打盹，你的脚步声在石板上显得格外清晰。这种静谧，让你几乎忘记自己是奔着一个“网红”目的地而来。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "走到镇中心的慈悲耶稣朝拜堂前，那种反差感更强了。这是一座毫无张扬之气的朴素建筑，砖石结构，带着岁月温和的磨损。然而，就在它内部一间不起眼的小祈祷室里，保存着可能是21世纪最“出圈”的一幅宗教画——或者说，是它的“修复”结果。当你真正站在《看这个人》壁画前，那种感觉非常奇妙。褪色斑驳的原始壁画上，覆盖着一层……嗯，该怎么形容呢？一种孩童般笨拙又真诚的笔触。那位本想修复它的老妇人塞西莉亚，用她业余的油画颜料，把悲悯的耶稣面孔，画成了一幅近似卡通猴子的模样。现场看，冲击力不在于滑稽，而在于那种巨大的、令人沉默的“错位”。神圣与世俗，专业与业余，毁灭与拯救，所有界限在这里模糊成了一团温柔又尴尬的迷雾。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但博尔哈绝不仅仅是关于这幅画。当你从教堂走出来，顺着蜿蜒的小路往山顶城堡走，真正的博尔哈才开始对你展开怀抱。晾晒在阳台上的床单随风轻摆，老人在门口慢悠悠地打理盆栽，空气里的葡萄甜香越来越明显。这里的生活节奏，依然牢牢地锚定在土地和季节里。酒窖（Bodegas）的招牌低调地挂在古老石拱门上，推开厚重的木门，里面是凉爽的、充满橡木桶和陈年酒香的世界。那幅意外走红的壁画，像是投入平静湖面的一颗石子，涟漪过后，湖底深厚的沉积——几个世纪的葡萄酒酿造史、家族传承、日复一日的田园劳作——依然沉静如初。这才是博尔哈最打动人的核心魅力：一场全球性的网络狂欢，被一个古老小镇以自己的步调从容地消化、吸收，然后继续过着它自己的日子。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`博尔哈`} />
+                <InfoRow label="英文名称" value={`Borja`} />
+                <InfoRow label="正式名称" value={`Borja`} />
+                <InfoRow label="国家" value={`西班牙`} />
+                <InfoRow label="城市" value={`博尔哈`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`一座被意外艺术事件重新定义的中世纪古镇，也是西班牙重要的加尔纳恰（歌海娜）葡萄原产地保护区的核心。`} />
+                <InfoRow label="建筑特色" value={`山顶城堡与山下城镇形成鲜明防御布局，红瓦白墙的民居簇拥着朴素的砖石教堂。`} />
+                <InfoRow label="建筑风格" value={`以阿拉贡地区的穆德哈尔风格为主，混搭了罗马式、哥特式以及质朴的乡村民间建筑。`} />
+                <InfoRow label="文化价值" value={`其文化叙事完美融合了古老的葡萄酒农耕传统、中世纪城镇历史与一场席卷全球的、关于艺术、修复与大众参与的当代后现代事件。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`慈悲耶稣朝拜堂（Santuario de la Misericordia）通常开放时间为周二至周日上午10点至下午2点，下午4点至晚上7点。存放著名壁画《看这个人》（Ecce Homo）的小教堂区域开放时间可能更短，建议提前在镇旅游咨询处确认。小镇本身全天可自由漫步，但商店和酒窖参观多在白天营业。节假日及宗教节日期间开放时间可能调整，8月夏季可能延长，冬季可能缩短。`} />
+              <InfoRow label="门票价格" value={`进入小镇及公共区域免费。参观慈悲耶稣朝拜堂及《看这个人》壁画通常为自愿捐赠，建议捐款2-3欧元用于壁画维护。部分私人酒窖参观及品酒体验需付费，价格从10欧元至30欧元不等，含导游讲解及多款葡萄酒品尝。`} />
+              <InfoRow label="地址" value={`Santuario de la Misericordia, Calle del Santuario, 50540 Borja, Zaragoza, Spain`} />
+              <InfoRow label="交通方式" value={`从萨拉戈萨机场或火车站出发最方便。从萨拉戈萨-Delicias火车站外的汽车站乘坐Autobuses Hife公司的区域巴士，前往博尔哈（Borja）方向，班次约为每天4-6班，车程约1小时15分钟，建议上车前向司机确认目的地。从萨拉戈萨市中心自驾是最灵活的选择，沿A-68高速公路向西北方向行驶，转入A-121公路，约50分钟即可抵达，小镇入口有清晰路标。火车不直达，巴士班次有限，务必提前查好返程时刻表。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "博尔哈的故事，埋在它的石头和葡萄藤里。它的名字源自阿拉伯语“Burya”，意为“塔楼”，暗示着其作为边境防御据点的起源。基督教王国从摩尔人手中收复此地后，它在阿拉贡王国的庇护下逐渐成长。山顶那座如今只剩残垣的城堡，曾经俯瞰着整个平原，守护着山下慢慢聚集起来的居民。那些用红砖和白灰砌成的房屋，层层叠叠沿着山势铺开，形成了今天看到的、极具层次感的中世纪城镇肌理。其中，穆德哈尔风格的塔楼和装饰若隐若现，那是基督教与伊斯兰工匠技艺在此地交融的无声证明。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "几个世纪以来，博尔哈的命运和它的葡萄园紧紧捆绑。这里干燥的大陆性气候、贫瘠的石灰岩土壤，恰恰是加尔纳恰葡萄（Garnacha，即歌海娜）的天堂。这种葡萄酿出的酒，颜色深浓，酒体饱满，带着鲜明的红色水果和香料风味，成了阿拉贡地区的血液。几乎每个家庭都与葡萄酒有关，地下挖出的酒窖比地上的房屋还要古老。19世纪末的根瘤蚜虫灾难几乎摧毁欧洲所有葡萄园时，博尔哈和周边产区因为较早引入了抗病砧木，意外地保存了许多古老的原生葡萄藤，这些“老藤”如今成了酿造顶级葡萄酒的宝藏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间快进到20世纪初，镇上的慈悲耶稣朝拜堂里，一幅由当地画家埃利亚斯·加西亚·马丁内斯于1930年左右创作的壁画《看这个人》（Ecce Homo，描绘戴荆冠的耶稣），因为教堂潮湿的环境而逐渐斑驳、褪色。它静静地待在那里，只是本地人熟悉的一个祈祷背景，直到2012年。一位名叫塞西莉亚·希门尼斯的八十多岁老教友，出于好意，试图自己动手修复它。结果，她的业余技法彻底改变了画作的面貌，耶稣的脸变得形似一只毛茸茸的猴子。这一“成果”被当地历史协会发现并公布，瞬间通过互联网引爆全球。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "起初，这似乎是一场艺术修复的灾难和全球性的嘲笑。但博尔哈的反应出人意料。他们没有隐藏、没有愤怒，而是以一种近乎天真的坦诚接纳了这一切。塞西莉亚奶奶成了小镇的“名人”，尽管她本人因这场风波承受了巨大压力。镇政府迅速介入保护这幅新旧叠加的奇特作品，并开始管理因此涌来的游客。这场意外，像一道强光，突然照亮了这个默默无闻的小镇。它迫使博尔哈从内向的、农耕的节奏中探出头来，与世界进行了一场短暂而喧嚣的对话。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "如今，那幅“猴子耶稣”壁画被妥善保存在防弹玻璃后，旁边同时展示着原始壁画的黑白照片和塞西莉亚奶奶的修复过程。它不再仅仅是一幅画，而是一个文化现象纪念碑，一个关于意图与结果、社区情感与艺术权威的永恒讨论载体。而博尔哈，在经历了最初的喧嚣后，巧妙地将这股流量引向了它真正骄傲的遗产：葡萄酒。游客们来看壁画，然后被引导去品尝老藤加尔纳恰的醇厚。这场意外，阴差阳错地成为了一把钥匙，为外界打开了一扇通往这个西班牙葡萄酒原乡深处的大门。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天给博尔哈，才能体会它的双重节奏：上午聚焦于小镇的历史文化与那场著名的艺术事件，下午则完全沉浸于葡萄园与酒香的田园牧歌中。最好在早晨9点左右抵达，这时光线柔和，游客稀少，你能在宁静中感受小镇苏醒的模样。整体游览耗时约8小时，节奏宜张弛有度。上午在紧凑的街巷中步行探索，中午享用漫长的当地午餐，下午则建议自驾或预约出租车进行酒庄巡礼，最后在夕阳中带着微醺的酒意和满足感离开。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`慈悲耶稣朝拜堂内部空间狭小，旅游团来时可能非常拥挤，尽量错开上午11点至下午1点的高峰期。自驾是探索周边酒庄的最佳方式，但品酒切记指定不喝酒的司机。小镇路面多为凹凸不平的古老石板，务必穿一双舒适耐走的平底鞋。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`第一站先别急着去教堂，而是到镇中心的市政厅广场，在游客信息中心拿份地图，并看看那里展示的壁画事件前因后果的图文介绍。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`顺着鹅卵石铺就的陡峭小径Calle de la Subida al Santuario向上攀登，一路抚摸两旁被岁月打磨得光滑的石墙，感受脚步的回响。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`抵达慈悲耶稣朝拜堂后，先在质朴的外墙前停留，想象它百年来默默矗立于此的时光，然后轻轻推开那扇厚重的木门。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在略显昏暗的祈祷室里静静地站在防弹玻璃前，仔细观察那幅“猴子耶稣”，看原始壁画的残痕与业余笔触如何交织成一幅当代寓言。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从教堂侧门出来，沿着另一条路漫步下山，随意钻进一条岔路，邂逅阳台上盛开的天空葵和门口打盹的猫咪，感受小镇日常的脉搏。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`选择一家家族经营的小酒窖（如Bodegas Bordejé或Bodegas Aragonesas的接待中心），深入阴凉的地下酒窖，听主人讲述老藤的故事，品尝至少三种不同风格的加尔纳恰。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间充裕，驱车几分钟到镇外的葡萄园，走进田间，亲手触摸那些低矮却遒劲的老藤，眺望被夕阳染成金色的广阔原野和远处的小镇轮廓。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐回到镇上，找一家像Mesón del Pilar这样的当地餐厅，点一盘烤羊肉或炖野味，配上一杯午后品尝过的最喜欢的葡萄酒，为这一天画上完美的句号。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`朝拜堂前台阶俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`下午日落前两小时，站在教堂入口前的石阶上，用中长焦镜头对准山下层层叠叠的红瓦屋顶和远方的平原，能拍出极具层次感和温暖光影的经典小镇全景。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`“猴子耶稣”壁画侧面角度`}</h4>
+                  <p className="text-sm text-gray-700">{`祈祷室内光线较暗且禁止闪光灯，将相机感光度调高，从壁画侧面而非正面拍摄，能同时捕捉到画作、保护玻璃的反光以及室内环境，营造出故事感和现场感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`某条无名小巷的尽头`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或午后，随意选一条陡峭小巷走到尽头，当巷子将远方葡萄园或田野框成一幅天然画作时按下快门，最能体现博尔哈作为“门户”小镇的连接感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`古老酒窖的橡木桶阵列`}</h4>
+                  <p className="text-sm text-gray-700">{`在参观酒窖时，征得主人同意后，利用酒窖内昏暗的灯光和手机补光，拍摄两排巨大橡木桶向深处延伸的纵深感，暖色调的木桶与冷色调的石墙对比强烈。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`从葡萄园回望城堡废墟`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚时分，驱车至镇外某处高地葡萄园，以低垂的葡萄藤和老藤扭曲的枝干作为前景，拍摄远处山丘上城堡的孤独剪影与小镇点点灯火初上的景象。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄壁画时请绝对遵守规定，禁用闪光灯，保持安静尊重祈祷者。当地人对肖像权较为在意，拍摄居民尤其是长者前，一个微笑和简单的手势征询会让他们更友好。葡萄园是私人财产，进入田埂拍摄前最好获得附近酒庄或农家的许可。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`小镇中心家庭旅馆`}</h4>
+                  <p className="text-sm text-blue-800">{`入住广场附近由古老石屋改造的民宿，房间小巧温馨，店主会热情推荐地图上找不到的当地小酒馆，早晨在铺着蕾丝桌布的小餐厅享用家常早餐。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`乡村田园酒店`}</h4>
+                  <p className="text-sm text-green-800">{`选择坐落在镇外几公里处葡萄园环绕的农庄酒店，房间拥有开阔的露台，夜晚只有虫鸣与星空，白天可以免费租借自行车骑行于葡萄园小径。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`萨拉戈萨市区设计酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`如果追求更多样的餐饮和夜生活，可以住在萨拉戈萨市中心，次日清晨驱车前来，将博尔哈作为一日深度游的目的地，这样能同时体验城市的繁华与乡村的宁静。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "博尔哈镇内住宿选择非常有限且条件朴素，旺季（夏季和葡萄收获季的九月）务必提前数月预订。如果选择住在外围农庄，请确认是否有晚餐提供，否则晚上觅食可能需要开车。小镇治安极好，但夜间照明不足，散步时建议携带手电。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开博尔哈时，我脑子里反复回旋的不是那幅画的滑稽，而是一种深深的触动。在这个处处讲究专业、效率、网红爆款的年代，博尔哈提供了一种“错误”的样本。它因为一个“错误”而被世界看见，却用自己深厚而沉默的土地，温和地修正了这场关注的方向。它告诉我们，一个地方真正的魅力，不在于它如何完美地呈现自己，而在于它如何真实地、连同它的意外和伤痕，一起存在下去。那幅壁画就像一个幽默而深刻的隐喻：我们试图修复历史，却常常留下自己笨拙的指纹；而历史，最终包容了这一切，并将它变成了自己故事新的一页。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "对于热爱深度游的旅人来说，博尔哈是一面镜子。它照见的不仅是一个小镇，也是我们自身的旅行态度。你是只想打卡那个可笑的“猴子耶稣”，然后匆匆离去？还是愿意留下来，喝一杯由老藤孕育、饱含风土之味的酒，听一段家族传承的故事，在黄昏的葡萄园里感受时间缓慢的流速？这里没有令人屏息的宏伟建筑，却有生活本身坚韧而温暖的纹理。它值得你专程前来，用一整天的时间，去品味这种由巨大反差带来的、关于真实、宽容与生命力的复杂滋味。这滋味，初尝或许诧异，回味却无比悠长。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/laredo-cantabria" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    拉
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">拉雷多</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Laredo</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/cadaqu-s-spain" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    卡
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">卡达克斯</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cadaqués</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/cuenca-hanging-houses" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    昆
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">昆卡悬屋</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Cuenca Hanging Houses</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,234 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '泽尼察 Zenica｜工业心脏与中世纪要塞的时空交响 - 最佳欧洲景点',
+  description: '坦白说，当我第一眼看到泽尼察的城市天际线时，完全没预料到接下来会遇到什么。这是一座被20世纪工业史诗深刻烙印的城市，高耸的烟囱、庞大的厂房和略显灰色的苏联式住宅楼构成主旋律，空气里仿佛还残留着钢铁时代特有的那种淡淡金属味。它硬朗、务实，是波黑共和国跳动不息的工业心脏。出租车司机听说我要去Vrandu',
+}
+
+export default function VrandukFortressZenicaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '波斯尼亚和黑塞哥维那（波黑）', href: '/destinations/europe' },
+            { label: '泽尼察', href: '/destinations/europe' },
+            { label: '泽尼察', href: '/attractions/vranduk-fortress-zenica' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`泽尼察・Zenica・波斯尼亚和黑塞哥维那（波黑）・泽尼察`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`坦白说，当我第一眼看到泽尼察的城市天际线时，完全没预料到接下来会遇到什么。这是一座被20世纪工业史诗深刻烙印的城市，高耸的烟囱、庞大的厂房和略显灰色的苏联式住宅楼构成主旋律，空气里仿佛还残留着钢铁时代特有的那种淡淡金属味。它硬朗、务实，是波黑共和国跳动不息的工业心脏。出租车司机听说我要去Vranduk，笑着用带口音的英语说：“啊，你要从我们的现在，去看我们的过去了。”
+车子驶离城区，沿着波斯尼亚河前行，风景像被一只无形的手缓缓擦拭的玻璃，逐渐清晰、变绿。不过十几分钟，峡谷陡然收窄，河水变得湍急。然后，它就出现了——弗兰杜克要塞。它不是矗立在遥远的山巅供人仰望，而是以一种近乎霸道的姿态，从右侧棕黄色的石灰岩绝壁上“生长”出来，巨石城墙与山体浑然一体，仿佛已经在那里凝固了千年。刹那间，城市背景的喧嚣彻底退去，耳边只剩下河谷的风声和滚滚水声。
+我弃车步行，穿过一座吱呀作响的小木桥，走近它的脚下。这里是一个静谧得不可思议的小村庄，只有寥寥几户人家，玫瑰爬满了石墙，老人在屋前晒太阳。要塞就在他们头顶，不是遥不可及的景点，而是生活的一部分，是后院的背景板。我触摸到那些被数百年风雨打磨得光滑而冰凉的城墙石块，掌心传来沉甸甸的历史重量。攀登的过程像一次小小的朝圣，石阶被脚步磨出了凹痕，转角处射击孔外，是令人屏息的峡谷全景：碧绿的波斯尼亚河如一条缎带在下方蜿蜒，对岸是郁郁葱葱的森林。这里听不到任何工业噪音，只有鹰隼的啸叫在山谷间回荡。
+站在城堡最高的塔楼上，我转过身，视野尽头，泽尼察的城市轮廓在午后的薄霭中若隐若现。那一刻的感受无比奇妙：我的左手边是深邃、寂静、刀砍斧劈般的中世纪峡谷；右手边，是人类雄心、蒸汽与钢铁铸就的现代城镇。时间在这里不是一条直线，而是一个可以同时触摸两端的环。弗兰杜克要塞最动人的魅力，正在于这种极致的时空并置——它不曾被精心打捞到旅游区的真空里，而是就站在那里，沉默地见证着从战马嘶鸣到火车汽笛的每一个时代层，并温柔地包裹着当下村民晾晒衣服的平凡日常。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "坦白说，当我第一眼看到泽尼察的城市天际线时，完全没预料到接下来会遇到什么。这是一座被20世纪工业史诗深刻烙印的城市，高耸的烟囱、庞大的厂房和略显灰色的苏联式住宅楼构成主旋律，空气里仿佛还残留着钢铁时代特有的那种淡淡金属味。它硬朗、务实，是波黑共和国跳动不息的工业心脏。出租车司机听说我要去Vranduk，笑着用带口音的英语说：“啊，你要从我们的现在，去看我们的过去了。”" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子驶离城区，沿着波斯尼亚河前行，风景像被一只无形的手缓缓擦拭的玻璃，逐渐清晰、变绿。不过十几分钟，峡谷陡然收窄，河水变得湍急。然后，它就出现了——弗兰杜克要塞。它不是矗立在遥远的山巅供人仰望，而是以一种近乎霸道的姿态，从右侧棕黄色的石灰岩绝壁上“生长”出来，巨石城墙与山体浑然一体，仿佛已经在那里凝固了千年。刹那间，城市背景的喧嚣彻底退去，耳边只剩下河谷的风声和滚滚水声。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "我弃车步行，穿过一座吱呀作响的小木桥，走近它的脚下。这里是一个静谧得不可思议的小村庄，只有寥寥几户人家，玫瑰爬满了石墙，老人在屋前晒太阳。要塞就在他们头顶，不是遥不可及的景点，而是生活的一部分，是后院的背景板。我触摸到那些被数百年风雨打磨得光滑而冰凉的城墙石块，掌心传来沉甸甸的历史重量。攀登的过程像一次小小的朝圣，石阶被脚步磨出了凹痕，转角处射击孔外，是令人屏息的峡谷全景：碧绿的波斯尼亚河如一条缎带在下方蜿蜒，对岸是郁郁葱葱的森林。这里听不到任何工业噪音，只有鹰隼的啸叫在山谷间回荡。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "站在城堡最高的塔楼上，我转过身，视野尽头，泽尼察的城市轮廓在午后的薄霭中若隐若现。那一刻的感受无比奇妙：我的左手边是深邃、寂静、刀砍斧劈般的中世纪峡谷；右手边，是人类雄心、蒸汽与钢铁铸就的现代城镇。时间在这里不是一条直线，而是一个可以同时触摸两端的环。弗兰杜克要塞最动人的魅力，正在于这种极致的时空并置——它不曾被精心打捞到旅游区的真空里，而是就站在那里，沉默地见证着从战马嘶鸣到火车汽笛的每一个时代层，并温柔地包裹着当下村民晾晒衣服的平凡日常。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`泽尼察`} />
+                <InfoRow label="英文名称" value={`Zenica`} />
+                <InfoRow label="正式名称" value={`Zenica`} />
+                <InfoRow label="国家" value={`波斯尼亚和黑塞哥维那（波黑）`} />
+                <InfoRow label="城市" value={`泽尼察`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座耸立在波斯尼亚河险峻峡谷之上的弗兰杜克要塞，是14至15世纪波斯尼亚王国防御体系中的关键一环，曾牢牢扼守着通往王国腹地的咽喉要道。`} />
+                <InfoRow label="建筑特色" value={`一座由粗粝石块垒砌而成的坚固城堡，完美地嵌入河岸上方的岩壁之中，其紧凑的布局、高耸的塔楼和厚重的城墙，展现了纯粹的功能性军事建筑美学。`} />
+                <InfoRow label="建筑风格" value={`最初是典型的中世纪波斯尼亚防御工事风格，后在奥斯曼帝国统治时期融入了东方元素进行增建与改造，形成了独特的文化混合体。`} />
+                <InfoRow label="文化价值" value={`它不仅是波黑中世纪历史的石质见证，更是理解该地区从独立王国到奥斯曼行省，再到近代工业重镇这一复杂层叠历史的活课本。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`弗兰杜克要塞开放时间因季节而异：通常四月至十月，每天上午9点至下午7点开放；十一月至三月，开放时间缩短为上午10点至下午4点，且周一可能闭馆维护。具体开放时间可能因天气或私人活动临时调整，建议出行前在当地旅游局网站查询最新信息。波黑的国家节假日（如3月1日独立日、11月25日国庆日）期间，开放时间也可能有变动。`} />
+              <InfoRow label="门票价格" value={`进入弗兰杜克要塞参观通常需要购买门票，成人票约为5波黑马克（约合2.5欧元）。学生、儿童及老年人可享受优惠票价，约为3波黑马克。有时会提供包含小型博物馆导览的套票，价格约为7马克。要塞外的城墙区域及周边村庄可免费漫步。请注意，只接受当地货币现金，信用卡支付不普及。`} />
+              <InfoRow label="地址" value={`弗兰杜克要塞，Vranduk bb, 72000 Zenica，波斯尼亚和黑塞哥维那`} />
+              <InfoRow label="交通方式" value={`从最近的萨拉热窝国际机场出发，最推荐的方式是租车自驾。沿A1/E73高速公路向北行驶约70公里，车程约1小时即可直达泽尼察市。从泽尼察市中心前往弗兰杜克要塞，需沿波斯尼亚河向西北方向行驶约8公里，有清晰路标指引，车程约15分钟。若乘坐公共交通，可从萨拉热窝中央巴士站乘坐频繁发车的巴士（约每小时一班，车程1.5小时）抵达泽尼察巴士站，然后转乘本地出租车前往要塞（费用约10-15马克），但班次不固定。火车也是一种选择，萨拉热窝至泽尼察的铁路线路风景优美，但耗时更长（约2小时），且火车站距离要塞较远。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要听懂弗兰杜克要塞的低语，你得把时钟拨回14世纪中叶。那时的波斯尼亚王国，在特夫尔特科一世这位雄心勃勃的国王治下，正处在国力鼎盛的黄金时代。疆域扩张，贸易繁荣，但也面临着来自四方邻国的觊觎。波斯尼亚河这条天然走廊，既是财富通道，也是军事软肋。于是，在河道最狭窄、两岸崖壁最陡峭的这个地方，一座要塞的奠基变得势在必行。最初的建造者，那些无名的石匠和士兵，选择将城堡直接嵌入岩体，这不仅是建筑智慧的体现，更是一种充满野心的宣告：王国在此设卡，一夫当关，万夫莫开。它最初的名字或许已不可考，但“Vranduk”这个后来出现的词，在斯拉夫语中与“门闩”、“屏障”有关，完美诠释了它的命运。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这座石堡的平静岁月并未持续太久。15世纪下半叶，奥斯曼帝国的铁骑如潮水般涌向巴尔干。1463年，波斯尼亚王国覆灭，泽尼察地区也落入苏丹之手。但对于弗兰杜克要塞，征服者们展现出了实用主义的一面。他们没有摧毁它，而是占领、改造并强化了它。奥斯曼的军事工程师们增建了更多的塔楼和防御工事，可能还引入了带有东方特色的拱门和居住结构。城堡从一个基督教王国的边关堡垒，转变为一个奥斯曼帝国的“边陲卫所”。驻军换成了土耳其近卫军，宣礼的声音可能一度在峡谷中响起，与曾经的教堂钟声交织成复杂的回声。石头不会说话，但石头上叠加的建筑风格，默默记录下了这次权力的易手与文化的覆盖。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光流转到19世纪，奥匈帝国取代了衰落的奥斯曼，成为这片土地的新主人。帝国的官员们以他们特有的效率审视着弗兰杜克要塞。在热兵器时代，这种中世纪城堡的军事价值已大大降低。它被部分改造，可能用作仓库或驻屯少量宪兵，但更多的是被忽略，逐渐沦为地图上一个古老的符号。然而，正是这种“忽略”，反而让它逃过了大规模现代化改造或拆除的命运，保留了相对原始的风貌。当泽尼察因丰富的煤炭和铁矿资源，在奥匈及后来的南斯拉夫时期迅速崛起为工业重镇时，这座沉默的古堡，就像一位退隐的老兵，静静地看着山下新兴城市的灯火一夜夜亮起，铁路和工厂改变了土地的脉搏。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最近的伤痕来自20世纪末那场惨烈的波黑战争。泽尼察作为重要的工业中心，经历了激烈的争夺和破坏。弗兰杜克要塞由于其制高点的战略位置，不可避免地再次被卷入军事冲突。城墙上的某些凹痕和破损，或许就来自那个时期的炮火。战争结束后，和平艰难降临。人们开始修复战争创伤，也重新审视自己的历史遗产。弗兰杜克要塞的修复工程小心翼翼地进行，目标不是将其粉饰一新，而是稳固结构，保存其沧桑的质感。它不再为任何政权守卫边境，它的新使命，是为这个多次多难的国家和来访的人们，守卫一段真实、未加修饰的记忆。从王国堡垒到帝国前哨，从战争据点再到和平纪念碑，它的每一块石头，都吸饱了六个世纪的风云变幻。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要充分体验这种穿越时空的魔力，建议你在下午晚些时候（大约3点后）抵达。这样既可以避开正午的酷热（夏季峡谷里也很闷热），又能幸运地捕捉到城堡与峡谷在黄昏时分最迷人的光线。整个深度游览大约需要3到4小时，节奏应该是缓慢而沉浸的。先从外部远观开始，建立整体印象，然后进入内部探索细节，最后在制高点停留，等待日落时分的魔法时刻。这样的安排让你能由远及近、由表及里地感受要塞，并且有充足的时间去想象、去感受，而不是匆匆打卡。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`一定要穿一双绝对防滑、支撑好的徒步鞋，城堡内外的石阶常年潮湿，非常光滑。夏季务必携带充足的饮用水，城堡内没有任何商店，村庄的小店也可能早早关门。尊重当地村民的隐私，不要随意对着民居或居民拍照，保持安静。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在河对岸的免费停车场，先别急着过桥，站在这里好好端详一下要塞与峡谷、河流构成的完整画面，听听水声风声。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走过那座晃晃悠悠的木桥，感受脚下河流的脉搏，迎面就是宁静的弗兰杜克村，看看那些与古堡为邻的日常生活。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从村庄小路蜿蜒而上，亲手推开那扇厚重的木质城堡大门，踏入内部阴凉而带着泥土气息的庭院。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着狭窄的螺旋石阶爬上主塔楼，每一步都踏在历史的凹痕上，在塔顶的射击孔后假装自己是个中世纪哨兵，俯瞰峡谷。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在主塔楼内的小型博物馆里，花时间看看那些出土的陶器碎片、生锈的武器和古老的地图，它们都是时间的碎片。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`下到较低的城墙漫步，用手触摸那些粗糙的石壁，寻找不同历史时期砌筑风格的微妙差异。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在城堡西侧一段相对完整的城垛上找个地方坐下，静静地看着夕阳将对面崖壁和下方泽尼察的工业轮廓依次染成金黄。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日落前下山，回到村庄里，如果那家家庭经营的小咖啡馆还开着，点一杯波黑咖啡，结束这趟旅程。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`河对岸停车场远眺点`}</h4>
+                  <p className="text-sm text-gray-700">{`下午侧光时（秋季最佳），可以拍到要塞、木桥、村庄与峡谷河流的全景，使用长焦镜头压缩空间感，凸显城堡与山体的融合。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`主塔楼拱门框景`}</h4>
+                  <p className="text-sm text-gray-700">{`进入塔楼内部后，找到一个内层拱门，用它将外部的峡谷、森林和远处隐约的城市轮廓框住，形成强烈的古今对比与景深。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`西侧城垛日落机位`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，坐在城垛上，将相机放在垛口，以沧桑的石块为前景，拍摄远处被暖阳沐浴的泽尼察城市天际线与蜿蜒的河流。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`村庄玫瑰墙与城堡仰角`}</h4>
+                  <p className="text-sm text-gray-700">{`在弗兰杜克村里，找一户爬满玫瑰或藤蔓的石屋墙角，低角度仰拍，让缤纷的花朵与生活气息作为前景，衬托上方雄浑冰冷的古堡壁垒。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`峡谷内光线变化剧烈，建议使用RAW格式拍摄以便后期调整阴影和高光细节。广角镜头适合表现城堡的雄伟与环境关系，但别忘了带上中长焦捕捉建筑细节和光影纹理。日落后的蓝调时刻，城市灯光初亮而天空未全黑时，是拍摄“古今对话”氛围片的黄金十分钟。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`预算之选`}</h4>
+                  <p className="text-sm text-blue-800">{`泽尼察市中心的“City Hotel Zenica”，价格亲民，干净实用，位于步行街附近，晚上可以出门感受本地人的夜生活，品尝地道的 ćevapi（肉肠）。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`特色体验`}</h4>
+                  <p className="text-sm text-green-800">{`萨拉热窝老城区的传统民宿，虽然需要一小时车程，但你能在一天穿越从中世纪、工业时代到奥斯曼风情的老城，体验更丰富的波黑层次。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`高端享受`}</h4>
+                  <p className="text-sm text-yellow-800">{`其实泽尼察本身缺乏顶级酒店，但可以驱车前往附近的山城特拉夫尼克，入住由奥斯曼时期宅邸修复的精品酒店，在宁静的山间回味一天的震撼。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "泽尼察作为工业城市，夜生活相对平淡，但治安良好。如果选择住在泽尼察，可以体验非常本地化的、几乎没有游客的晚间氛围。若计划旺季（7-8月）前往，萨拉热窝的住宿需要提前很久预订。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开弗兰杜克要塞时，我的背包上无意中蹭到了一些墙上的灰白色石粉。我没有拍掉它，就让它留着，像一枚来自过去的、无形的印章。这个地方教会我的，是一种看待历史的“地质学”眼光。历史不是教科书上干净的时间线，而是像这里的岩层一样，是混乱的、叠加的、相互挤压又彼此共存的。你能在同一视野里，看到中世纪的石头、奥斯曼的改造痕迹、战争的伤疤，以及山下那片代表着南斯拉夫时期工业梦想、如今仍在努力寻找出路的城市。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个快节奏的、常常急于抹去过去以迎接崭新未来的世界里，泽尼察和它的弗兰杜克要塞提供了一种珍贵的矛盾与和解。它没有试图隐藏自己工业城市的“不完美”背景，也没有将古堡供奉在脱离现实的旅游神坛上。它们就那样真实地、甚至有些粗粝地并肩站立着。这种真实，比任何精心修饰的明信片风景都更有力量。它告诉你，一个地方的生命力，正在于它能够承载所有时代的重量，包括荣耀、伤痛、转型和日常，然后继续呼吸。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "所以，如果你厌倦了那些被过度包装的“完美”景点，如果你想知道一片土地如何在动荡中保持坚韧，如果你想亲身站在一个能同时听见历史回声与现代心跳的坐标点上，那么，请来泽尼察，来弗兰杜克要塞。它不会给你轻松的浪漫，但它会给你一次深刻的对话——与石头，与河流，与一个复杂而真实的欧洲角落的对话。这趟旅程，关乎记忆，关乎存在，也关乎我们如何带着全部的历史，继续向前行走。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/castello-di-torrechiara" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    托
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">托雷基亚拉城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Castello di Torrechiara</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/jehay-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    热
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">热艾城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Jehay</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/epoisses-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃普瓦斯城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château d'Époisses</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

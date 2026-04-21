@@ -1,0 +1,244 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '科特卡 Kotka｜探秘芬兰湾东部的绿意港城，沉醉于欧洲顶级水上公园与沙皇航海遗风 - 最佳欧洲景点',
+  description: '火车缓缓驶入科特卡站，你第一个闻到的不是想象中的海腥味，而是一股清冽、带着松针和湿润泥土气息的风。走出车站，眼前景象有点出乎意料：一边是高大安静的起重机轮廓映在铅灰色的天空下，另一边则是茂密得几乎要涌上街道的森林。这里没有那种标志性的“欧洲老城”的紧迫感，街道宽阔，行人稀少，只有电车轨道在阳光下闪着',
+}
+
+export default function KotkaFinlandWaterfrontGardenSapokkaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '芬兰', href: '/destinations/europe' },
+            { label: '科特卡', href: '/destinations/europe' },
+            { label: '科特卡', href: '/attractions/kotka-finland-waterfront-garden-sapokka' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`科特卡・Kotka・芬兰・科特卡`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`火车缓缓驶入科特卡站，你第一个闻到的不是想象中的海腥味，而是一股清冽、带着松针和湿润泥土气息的风。走出车站，眼前景象有点出乎意料：一边是高大安静的起重机轮廓映在铅灰色的天空下，另一边则是茂密得几乎要涌上街道的森林。这里没有那种标志性的“欧洲老城”的紧迫感，街道宽阔，行人稀少，只有电车轨道在阳光下闪着光。这座城市仿佛刚刚从一场漫长的冬眠中醒来，伸了个懒腰，把工业的筋骨和自然的绿意毫无保留地摊开在你面前。
+而它的心脏，或者说灵魂，藏在离港口不远的一个“碗”里——那就是萨波卡水上公园。沿着指示牌走，你会先听到水声，不是潺潺小溪，而是一种更有力量、更有层次的轰鸣与滴答的交响。转个弯，眼前豁然开朗：一个巨大的、由花岗岩砌成的圆形剧场般的下沉花园。瀑布从高处的人工岩壁奔腾而下，激起细密的水雾，在阳光下折射出小小的彩虹。水池里的水清澈得惊人，你能看到水底随着水流摇曳的水草，和几尾悠闲的红鱼。更妙的是设计师对声音的把控，瀑布的轰鸣在岩石剧场里产生回响，却又不觉嘈杂，反而盖过了远处港口的隐约噪音，营造出一种奇异的静谧。这里不是被观赏的“景点”，而是当地人生活的一部分，你会看到推着婴儿车的母亲在长椅上休息，老人静静读报，年轻的情侣手拉手走过水上的石板步道。
+这就是科特卡最打动人心的魅力：它毫不掩饰自己作为工业港口的身份（空气里偶尔飘来的木材和钢铁的气味就是证明），却又以一种近乎诗意的北欧方式，将最精致、最疗愈的自然景观编织进城市的肌理。它不是一座被供起来的历史标本，而是一个呼吸着的、生长着的有机体。在这里，你能同时触摸到沙皇时代远洋巨轮的铁锚，和今天从岩石缝里钻出来的、嫩绿的蕨类植物。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "火车缓缓驶入科特卡站，你第一个闻到的不是想象中的海腥味，而是一股清冽、带着松针和湿润泥土气息的风。走出车站，眼前景象有点出乎意料：一边是高大安静的起重机轮廓映在铅灰色的天空下，另一边则是茂密得几乎要涌上街道的森林。这里没有那种标志性的“欧洲老城”的紧迫感，街道宽阔，行人稀少，只有电车轨道在阳光下闪着光。这座城市仿佛刚刚从一场漫长的冬眠中醒来，伸了个懒腰，把工业的筋骨和自然的绿意毫无保留地摊开在你面前。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而它的心脏，或者说灵魂，藏在离港口不远的一个“碗”里——那就是萨波卡水上公园。沿着指示牌走，你会先听到水声，不是潺潺小溪，而是一种更有力量、更有层次的轰鸣与滴答的交响。转个弯，眼前豁然开朗：一个巨大的、由花岗岩砌成的圆形剧场般的下沉花园。瀑布从高处的人工岩壁奔腾而下，激起细密的水雾，在阳光下折射出小小的彩虹。水池里的水清澈得惊人，你能看到水底随着水流摇曳的水草，和几尾悠闲的红鱼。更妙的是设计师对声音的把控，瀑布的轰鸣在岩石剧场里产生回响，却又不觉嘈杂，反而盖过了远处港口的隐约噪音，营造出一种奇异的静谧。这里不是被观赏的“景点”，而是当地人生活的一部分，你会看到推着婴儿车的母亲在长椅上休息，老人静静读报，年轻的情侣手拉手走过水上的石板步道。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这就是科特卡最打动人心的魅力：它毫不掩饰自己作为工业港口的身份（空气里偶尔飘来的木材和钢铁的气味就是证明），却又以一种近乎诗意的北欧方式，将最精致、最疗愈的自然景观编织进城市的肌理。它不是一座被供起来的历史标本，而是一个呼吸着的、生长着的有机体。在这里，你能同时触摸到沙皇时代远洋巨轮的铁锚，和今天从岩石缝里钻出来的、嫩绿的蕨类植物。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`科特卡`} />
+                <InfoRow label="英文名称" value={`Kotka`} />
+                <InfoRow label="正式名称" value={`Kotka`} />
+                <InfoRow label="国家" value={`芬兰`} />
+                <InfoRow label="城市" value={`科特卡`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`芬兰东南部最重要的港口城市之一，见证了从沙俄帝国海军要塞到现代芬兰工业与生态和谐共生的转型。`} />
+                <InfoRow label="建筑特色" value={`港口、工业设施与葱郁的森林、精妙绝伦的现代水景园林无缝交织，形成独特的“花园城市”风貌。`} />
+                <InfoRow label="建筑风格" value={`混合了19世纪末沙俄时期的木结构建筑、功能主义风格的工业建筑、以及极简现代主义的景观设计。`} />
+                <InfoRow label="文化价值" value={`一座将海洋工业遗产、北欧自然美学与当代公共艺术完美融合的活力之城，展现了芬兰人“与自然共生”的生存哲学。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`城市本身全天开放。主要景点如萨波卡水上公园、海事中心瓦尔科博物馆等开放时间各异：萨波卡公园全年24小时开放，但冬季（约11月至次年3月）部分水景可能关闭维护；瓦尔科博物馆夏季（6月至8月）通常每天10:00-18:00开放，冬季开放时间缩短，常为周二至周日11:00-17:00；圣诞节前夕及圣诞节当天、元旦等主要节假日大部分室内场馆闭馆。建议出行前在官网复核具体时间。`} />
+              <InfoRow label="门票价格" value={`萨波卡水上公园：免费。
+瓦尔科海事中心：成人票约12-15欧元，学生及儿童有优惠，7岁以下通常免费。家庭套票更划算。
+科特卡教堂：免费进入，但欢迎捐赠。
+兰塔萨里海防堡垒：夏季收取小额维护费，约5-8欧元。
+城市内多数公园、海滨步道及公共艺术区均免费。`} />
+              <InfoRow label="地址" value={`（以游客信息中心为例）Kotkan Matkailu, Keskuskatu 7, 48100 Kotka, Finland`} />
+              <InfoRow label="交通方式" value={`从赫尔辛基万塔机场出发最便捷。乘坐机场大巴或出租车至赫尔辛基中央火车站（约30分钟），换乘芬兰国铁VR或长途巴士前往科特卡。火车班次频繁，行程约1.5-2小时，沿途是迷人的森林与湖泊风光。巴士行程时间类似，有时直达市中心更便利。抵达科特卡火车站或巴士总站后，城市内部景点集中，步行或租借自行车（市内有多处租赁点）是最佳探索方式。若自驾，沿E18公路东行约130公里即可到达。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时光倒流回十八世纪末，这里还只是芬兰湾东部一片布满礁石和小岛的荒芜海岸。它的命运转折点，源于一场远在圣彼得堡宫廷的决策。沙皇叶卡捷琳娜二世和她的继任者们，为了巩固波罗的海出海口，急需一个坚固的前哨。于是，在岛屿和陆地的关键连接处，一座名为“罗曼萨里”的海防要塞开始兴建，科特卡（在芬兰语中意为“老鹰”）的雏形由此诞生。最初在这里挥洒汗水的，是成千上万的俄国士兵与芬兰劳工，他们用厚重的花岗岩块垒砌起炮台和兵营，轰鸣的开山炮声取代了海浪与鸟鸣。这座堡垒在1808-1809年的芬兰战争中扮演了角色，见证了芬兰从瑞典王国被并入沙俄自治大公国的历史时刻。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "真正让科特卡从一个军事据点蜕变为繁荣城镇的，是木材。十九世纪中后期，芬兰广袤的森林成了“绿色黄金”。得益于深水良港，科特卡一跃成为欧洲最重要的木材出口港之一。锯木厂如雨后春笋般沿港口建立，巨大的原木从内陆河流漂浮而下，空气中终年弥漫着新鲜的松木香和蒸汽锯的轰鸣。财富随之涌入，城市开始扩张。有意思的是，当时统治这里的沙俄贵族和富商，也为城市留下了独特的印记。比如那座可爱的“沙皇钓鱼小屋”，是亚历山大二世来访时的行宫，它不像圣彼得堡的宫殿那般威严，反而是一栋带有精致雕花阳台的温馨木屋，静静坐落在风景如画的河口，仿佛在诉说统治者也偶尔向往片刻的渔夫闲情。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "二十世纪的战火与动荡同样在这里刻下伤痕。冬季战争和继续战争中，科特卡因其战略位置遭受了猛烈空袭，许多老建筑化为瓦砾。战后，它和整个芬兰一样，带着坚韧的“西苏”精神投入重建，港口功能不断现代化，成为重要的化工和制造业基地。然而，工业的繁荣也带来了环境问题，一些海岸区域变得灰暗破败。直到上世纪九十年代，一个大胆的城市更新计划被提出：为什么不把我们的短板变成亮点？于是，在废弃的油罐区和杂乱的港口边缘，诞生了萨波卡水上公园这个奇迹。它不是对历史的简单复制，而是一次面向未来的宣言——用最前沿的景观设计和生态技术，治愈工业伤疤，重新定义人与海洋、城市与自然的关系。从沙皇的炮台到伐木工人的码头，再到今天孩子们在水边嬉戏的公园，科特卡的故事，就是一部关于生存、适应与重生的北欧史诗。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天的深度探索。最好在早上9点前抵达，这时城市刚刚苏醒，光线柔和，港口和海鸟的生机最为鲜活。整体游览节奏宜慢不宜快，核心是体验“从海洋到森林”的层次变化。上午精力充沛时，先探访体现城市源起的历史遗迹和活力港口；午后沉浸在世界级的水景园林中，感受宁静与设计之美；傍晚则适合在海滨漫步或登高望远，欣赏芬兰湾的日落。这样安排既能捕捉不同光线下的城市风貌，也能错开可能出现的极短暂的小型旅游团人流。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`科特卡风大，尤其在港口和海边，即使夏季也建议带一件防风外套。
+城市内自行车道完善，租一辆自行车是高效且愉悦的探索方式，许多租车点支持异地还车。
+冬季来访时，萨波卡公园的瀑布和水景可能关闭，但雪覆的岩石和寂静的园林呈现出另一种极致的美，务必穿防滑靴。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`第一站先去古老的鱼市广场，看看当地渔民带来了哪些刚从芬兰湾捕获的鲜货，感受最地道的港口晨间气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`步行到毗邻港口的瓦尔科海事中心，触摸那些巨大的船用发动机和渔民小屋，听讲解员讲述暴风雪中救援的故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着绿树成荫的海滨步道慢慢走向萨波卡水上公园，让瀑布的声音由远及近，做好被其精致和气势震撼的准备。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`花至少一小时在萨波卡公园里迷路，从不同角度观察水流、岩石与植物的对话，坐在水边发呆看野鸭游过。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后登上附近的城堡山公园，在一片百年橡树林的荫蔽下，寻找那座隐藏在林木中的沙皇钓鱼小屋。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从城堡山下来，绕到兰塔萨里岛，探访那些爬满苔藓的古老海防堡垒遗迹，想象士兵在此守望海洋的岁月。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时节对（夏季），一定要乘坐一趟短途观光船，从海上的视角回望科特卡，看绿意如何包裹着城市的轮廓。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`晚餐前，溜达到市政厅公园，那里有由著名雕塑家维莱·瓦尔格伦创作的“悲伤”喷泉，在暮色中别有韵味。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`萨波卡公园瀑布全景`}</h4>
+                  <p className="text-sm text-gray-700">{`站在公园入口处上方的人行天桥或西侧高地上，用广角镜头在晴朗的上午（光线直射瀑布时）拍摄，将瀑布、圆形水池和远方的港口起重机一同纳入画面，形成自然与工业的对比。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`城堡山橡树林与小径`}</h4>
+                  <p className="text-sm text-gray-700">{`在夏秋季节的午后，阳光穿过茂密树冠形成道道光束时，在林间小径低角度仰拍，捕捉沙皇钓鱼小屋的木结构尖顶在光束和绿叶中的剪影，营造神秘童话感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`兰塔萨里堡垒石墙与海`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，走到堡垒面向开阔海面的残垣处，将长满苔藓和地衣的古老花岗岩石墙作为前景框架，拍摄远处波光粼粼的芬兰湾和偶尔经过的船只，色调会呈现迷人的蓝金色。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`老港口红色仓库夜景`}</h4>
+                  <p className="text-sm text-gray-700">{`夜幕降临后华灯初上时，在港口对面的人行区，利用港湾平静的水面拍摄那些被灯光照亮的传统红色木结构仓库倒影，长曝光可以让水面如丝绸般平滑。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`芬兰法律非常注重隐私，拍摄当地人（尤其是特写）前最好微笑示意或征得同意，尤其在沙滩、公园等休闲场所。`}</li>
+                <li>• {`夏季的“午夜阳光”和冬季的“蓝色时刻”是创作魔幻光影的绝佳时机，提前查好日出日落时间。`}</li>
+                <li>• {`使用无人机需要特别留意，市中心、港口及军事遗迹上空可能有飞行限制。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`港口风情之选`}</h4>
+                  <p className="text-sm text-blue-800">{`由老船运公司办公楼改造的设计酒店，房间拥有巨大的拱形窗户，正对港口百舸争流的景象，清晨在汽笛声中醒来。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`森林静谧体验`}</h4>
+                  <p className="text-sm text-green-800">{`坐落在城堡山公园边缘的独栋小木屋民宿，被高大的松树和云杉环绕，晚上可以蒸个正宗芬兰桑拿，然后跳进露台上的热水按摩池看星星。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计爱好者据点`}</h4>
+                  <p className="text-sm text-yellow-800">{`市中心一栋功能主义建筑内的精品酒店，内饰是典型的北欧简约风，家具都是芬兰本土设计品牌，下楼就是最热闹的餐厅和咖啡馆街。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`家庭或团体优选`}</h4>
+                  <p className="text-sm text-purple-800">{`位于萨波卡公园附近安静社区里的宽敞公寓，带设备齐全的小厨房和阳台，可以像当地人一样去市场采购食材回来烹饪。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6月至8月）是旺季，住宿紧张且价格较高，务必提前数月预订。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "科特卡治安极好，即便是偏远一点的住宿区域也无需担心安全。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "选择住在市中心或海滨区域，方便步行探索大部分景点，并能享受夜晚宁静的海港散步。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开科特卡的时候，我脑海里反复回响的不是某个宏伟建筑的细节，而是一种感觉——一种矛盾的和谐感。这座城市坦然展示着它的双重身份：坚硬的工业脊梁与柔软的自然肌肤。它没有试图隐藏起重机或仓库，而是为它们配上了一个瀑布花园作为前景；它纪念沙皇的堡垒，却让堡垒的墙壁被野花和苔藓温柔占领。在这里，历史不是沉重的包袱，而是土壤，供新的、更绿的生命从中生长。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求极致效率、常常将自然与城市对立起来的时代，科特卡提供了一种珍贵的启示。它告诉我们，一座城市的生命力，不仅在于它生产什么，更在于它如何与所处的环境共呼吸、共进化。它不需要成为热门的打卡首都，它安静地待在芬兰湾一隅，认真地过着自己的日子：照料花园，维护港口，铭记风暴与战争，也庆祝每一个阳光普照的夏日。对于厌倦了浮光掠影、渴望在旅途中感受地方真实脉搏的深度游者来说，科特卡就是这样一处宝藏。它邀请你慢下来，用一天的时间，走完一部浓缩的、关于坚韧、适应与美的北欧小城史诗。你会带走海风的气息、瀑布的声音，以及一份关于未来城市可能的、绿色的想象。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/tampere-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    坦
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">坦佩雷老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Tampere Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/turku-castle-sweden-finland" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    图
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">图尔库城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Turku Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/old-rauma-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    劳
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">劳马古城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Old Rauma</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

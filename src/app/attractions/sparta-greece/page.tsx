@@ -1,0 +1,239 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '斯巴达 Sparta｜在橄榄树林中寻觅失落军团的回响，在现代博物馆里啜饮千年金液 - 最佳欧洲景点',
+  description: '车子开进伯罗奔尼撒半岛的拉科尼亚平原，和雅典那边的喧嚣热闹完全是两个世界。空气里有种干燥的、尘土混合着野生草药的味道，远处是铁灰色的泰格特斯山脉，像一道沉默的屏障。你心里可能嘀咕：传说中的斯巴达，就这儿？直到你把车停在路边一片不起眼的橄榄树林旁，走进去，脚下踩过干枯的橄榄叶，沙沙作响，然后，它就毫无',
+}
+
+export default function SpartaGreecePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '希腊', href: '/destinations/europe' },
+            { label: '斯巴达镇', href: '/destinations/europe' },
+            { label: '斯巴达', href: '/attractions/sparta-greece' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`斯巴达・Sparta・希腊・斯巴达镇`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子开进伯罗奔尼撒半岛的拉科尼亚平原，和雅典那边的喧嚣热闹完全是两个世界。空气里有种干燥的、尘土混合着野生草药的味道，远处是铁灰色的泰格特斯山脉，像一道沉默的屏障。你心里可能嘀咕：传说中的斯巴达，就这儿？直到你把车停在路边一片不起眼的橄榄树林旁，走进去，脚下踩过干枯的橄榄叶，沙沙作响，然后，它就毫无预告地出现在眼前——那个古罗马剧场的遗址。不是那种被栏杆围起来、修剪得整整齐齐的景点，它就那么随意地躺在那儿，巨大的灰色石块半陷在泥土里，石阶缝隙里长出倔强的野花和青草。阳光透过古老橄榄树扭曲的枝干，在斑驳的石座上投下跳跃的光斑。坐下来，安静极了，只有风吹过整片橄榄林，发出海浪般的“簌簌”声。闭上眼睛，你几乎能想象两千年前，这里回荡的是罗马人的戏剧，还是更早之前，斯巴达少年在此聆听先辈的训诫？
+而当你走进镇上的橄榄油博物馆，又是另一番天地。一股清新、略带青涩的橄榄果香扑面而来，混合着老木头和蜂蜡的味道。这里没有冷冰冰的玻璃展柜，取而代之的是古老的石磨、巨大的陶罐、黄铜榨油机的复杂齿轮，它们被柔和的光线照亮，仿佛刚刚停止工作。你会看到当地的老人带着孙子，指着展品轻声讲解，那神情就像在介绍一位老朋友。在这里，斯巴达不再是教科书里冷硬的军事符号，它变成了一种金色的、流动的、滋养生命的液体。最动人的是，你会发现，无论外面的世界如何变迁，这片土地的心跳，始终与橄榄树根系的脉搏同步。这才是斯巴达今日最核心的魅力——它把史诗般的过往，沉淀为日常生活中一抹醇厚而不可或缺的滋味。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子开进伯罗奔尼撒半岛的拉科尼亚平原，和雅典那边的喧嚣热闹完全是两个世界。空气里有种干燥的、尘土混合着野生草药的味道，远处是铁灰色的泰格特斯山脉，像一道沉默的屏障。你心里可能嘀咕：传说中的斯巴达，就这儿？直到你把车停在路边一片不起眼的橄榄树林旁，走进去，脚下踩过干枯的橄榄叶，沙沙作响，然后，它就毫无预告地出现在眼前——那个古罗马剧场的遗址。不是那种被栏杆围起来、修剪得整整齐齐的景点，它就那么随意地躺在那儿，巨大的灰色石块半陷在泥土里，石阶缝隙里长出倔强的野花和青草。阳光透过古老橄榄树扭曲的枝干，在斑驳的石座上投下跳跃的光斑。坐下来，安静极了，只有风吹过整片橄榄林，发出海浪般的“簌簌”声。闭上眼睛，你几乎能想象两千年前，这里回荡的是罗马人的戏剧，还是更早之前，斯巴达少年在此聆听先辈的训诫？" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "而当你走进镇上的橄榄油博物馆，又是另一番天地。一股清新、略带青涩的橄榄果香扑面而来，混合着老木头和蜂蜡的味道。这里没有冷冰冰的玻璃展柜，取而代之的是古老的石磨、巨大的陶罐、黄铜榨油机的复杂齿轮，它们被柔和的光线照亮，仿佛刚刚停止工作。你会看到当地的老人带着孙子，指着展品轻声讲解，那神情就像在介绍一位老朋友。在这里，斯巴达不再是教科书里冷硬的军事符号，它变成了一种金色的、流动的、滋养生命的液体。最动人的是，你会发现，无论外面的世界如何变迁，这片土地的心跳，始终与橄榄树根系的脉搏同步。这才是斯巴达今日最核心的魅力——它把史诗般的过往，沉淀为日常生活中一抹醇厚而不可或缺的滋味。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`斯巴达`} />
+                <InfoRow label="英文名称" value={`Sparta`} />
+                <InfoRow label="正式名称" value={`Sparta`} />
+                <InfoRow label="国家" value={`希腊`} />
+                <InfoRow label="城市" value={`斯巴达镇`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这里是古希腊历史上与雅典双峰并峙的军事霸主，以严苛的纪律、简朴的生活和强大的重装步兵闻名于世。`} />
+                <InfoRow label="建筑特色" value={`现存的古罗马剧院遗址粗犷地半嵌于山丘，与现代橄榄树林奇妙共生；橄榄油博物馆则由一栋经过精心修复的传统建筑改造，内部融合了极简的现代展陈。`} />
+                <InfoRow label="建筑风格" value={`遗址为典型的罗马时期半圆形剧场风格，部分石阶上仍可见希腊式的雕刻痕迹；博物馆建筑则是新古典主义与本地石材建筑的结合。`} />
+                <InfoRow label="文化价值" value={`它不仅是对古希腊“斯巴达精神”的一种考古学追忆，更是理解希腊人与土地、与橄榄树千年共生关系的活态窗口。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古遗址区域全天开放（露天区域）；考古博物馆与橄榄油博物馆开放时间为：夏季（4月-10月）每日上午8:00至晚上8:00；冬季（11月-3月）每日上午8:30至下午3:30。每周二闭馆（若遇公共节假日则顺延）。具体节假日安排建议出行前查阅官网。`} />
+              <InfoRow label="门票价格" value={`考古博物馆门票：6欧元（全价），3欧元（欧盟学生及65岁以上长者优惠）。橄榄油博物馆门票：4欧元（全价），2欧元（学生及长者优惠）。两馆联票：8欧元。18岁以下游客及特定纪念日（如国际博物馆日）可免费入场。现场购票，支持现金与主流信用卡。`} />
+              <InfoRow label="地址" value={`古罗马剧院遗址：Thermopylon, Sparta 231 00, Greece。 橄榄油博物馆：Othonos Amalias 129, Sparta 231 00, Greece。`} />
+              <InfoRow label="交通方式" value={`从雅典国际机场出发，最灵活的方式是租车自驾。取车后驶入E94高速公路，向西南方向前往伯罗奔尼撒半岛，全程约220公里，车程约2.5-3小时，沿途是连绵的橄榄园和丘陵，风光壮丽。若选择公共交通，需先从雅典机场乘地铁或X95巴士到雅典市中心的基菲索斯巴士总站，换乘前往斯巴达镇的长途巴士，班次约每日5-6班，车程约3.5-4小时，建议提前在巴士公司官网查询并预订车票。抵达斯巴达镇后，所有主要景点均可步行到达。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说起斯巴达，大家脑子里蹦出来的肯定是电影里三百勇士肌肉虬结的画面。但它的故事，可比那要复杂、幽深得多。最早在这片拉科尼亚平原上定居的，可不是多利亚人，而是更早的迈锡尼文明。大约在公元前十世纪，一群自称“多利亚人”的强悍部落从北方南下，像楔子一样打入伯罗奔尼撒。他们征服了本地人，把这些原住民变成了没有土地的“希洛人”（黑劳士），专门干农活伺候他们。斯巴达的贵族老爷们，从此就当上了全职军人。这就像给整个社会打上了一个无法卸载的“军事管理”程序。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "这个程序的“总设计师”，传说是一位叫来库古的智者。他搞了一套叫“大瑞特拉”的根本法，把斯巴达变成了一个巨大的、与世隔绝的军营。男孩七岁就得离开家，进入“阿格盖”接受残酷的集体训练，睡芦苇垫，穿单衣，食物匮乏，还被鼓励去偷窃以培养机敏——但若被发现，会遭到毒打，惩罚的是你的笨拙，而非偷窃本身。这种教育的唯一目的，就是锻造出毫无个人情感、绝对服从、视荣誉高于生命的战斗机器。女孩呢，也得接受严格的体育训练，因为斯巴达人相信，只有强壮的母亲才能生下强壮的战士。你在这里找不到雅典那种炫目的神庙、雕塑和哲学辩论，只有简朴到近乎寒酸的生活，和日复一日的操练声。这是一种用极致集体主义碾压一切个人主义的生存实验。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "它的高光时刻，无疑是公元前480年的温泉关战役。国王列奥尼达一世率领三百斯巴达精锐，连同几千希腊盟军，硬是在狭窄的关隘挡住了波斯大帝薛西斯的数十万大军。虽然最终全军覆没，但“异乡的过客，请带话给斯巴达人，说我们踏实地履行了诺言，长眠在这里”这句墓志铭，却把斯巴达的军事荣誉推向了神话的巅峰。然而，荣耀也是诅咒。常年维持对希洛人的高压统治消耗了巨大精力，严酷的制度也扼杀了社会的创造力和弹性。在赢得伯罗奔尼撒战争、短暂成为希腊霸主后，斯巴达迅速僵化、衰落。当马其顿的腓力二世和亚历山大大帝崛起时，斯巴达已经成了一个固守旧日荣光的“活化石”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "罗马人来了之后，对这座“传奇之城”倒是充满好奇。他们保留了斯巴达作为一个自治城市的地位，甚至把它当作一个“复古军事主题旅游点”。我们现在看到的罗马剧场，就是那个时代的产物。罗马总督和游客们坐在石阶上，观看戏剧或竞技，而台下走过的，可能早已不是视死如归的战士，而是普通的罗马行省居民。中世纪以后，斯巴达彻底沉寂，古迹被掩埋，变成农田和橄榄园。直到现代希腊独立，考古学家们的铲子才重新唤醒这片土地的记忆。但有意思的是，今天让斯巴达镇重新焕发生机的，不是武士的幽灵，而是那漫山遍野、流淌着金色油脂的橄榄树。历史在这里，完成了一个从铁血到温润的、出人意料的轮回。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排一整天给斯巴达，节奏宜慢不宜快，因为它的韵味需要沉浸和想象。最好在上午九点左右抵达，这时阳光正好，又不至于太灼热。上午的黄金时间留给户外遗址，在橄榄树的荫蔽下漫步、静坐、感受。中午在镇上找一家传统小馆享用午餐，品尝用本地特级初榨橄榄油烹饪的菜肴。下午则全心投入凉爽而内容丰富的橄榄油博物馆，进行一场关于风土与文明的深度对话。傍晚时分，在镇上随意走走，看看现代斯巴达人如何生活。这样的安排顺应了光线和气温的变化，也符合从宏观历史场景到微观文化内核的认知逻辑。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`遗址区几乎没有遮阴，务必戴帽子和涂防晒霜，并携带足量饮用水。尊重遗址，不要攀爬或刻划古老的石头，这里的管理更依靠游客的自觉。如果想获得更深入的解读，可以提前预约一位持有执照的当地导游，他们往往能讲出很多书本上没有的、关于土地与家族的故事。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨从雅典出发，沿着蜿蜒的公路驶入伯罗奔尼撒，让两旁无尽的橄榄树林为你做好心理铺垫。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在古罗马剧院遗址旁的橄榄树林边，踩着松软的泥土和落叶，第一个走近那半掩于大地中的古老石环。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`选一处最高排的石阶坐下，静静俯瞰整个剧场和远处现代的斯巴达镇，听风声与鸟鸣，试着在脑海中抹去现代建筑。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`步行十分钟到镇中心的考古博物馆，在那些沉默的斯巴达战士雕像、简朴的陶器与刻着律法的石碑前驻足细看。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午餐务必找一家有庭院的老餐馆，点一份淋着厚厚金黄色本地橄榄油的乡村沙拉，用味蕾建立第一重连接。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`走进橄榄油博物馆那栋优雅的石砌建筑，让眼睛和鼻子跟着古老的榨油工具与生动的多媒体解说，完成一次时空旅行。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在博物馆的体验区，亲手触摸不同品种的橄榄果实，甚至品尝不同风味的橄榄油，感受那细微而美妙的差别。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`日暮时分，回到古剧场遗址附近，看夕阳的金色光芒如何将古老的石头和永恒的橄榄树林染成一片温暖的琥珀色。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`古罗马剧场橄榄树林仰角`}</h4>
+                  <p className="text-sm text-gray-700">{`下午四至六点，站在剧场最低处的表演区，用广角镜头向上仰拍，将巨大的弧形石阶、缝隙中的野草与背景婆娑的橄榄树枝一同纳入画面，展现自然与历史的共生。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`博物馆中庭的古老榨油机`}</h4>
+                  <p className="text-sm text-gray-700">{`利用博物馆天窗洒下的自然光（正午前后最佳），聚焦于那些复杂精致的黄铜齿轮与深色木制杠杆，采用较低的视角，拍出它们如同工业雕塑般的质感与岁月包浆。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`剧场遗址与远山全景`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏，从剧场东侧的小径向后走约五十米，找到一个能将整个剧场遗址作为前景、中景是现代斯巴达镇的红色屋顶、远景是巍峨泰格特斯山的机位，构图层次极其丰富。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`橄榄油博物馆的液态黄金时刻`}</h4>
+                  <p className="text-sm text-gray-700">{`在博物馆的品油室，借着一束特意设计的灯光，拍摄一杯特级初榨橄榄油，捕捉它那通透的、从金黄到绿宝石般变化的色泽与质感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`小镇夜灯下的古老石块`}</h4>
+                  <p className="text-sm text-gray-700">{`入夜后，遗址区没有人工照明，但小镇的灯火会提供微光。用三脚架长曝光，拍摄夜色中剧场巨石沉默的剪影，与远处温暖的万家灯火形成冷暖、古今的对比。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`拍摄当地人（如在橄榄园劳作）前，请务必先微笑并征得同意，一个简单的“Signomi？”（希腊语：打扰一下？）和手势就能传递善意。在博物馆内拍照请关闭闪光灯，以免损害古老的有机展品（如木器、油料）。尝试拍摄一些细节：石阶上的蜥蜴、橄榄树叶的光影、老人手上的皱纹与油瓶，这些往往比全景更能讲故事。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`家庭式人情味`}</h4>
+                  <p className="text-sm text-blue-800">{`住在镇中心广场旁由祖宅改造的小旅馆，老板娘会送你一瓶自家果园产的橄榄油当见面礼，早餐在爬满葡萄藤的院子里进行。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`橄榄园农庄体验`}</h4>
+                  <p className="text-sm text-green-800">{`选择镇子外围被家族橄榄园环绕的石屋农庄，清晨在鸡鸣和狗吠中醒来，直接参与或观摩橄榄的采摘与初榨过程（季节性）。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`设计感历史宅邸`}</h4>
+                  <p className="text-sm text-yellow-800">{`下榻一栋经过现代设计师巧妙改造的19世纪商人宅邸，裸露的石墙、古老的横梁与极简的家具对话，浴室备品都是顶级橄榄油制品。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`隐居山景度假屋`}</h4>
+                  <p className="text-sm text-purple-800">{`如果追求静谧，可以驱车十五分钟到泰格特斯山麓的度假屋，拥有无敌的山谷与橄榄园全景私人露台，夜晚星空璀璨如钻石幕布。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "斯巴达镇的旅游住宿规模不大，尤其在橄榄收获季（秋季）和春秋最佳旅游季，热门住所很快订满，建议至少提前两个月规划。大部分特色住宿不位于绝对中心，但小镇本身很小，步行均可抵达核心区，拥有辆车会更方便探索周边更隐秘的村庄与古迹。治安非常好，民风淳朴，夜晚独自散步也很安心。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开斯巴达的时候，我车子的后备箱里多了几瓶用旧报纸仔细包好的橄榄油。它们不是纪念品，而是这片土地的血脉。回望渐渐远去的橄榄树林和沉默的山脉，我突然觉得，我们或许一直都误解了斯巴达。它最强大的遗产，可能不是那套严酷到不近人情的军事制度——那早已被历史尘封。而是某种更深层、更坚韧的东西：一种对自身土地极度专注的忠诚，一种将简单事物做到极致的执着。过去，他们把这种执着用于锻造战士；今天，他们把同样的执着，倾注给了橄榄树。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求快速、浮华和多变的时代，斯巴达提供了一种反向的思考。它告诉你，真正的力量可以来源于沉默，来源于深根于土壤，来源于把一件事做上一千年。当你坐在罗马剧场的废墟上，指尖触摸的是粗糙温润的石头，鼻尖萦绕的是橄榄叶的清香，你会感到一种奇特的平静。历史的风暴刮过，帝国的雄心崩塌，但橄榄树年年结果，人们依然小心翼翼地榨取着那金色的汁液，用面包蘸着它，喂养新一代的孩子。这种连接，比任何英雄传说都更持久，更温暖，也更贴近生命的本质。所以，来斯巴达吧，不是为了寻找那三百个幽灵，而是为了在橄榄树的荫凉下，重新学会感受土地的脉搏，品尝时间酿造出的、最质朴的芬芳。这是一堂关于深度、关于根基的，无声的课。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/mycenae-history" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    迈
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">迈锡尼</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Mycenae</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/epidaurus-theatre" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    埃
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">埃皮达鲁斯古剧场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Epidaurus Theatre</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/ioannina" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    约
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">约阿尼纳老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Ioannina</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

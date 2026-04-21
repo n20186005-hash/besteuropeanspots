@@ -1,0 +1,242 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '托尔纳克 Tornac｜隐秘于法国南部塞文山脉的千年古村与城堡废墟，独占俯瞰无垠葡萄园的绝美视角 - 最佳欧洲景点',
+  description: '说实话，如果你只是开车呼啸而过，很可能错过托尔纳克。它没有显眼的路标，没有喧嚣的旅游大巴，它就那样安静地蹲伏在一座石灰岩山丘上，像一只打盹的老猫，背对着繁华的安杜兹镇。我的第一眼印象，是纯粹的颜色碰撞：脚下是塞文山脉特有的、深红色与赭石色交织的肥沃土地，上面铺陈着整齐得像绿色天鹅绒般的葡萄园梯田；而',
+}
+
+export default function TornacVillageAndCastleRuinsPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '法国', href: '/destinations/france' },
+            { label: '靠近安杜兹（Anduze），加尔省', href: '/destinations/france' },
+            { label: '托尔纳克', href: '/attractions/tornac-village-and-castle-ruins' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`托尔纳克・Tornac・法国・靠近安杜兹（Anduze），加尔省`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`说实话，如果你只是开车呼啸而过，很可能错过托尔纳克。它没有显眼的路标，没有喧嚣的旅游大巴，它就那样安静地蹲伏在一座石灰岩山丘上，像一只打盹的老猫，背对着繁华的安杜兹镇。我的第一眼印象，是纯粹的颜色碰撞：脚下是塞文山脉特有的、深红色与赭石色交织的肥沃土地，上面铺陈着整齐得像绿色天鹅绒般的葡萄园梯田；而视线往上，那座村庄和它头顶的城堡废墟，则是与山体融为一体的、被阳光晒得发白的金黄。空气里有股热烘烘的甜香，是成熟葡萄、干燥的薰衣草秸秆和被烈日炙烤过的迷迭香混合的味道，风过时，带来远处山间清脆的蝉鸣，却让周遭显得更加寂静。
+把车停在村口几棵巨大的悬铃木下，走进托尔纳克的感觉，不像参观景点，更像是不小心闯入了某位老祖母依然在使用的、整洁而略显杂乱的后院。鹅卵石铺成的小路被岁月磨得光滑如镜，反射着午后斑驳的光点。路边的石屋低矮，门窗漆成褪色的蓝或绿，窗台上摆着天竺葵，红得扎眼。你几乎听不到人声，只有自己脚步声的回响，偶尔有一扇木门“吱呀”一声打开，一位系着围裙的老太太探出身来倒掉一盆洗碗水，对你点头微笑，然后又消失在门后的阴凉里。时间在这里不是金钱，是门口藤椅上慢慢移动的阳光，是咖啡馆外那只永远在睡觉的虎斑猫肚皮的起伏。这里住着的，是真正守护着这片土地和祖先记忆的人。
+但托尔纳克的灵魂，无疑在山顶。沿着村子背后那条被山羊踩出的小径往上爬，大约二十分钟，喘着气拨开最后一片荆棘，那片废墟便毫无预警地矗立在眼前。没有恢弘的大门，没有修复一新的城墙，只有断裂的墙垣、倾颓的拱门和一座依然倔强指向天空的方形主塔。石头是温热的，摸上去粗糙而踏实。当你小心翼翼地穿过一个仅容一人通过的缺口，站到城堡曾经的“心脏”位置时，那个视野——我敢说，这是整个加尔省最慷慨的礼物。三百六十度，毫无遮挡，仿佛站在世界的中心。塞文山脉温柔的曲线向天际蔓延，无数的葡萄园、橄榄园、栗子林像一块巨大的、色彩斑斓的拼布毯，一直铺到目力所及的最远处。风在这里变得猛烈而纯净，呼啸着穿过每一个石缝，发出呜咽般的回响，那是数百年的故事在低语。这一刻，辉煌与败落、人类的力量与自然的永恒，同时击中你，让你哑口无言。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "说实话，如果你只是开车呼啸而过，很可能错过托尔纳克。它没有显眼的路标，没有喧嚣的旅游大巴，它就那样安静地蹲伏在一座石灰岩山丘上，像一只打盹的老猫，背对着繁华的安杜兹镇。我的第一眼印象，是纯粹的颜色碰撞：脚下是塞文山脉特有的、深红色与赭石色交织的肥沃土地，上面铺陈着整齐得像绿色天鹅绒般的葡萄园梯田；而视线往上，那座村庄和它头顶的城堡废墟，则是与山体融为一体的、被阳光晒得发白的金黄。空气里有股热烘烘的甜香，是成熟葡萄、干燥的薰衣草秸秆和被烈日炙烤过的迷迭香混合的味道，风过时，带来远处山间清脆的蝉鸣，却让周遭显得更加寂静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "把车停在村口几棵巨大的悬铃木下，走进托尔纳克的感觉，不像参观景点，更像是不小心闯入了某位老祖母依然在使用的、整洁而略显杂乱的后院。鹅卵石铺成的小路被岁月磨得光滑如镜，反射着午后斑驳的光点。路边的石屋低矮，门窗漆成褪色的蓝或绿，窗台上摆着天竺葵，红得扎眼。你几乎听不到人声，只有自己脚步声的回响，偶尔有一扇木门“吱呀”一声打开，一位系着围裙的老太太探出身来倒掉一盆洗碗水，对你点头微笑，然后又消失在门后的阴凉里。时间在这里不是金钱，是门口藤椅上慢慢移动的阳光，是咖啡馆外那只永远在睡觉的虎斑猫肚皮的起伏。这里住着的，是真正守护着这片土地和祖先记忆的人。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "但托尔纳克的灵魂，无疑在山顶。沿着村子背后那条被山羊踩出的小径往上爬，大约二十分钟，喘着气拨开最后一片荆棘，那片废墟便毫无预警地矗立在眼前。没有恢弘的大门，没有修复一新的城墙，只有断裂的墙垣、倾颓的拱门和一座依然倔强指向天空的方形主塔。石头是温热的，摸上去粗糙而踏实。当你小心翼翼地穿过一个仅容一人通过的缺口，站到城堡曾经的“心脏”位置时，那个视野——我敢说，这是整个加尔省最慷慨的礼物。三百六十度，毫无遮挡，仿佛站在世界的中心。塞文山脉温柔的曲线向天际蔓延，无数的葡萄园、橄榄园、栗子林像一块巨大的、色彩斑斓的拼布毯，一直铺到目力所及的最远处。风在这里变得猛烈而纯净，呼啸着穿过每一个石缝，发出呜咽般的回响，那是数百年的故事在低语。这一刻，辉煌与败落、人类的力量与自然的永恒，同时击中你，让你哑口无言。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`托尔纳克`} />
+                <InfoRow label="英文名称" value={`Tornac`} />
+                <InfoRow label="正式名称" value={`Tornac`} />
+                <InfoRow label="国家" value={`法国`} />
+                <InfoRow label="城市" value={`靠近安杜兹（Anduze），加尔省`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`这座耸立于石灰岩山丘上的城堡，曾是中世纪监视加尔河谷与塞文山脉之间战略通道的关键边境哨所，见证了法国南部复杂的领主纷争与宗教战争史。`} />
+                <InfoRow label="建筑特色" value={`残存的罗曼式主塔与城墙深深嵌入山岩之中，废墟的轮廓与嶙峋的岩石和顽强生长的地中海灌木已难分彼此，形成一种震撼而苍凉的自然雕塑感。`} />
+                <InfoRow label="建筑风格" value={`以朴素的罗曼风格为主，兼具军事防御建筑的实用特征，就地取材的石灰岩呈现出与土地完全一致的暖黄色。`} />
+                <InfoRow label="文化价值" value={`它不仅是石头写就的历史书，更是当地社区记忆的地理坐标，一个被葡萄园环绕的静谧精神地标，象征着人类痕迹最终归于自然与和平的永恒诗篇。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`古村落公共区域全天开放。山顶城堡废墟区域理论上24小时可抵达，但出于安全考虑，强烈建议仅在日出至日落间游览。村落内的小型历史展览点（如有）开放时间不定，通常在夏季周末的上午十点至下午四点可能开放。`} />
+              <InfoRow label="门票价格" value={`完全免费。这是一个开放的、与自然和生活融为一体的历史遗迹，无需任何门票。如果遇到当地文化协会组织的导览活动，可能需要自愿捐赠几欧元以示支持。`} />
+              <InfoRow label="地址" value={`Le Village, 30140 Tornac, France`} />
+              <InfoRow label="交通方式" value={`从最近的尼姆机场或蒙彼利埃机场出发，最推荐的方式是自驾，这是探索塞文山区的灵魂所在。租车后，设置导航至“Tornac”，从尼姆出发约1小时车程，沿途已是绵延的丘陵与葡萄园美景。若乘坐公共交通，需先乘火车至尼姆或阿莱斯，再转乘前往安杜兹（Anduze）的巴士。从安杜兹镇中心出发，前往托尔纳克就没有常规公交了，可以呼叫当地的出租车（需提前预约），或者，如果你体力充沛，这正是一段约5公里、风光绝佳的徒步路线的开始，穿过花园和橄榄树林，步行约1.5小时即可抵达山脚下的村落。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要听懂托尔纳克的低语，你得把时钟拨回到一千年前。这片山丘可能更早就有凯尔特人或罗马人的踪迹，但真正赋予它形状和名字的，是中世纪那些躁动不安的岁月。大约在11世纪，为了控制从地中海沿岸通往塞文山内陆的重要商路，也为了防范来自四面八方的劫掠，某个强大的领主家族决定在这里，在这座易守难攻的山头上，用当地开采的石灰岩，垒起一座坚固的堡垒。最初的托尔纳克城堡，与其说是宫殿，不如说是一个戒备森严的鹰巢，它的首要任务是生存和瞭望。领主、他的武士、以及依赖城堡庇护的农民，构成了一个微缩的封建社会模型。从这里的垛口望出去，目之所及的土地、葡萄园和子民，都是他的财产。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "城堡的命运与法国南部波澜壮阔又血腥的宗教冲突紧紧缠绕。当13世纪初教皇发动讨伐卡特里派（清洁派）的阿尔比十字军时，整个朗格多克地区陷入火海。托尔纳克作为当地领主的要塞，很可能被迫卷入了站队的漩涡，见证了信仰如何成为战争的借口，以及战争如何将石头堡垒和血肉之躯一同碾碎。然而，更大的风暴还在后面。到了16至17世纪的法国宗教战争时期，加尔省所在的塞文山区成为胡格诺派（法国新教徒）的重要根据地。我们可以想象，这座城堡或许曾在新教领主手中加固，成为对抗天主教国王军队的一个据点。那些增厚的墙壁、隐秘的射击孔，可能就源于那个充满猜忌和恐惧的时代。每一场围城、每一次易主，都在石头上添加新的伤痕和故事。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "历史的讽刺在于，当和平终于降临，政治中心转移，这种偏僻的山顶堡垒便迅速失去了军事价值。大约在17世纪末或18世纪，领主家族可能搬到了更舒适、更便于社交的平原庄园。托尔纳克城堡被逐渐废弃，不再是权力的象征，而变成了牧羊人躲避风雨的处所，或是孩子们冒险的乐园。风霜雨雪取代了刀剑火炮，成为它新的敌人。石缝里长出了倔强的刺山柑和紫堇，雨水年复一年地冲刷着灰浆，最终，部分城墙和塔楼在某个暴风雨之夜或是一次轻微的地震中轰然倒塌，回归为山体的一部分。它从一个人为的造物，缓慢而不可逆转地，变回了一个“自然景观”。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，故事并未终结。时间来到近现代，当战争的阴云再次笼罩欧洲，这片废墟或许又默默承担了新的角色。在二战期间，崎岖的塞文山脉是法国抵抗运动的重要活跃区。像托尔纳克城堡这样人迹罕至、视野极佳的废墟，极有可能成为抵抗军成员绝佳的临时藏身处或观察哨。我们无从考证确切的史实，但完全可以想象，在一个月色朦胧的夜晚，曾有年轻的抵抗战士蜷缩在这些冰冷的石头后面，利用祖先建造的堡垒，为了一个崭新的自由理念而战斗。历史在这里完成了一个循环，从封建割据的堡垒，到追求信仰自由的堡垒，最终成为了捍卫国家自由的、沉默的庇护所。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天，托尔纳克城堡的“所有权”早已移交给了时间、风和常春藤。它没有被大规模开发，没有炫目的声光秀，这或许正是它最珍贵的地方。当地社区和政府明智地选择了“保护性忽视”，只进行最必要的加固以防止危险，其余的都交给自然。它不再属于任何一个领主或国家，它属于每一个爬上来的旅人，属于山下那一片在阳光下闪耀的葡萄园，属于这片土地本身漫长呼吸中的一个悠长停顿。它的历史，就是一部关于权力兴起与衰落、冲突与和解、最终人与自然重归于好的石头史诗。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要完美体验托尔纳克，我强烈建议你安排一个完整的下午和黄昏。大约在午后三点左右抵达，这时村落刚从午憩中苏醒，阳光开始变得温柔。整个游览节奏应是“先抑后扬”：先用舒缓的步伐沉浸于山下村落的静谧日常，积蓄情感；然后在傍晚前开始攀登，将体力消耗与最壮丽的风景奖励——日落——完美结合。整体耗时大约4-5小时，其中村落漫步1小时，爬山与废墟探索1.5-2小时，留足时间在山顶发呆和等待日落。这样的安排既能避开正午的酷热，又能捕捉到一天中光线最魔幻的时刻，看着葡萄园从翠绿变成金绿，最后融化成一片温暖的紫灰色。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`务必穿一双结实防滑的徒步鞋或运动鞋，上山小径多碎石且干燥易滑。夏季一定要带足饮用水，山上毫无遮荫且无任何补给点。在废墟中探索时请务必注意脚下安全，远离松动的边缘，这是真正的废墟，没有任何安全护栏。尊重当地居民的隐私，拍照时尽量避免直接对准民居的门窗和人。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`把车停在村口悬铃木的浓荫下，先别急着走，回头望一眼来路和远处安杜兹镇的轮廓`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着主路“Grand Rue”慢慢向上溜达，故意迷失在那些岔开去的、窄得只容一人通过的小巷里，伸手触摸两边沁凉的石墙`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要找到村中心的小广场，坐在那棵老梧桐树下，观察本地老人玩滚球游戏，听听那清脆的金属撞击声和含糊的方言交谈`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`去村口那家唯一的咖啡馆“Le Tornac”点一杯薄荷茶或本地葡萄酒，就坐在室外，看阳光把对面石屋的墙壁晒成蜜糖色`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`从咖啡馆后面找到那条有明显踩踏痕迹的土路，这就是通往城堡废墟的登山小径的起点了`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着之字形小径向上，途中记得在几个拐弯处停下回头，俯瞰脚下村落变得越来越像玩具模型`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`当你终于抵达废墟的残破拱门下，深吸一口气，然后弯腰穿过，进入那个被天空填满的、空旷的核心区域`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`不要只停留在主塔下，沿着残墙的边缘小心行走，从东、西、南、北各个方向，收获完全不同气质的全景画卷`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`葡萄园仰拍全景`}</h4>
+                  <p className="text-sm text-gray-700">{`下午稍早时分，从村落西南方向的D907公路旁某处停车，可以拍到城堡废墟雄踞于金色山丘、被层层叠叠葡萄园环绕的经典明信片角度`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`村落石板路纵深`}</h4>
+                  <p className="text-sm text-gray-700">{`傍晚时分，阳光斜射进“Grand Rue”，站在路中间低机位拍摄，利用鹅卵石路面的反光和老墙的纹理，营造出深邃的时光隧道感`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`废墟拱门框架构图`}</h4>
+                  <p className="text-sm text-gray-700">{`站在城堡内部，透过某个保存尚好的石拱门或窗框向外拍摄，将远方无尽的葡萄园和山脉收纳进这个天然的“画框”里`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`日落人像剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`在太阳即将落入群山的那一刻，请同伴站在废墟西侧边缘，拍摄其面对落日和茫茫原野的剪影，人物与巨大的风景形成强烈的情感对比`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`细节之眼`}</h4>
+                  <p className="text-sm text-gray-700">{`聚焦于废墟本身，比如一丛从石缝中怒放的野花、一道深深留在石头上的古老刻痕、或是阳光下不同质感墙面的冷暖色调对比`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`建议携带一支广角镜头来捕捉震撼的全景，同时一支中长焦镜头可以帮助你压缩空间，拍出葡萄园富有韵律的线条。日落前后光线变化极快，是黄金拍摄时间，建议使用三脚架以保证画质。尽量避免在正午顶光时拍摄，缺乏层次。请务必尊重环境，不要为了拍照而攀爬危险墙体或踩踏葡萄园。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`隐居村落`}</h4>
+                  <p className="text-sm text-blue-800">{`预订村里仅有的几间由古老石屋改造的民宿，例如“La Maison du Vigneron”，晚上能听到最纯粹的寂静，清晨在公鸡打鸣和面包香气中醒来`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`安杜兹基地`}</h4>
+                  <p className="text-sm text-green-800">{`住在三公里外更热闹的安杜兹镇，选择一家有庭院的老宅酒店，如“Hotel de l’Esplanade”，方便享受餐厅和商店，同时轻松往返托尔纳克`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`葡萄园农庄`}</h4>
+                  <p className="text-sm text-yellow-800">{`在托尔纳克山脚下的葡萄园中，寻找一家提供住宿的家族酒庄，体验真正的“酒农生活”，晚餐品尝庄园自产的葡萄酒和本地菜肴`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`高端隐居`}</h4>
+                  <p className="text-sm text-purple-800">{`驱车20分钟，入住位于塞文山国家公园边缘的五星级庄园酒店“Château de Lancyre”，享受泳池、水疗和米其林指南推荐的餐厅，将山野静谧与奢华完美结合`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "托尔纳克村内住宿极为有限，必须提前数月预订。更实际的选择是住在安杜兹，选择更多，且餐饮购物方便。夏季和初秋葡萄收获季是旺季，务必提前规划。该地区治安非常好，民风淳朴，可以安心散步。选择住宿时，留意是否提供停车场，这对自驾游客至关重要。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开托尔纳克很久以后，我脑海里最清晰的，不是那片壮观的俯瞰风景，而是一种感觉。一种双脚踩在温热粗糙的石灰岩上，手扶着被千年风吹雨打磨平的石块，耳边只有风声和自己的呼吸声的感觉。在这个人人追逐“完整”、“崭新”和“网红同款”的时代，托尔纳克却坦然展示着自己的残破与寂静。它不试图讨好你，不提供便利的缆车和闪亮的纪念品店，它只是在那里，像一个历经沧桑却沉默寡言的长者。你需要付出一点汗水，怀揣一点敬畏，才能走到他面前，获得那份直击心灵的馈赠。这种“不轻易得到”的特质，恰恰是深度旅行中最珍贵的部分。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个快得让人眩晕的世界里，托尔纳克教会我“慢”与“空”的价值。它提醒我们，历史并非总是陈列在玻璃柜里的精美文物，更多时候，它是风中的低语，是石头上的裂痕，是与野花共存的废墟。它告诉我们，真正的永恒，或许不是永不倒塌的建筑，而是一种精神地标，一种人与自然共同写就的、关于存在与消逝的哲学。所以，如果你厌倦了人潮汹涌的景点，渴望一次真正与自己、与历史、与大地对话的旅行，请来托尔纳克。坐在那片废墟上，看一次日落，你会带走的不只是照片，而是一片内心的、广阔的宁静，和一份对时间更深的理解。这，正是我们穿越千山万水，真正要寻找的东西。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/place-vendome-paris" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    旺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">旺多姆广场</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Place Vendôme</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/chateau-de-montsegur" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    蒙
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">蒙塞居尔城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Château de Montségur</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/nohant-vic-sand-estate" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    诺
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">诺昂维克</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Nohant-Vic</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

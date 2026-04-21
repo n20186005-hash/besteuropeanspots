@@ -1,0 +1,243 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '波格拉德茨 Pogradec｜奥赫里德湖的蓝眼泪，时光停驻的阿尔巴尼亚湖畔诗篇 - 最佳欧洲景点',
+  description: '车子沿着山路盘旋而下，奥赫里德湖就像一块突然被展开的、巨大无比的蓝丝绒，毫无征兆地铺满了整个视野。那种蓝不是单一的，近岸处是透明的、带着水草绿的翡翠色，越往湖心去，就变成了深沉而神秘的钴蓝，在正午的阳光下闪烁着细碎的钻石光芒。这就是我对波格拉德茨的第一眼印象——一片被群山温柔环抱的、静止的梦境。 空',
+}
+
+export default function PogradecAlbaniaOhridLakePage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '阿尔巴尼亚', href: '/destinations/europe' },
+            { label: '波格拉德茨', href: '/destinations/europe' },
+            { label: '波格拉德茨', href: '/attractions/pogradec-albania-ohrid-lake' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`波格拉德茨・Pogradec・阿尔巴尼亚・波格拉德茨`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子沿着山路盘旋而下，奥赫里德湖就像一块突然被展开的、巨大无比的蓝丝绒，毫无征兆地铺满了整个视野。那种蓝不是单一的，近岸处是透明的、带着水草绿的翡翠色，越往湖心去，就变成了深沉而神秘的钴蓝，在正午的阳光下闪烁着细碎的钻石光芒。这就是我对波格拉德茨的第一眼印象——一片被群山温柔环抱的、静止的梦境。
+空气中弥漫着湖水特有的、清冽又略带腥甜的气息，混合着岸边烧烤摊上飘来的、炭火炙烤湖鱼的焦香。声音是层次分明的：远处摩托艇划过水面的嗡嗡声是背景音，近处波浪轻轻拍打卵石滩的哗哗声是主旋律，间或夹杂着咖啡馆里瓷器碰撞的清脆响声，和当地人用阿尔巴尼亚语缓慢聊天的、如同歌唱般的语调。你立刻就能感觉到，湖，是这里绝对的主角。它不是风景明信片上的一个背景，而是小镇跳动的心脏，是所有人生活的中心。清晨，你会看到老人在湖畔长椅上静坐，一坐就是几个小时，目光随着水波荡漾；午后，整个小镇似乎都沉浸在一种慵懒的午睡氛围里，只有孩子们扑通扑通往清澈见底的湖水里跳的嬉笑声，打破这片宁静。
+最打动人的，是那种未被旅游热潮完全侵蚀的质朴感。这里没有炫目的纪念品商店，没有嘈杂的旅行团。湖滨大道上，当地人骑着老式自行车慢悠悠地经过，车篮里装着刚买的面包。妇女们三三两两坐在门前的台阶上，一边飞快地编织，一边闲话家常。时间在这里仿佛被湖水浸泡过，流动得格外缓慢。你能触摸到的，是一种与自然紧密相依的、扎实的日常生活。这种“生活感”，远比任何宏伟的建筑都更具魅力，它让你不由自主地放慢脚步，深呼吸，想把这份宁静也吸纳进自己的身体里。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子沿着山路盘旋而下，奥赫里德湖就像一块突然被展开的、巨大无比的蓝丝绒，毫无征兆地铺满了整个视野。那种蓝不是单一的，近岸处是透明的、带着水草绿的翡翠色，越往湖心去，就变成了深沉而神秘的钴蓝，在正午的阳光下闪烁着细碎的钻石光芒。这就是我对波格拉德茨的第一眼印象——一片被群山温柔环抱的、静止的梦境。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "空气中弥漫着湖水特有的、清冽又略带腥甜的气息，混合着岸边烧烤摊上飘来的、炭火炙烤湖鱼的焦香。声音是层次分明的：远处摩托艇划过水面的嗡嗡声是背景音，近处波浪轻轻拍打卵石滩的哗哗声是主旋律，间或夹杂着咖啡馆里瓷器碰撞的清脆响声，和当地人用阿尔巴尼亚语缓慢聊天的、如同歌唱般的语调。你立刻就能感觉到，湖，是这里绝对的主角。它不是风景明信片上的一个背景，而是小镇跳动的心脏，是所有人生活的中心。清晨，你会看到老人在湖畔长椅上静坐，一坐就是几个小时，目光随着水波荡漾；午后，整个小镇似乎都沉浸在一种慵懒的午睡氛围里，只有孩子们扑通扑通往清澈见底的湖水里跳的嬉笑声，打破这片宁静。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "最打动人的，是那种未被旅游热潮完全侵蚀的质朴感。这里没有炫目的纪念品商店，没有嘈杂的旅行团。湖滨大道上，当地人骑着老式自行车慢悠悠地经过，车篮里装着刚买的面包。妇女们三三两两坐在门前的台阶上，一边飞快地编织，一边闲话家常。时间在这里仿佛被湖水浸泡过，流动得格外缓慢。你能触摸到的，是一种与自然紧密相依的、扎实的日常生活。这种“生活感”，远比任何宏伟的建筑都更具魅力，它让你不由自主地放慢脚步，深呼吸，想把这份宁静也吸纳进自己的身体里。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`波格拉德茨`} />
+                <InfoRow label="英文名称" value={`Pogradec`} />
+                <InfoRow label="正式名称" value={`Pogradec`} />
+                <InfoRow label="国家" value={`阿尔巴尼亚`} />
+                <InfoRow label="城市" value={`波格拉德茨`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`奥赫里德湖畔最古老的定居点之一，见证了伊利里亚、罗马、拜占庭、奥斯曼及现代阿尔巴尼亚文化的层层沉积。`} />
+                <InfoRow label="建筑特色" value={`湖畔散落着奥斯曼晚期和意大利统治时期风格的朴素建筑，与宏伟的自然湖光山色形成谦逊而动人的对比。`} />
+                <InfoRow label="建筑风格" value={`混合了地中海风情、阿尔巴尼亚传统石屋与20世纪中叶社会主义时期实用主义建筑的湖畔城镇风貌。`} />
+                <InfoRow label="文化价值" value={`这里是阿尔巴尼亚著名诗人米哈尔·格拉梅诺（Mihal Grameno）的故乡，其宁静的湖光山色滋养了独特的抒情文学与慢生活哲学。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`波格拉德茨作为开放城镇，全天可游览。其核心景点德里隆泉水公园（Drilon Springs）的开放时间一般为每日上午8点至日落（夏季约至晚上8点，冬季至下午5点）。公园可能在极端天气或私人活动时临时关闭，建议行前在本地旅游信息中心确认。湖畔的众多餐厅、咖啡馆营业时间灵活，大多从清晨持续至深夜。`} />
+              <InfoRow label="门票价格" value={`进入波格拉德茨城镇免费。德里隆泉水公园象征性收取维护费，约200阿尔巴尼亚列克（约合1.5欧元）。儿童、学生及本地居民通常享有折扣。湖畔公共沙滩区域免费，部分私营沙滩俱乐部或躺椅区域会收取少量费用（约2-5欧元）。`} />
+              <InfoRow label="地址" value={`Pogradec, Korçë County, Albania`} />
+              <InfoRow label="交通方式" value={`最近的主要机场是地拉那国际机场（TIA）。从地拉那出发，最便捷的方式是乘坐长途巴士，车程约3-3.5小时，沿途欣赏阿尔巴尼亚乡村风光，班次每天约有4-6班，建议在地拉那巴士总站提前购票。若从北马其顿的奥赫里德市（Ohrid）过来，交通更为便利，可乘坐跨境小巴或出租车，仅需30-40分钟即可抵达波格拉德茨，体验“一湖两国”的奇妙。城内步行即可轻松探索，租一辆自行车环湖是最受欢迎的本地方式。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "波格拉德茨的故事，深深镌刻在奥赫里德湖百万年的水波之下。早在公元前，伊利里亚人就在这片丰饶的湖畔建立了定居点，他们驾驭着独特的“Plava”平底渔船在湖上捕鱼，这种船的形状几千年都未曾改变，至今你还能在清晨的薄雾中看到它的身影。罗马人的到来带来了道路和秩序，湖区的战略地位使其繁荣，湖中盛产的“奥赫里德鳟鱼”成为罗马贵族餐桌上的珍馐。随后，拜占庭的教堂钟声曾在湖畔响起，留下了最早的基督教印记。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "时间的车轮碾过中世纪，奥斯曼帝国的统治为小镇留下了更深的烙印。数百年间，伊斯兰文化与原有的基督教传统在此交融。你能在老城区那些略显斑驳的建筑上看到奥斯曼风格的木制凸窗，也能在本地人的姓氏和词汇中找到土耳其语的痕迹。湖畔的生活以渔耕为主，形成了一个自给自足、相对封闭而平和的社区。十九世纪民族觉醒的浪潮中，这里成为了阿尔巴尼亚文艺复兴（Rilindja）的重要文化中心之一，本土语言和文化在湖光的映照下被精心保存和培育。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "二十世纪的风云变幻，给这个宁静小镇带来了最剧烈的动荡。从奥斯曼帝国脱离，到短暂的独立，再到二战期间的占领，波格拉德茨和整个国家一样历尽沧桑。冷战时期，阿尔巴尼亚的封闭政策使得奥赫里德湖成为一道“蓝色国界”，波格拉德茨与对岸北马其顿的奥赫里德市虽隔湖相望，却往来断绝。那段岁月里，湖水映照的不仅是山色，更是乡愁与分离。小镇的发展几乎停滞，时间仿佛被冻结，这也意外地保存了它那份与世无争的原始风貌。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "直到上世纪九十年代，铁幕落下，国门重启。波格拉德茨才缓缓从长梦中苏醒。道路重新连接，对岸的灯火再次成为可触及的风景。它没有急于将自己包装成热闹的旅游胜地，而是以一种阿尔巴尼亚人特有的、略带笨拙的真诚，慢慢向世界展露它的容颜。今天的波格拉德茨，像一位历经世事却依旧眼神清澈的老人，它的每道皱纹里都藏着故事——伊利里亚的渔歌、奥斯曼的斜阳、冷战的风声，最终都化为了湖畔一声悠长的叹息，融进了那亘古不变的、温柔的蓝色里。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`要真正品味波格拉德茨，你需要一整天，并将节奏完全调至“湖滨模式”。建议在日出前抵达，亲眼见证湖面从青灰色染成金红色的魔幻时刻。上午专注于探索小镇的人文脉络与核心景观，午后则将时间完全交给湖畔的慵懒和附近的自然奇观德里隆泉。傍晚是神圣的，必须留给日落。整体节奏应是松散的，预留大量时间用于发呆、喝咖啡和把脚浸在清凉的湖水里。这才是解锁这座小城灵魂的正确方式。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`夏季正午湖滨阳光非常强烈，务必携带防晒霜、帽子和墨镜，并多补充水分。
+寻找餐馆时，避开那些有英语“强力推荐”招牌的，直接看里面坐着最多本地人的那一家，通常味道和价格都最地道。
+尊重当地习俗，在公共沙滩以外的区域，尤其是居民区附近，避免穿着过于暴露的泳装。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在破晓前悄声走到城市码头，看晨曦如何像一支金色的画笔，慢慢勾勒出对岸加拉西察山脉（Galičica）的轮廓，并点燃第一批出湖的“Plava”渔船的剪影`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`沿着湖滨步行道“Shëtitorja”向北慢行，感受小镇在晨光中苏醒的节奏，看当地人在露天健身房锻炼，在长椅上看报`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`钻进老城区迷宫般的狭窄小巷，用手指触摸那些混合了石头、灰泥和岁月痕迹的墙面，寻找偶尔出现的奥斯曼时期建筑细节`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在临湖的任意一家家庭餐馆坐下，点一份用湖水和简单香料烹煮的奥赫里德鳟鱼，让味蕾直接连接这片湖泊的馈赠`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后租一辆自行车或搭乘短途出租车，前往小镇南郊被垂柳和天鹅统治的童话世界——德里隆泉水公园`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在公园如镜的水面上租一条手划船，穿过垂柳形成的绿色拱门，探寻泉水从山脚岩缝中汩汩涌出的源头`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在日落前一小时返回主湖滨区，找一个无人的卵石滩坐下，静静等待太阳像一颗巨大的咸蛋黄，缓缓沉入马其顿那边的山峦背后`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`当深蓝色的夜幕降临，加入当地人散步（xhiro）的洪流，在星空和湖畔路灯的交织光影下，结束完美的一天`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`城市码头日出机位`}</h4>
+                  <p className="text-sm text-gray-700">{`在日出前半小时占据码头延伸入湖的位置，使用广角镜头，将古老的木制渔船作为前景，对焦远山，能拍出层次感极强的晨曦画卷。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`老城屋顶俯瞰视角`}</h4>
+                  <p className="text-sm text-gray-700">{`找到镇上地势较高的民宿或咖啡馆露台，在下午侧光时分拍摄，让暖黄色的老房子屋顶层层叠叠，最终融入一片无边无际的蓝色湖面。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`德里隆泉水公园倒影`}</h4>
+                  <p className="text-sm text-gray-700">{`清晨或黄昏无风时，在公园最大的水池边蹲下，将相机贴近水面，拍摄垂柳、古典亭台和天鹅在水中形成的完美、静谧的倒影。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`湖滨步行道人文抓拍`}</h4>
+                  <p className="text-sm text-gray-700">{`日落后的“xhiro”时间，使用长焦镜头在步道旁守候，捕捉阿尔巴尼亚家庭三代同堂散步、情侣依偎、朋友畅谈的温暖生活瞬间。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`卵石滩细节纹理`}</h4>
+                  <p className="text-sm text-gray-700">{`找一个阳光强烈的午后，将镜头对准脚下被湖水冲刷得光滑圆润、色彩各异的卵石，以湖面波光为背景，拍出富有抽象艺术感的微距照片。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`湖面反光强烈，建议携带偏振镜（CPL）来消除反光，让湖水的颜色更加深邃饱和。拍摄当地人，尤其是长者或渔民时，一个友好的微笑和简单的手势征得同意，会让他们露出更自然的表情。无人机飞行在阿尔巴尼亚法规相对宽松，但在湖区飞行需特别注意避开鸟类栖息地和私人住宅区域。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`湖景阳台民宿`}</h4>
+                  <p className="text-sm text-blue-800">{`选择一间位于老城、拥有朝西小阳台的本地家庭民宿，老板会为你准备丰盛的阿尔巴尼亚式早餐，傍晚就坐在自家阳台上独享一场私人日落盛宴。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`静谧花园旅馆`}</h4>
+                  <p className="text-sm text-green-800">{`住在稍离主湖岸、被果树和花园包围的宁静石屋旅馆，夜晚只能听到虫鸣蛙声，清晨在花园里享用新鲜无花果和自制酸奶，体验湖畔的田园诗意。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`精品设计酒店`}</h4>
+                  <p className="text-sm text-yellow-800">{`选择镇上为数不多的、由旧建筑改造的精品酒店，设计融合了阿尔巴尼亚传统元素与现代简约风，屋顶露台酒吧是夜晚小酌观星的绝佳地点。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`湖畔度假村`}</h4>
+                  <p className="text-sm text-purple-800">{`对于追求舒适度假感的旅客，可以选择小镇南端设施齐全的湖畔度假村，拥有私人沙滩、泳池和码头，适合家庭出行，将湖光山色与便利完美结合。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "夏季（6-8月）是旺季，虽然不如其他欧洲热点拥挤，但心仪的民宿仍需提前数周预订。住在老城区域更能感受本地氛围，但停车可能稍困难；选择南端度假村区域则更安静、设施全，但前往老城需步行或打车。无论住在哪里，请准备好接受阿尔巴尼亚特有的、偶尔的热水供应不稳定情况，把这当作体验的一部分。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开波格拉德茨很久以后，闭上眼，那片蓝色依然会立刻在脑海中弥漫开来。它带来的触动，并非那种面对绝世奇观时的震撼与惊叹，而是一种温柔的浸润，一种深远的宁静。在这里，你终于从“观看风景”的游客，变成了“融入风景”的一部分。你的节奏被迫慢下来，与湖水拍岸的节奏、与老人垂钓的节奏、与小镇日升月落的节奏同步。你会发现，快乐可以很简单——是一口清冽的泉水，是一块被阳光晒得发烫的卵石，是与陌生摊主一次连比划带笑的交流。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个人人追逐效率、打卡“必去”清单的快节奏世界里，波格拉德茨就像一个被时光遗忘的港湾。它不张扬，不炫耀，只是静静地躺在群山臂弯之中，守着欧洲最古老的湖泊，过着自己的日子。它提醒着我们，旅行的意义有时不在于收集了多少个著名地标，而在于你是否找到了一个能让内心彻底安静下来的角落。对于每一位渴望在旅途中寻找真实生活质感、渴望与自然和自我深度对话的旅人来说，波格拉德茨这片阿尔巴尼亚的“蓝眼泪”，都不该只是一个地名，而应是一场心灵的必需。来这里，不只是看一片湖，更是学习如何像这片湖一样，深沉、包容，并映照出生活最本真的光芒。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/peshkopi-old-town-and-thermal-springs" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩什科比</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Peshkopi</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/permet-albania" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    佩
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">佩尔梅特</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Përmet</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/kruja-castle-bazaar" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    克
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">克鲁亚</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Kruja</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}

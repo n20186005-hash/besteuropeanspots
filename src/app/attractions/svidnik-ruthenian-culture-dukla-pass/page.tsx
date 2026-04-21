@@ -1,0 +1,243 @@
+import { Metadata } from 'next'
+import { Section } from '@/components/Section'
+import { InfoRow } from '@/components/InfoRow'
+import { Breadcrumb } from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: '斯维德尼克 Svidník｜喀尔巴阡山下的文化十字路口与战争记忆 - 最佳欧洲景点',
+  description: '车子刚驶入斯维德尼克，你首先听到的可能是钟声。不是来自某座高耸的哥特尖塔，而是从路边一座看起来像用巨大棕色积木搭成的、顶着洋葱头小穹顶的木教堂里传来的，低沉、温润，带着木头共振特有的柔和。空气里有股奇妙的混合气味：远处山林吹来的松针清冷，面包房飘出的甜香，还有——如果你仔细分辨——一丝若有若无的、来',
+}
+
+export default function SvidnikRuthenianCultureDuklaPassPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb
+          items={[
+            { label: '首页', href: '/' },
+            { label: '景点百科', href: '/category/encyclopedia' },
+            { label: '斯洛伐克', href: '/destinations/europe' },
+            { label: '斯维德尼克', href: '/destinations/europe' },
+            { label: '斯维德尼克', href: '/attractions/svidnik-ruthenian-culture-dukla-pass' },
+          ]}
+        />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{`斯维德尼克・Svidník・斯洛伐克・斯维德尼克`}</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            {`车子刚驶入斯维德尼克，你首先听到的可能是钟声。不是来自某座高耸的哥特尖塔，而是从路边一座看起来像用巨大棕色积木搭成的、顶着洋葱头小穹顶的木教堂里传来的，低沉、温润，带着木头共振特有的柔和。空气里有股奇妙的混合气味：远处山林吹来的松针清冷，面包房飘出的甜香，还有——如果你仔细分辨——一丝若有若无的、来自博物馆里老织物和旧书籍的，略带潮气的历史味道。这里的时间流速似乎不太一样。主街上走着穿羽绒服的年轻人，喝着外卖咖啡，步履匆匆；而在文化博物馆的院子里，几位戴着传统刺绣头巾的老奶奶，正慢悠悠地晒着太阳，用你完全听不懂的、柔软如歌的卢森尼亚语聊着天，仿佛从另一个时空直接坐到了你面前的长椅上。
+然而，只需驱车十分钟，闯入杜克拉山口的领域，所有的柔软顷刻间被抽走。风一下子变得硬朗，呼啸着穿过山谷。视线所及，是绵延起伏、在秋日里染成金棕与暗红的海浪般山丘。而“漂浮”在这片自然波浪之上的，是一辆辆坦克、一门门高射炮、一个个混凝土浇筑的巨型纪念碑。它们不是被精心安置在光洁的展台上，而是就那么半陷在泥土里，炮管指向依旧阴沉的东方，履带锈蚀成土地的一部分，仿佛不是被放置于此，而是从这片土地里长出来的、钢铁与混凝土的荆棘。那一刻你忽然明白了，斯维德尼克的灵魂是双重的：一面是木教堂里用蜂蜜般温暖声音唱着的圣歌，另一面，则是山口狂风永远也吹不散的、金属与血的低吟。
+小镇本身不大，一条主街几乎就能概括。但它的魅力恰恰在于这种“不协调”的和谐共存。下午，你可能会在咖啡馆遇见一位历史老师，他能平静地跟你讲述1944年秋天，苏联和德国军队如何像两台绞肉机，在这片山口把近十万生命碾碎；傍晚，你又可能在某个小酒馆里，被热情的当地人拉入圆圈，跟着古老的多弦乐器“班杜拉”的节奏，跳起简单的民间舞蹈。战争与和平，毁灭与传承，极端的痛苦与坚韧的欢愉，在这里不是历史书的两个章节，而是呼吸着的、可触摸的日常现实。`}
+          </p>
+        </div>
+
+        <div className="space-y-8">
+
+          <Section title="1. 景点介绍">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "车子刚驶入斯维德尼克，你首先听到的可能是钟声。不是来自某座高耸的哥特尖塔，而是从路边一座看起来像用巨大棕色积木搭成的、顶着洋葱头小穹顶的木教堂里传来的，低沉、温润，带着木头共振特有的柔和。空气里有股奇妙的混合气味：远处山林吹来的松针清冷，面包房飘出的甜香，还有——如果你仔细分辨——一丝若有若无的、来自博物馆里老织物和旧书籍的，略带潮气的历史味道。这里的时间流速似乎不太一样。主街上走着穿羽绒服的年轻人，喝着外卖咖啡，步履匆匆；而在文化博物馆的院子里，几位戴着传统刺绣头巾的老奶奶，正慢悠悠地晒着太阳，用你完全听不懂的、柔软如歌的卢森尼亚语聊着天，仿佛从另一个时空直接坐到了你面前的长椅上。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "然而，只需驱车十分钟，闯入杜克拉山口的领域，所有的柔软顷刻间被抽走。风一下子变得硬朗，呼啸着穿过山谷。视线所及，是绵延起伏、在秋日里染成金棕与暗红的海浪般山丘。而“漂浮”在这片自然波浪之上的，是一辆辆坦克、一门门高射炮、一个个混凝土浇筑的巨型纪念碑。它们不是被精心安置在光洁的展台上，而是就那么半陷在泥土里，炮管指向依旧阴沉的东方，履带锈蚀成土地的一部分，仿佛不是被放置于此，而是从这片土地里长出来的、钢铁与混凝土的荆棘。那一刻你忽然明白了，斯维德尼克的灵魂是双重的：一面是木教堂里用蜂蜜般温暖声音唱着的圣歌，另一面，则是山口狂风永远也吹不散的、金属与血的低吟。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "小镇本身不大，一条主街几乎就能概括。但它的魅力恰恰在于这种“不协调”的和谐共存。下午，你可能会在咖啡馆遇见一位历史老师，他能平静地跟你讲述1944年秋天，苏联和德国军队如何像两台绞肉机，在这片山口把近十万生命碾碎；傍晚，你又可能在某个小酒馆里，被热情的当地人拉入圆圈，跟着古老的多弦乐器“班杜拉”的节奏，跳起简单的民间舞蹈。战争与和平，毁灭与传承，极端的痛苦与坚韧的欢愉，在这里不是历史书的两个章节，而是呼吸着的、可触摸的日常现实。" }} />
+          </Section>
+
+          <Section title="2. 基本信息">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <InfoRow label="中文名称" value={`斯维德尼克`} />
+                <InfoRow label="英文名称" value={`Svidník`} />
+                <InfoRow label="正式名称" value={`Svidník`} />
+                <InfoRow label="国家" value={`斯洛伐克`} />
+                <InfoRow label="城市" value={`斯维德尼克`} />
+              </div>
+              
+              <div className="space-y-4">
+                <InfoRow label="历史地位" value={`斯维德尼克是斯洛伐克境内卢森尼亚（乌克兰）文化的核心守护者，同时也是二战东线最惨烈战役之一——杜克拉山口战役的永恒纪念碑。`} />
+                <InfoRow label="建筑特色" value={`文化博物馆由现代功能建筑与复原的传统木制教堂组成，形成强烈时空对话；而山间的战争遗址则是粗犷的混凝土纪念碑与钢铁残骸自然融入丘陵地貌。`} />
+                <InfoRow label="建筑风格" value={`博物馆建筑为20世纪中期现代主义风格；其核心藏品——木教堂属于喀尔巴阡山脉地区独特的卢森尼亚民间木构建筑。`} />
+                <InfoRow label="文化价值" value={`这里保存了即将消逝的卢森尼亚语言、服饰、音乐与宗教传统，并以一种不加修饰的诚实态度，呈现了战争对这片土地与人民的双重塑造。`} />
+              </div>
+            </div>
+            
+            <div className="mt-6 space-y-3">
+              <InfoRow label="开放时间" value={`卢森尼亚文化博物馆：周二至周日 9:00-12:00，13:00-17:00，冬季（11月至3月）闭馆时间提前至16:00，周一固定闭馆。杜克拉山口战役纪念地与露天军事装备展区：全年24小时免费开放。请注意，博物馆在重要国家假日（如1月1日、12月24-26日）可能关闭。`} />
+              <InfoRow label="门票价格" value={`卢森尼亚文化博物馆：成人票5欧元，学生及老人票3欧元，6岁以下儿童免费。家庭票（2大2小）12欧元。杜克拉山口纪念馆及露天展区：免费参观。博物馆提供英语导览服务，需提前一天预约，费用另加8欧元/团。`} />
+              <InfoRow label="地址" value={`卢森尼亚文化博物馆：Múzeum ukrajinskej kultúry, Hlavná 74, 089 01 Svidník, 斯洛伐克
+杜克拉山口纪念碑：Dukliansky pamätník, 089 01 Svidník， 斯洛伐克`} />
+              <InfoRow label="交通方式" value={`从最近的科希策国际机场出发，驾车沿E371公路向北行驶约80公里，车程1小时15分钟。公共交通可选择从科希策中央火车站乘坐火车前往普雷绍夫，再换乘地区巴士至斯维德尼克，总耗时约2.5-3小时，巴士班次平日约每小时一班，周末减少。从波兰一侧前往，可从克拉科夫乘巴士经边境口岸巴罗维耶，直达斯维德尼克，但班次较少，建议提前查询跨境巴士时刻表。小镇内景点步行可达，前往杜克拉山口建议自驾或乘坐出租车（约10分钟车程）。`} />
+            </div>
+          </Section>
+
+          <Section title="3. 历史背景">
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "要理解斯维德尼克，你得把目光投向比二战更久远的山脉深处。几个世纪以来，喀尔巴阡山脉的北坡与南坡，像一道巨大的褶皱，庇护又隔绝着一群被称为“卢森尼亚人”的山民。他们讲着接近古俄语的东斯拉夫方言，信奉东正教或东方礼仪天主教，用最原始的斧头和凿子，在漫山遍野的云杉林中，创造出不用一颗铁钉就能屹立数百年的木构教堂。这些教堂的穹顶如同洋葱，内部覆盖着绚烂的圣像壁，散发着松脂和蜡烛混合的、令人心安的气息。斯维德尼克所在的沙里什地区，就成了这些山民与山下平原的匈牙利人、斯洛伐克人进行贸易、文化交流（有时也是摩擦）的前哨。他们的文化像苔原上的地衣，坚韧，低调，紧贴着大地生存。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "命运的急转弯发生在二十世纪。两次世界大战重新划定了国界，政治浪潮汹涌澎湃。1944年秋天，为了援助斯洛伐克民族起义并快速进入中欧，苏联军队策划了跨越喀尔巴阡山脉的“杜克拉山口攻势”。希特勒下令不惜一切代价守住这道天然屏障。于是，在秋季的雨水和初冬的积雪中，在泥泞及膝的森林和陡峭的山路上，人类战争史上最残酷的山地战役之一打响了。苏军士兵顶着德军构筑完善的、布满地雷和交叉火力的防线，进行一波又一波近乎自杀的冲锋。山谷被炮火反复耕耘，土壤变成了血肉和金属碎片的混合物。这场持续了将近两个月的血战，以苏军惨胜告终，双方伤亡超过十五万，整个山口的地形都被永久改变。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "战争结束后，边界再次划定，许多卢森尼亚人被迫或选择迁往苏联的乌克兰，留在这片斯洛伐克土地上的社群迅速缩小，他们的语言和文化面临被主流同化而消失的危机。就在这时，一些有识之士站了出来。他们意识到，必须为这个“山的声音”建立一个家园。于是，斯维德尼克卢森尼亚文化博物馆在1956年诞生了。它不是一座冰冷的陈列馆，而是一次抢救性的文化收集。工作人员走进即将被拆毁的偏远山村，将整座木教堂小心翼翼地标记、拆解、运回，再在博物馆旁的空地上重组。他们从老妇人手中收集手工刺绣，从老乐师那里记下即将失传的旋律。博物馆本身，成了一个文化的诺亚方舟。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "与此同时，战场的记忆也在凝固。上世纪60年代，在曾经的激战中心，一座高达49米的混凝土纪念碑拔地而起，形似破土而出的利剑，又像一双合十祈祷的巨手，内部是肃穆的纪念厅。更震撼的是，人们没有清理战场。他们将缴获或损毁的坦克、装甲车、火炮，就留在它们当年最后停止战斗的位置上。年复一年，风雨锈蚀了钢铁，野草从履带缝隙中钻出，野花在炮管旁盛开。这种“不修复”的展示，形成了一种比任何光鲜博物馆都更有力量的述说：战争不是荣耀的凯旋门，而是大地上一道缓慢愈合的、狰狞的伤疤。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "今天的斯维德尼克，就站在这个奇特的交汇点上。它一边精心守护着木教堂里微弱的烛火和古老的歌谣，另一边则看守着山口那些沉默的钢铁巨兽。两者看似矛盾，却共同定义了这片土地的 identity：它记住了所有的痛苦，却依然选择歌唱。" }} />
+            </div>
+          </Section>
+
+          <Section title={`4. 游览路线`}>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">{`推荐路线`}</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {`建议安排完整的一天进行深度游览。最佳节奏是上午沉浸于相对静谧、需要专注感受的木教堂与文化博物馆，此时光线柔和，游客稀少，适合静静观赏那些精致的圣像和织物。中午在小镇中心用餐，感受当地生活气息。下午驱车前往杜克拉山口，利用午后至日落前的时间探索广阔的露天战场遗址和纪念碑，此时光线角度较低，能营造出极具戏剧性的光影效果，尤其适合摄影，也能让你有足够时间徒步一段山丘小径，感受战场的尺度与自然的复苏。傍晚返回小镇，如果恰逢周末或节日，或许能偶遇一场小型的民间音乐演出。这样的安排张弛有度，让心灵在文化的温情与历史的沉重之间有一个缓冲和沉淀的过程。`}
+                </p>
+                <div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
+                  <strong>建议：</strong>{`参观杜克拉山口时请务必穿着坚固防滑的徒步鞋，因为展区是原始的山地，小径泥泞且可能有碎石。在博物馆和纪念碑区域请保持庄重肃穆，尤其是纪念碑内部纪念厅，不宜大声喧哗或进行不恰当的摆拍。小镇上英语普及度一般，学习几句斯洛伐语问候语或准备好翻译APP会让与当地老人交流更加顺利。`}
+                </div>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 1 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`清晨第一站径直走向卢森尼亚文化博物馆院落里那座从Nová Polianka村整体迁移来的18世纪木教堂，轻轻推开沉重的木门，让眼睛适应内部仅有烛台照明的幽暗，呼吸那混合了古老木头、蜂蜡和干花的独特气息。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 2 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`在博物馆主展厅花上一个小时，凑近玻璃柜仔细观察那些色彩艳丽到惊人的传统刺绣“ vyshyvanka”，每一针一线都讲述着森林、花朵与古老信仰的故事。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 3 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`一定要在博物馆的小视听室里坐下，闭上眼睛完整听一曲用班杜拉琴和古老复调唱法演绎的民歌，那声音如山谷回响，直抵心灵。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 4 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`中午就在主街找一家挂着传统招牌的小餐馆“Koliba”，点一份热腾腾的羊奶酪面疙瘩“bryndzové halušky”，配一杯本地蜂蜜酒，看着窗外小镇平静的日常。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 5 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`午后驾车沿标识清晰的公路盘旋而上，约十分钟后，在第一个开阔的转弯处停车，第一次远眺那巍然矗立于山脊线的巨型混凝土纪念碑，感受它带来的视觉与心理冲击。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 6 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`步入杜克拉山口露天展区，选择一条小径走近一辆T-34坦克，触摸它冰冷、粗糙且布满弹痕和锈蚀的装甲，观察野草如何在它的发动机舱里安家。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 7 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`徒步登上纪念碑基座下的广阔平台，在这里静静坐一会儿，看风掠过无名的山丘，听松涛阵阵，想象与宁静共处的正是历史上最喧嚣的杀戮。`}</p>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">第 8 步</h4>
+                  <p className="text-sm text-gray-700 mb-2">{`如果时间和体力允许，沿着纪念碑后方标记的“和平小径”走入森林深处，你会发现更多散落林间、几乎被苔藓吞没的防御工事残骸，那是历史最沉默的注脚。`}</p>
+                </div>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="5. 拍照机位">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">1. {`木教堂内部圣像壁全景`}</h4>
+                  <p className="text-sm text-gray-700">{`需使用三脚架和低感光度，在管理员允许的情况下，于上午侧窗光投入时拍摄，构图时将前景的蜡烛台与后方金光闪闪的圣像一并纳入，营造神圣的纵深感。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">2. {`杜克拉山口纪念碑剪影`}</h4>
+                  <p className="text-sm text-gray-700">{`日落前半小时，从停车场西侧的小土坡上向西拍摄，以巨大纪念碑的黑色剪影为焦点，背景是熔金般的晚霞和连绵的深色山峦，极具悲怆的史诗感。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">3. {`坦克与自然共生特写`}</h4>
+                  <p className="text-sm text-gray-700">{`选择一辆半埋在土里、炮管指向天空的坦克，在午后侧光下，用微距镜头聚焦履带缝隙中长出的一丛野花或一片鲜亮的苔藓，对比象征着生命与毁灭。`}</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">4. {`小镇广场俯瞰`}</h4>
+                  <p className="text-sm text-gray-700">{`登上博物馆附近的制高点（如市政厅钟楼如果开放），用广角镜头在蓝调时刻拍摄，前景是博物馆传统的木建筑轮廓，中景是小镇温暖的灯火，远景是喀尔巴阡山脉深蓝色的剪影。`}</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">5. {`卢森尼亚老妇人肖像`}</h4>
+                  <p className="text-sm text-gray-700">{`如果幸运地在博物馆遇到身着传统服饰的老奶奶，在征得对方欣然同意后，利用窗边的自然光，以博物馆古朴的木墙或展柜为背景，拍摄她们平静而布满故事的脸庞和手中精细的绣品。`}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
+              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• {`使用无人机在杜克拉山口纪念碑区域拍摄前，务必查询当地最新法规，该区域可能因是纪念地而有所限制。拍摄军事装备时，避免任何显得轻浮或不敬的构图（如坐在炮管上）。尊重文化博物馆内关于闪光灯和摄影的限制标识，保护脆弱的纺织品和木制品。`}</li>
+              </ul>
+            </div>
+          </Section>
+
+          <Section title={`6. 住宿与餐饮推荐`}>
+            <div className="space-y-6">
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-2">{`山间疗愈小屋`}</h4>
+                  <p className="text-sm text-blue-800">{`在离杜克拉山口几公里外的森林边缘，有一座由当地家庭经营的木质小屋，晚上可以听见纯粹的溪流与风声，清晨主人会送来自家做的果酱和新鲜羊奶。`}</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">{`小镇中心历史公寓`}</h4>
+                  <p className="text-sm text-green-800">{`位于主街一栋19世纪老建筑二层，公寓保留了高高的天花板和老式瓷砖壁炉，推开窗就是小镇的生活剧场，方便体验本地夜市和晨间面包店的香气。`}</p>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-yellow-900 mb-2">{`特色农家民宿“Salash”`}</h4>
+                  <p className="text-sm text-yellow-800">{`体验真正的卢森尼亚农家生活，住在复原的传统木屋中，晚上围在火塘边听主人弹奏德西马琴，早晨可能被散养的鸡鸣和山羊叫声唤醒。`}</p>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-purple-900 mb-2">{`功能现代的家庭旅馆`}</h4>
+                  <p className="text-sm text-purple-800">{`对于自驾家庭游客，镇南有提供免费停车和宽敞家庭房的现代旅馆，装修简洁温暖，老板能提供非常详尽的周边徒步与历史文化地图指南。`}</p>
+                </div>
+              </div>
+              <div className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "旅游旺季（夏季和九月的战役纪念活动期间）住宿较为紧张，建议提前数周预订。小镇及周边治安极好，夜晚安静。选择山间住宿需有自驾车，且注意秋冬季节山区可能突然降温，确认住宿是否有稳定供暖。" }} />
+              </div>
+            </div>
+          </Section>
+
+          <Section title="7. 总结感悟">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "离开斯维德尼克许久，我脑海中反复回响的不是某句具体的解说词，而是两种声音的交织：木教堂里老妇人低吟的、如风穿过松林的圣歌，和杜克拉山口永不停止的、呼啸过坦克残骸的野风。这个地方教会我的，是一种“完整的记忆”。它没有将历史中温馨美好的部分抽离出来，做成甜美的糖果，也没有将痛苦残酷的部分掩埋起来，假装不曾发生。它让它们并肩而立，让歌颂与哀悼拥有同等的分量。在这种巨大的坦诚面前，你作为旅人，无法简单地消费一种异域风情，也无法仅仅抒发一番怀古幽情。你会被卷入一种更复杂的思考：关于文化在全球化时代的脆弱与韧性，关于战争伤疤在自然和时间中的形态演变，关于一个社区如何带着全部的过去——包括光荣与创伤——继续生活。" }} />
+              <p className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: "在这个追求“打卡”和“出片”的快节奏旅行时代，斯维德尼克提供了一种截然相反的旅行价值：它邀请你停下来，耐心倾听。倾听木头纹理里的年轮，倾听刺绣图案里的神话，倾听锈铁沉默的诉说，倾听山风在纪念碑混凝土表面刮擦出的、类似叹息的声音。它或许不会给你即刻的视觉惊艳，但它给予的，是一种缓慢渗透进心里的重量和厚度。当你走下山口，重新回到那座小小的木教堂前，你会对“生存”和“记忆”这两个词，产生前所未有的、具象而深刻的理解。这，正是深度旅行所能带来的、最珍贵的礼物。" }} />
+            </div>
+          </Section>
+
+
+          <Section title="猜你喜欢">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a href="/attractions/presov-old-town" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    普
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">普雷绍夫老城</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Prešov Old Town</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/bojnice-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    博
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">博伊尼采城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Bojnice Castle</p>
+                  </div>
+                </div>
+              </a>
+              <a href="/attractions/beckov-castle" className="block group">
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                    贝
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">贝兹道城堡</h4>
+                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">Beckov Castle</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Section>
+        </div>
+      </div>
+    </div>
+  )
+}
