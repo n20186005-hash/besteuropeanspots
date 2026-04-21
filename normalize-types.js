@@ -1,85 +1,56 @@
 const fs = require('fs');
+const path = require('path');
 
-const attractionsFile = 'src/data/attractions.json';
-let attractions = JSON.parse(fs.readFileSync(attractionsFile, 'utf8'));
+const dataPath = path.join(__dirname, 'src', 'data', 'attractions.json');
+let attractions = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
-let fixedRegionCount = 0;
-let fixedTypeCount = 0;
+// 标准 6 大分类
+const standardTypes = {
+  '城镇与村落': ['古城', '老城', '特色小镇', '古镇', '小镇', '城镇', '村落', 'town', 'village', '中世纪古城', '历史城镇', '中世纪小镇', '山城', '渔村', '渔港', '童话村'],
+  '建筑与地标': ['城堡', '要塞', '宫殿', '桥梁', '塔', '建筑', '庄园', '灯塔', '大桥', '城墙', '防线', '水坝', '堡垒', '城池'],
+  '宗教遗产': ['教堂', '大教堂', '修道院', '神庙', '寺庙', '修道', '宗教', '朝圣', '清真寺', '礼拜堂', '大殿'],
+  '历史遗迹与考古': ['考古', '遗址', '废墟', '纪念碑', '遗迹', '古罗马', '陵墓', '墓地', '洞穴遗址', '史前'],
+  '文化艺术与休闲': ['博物馆', '工业遗产', '公园', '温泉', '浴场', '艺术', '剧院', '剧场', '音乐厅', '酒庄', '画廊', '休闲', '文化景观', '广场', '集市', '大学', '图书馆'],
+  '自然景观': ['湖泊', '国家公园', '溶洞', '海岛', '风光', '自然', '山脉', '森林', '海滩', '悬崖', '峡谷', '海岸', '盐田', '冰川', '温泉(自然)', '瀑布', '地质', '陨石坑']
+};
 
-// 常见国家标准映射表
-const validCountries = new Set([
-  '法国', '比利时', '卢森堡', '荷兰', '德国', '意大利', '西班牙', '葡萄牙', '奥地利', '瑞士',
-  '捷克', '斯洛伐克', '匈牙利', '克罗地亚', '波黑', '黑山', '希腊', '瑞典', '挪威', '芬兰', '丹麦',
-  '斯洛文尼亚', '北马其顿', '阿尔巴尼亚', '科索沃', '爱沙尼亚', '立陶宛', '塞尔维亚', '罗马尼亚', '保加利亚', '波兰', '拉脱维亚'
-]);
+let updatedCount = 0;
 
-// 类型关键词提取映射（优先级从上到下）
-const typeMapping = [
-  { keyword: '城堡', result: '城堡' },
-  { keyword: '宫殿', result: '宫殿' },
-  { keyword: '修道院', result: '修道院' },
-  { keyword: '教堂', result: '大教堂' },
-  { keyword: '大教堂', result: '大教堂' },
-  { keyword: '遗址', result: '历史遗迹' },
-  { keyword: '遗迹', result: '历史遗迹' },
-  { keyword: '考古', result: '历史遗迹' },
-  { keyword: '废墟', result: '历史遗迹' },
-  { keyword: '自然', result: '自然景观' },
-  { keyword: '湖', result: '自然景观' },
-  { keyword: '山', result: '自然景观' },
-  { keyword: '古城', result: '中世纪古城' },
-  { keyword: '老城', result: '中世纪古城' },
-  { keyword: '古镇', result: '中世纪古城' },
-  { keyword: '小镇', result: '特色小镇' },
-  { keyword: '村', result: '特色小镇' },
-  { keyword: '广场', result: '广场与街区' },
-  { keyword: '街区', result: '广场与街区' },
-  { keyword: '民居', result: '特色小镇' },
-  { keyword: '大学城', result: '历史名城' },
-  { keyword: '建筑', result: '历史建筑' }
-];
+attractions.forEach(a => {
+  const originalType = (a.type || '').toLowerCase();
+  
+  // 匹配逻辑
+  let newType = '城镇与村落'; // 默认 fallback
+  let matched = false;
 
-attractions = attractions.map(a => {
-  // 1. 清理 region (国家)
-  if (a.region) {
-    let newRegion = a.region.split(/[・、，,]/)[0].trim();
-    // 去掉结尾的无意义字符
-    newRegion = newRegion.replace(/地区|周边|附近/g, '');
-    
-    // 如果不在白名单里，尝试从 country 字段获取
-    if (!validCountries.has(newRegion) && a.country) {
-       let tempCountry = a.country.split(/[・、，,]/)[0].trim();
-       if (validCountries.has(tempCountry)) {
-           newRegion = tempCountry;
-       }
-    }
-    
-    if (a.region !== newRegion) {
-      a.region = newRegion;
-      fixedRegionCount++;
+  for (const [mainCat, keywords] of Object.entries(standardTypes)) {
+    if (keywords.some(kw => originalType.includes(kw))) {
+      newType = mainCat;
+      matched = true;
+      break;
     }
   }
-
-  // 2. 清理 type (类型)
-  if (a.type) {
-    let newType = '其他';
-    // 遍历映射表提取核心类型
-    for (const mapping of typeMapping) {
-      if (a.type.includes(mapping.keyword)) {
-        newType = mapping.result;
+  
+  // 如果实在没有匹配到，我们从 description 里猜一下
+  if (!matched && a.description) {
+    for (const [mainCat, keywords] of Object.entries(standardTypes)) {
+      if (keywords.some(kw => a.description.includes(kw))) {
+        newType = mainCat;
+        matched = true;
         break;
       }
     }
-    
-    if (a.type !== newType) {
-      a.type = newType;
-      fixedTypeCount++;
-    }
   }
 
-  return a;
+  // 记录老标签到 raw_type，并替换 type 为标准分类
+  if (!a.raw_type) {
+    a.raw_type = a.type;
+  }
+  if (a.type !== newType) {
+    a.type = newType;
+    updatedCount++;
+  }
 });
 
-fs.writeFileSync(attractionsFile, JSON.stringify(attractions, null, 2));
-console.log(`Successfully normalized regions for ${fixedRegionCount} attractions.`);
-console.log(`Successfully normalized types for ${fixedTypeCount} attractions.`);
+fs.writeFileSync(dataPath, JSON.stringify(attractions, null, 2), 'utf8');
+console.log(`Type normalization complete. Updated ${updatedCount} records to standard types.`);

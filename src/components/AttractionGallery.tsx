@@ -134,8 +134,20 @@ export function AttractionGallery({
       return counts;
     }, [attractions, selectedType, searchQuery]);
   
+    // 预定义的标准 6 大分类
+    const standardTypes = [
+      '城镇与村落',
+      '建筑与地标',
+      '宗教遗产',
+      '历史遗迹与考古',
+      '文化艺术与休闲',
+      '自然景观'
+    ];
+
     const typeCounts = useMemo(() => {
       const counts: Record<string, number> = {};
+      standardTypes.forEach(t => counts[t] = 0); // 初始化标准分类计数为0
+
       const base = selectedRegion
         ? attractions.filter((a) => a.region === selectedRegion)
         : attractions;
@@ -145,8 +157,15 @@ export function AttractionGallery({
             return a.name?.toLowerCase().includes(q) || a.englishName?.toLowerCase().includes(q) || a.city?.toLowerCase().includes(q) || a.country?.toLowerCase().includes(q);
           })
         : base;
-      for (const a of searchFiltered) counts[a.type] = (counts[a.type] || 0) + 1;
-      return counts;
+
+      for (const a of searchFiltered) {
+        const type = a.type;
+        if (type && standardTypes.includes(type)) {
+          counts[type] = (counts[type] || 0) + 1;
+        }
+      }
+      // 过滤掉计数为0的分类（可选，目前保留全部6个以保持UI统一）
+      return Object.fromEntries(Object.entries(counts).filter(([_, count]) => count > 0));
     }, [attractions, selectedRegion, searchQuery]);
 
   return (
