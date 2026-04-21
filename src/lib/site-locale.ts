@@ -154,6 +154,76 @@ export const homeCopy = {
       aboutSite: "独立旅游信息网站，专注发掘欧洲隐藏宝藏景点。",
       copyrightSuffix: "欧洲隐藏宝藏，持续探索中。",
     },
+    seo: {
+      overviewTitle: "欧洲隐藏景点深度导览",
+      overviewParagraphs: [
+        "Best European Spots 首页采用服务端静态输出，核心内容直接以 HTML 形式呈现给搜索引擎与用户。这里不是简单的景点列表，而是围绕欧洲隐藏宝藏目的地建立的导航中枢，帮助用户按国家、内容类型与专题榜单逐层发现值得深度游览的小众景点。",
+        "首页聚合了欧洲 36 个国家的 2587 个景点数据，覆盖中世纪古镇、城堡桥梁、修道院教堂、考古遗址、文化休闲地标以及自然景观六大一级分类。每个分类都对应独立内容页、目的地页与景点详情页，形成清晰的内部链接层级，有助于提升 Google 对站点主题与内容结构的理解。",
+        "对于用户而言，首页承担的是“总览 + 导航 + 选题导读”三重角色；对于搜索引擎而言，首页承担的是“站点主题声明 + 重要入口分发 + 内容权重聚合”三重角色。这样的结构比单纯展示几张卡片更有利于 SEO，也更适合海量静态页面站点持续扩充。",
+      ],
+      categoryTitle: "六大标准主分类",
+      categoryIntro:
+        "首页只保留统一后的六大主分类，避免原始长句标签造成主题分散与关键词混乱。",
+      categories: [
+        {
+          title: "城镇与村落",
+          description: "聚合古城、老城、特色小镇、边境双子城与保存完整的历史聚落。",
+          href: "/category/encyclopedia",
+        },
+        {
+          title: "建筑与地标",
+          description: "聚合城堡、要塞、桥梁、宫殿、塔楼、港口等具有强识别度的人文地标。",
+          href: "/category/encyclopedia",
+        },
+        {
+          title: "宗教遗产",
+          description: "聚合修道院、教堂、大教堂、清真寺、神庙等宗教建筑与精神遗产。",
+          href: "/category/history",
+        },
+        {
+          title: "历史遗迹与考古",
+          description: "聚合古罗马遗址、废墟、考古遗存、纪念碑与史前文化现场。",
+          href: "/category/history",
+        },
+        {
+          title: "文化艺术与休闲",
+          description: "聚合博物馆、工业遗产、公园、温泉浴场、艺术街区与城市休闲空间。",
+          href: "/category/travelogue",
+        },
+        {
+          title: "自然景观",
+          description: "聚合瀑布、溶洞、湖泊、岛屿、峡谷与国家公园等自然目的地。",
+          href: "/category/travelogue",
+        },
+      ],
+      countryTitle: "热门国家入口",
+      countryIntro:
+        "以下国家聚合页是首页最重要的目的地入口，帮助用户快速进入按国家整理的小众景点集合。",
+      methodologyTitle: "首页为什么更适合 SEO",
+      methodologyPoints: [
+        "服务端静态输出首页主体文案、分类说明、国家入口与 FAQ，避免正文只存在于客户端状态里。",
+        "用 H1、H2、H3 建立清晰主题层级，让 Google 更容易识别“欧洲隐藏景点”这一核心主题。",
+        "通过国家页、分类页、专题页与详情页建立强内链网络，让首页具备稳定的权重分发能力。",
+      ],
+      faqTitle: "首页常见问题",
+      faq: [
+        {
+          question: "Best European Spots 首页主要收录什么内容？",
+          answer:
+            "首页聚合了欧洲 36 个国家的隐藏景点，覆盖古镇、城堡、修道院、历史遗迹、文化地标与自然景观，并提供国家页、分类页与专题榜单页的入口。",
+        },
+        {
+          question: "首页为什么需要较厚的文字内容？",
+          answer:
+            "较厚的服务端文字内容可以帮助 Google 更准确理解网站主题、覆盖更多高相关关键词，并让首页承担站点总导航与内容权重聚合的作用，而不是只作为视觉入口页。",
+        },
+        {
+          question: "首页与详情页之间如何分工？",
+          answer:
+            "首页负责主题总览、国家与分类导航；详情页负责单个景点的完整介绍、交通、历史背景与旅行建议。两者通过清晰的内部链接层级互相传递权重。",
+        },
+      ],
+    },
   },
   en: {
     headerTagline: "Hidden Gems Across Europe",
@@ -239,6 +309,76 @@ export const homeCopy = {
       about: "About",
       aboutSite: "Independent travel site focused on Europe’s hidden gems.",
       copyrightSuffix: "Hidden Gems. One Continent. Endless Discovery.",
+    },
+    seo: {
+      overviewTitle: "A Search-Friendly Guide To Europe’s Hidden Gems",
+      overviewParagraphs: [
+        "The homepage is rendered as static server output, so search engines and users receive the core narrative, category explanation, and navigation structure directly in HTML. It is designed as a thematic hub for hidden gems across Europe rather than a thin landing page with only a few cards.",
+        "This homepage currently connects 2,587 attractions across 36 countries and organizes them into six normalized categories: towns and villages, architecture and landmarks, religious heritage, historical ruins and archaeology, culture art and leisure, and natural landscapes. That structure gives Google clearer topical signals and stronger internal-linking paths.",
+        "For readers, the homepage works as an editorial overview, a discovery tool, and a destination directory. For search engines, it works as a thematic declaration page, a high-authority linking hub, and a content summary that reinforces the broader site architecture.",
+      ],
+      categoryTitle: "Six Core Categories",
+      categoryIntro:
+        "The homepage only exposes the six normalized top-level categories so the site stays thematically clean and avoids fragmented keyword noise.",
+      categories: [
+        {
+          title: "Towns & Villages",
+          description: "Historic towns, old quarters, hill villages, and distinctive settlements across Europe.",
+          href: "/category/encyclopedia",
+        },
+        {
+          title: "Architecture & Landmarks",
+          description: "Castles, fortresses, palaces, bridges, towers, harbours, and built icons with strong visual identity.",
+          href: "/category/encyclopedia",
+        },
+        {
+          title: "Religious Heritage",
+          description: "Abbeys, monasteries, cathedrals, churches, mosques, and sacred places with spiritual significance.",
+          href: "/category/history",
+        },
+        {
+          title: "Historical Ruins & Archaeology",
+          description: "Roman remains, archaeological sites, monuments, ruins, and ancient cultural landscapes.",
+          href: "/category/history",
+        },
+        {
+          title: "Culture, Art & Leisure",
+          description: "Museums, industrial heritage, parks, spas, art districts, and cultural urban experiences.",
+          href: "/category/travelogue",
+        },
+        {
+          title: "Natural Landscapes",
+          description: "Waterfalls, caves, lakes, islands, canyons, and scenic nature destinations.",
+          href: "/category/travelogue",
+        },
+      ],
+      countryTitle: "Top Country Gateways",
+      countryIntro:
+        "These country landing pages are key homepage entry points, helping readers jump directly into curated hidden gems by destination.",
+      methodologyTitle: "Why This Homepage Is Better For SEO",
+      methodologyPoints: [
+        "The main homepage copy, category explanations, country gateways, and FAQs are delivered in static HTML rather than hidden behind client-only rendering.",
+        "Clear H1, H2, and H3 heading hierarchy helps Google understand the core topic of hidden gems across Europe.",
+        "Strong internal links connect the homepage with country pages, category pages, collections, and attraction pages, improving crawl paths and topical relevance.",
+      ],
+      faqTitle: "Homepage FAQ",
+      faq: [
+        {
+          question: "What kind of content does the homepage cover?",
+          answer:
+            "The homepage curates hidden gems across 36 European countries, including old towns, castles, abbeys, archaeological sites, cultural landmarks, and natural scenery, while linking to country pages, category pages, and editorial collections.",
+        },
+        {
+          question: "Why does the homepage need more textual depth?",
+          answer:
+            "A richer server-rendered homepage gives Google clearer topic signals, supports more relevant keywords, and helps the homepage act as a strong internal-linking hub instead of a visually attractive but thin landing page.",
+        },
+        {
+          question: "How does the homepage differ from attraction detail pages?",
+          answer:
+            "The homepage provides thematic overview and discovery pathways, while attraction detail pages provide full destination-specific content such as history, transport, practical tips, and visit planning.",
+        },
+      ],
     },
   },
 } as const;
