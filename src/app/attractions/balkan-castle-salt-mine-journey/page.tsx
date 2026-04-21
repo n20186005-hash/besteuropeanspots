@@ -15,9 +15,9 @@ export default function BalkanCastleSaltMineJourneyPage() {
         <Breadcrumb
           items={[
             { label: '首页', href: '/' },
-            { label: '景点百科', href: '/category/encyclopedia' },
-            { label: '塞尔维亚', href: '/destinations/serbia' },
-            { label: '戈卢巴茨 & 图尔达', href: '/destinations/serbia' },
+            { label: '景点游记', href: '/category/travelogue' },
+            { label: '罗马尼亚', href: '/destinations/romania' },
+            { label: '图尔达', href: '/destinations/romania' },
             { label: '戈卢巴茨要塞与图尔达盐矿：穿越巴尔干的时光隧道', href: '/attractions/balkan-castle-salt-mine-journey' },
           ]}
         />
@@ -42,8 +42,8 @@ export default function BalkanCastleSaltMineJourneyPage() {
                 <InfoRow label="中文名称" value={`戈卢巴茨要塞与图尔达盐矿：穿越巴尔干的时光隧道`} />
                 <InfoRow label="英文名称" value={`Golubac Fortress & Turda Salt Mine`} />
                 <InfoRow label="正式名称" value={`Golubac Fortress & Turda Salt Mine`} />
-                <InfoRow label="国家" value={`塞尔维亚 & 罗马尼亚`} />
-                <InfoRow label="城市" value={`戈卢巴茨 & 图尔达`} />
+                <InfoRow label="国家" value={`罗马尼亚`} />
+                <InfoRow label="城市" value={`图尔达`} />
               </div>
               <div className="space-y-4">
                 <InfoRow label="历史地位" value={`戈卢巴茨要塞：多瑙河铁门峡谷的咽喉，见证塞尔维亚、匈牙利与奥斯曼三大帝国百年拉锯战的关键锁钥。
