@@ -1,0 +1,89 @@
+{
+  "slug": "navarino-fortress-pylos",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "纳瓦里诺要塞自由行指南：探秘奥米加海湾与史诗海战的壮丽遗迹",
+    "description": "希腊纳瓦里诺要塞(Navarino Fortress)深度游攻略。探索六边形海防堡垒，俯瞰奥米加形海湾，重温改变欧洲历史的纳瓦里诺海战遗址。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "希腊",
+      "href": "/destinations/greece"
+    },
+    {
+      "label": "伯罗奔尼撒",
+      "href": "/destinations/greece"
+    },
+    {
+      "label": "纳瓦里诺要塞（皮洛斯）",
+      "href": "/attractions/navarino-fortress-pylos"
+    }
+  ],
+  "hero": {
+    "title": "纳瓦里诺要塞（皮洛斯）・Navarino Fortress (Pylos)・希腊・伯罗奔尼撒",
+    "description": "嘿，朋友！如果你厌倦了圣托里尼的蓝白屋顶和雅典卫城的人山人海，想找一片能同时震撼眼睛和心灵的历史海岸，那今天这份纳瓦里诺要塞私藏旅游攻略，就是为你准备的。它不在常规的希腊岛屿跳岛路线上，而是隐秘在伯罗奔尼撒半岛西南角的皮洛斯镇旁。想象一下：你站在一座16世纪的巨型六边形堡垒的城墙顶端，脚下是如同一枚巨大“Ω”符号般嵌入陆地的翡翠色海湾——纳瓦里诺湾。左手是沉静的地中海，右手是层叠的橄榄树山丘，而你所站立的地方，正是1827年那场决定现代希腊命运的“纳瓦里诺海战”的见证者。这不仅仅是一个景点，这是一次走入历史地理课本封面的体验。作为你的专属向导，这份自由行指南会带你避开纯打卡的游客，像探险家一样，去触摸石头里的故事，感受海湾的风。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">嘿，朋友！如果你厌倦了圣托里尼的蓝白屋顶和雅典卫城的人山人海，想找一片能同时震撼眼睛和心灵的历史海岸，那今天这份纳瓦里诺要塞私藏旅游攻略，就是为你准备的。它不在常规的希腊岛屿跳岛路线上，而是隐秘在伯罗奔尼撒半岛西南角的皮洛斯镇旁。想象一下：你站在一座16世纪的巨型六边形堡垒的城墙顶端，脚下是如同一枚巨大“Ω”符号般嵌入陆地的翡翠色海湾——纳瓦里诺湾。左手是沉静的地中海，右手是层叠的橄榄树山丘，而你所站立的地方，正是1827年那场决定现代希腊命运的“纳瓦里诺海战”的见证者。这不仅仅是一个景点，这是一次走入历史地理课本封面的体验。作为你的专属向导，这份自由行指南会带你避开纯打卡的游客，像探险家一样，去触摸石头里的故事，感受海湾的风。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">纳瓦里诺要塞（皮洛斯）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Navarino Fortress (Pylos)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Navarino Fortress (Pylos)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">希腊</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">伯罗奔尼撒</div>\n</div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">说起纳瓦里诺要塞的历史地位，我们必须把时钟拨回1827年10月20日。那时，这里不是安静的旅游地，而是近代欧洲史上最后一场完全由风帆战舰对决的宏大战场，也是改变希腊乃至欧洲格局的关键节点。当时，希腊正在进行独立战争，反抗奥斯曼土耳其帝国的统治。奥斯曼-埃及联合舰队就盘踞在这易守难攻的纳瓦里诺湾内。而英国、法国、俄国组成的联军舰队，为了支持希腊独立，毅然驶入这个“口袋”，打响了这场惊天动地的海战。结果，联军以微小损失几乎全歼了土埃舰队。这场胜利直接削弱了奥斯曼帝国在地中海的力量，为希腊在1830年正式独立铺平了道路，也深刻影响了之后的“东方问题”和欧洲大国均势。所以，你脚下的每一块石头，守望的不仅仅是海湾，更是一段欧洲民族国家兴起的澎湃史诗。这座要塞本身，由奥斯曼帝国在1573年建造，用于控制这个天然良港，在战前战后易手多次，本身就是一部浓缩的地中海霸权争夺史。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">纳瓦里诺要塞的建筑，第一眼看去就是一种粗粝而强大的几何震撼。它不是一个童话城堡，而是一个纯粹的、为战争而生的巨兽。它的核心是一个近乎完美的六边形堡垒，这种设计能让守军的火力无死角地覆盖整个海湾入口和周边陆地。城墙由当地粗糙的灰色石灰岩砌成，石块巨大，缝隙间填充着更小的碎石和砂浆，历经数百年海风的侵蚀，颜色斑驳，呈现出一种沧桑的铁锈色与灰白色交织的质感。城墙极为厚重，在某些地方厚度超过五米，你可以走进城墙内部的甬道和炮位，触摸那冰凉而凹凸不平的石壁。堡垒高高矗立在海湾北侧的海角（Koryphasion）上，从海上望去，犹如一头匍匐的猛兽。最绝妙的是，它的存在与海湾的形态——“奥米加（Ω）形”海湾——形成了天作之合。这个海湾三面被陆地怀抱，出口狭窄，本身就是大自然的完美防御工事。要塞就像一枚精准嵌入海湾锁孔的钥匙，牢牢扼守着咽喉。站在城墙顶，你可以清晰看到海湾那优美的Ω曲线，一边是皮洛斯镇的彩色房子，另一边是斯法克特里亚岛的长长屏障，海水的颜色从近岸的透明浅绿，渐变为深沉的宝蓝。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">纳瓦里诺要塞是奥斯曼帝国军事建筑风格的典型代表，尤其体现了16世纪“防御工事艺术”的巅峰思路。它不属于欧洲常见的哥特或巴洛克那种注重美学装饰的风格，它的全部美学就是“功能与威慑”。风格的核心是“棱堡式防御体系”。你看到的六边形，以及城墙转折处那些突出的、多边形的棱堡（Bastion），都是为了消除射击死角。棱堡的斜面设计，使得攻城方的炮弹更容易打滑弹开，而守军却可以从多个角度用交叉火力覆盖城墙下的任何进攻者。这里的城墙顶部通常平坦，留有垛口和炮位，是标准的“城墙步道”设计。城门往往低矮而坚固，上面有时会有简单的阿拉伯语铭文或奥斯曼纹章遗迹。建筑内部空间——如兵营、仓库、清真寺（后常改为教堂）和水窖——都遵循简洁、坚固、实用的原则，拱顶通常采用简朴的筒形拱或十字拱。这种风格在这里的体现，就是它完美地适应并强化了天然地形。建筑师没有试图改变海湾，而是让自己的设计成为地形的一部分，达到了“虽由人作，宛自天开”的军事工程学境界，展现了一种冷酷而高效的力量美感。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">对于现代希腊人而言，纳瓦里诺要塞远远超出一个古迹的意义。它是民族独立精神的物理图腾。每年10月20日，这里及附近的皮洛斯镇都会有纪念活动，那场海战被视为国家诞生的阵痛与荣光。它让“纳瓦里诺”这个词，深深镌刻在希腊的国家叙事和集体记忆里。在今天，这片海湾异常宁静，是海龟的栖息地和帆船爱好者的乐园。这种从惨烈战场到和平天堂的转变，本身就极具文化隐喻：伤痕被时间抚平，但记忆被石头铭记。要塞的存留，提醒着人们自由的代价。同时，它也是皮洛斯地区旅游文化的基石。小镇因它而充满历史厚重感，而不只是一个普通的海滨度假地。当地导游讲述的故事里，总少不了那场海战的细节；餐馆里可能有一道菜以“纳瓦里诺”命名；艺术家们的画作里，总少不了那六边形堡垒的剪影。它塑造了本地的身份认同，让居民以守护这段历史为荣。来到这里，你感受到的不是遥远的、与他无关的古迹，而是一个依然在呼吸、在诉说的活的历史现场。</div>\n</div>\n              </div>\n            </div>\n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">全天开放</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">免费</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">请参考地图导航</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">建议步行或公共交通</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 纳瓦里诺要塞一日游打卡路线攻略：从堡垒之巅到海湾日落",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">经典深度游览路线规划</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  好了，路线规划开始！作为你的向导，我建议你把整整一天留给皮洛斯和纳瓦里诺要塞，节奏可以放慢，好好感受。上午：别睡懒觉，趁着晨光柔和且游客未至，直接驱车或从皮洛斯镇打车前往要塞（路程约5分钟）。买票进入后，先别急着爬上最高点，沿着主城门内的路径慢慢走，看看那些古老的蓄水池和营房遗迹，想象士兵的生活。然后，沿着城墙步道顺时针游览，每一个棱堡都上去看看，角度不同，海湾的景色也截然不同。在面向开阔地中海的一侧，深吸一口气，那是纯粹的自由味道。中午：下山回到迷人的皮洛斯镇。镇中心的三边被海湾环绕，广场（Plateia）非常漂亮。找一家能看到海湾的 taverna（传统小馆），必点当地新鲜捕捞的鱼和招牌的“Mpifteki”（希腊肉饼）。饭后在广场的悬铃树下喝一杯希腊咖啡，看鸽子散步。下午：休息后，有两个选择。一是去镇上的“纳瓦里诺海战全景图”博物馆，那是一幅巨大的环形壁画，能让你身临其境感受那场海战的震撼。二是，如果你热爱自然，可以驱车前往海湾南侧的“瓦伊奥科斯海滩”（Voidokilia Beach），那是伯罗奔尼撒最著名的海滩之一，完美的Ω形沙洲，从高处看堪称奇迹，也是徒步和游泳的绝佳地点。傍晚：这是黄金时刻！务必返回纳瓦里诺要塞，或者前往皮洛斯镇南侧的“古城涅斯托尔宫”遗址附近的山坡（也是一个历史地点）。夕阳会把整个奥米加海湾染成金红色，堡垒成为黑色的剪影，帆船点点归航。这是任何相机都无法完全记录的震撼。\n                </p>\n                \n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "4. 必看亮点",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1.  主棱堡的“鹰眼视角”：一定要走到面向海湾入口最突出的那个棱堡上。站在那里，你会立刻明白何为“一夫当关，万夫莫开”。你的正前方是狭窄的海峡，左手边是广阔的伊奥尼亚海，右手边是平静如内湖的整个纳瓦里诺湾。试着找找城墙上的炮口，把眼睛凑近（注意安全），通过那个狭窄的方形视野望出去——这正是几个世纪前炮手眼中的世界，一个被石框切割的、充满紧张感的海平面。海风穿过炮口，发出低沉的呜咽，仿佛是历史的回响。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2.  城墙石的“记忆纹理”：用手轻轻触摸城墙的石头。你会发现它们并不光滑，布满蜂窝状的小孔和深深的刻痕。那是数百年来地中海含盐湿气的侵蚀，也是可能来自古老炮弹或工具的刮擦。仔细观察石块的拼接方式，大的基石在下，小的填缝石在上，工艺质朴却无比坚固。在某些背阴的墙面，还能看到厚厚的、墨绿色的苔藓，摸上去湿润柔软，生命与顽石在此共存。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">3.  海湾的“色彩分层魔法”：从要塞制高点俯瞰，不要只看轮廓，请专注欣赏海水的色彩。近岸处，因为水浅和沙质海底，是清澈见底的蒂芙尼蓝和翡翠绿，你能看到水下的礁石阴影。随着深度增加，颜色渐变为扎实的钴蓝色。而在海湾中央最深处，是一片浓厚的、天鹅绒般的群青色。阳光移动时，这片巨大的“Ω”形调色板每分每秒都在变幻，时而银光粼粼，时而金光万道。偶尔一艘白色游艇划过，拖出一条长长的、逐渐消散的孔雀绿尾迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">4.  隐秘的“地下蓄水池”：在要塞内部区域，留意那些带有拱顶的半地下结构（通常有指示牌）。走进去，瞬间凉爽下来，光线昏暗，空气中有淡淡的泥土和石头的气息。这是古老的蓄水池，用于收集雨水，保障被围困时的饮水。抬头看拱顶，感受空间的深邃与回声。池底可能已干涸，但想象它盛满清水时，水面倒映着拱顶的景象，那是堡垒生存的生命线，一种在战争美学背后，关于生存的朴素智慧。</p>\n            </div>"
+    },
+    {
+      "title": "5. 实用避坑指南",
+      "bodyHtml": "<div class=\"bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1.  时间与天气是王道：最佳游览时间是春季（4-6月）和秋季（9-10月），气候温和，花草繁茂，游客相对较少。绝对要避开盛夏（7-8月）的正午！要塞毫无遮阴，岩石反射热量，宛如烤箱。务必选择清晨（9点前）或傍晚（17点后）进入。冬季风大，且可能遇到雨天，城墙湿滑，要格外小心。查看日落时间，提前至少1.5小时抵达，才能捕捉到最美的光影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2.  穿着与装备：舒适高于一切：忘记人字拖和皮鞋！必须穿防滑耐磨的封闭式运动鞋或登山鞋，因为城墙步道是原始的粗糙石板和碎石路，坡度不小。戴宽檐帽、墨镜，涂抹高倍数防晒霜。带足饮用水，山上没有卖水点。一个小手电或手机充好电，如果你想去探索那些没有照明的内部通道和蓄水池（注意安全标志，有些区域可能禁止进入）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">3.  交通与参观须知：从皮洛斯镇到要塞有明确路标，但最后一段是上坡小路，自驾需注意。如果没有车，镇上有出租车，最好和司机约好回程时间，因为下山时可能不易叫车。门票很便宜，但只收现金（欧元）！提前备好零钱。入口处有简单的地图，建议拍下来。堡垒范围很大，但官方标识系统相对简单，不要冒险攀爬没有防护的残墙或悬崖边。最后，尊重这里的历史意义，保持安静，不要大声喧哗或乱刻乱画。</p>\n            </div>"
+    },
+    {
+      "title": "6. 纳瓦里诺湾周边住宿与美食攻略：住在历史与风景之间",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">住宿：强烈建议住在皮洛斯镇本身。这里没有大型连锁酒店，多是家庭经营的精品旅馆和出租公寓。推荐选择能俯瞰海湾或中心广场的房间。比如“Pension Filoxenia”这类家庭旅馆，阳台正对海湾，早上在鸟鸣和海浪声中醒来。想更奢华一些，海湾周边也有几家设计精美的精品酒店，但价格较高。住在镇上，晚上可以轻松步行到餐厅和咖啡馆，感受当地人悠闲的夜生活氛围。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">餐饮：皮洛斯的美食是此行亮点。在中心广场或滨海步道找一家坐满当地人的“taverna”。必尝的有：烤章鱼（Charcoal-Grilled Octopus），外焦里嫩，淋上橄榄油和柠檬汁；纳瓦里诺湾新鲜鱼类（当日捕获，按公斤称重，简单烤制）；以及伯罗奔尼撒特色的“拉科尼科”橄榄油和“墨塞尼亚”葡萄酒。推荐餐厅“Boubas”或“Oitzo”，不仅味道正宗，老板也乐于和你聊聊当地故事。饭后甜点，一定要试试“Galaktoboureko”（奶香千层酥）或一大勺绵密的酸奶配蜂蜜。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 周边延伸探索",
+      "bodyHtml": "<div class=\"bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1.  瓦伊奥科斯海滩与涅斯托尔洞穴：从皮洛斯镇开车约15分钟，就能到达被誉为“希腊最美海滩之一”的瓦伊奥科斯海滩。它的沙洲形状也是一个完美的Ω形，与上方的纳瓦里诺要塞遥相呼应。这里沙质细白，海水晶莹剔透。更棒的是，你可以从海滩一端开始一段轻松的徒步，爬上背后的帕莱奥卡斯特罗山，探访涅斯托尔洞穴（Cave of Nestor）。传说这是荷马史诗中皮洛斯国王涅斯托尔的避难所，洞穴本身就很壮观，还能从另一个绝佳高度俯瞰整个瓦伊奥科斯海滩和纳瓦里诺湾，视角与要塞截然不同。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2.  古城涅斯托尔宫遗址：距离皮洛斯镇北约15分钟车程。这里是迈锡尼文明时期（约公元前1300年）的一个重要宫殿遗址，被认为是史诗中国王涅斯托尔的宫殿。虽然只剩地基，但其规划清晰，现场博物馆里收藏着著名的“涅斯托尔金杯”复制品和珍贵的线性文字B泥板。这里游客通常不多，能让你从19世纪的海战历史，一下子跳跃到三千年前的青铜时代，感受伯罗奔尼撒层层叠叠的历史沉积，完成一次时空穿梭之旅。</p>\n            </div>"
+    },
+    {
+      "title": "8. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">纳瓦里诺要塞的灵魂，在于那种极致的矛盾与统一：曾经震耳欲聋的炮火声，如今化作了海浪永不止息的温柔低语；为禁锢与防御而建的冰冷石墙，现在却成了人们追寻自由视野与广阔心胸的瞭望台。它告诉我们，最坚固的堡垒终将被时间驯服，而最美丽的风景，往往诞生于最厚重的历史伤痕之上。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/molyvos-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫利沃斯（依山傍海的石头城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Molyvos</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hosios-loukas-monastery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍西奥斯·卢卡斯修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hosios Loukas</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mystras-byzantine-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米斯特拉斯拜占庭遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mystras</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "molyvos-town",
+          "name": "莫利沃斯（依山傍海的石头城）",
+          "englishName": "Molyvos"
+        },
+        {
+          "slug": "hosios-loukas-monastery",
+          "name": "霍西奥斯·卢卡斯修道院",
+          "englishName": "Hosios Loukas"
+        },
+        {
+          "slug": "mystras-byzantine-ruins",
+          "name": "米斯特拉斯拜占庭遗址",
+          "englishName": "Mystras"
+        }
+      ]
+    }
+  ]
+}

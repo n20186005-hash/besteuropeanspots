@@ -1,21 +1,34 @@
-import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { Section } from "@/components/Section";
+import { attractions, getAttraction, getAllSlugs } from "@/lib/attractions";
 import {
-  attractions,
-  getAttraction,
-  getAllSlugs,
-  regionLabelsEN,
-  typeLabelsEN,
-  regionColors,
-} from "@/lib/attractions";
+  getAttractionPageContent,
+  type AttractionPageContent,
+  type AttractionPageRelatedItem,
+} from "@/lib/attraction-page-data";
 
-/* ── Static Params ──────────────────────────────────── */
+const TEMPLATE_THEME = {
+  encyclopedia: {
+    label: "景点百科",
+    badgeClass: "bg-red-50 text-red-700 border border-red-100",
+  },
+  travelogue: {
+    label: "景点游记",
+    badgeClass: "bg-blue-50 text-blue-700 border border-blue-100",
+  },
+  history: {
+    label: "历史人文",
+    badgeClass: "bg-amber-50 text-amber-700 border border-amber-100",
+  },
+} as const;
+
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
 
-/* ── Metadata ───────────────────────────────────────── */
 export async function generateMetadata({
   params,
 }: {
@@ -23,278 +36,217 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const attraction = getAttraction(slug);
-  if (!attraction) return {};
+  const pageContent = getAttractionPageContent(slug);
+
+  if (!attraction && !pageContent) {
+    return {};
+  }
+
+  const title =
+    pageContent?.metadata.title ||
+    `${attraction?.name || slug} (${attraction?.englishName || slug})`;
+  const description =
+    pageContent?.metadata.description || attraction?.description || "";
 
   return {
-    title: `${attraction.name} (${attraction.englishName})`,
-    description: attraction.description,
+    title,
+    description,
     openGraph: {
-      title: `${attraction.name} — ${attraction.englishName}`,
-      description: attraction.description,
+      title,
+      description,
       type: "article",
       siteName: "Best European Spots",
     },
   };
 }
 
-/* ── Section Component ──────────────────────────────── */
-function Section({
-  title,
-  number,
-  children,
-}: {
-  title: string;
-  number: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section className="py-8 border-b border-border last:border-b-0">
-      <div className="flex items-baseline gap-3 mb-4">
-        <span className="text-xs font-bold text-accent bg-accent/10 w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0">
-          {number}
-        </span>
-        <h2 className="text-xl font-semibold text-primary">{title}</h2>
-      </div>
-      <div className="pl-10">{children}</div>
-    </section>
-  );
+function buildFallbackContent(slug: string): AttractionPageContent | null {
+  const attraction = getAttraction(slug);
+  if (!attraction) return null;
+
+  const category = attraction.category || [];
+  const template = category.includes("history")
+    ? "history"
+    : category.includes("travelogue")
+      ? "travelogue"
+      : "encyclopedia";
+
+  return {
+    slug,
+    template,
+    metadata: {
+      title: `${attraction.name} (${attraction.englishName})`,
+      description: attraction.description,
+    },
+    breadcrumbs: [
+      { label: "首页", href: "/" },
+      {
+        label: TEMPLATE_THEME[template].label,
+        href: `/category/${template}`,
+      },
+      {
+        label: attraction.country,
+        href: `/destinations/${attraction.countrySlug || "europe"}`,
+      },
+      {
+        label: attraction.city,
+        href: `/destinations/${attraction.countrySlug || "europe"}`,
+      },
+      {
+        label: attraction.name,
+        href: `/attractions/${slug}`,
+      },
+    ],
+    hero: {
+      title: `${attraction.name}・${attraction.englishName}・${attraction.country}・${attraction.city}`,
+      description: attraction.description,
+    },
+    sections: [
+      {
+        title: "1. 景点介绍",
+        bodyHtml: `<p class="text-gray-700 leading-relaxed mb-4">${attraction.description}</p>`,
+      },
+      {
+        title: "2. 基本信息",
+        bodyHtml: `
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="space-y-4">
+              <div class="bg-gray-50 p-4 rounded-lg border border-gray-200"><div class="text-sm text-gray-500 mb-1">中文名称</div><div class="text-gray-900 font-medium">${attraction.name}</div></div>
+              <div class="bg-gray-50 p-4 rounded-lg border border-gray-200"><div class="text-sm text-gray-500 mb-1">英文名称</div><div class="text-gray-900 font-medium">${attraction.englishName}</div></div>
+              <div class="bg-gray-50 p-4 rounded-lg border border-gray-200"><div class="text-sm text-gray-500 mb-1">国家</div><div class="text-gray-900 font-medium">${attraction.country}</div></div>
+              <div class="bg-gray-50 p-4 rounded-lg border border-gray-200"><div class="text-sm text-gray-500 mb-1">城市</div><div class="text-gray-900 font-medium">${attraction.city}</div></div>
+            </div>
+            <div class="space-y-4">
+              <div class="bg-gray-50 p-4 rounded-lg border border-gray-200"><div class="text-sm text-gray-500 mb-1">开放时间</div><div class="text-gray-900 font-medium">${attraction.openingHours}</div></div>
+              <div class="bg-gray-50 p-4 rounded-lg border border-gray-200"><div class="text-sm text-gray-500 mb-1">门票价格</div><div class="text-gray-900 font-medium">${attraction.ticketPrice}</div></div>
+              <div class="bg-gray-50 p-4 rounded-lg border border-gray-200"><div class="text-sm text-gray-500 mb-1">地址</div><div class="text-gray-900 font-medium">${attraction.address}</div></div>
+              <div class="bg-gray-50 p-4 rounded-lg border border-gray-200"><div class="text-sm text-gray-500 mb-1">交通方式</div><div class="text-gray-900 font-medium">${attraction.transport}</div></div>
+            </div>
+          </div>`,
+      },
+    ],
+  };
 }
 
-/* ── Info Row ───────────────────────────────────────── */
-function InfoRow({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="flex gap-4 py-3 border-b border-border/50 last:border-b-0">
-      <span className="text-sm font-medium text-muted w-24 flex-shrink-0">
-        {label}
-      </span>
-      <span className="text-sm text-foreground leading-relaxed">{value}</span>
-    </div>
-  );
-}
+function DefaultRelatedAttractions({ slug }: { slug: string }) {
+  const attraction = getAttraction(slug);
+  if (!attraction) return null;
 
-/* ── Placeholder Section ────────────────────────────── */
-function PlaceholderContent({ text }: { text: string }) {
-  return (
-    <div className="bg-surface rounded-lg p-6 text-center">
-      <p className="text-muted text-sm">{text}</p>
-      <p className="text-muted-light text-xs mt-1">Coming Soon</p>
-    </div>
-  );
-}
-
-/* ── Breadcrumb Navigation ──────────────────────────── */
-function Breadcrumb({
-  name,
-  englishName,
-}: {
-  name: string;
-  englishName: string;
-}) {
-  return (
-    <nav className="flex items-center gap-2 text-sm text-muted">
-      <Link
-        href="/"
-        className="hover:text-primary transition-colors"
-      >
-        Home
-      </Link>
-      <span className="text-muted-light">/</span>
-      <Link
-        href="/#destinations"
-        className="hover:text-primary transition-colors"
-      >
-        Destinations
-      </Link>
-      <span className="text-muted-light">/</span>
-      <span className="text-primary font-medium truncate max-w-[200px]">
-        {name}
-      </span>
-    </nav>
-  );
-}
-
-/* ── Related Attractions ────────────────────────────── */
-function RelatedAttractions({
-  currentSlug,
-  region,
-  type,
-}: {
-  currentSlug: string;
-  region: string;
-  type: string;
-}) {
   const related = attractions
     .filter(
-      (a) =>
-        a.slug !== currentSlug && (a.region === region || a.type === type)
+      (item) =>
+        item.slug !== slug &&
+        (item.country === attraction.country || item.type === attraction.type)
     )
-    .slice(0, 4);
+    .slice(0, 3);
 
   if (related.length === 0) return null;
 
   return (
-    <section className="mt-16">
-      <h2 className="text-2xl font-semibold text-primary mb-6">
-        You Might Also Like
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-        {related.map((a) => {
-          const color = regionColors[a.region] || "#555";
-          return (
-            <Link
-              key={a.slug}
-              href={`/attractions/${a.slug}`}
-              className="group block bg-white rounded-xl overflow-hidden border border-border hover:shadow-md transition-all"
-            >
-              <div
-                className="h-32"
-                style={{
-                  background: `linear-gradient(135deg, ${color}cc, ${color}44)`,
-                }}
-              >
-                <div className="h-full flex items-center justify-center">
-                  <span className="text-white/25 text-4xl font-serif">
-                    {a.name[0]}
-                  </span>
-                </div>
+    <Section title="猜你喜欢">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        {related.map((item) => (
+          <Link href={`/attractions/${item.slug}`} key={item.slug} className="block group">
+            <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+              <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                {item.name[0]}
               </div>
               <div className="p-4">
-                <h3 className="text-sm font-semibold text-primary group-hover:text-primary-light transition-colors mb-1">
-                  {a.name}
+                <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">
+                  {item.name}
                 </h3>
-                <p className="text-xs text-muted">
-                  {a.englishName} &middot; {a.country}
-                </p>
+                <p className="text-sm text-gray-500 mt-1 line-clamp-1">{item.englishName}</p>
               </div>
-            </Link>
-          );
-        })}
+            </div>
+          </Link>
+        ))}
       </div>
-    </section>
+    </Section>
   );
 }
 
-/* ── Page Component ─────────────────────────────────── */
+function RelatedSection({
+  relatedItems,
+  slug,
+}: {
+  relatedItems: AttractionPageRelatedItem[];
+  slug: string;
+}) {
+  if (relatedItems.length === 0) {
+    return <DefaultRelatedAttractions slug={slug} />;
+  }
+
+  return (
+    <Section title="猜你喜欢">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        {relatedItems.map((item) => (
+          <Link href={`/attractions/${item.slug}`} key={item.slug} className="block group">
+            <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
+              <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
+                {item.name[0]}
+              </div>
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">
+                  {item.name}
+                </h3>
+                <p className="text-sm text-gray-500 mt-1 line-clamp-1">{item.englishName}</p>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
 export default async function AttractionPage({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const pageContent = getAttractionPageContent(slug) || buildFallbackContent(slug);
   const attraction = getAttraction(slug);
-  if (!attraction) notFound();
 
-  const color = regionColors[attraction.region] || "#555";
+  if (!pageContent || !attraction) {
+    notFound();
+  }
+
+  const theme = TEMPLATE_THEME[pageContent.template];
+  const mainSections = pageContent.sections.filter((section) => section.title !== "猜你喜欢");
+  const relatedSection = pageContent.sections.find((section) => section.title === "猜你喜欢");
 
   return (
-    <article className="min-h-screen">
-      {/* Hero Banner */}
-      <div
-        className="relative h-64 sm:h-80"
-        style={{
-          background: `linear-gradient(135deg, ${color} 0%, ${color}99 50%, ${color}55 100%)`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black/20" />
-        <div className="absolute inset-0 flex items-end">
-          <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 pb-8">
-            <div className="flex flex-wrap gap-2 mb-4">
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                {typeLabelsEN[attraction.type] || attraction.type}
-              </span>
-              <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded-full text-primary">
-                {regionLabelsEN[attraction.region]}
-              </span>
-            </div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">
-              {attraction.name}
-            </h1>
-            <p className="text-lg text-white/80">
-              {attraction.englishName} &middot; {attraction.country} &middot;{" "}
-              {attraction.city}
-            </p>
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumb items={pageContent.breadcrumbs} />
+
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <div className="mb-4">
+            <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${theme.badgeClass}`}>
+              {theme.label}
+            </span>
           </div>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{pageContent.hero.title}</h1>
+          <p className="text-lg text-gray-600 mb-6 whitespace-pre-line">{pageContent.hero.description}</p>
+        </div>
+
+        <div className="space-y-8">
+          {mainSections.map((section) => (
+            <Section key={section.title} title={section.title}>
+              <div
+                className="space-y-4 [&_a]:text-blue-600 [&_a]:hover:underline"
+                dangerouslySetInnerHTML={{ __html: section.bodyHtml }}
+              />
+            </Section>
+          ))}
+
+          <RelatedSection
+            relatedItems={relatedSection?.relatedItems || []}
+            slug={slug}
+          />
         </div>
       </div>
-
-      {/* Content */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Breadcrumb
-          name={attraction.name}
-          englishName={attraction.englishName}
-        />
-
-        <div className="mt-8">
-          {/* 1. 景点简介 */}
-          <Section number="1" title="景点简介">
-            <p className="text-base leading-relaxed text-foreground/90">
-              {attraction.description}
-            </p>
-          </Section>
-
-          {/* 2. 基本信息 */}
-          <Section number="2" title="基本信息">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow label="开放时间" value={attraction.openingHours} />
-              <InfoRow label="门票价格" value={attraction.ticketPrice} />
-              <InfoRow label="详细地址" value={attraction.address} />
-              <InfoRow label="交通方式" value={attraction.transport} />
-            </div>
-          </Section>
-
-          {/* 3. 历史背景 */}
-          <Section number="3" title="历史背景">
-            <PlaceholderContent text="历史背景内容正在整理中，敬请期待" />
-          </Section>
-
-          {/* 4. 游览路线建议 */}
-          <Section number="4" title="游览路线建议">
-            <PlaceholderContent text="游览路线建议正在整理中，敬请期待" />
-          </Section>
-
-          {/* 5. 最佳拍照机位 */}
-          <Section number="5" title="最佳拍照机位">
-            <PlaceholderContent text="拍照机位推荐正在整理中，敬请期待" />
-          </Section>
-
-          {/* 6. 附近可逛景点 */}
-          <Section number="6" title="附近可逛景点">
-            <PlaceholderContent text="周边景点信息正在整理中，敬请期待" />
-          </Section>
-
-          {/* 7. 周边住宿推荐 */}
-          <Section number="7" title="周边住宿推荐">
-            <PlaceholderContent text="住宿推荐正在整理中，敬请期待" />
-          </Section>
-
-          {/* 8. 实用小贴士 */}
-          <Section number="8" title="实用小贴士">
-            <div className="bg-surface rounded-lg p-5">
-              <InfoRow label="最佳季节" value={attraction.bestSeason} />
-              <InfoRow label="建议时长" value={attraction.suggestedDuration} />
-              <InfoRow label="注意事项" value={attraction.tips} />
-            </div>
-          </Section>
-        </div>
-
-        {/* Related attractions */}
-        <RelatedAttractions
-          currentSlug={attraction.slug}
-          region={attraction.region}
-          type={attraction.type}
-        />
-
-        {/* Back link */}
-        <div className="mt-12 mb-8 text-center">
-          <Link
-            href="/#destinations"
-            className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary-light transition-colors"
-          >
-            <span>&larr;</span>
-            <span>Back to All Destinations</span>
-          </Link>
-        </div>
-      </div>
-    </article>
+    </div>
   );
 }

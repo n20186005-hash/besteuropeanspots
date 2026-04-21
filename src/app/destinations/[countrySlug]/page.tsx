@@ -11,8 +11,9 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: { params: { countrySlug: string } }) {
-  const country = attractions.find((a) => a.countrySlug === params.countrySlug)?.country;
+export async function generateMetadata({ params }: { params: Promise<{ countrySlug: string }> }) {
+  const { countrySlug } = await params;
+  const country = attractions.find((a) => a.countrySlug === countrySlug)?.country;
   if (!country) {
     return { title: "目的地未找到" };
   }
@@ -22,14 +23,15 @@ export function generateMetadata({ params }: { params: { countrySlug: string } }
   };
 }
 
-export default function CountryPage({ params }: { params: { countrySlug: string } }) {
-  const countrySpots = attractions.filter((a) => a.countrySlug === params.countrySlug);
+export default async function CountryPage({ params }: { params: Promise<{ countrySlug: string }> }) {
+  const { countrySlug } = await params;
+  const countrySpots = attractions.filter((a) => a.countrySlug === countrySlug);
 
   if (countrySpots.length === 0) {
     notFound();
   }
 
-  const countryName = countrySpots[0].country;
+  const countryName = countrySpots[0]!.country;
 
   return (
     <div className="bg-white min-h-screen">
@@ -38,7 +40,7 @@ export default function CountryPage({ params }: { params: { countrySlug: string 
           items={[
             { label: "首页", href: "/" },
             { label: "目的地", href: "/destinations" },
-            { label: countryName, href: `/destinations/${params.countrySlug}` },
+            { label: countryName, href: `/destinations/${countrySlug}` },
           ]}
         />
 

@@ -1,0 +1,35 @@
+{
+  "slug": "skopje-old-town",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "斯科普里老城｜巴尔干小众旅行实用攻略，新手也能轻松逛 - 最佳欧洲景点",
+    "description": "斯科普里老城是巴尔干半岛规模最大、历史最悠久的奥斯曼风格集市之一，坐落在瓦尔达尔河北岸，满是烟火气的石板小巷里藏着百年清真寺、老商队旅馆和手工作坊。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "北马其顿",
+      "href": "/destinations/north-macedonia"
+    },
+    {
+      "label": "斯科普里",
+      "href": "/destinations/north-macedonia"
+    },
+    {
+      "label": "斯科普里老城",
+      "href": "/attractions/skopje-old-town"
+    }
+  ],
+  "hero": {
+    "title": "",
+    "description": ""
+  },
+  "sections": []
+}

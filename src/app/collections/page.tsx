@@ -1,4 +1,5 @@
 import { attractions } from "@/lib/attractions";
+import { collections } from "@/lib/collections";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
@@ -6,28 +7,6 @@ export const metadata = {
   title: "精选欧洲旅行榜单 | Best European Spots",
   description: "发现最棒的欧洲小众景点榜单：包括南欧历史遗迹、北欧自然奇观等深度旅行指南。",
 };
-
-// 预定义一些聚合标签（后续可将这些移入单独的JSON配置）
-export const collections = [
-  {
-    title: "南欧 15 大被低估的历史遗迹",
-    slug: "top-15-hidden-historical-spots-in-southern-europe",
-    description: "避开罗马和雅典的人潮，探索意大利、希腊与西班牙的隐秘古城和神庙。",
-    filter: (a: any) => ["意大利", "希腊", "西班牙", "葡萄牙"].includes(a.country) && a.type === "历史遗迹",
-  },
-  {
-    title: "西欧最美中世纪古城",
-    slug: "most-beautiful-medieval-towns-western-europe",
-    description: "穿越回中世纪，漫步在法国、德国和比利时的石板路上。",
-    filter: (a: any) => ["法国", "德国", "比利时", "荷兰"].includes(a.country) && a.type === "古城",
-  },
-  {
-    title: "欧洲隐秘的绝美修道院与大教堂",
-    slug: "hidden-abbeys-and-cathedrals-europe",
-    description: "远离喧嚣，寻找欧洲大陆上那些宁静、神圣且建筑精美的宗教圣地。",
-    filter: (a: any) => a.type === "教堂修道院",
-  },
-];
 
 export default function CollectionsPage() {
   return (

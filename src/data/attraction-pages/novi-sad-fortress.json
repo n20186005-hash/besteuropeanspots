@@ -1,0 +1,35 @@
+{
+  "slug": "novi-sad-fortress",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "诺维萨德要塞避坑指南｜这些错我替你犯了，新手也能轻松逛 - 最佳欧洲景点",
+    "description": "诺维萨德要塞坐落于多瑙河畔，是塞尔维亚最著名的中世纪要塞之一，也是诺维萨德的城市象征。这座始建于17世纪的军事堡垒，历经战火洗礼仍保存完好。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "塞尔维亚",
+      "href": "/destinations/serbia"
+    },
+    {
+      "label": "诺维萨德",
+      "href": "/destinations/serbia"
+    },
+    {
+      "label": "诺维萨德要塞",
+      "href": "/attractions/novi-sad-fortress"
+    }
+  ],
+  "hero": {
+    "title": "",
+    "description": ""
+  },
+  "sections": []
+}

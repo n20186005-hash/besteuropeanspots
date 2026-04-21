@@ -2,7 +2,7 @@ import { attractions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { collections } from "../page";
+import { collections } from "@/lib/collections";
 
 // 生成静态路由参数
 export function generateStaticParams() {
@@ -11,8 +11,9 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const collection = collections.find((c) => c.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const collection = collections.find((c) => c.slug === slug);
   if (!collection) {
     return { title: "榜单未找到" };
   }
@@ -22,8 +23,9 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   };
 }
 
-export default function CollectionDetailPage({ params }: { params: { slug: string } }) {
-  const collection = collections.find((c) => c.slug === params.slug);
+export default async function CollectionDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const collection = collections.find((c) => c.slug === slug);
 
   if (!collection) {
     notFound();
@@ -39,7 +41,7 @@ export default function CollectionDetailPage({ params }: { params: { slug: strin
           items={[
             { label: "首页", href: "/" },
             { label: "精选榜单", href: "/collections" },
-            { label: collection.title, href: `/collections/${params.slug}` },
+            { label: collection.title, href: `/collections/${slug}` },
           ]}
         />
 

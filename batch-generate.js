@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { parsePageTsx, writePageData, getContentFilePath } = require('./page-data-utils');
 
 // 配置三个分类及对应的文件夹名
 const categories = [
@@ -228,6 +229,7 @@ categories.forEach(cat => {
 
     const pageDir = path.join(attractionsDir, slug);
     const pageFile = path.join(pageDir, 'page.tsx');
+    const contentFile = getContentFilePath(rootDir, slug);
 
     // 检查是否在永久黑名单中
     if (permanentBlacklist.includes(slug)) {
@@ -237,7 +239,7 @@ categories.forEach(cat => {
     }
 
     // 【防重复检查】如果页面文件已经存在，且没有开启强制覆盖，则跳过
-    if (!isForceOverwrite && fs.existsSync(pageFile)) {
+    if (!isForceOverwrite && (fs.existsSync(contentFile) || fs.existsSync(pageFile))) {
       console.log(`  ⏩ 跳过: [${data['景点中文名']}] (${slug}) 已存在，无需重复生成。`);
       totalSkippedCount++;
       return;
@@ -534,21 +536,23 @@ ${relatedHtml}
 }
 `;;
 
-    // 写入文件
-    if (!fs.existsSync(pageDir)) {
-      fs.mkdirSync(pageDir, { recursive: true });
-    }
-    // 只有当文件内容有变化，或者文件不存在时才写入
+    // 写入数据源文件，替代独立 page.tsx 页面文件
     let writeNeeded = true;
-    if (fs.existsSync(pageFile)) {
-      const oldContent = fs.readFileSync(pageFile, 'utf-8');
-      if (oldContent === pageContent) {
+    const pageData = parsePageTsx(pageContent, slug);
+    const nextContentJson = JSON.stringify(pageData, null, 2);
+    if (fs.existsSync(contentFile)) {
+      const oldContent = fs.readFileSync(contentFile, 'utf-8');
+      if (oldContent === nextContentJson) {
         writeNeeded = false;
       }
     }
     
     if (writeNeeded) {
-      fs.writeFileSync(pageFile, pageContent, 'utf-8');
+      writePageData(rootDir, pageData);
+    }
+
+    if (fs.existsSync(pageFile)) {
+      fs.unlinkSync(pageFile);
     }
 
     // 更新 JSON，合并或新增分类
@@ -631,11 +635,11 @@ if (totalSuccessCount > 0) {
     sitemapContent += `  <url>\n    <loc>${baseUrl}/category/${c}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
   });
 
-  // 只把真实存在对应文件夹的页面加入 sitemap
+  // 只把真实存在数据源的页面加入 sitemap
   let validPagesCount = 0;
   attractionsData.forEach(a => {
-    const pageDir = path.join(rootDir, 'src', 'app', 'attractions', a.slug);
-    if (fs.existsSync(path.join(pageDir, 'page.tsx'))) {
+    const attractionContentFile = getContentFilePath(rootDir, a.slug);
+    if (fs.existsSync(attractionContentFile)) {
       sitemapContent += `  <url>\n    <loc>${baseUrl}/attractions/${a.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
       validPagesCount++;
     }
