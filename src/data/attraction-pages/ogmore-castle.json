@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布里真德（Bridgend）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奥格莫城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "奥格莫城堡・Ogmore Castle・英国・布里真德（Bridgend）",
-    "description": "我第一次见到奥格莫城堡，是在一个阴沉的午后。威尔士的春天总是湿漉漉的，空气中混合着青草和咸湿的海风。沿着奥格莫河岸一路向西，当那座灰褐色的石质废墟从地平线上凸起时，我几乎被它的沉默击中——没有游人如织，没有纪念品商店，只有几只黑头羊在塔楼残墙边悠哉吃草，风掠过粗石缝隙时发出低沉的呜咽声。\n城堡的主体是三座互相呼应的残塔，其中最高的南侧塔楼还保留着完整的拱形窗洞和部分齿形墙帽。你走近看，会发现石缝里密密匝匝地挤满了春蕨和青苔，摸上去冰凉潮湿，仿佛整座城堡不是由石头砌成，而是由长年累月的雨水和雾气凝结而成。护城河早已干涸，只剩下一条浅浅的洼地，长满了野薄荷和雏菊。空气里有一种特别的腥甜味——那是河泥、腐烂的落叶和远处海风带来的碘盐混杂在一起的气息。\n当地人说，奥格莫城堡从不“讲话”，它只会“吸声”。确实，站在那里，一切声音都被吸附进石头的毛孔里：远处孩子的呼喊、脚下砾石的嘎吱声、甚至自己的呼吸都变得格外清晰而孤立。城堡内部基本是空壳，残留的壁炉框架、壁龛和一条狭窄的旋转楼梯能让你隐约拼凑出它当年的生活痕迹。最让我震撼的是东面窗户——从那个瘦高的石框望出去，正好框住了一整片灰色天空下起伏的、被石墙分割的绿色牧场，那种寂静的、毫无侵略性的美，让现代人浮躁的心瞬间安定下来。\n它不像那些修缮一新的城堡宫殿，没有华美的挂毯和精致的兵器展，它用最诚实的方式呈现时光的侵蚀。如果说那些豪华城堡是历史教科书，那么奥格莫就是一本用触觉和气味写就的田野笔记——你需要用脚去踩那些不平整的石头台阶，用手去抚摸被风雨打磨得光滑如镜的石壁，用鼻腔去闻那古老石头与附近河流的对话。它提醒我们，有些美不在华丽的细节里，而在日复一日的衰败与坚韧里。"
+    "description": "我第一次见到奥格莫城堡，是在一个阴沉的午后。威尔士的春天总是湿漉漉的，空气中混合着青草和咸湿的海风。沿着奥格莫河岸一路向西，当那座灰褐色的石质废墟从地平线上凸起时，我几乎被它的沉默击中——没有游人如织，没有纪念品商店，只有几只黑头羊在塔楼残墙边悠哉吃草，风掠过粗石缝隙时发出低沉的呜咽声。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chester-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-trail-walk\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加的夫湾步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Trail Walk</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/storiel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯托里尔博物馆与艺术画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Storiel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "chester-cathedral",
-          "name": "切斯特大教堂",
-          "englishName": "Chester Cathedral"
+          "slug": "storiel",
+          "name": "斯托里尔博物馆与艺术画廊",
+          "englishName": "Storiel"
         },
         {
-          "slug": "cardiff-bay-trail-walk",
-          "name": "加的夫湾步道",
-          "englishName": "Cardiff Bay Trail Walk"
+          "slug": "hafod-arch",
+          "name": "哈福德拱门",
+          "englishName": "Hafod Arch"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "cairngorms-national-park",
+          "name": "凯恩戈姆国家公园",
+          "englishName": "Cairngorms National Park"
         }
       ]
     }

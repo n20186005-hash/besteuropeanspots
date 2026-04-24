@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "动物墙",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "动物墙・Animal Wall・英国・卡迪夫",
-    "description": "我第一次见到动物墙是在一个灰蒙蒙的十一月下午。卡迪夫的天空像洗旧的天鹅绒，低垂的云层把城堡的塔楼压得矮了一截。我正沿着Castle Street漫无目的地走，突然眼角扫到一排奇怪的东西——它们像从童话书里跳出来的角色，安静地蹲在城堡的石墙上。\n走近一看，是一只猴子，正咧着嘴对我笑。它穿着一件小小的红色马甲，爪子搭在膝盖上，姿态像个老练的咖啡馆老板。旁边是海豹，胖乎乎的身子蜷着，眼神懒洋洋的，好像刚吃饱了鱼。再过去是熊，脑袋歪着，嘴唇微微张开，仿佛在说“你瞅啥”。这些动物全是用石头雕刻的，但每一只都有自己的表情和性格，活脱脱一群被施了魔法的宠物，正等着午夜钟声一响就跳下来溜达。\n我蹲下来摸了摸那只猴子的鼻子——石头被无数只手摸得发亮，温润得像老家具。那天的光线很柔软，从云缝里漏下来，正好打在动物们的轮廓上，让它们的影子在城堡墙上拉得很长。有只小鸟停在鬣狗的头上，歪着脑袋看它，好像两个老朋友在聊闲天。\n最让我感动的是，这排动物墙并没有高高在上地摆在博物馆里，而是就在人行道边。孩子们骑车经过会伸手指认，遛狗的大叔会停下来跟狗说“看，那是你的亲戚”，学生们靠在墙上吃三明治，背靠着熊的肚子。它像是城市的一个安静小秘密，融进了卡迪夫最日常的节奏里。没有围栏，没有门票，没有保安，只有石头和故事。\n如果你再仔细看，会发现每个动物背后都有一个字母铭牌：上面刻着它们的名字和年份——塞缪尔、詹姆斯、亨利……这些名字是谁取的？一百多年前的某个石匠，还是城堡的主人？没人知道。但当你一个个念出来时，就好像在跟一群默默守护这个城市的老朋友打招呼。"
+    "description": "我第一次见到动物墙是在一个灰蒙蒙的十一月下午。卡迪夫的天空像洗旧的天鹅绒，低垂的云层把城堡的塔楼压得矮了一截。我正沿着Castle Street漫无目的地走，突然眼角扫到一排奇怪的东西——它们像从童话书里跳出来的角色，安静地蹲在城堡的石墙上。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skelbo-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯凯尔博城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skelbo Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gyrn-ddu\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉恩杜山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gyrn Ddu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "skelbo-castle",
+          "name": "斯凯尔博城堡",
+          "englishName": "Skelbo Castle"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "gyrn-ddu",
+          "name": "吉恩杜山",
+          "englishName": "Gyrn Ddu"
         },
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "cardiff-bay-barrage",
+          "name": "卡迪夫湾水闸",
+          "englishName": "Cardiff Bay Barrage"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰代洛（Llandeilo）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士猿猴与猴类保护区",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士猿猴与猴类保护区・Wales Ape & Monkey Sanctuary・英国・兰代洛（Llandeilo）",
-    "description": "第一次听说这个保护区时，我以为它只是一个普通的动物收容所。直到我拐进那条被榛树与毛地黄夹道的小路，远远听到一阵尖锐而悠长的啸叫——那声音像被压碎的铁罐突然弹开，又带着某种委屈的颤音。后来我才知道，那是红毛猩猩“巴菲”在迎接游客，它被前主人关在私人车库里八年，刚获救时连爬都爬不稳。\n推开保护区那道漆成墨绿色的木门，空气里立刻涌来一股混合着稻草、腐烂木头和果皮的发酵气息，并不难闻，反而像走进了一个巨大的活生生的摇篮。你最先看见的不会是笼子，而是一片片与威尔士丘陵浑然一体的林地：巨大的围栏内散布着树干搭建的攀爬架、旧轮胎做的秋千、以及用废弃消防水带编成的吊床。几只卷尾猴正趴在木头上互相理毛，阳光穿过树叶在它们金色的皮毛上洒下碎斑点。它们完全不理会游客，那种旁若无人的自在态度让我瞬间明白——这里的主人不是人。\n最打动人心的瞬间发生在长臂猿区。一只名叫“吉姆”的白掌长臂猿突然荡到离我不到两米的地方，它歪着头，用那双琥珀色的眼睛凝视了我足足十秒。那眼神里没有乞食的期待，没有警惕的戒备，只有一种超越人类语言的、赤裸裸的平等对视。饲养员后来告诉我，吉姆是从马戏团救出来的，它花了三年才学会重新信任人类。那一刻，周围所有游客的说话声都像被按了静音键，只剩下风穿过树梢的声音和吉姆缓慢的心跳——我后来想，或许这就是这座庇护所最核心的魅力：它不教你任何知识，却让你重新思考“家”的意义。"
+    "description": "第一次听说这个保护区时，我以为它只是一个普通的动物收容所。直到我拐进那条被榛树与毛地黄夹道的小路，远远听到一阵尖锐而悠长的啸叫——那声音像被压碎的铁罐突然弹开，又带着某种委屈的颤音。后来我才知道，那是红毛猩猩“巴菲”在迎接游客，它被前主人关在私人车库里八年，刚获救时连爬都爬不稳。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/paxtons-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克斯顿塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Paxton's Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stirling-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特灵城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stirling Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rhyl\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    里\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">里尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rhyl</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chatsworth-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查茨沃斯庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chatsworth House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scotch-whisky-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰威士忌体验中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Scotch Whisky Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/palace-of-holyroodhouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    荷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">荷里路德宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Palace of Holyroodhouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "paxtons-tower",
-          "name": "帕克斯顿塔楼",
-          "englishName": "National Trust - Paxton's Tower"
+          "slug": "chatsworth-house",
+          "name": "查茨沃斯庄园",
+          "englishName": "Chatsworth House"
         },
         {
-          "slug": "stirling-castle",
-          "name": "斯特灵城堡",
-          "englishName": "Stirling Castle"
+          "slug": "scotch-whisky-experience",
+          "name": "苏格兰威士忌体验中心",
+          "englishName": "The Scotch Whisky Experience"
         },
         {
-          "slug": "rhyl",
-          "name": "里尔",
-          "englishName": "Rhyl"
+          "slug": "palace-of-holyroodhouse",
+          "name": "荷里路德宫",
+          "englishName": "Palace of Holyroodhouse"
         }
       ]
     }

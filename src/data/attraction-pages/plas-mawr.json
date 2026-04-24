@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "康威",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "普拉斯摩尔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "普拉斯摩尔・Plas Mawr・英国・康威",
-    "description": "第一次推开普拉斯摩尔那扇沉重的橡木门时，我整个人像被一道时光隧道吸了进去。门外的康威高街还是那个游客熙攘的中世纪小镇，但跨过门槛的一瞬间，空气里弥漫的灰尘、旧木头和亚麻子的混合气味一下子把我拽回到四百年前。一阵穿堂风从狭窄的走廊掠过，带起壁炉里残留的烟火气息——那种混着炭苦和干草的味道，不是现代人用香薰能复制的。天光从二楼的小窗户斜斜地切进来，正好打在楼梯转角一块褪色的彩绘嵌板上，那是一只展翅的威尔士红龙，漆面已经龟裂成细密的蛛网状，但眼神依然锋利得像要扑出来。\n这里最让人挪不开眼的不是家具，而是天花板。普拉斯摩尔的天花板几乎每一间都不一样，有的用灰泥捏出繁复的藤蔓和果实，有的直接手绘出圣经故事或寓言场景，有的甚至密布着上百个几何图案的浮雕。你仰头看久了，脖子酸了，眼睛却舍不得移开——阳光从铅条玻璃窗漏进来，那些凸起的灰泥花纹便投下深浅不一的影子，像一幅立体的编织挂毯在缓慢呼吸。我最喜欢的是大客厅东墙上那幅暗绿色的壁画，画着一位穿鲸骨裙的妇人正伸手摘树上的苹果，身后是一片模糊的森林。颜料已经剥落得不成样子，但她的裙摆褶皱里的每一道笔触依然清晰，连指尖的指甲盖都画得一丝不苟。这大概是房子主人，那位叫罗伯特·温的商人，专程从伦敦请画师来创作的，用来展示他的财富品味。\n在当地人心里，普拉斯摩尔不像康威城堡那样是旅游打卡的明信片，它更像一本被遗忘的私人日记。我在售票处和那位戴着老花镜的威尔士阿姨聊天，她说她小时候就在这栋楼的长廊里捉迷藏，后来才知道屋顶那些雕花其实是“恶魔在偷听祈祷”的象征。她说得轻描淡写，仿佛只是随口讲了一个邻里八卦，但那种深入骨髓的熟悉感让我羡慕——这座房子不是从历史书上摘下来的，而是和她们的生活长在一起的。如今每个月的第一个周四，这里还会举办一场“烛光之夜”，关了电灯，只用蜂蜡蜡烛和油灯照亮房间，那些灰泥上的天使和圣徒就在跳动的火光里活了过来，阴影在墙壁上游走，像极了四百年前那些女仆提着裙摆匆匆上楼的样子。\n最打动我的，其实是整栋房子里一种说不清的“克制”。和英国很多暴发户金碧辉煌的庄园不同，普拉斯摩尔的奢华是内敛的、需要你慢慢发现的。门廊的灰泥边框里藏着野草莓和雏菊，壁炉上刻着一行拉丁文小字，大意是“慎言乃智慧之始”。罗伯特·温这位商人不愿意让外人一眼看穿他的财富，却把这些小心思藏在每一道接缝里，等着懂的人来解读。这种微妙的文化自信，比任何镀金雕像都更迷人。"
+    "description": "第一次推开普拉斯摩尔那扇沉重的橡木门时，我整个人像被一道时光隧道吸了进去。门外的康威高街还是那个游客熙攘的中世纪小镇，但跨过门槛的一瞬间，空气里弥漫的灰尘、旧木头和亚麻子的混合气味一下子把我拽回到四百年前。一阵穿堂风从狭窄的走廊掠过，带起壁炉里残留的烟火气息——那种混着炭苦和干草的味道，不是现代人用香薰能复制的。天光从二楼的小窗户斜斜地切进来，正好打在楼梯转角一块褪色的彩绘嵌板上，那是一只展翅的威尔士红龙，漆面已经龟裂成细密的蛛网状，但眼神依然锋利得像要扑出来。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pistyll-rhaeadr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮斯蒂尔·拉厄德尔瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pistyll Rhaeadr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/invergarry-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因弗加里城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Invergarry Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stirling-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特灵城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stirling Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/john-knox-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰·诺克斯故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John Knox House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "berwick-upon-tweed-castle-and-ramparts",
-          "name": "伯立克-特威德城堡及城墙",
-          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
+          "slug": "stirling-castle",
+          "name": "斯特灵城堡",
+          "englishName": "Stirling Castle"
         },
         {
-          "slug": "pistyll-rhaeadr",
-          "name": "皮斯蒂尔·拉厄德尔瀑布",
-          "englishName": "Pistyll Rhaeadr"
+          "slug": "john-knox-house",
+          "name": "约翰·诺克斯故居",
+          "englishName": "John Knox House"
         },
         {
-          "slug": "invergarry-castle",
-          "name": "因弗加里城堡",
-          "englishName": "Invergarry Castle"
+          "slug": "bannau-brycheiniog-national-park",
+          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
+          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
         }
       ]
     }

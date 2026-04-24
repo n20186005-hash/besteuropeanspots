@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士Bargoed",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "帕克库姆达兰公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "帕克库姆达兰公园・Parc Cwm Darran・英国・威尔士Bargoed",
-    "description": "第一脚踏进帕克库姆达兰公园时，我差点没认出这是威尔士。空气中没有煤灰的咸涩，只有雨后湿泥和野薄荷的清甜，像被薄荷糖狠狠洗过的呼吸。湖面很静，静到你能听见自己的心跳撞上灰雁翅膀掀起的波纹。水是那种被天空染透的灰蓝色，倒映着山坡上歪歪扭扭的白桦树，而白桦树底下藏着废弃矿坑的残骸——生锈的铁轨从草丛里探出头，像一根根被时间啃剩的骨头。\n我沿着湖边走，阳光从云缝里筛下来，打在芦苇尖上，亮晶晶的像碎银子。一个老太太坐在长椅上，面前摊着一本皱巴巴的《泰晤士报》，但眼睛却盯着湖中央的苍鹭。那只苍鹭站得笔直，像一尊灰石雕像，过了好久才慢悠悠地啄一下水。老太太冲我笑，说：“每天下午三点，它准来。比邮差还准时。”这话像某个老友的私房话，让我想起这座公园的另一层身份——它不仅是风景，更是当地人日常的锚点。\n最打动我的是那种“沉默的治愈”。我沿着湖绕了一圈，发现每个人都沉默着：遛狗的男人对着空气低语，骑自行车的小孩停下来发呆，一对情侣用手机拍对面的红松。没有哇哇的惊叹声，没有自拍杆的尖鸣，只有风穿过废弃矿井通风井时的呜咽，像这座山在讲它前世的故事。那种宁静不是死寂，而是一种被岁月抚平的温柔。"
+    "description": "第一脚踏进帕克库姆达兰公园时，我差点没认出这是威尔士。空气中没有煤灰的咸涩，只有雨后湿泥和野薄荷的清甜，像被薄荷糖狠狠洗过的呼吸。湖面很静，静到你能听见自己的心跳撞上灰雁翅膀掀起的波纹。水是那种被天空染透的灰蓝色，倒映着山坡上歪歪扭扭的白桦树，而白桦树底下藏着废弃矿坑的残骸——生锈的铁轨从草丛里探出头，像一根根被时间啃剩的骨头。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lochindorb-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛钦多布城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lochindorb Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ffridd-faldwyn-iron-age-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里德法尔德文铁器时代山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ffridd Faldwyn Iron Age Hillfort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/falconry-experience-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士猎鹰体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Falconry Experience Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eastgate-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    东\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">东门钟楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eastgate Clock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-promenade\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺滨海步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Promenade</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lochindorb-castle",
-          "name": "洛钦多布城堡",
-          "englishName": "Lochindorb Castle"
+          "slug": "falconry-experience-wales",
+          "name": "威尔士猎鹰体验",
+          "englishName": "Falconry Experience Wales"
         },
         {
-          "slug": "cawdor-castle-and-gardens",
-          "name": "考德城堡与花园",
-          "englishName": "Cawdor Castle and Gardens"
+          "slug": "eastgate-clock",
+          "name": "东门钟楼",
+          "englishName": "Eastgate Clock"
         },
         {
-          "slug": "ffridd-faldwyn-iron-age-hillfort",
-          "name": "弗里德法尔德文铁器时代山堡",
-          "englishName": "Ffridd Faldwyn Iron Age Hillfort"
+          "slug": "llandudno-promenade",
+          "name": "兰迪德诺滨海步道",
+          "englishName": "Llandudno Promenade"
         }
       ]
     }

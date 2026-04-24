@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Reynoldston（雷诺斯顿），威尔士高沃半岛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "亚瑟石",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "亚瑟石・Arthur's Stone・英国・Reynoldston（雷诺斯顿），威尔士高沃半岛",
-    "description": "我对Arthur's Stone的第一印象，不是“壮观”，而是“荒凉中的突兀”。那天我沿着Cefn Bryn荒原的羊肠小道爬了快四十分钟，风推着我后背，高原上的石楠花被吹得刷刷作响。正当我气喘吁吁地怀疑自己是不是走错了路，一抬头，那东西就冷不防地杵在了前方的草坡上——像一头趴伏的灰色巨兽，被天空压得低低的。\n走近之后，我立刻被它那种“不真实感”击中。这块顶部巨石足有一辆小巴士那么大，它斜斜地搭在几块矮小的直立石上，看上去摇摇欲坠，像小孩随手叠的积木。我伸出手掌贴在它粗糙的砂岩表面上，指尖能感觉到细密的颗粒和温热的太阳余温——岩石在黄昏前像个蓄满热量的暖炉。风在石头的缝隙间呼啸而过，发出低沉的哨音，仿佛这块石头本身在呼吸。\n身边的当地人告诉我，他们小时候就被祖辈带来这里“许愿”，把耳朵贴到石头凹陷处能听到地下河流的声音。我照做了，但只听到自己心脏的狂跳。有趣的是，远处绵羊的叫唤声被风一阵阵送过来，混合着脚边野薄荷的辛辣气味，整个场景弥漫着一种原始的、毫无修饰的孤寂感。没有栏杆，没有解说牌，没有纪念品摊——它就这么坦然地立在那里，像时间本身。\n这石头最打动我的，是它和天空、大地之间那种无声的博弈。五千年过去了，周围的土丘早已被风雨抹平，石室的入口坍塌成乱石堆，但它依旧倔强地撑起那块沉重的顶石。站在它“桌下”的空间里（实际上我弓着腰才能勉强钻进墓室下方），头顶的阴影让光线骤然变暗，那一刻我忽然理解了为什么凯尔特传说把它叫做“隐藏世界的入口”——那里面的气息凉得彻骨，混合着泥土、苔藓和某种说不清的古老尘埃，每一口呼吸都像在吸入历史。"
+    "description": "我对Arthur's Stone的第一印象，不是“壮观”，而是“荒凉中的突兀”。那天我沿着Cefn Bryn荒原的羊肠小道爬了快四十分钟，风推着我后背，高原上的石楠花被吹得刷刷作响。正当我气喘吁吁地怀疑自己是不是走错了路，一抬头，那东西就冷不防地杵在了前方的草坡上——像一头趴伏的灰色巨兽，被天空压得低低的。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bwlch-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔赫山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bwlch Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "loch-achtriochtan-glen-coe",
+          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
+          "englishName": "Loch Achtriochtan, Glen Coe"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "bwlch-mountain",
+          "name": "布尔赫山",
+          "englishName": "Bwlch Mountain"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "berwick-upon-tweed-castle-and-ramparts",
+          "name": "伯立克-特威德城堡及城墙",
+          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
         }
       ]
     }

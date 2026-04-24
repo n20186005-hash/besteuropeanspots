@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "凯西克",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡斯尔里格石圈",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡斯尔里格石圈・Castlerigg Stone Circle・英国・凯西克",
-    "description": "第一次见到卡斯尔里格石圈，是夏末的一个清晨，雾气还挂在斯基多峰的山腰上。我顺着那条弯弯曲曲的牧场小路往上走，脚下是结着露水的草地，每踩一步都能听见细微的压碎声。空气里混着泥土、青草和远处羊群身上的膻味，很干净，带着一种北英格兰特有的凉爽。大概走了十五分钟，前方视野突然打开——石圈出现在缓坡顶端，四周再无别的建筑，只有群山像幕布一样层层叠叠地围过来。那些灰色的石头散落成一圈，有的高过两米，有的只到膝盖，歪歪扭扭地站着，像一群在晨雾里等了很久的沉默巨人。没有介绍牌，没有围栏，它们就那么坦然地杵在那里，草从石缝里长出来，鸟停在最高的石块上，一切都让人觉得，这片土地在人类到来之前就已经有了灵魂。\n走近之后，我的手指不自觉地贴上了石面。很凉，比清晨的气温还要凉好几度，表面粗粝，带着密密麻麻的黄褐色地衣，像老人手背上的斑。指尖顺着石头的纹理滑过时，能感受到那些被风切割了五千年的凹痕，有的地方锋利得像刀刃，有的地方又被苔藓覆盖得柔软。我闭上眼睛听了一会儿，除了风声和远处绵羊偶尔的叫声，什么也没有。但正是这种寂静让人头皮发麻——你能想象，五千年前的某一天，也有一个人像我这样站在这里，抬头看着同样的山峰，听着同样的风声，只是他可能穿着兽皮，手里拿着石斧，心里想的是祈求太阳不要离开太久。\n石圈在凯西克本地人的生活里，更像是一个呼吸的出口。周末早晨，我常见到带着狗来散步的中年夫妇，他们并不专门看石头，只是沿着石圈走一圈，然后坐在草地上吃三明治。有时候还能看到几个背包客，用手机播放着迷幻摇滚，坐在石头上发呆。最打动我的是一对老夫妇，他们几乎每个月都从湖区另一头开车过来，带一把折叠椅和一本诗集，从日出坐到正午。老太太说，这些石头像老朋友，“它们不会说话，但你能感觉到它们在听。”这种安静而亲密的陪伴感，是任何博物馆或教堂都给不了的。\n真正让卡斯尔里格成为我心中圣地的，是那种与天地直接对话的孤独感。没有门票，没有导游，没有玻璃罩，只有你和那些石头，以及头顶铺展开来的辽阔天空。黄昏时站在石圈中央，看着阳光从西边的群峰间斜射进来，把石头的影子拉得像巨人的手指，指向远处模糊的地平线——那一刻我忽然明白了为什么古人要花那么大力气搬动这些沉重的石块。他们不是在建造坟墓，而是在建立一个与宇宙保持联系的坐标。在这个坐标里，你不只是一个渺小的人，你是星象的一部分，是山、石、风、光共同参与的一个永恒仪式。"
+    "description": "第一次见到卡斯尔里格石圈，是夏末的一个清晨，雾气还挂在斯基多峰的山腰上。我顺着那条弯弯曲曲的牧场小路往上走，脚下是结着露水的草地，每踩一步都能听见细微的压碎声。空气里混着泥土、青草和远处羊群身上的膻味，很干净，带着一种北英格兰特有的凉爽。大概走了十五分钟，前方视野突然打开——石圈出现在缓坡顶端，四周再无别的建筑，只有群山像幕布一样层层叠叠地围过来。那些灰色的石头散落成一圈，有的高过两米，有的只到膝盖，歪歪扭扭地站着，像一群在晨雾里等了很久的沉默巨人。没有介绍牌，没有围栏，它们就那么坦然地杵在那里，草从石缝里长出来，鸟停在最高的石块上，一切都让人觉得，这片土地在人类到来之前就已经有了灵魂。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-ewen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊文城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Ewen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gladstones-land\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉德斯通之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gladstone's Land</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-kirkyard-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗里亚教堂墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Kirkyard Cemetery Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜阿尔特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duart Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "gladstones-land",
+          "name": "格拉德斯通之家",
+          "englishName": "Gladstone's Land"
         },
         {
-          "slug": "castle-ewen",
-          "name": "伊文城堡",
-          "englishName": "Castle Ewen"
+          "slug": "greyfriars-kirkyard-edinburgh",
+          "name": "格雷弗里亚教堂墓地",
+          "englishName": "Greyfriars Kirkyard Cemetery Edinburgh"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "duart-castle",
+          "name": "杜阿尔特城堡",
+          "englishName": "Duart Castle"
         }
       ]
     }

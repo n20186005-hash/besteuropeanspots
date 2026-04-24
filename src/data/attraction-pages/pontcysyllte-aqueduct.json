@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰戈伦（Llangollen）附近，威尔士雷克瑟姆郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "庞特卡萨斯特输水道",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/foel-drygarn-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福埃尔德里加恩山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Foel Drygarn Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bride-veil-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新娘面纱瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bride's Veil Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hanging-hill-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    悬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">悬挂山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hanging Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stonehenge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巨石阵</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stonehenge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "foel-drygarn-hill-fort",
-          "name": "福埃尔德里加恩山堡",
-          "englishName": "Foel Drygarn Hill Fort"
+          "slug": "hanging-hill-wales",
+          "name": "悬挂山",
+          "englishName": "Hanging Hill"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "stonehenge",
+          "name": "巨石阵",
+          "englishName": "Stonehenge"
         },
         {
-          "slug": "bride-veil-falls",
-          "name": "新娘面纱瀑布",
-          "englishName": "Bride's Veil Falls"
+          "slug": "llyn-brianne-viewpoint",
+          "name": "布莱恩湖观景台",
+          "englishName": "Llyn Brianne Viewpoint"
         }
       ]
     }

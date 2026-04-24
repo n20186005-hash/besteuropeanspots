@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Betws-y-Coed",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Zip World Betws-y-Coed主题冒险乐园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "Zip World Betws-y-Coed主题冒险乐园・Zip World Betws-y-Coed・英国・Betws-y-Coed",
-    "description": "第一次站上Zip World Betws-y-Coed的起点，我愣在那儿，不是恐高，而是被眼前的景象震住了。脚下的平台悬空在近400米深的峡谷之上，远处是连绵起伏的斯诺登尼亚国家公园的山脊，绿得发蓝的天空下，一道钢索笔直地划向对面山头的森林，像一根把地心引力撕开的银线。风不算很大，但刮过耳边的声音却像低沉的呜咽。我前面一个大概十六七岁的本地男孩，皮肤黝黑，绑着马尾，他系好安全带后，直接朝下面广阔的树冠群大喊了一声，然后纵身一跃，整个人像一只被弹弓弹出的鸟，瞬间消失在了山谷的弧线里。他的笑声和尖叫声一路回响，越来越远，最后被那片沉默的绿色完全吞没。\n但这里最魔幻的，不是滑索本身，而是它背后的舞台。这座冒险乐园的前身是一座在19世纪盛极一时、后又彻底荒废的板岩矿。你脚下的钢索穿过的正是当年矿石运输的古老洞窟和峭壁，那些粗大的、攀附着潮湿苔藓的棕色岩壁上，还嵌着锈迹斑斑的铁轨和撬棍，好像工人们只是刚下班离开，下一秒就会从幽暗的洞口走出来，叼着烟斗，拖着疲惫的步子。走在探险路线上，你甚至会踩过一段段破旧的木质栈道，那是百年前矿工们运送石板的通道，如今摇摇晃晃，却支撑着现代人最疯狂的冒险。\n当你在高空翱翔时，鼻子里飘过的是两种气味的混合物：一种是山野间清冽的空气和松脂香，另一种是石头和铁锈被岁月吞噬后散发的陈旧、潮湿、带着一丝火药呛味的矿物气息。你可以想象，100年前，这里没有欢声笑语，只有铁镐敲击岩石的沉闷声响和牲口疲惫的喘息。如今，这里回荡的是世界上最自由的笑声。\n最让我感动的一次，是傍晚时分，夕阳把整片山谷都染成金粉色。我坐在山坡上一块巨大的板岩上，看着最后一组游客结束行程，他们从缆车上下来，每个人脸上都挂着那种极度释放后的红晕和傻笑。有个中年大叔，穿着一件印着矿工头像的T恤，对着晚霞长叹了一口气：“这就是活着的感觉。” 那一刻，我突然理解了Zip World为何能如此成功：它给了人们一个机会，在一个曾经充满苦难和汗水的地方，用最纯粹的方式，去触碰自身极限，去感受生命和喜悦。"
+    "description": "第一次站上Zip World Betws-y-Coed的起点，我愣在那儿，不是恐高，而是被眼前的景象震住了。脚下的平台悬空在近400米深的峡谷之上，远处是连绵起伏的斯诺登尼亚国家公园的山脊，绿得发蓝的天空下，一道钢索笔直地划向对面山头的森林，像一根把地心引力撕开的银线。风不算很大，但刮过耳边的声音却像低沉的呜咽。我前面一个大概十六七岁的本地男孩，皮肤黝黑，绑着马尾，他系好安全带后，直接朝下面广阔的树冠群大喊了一声，然后纵身一跃，整个人像一只被弹弓弹出的鸟，瞬间消失在了山谷的弧线里。他的笑声和尖叫声一路回响，越来越远，最后被那片沉默的绿色完全吞没。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dunfermline-abbey-and-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓弗姆林修道院与宫殿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunfermline Abbey and Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/invergarry-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因弗加里城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Invergarry Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-lythans-burial-chamber\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣利斯墓葬室</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Lythans Burial Chamber</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-showcaves-centre-for-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家展示洞穴中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Showcaves Centre for Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dunfermline-abbey-and-palace",
-          "name": "邓弗姆林修道院与宫殿",
-          "englishName": "Dunfermline Abbey and Palace"
+          "slug": "invergarry-castle",
+          "name": "因弗加里城堡",
+          "englishName": "Invergarry Castle"
         },
         {
-          "slug": "llandudno-bandstand",
-          "name": "兰迪德诺音乐台",
-          "englishName": "Llandudno Bandstand"
+          "slug": "st-lythans-burial-chamber",
+          "name": "圣利斯墓葬室",
+          "englishName": "St Lythans Burial Chamber"
         },
         {
-          "slug": "hadrians-wall",
-          "name": "哈德良长城",
-          "englishName": "Hadrian's Wall"
+          "slug": "national-showcaves-centre-for-wales",
+          "name": "威尔士国家展示洞穴中心",
+          "englishName": "National Showcaves Centre for Wales"
         }
       ]
     }

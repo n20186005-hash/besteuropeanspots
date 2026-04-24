@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "凯里金（Kyleakin），斯凯岛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "莫伊尔城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "莫伊尔城堡・Castle Moil・英国・凯里金（Kyleakin），斯凯岛",
-    "description": "初见莫伊尔城堡的那个午后，正逢北方海风裹着咸湿的雾气扑面而来。我从凯里金村的码头沿着海岸碎石路向东走，远远就看到那座灰褐色的石砌残骸，像一头蛰伏在礁石上的远古巨兽，任由潮汐舔舐着它裸露的筋骨。那一刻，耳朵里全是海浪拍打岩石的轰鸣，混杂着海鸥尖厉的叫声，空气中弥漫着海藻和碘酒味儿——那是种属于世界尽头的孤独香气。\n走近了才发现，城堡其实比想象中小得多。它牢牢盘踞在一处陡峭的岩岬上，三面都是直落海面的峭壁，只有西侧一条狭窄的脊道与陆地相连。残墙大约还剩下两层楼的高度，表面长满了橙黄色的地衣和墨绿的苔藓，石缝里嵌着贝壳碎片，像是被海水直接注入了城堡的骨骼。我从半塌的门洞钻进去，站在曾经的大厅地面上，头顶是空的，只有天空和游荡的云。脚下的杂草在风里拼命摇晃，发出沙沙的声响。我试着闭上眼睛，想象500年前这里曾经燃着壁炉，飘着麦芽酒香和盖尔语的谈话声——但鼻腔里灌进来的，依然只有大海的咸味。\n当地人说，这座城堡是“挪威公主”的嫁妆。传说一位美丽的挪威公主被带到此地与麦克唐纳首领成婚，却因丈夫的嫉妒被锁在塔楼里，最终从面向爱尔兰海的窗口跳下。我站在那片悬崖边缘往下看，海水清澈得能看见十几米下的黑色礁石，波浪像呼吸一样有节奏地起伏。那一刻我突然理解了：对于那个年代的女人来说，这座城堡既是权力与荣耀的象征，也是无法挣脱的牢笼。而这种矛盾的美感，恰恰是莫伊尔城堡最打动我的地方——它不是一个宏大完整的景点，而是一段破碎的、真实的历史，被刻在每一块被风化的石头上。\n离开的时候，夕阳把城堡染成了暖橘色。几个背着登山包的年轻人坐在残墙上吃三明治，远处有艘渔船缓缓驶过海峡，白色尾迹像一道伤疤拖在深蓝色的海面上。我忽然觉得，这个藏在斯凯岛角落里的破败城堡，比那些修葺一新的豪华城堡更有生命力。它不需要门票，不需要解说牌，它就这样坦然地站立在风雨中，让自己成为海的一部分。"
+    "description": "初见莫伊尔城堡的那个午后，正逢北方海风裹着咸湿的雾气扑面而来。我从凯里金村的码头沿着海岸碎石路向东走，远远就看到那座灰褐色的石砌残骸，像一头蛰伏在礁石上的远古巨兽，任由潮汐舔舐着它裸露的筋骨。那一刻，耳朵里全是海浪拍打岩石的轰鸣，混杂着海鸥尖厉的叫声，空气中弥漫着海藻和碘酒味儿——那是种属于世界尽头的孤独香气。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brynich-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇引水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brean-down-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林当堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brean Down Fort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castle-of-old-wick\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维克老城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Of Old Wick</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-smallest-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士最小的房子</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales' Smallest House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pembroke-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembroke Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "brynich-aqueduct",
-          "name": "布里尼奇引水桥",
-          "englishName": "Brynich Aqueduct"
+          "slug": "castle-of-old-wick",
+          "name": "维克老城堡",
+          "englishName": "Castle Of Old Wick"
         },
         {
-          "slug": "canterbury-cathedral",
-          "name": "坎特伯雷大教堂",
-          "englishName": "Canterbury Cathedral"
+          "slug": "wales-smallest-house",
+          "name": "威尔士最小的房子",
+          "englishName": "Wales' Smallest House"
         },
         {
-          "slug": "brean-down-fort",
-          "name": "布林当堡垒",
-          "englishName": "Brean Down Fort"
+          "slug": "pembroke-castle",
+          "name": "彭布罗克城堡",
+          "englishName": "Pembroke Castle"
         }
       ]
     }

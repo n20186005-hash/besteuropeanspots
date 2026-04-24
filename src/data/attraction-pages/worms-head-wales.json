@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "蠕虫头海岬",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-library-of-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国家图书馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Library of Scotland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/strbske-pleso\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什特尔布斯凯普莱索</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Štrbské Pleso</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cagliari-castello\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡利亚里城堡区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cagliari (Castello)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wales-activity-breaks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士动感假期</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Activity Breaks</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pravcicka-brana-natural-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普拉夫奇采拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pravcicka Gate</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/zell-am-ziller-austria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    齐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">齐勒河谷采尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zell am Ziller</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "national-library-of-scotland",
-          "name": "苏格兰国家图书馆",
-          "englishName": "National Library of Scotland"
+          "slug": "wales-activity-breaks",
+          "name": "威尔士动感假期",
+          "englishName": "Wales Activity Breaks"
         },
         {
-          "slug": "strbske-pleso",
-          "name": "什特尔布斯凯普莱索",
-          "englishName": "Štrbské Pleso"
+          "slug": "pravcicka-brana-natural-arch",
+          "name": "普拉夫奇采拱门",
+          "englishName": "Pravcicka Gate"
         },
         {
-          "slug": "cagliari-castello",
-          "name": "卡利亚里城堡区",
-          "englishName": "Cagliari (Castello)"
+          "slug": "zell-am-ziller-austria",
+          "name": "齐勒河谷采尔",
+          "englishName": "Zell am Ziller"
         }
       ]
     }

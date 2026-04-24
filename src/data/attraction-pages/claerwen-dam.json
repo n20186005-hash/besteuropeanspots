@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "拉多尔 (Rhayader)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "克莱文水坝",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "克莱文水坝・Claerwen Dam・英国・拉多尔 (Rhayader)",
-    "description": "初见克莱文水坝，你最好是在一个雾霭沉沉的清晨。车子沿着埃尔安谷的窄路蜿蜒前行，两侧的石楠花和欧石南在潮湿的空气中散发出涩涩的草本香。当转过最后一个弯道，那面灰色的混凝土巨墙突然从晨雾中浮现出来，像是大地裂开的一道伤疤，又像一座史前巨人的城堡。它的体量远超你的想象，56米高的墙体在阴天里几乎与天空融为一体，只有顶部那排白色的拱形栏杆像一串项链，勉强勾勒出人类的痕迹。\n走近坝底，耳朵最先捕捉到的是水的声音——不是瀑布般轰鸣，而是持续的、低沉的嗡鸣，像一头巨兽在沉睡中呼吸。水从泄洪孔渗出，沿着混凝土表面缓缓流下，在脚边的碎石上激起细小的水花。空气中带着水汽和铁锈混合的气味，那种工业时代的清冷感瞬间包围了你。抬头仰望，坝体上的每一条施工缝都清晰可见，如同巨人额头的皱纹，记录着1952年那个夏天数千名工人挥汗如雨的场景。\n登上坝顶，眼前会豁然开朗。克莱文湖（Claerwen Reservoir）像一面巨大的墨绿色镜子，安静地躺在四周绵延的荒野丘陵之间。没有游船，没有度假村，只有风掠过水面时带起的细碎涟漪，以及远处山坡上偶尔移动的羊群白点。这个湖完全是人造的，但此刻它看起来比任何天然湖泊都要原始。你站在混凝土的脊背上，身后是工业的杰作，前方是自然的鬼斧神工，这种奇异的并置让心里升起一种莫名的感动。\n当地人很少刻意向游客推荐克莱文水坝，它更像是他们日常散步、遛狗、发呆的后花园。有时候你会看到穿着雨衣的农夫骑着四轮摩托从坝顶呼啸而过，或者一对老夫妻坐在坝头的长椅上，默默看着水面，一言不发就是整个下午。它不宏伟如埃及金字塔，不浪漫如法国卢瓦尔河城堡，但它有一种朴素的尊严——那种属于“为了生活而建造”的真诚。"
+    "description": "初见克莱文水坝，你最好是在一个雾霭沉沉的清晨。车子沿着埃尔安谷的窄路蜿蜒前行，两侧的石楠花和欧石南在潮湿的空气中散发出涩涩的草本香。当转过最后一个弯道，那面灰色的混凝土巨墙突然从晨雾中浮现出来，像是大地裂开的一道伤疤，又像一座史前巨人的城堡。它的体量远超你的想象，56米高的墙体在阴天里几乎与天空融为一体，只有顶部那排白色的拱形栏杆像一串项链，勉强勾勒出人类的痕迹。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinas-bran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪纳斯布兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinas Brân</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dunfermline-abbey-and-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓弗姆林修道院与宫殿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunfermline Abbey and Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cabot-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伯特塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cabot Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "dunfermline-abbey-and-palace",
+          "name": "邓弗姆林修道院与宫殿",
+          "englishName": "Dunfermline Abbey and Palace"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "cabot-tower",
+          "name": "卡伯特塔",
+          "englishName": "Cabot Tower"
         },
         {
-          "slug": "castell-dinas-bran",
-          "name": "迪纳斯布兰城堡",
-          "englishName": "Castell Dinas Brân"
+          "slug": "cardiff-bay-barrage",
+          "name": "卡迪夫湾水闸",
+          "englishName": "Cardiff Bay Barrage"
         }
       ]
     }

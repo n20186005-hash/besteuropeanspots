@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿维莫尔（Aviemore）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "凯恩戈姆国家公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "凯恩戈姆国家公园・Cairngorms National Park・英国・阿维莫尔（Aviemore）",
-    "description": "第一次见到凯恩戈姆，是深秋一个清冷的早晨。我站在Aviemore小镇边缘，空气里弥漫着松脂和苔藓的潮湿气味，脚下的小径覆满了昨夜落下的金色针叶，踩上去像厚实的地毯，每一步都发出沙沙的轻响。远处，Cairn Gorm山峰的轮廓在晨雾中若隐若现，山顶的雪线像一条银色的丝带缠绕在深灰色的花岗岩上。一只红松鼠突然从路边的苏格兰松上窜过，尾巴在空中划出一道弧线，消失在树冠里。我能听到溪水在谷底低语，混合着远处牧羊犬的吠叫和乌鸦粗粝的鸣声——这些声音稀疏却充满力量，像一个巨人缓慢呼吸。\n深入公园后，感官的冲击变得愈发浓烈。在Loch Morlich湖畔，水面的蓝色纯净得近乎虚假，倒映着远山和云朵，仿佛一幅尚未干透的水彩画。把手伸进湖水，指尖会被冻得发麻——那是从融雪径流里渗出的温度。湖边的沙滩是银白色的，踩上去冰凉细软，偶尔夹杂着几片石英石，在阳光下闪着微光。我坐在一根朽木上，看着一只黑颈鸊鷉潜入水中，几分钟后才冒出很远的水面，嘴里叼着一条银亮的小鱼。那一刻，时间被拉得很长，像拉糖一样黏稠而甜美。\n最令人心醉的是公园里的气味旅行。穿过一片古老的松林时，脚下厚厚的松针散发出类似红茶和胡椒混合的香气，而旁边金雀花丛的气味则像热带的芒果和蜂蜜。地势升高后，空气变得稀薄而清澈，带上了岩石和地衣的矿物味——那种味道只有海拔800米以上才有，像舔了一块刚从溪水里捞出的石英。在北坡的阴湿处，我闻到一丝臭鸡蛋的味道，那是硫磺温泉的气息，提醒我这里地壳依然在活动。这些气味像一条看不见的线索，把我与这片土地的地质记忆连在一起。\n但凯恩戈姆最打动我的是它在夕阳下的沉默。傍晚时分，光线从金色变为铜红色，再沉淀为紫灰色，山峰的影子被拉得极长，像是大地伸出的手指抚过山谷。游客早已散去，只剩下风声和偶尔的鹿鸣。我站在Ryvoan Bothy的废墟旁，看着一座废弃的牧羊棚屋在暮色里渐渐变成剪影，屋顶长满了青苔和石莲，像一个回归了自然的皇冠。那一刻我意识到，这里没有什么属于人类，一切最终都会还给岩石和风。这就是凯恩戈姆的魅力——它不是供人征服的景观，而是让人变得渺小、谦卑的活体博物馆。"
+    "description": "第一次见到凯恩戈姆，是深秋一个清冷的早晨。我站在Aviemore小镇边缘，空气里弥漫着松脂和苔藓的潮湿气味，脚下的小径覆满了昨夜落下的金色针叶，踩上去像厚实的地毯，每一步都发出沙沙的轻响。远处，Cairn Gorm山峰的轮廓在晨雾中若隐若现，山顶的雪线像一条银色的丝带缠绕在深灰色的花岗岩上。一只红松鼠突然从路边的苏格兰松上窜过，尾巴在空中划出一道弧线，消失在树冠里。我能听到溪水在谷底低语，混合着远处牧羊犬的吠叫和乌鸦粗粝的鸣声——这些声音稀疏却充满力量，像一个巨人缓慢呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bwlch-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔赫山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bwlch Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saint-savinien-charente-maritime\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣萨维尼安</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint-Savinien</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lommel-belgium\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛梅尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lommel</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aero-island-aeroskobing\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾尔岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aero Island</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lauterbrunnen-valley\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    劳\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">劳特布龙嫩山谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lauterbrunnen Valley</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/koli-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科利国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Koli National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bwlch-mountain",
-          "name": "布尔赫山",
-          "englishName": "Bwlch Mountain"
+          "slug": "aero-island-aeroskobing",
+          "name": "艾尔岛",
+          "englishName": "Aero Island"
         },
         {
-          "slug": "saint-savinien-charente-maritime",
-          "name": "圣萨维尼安",
-          "englishName": "Saint-Savinien"
+          "slug": "lauterbrunnen-valley",
+          "name": "劳特布龙嫩山谷",
+          "englishName": "Lauterbrunnen Valley"
         },
         {
-          "slug": "lommel-belgium",
-          "name": "洛梅尔",
-          "englishName": "Lommel"
+          "slug": "koli-national-park",
+          "name": "科利国家公园",
+          "englishName": "Koli National Park"
         }
       ]
     }

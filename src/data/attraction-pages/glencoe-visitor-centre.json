@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰高地格伦科村",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦科游客中心",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格伦科游客中心・Glencoe Visitor Centre・英国・苏格兰高地格伦科村",
-    "description": "我记得第一次开车沿着A82公路接近格伦科时，车窗外的世界突然变了颜色。前一刻还是翠绿起伏的低地牧场，下一个转弯，两座黑灰色的巨山像巨人张开的双臂朝我压过来。耳机里的音乐瞬间被淹没了——不是因为音量变小，而是那种寂静太有分量。我摇下车窗，冷风瞬间灌进来，带着苔藓、湿泥和某种说不清的矿物味。空气里有种凉丝丝的甜味，那是高地的雪水融化后从岩缝里渗出来的味道。\n我停在游客中心前的草坪上，仰头看着那片被称为“天堂谷”的U形冰川谷。三座主峰——布赫伊特山、米斯特里山和信号岩——像巨大的黑色屏风耸立，岩壁上挂着几条细银线般的瀑布，水声在峡谷里回荡成一种低沉的嗡鸣。风从山脊上呼啸而下，吹得我的防风夹克猎猎作响。旁边几个穿着苏格兰短裙的老人正在停车场边上调望远镜，他们带着厚重的格纹围巾，朝我点了点头，那种微笑里藏着高地人特有的矜持与骄傲。\n走进游客中心，玻璃幕墙把整个峡谷框成了一幅巨画。室内展区的光线很暖，与外面的冷峻形成强烈对比。一面墙上投影着大屠杀原址的3D复原画面，耳边播放着风笛哀伤的旋律。我站在那儿，看着屏幕上那些泥泞的雪地、倒下的帐篷和奔跑的剪影，突然觉得脚底下的土地变得沉重了。三百多年前的那个清晨，就在我脚踩的这片山谷里，鲜血染红了积雪。如今，这里只有羊群在吃草，偶尔有徒步者的登山靴踩过碎石路的声音。\n最打动我的时刻是黄昏。最后一班大巴开走后，游客中心只剩下我和一个坐在角落看地图的背包客。夕阳把布赫伊特山的西壁染成金红色，山谷里的一切轮廓都变得柔和起来。我坐在门外的长凳上，闭着眼睛听风。风从峡谷北口灌进来，在崖壁上打转，发出呜咽般的声音。那一刻我忽然理解了一个当地人对我说的话：“格伦科从不说话，它只是让你听见自己的沉默。”"
+    "description": "我记得第一次开车沿着A82公路接近格伦科时，车窗外的世界突然变了颜色。前一刻还是翠绿起伏的低地牧场，下一个转弯，两座黑灰色的巨山像巨人张开的双臂朝我压过来。耳机里的音乐瞬间被淹没了——不是因为音量变小，而是那种寂静太有分量。我摇下车窗，冷风瞬间灌进来，带着苔藓、湿泥和某种说不清的矿物味。空气里有种凉丝丝的甜味，那是高地的雪水融化后从岩缝里渗出来的味道。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/edinburgh-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Edinburgh Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/valle-crucis-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    十\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">十字架山谷修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abaty Glyn Y Groes / Valle Crucis Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bryn-cader-faner",
-          "name": "布林卡德法纳",
-          "englishName": "Bryn Cader Faner"
+          "slug": "castell-dinefwr",
+          "name": "迪内弗尔城堡",
+          "englishName": "Castell Dinefwr"
         },
         {
-          "slug": "edinburgh-castle",
-          "name": "爱丁堡城堡",
-          "englishName": "Edinburgh Castle"
+          "slug": "valle-crucis-abbey",
+          "name": "十字架山谷修道院",
+          "englishName": "Abaty Glyn Y Groes / Valle Crucis Abbey"
         },
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "cardiff-bay-barrage",
+          "name": "卡迪夫湾水闸",
+          "englishName": "Cardiff Bay Barrage"
         }
       ]
     }

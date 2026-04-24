@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "约翰奥格罗茨（John o' Groats）附近，凯斯内斯地区",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "邓肯斯比角灯塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "邓肯斯比角灯塔・Duncansby Head Lighthouse・英国・约翰奥格罗茨（John o' Groats）附近，凯斯内斯地区",
-    "description": "我第一次看到邓肯斯比角灯塔，不是在晴天，而是在一个阴雨连绵的八月午后。北海上空滚着铅灰色的云絮，风从奥克尼群岛那边刮过来，带着咸腥的水汽和一种不容置疑的蛮力，把我的冲锋衣吹得鼓成一面帆。车子停在约翰奥格罗茨东边那片荒芜的牧场上，最后一段路只能步行。脚下是湿漉漉的草丛，踩上去发出咕吱咕吱的水声，空气里弥漫着苔藓和海藻混合的气味——那是苏格兰最北端特有的味道，有点酸，有点冷，像是被暴风雨洗过一万遍的石头发出的叹息。\n绕过一个小山丘，灯塔突然出现在眼前。它立在那里，白得刺眼，像一根被神掰断的巨人的手指，直直戳向阴郁的天空。周围什么都没有，只有被风修剪得紧贴地面的杂草，以及远处悬崖边缘像一排巨兽牙齿般的海蚀柱——邓肯斯比柱群。那些石柱高低错落，最高的大概有六十米，灰黑色的玄武岩柱体如同风琴管一般整齐排列，顶部被千万年的海风打磨成圆润的帽状。最让我震惊的是声音：风的尖啸、海浪在脚下深谷里沉闷的击打声、还有成千上万只海鸟嘶哑的鸣叫——三趾鸥、北极燕鸥、海鹦，它们发出的噪音像一台巨大而生锈的引擎在喘息。这声音并不是刺耳，而是有一种原始的、让人汗毛倒竖的壮丽。\n我慢慢走近灯塔的围栏，守塔人的白色小屋窗户紧闭，百叶窗被风拍得轻微颤动。这种孤独感不是城市里那种安静的孤独——它是充满威胁的、与世隔绝的、仿佛站在世界尽头边缘的孤独。据说最后一位驻守这里的管理员在1930年代撤离时，留下了“这地方能把人的脑子吹成碎浪”的感慨。的确，站在这里，你会不自觉地把声音压低，仿佛一开口，就会被风吹走，融化进天空和大海之间那条模糊的界限里。\n但它又美得让人心碎。当一缕阳光偶尔从云缝里漏下，打在海蚀柱的棱角和灯塔的白墙上时，整个画面亮得像一幅蚀刻版画。那些柱子的阴影在嶙峋的海面上拉出长长的深色线条，海水在底部反着浅绿色的荧荧波光。你会突然意识到，这种美不是那种温柔的、适合拍照发朋友圈的美——它是残酷的，是不妥协的，是几百年来每个水手在风暴中祈祷时眼里最后的光亮。这就是邓肯斯比角的魔力：它用一种近乎暴力的方式，让你记住什么叫最纯粹的荒野。"
+    "description": "我第一次看到邓肯斯比角灯塔，不是在晴天，而是在一个阴雨连绵的八月午后。北海上空滚着铅灰色的云絮，风从奥克尼群岛那边刮过来，带着咸腥的水汽和一种不容置疑的蛮力，把我的冲锋衣吹得鼓成一面帆。车子停在约翰奥格罗茨东边那片荒芜的牧场上，最后一段路只能步行。脚下是湿漉漉的草丛，踩上去发出咕吱咕吱的水声，空气里弥漫着苔藓和海藻混合的气味——那是苏格兰最北端特有的味道，有点酸，有点冷，像是被暴风雨洗过一万遍的石头发出的叹息。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dolwyddelan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多尔威德兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dolwyddelan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceannabeinne-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    喜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">喜纳本海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ceannabeinne Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/old-oswestry-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    旧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">旧奥斯沃斯特里山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Oswestry Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mount-snowdon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯诺登山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mount Snowdon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/roman-baths\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗马浴场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Roman Baths</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castell-dolwyddelan",
-          "name": "多尔威德兰城堡",
-          "englishName": "Castell Dolwyddelan"
+          "slug": "old-oswestry-hill-fort",
+          "name": "旧奥斯沃斯特里山堡",
+          "englishName": "Old Oswestry Hill Fort"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "mount-snowdon",
+          "name": "斯诺登山",
+          "englishName": "Mount Snowdon"
         },
         {
-          "slug": "ceannabeinne-beach",
-          "name": "喜纳本海滩",
-          "englishName": "Ceannabeinne Beach"
+          "slug": "roman-baths",
+          "name": "罗马浴场",
+          "englishName": "The Roman Baths"
         }
       ]
     }

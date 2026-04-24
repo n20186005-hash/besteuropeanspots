@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "索尔兹伯里",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "巨石阵",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "巨石阵・Stonehenge・英国・索尔兹伯里",
-    "description": "第一次见到巨石阵，你会感受到一种无法言说的寂静。那不是一个普通的景区，而是一片被苍茫平原包裹的神秘地带。清晨，薄雾像薄纱一样在草地上升腾，巨石群在雾气中若隐若现，仿佛从远古的梦境里缓缓浮现。空气中飘着青草和泥土的清新气味，偶尔有云雀从头顶飞过，它们清脆的叫声被风声吹散，余下的只有石头的沉默。那些巨大而粗糙的石头，竖立了大约五千年，它们表面布满风化的纹理和黑褐色的地衣，用手触碰时能感到一股冰冷的、沉甸甸的历史感。\n游人通常沿着环形步道缓缓前行，脚步声在碎石路上响起，回荡在空旷的田野里。你会在某个瞬间突然停下，抬头仰望那三米多高的石头横梁，它们被巧妙地架在直立的石柱上，构成一个完美的圆形。这种结构在五千年后依然坚固，令人惊叹。这里没有尖叫或喧哗，每个人似乎都被这种沉寂征服，只能从耳机里传来语音导览的低语，讲述着那些早就失传的仪式和传说。风拂过石头发出呜咽声，仿佛大地在低声吟唱，空气中弥漫着一种神圣而忧郁的魔力。\n在巨石阵周围，你会发现一圈圈低矮的土堤和沟渠，它们像是某种环形防御工事的遗迹，但其实是史前祭祀场的边界。远处还有一些散落的蓝色石头，它们被放置在圈内，排列成马蹄形。这些石头来自几百英里外的威尔士山脉，它们如何被运到这里，至今仍是未解之谜。站在这里，你不再是一个游客，而是一个穿越时间的观察者，感受着先民们如何在阳光下、风雨中，用最原始的工具创造了这片土地上的永恒景观。\n在普通人眼中，巨石阵可能只是一个拍照打卡的景点，但在我的心里，它更像是一本厚重的史书，每一块石头都刻着人类对宇宙、对生死的困惑和敬畏。当你看到夕阳洒在石头上的金色光芒，你会明白为什么古人把它称为“地球的肚脐”，它既是天文学的工具，也是灵魂与神灵对话的场所。它让我感到渺小，也让我感到连接——与五千年前的人类、与更古老的星空、与土地的脉搏。"
+    "description": "第一次见到巨石阵，你会感受到一种无法言说的寂静。那不是一个普通的景区，而是一片被苍茫平原包裹的神秘地带。清晨，薄雾像薄纱一样在草地上升腾，巨石群在雾气中若隐若现，仿佛从远古的梦境里缓缓浮现。空气中飘着青草和泥土的清新气味，偶尔有云雀从头顶飞过，它们清脆的叫声被风声吹散，余下的只有石头的沉默。那些巨大而粗糙的石头，竖立了大约五千年，它们表面布满风化的纹理和黑褐色的地衣，用手触碰时能感到一股冰冷的、沉甸甸的历史感。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay-trail-walk\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加的夫湾步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Trail Walk</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rigg-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    里\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">里格观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rigg Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wales-faw-150-years-memorial-mural\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士足协150周年纪念壁画</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales FAW 150 Years Memorial Mural</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/new-lanark\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新拉纳克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Lanark</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nolton-haven-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺尔顿港湾海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nolton Haven Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cardiff-bay-trail-walk",
-          "name": "加的夫湾步道",
-          "englishName": "Cardiff Bay Trail Walk"
+          "slug": "wales-faw-150-years-memorial-mural",
+          "name": "威尔士足协150周年纪念壁画",
+          "englishName": "Wales FAW 150 Years Memorial Mural"
         },
         {
-          "slug": "rigg-viewpoint",
-          "name": "里格观景点",
-          "englishName": "Rigg Viewpoint"
+          "slug": "new-lanark",
+          "name": "新拉纳克",
+          "englishName": "New Lanark"
         },
         {
-          "slug": "brymbo-bandstand",
-          "name": "布莱姆博音乐台",
-          "englishName": "Brymbo Bandstand"
+          "slug": "nolton-haven-beach",
+          "name": "诺尔顿港湾海滩",
+          "englishName": "Nolton Haven Beach"
         }
       ]
     }

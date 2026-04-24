@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫（Cardiff）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士足协150周年纪念壁画",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士足协150周年纪念壁画・Wales FAW 150 Years Memorial Mural・英国・卡迪夫（Cardiff）",
-    "description": "我第一次听说这幅壁画，是在卡迪夫一家满是黄铜老钟表的小酒馆里。酒保听说我四处寻找“不寻常的威尔士”，放下擦杯子的布，眼睛一亮：“去看看FAW那面墙吧，新画的，比任何博物馆都更有血肉。”第二天清晨，我沿着Vanguard Way走过去，远远就看见一抹浓烈的红从灰扑扑的办公区跳出来。\n走近了，整面墙像被巨大的画布包裹——威尔士红龙的翅膀几乎占满画面上方，鳞片是用深浅不同的红勾出来的，在晨光里泛着微微的釉光。龙的左爪下护着一颗足球，足球的纹路里嵌着1904、1958、2016这些年份数字。下方是三个并排的球员剪影，最左边那个穿着老式带纽扣的球衣，中间是现代紧身队服，右边是儿童体型的未来身影——从过去到未来，三代人用同一道弧线传递着一个看不见的球。风吹过来时，我闻到了附近码头咸湿的味道，还有远处烤面包店飘来的麦香。那一刻我突然觉得，这面墙不是静止的，它在呼吸。\n当地人说，画家是卡迪夫本地的一位街头艺术家，他和三个助手花了整整两个月，每天从日出画到日落。画到红色龙眼的时候，连续三天不下脚手架，生怕瞳孔里的神采不对。现在壁画成了居民自发的小地标，有人会在龙翼下求婚，有孩子放学专门绕路来看“墙上那只大蜥蜴”，也有老球迷拎着啤酒站在对面，指指点点地回忆1970年代威尔士险些打进世界杯的遗憾。\n最打动我的，是壁画底部那条不起眼的细缝——那是FAW大楼原来的排气口，艺术家没有覆盖它，反而在排气口周围画了一圈野花和绿草，像是从水泥裂缝中长出的生机。这不就是威尔士足球的真实写照吗？在英格兰和苏格兰的夹缝中，始终倔强地生长，开着属于自己的花。"
+    "description": "我第一次听说这幅壁画，是在卡迪夫一家满是黄铜老钟表的小酒馆里。酒保听说我四处寻找“不寻常的威尔士”，放下擦杯子的布，眼睛一亮：“去看看FAW那面墙吧，新画的，比任何博物馆都更有血肉。”第二天清晨，我沿着Vanguard Way走过去，远远就看见一抹浓烈的红从灰扑扑的办公区跳出来。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eryri-national-park-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃里里国家公园（斯诺登尼亚）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eryri National Park (Snowdonia)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kytra-lock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯特拉水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kytra Lock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "llyn-brianne-viewpoint",
-          "name": "布莱恩湖观景台",
-          "englishName": "Llyn Brianne Viewpoint"
+          "slug": "kytra-lock",
+          "name": "凯特拉水闸",
+          "englishName": "Kytra Lock"
         },
         {
-          "slug": "castell-coch",
-          "name": "科奇城堡",
-          "englishName": "Castell Coch"
+          "slug": "battle-abbey",
+          "name": "巴特尔修道院",
+          "englishName": "Battle Abbey"
         },
         {
-          "slug": "eryri-national-park-snowdonia",
-          "name": "埃里里国家公园（斯诺登尼亚）",
-          "englishName": "Eryri National Park (Snowdonia)"
+          "slug": "castell-aberystwyth",
+          "name": "阿伯里斯特威斯城堡",
+          "englishName": "Castell Aberystwyth"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰高地，格兰敦镇附近",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "洛钦多布城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "洛钦多布城堡・Lochindorb Castle・英国・苏格兰高地，格兰敦镇附近",
-    "description": "我第一次听说洛钦多布城堡，是在因弗内斯一家老酒吧里。那时我刚结束斯凯岛的行程，正对着地图发愁——还有什么地方是我不知道的？酒保擦着杯子，眼神飘向窗外雾气弥漫的山丘：“你去过湖心的城堡吗？真正的孤岛，连路都没有。”他说的是洛钦多布。我决定去看看。\n第二天清晨，我沿着B9102公路开进凯恩戈姆国家公园的边缘。路越变越窄，最后成了碎石和草茎交织的土路。我放慢速度，摇下车窗，冷冽的空气瞬间灌进来——没有城市的气味，只有潮湿的泥土、腐烂的松针和远处羊群身上淡淡的膻味。车停在一扇锈迹斑斑的铁丝栅栏门前，门没有锁，上面挂着一块手写木牌：“请随手关门——羊会跑掉。”我推开栅栏，踏进了牧场。\n步行大约二十分钟，翻过一道长满石楠花的缓坡，洛钦多布湖突然出现在眼前。湖面灰蓝，像一面被磨砂过的镜子。而洛钦多布城堡就坐落在一座小小的岩石岛屿上，离岸大约五十米。它残破的轮廓在雾中若隐若现——没有屋顶，没有窗，只有粗粝的石墙从水面拔起，沉默地指向天空。周围没有游客，没有停车场，没有纪念品商店，甚至连一条像样的路都没有。只有风吹过湖面的声音，和偶尔从远处传来的乌鸦叫声。\n我沿着湖岸走，试图寻找那条据说曾经连接岛屿与陆地的堤道。大部分已经沉入水下，只有几块露出水面的石头暗示着方向。我听见自己的脚步声在碎石上发出碎裂的声响。空气中有种安静得近乎危险的张力——仿佛每一分钟都在缓慢地倒塌。城堡的墙体上爬满了苔藓和地衣，最上方的一角伸出一棵瘦弱的桦树，被风吹得几乎水平生长。我坐在一块倒下的墓碑状石板上，盯着它看了很久。没有着急，没有计划，只是让时间像湖水一样流过去。"
+    "description": "我第一次听说洛钦多布城堡，是在因弗内斯一家老酒吧里。那时我刚结束斯凯岛的行程，正对着地图发愁——还有什么地方是我不知道的？酒保擦着杯子，眼神飘向窗外雾气弥漫的山丘：“你去过湖心的城堡吗？真正的孤岛，连路都没有。”他说的是洛钦多布。我决定去看看。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/creag-meagaidh-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里格梅盖迪国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Creag Meagaidh National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-stone\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Stone</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wales-coastal-path-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯海岸步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brynich-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇引水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "creag-meagaidh-national-nature-reserve",
-          "name": "克里格梅盖迪国家自然保护区",
-          "englishName": "Creag Meagaidh National Nature Reserve"
+          "slug": "wales-coastal-path-aberystwyth",
+          "name": "阿伯里斯特威斯海岸步道",
+          "englishName": "Wales Coastal Path Aberystwyth"
         },
         {
-          "slug": "arthurs-stone",
-          "name": "亚瑟石",
-          "englishName": "Arthur's Stone"
+          "slug": "brynich-aqueduct",
+          "name": "布里尼奇引水桥",
+          "englishName": "Brynich Aqueduct"
         },
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "bedd-arthur",
+          "name": "贝德·阿瑟",
+          "englishName": "Bedd Arthur"
         }
       ]
     }

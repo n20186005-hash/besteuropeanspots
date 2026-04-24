@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯比肯斯国家公园（邻近卡迪夫）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "佩尼范山",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "佩尼范山・Pen y Fan・英国・布雷肯比肯斯国家公园（邻近卡迪夫）",
-    "description": "第一次看到佩尼范山，是在一个灰蒙蒙的清晨。车停到Pont ar Daf的停车场，推开车门的瞬间，一股混合着湿润泥土和羊粪的冷风直接灌进肺里。抬头，山顶隐没在低垂的云絮中，像是故意不让我看清它的全部。脚下的碎石路湿漉漉的，踩上去发出吱嘎的声响，旁边是一条欢快的小溪，水流声盖过了远处偶尔传来的鸟鸣。那种感觉很奇怪——明明是一座不算高的山（886米），却因为周围丘陵的平缓衬托得格外有气势，像一个沉默的巨人披着绿斗篷躺在大地上。\n沿着最经典的“马蹄形路线”向上，坡度一开始就很陡。石头台阶不规则地堆叠着，每一步都得看好落脚点。走了不到二十分钟，外套里就渗出了汗，但空气越来越冷，呼出的白气很快被风吹散。太阳从左后方慢慢探出头，光线斜着打在西边的山壁上，把那种威尔士特有的暗绿色草甸照得发亮，好像抹了一层橄榄油。我停下来喝水，才发现周围的安静有多深——没有车声，没有手机信号，只有风从山脊吹过的呜咽和偶尔从远处传来登山杖敲击岩石的叮当声。\n快到山脊的时候，风突然变大了，几乎能把人推一个趔趄。我压低身体，抓着岩缝往上爬。最后几步，视野猛地展开——山顶是一块巨大的平台，像被刀削过一样平坦。脚下是几百米深的河谷，对面是连绵起伏的绿色山丘层层叠叠滚向天际。云就在头顶移动，阴影在草地上飞快地游走，仿佛大地在呼吸。有几个早到的徒步者坐在岩石上啃三明治，大家都不说话，只是看着远方。\n最打动我的是那种毫不刻意的壮丽。没有门票、没有围栏、没有纪念品商店，佩尼范山就这么赤裸裸地把自己交给每一个愿意流汗的人。你甚至不需要任何户外经验，只要有一双好鞋和一壶水，就能站到威尔士的头顶。但它也会随时翻脸——我在山顶的半小时里，经历了晴、雾、小雨和一阵冰雹，气象变化之快让人措手不及。这种野生感，正是它最迷人的地方。它不是一个景点，而是一个活生生的、有脾气的存在。"
+    "description": "第一次看到佩尼范山，是在一个灰蒙蒙的清晨。车停到Pont ar Daf的停车场，推开车门的瞬间，一股混合着湿润泥土和羊粪的冷风直接灌进肺里。抬头，山顶隐没在低垂的云絮中，像是故意不让我看清它的全部。脚下的碎石路湿漉漉的，踩上去发出吱嘎的声响，旁边是一条欢快的小溪，水流声盖过了远处偶尔传来的鸟鸣。那种感觉很奇怪——明明是一座不算高的山（886米），却因为周围丘陵的平缓衬托得格外有气势，像一个沉默的巨人披着绿斗篷躺在大地上。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/maen-du-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑石圣井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen-Du Well</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brynich-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇引水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wales-coastal-path-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯海岸步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caerau-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡埃劳山丘堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caerau Hillfort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunnet-head-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓尼特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunnet Head Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "maen-du-well",
-          "name": "黑石圣井",
-          "englishName": "Maen-Du Well"
+          "slug": "wales-coastal-path-aberystwyth",
+          "name": "阿伯里斯特威斯海岸步道",
+          "englishName": "Wales Coastal Path Aberystwyth"
         },
         {
-          "slug": "brynich-aqueduct",
-          "name": "布里尼奇引水桥",
-          "englishName": "Brynich Aqueduct"
+          "slug": "caerau-hillfort",
+          "name": "卡埃劳山丘堡垒",
+          "englishName": "Caerau Hillfort"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "dunnet-head-lighthouse",
+          "name": "邓尼特角灯塔",
+          "englishName": "Dunnet Head Lighthouse"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "剑桥",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "菲茨威廉博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "菲茨威廉博物馆・The Fitzwilliam Museum・英国・剑桥",
-    "description": "当你推开菲茨威廉博物馆那扇沉甸甸的黄铜大门，脚踩过门廊里锃亮的大理石地板，光线透过中庭穹顶的玻璃，在空气里撒下一层温柔的金色尘埃。我总觉得，这家博物馆不像个大英博物馆那样的巨型殿堂，让人走几步就累得想坐下，它更像一位温和而有学识的老朋友，拉着你的手，轻声说：“来，看看我年轻时候收集的小玩意儿。”空气里有旧书页和木头混合的淡淡味道，间或飘过一缕来自咖啡馆的黄油味。剑桥本地人把这里当作自家的客厅，午休时跑进来对着某幅油画发一会儿呆，或者带小朋友蹲在古埃及的石棺前指指点点。\n我初次造访时，没直奔那些最出名的油画，倒是在一楼左手边那个陈列着中世纪手稿的展厅停下了脚步。昏暗的灯光打在一本福音书的彩绘页上，金色和蓝色的颜料历经五六百年竟依然鲜艳得不可思议，那些缠绕的藤蔓和微缩人物，饱满得像要活过来。隔壁是古希腊的黑绘陶瓶，器壁上描绘着裸身武士和奔跑的骏马，线条流畅而鲜活，你几乎能听到两千多年前雅典工匠在旋转陶坯时的喘息声。这种密集而私密的陈列方式，让你和物件之间没有任何玻璃或围栏的隔阂，仿佛一伸手，就能触摸到时间的皮肤。\n博物馆最具辨识度的空间，莫过于那个被穹顶笼罩的中央大厅。从二楼回廊向下望，大理石地面被切割出几何花纹，阳光像液体般倾泻而下，将这个神圣的空间笼罩在一种永恒的光辉里。我碰见一位满头银发的老太太，每天下午都坐在大厅靠窗的皮沙发上，膝盖上摊着一本速写本，偶尔抬头端详某座雕塑，然后低头用铅笔轻轻勾勒。她告诉我，她在这座城里住了六十年，菲茨威廉是她“最容易感到平静的地方”。我想，这种面对艺术品时坦然而沉默的陪伴，或许正是这座博物馆最深层的魅力所在。\n菲茨威廉并不以数量取胜，它的魔力在于每一件藏品都有被精心挑选和被讲述的欲望。你可以花一个下午，只在一间塞满威尼斯画派作品的展厅里流连，看提香笔下的维纳斯如何裹着丝绸的温热光泽，看丁托列托怎样用狂野的笔触搅动画面的空气。那种感觉不像是参观，更像是受邀参加一场跨越千年的私人派对。从古埃及的圣甲虫到莫奈的睡莲，从中国明代的碗碟到德国文艺复兴的祭坛画，它们济济一堂，却毫不冲突，因为每一件都承载着一个关于美的故事。"
+    "description": "当你推开菲茨威廉博物馆那扇沉甸甸的黄铜大门，脚踩过门廊里锃亮的大理石地板，光线透过中庭穹顶的玻璃，在空气里撒下一层温柔的金色尘埃。我总觉得，这家博物馆不像个大英博物馆那样的巨型殿堂，让人走几步就累得想坐下，它更像一位温和而有学识的老朋友，拉着你的手，轻声说：“来，看看我年轻时候收集的小玩意儿。”空气里有旧书页和木头混合的淡淡味道，间或飘过一缕来自咖啡馆的黄油味。剑桥本地人把这里当作自家的客厅，午休时跑进来对着某幅油画发一会儿呆，或者带小朋友蹲在古埃及的石棺前指指点点。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/drum-castle-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德鲁姆城堡（庄园与花园）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drum Castle, Garden & Estate</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dryslwyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德莱斯林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dryslwyn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "animal-wall",
+          "name": "动物墙",
+          "englishName": "Animal Wall"
         },
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "castell-dryslwyn",
+          "name": "德莱斯林城堡",
+          "englishName": "Castell Dryslwyn"
         },
         {
-          "slug": "drum-castle-scotland",
-          "name": "德鲁姆城堡（庄园与花园）",
-          "englishName": "Drum Castle, Garden & Estate"
+          "slug": "conwy-castle",
+          "name": "康威城堡",
+          "englishName": "Conwy Castle"
         }
       ]
     }

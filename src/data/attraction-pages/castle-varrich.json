@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "汤格（Tongue）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "瓦里克城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "瓦里克城堡・Castle Varrich・英国・汤格（Tongue）",
-    "description": "我第一次看见瓦里克城堡，是在一个阴晴不定的午后。车停在汤格村那间唯一的杂货店门口，老板指着远处山脊上一个模糊的剪影说：“那就是，走过去二十分钟，不过今天风大，小心别被吹进海里。” 我沿着一条被羊踩出来的土路往上爬，脚下的石楠花被大风吹得贴地伏倒，发出沙沙的脆响。海风裹着咸腥和泥炭的味道直灌进鼻腔，我不得不弯着腰，一步一步踏着露出的岩石往上前进。大约走到半山腰，塔楼突然完整地出现在眼前——它比远处看起来高大得多，粗粝的砂岩墙体上布满了苔藓和地衣，像一块被时间啃噬过的骨头。阳光从云缝里漏下来，在破损的窗洞上投下一道金色的光柱，我愣在原地，几乎忘记了呼吸。\n走近了才能感受到那种粗野的安静。城堡并不大，剩下一座方形的塔楼，东侧和北侧的墙壁已经塌了一半，内部堆着碎石和野草。我小心翼翼地爬进底层，头顶是裂开的拱顶，阳光从裂缝里洒下来，像一座天然的光之教堂。空气里浮着尘土的干燥气味和青草的湿润，脚下踩过的石板上有模糊的刻痕——也许是数百年前某个士兵的靴子磨出来的。我伸手摸了摸墙壁，冰凉粗糙，指尖能感到砂岩颗粒的触感。没有游客，没有售票处，没有指示牌，只有风声和偶尔从远处传来的海鸥叫声。这里不是被精心保护的景点，而是一座被时间和自然重新占有的废墟，它骄傲地站在那里，不屑于讨好任何人。\n我坐在塔楼朝西的一侧，面前是一片延伸到地平线的北大西洋。海面被风吹皱，泛着铅灰色的鳞光，远处的本霍普山（Ben Hope）山顶还覆盖着残雪。从这里可以看见整个凯斯内斯海岸线，蜿蜒曲折，荒凉而壮美。我忽然理解了为什么麦克凯家族要把城堡建在这里——不是为了舒适，而是为了控制视野，为了在第一时间看到从海上或陆地上接近的任何敌人。那一瞬间，历史和地理在我的脑海中重叠，我仿佛听见了号角声和铠甲的碰撞声。但现实里只有风声和我的呼吸声。这种强烈的反差，比任何博物馆里的文物都更能让人触摸到时间的质地。\n黄昏来得很快，海风变得更冷，我不得不站起来活动冻僵的脚。城堡的影子拉得很长，投在草地上，像一个巨大的箭头指向大海。我下山的时候，回头看了一眼，塔楼的剪影被夕阳镀上一层暗金色，像一座燃烧的纪念碑。那一刻我想到，在苏格兰漫长的历史中，有多少像我这样的过客，在同一个角度仰望过它？它见证了部落战争、苏格兰独立、清地运动、世界大战，而我们这些匆匆的旅人，不过是它漫长生命中一闪而过的微粒。"
+    "description": "我第一次看见瓦里克城堡，是在一个阴晴不定的午后。车停在汤格村那间唯一的杂货店门口，老板指着远处山脊上一个模糊的剪影说：“那就是，走过去二十分钟，不过今天风大，小心别被吹进海里。” 我沿着一条被羊踩出来的土路往上爬，脚下的石楠花被大风吹得贴地伏倒，发出沙沙的脆响。海风裹着咸腥和泥炭的味道直灌进鼻腔，我不得不弯着腰，一步一步踏着露出的岩石往上前进。大约走到半山腰，塔楼突然完整地出现在眼前——它比远处看起来高大得多，粗粝的砂岩墙体上布满了苔藓和地衣，像一块被时间啃噬过的骨头。阳光从云缝里漏下来，在破损的窗洞上投下一道金色的光柱，我愣在原地，几乎忘记了呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castle-of-old-wick\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维克老城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Of Old Wick</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/west-blockhouse-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西堡垒堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">West Blockhouse Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/neist-point-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奈斯特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neist Point Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-inverlochy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老因弗洛奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Inverlochy Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castle-of-old-wick",
-          "name": "维克老城堡",
-          "englishName": "Castle Of Old Wick"
+          "slug": "west-blockhouse-fort",
+          "name": "西堡垒堡",
+          "englishName": "West Blockhouse Fort"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "neist-point-lighthouse",
+          "name": "奈斯特角灯塔",
+          "englishName": "Neist Point Lighthouse"
         },
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "old-inverlochy-castle",
+          "name": "老因弗洛奇城堡",
+          "englishName": "Old Inverlochy Castle"
         }
       ]
     }

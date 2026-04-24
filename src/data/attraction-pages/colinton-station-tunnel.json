@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "科林顿车站与隧道",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "科林顿车站与隧道・Colinton Station & Tunnel・英国・爱丁堡",
-    "description": "我永远记得第一次在爱丁堡的淅沥小雨中摸到科林顿隧道入口时的感觉。那是一条被藤蔓彻底吞没的石拱，像被时间遗忘的巨兽半张着嘴，从喉咙里吐出幽绿的光。穿过那道拱门，雨水突然静默了，只听见自己的脚步声在砖壁上弹跳，然后一寸寸被潮湿的苔藓吸收。隧道不长，大约只有两百米，但每向前一步，光就褪去一层。头顶的拱砖上垂下一根根气生根须，像某种古老的帘幕。走到正中央时，手机屏幕亮起，我看见隧道南口的光——那是一个完美半圆形的、裹着绿意的光洞，仿佛隧道尽头不是爱丁堡城区，而是通向另一个维度的绿色通道。\n出了南口，世界豁然开朗。眼前是利思河（Water of Leith）的河岸，柳树在风中翻动银色的叶背，鸭子在浅滩上划水。右手边是废弃的科林顿车站月台，红砂岩墙面已被常春藤爬满三分之二，只剩一扇褪色的木门露出门牌号码。我站在那扇门前，透过门缝看见候车室里的壁炉，壁炉架上还放着一个生锈的铁皮茶壶。当地人告诉我，直到上世纪九十年代，这间候车室还被改造成社区茶馆，老人们在这里下棋、看火车经过——虽然火车早就停运了。你能想象吗？阳光透过同样布满藤蔓的窗户洒在棋盘上，空气里飘着伯爵茶和煤灰混合的奇妙气味。\n最让我着迷的是这个车站的「双重身份」。它是爱丁堡人逃离日常的避难所，也是野生动物的庇护所。我坐在月台残破的木长椅上，看一只红松鼠在枕木堆上剥榛子，它的尾巴蓬松得像个惊叹号。旁边一位推着婴儿车的妈妈停下车，指着隧道口对宝宝说：看，那是仙女住的地方。孩子咯咯笑着伸出小手，仿佛真的抓住了从隧道里飘出的什么魔法。那一刻我突然明白，科林顿车站真正吸引人的不是宏大壮丽，而是它恰好站在「废弃」与「重生」的微妙平衡点上——既保留了工业时代的粗糙骨架，又被自然重新做了软包。"
+    "description": "我永远记得第一次在爱丁堡的淅沥小雨中摸到科林顿隧道入口时的感觉。那是一条被藤蔓彻底吞没的石拱，像被时间遗忘的巨兽半张着嘴，从喉咙里吐出幽绿的光。穿过那道拱门，雨水突然静默了，只听见自己的脚步声在砖壁上弹跳，然后一寸寸被潮湿的苔藓吸收。隧道不长，大约只有两百米，但每向前一步，光就褪去一层。头顶的拱砖上垂下一根根气生根须，像某种古老的帘幕。走到正中央时，手机屏幕亮起，我看见隧道南口的光——那是一个完美半圆形的、裹着绿意的光洞，仿佛隧道尽头不是爱丁堡城区，而是通向另一个维度的绿色通道。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bikepark-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">BikePark Wales</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">BikePark Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinas-bran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪纳斯布兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinas Brân</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/old-oswestry-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    旧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">旧奥斯沃斯特里山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Oswestry Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glenfinnan-viaduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦芬南高架桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glenfinnan Viaduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jedburgh-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杰德堡修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jedburgh Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bikepark-wales",
-          "name": "BikePark Wales",
-          "englishName": "BikePark Wales"
+          "slug": "old-oswestry-hill-fort",
+          "name": "旧奥斯沃斯特里山堡",
+          "englishName": "Old Oswestry Hill Fort"
         },
         {
-          "slug": "cardiff-bay",
-          "name": "卡迪夫湾",
-          "englishName": "Cardiff Bay"
+          "slug": "glenfinnan-viaduct",
+          "name": "格伦芬南高架桥",
+          "englishName": "Glenfinnan Viaduct"
         },
         {
-          "slug": "castell-dinas-bran",
-          "name": "迪纳斯布兰城堡",
-          "englishName": "Castell Dinas Brân"
+          "slug": "jedburgh-abbey",
+          "name": "杰德堡修道院",
+          "englishName": "Jedburgh Abbey"
         }
       ]
     }

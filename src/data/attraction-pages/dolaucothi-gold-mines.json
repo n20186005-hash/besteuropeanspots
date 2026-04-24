@@ -16,11 +16,11 @@
     },
     {
       "label": "英国（威尔士）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "拉恩福德（Llanwrda）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "多劳科西金矿",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "多劳科西金矿・National Trust - Dolaucothi・英国（威尔士）・拉恩福德（Llanwrda）",
-    "description": "车子在威尔士乡间窄路上拐了最后一个弯，Cothi河的哗哗水声先于任何建筑闯入车窗。你摇下玻璃，潮湿的青草与橡木混着河水的清凉涌进来，然后就看到那座灰白色的砂岩入口——它像一头蹲伏在绿色山坳里的史前巨兽，半张着嘴，黑洞洞的喉咙里藏着两千年的秘密。停车场只有三四辆车，一位穿着National Trust绿色背心的老爷爷正坐在长椅上喂鸟，看见你就咧嘴笑：“来挖金子的？帽子在这儿。”他递过一顶黄色安全帽和一盏头灯，帽檐上有几十道细小的刮痕，每一道都在说话。\n钻进矿洞的瞬间，世界突然变成别的声音。河水声消失了，周围只剩下自己脚步在潮湿砂岩上的回响，和头灯照亮的金色石壁。空气陡然变凉，带着一种矿物特有的金属味和微微的霉味，像是打开了奶奶的老木箱。洞顶很低，你得弯着腰走，手掌随意扶在岩壁上，能感到石头表面像被打磨过一样光滑——那是无数罗马奴隶的手指和汗液留下的包浆。头灯的光扫过去，突然在右手边看见一道半米宽的白色石英脉，里面嵌着细细的黄色闪片，像星夜里的碎光。老爷爷的声音从身后传来：“那就是金子。两千年前，有人在这儿冒着生命危险，把它从岩石里一点点抠出来。”你盯着那道金脉发呆，仿佛能听到铁镐凿石的回响，和奴隶们粗重的喘息。\n再往里走，矿道突然变宽，顶部拔高成一个穹顶空间，像一座地下教堂。中央竖着一根粗大的石柱，那是罗马人故意留下的支撑柱，上面密密麻麻刻着十字架和字母图案——据说，中世纪时这里的矿工把金矿当成神赐之物，每挖出一块就刻一个标记感谢上帝。头灯向上，能看见穹顶上有烟熏的黑色痕迹，那是罗马火把和近代蜡烛的印记。空气中除了石头味，还飘着淡淡的蜡烛油味，仿佛昨天还有人在这里工作。你屏住呼吸站着，能听见水从某处滴落的声音，一滴，两滴，像时间的倒流。\n走出矿洞时，阳光刺得睁不开眼。眼睛适应之后，老爷爷带你沿着河岸走，指给你看一条贯穿山坡的石砌水渠——它绵延好几英里，是罗马人从Cothi河上游引水下来冲刷金矿的。水渠底部长满了青苔，有一股清冽的流水还在缓缓流淌，你蹲下来，手指划过水流，冰冰凉凉。抬头望去，整个山谷在午后慵懒的光线里像一幅柔焦的水彩画，羊群在远处的坡上吃草，偶尔传来铃铛声。很难想象，就在这片田园牧歌之下，埋着古罗马帝国最狂热的贪欲和最残酷的劳作。但正是这种极致的反差，让多劳科西变得如此迷人——它不是一座死寂的废墟，而是一个仍在呼吸的历史器官，每一声水响都在低声讲述着黄金的故事。"
+    "description": "车子在威尔士乡间窄路上拐了最后一个弯，Cothi河的哗哗水声先于任何建筑闯入车窗。你摇下玻璃，潮湿的青草与橡木混着河水的清凉涌进来，然后就看到那座灰白色的砂岩入口——它像一头蹲伏在绿色山坳里的史前巨兽，半张着嘴，黑洞洞的喉咙里藏着两千年的秘密。停车场只有三四辆车，一位穿着National Trust绿色背心的老爷爷正坐在长椅上喂鸟，看见你就咧嘴笑：“来挖金子的？帽子在这儿。”他递过一顶黄色安全帽和一盏头灯，帽檐上有几十道细小的刮痕，每一道都在说话。"
   },
   "sections": [
     {
@@ -62,8 +62,13 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/a-bay-to-remember-dolphin-wildlife-boat-trips\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    难\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">难忘海湾海豚与野生动物乘船之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">A Bay To Remember - Dolphin & Wildlife Boat Trips</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/porthyn-hyfryd\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    珀\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">珀辛·海弗里德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Porthyn Hyfryd</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/a-bay-to-remember-dolphin-wildlife-boat-trips\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    难\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">难忘海湾海豚与野生动物乘船之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">A Bay To Remember - Dolphin & Wildlife Boat Trips</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
+        {
+          "slug": "porthyn-hyfryd",
+          "name": "珀辛·海弗里德",
+          "englishName": "Porthyn Hyfryd"
+        },
         {
           "slug": "a-bay-to-remember-dolphin-wildlife-boat-trips",
           "name": "难忘海湾海豚与野生动物乘船之旅",

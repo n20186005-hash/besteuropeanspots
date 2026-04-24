@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伦敦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "白金汉宫",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "白金汉宫・Buckingham Palace・英国・伦敦",
-    "description": "当你在伦敦早晨的阳光下，顺着林荫大道一路往西走，穿过绿园那片令人心醉的嫩绿草坪，眼前毫无预兆地就伫立起那栋方正而庄严的灰白色建筑——白金汉宫。尽管你已经在无数的明信片和纪录片里看过它几百遍，但真当它在眼前铺展开来时，那种沉静而巨大的存在感依然会猛地击中你。它不像巴黎凡尔赛宫那般做张做势的金碧辉煌，它更像一个沉默寡言却地位崇高的老贵族，用一种近乎日常的姿态俯瞰着整个帝国的昨天和今天。\n我抵达的时候，恰好是早晨九点多。空气中弥漫着修剪过的草坪特有的青草香，混着伦敦清晨那种略带湿润的凉意。鸟儿在茂盛的法国梧桐上嘀啾个不停，远处偶尔传来几声清脆的马蹄声。我看见穿着黑色礼服、戴着高高熊皮帽的卫兵正在交班，他们的步伐极度精确，靴子在格雷斯区的柏油路上踏出富有节奏的嗒嗒声。围观的人群一层又一层，有金发碧眼的小女孩骑在爸爸脖子上，小手使劲挥着英国小旗；有上了年纪的老夫妻，并肩站着，眼神里满是感慨。这一切有种微妙的矛盾感——一边是皇家传统那种令人屏息的仪式感，一边又是逛公园般随意的市民烟火气。\n真正让我觉得心跳漏一拍的，是走近宫殿正面那根根巨大的科林斯柱时。太阳忽然撕开了伦敦阴沉的云层，阳光毫不客气地倾泻而下，把整面雪白的石墙照得几乎反光，而宫顶那面迎风招展的皇家旗帜（如果女王在宫内的话，会升皇室旗）在金辉下猎猎作响。我能听到自己的呼吸声，周围的人群也忽然安静了几秒，所有目光都聚焦在那座近两百年来见证了无数历史转折的宽大阳台上。它的魅力不在于惊世骇俗的装饰，而在于那种刻入每一块砖石里的庄严日常，它就是一个活着的、呼吸着的帝国的家。"
+    "description": "当你在伦敦早晨的阳光下，顺着林荫大道一路往西走，穿过绿园那片令人心醉的嫩绿草坪，眼前毫无预兆地就伫立起那栋方正而庄严的灰白色建筑——白金汉宫。尽管你已经在无数的明信片和纪录片里看过它几百遍，但真当它在眼前铺展开来时，那种沉静而巨大的存在感依然会猛地击中你。它不像巴黎凡尔赛宫那般做张做势的金碧辉煌，它更像一个沉默寡言却地位崇高的老贵族，用一种近乎日常的姿态俯瞰着整个帝国的昨天和今天。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-museum-cardiff\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫国家博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Museum Cardiff</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/emigrants-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    移\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">移民纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Emigrants Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "national-museum-cardiff",
+          "name": "卡迪夫国家博物馆",
+          "englishName": "National Museum Cardiff"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "emigrants-monument",
+          "name": "移民纪念碑",
+          "englishName": "Emigrants Monument"
         },
         {
-          "slug": "blue-lagoon-abereiddi",
-          "name": "蓝湖",
-          "englishName": "Blue Lagoon - Abereiddi"
+          "slug": "bryntail-lead-mine-buildings",
+          "name": "布林泰尔铅矿建筑",
+          "englishName": "Bryntail Lead Mine Buildings"
         }
       ]
     }

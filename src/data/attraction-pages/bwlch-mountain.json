@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯比肯斯国家公园",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布尔赫山",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布尔赫山・Bwlch Mountain・英国・布雷肯比肯斯国家公园",
-    "description": "第一次站在布尔赫山脚下，我愣住了。不是因为惊叹，而是因为一种奇异的……空白。风从谷地深处卷上来，带着湿漉漉的苔藓味，吹在脸上像被野马鬃毛扫过。四周没有游客，没有村庄，只有一条坑坑洼洼的土路，被草甸吞没，尽头是起伏如海的诗意的轮廓。我关掉手机导航，把车停在路边——那个位置太完美了：一块突兀的、被羊啃秃了的草皮，像天然观景台。\n我坐下来，整整十分钟没动。光线在变幻，云的影子像巨大的手指划过山脊，把金黄、暗紫和铁灰揉成一团。远处有牧羊犬的叫声，不是那种急躁的汪汪，而是悠长的、像老人在唱歌的呼唤，带着山谷独有的回音。我能听见风拨弄石墙缝隙里枯草的声音，细碎得像在翻一本旧书。空气清冽，带着高海拔特有的稀薄感，每一次呼吸都像是从古老大地上吸进一丝冷冽的时间。\n这座山有个让人害羞的名字：Bwlch，威尔士语里读作“布尔赫”，意思是“山口”或“山脊的凹陷”。它不骄傲，不狰狞，只是沉默地躺在那——像一个弓着背的老牧羊人，用布满皱纹的脊梁把天空顶起。南坡的牧羊草场依然被世代传承的家庭牧场占据，铁丝网围栏上挂着褪色的蓝色标记桩，证明这里的羊群吃草范围从未超出过祖辈的界定。北坡就是另一个世界：裸露的岩石像远古巨兽的骨骸，在阳光下泛着灰色的、被风雨洗刷多年的光泽。没有路，只有牧羊人踩出来的隐现小径，通向山顶的大片风蚀洼地。\n我特别记得夕阳下山前那一刻。光从西边斜斜地洒下来，把整座山染成金色，羊群变成了移动的小白点，牧羊人坐在他破旧的农用车上，对着手机喊话——大概是给家人报平安吧。那一刻，我觉得这座山活了过来，它就像威尔士的灵魂本身：寡言，从容，对自己的孤寂感到骄傲。你不需要征服它，只需要坐在它身边，一起听风，听羊，听时间缓缓流过的声音。"
+    "description": "第一次站在布尔赫山脚下，我愣住了。不是因为惊叹，而是因为一种奇异的……空白。风从谷地深处卷上来，带着湿漉漉的苔藓味，吹在脸上像被野马鬃毛扫过。四周没有游客，没有村庄，只有一条坑坑洼洼的土路，被草甸吞没，尽头是起伏如海的诗意的轮廓。我关掉手机导航，把车停在路边——那个位置太完美了：一块突兀的、被羊啃秃了的草皮，像天然观景台。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/amorgos-chora-cyclades-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿莫尔戈斯岛乔拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amorgos (Chora)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/moustiers-sainte-marie\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    穆\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">穆斯捷-圣玛丽</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Moustiers-Sainte-Marie</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hann-muenden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    汉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">汉明登</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hann. Münden</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/newcastles-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纽\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纽卡斯尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Newcastle's Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duncansby-head-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓肯斯比角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duncansby Head Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ffridd-faldwyn-iron-age-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里德法尔德文铁器时代山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ffridd Faldwyn Iron Age Hillfort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "amorgos-chora-cyclades-village",
-          "name": "阿莫尔戈斯岛乔拉",
-          "englishName": "Amorgos (Chora)"
+          "slug": "newcastles-castle",
+          "name": "纽卡斯尔城堡",
+          "englishName": "Newcastle's Castle"
         },
         {
-          "slug": "moustiers-sainte-marie",
-          "name": "穆斯捷-圣玛丽",
-          "englishName": "Moustiers-Sainte-Marie"
+          "slug": "duncansby-head-lighthouse",
+          "name": "邓肯斯比角灯塔",
+          "englishName": "Duncansby Head Lighthouse"
         },
         {
-          "slug": "hann-muenden",
-          "name": "汉明登",
-          "englishName": "Hann. Münden"
+          "slug": "ffridd-faldwyn-iron-age-hillfort",
+          "name": "弗里德法尔德文铁器时代山堡",
+          "englishName": "Ffridd Faldwyn Iron Age Hillfort"
         }
       ]
     }

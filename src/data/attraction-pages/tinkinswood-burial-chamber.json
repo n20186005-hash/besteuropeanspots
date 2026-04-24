@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "加的夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "廷金斯伍德古墓",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "廷金斯伍德古墓・Tinkinswood Burial Chamber・英国・加的夫",
-    "description": "那天我开着租来的小车，穿过威尔士连绵起伏的绿色丘陵。导航把我带进一条窄得几乎只能容一辆车通过的乡间小路，两边是石头垒起的矮墙和悠闲嚼草的绵羊。我把车停在路边一个小小的碎石停车场，四周静得只有风声和鸟鸣。推开一扇木栅栏门，走进一片被晨露打湿的草地。走了大约五分钟，那座巨大的石头墓室就突然出现在眼前——它低矮地趴在一座小丘的顶端，像一只沉睡的史前巨兽。\n我站在它面前，仰起头，那块覆盖石大到让我瞬间失语。它至少有四五米长，厚度超过一米，表面坑洼不平，长满了黄绿色的地衣和苔藓。清晨的阳光斜斜地洒在石头上，每一道裂纹和凹陷都清晰可见，散发出一种潮湿的泥土与古老矿物的混合气味。我伸手摸了一下，石面冰凉而粗糙，仿佛能触摸到六千年前那些搬动它的手掌。周围没有游客，只有几只乌鸦在远处呱呱叫，那声音在空旷的田野里显得格外孤寂。\n我绕着墓室走了一圈，发现它的入口很低，需要弯腰才能钻进去。洞口朝东，正对着远处的地平线。我蹲下来往里看，里面是一个大约四米长、两米宽的椭圆形空间，四壁是干砌的石墙，地面铺着土和碎石，幽暗而神秘。我打开手机手电筒，光柱扫过石壁，能看到一些细小的刻痕和岁月的烟尘。那一瞬间，我忽然觉得自己像闯入了一个沉睡千年的梦境，连呼吸都不敢太重。\n这种感觉很奇妙——你站在二十一世纪威尔士的牧场上，脚下踩的却是六千年前的先民精心建造的墓穴。他们用最原始的工具，从几公里外的采石场运来这些巨石，把它们精确地排列成今天的模样。这里埋葬的不只是尸骨，更是他们对永恒的理解和对逝者的柔情。太阳缓缓升高，墓室投下长长的阴影，我坐在草地上，盯着那块巨石发呆。风从海的方向吹来，带着青草和干粪的味道，一切都那样安静，仿佛时间被冻结了。"
+    "description": "那天我开着租来的小车，穿过威尔士连绵起伏的绿色丘陵。导航把我带进一条窄得几乎只能容一辆车通过的乡间小路，两边是石头垒起的矮墙和悠闲嚼草的绵羊。我把车停在路边一个小小的碎石停车场，四周静得只有风声和鸟鸣。推开一扇木栅栏门，走进一片被晨露打湿的草地。走了大约五分钟，那座巨大的石头墓室就突然出现在眼前——它低矮地趴在一座小丘的顶端，像一只沉睡的史前巨兽。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lilleshall-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利勒舍尔纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lilleshall Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dundonald-castle-and-visitor-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓唐纳德城堡与游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dundonald Castle and Visitor Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/equestrian-statue-of-the-duke-of-wellington-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    惠\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">惠灵顿公爵骑马雕像（格拉斯哥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Equestrian statue of the Duke of Wellington, Glasgow</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/staffa-national-nature-reserve-fingals-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    芬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">芬戈尔洞（斯塔法岛国家自然保护区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staffa National Nature Reserve - Fingal's Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lilleshall-monument",
-          "name": "利勒舍尔纪念碑",
-          "englishName": "Lilleshall Monument"
+          "slug": "cwm-rhaeadr-forest",
+          "name": "坎姆拉德森林瀑布",
+          "englishName": "Cwm Rhaeadr Forest"
         },
         {
-          "slug": "dundonald-castle-and-visitor-centre",
-          "name": "邓唐纳德城堡与游客中心",
-          "englishName": "Dundonald Castle and Visitor Centre"
+          "slug": "staffa-national-nature-reserve-fingals-cave",
+          "name": "芬戈尔洞（斯塔法岛国家自然保护区）",
+          "englishName": "Staffa National Nature Reserve - Fingal's Cave"
         },
         {
-          "slug": "equestrian-statue-of-the-duke-of-wellington-glasgow",
-          "name": "惠灵顿公爵骑马雕像（格拉斯哥）",
-          "englishName": "Equestrian statue of the Duke of Wellington, Glasgow"
+          "slug": "hafod-arch",
+          "name": "哈福德拱门",
+          "englishName": "Hafod Arch"
         }
       ]
     }

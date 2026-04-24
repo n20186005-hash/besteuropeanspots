@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "康威",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "大不列颠最小屋",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "大不列颠最小屋・The Smallest House In Great Britain・英国・康威",
-    "description": "第一次看见它的时候，我差点笑出声来。就在康威码头边那条青石板铺成的小巷里，两栋正常的石头房子中间，硬生生挤进来一栋大概只有别人家三分之一宽的小红屋。它太红了，红得像一块被遗落在灰色棋盘上的积木，门楣上方手写着“The Smallest House in Great Britain”，每个字母都透着一种骄傲又幽默的气质。我站在门前，伸开双臂，两只手几乎能同时摸到两侧的墙壁。一个身材高大的成年男性如果想进去，必须低头侧身——那扇木门只有一米二高。\n推开那扇吱呀作响的门，你立刻会感受到什么叫“逼仄”。一楼是一间迷你客厅兼厨房，壁炉小得只能放下一只水壶，靠墙的碗柜大概只有普通鞋盒那么大。脚下是原始的木质地板，踩上去发出咯吱咯吱的声响，像是它在跟你低语这120多年的故事。顺着几乎垂直的旋转楼梯（说它是梯子更准确）爬上二楼，那里只有一张床垫和一个小窗户，窗外就是康威城堡的塔楼和河对岸的山丘。三楼是一个勉强能站直的小阁楼，以前是孩子们睡觉的地方。站在里面，你会发现房间的每一个角落都塞满了生活的痕迹——墙上挂着老照片和当年的报纸剪报，壁炉旁边还摆着一只迷你茶壶。\n我进去的时候刚好是下午四点多，斜阳从西面的小窗照进来，光线将整个房间染成了琥珀色。透过窗户，能听见码头那边海鸥的叫声和游船的马达声。房东的后人——一位精神矍铄的老太太——就住在隔壁的房子里，她偶尔会打开小屋后门，跟游客讲讲她祖辈的故事。她说她的曾祖父罗伯特·琼斯（Robert Jones）是个身高一米九的渔夫，当年就住在这个据说只有1.8米宽（最窄处仅1.2米）的屋子里。你能想象吗？一个一米九的壮汉，每天都要弓着腰进出门，睡在那张比普通单人床还短的床铺上。他当时一定觉得憋屈，但这就是19世纪康威码头区底层劳工的日常。\n最打动我的不是它有多小，而是那种“在夹缝中活出尊严”的劲儿。这栋小屋从1891年被吉尼斯世界纪录认证以来，一直没有被拆除，也没有被改造成纪念品商店，而是原汁原味地保留着当年的模样。它就像康威城墙根下的一株野草，在石头缝隙里伸展开来，开出了一朵小小的花。如今每天有成千上万的游客排队跟它合影，它依然那么安静地伫立在那里，红色的油漆每年都会重新刷一次，鲜亮得像刚刚烤好的威尔士蛋糕。"
+    "description": "第一次看见它的时候，我差点笑出声来。就在康威码头边那条青石板铺成的小巷里，两栋正常的石头房子中间，硬生生挤进来一栋大概只有别人家三分之一宽的小红屋。它太红了，红得像一块被遗落在灰色棋盘上的积木，门楣上方手写着“The Smallest House in Great Britain”，每个字母都透着一种骄傲又幽默的气质。我站在门前，伸开双臂，两只手几乎能同时摸到两侧的墙壁。一个身材高大的成年男性如果想进去，必须低头侧身——那扇木门只有一米二高。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pembrokeshire-coast-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡海岸国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Coast National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/happy-valley-botanical-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欢乐谷植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Happy Valley Botanical Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/penrhos-engine-house-brymbo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭罗斯引擎屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Penrhos Engine House, Brymbo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "pembrokeshire-coast-national-park",
-          "name": "彭布罗克郡海岸国家公园",
-          "englishName": "Pembrokeshire Coast National Park"
+          "slug": "happy-valley-botanical-gardens",
+          "name": "欢乐谷植物园",
+          "englishName": "Happy Valley Botanical Gardens"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "penrhos-engine-house-brymbo",
+          "name": "彭罗斯引擎屋",
+          "englishName": "Penrhos Engine House, Brymbo"
         },
         {
-          "slug": "brymbo-bandstand",
-          "name": "布莱姆博音乐台",
-          "englishName": "Brymbo Bandstand"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "莫顿科比特（Moreton Corbet）/ 什鲁斯伯里（Shrewsbury）附近",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "莫顿科比特城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "莫顿科比特城堡・Moreton Corbet Castle・英国・莫顿科比特（Moreton Corbet）/ 什鲁斯伯里（Shrewsbury）附近",
-    "description": "那天下午我沿着什罗普郡乡间的小径走着，空气中弥漫着刚割过的青草和潮湿的泥土味，远处教堂钟声每隔一刻钟就懒洋洋地响一次。转过一片麦田，莫顿科比特城堡就那样毫无防备地撞进视野——一座红砂岩的巨人骨架，矗立在缓坡上，阳光正透过西侧窗洞切出锐利的光刃。我第一反应不是“壮观”，而是“疼”——那些被岁月啃噬的墙体，像脱了臼的臂膀，露出内里一片片因火烧而发黑的碎石。几只红隼在塔楼顶端盘旋，发出尖锐的啼鸣，听起来就像城堡在低声哀嚎。\n走近了，能闻到砂岩受热后散发出的微甜矿物质气息，混合着墙根下荨麻和野蔷薇的腥绿。左手边是一座完整的13世纪方形塔楼，底部开着小得像缝的箭孔，让人想象弓手在暗处呼吸着酸臭味等待敌人的情景。右手边则是更宏大却更破碎的伊丽莎白时期府邸外墙，巨大的壁炉从二楼悬空伸出来，像一只伸出来的断手，石窗框上雕刻着精细的茛苕叶和水果束，却只剩一半，另一半消失在坍塌的碎石里。走进去，脚下是厚厚的草毯，踩着曾经豪华的大理石地坪的残留，头顶只有天空——屋顶早就没了，只剩下几根石质山墙尖顶指向云层，像是被拔走珠子的梳子。\n最打动我的不是它的古老，而是它如何被当地人“忘记”。没有售票处、没有解说牌、没有围栏，只有一块English Heritage的小牌子告诉你“you can explore freely”（自由探索）。旁边农场里的牛低头啃草，完全不理我。几个本地人牵着狗走过，狗对着一扇摇摇欲坠的石门撒尿，主人也不阻止。我坐在南立面那堵保存最好的墙上，看着夕阳把每一块石头都镀一层金，突然明白这才是废墟该有的样子——不是被博物馆化、被游客包围的标本，而是一件活着的老旧衣裳，继续穿着风雨和时光，不慌不忙地腐烂下去。"
+    "description": "那天下午我沿着什罗普郡乡间的小径走着，空气中弥漫着刚割过的青草和潮湿的泥土味，远处教堂钟声每隔一刻钟就懒洋洋地响一次。转过一片麦田，莫顿科比特城堡就那样毫无防备地撞进视野——一座红砂岩的巨人骨架，矗立在缓坡上，阳光正透过西侧窗洞切出锐利的光刃。我第一反应不是“壮观”，而是“疼”——那些被岁月啃噬的墙体，像脱了臼的臂膀，露出内里一片片因火烧而发黑的碎石。几只红隼在塔楼顶端盘旋，发出尖锐的啼鸣，听起来就像城堡在低声哀嚎。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kytra-lock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯特拉水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kytra Lock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-lomond\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛蒙德湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Lomond</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-beatles-story-museum-liverpool\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    披\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">披头士故事博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Beatles Story Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kytra-lock",
-          "name": "凯特拉水闸",
-          "englishName": "Kytra Lock"
+          "slug": "the-beatles-story-museum-liverpool",
+          "name": "披头士故事博物馆",
+          "englishName": "The Beatles Story Museum"
         },
         {
-          "slug": "loch-lomond",
-          "name": "洛蒙德湖",
-          "englishName": "Loch Lomond"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         },
         {
-          "slug": "loch-achtriochtan-glen-coe",
-          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
-          "englishName": "Loch Achtriochtan, Glen Coe"
+          "slug": "conwy-falls",
+          "name": "康威瀑布",
+          "englishName": "Conwy Falls"
         }
       ]
     }

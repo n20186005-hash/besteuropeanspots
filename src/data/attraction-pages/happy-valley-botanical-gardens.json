@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "欢乐谷植物园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "欢乐谷植物园・Happy Valley Botanical Gardens・英国・威尔士",
-    "description": "我第一次走进欢乐谷植物园，是在一个潮湿的十月初的清晨。从海滨停车场穿过那道生锈的铁门，空气瞬间变了味道，咸腥的海风声被吹走，迎面扑来的是一种湿润、发酵、带着泥土和蕨类植物汁液的气味，就像走进了一个巨大的老式温室，只是头顶没有玻璃，只有层层叠叠的橡树和山毛榉枝叶，将天空过滤成了一片斑驳的绿光。脚底踩着的碎石路湿漉漉的，每走一步都能听见水珠从树叶尖滴落的声音，偶尔有一阵风穿过山谷，整片树林就像活过来一样沙沙作响。\n这里的路没有一条是直的，它顺着山势绕来绕去，拐过一块被苔藓完全包裹的巨石，眼前突然豁然开朗，一个被蕨类植物和杜鹃花丛环抱的小水池，水面倒映着岩壁上垂下的根须。几只加拿大雁卧在池边，连抬头都懒得抬，它们早已习惯了这条狭窄的入口步道上来来往往的轻声轻语。最让我着迷的是那些巨石上长的苔藓，不是薄薄的一层绿粉，而是厚得像海绵垫子一样，用手轻轻一按，能感受到它们柔软而温热的触感，仿佛这片土地本身就是一只有呼吸的活物。\n走到半山腰的时候，一个当地人坐在石凳上吹长笛，那是威尔士的传统民谣，笛声在山林间回荡，和远处隐约传来的海浪拍打礁石的声音交织在一起。我干脆也坐了下来，看着阳光透过枝叶变成一缕一缕的金色光柱，打在石阶上、蕨叶上、还有那块刻着19世纪捐赠者名字的铜牌上。那一刻我突然明白，这个园子并不是被人精心修剪出来的，而是被时间和耐心慢慢养出来的，它允许杂草生长，允许苔藓蔓延，允许那些外来的植物在威尔士湿润的空气里慢慢找到自己的位置。"
+    "description": "我第一次走进欢乐谷植物园，是在一个潮湿的十月初的清晨。从海滨停车场穿过那道生锈的铁门，空气瞬间变了味道，咸腥的海风声被吹走，迎面扑来的是一种湿润、发酵、带着泥土和蕨类植物汁液的气味，就像走进了一个巨大的老式温室，只是头顶没有玻璃，只有层层叠叠的橡树和山毛榉枝叶，将天空过滤成了一片斑驳的绿光。脚底踩着的碎石路湿漉漉的，每走一步都能听见水珠从树叶尖滴落的声音，偶尔有一阵风穿过山谷，整片树林就像活过来一样沙沙作响。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cairngorm-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorm Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hanging-hill-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    悬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">悬挂山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hanging Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-dinosaur-park-tenby\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    滕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">滕比恐龙公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Dinosaur Park Tenby</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/invergarry-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因弗加里城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Invergarry Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cairngorm-mountain",
-          "name": "凯恩戈姆山",
-          "englishName": "Cairngorm Mountain"
+          "slug": "the-dinosaur-park-tenby",
+          "name": "滕比恐龙公园",
+          "englishName": "The Dinosaur Park Tenby"
         },
         {
-          "slug": "hanging-hill-wales",
-          "name": "悬挂山",
-          "englishName": "Hanging Hill"
+          "slug": "invergarry-castle",
+          "name": "因弗加里城堡",
+          "englishName": "Invergarry Castle"
         },
         {
-          "slug": "cameron-square",
-          "name": "卡梅隆广场",
-          "englishName": "Cameron Square"
+          "slug": "arthurs-seat",
+          "name": "亚瑟王座",
+          "englishName": "Arthur's Seat"
         }
       ]
     }

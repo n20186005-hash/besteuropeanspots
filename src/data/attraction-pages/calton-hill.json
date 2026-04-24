@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡尔顿山",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡尔顿山・Calton Hill・英国・爱丁堡",
-    "description": "我记得第一次爬卡尔顿山是个十月的傍晚。爱丁堡的风大得能把人吹得东倒西歪，我裹紧了外套，把帽子压低，顺着那条被无数脚步磨得发亮的石子路吭哧吭哧往上走。走到一半，突然闻到一阵浓浓的烤栗子和热红酒混合的焦甜味道——原来山脚下有个本地人爱去的小咖啡车，车顶挂着一排暖黄的灯，老板把一个大喇叭竖在外面，放着不太喜欢的新式民谣。那一刻我忽然觉得，这座山根本不是什么冷冰冰的“景点”，它就是爱丁堡人后院里最舒服的客厅。\n等你爬上半山腰，耳朵里的一切都开始变得清晰起来。风穿过那些巨大的、没有屋顶的科林斯柱子的空洞，发出低沉而悠长的呜咽声，像某种古老乐器在低吟。远处，从王子街方向和皇家一英里那边传来的马车马蹄声和人群的低语混合在一起，被风撕扯成断断续续的碎片。更远的地方，福斯湾的海鸥在暮色中叫着，那声音尖锐又有点凄凉。空气里有一种奇特的混合气息——雨后湿漉漉的苔藓味、海风中淡淡的盐味、还有从老城酒馆烟囱里飘出来的炭火味。当你走到山顶那一片开阔的草坪上，眼前突然豁然开朗：整个爱丁堡老城像一幅陈旧的版画，以错落的灰色、棕色和深红色屋顶铺陈在你脚下，远处的亚瑟王座以粗粝的玄武岩轮廓沉默地蹲踞在天际线上。而近处，那些半成品柱子在逆光中显得格外清晰，像极了一排脱缰的音符，凝固在了某个不完整的旋律中。说实话，那一刻我理解了为什么本地人总爱在心情不好的时候跑上来坐着——这里有一种奇怪的魔力，让你觉得人生所有的“未完成”都没什么大不了的。\n最打动我的，是卡尔顿山在全城人日常生活中的那种平常心。我见过一个穿格子裙的老大爷牵着一只毛茸茸的西高地白梗，慢悠悠地走到山脊的长椅上坐下，从口袋里掏出三明治边吃边看风景，动作熟练得像是已经重复了一万次。也见过几个穿校服的中学生，放学后爬到纳尔逊纪念塔前面的草坪上，把书包当枕头，直接躺着看云，一躺就是半个多小时。还有一次是个雨后天晴的傍晚，我走到西面的那个小观察台附近，看到一个街头小提琴手把琴盒打开摆在地上，对着整个爱丁堡城堡的方向拉了一首慢版的《The Bonnie Banks of Loch Lomond》，那琴声被微风吹得悠远而清亮，飘向金色的城堡方向，周围有七八个游客和本地人都安静地站着听，没有人开口说话。那一刻我才真正意识到，卡尔顿山不是属于游客的，它属于每一个在这个城市生活的人——它是一个老友，一个随时可以坐下来的肩膀，一个不需要预约就能安放的灵魂休息站。"
+    "description": "我记得第一次爬卡尔顿山是个十月的傍晚。爱丁堡的风大得能把人吹得东倒西歪，我裹紧了外套，把帽子压低，顺着那条被无数脚步磨得发亮的石子路吭哧吭哧往上走。走到一半，突然闻到一阵浓浓的烤栗子和热红酒混合的焦甜味道——原来山脚下有个本地人爱去的小咖啡车，车顶挂着一排暖黄的灯，老板把一个大喇叭竖在外面，放着不太喜欢的新式民谣。那一刻我忽然觉得，这座山根本不是什么冷冰冰的“景点”，它就是爱丁堡人后院里最舒服的客厅。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/leeds-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利兹城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leeds Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/john-ogroats-signpost\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰奥格罗茨路牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John o’ Groats Signpost</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flodden-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗洛登城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flodden Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "leeds-castle",
+          "name": "利兹城堡",
+          "englishName": "Leeds Castle"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "john-ogroats-signpost",
+          "name": "约翰奥格罗茨路牌",
+          "englishName": "John o’ Groats Signpost"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "flodden-wall",
+          "name": "弗洛登城墙",
+          "englishName": "Flodden Wall"
         }
       ]
     }

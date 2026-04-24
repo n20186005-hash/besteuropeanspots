@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Rhayader",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "埃兰河谷",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "埃兰河谷・The Elan Valley・英国・Rhayader",
-    "description": "第一次驶进埃兰河谷，车子顺着蜿蜒的A4079公路缓缓爬升，雾气像一层薄薄的棉被，轻轻盖在威尔士的山肩上。你降下车窗，冷冽的空气中混合着湿润的泥土味和微弱青草的甜香。路两边，羊群懒散地啃食石楠，偶尔抬头，用琥珀色的眼睛送你一程。转过一个弯，第一座大坝——Pen-y-garreg——忽然跃入视野，灰色的石墙像一把巨大的梳子，插在两座山之间，把流水梳成一道银白的瀑布。水声很远，又很近，像是山谷一直在低语。\n把车停在最近的停车场，走几步，你就站在了大坝脚下。仰头向上，每一块花岗岩都经雨水冲刷百年，表面细密的水珠均匀分布，像山体在出汗。走到坝顶，视野豁然开朗：水库像一面没有边的镜子，把天空、云朵和远山全吞了进去。水面异常平静，连倒影都是静止的，只有偶尔一只红鸢飞过，翅膀划过阳光，在镜面上留下瞬间的涟漪。你深吸一口气，那种空旷带来的沉默，不是死寂，而是一种深沉、沉甸甸的宁静，仿佛整片山谷都在用呼吸与你对话。\n等绕过第一座水库到第二个——Caban-coch——你会发现，水边那些古老的树根露出地面，像老人青筋毕露的手。枯枝上挂着一片片湿润的苔藓，在午后的斜阳里泛起层层的绿光。远处，一个老人正坐着垂钓，一动不动，像石雕一样。他并不在意你经过，只是偶尔往水里投一颗小石子。那一刻，我竟觉得眼前这片人工水库活得比许多天然湖泊还要古老，每一滴水里都装着百年前英国工人的汗水和梦想。\n走到第三座大坝Craig Goch，它是最高的一座，从高处望下去，水库的水仿佛没有尽头，一直延伸到看不见的深处。这时候你才会真正明白——你脚下这片水，曾经淹没了多少村庄和道路，改变了多少人的生活。但山谷并没有哭泣，那些被遗忘的故事，融入了水流，成了这片沉默的一部分。而你现在能做到的，就是站在它边缘，听风穿过山谷，去感受它从未说出口的、属于工业与荒野交织的历史。"
+    "description": "第一次驶进埃兰河谷，车子顺着蜿蜒的A4079公路缓缓爬升，雾气像一层薄薄的棉被，轻轻盖在威尔士的山肩上。你降下车窗，冷冽的空气中混合着湿润的泥土味和微弱青草的甜香。路两边，羊群懒散地啃食石楠，偶尔抬头，用琥珀色的眼睛送你一程。转过一个弯，第一座大坝——Pen-y-garreg——忽然跃入视野，灰色的石墙像一把巨大的梳子，插在两座山之间，把流水梳成一道银白的瀑布。水声很远，又很近，像是山谷一直在低语。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gosau-dachstein-alpine-lakes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈绍</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gosau</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-varrich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦里克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Varrich</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saarburg-waterfall-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saarburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/djavolja-varos\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魔鬼城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Đavolja Varoš</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lommel-belgium\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛梅尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lommel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amorgos-chora-cyclades-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿莫尔戈斯岛乔拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amorgos (Chora)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gosau-dachstein-alpine-lakes",
-          "name": "戈绍",
-          "englishName": "Gosau"
+          "slug": "djavolja-varos",
+          "name": "魔鬼城",
+          "englishName": "Đavolja Varoš"
         },
         {
-          "slug": "castle-varrich",
-          "name": "瓦里克城堡",
-          "englishName": "Castle Varrich"
+          "slug": "lommel-belgium",
+          "name": "洛梅尔",
+          "englishName": "Lommel"
         },
         {
-          "slug": "saarburg-waterfall-town",
-          "name": "萨尔堡",
-          "englishName": "Saarburg"
+          "slug": "amorgos-chora-cyclades-village",
+          "name": "阿莫尔戈斯岛乔拉",
+          "englishName": "Amorgos (Chora)"
         }
       ]
     }

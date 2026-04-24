@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "霍利黑德",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭罗斯海岸公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "彭罗斯海岸公园・Parc Arfordirol Penrhos Coastal Park・英国・霍利黑德",
-    "description": "车停在公园入口的碎石地，一下车，风就猛地扑上来，带着比城市浓烈十倍的咸腥味。眼前是一大片开阔的草地，草被风吹得紧紧贴在地面上，远处是爱尔兰海灰蓝色的波涛，层层叠叠地推过来。我站在那儿，一时有点恍惚——明明只离开霍利黑德镇中心不到十分钟，却像踏入了另一个世界。空气里没有一丝汽车尾气的味道，全是海藻、泥土和野花的混合气息，潮湿而清冽。\n沿着主路往里走，最先抓住眼睛的是那些废弃的混凝土炮台。它们有的半埋在土丘里，有的孤零零地立在矮崖上，像沉默的巨兽。弹孔和裂缝里长出了茂密的野花——紫色的是海石竹，白色的是滨旋花，它们在风中摇摆，把战争的伤痕变成了春天的寓言。几个当地老人牵着狗从旁边走过，狗兴奋地冲进草丛，惊起一群海鸥，它们尖叫着盘旋上升，翅膀的阴影掠过一片片荒芜的堡垒。\n深入公园二十分钟，我来到一处低洼的湿地。木板栈道架在泥滩上，两侧长满了大西洋海蓬子和盐角草，腥甜的植物气息和泥土的矿味混在一起。我蹲下来，看见泥面上有密密麻麻的小洞——那是招潮蟹的家。一只反嘴鹬迈着细腿优雅地走过，用上翘的喙铲起泥里的虫子。远处，海豹在礁石上翻着白肚皮晒暖，偶尔发出一声低沉的吼叫。风里都是生命的声响——鸟叫、水声、草叶摩擦的沙沙声。\n最让我感动的是傍晚。日落时分，我坐在西侧悬崖的长椅上，看着夕阳把废弃的雷达站染成古铜色，海面碎成千万片金箔。周围几乎没有人，只有风声和偶尔从灌木丛里飞出的乌鸦。那一刻你会觉得，这个地方并不需要你——它自己在安静地活着，带着七十年的硝烟和二十年的修复，自顾自地美丽着。这种不讨好、不炫耀的野性魅力，就是它最打动人的核心。"
+    "description": "车停在公园入口的碎石地，一下车，风就猛地扑上来，带着比城市浓烈十倍的咸腥味。眼前是一大片开阔的草地，草被风吹得紧紧贴在地面上，远处是爱尔兰海灰蓝色的波涛，层层叠叠地推过来。我站在那儿，一时有点恍惚——明明只离开霍利黑德镇中心不到十分钟，却像踏入了另一个世界。空气里没有一丝汽车尾气的味道，全是海藻、泥土和野花的混合气息，潮湿而清冽。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/eastgate-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    东\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">东门钟楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eastgate Clock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/heviz-thermal-lake\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑维兹温泉湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hévíz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/galicnik-traditional-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加利奇尼克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Galičnik</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ynyslas-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊尼斯拉斯国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ynyslas National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-monument-of-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国家纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Monument of Scotland</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "eastgate-clock",
-          "name": "东门钟楼",
-          "englishName": "Eastgate Clock"
+          "slug": "ynyslas-national-nature-reserve",
+          "name": "伊尼斯拉斯国家自然保护区",
+          "englishName": "Ynyslas National Nature Reserve"
         },
         {
-          "slug": "heviz-thermal-lake",
-          "name": "黑维兹温泉湖",
-          "englishName": "Hévíz"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         },
         {
-          "slug": "galicnik-traditional-village",
-          "name": "加利奇尼克",
-          "englishName": "Galičnik"
+          "slug": "national-monument-of-scotland",
+          "name": "苏格兰国家纪念碑",
+          "englishName": "National Monument of Scotland"
         }
       ]
     }

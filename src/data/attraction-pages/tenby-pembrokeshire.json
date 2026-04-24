@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "滕比",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "滕比",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "滕比・Tenby・英国・滕比",
-    "description": "今年初夏，我站在海港边，看着弯月形的海湾上，浅蓝、柠檬黄、奶油白的房子像打翻的糖果盒从山坡一直倾泻到蔚蓝色的凯尔特海上。午后阳光把每个屋子都刷上了一层蜜色的光，遮阳篷投下深蓝的影子，空气中混杂着油炸鳕鱼、海盐和防晒霜的味道。海鸥在头顶毫无忌惮地尖声呼啸，时不时俯冲叼走游客手里的薯条。而远处，两根小小的塔尖——圣玛丽教堂的钟楼在薄雾中若隐若现。我敢说，长这么大，第一次看到海边的房子可以这么欢乐。\n沿着蜿蜒的鹅卵石坡道往下走，脚底传来鞋子敲击石头细微的回响。巷子窄得最多两人并肩，两侧的店铺橱窗里摆着海贝风铃、印着威尔士龙图案的陶瓷马克杯，还有那著名的“滕比帽子”（一种当地特色的黑色软毡帽）。一阵咸咸的海风从巷口涌进来，卷起墙角晾在麻绳上的白色桌布，像旗帜一样飘动。我停下脚步，靠在斑驳的古城墙上，能感觉到石头被晒得微温，墙体从千年前奥利弗·克伦威尔的炮火下幸存下来的凹凸痕迹清晰可见。一个拎着螃蟹桶的小男孩赤脚跑过我身边，海水从他短裤的卷边滴落，在石板上留下深色的圆点。\n说实话，我很难想象，这里曾经是威尔士最繁忙的走私港口。现在它慢悠悠的，所有人都像被什么治愈了。我在海堤上坐了好久，看潮水慢慢退去，露出大片光滑的、泛着绿藻色的沙地。远处露出水面约两百米处的小岛就是圣凯瑟琳岛，退潮时有一条沙洲小路与主陆相连，我亲眼看着一群年轻人在潮水完全退去前兴奋地奔跑过去，又在海水漫回脚踝前尖叫着跑回来，笑声散在海风里。所有人都被快乐的氛围裹挟了。\n最打动我心的，是傍晚时分。太阳柔柔地沉下去，投下长长的橘色光带。城堡废墟的剪影站在远处的岬角上，像一头沉睡的巨龙。这时海港边餐厅的灯陆续亮了，暖黄的灯光映在平静的水面上，随着波纹轻轻漂荡。一个穿格子衬衫的老人拉着手风琴，琴声悠远而带着些许忧伤，与海浪拍打阶岸的声音交织。我突然觉得，滕比的美不是那种令人屏息的、需要拼命朝圣的壮美，而是一种像下午茶一样舒坦的、可以长住下来的温柔。"
+    "description": "今年初夏，我站在海港边，看着弯月形的海湾上，浅蓝、柠檬黄、奶油白的房子像打翻的糖果盒从山坡一直倾泻到蔚蓝色的凯尔特海上。午后阳光把每个屋子都刷上了一层蜜色的光，遮阳篷投下深蓝的影子，空气中混杂着油炸鳕鱼、海盐和防晒霜的味道。海鸥在头顶毫无忌惮地尖声呼啸，时不时俯冲叼走游客手里的薯条。而远处，两根小小的塔尖——圣玛丽教堂的钟楼在薄雾中若隐若现。我敢说，长这么大，第一次看到海边的房子可以这么欢乐。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/urquhart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    厄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">厄克特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Urquhart Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cameron-square",
-          "name": "卡梅隆广场",
-          "englishName": "Cameron Square"
+          "slug": "urquhart-castle",
+          "name": "厄克特城堡",
+          "englishName": "Urquhart Castle"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "cardiff-bay",
+          "name": "卡迪夫湾",
+          "englishName": "Cardiff Bay"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "castell-dinefwr",
+          "name": "迪内弗尔城堡",
+          "englishName": "Castell Dinefwr"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡菲利 (Caerphilly)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡菲利城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡菲利城堡・Caerphilly Castle・英国・卡菲利 (Caerphilly)",
-    "description": "第一眼看到卡菲利城堡时，我差点以为自己闯入了一幅欧洲中世纪的油画画卷。它不像是被时间磨平了棱角的沧桑废墟，而像是一头刚刚趴下来准备打盹的巨兽，那些密集的塔楼像它的利齿，宽阔的水面像它的盔甲。我不是坐火车到的，而是沿着一条乡间小路慢慢走过来，清晨的雾气还没完全散尽，空气里弥漫着一股潮湿的泥土味和青草被露水浸泡后特有的清香。远处，城堡的轮廓从薄雾中缓缓浮现，就像从水底升起来似的——因为它真的站在一个巨大的湖中央，水波不兴，倒影清晰得能把天空撕成两半。\n我沿着石桥走向入口，脚下的石板被几百年的人来人往磨得像镜子一样光滑，每走一步都能听到自己的脚步声被水面反弹回来，形成一种空旷的回响。左侧的护城河里，天鹅慢悠悠地划着水，偶尔把头埋进水里捞点东西吃，完全不在乎身边这座石头的庞然大物。我站在桥中央，忽然觉得这座城堡并不像想象中那样冷冰冰的——它有一种沉静而威严的美，像一位退休的老将军，坐在自家花园里晒太阳，身上全是战功的疤痕。\n说实话，在来之前我以为威尔士的城堡都差不多，无非是石头墙、破塔楼、长满草的院子。但卡菲利不一样，它像是一个巨大的积木迷宫，你走在里面会不断被各种角度和结构震惊——突然一抬头，发现一座塔楼歪歪斜斜地靠在隔壁墙上，就好像它喝醉了一样，就这样歪了几百年，也没人扶一下。那种视觉冲击力很奇妙，就像你明明在看一座建筑，但它呈现出来的姿态却是流动的、不安的、充满故事的。\n等到傍晚，阳光变成了温暖的橙红色，把城堡的砂岩墙壁染得像一块被烧红的铁，水面则变成了一面巨大的镜子，把整座城堡连同天空一起倒扣进去。这个时候，城堡不再是一座冰冷的石头要塞，而是一段可以被触摸的时光。我坐在护城河边的一棵老柳树下，看着天鹅最后一次划过去的痕迹，忽然觉得，卡菲利不是用来逛的，它是用来被沉思的。"
+    "description": "第一眼看到卡菲利城堡时，我差点以为自己闯入了一幅欧洲中世纪的油画画卷。它不像是被时间磨平了棱角的沧桑废墟，而像是一头刚刚趴下来准备打盹的巨兽，那些密集的塔楼像它的利齿，宽阔的水面像它的盔甲。我不是坐火车到的，而是沿着一条乡间小路慢慢走过来，清晨的雾气还没完全散尽，空气里弥漫着一股潮湿的泥土味和青草被露水浸泡后特有的清香。远处，城堡的轮廓从薄雾中缓缓浮现，就像从水底升起来似的——因为它真的站在一个巨大的湖中央，水波不兴，倒影清晰得能把天空撕成两半。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blaenavon-ironworks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱纳文铁厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaenavon Ironworks</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caernarfon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡那封城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caernarfon Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lealt-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尔特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lealt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/foel-drygarn-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福埃尔德里加恩山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Foel Drygarn Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-Coed</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blaenavon-ironworks",
-          "name": "布莱纳文铁厂",
-          "englishName": "Blaenavon Ironworks"
+          "slug": "lealt-falls",
+          "name": "利尔特瀑布",
+          "englishName": "Lealt Falls"
         },
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "foel-drygarn-hill-fort",
+          "name": "福埃尔德里加恩山堡",
+          "englishName": "Foel Drygarn Hill Fort"
         },
         {
-          "slug": "caernarfon-castle",
-          "name": "卡那封城堡",
-          "englishName": "Caernarfon Castle"
+          "slug": "betws-y-coed",
+          "name": "贝图斯-科伊德",
+          "englishName": "Betws-y-Coed"
         }
       ]
     }

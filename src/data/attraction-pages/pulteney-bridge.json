@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "巴斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "普尔特尼桥",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "普尔特尼桥・Pulteney Bridge・英国・巴斯",
-    "description": "我第一次见到普尔特尼桥，是在一个雾气缭绕的清晨。站在桥南侧的巴思码头，晨露让河面上升起一层薄纱，桥的轮廓就像是从水中慢慢浮现的幻影。你能闻到湿润的青草味混着桥畔面包店新出炉的黄油可颂香气，那气味顺着河面慢慢飘过来，像一记温柔的早安吻。更让人心醉的是桥的倒影——三个优雅的拱形在水中微微荡漾，和真实的桥组成一个完美的椭圆，像一枚古老的圆环将时光牢牢套住。\n走上桥面，你会发现这里根本不像一座桥，更像是一条窄窄的古代商业街。路边那些橱窗里摆着泛黄的书、手工皮具、古董银器和玻璃吹制的首饰，店铺的木质招牌在晨光里微微泛着油光。一辆辆自行车从你身边叮铃铃地经过，穿着格子呢大衣的老太太弯腰在桥边的邮筒投递明信片。桥面中央有一个小小的三角区，放着一把长椅，经常有情侣坐在一起看河水发呆。在这里，你感觉不到交通的喧嚣，只有生活的气息像雅芳河的水一样静静流淌。\n最动人的地方在桥的北侧。当你走到桥的中段，回头朝北看，那一排四个帕拉第奥风格的拱形窗户像是古堡的瞭望口，从那里可以望见桥下的河水翻滚着穿过桥洞。如果恰逢黄昏，桥北侧建筑物的砂岩墙体会被夕照染成蜂蜜色，那些窗口亮起昏黄的灯，像是点燃了整座桥的魂。当地人下班后会拎着超市的购物袋慢悠悠走过，年轻人坐在桥沿上弹吉他，流浪猫蹲在排水口旁边舔爪子——普尔特尼桥的魅力不在于宏大，而在于它永远是巴斯人生活的一部分，它在静静地见证着一切。"
+    "description": "我第一次见到普尔特尼桥，是在一个雾气缭绕的清晨。站在桥南侧的巴思码头，晨露让河面上升起一层薄纱，桥的轮廓就像是从水中慢慢浮现的幻影。你能闻到湿润的青草味混着桥畔面包店新出炉的黄油可颂香气，那气味顺着河面慢慢飘过来，像一记温柔的早安吻。更让人心醉的是桥的倒影——三个优雅的拱形在水中微微荡漾，和真实的桥组成一个完美的椭圆，像一枚古老的圆环将时光牢牢套住。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pentre-ifan-burial-chamber\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭特雷伊凡墓室</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pentre Ifan Burial Chamber</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/craigievar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷吉瓦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigievar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-loyne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛因湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Loyne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "craigievar-castle",
+          "name": "克雷吉瓦城堡",
+          "englishName": "Craigievar Castle"
         },
         {
-          "slug": "parc-cwm-darran",
-          "name": "帕克库姆达兰公园",
-          "englishName": "Parc Cwm Darran"
+          "slug": "loch-loyne-viewpoint",
+          "name": "洛因湖观景台",
+          "englishName": "Loch Loyne Viewpoint"
         },
         {
-          "slug": "pentre-ifan-burial-chamber",
-          "name": "彭特雷伊凡墓室",
-          "englishName": "Pentre Ifan Burial Chamber"
+          "slug": "cwm-rhaeadr-forest",
+          "name": "坎姆拉德森林瀑布",
+          "englishName": "Cwm Rhaeadr Forest"
         }
       ]
     }

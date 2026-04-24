@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "纽波特（彭布罗克郡）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "恶魔阶梯",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "恶魔阶梯・Devil's Staircase・英国・纽波特（彭布罗克郡）",
-    "description": "我第一次听到“恶魔阶梯”这个名字时，还以为是什么恐怖主题的游乐设施。直到真的站在彭布罗克郡海岸线上，看到那些被大海啃噬得七零八落的灰色岩石，像骨折的动物脊骨一样突兀地伸向天空，我才明白——这根本不是什么人工建筑，而是大自然自己雕刻出来的杰作。那天的风大得能把人吹歪，咸湿的海雾扑面而来，带着海藻腐烂和矿物铁锈混合的气味。我踩上第一级台阶，湿滑的页岩让鞋底发出尖利的摩擦声，整个身体都绷紧了。从下方仰望，阶梯几乎是垂直向上，消失在雾气里，两侧是怒放的粉红色海石竹和紫色的沼泽百里香，它们在狂风中剧烈摇晃，像在对我摆手说别上来。\n阶梯本身并不长，大概只有四五十级，但每一步都像在赌命。岩块大小不一，有些松动，有些被千百万只脚磨得光滑如镜。我手脚并用，手指抠着岩石的缝隙，能感到那些凹坑里的沙粒和体温。爬到三分之一处回头一看，脚下的大西洋正咆哮着拍打悬崖底部，白色的浪花炸成水雾，被风吹上来打湿了我的裤子。那一刻我突然理解了为什么叫“恶魔阶梯”——不是因为有魔鬼住在上面，而是当你站在半空中无处可退时，那种恐惧和兴奋交织的感觉，像是和撒旦掰了一次手腕。到了顶端，风反而小了，一片平坦的草甸伸展开来，能看到远处纽波特小镇的红色屋顶和冒烟的烟囱。我躺倒在草地上，心脏狂跳，但大脑却异常的清醒。\n当地人说，以前走私威士忌、烟草和丝绸的人最喜欢在夜晚走这条阶梯，因为太陡太危险，海关官员都不敢追。他们提着煤油灯，把货物绑在背上，一步一步挪上去，不少人因为脚滑掉进海里。那些死去的人的灵魂据说还在雾天里游荡，你会听到石头碰撞的声音，那是他们仍在攀爬。我没看到鬼魂，但确实在阶梯中段发现了一块生了锈的铜铃，像是老渔船上的物件，嵌在石缝里。不知道是谁留下的，也许是某个走私者的遗物，也许是现代徒步者的恶作剧。但看着它被海风吹得嗡嗡作响，我还是起了一身鸡皮疙瘩。"
+    "description": "我第一次听到“恶魔阶梯”这个名字时，还以为是什么恐怖主题的游乐设施。直到真的站在彭布罗克郡海岸线上，看到那些被大海啃噬得七零八落的灰色岩石，像骨折的动物脊骨一样突兀地伸向天空，我才明白——这根本不是什么人工建筑，而是大自然自己雕刻出来的杰作。那天的风大得能把人吹歪，咸湿的海雾扑面而来，带着海藻腐烂和矿物铁锈混合的气味。我踩上第一级台阶，湿滑的页岩让鞋底发出尖利的摩擦声，整个身体都绷紧了。从下方仰望，阶梯几乎是垂直向上，消失在雾气里，两侧是怒放的粉红色海石竹和紫色的沼泽百里香，它们在狂风中剧烈摇晃，像在对我摆手说别上来。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dolwyddelan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多尔威德兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dolwyddelan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/balmoral-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔莫勒尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balmoral Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/urquhart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    厄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">厄克特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Urquhart Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rhos-on-sea-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗斯滨海海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rhos-on-Sea Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lochindorb-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛钦多布城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lochindorb Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castell-dolwyddelan",
-          "name": "多尔威德兰城堡",
-          "englishName": "Castell Dolwyddelan"
+          "slug": "urquhart-castle",
+          "name": "厄克特城堡",
+          "englishName": "Urquhart Castle"
         },
         {
-          "slug": "balmoral-castle",
-          "name": "巴尔莫勒尔城堡",
-          "englishName": "Balmoral Castle"
+          "slug": "rhos-on-sea-beach",
+          "name": "罗斯滨海海滩",
+          "englishName": "Rhos-on-Sea Beach"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "lochindorb-castle",
+          "name": "洛钦多布城堡",
+          "englishName": "Lochindorb Castle"
         }
       ]
     }

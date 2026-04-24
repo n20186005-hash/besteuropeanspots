@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "马尔岛（Isle of Mull）/ 奥本（Oban）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "杜阿尔特城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "杜阿尔特城堡・Duart Castle・英国・马尔岛（Isle of Mull）/ 奥本（Oban）",
-    "description": "第一次见到杜阿尔特城堡，是在渡轮穿过马尔海峡的时候。那天早晨有雾，海面像一块灰蓝色的缎子，忽然之间，一个暗色的剪影从雾气里慢慢浮出来——它矗立在突出的海角上，四方的塔楼直戳天空，周围是光秃秃的岩石和被海风吹歪的灌木。渡轮上的本地乘客都安静下来，只有几个摄影师的快门声咔咔响。我靠在船舷上，闻到浓烈的海水咸味和柴油烟，听见螺旋桨搅动的水声，那一刻我突然理解了，为什么苏格兰人对他们的城堡有一种近乎偏执的感情——它们不是供人赏玩的明信片，是这片土地本来就长出来的骨头。\n船靠了Craignure码头，我租了辆车沿着狭窄的A849公路开。路的一侧是绵延的草坡，另一侧就是这片海，时不时有一群羊挡在路中间，慢悠悠地挪开。转过一个弯，城堡忽然出现在正前方，它比刚才从海上看起来更高大、更沉默。石灰岩的墙壁上布满了苔藓和地衣，像是被时间染成的绿色泪痕。我把车停在一棵被风压弯的松树旁，徒步走近。脚下的碎石路被海风和无数游客的脚步磨得圆润，踩上去发出嗡嗡的声响。海鸥在塔楼顶盘旋，叫声尖锐又苍凉。\n从正门进去，第一感觉是冷——不是温度上的冷，而是一种从石头里渗出来的阴凉。门廊很窄，头顶上方就是射击孔，像独眼巨人的眼眶。我伸手摸了摸墙壁，表面粗糙，带着湿气，指尖能感觉到一种古老的颗粒感。穿过一段低矮的拱道，眼前突然豁然开朗：一个四方的内庭，中央铺着石板，两边是加盖的厨房和起居室。午后的阳光斜斜地切进来，把塔楼的阴影拉得很长。院子里有一只胖乎乎的橘猫趴在石阶上晒太阳，看见人进来也不躲，只是眯着眼摇了摇尾巴。那一刻，城堡不再是史书里的冰冷标本，它活了过来——有猫、有壁炉里残留的灰烬、有窗户边探出头来的野花。\n但真正让我心动的，是登上塔楼顶层的那一刻。旋转的石头楼梯窄得只能容一人通过，阶梯被无数双脚踏得中间凹陷下去，扶手是粗大的麻绳，摩擦得油亮。每上一层，光线就从墙缝的箭窗里漏进来，一束一束，带着尘埃。爬到第七层推开木门，风瞬间灌满了整个身体。眼前是无垠的海：马尔海峡在脚下铺展，远处是伦摩岛（Lunga）和斯塔法岛（Staffa）的轮廓，更远处本莫尔山（Ben More）的雪顶像一块方糖。海鸥就在我耳边尖叫，风把头发吹得乱七八糟。我突然明白为什么麦克斯家族选了这个地方——不是因为他们喜欢风景，而是因为他们要站在这里，让所有从海上来的敌人都先看到家族的旗帜，先被这份孤独的威严震慑住。"
+    "description": "第一次见到杜阿尔特城堡，是在渡轮穿过马尔海峡的时候。那天早晨有雾，海面像一块灰蓝色的缎子，忽然之间，一个暗色的剪影从雾气里慢慢浮出来——它矗立在突出的海角上，四方的塔楼直戳天空，周围是光秃秃的岩石和被海风吹歪的灌木。渡轮上的本地乘客都安静下来，只有几个摄影师的快门声咔咔响。我靠在船舷上，闻到浓烈的海水咸味和柴油烟，听见螺旋桨搅动的水声，那一刻我突然理解了，为什么苏格兰人对他们的城堡有一种近乎偏执的感情——它们不是供人赏玩的明信片，是这片土地本来就长出来的骨头。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay-trail-walk\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加的夫湾步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Trail Walk</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cotswolds-aonb\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科茨沃尔德地区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cotswolds AONB</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tolbooth-kirk\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    托\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">托尔布斯教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tolbooth Kirk</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/croeso-i-gymru-welcome-sign\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士欢迎标志牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Croeso i Gymru Welcome Sign</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cardiff-bay-trail-walk",
-          "name": "加的夫湾步道",
-          "englishName": "Cardiff Bay Trail Walk"
+          "slug": "tolbooth-kirk",
+          "name": "托尔布斯教堂",
+          "englishName": "Tolbooth Kirk"
         },
         {
-          "slug": "cotswolds-aonb",
-          "name": "科茨沃尔德地区",
-          "englishName": "Cotswolds AONB"
+          "slug": "croeso-i-gymru-welcome-sign",
+          "name": "威尔士欢迎标志牌",
+          "englishName": "Croeso i Gymru Welcome Sign"
         },
         {
-          "slug": "cardiff-castle",
-          "name": "卡迪夫城堡",
-          "englishName": "Cardiff Castle"
+          "slug": "castlerigg-stone-circle",
+          "name": "卡斯尔里格石圈",
+          "englishName": "Castlerigg Stone Circle"
         }
       ]
     }

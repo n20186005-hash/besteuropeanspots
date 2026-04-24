@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "艾奥娜岛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "艾奥娜修道院和修女院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "艾奥娜修道院和修女院・Iona Abbey and Nunnery・英国・艾奥娜岛",
-    "description": "当你从Fionnphort跳上那艘晃晃悠悠的小渡轮时，海风已经裹着盐粒和藻类的腥味扑面而来。翡翠色的海水在船侧翻涌，远处艾奥娜岛从雾气中浮出来，像个搁浅的巨兽，安静地趴在大西洋上。渡轮靠岸，你踩上白色沙滩，沙子细得像面粉，还带着点冰凉。三五只海鸥在头顶盘旋，叫声尖锐又空旷。从码头沿着碎石路走十分钟，视野突然开阔——一座灰黄色的石造建筑群矗立在低矮的山坡上，弧形的拱窗、残破的塔楼，像从大地里长出来的骨头。四周没有喧嚣，只有风声和偶尔的羊叫，时间在这里被拉得很慢。\n走进修道院的围墙，你的鼻子先感受到变化——石头的凉意、旧木头的霉味，还有野花和泥土混合的气息。阳光穿过残缺的窗棂，在石板地上画出碎金。你抬头看到中殿的拱顶，肋骨状的线条向上聚拢，让人不由自主地压低声音。角落里一尊圣科伦巴的雕像，手拄拐杖，目光温和。有几位游客安静地坐在木凳上望着圣坛发呆，还有一位修女穿着灰色长袍在轻声清理蜡烛台。你能听到自己的心跳。这就是修道院最打动人的地方：它不说话，但每块石头都在诉说信仰的痕迹。\n转到修女院遗址，完全是另一番光景。没有了屋顶和窗户，只剩下四壁的轮廓，藤蔓从石缝里垂下来，野花在残垣间摇曳。一群绵羊在遗址中央的草坪上悠闲吃草，偶尔抬头看看你，继续低头啃草。这里比修道院更加通透，阳光毫无遮拦地洒下来，照亮了每一块风化得圆润的石头。你找到一块平整的石头坐下，闭上眼，能听到远处海浪有节奏地拍打礁石，还有风吹过石拱时发出的呜咽声。你突然明白为什么八个世纪前的修女们选择在这里度过一生——因为这里离天堂太近了。\n傍晚时分，当最后一批游客搭上渡轮离开，小岛恢复更深的寂静。你沿着海边走到圣奥兰教堂遗址——一个更小的废墟，露天的祭坛正对着夕阳。暮色把天空染成粉紫色，海水变成深蓝和金黄的交界。你身边只有一个来自爱尔兰的背包客，他掏出一支口琴，轻轻吹起一首古老的调子。那一刻，你觉得整个艾奥娜岛就是一个巨大的声音场，风声、浪声、口琴声，还有一千五百年的祷告声，都在晚风里融合成一种超越语言的安慰。"
+    "description": "当你从Fionnphort跳上那艘晃晃悠悠的小渡轮时，海风已经裹着盐粒和藻类的腥味扑面而来。翡翠色的海水在船侧翻涌，远处艾奥娜岛从雾气中浮出来，像个搁浅的巨兽，安静地趴在大西洋上。渡轮靠岸，你踩上白色沙滩，沙子细得像面粉，还带着点冰凉。三五只海鸥在头顶盘旋，叫声尖锐又空旷。从码头沿着碎石路走十分钟，视野突然开阔——一座灰黄色的石造建筑群矗立在低矮的山坡上，弧形的拱窗、残破的塔楼，像从大地里长出来的骨头。四周没有喧嚣，只有风声和偶尔的羊叫，时间在这里被拉得很慢。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scott-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    司\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">司各特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scott Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "scott-monument",
+          "name": "司各特纪念碑",
+          "englishName": "Scott Monument"
         },
         {
-          "slug": "cwm-rhaeadr-forest",
-          "name": "坎姆拉德森林瀑布",
-          "englishName": "Cwm Rhaeadr Forest"
+          "slug": "animal-wall",
+          "name": "动物墙",
+          "englishName": "Animal Wall"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "cardiff-bay-barrage",
+          "name": "卡迪夫湾水闸",
+          "englishName": "Cardiff Bay Barrage"
         }
       ]
     }

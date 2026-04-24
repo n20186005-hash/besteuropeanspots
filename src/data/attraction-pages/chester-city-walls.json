@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "切斯特",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "切斯特城墙",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "切斯特城墙・Chester City Walls・英国・切斯特",
-    "description": "第一次踏上切斯特城墙的那个黄昏，我差点被风吹掉帽子。站在东门城楼上，西斜的阳光把红砂岩染成了焦糖色，远处威尔士丘陵的轮廓像一幅水墨画，而脚下黑白色调的都铎式建筑群正挤挤挨挨地伸向市中心。空气里混着雨后泥土的气味和从那家百年糖果店里飘出的太妃糖香气，偶有海鸥尖锐的叫声划过天幕。这一刻我才真正明白，为什么切斯特人把逛城墙叫作“走走城墙根”——它根本不是什么景点，而是他们日常生活的一部分。\n城墙不算高，大概只有两层楼，但走在上面视野极好。左手边是尖顶教堂和半木结构的商业街，右手边则是安静的住宅区和偶尔露出的竞技场废墟。脚下踩着的石头每一块都不一样，有些是罗马人两千多年前亲手安放的，表面坑洼得像月球表面，有些则是维多利亚时期修补上去的，棱角分明。你会不自觉地放慢脚步，用手去摸那些粗糙的红砂岩，指尖传来的温度仿佛能接通时间的隧道。最让我意外的是，城墙上有许多长椅，坐满了晒太阳的老人、推着婴儿车的妈妈、捧着书读的学生——他们在看风景，而我这个游客在看他们。\n走到城墙的西北角，眼前突然出现一条弯曲的河流，那是迪河（River Dee）。河水泛着翡翠般的绿色，两岸长满了垂柳，几只天鹅优雅地划过水面。有个本地大叔正在河边遛他的两只柯基犬，狗们兴奋地冲进水里又跑出来。这个画面太过日常，却比任何明信片都动人。整段城墙走下来，你其实不是在参观一个古迹，而是在参与当地人的生活剧场。每转一个弯，都会撞见新的故事。\n最打动人的是城墙的“不完美”。有些段落的地面倾斜得厉害，有些墙垛被雨水侵蚀出了裂缝，但这些痕迹恰恰让它充满生命力。它不是被玻璃罩保护的文物，而是一个活了快两千岁的老人，还在继续呼吸、改变，陪伴着一代又一代切斯特人。当你站在城墙最高处俯瞰整个城市时，你会发现，这座城市的心脏就沿着这条蜿蜒的石头线条在跳动。"
+    "description": "第一次踏上切斯特城墙的那个黄昏，我差点被风吹掉帽子。站在东门城楼上，西斜的阳光把红砂岩染成了焦糖色，远处威尔士丘陵的轮廓像一幅水墨画，而脚下黑白色调的都铎式建筑群正挤挤挨挨地伸向市中心。空气里混着雨后泥土的气味和从那家百年糖果店里飘出的太妃糖香气，偶有海鸥尖锐的叫声划过天幕。这一刻我才真正明白，为什么切斯特人把逛城墙叫作“走走城墙根”——它根本不是什么景点，而是他们日常生活的一部分。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caernarfon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡那封城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caernarfon Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-beatles-story-museum-liverpool\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    披\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">披头士故事博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Beatles Story Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mary-queen-of-scots-visitors-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰玛丽女王游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mary Queen of Scots’ Visitors Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blue-lagoon-abereiddi",
-          "name": "蓝湖",
-          "englishName": "Blue Lagoon - Abereiddi"
+          "slug": "the-beatles-story-museum-liverpool",
+          "name": "披头士故事博物馆",
+          "englishName": "The Beatles Story Museum"
         },
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "mary-queen-of-scots-visitors-centre",
+          "name": "苏格兰玛丽女王游客中心",
+          "englishName": "Mary Queen of Scots’ Visitors Centre"
         },
         {
-          "slug": "caernarfon-castle",
-          "name": "卡那封城堡",
-          "englishName": "Caernarfon Castle"
+          "slug": "dunrobin-castle",
+          "name": "邓罗宾城堡",
+          "englishName": "Dunrobin Castle"
         }
       ]
     }

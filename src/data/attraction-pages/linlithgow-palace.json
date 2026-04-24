@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "林利思戈",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "林利思戈宫",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "林利思戈宫・Linlithgow Palace・英国・林利思戈",
-    "description": "我第一次看见林利思戈宫，是在一个阴雨的午后。火车穿过苏格兰低地的绿色丘陵，窗外的湖面突然展开，那座巨大的浅金色废墟就蹲在湖中央的半岛上，像一头沉睡的远古巨兽。我下车后沿着镇子古老的鹅卵石路走去，空气中弥漫着湿漉漉的泥土和草叶的气味，远远就能看见宫墙上的窗口像空洞的眼睛望着苍穹。走近了，你才发觉它不是完整的宫殿，而是一个被掏空的躯壳——房顶没了，楼板没了，只剩下四面外墙倔强地立在草坪上。但你不会觉得它是残破的，反而有一种庄严的寂静，比任何富丽堂皇的古堡更令人屏息。\n我穿过大门进入庭院，脚下的石板被数百年脚步磨得发亮，中央有一座大理石喷泉，虽然已经干涸，但上面雕刻的怪兽和皇冠依然栩栩如生。头顶是开阔的天空，四面高墙将风收束成一个漩涡，我能听见风在壁炉和窗洞间呼啸的声音，像古老的低语。当地人说，在特别安静的夜晚，还能听见玛丽女王还是婴儿时的啼哭——我不信鬼故事，但那一刻我突然理解了他们说的“灵魂”。这里没有金碧辉煌的家具，没有丝绸帷幔，但每一块石头都浸透了故事。\n林利思戈宫在本地人的生活中，不是一个需要买票参观的景点，而是一个可以随时来散步的公园。周末的下午，你会看见年轻夫妇推着婴儿车在草坪上野餐，老人带着狗沿着湖边慢跑，孩子们在废墟的阴影里玩捉迷藏。它就像一个巨大的、沉默的祖父，看着一代代人在它脚边嬉闹。这种日常的亲近感，才是它最打动我的地方。\n它真正的魅力在于那种不完整的完美。你不需要想象它鼎盛时的模样——那些石头上的弹孔、被烟熏黑的壁炉、没了玻璃的窗框，都在真诚地讲述时间的暴力。可正是这种暴力，反而让宫殿卸下了所有伪装，变成一本敞开的书。我绕着庭院走了两圈，每转一个角都会发现新的细节：被藤蔓缠绕的石雕天使，嵌在墙里的中世纪陶罐，墙面上一道深深的刀痕也许是当年士兵留下的。没有玻璃罩保护，没有围栏隔离，你可以直接触摸到历史粗粝的表面。"
+    "description": "我第一次看见林利思戈宫，是在一个阴雨的午后。火车穿过苏格兰低地的绿色丘陵，窗外的湖面突然展开，那座巨大的浅金色废墟就蹲在湖中央的半岛上，像一头沉睡的远古巨兽。我下车后沿着镇子古老的鹅卵石路走去，空气中弥漫着湿漉漉的泥土和草叶的气味，远远就能看见宫墙上的窗口像空洞的眼睛望着苍穹。走近了，你才发觉它不是完整的宫殿，而是一个被掏空的躯壳——房顶没了，楼板没了，只剩下四面外墙倔强地立在草坪上。但你不会觉得它是残破的，反而有一种庄严的寂静，比任何富丽堂皇的古堡更令人屏息。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/croeso-i-gymru-welcome-sign\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士欢迎标志牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Croeso i Gymru Welcome Sign</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/palace-of-westminster\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威斯敏斯特宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Palace of Westminster</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cuween-hill-chambered-cairn",
-          "name": "库温山墓室石堆",
-          "englishName": "Cuween Hill Chambered Cairn"
+          "slug": "croeso-i-gymru-welcome-sign",
+          "name": "威尔士欢迎标志牌",
+          "englishName": "Croeso i Gymru Welcome Sign"
         },
         {
-          "slug": "conwy-falls",
-          "name": "康威瀑布",
-          "englishName": "Conwy Falls"
+          "slug": "palace-of-westminster",
+          "name": "威斯敏斯特宫",
+          "englishName": "Palace of Westminster"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "cwm-rhaeadr-forest",
+          "name": "坎姆拉德森林瀑布",
+          "englishName": "Cwm Rhaeadr Forest"
         }
       ]
     }

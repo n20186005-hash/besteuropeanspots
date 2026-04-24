@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "德比郡，贝克韦尔",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "查茨沃斯庄园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "查茨沃斯庄园・Chatsworth House・英国・德比郡，贝克韦尔",
-    "description": "去查茨沃斯之前，我对英国的“庄园”其实有点审美疲劳了。看过太多金碧辉煌的房间，每个壁炉都贴着钱币一样闪亮的装饰，每一幅画都像在说“你看我多贵”。但查茨沃斯不一样。我第一眼在车窗外看到它时，是下午四点左右，十月的英格兰光线低垂又温柔，整座房屋像是从深绿色的丘陵里长出来的一样，那泛着淡金色光晕的石头墙面，被周围连绵起伏的山谷和草场簇拥着，你甚至会以为这不是人建的，而是大地自己隆起的一部分。没有围墙，没有铁门，就这么毫无防备地站在你面前，哈巴河一样清澈的小溪从它脚边淌过，几只绵羊在缓坡上抬头看了你一眼，又低头吃草去了。\n走进庄园内部，第一感觉就是“这地方有人在住”。空气里有一种混杂着旧木头、蜂蜡和微微的灰尘的气味，那是时间才能酿出的味道。不像某些地方会故意喷上香水，这里的味道真实得让你忍不住深呼吸。地毯上能看到明显的走向印痕，扶手上的漆皮被无数只手摸得光滑如镜，长桌上的银器闪闪发光但绝不是那种隔着一层玻璃的冷，而是你随时可以拿起一只叉子吃一顿正餐的热闹。穿过一个个满是油画和雕塑的房间时，我突然意识到，这里不仅仅是展示给游客看的“艺术史”，而是一个家族几百年来真正的起居室。你走过的那块地板，可能被一位公爵踩着去赴舞会，被一个小孩子趴着找丢掉的弹珠。\n在查茨沃斯，我最喜欢的不是那间挂着巨大拉斐尔画作的房间，而是——你可能会觉得奇怪——厨房。对，厨房。沿着一条铺着红色地砖的走廊走下去，那股飘出来的黄油和烤面包的香气让你胃里暖洋洋的。管家和厨娘当年就在这里处理着庄园一天要消耗的无数食材。壁炉里还能看到巨大的旋转烤架，铜锅擦得锃亮，一个真正的蜂巢挂在墙壁上，仿佛下一秒就会有一位戴着白帽子的厨师推门进来，用伦敦腔说：“再等一刻钟，公爵夫人的下午茶就好了。”这一切会让你忘记自己是个游客，你会觉得自己是被家族邀请来度周末的朋友。\n它真正的魅力一直延伸到花园。查茨沃斯的花园不像凡尔赛那样刻板，它既有规整的喷泉、迷宫和雕塑花坛，又有自然流淌的河流、瀑布和野花田。尤其是那股流淌的山泉汇成的溪流和被枫叶遮掩的石桥，你可以在那里发半天呆，听着水声，呼吸着混了露水的草香，看着远处的羊群慢慢移动。到了深秋时节，那些银杏和橡树把整片山谷都染成了暖色调，你甚至分不清自己是在看一幅画，还是已经走进了画里。"
+    "description": "去查茨沃斯之前，我对英国的“庄园”其实有点审美疲劳了。看过太多金碧辉煌的房间，每个壁炉都贴着钱币一样闪亮的装饰，每一幅画都像在说“你看我多贵”。但查茨沃斯不一样。我第一眼在车窗外看到它时，是下午四点左右，十月的英格兰光线低垂又温柔，整座房屋像是从深绿色的丘陵里长出来的一样，那泛着淡金色光晕的石头墙面，被周围连绵起伏的山谷和草场簇拥着，你甚至会以为这不是人建的，而是大地自己隆起的一部分。没有围墙，没有铁门，就这么毫无防备地站在你面前，哈巴河一样清澈的小溪从它脚边淌过，几只绵羊在缓坡上抬头看了你一眼，又低头吃草去了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/whitby-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    惠\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">惠特比修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Whitby Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dalmeny-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达尔梅尼庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dalmeny House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "whitby-abbey",
+          "name": "惠特比修道院",
+          "englishName": "Whitby Abbey"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "dalmeny-house",
+          "name": "达尔梅尼庄园",
+          "englishName": "Dalmeny House"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "cameron-square",
+          "name": "卡梅隆广场",
+          "englishName": "Cameron Square"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伦敦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威斯敏斯特教堂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威斯敏斯特教堂・Westminster Abbey・英国・伦敦",
-    "description": "我第一次踏入威斯敏斯特教堂，是在一个深秋的清晨。伦敦的天刚蒙蒙亮，泰晤士河上的雾气还没完全散去，整座教堂像一头从雾中缓缓显现的灰色巨兽。空气冷冽，带着古老的石料特有的微涩气息，还有一丝雨水浸透后的青苔味。教堂的尖顶直插阴沉的天空，给人一种无法言说的神圣感和压迫感，仿佛你正要走进的是一座时间的陵墓，而不是一座教堂。\n推开那扇厚重的橡木大门的一瞬间，声音消失了。门外是21世纪伦敦嘈杂的车流和游客的喧嚷，门内却是一个沉降了一千多年的寂静。那是一种你从未体验过的静——不是死寂，而是无数灵魂在轻声低语的回响。光线从彩色玻璃窗中穿过，在古老的石砖上投下宝石般斑斓的光斑，空气中弥漫着陈旧的香烛味、书页味和某一种难以名状的圣洁感。你能听到自己的脚步声在空旷的中殿里被无限放大，每一个脚步都像在敲击着历史的大门。\n威斯敏斯特教堂不像其他地方——它不是一个单纯的景点，而是英国千年历史的心脏。在这里，国王和女王被加冕，诗人、将军、科学家、音乐家被安葬。牛顿的墓就在那里，达尔文就在不远处，丘吉尔的纪念碑也赫然在列。每一个角落都有一段传奇，每一块石板都刻着一个名字。走在里面，你不是在参观，而是在穿越。你会不自觉放慢呼吸，生怕惊扰了某个沉睡的伟大灵魂。\n最打动我的不是它的宏伟，而是它的真实。教堂至今仍是皇家婚礼、加冕仪式和国家葬礼的地点在举行。它不是一个被冻结在历史中的博物馆，而是一个活着的、呼吸着的信仰与文化中心。当唱诗班的歌声从祭坛后面升起时，那是一种无法用语言形容的感动，你会突然明白为什么英国人愿意把一个如此重要的地方，称作“修道院”（Abbey）——那是对信仰最朴素、也最深情的一种称呼。"
+    "description": "我第一次踏入威斯敏斯特教堂，是在一个深秋的清晨。伦敦的天刚蒙蒙亮，泰晤士河上的雾气还没完全散去，整座教堂像一头从雾中缓缓显现的灰色巨兽。空气冷冽，带着古老的石料特有的微涩气息，还有一丝雨水浸透后的青苔味。教堂的尖顶直插阴沉的天空，给人一种无法言说的神圣感和压迫感，仿佛你正要走进的是一座时间的陵墓，而不是一座教堂。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/new-lanark\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新拉纳克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Lanark</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/claerwen-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱文水坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Claerwen Dam</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "new-lanark",
-          "name": "新拉纳克",
-          "englishName": "New Lanark"
+          "slug": "hadrians-wall",
+          "name": "哈德良长城",
+          "englishName": "Hadrian's Wall"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "cameron-square",
+          "name": "卡梅隆广场",
+          "englishName": "Cameron Square"
         },
         {
-          "slug": "claerwen-dam",
-          "name": "克莱文水坝",
-          "englishName": "Claerwen Dam"
+          "slug": "cardiff-castle",
+          "name": "卡迪夫城堡",
+          "englishName": "Cardiff Castle"
         }
       ]
     }

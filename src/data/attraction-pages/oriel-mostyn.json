@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰迪德诺",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "莫斯廷画廊",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "莫斯廷画廊・Oriel Mostyn・英国・兰迪德诺",
-    "description": "我第一次站在Oriel Mostyn门口时，正下着斜风细雨。兰迪德诺的海风裹着咸腥和炸鱼薯条的油味，从海湾那边灌过来。我刚从维多利亚码头的旋转木马那边走来，脑袋里还是小朋友的尖叫声和海鸥的抢食大战，一抬头就撞见了这三扇巨大的拱窗。它们被雨水洗得发亮，像三只湿漉漉的、好奇的眼睛，盯着我这个闯入者。玻璃后面透出暖黄的灯光，隐约能看到白色墙壁上挂着巨幅的、说不出是什么形状的彩色块面。那一瞬间，我仿佛从一本彩色童话书直接翻进了现代艺术的狂想——没有过渡，没有解释，只有震撼。\n推开厚重的橡木门，暖气片特有的铁锈味混合着松节油和尘土的气息扑面而来。门厅很窄，但头顶豁然开朗：一个六边形穹顶上装了淡绿色玻璃，雨水在玻璃上积聚又滑落，留下模糊的条纹。脚下的马赛克地砖拼出威尔士韭葱和都铎玫瑰的图案，被百年来的鞋底磨得有些模糊。右手边的接待台是用老剧院售票窗口改的，黄铜栅栏上挂着今日展览的海报。一个头发花白、戴着圆框眼镜的女士抬起头，用威尔士语说了句“Croeso”，然后换成英语问我是不是第一次来。她的声音很轻，像怕惊动墙上的画似的。我点点头，她笑起来，指了指左边那条窄楼梯：“从楼上往下走，光线会越来越温柔。”\n沿着吱吱作响的木楼梯往上走，每一级都有人踩着它想心事。二楼展厅里几乎没人，只有一幅巨大的、完全由羊毛线编织的抽象山脉悬挂在中央——那是威尔士艺术家用回收的旧毛衣制作的，远看像被风吹皱的绿色湖面，近看每一根线都缠绕着生活的痕迹：袖口的松紧带、纽扣的印记、起球的面料。我站在它面前，能听到隔壁房间里循环播放的音频装置，是威尔士语的诗歌朗诵，语调像潮水一样起伏。窗外的海鸥偶尔尖叫一声插进来，竟然意外地和谐。那一刻我明白了：Oriel Mostyn不是那种让你正襟危坐、保持沉默的地方。它是一个容器，里面装着噪音、色彩、海风、方言，还有普通人路过时带进来的生活碎屑。\n最打动我的是地下层的小咖啡角。它藏在一段螺旋铁梯下面，只有三张桌子，墙上贴着儿童美术工作坊的画作——歪歪扭扭的龙、紫色的绵羊、用蜡笔涂满整个画面的“快乐”。吧台后面的小哥正在给一杯拿铁拉花，拉出一只威尔士红龙的样子。他看我很惊讶，耸耸肩说：“每个周四晚上都有‘艺术与拉花’课，你也可以来学。”我端着那杯龙形拿铁在窗边坐下，窗外是后巷，有只瘦猫蹲在垃圾桶上看雨。我突然觉得，这就是Oriel Mostyn最迷人的地方：它把最高冷的前卫艺术，降维成了街坊邻居的日常仪式。"
+    "description": "我第一次站在Oriel Mostyn门口时，正下着斜风细雨。兰迪德诺的海风裹着咸腥和炸鱼薯条的油味，从海湾那边灌过来。我刚从维多利亚码头的旋转木马那边走来，脑袋里还是小朋友的尖叫声和海鸥的抢食大战，一抬头就撞见了这三扇巨大的拱窗。它们被雨水洗得发亮，像三只湿漉漉的、好奇的眼睛，盯着我这个闯入者。玻璃后面透出暖黄的灯光，隐约能看到白色墙壁上挂着巨幅的、说不出是什么形状的彩色块面。那一瞬间，我仿佛从一本彩色童话书直接翻进了现代艺术的狂想——没有过渡，没有解释，只有震撼。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/maen-llia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利亚巨石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen Llia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/creag-meagaidh-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里格梅盖迪国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Creag Meagaidh National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/sea-kayaking-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海上皮划艇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sea Kayaking Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-bobby-statue\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗莱尔·鲍比雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Bobby Statue</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "maen-llia",
-          "name": "利亚巨石",
-          "englishName": "Maen Llia"
+          "slug": "sea-kayaking-wales",
+          "name": "威尔士海上皮划艇",
+          "englishName": "Sea Kayaking Wales"
         },
         {
-          "slug": "creag-meagaidh-national-nature-reserve",
-          "name": "克里格梅盖迪国家自然保护区",
-          "englishName": "Creag Meagaidh National Nature Reserve"
+          "slug": "greyfriars-bobby-statue",
+          "name": "格雷弗莱尔·鲍比雕像",
+          "englishName": "Greyfriars Bobby Statue"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "borth",
+          "name": "博斯",
+          "englishName": "Borth"
         }
       ]
     }

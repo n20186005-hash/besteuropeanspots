@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伦敦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伦敦眼",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "伦敦眼・London Eye・英国・伦敦",
-    "description": "第一次见到伦敦眼，是在一个雨后的傍晚。我从滑铁卢地铁站钻出来，穿过朱比利花园，西边的天空正透出一丝金边。那巨大的白色钢圈就那样横亘在眼前，轮圈上悬挂着一个个蛋形的透明胶囊，像一串漂浮在空中的气泡。泰晤士河的水腥味混着草坪被雨水打湿后的青草香扑鼻而来，远处大本钟的钟声刚好敲响，低沉而悠长，仿佛在跟这个新来的大家伙打招呼。说实话，第一眼我并没有被它的雄伟震撼——这座摩天轮才135米高，比不上上海或迪拜的那些超级巨轮。但它的妙处在于位置：它紧紧贴着泰晤士河，紧挨着议会大厦和西敏寺，地面几乎就在河岸边。所以当你站在它脚下仰头看，轮圈几乎要擦过云层，那种压迫感是独特的。\n真正让我沦陷的是坐在座舱里的那半个小时。胶囊是全透明的，连地板都是玻璃，我一开始还担心恐高，但真正升上去时，却完全被窗外的景象吸走了注意力。随着座舱缓缓爬升，伦敦像一幅卷轴画在我眼前慢慢展开：国会大厦的哥特尖塔、大本钟的钟面、西敏寺的飞扶壁、圣保罗大教堂的穹顶、碎片大厦的玻璃棱角……它们从错落有致的剪影，渐渐变成可以俯瞰的微缩模型。更迷人的是视野里的泰晤士河，像一条灰蓝色的缎带，蜿蜒穿过整个城市，上面有游船在划出白色的水痕。当座舱到达最高点，风从缝隙里灌进来，呼呼作响，你能感觉到整个轮子在轻微摇晃——不是恐惧，而是一种让人秒变安静的悬浮感。\n最打动人心的，其实是那些平凡的时刻。我看到父亲抱着小女孩，指着远方说“看，那是你将来上大学的帝国理工”；我看到一对银发夫妻默默依偎，玻璃上映着他们年轻时的倒影；还看到一群背包客趴在玻璃地板上，假装在飞行。伦敦眼不张扬，不厚重，它像这座城市的一个深呼吸。它不在乎你是谁，只愿意给你半小时的飞翔。而这半小时，足够让你重新爱上伦敦——无论是天气再阴沉、地铁再拥挤，只要俯瞰过这座城市的轮廓，你就知道它为什么值得所有赞美。"
+    "description": "第一次见到伦敦眼，是在一个雨后的傍晚。我从滑铁卢地铁站钻出来，穿过朱比利花园，西边的天空正透出一丝金边。那巨大的白色钢圈就那样横亘在眼前，轮圈上悬挂着一个个蛋形的透明胶囊，像一串漂浮在空中的气泡。泰晤士河的水腥味混着草坪被雨水打湿后的青草香扑鼻而来，远处大本钟的钟声刚好敲响，低沉而悠长，仿佛在跟这个新来的大家伙打招呼。说实话，第一眼我并没有被它的雄伟震撼——这座摩天轮才135米高，比不上上海或迪拜的那些超级巨轮。但它的妙处在于位置：它紧紧贴着泰晤士河，紧挨着议会大厦和西敏寺，地面几乎就在河岸边。所以当你站在它脚下仰头看，轮圈几乎要擦过云层，那种压迫感是独特的。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dinorwic-slate-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪诺威奇板岩矿场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinorwic Slate Quarry</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llywelyn-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卢埃林纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llywelyn Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scott-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    司\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">司各特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scott Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-museum-cardiff\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫国家博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Museum Cardiff</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "llywelyn-monument",
+          "name": "卢埃林纪念碑",
+          "englishName": "Llywelyn Monument"
         },
         {
-          "slug": "dinorwic-slate-quarry",
-          "name": "迪诺威奇板岩矿场",
-          "englishName": "Dinorwic Slate Quarry"
+          "slug": "scott-monument",
+          "name": "司各特纪念碑",
+          "englishName": "Scott Monument"
         },
         {
-          "slug": "cawdor-castle-and-gardens",
-          "name": "考德城堡与花园",
-          "englishName": "Cawdor Castle and Gardens"
+          "slug": "national-museum-cardiff",
+          "name": "卡迪夫国家博物馆",
+          "englishName": "National Museum Cardiff"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯特灵城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯特灵城堡・Stirling Castle・英国・苏格兰",
-    "description": "站在斯特灵城堡的城墙上，风从身后广袤的Trossachs山谷吹来，带着湿漉漉的苏格兰草地的气息。脚下的城堡基石历经数百年风雨，浅黄色的砂岩表面斑驳却依然坚硬。抬起头，那座被称为“国王的古老城堡”的轮廓在清冷的天色里充满力量感，像一头沉睡的巨兽盘踞在铁锈色的火山岩顶之上。你踩着的每一块石板都曾被无数羊皮靴和铁甲踏过，空气中隐隐能听见士兵的喊杀声、号角的回响，还有国王与王后的窃窃私语。\n穿过那扇有着沉重铁门的城门，你会被眼前巨大的内庭震撼到。阳光斜斜地洒在灰色石墙上，偶尔被云层遮住，整座城堡便突然变得阴森内敛。城堡内部的王宫正在修缮，但依然能从那些被精心复原的挂毯和家具上看到苏格兰文艺复兴时代的璀璨——大胆的用色、精致的雕刻、金箔的光芒，透露着詹姆斯五世时代王室对欧洲大陆时尚的追逐。每一位到访者都会不自觉地放慢脚步，仿佛怕惊扰了沉睡在墙缝里的幽灵。\n在苏格兰人的生活中，斯特灵城堡不是一个旅游景点，而是一个家族记忆的载体。每逢节假日，当地的孩子们会穿着苏格兰裙的迷你款在城堡前奔跑，恋人们在Esplanade的高地木栈道上依偎着看日落。城堡巨大的阴影投射在斯特灵老城狭窄而蜿蜒的街道上，与远处华莱士纪念碑的尖顶遥相呼应。它不怕游客的喧嚣，因为它深深扎根在这片土地上，经历了被英格兰围攻、被战火摧残、被岁月剥蚀，每一次修缮都是一次重生。\n最打动人的是它那种不动声色的高贵。斯特灵城堡从不卖力地向你展示它的威严，它只是静静地站立在那里，任你漫步于那些曾被火炮击穿的墙垛之间，任你想象一个王国的命运是如何在这些塔楼之间被书写。很多从爱丁堡城堡过来的游客会惊讶于这里的朴素和克制，但正是这种没有被过度商业化的原汁原味，让你真正感受到苏格兰的心脏在跳动。"
+    "description": "站在斯特灵城堡的城墙上，风从身后广袤的Trossachs山谷吹来，带着湿漉漉的苏格兰草地的气息。脚下的城堡基石历经数百年风雨，浅黄色的砂岩表面斑驳却依然坚硬。抬起头，那座被称为“国王的古老城堡”的轮廓在清冷的天色里充满力量感，像一头沉睡的巨兽盘踞在铁锈色的火山岩顶之上。你踩着的每一块石板都曾被无数羊皮靴和铁甲踏过，空气中隐隐能听见士兵的喊杀声、号角的回响，还有国王与王后的窃窃私语。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scotch-whisky-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰威士忌体验中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Scotch Whisky Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skara-brae-prehistoric-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯卡拉布雷史前村落</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skara Brae Prehistoric Village</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rspb-cymru-ynys-lawd\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    R\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">RSPB威尔士南栈自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">RSPB Cymru Ynys Lawd / South Stack Cliffs RSPB Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saint-govans-chapel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣戈万礼拜堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint Govan's Chapel</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "skara-brae-prehistoric-village",
+          "name": "斯卡拉布雷史前村落",
+          "englishName": "Skara Brae Prehistoric Village"
         },
         {
-          "slug": "scotch-whisky-experience",
-          "name": "苏格兰威士忌体验中心",
-          "englishName": "The Scotch Whisky Experience"
+          "slug": "rspb-cymru-ynys-lawd",
+          "name": "RSPB威尔士南栈自然保护区",
+          "englishName": "RSPB Cymru Ynys Lawd / South Stack Cliffs RSPB Reserve"
         },
         {
-          "slug": "callendar-house",
-          "name": "卡伦德庄园",
-          "englishName": "Callendar House"
+          "slug": "saint-govans-chapel",
+          "name": "圣戈万礼拜堂",
+          "englishName": "Saint Govan's Chapel"
         }
       ]
     }

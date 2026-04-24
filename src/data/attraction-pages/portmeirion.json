@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭希登德拉伊思（Porthmadog）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "波特梅里恩",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "波特梅里恩・Portmeirion・英国・彭希登德拉伊思（Porthmadog）",
-    "description": "我第一次见到波特梅里恩是在一个雾气缭绕的清晨。车子沿着威尔士海岸线拐过最后一个弯，前方突然出现一片粉红、明黄、天蓝和奶油白交织的建筑群落，像打翻了的调色盘，毫不客气地泼在墨绿色的山坡上。雾气还没完全散去，那些拱廊、圆顶和钟楼被柔和的阳光撕开几道口子，光柱正好打在中央广场的喷泉上，水珠溅起时反射出细碎的彩虹。风从爱尔兰海吹来，带着咸湿的海腥味和远处松林的清香，那味道不像英国，倒像突然跌进了地中海某个小渔村。我站在入口处的石桥上，脚下是缓缓流动的潮水，退潮时露出金色的泥滩，几只牡蛎鸻在浅滩上啄食。村庄里几乎没有人声，只有远处教堂的钟声每隔一刻钟敲一次，声音被山壁弹回来，产生微妙的回响。\n走进村庄的小巷，每一步都是惊喜。脚下的石板路被无数游客磨得光滑发亮，缝隙里长出青苔和野花。左手边一栋建筑刷着深赭色，窗户镶着蓝色木百叶，窗台上摆着几盆天竺葵，红得耀眼；右手边则是淡粉色墙面配白色罗马柱，门顶上悬着一只铁艺灯笼。一座由珊瑚红和柠檬黄拼成的圆顶凉亭像巨大的蛋糕立在转角处，旁边爬满紫藤的拱门通向更隐秘的花园。空气中混杂着咖啡香、刚修剪过的草坪味和海水的气息，还隐隐能听到从某扇半开的窗户里飘出的古典吉他声。一位老人坐在长椅上喂鸽子，鸽子咕咕叫着争抢面包屑，毛色在阳光下泛着紫绿色的光泽。\n最打动我的是村庄的“不完美”。它不像那些精心维护的古镇，一切都崭新整齐。这里的油漆有剥落的痕迹，窗框有些歪斜，墙上的瓷砖拼花有几块缺失，但正是这种自然老去的质感让它充满生命力。每一栋建筑都像是在讲述自己的故事：那栋绿色百叶窗的房子里住过哪位画家？那个爬满常春藤的塔楼里曾藏着什么秘密？沿着狭窄的阶梯攀到山顶的小教堂，推开门，里面只有几排木椅和一面彩绘玻璃窗，窗外能看到海湾的全景。那里空无一人，安静得能听见自己心跳的声音。我靠窗坐下，看着远处海面上的帆船缓缓移动，突然理解了为什么有人愿意花一生的时间守护这样一个地方——它不是为了讨好游客而存在的，它是建筑师克里夫·威廉姆斯-埃利斯的一个梦，一个关于美的固执宣言。\n晚上六点过后，日间游客散去，村庄恢复了宁静。我住在村内的酒店，房间窗外就是中央广场。夕阳把每栋建筑都镀上金边，然后渐渐暗成剪影，最后只剩下几盏暖黄色的路灯。我走到露台上，潮水涨起来了，拍打着堤岸发出持续的低吼。头顶的星空格外清晰，银河隐约可见。突然想起《囚徒》里那句台词：“你是谁？”在这里，每个人都可以暂时忘记自己是谁，只做一个在美面前的惊叹者。"
+    "description": "我第一次见到波特梅里恩是在一个雾气缭绕的清晨。车子沿着威尔士海岸线拐过最后一个弯，前方突然出现一片粉红、明黄、天蓝和奶油白交织的建筑群落，像打翻了的调色盘，毫不客气地泼在墨绿色的山坡上。雾气还没完全散去，那些拱廊、圆顶和钟楼被柔和的阳光撕开几道口子，光柱正好打在中央广场的喷泉上，水珠溅起时反射出细碎的彩虹。风从爱尔兰海吹来，带着咸湿的海腥味和远处松林的清香，那味道不像英国，倒像突然跌进了地中海某个小渔村。我站在入口处的石桥上，脚下是缓缓流动的潮水，退潮时露出金色的泥滩，几只牡蛎鸻在浅滩上啄食。村庄里几乎没有人声，只有远处教堂的钟声每隔一刻钟敲一次，声音被山壁弹回来，产生微妙的回响。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/maen-du-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑石圣井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen-Du Well</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-stone\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Stone</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "maen-du-well",
-          "name": "黑石圣井",
-          "englishName": "Maen-Du Well"
+          "slug": "battle-abbey",
+          "name": "巴特尔修道院",
+          "englishName": "Battle Abbey"
         },
         {
-          "slug": "castell-dinefwr",
-          "name": "迪内弗尔城堡",
-          "englishName": "Castell Dinefwr"
+          "slug": "arthurs-stone",
+          "name": "亚瑟石",
+          "englishName": "Arthur's Stone"
         },
         {
-          "slug": "conwy-falls",
-          "name": "康威瀑布",
-          "englishName": "Conwy Falls"
+          "slug": "berwick-upon-tweed-castle-and-ramparts",
+          "name": "伯立克-特威德城堡及城墙",
+          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
         }
       ]
     }

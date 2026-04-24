@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "因弗内斯 (Inverness)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡梅隆广场",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡梅隆广场・Cameron Square・英国・因弗内斯 (Inverness)",
-    "description": "我第一次站在卡梅隆广场的时候，恰好是九月初一个灰蒙蒙的星期日早晨。空气中海盐和威士忌酒糟的气味在高纬度的冷风里纠缠在一起，老城里的石板路被昨夜的小雨洗得乌黑发亮，倒映着暖黄色的街灯。广场很安静，只有一只海鸥因为什么事突然尖叫了一声，然后迅速消失在圣安德鲁教堂尖顶的阴影里。\n那座教堂就是广场的灵魂。它的尖塔在因弗内斯的天际线上几乎和城堡一样显眼，但少了城堡的防御性姿态，更多了一丝温柔的守望。我顺着教堂外墙走，手摸上那些被风雨剥蚀了一个半世纪的砂岩，指尖感受到的是冰凉的、粗糙的纵深，像在抚摸一本老书的书脊。广场西侧是市政厅，正面有一排精美的拱廊，旁边的咖啡馆这时候还没开门，但老板已经在里面忙活着烤面包。那股焦糖和黄油的香气从门缝里溢出来，顺着台阶溜进广场，把海风都染甜了。\n广场并不大，甚至可以说小，小到站在中央就能把周围的建筑一一看清。但这种小不让人觉得局促，反而有一种被拥抱着的安全感。当地的老人牵着狗穿过广场，停在告示牌前看教堂的公告；一对年轻的父母推着婴儿车慢慢走过，任由孩子在车里手舞足蹈。这里没有爱丁堡皇家英里大街那种被游客填满的窒息感，也没有格拉斯哥乔治广场那种过于规整的仪式感。卡梅隆广场就像一个懒洋洋的客厅，二十四个小时都在用它自己的节奏呼吸着。\n最让我心动的是那一刻的光线和声音的配合。浅灰色的云层像一块厚厚的羊毛毯罩在整个城市上空，但偶尔会有一个缺口，阳光从那里直直地砸下来，把教堂的彩色玻璃窗点燃，把草坪上的露水烫成白雾。几乎在同一时刻，教堂的钟敲响了，那声音厚重而悠远，从塔顶一圈一圈地扩散出去，撞上老建筑的墙面，然后软化、下沉，静静地消失在地砖的缝隙里。"
+    "description": "我第一次站在卡梅隆广场的时候，恰好是九月初一个灰蒙蒙的星期日早晨。空气中海盐和威士忌酒糟的气味在高纬度的冷风里纠缠在一起，老城里的石板路被昨夜的小雨洗得乌黑发亮，倒映着暖黄色的街灯。广场很安静，只有一只海鸥因为什么事突然尖叫了一声，然后迅速消失在圣安德鲁教堂尖顶的阴影里。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brean-down-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林当堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brean Down Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceannabeinne-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    喜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">喜纳本海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ceannabeinne Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/craigievar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷吉瓦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigievar Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "callendar-house",
-          "name": "卡伦德庄园",
-          "englishName": "Callendar House"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         },
         {
-          "slug": "brean-down-fort",
-          "name": "布林当堡垒",
-          "englishName": "Brean Down Fort"
+          "slug": "ceannabeinne-beach",
+          "name": "喜纳本海滩",
+          "englishName": "Ceannabeinne Beach"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "craigievar-castle",
+          "name": "克雷吉瓦城堡",
+          "englishName": "Craigievar Castle"
         }
       ]
     }

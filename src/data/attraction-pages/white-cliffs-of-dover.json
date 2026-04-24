@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "多佛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "多佛白崖",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "多佛白崖・White Cliffs of Dover・英国・多佛",
-    "description": "第一次见到多佛白崖的那个午后，我记得自己站在Langdon Cliffs的观景台上，双手紧紧抓住栏杆，因为风实在太大了，大到能把口水吹到耳朵里。阳光从云层缝隙间斜射下来，照得整片崖壁像一块巨大的雪花石膏，亮得让人眯起眼睛。空气中裹挟着浓烈的咸腥味，夹杂着脚下野花淡淡的甜香，耳边除了风声还有海浪撞击崖底的低沉轰鸣——那是一种古老又暴烈的交响乐。往东望去，英吉利海峡的水面在正午光线下呈现出一种奇特的蓝绿色，远处隐约能看到法国的海岸线，像一抹淡墨画在天际尽头。\n游客中心的咖啡窗口前排着当地人，他们操着一口带着浓重肯特口音的英语，一边喝着热茶一边聊着海峡对岸的天气。有个老爷爷指着海面说：“今天能看到加来的钟楼呢！”我顺着他的手望去，果然，在空气清澈的瞬间，对岸的建筑轮廓清晰得像贴了层玻璃纸。这种感觉很奇妙，明明是两个国家，却近得像隔了一条河。脚下的白垩土踩上去很酥松，像踩着干掉的石膏粉末，每一步都扬起细细的白灰，裤腿很快就沾满了“白霜”。\n白崖真正的魔力在于它同时兼具了超现实的美感和沉甸甸的历史重量。当你走在崖顶的步道上，一边是开满黄色野花的草地，一边是垂直坠入大海的白色绝壁，你会觉得自己走在世界的边缘。风在这里是主角，它永远在咆哮、在拉扯你的衣服、在把你的头发吹成疯狂的形状。我试着趴在地上拍一张崖壁的特写，结果帽子立刻被吹飞，翻滚着飘向海面，最终变成一个小白点在深渊里消失。这让我想起那些从这里跳崖自尽的悲剧故事——在这般壮丽又残忍的自然面前，人类的悲伤似乎也变得渺小了。\n而最让我动容的时刻，是黄昏。夕阳把整个白崖染成了深深的琥珀色，那些原本刺眼的白色变得柔和、温暖，像被火光照亮的象牙。海面转成深蓝，浪花拍在崖底溅起的泡沫成了一条不间断的白线。那一刻，我突然理解了为什么二战时期从法国撤退的士兵看到白崖会流泪——它是回家路上最后的灯塔，是活着回到英格兰的证明。那种感觉刻进了每一个英国人的骨子里，也渗透进了这片土地的每一个裂痕。"
+    "description": "第一次见到多佛白崖的那个午后，我记得自己站在Langdon Cliffs的观景台上，双手紧紧抓住栏杆，因为风实在太大了，大到能把口水吹到耳朵里。阳光从云层缝隙间斜射下来，照得整片崖壁像一块巨大的雪花石膏，亮得让人眯起眼睛。空气中裹挟着浓烈的咸腥味，夹杂着脚下野花淡淡的甜香，耳边除了风声还有海浪撞击崖底的低沉轰鸣——那是一种古老又暴烈的交响乐。往东望去，英吉利海峡的水面在正午光线下呈现出一种奇特的蓝绿色，远处隐约能看到法国的海岸线，像一抹淡墨画在天际尽头。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dobinska-ice-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多布希纳冰洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dobšinská Ice Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gandria-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    甘\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">甘德里亚</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gandria</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gordes-stone-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈尔代（石头城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gordes</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cassel-mont-cassel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡塞尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cassel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gladstones-land\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉德斯通之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gladstone's Land</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dobinska-ice-cave",
-          "name": "多布希纳冰洞",
-          "englishName": "Dobšinská Ice Cave"
+          "slug": "cassel-mont-cassel",
+          "name": "卡塞尔",
+          "englishName": "Cassel"
         },
         {
-          "slug": "gandria-village",
-          "name": "甘德里亚",
-          "englishName": "Gandria"
+          "slug": "gladstones-land",
+          "name": "格拉德斯通之家",
+          "englishName": "Gladstone's Land"
         },
         {
-          "slug": "gordes-stone-village",
-          "name": "戈尔代（石头城）",
-          "englishName": "Gordes"
+          "slug": "cairngorms-national-park",
+          "name": "凯恩戈姆国家公园",
+          "englishName": "Cairngorms National Park"
         }
       ]
     }

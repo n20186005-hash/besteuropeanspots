@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "凯斯内斯（Caithness）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "瓦利戈阶梯",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "瓦利戈阶梯・Whaligoe Steps・英国・凯斯内斯（Caithness）",
-    "description": "我第一次听说瓦利戈阶梯，是在威克一家老酒吧里，当地老人听说我要去看它，眯着眼睛说了一句话：“你最好膝盖好一点。” 第二天清晨我把车停在A99公路边一条几乎看不出是路的土道尽头，下车那一刻，海风裹着浓烈的碘味和盐味扑面而来，像一记湿凉的耳光。眼前是苏格兰高地最典型的荒原——草色枯黄，石楠丛生，天空低得仿佛能用手触摸到云层。但地平线那边，北海正在翻滚，灰色的浪脊一道接一道地拍打着黑色的悬崖，发出沉闷的轰鸣。\n沿着一条仅容一人通过的小径走了不到五十米，地面突然消失了。我站在一道垂直的裂缝边缘，脚下是锯齿状的岩石阶梯，一级一级向下蜿蜒，消失在浓重的海雾里。阳光从云隙间投下几束，照在湿漉漉的石阶上，反射出石英颗粒的微光。空气中有一股潮湿的泥土味混着海藻的腥香，还有远处海鸟尖利的叫声，仿佛石头本身在呼吸。我深吸一口气，把手机塞进口袋——这里没有信号，没有人，只有我和这条通往大海的古老梯子。\n沿着台阶往下走，每一级的高度都不太一样，有些被磨损出深深的凹槽，那是几万双赤脚和皮靴在百年间踏出的痕迹。石阶上覆着一层薄薄的苔藓，踩上去滑腻，我不得不侧着身子，扶着粗糙的崖壁。壁面上的砂岩颗粒在手指下剥落，露出更深的赭红色层理，像翻开一本石头写的书。随着高度下降，海水声越来越清晰，不再是被风揉碎的回音，而是实实在在的潮汐呼吸——哗——啪——哗——啪，节奏缓慢而坚定，像大地的脉搏。\n走到大约一半的时候，海雾骤然散去，整片海湾像舞台幕布拉开一样呈现在眼前。一个被黑色玄武岩环抱的小码头出现在脚底，海水清得发绿，卵石滩上散落着白色的海鸥骨头和紫色的海胆壳。那一刻我明白了为什么当年渔民宁愿每天攀爬这段悬崖——这个隐蔽的港湾是北海最安全的避风港之一，入口狭窄，海浪无法直接灌入，仿佛大海在这里开了一扇温柔的门。我坐在台阶上，看着海鸥在头顶盘旋，它们翅膀下的风搅动着空气，带来一丝暖意。这个位置太安静了，安静到能听见自己的心跳，而心跳正和着潮汐的节奏。"
+    "description": "我第一次听说瓦利戈阶梯，是在威克一家老酒吧里，当地老人听说我要去看它，眯着眼睛说了一句话：“你最好膝盖好一点。” 第二天清晨我把车停在A99公路边一条几乎看不出是路的土道尽头，下车那一刻，海风裹着浓烈的碘味和盐味扑面而来，像一记湿凉的耳光。眼前是苏格兰高地最典型的荒原——草色枯黄，石楠丛生，天空低得仿佛能用手触摸到云层。但地平线那边，北海正在翻滚，灰色的浪脊一道接一道地拍打着黑色的悬崖，发出沉闷的轰鸣。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-lythans-burial-chamber\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣利斯墓葬室</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Lythans Burial Chamber</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bwlch-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔赫山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bwlch Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kelvingrove-art-gallery-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯尔文格罗夫美术馆和博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kelvingrove Art Gallery and Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dr-beynons-bug-farm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝农博士的虫子农场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dr Beynon's Bug Farm</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-showcaves-centre-for-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家展示洞穴中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Showcaves Centre for Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "st-lythans-burial-chamber",
-          "name": "圣利斯墓葬室",
-          "englishName": "St Lythans Burial Chamber"
+          "slug": "dr-beynons-bug-farm",
+          "name": "贝农博士的虫子农场",
+          "englishName": "Dr Beynon's Bug Farm"
         },
         {
-          "slug": "bwlch-mountain",
-          "name": "布尔赫山",
-          "englishName": "Bwlch Mountain"
+          "slug": "national-showcaves-centre-for-wales",
+          "name": "威尔士国家展示洞穴中心",
+          "englishName": "National Showcaves Centre for Wales"
         },
         {
-          "slug": "kelvingrove-art-gallery-museum",
-          "name": "凯尔文格罗夫美术馆和博物馆",
-          "englishName": "Kelvingrove Art Gallery and Museum"
+          "slug": "calton-hill",
+          "name": "卡尔顿山",
+          "englishName": "Calton Hill"
         }
       ]
     }

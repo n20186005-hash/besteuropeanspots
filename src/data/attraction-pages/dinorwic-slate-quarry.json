@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士卡那封郡兰贝里斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "迪诺威奇板岩矿场",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "迪诺威奇板岩矿场・Dinorwic Slate Quarry・英国・威尔士卡那封郡兰贝里斯",
-    "description": "第一次靠近迪诺威奇矿场时，我的直觉反应是把车窗摇下来仔细听一听空气里的声音。那是一种混着碎石的叹息和风吹过庞大空洞的尖锐嘶鸣。车子一停，步伐还没站稳，脚下已经踩满了密密麻麻的板岩碎片，每走一步都发出嘎吱嘎吱的脆响。抬头望去，这个矿场根本不是我想象中那种藏在山肚子里的小洞穴。它从湖边的谷底像巨人的阶梯一样层层攀升，直冲云霄。最顶端的平台只剩下一条细细的天际线，让人忍不住想象，当年背着铁镐的工人们站在那样高的地方，心里到底装着什么。\n阳光从云缝里漏下来，把整片岩石表面照得忽明忽暗。我蹲下来摸了摸那些被切割得像书本一样齐整的板岩，指尖触到的是一种冰凉到骨髓的触感，像在触碰一块有记忆的化石。这时候远处传来一阵欢呼声和金属滑索的声响。有个穿着荧光背心的年轻人正从那边的山崖上俯冲而下，在矿坑上空划出一道优美的弧线。那是如今这里最时髦的玩法——极限飞索。矿场不再是静默的坟墓，它被重新赋予了冒险者的笑声。\n在这个地方，你看到的不只是破败的工业建筑，更是一种完完全全的感官冲击。遍地是灰色的碎石，空气中飘着细小的岩尘，偶尔有风吹过来，带来附近湖水的凉意和草叶的气息。矿坑底部积了一潭碧绿的水，映着天空的云影。周围安静的只剩下风声、鸟叫，和远处滑索人群的尖叫。它就这样无声无息地站在那里，灰扑扑的，但却比任何博物馆里的艺术品都更震撼人心。\n最打动我的，是这里在威尔士人日常生活中那种微妙的地位。当地人对它又爱又恨。爱是因为它给了他们的祖辈饭碗，恨是因为它也剥夺了无数人的肺健康和生命。但现在的年轻人已经从沉重的记忆里挣脱出来，他们每周末带着孩子来这里徒步、攀岩、露营，把这片废墟当作自己的游乐场。迪诺威奇不是一座被玻璃罩罩住的古迹，它活在威尔士人的周末里，活在他们对自由和极限挑战的渴望中。"
+    "description": "第一次靠近迪诺威奇矿场时，我的直觉反应是把车窗摇下来仔细听一听空气里的声音。那是一种混着碎石的叹息和风吹过庞大空洞的尖锐嘶鸣。车子一停，步伐还没站稳，脚下已经踩满了密密麻麻的板岩碎片，每走一步都发出嘎吱嘎吱的脆响。抬头望去，这个矿场根本不是我想象中那种藏在山肚子里的小洞穴。它从湖边的谷底像巨人的阶梯一样层层攀升，直冲云霄。最顶端的平台只剩下一条细细的天际线，让人忍不住想象，当年背着铁镐的工人们站在那样高的地方，心里到底装着什么。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-coastal-path-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯海岸步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "britannia-bridge",
-          "name": "布里塔尼亚桥",
-          "englishName": "Britannia Bridge"
+          "slug": "cwm-rhaeadr-forest",
+          "name": "坎姆拉德森林瀑布",
+          "englishName": "Cwm Rhaeadr Forest"
         },
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "wales-coastal-path-aberystwyth",
+          "name": "阿伯里斯特威斯海岸步道",
+          "englishName": "Wales Coastal Path Aberystwyth"
         },
         {
-          "slug": "callendar-house",
-          "name": "卡伦德庄园",
-          "englishName": "Callendar House"
+          "slug": "colinton-station-tunnel",
+          "name": "科林顿车站与隧道",
+          "englishName": "Colinton Station & Tunnel"
         }
       ]
     }

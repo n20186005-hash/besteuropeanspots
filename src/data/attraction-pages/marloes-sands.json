@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡，哈弗福德韦斯特",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "马洛斯海滩",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "马洛斯海滩・Marloes Sands・英国・彭布罗克郡，哈弗福德韦斯特",
-    "description": "第一次去马洛斯海滩的人，十有八九会走错路。从停车场出来，沿着一条被树根缠绕的小径往下走，经过一片被绵羊啃得整整齐齐的草坡，你完全看不到海。只能听到声音——先是低沉的咆哮，像一头巨兽在远处喘息；再走几十步，声音突然裂开，变成一阵阵炸裂的轰响，那是海浪撞击峭壁的回声。等你转过最后一丛灌木，整个世界猛然被掀开：一片猩红色的沙滩像撕裂的油画一样铺在脚下，远处是翠绿的海湾，尽头是一块孤零零的岩石岛屿——Gateholm岛，退潮时你可以踩着沙洲走过去。\n空气里全是海盐和腐烂海藻的咸腥味，混着泥土的甜腥。风大到几乎要把你推回去，但你的眼睛已经死死钉在那片红砂岩上——它们不是想象中那种暗红的砂岩，而是像刚切开的生肉一样，夹杂着橘黄和粉紫的纹理。阳光斜照过来的时候，那些岩壁会像火焰一样燃烧起来。当地人管这片沙滩叫“红色秘密”（Yr Gweryn Coch），威尔士语里“红沙滩”的意思。这里没有救生员，没有卖冰淇淋的小贩，连一条正经的木栈道都没有。只有一条被踩出来的小径，蜿蜒着通向潮水退去后留下的镜面倒影。\n最震撼的是退潮后的岩石池。潮水退到最低点时，沙滩上会露出上百个大大小小的水洼，每个水洼都是一个独立的微型宇宙。蹲下来看，能看到海葵像紫色的绒球一样收缩着触手，小螃蟹躲在石头缝里举着钳子示威，还有透明的小虾一弹一弹地游过。如果你运气好，能看到海星趴在青灰色的礁石上，橙黄色的身体像是一枚被遗落的落日碎片。孩子和大人都会在这里耗上好几个小时，指甲缝里全是沙子和贝壳碎。\n但马洛斯海滩的真正灵魂，藏在那道天然的石拱门里。走到海滩最东端，能看见一座被海浪掏空的巨石，洞口的形状像一只半睁的眼睛。穿过石拱后是一片被悬崖包围的隐秘沙滩，几乎没人——因为大部分游客走到石拱就停下来了。那里安静得只剩下风穿过岩缝的哨声，以及远处海鹦“呱呱”的叫声。海鹦就在头顶的悬崖上筑巢，橙色的喙和黑白相间的羽毛在灰蓝色的岩壁上特别扎眼。我躺在沙滩上，看着它们笨拙地起飞、俯冲，突然觉得这座被千万年海浪打磨的海湾，其实比任何大教堂都更接近永恒。"
+    "description": "第一次去马洛斯海滩的人，十有八九会走错路。从停车场出来，沿着一条被树根缠绕的小径往下走，经过一片被绵羊啃得整整齐齐的草坡，你完全看不到海。只能听到声音——先是低沉的咆哮，像一头巨兽在远处喘息；再走几十步，声音突然裂开，变成一阵阵炸裂的轰响，那是海浪撞击峭壁的回声。等你转过最后一丛灌木，整个世界猛然被掀开：一片猩红色的沙滩像撕裂的油画一样铺在脚下，远处是翠绿的海湾，尽头是一块孤零零的岩石岛屿——Gateholm岛，退潮时你可以踩着沙洲走过去。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/manorafon-farm-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    曼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">曼诺拉方农场公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Manorafon Farm Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gypsy-wood-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉普赛森林公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gypsy Wood Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mount-snowdon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯诺登山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mount Snowdon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dinorwic-slate-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪诺威奇板岩矿场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinorwic Slate Quarry</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "manorafon-farm-park",
-          "name": "曼诺拉方农场公园",
-          "englishName": "Manorafon Farm Park"
+          "slug": "gypsy-wood-park",
+          "name": "吉普赛森林公园",
+          "englishName": "Gypsy Wood Park"
         },
         {
-          "slug": "cardiff-bay",
-          "name": "卡迪夫湾",
-          "englishName": "Cardiff Bay"
+          "slug": "mount-snowdon",
+          "name": "斯诺登山",
+          "englishName": "Mount Snowdon"
         },
         {
-          "slug": "cardiff-castle",
-          "name": "卡迪夫城堡",
-          "englishName": "Cardiff Castle"
+          "slug": "dinorwic-slate-quarry",
+          "name": "迪诺威奇板岩矿场",
+          "englishName": "Dinorwic Slate Quarry"
         }
       ]
     }

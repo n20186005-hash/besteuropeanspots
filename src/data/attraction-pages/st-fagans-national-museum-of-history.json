@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣法甘斯国家历史博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "圣法甘斯国家历史博物馆・St. Fagans National Museum of History・英国・卡迪夫",
-    "description": "踏上圣法甘斯国家历史博物馆的那一刻，我几乎是屏住呼吸的。眼前并不是一座装着玻璃柜和指示牌的普通博物馆，而是一整片起伏的绿色原野，几十座石头砌成的、木头搭建的、茅草盖顶的古老建筑散落在其间，像是被时光温柔地遗忘。空气中飘着潮润的泥土和干草的味道，远处传来公鸡打鸣和铁锤敲击的沉闷回响。一条蜿蜒的石子路引着我向更深处走去，路边的苹果树上结满了青涩的果实。\n首先迎接我的，是一栋被石墙和低矮屋檐包裹的农舍，它来自16世纪的威尔士山区。推开那扇厚重的橡木门，一股混合着烟熏和香料的气味扑面而来。壁炉里的火焰正噼啪作响，火光在粗大的横梁和石地板上跳动着。一位身着传统羊毛围裙的女士正弯着腰，在一块滚烫的石板上翻烤着燕麦饼。她的动作不紧不慢，就像她祖祖辈辈做过的那样。她朝我笑了笑，递过来一小块刚出炉的饼——薄而脆，带着炭火的焦香和麦子的甜。那一刻，我嘴里的味道不再是食物，而是几个世纪前威尔士家庭厨房里最寻常的温暖。\n走出农舍，阳光重新洒在脸上。旁边是一座12世纪的石头教堂，小巧得不可思议，尖顶上的十字架早就被风雨打磨得光滑。教堂的门半掩着，我探进头去，看见彩绘玻璃在侧窗上投下淡紫和琥珀色的光斑，木制的长凳被数百年的臀部磨出了光滑的曲线。这里没有神父，没有游客的喧嚣，只有几声门外的鸟鸣漏进来，让整座教堂显得空灵而肃穆。\n但这片土地最打动我的，还是那些散布在树篱间、庭院里、磨坊边的“活人”。在木工店里，一位胡须花白的老爷爷正在用一把刮刀做威尔士传统木勺，空气中弥漫着新刨花的香气；在村舍厨房里，两个学生正在帮忙揉面团，手法笨拙但满脸认真；在谷仓前，一群羊咩咩叫着，一只牧羊犬绕着它们跑得飞快。这里不是一座静止的博物馆，而是一座活着的、呼吸着的“威尔士从前”。每个人、每块石头、每片草叶，都在讲述着自己的故事。"
+    "description": "踏上圣法甘斯国家历史博物馆的那一刻，我几乎是屏住呼吸的。眼前并不是一座装着玻璃柜和指示牌的普通博物馆，而是一整片起伏的绿色原野，几十座石头砌成的、木头搭建的、茅草盖顶的古老建筑散落在其间，像是被时光温柔地遗忘。空气中飘着潮润的泥土和干草的味道，远处传来公鸡打鸣和铁锤敲击的沉闷回响。一条蜿蜒的石子路引着我向更深处走去，路边的苹果树上结满了青涩的果实。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scottish-parliament-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish Parliament Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rigg-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    里\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">里格观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rigg Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/morbitorium\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫比托里姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Morbitorium</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kilchurn-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基尔亨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilchurn Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/west-wales-falconry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西威尔士猎鹰中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">West Wales Falconry</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/staffa-national-nature-reserve-fingals-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    芬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">芬戈尔洞（斯塔法岛国家自然保护区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staffa National Nature Reserve - Fingal's Cave</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "scottish-parliament-building",
-          "name": "苏格兰议会大楼",
-          "englishName": "Scottish Parliament Building"
+          "slug": "kilchurn-castle",
+          "name": "基尔亨城堡",
+          "englishName": "Kilchurn Castle"
         },
         {
-          "slug": "rigg-viewpoint",
-          "name": "里格观景点",
-          "englishName": "Rigg Viewpoint"
+          "slug": "west-wales-falconry",
+          "name": "西威尔士猎鹰中心",
+          "englishName": "West Wales Falconry"
         },
         {
-          "slug": "morbitorium",
-          "name": "莫比托里姆",
-          "englishName": "Morbitorium"
+          "slug": "staffa-national-nature-reserve-fingals-cave",
+          "name": "芬戈尔洞（斯塔法岛国家自然保护区）",
+          "englishName": "Staffa National Nature Reserve - Fingal's Cave"
         }
       ]
     }

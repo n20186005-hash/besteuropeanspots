@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "司各特纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "司各特纪念碑・Scott Monument・英国・爱丁堡",
-    "description": "第一次远远望见司各特纪念碑时，我正从王子街的转角拐出来。说实话，它的模样远比照片里要诡异得多——不是那种温柔的地标，而是一座直愣愣地从地面刺向天空的黑色尖塔，像一枚被中世纪工匠遗忘的巨型螺丝钉，突兀地扎在绿草坪与灰石林之间。爱丁堡的天色总带着铅灰色的滤镜，那些哥特式的镂空花纹在阴沉的天幕下反而清晰得吓人，仿佛随时会有一只石像鬼扑棱着翅膀飞出来。但走近了，你会发现它其实并不冷峻。脚下的草皮厚实柔软，空气里混着热狗摊的洋葱味、从王子街花园飘来的咖啡香，还有远处苏格兰风笛的呜咽声。当地人在草坪上躺着晒太阳，小孩绕着塔基追逐，鸽子在雕塑的肩头咕咕叫——这座沉重的纪念碑就这样自然地融入了城市的心跳。\n真正打动你的是它的细节。塔身密密麻麻刻着司各特小说里的人物：艾芬豪、罗布·罗伊、湖上夫人……每一个小壁龛里都站着一座白色大理石雕塑，共64位，像一场凝固的文学游行。司各特本人则坐在塔基正中央的大理石座位上，身旁是他的爱犬梅达。很多游客会故意走过去摸摸狗鼻子，那个部位被摸得光滑发亮，透着暖意。我花了至少二十分钟围着基座转圈，仰头辨认那些名字——有些是史诗里的英雄，有些是民间传说的精灵，它们共同组成了一个属于苏格兰文学的神圣剧场。午后四点光景，阳光从尖塔的缝隙中筛下来，在石阶上投出变幻的光影，像极了一支古老的节奏。\n最震撼的部分当然要数那287级台阶。爬到第50级左右时，脚步声开始在狭窄的螺旋楼梯里回荡，每一声都像是在敲击你自己的心脏。楼梯窄得只够一人通过，你得侧身才能与下行的人错开，墙壁上刻满了百年前好奇者的涂鸦。到中段时，透过小窗往外瞥一眼，你已经能看见王子街上的双层巴士像彩色火柴盒一样移动。继续往上，风越来越猛，阶梯也越来越陡——有些楼梯段几乎是垂直的钻头。等你终于抵达最顶部的观景台，整个人已经气喘吁吁，但那一刻，爱丁堡的全貌像一幅立体地图在脚下铺展开来：北边是福斯湾的粼粼波光，南边是亚瑟王座荒凉的火山岩，东边是荷里路德宫的古老围墙，西边是城堡的威严轮廓。整个世界都在旋转，而你就站在这一切的中心。\n真正让我动容的，是这座纪念碑的气质。它不是一座高高在上的英雄雕像，而是一座让你心甘情愿用肌肉酸痛去换取风景的攀登。它不炫耀，不张扬，只是安静地站在那里，等待每一个愿意探寻的人用自己的双脚去丈量它。冬天下雪时，黑色塔身披了一层白，像一根撒了糖霜的巨大姜饼。傍晚华灯初上，王子街的路灯亮起来，塔身便成了城市的灯塔，指引着归家的方向。对我来说，司各特纪念碑不是看一眼就够的景点，它是我在爱丁堡最想要反复回去的地方——每次经过，都会不自觉地抬头望它一眼，像老朋友那样。"
+    "description": "第一次远远望见司各特纪念碑时，我正从王子街的转角拐出来。说实话，它的模样远比照片里要诡异得多——不是那种温柔的地标，而是一座直愣愣地从地面刺向天空的黑色尖塔，像一枚被中世纪工匠遗忘的巨型螺丝钉，突兀地扎在绿草坪与灰石林之间。爱丁堡的天色总带着铅灰色的滤镜，那些哥特式的镂空花纹在阴沉的天幕下反而清晰得吓人，仿佛随时会有一只石像鬼扑棱着翅膀飞出来。但走近了，你会发现它其实并不冷峻。脚下的草皮厚实柔软，空气里混着热狗摊的洋葱味、从王子街花园飘来的咖啡香，还有远处苏格兰风笛的呜咽声。当地人在草坪上躺着晒太阳，小孩绕着塔基追逐，鸽子在雕塑的肩头咕咕叫——这座沉重的纪念碑就这样自然地融入了城市的心跳。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chester-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/manorafon-farm-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    曼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">曼诺拉方农场公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Manorafon Farm Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/peak-district-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    峰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">峰区国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Peak District National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/owain-glyndwr-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欧文·格林杜尔中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Owain Glyndŵr Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/green-bridge-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    绿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">绿色桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Green Bridge of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-einion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库姆艾尼恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Einion</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "chester-cathedral",
-          "name": "切斯特大教堂",
-          "englishName": "Chester Cathedral"
+          "slug": "owain-glyndwr-centre",
+          "name": "欧文·格林杜尔中心",
+          "englishName": "Owain Glyndŵr Centre"
         },
         {
-          "slug": "manorafon-farm-park",
-          "name": "曼诺拉方农场公园",
-          "englishName": "Manorafon Farm Park"
+          "slug": "green-bridge-of-wales",
+          "name": "绿色桥",
+          "englishName": "Green Bridge of Wales"
         },
         {
-          "slug": "peak-district-national-park",
-          "name": "峰区国家公园",
-          "englishName": "Peak District National Park"
+          "slug": "cwm-einion",
+          "name": "库姆艾尼恩",
+          "englishName": "Cwm Einion"
         }
       ]
     }

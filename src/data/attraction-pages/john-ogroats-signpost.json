@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰高地 / Caithness 地区",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "约翰奥格罗茨路牌",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/foel-drygarn-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福埃尔德里加恩山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Foel Drygarn Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chatsworth-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查茨沃斯庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chatsworth House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chirk-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奇\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奇克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chirk Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/royal-mile\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皇\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皇家英里大道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Royal Mile</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-millennium-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士千禧中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Millennium Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/new-lanark\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新拉纳克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Lanark</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "foel-drygarn-hill-fort",
-          "name": "福埃尔德里加恩山堡",
-          "englishName": "Foel Drygarn Hill Fort"
+          "slug": "royal-mile",
+          "name": "皇家英里大道",
+          "englishName": "Royal Mile"
         },
         {
-          "slug": "chatsworth-house",
-          "name": "查茨沃斯庄园",
-          "englishName": "Chatsworth House"
+          "slug": "wales-millennium-centre",
+          "name": "威尔士千禧中心",
+          "englishName": "Wales Millennium Centre"
         },
         {
-          "slug": "chirk-castle",
-          "name": "奇克城堡",
-          "englishName": "Chirk Castle"
+          "slug": "new-lanark",
+          "name": "新拉纳克",
+          "englishName": "New Lanark"
         }
       ]
     }

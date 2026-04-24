@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "暗箱博物馆与幻觉世界",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "暗箱博物馆与幻觉世界・Camera Obscura & World of Illusions・英国・爱丁堡",
-    "description": "说真的，我第一次路过Camera Obscura的时候，差点以为它只是Royal Mile上另一个卖羊绒围巾的纪念品店。它的入口极其低调，就像个不起眼的普通老房子，夹在城堡石阶和熙攘的人群之间。直到我推门进去，被一个全镜面走廊逼得差点撞墙，才知道里面有多不正经。气味很奇怪，混合着百年老阶梯上的木头味、爆米花的焦糖香和一丝消毒剂，这一切都在告诉你的大脑——这里绝不太平。\n你走上去第一个楼层，就会开始怀疑自己的眼睛。有那种让你变成巨人的椅子、让朋友变小到只有拇指大的斜角屋；还有完全颠倒的客厅，所有的家具都粘在天花板上，而你站上去会觉得自己的胃翻了个个儿。最绝的是有一面巨大的旋转万花筒，你只需要躺在一个圆形平台上，抬头就能看见镜像的世界在头顶打转。我旁边的英国老爷爷笑得眼泪都出来了，他的孙子倒是表现得极其冷静，仿佛天生就该活在幻觉里。\n但Camera Obscura的心脏其实在顶楼的小房间里，那才是它真正的名字来源。你钻进一个昏暗的屋子，光线穿过屋顶的镜子和透镜，将整个爱丁堡市区的实时影像投射在一张白色的椭圆形桌面上。你伸出手去，能用一根棍子触碰广场上穿梭的徒步旅行者、蹦跳的牧羊犬、甚至教堂钟楼上的鸽子。那个瞬间，你会产生一种微妙而震撼的错觉——仿佛自己是一位掌握全城命运的神，静静俯瞰着人间一切。这种奇妙的通感，维多利亚时代的人第一次体验时，一定也像我一样沉默很久。\n说实话，Camera Obscura在爱丁堡本地人心中地位特别奇怪。游客潮或许是第一次来，但许多苏格兰家庭会在这家馆举办小孩的生日聚会，或者大人们在周五下班后来这里用“旋转隧道”解压。有人说这是给带孩子的人准备的，但我观察到的往往是成年人比小孩玩得更疯。它没有什么沉重历史要你记住，不为教化谁，它唯一的野心就是让你暂时忘记自己是谁，然后在一堆眼花缭乱的视觉游戏里回到傻笑的孩子状态。"
+    "description": "说真的，我第一次路过Camera Obscura的时候，差点以为它只是Royal Mile上另一个卖羊绒围巾的纪念品店。它的入口极其低调，就像个不起眼的普通老房子，夹在城堡石阶和熙攘的人群之间。直到我推门进去，被一个全镜面走廊逼得差点撞墙，才知道里面有多不正经。气味很奇怪，混合着百年老阶梯上的木头味、爆米花的焦糖香和一丝消毒剂，这一切都在告诉你的大脑——这里绝不太平。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/folly-farm-adventure-park-and-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福利农场探险公园与动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Folly Farm Adventure Park and Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chester-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "folly-farm-adventure-park-and-zoo",
+          "name": "福利农场探险公园与动物园",
+          "englishName": "Folly Farm Adventure Park and Zoo"
         },
         {
-          "slug": "borth",
-          "name": "博斯",
-          "englishName": "Borth"
+          "slug": "chester-cathedral",
+          "name": "切斯特大教堂",
+          "englishName": "Chester Cathedral"
         },
         {
-          "slug": "bryn-cader-faner",
-          "name": "布林卡德法纳",
-          "englishName": "Bryn Cader Faner"
+          "slug": "an-corran-beach",
+          "name": "安科兰海滩",
+          "englishName": "An Corran Beach"
         }
       ]
     }

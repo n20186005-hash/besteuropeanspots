@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫国家博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡迪夫国家博物馆・National Museum Cardiff・英国・卡迪夫",
-    "description": "第一次站在卡迪夫国家博物馆门口的那个下午，我其实有点犯困。飞机落地后，从阴冷的街道一路走来，卡迪夫大学周边的红砖楼也看多了，心理预期并不高。可当我推开那扇厚重的橡木门，踏进大厅的那一刻，睡意瞬间被击碎了。天哪，一个巨大的、活生生的恐龙骨架就站在我面前，高傲地扬起头颅，下巴几乎要碰到二楼的栏杆。不是那种藏在玻璃柜里的化石碎片，而是一整具完整的、高达五米的霸王龙复制品，妥妥的来自侏罗纪。阳光透过顶部的老式玻璃天窗洒下来，在它骨白色的肋骨上留下斑驳的光影，四周孩子们惊喜的尖叫声和爸爸妈妈按快门的咔嚓声混成一片，那种扑面而来的生命能量，让我这个成年人也忍不住张大了嘴。\n大厅的气味很特别，是老建筑特有的那种混合着石蜡、旧木头、灰尘和一点点冷却咖啡的味道。地面是磨得发亮的黑白大理石，踩上去会发出轻微的吱吱声，像在跟自己的脚步声对话。左手边的自然史展厅入口，一只蓝鲸的骨架悬浮在半空中，它流线型的骨架在灯光下像一艘幽灵船，你抬头仰望它的时候，会有一种自己变成了海底小鱼的错觉。右手边的艺术展廊里，摆着几尊罗丹的青铜雕塑，它们默默地斜靠着墙角，看着来来往往的人群，好像一个沉默的哲学家。\n我特别喜欢二楼那间专门展示威尔士自然历史的房间。里面用巨大的立体模型还原了威尔士的海岸、森林和矿山，模拟的鸟叫声从隐藏的音响里传出来，脚下的地板还特意做成了起伏的草地状。站在那儿，你几乎能闻到海风里夹杂的盐味儿和松脂味儿。角落里一只红隼的标本正用它空洞的玻璃眼珠盯着你，羽毛的光泽还保留着生前的耀眼光芒。那一刻我明白了，这个博物馆不是把死物塞进玻璃柜，而是用力把整个威尔士的生气灌进了这栋老建筑里。\n最打动我的，其实是这里的人气。我去的那个工作日，大厅里挤满了推着婴儿车的年轻父母、坐轮椅的老人、背着画板的中学生，他们完全没有那种博物馆里的严肃局促，而是像逛自家公园一样自在。一个满头白发的老爷爷蹲在矿物展柜前，耐心地给一个穿红裙子的三四岁小女孩讲那些闪闪发光的水晶是怎么从地底下长出来的。小女孩听得入了迷，手指贴着玻璃，小脸几乎贴了上去。那种传承和热爱，比任何镇馆之宝都让人动容。卡迪夫国家博物馆不是一个高高在上的知识殿堂，它是卡迪夫人生活的一部分，是他们的会客厅、教室和游乐场。"
+    "description": "第一次站在卡迪夫国家博物馆门口的那个下午，我其实有点犯困。飞机落地后，从阴冷的街道一路走来，卡迪夫大学周边的红砖楼也看多了，心理预期并不高。可当我推开那扇厚重的橡木门，踏进大厅的那一刻，睡意瞬间被击碎了。天哪，一个巨大的、活生生的恐龙骨架就站在我面前，高傲地扬起头颅，下巴几乎要碰到二楼的栏杆。不是那种藏在玻璃柜里的化石碎片，而是一整具完整的、高达五米的霸王龙复制品，妥妥的来自侏罗纪。阳光透过顶部的老式玻璃天窗洒下来，在它骨白色的肋骨上留下斑驳的光影，四周孩子们惊喜的尖叫声和爸爸妈妈按快门的咔嚓声混成一片，那种扑面而来的生命能量，让我这个成年人也忍不住张大了嘴。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cairngorm-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorm Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafna-lead-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charles-darwins-birthplace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查尔斯·达尔文出生地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charles Darwin's Birthplace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pembrokeshire-coast-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡海岸国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Coast National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lilleshall-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利勒舍尔纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lilleshall Monument</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cairngorm-mountain",
-          "name": "凯恩戈姆山",
-          "englishName": "Cairngorm Mountain"
+          "slug": "pembrokeshire-coast-national-park",
+          "name": "彭布罗克郡海岸国家公园",
+          "englishName": "Pembrokeshire Coast National Park"
         },
         {
-          "slug": "hafna-lead-mine",
-          "name": "哈夫纳铅矿",
-          "englishName": "Hafna Lead Mine"
+          "slug": "cardiff-bay-barrage",
+          "name": "卡迪夫湾水闸",
+          "englishName": "Cardiff Bay Barrage"
         },
         {
-          "slug": "charles-darwins-birthplace",
-          "name": "查尔斯·达尔文出生地",
-          "englishName": "Charles Darwin's Birthplace"
+          "slug": "lilleshall-monument",
+          "name": "利勒舍尔纪念碑",
+          "englishName": "Lilleshall Monument"
         }
       ]
     }

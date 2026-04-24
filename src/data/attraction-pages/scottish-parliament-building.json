@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰议会大楼",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "苏格兰议会大楼・Scottish Parliament Building・英国・爱丁堡",
-    "description": "我第一次见到苏格兰议会大楼时，完全没有意识到自己已经站在它面前。它不像威斯敏斯特宫那样戴着哥特式的皇冠，也不像国会山那样端坐于高处俯视众生。它就那样散落在爱丁堡老城的东端，与荷里路德宫和亚瑟王宝座山为邻，仿佛是从地面自然生长出来的一丛石质植物。阳光斜照在那些歪斜的金属天线上，像草叶上的露珠在闪光——我后来才知道那是建筑师故意捕捉光影的装置。空气里混合着附近的青草味、老城石板路在雨后散发的潮湿气息，以及远处餐车飘来的烤香肠香气。几个穿着苏格兰裙的老人正坐在路边的长椅上闲聊，对这座建筑熟视无睹，仿佛它已经在这里站了一百年。\n真正走进建筑内部，空间感完全颠覆了我的想象。前厅的天花板像被撕开的纸片，光线从各个角度渗透进来。橡木与钢材的接缝处裸露着，你可以看见螺丝和铆钉——建筑毫不掩饰它的建造过程。地面拼接了不同质地的石材，有的平滑如镜，有的粗糙如河床。我顺着一条弯曲的走廊走进公众旁听席的入口，玻璃墙外是荷里路德公园的草地和绵羊，室内静谧得只能听见空调的低鸣。一个穿绿色裙子的女人正坐在角落的长椅上阅读一份文件，阳光在她头发上镀了一层金边。那一刻我突然明白，这座建筑不是为了彰显权力，而是为了容纳对话。\n它最打动我的，是那种“未完成感”。米拉莱斯在建筑建成前三年就去世了，他的团队把他的草图变成了实体。建筑里有很多看似“错误”的细节：椅子靠背的角度略微不同，窗户的开启方向不一致，甚至有些地砖的缝隙故意留得很宽。这些不是瑕疵，而是设计师刻意留下的“开放性”——就像民主本身，永远在调试，永远有缝隙让不同意见渗透进来。当我站在会议大厅的玻璃窗外，看着里面空荡荡的绿色座椅时，仿佛能听到过去二十年里无数辩论的回声。这座建筑不害怕暴露脆弱，不追求完美，这恰恰是它最有趣的地方。\n当地的导游告诉我一件趣事：建筑花费了超过4亿英镑，比最初预算多了十倍，工期也严重延误。但爱丁堡人谈起这件事时更多是无奈的微笑，而不是愤怒。因为他们知道，一个诞生于争议中的议会建筑，也许就该带着争议存在。米拉莱斯的妻子——也是他的合作者——在完工后的采访中说：“恩里克想让人们觉得被邀请进来，而不是被壮观所恐吓。”这一点它做到了。我在里面待了三个小时，没有感到丝毫压抑，反而像在一棵大树下乘凉，树枝错落有致，风可以自由穿过。"
+    "description": "我第一次见到苏格兰议会大楼时，完全没有意识到自己已经站在它面前。它不像威斯敏斯特宫那样戴着哥特式的皇冠，也不像国会山那样端坐于高处俯视众生。它就那样散落在爱丁堡老城的东端，与荷里路德宫和亚瑟王宝座山为邻，仿佛是从地面自然生长出来的一丛石质植物。阳光斜照在那些歪斜的金属天线上，像草叶上的露珠在闪光——我后来才知道那是建筑师故意捕捉光影的装置。空气里混合着附近的青草味、老城石板路在雨后散发的潮湿气息，以及远处餐车飘来的烤香肠香气。几个穿着苏格兰裙的老人正坐在路边的长椅上闲聊，对这座建筑熟视无睹，仿佛它已经在这里站了一百年。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/portmeirion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波特梅里恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portmeirion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/great-wedlock-farm-deer-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大韦德洛克农场与鹿园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Great Wedlock Farm & Deer Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dryslwyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德莱斯林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dryslwyn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/foel-drygarn-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福埃尔德里加恩山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Foel Drygarn Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "portmeirion",
-          "name": "波特梅里恩",
-          "englishName": "Portmeirion"
+          "slug": "castell-dinefwr",
+          "name": "迪内弗尔城堡",
+          "englishName": "Castell Dinefwr"
         },
         {
-          "slug": "great-wedlock-farm-deer-park",
-          "name": "大韦德洛克农场与鹿园",
-          "englishName": "Great Wedlock Farm & Deer Park"
+          "slug": "foel-drygarn-hill-fort",
+          "name": "福埃尔德里加恩山堡",
+          "englishName": "Foel Drygarn Hill Fort"
         },
         {
-          "slug": "castell-dryslwyn",
-          "name": "德莱斯林城堡",
-          "englishName": "Castell Dryslwyn"
+          "slug": "canterbury-cathedral",
+          "name": "坎特伯雷大教堂",
+          "englishName": "Canterbury Cathedral"
         }
       ]
     }

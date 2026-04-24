@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "米尔福德港（Milford Haven）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "西威尔士海洋博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "西威尔士海洋博物馆・West Wales Maritime Museum・英国・米尔福德港（Milford Haven）",
-    "description": "我第一次站在西威尔士海洋博物馆门外时，正好赶上这里的落日时间。米尔福德港的码头在下午四点显得特别安静，只有泊位旁几条小型渔船在轻轻磕碰着轮胎护舷，发出像老人打盹一样的闷响。空气中混着柴油、冷却的海水以及远处炸鱼薯条店飘来的油醋味——那股味儿太熟悉了，几乎每座英国港口小镇都有，但它在这里却格外浓烈，仿佛是从19世纪的煤仓里直接抽出来的。夕阳把那排红砖拱窗染成了一片脏橘色，像老照片里被茶水渍过的边缘。\n推门进去的一刹那，我差点被迎面而来的气味呛到——不是坏味道，是一种极其浓郁的综合体：旧杉木、船油、湿润的帆布、生锈的铁链，还有一股淡淡的煤烟味，仿佛空气里还残留着几十年前蒸汽机熄灭前最后一口吐出的废气。大厅中央吊着一艘精打细算的渔轮模型，雪白的船身被天花板上射灯照得发光，可它下方的木质底座却满是裂纹，好像这艘船一直在努力挣脱，想要再次驶向四十年前的大西洋。我抬头盯着它看了好一会儿，突然觉得它像一只被卡在琥珀里的蝴蝶。\n展厅里人不多，只有一位穿着粗花呢马甲、胡子花白的老先生在角落里擦拭一具六分仪，他的手势很慢，像在抚摸自己孙女的头发。窗外的光线透过拱形铁窗射进来，在地板上投下一道道平行的长条阴影，让你感觉正站在某个沉睡船体的肋骨之间。我注意到角落里有台老式的船舶电报机，铜质的把手已经被磨得发亮，我忍不住伸手拨动了一下——指针在“全速前进”和“停车”之间滑动时，发出了一声清脆的“咔嗒”，那声音在空旷的展厅里回荡了好几秒，像是某个早逝的船员留下的口信。\n但真正让我心头发紧的，是二楼那面摆满水手日记的展墙。那些泛黄的纸页上，铅笔写的字歪歪扭扭，有的被水渍泡化了，有的沾着油污。其中一页写着：“12月3日，风浪太大，船尾舵坏了，我们从中午修到半夜，左手被钢丝绳划了一道口子，没什么，忍一下就好。”旁边配着一张黑白照片：一个年轻人裹着油布外套站在甲板上，笑容里带着牙齿间叼着的烟卷，眼神却像远方的海平线一样空洞。那一刻我忽然明白了，这座博物馆收藏的从来不是冰冷的物件，而是曾经在大海上挣扎过、呼吸过、微笑过的活生生的灵魂。"
+    "description": "我第一次站在西威尔士海洋博物馆门外时，正好赶上这里的落日时间。米尔福德港的码头在下午四点显得特别安静，只有泊位旁几条小型渔船在轻轻磕碰着轮胎护舷，发出像老人打盹一样的闷响。空气中混着柴油、冷却的海水以及远处炸鱼薯条店飘来的油醋味——那股味儿太熟悉了，几乎每座英国港口小镇都有，但它在这里却格外浓烈，仿佛是从19世纪的煤仓里直接抽出来的。夕阳把那排红砖拱窗染成了一片脏橘色，像老照片里被茶水渍过的边缘。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/west-wales-falconry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西威尔士猎鹰中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">West Wales Falconry</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/commando-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    突\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">突击队纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Commando Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunnet-head-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓尼特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunnet Head Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/flodden-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗洛登城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flodden Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scone-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯昆宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scone Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/corris-mine-explorers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科瑞斯矿井探险</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corris Mine Explorers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "west-wales-falconry",
-          "name": "西威尔士猎鹰中心",
-          "englishName": "West Wales Falconry"
+          "slug": "flodden-wall",
+          "name": "弗洛登城墙",
+          "englishName": "Flodden Wall"
         },
         {
-          "slug": "commando-memorial",
-          "name": "突击队纪念碑",
-          "englishName": "Commando Memorial"
+          "slug": "scone-palace",
+          "name": "斯昆宫",
+          "englishName": "Scone Palace"
         },
         {
-          "slug": "dunnet-head-lighthouse",
-          "name": "邓尼特角灯塔",
-          "englishName": "Dunnet Head Lighthouse"
+          "slug": "corris-mine-explorers",
+          "name": "科瑞斯矿井探险",
+          "englishName": "Corris Mine Explorers"
         }
       ]
     }

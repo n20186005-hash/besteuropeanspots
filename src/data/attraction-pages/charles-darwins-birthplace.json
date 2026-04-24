@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Shrewsbury",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "查尔斯·达尔文出生地",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "查尔斯·达尔文出生地・Charles Darwin's Birthplace・英国・Shrewsbury",
-    "description": "如果你第一次站在The Mount House门口，大概会愣一下——这栋红砖房子实在太普通了，普通到就像你走在英国任何一个安静小镇的街道上，不经意间瞥见的一户人家。灰色的石板瓦，白色的窗框，门口一条窄窄的台阶通往木质大门。但就是在这扇门后面，1809年2月12日，一个婴儿的啼哭打破了冬日的寂静，他后来成了全人类思想史上最不安分的一个名字。\n推门进去，你首先会闻到一股混合了旧木头、书卷和淡淡灰尘的气味。这是老房子特有的味道，像是时光本身散发出的气息。阳光从窗户斜斜地照进来，打在光亮的硬木地板上，形成一块块温暖的光斑。一楼的小客厅里，壁炉还保持着当年的样子，铁质的炉钩和铲子安静地靠在旁边，仿佛达尔文的父亲罗伯特医生刚刚才起身去诊室接诊。墙上挂着家人的肖像，那些目光穿越两个世纪的凝视，让人突然意识到：这不是一个冷冰冰的名人纪念馆，而是一个曾经有笑声、争吵、泪水和梦想的真实家庭。\n走上吱呀作响的楼梯，二楼是达尔文的卧室。铁架床不大，白色的床单叠得整整齐齐，窗外的花园绿意盎然。你能想象那个瘦弱的男孩趴在这扇窗前，用自制的放大镜观察花园里蚂蚁的运粮队伍吗？他的眼睛一定像此刻穿过树叶的阳光一样明亮而专注。房间里还陈列着他早年收集的贝壳、矿石和甲虫标本，有些甚至是他自己手绘的素描——线条稚嫩却带着一种异常的精确，仿佛他天生就知道，自然界的每一个细节都值得被记录。\n但最打动我的，不是这些展品，而是整栋房子散发出的那种“平凡”感。它提醒你，伟人并不是从石头缝里蹦出来的，他们也曾在这座小镇的湿滑石板路上奔跑，也曾为数学作业头疼，也曾偷偷翻看父亲书架上的禁书。达尔文的科学革命始于对一只鸟喙的好奇，而那只鸟，很可能就飞过他童年家的后院。这种平凡中的伟大，比任何博物馆的炫目灯光都要震撼。"
+    "description": "如果你第一次站在The Mount House门口，大概会愣一下——这栋红砖房子实在太普通了，普通到就像你走在英国任何一个安静小镇的街道上，不经意间瞥见的一户人家。灰色的石板瓦，白色的窗框，门口一条窄窄的台阶通往木质大门。但就是在这扇门后面，1809年2月12日，一个婴儿的啼哭打破了冬日的寂静，他后来成了全人类思想史上最不安分的一个名字。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bride-veil-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新娘面纱瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bride's Veil Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/urquhart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    厄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">厄克特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Urquhart Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-promenade\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺滨海步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Promenade</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "urquhart-castle",
+          "name": "厄克特城堡",
+          "englishName": "Urquhart Castle"
         },
         {
-          "slug": "bride-veil-falls",
-          "name": "新娘面纱瀑布",
-          "englishName": "Bride's Veil Falls"
+          "slug": "llandudno-promenade",
+          "name": "兰迪德诺滨海步道",
+          "englishName": "Llandudno Promenade"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "ardvreck-castle",
+          "name": "阿德夫雷克城堡",
+          "englishName": "Ardvreck Castle"
         }
       ]
     }

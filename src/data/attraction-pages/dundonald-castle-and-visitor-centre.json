@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "邓唐纳德（南艾尔郡）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "邓唐纳德城堡与游客中心",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "邓唐纳德城堡与游客中心・Dundonald Castle and Visitor Centre・英国・邓唐纳德（南艾尔郡）",
-    "description": "沿着崎岖的碎石路向上走，你的呼吸会不知不觉变得急促——不是因为坡度，而是因为当你穿过那道生锈的铁门后，视线突然被一片开阔的艾尔郡平原吞噬。邓唐纳德城堡不像爱丁堡城堡那样拥挤在城市的喧嚣里，它就那样孤傲地蹲坐在一座圆丘上，像一位沉默的哨兵，守护着脚下梯田般的牧场和远处银灰色的克莱德湾。我第一次去的时候是个秋天下午，天色灰蒙蒙的，城堡的砂岩墙吸收着最后一点光，颜色变得像陈年威士忌一样深邃。风很大，吹得旁边游客中心的苏格兰旗啪啪作响，那声音里带着一种说不清的苍凉。\n走进塔楼的门洞，一股混合着石头、木头和旧灰尘的味道迎面扑来。脚下是磨损得凹凸不平的石阶，每一级都被无数双脚打磨得发亮，你能想象几百年来骑士、仆人和游客都在这里留下过印记。光线很暗，只有从高处狭窄的射窗漏进来的光束斜斜地切割着空间，空气中的尘埃在光束里跳舞。我伸手摸了摸墙壁，冰冷粗粝，甚至能感觉到凿子留下的痕迹。城堡并不大，但它有强烈的垂直压迫感——楼梯窄得几乎只容一人侧身，每上一层，风声就更响一些，直到你推开顶层的木门，整个天空突然扑进眼里。\n最让我震撼的是城堡二楼的大厅。那是整个建筑的核心，一个面积约两百平方米的石头盒子，穹顶由粗壮的肋拱支撑，壁炉大到可以走进去。你很难想象中世纪的人在这里举行宴会：壁炉里燃着巨大的橡木柴，狗在火堆旁打盹，吟游诗人弹着竖琴，领主坐在高桌上喝着麦芽酒。但现在只有游客的窃窃私语和木板吱呀的声响。阳光从南面新加的玻璃窗照进来，在石板地上投下五彩斑斓的光斑——那些光斑像穿越了六百年，依然鲜活。我站在壁炉旁，闭上眼，仿佛能听到酒杯碰撞和笑声。\n游客中心是我没想到的惊喜。一栋不起眼的平房，里面却藏着一个精致的迷你博物馆。墙上挂着城堡的考古发现：碎陶片、铁箭头、铜扣子，还有一棵橡木的横截面年轮图，标注着哪一年是城堡大事发生的年份。最动人的是一幅巨大的城堡复原画，画中穿着鲜艳服饰的人们在草坪上射箭，妇女们戴着尖锥帽，孩子们追逐着鸡。画旁边有一段文字，写着“每一个石缝里都有一段被遗忘的故事”。我在那里停留了很久，不是因为展览有多豪华，而是因为那种真诚——它不试图用高科技震撼你，而是安静地告诉你：这座石头房子曾经住着活生生的人，他们吃饭、恋爱、打架、祈祷，和我们一样。"
+    "description": "沿着崎岖的碎石路向上走，你的呼吸会不知不觉变得急促——不是因为坡度，而是因为当你穿过那道生锈的铁门后，视线突然被一片开阔的艾尔郡平原吞噬。邓唐纳德城堡不像爱丁堡城堡那样拥挤在城市的喧嚣里，它就那样孤傲地蹲坐在一座圆丘上，像一位沉默的哨兵，守护着脚下梯田般的牧场和远处银灰色的克莱德湾。我第一次去的时候是个秋天下午，天色灰蒙蒙的，城堡的砂岩墙吸收着最后一点光，颜色变得像陈年威士忌一样深邃。风很大，吹得旁边游客中心的苏格兰旗啪啪作响，那声音里带着一种说不清的苍凉。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/centre-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士中心点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Centre of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wings-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士之翼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wings Of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eryri-national-park-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃里里国家公园（斯诺登尼亚）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eryri National Park (Snowdonia)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/leeds-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利兹城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leeds Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "wings-of-wales",
+          "name": "威尔士之翼",
+          "englishName": "Wings Of Wales"
         },
         {
-          "slug": "centre-of-wales",
-          "name": "威尔士中心点",
-          "englishName": "The Centre of Wales"
+          "slug": "eryri-national-park-snowdonia",
+          "name": "埃里里国家公园（斯诺登尼亚）",
+          "englishName": "Eryri National Park (Snowdonia)"
         },
         {
-          "slug": "cairngorms-national-park",
-          "name": "凯恩戈姆国家公园",
-          "englishName": "Cairngorms National Park"
+          "slug": "leeds-castle",
+          "name": "利兹城堡",
+          "englishName": "Leeds Castle"
         }
       ]
     }

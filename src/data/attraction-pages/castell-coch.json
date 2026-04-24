@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "科奇城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "科奇城堡・Castell Coch・英国・卡迪夫",
-    "description": "我第一次见到科奇城堡，是在一个雾气蒙蒙的深秋清晨。车停在Tongwynlais村外，沿着一条被落叶染成金黄色的斜坡往上走，两旁的橡树和山毛榉把天空遮得严严实实，只有偶尔几缕阳光穿透雾气，在青苔上跳跃。走了大约十分钟，前方林木突然散开，一座绯红色的城堡就这么毫无预兆地撞进视野里——三座圆锥形的尖塔像从童话书里撕下来的插图，尖顶覆着赭红色的瓦片，在晨雾中泛着湿润的光泽，塔身是深浅不一的红色砂岩，像被晚霞永久锁在了墙面上。我愣在原地，鼻子里净是泥土混合着朽木的潮湿气味，耳边只有风穿过树梢的低语和远处教堂隐约的钟声。那一刻，我几乎以为自己穿越到了亚瑟王的时代。\n跨过吊桥，推开厚重的橡木门，城堡内部出乎意料地精致。中庭的格局很小，阳光从天井斜射下来，在石板地面上拉出明晃晃的光斑。我听见自己的脚步声在拱廊间反复弹跳，最后消失在某个不知名的角落。爬上螺旋石阶，推开二楼会客厅的门，我差点没忍住笑出声——房间里到处是鲜艳得近乎夸张的壁画，有叼着玫瑰的狮子、弹竖琴的树精、戴着尖帽的魔法师，每一面墙都在用一种维多利亚时代的幽默对我眨眼睛。彩色玻璃窗把阳光过滤成红色、蓝色和绿色，投在深色木地板上，整间屋子像一颗被切开的水晶。\n城堡里几乎没有人，只有一位年迈的讲解员坐在壁炉边，见我进来，他用威尔士语打了个招呼，然后换成带着浓重口音的英语说：“你知道吗，这里的每一件家具都是定制的，连门把手都是莎士比亚戏剧里的人物。”他指了指壁炉上方的浮雕，上面刻着一只狐狸正在给一群鹅讲道——据他说，这是建筑师布特侯爵的私人玩笑。我站在那里，想象着一个多世纪前，那位富有的侯爵带着他的建筑师在一片荒原上挥洒想象力，用石头和颜料编织出一个不存在的梦中王国。\n走到最高处的防御塔，推开一扇小铁门，我整个人被一阵强劲的山风吹得摇摇晃晃。整个卡迪夫河谷像一张展开的绿色地毯铺在脚下，塔夫河像一条银色的丝带蜿蜒穿行，远处卡迪夫市区的红砖房顶和高楼在薄雾中若隐若现。我靠着垛口，闭上眼睛，让风灌满袖子，感觉自己像站在一艘红色船头，正准备驶向某个未知的中世纪探险。这座城堡最打动我的，不是它的真实历史——它压根不算一座防御工事，而是一个精心编造的梦。但那种纯粹的、不掺杂任何功利的浪漫主义幻想，在这样一个一切都被拆解和分析的时代里，反而显得格外珍贵。"
+    "description": "我第一次见到科奇城堡，是在一个雾气蒙蒙的深秋清晨。车停在Tongwynlais村外，沿着一条被落叶染成金黄色的斜坡往上走，两旁的橡树和山毛榉把天空遮得严严实实，只有偶尔几缕阳光穿透雾气，在青苔上跳跃。走了大约十分钟，前方林木突然散开，一座绯红色的城堡就这么毫无预兆地撞进视野里——三座圆锥形的尖塔像从童话书里撕下来的插图，尖顶覆着赭红色的瓦片，在晨雾中泛着湿润的光泽，塔身是深浅不一的红色砂岩，像被晚霞永久锁在了墙面上。我愣在原地，鼻子里净是泥土混合着朽木的潮湿气味，耳边只有风穿过树梢的低语和远处教堂隐约的钟声。那一刻，我几乎以为自己穿越到了亚瑟王的时代。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorm-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorm Mountain</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/falconry-experience-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士猎鹰体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Falconry Experience Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "falconry-experience-wales",
+          "name": "威尔士猎鹰体验",
+          "englishName": "Falconry Experience Wales"
         },
         {
-          "slug": "blue-lagoon-abereiddi",
-          "name": "蓝湖",
-          "englishName": "Blue Lagoon - Abereiddi"
+          "slug": "battle-abbey",
+          "name": "巴特尔修道院",
+          "englishName": "Battle Abbey"
         },
         {
-          "slug": "cairngorm-mountain",
-          "name": "凯恩戈姆山",
-          "englishName": "Cairngorm Mountain"
+          "slug": "animal-wall",
+          "name": "动物墙",
+          "englishName": "Animal Wall"
         }
       ]
     }

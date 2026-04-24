@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "莱尔格（Lairg，苏格兰高地）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿德夫雷克城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "阿德夫雷克城堡・Ardvreck Castle・英国・莱尔格（Lairg，苏格兰高地）",
-    "description": "车子拐过最后一个弯道时，我几乎被眼前的景象撞得说不出话来。阿辛特湖的水面如同一块深蓝色的丝绸，安静地铺展到远处山脚下，而就在湖的北岸，一座破碎的灰色塔楼直直地刺向天空。那不是一个完整的城堡，更像是一具骨架——石墙已经塌了大半，只剩下主塔的上半截和一段残破的翼楼，像是被某个巨人随手掰断的玩具。但正是这种残缺，让它在空旷的荒野里显得格外有力量。\n我走下车，风立刻闷头灌进衣领。苏格兰高地的风从不温柔，它带着湖水的湿气和山石冷冰冰的呼吸，把周围的寂静搅得嗡嗡作响。脚下的草地湿漉漉的，踩上去能听见水珠渗进泥土的细小声。靠近城堡时，我发现那些石头上爬满了深绿色的苔藓和地衣，有些地方甚至长出了倔强的野花。我伸手摸了摸一块突出的砂岩，表面冰凉而粗糙，指尖能感觉到岁月刻下的无数道裂缝。你可以想象，几百年来这里的雨水、冰雪、狂风，都在一遍又一遍地舔舐着这些石头。\n最神奇的是水面。城堡就建在湖岸的一块岬角上，三面环水，仿佛它本身就是从湖底长出来的。我沿着湖岸走了几步，找到一个角度，让城堡倒映在几乎静止的水面上。那一刻，天地之间只剩下三个层次：灰色的塔楼、深蓝的湖水、苍白的天空。没有游客的身影，没有车辆的声响，只有一只孤零零的黑面羊在对岸啃着草，偶尔抬起头朝我这边张望。我掏出保温杯喝了口热茶，茶叶的香气被风吹散，我忽然觉得，这座废墟根本不需要修复——它已经和这片土地融为了一体。\n当地人告诉我，几乎没有苏格兰年轻人会专程来这里打卡。它不像爱丁堡城堡那样被精心维护，也没有导游举着小旗子带领队伍。但它就在那里，安静得像个倔老头，任凭风雨侵蚀，任由时间冲刷。你来了，它就是你一个人的城堡；你走了，它继续沉默。每次我回想起那次旅行，脑海里最先浮现的就是那个下午——风很大，云很低，我独自站在湖边，看着那座残破的塔楼，心里涌起一种说不清的感动。那是一种近乎宗教般的静默，仿佛整个高地的灵魂都凝聚在了这块石头上。"
+    "description": "车子拐过最后一个弯道时，我几乎被眼前的景象撞得说不出话来。阿辛特湖的水面如同一块深蓝色的丝绸，安静地铺展到远处山脚下，而就在湖的北岸，一座破碎的灰色塔楼直直地刺向天空。那不是一个完整的城堡，更像是一具骨架——石墙已经塌了大半，只剩下主塔的上半截和一段残破的翼楼，像是被某个巨人随手掰断的玩具。但正是这种残缺，让它在空旷的荒野里显得格外有力量。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-Coed</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sea-kayaking-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海上皮划艇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sea Kayaking Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "betws-y-coed",
+          "name": "贝图斯-科伊德",
+          "englishName": "Betws-y-Coed"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "sea-kayaking-wales",
+          "name": "威尔士海上皮划艇",
+          "englishName": "Sea Kayaking Wales"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "cuween-hill-chambered-cairn",
+          "name": "库温山墓室石堆",
+          "englishName": "Cuween Hill Chambered Cairn"
         }
       ]
     }

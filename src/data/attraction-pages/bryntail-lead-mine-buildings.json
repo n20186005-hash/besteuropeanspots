@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰里德洛兹 (Llanidloes)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布林泰尔铅矿建筑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布林泰尔铅矿建筑・Bryntail Lead Mine Buildings・英国・兰里德洛兹 (Llanidloes)",
-    "description": "你沿着B4518公路往北开，穿过一片片被石楠花染成紫色的丘陵，空气里开始弥漫草和潮湿泥土的味道。然后在某个不起眼的弯道之后，那些废墟就毫无预兆地出现在你的左手边——几栋低矮的石砌建筑歪歪斜斜地蹲在谷地里，像被时间遗弃的骨架。你停下车，关掉引擎，风的声音立刻灌进耳朵里，呜咽着从石墙的破洞中穿过，偶尔还夹杂着远处羊群断断续续的叫声。走上那条通往遗址的土路，脚下是夹杂着碎石碴的草皮，每一步都能踩到碎裂的铅矿石残留——深灰色的颗粒在泥土里闪着暗淡的光，像矿工们几百年前掉落的汗珠。没有游客中心，没有指示牌，只有残墙沉默地迎接你，让你瞬间觉得自己不是参观者，而是误入某个被岁月封存世界的闯入者。\n当你走近那排矿工宿舍，你能闻到一种奇特的混合气味：风干的苔藓、三百年的灰尘、以及雨水渗进石缝后蒸发的潮气。阳光从没有屋顶的房梁位置倾泻下来，在地面上投出斜斜的光斑，照亮了墙角野蛮生长的蕨类和金色地衣。你伸手触摸那些石墙，指尖感受到粗粝、温暖，以及一种微妙的粗粝感——那是当年矿工们用粗石斧凿开的棱角，被一百多年的风雨冲刷得格外圆钝。在紧连着冶炼炉的二层小楼里，还能看到黑灰的炉壁残骸，上面附着厚厚的层状矿渣，像凝固的黑色糖浆。这里最打动人的，不是任何雄伟的构造，而是那种极度具体的生活痕迹——比如墙上残留的方形凹洞，那是当年木梁插入的地方；地砖上被无数双脚磨出的光滑斑点；甚至墙角处一块微微倾斜的石板，似乎是用来磨工具的。这些细节让你忽然意识到，原来历史不是写在教科书里的，而是埋在薄薄一层泥土和青苔下面的。\n村庄的寂静是立体的。你走一圈大约只需要十五分钟，但你会发现自己的步伐越来越慢，像被某种重量拖住了。你会蹲下来看一截生锈的铁轨，想象当年装满矿石的矿车在上面发出轰隆声；你会抬头注视山腰处的矿井入口——那是一个黑得彻底的洞穴，像山体的一道深邃伤口，风从里面涌出来，带着地球深处特有的凉气。周围没有任何现代世界的干扰：没有手机信号，没有告示板上的废话，只有威尔士丘陵原生态的粗糙感。这块地方像是被刻意留给了它自己，让每一个到来的人都有机会站在废墟中央，安静地倾听风带来的回音，想象那些穿着粗布工装、满脸煤灰的工人们如何在这同一块土地上呼吸、争吵、大笑。\n傍晚时分，落日把石墙染成温暖的橘红色，那些破败的窗口像一只只失明的眼睛，凝视着远方的山脊线。你会突然觉得，这里不只是在展示工业文明的废墟，而是在提醒你所有人类努力终将归于尘土。但奇怪的是，这并不会让你沮丧，反而有种奇异的安慰——就像看到一张古老的照片上，陌生人在百年前定格的笑容，你知道他们已全部消失，但他们曾经真切地活着过。这片废墟，它没有急着向任何人证明什么，只是静静地躺在威尔士的荒原里，等风来，等雨来，等偶尔闯进来的你，带着一颗沉静的心。"
+    "description": "你沿着B4518公路往北开，穿过一片片被石楠花染成紫色的丘陵，空气里开始弥漫草和潮湿泥土的味道。然后在某个不起眼的弯道之后，那些废墟就毫无预兆地出现在你的左手边——几栋低矮的石砌建筑歪歪斜斜地蹲在谷地里，像被时间遗弃的骨架。你停下车，关掉引擎，风的声音立刻灌进耳朵里，呜咽着从石墙的破洞中穿过，偶尔还夹杂着远处羊群断断续续的叫声。走上那条通往遗址的土路，脚下是夹杂着碎石碴的草皮，每一步都能踩到碎裂的铅矿石残留——深灰色的颗粒在泥土里闪着暗淡的光，像矿工们几百年前掉落的汗珠。没有游客中心，没有指示牌，只有残墙沉默地迎接你，让你瞬间觉得自己不是参观者，而是误入某个被岁月封存世界的闯入者。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/balmoral-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔莫勒尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balmoral Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rhossili-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗西里湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rhossili Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceannabeinne-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    喜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">喜纳本海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ceannabeinne Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "rhossili-bay",
+          "name": "罗西里湾",
+          "englishName": "Rhossili Bay"
         },
         {
-          "slug": "balmoral-castle",
-          "name": "巴尔莫勒尔城堡",
-          "englishName": "Balmoral Castle"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         },
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "ceannabeinne-beach",
+          "name": "喜纳本海滩",
+          "englishName": "Ceannabeinne Beach"
         }
       ]
     }

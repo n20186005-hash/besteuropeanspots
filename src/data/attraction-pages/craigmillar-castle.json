@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "克雷格米勒城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "克雷格米勒城堡・Craigmillar Castle・英国・爱丁堡",
-    "description": "我第一次听说克雷格米勒城堡，是在爱丁堡老城一家昏暗的酒吧里。当地朋友喝了一大口威士忌，眼神突然亮起来：“如果你真想知道玛丽女王有多刚烈，就该去克雷格米勒看看。”那语气不像在推荐景点，倒像在揭开一个尘封的秘密。第二天一大早，我搭上公交车，穿过爱丁堡东郊那些安静的居民区，在一片绿意盎然的小丘陵上，它突然像一头沉睡的灰色巨兽一样撞进视野。没有爱丁城堡那种高处不胜寒的傲慢，克雷格米勒像一块被时间打磨过的巨石，低矮、坚韧、沉默地趴在那里，四周是疯长的野草和沉默的羊群。\n推开那扇沉重的木门，脚步一踏进城墙内部，世界立刻安静下来。外头的风声被厚达三米的石块隔绝，只剩下自己呼吸的回响。阳光斜斜地穿过厨房窗户，在满是尘土的石头地板上投下长长的光斑。空气里混杂着霉味、湿石灰和一丝古老的烟熏味——那是几百年焚烧木柴留下的记忆。我伸手摸了一下大厅的墙壁，表面粗粝得像磨砂纸，温度冰凉，像摸到历史本身的皮肤。\n最让我震撼的是那个被称为“女王套房”的房间。玛丽女王曾在这里住过整整两个月，那是1566年的夏天，她刚生下未来的詹姆斯六世，丈夫达恩利勋爵的背叛和宫廷的阴影像毒蛇一样缠绕着她。站在那个小房间里，我几乎能想象她穿着深色长裙，靠在窗边看着远处的亚瑟王座椅，一边咬着嘴唇思虑着生死抉择。没有华丽的家具，没有软垫椅子，只有石砌的壁炉和狭窄的窗户透进来的熹微天光。就是在这个简陋的空间里，她与几位亲信密谋了除掉那个让她痛苦的男人——达恩利勋爵。这座城堡见证了权力的游戏，也见证了人性最幽暗的角落。\n走出城堡，坐在城墙外的草地上啃三明治，远处爱丁堡的天际线像一幅水墨画。有几个当地小孩在草地上踢球，笑声清脆，完全不知道他们脚下的土地曾浸透了多少眼泪和野心。克雷格米勒不是那种让你打卡拍照就走的地方，它会抓住你的衣角，让你在那片安静中停下来想很久：当一个人握着王冠却活得像囚徒，当婚姻成为流血的阴谋，当复仇成为唯一的出路，那时候的生活，该有多沉重？半天时间，我什么也没做，就坐在那里看着城堡发呆，直到夕阳把它染成淡金色。"
+    "description": "我第一次听说克雷格米勒城堡，是在爱丁堡老城一家昏暗的酒吧里。当地朋友喝了一大口威士忌，眼神突然亮起来：“如果你真想知道玛丽女王有多刚烈，就该去克雷格米勒看看。”那语气不像在推荐景点，倒像在揭开一个尘封的秘密。第二天一大早，我搭上公交车，穿过爱丁堡东郊那些安静的居民区，在一片绿意盎然的小丘陵上，它突然像一头沉睡的灰色巨兽一样撞进视野。没有爱丁城堡那种高处不胜寒的傲慢，克雷格米勒像一块被时间打磨过的巨石，低矮、坚韧、沉默地趴在那里，四周是疯长的野草和沉默的羊群。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dryslwyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德莱斯林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dryslwyn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/windsor-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    温\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">温莎城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Windsor Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-moil\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cardiff-bay",
-          "name": "卡迪夫湾",
-          "englishName": "Cardiff Bay"
+          "slug": "ardvreck-castle",
+          "name": "阿德夫雷克城堡",
+          "englishName": "Ardvreck Castle"
         },
         {
-          "slug": "castell-dryslwyn",
-          "name": "德莱斯林城堡",
-          "englishName": "Castell Dryslwyn"
+          "slug": "windsor-castle",
+          "name": "温莎城堡",
+          "englishName": "Windsor Castle"
         },
         {
-          "slug": "conwy-falls",
-          "name": "康威瀑布",
-          "englishName": "Conwy Falls"
+          "slug": "castle-moil",
+          "name": "莫伊尔城堡",
+          "englishName": "Castle Moil"
         }
       ]
     }

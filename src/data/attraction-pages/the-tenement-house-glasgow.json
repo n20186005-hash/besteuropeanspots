@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "公寓博物馆（苏格兰国家信托）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "公寓博物馆（苏格兰国家信托）・The Tenement House (National Trust for Scotland)・英国・格拉斯哥",
-    "description": "推门走进这栋浅灰色红砂岩公寓楼，扑面而来的是一股混合了旧木头、煤灰和干花的气息。走廊的墙纸是淡黄色的小碎花，已经有些泛黄，但依然透着一种老派的整洁。脚下的木地板发出轻微的嘎吱声，仿佛在低声倾诉着百年前住在这里的一家人的故事。你站在过厅里，手边是挂着旧式帽子和围巾的木衣架，墙上嵌着一面小镜子，镜面有些模糊，照出你好奇的脸庞。\n光线从窗户透进来，在斑驳的墙面上投下柔和的阴影。客厅里，暗红色的天鹅绒沙发和几把高背椅子围着一张圆桌，桌上摆着陶瓷茶具和一个旧式缝纫机。煤炉在角落安静地矗立着，炉壁上的铁制烤架还在，仿佛主人刚刚把面包片放上去。房间里弥漫着一股淡淡的烟熏味和茶香，那些旧物——搪瓷罐、铁皮饼干盒、细瓷的盘子——都像在等待有人回来继续使用。\n透过厨房的窗户，能看到后院的小庭院，那里摆着几盆风干的花草，和一只落满灰尘的旧水桶。邻居家的猫正蹲在墙头，懒洋洋地看着街上的行人。窄窄的街道上，偶尔有汽车驶过，但大部分时候空气里只有孩子的笑声和远处传来的教堂钟声。这座博物馆不像那些宏大、庄严的宫殿或城堡，它更像一位沉默的邻居，只是安静地守着自己的记忆，等你坐下来听。\n最打动我的，是它那种未经修饰的真实感。没有华丽的展板，没有灯光秀，只有日常生活的细节。衣柜里挂着男人和女人的旧衣，抽屉里收着信件和账单，床底下藏着小孩的玩具。一切都保持着20世纪初的样子，仿佛主人只是出门散步去了，而你在她家客厅里偷得片刻清闲。"
+    "description": "推门走进这栋浅灰色红砂岩公寓楼，扑面而来的是一股混合了旧木头、煤灰和干花的气息。走廊的墙纸是淡黄色的小碎花，已经有些泛黄，但依然透着一种老派的整洁。脚下的木地板发出轻微的嘎吱声，仿佛在低声倾诉着百年前住在这里的一家人的故事。你站在过厅里，手边是挂着旧式帽子和围巾的木衣架，墙上嵌着一面小镜子，镜面有些模糊，照出你好奇的脸庞。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pierhead-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔海德大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pierhead Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/westminster-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威斯敏斯特教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Westminster Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-promenade\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺滨海步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Promenade</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "pierhead-building",
-          "name": "皮尔海德大楼",
-          "englishName": "Pierhead Building"
+          "slug": "westminster-abbey",
+          "name": "威斯敏斯特教堂",
+          "englishName": "Westminster Abbey"
         },
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "llandudno-promenade",
+          "name": "兰迪德诺滨海步道",
+          "englishName": "Llandudno Promenade"
         },
         {
-          "slug": "cawdor-castle-and-gardens",
-          "name": "考德城堡与花园",
-          "englishName": "Cawdor Castle and Gardens"
+          "slug": "adventure-tour-snowdonia",
+          "name": "雪墩山探险之旅",
+          "englishName": "Adventure Tour Snowdonia"
         }
       ]
     }

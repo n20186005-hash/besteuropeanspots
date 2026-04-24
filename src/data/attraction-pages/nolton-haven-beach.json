@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "诺尔顿港湾（属于彭布罗克郡，最近城镇为哈弗福德韦斯特）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "诺尔顿港湾海滩",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "诺尔顿港湾海滩・Nolton Haven Beach・英国・诺尔顿港湾（属于彭布罗克郡，最近城镇为哈弗福德韦斯特）",
-    "description": "我第一次见到诺尔顿港湾海滩，是在一个雾气未散的清晨。车停在长满石楠花的小山坡上，顺着一条只有两米宽的碎石路往下走，耳边的鸟鸣被海风声取代。当视野突然打开的那一刻，我一愣——这根本不是我想象中那种辽阔的黄金海岸。它就像大地裂开的一道小口子，一个半月形的海碗镶嵌在两道低矮的悬崖之间，碗底铺着巴掌大的石英卵石，碗边儿是细软得能陷进脚踝的沙。潮水刚退去，空气里有一股浓烈的海藻味和碘酒般的矿物质气息，混着湿润的泥土香，直接冲进鼻腔。脚下的卵石在走动时发出哗啦哗啦的脆响，像踩在一整袋瓷器上。远处的浪涌进来，又退出去，发出咕噜咕噜的喘气声，好像这片海湾是活的，正对着天空打个哈欠。\n我坐在一块被海水磨得光滑如镜的大石头上，看着晨光慢慢从云层里渗出来。阳光先是把悬崖尖上的一株野草照亮，然后顺着石壁一点点往下淌，最后整片沙滩都镀上了一层暖融融的金色。这时候才看清，原来卵石堆里藏着那么多惊喜：紫红色的花岗岩、泛着蓝光的燧石、像大理石一样有白色纹路的石英块。偶尔有海鸥落在不远处的礁石上，歪着脑袋打量我，似乎奇怪这个人类为什么大清早就傻坐着。远处几个当地人牵着狗在沙地上慢跑，狗爪子踩在湿沙上留下一串小坑，很快又被潮汐带来的薄水填平。\n最打动我的是这里的节奏。它和那些游客摩肩接踵的著名海滩完全不同，没有任何商业设施，没有冰淇淋摊，没有遮阳伞出租。你来到这里，就只能跟海、沙、风待在一起。潮水哗哗地来，又沙沙地去；阳光从悬崖的东边移到西边，影子在沙面上缓慢地爬行。每一个人都会被这种慢感染——我开始注意石缝里的小蟹怎么举着钳子横行，看浪打过来时泡沫如何散成一圈圈涟漪。一个戴着渔夫帽的老太太坐在折叠椅上，手里拿着一本旧书，翻了一会儿就抬起头望着海发呆。她告诉我，她从十五岁起每个夏天都来这条海岸线游泳，如今七十岁，这片海湾几乎没变过样。\n傍晚时分，日落的方向正好是海湾的开口，海水被染成橙红色，像熔化了的金属。悬崖的阴影拉得极长，覆盖了半边沙滩。一群年轻人带着冲浪板从水里出来，冻得瑟瑟发抖，却笑得特别大声。我站在悬崖顶上的步道往下看，整个海湾被余晖笼罩，卵石闪着碎钻般的光。那一刻我终于明白，为什么威尔士人不把这里当成景点，而叫它“我们的浴缸”——它不大，不华丽，但正好装得下所有人对大海最朴素的爱。"
+    "description": "我第一次见到诺尔顿港湾海滩，是在一个雾气未散的清晨。车停在长满石楠花的小山坡上，顺着一条只有两米宽的碎石路往下走，耳边的鸟鸣被海风声取代。当视野突然打开的那一刻，我一愣——这根本不是我想象中那种辽阔的黄金海岸。它就像大地裂开的一道小口子，一个半月形的海碗镶嵌在两道低矮的悬崖之间，碗底铺着巴掌大的石英卵石，碗边儿是细软得能陷进脚踝的沙。潮水刚退去，空气里有一股浓烈的海藻味和碘酒般的矿物质气息，混着湿润的泥土香，直接冲进鼻腔。脚下的卵石在走动时发出哗啦哗啦的脆响，像踩在一整袋瓷器上。远处的浪涌进来，又退出去，发出咕噜咕噜的喘气声，好像这片海湾是活的，正对着天空打个哈欠。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/craigievar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷吉瓦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigievar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/equestrian-statue-of-the-duke-of-wellington-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    惠\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">惠灵顿公爵骑马雕像（格拉斯哥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Equestrian statue of the Duke of Wellington, Glasgow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tower-of-london\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伦敦塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tower of London</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/manorafon-farm-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    曼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">曼诺拉方农场公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Manorafon Farm Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "craigievar-castle",
-          "name": "克雷吉瓦城堡",
-          "englishName": "Craigievar Castle"
+          "slug": "cardiff-bay",
+          "name": "卡迪夫湾",
+          "englishName": "Cardiff Bay"
         },
         {
-          "slug": "equestrian-statue-of-the-duke-of-wellington-glasgow",
-          "name": "惠灵顿公爵骑马雕像（格拉斯哥）",
-          "englishName": "Equestrian statue of the Duke of Wellington, Glasgow"
+          "slug": "tower-of-london",
+          "name": "伦敦塔",
+          "englishName": "Tower of London"
         },
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "manorafon-farm-park",
+          "name": "曼诺拉方农场公园",
+          "englishName": "Manorafon Farm Park"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣安德鲁斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣安德鲁斯大教堂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "圣安德鲁斯大教堂・St Andrews Cathedral・英国・圣安德鲁斯",
-    "description": "第一次看到圣安德鲁斯大教堂，是在一个飘着细雨的深秋午后。我顺着South Street往海边走，远远地，那堵巨大的残破西墙就像一座被雷劈开的巨兽肋骨，兀立在灰蒙蒙的天幕下。走近了，风声裹着海鸥的尖叫在空荡荡的拱门间来回撞击，脚下是湿漉漉的草坪，几根断柱上爬满了深绿色的苔藓，摸上去像浸了水的天鹅绒。空气里有咸腥的海风，还混杂着草汁和泥土的气息，偶尔飘来附近面包店烤苏格兰软饼的黄油香——这种活生生的烟火气，让废墟不再凄凉，反而像一位打盹的老绅士，嘴角还挂着笑。\n跨过那道据说有八百年历史的石门（The Pends），眼前豁然开朗。中殿早已没了屋顶，只剩下两排高挑的拱廊骨架，地面被修剪整齐的草坪覆盖，踩上去软软的。阳光从破损的彩色玻璃窗框——不对，其实玻璃早就没了，只剩下石雕的窗棂——洒下来，在草地上画出几何形状的阴影。我仰头看那仅存的南耳堂塔楼，它的顶部缺了一大块，像被巨兽咬了一口，但依然倔强地站着。有几个本地老人坐在长椅上喝咖啡聊天，他们的苏格兰口音混在风里听不太清，但那种理所当然的悠闲，让我突然觉得这个废墟从来就没死过。\n当地人管这个地方叫“教堂大院”，他们遛狗、跑步、野餐，甚至办户外婚礼。有一次我碰上一个金发小姑娘在废墟里玩捉迷藏，她妈妈坐在断墙上织毛衣，背景是那片传说中的“圣鲁尔之塔”，简直像一幅活着的文艺复兴油画。最打动我的是黄昏时刻：西落的太阳把西墙染成焦糖色，那些细密的石雕花纹、滴水嘴兽的残脸，还有壁龛里空荡荡的圣像台座，全都在逆光里变成黑色的剪影。远处海面泛着银灰色的波光，东边圣安德鲁斯城堡的废墟和大教堂隔谷相望，像两个在暮色里沉默对话的老朋友。你知道这一刻，它不再是旅游指南上的一个景点，而是一个能让你听到历史呼吸的地方。"
+    "description": "第一次看到圣安德鲁斯大教堂，是在一个飘着细雨的深秋午后。我顺着South Street往海边走，远远地，那堵巨大的残破西墙就像一座被雷劈开的巨兽肋骨，兀立在灰蒙蒙的天幕下。走近了，风声裹着海鸥的尖叫在空荡荡的拱门间来回撞击，脚下是湿漉漉的草坪，几根断柱上爬满了深绿色的苔藓，摸上去像浸了水的天鹅绒。空气里有咸腥的海风，还混杂着草汁和泥土的气息，偶尔飘来附近面包店烤苏格兰软饼的黄油香——这种活生生的烟火气，让废墟不再凄凉，反而像一位打盹的老绅士，嘴角还挂着笑。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scottish-parliament-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish Parliament Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nolton-haven-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺尔顿港湾海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nolton Haven Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/edinburgh-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Edinburgh Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/craigievar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷吉瓦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigievar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hafod-arch",
-          "name": "哈福德拱门",
-          "englishName": "Hafod Arch"
+          "slug": "edinburgh-zoo",
+          "name": "爱丁堡动物园",
+          "englishName": "Edinburgh Zoo"
         },
         {
-          "slug": "scottish-parliament-building",
-          "name": "苏格兰议会大楼",
-          "englishName": "Scottish Parliament Building"
+          "slug": "craigievar-castle",
+          "name": "克雷吉瓦城堡",
+          "englishName": "Craigievar Castle"
         },
         {
-          "slug": "nolton-haven-beach",
-          "name": "诺尔顿港湾海滩",
-          "englishName": "Nolton Haven Beach"
+          "slug": "cardiff-bay-barrage",
+          "name": "卡迪夫湾水闸",
+          "englishName": "Cardiff Bay Barrage"
         }
       ]
     }

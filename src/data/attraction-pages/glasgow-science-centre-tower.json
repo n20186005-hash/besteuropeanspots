@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥科学中心塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格拉斯哥科学中心塔・Glasgow Science Centre Tower・英国・格拉斯哥",
-    "description": "我第一次抬头看见格拉斯哥科学中心塔，是在一个阴晴不定的苏格兰午后。克莱德河上吹来的风带着咸湿和淡淡的柴油味，远处灰色的云层压得很低，而那座塔就像一根银色的大针，直直地刺向天空。说实话，它并不像伦敦眼或埃菲尔铁塔那样浪漫，反而透着一种冷峻的工业感——这恰恰是格拉斯哥的底色。塔身表面是哑光的金属，在偶尔透出的阳光里反射出冷冽的亮光，像未来世界里突然出现的装置。\n走到塔底下仰头看，塔身微微倾斜，仿佛下一秒就要倒下来砸到你脸上，但实际上它稳如磐石。地面是粗粝的混凝土，脚踩上去能感觉到大地的坚实。周围是科学中心的主建筑，像一艘巨大的银色飞船降落在河畔，玻璃幕墙反射着对岸老旧的造船厂和仓库，新旧交替的对比强烈得让人眩晕。孩子们在广场上追逐嬉戏，笑声被风声裹挟着传远，偶尔有海鸥尖厉地叫着掠过塔顶。\n真正走进塔内，狭窄的电梯缓缓上升时，耳朵里会有轻微的嗡鸣声，那是电机和气压变化混合的声响。电梯门一打开，视线瞬间被拽进一个圆形的玻璃舱室里——整个格拉斯哥都在你脚下铺展开来。我注意到舱内地面是黑色的金属网格，脚下有轻微的震动感，因为观景台在缓慢地旋转。最先映入眼帘的是克莱德河像一条灰蓝色的绸带，蜿蜒着穿过城市，河上几座桥梁横跨，老旧的起重机和现代的高楼交错矗立。阳光从云缝里漏下来，在水面洒下碎金，风在玻璃外呜呜地响，但舱内很安静，只有人们压低声音的赞叹。\n最打动我的，是那种“旋转”带来的奇妙体验。你不需要移动脚步，城市就自动在你面前展开一部流动的画卷。北边是格拉斯哥大学的哥特尖塔，南边是连绵的丘陵，东边是老城区的红砖烟囱，西边是远处的丘陵和天际线。每一帧都像是一张明信片，但又是活生生的，带着风的温度和光的变化。仿佛格拉斯哥这座粗犷的城市，终于在这里找到了一个温柔的视角，让你慢慢地、静静地读懂它的前世今生。"
+    "description": "我第一次抬头看见格拉斯哥科学中心塔，是在一个阴晴不定的苏格兰午后。克莱德河上吹来的风带着咸湿和淡淡的柴油味，远处灰色的云层压得很低，而那座塔就像一根银色的大针，直直地刺向天空。说实话，它并不像伦敦眼或埃菲尔铁塔那样浪漫，反而透着一种冷峻的工业感——这恰恰是格拉斯哥的底色。塔身表面是哑光的金属，在偶尔透出的阳光里反射出冷冽的亮光，像未来世界里突然出现的装置。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brynich-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇引水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-moil\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/neist-point-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奈斯特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neist Point Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafna-lead-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/elan-valley\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃兰河谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Elan Valley</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "brynich-aqueduct",
-          "name": "布里尼奇引水桥",
-          "englishName": "Brynich Aqueduct"
+          "slug": "neist-point-lighthouse",
+          "name": "奈斯特角灯塔",
+          "englishName": "Neist Point Lighthouse"
         },
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "hafna-lead-mine",
+          "name": "哈夫纳铅矿",
+          "englishName": "Hafna Lead Mine"
         },
         {
-          "slug": "castle-moil",
-          "name": "莫伊尔城堡",
-          "englishName": "Castle Moil"
+          "slug": "elan-valley",
+          "name": "埃兰河谷",
+          "englishName": "The Elan Valley"
         }
       ]
     }

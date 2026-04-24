@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "曼彻斯特",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威森肖公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威森肖公园・Wythenshawe Park・英国・曼彻斯特",
-    "description": "第一次走进威森肖公园，说实话，我没预料到它会这么……大。站在主入口那条长长的林荫道上，两排古老的橡树像仪仗队一样伸向远方，树叶在微风中沙沙作响，阳光透过缝隙洒在碎石路上，变成跳跃的光斑。空气里混合着刚割过的青草味、泥土的潮湿气息，还有远处飘来的烤肉香——那是露天烧烤区传来的，孩子的笑声和狗吠声交织在一起，像一首属于下午的交响曲。\n我往前走了几百米，视野豁然开朗。大片大片的草坪铺展到天边，绿得不真实，像被人用梳子细细梳理过。草坪中央有个小湖，湖水很安静，几只天鹅优雅地划着水，身后的涟漪慢慢散开。湖边的柳树枝条垂到水面，风吹过时轻轻拂过，仿佛在跟湖水说悄悄话。我找了个长椅坐下，看着当地人——有推着婴儿车的妈妈，有牵着手散步的老夫妻，有穿着运动服跑步的年轻人——他们脸上都带着那种放松的、属于周末的笑容。那一刻我突然觉得，这个公园不只是一个景点，它是曼彻斯特人日常生活里的小小避难所。\n再往里走，就能看到庄园的主楼——威森肖庄园。它藏在树丛后面，初见时只露出一角红色的砖墙和黑色的木梁。走近了，才发现它比想象中更古朴，带着几个世纪的风霜。石头台阶被踩得微微凹陷，门上的铁艺铰链已经生了锈，但窗户里透出的暖光让人心里一暖。旁边的意大利花园修剪得一丝不苟，黄杨篱围成几何图案，中间立着一座小喷泉，水声叮咚，像是时间在缓慢流淌。我在这里待了很久，看着光线从明亮变成金黄，再到暖橙，最后被暮色吞没。那一刻，我觉得自己找到了城市里最温柔的一角。"
+    "description": "第一次走进威森肖公园，说实话，我没预料到它会这么……大。站在主入口那条长长的林荫道上，两排古老的橡树像仪仗队一样伸向远方，树叶在微风中沙沙作响，阳光透过缝隙洒在碎石路上，变成跳跃的光斑。空气里混合着刚割过的青草味、泥土的潮湿气息，还有远处飘来的烤肉香——那是露天烧烤区传来的，孩子的笑声和狗吠声交织在一起，像一首属于下午的交响曲。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/palace-of-holyroodhouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    荷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">荷里路德宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Palace of Holyroodhouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/commando-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    突\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">突击队纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Commando Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/falconry-experience-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士猎鹰体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Falconry Experience Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llywelyn-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卢埃林纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llywelyn Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/emigrants-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    移\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">移民纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Emigrants Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charles-darwins-birthplace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查尔斯·达尔文出生地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charles Darwin's Birthplace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "palace-of-holyroodhouse",
-          "name": "荷里路德宫",
-          "englishName": "Palace of Holyroodhouse"
+          "slug": "llywelyn-monument",
+          "name": "卢埃林纪念碑",
+          "englishName": "Llywelyn Monument"
         },
         {
-          "slug": "commando-memorial",
-          "name": "突击队纪念碑",
-          "englishName": "Commando Memorial"
+          "slug": "emigrants-monument",
+          "name": "移民纪念碑",
+          "englishName": "Emigrants Monument"
         },
         {
-          "slug": "falconry-experience-wales",
-          "name": "威尔士猎鹰体验",
-          "englishName": "Falconry Experience Wales"
+          "slug": "charles-darwins-birthplace",
+          "name": "查尔斯·达尔文出生地",
+          "englishName": "Charles Darwin's Birthplace"
         }
       ]
     }

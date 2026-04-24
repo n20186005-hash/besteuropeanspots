@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奈恩",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "考德城堡与花园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "考德城堡与花园・Cawdor Castle and Gardens・英国・奈恩",
-    "description": "第一次看见考德城堡，是在一个雾气未散的苏格兰清晨。车停在村口，我沿着一条被落叶覆盖的小径往下走，两侧是高耸的冷杉和橡树，空气里混合着潮湿的泥土和松针的清香。走到小径尽头，眼前突然开阔，一座灰色的石质塔楼从草坪上拔地而起，像一位沉默的巨人蹲在护城河畔。水面反射着天空的淡蓝色，几只野鸭悠闲地划开波纹，留下一道道银色的涟漪——那一刻我真实地觉得，自己走进了某个古老童话的扉页。\n走近城堡大门，脚下是古老的鹅卵石，踩上去咕噜噜响。护城河上的石桥尽管已经铺上了现代的沥青，但桥墩上那些青苔和裂缝还是暴露了岁月的痕迹。推开那扇厚重的橡木门，一股混合着木头、石头和古旧织物的独特气味扑面而来，瞬间把外面清新的空气隔绝了。城堡内部和我预想的不太一样——不是那种阴森森的恐怖片风格，而是充满生活气息的。客厅里摆放着维多利亚时代的钢琴，壁炉里还留着没烧完的木柴，墙上挂着一幅幅发黄的家族肖像，画里的人穿着繁复的蕾丝领子，眼神直勾勾地看着你，好像在说：你终于来了。\n但最打动我的，其实是城堡的厨房。那种巨大的壁炉，里面可以站进去一个人，铁钩上还挂着熏黑的铜锅。导游说直到20世纪初，这里还在用明火烤面包。你能想象吗？在那些漫长的高寒冬季，厨师们就在这里围着炉火，一边炖着羊肉汤，一边聊着家族里最新的八卦。窗外是呼啸的北风，室内暖意融融，黄油和肉桂的香气飘散在每一道石缝里。这种跨越时间的烟火气，比任何展品都更让这座城堡有温度。\n走出城堡，来到花园。这里完全是另一个世界——精心修剪的紫杉篱笆组成迷宫，玫瑰园里各色月季争奇斗艳，而野花草坪上则点缀着蓝色的矢车菊和黄色的金莲花。最让人惊喜的是花园深处有一座“蜜蜂小屋”，专门用来养蜂，你能听到蜜蜂嗡嗡嗡的忙碌声，空气中飘着甜腻的蜜香。坐在花园的长椅上，看着远处的摩尔草原上牛羊悠闲地吃草，你会觉得之前在城市里的所有焦虑都随着那阵微风飘走了。这就是考德城堡最核心的魅力——它不只是一座展示过去的博物馆，而是活着的、呼吸着的家。"
+    "description": "第一次看见考德城堡，是在一个雾气未散的苏格兰清晨。车停在村口，我沿着一条被落叶覆盖的小径往下走，两侧是高耸的冷杉和橡树，空气里混合着潮湿的泥土和松针的清香。走到小径尽头，眼前突然开阔，一座灰色的石质塔楼从草坪上拔地而起，像一位沉默的巨人蹲在护城河畔。水面反射着天空的淡蓝色，几只野鸭悠闲地划开波纹，留下一道道银色的涟漪——那一刻我真实地觉得，自己走进了某个古老童话的扉页。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/balmoral-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔莫勒尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balmoral Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hanging-hill-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    悬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">悬挂山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hanging Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-loyne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛因湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Loyne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/iona-abbey-and-nunnery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾奥娜修道院和修女院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Iona Abbey and Nunnery</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "hanging-hill-wales",
+          "name": "悬挂山",
+          "englishName": "Hanging Hill"
         },
         {
-          "slug": "big-ben",
-          "name": "大本钟",
-          "englishName": "Big Ben"
+          "slug": "loch-loyne-viewpoint",
+          "name": "洛因湖观景台",
+          "englishName": "Loch Loyne Viewpoint"
         },
         {
-          "slug": "balmoral-castle",
-          "name": "巴尔莫勒尔城堡",
-          "englishName": "Balmoral Castle"
+          "slug": "iona-abbey-and-nunnery",
+          "name": "艾奥娜修道院和修女院",
+          "englishName": "Iona Abbey and Nunnery"
         }
       ]
     }

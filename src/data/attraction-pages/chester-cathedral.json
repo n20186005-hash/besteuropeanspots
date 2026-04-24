@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "切斯特",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "切斯特大教堂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "切斯特大教堂・Chester Cathedral・英国・切斯特",
-    "description": "第一次站在切斯特大教堂面前，我差点以为自己的眼睛出了毛病。这片红砂岩的建筑在午后阳光里泛着温暖的赭石色，像一块被时间烘烤过的巨大饼干。可是当乌云飘过，砂岩立刻变成了暗沉的铁锈色，几块深色的斑痕像是岁月留下的泪渍。教堂门前的广场上，几个当地孩子正踩着旱冰鞋绕着喷泉转圈，鸽群在石板缝里啄食。你很难想象，就在1600年前，这个位置是罗马军团的要塞围墙一角。空气里飘着上城区咖啡馆的浓缩咖啡味，混合着附近花店传来的百合香。\n推门进入中殿的那一刻，所有外界的喧嚣都被厚实的石墙吞噬了。最先抓住你感官的是光——东窗巨大的彩绘玻璃把午后的阳光过滤成蓝宝石和红宝石色的光束，斜斜地投射在灰色石砖地板上，形成一片流动的光河。紧接着是气味，那种古老的教堂特有的混合香：蜡烛的蜜蜡味、木雕家具的蜂蜡味、老石墙散发出的微湿的石灰味，还有一丝从圣所深处飘来的乳香。你抬起头，诺曼式的厚重圆拱层层叠叠地延伸到远处，像一条石头做的彩虹隧道。而到了合唱团区域，那些精美绝伦的木质坐席上雕刻着各种中世纪图案——葡萄藤、狮鹫、甚至还有一只狐狸穿着修士袍在讲道，让人忍不住笑出声来。\n如果说建筑本身是教堂的骨骼，那声音就是它的灵魂。我选在晚祷时间进来，十几位唱诗班成员穿着白袍列队走入圣坛，他们的歌声像被抛高的水晶珠串，在大跨度的拱顶之间弹跳、碰撞，最后消散在某个角落的阴影里。当男高音独自唱出哈利路亚时，我注意到旁边一位老妇人悄悄用手指擦了一下眼角。这种体验无法用相机捕捉，只有亲身站在那片共振的声场里才能明白——为什么一千年来人们愿意花几代人的时间雕琢这些石头和木头，为什么在最黑暗的中世纪，人们会勒紧裤腰带也要把彩绘玻璃装在高处。因为这里的每一寸都在提醒你：美和信仰，可以比生命更长久。\n切斯特大教堂不像那些世界闻名的哥特杰作那样高冷、疏离。它矮矮的，敦实的，像一位穿着粗呢外套的老爷爷坐在那儿晒太阳。本地人把它当作家里的客厅——大学生在回廊庭院的长椅上看书，退休夫妇牵着狗穿过侧廊去买面包，甚至每周三中午有免费的社区午餐会摆在中殿。教堂的南侧花园里种了一棵据说从耶路撒冷带回的橄榄树，树下放着几把绿色的帆布椅。我坐在那儿喝着修道院自酿的蜂蜜啤酒(是的，教堂礼品店就有卖)，看着鸽子在诺曼拱门上扑棱翅膀，心里想：这才是活着的遗产该有的样子。"
+    "description": "第一次站在切斯特大教堂面前，我差点以为自己的眼睛出了毛病。这片红砂岩的建筑在午后阳光里泛着温暖的赭石色，像一块被时间烘烤过的巨大饼干。可是当乌云飘过，砂岩立刻变成了暗沉的铁锈色，几块深色的斑痕像是岁月留下的泪渍。教堂门前的广场上，几个当地孩子正踩着旱冰鞋绕着喷泉转圈，鸽群在石板缝里啄食。你很难想象，就在1600年前，这个位置是罗马军团的要塞围墙一角。空气里飘着上城区咖啡馆的浓缩咖啡味，混合着附近花店传来的百合香。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-showcaves-centre-for-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家展示洞穴中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Showcaves Centre for Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wythenshawe-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威森肖公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wythenshawe Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scottish-parliament-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish Parliament Building</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "callendar-house",
-          "name": "卡伦德庄园",
-          "englishName": "Callendar House"
+          "slug": "national-showcaves-centre-for-wales",
+          "name": "威尔士国家展示洞穴中心",
+          "englishName": "National Showcaves Centre for Wales"
         },
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "wythenshawe-park",
+          "name": "威森肖公园",
+          "englishName": "Wythenshawe Park"
         },
         {
-          "slug": "canterbury-cathedral",
-          "name": "坎特伯雷大教堂",
-          "englishName": "Canterbury Cathedral"
+          "slug": "scottish-parliament-building",
+          "name": "苏格兰议会大楼",
+          "englishName": "Scottish Parliament Building"
         }
       ]
     }

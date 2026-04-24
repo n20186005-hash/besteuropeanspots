@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士足协150周年纪念壁画",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士足协150周年纪念壁画・Wales FAW 150 Memorial Mural・英国・卡迪夫",
-    "description": "我第一次知道这幅壁画，是在一个阴雨绵绵的卡迪夫下午。说实话，我原本只是随便在老城区的St. Mary Street上闲逛，躲避突如其来的阵雨。然后就在一抬头间，整个视野被一道巨大的红色火焰点燃了。那是一条盘踞在墙上的红龙，翼展几乎铺满整面墙，它的一只爪子轻轻托起一个足球，另一只则护住身下的球员——一个穿着威尔士红色球衣的少年，正奋力凌空抽射。雨水在壁画表面留下细密的水珠，让红龙的鳞片看起来真的在微微颤动，我甚至觉得自己闻到了雨水中混合着草皮和油漆的气味。\n壁画的底色是深蓝到黑色的渐变，像威尔士夜晚的群山。红龙是用多层喷漆完成的，从暗红到亮橙再到明黄，每一层都充满了野性的生命力。球员的动作定格在腾空的一瞬间，他的球衣下摆扬起，你可以看到他小腿上绷紧的肌肉线条。画面右下角有金色的“150”字样，不张扬，却像一枚勋章静静镶嵌。街上的人来人往，有人匆匆瞥一眼，有人停下来拍照，也有人干脆坐在对面的长椅上，边吃三明治边仰头看画。我注意到一个戴着红色围巾的老爷爷，他望着壁画时嘴角不自觉上扬，那种神情让我感觉这幅画已经成了这个街区的老朋友。\n这份艺术的亲和力让我想到：在卡迪夫，足球不只属于体育场。它出现在超市的收据背面、酒吧的墙壁、甚至幼儿园的涂鸦墙上。但这幅壁画最了不起的地方，是它把威尔士人骨子里的骄傲画成了一面可以触摸的旗帜。它不是高冷的纪念碑，而是谁都能停下来看的风景。那天我站在雨中看了很久，雨水顺着脖子流下来也毫不在意。有辆双层巴士从面前开过，车身也贴着威尔士队的宣传海报，那一刻我觉得整个城市都在足球的脉搏里跳动。"
+    "description": "我第一次知道这幅壁画，是在一个阴雨绵绵的卡迪夫下午。说实话，我原本只是随便在老城区的St. Mary Street上闲逛，躲避突如其来的阵雨。然后就在一抬头间，整个视野被一道巨大的红色火焰点燃了。那是一条盘踞在墙上的红龙，翼展几乎铺满整面墙，它的一只爪子轻轻托起一个足球，另一只则护住身下的球员——一个穿着威尔士红色球衣的少年，正奋力凌空抽射。雨水在壁画表面留下细密的水珠，让红龙的鳞片看起来真的在微微颤动，我甚至觉得自己闻到了雨水中混合着草皮和油漆的气味。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glencoe-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glencoe Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cymer-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赛默修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cymer Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/owain-glyndwr-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欧文·格林杜尔中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Owain Glyndŵr Centre</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prince-of-wales-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士亲王桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-lythans-burial-chamber\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣利斯墓葬室</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Lythans Burial Chamber</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/white-ladies-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白色女士修道院遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">White Ladies Priory</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "glencoe-viewpoint",
-          "name": "格伦科观景点",
-          "englishName": "Glencoe Viewpoint"
+          "slug": "prince-of-wales-bridge",
+          "name": "威尔士亲王桥",
+          "englishName": "Prince of Wales Bridge"
         },
         {
-          "slug": "cymer-abbey",
-          "name": "赛默修道院",
-          "englishName": "Cymer Abbey"
+          "slug": "st-lythans-burial-chamber",
+          "name": "圣利斯墓葬室",
+          "englishName": "St Lythans Burial Chamber"
         },
         {
-          "slug": "owain-glyndwr-centre",
-          "name": "欧文·格林杜尔中心",
-          "englishName": "Owain Glyndŵr Centre"
+          "slug": "white-ladies-priory",
+          "name": "白色女士修道院遗址",
+          "englishName": "White Ladies Priory"
         }
       ]
     }

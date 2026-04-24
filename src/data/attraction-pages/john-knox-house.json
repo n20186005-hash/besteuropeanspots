@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "约翰·诺克斯故居",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "约翰·诺克斯故居・John Knox House・英国・苏格兰爱丁堡",
-    "description": "第一次见到约翰·诺克斯故居，你很难不被它那张扬的屋顶吸引。在爱丁堡皇家英里大道一排排沉稳的灰色石砌建筑中，它像一顶突然跳出来的小丑帽子——红黑相间的菱形瓷砖铺满了三角山墙，彩绘木质正面被刷成奶油色与深赭色，窗户像一排好奇的眼睛瞪着街上来往的游客。这种荷兰式山墙在16世纪的苏格兰极为罕见，当时只有最富有的商人才敢从低地国家请工匠来装饰门面。你站在门口，能闻到从隔壁烘焙房飘出的黄油酥饼香气，混杂着古老木材和灰尘的味道，那是时光发酵后特有的温暖气息。\n推开那扇沉重得几乎要脱臼的橡木大门，光线立刻暗了下来。你踩上被几百万双脚磨得凹陷的木楼梯，脚底传来咯吱咯吱的呻吟。每一级台阶都像在诉说一个秘密。中世纪的隔音很差，你似乎能听到楼上传来激烈的辩论声——诺克斯正在用他那刺耳的盖尔语口音训斥那些企图妥协的贵族。房间里保留着原始的炉膛，烟熏的味道已经渗入每一块石头。从窄小的窗户望出去，你能看到皇家英里的游客像蚂蚁一样移动，但一转身，时间就凝固在了1559年。\n最打动我的并不是那些陈列的宗教文物，而是二楼卧室窗台上的一道深深印迹。那是诺克斯长年用右手扶着木框眺望街景留下的指痕——一个老头，每天清晨四点就醒来，就着烛光写作，然后等着教堂的钟声响起，拖着痛风的身体去圣吉尔斯大教堂布道。他愤怒、固执、不容异己，但也正是这种近乎偏执的狂热让苏格兰摆脱了罗马教廷的控制。整个房子就像他性格的具象化：狭小、拥挤、充满对抗，却又无比真实。\n当地人对待这栋房子的态度很微妙。爱丁堡人既自豪于拥有这位“苏格兰宗教改革之父”的遗物，又对他的极端立场感到些许尴尬。在节日游行时，打扮成诺克斯模样的人常常被孩子们扔烂番茄（当然只是玩笑）。对游客来说，这里是一处宁静的避风港——皇家英里大道上的风笛声和叫卖声被厚实的石墙过滤后只剩下嗡嗡的背景声，你在书房里可以坐上一整个下午，翻看那些泛黄的信件复制品，想象一个改变了国家信仰的人，最后就埋骨在几步之遥的圣吉尔斯教堂地下。"
+    "description": "第一次见到约翰·诺克斯故居，你很难不被它那张扬的屋顶吸引。在爱丁堡皇家英里大道一排排沉稳的灰色石砌建筑中，它像一顶突然跳出来的小丑帽子——红黑相间的菱形瓷砖铺满了三角山墙，彩绘木质正面被刷成奶油色与深赭色，窗户像一排好奇的眼睛瞪着街上来往的游客。这种荷兰式山墙在16世纪的苏格兰极为罕见，当时只有最富有的商人才敢从低地国家请工匠来装饰门面。你站在门口，能闻到从隔壁烘焙房飘出的黄油酥饼香气，混杂着古老木材和灰尘的味道，那是时光发酵后特有的温暖气息。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flodden-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗洛登城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flodden Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/devils-staircase-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    恶\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">恶魔阶梯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Devil's Staircase</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-kirkyard-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗里亚教堂墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Kirkyard Cemetery Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/elan-valley\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃兰河谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Elan Valley</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "the-tenement-house-glasgow",
+          "name": "公寓博物馆（苏格兰国家信托）",
+          "englishName": "The Tenement House (National Trust for Scotland)"
         },
         {
-          "slug": "flodden-wall",
-          "name": "弗洛登城墙",
-          "englishName": "Flodden Wall"
+          "slug": "greyfriars-kirkyard-edinburgh",
+          "name": "格雷弗里亚教堂墓地",
+          "englishName": "Greyfriars Kirkyard Cemetery Edinburgh"
         },
         {
-          "slug": "devils-staircase-wales",
-          "name": "恶魔阶梯",
-          "englishName": "Devil's Staircase"
+          "slug": "elan-valley",
+          "name": "埃兰河谷",
+          "englishName": "The Elan Valley"
         }
       ]
     }

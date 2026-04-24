@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "惠特比",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "惠特比修道院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "惠特比修道院・Whitby Abbey・英国・惠特比",
-    "description": "第一次见到惠特比修道院的时候，我正站在那著名的“199级台阶”的顶端，气喘吁吁地抬头——然后整个人都愣住了。海风狂野地灌进领口，带着咸腥和潮湿的苔藓味，把我的头发吹成鸟窝，可眼睛却再也移不开。那片废墟就那么横亘在灰色的天空下，像一头伏卧在悬崖边缘的巨大骨骼，尖拱窗框里透出铅灰色的云，破败的墙垣上爬满了墨绿色的地衣，几只乌鸦哇哇叫着从残破的玫瑰窗里飞进飞出。那一刻我感觉自己不是站在二十一世纪的英国海滨小镇，而是踏进了哥特小说里的某个章节。\n修道院正对着北海，从悬崖边往下看，海浪拍打着黑褐色的礁石，溅起白色的泡沫，声音轰隆轰隆地传上来，混着风声和海鸥尖锐的鸣叫。你很难想象，一千四百年前第一批修道士就是在这个离天很近、离海也很近的地方开始他们的祈祷生活的。如今这里只剩下几段高高残壁、一些倒塌的柱子、以及大片平整的草地——当年回廊的地基如今长满了野花，紫色的蓟草被风吹得弯腰，胖乎乎的蜜蜂在花间嗡嗡地打转。残垣上那些精细的雕刻，比如忍冬纹和缠绕的藤蔓，还隐约可见，让人忍不住伸手去摸，石头冰凉粗糙，指尖能感觉到岁月的纹路。\n游客不算少，但等走到废墟最深处，靠近悬崖的那一面，声音就忽然被海风带走了。我站在那里，看着脚下落差几十米的峭壁，底下是翻滚的灰绿色海水，远处有货轮缓缓移动，像一片玩具。我忽然理解了勃拉姆·斯托克为什么要在小说里让吸血鬼德古拉化身成一只狗，从这悬崖上一跃而下——这种荒凉、孤绝、被自然野蛮力量包裹的氛围，真的太适合放置一个关于黑暗与不朽的传说了。这里没有华丽的彩绘玻璃，没有金碧辉煌的祭坛，只有裸露的石头和空旷的天空，但它比任何完整的教堂都更有冲击力：因为它把时间本身变成了展览品。\n很多当地人在傍晚时分牵着狗来这里散步，坐在草地边的长椅上，面朝大海，就那么静静地待着。他们不像游客那样不停地拍照，而是把修道院当作日常的一部分——一个让人可以深呼吸、把心事交给海风和落日的地方。我注意到一个老爷爷每天都来，带着一本旧书，坐在同一个墙角读上两个小时，偶尔抬头看看海，偶尔看看头顶盘旋的海鸥。他说他在这里读了四十年书，从年轻读到退休，书换了一百多本，但修道院的样子几乎没变。他指了指一块石头——他说那是他父亲小时候坐过的。那一刻我忽然明白，惠特比修道院真正的魅力不在于它曾是宗教圣地，而在于它成了无数普通人生命记忆的背景板，沉默又永恒地看着一代代人来了又走。"
+    "description": "第一次见到惠特比修道院的时候，我正站在那著名的“199级台阶”的顶端，气喘吁吁地抬头——然后整个人都愣住了。海风狂野地灌进领口，带着咸腥和潮湿的苔藓味，把我的头发吹成鸟窝，可眼睛却再也移不开。那片废墟就那么横亘在灰色的天空下，像一头伏卧在悬崖边缘的巨大骨骼，尖拱窗框里透出铅灰色的云，破败的墙垣上爬满了墨绿色的地衣，几只乌鸦哇哇叫着从残破的玫瑰窗里飞进飞出。那一刻我感觉自己不是站在二十一世纪的英国海滨小镇，而是踏进了哥特小说里的某个章节。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-man-of-hoy\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老人岩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Man of Hoy</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dalmeny-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达尔梅尼庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dalmeny House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/old-man-of-stoer\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯托尔老人峰</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Man of Stoer</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/machynlleth-town-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马钦莱斯镇钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Machynlleth Town Clock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/oriel-mostyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫斯廷画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Oriel Mostyn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "old-man-of-stoer",
+          "name": "斯托尔老人峰",
+          "englishName": "Old Man of Stoer"
         },
         {
-          "slug": "old-man-of-hoy",
-          "name": "老人岩",
-          "englishName": "Old Man of Hoy"
+          "slug": "machynlleth-town-clock",
+          "name": "马钦莱斯镇钟",
+          "englishName": "Machynlleth Town Clock"
         },
         {
-          "slug": "dalmeny-house",
-          "name": "达尔梅尼庄园",
-          "englishName": "Dalmeny House"
+          "slug": "oriel-mostyn",
+          "name": "莫斯廷画廊",
+          "englishName": "Oriel Mostyn"
         }
       ]
     }

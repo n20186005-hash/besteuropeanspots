@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦科 Glencoe",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "移民纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "移民纪念碑・Emigrants Monument・英国・格伦科 Glencoe",
-    "description": "你从A82公路拐进格伦科山谷的第一眼，就能看到它。一块灰扑扑的石十字架，孤零零地立在路旁的一片缓坡草甸上，背后是勒姆山（Buachaille Etive Mòr）那如同刀削过的三角形山脊。风从谷口灌进来，带着泥炭和石楠花的味道，吹得墓碑上的苔藓微微颤动。没有门票，没有围栏，甚至没有一个正式的指示牌——它就这样沉默地站了一百多年。\n走近了才发现，基座上的铭文已经被风雨磨得有些模糊。盖尔语在上，英语在下——“纪念那些因高地清场而背井离乡的人们”。你试着想象：一百五十年前，同样的风、同样的山，一群衣衫褴褛的牧民被驱逐出他们世代居住的桦树林，扛着仅有的家当，沿着这条山谷一直向东走，直到再也看不见家乡的炊烟。他们最后回头看一眼时，会不会正好看到这个十字架? 也许它那时候还没立起来，但那种锥心的绝望，到现在还凝结在空气里。\n我是在一个阴天的下午到访的。雨刚停，阳光从云层的缝隙里漏下来，把纪念碑的阴影拉得很长。有个穿着苏格兰裙的老先生坐在旁边的石头上吹风笛，不是表演，只是自顾自地吹着《Flower of Scotland》的调子。风把音符吹得断断续续，和山谷里乌鸦的叫声混在一起。那一刻，我突然理解了为什么那么多苏格兰后裔，哪怕从没踏上过这片土地，看到这块石头的时候也会哭。它太重了——重到让人觉得每个旅人都该在这里安静地站一会儿，不说话，只是听风。"
+    "description": "你从A82公路拐进格伦科山谷的第一眼，就能看到它。一块灰扑扑的石十字架，孤零零地立在路旁的一片缓坡草甸上，背后是勒姆山（Buachaille Etive Mòr）那如同刀削过的三角形山脊。风从谷口灌进来，带着泥炭和石楠花的味道，吹得墓碑上的苔藓微微颤动。没有门票，没有围栏，甚至没有一个正式的指示牌——它就这样沉默地站了一百多年。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chatsworth-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查茨沃斯庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chatsworth House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/inverness-castle-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因弗内斯城堡体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Inverness Castle Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dinorwic-slate-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪诺威奇板岩矿场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinorwic Slate Quarry</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-of-old-wick\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维克老城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Of Old Wick</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "inverness-castle-experience",
+          "name": "因弗内斯城堡体验",
+          "englishName": "The Inverness Castle Experience"
         },
         {
-          "slug": "chatsworth-house",
-          "name": "查茨沃斯庄园",
-          "englishName": "Chatsworth House"
+          "slug": "dinorwic-slate-quarry",
+          "name": "迪诺威奇板岩矿场",
+          "englishName": "Dinorwic Slate Quarry"
         },
         {
-          "slug": "castell-dinefwr",
-          "name": "迪内弗尔城堡",
-          "englishName": "Castell Dinefwr"
+          "slug": "castle-of-old-wick",
+          "name": "维克老城堡",
+          "englishName": "Castle Of Old Wick"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰戈伦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "十字架山谷修道院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "十字架山谷修道院・Abaty Glyn Y Groes / Valle Crucis Abbey・英国・兰戈伦",
-    "description": "我第一次撞见它，是一个秋天的黄昏。沿着从兰戈伦伸出来的那条窄得只够一辆车通过的乡间小路，两边是高耸的山毛榉，树叶正烧成金黄色的火。空气里弥漫着湿泥土和干草混合的气味，偶尔有绵羊的叫唤从牧场深处传来。转过一个弯，山谷突然敞开，一座巨大的石头骨架就那样立在一片被修剪得很整齐的草坪上，背后是黛青色的山脊。夕阳正打在修道院的东窗上，五条细长的石头窗棂像手指一样指向天空，把光撕成碎片。那一瞬间，我整个人安静下来，连呼吸都放轻了。\n这地方几乎没有什么游客。只有一位老人牵着一只柯基犬，绕着草坪慢慢走；几个穿着防雨夹克的背包客坐在残墙的阴影里，翻开三明治。风穿过那些没有了屋顶的拱廊，发出低沉的呜咽声，像是八百年前修士们唱诵的圣咏还没完全散尽。我走到中殿的位置，抬头——头顶只有云。地板被千百年的脚步磨得光滑，青苔在缝隙里长出柔软的垫子。你能想象，当年的西多会修士们每天黎明前就跪在这里，蜡烛的光在大理石柱间摇晃，他们低声祷告，直到身体僵硬。而今这里只剩下风声和鸟鸣，但那种庄严感却比任何装饰华丽的教堂都来得更强烈。\n我蹲下来摸了摸石壁。那种粗粝的触感带着潮湿的凉意，指甲划过会留下一道浅浅的白痕。石头上有很多划痕——有古人刻的符号，也有近人歪歪扭扭的名字。三百年、八百年，石头比所有人活得都久。有个解说牌上说，这堵墙的根基其实来自更早的罗马时代，他们拆了前朝遗址的石料来建修道院。每一块石头都装着另一个故事。我站在那儿很久，直到太阳完全沉到山背后，那些窗户变成深蓝色的剪影。终于明白为什么威尔士人把这片山谷叫做“十字架的山谷”——它本身就是一个天然的十字架，东西横亘的山脊和南北纵深的沟壑，正好交叉成那个沉默而永恒的符号。\n第二天一早我又来了。这次是清晨，山谷里弥漫着薄雾，草地上的露珠闪着细碎的光。修道院的墙壁被晨光染成蜂蜜色，那些尖拱和窗户像从雾水里长出来的肋骨，轮廓清晰又朦胧。我绕着它走了一圈，发现北侧还有一段残留的回廊，地上依稀能看到原来柱础的痕迹。想象着八百年前的修士们就在这条回廊里来回踱步，手里捧着的羊皮手稿，默念经文，影子被晨光拉得很长。而他们抬头看到的，和我今天看到的，是同一片山，同一片云。这个念头让我心里一热。这大概就是废墟最迷人的地方——它不华丽，不完整，却让你在破碎中看到时间的形状。"
+    "description": "我第一次撞见它，是一个秋天的黄昏。沿着从兰戈伦伸出来的那条窄得只够一辆车通过的乡间小路，两边是高耸的山毛榉，树叶正烧成金黄色的火。空气里弥漫着湿泥土和干草混合的气味，偶尔有绵羊的叫唤从牧场深处传来。转过一个弯，山谷突然敞开，一座巨大的石头骨架就那样立在一片被修剪得很整齐的草坪上，背后是黛青色的山脊。夕阳正打在修道院的东窗上，五条细长的石头窗棂像手指一样指向天空，把光撕成碎片。那一瞬间，我整个人安静下来，连呼吸都放轻了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glasgow-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/craigmillar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷格米勒城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigmillar Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-chocolatarium\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巧克力体验馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Chocolatarium</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lilleshall-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利勒舍尔纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lilleshall Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunnet-head-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓尼特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunnet Head Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "glasgow-cathedral",
-          "name": "格拉斯哥大教堂",
-          "englishName": "Glasgow Cathedral"
+          "slug": "the-chocolatarium",
+          "name": "巧克力体验馆",
+          "englishName": "The Chocolatarium"
         },
         {
-          "slug": "dunrobin-castle",
-          "name": "邓罗宾城堡",
-          "englishName": "Dunrobin Castle"
+          "slug": "lilleshall-monument",
+          "name": "利勒舍尔纪念碑",
+          "englishName": "Lilleshall Monument"
         },
         {
-          "slug": "craigmillar-castle",
-          "name": "克雷格米勒城堡",
-          "englishName": "Craigmillar Castle"
+          "slug": "dunnet-head-lighthouse",
+          "name": "邓尼特角灯塔",
+          "englishName": "Dunnet Head Lighthouse"
         }
       ]
     }

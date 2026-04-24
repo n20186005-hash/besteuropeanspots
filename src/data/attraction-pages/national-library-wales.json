@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士国家图书馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士国家图书馆・National Library of Wales・英国・阿伯里斯特威斯",
-    "description": "第一次见到威尔士国家图书馆，是在一个雾蒙蒙的深秋清晨。我从阿伯里斯特威斯火车站走出来，海风带着咸涩的湿气扑面而来，抬头望去，灰色石砌的庞然建筑安静地蹲踞在小镇北面的彭格雷斯山上，像一位沉默的巨人。\n沿着缓坡慢慢往上走，路边是成排的维多利亚式排屋和低矮的灌木丛。脚步声在湿润的柏油路上显得有些空荡，偶尔几只海鸥从头顶飞过，它们的叫声在雾气中被拉得很长。等我走到图书馆那扇沉甸甸的橡木大门前，整个人已经微微喘息。推开门的一瞬间，一股混合着旧纸浆、皮革和微尘的气味扑面而来——这是知识特有的气味。\n大厅里异常安静。脚下是大片浅色的大理石地砖，头顶是高挑的穹顶上泛着温润奶白色的灯光。柜台后面坐着一位戴着圆框眼镜、头发花白的中年女士，她正用威尔士语对着电话轻声说着什么。那声音柔和如水，却没有英语的圆滑，带着一种远古的厚重感，像山涧里被磨圆了的岩石。\n我往左转走进主阅览室。那是一个让人屏住呼吸的空间。两排巨大的落地窗让午后的光线斜斜地泼洒进来，照在墨绿色的布面座椅和光滑的深色硬木桌面上。天花板高得像教堂的中殿，墙壁上挂着十多位威尔士诗人的肖像。有人在窗前对着笔记本电脑打字，有人趴在一张泛黄的古老地图上研究，更多人是在翻阅那些封面已经脆如枯叶的手稿。那种气氛不像是现代的公共空间，反而更接近一座寺庙——所有人都带着一种近乎虔诚的专注。\n最打动我的，是这里完全没有那种冷冰冰的“保存设施”的感觉。它像是活的。每个角落都在呼吸。二楼的玻璃展柜里，我能看到14世纪的手抄本《赫杰斯圣经》被翻开到某一页，色彩的饱和度依然惊人——那种用磨碎的青金石和朱砂调出的蓝与红，历经七百年仍能让人心头一颤。展柜旁边立着一小块说明牌，上面写着这是“威尔士的国家财富”。我心想，对，财富，不是遗产——因为这里的一切都还在被使用，被阅读，被感受。"
+    "description": "第一次见到威尔士国家图书馆，是在一个雾蒙蒙的深秋清晨。我从阿伯里斯特威斯火车站走出来，海风带着咸涩的湿气扑面而来，抬头望去，灰色石砌的庞然建筑安静地蹲踞在小镇北面的彭格雷斯山上，像一位沉默的巨人。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dalmeny-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达尔梅尼庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dalmeny House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charles-darwins-birthplace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查尔斯·达尔文出生地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charles Darwin's Birthplace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bride-veil-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新娘面纱瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bride's Veil Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-showcaves-centre-for-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家展示洞穴中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Showcaves Centre for Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lealt-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尔特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lealt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-davids-bishops-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣大卫主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Davids Bishop's Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dalmeny-house",
-          "name": "达尔梅尼庄园",
-          "englishName": "Dalmeny House"
+          "slug": "national-showcaves-centre-for-wales",
+          "name": "威尔士国家展示洞穴中心",
+          "englishName": "National Showcaves Centre for Wales"
         },
         {
-          "slug": "charles-darwins-birthplace",
-          "name": "查尔斯·达尔文出生地",
-          "englishName": "Charles Darwin's Birthplace"
+          "slug": "lealt-falls",
+          "name": "利尔特瀑布",
+          "englishName": "Lealt Falls"
         },
         {
-          "slug": "bride-veil-falls",
-          "name": "新娘面纱瀑布",
-          "englishName": "Bride's Veil Falls"
+          "slug": "st-davids-bishops-palace",
+          "name": "圣大卫主教宫",
+          "englishName": "St Davids Bishop's Palace"
         }
       ]
     }

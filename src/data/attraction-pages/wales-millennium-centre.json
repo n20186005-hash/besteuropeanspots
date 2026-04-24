@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士千禧中心",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士千禧中心・Wales Millennium Centre・英国・卡迪夫",
-    "description": "第一次走近卡迪夫湾，远远就看到那座像从地面生长出来的巨大建筑。深色的威尔士板岩覆盖着不规则的立面，在晨光里泛着蓝紫色的哑光，偶尔几块石板反射出金属般的亮泽，仿佛整个建筑在呼吸。最震撼的是正面的诗句——那些刻在石头上的威尔士文字巨大到需要仰头才能读全，阳光透过云层投下的影子让每个字母都像在微微颤动。你知道吗？它们是真正的雕刻，和石材融为一体，而不是贴上去的牌子。\n推开沉重的话剧厅大门，一股混合着咖啡和旧地毯的味道扑面而来。大厅高挑得让人忍不住抬头——透明的波浪形玻璃穹顶把天空切成碎片，投射下不断变换的光影。脚下是大面积的威尔士板岩地砖，被无数双鞋磨得微微发亮，有些裂纹里嵌着深色的污迹，那是十年间雨水和观众带进来的沙土。角落里传来威尔士语的对话声，一群穿着传统服装的小朋友正在排练，咿咿呀呀的歌声在穹顶下回荡。\n你可能会想，这不过是个剧院而已。但站在中庭，看着人群在二层悬挑的阳台上来来往往，你突然意识到，这里不只是看表演的地方。当地人把它当作家门口的广场：推着婴儿车的妈妈在Caffi Bar喝下午茶，学音乐的大学生抱着大提琴在走廊长椅上练琴，背包客靠在信息台前研究演出日程。有个老人告诉我，他每周二都会来，只为在免费的艺术装置区坐上半小时，看那件由2000个威尔士陶罐组成的声光雕塑慢慢旋转。对他来说，这就是卡迪夫的脉搏。\n傍晚时分，光线开始柔和。演出快开始了，穿着礼服的人群向剧场入口汇集，空气里多了一丝期待和香水味。灯光设计师刻意让大厅的亮度缓缓降低，只留下诗句区域的暖色射灯。当第一声号角从主厅传出时，整个建筑的石头墙似乎都在共鸣。这一刻你理解了为什么威尔士人如此骄傲——这个中心不是冰冷的混凝土盒子，而是被吟唱、被踩踏、被拥抱了二十年的活着的容器。它把威尔士的灵魂从一个老煤矿、一座座山谷教堂里接过来，装进了这个21世纪的壳。"
+    "description": "第一次走近卡迪夫湾，远远就看到那座像从地面生长出来的巨大建筑。深色的威尔士板岩覆盖着不规则的立面，在晨光里泛着蓝紫色的哑光，偶尔几块石板反射出金属般的亮泽，仿佛整个建筑在呼吸。最震撼的是正面的诗句——那些刻在石头上的威尔士文字巨大到需要仰头才能读全，阳光透过云层投下的影子让每个字母都像在微微颤动。你知道吗？它们是真正的雕刻，和石材融为一体，而不是贴上去的牌子。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/old-inverlochy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老因弗洛奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Inverlochy Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-davids-bishops-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣大卫主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Davids Bishop's Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sligachan-old-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯利加查古桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sligachan Old Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scotch-whisky-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰威士忌体验中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Scotch Whisky Experience</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "old-inverlochy-castle",
-          "name": "老因弗洛奇城堡",
-          "englishName": "Old Inverlochy Castle"
+          "slug": "britannia-bridge",
+          "name": "布里塔尼亚桥",
+          "englishName": "Britannia Bridge"
         },
         {
-          "slug": "the-tenement-house-glasgow",
-          "name": "公寓博物馆（苏格兰国家信托）",
-          "englishName": "The Tenement House (National Trust for Scotland)"
+          "slug": "sligachan-old-bridge",
+          "name": "斯利加查古桥",
+          "englishName": "Sligachan Old Bridge"
         },
         {
-          "slug": "st-davids-bishops-palace",
-          "name": "圣大卫主教宫",
-          "englishName": "St Davids Bishop's Palace"
+          "slug": "scotch-whisky-experience",
+          "name": "苏格兰威士忌体验中心",
+          "englishName": "The Scotch Whisky Experience"
         }
       ]
     }

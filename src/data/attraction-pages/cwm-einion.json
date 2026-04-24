@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "库姆艾尼恩",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "库姆艾尼恩・Cwm Einion・英国・阿伯里斯特威斯",
-    "description": "第一次走进Cwm Einion，是在一个阴天早晨，从阿伯里斯特威斯一路向南，车窗外是连绵起伏的绿色山丘，像被揉皱的天鹅绒。开到埃格文斯弗里赫小村时，路变得比马背还窄，两旁的灌木擦着车身沙沙作响。停好车，沿着“艺术家小径”的木质标志牌，我钻进了树影深处。一踏入山谷，整个世界的声音就变了——先是一阵碎裂的鸟鸣，像是从橡树顶端的叶片间滴落下来，然后隐约听到了水声，不是咆哮，而是断断续续的哗啦声，像有人不停地把银片抖进溪流里。\n潮湿的苔藓味混着腐叶的土腥气扑在脸上，脚下踩的是软塌塌的落叶层，每一步都压出水来。抬头看，橡树和梣树的枝条在头顶交织成灰绿色的穹顶，阳光透过缝隙洒下细碎的光斑，像有只无形的手在撒金粉。走了不到十分钟，一条乳白的小瀑布从左侧石壁上跌下来，砸进潭里，溅起的水汽沾湿了石头上的青苔。我蹲下来摸了摸水，冰凉刺骨，却清澈得能数清每一颗石子上的纹路。这种安静又生机勃勃的氛围，让我觉得整个威尔士的秘密都藏在这个不起眼的山谷里。\n当地人管这里叫“艺术家小径”，因为两个多世纪前，一批又一批画家和诗人带着画架和笔记本沿着溪流往上走，坐在瀑布边涂涂抹抹。他们迷恋的不是宏伟的风景，而是这种湿润的、细腻的、近乎透明的绿色光影——就像此刻，水边的蕨类和羊齿草层层叠叠，石头缝里钻出紫色的小花，一只灰鹡鸰在水边跳来跳去，尾巴一翘一翘的。我继续向上走，水位的声音由单一的哗啦变成了多重复合：左侧远处有闷响，右侧近处有叮咚，脚下还有溪水绕过卵石的咕噜声。这种听觉的层次感让整个山谷活了过来。\n最打动我的不是任何具体的景观，而是那种被绿色苔藓、流水声和亘古的寂静包裹的感觉。在这里，手机没信号（故意不带比较好），时间像被树根拽住了脚，走得特别慢。一个下午，我只遇到两个摄影爱好者和一个牵着狗的老人，他们朝我微笑点头，像是共享同一个秘密。Cwm Einion不是那种让你发朋友圈炫耀的地方，它是让你坐下来，看着水发呆，直到心里所有杂音都被流水声冲走的地方。"
+    "description": "第一次走进Cwm Einion，是在一个阴天早晨，从阿伯里斯特威斯一路向南，车窗外是连绵起伏的绿色山丘，像被揉皱的天鹅绒。开到埃格文斯弗里赫小村时，路变得比马背还窄，两旁的灌木擦着车身沙沙作响。停好车，沿着“艺术家小径”的木质标志牌，我钻进了树影深处。一踏入山谷，整个世界的声音就变了——先是一阵碎裂的鸟鸣，像是从橡树顶端的叶片间滴落下来，然后隐约听到了水声，不是咆哮，而是断断续续的哗啦声，像有人不停地把银片抖进溪流里。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/san-quirico-dorcia-tuscany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔恰谷的圣基里科</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">San Quirico d'Orcia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/olympos-karpathos\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥林波斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Olympos</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saalfelder-feengrotten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔费尔德仙女石窟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saalfelder Feengrotten</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/iona-abbey-and-nunnery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾奥娜修道院和修女院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Iona Abbey and Nunnery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/henrhyd-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亨利德瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Henrhyd Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/criccieth-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里基厄斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Criccieth Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "san-quirico-dorcia-tuscany",
-          "name": "奥尔恰谷的圣基里科",
-          "englishName": "San Quirico d'Orcia"
+          "slug": "iona-abbey-and-nunnery",
+          "name": "艾奥娜修道院和修女院",
+          "englishName": "Iona Abbey and Nunnery"
         },
         {
-          "slug": "olympos-karpathos",
-          "name": "奥林波斯",
-          "englishName": "Olympos"
+          "slug": "henrhyd-falls",
+          "name": "亨利德瀑布",
+          "englishName": "Henrhyd Falls"
         },
         {
-          "slug": "saalfelder-feengrotten",
-          "name": "萨尔费尔德仙女石窟",
-          "englishName": "Saalfelder Feengrotten"
+          "slug": "criccieth-castle",
+          "name": "克里基厄斯城堡",
+          "englishName": "Criccieth Castle"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Pwllheli",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "利恩半岛（国家信托）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "利恩半岛（国家信托）・National Trust - Llŷn Peninsula・英国・Pwllheli",
-    "description": "走进Llŷn Peninsula的那个午后，风是第一个迎接你的东西。它从爱尔兰海横冲直撞地刮过来，裹挟着海盐、湿泥和石楠花的味道，在耳畔撕扯出粗粝的呼啸。我站在Porthdinllaen海滩的弧形沙嘴上，脚下是比糖霜还细的白沙，面前是比翡翠还透亮的海水。远处，一座小小的白色灯塔立在岬角，像一颗被遗忘的棋子。这个场景让我忽然理解了为什么威尔士人总说Llŷn是他们的“冰川遗忘的吻”——这里的壮阔，带着一种不容分说的温柔。\n沿着海岸线往西走，路越来越窄，两旁的干石墙上开满了黄色的小花和紫色野豌豆。偶尔经过一座石板屋顶的农舍，墙根堆着泥炭，门口晾着渔网。当地人的口音浓得像熬过夜的茶，我试着问路，老农民眯着眼用威尔士语回答我，那声音比风还轻。我虽然听不懂，却能感受到那段音调的韵律——比英格兰的假笑真诚，比苏格兰的豪爽绵长。这就是Llŷn的性格：你越深入，它就越是沉默不语，但每个毛孔都透出故事。\n太阳快落山的时候，我爬上了Yr Eifl山——一座从半岛中央拔起的古老火山岩。从山顶看下去，整个半岛就像一道瘦长的绿色手指，指节是低矮的丘陵，指缝是幽深的海湾，而指尖通向浩瀚的无人之境。海鸥在脚下盘旋，它们的叫声在花岗岩间制造出回声。我突然想起地图上那些密密麻麻的史前遗址标记——在太平洋岛屿上，这种密度意味着它曾经是祭天的圣地。Llŷn正是如此。\n最让我动容的，是第二天清早去St. Beuno's Church的路上。那座小教堂孤零零地站在一片牧羊场中央，比茅草棚大不了多少。推开门，里面除了一张木桌和一根蜡烛，什么都没有。墙壁是粗糙的石灰浆，地面是踩实的泥土。但我坐在那条唯一的木凳上，听到的静，比我听过的任何静都深。阳光透过小窗在墙上投下十字形光斑，那一刻我好像听到公元6世纪圣徒Beuno在这里喃喃祈祷的声音——他选择这个被风吹透的角落，也许就是因为，只有在这般荒凉里，灵魂才能离上帝最近。"
+    "description": "走进Llŷn Peninsula的那个午后，风是第一个迎接你的东西。它从爱尔兰海横冲直撞地刮过来，裹挟着海盐、湿泥和石楠花的味道，在耳畔撕扯出粗粝的呼啸。我站在Porthdinllaen海滩的弧形沙嘴上，脚下是比糖霜还细的白沙，面前是比翡翠还透亮的海水。远处，一座小小的白色灯塔立在岬角，像一颗被遗忘的棋子。这个场景让我忽然理解了为什么威尔士人总说Llŷn是他们的“冰川遗忘的吻”——这里的壮阔，带着一种不容分说的温柔。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/maen-llia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利亚巨石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen Llia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dr-beynons-bug-farm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝农博士的虫子农场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dr Beynon's Bug Farm</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "maen-llia",
+          "name": "利亚巨石",
+          "englishName": "Maen Llia"
         },
         {
-          "slug": "dunrobin-castle",
-          "name": "邓罗宾城堡",
-          "englishName": "Dunrobin Castle"
+          "slug": "cameron-square",
+          "name": "卡梅隆广场",
+          "englishName": "Cameron Square"
         },
         {
-          "slug": "big-ben",
-          "name": "大本钟",
-          "englishName": "Big Ben"
+          "slug": "dr-beynons-bug-farm",
+          "name": "贝农博士的虫子农场",
+          "englishName": "Dr Beynon's Bug Farm"
         }
       ]
     }

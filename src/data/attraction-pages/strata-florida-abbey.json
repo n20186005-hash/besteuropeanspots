@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Tregaron",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯特拉塔弗洛里达修道院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯特拉塔弗洛里达修道院・Strata Florida Abbey・英国・Tregaron",
-    "description": "我刚开了三个小时的车，从卡迪夫一路向北，沿着蜿蜒狭窄的A470公路深入威尔士腹地。两边全是绵延的绿山和懒洋洋的羊群，空气里带着泥土和苔藓的味道。当导航说“已到达目的地”，我眼前却只有一片荒芜的草地。没有高耸的尖塔，没有庄严的城堡，只有几根孤零零的石柱在风中矗立。这就是斯特拉塔弗洛里达，威尔士最伟大的隐士。它把自己藏得这么深，仿佛在故意考验朝圣者的耐心。\n我停好车，穿过一片开满野花的草坪，踩在湿漉漉的草地上。清晨的露水打湿了我的鞋，空气里是泥土和药草的混合气味。远处的绵羊在轻声咩叫，偶尔有麻雀从头顶飞过，影子在石墙上快速滑动。走到近处，我才看清那些残存的墙壁有多厚重，像是一头沉睡了五百年的巨兽的骨架。阳光从拱形窗洞斜射进来，在地砖上投下长长的光柱，让整个空间充满了教堂般的仪式感。风吹过那些镂空的石框，发出低沉的啸声，就像被遗忘的修士在做晚祷。\n我站在回廊的遗址上，试着闭上眼睛还原这里当年的模样。脚踩的这片碎石地原来是个广场，修士们在这里散步、读书，脚步声一定很轻。我能闻到羊皮纸和墨水的气味，那是手抄圣经时留下的痕迹。远处传来河水的潺潺声，那是从附近的泰菲河引入的，用来冲刷廊道、灌溉药草园。最震撼的，莫过于这片废墟的沉默——它不像城市里的教堂那样有钟声、有游客的喧哗，这里的安静是有重量的，是历史给它披上的一层厚厚尘埃。\n离开时，我特意坐在角落里的一块墓碑上。背后是残破的墙壁，膝盖上放着笔记本，远处是延绵的青山。一只红色的蜻蜓停在石头上，几乎和我对视了一分钟。那一刻，我突然理解了为什么这座修道院如此打动人心——它不靠恢弘的建筑取悦世人，而是用它的隐忍和沉默，把几百年的故事揉碎了，藏在风里、草里、石头缝隙里，等着有耐心的人去发现。这就是西威尔士的温柔，是斯特拉塔弗洛里达最迷人的地方。"
+    "description": "我刚开了三个小时的车，从卡迪夫一路向北，沿着蜿蜒狭窄的A470公路深入威尔士腹地。两边全是绵延的绿山和懒洋洋的羊群，空气里带着泥土和苔藓的味道。当导航说“已到达目的地”，我眼前却只有一片荒芜的草地。没有高耸的尖塔，没有庄严的城堡，只有几根孤零零的石柱在风中矗立。这就是斯特拉塔弗洛里达，威尔士最伟大的隐士。它把自己藏得这么深，仿佛在故意考验朝圣者的耐心。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/iona-abbey-and-nunnery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾奥娜修道院和修女院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Iona Abbey and Nunnery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melincourt-falls-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅林科特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melincourt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/edinburgh-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Edinburgh Zoo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-lythans-burial-chamber\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣利斯墓葬室</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Lythans Burial Chamber</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-ness-view-point-fort-augustus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    尼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">尼斯湖观景点（奥古斯都堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Ness View Point Fort Augustus</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-showcaves-centre-for-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家展示洞穴中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Showcaves Centre for Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "iona-abbey-and-nunnery",
-          "name": "艾奥娜修道院和修女院",
-          "englishName": "Iona Abbey and Nunnery"
+          "slug": "st-lythans-burial-chamber",
+          "name": "圣利斯墓葬室",
+          "englishName": "St Lythans Burial Chamber"
         },
         {
-          "slug": "melincourt-falls-wales",
-          "name": "梅林科特瀑布",
-          "englishName": "Melincourt Falls"
+          "slug": "loch-ness-view-point-fort-augustus",
+          "name": "尼斯湖观景点（奥古斯都堡）",
+          "englishName": "Loch Ness View Point Fort Augustus"
         },
         {
-          "slug": "edinburgh-zoo",
-          "name": "爱丁堡动物园",
-          "englishName": "Edinburgh Zoo"
+          "slug": "national-showcaves-centre-for-wales",
+          "name": "威尔士国家展示洞穴中心",
+          "englishName": "National Showcaves Centre for Wales"
         }
       ]
     }

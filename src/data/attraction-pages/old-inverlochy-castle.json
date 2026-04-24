@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威廉堡（Fort William）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "老因弗洛奇城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "老因弗洛奇城堡・Old Inverlochy Castle・英国・威廉堡（Fort William）",
-    "description": "我第一次见到老因弗洛奇城堡，是在一个雨后初晴的清晨。从威廉堡出发，沿着洛奇河往北走，空气中弥漫着泥土与湿漉漉野草的气味，像是刚被撕开的草甸的心脏。越过一片安静得几乎听得见露水滴落的田野，我忽然看到了它：四个粗壮的圆形塔楼从矮矮的围墙上升起，像四根被时间啃剩的指骨，直指向天空。晨雾还没完全散尽，缠绕在塔楼顶端，让那些方形的孔眼看上去像是残破的眼眶，寂静地凝视着远方。\n我走近时，脚步被青苔吸收，几乎听不见声响。墙根下的石缝里开着细小的白花，摇摇欲坠。城堡的正门很窄，需要侧身才能挤进去，门楣上那块沉重的石门匾已经看不清楚任何雕纹了，只有水渍和地衣。院子里，野草丛生，石头铺的地面早被时间磨得凹凸不平。一只乌鸦忽然从塔楼的箭孔里飞出，翅膀拍打的声音在空旷的庭院里回荡了好久。\n当地人说，这座城堡被抛弃了很久了。但如果你仔细听，在风声穿过那些幽深的窗洞时，是会听见一些东西的。不是鬼魂，而是历史本身的呼吸——细碎而沉重，像是战士靴子踩在石阶上的回声，像是锅碗瓢盆碰撞的喧嚣，又像是某个冬夜，守卫站在墙头唱着一首走调的盖尔语歌谣。我喜欢把脸贴在那些冰冷的石面上，感受石头吸收的太阳余温，那是岁月沉淀下来的温度。\n最打动我的，是它的不完美。它不像爱丁堡城堡那样被精心修缮，成了旅游广告的背景。它真实地腐烂着，像任何没有人类干预的遗迹该有的样子。苔藓爬上石墙，野草刺破碎石，墙壁上裂开的口子里，露出内芯粉化的碎石。这一切看上去像是时间主动动手在拆除它，以一种缓慢但有尊严的方式。它就那样站在洛奇河与林尼湖的交界处，守着自己的残骸，不为任何人改变姿态。"
+    "description": "我第一次见到老因弗洛奇城堡，是在一个雨后初晴的清晨。从威廉堡出发，沿着洛奇河往北走，空气中弥漫着泥土与湿漉漉野草的气味，像是刚被撕开的草甸的心脏。越过一片安静得几乎听得见露水滴落的田野，我忽然看到了它：四个粗壮的圆形塔楼从矮矮的围墙上升起，像四根被时间啃剩的指骨，直指向天空。晨雾还没完全散尽，缠绕在塔楼顶端，让那些方形的孔眼看上去像是残破的眼眶，寂静地凝视着远方。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-galleries-scotland-portrait\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国家肖像美术馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Galleries Scotland: Portrait</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scott-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    司\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">司各特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scott Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/powis-castle-and-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波伊斯城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Powis Castle and Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-loyne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛因湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Loyne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cameron-square",
-          "name": "卡梅隆广场",
-          "englishName": "Cameron Square"
+          "slug": "scott-monument",
+          "name": "司各特纪念碑",
+          "englishName": "Scott Monument"
         },
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "powis-castle-and-garden",
+          "name": "波伊斯城堡与花园",
+          "englishName": "Powis Castle and Garden"
         },
         {
-          "slug": "national-galleries-scotland-portrait",
-          "name": "苏格兰国家肖像美术馆",
-          "englishName": "National Galleries Scotland: Portrait"
+          "slug": "loch-loyne-viewpoint",
+          "name": "洛因湖观景台",
+          "englishName": "Loch Loyne Viewpoint"
         }
       ]
     }

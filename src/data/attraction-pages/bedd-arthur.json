@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "贝德·阿瑟",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "贝德·阿瑟・Bedd Arthur・英国・彭布罗克郡",
-    "description": "我是在一个阴晴不定的五月的上午去贝德·阿瑟的。车停在Preseli Hills脚下那片只有两辆车的停车场时，天空还透着一块块蓝，等我把徒步鞋系紧，背上背包，沿着草甸里那条若隐若现的小路往上走了不到十分钟，整个天空就变成了一张灰色的毛毯，连远处的山影都模糊了。山风裹着潮湿的青草味和羊粪的干涩气息扑过来，我的头发立刻被吹得打结了，耳朵里只剩下风声。这一路上没有遇见一个人，只有几只威尔士黑脸羊停在不远处，歪着脑袋看我，然后转身慢悠悠地跑开，蹄子踩在石头上发出清脆的咔嗒声。\n走到第二个坡顶的时候，我突然留意到脚边的草丛里有一些棱角分明的碎片——是蓝灰色的石头，和周围常见的砂岩完全不同。就在那个瞬间我知道我接近了。再往前走不到两百米，那些石头就出现了：它们三三两两地立在矮草里，被厚厚的黄绿色苔藓覆盖着，像是从大地里长出来的古老的牙齿。最大的那块大约有两米高，倾斜着，仿佛随时会倒下去，但风里雨里已经站了四千多年。我伸手摸了摸它表面，湿漉漉的，冰凉，上面刻着深深浅浅的天然裂缝，像老人脸上的皱纹。\n规模真的很小，你绕着走一圈用不了三分钟。但这正是它的魅力所在——没有围栏，没有解说牌，没有纪念品商店，甚至没有什么明显的道路指向它。你可以一个人静静地坐在这里，听风从石缝之间穿过，带出低沉的呜咽声。远处是绵延到海平面的起伏山丘，偶尔一只红隼悬停在空中，翅膀几乎没有动弹。那种古老的、绝对的寂静，比任何大教堂都要让人震撼。你会忍不住想，四千多年前的那些人为什么要费尽力气把这么重的石头拖到这个荒凉的山顶上？他们在这里看到了什么？祭拜了什么？这些答案早就被风吹散了，只剩下石头沉默地守在这里。\n离开的时候，我回头看了一眼，那些石头在灰色的天空下显得格外孤独。但奇怪的是，我感到的不是悲凉，而是一种踏实的陪伴感——就像这个岛上最古老的记忆，正安静地等着那些愿意走远路的人来跟它们打个招呼。"
+    "description": "我是在一个阴晴不定的五月的上午去贝德·阿瑟的。车停在Preseli Hills脚下那片只有两辆车的停车场时，天空还透着一块块蓝，等我把徒步鞋系紧，背上背包，沿着草甸里那条若隐若现的小路往上走了不到十分钟，整个天空就变成了一张灰色的毛毯，连远处的山影都模糊了。山风裹着潮湿的青草味和羊粪的干涩气息扑过来，我的头发立刻被吹得打结了，耳朵里只剩下风声。这一路上没有遇见一个人，只有几只威尔士黑脸羊停在不远处，歪着脑袋看我，然后转身慢悠悠地跑开，蹄子踩在石头上发出清脆的咔嗒声。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dugald-stewart-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜格尔德·斯图尔特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dugald Stewart Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/balmoral-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔莫勒尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balmoral Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "colin-mcrae-cray-corner",
+          "name": "科林·麦克雷弯道",
+          "englishName": "Colin McRae's Cray Corner"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "dugald-stewart-monument",
+          "name": "杜格尔德·斯图尔特纪念碑",
+          "englishName": "Dugald Stewart Monument"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "balmoral-castle",
+          "name": "巴尔莫勒尔城堡",
+          "englishName": "Balmoral Castle"
         }
       ]
     }

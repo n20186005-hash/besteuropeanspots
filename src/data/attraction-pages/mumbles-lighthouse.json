@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西湾曼布尔斯灯塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯旺西湾曼布尔斯灯塔・Mumbles Lighthouse・英国・斯旺西",
-    "description": "第一次听说Mumbles这个名字，我还以为是个好玩的小镇名字，想不到它是一杆伫立在威尔士最南端海角的灯塔。那天我沿着斯旺西的海滨步道一直往南走，迎面吹来腥咸的海风，夹带着海鸥尖利的叫声。转过一个弯，那座白色的灯塔就那么突然地出现在海岬上，像是被谁随手丢在蓝色画布上一把雪白的棋子。它不像我想象中那么高大，但那种孤独的气质却让人移不开目光。脚下是黄褐色的礁石，潮水正在慢慢退去，露出一道浅浅的堤道，把灯塔和陆地连接起来。我站在堤道入口，闻到了海藻被太阳晒干后那股微腥又带点甜的气味，还有远处炸鱼薯条店飘来的油香味。\n走近灯塔的时候，你能明显感觉到材质的变化。那是一种粗粝的花岗岩，每一块都被海风和盐雾打磨得光滑但充满肌理。我伸手摸了摸，石头表面凉凉的，偶尔能摸到小小的螺壳残片，那是潮汐留下的印记。灯塔底部的基石上有几处斑驳的青苔，在湿润的空气里闪着暗绿色的光。抬头往上看，黑色的铸铁栏杆和白色的石墙形成强烈的对比，灯塔顶端的灯笼房被涂成深红色，像一顶精致的小帽。风从四面八方灌过来，吹得我的头发乱七八糟，但那种凌乱反而让我觉得特别真实。\n最打动我的不是灯塔本身，而是它在当地人生活中的位置。堤道上迎面碰见一位牵着金毛的大叔，他冲我笑笑说，今天潮水不错。他说他从斯旺西搬来Mumbles已经三十年了，每周都会带着狗来灯塔走一圈，看海豹在礁石上晒太阳。他说这话的时候，眯着眼睛看远处，海面上有一艘帆船正慢慢驶过。我突然意识到，对于这些生活在海湾边的人来说，灯塔从来不是什么景点，而是他们生活里自然而然的一部分，是风雨天里的航标，是晴天散步的目的地，是孩子们在海边捡贝壳时抬头就能看到的白色身影。"
+    "description": "第一次听说Mumbles这个名字，我还以为是个好玩的小镇名字，想不到它是一杆伫立在威尔士最南端海角的灯塔。那天我沿着斯旺西的海滨步道一直往南走，迎面吹来腥咸的海风，夹带着海鸥尖利的叫声。转过一个弯，那座白色的灯塔就那么突然地出现在海岬上，像是被谁随手丢在蓝色画布上一把雪白的棋子。它不像我想象中那么高大，但那种孤独的气质却让人移不开目光。脚下是黄褐色的礁石，潮水正在慢慢退去，露出一道浅浅的堤道，把灯塔和陆地连接起来。我站在堤道入口，闻到了海藻被太阳晒干后那股微腥又带点甜的气味，还有远处炸鱼薯条店飘来的油香味。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/john-knox-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰·诺克斯故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John Knox House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-dinosaur-park-tenby\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    滕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">滕比恐龙公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Dinosaur Park Tenby</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-varrich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦里克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Varrich</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "john-knox-house",
-          "name": "约翰·诺克斯故居",
-          "englishName": "John Knox House"
+          "slug": "the-dinosaur-park-tenby",
+          "name": "滕比恐龙公园",
+          "englishName": "The Dinosaur Park Tenby"
         },
         {
-          "slug": "cuween-hill-chambered-cairn",
-          "name": "库温山墓室石堆",
-          "englishName": "Cuween Hill Chambered Cairn"
+          "slug": "charter-boat-wales",
+          "name": "威尔士包船游",
+          "englishName": "Charter Boat Wales"
         },
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "castle-varrich",
+          "name": "瓦里克城堡",
+          "englishName": "Castle Varrich"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "贝图斯-科德（Betws-y-Coed）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "康威瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "康威瀑布・Conwy Falls・英国・贝图斯-科德（Betws-y-Coed）",
-    "description": "我第一次见到康威瀑布，是在一个细雨蒙蒙的五月清晨。橡树林把天空滤成碎碎的绿影，空气里混杂着湿润的苔藓香和远处河流沉沉的轰鸣声。沿着那条被踩得发亮的土路往下走，溪流声由远及近，像在耳膜上弹跳的鼓点。拐过最后一个弯时，瀑布就那样毫无预兆地撞进视野——雪白的水帘从暗红色的岩壁上倾泻而下，撞在下面的深潭中激起大片水雾，阳光突然穿透云层，一道完整的彩虹从潭底升起，架在两棵歪斜的老橡树之间。我愣在原地，手里的雨伞差点滑落。\n瀑布的声音是有层次的。近处是水砸向岩石的闷雷，中段是水沫破裂时的嘶嘶声，远处是溪流汇成的低吟。站在观景台上，水珠像细密的飞虫扑上脸颊，凉丝丝的。周围几乎没有其他游客，只有一个独自画画的老太太坐在折叠凳上，画笔在纸上沙沙游走。她告诉我她每个月都来，说这里的雾气能让颜料产生晕染效果，“像小时候记忆里模糊的梦境”。我蹲下来看瀑布底部那片深不可测的水潭，水质极其清澈，能看到底部圆润的鹅卵石和垂直的暗影——那是水下暗流形成的漩涡。偶尔有枯叶飘落，打着转消失在水帘后，像某种古老的献祭。\n在威尔士人的生活中，康威瀑布从来不是那种需要买票排队打卡的景点。当地人周末带着狗和野餐篮，找个横卧的木头坐一下午，看孩子们用石头搭小小的水坝。没有围栏，没有指引牌，只有一条被无数双脚踩出的泥路通往最佳观景位。那种自由感让瀑布显得格外亲近——它不是在“展示”自己，而是自然地存在着，像森林里一块会呼吸的古老器官。\n最打动我的，是瀑布上方那片宁静的出奇的水潭。水流在跌落前反而异常平缓，像一面墨绿的镜子倒映着枝叶颤抖的弧度。你站在水边看自己的脸在倒影中扭曲又复原，会觉得时间在这里是液态的，可以抚摸，可以啜饮。那种沉默与轰鸣之间的巨大反差，几乎让人心悸——原来猛烈的力量在爆发之前，竟可以如此从容。"
+    "description": "我第一次见到康威瀑布，是在一个细雨蒙蒙的五月清晨。橡树林把天空滤成碎碎的绿影，空气里混杂着湿润的苔藓香和远处河流沉沉的轰鸣声。沿着那条被踩得发亮的土路往下走，溪流声由远及近，像在耳膜上弹跳的鼓点。拐过最后一个弯时，瀑布就那样毫无预兆地撞进视野——雪白的水帘从暗红色的岩壁上倾泻而下，撞在下面的深潭中激起大片水雾，阳光突然穿透云层，一道完整的彩虹从潭底升起，架在两棵歪斜的老橡树之间。我愣在原地，手里的雨伞差点滑落。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/k-smu-captains-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯斯穆船长村</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Käsmu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gosau-dachstein-alpine-lakes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈绍</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gosau</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafod-estate\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德庄园（国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Hafod Estate</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/croeso-i-gymru-welcome-sign\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士欢迎标志牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Croeso i Gymru Welcome Sign</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "k-smu-captains-village",
-          "name": "凯斯穆船长村",
-          "englishName": "Käsmu"
+          "slug": "gosau-dachstein-alpine-lakes",
+          "name": "戈绍",
+          "englishName": "Gosau"
         },
         {
-          "slug": "brymbo-bandstand",
-          "name": "布莱姆博音乐台",
-          "englishName": "Brymbo Bandstand"
+          "slug": "hafod-estate",
+          "name": "哈福德庄园（国家信托）",
+          "englishName": "National Trust - Hafod Estate"
         },
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "croeso-i-gymru-welcome-sign",
+          "name": "威尔士欢迎标志牌",
+          "englishName": "Croeso i Gymru Welcome Sign"
         }
       ]
     }

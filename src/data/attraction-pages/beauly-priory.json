@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "博利（Beauly）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "博利修道院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "博利修道院・Beauly Priory・英国・博利（Beauly）",
-    "description": "我第一次撞见博利修道院，完全是个意外。那是九月的一个午后，高地天空低垂得像一块湿羊毛，我刚从因弗内斯坐了一趟摇摇晃晃的火车，想在博利这个小站下车透透气。站台紧闭，连个售票员都没有，只有铁轨边疯长的蓟花和远处牛群的低哞声。我沿着一条被雨水洗得发亮的石子路往村里走，拐过一个堆满啤酒桶的酒吧墙角，忽然就看见了一丛巨大的石头窗户立在草坪中央——像一副被时间拆散的白骨骨架，肋骨般的扶壁撑着天。空气里浮动着湿苔藓和泥土的味道，混着附近教堂墓园里紫杉的气息。几只红松鼠在废墟边缘的紫杉灌木间跳跃，翅膀扑棱的声音比任何游客的脚步都响亮。\n走近了，才发现这里根本没有围栏或者售票亭，它就大大方方地站在村里唯一的广场边上，和民居、酒吧、邮局共享同一片草地。几个当地老人坐在长椅上，端着保温杯聊着什么，完全不把旁边那几个世纪前的石拱放在眼里。我绕着遗址走了一圈，脚下的石板被无数脚步磨得油亮，缝隙里长出细小的百里香，踩上去有一股辛辣的清香。阳光从破碎的尖拱窗户里斜斜射进来，在长满青苔的地面上投下菱形的光斑，那些光斑像活的一样，随着云朵的飘移而缓缓滑动。我试着想象七百年前修士们站在这里唱诗的声音：低沉的男声在石壁间共振，蜡烛在祭坛上摇曳，奶油色的蜂蜡一滴一滴落进铜盘。可现在，这里只有风在空空的窗洞里吹着口哨，偶尔一只乌鸦蹲在钟楼残骸上嘎嘎叫。\n打动我的恰恰是这种毫不设防的亲近感。它不是被围栏圈起来、需要付高价门票才能朝拜的博物馆展品，而是博利村民后院一场永远不散的石头派对。孩子们放学后跑到废墟里玩捉迷藏，镇上的周末集市在修道院西墙下支起帐篷卖手工奶酪和果酱，夏天的傍晚还有人抱着吉他坐在中殿遗址上弹唱。修道院已经完全融入了日常生活的肌理——它没有高高在上，而是沉默地接纳了所有人，包括我这个偶然闯入的陌生人。坐在南侧那段幸存的回廊矮墙上，我能闻到隔壁院子晾晒的亚麻布的气味，听见厨房里煎鱼的滋滋声。那种感觉极其奇妙：一座十三世纪的宗教建筑，没有因为颓败而变得阴郁，反而在数百年的呼吸中成了一个温暖的社区心脏。"
+    "description": "我第一次撞见博利修道院，完全是个意外。那是九月的一个午后，高地天空低垂得像一块湿羊毛，我刚从因弗内斯坐了一趟摇摇晃晃的火车，想在博利这个小站下车透透气。站台紧闭，连个售票员都没有，只有铁轨边疯长的蓟花和远处牛群的低哞声。我沿着一条被雨水洗得发亮的石子路往村里走，拐过一个堆满啤酒桶的酒吧墙角，忽然就看见了一丛巨大的石头窗户立在草坪中央——像一副被时间拆散的白骨骨架，肋骨般的扶壁撑着天。空气里浮动着湿苔藓和泥土的味道，混着附近教堂墓园里紫杉的气息。几只红松鼠在废墟边缘的紫杉灌木间跳跃，翅膀扑棱的声音比任何游客的脚步都响亮。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/balmoral-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔莫勒尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balmoral Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-museum-of-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国立博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Museum of Scotland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/moreton-corbet-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫顿科比特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Moreton Corbet Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "balmoral-castle",
-          "name": "巴尔莫勒尔城堡",
-          "englishName": "Balmoral Castle"
+          "slug": "loch-achtriochtan-glen-coe",
+          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
+          "englishName": "Loch Achtriochtan, Glen Coe"
         },
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "national-museum-of-scotland",
+          "name": "苏格兰国立博物馆",
+          "englishName": "National Museum of Scotland"
         },
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "moreton-corbet-castle",
+          "name": "莫顿科比特城堡",
+          "englishName": "Moreton Corbet Castle"
         }
       ]
     }

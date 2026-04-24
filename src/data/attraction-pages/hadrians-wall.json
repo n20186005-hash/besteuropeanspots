@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "英格兰，沿长城分布多个城镇如赫克瑟姆、卡莱尔、沃尔森德",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "哈德良长城",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "哈德良长城・Hadrian's Wall・英国・英格兰，沿长城分布多个城镇如赫克瑟姆、卡莱尔、沃尔森德",
-    "description": "我从纽卡斯尔坐上一辆摇摇晃晃的老旧巴士，车里挤满了背着硕大登山包的徒步者。窗外是连绵的绿色山丘，偶尔闪过几座废弃的农舍。司机在一处毫不起眼的路边停下，说：“到了，下去吧。” 我就这样被扔在了旷野中央。风呼啸着从北海吹来，带着草和泥土的气息，还有一丝海水的咸味。面前是一条隆起于地面的低矮石墙，被苔藓和野花覆盖，延伸到地平线的尽头。这就是哈德良长城？第一眼看去，它甚至不如我在国内见过的古城墙巍峨，可当我的手掌贴上那些被风吹雨打一千九百年的粗粝石块时，一种奇异的电流感从指尖窜到心脏——这里曾是罗马帝国的最北端，一个士兵站在城墙上，面向北方，看到的是一片永远无法征服的蛮荒。\n沿着长城徒步，我渐渐理解了它的宏大。不是高度，而是长度和连续性。你走上一座山脊，眼前的城墙像一条灰色的长蛇蜿蜒匍匐在绿色的地毯上。脚下的草甸被羊群啃得短短的，空气中回荡着羊叫和风声。每隔一英里就有一座堡垒的残迹——方形的石基，倒塌的门廊，还有当年兵营的地基。我蹲下来仔细看，在墙根的碎砖里发现了一小块红色陶片，边缘还有简单的几何纹路。也许是两千年前某个罗马士兵吃饭用的碗掉在这里了。历史就这样触手可及，比任何博物馆都真实。我站起来，望向北方，想象着那个守夜人看到的景象：同样的山丘、同样的云影、同样的风，只是没有羊群，而是潜伏的皮克特人部落。\n最打动我的不是遗迹本身，而是它如何沉默地融入了日常。有当地人在墙上搭了个简易的栅栏门，让羊群从一个牧场走到另一个牧场。有骑山地车的小伙子从墙边呼啸而过，车把上挂着三明治。一对老夫妇坐在倒塌的瞭望塔基座上喝茶，保温杯里的热气被风吹散。长城不再是过去的防御工事，它成了这片土地的一道皱纹，风景的一部分，甚至当地人生活的一部分。这让我想起在约克看到的罗马城墙，那些同样古老的砖石被包裹在现代城市的喧嚣中。而哈德良长城因为远离尘嚣，得以保持了一种原始的平静。它不需要游客的朝拜，它只是安静地躺在这里，让时间慢慢把它重新还给大地。\n傍晚我住在长城脚下的一家小旅馆里，窗外就是那道若隐若现的石墙。日落时分，斜阳把城墙的影子拉得很长很长，投射在草地上，像一把巨大的尺子丈量着帝国的野心。我在院子里喝着苦啤酒，旅馆主人是个退休的农场主，他说他小时候常在长城上放风筝，风筝线总被石墙尖角刮断。“你知道为什么这里的草比别处绿吗？”他神秘地笑着，“因为下面埋着罗马人的骨头啊。”我打了个寒颤，不是因为害怕，而是因为一种突如其来的厚重感。哈德良长城不是死的遗迹，它是一个活着的记忆，每块石头都记得两千年间塞外风声里飘过的歌谣、号角、帐篷里的私语和战马最后的嘶鸣。"
+    "description": "我从纽卡斯尔坐上一辆摇摇晃晃的老旧巴士，车里挤满了背着硕大登山包的徒步者。窗外是连绵的绿色山丘，偶尔闪过几座废弃的农舍。司机在一处毫不起眼的路边停下，说：“到了，下去吧。” 我就这样被扔在了旷野中央。风呼啸着从北海吹来，带着草和泥土的气息，还有一丝海水的咸味。面前是一条隆起于地面的低矮石墙，被苔藓和野花覆盖，延伸到地平线的尽头。这就是哈德良长城？第一眼看去，它甚至不如我在国内见过的古城墙巍峨，可当我的手掌贴上那些被风吹雨打一千九百年的粗粝石块时，一种奇异的电流感从指尖窜到心脏——这里曾是罗马帝国的最北端，一个士兵站在城墙上，面向北方，看到的是一片永远无法征服的蛮荒。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bikepark-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">BikePark Wales</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">BikePark Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fonmon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    方\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">方蒙城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fonmon Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dr-beynons-bug-farm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝农博士的虫子农场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dr Beynon's Bug Farm</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/happy-valley-botanical-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欢乐谷植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Happy Valley Botanical Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cardiff-castle",
-          "name": "卡迪夫城堡",
-          "englishName": "Cardiff Castle"
+          "slug": "parc-cwm-darran",
+          "name": "帕克库姆达兰公园",
+          "englishName": "Parc Cwm Darran"
         },
         {
-          "slug": "bikepark-wales",
-          "name": "BikePark Wales",
-          "englishName": "BikePark Wales"
+          "slug": "dr-beynons-bug-farm",
+          "name": "贝农博士的虫子农场",
+          "englishName": "Dr Beynon's Bug Farm"
         },
         {
-          "slug": "fonmon-castle",
-          "name": "方蒙城堡",
-          "englishName": "Fonmon Castle"
+          "slug": "happy-valley-botanical-gardens",
+          "name": "欢乐谷植物园",
+          "englishName": "Happy Valley Botanical Gardens"
         }
       ]
     }

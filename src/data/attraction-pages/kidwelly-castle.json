@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "基德韦利（威尔士卡马森郡）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "基德韦利城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "基德韦利城堡・Kidwelly Castle・英国・基德韦利（威尔士卡马森郡）",
-    "description": "我第一次远远望见基德韦利城堡，是在一个威尔士阴沉的晚秋午后。车沿着A484公路拐过一小片树林，那座灰色的庞然巨物突然就从湿润的田野里长了出来，像一头沉睡的史前怪兽。风从卡马森湾那边灌过来，带着咸腥的海草味和泥土里牛羊粪发酵的味道，天空低得快要压到城堡的塔尖上，雨丝斜着飘，把砂岩外层染成了深色，每一块石头都在往外渗水。但我并不觉得狼狈，反而觉得这样的天气才配得上它——城堡就该是湿漉漉、冷冰冰、阴森森的，像一个八百岁的守夜人，沉默地看守着威尔士和英格兰之间永远停不下来的战争。\n走近了，城堡外的那条河——格文德拉特河——在脚下翻着浑浊的浪花。河上有一座窄窄的步桥，桥面铺着鹅卵石，踩上去咯咯响。站在桥中央抬头看，那扇巨大的门楼像张开的嘴巴，上面的箭槽窄得连猫都钻不过去。我能听见风从城堡的枪眼里钻出来的哨音，还有乌鸦在高处扑棱翅膀的声音。护城河早已干涸，河床上长满了荨麻和酸模草，几只黑白相间的奶牛在城堡脚下的草地上慢悠悠地啃草，尾巴甩得啪啪响。没人说话，只有风、乌鸦、牛铃和远处教堂的钟声。我突然想起一句话：威尔士的每一座城堡，都是用英格兰的石头和威尔士的鲜血砌成的。\n当地人其实不怎么把这城堡当成景点。我那天在镇上唯一的面包店买了一块威尔士蛋糕，老板娘听说我要去看城堡，只是耸耸肩说“哦,那东西啊”。她说她小时候经常溜进去捉迷藏，有一年夏天还听说有人在主塔里发现了骷髅。她说这话时表情平静，就像在说邻居家的狗咬坏了篱笆。这让我觉得特别真实——在这个旅游指南上总被严重低估的小镇上，这座城堡不是被圈养的风景，而是每天陪人吃饭睡觉的邻居。它就在那里，守着镇子，守着河，守着那些不断被海风吹走又重新长出来的野草。\n最打动我的，是城堡内部那种毫无修饰的粗粝感。英国很多城堡被改造成了博物馆，装上了灯、铺了地毯、摆上了蜡像。基德韦利不是那样。它保留了战争结束后的样子——石板上残留着烟熏的黑色印记，楼梯拐角处的石缝里长着苔藓，主大厅的壁炉里还堆着掉下来的碎石块。你站在塔顶往下看，能清晰地找到当年攻城者挖的地道痕迹、攻破外墙后留下的豁口、守城者临时砌起来的补丁。这种“没被修复的诚实”，比任何语言都更震撼。"
+    "description": "我第一次远远望见基德韦利城堡，是在一个威尔士阴沉的晚秋午后。车沿着A484公路拐过一小片树林，那座灰色的庞然巨物突然就从湿润的田野里长了出来，像一头沉睡的史前怪兽。风从卡马森湾那边灌过来，带着咸腥的海草味和泥土里牛羊粪发酵的味道，天空低得快要压到城堡的塔尖上，雨丝斜着飘，把砂岩外层染成了深色，每一块石头都在往外渗水。但我并不觉得狼狈，反而觉得这样的天气才配得上它——城堡就该是湿漉漉、冷冰冰、阴森森的，像一个八百岁的守夜人，沉默地看守着威尔士和英格兰之间永远停不下来的战争。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/garreg-ddu-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加雷格杜水坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Garreg Ddu Dam</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glasgow-necropolis\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥大墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Necropolis</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "brymbo-bandstand",
-          "name": "布莱姆博音乐台",
-          "englishName": "Brymbo Bandstand"
+          "slug": "glasgow-necropolis",
+          "name": "格拉斯哥大墓地",
+          "englishName": "Glasgow Necropolis"
         },
         {
-          "slug": "garreg-ddu-dam",
-          "name": "加雷格杜水坝",
-          "englishName": "Garreg Ddu Dam"
+          "slug": "battle-abbey",
+          "name": "巴特尔修道院",
+          "englishName": "Battle Abbey"
         },
         {
-          "slug": "bryntail-lead-mine-buildings",
-          "name": "布林泰尔铅矿建筑",
-          "englishName": "Bryntail Lead Mine Buildings"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         }
       ]
     }

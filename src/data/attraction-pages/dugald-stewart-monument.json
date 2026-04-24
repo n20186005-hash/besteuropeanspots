@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "杜格尔德·斯图尔特纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "杜格尔德·斯图尔特纪念碑・Dugald Stewart Monument・英国・爱丁堡",
-    "description": "我第一次看到杜格尔德·斯图尔特纪念碑是在一个灰蓝色的十一月的早晨。爱丁堡的海风吹到脸上还带着昨晚雨水的潮湿，我从王子街拐向那条开满苏格兰火棘的阶梯，一步比一步更接近天空。当我的视线终于越过最后一级石阶的尽头，那座白色圆形纪念碑像从云端落下的一朵巨大蘑菇，静静立在卡尔顿山平坦的草坡上。空气中飘来被露水浸透的青草味，还有一种老石头特有的微咸气息——那可能是海风吹过城市砖瓦的混合味道。远处隐隐传来爱丁堡城堡上午十点的换岗鼓声，低沉而遥远，仿佛从另一个时代传来。\n走近了看，十二根科林斯柱并不像想象中那样冷冰冰的，每根柱身上都有细密的裂纹和浅灰色的苔痕。阳光从东侧斜射过来，让柱子的背面形成深蓝色阴影，而正面的大理石则被照出一种温润的蜜色——你能看到光线在圆柱曲面上的缓慢流动，像一层液态的月光。从纪念碑的圆心向外望去，整个爱丁堡像一幅被上帝摊开的地图铺在脚下：左手边是亚瑟王座那如睡狮般的玄武岩山体，正前方是王子街花园里浓密的树冠，城堡像一座悬在半空的巨轮停泊在死火山上，而福斯湾的那片灰色海面在天际线上微微闪烁。我忽然理解为什么爱丁堡被称为“北方雅典”——站在这里，你感觉自己像是站在帕特农神庙的卫城上，只是脚下不是爱琴海的橄榄树，而是苏格兰的冷杉和石楠。\n这座纪念碑在本地人心中的位置也很特别。我看见一位穿灰色毛衣的老先生牵着一条棕色梗犬慢慢走来，他并不看纪念碑，只是坐在山崖边的长椅上，打开报纸，偶尔抬头看看天。还有个年轻的母亲推着婴儿车，停在纪念碑旁的石墩上哺乳，婴儿的小手朝着天空挥动——仿佛这白色柱廊是他们生活里再寻常不过的背景。到了黄昏，这里就成了情侣们的秘密领地，纪念碑的柱间被金色光线填满，像一座燃烧的灯笼。最动人的是那些来写生的学生，他们支着画架试图捕捉柱子与影子的几何关系，还有一个女孩直接用石墨在速写本上涂抹，她告诉我她每个月至少来一次，因为每次的光都不一样。确实如此，杜格尔德·斯图尔特纪念碑并不需要你读懂它的哲学史——你只需要站在它面前，感受那份跨越两百年的优雅，它就会静静地告诉你什么叫“永恒的美”。"
+    "description": "我第一次看到杜格尔德·斯图尔特纪念碑是在一个灰蓝色的十一月的早晨。爱丁堡的海风吹到脸上还带着昨晚雨水的潮湿，我从王子街拐向那条开满苏格兰火棘的阶梯，一步比一步更接近天空。当我的视线终于越过最后一级石阶的尽头，那座白色圆形纪念碑像从云端落下的一朵巨大蘑菇，静静立在卡尔顿山平坦的草坡上。空气中飘来被露水浸透的青草味，还有一种老石头特有的微咸气息——那可能是海风吹过城市砖瓦的混合味道。远处隐隐传来爱丁堡城堡上午十点的换岗鼓声，低沉而遥远，仿佛从另一个时代传来。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dalmeny-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达尔梅尼庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dalmeny House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/drum-castle-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德鲁姆城堡（庄园与花园）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drum Castle, Garden & Estate</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glasgow-science-centre-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥科学中心塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Science Centre Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llywelyn-ap-gruffydd-fychan-statue\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llywelyn Ap Gruffydd Fychan (Welsh Warrior) Statue</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cawdor-castle-and-gardens",
-          "name": "考德城堡与花园",
-          "englishName": "Cawdor Castle and Gardens"
+          "slug": "glasgow-science-centre-tower",
+          "name": "格拉斯哥科学中心塔",
+          "englishName": "Glasgow Science Centre Tower"
         },
         {
-          "slug": "dalmeny-house",
-          "name": "达尔梅尼庄园",
-          "englishName": "Dalmeny House"
+          "slug": "llywelyn-ap-gruffydd-fychan-statue",
+          "name": "卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像",
+          "englishName": "Llywelyn Ap Gruffydd Fychan (Welsh Warrior) Statue"
         },
         {
-          "slug": "drum-castle-scotland",
-          "name": "德鲁姆城堡（庄园与花园）",
-          "englishName": "Drum Castle, Garden & Estate"
+          "slug": "adventure-tour-snowdonia",
+          "name": "雪墩山探险之旅",
+          "englishName": "Adventure Tour Snowdonia"
         }
       ]
     }

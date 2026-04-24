@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格洛斯特郡、牛津郡、威尔特郡等多郡交界区域",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "科茨沃尔德地区",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "科茨沃尔德地区・Cotswolds AONB・英国・格洛斯特郡、牛津郡、威尔特郡等多郡交界区域",
-    "description": "我是在一个薄雾弥漫的初秋清晨抵达拜伯里（Bibury）的。车停在村口，还没来得及踩上油门，就被那条溪边的小径拽住了脚步。空气里全是湿漉漉的草腥味，混着一点烧木柴的烟，浓得像能用手捧起来。小溪哗啦哗啦地淌着，水底的石头上爬满了柔滑的苔藓，几只白鹅昂着头摇摇晃晃地横过石板桥，根本不把游客当回事。我蹲下来去摸水——冰凉刺骨，那种来自地下深处的冷。抬头看见著名的阿灵顿排屋（Arlington Row）就立在溪对岸，那一整排蜂蜜色的石墙在晨光里泛着温润的光，像刚从烤箱里取出来的黄油面包。屋顶的薄石片叠得密密麻麻，长满了金色的地衣和圆鼓鼓的苔藓。没有游客，只有一只橘猫趴在窗台上，眯着眼看我。\n往村子里走几步，巷子窄得只能容两个人侧身而过，两边石墙高耸，墙缝里嵌着干枯的蕨类和野花种子。阳光从头顶的缝隙漏下来，在石板路上画出一道道柔和的光纹。每一扇木门都漆成深绿色或暗红色，门环被摸得锃亮，门边放着陶罐，里面开着淡紫色的薰衣草。耳朵里全是声音：远处教堂的钟声慢悠悠地敲了十下，近处邻居在院子里修剪玫瑰枝的咔嚓声，还有一只狗在不知道哪个后院吠叫。这些声音被山谷的静默包裹着，听上去格外清晰，也格外安心。\n科茨沃尔德不像那些被游客挤爆的欧洲名胜，它没有宏伟的宫殿或震撼的教堂，它的魅力恰恰在于那些微小的细节：一片被羊群啃得整整齐齐的草地，一排倾斜的旧信箱，一块刻着家族纹章的门楣，一杯在路边小酒馆里用陶杯盛的散装啤酒。这里的时光像是被冻住了，保留着维多利亚时代甚至更早的模样。每次我走进某个村庄，都会产生一种错觉：下一秒就能看见简·奥斯汀笔下的人物撑着阳伞，从绿篱的小门里走出来。\n但最打动我的，是这里的人对生活的态度。在斯劳特村（Slaughter），我遇见过一个老先生，正非常慢地给自家门前的信箱重新刷漆，他告诉我这信箱是他爷爷当年亲手做的，已经有八十多年了，他要让它再站八十年。他说话时不看我，只看着信箱，手指轻轻抚过木纹。那种认真的、带着敬意的从容，大概就是科茨沃尔德真正的灵魂。它不是被刻意保护给游客看的风景，而是一种活着的生活方式，一代又一代人用同样的耐心去修葺石墙、修剪树篱、照料菜园，让这片土地一直保持温暖而沉静的样子。"
+    "description": "我是在一个薄雾弥漫的初秋清晨抵达拜伯里（Bibury）的。车停在村口，还没来得及踩上油门，就被那条溪边的小径拽住了脚步。空气里全是湿漉漉的草腥味，混着一点烧木柴的烟，浓得像能用手捧起来。小溪哗啦哗啦地淌着，水底的石头上爬满了柔滑的苔藓，几只白鹅昂着头摇摇晃晃地横过石板桥，根本不把游客当回事。我蹲下来去摸水——冰凉刺骨，那种来自地下深处的冷。抬头看见著名的阿灵顿排屋（Arlington Row）就立在溪对岸，那一整排蜂蜜色的石墙在晨光里泛着温润的光，像刚从烤箱里取出来的黄油面包。屋顶的薄石片叠得密密麻麻，长满了金色的地衣和圆鼓鼓的苔藓。没有游客，只有一只橘猫趴在窗台上，眯着眼看我。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cors-y-llyn-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科西林国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cors y Llyn National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dolwyddelan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多尔威德兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dolwyddelan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-ewen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊文城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Ewen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llywelyn-ap-gruffydd-fychan-statue\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llywelyn Ap Gruffydd Fychan (Welsh Warrior) Statue</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/strome-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特罗姆城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Strome Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cors-y-llyn-national-nature-reserve",
-          "name": "科西林国家自然保护区",
-          "englishName": "Cors y Llyn National Nature Reserve"
+          "slug": "llywelyn-ap-gruffydd-fychan-statue",
+          "name": "卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像",
+          "englishName": "Llywelyn Ap Gruffydd Fychan (Welsh Warrior) Statue"
         },
         {
-          "slug": "castell-dolwyddelan",
-          "name": "多尔威德兰城堡",
-          "englishName": "Castell Dolwyddelan"
+          "slug": "strome-castle",
+          "name": "斯特罗姆城堡",
+          "englishName": "Strome Castle"
         },
         {
-          "slug": "castle-ewen",
-          "name": "伊文城堡",
-          "englishName": "Castle Ewen"
+          "slug": "castlerigg-stone-circle",
+          "name": "卡斯尔里格石圈",
+          "englishName": "Castlerigg Stone Circle"
         }
       ]
     }

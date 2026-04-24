@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "康威（Conwy）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "康威城墙",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "康威城墙・Conwy Town Walls・英国・康威（Conwy）",
-    "description": "我第一次站在康威城墙脚下，差点被那股扑面而来的石头气息呛到。不是灰尘，是那种混合了海盐、青苔和几百年雨水浸透的石灰岩的冷冽气味。抬头看，灰扑扑的墙体从地面直直往上长，像大地突然裂开的骨头。最让我惊叹的是，你几乎能沿着它走完一整圈——整整1.3公里，把整个老城像攥拳头一样握在怀里。城墙上的步道并不宽，两个人并肩都得侧身，脚下是踩得发亮的石板，有些地方被磨出了浅浅的凹槽，那是无数双靴子、马蹄和自行车轮子留下的痕迹。\n阳光斜斜地从塔楼的箭孔里射进来，在地面投下细长的光柱，灰尘在里面跳舞。风从海的方向吹过来，带着咸腥味和远处教堂的钟声。我站在西南角的一座塔楼上往下看，屋顶的烟囱、花园里的晾衣绳、咖啡馆露台上的彩色遮阳伞，全成了脚下的一幅微缩地图。你能看见主街的尽头就是康威城堡那四座粗壮的塔楼，像四个沉默的巨人俯视着整个镇子。最神奇的是，城墙并没有把老城完全与世隔绝——它开着几扇门，东门、西门、北门，每个门洞下都有车辆和行人穿行，好像时光从未真正关闭过。\n当地人跟我说，他们从小就在城墙上跑来跑去，放学后沿着步道追着鸽子玩，周末推着婴儿车从塔楼之间的缓坡上下。有个老爷爷坐在城墙下的长椅上晒太阳，手里捏着一截法棍面包，掰碎了喂海鸥。他说他父亲小时候也在这喂，他爷爷也是。那一刻我突然明白，这堵墙早就不是单纯的防御工事了，它成了康威人生活的脊梁——每天早晨太阳从东门升起，傍晚从西门沉入爱尔兰海，城墙就是那个永不移动的坐标，把一百零八代人的日子稳稳地框在里面。\n大概每个中世纪城镇都有城墙，但像康威这样几乎完整无损的，在整个欧洲都屈指可数。它没有因为战争被炸塌，也没有因为城市化被拆掉，就那么老老实实地站了七百多年。走在上面，你既能感受到当年弓箭手的紧张——箭孔窄得只能让一支箭穿过，也能触摸到今天旅人的惬意——找个塔楼的凹处坐下来，掏出一本小说，听下面集市传来的讨价还价声。这堵墙把时间折成了两半：一半是铁和血的历史，一半是咖啡和面包的日常。"
+    "description": "我第一次站在康威城墙脚下，差点被那股扑面而来的石头气息呛到。不是灰尘，是那种混合了海盐、青苔和几百年雨水浸透的石灰岩的冷冽气味。抬头看，灰扑扑的墙体从地面直直往上长，像大地突然裂开的骨头。最让我惊叹的是，你几乎能沿着它走完一整圈——整整1.3公里，把整个老城像攥拳头一样握在怀里。城墙上的步道并不宽，两个人并肩都得侧身，脚下是踩得发亮的石板，有些地方被磨出了浅浅的凹槽，那是无数双靴子、马蹄和自行车轮子留下的痕迹。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chatsworth-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查茨沃斯庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chatsworth House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-coed</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blaenavon-ironworks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱纳文铁厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaenavon Ironworks</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "chatsworth-house",
-          "name": "查茨沃斯庄园",
-          "englishName": "Chatsworth House"
+          "slug": "parc-cwm-darran",
+          "name": "帕克库姆达兰公园",
+          "englishName": "Parc Cwm Darran"
         },
         {
-          "slug": "betws-y-coed",
-          "name": "贝图斯-科伊德",
-          "englishName": "Betws-y-coed"
+          "slug": "ardvreck-castle",
+          "name": "阿德夫雷克城堡",
+          "englishName": "Ardvreck Castle"
         },
         {
-          "slug": "cardiff-bay-barrage",
-          "name": "卡迪夫湾水闸",
-          "englishName": "Cardiff Bay Barrage"
+          "slug": "blaenavon-ironworks",
+          "name": "布莱纳文铁厂",
+          "englishName": "Blaenavon Ironworks"
         }
       ]
     }

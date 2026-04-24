@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "切斯特",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "东门钟楼",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "东门钟楼・Eastgate Clock・英国・切斯特",
-    "description": "第一次见到东门钟楼，我是在一个初秋的午后。沿着切斯特古老的东门街走着，两旁是典型都铎风格的木筋屋，黑白相间的外墙像一排排翻开的旧书页。突然，视线被前方一座红色砂岩的钟楼截住——它拔地而起，仿佛从街道尽头凭空长出来的一棵石树。阳光从它背后斜射过来，让砂岩的纹理变得格外温暖，每一道凿痕都像被时间磨亮的铜锈。钟楼的最下层是拱门通道，车流和人流从它下面穿过，像溪流穿过桥洞。真正惊艳的是靠近后抬头仰望的瞬间——那四个巨大的白色钟面像四只眼睛，嵌在深灰色的石框里，指针沉稳地走着，而钟面之上的石雕花纹繁复得像蕾丝，小尖塔和滴水兽探出身子，仿佛在偷看街上的行人。\n你听，钟声在整点响起时，整个切斯特的节奏都会为之一顿。那声音不急促，而是浑厚、缓慢，像老人在咳嗽，带着一种庄严的回响。在钟声的间隙里，你可以听到鸽子翅膀扑棱的声音、游客按动手机快门的咔嚓声，还有咖啡馆里杯碟碰撞的轻响。这座钟楼最打动人的地方，恰恰是它不把自己当成一个景点——它就在那儿，像一个大管家，每天早上八点和傍晚六点准时用钟声提醒人们起床或下班。当地人遛狗时从它下面经过，学生骑车绕过它的底座，甚至连醉汉都靠在它墙根下喝着啤酒。\n东门钟楼建在切斯特的古城墙上，而这段城墙的历史可以追溯到罗马时代。你如果顺着阶梯走上城墙，站在钟楼旁边，就能同时感受到两种时空：一边是城墙上眺望到的中世纪街巷轮廓，一边是城下现代咖啡馆飘来的拿铁香气。夕阳时分，钟楼的影子会被拉得很长，向东方投去，像一个温柔的巨人靠在城墙上小憩。很多游客在这里停留，却很少有人知道，这座钟楼的诞生是因为一个女人——维多利亚女王，以及一个关于忠诚与炫耀的维多利亚时代故事。"
+    "description": "第一次见到东门钟楼，我是在一个初秋的午后。沿着切斯特古老的东门街走着，两旁是典型都铎风格的木筋屋，黑白相间的外墙像一排排翻开的旧书页。突然，视线被前方一座红色砂岩的钟楼截住——它拔地而起，仿佛从街道尽头凭空长出来的一棵石树。阳光从它背后斜射过来，让砂岩的纹理变得格外温暖，每一道凿痕都像被时间磨亮的铜锈。钟楼的最下层是拱门通道，车流和人流从它下面穿过，像溪流穿过桥洞。真正惊艳的是靠近后抬头仰望的瞬间——那四个巨大的白色钟面像四只眼睛，嵌在深灰色的石框里，指针沉稳地走着，而钟面之上的石雕花纹繁复得像蕾丝，小尖塔和滴水兽探出身子，仿佛在偷看街上的行人。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calanais-standing-stones\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡兰尼什巨石阵</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calanais Standing Stones</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/equestrian-statue-of-the-duke-of-wellington-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    惠\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">惠灵顿公爵骑马雕像（格拉斯哥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Equestrian statue of the Duke of Wellington, Glasgow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cabot-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伯特塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cabot Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/centre-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士中心点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Centre of Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "calanais-standing-stones",
-          "name": "卡兰尼什巨石阵",
-          "englishName": "Calanais Standing Stones"
+          "slug": "equestrian-statue-of-the-duke-of-wellington-glasgow",
+          "name": "惠灵顿公爵骑马雕像（格拉斯哥）",
+          "englishName": "Equestrian statue of the Duke of Wellington, Glasgow"
         },
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "cabot-tower",
+          "name": "卡伯特塔",
+          "englishName": "Cabot Tower"
         },
         {
-          "slug": "cardiff-bay-barrage",
-          "name": "卡迪夫湾水闸",
-          "englishName": "Cardiff Bay Barrage"
+          "slug": "centre-of-wales",
+          "name": "威尔士中心点",
+          "englishName": "The Centre of Wales"
         }
       ]
     }

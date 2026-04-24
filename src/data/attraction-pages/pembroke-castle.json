@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "彭布罗克城堡・Pembroke Castle・英国・彭布罗克",
-    "description": "第一次看见彭布罗克城堡，是在一个潮湿的威尔士午后。我沿着彭布罗克镇的石板路往下走，两旁的排屋像彩色积木一样挤在一起，空气中飘着油炸鱼和咸海水的气息。转过街角的一刹那，那座庞然大物突然压了下来——巨大的、近乎完整的城堡，像一头灰色的史前巨兽，蹲在河流拐弯处的岩石上。它的塔楼又粗又矮，虎头虎脑的，让人想起一个固执的老兵，膝盖陷进泥土里，却怎么也推不倒。\n走进城门的那一刻，风声忽然变了味。外面是镇子上汽车和游客的嘈杂，里面却是被厚石墙吸纳过的寂静。脚下的草坪踩上去软软的，偶尔有海鸥的叫声从头顶的城垛上方飘来。你能闻到石头散发出的微凉、干燥、略带尘腥的古老气息，那种味道在雨后尤其浓郁，像是把八百年的时光都湿透了，再慢慢蒸发出来。城堡内部比照片里看到的要大得多，中庭开阔得像一个小型广场，但当你站在主塔脚下抬头，脖子几乎要仰断时，才能真实体会到什么叫做压迫感。\n当地人似乎并没有把它当成一个景点。我在城堡边的河堤上坐着，看见放学后的孩子们骑着自行车在城堡的阴影下追逐打闹，老人们坐在长椅上啃三明治，偶尔抬头看一眼那座塔，眼神里没有惊奇，只有一种理所当然的默契。城堡已经融入了这个小镇的生活节奏，就像河边的草、树上的鸟一样平常。可正是这种平常，让我觉得格外动人——一座快千年的老城堡，不是封存在博物馆里，而是和人们的日常呼吸在一起。\n最打动我的地方，是城堡地下的那个巨大洞穴。沿着旋转楼梯往下走，灯光越来越弱，空气变得潮湿阴冷，最后你走进一个由天然石灰岩溶洞扩建而成的石窟，头顶是钟乳石，脚底是不平整的岩石，暗河的水声从深处传来，像在低语。这里曾是城堡的厨房和秘密通道，据说亨利·都铎就是通过这条水路逃出去，开始了他的逃亡与复辟之旅。站在那个黑暗的洞窟里，你能听见自己的心跳，也仿佛听见历史在滴答作响。"
+    "description": "第一次看见彭布罗克城堡，是在一个潮湿的威尔士午后。我沿着彭布罗克镇的石板路往下走，两旁的排屋像彩色积木一样挤在一起，空气中飘着油炸鱼和咸海水的气息。转过街角的一刹那，那座庞然大物突然压了下来——巨大的、近乎完整的城堡，像一头灰色的史前巨兽，蹲在河流拐弯处的岩石上。它的塔楼又粗又矮，虎头虎脑的，让人想起一个固执的老兵，膝盖陷进泥土里，却怎么也推不倒。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mccaigs-tower-battery-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    麦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">麦凯格塔与炮台山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">McCaig's Tower & Battery Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/west-wales-falconry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西威尔士猎鹰中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">West Wales Falconry</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jedburgh-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杰德堡修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jedburgh Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bride-veil-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新娘面纱瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bride's Veil Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cardiff-bay-barrage",
-          "name": "卡迪夫湾水闸",
-          "englishName": "Cardiff Bay Barrage"
+          "slug": "west-wales-falconry",
+          "name": "西威尔士猎鹰中心",
+          "englishName": "West Wales Falconry"
         },
         {
-          "slug": "mccaigs-tower-battery-hill",
-          "name": "麦凯格塔与炮台山",
-          "englishName": "McCaig's Tower & Battery Hill"
+          "slug": "jedburgh-abbey",
+          "name": "杰德堡修道院",
+          "englishName": "Jedburgh Abbey"
         },
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "bride-veil-falls",
+          "name": "新娘面纱瀑布",
+          "englishName": "Bride's Veil Falls"
         }
       ]
     }

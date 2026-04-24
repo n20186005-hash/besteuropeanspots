@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伯纳姆海上低灯塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "伯纳姆海上低灯塔・Burnham-on-sea Low Lighthouse・英国・威尔士",
-    "description": "第一次听说这座灯塔时，我以为是某个电影道具。直到站在伯纳姆海上镇的泥滩上，看着远处退潮后裸露的海床上矗立着一座白色的矮胖灯塔，才明白什么叫现实比想象更魔幻。空气里弥漫着浓烈的海泥味，混合着盐和腐烂的海藻——那是布里斯托尔海峡特有的气息，有点像刚挖开的牡蛎壳混着青草汁。海风把头发吹得像旗子一样乱飘，耳朵里全是海鸥尖利的叫声，夹杂着远处潮水退去的嘶嘶声。脚下的泥滩又软又滑，每一步都像踩进巧克力酱里，费劲地拔出来，又陷进去。偶尔有小螃蟹从脚边横着爬过，留下一道细长的痕迹。\n走近了才发现，这座灯塔比想象中矮得多，大概只有三层楼高。白色的铸铁塔身生满橙红色的铁锈和灰绿色的地衣，像一位穿着旧军装的退伍老兵。塔基周围散落着零星的贝壳和浮木，一些海鸟的羽毛被风吹到墙角。我绕着它走了一圈，发现塔身并不是笔直的，而是微微向北倾斜——那是1980年一场暴风雨留下的伤疤。最震撼的是站在塔下仰望天空，感觉自己变成了蚂蚁。这座灯塔不像那些悬崖上的灯塔那样孤傲，它更像是从泥巴里长出来的蘑菇，老实巴交地守着这片浅滩。\n当地老人告诉我，退潮时这里的泥滩能延伸到海平面以下，形成一片巨大的沼泽迷宫。以前没有导航，很多船就在这里搁浅，船底被泥巴吸住，再也出不去。而这座灯塔，就是专门给那些迷路的船指路的。现在它不发光了，但老人们每天遛狗时还会朝它看一眼，像看一个沉默的老邻居。"
+    "description": "第一次听说这座灯塔时，我以为是某个电影道具。直到站在伯纳姆海上镇的泥滩上，看着远处退潮后裸露的海床上矗立着一座白色的矮胖灯塔，才明白什么叫现实比想象更魔幻。空气里弥漫着浓烈的海泥味，混合着盐和腐烂的海藻——那是布里斯托尔海峡特有的气息，有点像刚挖开的牡蛎壳混着青草汁。海风把头发吹得像旗子一样乱飘，耳朵里全是海鸥尖利的叫声，夹杂着远处潮水退去的嘶嘶声。脚下的泥滩又软又滑，每一步都像踩进巧克力酱里，费劲地拔出来，又陷进去。偶尔有小螃蟹从脚边横着爬过，留下一道细长的痕迹。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-coastal-path-west-shore-sand-dunes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海岸步道（西岸沙丘）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path (West Shore Sand Dunes)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/swansea-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Swansea Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bryntail-lead-mine-buildings",
-          "name": "布林泰尔铅矿建筑",
-          "englishName": "Bryntail Lead Mine Buildings"
+          "slug": "castell-aberystwyth",
+          "name": "阿伯里斯特威斯城堡",
+          "englishName": "Castell Aberystwyth"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "wales-coastal-path-west-shore-sand-dunes",
+          "name": "威尔士海岸步道（西岸沙丘）",
+          "englishName": "Wales Coastal Path (West Shore Sand Dunes)"
         },
         {
-          "slug": "britannia-bridge",
-          "name": "布里塔尼亚桥",
-          "englishName": "Britannia Bridge"
+          "slug": "swansea-castle",
+          "name": "斯旺西城堡",
+          "englishName": "Swansea Castle"
         }
       ]
     }

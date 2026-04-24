@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "科林·麦克雷弯道",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "科林·麦克雷弯道・Colin McRae's Cray Corner・英国・威尔士",
-    "description": "我第一次听说这个弯道，是在威尔士一家破旧酒吧里。当地老人喝着淡啤酒，用含糊的威尔士口音告诉我：“你知道Colin McRae吗？他就在我们山那头翻了车，车滚了三圈，树都撞断了两棵。”我半信半疑地翻出手机地图，发现这座英国西南部的荒凉山区里，居然真的有一个用他名字命名的弯道——Cray Corner。\n第二天清晨，我开车沿着湿漉漉的乡村公路往深处走。雾气从山脚缓缓爬升，把松树和橡树的轮廓泡得模糊。车停在一条不起眼的岔道口，只有一块锈迹斑斑的铁牌写着“Cray Corner”和一个箭头。我熄火下车，瞬间被一种奇异的寂静吞没——没有鸟叫，没有风声，只有自己的呼吸和远处偶尔传来的乌鸦嘶鸣。脚下的泥土路被露水浸透，踩上去软绵绵的，松针的气味混着泥土的腥甜直往鼻子里钻。\n沿着小径走了五分钟，弯道突然出现在眼前：一个左急弯，路面散落着碎石和干涸的泥土块，弯心处有一片被车辙压得发亮的地面。旁边的树皮上留着深深的刮痕，像是用钝刀刻上去的。我蹲下来摸了摸地面，指尖触到几粒嵌在土里的玻璃碴——也许是当年赛车碎掉的尾灯。空气中闻不到汽油味，只有陈旧的霉木和湿润的苔藓。这个弯道没有任何纪念雕像或游客中心，除了偶尔路过的一辆慢悠悠的拖拉机，就只有被时间抚平的静默。\n当地人告诉我，2001年11月的那个傍晚，威尔士拉力赛GB站进入最后一个赛段，科林·麦克雷驾驶他的福特福克斯赛车在这里（当时的编号SS15赛段）因为判断失误，高速入弯后车身失控，在草地上翻滚了三圈，最后底朝天停在弯道外。幸运的是，他和领航员毫发无伤地爬了出来。但那次翻车成了科林职业生涯后期的一个标志性瞬间——那个曾以疯狂漂移征服世界的男人，在这片森林里摔了个灰头土脸。如今，这里没有奖杯，没有聚光灯，只有偶尔一辆车迷开到弯道前停下来，对着空无一人的森林发呆，像是在与一个逝去的老朋友道别。"
+    "description": "我第一次听说这个弯道，是在威尔士一家破旧酒吧里。当地老人喝着淡啤酒，用含糊的威尔士口音告诉我：“你知道Colin McRae吗？他就在我们山那头翻了车，车滚了三圈，树都撞断了两棵。”我半信半疑地翻出手机地图，发现这座英国西南部的荒凉山区里，居然真的有一个用他名字命名的弯道——Cray Corner。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castle-of-old-wick\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维克老城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Of Old Wick</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/centre-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士中心点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Centre of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-faw-150-years-memorial-mural\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士足协150周年纪念壁画</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales FAW 150 Years Memorial Mural</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dyfi-osprey-project\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戴菲鱼鹰保护项目</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dyfi Osprey Project</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castle-of-old-wick",
-          "name": "维克老城堡",
-          "englishName": "Castle Of Old Wick"
+          "slug": "centre-of-wales",
+          "name": "威尔士中心点",
+          "englishName": "The Centre of Wales"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "wales-faw-150-years-memorial-mural",
+          "name": "威尔士足协150周年纪念壁画",
+          "englishName": "Wales FAW 150 Years Memorial Mural"
         },
         {
-          "slug": "big-ben",
-          "name": "大本钟",
-          "englishName": "Big Ben"
+          "slug": "dyfi-osprey-project",
+          "name": "戴菲鱼鹰保护项目",
+          "englishName": "Dyfi Osprey Project"
         }
       ]
     }

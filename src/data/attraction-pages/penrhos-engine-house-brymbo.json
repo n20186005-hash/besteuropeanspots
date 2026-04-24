@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布劳顿（Broughton）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭罗斯引擎屋",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "彭罗斯引擎屋・Penrhos Engine House, Brymbo・英国・布劳顿（Broughton）",
-    "description": "说实话，当我第一次按照导航开到彭罗斯引擎屋门前时，差点以为自己走错了地方。它就这么静悄悄地待在布劳顿镇一个不起眼的角落，周围是普通的住宅区和小片绿地，看不出半点恢弘的气势。但就是这份普通，反而让我心里一紧。我想象中那种轰鸣的、蒸汽缭绕的工业场景早已消散，只剩下这间不到三层楼高的石头房子，孤独地在岁月的尘埃里喘着气。\n推门进去的那一刻，空气里弥漫着一股混合着铁锈、机油和旧木材的特殊气味，不是那种博物馆里被甲醛泡过的干净味道，而是一种更原始、更厚重的气息，仿佛每一粒飘浮在光柱中的灰尘都有自己的故事。清晨的阳光透过北侧那几扇高大的、布满灰尘的铁窗，在斑驳的地砖上投下长长的、倾斜的光影。整个空间最高的地方就是那个曾经安放蒸汽机的位置，如今只剩下一个巨大空洞的铸铁底座，像是一座被掏空了心脏的圣坛。\n你能听到的唯一声音是风穿过老旧砖墙缝隙时发出的嗡嗡声，偶尔有几声鸽子的咕咕叫从房顶的木梁间传来。这和两百年前这里震耳欲聋的金属碰撞声形成了多么讽刺的对比。我当时就靠在墙边，闭上眼睛试着去想象那些满脸煤灰、体魄强壮的工人们，在同样的空间里挥汗如雨，甚至咒骂着机械的故障。我开始理解，这个地方的魔力不在于它的精美，而在于它的真实。它没有把自己包装成一个精致的旅游纪念品，它把自己的骄傲和伤痕都赤裸裸地摊开给你看。\n最打动我的是嵌在墙里的一小块展示板，上面是一位当地老工人的照片，大概摄于20世纪初。照片里的他眼神坚毅，同时又带着一种深不见底的疲惫。他身后就是这座引擎屋。那一刻，我忽然觉得，关于“进步”和“发展”的所有宏大叙事，都凝结在了他那双沾满油污的手上。这座引擎屋不仅仅是一台机器的外壳，它是无数个普通人的青春、家庭和全部天地的庇护所。"
+    "description": "说实话，当我第一次按照导航开到彭罗斯引擎屋门前时，差点以为自己走错了地方。它就这么静悄悄地待在布劳顿镇一个不起眼的角落，周围是普通的住宅区和小片绿地，看不出半点恢弘的气势。但就是这份普通，反而让我心里一紧。我想象中那种轰鸣的、蒸汽缭绕的工业场景早已消散，只剩下这间不到三层楼高的石头房子，孤独地在岁月的尘埃里喘着气。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llywelyn-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卢埃林纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llywelyn Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/falkland-palace-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    法\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">法克兰宫（福克兰宫）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Falkland Palace & Garden (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/staffa-national-nature-reserve-fingals-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    芬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">芬戈尔洞（斯塔法岛国家自然保护区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staffa National Nature Reserve - Fingal's Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "britannia-bridge",
-          "name": "布里塔尼亚桥",
-          "englishName": "Britannia Bridge"
+          "slug": "staffa-national-nature-reserve-fingals-cave",
+          "name": "芬戈尔洞（斯塔法岛国家自然保护区）",
+          "englishName": "Staffa National Nature Reserve - Fingal's Cave"
         },
         {
-          "slug": "llywelyn-monument",
-          "name": "卢埃林纪念碑",
-          "englishName": "Llywelyn Monument"
+          "slug": "blue-lagoon-abereiddi",
+          "name": "蓝湖",
+          "englishName": "Blue Lagoon - Abereiddi"
         },
         {
-          "slug": "falkland-palace-garden",
-          "name": "法克兰宫（福克兰宫）",
-          "englishName": "Falkland Palace & Garden (National Trust for Scotland)"
+          "slug": "ardvreck-castle",
+          "name": "阿德夫雷克城堡",
+          "englishName": "Ardvreck Castle"
         }
       ]
     }

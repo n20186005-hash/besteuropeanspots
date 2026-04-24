@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣利斯，格拉摩根谷，威尔士",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣利斯墓葬室",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-fagans-national-museum-of-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣法甘斯国家历史博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St. Fagans National Museum of History</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pembrokeshire-coast-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡海岸国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Coast National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-quiraing\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奎拉因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Quiraing</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pembroke-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembroke Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "st-fagans-national-museum-of-history",
-          "name": "圣法甘斯国家历史博物馆",
-          "englishName": "St. Fagans National Museum of History"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         },
         {
-          "slug": "pembrokeshire-coast-national-park",
-          "name": "彭布罗克郡海岸国家公园",
-          "englishName": "Pembrokeshire Coast National Park"
+          "slug": "the-quiraing",
+          "name": "奎拉因",
+          "englishName": "The Quiraing"
         },
         {
-          "slug": "parc-cwm-darran",
-          "name": "帕克库姆达兰公园",
-          "englishName": "Parc Cwm Darran"
+          "slug": "pembroke-castle",
+          "name": "彭布罗克城堡",
+          "englishName": "Pembroke Castle"
         }
       ]
     }

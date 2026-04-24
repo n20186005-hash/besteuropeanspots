@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰多维利",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布赖恩湖水库与坝",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布赖恩湖水库与坝・Llyn Brianne Dam & Reservoir・英国・兰多维利",
-    "description": "我从未想过，一片人工造出的湖泊能呈现如此原始而苍凉的美。车离开B4339乡道，道路突然变成砂石路面，颠簸中扬起尘土。我摇下车窗，风里裹着泥炭和蕨类的潮湿气息钻进来，像极了苏格兰高地的味道。拐过一个弯，水库毫无征兆地出现在左侧的深谷里，蓝绿色的水面倒映着云雾缭绕的山坡。第一眼，我几乎以为自己撞进了一幅古典主义山水画——那种带着忧郁潮湿的北方风景，画家们会调出群青与赭石反复渲染。\n停好车，走到大坝旁的观景台，脚下是十几层楼高的垂直落差。坝体庞大得令人屏息，混凝土和石头构成的灰白色坡面像一头沉默的巨兽趴在山谷里。耳朵紧接着捕捉到一种低沉持续的轰鸣声——那是溢洪道底部渗水撞击岩石的回响，并不刺耳，却像大地在喘息。水流从泄洪孔中涌出，白沫翻腾，在石滩上汇聚成溪，奔向远方。绕过观景台另一侧，水库湖面突然开阔起来，像一面巨大的镜子，把四周起伏的草坡和远处山脊的阴影全部吞了进去。湖水静得吓人，连微波都吝啬，偶尔有苍鹭从芦苇丛中飞起，翅膀扑棱的声音反而加深了这里的寂静。\n当地人告诉我，这片水域下淹没着一个古老的村庄——特雷萨内（Tresane）。当年为了建造水库，政府强制搬迁了三十多户居民，那些低矮的石板房、教堂和田间小路全部被水吞噬。如今在干旱年份，水位下降时，还能隐约看到残垣断壁从水下浮现。这让我站在观景台上时心情复杂起来。一边是人类为了工业文明创造的宏大工程，另一边是这片土地曾经有过的烟火气。湖水像一层厚厚的绿玻璃，封存着那些不为人知的故事。偶尔有鳟鱼跃出水面，溅起水花，我盯着涟漪散开，想象着百米深处那间沉没的厨房里，是否还有一只搪瓷茶壶躺在淤泥中。\n最打动我的，是黄昏时分的光线。夕阳斜穿过云层缝隙，把坝体和山坡都染成了琥珀色。水库的水面从蓝绿慢慢变成铜金色，风开始变得冰凉，草坡上有一群威尔士黑羊缓缓移动，它们的铃铛叮当作响。我坐在一根倒塌的石柱上，呼出的白汽跟山雾混在一起，什么都不想，就那么看着光影一寸一寸地撤退。那一刻我感到，这个人工湖已经长成了自然的一部分，用它自己的方式呼吸着。它不是冰冷的水泥纪念碑，而是一块有生命的结痂，沉默地记录着人与土地的爱恨。"
+    "description": "我从未想过，一片人工造出的湖泊能呈现如此原始而苍凉的美。车离开B4339乡道，道路突然变成砂石路面，颠簸中扬起尘土。我摇下车窗，风里裹着泥炭和蕨类的潮湿气息钻进来，像极了苏格兰高地的味道。拐过一个弯，水库毫无征兆地出现在左侧的深谷里，蓝绿色的水面倒映着云雾缭绕的山坡。第一眼，我几乎以为自己撞进了一幅古典主义山水画——那种带着忧郁潮湿的北方风景，画家们会调出群青与赭石反复渲染。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "cwm-rhaeadr-forest",
+          "name": "坎姆拉德森林瀑布",
+          "englishName": "Cwm Rhaeadr Forest"
         },
         {
-          "slug": "canterbury-cathedral",
-          "name": "坎特伯雷大教堂",
-          "englishName": "Canterbury Cathedral"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "conwy-falls",
+          "name": "康威瀑布",
+          "englishName": "Conwy Falls"
         }
       ]
     }

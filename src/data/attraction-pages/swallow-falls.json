@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "贝图斯-科伊德",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "燕子瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "燕子瀑布・Swallow Falls・英国・贝图斯-科伊德",
-    "description": "初见燕子瀑布，其实先于视觉闯入的是声音。沿着A5公路徒步接近时，一股低沉而持续的低吼穿透松林的沙沙声越来越清晰。直到拐过最后一个弯，水雾扑面而来，我这才真正理解什么叫“未见其貌，先闻其声”。瀑布从两块巨大的岩壁中间跌落，四溅的水花在阳光里化成一道永不消散的彩虹，悬挂在长满苔藓的岩壁上。空气里弥漫着湿润的泥土味和松脂的气息，每吸一口都觉得肺部被彻底清洗了一遍。那些水珠打在脸上凉丝丝的，像被森林偷偷亲了一口。\n我到的那个秋日午后，游客不算多。一对老夫妻坐在瀑布下方的石头上，安静地吃着三明治，偶尔喂给脚边的乌鸦。有个男孩脱了鞋，小心翼翼地试探着踩进潭边的浅水区，冷得他倒抽一口气，却哈哈大笑。瀑布对岸的观景台是拍摄全景的最佳位置，站在那里，整个瀑布像一幅会呼吸的3D油画——水流不是均匀地滑落，而是分成了几条银白色的绸带，在褐色的岩石上撞击出无数碎钻。光线透过林隙在水雾中织出一层薄薄的金纱，水潭里的倒影随着涟漪明灭不定，美得让人不敢大声说话，生怕惊扰了这份宁静。\n当地人把这里当作周末的后花园。带狗的、骑山地车的、推婴儿车的，都能沿着维护良好的步道轻松抵达。瀑布旁边有一家小咖啡馆，用回收的木材建造，卖的是威尔士传统司康配浓茶。坐在户外的木桌旁，听着瀑布声佐餐，时间仿佛被水流拉长了。有个大叔告诉我，这瀑布在他爷爷的爷爷那一辈就是这样，除了旁边的树长高了些，什么也没变。我羡慕这种永恒感——在什么都加速的时代，还有这样一个地方固执地按自己的节奏流淌。\n最打动我的是黄昏时分。游客散尽后，我独自留在观景台。夕阳的余晖从西边斜射进来，把瀑布的水纹染成了琥珀色。水声变得更为宏大，像是整座山都在呼吸。一只翠鸟闪电般掠过水面，在潭中留下一圈圈扩散的波纹。那一刻，我觉得自己不是在看风景，而是在参与一场古老的仪式——大地正通过水、风和光，重新教会我如何安静地聆听。燕子瀑布不需要任何解说牌，它的美就是它的语言。"
+    "description": "初见燕子瀑布，其实先于视觉闯入的是声音。沿着A5公路徒步接近时，一股低沉而持续的低吼穿透松林的沙沙声越来越清晰。直到拐过最后一个弯，水雾扑面而来，我这才真正理解什么叫“未见其貌，先闻其声”。瀑布从两块巨大的岩壁中间跌落，四溅的水花在阳光里化成一道永不消散的彩虹，悬挂在长满苔藓的岩壁上。空气里弥漫着湿润的泥土味和松脂的气息，每吸一口都觉得肺部被彻底清洗了一遍。那些水珠打在脸上凉丝丝的，像被森林偷偷亲了一口。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-museum-cardiff\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫国家博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Museum Cardiff</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ronda-cliff-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    龙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">龙达悬崖小镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ronda</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kornati-islands-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔纳蒂群岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kornati Islands</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bengtskar-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    本\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">本特谢尔灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bengtskär Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/norcia-umbria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺尔恰（圣本笃的故乡与黑松露中心）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Norcia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lipsi-island\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利普西岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lipsi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "national-museum-cardiff",
-          "name": "卡迪夫国家博物馆",
-          "englishName": "National Museum Cardiff"
+          "slug": "bengtskar-lighthouse",
+          "name": "本特谢尔灯塔",
+          "englishName": "Bengtskär Lighthouse"
         },
         {
-          "slug": "ronda-cliff-town",
-          "name": "龙达悬崖小镇",
-          "englishName": "Ronda"
+          "slug": "norcia-umbria",
+          "name": "诺尔恰（圣本笃的故乡与黑松露中心）",
+          "englishName": "Norcia"
         },
         {
-          "slug": "kornati-islands-national-park",
-          "name": "科尔纳蒂群岛",
-          "englishName": "Kornati Islands"
+          "slug": "lipsi-island",
+          "name": "利普西岛",
+          "englishName": "Lipsi"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "乔治广场",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "乔治广场・George Square・英国・格拉斯哥",
-    "description": "第一次撞见乔治广场，是在一个阴晴不定的四月下午。我刚从格拉斯哥中央车站钻出来，拉着行李箱还没走几步，一股湿漉漉的风就裹着鸽子翅膀的扑棱声迎面扑来。广场比我预想的要大，不像巴黎的协和广场那样空旷到冷漠，也不像威尼斯圣马可广场那样拥挤到窒息。草地的绿是那种被雨水腌透的深绿，四周维多利亚式建筑的石材表面泛着灰扑扑的光，像一张褪了色的老照片。\n我第一眼看到的是广场中央那根高达近八十米的沃尔特·斯科特爵士纪念柱。说真的，在没见到它之前，我从不知道一根石柱能这么有脾气。它就那么直愣愣地戳在那儿，底部的苏格兰蓟花雕刻已模糊了棱角，柱顶那位大文豪的背影和整个格拉斯哥的天际线融为一体。周围散布着他的同行们——诗人彭斯正低头沉思，维多利亚女王和阿尔伯特亲王背对背站着，像是刚吵完架。广场上的人各忙各的：滑板少年在市政厅台阶上练招式，满头银发的老太太把面包掰碎了喂鸽子，几个穿苏格兰裙的街头艺人吹着风笛，笛声穿堂过巷，缠着雨滴一起落下。\n如果你在下午四点后来，会看见夕阳从市政厅的三角楣饰后方向下渗，把整排科林斯柱头的凹槽染成蜂蜜色。这时广场上会突然多出一群下班的上班族，他们夹着公文包横穿草地，手里端着从街角咖啡馆买来的热咖啡，脚步快得像急着逃离某个看不见的幽灵。但总有人会停下脚步，站在维多利亚女王雕像前发呆。我猜这就是乔治广场打动人心的核心魅力——它既不威严到让人不敢亲近，也不市井到流于庸俗，它像一个你认识了很久的老邻居，你随时可以在它身边坐下，说说话，或者什么都不说。"
+    "description": "第一次撞见乔治广场，是在一个阴晴不定的四月下午。我刚从格拉斯哥中央车站钻出来，拉着行李箱还没走几步，一股湿漉漉的风就裹着鸽子翅膀的扑棱声迎面扑来。广场比我预想的要大，不像巴黎的协和广场那样空旷到冷漠，也不像威尼斯圣马可广场那样拥挤到窒息。草地的绿是那种被雨水腌透的深绿，四周维多利亚式建筑的石材表面泛着灰扑扑的光，像一张褪了色的老照片。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cotswolds-aonb\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科茨沃尔德地区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cotswolds AONB</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/edinburgh-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Edinburgh Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/clydach-gorge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱达赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Clydach Gorge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/paxtons-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克斯顿塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Paxton's Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/iona-abbey-and-nunnery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾奥娜修道院和修女院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Iona Abbey and Nunnery</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cotswolds-aonb",
-          "name": "科茨沃尔德地区",
-          "englishName": "Cotswolds AONB"
+          "slug": "paxtons-tower",
+          "name": "帕克斯顿塔楼",
+          "englishName": "National Trust - Paxton's Tower"
         },
         {
-          "slug": "edinburgh-zoo",
-          "name": "爱丁堡动物园",
-          "englishName": "Edinburgh Zoo"
+          "slug": "the-tenement-house-glasgow",
+          "name": "公寓博物馆（苏格兰国家信托）",
+          "englishName": "The Tenement House (National Trust for Scotland)"
         },
         {
-          "slug": "clydach-gorge",
-          "name": "克莱达赫峡谷",
-          "englishName": "Clydach Gorge"
+          "slug": "iona-abbey-and-nunnery",
+          "name": "艾奥娜修道院和修女院",
+          "englishName": "Iona Abbey and Nunnery"
         }
       ]
     }

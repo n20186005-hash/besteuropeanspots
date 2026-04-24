@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣戈万礼拜堂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "圣戈万礼拜堂・Saint Govan's Chapel・英国・彭布罗克郡",
-    "description": "我第一次见到圣戈万礼拜堂，不是在晴朗的明信片上，而是在一个阴雨绵绵的下午。沿着彭布罗克郡海岸国家公园的步道走，两旁的草被海风吹得紧贴着地面，发出沙沙的声响。空气中弥漫着咸腥的海水味和湿漉漉的泥炭气息，脚下是被雨水浸透的泥泞小径。正当我质疑自己为什么要在这个鬼天气里长途跋涉时，我走到了一片被浓雾笼罩的悬崖边缘。我伸手抹了一把脸上的雨滴，顺着一个不起眼的铁制指示牌往下张望。然后，它就出现了。\n它不像一般的教堂那样高耸或庄严，而像一只卑微的、被风化的牡蛎，紧紧贴在灰白色的悬崖裂缝中。从峭壁上往下看，它小得令人难以置信，几乎就是一间只有十几个平方的石盒子。它的屋顶和崖壁的岩石严丝合缝，仿佛是从悬崖的肚子里长出来的。耳边除了海浪拍打底部岩洞时发出的巨大轰鸣声，只剩下海鸥凄厉的鸣叫。那一刻，我和这个世界之间好像只剩下了这两样东西：激荡的大海，和这座沉默的小石屋。\n我顺着一条被千万双脚磨圆了的、仅容一人通过的岩石阶梯，小心翼翼地向下爬。阶梯很陡，一侧就是毫无遮挡的断崖，深不见底，下方是泛着白沫的海水在翻滚。你能感觉到脚下的石头因为潮湿而光滑，每一块都仿佛在诉说着几个世纪以来，有多少朝圣者和牧羊人曾从这里走过。空气的温度在下降，一种石头和海洋深处混合出的冷冽气味扑鼻而来。当我终于下到底部，站在那扇低矮的石门前时，我愣住了。它不是骄傲的，也不是神秘的，它只是一个庇护所——一个在狂风暴雨和混乱尘世中为你提供片刻宁静的岩洞。\n走进礼拜堂，内部小得让人感到一种奇异的亲密感。只有一个窄长的房间，大概勉强能坐下二十个人。最里面是一个石砌的小圣坛，连雕刻都没有，就只是几块石板垒起来。墙角有一块天然的岩石凸起，被称作“圣戈万之床”。光线是从那两扇极小的窗户透进来的，因为窗户开在岩石的凹陷里，所以即使外面是正午，屋里也像是黄昏，空气中漂浮着细小的尘埃，在微弱的光束里缓慢盘旋。我往圣坛前的长椅上坐下，外面的一切噪音都被厚实的石灰岩墙壁隔绝了大部分，只剩下一种深沉的、像叹息一样的寂静。这种寂静不是空洞的，而是有温度的，像一块旧手帕，包裹住了你的全部不安。"
+    "description": "我第一次见到圣戈万礼拜堂，不是在晴朗的明信片上，而是在一个阴雨绵绵的下午。沿着彭布罗克郡海岸国家公园的步道走，两旁的草被海风吹得紧贴着地面，发出沙沙的声响。空气中弥漫着咸腥的海水味和湿漉漉的泥炭气息，脚下是被雨水浸透的泥泞小径。正当我质疑自己为什么要在这个鬼天气里长途跋涉时，我走到了一片被浓雾笼罩的悬崖边缘。我伸手抹了一把脸上的雨滴，顺着一个不起眼的铁制指示牌往下张望。然后，它就出现了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/penrhos-coastal-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭罗斯海岸公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Arfordirol Penrhos Coastal Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tolbooth-kirk\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    托\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">托尔布斯教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tolbooth Kirk</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/powis-castle-and-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波伊斯城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Powis Castle and Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pierhead-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔海德大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pierhead Building</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "tolbooth-kirk",
+          "name": "托尔布斯教堂",
+          "englishName": "Tolbooth Kirk"
         },
         {
-          "slug": "cardiff-castle",
-          "name": "卡迪夫城堡",
-          "englishName": "Cardiff Castle"
+          "slug": "powis-castle-and-garden",
+          "name": "波伊斯城堡与花园",
+          "englishName": "Powis Castle and Garden"
         },
         {
-          "slug": "penrhos-coastal-park",
-          "name": "彭罗斯海岸公园",
-          "englishName": "Parc Arfordirol Penrhos Coastal Park"
+          "slug": "pierhead-building",
+          "name": "皮尔海德大楼",
+          "englishName": "Pierhead Building"
         }
       ]
     }

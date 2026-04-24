@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "霍利韦尔 (Holywell)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣维尼弗雷德国家天主教圣地",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "圣维尼弗雷德国家天主教圣地・The National Catholic Shrine of St Winefride・英国・霍利韦尔 (Holywell)",
-    "description": "第一次见到圣维尼弗雷德圣井时，说实话，我有点愣住了。它不是在我想象中的那种荒凉的、被苔藓覆盖的山脚洞穴，而是被包在一座小巧的石砌教堂的地下室里。你必须顺着一段窄窄的、光溜溜的石台阶走下来，空气瞬间就变得潮湿了，带着一种深沉的地窖气味，像是泥土和石头在被水浸透后呼出的气息。然后，你就听到了声音——不是溪流那种哗啦啦的奔涌，而是咕噜噜的、源源不断的水涌出来的声音，低沉而持续，像大地的脉搏。\n那口井就在眼前。井口不大，大概也就两三米见方，但水却出奇地清澈，蓝幽幽的，带着一种不属于人间的深邃。水面之下，你可以看到硬币——密密麻麻的、各个年代的硬币，很多已经长出了绿色的铜锈，安静地躺在井底的鹅卵石上。它们不是单纯的许愿硬币，而是朝圣者们放下的“契约”。更奇妙的是，水从井口溢出来，顺着三层宽大的石阶流淌而下，形成了一个迷你的室内瀑布，最终汇入一个浅池。你可以脱掉鞋子，把脚浸进去。六月的威尔士，外面的气温也就十几度，但水却是温的，带着一种近乎拥抱的柔软温度，瞬间就抚平了长途跋涉的疲惫。\n在霍利韦尔小镇上，圣井从来都不是一个“景点”。它是小镇的心脏和灵魂。你能看到住在附近的老人，在傍晚时分漫步到池边，用手捧起水喝两口，然后再往头上抹一把，仿佛完成了一个日常的、简单的仪式。也有年轻人，背着巨大的登山包，沉默地坐在池边的长椅上，手里紧紧攥着一串念珠。空气中弥漫着一种奇异的静谧，但又不是那种压抑的静。它充满了声音——水声、祈祷者低声的呢喃声、偶尔硬币落入水中的清脆叮当声、远处教堂传来的管风琴练习声。这声音混合在一起，形成了一种经久不息的嗡嗡声，仿佛是这座小镇在1300年里持续的呼吸。\n最打动我的，不是这口井的历史有多古老，而是它的“活着”。很多欧洲的宗教遗址，你走进去，感觉是被封存在琥珀里的标本，供人观赏。但这里不是。空气中飘着的淡淡玫瑰念珠的香气，墙上供奉的、充满现代感的病愈见证信，放在神龛旁的被摸得发亮的石头——所有的一切都在告诉你：1300年来，每一天都有人带着他们最私密的痛苦和恐惧来到这里，把脚放进同一池水中，然后带着新的力量离开。这是一种极其具体、极其诚实的信仰，它不需要你相信什么，只需要你坐下来，感受水流的温柔，你就懂了。"
+    "description": "第一次见到圣维尼弗雷德圣井时，说实话，我有点愣住了。它不是在我想象中的那种荒凉的、被苔藓覆盖的山脚洞穴，而是被包在一座小巧的石砌教堂的地下室里。你必须顺着一段窄窄的、光溜溜的石台阶走下来，空气瞬间就变得潮湿了，带着一种深沉的地窖气味，像是泥土和石头在被水浸透后呼出的气息。然后，你就听到了声音——不是溪流那种哗啦啦的奔涌，而是咕噜噜的、源源不断的水涌出来的声音，低沉而持续，像大地的脉搏。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rspb-gwenffrwd-dinas\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格温弗鲁德-迪纳斯自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">RSPB Gwenffrwd-Dinas</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brean-down-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林当堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brean Down Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gypsy-wood-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉普赛森林公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gypsy Wood Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dolwyddelan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多尔威德兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dolwyddelan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/manorafon-farm-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    曼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">曼诺拉方农场公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Manorafon Farm Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "rspb-gwenffrwd-dinas",
-          "name": "格温弗鲁德-迪纳斯自然保护区",
-          "englishName": "RSPB Gwenffrwd-Dinas"
+          "slug": "castell-dolwyddelan",
+          "name": "多尔威德兰城堡",
+          "englishName": "Castell Dolwyddelan"
         },
         {
-          "slug": "brean-down-fort",
-          "name": "布林当堡垒",
-          "englishName": "Brean Down Fort"
+          "slug": "manorafon-farm-park",
+          "name": "曼诺拉方农场公园",
+          "englishName": "Manorafon Farm Park"
         },
         {
-          "slug": "gypsy-wood-park",
-          "name": "吉普赛森林公园",
-          "englishName": "Gypsy Wood Park"
+          "slug": "bedd-arthur",
+          "name": "贝德·阿瑟",
+          "englishName": "Bedd Arthur"
         }
       ]
     }

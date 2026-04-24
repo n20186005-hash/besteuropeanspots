@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格雷弗里亚教堂墓地",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格雷弗里亚教堂墓地・Greyfriars Kirkyard Cemetery Edinburgh・英国・爱丁堡",
-    "description": "推开那扇通往 Candlemaker Row 的铁门，脚下踩着的不是寻常的泥土路，而是一块块被无数访客打磨得光滑锃亮的古老石板。空气里弥漫着一股湿润的苔藓味，混着泥土的芬芳，偶尔还夹杂着几缕从旁边咖啡馆飘出来的咖啡香。你的视线越过那些密密麻麻、歪歪扭扭的墓碑，会看到一座小丘，上面长满了厚厚的青苔，像是给那些沉睡了几百年的灵魂盖上了一层绿色的被子。最打动人心的，不是那些精美的雕塑，而是那种毫不避讳的宁静。它不像一般的墓园那么阴森可怖，反而有一种奇妙的、充满活力的沉静，仿佛这些遗迹本身就是城市跳动的心脏。\n你往前走几步，就会看到那座深色的、贴着墙壁的墓碑，上面躺着一只小小的、已经磨损了的雕塑，那不是别人，正是全苏格兰最著名的狗——波比。它脚下的小垫子已经被无数游客摸得锃亮，旁边还放着一束束新鲜的花。当地人遛狗经过，也会停下来，让自家狗狗闻闻波比的味道，好像是在打招呼。这里不是一个被遗忘的角落，它是社区生活的一部分，是遛弯的必经之处，是学生们午休时晒太阳的草坪，也是世界各地游客来爱丁堡必做的一件“正经事”。空气中除了草木的味道，还有一种很特别的、旧石头的味道，干燥、微咸，又带着一丝纯净的薄荷般清凉，让人忍不住深深地吸上一口气。\n走进墓园深处，绿荫遮蔽了大部分光线，只有几束阳光透过稀疏的树叶，在那些长满了绿色藻类的墓碑上投下斑驳的光影。你会看到一些被铁围栏圈起来的、像是小型石棺一样的墓穴，上面刻着繁复的家族纹章和拉丁文祷词。而另一些则只是平躺在地上的石板，字迹早已模糊不清，上面覆盖着厚厚的落叶。角落里，有一块墓碑前总是围着最多人，不是因为墓主人有多伟大，而是因为上面刻着一个名字：托马斯·里德尔。对，你没听错，就是那个名字。很多人会蹲下来，用手指轻轻划过那些刻痕，仿佛在触碰另一个世界的边缘，心里默念着JK罗琳那支神奇的羽毛笔，是如何从这个冰冷的石头里，衔出了整个魔法世界。不得不说，这种现实与虚构交织的感觉，是爱丁堡这座城市最独特的魔法。\n再往里走，墓地的尽头是一扇不起眼的小门，通向所谓的“烈士监狱”，其实是当年关押签署了《国民盟约》的苏格兰长老会起义者的地方。你站在那阴暗、低矮的石室门口，能感受到一股沉重的凉气从里面呼出来，仿佛能听见几百年前关押在这里的那些人，因为不肯放弃信仰而发出的低语和祷告。这里的墙壁上刻满了囚犯们的涂鸦，有些是名字，有些是经文，有些只是绝望的符号。这些粗糙的刻痕，比任何博物馆里陈列的文物都更能让你感受到历史的重量和温度。这就是格雷弗里亚，它不仅埋葬了尸体，也埋葬了信仰、忠诚和一部活生生的苏格兰史诗。"
+    "description": "推开那扇通往 Candlemaker Row 的铁门，脚下踩着的不是寻常的泥土路，而是一块块被无数访客打磨得光滑锃亮的古老石板。空气里弥漫着一股湿润的苔藓味，混着泥土的芬芳，偶尔还夹杂着几缕从旁边咖啡馆飘出来的咖啡香。你的视线越过那些密密麻麻、歪歪扭扭的墓碑，会看到一座小丘，上面长满了厚厚的青苔，像是给那些沉睡了几百年的灵魂盖上了一层绿色的被子。最打动人心的，不是那些精美的雕塑，而是那种毫不避讳的宁静。它不像一般的墓园那么阴森可怖，反而有一种奇妙的、充满活力的沉静，仿佛这些遗迹本身就是城市跳动的心脏。"
   },
   "sections": [
     {
@@ -58,22 +58,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/eastgate-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    东\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">东门钟楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eastgate Clock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flodden-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗洛登城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flodden Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glencoe-visitor-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glencoe Visitor Centre</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gyrn-ddu\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉恩杜山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gyrn Ddu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/paxtons-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克斯顿塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Paxton's Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/happy-valley-botanical-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欢乐谷植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Happy Valley Botanical Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "eastgate-clock",
-          "name": "东门钟楼",
-          "englishName": "Eastgate Clock"
+          "slug": "gyrn-ddu",
+          "name": "吉恩杜山",
+          "englishName": "Gyrn Ddu"
         },
         {
-          "slug": "flodden-wall",
-          "name": "弗洛登城墙",
-          "englishName": "Flodden Wall"
+          "slug": "paxtons-tower",
+          "name": "帕克斯顿塔楼",
+          "englishName": "National Trust - Paxton's Tower"
         },
         {
-          "slug": "glencoe-visitor-centre",
-          "name": "格伦科游客中心",
-          "englishName": "Glencoe Visitor Centre"
+          "slug": "happy-valley-botanical-gardens",
+          "name": "欢乐谷植物园",
+          "englishName": "Happy Valley Botanical Gardens"
         }
       ]
     }

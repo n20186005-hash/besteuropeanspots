@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣大卫（Tyddewi / St Davids）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣大卫主教宫",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charles-darwins-birthplace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查尔斯·达尔文出生地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charles Darwin's Birthplace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llyn-brianne-dam-reservoir\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布赖恩湖水库与坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Dam & Reservoir</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunfermline-abbey-and-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓弗姆林修道院与宫殿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunfermline Abbey and Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blaenavon-ironworks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱纳文铁厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaenavon Ironworks</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "canterbury-cathedral",
-          "name": "坎特伯雷大教堂",
-          "englishName": "Canterbury Cathedral"
+          "slug": "llyn-brianne-dam-reservoir",
+          "name": "布赖恩湖水库与坝",
+          "englishName": "Llyn Brianne Dam & Reservoir"
         },
         {
-          "slug": "charles-darwins-birthplace",
-          "name": "查尔斯·达尔文出生地",
-          "englishName": "Charles Darwin's Birthplace"
+          "slug": "dunfermline-abbey-and-palace",
+          "name": "邓弗姆林修道院与宫殿",
+          "englishName": "Dunfermline Abbey and Palace"
         },
         {
-          "slug": "blue-lagoon-abereiddi",
-          "name": "蓝湖",
-          "englishName": "Blue Lagoon - Abereiddi"
+          "slug": "blaenavon-ironworks",
+          "name": "布莱纳文铁厂",
+          "englishName": "Blaenavon Ironworks"
         }
       ]
     }

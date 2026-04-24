@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡马森郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "莫尔法湾冒险地",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "莫尔法湾冒险地・Morfa Bay Adventure・英国・卡马森郡",
-    "description": "当我第一次驶入莫尔法湾的碎石小路时，车窗外掠过的不是寻常海滨的霓虹招牌，而是一望无际的沙丘和丛生的野花。海风裹着盐粒和干草的芬芳迎面扑来，耳边只有风掠过沙丘的低吟和白浪拍岸的节奏。停下车，我赤脚踏上柔软的沙地，那细沙在午后的阳光下泛着浅金色的光泽，仿佛整个海湾都是属于我一个人的秘密天地。远处，几座被风侵蚀的古老木架像沉默的巨人，伫立在潮间带上，那是上世纪渔民用来晾晒渔网的遗迹。\n沿着木栈道走向冒险中心，我注意到脚下有一块半埋在沙里的石碑，上面刻着模糊的凯尔特文字。当地一位正在整理皮划艇的老人告诉我，那是13世纪一位本笃会僧侣的墓碑，他曾在附近建立一所小修道院，为过往水手祈福。如今修道院早已不见踪影，只有这块碑和海湾的名字记得那段虔诚的岁月。老人的声音沙哑而温柔，像潮水一样不紧不慢，他说莫尔法在威尔士语里就是“大海的边界”的意思——几百年来，这里一直是陆地与海洋、人类与自然对话的地方。\n正说着，一群海鸥突然从悬崖那边尖叫着腾空而起，打断了我们的对话。我抬头望去，浅水区里几个穿着亮橙色救生衣的孩子正在学习划皮划艇，教练大声喊着威尔士语的指令，笑声混着水花泼溅的声音飘过来。那一刻我忽然明白，莫尔法湾冒险地最动人的地方不在于设施有多豪华，而在于它让那些古老的风景重新有了生命——千年不变的潮汐依然每天涨落，而人们依然在用自己的方式和这片海发生联系。"
+    "description": "当我第一次驶入莫尔法湾的碎石小路时，车窗外掠过的不是寻常海滨的霓虹招牌，而是一望无际的沙丘和丛生的野花。海风裹着盐粒和干草的芬芳迎面扑来，耳边只有风掠过沙丘的低吟和白浪拍岸的节奏。停下车，我赤脚踏上柔软的沙地，那细沙在午后的阳光下泛着浅金色的光泽，仿佛整个海湾都是属于我一个人的秘密天地。远处，几座被风侵蚀的古老木架像沉默的巨人，伫立在潮间带上，那是上世纪渔民用来晾晒渔网的遗迹。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kytra-lock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯特拉水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kytra Lock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/equestrian-statue-of-the-duke-of-wellington-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    惠\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">惠灵顿公爵骑马雕像（格拉斯哥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Equestrian statue of the Duke of Wellington, Glasgow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gladstones-land\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉德斯通之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gladstone's Land</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sea-kayaking-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海上皮划艇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sea Kayaking Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kytra-lock",
-          "name": "凯特拉水闸",
-          "englishName": "Kytra Lock"
+          "slug": "gladstones-land",
+          "name": "格拉德斯通之家",
+          "englishName": "Gladstone's Land"
         },
         {
-          "slug": "equestrian-statue-of-the-duke-of-wellington-glasgow",
-          "name": "惠灵顿公爵骑马雕像（格拉斯哥）",
-          "englishName": "Equestrian statue of the Duke of Wellington, Glasgow"
+          "slug": "sea-kayaking-wales",
+          "name": "威尔士海上皮划艇",
+          "englishName": "Sea Kayaking Wales"
         },
         {
-          "slug": "llyn-brianne-viewpoint",
-          "name": "布莱恩湖观景台",
-          "englishName": "Llyn Brianne Viewpoint"
+          "slug": "cameron-square",
+          "name": "卡梅隆广场",
+          "englishName": "Cameron Square"
         }
       ]
     }

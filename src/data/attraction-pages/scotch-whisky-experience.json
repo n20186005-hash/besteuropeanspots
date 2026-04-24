@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰威士忌体验中心",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "苏格兰威士忌体验中心・The Scotch Whisky Experience・英国・爱丁堡",
-    "description": "当你推开354号Castlehill的那扇沉甸甸的木门，一股混合着麦芽糖、干果和橡木的温热气息立刻包围了你。这不是普通的博物馆味道，而是一种从高地的酿酒厂里偷来的、发酵了上百年的灵魂香。前台后面那面巨大的玻璃墙里，陈列着三千多瓶来自全苏格兰各个产区、各个年份的威士忌，琥珀色的酒液在射灯下像一个个沉睡的精灵。耳边传来低沉的苏格兰风笛旋律，但很快就被讲解员带着浓重格拉斯哥口音的招呼声盖过：“准备开启你们的威士忌冒险了吗？”\n坐上那六个一排的旋转木桶车，你仿佛掉进了一个巨大的酒桶内部。车厢内有投影屏幕和气味装置，随着画面从翠绿的麦田切换到冒着蒸汽的蒸馏器，你的鼻子会先闻到泥煤的烟火气，接着是香草的甜腻，最后是陈年橡木的沉稳。这种模拟威士忌酿造全过程的感官过山车，让每一个第一次来的人都忍不住咧嘴笑出来。五分钟后你被“吐”到一个仿古酒吧里，一位穿着苏格兰裙、留着灰色络腮胡的老人在柜台后朝你眨眨眼，递上一小杯格兰威特单一麦芽。当你把酒杯凑到鼻尖，先是闻到烤苹果和肉桂的温暖，接着舌尖被那种带点辛辣的醇厚击中，整个喉咙都变得暖洋洋的。在这一刻，你突然明白为什么苏格兰人把它叫作“生命之水”——它不只是酒，是这片土地上所有风土和故事浓缩成的液体记忆。\n体验中心真正的宝藏藏在二楼一条不起眼的走廊尽头。推开那扇装着电子锁的玻璃门，你会被眼前的景象震住——一个环形房间里，从地板到天花板堆满了威士忌酒瓶，总数超过三千五百瓶，每一瓶都来自不同的蒸馏厂，而且每一瓶都有编号和故事。这是世界上最大的苏格兰威士忌收藏之一，由一位名叫迪克·布朗的私人藏家花了四十年才收集完毕。房间里弥漫着一种混合了酒精和旧纸箱的安静气味，就像走进了一座被遗忘的图书馆，只是这里的书脊都闪着琥珀色的光。许多游客会在这里停留很久，寻找自己出生那年的威士忌，或者对着瓶标上陌生的盖尔语地名发呆。\n在体验中心的最顶层，有一个叫做“屋顶之水”的小酒吧，只对参观者开放。推开酒吧的门，爱丁堡的天际线突然在眼前展开——左边是爱丁堡城堡灰色的剪影，右边是圣吉尔斯大教堂的塔尖，向下看则是皇家一英里上穿梭的人流。你要一杯加了冰块的混合麦芽威士忌，靠在窗边，看阳光在威士忌里碎成金色。酒吧里大多数是刚结束体验的游客，大家小声交谈，偶尔传来冰块碰撞的清脆声。有个穿格子衬衫的美国大叔在跟服务员争论波本和苏格兰威士忌的区别，而角落里的日本女孩正认真地在笔记本上记录每种威士忌的风味。这一刻，威士忌不再是国家级的象征，而是一个个具体的、可以被分享的微醺。"
+    "description": "当你推开354号Castlehill的那扇沉甸甸的木门，一股混合着麦芽糖、干果和橡木的温热气息立刻包围了你。这不是普通的博物馆味道，而是一种从高地的酿酒厂里偷来的、发酵了上百年的灵魂香。前台后面那面巨大的玻璃墙里，陈列着三千多瓶来自全苏格兰各个产区、各个年份的威士忌，琥珀色的酒液在射灯下像一个个沉睡的精灵。耳边传来低沉的苏格兰风笛旋律，但很快就被讲解员带着浓重格拉斯哥口音的招呼声盖过：“准备开启你们的威士忌冒险了吗？”"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/monument-to-the-scottish-parliament\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monument to the Scottish Parliament</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gyrn-ddu\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉恩杜山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gyrn Ddu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "monument-to-the-scottish-parliament",
-          "name": "苏格兰议会纪念碑",
-          "englishName": "Monument to the Scottish Parliament"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         },
         {
-          "slug": "colinton-station-tunnel",
-          "name": "科林顿车站与隧道",
-          "englishName": "Colinton Station & Tunnel"
+          "slug": "gyrn-ddu",
+          "name": "吉恩杜山",
+          "englishName": "Gyrn Ddu"
         },
         {
-          "slug": "bryn-cader-faner",
-          "name": "布林卡德法纳",
-          "englishName": "Bryn Cader Faner"
+          "slug": "cardiff-bay",
+          "name": "卡迪夫湾",
+          "englishName": "Cardiff Bay"
         }
       ]
     }

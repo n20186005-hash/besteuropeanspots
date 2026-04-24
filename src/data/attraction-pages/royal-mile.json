@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "皇家英里大道",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "皇家英里大道・Royal Mile・英国・苏格兰爱丁堡",
-    "description": "我第一次踏上皇家英里大道是在一个细雨绵绵的十月傍晚。雨水把卵石路面洗得像涂了一层清漆，反射着路灯暖黄色的光。空气里混合着炸鱼薯条的油香、威士忌的麦芽甜味，以及从某个小巷深处飘来的老书店那种陈旧的纸张气息。我站在城堡下方的坡道起点，抬头望去——深灰色的城堡像一头蹲伏的巨兽，静静俯瞰着这条蜿蜒而下的石头长街；而街道两侧的尖塔、烟囱和山墙错落有致，像一个倒置的城市森林。\n我顺着街道往下走，每一步都能感受到脚下石板的凹凸不平，那是几百年马蹄和靴子摩擦出的皱纹。街边的酒吧传来风笛声和欢快的笑声，穿着苏格兰裙的街头艺人吹着管乐，旁边放着他的牧羊犬——那只狗安静地趴着，眼神和人一样淡定。我拐进一条叫做玛丽·金的狭窄小巷（Mary King's Close），还没走两步就觉得空气突然变得阴冷潮湿，墙上的苔藓在夕阳下泛着荧光。导游说这条巷子里曾住满贫民，1645年瘟疫时整条街被封死，至今还有幽灵传说。我没敢多待，赶紧退回主路。\n最让我着迷的是这条街的“双面性”。从主路上看似整齐的乔治亚式门脸走进去，推开一扇不起眼的木门，里面可能藏着上百级石阶、一个秘密庭院，或者一家藏在阁楼里的老威士忌品鉴店。我在主路的一家旧货店找到了一本1910年版的《阿瑟·柯南·道尔短篇小说集》，店主是个戴着圆眼镜的白胡子老先生，他说夏洛克·福尔摩斯其实就是爱丁堡一位外科医生的影子。我问他真的吗，他眨眨眼说：“你自己去卡尔顿山看看，福尔摩斯的故居就在那条街上。”我笑了，这大概就是爱丁堡的魅力——你永远分不清历史细节和传说。"
+    "description": "我第一次踏上皇家英里大道是在一个细雨绵绵的十月傍晚。雨水把卵石路面洗得像涂了一层清漆，反射着路灯暖黄色的光。空气里混合着炸鱼薯条的油香、威士忌的麦芽甜味，以及从某个小巷深处飘来的老书店那种陈旧的纸张气息。我站在城堡下方的坡道起点，抬头望去——深灰色的城堡像一头蹲伏的巨兽，静静俯瞰着这条蜿蜒而下的石头长街；而街道两侧的尖塔、烟囱和山墙错落有致，像一个倒置的城市森林。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llywelyn-ap-gruffydd-fychan-statue\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llywelyn Ap Gruffydd Fychan (Welsh Warrior) Statue</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mumbles-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西湾曼布尔斯灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mumbles Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/triangulation-point-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    三\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">三角测量观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Triangulation Point</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jedburgh-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杰德堡修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jedburgh Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "llywelyn-ap-gruffydd-fychan-statue",
-          "name": "卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像",
-          "englishName": "Llywelyn Ap Gruffydd Fychan (Welsh Warrior) Statue"
+          "slug": "triangulation-point-wales",
+          "name": "三角测量观景点",
+          "englishName": "Triangulation Point"
         },
         {
-          "slug": "mumbles-lighthouse",
-          "name": "斯旺西湾曼布尔斯灯塔",
-          "englishName": "Mumbles Lighthouse"
+          "slug": "jedburgh-abbey",
+          "name": "杰德堡修道院",
+          "englishName": "Jedburgh Abbey"
         },
         {
-          "slug": "cameron-square",
-          "name": "卡梅隆广场",
-          "englishName": "Cameron Square"
+          "slug": "cairngorms-national-park",
+          "name": "凯恩戈姆国家公园",
+          "englishName": "Cairngorms National Park"
         }
       ]
     }

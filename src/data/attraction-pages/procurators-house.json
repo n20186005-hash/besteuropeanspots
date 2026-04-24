@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡马森",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "检察官之家",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "检察官之家・Procurator's House・英国・卡马森",
-    "description": "我至今记得第一次站在检察官之家门外的那个清晨。卡马森老城的石板路上还凝着露水，空气里混着刚出炉的面包香和从河面飘来的薄雾。这座灰扑扑的三层石头房子夹在一排现代商铺之间，像一本被遗忘在书架角落的皮革封面旧书，低调得差点让人错过。直到我抬头看见门楣上那只被岁月磨得模糊的皇家狮子浮雕，才意识到这扇厚重的橡木门后面藏着怎样的时光。\n推开门的瞬间，一股混合着旧木头、蜂蜡和灰尘的气味扑面而来，那是时间沉淀下来的味道。阳光从二楼狭窄的彩绘玻璃窗漏进来，在斑驳的橡木地板上投下蓝紫色的光斑，像中世纪画家不小心打翻的颜料。右手边就是当年的法庭大厅，高高的穹顶上还悬挂着沉重的铁制吊灯，审判席后面的木雕屏风上刻着荆棘冠冕和威尔士韭葱的图案——这是英格兰王权与威尔士本土文化融合的微妙暗示。\n我坐在冰冷的木条长椅上，闭上眼睛想象四百年前的情景：这里充斥着浓重的法律拉丁语和威尔士土语混杂的争辩声，书记员鹅毛笔划在羊皮纸上的沙沙声，以及宪兵腰间钥匙串碰撞的叮当声。角落里那个铁制壁炉似乎仍有余温，据说冬天开庭时犯人会被安排离炉火最远的位置，而地方法官的大衣总是转向壁炉那一侧。整个空间的温度、光影和声响都像被魔法封存了，只等有心人来慢慢拆解。\n最打动我的是二楼那间小小的起居室。壁炉架上摆着粗糙的陶罐和一副褪色的刺绣，窗台上搁着一本18世纪的法令汇编，翻开的页面上还有铅笔的批注。窗外的街道上，现代汽车的声音忽远忽近，而这间屋子里的时间却像凝固在某个雨后的午后。你很容易就能想象那位检察官结束了一天繁琐的庭审，脱下厚重的羊毛袍子，坐在这里喝一杯加了蜂蜜的热麦酒，听着楼下乡村的狗叫声，盘算着明天要如何说服邻居放弃那块争议的牧羊地。就是这种隐秘的日常感，让这座建筑不是冷冰冰的历史标本，而是有温度的生活现场。"
+    "description": "我至今记得第一次站在检察官之家门外的那个清晨。卡马森老城的石板路上还凝着露水，空气里混着刚出炉的面包香和从河面飘来的薄雾。这座灰扑扑的三层石头房子夹在一排现代商铺之间，像一本被遗忘在书架角落的皮革封面旧书，低调得差点让人错过。直到我抬头看见门楣上那只被岁月磨得模糊的皇家狮子浮雕，才意识到这扇厚重的橡木门后面藏着怎样的时光。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chester-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chatsworth-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查茨沃斯庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chatsworth House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/skara-brae-prehistoric-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯卡拉布雷史前村落</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skara Brae Prehistoric Village</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "castell-coch",
+          "name": "科奇城堡",
+          "englishName": "Castell Coch"
         },
         {
-          "slug": "chester-cathedral",
-          "name": "切斯特大教堂",
-          "englishName": "Chester Cathedral"
+          "slug": "the-tenement-house-glasgow",
+          "name": "公寓博物馆（苏格兰国家信托）",
+          "englishName": "The Tenement House (National Trust for Scotland)"
         },
         {
-          "slug": "chatsworth-house",
-          "name": "查茨沃斯庄园",
-          "englishName": "Chatsworth House"
+          "slug": "skara-brae-prehistoric-village",
+          "name": "斯卡拉布雷史前村落",
+          "englishName": "Skara Brae Prehistoric Village"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "波特马多克（Porthmadog）附近，斯诺登尼亚国家公园边缘",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布林卡德法纳",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布林卡德法纳・Bryn Cader Faner・英国・波特马多克（Porthmadog）附近，斯诺登尼亚国家公园边缘",
-    "description": "我第一次听说布林卡德法纳，是从一个在威尔士搭便车时遇到的牧羊人嘴里。他说，在那片被风刮得看不见树的高地上，埋着一座石头的船，是“老祖宗们造的，用来载灵魂回海的”。我笑他夸张，但当我沿着GPS上的小红点，穿过齐膝的紫色石楠和湿漉漉的羊粪，在下午四点的雾和光里看到它时，我愣怔在原地，彻底服了。\n远远望去，它就像一艘从大地深处挣扎出来的搁浅的船。十五块石板歪歪斜斜地从地表刺出，最高的那块足有我一米八的个子那么高，边缘被两千年的雨水打磨得圆润，像老旧的牙齿。中央是一个微微隆起的石堆，长满了绿色的苔藓和零星的黄色小花。风吹过石板之间的缝隙时，会发出一种低沉的呜咽声，像是古老的管风琴在荒原上演奏一首无人能懂的歌。空气里满是泥炭和野薄荷的味道，太阳藏在厚厚云层后面，把整个景象染成一种冷冽的蓝灰色，像一张浸湿了的老照片。\n我走得很慢，绕着这个直径不到十米的石圈转了三圈。没有游客，没有指示牌，也没有护栏。这片四千年前被立起来的石头，就这么孤零零地站在威尔士的山脊上，等着风雨和偶尔像我这样的疯子来拜访。我能闻到空气里苔藓被晒暖后的清香，听到远处小溪的水声和草丛里田鼠窸窸窣窣的动静。那一刻，我知道我不是在参观一个景点，而是在参与一场跨越千年的孤独对话。\n它的核心魅力，不在于宏伟，而在于彻底的、令人生畏的孤独。它不属于旅游手册，不属于博物馆的玻璃柜，它只属于这片荒原和头顶的云。当你站在这座石船中央，你会忽然意识到，所谓文明和时间的距离，不过就是脚下这几块石头的厚度。"
+    "description": "我第一次听说布林卡德法纳，是从一个在威尔士搭便车时遇到的牧羊人嘴里。他说，在那片被风刮得看不见树的高地上，埋着一座石头的船，是“老祖宗们造的，用来载灵魂回海的”。我笑他夸张，但当我沿着GPS上的小红点，穿过齐膝的紫色石楠和湿漉漉的羊粪，在下午四点的雾和光里看到它时，我愣怔在原地，彻底服了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wales-coastal-path-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯海岸步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "wales-coastal-path-aberystwyth",
+          "name": "阿伯里斯特威斯海岸步道",
+          "englishName": "Wales Coastal Path Aberystwyth"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "big-ben",
+          "name": "大本钟",
+          "englishName": "Big Ben"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "dunrobin-castle",
+          "name": "邓罗宾城堡",
+          "englishName": "Dunrobin Castle"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯雷帝",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "蓝湖",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "蓝湖・Blue Lagoon - Abereiddi・英国・阿伯雷帝",
-    "description": "当你沿着威尔士彭布罗克郡海岸线开车，导航突然把你引入一条只能勉强错车的窄路，两旁高耸的树篱把天空剪成一条细长的线。这时候你会怀疑是不是走错了。但开到尽头，眼前豁然开朗，一片荒芜的停车场和呼啸的海风告诉你：到了。\n下车的那一瞬间，咸腥的海风混着泥土味灌进鼻腔。你得先穿过一小片乱石丛生的草地，绕过那栋废弃的板岩仓库遗址，然后，然后它就突然出现在你面前。那是一片蓝得极其不真实的湖水，像一块被塞进灰色石头碗里的巨型蓝宝石。阳光好的时候，湖水会呈现出从浅蓝到湛蓝再到翡翠绿的丰富层次，亮到晃眼，让人不由得眯起眼睛。四周是高耸的、棱角分明的板岩峭壁，犬牙交错，散发着一种原始、粗砺、带着伤痕的力量。人站在湖边，显得格外渺小。\n最神奇的是，湖水是蓝色的，但它其实是个海湖。它的底部通过一条狭窄的通道与外面的大海相连。涨潮时，海水会从地下通道和岩石缝隙中涌进来，退潮时又带着湖水的思绪流回大海。所以你在这里看到的每一滴水，都曾是咆哮的大西洋的一部分。湖面异常平静，像一面巨大的镜子，倒映着悬崖一角的一小片天空和快速移动的云朵。偶尔有一阵风吹过，湖面才会泛起微微的涟漪，打破那完美的镜像。\n你可能会看到几个胆大的年轻人，搬出轮胎泳圈，从几米高的板岩台子上尖叫着跳进湖里。那激起的碧绿水花和回荡在岩石山谷间的欢笑声，是这个寂静之地难得的生动。但我更喜欢坐在岸边那些被阳光晒得温热的石板上，听着湖水和外面大西洋的潮声交替奏响，看着湖水在天色变化中不断变换着光谱上的蓝色。那一刻你会觉得，时间在这片蓝色里，真的会变慢。"
+    "description": "当你沿着威尔士彭布罗克郡海岸线开车，导航突然把你引入一条只能勉强错车的窄路，两旁高耸的树篱把天空剪成一条细长的线。这时候你会怀疑是不是走错了。但开到尽头，眼前豁然开朗，一片荒芜的停车场和呼啸的海风告诉你：到了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gauja-national-park-latvia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    高\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">高亚国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gauja National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schengen-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    申\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">申根（缔造欧洲无国界公约的酿酒小村）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schengen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arachova-parnassus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿拉霍瓦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arachova</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/penrhos-engine-house-brymbo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭罗斯引擎屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Penrhos Engine House, Brymbo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/montagne-sainte-victoire\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣维克多山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Montagne Sainte-Victoire</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/peshkopi-old-town-and-thermal-springs\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩什科比</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Peshkopi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gauja-national-park-latvia",
-          "name": "高亚国家公园",
-          "englishName": "Gauja National Park"
+          "slug": "penrhos-engine-house-brymbo",
+          "name": "彭罗斯引擎屋",
+          "englishName": "Penrhos Engine House, Brymbo"
         },
         {
-          "slug": "schengen-village",
-          "name": "申根（缔造欧洲无国界公约的酿酒小村）",
-          "englishName": "Schengen"
+          "slug": "montagne-sainte-victoire",
+          "name": "圣维克多山",
+          "englishName": "Montagne Sainte-Victoire"
         },
         {
-          "slug": "arachova-parnassus",
-          "name": "阿拉霍瓦",
-          "englishName": "Arachova"
+          "slug": "peshkopi-old-town-and-thermal-springs",
+          "name": "佩什科比",
+          "englishName": "Peshkopi"
         }
       ]
     }

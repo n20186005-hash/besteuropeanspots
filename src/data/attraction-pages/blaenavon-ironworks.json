@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布莱纳文",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布莱纳文铁厂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布莱纳文铁厂・Blaenavon Ironworks・英国・布莱纳文",
-    "description": "第一次见到布莱纳文铁厂的那个清晨，威尔士山间的雾气还没有完全散尽，它们像一层薄纱缠绕在褐色的荒原上，空气里有一种被雨水浸润过的石头和铁锈混合的气味，淡淡的，像翻开一本发霉的老书。我站在北街的尽头，眼前忽然开朗——五座巨大的石砌熔炉一字排开，从山坡上俯视着整个布莱纳文镇，那种沉默的、带着征服感的庄严一下子击中了我。没有什么金碧辉煌的装饰，只有赤裸裸的石头、铁架、断裂的水轮扇叶，以及从熔炉顶部探头出来的粗壮铁管，它们直直地指向天空，像当年工人抬起的不屈的臂膀。\n走进去之后感觉世界变得异常安静，那些轰鸣了两百年的机器已经停止，只剩下风的呜咽在高大的空心砖墙间来回穿梭。铸铁车间的地面铺着碎石，踩上去嘎吱嘎吱响，头顶的铁制天窗锈迹斑斑但还顽强地支撑着光线。你能想象得出两百年前这里有多沸腾吧？焦炭燃烧时散发的刺鼻硫磺味，铸铁流进模具时那冒着白烟的嘶鸣，还有工人们吆喝和铁锤砸击的咚咚声，所有这一切都叠加在我此刻的感官里。一个小男孩被父亲抱起来探着头往下看熔炉基础，父亲用威尔士腔调英文低声说，这就是你的曾曾祖父当年工作的地方，他在这里炼铁养活了咱们家四代人。那一刻我突然明白，这座铁厂不是冰冷的石头建筑，它是一个家族、一个镇子乃至一个国家的集体记忆。\n黄昏时分我爬上铁厂背后的科尼山，回头望去，夕阳正好把整座铁厂镀上一层赭红色。光线从熔炉间的缝隙穿过，在地上拉出长长的阴影，那种落寞而浩大的美让人说不出话。远处的矿渣堆已经长出了淡紫色的野花，野兔从灌木丛里蹦出来，蹲在地上好奇地看着我。这座曾经吐着黑色烟云、日夜不停翻滚的铁厂如今安静地睡了，而它的梦仍然回荡在这片山谷里，每一声风都像在讲一个工人和铁的故事。"
+    "description": "第一次见到布莱纳文铁厂的那个清晨，威尔士山间的雾气还没有完全散尽，它们像一层薄纱缠绕在褐色的荒原上，空气里有一种被雨水浸润过的石头和铁锈混合的气味，淡淡的，像翻开一本发霉的老书。我站在北街的尽头，眼前忽然开朗——五座巨大的石砌熔炉一字排开，从山坡上俯视着整个布莱纳文镇，那种沉默的、带着征服感的庄严一下子击中了我。没有什么金碧辉煌的装饰，只有赤裸裸的石头、铁架、断裂的水轮扇叶，以及从熔炉顶部探头出来的粗壮铁管，它们直直地指向天空，像当年工人抬起的不屈的臂膀。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gypsy-wood-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉普赛森林公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gypsy Wood Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scott-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    司\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">司各特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scott Monument</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "gypsy-wood-park",
+          "name": "吉普赛森林公园",
+          "englishName": "Gypsy Wood Park"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "castell-aberystwyth",
+          "name": "阿伯里斯特威斯城堡",
+          "englishName": "Castell Aberystwyth"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "scott-monument",
+          "name": "司各特纪念碑",
+          "englishName": "Scott Monument"
         }
       ]
     }

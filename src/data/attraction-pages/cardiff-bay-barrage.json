@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫湾水闸",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡迪夫湾水闸・Cardiff Bay Barrage・英国・卡迪夫",
-    "description": "第一次走上卡迪夫湾水闸，是在一个秋日傍晚。夕阳将海湾染成一片琥珀色，空气里有海水浅浅的咸味，混着闸口边炸鱼薯条店飘来的油脂香气。我站在那宽约两层楼的人行道上，脚边是清澈的卡迪夫湖水，另一侧则是剧烈涨落的布里斯托海峡潮水。你很难想象，这条看似平静的“大坝”底下埋藏着整座工业城的过去——那些从矿井里挖出的黑色黄金，曾经就是顺着这道水道运往全球。\n水闸的奇妙之处在于，它既是一座巨大的水利工程，也是一个城市公园。柏油路平坦得可以滑板、遛娃、跑步——实际上每到周末，你会看到推着婴儿车的年轻爸爸、牵着狗的老人、骑着山地车的少年在水闸上擦肩而过。海风吹得人睁不开眼，但没人急着走。水闸上设有长凳，有人靠在上面看书，有人就只是望着远处起伏的彭布罗克郡绿色丘陵发呆。你能感受到一种微妙的宁静，是那种被工业痕迹包围却完全不为所动的松弛感。\n水闸两侧的生态也是它的魅力所在。潮池里经常能看到灰鹭一动不动地站着等鱼，水面上野鸭和小白鹭翩翩飞过。站在闸高处的观景台，能听到两种水声：一边是湖水拍打北侧岸堤的温柔涟漪声，一边是海峡浪花冲刷南侧防波堤的拍打声。这声音就像威尔士的呼吸，一呼一吸之间，整个海湾在舒缓地活着。\n最打动人心的，恐怕是它的黄昏时刻。太阳沉入河曲之际，整座水闸的混凝土都泛着暖橘色的光。闸门会慢慢启动，让一艘游艇从湖中通过闸室缓缓滑入海里。水声、风声、引擎声、人的笑声，交织成一种极其安静又饱含生命力的场景。我每次站在这里，都会觉得威尔士人真的很懂得如何将工业遗迹变成温柔的日常。"
+    "description": "第一次走上卡迪夫湾水闸，是在一个秋日傍晚。夕阳将海湾染成一片琥珀色，空气里有海水浅浅的咸味，混着闸口边炸鱼薯条店飘来的油脂香气。我站在那宽约两层楼的人行道上，脚边是清澈的卡迪夫湖水，另一侧则是剧烈涨落的布里斯托海峡潮水。你很难想象，这条看似平静的“大坝”底下埋藏着整座工业城的过去——那些从矿井里挖出的黑色黄金，曾经就是顺着这道水道运往全球。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorm-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorm Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-stone\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Stone</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/heart-of-midlothian-mosaic\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    中\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">中洛锡安之心马赛克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heart of Midlothian Mosaic</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prince-of-wales-monument-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士王子纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "britannia-bridge",
-          "name": "布里塔尼亚桥",
-          "englishName": "Britannia Bridge"
+          "slug": "heart-of-midlothian-mosaic",
+          "name": "中洛锡安之心马赛克",
+          "englishName": "Heart of Midlothian Mosaic"
         },
         {
-          "slug": "cairngorm-mountain",
-          "name": "凯恩戈姆山",
-          "englishName": "Cairngorm Mountain"
+          "slug": "prince-of-wales-monument-wales",
+          "name": "威尔士王子纪念碑",
+          "englishName": "Prince of Wales Monument"
         },
         {
-          "slug": "arthurs-stone",
-          "name": "亚瑟石",
-          "englishName": "Arthur's Stone"
+          "slug": "loch-achtriochtan-glen-coe",
+          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
+          "englishName": "Loch Achtriochtan, Glen Coe"
         }
       ]
     }

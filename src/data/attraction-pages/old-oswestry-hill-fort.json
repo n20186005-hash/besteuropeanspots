@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奥斯沃斯特里",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "旧奥斯沃斯特里山堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "旧奥斯沃斯特里山堡・Old Oswestry Hill Fort・英国・奥斯沃斯特里",
-    "description": "我第一次见到旧奥斯沃斯特里山堡，是在一个雾气弥漫的威尔士清晨。车停在山脚后，我整个人就被眼前的景象惊呆了——那根本不是我以为的“一座小土丘”。四层巨大的、像巨型蜗牛壳一样的土垒层层叠叠向天空攀升，晨雾中它们像极了睡着了的大地巨兽，静止不动，却在呼吸。脚下的草地湿漉漉的，露水浸透了我的徒步鞋，空气里满是泥土和野草的湿润气息，混合着远处牧场的牛羊粪便味，意外地让人觉得安心。\n沿着一条被数千年人脚和羊蹄踩出来的土路往上爬，脚下的触感很有趣。草根和泥土混在一起，走起来软软的，不时能踢到几块被雨水冲刷出来的碎石。越往上走，风越来越大，吹得耳朵嗡嗡响。等我终于爬到最内层的山顶平台，整个人瞬间被一种奇怪的寂静包围了——风把声音扭曲了，你听不到山下的车声，只有远处黑脸绵羊的咩咩声从四面八方传来。站在这里，我能看见整个什罗普郡平原像一幅绿色的地毯铺在脚下，远处的威尔士山峦在云层里若隐若现。\n这个山堡最让我震撼的，不是它的防御工事有多宏伟，而是它那种“空无一物的丰盈感”。这里没有博物馆，没有咖啡馆，没有卖旅行纪念品的小木屋。什么都没有。只有草，风吹，羊，云。你不得不直面两千多年前的祖先留下的痕迹，思考他们为什么要在这样一个风大得能把人刮跑的山顶上，花费几代人的时间挖出这么多条像龙脊一样的土壕。这地方美得令人想哭，却也让你下意识地压低声音说话，好像在怕吵醒什么古老的灵魂。\n在准备离开的时候，我遇到了一个牵着一只柯利犬的老大爷。他告诉我，他从小在这片山坡上放羊，看山堡看了60年，却永远看不腻。他说不列颠的每一座山堡都像一个老人，每层土里都藏着一个被遗忘的故事。这句话让我在回去的路上一直沉默，感觉自己刚刚触摸到了另一条隐秘的时间线。"
+    "description": "我第一次见到旧奥斯沃斯特里山堡，是在一个雾气弥漫的威尔士清晨。车停在山脚后，我整个人就被眼前的景象惊呆了——那根本不是我以为的“一座小土丘”。四层巨大的、像巨型蜗牛壳一样的土垒层层叠叠向天空攀升，晨雾中它们像极了睡着了的大地巨兽，静止不动，却在呼吸。脚下的草地湿漉漉的，露水浸透了我的徒步鞋，空气里满是泥土和野草的湿润气息，混合着远处牧场的牛羊粪便味，意外地让人觉得安心。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/edinburgh-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Edinburgh Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nolton-haven-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺尔顿港湾海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nolton Haven Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monument-to-the-scottish-parliament\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monument to the Scottish Parliament</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/mumbles-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西湾曼布尔斯灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mumbles Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dyfi-osprey-project\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戴菲鱼鹰保护项目</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dyfi Osprey Project</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "edinburgh-zoo",
-          "name": "爱丁堡动物园",
-          "englishName": "Edinburgh Zoo"
+          "slug": "mumbles-lighthouse",
+          "name": "斯旺西湾曼布尔斯灯塔",
+          "englishName": "Mumbles Lighthouse"
         },
         {
-          "slug": "nolton-haven-beach",
-          "name": "诺尔顿港湾海滩",
-          "englishName": "Nolton Haven Beach"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         },
         {
-          "slug": "monument-to-the-scottish-parliament",
-          "name": "苏格兰议会纪念碑",
-          "englishName": "Monument to the Scottish Parliament"
+          "slug": "dyfi-osprey-project",
+          "name": "戴菲鱼鹰保护项目",
+          "englishName": "Dyfi Osprey Project"
         }
       ]
     }

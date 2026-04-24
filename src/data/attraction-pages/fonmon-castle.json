@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "巴里（Barry）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "方蒙城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "方蒙城堡・Fonmon Castle・英国・巴里（Barry）",
-    "description": "车子驶离巴里镇的主干道，顺着一条仅容两车交会的乡间小路蜿蜒前行，两侧是起伏的牧场，羊毛混着露水的味道从半开的车窗里飘进来。远处，城堡的灰色圆形塔楼像一位沉默的巨人从树梢后探出头，晨光正好照在南侧的石墙上，把上面那些深浅不一的苔藓照得发亮。你听到风穿过橡树林的声音，偶尔夹着农场里公鸡的啼叫。直到你把车停在了城堡大门外那片被修剪得整整齐齐的草坪前，那种不属于这个时代的静谧才真正包围了你。推开车门，你先是闻到一股混合着青草、泥土和陈年石头的气息——那是时间沉淀下来的味道，任何香水都比不上。\n大门是厚重的橡木，铁门栓上锈迹斑斑。推开时，铰链发出低沉的呻吟，就像在说“欢迎回来”。走进前院，你忍不住抬头望了一眼主塔楼的顶端，那上面插着一面褪色的家族旗帜，在微风里懒洋洋地摆动。脚下是铺了数百年的鹅卵石，缝隙里长出了车前草。空气里除了植物的新鲜，还有一丝隐约的柴火烟——这说明城堡真的还有人住。事实上，城堡主人斯蒂芬和他的家人就住在西翼，他们孩子玩耍的声音偶尔会从楼上传来，让你瞬间从一个游客变成了这栋老宅的临时客人。\n穿过门厅，你站到了大厅的中央。光线从高处狭长的窗户斜斜地射进来，把地板上的木纹染成了一条条金色的河流。墙上挂着几幅肖像画，那些穿着紧身衣、留着卷发的贵族男女面无表情地注视着你，但他们的眼神似乎带着一丝温度。角落里的壁炉还留着一堆灰烬，空气里有灰烬和蜡油的味道。你伸手摸了摸石墙，指尖感受到的不是冰冷，而是一种温和的、吸收了数百年阳光的微暖。那一刻你忽然明白，方蒙城堡最打动人的不是它的宏伟，而是它从未停止呼吸——它一直活在这个时代，像一个上了年纪但依然精神矍铄的老绅士。\n走出大厅后门，你步入花园。这里有着典型的英式混搭风格：笔直的紫杉树篱把花园分割成几个几何方块，每一个方块里都种着不同的花——玫瑰、薰衣草、飞燕草。此时正是六月，薰衣草开得正盛，紫色和香气都浓得化不开。花园的尽头有一个小小的池塘，上面浮着睡莲，一只翠鸟停在池边的石头上，见你走近也不躲闪。你站在池塘边，回过头看城堡，它整体的轮廓倒映在静谧的水面上，塔楼的尖端刚好触碰到池中央的莲叶。这一刻你不禁想，这哪里是一座城堡，分明是一首诗歌，一首用石头和植物写成的、唱了九百年的诗歌。"
+    "description": "车子驶离巴里镇的主干道，顺着一条仅容两车交会的乡间小路蜿蜒前行，两侧是起伏的牧场，羊毛混着露水的味道从半开的车窗里飘进来。远处，城堡的灰色圆形塔楼像一位沉默的巨人从树梢后探出头，晨光正好照在南侧的石墙上，把上面那些深浅不一的苔藓照得发亮。你听到风穿过橡树林的声音，偶尔夹着农场里公鸡的啼叫。直到你把车停在了城堡大门外那片被修剪得整整齐齐的草坪前，那种不属于这个时代的静谧才真正包围了你。推开车门，你先是闻到一股混合着青草、泥土和陈年石头的气息——那是时间沉淀下来的味道，任何香水都比不上。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chester-castle-agricola-tower-castle-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特城堡：阿格里科拉塔和城堡城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Castle: Agricola Tower and Castle Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chester-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/equestrian-statue-of-the-duke-of-wellington-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    惠\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">惠灵顿公爵骑马雕像（格拉斯哥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Equestrian statue of the Duke of Wellington, Glasgow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pembrokeshire-llama-sanctuary\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡羊驼保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Llama Sanctuary</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chatsworth-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查茨沃斯庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chatsworth House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "chester-castle-agricola-tower-castle-walls",
-          "name": "切斯特城堡：阿格里科拉塔和城堡城墙",
-          "englishName": "Chester Castle: Agricola Tower and Castle Walls"
+          "slug": "equestrian-statue-of-the-duke-of-wellington-glasgow",
+          "name": "惠灵顿公爵骑马雕像（格拉斯哥）",
+          "englishName": "Equestrian statue of the Duke of Wellington, Glasgow"
         },
         {
-          "slug": "chester-cathedral",
-          "name": "切斯特大教堂",
-          "englishName": "Chester Cathedral"
+          "slug": "pembrokeshire-llama-sanctuary",
+          "name": "彭布罗克郡羊驼保护区",
+          "englishName": "Pembrokeshire Llama Sanctuary"
         },
         {
-          "slug": "colinton-station-tunnel",
-          "name": "科林顿车站与隧道",
-          "englishName": "Colinton Station & Tunnel"
+          "slug": "chatsworth-house",
+          "name": "查茨沃斯庄园",
+          "englishName": "Chatsworth House"
         }
       ]
     }

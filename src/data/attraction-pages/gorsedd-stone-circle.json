@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "戈瑟德石圈",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "戈瑟德石圈・Gorsedd Stone Circle・英国・卡迪夫",
-    "description": "我第一次见到戈瑟德石圈，是在一个三月湿漉漉的早晨。布特公园的草坪上还挂着露水，空气里混合着刚割过的青草味和远处泰晤士河淡淡的淤泥腥气。转过一棵巨大的橡树，它就那样毫无预兆地出现在眼前——不是想象中苍凉孤寂的史前遗址，而是一座被精心养护的圆环，每块蓝石板都像刚刚从山涧里捞出来一样，闪着湿润的光。几只鸽子停在最高的祭坛石上，咕咕叫着，声音被石圈围成的碗状空间放大，仿佛古德鲁伊祭司的喃喃低语。一个穿着羊毛衫的老人正坐在石圈边缘的长椅上，膝盖上摊着一本威尔士语诗集，他抬头冲我笑了笑，那笑容里带着一种“你也来听石头的故事了”的默契。\n我绕着石圈慢慢走了三圈。说实话，它比我想象中“新”太多——石板棱角分明，甚至还能看到凿痕，完全不像是公元前的东西。可就是这种刻意做旧的感觉，反而让人着迷。你凑近看，会发现某些石面上刻着弯弯曲曲的符号，不是英语，也不是什么神秘符文，而是威尔士文的单词，比如“Cymru”（威尔士）和“Gorsedd Beirdd Ynys Prydain”（大不列颠岛德鲁伊协会）。在正午阳光最烈的时候，石圈像巨大的日晷，影子在草地上缓慢旋转，把时间切成十二个无声的刻度。偶尔有遛狗的人穿过石圈，狗在石板间追逐飞盘，主人则用威尔士语喊它的名字——“Cerwyn！回来！”——那一刻，这个古老与现代的混合体突然鲜活起来。\n最打动人心的，是它对当地人而言不是“景点”，而是生活的一部分。周末时，孩子们在石圈玩捉迷藏，情侣在祭坛石旁野餐，甚至还有瑜伽班在这里上课。我跟一个带孙子来玩的老奶奶聊天，她说她小时候就在这个石圈里听她父亲讲德鲁伊的故事，现在轮到她给孩子讲了。她指着最北边那块有一道裂纹的石头说：“你摸摸，那是被1947年冬天的大雪冻裂的，可它还是站着，就像我们威尔士人。”那一刻，我突然明白，这座石圈的意义不在于它是否古老，而在于它成为了一个社区的记忆容器。当你坐在石阶上，闭上眼睛，风的呼啸、鸟的啼叫、远处城堡的钟声，都在这个圆圈里交汇，仿佛整个威尔士的灵魂都浓缩在这片草地上。"
+    "description": "我第一次见到戈瑟德石圈，是在一个三月湿漉漉的早晨。布特公园的草坪上还挂着露水，空气里混合着刚割过的青草味和远处泰晤士河淡淡的淤泥腥气。转过一棵巨大的橡树，它就那样毫无预兆地出现在眼前——不是想象中苍凉孤寂的史前遗址，而是一座被精心养护的圆环，每块蓝石板都像刚刚从山涧里捞出来一样，闪着湿润的光。几只鸽子停在最高的祭坛石上，咕咕叫着，声音被石圈围成的碗状空间放大，仿佛古德鲁伊祭司的喃喃低语。一个穿着羊毛衫的老人正坐在石圈边缘的长椅上，膝盖上摊着一本威尔士语诗集，他抬头冲我笑了笑，那笑容里带着一种“你也来听石头的故事了”的默契。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calanais-standing-stones\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡兰尼什巨石阵</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calanais Standing Stones</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pembrokeshire-coast-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡海岸国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Coast National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-faw-150-memorial-mural\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士足协150周年纪念壁画</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales FAW 150 Memorial Mural</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pierhead-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔海德大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pierhead Building</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "calanais-standing-stones",
-          "name": "卡兰尼什巨石阵",
-          "englishName": "Calanais Standing Stones"
+          "slug": "pembrokeshire-coast-national-park",
+          "name": "彭布罗克郡海岸国家公园",
+          "englishName": "Pembrokeshire Coast National Park"
         },
         {
-          "slug": "callendar-house",
-          "name": "卡伦德庄园",
-          "englishName": "Callendar House"
+          "slug": "wales-faw-150-memorial-mural",
+          "name": "威尔士足协150周年纪念壁画",
+          "englishName": "Wales FAW 150 Memorial Mural"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "pierhead-building",
+          "name": "皮尔海德大楼",
+          "englishName": "Pierhead Building"
         }
       ]
     }

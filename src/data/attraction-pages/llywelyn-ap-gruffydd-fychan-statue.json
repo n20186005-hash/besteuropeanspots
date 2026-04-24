@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰多弗里（Llandovery）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像・Llywelyn Ap Gruffydd Fychan (Welsh Warrior) Statue・英国・兰多弗里（Llandovery）",
-    "description": "第一次见到这尊雕像时，我正从兰多弗里那家老旧的面包店走出来，嘴里还嚼着刚出炉的威尔士饼。Market Square的石板路被阴湿的空气泡得发亮，阳光从教堂尖顶的缝隙里漏下来，恰好打在雕像的剑尖上。那一刻你根本没法忽略他——那种屹立在小镇心脏的突兀感，像一块被时间打磨了七百年的礁石。在周围矮胖的米色排屋和维多利亚式邮局之间，他显得太坚决了，仿佛随时准备迈下基座，走进广场中央去跟什么人理论。\n走近些，你能看到石头的纹理里嵌着苔藓和鸟粪，剑刃上有一道浅浅的裂纹——不是雕刻师的失误，而是某个冬天的冰霜冻裂的。他站在那里，面向南方，那是一片威尔士丘陵，起伏的山脊被灌木和干石墙切割成粗砺的拼图。我的手指碰到基座石面时是温凉的，像他刚离开不久。耳边有教堂的钟声缓慢地敲了十一点，接着是鸽子拍翅膀的簌簌声，还有远处牧羊犬的吠叫。\n但真正打动我的，是当地人对待这尊雕像的方式。一个穿着沾满泥土的靴子的老农从肉铺出来，路过雕像时伸手拍了拍基座，嘟囔了一句威尔士语。在咖啡店窗边读报的女士抬头看了雕像一眼，然后继续翻页。孩子们背着书包跑过广场，有一个小男孩跳起来试图碰到雕像的膝盖，但他妈妈喊了句什么，他立刻正经起来，对着雕像鞠了一躬。那种日常的、不经意的敬意，比任何博物馆的展签都更有说服力。\n这尊雕像不是旅游景点，它是这个小镇的呼吸节奏的一部分。它沉默地见证着周复一周的集市——那些卖羊毛毯和奶酪的摊主把货车停在它脚下；它看着情侣们在黄昏后坐进长椅接吻；它被圣诞彩灯缠住过脖子，也被雷暴雨冲刷过肩膀。而最动人的是，当你站在它面前，你会突然理解威尔士人的沉默——那种不需要大声宣告的骄傲，就刻在石头里，顺着雨水流进广场的每一道缝隙。"
+    "description": "第一次见到这尊雕像时，我正从兰多弗里那家老旧的面包店走出来，嘴里还嚼着刚出炉的威尔士饼。Market Square的石板路被阴湿的空气泡得发亮，阳光从教堂尖顶的缝隙里漏下来，恰好打在雕像的剑尖上。那一刻你根本没法忽略他——那种屹立在小镇心脏的突兀感，像一块被时间打磨了七百年的礁石。在周围矮胖的米色排屋和维多利亚式邮局之间，他显得太坚决了，仿佛随时准备迈下基座，走进广场中央去跟什么人理论。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hanging-hill-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    悬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">悬挂山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hanging Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/edinburgh-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Edinburgh Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glasgow-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scottish-parliament-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish Parliament Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜阿尔特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duart Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hanging-hill-wales",
-          "name": "悬挂山",
-          "englishName": "Hanging Hill"
+          "slug": "scottish-parliament-building",
+          "name": "苏格兰议会大楼",
+          "englishName": "Scottish Parliament Building"
         },
         {
-          "slug": "edinburgh-zoo",
-          "name": "爱丁堡动物园",
-          "englishName": "Edinburgh Zoo"
+          "slug": "big-ben",
+          "name": "大本钟",
+          "englishName": "Big Ben"
         },
         {
-          "slug": "glasgow-cathedral",
-          "name": "格拉斯哥大教堂",
-          "englishName": "Glasgow Cathedral"
+          "slug": "duart-castle",
+          "name": "杜阿尔特城堡",
+          "englishName": "Duart Castle"
         }
       ]
     }

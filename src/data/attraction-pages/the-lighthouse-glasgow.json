@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "灯塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "灯塔・The Lighthouse・英国・格拉斯哥",
-    "description": "第一次站在米切尔巷的入口时，我差点错过了它。窄巷里飘着咖啡馆的咖啡香和隔壁面包房黄油的气息，几棵行道树把光线切成碎片，投在那面红砖墙上。灯塔的门面实在不大，夹在维多利亚时期的建筑之间，像一本旧书里夹着的一张设计草图。但当我推开那扇玻璃门，抬起头的一瞬间，整个人像被施了定身术——一座雪白的螺旋塔从地面拔地而起，绕着它盘旋的楼梯像一根白色的DNA链，把天光从六层楼高的玻璃穹顶引下来，晃得我眼睛发酸。那光线不是直愣愣的，是经过每一级台阶的反射，在白色瓷砖和白色铸铁栏杆之间跳舞，最后洒在地板上，像碎银。\n空气里有一股混合着旧木材、石灰和展览用的颜料特有的味道，温和而干燥。楼下的展厅里传来孩子咯咯的笑声，还有策展人轻声讲解的声音，混在一起，并不嘈杂，反而像给这座沉默的建筑配上了背景音乐。我站在中庭，仰头看那螺旋楼梯一圈一圈地上升，每一层的窗户都藏在不同的角度，有的透进格拉斯哥灰色的天空，有的框出一角维多利亚风格的屋顶。我忽然理解了为什么它叫“灯塔”——不是因为它像海边的灯塔那样真正指引航船，而是它用这座楼梯把光从顶楼引下来，在灰蒙蒙的苏格兰城市里，点亮了每个走进来的人的眼睛。\n其实最初的“灯塔”不是给公众看的建筑，它是一份报纸——《格拉斯哥先驱报》的总部大楼。麦金托什在1893年设计它的时候才25岁，刚刚从格拉斯哥艺术学院毕业，满脑子都是打破传统的念头。他给这份严肃的报纸造了一座轻盈的、带着浪漫主义气息的家。大楼的正面开窗大胆而现代，楼层之间用白色铸铁花饰隔开，那种细长、弯曲的线条后来成为他标志性的“格拉斯哥风格”。最神奇的是那个中央塔楼——它其实是一个通风井兼采光井，相当于建筑的肺部，让报纸印刷机的油墨味和编辑们的烟味都能从这里升腾消散。一百多年后，报纸早已搬走，印刷机沉寂，但这座“肺”依然在呼吸，只是现在它呼吸的是设计、是艺术、是无数游客的惊叹声。\n六楼有一个小小的观景平台，沿着最后一段更窄更陡的铁梯爬上去，格拉斯哥的天际线在你眼前突然摊开。我挑了一个多云但偶尔透光的下午上去，风很大，吹得我耳朵嗡嗡响。往南能看到克莱德河灰蓝色的水面弯弯曲曲穿过城市，河边的起重机像巨大的恐龙骨架——那是造船业辉煌时代的遗骸。往西是格拉斯哥大学哥特式的尖塔，往东是现代商业区的玻璃幕墙。你站在这里，脚下是十九世纪末的设计，面前是二十一世纪的城市，中间隔着一百二十年。风里夹杂着河水的腥味和远处工地叮当的敲击声，那一刻我觉得自己站在时间的断层上，一只手扶着麦金托什设计的铸铁栏杆，另一只手伸向今天。"
+    "description": "第一次站在米切尔巷的入口时，我差点错过了它。窄巷里飘着咖啡馆的咖啡香和隔壁面包房黄油的气息，几棵行道树把光线切成碎片，投在那面红砖墙上。灯塔的门面实在不大，夹在维多利亚时期的建筑之间，像一本旧书里夹着的一张设计草图。但当我推开那扇玻璃门，抬起头的一瞬间，整个人像被施了定身术——一座雪白的螺旋塔从地面拔地而起，绕着它盘旋的楼梯像一根白色的DNA链，把天光从六层楼高的玻璃穹顶引下来，晃得我眼睛发酸。那光线不是直愣愣的，是经过每一级台阶的反射，在白色瓷砖和白色铸铁栏杆之间跳舞，最后洒在地板上，像碎银。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/conwy-town-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Town Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/holyrood-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣十字修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holyrood Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/paxtons-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克斯顿塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Paxton's Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/windsor-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    温\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">温莎城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Windsor Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lindisfarne-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林迪斯法恩城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lindisfarne Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "conwy-town-walls",
-          "name": "康威城墙",
-          "englishName": "Conwy Town Walls"
+          "slug": "windsor-castle",
+          "name": "温莎城堡",
+          "englishName": "Windsor Castle"
         },
         {
-          "slug": "holyrood-abbey",
-          "name": "圣十字修道院",
-          "englishName": "Holyrood Abbey"
+          "slug": "lindisfarne-castle",
+          "name": "林迪斯法恩城堡",
+          "englishName": "Lindisfarne Castle"
         },
         {
-          "slug": "paxtons-tower",
-          "name": "帕克斯顿塔楼",
-          "englishName": "National Trust - Paxton's Tower"
+          "slug": "buckingham-palace",
+          "name": "白金汉宫",
+          "englishName": "Buckingham Palace"
         }
       ]
     }

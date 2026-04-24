@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伦敦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伦敦塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "伦敦塔・Tower of London・英国・伦敦",
-    "description": "泰晤士河畔的那座灰色巨塔，在伦敦东区天际线里显得既笨重又庄严。我第一次远远望见他，是在一个灰蒙蒙的早晨。河风裹着水汽和柴油味扑面而来，而我分明觉得空气里还有一种更古老的气息——血腥、铁锈和历史的尘埃混在一起。乌鸦在护城河边的草地上踱步，黑色羽毛在晨光中泛着幽蓝；警卫身着猩红制服，用机械般的步伐绕着城墙巡逻。我走近正门，脚下的石阶被无数靴子、马蹄和囚徒的脚镣磨得光滑如镜，反射着天空慵懒的云。\n推开厚重的橡木门，光线突然暗淡下去，阴冷的气息像一块湿布贴在皮肤上。中世纪的箭孔透进狭窄的光柱，灰尘在其中缓慢悬浮。我听到自己的脚步声在石拱下回响，而每一次回音都好像被叠加了无数寂静的叹息。白塔的承重墙有两米厚，把外界的嘈杂隔绝得干干净净，只留下一种深邃的、几乎令人窒息的沉默。正是这种沉默让我想起：这里曾囚禁过安妮·博林、托马斯·莫尔，还有那些被砍头的无名囚徒；他们的喘息和祈祷早已渗入这座建筑的每一条石缝。\n伦敦塔在我心中更像一个巨大的时间容器——既装着璀璨的王冠和闪亮的盔甲，也装满了眼泪和血。我站在珠宝馆的玻璃展柜前，看着那颗非洲之星钻石在射灯下旋转，光线被切割成无数尖刺，刺得人眼睛发酸。一刻钟前我还在绿塔草地上听导游讲处决故事，那块沙土下不知道埋着多少无头尸骨。这种极致的奢华与极致的残酷只隔着一道墙，却共同构成了英格兰最真实的性格：既爱荣耀，也爱恐惧。\n真正打动我的不是那些宝贝，而是城墙上的乌鸦窝。饲养员告诉我，乌鸦的叫声明亮而执拗，像黑铁链条在风中碰撞。它们世代居住在塔里，传说一旦乌鸦飞走，塔就会崩塌、王国就会覆灭。我跟在一只翅膀上戴白环的乌鸦后面，看它不慌不忙地停在炮台上，歪头打量游客，像个老迈的卫兵。那一刻我忽然觉得，伦敦塔真正的守护者不是那些穿猩红制服的人，而是这几位沉默的黑翼预言家。"
+    "description": "泰晤士河畔的那座灰色巨塔，在伦敦东区天际线里显得既笨重又庄严。我第一次远远望见他，是在一个灰蒙蒙的早晨。河风裹着水汽和柴油味扑面而来，而我分明觉得空气里还有一种更古老的气息——血腥、铁锈和历史的尘埃混在一起。乌鸦在护城河边的草地上踱步，黑色羽毛在晨光中泛着幽蓝；警卫身着猩红制服，用机械般的步伐绕着城墙巡逻。我走近正门，脚下的石阶被无数靴子、马蹄和囚徒的脚镣磨得光滑如镜，反射着天空慵懒的云。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/powis-castle-and-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波伊斯城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Powis Castle and Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/iona-abbey-and-nunnery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾奥娜修道院和修女院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Iona Abbey and Nunnery</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hafod-estate\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德庄园（国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Hafod Estate</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "powis-castle-and-garden",
-          "name": "波伊斯城堡与花园",
-          "englishName": "Powis Castle and Garden"
+          "slug": "hafod-estate",
+          "name": "哈福德庄园（国家信托）",
+          "englishName": "National Trust - Hafod Estate"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "bryn-cader-faner",
+          "name": "布林卡德法纳",
+          "englishName": "Bryn Cader Faner"
         },
         {
-          "slug": "iona-abbey-and-nunnery",
-          "name": "艾奥娜修道院和修女院",
-          "englishName": "Iona Abbey and Nunnery"
+          "slug": "bannau-brycheiniog-national-park",
+          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
+          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
         }
       ]
     }

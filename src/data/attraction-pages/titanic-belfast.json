@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "贝尔法斯特",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "泰坦尼克号贝尔法斯特纪念馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "泰坦尼克号贝尔法斯特纪念馆・Titanic Belfast・英国・贝尔法斯特",
-    "description": "我第一次看到Titanic Belfast的时候，是十月的傍晚。灰蓝色的天空里飘着细密的雨丝，拉干河的水面泛着铅灰色的光。那座建筑就戳在河岸边的旧船台上，四道尖锐的银色船首斜对着天空，像四把插进黑色土地的刀，又像四条准备跃出水面的鲸。走近一点，能闻到河水带着铁锈和淤泥的味道，混合着建筑外墙那种金属和玻璃的冷冽气息。当地人管它叫“那个冰山”，因为设计师故意把外墙弄成参差不齐的多面体，阳光打在上面会碎成几百片反光。\n但这栋楼不是来炫技的。它脚下踩着的，是哈兰德与沃尔夫造船厂的三号船台，泰坦尼克号就是在那个地方被一根根铆钉、一块块钢板拼起来的。你站在门口就能望见河对岸那个巨大的黄色起重机，叫“参孙”，它吊起过泰坦尼克的龙骨。空气里总隐约飘着一股机油和河水混合的味道——不是工业污染，是那种老船坞特有的、带着年代感的潮湿铁腥。门口排队的人大多不喧哗，表情里有期待，也有某种肃穆。\n走进门厅，头顶是一整面像船体侧面一样弯曲的白色金属天花板，嵌着数千个小灯，模拟1912年那个四月夜空的星星。因为光线调得很暗，那些小灯显得特别亮，你仰头看的时候，会产生一种站在船上往海面望的错觉。前台的工作人员会递给你一张类似于登船票的东西，上面印着一位真实乘客的名字和舱位等级——这是馆方设计的一个小彩蛋，你会跟着这位陌生人的视角走完整趟展览。我拿到的是三等舱的“威廉·道金斯”，一个24岁的管道工，从英国中部想去纽约找份更好的活儿。我捏着那张纸条，手指摩挲着纸边，突然觉得指尖有点发烫。\n整个馆分九层，从电梯直达顶层然后螺旋向下，像钻进一艘船的胃肠。最打动我的不是那些泡了水的遗物、不是复原的宽敞头等舱沙发，而是底层那个能模拟夜晚海面气温的低温展厅。灯光熄灭只留几颗像北极星的微光，冷气从头顶往下压，你裹着外套还能感觉到脖子里起鸡皮疙瘩。旁边有一位妈妈蹲下来，对孩子悄声说：“他们当时，比这冷一百倍。”孩子没说话，只是把妈妈的胳膊抱得更紧了。"
+    "description": "我第一次看到Titanic Belfast的时候，是十月的傍晚。灰蓝色的天空里飘着细密的雨丝，拉干河的水面泛着铅灰色的光。那座建筑就戳在河岸边的旧船台上，四道尖锐的银色船首斜对着天空，像四把插进黑色土地的刀，又像四条准备跃出水面的鲸。走近一点，能闻到河水带着铁锈和淤泥的味道，混合着建筑外墙那种金属和玻璃的冷冽气息。当地人管它叫“那个冰山”，因为设计师故意把外墙弄成参差不齐的多面体，阳光打在上面会碎成几百片反光。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glasgow-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mccaigs-tower-battery-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    麦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">麦凯格塔与炮台山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">McCaig's Tower & Battery Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/devils-staircase-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    恶\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">恶魔阶梯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Devil's Staircase</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/devils-staircase-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    恶\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">恶魔阶梯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Devil's Staircase</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-faw-150-memorial-mural\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士足协150周年纪念壁画</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales FAW 150 Memorial Mural</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
-        {
-          "slug": "glasgow-cathedral",
-          "name": "格拉斯哥大教堂",
-          "englishName": "Glasgow Cathedral"
-        },
-        {
-          "slug": "mccaigs-tower-battery-hill",
-          "name": "麦凯格塔与炮台山",
-          "englishName": "McCaig's Tower & Battery Hill"
-        },
         {
           "slug": "devils-staircase-wales",
           "name": "恶魔阶梯",
           "englishName": "Devil's Staircase"
+        },
+        {
+          "slug": "wales-faw-150-memorial-mural",
+          "name": "威尔士足协150周年纪念壁画",
+          "englishName": "Wales FAW 150 Memorial Mural"
+        },
+        {
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡埃劳山丘堡垒",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡埃劳山丘堡垒・Caerau Hillfort・英国・卡迪夫",
-    "description": "第一次爬上卡埃劳山丘堡垒的草坡时，我差点被威尔士的风吹得站不稳。那是一个四月的下午，天空刚下过一阵急雨，云层裂开一道缝，阳光像巨人的手指戳在潮湿的泥土上。我沿着一条几乎看不出路的羊肠小道往上走，脚下的红褐色土壤黏糊糊的，鞋底沾满了湿润的草叶和野花的碎片。空气中混杂着腐殖质的甜香和远处蜂蜜色的金雀花特有的乳香气味，让人觉得像被一团隐形的香料包裹着。走到半山腰，突然一阵轰鸣从地下传来——不是地震，是风钻过堡垒边缘那些古老的壕沟时发出的低沉呜咽。我停下来，闭上眼，仿佛能听见两千年前的凯尔特哨兵在用长矛敲打盾牌，警示逼近的罗马士兵。\n登上最高处的土墙顶端时，整座卡迪夫城突然摊开在你眼前。左边是塔夫河蜿蜒的银线，右边是布里斯托尔海峡灰蓝色的水天相接处，中间密密麻麻的红砖屋顶和教堂尖顶像乐高玩具一样精致。而脚下，这座堡垒的三层同心土墙像巨人的指纹，深深嵌入大地。站在这里，你才发现所谓“堡垒”其实早已被岁月抹平了大半，只剩下起伏的轮廓和湿漉漉的绿色苔藓。但这恰恰是它最动人的地方——它不是被供在博物馆玻璃柜里的文物，而是一座依然在呼吸、在生长、在改变的山丘。一群绵羊慢悠悠地从我身边走过，它们身上的毛发粘着荆棘种子，蹄印踩过两千年前的灶坑遗迹。牧羊人骑着一辆生锈的自行车从另一侧上来，冲我点了点头，然后吹了一声口哨，羊群就听话地沿着墙根走向了另一边。我觉得这画面比任何考古图册都更有说服力：几千年来，人类、动物、植物都在这里共生，堡垒也从未真正“废弃”，它只是换了主人和用途。\n最让我着迷的是南侧那片被忽略的斜坡。那里有一小片新生橡树林，树干和土墙上覆盖着厚厚的苔藓和地衣，像一块块绿色丝绒。如果你趴下来看，会发现在苔藓之间嵌着一些破碎的陶片和燧石——那是几千年前这里的居民打猎或做饭后留下的遗物。我捡起一片边缘锋利的小石子，放在手心，它冰凉而光滑，带着被雨水冲刷了无数遍的钝光。不远处，一根被人砍断的树枝下，露出了一截还算完整的木炭，凑近闻还有淡淡的烟火味。我不知道这是游客生篝火留下的，还是一千年前某个冬至祭天仪式烧剩下的——但这不重要。在这里，时间和距离都被压缩了，你只需要一个安静的下午，一片发亮的草坡，就能触摸到人类文明最粗糙、也最真实的掌心。"
+    "description": "第一次爬上卡埃劳山丘堡垒的草坡时，我差点被威尔士的风吹得站不稳。那是一个四月的下午，天空刚下过一阵急雨，云层裂开一道缝，阳光像巨人的手指戳在潮湿的泥土上。我沿着一条几乎看不出路的羊肠小道往上走，脚下的红褐色土壤黏糊糊的，鞋底沾满了湿润的草叶和野花的碎片。空气中混杂着腐殖质的甜香和远处蜂蜜色的金雀花特有的乳香气味，让人觉得像被一团隐形的香料包裹着。走到半山腰，突然一阵轰鸣从地下传来——不是地震，是风钻过堡垒边缘那些古老的壕沟时发出的低沉呜咽。我停下来，闭上眼，仿佛能听见两千年前的凯尔特哨兵在用长矛敲打盾牌，警示逼近的罗马士兵。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-kirkyard-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗里亚教堂墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Kirkyard Cemetery Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "bryn-cader-faner",
+          "name": "布林卡德法纳",
+          "englishName": "Bryn Cader Faner"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "greyfriars-kirkyard-edinburgh",
+          "name": "格雷弗里亚教堂墓地",
+          "englishName": "Greyfriars Kirkyard Cemetery Edinburgh"
         },
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "parc-cwm-darran",
+          "name": "帕克库姆达兰公园",
+          "englishName": "Parc Cwm Darran"
         }
       ]
     }

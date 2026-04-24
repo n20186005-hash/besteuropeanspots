@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "大韦德洛克农场与鹿园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "大韦德洛克农场与鹿园・Great Wedlock Farm & Deer Park・英国・彭布罗克郡",
-    "description": "你沿着一条两边长满野花的碎石路慢慢开进去，空气里突然就变了味道。不再是城市里那种混合了尾气和空调外机的干燥气味，而是一种湿润的、带着青草被碾压过的汁液香、混着泥土里某种腐殖质的醇厚气息。我把车窗摇下来，风是凉的，裹着远处隐隐约约的鹿群叫声——不是尖锐的嘶鸣，而是一种低沉的、仿佛从地底下传出来的咕噜声，像是在跟大地说话。路尽头的石头农舍门口站着一个穿厚格子衬衫的中年人，他朝我挥了挥手，身后是几棵被风吹歪了的橡树，树枝上挂着一串串还没成熟的橡子。\n走进鹿园的时候，我的脚步突然变得很轻。鹿群就散在前面的缓坡上，有一些趴在树荫下反刍，有一些慢悠悠地走着，脖子上的毛在阳光下闪着铜红色的光。最神奇的是它们的眼睛——那种深褐色的、半透明的瞳孔，像琥珀一样，当你走近它们，它们会抬头看着你，耳朵微微颤动，但不会躲闪。我摊开手掌，把鹿食倒在手心，一头年轻的母鹿犹豫了几步，终于走过来，用湿润的鼻子碰了碰我的掌沿，然后轻轻衔起鹿食。她的舌头蹭过我的皮肤，粗糙而温暖，像一块被温水泡过的砂纸。那一刻，整个世界都安静下来了，只有她咀嚼时发出的嘎吱声和远处林子里乌鸦的叫声。\n农场的另一边是一座古老的石头谷仓，现在被改成了咖啡馆和商店。谷仓里面还保留着原来的干草升降机和马厩的木栅栏，空气中飘着刚烤好的威尔士蛋糕的香甜气，混合着旧木头和干草的幽微味道。我坐在靠窗的位子上，窗外就是那片鹿园，能看到鹿群在草地上移动的剪影。隔壁桌上一位当地的老太太正在教她的孙女辨认不同的鹿角，小女孩用手比划着，问为什么鹿角会长成树枝的样子。老太太笑着说，那是它们跟树木谈恋爱的证据。我端起那杯用威尔士泉水泡的茶，心想，这个地方最打动人心的，不是那些精心设计的活动，而是这种让时间自动慢下来的力量——你坐在那里，就觉得自己应该什么都不做，只是看着鹿，看着云，看着阳光一寸一寸地爬过草地。"
+    "description": "你沿着一条两边长满野花的碎石路慢慢开进去，空气里突然就变了味道。不再是城市里那种混合了尾气和空调外机的干燥气味，而是一种湿润的、带着青草被碾压过的汁液香、混着泥土里某种腐殖质的醇厚气息。我把车窗摇下来，风是凉的，裹着远处隐隐约约的鹿群叫声——不是尖锐的嘶鸣，而是一种低沉的、仿佛从地底下传出来的咕噜声，像是在跟大地说话。路尽头的石头农舍门口站着一个穿厚格子衬衫的中年人，他朝我挥了挥手，身后是几棵被风吹歪了的橡树，树枝上挂着一串串还没成熟的橡子。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunvegan-castle-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓韦根城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunvegan Castle & Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/commando-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    突\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">突击队纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Commando Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mary-queen-of-scots-visitors-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰玛丽女王游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mary Queen of Scots’ Visitors Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/staffa-national-nature-reserve-fingals-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    芬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">芬戈尔洞（斯塔法岛国家自然保护区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staffa National Nature Reserve - Fingal's Cave</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "bath-tower",
+          "name": "巴斯塔",
+          "englishName": "Bath Tower"
         },
         {
-          "slug": "dunvegan-castle-gardens",
-          "name": "邓韦根城堡与花园",
-          "englishName": "Dunvegan Castle & Gardens"
+          "slug": "mary-queen-of-scots-visitors-centre",
+          "name": "苏格兰玛丽女王游客中心",
+          "englishName": "Mary Queen of Scots’ Visitors Centre"
         },
         {
-          "slug": "commando-memorial",
-          "name": "突击队纪念碑",
-          "englishName": "Commando Memorial"
+          "slug": "staffa-national-nature-reserve-fingals-cave",
+          "name": "芬戈尔洞（斯塔法岛国家自然保护区）",
+          "englishName": "Staffa National Nature Reserve - Fingal's Cave"
         }
       ]
     }

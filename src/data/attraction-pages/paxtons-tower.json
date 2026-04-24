@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡马森/兰代洛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "帕克斯顿塔楼",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "帕克斯顿塔楼・National Trust - Paxton's Tower・英国・卡马森/兰代洛",
-    "description": "初见帕克斯顿塔楼，我说的是第一次远眺它的轮廓，那是在一个薄雾初散的威尔士秋天早晨。我从卡马森租了一辆车，在一条名字都叫不上来的乡村小路上兜兜转转了将近二十分钟，导航信号弱得几乎要放弃。正当我准备停在路边摊开地图时，一扭头，草坡上一座石灰色的小塔楼就那样毫无预兆地站在了我的面前。它不大，真的不大，甚至可以说是迷你，但站在起伏的绿色山丘和灰色云层之间，它的姿态极其骄傲，像一个穿着盔甲的矮个子将军在检阅整片牧场。\n我慢慢走上前去，草地里的露水打湿了我的帆布鞋面。空气里是干草、泥土和远处牧场上传来的那种湿润的牲畜皮毛的气味，混合着微弱的海风——毕竟这里离海边只有不到二十公里。脚下的土地软糯，像踩在厚厚的碎海绵上。抬头望去，塔身由粗糙的本地砂岩砌成，表面的细小苔藓和地衣在斜射的晨光里泛着青金色的光。耳朵里只有风声和偶尔几只乌鸦的叫声，它们正绕塔尖练习不规则的飞行编队，那叫声被风吹散，一声长一声短，在空旷的乡野间显得特别清冷。\n塔楼的正面有一扇厚重的橡木门，上面钉着铸铁的合页，门环是一只已经被摸得发亮的铜制狮子头。你推开它时，吱呀一声，那声音像老妇人在寂静的午后打了个哈欠。里面不是冷冰冰的石头大厅，而是一个螺旋形的窄石阶，石阶在你的脚下发出空洞的回响，每一步都像在提醒你，这座塔不是用来防御的，它更像一个被孤立的绅士俱乐部，只欢迎你一个人。最打动我的是，这里没有任何商业化的痕迹，没有纪念品店，没有围栏，甚至连一块写着“禁止攀爬”的牌子都看不见。它就这样静静站在那儿，像一封信，被遗落在威尔士的田野里，等着某个碰巧路过的人来拆开。\n登到塔顶的平台时，风一下就大了，吹得我眼睛几乎睁不开。可当我眯着眼环顾四周，视野开阔到了极致：北边是青灰色的布雷肯比肯斯山脉连绵起伏，南边延伸到卡马森湾的一抹银色亮光。那一瞬间，我觉得整个世界都是我的，而这座塔楼是它最孤独却也最豪华的王座。它不像伦敦塔那样熙熙攘攘，也不像爱丁堡城堡那样庄严肃穆，它就是一个古怪而浪漫的灵魂，在这个威尔士的角落里，替它的建造者——一个两百年前的乡绅，继续对着远方的风景做着一场关于英雄和传奇的梦。"
+    "description": "初见帕克斯顿塔楼，我说的是第一次远眺它的轮廓，那是在一个薄雾初散的威尔士秋天早晨。我从卡马森租了一辆车，在一条名字都叫不上来的乡村小路上兜兜转转了将近二十分钟，导航信号弱得几乎要放弃。正当我准备停在路边摊开地图时，一扭头，草坡上一座石灰色的小塔楼就那样毫无预兆地站在了我的面前。它不大，真的不大，甚至可以说是迷你，但站在起伏的绿色山丘和灰色云层之间，它的姿态极其骄傲，像一个穿着盔甲的矮个子将军在检阅整片牧场。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mary-queen-of-scots-visitors-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰玛丽女王游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mary Queen of Scots’ Visitors Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-trail-walk\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加的夫湾步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Trail Walk</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "britannia-bridge",
-          "name": "布里塔尼亚桥",
-          "englishName": "Britannia Bridge"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         },
         {
-          "slug": "mary-queen-of-scots-visitors-centre",
-          "name": "苏格兰玛丽女王游客中心",
-          "englishName": "Mary Queen of Scots’ Visitors Centre"
+          "slug": "big-ben",
+          "name": "大本钟",
+          "englishName": "Big Ben"
         },
         {
-          "slug": "castell-coch",
-          "name": "科奇城堡",
-          "englishName": "Castell Coch"
+          "slug": "cardiff-bay-trail-walk",
+          "name": "加的夫湾步道",
+          "englishName": "Cardiff Bay Trail Walk"
         }
       ]
     }

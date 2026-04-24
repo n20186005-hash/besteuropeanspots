@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "诺森伯兰郡圣岛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "林迪斯法恩城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "林迪斯法恩城堡・Lindisfarne Castle・英国・诺森伯兰郡圣岛",
-    "description": "第一次见到林迪斯法恩城堡，是在雾气将散未散的清晨。车子停在堤道这头，等待海水退去，远远地就能看见那座火山岩堆砌般的建筑蹲伏在圣岛的荒原之上。它不是那种高高耸立的童话城堡，更像一只从岩石里长出来的野兽——黄褐色的砂岩裹着中世纪的粗粝，墙缝里渗着海盐的结晶。潮水退去的世界异常寂静，只剩下风掠过草甸的沙沙声和远处海鸥尖锐的啼叫。当你走过那条被海水浸没又显现的古道时，脚底的砂砾会发出细碎的声响，像是大地在讲述千年来无数朝圣者的脚步。\n走进城堡，光影立刻变了。室内低矮而温暖，樱桃木的墙裙和楼梯泛着暗红色的光，与外面清冷的海风形成鲜明对比。客厅里摆着破旧但舒适的皮沙发，壁炉里烧着桦木，火光映在墙上的蚀刻版画上。空气中混着木头燃烧的焦香、老书的纸张味和玻璃窗外飘进来的海水咸味。你能听见木板在脚下吱呀作响，听见风从窗缝里钻进钻出的呜咽声。这里不像一座城堡，更像一个古怪的老绅士的私人宅邸——墙上挂着中国瓷器碎片做成的装饰，书架上立着伯恩-琼斯的插画，角落里堆着海贝和漂流木。它安静得让你不敢大声说话，生怕打破一百年前某位诗人独自在这里读信的氛围。\n当地人把这座城堡叫做“城堡”，但语气里没有敬畏，只有亲昵。圣岛本身只有几十个居民，城堡就像他们的老邻居。你会在村子里的小酒馆听到老渔夫说：“今天城堡又没开门，潮太大了。”孩子们放学后会跑到城堡外的草坪上踢球，羊群偶尔会溜进花园吃玫瑰花。城堡不是被围栏隔离的景点，而是岛上的日常——它看着潮涨潮落，看着游客来去匆匆，看着修士们的遗迹一天天被海水侵蚀。最打动人心的是它的孤独：整座城堡只有三四个房间对外开放，没有华丽的宫殿大厅，没有皇室的奢靡，只有一种克制的、甚至有些笨拙的真诚。它在用低沉的嗓音告诉你：这里不需要惊叹，只需要坐下来，和我一起听听北海的浪声。"
+    "description": "第一次见到林迪斯法恩城堡，是在雾气将散未散的清晨。车子停在堤道这头，等待海水退去，远远地就能看见那座火山岩堆砌般的建筑蹲伏在圣岛的荒原之上。它不是那种高高耸立的童话城堡，更像一只从岩石里长出来的野兽——黄褐色的砂岩裹着中世纪的粗粝，墙缝里渗着海盐的结晶。潮水退去的世界异常寂静，只剩下风掠过草甸的沙沙声和远处海鸥尖锐的啼叫。当你走过那条被海水浸没又显现的古道时，脚底的砂砾会发出细碎的声响，像是大地在讲述千年来无数朝圣者的脚步。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/eryri-national-park-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃里里国家公园（斯诺登尼亚）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eryri National Park (Snowdonia)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dr-beynons-bug-farm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝农博士的虫子农场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dr Beynon's Bug Farm</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/titanic-belfast\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    泰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">泰坦尼克号贝尔法斯特纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Titanic Belfast</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pembrokeshire-llama-sanctuary\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡羊驼保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Llama Sanctuary</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "eryri-national-park-snowdonia",
-          "name": "埃里里国家公园（斯诺登尼亚）",
-          "englishName": "Eryri National Park (Snowdonia)"
+          "slug": "bryntail-lead-mine-buildings",
+          "name": "布林泰尔铅矿建筑",
+          "englishName": "Bryntail Lead Mine Buildings"
         },
         {
-          "slug": "dr-beynons-bug-farm",
-          "name": "贝农博士的虫子农场",
-          "englishName": "Dr Beynon's Bug Farm"
+          "slug": "titanic-belfast",
+          "name": "泰坦尼克号贝尔法斯特纪念馆",
+          "englishName": "Titanic Belfast"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "pembrokeshire-llama-sanctuary",
+          "name": "彭布罗克郡羊驼保护区",
+          "englishName": "Pembrokeshire Llama Sanctuary"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "爱丁堡城堡・Edinburgh Castle・英国・爱丁堡",
-    "description": "我至今记得第一次沿着皇家一英里往山顶走时的感觉。脚下的花岗岩石板被几百万双脚磨得发亮，像一面面小镜子反射着苏格兰灰蒙蒙的天光。风从城堡方向灌下来，带着一股说不清道不明的味道——也许是石墙上苔藓的潮湿，也许是几百年火药残留的金属气息，又或者是风笛手练习室里飘来的断续旋律。这条路本身就像一条往历史的纵深爬升的阶梯，每走一步，身边的建筑就古老一分，直到城堡的灰色轮廓突然出现在街巷尽头，像一头蹲在火山口上的巨兽。\n走进城堡大门的那一刻，我反而安静了下来。不是因为肃穆，而是因为这里的一切都太真实了。炮台上那些18世纪的青铜大炮依然对着北面的福斯湾，炮管上的铜绿像年轮一样层叠；城堡内院的鹅卵石地上，不知道被多少双靴子踩过，连颜色都变得深浅不一。最让我意外的是，这里不是一座冷冰冰的博物馆——城堡里驻守着真正的苏格兰士兵，他们穿着格子裙，背着步枪，在哨位上走来走去。一个士兵告诉我，他从军三年，每天的工作就是在城堡里巡逻，游客们总以为他们是演员，但他脚上的靴子是真的，枪里的子弹也是真的。这种军事与旅游、历史与当下的交错感，让爱丁堡城堡有了其他古城堡没有的呼吸和体温。\n城堡最打动我的地方，是它毫无保留地把苏格兰的骄傲与心碎一起端到你面前。在王室珠宝展厅里，那顶1540年打造的苏格兰王冠静静躺在玻璃柜中，黄金和珍珠在灯光下闪着温润的光，但最让我震撼的是讲述它消失又找回的故事——1651年克伦威尔入侵时，有人把它藏在城堡的某个角落里，一藏就是九年，差点被彻底遗忘。而在国家战争博物馆里，展出的不是英雄的勋章，而是普通士兵的家信、破损的旗帜、一个母亲写给前线儿子的最后一封信的复制品。这些物件没有镶金嵌银，却比任何王冠都更沉重。当夕阳把城堡的影子拉长，整个爱丁堡的屋顶都镀上一层金红色时，我突然理解了为什么苏格兰人把这座城堡看得比生命还重要——它不只是一座建筑，而是这个倔强民族几百年来的精神锚点。"
+    "description": "我至今记得第一次沿着皇家一英里往山顶走时的感觉。脚下的花岗岩石板被几百万双脚磨得发亮，像一面面小镜子反射着苏格兰灰蒙蒙的天光。风从城堡方向灌下来，带着一股说不清道不明的味道——也许是石墙上苔藓的潮湿，也许是几百年火药残留的金属气息，又或者是风笛手练习室里飘来的断续旋律。这条路本身就像一条往历史的纵深爬升的阶梯，每走一步，身边的建筑就古老一分，直到城堡的灰色轮廓突然出现在街巷尽头，像一头蹲在火山口上的巨兽。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brean-down-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林当堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brean Down Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chatsworth-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查茨沃斯庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chatsworth House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pistyll-rhaeadr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮斯蒂尔·拉厄德尔瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pistyll Rhaeadr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/spirit-of-wales-show\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士精神秀</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Spirit of Wales Show</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-smallest-house-in-great-britain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大不列颠最小屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Smallest House In Great Britain</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "brean-down-fort",
-          "name": "布林当堡垒",
-          "englishName": "Brean Down Fort"
+          "slug": "pistyll-rhaeadr",
+          "name": "皮斯蒂尔·拉厄德尔瀑布",
+          "englishName": "Pistyll Rhaeadr"
         },
         {
-          "slug": "chatsworth-house",
-          "name": "查茨沃斯庄园",
-          "englishName": "Chatsworth House"
+          "slug": "spirit-of-wales-show",
+          "name": "威尔士精神秀",
+          "englishName": "Spirit of Wales Show"
         },
         {
-          "slug": "colinton-station-tunnel",
-          "name": "科林顿车站与隧道",
-          "englishName": "Colinton Station & Tunnel"
+          "slug": "the-smallest-house-in-great-britain",
+          "name": "大不列颠最小屋",
+          "englishName": "The Smallest House In Great Britain"
         }
       ]
     }

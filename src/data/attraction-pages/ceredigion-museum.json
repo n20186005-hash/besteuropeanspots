@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯（Aberystwyth）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "锡尔迪金博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "锡尔迪金博物馆・Amgueddfa Ceredigion Museum・英国・阿伯里斯特威斯（Aberystwyth）",
-    "description": "推开门的那一刻，你的感官会同时被四样东西击中。老木头踩在脚下那种轻微凹陷的触感——这地板一定承受过几千双带着海水味道的靴子；从高高的铁艺阳台上方洒下来的天光，混着老相框里木质和纸张被阳光烘焙过后特有的暖暖的甜香；还有一股说不上来的味道，像是旧皮革、毛衣料子和干掉的苹果核混合在一起，你闻到的其实是时间。最妙的是声音。这座建筑的前身是一座热闹的剧院，所以当你站在曾经是舞台的地方，耳朵里似乎还能捕捉到一百年前观众的窃窃私语和演员在木板上踏出回响的脚步，哪怕此刻四周非常安静。\n你站在大厅中央，周围的一切都让你想伸手去碰。左手边一个玻璃柜里摆着一整套威尔士羊毛纺织工具，旁边挂着一件缝着密实暗花的传统新娘礼服，蕾丝领口已经泛黄，但你仿佛能看到当年那位新娘在婚礼前夜小心翼翼地叠好它。右边是渔船的模型和打捞上来的船灯，铁制的灯罩上爬满绿色的铜锈，底下还有一份手写的船家日记，墨水淡得快看不清，但每个字都倔强地粘在纸上。你低头一看，脚边是一块磨得光亮的铸铁炉板，上面刻着一行威尔士语，翻译过来是“家，甜蜜的家”。\n博物馆的气氛非常独特，它不像伦敦那些大馆一样冷峻高傲，反而像走进了一位老爷爷的阁楼，每一件东西都被仔细擦拭过，摆得整整齐齐，标签都用手写体工工整整地抄在小卡片上。有些展品甚至不需要标签，比如那把老式厨房椅，你一坐上去就能听见木头吱呀一声，仿佛在说“嘿，你也是威尔士人吗？”你看到当地的小朋友被老师带着在这里上课，他们围着一个老式收音机，老师按下开关，里面传出一段柔和的威尔士语民谣，孩子们安静地听着，有些还跟着哼唱起来。那一刻你突然意识到，这座博物馆不是用来“看”的，而是用来“生活”的。\n最打动我的，是角落里的一个展柜，里面放着一个小小的银质奖杯，是1947年镇上园艺比赛的获奖纪念。旁边有一张发黄的照片，照片里一个戴着鸭舌帽的男人捧着一盆开满花的天空葵，笑得很灿烂。他背后是自己家的石头小屋，窗户旁边也挂着一样的花。这种极致的平凡反而让你心里发软。它没有在讲述什么惊天动地的大事，而是在小心翼翼地保存着每一个普通人的认真和骄傲。站在这里，你会不由自主地放慢脚步，因为你知道，这些物件最知道生活是什么样子。"
+    "description": "推开门的那一刻，你的感官会同时被四样东西击中。老木头踩在脚下那种轻微凹陷的触感——这地板一定承受过几千双带着海水味道的靴子；从高高的铁艺阳台上方洒下来的天光，混着老相框里木质和纸张被阳光烘焙过后特有的暖暖的甜香；还有一股说不上来的味道，像是旧皮革、毛衣料子和干掉的苹果核混合在一起，你闻到的其实是时间。最妙的是声音。这座建筑的前身是一座热闹的剧院，所以当你站在曾经是舞台的地方，耳朵里似乎还能捕捉到一百年前观众的窃窃私语和演员在木板上踏出回响的脚步，哪怕此刻四周非常安静。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/monkton-old-hall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙克顿老庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monkton Old Hall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/henrhyd-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亨利德瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Henrhyd Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cardiff-bay-barrage",
-          "name": "卡迪夫湾水闸",
-          "englishName": "Cardiff Bay Barrage"
+          "slug": "monkton-old-hall",
+          "name": "蒙克顿老庄园",
+          "englishName": "Monkton Old Hall"
         },
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "llyn-brianne-viewpoint",
+          "name": "布莱恩湖观景台",
+          "englishName": "Llyn Brianne Viewpoint"
         },
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "henrhyd-falls",
+          "name": "亨利德瀑布",
+          "englishName": "Henrhyd Falls"
         }
       ]
     }

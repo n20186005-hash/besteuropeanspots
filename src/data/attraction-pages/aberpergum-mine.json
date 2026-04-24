@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "尼思谷",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯珀古姆煤矿",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "阿伯珀古姆煤矿・Aberpergum Mine・英国・尼思谷",
-    "description": "我第一次见到阿伯珀古姆是深秋的一个阴天。车停在碎石铺的停车场，眼前是两排低矮的砖房，屋顶铺着生锈的铁皮，烟囱里飘出淡淡的煤烟味。远处灰绿色的山坡上，矿井头架像一只铁灰色的恐龙骨架，静默地插在云层下面。整个空气里都是湿泥土混着焦煤的气息，那种味道并不难闻，反倒像翻开一本古旧书页时扑出来的岁月尘香。我站在那儿愣了十几秒，身后的威尔士大叔笑着说，小心点，你的鞋底会沾上这里的煤粉，怎么洗都洗不掉，这地方的灵魂就是黑的。\n走进地面博物馆，里头的光线很暗，只有几盏黄色灯泡悬在木梁上。墙上挂着泛白的矿工全家福，男人们脸上全是煤灰，眼睛却亮得像火炬。我凑近看一张摄于一九一三年的照片，三十几个矿工挤在矿井入口，最小的那个男孩看起来不到十二岁，嘴里叼着烟斗，表情老成得让人心酸。玻璃展柜里摆着磨损的矿灯、粗麻布工作服，还有一只被煤块压扁的铁皮水壶。讲解员是个退休矿工，名叫达伦，他的右手缺了三根手指，说话时声音像碎石子摩擦地面，他指着那只水壶说，这是我爸的东西，他被困在地下六天，靠这壶里的雨水活下来的。\n真正下井的体验彻底改变了我对黑暗的认知。我们戴上安全帽和头灯，钻进竖井的铁笼子，升降机吱吱嘎嘎往下沉。周围的光线一点一点被吞噬，温度从地面十五度骤降到地下八度，空气里飘着潮润的石灰和硝氨混合的怪味。达伦把头顶的灯关了让我们感受十秒钟的绝对黑暗，那是一种有重量的黑，像毯子压在眼睛上，耳朵里全是自己的心跳声。等到灯再亮起来，我看到壁面上密密麻麻的镐痕，有些被水淹过的巷道还泛着晶亮的铁锈色。达伦用靴子踢了踢地上的碎石说，你们现在站的这个地方，离海平面有一百二十米，但离地狱只有一层薄薄的煤。\n这个煤矿最打动我的，是它没有被包装成光鲜的旅游景点。那些油污的气味、生锈的机器、矿工们粗糙的手掌，一切都还保留着它原本的模样。它不是让你来感叹科技进步的博物馆，而是邀请你走进一段被遗忘了的、极其具体的生活。当达伦唱起威尔士矿工的传统歌谣时，那苍老沙哑的声线在长长的主巷道里回荡，我忽然理解了为什么威尔士人对矿井有一种近乎宗教的感情——那是他们祖祖辈辈用血肉挖出来的世界。"
+    "description": "我第一次见到阿伯珀古姆是深秋的一个阴天。车停在碎石铺的停车场，眼前是两排低矮的砖房，屋顶铺着生锈的铁皮，烟囱里飘出淡淡的煤烟味。远处灰绿色的山坡上，矿井头架像一只铁灰色的恐龙骨架，静默地插在云层下面。整个空气里都是湿泥土混着焦煤的气息，那种味道并不难闻，反倒像翻开一本古旧书页时扑出来的岁月尘香。我站在那儿愣了十几秒，身后的威尔士大叔笑着说，小心点，你的鞋底会沾上这里的煤粉，怎么洗都洗不掉，这地方的灵魂就是黑的。"
   },
   "sections": [
     {
@@ -62,17 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/menai-suspension-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅奈悬索桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Menai Suspension Bridge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "castell-coch",
+          "name": "科奇城堡",
+          "englishName": "Castell Coch"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "the-tenement-house-glasgow",
+          "name": "公寓博物馆（苏格兰国家信托）",
+          "englishName": "The Tenement House (National Trust for Scotland)"
+        },
+        {
+          "slug": "menai-suspension-bridge",
+          "name": "梅奈悬索桥",
+          "englishName": "Menai Suspension Bridge"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "切斯特",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "切斯特城堡：阿格里科拉塔和城堡城墙",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "切斯特城堡：阿格里科拉塔和城堡城墙・Chester Castle: Agricola Tower and Castle Walls・英国・切斯特",
-    "description": "第一次站在切斯特城堡的城墙前，我愣了几秒。那天的天空是铅灰色的，云层压得很低，仿佛随时要滴出水来。阿格里科拉塔就那样孤零零地立在城堡法院的边上，有点违和——一边是维多利亚时代新建的富丽堂皇的法院大楼，一边是这座矮胖、敦实、浑身伤疤的古老石塔。阳光偶尔从云缝中漏下，打在石塔的北墙上，那些被风化了几个世纪的砂岩呈现出一种温暖的金黄色，而阴影里的部分则是暗沉的灰褐色，像是被时间浸泡过的老照片。空气里有种混合的气味——湿润的泥土、古老的石粉，还有远处黛河飘来的淡淡水汽。偶尔一只海鸥停在塔顶的雉堞上，嘎嘎叫两声，打破了这份庄严的寂静。\n走得更近些，你能看见石壁上密密麻麻的凿痕，那是中世纪石匠留下的指纹。阿格里科拉塔的防御性非常直接：底部几乎没有窗户，只有几道狭长的箭缝，像眯起来的眼睛，冰冷地凝视着来犯者。塔楼大门上方的拱形石券上雕刻着简单的几何纹样，已经磨损得几乎辨认不出。我用手掌贴着墙面，感觉到石头透着一股凉意，像是积攒了一千年的寒气。你能想象当年诺曼士兵在这里巡逻时的脚步声，火把的噼啪声，以及深夜从城墙外传来的马蹄声。这个地方不是供人观赏的，它是用来活命的。\n在切斯特，城堡并不是游客的首选——人们更爱去东门的钟楼和罗马花园。但正因如此，阿格里科拉塔和它旁边的城墙才保留了某种纯粹的本真。你很少会遇到拥挤的旅行团，更多时候，只有几个本地人牵着狗在城墙上散步。一个老爷爷坐在城墙脚的木椅上读报，阳光斜照着他的帽檐，他冲我点了点头，又继续低头翻页。那种感觉很奇怪，明明站在这座拥有两千年防御史的要塞脚下，却觉得一切都很平静，很日常。或许这就是英国历史最动人的地方——它不张扬，不炫耀，而是让你自己走进那些缝隙里，自己去感受时间的重量。\n我特别喜欢从城堡西侧的城墙俯瞰切斯特的全景。红砂岩的房子层层叠叠地铺展开去，尖顶的教堂、整齐的联排别墅，远处黛河像一条灰绿色的丝带蜿蜒而过。你能看到14世纪修建的城墙段，上面长满了苔藓和墙花，野鸽子在垛口上筑巢，咕咕叫着。这里没有闪亮的修缮痕迹，也没有玻璃围栏，一切都是原生态的。你甚至能摸到那些被投石机砸出的凹陷，想象当年攻城战时的惨烈。这种触觉上的真实，是任何博物馆都替代不了的。"
+    "description": "第一次站在切斯特城堡的城墙前，我愣了几秒。那天的天空是铅灰色的，云层压得很低，仿佛随时要滴出水来。阿格里科拉塔就那样孤零零地立在城堡法院的边上，有点违和——一边是维多利亚时代新建的富丽堂皇的法院大楼，一边是这座矮胖、敦实、浑身伤疤的古老石塔。阳光偶尔从云缝中漏下，打在石塔的北墙上，那些被风化了几个世纪的砂岩呈现出一种温暖的金黄色，而阴影里的部分则是暗沉的灰褐色，像是被时间浸泡过的老照片。空气里有种混合的气味——湿润的泥土、古老的石粉，还有远处黛河飘来的淡淡水汽。偶尔一只海鸥停在塔顶的雉堞上，嘎嘎叫两声，打破了这份庄严的寂静。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-kirkyard-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗里亚教堂墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Kirkyard Cemetery Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/strata-florida-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特拉塔弗洛里达修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Strata Florida Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "colin-mcrae-cray-corner",
+          "name": "科林·麦克雷弯道",
+          "englishName": "Colin McRae's Cray Corner"
         },
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "greyfriars-kirkyard-edinburgh",
+          "name": "格雷弗里亚教堂墓地",
+          "englishName": "Greyfriars Kirkyard Cemetery Edinburgh"
         },
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "strata-florida-abbey",
+          "name": "斯特拉塔弗洛里达修道院",
+          "englishName": "Strata Florida Abbey"
         }
       ]
     }

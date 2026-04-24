@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰凯斯内斯地区（瑟索附近）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "邓尼特角灯塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "邓尼特角灯塔・Dunnet Head Lighthouse・英国・苏格兰凯斯内斯地区（瑟索附近）",
-    "description": "把车停在荒原尽头那一片被海风吹得东倒西歪的停车场时，我其实还没做好准备。门一推开，一股混合着海盐、水雾和某种腐烂海藻的咸腥气息就猛地灌了进来，像一只无形的大手，直接把你从车里拽进了另一个世界。\n脚下的草甸是那种被风来回揉搓、几乎贴地生长的短硬草叶，踩上去吱嘎作响，带着一种倔强的生命力。空气里有种透骨的凉意，不是那种湿冷，而是干冽、清甜，带着一种洗净了所有尘埃之后的透明感。远处灰绿色的海面铺展到天际，与低垂的铅灰色云层搅在一起，分不清哪是水，哪是天。耳边只剩下风声，那种低沉的、持续的、永不疲倦的呼啸，像是地球正在深深呼吸。\n然后你就看见了那座灯塔。它就那么孤零零地站在悬崖的边缘，白色的塔身和红色的横纹在一片灰绿中显得格外扎眼，像个沉默的哨兵，俯视着脚下那片永远在动荡的北海。走近时，能摸到塔身那些粗粝的花岗岩石块，表面被风蚀得满是细密的小孔，冰凉得像刚从海底捞上来。灯塔脚下的草丛里，偶尔有海鹦笨拙地飞起，翅膀扇动的声音被大风吹散，只剩下一个小黑点，瞬间消失在天际线外。\n有几个身穿冲锋衣的徒步者在瞭望平台上沉默地站着，他们不说话，只是盯着远方。那种沉默里有种奇异的共鸣——面对这样原始而暴力的自然力，任何语言都是多余的。旁边有个头发花白的老渔民，手里拿着一瓶威士忌，静静地小口喝着，眼神穿过灯塔，落在更北的地方，仿佛在看另一个世纪。那一刻你会明白，在这里，人不再是世界的中心，你只是这巨大天地间一个微不足道的过客。"
+    "description": "把车停在荒原尽头那一片被海风吹得东倒西歪的停车场时，我其实还没做好准备。门一推开，一股混合着海盐、水雾和某种腐烂海藻的咸腥气息就猛地灌了进来，像一只无形的大手，直接把你从车里拽进了另一个世界。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/drum-castle-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德鲁姆城堡（庄园与花园）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drum Castle, Garden & Estate</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/newcastles-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纽\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纽卡斯尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Newcastle's Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-coastal-path-west-shore-sand-dunes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海岸步道（西岸沙丘）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path (West Shore Sand Dunes)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "hadrians-wall",
+          "name": "哈德良长城",
+          "englishName": "Hadrian's Wall"
         },
         {
-          "slug": "drum-castle-scotland",
-          "name": "德鲁姆城堡（庄园与花园）",
-          "englishName": "Drum Castle, Garden & Estate"
+          "slug": "newcastles-castle",
+          "name": "纽卡斯尔城堡",
+          "englishName": "Newcastle's Castle"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "wales-coastal-path-west-shore-sand-dunes",
+          "name": "威尔士海岸步道（西岸沙丘）",
+          "englishName": "Wales Coastal Path (West Shore Sand Dunes)"
         }
       ]
     }

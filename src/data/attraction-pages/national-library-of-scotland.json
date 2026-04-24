@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰国家图书馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "苏格兰国家图书馆・National Library of Scotland・英国・爱丁堡",
-    "description": "站在George IV Bridge和Lady Lawson Street的交叉口时，你根本不会想到一扇并不张扬的玻璃门背后藏着一个能让时间变慢的世界。门口的铜质门把手被无数双手磨得锃亮，掌心的温度仿佛还留在上面。推开门，一阵混合着旧纸页、木头地板蜡和微弱咖啡香的气息扑来。大厅中央的圆形咨询台像一座孤岛，台后坐着的管理员抬起头来朝你微笑，那眼神告诉你：欢迎来到苏格兰的精神中枢。\n光线从高处的窗户斜斜洒下，在地板上画出一道道光束，尘埃在其间缓慢浮动。你沿着大理石台阶往上走，两旁的墙壁上挂着历代馆长的油画像，他们的眼神隔着几个世纪审视着你。拐角处突然传来一阵轻微的书页翻动声，像海浪轻拍沙滩，那是阅览室里某个读者正在翻阅一本三百年的地图集。这里没有图书馆常见的死寂，而是有一种虔诚的安静，仿佛每个人都屏住呼吸在聆听知识的心跳。\n在赫不里德群岛展区，有一张泛白的羊皮纸地图，上面用羽毛笔勾勒着蜿蜒的海岸线，旁边注着古盖尔语的地名。我凑近了看，发现地图边缘有褪色的水渍，想象着这张地图曾在某个风暴夜被渔民带到海上，用来寻找避风港。右侧的书架陈列着罗伯特·彭斯的诗歌手稿，潦草的字迹里藏着一颗跳动的心脏。突然听到身后有人低声用盖尔语念了一句诗，回头一看是个白发老人，他朝我点点头说：这句是彭斯写给未婚妻的，从没发表过。那种私人感让你觉得这不是图书馆，而是一个活的博物馆，每一件藏品都在呼吸。\n最打动我的不是那些稀世珍宝，而是二楼靠窗的一张长桌。桌边坐着一个小女孩，她正捧着一本关于恐龙的图鉴，嘴巴微张，眼睛发直，完全沉浸在自己的世界里。她的母亲坐在对面，静静地看着自己的书，偶尔抬头看看女儿，嘴角挂着笑意。那一刻我意识到，这个图书馆最高贵的使命不是保存过去，而是为每一个好奇的灵魂提供一片可以自由翱翔的旷野。窗外爱丁堡城堡的石墙在夕阳下泛着金色，而室内，灯光照亮了无数个正在做梦的人。"
+    "description": "站在George IV Bridge和Lady Lawson Street的交叉口时，你根本不会想到一扇并不张扬的玻璃门背后藏着一个能让时间变慢的世界。门口的铜质门把手被无数双手磨得锃亮，掌心的温度仿佛还留在上面。推开门，一阵混合着旧纸页、木头地板蜡和微弱咖啡香的气息扑来。大厅中央的圆形咨询台像一座孤岛，台后坐着的管理员抬起头来朝你微笑，那眼神告诉你：欢迎来到苏格兰的精神中枢。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/heart-of-midlothian-mosaic\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    中\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">中洛锡安之心马赛克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heart of Midlothian Mosaic</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-stone\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Stone</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/maen-du-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑石圣井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen-Du Well</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-davids-bishops-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣大卫主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Davids Bishop's Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "heart-of-midlothian-mosaic",
-          "name": "中洛锡安之心马赛克",
-          "englishName": "Heart of Midlothian Mosaic"
+          "slug": "maen-du-well",
+          "name": "黑石圣井",
+          "englishName": "Maen-Du Well"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "st-davids-bishops-palace",
+          "name": "圣大卫主教宫",
+          "englishName": "St Davids Bishop's Palace"
         },
         {
-          "slug": "arthurs-stone",
-          "name": "亚瑟石",
-          "englishName": "Arthur's Stone"
+          "slug": "cairngorms-national-park",
+          "name": "凯恩戈姆国家公园",
+          "englishName": "Cairngorms National Park"
         }
       ]
     }

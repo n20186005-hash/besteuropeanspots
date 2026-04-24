@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦科村",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦科瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格伦科瀑布・Glencoe Waterfall・英国・格伦科村",
-    "description": "第一次听见格伦科瀑布的声音，是在接近峡谷入口的盘山公路弯道。车窗刚摇下，一阵沉沉的轰鸣就从山谷深处涌来，不是那种尖锐的水声，而是像古老乐器发出的低吼，包裹着整个车舱。我下意识踩了刹车，把车停在路边一块碎石空地上。推开车门瞬间，一股带着泥土和蕨类植物气息的冷冽空气迎面扑来，耳膜又被那声音填满了——远处瀑布的高频飞溅、近处溪流的咕噜、风穿过石缝的呜咽，交织成一首粗糙的交响乐。\n沿着碎石小径往峡谷深处走，脚下是被雨水浸透的苔藓地毯，踩上去软绵绵的，每一步都留下深深的水印。灌木丛中挂着晶莹的雨滴，在晨光里像一小串一小串的钻石。大约十五分钟后，绕过一块巨大的黑色岩石，瀑布突然出现在眼前——它不像我想象中那种高不可攀的银带，而是分成三股，从黑褐色的岩壁上以一种近乎暴力的姿态俯冲下来。最左侧的一股最细，水流在岩石凸起处被撕成千万片白羽，飘飘扬扬地落在下方的深潭里。中间那股最粗，呈扇形砸进潭心，激起的水雾像一场小型阵雨，将我整个人笼罩。右侧那股则贴着岩壁滑落，发出一种类似丝绸摩擦的沙沙声。\n站在潭边，水雾把头发和外套都打湿了，但我舍不得后退。阳光恰好从云层缝隙漏下来，照在水雾上，立刻架起一道完整的彩虹——就横跨在瀑布前方，像一座临时搭建的光之桥。旁边有个当地老人在钓鱼，他告诉我，这个瀑布当地人叫它“三姐妹的眼泪”，因为传说中格伦科屠杀后，三个失去丈夫的女子每晚都会在这里哭泣。他说这话时眼睛里没有悲伤，反而透着一种骄傲，仿佛这瀑布的声响就是苏格兰民族不肯沉默的心跳。\n最让我动容的，是离开前回望的最后一眼。夕阳把山尖染成金红色，瀑布的水流在逆光中变成了一条条燃烧的丝线。那种壮丽里透着一种苍凉，就像整个高地的灵魂都凝聚在这里。我忽然明白，为什么那么多苏格兰民谣都要重复一个意象——水与石，生与死，都在这不断的坠落与撞击中找到了永恒的象征。"
+    "description": "第一次听见格伦科瀑布的声音，是在接近峡谷入口的盘山公路弯道。车窗刚摇下，一阵沉沉的轰鸣就从山谷深处涌来，不是那种尖锐的水声，而是像古老乐器发出的低吼，包裹着整个车舱。我下意识踩了刹车，把车停在路边一块碎石空地上。推开车门瞬间，一股带着泥土和蕨类植物气息的冷冽空气迎面扑来，耳膜又被那声音填满了——远处瀑布的高频飞溅、近处溪流的咕噜、风穿过石缝的呜咽，交织成一首粗糙的交响乐。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bwlch-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔赫山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bwlch Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/waren-mueritz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦（米里茨）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Waren (Müritz)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/missolonghi-lagoon-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迈索隆吉翁</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Missolonghi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/piran-salt-pans-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮兰盐田与老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Piran Salt Pans & Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/northernmost-point-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士最北点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Northernmost Point of Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bwlch-mountain",
-          "name": "布尔赫山",
-          "englishName": "Bwlch Mountain"
+          "slug": "missolonghi-lagoon-city",
+          "name": "迈索隆吉翁",
+          "englishName": "Missolonghi"
         },
         {
-          "slug": "waren-mueritz",
-          "name": "瓦伦（米里茨）",
-          "englishName": "Waren (Müritz)"
+          "slug": "piran-salt-pans-old-town",
+          "name": "皮兰盐田与老城",
+          "englishName": "Piran Salt Pans & Old Town"
         },
         {
-          "slug": "conwy-falls",
-          "name": "康威瀑布",
-          "englishName": "Conwy Falls"
+          "slug": "northernmost-point-of-wales",
+          "name": "威尔士最北点",
+          "englishName": "Northernmost Point of Wales"
         }
       ]
     }

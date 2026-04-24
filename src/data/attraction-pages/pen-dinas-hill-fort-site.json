@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯（Aberystwyth）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭迪纳斯山堡遗址",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "彭迪纳斯山堡遗址・Pen Dinas Hill Fort Site・英国・阿伯里斯特威斯（Aberystwyth）",
-    "description": "第一次站在阿伯里斯特威斯的海滨步道上，远远看见彭迪纳斯山顶那个孤独的塔尖时，我其实有点怀疑——这玩意儿真的有两千多年历史了吗？走近了才明白，那座石塔是19世纪才建的，真正的堡垒遗迹藏在山坡的草甸和土墙之下。可恰恰是这种“不刻意”让整个遗址充满了野生的生命力。我选择了一个晴朗的下午出发，沿海边走了十五分钟，鼻腔里先是咸涩的海风，然后慢慢混进青草和牧羊犬身上的泥土味。脚下的路从沥青变成碎石，碎石又变成松软的泥土，两旁的灌木丛里时不时窜出一只兔子，耳朵在阳光下几乎透明。\n爬到第一个观景台的时候，我已经能俯瞰整个阿伯里斯特威斯的海湾了。海面在下午的光线里碎成一片银色的鳞片，游船像玩具一样浮在水面。身后的山坡上布满了微微隆起的土丘——那些就是铁器时代的房屋地基，两千年前的凯尔特人就在这儿生火、煮饭、吵架、恋爱。最让我震撼的是那道双层土墙，沿着山脊蜿蜒了将近两公里，有几段被山羊踩出的羊肠小道切成了V字形。我用手摸了摸墙基，是威尔士特有的青灰色岩石，上面爬满地衣，摸起来像粗砂纸上的干海绵。远处传来一阵牧羊犬的叫声，声音顺着风在山谷里飘来飘去，像是从另一个时空传过来的。\n继续往上，石塔渐渐露出全貌。它并不高大，五层楼的样子，红砖灰缝，门窗都紧闭着。但站在塔底下抬头看，能明显感觉到一种被俯视的压迫感。有只红鸢在塔顶盘旋，翅膀掠过天空时投下阴影，缓慢得像在巡逻自己的领地。我绕到塔的背面，发现一块凿了字迹的石板，上面写着“1808年建”，底下英文署名已经模糊了。那一刻，我忽然理解了“历史堆叠”这个词——铁器时代的陶片、罗马时期的铁钉、中世纪的陶罐碎片，和这座19世纪的信号塔混在一起，全都埋在同一个山坡的草皮底下。就像你翻开一块石头，底下藏着二十个世纪的秘密，但谁也不急着说破。\n最妙的时刻发生在下山路上。我故意绕到西边那条少人走的小径，穿过一片开满紫花苜蓿的草坡。夕阳把整座山镀成金黄色，风吹过时，草丛像海浪一样起伏。我低头看见几个凹进去的圆形坑，直径大约四米，边缘长满了荨麻和野草莓。当地人告诉我，那是铁器时代圆形屋的地基，考古队还在附近挖出过磨盘和兽骨。我蹲下来，指尖触到被晒得温热的泥土，想象着两千多年前的某个黄昏，有一个和我差不多年纪的凯尔特姑娘，也蹲在这里往陶罐里倒水。风还是那个风，海还是那片海，只是她听不见我手机响的提示音。这大概就是彭迪纳斯最让人上瘾的地方——它不只是一堆土和石头，它是一道时间的裂缝，让你能隔着两千层空气和两千层心跳，跟一个陌生人说一声：“嘿，我也在这儿。”"
+    "description": "第一次站在阿伯里斯特威斯的海滨步道上，远远看见彭迪纳斯山顶那个孤独的塔尖时，我其实有点怀疑——这玩意儿真的有两千多年历史了吗？走近了才明白，那座石塔是19世纪才建的，真正的堡垒遗迹藏在山坡的草甸和土墙之下。可恰恰是这种“不刻意”让整个遗址充满了野生的生命力。我选择了一个晴朗的下午出发，沿海边走了十五分钟，鼻腔里先是咸涩的海风，然后慢慢混进青草和牧羊犬身上的泥土味。脚下的路从沥青变成碎石，碎石又变成松软的泥土，两旁的灌木丛里时不时窜出一只兔子，耳朵在阳光下几乎透明。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/menai-suspension-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅奈悬索桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Menai Suspension Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dolwyddelan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多尔威德兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dolwyddelan</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scottish-parliament-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish Parliament Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museum-on-the-mound\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    土\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">土墩博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museum on the Mound</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "menai-suspension-bridge",
-          "name": "梅奈悬索桥",
-          "englishName": "Menai Suspension Bridge"
+          "slug": "scottish-parliament-building",
+          "name": "苏格兰议会大楼",
+          "englishName": "Scottish Parliament Building"
         },
         {
-          "slug": "cuween-hill-chambered-cairn",
-          "name": "库温山墓室石堆",
-          "englishName": "Cuween Hill Chambered Cairn"
+          "slug": "museum-on-the-mound",
+          "name": "土墩博物馆",
+          "englishName": "Museum on the Mound"
         },
         {
-          "slug": "castell-dolwyddelan",
-          "name": "多尔威德兰城堡",
-          "englishName": "Castell Dolwyddelan"
+          "slug": "parc-cwm-darran",
+          "name": "帕克库姆达兰公园",
+          "englishName": "Parc Cwm Darran"
         }
       ]
     }

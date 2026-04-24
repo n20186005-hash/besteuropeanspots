@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯丁郡（皇家迪赛德地区）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "巴尔莫勒尔城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "巴尔莫勒尔城堡・Balmoral Castle・英国・阿伯丁郡（皇家迪赛德地区）",
-    "description": "我第一次见到巴尔莫勒尔城堡，是在一个细雨蒙蒙的清晨。车子缓慢驶过A93公路，两旁的苏格兰松在薄雾中如同沉默的哨兵。当我转过一个弯，这座灰白色的花岗岩建筑赫然出现在视野里时，我简直不敢相信自己的眼睛。它没有温莎城堡那般宏伟的城墙，也不像荷里路德宫那样坐落在城市中心。它是那样的——安静、朴素，却又带着一种惊人的威严，就像一位穿着粗花呢外套的老绅士，就那样安静地坐在高原的怀抱里。雨水顺着那些哥特式的尖塔滑落，在石砖上留下一道道深色的痕迹，空气中弥漫着湿润的苔藓、松针和泥土混合的气味，还有一丝远处牧场上羊群咩咩的叫声若隐若现。\n走近城堡，你最先注意到的会是那些花岗岩，它们不像新建筑那般洁白，而是带着一种被风雨、时光和北海的气流揉出的温润灰色。外墙上的塔楼和角楼像忠诚的哨兵，守护着这片私人王国。周边的花园与其说是精心设计的景观，不如说是一片生机勃勃的野生园地。这里没有法国花园那种刻意的几何对称，只有成片的杜鹃花丛，在夏季绽放出紫红、粉白的热烈色彩。园丁像对待老朋友一样修剪着枝条，成群的蜜蜂在花丛间嗡嗡作响，偶尔能看见一只红松鼠从橡树上轻巧地跳过。这种感觉很奇特，明明置身于王室的领地，却没有丝毫的距离感，反而像被邀请到一位品味不凡的乡绅家中做客。\n最打动我的，是这里的“家”的氛围。城堡的临街窗台上，随意地摆着几盆盛开的矮牵牛花。你能想象吗？就在那些窗户后面，伊丽莎白二世女王曾在这里穿着格子裙，牵着她的柯基犬在草坪上散步。据说她在巴尔莫勒尔从来不穿正装，而是换上她的实用防水夹克，戴上头巾，像一个普通的苏格兰地主那样生活。这种强烈的反差感，让这个充满历史厚重感的建筑瞬间变得柔软、有温度。在这里，君主制的庄严与家庭生活的朴拙奇妙地结合了，这也是为什么深度的旅行者会为之心动——它展示了权力与闲适、公共与私密的界限如何在一个人身上共存。"
+    "description": "我第一次见到巴尔莫勒尔城堡，是在一个细雨蒙蒙的清晨。车子缓慢驶过A93公路，两旁的苏格兰松在薄雾中如同沉默的哨兵。当我转过一个弯，这座灰白色的花岗岩建筑赫然出现在视野里时，我简直不敢相信自己的眼睛。它没有温莎城堡那般宏伟的城墙，也不像荷里路德宫那样坐落在城市中心。它是那样的——安静、朴素，却又带着一种惊人的威严，就像一位穿着粗花呢外套的老绅士，就那样安静地坐在高原的怀抱里。雨水顺着那些哥特式的尖塔滑落，在石砖上留下一道道深色的痕迹，空气中弥漫着湿润的苔藓、松针和泥土混合的气味，还有一丝远处牧场上羊群咩咩的叫声若隐若现。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wild-lakes-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士野湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wild Lakes Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fyvie-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    菲\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">菲维城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fyvie Castle, Garden & Estate (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "wild-lakes-wales",
+          "name": "威尔士野湖",
+          "englishName": "Wild Lakes Wales"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "cardiff-castle",
+          "name": "卡迪夫城堡",
+          "englishName": "Cardiff Castle"
         },
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "fyvie-castle",
+          "name": "菲维城堡",
+          "englishName": "Fyvie Castle, Garden & Estate (National Trust for Scotland)"
         }
       ]
     }

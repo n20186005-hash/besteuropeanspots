@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯（Aberystwyth）附近，锡尔迪金（Ceredigion）郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "哈福德庄园（国家信托）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "哈福德庄园（国家信托）・National Trust - Hafod Estate・英国・阿伯里斯特威斯（Aberystwyth）附近，锡尔迪金（Ceredigion）郡",
-    "description": "第一次走进哈福德庄园，我就知道这不是那种被精心修剪得一丝不苟的英国花园。你甚至找不到一张像样的门票——停车场的收费箱像个害羞的老头，躲在树后，你得自己去找它投币。真正的“入口”是一条铺满落叶的小径，两侧的橡树高大得遮天蔽日，靴子踩上去发出潮湿的咔嚓声，空气里混合着腐烂的树皮、泥土和远处瀑布飘来的水汽。阳光从树枝间漏下来，像碎金一样打在苔藓覆盖的石头上，这里的一切都刻意保持着“野生”的状态，却又处处透着18世纪绅士的审美野心。\n我沿溪而行，耳边是三种声音交织的交响：脚下溪水的呢喃，头顶鸟鸣的清脆，以及远远传来、越来越响的轰隆声——那是哈福德瀑布。当你转过最后一个弯，瀑布突然撞进视野：约15米高的水帘从暗色的岩壁上倾斜而下，却没有常见的壮观，反而像一条银灰色的丝带，温柔地铺在墨绿色的苔藓上。水花溅到脸上，凉丝丝的，带着一丝甜味。瀑布下方是一座细长的石桥，桥拱的弧度几乎是数学般的完美，我猜当年的托马斯·约翰斯一定站在这里，对着自己设计的“废墟”微笑——他故意让这座桥看上去像某个古老修道院的残骸，而实际上它才盖好不到两百年。\n最打动我的，不是瀑布本身，而是这里毫无游客的喧嚣。除了我和一位采蘑菇的老人，整个山谷安静得像被人按了暂停键。那种安静不是死寂，而是万物生长、流水不息的丰满的静。我突然明白，哈福德庄园的核心魅力就在于它拒绝被理解——它不需要你拍十几张照片就匆匆走人，它需要你坐下来，让青苔和流水的声音把你的思绪慢慢浸透。\n到了下午三点左右，光线开始倾泻在西侧的卡斯尔山（Castle Hill）上。那些刻意种植的北美红杉在逆光中变成了剪影，远处的教堂尖顶像一枚针，把天空缝住。我坐在一片称为“野餐平台”的草地上，掏出背包里的奶酪三明治，看着几只红尾鸲在我的脚边跳来跳去。这一刻，没有人催促，没有门票截止时间，只有山谷里的风把一棵老山毛榉的叶子吹得哗哗响，像在翻一本泛黄的书。"
+    "description": "第一次走进哈福德庄园，我就知道这不是那种被精心修剪得一丝不苟的英国花园。你甚至找不到一张像样的门票——停车场的收费箱像个害羞的老头，躲在树后，你得自己去找它投币。真正的“入口”是一条铺满落叶的小径，两侧的橡树高大得遮天蔽日，靴子踩上去发出潮湿的咔嚓声，空气里混合着腐烂的树皮、泥土和远处瀑布飘来的水汽。阳光从树枝间漏下来，像碎金一样打在苔藓覆盖的石头上，这里的一切都刻意保持着“野生”的状态，却又处处透着18世纪绅士的审美野心。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charles-darwins-birthplace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查尔斯·达尔文出生地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charles Darwin's Birthplace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monkton-old-hall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙克顿老庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monkton Old Hall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pen-y-garreg-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩恩加雷格水坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen y Garreg Dam</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "the-tenement-house-glasgow",
+          "name": "公寓博物馆（苏格兰国家信托）",
+          "englishName": "The Tenement House (National Trust for Scotland)"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "monkton-old-hall",
+          "name": "蒙克顿老庄园",
+          "englishName": "Monkton Old Hall"
         },
         {
-          "slug": "charles-darwins-birthplace",
-          "name": "查尔斯·达尔文出生地",
-          "englishName": "Charles Darwin's Birthplace"
+          "slug": "pen-y-garreg-dam",
+          "name": "佩恩加雷格水坝",
+          "englishName": "Pen y Garreg Dam"
         }
       ]
     }

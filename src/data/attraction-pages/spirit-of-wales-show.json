@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫（Cardiff）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士精神秀",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士精神秀・Spirit of Wales Show・英国・卡迪夫（Cardiff）",
-    "description": "我是在一个阴冷的十一月傍晚走进卡迪夫湾的。海风带着咸腥和燃煤味的混合气息，远处红色巨龙般的建筑在暮色中像一团欲燃未燃的火。买票时，工作人员用带点泥土味的威尔士口音说：“今晚的演出是关于我们祖先和煤矿的，带好纸巾。”我笑了笑，没当回事。\n钢架结构的门厅里，空气被几百支蜡烛和熏香草的气味搅得暖烘烘的。墙上挂着矿灯、竖琴和布满铁锈的齿轮，角落的木桌上摆着切好的威尔士干酪和龙舌兰果酱。检票前，一个裹着格纹披肩的老奶奶突然拉住我的手，用蹩脚的英语说：“孩子，记着——龙不哭，但石头会唱歌。”这句话像倒进啤酒里的气泡，在我脑海里翻腾了一整晚。\n演出开始的钟声是石头碰撞的声音——真的石头，就摆在舞台正中央三块半人高的板岩上。灯光暗下去的一瞬间，我闻到了泥土和火药的气味，那是从舞台下方的暗格飘上来的。然后，一声低沉的龙吟从四面八方涌来，震得椅子都在颤抖。接下来的两个小时，我经历了一场比电影还真实的梦：矿工在黑暗中唱起《我们来自地下》，火焰和蒸汽从舞台缝隙中喷出，而那条由丝绸和金属丝编成的红色巨龙——足足十五米长——从天花板上缓缓降下，它的眼睛是两颗发光的琥珀，里面倒映着整个威尔士的天空。\n最打动我的不是特效，而是中场休息时听到的一个细节。坐在我旁边的大叔是前煤矿工人，他说他祖父十四岁就下井了，每次下井前都会在口袋里放一小块威尔士板岩，因为传说那是龙的鳞片，能保佑人不被塌方压死。演出里有一个桥段正巧是父亲给儿子塞板岩，那一刻大叔眼泪就下来了。我才意识到，这场秀不是在表演，而是在替整个民族做一场葬礼——只是葬礼上大家一边哭一边跳舞。\n演出结束后，所有人都不急着走。我们站在剧场外的海堤上，看着对岸的灯火像碎金子一样铺在海面。有个小女孩骑在父亲肩上，学舞台上龙的样子张开双臂，嘴里发出“呼——哈”的叫声。她身后，剧场的红色轮廓在夜里像一只刚醒来的巨兽，正把威尔士三百万人的呼吸都收进胸膛里。"
+    "description": "我是在一个阴冷的十一月傍晚走进卡迪夫湾的。海风带着咸腥和燃煤味的混合气息，远处红色巨龙般的建筑在暮色中像一团欲燃未燃的火。买票时，工作人员用带点泥土味的威尔士口音说：“今晚的演出是关于我们祖先和煤矿的，带好纸巾。”我笑了笑，没当回事。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llandaff-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰达夫大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandaff Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rigg-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    里\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">里格观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rigg Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/oriel-mostyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫斯廷画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Oriel Mostyn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/westminster-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威斯敏斯特教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Westminster Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "llandaff-cathedral",
-          "name": "兰达夫大教堂",
-          "englishName": "Llandaff Cathedral"
+          "slug": "westminster-abbey",
+          "name": "威斯敏斯特教堂",
+          "englishName": "Westminster Abbey"
         },
         {
-          "slug": "rigg-viewpoint",
-          "name": "里格观景点",
-          "englishName": "Rigg Viewpoint"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         },
         {
-          "slug": "oriel-mostyn",
-          "name": "莫斯廷画廊",
-          "englishName": "Oriel Mostyn"
+          "slug": "colinton-station-tunnel",
+          "name": "科林顿车站与隧道",
+          "englishName": "Colinton Station & Tunnel"
         }
       ]
     }

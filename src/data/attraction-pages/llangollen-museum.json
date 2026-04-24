@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰戈伦（Llangollen）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰戈伦博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "兰戈伦博物馆・Llangollen Museum・英国・兰戈伦（Llangollen）",
-    "description": "推开兰戈伦博物馆那扇沉沉的橡木大门，最先扑向你的不是灰尘，而是一股混合着旧纸张、蜂蜡和干花的暖融融的气味。光线从高窗斜斜地洒进来，照在铺着深红色地毯的木地板上，你脚边有一只穿着维多利亚时代小皮鞋的羊骨头，被玻璃罩子小心翼翼地护着——那是十九世纪某个矿工的孩子唯一留下的遗物。墙角的留声机缓缓转动，唱针滑过粗纹唱片，老奶奶用威尔士语哼唱的歌谣飘荡在空间里，声音像被时光揉皱的丝绸。\n你走在展厅里，脚底下的木板偶尔发出细小的嘎吱声。左手边是一整排玻璃柜，里面躺着石器时代打磨得极其光滑的燧石箭头、罗马人留下的铸币铜模、中世纪朝圣者的锡质徽章。每一件物品都贴着用花体字写的小卡片，字迹泛黄，但清晰可辨：来自迪河谷上游的淘金盘，1832年，主人叫埃文斯先生。你忍不住想象那个叫埃文斯的男人弯着腰在湍急的河水里来回筛洗，脸上被威尔士的冷雨打得通红。\n往深处走，你会撞见一条完整的运河闸门模型，水流声从隐藏的扬声器里潺潺流出。旁边挂着一幅老照片：一群穿背带裤的男人站在船头上，背后是云雾缭绕的山峦。照片里的阳光明亮得刺眼，但他们的眼神却有些疲惫。博物馆的志愿者告诉你，这些人是在修建马斯特里格运河，这条运河把石板和铁矿石运到英格兰，也把外面的世界带进了这个与世隔绝的山谷。\n最动人的是二楼的小房间，布置成了20世纪初一个普通家庭的样子。铁炉子上放着搪瓷水壶，窗台上摆着开了缝的瓷娃娃，床头柜上的圣经翻到了某页，书签是一根枯黄的矢车菊。你忽然意识到，这不是历史教科书上的冷冰冰的陈列，而是某个真实家庭在此刻暂停的瞬间。就像你和朋友聊起自家的老照片，博物馆里的一切都在对你说：坐下来，喝杯茶，听听我们的故事。"
+    "description": "推开兰戈伦博物馆那扇沉沉的橡木大门，最先扑向你的不是灰尘，而是一股混合着旧纸张、蜂蜡和干花的暖融融的气味。光线从高窗斜斜地洒进来，照在铺着深红色地毯的木地板上，你脚边有一只穿着维多利亚时代小皮鞋的羊骨头，被玻璃罩子小心翼翼地护着——那是十九世纪某个矿工的孩子唯一留下的遗物。墙角的留声机缓缓转动，唱针滑过粗纹唱片，老奶奶用威尔士语哼唱的歌谣飘荡在空间里，声音像被时光揉皱的丝绸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/john-knox-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰·诺克斯故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John Knox House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/swansea-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Swansea Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "blue-lagoon-abereiddi",
+          "name": "蓝湖",
+          "englishName": "Blue Lagoon - Abereiddi"
         },
         {
-          "slug": "john-knox-house",
-          "name": "约翰·诺克斯故居",
-          "englishName": "John Knox House"
+          "slug": "conwy-falls",
+          "name": "康威瀑布",
+          "englishName": "Conwy Falls"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "swansea-museum",
+          "name": "斯旺西博物馆",
+          "englishName": "Swansea Museum"
         }
       ]
     }

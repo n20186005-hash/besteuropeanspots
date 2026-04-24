@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥大教堂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格拉斯哥大教堂・Glasgow Cathedral・英国・格拉斯哥",
-    "description": "我第一次见到格拉斯哥大教堂，是在一个阴沉的下午。格拉斯哥的天空总是灰蒙蒙的，像被水洗过的铅板，但那座教堂却从这灰色里跳了出来。它坐落在一片高地上，就在皇家医院（Royal Infirmary）旁边，看起来有些突兀，又像是理所当然。走近时，石墙上的苔藓和风化的纹路清晰可见，砂岩的颜色从深黄到赭石，在湿润的空气里显得温润而有温度。教堂的正面是两座不对称的塔楼，左边那座明显更古老，石头被岁月打磨得发亮。一脚踏入教堂，一股混合着陈年木头、蜡烛和潮湿石头的气息扑面而来，寒冷的空气瞬间包裹了全身。光从巨大的彩色玻璃窗里斜斜地洒下来，在灰扑扑的石地板上投下紫色的、蓝色的、金色的斑块。那些光斑像是活的一样，缓缓地随着云朵的移动改变颜色和角度。\n教堂里很安静，只有远处偶尔传来游客的低语和脚步声的回响。但那种安静不是死寂，而是有生命的，像是石墙本身在呼吸。我沿着中殿往前走，视线不由自主地被东面那扇巨大的玫瑰窗吸引。它没有巴黎圣母院那种惊人的繁复，却有一种朴素的庄严，仿佛在用最简单的几何图形诉说最深奥的道理。中殿的石柱粗壮而结实，顶部的拱券高处利落地交织在一起，像森林里交错的大树枝丫。我抬头仰望时，心里突然涌起一种奇异的感受：这座教堂不是被建造出来的，而是从土地里长出来的。它在这里站了八百年，见证了瘟疫、战争、改革和工业革命，却依然保持着最初的姿态。最打动我的是，当地人把它当作家里的客厅而不是博物馆。我在角落里看到一位老人静静地坐在长椅上，闭着眼睛，神色安宁。旁边有一个母亲正低声给小孩讲关于圣芒戈的故事，小孩听得入迷，眼睛眨也不眨。那一刻我意识到，这座教堂不是用来被游客参观的，而是用来被生活在这片土地上的人生活的。\n教堂的建筑细节低调却耐看。立柱上隐约可见中世纪的雕刻痕迹，有些是简单的植物纹样，有些是人脸和动物的图案，都已经被岁月磨得模糊不清。它们在光线微弱时几乎隐藏不见，只有当阳光落到特定角度时才会浮现出来。教堂里的木制屏风和唱诗班席位是维多利亚时期的作品，雕刻精细，橡木的质感有一股温润的光泽。这里没有炫目的金饰，没有繁复的巴洛克祭坛，只有朴素的石、光、影，和一种穿越时间的沉静。"
+    "description": "我第一次见到格拉斯哥大教堂，是在一个阴沉的下午。格拉斯哥的天空总是灰蒙蒙的，像被水洗过的铅板，但那座教堂却从这灰色里跳了出来。它坐落在一片高地上，就在皇家医院（Royal Infirmary）旁边，看起来有些突兀，又像是理所当然。走近时，石墙上的苔藓和风化的纹路清晰可见，砂岩的颜色从深黄到赭石，在湿润的空气里显得温润而有温度。教堂的正面是两座不对称的塔楼，左边那座明显更古老，石头被岁月打磨得发亮。一脚踏入教堂，一股混合着陈年木头、蜡烛和潮湿石头的气息扑面而来，寒冷的空气瞬间包裹了全身。光从巨大的彩色玻璃窗里斜斜地洒下来，在灰扑扑的石地板上投下紫色的、蓝色的、金色的斑块。那些光斑像是活的一样，缓缓地随着云朵的移动改变颜色和角度。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dynamic-earth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动感地球</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dynamic Earth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/morfa-bay-adventure\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫尔法湾冒险地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Morfa Bay Adventure</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-inverlochy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老因弗洛奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Inverlochy Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "morfa-bay-adventure",
+          "name": "莫尔法湾冒险地",
+          "englishName": "Morfa Bay Adventure"
         },
         {
-          "slug": "dynamic-earth",
-          "name": "动感地球",
-          "englishName": "Dynamic Earth"
+          "slug": "old-inverlochy-castle",
+          "name": "老因弗洛奇城堡",
+          "englishName": "Old Inverlochy Castle"
         },
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         }
       ]
     }

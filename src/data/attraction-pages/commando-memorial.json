@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威廉堡（Fort William）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "突击队纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "突击队纪念碑・Commando Memorial・英国・威廉堡（Fort William）",
-    "description": "我第一次见到Commando Memorial是在一个阴沉的七月下午。车停在碎石停车场，刚推开门，高地特有的风就裹着青草和泥炭的气味扑过来。沿着一条不长的土路往上走，视野越来越开阔，然后，那三个青铜士兵就毫无预兆地出现在天地之间。他们比我想象中高大多了，站在一个低矮的基座上，身体微微前倾，背包和枪带上的每一道褶皱都清晰可见。最让我挪不开眼的是他们的脸——那不是英雄雕像常见的坚毅表情，而是一种混杂着疲惫、警觉和一丝淡淡忧郁的神色。风吹过他们帽檐下的头发，又吹进我领口里，那一刻我忽然觉得，他们是真的在等一场永远不会到来的命令。\n周围什么都没有，只有起伏的荒原、远处本尼维斯山灰蓝色的山脊，和头顶上大块大块急速移动的云。偶尔有只红隼在天上盘旋，尖锐的叫声划破寂静。我来的时候没有其他游客，只有风声和草叶摩擦的沙沙声。我绕着雕像走了一圈，看到基座上刻着从1940年突击队成立到二战结束的年份，还有一些散落的鲜花——显然是有人刚来祭拜过，花瓣上还挂着水珠。没有管理员的哨子，没有围栏，没有说明牌，纪念碑就这么孤零零地站在荒野里，像个沉默的老兵。\n让我最震撼的是那个视角。雕像面朝西北，正对着通向大海的海湾。当年突击队训练的营地就在这附近，他们每天跑过这些山丘，跳进冰凉的河水，在沼泽里爬行。指挥官把他们称之为“丛林之虎”，但他们中的很多人最后死在了沙滩上——诺曼底、安齐奥、圣纳泽尔。我站在那里，感觉自己站到了历史的毛边上，风声里好像混杂着几十年前的呼喝声和炮火声。这种体验不是任何博物馆能给的，它就是原地的、赤裸裸的、和天地一样苍凉的东西。\n当地人似乎早已习惯了这座碑的存在。我来时路过Spean Bridge村的小酒馆，酒保听说我要去看纪念碑，只是淡淡说了一句：“今天风不大，站那儿能望到海。”我后来明白了，对于高地人来说，这座碑就是土地的一部分，就像那些石墙和石楠花一样自然。它不需要被圈养在纪念碑谷里，因为它的力量恰恰来自这场辽阔的孤独。当夕阳把三个士兵的影子拉得很长很长，和他们身后的山影融在一起时，你才会真正理解什么叫“永不屈服”。"
+    "description": "我第一次见到Commando Memorial是在一个阴沉的七月下午。车停在碎石停车场，刚推开门，高地特有的风就裹着青草和泥炭的气味扑过来。沿着一条不长的土路往上走，视野越来越开阔，然后，那三个青铜士兵就毫无预兆地出现在天地之间。他们比我想象中高大多了，站在一个低矮的基座上，身体微微前倾，背包和枪带上的每一道褶皱都清晰可见。最让我挪不开眼的是他们的脸——那不是英雄雕像常见的坚毅表情，而是一种混杂着疲惫、警觉和一丝淡淡忧郁的神色。风吹过他们帽檐下的头发，又吹进我领口里，那一刻我忽然觉得，他们是真的在等一场永远不会到来的命令。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cabot-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伯特塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cabot Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/neist-point-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奈斯特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neist Point Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bryn-cader-faner",
-          "name": "布林卡德法纳",
-          "englishName": "Bryn Cader Faner"
+          "slug": "beauly-priory",
+          "name": "博利修道院",
+          "englishName": "Beauly Priory"
         },
         {
-          "slug": "cabot-tower",
-          "name": "卡伯特塔",
-          "englishName": "Cabot Tower"
+          "slug": "neist-point-lighthouse",
+          "name": "奈斯特角灯塔",
+          "englishName": "Neist Point Lighthouse"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "blue-lagoon-abereiddi",
+          "name": "蓝湖",
+          "englishName": "Blue Lagoon - Abereiddi"
         }
       ]
     }

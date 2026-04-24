@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士中部乡村",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "科西林国家自然保护区",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "科西林国家自然保护区・Cors y Llyn National Nature Reserve・英国・威尔士中部乡村",
-    "description": "你还记得那种空气里带着微甜又微腐的复杂气味吗？站在科西林国家自然保护区的入口，第一口深呼吸就让你的肺部扩张开。那是泥炭、苔藓、腐木和野花混合出的独特味道，像打开一本中世纪手抄本，散出陈旧的墨香和木质的暖意。晨雾还没散尽，阳光懒懒地斜穿过桦树林，在水面投下摇曳的光斑。脚下是木板铺就的小路，发出咯吱咯吱的响声，每一步都像在给这片古老的沼泽打着节拍。远处传来几声清脆的鸟鸣，你分不清是鹬还是鸻，只觉得那声音干净得像是刚从水中捞起。\n继续往里走，空气变得潮湿而凝重，光线忽然暗下来——是高大的柳树和赤杨遮住了天。你的耳朵开始敏锐地捕捉各种细微声响：水滴从叶尖滑落，蜂类在野花间嗡嗡振翅，偶尔有一声低沉的咕噜，那是水鸟在芦苇丛中移动。你注意到脚边的泥炭藓，翠绿、鹅黄、暗红，像一块块天鹅绒地毯，柔软地覆盖着地面。有些地方长出了圆叶茅膏菜，叶面上挂着晶莹的黏液，像是在等待一场无声的捕猎。这片沼泽不是死寂的，它是活的，在呼吸，在蠕动，在悄无声息地生长与分解。\n当地人叫它Cors y Llyn，湖边的沼泽。但对生活在这里的动物来说，它是家。你会在木栈道尽头看到一只翠鸟，宝石蓝的背影一闪而过，钻进水边的洞穴。远处灰鹭单腿站着，一动不动，像个饱经风霜的哲学家。偶尔有一阵风吹过，整片芦苇荡就沙沙地响起，像在低声交谈。这里没有喧嚣，没有人群，只有你和世界最初的节奏。坐在观鸟屋里，透过狭长的木窗往外看，水面泛着金属般的光泽，倒映着云朵和树影。你突然明白，所谓“治愈”，其实就是时间变慢，感官复苏。\n保护区的魅力不在壮丽，而在细微。它不强迫你仰望，只邀请你低头、驻足、聆听。你蹲下来看一株茅膏菜，上面的露珠在阳光下折射出彩虹；你趴下去闻泥炭的腐殖味，那是几千年前植物的记忆。这里的每一寸土地都在讲述一个关于缓慢积累、耐心等待的故事。你不必懂植物学或鸟类学，只要愿意放下手机，让眼睛适应暗处的光线，让耳朵习惯风和水的声音——这片沼泽就会用它的方式拥抱你。离开时，你鞋底沾着泥，头发上挂着蛛丝，心里却异常的安静。"
+    "description": "你还记得那种空气里带着微甜又微腐的复杂气味吗？站在科西林国家自然保护区的入口，第一口深呼吸就让你的肺部扩张开。那是泥炭、苔藓、腐木和野花混合出的独特味道，像打开一本中世纪手抄本，散出陈旧的墨香和木质的暖意。晨雾还没散尽，阳光懒懒地斜穿过桦树林，在水面投下摇曳的光斑。脚下是木板铺就的小路，发出咯吱咯吱的响声，每一步都像在给这片古老的沼泽打着节拍。远处传来几声清脆的鸟鸣，你分不清是鹬还是鸻，只觉得那声音干净得像是刚从水中捞起。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ascona-lago-maggiore\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿斯科纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ascona</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/vrsac-serbia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗尔沙茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vršac</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/methana-peninsula\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅萨纳半岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Methana</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hrinova-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赫里尼奥瓦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hriňová</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arachova-parnassus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿拉霍瓦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arachova</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafod-estate\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德庄园（国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Hafod Estate</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "ascona-lago-maggiore",
-          "name": "阿斯科纳",
-          "englishName": "Ascona"
+          "slug": "hrinova-village",
+          "name": "赫里尼奥瓦",
+          "englishName": "Hriňová"
         },
         {
-          "slug": "vrsac-serbia",
-          "name": "弗尔沙茨",
-          "englishName": "Vršac"
+          "slug": "arachova-parnassus",
+          "name": "阿拉霍瓦",
+          "englishName": "Arachova"
         },
         {
-          "slug": "methana-peninsula",
-          "name": "梅萨纳半岛",
-          "englishName": "Methana"
+          "slug": "hafod-estate",
+          "name": "哈福德庄园（国家信托）",
+          "englishName": "National Trust - Hafod Estate"
         }
       ]
     }

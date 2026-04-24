@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "乔治亚之屋",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "乔治亚之屋・The Georgian House (National Trust for Scotland)・英国・爱丁堡",
-    "description": "推开夏洛特广场7号那扇墨绿色的厚重木门，就像按下了时光机的开关。外头是21世纪爱丁堡王子街的喧嚣和游客的人潮，但门廊里飘荡的，却是18世纪末风琴的低吟与烛火的微光。脚下的地毯厚实到几乎无声，空气中混合着陈旧的木蜡油、淡淡的玫瑰香水和铜器擦拭后的金属气息。光线透过两层高的窗帷洒进来，被切割成一束束柔和的金色灰尘柱，尘埃在光柱里缓慢地、慵懒地浮沉。你会看见接待厅里，塞夫尔瓷器在玻璃柜中静静反光；你会听见书房里，仿佛刚传来主人放下鹅毛笔的脆响，还有壁炉里木柴噼啪炸裂的声音，那是冬夜最温暖的慰藉。\n但这里并不仅仅是冰冷的历史遗迹。国家信托的工作人员，穿着考究的亚麻围裙，会像朋友一样为你掀开幕帘，讲述门背后的故事。你能想象吗？就在这间客厅里，传教士、律师、银行家们曾围炉品茗，讨论着亚当·斯密的《国富论》和刚刚结束的法兰西大革命。在私密的化妆间里，女主人会对着雕花银镜试戴一顶新到的法国蕾丝帽，空气中弥漫着薰衣草和麝香的味道。而在地下室的厨房里，铜锅擦得锃亮，壁炉里的火从未熄灭，巨大的烤肉架上似乎还挂着一只滋滋冒油的鹿腿。\n最打动人的，是这间房子它并非为博物馆而生。它真实地记录了那个时代中产阶级上升期的生活形态：既有对古典美的狂热崇拜（墙上挂着大量古典题材的版画），又有对实用性的精妙考量（煤气灯、抽水马桶、以及巧妙的仆人呼叫系统）。你可以触摸到楼梯扶手上包浆的木质感，那是两百多年来无数只手抚摸过的温润。你可以坐在餐厅的椅子里，想象一场盛大的晚宴正在进行，烛光晃动，银质餐具和酒杯碰撞发出清脆的叮当声，穿着燕尾服的主人和穿着丝绸长裙的女主人，从你能看到的每一个细节里，扮演着那个时代优雅的主角。但转过身后，狭小逼仄的仆人通道和简陋的顶层阁楼，又瞬间把你拉回到阶层分明的现实。\n这座建筑，就像一个精心布置的舞台，而你，既是观众，也是戏中人。它让你明白，历史的迷人之处，不只在英雄的壮举和宏大的战争，更在于这些被油盐酱醋浸润过的日常。当你走出那扇门，回到夏洛特广场喧嚣的阳光下时，忽然觉得身上似乎还沾着一丝陈年香料的气息，脑海里挥之不去的是细木镶板上映出的跳动的烛影。"
+    "description": "推开夏洛特广场7号那扇墨绿色的厚重木门，就像按下了时光机的开关。外头是21世纪爱丁堡王子街的喧嚣和游客的人潮，但门廊里飘荡的，却是18世纪末风琴的低吟与烛火的微光。脚下的地毯厚实到几乎无声，空气中混合着陈旧的木蜡油、淡淡的玫瑰香水和铜器擦拭后的金属气息。光线透过两层高的窗帷洒进来，被切割成一束束柔和的金色灰尘柱，尘埃在光柱里缓慢地、慵懒地浮沉。你会看见接待厅里，塞夫尔瓷器在玻璃柜中静静反光；你会听见书房里，仿佛刚传来主人放下鹅毛笔的脆响，还有壁炉里木柴噼啪炸裂的声音，那是冬夜最温暖的慰藉。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lake-vyrnwy-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    L\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Lake Vyrnwy Dam</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lake Vyrnwy Dam</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-trail-walk\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加的夫湾步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Trail Walk</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dr-beynons-bug-farm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝农博士的虫子农场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dr Beynon's Bug Farm</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rhossili-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗西里湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rhossili Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lake-vyrnwy-dam",
-          "name": "Lake Vyrnwy Dam",
-          "englishName": "Lake Vyrnwy Dam"
+          "slug": "rhossili-bay",
+          "name": "罗西里湾",
+          "englishName": "Rhossili Bay"
         },
         {
-          "slug": "cardiff-bay-trail-walk",
-          "name": "加的夫湾步道",
-          "englishName": "Cardiff Bay Trail Walk"
+          "slug": "brymbo-bandstand",
+          "name": "布莱姆博音乐台",
+          "englishName": "Brymbo Bandstand"
         },
         {
-          "slug": "dr-beynons-bug-farm",
-          "name": "贝农博士的虫子农场",
-          "englishName": "Dr Beynon's Bug Farm"
+          "slug": "llyn-brianne-viewpoint",
+          "name": "布莱恩湖观景台",
+          "englishName": "Llyn Brianne Viewpoint"
         }
       ]
     }

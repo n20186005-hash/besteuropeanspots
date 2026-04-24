@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰斯凯岛（波特里附近）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奎拉因",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "奎拉因・The Quiraing・英国・苏格兰斯凯岛（波特里附近）",
-    "description": "我第一次见到奎拉因，是在一个阴雨天。车刚停进停车场，还没来得及熄火，雨就停了——仿佛老天专门为我掀开了这层灰色帷幕。推开车门的瞬间，一股混合着湿苔藓、羊粪和泥土的浓烈气味扑面而来，那是苏格兰高地独有的“绿色味道”。抬头，我愣住了：眼前的景象根本不像地球。巨大的岩壁像被某个愤怒的巨人捏扁又拉长的石板，倾斜着刺向天空；远处的“监狱”岩柱在云层中若隐若现，像一座被遗弃的中世纪城堡。空气里没有风声，只有我自己的心跳。\n走进徒步小道，脚下是软绵绵的草甸，踩上去会发出那种挤压出水分的声音。路边的野花——紫色的石楠、白色的棉草——在潮湿空气中显得格外鲜艳。一只高地牛懒洋洋地靠在石头旁，身上的长毛被风吹得乱糟糟的，眼神却像哲学家一样深邃。我继续往前走，四周的寂静越来越浓，只有偶尔从山脊传来几声乌鸦的嘶鸣。走到第一个观景点时，我突然理解了为什么当地人觉得这里是世界边缘：脚下是深不见底的裂缝，对面是仿佛随时会塌下来的岩壁，而头顶的云层正以肉眼可见的速度流动，把阳光切成一束束金线，像舞台灯一样追着徒步者的后背。\n打动人心的不仅是这里的视觉奇观，更是那种压迫与空旷的矛盾感。站在尖峰之间，你同时感到自己的渺小和与天地同呼吸的自由。我停下来坐在一块湿漉漉的石头上，看着远处青灰色的山峦在云影中变幻颜色，像一部永不停息的光影默片。那一刻我意识到，奎拉因不像那些被围栏圈起来的景点，它是一个活着的、正在呼吸的巨人——每一阵风都在低语它的古老故事。"
+    "description": "我第一次见到奎拉因，是在一个阴雨天。车刚停进停车场，还没来得及熄火，雨就停了——仿佛老天专门为我掀开了这层灰色帷幕。推开车门的瞬间，一股混合着湿苔藓、羊粪和泥土的浓烈气味扑面而来，那是苏格兰高地独有的“绿色味道”。抬头，我愣住了：眼前的景象根本不像地球。巨大的岩壁像被某个愤怒的巨人捏扁又拉长的石板，倾斜着刺向天空；远处的“监狱”岩柱在云层中若隐若现，像一座被遗弃的中世纪城堡。空气里没有风声，只有我自己的心跳。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prince-of-wales-monument-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士王子纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kelvingrove-art-gallery-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯尔文格罗夫美术馆和博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kelvingrove Art Gallery and Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lochindorb-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛钦多布城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lochindorb Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-smallest-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士最小的房子</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales' Smallest House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "prince-of-wales-monument-wales",
-          "name": "威尔士王子纪念碑",
-          "englishName": "Prince of Wales Monument"
+          "slug": "cardiff-bay-barrage",
+          "name": "卡迪夫湾水闸",
+          "englishName": "Cardiff Bay Barrage"
         },
         {
-          "slug": "kelvingrove-art-gallery-museum",
-          "name": "凯尔文格罗夫美术馆和博物馆",
-          "englishName": "Kelvingrove Art Gallery and Museum"
+          "slug": "loch-achtriochtan-glen-coe",
+          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
+          "englishName": "Loch Achtriochtan, Glen Coe"
         },
         {
-          "slug": "lochindorb-castle",
-          "name": "洛钦多布城堡",
-          "englishName": "Lochindorb Castle"
+          "slug": "wales-smallest-house",
+          "name": "威尔士最小的房子",
+          "englishName": "Wales' Smallest House"
         }
       ]
     }

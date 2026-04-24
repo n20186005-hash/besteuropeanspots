@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "杰德堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "杰德堡修道院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "杰德堡修道院・Jedburgh Abbey・英国・杰德堡",
-    "description": "我是冒着小雨走进杰德堡的。远远地，修道院的轮廓就像一头蹲伏在灰色天空下的巨大白色怪兽，那些残缺的拱券和尖顶穿透薄雾，莫名地透着一种苍凉的美。等走到近前，你才能真切感受到那种令人屏息的压迫感，三座巨大的西立面玫瑰窗已经没有了彩色玻璃，只剩下空空的石质骨架，像是三只凝视你的空洞眼窝，但你盯着它们看久了，反倒会觉得它们正在向你诉说。\n走进室内，头顶只剩下空荡荡的苍穹，原来的石质拱顶早已坍塌，如今你抬头看到的是不断变幻的苏格兰天空。脚下是覆满青苔的石砖，有些地方被无数脚步和岁月磨得光滑如镜。这时候最妙的是等光线变化，一旦云层裂开一道缝，阳光像利刃一样劈进来，整片废墟就会瞬间被点亮。那些石柱上的雕刻——怪兽面孔、缠绕的藤蔓、圣经故事里的人物——全都在光影中活了过来。\n刚好遇到一位本地的老先生牵着狗来散步，他站在中殿中央指着北侧的一间小室告诉我，那是当年修士的抄写室，他们在那个位置不吃不喝一整天，就为了一页写得完美的手稿。那种与历史近在咫尺的触感，是任何博物馆里的玻璃展柜都给不了的。你可以听到雨水滴落在石板上的声音，风吹过空窗棂发出低沉的哨音，还有远处镇上教堂的钟声。\n最打动我的是它的不完美。它没有被过度修复成崭新的样子，而是保留了被时间摧毁后的状态。那些裂痕、残缺、苔藓，都不是瑕疵，而是时间的指纹。它就这样真实地伫立在杰德堡小镇的中心，和当地人的生活融为一体。人们从这里经过，孩子们在废墟外的草地上踢球，老太太推着购物车往家走，没有人把它当作一个遥远的历史标本，它就是边境小镇生活的一部分。"
+    "description": "我是冒着小雨走进杰德堡的。远远地，修道院的轮廓就像一头蹲伏在灰色天空下的巨大白色怪兽，那些残缺的拱券和尖顶穿透薄雾，莫名地透着一种苍凉的美。等走到近前，你才能真切感受到那种令人屏息的压迫感，三座巨大的西立面玫瑰窗已经没有了彩色玻璃，只剩下空空的石质骨架，像是三只凝视你的空洞眼窝，但你盯着它们看久了，反倒会觉得它们正在向你诉说。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-coed</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/croeso-i-gymru-welcome-sign\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士欢迎标志牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Croeso i Gymru Welcome Sign</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eastgate-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    东\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">东门钟楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eastgate Clock</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/balmoral-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔莫勒尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balmoral Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lochindorb-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛钦多布城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lochindorb Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duncansby-head-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓肯斯比角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duncansby Head Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "betws-y-coed",
-          "name": "贝图斯-科伊德",
-          "englishName": "Betws-y-coed"
+          "slug": "balmoral-castle",
+          "name": "巴尔莫勒尔城堡",
+          "englishName": "Balmoral Castle"
         },
         {
-          "slug": "croeso-i-gymru-welcome-sign",
-          "name": "威尔士欢迎标志牌",
-          "englishName": "Croeso i Gymru Welcome Sign"
+          "slug": "lochindorb-castle",
+          "name": "洛钦多布城堡",
+          "englishName": "Lochindorb Castle"
         },
         {
-          "slug": "eastgate-clock",
-          "name": "东门钟楼",
-          "englishName": "Eastgate Clock"
+          "slug": "duncansby-head-lighthouse",
+          "name": "邓肯斯比角灯塔",
+          "englishName": "Duncansby Head Lighthouse"
         }
       ]
     }

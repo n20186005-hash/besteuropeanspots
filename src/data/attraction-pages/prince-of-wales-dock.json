@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士王子码头",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士王子码头・Prince of Wales Dock・英国・斯旺西",
-    "description": "第一次站在威尔士王子码头的岸边，我还以为自己误入了某部黑白纪录片。空气里飘着海盐与锈铁混合的味道，有点像外婆家铁门上的铁锈被雨水浸湿后散发的那种微苦。海鸥嘶哑的叫声在空旷的仓库间回荡，一只灰色的海鸥停在生锈的起重机横梁上，歪着头打量我，好像在看一个闯入私人领地的陌生人。脚下的混凝土路面坑坑洼洼，裂缝里长出几株倔强的酢浆草，紫红色的小花在咸咸的海风里不住地颤抖。远处，一艘废弃的拖轮像搁浅的鲸鱼般半埋在淤泥里，船身红漆剥落，露出底下褐色的铁板。\n可你别被这份荒凉骗了。当你沿着码头墙慢慢走，用手掌摩挲那些被缆绳磨出深深沟痕的花岗岩时，那种温热的触感像在触摸历史的心跳。这里的每一块石头都听过世界各地的口音：挪威的木头、西班牙的铁矿石、西非的棕榈油，还有来自南威尔士山谷的煤炭——那些黑色的钻石曾从这里运往全球，点燃过伦敦的壁炉、巴黎的工厂和纽约的蒸汽机。我闭上眼睛，仿佛能听见一百年前码头工人的号子声，滑轮嘎吱作响，木箱被狠狠砸在石板上的闷响，还有船长在岸上喊“慢点！慢点！”的焦躁。\n最让我意外的是这里的当地人。码头的尽头有一家小小的咖啡车，银色的车体漆成了海军蓝，老板是个头发花白的中年人，穿着磨破的工装裤。他递给我一杯热腾腾的茶，指了指旁边一张锈迹斑斑的铸铁长凳:“坐吧，那是1957年船长们歇脚的地方。”他告诉我，几十年前这个码头养活了斯旺西一半的家庭，现在虽然集装箱船不再停了，但仍有几条渔船和游艇靠泊。他说这话时眼神里没有伤感，只有一种老水手般的平静。我啜了一口茶，温暖顺着喉咙流下去，那滋味里有大麦的焦香和海的咸味，仿佛整座码头都融化在了杯子里。\n黄昏时分，夕阳把整个码头染成蜜糖色，铁轨的影子被拉得老长，像一根根琴弦横亘在被潮水打湿的水泥地上。一只白鹭飞来，站在废弃的装船机顶端，一动不动，像是雕塑的一部分。远处斯旺西湾的波浪轻轻拍打着防波堤，声音温柔得像在哼唱摇篮曲。我突然意识到，威尔士王子码头并不是一个被遗忘的地方——它只是换了一种方式活着，就像那些在缝隙里生长的野花，在钢筋水泥的遗迹中找到了自己的节奏。"
+    "description": "第一次站在威尔士王子码头的岸边，我还以为自己误入了某部黑白纪录片。空气里飘着海盐与锈铁混合的味道，有点像外婆家铁门上的铁锈被雨水浸湿后散发的那种微苦。海鸥嘶哑的叫声在空旷的仓库间回荡，一只灰色的海鸥停在生锈的起重机横梁上，歪着头打量我，好像在看一个闯入私人领地的陌生人。脚下的混凝土路面坑坑洼洼，裂缝里长出几株倔强的酢浆草，紫红色的小花在咸咸的海风里不住地颤抖。远处，一艘废弃的拖轮像搁浅的鲸鱼般半埋在淤泥里，船身红漆剥落，露出底下褐色的铁板。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/conwy-town-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Town Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/commando-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    突\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">突击队纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Commando Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/caerau-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡埃劳山丘堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caerau Hillfort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dynamic-earth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动感地球</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dynamic Earth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glencoe-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glencoe Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "conwy-town-walls",
-          "name": "康威城墙",
-          "englishName": "Conwy Town Walls"
+          "slug": "caerau-hillfort",
+          "name": "卡埃劳山丘堡垒",
+          "englishName": "Caerau Hillfort"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "dynamic-earth",
+          "name": "动感地球",
+          "englishName": "Dynamic Earth"
         },
         {
-          "slug": "commando-memorial",
-          "name": "突击队纪念碑",
-          "englishName": "Commando Memorial"
+          "slug": "glencoe-viewpoint",
+          "name": "格伦科观景点",
+          "englishName": "Glencoe Viewpoint"
         }
       ]
     }

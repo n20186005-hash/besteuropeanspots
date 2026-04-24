@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "土墩博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "土墩博物馆・Museum on the Mound・英国・爱丁堡",
-    "description": "说实话，我第一次路过土墩街上的这栋灰白色建筑时，完全没把它当成博物馆。它看起来就是一座严肃的银行，门口的石阶被上百年的人流磨得发亮，旁边的铜牌上写着“苏格兰银行”的旧字样。直到推开那扇厚重的橡木门，一股混合着旧铜币、地板蜡和一丝干燥纸张的气味扑面而来，我才意识到自己走进了另一个世界。\n大厅里没有耀眼的射灯，而是用琥珀色的暖光从高处漫射下来，照着柜台后面那些老式的金属格子和黄铜按键。你甚至能听到脚下木地板发出轻微的咯吱声，像在提醒你这里是1860年代的金融神殿。最让我惊讶的是地下一层的金库区——空气瞬间变得阴凉，墙壁是光秃秃的粗砾花岗岩，足有半米厚，两扇铸铁大门厚得像城堡吊桥，上面刻满了精密的锁孔和齿轮。站在那儿，我脑子里自动响起电影里劫匪钻洞的音效。\n这个博物馆最打动人心的，是它用最具体、最触摸得到的东西来讲“钱”这个抽象概念。你会在一个展柜里看到数百年前的贝壳、盐块、甚至羽毛，这些都被当做货币使用；而在隔壁的互动区，你可以亲手按压一台1800年代的纸币印刷机，感受到那冰冷的铜板在纸张上留下凹痕的力度。那种机械的、物理的、甚至是暴力的感觉，瞬间让你理解“钱”不只是数字，它从来都凝结着实实在在的劳动和权力。\n在国外游客扎堆去爱丁堡城堡和皇家大道的年代，土墩博物馆几乎成了本地人藏着的秘密。我去的那天是个工作日下午，整个馆里只有七八个人，有个穿格子衬衫的老爷爷正戴着老花镜研究一张1750年的银行汇票。管理员阿姨靠在角落的椅子上织毛衣，看我凑近金条展台，她抬起头笑眯眯地说：“想掂掂吗？可惜锁着呢，不过你可以试试那边那个假金块。”于是我真的去抱了抱那块十二公斤重的仿真金块，沉得差点闪了腰。那一刻我明白，这里不是冷冰冰的陈列室，而是用幽默和温暖让你重新认识身边最熟悉的东西——钱。"
+    "description": "说实话，我第一次路过土墩街上的这栋灰白色建筑时，完全没把它当成博物馆。它看起来就是一座严肃的银行，门口的石阶被上百年的人流磨得发亮，旁边的铜牌上写着“苏格兰银行”的旧字样。直到推开那扇厚重的橡木门，一股混合着旧铜币、地板蜡和一丝干燥纸张的气味扑面而来，我才意识到自己走进了另一个世界。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cors-y-llyn-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科西林国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cors y Llyn National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flodden-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗洛登城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flodden Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafod-estate\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德庄园（国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Hafod Estate</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cors-y-llyn-national-nature-reserve",
-          "name": "科西林国家自然保护区",
-          "englishName": "Cors y Llyn National Nature Reserve"
+          "slug": "colin-mcrae-cray-corner",
+          "name": "科林·麦克雷弯道",
+          "englishName": "Colin McRae's Cray Corner"
         },
         {
-          "slug": "brymbo-bandstand",
-          "name": "布莱姆博音乐台",
-          "englishName": "Brymbo Bandstand"
+          "slug": "flodden-wall",
+          "name": "弗洛登城墙",
+          "englishName": "Flodden Wall"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "hafod-estate",
+          "name": "哈福德庄园（国家信托）",
+          "englishName": "National Trust - Hafod Estate"
         }
       ]
     }

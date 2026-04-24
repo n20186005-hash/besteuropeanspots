@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡迪夫城堡・Cardiff Castle・英国・卡迪夫",
-    "description": "我第一次见到卡迪夫城堡，不是在晴朗的夏日，而是在一个微雨的深秋午后。天空是铅灰色的，城堡外墙上那些巨大的、被雨濡湿的浅灰色石块，泛着一种阴郁的、仿佛能低语出历史气泡的冷光。它就这样毫无预兆地横在我面前，庞大到几乎占据了整条Castle Street的街景。不像温莎或爱丁堡那样雄踞山巅，它坐在城市的正中心，像一头沉睡的史前巨兽，被湍急的车流和喧闹的商店包围着。出租车、双层巴士绕着城堡环岛呼啸而过，而城堡的城垛上，那些被风化得如同老人皱纹般的石头，只是沉默地注视这一切。这种反差感，瞬间就击中了我的心。\n踏入它的门廊，空气的味道从街头的汽车尾气和咖啡香，陡然变成了石头、古老尘土以及某种说不清的木质陈香混在一起的气息。脚下的石板被无数双鞋底磨得发亮，泛着幽幽的光。我的第一站没有冲去华丽的内部，而是先绕着城堡的外墙走了一圈。你能看到古罗马时期的城墙基础，那些巨大的、切割得不规整的石头被嵌在地面以下，像一列沉默的化石脊椎，托举着上面诺曼人加筑的厚重碉楼。再往上，维多利亚时代的伯爵们又奢侈地给这座军事要塞套上了一层童话般的外壳：细长的角楼、雕刻着繁复兴蓟草和动物图案的拱窗，还有那些被漆成奶油色的、有着阿拉伯风情装饰的塔尖。历史就这样被赤裸裸地叠压在一起，每一层都诉说着一个不同的时代和它的野心。\n往里走，真正的震撼才刚开始。和它阴郁的石头外表完全不同，城堡内部的起居室是奢华的视觉盛宴。尤其是那个为了博取王公贵族一笑而设计的“阿拉伯屋”，四壁和天顶全是金碧辉煌的摩尔式石膏雕刻，复杂得像凝固了的音乐旋律。墙上贴着深红色的丝绸壁纸，天鹅绒的帷幔沉沉垂下，立灯和吊灯都镶着五彩的玻璃。阳光透过彩色玻璃窗射进来，在地上投下斑驳陆离的光影。站在这里，你会觉得呼吸都要变轻了，生怕惊扰了百年前那位沉醉在东方奇想中的伯爵的梦。可是，只要你把头伸出窗外，就能看到城堡脚下巨大的摩天轮和街上穿着现代服饰的行人，瞬间把你拉回现实。\n最打动我的，反而是那个深埋在地下的、二战时期市民用过的防空掩体。空气中弥漫着冰冷的混凝土和防锈油的味道，墙上挂着一张张黑白照片，记录着战争年代，普通卡迪夫人拖家带口，带着收音机和扑克牌，挤在这狭小空间里躲避轰炸的场景。它和头顶上那些华丽的客厅形成了地狱与天堂般的对比。这座城堡不仅收藏了贵族的荣光，更收纳了平民的恐惧和坚韧。我觉得，一座城堡的魅力，不在于它有多完美，而在于它有多真实地保存了时间的多维。"
+    "description": "我第一次见到卡迪夫城堡，不是在晴朗的夏日，而是在一个微雨的深秋午后。天空是铅灰色的，城堡外墙上那些巨大的、被雨濡湿的浅灰色石块，泛着一种阴郁的、仿佛能低语出历史气泡的冷光。它就这样毫无预兆地横在我面前，庞大到几乎占据了整条Castle Street的街景。不像温莎或爱丁堡那样雄踞山巅，它坐在城市的正中心，像一头沉睡的史前巨兽，被湍急的车流和喧闹的商店包围着。出租车、双层巴士绕着城堡环岛呼啸而过，而城堡的城垛上，那些被风化得如同老人皱纹般的石头，只是沉默地注视这一切。这种反差感，瞬间就击中了我的心。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caerphilly-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡菲利城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caerphilly Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/fonmon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    方\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">方蒙城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fonmon Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-witches-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    女\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">女巫之井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Witches Well</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "berwick-upon-tweed-castle-and-ramparts",
-          "name": "伯立克-特威德城堡及城墙",
-          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
+          "slug": "fonmon-castle",
+          "name": "方蒙城堡",
+          "englishName": "Fonmon Castle"
         },
         {
-          "slug": "caerphilly-castle",
-          "name": "卡菲利城堡",
-          "englishName": "Caerphilly Castle"
+          "slug": "the-witches-well",
+          "name": "女巫之井",
+          "englishName": "The Witches Well"
         },
         {
-          "slug": "cairngorms-national-park",
-          "name": "凯恩戈姆国家公园",
-          "englishName": "Cairngorms National Park"
+          "slug": "castlerigg-stone-circle",
+          "name": "卡斯尔里格石圈",
+          "englishName": "Castlerigg Stone Circle"
         }
       ]
     }

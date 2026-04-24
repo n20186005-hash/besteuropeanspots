@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Llanidloes",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士中心点",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士中心点・The Centre of Wales・英国・Llanidloes",
-    "description": "从Llanidloes出发，沿着B4518公路一路向北，车窗外的风景渐渐从村庄的灰色石板屋顶变成连绵起伏的绿色丘陵。路越来越窄，最后变成一条泥泞的小道，你停下车，踩上柔软的草地，空气里弥漫着湿漉漉的青草和泥土的清香，混着远处羊群的咩咩叫声。风是从山脊上直接灌下来的，刮过耳朵的时候发出低沉又急促的呜咽，像大地在轻声呼吸。你跺了跺脚，靴子陷进松软的苔藓里，抬头看着前方缓坡上那块孤零零的石头——它比想象中小很多，只有半人高，粗糙的花岗岩表面刻着经纬度。就是这里了，威尔士的心脏。\n走近石头，整个世界突然安静下来。不，不是真的安静，风还在吹，远处的溪流水声隐约可见，但心里那个嘈杂的频道像是被关掉了。坐在石头旁边，草尖扎着裤腿，你闻到阳光晒过羊粪的干涩气味，混着百里香和石楠花的甜。几只乌鸦从头顶飞过，翅膀拍打的声音格外响亮。你伸手摸了摸石头，表面冰凉，棱角被风雨磨得有些圆润。闭上眼，能感到整座坎布里安山脉在脚下缓慢起伏，像一头沉睡的巨兽。这里的寂静不是空洞的，而是有厚度的，像一块深绿色的绒毯，把你整个人裹进去。\n对当地人来说，这个地方并不神秘。Llanidloes的杂货店老板会随口告诉你：“中心点就在那条小路上，很多人骑自行车去。”但我发现，牧羊人几乎从不去那里，他们忙着赶羊、修围栏，那块石头对他们来说就像一块多余的界碑。倒是那些徒步者和开着房车来的旅行者，会专程绕路，在石头前站几分钟，拍几张照片，然后默默返回。没有人高声说话，没有人尖叫自拍，大家都被这里的空旷震慑住了。这种沉默的仪式感，让整个中心点像一座没有屋顶的教堂。\n最打动我的，是离开时的回望。走了大约一百米，回头再看，那块石头已经像一粒灰色芝麻，粘在绿色的山坡上。你忽然意识到，它的存在不是为了被看见，而是为了让人离开。它像大地上的一根针，轻轻扎了你一下，提醒你：你是过客，而这里永远停留。所有的GPS坐标、历史测量、地图上的红点，在这些感官细节面前都变得苍白——只有风、草、羊叫，和一种说不清道不明的归属感，才是真正的中心。"
+    "description": "从Llanidloes出发，沿着B4518公路一路向北，车窗外的风景渐渐从村庄的灰色石板屋顶变成连绵起伏的绿色丘陵。路越来越窄，最后变成一条泥泞的小道，你停下车，踩上柔软的草地，空气里弥漫着湿漉漉的青草和泥土的清香，混着远处羊群的咩咩叫声。风是从山脊上直接灌下来的，刮过耳朵的时候发出低沉又急促的呜咽，像大地在轻声呼吸。你跺了跺脚，靴子陷进松软的苔藓里，抬头看着前方缓坡上那块孤零零的石头——它比想象中小很多，只有半人高，粗糙的花岗岩表面刻着经纬度。就是这里了，威尔士的心脏。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/leukerbad-thermal-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛伊克巴德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leukerbad</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/eichstaett-baroque-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾希施泰特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eichstaett</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kuopio-finland-lake-district\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库奥皮奥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kuopio</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "eichstaett-baroque-town",
+          "name": "艾希施泰特",
+          "englishName": "Eichstaett"
         },
         {
-          "slug": "bryn-cader-faner",
-          "name": "布林卡德法纳",
-          "englishName": "Bryn Cader Faner"
+          "slug": "bryntail-lead-mine-buildings",
+          "name": "布林泰尔铅矿建筑",
+          "englishName": "Bryntail Lead Mine Buildings"
         },
         {
-          "slug": "leukerbad-thermal-village",
-          "name": "洛伊克巴德",
-          "englishName": "Leukerbad"
+          "slug": "kuopio-finland-lake-district",
+          "name": "库奥皮奥",
+          "englishName": "Kuopio"
         }
       ]
     }

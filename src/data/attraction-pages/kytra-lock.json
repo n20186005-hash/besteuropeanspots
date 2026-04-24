@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "因弗内斯（Inverness）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "凯特拉水闸",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "凯特拉水闸・Kytra Lock・英国・因弗内斯（Inverness）",
-    "description": "我第一次听说凯特拉水闸，是在因弗内斯一家酒吧里，吧台后面那位胡子花白的老头用浓重的苏格兰口音说：“像湖中央的一枚蓝宝石，但不声张。”我问他怎么走，他只是在吧台上画了一条弯弯曲曲的线，终点点了三点。\n第二天清晨，我租了辆破旧的两厢车，沿着A82往福特奥古斯都方向开。车窗外的景色像是被谁用最浓的颜料泼洒过——左边是灰绿色的山脊，右边是墨蓝色的尼斯湖，水面上浮着一层薄薄的雾，像半透明的丝绸。过了福特奥古斯都村后，我拐进B852，路窄得连错车都要找段开阔地。两侧的松树高得遮天蔽日，树干上爬满了浅绿色的苔藓，空气中弥漫着湿润的泥土味和松脂香。\n当碎石路终于走到尽头，一个不起眼的石砌水闸出现在视线尽头。没有售票亭，没有指示牌，甚至没有别的游客。只有双扇黑色的铸铁闸门，安安静静地横在一条只比小运河宽不了多少的水道上。闸门两侧的花岗岩墙体被二百年的风雨打磨得发亮，触手生凉。水面像一块深绿色的磨砂玻璃，倒映着上方碎成千万片的树冠和云朵。我走下水闸旁的步道，脚步声惊起一只翠鸟，它贴着水面掠过，带起一圈细密的涟漪。\n最打动我的，是这里浑然天成的寂静。不是空无一物的死寂，而是被风声、水声、鸟鸣填满的那种沉静。你能清晰地听见水从闸门缝隙渗出的嘀嗒声，远处一只乌鸦的啼叫在峡谷里来回弹跳，甚至能听到自己的心跳。我坐在闸墙边缘，看着阳光慢慢从树梢滑到水面，把整条水道变成一条流动的金色丝带。那一刻我忽然明白，为什么老吧台伙计要用“不声张”来形容它——它美得从容，压根不需要任何人来证明它的存在。"
+    "description": "我第一次听说凯特拉水闸，是在因弗内斯一家酒吧里，吧台后面那位胡子花白的老头用浓重的苏格兰口音说：“像湖中央的一枚蓝宝石，但不声张。”我问他怎么走，他只是在吧台上画了一条弯弯曲曲的线，终点点了三点。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glasgow-necropolis\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥大墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Necropolis</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dr-beynons-bug-farm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝农博士的虫子农场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dr Beynon's Bug Farm</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pili-palas-nature-world\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮利帕拉斯自然世界</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pili Palas Nature World</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/commando-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    突\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">突击队纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Commando Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "glasgow-necropolis",
-          "name": "格拉斯哥大墓地",
-          "englishName": "Glasgow Necropolis"
+          "slug": "pili-palas-nature-world",
+          "name": "皮利帕拉斯自然世界",
+          "englishName": "Pili Palas Nature World"
         },
         {
-          "slug": "cuween-hill-chambered-cairn",
-          "name": "库温山墓室石堆",
-          "englishName": "Cuween Hill Chambered Cairn"
+          "slug": "commando-memorial",
+          "name": "突击队纪念碑",
+          "englishName": "Commando Memorial"
         },
         {
-          "slug": "dr-beynons-bug-farm",
-          "name": "贝农博士的虫子农场",
-          "englishName": "Dr Beynon's Bug Farm"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         }
       ]
     }

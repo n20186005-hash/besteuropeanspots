@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣阿萨夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣阿萨夫大教堂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "圣阿萨夫大教堂・St Asaph Cathedral・英国・圣阿萨夫",
-    "description": "说实话，当我第一次站在圣阿萨夫大教堂面前时，并没有被那种所谓的“宏伟”震撼到。它太不起眼了，藏在一条名为High Street的窄巷尽头，周围是普通的民宅和一家小咖啡馆，如果不是那块写着“Cathedral”的木牌，我差点就开车驶过了。但正是这种低调到几乎卑微的气质，让我瞬间卸下了所有心理预设。你走进大门的瞬间，不是巨大的中殿和彩色玻璃窗扑面而来，而是一种像被旧羊毛毯子包裹住的温暖空气感，混杂着木头发霉的味道和数百年来蜡油燃烧后残留的淡淡香气。灯光是昏黄的，只有几处射灯打在中世纪的石柱上，光斑像时间留下的泪痕。\n教堂里几乎没有人，只有一个老妇人坐在长椅上，手里捧着一本祈祷书，喃喃低语着威尔士语。那种声音像溪水一样，低沉、连续，带着某种忧郁却安详的节奏，似乎不是在祈祷，而是在与自己内心深处的某种古老记忆对话。最让我动容的是它的“小”——在英国，很多大教堂会让你感到渺小和惶恐，但这里，你坐在最后一排，能清楚地看见祭坛上的烛台，感受到每一根石柱的轮廓和温度。墙上挂着一幅描绘威尔士乡村风景的刺绣挂毯，颜色已经暗淡，但那些绿草和山丘的线条依然清晰，提醒着你这座教堂不仅仅属于上帝，也属于这片叫做威尔士的土地。\n我站在西侧诺曼式拱门下，用手背轻轻拂过那道从12世纪起就在这里的石墙。粗犷的灰砂岩带着细微的颗粒感，指尖滑过时仿佛能感受到无数代工匠的体温。头顶的玫瑰窗是一圈简单的几何花纹，没有巴黎圣母院那种绚丽的彩绘，而是那种浅灰黄与淡蓝交织的玻璃，像极了北威尔士阴天时天空的颜色。阳光穿过它时，光晕投射在石板地面上，是温润的、不刺眼的，就像这片土地的性格——克制、隐忍，但在骨子里藏着深沉的情感。那一刻，我终于理解了为什么威尔士人把这里称为“灵魂的避风港”。\n离开时，天下起了细雨，我站在教堂外的墓园里，看着那些歪歪扭扭的墓碑，有些已经完全被青苔覆盖，只能辨认出零星几个名字的轮廓。风吹过时，教堂门缝里传出的管风琴声断断续续地飘出来，混着雨声，像是一首写给过往的挽歌。一位推着婴儿车的当地女士经过，停下来微笑着指了指教堂尖顶：“每个威尔士人的心里，都有一座小小的圣阿萨夫。”她说的没错，这座最小的主座教堂，没有巴黎、罗马那些大教堂的喧哗与荣耀，但它有一种更珍贵的东西——它让你安静下来，听见自己。"
+    "description": "说实话，当我第一次站在圣阿萨夫大教堂面前时，并没有被那种所谓的“宏伟”震撼到。它太不起眼了，藏在一条名为High Street的窄巷尽头，周围是普通的民宅和一家小咖啡馆，如果不是那块写着“Cathedral”的木牌，我差点就开车驶过了。但正是这种低调到几乎卑微的气质，让我瞬间卸下了所有心理预设。你走进大门的瞬间，不是巨大的中殿和彩色玻璃窗扑面而来，而是一种像被旧羊毛毯子包裹住的温暖空气感，混杂着木头发霉的味道和数百年来蜡油燃烧后残留的淡淡香气。灯光是昏黄的，只有几处射灯打在中世纪的石柱上，光斑像时间留下的泪痕。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llangollen-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰戈伦博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llangollen Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dynamic-earth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动感地球</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dynamic Earth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duncansby-head-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓肯斯比角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duncansby Head Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
+        {
+          "slug": "dynamic-earth",
+          "name": "动感地球",
+          "englishName": "Dynamic Earth"
+        },
+        {
+          "slug": "duncansby-head-lighthouse",
+          "name": "邓肯斯比角灯塔",
+          "englishName": "Duncansby Head Lighthouse"
+        },
         {
           "slug": "callendar-house",
           "name": "卡伦德庄园",
           "englishName": "Callendar House"
-        },
-        {
-          "slug": "llangollen-museum",
-          "name": "兰戈伦博物馆",
-          "englishName": "Llangollen Museum"
-        },
-        {
-          "slug": "cuween-hill-chambered-cairn",
-          "name": "库温山墓室石堆",
-          "englishName": "Cuween Hill Chambered Cairn"
         }
       ]
     }

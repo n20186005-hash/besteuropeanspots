@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "滕比",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "滕比恐龙公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "滕比恐龙公园・The Dinosaur Park Tenby・英国・滕比",
-    "description": "第一次来滕比恐龙公园，我是被一阵几乎撕破耳膜的吼叫声迎进门的。那不是真的恐龙，但公园门口那只比双层巴士还高的霸王龙模型，张开血盆大口，发出低沉的咆哮，让我的心脏也跟着猛烈跳动了一下。空气里混杂着爆米花的甜腻香和修剪过的草坪的清新味道，脚下的碎石路踩上去嘎吱作响，能听到远处孩子们因为兴奋发出的尖叫和笑声。那一刻我忽然明白，这里不是那种冷冰冰的博物馆，而是一个让所有人都能释放心中那个小探险家的地方。\n沿着主路往里走，身边的树丛间突然探出一只恐龙的脖子，那是腕龙，模型做得极其逼真，皮肤上的纹理和褶皱都清晰可见。阳光从树叶缝隙洒下，在地面上投出斑驳的光影，仿佛真的走进了某个被遗忘的侏罗纪角落。有个小男孩拽着妈妈的衣角，指着那只腕龙大喊：“它活着！它会动！”虽然他只是看到了微风中模型轻微晃动的尾巴，但那份绝对的相信，让整个公园都充满了魔法的气息。\n最打动我的是恐龙足迹步道。那是一条蜿蜒在灌木丛中的小路，地面上嵌着巨大的恐龙脚印模型，每个脚印旁边都标注了恐龙的名字和习性。我蹲下来摸了摸脚印的凹槽，脑海中不自觉浮现出一亿多年前，这些庞然大物踩着湿润的泥土踏过的场景。风吹过树叶，发出沙沙的声响，好像恐龙的低语。就在我发呆的时候，后面跑来一群孩子，他们光着脚踩在脚印上，互相比赛谁跳得更远，笑声把安静的气氛冲得支离破碎，却又那么合拍。\n午后太阳开始西斜，公园里的光线变得柔和蓬松。我坐在化石挖掘沙坑旁的长椅上，看孩子们用迷你铲子刨沙子，偶尔尖叫着说自己挖到了“恐龙牙”（其实只是公园提前埋进去的塑料牙齿）。家长们坐在旁边刷手机，但嘴角都挂着笑。旁边一个小女孩把小铲子递给我，认真地说：“叔叔，你也来找找吧，说不定能找到真的。”我把铲子插进沙子里，竟然真的挖出了一块小小的骨头模型，那一瞬间，连我都忍不住咧嘴笑了。滕比恐龙公园最动人的地方，不在于它有多宏大或专业，而在于它给了每一个踏进大门的人——无论年纪多大——一个理直气壮相信奇迹的理由。"
+    "description": "第一次来滕比恐龙公园，我是被一阵几乎撕破耳膜的吼叫声迎进门的。那不是真的恐龙，但公园门口那只比双层巴士还高的霸王龙模型，张开血盆大口，发出低沉的咆哮，让我的心脏也跟着猛烈跳动了一下。空气里混杂着爆米花的甜腻香和修剪过的草坪的清新味道，脚下的碎石路踩上去嘎吱作响，能听到远处孩子们因为兴奋发出的尖叫和笑声。那一刻我忽然明白，这里不是那种冷冰冰的博物馆，而是一个让所有人都能释放心中那个小探险家的地方。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pen-dinas-hill-fort-site\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭迪纳斯山堡遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen Dinas Hill Fort Site</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/croeso-i-gymru-welcome-sign\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士欢迎标志牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Croeso i Gymru Welcome Sign</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-smallest-house-in-great-britain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大不列颠最小屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Smallest House In Great Britain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-ewen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊文城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Ewen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-kirkyard-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗里亚教堂墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Kirkyard Cemetery Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "pen-dinas-hill-fort-site",
-          "name": "彭迪纳斯山堡遗址",
-          "englishName": "Pen Dinas Hill Fort Site"
+          "slug": "the-smallest-house-in-great-britain",
+          "name": "大不列颠最小屋",
+          "englishName": "The Smallest House In Great Britain"
         },
         {
-          "slug": "croeso-i-gymru-welcome-sign",
-          "name": "威尔士欢迎标志牌",
-          "englishName": "Croeso i Gymru Welcome Sign"
+          "slug": "castle-ewen",
+          "name": "伊文城堡",
+          "englishName": "Castle Ewen"
         },
         {
-          "slug": "castell-dinefwr",
-          "name": "迪内弗尔城堡",
-          "englishName": "Castell Dinefwr"
+          "slug": "greyfriars-kirkyard-edinburgh",
+          "name": "格雷弗里亚教堂墓地",
+          "englishName": "Greyfriars Kirkyard Cemetery Edinburgh"
         }
       ]
     }

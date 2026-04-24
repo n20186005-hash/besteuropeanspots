@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士 卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫湾",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡迪夫湾・Cardiff Bay・英国・威尔士 卡迪夫",
-    "description": "第一次走近卡迪夫湾时，我差点以为自己误入了某个地中海的文艺港口——那种咸湿的海风，混着炸鱼薯条的油香和远处咖啡馆里飘出的手工咖啡味，直接就撞进了鼻腔里。但只要你仔细看，就会发现脚下踩着的不是白色的度假沙滩，而是由铸铁井盖、老铁轨碎片和重新铺砌的花岗岩组成的滨水步道；头顶的海鸥不单是浪漫的背景音，还会在你没护好手里的培根卷时飞速俯冲下来，让你在惊呼中笑出声。\n眼睛最先抓住的是那一大片水域——不是狭窄的河流，也不是一眼望不到头的汪洋，而是被U形岸线温柔围住的、深蓝中带着银灰光泽的海湾。阳光下它像一张被揉皱后又抚平的旧锡箔纸，波光细碎地跳动着，每闪一次就像按下了某个秘密的快门。而更远处，白色的威尔士千禧中心犹如一只巨大的海贝，也像一面鼓满风的帆，用它的弧形玻璃立面把云朵和探照灯都映了进去。水岸的另一边，红色砖墙的Pierhead Building带着维多利亚时代特有的精致与厚重，它那钟楼的尖顶在晨雾里若隐若现，好像一个老派的绅士在向过往的船只点头致意。\n走在湾区的木栈道上，你能闻到两种截然不同的气味：左边是古老的铁锈和煤灰混合着潮湿的石板味，右边是刚出炉的威尔士蛋糕——那种裹着黄油和葡萄干的甜滋滋的香气。这种气味的分裂感其实正是卡迪夫湾迷人的地方：它不拒绝历史留下的粗粝痕迹，反倒把起重机、旧仓库、船闸都当作公共雕塑保留下来，甚至还在挪威教堂改造成的小画廊里陈列着当年码头工人写下的日记。而耳边传来的声音也很有意思：有街头艺人演奏的威尔士竖琴，那种悠远又略带忧郁的琴声飘在水面上，和孩子们踩踏喷泉的嬉笑声缠绕在一起，让你觉得这座城市的脉搏既古老又年轻。\n最打动我的，是这里完全没有那种“造景”的生硬感。当地人就真的在周末推着婴儿车来散步，在长椅上抱着吉他弹唱，或者在Mermaid Quay的露天餐桌上吹着海风喝一杯本地产的苹果酒。夕阳垂下去的时候，整个水岸被染成温暖的杏色，那一瞬间，连海鸥的叫声都变得温柔起来。你会忍不住想：一个地方，能够把曾经满目疮痍的工业伤疤变成最骄傲的城市客厅，这件事本身就足够让人动容了。"
+    "description": "第一次走近卡迪夫湾时，我差点以为自己误入了某个地中海的文艺港口——那种咸湿的海风，混着炸鱼薯条的油香和远处咖啡馆里飘出的手工咖啡味，直接就撞进了鼻腔里。但只要你仔细看，就会发现脚下踩着的不是白色的度假沙滩，而是由铸铁井盖、老铁轨碎片和重新铺砌的花岗岩组成的滨水步道；头顶的海鸥不单是浪漫的背景音，还会在你没护好手里的培根卷时飞速俯冲下来，让你在惊呼中笑出声。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cabot-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伯特塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cabot Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/old-oswestry-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    旧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">旧奥斯沃斯特里山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Oswestry Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dinorwic-slate-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪诺威奇板岩矿场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinorwic Slate Quarry</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
+        {
+          "slug": "old-oswestry-hill-fort",
+          "name": "旧奥斯沃斯特里山堡",
+          "englishName": "Old Oswestry Hill Fort"
+        },
         {
           "slug": "callendar-house",
           "name": "卡伦德庄园",
           "englishName": "Callendar House"
         },
         {
-          "slug": "cabot-tower",
-          "name": "卡伯特塔",
-          "englishName": "Cabot Tower"
-        },
-        {
-          "slug": "bryn-cader-faner",
-          "name": "布林卡德法纳",
-          "englishName": "Bryn Cader Faner"
+          "slug": "dinorwic-slate-quarry",
+          "name": "迪诺威奇板岩矿场",
+          "englishName": "Dinorwic Slate Quarry"
         }
       ]
     }

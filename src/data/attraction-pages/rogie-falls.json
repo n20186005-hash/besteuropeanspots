@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Strathpeffer",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "罗吉瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "罗吉瀑布・Rogie Falls・英国・Strathpeffer",
-    "description": "第一次见到罗吉瀑布的时候，我差点以为自己走错了地方。停车场藏在浓密的桦树林里，只有几辆落满树叶的车子，四周安静得能听见自己的心跳。穿过一条被苔藓包裹的小径，蕨类植物懒洋洋地铺满两侧，空气里有一股潮湿的泥土和废青草的甜味——那是高地森林特有的味道，混着一点松脂和野薄荷的清凉。走了不到十分钟，耳边突然涌来一阵低沉持续的轰鸣声，像大地在轻轻打鼾。转过最后一块巨大的花岗岩，罗吉瀑布就这样毫无预兆地炸裂在我眼前：深褐色的水从上游狭窄的岩缝中猛地倾泻而下，砸进墨绿色的深潭，溅起一片白茫茫的水雾，瞬间把整个峡谷变成了一座晶莹的剧场。\n你站在那里，会忍不住闭上眼，让那股冰凉的水汽钻进鼻孔，贴着皮肤渗进毛孔。阳光从树冠的缝隙里漏下来，在水雾中折射出一段若隐若现的彩虹，一会儿浮在瀑布左侧，一会儿被风推到右边，像是一只淘气的精灵在和你捉迷藏。最震撼的时刻来了——我正看得出神，忽然潭面上炸开一道银光，一条近一米长的大西洋鲑鱼像一枚银色鱼雷，从水里猛地跃起，尾巴甩出一串亮晶晶的水珠，在半空中划出一道弧线，试图跳上那道几乎垂直的岩壁。它失败了，重重地砸回水里，激起一圈涟漪。但仅仅过了几秒钟，它又一次跃起，这一次更高、更猛，几乎触到了瀑布顶端，可惜还是被水流冲了下来。周围几个游客不约而同地发出低低的惊叹声，然后又不约而同地屏住了呼吸——我们都成了这条鱼的信徒。\n当地人说，每年夏末到秋初，数千条鲑鱼会从大西洋逆流而上，沿着克罗默蒂湾（Cromarty Firth）一路游进康农河系统，只为回到它们出生的上游产卵。罗吉瀑布是它们回家路上最凶险的关卡，四米高的落差对鱼来说近乎绝境。但就是这些银色的勇士，会一次次跃起，用尽全身力气对抗重力与水流，哪怕鳞片磨破、身体遍布淤伤。我站在观景台上看了整整四十分钟，目睹了至少十几条鱼的跳跃，成功通过的大约只有三四条。每一次成功都引来一阵压抑的欢呼，而每一次失败都让人心头一紧。那种感觉很奇怪——你明明知道这是自然法则，却还是忍不住替它们捏一把汗。\n瀑布本身并不以壮阔取胜，相比尼亚加拉或者冰岛的众神瀑布，它更像一位害羞的隐士。四周被原始森林包裹，几乎没有人工设施，连护栏都是最简朴的木桩和麻绳。你几乎能听见苔藓在岩石上缓慢生长的声音，能看见水獭在潭边留下的凌乱脚印。这种未经雕琢的野性气质，恰恰是罗吉瀑布最让我着迷的地方。它不是被开发出来供人瞻仰的打卡点，而是一个正在上演真实生命故事的舞台——没有背景音乐，没有解说牌，只有水的轰鸣和生命的喘息。"
+    "description": "第一次见到罗吉瀑布的时候，我差点以为自己走错了地方。停车场藏在浓密的桦树林里，只有几辆落满树叶的车子，四周安静得能听见自己的心跳。穿过一条被苔藓包裹的小径，蕨类植物懒洋洋地铺满两侧，空气里有一股潮湿的泥土和废青草的甜味——那是高地森林特有的味道，混着一点松脂和野薄荷的清凉。走了不到十分钟，耳边突然涌来一阵低沉持续的轰鸣声，像大地在轻轻打鼾。转过最后一块巨大的花岗岩，罗吉瀑布就这样毫无预兆地炸裂在我眼前：深褐色的水从上游狭窄的岩缝中猛地倾泻而下，砸进墨绿色的深潭，溅起一片白茫茫的水雾，瞬间把整个峡谷变成了一座晶莹的剧场。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kelvingrove-art-gallery-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯尔文格罗夫美术馆和博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kelvingrove Art Gallery and Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hanging-hill-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    悬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">悬挂山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hanging Hill</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-monument-of-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国家纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Monument of Scotland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-promenade\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺滨海步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Promenade</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kelvingrove-art-gallery-museum",
-          "name": "凯尔文格罗夫美术馆和博物馆",
-          "englishName": "Kelvingrove Art Gallery and Museum"
+          "slug": "national-monument-of-scotland",
+          "name": "苏格兰国家纪念碑",
+          "englishName": "National Monument of Scotland"
         },
         {
-          "slug": "hafod-arch",
-          "name": "哈福德拱门",
-          "englishName": "Hafod Arch"
+          "slug": "bath-tower",
+          "name": "巴斯塔",
+          "englishName": "Bath Tower"
         },
         {
-          "slug": "hanging-hill-wales",
-          "name": "悬挂山",
-          "englishName": "Hanging Hill"
+          "slug": "llandudno-promenade",
+          "name": "兰迪德诺滨海步道",
+          "englishName": "Llandudno Promenade"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威廉堡 (Fort William)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "海王星阶梯",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "海王星阶梯・Neptune's Staircase・英国・威廉堡 (Fort William)",
-    "description": "第一次看见海王星阶梯，是在一个阴雨绵绵的午后。我沿着喀里多尼亚运河的碎石路徒步，远远就听到了水流轰鸣的声音。转过一道弯，眼前豁然出现一排巨大的船闸，像一条巨蟒盘踞在高地起伏的草地上。八个石砌的阶梯逐级上升，灰色的花岗岩被岁月和河水磨得光滑，每道闸门都漆成醒目的黑色和白色，在灰暗的天色里显得格外庄重。空气里弥漫着潮湿的泥土味和河水淡淡的铁锈气息，还有远处树林里传来的鸟鸣。我站在最高的闸门旁，看着一艘窄长的游艇缓缓驶入最下面的闸室。工作人员转动笨重的木制绞盘，闸门缓缓闭合，发出一阵嘎吱声。随后水从上游闸门底部涌入，游艇随着水位上升，像被一只无形的手托举起来。整个过程安静而有力，让我想起小时候看过的《海底两万里》里那些神秘的机械装置。周围的游客都屏住呼吸，只有水声和机器的摩擦声在峡谷间回荡。\n在当地人眼中，海王星阶梯更像一个巨大的露天博物馆。附近的班纳维村居民会沿着运河边散步，遛狗，或者坐在长椅上看船闸开合。一个满头白发的老爷爷告诉我，他的祖父曾经就在这里操作船闸，每天要挥动那根沉重的杠杆上百次。如今自动化设备取代了手工，但那份传承百年的运河精神依然在河水中流淌。我注意到闸门背后的木质结构上刻着许多名字和日期，大概是历代工作人员留下的印记。最让我动容的，是海王星阶梯与周围自然的融合。船闸没有破坏高地的粗犷之美，反而成为景观的一部分。远处的本尼维斯山笼罩在云雾中，脚下是色彩斑斓的苔藓和石楠花。当夕阳穿透云层，金色的光芒恰好照亮阶梯的水面，给灰色的石头镀上一层暖意。那一刻你会明白，人类的智慧与自然的壮丽可以如此和谐共生。站在这里，时间仿佛变得很慢，慢到你可以清晰地听见水滴从闸门缝隙中渗落的声音。"
+    "description": "第一次看见海王星阶梯，是在一个阴雨绵绵的午后。我沿着喀里多尼亚运河的碎石路徒步，远远就听到了水流轰鸣的声音。转过一道弯，眼前豁然出现一排巨大的船闸，像一条巨蟒盘踞在高地起伏的草地上。八个石砌的阶梯逐级上升，灰色的花岗岩被岁月和河水磨得光滑，每道闸门都漆成醒目的黑色和白色，在灰暗的天色里显得格外庄重。空气里弥漫着潮湿的泥土味和河水淡淡的铁锈气息，还有远处树林里传来的鸟鸣。我站在最高的闸门旁，看着一艘窄长的游艇缓缓驶入最下面的闸室。工作人员转动笨重的木制绞盘，闸门缓缓闭合，发出一阵嘎吱声。随后水从上游闸门底部涌入，游艇随着水位上升，像被一只无形的手托举起来。整个过程安静而有力，让我想起小时候看过的《海底两万里》里那些神秘的机械装置。周围的游客都屏住呼吸，只有水声和机器的摩擦声在峡谷间回荡。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/marloes-sands\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马洛斯海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marloes Sands</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "marloes-sands",
-          "name": "马洛斯海滩",
-          "englishName": "Marloes Sands"
+          "slug": "cardiff-bay-barrage",
+          "name": "卡迪夫湾水闸",
+          "englishName": "Cardiff Bay Barrage"
         },
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "aberpergum-mine",
+          "name": "阿伯珀古姆煤矿",
+          "englishName": "Aberpergum Mine"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "borth",
+          "name": "博斯",
+          "englishName": "Borth"
         }
       ]
     }

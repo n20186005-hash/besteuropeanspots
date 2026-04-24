@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "邓弗里斯与加洛韦行政区，盖特豪斯-弗利特镇",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "门屋（盖特豪斯）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "门屋（盖特豪斯）・The Gatehouse・英国・邓弗里斯与加洛韦行政区，盖特豪斯-弗利特镇",
-    "description": "我第一次到盖特豪斯，是一个五月的黄昏。车子拐过一片低矮的石墙，世界突然安静下来——不是那种人的安静，而是整个乡野的安静。弗利特河的水声成了背景，偶尔有羊叫声从远处飘来，空气里弥漫着湿润的青草和苔藓气息，还有一丝若有若无的泥炭味道，像是大地刚刚被翻开过。\n庄园的铁门上缠满了野蔷薇，推开时发出吱呀的声响，惊起了两只在门柱上歇脚的红腹灰雀。沿着长满车前草的鹅卵石路走进去，城堡就那样毫无预兆地出现在眼前——不是那种修缮整齐、等着游客拍照的完美废墟，而是一座真正正在被时间消解的石头骨骼。西面那座塔楼还保持着十六世纪的模样，六层高的墙面上，有些洞口像是眼睛，盯着你看；东翼已经塌成一个斜坡，碎石和野花长在一起，一种叫做“沼泽金丝桃”的黄色小花在裂缝中开得正欢。\n我注意到城堡正门的拱券已经完全风化，只剩下一块微微凸起的砂岩，像一道被磨平的伤疤。站在门洞里，风从身后灌进来，在空荡荡的大厅里回旋，发出一种低沉的嗡鸣，像极了苏格兰风笛远去的尾音。我坐在一块倾圮的基石上，用手摸了一下那些石头的表面——粗粝，冰凉，布满地衣，却莫名地让人心安。那一刻我忽然明白，这座城堡的迷人之处不在于它的雄伟，而在于它的诚实：它从不掩饰自己已经老去，甚至很美地，让时光把一切都刻在了墙上。\n最让我动容的，是夕阳西下时，城堡的影子沿着草地拉得很长。一条野兔从墙根下跑过去，在阴影边缘停了两秒，然后又消失在了另一丛荆豆中间。不远处，当地的一头高地牛正站在一个小山包上，安静地反刍，仿佛它也成了城堡的一部分。我突然想起当地一个老牧民说的话：“那些石头比你想象的更有记忆，它们记得每一阵风。”也许他说得对，那天傍晚，风确实很大。"
+    "description": "我第一次到盖特豪斯，是一个五月的黄昏。车子拐过一片低矮的石墙，世界突然安静下来——不是那种人的安静，而是整个乡野的安静。弗利特河的水声成了背景，偶尔有羊叫声从远处飘来，空气里弥漫着湿润的青草和苔藓气息，还有一丝若有若无的泥炭味道，像是大地刚刚被翻开过。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/portmeirion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波特梅里恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portmeirion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chester-castle-agricola-tower-castle-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特城堡：阿格里科拉塔和城堡城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Castle: Agricola Tower and Castle Walls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prince-of-wales-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士亲王采石场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Quarry</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maen-du-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑石圣井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen-Du Well</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tinkinswood-burial-chamber\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    廷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">廷金斯伍德古墓</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tinkinswood Burial Chamber</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hadrians-wall",
-          "name": "哈德良长城",
-          "englishName": "Hadrian's Wall"
+          "slug": "prince-of-wales-quarry",
+          "name": "威尔士亲王采石场",
+          "englishName": "Prince of Wales Quarry"
         },
         {
-          "slug": "portmeirion",
-          "name": "波特梅里恩",
-          "englishName": "Portmeirion"
+          "slug": "maen-du-well",
+          "name": "黑石圣井",
+          "englishName": "Maen-Du Well"
         },
         {
-          "slug": "chester-castle-agricola-tower-castle-walls",
-          "name": "切斯特城堡：阿格里科拉塔和城堡城墙",
-          "englishName": "Chester Castle: Agricola Tower and Castle Walls"
+          "slug": "tinkinswood-burial-chamber",
+          "name": "廷金斯伍德古墓",
+          "englishName": "Tinkinswood Burial Chamber"
         }
       ]
     }

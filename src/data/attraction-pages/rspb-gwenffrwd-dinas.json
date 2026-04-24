@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格温弗鲁德-迪纳斯自然保护区",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格温弗鲁德-迪纳斯自然保护区・RSPB Gwenffrwd-Dinas・英国・彭布罗克郡",
-    "description": "清晨五点，威尔士西部的海岸线还裹着一层灰蓝色的薄纱。我沿着一条几乎被蕨类植物吞没的小径向河谷深处走去，脚下是松软的苔藓和腐叶，每一步都发出轻微的沙沙声。空气中弥漫着潮湿泥土和海盐混合的味道——那是大西洋的风穿过橡树林后留下的气息。远处传来一阵尖锐的叫声，像金属摩擦，又像笛声，那是红尾鹬在宣告领地的边界。这就是RSPB Gwenffrwd-Dinas，一个远离游客喧嚣的鸟类避难所，一个连威尔士本地人都未必知道的名字。\n这里的魔力在于它的“未被打扰”。没有纪念品商店，没有咖啡厅，甚至没有明显的指示牌——只有一条蜿蜒的步道沿着Gwenffrwd河伸展，两旁是古老的橡树和梣树，树干上覆盖着厚厚的苔藓和地衣，仿佛在讲述一个关于时间的秘密。光线透过密集的树冠筛落下来，在河面上跳跃成无数光点。河水清浅，流速缓慢，底部是鹅卵石和沙砾，偶尔能看到鳟鱼一闪而过。\n站在第一个观鸟掩体前，我屏住呼吸。透过窄长的观察窗，一片开阔的泥滩展现在眼前。几十只涉禽正在那里埋头觅食，它们的喙像镊子一样精准地探入淤泥。一只林鹬突然抬起头，眼睛警惕地望向我的方向，然后继续它的早餐。不远处，一只白腰杓鹬用它夸张的弧形长喙在泥地中画着弧线。这些鸟类的每一个动作都充满了几何美学。这一刻，我几乎听不到任何人类制造的声音，只有水流、鸟鸣和风声交织成的自然交响乐。\n最打动我的是这里所承载的宁静与希望。在物种灭绝速度加快的今天，这片河谷就像是诺亚方舟，为那些濒危的鸟类保留了最后一片纯净的栖息地。每一次看到它们自由地觅食、求偶、筑巢，都会让人感受到一种原始而坚韧的生命力。对于热爱深度游的旅人来说，这里不仅仅是一个看鸟的地方，更是一个可以重新校准灵魂与自然关系的心灵圣殿。"
+    "description": "清晨五点，威尔士西部的海岸线还裹着一层灰蓝色的薄纱。我沿着一条几乎被蕨类植物吞没的小径向河谷深处走去，脚下是松软的苔藓和腐叶，每一步都发出轻微的沙沙声。空气中弥漫着潮湿泥土和海盐混合的味道——那是大西洋的风穿过橡树林后留下的气息。远处传来一阵尖锐的叫声，像金属摩擦，又像笛声，那是红尾鹬在宣告领地的边界。这就是RSPB Gwenffrwd-Dinas，一个远离游客喧嚣的鸟类避难所，一个连威尔士本地人都未必知道的名字。"
   },
   "sections": [
     {
@@ -62,17 +62,17 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/john-knox-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰·诺克斯故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John Knox House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/roman-baths\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗马浴场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Roman Baths</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bride-veil-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新娘面纱瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bride's Veil Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/roman-baths\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗马浴场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Roman Baths</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "john-knox-house",
-          "name": "约翰·诺克斯故居",
-          "englishName": "John Knox House"
+          "slug": "bride-veil-falls",
+          "name": "新娘面纱瀑布",
+          "englishName": "Bride's Veil Falls"
         },
         {
-          "slug": "parc-cwm-darran",
-          "name": "帕克库姆达兰公园",
-          "englishName": "Parc Cwm Darran"
+          "slug": "cawdor-castle-and-gardens",
+          "name": "考德城堡与花园",
+          "englishName": "Cawdor Castle and Gardens"
         },
         {
           "slug": "roman-baths",

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奥克尼群岛 斯特罗姆内斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯卡拉布雷史前村落",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯卡拉布雷史前村落・Skara Brae Prehistoric Village・英国・奥克尼群岛 斯特罗姆内斯",
-    "description": "我站在奥克尼群岛西海岸的悬崖边，面前是一道被海风啃噬了五千年的草坡。风从北大西洋直直灌过来，咸腥的水汽裹着海藻的鲜味扑进鼻腔，头发被吹得乱糟糟贴在脸上，眼睛却死死盯着那片被铁丝网围住的凹陷。\n突然之间看到了它——七间被埋进土里的石屋，像七个从地底探出头的原始龟壳。石墙上布满苔藓，颜色灰褐中透着深绿，块块页岩被岁月打磨得发着哑光。没有水泥接缝，没有木梁，就是纯粹的石片对石片，像孩子搭的积木却严丝合缝。弯腰凑近一间屋子的入口，通道又低又窄，必须像五百年前的主人那样蜷缩着钻进去。里面空荡荡的，但地面上的石质床架、石质储物柜、石质火塘依然保持着当初的位置，仿佛主人只是出门打鱼还没回来。\n最让我震惊的是每个屋子角落里那个石质“厕所”——一个嵌在地板里的圆形凹槽，边缘被磨得光滑，旁边还有一条通向室外的排水沟。在那个没有下水道的年代，他们就懂得把排泄物引到屋后坑里集中处理。蹲下身摸那凹槽的边沿，石头上残留着某种暗色的油脂般的东西，也许是海豹油的痕迹，也许是千年前人类皮肤的温度。空气里全是石头的冷和海的腥，还有泥土里某种说不清的古老气味，像翻开一本放了太久的旧地图。\n我站在那里，感觉时间突然失去了意义。五千年在我们看来是天文数字，但对这些石屋来说，它们只是被沙子短暂掩埋了一小会儿。当地人说1960年代那场暴风雨把几十厘米厚的沙层吹开，现代人才第一次看到这些沉睡的家园。其实它们从未真正入眠，只是安静地等着海风把时间的伪装一层层剥开。现在游客的脚步声在石屋间回响，每走一步都能听到脚下石板和土壤摩擦的细响，像在和远古的居民轻声对话。"
+    "description": "我站在奥克尼群岛西海岸的悬崖边，面前是一道被海风啃噬了五千年的草坡。风从北大西洋直直灌过来，咸腥的水汽裹着海藻的鲜味扑进鼻腔，头发被吹得乱糟糟贴在脸上，眼睛却死死盯着那片被铁丝网围住的凹陷。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/morbitorium\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫比托里姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Morbitorium</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glasgow-science-centre-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥科学中心塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Science Centre Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/green-bridge-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    绿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">绿色桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Green Bridge of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/owain-glyndwr-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欧文·格林杜尔中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Owain Glyndŵr Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "morbitorium",
-          "name": "莫比托里姆",
-          "englishName": "Morbitorium"
+          "slug": "green-bridge-of-wales",
+          "name": "绿色桥",
+          "englishName": "Green Bridge of Wales"
         },
         {
-          "slug": "glasgow-science-centre-tower",
-          "name": "格拉斯哥科学中心塔",
-          "englishName": "Glasgow Science Centre Tower"
+          "slug": "owain-glyndwr-centre",
+          "name": "欧文·格林杜尔中心",
+          "englishName": "Owain Glyndŵr Centre"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "battle-abbey",
+          "name": "巴特尔修道院",
+          "englishName": "Battle Abbey"
         }
       ]
     }

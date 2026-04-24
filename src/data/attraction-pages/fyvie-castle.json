@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯丁郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "菲维城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "菲维城堡・Fyvie Castle, Garden & Estate (National Trust for Scotland)・英国・阿伯丁郡",
-    "description": "我第一次看到菲维城堡，是在一个雨后初晴的午后。苏格兰的天空像是一块洗过的蓝宝石，空气中弥漫着湿润的泥土和青草香气。城堡的灰色石墙在阳光下呈现出温柔的米黄色调，五座大小不一的塔楼如同五个沉默的巨人，高高耸立在翠绿的草坪尽头。我绕着城堡走了一圈，脚下是松软的地毯般的草地，远处传来池塘里水鸭的呱呱声和风吹过橡树林的沙沙声。它的美不是那种精致的、一尘不染的美，而是一种沉淀了数百年风霜的、带着点神秘和孤独的美。\n走进城堡的花园，空气中飘来玫瑰和薰衣草的甜香。花园里没有刻意规划成整齐的几何形状，而是自然地延展，石径蜿蜒，紫藤爬满了古老的石墙。有几棵巨大的雪松，枝丫伸展开来，像是守护者一样庇护着这片土地。一个老园丁正在修剪篱笆，他抬起头对我微微一笑，然后又低下头继续工作。他似乎与这片土地融为一体，好像他本身就是城堡的一部分。我突然觉得，这才是参观城堡最迷人的地方——不是站在外面看它的轮廓，而是走入它日常生活的场景里，感受它呼吸的节奏。\n离开花园，我沿着一条卵石小路走向城堡的入口。石阶被岁月磨得发亮，两侧的城墙上爬满了厚厚的常春藤。推开那扇厚重的橡木大门，一股混合着旧木头、干花和蜡烛的温暖气息扑面而来。大厅的天花板很高，挂着几盏巨大的水晶吊灯，光线在古老的石墙上投下斑驳的光影。墙上挂满了肖像画，那些戴着假发、穿着华丽服饰的贵族面孔，表情庄重而遥远，仿佛在静静注视着每一个来访者。空气中很安静，只有我的脚步声在空旷的厅堂里回响，偶尔能听到远处木地板发出的咯吱声。\n最打动我的，不是它宏伟的大厅或精美的装饰，而是城堡那种与世隔绝的宁静和它深藏在石墙里的秘密感。站在顶楼的窗边，看着窗外那片广袤的苏格兰高地，远处的山脊延绵不绝，天空中的云朵像棉花糖一样漂浮着。你能想象几百年前，住在这里的家族，也是在这样的窗边，凝视着同一片风景，心中盘算着权力、爱情和战争。菲维城堡不是一个冰冷的古迹，它是一个活生生的、有温度的家，只是它的家人换了一代又一代，而它的灵魂从未改变。"
+    "description": "我第一次看到菲维城堡，是在一个雨后初晴的午后。苏格兰的天空像是一块洗过的蓝宝石，空气中弥漫着湿润的泥土和青草香气。城堡的灰色石墙在阳光下呈现出温柔的米黄色调，五座大小不一的塔楼如同五个沉默的巨人，高高耸立在翠绿的草坪尽头。我绕着城堡走了一圈，脚下是松软的地毯般的草地，远处传来池塘里水鸭的呱呱声和风吹过橡树林的沙沙声。它的美不是那种精致的、一尘不染的美，而是一种沉淀了数百年风霜的、带着点神秘和孤独的美。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceredigion-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    锡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">锡尔迪金博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amgueddfa Ceredigion Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wythenshawe-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威森肖公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wythenshawe Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜阿尔特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duart Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "wythenshawe-park",
+          "name": "威森肖公园",
+          "englishName": "Wythenshawe Park"
         },
         {
-          "slug": "ceredigion-museum",
-          "name": "锡尔迪金博物馆",
-          "englishName": "Amgueddfa Ceredigion Museum"
+          "slug": "brymbo-bandstand",
+          "name": "布莱姆博音乐台",
+          "englishName": "Brymbo Bandstand"
         },
         {
-          "slug": "cawdor-castle-and-gardens",
-          "name": "考德城堡与花园",
-          "englishName": "Cawdor Castle and Gardens"
+          "slug": "duart-castle",
+          "name": "杜阿尔特城堡",
+          "englishName": "Duart Castle"
         }
       ]
     }

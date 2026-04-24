@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伦敦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威斯敏斯特宫",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威斯敏斯特宫・Palace of Westminster・英国・伦敦",
-    "description": "我第一次从威斯敏斯特地铁站钻出来时，真的被那个场景震住了。巨型钟楼像一柄刺破雾霭的利剑，就那么霸道地伫立在你面前，脚下的泰晤士河水泛着铅灰色的光泽。空气里混合着河水的湿气、路边小摊飘来的咖啡香，还有伦敦特有的那种淡淡的旧书灰尘味。大本钟正发出那首著名的威斯敏斯特钟声，轰隆隆的，不是清脆，而是低沉的、像老烟枪说话一样的震动，直接传到胸腔里。身边全是穿西装的公务员和背相机的游客，但所有人都仰着头，那一刻，你不是在看一座建筑，你是在阅读一部活着的英国史。\n真正走进去，我才明白为什么伦敦人总是带着一种骄傲又随意的神情谈论这里。你的脚步踩在铺着猩红地毯的古老石阶上，头顶是彩绘玻璃窗透进来的、被揉碎了的彩色光线。那些中世纪骑士的木雕像、布满划痕的石柱、无处不在的徽章和拉丁文铭文，全都浸透着几百年的人声鼎沸。空气中飘着一种特别的蜡香和纸墨味——那是议会议案和古老羊皮纸档案的气味。你能想象吗？数百年来，丘吉尔、撒切尔、布莱尔，他们的脚步和声音都曾在这同一个穹顶下回荡。\n但最打动我的，不是那些宏大的历史叙事，而是这里和百姓生活之间那种出奇自然的连接。沿着泰晤士河一侧的露天步道走，你会看到上班族坐在草地上吃三明治，旁边就是巨大的国会塔楼。警察在慢悠悠地巡逻，偶尔有游船驶过，河水翻涌的声响和钟声混在一起。这就是伦敦的魅力：它从不把崇高与日常分开。你既可以在大本钟下看到举着自拍杆的游客，也可以听到远处特拉法加广场传来的街头艺人的吉他声。威斯敏斯特宫不是一座被隔离在玻璃罩里的标本，它是这座城市跳动的脉搏。\n而威斯敏斯特宫最让我走不动路的地方，是它的光影。下午四点光景，金色阳光斜斜地打在大本钟的白色石面上，那些精细的哥特式窗棂投下长短不一、交错重叠的影子。风大的时候，屋顶的滴水嘴兽像是活了，阴影在凹凸不平的石棱上流动。我站在对面的大桥上，看见整座宫殿倒映在泰晤士河微微晃动的水波里，变成一长串金色的碎片。那一刻我忽然理解了为什么那么多诗人会对着它写下诗句——它不是建筑，它是时间本身长成的模样。"
+    "description": "我第一次从威斯敏斯特地铁站钻出来时，真的被那个场景震住了。巨型钟楼像一柄刺破雾霭的利剑，就那么霸道地伫立在你面前，脚下的泰晤士河水泛着铅灰色的光泽。空气里混合着河水的湿气、路边小摊飘来的咖啡香，还有伦敦特有的那种淡淡的旧书灰尘味。大本钟正发出那首著名的威斯敏斯特钟声，轰隆隆的，不是清脆，而是低沉的、像老烟枪说话一样的震动，直接传到胸腔里。身边全是穿西装的公务员和背相机的游客，但所有人都仰着头，那一刻，你不是在看一座建筑，你是在阅读一部活着的英国史。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chester-castle-agricola-tower-castle-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特城堡：阿格里科拉塔和城堡城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Castle: Agricola Tower and Castle Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-moil\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/melincourt-falls-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅林科特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melincourt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/craigievar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷吉瓦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigievar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/happy-valley-botanical-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欢乐谷植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Happy Valley Botanical Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "chester-castle-agricola-tower-castle-walls",
-          "name": "切斯特城堡：阿格里科拉塔和城堡城墙",
-          "englishName": "Chester Castle: Agricola Tower and Castle Walls"
+          "slug": "melincourt-falls-wales",
+          "name": "梅林科特瀑布",
+          "englishName": "Melincourt Falls"
         },
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "craigievar-castle",
+          "name": "克雷吉瓦城堡",
+          "englishName": "Craigievar Castle"
         },
         {
-          "slug": "castle-moil",
-          "name": "莫伊尔城堡",
-          "englishName": "Castle Moil"
+          "slug": "happy-valley-botanical-gardens",
+          "name": "欢乐谷植物园",
+          "englishName": "Happy Valley Botanical Gardens"
         }
       ]
     }

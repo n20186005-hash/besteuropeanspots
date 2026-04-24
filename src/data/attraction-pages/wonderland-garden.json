@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "科茨沃尔德区域（靠近奇平卡姆登镇）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "仙境花园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "仙境花园・Wonderland・英国・科茨沃尔德区域（靠近奇平卡姆登镇）",
-    "description": "推开那扇锈迹斑斑的铸铁大门时，我几乎以为门后的世界被谁按下了静音键。科茨沃尔德的夏日阳光透过层层叠叠的树叶，在地上投下碎金一样的光斑，空气里弥漫着野薄荷和湿润泥土的味道——那味道像极了童年时雨后外婆家的花园。一条鹅卵石小径蜿蜒消失在紫色绣球花丛深处，脚边忽然窜出一只灰毛兔子，它顿了一下回头看我，然后钻进一丛迷迭香下不见了。我忍不住笑出声，这开场白也太像爱丽丝了吧。\n这里没有标志性的城堡或教堂尖顶，甚至没有一张像样的导览地图。漫步其中，你会先经过一片高过胸口的薰衣草田，紫色波浪在午后微风中轻轻涌动，蜜蜂嗡嗡的振翅声是唯一的背景音乐。然后一座被青苔覆盖的石砌圆拱门出现在视野里——像极了某种中世纪废墟的遗迹，但拱门顶部竟长着一棵歪歪扭扭的小山楂树，枝头上挂满了手工玻璃小铃铛，风一吹便发出清脆的叮当声。很多游客会在这里停下来拍照，但我觉得更迷人的是坐在拱门下的石凳上，闭上眼睛听那些铃铛声混合着远处小溪的水声，仿佛有人在用自然的力量演奏一首不知名的摇篮曲。\n绕过拱门，视野骤然开阔：一片不规则的野花草地像打翻的调色盘铺展在缓坡上，红罂粟、金雏菊、蓝矢车菊交错绽放，中间散落着十几只巨大的铁艺蘑菇——有的伞盖下挂着秋千，有的内部藏着小小的镜面迷宫。孩子们尖叫着钻进去又钻出来，大人们则靠在蘑菇柄上喝自带的冰茶。最让我动容的是一片被高耸紫杉树篱围起来的“疯帽匠的茶会”区域：一张超长的木桌上摆满了真实的英式骨瓷茶杯、复古茶壶和几碟招蜂引蝶的水果塔，旁边的草地上歪歪扭扭地立着三个软塌塌的锦缎椅子——仿佛疯帽匠、三月兔和睡鼠刚刚离开去追一只红皇后。你可以在椅子上坐一会儿，假装自己是那个永远迷路却又无比好奇的小女孩。\n整个仙境花园最打动我的，是它不刻意追求完美。杂草可以率性地长到小腿那么高，石墙缝里钻出几簇黄茴香，茶室的茅草屋顶上长着细小的苔藓和蕨类。这种自生自灭般的野性让这里不像一座严谨的皇家园林，更像是一个被遗忘在时间褶皱里的秘境。黄昏时分，夕阳斜斜地照在紫杉篱上，投射出长长的影子，我坐在茶会角落的木椅上，看着一只橙色的蝴蝶停在我旁边的陶罐边缘——那一刻我忽然觉得，也许我们每个人都曾在某个瞬间跌进过仙境，只是长大后，我们忘记给那些瞬间取名字了。"
+    "description": "推开那扇锈迹斑斑的铸铁大门时，我几乎以为门后的世界被谁按下了静音键。科茨沃尔德的夏日阳光透过层层叠叠的树叶，在地上投下碎金一样的光斑，空气里弥漫着野薄荷和湿润泥土的味道——那味道像极了童年时雨后外婆家的花园。一条鹅卵石小径蜿蜒消失在紫色绣球花丛深处，脚边忽然窜出一只灰毛兔子，它顿了一下回头看我，然后钻进一丛迷迭香下不见了。我忍不住笑出声，这开场白也太像爱丽丝了吧。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/clydach-gorge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱达赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Clydach Gorge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museum-on-the-mound\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    土\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">土墩博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museum on the Mound</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-inverlochy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老因弗洛奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Inverlochy Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-andrews-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣安德鲁斯大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Andrews Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/windsor-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    温\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">温莎城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Windsor Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "clydach-gorge",
-          "name": "克莱达赫峡谷",
-          "englishName": "Clydach Gorge"
+          "slug": "animal-wall",
+          "name": "动物墙",
+          "englishName": "Animal Wall"
         },
         {
-          "slug": "museum-on-the-mound",
-          "name": "土墩博物馆",
-          "englishName": "Museum on the Mound"
+          "slug": "st-andrews-cathedral",
+          "name": "圣安德鲁斯大教堂",
+          "englishName": "St Andrews Cathedral"
         },
         {
-          "slug": "old-inverlochy-castle",
-          "name": "老因弗洛奇城堡",
-          "englishName": "Old Inverlochy Castle"
+          "slug": "windsor-castle",
+          "name": "温莎城堡",
+          "englishName": "Windsor Castle"
         }
       ]
     }

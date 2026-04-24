@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "福埃尔德里加恩山堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "福埃尔德里加恩山堡・Foel Drygarn Hill Fort・英国・彭布罗克郡",
-    "description": "当我的车最后在一条颠簸的碎石路上停下，眼前只有一片荒芜的草坡。威尔士的风像是从另一个世界扑来，带着泥土和苔藓的湿气，还有远处羊群偶尔的叫声。我背上包，开始顺着被野草半掩的小径往上爬。脚下的石头松动，每一步都踩出细碎的声响，周围只有风声和呼吸。大约二十分钟后，我站在那里，山顶的三个巨大石堆像三个沉默的巨人，被岁月磨去了棱角，却依然稳稳地蹲坐在天地之间。阳光从云隙里斜射下来，在灰蓝色的石头上投下明暗交错的光影，那些石堆的表面积着橙色的地衣，像是古老的纹身。\n那一刻，整个世界安静得只剩下风声和心跳。我绕着其中一个石堆慢慢走，手指轻轻触碰石头表面，能感受到太阳晒出的微温，还有那种粗粝的质感。这里的石头不像城堡那样规整，它们粗糙、原始，带着手工堆砌的痕迹，仿佛还能看到铁器时代的工匠们用肩膀和绳子把巨石推上山的情景。站在山顶远眺，Preseli Hills绵延起伏的绿色山丘在脚下铺展开来，一直延伸到天际线模糊的地方。偶尔有云影掠过，让大地变成流动的棋盘。我忽然理解了为什么几千年前的人会选择这里——高、远、孤独，却拥有掌控整个地平线的权力。\n当地人很少来这里，甚至很多威尔士人也只在徒步路线中匆匆路过。但就是这份被遗忘的安静，让Foel Drygarn有了独特的魅力。它不像旅游景点那样有讲解牌和围栏，一切都保留着原初的样子。我坐在其中一个石堆的阴影里，听着云雀在头顶歌唱，看着远处山坡上羊群悠闲地吃着草，仿佛时间在这里停滞了。没有游客的喧哗，没有商业的痕迹，只有风、石头和天空的对话。\n不过，最打动我的还是那种苍凉感。你站在这里，脚下是几千年前的炉灶和房屋地基，耳边只有风声，想象着当年的居民在同样的风里生火做饭、放哨瞭望。在这座山顶堡垒中，我感受到了比任何博物馆更直观的历史温度——它就在你手里触摸的石头表面，在你踩过的每一块草皮之下。这里不需要导游，不需要布景，大地本身就是最震撼的展览。"
+    "description": "当我的车最后在一条颠簸的碎石路上停下，眼前只有一片荒芜的草坡。威尔士的风像是从另一个世界扑来，带着泥土和苔藓的湿气，还有远处羊群偶尔的叫声。我背上包，开始顺着被野草半掩的小径往上爬。脚下的石头松动，每一步都踩出细碎的声响，周围只有风声和呼吸。大约二十分钟后，我站在那里，山顶的三个巨大石堆像三个沉默的巨人，被岁月磨去了棱角，却依然稳稳地蹲坐在天地之间。阳光从云隙里斜射下来，在灰蓝色的石头上投下明暗交错的光影，那些石堆的表面积着橙色的地衣，像是古老的纹身。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/centre-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士中心点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Centre of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caerau-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡埃劳山丘堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caerau Hillfort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/urquhart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    厄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">厄克特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Urquhart Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-town-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Town Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "centre-of-wales",
-          "name": "威尔士中心点",
-          "englishName": "The Centre of Wales"
+          "slug": "urquhart-castle",
+          "name": "厄克特城堡",
+          "englishName": "Urquhart Castle"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "conwy-town-walls",
+          "name": "康威城墙",
+          "englishName": "Conwy Town Walls"
         },
         {
-          "slug": "caerau-hillfort",
-          "name": "卡埃劳山丘堡垒",
-          "englishName": "Caerau Hillfort"
+          "slug": "hafod-arch",
+          "name": "哈福德拱门",
+          "englishName": "Hafod Arch"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦科",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "新娘面纱瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "新娘面纱瀑布・Bride's Veil Falls・英国・格伦科",
-    "description": "第一次听人提起新娘面纱瀑布，我以为只是个普通的苏格兰高山瀑布，名字听着有点俗气。但当我真正站在格伦科那片被苔藓包裹的峡谷里时，一切刻板印象都被水雾打碎了。你沿着一条窄窄的森林小路往上走，脚底是松软的落叶和湿漉漉的石头，呼吸里全是泥土和蕨类的腥甜气味。还没见到瀑布本身，先听到声音——不是那种轰隆隆的咆哮，而是像风穿过丝绸的沙沙声，夹杂着细密的水滴砸在岩石上的脆响。转过一道弯，阳光突然从树缝里漏下来，我看见那道白练从三十米高的悬崖上飘落，水流在半途被风撕碎成无数条银线，真的像极了新娘的薄纱被风拂起。\n站在瀑布正下方，你会被一种温柔的包围感击中。水雾细得像空气本身，扑在脸上凉丝丝的，睫毛上很快凝起小水珠。阳光好的时候，水雾里会挂起一道彩虹，随着你脚步移动而变化角度，仿佛瀑布在跟你玩捉迷藏。四周的岩石上长满了厚厚的青苔，深绿色的，像天鹅绒一样软，手指摸上去有一股凉而潮湿的触感。偶尔有水滴从上面的树梢滑落，砸在叶子上咚的一声，像天然的风铃。这里几乎没有其他游客，只有鸟鸣和水声交织在一起，时间仿佛停住了。\n当地人把这片瀑布当作自家的后花园。我遇到一位穿着格纹裙的老人，他坐在瀑布旁边的一块大石头上，手里端着一杯热茶，目光望着水流发呆。他告诉我，他爷爷的爷爷就在这里喝茶，瀑布的声音听了八十多年还是听不腻。他说新娘面纱瀑布是这片山峦的呼吸——夏天水量小的时候，瀑布像轻柔的叹息；冬天结了冰，瀑布变成一挂冰晶，静悄悄的，像山在沉睡。那一刻我突然意识到，这个瀑布不只是一处风景，它是格伦科人生活中一个永恒的背景音，一种不需要言语的陪伴。\n最打动我的，是瀑布那种不张扬的美。它不像尼亚加拉瀑布那样声势浩大，它安静、隐秘，像藏在森林深处的一个秘密。你走进它，它便把你收进怀里；你离开它，它继续自顾自地流淌，不问世事。这大概就是苏格兰高地的魅力——它的美从不急于展示，而是等你慢慢发现，然后便在记忆里生根。"
+    "description": "第一次听人提起新娘面纱瀑布，我以为只是个普通的苏格兰高山瀑布，名字听着有点俗气。但当我真正站在格伦科那片被苔藓包裹的峡谷里时，一切刻板印象都被水雾打碎了。你沿着一条窄窄的森林小路往上走，脚底是松软的落叶和湿漉漉的石头，呼吸里全是泥土和蕨类的腥甜气味。还没见到瀑布本身，先听到声音——不是那种轰隆隆的咆哮，而是像风穿过丝绸的沙沙声，夹杂着细密的水滴砸在岩石上的脆响。转过一道弯，阳光突然从树缝里漏下来，我看见那道白练从三十米高的悬崖上飘落，水流在半途被风撕碎成无数条银线，真的像极了新娘的薄纱被风拂起。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/henningsvaer-fishing-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亨宁斯韦尔渔村</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Henningsvær</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gmunden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格蒙登湖城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gmunden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eisriesenwelt-ice-caves\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维尔芬冰洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eisriesenwelt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wonderland-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    仙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">仙境花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wonderland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dinorwic-slate-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪诺威奇板岩矿场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinorwic Slate Quarry</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-botanic-garden-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Botanic Garden of Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "henningsvaer-fishing-village",
-          "name": "亨宁斯韦尔渔村",
-          "englishName": "Henningsvær"
+          "slug": "wonderland-garden",
+          "name": "仙境花园",
+          "englishName": "Wonderland"
         },
         {
-          "slug": "gmunden",
-          "name": "格蒙登湖城",
-          "englishName": "Gmunden"
+          "slug": "dinorwic-slate-quarry",
+          "name": "迪诺威奇板岩矿场",
+          "englishName": "Dinorwic Slate Quarry"
         },
         {
-          "slug": "eisriesenwelt-ice-caves",
-          "name": "维尔芬冰洞",
-          "englishName": "Eisriesenwelt"
+          "slug": "national-botanic-garden-wales",
+          "name": "威尔士国家植物园",
+          "englishName": "National Botanic Garden of Wales"
         }
       ]
     }

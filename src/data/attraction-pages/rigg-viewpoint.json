@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰高地威廉堡（Fort William）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "里格观景点",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "里格观景点・Rigg Viewpoint・英国・苏格兰高地威廉堡（Fort William）",
-    "description": "我第一次去里格观景点，是在一个九月的清晨。车停在草甸边缘，推开门的一瞬间，风像一匹看不见的野马猛地撞进怀里，带着湖水和松脂混合的腥甜气息。沿着缓坡往上走，脚下的碎石被露水浸得发亮，每一步都踩出轻微的嘎吱声。空气冷得扎肺，可阳光已经斜斜地切过远处的本尼维斯山脊，把整片山谷染成蜂蜜色的薄纱。我还记得自己停下来喘气，抬头时正巧看到一只红隼悬在半空，翅膀几乎不动，像被钉在蓝得发虚的天幕上。忽然间，整个世界的噪音都消失了——没有车声，没有人声，只有风穿过石缝时发出的呜咽，和远处溪水流过鹅卵石的潺潺。那一瞬间我愣在原地，脑海里只剩下一个念头：这才是苏格兰高地原本的样子。\n继续往上走了十来分钟，转过一个灌木丛，里格观景点的全貌突然展开。其实它并不是什么宏伟的平台或标志性的观景塔，只是一块稍稍凸出的岩脊，宽不过两米，像大地的舌头伸向天空。站在上面，左边是深邃的格伦尼维斯峡谷，右边是连绵起伏的莫尔荒原，脚下是一条银白色的小溪弯弯曲曲地流向尼斯湖的方向。最打动我的不是风景的壮阔，而是那种被彻底包裹的孤独感——你能听到自己的呼吸和心跳，能分辨出风在不同高度上的音调变化，甚至能闻到阳光晒热石头发出的淡淡焦味。这里没有长椅，没有解说牌，没有任何人类留下的痕迹（除了偶尔几个徒步者踩出的脚印）。它就这么纯粹地存在着，等着你安静地坐下来，和它一起呼吸。\n在当地人的生活中，里格观景点并不算热门景点。威廉堡的酒吧老板告诉我，只有真正喜欢走野路的行家才会特意绕过来。他形容这里是“高地的心灵洗手间”。确实，我后来几次去，遇到的总是同一种人：独自背着旧帆布包的中年男人，或者几个沉默地抽烟、久久凝视远方的老人。他们不像游客那样急着拍照，而是坐在石头上，打开保温杯喝口茶，偶尔交谈几句，声音压得很低，好像怕惊扰了什么。这种氛围很奇怪地让一个异乡人感到安全——没人会催你，没人会挤你，你大可以发呆一整下午，直到影子拉得老长，才慢吞吞地原路返回。那份从容不迫，才是里格观景点最珍贵的礼物。\n而我最喜欢的一次，是深秋的某个黄昏。下山的时候天已经快黑了，回头一望，观景点的那块岩脊正沐浴在最后一道紫红色的光里，像一座燃烧的祭台。我忽然想起一首古老的盖尔民谣里唱道：“山脊是风的手掌，托住即将坠落的太阳。”那一刻我明白了，里格观景点从来不需要被“参观”，它只需要被“记住”。它就像苏格兰高地的呼吸口，你能通过它感受到这片土地最原始的脉搏——缓慢、深沉，带着苔藓和岩石的沉默，永远不变。"
+    "description": "我第一次去里格观景点，是在一个九月的清晨。车停在草甸边缘，推开门的一瞬间，风像一匹看不见的野马猛地撞进怀里，带着湖水和松脂混合的腥甜气息。沿着缓坡往上走，脚下的碎石被露水浸得发亮，每一步都踩出轻微的嘎吱声。空气冷得扎肺，可阳光已经斜斜地切过远处的本尼维斯山脊，把整片山谷染成蜂蜜色的薄纱。我还记得自己停下来喘气，抬头时正巧看到一只红隼悬在半空，翅膀几乎不动，像被钉在蓝得发虚的天幕上。忽然间，整个世界的噪音都消失了——没有车声，没有人声，只有风穿过石缝时发出的呜咽，和远处溪水流过鹅卵石的潺潺。那一瞬间我愣在原地，脑海里只剩下一个念头：这才是苏格兰高地原本的样子。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/foz-do-cobr-o-schist-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福什-杜科布朗</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Foz do Cobrão</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/waren-mueritz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦（米里茨）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Waren (Müritz)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pembrokeshire-coast-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡海岸国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Coast National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rhos-on-sea-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗斯滨海海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rhos-on-Sea Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "foz-do-cobr-o-schist-village",
-          "name": "福什-杜科布朗",
-          "englishName": "Foz do Cobrão"
+          "slug": "colin-mcrae-cray-corner",
+          "name": "科林·麦克雷弯道",
+          "englishName": "Colin McRae's Cray Corner"
         },
         {
-          "slug": "waren-mueritz",
-          "name": "瓦伦（米里茨）",
-          "englishName": "Waren (Müritz)"
+          "slug": "pembrokeshire-coast-national-park",
+          "name": "彭布罗克郡海岸国家公园",
+          "englishName": "Pembrokeshire Coast National Park"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "rhos-on-sea-beach",
+          "name": "罗斯滨海海滩",
+          "englishName": "Rhos-on-Sea Beach"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伯立克-特威德",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伯立克-特威德城堡及城墙",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "伯立克-特威德城堡及城墙・Berwick-upon-Tweed Castle and Ramparts・英国・伯立克-特威德",
-    "description": "第一次站在伯立克-特威德城堡的城墙下，海风便带着一股咸腥的味道扑面而来，瞬间灌满了鼻腔。我抬头望去，那些灰褐色的石头在铅灰色的天空下显得格外沉重，裂缝里塞满了青苔，像是被时间胡乱缝合的伤口。脚下的石板路磨得发亮，可以想象几百年来无数双靴子在这上面踩过。城堡不像那些被修复得崭新的景点，它保留着一种粗粝的真实，连空气中都飘荡着一股潮湿的石头和泥土混合的气味，偶尔还夹杂着附近面包房飘来的麦香。\n我沿着城墙慢慢地走，手摸着那些凹凸不平的石块，能感觉到它们的冰冷和粗糙。墙角处有几棵野生的罂粟花，在风中轻轻摇曳，红得扎眼，和灰暗的背景形成一种残酷的对比。远处能听到特威德河潺潺的流水声，还有海鸥在头顶盘旋发出的尖锐叫声。这地方几乎没什么游客，只有几个当地老头儿坐在城墙边儿的木椅上晒太阳，阳光在他们脸上投下温柔的阴影。他们不说话，就这么静静地坐着，仿佛他们自己就是这片城墙的一部分。\n最打动我的，是这种寂静本身。它不像那些热门景点那样喧闹，这里的一切都很慢，慢到你能感受到历史沉淀的重量。城堡的废墟上爬满了厚厚的常春藤，绿色的叶片在风中沙沙作响，像是在低声诉说着几百年前的故事。不需要言语，光是站在那儿，你就能感受到一种深沉的力量，那是属于边境的、属于战争的、属于那个残酷而浪漫的时代的力量。我闭上眼，仿佛能听到当年士兵的号角声和马蹄声，在风中回响。\n伯立克-特威德城堡的美，在于它没有被过度包装。它就像一位饱经风霜的老人，脸上满是皱纹，眼神却依然清澈。当你站在这片土地上，你就不再是一个游客，而是一个倾听者。你需要静下心来，去听风声、去想象那些曾经在这里发生过的战斗和日常。这就是它最纯粹的吸引力。我在这儿待了一整个下午，直到夕阳把城墙染成金色，才依依不舍地离开。"
+    "description": "第一次站在伯立克-特威德城堡的城墙下，海风便带着一股咸腥的味道扑面而来，瞬间灌满了鼻腔。我抬头望去，那些灰褐色的石头在铅灰色的天空下显得格外沉重，裂缝里塞满了青苔，像是被时间胡乱缝合的伤口。脚下的石板路磨得发亮，可以想象几百年来无数双靴子在这上面踩过。城堡不像那些被修复得崭新的景点，它保留着一种粗粝的真实，连空气中都飘荡着一股潮湿的石头和泥土混合的气味，偶尔还夹杂着附近面包房飘来的麦香。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llandudno-promenade\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺滨海步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Promenade</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-loyne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛因湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Loyne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "llandudno-promenade",
+          "name": "兰迪德诺滨海步道",
+          "englishName": "Llandudno Promenade"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "loch-loyne-viewpoint",
+          "name": "洛因湖观景台",
+          "englishName": "Loch Loyne Viewpoint"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "parc-cwm-darran",
+          "name": "帕克库姆达兰公园",
+          "englishName": "Parc Cwm Darran"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "因弗内斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "因弗内斯城堡体验",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "因弗内斯城堡体验・The Inverness Castle Experience・英国・因弗内斯",
-    "description": "初见因弗内斯城堡，你一定会被它那种不真实的童话感击中。粉红色的砂岩在苏格兰灰蒙蒙的天空下散发出温和的光泽，仿佛一块巨大的草莓奶油蛋糕被随意搁在陡峭的山坡上。我是在一个细雨迷蒙的下午抵达城堡街尽头的，脚下的石板路被雨水浸得发亮，倒映着城堡轮廓和远处尼斯河模糊的波光。空气里弥漫着湿润的苔藓味和从老城烘焙店里飘出的黄油酥饼香气，混在一起很有《哈利·波特》里对角巷的那种暖意。\n走进去之后，第一感觉是反差极大——外面像玩具城堡，里面却暗藏着沉重的历史肌理。大厅保留了原来的法庭木质装饰，高耸的穹顶上垂下一盏枝形吊灯，脚下的橡木地板被几百年来无数鞋底磨出了波纹状的凹陷。最让我后背发麻的是牢房区域，铁门锈迹斑斑，狭小空间里只有一张石板床，墙上还有用指甲刻下的名字首字母。你能闻到一股挥之不去的冷腥味，那是石头发霉和铁器生锈混合的气息，比任何博物馆描述都更有说服力。\n这个“体验”和普通城堡看房间不一样。它更像一台时间机器，每走几步就有感应式的装置启动：先是耳边突然响起盖尔语的古老歌谣，接着墙壁上投影出战场上的火光和呐喊，然后一块触控屏让你“参与”当年詹姆斯党人策划起义的秘密会议。我站在一个废弃的祈祷室里，头顶的扬声器忽然传来一位老妇人的声音，她用带着浓重口音的英语讲述她祖父作为囚犯被关在这里的故事。那一刻我彻底忘了自己是个游客，感觉自己就是那个饿了三天的囚徒。\n最打动我的其实不是那些高科技，而是城堡本身与当地人的日常交融。周二早上十点，门外排队入场的不仅有游客，还有穿着苏格兰短裙的本地大叔推着婴儿车来“遛娃”，他们熟门熟路地走进咖啡馆区域，点一杯浓茶和一块草莓派，坐在窗边闲聊，窗外就是雾霭沉沉的尼斯河。管理员告诉我，很多老因弗内斯人每周都来，因为城堡在二战后做过很长时间的法院和警察局，他们童年时路过这里都害怕被“关进去”，如今却把它当成自家客厅。这种从敬畏到亲近的转变，让这个景点有了真正的生活温度。"
+    "description": "初见因弗内斯城堡，你一定会被它那种不真实的童话感击中。粉红色的砂岩在苏格兰灰蒙蒙的天空下散发出温和的光泽，仿佛一块巨大的草莓奶油蛋糕被随意搁在陡峭的山坡上。我是在一个细雨迷蒙的下午抵达城堡街尽头的，脚下的石板路被雨水浸得发亮，倒映着城堡轮廓和远处尼斯河模糊的波光。空气里弥漫着湿润的苔藓味和从老城烘焙店里飘出的黄油酥饼香气，混在一起很有《哈利·波特》里对角巷的那种暖意。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glencoe-waterfall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glencoe Waterfall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prince-of-wales-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士亲王桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dr-beynons-bug-farm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝农博士的虫子农场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dr Beynon's Bug Farm</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "glencoe-waterfall",
-          "name": "格伦科瀑布",
-          "englishName": "Glencoe Waterfall"
+          "slug": "hadrians-wall",
+          "name": "哈德良长城",
+          "englishName": "Hadrian's Wall"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "prince-of-wales-bridge",
+          "name": "威尔士亲王桥",
+          "englishName": "Prince of Wales Bridge"
         },
         {
-          "slug": "castell-coch",
-          "name": "科奇城堡",
-          "englishName": "Castell Coch"
+          "slug": "dr-beynons-bug-farm",
+          "name": "贝农博士的虫子农场",
+          "englishName": "Dr Beynon's Bug Farm"
         }
       ]
     }

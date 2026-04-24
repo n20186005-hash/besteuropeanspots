@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰（邻近城市：格拉斯哥、斯特灵）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "洛蒙德湖",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "洛蒙德湖・Loch Lomond・英国・苏格兰（邻近城市：格拉斯哥、斯特灵）",
-    "description": "第一次见到洛蒙德湖，是在一个雾气尚未散尽的清晨。车沿着A82公路缓缓拐过最后一个弯，湖面像一块被晨光轻轻擦拭过的旧银镜，突然铺展在眼前。空气里飘着湿润的苔藓味和远处松林的清冽，湖岸边的芦苇丛中传来水鸟低沉的鸣叫。我停在路边的观景台，脚下是碎石子铺的小径，露珠打湿了鞋面。湖水很静，静得能听见远处游船发动机在水面游走时留下的波纹声。对岸的群山裹着薄雾，像一幅未干透的水彩画，颜色被雾气晕染得模糊而温柔。\n洛蒙德湖不是那种让人第一眼就惊呼的风景，它的美需要沉下心去嗅、去听、去感受。午后阳光穿透云层，湖面泛起细碎的金色光点，风从山谷里穿来，带着野花和泥土的气息。我在卢斯村码头边坐下，看着天鹅慢悠悠划过水面，身后是石头小屋的烟囱缓缓升起炊烟。有个老渔民在修船，哼着不知名的苏格兰小调，调子和水波拍打船底的声响融在一起。那一刻，我突然明白为什么这首歌能流传百年——这里的每一寸空气里都藏着故事。\n傍晚时分，我爬上了不远处的布雷山（Ben Lomond），虽然只走了一半的徒步路线，但在半山腰回望湖面，夕阳把湖水染成琥珀色，岛屿像珍珠一样散落在丝绸上。风很大，吹得人站不稳，但那种辽阔让内心变得异常安静。当地人告诉我，洛蒙德湖在盖尔语中叫“Leamhnach”，意为“蜿蜒的湖泊”，它真的像一条银蛇轻轻卧在苏格兰高地的胸膛上。在这里，时间流淌得特别慢，慢到你可以听见自己的呼吸和心跳。\n最打动我的，是这里的“平凡感”。没有拥挤的游客大队，没有喧闹的商业声，只有当地人牵着狗散步、孩子在浅滩踩水、情侣在长椅上分享三明治。雨突然落下来时，大家都躲进路边的小咖啡馆，隔着玻璃看雨点砸在湖面上，激起千万朵跳跃的水花。那种温暖的小确幸，比任何宏伟的地标都让人珍惜。洛蒙德湖就像一位沉默的老朋友，不需要刻意讨好你，但它一直都在，用最本真的方式拥抱着每一个来到它身边的人。"
+    "description": "第一次见到洛蒙德湖，是在一个雾气尚未散尽的清晨。车沿着A82公路缓缓拐过最后一个弯，湖面像一块被晨光轻轻擦拭过的旧银镜，突然铺展在眼前。空气里飘着湿润的苔藓味和远处松林的清冽，湖岸边的芦苇丛中传来水鸟低沉的鸣叫。我停在路边的观景台，脚下是碎石子铺的小径，露珠打湿了鞋面。湖水很静，静得能听见远处游船发动机在水面游走时留下的波纹声。对岸的群山裹着薄雾，像一幅未干透的水彩画，颜色被雾气晕染得模糊而温柔。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/savognin-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨沃宁</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Savognin</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/creag-meagaidh-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里格梅盖迪国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Creag Meagaidh National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/claerwen-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱文水坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Claerwen Dam</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/witchs-abyss-infinite-column\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    女\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">女巫深渊与无限之柱</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Witch‘s Abyss & The Infinite Column</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/permet-albania\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩尔梅特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Përmet</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rjukan-industrial-heritage-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    留\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">留坎</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rjukan</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "savognin-village",
-          "name": "萨沃宁",
-          "englishName": "Savognin"
+          "slug": "witchs-abyss-infinite-column",
+          "name": "女巫深渊与无限之柱",
+          "englishName": "The Witch‘s Abyss & The Infinite Column"
         },
         {
-          "slug": "creag-meagaidh-national-nature-reserve",
-          "name": "克里格梅盖迪国家自然保护区",
-          "englishName": "Creag Meagaidh National Nature Reserve"
+          "slug": "permet-albania",
+          "name": "佩尔梅特",
+          "englishName": "Përmet"
         },
         {
-          "slug": "claerwen-dam",
-          "name": "克莱文水坝",
-          "englishName": "Claerwen Dam"
+          "slug": "rjukan-industrial-heritage-town",
+          "name": "留坎",
+          "englishName": "Rjukan"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡那封",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士动感假期",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士动感假期・Wales Activity Breaks・英国・卡那封",
-    "description": "我第一次站在兰贝里斯湖边的那个早晨，雾气正从湖面缓缓升起，像是从沉睡的巨兽鼻孔里呼出的气息。空气里有一股矿物质的腥味，夹杂着松针腐烂后潮湿的甜香。远处斯诺登尼亚山的轮廓在云层里若隐若现，山顶覆盖着去年冬天残留的积雪，在晨光中泛着冷冷的蓝色。我的向导是个叫格温的威尔士姑娘，她的红色防水夹克在灰绿的山色里显得格外耀眼，她朝我咧嘴一笑，露出一排很白的牙齿：“你准备好跟这座山做朋友了吗？”那一刻我突然意识到，这里不是普通的旅游景区，而是一场与自然互相试探的对话。\n格温带我走向活动中心，那是一座用黑色板岩砌成的矮房子，窗户很小，房顶上烟囱冒着白色的烟。推开厚重的木门，一股暖意混合着咖啡和汗水的味道扑面而来。墙上挂满了登山绳、头盔、坐式安全带，角落里堆着沾满泥浆的山地自行车。几个年轻人在壁炉边系鞋带，他们用威尔士语低声交谈，偶尔爆发出一阵大笑。木制台面上摊开一张巨大的地形图，上面用荧光笔标注了不同难度的路线。格温给我泡了一杯加了姜汁的热巧克力，杯子烫手，喝下去整个人都清醒了。\n这个基地最打动人的不是那些惊险的攀岩墙或速降台，而是它与周围环境的无间契合。那些生锈的铁轨和废弃的矿车被保留下来，变成了徒步小径的台阶；采石场留下的巨大坑洞被改造成了深水攀岩的天然泳池；甚至连那架摇摇欲坠的老起重机，也被重新加固成一个高空跳台。工业文明留下的伤疤没有被粉饰，反而被用另一种方式赋予了生命力。你能感觉到，这里的每一块石头都在讲述关于勇气和适应的故事——正如威尔士人在千年历史中不断学会的那样。\n傍晚时分，我坐在湖边的一块大石头上，看着阳光终于穿透云层，把斯诺登尼亚的山顶染成了金色。有两只天鹅从芦苇丛中滑出，在水面拖出长长的波纹。风停了，四周安静得能听见自己的心跳。我突然明白，这就是“动感假期”真正的含义——不是用身体的疲惫去填满时间，而是用感官的极致体验去重新校准内心。这里的活动不是用来消耗体力的，而是用来让你记住：你还活着，还能感受恐惧、喜悦和原始的平静。"
+    "description": "我第一次站在兰贝里斯湖边的那个早晨，雾气正从湖面缓缓升起，像是从沉睡的巨兽鼻孔里呼出的气息。空气里有一股矿物质的腥味，夹杂着松针腐烂后潮湿的甜香。远处斯诺登尼亚山的轮廓在云层里若隐若现，山顶覆盖着去年冬天残留的积雪，在晨光中泛着冷冷的蓝色。我的向导是个叫格温的威尔士姑娘，她的红色防水夹克在灰绿的山色里显得格外耀眼，她朝我咧嘴一笑，露出一排很白的牙齿：“你准备好跟这座山做朋友了吗？”那一刻我突然意识到，这里不是普通的旅游景区，而是一场与自然互相试探的对话。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/triangulation-point-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    三\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">三角测量观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Triangulation Point</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chester-city-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester City Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charles-darwins-birthplace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查尔斯·达尔文出生地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charles Darwin's Birthplace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scott-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    司\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">司各特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scott Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-museum-cardiff\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫国家博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Museum Cardiff</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-oswestry-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    旧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">旧奥斯沃斯特里山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Oswestry Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "triangulation-point-wales",
-          "name": "三角测量观景点",
-          "englishName": "Triangulation Point"
+          "slug": "scott-monument",
+          "name": "司各特纪念碑",
+          "englishName": "Scott Monument"
         },
         {
-          "slug": "chester-city-walls",
-          "name": "切斯特城墙",
-          "englishName": "Chester City Walls"
+          "slug": "national-museum-cardiff",
+          "name": "卡迪夫国家博物馆",
+          "englishName": "National Museum Cardiff"
         },
         {
-          "slug": "charles-darwins-birthplace",
-          "name": "查尔斯·达尔文出生地",
-          "englishName": "Charles Darwin's Birthplace"
+          "slug": "old-oswestry-hill-fort",
+          "name": "旧奥斯沃斯特里山堡",
+          "englishName": "Old Oswestry Hill Fort"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "博斯（Borth）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "博斯",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "博斯・Borth・英国・博斯（Borth）",
-    "description": "第一次见到Borth，是在一个阴沉沉的十一月早晨。海风裹着咸腥的湿气扑过来，像一条湿毛巾甩在脸上。我站在防波堤上，看着灰绿色的海浪慢慢后退，露出大片平缓的沙滩。这时候你才明白为什么当地人总说“这是威尔士最会变脸的海滩”——潮水退去后，沙滩上涌出数不清的黑色树桩，像是被海浪揉碎的一副古老骨架，东倒西歪，伸向天空。空气里弥漫着腐烂海草和淤泥的味道，混着一股淡淡的木质清香，那是橡木和桤木在盐水中浸泡千年散发出的独特气息。\n远处有几个穿着水鞋的老人，弯腰捡拾着什么。走近一看，他们手心里捧着巴掌大的黑色树枝块，表面纹理清晰得像刚砍下来的。其中一个老人抬头冲我笑了一声：“这切面至少有两千年了，晒干能当柴烧，有股奶香。”他手指的方向，有一根直径超过半米的树桩，断面平整，年轮密密麻麻，像一张布满皱纹的老人脸。潮水退尽后，整片沙滩变成了一个露天考古现场——至少两百根树桩散布在数百米长的海岸线上，倒伏的枝干被沙子半掩，仿佛整个史前森林就在昨天被突然淹没。\n风穿过树桩时发出呜呜的声响，夹杂着远处海鸟的鸣叫。有一瞬间我以为自己站在某个远古的沼泽边上，海浪声反而成了背景音。当地人已经习惯把这些树桩叫作“那个森林”，好像它们是活着的邻居。一个小孩子从爸爸肩膀上滑下来，赤脚踩在湿润的沙子里，蹲在一棵特别矮的树桩前摸来摸去。“这个是柏树，”爸爸说，“它们以前长在沼泽边，后来海平面升上来了，它们来不及跑。”这个画面让我突然想起宫崎骏的《幽灵公主》，那些被人类遗忘的古老生灵就静静躺在这片沙滩上，等待又一个低潮的晨曦。\n到了夏季，Borth又变成另一幅面孔。七月的沙滩上挤满了彩色遮阳伞，孩子们堆着沙堡，年轻人趴在沙滩上晒成龙虾色。你几乎不会注意到那些树桩，因为它们被人群和人声淹没了。但只要你走到沙滩尽头靠近Ynyslas一带，潮水退得更远的地方，那些树桩便又固执地冒出来，棕褐色的表皮在海风中微微发光。有时候退潮特别大，当天的气象预报会提前提醒“今天有可能看到沉没森林的全貌”，于是许多带着相机和探测仪的人会从Aberystwyth甚至更远的地方赶来，像朝圣一样蹲在沙滩上拍那些树桩的纹理。说实话，这种反差特别魔幻：一边是塑料拖鞋和冰淇淋摊位，一边是四千年前被水吞没的原始森林——两者只隔着几十米的海岸线。"
+    "description": "第一次见到Borth，是在一个阴沉沉的十一月早晨。海风裹着咸腥的湿气扑过来，像一条湿毛巾甩在脸上。我站在防波堤上，看着灰绿色的海浪慢慢后退，露出大片平缓的沙滩。这时候你才明白为什么当地人总说“这是威尔士最会变脸的海滩”——潮水退去后，沙滩上涌出数不清的黑色树桩，像是被海浪揉碎的一副古老骨架，东倒西歪，伸向天空。空气里弥漫着腐烂海草和淤泥的味道，混着一股淡淡的木质清香，那是橡木和桤木在盐水中浸泡千年散发出的独特气息。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/falconry-experience-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士猎鹰体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Falconry Experience Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pierhead-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔海德大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pierhead Building</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "falconry-experience-wales",
+          "name": "威尔士猎鹰体验",
+          "englishName": "Falconry Experience Wales"
         },
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "burnham-on-sea-low-lighthouse",
+          "name": "伯纳姆海上低灯塔",
+          "englishName": "Burnham-on-sea Low Lighthouse"
         },
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "pierhead-building",
+          "name": "皮尔海德大楼",
+          "englishName": "Pierhead Building"
         }
       ]
     }

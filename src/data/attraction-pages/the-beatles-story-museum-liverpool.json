@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "利物浦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "披头士故事博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "披头士故事博物馆・The Beatles Story Museum・英国・利物浦",
-    "description": "推开那扇玻璃门的一瞬间，你听到的不是摇滚，而是利物浦港口的汽笛声——低沉，悠长，像从另一个世纪飘来。博物馆藏在阿尔伯特码头那些红砖拱廊里，外面是海鸥的尖叫和游客的嘈杂，但等你穿过那道窄窄的入口，世界突然安静下来，只有耳机里传来保罗·麦卡特尼在《Let It Be》里的钢琴前奏。空气里混着旧木头、防潮剂和一点淡淡的咖啡味，那是博物馆一角的咖啡馆飘来的，但我更愿意想象那是当年洞穴俱乐部的味道——潮湿、拥挤、带着汗和啤酒的发酵气息。\n最先撞入视线的是那面著名的“披头士墙”，上百张黑白照片拼成约翰·列侬的脸，灯光从背后透过来，他的眼睛像真的在看你。我站在那儿愣了好久，因为那些照片里不仅有他们四个，还有不知名的歌迷、街角卖唱片的小贩、举着相机的记者——每一个模糊的面孔都在说：这不只是一个乐队的故事，这是一个城市的故事。脚下是仿制的马修街石板路，粗糙得能感觉到磨砂质感，耳机里响起了街头的吆喝声和远处教堂的钟声，就像你真的走在1961年的利物浦。\n往前走，你会经过一个仿真的“洞穴俱乐部”角落，昏暗的舞台、低矮的拱顶、墙上贴满的海报。灯光故意调得很暗，只有舞台前方几盏暖黄的灯泡亮着，照着那个空荡荡的麦克风架。我站在那儿，耳机里突然爆发出《Twist and Shout》的现场录音，人群的尖叫声几乎要把屋顶掀翻，那一刻我起了一身鸡皮疙瘩——你能想象吗？五十年前，这四个利物浦小伙子就是在这种充满雪茄味、汗臭味和啤酒香的地方，对着几百人弹着破旧的吉他，开始了他们的传奇。\n博物馆最动人的不是那些金唱片和格莱美奖杯，而是一些不起眼的细节：约翰·列侬小学时的成绩单（上面写着“这孩子总是在画漫画”），保罗·麦卡特尼在汉堡写下的第一首歌词草稿（用铅笔写在烟盒背面），乔治·哈里森的妈妈给他织的条纹围巾。它们被锁在恒温的玻璃柜里，灯光柔和得像是怕惊扰了什么，可每一样东西都在低声诉说——看，我们也曾是不被看好的普通人啊。这种温度，是任何高清纪录片都无法替代的。"
+    "description": "推开那扇玻璃门的一瞬间，你听到的不是摇滚，而是利物浦港口的汽笛声——低沉，悠长，像从另一个世纪飘来。博物馆藏在阿尔伯特码头那些红砖拱廊里，外面是海鸥的尖叫和游客的嘈杂，但等你穿过那道窄窄的入口，世界突然安静下来，只有耳机里传来保罗·麦卡特尼在《Let It Be》里的钢琴前奏。空气里混着旧木头、防潮剂和一点淡淡的咖啡味，那是博物馆一角的咖啡馆飘来的，但我更愿意想象那是当年洞穴俱乐部的味道——潮湿、拥挤、带着汗和啤酒的发酵气息。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gladstones-land\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉德斯通之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gladstone's Land</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rspb-cymru-ynys-lawd\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    R\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">RSPB威尔士南栈自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">RSPB Cymru Ynys Lawd / South Stack Cliffs RSPB Reserve</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kilchurn-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基尔亨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilchurn Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gladstones-land",
-          "name": "格拉德斯通之家",
-          "englishName": "Gladstone's Land"
+          "slug": "borth",
+          "name": "博斯",
+          "englishName": "Borth"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "kilchurn-castle",
+          "name": "基尔亨城堡",
+          "englishName": "Kilchurn Castle"
         },
         {
-          "slug": "rspb-cymru-ynys-lawd",
-          "name": "RSPB威尔士南栈自然保护区",
-          "englishName": "RSPB Cymru Ynys Lawd / South Stack Cliffs RSPB Reserve"
+          "slug": "cardiff-castle",
+          "name": "卡迪夫城堡",
+          "englishName": "Cardiff Castle"
         }
       ]
     }

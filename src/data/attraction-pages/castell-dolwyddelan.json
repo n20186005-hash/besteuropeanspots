@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "多尔威德兰（Dolwyddelan）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "多尔威德兰城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "多尔威德兰城堡・Castell Dolwyddelan・英国・多尔威德兰（Dolwyddelan）",
-    "description": "第一次见到多尔威德兰城堡，是在一个九月的午后。当我开车沿着A470翻越斯诺登尼亚山脉时，雾气突然像幕布一样被拉开，那座灰色的石塔就突兀地立在对面的山脊上，像是被遗忘的巨人手指。我停下车，关掉发动机，整个世界只剩下风声和远处羊群偶尔的咩叫。没有售票处，没有纪念品商店，只有一条被羊蹄踩实的土路通向山丘。\n走近城堡，脚下的草地湿漉漉的，苔藓的气味混合着泥土的腥甜。主塔的底层已经部分坍塌，但剩下的三层依然顽固地指着天空。我伸手触摸那些粗凿的石块，石缝里嵌着蕨类和地衣，指尖能感受到冰冷和粗糙。阳光透过破败的窗洞射进来，在满是羊粪的泥地上投下菱形的光斑。站在这座不到十米高的主塔里，四周的寂静几乎能把人吞噬——没有导游的解说，没有游客的喧哗，只有自己的呼吸在石壁间回荡。\n真正打动我的，是这里的孤独感。不像温莎城堡或卡那封城堡那样华丽而拥挤，多尔威德兰城堡就像威尔士高地上的一个秘密，被山风和时间慢慢剥蚀。当地人说，卢埃林大帝曾经站在塔顶眺望北边的康威河谷，身后是燃烧的村庄，眼前是英格兰骑士的旗帜。而现在，我站在同一个窗口，看见的只有漫山遍野的石楠花和悠闲吃草的威尔士黑牛。风把远处的教堂钟声吹得断断续续，仿佛在提醒我，几百年的战争最终都化作了这片宁静。\n黄昏时分，城堡的影子拉得极长，几乎触到了山脚下的村庄。我坐在一块倒塌的城墙上，看着光线在石头的纹理上缓慢爬行。一个牵着狗的老农路过，冲我咧嘴一笑，露出缺了门牙的牙齿：“Welcome to Dolwyddelan, it’s always windy, isn’t it?”（欢迎来多尔威德兰，总是刮风，不是吗？）那一刻，我突然明白，这座城堡从来不是为了炫耀而建，它就像威尔士人的性格——坚硬、沉默、倔强地盘踞在风雨之中。"
+    "description": "第一次见到多尔威德兰城堡，是在一个九月的午后。当我开车沿着A470翻越斯诺登尼亚山脉时，雾气突然像幕布一样被拉开，那座灰色的石塔就突兀地立在对面的山脊上，像是被遗忘的巨人手指。我停下车，关掉发动机，整个世界只剩下风声和远处羊群偶尔的咩叫。没有售票处，没有纪念品商店，只有一条被羊蹄踩实的土路通向山丘。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cymer-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赛默修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cymer Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/spirit-of-wales-show\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士精神秀</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Spirit of Wales Show</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "britannia-bridge",
-          "name": "布里塔尼亚桥",
-          "englishName": "Britannia Bridge"
+          "slug": "cymer-abbey",
+          "name": "赛默修道院",
+          "englishName": "Cymer Abbey"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "the-tenement-house-glasgow",
+          "name": "公寓博物馆（苏格兰国家信托）",
+          "englishName": "The Tenement House (National Trust for Scotland)"
         },
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "spirit-of-wales-show",
+          "name": "威尔士精神秀",
+          "englishName": "Spirit of Wales Show"
         }
       ]
     }

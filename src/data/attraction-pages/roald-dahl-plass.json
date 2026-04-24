@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "罗尔德·达尔广场",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "罗尔德·达尔广场・Roald Dahl Plass・英国・卡迪夫",
-    "description": "我第一次站在罗尔德·达尔广场的时候，正是深秋的一个傍晚。卡迪夫湾的海风裹着咸腥味扑面而来，混合着旁边烤栗子摊的焦糖香。夕阳把天空染成粉紫色，那根巨大的银色“水塔”雕塑像一根被巨人啃过的冰淇淋，兀自杵在石板广场中央，上面刻着罗尔德·达尔那些奇奇怪怪的句子。几个小孩正绕着雕塑跑圈，笑声被风吹散，远处千禧中心的玻璃幕墙反射着流动的光，好像整个广场都在微微呼吸。\n你可能会纳闷，一个以儿童文学作家命名的广场，怎么会建在威尔士的港口边上？这不冲突——罗尔德·达尔虽然出生在威尔士的兰达夫，但他却是在布里斯托尔海边长大的。卡迪夫湾对他而言意味着码头、船笛和出海冒险的幻想。广场上没有青铜雕像，而是一根高耸的不锈钢尖塔，上面刻着《圆梦巨人》里的台词：“梦就像一只蝴蝶，你有办法抓住它吗？” 当喷泉开启时，水柱从尖塔底部翻涌出来，沿着倾斜的坡面流下，孩子们赤着脚在水里跳，阳光把水珠变成碎钻。\n这个广场最打动人的地方是它生生不息的日常感。早上七点，晨跑的人从旁边塔夫河步道跑过，脚步声在石板路上清脆地回响。中午，上班族坐在喷泉边啃三明治，海鸥虎视眈眈地踱步。晚上，千禧中心散场的观众涌出来，有人抱着啤酒在广场上即兴跳舞。它不是一个需要你正襟危坐瞻仰的景点，而是卡迪夫人生活里的客厅。罗尔德·达尔如果活到现在，大概会坐在喷泉边上，叼着烟斗，看着这群人笑眯眯地构思下一个古怪的故事。\n最让我着迷的其实是个很小的细节——广场边缘有一条嵌在地上的铜尺，上面刻着罗尔德·达尔的身高：6英尺2英寸。旁边还有他巨大的指纹。你蹲下去摸那个指纹，能感受到金属被无数手掌磨亮的温度。那一刻我忽然觉得，那些关于巧克力工厂和好心眼巨人的梦，原来就藏在这里的每一寸风里。"
+    "description": "我第一次站在罗尔德·达尔广场的时候，正是深秋的一个傍晚。卡迪夫湾的海风裹着咸腥味扑面而来，混合着旁边烤栗子摊的焦糖香。夕阳把天空染成粉紫色，那根巨大的银色“水塔”雕塑像一根被巨人啃过的冰淇淋，兀自杵在石板广场中央，上面刻着罗尔德·达尔那些奇奇怪怪的句子。几个小孩正绕着雕塑跑圈，笑声被风吹散，远处千禧中心的玻璃幕墙反射着流动的光，好像整个广场都在微微呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/maen-du-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑石圣井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen-Du Well</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/great-wedlock-farm-deer-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大韦德洛克农场与鹿园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Great Wedlock Farm & Deer Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/holyrood-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣十字修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holyrood Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/peak-district-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    峰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">峰区国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Peak District National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-winefrides-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣维尼弗雷德国家天主教圣地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The National Catholic Shrine of St Winefride</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-botanic-garden-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Botanic Garden of Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "maen-du-well",
-          "name": "黑石圣井",
-          "englishName": "Maen-Du Well"
+          "slug": "peak-district-national-park",
+          "name": "峰区国家公园",
+          "englishName": "Peak District National Park"
         },
         {
-          "slug": "great-wedlock-farm-deer-park",
-          "name": "大韦德洛克农场与鹿园",
-          "englishName": "Great Wedlock Farm & Deer Park"
+          "slug": "st-winefrides-well",
+          "name": "圣维尼弗雷德国家天主教圣地",
+          "englishName": "The National Catholic Shrine of St Winefride"
         },
         {
-          "slug": "holyrood-abbey",
-          "name": "圣十字修道院",
-          "englishName": "Holyrood Abbey"
+          "slug": "national-botanic-garden-wales",
+          "name": "威尔士国家植物园",
+          "englishName": "National Botanic Garden of Wales"
         }
       ]
     }

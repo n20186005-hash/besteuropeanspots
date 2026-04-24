@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "刘易斯岛 / 斯托诺韦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡兰尼什巨石阵",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡兰尼什巨石阵・Calanais Standing Stones・英国・刘易斯岛 / 斯托诺韦",
-    "description": "我还记得第一次看见卡兰尼什巨石阵的那个下午。我从斯托诺韦开车过去，路两边全是低矮的荒原和泥炭地，天空低得像压在身上。开到卡兰尼什村时，一个转弯，它们就突然出现了——深灰色花岗岩在阳光下闪着冷光，像一群沉默的巨人围坐在一起开会。那一刻，我的车轮几乎是自动停下来的。我没有急着下车，而是坐在车里静了几秒。周围没有游人，只有风呼啸着穿过石缝的声音，像是那些石头在耳语。\n走近后，我才真正感受到它们的“存在感”。这些石头最高的有近5米，直插云霄，表面布满了苔藓和地衣，摸上去冰凉、粗糙，仿佛带着远古的温度。我用手掌贴上一块石头，你能感觉到那种沉默的重量感。风吹过时，石缝间会发出一种低沉的嗡鸣声，我发誓那不是风声，而是石头在呼吸。四周的沼泽地上长满了紫色的石楠花和黄色的金丝桃，空气中混杂着泥炭、海风和小羊羔粪便的气味——嗯，不是特别浪漫，但很真实。\n站在这片场地上，你很难不被一种说不清的情绪笼罩。它不是那种宏大到让人颤抖的震撼，而是一种持续的低频振动。就像你忽然感知到了时间的另一种维度，知道在你之前，已经有无数人站在同样的位置、看着同样的天空。当地人说，这些石头是在满月之夜最“活”的——月光洒在上面，它们会发出幽蓝的光。我没有亲眼见过，但我完全相信，因为当我迎着夕阳站在石阵中央时，我仿佛能听见五千年前的祭司在哼唱某种古老的调子。\n最打动我的，是它们与周围环境的融合。巨石阵不是孤立地杵在那里，而是和山丘、湖泊、大海连成了一体。远处是刘易斯岛的起伏丘陵，再远处是北海的天际线。你能想象那些新石器时代的岛民每天穿过荒原，来到这里祈祷、祭祀、观测星象。对他们来说，这些石头就是通往神明世界的天线。"
+    "description": "我还记得第一次看见卡兰尼什巨石阵的那个下午。我从斯托诺韦开车过去，路两边全是低矮的荒原和泥炭地，天空低得像压在身上。开到卡兰尼什村时，一个转弯，它们就突然出现了——深灰色花岗岩在阳光下闪着冷光，像一群沉默的巨人围坐在一起开会。那一刻，我的车轮几乎是自动停下来的。我没有急着下车，而是坐在车里静了几秒。周围没有游人，只有风呼啸着穿过石缝的声音，像是那些石头在耳语。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/sligachan-old-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯利加查古桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sligachan Old Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/holyrood-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣十字修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holyrood Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "sligachan-old-bridge",
+          "name": "斯利加查古桥",
+          "englishName": "Sligachan Old Bridge"
         },
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "holyrood-abbey",
+          "name": "圣十字修道院",
+          "englishName": "Holyrood Abbey"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         }
       ]
     }

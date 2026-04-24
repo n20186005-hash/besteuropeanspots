@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "拉纳克（Lanark）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "新拉纳克",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "新拉纳克・New Lanark・英国・拉纳克（Lanark）",
-    "description": "你沿着克莱德河边的石板路慢慢往前走，空气中弥漫着湿漉漉的青草味和河水翻腾的泥土腥气。眼前的景象像是一幅被遗忘的苏格兰工业油画：五栋巨大的砂岩厂房贴着水岸一字排开，深灰色的屋顶在云影下泛着冷光。河水从工厂背后的克莱德瀑布奔涌而下，轰隆的水声从早到晚都不停歇，仿佛还在为两百年前的纺纱机配音。\n走进入口那座安静的小院，你的耳膜会突然被寂静包围——只有自己的脚步声在石板地上擦响。推开村民宅第那扇漆成墨绿色的木门，一股老木材和蜂蜡混合的气味迎面扑来。底层的公共厨房里复原地摆着铸铁炉子，铁壶里的水仿佛刚烧开，桌上一块硬面包和一只陶碗，似乎下一秒就会有一位穿着粗布围裙的女工走进来给孩子们盛粥。这里的每个角落都不像是博物馆，倒像是一个被按了暂停键的社区。\n从二楼窗户望出去，你能看到克莱德河在瀑布处猛然跌落，水花在阳光下闪烁成碎钻。当年那些十岁出头的童工就站在这些窗户旁边，一边吸着潮湿的棉花纤维，一边看着同样的水花出神。而罗伯特·欧文决心改变这一切。他在这个小村子里建起了全世界第一所正规的幼儿学校（Infant School），劝诫父母不要打骂孩子，为工人提供医疗储蓄金，甚至开设了供应平价食品的商店。这些在今天看来理所应当的事，在1800年前后简直是惊世骇俗。\n新拉纳克最大的魅力恰恰在于它不炫目。它不像城堡那样高高在上，也不像大教堂那样让人仰视。它只是一段现实得不能再现实的普通人生活史，每一块被脚步磨亮的台阶、每一扇被雨水浸透的木窗、每一根被棉花粉尘覆盖的房梁，都在低声告诉你：三百年前，这里有一群人，用他们的汗水和理想，试图证明工作可以不被剥削，社区可以相互照料。"
+    "description": "你沿着克莱德河边的石板路慢慢往前走，空气中弥漫着湿漉漉的青草味和河水翻腾的泥土腥气。眼前的景象像是一幅被遗忘的苏格兰工业油画：五栋巨大的砂岩厂房贴着水岸一字排开，深灰色的屋顶在云影下泛着冷光。河水从工厂背后的克莱德瀑布奔涌而下，轰隆的水声从早到晚都不停歇，仿佛还在为两百年前的纺纱机配音。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llywelyn-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卢埃林纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llywelyn Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/silver-mountain-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    银\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">银山体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Silver Mountain Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-bobby-statue\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗莱尔·鲍比雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Bobby Statue</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "llywelyn-monument",
-          "name": "卢埃林纪念碑",
-          "englishName": "Llywelyn Monument"
+          "slug": "silver-mountain-experience",
+          "name": "银山体验",
+          "englishName": "Silver Mountain Experience"
         },
         {
-          "slug": "brymbo-bandstand",
-          "name": "布莱姆博音乐台",
-          "englishName": "Brymbo Bandstand"
+          "slug": "greyfriars-bobby-statue",
+          "name": "格雷弗莱尔·鲍比雕像",
+          "englishName": "Greyfriars Bobby Statue"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "animal-wall",
+          "name": "动物墙",
+          "englishName": "Animal Wall"
         }
       ]
     }

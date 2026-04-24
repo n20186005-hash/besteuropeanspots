@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "梅林科特瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "梅林科特瀑布・Melincourt Falls・英国・威尔士",
-    "description": "第一次见到梅林科特瀑布，是某个阴天的午后。我沿着一条几乎被蕨类植物吞没的小径往下走，空气里满是潮湿的苔藓味和泥土的腥甜。走了不到十分钟，还没看到水影，就先听见了声音——不是那种雷霆万钧的轰鸣，而是一种持续的、低沉的咕噜声，像大地在哼歌。转过最后一块巨石，瀑布突然就撞进了眼帘：一道银白色的水帘从布满绿色青苔的U型断崖上跌进深潭，水花溅到脸上凉丝丝的，阳光偶尔从云层缝隙里漏下来，水雾里就浮出一小段彩虹。最奇妙的是瀑布后面有一个浅浅的石洞，人可以贴着湿漉漉的石壁钻进去，站在水帘背后往外看，整个世界都变成朦胧的毛玻璃。\n当地人来这里通常不是为了打卡拍照，而是当作日常的散步路线。我看见一个穿雨靴的老人牵着两条金毛犬走过来，狗狗直接跳进潭水里扑腾，老人就坐在旁边的石头上，从背包里掏出一壶茶慢慢喝。这个场景比瀑布本身更让我触动——在这个被网红景点攻陷的时代，梅林科特瀑布依然保持着一种懒洋洋的、属于本地人的节奏。它不需要被赞美，只是安安静静地待在山谷里，像一位上了岁数的邻居，偶尔有人来串门，它就倒出满山谷的凉意。\n瀑布下方的溪流蜿蜒穿过一片古老的橡树林，林中长满了羊齿蕨和蓝铃花。春天的时候，蓝铃花像蓝色地毯一样铺满整个斜坡，空气里飘着淡淡的甜香。夏天树冠完全闭合，阳光被筛成碎金，水边有蜻蜓停在石头上振翅。秋天橡树叶变成铜红色，倒映在潭水里，像一幅流动的油画。而冬天水量最大时，瀑布会溅起几乎和悬崖同高的水雾，靠近一点就会被淋成落汤鸡，但那种原始的力量感会让人心跳加速。\n对了，这里几乎没有商业设施。停车场旁边只有一个简陋的指示牌，没有咖啡馆，没有纪念品商店，甚至连垃圾桶都没有。这种“荒芜”反而成了它的魅力——你必须自己带水和零食，把垃圾背回去，像一个真正的探险者。我记得自己坐在瀑布对面的岩石上吃三明治时，风把水雾吹过来，面包上沾了一层细细的水珠，咬下去居然有清甜的滋味。那种与自然肌肤相亲的感觉，是任何玻璃幕墙后的观景台都无法替代的。"
+    "description": "第一次见到梅林科特瀑布，是某个阴天的午后。我沿着一条几乎被蕨类植物吞没的小径往下走，空气里满是潮湿的苔藓味和泥土的腥甜。走了不到十分钟，还没看到水影，就先听见了声音——不是那种雷霆万钧的轰鸣，而是一种持续的、低沉的咕噜声，像大地在哼歌。转过最后一块巨石，瀑布突然就撞进了眼帘：一道银白色的水帘从布满绿色青苔的U型断崖上跌进深潭，水花溅到脸上凉丝丝的，阳光偶尔从云层缝隙里漏下来，水雾里就浮出一小段彩虹。最奇妙的是瀑布后面有一个浅浅的石洞，人可以贴着湿漉漉的石壁钻进去，站在水帘背后往外看，整个世界都变成朦胧的毛玻璃。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kolasin-montenegro\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科拉欣</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kolašin</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bwlch-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔赫山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bwlch Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mary-queen-of-scots-visitors-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰玛丽女王游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mary Queen of Scots’ Visitors Centre</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/apella-beach-karpathos\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿佩拉海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Apella Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kolasin-montenegro",
-          "name": "科拉欣",
-          "englishName": "Kolašin"
+          "slug": "loch-achtriochtan-glen-coe",
+          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
+          "englishName": "Loch Achtriochtan, Glen Coe"
         },
         {
-          "slug": "bwlch-mountain",
-          "name": "布尔赫山",
-          "englishName": "Bwlch Mountain"
+          "slug": "bryntail-lead-mine-buildings",
+          "name": "布林泰尔铅矿建筑",
+          "englishName": "Bryntail Lead Mine Buildings"
         },
         {
-          "slug": "mary-queen-of-scots-visitors-centre",
-          "name": "苏格兰玛丽女王游客中心",
-          "englishName": "Mary Queen of Scots’ Visitors Centre"
+          "slug": "apella-beach-karpathos",
+          "name": "阿佩拉海滩",
+          "englishName": "Apella Beach"
         }
       ]
     }

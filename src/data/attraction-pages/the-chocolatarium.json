@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "巧克力体验馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "巧克力体验馆・The Chocolatarium・英国・爱丁堡",
-    "description": "推门而入的瞬间，一股浓烈到几乎能看到金色颗粒的巧克力香气便扑面而来，像是有一只无形的手把你拽进一个被可可魔法笼罩的密室。灯光是温暖的琥珀色，照在一排排不锈钢工作台上，台面上摆着大小不一的模具、小铲子、温度计和装满彩色配料的小玻璃碗——棉花糖、海盐、干草莓、烤榛子、椰子脆，仿佛一个成年人的糖果实验室。角落里的石头墙壁上挂着世界各地的可可豆标本，从厄瓜多尔的阿里巴到马达加斯加的克里奥尔，每一颗被装在透明试管里，带着各自产地的色泽和纹路，像一小块一小块古老的琥珀。\n空气中除了甜腻还有细微的坚果香和一点点发酵的水果酸味，那是旁边的老式石磨在缓缓碾磨新鲜的可可液块。磨盘转动的低沉嗡鸣，搭配着背景里爵士乐的钢琴旋律，让人瞬间放松下来，仿佛时间被减速了。初来乍到的游客们会被引导到一张长木桌前，每人的位置上放着一块干净的白围裙和一副棉布手套——不是那种一次性的薄塑料手套，而是厚实的、有点粗糙的棉布，摸上去像老奶奶的手织毛衣，让人莫名觉得安心。\n讲解员是个头发灰白的大叔，自称“巧克力巫师”，声音像融化的黑巧克力一样醇厚。他从不讲干巴巴的知识，而是像在聊家常一样告诉你，他曾经在哥伦比亚的山村里住了三个月，跟着当地农民学会了如何用手指摸出可可豆的干燥程度。他说，摸起来像婴儿皮肤一样光滑微凉就是最好的状态。说这段时，他把一颗生可可豆塞到你掌心，让你闭眼去感受它的纹理和温度。那一刻你才意识到，那些超市货架上的包装巧克力，背后其实藏着一个生机勃勃的、充满泥土和汗水的世界。\n最打动人的是，这里几乎没有那种“请勿触摸”的牌子。你被鼓励去捏碎一颗发酵好的可可豆，去舔一舔刚挤出的可可脂，甚至在工作台上故意把巧克力酱抹在指尖上然后舔掉。那种无所顾忌的快乐，像回到了小时候偷吃厨房面粉的年纪。而当你戴着围裙，满头大汗地终于倒模成功，在等待冻柜里凝结的十分钟里，你会不由自主地盯着那排闪着光的巧克力棒，心里涌起一阵幼稚又真实的骄傲——就是那种“我亲手做的”的自豪感，比任何名牌巧克力都要甜。"
+    "description": "推门而入的瞬间，一股浓烈到几乎能看到金色颗粒的巧克力香气便扑面而来，像是有一只无形的手把你拽进一个被可可魔法笼罩的密室。灯光是温暖的琥珀色，照在一排排不锈钢工作台上，台面上摆着大小不一的模具、小铲子、温度计和装满彩色配料的小玻璃碗——棉花糖、海盐、干草莓、烤榛子、椰子脆，仿佛一个成年人的糖果实验室。角落里的石头墙壁上挂着世界各地的可可豆标本，从厄瓜多尔的阿里巴到马达加斯加的克里奥尔，每一颗被装在透明试管里，带着各自产地的色泽和纹路，像一小块一小块古老的琥珀。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prince-of-wales-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士亲王桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kytra-lock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯特拉水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kytra Lock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/owain-glyndwr-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欧文·格林杜尔中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Owain Glyndŵr Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "prince-of-wales-bridge",
-          "name": "威尔士亲王桥",
-          "englishName": "Prince of Wales Bridge"
+          "slug": "kytra-lock",
+          "name": "凯特拉水闸",
+          "englishName": "Kytra Lock"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "owain-glyndwr-centre",
+          "name": "欧文·格林杜尔中心",
+          "englishName": "Owain Glyndŵr Centre"
         },
         {
-          "slug": "canterbury-cathedral",
-          "name": "坎特伯雷大教堂",
-          "englishName": "Canterbury Cathedral"
+          "slug": "aberpergum-mine",
+          "name": "阿伯珀古姆煤矿",
+          "englishName": "Aberpergum Mine"
         }
       ]
     }

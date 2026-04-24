@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "弗洛登城墙",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "弗洛登城墙・Flodden Wall・英国・爱丁堡",
-    "description": "我第一次听说弗洛登墙，是在爱丁堡一个湿漉漉的午后。当地朋友指着Grassmarket酒吧后巷一段灰扑扑的石墙说：“喏，这就是我们苏格兰人的哭墙。”我凑近一看，墙体大概两人高，石头表面布满了青苔和雨渍，像老人脸上的皱纹。最让我惊讶的是，它就嵌在两栋现代公寓楼之间，楼上挂着晾衣绳，墙根下停着共享单车。那种历史与现代粗暴拼接的荒诞感，让我一下子愣住了。\n其实在爱丁堡老城，你很难用“景点”来定义弗洛登墙。它不像爱丁堡城堡那样巍峨地占据制高点，也不像皇家英里大道那样排列着整齐的游客商店。它就是一段段沉默的残墙——有的藏在大学校园的草坪后面，有的缩在停车场角落里，还有的被改造成了某个餐厅的内墙。你走路时稍不留神就会错过，但一旦注意到，就会发现每块石头上都刻着故事。\n傍晚时分，夕阳把格拉斯市场那段城墙照成暖金色，你能看到石缝里长出的墙草在风中摇晃。偶尔有野猫趴在城垛上打盹，完全无视脚下人来人往的喧嚣。站在这里，耳朵里能捕捉到三种声音：远处酒吧里飘来的风笛声，近处游客拍照的快门声，还有我自己的呼吸声。四百年前，这个位置曾是爱丁堡的南缘防线，墙外就是荒郊野岭，墙内在黄昏时分会有卫兵敲响晚钟。如今墙外是公交站台，墙内是星巴克，只有这些石头还记得曾经的血与火。\n最打动我的是城墙的“不完美”。你仔细看，有些石块被熏得发黑——那是历史上火灾留下的烙印；有些地方有明显的修补痕迹，用的是不同颜色的砂岩，显然是后来多次加固的产物。它不像那些被打磨得光鲜的著名景点，它拒绝被粉饰太平。这种粗粝的真诚，反而让每一个愿意为它驻足的人，都能听到历史的呼吸。"
+    "description": "我第一次听说弗洛登墙，是在爱丁堡一个湿漉漉的午后。当地朋友指着Grassmarket酒吧后巷一段灰扑扑的石墙说：“喏，这就是我们苏格兰人的哭墙。”我凑近一看，墙体大概两人高，石头表面布满了青苔和雨渍，像老人脸上的皱纹。最让我惊讶的是，它就嵌在两栋现代公寓楼之间，楼上挂着晾衣绳，墙根下停着共享单车。那种历史与现代粗暴拼接的荒诞感，让我一下子愣住了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dyfi-osprey-project\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戴菲鱼鹰保护项目</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dyfi Osprey Project</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kelvingrove-art-gallery-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯尔文格罗夫美术馆和博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kelvingrove Art Gallery and Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "colin-mcrae-cray-corner",
-          "name": "科林·麦克雷弯道",
-          "englishName": "Colin McRae's Cray Corner"
+          "slug": "dyfi-osprey-project",
+          "name": "戴菲鱼鹰保护项目",
+          "englishName": "Dyfi Osprey Project"
         },
         {
-          "slug": "brymbo-bandstand",
-          "name": "布莱姆博音乐台",
-          "englishName": "Brymbo Bandstand"
+          "slug": "cuween-hill-chambered-cairn",
+          "name": "库温山墓室石堆",
+          "englishName": "Cuween Hill Chambered Cairn"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "kelvingrove-art-gallery-museum",
+          "name": "凯尔文格罗夫美术馆和博物馆",
+          "englishName": "Kelvingrove Art Gallery and Museum"
         }
       ]
     }

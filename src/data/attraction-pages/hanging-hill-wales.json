@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "悬挂山",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "悬挂山・Hanging Hill・英国・布雷肯",
-    "description": "我第一次听说悬挂山，是在布雷肯镇上一家挂着褪色橡木招牌的旧书店里。老板是位头发花白的威尔士老伯，听我打听本地“人少景美”的地方，他摘下老花镜，用一种近乎耳语的声音说：“去Hanging Hill吧，但别告诉太多人，那里是风住的地方。”那天下午，我沿着一条连柏油都没有的羊肠小道，穿过一片片被石墙分割的牧草地，偶尔有威尔士黑牛探头看我。当我的脚离开碎石路，踩上那片柔软得像海绵的草甸时，风突然变大，把我整个人裹了进去。那一刻，世界安静得只剩下风声——不是呼啸，而是低沉的、像有人在远方吹角的声音。\n山顶是一片巨大的、微微起伏的绿色平面，直径大约一公里，像一个被遗弃的绿色广场。草很矮，贴着地皮，上面长满了密密麻麻的浅紫色石楠花和黄色苔藓，踩上去会发出细细的沙沙声。越往边缘走，风越强，当你终于走到悬崖边，看见脚下的大地突然塌陷成一道深谷，谷底是一条银亮的溪流，远山层层叠叠地延伸到天际线。空气里有石楠花微甜的香气、湿润泥土的味道，还有一丝若有若无的——咸味？可能来自远方布里斯托尔湾的风。最打动我的是那种完全的开放感：没有任何栏杆、没有指示牌、没有人工痕迹，你和大地的边界只有一步之遥。当地人告诉我，他们小时候会躺在这里看云一个下午，云从头顶飘过，像这个世界在缓慢地翻身。\n这里不是旅游景点，而是一个威尔士人私藏的“呼吸室”。周末偶尔会看到一家三口带着野餐篮来，大人坐在草地上读报纸，小孩追着蝴蝶跑。没有游客的喧哗，没有人举着自拍杆，只有风、草、和脚下亿万年的岩石。如果你愿意坐在草甸上等一场日落，你会发现光线从刺眼的白变成蜂蜜样的金色，然后慢慢变成深橘色，最后暗下去，而整个山谷会泛起一层薄薄的雾，像大地在叹气。我在那儿待到星星出来，那是我这辈子见过最密集的星空——没有一丝光污染，银河像一条碎钻石的河横跨头顶。"
+    "description": "我第一次听说悬挂山，是在布雷肯镇上一家挂着褪色橡木招牌的旧书店里。老板是位头发花白的威尔士老伯，听我打听本地“人少景美”的地方，他摘下老花镜，用一种近乎耳语的声音说：“去Hanging Hill吧，但别告诉太多人，那里是风住的地方。”那天下午，我沿着一条连柏油都没有的羊肠小道，穿过一片片被石墙分割的牧草地，偶尔有威尔士黑牛探头看我。当我的脚离开碎石路，踩上那片柔软得像海绵的草甸时，风突然变大，把我整个人裹了进去。那一刻，世界安静得只剩下风声——不是呼啸，而是低沉的、像有人在远方吹角的声音。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/longyearbyen-svalbard\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯瓦尔巴朗伊尔城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Longyearbyen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bwlch-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔赫山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bwlch Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/andernach-medieval-town-cold-water-geyser\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安德纳赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andernach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brynich-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇引水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kornati-islands-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔纳蒂群岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kornati Islands</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/giethoorn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    羊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">羊角村</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Giethoorn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "longyearbyen-svalbard",
-          "name": "斯瓦尔巴朗伊尔城",
-          "englishName": "Longyearbyen"
+          "slug": "brynich-aqueduct",
+          "name": "布里尼奇引水桥",
+          "englishName": "Brynich Aqueduct"
         },
         {
-          "slug": "bwlch-mountain",
-          "name": "布尔赫山",
-          "englishName": "Bwlch Mountain"
+          "slug": "kornati-islands-national-park",
+          "name": "科尔纳蒂群岛",
+          "englishName": "Kornati Islands"
         },
         {
-          "slug": "andernach-medieval-town-cold-water-geyser",
-          "name": "安德纳赫",
-          "englishName": "Andernach"
+          "slug": "giethoorn",
+          "name": "羊角村",
+          "englishName": "Giethoorn"
         }
       ]
     }

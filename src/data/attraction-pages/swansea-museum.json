@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西（Swansea）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯旺西博物馆・Swansea Museum・英国・斯旺西（Swansea）",
-    "description": "我第一次站在斯旺西博物馆大门前，是个阴雨绵绵的午后。那栋奶油色的希腊复兴建筑在铅灰色的天空下有点发旧，雨水顺着科林斯柱头的卷草纹一滴滴落下，在石阶上溅起细小的水花。推门进去，一股混合着旧木头、蜂蜡和纸张的气味扑面而来——那种你只有在真正的老博物馆里才能闻到的、仿佛时间本身的味道。门厅不大，地上铺着黑白相间的菱形瓷砖，已经被几十万双脚步磨得微微凹陷。左手边有个玻璃柜，里面躺着一只巨大的蛤蜊化石，标签上写着“来自侏罗纪，180百万年”，旁边有个七八岁的小男孩正把脸贴在玻璃上，哈气成雾。\n我往里走，一楼展厅最吸引人的是一个模拟19世纪药剂铺的复原场景。老药柜上密密麻麻排着几百个瓷罐，标签用优雅的花体手写：鸦片酊、水银软膏、龙血粉——这些名字现在听起来像巫术，却是当年码头工人和水手的救命稻草。展厅里没有太多高科技互动装置，光线也不明亮，但恰恰是这种老派的气质让一切都显得真实。我站在药剂铺前，几乎能闻到混合着樟脑和薄荷的霉味，能想象一个穿着围裙的老药剂师在昏暗的煤气灯下称量药粉的样子。\n二楼的自然历史展厅简直是小朋友的天堂——当然，也是我这个成年人的秘密乐园。一具完整的威尔士独角鲸骨骼挂在中央，灯光从头顶的天窗投下来，把每一根肋骨的影子都拉得很长。角落里摆着几只剥制得并不完美的海鸥和狐狸，玻璃眼珠有点呆滞，却莫名让人想摸摸它们的羽毛。最打动我的是一个小小的“斯旺西海滩时间胶囊”展柜：里面放着维多利亚时期游客在海滩上捡到的海胆壳、碎瓷片、一枚生锈的船钉，还有一张泛黄的字条，上面用铅笔写着“1887年8月，玛丽和汤姆在此拾贝”。这张字条的主人早已不在，但他们的快乐像琥珀一样被封存在这里。\n走出博物馆时雨已经停了，海港的风裹着咸味和炸鱼薯条的味道吹过来。我感到一种奇特的平静——这座博物馆并没有试图用炫技的方式讲述历史，它只是诚恳地把那些在阁楼、地下室、旧货店里被遗忘的东西一件件摆出来，像一位老邻居坐在厨房餐桌旁，泡了杯茶，慢悠悠地说：“让我给你讲讲这儿以前的样子吧。”这种朴素的力量，比任何高科技屏幕都更让人动容。"
+    "description": "我第一次站在斯旺西博物馆大门前，是个阴雨绵绵的午后。那栋奶油色的希腊复兴建筑在铅灰色的天空下有点发旧，雨水顺着科林斯柱头的卷草纹一滴滴落下，在石阶上溅起细小的水花。推门进去，一股混合着旧木头、蜂蜡和纸张的气味扑面而来——那种你只有在真正的老博物馆里才能闻到的、仿佛时间本身的味道。门厅不大，地上铺着黑白相间的菱形瓷砖，已经被几十万双脚步磨得微微凹陷。左手边有个玻璃柜，里面躺着一只巨大的蛤蜊化石，标签上写着“来自侏罗纪，180百万年”，旁边有个七八岁的小男孩正把脸贴在玻璃上，哈气成雾。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/procurators-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    检\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">检察官之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Procurator's House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dugald-stewart-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜格尔德·斯图尔特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dugald Stewart Monument</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/marloes-sands\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马洛斯海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marloes Sands</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/standing-stones-of-stenness\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯腾内斯立石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Standing Stones of Stenness</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pen-y-fan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩尼范山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen y Fan</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cardiff-bay-barrage",
-          "name": "卡迪夫湾水闸",
-          "englishName": "Cardiff Bay Barrage"
+          "slug": "marloes-sands",
+          "name": "马洛斯海滩",
+          "englishName": "Marloes Sands"
         },
         {
-          "slug": "procurators-house",
-          "name": "检察官之家",
-          "englishName": "Procurator's House"
+          "slug": "standing-stones-of-stenness",
+          "name": "斯腾内斯立石圈",
+          "englishName": "Standing Stones of Stenness"
         },
         {
-          "slug": "dugald-stewart-monument",
-          "name": "杜格尔德·斯图尔特纪念碑",
-          "englishName": "Dugald Stewart Monument"
+          "slug": "pen-y-fan",
+          "name": "佩尼范山",
+          "englishName": "Pen y Fan"
         }
       ]
     }

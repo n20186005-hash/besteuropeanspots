@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Llanwddyn（波厄斯郡，威尔士）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Lake Vyrnwy Dam",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "Lake Vyrnwy Dam・Lake Vyrnwy Dam・英国・Llanwddyn（波厄斯郡，威尔士）",
-    "description": "第一次见到Lake Vyrnwy Dam，我站在大坝脚下，抬头望着那面由数亿块花岗岩垒成的巨大石墙，几乎喘不过气来。那不是震惊，而是一种奇特的敬畏——就像你第一次站在某个古老的神殿前，知道这里的每一块石头都背负着比人更重的记忆。阳光从云层缝隙洒下，在水面激荡出碎银般的光点，空气中弥漫着泥土和松针的潮湿气味，远处瀑布的水声像一首永远唱不完的摇篮曲。整个湖区安静得像一个秘密，只有风搅动树叶的声音和偶尔掠过的红鸢的尖啸打破了这种静谧。\n我沿着大坝顶端的步道慢慢走，脚下是整齐的石砖，手边就是碧蓝得近乎不真实的湖水。它不像人造的水库，倒像一面自然形成的镜子，倒映着周围连绵起伏的绿色山丘。湖面宽阔，远处有森林一直延伸到水边，中间点缀着几座小小的石桥和瀑布。最让我着迷的是大坝本身——那些石头经过一百多年的风雨，表面已经长出了浅绿色的苔藓，和周围的自然景观融为一体。你几乎感觉不到它是一个人造物，更像是山体自然生长出的一部分，带着维多利亚时代特有的体面和骄傲。\n在游客中心旁边的咖啡馆坐下来喝一杯热茶，透过落地窗看着湖水，你会觉得时间在这里是停滞的。本地人告诉我，很多家庭周末会驱车几十公里来这里散步、骑车、野餐，但游客却始终不多。这里没有商业化的喧嚣，没有纪念品商店的喇叭叫卖，只有一家小小的RSPB礼品店安静地缩在角落里。每一个来这里的人似乎都默契地保持着属于这片山谷的宁静，连说话都放低了声音。这种氛围让我想起那些藏在阿尔卑斯山脉深处的高山湖泊，但这里更亲切，更容易抵达，也更温暖。\n傍晚时分，我沿着南岸的小径走进森林，光线变得柔和起来，空气中能闻到蕨类植物和朽木的气息。突然一棵巨大的橡树旁出现了一只红鹿，它和我对视了三秒钟，然后优雅地转身消失在树丛中。那一刻我明白了这个景点的核心魅力：它不是一块冰冷的混凝土，而是一座被时间软化了的纪念碑，一个让现代人能够同时触摸到工业文明的刚硬和自然生态的柔韧的地方。它提醒我们，人类最伟大的创造，最终都会融入大地的怀抱，成为另一种风景。"
+    "description": "第一次见到Lake Vyrnwy Dam，我站在大坝脚下，抬头望着那面由数亿块花岗岩垒成的巨大石墙，几乎喘不过气来。那不是震惊，而是一种奇特的敬畏——就像你第一次站在某个古老的神殿前，知道这里的每一块石头都背负着比人更重的记忆。阳光从云层缝隙洒下，在水面激荡出碎银般的光点，空气中弥漫着泥土和松针的潮湿气味，远处瀑布的水声像一首永远唱不完的摇篮曲。整个湖区安静得像一个秘密，只有风搅动树叶的声音和偶尔掠过的红鸢的尖啸打破了这种静谧。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/craigievar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷吉瓦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigievar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/culzean-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔津城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Culzean Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-davids-bishops-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣大卫主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Davids Bishop's Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scotch-whisky-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰威士忌体验中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Scotch Whisky Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rhyl\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    里\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">里尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rhyl</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hafod-arch",
-          "name": "哈福德拱门",
-          "englishName": "Hafod Arch"
+          "slug": "st-davids-bishops-palace",
+          "name": "圣大卫主教宫",
+          "englishName": "St Davids Bishop's Palace"
         },
         {
-          "slug": "craigievar-castle",
-          "name": "克雷吉瓦城堡",
-          "englishName": "Craigievar Castle"
+          "slug": "scotch-whisky-experience",
+          "name": "苏格兰威士忌体验中心",
+          "englishName": "The Scotch Whisky Experience"
         },
         {
-          "slug": "culzean-castle",
-          "name": "卡尔津城堡",
-          "englishName": "Culzean Castle"
+          "slug": "rhyl",
+          "name": "里尔",
+          "englishName": "Rhyl"
         }
       ]
     }

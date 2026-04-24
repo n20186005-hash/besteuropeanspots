@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "科瑞斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "科瑞斯矿井探险",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "科瑞斯矿井探险・Corris Mine Explorers・英国・科瑞斯",
-    "description": "说实话，我第一次听到“矿井探险”这个名头时，脑子里全是电影里那种泥浆、幽闭恐惧和喘不过气的感觉。可当我站在科瑞斯村那片平静的田野边，面前只有一个毫不起眼的金属栅栏门，入口像一口被遗忘的井，我心里就开始犯嘀咕。这地方，真能带来所谓的震撼吗？但导游——一个穿着褪色连体工装、留着花白胡子的当地大叔——只是朝我们咧嘴一笑，递给我一盏冰凉的头灯，说了句：“记住，下面只有你头顶这盏灯。”\n那扇门关上的瞬间，世界就变了。不是变得黑暗，而是被一种史前的、绝对的寂静与黑暗完全吞噬。空气里那股冷冰冰的、带着岩石粉末和某种古老油脂的气味扑面而来，比所有香水都更有穿透力。头灯的光束像一把迟钝的刀，切开浓稠的黑暗，照出脚下湿漉漉的、布满浅水坑的石头地面。我能听到自己的呼吸声，以及背后同伴们窸窸窣窣的脚步声，在水汽中被放大、扭曲。脚下的路变得不规则，有被铁镐劈凿出的痕迹，头顶的岩壁压得很低，有些地方你几乎得弯腰才能通过。那种进入山体内部的压迫感，让身体本能地想去抓住点什么，可周围只有冷冰冰的、有纹理的岩石。\n导游的声音在隧道里回荡，像幽灵的耳语。他讲起那些一百多年前的矿工，每天带着一罐温水、一块硬面包，举着油灯在这儿干上十个小时。他们一边开凿，一边承受着粉尘对肺部的侵蚀，还要时时刻刻提防头顶松动的岩石。他说这些的时候，我正好站在一个巨大的采掘室前。头灯的光勉强照到屋顶——大概有十二米高，墙壁被开凿得如同巨大的蜂巢，那是工人一锤一锤、一层一层剥离板岩留下的痕迹。你能清晰地看到那条被称为“尾矿”的、与岩层平行的黑色条纹，像一道凝固的疤痕。在那个瞬间，人类的那种疯狂、韧性，还有活下去的渴望，突然变得无比真切。\n最打动我的，是这里完全没有那种“被包装过的博物馆感”。没有玻璃展柜，没有灯光秀，更没有让你扫码听的讲解。这里就是一百多年前的矿井，一切保留原样。你脚下的铁轨，是当年运矿用的窄轨，你可以想象一辆辆满载板岩的小车轰隆隆驶过的声音。隧道壁上偶尔还能看到矿工们用粉笔写下的标记，像是密码。导游会关掉所有头灯，让我们体验真正的、绝对的黑暗——那种连手指都看不见，甚至不知道自己的眼睛是睁开还是闭上的黑暗。那几秒钟，我感觉灵魂都被抽走了。然后灯齐齐亮起，大家长出一口气，相视而笑。那一刻，我知道这就是科瑞斯这座矿井最独特的魅力——它不是用来“观赏”的，而是用来“感受”的。"
+    "description": "说实话，我第一次听到“矿井探险”这个名头时，脑子里全是电影里那种泥浆、幽闭恐惧和喘不过气的感觉。可当我站在科瑞斯村那片平静的田野边，面前只有一个毫不起眼的金属栅栏门，入口像一口被遗忘的井，我心里就开始犯嘀咕。这地方，真能带来所谓的震撼吗？但导游——一个穿着褪色连体工装、留着花白胡子的当地大叔——只是朝我们咧嘴一笑，递给我一盏冰凉的头灯，说了句：“记住，下面只有你头顶这盏灯。”"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/camera-obscura-world-of-illusions\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    暗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">暗箱博物馆与幻觉世界</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Camera Obscura & World of Illusions</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/titanic-belfast\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    泰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">泰坦尼克号贝尔法斯特纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Titanic Belfast</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scone-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯昆宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scone Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cardiff-bay",
-          "name": "卡迪夫湾",
-          "englishName": "Cardiff Bay"
+          "slug": "titanic-belfast",
+          "name": "泰坦尼克号贝尔法斯特纪念馆",
+          "englishName": "Titanic Belfast"
         },
         {
-          "slug": "conwy-castle",
-          "name": "康威城堡",
-          "englishName": "Conwy Castle"
+          "slug": "hadrians-wall",
+          "name": "哈德良长城",
+          "englishName": "Hadrian's Wall"
         },
         {
-          "slug": "camera-obscura-world-of-illusions",
-          "name": "暗箱博物馆与幻觉世界",
-          "englishName": "Camera Obscura & World of Illusions"
+          "slug": "scone-palace",
+          "name": "斯昆宫",
+          "englishName": "Scone Palace"
         }
       ]
     }

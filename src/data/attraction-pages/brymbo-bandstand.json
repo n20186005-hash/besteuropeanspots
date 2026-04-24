@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布莱姆博（雷克瑟姆郡）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布莱姆博音乐台",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布莱姆博音乐台・Brymbo Bandstand・英国・布莱姆博（雷克瑟姆郡）",
-    "description": "第一次见到布莱姆博音乐台的时候，说实话，我心里咯噔了一下——不是因为震撼，而是因为太安静了。那是一个六月的傍晚，天空还亮着，从雷克瑟姆开过来的小巴把我扔在一条窄窄的柏油路边，导航显示还有三分钟脚程。我沿着缓坡往下走，右手边是一排排红砖小房子，门口种着玫瑰，湿漉漉的泥土味混着某种我形容不出的草香。然后，转过一个弯，视野忽然打开，一片修剪得并不整齐的草地出现在眼前，像被谁随手铺在山谷的褶皱里。草地的正中央，就那么孤零零地坐着一座灰黑色的八角亭子，八根细长的铸铁柱子撑着一个像伞骨一样的穹顶，顶上的风信鸡一动不动，仿佛时间也凝固了。\n我走近了，脚下是踩上去有点松软的草皮，虫鸣声从四面八方涌来，但音乐台附近反而静得只剩下自己的呼吸。那些铁柱上爬满了暗金色的锈斑，但刻在柱身上的卷草纹依然清晰，伸手摸一下，凉丝丝的，像摸到一百多年前某个铁匠手掌的温度。穹顶下空荡荡的，地板是厚实的木板，踩上去发出闷闷的咚响。我在台中央站了一会儿，仰头看那些放射状的铸铁梁架，光线从间隙里筛下来，一道一道落在脸上，像时间本身在编织图案。\n这时候，远处忽然传来一阵狗吠，紧接着一个老爷爷牵着一条拉布拉多慢悠悠走过来。他看见我在拍照，就停下来，指了指音乐台说：“我小时候，爷爷在这里拉过手风琴。” 他说这话的时候，眼睛看着穹顶，好像能透过锈迹看到当年的花环和彩灯。这就是布莱姆博音乐台最打动我的地方——它不需要被解说，不需要被保护，它活着的方式就是成为村里人记忆的一部分。风一吹，铁皮屋檐发出轻微的嘎吱声，像在咳嗽，又像在说悄悄话。"
+    "description": "第一次见到布莱姆博音乐台的时候，说实话，我心里咯噔了一下——不是因为震撼，而是因为太安静了。那是一个六月的傍晚，天空还亮着，从雷克瑟姆开过来的小巴把我扔在一条窄窄的柏油路边，导航显示还有三分钟脚程。我沿着缓坡往下走，右手边是一排排红砖小房子，门口种着玫瑰，湿漉漉的泥土味混着某种我形容不出的草香。然后，转过一个弯，视野忽然打开，一片修剪得并不整齐的草地出现在眼前，像被谁随手铺在山谷的褶皱里。草地的正中央，就那么孤零零地坐着一座灰黑色的八角亭子，八根细长的铸铁柱子撑着一个像伞骨一样的穹顶，顶上的风信鸡一动不动，仿佛时间也凝固了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pembrokeshire-coast-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡海岸国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Coast National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/henrhyd-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亨利德瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Henrhyd Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "pembrokeshire-coast-national-park",
+          "name": "彭布罗克郡海岸国家公园",
+          "englishName": "Pembrokeshire Coast National Park"
         },
         {
-          "slug": "britannia-bridge",
-          "name": "布里塔尼亚桥",
-          "englishName": "Britannia Bridge"
+          "slug": "castell-coch",
+          "name": "科奇城堡",
+          "englishName": "Castell Coch"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "henrhyd-falls",
+          "name": "亨利德瀑布",
+          "englishName": "Henrhyd Falls"
         }
       ]
     }

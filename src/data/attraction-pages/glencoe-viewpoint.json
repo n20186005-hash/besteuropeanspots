@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦科",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦科观景点",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格伦科观景点・Glencoe Viewpoint・英国・格伦科",
-    "description": "第一次站在格伦科观景点的时候，我差点忘了呼吸。不是夸张，是那种风突然从峡谷深处冲上来，裹着山石的清冷和泥土的潮湿，直直灌进肺里，让你一下子僵在原地——不是因为冷，是因为眼前的画面太满了，满到视觉系统一时处理不过来。A82公路像一条灰色的细蛇，蜿蜒着消失在两座黑色巨峰之间的褶皱里。峡谷两侧的山壁几乎垂直地立起来，顶部戴着残雪的白帽子，底部是成片的暗绿色苔原和零星的羊群。阳光从云层的缝隙里漏下来，光束在谷底游走，像是上帝在用追光灯搜索什么东西。空气里有一股淡淡的泥炭味，混合着融雪水的清甜，还有远处松林的苦涩。你站在那里，能听见的只有风声和自己的心跳。偶尔有一只乌鸦划过，叫声像石头砸进水面，打破了过于安静的氛围。\n这个观景点其实就是一个很简单的路边停车带，没有围栏，没有观景台，没有解说牌。它就那么赤裸裸地暴露在风景面前。你下车，走到路边，脚底下是松软的碎石和苔藓，往前一步就是几十米的落差。那种没有阻隔的感觉让人既兴奋又有点腿软。我去的那个下午，有一对老夫妻坐在折叠椅上，端着保温杯喝咖啡，安静地看了整整两个小时。他们脸上没有那种打卡式的兴奋，而是像在和老朋友共度一个下午一样平静。那一刻我突然理解了，为什么有些地方不需要任何人类建造的东西来标榜自己——它自身就足够成为一座殿堂。\n当地人把格伦科峡谷叫作“哭泣的峡谷”。不是因为氛围悲伤，而是因为地质运动形成的褶皱看起来像一张哭泣的脸。但如果你问我，我会说它更像一首没有歌词的挽歌——那些被冰川削平的岩石，那些被风雨打磨的棱角，都在无声地诉说着四亿年的故事。在观景点，你看到的不仅是峡谷，还是一个时间的剖面。最下层是古老的大洋地壳，往上叠加了火山喷发的痕迹，再往上是被冰期侵蚀的疤痕。每一个层次都有不同的颜色，铁锈红、炭黑、灰绿、浅褐，像一本翻开的地质书。而最打动我的，是那些长在裂缝里的小黄花——它们那么小，小到在宏大背景下几乎看不见，但就那么倔强地开着，和那些亿万年不变的石头对峙着。这种生命和死亡共存的张力，才是格伦科真正的核心魅力。"
+    "description": "第一次站在格伦科观景点的时候，我差点忘了呼吸。不是夸张，是那种风突然从峡谷深处冲上来，裹着山石的清冷和泥土的潮湿，直直灌进肺里，让你一下子僵在原地——不是因为冷，是因为眼前的画面太满了，满到视觉系统一时处理不过来。A82公路像一条灰色的细蛇，蜿蜒着消失在两座黑色巨峰之间的褶皱里。峡谷两侧的山壁几乎垂直地立起来，顶部戴着残雪的白帽子，底部是成片的暗绿色苔原和零星的羊群。阳光从云层的缝隙里漏下来，光束在谷底游走，像是上帝在用追光灯搜索什么东西。空气里有一股淡淡的泥炭味，混合着融雪水的清甜，还有远处松林的苦涩。你站在那里，能听见的只有风声和自己的心跳。偶尔有一只乌鸦划过，叫声像石头砸进水面，打破了过于安静的氛围。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/consuegra-windmills\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    孔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">孔苏埃格拉风车群</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Consuegra Windmills</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/witchs-abyss-infinite-column\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    女\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">女巫深渊与无限之柱</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Witch‘s Abyss & The Infinite Column</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-winefrides-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣维尼弗雷德国家天主教圣地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The National Catholic Shrine of St Winefride</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arachova-parnassus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿拉霍瓦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arachova</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "consuegra-windmills",
-          "name": "孔苏埃格拉风车群",
-          "englishName": "Consuegra Windmills"
+          "slug": "st-winefrides-well",
+          "name": "圣维尼弗雷德国家天主教圣地",
+          "englishName": "The National Catholic Shrine of St Winefride"
         },
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "arachova-parnassus",
+          "name": "阿拉霍瓦",
+          "englishName": "Arachova"
         },
         {
-          "slug": "witchs-abyss-infinite-column",
-          "name": "女巫深渊与无限之柱",
-          "englishName": "The Witch‘s Abyss & The Infinite Column"
+          "slug": "bath-tower",
+          "name": "巴斯塔",
+          "englishName": "Bath Tower"
         }
       ]
     }

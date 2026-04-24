@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威廉堡（Fort William），苏格兰高地",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伊文城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "伊文城堡・Castle Ewen・英国・威廉堡（Fort William），苏格兰高地",
-    "description": "沿着格伦伊文峡谷的羊肠小道往上走的时候，空气里弥漫着一股被雨水浸泡过的石楠花的苦涩甜味，混合着远处泥炭沼泽燃烧时特有的烟熏气息。我的登山靴每一步都陷入松软的苔藓里，发出噗嗤噗嗤的声响，像踩在巨大的海绵上。周围除了风声和偶尔一只红松鸡扑棱棱飞起的动静，就是彻底的寂静——那种苏格兰高地才有的、可以把一切现代噪音吸进地底下的寂静。\n当城堡废墟终于出现在山坡的拐角处时，我忍不住倒吸了一口凉气。它不是我想象中那种整齐的、被精心保护的旅游景点废墟，而是像一具巨大的动物骸骨，歪歪扭扭地插在山脊的草地上。灰色的石块上布满橙色和黑色的地衣，像铜锈一样深深嵌入石头的纹理里。阳光从云层缝隙中漏下来，投下移动的光斑，让那些残破的墙壁仿佛在呼吸。一只乌鸦站在最高的塔楼断壁上，歪头看着我，然后发出一声沙哑的叫声，那声音在山谷里回荡了很久。\n走近了才看清城堡的细节。主楼的北墙已经完全坍塌，碎石滚落进一个长满蕨类植物和野生覆盆子的深坑里。但南墙依然坚固，大约保留了三层楼的高度。墙面上每隔两米就有一个细长的枪眼，从外面看只是一条窄缝，但如果你冒险把头伸进去看，会发现内部的开口宽得足以让一个弓箭手自由转身。我伸手摸了摸那些石块，冰冷而粗糙，有些接缝处的石灰浆已经剥落，可以看见里面塞着碎瓷片和骨头碎片——据说这是当时建造者为了让墙体更加坚固而掺入的“祭祀材料”。\n最让人震撼的，是城堡正门上方那块破败的石板浮雕。虽然已经被风蚀得几乎完全看不清图案，但你眯起眼睛仔细看，还能分辨出一棵缠绕着剑的橡树，那是麦克唐纳氏族的族徽。站在这里我能想象两百多年前，一个穿着粗呢裙、肩扛长矛的盖尔战士，守在这扇门前，看着远方格伦科峡谷升起的炊烟，心里想着今夜是否有坎贝尔家族的突袭。而我脚下这片土地，除了时间的灰尘，什么也没剩下。风从我耳边吹过，带着泥炭和石楠的干燥气味，我闭上眼睛，仿佛能听见隔世的号角声从墙缝里挤出来，断断续续，像一场永远醒不来的梦。\n这不仅仅是一座城堡，更是一个被铁和火淬炼过的梦。它不在任何旅游指南的必游名单上，没有纪念品商店，没有语音导览，甚至连个像样的指示牌都没有。但正是这种被世界遗忘的孤独感，让它成为苏格兰高地上最触动人心的角落。每个石块都像一本泛黄的书页，记录着血与泪，忠诚与背叛，以及那片云影永远快速移动的天空。"
+    "description": "沿着格伦伊文峡谷的羊肠小道往上走的时候，空气里弥漫着一股被雨水浸泡过的石楠花的苦涩甜味，混合着远处泥炭沼泽燃烧时特有的烟熏气息。我的登山靴每一步都陷入松软的苔藓里，发出噗嗤噗嗤的声响，像踩在巨大的海绵上。周围除了风声和偶尔一只红松鸡扑棱棱飞起的动静，就是彻底的寂静——那种苏格兰高地才有的、可以把一切现代噪音吸进地底下的寂静。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dryslwyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德莱斯林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dryslwyn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skelbo-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯凯尔博城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skelbo Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/peak-district-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    峰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">峰区国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Peak District National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-ness-view-point-fort-augustus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    尼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">尼斯湖观景点（奥古斯都堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Ness View Point Fort Augustus</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castell-dryslwyn",
-          "name": "德莱斯林城堡",
-          "englishName": "Castell Dryslwyn"
+          "slug": "skelbo-castle",
+          "name": "斯凯尔博城堡",
+          "englishName": "Skelbo Castle"
         },
         {
-          "slug": "berwick-upon-tweed-castle-and-ramparts",
-          "name": "伯立克-特威德城堡及城墙",
-          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
+          "slug": "peak-district-national-park",
+          "name": "峰区国家公园",
+          "englishName": "Peak District National Park"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "loch-ness-view-point-fort-augustus",
+          "name": "尼斯湖观景点（奥古斯都堡）",
+          "englishName": "Loch Ness View Point Fort Augustus"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士（可从卡迪夫、斯旺西、康威等多地进入）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士海岸步道",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士海岸步道・The Wales Coast Path・英国・威尔士（可从卡迪夫、斯旺西、康威等多地进入）",
-    "description": "你想象过一条路，能让你同时闻到海盐的咸、牧草的甜、和石楠花的粉香吗？威尔士海岸步道就是这样的存在。我第一次踏上它，是在一个雾蒙蒙的清晨——从卡迪根湾出发，脚底是湿漉漉的青草和贝壳碎，海风裹着浪花拍打悬崖的声音像从远古传来。远处的灯塔在薄雾中忽明忽暗，像在眨眼睛。空气里有一种冷冽的清新，混着蕨类植物的泥土味，让人忍不住深深吸一口气。这里没有拥挤的游客，只有偶尔经过的当地遛狗老人，他们会用威尔士语跟你打招呼，嗓子粗粝得和海鸥的叫声一样。\n步道全长870英里（约1400公里），几乎贴着每一寸威尔士的海岸线。你走的每一步，都是海水千万年啃噬的结果。有的路段是陡峭的悬崖，你得抓着铁索侧身挪步，脚下就是轰鸣的浪花；有的路段则平缓得像散步的公园，紫红色的石楠花铺满山坡，蝴蝶在你的帽檐边飞舞。最让我难忘的是彭布罗克郡那段——阳光突然穿过云层，把绿色的苔原照得像翡翠，海浪在阳光下碎成无数钻石，远处城堡废墟的轮廓像一顶撕裂的王冠。那一刻，我突然理解了为什么威尔士人把自己称作“土地之民”——这海岸就是他们活生生的家谱。\n当地人把这条路称作“Taith y Gorllewin”（西部之旅），但我觉得它更像一首流动的诗。你不需要成为专业徒步者，哪怕只走一小段，也能感受到那种粗粝又温柔的力量。在某些与世隔绝的海湾，只有你和海豹作伴，它们懒洋洋地躺在岩石上晒太阳，偶尔发出嗷嗷的叫声，像是在抱怨你打扰了午觉。你甚至可以停下来，脱掉鞋袜，把脚浸入冰凉的海水里，感受潮汐轻轻地舔舐你的脚踝——那是自然最原始的触碰。\n但威尔士海岸步道最动人的地方，是它把人和历史悄悄缝在了一起。你会在一个不起眼的拐角发现一座12世纪的小教堂，门楣上刻着凯尔特十字架；或者在一个废弃的采石场看到铁轨锈迹，仿佛能听见百年前矿工的号子。这条路不是被刻意“打造”出来的景点，而是威尔士人把自己最真实的生活摊开给你看：渔网挂在屋檐下，羊群在小路上慢悠悠地过，老爷爷坐在长椅上用口琴吹民谣。你走在上面，像走进了明信片，却又比明信片多了温度和喘息。"
+    "description": "你想象过一条路，能让你同时闻到海盐的咸、牧草的甜、和石楠花的粉香吗？威尔士海岸步道就是这样的存在。我第一次踏上它，是在一个雾蒙蒙的清晨——从卡迪根湾出发，脚底是湿漉漉的青草和贝壳碎，海风裹着浪花拍打悬崖的声音像从远古传来。远处的灯塔在薄雾中忽明忽暗，像在眨眼睛。空气里有一种冷冽的清新，混着蕨类植物的泥土味，让人忍不住深深吸一口气。这里没有拥挤的游客，只有偶尔经过的当地遛狗老人，他们会用威尔士语跟你打招呼，嗓子粗粝得和海鸥的叫声一样。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pontcysyllte-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    庞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">庞特卡萨斯特输水道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pontcysyllte Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Bandstand</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hafna-lead-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/spello-flower-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯佩洛花城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Spello</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/peshkopi-old-town-and-thermal-springs\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩什科比</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Peshkopi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "pontcysyllte-aqueduct",
-          "name": "庞特卡萨斯特输水道",
-          "englishName": "Pontcysyllte Aqueduct"
+          "slug": "hafna-lead-mine",
+          "name": "哈夫纳铅矿",
+          "englishName": "Hafna Lead Mine"
         },
         {
-          "slug": "colin-mcrae-cray-corner",
-          "name": "科林·麦克雷弯道",
-          "englishName": "Colin McRae's Cray Corner"
+          "slug": "spello-flower-town",
+          "name": "斯佩洛花城",
+          "englishName": "Spello"
         },
         {
-          "slug": "llandudno-bandstand",
-          "name": "兰迪德诺音乐台",
-          "englishName": "Llandudno Bandstand"
+          "slug": "peshkopi-old-town-and-thermal-springs",
+          "name": "佩什科比",
+          "englishName": "Peshkopi"
         }
       ]
     }

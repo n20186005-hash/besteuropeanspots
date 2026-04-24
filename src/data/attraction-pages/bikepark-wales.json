@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "梅瑟蒂德菲尔 (Merthyr Tydfil)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "BikePark Wales",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "BikePark Wales・BikePark Wales・英国・梅瑟蒂德菲尔 (Merthyr Tydfil)",
-    "description": "第一次站在BikePark Wales的起点，我差点被风掀翻。不是夸张——威尔士山谷的风裹着雨云，直接从山脊那边碾过来，撞在脸上像薄荷味的巴掌。我抬头看那座被松林密密覆盖的山丘，隐约能见到几条土黄色的线在树丛间蜿蜒穿梭，像巨人用指甲在绿绒布上划出的痕迹。空气里有湿泥和松脂的味道，夹杂着刹车皮焦糊的淡淡气味。远处传来链条撞击导轮的叮当声，还有骑手们从陡坡上冲下来时压不住的尖叫和笑声，那声音在谷间来回弹跳，像一群飞鸟不断撞向天空。\n入口处的木屋里，工作人员正用浓重的威尔士口音给一群新手做安全讲解。他们的脸上都带着那种被阳光和风雨共同打磨过的健康光泽。烤架上的香肠滋滋冒着白烟，咖啡机咕噜噜响着，整个停车场像一场户外的家庭聚会，只不过每个人身边都立着一辆沾满泥巴的山地车。有十来岁的小孩已经在练习后轮平衡，也有头发花白的老车友正在给轮胎打气——他们互相点头打招呼，用骑行服上的泥点交换默契的微笑。\n我租了一辆全避震的Specialized Enduro，前叉行程170毫米，像一只随时准备扑出去的巨兽。跨上车的一瞬间，坐垫的触感通过大腿传递到脊椎，所有城市里的拘谨被抖落干净。我选了第一条绿线（新手线）作为热身，叫“Lady Windsors”，名字听着优雅，实际是贴着山坡缓缓下降的林间小径，遍地是松针和湿苔，车轮碾过时发出轻柔的沙沙声，像在翻一本古老的书籍。光线从树枝间漏下来，在脸上明灭交替，我能听到自己的呼吸融进风里。\n可真正让我心脏打鼓的，是站上黑线（高级线）入口的那一刻。那条道叫“The Beast”，坡度肉眼可见超过40度，满地是松动的石块和盘错的树根，像一头沉睡的巨兽的背脊。我前面的一个车手深吸一口气，双脚蹬下去，身体几乎贴着把横，转眼就被树林吞没，只留下车轮在石头上弹跳的沉闷响声。我在原地站了整整两分钟，看着那条陡峭的入口，时间像被拉长成口香糖。最后我还是推车下去了——但那一刻，我明白了为什么这里被称为朝圣之地：它让你同时感受到恐惧和渴望，而选择面对它们，就是骑行的全部意义。"
+    "description": "第一次站在BikePark Wales的起点，我差点被风掀翻。不是夸张——威尔士山谷的风裹着雨云，直接从山脊那边碾过来，撞在脸上像薄荷味的巴掌。我抬头看那座被松林密密覆盖的山丘，隐约能见到几条土黄色的线在树丛间蜿蜒穿梭，像巨人用指甲在绿绒布上划出的痕迹。空气里有湿泥和松脂的味道，夹杂着刹车皮焦糊的淡淡气味。远处传来链条撞击导轮的叮当声，还有骑手们从陡坡上冲下来时压不住的尖叫和笑声，那声音在谷间来回弹跳，像一群飞鸟不断撞向天空。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ffridd-faldwyn-iron-age-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里德法尔德文铁器时代山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ffridd Faldwyn Iron Age Hillfort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "colinton-station-tunnel",
+          "name": "科林顿车站与隧道",
+          "englishName": "Colinton Station & Tunnel"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "ffridd-faldwyn-iron-age-hillfort",
+          "name": "弗里德法尔德文铁器时代山堡",
+          "englishName": "Ffridd Faldwyn Iron Age Hillfort"
         },
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "ardvreck-castle",
+          "name": "阿德夫雷克城堡",
+          "englishName": "Ardvreck Castle"
         }
       ]
     }

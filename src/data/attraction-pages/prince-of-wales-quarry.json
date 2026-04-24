@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布莱奈费斯蒂尼奥格",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士亲王采石场",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士亲王采石场・Prince of Wales Quarry・英国・布莱奈费斯蒂尼奥格",
-    "description": "我第一次站在采石场边缘的时候，整个人愣住了。不是被高度吓到，而是被那种寂静——一种深到骨子里的、填满空洞的安静。脚下是锯齿状的岩石，头顶是铅灰色的天空，四周那些被人工切割出的巨大阶梯，像是某个巨人遗落的棋盘。风从山谷里灌进来，带着石板碎屑的气味，干燥、微苦，夹杂着苔藓和铁锈的味道。远处有一只乌鸦叫了一声，声音在矿坑里弹来弹去，最后碎成细小的回响。\n你想象不到这个地方曾经有多喧闹。19世纪中叶，这里每天有两千多名工人在干活。锤子砸在岩石上的叮当声，铁轨上板车滑行的吱嘎声，工头吹哨的尖利声，还有那些马匹——几百匹矮种马被关在黑暗里，拉着沉重的石板从地底爬上来。可现在，只剩下风和草。那些红褐色的铁轨像死蛇一样躺在碎石堆里，工棚的铁皮屋顶已经锈穿，露出里面锈蚀的齿轮和皮带。\n我沿着一条被杂草覆盖的小路往下走，脚下踩到一块松动的石板，发出清脆的咔嚓声。我蹲下来，指尖摸过石板表面——光滑得像被水磨过，边缘笔直，棱角分明。这是150年前某个威尔士工匠的杰作，他的锤子曾经在这里敲过成千上万次。我突然理解为什么当地老人管这个地方叫“沉默的巨人”，因为它太庞大了，庞大到安静下来之后，比任何吵闹都让人心悸。\n最打动我的是公园里那些破碎的陶罐和锈蚀的钉子。它们散落在废弃的宿舍旁，那排用石板砌成的二层小屋只剩下墙基，墙壁上的烟道痕迹清晰可见。想象一下，一个矿工结束12小时的劳作后，钻进这个只有三平米的小房间，点起煤油灯，烤一块硬面包，就着凉水咽下去。他的女人在水槽边洗他的脏衬衫，肥皂水的味道混着石粉，在昏暗的灯光下飘荡。这种生活维持了一百多年，直到20世纪60年代，机器和塑料取代了石板，采石场轰然倒下，留下一片沉默的伤疤。"
+    "description": "我第一次站在采石场边缘的时候，整个人愣住了。不是被高度吓到，而是被那种寂静——一种深到骨子里的、填满空洞的安静。脚下是锯齿状的岩石，头顶是铅灰色的天空，四周那些被人工切割出的巨大阶梯，像是某个巨人遗落的棋盘。风从山谷里灌进来，带着石板碎屑的气味，干燥、微苦，夹杂着苔藓和铁锈的味道。远处有一只乌鸦叫了一声，声音在矿坑里弹来弹去，最后碎成细小的回响。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hanging-hill-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    悬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">悬挂山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hanging Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pontcysyllte-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    庞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">庞特卡萨斯特输水道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pontcysyllte Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rhossili-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗西里湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rhossili Bay</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hanging-hill-wales",
-          "name": "悬挂山",
-          "englishName": "Hanging Hill"
+          "slug": "parc-cwm-darran",
+          "name": "帕克库姆达兰公园",
+          "englishName": "Parc Cwm Darran"
         },
         {
-          "slug": "castell-coch",
-          "name": "科奇城堡",
-          "englishName": "Castell Coch"
+          "slug": "pontcysyllte-aqueduct",
+          "name": "庞特卡萨斯特输水道",
+          "englishName": "Pontcysyllte Aqueduct"
         },
         {
-          "slug": "cardiff-bay-barrage",
-          "name": "卡迪夫湾水闸",
-          "englishName": "Cardiff Bay Barrage"
+          "slug": "rhossili-bay",
+          "name": "罗西里湾",
+          "englishName": "Rhossili Bay"
         }
       ]
     }

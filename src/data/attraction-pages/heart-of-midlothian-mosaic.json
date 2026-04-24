@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "中洛锡安之心马赛克",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "中洛锡安之心马赛克・Heart of Midlothian Mosaic・英国・爱丁堡",
-    "description": "你第一次站在皇家英里的石板路上，被两旁高耸的尖塔和灰黑色石墙包围着，耳边是风笛声和路人脚步的混响。你低头走着，忽然在脚边看到一颗暗红色的心形图案，镶嵌在粗砺的灰色地砖里，像一只沉睡的眼睛。那一刻你会觉得意外——这么一个小东西，居然能撑起一整段街区的传说。旁边有个穿着苏格兰短裙的老头刚吐了一口唾沫在心上，然后若无其事地走开了。你瞪大眼睛，他却回过头朝你挤挤眼，用浓重的苏格兰口音说：“好运，朋友，好运。”空气中弥漫着老城特有的潮湿石味和远处炸鱼薯条摊飘来的油香，而那颗心在雨后显得格外鲜艳，仿佛刚从故事里跳出来。\n我蹲下来用手轻轻摸了摸它的表面，冰冷而光滑，像一块被海水冲刷了千年的卵石。你能看见它周围的地砖被踩得微微凹陷，说明无数人曾在这里停留。一个举着向导旗的小姑娘正在给游客讲这个心的故事：它底下就是曾经的老托尔布斯监狱，关过很多囚犯，他们最后一眼看见的就是这扇门。有人拿出手机拍照，有人学着当地人的样子，假装吐口水，发出“呸”的声响，然后大家一起笑起来。那一刻，那颗心不再是冷冰冰的地标，而成了一个能让陌生人瞬间拉近距离的社交密码。你站在那里，能听到教堂的钟声，能闻到啤酒和古龙的混合味，能感受到这座城市的历史就在你的掌心里，滚烫而真实。\n到了傍晚，夕阳从城堡那边斜射过来，把整个皇家英里染成金黄，那颗心在地面上投下一道短短的阴影。这时的游客少了许多，一些下班后的本地人匆匆走过，有人依然会吐口水，有人会特意绕开，像是怕打扰到什么。一个穿着格子裙的小女孩拉着妈妈的手，蹲下来用食指指着那心，说：“妈妈，你踩到它会不会被诅咒？”妈妈笑着回答：“不会的，只有坏人才会。”这一幕让我想起小时候在老家巷子里听老人讲的神话——那些禁忌与祝福其实都只是人们寄托情感的仪式。而在爱丁堡，这种仪式变成了最日常的马路行为，不刻意，不做作，像呼吸一样自然。深夜里，路灯昏黄，那颗心几乎失去了颜色，但你知道它就在那里，像一颗潜藏的城市脉搏，不动声色地跳动着。"
+    "description": "你第一次站在皇家英里的石板路上，被两旁高耸的尖塔和灰黑色石墙包围着，耳边是风笛声和路人脚步的混响。你低头走着，忽然在脚边看到一颗暗红色的心形图案，镶嵌在粗砺的灰色地砖里，像一只沉睡的眼睛。那一刻你会觉得意外——这么一个小东西，居然能撑起一整段街区的传说。旁边有个穿着苏格兰短裙的老头刚吐了一口唾沫在心上，然后若无其事地走开了。你瞪大眼睛，他却回过头朝你挤挤眼，用浓重的苏格兰口音说：“好运，朋友，好运。”空气中弥漫着老城特有的潮湿石味和远处炸鱼薯条摊飘来的油香，而那颗心在雨后显得格外鲜艳，仿佛刚从故事里跳出来。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/charles-darwins-birthplace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查尔斯·达尔文出生地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charles Darwin's Birthplace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caerau-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡埃劳山丘堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caerau Hillfort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/storiel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯托里尔博物馆与艺术画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Storiel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kytra-lock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯特拉水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kytra Lock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "charles-darwins-birthplace",
-          "name": "查尔斯·达尔文出生地",
-          "englishName": "Charles Darwin's Birthplace"
+          "slug": "storiel",
+          "name": "斯托里尔博物馆与艺术画廊",
+          "englishName": "Storiel"
         },
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "kytra-lock",
+          "name": "凯特拉水闸",
+          "englishName": "Kytra Lock"
         },
         {
-          "slug": "caerau-hillfort",
-          "name": "卡埃劳山丘堡垒",
-          "englishName": "Caerau Hillfort"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         }
       ]
     }

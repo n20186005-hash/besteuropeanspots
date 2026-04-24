@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰高地 洛钦弗（Lochinver）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯托尔老人峰",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯托尔老人峰・Old Man of Stoer・英国・苏格兰高地 洛钦弗（Lochinver）",
-    "description": "我第一次见到Old Man of Stoer的时候，正赶上苏格兰西北岸特有的那种半明半暗的天气。车子停在Stoer小学旁边的碎石停车场上，刚推开门，一股咸涩的海风就裹挟着细密的雨雾扑面而来。沿着一条被羊蹄踏出的小径往西北方向走，脚下是紫红色的石南花和湿漉漉的苔藓，每一步都软绵绵的，像是踩在地球古老的呼吸上。走了大约十五分钟，转过一个低矮的山丘，那道“老人”的身影突然从海崖上冒出来——一根巨大的、近乎垂直的砂岩柱子，孤零零地站在北海的狂涛之上，像是一个沉默的哨兵，又像是一个被时间遗忘的老者，微微向大海倾斜着身躯。\n那天早上特别安静，只有风声、浪声，和海鸥尖锐的叫声在头顶盘旋。我能听见海水从柱子底部的洞穴里穿过的咕噜声，低沉而闷响，像巨兽在打鼾。空气里除了咸味，还有海藻腐烂的微腥和泥炭土壤的焦香。站在悬崖边缘，脚下就是六十米的垂直落差，海浪拍打在黑色的礁石上，碎成千万颗白色的珍珠。我发现“老人”其实并不是完全独立的，它身后还有几根稍微矮小的柱子和嶙峋的礁石，像是它家族的成员，散落在海面上。当地人告诉我，再过几百年，这些石柱都会陆续倒塌，最终变成海底的沙砾——想到这里，我忽然觉得眼前这个“老人”特别珍贵。\n来之前我在网上看过很多照片，但没有任何一张能还原那种身临其境的震撼。因为照片里看不到风的速度，闻不到海的气味，也感受不到脚下草地的起伏。我找了个背风的凹陷处坐下来，从背包里掏出保温杯喝了一口红茶。旁边一块湿漉漉的岩石上趴着一只胖乎乎的海鹦，它歪着脑袋看了我一眼，然后若无其事地继续整理羽毛。那一刻我觉得时间慢了下来，世界只剩下海浪的节拍和鸟鸣的旋律。我忽然明白为什么苏格兰人会把这个石柱叫做“老人”——它太像一位经历了无数风暴、沉默寡言的北方老人，什么都知道，却什么都不说。\n后来我沿着海岸线走了整整一个下午，从不同角度去看它。太阳偶尔从云缝里钻出来，把柱子的砂岩染成金黄，阴影在粗糙的表面上游走，像是老人脸上的皱纹。有一瞬间我甚至觉得它在微微颤抖——不是真的颤抖，是光线和海雾制造的错觉。那些被海水侵蚀出的小洞像眼睛，在暮色中泛着幽暗的光。我坐在远处一个草坡上，看着夕阳把“老人”的倒影拉长在海面上，直到天边的云被染成血红色，才恋恋不舍地往回走。回头再看一眼，它依然伫立在那里，仿佛在我到来之前和离开之后，它都不曾改变。"
+    "description": "我第一次见到Old Man of Stoer的时候，正赶上苏格兰西北岸特有的那种半明半暗的天气。车子停在Stoer小学旁边的碎石停车场上，刚推开门，一股咸涩的海风就裹挟着细密的雨雾扑面而来。沿着一条被羊蹄踏出的小径往西北方向走，脚下是紫红色的石南花和湿漉漉的苔藓，每一步都软绵绵的，像是踩在地球古老的呼吸上。走了大约十五分钟，转过一个低矮的山丘，那道“老人”的身影突然从海崖上冒出来——一根巨大的、近乎垂直的砂岩柱子，孤零零地站在北海的狂涛之上，像是一个沉默的哨兵，又像是一个被时间遗忘的老者，微微向大海倾斜着身躯。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-coed</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-inverlochy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老因弗洛奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Inverlochy Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scott-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    司\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">司各特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scott Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-college-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡大学旧学院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old College, The University of Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llywelyn-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卢埃林纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llywelyn Monument</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "betws-y-coed",
-          "name": "贝图斯-科伊德",
-          "englishName": "Betws-y-coed"
+          "slug": "scott-monument",
+          "name": "司各特纪念碑",
+          "englishName": "Scott Monument"
         },
         {
-          "slug": "old-inverlochy-castle",
-          "name": "老因弗洛奇城堡",
-          "englishName": "Old Inverlochy Castle"
+          "slug": "old-college-edinburgh",
+          "name": "爱丁堡大学旧学院",
+          "englishName": "Old College, The University of Edinburgh"
         },
         {
-          "slug": "cairngorms-national-park",
-          "name": "凯恩戈姆国家公园",
-          "englishName": "Cairngorms National Park"
+          "slug": "llywelyn-monument",
+          "name": "卢埃林纪念碑",
+          "englishName": "Llywelyn Monument"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "梅博尔（Maybole）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡尔津城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡尔津城堡・Culzean Castle・英国・梅博尔（Maybole）",
-    "description": "第一次见到卡尔津城堡，是在一个典型的苏格兰阴天。车沿着蜿蜒的乡间小道爬升，两旁是低矮的石墙和悠闲吃草的绵羊，空气里混杂着青草和咸咸的海风。转过最后一个弯道，视野骤然打开——白色的城堡像一只骄傲的鹰隼，稳稳地蹲踞在50米高的悬崖之上，身后是深邃的克莱德湾。灰色的云层被风吹散，露出一块湛蓝，阳光恰好洒在那些圆塔和雉堞上，仿佛整座城堡在发光。那一刻，我的呼吸都停滞了，手机忘了掏，只想就这样静静地站着，让风吹乱头发。\n走近才发现，城堡并不大，但比例极其舒展。乳白色的石头在阳光下泛着暖意，门廊的罗马柱典雅大方，可转角处又突然冒出苏格兰传统的角楼和枪眼，这种混搭竟意外地和谐。我推开门，脚踩过吱呀作响的橡木地板，空气里飘着陈年的木香和淡淡的薰衣草味。客厅里摆着丘吉尔手稿的复制品，壁炉里甚至还残留着昨日的炭灰。最让我心动的是圆形沙龙，弧形的落地窗正对着大海，水晶吊灯把阳光折射成无数细碎的光斑，恍惚中好像置身于《唐顿庄园》的某个午后。\n最打动我的，是城堡与自然的关系。它不躲在深山里，而是大胆地伸向悬崖，像要拥抱整片海湾。你可以在花园里找到一条隐蔽的小路，顺着它下到海滩，回头仰望——城堡巍然立于峭壁之巅，下方是轰鸣的浪花，头顶是盘旋的海鸥。那一刻，现代生活的烦恼都被海风吹散了。你开始理解，为什么苏格兰人如此珍视这片土地，为什么肯尼迪家族的血液里会流淌着对自由的渴望。\n卡尔津的魅力不在于金碧辉煌，而在于它让你感觉，自己是一位受邀的贵客，正在被这座城堡的石头、风与阳光温柔地接纳。每个角落都有故事，每个窗口都框着一幅流动的油画。即使只是坐在草坪上发呆，也足以让灵魂舒展。"
+    "description": "第一次见到卡尔津城堡，是在一个典型的苏格兰阴天。车沿着蜿蜒的乡间小道爬升，两旁是低矮的石墙和悠闲吃草的绵羊，空气里混杂着青草和咸咸的海风。转过最后一个弯道，视野骤然打开——白色的城堡像一只骄傲的鹰隼，稳稳地蹲踞在50米高的悬崖之上，身后是深邃的克莱德湾。灰色的云层被风吹散，露出一块湛蓝，阳光恰好洒在那些圆塔和雉堞上，仿佛整座城堡在发光。那一刻，我的呼吸都停滞了，手机忘了掏，只想就这样静静地站着，让风吹乱头发。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cors-y-llyn-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科西林国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cors y Llyn National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dryslwyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德莱斯林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dryslwyn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/peak-district-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    峰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">峰区国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Peak District National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-moil\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/john-knox-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰·诺克斯故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John Knox House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cors-y-llyn-national-nature-reserve",
-          "name": "科西林国家自然保护区",
-          "englishName": "Cors y Llyn National Nature Reserve"
+          "slug": "peak-district-national-park",
+          "name": "峰区国家公园",
+          "englishName": "Peak District National Park"
         },
         {
-          "slug": "castell-coch",
-          "name": "科奇城堡",
-          "englishName": "Castell Coch"
+          "slug": "castle-moil",
+          "name": "莫伊尔城堡",
+          "englishName": "Castle Moil"
         },
         {
-          "slug": "castell-dryslwyn",
-          "name": "德莱斯林城堡",
-          "englishName": "Castell Dryslwyn"
+          "slug": "john-knox-house",
+          "name": "约翰·诺克斯故居",
+          "englishName": "John Knox House"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣安德鲁斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣安德鲁斯城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "圣安德鲁斯城堡・St Andrews Castle・英国・圣安德鲁斯",
-    "description": "第一次站在圣安德鲁斯城堡面前的时候，我差点以为自己闯进了某个海鸥统治的王国。灰白色的石墙像被海水啃了千年的骨骼，就那么杵在断了半截的悬崖上，底下是蓝得发绿、绿得发狂的北海。浪头砸在岩石上碎成白沫的声音，从几百米外就传过来了，还裹着一股咸腥的海风，混着海鸥尖锐的叫声——那些家伙停在仅剩的塔楼尖顶上，歪着脑袋打量每一个游客，好像在说：你们这些两脚兽，敢进我们的地盘？\n你顺着海湾步道走过去，脚底的石板被无数人踩过，光滑得发亮，有些地方还嵌着贝壳碎。左手边是城堡的围墙，被海水和火药轮番折磨得千疮百孔，右手边就是陡峭的崖壁，没有栏杆，只有防浪的石头。低头看下去，海水在岩石缝里翻滚，卷出白色泡沫，像一大锅煮沸的奶油汤。有几个当地人在远处的沙滩上遛狗，狗在水里扑腾，主人悠闲地扔着石子。而在城堡的影子里，游客们正排队钻进那个巴掌大的入口——那下面藏着一座完整的盐矿般的迷宫。\n真正让这里与众不同的，是那种历史跟你只有一墙之隔的感觉。你站在地牢里，手摸着粗粝的石壁，头顶是十六世纪囚犯用指甲刻出来的字；你低头看脚下，地道入口的木板被掀开，黑洞洞的，一股潮湿的灰尘味飘上来，像地底下有只巨大的鼹鼠正在呼吸。我钻进去的时候，腰几乎弯到九十度，手机手电筒的光在狭窄的石道上晃动，头顶的岩石不断往下渗水，滴答滴答，像时间敲出来的心跳。\n但最震撼的不是地牢或密道，而是城堡本身的那种荒凉。它不像爱丁堡城堡那样被精心修复，没有皇家纹章，没有鲜艳的旗帜。它就那样破败着，屋顶烂掉，窗口张着大洞，炮台塌了一角，像一具被时间剥光了肉的白骨，赤裸裸地暴露在海风中。可正是这种残缺，让你更容易想象五百年前的那些夜晚：风呼啸着刮过塔楼，修士们的诵经声被吞没，大主教缩在书房里发抖，因为外面是新教徒砸门的怒吼。"
+    "description": "第一次站在圣安德鲁斯城堡面前的时候，我差点以为自己闯进了某个海鸥统治的王国。灰白色的石墙像被海水啃了千年的骨骼，就那么杵在断了半截的悬崖上，底下是蓝得发绿、绿得发狂的北海。浪头砸在岩石上碎成白沫的声音，从几百米外就传过来了，还裹着一股咸腥的海风，混着海鸥尖锐的叫声——那些家伙停在仅剩的塔楼尖顶上，歪着脑袋打量每一个游客，好像在说：你们这些两脚兽，敢进我们的地盘？"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/clydach-gorge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱达赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Clydach Gorge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castle-varrich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦里克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Varrich</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/innocent-railway-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    无\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">无辜铁路隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Innocent Railway Tunnel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunvegan-castle-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓韦根城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunvegan Castle & Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "clydach-gorge",
-          "name": "克莱达赫峡谷",
-          "englishName": "Clydach Gorge"
+          "slug": "castle-varrich",
+          "name": "瓦里克城堡",
+          "englishName": "Castle Varrich"
         },
         {
-          "slug": "llandudno-bandstand",
-          "name": "兰迪德诺音乐台",
-          "englishName": "Llandudno Bandstand"
+          "slug": "innocent-railway-tunnel",
+          "name": "无辜铁路隧道",
+          "englishName": "Innocent Railway Tunnel"
         },
         {
-          "slug": "castell-dinefwr",
-          "name": "迪内弗尔城堡",
-          "englishName": "Castell Dinefwr"
+          "slug": "dunvegan-castle-gardens",
+          "name": "邓韦根城堡与花园",
+          "englishName": "Dunvegan Castle & Gardens"
         }
       ]
     }

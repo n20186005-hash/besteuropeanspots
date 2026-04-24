@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "法克兰村，法夫（Falkland, Fife）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "法克兰宫（福克兰宫）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "法克兰宫（福克兰宫）・Falkland Palace & Garden (National Trust for Scotland)・英国・法克兰村，法夫（Falkland, Fife）",
-    "description": "穿过法克兰村那条窄窄的鹅卵石主街时，我差点就错过了入口。村子安静得像被按了暂停键，只有风吹过老石墙缝里野花的声音。直到瞥见一扇不起眼的木门边挂着的National Trust标志，我才意识到，那片灰扑扑的石墙后面藏着什么。推开门，一股混合了修剪草坪的草腥味、薰衣草和潮湿苔藓的气息扑面而来——这是法克兰宫花园给我的第一个拥抱。面前的宫殿正面，灰白色砂岩在午后阳光下泛着柔和的光，那些细长的窗框和石雕纹章就像宫廷蕾丝一样精致，完全没有中世纪城堡那种逼人的杀气。\n我站在花园的中央草坪上，四周被修剪整齐的黄杨树篱和果树林包围。远处传来网球场上球拍击打软木球的声音——是的，这里竟然还有一座仍在使用中的16世纪皇家网球场，那种规则和回弹都和现代网球完全不同，更像是历史活标本。我转了个身，看见宫殿北翼的小塔楼上，一面苏格兰王室旗子懒洋洋地飘着。那一刻，我突然理解了为什么玛丽女王当年那么喜欢这里。它不像爱丁堡城堡那样一副“我要打仗”的严肃模样，而是充满了私人住宅的温度，就像你最好的朋友家里有一个能让人忘掉所有烦恼的秘密花园。\n当地老爷爷告诉我，他们小时候就在这花园里追着蝴蝶跑，“那时候宫殿还没修复得这么漂亮，但那种野生野长的感觉反而更迷人。”他说这话时，正用一把旧剪刀修剪着靠近宫墙的玫瑰枝，剪刀喀嚓喀嚓的声音混合着蜜蜂的嗡嗡声，构成了一种只有这里才有的、慢悠悠的节奏。我沿着石阶走进果园，苹果树已经挂满了青涩的小果子，树下长满了白色的野花，空气里飘着微微发酵的苹果香。这地方最打动我的，不是那些精雕细琢的厅堂，而是这种自然与历史水乳交融的松弛感——就好像你随时可能撞见一个穿着天鹅绒袍子的女王，正弯腰摘下一朵百里香塞进袖口。\n黄昏时分，我坐在花园尽头那个破旧的石亭子里，看光线一点点从宫殿墙上退去。墙根的常春藤在金色余晖里几乎变成了半透明，远处教堂的钟声响了六下，回荡在整个山谷里。那一刻，我甚至觉得几百年的时间根本没有离开这里，只是换了个方式，化成了石墙上深深浅浅的沉淀。"
+    "description": "穿过法克兰村那条窄窄的鹅卵石主街时，我差点就错过了入口。村子安静得像被按了暂停键，只有风吹过老石墙缝里野花的声音。直到瞥见一扇不起眼的木门边挂着的National Trust标志，我才意识到，那片灰扑扑的石墙后面藏着什么。推开门，一股混合了修剪草坪的草腥味、薰衣草和潮湿苔藓的气息扑面而来——这是法克兰宫花园给我的第一个拥抱。面前的宫殿正面，灰白色砂岩在午后阳光下泛着柔和的光，那些细长的窗框和石雕纹章就像宫廷蕾丝一样精致，完全没有中世纪城堡那种逼人的杀气。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/caerau-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡埃劳山丘堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caerau Hillfort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blaenavon-ironworks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱纳文铁厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaenavon Ironworks</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-johns-house-trust\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣约翰古宅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St John's House Trust</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kilt-rock-waterfall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰裙岩瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilt Rock Waterfall - Creag An Fhèilidh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "caerau-hillfort",
-          "name": "卡埃劳山丘堡垒",
-          "englishName": "Caerau Hillfort"
+          "slug": "st-johns-house-trust",
+          "name": "圣约翰古宅",
+          "englishName": "St John's House Trust"
         },
         {
-          "slug": "blaenavon-ironworks",
-          "name": "布莱纳文铁厂",
-          "englishName": "Blaenavon Ironworks"
+          "slug": "kilt-rock-waterfall",
+          "name": "苏格兰裙岩瀑布",
+          "englishName": "Kilt Rock Waterfall - Creag An Fhèilidh"
         },
         {
-          "slug": "cardiff-bay-barrage",
-          "name": "卡迪夫湾水闸",
-          "englishName": "Cardiff Bay Barrage"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         }
       ]
     }

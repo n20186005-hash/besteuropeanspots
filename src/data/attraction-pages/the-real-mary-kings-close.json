@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰 爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "真正的玛丽金小巷",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "真正的玛丽金小巷・The Real Mary King's Close・英国・苏格兰 爱丁堡",
-    "description": "说实话，我真没想到在爱丁堡这么“绅士”的一座城市里，会藏着这样一个让你后背发凉的地下世界。站在皇家英里大道那扇不起眼的黑色大门前，我还犹豫过：就这么个看起来像地下室的入口，有什么好看的？可当穿上导览员递来的那件有点发旧的防雨外套，推开那扇满载锈迹的铁门，顺着一段陡峭到几乎要让你扶着墙才能走下去的石阶，一股混合了陈年石灰、尘土和某种说不清道不明霉味的潮气迎面扑来——那是一种仿佛被时间发酵了四百年的味道，在鼻腔里久久不散。脚下是凹凸不平的古老石板，在昏黄灯泡的映照下反射着潮湿的光，墙面上布满了深深浅浅的刻痕和黑斑，那根本不是装饰，而是当年居民们留下的印记。\n最让我头皮发麻的，不是那些关于鬼魂的恐怖故事，而是那种“真切”的窒息感。我们的导览员是个瘦高个的年轻人，他叫德克兰，他指着一间只有十来平米但住过十几口人的小房间说，这就是当时一个手工皮匠的全家老小，白天做活计晚上挤在一起睡觉的地方。天花板的木梁几乎就压在你头顶，我试着伸手能够到，也就两米出头的高度。我一瞬间就想，那时候的人平均身高比现在要矮，可即便如此，要在这种地方每天工作十六小时，然后挤在一起睡去，那种压抑感比任何恐怖电影都要强烈。墙角的一个石砌壁炉积满厚厚的灰烬，仿佛炉火刚在昨天熄灭。\n但这个景点的可怕之处，其实不在于环境有多阴森，而在于它在平淡中透露出的那种绝望的日常感。你看那些橱柜里的展示品：一个已经只剩一半的木头碗、几枚铸着国王头像的铜币、一只被老鼠啃烂的儿童皮鞋。它们就那么随意地放在那儿，没有玻璃罩、没有聚光灯，就像它们的主人只是出门买面包，马上就会回来拿走一样。当我凑近去看那些墙灰里刻着的歪歪扭扭的字母，那是一个孩子的涂鸦，看不出写的是什么。就在那一瞬间，我突然感到一股莫名的悲伤，就像我在无意中窥探了一个陌生人最私密、也最不体面的生活片段。那种感觉，不是恐惧，不是厌恶，而是一种混合了好奇、共情与悲悯的复杂情感。\n真正让人汗毛倒竖的，是德克兰开始讲述那个关于黑死病的故事。他关上某一段过道的灯，只留下手里那盏飘忽不定的煤油灯。光线在潮湿的石墙上跳跃，把每个人的影子拉得又长又扭曲。他说在1645年那场大瘟疫中，这条小巷被彻底封锁，所有出现症状的家庭都被活活封在内，包括一个据说名叫安妮的小女孩。德克兰说话的声音很平淡，甚至有点冷漠，但当他的煤油灯照到墙角那个摆着一个破烂玩偶的小窗台时，所有人的脚步都瞬间停了。我突然明白，这里不是一个旅游景点，它是一座不肯散去的剧场，一个被时间冻住的琥珀，里面包裹着四百年前普通苏格兰人的恐惧、挣扎和最后的沉默。"
+    "description": "说实话，我真没想到在爱丁堡这么“绅士”的一座城市里，会藏着这样一个让你后背发凉的地下世界。站在皇家英里大道那扇不起眼的黑色大门前，我还犹豫过：就这么个看起来像地下室的入口，有什么好看的？可当穿上导览员递来的那件有点发旧的防雨外套，推开那扇满载锈迹的铁门，顺着一段陡峭到几乎要让你扶着墙才能走下去的石阶，一股混合了陈年石灰、尘土和某种说不清道不明霉味的潮气迎面扑来——那是一种仿佛被时间发酵了四百年的味道，在鼻腔里久久不散。脚下是凹凸不平的古老石板，在昏黄灯泡的映照下反射着潮湿的光，墙面上布满了深深浅浅的刻痕和黑斑，那根本不是装饰，而是当年居民们留下的印记。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/roald-dahl-plass\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗尔德·达尔广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roald Dahl Plass</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marloes-sands\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马洛斯海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marloes Sands</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "roald-dahl-plass",
-          "name": "罗尔德·达尔广场",
-          "englishName": "Roald Dahl Plass"
+          "slug": "animal-wall",
+          "name": "动物墙",
+          "englishName": "Animal Wall"
         },
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "conwy-castle",
+          "name": "康威城堡",
+          "englishName": "Conwy Castle"
         },
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "marloes-sands",
+          "name": "马洛斯海滩",
+          "englishName": "Marloes Sands"
         }
       ]
     }

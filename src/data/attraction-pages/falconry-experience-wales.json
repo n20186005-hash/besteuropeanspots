@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Llanrug",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士猎鹰体验",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士猎鹰体验・Falconry Experience Wales・英国・Llanrug",
-    "description": "我第一次站在威尔士猎鹰体验中心的草甸上时，心里其实有点紧张。不，不是怕那些在空中盘旋的大家伙——而是怕自己笨手笨脚搞砸了什么。预约时的邮件里写得很清楚：要穿长袖长裤、闭口鞋，不能戴闪亮的首饰，手机静音。当时脑子里全是电影里那些半跪在骑士肩上的猎鹰画面，觉得这事得带上点仪式感。可等我真正推开那片生锈的农场铁门，被五十岁的驯鹰师Dafydd领进鹰舍的时候，瞬间就明白了一件事：这里没有仪仗队，只有风吹过橡树叶的簌簌声，和几双黄澄澄的眼睛安静地锁住你。\n空气里混着干草、木屑和一丁点儿生肉的味道——没有想象中那种猛禽的腥臊，反而更像走进了一间被阳光晒透了的柴房。Dafydd随手从旁边的金属架子上拎起一只游隼的缰绳，那鸟大约一公斤重，灰色羽毛上缀着细密的斑点，站在他戴着厚手套的胳膊上，安静得像一尊瓷器。他朝我努努嘴：“手伸出来，先认识一下Cleo，她很温柔的。”我把戴着皮手套的胳膊僵硬地横在胸前，Cleo轻盈地跳上来，爪子扣下的瞬间还是让我微微吸了口凉气。她的爪子冰凉，像被溪水冲过的卵石，呼吸带着淡淡的草籽味，羽毛蹭过我的手腕，发出细微的沙沙声。那一刻世界突然安静下来，你能听到她的心跳——不是通过耳朵，而是透过那薄薄的皮料，一下一下传到你骨头上。\n后来Dafydd带着我们往草甸深处走。五月的威尔士，草已经齐膝盖深了，每踩一步都惊起几只在草尖上打盹的蚱蜢。远处是斯诺登尼亚那些平缓如巨鲸背脊的山坡，影子在云块的缝隙里游动。我手里的Cleo突然腾空而起，翅膀张开时几乎无声，只带起一阵凉风掠过你脸颊。她在空中画了一个完美的椭圆，然后像一颗精准投下的石子，直直俯冲下来，落在一个小靶子上——那上面绑着一块鹌鹑肉。整个过程不到三秒。Dafydd在旁边鼓掌：“她今天心情好，没让我等太久。”我站在草地里，左手还举在空中，手套上还留着Cleo爪印的温度。\n最让我难忘的还不是飞行本身，而是之后的事情。Dafydd把我们领到一棵老橡树下，蹲下来，从帆布包里掏出一只毛茸茸、还没睁眼的小雏鹰——是蒙古猎隼的杂交种，才四天大。他把它放在我张开的掌心里，那团小东西挣扎着拱了拱，喉间发出一声细弱得几乎被风吹散的咕噜声。我低头看它，它的爪子只有米粒大，却已经紧紧扣住我的掌纹。Dafydd轻声说：“你记住这个感觉，它以后会长成能撕碎野兔的猎手，但现在它只是一小团需要你温暖的毛球。”那个瞬间，我忽然觉得手里捧着的不是一只鹰，而是整个大自然最原始、也最脆弱的信任。"
+    "description": "我第一次站在威尔士猎鹰体验中心的草甸上时，心里其实有点紧张。不，不是怕那些在空中盘旋的大家伙——而是怕自己笨手笨脚搞砸了什么。预约时的邮件里写得很清楚：要穿长袖长裤、闭口鞋，不能戴闪亮的首饰，手机静音。当时脑子里全是电影里那些半跪在骑士肩上的猎鹰画面，觉得这事得带上点仪式感。可等我真正推开那片生锈的农场铁门，被五十岁的驯鹰师Dafydd领进鹰舍的时候，瞬间就明白了一件事：这里没有仪仗队，只有风吹过橡树叶的簌簌声，和几双黄澄澄的眼睛安静地锁住你。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tower-of-london\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伦敦塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tower of London</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/powis-castle-and-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波伊斯城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Powis Castle and Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lochindorb-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛钦多布城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lochindorb Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cawdor-castle-and-gardens",
-          "name": "考德城堡与花园",
-          "englishName": "Cawdor Castle and Gardens"
+          "slug": "tower-of-london",
+          "name": "伦敦塔",
+          "englishName": "Tower of London"
         },
         {
-          "slug": "bryntail-lead-mine-buildings",
-          "name": "布林泰尔铅矿建筑",
-          "englishName": "Bryntail Lead Mine Buildings"
+          "slug": "powis-castle-and-garden",
+          "name": "波伊斯城堡与花园",
+          "englishName": "Powis Castle and Garden"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "lochindorb-castle",
+          "name": "洛钦多布城堡",
+          "englishName": "Lochindorb Castle"
         }
       ]
     }

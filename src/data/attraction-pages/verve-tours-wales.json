@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士活力之旅",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士活力之旅・Verve Tours Wales・英国・卡迪夫",
-    "description": "我第一次参加Verve Tours Wales的旅程是在一个阴沉的四月早晨。集合点设在康威城堡脚下那座不起眼的石屋里，推门进去，一股混合着旧木、咖啡和湿羊毛的气味扑面而来。向导是个叫Rhys的小伙子，留着乱蓬蓬的红胡子，穿着沾了泥巴的防水夹克，正往一个帆布背包里塞保温瓶和威尔士薄饼。他朝我咧嘴一笑，用带着浓重口音的英语说：“今天我们要去的地方，连我的爷爷都只去过两次。”那一瞬间，我就知道这和那些塞满游客的大巴游完全不同。\n他开着辆半旧的Land Rover把我们带上山间小路，车里放着竖琴和手风琴融合的民谣，窗外的景色像一卷慢慢铺开的绿色绒毯。雾气从谷底漫上来，把远处的羊群变得像移动的云朵。Rhys在一个岔路口突然停下，指着路边一块长满青苔的石头说，那是中世纪朝圣者歇脚的路标，他的曾祖父曾在这附近找到一个银质圣杯，后来捐给了卡迪夫博物馆。他说话的方式不像导游在背台词，而像在分享自己家族的秘密，每个细节都带着温度。\n中午我们到了一个叫Beddgelert的小村庄，溪水声和鸟鸣混在一起，空气里有湿润的泥土和野花的甜味。Rhys带我们走进一家只有三个桌子的pub，老板娘端上羊肉派和麦芽啤酒，自己就在旁边用威尔士语和熟客聊天，笑声在低矮的木梁间回荡。那一刻我忽然明白，Verve Tours Wales真正卖的不是风景，而是让你感觉自己不再是游客，而是一个被当地老友带上山的远房亲戚。\n傍晚时分，Rhys领我们爬上一个小丘，碎石路在脚下哗啦作响，汗水混着松针的气息。他吹了一声口哨，山谷里竟然有鹰啸回应。他回头说：“这就是我父亲小时候玩的游戏，他管那只鹰叫‘祖父’。”夕阳把所有东西都镀成了金色，我站在那儿，风吹过耳际，第一次觉得和威尔士这片土地发生了某种真实的心跳联系。"
+    "description": "我第一次参加Verve Tours Wales的旅程是在一个阴沉的四月早晨。集合点设在康威城堡脚下那座不起眼的石屋里，推门进去，一股混合着旧木、咖啡和湿羊毛的气味扑面而来。向导是个叫Rhys的小伙子，留着乱蓬蓬的红胡子，穿着沾了泥巴的防水夹克，正往一个帆布背包里塞保温瓶和威尔士薄饼。他朝我咧嘴一笑，用带着浓重口音的英语说：“今天我们要去的地方，连我的爷爷都只去过两次。”那一瞬间，我就知道这和那些塞满游客的大巴游完全不同。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/new-lanark\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新拉纳克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Lanark</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saint-govans-chapel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣戈万礼拜堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint Govan's Chapel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/parc-cwm-darran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克库姆达兰公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Cwm Darran</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/swallow-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    燕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">燕子瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Swallow Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fitzwilliam-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    菲\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">菲茨威廉博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Fitzwilliam Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dyfi-osprey-project\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戴菲鱼鹰保护项目</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dyfi Osprey Project</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "new-lanark",
-          "name": "新拉纳克",
-          "englishName": "New Lanark"
+          "slug": "swallow-falls",
+          "name": "燕子瀑布",
+          "englishName": "Swallow Falls"
         },
         {
-          "slug": "saint-govans-chapel",
-          "name": "圣戈万礼拜堂",
-          "englishName": "Saint Govan's Chapel"
+          "slug": "fitzwilliam-museum",
+          "name": "菲茨威廉博物馆",
+          "englishName": "The Fitzwilliam Museum"
         },
         {
-          "slug": "parc-cwm-darran",
-          "name": "帕克库姆达兰公园",
-          "englishName": "Parc Cwm Darran"
+          "slug": "dyfi-osprey-project",
+          "name": "戴菲鱼鹰保护项目",
+          "englishName": "Dyfi Osprey Project"
         }
       ]
     }

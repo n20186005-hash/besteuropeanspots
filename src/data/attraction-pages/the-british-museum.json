@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伦敦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "大英博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "大英博物馆・The British Museum・英国・伦敦",
-    "description": "从罗素广场地铁站钻出来，我先是被一股混合着各国香水、咖啡香和伦敦微湿空气的风撞了个满怀。眼前的它，那排粗壮的石柱子配上三角楣上那些“文明的偶像”雕塑，给我的第一印象其实是——这地方怎么看起来像是希腊某个神庙被整座搬到了伦敦的喧嚣街头上？说实话，我本来有点心理准备，知道它会很大，但当你真正爬上那宽大的台阶，穿过那些总在旋转门边拍照的游客，走进大中庭的那一刻，我脑子里只剩下一个念头：天呐，这个玻璃顶下的巨大中庭，就像一座城市的室内广场，阳光像瀑布一样倾泻下来，洒在中央那个圆形阅览室白色的石墙上，折射出一层淡金色的暖光。\n空气里有种旧书、古董木料和抛光地板的混合气味，游客的嗡嗡低语声像潮水一样在大空间里轻轻回荡。这里不像一个博物馆，更像一座被施了魔法的宫殿，每个角落都在轻轻喘息。我找了个角落的皮沙发坐下，看着熙熙攘攘的人群，有穿着校服排队的小学生、拿着导览器一脸郑重的背包客、还有几个穿着考究、用缓慢步伐丈量时光的老夫妇。这里对伦敦人来说，就像我们回家路上会经过的街心公园一样，是一个可以随时进去发呆、乘凉、甚至约会的日常空间，这种庞然大物身上的“日常感”，才是它最打动我的灵魂。\n走进埃及厅，灯泡的亮光昏黄，像一层薄雾，刻意模仿着法老陵墓里的幽暗氛围。这里有整面墙的浮雕和那根像石头森林一样庞大的圣甲虫石柱，空气中弥漫着一股石头和灰尘特有的清冷气味。我挤在一群游客中间，看着罗塞塔石碑玻璃罩前的小小空间，每个人的眼神都像朝圣者。光是这块灰不溜秋的石头，它上面的三语铭文，就像一把钥匙，硬生生撬开了古埃及文明被尘封的喉咙。我瞬间理解了，这个地方为什么被人称作“文明的大型超市”。"
+    "description": "从罗素广场地铁站钻出来，我先是被一股混合着各国香水、咖啡香和伦敦微湿空气的风撞了个满怀。眼前的它，那排粗壮的石柱子配上三角楣上那些“文明的偶像”雕塑，给我的第一印象其实是——这地方怎么看起来像是希腊某个神庙被整座搬到了伦敦的喧嚣街头上？说实话，我本来有点心理准备，知道它会很大，但当你真正爬上那宽大的台阶，穿过那些总在旋转门边拍照的游客，走进大中庭的那一刻，我脑子里只剩下一个念头：天呐，这个玻璃顶下的巨大中庭，就像一座城市的室内广场，阳光像瀑布一样倾泻下来，洒在中央那个圆形阅览室白色的石墙上，折射出一层淡金色的暖光。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prince-of-wales-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士亲王桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pen-y-garreg-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩恩加雷格水坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen y Garreg Dam</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pili-palas-nature-world\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮利帕拉斯自然世界</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pili Palas Nature World</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maen-llia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利亚巨石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen Llia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saint-govans-chapel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣戈万礼拜堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint Govan's Chapel</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "prince-of-wales-bridge",
-          "name": "威尔士亲王桥",
-          "englishName": "Prince of Wales Bridge"
+          "slug": "cardiff-castle",
+          "name": "卡迪夫城堡",
+          "englishName": "Cardiff Castle"
         },
         {
-          "slug": "pen-y-garreg-dam",
-          "name": "佩恩加雷格水坝",
-          "englishName": "Pen y Garreg Dam"
+          "slug": "maen-llia",
+          "name": "利亚巨石",
+          "englishName": "Maen Llia"
         },
         {
-          "slug": "pili-palas-nature-world",
-          "name": "皮利帕拉斯自然世界",
-          "englishName": "Pili Palas Nature World"
+          "slug": "saint-govans-chapel",
+          "name": "圣戈万礼拜堂",
+          "englishName": "Saint Govan's Chapel"
         }
       ]
     }

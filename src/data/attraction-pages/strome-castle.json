@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "洛查伦(Lochcarron)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯特罗姆城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯特罗姆城堡・Strome Castle・英国・洛查伦(Lochcarron)",
-    "description": "我无数次在照片里见过苏格兰高地的城堡废墟，但真的站在斯特罗姆城堡面前时，还是被那种毫无防备的苍凉感击中。车子停在A896公路旁那个几乎要长满荆棘的停车场，推开车门，首先扑来的不是城堡的轮廓，而是湖畔草甸上混合着湿润泥土与海盐的风。对岸的云杉林在灰色天空下沉默地站着，湖面像一面抛了光的旧铜镜，泛着冷铁色的波澜。顺着一条被牛踩过无数次的土路往下走，绕过一片低矮的灌木丛，那座废墟就突然从坡坎处冒了出来——它不比你想象中高，甚至有些矮小，可它孤独地蹲在伸向湖心的岩石堆上，背后是连绵起伏的紫色山峦，于是那股子倔强的气韵一下子就撑开了整个画面。\n走近了，才能看清墙体是用本地随处可见的灰绿色石板和花岗岩垒起来的，没有砂浆的痕迹，每块石头的棱角都被风雨磨得圆润了。城堡只剩下两面大约四五米高的外墙，上面开着几扇空荡荡的窗洞，像骷髅的眼窝。墙根处堆着坍塌的碎石，青苔和羊茅草从缝隙里探出身子，给这具冷硬的骨骼镶上了柔软的绒边。脚底下吱嘎作响的是枯掉的石楠和碎贝，你还能闻到一缕若有若无的烟熏味——大概是附近牧羊人曾在这里升起过篝火。湖水的拍打声很轻，但风一过大得能把你的头发吹乱，仿佛在提醒你：这里曾经是麦克唐纳家族的瞭望台，他们站在同样的窗洞前注视过湖面上驶来的敌船。\n当地人似乎早已习惯了这个邻居的存在。我在那里逗留了一个下午，只遇到三拨人：一对牵着狗的老夫妇，两个骑山地车的中学生，还有一位独自坐在墙根阴凉处喝保温杯里咖啡的背包客。没有人喧哗，大家都像怕惊扰了什么一样压低了声音。这种感觉很微妙——它不是那种被游客包围的打卡地，而更像是一个被人遗忘的私藏角落，只对那些愿意绕远路、甘愿忍受淡季阴天的人敞开。我坐在一块倾倒的石板上，看着湖对岸山脚的农庄升起袅袅炊烟，忽然觉得，斯特罗姆城堡的迷人之处恰恰在于它的“不完整”：它放弃了用华丽的外表讨好你，而是把所有的叙事都留给了天空、湖水和呼啸不止的风。"
+    "description": "我无数次在照片里见过苏格兰高地的城堡废墟，但真的站在斯特罗姆城堡面前时，还是被那种毫无防备的苍凉感击中。车子停在A896公路旁那个几乎要长满荆棘的停车场，推开车门，首先扑来的不是城堡的轮廓，而是湖畔草甸上混合着湿润泥土与海盐的风。对岸的云杉林在灰色天空下沉默地站着，湖面像一面抛了光的旧铜镜，泛着冷铁色的波澜。顺着一条被牛踩过无数次的土路往下走，绕过一片低矮的灌木丛，那座废墟就突然从坡坎处冒了出来——它不比你想象中高，甚至有些矮小，可它孤独地蹲在伸向湖心的岩石堆上，背后是连绵起伏的紫色山峦，于是那股子倔强的气韵一下子就撑开了整个画面。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/iona-abbey-and-nunnery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾奥娜修道院和修女院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Iona Abbey and Nunnery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bride-veil-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新娘面纱瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bride's Veil Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/paxtons-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克斯顿塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Paxton's Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/commando-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    突\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">突击队纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Commando Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "iona-abbey-and-nunnery",
-          "name": "艾奥娜修道院和修女院",
-          "englishName": "Iona Abbey and Nunnery"
+          "slug": "bride-veil-falls",
+          "name": "新娘面纱瀑布",
+          "englishName": "Bride's Veil Falls"
         },
         {
-          "slug": "charter-boat-wales",
-          "name": "威尔士包船游",
-          "englishName": "Charter Boat Wales"
+          "slug": "paxtons-tower",
+          "name": "帕克斯顿塔楼",
+          "englishName": "National Trust - Paxton's Tower"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "commando-memorial",
+          "name": "突击队纪念碑",
+          "englishName": "Commando Memorial"
         }
       ]
     }

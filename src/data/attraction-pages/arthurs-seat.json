@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "亚瑟王座",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "亚瑟王座・Arthur's Seat・英国・爱丁堡",
-    "description": "我是在一个灰蒙蒙的九月清晨抵达爱丁堡的。从Waverley火车站钻出来，还没来得及看清老城的尖塔，视线就被东边一座巨大的绿色山体勾住了。它不像山，倒像一头卧着的怪兽，背脊上的褶皱被晨雾轻轻裹着，透着一股沉静得让人心慌的力量。那就是亚瑟王座。我后来才知道，很多人第一次看到它都会愣住——因为它实在太大、太近了，仿佛就蹲在皇家英里大道的尽头，随时可能站起身来。\n当你真正走近荷里路德公园，那种视觉压迫感会变成一种温柔的邀请。草坪上有人在遛狗，有孩子在追逐，还有几个年轻人干脆躺平了，任凭苏格兰特有的那种夹杂着青草和泥土的风吹过脸颊。公园入口处没有栅栏，也没有售票亭，亚瑟王座就这么慷慨地张开双臂，好像在对你说：来吧，随便走。空气中飘来一股淡淡的苔藓味，混着远处面包店飘来的黄油香——从山上下来，你一定能闻到。\n最让我着迷的是这座山的性格。它的两侧完全不同：南坡陡峭荒凉，裸露的玄武岩像骨头一样支棱着；北坡则舒缓温柔，被厚厚的草甸覆盖，踩上去像踩在一条绿色的地毯上。当地人把这里当作家门口的后花园——我见过穿着西装的上班族午休时间气喘吁吁地跑上山顶，也见过头发花白的老太太牵着狗慢悠悠地散步。他们脸上的表情很平静，好像这只是他们日常里再普通不过的一部分。但对我这种外来者来说，每一步都像在踩进一部三亿年的地质史。\n爬到一半的时候我回头看了一眼，爱丁堡老城就像一张摊开的地图，城堡、尖塔、石桥、烟囱全都变成了玩具。风吹得耳朵发疼，但心却烫得厉害。那一刻我突然懂了为什么这座山叫亚瑟王座——不是因为它真跟那个传说里的国王有什么关系，而是因为站在这上面，你确实会有一种君临天下的错觉。整个城市的呼吸就在你脚下，而你自己只是山上一粒被风吹动的石子。"
+    "description": "我是在一个灰蒙蒙的九月清晨抵达爱丁堡的。从Waverley火车站钻出来，还没来得及看清老城的尖塔，视线就被东边一座巨大的绿色山体勾住了。它不像山，倒像一头卧着的怪兽，背脊上的褶皱被晨雾轻轻裹着，透着一股沉静得让人心慌的力量。那就是亚瑟王座。我后来才知道，很多人第一次看到它都会愣住——因为它实在太大、太近了，仿佛就蹲在皇家英里大道的尽头，随时可能站起身来。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tara-river-canyon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塔拉河峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tara River Canyon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alcoutim-guardiana-river\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔科廷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alcoutim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/seefeld-in-tirol-mountain-village-lake-church\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞弗尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Seefeld in Tirol</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/conwy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/grevenmacher-luxembourg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷文马赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Grevenmacher</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saalfelder-feengrotten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔费尔德仙女石窟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saalfelder Feengrotten</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "tara-river-canyon",
-          "name": "塔拉河峡谷",
-          "englishName": "Tara River Canyon"
+          "slug": "conwy-castle",
+          "name": "康威城堡",
+          "englishName": "Conwy Castle"
         },
         {
-          "slug": "alcoutim-guardiana-river",
-          "name": "阿尔科廷",
-          "englishName": "Alcoutim"
+          "slug": "grevenmacher-luxembourg",
+          "name": "格雷文马赫",
+          "englishName": "Grevenmacher"
         },
         {
-          "slug": "seefeld-in-tirol-mountain-village-lake-church",
-          "name": "塞弗尔德",
-          "englishName": "Seefeld in Tirol"
+          "slug": "saalfelder-feengrotten",
+          "name": "萨尔费尔德仙女石窟",
+          "englishName": "Saalfelder Feengrotten"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "约克",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "约克地牢",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "约克地牢・The York Dungeon・英国・约克",
-    "description": "站在克利福德塔旁边，你很难错过那扇巨大的黑色铁门。门上挂着一副沉重的铁链，门缝里隐约传出压抑的惨叫和低沉的鼓声。我那天下午两点多到的，门口已经排了二十多个人，大家互相挤着，脸上写着既兴奋又紧张的表情。空气里飘着一股老木头混合着潮湿石头的味道，还有一点点焦糊味——后来我才知道那是特效熏香。守卫打扮的演员突然从门后探出头来，咧嘴一笑，露出一口假血，说：欢迎来到你们最不想来的地方。那时候我心跳直接快了一拍。\n走进地牢，光线瞬间被吞掉了。只剩下低垂的红色壁灯在石头墙壁上投下晃动的影子。脚下的石板地湿漉漉的，你能听到自己的脚步声在狭窄的走廊里回荡，偶尔还有水滴落进暗渠的声音。第一个场景是维京人入侵——演员穿着破旧的皮甲，挥舞着战斧冲进房间，斧刃擦着我的耳朵边儿掠过，带起一股凉风。我旁边的姑娘尖叫着往后跳，但所有人都笑了，因为那个维京人突然停下来，用标准的约克口音问：你见过我的长船吗？这种幽默和恐怖交替出现的节奏，贯穿了整个七十分钟的旅程。\n第二个让我印象特别深的场景是黑死病房间。灯光变成了惨绿色，地上堆着假尸体，演员半躺在一堆稻草里，脸上化着脓疮妆，一边咳嗽一边哀嚎说：快跑吧，城里的大夫都死了！房间里的风扇吹出一股混合着甜腻腐烂味道的气流，配合着隔壁传来的丧钟声，你简直能闻到死亡的气息。最绝的是，当你以为他只是个吓人的疯子时，他突然站起来，用严肃的语气告诉你十四世纪约克一半以上的人是怎么被瘟疫夺命的。信息量不小，但全灌进了你的脑子里。\n最后一个爆点是女巫审判。演员是一位穿着黑色长袍的法官，戴着假发，手里攥着一本厚厚的圣经。他会让观众席里选一个人上去当被告，用那种居高临下的审判官眼神盯着你看，问你是不是和魔鬼交易了灵魂。我朋友被选中了，紧张得话都说不利索。法官突然一拍桌子，整个房间的灯光闪烁起来，墙壁上的投影显示出火焰和刑具的意象。结局当然是荒诞的——他宣布我朋友无罪，但观众从中学到了十七世纪狩猎女巫的荒诞真相。走出地牢重新看到阳光的那一刻，我大口喘息，心里却全是：这七十分钟值了。"
+    "description": "站在克利福德塔旁边，你很难错过那扇巨大的黑色铁门。门上挂着一副沉重的铁链，门缝里隐约传出压抑的惨叫和低沉的鼓声。我那天下午两点多到的，门口已经排了二十多个人，大家互相挤着，脸上写着既兴奋又紧张的表情。空气里飘着一股老木头混合着潮湿石头的味道，还有一点点焦糊味——后来我才知道那是特效熏香。守卫打扮的演员突然从门后探出头来，咧嘴一笑，露出一口假血，说：欢迎来到你们最不想来的地方。那时候我心跳直接快了一拍。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/innocent-railway-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    无\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">无辜铁路隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Innocent Railway Tunnel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prince-of-wales-dock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士王子码头</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Dock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/camera-obscura-world-of-illusions\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    暗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">暗箱博物馆与幻觉世界</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Camera Obscura & World of Illusions</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/croeso-i-gymru-welcome-sign\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士欢迎标志牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Croeso i Gymru Welcome Sign</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "the-tenement-house-glasgow",
-          "name": "公寓博物馆（苏格兰国家信托）",
-          "englishName": "The Tenement House (National Trust for Scotland)"
+          "slug": "prince-of-wales-dock",
+          "name": "威尔士王子码头",
+          "englishName": "Prince of Wales Dock"
         },
         {
-          "slug": "innocent-railway-tunnel",
-          "name": "无辜铁路隧道",
-          "englishName": "Innocent Railway Tunnel"
+          "slug": "camera-obscura-world-of-illusions",
+          "name": "暗箱博物馆与幻觉世界",
+          "englishName": "Camera Obscura & World of Illusions"
         },
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "croeso-i-gymru-welcome-sign",
+          "name": "威尔士欢迎标志牌",
+          "englishName": "Croeso i Gymru Welcome Sign"
         }
       ]
     }

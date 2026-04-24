@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "马汉莱斯（Machynlleth）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "欧文·格林杜尔中心",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "欧文·格林杜尔中心・Owain Glyndŵr Centre・英国・马汉莱斯（Machynlleth）",
-    "description": "第一次推开那扇沉重的橡木门时，一股混合着旧木头、蜂蜡和淡淡灰尘的气味扑面而来，像是时间本身在这里悄悄发酵。我在一个初秋的下午走进马汉莱斯镇的主街，街道两旁满是石头房子和卖威尔士毛毯的小店，空气中飘着炸鱼薯条店里飘来的醋味和烤牛排派的热气。而这座不起眼的两层建筑就安静地夹在面包店和慈善商店之间，外墙上的铭牌用威尔士语写着“Senedd Glyndŵr”，翻译过来就是格林杜尔议会。进去之后，光线一下子暗了下来，楼梯嘎吱作响，仿佛每一步都在提醒你：这里曾经站过威尔士历史上最伟大的反抗者。\n一楼展厅最打动我的是那面巨大的威尔士红龙旗帜，它并非精密的现代复制品，而是按照当时格林杜尔军队使用的样式用粗麻布手工缝制而成，边角已经磨损，龙的眼睛画得有点歪，却因此格外有力量。站在旗帜前，你能想象1404年的一个冬日清晨，格林杜尔和他的支持者们在这间大厅里围着火炉争论国家未来的场景——那些面孔被火光映得忽明忽暗，威尔士语和拉丁语混杂在一起，窗外是覆盖着白雪的山丘。这里的温度很低，我记得自己搓了搓手，呼出的白气在阳光下清晰可见。工作人员是一位头发花白的威尔士老太太，她用带着浓重丘陵口音的英语告诉我，格林杜尔当年就站在我现在站的位置上宣布威尔士独立，而他所面对的那扇窗至今未变——透过它，你能看到远处贝温山脉的轮廓。\n真正让我愣住的是二楼的一个小房间，里面摆放着格林杜尔的私人印章复制品（真品藏在加的夫国家博物馆）。那是一枚精致的银质印章，刻着威尔士狮子和拉丁文“Owain, Prince of Wales”。据说当年他签署的每一份外交文件都要盖上这枚印章，向欧洲各国表明威尔士不是一个叛乱省份，而是一个主权国家。房间里还播放着一段威尔士语的录音，是一位本地学者朗诵格林杜尔写给法国国王查理六世的信件节选，虽然我听不懂，但那种缓慢而坚定的语调仿佛把六百年前的某种信念直接注入了你的耳朵。我坐在那里听了整整两遍，直到门外传来一群小学生叽叽喳喳的参观声才回过神来。\n这就是这座小博物馆的魔力——它没有金碧辉煌的装饰，没有炫目的科技互动，却能让你在旧木地板的光泽中、在褪色地图的纹理里、在偶尔穿堂而过的冷风中，真真切切地触摸到一段几乎被英格兰主流历史埋没的故事。每次走出大门重新回到马汉莱斯热闹的街道上，我都有一种不真实感，仿佛自己刚从另一套时间里旅行回来。那种感觉有点像小时候从阁楼上翻出一本落满灰尘的连环画，里面画着一个从未听说的英雄，而你知道这本书已经很久没有人翻开过了。"
+    "description": "第一次推开那扇沉重的橡木门时，一股混合着旧木头、蜂蜡和淡淡灰尘的气味扑面而来，像是时间本身在这里悄悄发酵。我在一个初秋的下午走进马汉莱斯镇的主街，街道两旁满是石头房子和卖威尔士毛毯的小店，空气中飘着炸鱼薯条店里飘来的醋味和烤牛排派的热气。而这座不起眼的两层建筑就安静地夹在面包店和慈善商店之间，外墙上的铭牌用威尔士语写着“Senedd Glyndŵr”，翻译过来就是格林杜尔议会。进去之后，光线一下子暗了下来，楼梯嘎吱作响，仿佛每一步都在提醒你：这里曾经站过威尔士历史上最伟大的反抗者。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-botanic-garden-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Botanic Garden of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-stone\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Stone</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dumbarton-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    敦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">敦巴顿城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dumbarton Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dinas-bran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪纳斯布兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinas Brân</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tenby-pembrokeshire\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    滕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">滕比</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tenby</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "national-botanic-garden-wales",
-          "name": "威尔士国家植物园",
-          "englishName": "National Botanic Garden of Wales"
+          "slug": "castell-dinas-bran",
+          "name": "迪纳斯布兰城堡",
+          "englishName": "Castell Dinas Brân"
         },
         {
-          "slug": "arthurs-stone",
-          "name": "亚瑟石",
-          "englishName": "Arthur's Stone"
+          "slug": "borth",
+          "name": "博斯",
+          "englishName": "Borth"
         },
         {
-          "slug": "dumbarton-castle",
-          "name": "敦巴顿城堡",
-          "englishName": "Dumbarton Castle"
+          "slug": "tenby-pembrokeshire",
+          "name": "滕比",
+          "englishName": "Tenby"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西 (Swansea)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "克莱达赫峡谷",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "克莱达赫峡谷・Clydach Gorge・英国・斯旺西 (Swansea)",
-    "description": "第一次听说克莱达赫峡谷，是在斯旺西一个老酒吧里。吧台后面的老头听说我喜欢徒步，眼睛一亮说：“你去过克莱达赫吗？那里比巨人之路酷十倍，而且没人跟你挤。”第二天一大早，我按他的指引把车停在峡谷口的一棵歪脖子橡树下，推开车门的瞬间，一股混合了湿苔藓、铁锈和野薄荷的气味扑面而来。那是九月的一个清早，雾气还没散，阳光从树冠缝隙里射下来，像一把把金粉撒在满是碎石的小路上。我沿着溪流往前走，耳边就只有两种声音：水声和鸟叫。水声是那种不断变化的合唱——远处是闷雷似的瀑布轰鸣，走到跟前变成哗啦啦的脆响，而在浅滩处水贴着岩石流过，发出像丝绸摩擦一样的沙沙声。\n走了大约十分钟，一座黑漆漆的铁桥突然从树丛里跳出来。它跨在峡谷最窄的地方，栏杆上全是铜绿色的铁锈，桥面的木板已经被踩得中间凹下去，走路时吱呀吱呀响。我停在那儿好一会儿，用手摸那些冰凉的铸铁，上面残留着一百多年前工匠刻下的字母和花纹，有些地方被爬山虎亲密地裹住，像皮肤上长出的青筋。那一刻我突然觉得这个峡谷不是死的，它有体温，有脉搏。桥下的水潭很安静，碧绿得像一块翡翠，倒映着上方密不透风的树冠，偶尔一片落叶飘下，激起的涟漪把倒影打碎成无数碎片。\n再往里走，感官就被彻底放大了。我被一阵突兀的金属撞击声吸引，抬头看见一个巨大的铸铁齿轮骄傲地从岩壁上探出头，旁边是半倒塌的熔炉，炉口长出了一棵小橡树，树根沿着砖缝爬下来，像巨大的手抓住废墟。空气中弥漫着一种微弱的焦味，不知道是错觉还是遗留的工业尘埃。我凑近熔炉内部，里面黑漆漆的，但隐约能看到残留的深红色，像是铁水凝固后留下的记忆。站在废墟上往上看，陡峭的峡谷壁像被巨斧劈开一样，从谷底到坡顶至少有百米高，满山坡都是蕨类植物和野生的蓝铃花，偶尔能看到一只狍子从林间掠过，尾巴一闪就不见了。\n最让我震撼的是峡谷最深处的瀑布，瀑布很小，落差大概十米，水流打在下方的一个深潭里，溅起的水雾在阳光下形成了一小段彩虹。但真正让我站在那儿半天走不动路的，不是瀑布本身，而是一个细节：瀑布背后的岩壁上嵌着几根锈得不成样子的铁轨，大概是当年运送矿石的矿车轨道，它们从瀑布上方断下来，垂在水面上方，随着水流的冲击发出叮叮当当的响声，像是一首永不停歇的工业安魂曲。我在那里坐了很久，看着铁轨上的锈迹被水冲刷成一道道红褐色的水痕，心里对这个地方生出了深深的敬畏——它不是那种被精心维护的景点，而是被时间遗忘后又捡回来的野孩子，粗糙、倔强，却美得让人心颤。"
+    "description": "第一次听说克莱达赫峡谷，是在斯旺西一个老酒吧里。吧台后面的老头听说我喜欢徒步，眼睛一亮说：“你去过克莱达赫吗？那里比巨人之路酷十倍，而且没人跟你挤。”第二天一大早，我按他的指引把车停在峡谷口的一棵歪脖子橡树下，推开车门的瞬间，一股混合了湿苔藓、铁锈和野薄荷的气味扑面而来。那是九月的一个清早，雾气还没散，阳光从树冠缝隙里射下来，像一把把金粉撒在满是碎石的小路上。我沿着溪流往前走，耳边就只有两种声音：水声和鸟叫。水声是那种不断变化的合唱——远处是闷雷似的瀑布轰鸣，走到跟前变成哗啦啦的脆响，而在浅滩处水贴着岩石流过，发出像丝绸摩擦一样的沙沙声。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/seefeld-in-tirol-mountain-village-lake-church\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞弗尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Seefeld in Tirol</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lappeenranta-fortress-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉彭兰塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lappeenranta</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sveti-stefan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣斯特凡岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sveti Stefan</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/morges-castle-tulip-festival\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫尔日</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Morges</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pontcysyllte-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    庞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">庞特卡萨斯特输水道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pontcysyllte Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kavadarci-tikves-wine-region\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡瓦达尔齐</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kavadarci</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "seefeld-in-tirol-mountain-village-lake-church",
-          "name": "塞弗尔德",
-          "englishName": "Seefeld in Tirol"
+          "slug": "morges-castle-tulip-festival",
+          "name": "莫尔日",
+          "englishName": "Morges"
         },
         {
-          "slug": "lappeenranta-fortress-city",
-          "name": "拉彭兰塔",
-          "englishName": "Lappeenranta"
+          "slug": "pontcysyllte-aqueduct",
+          "name": "庞特卡萨斯特输水道",
+          "englishName": "Pontcysyllte Aqueduct"
         },
         {
-          "slug": "sveti-stefan",
-          "name": "圣斯特凡岛",
-          "englishName": "Sveti Stefan"
+          "slug": "kavadarci-tikves-wine-region",
+          "name": "卡瓦达尔齐",
+          "englishName": "Kavadarci"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯 (Brecon)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "皇家威尔士军团博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "皇家威尔士军团博物馆・The Royal Welsh Regimental Museum・英国・布雷肯 (Brecon)",
-    "description": "推开博物馆那扇沉重的橡木门时，一阵混杂着旧木、皮革和金属的气味立刻扑过来，像是时间被封存在这里已经很久很久了。阳光从窄窗斜射进来，把地板上厚厚的灰尘照得金灿灿的，那些灰尘并不是脏，而是像一层细密的记忆绒毯，踩上去会发出轻微的回响。大厅中央摆着一尊维多利亚时期的步兵蜡像，穿着红色的军装，身姿笔挺，眼神直直地望向远处的山谷——那是布雷肯的布赫山脉，曾经是士兵们训练和远眺家乡的地方。\n你走近陈列柜，看到里面的一顶熊皮高帽，帽檐已经有些褪色，但每一根毛都还倔强地竖着。旁边的标签写着这是1882年英国远征埃及时的战利品，你能想象它在烈日下被汗水浸透，又在尼罗河的风沙中磨损的样子。更震撼的是角落里的那面军旗，被弹片撕开了几道口子，旗帜上绣着的威尔士龙已经被时间磨得模糊了，但缝在边缘的金线还在微弱地闪光，像是士兵的最后一丝骄傲。\n听觉在这里被放大：你的脚步会撞上厚实的石板地，回声沿着走廊蔓延出去，仿佛在跟那些古老的脚步声对话。偶尔有风吹过，挂在墙上的勋章会轻轻碰撞，发出细碎的叮当声。二楼的一间屋里，一台老式留声机播放着威尔士军歌，那旋律带着苍凉的凯尔特音调，像是从深山里传来的呼喊。我记得有一位退休的老兵，他穿着便装，胸前别着几枚勋章，在留声机旁站了很久，然后低声哼唱起来，声音沙哑但很有力——那一刻，这间博物馆不再是玻璃柜里的冷物，而成了活着的记忆。\n最打动人心的是它不像一般军事博物馆那样冷冰冰地陈列武器，而是把士兵的日常生活揉碎了展现在你眼前。你会看到他们写给妻子的家书，字迹潦草却深情；看到他们在战壕里刻的木雕，粗糙但充满乡愁；甚至看到他们用子弹壳做成的打火机和餐具。这些零碎的物件拼出了一个完整的灵魂：他们不只是战争机器，更是丈夫、父亲和儿子，是威尔士山谷里走出来的普通人。走出博物馆时，夕阳正好把布雷肯的石头房子染成琥珀色，广场上孩子们在追鸽子玩耍，这一刻你会突然明白：和平有多珍贵，那些为它付出过的人有多值得被记住。"
+    "description": "推开博物馆那扇沉重的橡木门时，一阵混杂着旧木、皮革和金属的气味立刻扑过来，像是时间被封存在这里已经很久很久了。阳光从窄窗斜射进来，把地板上厚厚的灰尘照得金灿灿的，那些灰尘并不是脏，而是像一层细密的记忆绒毯，踩上去会发出轻微的回响。大厅中央摆着一尊维多利亚时期的步兵蜡像，穿着红色的军装，身姿笔挺，眼神直直地望向远处的山谷——那是布雷肯的布赫山脉，曾经是士兵们训练和远眺家乡的地方。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/folly-farm-adventure-park-and-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福利农场探险公园与动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Folly Farm Adventure Park and Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brean-down-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林当堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brean Down Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/george-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    乔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">乔治广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">George Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chester-castle-agricola-tower-castle-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特城堡：阿格里科拉塔和城堡城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Castle: Agricola Tower and Castle Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marloes-sands\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马洛斯海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marloes Sands</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "folly-farm-adventure-park-and-zoo",
-          "name": "福利农场探险公园与动物园",
-          "englishName": "Folly Farm Adventure Park and Zoo"
+          "slug": "chester-castle-agricola-tower-castle-walls",
+          "name": "切斯特城堡：阿格里科拉塔和城堡城墙",
+          "englishName": "Chester Castle: Agricola Tower and Castle Walls"
         },
         {
-          "slug": "brean-down-fort",
-          "name": "布林当堡垒",
-          "englishName": "Brean Down Fort"
+          "slug": "marloes-sands",
+          "name": "马洛斯海滩",
+          "englishName": "Marloes Sands"
         },
         {
-          "slug": "george-square",
-          "name": "乔治广场",
-          "englishName": "George Square"
+          "slug": "animal-wall",
+          "name": "动物墙",
+          "englishName": "Animal Wall"
         }
       ]
     }

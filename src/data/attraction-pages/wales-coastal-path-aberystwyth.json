@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯海岸步道",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "阿伯里斯特威斯海岸步道・Wales Coastal Path Aberystwyth・英国・阿伯里斯特威斯",
-    "description": "第一次踏上阿伯里斯特威斯海岸步道的那个清晨，海风裹着咸腥味和紫杉木的清香扑面而来，我的防晒霜在额头上化成了一层薄薄的膜。脚下的石板路还带着夜晚的潮气，踩上去微微打滑，远处传来海鸥粗粝的叫声，像是有人用砂纸摩擦瓦片。我站在镇中心的海滨步道南端，左手边是维多利亚时代的铸铁灯柱，灯罩里还残留着昨夜雨水折射的微光，右手边则是无垠的凯尔特海，灰蓝色的水面上漂浮着无数银白色的光斑，那是太阳刚刚爬过山脊时投下的碎金。\n沿着步道向北走大约二十分钟，海滩上三三两两的当地老人已经摆好了折叠椅，他们裹着厚厚的防风夹克，手里端着热气腾腾的保温杯，眼神却像越过海平线在看另一个世界。一个戴鸭舌帽的老先生冲我咧嘴一笑，用带着浓重威尔士口音的英语说：“Good day for walking, boyo.” 他的牙齿被海风吹得发黄，但笑容真诚得让人心里一暖。那一刻我突然意识到，这条路不只是给游客走的，它是阿伯里斯特威斯人每天的生活背景板——人们在这里遛狗、晨跑、捡贝壳，甚至把野餐桌搬到悬崖边，就着风声和巨浪声吃三明治。\n最打动我的并非壮丽的悬崖，而是步道上那些细微的痕迹：被海浪打磨得发亮的鹅卵石上趴着绿色的海藻，像翡翠色的蜗牛壳；一段废弃的铁路枕木上刻着“1944”和一颗歪歪扭扭的心形涂鸦；石缝里长出的紫红色矢车菊在风中摇摇欲坠，却倔强地开出了一簇簇小花。这些细节让我觉得，这条步道不是一条被规划好的旅游路线，而是大海和时间共同雕刻的作品，每一步都踩在历史的纹理上。\n走到半程时，海风忽然变大了，我的头发被吹得疯狂抽打脸颊，耳朵里只剩下风声和涛声的混响。我不得不弯下腰，像一只逆风前行的企鹅。可就在那一瞬间，我抬头看到远处悬崖上有一座小小的白色灯塔，它站在那里，沉默而坚定，像是整片海岸的心脏。我忽然理解了为什么威尔士人如此热爱这片海——它凶猛却真诚，从不掩饰自己的脾气，你只需学会与它共处。"
+    "description": "第一次踏上阿伯里斯特威斯海岸步道的那个清晨，海风裹着咸腥味和紫杉木的清香扑面而来，我的防晒霜在额头上化成了一层薄薄的膜。脚下的石板路还带着夜晚的潮气，踩上去微微打滑，远处传来海鸥粗粝的叫声，像是有人用砂纸摩擦瓦片。我站在镇中心的海滨步道南端，左手边是维多利亚时代的铸铁灯柱，灯罩里还残留着昨夜雨水折射的微光，右手边则是无垠的凯尔特海，灰蓝色的水面上漂浮着无数银白色的光斑，那是太阳刚刚爬过山脊时投下的碎金。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/creag-meagaidh-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里格梅盖迪国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Creag Meagaidh National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tenby-pembrokeshire\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    滕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">滕比</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tenby</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melincourt-falls-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅林科特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melincourt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/paxtons-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克斯顿塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Paxton's Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "tenby-pembrokeshire",
+          "name": "滕比",
+          "englishName": "Tenby"
         },
         {
-          "slug": "creag-meagaidh-national-nature-reserve",
-          "name": "克里格梅盖迪国家自然保护区",
-          "englishName": "Creag Meagaidh National Nature Reserve"
+          "slug": "melincourt-falls-wales",
+          "name": "梅林科特瀑布",
+          "englishName": "Melincourt Falls"
         },
         {
-          "slug": "castell-coch",
-          "name": "科奇城堡",
-          "englishName": "Castell Coch"
+          "slug": "paxtons-tower",
+          "name": "帕克斯顿塔楼",
+          "englishName": "National Trust - Paxton's Tower"
         }
       ]
     }

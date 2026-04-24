@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰代洛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "德莱斯林城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "德莱斯林城堡・Castell Dryslwyn・英国・兰代洛",
-    "description": "我第一次看到德莱斯林城堡是在一个雾蒙蒙的十月初早晨。车停在路边，推开铁栅门，脚下的土路被露水浸得发黑，两边齐腰高的蕨类植物像爪子一样伸出来，挂满了水珠，擦过牛仔裤时留下一袖子冰凉。转过一个弯，突然那座城堡就立在眼前的一座小山上，像一头蹲伏了很久的灰色巨兽。雾低低地压着塔基，只露出几截断墙和一道拱门，一阵风吹过，草尖上的水滴纷纷坠落，能听见细微的噼啪声。空气里有湿泥土和羊粪的气味，混合着野蒿的苦涩——这就是威尔士荒原最真实的呼吸。\n沿着一条被羊踩出来的小径往上爬，膝盖开始发酸时才意识到这座城堡选的不是随便的山包——它是一个完美的战略制高点。回头看，塔菲河谷在雾气的缝隙里露出粼粼的光，草原像揉皱的绿色天鹅绒铺展到天边。四周安静得过分，只有风穿过石缝时发出的哨音，偶尔一只乌鸦从塔顶飞过，翅膀扑棱的声音像撕扯旧布。我找了一块被青苔覆盖的石头坐下，闭上眼睛，能想象出 800 年前这里的生活：铁匠的锤声、马匹的嘶鸣、厨房里炖羊肉的香气，还有那些穿着锁子甲的士兵在狭窄的廊道里奔跑的脚步声。而现在，一切都沉入泥土，只有这堆石头还倔强地挺立着。\n最打动我的不是那些残存的城墙，而是角落里一个几乎被完全掩埋的壁炉。石头上有个凹陷，里面积满了落叶和松果，像一个巨大的碗。我伸手拨开落叶，发现底部还有一段铁链的碎块，被锈蚀成暗红色。那是谁家的壁炉呢？大概是某个威尔士贵族的女儿出嫁前在这里烤火缝制嫁衣，或是城堡的厨师在寒冬大雪时往炉膛里塞干柴。这些无名的日常，比任何战争故事都更让人唏嘘。当地人告诉我，这里不收门票，没有纪念品商店，甚至连一块正式的介绍牌都没有——它就那样安静地站在田野里，像一位老人，坐在自家门口晒太阳，你愿意听，它就慢慢讲。\n历史课本里总把这场征服那场叛变写得波澜壮阔，但真正踩在这座城堡松软的草地上时，你会发现历史不过是这些石头、这些草、这些风。德莱斯林城堡没有卡那封城堡的威严，没有哈莱赫城堡的壮丽，它像个沉默的见证者，用最朴素的方式告诉你：权力终会消散，鲜血终会渗入泥土，只有山谷里的鸟还在唱着 13 世纪的歌。站在塔基上，我忽然理解了为什么威尔士人如此热爱他们的城堡——不是因为它们是宏伟的遗迹，而是因为它们和土地融为一体，像一棵棵长了几百年的老橡树，根系深深扎进泥土，撑起一片属于回忆的天空。"
+    "description": "我第一次看到德莱斯林城堡是在一个雾蒙蒙的十月初早晨。车停在路边，推开铁栅门，脚下的土路被露水浸得发黑，两边齐腰高的蕨类植物像爪子一样伸出来，挂满了水珠，擦过牛仔裤时留下一袖子冰凉。转过一个弯，突然那座城堡就立在眼前的一座小山上，像一头蹲伏了很久的灰色巨兽。雾低低地压着塔基，只露出几截断墙和一道拱门，一阵风吹过，草尖上的水滴纷纷坠落，能听见细微的噼啪声。空气里有湿泥土和羊粪的气味，混合着野蒿的苦涩——这就是威尔士荒原最真实的呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/caernarfon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡那封城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caernarfon Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/eryri-national-park-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃里里国家公园（斯诺登尼亚）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eryri National Park (Snowdonia)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mary-queen-of-scots-visitors-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰玛丽女王游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mary Queen of Scots’ Visitors Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scottish-national-war-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国家战争纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish National War Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "caernarfon-castle",
-          "name": "卡那封城堡",
-          "englishName": "Caernarfon Castle"
+          "slug": "eryri-national-park-snowdonia",
+          "name": "埃里里国家公园（斯诺登尼亚）",
+          "englishName": "Eryri National Park (Snowdonia)"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "mary-queen-of-scots-visitors-centre",
+          "name": "苏格兰玛丽女王游客中心",
+          "englishName": "Mary Queen of Scots’ Visitors Centre"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "scottish-national-war-memorial",
+          "name": "苏格兰国家战争纪念馆",
+          "englishName": "Scottish National War Memorial"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "萨默塞特郡（Somerset）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布林当堡垒",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布林当堡垒・Brean Down Fort・英国・萨默塞特郡（Somerset）",
-    "description": "第一次站在Brean Down的入口，我几乎被迎面扑来的海风撞个满怀。那风里带着咸腥的水汽和湿漉漉的泥土味，混着脚下碎石碾过的声响，瞬间就把我从旅行者的身份拽进了一个全然不同的时空——一个属于哨兵、大炮和等待的时空。眼前的岬角像一条巨龙从陆地探入布里斯托尔湾的灰蓝色海域，而堡垒就盘踞在最前端的悬崖之上，低矮而健硕，仿佛与整座山脊融为一体。\n沿着蜿蜒的步道向上走，脚边的草丛里偶尔蹿出一只野兔，远处的海浪一层层拍打礁石，发出沉闷的轰鸣。空气里混杂着盐霜和干燥的草地香，阳光晒热了我后背的皮肤。当我终于站到堡垒的入口处，一扇厚重的铁门半掩着，锈迹斑斑的合页发出吱呀的呻吟，那一刻我忽然有种错觉——仿佛推开这扇门，就能走回1867年的某一天，听见士兵们操练的号令和火药的气味。\n堡垒内部并不大，但错落有致的房间和通道像迷宫般展开。弹药库里依然漂浮着淡淡的硝烟余韵（也可能是我的想象），兵营里的铁床和木桌还保留着原样，墙角一面褪色的维多利亚十字旗垂落着。最让我震撼的是那座俯瞰大海的炮台，四门加农炮直指天际，锈蚀的炮管上攀爬着亮绿色的苔藓。我站在那里，想象着百年前的哨兵是如何在风雪和烈日中凝视地平线，等待永远不会出现的敌舰。\n最打动我的是当地人对待这座堡垒的方式。一个周末的午后，我遇到一对老夫妇正带着孙子在草地上野餐，他们一边啃三明治一边给孩子指那些炮口：“你曾祖父当年就在这里站岗呢。”孩子瞪大了眼睛，海鸥在他们头顶盘旋，堡垒成了跨代对话的天然讲台。它没有被封存在玻璃橱窗里，而是像一块巨大的礁石，被海风、笑声和记忆共同雕琢着，成为这片海岸线的呼吸之一。"
+    "description": "第一次站在Brean Down的入口，我几乎被迎面扑来的海风撞个满怀。那风里带着咸腥的水汽和湿漉漉的泥土味，混着脚下碎石碾过的声响，瞬间就把我从旅行者的身份拽进了一个全然不同的时空——一个属于哨兵、大炮和等待的时空。眼前的岬角像一条巨龙从陆地探入布里斯托尔湾的灰蓝色海域，而堡垒就盘踞在最前端的悬崖之上，低矮而健硕，仿佛与整座山脊融为一体。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/york-dungeon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约克地牢</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The York Dungeon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/neist-point-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奈斯特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neist Point Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/penrhos-engine-house-brymbo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭罗斯引擎屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Penrhos Engine House, Brymbo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "york-dungeon",
+          "name": "约克地牢",
+          "englishName": "The York Dungeon"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "neist-point-lighthouse",
+          "name": "奈斯特角灯塔",
+          "englishName": "Neist Point Lighthouse"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "penrhos-engine-house-brymbo",
+          "name": "彭罗斯引擎屋",
+          "englishName": "Penrhos Engine House, Brymbo"
         }
       ]
     }

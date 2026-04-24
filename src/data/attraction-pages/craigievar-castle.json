@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯丁 (Aberdeen) / 阿尔福德 (Alford)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "克雷吉瓦城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "克雷吉瓦城堡・Craigievar Castle・英国・阿伯丁 (Aberdeen) / 阿尔福德 (Alford)",
-    "description": "我第一次见到克雷吉瓦城堡，是在一个阴晴不定的苏格兰下午。车子沿着蜿蜒的乡间小路行驶，穿过一片片牧场和石墙，前方突然出现一抹不可思议的粉色——像是从童话书里撕下来的一页，被随意地种在了绿色山谷中。那并非柔和的玫瑰粉，而是略带橙调的鲑鱼粉，在灰白的天空下显得温暖而倔强。城堡的角楼像一把把指向天空的短剑，垛口上蹲着石雕的怪兽，它们既不狰狞也不恐怖，倒像这只粉色巨兽身上长出的调皮犄角。\n走近一些，我能听见脚下砾石路的沙沙声，夹杂着远处羊群的咩咩叫。空气里是草叶和泥土的潮湿气味，还混着一股来自城堡墙角的苔藓气息。大门厚重，推开时发出沉沉的响声，像是城堡在叹气。我踏入门厅，光线一下子变暗，眼睛需要几秒才能适应。一股混合了旧木头、蜡和灰尘的古老气味扑面而来，那是时间的气味。\n里面的房间并不算宽敞，但每一寸都精心布置着。墙上挂着深色木板和褪色的挂毯，壁炉里虽然没有火，我却能想象冬夜里松木噼啪作响的样子。客厅的桌子上摆着一套银茶壶，闪着朦胧的光，仿佛主人只是暂时离开。最让我震撼的是那段螺旋楼梯，石阶被几百年来的脚步声磨得光滑凹陷，扶手也被摸得发亮。我伸手触摸那冰冷的石头，能感受到一种古老的温度。\n在整个参观过程中，我一直有一种错觉——城堡是活的。它并不是一座被真空包装的博物馆，而是一个还留着生活温度的家。每一个房间都有故事，每一条裂缝都有记忆。那些躲在楼梯拐角的小窗户，专门用来监视访客；那些藏在墙里的密道，曾经是逃生路线。这就是克雷吉瓦最打动我的地方：它不完美，不精致，但它真实。它像一位年迈的贵族，穿着褪色的粉色外套，却依然挺直脊梁，用充满智慧的眼神注视着每一位来访者。"
+    "description": "我第一次见到克雷吉瓦城堡，是在一个阴晴不定的苏格兰下午。车子沿着蜿蜒的乡间小路行驶，穿过一片片牧场和石墙，前方突然出现一抹不可思议的粉色——像是从童话书里撕下来的一页，被随意地种在了绿色山谷中。那并非柔和的玫瑰粉，而是略带橙调的鲑鱼粉，在灰白的天空下显得温暖而倔强。城堡的角楼像一把把指向天空的短剑，垛口上蹲着石雕的怪兽，它们既不狰狞也不恐怖，倒像这只粉色巨兽身上长出的调皮犄角。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caernarfon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡那封城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caernarfon Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dinas-bran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪纳斯布兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinas Brân</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saint-govans-chapel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣戈万礼拜堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint Govan's Chapel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prince-of-wales-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士亲王桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Bridge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cameron-square",
-          "name": "卡梅隆广场",
-          "englishName": "Cameron Square"
+          "slug": "castell-dinas-bran",
+          "name": "迪纳斯布兰城堡",
+          "englishName": "Castell Dinas Brân"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "saint-govans-chapel",
+          "name": "圣戈万礼拜堂",
+          "englishName": "Saint Govan's Chapel"
         },
         {
-          "slug": "caernarfon-castle",
-          "name": "卡那封城堡",
-          "englishName": "Caernarfon Castle"
+          "slug": "prince-of-wales-bridge",
+          "name": "威尔士亲王桥",
+          "englishName": "Prince of Wales Bridge"
         }
       ]
     }

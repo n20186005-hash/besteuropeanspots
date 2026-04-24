@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士 蒙哥马利",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "弗里德法尔德文铁器时代山堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "弗里德法尔德文铁器时代山堡・Ffridd Faldwyn Iron Age Hillfort・英国・威尔士 蒙哥马利",
-    "description": "说实话，我第一次知道Ffridd Faldwyn这个名字的时候，我连读都不会读。它就像一个拗口的咒语，充满了凯尔特腹地才有的那种倔强和神秘。当我终于找到那条藏在灌木丛中的小路，开始往上爬的时候，那种感觉非常奇特。周围只有风穿过草丛的沙沙声，偶尔有几只红鸢在头顶盘旋，它们的叫声尖锐又悠远，在一个没有电子设备嗡嗡作响的时空里，这种纯粹的自然声音反而显得格外震耳欲聋。脚下的土路很硬，混合着碎石和羊粪，空气里弥漫着青草被碾碎后的甜腥味，还有威尔士那种特有的、带着泥土气息的潮湿。\n当我气喘吁吁地站到最高处的时候，我终于明白为什么两千多年前的人会选这里安家。眼前的视野简直无敌了，整个赛文河谷像一幅巨大的画卷在眼前铺展开来，绿色的田野被一道道绿色的树篱分割成规整的棋盘，远处的小山丘层层叠叠，仿佛没有尽头。风吹得我的头发乱飞，那一瞬间，我感觉自己像一只鹰。而脚下，那些被厚厚的草皮覆盖着的、蜿蜒起伏的土埂，就是当年城墙的遗迹。你仔细看，能看出它们呈椭圆形环绕着整个山顶，虽然已经被岁月抚平了很多棱角，但你依然能清晰地感受到那股磅礴的防御气势。\n最让我震撼的还不是那些残破的城墙，而是那种几乎可以触摸到的宁静。一种被时间和世人遗忘的、巨大的宁静。站在这片被两千多年风吹日晒过的土地上，你听不到一点现代工业文明的声响，没有车流，没有机械，只有风、鸟鸣和自己砰砰的心跳。我找了块相对平整的石头坐下来，把手掌贴在那些嵌在泥土里的碎石上，石头是凉的，带着一种深沉的潮湿。我忽然想到，也许就在我坐的这个位置，两千多年前，某个凯尔特武士也曾经坐在这里，望着同样的河谷，想着他的晚餐、他的羊群、以及远方可能存在的敌人。\n说实话，这个地方给你的冲击不是来自于什么奇观，而是来自于一种空旷的遐想。它不像那些被围栏圈起来、立着详细告示牌的古迹，这里没有解说牌，没有游客中心，没有塑胶步道。它就那样坦然地、毫不设防地暴露在荒野中，像一位年迈的巨人，把所有的密码都写在了风里。你来不来，它都在这里；你懂不懂，它也不在乎。这种被巨大历史感包裹着的孤独，是它最核心的魅力。"
+    "description": "说实话，我第一次知道Ffridd Faldwyn这个名字的时候，我连读都不会读。它就像一个拗口的咒语，充满了凯尔特腹地才有的那种倔强和神秘。当我终于找到那条藏在灌木丛中的小路，开始往上爬的时候，那种感觉非常奇特。周围只有风穿过草丛的沙沙声，偶尔有几只红鸢在头顶盘旋，它们的叫声尖锐又悠远，在一个没有电子设备嗡嗡作响的时空里，这种纯粹的自然声音反而显得格外震耳欲聋。脚下的土路很硬，混合着碎石和羊粪，空气里弥漫着青草被碾碎后的甜腥味，还有威尔士那种特有的、带着泥土气息的潮湿。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-einion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库姆艾尼恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Einion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜阿尔特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duart Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/windsor-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    温\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">温莎城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Windsor Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prince-of-wales-monument-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士王子纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maen-du-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑石圣井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen-Du Well</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "charter-boat-wales",
-          "name": "威尔士包船游",
-          "englishName": "Charter Boat Wales"
+          "slug": "windsor-castle",
+          "name": "温莎城堡",
+          "englishName": "Windsor Castle"
         },
         {
-          "slug": "cwm-einion",
-          "name": "库姆艾尼恩",
-          "englishName": "Cwm Einion"
+          "slug": "prince-of-wales-monument-wales",
+          "name": "威尔士王子纪念碑",
+          "englishName": "Prince of Wales Monument"
         },
         {
-          "slug": "duart-castle",
-          "name": "杜阿尔特城堡",
-          "englishName": "Duart Castle"
+          "slug": "maen-du-well",
+          "name": "黑石圣井",
+          "englishName": "Maen-Du Well"
         }
       ]
     }

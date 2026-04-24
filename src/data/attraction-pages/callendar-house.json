@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "福尔柯克",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡伦德庄园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡伦德庄园・Callendar House・英国・福尔柯克",
-    "description": "那是一个灰蒙蒙的苏格兰上午，我踩着卡伦德公园湿漉漉的草地走向庄园时，晨雾正从福斯湾方向缓缓漫过来。卡伦德庄园像一块嵌入绿丝绒蛋糕里的奶油夹心，奶油色的砂岩立面在雾中泛着柔光，两翼的角楼仿佛从童话书里直接跳出来的。空气里有刚修剪过的草叶汁的味道，混合着远处福尔柯克小镇咖啡馆飘来的烤饼香气。我站在椭圆形的喷泉前，看着水珠被风吹散，落在石板路上形成细碎的光斑。\n推开那扇沉重的橡木门时，铰链发出低沉的呻吟，整个空间突然安静下来。大厅里铺着深红色的地毯，墙壁上挂满历代庄园主的肖像，他们的眼神从油彩里穿透出来，各自带着不同程度的傲慢或忧郁。壁炉里的柴火烧得正旺，噼啪作响，火光映在镀金的镜框上。我闻到一股混合了旧书、蜂蜡和壁炉烟尘的气味，这是时间本身的味道。最令人震撼的是那条蜿蜒向上的主楼梯，深色橡木扶手被几百年的手掌摩挲得光滑发亮，每隔两级台阶的侧墙上就嵌着一幅版画，画中是苏格兰高低起伏的荒原。\n当地人对这栋房子有种近乎家族式的亲切。在厨房展区里，我遇到一位戴着花镜的老太太，她是志愿者讲解员，指着那个巨大的铸铁炉说，“我祖母小时候就在这个厨房帮佣，她总说咖喱粉的香气从藏室里飘出来，整个走廊都是印度味道。”我后来才知道，卡伦德庄园在19世纪确实雇佣了来自印度的厨师，这是庄园主利文斯通家族从东印度公司带回来的传统。这种细节让房子突然有了体温，不再是冷冰冰的文物陈列馆。\n庄园最打动我的，是它毫不掩饰地保留了不同时代的伤疤。餐厅外墙有一块颜色略深的石头，是1746年詹姆斯党叛乱时炮弹留下的痕迹。没有刻意修复，就让那个弹痕留在那儿，像一个沉默的伤疤。我用手触碰那粗糙的砂岩，指尖感受到的温度和两百多年前的那个傍晚应该没什么不同。"
+    "description": "那是一个灰蒙蒙的苏格兰上午，我踩着卡伦德公园湿漉漉的草地走向庄园时，晨雾正从福斯湾方向缓缓漫过来。卡伦德庄园像一块嵌入绿丝绒蛋糕里的奶油夹心，奶油色的砂岩立面在雾中泛着柔光，两翼的角楼仿佛从童话书里直接跳出来的。空气里有刚修剪过的草叶汁的味道，混合着远处福尔柯克小镇咖啡馆飘来的烤饼香气。我站在椭圆形的喷泉前，看着水珠被风吹散，落在石板路上形成细碎的光斑。"
   },
   "sections": [
     {
@@ -58,22 +58,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calanais-standing-stones\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡兰尼什巨石阵</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calanais Standing Stones</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-man-of-hoy\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老人岩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Man of Hoy</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/emigrants-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    移\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">移民纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Emigrants Monument</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "calanais-standing-stones",
-          "name": "卡兰尼什巨石阵",
-          "englishName": "Calanais Standing Stones"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "old-man-of-hoy",
+          "name": "老人岩",
+          "englishName": "Old Man of Hoy"
         },
         {
-          "slug": "berwick-upon-tweed-castle-and-ramparts",
-          "name": "伯立克-特威德城堡及城墙",
-          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
+          "slug": "emigrants-monument",
+          "name": "移民纪念碑",
+          "englishName": "Emigrants Monument"
         }
       ]
     }

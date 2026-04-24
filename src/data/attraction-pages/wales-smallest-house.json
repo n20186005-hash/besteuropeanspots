@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "康威",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士最小的房子",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士最小的房子・Wales' Smallest House・英国・康威",
-    "description": "第一次见到它时，我几乎笑出声来——一栋鲜艳到像从童话书里撕下来的红色小房子，夹在两侧灰扑扑的排屋中间，窄得仿佛成年人在门前伸个懒腰就能碰到两边的墙壁。康威下门街的游客们排着队，轮流站在它那扇半米宽的樱桃木门前拍照，笑盈盈地张开双臂假装要把它抱起来。空气中飘着附近炸鱼薯条店的醋味和海风里淡淡的咸腥，远处康威城堡的石头哨塔投下悠长的影子，把这个小不点衬得更像一件被遗忘在街角的玩具。\n走进去的瞬间，感官压迫感扑面而来。天花板这么低，我必须全程弯着腰，头顶几乎贴着二楼地板的木梁。一楼厨房兼客厅不过三平米，灶台、水槽、壁炉全都挤在一个转身就能碰到的地方。脚下是磨得发亮的石板，壁炉的铁钩上挂着一口黑漆漆的铸铁锅，旁边堆着几块干柴，仿佛主人只是出门买条鱼，马上就会回来生火煮汤。窗户极小，午后的阳光透过玻璃在地上投下一道窄窄的金色光斑，空气里有股陈年木头混着煤灰的干燥气味，安静得能听见自己呼吸的回音。\n顺着几乎直立般的木梯爬上二楼卧室，我才真正理解什么叫“贴着天花板生活”。床长不过一米六，高个子躺下去脚踝肯定悬在外面。墙壁上挂着当年住户的旧照片——一位穿着粗呢外套的渔夫，驼着背站在这扇门前，脸上是那种被海风刻出的深深皱纹和一丝不易察觉的微笑。窗户正对着康威码头，推开窗就能看见退潮后的泥滩和海鸥在桅杆上争吵。那一刻，我忽然觉得这逼仄的空间不是牢笼，反而是一种保护壳，把所有纷繁杂乱的世界挡在外面。\n最打动我的，是这栋小房子在康威当地人生活中的位置。卖票的老太太就住在隔壁，她会趴在窗口递给你一枚印着房子图案的纪念币，然后用浓重的威尔士口音讲起当年渔民罗伯特的趣事。游客们来来往往，有些人五分钟就逛完，有些人会在门前石阶上坐很久，看着对面码头的水光发呆。它太不起眼了，可正是这种毫不起眼的真实，让宏伟的城堡都显得有点疏离。毕竟谁没幻想过拥有一座自己的小房子呢？越小，越让人产生一种“我也可以在这里安家”的亲切错觉。"
+    "description": "第一次见到它时，我几乎笑出声来——一栋鲜艳到像从童话书里撕下来的红色小房子，夹在两侧灰扑扑的排屋中间，窄得仿佛成年人在门前伸个懒腰就能碰到两边的墙壁。康威下门街的游客们排着队，轮流站在它那扇半米宽的樱桃木门前拍照，笑盈盈地张开双臂假装要把它抱起来。空气中飘着附近炸鱼薯条店的醋味和海风里淡淡的咸腥，远处康威城堡的石头哨塔投下悠长的影子，把这个小不点衬得更像一件被遗忘在街角的玩具。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/valle-crucis-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    十\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">十字架山谷修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abaty Glyn Y Groes / Valle Crucis Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fonmon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    方\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">方蒙城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fonmon Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wales-coastal-path-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯海岸步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pierhead-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔海德大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pierhead Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-showcaves-centre-for-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家展示洞穴中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Showcaves Centre for Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "wales-coastal-path-aberystwyth",
+          "name": "阿伯里斯特威斯海岸步道",
+          "englishName": "Wales Coastal Path Aberystwyth"
         },
         {
-          "slug": "valle-crucis-abbey",
-          "name": "十字架山谷修道院",
-          "englishName": "Abaty Glyn Y Groes / Valle Crucis Abbey"
+          "slug": "pierhead-building",
+          "name": "皮尔海德大楼",
+          "englishName": "Pierhead Building"
         },
         {
-          "slug": "fonmon-castle",
-          "name": "方蒙城堡",
-          "englishName": "Fonmon Castle"
+          "slug": "national-showcaves-centre-for-wales",
+          "name": "威尔士国家展示洞穴中心",
+          "englishName": "National Showcaves Centre for Wales"
         }
       ]
     }

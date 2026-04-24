@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "马钦莱斯（Machynlleth）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "马钦莱斯镇钟",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "马钦莱斯镇钟・Machynlleth Town Clock・英国・马钦莱斯（Machynlleth）",
-    "description": "我第一次见到马钦莱斯镇钟，是在一个灰蒙蒙的六月午后。火车慢悠悠晃进这座威尔士小镇，我拖着行李箱走上Heol Maengwyn主街，远远就看见一座灰白色的钟楼蹲在街道转弯处，像一位沉默的老人端坐在棋盘中央。走近了，才听见里头齿轮的咔嗒声——那声音微弱却坚定，混着石板路上当地人互相打招呼的威尔士语，还有从旁边烘焙店飘出来的热司康饼的黄油香。钟楼不高，大概三层楼的样子，但因为它所在的十字路口正好是小镇最宽的一段，所以显得格外稳重。八角形的底座上有四个钟面，每个都朝着不同的方向，就像四只眼睛同时在注视着你。钟面上没有数字，只有罗马数字的刻痕，指针已经有些褪色了，但依然走得准准的。铁质尖顶上爬着几簇青苔，在潮湿的空气里泛着暗绿色。\n真正让这座钟楼活过来的，是整点报时的钟声。我刚好在下午两点走到它脚下，突然头顶响起一阵深沉而略带沙哑的敲击，一共两下，动静不大，却足够让街上的每个人都不自觉地停下脚步抬起头——尽管他们明明知道时间。我旁边一个穿格子围裙的老太太对我眨了眨眼，说：它一百三十多年了，从来没有停过。我后来才知道，钟楼在二战期间曾被防空演习的声浪震坏过齿轮，但小镇的工程师连夜修好了它。对马钦莱斯人来说，这座钟不光是看时间的，更是听声音的——那声音像一根无形的线，把所有人的节奏串在一起。\n钟楼底层是敞开的拱廊，你可以走进去站在它正下方，抬头能看见铁制支架和垂下的钟锤。拱廊周围有几张长凳，常常坐着几个老人，有的在读报纸，有的在逗狗。这地方是小镇的天然会客厅。我坐在那儿观察了半小时，发现每个人路过时都会朝钟面看一眼，哪怕明明知道才过了十几分钟。这种下意识的动作特别有意思，好像钟楼的指针就是小镇的呼吸节拍器。偶尔有自行车叮铃铃穿过去，带起一阵风，把旁边花店门口挂的铃兰吹得摇晃起来。那一刻你会觉得，这座钟根本不是个冷冰冰的机器——它是这里居民的共同记忆容器，是所有约会、集市、告别与团聚的背景板。\n傍晚时分，我决定再去看一次日落下的钟楼。暮色把浅色石墙染成了暖橙色，钟楼的影子拉得长长的，一直延伸进旁边的巷子里。街灯亮起来的时候，钟面上反射出柔和的黄光，像一颗还温热的心脏。有个年轻姑娘坐在拱廊里弹吉他，唱着威尔士语的民谣。歌声和钟楼的影子一起，慢慢融进夜晚的雾气里。"
+    "description": "我第一次见到马钦莱斯镇钟，是在一个灰蒙蒙的六月午后。火车慢悠悠晃进这座威尔士小镇，我拖着行李箱走上Heol Maengwyn主街，远远就看见一座灰白色的钟楼蹲在街道转弯处，像一位沉默的老人端坐在棋盘中央。走近了，才听见里头齿轮的咔嗒声——那声音微弱却坚定，混着石板路上当地人互相打招呼的威尔士语，还有从旁边烘焙店飘出来的热司康饼的黄油香。钟楼不高，大概三层楼的样子，但因为它所在的十字路口正好是小镇最宽的一段，所以显得格外稳重。八角形的底座上有四个钟面，每个都朝着不同的方向，就像四只眼睛同时在注视着你。钟面上没有数字，只有罗马数字的刻痕，指针已经有些褪色了，但依然走得准准的。铁质尖顶上爬着几簇青苔，在潮湿的空气里泛着暗绿色。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/holyrood-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣十字修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holyrood Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dugald-stewart-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜格尔德·斯图尔特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dugald Stewart Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brynich-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇引水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "holyrood-abbey",
-          "name": "圣十字修道院",
-          "englishName": "Holyrood Abbey"
+          "slug": "dugald-stewart-monument",
+          "name": "杜格尔德·斯图尔特纪念碑",
+          "englishName": "Dugald Stewart Monument"
         },
         {
-          "slug": "cardiff-bay",
-          "name": "卡迪夫湾",
-          "englishName": "Cardiff Bay"
+          "slug": "brynich-aqueduct",
+          "name": "布里尼奇引水桥",
+          "englishName": "Brynich Aqueduct"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "adventure-tour-snowdonia",
+          "name": "雪墩山探险之旅",
+          "englishName": "Adventure Tour Snowdonia"
         }
       ]
     }

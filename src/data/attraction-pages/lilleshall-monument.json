@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "利勒舍尔（Lilleshall）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "利勒舍尔纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "利勒舍尔纪念碑・Lilleshall Monument・英国・利勒舍尔（Lilleshall）",
-    "description": "那天下午我开着租来的小车，沿着什罗普郡蜿蜒的乡村小道一路向北，导航开始断断续续地发脾气——信号在绿树成荫的丘陵间彻底消失了。我索性关了手机，凭直觉转过一个长满野花的弯道，然后它就那样撞进了我的视线：利勒舍尔纪念碑，或者说，利勒舍尔修道院的废墟，在午后的斜阳下像一头沉睡的灰色巨兽，安静地趴在起伏的牧场里。空气里弥漫着新割的草香和泥土里混着的羊粪味，远处传来几声绵羊慵懒的叫声，还有风穿过残破石窗时发出的呜咽。我停下车，踩着一条被踩得发亮的土路走过去，脚边紫色的小野花挤满了沟渠。\n走近了，那种苍凉的美让人一瞬间忘了呼吸。从12世纪就矗立在这里的拱廊失去了屋顶，只剩一排排修长的石柱支撑着天空，阳光从没有了彩色玻璃的窗洞里直直地倾泻下来，在地面上投下完美的几何光斑。你能听见自己的脚步声在空洞的中殿里回荡，偶尔有一声乌鸫的鸣叫从废墟顶上的常春藤里传来，那声音落在石头上又反弹回去，像在和先人的灵魂对话。这里太安静了，以至于空气本身都有了重量，压在你的肩头，却又是温柔的。\n当地人说，这儿是整个什罗普郡最“不被打扰”的角落。我坐在一块早已磨损的基石上，看着三头好奇的奶牛慢悠悠地踱过来，隔着倒塌的围墙和我对视。没有门票，没有导游，没有栅栏——只有这片被时光打磨得光滑的石头，和头顶永恒流动的云。孩子们从村庄里骑着自行车冲过来，把书包往地上一扔就爬到残墙上捉迷藏，老人们牵着狗沿着修道院外围的小径散步，偶尔停下来指着一块石刻说点什么。这里不是被玻璃罩封存的博物馆，而是活生生的、已经变了样却仍然呼吸着的肉身。\n最让我心动的是遗址东端那段几乎完整保存的哥特式窗户。它像一只巨大的眼睛，注视着外面的田野和森林，从黎明到黄昏。我站在窗前朝北望，能看到远处朦胧的布朗丘陵，近处的麦田在风里一层层地泛起金色的涟漪。那一刻我突然明白，为什么有人会花一生时间守护这样一堆“破石头”。因为它们不仅仅是石头，它们是时间的容器，装着几百年的祈祷、劳动、欢笑和泪水，而此刻它们又装着我这样一个过客的灵魂。这大概就是废墟最迷人的地方：它不拒绝任何人，却让每个人都能在里面找到自己。"
+    "description": "那天下午我开着租来的小车，沿着什罗普郡蜿蜒的乡村小道一路向北，导航开始断断续续地发脾气——信号在绿树成荫的丘陵间彻底消失了。我索性关了手机，凭直觉转过一个长满野花的弯道，然后它就那样撞进了我的视线：利勒舍尔纪念碑，或者说，利勒舍尔修道院的废墟，在午后的斜阳下像一头沉睡的灰色巨兽，安静地趴在起伏的牧场里。空气里弥漫着新割的草香和泥土里混着的羊粪味，远处传来几声绵羊慵懒的叫声，还有风穿过残破石窗时发出的呜咽。我停下车，踩着一条被踩得发亮的土路走过去，脚边紫色的小野花挤满了沟渠。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/clydach-gorge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱达赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Clydach Gorge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-town-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Town Walls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-beatles-story-museum-liverpool\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    披\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">披头士故事博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Beatles Story Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/elan-valley\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃兰河谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Elan Valley</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-ewen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊文城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Ewen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "clydach-gorge",
-          "name": "克莱达赫峡谷",
-          "englishName": "Clydach Gorge"
+          "slug": "the-beatles-story-museum-liverpool",
+          "name": "披头士故事博物馆",
+          "englishName": "The Beatles Story Museum"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "elan-valley",
+          "name": "埃兰河谷",
+          "englishName": "The Elan Valley"
         },
         {
-          "slug": "conwy-town-walls",
-          "name": "康威城墙",
-          "englishName": "Conwy Town Walls"
+          "slug": "castle-ewen",
+          "name": "伊文城堡",
+          "englishName": "Castle Ewen"
         }
       ]
     }

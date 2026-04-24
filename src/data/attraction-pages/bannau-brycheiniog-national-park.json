@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）・Bannau Brycheiniog National Park (Brecon Beacons)・英国・布雷肯",
-    "description": "记忆里有那么一个黄昏，我驱车在A470公路上，忽然就看到西边连绵的山脊被落日染成了橘粉色，像一头沉睡的巨兽缓缓呼吸。那就是Bannau Brycheiniog，黑色山脉的意思，名字本身就带着一种沧桑的史诗感。我索性把车停在路边，摇下车窗，风裹着石楠花和雨后泥土的气味灌进来，远处有羊群咩咩的叫声，伴着溪水潺潺的声音。那一刻，我忽然就理解了威尔士人为什么总说，这片山不是用来征服的，而是用来倾听的。\n你很难把这里当成一个传统的景点，因为它更像一个巨大的、立体的、会呼吸的博物馆。它就像一个活着的舞台，每一天都在演绎着自然与历史最荒凉也最温柔的章节。它不像城市广场那样充满人声，而是一种近乎神圣的寂静，偶尔被风撕开一道口子，又慢慢愈合。走在这里，时间不再是线性的，而是像脚下的草地一样，是蔓延的、轮回的、没有尽头的。\n最打动我的是这里的光。不是那种明晃晃的、刺眼的光，而是雾蒙蒙的、像被牛奶稀释过的光。清晨五点，太阳从山脊的缺口探出头，把整片山谷都笼罩在一种蜂蜜色的暖意里。雾气是活的，它们从湖面和沼泽里升起来，顺着山坡攀爬，在树梢间缠绕，像一条条白色的蛇。你站在那儿，感觉自己不是在观看风景，而是风景的一部分，被光编织进这幅浑然天成的画卷里。\n不过最让人着迷的，是这里对待时间的态度。它不着急。那些史前墓石堆，已经在那儿坐了五千年；那些由罗马人修筑的道路，已经被野花覆盖了两千年；就连废弃的煤矿遗迹，也正被蕨类植物慢慢吞没。在这里，万物都以自己的节奏生长、腐朽、重生。你看不到被硬生生切断的痕迹，只有岁月的流淌。这是一种让人肃然起敬的、慢到令城市人感到奢侈的永恒感。"
+    "description": "记忆里有那么一个黄昏，我驱车在A470公路上，忽然就看到西边连绵的山脊被落日染成了橘粉色，像一头沉睡的巨兽缓缓呼吸。那就是Bannau Brycheiniog，黑色山脉的意思，名字本身就带着一种沧桑的史诗感。我索性把车停在路边，摇下车窗，风裹着石楠花和雨后泥土的气味灌进来，远处有羊群咩咩的叫声，伴着溪水潺潺的声音。那一刻，我忽然就理解了威尔士人为什么总说，这片山不是用来征服的，而是用来倾听的。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/balmoral-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔莫勒尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balmoral Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/saint-govans-chapel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣戈万礼拜堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint Govan's Chapel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorm-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorm Mountain</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "balmoral-castle",
-          "name": "巴尔莫勒尔城堡",
-          "englishName": "Balmoral Castle"
+          "slug": "saint-govans-chapel",
+          "name": "圣戈万礼拜堂",
+          "englishName": "Saint Govan's Chapel"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "hadrians-wall",
+          "name": "哈德良长城",
+          "englishName": "Hadrian's Wall"
         },
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "cairngorm-mountain",
+          "name": "凯恩戈姆山",
+          "englishName": "Cairngorm Mountain"
         }
       ]
     }

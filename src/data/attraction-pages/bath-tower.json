@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "巴斯塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "巴斯塔・Bath Tower・英国・卡迪夫",
-    "description": "我第一次见到巴斯塔，是在一个阴雨绵绵的下午。卡迪夫城堡的灰色石墙在雨雾中显得格外沉默，而巴斯塔就矗立在城堡东侧，像一位驼背的老兵，独自守着什么秘密。我撑着伞走近，雨水顺着塔顶的雉堞滴落，打在脚下的石板路上，发出清脆的回声。空气里混杂着潮湿的苔藓味和远处城堡咖啡馆飘来的咖啡香，这种气味让我瞬间想起了小时候在祖父家阁楼上翻旧书时闻到的尘土与纸张的混合味道——古老、干燥、带着时间的重量。\n塔的外表并不起眼，甚至有些破败。石灰岩的缝隙里长出了倔强的野草，墙面上有几处明显的修补痕迹，像是打了补丁的旧衣裳。我绕着塔基走了一圈，发现北侧墙根处有几个深深的凹痕，据说那是中世纪攻城槌留下的印记。伸手触摸那些凹痕，指尖传来冰凉粗糙的触感，仿佛能感受到七百年前那场战斗的震动。这时候，一群海鸥从塔顶掠过，它们的叫声在狭窄的街道间回荡，我突然意识到，这座塔已经在威尔士的天空下站了八百年，看过无数个这样的雨天，听过无数种鸟鸣，而它始终沉默。\n真正踏进塔内，光线骤然暗了下来。螺旋楼梯窄得只容一人通过，每一步踩在磨损的石阶上，都能听见自己脚步声被石壁反弹回来的闷响。楼梯每隔几阶就有一个狭小的箭缝，透进一丝苍白的天光，像舞台上的追光灯，照亮了墙面上模糊的刻痕——有字母，有符号，还有一些看不懂的图案。我的手指在那些刻痕上摸索，感觉像是触碰到了某个古代守夜人的日记。走到一半，我停下来，把耳朵贴在石壁上，试图听出什么。只有风从箭缝里钻进来，发出低沉的呜咽，像极了某种古老的歌谣。\n最让我动容的是塔顶的景色。当我终于爬上最后一级台阶，推开那扇锈迹斑斑的铁门，卡迪夫城突然在眼前铺展开来。雨已经停了，云层裂开一道缝，阳光斜斜地洒下来，给整个城市镀上金边。远处的布里斯托海峡泛着银光，近处的街道上汽车如火柴盒般移动，而巴斯塔脚下，城堡的庭院里孩子们在追逐嬉戏。这种时空交错的感觉让人恍惚：八百年前，这里的守夜人站在同一位置，眺望着同样的海岸线，警觉着可能的入侵；而今天，我站在这里，只是一个普通的旅行者，用手机拍下这个瞬间。塔楼依然矗立，但它的功能早已从防御变成了记忆——这是它最打动我的地方。"
+    "description": "我第一次见到巴斯塔，是在一个阴雨绵绵的下午。卡迪夫城堡的灰色石墙在雨雾中显得格外沉默，而巴斯塔就矗立在城堡东侧，像一位驼背的老兵，独自守着什么秘密。我撑着伞走近，雨水顺着塔顶的雉堞滴落，打在脚下的石板路上，发出清脆的回声。空气里混杂着潮湿的苔藓味和远处城堡咖啡馆飘来的咖啡香，这种气味让我瞬间想起了小时候在祖父家阁楼上翻旧书时闻到的尘土与纸张的混合味道——古老、干燥、带着时间的重量。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/neist-point-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奈斯特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neist Point Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/john-knox-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰·诺克斯故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John Knox House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dalmeny-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达尔梅尼庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dalmeny House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "neist-point-lighthouse",
+          "name": "奈斯特角灯塔",
+          "englishName": "Neist Point Lighthouse"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "john-knox-house",
+          "name": "约翰·诺克斯故居",
+          "englishName": "John Knox House"
         },
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "dalmeny-house",
+          "name": "达尔梅尼庄园",
+          "englishName": "Dalmeny House"
         }
       ]
     }

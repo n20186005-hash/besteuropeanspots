@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士，卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰达夫大教堂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "兰达夫大教堂・Llandaff Cathedral・英国・威尔士，卡迪夫",
-    "description": "从卡迪夫市中心往西北方向走，穿过安静的居民区和葱郁的绿地，当那尊建于13世纪的、略显不对称的石砌钟楼出现在你眼前时，你会以为自己走进了一部古老的中世纪童话。空气中透着一股青草和古老石头混合的气味，偶尔还能听到从教堂内部飘出的手风琴和弦音，低沉得像从地底升起。你踏进大门，光线从彩色玻璃窗洒进来，在石板地上投下五彩斑斓的光斑。天花板上是深邃的木质拱顶，但让人最震惊的是，你还会在正前方看到一尊巨大的由现代雕塑家Jacob Epstein创作的铝制“基督君临”像，悬挂在空中，金属的光泽在昏黄的烛光中隐隐闪烁着冰冷的现代感。\n这里不像你脑海里那些典型大教堂的肃穆与沉重，反而有一种奇妙的反差——古老的厚重石墙和充满锐利线条的现代雕塑共存。能听到当地人说一口软糯的威尔士语，老奶奶们坐在长椅上轻声祷告，角落里儿童合唱团在老师的带领下练习着古老的赞美诗。空气中弥漫着蜂蜡的温暖和旧书页的香味，这种气味让人瞬间内心宁静。但当你抬头看到右侧被轰炸后修复的玻璃窗时，你会发现其中一些彩片是战后重新拼凑的，有些甚至来自不同的几何形状，像是一个巨大的拼图，诉说着一段不寻常的故事。\n这座大教堂一直被当地居民当作生活的中心，而不只是游客的景点。附近的Llandaff村在周末总会有集市，手工艺人在这里摆摊，孩子们在教堂前的草地上奔跑嬉闹。如果你在周三或周五来，还能听到下午的管风琴排练声，那种声音回荡在巨大的空间里，让人不由自主放慢脚步。它不像其他大教堂那样庄严到让人屏息，而是带着一种亲切的、接地气的生活感，就像你家隔壁的老教堂——只是它已经存在了一千多年。\n最打动你的是它那种劫后余生的姿态。1941年纳粹对卡迪夫的空袭中，一颗炸弹直接击中了教堂的中殿和屋顶，整座建筑几乎被夷为废墟。但战后，当地人没有按原样原封不动地重建，而是选择了一种大胆的方式：保留了部分断壁残垣，在废墟之上用现代建筑语言与新雕塑作品“嫁接”上去。进入教堂时，你看到的不是死气沉沉的过去，而是历史和现在的平等对话。这种勇气与自信，让这里成为欧洲教堂中独树一帜的存在。"
+    "description": "从卡迪夫市中心往西北方向走，穿过安静的居民区和葱郁的绿地，当那尊建于13世纪的、略显不对称的石砌钟楼出现在你眼前时，你会以为自己走进了一部古老的中世纪童话。空气中透着一股青草和古老石头混合的气味，偶尔还能听到从教堂内部飘出的手风琴和弦音，低沉得像从地底升起。你踏进大门，光线从彩色玻璃窗洒进来，在石板地上投下五彩斑斓的光斑。天花板上是深邃的木质拱顶，但让人最震惊的是，你还会在正前方看到一尊巨大的由现代雕塑家Jacob Epstein创作的铝制“基督君临”像，悬挂在空中，金属的光泽在昏黄的烛光中隐隐闪烁着冰冷的现代感。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cors-y-llyn-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科西林国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cors y Llyn National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceannabeinne-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    喜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">喜纳本海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ceannabeinne Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/loch-loyne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛因湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Loyne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-andrews-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣安德鲁斯大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Andrews Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cors-y-llyn-national-nature-reserve",
-          "name": "科西林国家自然保护区",
-          "englishName": "Cors y Llyn National Nature Reserve"
+          "slug": "loch-loyne-viewpoint",
+          "name": "洛因湖观景台",
+          "englishName": "Loch Loyne Viewpoint"
         },
         {
-          "slug": "ceannabeinne-beach",
-          "name": "喜纳本海滩",
-          "englishName": "Ceannabeinne Beach"
+          "slug": "st-andrews-cathedral",
+          "name": "圣安德鲁斯大教堂",
+          "englishName": "St Andrews Cathedral"
         },
         {
-          "slug": "cameron-square",
-          "name": "卡梅隆广场",
-          "englishName": "Cameron Square"
+          "slug": "bedd-arthur",
+          "name": "贝德·阿瑟",
+          "englishName": "Bedd Arthur"
         }
       ]
     }

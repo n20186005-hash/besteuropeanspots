@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡地牢",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "爱丁堡地牢・The Edinburgh Dungeon・英国・爱丁堡",
-    "description": "我记得第一次去爱丁堡地牢是在一个阴天。Royal Mile的石板路被细雨洗得发亮，我沿着Market Street往下走，突然看到那扇黑色的铁门——上面挂着一个锈迹斑斑的骷髅头，铁链在风中发出叮当的碰撞声。门口排着队的年轻人都在互相打趣，但笑声里藏着一丝紧张。售票处的小哥穿着刽子手的皮围裙，用那种故意压低的苏格兰口音说：“你们准备好面对你自己的罪了吗？”然后他拉下一根铁链，沉重的金属门轰然打开，一股混合着霉味、蜡烛烟和消毒水的气味扑面而来。\n走进去的第一个空间是一条很窄的石廊，两侧墙上是手绘的苏格兰历史壁画，但画框歪歪扭扭，人物表情诡异。头顶传来的滴水声让我下意识缩了一下脖子。我后来才意识到，那根本不是真的滴水，是藏在暗处的音响在模拟囚犯血滴落的声音。最让我起鸡皮疙瘩的是那种气味——不完全是恶臭，而是一种类似地窖里旧木头的味道，混着一点点硫磺，后来才知道是特效烟雾弹的残余。导游（他们叫“行刑者”）开始讲第一个故事：16世纪的盗尸案。他吹灭手里的蜡烛，整个走廊陷入一片漆黑，然后突然背后一声尖叫——一个穿着血衣的“尸体”从墙壁的暗门里弹了出来。整场体验就是这样，你会不断被突然出现在你面前的怪物、刽子手、巫婆吓到，然后所有人一起尖叫、大笑，肾上腺素飙升。\n但说实话，打动我的不全是这些跳吓。真正让我觉得这家地牢有意思的是，它把几百年来苏格兰人真正恐惧的东西——黑死病、冤假错案、女巫大审判、开膛手杰克——全都变成了可以摸、可以闻、可以亲身经历的片段。比如“瘟疫医生”那一段，穿着鸟嘴面具的演员捧着假死老鼠走到人群里，讲述那个杀死三分之一爱丁堡人口的恐怖年代，他身上的薰衣草和樟脑球的味道浓到让我想呕。还有“血腥法庭”环节，你被随机指控为女巫或盗墓者，法官在昏暗的灯光下敲锤子，旁边的绞刑架道具上的麻绳还在晃。这时候你明知是演戏，但手心里全是汗。\n最奇妙的是，走完所有关卡之后，最后会有一个“自由落体”的装饰过山车。在经历了那么多惊吓之后，你坐在那个黑暗中的小车上，被升到最高处，然后突然俯冲——所有情绪在那一瞬间释放成歇斯底里的笑声。出口的小商店卖着T恤和骷髅形状的棒棒糖，阳光从落地窗射进来，那个瞬间你会觉得，从地狱回到人间，真好。"
+    "description": "我记得第一次去爱丁堡地牢是在一个阴天。Royal Mile的石板路被细雨洗得发亮，我沿着Market Street往下走，突然看到那扇黑色的铁门——上面挂着一个锈迹斑斑的骷髅头，铁链在风中发出叮当的碰撞声。门口排着队的年轻人都在互相打趣，但笑声里藏着一丝紧张。售票处的小哥穿着刽子手的皮围裙，用那种故意压低的苏格兰口音说：“你们准备好面对你自己的罪了吗？”然后他拉下一根铁链，沉重的金属门轰然打开，一股混合着霉味、蜡烛烟和消毒水的气味扑面而来。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/culzean-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔津城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Culzean Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-ewen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊文城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Ewen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/folly-farm-adventure-park-and-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福利农场探险公园与动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Folly Farm Adventure Park and Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "folly-farm-adventure-park-and-zoo",
+          "name": "福利农场探险公园与动物园",
+          "englishName": "Folly Farm Adventure Park and Zoo"
         },
         {
-          "slug": "culzean-castle",
-          "name": "卡尔津城堡",
-          "englishName": "Culzean Castle"
+          "slug": "loch-achtriochtan-glen-coe",
+          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
+          "englishName": "Loch Achtriochtan, Glen Coe"
         },
         {
-          "slug": "castle-ewen",
-          "name": "伊文城堡",
-          "englishName": "Castle Ewen"
+          "slug": "llyn-brianne-viewpoint",
+          "name": "布莱恩湖观景台",
+          "englishName": "Llyn Brianne Viewpoint"
         }
       ]
     }

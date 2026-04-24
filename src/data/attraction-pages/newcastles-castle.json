@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "纽卡斯尔埃姆林（Newcastle Emlyn）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "纽卡斯尔城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "纽卡斯尔城堡・Newcastle's Castle・英国・纽卡斯尔埃姆林（Newcastle Emlyn）",
-    "description": "第一次见到纽卡斯尔城堡，是在一个阴晴不定的威尔士下午。我沿着泰菲河畔的石板路往坡上走，空气里混着河水的苔腥和远处牧场的青草香。拐过街角，那座红褐色的巨大身影突然从两排灰扑扑的排屋后冒出来——不是那种光鲜的、被修葺一新的旅游景点，而是一座真的被时间磨秃了牙齿的老战士。墙面上爬满了深褐色的地衣，裂缝里长出野生的迷迭香，风吹过时整座城堡仿佛在低声哼唱着一首古老的威尔士民歌。\n推开那扇沉重的橡木门走进去，光线骤然暗下来。脚下是坑洼不平的石阶，每一级都被无数双靴子踩得发亮。阳光从窄小的箭窗里斜斜地刺进来，在地面投下长长的、像刀锋一般的光斑。你能闻到石头里渗出的潮气、旧木头的气味，还有某种说不清的、类似陈年蜂蜜的甜香。城堡的中央庭院里长着一棵巨大的紫杉，据说是13世纪城堡初建时种下的，树冠遮住了半边天，坐在它盘虬的根系上，能听到风穿过枝叶沙沙作响，像在翻动一本发黄的家谱。\n当地人把这座城堡当成后花园。放学后的孩子在这里捉迷藏，老人的乐队会在周末的午后搬来折叠椅，在主楼的大厅里拉起竖琴和提琴。我也曾在一个薄雾的清晨站在城垛上，看见远处河边的羊群像移动的棉絮，听见教堂的钟声先是从镇子里传来，然后被风托着飘到山谷的对面，好久才散了。那一刻我突然明白，这座城堡最动人的不是它的军事史，而是它早已融进了这片土地的血脉里，成了人们日常呼吸的一部分。\n它不像爱丁堡那样贵族气，不像切斯特那样精致，它就像个沉默的祖父，坐在河边，看着一代代人出生、老去、归来、离开。战火给它留下了伤疤，时光给它盖了一层青苔，但它始终在那里，用那些被岁月磨圆了的石头，讲述着一个不起眼却倔强的威尔士故事。"
+    "description": "第一次见到纽卡斯尔城堡，是在一个阴晴不定的威尔士下午。我沿着泰菲河畔的石板路往坡上走，空气里混着河水的苔腥和远处牧场的青草香。拐过街角，那座红褐色的巨大身影突然从两排灰扑扑的排屋后冒出来——不是那种光鲜的、被修葺一新的旅游景点，而是一座真的被时间磨秃了牙齿的老战士。墙面上爬满了深褐色的地衣，裂缝里长出野生的迷迭香，风吹过时整座城堡仿佛在低声哼唱着一首古老的威尔士民歌。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glencoe-visitor-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glencoe Visitor Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-of-old-wick\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维克老城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Of Old Wick</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-museum-cardiff\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫国家博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Museum Cardiff</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dugald-stewart-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜格尔德·斯图尔特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dugald Stewart Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafna-lead-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "glencoe-visitor-centre",
-          "name": "格伦科游客中心",
-          "englishName": "Glencoe Visitor Centre"
+          "slug": "national-museum-cardiff",
+          "name": "卡迪夫国家博物馆",
+          "englishName": "National Museum Cardiff"
         },
         {
-          "slug": "castle-of-old-wick",
-          "name": "维克老城堡",
-          "englishName": "Castle Of Old Wick"
+          "slug": "dugald-stewart-monument",
+          "name": "杜格尔德·斯图尔特纪念碑",
+          "englishName": "Dugald Stewart Monument"
         },
         {
-          "slug": "charter-boat-wales",
-          "name": "威尔士包船游",
-          "englishName": "Charter Boat Wales"
+          "slug": "hafna-lead-mine",
+          "name": "哈夫纳铅矿",
+          "englishName": "Hafna Lead Mine"
         }
       ]
     }

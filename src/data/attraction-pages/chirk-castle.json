@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奇克（威尔士）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奇克城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "奇克城堡・Chirk Castle・英国・奇克（威尔士）",
-    "description": "当你的车拐过最后一个弯，奇克城堡就像从威尔士的绿色绸缎里突然升起的一块巨石。它的灰色塔楼沉默地站着，石墙上爬满浅色的地衣，像岁月留下的老年斑。你还没走近，就先听见风吹过护城河上方铁栅栏的呜咽声——那是生锈的铰链在晃动，但更像城堡在低声说话。停车场边上那排修剪成锥形的紫杉，像沉默的卫兵看守着通往中世纪的入口。\n跨过那道厚重的橡木门，脚掌叩击在鹅卵石地面上的声音让你一下子收住了话头。城堡内部出奇地安静，只有壁炉里木柴偶尔爆裂的细响，和从远处厨房隐约飘来的奶油炖菜的香味。大厅里挂着几幅褪色的油画，画框上的金漆已经发暗，画中人穿着天鹅绒的紧身上衣，双眼直直地盯着你，仿佛还在守卫着这栋宅邸的秘密。阳光从窄小的窗户斜射进来，在木地板上切出一道道光刃，灰尘在其中缓缓翻涌，像是时间本身在呼吸。\n在城堡里走得久了，你会忘记外面是个21世纪的世界。没有电脑屏幕的白光，没有手机的嗡嗡声。只有螺旋楼梯上你脚步的回声，只有随手推开的房门后面忽然出现的华丽挂毯，或者是一个装满瓷器的玻璃柜，它们都在等着你发现。孩子们通常直奔城堡的“冒险隧道”——一条从厨房通往地窖的黑暗通道，跑起来会激起一股霉味和碎石摩擦的味道。而大人们往往会在那间巨大的维多利亚客厅里多站一会儿，盯着那张可以坐下二十人的长餐桌，想象着某个圣诞夜晚，煤气灯下银器和水晶杯碰撞的画面。\n最让我无法忘怀的，是城堡东翼那个不起眼的阳台。那里没有任何华丽装饰，只有两把铁质椅子，地面铺着青石砖。从那里望出去，迪河河谷像一幅被水彩浸透的绸缎慢慢展开，远处是英格兰与威尔士模糊的边境线。那一刻，风把城堡塔楼上旗子的猎猎声送进耳朵，空气里混合着刚割过的草和一丝若有若无的木柴烟味。我突然明白：这座城堡并不是一个死去的博物馆，它是一个活了七百多年的居民，只是我们这些访客短暂地闯进了它的客厅。"
+    "description": "当你的车拐过最后一个弯，奇克城堡就像从威尔士的绿色绸缎里突然升起的一块巨石。它的灰色塔楼沉默地站着，石墙上爬满浅色的地衣，像岁月留下的老年斑。你还没走近，就先听见风吹过护城河上方铁栅栏的呜咽声——那是生锈的铰链在晃动，但更像城堡在低声说话。停车场边上那排修剪成锥形的紫杉，像沉默的卫兵看守着通往中世纪的入口。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caernarfon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡那封城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caernarfon Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/greyfriars-bobby-statue\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗莱尔·鲍比雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Bobby Statue</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜阿尔特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duart Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glasgow-science-centre-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥科学中心塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Science Centre Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "greyfriars-bobby-statue",
+          "name": "格雷弗莱尔·鲍比雕像",
+          "englishName": "Greyfriars Bobby Statue"
         },
         {
-          "slug": "caernarfon-castle",
-          "name": "卡那封城堡",
-          "englishName": "Caernarfon Castle"
+          "slug": "duart-castle",
+          "name": "杜阿尔特城堡",
+          "englishName": "Duart Castle"
         },
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "glasgow-science-centre-tower",
+          "name": "格拉斯哥科学中心塔",
+          "englishName": "Glasgow Science Centre Tower"
         }
       ]
     }

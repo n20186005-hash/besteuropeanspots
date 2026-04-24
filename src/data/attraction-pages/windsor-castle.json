@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "温莎",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "温莎城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "温莎城堡・Windsor Castle・英国・温莎",
-    "description": "我第一次见到温莎城堡，是在一个雾气还未散尽的清晨。火车从伦敦滑出来，窗外的田野渐渐铺开，然后城堡的轮廓像一块巨大的灰色骨头从泰晤士河边的山丘上隆起来。不是那种童话里奶油色的城堡，而是沉重、坚硬、带着石头的呼吸。当你走到城堡脚下，仰头看见那些圆塔和城垛刺进灰色的天空，耳边只有风吹过石头缝隙的呜咽声，以及远处圣乔治礼拜堂传来的钟声——那钟声沉闷又悠长，像从历史的深处拖出来的叹息。\n推开那扇厚重的橡木门，踩在鹅卵石铺成的斜坡路上，脚下传来细碎的颗粒摩擦声，混合着城堡里特有的潮湿石料气味和蜂蜡的淡香。整个城堡像一座活的舞台，卫兵们穿着红色制服、戴着高高的熊皮帽，在石板路上踢着正步，靴子撞击地面的声音整齐而空洞，空气中飘来一丝马厩的味道和烤面包的香气——因为厨房还在为女王（或者国王）的日常饮食忙碌着。你突然意识到，这里不是一个供游客参观的博物馆，而是一个有人真正生活的、有着900年未中断呼吸的怪物。\n最打动我的，是那种时间在这里不是线性的，而是像泰晤士河的支流一样盘绕交错。你可以在同一天看到诺曼人的城墙、亨利八世宴客的大厅、维多利亚女王为纪念阿尔伯特亲王而修建的私人礼拜堂，以及在1992年大火后重新修复的屋顶——火焰烧过的痕迹被刻意保留在某个角落的石头里，像一道疤痕。城堡没有试图粉饰太平，它坦然地把每个时代的印记都挂在身上，就像老人脸上的皱纹，每一道都值得被端详。\n而在城堡东侧的私人庭院里，你偶尔能瞥见一扇窗户后面有人影晃动——那是真实王室的起居室。窗台上摆着几盆天竺葵，和普通人家的阳台没什么两样。这种距离感与日常感的共存，让温莎城堡有种奇异的魔力：它既是九百年君权的纪念碑，又是一个家大得吓人的家。当你站在那个被高墙围住的广场上，看着鸽子从圣乔治礼拜堂的滴水嘴兽之间飞起，你会忽然理解——所谓的永恒，也许就是把暴风雨挡在外面，把秘密藏在里面。"
+    "description": "我第一次见到温莎城堡，是在一个雾气还未散尽的清晨。火车从伦敦滑出来，窗外的田野渐渐铺开，然后城堡的轮廓像一块巨大的灰色骨头从泰晤士河边的山丘上隆起来。不是那种童话里奶油色的城堡，而是沉重、坚硬、带着石头的呼吸。当你走到城堡脚下，仰头看见那些圆塔和城垛刺进灰色的天空，耳边只有风吹过石头缝隙的呜咽声，以及远处圣乔治礼拜堂传来的钟声——那钟声沉闷又悠长，像从历史的深处拖出来的叹息。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/jedburgh-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杰德堡修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jedburgh Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/morfa-bay-adventure\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫尔法湾冒险地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Morfa Bay Adventure</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/portmeirion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波特梅里恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portmeirion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pen-y-garreg-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩恩加雷格水坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen y Garreg Dam</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "jedburgh-abbey",
-          "name": "杰德堡修道院",
-          "englishName": "Jedburgh Abbey"
+          "slug": "morfa-bay-adventure",
+          "name": "莫尔法湾冒险地",
+          "englishName": "Morfa Bay Adventure"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "portmeirion",
+          "name": "波特梅里恩",
+          "englishName": "Portmeirion"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "pen-y-garreg-dam",
+          "name": "佩恩加雷格水坝",
+          "englishName": "Pen y Garreg Dam"
         }
       ]
     }

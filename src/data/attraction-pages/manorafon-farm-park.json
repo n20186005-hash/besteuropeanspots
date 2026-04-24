@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "曼诺拉方农场公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "曼诺拉方农场公园・Manorafon Farm Park・英国・阿伯里斯特威斯",
-    "description": "我永远记得第一次开车拐进那条窄窄的乡间小路时的场景。路两边的树篱比车顶还高，枝叶交错，像一条绿色的隧道。车窗摇下来，空气里飘来一股混合着青草、泥土和淡淡牲畜粪便的味道，不是那种让人皱眉的臭味，而是一种特别干净的、属于田园的气息。路的尽头是一片开阔的缓坡，绿得发亮，上面散落着白色、黑色、棕色的点点——是羊。孩子在后座尖叫起来，车还没停稳就开始解安全带。\n走进农场大门，最先迎接你的是声音。绵羊低沉而悠长的咩咩声，山羊短促又带着点撒娇的叫声，远处公鸡隔一会儿就扯着嗓子打鸣，偶尔混着鸭子和鹅的嘎嘎声，还有小孩子兴奋的尖笑，交织在一起，一点也不吵，反而有种奇异的和谐。你能听到风从山谷那边吹过来，把树梢的叶子翻来翻去，沙沙作响。地面上铺着松软的干草，踩上去沙沙的，带着一股干燥和温暖的草香。阳光从云缝里漏下来，在草地上投下移动的光斑，那些小羊就追着光斑跑，傻乎乎的。\n最打动人的不是那些精心设计的游乐设施，而是农场里那种从容不迫的节奏。动物们并不被关在狭小笼子里，而是在宽阔的围场里自由走动。一头老母猪侧躺在稻草堆上，小猪仔们挤在它肚皮底下拱来拱去，发出哼哼唧唧满足的声音。几只小山羊趴在木栅栏上，歪着脑袋看你，眼神里没有畏惧，只有好奇。你伸出手，它们就会用温热的鼻子蹭你的掌心，那种粗糙又湿润的触感，会让你瞬间卸下所有防备。在这里，时间好像变慢了，连手机信号都变得若有若无，你只能跟着动物的节奏走——它们吃草你就站着看，它们睡觉你就坐在旁边的长椅上发呆，什么都不想。\n当地人把这里当成周末的后花园。我碰到一个头发花白的老太太，每个星期三都来，就为了跟那头叫黛西的泽西母牛说说话。她说黛西会认人，一到门口就叫她的名字。她还教我怎么用指腹轻轻地摸母牛的额头，说这样它们会觉得你在跟它说话。那一刻我突然明白，这个农场之所以动人，不是因为它有多大、多新潮，而是因为它保留了一种人和动物之间最朴素的信任。那些咩咩叫、哼哼唧、嘎嘎乱响的声音，构成了一首属于威尔士乡村的交响乐，每个音符都敲在人心上最柔软的地方。"
+    "description": "我永远记得第一次开车拐进那条窄窄的乡间小路时的场景。路两边的树篱比车顶还高，枝叶交错，像一条绿色的隧道。车窗摇下来，空气里飘来一股混合着青草、泥土和淡淡牲畜粪便的味道，不是那种让人皱眉的臭味，而是一种特别干净的、属于田园的气息。路的尽头是一片开阔的缓坡，绿得发亮，上面散落着白色、黑色、棕色的点点——是羊。孩子在后座尖叫起来，车还没停稳就开始解安全带。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lilleshall-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利勒舍尔纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lilleshall Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/john-knox-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰·诺克斯故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John Knox House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skara-brae-prehistoric-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯卡拉布雷史前村落</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skara Brae Prehistoric Village</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/triangulation-point-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    三\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">三角测量观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Triangulation Point</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lealt-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尔特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lealt Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hafod-arch",
-          "name": "哈福德拱门",
-          "englishName": "Hafod Arch"
+          "slug": "skara-brae-prehistoric-village",
+          "name": "斯卡拉布雷史前村落",
+          "englishName": "Skara Brae Prehistoric Village"
         },
         {
-          "slug": "lilleshall-monument",
-          "name": "利勒舍尔纪念碑",
-          "englishName": "Lilleshall Monument"
+          "slug": "triangulation-point-wales",
+          "name": "三角测量观景点",
+          "englishName": "Triangulation Point"
         },
         {
-          "slug": "john-knox-house",
-          "name": "约翰·诺克斯故居",
-          "englishName": "John Knox House"
+          "slug": "lealt-falls",
+          "name": "利尔特瀑布",
+          "englishName": "Lealt Falls"
         }
       ]
     }

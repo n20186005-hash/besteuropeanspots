@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "莫比托里姆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "莫比托里姆・Morbitorium・英国・卡迪夫",
-    "description": "第一次听说莫比托里姆这个名字，是在卡迪夫一家老酒馆里。吧台后面的老汤姆用抹布擦着杯子，漫不经心地说了句：“哦，那个地方啊，是威尔士的死人肚子。”他说完自己先笑了，露出缺了半颗的门牙。我追问之下才知道，Morbitorium这个词在拉丁语里大致是“死亡之处”的意思——古罗马人在这里审判犯人、处决他们，然后就地埋葬。威尔士话里管它叫“Tŷ'r Meirw”，直译就是“死人之屋”。这名字可不是闹着玩的。\n当我真正站在这个遗址入口，那股阴凉的味道先于任何视觉信息传来。那是泥土、石灰和千年霉味的混合，有点像打开一个从没晒过太阳的老地下室。入口是一道铁栅栏门，推开时发出粗粝的金属摩擦声，好像有人在里面轻轻咳嗽了一声。我没敢多想，一脚踏进了那个下沉的地穴。阳光在身后被切成一条细线，头顶是低矮的十字拱顶，石头表面布满了细密的水珠，伸手一摸，冰凉得像触碰到了另一个世界的皮肤。\n穿过前厅，进入主墓室，视野骤然开阔。这里不是一个简单的坑，而是一座精心建造的地下广场，四周排列着十二个凹陷的石槽，每个槽里曾经都躺着尸体——或者更准确地说，是经过防腐处理后的“展览品”。罗马人把罪大恶极者的尸体做成了木乃伊，陈列在这里供公众羞辱。光线从顶部几个通风孔斜射下来，在湿润的石地上投出模糊的图案，像是一张张没有五官的脸。空气里有淡淡的石头粉尘味，混着一丝说不清道不明的甜腻——导游后来告诉我，那是古代用于防腐的没药残留。\n让我真正震撼的，是墙上那些涂鸦。不是现代游客刻的“到此一游”，而是两千年前的拉丁文骂人话、情诗、甚至是某位看守的购物清单。有一处凹进去的壁龛里，有人用粗劣的字迹刻了一句话，大意是“马库斯，你的剑戳到我的腰了”——瞬间让我觉得这些被审判、被处决的人，也是活生生的人，会抱怨，会开玩笑，会害怕。莫比托里姆不是一个冷冰冰的遗迹，它像一本被翻开在潮湿空气中的日记，字迹褪了色，但每个笔画都在说话。"
+    "description": "第一次听说莫比托里姆这个名字，是在卡迪夫一家老酒馆里。吧台后面的老汤姆用抹布擦着杯子，漫不经心地说了句：“哦，那个地方啊，是威尔士的死人肚子。”他说完自己先笑了，露出缺了半颗的门牙。我追问之下才知道，Morbitorium这个词在拉丁语里大致是“死亡之处”的意思——古罗马人在这里审判犯人、处决他们，然后就地埋葬。威尔士话里管它叫“Tŷ'r Meirw”，直译就是“死人之屋”。这名字可不是闹着玩的。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/iona-abbey-and-nunnery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾奥娜修道院和修女院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Iona Abbey and Nunnery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lake-vyrnwy-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    L\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Lake Vyrnwy Dam</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lake Vyrnwy Dam</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monkton-old-hall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙克顿老庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monkton Old Hall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prince-of-wales-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士亲王采石场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Quarry</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/invergarry-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因弗加里城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Invergarry Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "iona-abbey-and-nunnery",
-          "name": "艾奥娜修道院和修女院",
-          "englishName": "Iona Abbey and Nunnery"
+          "slug": "prince-of-wales-quarry",
+          "name": "威尔士亲王采石场",
+          "englishName": "Prince of Wales Quarry"
         },
         {
-          "slug": "lake-vyrnwy-dam",
-          "name": "Lake Vyrnwy Dam",
-          "englishName": "Lake Vyrnwy Dam"
+          "slug": "invergarry-castle",
+          "name": "因弗加里城堡",
+          "englishName": "Invergarry Castle"
         },
         {
-          "slug": "monkton-old-hall",
-          "name": "蒙克顿老庄园",
-          "englishName": "Monkton Old Hall"
+          "slug": "big-ben",
+          "name": "大本钟",
+          "englishName": "Big Ben"
         }
       ]
     }

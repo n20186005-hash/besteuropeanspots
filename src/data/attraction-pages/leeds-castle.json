@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "梅德斯通",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "利兹城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "利兹城堡・Leeds Castle・英国・梅德斯通",
-    "description": "那天我开车沿着肯特郡蜿蜒的乡村小路，导航显示快到了，可眼前还是一望无际的翠绿田野和散落的羊群。直到转过一个弯，一片宁静的湖泊突然在树影间闪现，湖心漂着一座灰石城堡，像童话书里被施了沉睡魔法的宫殿。没有一丝现代建筑的打扰，湖水清澈得像一面巨大的镜子，把城堡的每一座塔楼、每一扇窗户都倒映得清清楚楚。我停下车，靠在路边的篱笆旁，深吸一口夹杂着青草和湿润泥土的空气，耳朵里只有远处的鸟鸣和水面轻轻拍打的声音。那一刻，我忽然明白了为什么人们叫它“世界上最可爱的城堡”——它不是那种冷冰冰的军事堡垒，而是一个温柔地浮在水上、仿佛伸手就能触碰的梦。\n走进大门，穿过一片修剪得一丝不苟的英式草坪，空气里弥漫着修剪后青草的清新，还有湖水中淡淡的水藻味。城堡的正面有三座高低错落的塔楼，中间那座最矮，两侧对称，像一只张开翅膀的灰鸽。阳光斜斜地洒在石墙上，几百年的风霜雨雪把石头打磨得温润如玉，有些地方爬满了深绿色的常春藤，给坚硬的外墙添了几分柔软。脚下的石板路微微凹陷，那是无数双靴子、高跟鞋和马蹄踩过的痕迹。转角处有一扇小铁门，推开时发出“吱呀”一声，好像城堡在跟你轻声打招呼。\n城堡内部不像我想象中那么富丽堂皇，反而有种奇特的居家感。墙上挂着褪色的挂毯，壁炉里还留着灰烬，窗台上摆着新鲜摘的野花。一切都像是主人刚刚出门散步、随时会推门回来的样子。最打动我的是那条又窄又陡的螺旋楼梯，每一级台阶都被踩得发亮，手扶着石墙往上走，墙壁冰凉粗糙，有种真实到让人战栗的历史触感。爬到顶层从箭窗望出去，整个湖泊和周围起伏的林地尽收眼底，微风穿过窗口，带来远处教堂的钟声。\n城堡最迷人的时刻是傍晚。游客渐渐散去，湖面恢复了宁静，夕阳把城堡染成暖金色，塔楼的影子在水面拉得长长的。工作人员开始关窗，一扇扇窗户里的灯光次第亮起，倒映在水中，像飘浮的星星。我在湖边找了个长椅坐下来，一只天鹅慢悠悠游过，脖子后面的波纹一圈圈扩散。空气里飘来附近咖啡馆的咖啡香，混合着湖水的微咸。我突然意识到，这座城堡活了快一千年，看过无数日出日落，而此时此刻，它正安静地陪着一个远方的旅人发呆。这种相遇，不需要任何攻略，也无需旁人解说，就是旅行最奢侈的礼物。"
+    "description": "那天我开车沿着肯特郡蜿蜒的乡村小路，导航显示快到了，可眼前还是一望无际的翠绿田野和散落的羊群。直到转过一个弯，一片宁静的湖泊突然在树影间闪现，湖心漂着一座灰石城堡，像童话书里被施了沉睡魔法的宫殿。没有一丝现代建筑的打扰，湖水清澈得像一面巨大的镜子，把城堡的每一座塔楼、每一扇窗户都倒映得清清楚楚。我停下车，靠在路边的篱笆旁，深吸一口夹杂着青草和湿润泥土的空气，耳朵里只有远处的鸟鸣和水面轻轻拍打的声音。那一刻，我忽然明白了为什么人们叫它“世界上最可爱的城堡”——它不是那种冷冰冰的军事堡垒，而是一个温柔地浮在水上、仿佛伸手就能触碰的梦。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/corris-mine-explorers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科瑞斯矿井探险</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corris Mine Explorers</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/equestrian-statue-of-the-duke-of-wellington-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    惠\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">惠灵顿公爵骑马雕像（格拉斯哥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Equestrian statue of the Duke of Wellington, Glasgow</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-library-of-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国家图书馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Library of Scotland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ffridd-faldwyn-iron-age-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里德法尔德文铁器时代山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ffridd Faldwyn Iron Age Hillfort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pulteney-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普尔特尼桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pulteney Bridge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "corris-mine-explorers",
-          "name": "科瑞斯矿井探险",
-          "englishName": "Corris Mine Explorers"
+          "slug": "national-library-of-scotland",
+          "name": "苏格兰国家图书馆",
+          "englishName": "National Library of Scotland"
         },
         {
-          "slug": "hafod-arch",
-          "name": "哈福德拱门",
-          "englishName": "Hafod Arch"
+          "slug": "ffridd-faldwyn-iron-age-hillfort",
+          "name": "弗里德法尔德文铁器时代山堡",
+          "englishName": "Ffridd Faldwyn Iron Age Hillfort"
         },
         {
-          "slug": "equestrian-statue-of-the-duke-of-wellington-glasgow",
-          "name": "惠灵顿公爵骑马雕像（格拉斯哥）",
-          "englishName": "Equestrian statue of the Duke of Wellington, Glasgow"
+          "slug": "pulteney-bridge",
+          "name": "普尔特尼桥",
+          "englishName": "Pulteney Bridge"
         }
       ]
     }

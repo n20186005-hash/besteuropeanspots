@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "邓弗姆林",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "邓弗姆林修道院与宫殿",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "邓弗姆林修道院与宫殿・Dunfermline Abbey and Palace・英国・邓弗姆林",
-    "description": "我第一次站在邓弗姆林修道院前时，差点没认出它是个修道院——它看起来更像一座庞大的城堡残骸，灰色的石墙从广场地面上拔地而起，像一只沉睡的巨兽露出脊背。那天是阴天，低垂的云层把阳光压成薄薄的一层，洒在修道院南立面的红砂岩上，石头缝隙里长着深绿色的苔藓，几株野花从裂缝中探出头来，在风里抖得厉害。空气里混着雨后的泥土味和远处面包店飘来的麦香，广场上没什么游客，只有几个本地老人坐在长椅上，用我听不懂的苏格兰口音聊着天，偶尔传来几声乌鸦的啼叫，那声音在空旷的庭院里回荡了好久。\n走进修道院中殿的那一刻，我整个人都安静了。脚下是磨得发亮的黑色石板，头顶是巨大的罗马式拱券，光线从南侧的高窗斜斜地射进来，在柱子之间拉出一根根光柱，光里有金色尘埃慢慢旋转。空气是凉的，带着石头那种古老而干燥的气息，能感觉到自己的脚步声被厚重的墙壁吸收，变成一种闷闷的回响。我看着那些粗壮的柱子——它们像一棵棵石化的橡树，从地面拔起，撑起整个空间。柱头的雕花已经模糊了，但还能认出缠绕的藤蔓和怪异的兽首，那是800多年前的工匠用刻刀留下的故事。\n宫殿废墟就在修道院北侧，和它紧贴着，像一对互相倚靠的老人。废墟只剩下几面残墙和空荡荡的窗洞，但你能通过那些高大的壁炉和雕花的窗框想象它曾经的辉煌——苏格兰国王詹姆斯一世就在这里出生，玛丽女王也曾在此居住。我爬上废墟二层的石阶，脚下有裂缝，扶手上生着冰凉的青苔。站在最高处，看到修道院的尖顶和远处福斯湾灰蓝色的海水连成一片，风吹得我头发乱飘，那一刻我突然理解为什么苏格兰人这么珍惜这片地方——它不只是一个景点，而是他们的历史藏身之处。\n让人心头一软的是它和当地人的关系。周日上午我去教堂听了一场礼拜——修道院里的圣玛格丽特教堂至今仍在做弥撒。管风琴的声音在石壁间撞来撞去，唱诗班的小男孩们穿着白袍，声音清澈得像溪水。到了下午，修道院外的草坪上满是遛狗、野餐的家庭，孩子们在废墟间捉迷藏，笑声在这里和生活黏在了一起。它不是那种被玻璃罩起来供人瞻仰的死物，而是一个还在呼吸的、和普通人日子长在一起的地方。"
+    "description": "我第一次站在邓弗姆林修道院前时，差点没认出它是个修道院——它看起来更像一座庞大的城堡残骸，灰色的石墙从广场地面上拔地而起，像一只沉睡的巨兽露出脊背。那天是阴天，低垂的云层把阳光压成薄薄的一层，洒在修道院南立面的红砂岩上，石头缝隙里长着深绿色的苔藓，几株野花从裂缝中探出头来，在风里抖得厉害。空气里混着雨后的泥土味和远处面包店飘来的麦香，广场上没什么游客，只有几个本地老人坐在长椅上，用我听不懂的苏格兰口音聊着天，偶尔传来几声乌鸦的啼叫，那声音在空旷的庭院里回荡了好久。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cotswolds-aonb\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科茨沃尔德地区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cotswolds AONB</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llyn-peninsula\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利恩半岛（国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Llŷn Peninsula</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dalmeny-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达尔梅尼庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dalmeny House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cotswolds-aonb",
-          "name": "科茨沃尔德地区",
-          "englishName": "Cotswolds AONB"
+          "slug": "llyn-peninsula",
+          "name": "利恩半岛（国家信托）",
+          "englishName": "National Trust - Llŷn Peninsula"
         },
         {
-          "slug": "blue-lagoon-abereiddi",
-          "name": "蓝湖",
-          "englishName": "Blue Lagoon - Abereiddi"
+          "slug": "dalmeny-house",
+          "name": "达尔梅尼庄园",
+          "englishName": "Dalmeny House"
         },
         {
-          "slug": "borth",
-          "name": "博斯",
-          "englishName": "Borth"
+          "slug": "llyn-brianne-viewpoint",
+          "name": "布莱恩湖观景台",
+          "englishName": "Llyn Brianne Viewpoint"
         }
       ]
     }

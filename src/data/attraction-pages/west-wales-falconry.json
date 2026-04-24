@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "西威尔士猎鹰中心",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "西威尔士猎鹰中心・West Wales Falconry・英国・彭布罗克郡",
-    "description": "车子在狭窄的乡村公路上颠簸了将近二十分钟，两侧是绵延的绿色丘陵和偶尔闪现的白色羊群，导航终于把我带进一条只容一辆车通过的土路。我还没来得及摇下车窗，一阵尖锐而清亮的鹰啸就从头顶掠过，像一把看不见的刀划破威尔士上空湿漉漉的寂静。打开车门，迎面撞来的是混合着青草、泥土和海风咸味的空气，初夏的雨刚停，草叶上挂着水珠，脚下的泥地踩上去软软的，每一步都留下浅浅的印记。\n最先映入眼帘的不是建筑，而是一排蹲在木桩上的大鸟。它们的眼神冷峻而专注，羽毛被雨水淋得发亮，有的正用喙不紧不慢地梳理翅膀，有的则一动不动地盯着远处的灌木丛。走近几步，能听到它们呼吸时喉咙里发出的细微呼噜声，偶尔张开翅膀抖落水珠，那扑棱一声在安静的农场里显得格外响亮。角落里一只雕鸮转过头来，橘黄色的虹膜像两轮小太阳，直直望进你瞳孔，看得人后背发麻又忍不住嘴角上扬——这种被野生动物审视的感觉，比任何博物馆里的标本都震撼一百倍。\n游客中心是个不起眼的小木屋，门口的牌子上用粉笔写着今天的飞行表演时间。推门进去，暖烘烘的烤箱味和咖啡香扑过来，壁炉里烧着真正的柴火，噼啪作响。接待台后面的墙上挂满了猛禽的羽毛、爪子标本和泛黄的老照片，角落里有个玻璃柜展示着猎鹰术用的皮革头罩、手套和铃铛。老板是个头发花白、眼神像鹰一样锐利的中年男人，说话带着浓重的威尔士口音，听说我第一次来，他咧嘴一笑：“别紧张，它们比你更紧张。”这句话后来成了我整个下午的定心丸。\n站在露天表演场边缘的时候，风从西面的斯诺登尼亚山脉吹过来，卷起几根草茎在脚边打转。工作人员戴着一只栗翅鹰进场，那鹰站在她戴着厚皮手套的前臂上，翅膀微微展开保持平衡，爪子深深嵌进皮革里。当那只鹰被解开脚链，突然振翅腾空而起，在低垂的灰色云层下划出一道流畅的弧线，耳边全是翅膀拍打空气的沉闷风声，然后它俯冲下来，几乎是蹭着我的头顶掠过，抓走那块血淋淋的鸡肉——那一刻，我的心脏像被一只无形的手攥紧了又松开。这种与野性瞬间的直面，是任何IMAX电影都模拟不出的真实。"
+    "description": "车子在狭窄的乡村公路上颠簸了将近二十分钟，两侧是绵延的绿色丘陵和偶尔闪现的白色羊群，导航终于把我带进一条只容一辆车通过的土路。我还没来得及摇下车窗，一阵尖锐而清亮的鹰啸就从头顶掠过，像一把看不见的刀划破威尔士上空湿漉漉的寂静。打开车门，迎面撞来的是混合着青草、泥土和海风咸味的空气，初夏的雨刚停，草叶上挂着水珠，脚下的泥地踩上去软软的，每一步都留下浅浅的印记。"
   },
   "sections": [
     {
@@ -58,22 +58,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dunfermline-abbey-and-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓弗姆林修道院与宫殿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunfermline Abbey and Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eastgate-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    东\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">东门钟楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eastgate Clock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-moil\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scottish-national-war-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国家战争纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish National War Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dunfermline-abbey-and-palace",
-          "name": "邓弗姆林修道院与宫殿",
-          "englishName": "Dunfermline Abbey and Palace"
+          "slug": "charter-boat-wales",
+          "name": "威尔士包船游",
+          "englishName": "Charter Boat Wales"
         },
         {
-          "slug": "eastgate-clock",
-          "name": "东门钟楼",
-          "englishName": "Eastgate Clock"
+          "slug": "scottish-national-war-memorial",
+          "name": "苏格兰国家战争纪念馆",
+          "englishName": "Scottish National War Memorial"
         },
         {
-          "slug": "castle-moil",
-          "name": "莫伊尔城堡",
-          "englishName": "Castle Moil"
+          "slug": "blue-lagoon-abereiddi",
+          "name": "蓝湖",
+          "englishName": "Blue Lagoon - Abereiddi"
         }
       ]
     }

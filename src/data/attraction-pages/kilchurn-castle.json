@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰高地阿罗赫尔",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "基尔亨城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "基尔亨城堡・Kilchurn Castle・英国・苏格兰高地阿罗赫尔",
-    "description": "我第一次望见基尔亨城堡时，天刚蒙蒙亮，雾气像一层轻纱笼罩着Loch Awe。我站在公路旁一个不起眼的土坡上，突然在湖的拐角处看到它——静静地立在水中央，像一个被世界遗忘的守卫。湖水极静，几乎听不到水声，只有几只野鸭掠过湖面，划出的涟漪在城堡的倒影上缓慢散开。空气中弥漫着潮湿苔藓和泥土的气息，那种微微发苦的植物味道，混杂着远处沼泽地里腐殖质的腥甜。风从湖面吹来，冰凉而温柔，吹动了城堡塔楼上攀附的藤蔓，那些枯黄的叶片在风中哗啦作响，像是在低声诉说着什么古老的秘密。\n城堡本身并非完整的堡垒，而是一座标准的废墟。没有屋顶，没有窗户，只有巨大的石墙和一些残破的塔楼在雾气中若隐若现。走近一些，能看到墙壁上长满了青绿色的地衣和深灰色的苔藓，摸上去湿漉漉、柔软而冰凉。城堡的影子在水面上被拉得很长很长，像一张沉默的嘴，把时间和历史都吞了进去。我站在湖边的一个废弃羊圈旁，听见远处偶尔传来几声乌鸦的嘶叫，还有风穿过塔楼孔洞时发出的低沉呜呜声，就像城堡在呼吸。\n这座城堡在当地人心中并不只是一个旅游景点，而是他们童年记忆中一道永远不会褪色的风景。那天早晨，我遇到了一个本地老人，他每天都会牵着一条老狗绕着湖散步。他跟我说，他小时候就在这座城堡的废墟里捉迷藏，那时候还有几间相对完整的房间可以钻进去，墙上隐约能看到骑士的纹章。他说话时一直望着远处的城堡，眼神像在看着一位老朋友。这种历经时间沉淀的亲切感，让我觉得基尔亨城堡不只是石头，更是一个活着的故事。\n最让我着迷的，是城堡那种与自然融为一体的沉默力量。它不靠华丽的雕刻或宏大的规模取悦你，而是用它的残破、孤独和野性，在你的心里埋下一粒种子。你离开之后，那座灰黑色的塔楼会无数次出现在你的梦里，每一次都带一点新发现的细节。这就是基尔亨城堡最独特的魅力——它在废墟中散发出一种从容的尊严，仿佛在对你说：即使被岁月抛弃，也要优雅地站立到最后。"
+    "description": "我第一次望见基尔亨城堡时，天刚蒙蒙亮，雾气像一层轻纱笼罩着Loch Awe。我站在公路旁一个不起眼的土坡上，突然在湖的拐角处看到它——静静地立在水中央，像一个被世界遗忘的守卫。湖水极静，几乎听不到水声，只有几只野鸭掠过湖面，划出的涟漪在城堡的倒影上缓慢散开。空气中弥漫着潮湿苔藓和泥土的气息，那种微微发苦的植物味道，混杂着远处沼泽地里腐殖质的腥甜。风从湖面吹来，冰凉而温柔，吹动了城堡塔楼上攀附的藤蔓，那些枯黄的叶片在风中哗啦作响，像是在低声诉说着什么古老的秘密。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/edinburgh-dungeon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡地牢</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Edinburgh Dungeon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cabot-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伯特塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cabot Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kelvingrove-art-gallery-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯尔文格罗夫美术馆和博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kelvingrove Art Gallery and Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "edinburgh-dungeon",
-          "name": "爱丁堡地牢",
-          "englishName": "The Edinburgh Dungeon"
+          "slug": "hadrians-wall",
+          "name": "哈德良长城",
+          "englishName": "Hadrian's Wall"
         },
         {
-          "slug": "borth",
-          "name": "博斯",
-          "englishName": "Borth"
+          "slug": "cabot-tower",
+          "name": "卡伯特塔",
+          "englishName": "Cabot Tower"
         },
         {
-          "slug": "canterbury-cathedral",
-          "name": "坎特伯雷大教堂",
-          "englishName": "Canterbury Cathedral"
+          "slug": "kelvingrove-art-gallery-museum",
+          "name": "凯尔文格罗夫美术馆和博物馆",
+          "englishName": "Kelvingrove Art Gallery and Museum"
         }
       ]
     }

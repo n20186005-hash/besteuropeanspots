@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Machynlleth (马奇尼莱斯)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "戴菲鱼鹰保护项目",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "戴菲鱼鹰保护项目・Dyfi Osprey Project・英国・Machynlleth (马奇尼莱斯)",
-    "description": "我第一次去Dyfi Osprey Project是在五月初的一个早晨。车停在Cors Dyfi自然保护区门口时，我还没下车，就听见远处传来一阵尖锐的哨音——那是鱼鹰在巢穴附近的警告叫声。空气里弥漫着沼泽特有的湿润泥土气息，混着樱草花的甜香。推开车门，脚下是松软的木质栈道，踩上去吱呀作响。我沿着栈道往前走，两边的芦苇丛比人还高，风一吹，沙沙声像在低声密语。\n走到观察室的落地窗前，我瞬间愣住了。透过那面巨大的玻璃，视野豁然开朗：一片开阔的浅水沼泽上，矗立着一座约十米高的人工巢架，上面是硕大的树枝巢穴。两只成年鱼鹰正站在巢边，用喙整理羽毛。它们的眼睛是那么锐利，从高处俯瞰着整片领地。其中一只突然展开翅膀，振翅飞起，在空中划了个优雅圆弧，然后直直扎进水面——水花溅起的瞬间，它已经抓出一条银光闪闪的鳟鱼。整个动作行云流水，像一场精心编排的芭蕾。\n坐在观察室的志愿者老太太笑着递给我一杯热茶，她说她已经在这里做了八年志愿者，每天看着这些鸟就像看自家孩子一样。她说：“你知道吗，它们每年要从西非飞过来，飞过大半个地球，就是为了回到这个巢。你看那只脚上有绿色环志的，叫‘蒙蒂’，它在2011年第一次在这里成功繁殖，是整个项目的功臣。”她说话时，眼光一直没离开那对鱼鹰，眼神里满满的都是温柔。\n最打动我的并不是鱼鹰捕鱼时的惊心动魄，而是那种安静的日常感。它们就在那儿，过日子、筑巢、喂养雏鸟，而人类只隔着一层玻璃安静地观看。没有笼子，没有表演，只有纯粹的共存。观察室里回荡着望远镜调节焦距的咔嗒声，偶尔有人压低声音喊“快看，它飞回来了”，然后所有人同时举起长焦相机，快门声像雨点一样响起。那一刻，我觉得自己不是游客，而是这场自然史诗的一个小小见证者。"
+    "description": "我第一次去Dyfi Osprey Project是在五月初的一个早晨。车停在Cors Dyfi自然保护区门口时，我还没下车，就听见远处传来一阵尖锐的哨音——那是鱼鹰在巢穴附近的警告叫声。空气里弥漫着沼泽特有的湿润泥土气息，混着樱草花的甜香。推开车门，脚下是松软的木质栈道，踩上去吱呀作响。我沿着栈道往前走，两边的芦苇丛比人还高，风一吹，沙沙声像在低声密语。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chester-castle-agricola-tower-castle-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特城堡：阿格里科拉塔和城堡城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Castle: Agricola Tower and Castle Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prince-of-wales-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士亲王采石场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Quarry</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/palace-of-westminster\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威斯敏斯特宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Palace of Westminster</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/west-blockhouse-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西堡垒堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">West Blockhouse Fort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "chester-castle-agricola-tower-castle-walls",
-          "name": "切斯特城堡：阿格里科拉塔和城堡城墙",
-          "englishName": "Chester Castle: Agricola Tower and Castle Walls"
+          "slug": "prince-of-wales-quarry",
+          "name": "威尔士亲王采石场",
+          "englishName": "Prince of Wales Quarry"
         },
         {
-          "slug": "cawdor-castle-and-gardens",
-          "name": "考德城堡与花园",
-          "englishName": "Cawdor Castle and Gardens"
+          "slug": "palace-of-westminster",
+          "name": "威斯敏斯特宫",
+          "englishName": "Palace of Westminster"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "west-blockhouse-fort",
+          "name": "西堡垒堡",
+          "englishName": "West Blockhouse Fort"
         }
       ]
     }

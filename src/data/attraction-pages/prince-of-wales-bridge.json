@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫（纽波特附近）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士亲王桥",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士亲王桥・Prince of Wales Bridge・英国・卡迪夫（纽波特附近）",
-    "description": "我第一次看见威尔士亲王桥，是在一个阴沉沉的冬日午后。车从英格兰这边拐上M4，雨水刚停，空气里弥漫着湿漉漉的泥土味和柏油路被冲刷后的涩感。远远地，那两座白色的桥塔从地平线冒出来，像两只巨大的鹤立在水雾里。等车靠近，我摇下车窗，冷风裹着河水的腥咸扑在脸上，还夹杂着远处海鸥尖利的叫声。桥面很宽，四车道，但不像伦敦的桥那么拥挤，车流平稳地流过，几乎听不到引擎轰鸣，只有轮胎压过接缝处有节奏的“咚——咚——咚”，像谁在敲一座低音鼓。\n开到桥中央时，我忍不住放慢了速度——虽然法律不允许，但前方的车流刚好排成了长队，给了我几分钟的机会。塞恩河在脚下铺开一片灰蓝色的丝绸，水面宽得像一片海，对岸的威尔士丘陵笼罩在铅灰色的云层里。阳光突然从云缝里斜射下来，把钢缆照成一根根金线，那些原本冰冷的混凝土塔柱瞬间变得温暖，像被谁镀了一层蜜。我旁边那辆货车里的司机，一个胡子拉碴的中年人，竟然伸出一只手朝窗外晃了晃，仿佛在跟河流打招呼。那一刻我明白了——这座桥不是死的零件，它是活的，它在呼吸着两个地方的空气。\n在桥西端的塞文河服务区，有一个小小的观景台。我停好车，走过去，靠在栏杆上。风更大了，把耳朵吹得生疼，但我不舍得走。傍晚六点左右，太阳开始往威尔士的山那边沉，桥的影子在河面上拉得很长，水波一皱，影子就碎成千万片橘红色的羽毛。有对老夫妻也在那里，老太太裹着厚厚的羊毛围巾，老头举着手机拍个不停。他们告诉我，他们每隔几个月就会从布里斯托开车过来，就为了看一次桥上的日落。“每次过桥都像从一段故事走到另一段故事里。”老太太的话让我心头一热。\n这座桥最打动我的，是那种“流动”的质感。你一脚油门踩下去，脚下的陆地可能还在英格兰，几秒后轮胎就碾上了威尔士的土地。没有关卡，没有标识，只有桥中间那个不起眼的里程碑。但每个经过的人心里都清楚，你正在穿越一道看不见的边界，而这座桥就是那道边界的实体。它不说话，但它把两个世界缝在了一起。夜晚的时候，桥上的灯亮起来，一串暖黄色的光点在夜空里连成一条项链，倒映在漆黑的水面上，像童话里通往精灵王国的道路。"
+    "description": "我第一次看见威尔士亲王桥，是在一个阴沉沉的冬日午后。车从英格兰这边拐上M4，雨水刚停，空气里弥漫着湿漉漉的泥土味和柏油路被冲刷后的涩感。远远地，那两座白色的桥塔从地平线冒出来，像两只巨大的鹤立在水雾里。等车靠近，我摇下车窗，冷风裹着河水的腥咸扑在脸上，还夹杂着远处海鸥尖利的叫声。桥面很宽，四车道，但不像伦敦的桥那么拥挤，车流平稳地流过，几乎听不到引擎轰鸣，只有轮胎压过接缝处有节奏的“咚——咚——咚”，像谁在敲一座低音鼓。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llandudno-promenade\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺滨海步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Promenade</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gyrn-ddu\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉恩杜山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gyrn Ddu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "llandudno-promenade",
-          "name": "兰迪德诺滨海步道",
-          "englishName": "Llandudno Promenade"
+          "slug": "animal-wall",
+          "name": "动物墙",
+          "englishName": "Animal Wall"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "gyrn-ddu",
+          "name": "吉恩杜山",
+          "englishName": "Gyrn Ddu"
         },
         {
-          "slug": "colin-mcrae-cray-corner",
-          "name": "科林·麦克雷弯道",
-          "englishName": "Colin McRae's Cray Corner"
+          "slug": "hadrians-wall",
+          "name": "哈德良长城",
+          "englishName": "Hadrian's Wall"
         }
       ]
     }

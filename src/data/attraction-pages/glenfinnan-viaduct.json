@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦芬南",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦芬南高架桥",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格伦芬南高架桥・Glenfinnan Viaduct・英国・格伦芬南",
-    "description": "我第一次见到格伦芬南高架桥，不是在任何一个晴朗的夏日，而是在一个苏格兰特有的、浓雾弥漫的清晨。我站在A830公路边，远远望去，那座巨大的混凝土拱桥就像一头沉睡在迷蒙晨雾中的灰色巨兽。空气里弥漫着潮湿的苔藓和泥炭的气味，冷得像刀刃割在脸上。整个山谷安静得只剩下风声，以及远处偶尔传来的一声鸟鸣。我裹紧了冲锋衣，心想这大概就是高地最真实的模样——沉默、冷峻、带着一种让人不敢高声语的庄严。\n当第一缕阳光终于艰难地刺破云层，照在桥身上时，浅金色的光线给灰白的混凝土镀上了一层暖意。我走到了桥下的峡湾边，水面上倒映着二十一个拱门，像一排整齐的巨人的肋骨。我弯下腰，伸手触碰湖水，冰冷刺骨，这湖水是从不远处的Loch Shiel流淌而来的，据说湖底藏着古老而神秘的故事。而此时此刻，我只是一个站在水面与高架桥之间的普通旅人，被眼前这静谧而宏大的画面彻底击中。\n真正让这里变得不安静的是下午两点半。我早早爬到观景台，手里拿着手机，紧张地看着手表。突然，远处的山谷里传来一声悠长的汽笛声，紧接着是火车轮子碾过铁轨时发出的“咔嚓、咔嚓”声，由远及近，越来越清晰。一架复古的蒸汽火车头拖着浓白色的蒸汽从山坳里钻了出来，喷出滚滚白烟，像一部老电影里才有的画面。我身边所有的人都举起了相机，没人说话，只有快门声此起彼伏。当火车头完全出现在桥拱上，蒸汽与桥拱叠在一起时，所有人都不约而同地发出了一声惊叹。\n那一刻，我仿佛真的看到了霍格沃茨特快驶向魔法世界。但我又立刻意识到，这不仅仅是电影里的魔法。站在这里，感受着山风的刮擦，看着湖水与天空连成一线，铁轨穿过这孤独而壮阔的高地大地，你才能真正理解苏格兰人为什么那么热爱这片土地——它粗犷、沉默，却藏着最动人的诗意。孩子们追着火车跑，老人们掏出手帕擦眼泪，而我，只是在心里默默记下了这个下午，以及那一声穿透山林的汽笛。"
+    "description": "我第一次见到格伦芬南高架桥，不是在任何一个晴朗的夏日，而是在一个苏格兰特有的、浓雾弥漫的清晨。我站在A830公路边，远远望去，那座巨大的混凝土拱桥就像一头沉睡在迷蒙晨雾中的灰色巨兽。空气里弥漫着潮湿的苔藓和泥炭的气味，冷得像刀刃割在脸上。整个山谷安静得只剩下风声，以及远处偶尔传来的一声鸟鸣。我裹紧了冲锋衣，心想这大概就是高地最真实的模样——沉默、冷峻、带着一种让人不敢高声语的庄严。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kilt-rock-waterfall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰裙岩瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilt Rock Waterfall - Creag An Fhèilidh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pen-y-garreg-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩恩加雷格水坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen y Garreg Dam</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-coastal-path-west-shore-sand-dunes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海岸步道（西岸沙丘）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path (West Shore Sand Dunes)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "colin-mcrae-cray-corner",
-          "name": "科林·麦克雷弯道",
-          "englishName": "Colin McRae's Cray Corner"
+          "slug": "kilt-rock-waterfall",
+          "name": "苏格兰裙岩瀑布",
+          "englishName": "Kilt Rock Waterfall - Creag An Fhèilidh"
         },
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "pen-y-garreg-dam",
+          "name": "佩恩加雷格水坝",
+          "englishName": "Pen y Garreg Dam"
         },
         {
-          "slug": "bryntail-lead-mine-buildings",
-          "name": "布林泰尔铅矿建筑",
-          "englishName": "Bryntail Lead Mine Buildings"
+          "slug": "wales-coastal-path-west-shore-sand-dunes",
+          "name": "威尔士海岸步道（西岸沙丘）",
+          "englishName": "Wales Coastal Path (West Shore Sand Dunes)"
         }
       ]
     }

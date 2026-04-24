@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Boscobel（靠近威尔士边境）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "白色女士修道院遗址",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "白色女士修道院遗址・White Ladies Priory・英国・Boscobel（靠近威尔士边境）",
-    "description": "我是在一个深秋的午后到达白色女士修道院遗址的。车子拐进Boscobel村那条窄得只容一辆车通过的乡间小路，两侧的落叶乔木已经把整条路染成了金黄色。空气里弥漫着潮湿的泥土和干草的气味，偶尔有一阵风吹过，橡树叶子沙沙作响，像在低声谈论什么秘密。停好车，顺着一条被牛羊踩出来的土路穿过几块牧场，远远地就看到几段灰红色的残墙孤零零地立在草坪上——那就是白色女士修道院。\n走近了才发现，它比想象中要小得多。整个遗址只剩下一面高高的西墙和半截拱门，墙上开了几扇窄长的尖窗，窗框边缘的石块已经被风雨打磨得圆润光滑。阳光从云缝里斜射下来，把那面墙染成一种温暖的橘红色，墙脚下的草地里开满了白色的野花。我站在墙跟前抬头看，能听见自己的呼吸声和远处绵羊的叫声，这安静让人的心不由自主地沉下来。没有游客，只有我一个人和这面墙默默对视。\n在当地老人的记忆里，这里始终是牧羊人躲避阵雨的地方，也是孩子们放学后探险的秘密基地。但我慢慢意识到，这座不起眼的废墟藏着英国历史上最刺激的逃亡故事：它曾经是查理二世在1651年伍斯特战役惨败后连日逃命的庇护所。就在这面墙后面，未来的国王藏了一天一夜，等来了一棵橡树和一次命运的转弯。\n最打动我的不是它的历史厚重，而是那种时间流逝后留下的朴素尊严。墙缝里长出的蕨类植物随着微风轻轻晃动，墙根靠着一块石板，上面刻着简单的一段话介绍历史。没有围栏，没有门票站，你想摸那面粗糙的砂岩就可以摸，想坐在地上对着墙发呆就可以发呆。它就像威尔士边境上一块被遗忘的骨头，安静地躺在草地里，告诉每一个路过的人：这里曾有过声音，曾有过祈祷，曾有一个年轻人在绝望中抓住了一线生机。"
+    "description": "我是在一个深秋的午后到达白色女士修道院遗址的。车子拐进Boscobel村那条窄得只容一辆车通过的乡间小路，两侧的落叶乔木已经把整条路染成了金黄色。空气里弥漫着潮湿的泥土和干草的气味，偶尔有一阵风吹过，橡树叶子沙沙作响，像在低声谈论什么秘密。停好车，顺着一条被牛羊踩出来的土路穿过几块牧场，远远地就看到几段灰红色的残墙孤零零地立在草坪上——那就是白色女士修道院。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/henrhyd-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亨利德瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Henrhyd Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calanais-standing-stones\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡兰尼什巨石阵</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calanais Standing Stones</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/penrhos-coastal-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭罗斯海岸公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Arfordirol Penrhos Coastal Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "henrhyd-falls",
-          "name": "亨利德瀑布",
-          "englishName": "Henrhyd Falls"
+          "slug": "hafod-arch",
+          "name": "哈福德拱门",
+          "englishName": "Hafod Arch"
         },
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "castell-coch",
+          "name": "科奇城堡",
+          "englishName": "Castell Coch"
         },
         {
-          "slug": "calanais-standing-stones",
-          "name": "卡兰尼什巨石阵",
-          "englishName": "Calanais Standing Stones"
+          "slug": "penrhos-coastal-park",
+          "name": "彭罗斯海岸公园",
+          "englishName": "Parc Arfordirol Penrhos Coastal Park"
         }
       ]
     }

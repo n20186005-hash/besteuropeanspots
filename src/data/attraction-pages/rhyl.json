@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "里尔（威尔士登比郡）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "里尔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "里尔・Rhyl・英国・里尔（威尔士登比郡）",
-    "description": "我第一次站在里尔的海堤旁，深吸一口气，肺里立刻被咸涩的海风灌满，其中还夹着热狗摊飘来的廉价番茄酱味和油炸面团的香气。眼前是宽阔的黄色沙滩，远处摩天轮在灰蓝色的天空下缓缓转动，仿佛一只巨大的海鸟在盘旋。一个穿着条纹衫的小男孩正举着红色的铲子挖沙坑，他的妈妈躺在条纹沙滩巾上，翻着一本皱巴巴的平装书。左边，彩虹色的海滨小屋一排排站着，木门被海风吹得吱呀轻响，每一扇都像在跟你招手：“来，坐进来，看海。”\n里尔不是那种藏着深奥历史遗迹、让游客毕恭毕敬参观的地方。它粗糙、直白，带着点游乐场般的喧闹。电动碰碰车叮叮当当的碰撞声从码头那边传来，偶尔夹杂着赢家的尖叫声。空气中飘着现炸薯条的热气，你如果靠近，就能看见油腻的纸袋在风中颤抖。一位老人坐在长椅上，用报纸裹着刚买的螃蟹腿，熟练地掰开，把白白嫩嫩的肉塞进嘴里，满意地咂咂嘴。这就是里尔——一种毫不掩饰的、属于普通人的快乐。\n黄昏时分，一切都变了。太阳落到远处斯诺登尼亚山脉的剪影后面，天和海被染成浅紫和橘红交错的颜色。沙滩上的人群散去，只剩下几个遛狗的人。潮水退去露出湿漉漉的沙地，上面印着海鸥的脚印和昨晚篝火的黑色痕迹。码头上的灯一盏接一盏亮起来，倒映在水面，颤悠悠的像蜡烛融化在蓝色绒布上。你突然意识到，这个地方的核心魅力正是这种不加修饰的真实感——它不假装高贵，却让人卸下所有防备，只想赤脚走在沙滩上，让海浪一遍遍冲刷脚踝，直到天黑。"
+    "description": "我第一次站在里尔的海堤旁，深吸一口气，肺里立刻被咸涩的海风灌满，其中还夹着热狗摊飘来的廉价番茄酱味和油炸面团的香气。眼前是宽阔的黄色沙滩，远处摩天轮在灰蓝色的天空下缓缓转动，仿佛一只巨大的海鸟在盘旋。一个穿着条纹衫的小男孩正举着红色的铲子挖沙坑，他的妈妈躺在条纹沙滩巾上，翻着一本皱巴巴的平装书。左边，彩虹色的海滨小屋一排排站着，木门被海风吹得吱呀轻响，每一扇都像在跟你招手：“来，坐进来，看海。”"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pembroke-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembroke Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/john-ogroats-signpost\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰奥格罗茨路牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John o’ Groats Signpost</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wings-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士之翼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wings Of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "pembroke-castle",
-          "name": "彭布罗克城堡",
-          "englishName": "Pembroke Castle"
+          "slug": "john-ogroats-signpost",
+          "name": "约翰奥格罗茨路牌",
+          "englishName": "John o’ Groats Signpost"
         },
         {
-          "slug": "canterbury-cathedral",
-          "name": "坎特伯雷大教堂",
-          "englishName": "Canterbury Cathedral"
+          "slug": "wings-of-wales",
+          "name": "威尔士之翼",
+          "englishName": "Wings Of Wales"
         },
         {
-          "slug": "blue-lagoon-abereiddi",
-          "name": "蓝湖",
-          "englishName": "Blue Lagoon - Abereiddi"
+          "slug": "cardiff-bay",
+          "name": "卡迪夫湾",
+          "englishName": "Cardiff Bay"
         }
       ]
     }

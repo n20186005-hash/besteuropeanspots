@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "因弗加里",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "因弗加里城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "因弗加里城堡・Invergarry Castle・英国・因弗加里",
-    "description": "我是在一个雾霭沉沉的午后走进因弗加里城堡的。车停在路边，沿着一条被羊群踩得满是泥泞的小径走上去，空气里混着湿漉漉的石楠和苔藓的气味，还有远处奥伊赫河奔流不息的沉闷轰鸣。等我绕过一片荆棘丛，那座残破的塔楼猛地撞进视野——它就那样蹲踞在河湾上方的岩岬尖上，像一头年迈的野兽收起了利爪，却依然不肯倒下。灰褐色的花岗岩墙面被风雨啃噬出了无数窟窿，常春藤沿着裂缝攀爬而上，在无人打扰的角落里开出细碎的白花。\n走近了才发现，城堡其实只剩下一个空壳。入口处的拱门塌了一半，碎石散落在地上，每一步都能踩到青苔和羊粪。我仰头看，四层高的主楼只剩下北墙和东墙还勉强支撑着，几根残破的橡木梁从窗口伸出来，像断臂一样。阳光偶尔从云缝漏下来，在暗沉的内庭里投下一道惨白的光束，那些深凹的壁龛和壁炉的位置依稀可辨。你能想象两百多年前这里曾燃着烈火，麦克唐纳家的人裹着格子呢披肩围坐在炉边，吹着风笛，喝着威士忌——而现在，只有风声穿过空洞的窗洞，发出呜呜的回应。\n最打动我的是它周围那一圈野生的静谧。城堡坐落在洛奇湖的一个小半岛上，三面环水，湖水绿得发黑，对岸的松林密密层层地铺到天边。没有游客，没有纪念品商店，甚至没有一块解说牌。你站在废墟中央，唯一能听见的就是风声、水声、鸟鸣，以及自己的心跳。这地方好像被世界遗忘了，又好像它主动拒绝了世界。这种感觉很奇妙——当你用手去摸那些粗糙的石头时，你能感受到这栋建筑依旧是活的，它在用另一种方式呼吸着。\n当地人告诉我，因弗加里城堡从不曾对外开放过，它是麦克唐纳家族私有的，至今仍属于原来的家族后裔。他们任由废墟自生自灭，不修复，不围栏，不收门票，甚至不鼓励人来看。可恰恰因为这种“不被打扰”，它保留住了高地废墟最原始的魅力：它不是给游客的准备好的标本，而是一段正在腐烂的史诗，你得自己走进来，蹲下来，听它絮絮叨叨地讲。"
+    "description": "我是在一个雾霭沉沉的午后走进因弗加里城堡的。车停在路边，沿着一条被羊群踩得满是泥泞的小径走上去，空气里混着湿漉漉的石楠和苔藓的气味，还有远处奥伊赫河奔流不息的沉闷轰鸣。等我绕过一片荆棘丛，那座残破的塔楼猛地撞进视野——它就那样蹲踞在河湾上方的岩岬尖上，像一头年迈的野兽收起了利爪，却依然不肯倒下。灰褐色的花岗岩墙面被风雨啃噬出了无数窟窿，常春藤沿着裂缝攀爬而上，在无人打扰的角落里开出细碎的白花。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cairngorm-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorm Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-library-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家图书馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Library of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-inverlochy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老因弗洛奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Inverlochy Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-man-of-hoy\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老人岩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Man of Hoy</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cairngorm-mountain",
-          "name": "凯恩戈姆山",
-          "englishName": "Cairngorm Mountain"
+          "slug": "national-library-wales",
+          "name": "威尔士国家图书馆",
+          "englishName": "National Library of Wales"
         },
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "old-inverlochy-castle",
+          "name": "老因弗洛奇城堡",
+          "englishName": "Old Inverlochy Castle"
         },
         {
-          "slug": "cairngorms-national-park",
-          "name": "凯恩戈姆国家公园",
-          "englishName": "Cairngorms National Park"
+          "slug": "old-man-of-hoy",
+          "name": "老人岩",
+          "englishName": "Old Man of Hoy"
         }
       ]
     }

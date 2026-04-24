@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡羊驼保护区",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "彭布罗克郡羊驼保护区・Pembrokeshire Llama Sanctuary・英国・彭布罗克郡",
-    "description": "第一次站在这片被绿浪般丘陵包围的土地上时，我几乎忘了自己是来找羊驼的。空气里混着新割的青草和泥土的甜腥，远处传来几声轻柔的“嗯嗯”声，像在打招呼。我转过那棵老橡树，突然就撞见了一片毛茸茸的安静——十几只羊驼或卧或立，它们的脖子优雅地弯曲，耳朵微微转动，黑葡萄般的眼睛里盛满好奇。阳光斜斜地洒在它们奶白色、焦糖色和浅咖啡色的绒毛上，每走一步，那些纤维就泛起细腻的光泽。\n保护区的主人叫埃莉，一个留着灰色短发、笑声爽朗的威尔士女人。她递给我一袋混合了胡萝卜干和燕麦的饲料，轻声提醒：“手掌要摊平，别捏着，它们会用嘴唇温柔地扫过去。”我蹲下身，一只耳朵上挂着蓝色标识牌的羊驼慢慢踱过来，它的呼吸温热而带着草香，柔软的鼻尖触到我的手心，痒痒的，像被一片羽毛反复撩拨。那一刻，时间忽然减速，所有的城市焦虑都融化在这片宁谧中。\n这个地方最打动人的，不是那些刻意设计的互动项目，而是动物们完全自主的状态。它们可以随时走开，钻进树荫下打盹，或围成一圈互相依偎。你坐在草地上，它们偶尔会凑过来蹭你的胳膊，然后若无其事地走开。孩子们的笑声和羊驼偶尔喷出的“哼”声交织在一起，像一首没有指挥的田园交响曲。而远处的彭布罗克郡海岸线在薄雾中若隐若现，更给这片保护区添了一层遗世独立的气息。\n傍晚时分，我坐在谷仓前的长椅上，看着夕阳把羊驼的轮廓镀成金色。一只小羊驼——当地人叫它“棉花糖”——歪着头朝我眨眼睛，然后打了个哈欠，露出粉红色的舌头。那一刻我心里忽然很满，好像所有的填充物都是柔软的光和草香。这里不是动物园，它更像一个关于信任的课堂：你不需要语言，只需放慢脚步，就能听懂生命之间的简单对话。"
+    "description": "第一次站在这片被绿浪般丘陵包围的土地上时，我几乎忘了自己是来找羊驼的。空气里混着新割的青草和泥土的甜腥，远处传来几声轻柔的“嗯嗯”声，像在打招呼。我转过那棵老橡树，突然就撞见了一片毛茸茸的安静——十几只羊驼或卧或立，它们的脖子优雅地弯曲，耳朵微微转动，黑葡萄般的眼睛里盛满好奇。阳光斜斜地洒在它们奶白色、焦糖色和浅咖啡色的绒毛上，每走一步，那些纤维就泛起细腻的光泽。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kilchurn-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基尔亨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilchurn Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/foel-drygarn-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福埃尔德里加恩山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Foel Drygarn Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glenfinnan-viaduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦芬南高架桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glenfinnan Viaduct</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/melincourt-falls-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅林科特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melincourt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glencoe-waterfall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glencoe Waterfall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kilchurn-castle",
-          "name": "基尔亨城堡",
-          "englishName": "Kilchurn Castle"
+          "slug": "melincourt-falls-wales",
+          "name": "梅林科特瀑布",
+          "englishName": "Melincourt Falls"
         },
         {
-          "slug": "foel-drygarn-hill-fort",
-          "name": "福埃尔德里加恩山堡",
-          "englishName": "Foel Drygarn Hill Fort"
+          "slug": "abergwesyn-common",
+          "name": "阿伯格韦斯温旷野",
+          "englishName": "Abergwesyn Common"
         },
         {
-          "slug": "glenfinnan-viaduct",
-          "name": "格伦芬南高架桥",
-          "englishName": "Glenfinnan Viaduct"
+          "slug": "glencoe-waterfall",
+          "name": "格伦科瀑布",
+          "englishName": "Glencoe Waterfall"
         }
       ]
     }

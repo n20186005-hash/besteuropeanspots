@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯旺西城堡・Swansea Castle・英国・斯旺西",
-    "description": "我第一次看见斯旺西城堡，是在一个灰蒙蒙的十二月下午。当时我刚从斯旺西湾的海风中逃回老城，转过城堡街的拐角，那座只剩下半边骨架的石头家伙就那样硬生生地杵在红砖店铺和现代超市之间。说实话，它一丁点儿都不壮观，没有温莎城堡那种漂浮在云端的童话感，也没有卡那封城堡那种君临天下的威严。它更像一个默不作声的、被城市野蛮生长推搡到街角的退役老兵，衣服破了、腰断了，却依然倔强地站着，目光穿透两百年的煤灰和雨雾。\n走近了，你能闻到一股潮湿的石灰味儿，夹杂着海风带来的咸腥和街角咖啡馆飘出来的肉桂香。风从城堡那些镂空的窗户洞里穿过来，发出呜呜的低吟，像极了某种古老的叹息。孩子们在城堡底的草坪上踢球，尖叫声回荡在被阳光晒得发暖的灰色石墙上，瞬间柔化了那些千疮百孔。最让我挪不开眼的，是城堡南墙上那几条巨大的裂缝，像被巨兽的爪子挠过一样，露出里面碎乱的小石块和干涸的灰泥浆，你能清清楚楚看见历史的暴力是怎样蛮横地撕开这座建筑的内部世界。\n就是在那一刻，我明白了斯旺西城堡的最大魔力——它不试图让你崇拜它，而是让你理解它。在过去七百年里，它先是被威尔士人围攻，后来被英国国王冷落，再后来被工业革命当作采石场一样拆了城墙去盖炼铜厂和廉价公寓。它没被小心保护成博物馆，而是被生活扯进了一条永远停不下来的城市血管里。它见过市集上的叫卖声，听过铁轨上煤炭车轰隆隆碾过，闻过码头上生锈的铜锭。比起那些被修复得一丝不苟、像标本一样的景点，斯旺西城堡是一面活着的、流着血的镜子，照出了威尔士南部的硬核底牌。"
+    "description": "我第一次看见斯旺西城堡，是在一个灰蒙蒙的十二月下午。当时我刚从斯旺西湾的海风中逃回老城，转过城堡街的拐角，那座只剩下半边骨架的石头家伙就那样硬生生地杵在红砖店铺和现代超市之间。说实话，它一丁点儿都不壮观，没有温莎城堡那种漂浮在云端的童话感，也没有卡那封城堡那种君临天下的威严。它更像一个默不作声的、被城市野蛮生长推搡到街角的退役老兵，衣服破了、腰断了，却依然倔强地站着，目光穿透两百年的煤灰和雨雾。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dundonald-castle-and-visitor-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓唐纳德城堡与游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dundonald Castle and Visitor Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-einion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库姆艾尼恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Einion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-showcaves-centre-for-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家展示洞穴中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Showcaves Centre for Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/portmeirion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波特梅里恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portmeirion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scottish-parliament-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish Parliament Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tower-of-london\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伦敦塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tower of London</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dundonald-castle-and-visitor-centre",
-          "name": "邓唐纳德城堡与游客中心",
-          "englishName": "Dundonald Castle and Visitor Centre"
+          "slug": "portmeirion",
+          "name": "波特梅里恩",
+          "englishName": "Portmeirion"
         },
         {
-          "slug": "cwm-einion",
-          "name": "库姆艾尼恩",
-          "englishName": "Cwm Einion"
+          "slug": "scottish-parliament-building",
+          "name": "苏格兰议会大楼",
+          "englishName": "Scottish Parliament Building"
         },
         {
-          "slug": "national-showcaves-centre-for-wales",
-          "name": "威尔士国家展示洞穴中心",
-          "englishName": "National Showcaves Centre for Wales"
+          "slug": "tower-of-london",
+          "name": "伦敦塔",
+          "englishName": "Tower of London"
         }
       ]
     }

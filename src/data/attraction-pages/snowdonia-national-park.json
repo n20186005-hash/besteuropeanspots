@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士西北部，主要门户城镇为班戈（Bangor）、卡那封（Caernarfon）和贝茨-科伊德（Betws-y-Coed）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯诺登尼亚国家公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯诺登尼亚国家公园・Snowdonia National Park・英国・威尔士西北部，主要门户城镇为班戈（Bangor）、卡那封（Caernarfon）和贝茨-科伊德（Betws-y-Coed）",
-    "description": "你从英格兰一路向西，沿着A5公路穿过克卢伊德山谷，空气开始变得不一样了。先是地面微微隆起，然后两侧的山坡开始挤压视野，到后来，路边的石头房子上的招牌换成了你不认识的文字——那是威尔士语。斯诺登尼亚国家公园就这么毫无预兆地出现在你面前，仿佛不列颠岛的倔强尽头。\n第一次站在兰贝里斯湖畔望向斯诺登山时，我愣了很久。不是因为多高——它的海拔只有1085米，在阿尔卑斯面前简直是个小土丘——而是那种压迫感。就像一头灰绿色的巨兽卧在那里，身上披着一层碎布似的云雾，山顶时隐时现。湖面上有只黑鸭子静悄悄地划水，它的身后，整座山投下巨大的倒影，深绿色的湖水泛着黑曜石般的冷光。风从山口灌下来，带着沼泽和石楠的气息，还有水汽。耳朵里全是风声，以及远处羊群的铃铛声。叮当，叮当，叮当，空灵得不像真实世界。\n这里的当地人不太喜欢被叫做英国人。他们首先是威尔士人。在贝茨-科伊德小镇的酒馆里，吧台后的老太太用威尔士语大声喊着什么，几个穿登山靴的汉子用很重的口音回话。墙上的足球赛播着卡迪夫城的比赛，没有人谈论伦敦。他们聊的是山下农场里新生的羊羔、山路上的泥泞情况、以及某某条小径还没被雪化开。你看得出，这片土地塑造了一种与英格兰完全不同的生活方式——更慢，更野，更接近土地原本的节奏。\n斯诺登尼亚最动人的地方其实不是征服山顶的那一刻。而是在半山腰，你累得喘不过气，蹲在一块冰蚀过的岩石上歇脚，回头看去，脚下层层叠叠的山谷和湖泊像一块揉皱的深绿色呢绒毯铺向远方。山腰正好有一层云飘过，带着湿冷的触感擦过你的脸颊，你很自然地就接住了。这时候你会明白，为什么威尔士诗人会说，这里的山是活的，每一块石头里都住着神灵。"
+    "description": "你从英格兰一路向西，沿着A5公路穿过克卢伊德山谷，空气开始变得不一样了。先是地面微微隆起，然后两侧的山坡开始挤压视野，到后来，路边的石头房子上的招牌换成了你不认识的文字——那是威尔士语。斯诺登尼亚国家公园就这么毫无预兆地出现在你面前，仿佛不列颠岛的倔强尽头。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/penrhos-engine-house-brymbo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭罗斯引擎屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Penrhos Engine House, Brymbo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/great-wedlock-farm-deer-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大韦德洛克农场与鹿园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Great Wedlock Farm & Deer Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glencoe-visitor-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glencoe Visitor Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dumbarton-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    敦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">敦巴顿城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dumbarton Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "great-wedlock-farm-deer-park",
+          "name": "大韦德洛克农场与鹿园",
+          "englishName": "Great Wedlock Farm & Deer Park"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "glencoe-visitor-centre",
+          "name": "格伦科游客中心",
+          "englishName": "Glencoe Visitor Centre"
         },
         {
-          "slug": "penrhos-engine-house-brymbo",
-          "name": "彭罗斯引擎屋",
-          "englishName": "Penrhos Engine House, Brymbo"
+          "slug": "dumbarton-castle",
+          "name": "敦巴顿城堡",
+          "englishName": "Dumbarton Castle"
         }
       ]
     }

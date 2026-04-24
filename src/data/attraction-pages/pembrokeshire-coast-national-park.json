@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡（Pembrokeshire）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡海岸国家公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "彭布罗克郡海岸国家公园・Pembrokeshire Coast National Park・英国・彭布罗克郡（Pembrokeshire）",
-    "description": "第一次见到彭布罗克郡海岸国家公园，是在一个雾蒙蒙的清晨。我沿着Pembrokeshire Coast Path从Marloes Sands出发，脚踩在湿漉漉的草丛上，海风裹着咸腥的浪花扑在脸上，远处传来海鸥尖锐的叫声——那声音被悬崖反复折射，像是一群看不见的精灵在峡谷里争吵。脚下的路突然收窄，一侧是开满野花的缓坡，另一侧是陡峭的灰色海蚀崖，下方深蓝色的大海正用一排排白色泡沫拍打着岩壁。你能闻到夹着青草味的海盐，听到浪花碎裂时细小的嘶嘶声，还有阳光偶尔穿透云层时，在沙滩上投下的金色光线，那光线转瞬即逝，像是被谁偷走了似的。\n这条海岸步道全长约300公里，几乎贯穿了整个国家公园。可最打动我的不是那些明信片般的壮丽全景，而是藏在角落里的细节。走到一个叫Barafundle Bay的地方时，我擅自离开了主路，顺着一条几乎被荆棘掩埋的小径下到了沙滩。那片沙是金黄色的，细得像面粉，退潮后露出了棕绿色的海藻和透明的岩石水坑。我脱了鞋踩进去，脚趾碰到凉丝丝的沙砾，水坑里的小螃蟹惊慌地横着跑开。忽然一阵风吹来，把滩涂上的贝壳碎片吹得沙沙作响，仿佛整个海滩在低语。四周没有一个人，只有我和这片被蓝色穹顶笼罩着的秘境，时间好像停在了冰河时代结束的那一刻。\n当地人告诉我，国家公园的灵魂不在那些官方标注的观景点，而在那些你迷路时偶然撞见的地方。比如某个午后，我在St Davids半岛的西部尽头，遇到一个废弃的煤矿遗址，锈蚀的绞车架歪斜地立在海角上，海鸟把巢筑在铁架缝隙里。夕阳把整个废墟染成深橙色，远处圣大卫教堂的尖塔在雾霭中若隐若现。那一刻我突然理解了威尔士人对这片土地的感情——它不美得精致，却美得粗粝、诚实，像一位饱经风霜的老水手，每次讲述故事时，皱纹里都藏着风暴。"
+    "description": "第一次见到彭布罗克郡海岸国家公园，是在一个雾蒙蒙的清晨。我沿着Pembrokeshire Coast Path从Marloes Sands出发，脚踩在湿漉漉的草丛上，海风裹着咸腥的浪花扑在脸上，远处传来海鸥尖锐的叫声——那声音被悬崖反复折射，像是一群看不见的精灵在峡谷里争吵。脚下的路突然收窄，一侧是开满野花的缓坡，另一侧是陡峭的灰色海蚀崖，下方深蓝色的大海正用一排排白色泡沫拍打着岩壁。你能闻到夹着青草味的海盐，听到浪花碎裂时细小的嘶嘶声，还有阳光偶尔穿透云层时，在沙滩上投下的金色光线，那光线转瞬即逝，像是被谁偷走了似的。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glasgow-science-centre-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥科学中心塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Science Centre Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-varrich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦里克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Varrich</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/west-blockhouse-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西堡垒堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">West Blockhouse Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinas-bran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪纳斯布兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinas Brân</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "glasgow-science-centre-tower",
-          "name": "格拉斯哥科学中心塔",
-          "englishName": "Glasgow Science Centre Tower"
+          "slug": "west-blockhouse-fort",
+          "name": "西堡垒堡",
+          "englishName": "West Blockhouse Fort"
         },
         {
-          "slug": "castle-varrich",
-          "name": "瓦里克城堡",
-          "englishName": "Castle Varrich"
+          "slug": "castell-dinas-bran",
+          "name": "迪纳斯布兰城堡",
+          "englishName": "Castell Dinas Brân"
         },
         {
-          "slug": "cardiff-bay",
-          "name": "卡迪夫湾",
-          "englishName": "Cardiff Bay"
+          "slug": "adventure-tour-snowdonia",
+          "name": "雪墩山探险之旅",
+          "englishName": "Adventure Tour Snowdonia"
         }
       ]
     }

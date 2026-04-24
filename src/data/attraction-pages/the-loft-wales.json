@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士阁楼",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士阁楼・The Loft Wales・英国・布雷肯",
-    "description": "从布雷肯小镇出来，沿着一道只有一辆车宽的柏油路往山里钻，两边的石墙长满了苔藓和野荨麻。当GPS信号开始不稳定时，一座灰扑扑的长条形石屋就突然出现在右手边的缓坡上，屋顶上竖着一根细长的烟囱和一面小小的威尔士红龙旗。我停好车走过去的时候，正好有一只红隼从屋檐下窜出来，翅膀擦过空气发出刷刷的声音。推开门的那一瞬间，我愣住了——整个谷仓内部几乎被掏空了，阳光从天窗倾泻而下，照亮了一面高达六米的素白墙壁，上面挂着一幅巨大的抽象画，颜料像融化的冰川一样往下流淌。空气中混合着老木头、羊毛脂和松节油的气味，有一种说不出的干净和安宁。墙角放着几个旧木箱，上面摆着牧羊人用的铁钩和铃铛，旁边却是现代雕塑，不锈钢的线条在光影里闪动。\n沿着铁楼梯爬上半层阁楼，脚下每一块木板都会吱呀作响，像是阁楼在呼吸。阁楼比地面更暗，只有圆形的天窗投下一束光，地上铺着厚厚的羊毛毯子，上面散落着几个垫子。我躺在那里，头顶是威尔斯纯蓝色的天空，云朵慢悠悠地飘过窗口，仿佛自己变成了一粒悬浮在空气里的尘埃。后来遇到一位常客，她说周末的下午这里会有即兴的钢琴和手风琴演奏，声音在石块之间反弹，像山谷里的回声一样自然。\n最让我感动的是它的后院。推开后门，眼前是一片宽阔的草坡，一直延伸到远处的丘陵。几只威尔士黑绵羊正在吃草，脖子上挂着的铜铃发出含糊的叮当声。这里没有围栏，没有游客指示牌，只有几把旧的户外椅子和一个生锈的烧烤架。日落时分，你会看到牧羊人骑着ATV经过，挥手跟你打招呼，仿佛你本来就是村子的一部分。而到了夜晚，谷仓的天窗会整个被打开，变成一个圆形的露天观测口，躺在地上就能看见银河从北到南横跨整个天空，连天鹅座的羽毛都能分辨出来。\n这里并不是你在任何旅行指南上能找到的景点。它是那种如果你不刻意绕路、不跟当地人闲聊、不在地图上放大三倍，就根本不会留意到的小点。但正是这种不起眼，让它保留了一种原始的、未被包装的力量。你不需要排队、不需要买票、不需要听那种无聊的语音导览。你只需要走进来，坐下来，可能什么都不做，也可能画一张写生，或者跟驻留的艺术家聊两句。威尔士阁楼的美，在于它从不试图讨好任何人。"
+    "description": "从布雷肯小镇出来，沿着一道只有一辆车宽的柏油路往山里钻，两边的石墙长满了苔藓和野荨麻。当GPS信号开始不稳定时，一座灰扑扑的长条形石屋就突然出现在右手边的缓坡上，屋顶上竖着一根细长的烟囱和一面小小的威尔士红龙旗。我停好车走过去的时候，正好有一只红隼从屋檐下窜出来，翅膀擦过空气发出刷刷的声音。推开门的那一瞬间，我愣住了——整个谷仓内部几乎被掏空了，阳光从天窗倾泻而下，照亮了一面高达六米的素白墙壁，上面挂着一幅巨大的抽象画，颜料像融化的冰川一样往下流淌。空气中混合着老木头、羊毛脂和松节油的气味，有一种说不出的干净和安宁。墙角放着几个旧木箱，上面摆着牧羊人用的铁钩和铃铛，旁边却是现代雕塑，不锈钢的线条在光影里闪动。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafna-lead-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/happy-valley-botanical-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欢乐谷植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Happy Valley Botanical Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scottish-parliament-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish Parliament Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/invergarry-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因弗加里城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Invergarry Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "charter-boat-wales",
-          "name": "威尔士包船游",
-          "englishName": "Charter Boat Wales"
+          "slug": "colinton-station-tunnel",
+          "name": "科林顿车站与隧道",
+          "englishName": "Colinton Station & Tunnel"
         },
         {
-          "slug": "hafna-lead-mine",
-          "name": "哈夫纳铅矿",
-          "englishName": "Hafna Lead Mine"
+          "slug": "scottish-parliament-building",
+          "name": "苏格兰议会大楼",
+          "englishName": "Scottish Parliament Building"
         },
         {
-          "slug": "happy-valley-botanical-gardens",
-          "name": "欢乐谷植物园",
-          "englishName": "Happy Valley Botanical Gardens"
+          "slug": "invergarry-castle",
+          "name": "因弗加里城堡",
+          "englishName": "Invergarry Castle"
         }
       ]
     }

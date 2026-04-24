@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫（Cardiff）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "森内德（威尔士议会大厦）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "森内德（威尔士议会大厦）・Senedd・英国・卡迪夫（Cardiff）",
-    "description": "当你第一次走近卡迪夫湾的森内德，很难不被那股轻盈感击中——它不像是一座政治建筑，倒像一艘正在缓缓降落的现代帆船，停泊在铺满鹅卵石的海滨步道旁。屋顶那巨大的木制斗拱从中心向四周延伸，像是威尔士山谷里古老的矿工木梁，又像鲸鱼的骨架，层层叠叠地悬浮在半空。阳光透过几乎完全透明的玻璃幕墙，把整座建筑内部变成一座温暖的金色盒子，光线在抛光混凝土地面上缓缓移动，像海湾里一层层推近的波浪。你甚至能看到外面的海鸥掠过水面，翅膀的影子落在议会议员的座位上。空气里有从海湾吹来的微咸的风，混着附近咖啡馆飘出的浓缩咖啡香，以及草坪刚被修剪过的青草味。\n走进去，保安会微笑着用威尔士语“Croeso”欢迎你，然后指给你看大厅中央那个巨大的“民主穹顶”——一个用当地出产的板岩和橡木围成的圆形议事厅，从高处俯瞰，像一片被剖开的露天剧场。这里的静谧是有点奇怪的：没有议会常有的争吵声，只有偶尔传来的讲解员柔软的声音，或者孩子们兴奋的脚步声在挑高的空间里回响。最打动人的是那面长达40米的玻璃墙，朝向卡迪夫湾开放，让每一个路过的行人、每一只游艇、每一片云都能成为议会的背景。设计者罗杰斯说，他想要表达一种政治上的“透明度”——每一条法律都该像这块玻璃一样，让公民看得一清二楚。虽然我不确定政治是否真能如此透明，但坐在那座木制长凳上，望着海湾对岸的威尔士千禧中心，我确实感受到了某种诚实：这里首先是一个容纳人的地方，然后才是一个权力中心。\n森内德最温柔的时刻是黄昏。当夕阳把整个海湾染成粉橘色，建筑内部的灯光开始亮起，像一盏被放在水面上的灯笼。议会结束后，议员们三三两两走出大门，与遛狗的市民擦肩而过，偶尔会停下来聊几句。我记得有一个周四的下午，一位穿着威尔士传统羊毛裙的女士在门廊下给游客指路，她的口音带着浓重的斯旺西腔调，笑起来眼角堆起皱纹，完全不像印象里刻板的政客。那一刻我意识到，这座建筑不只是一个旅游打卡点，它是400万威尔士人日常生活中活生生的脉搏——每一天都有人在里面决定医疗、教育、交通，而门外的孩子们依然在草坪上追着足球跑。这就是它最核心的魅力：既宏伟到让你忍不住仰头赞叹，又亲切得像个社区活动中心。"
+    "description": "当你第一次走近卡迪夫湾的森内德，很难不被那股轻盈感击中——它不像是一座政治建筑，倒像一艘正在缓缓降落的现代帆船，停泊在铺满鹅卵石的海滨步道旁。屋顶那巨大的木制斗拱从中心向四周延伸，像是威尔士山谷里古老的矿工木梁，又像鲸鱼的骨架，层层叠叠地悬浮在半空。阳光透过几乎完全透明的玻璃幕墙，把整座建筑内部变成一座温暖的金色盒子，光线在抛光混凝土地面上缓缓移动，像海湾里一层层推近的波浪。你甚至能看到外面的海鸥掠过水面，翅膀的影子落在议会议员的座位上。空气里有从海湾吹来的微咸的风，混着附近咖啡馆飘出的浓缩咖啡香，以及草坪刚被修剪过的青草味。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dyfi-osprey-project\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戴菲鱼鹰保护项目</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dyfi Osprey Project</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/linlithgow-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林利思戈宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Linlithgow Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunvegan-castle-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓韦根城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunvegan Castle & Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cotswolds-aonb\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科茨沃尔德地区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cotswolds AONB</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-dam-reservoir\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布赖恩湖水库与坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Dam & Reservoir</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/spirit-of-wales-show\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士精神秀</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Spirit of Wales Show</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dyfi-osprey-project",
-          "name": "戴菲鱼鹰保护项目",
-          "englishName": "Dyfi Osprey Project"
+          "slug": "cotswolds-aonb",
+          "name": "科茨沃尔德地区",
+          "englishName": "Cotswolds AONB"
         },
         {
-          "slug": "linlithgow-palace",
-          "name": "林利思戈宫",
-          "englishName": "Linlithgow Palace"
+          "slug": "llyn-brianne-dam-reservoir",
+          "name": "布赖恩湖水库与坝",
+          "englishName": "Llyn Brianne Dam & Reservoir"
         },
         {
-          "slug": "dunvegan-castle-gardens",
-          "name": "邓韦根城堡与花园",
-          "englishName": "Dunvegan Castle & Gardens"
+          "slug": "spirit-of-wales-show",
+          "name": "威尔士精神秀",
+          "englishName": "Spirit of Wales Show"
         }
       ]
     }

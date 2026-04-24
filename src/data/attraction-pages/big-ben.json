@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伦敦",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "大本钟",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "大本钟・Big Ben・英国・伦敦",
-    "description": "我第一次见到大本钟，是一个下着毛毛雨的十二月的傍晚。泰晤士河边的路灯刚亮起，空气里混着湿润的柏油和烤栗子的甜香。我站在威斯敏斯特桥上，抬头看那座黑金色的钟塔，它像一根巨大的权杖插进铅灰色的天空。钟面上的罗马数字被暖黄的灯光照亮，每五分钟，大本钟发出沉闷而洪亮的敲击声，那声音从头顶滚过，又沉进河水的汩汩声里。旁边的大妈推着婴儿车，车里的小孩仰头指着钟楼咿呀叫唤，她笑着说：“那是Big Ben，你以后也有自己的钟。”我突然觉得，这座一百六十多岁的老钟，像一位见证了无数人悲欢离合的沉默长辈。\n但真正的震撼来自第二天清晨。我在议会广场的草坪上坐下，阳光斜斜地扫过钟塔的镀金尖顶。空气清冷，鸽子咕咕叫着啄食面包屑。这时大本钟敲响了九点整，钟声像涟漪一样层层扩散，透过古老的石柱和窗棂，在广场上形成一种奇异的回响。我还注意到塔身的细节——那些哥特式的尖拱、拱肩上的石像鬼，每层飞檐上绕着橡叶和蓟花，全都精致得不像工业时代的产物，倒像是从童话书里抠下来的。附近的上班族匆匆走过，有人停下来拍照，有人看一眼手表继续赶路。大本钟不只是景点，它是这座城市心跳的一部分，是伦敦人生活里的背景音。\n我最爱的是它日落时的模样。夏天傍晚八点，天空还泛着粉紫色，钟塔的暗铜色轮廓融进暮色里，只留下钟面像四只发光的眼睛。泰晤士河倒映着它颤动的影子，有些游客在岸边放着手机延时摄影，等那跳跃的光影。我记得有个流浪汉坐在长椅上，对着钟塔吹口琴，曲调是《友谊地久天长》。那一刻，我突然明白为什么大本钟经历火灾、战争和维修，却始终矗立在这里——它代表了某种超越时间的东西，一种固执的优雅。\n它的核心魅力在于，当你站在这巨大的机械心脏下，听到那稳定的秒针声，你会不由自主地被拉入历史的缓流。它不像巴黎铁塔那样张扬，也不像罗马废墟那样苍凉，大本钟是实在的、温暖的、带着规则的。它提醒你，即便世界再快，伦敦的节奏里还有一座老钟按自己的方式走。"
+    "description": "我第一次见到大本钟，是一个下着毛毛雨的十二月的傍晚。泰晤士河边的路灯刚亮起，空气里混着湿润的柏油和烤栗子的甜香。我站在威斯敏斯特桥上，抬头看那座黑金色的钟塔，它像一根巨大的权杖插进铅灰色的天空。钟面上的罗马数字被暖黄的灯光照亮，每五分钟，大本钟发出沉闷而洪亮的敲击声，那声音从头顶滚过，又沉进河水的汩汩声里。旁边的大妈推着婴儿车，车里的小孩仰头指着钟楼咿呀叫唤，她笑着说：“那是Big Ben，你以后也有自己的钟。”我突然觉得，这座一百六十多岁的老钟，像一位见证了无数人悲欢离合的沉默长辈。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-coed</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-quiraing\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奎拉因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Quiraing</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-activity-breaks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士动感假期</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Activity Breaks</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "calton-hill",
+          "name": "卡尔顿山",
+          "englishName": "Calton Hill"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "the-quiraing",
+          "name": "奎拉因",
+          "englishName": "The Quiraing"
         },
         {
-          "slug": "betws-y-coed",
-          "name": "贝图斯-科伊德",
-          "englishName": "Betws-y-coed"
+          "slug": "wales-activity-breaks",
+          "name": "威尔士动感假期",
+          "englishName": "Wales Activity Breaks"
         }
       ]
     }

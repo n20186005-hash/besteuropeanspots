@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰奥克尼群岛 霍伊岛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "老人岩",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "老人岩・Old Man of Hoy・英国・苏格兰奥克尼群岛 霍伊岛",
-    "description": "从Rackwick海湾停车场出发，我穿过一道低矮的石栅门，小径先是顺着一条细小的溪流蜿蜒。那溪水冰凉刺骨，带着苔藓和泥炭的气息，脚边的石楠花正开着紫粉色的小花，毛茸茸的花瓣上还挂着清晨的露珠。走了大约二十分钟，海风突然变得猛烈起来，把灌木压得低伏在地，我的冲锋衣被吹得像鼓满的帆发出哗哗的声响。小路开始爬升，左边是一片荒芜的石楠沼泽，右边则是不断逼近的悬崖边缘——我已经能听到北海浪涛拍击岩壁的声音，沉闷而持久，像巨兽在海底打鼾。\n转过一道山脊之后，老人岩就这么毫无预兆地出现在了我的视野里。它比我想象中要庞大得多，从海水中拔地而起，顶端似乎快要戳破云层。那是一种让人失语的存在感，仿佛一个有生命的巨人将身体的大部分藏在水下，只露出头部和肩膀。阳光刚好从云隙间漏下一束金线，打在它红褐色的砂岩节理上，能清楚看到数千年的沉积层如同一本摊开的史书。我站在原地愣了好一会儿，任凭狂风吹乱头发，耳边除了风声就是海浪声，还有一个在远处嘎嘎叫的乌鸦。\n当我终于走到悬崖最边缘的观景点，整个人一下子就被那种绝对的、震撼的、近乎令人窒息的孤独感包围了。老人岩就在我正前方不到两百米的地方，中间隔着一道被海水冲刷出来的深沟。我能听到海鸥在它顶部的凹槽里筑巢育雏，能闻到海雾混合着海盐和腐烂海藻的特殊气味。往下看是一条条蜿蜒的蓝色洋流在岩柱底部打转，激出白色的泡沫。此刻我想起那些关于北欧神话的传说——这根本就是世界树的其中一根支柱，是巨人化为了石头，永远守望着这片寒冷的海峡。\n在奥克尼当地人的生活中，老人岩并不是一个需要专程拜访的景点，它更像一个从不言语的老邻居。酒吧里的老渔民告诉我，他从小就在这片海域捕鱼，离岸时总能看见那个影子，有时被雾吞没，有时在夕阳里镀成金色。他没用“风景”或“地标”来形容它，而是说：“那家伙一直都在那儿，像家里的老狗。”这种平实而坚固的存在感，反倒比任何官方宣传语都更打动我。我想，这就是自然景观的灵魂——它不是让人来膜拜的纪念碑，而是静默陪伴在你生命里的那抹巨大而温和的背景。"
+    "description": "从Rackwick海湾停车场出发，我穿过一道低矮的石栅门，小径先是顺着一条细小的溪流蜿蜒。那溪水冰凉刺骨，带着苔藓和泥炭的气息，脚边的石楠花正开着紫粉色的小花，毛茸茸的花瓣上还挂着清晨的露珠。走了大约二十分钟，海风突然变得猛烈起来，把灌木压得低伏在地，我的冲锋衣被吹得像鼓满的帆发出哗哗的声响。小路开始爬升，左边是一片荒芜的石楠沼泽，右边则是不断逼近的悬崖边缘——我已经能听到北海浪涛拍击岩壁的声音，沉闷而持久，像巨兽在海底打鼾。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/eisriesenwelt-ice-caves\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维尔芬冰洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eisriesenwelt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mullerthal-little-switzerland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米勒塔尔“小瑞士”（长满青苔的奇异砂岩峡谷与峡谷瀑布）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mullerthal</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dobinska-ice-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多布希纳冰洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dobšinská Ice Cave</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/andros-island\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安德罗斯岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andros</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/skradin-dalmatia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯克拉丁</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skradin</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-coast-path\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海岸步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Wales Coast Path</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "eisriesenwelt-ice-caves",
-          "name": "维尔芬冰洞",
-          "englishName": "Eisriesenwelt"
+          "slug": "andros-island",
+          "name": "安德罗斯岛",
+          "englishName": "Andros"
         },
         {
-          "slug": "mullerthal-little-switzerland",
-          "name": "米勒塔尔“小瑞士”（长满青苔的奇异砂岩峡谷与峡谷瀑布）",
-          "englishName": "Mullerthal"
+          "slug": "skradin-dalmatia",
+          "name": "斯克拉丁",
+          "englishName": "Skradin"
         },
         {
-          "slug": "dobinska-ice-cave",
-          "name": "多布希纳冰洞",
-          "englishName": "Dobšinská Ice Cave"
+          "slug": "wales-coast-path",
+          "name": "威尔士海岸步道",
+          "englishName": "The Wales Coast Path"
         }
       ]
     }

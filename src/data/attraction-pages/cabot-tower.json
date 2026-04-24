@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布里斯托尔",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡伯特塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡伯特塔・Cabot Tower・英国・布里斯托尔",
-    "description": "第一次走到布兰登山脚下，你会怀疑自己走错了地方。这座被红砂岩包裹的小山丘，藏在布里斯托尔忙碌的街巷之间，像个被遗忘的秘密花园。爬上缓坡，耳边逐渐褪去汽车的轰鸣，取而代之的是鸟鸣和风吹过树叶的沙沙声。公园里零零散散坐着晒太阳的年轻人，推婴儿车的妈妈，还有趴在毯子上看书的学生。等绕过一片草坪，它就突然出现在视线尽头：一座红白相间的塔楼，像童话绘本里画出来的那种，尖尖的塔顶戳进湛蓝的天。走近了能闻到石墙上长出的青苔那股湿润的气味，混杂着泥土和远处港口飘来的咸腥。\n推开那扇沉重的铸铁门，脚踩上螺旋楼梯的瞬间，石头台阶发出空洞的回响声，像在跟你说“慢一点，仔细听”。楼梯很窄，仅容一人通过，每转一个弯眼前就出现一扇窄窗。透过窗户，城市的拼图一点点展开：先是红砖屋顶和教堂尖顶，然后是港口边的货轮和起重机，再往远能看到丘陵线条的轮廓。转角处的窗台上积了薄薄的灰尘，阳光从玻璃透进来，在石墙上涂抹出暖洋洋的光斑。爬到塔顶平台时，风突然大起来，吹得衣角翻飞。布里斯托尔整个摊开在你的脚下，河面像条银色的绸带，桥梁是它的纽扣，远处克利夫顿吊桥的钢索在阳光下闪闪发光。\n这座塔在当地人的生活中占据着一种微妙的位置。它不是那种需要专门买票、排长队、像完成任务一样去“参观”的景点。它更像一个老朋友，你随时可以爬上来看晚霞，或者带一罐啤酒上来吹风。有时候能遇见吹萨克斯的老人，也有情侣靠在墙边低声说话，孩子们跑到平台上尖叫着往下扔纸飞机。到了黄昏，塔身被夕阳染成玫瑰色，整座城市也铺上一层蜂蜜般的光泽，空气里飘着下边公园草坪上野餐的香气和烧烤的烟。这一切不刻意、不喧哗，只等着那些愿意慢慢走上来的人自己发现。\n卡伯特塔真正的魅力，藏在这种日常又温柔的氛围里。不像欧洲那些气势恢宏的大教堂或宫殿，它不用历史压得你喘不过气，也不用门票提醒你“记住我”。它就是那么老实地站在山坡上，让风穿过它的窗子，让阳光在它的台阶上跳舞。你不需要懂哥特复兴风格或者维多利亚时期的历史，只要爬上那螺旋楼梯，在顶层的平台上站一会儿，吹吹风，看看布里斯托尔的天际线，心里就会生出一股暖融融的满足感。"
+    "description": "第一次走到布兰登山脚下，你会怀疑自己走错了地方。这座被红砂岩包裹的小山丘，藏在布里斯托尔忙碌的街巷之间，像个被遗忘的秘密花园。爬上缓坡，耳边逐渐褪去汽车的轰鸣，取而代之的是鸟鸣和风吹过树叶的沙沙声。公园里零零散散坐着晒太阳的年轻人，推婴儿车的妈妈，还有趴在毯子上看书的学生。等绕过一片草坪，它就突然出现在视线尽头：一座红白相间的塔楼，像童话绘本里画出来的那种，尖尖的塔顶戳进湛蓝的天。走近了能闻到石墙上长出的青苔那股湿润的气味，混杂着泥土和远处港口飘来的咸腥。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-varrich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦里克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Varrich</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "adventure-tour-snowdonia",
+          "name": "雪墩山探险之旅",
+          "englishName": "Adventure Tour Snowdonia"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "loch-achtriochtan-glen-coe",
+          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
+          "englishName": "Loch Achtriochtan, Glen Coe"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "castle-varrich",
+          "name": "瓦里克城堡",
+          "englishName": "Castle Varrich"
         }
       ]
     }

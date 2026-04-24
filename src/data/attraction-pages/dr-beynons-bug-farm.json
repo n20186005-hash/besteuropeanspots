@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "哈弗福德韦斯特",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "贝农博士的虫子农场",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "贝农博士的虫子农场・Dr Beynon's Bug Farm・英国・哈弗福德韦斯特",
-    "description": "我第一次听见Dr Beynon's Bug Farm这个名字时，心里冒出的第一个念头是：这大概是那种小孩尖叫、大人皱眉的猎奇景点吧。然而当我真正推开那扇镶嵌着巨大甲虫铁艺的大门，一股混合着湿润泥土、腐烂木头和淡淡香草的气味扑面而来，我的所有偏见瞬间被击碎。那不是想象中的腥臭，而是一种类似于热带雨林雨后苏醒的气息，温暖而鲜活。耳朵立刻被无数细小的声音填满——蟋蟀急促的颤音像被风吹动的铃铛，竹节虫爬过叶片时发出沙沙的摩擦声，偶尔还有一两声尖锐的鸟鸣从户外的养殖网棚里传来。阳光透过玻璃穹顶洒下，把整个空间染成淡琥珀色，墙壁上的昆虫标本在光线下闪烁着绿松石和绯红的金属光泽，仿佛一艘来自异星的珠宝舰队。\n这个农场不像我想象中那样只是把昆虫关在玻璃盒子里。它更像一个活的剧院，每个角落都在上演着微观世界的戏剧。在室内雨林区的雾气中，一只巴掌大的叶螳螂正缓缓转动三角形的脑袋，两条前臂像祈祷般合拢，等待着一只毫无防备的果蝇飞过。旁边的饲养员穿着印有瓢虫图案的绿色围裙，用镊子夹起一小块香蕉，对着一群仰头张望的马达加斯加发声蟑螂说：来，孩子们，开饭了。我忍不住笑出声，这些平常在厨房里让人尖叫的小东西，在这里却像宠物一样被精心照料。而那些在树枝间穿梭的竹节虫，浑身翠绿，像是从吉卜力动画里走出来的森林精灵，连呼吸都带着一种谨慎的优雅。\n最让我震撼的是户外养殖区。那是一片被白色纱网罩住的草甸，里面养着成群的蟋蟀和蝗虫。当阳光斜射进去，那些跳跃的小生命在逆光中变成了一颗颗流线型的金色颗粒，每一次弹跳都像在空气里划出透明的弧线。我蹲下来，把手伸进纱网的一个小口，一只好奇的蟋蟀跳上我的指尖，我能感到它细小的腿钩轻轻抓住我皮肤的那种触感，像被一小片羽毛反复拂过。旁边的工作人员是个二十出头的红发姑娘，她兴奋地告诉我，这些蟋蟀是农场餐厅的主角，它们被磨成粉加入汉堡和能量棒，富含的蛋白质是牛肉的两倍。她说话时，眼睛里闪着一种传教士般的光。那一刻我突然意识到，这个农场不只是关于虫子，而是关于重新学习如何与这个星球上最庞大的生物群体共存。\n它真正打动我的地方，是毫不掩饰地把虫子变成让人亲近的入口。这里没有那种冷冰冰的科研气质，到处都是笑声和惊叹声。孩子们趴在玻璃前尖叫着看毛虫变成蛹，成年人则在品尝区闭上眼睛小心翼翼地嚼着巧克力裹蚂蚁，然后露出惊讶的表情说：嗯，像烤杏仁。Dr Beynon's Bug Farm让我想起小时候第一次翻开《昆虫记》时的好奇，那时候我趴在地上看蚂蚁搬家能看一整个下午。而这个地方，就是那种纯粹的、被遗忘的童心的大容器，它用六条腿的奇迹把每个人都拉回那个对自然毫无戒心的年龄。"
+    "description": "我第一次听见Dr Beynon's Bug Farm这个名字时，心里冒出的第一个念头是：这大概是那种小孩尖叫、大人皱眉的猎奇景点吧。然而当我真正推开那扇镶嵌着巨大甲虫铁艺的大门，一股混合着湿润泥土、腐烂木头和淡淡香草的气味扑面而来，我的所有偏见瞬间被击碎。那不是想象中的腥臭，而是一种类似于热带雨林雨后苏醒的气息，温暖而鲜活。耳朵立刻被无数细小的声音填满——蟋蟀急促的颤音像被风吹动的铃铛，竹节虫爬过叶片时发出沙沙的摩擦声，偶尔还有一两声尖锐的鸟鸣从户外的养殖网棚里传来。阳光透过玻璃穹顶洒下，把整个空间染成淡琥珀色，墙壁上的昆虫标本在光线下闪烁着绿松石和绯红的金属光泽，仿佛一艘来自异星的珠宝舰队。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinas-bran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪纳斯布兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinas Brân</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/triangulation-point-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    三\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">三角测量观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Triangulation Point</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-kirkyard-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗里亚教堂墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Kirkyard Cemetery Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "brymbo-bandstand",
+          "name": "布莱姆博音乐台",
+          "englishName": "Brymbo Bandstand"
         },
         {
-          "slug": "castell-dinas-bran",
-          "name": "迪纳斯布兰城堡",
-          "englishName": "Castell Dinas Brân"
+          "slug": "triangulation-point-wales",
+          "name": "三角测量观景点",
+          "englishName": "Triangulation Point"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "greyfriars-kirkyard-edinburgh",
+          "name": "格雷弗里亚教堂墓地",
+          "englishName": "Greyfriars Kirkyard Cemetery Edinburgh"
         }
       ]
     }

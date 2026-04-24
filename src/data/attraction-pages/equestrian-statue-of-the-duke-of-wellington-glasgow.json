@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "惠灵顿公爵骑马雕像（格拉斯哥）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "惠灵顿公爵骑马雕像（格拉斯哥）・Equestrian statue of the Duke of Wellington, Glasgow・英国・格拉斯哥",
-    "description": "第一次见到这座雕像，你可能和我一样会愣住——一个青铜色的惠灵顿公爵骑着马，头顶却稳稳地扣着一个鲜橙色交通锥，像一顶滑稽的尖帽子。我是在一个阴雨的下午走到皇家交易广场的，空气里混着湿漉漉的石板味和附近咖啡店飘来的肉桂香气。雕像前围着一群游客，有人正仰头大笑，有人举着自拍杆调整角度。远处格拉斯哥现代艺术美术馆的新古典主义柱廊在灰蒙蒙的天空下显得格外庄严，而那个交通锥就像故意打破这种庄重的调皮孩子，让整幅画面变得既荒诞又亲切。\n我绕着雕像走了一圈。青铜表面布满了深浅不一的铜绿，公爵的军服细节依旧清晰，但他脸上的表情却因为交通锥的遮挡而变得有点滑稽。马蹄下花岗岩基座被人磨得微微发亮，想必是很多人坐在这里休息过。旁边的情侣正讨论这个交通锥是不是真的有人天天来换——确实，据当地人说，自从1980年代有人第一次偷偷把交通锥放上去后，市政府每次清理掉，第二天就会冒出新的。这已经成为一场持续的“民间行为艺术”，连警察都放弃了。我注意到基座上甚至有一些写着“放过锥子”之类涂鸦的小字，有人用粉笔写着“我们更爱有锥子的威利”。\n最打动我的是这种幽默背后藏着的平等感。格拉斯哥历史上就是工业城市，工人文化深厚，当地人用这种方式消解了强权、军队和公爵所代表的精英权威。你在伦敦特拉法加广场的纳尔逊纪念碑上绝对看不到这种恶搞，但这里的人们就是把高贵的神像拉回到日常的玩笑里。傍晚时分，夕阳从西边斜斜地照过来，雕像在广场上投下长长的影子，交通锥的影子像一根刺一样竖着。远处有街头艺人开始弹吉他，广场上的鸽子绕圈飞过，孩子们追着泡泡跑过雕像脚下。我忽然觉得，这大概是世界上最具“人情味”的战争英雄雕像了。"
+    "description": "第一次见到这座雕像，你可能和我一样会愣住——一个青铜色的惠灵顿公爵骑着马，头顶却稳稳地扣着一个鲜橙色交通锥，像一顶滑稽的尖帽子。我是在一个阴雨的下午走到皇家交易广场的，空气里混着湿漉漉的石板味和附近咖啡店飘来的肉桂香气。雕像前围着一群游客，有人正仰头大笑，有人举着自拍杆调整角度。远处格拉斯哥现代艺术美术馆的新古典主义柱廊在灰蒙蒙的天空下显得格外庄严，而那个交通锥就像故意打破这种庄重的调皮孩子，让整幅画面变得既荒诞又亲切。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bikepark-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">BikePark Wales</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">BikePark Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/edinburgh-dungeon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡地牢</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Edinburgh Dungeon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-bobby-statue\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗莱尔·鲍比雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Bobby Statue</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "loch-achtriochtan-glen-coe",
+          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
+          "englishName": "Loch Achtriochtan, Glen Coe"
         },
         {
-          "slug": "bikepark-wales",
-          "name": "BikePark Wales",
-          "englishName": "BikePark Wales"
+          "slug": "edinburgh-dungeon",
+          "name": "爱丁堡地牢",
+          "englishName": "The Edinburgh Dungeon"
         },
         {
-          "slug": "calton-hill",
-          "name": "卡尔顿山",
-          "englishName": "Calton Hill"
+          "slug": "greyfriars-bobby-statue",
+          "name": "格雷弗莱尔·鲍比雕像",
+          "englishName": "Greyfriars Bobby Statue"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "王子街花园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "王子街花园・Princes Street Gardens・英国・爱丁堡",
-    "description": "我在爱丁堡的第一个清晨，推开青年旅舍的窗户，迎面撞上的不是想象中的冷风，而是一片从城堡脚下铺开来的翠绿——王子街花园正在晨雾里打哈欠。我的住处就在王子街上，所以只要走几步就能从马路边缘往下看，花园像一条巨大的绿丝带，安静地躺在老城和新城之间。清晨七点，露水还在草叶上打转，园丁开着小型除草车嗡嗡穿过，空气里有被碾压过的青草味，混着远处面包店飘来的黄油香气。我沿着石阶走下去，每一步都像踩进柔软的绿色海绵里。\n花园最神奇的地方，是它竟然建在一条废弃的火车轨道上。是的，你的脚下曾经是蒸汽机车喷着白烟呼啸而过的地方，如今被厚厚的一层泥土和草坪覆盖，变成了爱丁堡人躺着晒太阳、看书、甚至午睡的长长的“客厅”。你能闻到老旧的铁轨和枕木残留的煤渣味吗？我不知道是不是想象，但在靠近西区铁路桥的那一段，空气里确实有一丝不易察觉的金属气息。不过更多时候，你闻到的是玫瑰、薰衣草和修剪整齐的树篱的味道。\n最让我着迷的，是花园里那种毫不刻意的日常生活感。当地人在这里遛狗，情侣坐在长椅上分吃一个冰淇淋，父亲推着婴儿车慢跑，老太太拎着购物袋路过时停下手里的动作，仰头看了一会儿城堡——她们可能已经看了几十年，可它们依然值得停下来。那种闲适和这里的风景完全融为一体。而当你抬头往南看，岩壁上的爱丁堡城堡像一块凝固的灰褐色时间，俯视着这一切，俯视着底下这片两百年前才从泥沼里开垦出来的花园。\n我记得第一次看到罗斯喷泉时，正好有阳光穿透喷出的水雾，一道小彩虹轻轻地挂在青铜女神像腰间。周围是盛开的郁金香和风信子，空气中飘着淡淡的水汽和花香。一个穿苏格兰裙的老爷爷正在喂鸽子，他的风笛盒放在脚边，偶尔吹一两声，悠远得像从另一个时代漏出来的。那一刻我真觉得，爱丁堡的灵魂就藏在这片花园的褶皱里——既不喧闹，也不沉默，只是温柔地呼吸着。"
+    "description": "我在爱丁堡的第一个清晨，推开青年旅舍的窗户，迎面撞上的不是想象中的冷风，而是一片从城堡脚下铺开来的翠绿——王子街花园正在晨雾里打哈欠。我的住处就在王子街上，所以只要走几步就能从马路边缘往下看，花园像一条巨大的绿丝带，安静地躺在老城和新城之间。清晨七点，露水还在草叶上打转，园丁开着小型除草车嗡嗡穿过，空气里有被碾压过的青草味，混着远处面包店飘来的黄油香气。我沿着石阶走下去，每一步都像踩进柔软的绿色海绵里。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/flodden-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗洛登城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flodden Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gypsy-wood-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉普赛森林公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gypsy Wood Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-loyne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛因湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Loyne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glenfinnan-viaduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦芬南高架桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glenfinnan Viaduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/skelbo-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯凯尔博城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skelbo Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "flodden-wall",
-          "name": "弗洛登城墙",
-          "englishName": "Flodden Wall"
+          "slug": "cardiff-castle",
+          "name": "卡迪夫城堡",
+          "englishName": "Cardiff Castle"
         },
         {
-          "slug": "gypsy-wood-park",
-          "name": "吉普赛森林公园",
-          "englishName": "Gypsy Wood Park"
+          "slug": "glenfinnan-viaduct",
+          "name": "格伦芬南高架桥",
+          "englishName": "Glenfinnan Viaduct"
         },
         {
-          "slug": "loch-loyne-viewpoint",
-          "name": "洛因湖观景台",
-          "englishName": "Loch Loyne Viewpoint"
+          "slug": "skelbo-castle",
+          "name": "斯凯尔博城堡",
+          "englishName": "Skelbo Castle"
         }
       ]
     }

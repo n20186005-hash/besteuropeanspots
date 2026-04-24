@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡那封",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡那封城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卡那封城堡・Caernarfon Castle・英国・卡那封",
-    "description": "我第一次看到卡那封城堡是在一个阴沉沉的威尔士下午，塞昂特河（Afon Seiont）泛着铅灰色的光，河面上划过几只海鸥。站在镇上的主街上抬头，城堡的城墙像一座巨兽的脊背横亘在眼前，那些尖尖的塔楼刺向云层，让人一下就明白了什么叫“压迫感”。倒不是吓人，而是一种让人肃然起敬的、中世纪建筑特有的那种威严，好像墙里藏了一千年的寂静。我闻到空气里混着烤鱼和潮湿石头的味道，听到河口的浪声混着远处教堂的钟，瞬间就感觉自己穿越回13世纪，像个刚被赶来的铁匠学徒，仰望着这座不可逾越的堡垒。\n我绕着城堡走了一圈，发现它最惊人的地方是那些彩色石材的纹理——浅灰色的石灰岩和深红色的砂岩交替砌成，在阴天里像一道凝固的晚霞。这种用色大胆到夸张，我记得当时靠在一面墙上，用手掌贴着石头，摸到的是那种冷得扎手的粗糙感，但也是这种粗糙让它活了七百年还没倒下。城堡的入口是一座厚得不像话的门楼，进去后我先停在鹰塔（Eagle Tower）前的庭院里，阳光好不容易撕开云层洒下来，在古老的石地板上画出一块块光斑。周围游客不多，只有两个小孩追着鸽子跑，鸽子扑棱翅膀的声音在回廊里荡来荡去，画面安静得像一幅水彩画。\n后来我走到城堡最顶层的城墙走道上，从这里能俯瞰整个卡那封镇和塞昂特河口，风大得能吹散任何愁绪。我靠着垛口，看见海湾里停着几艘小帆船，船桅尖尖的，和远处斯诺多尼亚国家公园的群山连成一条线。河对岸的威尔士小村落冒出缕缕炊烟，烟很淡，像是有人慢慢在煮一锅茶。那一刻，我理解了为什么这里叫“威尔士的心脏”——不是因为它有多华丽，而是因为它根植在这片土地里，跟河水和群山呼吸在一起。天开始下雨，雨点打在我脸上，咸咸的，带着海的气息，我忽然觉得这座城堡活了，它在跟我说话，说它看过国王、看过战争，也看过每个普通游客脸上那种被震撼的傻笑。\n傍晚时分，城堡的影子拉得老长，我走下楼，发现庭院里多了一群当地人：一个拉小提琴的灰胡子大叔，两个围着围裙聊天的老妇人，还有个年轻妈妈推着婴儿车。他们没有游客的兴奋，像这城堡的一部分一样自然地待着，仿佛这座石头建筑根本不是景点，而是他们家的后院里长出来的。我看着那个大叔闭眼拉琴，琴声悠扬，在石墙间弹跳，好像城堡自己也在低声哼唱。这就是卡那封城堡最打动我的地方：它不是被玻璃罩子封起来的古董，而是跟当地人一起呼吸的、有温度的存在。"
+    "description": "我第一次看到卡那封城堡是在一个阴沉沉的威尔士下午，塞昂特河（Afon Seiont）泛着铅灰色的光，河面上划过几只海鸥。站在镇上的主街上抬头，城堡的城墙像一座巨兽的脊背横亘在眼前，那些尖尖的塔楼刺向云层，让人一下就明白了什么叫“压迫感”。倒不是吓人，而是一种让人肃然起敬的、中世纪建筑特有的那种威严，好像墙里藏了一千年的寂静。我闻到空气里混着烤鱼和潮湿石头的味道，听到河口的浪声混着远处教堂的钟，瞬间就感觉自己穿越回13世纪，像个刚被赶来的铁匠学徒，仰望着这座不可逾越的堡垒。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blaenavon-ironworks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱纳文铁厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaenavon Ironworks</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lealt-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尔特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lealt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-real-mary-kings-close\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    真\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">真正的玛丽金小巷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Real Mary King's Close</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blaenavon-ironworks",
-          "name": "布莱纳文铁厂",
-          "englishName": "Blaenavon Ironworks"
+          "slug": "lealt-falls",
+          "name": "利尔特瀑布",
+          "englishName": "Lealt Falls"
         },
         {
-          "slug": "bryntail-lead-mine-buildings",
-          "name": "布林泰尔铅矿建筑",
-          "englishName": "Bryntail Lead Mine Buildings"
+          "slug": "the-tenement-house-glasgow",
+          "name": "公寓博物馆（苏格兰国家信托）",
+          "englishName": "The Tenement House (National Trust for Scotland)"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "the-real-mary-kings-close",
+          "name": "真正的玛丽金小巷",
+          "englishName": "The Real Mary King's Close"
         }
       ]
     }

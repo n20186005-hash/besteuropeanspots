@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "阿伯里斯特威斯城堡・Castell Aberystwyth・英国・阿伯里斯特威斯",
-    "description": "我第一次看见Castell Aberystwyth，是在一个灰蒙蒙的深秋午后。沿着海边慢慢走，海风裹着咸湿的潮气和海鸥的尖叫声扑面而来。拐过一个弯，城堡突然出现在前方——不是那种高大完整、刷着石灰的中世纪童话，而是像一头被岁月啃噬得只剩骨架的巨兽，趴在一座绿色的山丘上。灰褐色的石块与深蓝的海面形成冷峻的对比，几株野草从裂缝里探出头，在风里摇摆。那一刻我愣住了，心跳漏了一拍。这就是那种“废墟之美”——不完美，但每一块石头都在说话。\n走到城堡里面，脚下是起伏的草地和碎石。孩子们在残存的塔楼之间追逐，他们的笑声和海浪拍打礁石的轰鸣混在一起。我找了个背风的角落坐下，后背靠着一段倒塌的城墙——表面长满了深绿色的苔藓，摸起来冰凉湿润，像触摸着千年前的呼吸。闭上眼，能听到海鸥的叫声忽远忽近，还有远处咖啡馆里传来杯碟碰撞的脆响。当地人在这里遛狗、野餐，甚至有一对情侣坐在塔基上看着日落吻别。城堡不是博物馆里的展品，而是生活的一部分。这种淡然融入的态度，比任何历史解说都更打动人。\n最动人的还是日落时分。夕阳把残墙镀成金色，海面从湛蓝变成粉紫再变成深红。城堡投下的阴影拉得长长的，仿佛伸出无数只手想要抓住最后的光。我站在最高处的塔楼残骸上，能看见整座阿伯里斯特威斯镇——红瓦白墙的房子依山排列，像被撒在绿色坡地上的积木。远处是绵延的坎布里亚山脉，近处是喧嚣的海。在这片天地之间，城堡就像一位沉默的老人，见过王冠坠落，听过炮火轰鸣，如今坐在海边，什么都不说，只看着潮起潮落。这种从容，让我在那一刻忘记了所有烦恼。"
+    "description": "我第一次看见Castell Aberystwyth，是在一个灰蒙蒙的深秋午后。沿着海边慢慢走，海风裹着咸湿的潮气和海鸥的尖叫声扑面而来。拐过一个弯，城堡突然出现在前方——不是那种高大完整、刷着石灰的中世纪童话，而是像一头被岁月啃噬得只剩骨架的巨兽，趴在一座绿色的山丘上。灰褐色的石块与深蓝的海面形成冷峻的对比，几株野草从裂缝里探出头，在风里摇摆。那一刻我愣住了，心跳漏了一拍。这就是那种“废墟之美”——不完美，但每一块石头都在说话。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bikepark-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">BikePark Wales</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">BikePark Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-coed</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pembrokeshire-llama-sanctuary\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡羊驼保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Llama Sanctuary</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dolwyddelan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多尔威德兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dolwyddelan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-of-old-wick\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维克老城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Of Old Wick</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bikepark-wales",
-          "name": "BikePark Wales",
-          "englishName": "BikePark Wales"
+          "slug": "pembrokeshire-llama-sanctuary",
+          "name": "彭布罗克郡羊驼保护区",
+          "englishName": "Pembrokeshire Llama Sanctuary"
         },
         {
-          "slug": "betws-y-coed",
-          "name": "贝图斯-科伊德",
-          "englishName": "Betws-y-coed"
+          "slug": "castell-dolwyddelan",
+          "name": "多尔威德兰城堡",
+          "englishName": "Castell Dolwyddelan"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "castle-of-old-wick",
+          "name": "维克老城堡",
+          "englishName": "Castle Of Old Wick"
         }
       ]
     }

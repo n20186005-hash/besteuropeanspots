@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉德斯通之家",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格拉德斯通之家・Gladstone's Land・英国・爱丁堡",
-    "description": "我那天下着细细的雨，爱丁堡的皇家英里像一条湿漉漉的黑丝带，游客们挤在彩色羊毛围巾和威士忌礼品店门口避雨。我其实已经对这条大道上连绵的纪念品商店感到有些疲惫了——直到我在Lawnmarket段，看到一扇极其低调的木门旁边，挂着一块褪色的牌子：Gladstone's Land。\n推开门的那一刻，世界突然安静了。\n光线一下子暗下来，空气里混杂着陈年木头、灰尘和微微的蜡香。脚下是凹凸不平的石板，传来一阵轻微的吱呀声。我眼前是一个低矮的门厅，头顶上垂下来一盏油灯，光线昏黄而温暖。外面的喧嚣像被按了静音键，只剩下我的脚步在古老的楼梯间回荡。\n整栋房子仿佛被施了凝固时间的魔法。我一间一间地走过那些复原的房间，起居室里挂着厚重的挂毯，壁炉里烧着噼啪作响的木柴（这里是真的在生火——穿着17世纪服装的讲解员会不时往里添柴）；卧室里摆着四柱床，床垫塞满了干草和羽毛，睡上去会发出沙沙的声响；厨房的铜锅擦得锃亮，橱柜里甚至放着假面包和干酪。最让我惊叹的，是墙上那些鲜艳的彩绘——300多年前的颜料依然清晰可见，红褐色的藤蔓花纹在昏暗的光线下仿佛在游动。\n每一扇窗户望出去，都是熟悉的皇家英里，但被这古老的空间框住后，竟然变得陌生起来。我坐在二楼的窗台上，看着窗外的游客拿着雨伞匆匆走过，忽然生出一种错觉——就好像我才是这栋房子的主人，而他们只是路过的陌生人。\n这样沉浸式的质感，让Gladstone's Land成了皇家英里上最让我心跳加速的一个角落。"
+    "description": "我那天下着细细的雨，爱丁堡的皇家英里像一条湿漉漉的黑丝带，游客们挤在彩色羊毛围巾和威士忌礼品店门口避雨。我其实已经对这条大道上连绵的纪念品商店感到有些疲惫了——直到我在Lawnmarket段，看到一扇极其低调的木门旁边，挂着一块褪色的牌子：Gladstone's Land。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/croeso-i-gymru-welcome-sign\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士欢迎标志牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Croeso i Gymru Welcome Sign</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/caerphilly-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡菲利城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caerphilly Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prince-of-wales-dock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士王子码头</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Dock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "croeso-i-gymru-welcome-sign",
-          "name": "威尔士欢迎标志牌",
-          "englishName": "Croeso i Gymru Welcome Sign"
+          "slug": "caerphilly-castle",
+          "name": "卡菲利城堡",
+          "englishName": "Caerphilly Castle"
         },
         {
-          "slug": "cawdor-castle-and-gardens",
-          "name": "考德城堡与花园",
-          "englishName": "Cawdor Castle and Gardens"
+          "slug": "prince-of-wales-dock",
+          "name": "威尔士王子码头",
+          "englishName": "Prince of Wales Dock"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         }
       ]
     }

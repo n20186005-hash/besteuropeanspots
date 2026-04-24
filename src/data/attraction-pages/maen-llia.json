@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯比肯斯国家公园，波伊斯郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "利亚巨石",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "利亚巨石・Maen Llia・英国・布雷肯比肯斯国家公园，波伊斯郡",
-    "description": "我第一次看见Maen Llia时，正是一个阴雨初收的下午。车停在碎石路边，推开门的瞬间，湿冷的风裹着草香砸进肺里。我沿着一条被羊踩出来的泥泞小路往前走，远处地平线上，那块石头就这么孤零零地站着，像一根被谁遗忘在这里的巨兽肋骨。走近了，才发现它比想象中更高。我站在它脚下仰头，砂岩的纹理一道一道地刻着，像老年人的掌纹。有些地方覆盖着黄绿色的地衣，摸上去硬邦邦的，但带着一种异样的温热——也许是刚才那阵云缝里的阳光烤的。空气里飘着羊粪和湿泥土的味道，偶尔有只乌鸦从头顶飞过，嘎的一声，然后一切又归入寂静。我绕着它走了三圈，每一步都能感受到脚下草地的弹性和石头的压迫感。它就这么杵在这里，见证过罗马军团经过，见证过诺曼人修城堡，见证过工业革命的浓烟从远处山谷升起，而现在，它只是安静地陪着一群白脸威尔士羊。\n对当地人来说，Maen Llia不是景点，而是生活的一部分。住在桑尼布里奇的老人告诉我，他小时候就跟着父亲来放羊，父亲总会拍拍石头说“保佑我们牲口平安”。附近的牧羊人路过时会扔一枚硬币在石缝里，仿若一种延续了几千年的默契。每次我闭上眼睛，试着想象几千年前那些人怎么把这将近十吨重的石头从远处的红砂岩山脉运过来，再用绳子、木棍和无数人力把它竖起来，就觉得一种难以言说的震撼。没有文字记录，没有帝王的命令，只有一群人凭着一股近乎偏执的信仰，把一块岩石变成了天地间的坐标。它没有金字塔的华丽，没有巨石阵的规整，但正是这种粗粝和原始，让我感到它离真实的历史最近。站在它面前，我不再是游客，而是刚刚踏入一段沉默叙事的听众。"
+    "description": "我第一次看见Maen Llia时，正是一个阴雨初收的下午。车停在碎石路边，推开门的瞬间，湿冷的风裹着草香砸进肺里。我沿着一条被羊踩出来的泥泞小路往前走，远处地平线上，那块石头就这么孤零零地站着，像一根被谁遗忘在这里的巨兽肋骨。走近了，才发现它比想象中更高。我站在它脚下仰头，砂岩的纹理一道一道地刻着，像老年人的掌纹。有些地方覆盖着黄绿色的地衣，摸上去硬邦邦的，但带着一种异样的温热——也许是刚才那阵云缝里的阳光烤的。空气里飘着羊粪和湿泥土的味道，偶尔有只乌鸦从头顶飞过，嘎的一声，然后一切又归入寂静。我绕着它走了三圈，每一步都能感受到脚下草地的弹性和石头的压迫感。它就这么杵在这里，见证过罗马军团经过，见证过诺曼人修城堡，见证过工业革命的浓烟从远处山谷升起，而现在，它只是安静地陪着一群白脸威尔士羊。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dumbarton-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    敦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">敦巴顿城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dumbarton Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blaenavon-ironworks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱纳文铁厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaenavon Ironworks</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cwm-einion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库姆艾尼恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Einion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/portmeirion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波特梅里恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portmeirion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/devils-staircase-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    恶\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">恶魔阶梯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Devil's Staircase</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dumbarton-castle",
-          "name": "敦巴顿城堡",
-          "englishName": "Dumbarton Castle"
+          "slug": "cwm-einion",
+          "name": "库姆艾尼恩",
+          "englishName": "Cwm Einion"
         },
         {
-          "slug": "blaenavon-ironworks",
-          "name": "布莱纳文铁厂",
-          "englishName": "Blaenavon Ironworks"
+          "slug": "portmeirion",
+          "name": "波特梅里恩",
+          "englishName": "Portmeirion"
         },
         {
-          "slug": "cardiff-bay",
-          "name": "卡迪夫湾",
-          "englishName": "Cardiff Bay"
+          "slug": "devils-staircase-wales",
+          "name": "恶魔阶梯",
+          "englishName": "Devil's Staircase"
         }
       ]
     }

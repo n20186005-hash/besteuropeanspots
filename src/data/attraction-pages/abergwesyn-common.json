@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "拉努蒂德韦尔斯（Llanwrtyd Wells）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯格韦斯温旷野",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "阿伯格韦斯温旷野・Abergwesyn Common・英国・拉努蒂德韦尔斯（Llanwrtyd Wells）",
-    "description": "第一次踏上阿伯格韦斯温旷野，是在一个深秋的清晨。雾气从山谷底部涌起，像一床巨大的灰白色棉被，缓缓覆盖住整个山丘。我站在B4519公路尽头那个泥地停车场上，四周除了风声什么也听不见。不，那不是风——是荒原在呼吸。头顶上，一只红鸢像一枚被遗忘的叶子般悬垂着，它的尾羽在气流中微微调整着角度。我深吸一口气，空气里满是湿泥土、石楠花和远处羊粪的混合气味，那种味道带着一种原始而纯净的力量，让你突然意识到自己已经太久没有好好呼吸了。\n脚下的路根本不是路，只是羊群踩出的褐色小径，蜿蜒着消失在齐膝高的荆棘丛中。刚走了两百米，鞋子就完全湿透——这里的泥炭土像海绵一样吸饱了最近三天的雨水。但我没有回头，因为视线尽头，那幅景象让我忘记了所有不适：整片旷野被低沉的云层压得极低极低，而阳光却从云层的缝隙中像舞台追光一样打下来，照亮了远处一道古老的山脊线。那些石头垒成的羊圈废墟，在阴影和光斑交错间仿佛有了温度。\n我遇到一个本地老人，他正牵着两条黑色的边境牧羊犬走过斜坡。他没有跟我打招呼，只是在我经过时用拐杖指了指东面那片湖水。后来我才从信息中心得知，那片叫Llyn Brianne的人工湖下面，曾经有一个完整的村庄。1950年代为了建水库，村民们被迫迁走，但每年夏天的干旱年份，水面下降后依然能看见当年的学校地基和教堂的轮廓。此刻湖面平静得像一块深蓝色的玻璃，可我知道，水面下睡着几个世纪的故事。\n旷野真正打动我的，不是风景，是那种极致的寂静。你坐在一块被风化了一万年的岩石上，听见的不是鸟鸣或虫叫，而是自己血液在耳朵里流动的声音。手机完全没信号，手表上的时间变得毫无意义。在伦敦地铁里被压缩成数据包的那个我，在这里被一点一点地拆开、晾干、重新鼓起。我开始明白为什么威尔士的诗人总爱写荒原——因为只有在这里，你的灵魂才能听见自己说话的回音。"
+    "description": "第一次踏上阿伯格韦斯温旷野，是在一个深秋的清晨。雾气从山谷底部涌起，像一床巨大的灰白色棉被，缓缓覆盖住整个山丘。我站在B4519公路尽头那个泥地停车场上，四周除了风声什么也听不见。不，那不是风——是荒原在呼吸。头顶上，一只红鸢像一枚被遗忘的叶子般悬垂着，它的尾羽在气流中微微调整着角度。我深吸一口气，空气里满是湿泥土、石楠花和远处羊粪的混合气味，那种味道带着一种原始而纯净的力量，让你突然意识到自己已经太久没有好好呼吸了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/puy-de-dome-limagne-fault-auvergne\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多尔山与利马涅裂谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Puy de Dôme and Limagne Fault</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/grossglockner-high-alpine-road\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大格洛克纳高山公路</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Grossglockner High Alpine Road</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bosco-gurin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯科古林</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bosco/Gurin</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-lighthouse-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    灯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dugald-stewart-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜格尔德·斯图尔特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dugald Stewart Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/folly-farm-adventure-park-and-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福利农场探险公园与动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Folly Farm Adventure Park and Zoo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "puy-de-dome-limagne-fault-auvergne",
-          "name": "多尔山与利马涅裂谷",
-          "englishName": "Puy de Dôme and Limagne Fault"
+          "slug": "the-lighthouse-glasgow",
+          "name": "灯塔",
+          "englishName": "The Lighthouse"
         },
         {
-          "slug": "grossglockner-high-alpine-road",
-          "name": "大格洛克纳高山公路",
-          "englishName": "Grossglockner High Alpine Road"
+          "slug": "dugald-stewart-monument",
+          "name": "杜格尔德·斯图尔特纪念碑",
+          "englishName": "Dugald Stewart Monument"
         },
         {
-          "slug": "bosco-gurin",
-          "name": "博斯科古林",
-          "englishName": "Bosco/Gurin"
+          "slug": "folly-farm-adventure-park-and-zoo",
+          "name": "福利农场探险公园与动物园",
+          "englishName": "Folly Farm Adventure Park and Zoo"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "女巫之井",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "女巫之井・The Witches Well・英国・爱丁堡",
-    "description": "我第一次经过爱丁堡皇家英里时，完全没注意到它。街上游人如织，风笛声和烤香肠的气味混在一起，我正仰头看圣吉尔斯大教堂的尖塔，差点被脚下一个小石阶绊倒。低头的一瞬间，我看到了它——一个嵌在墙里的、毫不起眼的铸铁喷泉，比成年人张开双臂还要窄一点，上面长满了暗绿色的铜锈。水流从上方一个蛇头状的出水口慢慢滴下来，落在下方的石槽里，发出一种几乎被街市噪音淹没的、清脆的“嗒……嗒……”声。我蹲下来仔细看，才看见喷泉上方有两张浮雕面孔：一张脸平静安详，像圣母玛利亚；另一张脸扭曲痛苦，眼窝深陷，嘴巴微张——她们共用同一张面孔的正面和背面，仿佛在说，慈悲与苦难从来都是一体两面。\n时间接近傍晚，夕阳斜斜地照过来，把铁制的水槽染成暖金色。一个穿着格子裙的本地老人靠在一旁的墙根喝咖啡，见我一直盯着看，主动走过来告诉我：“你知道她们是谁吗？是被烧死的女人。”他的苏格兰口音很重，但每一个字都像冷风一样钻进耳朵。他说他小时候在这里长大，这口井是二十世纪初才建的，用来纪念那些在“大巫猎”（Great Witch Hunt）中被绞死或烧死的苏格兰女性——据估计，十七世纪苏格兰有超过三千人被指控使用巫术，其中百分之八十五是女人。\n我手指轻轻摸过那些铸铁纹理，感到一阵寒凉。水槽里散落着几枚硬币，不是许愿池那种扔进去的祈愿，而是有人故意放在这里的——也许是悼念，也许是某种安静的赎罪。那一刻，周围的喧嚣忽然变得很远，只剩下水流声和石墙上斑驳的苔藓。女巫之井就是这样一个地方：它太渺小了，小到你一旦发现它，就会为之前无数次路过时的忽略而愧疚；可它又太沉重了，沉重到整条皇家英里的喧闹都压不住从地底泛起的沉默。"
+    "description": "我第一次经过爱丁堡皇家英里时，完全没注意到它。街上游人如织，风笛声和烤香肠的气味混在一起，我正仰头看圣吉尔斯大教堂的尖塔，差点被脚下一个小石阶绊倒。低头的一瞬间，我看到了它——一个嵌在墙里的、毫不起眼的铸铁喷泉，比成年人张开双臂还要窄一点，上面长满了暗绿色的铜锈。水流从上方一个蛇头状的出水口慢慢滴下来，落在下方的石槽里，发出一种几乎被街市噪音淹没的、清脆的“嗒……嗒……”声。我蹲下来仔细看，才看见喷泉上方有两张浮雕面孔：一张脸平静安详，像圣母玛利亚；另一张脸扭曲痛苦，眼窝深陷，嘴巴微张——她们共用同一张面孔的正面和背面，仿佛在说，慈悲与苦难从来都是一体两面。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/craigmillar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷格米勒城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigmillar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunfermline-abbey-and-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓弗姆林修道院与宫殿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunfermline Abbey and Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/innocent-railway-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    无\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">无辜铁路隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Innocent Railway Tunnel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scotch-whisky-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰威士忌体验中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Scotch Whisky Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "craigmillar-castle",
-          "name": "克雷格米勒城堡",
-          "englishName": "Craigmillar Castle"
+          "slug": "innocent-railway-tunnel",
+          "name": "无辜铁路隧道",
+          "englishName": "Innocent Railway Tunnel"
         },
         {
-          "slug": "bath-tower",
-          "name": "巴斯塔",
-          "englishName": "Bath Tower"
+          "slug": "scotch-whisky-experience",
+          "name": "苏格兰威士忌体验中心",
+          "englishName": "The Scotch Whisky Experience"
         },
         {
-          "slug": "dunfermline-abbey-and-palace",
-          "name": "邓弗姆林修道院与宫殿",
-          "englishName": "Dunfermline Abbey and Palace"
+          "slug": "alton-towers",
+          "name": "奥尔顿塔",
+          "englishName": "Alton Towers"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰佩特（Lampeter）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布莱恩湖观景台",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布莱恩湖观景台・Llyn Brianne Viewpoint・英国・兰佩特（Lampeter）",
-    "description": "我第一次站在布莱恩湖观景台时，耳边只有风声——那种从西边大西洋一路舔过威尔士荒原的风，带着石楠的焦苦和沼泽的潮气。眼前这片被称为“湖”的巨型水域，像一面被上帝遗落的墨镜，无声地反射着阴沉天空。更远处，坎布里亚山脉层层叠叠，每一道山脊都像睡着的巨兽脊椎。你很难想象，这么孤独深邃的风景，竟然是上世纪工程师们为了给伯明翰供水而人工挖出来的。\n观景台本身毫不起眼。一块被踩得泛白的石板地，几根原木做成的矮栏，要不是旁边立着威尔士水务公司的标志牌，你很容易错过。但正是这份简陋，让视线毫无遮挡地铺开。湖面常年泛着铅灰色的光，偶尔一只鱼鹰掠过，在水面划出银白色刀痕。空气里弥漫着苔藓和腐殖质的气味，混合着远处牧羊犬隐约的吠叫。我记得自己站在那儿发呆了好几分钟，一只红隼悬停在我头顶二十米处，像被人用线吊着的风筝。\n布莱恩湖最打动人心的地方，在于它同时承载着“人造”与“野性”两种对立的灵魂。你脚下的山谷，曾经是威尔士最古老的威尔士语社区之一——布赖恩谷。1972年水库蓄水之前，这里的居民被强制搬迁，整座村落连同教堂、农场和墓碑一同沉入湖底。干旱年份水位下降时，还能隐约看到水下的石墙轮廓。当地人把它叫做“失落的山谷”，而观景台正是了解这场沉默牺牲的最佳瞭望点。\n在晴朗的黄昏，观景台会展现出截然不同的气质。阳光穿过云层缝隙，在湖面上洒下无数碎金；山坡上的紫色石楠被镀上暖色，空气变得透明起来。此时你才能理解为什么威尔士诗人R.S.托马斯会写道：“这里的寂静不是空虚，而是一个有重量的吻。”观景台像是一座悬浮在时间裂缝中的阳台，让访客同时凝视着被水淹没的旧世界和依然狂野的新自然。"
+    "description": "我第一次站在布莱恩湖观景台时，耳边只有风声——那种从西边大西洋一路舔过威尔士荒原的风，带着石楠的焦苦和沼泽的潮气。眼前这片被称为“湖”的巨型水域，像一面被上帝遗落的墨镜，无声地反射着阴沉天空。更远处，坎布里亚山脉层层叠叠，每一道山脊都像睡着的巨兽脊椎。你很难想象，这么孤独深邃的风景，竟然是上世纪工程师们为了给伯明翰供水而人工挖出来的。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/vjetrenica-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    风\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">风洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vjetrenica Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cascata-delle-marmore\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马尔莫雷瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cascata delle Marmore</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-town-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Town Walls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lake-vyrnwy-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    L\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Lake Vyrnwy Dam</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lake Vyrnwy Dam</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorm-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorm Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/andros-island\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安德罗斯岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andros</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "vjetrenica-cave",
-          "name": "风洞",
-          "englishName": "Vjetrenica Cave"
+          "slug": "lake-vyrnwy-dam",
+          "name": "Lake Vyrnwy Dam",
+          "englishName": "Lake Vyrnwy Dam"
         },
         {
-          "slug": "cascata-delle-marmore",
-          "name": "马尔莫雷瀑布",
-          "englishName": "Cascata delle Marmore"
+          "slug": "cairngorm-mountain",
+          "name": "凯恩戈姆山",
+          "englishName": "Cairngorm Mountain"
         },
         {
-          "slug": "conwy-town-walls",
-          "name": "康威城墙",
-          "englishName": "Conwy Town Walls"
+          "slug": "andros-island",
+          "name": "安德罗斯岛",
+          "englishName": "Andros"
         }
       ]
     }

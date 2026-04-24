@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "皇家苏格兰灰骑兵纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "皇家苏格兰灰骑兵纪念碑・The Royal Scots Greys Monument・英国・爱丁堡",
-    "description": "我第一次在爱丁堡见到它，是在一个灰蒙蒙的清晨。我刚从皇家英里走上来，拐过城堡的墙角，它就那样突然出现在晨雾里——一匹巨大的青铜战马，前蹄高高抬起，仿佛正要跃入天空。骑手稳稳地坐在马背上，右手握剑，目光坚定地望向远方。当时广场上几乎没有人，只有几只海鸥停在骑兵的肩头，偶尔扑棱一下翅膀，发出几声清脆的鸣叫。风吹过来，带着苏格兰秋天特有的潮湿草木香，还有远处咖啡馆飘来的烤面包味。那一刻，我忽然觉得这座纪念碑不是冰冷的金属，而是一个被时间冻住的瞬间——一个骑兵正要冲锋，而他的呐喊被封在了青铜里。\n走近一点，你能看到战马脖子上的肌肉线条被雕刻得精雕细琢，鬃毛像真正的野马那样卷曲。骑兵的制服扣子、腰带上的弹药盒、马鞍上的褶皱，每一个细节都清晰得让人怀疑它是不是下一秒就会活过来。阳光慢慢从城堡上方爬出来，照在青铜上，那些深色的氧化层开始泛出暗绿色的光泽。有个当地的老人牵着一条柯基犬慢慢走过来，他告诉我，每年纪念日这里都会铺满罂粟花，老兵们穿着笔挺的西装来敬礼，但那天的沉默比任何演说都更有力量。\n在爱丁堡人的日常生活中，这座纪念碑就像一位安静的邻居。孩子们在它的底座周围绕着圈追逐，年轻人靠在花岗岩台阶上喝咖啡聊天，而游客们则举着手机找各种角度拍照。但它最打动我的，是那种不动声色的庄严。当你坐在它下面的台阶上，看着南侧爱丁堡城堡的塔楼，听着风笛声从远处飘来，你会忽然明白：荣耀不是喧嚣的，它是在沉默中慢慢沉淀下来的。"
+    "description": "我第一次在爱丁堡见到它，是在一个灰蒙蒙的清晨。我刚从皇家英里走上来，拐过城堡的墙角，它就那样突然出现在晨雾里——一匹巨大的青铜战马，前蹄高高抬起，仿佛正要跃入天空。骑手稳稳地坐在马背上，右手握剑，目光坚定地望向远方。当时广场上几乎没有人，只有几只海鸥停在骑兵的肩头，偶尔扑棱一下翅膀，发出几声清脆的鸣叫。风吹过来，带着苏格兰秋天特有的潮湿草木香，还有远处咖啡馆飘来的烤面包味。那一刻，我忽然觉得这座纪念碑不是冰冷的金属，而是一个被时间冻住的瞬间——一个骑兵正要冲锋，而他的呐喊被封在了青铜里。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/roald-dahl-plass\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗尔德·达尔广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roald Dahl Plass</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brean-down-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林当堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brean Down Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/holyrood-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣十字修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holyrood Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/procurators-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    检\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">检察官之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Procurator's House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kilt-rock-waterfall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰裙岩瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilt Rock Waterfall - Creag An Fhèilidh</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "roald-dahl-plass",
-          "name": "罗尔德·达尔广场",
-          "englishName": "Roald Dahl Plass"
+          "slug": "holyrood-abbey",
+          "name": "圣十字修道院",
+          "englishName": "Holyrood Abbey"
         },
         {
-          "slug": "brean-down-fort",
-          "name": "布林当堡垒",
-          "englishName": "Brean Down Fort"
+          "slug": "procurators-house",
+          "name": "检察官之家",
+          "englishName": "Procurator's House"
         },
         {
-          "slug": "cuween-hill-chambered-cairn",
-          "name": "库温山墓室石堆",
-          "englishName": "Cuween Hill Chambered Cairn"
+          "slug": "kilt-rock-waterfall",
+          "name": "苏格兰裙岩瀑布",
+          "englishName": "Kilt Rock Waterfall - Creag An Fhèilidh"
         }
       ]
     }

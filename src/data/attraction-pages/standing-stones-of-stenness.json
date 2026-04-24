@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯特罗姆内斯（Stromness）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯腾内斯立石圈",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯腾内斯立石圈・Standing Stones of Stenness・英国・斯特罗姆内斯（Stromness）",
-    "description": "我记得那天是初夏的一个下午，奥克尼的天空低得像要压到头顶。风从大西洋一路灌过来，带着咸腥和海藻的味道，草尖在一米之内就变了三次方向。我沿着一条窄窄的土路走过去，周围没有树，没有房子，只有一片荒芜的牧场，一些羊在远处慢吞吞地啃草。然后我就看到了它们——几块灰色的、薄得像刀刃的巨石，突兀地立在空旷的草地上，仿佛是从另一个纪元错误掉落在这里的物件。那一刻我忽然理解了为什么当地人管它们叫“站立之石”：它们真的像是活的，像一群沉默的巨人聚在一起开会，讨论着什么只有风才能听懂的事情。\n走近了，你会被它们的高度震慑住。最高的那块几乎有两个人叠起来那么高，但宽度却只容一个成年人侧身通过。表面覆满橙黄色的地衣，摸上去粗糙而冰冷，边缘锋利得让人不敢靠得太近。阳光从巨石之间的缝隙切过来，在地面上投下细长的阴影，随着云层的移动，光影就像水银一样在石面上流淌。闭上眼，耳朵里全是风声——不是呼啸，而是那种持续的、低沉的呜咽，仿佛石头上千年来被风舔出了孔洞，风穿过时就发出叹息。远处偶尔传来一声绵羊的咩叫，或者乌鸦的嘎声，但这些声音都迅速被风裹走，留下一层更深的寂静。\n当地人对这群石头有种淡然的亲近感。我在那里待了一个小时，只见到三个游客骑着自行车路过，拍了几张照片就离开了。反倒是附近农场的老人牵着一条牧羊犬慢悠悠地走来，站在最矮的那块石头旁，像老朋友一样拍了拍它，然后对着狗说了句什么。他没有给我介绍任何历史，只是朝我笑了笑，指了指天空。我抬起头，发现几块石头的顶端正好指向云缝里露出的太阳——后来我才知道，那些石头精确地标记了冬至和夏至的日出方位。\n最动人的时刻是在黄昏。八月的奥克尼晚上十点天还亮着，但光线变得越来越柔和，像被稀释的蜂蜜涂在巨石上。石头的影子拉得很长，几乎要延伸到远处的布里恩湖面。你会觉得整个世界都慢了下来，连风也变得温柔了。那一刻，我坐在一块低矮的基石上，什么也不想，只是看着光一点点从石头的顶部褪去，仿佛五千年的时光就在这短短几分钟里被浓缩、被展开。我想，这就是巨石最本真的力量——它们不需要任何解说牌，只是站在那里，就能让你穿过时间，触摸到人类最原始的那种对天地、对生命的敬畏。"
+    "description": "我记得那天是初夏的一个下午，奥克尼的天空低得像要压到头顶。风从大西洋一路灌过来，带着咸腥和海藻的味道，草尖在一米之内就变了三次方向。我沿着一条窄窄的土路走过去，周围没有树，没有房子，只有一片荒芜的牧场，一些羊在远处慢吞吞地啃草。然后我就看到了它们——几块灰色的、薄得像刀刃的巨石，突兀地立在空旷的草地上，仿佛是从另一个纪元错误掉落在这里的物件。那一刻我忽然理解了为什么当地人管它们叫“站立之石”：它们真的像是活的，像一群沉默的巨人聚在一起开会，讨论着什么只有风才能听懂的事情。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafod-estate\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德庄园（国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Hafod Estate</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chester-castle-agricola-tower-castle-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特城堡：阿格里科拉塔和城堡城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester Castle: Agricola Tower and Castle Walls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scottish-national-war-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国家战争纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish National War Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monument-to-the-scottish-parliament\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monument to the Scottish Parliament</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maen-du-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑石圣井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen-Du Well</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "scottish-national-war-memorial",
+          "name": "苏格兰国家战争纪念馆",
+          "englishName": "Scottish National War Memorial"
         },
         {
-          "slug": "hafod-estate",
-          "name": "哈福德庄园（国家信托）",
-          "englishName": "National Trust - Hafod Estate"
+          "slug": "monument-to-the-scottish-parliament",
+          "name": "苏格兰议会纪念碑",
+          "englishName": "Monument to the Scottish Parliament"
         },
         {
-          "slug": "chester-castle-agricola-tower-castle-walls",
-          "name": "切斯特城堡：阿格里科拉塔和城堡城墙",
-          "englishName": "Chester Castle: Agricola Tower and Castle Walls"
+          "slug": "maen-du-well",
+          "name": "黑石圣井",
+          "englishName": "Maen-Du Well"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "坎姆拉德森林瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "坎姆拉德森林瀑布・Cwm Rhaeadr Forest・英国・威尔士",
-    "description": "第一次听到坎姆拉德这个名字，是几年前在威尔士的一个小酒馆里，吧台后面那位胡须浓密的老酒保一边擦着啤酒杯一边淡淡地说了一句，你要去看真正的威尔士，就去坎姆拉德，不要看城堡，要看那片森林。于是第二天清晨，我就跟着导航拐进了那条窄得差点刮到后视镜的山路。路两旁长满了黑色的苔藓和羊齿蕨，空气里弥漫着泥土和朽木混在一起的气味，湿漉漉的，像刚下过一场雨。\n等到停下车，顺着一道几乎被树根吞没的羊肠小道往里走，声音先到。先是哗啦哗啦的，像有人在远处抖着一条巨大的绸缎，然后越来越响，越来越沉，最后变成了一种低沉的轰鸣，震得我的胸口都跟着微微发颤。当我穿过最后一片浓密的冬青和榛树林时，那个瀑布突然就撞进了我的眼帘。巨大的水流从一道马蹄形的黑色岩壁上倾泻而下，飞溅的水珠在阳光下炸开成一道若隐若现的彩虹，空气中弥漫着细密的水雾，像丝绒一样温柔地贴在我的脸上。\n那时候林子里很安静，除了水声几乎听不到别的。偶尔有一只乌鸦从高处掠过，叫声在峡谷里回荡着，拖出一串长长的尾音。几头威尔士山地羊就站在瀑布底下的那片青苔上，低头慢悠悠地吃草，好像这个滚滚水流跟它们一点关系都没有。我找了块光滑的石头坐下来，看着水潭里旋转的落叶和气泡，感觉时间在这里完全被拉长了，或者说，取消了。\n真正打动我的，是这里完全没有被刻意打理过的痕迹。没有栏杆，没有指示牌，没有商店卖纪念品，甚至没有垃圾桶。一切就那样原始地待在它们该待的地方。那个瀑布已经在这里流淌了一万多年，比人类所有的城堡和教堂都要古老。站在它面前，你会不自觉地压低声音，就像不小心闯进了别人的秘密花园，生怕惊扰了这里住了很久的精灵。"
+    "description": "第一次听到坎姆拉德这个名字，是几年前在威尔士的一个小酒馆里，吧台后面那位胡须浓密的老酒保一边擦着啤酒杯一边淡淡地说了一句，你要去看真正的威尔士，就去坎姆拉德，不要看城堡，要看那片森林。于是第二天清晨，我就跟着导航拐进了那条窄得差点刮到后视镜的山路。路两旁长满了黑色的苔藓和羊齿蕨，空气里弥漫着泥土和朽木混在一起的气味，湿漉漉的，像刚下过一场雨。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/montbrun-les-bains-provencal-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙布兰莱班</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Montbrun-les-Bains</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/andros-island\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安德罗斯岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andros</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/vintgar-gorge-slovenia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    温\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">温特加峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vintgar Gorge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceredigion-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    锡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">锡尔迪金博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amgueddfa Ceredigion Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "montbrun-les-bains-provencal-village",
-          "name": "蒙布兰莱班",
-          "englishName": "Montbrun-les-Bains"
+          "slug": "brymbo-bandstand",
+          "name": "布莱姆博音乐台",
+          "englishName": "Brymbo Bandstand"
         },
         {
-          "slug": "andros-island",
-          "name": "安德罗斯岛",
-          "englishName": "Andros"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         },
         {
-          "slug": "vintgar-gorge-slovenia",
-          "name": "温特加峡谷",
-          "englishName": "Vintgar Gorge"
+          "slug": "ceredigion-museum",
+          "name": "锡尔迪金博物馆",
+          "englishName": "Amgueddfa Ceredigion Museum"
         }
       ]
     }

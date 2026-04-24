@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "杰德堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰玛丽女王游客中心",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "苏格兰玛丽女王游客中心・Mary Queen of Scots’ Visitors Centre・英国・杰德堡",
-    "description": "第一次走近玛丽女王游客中心时，我差点被那扇厚重的橡木门吸进去。门口的石阶被无数双脚踏得微微凹陷，缝隙里长着绒绒的青苔，踩上去有股潮湿的泥土气。推开门，耳边先是一阵轻柔的风铃声——那是工作人员在接待处挂的十七世纪钥匙仿制品碰撞的声音。然后鼻腔里涌进一股混合了旧木头、蜂蜡和淡淡薰衣草的味道，瞬间把我拽回了四百年前。\n大厅里光线很暗，只有角落的壁炉模拟着跳动的火光。一个穿着亚麻裙的讲解员（她自称是一位历史爱好者）正对着一群小学生说：“你们知道玛丽王后收到过的最后一件礼物是什么吗？是她亲手绣的枕头套，现在就在楼上。”孩子们惊呼着要跑上去看。我站在她身后，视线扫过墙上一幅幅褪色的油画——玛丽的肖像从少女到老去，眼神越来越忧伤，但嘴角那抹倔强的微笑始终没变。\n穿过走廊，忽然听见一阵低沉的竖琴声，是从二楼小礼拜堂传出来的。我顺着螺旋楼梯往上爬，每一级都有不同的声响，有的嘎吱作响，有的又结实得像石头。推开门，一个年轻女人正在弹奏复制版的文艺复兴竖琴，阳光透过彩色玻璃窗洒在她的金发上，像极了传说中玛丽弹琴的样子。墙上挂着一封玛丽写给伊丽莎白一世的信手稿复制品，字迹娟秀却带着轻微的颤抖，仿佛能听到她落笔时抽泣的声音。\n真正让我心头一紧的是三楼那间卧室——玛丽在这里度过了她人生中最绝望的三个星期。床很小，被单是粗朴的黄麻布料，枕头凹陷处还有一缕暗红色的丝绒。窗台上摆着一只空了的银质酒杯，据说那晚她喝下毒酒时会用它。房间里装了一个投影装置，当灯光暗下来，墙上的影子便开始上演她被捕前夜与侍女们告别的场景。我看着那些闪烁着的光影，鼻头突然酸了——她不是女王，只是一个走在刀刃上、渴望自由的女人。"
+    "description": "第一次走近玛丽女王游客中心时，我差点被那扇厚重的橡木门吸进去。门口的石阶被无数双脚踏得微微凹陷，缝隙里长着绒绒的青苔，踩上去有股潮湿的泥土气。推开门，耳边先是一阵轻柔的风铃声——那是工作人员在接待处挂的十七世纪钥匙仿制品碰撞的声音。然后鼻腔里涌进一股混合了旧木头、蜂蜡和淡淡薰衣草的味道，瞬间把我拽回了四百年前。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-coed</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tower-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塔桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tower Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bikepark-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">BikePark Wales</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">BikePark Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eastgate-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    东\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">东门钟楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eastgate Clock</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "tower-bridge",
+          "name": "塔桥",
+          "englishName": "Tower Bridge"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "bikepark-wales",
+          "name": "BikePark Wales",
+          "englishName": "BikePark Wales"
         },
         {
-          "slug": "betws-y-coed",
-          "name": "贝图斯-科伊德",
-          "englishName": "Betws-y-coed"
+          "slug": "eastgate-clock",
+          "name": "东门钟楼",
+          "englishName": "Eastgate Clock"
         }
       ]
     }

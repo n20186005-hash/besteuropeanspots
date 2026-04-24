@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "大苹果",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "大苹果・The Big Apple・英国・威尔士",
-    "description": "车子在威尔士乡间狭窄的碎石路上颠簸了快二十分钟，两旁的树篱越来越密，像绿色的墙壁一样往后退。当导航终于提示“您的目的地就在左侧”时，我差点以为自己开进了一户人家的农场。路尽头是一扇半掩的白色木栅门，门上方挂着一只锈迹斑斑的铸铁苹果，大约有人的脑袋那么大，在微风中轻轻摇晃，发出吱呀吱呀的声响。这就是大苹果——一个听起来像是纽约地标的名字，却藏在布雷肯山国家公园深处最不起眼的角落里。\n推开门，一股混合着青草、湿润泥土和淡淡发酵气味的空气扑面而来。脚下是松软的草地，露水打湿了鞋面。眼前是一片缓缓起伏的坡地，上面种满了形态各异的苹果树——有些树干粗得要两人合抱，树皮上覆满灰绿色的苔藓；有些则细瘦如少年，枝条被沉甸甸的果实压弯了腰。果树之间散落着几间低矮的石屋，屋顶长满了厚实的景天，开着细小的黄花。远处传来一阵鸡咯咯的叫声，紧接着是狗懒洋洋的吠声，却看不到任何人的影子。\n这地方安静得有些过分。没有售票处，没有景区导览图，甚至没有标识牌——只在最大那间石屋的门楣上用油漆歪歪扭扭地写着“The Big Apple Cider”。我推开虚掩的木门，门轴发出一声长长的叹息。屋里光线昏暗，角落的壁炉里烧着苹果木，噼啪作响，室内弥漫着甜腻的苹果香气和木头燃烧的烟熏味。一个头发花白的老人正坐在长桌前削苹果，看到他熟练地转动小刀，皮屑像螺旋一样垂落下来，阳光从窄窗斜射进来，照亮了他手背上纵横的皱纹。他抬起头，对我咧嘴笑了笑，露出一口被苹果酒染黄的牙齿：“欢迎来到我的王国，朋友。”\n后来我才知道，这位老人叫托姆·埃文斯，是这片果园的第五代守护人。他告诉我，这里的每一棵树都有自己的名字，“小矮人”、“黑爵士”、“金铃铛”，光听名字就能想象出果实的模样。他随手摘下路边一棵树上还带着霜的苹果递给我，咬一口，那种带着野花香气的清甜直接在舌头上炸开，汁水顺着嘴角往下流。他说，整个果园有一百三十七个品种，有些是威尔士独有的濒危变种，有些是几代前从法国和西班牙带回来的老品种。“工业苹果为了运输已经丧失了味道，真正的苹果应该是这样，每一个都不一样，都带着它们生长的那片土地的味道。”"
+    "description": "车子在威尔士乡间狭窄的碎石路上颠簸了快二十分钟，两旁的树篱越来越密，像绿色的墙壁一样往后退。当导航终于提示“您的目的地就在左侧”时，我差点以为自己开进了一户人家的农场。路尽头是一扇半掩的白色木栅门，门上方挂着一只锈迹斑斑的铸铁苹果，大约有人的脑袋那么大，在微风中轻轻摇晃，发出吱呀吱呀的声响。这就是大苹果——一个听起来像是纽约地标的名字，却藏在布雷肯山国家公园深处最不起眼的角落里。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brisighella-hilltown\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里西盖拉（驴子巷与三座山峰）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brisighella</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sabile-northernmost-vineyard-latvia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨比莱</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sabile</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/sault-lavender-capital\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索村</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sault</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gouffre-de-proumeyssac\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普鲁梅萨克水晶深渊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gouffre de Proumeyssac</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arachova-parnassus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿拉霍瓦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arachova</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "brisighella-hilltown",
-          "name": "布里西盖拉（驴子巷与三座山峰）",
-          "englishName": "Brisighella"
+          "slug": "sault-lavender-capital",
+          "name": "索村",
+          "englishName": "Sault"
         },
         {
-          "slug": "brymbo-bandstand",
-          "name": "布莱姆博音乐台",
-          "englishName": "Brymbo Bandstand"
+          "slug": "gouffre-de-proumeyssac",
+          "name": "普鲁梅萨克水晶深渊",
+          "englishName": "Gouffre de Proumeyssac"
         },
         {
-          "slug": "sabile-northernmost-vineyard-latvia",
-          "name": "萨比莱",
-          "englishName": "Sabile"
+          "slug": "arachova-parnassus",
+          "name": "阿拉霍瓦",
+          "englishName": "Arachova"
         }
       ]
     }

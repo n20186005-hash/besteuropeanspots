@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士北部山区（卡那封/班戈区域）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "埃里里国家公园（斯诺登尼亚）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "埃里里国家公园（斯诺登尼亚）・Eryri National Park (Snowdonia)・英国・威尔士北部山区（卡那封/班戈区域）",
-    "description": "我第一次去埃里里国家公园是十月初的清晨，车停在兰贝里斯（Llanberis）村外，刚推开车门，一股混合着湿泥、苔藓和羊粪的冷风就直冲鼻腔。没有刺骨的凉，是那种像刚切开的蘑菇和腐烂蕨叶混合的气味，带着威尔士高地特有的荒蛮。抬头，雪墩山的主峰藏在一层铅灰色的云絮里，山腰的板岩采石场残壁上挂着细长的瀑布，水流声被风撕成碎片，飘忽不定。\n脚边的石缝里开着淡紫色的钟花，露水还挂在花瓣上，每走一步都能踩碎几颗浆果。远处传来几声低沉的羊叫，像老旧的木门在转动。那一刻我突然意识到，这里不是那种被精心修剪过的湖区国家公园——埃里里是野的。它的野没有任何矫饰，连空气都带着一种拒绝被驯化的倔强。几个穿荧光防水服的本地老人从我身边走过，手杖敲在石板路上，节奏稳得像呼吸，他们用威尔士语互相喊着什么，那舌音像溪水在石头上炸开。\n到了海拔更高的Cwm Idwal冰斗湖，雾气突然散开，整个湖面像一面被打磨过的墨绿色钢刃嵌在火山岩壁之间。没有风，湖水几乎没有波纹，安静得让人不敢说话。我坐在一块被冰川刨平过的巨石上，阳光从云缝里漏下来，照亮湖心的一个小岛，上面长着些矮小的松树，影子斜斜地碎在水面上。一只红鸢在上空盘旋，翅膀几乎不动，只有尾羽轻轻摆动。那种寂静不是无声，而是声音被吸进了巨大的空间里——远山、湖泊、云影，它们各自沉默，却构成了一首比任何交响乐都更穿透内心的和弦。\n最打动我的不是主峰雪墩，而是那些无名的小山谷。在Nant Gwynant山谷深处，一间废弃的板岩矿工小屋靠在溪边，墙上爬满常春藤，屋顶已经塌了一半，但炉灶的铸铁架子还在，灶台上摆着一个锈蚀的铁罐。不知道是谁多久前放在那里的，或许是上世纪某个矿工冬天用这个罐子煮过燕麦粥。我俯身钻进小屋，里面潮湿的泥土味夹杂着古老的烟灰气息，那是一种具体的、能触摸到的过去。在这个什么都更新得极快的时代，埃里里的每一块石头都在固执地保持原样，它们用苔藓和裂缝告诉你：真正的沉静，不需要Wi-Fi。"
+    "description": "我第一次去埃里里国家公园是十月初的清晨，车停在兰贝里斯（Llanberis）村外，刚推开车门，一股混合着湿泥、苔藓和羊粪的冷风就直冲鼻腔。没有刺骨的凉，是那种像刚切开的蘑菇和腐烂蕨叶混合的气味，带着威尔士高地特有的荒蛮。抬头，雪墩山的主峰藏在一层铅灰色的云絮里，山腰的板岩采石场残壁上挂着细长的瀑布，水流声被风撕成碎片，飘忽不定。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/svolvaer-devils-gate-lofoten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯沃尔韦尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Svolvær</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/secret-greek-islands-temples-coves\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希腊隐秘岛屿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Secret Islands of Greece</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stara-cuprija-plavo-oko-montenegro\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特拉奇纳桥与蓝眼泉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stara Ćuprija and Plavo Oko</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lipsi-island\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利普西岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lipsi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scottish-national-war-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国家战争纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish National War Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/manciano\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    曼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">曼恰诺</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Manciano</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "svolvaer-devils-gate-lofoten",
-          "name": "斯沃尔韦尔",
-          "englishName": "Svolvær"
+          "slug": "lipsi-island",
+          "name": "利普西岛",
+          "englishName": "Lipsi"
         },
         {
-          "slug": "secret-greek-islands-temples-coves",
-          "name": "希腊隐秘岛屿",
-          "englishName": "The Secret Islands of Greece"
+          "slug": "scottish-national-war-memorial",
+          "name": "苏格兰国家战争纪念馆",
+          "englishName": "Scottish National War Memorial"
         },
         {
-          "slug": "stara-cuprija-plavo-oko-montenegro",
-          "name": "斯特拉奇纳桥与蓝眼泉",
-          "englishName": "Stara Ćuprija and Plavo Oko"
+          "slug": "manciano",
+          "name": "曼恰诺",
+          "englishName": "Manciano"
         }
       ]
     }

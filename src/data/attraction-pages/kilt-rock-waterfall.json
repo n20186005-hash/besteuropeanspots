@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯凯岛波特里（Portree, Isle of Skye）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰裙岩瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "苏格兰裙岩瀑布・Kilt Rock Waterfall - Creag An Fhèilidh・英国・斯凯岛波特里（Portree, Isle of Skye）",
-    "description": "第一次看见裙岩瀑布的那一刻，我差点没拿稳手里的咖啡杯。那天早晨，斯凯岛独有的海雾从大西洋上翻滚而来，把整片悬崖裹在一片奶白色的朦胧里。我顺着A855公路慢慢开，把车窗摇下来，咸腥的风混着青草和苔藓的味道一下子涌进来。远远的，我听见一阵低沉而持续的轰鸣声——不是海浪拍打岩石那种怒吼，而是像大地深处有一头沉睡的巨兽在均匀地呼吸。车停好，我踩着湿漉漉的草地往观景台走，雾突然被一阵风吹散，眼前豁然出现那面巨大的、布满平行竖纹的黑色岩壁，从上到下像被一把巨大的尺子整齐地划出了深沟，纹路微微倾斜，真的就像一条被放大了一万倍的苏格兰格子呢裙，垂在碧蓝的海面上。\n瀑布从差不多90米高的悬崖顶端直接冲出来，水流不算汹涌，但足够有力。它没有从崖壁中间流下，而是从岩壁顶部的草原边缘一跃而下，在空中划出一条优雅的白练，然后撞在下方乱石堆上，溅起细密的水雾。太阳偶尔从云层缝隙里探出头，瀑布的水雾里便会瞬间架起一道小小的彩虹，转瞬即逝，像大自然在玩一场捉迷藏。我站在那里，安静地听了好一会儿。风声、瀑布声、鸟鸣、远处的海浪，交织成一首只有斯凯岛才有的交响乐。我旁边站着一位当地的老奶奶，穿着一件蓝色的防水夹克，手里拿着一只保温杯。她对我笑了笑，说：“它每天都变，今天算温柔的。去年冬天风暴来的时候，瀑布的水量能冲垮半边崖壁。”她的语气平淡，却让我意识到，这个看似亘古不变的景观，其实每一秒都在呼吸、在变化。\n傍晚时分，我又折返了一次。夕阳把崖壁染成了暖金色，那些规则的条纹在斜射光线下像浮雕一样立体。瀑布的水珠被逆光照亮，在空中化作一串串珍珠般的碎光。有几个穿着苏格兰裙的年轻人在崖边吹风笛，那种苍凉而悠长的声音顺着海风飘散，和瀑布的轰鸣纠缠在一起。那一刻我忽然明白了，为什么斯凯岛被称为“天空之岛”——不是因为天空特别蓝，而是因为这里的一切都悬在天与海的中间，人站在这里，仿佛轻轻一跳就能触到云。"
+    "description": "第一次看见裙岩瀑布的那一刻，我差点没拿稳手里的咖啡杯。那天早晨，斯凯岛独有的海雾从大西洋上翻滚而来，把整片悬崖裹在一片奶白色的朦胧里。我顺着A855公路慢慢开，把车窗摇下来，咸腥的风混着青草和苔藓的味道一下子涌进来。远远的，我听见一阵低沉而持续的轰鸣声——不是海浪拍打岩石那种怒吼，而是像大地深处有一头沉睡的巨兽在均匀地呼吸。车停好，我踩着湿漉漉的草地往观景台走，雾突然被一阵风吹散，眼前豁然出现那面巨大的、布满平行竖纹的黑色岩壁，从上到下像被一把巨大的尺子整齐地划出了深沟，纹路微微倾斜，真的就像一条被放大了一万倍的苏格兰格子呢裙，垂在碧蓝的海面上。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/henrhyd-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亨利德瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Henrhyd Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/savognin-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨沃宁</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Savognin</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rspb-cymru-ynys-lawd\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    R\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">RSPB威尔士南栈自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">RSPB Cymru Ynys Lawd / South Stack Cliffs RSPB Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/karpenisi-greece\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔派尼西</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Karpenisi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "henrhyd-falls",
-          "name": "亨利德瀑布",
-          "englishName": "Henrhyd Falls"
+          "slug": "rspb-cymru-ynys-lawd",
+          "name": "RSPB威尔士南栈自然保护区",
+          "englishName": "RSPB Cymru Ynys Lawd / South Stack Cliffs RSPB Reserve"
         },
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "karpenisi-greece",
+          "name": "卡尔派尼西",
+          "englishName": "Karpenisi"
         },
         {
-          "slug": "savognin-village",
-          "name": "萨沃宁",
-          "englishName": "Savognin"
+          "slug": "charter-boat-wales",
+          "name": "威尔士包船游",
+          "englishName": "Charter Boat Wales"
         }
       ]
     }

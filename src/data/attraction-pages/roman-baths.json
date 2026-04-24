@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "巴斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "罗马浴场",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "罗马浴场・The Roman Baths・英国・巴斯",
-    "description": "第一次站在罗马浴场那个被淡绿色温泉水填满的大浴池旁时，我差点以为自己走进了某个蒸汽朋克电影的布景。硫磺味儿并不刺鼻，反而像一层薄薄的时间保鲜膜覆盖在空气里，让两千年前的热气、汗水和草药香都凝固在此刻。头顶是英格兰特有的铅灰色天空，阳光偶尔从云缝里漏下来，照在水面上，能看见一层肉眼可见的薄雾升腾起来，缠绕在那些罗马柱和维多利亚雕塑之间。旁边巴斯修道院的钟声每隔一刻钟就会沉闷地响起，和浴场里游客压低嗓门的惊叹声混在一起，形成一种奇妙的嗡鸣。\n我站在边缘往下看，池底那些被水流磨损了千年的铅板泛着幽幽的光，几枚现代人丢进去的硬币在绿色的水下反射出银白色的斑点。工作人员穿着19世纪风格的制服，站在各个路口维持秩序，但他们的表情很松弛，不像是在守护什么神圣遗迹，倒像是自家后花园的管理员。最让人入迷的是那些从墙壁里汩汩流出的热水，它们沿着两千年前设计好的渠道滑落，发出咕噜咕噜的声响，就像这座石头建筑在哮喘。\n从大浴池往旁边的更衣室走，光线一下子暗下来，石阶被无数双脚磨得光滑如镜。墙壁上那些罗马人留下的涂鸦刻得很浅，但仔细看能发现字母和图案，大多是某位角斗士的名字或者痴情汉留下的表白。我记得有个导游说，那些涂鸦里甚至包含着一些我们现在都还没破译的密码，就像古代人在用他们自己的方式给未来的来访者留线索。这种“日常感”比任何宏大的历史叙述都更打动我，它让一群早已消失的大活人变得触手可及。\n走到最深处的小圣泉池，游客终于稀少起来。泉水从底部的泉眼翻涌上来，发出沉闷的咕嘟声，像大地在打嗝。这里曾经是凯尔特人祭祀女神的地方，后来罗马人征服后把苏利斯女神和罗马的密涅瓦合二为一，建了这个浴场。水面上升腾的蒸汽在石头拱顶上凝结成水珠，然后滑落下来砸在池边的地面上，啪嗒啪嗒的节奏异常规律。我蹲下来伸手试了试水温，大约四十六度，正好是让人微微出汗又不烫手的温度。那一刻我忽然理解了为什么罗马人要把这里视为神圣之地——当你在一个凉飕飕的阴雨天走进一个永远冒着热气的温泉，很难不产生某种朝圣般的敬畏感。"
+    "description": "第一次站在罗马浴场那个被淡绿色温泉水填满的大浴池旁时，我差点以为自己走进了某个蒸汽朋克电影的布景。硫磺味儿并不刺鼻，反而像一层薄薄的时间保鲜膜覆盖在空气里，让两千年前的热气、汗水和草药香都凝固在此刻。头顶是英格兰特有的铅灰色天空，阳光偶尔从云缝里漏下来，照在水面上，能看见一层肉眼可见的薄雾升腾起来，缠绕在那些罗马柱和维多利亚雕塑之间。旁边巴斯修道院的钟声每隔一刻钟就会沉闷地响起，和浴场里游客压低嗓门的惊叹声混在一起，形成一种奇妙的嗡鸣。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llywelyn-ap-gruffydd-fychan-statue\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卢\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llywelyn Ap Gruffydd Fychan (Welsh Warrior) Statue</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museum-on-the-mound\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    土\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">土墩博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museum on the Mound</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-andrews-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣安德鲁斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Andrews Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/powis-castle-and-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波伊斯城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Powis Castle and Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/london-eye\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伦敦眼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">London Eye</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "llywelyn-ap-gruffydd-fychan-statue",
-          "name": "卢埃林·阿普·格鲁菲兹·菲尚（威尔士战士）雕像",
-          "englishName": "Llywelyn Ap Gruffydd Fychan (Welsh Warrior) Statue"
+          "slug": "st-andrews-castle",
+          "name": "圣安德鲁斯城堡",
+          "englishName": "St Andrews Castle"
         },
         {
-          "slug": "museum-on-the-mound",
-          "name": "土墩博物馆",
-          "englishName": "Museum on the Mound"
+          "slug": "powis-castle-and-garden",
+          "name": "波伊斯城堡与花园",
+          "englishName": "Powis Castle and Garden"
         },
         {
-          "slug": "llyn-brianne-viewpoint",
-          "name": "布莱恩湖观景台",
-          "englishName": "Llyn Brianne Viewpoint"
+          "slug": "london-eye",
+          "name": "伦敦眼",
+          "englishName": "London Eye"
         }
       ]
     }

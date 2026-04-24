@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "庞特威德 (Ponterwyd)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "银山体验",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "银山体验・Silver Mountain Experience・英国・庞特威德 (Ponterwyd)",
-    "description": "第一次站在银山体验的入口，你根本不会觉得这是什么了不起的景点——就是一栋灰扑扑的石头平房，门口支着几把生锈的铁镐，墙上的白色油漆被威尔士的雨水侵蚀得斑斑驳驳。但别被这寒酸的外表骗了。掀开那扇厚重的铁皮门，走进昏暗的接待厅，空气中立刻传来一股混合着潮气、铁锈和旧木头的气味，呼吸时能感觉到一种奇怪的重量——那是地下洞穴特有的、带着矿物颗粒感的湿润。墙上的老照片里，满脸煤灰的孩子们瞪着空洞的大眼睛，你这才意识到，接下来要踏进的不是什么主题乐园，而是一座真实上演过悲欢离合的矿井。\n向导是个本地大叔，姓埃文斯，说话带着浓重的威尔士口音，每句话结尾都像在唱歌。他发给你一顶黄色的安全帽，帽檐上的探照灯泛着暖黄色的光，帽带紧紧勒住下巴的那一刻，你突然觉得自己真的成了即将下井的矿工。推开背后那道用橡木加固的门，一股夹杂着石粉和硝烟味的热风扑面而来，脚下是湿漉漉的碎石路面，头顶的岩壁上渗着水珠，在灯光下一闪一闪的，像无数只眼睛在盯着你。真正震撼的是走进主矿道的那一瞬间——探照灯的光束只能照亮前方两三米，远处是无尽的黑暗，浓稠得像墨汁一样，你第一次知道什么叫做“伸手不见五指”。\n矿道里安静得可怕，只有水滴从钟乳石上坠落的滴答声，以及远处隐隐传来的低沉的轰鸣声——那是地下水还在深处涌动。埃文斯关掉所有头灯，让你体验一个矿工每天要面对的情景：绝对的、令人窒息的黑暗。那黑暗不光是视觉上的空白，更像一层厚重的绒布裹住你的全身，挤压你的耳膜，你甚至能听到自己心脏的跳动声在岩壁间回荡。五秒钟，十秒钟，每一秒都像是熬过了一世纪。然后他重新打开灯，指着岩壁上那些用红色油漆标注的矿石线，开始讲述一个叫汤姆的小男孩的故事——那个男孩七岁就跟着父亲下井，每天在矿道里爬行十几公里，只为了敲下一小块银矿石去换一个面包。\n真正打动人的并不是那些银锭或采矿工具，而是埃文斯在讲解时偶尔流露出的那种平静的敬意。他会在某块岩壁前突然沉默，用手掌贴着冰凉的石头，说这里曾经塌方，压死了五个矿工，最小的才十四岁。那一刻，你不再觉得这是一个旅游景点，而是一座活着的纪念碑，每一道裂缝都刻着一声叹息。地面上的展览馆里，你还能闻到当年矿工肥皂的味道——那种混合着羊脂和草木灰的粗糙肥皂，挂在铁钩上，积着半个世纪的灰。整个银山体验的核心魅力，就是让你在黑暗、潮湿和沉默中，自己找到那种属于苦难与尊严的光。"
+    "description": "第一次站在银山体验的入口，你根本不会觉得这是什么了不起的景点——就是一栋灰扑扑的石头平房，门口支着几把生锈的铁镐，墙上的白色油漆被威尔士的雨水侵蚀得斑斑驳驳。但别被这寒酸的外表骗了。掀开那扇厚重的铁皮门，走进昏暗的接待厅，空气中立刻传来一股混合着潮气、铁锈和旧木头的气味，呼吸时能感觉到一种奇怪的重量——那是地下洞穴特有的、带着矿物颗粒感的湿润。墙上的老照片里，满脸煤灰的孩子们瞪着空洞的大眼睛，你这才意识到，接下来要踏进的不是什么主题乐园，而是一座真实上演过悲欢离合的矿井。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rhossili-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗西里湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rhossili Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-museum-of-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰国立博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Museum of Scotland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/portmeirion-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波特梅里恩灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portmeirion Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-british-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大英博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The British Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "rhossili-bay",
-          "name": "罗西里湾",
-          "englishName": "Rhossili Bay"
+          "slug": "colin-mcrae-cray-corner",
+          "name": "科林·麦克雷弯道",
+          "englishName": "Colin McRae's Cray Corner"
         },
         {
-          "slug": "national-museum-of-scotland",
-          "name": "苏格兰国立博物馆",
-          "englishName": "National Museum of Scotland"
+          "slug": "the-british-museum",
+          "name": "大英博物馆",
+          "englishName": "The British Museum"
         },
         {
-          "slug": "portmeirion-lighthouse",
-          "name": "波特梅里恩灯塔",
-          "englishName": "Portmeirion Lighthouse"
+          "slug": "aberpergum-mine",
+          "name": "阿伯珀古姆煤矿",
+          "englishName": "Aberpergum Mine"
         }
       ]
     }

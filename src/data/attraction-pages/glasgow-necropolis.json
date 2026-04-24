@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥大墓地",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格拉斯哥大墓地・Glasgow Necropolis・英国・格拉斯哥",
-    "description": "第一次听说有人把墓地当做旅行目的地，我跟你反应一模一样。但当我真正站在格拉斯哥大墓地入口的铁艺大门前时，那种诡异的美感立刻击穿了我所有的预判。那是一个秋日午后，斜阳把大教堂的石壁染成蜂蜜色，我沿着一条称为“悲伤之桥”的窄桥走过去，桥下是哗哗作响的格拉斯哥墓地溪流。桥的名字起得真好，因为跨过它，就从活人的世界走进了死人的城市。\n入口处没有阴森的感觉，反而像走进了一座巨大的露天雕塑公园。空气里漂浮着潮湿的苔藓味和泥土的甜腥，偶尔飘来附近面包房烤制的黄油香。脚下是沿着山坡盘旋的石板路，两旁的墓碑层层叠叠，几乎每一座都是一件独立的艺术品。有的墓碑是折断的柱子象征生命戛然而止，有的雕着安睡的天使翅膀微张，还有的干脆做成一座微型希腊神庙，门廊里立着逝者的白色半身像，眼神空洞地凝视着远方的城市天际线。\n最让我难忘的是声音。这里不安静，反而很热闹。乌鸦在教堂的尖顶和墓碑的十字架之间来回聒噪，松鼠在刻着名字的石头间窜来窜去，远处还能听到格拉斯哥城市的引擎声和偶尔的火车汽笛。但所有这些声响，在穿过墓地起伏的地形和一万座墓碑后，都变得遥远而模糊。我发现自己开始不自觉地放慢脚步，压低声音，好像怕吵醒谁一样。几个当地人在慢跑，他们经过一座巨大方尖碑时甚至会点头致意，那画面莫名有温度。\n爬到墓地最高处的约翰·诺克斯雕像前，整个格拉斯哥一览无余。碧绿的皇家信鸽广场在左，哥特复兴的格拉斯哥大教堂在右，远处克莱德河蜿蜒着穿过现代建筑的玻璃幕墙。那一刻我忽然明白，格拉斯哥人把逝者埋在城市最高的地方，不是出于恐惧，而是出于一种深深的眷恋——即使离世了，也要让他们继续看着这座他们曾经奋斗过的城市，看着它日夜不息地运转。这种生死不离的浪漫，比任何教堂的布道都要动人。"
+    "description": "第一次听说有人把墓地当做旅行目的地，我跟你反应一模一样。但当我真正站在格拉斯哥大墓地入口的铁艺大门前时，那种诡异的美感立刻击穿了我所有的预判。那是一个秋日午后，斜阳把大教堂的石壁染成蜂蜜色，我沿着一条称为“悲伤之桥”的窄桥走过去，桥下是哗哗作响的格拉斯哥墓地溪流。桥的名字起得真好，因为跨过它，就从活人的世界走进了死人的城市。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ffridd-faldwyn-iron-age-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里德法尔德文铁器时代山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ffridd Faldwyn Iron Age Hillfort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bwlch-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔赫山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bwlch Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceannabeinne-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    喜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">喜纳本海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ceannabeinne Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "ffridd-faldwyn-iron-age-hillfort",
-          "name": "弗里德法尔德文铁器时代山堡",
-          "englishName": "Ffridd Faldwyn Iron Age Hillfort"
+          "slug": "bryntail-lead-mine-buildings",
+          "name": "布林泰尔铅矿建筑",
+          "englishName": "Bryntail Lead Mine Buildings"
         },
         {
-          "slug": "bwlch-mountain",
-          "name": "布尔赫山",
-          "englishName": "Bwlch Mountain"
+          "slug": "dunrobin-castle",
+          "name": "邓罗宾城堡",
+          "englishName": "Dunrobin Castle"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "ceannabeinne-beach",
+          "name": "喜纳本海滩",
+          "englishName": "Ceannabeinne Beach"
         }
       ]
     }

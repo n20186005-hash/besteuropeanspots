@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "班戈（Bangor）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯托里尔博物馆与艺术画廊",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯托里尔博物馆与艺术画廊・Storiel・英国・班戈（Bangor）",
-    "description": "我第一次见到斯托里尔时，其实是有点失望的。它藏在班戈一条安静得几乎让人忘记时间的老街上，外观是那种暗沉沉的维多利亚砂岩，除了门楣上隐约可见的“Storiel”字样，简直像一座普通的老式邮局。推门进去的时候，门轴发出一声有些古老的吱呀，空气里混杂着旧木地板、干透了的颜料和某种淡淡的杀菌剂的味道——那气味像极了英国所有乡间博物馆的标配。但就在我犹豫要不要转身去海边溜达的时候，迎面看见了一整面墙的威尔士毛毯。那些粗粝的羊毛纹理在顶灯下翻着深蓝、锈红和橄榄绿的波浪，仿佛无数个古老故事正从纤维里慢慢渗出。我瞬间被钉在原地。\n再往里走，光线突然暗了下来。右手边是一个模拟矿道的小展厅，头顶的煤灯摇晃着投下昏黄的光斑，耳畔循环播放着矿工们用威尔士语唱的劳动号子。那种低沉、带些沙哑的声音像是从地底深处涌上来的，你几乎能闻到潮湿的煤灰味和汗水咸涩的气息。拐过弯去，一幅巨大的当代抽象画突然撞进眼帘——火红色的颜料像熔岩一样从画布上流淌下来，旁边却挂着几排精致的威尔士情诗刺绣。这种碰撞太魔幻了：你刚在脑海中勾勒出工业时代的沉重，下一秒就被现代艺术家拉进一场关于身份与族群的温柔抗议中。\n二楼的光线完全不同。画廊区域有大片北向的玻璃天窗，光落在白色墙壁上，柔得像被筛过的奶霜。这里陈列着威尔士当代陶艺和玻璃制品，每一件都像被大海冲刷过的卵石，圆润但暗含锋芒。我最爱一个叫“Y Llan”的小型展厅，里面只有三把椅子、一盏灯和一面镜子——却用极简的方式还原了威尔士老式客厅的氛围。坐在那把吱吱作响的榉木椅上，你感觉自己随时会听到门铃响，然后是祖母端着茶盘走过来的脚步声。\n但斯托里尔最打动人心的，是它毫不费力地让当地人成为主角。周末经常有老人带着孙子在木偶展区静静坐着，他们指着某个布偶说“这个你爷爷小时候也有”。也有年轻画家抱着速写本躲进角落，临摹墙上那幅1900年的海景。博物馆像一个会呼吸的盒子，吞下了整个威尔士北部的光阴，然后又温和地吐出来给你看。"
+    "description": "我第一次见到斯托里尔时，其实是有点失望的。它藏在班戈一条安静得几乎让人忘记时间的老街上，外观是那种暗沉沉的维多利亚砂岩，除了门楣上隐约可见的“Storiel”字样，简直像一座普通的老式邮局。推门进去的时候，门轴发出一声有些古老的吱呀，空气里混杂着旧木地板、干透了的颜料和某种淡淡的杀菌剂的味道——那气味像极了英国所有乡间博物馆的标配。但就在我犹豫要不要转身去海边溜达的时候，迎面看见了一整面墙的威尔士毛毯。那些粗粝的羊毛纹理在顶灯下翻着深蓝、锈红和橄榄绿的波浪，仿佛无数个古老故事正从纤维里慢慢渗出。我瞬间被钉在原地。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/clydach-gorge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱达赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Clydach Gorge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/northernmost-point-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士最北点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Northernmost Point of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/mumbles-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西湾曼布尔斯灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mumbles Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-real-mary-kings-close\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    真\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">真正的玛丽金小巷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Real Mary King's Close</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/portmeirion-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波特梅里恩灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portmeirion Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "clydach-gorge",
-          "name": "克莱达赫峡谷",
-          "englishName": "Clydach Gorge"
+          "slug": "mumbles-lighthouse",
+          "name": "斯旺西湾曼布尔斯灯塔",
+          "englishName": "Mumbles Lighthouse"
         },
         {
-          "slug": "northernmost-point-of-wales",
-          "name": "威尔士最北点",
-          "englishName": "Northernmost Point of Wales"
+          "slug": "the-real-mary-kings-close",
+          "name": "真正的玛丽金小巷",
+          "englishName": "The Real Mary King's Close"
         },
         {
-          "slug": "borth",
-          "name": "博斯",
-          "englishName": "Borth"
+          "slug": "portmeirion-lighthouse",
+          "name": "波特梅里恩灯塔",
+          "englishName": "Portmeirion Lighthouse"
         }
       ]
     }

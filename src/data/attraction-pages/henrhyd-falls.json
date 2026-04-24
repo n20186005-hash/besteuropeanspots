@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "亨利德瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "亨利德瀑布・Henrhyd Falls・英国・布雷肯",
-    "description": "第一次听见Henrhyd Falls，是在威尔士一个阴雨的清晨。我从布雷肯镇出发，沿着A4067公路向南，车窗外的风景从起伏的丘陵变成深邃的峡谷，路边的树木越来越密，光线越来越暗。GPS显示我已到Coelbren村，可我停下车，只看到一片安静的田野和几间石屋。我怀疑自己走错了，直到一阵低沉的水声从林间传来——不是哗啦啦的瀑布声，而是像远方闷雷一样的持续轰响。我循着声音走去，小径在桤木和橡树间蜿蜒，脚下是潮湿的落叶和突出的树根。转过最后一个弯，那股水汽扑面而来，带着泥土、苔藓和微凉的湿气，我忍不住打了个哆嗦。然后我看见了它——那道白色的水帘从黑灰色的砂岩峭壁上纵身跃下，仿佛天空撕开了一道裂口。\n那是一个略显阴沉的下午，日光透着云层洒下来，在瀑布顶端形成一圈柔和的光晕。水帘在半空中被岩石撞碎，化作千万颗水珠，像珍珠帘幕般落入下方墨绿色的潭水中。岩壁上的苔藓被浸润得像翡翠一样透亮，蕨类植物从裂缝里伸出来，在风中轻轻摇晃。最令我惊讶的不是瀑布的高度，而是它背后的那个洞穴——水帘后面竟然藏着一个浅浅的岩洞，洞口被水幕半掩，仿佛某种神秘生物的家。我站在瀑布正前方的石头上，溅起的水花打湿了我的外套，空气中弥漫着负离子的清新气味，每一次呼吸都感觉肺叶被清洗干净了。\n当地人说，在威尔士语中，“Henrhyd”意为“古老的渡口”，但这里其实并没有渡口，只有瀑布反复冲刷出的深潭。很少有人知道，这座瀑布在2012年因为一部电影火遍全球。当克里斯托弗·诺兰在这儿拍摄《黑暗骑士崛起》时，他看中了这个与世隔绝的洞穴——瀑布就是蝙蝠洞的入口。现在，你站在这里可能会想象蝙蝠侠从背后破水而出，带着披风划破水幕。但更打动我的，是瀑布本身那种沉默的庄严。它不急于展示自己的壮观，只是日复一日地落下，把水流磨碎成雾，把岩石磨出沟槽，把时间凝固在这一刻。\n我找了个平坦的石头坐下来，看着水帘发呆。偶尔有徒步者从身边经过，大家都不说话，只是抬头望着那道白练。一个大约七十岁的当地老人牵着一条拉布拉多犬走过来，他指着瀑布背后的裂缝说，很久以前有个牧师为了躲避追捕，就藏在那个洞里，靠着瀑布声掩盖了追兵的马蹄声。我不知道这个故事有多少真实性，但在这个瞬间，我相信它是真的。这座瀑布就像一个时间的容器，把威尔士的山野记忆、神话传说和好莱坞的梦境都装在里面，而每一位来访者都能在轰鸣的水声中找到属于自己的那一小片静谧。"
+    "description": "第一次听见Henrhyd Falls，是在威尔士一个阴雨的清晨。我从布雷肯镇出发，沿着A4067公路向南，车窗外的风景从起伏的丘陵变成深邃的峡谷，路边的树木越来越密，光线越来越暗。GPS显示我已到Coelbren村，可我停下车，只看到一片安静的田野和几间石屋。我怀疑自己走错了，直到一阵低沉的水声从林间传来——不是哗啦啦的瀑布声，而是像远方闷雷一样的持续轰响。我循着声音走去，小径在桤木和橡树间蜿蜒，脚下是潮湿的落叶和突出的树根。转过最后一个弯，那股水汽扑面而来，带着泥土、苔藓和微凉的湿气，我忍不住打了个哆嗦。然后我看见了它——那道白色的水帘从黑灰色的砂岩峭壁上纵身跃下，仿佛天空撕开了一道裂口。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skanor-falsterbo-villages\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯堪诺与法尔斯特布双子镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skanör-Falsterbo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fonmon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    方\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">方蒙城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fonmon Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kolasin-montenegro\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科拉欣</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kolašin</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/staffa-national-nature-reserve-fingals-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    芬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">芬戈尔洞（斯塔法岛国家自然保护区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staffa National Nature Reserve - Fingal's Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/roald-dahl-plass\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗尔德·达尔广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roald Dahl Plass</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pierhead-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔海德大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pierhead Building</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "skanor-falsterbo-villages",
-          "name": "斯堪诺与法尔斯特布双子镇",
-          "englishName": "Skanör-Falsterbo"
+          "slug": "staffa-national-nature-reserve-fingals-cave",
+          "name": "芬戈尔洞（斯塔法岛国家自然保护区）",
+          "englishName": "Staffa National Nature Reserve - Fingal's Cave"
         },
         {
-          "slug": "fonmon-castle",
-          "name": "方蒙城堡",
-          "englishName": "Fonmon Castle"
+          "slug": "roald-dahl-plass",
+          "name": "罗尔德·达尔广场",
+          "englishName": "Roald Dahl Plass"
         },
         {
-          "slug": "kolasin-montenegro",
-          "name": "科拉欣",
-          "englishName": "Kolašin"
+          "slug": "pierhead-building",
+          "name": "皮尔海德大楼",
+          "englishName": "Pierhead Building"
         }
       ]
     }

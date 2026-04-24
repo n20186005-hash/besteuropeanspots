@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯 / 鲍斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "伊尼斯拉斯国家自然保护区",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "伊尼斯拉斯国家自然保护区・Ynyslas National Nature Reserve・英国・阿伯里斯特威斯 / 鲍斯",
-    "description": "第一次站在伊尼斯拉斯实属偶然，自驾到鲍斯村时被路边一块不起眼的木牌吸引，转进去才发现停车场尽头竟通向一片完全不同的世界。踏上通往海滩的木栈道时，风立刻裹挟着沙粒扑上脸颊，带着咸涩的海水味和暖烘烘的松脂香。木栈道两侧的沙丘高耸，围成一道金黄色的迷宫，走在里面只能听到自己踩在木板上的嘎吱声和远方海浪沉闷的咆哮。偶尔有海鸥从头顶滑过，尾羽刷过空气发出细碎声响，像在提醒我别迷失在这片流沙王国。\n绕过最后一个沙丘弯道，视野骤然开阔——灰蓝色的卡迪根湾铺展到天边，浪头裹着泡沫一层层冲上平坦的沙滩，退潮后裸露出大片的泥泞滩涂，上面点缀着镜子般的水洼，反射着云层的碎影。这里的海滩与传统度假地完全不同，没有遮阳伞和冰淇淋摊，只有零星的几个遛狗人和一对老夫妻坐在沙丘上安静地看着地平线。最震撼的是滩涂上那些黑黢黢的树桩，三三两两地从沙面冒出，有些还带着分叉的枝干，经过海水千年浸泡已经乌亮如铁。走近看，树桩上缠绕着海藻，根部深深扎进曾经的泥土中，如今却被海浪和沙砾掩埋了一半，仿佛是从另一个纪元伸出的手臂。\n在伊尼斯拉斯，时间以不同的尺度流逝。涨潮时海水会漫过这片低矮的森林遗迹，整片滩涂变成汪洋，那些树桩则消失在海浪之下。退潮后它们再次浮现，每次露面都带着更深的皱纹。我穿着冲锋衣坐在沙滩上看了很久，海风灌进衣领，头顶云朵在天空快速地流动。突然有一只灰蓝色的鹭鸟缓慢飞过，翅膀几乎擦过水面，它的倒影在浅水中划过一道波纹，然后消失了。那一刻海滩空旷极了，只剩风声和水声，我感受到一种前所未有的宁静，好像自己也被这片荒野吞没，变成一个不重要却自由的存在。\n真正打动我的是这里的人和自然的共振。一位当地老人在收集退潮后留下的海玻璃，他告诉我，每逢大潮，海水会翻出更古老的物件——石器时代的鹿角、中世纪马匹的骨头、甚至罗马时代的陶片。但他说最珍贵的还是那些树桩，它们让他想起镇上老人们口耳相传的故事：这里曾经是一片茂密的橡树林，与通向威尔士腹地的森林连成一片，海水吞噬一切只用了三代人的时间，而他的祖父的祖父就在那场灾难中失去了农田。我听着，看着远处沙丘上被风吹起的金白色细沙，忽然觉得脚下这片滩涂不仅是风景，更是写在大地上的史书。"
+    "description": "第一次站在伊尼斯拉斯实属偶然，自驾到鲍斯村时被路边一块不起眼的木牌吸引，转进去才发现停车场尽头竟通向一片完全不同的世界。踏上通往海滩的木栈道时，风立刻裹挟着沙粒扑上脸颊，带着咸涩的海水味和暖烘烘的松脂香。木栈道两侧的沙丘高耸，围成一道金黄色的迷宫，走在里面只能听到自己踩在木板上的嘎吱声和远方海浪沉闷的咆哮。偶尔有海鸥从头顶滑过，尾羽刷过空气发出细碎声响，像在提醒我别迷失在这片流沙王国。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/great-wedlock-farm-deer-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大韦德洛克农场与鹿园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Great Wedlock Farm & Deer Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dalmeny-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达尔梅尼庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dalmeny House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dinorwic-slate-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪诺威奇板岩矿场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinorwic Slate Quarry</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dyfi-osprey-project\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戴菲鱼鹰保护项目</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dyfi Osprey Project</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kelvingrove-art-gallery-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯尔文格罗夫美术馆和博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kelvingrove Art Gallery and Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "great-wedlock-farm-deer-park",
-          "name": "大韦德洛克农场与鹿园",
-          "englishName": "Great Wedlock Farm & Deer Park"
+          "slug": "dyfi-osprey-project",
+          "name": "戴菲鱼鹰保护项目",
+          "englishName": "Dyfi Osprey Project"
         },
         {
-          "slug": "dalmeny-house",
-          "name": "达尔梅尼庄园",
-          "englishName": "Dalmeny House"
+          "slug": "kelvingrove-art-gallery-museum",
+          "name": "凯尔文格罗夫美术馆和博物馆",
+          "englishName": "Kelvingrove Art Gallery and Museum"
         },
         {
-          "slug": "dinorwic-slate-quarry",
-          "name": "迪诺威奇板岩矿场",
-          "englishName": "Dinorwic Slate Quarry"
+          "slug": "castell-dinefwr",
+          "name": "迪内弗尔城堡",
+          "englishName": "Castell Dinefwr"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士国家展示洞穴中心",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士国家展示洞穴中心・National Showcaves Centre for Wales・英国・斯旺西",
-    "description": "车子沿着国家公园蜿蜒的山路开，窗外的绿色越来越浓，最后停在一座不起眼的绿色山丘脚下。停车场那边传来孩子们的尖叫声和笑声，混合着风穿过树林的沙沙声。你买了票，顺着一条铺着碎石子的小路走向第一个洞口——Dan yr Ogof。刚踏进去，一股凉飕飕的、带着泥土腥气的空气就扑上脸来，温度瞬间降了快十度，鸡皮疙瘩都起来了。眼前是一个巨大的洞穴大厅，几十米高的穹顶像被巨人挖空了一样，钟乳石从上面垂下来，有些粗得像树干，有些细得像冰柱。灯光打在它们身上，橘黄、淡蓝、粉红，把岩石照得像一座超现实的地下宫殿。脚下是湿漉漉的木制步道，脚踩上去会有轻微的嘎吱声，远处能听到水滴“叮咚”落进地下河的声音，空灵又悠长。\n走深一点，你会经过一个巨大的恐龙展厅。这里不是博物馆那种隔着玻璃看的化石，而是1:1复原的模型放在洞穴里，霸王龙张着大嘴，三角龙低着头吃草，翼龙悬在头顶，背景灯打得很暗，配合着低沉的模拟吼叫声，有种侏罗纪公园的既视感。小朋友会兴奋得拉着你的手来回跑，大人也会忍不住掏出手机狂拍。我记得有个小男孩仰头问妈妈：“这些恐龙是真的吗？” 妈妈笑着回答：“它们以前就住在这里呀。” 那种似真似幻的氛围，让你觉得下一秒洞里真的会传来脚步声。\n再往里走，就是整个景点里我最爱的地方——水晶洞。这里和前面黑乎乎的洞穴完全不同，墙壁上密密麻麻布满了方解石结晶体，在紫外线灯的照射下，闪烁着幽蓝、淡紫和银白色的光芒，像银河坠入了地底。你凑近一点，能看清那些小晶簇扎得密密麻麻，用手电筒一照，每一颗都折射出彩虹。我在那儿站了很久，关掉手机，闭上眼睛，只听见远处滴水的回声和自己心跳的声音，那种寂静不是死寂，而是一种充满生命力的沉静，好像整个地球都在这里呼吸。\n最后回到地面，阳光亮得刺眼，空气里飘着咖啡馆飘出的培根香味和草地上晒着太阳的游客的闲聊声。这个景点最打动我的不是某一块特别惊人的钟乳石，而是它把自然奇观、远古生命和现代人的好奇无缝地连接了起来。它不是那种庄严到让你不敢出声的大教堂，而是一个可以让你脱掉外套、蹲下来摸一摸石笋、让孩子尖叫奔跑的巨大游乐园。在威尔士这安静的山谷里，藏着地表最生动的地下世界。"
+    "description": "车子沿着国家公园蜿蜒的山路开，窗外的绿色越来越浓，最后停在一座不起眼的绿色山丘脚下。停车场那边传来孩子们的尖叫声和笑声，混合着风穿过树林的沙沙声。你买了票，顺着一条铺着碎石子的小路走向第一个洞口——Dan yr Ogof。刚踏进去，一股凉飕飕的、带着泥土腥气的空气就扑上脸来，温度瞬间降了快十度，鸡皮疙瘩都起来了。眼前是一个巨大的洞穴大厅，几十米高的穹顶像被巨人挖空了一样，钟乳石从上面垂下来，有些粗得像树干，有些细得像冰柱。灯光打在它们身上，橘黄、淡蓝、粉红，把岩石照得像一座超现实的地下宫殿。脚下是湿漉漉的木制步道，脚踩上去会有轻微的嘎吱声，远处能听到水滴“叮咚”落进地下河的声音，空灵又悠长。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/arosa-switzerland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿罗萨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arosa</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/andernach-medieval-town-cold-water-geyser\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安德纳赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andernach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-kirkyard-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗里亚教堂墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Kirkyard Cemetery Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/galicnik-traditional-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加利奇尼克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Galičnik</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "arosa-switzerland",
-          "name": "阿罗萨",
-          "englishName": "Arosa"
+          "slug": "galicnik-traditional-village",
+          "name": "加利奇尼克",
+          "englishName": "Galičnik"
         },
         {
-          "slug": "andernach-medieval-town-cold-water-geyser",
-          "name": "安德纳赫",
-          "englishName": "Andernach"
+          "slug": "llandudno-bandstand",
+          "name": "兰迪德诺音乐台",
+          "englishName": "Llandudno Bandstand"
         },
         {
-          "slug": "greyfriars-kirkyard-edinburgh",
-          "name": "格雷弗里亚教堂墓地",
-          "englishName": "Greyfriars Kirkyard Cemetery Edinburgh"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         }
       ]
     }

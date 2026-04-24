@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰迪德诺",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰迪德诺滨海步道",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "兰迪德诺滨海步道・Llandudno Promenade・英国・兰迪德诺",
-    "description": "我至今还记得第一次踏上兰迪德诺滨海步道时的感受。那天下午四点，天空没有一片云，但海风却带着一股咸涩的清凉，直接灌进我的每一根头发丝里。步道不是那种冷冰冰的混凝土路，而是由无数块带有凹槽的浅灰色石头铺成，每一块石头都被无数双脚和海水打磨得发亮，在傍晚的阳光里泛着一层柔软的光。我的靴子踩上去，发出极轻微的咯吱声，和远处海浪一下一下拍在鹅卵石上的节奏交织在一起，像某种古老的、永不停歇的呼吸。\n步道的一侧是维多利亚式的白色旅馆，它们像一排穿着正装的老绅士，戴着精致的铸铁阳台“领结”，优雅地注视着大海。另一侧是宽阔的沙滩，上面散落着五颜六色的遮阳伞和塑料桶小铲子。孩子们在沙滩上尖叫着追逐，老夫妇裹着羊毛毯坐在躺椅上看书，空气里混合着炸鱼薯条的油脂香气和防晒霜的化学甜味。这些画面并不刻意，甚至有些凌乱，但组合起来却意外地温暖。我站在步道中央，风吹动着我的衣角，我突然意识到，这里不是供人走马观花的“景点”，而是一个真实的、仍在呼吸的海滨生活空间。\n打动人心的核心魅力在于它的永恒感。沿着步道从西端走到东端，你会看到一切似乎都跟我祖母小时候来度假时一模一样。卖冰淇淋的推车唱着同样的调子，那条通往大奥姆角的缆车还在慢悠悠地爬升，就连那几座铸铁喷泉都还在哗哗响着。这里的节奏很慢，慢到你会怀疑外面的世界是不是真的在用光速运转。在步道中段的长椅上坐下来，看着潮水一点点涨起来，将沙滩上孩子们用沙子堆的城堡温柔地冲平，你会觉得时间像被海水稀释了一样，变得黏稠而平静。\n黄昏时分，是步道最神圣的时刻。夕阳将大奥姆角的石灰岩悬崖染成了蜂蜜色，影子在水面上拉得极长，像是要给这一天画上一个温柔的句号。步道上的铸铁灯柱依次亮起，那是一种温暖的橙黄色光芒，跟现代城市刺眼的白炽灯完全不同，它们打在青灰色的步道上，投出细碎的光斑。你能听到远处酒吧里传来的闲聊声和闷笑声，夹杂着海鸥不耐烦的叫声，以及某个游客手里的冰激凌蛋筒破碎时的脆响。那一刻，我忽然理解了威尔士人为什么把这里当作灵魂的故乡。"
+    "description": "我至今还记得第一次踏上兰迪德诺滨海步道时的感受。那天下午四点，天空没有一片云，但海风却带着一股咸涩的清凉，直接灌进我的每一根头发丝里。步道不是那种冷冰冰的混凝土路，而是由无数块带有凹槽的浅灰色石头铺成，每一块石头都被无数双脚和海水打磨得发亮，在傍晚的阳光里泛着一层柔软的光。我的靴子踩上去，发出极轻微的咯吱声，和远处海浪一下一下拍在鹅卵石上的节奏交织在一起，像某种古老的、永不停歇的呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/great-wedlock-farm-deer-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大韦德洛克农场与鹿园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Great Wedlock Farm & Deer Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chester-city-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester City Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scottish-parliament-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish Parliament Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/new-lanark\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新拉纳克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Lanark</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "great-wedlock-farm-deer-park",
-          "name": "大韦德洛克农场与鹿园",
-          "englishName": "Great Wedlock Farm & Deer Park"
+          "slug": "bryn-cader-faner",
+          "name": "布林卡德法纳",
+          "englishName": "Bryn Cader Faner"
         },
         {
-          "slug": "chester-city-walls",
-          "name": "切斯特城墙",
-          "englishName": "Chester City Walls"
+          "slug": "scottish-parliament-building",
+          "name": "苏格兰议会大楼",
+          "englishName": "Scottish Parliament Building"
         },
         {
-          "slug": "conwy-castle",
-          "name": "康威城堡",
-          "englishName": "Conwy Castle"
+          "slug": "new-lanark",
+          "name": "新拉纳克",
+          "englishName": "New Lanark"
         }
       ]
     }

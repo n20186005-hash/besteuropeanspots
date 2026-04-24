@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯凯岛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯利加查古桥",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯利加查古桥・Sligachan Old Bridge・英国・斯凯岛",
-    "description": "第一次见到斯利加查古桥，是在一个雾气弥漫的九月清晨。我把车停在A87公路边的碎石停车场，还没关上车门，一阵夹杂着泥炭和野草气息的湿润山风就扑面而来。三步并作两步走到桥边，脚下的青苔已经覆盖了石头的每一条缝隙，绿得像是从石头内部渗透出来的颜料。桥下斯利加查河的水声不高，却有一种持续的低沉轰隆，像是大地在轻轻呼吸。河水是透亮的茶褐色，因为流经了周围的泥炭沼泽，把阳光过滤成了琥珀色的碎影。\n站在桥中央，你能看到两侧完全不同的风景。一侧是层层叠叠的红褐色库林山脉（Cuillin Hills），山峰像锯齿一样刺破低垂的云层，山顶上还挂着薄薄的雪带，在阴晴不定的光线下忽明忽暗。另一侧则是一片开阔的沼泽平原，散落着风化的岩石、矮小的柳树和绒绒的羊胡子草。偶尔有一只渡鸦“嘎——”地一声划过天际，声音在空旷的山谷里来回弹跳，又迅速被风声吞没。\n最打动我的，是当地人看待这座桥的方式。我遇见一位穿着花呢外套的老牧羊人，他随手把牧羊犬唤到脚边，靠在桥栏上点了一根烟。他告诉我，他爷爷的爷爷就是在这座桥上放羊的，桥下那一小段浅滩，是他小时候的第一个游泳池。他指给我看北边山坡上一条若隐若现的小径，说那是几百年前穿格子裙的部族战士去参加婚礼或葬礼时踩出来的。在他的嘴里，这座桥不是景点，而是生活里一个自然而然的存在，像家门口的一棵树、村头的一条河。这种把历史融入血脉的淡然，比任何标签都更让人动容。\n更神奇的是那个“仙女之水”的传说。老牧羊人神秘地压低嗓音，说如果蹲在桥下水流最湍急的地方，用手捧起河水洗一洗脸，皮肤就会变得像仙女一样永不衰老。我当然没忍住，真的蹲下去试了试——十月的河水冷得像针扎，皮肤瞬间起了鸡皮疙瘩。但说也奇怪，接下来的整个旅程，我的脸上再没有长出新的痘痘，不知是心理作用还是苏格兰的风里真有仙女的祝福。"
+    "description": "第一次见到斯利加查古桥，是在一个雾气弥漫的九月清晨。我把车停在A87公路边的碎石停车场，还没关上车门，一阵夹杂着泥炭和野草气息的湿润山风就扑面而来。三步并作两步走到桥边，脚下的青苔已经覆盖了石头的每一条缝隙，绿得像是从石头内部渗透出来的颜料。桥下斯利加查河的水声不高，却有一种持续的低沉轰隆，像是大地在轻轻呼吸。河水是透亮的茶褐色，因为流经了周围的泥炭沼泽，把阳光过滤成了琥珀色的碎影。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glenfinnan-viaduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦芬南高架桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glenfinnan Viaduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gyrn-ddu\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉恩杜山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gyrn Ddu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/henrhyd-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亨利德瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Henrhyd Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/equestrian-statue-of-the-duke-of-wellington-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    惠\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">惠灵顿公爵骑马雕像（格拉斯哥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Equestrian statue of the Duke of Wellington, Glasgow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/devils-staircase-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    恶\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">恶魔阶梯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Devil's Staircase</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "glenfinnan-viaduct",
-          "name": "格伦芬南高架桥",
-          "englishName": "Glenfinnan Viaduct"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         },
         {
-          "slug": "gyrn-ddu",
-          "name": "吉恩杜山",
-          "englishName": "Gyrn Ddu"
+          "slug": "equestrian-statue-of-the-duke-of-wellington-glasgow",
+          "name": "惠灵顿公爵骑马雕像（格拉斯哥）",
+          "englishName": "Equestrian statue of the Duke of Wellington, Glasgow"
         },
         {
-          "slug": "henrhyd-falls",
-          "name": "亨利德瀑布",
-          "englishName": "Henrhyd Falls"
+          "slug": "devils-staircase-wales",
+          "name": "恶魔阶梯",
+          "englishName": "Devil's Staircase"
         }
       ]
     }

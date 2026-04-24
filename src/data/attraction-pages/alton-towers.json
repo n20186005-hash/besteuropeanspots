@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯塔福德郡（Staffordshire）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奥尔顿塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "奥尔顿塔・Alton Towers・英国・斯塔福德郡（Staffordshire）",
-    "description": "第一次站在奥尔顿塔的停车场里，我简直不敢相信自己的耳朵——不是尖叫声，而是远处传来的哗啦啦的水声，那是从城堡后面流出来的小溪，混杂着树林里鸟儿的叽喳喳。说实话，我刚来的时候，有点紧张。毕竟小时候在英国念书时，同学总爱讲这个公园的恐怖传说：某个过山车突然停了、某个老宅里闹鬼……但我很快就发现，这些故事都是让体验更刺激的调味料。空气中飘着烤香肠和棉花糖的味道，还有那种让人有点头晕的、过山车经过时产生的金属摩擦味，像在提醒你：别担心，这里就是释放压力的地方。\n当你走近入口，那座城堡像是从童话书里跳出来的——暗灰色的石头墙上爬满了藤蔓，尖塔在午后的阳光下投下长长的阴影。说实话，城堡本身并不高，但它的尖顶和拱门让人想起《哈利·波特》里的霍格沃茨。我注意到门口有一对石狮子，但它们的表情不是威严，更像是在偷笑，好像知道每个游客心里都憋着一股想尖叫的劲儿。城堡正门上方有一块斑驳的盾形标记，原来这是奥尔顿家族的族徽，上面画着一条三叉戟，表示这里曾经是贵族的领地。当地人说，维多利亚女王还在1852年来这里住过一晚，但那年她刚丧夫，所以那晚城堡里特别安静，仆人们连走路都不敢出声。\n进入园区后，我第一个感觉是：像走进了丛林。四处是巨大的橡树和桦树，树根冒出来挡住小路，阳光透过叶子碎成金色斑点在地上跳。空气中弥漫着潮湿的泥土和割过的草的味道，偶尔还会飘来一阵魔幻水世界里的氯气味，混合在一起，让人觉得很有生命力。但最让我震撼的是声音——远处传来此起彼伏的尖叫声，然后突然变成大笑声，接着是过山车呼啸着经过的呼呼声，然后又是一阵安静，只听见树林里鸟叫和游客嚼薯片的嘎嘣声。这种声音的交错，就像在和我说：这里不是单纯的游乐场，而是一个被森林吞没的梦境。\n最打动我的是那种“矛盾感”。你看着城堡，它是那么古老、矜持，像是要和你聊维多利亚时代的晚宴和诗歌，但转眼间，一群大学生尖叫着从旁边的过山车里冲出来，手里举着薯条，笑得东倒西歪。这种历史与疯狂并存的感觉，在其他游乐园根本找不到。当地人告诉我，他们从小就在这里玩，每周末都会来，可能只是为了在花园里走一走，或者在城堡咖啡馆里喝杯茶。我突然明白，奥尔顿塔不只是过山车，它是一种生活方式——让古老的石头墙和现代的尖叫声在同一个空间里跳舞。"
+    "description": "第一次站在奥尔顿塔的停车场里，我简直不敢相信自己的耳朵——不是尖叫声，而是远处传来的哗啦啦的水声，那是从城堡后面流出来的小溪，混杂着树林里鸟儿的叽喳喳。说实话，我刚来的时候，有点紧张。毕竟小时候在英国念书时，同学总爱讲这个公园的恐怖传说：某个过山车突然停了、某个老宅里闹鬼……但我很快就发现，这些故事都是让体验更刺激的调味料。空气中飘着烤香肠和棉花糖的味道，还有那种让人有点头晕的、过山车经过时产生的金属摩擦味，像在提醒你：别担心，这里就是释放压力的地方。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/procurators-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    检\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">检察官之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Procurator's House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monkton-old-hall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙克顿老庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monkton Old Hall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "arthurs-seat",
+          "name": "亚瑟王座",
+          "englishName": "Arthur's Seat"
         },
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "procurators-house",
+          "name": "检察官之家",
+          "englishName": "Procurator's House"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "monkton-old-hall",
+          "name": "蒙克顿老庄园",
+          "englishName": "Monkton Old Hall"
         }
       ]
     }

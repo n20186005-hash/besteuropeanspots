@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰法林 (Llanfyllin)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "皮斯蒂尔·拉厄德尔瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "皮斯蒂尔·拉厄德尔瀑布・Pistyll Rhaeadr・英国・兰法林 (Llanfyllin)",
-    "description": "第一次见到Pistyll Rhaeadr，说实话，我差点没认出它是个瀑布。因为从远处看，它不像水，倒像是一根巨大的、不会断的白色丝线，从一片墨绿色的山崖顶端垂下来，整整齐齐地坠入下面的水潭。空气中弥漫着湿润的水汽和青草的气息，那种带着青草味的湿润感，甚至能渗进你的毛孔里。你还没走近，就能被那股淡淡的水汽包裹。脚下的小路是碎石子铺的，踩在上面沙沙作响，旁边就是一条清澈的小溪，水流的声音清亮而急促，像是它在叽叽喳喳地问你。威尔士的秋天来得早，九月初走在山谷里，就能闻到一股微凉的、带点落叶腐烂的泥土味，特别原始。\n走到瀑布底下的时候，你的下巴会不自觉地张开。不是因为害怕，而是那种纯粹的震撼。水从73米高的地方砸下来，声音大到你们说话得扯着嗓子喊，像是一架低空飞行的波音747就在你头顶盘旋。水汽变成细密的雨雾，尽管你站在几米外，眼镜和头发也瞬间就湿了。如果天气晴好，瀑布下方的水潭上方会挂起一道小小的彩虹，色彩清晰得不像真的。旁边的岩石上有苔藓，摸上去又厚又凉，像一块吸饱了水的天然地毯。这里的空气干净得让你觉得每一次呼吸都是在给肺做保健，不自觉地就想大口吸气。\n这个瀑布在威尔士当地人心中的地位很特别。你不会在这里看到成堆的亚洲游客举着自拍杆，更多的是一家人带着狗来徒步。经常能看到穿着防水冲锋衣的老夫妻手牵着手慢慢走，偶尔会有骑山地车的年轻人从你身边呼啸而过。这里不是那种精心雕琢的旅游景点，而是刻在威尔士人骨子里的自然圣殿。他们从小就被祖辈带来这里，在后来的生命里，无数次回来寻找这种最纯粹的宁静与力量。你甚至能看到有大学生小组拿着一本摄影书，对着瀑布写生，那种安静而专注的氛围，与旁边奔腾的水声形成了奇妙的对比。\n最打动我的，其实是那种无法用语言描绘的流动感。文字和照片都太苍白了，只有当你亲眼看到水的姿态时，才会明白为什么威尔士的吟游诗人会把它写进歌里。水不是直直掉下来的，它在半空中撞到岩石的棱角，被撕扯成无数细碎的银线，然后就那样自由地、放任地坠落。每一个水分子都像是在做一次不负责任的飞翔。你能感受到那种不可阻挡的、原始的力量，也能感受到它落地之后的平静，汇聚成一汪碧绿到发黑的深潭，然后沿着山谷缓缓流走。这就是整个山林的心脏跳动的声音。"
+    "description": "第一次见到Pistyll Rhaeadr，说实话，我差点没认出它是个瀑布。因为从远处看，它不像水，倒像是一根巨大的、不会断的白色丝线，从一片墨绿色的山崖顶端垂下来，整整齐齐地坠入下面的水潭。空气中弥漫着湿润的水汽和青草的气息，那种带着青草味的湿润感，甚至能渗进你的毛孔里。你还没走近，就能被那股淡淡的水汽包裹。脚下的小路是碎石子铺的，踩在上面沙沙作响，旁边就是一条清澈的小溪，水流的声音清亮而急促，像是它在叽叽喳喳地问你。威尔士的秋天来得早，九月初走在山谷里，就能闻到一股微凉的、带点落叶腐烂的泥土味，特别原始。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llangollen-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰戈伦博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llangollen Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kola-in\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科拉欣</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kolašin</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pen-y-fan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩尼范山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen y Fan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/falkland-palace-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    法\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">法克兰宫（福克兰宫）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Falkland Palace & Garden (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
-        {
-          "slug": "llangollen-museum",
-          "name": "兰戈伦博物馆",
-          "englishName": "Llangollen Museum"
-        },
         {
           "slug": "aberpergum-mine",
           "name": "阿伯珀古姆煤矿",
           "englishName": "Aberpergum Mine"
         },
         {
-          "slug": "kola-in",
-          "name": "科拉欣",
-          "englishName": "Kolašin"
+          "slug": "pen-y-fan",
+          "name": "佩尼范山",
+          "englishName": "Pen y Fan"
+        },
+        {
+          "slug": "falkland-palace-garden",
+          "name": "法克兰宫（福克兰宫）",
+          "englishName": "Falkland Palace & Garden (National Trust for Scotland)"
         }
       ]
     }

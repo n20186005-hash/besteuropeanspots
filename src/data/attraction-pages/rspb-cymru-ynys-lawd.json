@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "霍利黑德，安格尔西岛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "RSPB威尔士南栈自然保护区",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "RSPB威尔士南栈自然保护区・RSPB Cymru Ynys Lawd / South Stack Cliffs RSPB Reserve・英国・霍利黑德，安格尔西岛",
-    "description": "当你的车子终于沿着狭窄的乡村公路弯弯绕绕，最后停在一个不起眼的停车场时，你大概还意识不到接下来会看到什么。直到你顺着那条被海风刮得发亮的泥泞小径，拨开一丛丛低矮的荆豆，走到悬崖边缘——那一刻，整个爱尔兰海就这么毫无遮拦地拍在你脸上。风，是第一个迎接你的。它不是温柔的海风，而是带着盐粒和湿气的强劲气流，从大西洋的深处一路狂奔而来，撞上悬崖后再猛地弹开。你会下意识地抓紧帽子和衣领，心里却暗暗兴奋，因为你知道，真正精彩的东西，就藏在这片野性十足的风暴里。\n然后就是声音。这声音不是静谧的，而是震耳欲聋的合唱。几千只海鹦、刀嘴海雀、三趾鸥和暴风鸌的叫声，混杂着海浪拍打岩壁的轰隆声，再被呼啸的海风裹挟着，全部灌进你的耳朵。你站在崖边往下看，原本以为是黑色岩石的地方，其实是密密麻麻的鸟群。它们像铺天盖地的飞镖一样，在悬崖的岩缝间穿梭、滑翔、尖叫。空气里有股淡淡的鱼腥味儿，那是鸟粪和海藻混合发酵后的味道，不算好闻，但你很快会习惯，甚至会把它当作这片奇境的专属气息。\n在南栈，你不再是一个高高在上的旁观者。这里的规则很简单：要么学着和这些长着翅膀的居民和平共处，要么被它们的叽喳声和海浪声轰走。我第一次去的时候，就在那片草地上坐了几个小时，看着一只海鹦叼着满满一嘴小银鱼，笨拙地从我头顶飞过，急匆匆地钻进它地下的巢穴。我的脸被太阳晒得发烫，后背却被海风吹得冰凉，这种感觉很奇妙——身体同时经历着两种极端，就像这个地方本身一样，既狂野又温柔。\n但最让我感动的，是这里的人类痕迹。那座建于1809年的灯塔，白色的塔身像一根悬在空中的蜡烛，孤独地立在离岸边不远的小岛上。要通过一座危险的铁桥才能抵达，桥下是汹涌的海水。我在一个晴朗的傍晚，看着夕阳把灯塔染成橙粉色，想起两百多年前，守塔人每个月都要扛着油桶，在这座摇摇晃晃的铁桥上走过。这一片海，这一片悬崖，这些鸟儿，它们从未改变过自己的节奏，变的是我们人类看待它们的方式——从征服和圈地，到如今的守护和观赏。"
+    "description": "当你的车子终于沿着狭窄的乡村公路弯弯绕绕，最后停在一个不起眼的停车场时，你大概还意识不到接下来会看到什么。直到你顺着那条被海风刮得发亮的泥泞小径，拨开一丛丛低矮的荆豆，走到悬崖边缘——那一刻，整个爱尔兰海就这么毫无遮拦地拍在你脸上。风，是第一个迎接你的。它不是温柔的海风，而是带着盐粒和湿气的强劲气流，从大西洋的深处一路狂奔而来，撞上悬崖后再猛地弹开。你会下意识地抓紧帽子和衣领，心里却暗暗兴奋，因为你知道，真正精彩的东西，就藏在这片野性十足的风暴里。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/leeds-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利兹城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leeds Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunfermline-abbey-and-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓弗姆林修道院与宫殿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunfermline Abbey and Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cotswolds-aonb\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科茨沃尔德地区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cotswolds AONB</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pembrokeshire-llama-sanctuary\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡羊驼保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Llama Sanctuary</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/scott-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    司\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">司各特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scott Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/west-wales-falconry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西威尔士猎鹰中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">West Wales Falconry</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "leeds-castle",
-          "name": "利兹城堡",
-          "englishName": "Leeds Castle"
+          "slug": "pembrokeshire-llama-sanctuary",
+          "name": "彭布罗克郡羊驼保护区",
+          "englishName": "Pembrokeshire Llama Sanctuary"
         },
         {
-          "slug": "dunfermline-abbey-and-palace",
-          "name": "邓弗姆林修道院与宫殿",
-          "englishName": "Dunfermline Abbey and Palace"
+          "slug": "scott-monument",
+          "name": "司各特纪念碑",
+          "englishName": "Scott Monument"
         },
         {
-          "slug": "cotswolds-aonb",
-          "name": "科茨沃尔德地区",
-          "englishName": "Cotswolds AONB"
+          "slug": "west-wales-falconry",
+          "name": "西威尔士猎鹰中心",
+          "englishName": "West Wales Falconry"
         }
       ]
     }

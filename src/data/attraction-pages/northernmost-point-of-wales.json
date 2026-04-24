@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Talacre, Flintshire",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士最北点",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士最北点・Northernmost Point of Wales・英国・Talacre, Flintshire",
-    "description": "我到现在还记得第一次开车去那儿的感觉。导航上的小箭头越走越偏，路两边从绿色的牧场变成了零星的灌木，然后是一望无际的灰色沙丘。海风的味道越来越浓，咸咸的，带着腥味，从车窗缝隙钻进来，瞬间就把车里的闷热吹跑了。终于，路到了尽头——一个朴素得有点过分的停车场，前面是一大片沙滩和低矮的沙丘，沙子被风吹出层层波纹，踩上去软绵绵的，发出咯吱咯吱的声响。远处就是爱尔兰海，灰蓝色的海水在天际线处和铅灰色的云层融在一起，海平线上隐隐约约能看见一艘货轮的轮廓。几只黑色的蛎鹬在滩涂上啄食，发出尖细的叫声。我站在原地愣了好一会儿——这就是威尔士最北的地方？没有纪念碑，没有观景台，甚至连一个指示牌都没有，只有一片被风持续雕刻着的海岸。可偏偏是这种几乎什么都没有的空旷，反而让我心里涌起一股巨大的宁静。\n走近灯塔，海风陡然变得强劲，几乎要把我的外套吹成帆。风里夹杂着细沙，打在脸上有点刺痛，但很真实。我能闻到沙子里混着的海藻味道，还有一丝灯塔铁栏杆上剥落的铁锈味儿。脚下的沙滩渐渐变成湿漉漉的硬沙，那是退潮后留下的。我蹲下来，发现沙面上有密密麻麻的小洞，是一些小螃蟹钻出来的痕迹。灯塔底部的门紧锁着，灰白色的墙漆有些剥落，露出底下红色的底漆，像伤疤一样。我仰头看它，塔身直直地指向天空，黑色的灯室像一只眼睛，沉默地凝视着远方。那一刻，我有种错觉——仿佛这座灯塔不是人造的，而是从大地里长出来的，和海、沙、风一样，成了这片风景的一部分。不远处，一个当地大叔牵着他的两条拉布拉多沿着沙滩慢跑，狗撒欢地冲进海水里，溅起一片白花花的水雾。大叔朝我笑着点了点头，那种笑容里带着一种“你终于找到这儿了”的默契。\n当地人把这里叫做“Point of Ayr”，Ayr在古英语里就是“沙滩”的意思。他们说这是威尔士最后一片没有被过度开发的天然海岸线。每年夏天，附近小镇的人会拖家带口来这里野餐、挖蛤蜊、放风筝。但更多的时候，这里只有风声和海浪声。我沿着退潮露出的粗大卵石走到最北端，海水的泡沫在脚边缓缓破灭，发出咝咝的声音。回头望去，身后的沙滩上只有自己的脚印，而前方的海面没有尽头。我忽然明白了为什么这个地方如此打动人心——它不跟你讲任何故事，不要求你了解任何历史，它只是用最原始的风、沙、水，让你重新成为自然的一部分。那种感觉，不是朝圣，不是打卡，而是一种回归。"
+    "description": "我到现在还记得第一次开车去那儿的感觉。导航上的小箭头越走越偏，路两边从绿色的牧场变成了零星的灌木，然后是一望无际的灰色沙丘。海风的味道越来越浓，咸咸的，带着腥味，从车窗缝隙钻进来，瞬间就把车里的闷热吹跑了。终于，路到了尽头——一个朴素得有点过分的停车场，前面是一大片沙滩和低矮的沙丘，沙子被风吹出层层波纹，踩上去软绵绵的，发出咯吱咯吱的声响。远处就是爱尔兰海，灰蓝色的海水在天际线处和铅灰色的云层融在一起，海平线上隐隐约约能看见一艘货轮的轮廓。几只黑色的蛎鹬在滩涂上啄食，发出尖细的叫声。我站在原地愣了好一会儿——这就是威尔士最北的地方？没有纪念碑，没有观景台，甚至连一个指示牌都没有，只有一片被风持续雕刻着的海岸。可偏偏是这种几乎什么都没有的空旷，反而让我心里涌起一股巨大的宁静。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/missolonghi-lagoon-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迈索隆吉翁</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Missolonghi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lilleshall-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利勒舍尔纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lilleshall Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saarburg-waterfall-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saarburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/commando-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    突\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">突击队纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Commando Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glasgow-science-centre-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥科学中心塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Science Centre Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "missolonghi-lagoon-city",
-          "name": "迈索隆吉翁",
-          "englishName": "Missolonghi"
+          "slug": "commando-memorial",
+          "name": "突击队纪念碑",
+          "englishName": "Commando Memorial"
         },
         {
-          "slug": "lilleshall-monument",
-          "name": "利勒舍尔纪念碑",
-          "englishName": "Lilleshall Monument"
+          "slug": "glasgow-science-centre-tower",
+          "name": "格拉斯哥科学中心塔",
+          "englishName": "Glasgow Science Centre Tower"
         },
         {
-          "slug": "saarburg-waterfall-town",
-          "name": "萨尔堡",
-          "englishName": "Saarburg"
+          "slug": "colinton-station-tunnel",
+          "name": "科林顿车站与隧道",
+          "englishName": "Colinton Station & Tunnel"
         }
       ]
     }

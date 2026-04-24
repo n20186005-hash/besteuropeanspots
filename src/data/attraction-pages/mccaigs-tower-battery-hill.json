@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奥本 (Oban)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "麦凯格塔与炮台山",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "麦凯格塔与炮台山・McCaig's Tower & Battery Hill・英国・奥本 (Oban)",
-    "description": "初见McCaig's Tower，是在一个阴沉的午后。我沿着奥本镇主街旁的斜坡缓缓向上，海风中混杂着咸湿的潮气、码头炸鱼薯条的油香，以及远处威士忌酒厂飘来的麦芽甜味。转过一个弯道，灰白色的环状石墙突然出现在眼前，巨大而沉默，仿佛一座被时间遗弃的竞技场。没有想象中的尖塔或穹顶，只有一圈整齐划一的拱窗，空洞地望向天空，里面是绿草如茵的洼地。几个本地老人坐在墙边的长椅上，一言不发地看着海湾里游弋的渡轮，海鸥的叫声此起彼伏。那种静默感，让人瞬间模糊了来此的目的——是看塔，还是来看海？\n走进塔的内部，脚下是松软的草地，中央的空旷地带足有半个足球场大。我仰起头，只能看到灰白色的石墙向上延伸，拱窗如同巨大的画框，将天空、云彩和海浪切割成一幅不断变化的巨画。阳光偶尔穿透云层，在草地上投下光斑。风吹过拱廊，发出低沉的呜咽声，带着清凉的草香。这里不像一个景点，更像社区的后院——年轻人带着耳机慢跑，妈妈推着婴儿车散步，孩子们在追逐皮球。McCaig's Tower以一种未完成的姿态，反而成就了一种不完美却能融入日常的和谐。\n黄昏时分，我再次爬上Battery Hill。夕阳将石墙染成焦糖色，海湾的水面平静如镜，几艘帆船静静停泊。一个穿着格子呢裙的老者坐在墙边吹奏风笛，悠扬的旋律随风飘散。我找了一块被晒暖的岩石坐下，看着远处的岛屿轮廓渐渐模糊。我想，这座塔的建造者约翰·麦凯格，如果看到今日的情景，会作何感想？他耗尽家财想要为自己和家族建造一座永久的纪念，却因资金枯竭停工。然而百年后，这座未完成的石圈，却成了奥本最深情的礼物——它不再属于某个家族，而是属于每一个在此驻足的灵魂。这种从私人执念到公共空间的转化，比任何完工的壮丽教堂更让我感动。\nBattery Hill本身也值得细品。名字源于18世纪时这里设置的炮台，用于防御法国入侵。山坡上仍躺着几门铸铁加农炮，锈迹斑斑，炮口指向海湾，好似还在警戒着不存在的敌人。这些炮与McCaig's Tower的古典拱廊形成奇妙的对话——一边是军事的实用，一边是文化的野心；一边是破坏的遗迹，一边是未完成的艺术。两种叙事在这座小山丘上交叠，像一首双声部的咏叹调，轻轻吟唱着奥本的历史层次。"
+    "description": "初见McCaig's Tower，是在一个阴沉的午后。我沿着奥本镇主街旁的斜坡缓缓向上，海风中混杂着咸湿的潮气、码头炸鱼薯条的油香，以及远处威士忌酒厂飘来的麦芽甜味。转过一个弯道，灰白色的环状石墙突然出现在眼前，巨大而沉默，仿佛一座被时间遗弃的竞技场。没有想象中的尖塔或穹顶，只有一圈整齐划一的拱窗，空洞地望向天空，里面是绿草如茵的洼地。几个本地老人坐在墙边的长椅上，一言不发地看着海湾里游弋的渡轮，海鸥的叫声此起彼伏。那种静默感，让人瞬间模糊了来此的目的——是看塔，还是来看海？"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kytra-lock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯特拉水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kytra Lock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glencoe-visitor-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科游客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glencoe Visitor Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brynich-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇引水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kytra-lock",
-          "name": "凯特拉水闸",
-          "englishName": "Kytra Lock"
+          "slug": "cwm-rhaeadr-forest",
+          "name": "坎姆拉德森林瀑布",
+          "englishName": "Cwm Rhaeadr Forest"
         },
         {
-          "slug": "glencoe-visitor-centre",
-          "name": "格伦科游客中心",
-          "englishName": "Glencoe Visitor Centre"
+          "slug": "callendar-house",
+          "name": "卡伦德庄园",
+          "englishName": "Callendar House"
         },
         {
-          "slug": "dunrobin-castle",
-          "name": "邓罗宾城堡",
-          "englishName": "Dunrobin Castle"
+          "slug": "brynich-aqueduct",
+          "name": "布里尼奇引水桥",
+          "englishName": "Brynich Aqueduct"
         }
       ]
     }

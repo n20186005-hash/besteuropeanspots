@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯丁郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "德鲁姆城堡（庄园与花园）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "德鲁姆城堡（庄园与花园）・Drum Castle, Garden & Estate・英国・阿伯丁郡",
-    "description": "我第一次看见德鲁姆城堡，是一个苏格兰典型的多云午后。阳光像经过筛子一样，在白墙上投下斑驳光点。我走在蕨类植物几乎漫过脚踝的草地上，远远就看到那座方方正正的塔楼，像是一个沉默寡言的巨人蹲在绿色地毯中央。\n走近时，空气里突然多了一股香甜的味道。那是玫瑰。城堡南面有个巨大的玫瑰园，迷宫般的小径两侧热闹地开着深浅不一的红、粉、白，甚至罕见的紫色。蜜蜂的嗡嗡声像一首低沉的合唱。园丁正在修剪一株老藤，剪子的咔嚓声清脆而温柔。旁边有个木牌写着“这株玫瑰于 1895 年种下”，我当时的心被轻轻撞了一下。这玫瑰看过了多少场雾、多少场雪，见证了多少代人的生老病死，它还是这么热烈地开着。\n走进城堡之前我沿着城墙绕了一圈。墙根处顽强地寄生着厚厚的苔藓，摸上去湿漉漉的，像大地的皮肤。有几块石头上刻着看似随意的图案——一个十字架、一枚盾牌、一只鹿角——那是古代的工匠在几百年前留下的签名。最让我动容的，是城堡入口边的一个小小的邮箱，上面还贴着爱丁堡大学的某寄信地址，那是最后一位私人住户在几十年前留下的日常痕迹。\n我不禁想，这些石头和玫瑰，比人更懂得如何陪伴一段漫长的时光。"
+    "description": "我第一次看见德鲁姆城堡，是一个苏格兰典型的多云午后。阳光像经过筛子一样，在白墙上投下斑驳光点。我走在蕨类植物几乎漫过脚踝的草地上，远远就看到那座方方正正的塔楼，像是一个沉默寡言的巨人蹲在绿色地毯中央。"
   },
   "sections": [
     {
@@ -58,22 +58,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-varrich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦里克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Varrich</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/staffa-national-nature-reserve-fingals-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    芬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">芬戈尔洞（斯塔法岛国家自然保护区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staffa National Nature Reserve - Fingal's Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dugald-stewart-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜格尔德·斯图尔特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dugald Stewart Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/holyrood-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣十字修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holyrood Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "canterbury-cathedral",
-          "name": "坎特伯雷大教堂",
-          "englishName": "Canterbury Cathedral"
+          "slug": "staffa-national-nature-reserve-fingals-cave",
+          "name": "芬戈尔洞（斯塔法岛国家自然保护区）",
+          "englishName": "Staffa National Nature Reserve - Fingal's Cave"
         },
         {
-          "slug": "castle-varrich",
-          "name": "瓦里克城堡",
-          "englishName": "Castle Varrich"
+          "slug": "dugald-stewart-monument",
+          "name": "杜格尔德·斯图尔特纪念碑",
+          "englishName": "Dugald Stewart Monument"
         },
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "holyrood-abbey",
+          "name": "圣十字修道院",
+          "englishName": "Holyrood Abbey"
         }
       ]
     }

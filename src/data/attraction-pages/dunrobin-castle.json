@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Golspie",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "邓罗宾城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "邓罗宾城堡・Dunrobin Castle・英国・Golspie",
-    "description": "第一次见到邓罗宾城堡，是在A9公路的弯道上。海风夹着盐粒扑面而来，忽然，城堡的尖塔像从海里长出来一样，戳进了灰蓝色的天空。那一刻我以为自己开到了法国卢瓦尔河，但四周冷峻的苏格兰荒原又把我拉回现实。城堡矗立在莫里湾（Moray Firth）边的悬崖上，底下是翻滚的浪花，背后是连绵的凯斯内斯荒原。通往大门的碎石路被无数马蹄和车轮磨得发亮，走在上面能听到沙砾挤压的嘎吱声，混着海鸥的鸣叫。\n推门走进城堡的会客厅，暖意从巨大的石砌壁炉里涌出来，壁炉里烧着真正的高地泥炭，那种略带烟熏和草香的甜味瞬间包裹了我。厅内挂着萨瑟兰家族历代公爵的油画，有的人眼神冷峻，嘴角却藏着笑，仿佛在打量我这个不速之客。最震撼的是那个藏书室，高到天花板的书架塞满了皮质封面的古籍，阳光从彩色玻璃窗射进来，在地板上投出红蓝相间的光斑，你几乎能听到百年前公爵翻书的声音。\n走出城堡，另一种感官体验扑面而来。法式花园里，黄杨和紫杉被修剪得像棋盘一样规整，紫衣草和迷迭香在阳光下蒸腾出浓郁的香气。花园的尽头就是悬崖，站在那里，海面散发出一种深邃的、近乎黑色的蓝，远处偶尔能看到海豹探出脑袋。最让人心跳加速的，是每日上演的猎鹰表演。训练师一吹哨，一只游隼从塔楼顶端俯冲下来，翅膀划破空气时发出刷刷的声音，就在你头顶几米处盘旋，那瞬间你觉得自己回到了中世纪，城堡就是世界的中心。\n当地人提起邓罗宾城堡时，语气里混合着自豪和复杂。老一辈人记得萨瑟兰公爵曾是他们祖上的地主，高地清洗的伤痛至今还能在民谣里听到。但年轻人更愿意把它当作一处周末野餐的好去处，带着孩子在草坪上奔跑，看羊群在花园里吃草。城堡早已不再是权力的象征，而成为了这片荒凉海岸线上最温柔的存在。"
+    "description": "第一次见到邓罗宾城堡，是在A9公路的弯道上。海风夹着盐粒扑面而来，忽然，城堡的尖塔像从海里长出来一样，戳进了灰蓝色的天空。那一刻我以为自己开到了法国卢瓦尔河，但四周冷峻的苏格兰荒原又把我拉回现实。城堡矗立在莫里湾（Moray Firth）边的悬崖上，底下是翻滚的浪花，背后是连绵的凯斯内斯荒原。通往大门的碎石路被无数马蹄和车轮磨得发亮，走在上面能听到沙砾挤压的嘎吱声，混着海鸥的鸣叫。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/caerphilly-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡菲利城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caerphilly Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/greyfriars-kirkyard-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗里亚教堂墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Kirkyard Cemetery Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "caerphilly-castle",
-          "name": "卡菲利城堡",
-          "englishName": "Caerphilly Castle"
+          "slug": "greyfriars-kirkyard-edinburgh",
+          "name": "格雷弗里亚教堂墓地",
+          "englishName": "Greyfriars Kirkyard Cemetery Edinburgh"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "alton-towers",
+          "name": "奥尔顿塔",
+          "englishName": "Alton Towers"
         },
         {
-          "slug": "cameron-square",
-          "name": "卡梅隆广场",
-          "englishName": "Cameron Square"
+          "slug": "castell-dinefwr",
+          "name": "迪内弗尔城堡",
+          "englishName": "Castell Dinefwr"
         }
       ]
     }

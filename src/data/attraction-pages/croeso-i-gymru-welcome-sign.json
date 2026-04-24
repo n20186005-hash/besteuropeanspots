@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "切普斯托 (Chepstow)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士欢迎标志牌",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士欢迎标志牌・Croeso i Gymru Welcome Sign・英国・切普斯托 (Chepstow)",
-    "description": "第一次见到这个标志，是在一个雾气蒙蒙的清晨。我开着租来的小车，沿着A48公路从英格兰驶入威尔士。公路两旁的田野渐渐从平坦变得起伏，树篱也更密了。就在一个不起眼的路肩上，我突然看到一块绿色路牌，上面写着“Croeso i Gymru”。我不懂威尔士语，但下面那行熟悉的英文让我瞬间明白：我越过了边境。车子不由自主地减速，我摇下车窗，一股混合着青草和湿泥土的空气涌进来。远处，一个牧羊人正赶着羊群穿过山坡，羊铃声清脆而悠远。那一刻，我意识到这不只是一块牌子——它是一个无声的欢迎，一个用两种语言写下的拥抱。\n标志本身很朴素，甚至可以说有点不起眼。它没有凯旋门的气势，也没有边境检查站的严肃。只是那么安静地立在路旁，像一位沉默的守门人。但正是这种低调，让它的存在显得格外真诚。我停好车，走到它面前，指尖轻轻触碰冰凉的白字。威尔士语的“Croeso”发音是“克洛伊索”，我在心里默念了几遍，仿佛这样就能更贴近这片土地的灵魂。周围偶尔有车呼啸而过，司机们大多会按一声喇叭，或者挥手致意——这是当地人对这块标志的默契致敬。\n站在这个位置，你其实看不到明显的边境线。没有哨塔，没有围栏，只有一块牌子告诉你：你进入了一个语言和身份都不同的地方。但你能感觉到变化——路牌上的地名开始双语并列，连麦当劳的招牌都多了威尔士语字幕。这种变化不是强制的，而是自然的、温暖的。阳光穿过云层洒在标志上，把它染成一片柔和的金绿色。我忽然想起小时候读过的童话，那些藏在森林入口的魔法标记。克罗伊索 i 吉姆鲁就是这样一个标记，通往一个保留着古老语言和传说的世界。\n当地人告诉我，这个标志最初设立于1990年代，那时威尔士语正经历一场低调但坚定的复兴。之前边境上只有英文“Welcome to Wales”，后来当地活动家们争取到了双语版本。如今，它成了许多威尔士人心中的圣地——不是那种宗教意义上的圣地，而是情感的锚点。每次看到它，游子们知道快到家了；游客们则知道，一场与众不同的旅行即将开始。我站在那里，看着风吹动标志边缘的野花，突然觉得它比许多宏伟的城堡更能代表威尔士的性格：温和、倔强、充满骄傲。"
+    "description": "第一次见到这个标志，是在一个雾气蒙蒙的清晨。我开着租来的小车，沿着A48公路从英格兰驶入威尔士。公路两旁的田野渐渐从平坦变得起伏，树篱也更密了。就在一个不起眼的路肩上，我突然看到一块绿色路牌，上面写着“Croeso i Gymru”。我不懂威尔士语，但下面那行熟悉的英文让我瞬间明白：我越过了边境。车子不由自主地减速，我摇下车窗，一股混合着青草和湿泥土的空气涌进来。远处，一个牧羊人正赶着羊群穿过山坡，羊铃声清脆而悠远。那一刻，我意识到这不只是一块牌子——它是一个无声的欢迎，一个用两种语言写下的拥抱。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-stone\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Stone</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dryslwyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德莱斯林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dryslwyn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafna-lead-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blaenavon-ironworks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱纳文铁厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaenavon Ironworks</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castell-coch",
-          "name": "科奇城堡",
-          "englishName": "Castell Coch"
+          "slug": "castell-dryslwyn",
+          "name": "德莱斯林城堡",
+          "englishName": "Castell Dryslwyn"
         },
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "hafna-lead-mine",
+          "name": "哈夫纳铅矿",
+          "englishName": "Hafna Lead Mine"
         },
         {
-          "slug": "arthurs-stone",
-          "name": "亚瑟石",
-          "englishName": "Arthur's Stone"
+          "slug": "blaenavon-ironworks",
+          "name": "布莱纳文铁厂",
+          "englishName": "Blaenavon Ironworks"
         }
       ]
     }

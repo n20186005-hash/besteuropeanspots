@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "朗戈伦 (Llangollen)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "朗戈伦汽车博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "朗戈伦汽车博物馆・Llangollen Motor Museum・英国・朗戈伦 (Llangollen)",
-    "description": "第一次推开朗戈伦汽车博物馆那扇沉重的橡木门，一股混合着汽油、旧皮革和锈铁的奇妙气味便懒洋洋地扑面而来，像一只无形的手拽住你的衣角。光线从头顶几扇布满灰尘的高窗斜斜洒下，在斑驳的石地上投出金色的光柱，照亮了一辆亮红色的捷豹E-Type的引擎盖，那冰冷的铬合金闪着温柔的反光。这里不像大城市里那些灯光明亮、展台冷硬的汽车博物馆，更像一位沉默寡言的老爷爷悄悄打开了他的秘密车库，每一辆布满岁月痕迹的车都在低声诉说着自己的故事。你甚至能听到轮胎接触沥青路面的沙沙声在回忆里回响。\n博物馆就藏在朗戈伦小镇的主街上，紧邻着潺潺流动的迪河和那座古老的石桥。外面是游客的笑声和小贩的叫卖，里面却是一个静止的时间胶囊。当地的老人们常常在午后的阳光里踱步进来，对着某辆深绿色的莫里斯敞篷车发呆，也许他们年轻时曾开着它载着初恋去海边兜风。最打动我的不是那些昂贵的老爷车，而是角落里一辆不起眼的黑色奥斯汀，车门上还有一道道划痕，旁边的说明牌写道：“这辆车的主人是一位农场主，开了四十年从未大修。” 这种朴实的人与机器的羁绊，比任何统计数据都更触动心弦。\n你还能听见细微的声音：老式发动机的轻微滴油声，金属部件热胀冷缩的咔嗒声，以及隔壁小车间里偶尔传来的锉刀摩擦声——那里有一位满头白发的机械师正在修复一台1940年代的军用摩托。他戴着老花镜，专注得像外科医生，手中的螺丝刀在油污中舞蹈。空气中飘着淡淡的机油香，夹杂着地板上旧木头的甜味。这里的一切都慢下来，连时钟都似乎走得比外面慵懒。即便你对汽车一窍不通，也能被这种凝固的激情所感染。\n博物馆最珍贵的，也许不是那些闪亮的老爷车，而是角落里的照片墙——黑白的、褪色的，上面是几十年前的车主们站在自己的爱车旁，穿着喇叭裤，梳着油头，笑得灿烂。旁边还有一封手写信，是一位退休火车司机写来的，感谢博物馆保存了他父亲的摩托车。在这里，机械不再是冷冰冰的钢铁，而是家庭记忆的载体。这大概就是朗戈伦汽车博物馆最深的魅力：它不急着告诉你技术参数，而是邀请你坐下来，听它慢慢讲述那些关于速度、自由和梦想的故事。"
+    "description": "第一次推开朗戈伦汽车博物馆那扇沉重的橡木门，一股混合着汽油、旧皮革和锈铁的奇妙气味便懒洋洋地扑面而来，像一只无形的手拽住你的衣角。光线从头顶几扇布满灰尘的高窗斜斜洒下，在斑驳的石地上投出金色的光柱，照亮了一辆亮红色的捷豹E-Type的引擎盖，那冰冷的铬合金闪着温柔的反光。这里不像大城市里那些灯光明亮、展台冷硬的汽车博物馆，更像一位沉默寡言的老爷爷悄悄打开了他的秘密车库，每一辆布满岁月痕迹的车都在低声诉说着自己的故事。你甚至能听到轮胎接触沥青路面的沙沙声在回忆里回响。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llandudno-promenade\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺滨海步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Promenade</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/morbitorium\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫比托里姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Morbitorium</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/red-kite-sculpture\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    红\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">红鸢雕塑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Red Kite Sculpture</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/newcastles-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纽\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纽卡斯尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Newcastle's Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "llandudno-promenade",
-          "name": "兰迪德诺滨海步道",
-          "englishName": "Llandudno Promenade"
+          "slug": "morbitorium",
+          "name": "莫比托里姆",
+          "englishName": "Morbitorium"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "red-kite-sculpture",
+          "name": "红鸢雕塑",
+          "englishName": "Red Kite Sculpture"
         },
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "newcastles-castle",
+          "name": "纽卡斯尔城堡",
+          "englishName": "Newcastle's Castle"
         }
       ]
     }

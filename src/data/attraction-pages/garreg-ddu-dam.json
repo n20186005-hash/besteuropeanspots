@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "（位于威尔士波伊斯郡的埃兰谷，无具体城市，通常以最近的集镇为参考）Newtown",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "加雷格杜水坝",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "加雷格杜水坝・Garreg Ddu Dam・英国・（位于威尔士波伊斯郡的埃兰谷，无具体城市，通常以最近的集镇为参考）Newtown",
-    "description": "我第一次见到Garreg Ddu Dam是在一个灰蒙蒙的十一月下午。沿着Caban Coch水库东岸的步道走进去，脚步踩在被羊群踩秃的草地上，只听到风从山谷那头呼啸过来，带着湿润的苔藓味和淡淡的泥炭香。转过一个弯，那座大坝毫无预警地撞进视野——它不像我在瑞士或挪威见过的那种冰雪覆盖的巨坝，而是蜷缩在两片荒芜的山丘之间，灰蓝色的石墙像一截从大地里长出来的骨头，沉默、坚实，上面长着几簇亮黄色的苔藓。空气里弥漫着水珠打在石头上的轻轻爆裂声，远处偶尔传来一只乌鸦的嘎叫，然后一切又归于寂静。\n走近了才能感受到它的体量。坝顶大约四十五米宽，走到中间往下一看，坝底的水潭碧绿得像一汪龙舌兰酒，透明的涟漪一圈圈散开，能看见深处有鳟鱼的影子一闪而过。水坝的四个溢洪闸门像四只巨大的眼球，锈迹斑斑的铁链垂下来，轻轻敲打着石墩，发出叮叮当当的声响，像是这座钢铁怪兽在轻声哼唱。站在这里，我忽然理解了为什么当年工人们把它叫做“黑坝”——因为晨昏时分，当光照不到石面上，整座坝就变成了一块黑色的、几乎消失的巨影，好像它根本不是人造的，而是山的一部分。\n当地人的态度很有意思。我去的那天遇到一位骑着山地车的老先生，他停在水坝边上，从背包里拿出保温杯喝咖啡。他告诉我，他爷爷的爷爷就是修这座坝的石匠，整个家族在这片山谷里住了四代，从水坝还没建成时就在这里放羊。他说，夏天的晚上，他会带着孙子来这里看光晕——当夕阳的光线穿过坝顶闸门的缝隙，在雾霭中折射出弧形的彩虹，“别听游客中心那些人吹嘘什么维多利亚工程壮举，这座坝对我们来说就是家门口的石头，它一直都在，就像山一样自然。”这话我记了很久。\n水坝最打动人的是它的日常性。工作日的清晨，没有游客，只有几只红隼盘旋在坝顶，偶尔有一只翠鸟俯冲进泄洪道下面的水潭。你能听到石头里渗出水滴的滴答声，能闻到铁锈、湿水泥和野薄荷混在一起的气味。这种粗糙的真实感是任何博物馆都装不出来的。我后来在坝底的苔藓台阶上坐了一个小时，看着云影在水面移动，想着那些一百年前拖着石头爬上爬下的工人，他们大概也曾同样的姿势发呆过。"
+    "description": "我第一次见到Garreg Ddu Dam是在一个灰蒙蒙的十一月下午。沿着Caban Coch水库东岸的步道走进去，脚步踩在被羊群踩秃的草地上，只听到风从山谷那头呼啸过来，带着湿润的苔藓味和淡淡的泥炭香。转过一个弯，那座大坝毫无预警地撞进视野——它不像我在瑞士或挪威见过的那种冰雪覆盖的巨坝，而是蜷缩在两片荒芜的山丘之间，灰蓝色的石墙像一截从大地里长出来的骨头，沉默、坚实，上面长着几簇亮黄色的苔藓。空气里弥漫着水珠打在石头上的轻轻爆裂声，远处偶尔传来一只乌鸦的嘎叫，然后一切又归于寂静。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burnham-on-sea-low-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯纳姆海上低灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burnham-on-sea Low Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-einion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库姆艾尼恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Einion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/triangulation-point-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    三\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">三角测量观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Triangulation Point</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bryntail-lead-mine-buildings\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林泰尔铅矿建筑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryntail Lead Mine Buildings</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/craigmillar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷格米勒城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigmillar Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burnham-on-sea-low-lighthouse",
-          "name": "伯纳姆海上低灯塔",
-          "englishName": "Burnham-on-sea Low Lighthouse"
+          "slug": "triangulation-point-wales",
+          "name": "三角测量观景点",
+          "englishName": "Triangulation Point"
         },
         {
-          "slug": "cwm-einion",
-          "name": "库姆艾尼恩",
-          "englishName": "Cwm Einion"
+          "slug": "bryntail-lead-mine-buildings",
+          "name": "布林泰尔铅矿建筑",
+          "englishName": "Bryntail Lead Mine Buildings"
         },
         {
-          "slug": "berwick-upon-tweed-castle-and-ramparts",
-          "name": "伯立克-特威德城堡及城墙",
-          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
+          "slug": "craigmillar-castle",
+          "name": "克雷格米勒城堡",
+          "englishName": "Craigmillar Castle"
         }
       ]
     }

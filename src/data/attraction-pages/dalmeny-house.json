@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "达尔梅尼庄园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "达尔梅尼庄园・Dalmeny House・英国・爱丁堡",
-    "description": "初见达尔梅尼庄园，是在一个夏末的下午。我把车停在福斯湾北岸的树篱旁，抬头就看见它白墙灰瓦的轮廓静静矗立在缓坡草坪尽头，背后是银色的海湾和福斯公路桥纤细的钢索剪影。风从海面吹来，带着盐和湿润青草的气味，耳畔只有海鸥悠长的叫声和远处偶尔传来的轮船汽笛。庄园不像那些戒备森严的大城堡，它更像一个被精心呵护的私人宅邸，连大门都是朴素的铁艺栏杆——你几乎能想象维多利亚时代的淑女们拎着裙摆从石阶上跑下来，跳上等候的马车。\n推开那扇沉重的橡木门，门厅里弥漫着古老的皮革、纸张和淡淡木蜡的味道。左手边是悬挂着巨大家族纹章彩绘玻璃的窗户，阳光透过它在地板上投射出红蓝相间的图案。一位穿着苏格兰花呢马甲的老管家微笑着递过导览手册，他的声音低沉而温和，像在介绍自家客厅。我顺着走廊走进大客厅，最先吸引我的是壁炉上方那幅由托马斯·庚斯博罗绘制的夫人肖像——她的眼神深邃，白色蕾丝领巾在暗色背景下仿佛在发光。沙发是深红丝绒的，地毯是从波斯运来的老货，踩上去几乎无声。窗外就是福斯湾，此刻阳光正好，水面泛起无数碎银。\n但真正让我倒吸一口气的，是上到二楼后推开那扇标有“拿破仑纪念室”的门。屋里光线很暗，所有窗帘都半拉着，空气中有一股陈年纸张和樟木混合的气味。中央展柜里静静躺着一把镶有金鹰的手枪——据说是拿破仑本人使用过的，旁边还有他亲笔签署的《枫丹白露条约》副本。我盯着那些褪色的墨水字迹，想象那个曾在欧洲大陆掀起腥风血雨的小个子皇帝，突然觉得历史变成了可以触摸的东西。墙上的挂毯讲述着滑铁卢战役的场景，灰蓝色的色调里满是骑士与马匹的混乱。\n走出庄园，我在花园里的长椅上坐了很久。玫瑰正开得盛，紫红色的花瓣和橄榄绿的叶子在斜阳里熠熠生辉。一对老夫妇牵着一条金毛犬慢慢走过草坪，狗去追一只飞盘的影子。那一刻我意识到，达尔梅尼庄园最打动我的，不是那些价值连城的收藏，而是它依然活着——被家族的爱、被日常的烟火气、被苏格兰的风与潮水温柔地包围着。它不急于向游客展示自己有多伟大，它只是安静地等你来，走过那些被无数脚步磨亮的地板，然后带走一段属于自己的记忆。"
+    "description": "初见达尔梅尼庄园，是在一个夏末的下午。我把车停在福斯湾北岸的树篱旁，抬头就看见它白墙灰瓦的轮廓静静矗立在缓坡草坪尽头，背后是银色的海湾和福斯公路桥纤细的钢索剪影。风从海面吹来，带着盐和湿润青草的气味，耳畔只有海鸥悠长的叫声和远处偶尔传来的轮船汽笛。庄园不像那些戒备森严的大城堡，它更像一个被精心呵护的私人宅邸，连大门都是朴素的铁艺栏杆——你几乎能想象维多利亚时代的淑女们拎着裙摆从石阶上跑下来，跳上等候的马车。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/craigievar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷吉瓦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigievar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceannabeinne-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    喜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">喜纳本海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ceannabeinne Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-moil\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/loch-lomond\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛蒙德湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Lomond</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-coastal-path-west-shore-sand-dunes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海岸步道（西岸沙丘）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path (West Shore Sand Dunes)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/skelbo-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯凯尔博城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skelbo Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "craigievar-castle",
-          "name": "克雷吉瓦城堡",
-          "englishName": "Craigievar Castle"
+          "slug": "loch-lomond",
+          "name": "洛蒙德湖",
+          "englishName": "Loch Lomond"
         },
         {
-          "slug": "ceannabeinne-beach",
-          "name": "喜纳本海滩",
-          "englishName": "Ceannabeinne Beach"
+          "slug": "wales-coastal-path-west-shore-sand-dunes",
+          "name": "威尔士海岸步道（西岸沙丘）",
+          "englishName": "Wales Coastal Path (West Shore Sand Dunes)"
         },
         {
-          "slug": "castle-moil",
-          "name": "莫伊尔城堡",
-          "englishName": "Castle Moil"
+          "slug": "skelbo-castle",
+          "name": "斯凯尔博城堡",
+          "englishName": "Skelbo Castle"
         }
       ]
     }

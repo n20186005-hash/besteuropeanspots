@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡大学旧学院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "爱丁堡大学旧学院・Old College, The University of Edinburgh・英国・爱丁堡",
-    "description": "我第一次看见旧学院，是在爱丁堡雨季的某个午后。南桥（South Bridge）那条街上人潮涌动，游客举着伞匆忙穿梭在两旁阴冷高耸的石头建筑之间，我正低头躲过一个水坑，抬起头时，那个巨大的、带有九座人物雕像的拱门忽然出现在我面前——它不像周围那些灰色灰头土脸的苏格兰老建筑，而是一股庄严而从容的气场，像是一个沉睡了很久的巨人正在午睡。\n我跨过门槛那一刻，整个世界瞬间安静了。外面南桥上车水马龙的声音像是被人按了静音键，只留下脚踩在灰色鹅卵石上清脆的嗒嗒声。中央庭院是一片极其平整的翠绿草坪，草坪中央矗立着一尊深色铜像，是那位为爱丁堡大学奠基的皇家赞助人。周边的四面建筑都带着敞开的拱形廊柱，阳光偶尔从云层缝隙中斜射下来，在廊柱的阴影里投出一道道清晰的明暗分界线。\n你站在那里，能闻到旧石墙散发出的那种独特的苏格兰潮湿气息——是青苔、雨水和百年历史混合的味道，夹杂着一丝远处咖啡馆飘来的浓缩咖啡香气。你会看见背书包的大学生在廊柱下安然地长谈，刚打完水的园丁提着绿色水管走过草坪边缘，偶尔有带着威士忌酒气的老教授从行政楼的大门走出来，大笑着与偶遇的同事打招呼。这不是一个仅供拍照打卡的旅游景点，而是一座活着的、每天都在呼吸的大学。\n最让我动容的是它的比例。这庭院并不像很多欧洲大学那样繁复奢华，也没有那种恨不得让人俯首称臣的压迫感。它用最简洁的新古典主义线条——圆拱、多立克柱、朴素的石材——营造出一种极度和谐的美感。如果你在这里静坐二十分钟，你就会明白这种感觉：它不喧哗，但自带波澜。正是这种不显山不露水的优雅，让爱丁堡大学旧学院成为了苏格兰最接近灵魂的建筑之一。"
+    "description": "我第一次看见旧学院，是在爱丁堡雨季的某个午后。南桥（South Bridge）那条街上人潮涌动，游客举着伞匆忙穿梭在两旁阴冷高耸的石头建筑之间，我正低头躲过一个水坑，抬起头时，那个巨大的、带有九座人物雕像的拱门忽然出现在我面前——它不像周围那些灰色灰头土脸的苏格兰老建筑，而是一股庄严而从容的气场，像是一个沉睡了很久的巨人正在午睡。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/folly-farm-adventure-park-and-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福利农场探险公园与动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Folly Farm Adventure Park and Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-of-old-wick\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维克老城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Of Old Wick</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bwlch-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔赫山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bwlch Mountain</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/triangulation-point-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    三\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">三角测量观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Triangulation Point</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/staffa-national-nature-reserve-fingals-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    芬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">芬戈尔洞（斯塔法岛国家自然保护区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staffa National Nature Reserve - Fingal's Cave</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "folly-farm-adventure-park-and-zoo",
-          "name": "福利农场探险公园与动物园",
-          "englishName": "Folly Farm Adventure Park and Zoo"
+          "slug": "castell-aberystwyth",
+          "name": "阿伯里斯特威斯城堡",
+          "englishName": "Castell Aberystwyth"
         },
         {
-          "slug": "castle-of-old-wick",
-          "name": "维克老城堡",
-          "englishName": "Castle Of Old Wick"
+          "slug": "triangulation-point-wales",
+          "name": "三角测量观景点",
+          "englishName": "Triangulation Point"
         },
         {
-          "slug": "bwlch-mountain",
-          "name": "布尔赫山",
-          "englishName": "Bwlch Mountain"
+          "slug": "staffa-national-nature-reserve-fingals-cave",
+          "name": "芬戈尔洞（斯塔法岛国家自然保护区）",
+          "englishName": "Staffa National Nature Reserve - Fingal's Cave"
         }
       ]
     }

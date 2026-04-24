@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰贝里斯（Llanberis）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯诺登山铁路",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯诺登山铁路・Snowdon Mountain Railway・英国・兰贝里斯（Llanberis）",
-    "description": "雾气还没散透的清晨，我站在兰贝里斯小镇的月台上，脚下是铁轨与碎石摩擦的细碎声响。空气里混着柴油、煤渣和湿漉漉的草腥味——那味道像极了小时候在爷爷家后院烧过的旧木柴，被晨露一激，竟闻出些甜丝丝的幽怨。火车头喘着粗气在铁轨上蠢蠢欲动，蒸汽从阀门里一绺绺挤出，像老烟枪最后的叹息。我扒着敞着半扇木框车窗的车厢门，探头向外张望，看见对面山坡上成片的羊群正慢悠悠地吃着晨草，偶然抬起头，冲这金属怪物咩咩叫两声，仿佛在说：又来了，这些坐铁皮盒子爬山的疯子。\n火车在一声尖锐的汽笛中缓缓启动，轮子擦着铁轨发出有节奏的“咯噔咯噔”，像一首古老的歌谣。车刚出站，便立刻攀上陡坡，整个人往后一仰，我赶紧抓住车窗边缘的铜把手。窗外的景色像舞台幕布般层层拉开——先是房舍变成积木，接着整个兰贝里斯湖在晨光里泛着银白的光，湖面平得像没折过的锡纸，倒映着远处灰绿色的山脊。我侧过身，把脑袋伸出窗外，冷风呼地灌进来，吹得我耳根发麻。那风声里混合着齿轨与齿轮啮合时金属咬合的嘎吱声，像巨型钟表内部的声音，每一声都卡在节拍上。\n火车走走停停，中途会经过几个小小的会让站，比如赫兹利（Hedley）和克洛伊（Clogwyn）。停车时，整个车厢静得只听见山雀偶尔的啼鸣。我跳下车厢，踩在碎石路基上，脚底传来石头滚动的沙沙声。抬头看去，斯诺登山的轮廓在云层里若隐若现，像隔着一层毛玻璃。山的肩膀披着大片大片尚未融化的残雪，雪线反射着刺目的白光，我不得不眯起眼睛。路边的石缝里伸出几丛紫色的石楠花，叶片上凝着露珠，风一过，露珠便簌簌落下，渗进碎石里，湿润的痕迹转瞬即逝。\n最让我难忘的是靠近山顶那段。火车几乎贴着峭壁攀升，轨道外侧就是几百米深的河谷，风从谷底倒灌上来，带着冷冽的松涛声。我胃里有点发紧，却又不肯缩回脑袋。前方的铁轨像一条细长的灰蛇，攀附着岩壁，消失在云雾里。突然，火车一头扎进云层，周围的一切瞬间变成乳白色，连近处的电线杆都模糊成一团影子。只听得见齿轮粗重的喘息，和身后车厢里小女孩被吓到又兴奋的尖叫声。过了约莫五分钟，云破天开，斯诺登山的主峰就那样毫无预兆地撞进视线里——尖削、苍茫、沉默得像一个神祇。那一刻，我忽然明白为什么威尔士人把它称作“Yr Wyddfa”，意为“墓碑”，它确实有那种让人屏住呼吸的庄重。"
+    "description": "雾气还没散透的清晨，我站在兰贝里斯小镇的月台上，脚下是铁轨与碎石摩擦的细碎声响。空气里混着柴油、煤渣和湿漉漉的草腥味——那味道像极了小时候在爷爷家后院烧过的旧木柴，被晨露一激，竟闻出些甜丝丝的幽怨。火车头喘着粗气在铁轨上蠢蠢欲动，蒸汽从阀门里一绺绺挤出，像老烟枪最后的叹息。我扒着敞着半扇木框车窗的车厢门，探头向外张望，看见对面山坡上成片的羊群正慢悠悠地吃着晨草，偶然抬起头，冲这金属怪物咩咩叫两声，仿佛在说：又来了，这些坐铁皮盒子爬山的疯子。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/creag-meagaidh-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里格梅盖迪国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Creag Meagaidh National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/roald-dahl-plass\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗尔德·达尔广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roald Dahl Plass</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hilltop-viewpoint-edinburgh-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡动物园山顶观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hilltop Viewpoint Edinburgh Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chatsworth-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查茨沃斯庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chatsworth House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "hilltop-viewpoint-edinburgh-zoo",
+          "name": "爱丁堡动物园山顶观景台",
+          "englishName": "Hilltop Viewpoint Edinburgh Zoo"
         },
         {
-          "slug": "creag-meagaidh-national-nature-reserve",
-          "name": "克里格梅盖迪国家自然保护区",
-          "englishName": "Creag Meagaidh National Nature Reserve"
+          "slug": "chatsworth-house",
+          "name": "查茨沃斯庄园",
+          "englishName": "Chatsworth House"
         },
         {
-          "slug": "roald-dahl-plass",
-          "name": "罗尔德·达尔广场",
-          "englishName": "Roald Dahl Plass"
+          "slug": "colin-mcrae-cray-corner",
+          "name": "科林·麦克雷弯道",
+          "englishName": "Colin McRae's Cray Corner"
         }
       ]
     }

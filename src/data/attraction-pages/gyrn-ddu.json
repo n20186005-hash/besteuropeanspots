@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡佩尔库里格",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "吉恩杜山",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "吉恩杜山・Gyrn Ddu・英国・卡佩尔库里格",
-    "description": "初见吉恩杜山是在一个雾气未散的清晨。我开着租来的小破车，沿着卡佩尔库里格村外那条只够一辆车勉强通过的碎石路颠簸前行，GPS信号早就断了，全靠手机里提前下载的离线地图和一种模糊的直觉。路边草丛里突然蹿出几只威尔士黑面羊，它们面无表情地站在路中间，像一群穿着毛绒大衣的保安，逼我停了十秒，才慢悠悠地让开。空气中飘着泥土和湿苔藓的味道，混着一丝若有若无的牛粪味——那是威尔士乡村最诚实的气息。\n停好车，踏上通往山脊的小径，第一脚踩下去，靴子陷进泥炭地足有两厘米深，发出噗嗤一声闷响。四周静得只剩下自己的喘息和远处溪流的声音，偶尔有只乌鸦从头顶飞过，翅膀划过空气的沙沙声清晰得像有人在你耳边翻书。走了大概二十分钟，雾气被一阵突如其来的风吹散，吉恩杜山终于露出真容：它不是那种尖锐嶙峋的山峰，而是一条舒展的、像沉睡巨兽背脊般的山脊，顶上覆盖着深褐色的石楠，在晨光中泛着一层暖金色的绒毛。山脊的弧线柔软而坚定，像是被时间磨圆了棱角，却从未向任何人低头。\n最打动我的不是山顶的景色，而是那种彻底的、不妥协的孤独感。这里没有指示牌，没有护栏，没有垃圾桶，甚至没有一条像样的路——你脚下的痕迹只是几百年来牧羊人踩出的窄道，和偶尔来徒步的人留下的模糊脚印。风吹过时，石楠丛发出细密的沙沙声，像在低声说着古老的威尔士语。我站在一处缓坡上，看山下卡佩尔库里格村像玩具积木一样散落在谷地，远处的斯诺登峰顶还裹着云纱，而吉恩杜山脚下那些废弃的石板矿坑，像一块块灰色的伤疤，安静地诉说着工业时代的热闹与沉寂。那一刻我突然理解了为什么威尔士人把这种荒凉叫做“gwahaniaeth”——一种介于寂寞和自由之间的东西，只有当你真的站在这里，用皮肤感受风的温度，才能明白。"
+    "description": "初见吉恩杜山是在一个雾气未散的清晨。我开着租来的小破车，沿着卡佩尔库里格村外那条只够一辆车勉强通过的碎石路颠簸前行，GPS信号早就断了，全靠手机里提前下载的离线地图和一种模糊的直觉。路边草丛里突然蹿出几只威尔士黑面羊，它们面无表情地站在路中间，像一群穿着毛绒大衣的保安，逼我停了十秒，才慢悠悠地让开。空气中飘着泥土和湿苔藓的味道，混着一丝若有若无的牛粪味——那是威尔士乡村最诚实的气息。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bwlch-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔赫山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bwlch Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-moil\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/clydach-gorge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱达赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Clydach Gorge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/snowdon-mountain-railway\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯诺登山铁路</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Snowdon Mountain Railway</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-of-old-wick\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维克老城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Of Old Wick</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dryslwyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德莱斯林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dryslwyn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bwlch-mountain",
-          "name": "布尔赫山",
-          "englishName": "Bwlch Mountain"
+          "slug": "snowdon-mountain-railway",
+          "name": "斯诺登山铁路",
+          "englishName": "Snowdon Mountain Railway"
         },
         {
-          "slug": "castle-moil",
-          "name": "莫伊尔城堡",
-          "englishName": "Castle Moil"
+          "slug": "castle-of-old-wick",
+          "name": "维克老城堡",
+          "englishName": "Castle Of Old Wick"
         },
         {
-          "slug": "clydach-gorge",
-          "name": "克莱达赫峡谷",
-          "englishName": "Clydach Gorge"
+          "slug": "castell-dryslwyn",
+          "name": "德莱斯林城堡",
+          "englishName": "Castell Dryslwyn"
         }
       ]
     }

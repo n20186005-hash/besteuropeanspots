@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯诺登尼亚国家公园（邻近卡纳芬）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "三角测量观景点",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "三角测量观景点・Triangulation Point・英国・斯诺登尼亚国家公园（邻近卡纳芬）",
-    "description": "当我在Llanberis小镇的面包店买了最后一块威尔士蛋糕，背包里塞着两升水和一件抓绒外套时，压根没想到接下来四个小时会经历四个季节。通往三角测量点的路从橡树林开始，树根像老人手背上的血管一样凸出地面，脚下是腐烂的落叶和苔藓混成的软泥，空气里弥漫着湿润的泥土味和远处牧场传来的羊粪腥气。走了不到二十分钟，我额头上的汗就被风吹干了，那风不是城市里那种温和的流动，而是从大西洋直接灌进来的、带着咸味的冷冽气流，吹得耳朵生疼。\n海拔过了六百米，植被突然消失了，只剩下裸露的岩石和稀疏的矮草。眼前的景色像被谁用橡皮擦掉了所有绿色，只剩下灰黄色的石砾和铅灰色的天空。风在这里变得更狂野，它贴着山坡冲上来，把登山杖吹得嗡嗡作响。我遇到一个从山顶下来的老先生，他的眉毛和胡子上结着白霜，冲我竖了个大拇指说：“上面能看到爱尔兰，真的。”我半信半疑地继续爬，每一步都要踩稳那些湿滑的页岩，有些石头被踩松了会翻滚着砸下去，发出空洞的撞击声。\n最后那一段几乎是在云里走。能见度不到十米，你只能凭感觉判断方向，偶尔云散开一点点，会看到前方那座灰白色的石塔轮廓——那就是三角测量点。它站在海拔1085米的峰顶上，像一个沉默的哨兵，风把它的表面磨得很光滑，摸上去冰凉而细腻。我靠在它旁边喘气，突然觉得这东西不只是一个测量标志，它更像是这片土地给自己打的一个标记：人类在这里留下了痕迹，但终究征服不了这里的气候。\n等我坐下来吃三明治时，云层突然裂开一道缝，整个斯诺登尼亚山谷像一幅被慢慢展开的画卷出现在脚下，湖泊像碎掉的镜子，远处的海岸线泛着灰蓝色的光，那条弯曲的铁路线像一条细蛇。风也安静了几秒，我能听到远处山羊的叫声和下面游客的呼喊声。那一刻我明白了，为什么英国人要费这么大的力气在这里修一个三角测量点——他们想要的不只是地图上的一个坐标，而是站在这里时那种被天地拥抱的孤独感和掌控感。"
+    "description": "当我在Llanberis小镇的面包店买了最后一块威尔士蛋糕，背包里塞着两升水和一件抓绒外套时，压根没想到接下来四个小时会经历四个季节。通往三角测量点的路从橡树林开始，树根像老人手背上的血管一样凸出地面，脚下是腐烂的落叶和苔藓混成的软泥，空气里弥漫着湿润的泥土味和远处牧场传来的羊粪腥气。走了不到二十分钟，我额头上的汗就被风吹干了，那风不是城市里那种温和的流动，而是从大西洋直接灌进来的、带着咸味的冷冽气流，吹得耳朵生疼。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fonmon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    方\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">方蒙城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fonmon Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/culzean-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔津城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Culzean Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dalmeny-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达尔梅尼庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dalmeny House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sea-kayaking-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海上皮划艇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sea Kayaking Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "big-ben",
-          "name": "大本钟",
-          "englishName": "Big Ben"
+          "slug": "culzean-castle",
+          "name": "卡尔津城堡",
+          "englishName": "Culzean Castle"
         },
         {
-          "slug": "fonmon-castle",
-          "name": "方蒙城堡",
-          "englishName": "Fonmon Castle"
+          "slug": "dalmeny-house",
+          "name": "达尔梅尼庄园",
+          "englishName": "Dalmeny House"
         },
         {
-          "slug": "charter-boat-wales",
-          "name": "威尔士包船游",
-          "englishName": "Charter Boat Wales"
+          "slug": "sea-kayaking-wales",
+          "name": "威尔士海上皮划艇",
+          "englishName": "Sea Kayaking Wales"
         }
       ]
     }

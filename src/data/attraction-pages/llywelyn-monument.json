@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "比尔斯韦尔斯（Builth Wells）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卢埃林纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "卢埃林纪念碑・Llywelyn Monument・英国・比尔斯韦尔斯（Builth Wells）",
-    "description": "穿过Cilmeri村那条仅容一辆车通过的乡间小路，空气里渐渐透出湿润的泥土和青草味。七月的威尔士田野正盛开着毛茛和野胡萝卜花，蜜蜂嗡嗡地绕着白色的伞形花盘打转。我在一片开阔的牧场边缘停下车，远处连绵的坎布里安山脉像沉睡的绿色巨兽，起伏的脊背上掠过云影。顺着一条被牲畜踩出的泥径走了大约两百米，那座灰白色的方尖碑就突然从低矮的丘陵背后冒了出来——它比我想象中矮小得多，孤零零地立在缓坡上，四周没有栅栏、没有指示牌、没有纪念品商店，只有风吹过长草时发出的沙沙声响。\n我走近它，那种寂静几乎是庄严的。碑体上覆盖着一层淡黄的苔藓，朝南的一面被阳光晒得微微发烫。碑文用威尔士语和英语写着：“在此附近，1282年12月11日，威尔士亲王卢埃林·阿普·格鲁菲德遭到背叛并被杀害。”没有冗长的颂词，没有英雄化的涂抹，只有一句简单到残酷的陈述。我靠在那块石头上，手掌下粗糙的纹理像在讲述一道七百多年前就裂开的伤口。那一刻，几只红隼在头顶盘旋，它们的影子急速滑过草地，山坡下的伊尔芬河（River Irfon）泛着冷冷的银光。\n这个地方最打动我的，是它完全拒絕成为“景点”。没有门票、没有导游、没有围栏把历史框成一幅画。它就那么诚实地站在这片曾经流过血的草地上，任时光将它风化。远处的羊偶尔抬起头，呆望着我这个不速之客，然后又低头啃草。我突然理解了为什么威尔士人会把一座田野里的方尖碑当成比任何城堡都重要的圣地——因为它不在博物馆的玻璃后面，而在风里、在雨里、在每一次羊群踩过的蹄印里。\n夕阳西下时，我盘腿坐在碑前的草地上，打开随身带的保温杯喝了一口热茶。斜阳将方尖碑的影子拉得很长，几乎延伸到伊尔芬河边。我试图想象七百三十多年前的那个下午：卢埃林带着少数随从仓促南下，以为能避开英格兰军队的埋伏，却在渡河时被反叛的威尔士士兵袭击。他不是战死在千军万马中，而是在一条无名小溪旁，被一个长矛手从背后刺中。他倒下后，首级被割下，送到伦敦，套上银冠，悬挂在伦敦塔的城墙上。而这片草地，当时一定被染红了。"
+    "description": "穿过Cilmeri村那条仅容一辆车通过的乡间小路，空气里渐渐透出湿润的泥土和青草味。七月的威尔士田野正盛开着毛茛和野胡萝卜花，蜜蜂嗡嗡地绕着白色的伞形花盘打转。我在一片开阔的牧场边缘停下车，远处连绵的坎布里安山脉像沉睡的绿色巨兽，起伏的脊背上掠过云影。顺着一条被牲畜踩出的泥径走了大约两百米，那座灰白色的方尖碑就突然从低矮的丘陵背后冒了出来——它比我想象中矮小得多，孤零零地立在缓坡上，四周没有栅栏、没有指示牌、没有纪念品商店，只有风吹过长草时发出的沙沙声响。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kelvingrove-art-gallery-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯尔文格罗夫美术馆和博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kelvingrove Art Gallery and Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/leeds-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利兹城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leeds Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greyfriars-kirkyard-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格雷弗里亚教堂墓地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greyfriars Kirkyard Cemetery Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gorsedd-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈瑟德石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorsedd Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/senedd-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    森\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">森内德（威尔士议会大厦）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Senedd</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/clydach-gorge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱达赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Clydach Gorge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kelvingrove-art-gallery-museum",
-          "name": "凯尔文格罗夫美术馆和博物馆",
-          "englishName": "Kelvingrove Art Gallery and Museum"
+          "slug": "gorsedd-stone-circle",
+          "name": "戈瑟德石圈",
+          "englishName": "Gorsedd Stone Circle"
         },
         {
-          "slug": "leeds-castle",
-          "name": "利兹城堡",
-          "englishName": "Leeds Castle"
+          "slug": "senedd-wales",
+          "name": "森内德（威尔士议会大厦）",
+          "englishName": "Senedd"
         },
         {
-          "slug": "greyfriars-kirkyard-edinburgh",
-          "name": "格雷弗里亚教堂墓地",
-          "englishName": "Greyfriars Kirkyard Cemetery Edinburgh"
+          "slug": "clydach-gorge",
+          "name": "克莱达赫峡谷",
+          "englishName": "Clydach Gorge"
         }
       ]
     }

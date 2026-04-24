@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士野湖",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士野湖・Wild Lakes Wales・英国・布雷肯",
-    "description": "我第一次见到威尔士野湖是在一个浓雾弥漫的十月初的早晨。车停在碎石路的尽头，推开生锈的铁丝门，脚踩到松软的苔原上，那一刻我闻到了这辈子最干净的气味——湿润的泥土混着枯叶的腐烂味，偶尔飘过一缕松脂香，像是整个森林在缓慢燃烧。雾把湖面遮得严严实实，只听到水波轻轻拍打岸边的声音，像一只猫在舔牛奶。我站在那儿足足愣了五分钟，直到一阵风把雾撕开一道口子，露出墨绿色的湖心，才确认这不是一幅画。\n走近湖岸，你能看见水底每一块鹅卵石的形状，连小鱼游过时搅起的细小沙粒都清晰可见。我弯腰用指尖碰了一下水面，冰得差点叫出声——那种刺痛仿佛不是从皮肤传来的，而是直钻进骨头里。旁边一个正在换泳衣的本地老大爷冲我笑，用威尔士口音的英语说：“第一次来吧？等你跳进去，身体适应了三十秒，就会觉得这是天堂。”他果然没骗我，当整个人浸入水中，耳朵被水淹没的瞬间，世界突然只剩下心跳声和远处乌鸦的鸣叫。\n湖周围没有游客中心，没有咖啡店，没有垃圾桶，只有一棵被风吹倒的老栎树横在水面上，树皮上长满灰绿色的地衣。几个年轻人坐在树干上，光着脚伸进水里，安静地像在教堂里做礼拜。这种沉默不是尴尬的，而是被自然的力量震慑之后的敬畏。我注意到湖边立着一块巴掌大的石板，上面用白色油漆写着威尔士语“Mae bywyd yma”——这句话的意思是“生命在此”。是啊，这片湖不需要额外装饰，它本身就是最诚实的存在。\n到了中午，阳光终于穿透云层，湖面裂成无数片金色的碎片。我躺在岸边的一块巨砾石上，背被晒得发烫，看着远处布雷肯比肯斯山脊的轮廓，突然明白了为什么威尔士人会把这片湖称作“大地的眼泪”。它太干净了，干净得让人不敢大声说话，怕打扰了一万两千年的沉睡。那一刻我觉得自己不是游客，而是被这片古老土地邀请来喝一杯茶的客人。"
+    "description": "我第一次见到威尔士野湖是在一个浓雾弥漫的十月初的早晨。车停在碎石路的尽头，推开生锈的铁丝门，脚踩到松软的苔原上，那一刻我闻到了这辈子最干净的气味——湿润的泥土混着枯叶的腐烂味，偶尔飘过一缕松脂香，像是整个森林在缓慢燃烧。雾把湖面遮得严严实实，只听到水波轻轻拍打岸边的声音，像一只猫在舔牛奶。我站在那儿足足愣了五分钟，直到一阵风把雾撕开一道口子，露出墨绿色的湖心，才确认这不是一幅画。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pentre-ifan-burial-chamber\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭特雷伊凡墓室</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pentre Ifan Burial Chamber</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-loyne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛因湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Loyne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dyfi-osprey-project\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戴菲鱼鹰保护项目</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dyfi Osprey Project</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/morges-castle-tulip-festival\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫尔日</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Morges</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/triangulation-point-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    三\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">三角测量观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Triangulation Point</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "pentre-ifan-burial-chamber",
-          "name": "彭特雷伊凡墓室",
-          "englishName": "Pentre Ifan Burial Chamber"
+          "slug": "ardvreck-castle",
+          "name": "阿德夫雷克城堡",
+          "englishName": "Ardvreck Castle"
         },
         {
-          "slug": "loch-loyne-viewpoint",
-          "name": "洛因湖观景台",
-          "englishName": "Loch Loyne Viewpoint"
+          "slug": "morges-castle-tulip-festival",
+          "name": "莫尔日",
+          "englishName": "Morges"
         },
         {
-          "slug": "dyfi-osprey-project",
-          "name": "戴菲鱼鹰保护项目",
-          "englishName": "Dyfi Osprey Project"
+          "slug": "triangulation-point-wales",
+          "name": "三角测量观景点",
+          "englishName": "Triangulation Point"
         }
       ]
     }

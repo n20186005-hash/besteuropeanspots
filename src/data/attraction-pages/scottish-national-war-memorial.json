@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰国家战争纪念馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "苏格兰国家战争纪念馆・Scottish National War Memorial・英国・爱丁堡",
-    "description": "走进苏格兰国家战争纪念馆的那一刻，你几乎不会意识到自己已经跨过了门槛。因为它就安静地矗立在爱丁堡城堡的最深处，像一颗心脏一样沉静。我来的时候是个有点阴冷的秋天下午，天空飘着细细的雨丝，城堡的灰色石墙上挂满了湿漉漉的水珠。穿过城堡内院，绕过那些扛着长枪的游客和穿着苏格兰裙的讲解员，我顺着指示牌走进一扇并不起眼的拱门，然后世界突然安静了。\n空气里有一种混合了古老石头、蜂蜡和干枯鲜花的气味，那种气味很独特，像图书馆里最老的那些书，又像教堂里刚点燃的蜡烛熄灭后残留的烟。头顶的彩色玻璃窗把光线滤成了柔和的宝蓝色和深红色，在地板上投下斑驳的光影。纪念馆的中殿不大，但非常高挑，两边的墙壁上密密麻麻刻满了名字——那些在一战和二战中牺牲的苏格兰士兵的名字。每当你抬头，都像是面对一片由字母组成的瀑布，静静倾泻而下。\n这里没有华丽的装饰，没有喧哗的讲解器，只有一个石制的祭坛，上面摆放着一本巨大的皮面名录，记录着阵亡者的姓名。很多家庭会来到这里，在某个名字前停下，用手轻轻抚摸那凹下去的字母。我看到一个头发花白的老人，穿着一件旧风衣，站在一面墙前默默注视了很久，然后从口袋里掏出一小块银色的东西，小心地放在一个名字下面的缝隙里——也许是一枚硬币，也许是一枚徽章。他没有哭，但摘下眼镜擦了擦。\n最打动我的，其实是纪念馆门口的铭文。没有激昂的口号，只有两个简单的词：“To the Glory of God”和“To the Memory of the Glorious Dead”。这座建筑不仅仅是为战争而建，更是为那些在战争中失去的生命而建。它提醒你，每一个名字背后都是一个曾经会笑会哭的人，他们有家人、有爱人、有未完成的梦。在这样一个越来越浮躁的时代，能够找到如此一个让人安静下来、认真思考死亡和生命意义的地方，真的非常难得。"
+    "description": "走进苏格兰国家战争纪念馆的那一刻，你几乎不会意识到自己已经跨过了门槛。因为它就安静地矗立在爱丁堡城堡的最深处，像一颗心脏一样沉静。我来的时候是个有点阴冷的秋天下午，天空飘着细细的雨丝，城堡的灰色石墙上挂满了湿漉漉的水珠。穿过城堡内院，绕过那些扛着长枪的游客和穿着苏格兰裙的讲解员，我顺着指示牌走进一扇并不起眼的拱门，然后世界突然安静了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scone-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯昆宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scone Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafna-lead-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pen-y-fan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩尼范山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen y Fan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pili-palas-nature-world\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮利帕拉斯自然世界</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pili Palas Nature World</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "scone-palace",
-          "name": "斯昆宫",
-          "englishName": "Scone Palace"
+          "slug": "cwm-rhaeadr-forest",
+          "name": "坎姆拉德森林瀑布",
+          "englishName": "Cwm Rhaeadr Forest"
         },
         {
-          "slug": "hafna-lead-mine",
-          "name": "哈夫纳铅矿",
-          "englishName": "Hafna Lead Mine"
+          "slug": "pen-y-fan",
+          "name": "佩尼范山",
+          "englishName": "Pen y Fan"
         },
         {
-          "slug": "borth",
-          "name": "博斯",
-          "englishName": "Borth"
+          "slug": "pili-palas-nature-world",
+          "name": "皮利帕拉斯自然世界",
+          "englishName": "Pili Palas Nature World"
         }
       ]
     }

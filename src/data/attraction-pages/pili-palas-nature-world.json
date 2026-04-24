@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰韦尔普尔（Llanfairpwll）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "皮利帕拉斯自然世界",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "皮利帕拉斯自然世界・Pili Palas Nature World・英国・兰韦尔普尔（Llanfairpwll）",
-    "description": "推开那道不起眼的玻璃门，最先迎接你的不是蝴蝶，而是一股温热的、带着泥土和腐叶气息的潮气——像在威尔士阴冷的海风里突然被抛进了赤道的午后。眼前层层叠叠的绿色从四面八方涌过来，芭蕉的宽叶几乎要蹭到你的脸，藤蔓从头顶垂下，滴水观音的叶片上凝着水珠，光线穿过湿漉漉的玻璃穹顶，在空气中滤出淡淡的金色。耳边是持续不断的流水声、鸟鸣、某种昆虫发出的滴滴声，还有游客压低嗓门发出的惊叹。你还没站稳，一只蓝闪蝶就从你肩头滑过，翅膀上细碎的光粉像被风吹散的蓝墨水。\n这地方叫Pili Palas，威尔士语里就是“蝴蝶宫”的意思，但当地人更喜欢叫它“那个玻璃房子”。它在安格尔西岛的田野中央，周围是成片的牧场和石墙，远远看过去就像外星人降落在威尔士的羊群中间。走进去之后，你会发现不只是蝴蝶——这里有色彩艳丽的椋鸟、自由游荡的鬃狮蜥、蜷在树枝上的绿树蟒，还有一只总爱站在最显眼的木桩上假装雕塑的变色龙。最让我着迷的，是那些蝴蝶完全不怕人。它们会在你手臂上歇脚，用长长的喙试探你的皮肤，那种痒痒的、像羽毛扫过的触感会让你瞬间安静下来，连呼吸都不自觉放轻了。\n当地的老奶奶们周末喜欢带着孙辈来，自己则坐在温室的木椅上晒太阳，织着毛衣聊家常，蝴蝶就在她们膝盖边绕来绕去。有次我看见一个卷发小男孩追着一只橙色蝴蝶跑了好几圈，最后蝴蝶落在他的鼻尖上，他妈妈举着手机狂按快门，蝴蝶却纹丝不动，好像在刻意配合。那种毫无违和感的共存，让人觉得眼前这方小小的热带世界就是威尔士人自己造的梦——外面是阴沉的天空和石楠花丛，里面却是雨林深处最温柔的呼吸。"
+    "description": "推开那道不起眼的玻璃门，最先迎接你的不是蝴蝶，而是一股温热的、带着泥土和腐叶气息的潮气——像在威尔士阴冷的海风里突然被抛进了赤道的午后。眼前层层叠叠的绿色从四面八方涌过来，芭蕉的宽叶几乎要蹭到你的脸，藤蔓从头顶垂下，滴水观音的叶片上凝着水珠，光线穿过湿漉漉的玻璃穹顶，在空气中滤出淡淡的金色。耳边是持续不断的流水声、鸟鸣、某种昆虫发出的滴滴声，还有游客压低嗓门发出的惊叹。你还没站稳，一只蓝闪蝶就从你肩头滑过，翅膀上细碎的光粉像被风吹散的蓝墨水。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maen-llia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利亚巨石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen Llia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lochindorb-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛钦多布城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lochindorb Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/neist-point-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奈斯特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neist Point Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "conwy-falls",
-          "name": "康威瀑布",
-          "englishName": "Conwy Falls"
+          "slug": "beauly-priory",
+          "name": "博利修道院",
+          "englishName": "Beauly Priory"
         },
         {
-          "slug": "llandudno-bandstand",
-          "name": "兰迪德诺音乐台",
-          "englishName": "Llandudno Bandstand"
+          "slug": "lochindorb-castle",
+          "name": "洛钦多布城堡",
+          "englishName": "Lochindorb Castle"
         },
         {
-          "slug": "maen-llia",
-          "name": "利亚巨石",
-          "englishName": "Maen Llia"
+          "slug": "neist-point-lighthouse",
+          "name": "奈斯特角灯塔",
+          "englishName": "Neist Point Lighthouse"
         }
       ]
     }

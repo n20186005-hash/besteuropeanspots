@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "瑟索（Thurso）附近，苏格兰北部高地",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "喜纳本海滩",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "喜纳本海滩・Ceannabeinne Beach・英国・瑟索（Thurso）附近，苏格兰北部高地",
-    "description": "说实话，我第一次听到Ceannabeinne Beach这个名字是在一家因弗内斯的青年旅舍，一个刚从北部回来的人用手机给我看了张照片，阳光把沙滩照得像刚打出来的奶油，海浪拍打着赭红色的砂岩断崖，他跟我说那是苏格兰最不像苏格兰的地方。我当时半信半疑，因为高地的著名海滩我大多去过，要么阴冷灰暗，要么风大到能把人吹倒。但当我真正站在瑟索以北那片没有路标的海岸线上时，我的呼吸几乎停住了。\n那是一个六月傍晚，空气中弥漫着海盐和湿沙的咸腥味，混合着远处草甸上野花的甜香——紫色的滨海刺芹和金黄色的欧石楠像地毯一样延伸到沙丘顶端。我光脚踩在沙子上，细沙比我想象的凉，但很柔软，每一步都会留下深深的脚印。风不大，所以海面没有那种暴躁的白色浪花，而是温和地掀起一面面蓝色的波光，像液态的玻璃在慢慢碎裂。远处有海鸥的叫声，还有一种更低沉的声音——是海豹在远处的礁石上打呼噜。\n这片海滩最打动我的，是它的孤独感。几乎没有游客，只有一条被羊踩出来的小径沿着沙丘蜿蜒。我坐在一块被风吹得发白的浮木上，看着潮汐慢慢舔舐沙滩，那种静默不是城市的安静，而是整个空间都在呼吸的律动。时间在这里变得无关紧要，手机没信号，唯一能做的事情就是发呆。我突然理解为什么当地人如此珍视这个地方——它不提供任何娱乐设施，没有咖啡厅没有厕所没有救生员，它只提供纯粹的、甚至有些严苛的自然本身。\n夕阳西斜时，光线斜穿过云层，沙丘的阴影拉得很长，每一道波纹都清晰如指纹。我注意到沙滩上有一些小小的脚印，是狐狸留下的，还有螃蟹横行时形成的扭曲线条。这个海滩像一个未被翻阅的日记本，每一页都写满了野生动物的秘密。如果你愿意花时间，它会把苏格兰最野性、最温柔的一面同时呈现给你。"
+    "description": "说实话，我第一次听到Ceannabeinne Beach这个名字是在一家因弗内斯的青年旅舍，一个刚从北部回来的人用手机给我看了张照片，阳光把沙滩照得像刚打出来的奶油，海浪拍打着赭红色的砂岩断崖，他跟我说那是苏格兰最不像苏格兰的地方。我当时半信半疑，因为高地的著名海滩我大多去过，要么阴冷灰暗，要么风大到能把人吹倒。但当我真正站在瑟索以北那片没有路标的海岸线上时，我的呼吸几乎停住了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/balmoral-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔莫勒尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balmoral Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bryn-cader-faner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林卡德法纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bryn Cader Faner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/craigmillar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷格米勒城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigmillar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/strome-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特罗姆城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Strome Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "balmoral-castle",
-          "name": "巴尔莫勒尔城堡",
-          "englishName": "Balmoral Castle"
+          "slug": "bryn-cader-faner",
+          "name": "布林卡德法纳",
+          "englishName": "Bryn Cader Faner"
         },
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "craigmillar-castle",
+          "name": "克雷格米勒城堡",
+          "englishName": "Craigmillar Castle"
         },
         {
-          "slug": "cawdor-castle-and-gardens",
-          "name": "考德城堡与花园",
-          "englishName": "Cawdor Castle and Gardens"
+          "slug": "strome-castle",
+          "name": "斯特罗姆城堡",
+          "englishName": "Strome Castle"
         }
       ]
     }

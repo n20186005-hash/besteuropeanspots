@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "敦巴顿（Dumbarton）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "敦巴顿城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "敦巴顿城堡・Dumbarton Castle・英国・敦巴顿（Dumbarton）",
-    "description": "天刚蒙蒙亮，我从格拉斯哥乘火车出发，车厢里只有几个裹着厚厚冲锋衣的当地人，空气里弥漫着淡淡的咖啡和雨水的味道。火车穿过一片雾蒙蒙的田野，大约二十分钟后，我透过车窗瞥见了一个轮廓——一座漆黑的、仿佛从大地深处突兀刺出的双峰火山岩，像一头沉睡的史前巨兽的脊背。那就是敦巴顿城堡。它不是那种童话里尖顶金碧辉煌的城堡，它沉默、冷峻，几乎和身后的铅灰色天空融为一体。\n从敦巴顿中央火车站走出来，冷冽的河风扑面而来。沿着Castle Road向上走，脚下的石板湿漉漉的，两侧低矮的石头房屋被雨水洗得发亮。路上几乎没有游客，只有偶尔路过的老人会冲我点点头。走到半途，城堡的全貌终于展现出来——它几乎垂直于地面，像一块被遗落在人间的巨型刀锋。通往入口的那条台阶藏在岩石的缝隙里，每一步都踩在千年前凿出的石阶上，耳边只有风声和自己的喘息。我能闻到岩石表面苔藓和地衣被潮气蒸出的、带着泥土腥味的湿润气息。\n走进城堡内部，你立刻会明白它为什么被誉为“北方直布罗陀”。空间极其局促，所有建筑都紧贴岩壁而建，没有宽敞的庭院或花园。我爬上那两百多级通往主峰的螺旋台阶，台阶又窄又湿，有些地方甚至只容一人侧身通过。每转一圈，窗外的风景就越发壮阔。到了山顶，整个克莱德河入海口尽收眼底，河水在灰色天空下泛着金属般的光泽，远处的本洛蒙德山（Ben Lomond）若隐若现。这种视野不是用来赏景的，而是纯粹为了生存——为了在敌人还在数公里之外时就能发现他们。\n最打动我的，是城堡那种毫不掩饰的沧桑。墙砖上刻着从16世纪到20世纪士兵们随手留下的刻字，有家族的符号，有孤独的日期，也有一些我读不懂的拉丁文。在一处瞭望台的墙角，我看见一块小铁牌，上面写着“威廉·华莱士在前往伦敦受刑前，曾在此处的石牢中被关押。” 阳光短暂地拨开云层，照在那块小小的铁牌上，照得上面水珠闪闪发亮。那一刻，我真正感到了历史的重量——不是教科书上的历史，而是那种带着铁锈味、草腥味、潮湿的石头味的历史。"
+    "description": "天刚蒙蒙亮，我从格拉斯哥乘火车出发，车厢里只有几个裹着厚厚冲锋衣的当地人，空气里弥漫着淡淡的咖啡和雨水的味道。火车穿过一片雾蒙蒙的田野，大约二十分钟后，我透过车窗瞥见了一个轮廓——一座漆黑的、仿佛从大地深处突兀刺出的双峰火山岩，像一头沉睡的史前巨兽的脊背。那就是敦巴顿城堡。它不是那种童话里尖顶金碧辉煌的城堡，它沉默、冷峻，几乎和身后的铅灰色天空融为一体。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/conwy-town-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Town Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calanais-standing-stones\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡兰尼什巨石阵</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calanais Standing Stones</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brean-down-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林当堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brean Down Fort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/storiel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯托里尔博物馆与艺术画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Storiel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nolton-haven-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺尔顿港湾海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nolton Haven Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "conwy-town-walls",
-          "name": "康威城墙",
-          "englishName": "Conwy Town Walls"
+          "slug": "storiel",
+          "name": "斯托里尔博物馆与艺术画廊",
+          "englishName": "Storiel"
         },
         {
-          "slug": "calanais-standing-stones",
-          "name": "卡兰尼什巨石阵",
-          "englishName": "Calanais Standing Stones"
+          "slug": "nolton-haven-beach",
+          "name": "诺尔顿港湾海滩",
+          "englishName": "Nolton Haven Beach"
         },
         {
-          "slug": "brean-down-fort",
-          "name": "布林当堡垒",
-          "englishName": "Brean Down Fort"
+          "slug": "loch-achtriochtan-glen-coe",
+          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
+          "englishName": "Loch Achtriochtan, Glen Coe"
         }
       ]
     }

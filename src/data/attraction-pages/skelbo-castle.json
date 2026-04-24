@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "萨瑟兰（Sutherland）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯凯尔博城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯凯尔博城堡・Skelbo Castle・英国・萨瑟兰（Sutherland）",
-    "description": "我第一次看见斯凯尔博城堡的时候，是在一个被海雾笼罩的黄昏。我开着租来的小车，沿着狭窄的B9136乡道颠簸前行，GPS信号早就断了，只有路边偶尔出现的锈蚀路标指着一个叫“Skelbo”的陌生名字。然后雾气突然撕裂开一道口子，我看到了它——那座灰黑色的石头骨架，像一头搁浅在悬崖上的巨鲸，背靠着铅灰色的北海。风从那道口子里灌进来，带着盐、海藻和腐烂泥炭的气味，我甚至能听到城堡里那些空的窗洞在呜咽。\n走近城堡需要穿过一片长满蕨类植物和野荆棘的草坡。脚下是软烂的泥炭地，踩上去会发出沉闷的吸吮声，像大地在呼吸。城堡的大门早已坍塌，只剩一个歪斜的拱门，门楣上的石头长满了黄绿色的地衣，摸上去冰凉湿滑。跨过门槛，便是曾经的大厅——现在是一大片被海风吹得干干净净的碎石地面，中央长出了一棵孤独的山楂树，它的根系从石头缝隙里钻进去，像是要把城堡的骨头紧紧抓住。我站在原地仰头看，天空是破碎的，被残墙切割成不规则的一块，几只海鸥在高处盘旋，它们的叫声在空旷的石头间来回碰撞，听起来像久远年代的叹息。\n最震撼的是站在悬崖边看城堡的背影。它最外沿的城墙悬空在几十米高的垂直石壁上，下边是永不停歇的北海白浪。海浪拍打礁石的声音低沉而持久，像心跳。我坐在一块掉落的城砖上，发现石头上刻着浅浅的字母——“J.M. 1893”，大概是某个一百多年前的游客留下的痕迹。我突然觉得，这座城堡其实一直活着，它用石头、地衣和海风在记录时间，而我们这些路过的人，不过是它记忆里飘过的一缕风。"
+    "description": "我第一次看见斯凯尔博城堡的时候，是在一个被海雾笼罩的黄昏。我开着租来的小车，沿着狭窄的B9136乡道颠簸前行，GPS信号早就断了，只有路边偶尔出现的锈蚀路标指着一个叫“Skelbo”的陌生名字。然后雾气突然撕裂开一道口子，我看到了它——那座灰黑色的石头骨架，像一头搁浅在悬崖上的巨鲸，背靠着铅灰色的北海。风从那道口子里灌进来，带着盐、海藻和腐烂泥炭的气味，我甚至能听到城堡里那些空的窗洞在呜咽。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pulteney-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普尔特尼桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pulteney Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kelvingrove-art-gallery-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯尔文格罗夫美术馆和博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kelvingrove Art Gallery and Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llangollen-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰戈伦博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llangollen Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kilt-rock-waterfall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰裙岩瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilt Rock Waterfall - Creag An Fhèilidh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinas-bran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪纳斯布兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinas Brân</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "pulteney-bridge",
-          "name": "普尔特尼桥",
-          "englishName": "Pulteney Bridge"
+          "slug": "cuween-hill-chambered-cairn",
+          "name": "库温山墓室石堆",
+          "englishName": "Cuween Hill Chambered Cairn"
         },
         {
-          "slug": "kelvingrove-art-gallery-museum",
-          "name": "凯尔文格罗夫美术馆和博物馆",
-          "englishName": "Kelvingrove Art Gallery and Museum"
+          "slug": "kilt-rock-waterfall",
+          "name": "苏格兰裙岩瀑布",
+          "englishName": "Kilt Rock Waterfall - Creag An Fhèilidh"
         },
         {
-          "slug": "llangollen-museum",
-          "name": "兰戈伦博物馆",
-          "englishName": "Llangollen Museum"
+          "slug": "castell-dinas-bran",
+          "name": "迪纳斯布兰城堡",
+          "englishName": "Castell Dinas Brân"
         }
       ]
     }

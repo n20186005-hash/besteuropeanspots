@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰，内赫布里底群岛，斯塔法岛（最近小镇为莫尔岛上的托伯莫里，以及奥本）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "芬戈尔洞（斯塔法岛国家自然保护区）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "芬戈尔洞（斯塔法岛国家自然保护区）・Staffa National Nature Reserve - Fingal's Cave・英国・苏格兰，内赫布里底群岛，斯塔法岛（最近小镇为莫尔岛上的托伯莫里，以及奥本）",
-    "description": "想象一下，你正乘坐一艘小小的木质快艇，在苏格兰西海岸大西洋冰冷的深蓝色海面上颠簸。海风带着浓重的咸味和零星海鸟的叫声直扑而来，浪花时不时拍上船舷，让你必须紧紧抓住金属扶手。大约半小时后，一座孤零零的小岛轮廓出现在雾霭中——它像一只巨大的、平顶的深海怪兽，露出灰黑色的背脊。这就是斯塔法岛。当船逐渐靠近南侧海崖时，你一下子屏住了呼吸：整面悬崖像是用尺子精确刻画过一样，由无数根近乎完美的六边形灰色石柱垂直构成，从海面一直延绵到三十米高的崖顶，就像一座被封印的史前神殿。\n下船踏上唯一的小码头，你立刻会感受到一种奇妙的寂静。游客很少，离渡口仅几百米，但整个世界似乎只剩下两种声音：海浪拍打玄武岩柱根部的闷响，以及脚下湿滑石阶上你轻微的呼吸声。沿着悬崖边一条狭窄的、被海鸟粪便和盐渍涂抹得发白的石径走几分钟，你忽然听到了……一种声音。它起初像风穿过教堂管风琴的低语，然后渐渐变强，变成一种深沉而有节奏的轰鸣。绕过一块巨石，洞口出现了——它比想象中更大，更震撼。那是一个高达20米、深约70米的海蚀巨洞，洞口被整齐排列的黑色石柱拱卫，仿佛一扇通向地狱，或者天堂的大门。巨大的蓝色海浪涌进洞内，在石壁上回弹，发出空洞而悠远的回响。这就是芬戈尔洞，一个自然与音乐浑然天成的奇迹。\n最令我难忘的是目光移向洞内深处的时刻。阳光从洞口斜射进去，反射在绿色的藻类和湿润的玄武岩上，整个洞穴内部呈现出一种幽蓝、翡翠色的微光。我试着在洞口坐下来，安静地待了二十分钟，什么也不做，就只是听着。你能清楚地分辨出每一次涌入的海浪所产生的不同声调：有的沉如大提琴的低弓，有的尖亮如小提琴的滑音。这种感觉太过私密，以至于当后来有人开始大声呼喊同伴时，我感到了一种不舍，像是被人打断了深夜独自聆听的一场没有乐师的私人音乐会。\n这不仅是自然奇观，更像是一个巨大的声学殿堂，一个被岩浆和时间雕刻出来的巨型乐器。在这个任何工业化噪音都到不了的世界尽头，你会真正理解为什么门德尔松在听了这里的声音后，会激动得不能自已，写下了那首传世之作。它让你从一个现代人的忙碌中瞬间抽离，变成一个远古的、沉默的朝圣者。"
+    "description": "想象一下，你正乘坐一艘小小的木质快艇，在苏格兰西海岸大西洋冰冷的深蓝色海面上颠簸。海风带着浓重的咸味和零星海鸟的叫声直扑而来，浪花时不时拍上船舷，让你必须紧紧抓住金属扶手。大约半小时后，一座孤零零的小岛轮廓出现在雾霭中——它像一只巨大的、平顶的深海怪兽，露出灰黑色的背脊。这就是斯塔法岛。当船逐渐靠近南侧海崖时，你一下子屏住了呼吸：整面悬崖像是用尺子精确刻画过一样，由无数根近乎完美的六边形灰色石柱垂直构成，从海面一直延绵到三十米高的崖顶，就像一座被封印的史前神殿。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/croeso-i-gymru-welcome-sign\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士欢迎标志牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Croeso i Gymru Welcome Sign</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ynyslas-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊尼斯拉斯国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ynyslas National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/penrhos-engine-house-brymbo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭罗斯引擎屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Penrhos Engine House, Brymbo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-man-of-hoy\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老人岩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Man of Hoy</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "croeso-i-gymru-welcome-sign",
-          "name": "威尔士欢迎标志牌",
-          "englishName": "Croeso i Gymru Welcome Sign"
+          "slug": "ynyslas-national-nature-reserve",
+          "name": "伊尼斯拉斯国家自然保护区",
+          "englishName": "Ynyslas National Nature Reserve"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "penrhos-engine-house-brymbo",
+          "name": "彭罗斯引擎屋",
+          "englishName": "Penrhos Engine House, Brymbo"
         },
         {
-          "slug": "castell-coch",
-          "name": "科奇城堡",
-          "englishName": "Castell Coch"
+          "slug": "old-man-of-hoy",
+          "name": "老人岩",
+          "englishName": "Old Man of Hoy"
         }
       ]
     }

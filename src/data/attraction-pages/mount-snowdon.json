@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡那封 (Caernarfon) / 兰贝里斯 (Llanberis)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯诺登山",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯诺登山・Mount Snowdon・英国・卡那封 (Caernarfon) / 兰贝里斯 (Llanberis)",
-    "description": "第一次见到斯诺登山，是在一个雾蒙蒙的清晨。我从兰贝里斯村出发，沿着Llanberis Path往上走，脚下是湿漉漉的石板路，两侧的羊群用好奇的眼神打量着你，偶尔“咩”一声，声音被山谷里的风拉得又长又慢。你闻得到泥土和野百里香混合的香气，空气里夹着北威尔士特有的那种潮湿——不是雨，是山雾拧出来的冰凉水汽。走了大约半小时，天空裂开一道口子，阳光斜斜地洒在对面的岩壁上，整个山体忽然从灰蓝色的影子变成一块镀金的绿毯，那些藏在阴影里的冰斗湖像碎掉的蓝宝石，一瞬间亮得让人想哭。\n后来我坐在半山腰的废墟石墙旁吃三明治，旁边一个背着巨大登山包的威尔士老头递给我保温杯里的热茶，他说他每周都来一次，已经爬了四十多年。“这座山每一块石头都认识我，”他用带着浓重口音的英语说，“它也会认识你的，只要你愿意听。”他的皱纹像山脊上的裂缝，眼睛里却闪着少年才有的光。我突然明白，斯诺登山不需要门票，不需要攻略，它只需要你带上双腿和一颗安静的心，然后把自己交给那条弯弯曲曲的山路。\n当地人的生活完全绕着这座山转。兰贝里斯的面包店早上六点就开始排长队，矿工和徒步客挤在一起买刚出炉的肉馅饼；傍晚的山脚酒吧里，你总能听到老头儿们用威尔士语争论今天哪条路最好走。山脚下的火车汽笛声是这座小镇的心跳，每天把几百人送上山顶，又把几百个疲惫的脚板接回来。对威尔士人来说，斯诺登山不是什么旅游景点，它就是一个长大的后花园，一个必须时不时回来看看的老朋友。\n真正打动我的，是山顶那种近乎失语的空旷。站在1085米的制高点，风大得几乎要把人吹跑，但你放眼望去，北面是爱尔兰海的无垠灰蓝，南面是威尔士腹地起伏的绿色褶皱，云在你脚下翻滚，仿佛整个世界都变成了你的地图。你不再是一个游客，而是一个站在世界屋脊上的孩子，渺小却自由。那一刻我理解了为什么威尔士人管这个地方叫“Yr Wyddfa”——坟墓，埋葬了巨人肉身的地方，也埋葬了我心里的所有焦虑。"
+    "description": "第一次见到斯诺登山，是在一个雾蒙蒙的清晨。我从兰贝里斯村出发，沿着Llanberis Path往上走，脚下是湿漉漉的石板路，两侧的羊群用好奇的眼神打量着你，偶尔“咩”一声，声音被山谷里的风拉得又长又慢。你闻得到泥土和野百里香混合的香气，空气里夹着北威尔士特有的那种潮湿——不是雨，是山雾拧出来的冰凉水汽。走了大约半小时，天空裂开一道口子，阳光斜斜地洒在对面的岩壁上，整个山体忽然从灰蓝色的影子变成一块镀金的绿毯，那些藏在阴影里的冰斗湖像碎掉的蓝宝石，一瞬间亮得让人想哭。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/canterbury-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎特伯雷大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Canterbury Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/inverness-castle-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因弗内斯城堡体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Inverness Castle Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chirk-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奇\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奇克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chirk Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dryslwyn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德莱斯林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dryslwyn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-einion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库姆艾尼恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Einion</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "canterbury-cathedral",
-          "name": "坎特伯雷大教堂",
-          "englishName": "Canterbury Cathedral"
+          "slug": "castell-dryslwyn",
+          "name": "德莱斯林城堡",
+          "englishName": "Castell Dryslwyn"
         },
         {
-          "slug": "inverness-castle-experience",
-          "name": "因弗内斯城堡体验",
-          "englishName": "The Inverness Castle Experience"
+          "slug": "castell-coch",
+          "name": "科奇城堡",
+          "englishName": "Castell Coch"
         },
         {
-          "slug": "chirk-castle",
-          "name": "奇克城堡",
-          "englishName": "Chirk Castle"
+          "slug": "cwm-einion",
+          "name": "库姆艾尼恩",
+          "englishName": "Cwm Einion"
         }
       ]
     }

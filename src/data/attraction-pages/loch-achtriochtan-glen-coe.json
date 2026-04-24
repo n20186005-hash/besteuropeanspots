@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦科（Glencoe，苏格兰高地行政区）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格伦科峡谷中的阿赫特里奥赫坦湖",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格伦科峡谷中的阿赫特里奥赫坦湖・Loch Achtriochtan, Glen Coe・英国・格伦科（Glencoe，苏格兰高地行政区）",
-    "description": "我在一个微凉的九月清晨抵达Loch Achtriochtan。A82公路在格伦科峡谷中蜿蜒，路边没有任何醒目的标识，只有一块半埋在石楠丛中的小木牌，写着湖的名字——光是念出那几个陌生的音节，就觉得舌头上沾满了苏格兰高地的湿气。我把车停在路肩的碎石带上，几乎是跌跌撞撞地冲下车，因为眼前的景象让我忘记了呼吸。\n湖水极其平静，像一张暗灰色的薄绸，把天空、云影、以及那三座被称为“三姐妹”的巨峰完整地收纳在腹中。我蹲下身子，指尖触碰到水面的瞬间，一股刺骨的寒意顺着神经窜上头皮——这不是夏天的湖水，而是储存了千年前冰川融化时温度的冰水。我听见的只有风声和鸟鸣，偶尔有公路上一辆过路车的引擎声被峡谷的两壁压缩成一声叹息。空气中弥漫着湿润的草腥味，还有淡淡的泥炭味，像是从湖底深处透过水波的缝隙渗透上来。\n在湖东岸有一片柔软的草甸，我索性仰面躺下，睁眼看着那些山峰——它们不是雄伟，而是一种近乎傲慢的矗立。山顶的石英岩在晨光下泛着灰白色的磷光，仿佛在嘲笑人类渺小的生命尺度。令人震撼的是寂静。一种如此彻底的寂静，让耳膜有了轻微的压迫感。我闭上眼睛，甚至能听到自己血液流动的声音，与远处溪水潺潺的细响编织成一首只有此刻才能听到的乐章。\n当地人很少特意来这里。他们更习惯去Glencoe Visitor Centre喝咖啡或去Clachaig Inn喝酒。但Loch Achtriochtan不需要人群的喧嚣来证明自己的存在。它像一位苍老的流浪诗人，静静地卧在谷地中央，用镜面般的湖水把天空、山峦和那个1692年冬天的惨叫声全部封存进倒影。我觉得自己不是来旅游的，而是来朝圣的——朝拜一种沉默而伟大的自然之力，朝拜苏格兰高地那被屠杀与孤独喂养出来的倔强灵魂。"
+    "description": "我在一个微凉的九月清晨抵达Loch Achtriochtan。A82公路在格伦科峡谷中蜿蜒，路边没有任何醒目的标识，只有一块半埋在石楠丛中的小木牌，写着湖的名字——光是念出那几个陌生的音节，就觉得舌头上沾满了苏格兰高地的湿气。我把车停在路肩的碎石带上，几乎是跌跌撞撞地冲下车，因为眼前的景象让我忘记了呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lealt-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尔特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lealt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kytra-lock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯特拉水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kytra Lock</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kilt-rock-waterfall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰裙岩瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilt Rock Waterfall - Creag An Fhèilidh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flodden-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗洛登城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flodden Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lealt-falls",
-          "name": "利尔特瀑布",
-          "englishName": "Lealt Falls"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         },
         {
-          "slug": "castlerigg-stone-circle",
-          "name": "卡斯尔里格石圈",
-          "englishName": "Castlerigg Stone Circle"
+          "slug": "kilt-rock-waterfall",
+          "name": "苏格兰裙岩瀑布",
+          "englishName": "Kilt Rock Waterfall - Creag An Fhèilidh"
         },
         {
-          "slug": "kytra-lock",
-          "name": "凯特拉水闸",
-          "englishName": "Kytra Lock"
+          "slug": "flodden-wall",
+          "name": "弗洛登城墙",
+          "englishName": "Flodden Wall"
         }
       ]
     }

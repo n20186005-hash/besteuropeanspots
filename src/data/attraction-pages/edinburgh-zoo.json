@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡动物园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "爱丁堡动物园・Edinburgh Zoo・英国・爱丁堡",
-    "description": "第一次站在爱丁堡动物园门口时，我几乎以为自己走错了地方。没有那种充斥着水泥和铁栅栏的压迫感，眼前是一条缓缓爬升的林荫道，两旁是高大的苏格兰松树，阳光透过枝叶洒下斑驳的光影。空气里混着青草和泥土的湿润气息，远处隐约传来某种灵长类特有的叫声，像丛林深处的呼唤。\n售票处的复古小亭子散发着蜡和纸张的旧书店味道，工作人员递给我一张手绘地图，上面用可爱的卡通动物标注着各个展区。沿着斜坡往上走，第一个邂逅的是火烈鸟池塘——那些粉红色的长腿家伙正单脚站在浅水中，偶尔把头扎进水底，掀起一圈圈涟漪。晨光把它们的羽毛染成了珊瑚色，与背后翠绿的小山丘形成油画般对比。一位推着婴儿车的妈妈停下来，给蹒跚学步的孩子指着火烈鸟说：“你看，它们在跳舞呢。”\n最打动我的不是大明星企鹅，而是红熊猫馆。走进那个幽暗的仿云雾森林展区，空气骤然变得凉爽潮湿，弥漫着竹叶和松脂的清香。一只小熊猫正懒洋洋地趴在树杈上，蓬松的尾巴像一条橙红色的围巾垂下来，它伸出手掌慢吞吞地抓了一把竹叶塞进嘴里，咀嚼时发出清脆的嘎吱声。旁边的小女孩屏住呼吸，眼睛瞪得溜圆，她小声对父亲说：“它吃东西的样子好像我的仓鼠呀。”那一刻我忽然明白，好的动物园不是让动物表演，而是让人隔着玻璃屏息凝视它们的真实。"
+    "description": "第一次站在爱丁堡动物园门口时，我几乎以为自己走错了地方。没有那种充斥着水泥和铁栅栏的压迫感，眼前是一条缓缓爬升的林荫道，两旁是高大的苏格兰松树，阳光透过枝叶洒下斑驳的光影。空气里混着青草和泥土的湿润气息，远处隐约传来某种灵长类特有的叫声，像丛林深处的呼唤。"
   },
   "sections": [
     {
@@ -62,17 +62,17 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castell-dolwyddelan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多尔威德兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dolwyddelan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-coed</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ffridd-faldwyn-iron-age-hillfort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里德法尔德文铁器时代山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ffridd Faldwyn Iron Age Hillfort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinas-bran\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪纳斯布兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinas Brân</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castell-dolwyddelan",
-          "name": "多尔威德兰城堡",
-          "englishName": "Castell Dolwyddelan"
+          "slug": "ffridd-faldwyn-iron-age-hillfort",
+          "name": "弗里德法尔德文铁器时代山堡",
+          "englishName": "Ffridd Faldwyn Iron Age Hillfort"
         },
         {
-          "slug": "betws-y-coed",
-          "name": "贝图斯-科伊德",
-          "englishName": "Betws-y-coed"
+          "slug": "castell-dinas-bran",
+          "name": "迪纳斯布兰城堡",
+          "englishName": "Castell Dinas Brân"
         },
         {
           "slug": "animal-wall",

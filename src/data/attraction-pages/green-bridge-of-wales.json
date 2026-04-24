@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "绿色桥",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "绿色桥・Green Bridge of Wales・英国・彭布罗克郡",
-    "description": "我第一次看到绿色桥，是在一个阴沉的十月下午。车子停在Bosherston外的停车场时，天空正在小雨和晴朗之间激烈拉扯。我沿着海岸步道往前走，风大得几乎要把人吹跑，耳边全是海浪撞击悬崖的轰鸣声。大约走了十五分钟，绕过一片野生的金雀花丛，它突然出现了——不是平地突起的宏伟金字塔，也不是古老教堂那种庄严的对称，而是一座被海水硬生生掏空的巨大石灰岩。它就那样横跨在两层峭壁之间，底部是一个近乎完美的椭圆形空洞，海浪正愤怒地从那个洞里翻涌而出。那种震撼感让我瞬间忘记了呼吸。你能看到白色泡沫在疯狂里炸开，然后又被吸回去，仿佛整块岩石是一只巨大的古代海兽，正用它仅剩的最后一个肺尽力呼吸。\n那种感觉很奇怪。它不像人间的建筑，因为它根本没有比例的概念。它太高、太宽、太古老。你站在对面的悬崖上，目测二十米的距离，但你会觉得自己像一粒灰尘被悬在宇宙里。空气中弥漫着岩盐、海藻和泥炭混合的气味，带着一种略微发霉的咸味。风把那些咸味直接灌进你的鼻孔，你甚至觉得自己的牙齿上都沾着盐。脚下是碎裂的黑色页岩，踩上去发出清脆的咔嚓声。那片海的颜色也不是常见的地中海蓝，而是深沉的墨绿色，像一块巨大的蛇纹石，越是靠近绿色桥，颜色就越深。\n这就是绿色桥在彭布罗克郡生活中的角色——它从来不吵闹，不卖门票，不推销任何纪念品。它只是每天在那里承受着大西洋风暴一次次的正面冲锋。我站在那里差不多半小时，期间只零星看到几个当地人在遛狗，或者拿着望远镜观鸟。没有人对着它大声惊叹，没有人摆出奇怪的姿势自拍。一个穿着橄榄绿冲锋衣的老人从我身边走过，看了我一眼，笑着指了指绿色桥的方向，就继续往前走了。那种感觉就像是走进了一个大家都心照不宣的秘密：我们不需要把它说得多热闹，我们知道它在就行了。\n它最打动人的地方，恰恰就是这种极致的安静与力量。每一次海浪的冲击，都伴随着低沉而厚重的回响，那声音不像鼓声，而像是一座巨大的木门在缓缓关闭。你能从中听出一种苍老的、充满耐心的愤怒。它站在那里，不是为了取悦任何人，而是在耐心地等待自己最终被瓦解的那一天。"
+    "description": "我第一次看到绿色桥，是在一个阴沉的十月下午。车子停在Bosherston外的停车场时，天空正在小雨和晴朗之间激烈拉扯。我沿着海岸步道往前走，风大得几乎要把人吹跑，耳边全是海浪撞击悬崖的轰鸣声。大约走了十五分钟，绕过一片野生的金雀花丛，它突然出现了——不是平地突起的宏伟金字塔，也不是古老教堂那种庄严的对称，而是一座被海水硬生生掏空的巨大石灰岩。它就那样横跨在两层峭壁之间，底部是一个近乎完美的椭圆形空洞，海浪正愤怒地从那个洞里翻涌而出。那种震撼感让我瞬间忘记了呼吸。你能看到白色泡沫在疯狂里炸开，然后又被吸回去，仿佛整块岩石是一只巨大的古代海兽，正用它仅剩的最后一个肺尽力呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/saint-savinien-charente-maritime\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣萨维尼安</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint-Savinien</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorges-de-la-jordanne\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    若\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">若尔当讷峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gorges de la Jordanne</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/biogradska-gora-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比奥格勒山国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Biogradska Gora National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/sveti-stefan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣斯特凡岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sveti Stefan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rigg-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    里\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">里格观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rigg Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prince-of-wales-dock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士王子码头</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Dock</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "saint-savinien-charente-maritime",
-          "name": "圣萨维尼安",
-          "englishName": "Saint-Savinien"
+          "slug": "sveti-stefan",
+          "name": "圣斯特凡岛",
+          "englishName": "Sveti Stefan"
         },
         {
-          "slug": "gorges-de-la-jordanne",
-          "name": "若尔当讷峡谷",
-          "englishName": "Gorges de la Jordanne"
+          "slug": "rigg-viewpoint",
+          "name": "里格观景点",
+          "englishName": "Rigg Viewpoint"
         },
         {
-          "slug": "biogradska-gora-national-park",
-          "name": "比奥格勒山国家公园",
-          "englishName": "Biogradska Gora National Park"
+          "slug": "prince-of-wales-dock",
+          "name": "威尔士王子码头",
+          "englishName": "Prince of Wales Dock"
         }
       ]
     }

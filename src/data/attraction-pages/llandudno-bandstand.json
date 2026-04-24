@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰迪德诺",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰迪德诺音乐台",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "兰迪德诺音乐台・Llandudno Bandstand・英国・兰迪德诺",
-    "description": "第一次见到兰迪德诺音乐台，是在一个雾气蒙蒙的清晨。北海的海风裹着咸湿的气味扑面而来，沿着长长的海滨步道走了将近十分钟，它就像一枚精致的贝壳，静静嵌在灰色鹅卵石滩和维多利亚式旅馆之间。那座乳白色与深绿色相间的八角形铸铁亭子，在薄雾中透着几分不真实的童话感。走近了，能听见铸铁雕花上凝结的露珠偶尔滴落在木地板上的声音，清脆得像是未曾奏响的序曲。脚下是平整的木板，踩上去有轻微的咯吱声，那是岁月留下的温度。它并不宏伟，却有一种恰到好处的亲和力——仿佛随时会有一位穿着燕尾服的指挥家走上台，扬手间，铜管乐的辉煌就盖过了海涛的呼吸。\n当地人对它早已习以为常。清晨遛狗的老人会在这里停下，望着海面发呆；推着婴儿车的年轻妈妈坐在旁边的长椅上，任由孩子蹒跚着去摸那些铸铁栏杆上的海鸟浮雕。到了午后，阳光终于破开云层，音乐台被染成暖金色，孩子们开始在台基上追逐嬉戏，笑声和海鸥的鸣叫混在一起。而真正让这座建筑活起来的，是傍晚时分。夏季每周两次的免费音乐会，让整个海滨广场变成了露天音乐厅。铜管乐队演奏《威仪堂堂进行曲》时，围观的老人们会不由自主地打起节拍，他们的眼神里有种温柔的光芒——那是记忆里的夏天，是几十年前他们还是少年时，同样在这片乐声中翩翩起舞的时光。\n音乐台最迷人的，是它与自然景观的完美融合。背靠大奥姆海角的石灰岩峭壁，面前是爱尔兰海一望无际的碧波。潮汐涨落时，海水会漫到离舞台不到十米的距离，乐手们在台上奏响舒伯特的小夜曲，浪花就在他们脚边轻声应和。有次我坐在最近的长椅上，恰好一首曲子结束后的静默里，一只海鸥落在舞台顶端的风向标上，歪着头左顾右盼，仿佛在等着下一首曲子开始。那一刻，我忽然理解了什么叫“呼吸着的建筑”——它不是被玻璃罩保护起来的古董，而是融入当地人日常生活的鲜活存在。\n这大概就是兰迪德诺音乐台最动人的核心魅力：它不只属于游客的镜头，更属于每一个在这里谈过恋爱、等过日出、听过人生第一场音乐会的人。它没有任何惊世骇俗的伟大故事，却用一百多年的光阴，把平凡的日子谱成了一首温柔的序曲。"
+    "description": "第一次见到兰迪德诺音乐台，是在一个雾气蒙蒙的清晨。北海的海风裹着咸湿的气味扑面而来，沿着长长的海滨步道走了将近十分钟，它就像一枚精致的贝壳，静静嵌在灰色鹅卵石滩和维多利亚式旅馆之间。那座乳白色与深绿色相间的八角形铸铁亭子，在薄雾中透着几分不真实的童话感。走近了，能听见铸铁雕花上凝结的露珠偶尔滴落在木地板上的声音，清脆得像是未曾奏响的序曲。脚下是平整的木板，踩上去有轻微的咯吱声，那是岁月留下的温度。它并不宏伟，却有一种恰到好处的亲和力——仿佛随时会有一位穿着燕尾服的指挥家走上台，扬手间，铜管乐的辉煌就盖过了海涛的呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fyvie-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    菲\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">菲维城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fyvie Castle, Garden & Estate (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pentre-ifan-burial-chamber\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭特雷伊凡墓室</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pentre Ifan Burial Chamber</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hadrians-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德良长城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hadrian's Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/emigrants-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    移\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">移民纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Emigrants Monument</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "colinton-station-tunnel",
-          "name": "科林顿车站与隧道",
-          "englishName": "Colinton Station & Tunnel"
+          "slug": "pentre-ifan-burial-chamber",
+          "name": "彭特雷伊凡墓室",
+          "englishName": "Pentre Ifan Burial Chamber"
         },
         {
-          "slug": "fyvie-castle",
-          "name": "菲维城堡",
-          "englishName": "Fyvie Castle, Garden & Estate (National Trust for Scotland)"
+          "slug": "hadrians-wall",
+          "name": "哈德良长城",
+          "englishName": "Hadrian's Wall"
         },
         {
-          "slug": "cardiff-bay",
-          "name": "卡迪夫湾",
-          "englishName": "Cardiff Bay"
+          "slug": "emigrants-monument",
+          "name": "移民纪念碑",
+          "englishName": "Emigrants Monument"
         }
       ]
     }

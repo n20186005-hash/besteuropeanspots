@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰国家纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "苏格兰国家纪念碑・National Monument of Scotland・英国・爱丁堡",
-    "description": "我第一次见到苏格兰国家纪念碑，是在一个阴沉沉的九月下午。爱丁堡的天气像个反复无常的戏剧导演，我刚从皇家英里的喧嚣中逃出来，爬上卡尔顿山的斜坡，头顶的云突然裂开一道缝，一束光像舞台追光一样恰好打在那些残缺的石柱上。那一刻我愣住了，心里冒出一句：我这是穿越到了希腊，还是闯进了一个巨大的建筑工地？\n走近了才发现，十二根粗壮的多立克柱子直愣愣地戳向天空，顶部的横楣只完成了一小段就戛然而止，像一句没说完的话。柱子表面不是通常希腊神庙那种光滑的白色大理石，而是粗糙的灰色砂岩，上面爬满了地衣和雨水冲刷的痕迹。最滑稽的是，这座“帕特农神庙”没有屋顶，没有内殿，甚至没有完整的围墙——它看起来就像是被某个巨人啃掉了一半的生日蛋糕。但正是这种残缺，让它在周围爱丁堡整齐的乔治亚式建筑群中显得格外叛逆，也格外迷人。\n山上的风大得能把人吹成迎风流泪的傻子。我靠在其中一根柱子上，听到了风穿过柱廊发出的呜咽声，像是这座纪念碑在叹气。远处福斯湾的海平面在灰蓝色的天幕下泛着铅灰色的光，亚瑟王座像一头沉睡的巨兽俯卧在另一边。一个穿着苏格兰裙的老爷爷坐在不远处的长椅上，悠然地吹着风笛，笛声在空旷的山顶飘荡，混合着海鸥的尖叫，构成了一首奇异的交响曲。旁边几个游客正在努力把纪念碑的“半成品”状态拍进自拍里，一个美国大叔夸张地摊手：“What a shame!（真可惜！）” 但我觉得，这种“未完成”反而让它比那些修得完美的古迹更有人味。\n后来我了解到，当地人对这座纪念碑有种复杂又亲昵的感情。爱丁堡人不叫它“国家纪念碑”，而是半开玩笑地叫它“苏格兰的耻辱”或者“爱丁堡的烂尾楼”。但如果你跟他们多聊几句，会发现他们语气里藏着一种骄傲——就好像我们对外骂自己家熊孩子，心里却觉得他全世界最可爱。这座失败的纪念碑，不知不觉成了卡尔顿山的灵魂，每天都有人来这里看日落、野餐、谈恋爱、拉琴吹管，它根本不是一尊供在神坛上的雕像，而是城市公共客厅里一把缺了腿但特别好坐的旧沙发。"
+    "description": "我第一次见到苏格兰国家纪念碑，是在一个阴沉沉的九月下午。爱丁堡的天气像个反复无常的戏剧导演，我刚从皇家英里的喧嚣中逃出来，爬上卡尔顿山的斜坡，头顶的云突然裂开一道缝，一束光像舞台追光一样恰好打在那些残缺的石柱上。那一刻我愣住了，心里冒出一句：我这是穿越到了希腊，还是闯进了一个巨大的建筑工地？"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/falconry-experience-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士猎鹰体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Falconry Experience Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dumbarton-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    敦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">敦巴顿城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dumbarton Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lilleshall-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利勒舍尔纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lilleshall Monument</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/national-showcaves-centre-for-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家展示洞穴中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Showcaves Centre for Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nolton-haven-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺尔顿港湾海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nolton Haven Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/manorafon-farm-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    曼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">曼诺拉方农场公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Manorafon Farm Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "falconry-experience-wales",
-          "name": "威尔士猎鹰体验",
-          "englishName": "Falconry Experience Wales"
+          "slug": "national-showcaves-centre-for-wales",
+          "name": "威尔士国家展示洞穴中心",
+          "englishName": "National Showcaves Centre for Wales"
         },
         {
-          "slug": "dumbarton-castle",
-          "name": "敦巴顿城堡",
-          "englishName": "Dumbarton Castle"
+          "slug": "nolton-haven-beach",
+          "name": "诺尔顿港湾海滩",
+          "englishName": "Nolton Haven Beach"
         },
         {
-          "slug": "lilleshall-monument",
-          "name": "利勒舍尔纪念碑",
-          "englishName": "Lilleshall Monument"
+          "slug": "manorafon-farm-park",
+          "name": "曼诺拉方农场公园",
+          "englishName": "Manorafon Farm Park"
         }
       ]
     }

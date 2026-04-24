@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "西堡垒堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "西堡垒堡・West Blockhouse Fort・英国・彭布罗克",
-    "description": "初见West Blockhouse Fort的那个下午，威尔士海风裹着咸腥和青草的气息，卷起我夹克的衣角。沿着Bosherston村外的土路向海边走，远远就能看见它蹲伏在悬崖边缘，像一只灰白的海兽，沉默地凝视着布里斯托尔海峡。阳光穿透云层投下斑驳光影，那座U形堡垒的每一块石灰岩都泛着潮湿的光泽，仿佛刚从海里爬上来。走近了，海浪拍打下方海蚀洞的轰鸣声从地底传来，震得脚底微麻，海鸥盘旋在锯齿形的雉堞上方，尖叫声被风扯碎。我站在锈蚀的铁门前，闻到一股混合着硝石和苔藓的味道——那是被遗忘了上百年的火药与潮湿交织的气息。\n当地人说，这里是整个彭布罗克郡看日落最隐秘的地方。没有游客巴士，没有纪念品商店，只有一条被羊群踩出来的草径通向堡垒。我踩着松软的泥炭地绕到南侧，突然看见了那个熟悉的场景：陡峭的草坡直坠入海，远处Stack Rocks像几根巨人的手指从海水中探出，白色的浪花在根部碎裂。堡垒的炮台窗口整齐排列，玻璃早就碎了，黑洞洞的窗口里偶尔有反光闪过，像是有人在窥视。我试图想象一百多年前，穿着红色军装的士兵在这里擦炮管、眺望海峡的场景，但风太冷，很快把我拉回现实。最打动我的是它的“无用”——这座耗资巨大的堡垒从未真正开过一炮，它的存在本身就是一场昂贵的寂静，比任何枪炮声都更有力量。\n黄昏时分，我坐在堡垒西侧的石阶上，看光线从金黄变成粉紫，最后沉入海平面。一只兔子从草丛里探头，耳朵抖了抖，又缩回去。我身后是厚重的石墙，身前是浩瀚的海，那一刻，我发现自己突然理解了“防御”这个词的徒劳——在这个几乎只能靠徒步抵达的地方，敌人可能永远不会来，而真正需要被保护的，不过是人们心里那份对远方的焦虑。堡垒像一本合上的书，封面是石头，扉页是海风，内容是一个关于等待和虚无的漫长故事。"
+    "description": "初见West Blockhouse Fort的那个下午，威尔士海风裹着咸腥和青草的气息，卷起我夹克的衣角。沿着Bosherston村外的土路向海边走，远远就能看见它蹲伏在悬崖边缘，像一只灰白的海兽，沉默地凝视着布里斯托尔海峡。阳光穿透云层投下斑驳光影，那座U形堡垒的每一块石灰岩都泛着潮湿的光泽，仿佛刚从海里爬上来。走近了，海浪拍打下方海蚀洞的轰鸣声从地底传来，震得脚底微麻，海鸥盘旋在锯齿形的雉堞上方，尖叫声被风扯碎。我站在锈蚀的铁门前，闻到一股混合着硝石和苔藓的味道——那是被遗忘了上百年的火药与潮湿交织的气息。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cuween-hill-chambered-cairn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库温山墓室石堆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuween Hill Chambered Cairn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mumbles-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西湾曼布尔斯灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mumbles Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glenfinnan-viaduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦芬南高架桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glenfinnan Viaduct</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/valle-crucis-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    十\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">十字架山谷修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abaty Glyn Y Groes / Valle Crucis Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-museum-cardiff\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫国家博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Museum Cardiff</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pembrokeshire-llama-sanctuary\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡羊驼保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Llama Sanctuary</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cuween-hill-chambered-cairn",
-          "name": "库温山墓室石堆",
-          "englishName": "Cuween Hill Chambered Cairn"
+          "slug": "valle-crucis-abbey",
+          "name": "十字架山谷修道院",
+          "englishName": "Abaty Glyn Y Groes / Valle Crucis Abbey"
         },
         {
-          "slug": "mumbles-lighthouse",
-          "name": "斯旺西湾曼布尔斯灯塔",
-          "englishName": "Mumbles Lighthouse"
+          "slug": "national-museum-cardiff",
+          "name": "卡迪夫国家博物馆",
+          "englishName": "National Museum Cardiff"
         },
         {
-          "slug": "glenfinnan-viaduct",
-          "name": "格伦芬南高架桥",
-          "englishName": "Glenfinnan Viaduct"
+          "slug": "pembrokeshire-llama-sanctuary",
+          "name": "彭布罗克郡羊驼保护区",
+          "englishName": "Pembrokeshire Llama Sanctuary"
         }
       ]
     }

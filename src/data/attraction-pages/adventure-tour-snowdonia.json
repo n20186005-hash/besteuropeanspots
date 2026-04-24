@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡那封",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "雪墩山探险之旅",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "雪墩山探险之旅・Adventure Tour Snowdonia・英国・卡那封",
-    "description": "我到达兰贝里斯小镇的时候是清晨六点，天色还是那种介于深蓝和浅灰之间的暧昧。空气里弥漫着一股草汁混合石头的清冷气味，有点像刚割过的青草被露水打湿，又掺杂了雨后泥煤的焦香。小镇还没有完全醒来，只有远处山坡上偶尔传来几声绵羊的叫声，那叫声黏糊糊的，拖着长长的尾音，像在跟山风吵架。整个雪墩山就那样沉默地蹲在眼前，山脊上披着一层薄雾，像披着一件旧毛毯的老爷爷，不动声色地看着我这个冒失的闯入者。\n等我开始往山上走，光线慢慢亮了起来，那种亮不是城市里刺眼的亮，而是一种缓慢渗透的光，像水彩慢慢晕开在生宣上。脚下的石板路被千百年的脚步和雨水磨得光滑，踩上去有种温润的触感。山谷里的溪水声越来越清晰，那种声音不像人工瀑布那样轰隆作响，而是细碎、绵长、碎碎的，像有人在远处不停摇晃一串银铃。路边石缝里长满了苔藓，那种绿不是春天的嫩绿，而是一种沉甸甸的、带着尘埃感的暗绿，摸上去湿漉漉的，仿佛能捏出水来。\n最打动我的不是山顶的景色，而是中途在半山腰休息时遇到的当地人。一个穿着泥点子的冲锋衣的老头，脸上的皱纹像雪墩山的等高线图，交错纵横，红彤彤的鼻子像一颗覆盆子。他牵着一头毛茸茸的谢德兰小马，马背上驮着两个睡袋。他看我一屁股坐在石头上喘气，笑了笑说，年轻人，山不会等你的，你得学会跟山一起呼吸。说完吹了声口哨，小马就踏着碎步继续往上走。我突然意识到，雪墩山不是一个需要被征服的景点，而是一个会跟你对话的老朋友，你越安静，听到的越多。"
+    "description": "我到达兰贝里斯小镇的时候是清晨六点，天色还是那种介于深蓝和浅灰之间的暧昧。空气里弥漫着一股草汁混合石头的清冷气味，有点像刚割过的青草被露水打湿，又掺杂了雨后泥煤的焦香。小镇还没有完全醒来，只有远处山坡上偶尔传来几声绵羊的叫声，那叫声黏糊糊的，拖着长长的尾音，像在跟山风吵架。整个雪墩山就那样沉默地蹲在眼前，山脊上披着一层薄雾，像披着一件旧毛毯的老爷爷，不动声色地看着我这个冒失的闯入者。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/a-bay-to-remember-dolphin-wildlife-boat-trips\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    难\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">难忘海湾海豚与野生动物乘船之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">A Bay To Remember - Dolphin & Wildlife Boat Trips</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hann-muenden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    汉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">汉明登</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hann. Münden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/olympos-karpathos\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥林波斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Olympos</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-big-apple\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大苹果</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Big Apple</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sligachan-old-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯利加查古桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sligachan Old Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/roald-dahl-plass\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗尔德·达尔广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roald Dahl Plass</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "a-bay-to-remember-dolphin-wildlife-boat-trips",
-          "name": "难忘海湾海豚与野生动物乘船之旅",
-          "englishName": "A Bay To Remember - Dolphin & Wildlife Boat Trips"
+          "slug": "the-big-apple",
+          "name": "大苹果",
+          "englishName": "The Big Apple"
         },
         {
-          "slug": "hann-muenden",
-          "name": "汉明登",
-          "englishName": "Hann. Münden"
+          "slug": "sligachan-old-bridge",
+          "name": "斯利加查古桥",
+          "englishName": "Sligachan Old Bridge"
         },
         {
-          "slug": "olympos-karpathos",
-          "name": "奥林波斯",
-          "englishName": "Olympos"
+          "slug": "roald-dahl-plass",
+          "name": "罗尔德·达尔广场",
+          "englishName": "Roald Dahl Plass"
         }
       ]
     }

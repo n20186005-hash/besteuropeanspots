@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰高地",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "洛因湖观景台",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "洛因湖观景台・Loch Loyne Viewpoint・英国・苏格兰高地",
-    "description": "我把车停在A87路边那个不起眼的碎石停车带上，推开车门的一瞬间，一股纯粹的、带着泥炭与松针气息的风扑面而来。眼前是一片难以置信的湛蓝，洛因湖静静地躺在两座灰色山丘之间，像一块被世界遗忘的祖母绿宝石。没有游客的喧嚣，没有导游的喇叭，只有远处偶尔一只红松鸡的叫声，和湖水轻轻拍打岸边的细碎声响。阳光从云层缝隙中倾泻下来，在水面上投下移动的光斑，整片山谷随着云影的流动而变换着色彩——从深蓝到翠绿，再到近乎黑色的暗紫。我站在那里，深深吸了一口气，感觉自己像闯进了一幅未干的水彩画里。\n目光顺着湖岸往南侧扫去，突然被一排整齐的灰色小尖角抓住了视线。它们从湖水中斜斜地探出头来，像一排沉默的獠牙。走近一些才看清，那是混凝土的防坦克桩，二战时期为了阻止德军从湖面登陆而埋下的。如今它们锈迹斑斑，被青苔和地衣覆盖，成了水鸟栖息的落脚点。历史和现在就这样荒诞地重叠在一起，在这样一个原本应该只有天鹅和鳟鱼独享的地方，人类却埋下了战争的疤痕。我蹲下身，摸了摸那段冰冷、粗糙的混凝土表面，指尖感受到了时间留下的侵蚀纹理。\n当地人说，这些防坦克桩在1960年代湖面水位上升后，大部分被淹没在水下，只有涨水时才勉强露出半截。我来的正是夏末，湖水偏浅，所以那一排桩子格外清晰。不远处还有一块锈蚀的铁牌，上面简单介绍着，这一带曾是英国突击队精英训练的场所——他们在洛因湖冰冷的湖水里练习夜间渡河、爆破和无声接敌。很难想象，就在这片宁静得能听见自己心跳的山谷里，年轻士兵们曾抱着枪在泥水里搏命。风又刮起来了，吹皱了湖面，也吹乱了思绪。\n最打动我的是观景台本身几乎没有任何开发——没有围栏，没有观景塔，没有修好的步道，只有一条踩出来的土路通向湖边的一块巨石。这里不属于任何景点名单，甚至很多自驾游的地图上也找不到它。但恰恰是这种“素颜”，让它保留了最原始的魅力。你可以坐在那巨石上，双腿悬空，看着湖水发呆一个下午。偶尔有车驶过A87，卷起一阵风沙，然后又恢复寂静。那种远离一切、天地只有你一个人的感觉，是任何收费景点都无法给予的奢侈。"
+    "description": "我把车停在A87路边那个不起眼的碎石停车带上，推开车门的一瞬间，一股纯粹的、带着泥炭与松针气息的风扑面而来。眼前是一片难以置信的湛蓝，洛因湖静静地躺在两座灰色山丘之间，像一块被世界遗忘的祖母绿宝石。没有游客的喧嚣，没有导游的喇叭，只有远处偶尔一只红松鸡的叫声，和湖水轻轻拍打岸边的细碎声响。阳光从云层缝隙中倾泻下来，在水面上投下移动的光斑，整片山谷随着云影的流动而变换着色彩——从深蓝到翠绿，再到近乎黑色的暗紫。我站在那里，深深吸了一口气，感觉自己像闯进了一幅未干的水彩画里。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dr-beynons-bug-farm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝农博士的虫子农场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dr Beynon's Bug Farm</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brissago-islands-maggiore\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里萨戈群岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brissago Islands</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arachova-parnassus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿拉霍瓦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arachova</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tower-of-london\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伦敦塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tower of London</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cameron-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡梅隆广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cameron Square</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dingli-cliffs\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    丁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">丁利悬崖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dingli Cliffs</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dr-beynons-bug-farm",
-          "name": "贝农博士的虫子农场",
-          "englishName": "Dr Beynon's Bug Farm"
+          "slug": "tower-of-london",
+          "name": "伦敦塔",
+          "englishName": "Tower of London"
         },
         {
-          "slug": "brissago-islands-maggiore",
-          "name": "布里萨戈群岛",
-          "englishName": "Brissago Islands"
+          "slug": "cameron-square",
+          "name": "卡梅隆广场",
+          "englishName": "Cameron Square"
         },
         {
-          "slug": "arachova-parnassus",
-          "name": "阿拉霍瓦",
-          "englishName": "Arachova"
+          "slug": "dingli-cliffs",
+          "name": "丁利悬崖",
+          "englishName": "Dingli Cliffs"
         }
       ]
     }

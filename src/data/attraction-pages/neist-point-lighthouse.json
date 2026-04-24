@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯凯岛 (Isle of Skye)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "奈斯特角灯塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "奈斯特角灯塔・Neist Point Lighthouse・英国・斯凯岛 (Isle of Skye)",
-    "description": "我到现在还清晰地记得第一次站在奈斯特角悬崖上的那个下午。风大得几乎要把人吹进大西洋，我的头发在眼前疯狂飞舞，腥咸的海水味混着石楠花的甜香一股脑儿灌进鼻腔。脚下是深不见底的黑色峭壁，海浪在几十米下方炸开成白色的碎末，发出轰隆隆的闷响，像一头巨兽在喘息。而那座白色的灯塔就立在岬角最尖端，瘦瘦的，倔强的，仿佛一个穿着白衣的哨兵，日夜守望着无垠的海平线。\n从停车场沿着弯弯曲曲的草径往下走，路很窄，右边是陡坡，左边是牧场的铁网，羊毛味顺着风飘过来。羊群在远处绿得发亮的草坡上悠闲地啃食，偶尔抬头看你一眼，眼神里满是“你们这些游客真奇怪”的漠然。走近灯塔时，我才发现它比想象中要小——但那是一种精致而孤独的小。白色的塔身漆面被海风打磨出细密的裂纹，红色的顶部像一顶军官帽。塔上的窗户紧闭，里面藏着仪器和秘密。绕着灯塔走一圈，另一侧的悬崖下有一片天然形成的石拱，巨浪穿过时喷起的水雾在阳光下画出短暂的彩虹，转瞬即逝。\n最让我着迷的是这里的声音。风是永不停歇的bgm，有时低沉呜咽，有时尖利呼啸，偶尔被一声海鸟的叫声划破——那些黑背鸥在崖壁上搭窝，它们俯冲时翅膀呼啦啦响，像极了被风吹动的窗帘。退潮时海水在岩缝里咕噜咕噜地冒泡，涨潮时又像拍打巨大鼓面的闷响。如果你想听最纯粹的风与海的交响乐，奈斯特角是最好的舞台。\n当地人告诉我，这片海从不温柔。灯塔刚建成的头几年，看守人常常要在风暴中爬上旋转楼梯去给灯加油，风会从门缝里灌进来把煤油灯吹灭好几次。如今灯塔已经自动化，老看守人的房子变成了旅人的歇脚处，但那股属于荒野的气息从未改变。站在这里，你会突然明白为什么苏格兰人把远方叫做“天空岛”——因为走到尽头，天空和海洋就在你脚下融为一体，而你，只是这天地间一个微小却幸运的见证者。"
+    "description": "我到现在还清晰地记得第一次站在奈斯特角悬崖上的那个下午。风大得几乎要把人吹进大西洋，我的头发在眼前疯狂飞舞，腥咸的海水味混着石楠花的甜香一股脑儿灌进鼻腔。脚下是深不见底的黑色峭壁，海浪在几十米下方炸开成白色的碎末，发出轰隆隆的闷响，像一头巨兽在喘息。而那座白色的灯塔就立在岬角最尖端，瘦瘦的，倔强的，仿佛一个穿着白衣的哨兵，日夜守望着无垠的海平线。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/swansea-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Swansea Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kilchurn-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基尔亨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilchurn Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charles-darwins-birthplace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查尔斯·达尔文出生地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charles Darwin's Birthplace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "borth",
-          "name": "博斯",
-          "englishName": "Borth"
+          "slug": "swansea-castle",
+          "name": "斯旺西城堡",
+          "englishName": "Swansea Castle"
         },
         {
-          "slug": "bedd-arthur",
-          "name": "贝德·阿瑟",
-          "englishName": "Bedd Arthur"
+          "slug": "kilchurn-castle",
+          "name": "基尔亨城堡",
+          "englishName": "Kilchurn Castle"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "charles-darwins-birthplace",
+          "name": "查尔斯·达尔文出生地",
+          "englishName": "Charles Darwin's Birthplace"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "动感地球",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "动感地球・Dynamic Earth・英国・爱丁堡",
-    "description": "我第一次见到Dynamic Earth时，差点以为自己走错了地方。它没有传统博物馆那种庄严的立柱或巨大的石刻铭文，而是像一只浑身披着绿色草皮和玻璃的巨型海兽，从荷里路德公园的山坡上缓缓溜下来，趴在马路旁喘气。那天是秋季下午两点，阳光以一种典型的爱丁堡方式穿过云层，在玻璃幕墙上砸出一片漩涡状的蓝色光晕。空气中飘着刚修剪过的草坪味，还混着从荷里路德宫方向吹来的古石腐朽气息——这种混合正好勾勒出爱丁堡的本质：一半是自然，一半是历史，而Dynamic Earth就是横跨两者之间的桥梁。\n走进大厅，迎面涌来的不是展览信息墙，而是流水声。一条纤细的水流沿着花岗岩墙面蜿蜒而下，最后坠入地面的浅池，溅起细小的水花。接待台是用回收钢材和水磨石做的，表面泛着矿石般的碎光，像一本翻开的、会呼吸的地质志。工作人员是个留着浓密络腮胡的健壮苏格兰男人，他用一种极重的口音朝我说：“嘿，你准备好了吗？我们的地球有点老，但它还很会讲故事。”我当时就想，这个人一定在这干了十几年，他的眼神里有种对地球特有的深情——像是面对着自家待客的后花园。\nDynamic Earth的核心魅力，并不在于它用了多少块屏幕或多少台投影仪，而在于它让你真实地“感受”地球。它用一场场精密的、技术驱动的沉浸式“体验”，而非“观看”。你走进火山喷发区时，地板上会涌起热浪，空气里弥漫着硫磺味，墙壁会随着岩浆流动而发烫，甚至你的座椅也会震得打冷战。那场4D模拟的冰川融化场面，让我看完后出了一身冷汗，不是因为冷，而是因为恐惧。那是你对一颗蓝色星球千年来缓缓崩裂的、亲身的、触觉式的共鸣。\n最妙的是，博物馆并没有陷进枯燥的科学教条里。它在讲述地球史的同时，巧妙地把苏格兰自己那块地壳拉扯进来：亚瑟王座是死火山，洛蒙德湖是冰川切出来的伤疤，厄克特城堡脚下的断层岩是板块碰撞的遗物。换句话说，你不是在听一堆遥远行星的知识，而是在了解自己脚下几米深处那层黑黝黝的玄武岩到底咽下了多少地球的往事。这种本土化的叙事方式，让抽象的地球科学突然变得像邻居家的家族史一样亲切、生动、充满人情味。"
+    "description": "我第一次见到Dynamic Earth时，差点以为自己走错了地方。它没有传统博物馆那种庄严的立柱或巨大的石刻铭文，而是像一只浑身披着绿色草皮和玻璃的巨型海兽，从荷里路德公园的山坡上缓缓溜下来，趴在马路旁喘气。那天是秋季下午两点，阳光以一种典型的爱丁堡方式穿过云层，在玻璃幕墙上砸出一片漩涡状的蓝色光晕。空气中飘着刚修剪过的草坪味，还混着从荷里路德宫方向吹来的古石腐朽气息——这种混合正好勾勒出爱丁堡的本质：一半是自然，一半是历史，而Dynamic Earth就是横跨两者之间的桥梁。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dunvegan-castle-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓韦根城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunvegan Castle & Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scott-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    司\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">司各特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scott Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castlerigg-stone-circle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯尔里格石圈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castlerigg Stone Circle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dunvegan-castle-gardens",
-          "name": "邓韦根城堡与花园",
-          "englishName": "Dunvegan Castle & Gardens"
+          "slug": "scott-monument",
+          "name": "司各特纪念碑",
+          "englishName": "Scott Monument"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "cwm-rhaeadr-forest",
+          "name": "坎姆拉德森林瀑布",
+          "englishName": "Cwm Rhaeadr Forest"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "castlerigg-stone-circle",
+          "name": "卡斯尔里格石圈",
+          "englishName": "Castlerigg Stone Circle"
         }
       ]
     }

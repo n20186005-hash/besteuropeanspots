@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡动物园山顶观景台",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "爱丁堡动物园山顶观景台・Hilltop Viewpoint Edinburgh Zoo・英国・爱丁堡",
-    "description": "夏末的午后，我沿着动物园主路上坡，两旁是游客们隔着玻璃看猩猩、拍袋鼠的喧闹声。但越往上走，人声越稀薄，空气里的动物园特有的混合气息——干草、动物粪便和烤香肠的焦香——逐渐被松针和泥土的潮湿味取代。转过最后一个弯，风突然变得猛烈起来，吹得耳朵嗡嗡响，然后视野像舞台幕布一样被掀开：整个爱丁堡变成了一张被时间揉皱的羊皮纸摊在脚下。福斯湾的水面泛着冰冷的银光，几条帆船像被遗忘的棋子点缀其上。亚瑟王座山慵懒地躺在城南，轮廓清晰得能数出它身上的每一道褶皱。这座城市的灵魂就在这里，不言不语，却把所有故事都摆在你面前。\n不远处有几棵被风吹成一边倒的苏格兰松，树皮上挂满了灰色的地衣，像老人的胡须。我坐在靠边的长椅上，听风从岩石缝隙里挤过发出呜咽般的哨音。一个专程带着速写本来的本地老太太告诉我，她爷爷小时候就带她来过这里，说这是“爱丁堡的膝盖——跪下来才能看见整张脸”。后来我才明白这句话的意思：当你站在这个高度，城市的平视视角消失了，你看到的不再是街道和建筑，而是地质的褶皱、历史的分层，以及人类如何在这片起伏的绿毯上缝出了经纬分明的格子。\n最打动人的是那种对比——动物园里关着来自异域的动物，而站上观景台，你看到的是属于这片土地的野生动物：天空中的红隼盘旋，海鸥沿着海湾线划过，甚至有一次我看见一群鹅在亚瑟王座山顶上空排成人字形。原来这才是最原始的动物园——把观众摆到笼子外面，让风景充当囚笼里的主角。那些被圈养的大象和长颈鹿永远不知道，它们头顶上存在着这样一条可以眺望自由的地平线。每次想到这里，都会觉得这个观景台比任何馆舍都更接近“动物园”这个词的本质含义——让我们重新审视自己与自然的关系。"
+    "description": "夏末的午后，我沿着动物园主路上坡，两旁是游客们隔着玻璃看猩猩、拍袋鼠的喧闹声。但越往上走，人声越稀薄，空气里的动物园特有的混合气息——干草、动物粪便和烤香肠的焦香——逐渐被松针和泥土的潮湿味取代。转过最后一个弯，风突然变得猛烈起来，吹得耳朵嗡嗡响，然后视野像舞台幕布一样被掀开：整个爱丁堡变成了一张被时间揉皱的羊皮纸摊在脚下。福斯湾的水面泛着冰冷的银光，几条帆船像被遗忘的棋子点缀其上。亚瑟王座山慵懒地躺在城南，轮廓清晰得能数出它身上的每一道褶皱。这座城市的灵魂就在这里，不言不语，却把所有故事都摆在你面前。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dynamic-earth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动感地球</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dynamic Earth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gypsy-wood-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉普赛森林公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gypsy Wood Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brymbo-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱姆博音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brymbo Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/skelbo-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯凯尔博城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skelbo Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dynamic-earth",
-          "name": "动感地球",
-          "englishName": "Dynamic Earth"
+          "slug": "brymbo-bandstand",
+          "name": "布莱姆博音乐台",
+          "englishName": "Brymbo Bandstand"
         },
         {
-          "slug": "conwy-falls",
-          "name": "康威瀑布",
-          "englishName": "Conwy Falls"
+          "slug": "skelbo-castle",
+          "name": "斯凯尔博城堡",
+          "englishName": "Skelbo Castle"
         },
         {
-          "slug": "gypsy-wood-park",
-          "name": "吉普赛森林公园",
-          "englishName": "Gypsy Wood Park"
+          "slug": "cawdor-castle-and-gardens",
+          "name": "考德城堡与花园",
+          "englishName": "Cawdor Castle and Gardens"
         }
       ]
     }

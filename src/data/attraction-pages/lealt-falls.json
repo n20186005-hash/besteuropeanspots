@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "天空岛（波特里）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "利尔特瀑布",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "利尔特瀑布・Lealt Falls・英国・天空岛（波特里）",
-    "description": "我第一次听闻利尔特瀑布，是在波特里一家小酒馆里。当地老爷爷告诉我：想看天空岛的魂，就得去利尔特，因为你站在那儿时，风会把你耳朵里的城市噪音全都刮跑。他说的没错。当我沿着A855公路缓缓驶近，先看到的是灰色天空下那片辽阔的北大西洋，然后突然之间，公路拐了个弯，一条银白色的水带从黑色悬崖的裂缝中喷涌而出，直坠入海。那声音不是轰鸣，而是一种持续的低吼，像大地在深沉呼吸。你还没靠近停车场，就已经能感觉到空气变得湿润而微凉，带着海盐和苔藓混合的气息。\n走近上部的观景台，整个峡谷在脚下一刀切开——这感觉就像地球突然裂开了一道伤口。瀑布从大约90米高的崖顶跌落，撞到半途的岩石上再弹开，溅起千万颗水珠，然后继续跌入下方的峡谷，最终汇入大海。站在那儿，风大到你必须紧紧抓住栏杆，水雾扑到脸上冰凉透心，但你舍不得挪开视线。峡谷两岸的悬崖堆满了黑色玄武岩柱，每根柱子都像巨大的排箫，被千万年的风雨削出道道沟痕。阳光偶尔从云层缝隙中漏下来，会在水雾里挂出一条短暂而羞怯的彩虹。\n和游客更多、更宽阔的“老人峰”或“奎雷因”不同，利尔特瀑布的迷人之处在于它的私密和安静。这里没有收费亭，没有纪念品店，甚至没有正式的徒步路线牌，只有一条被无数登山靴踩出来的泥泞小径。沿着它往下走，你会发现自己慢慢被包裹进一种近乎教堂般的寂静里——除了瀑布声和风声，什么也没有。脚下是湿漉漉的苔藓，踩上去像踩在海绵上，周围长满了石楠和蕨类植物，空气里飘着泥土和松脂的清香。这里的时间流速好像不一样，每一分钟都拉得很长。\n从底部仰望瀑布时，它显得更加暴烈。水流砸在底部的黑石上，发出碎玉般的声响，周围的石头上结着一层薄冰（即使在夏天水温也极低）。我看到一对来自格拉斯哥的老夫妇坐在一块干石头上，默默看着瀑布，什么也不说。那种安静里充满了默契，让我突然觉得，天空岛的瀑布不是用来征服或打卡的，它是用来陪你一起沉默的。"
+    "description": "我第一次听闻利尔特瀑布，是在波特里一家小酒馆里。当地老爷爷告诉我：想看天空岛的魂，就得去利尔特，因为你站在那儿时，风会把你耳朵里的城市噪音全都刮跑。他说的没错。当我沿着A855公路缓缓驶近，先看到的是灰色天空下那片辽阔的北大西洋，然后突然之间，公路拐了个弯，一条银白色的水带从黑色悬崖的裂缝中喷涌而出，直坠入海。那声音不是轰鸣，而是一种持续的低吼，像大地在深沉呼吸。你还没靠近停车场，就已经能感觉到空气变得湿润而微凉，带着海盐和苔藓混合的气息。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/emigrants-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    移\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">移民纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Emigrants Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dolwyddelan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多尔威德兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dolwyddelan</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/urquhart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    厄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">厄克特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Urquhart Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/royal-scots-greys-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皇\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皇家苏格兰灰骑兵纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Royal Scots Greys Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "emigrants-monument",
-          "name": "移民纪念碑",
-          "englishName": "Emigrants Monument"
+          "slug": "urquhart-castle",
+          "name": "厄克特城堡",
+          "englishName": "Urquhart Castle"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "royal-scots-greys-monument",
+          "name": "皇家苏格兰灰骑兵纪念碑",
+          "englishName": "The Royal Scots Greys Monument"
         },
         {
-          "slug": "castell-dolwyddelan",
-          "name": "多尔威德兰城堡",
-          "englishName": "Castell Dolwyddelan"
+          "slug": "adventure-tour-snowdonia",
+          "name": "雪墩山探险之旅",
+          "englishName": "Adventure Tour Snowdonia"
         }
       ]
     }

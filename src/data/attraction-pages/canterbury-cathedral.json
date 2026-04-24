@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "坎特伯雷",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "坎特伯雷大教堂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "坎特伯雷大教堂・Canterbury Cathedral・英国・坎特伯雷",
-    "description": "我第一次看见坎特伯雷大教堂，并不是从那座闻名遐迩的西门进去的。我在坎特伯雷这座巴掌大的小城转了两圈，从一条叫“奶油巷”的窄巷子穿出来，一抬头，那座高耸入云的塔楼就从参差的都铎式木筋墙房屋脑袋顶冒出来了，像是一根银色的针，突然刺破了英格兰那铅灰色的、湿漉漉的天空。那种视觉压迫感是直击灵魂的，你会瞬间明白为什么中世纪的信徒愿意徒步几百公里来此朝圣——这不是给人住的房子，这是为神与天空沟通竖立的天线。\n走近西门时，空气里飘来湿漉漉的青苔味和石头的冰冷气息，混着远处修剪整齐的草坪散发出的清香。那扇巨大而古老的橡木门发出沉闷的吱呀声，像一声叹息推开了时间的壁垒。走进中殿，光线瞬间暗了下来，像一个被吞没的黄昏。你首先会闻到一种独特的味道——混合了千年石尘、融化的蜡烛烟灰、旧木头微弱的甜香，还有信徒留下的香火气息。脚下是磨损得凹陷下去、光滑如镜的古老石板，每走一步，都能感觉到曾有多少双赤脚或皮靴，在漫长的岁月里在这条道上参差磨砺。\n我停在中殿正中的位置，闭上眼睛，世界彻底安静了。能听见的只有远处圣堂执事扫地的簌簌声，和他皮鞋踩在石头上的清脆回响。睁开眼，阳光从高窗上那一片片如同蓝宝石的彩绘玻璃中斜斜切进来，在空中形成一道光柱，尘埃在里面缓慢翻滚，像极了凝固的时间。这座大教堂不只是坎特伯雷居民做礼拜的地方，它是整座城市的呼吸与心跳。当地人把它称作“老妈”（The Mother Church），语气里带着那种家常的亲密与敬畏交织的特质。他们从小在这里受洗、在这里看圣坛上每年的圣诞剧、在这里牵着孙辈的手在花园里喂鸽子。它早已超越了建筑本身，融入了这座城市的每一个褶皱里。\n可真正让我心颤的，是走下地下室那几步路。那一段窄窄的、微微下倾的石阶，每下一节，温度就低一分，周遭也安静一分。地下室里光线昏黄，空气凝重，那股地窖特有的石灰岩气味灌进鼻腔，有点发凉。据说在公元6世纪，圣奥古斯丁最早来到这里时，就是在这片地基上建起第一座礼拜堂。你站在那里，摸着那些粗糙的、斑驳的罗马砖墙和更古老的石刻，感觉像是在触摸一本倒放的时间之书——历史的厚度，就在你掌心的那一片冰凉之中。"
+    "description": "我第一次看见坎特伯雷大教堂，并不是从那座闻名遐迩的西门进去的。我在坎特伯雷这座巴掌大的小城转了两圈，从一条叫“奶油巷”的窄巷子穿出来，一抬头，那座高耸入云的塔楼就从参差的都铎式木筋墙房屋脑袋顶冒出来了，像是一根银色的针，突然刺破了英格兰那铅灰色的、湿漉漉的天空。那种视觉压迫感是直击灵魂的，你会瞬间明白为什么中世纪的信徒愿意徒步几百公里来此朝圣——这不是给人住的房子，这是为神与天空沟通竖立的天线。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/callendar-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡伦德庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Callendar House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blaenavon-ironworks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱纳文铁厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaenavon Ironworks</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/paxtons-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕克斯顿塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Paxton's Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-oswestry-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    旧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">旧奥斯沃斯特里山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Oswestry Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/moreton-corbet-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫顿科比特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Moreton Corbet Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "callendar-house",
-          "name": "卡伦德庄园",
-          "englishName": "Callendar House"
+          "slug": "paxtons-tower",
+          "name": "帕克斯顿塔楼",
+          "englishName": "National Trust - Paxton's Tower"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "old-oswestry-hill-fort",
+          "name": "旧奥斯沃斯特里山堡",
+          "englishName": "Old Oswestry Hill Fort"
         },
         {
-          "slug": "blaenavon-ironworks",
-          "name": "布莱纳文铁厂",
-          "englishName": "Blaenavon Ironworks"
+          "slug": "moreton-corbet-castle",
+          "name": "莫顿科比特城堡",
+          "englishName": "Moreton Corbet Castle"
         }
       ]
     }

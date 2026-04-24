@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "谢菲尔德（周边区域覆盖德比郡、柴郡等地）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "峰区国家公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "峰区国家公园・Peak District National Park・英国・谢菲尔德（周边区域覆盖德比郡、柴郡等地）",
-    "description": "第一次踏入峰区，你会在湿漉漉的石楠花香气里失去方向感——不是迷路，是被那种铺天盖地的绿征服。清晨六点半，我从谢菲尔德搭上去Bakewell的头班巴士，车窗玻璃上凝着细密的水珠，擦开后看见丘陵像被揉皱的深绿色天鹅绒，羊群在雾气里浮沉，像云朵掉进了现实。司机是个约克郡口音的大叔，见我拿着地图，咧嘴一笑：“别太相信那玩意儿，这里的路会自己长腿。”后来我才明白，他说的是那种随意拐进一条小路就能撞见千年石桥、废弃矿洞或突然跳出来晒太阳的狐狸的惊喜。\n在Curbar Edge的悬崖边，我趴下来把脸贴在被风雨侵蚀成蜂窝状的粗砂岩上。岩石凉得像刚从溪水里捞起来，表面爬满灰绿色的地衣，像老人手上的老年斑。远处山谷里传来教堂的钟声，混合着羊脖子上的铃铛声，被风揉碎了又拼起来。这种声音和气味——湿润的泥土、羊粪的氨味、野百里香踩碎后的辛辣——比任何导航都更真实地告诉你：你正站在一个活着的、呼吸着的古老世界的肩膀上。\n真正打动我的是那种毫无保留的慷慨。你不必买票，不必排队，甚至不需要一个明确的目的地。随便找片草地躺下，头顶是变幻无穷的英国云层，像被顽童揉过的棉絮；耳边是溪流咕噜咕噜的吞咽声，偶尔有乌鸦“嘎”一声掠过，把寂静撕开一道口子。在Monsal Trail的废弃铁路上骑车时，我穿过一个又一个隧道，每次从黑暗冲进光明的瞬间，眼睛都要花好几秒才能适应那种过分浓烈的绿——原来自由的味道，就是混着苔藓和汗水的那种涩。\n最奇妙的是这里的人。我在Castleton镇上一家小酒馆喝淡啤，旁边坐着一对老夫妇，他们每周末都来爬同一座山，“二十五年了”，老太太说，“每次都能发现没走过的路”。那种慢，那种对同一片土地的反复琢磨，让我这个习惯了打卡转场的游客自惭形秽。峰区不给你一个“必做清单”，它只沉默地摊开自己，等你蹲下来，摸一摸那些刻着名字的岩石，听一听风里藏着的、来自十八世纪矿工或罗马士兵的叹息。"
+    "description": "第一次踏入峰区，你会在湿漉漉的石楠花香气里失去方向感——不是迷路，是被那种铺天盖地的绿征服。清晨六点半，我从谢菲尔德搭上去Bakewell的头班巴士，车窗玻璃上凝着细密的水珠，擦开后看见丘陵像被揉皱的深绿色天鹅绒，羊群在雾气里浮沉，像云朵掉进了现实。司机是个约克郡口音的大叔，见我拿着地图，咧嘴一笑：“别太相信那玩意儿，这里的路会自己长腿。”后来我才明白，他说的是那种随意拐进一条小路就能撞见千年石桥、废弃矿洞或突然跳出来晒太阳的狐狸的惊喜。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/green-bridge-of-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    绿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">绿色桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Green Bridge of Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bikepark-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">BikePark Wales</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">BikePark Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brean-down-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布林当堡垒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brean Down Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wythenshawe-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威森肖公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wythenshawe Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melincourt-falls-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅林科特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melincourt Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "green-bridge-of-wales",
-          "name": "绿色桥",
-          "englishName": "Green Bridge of Wales"
+          "slug": "brean-down-fort",
+          "name": "布林当堡垒",
+          "englishName": "Brean Down Fort"
         },
         {
-          "slug": "bikepark-wales",
-          "name": "BikePark Wales",
-          "englishName": "BikePark Wales"
+          "slug": "wythenshawe-park",
+          "name": "威森肖公园",
+          "englishName": "Wythenshawe Park"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "melincourt-falls-wales",
+          "name": "梅林科特瀑布",
+          "englishName": "Melincourt Falls"
         }
       ]
     }

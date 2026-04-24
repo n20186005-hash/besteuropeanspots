@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "维克（Wick）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "维克老城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "维克老城堡・Castle Of Old Wick・英国・维克（Wick）",
-    "description": "我第一次听说维克老城堡，是在维克镇一家小酒馆里。当地老人听说我要去看城堡，眼神里闪过一丝狡黠：“那个地方啊，风比石头还硬。”第二天清晨，我沿着A99公路向北，天空是那种苏格兰特有的铁灰色，云层压得很低。当车停在碎石路的尽头，走下陡坡，转过一个弯——它就这样突然出现在眼前。一座孤零零的塔楼废墟，像一根断指，从30米高的海蚀崖壁中伸向天空。脚下北海的浪花在深谷里咆哮，白沫被风吹成丝线，扑打在黑色的岩石上。那一刻，我理解了什么叫“风比石头还硬”——风声几乎是连绵不断的怒吼，夹杂着海鸥凄厉的鸣叫，而你面前的这座城堡，已经在这片风中站了近一千年。\n走近城堡，要通过一条仅容一人通过的岩石脊梁，两侧都是垂直的悬崖。我扶着粗糙的石壁慢慢挪动，脚下的北海在几十米下翻涌，墨绿色的海水拍打着崖壁炸开白色的碎沫。城堡本身只剩下四堵残墙，最高处约有十米，内部完全露空，长满了青苔和野草。我伸手触摸那些石块——每一块都棱角分明，没有砂浆，完全靠重力咬合在一起。墙根处有一扇狭窄的窗洞，向内望去，可以想象当年在这里烧火的暖光。城堡背后的天空和海平面无限延伸，那种苍凉和孤独感，是无法用语言描述的。没有售票处，没有围栏，没有讲解牌，它就是那样赤裸裸地站在那里，像一位沉默的老人，等着你走近。\n当地人告诉我，城堡脚下那片海湾叫“Sinclair's Bay”，名字来自统治这片土地的辛克莱家族。村里的小孩经常来这里探险，他们管城堡叫“海盗的帐篷”。你沿着海岸线散步，会看到海豹在岩石上晒太阳，鹰在空中盘旋。这座城堡之于维克镇，不是旅游景点，而是一个日常的背景——就像你在厨房窗口不经意抬头，就能看到它据守在天际线的剪影。对这里的居民来说，它从来不是“景点”，而是他们出生前就一直存在的邻居。\n真正打动我的，是城堡与海的关系。我坐在对面的悬崖上安静地看了半个小时。退潮时，海蚀洞里会传来低沉的轰隆声，像是城堡的呼吸。涨潮时，海浪几乎拍打到城堡基座，水雾升腾，让整座废墟仿佛悬浮在云端。我忽然想到——这座城堡从来没有真正被征服过，不是因为它的城墙有多坚固，而是因为它的位置几乎不可到达。它仿佛是一个巨大的隐喻：有些东西的终极防御，便是把自己活成一块孤独的岩石，任由风浪洗刷。"
+    "description": "我第一次听说维克老城堡，是在维克镇一家小酒馆里。当地老人听说我要去看城堡，眼神里闪过一丝狡黠：“那个地方啊，风比石头还硬。”第二天清晨，我沿着A99公路向北，天空是那种苏格兰特有的铁灰色，云层压得很低。当车停在碎石路的尽头，走下陡坡，转过一个弯——它就这样突然出现在眼前。一座孤零零的塔楼废墟，像一根断指，从30米高的海蚀崖壁中伸向天空。脚下北海的浪花在深谷里咆哮，白沫被风吹成丝线，扑打在黑色的岩石上。那一刻，我理解了什么叫“风比石头还硬”——风声几乎是连绵不断的怒吼，夹杂着海鸥凄厉的鸣叫，而你面前的这座城堡，已经在这片风中站了近一千年。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/national-showcaves-centre-for-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士国家展示洞穴中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Showcaves Centre for Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "conwy-falls",
+          "name": "康威瀑布",
+          "englishName": "Conwy Falls"
         },
         {
-          "slug": "big-ben",
-          "name": "大本钟",
-          "englishName": "Big Ben"
+          "slug": "national-showcaves-centre-for-wales",
+          "name": "威尔士国家展示洞穴中心",
+          "englishName": "National Showcaves Centre for Wales"
         },
         {
-          "slug": "an-corran-beach",
-          "name": "安科兰海滩",
-          "englishName": "An Corran Beach"
+          "slug": "beauly-priory",
+          "name": "博利修道院",
+          "englishName": "Beauly Priory"
         }
       ]
     }

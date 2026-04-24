@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "圣十字修道院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "圣十字修道院・Holyrood Abbey・英国・爱丁堡",
-    "description": "说真的，第一次见到圣十字修道院的废墟，我心里咯噔了一下。它不是那种被修复得崭新如初、毫无瑕疵的景点，而是一座坦荡荡的露天巨兽，把自己全身的伤疤都暴露在苏格兰的风雨里。那天下午阳光刚好从残破的玫瑰窗斜射进来，在地上投下一片彩色的光斑。光斑里没有任何精美的玻璃图案，只是纯粹的光。那一刻我突然觉得，这才是时间该有的样子。\n站在中殿的碎石上，能听到风穿过拱顶时像在低声呜咽。这个地方比你想象中要安静，就算外面排着长长的队，走进这方露天的空间，世界一下子就收敛了。你能闻到潮湿的石头上混合着青苔的气味，那种古老的阴冷瞬间就渗进骨头里。抬头看，曾经的屋顶完全消失，只剩下赤裸的肋拱支撑着天空，像巨人的肋骨。\n在当地人的生活中，它其实远没有旁边的圣十字宫殿热闹。大部分游客冲进宫殿去看女王和玛丽女王的卧室，很少有人会在这片废墟前多停留五分钟。但我偏要建议你多坐一会儿，找个角落靠着墙，听一听。能听到远处的旅游团导游在讲苏格兰独立战争，但更近的，是鸽子在残檐上咕咕叫，是雨滴顺着石缝滴落的声音。\n这里最迷人的地方就在于它的状态。它没有被过度粉饰，没有变成一座完美的博物馆。它就这样半明半暗地存在着，用残骸告诉你，时间可以多无情，也可以多慷慨。无情在于带走了那些曾经辉煌的彩绘和镀金，慷慨在于留下了这些线条、结构和故事。相比起巴黎圣母院那样修缮一新的圣地，我更爱这种赤裸的诚实。"
+    "description": "说真的，第一次见到圣十字修道院的废墟，我心里咯噔了一下。它不是那种被修复得崭新如初、毫无瑕疵的景点，而是一座坦荡荡的露天巨兽，把自己全身的伤疤都暴露在苏格兰的风雨里。那天下午阳光刚好从残破的玫瑰窗斜射进来，在地上投下一片彩色的光斑。光斑里没有任何精美的玻璃图案，只是纯粹的光。那一刻我突然觉得，这才是时间该有的样子。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cotswolds-aonb\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科茨沃尔德地区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cotswolds AONB</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/westminster-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威斯敏斯特教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Westminster Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/foel-drygarn-hill-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福埃尔德里加恩山堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Foel Drygarn Hill Fort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cairngorms-national-park",
-          "name": "凯恩戈姆国家公园",
-          "englishName": "Cairngorms National Park"
+          "slug": "westminster-abbey",
+          "name": "威斯敏斯特教堂",
+          "englishName": "Westminster Abbey"
         },
         {
-          "slug": "cotswolds-aonb",
-          "name": "科茨沃尔德地区",
-          "englishName": "Cotswolds AONB"
+          "slug": "animal-wall",
+          "name": "动物墙",
+          "englishName": "Animal Wall"
         },
         {
-          "slug": "colin-mcrae-cray-corner",
-          "name": "科林·麦克雷弯道",
-          "englishName": "Colin McRae's Cray Corner"
+          "slug": "foel-drygarn-hill-fort",
+          "name": "福埃尔德里加恩山堡",
+          "englishName": "Foel Drygarn Hill Fort"
         }
       ]
     }

@@ -540,6 +540,12 @@ ${relatedHtml}
     // 写入数据源文件，替代独立 page.tsx 页面文件
     let writeNeeded = true;
     const pageData = parsePageTsx(pageContent, slug);
+    // 直接从源数据构建 hero，避免依赖模板解析
+    pageData.hero = {
+      title: [(data['景点中文名'] || ''), (data['景点英文名'] || ''), (data['国家'] || ''), (data['城市'] || '')]
+        .filter(Boolean).join('・'),
+      description: (data['核心简介'] || '').split('\n')[0] || ''
+    };
     const nextContentJson = JSON.stringify(pageData, null, 2);
     if (fs.existsSync(contentFile)) {
       const oldContent = fs.readFileSync(contentFile, 'utf-8');

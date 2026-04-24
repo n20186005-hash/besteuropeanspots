@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "托尔布斯教堂",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "托尔布斯教堂・Tolbooth Kirk・英国・爱丁堡",
-    "description": "第一次站在托尔布斯教堂门口时，我差点从它面前走过。皇家英里上那些华丽的山墙和鹅卵石路已经把我的注意力拉向更恢弘的圣吉尔斯大教堂，而这座灰扑扑的砂岩建筑就那样沉默地嵌在街角，像一个穿着旧西装的老绅士，低垂着帽檐，不争不抢。直到一阵风从钟楼下方的拱廊穿过，带着石阶缝隙里长出的青苔气味和远处烤面包房里飘来的黄油香，我才猛然停下脚步——那扇被岁月磨得发亮的橡木门半敞着，门缝里透出昏黄的灯光和若有若无的管风琴低鸣。我推门进去，吱呀一声，里面空无一人。\n那一刻的寂静几乎让人耳鸣。阳光从东侧高窗的色彩玻璃里洒进来，投下蓝绿交织的光柱，尘埃在光里静静浮动。木制长椅一排排整齐地摆着，但椅背上刻满了各种潦草的名字和日期——有些是18世纪的，墨水已经褪成浅棕色，有些则是去年刚刻上去的。空气里混合着老木头、蜡烛残灰和某种说不清的甜味，像陈年书本翻过时的气息。我仰头看那高高的尖拱天花板，木梁拼接得精密而朴素，没有任何繁复的雕花，却有一种让人安心的秩序感。教堂正中的讲道台还保留着，但没有十字架，也没有圣像——这是新教教堂特有的清冷，仿佛连上帝都轻手轻脚，不愿打扰这里的安宁。\n它最打动人的地方，恰恰是这种不被瞩目的气质。当地人管它叫“托尔布斯”，就是“收税亭”的意思——中世纪的市政税和监狱都在这附近，教堂建在繁华的皇家英里上，却像是为自己选择了边缘位置，默默见证着爱丁堡三百年的喧嚣。周末的早晨，扫街的工人会坐在教堂门口的台阶上喝一杯热茶，鸽子在钟楼檐角咕咕叫着，偶尔有穿苏格兰裙的风笛手在对面广场即兴吹一段曲子，声音穿过教堂的厚墙，变得柔和而遥远。而教堂内部永远是安详的，像一个巨大的静音罩，把外面的旅游团、街头艺人、冰淇淋车都隔绝在另一个世界。\n礼拜堂的南侧有一间很小的“祈祷室”，现在改成了迷你展览空间，墙上挂着黑白老照片：1950年的圣诞节，孩子们穿着打补丁的衣服站在教堂门口唱赞美诗；1970年，教堂最后一次举行婚礼，新娘的白纱裙摆拖过石阶；1998年，一群抗议者坐在教堂里讨论如何阻止高速公路穿过附近的社区。每一张照片都像一扇窗，窗外是一个已经消失的路易。我站在其中一张照片前，久久挪不开步子——那是一个冬日的清晨，教堂里挤满了人，男人戴着礼帽，女人裹着头巾，所有人的目光都朝向前方，那是1945年5月8日欧洲胜利日的感恩礼拜。即便隔着七十多年的玻璃框，我仿佛也能听见他们唱诗的声音，清澈、颤抖，又带着劫后余生的庆幸。"
+    "description": "第一次站在托尔布斯教堂门口时，我差点从它面前走过。皇家英里上那些华丽的山墙和鹅卵石路已经把我的注意力拉向更恢弘的圣吉尔斯大教堂，而这座灰扑扑的砂岩建筑就那样沉默地嵌在街角，像一个穿着旧西装的老绅士，低垂着帽檐，不争不抢。直到一阵风从钟楼下方的拱廊穿过，带着石阶缝隙里长出的青苔气味和远处烤面包房里飘来的黄油香，我才猛然停下脚步——那扇被岁月磨得发亮的橡木门半敞着，门缝里透出昏黄的灯光和若有若无的管风琴低鸣。我推门进去，吱呀一声，里面空无一人。"
   },
   "sections": [
     {
@@ -58,22 +58,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maen-llia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利亚巨石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen Llia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cairngorm-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorm Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "conwy-falls",
-          "name": "康威瀑布",
-          "englishName": "Conwy Falls"
+          "slug": "cairngorm-mountain",
+          "name": "凯恩戈姆山",
+          "englishName": "Cairngorm Mountain"
         },
         {
-          "slug": "maen-llia",
-          "name": "利亚巨石",
-          "englishName": "Maen Llia"
+          "slug": "ardvreck-castle",
+          "name": "阿德夫雷克城堡",
+          "englishName": "Ardvreck Castle"
         },
         {
-          "slug": "cardiff-bay-barrage",
-          "name": "卡迪夫湾水闸",
-          "englishName": "Cardiff Bay Barrage"
+          "slug": "borth",
+          "name": "博斯",
+          "englishName": "Borth"
         }
       ]
     }

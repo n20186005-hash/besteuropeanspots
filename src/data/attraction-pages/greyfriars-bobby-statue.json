@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格雷弗莱尔·鲍比雕像",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "格雷弗莱尔·鲍比雕像・Greyfriars Bobby Statue・英国・爱丁堡",
-    "description": "那是爱丁堡一个灰蒙蒙的午后，我正沿着Candlemaker Row那条蜿蜒的坡道往上走，鹅卵石路面湿漉漉的，刚下过一场绵密的苏格兰细雨。空气里混合着炸鱼薯条店的油香和旧书店里纸张发霉的甜味。突然，路边一个小小的青铜身影闯进了视线——一只小狗，蹲在一块浅灰色的花岗岩上，耳朵竖着，鼻子朝天，那神情不像在等待什么，倒像在守护着什么。它的名字叫鲍比，格雷弗莱尔·鲍比。很多第一次来的人都会愣一下，因为这只狗实在太小了，小到差点被人流淹没，但它的鼻子却被摸得比身上任何部位都亮，如同被施了魔法般泛着温润的金铜色。\n走近了，你能看到雕像基座上刻着“格雷弗莱尔·鲍比，1858–1872”。但故事远不止这两个数字。在这条忙碌的街上，游客们排队等着和它合影，情侣蹲下来抚摸它的鼻尖，孩子们咯咯笑着用手掌比划它的大小。有个穿着苏格兰裙的风笛手站在不远处的路口吹着忧伤的旋律，音符像雨丝一样飘散。奇怪的是，鲍比雕像明明是个静止的物件，它却让你感觉它随时会转过头来，用它湿润的黑眼睛看你一眼，然后继续望着某个方向。我站在那里看了很久，发现每个路过的人都会本能地放慢脚步，嘴角不自觉上扬——这就是鲍比的魔力，它把一座匆忙的城市变成了一个温柔的故事现场。\n而最动人的部分其实藏在它身后那道铁栅栏后面。格雷弗莱尔教堂的墓园里，青苔覆盖着古老的墓碑，有些已经倾斜得快要倒下了。那里埋葬着爱丁堡几个世纪以来的医生、诗人、商人，也埋葬着鲍比自己。它的主人，一个名叫约翰·格雷的警察，就长眠在那片灰绿色的矮树丛旁。可鲍比的墓并没有和主人合并在同一个墓碑下，而是在不远处，单独一块粉红色的花岗岩，刻着那句苏格兰人最爱的回响:“Greyfriars Bobby – died 14th January 1872 – aged 16 years – Let his loyalty and devotion be a lesson to us all.” 每次读到这句话，我都觉得这不是给狗写的墓志铭，这分明是写给所有在爱丁堡的雨中迷失过的人。\n如果你只把它看成“忠犬八公的苏格兰版本”，那你就错过了它独特的灵魂。鲍比不是虚构出来的银幕传说，它是一个真实存在的、吃过垃圾、睡过泥地、在风雪里用爪子扒开厚厚积雪只为从小贩那里讨一点食物的流浪犬。没有手机，没有新闻头条，只有一条街道上的面包师、屠夫、酒保和游客们自愿投喂它、保护它。它用十四年如一日的等待，把一群陌生人变成了它的家人。而今天，当我从爱丁堡城堡走下山坡，转角看到那只依旧守望着的青铜狗时，我突然懂了什么叫“城市的心跳”——它不在城堡塔楼上，也不在皇家大道的喧嚣里，就在这条不起眼的斜坡上，在一个小狗的鼻尖下。"
+    "description": "那是爱丁堡一个灰蒙蒙的午后，我正沿着Candlemaker Row那条蜿蜒的坡道往上走，鹅卵石路面湿漉漉的，刚下过一场绵密的苏格兰细雨。空气里混合着炸鱼薯条店的油香和旧书店里纸张发霉的甜味。突然，路边一个小小的青铜身影闯进了视线——一只小狗，蹲在一块浅灰色的花岗岩上，耳朵竖着，鼻子朝天，那神情不像在等待什么，倒像在守护着什么。它的名字叫鲍比，格雷弗莱尔·鲍比。很多第一次来的人都会愣一下，因为这只狗实在太小了，小到差点被人流淹没，但它的鼻子却被摸得比身上任何部位都亮，如同被施了魔法般泛着温润的金铜色。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wales-coastal-path-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯海岸步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "wales-coastal-path-aberystwyth",
+          "name": "阿伯里斯特威斯海岸步道",
+          "englishName": "Wales Coastal Path Aberystwyth"
         },
         {
-          "slug": "cardiff-bay",
-          "name": "卡迪夫湾",
-          "englishName": "Cardiff Bay"
+          "slug": "berwick-upon-tweed-castle-and-ramparts",
+          "name": "伯立克-特威德城堡及城墙",
+          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
         },
         {
-          "slug": "bannau-brycheiniog-national-park",
-          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
-          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+          "slug": "cardiff-castle",
+          "name": "卡迪夫城堡",
+          "englishName": "Cardiff Castle"
         }
       ]
     }

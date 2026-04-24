@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布雷肯（Brecon）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布里尼奇引水桥",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布里尼奇引水桥・Brynich Aqueduct・英国・布雷肯（Brecon）",
-    "description": "第一次远远看见布里尼奇引水桥，是在一个飘着细雨的春日午后。我从布雷肯镇出发，沿着运河步道慢慢往南走。脚下是压实的泥土和碎石，左边是平静如镜的运河水面，右边则是连绵起伏的布雷肯比肯斯山，山腰上还挂着未散的薄雾。走了大约二十分钟，河道忽然微微转弯，一座灰黄色的石桥就那样悄悄出现在眼前——不宏伟，不震撼，却像谁随手在绿野里放了一枚旧印章，质朴得让人心里一软。\n走近了，才能体会这座桥的妙处。桥面上的运河大约只有三米宽，碧绿的水安静地卧在石砌槽中，两侧还留着供纤夫行走的石板道。桥下是一条叫Brynich的小溪，水流湍急，溅起的白色水花打在石头上发出哗哗的声音。最迷人的是那种双重空间的交叠：走在桥上，你正踏着一条水路；桥下的溪流和人行道又构成了另一种平行的交通系统。偶尔有野鸭从桥洞下游过，翅膀划过水面时留下细细的波纹，在正午的阳光下像散开的碎金。\n桥附近的野花出乎意料地多。五月的毛茛、六月的绣线菊、七月的柳兰，都沿着运河两岸疯长，把石头缝里都填满了色彩。空气里混杂着湿润的青草味、泥土的矿物质味，还有远处农场里若隐若现的草料香。最安静的时候能听到桥洞下风声的回响，低沉而绵长，像桥在自言自语。当地一位遛狗的老人告诉我，他从小在这桥上跑着玩，现在眼睛花了，但桥面上的每一块石头他闭着眼都能数出来——九十六块枕石，三百多块侧石，从来没有变过。\n它最打动人的地方，也许就在于它几乎完全被时间遗忘。没有售票处，没有纪念品商店，没有围栏和警示牌，你完全可以脱了鞋子坐在桥沿上，把脚悬在溪水上方晃荡。偶尔有运河游船慢悠悠地驶过，船上的人会朝你招手，你也会笑着挥回去。这种不带任何表演性质的亲密感，让布里尼奇成为我心中威尔士最温柔的角落——它不需要被赞美，只安安静静地在田野间站了一百多年，等风来，等雨走，等一个懂得停下来的人。"
+    "description": "第一次远远看见布里尼奇引水桥，是在一个飘着细雨的春日午后。我从布雷肯镇出发，沿着运河步道慢慢往南走。脚下是压实的泥土和碎石，左边是平静如镜的运河水面，右边则是连绵起伏的布雷肯比肯斯山，山腰上还挂着未散的薄雾。走了大约二十分钟，河道忽然微微转弯，一座灰黄色的石桥就那样悄悄出现在眼前——不宏伟，不震撼，却像谁随手在绿野里放了一枚旧印章，质朴得让人心里一软。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bikepark-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">BikePark Wales</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">BikePark Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hafod-arch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈福德拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafod Arch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cymer-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赛默修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cymer Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/edinburgh-dungeon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡地牢</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Edinburgh Dungeon</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "britannia-bridge",
-          "name": "布里塔尼亚桥",
-          "englishName": "Britannia Bridge"
+          "slug": "hafod-arch",
+          "name": "哈福德拱门",
+          "englishName": "Hafod Arch"
         },
         {
-          "slug": "big-ben",
-          "name": "大本钟",
-          "englishName": "Big Ben"
+          "slug": "cymer-abbey",
+          "name": "赛默修道院",
+          "englishName": "Cymer Abbey"
         },
         {
-          "slug": "bikepark-wales",
-          "name": "BikePark Wales",
-          "englishName": "BikePark Wales"
+          "slug": "edinburgh-dungeon",
+          "name": "爱丁堡地牢",
+          "englishName": "The Edinburgh Dungeon"
         }
       ]
     }

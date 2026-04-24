@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克郡圣大卫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士之翼",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士之翼・Wings Of Wales・英国・彭布罗克郡圣大卫",
-    "description": "我第一次站在威尔士之翼的悬崖边时，正是六月的一个清晨。海雾像一层薄纱轻轻挂在天际线上，太阳还没完全跃出海面，但光线已经把整片大西洋染成了柔和的奶白色。风是带着咸味的，迎面扑来，吹得我的冲锋衣啪啪作响，耳朵里全是风声和远处海浪拍打礁石的闷响。脚下的草地湿漉漉的，踩上去能感觉到露珠渗进鞋面，空气中混合着海藻、碎石和某种野花的甜腥味——后来当地人说那是海石竹开花了。\n我顺着悬崖边缘的步道慢慢往前走，每一步都小心翼翼，因为脚下就是垂直坠入蔚蓝的深渊。突然，一阵喧嚣打破了宁静——是鸟。成百上千只海鹦从崖壁的洞穴里弹出来，像一颗颗黑白相间的子弹，扑棱棱地冲向海面。它们翅膀扇动的声音非常独特，不是那种轻盈的扑扇，而是带着一种笨拙的执着，像老式风扇叶片在转动时发出的低频嗡鸣。我趴在地上，把脑袋探出悬崖，看到崖壁上密密麻麻的洞穴，每一处缝隙里都蹲着一只海鹦，它们的喙像涂了橙红色油漆的小铲子，在晨光中闪闪发亮。\n继续往前走，视野突然开阔，一个巨大的海蚀拱门横亘在前方，像一座被巨人凿开的石门。海浪从拱门中涌入，发出“咕噜咕噜”的吞咽声，然后化作白色的泡沫喷涌而出。几只塘鹅正悬停在空中，它们的翅膀展开时足有两米宽，阳光穿过羽翼边缘，绒毛泛着金色的光晕。它们像阅兵式的战斗机一样俯冲入水，溅起细小的水花，然后叼着银色的鱼重新升起。我身边有个当地的老人正支着画架，他用铅笔飞快地勾勒着塘鹅的轮廓，嘴里念念有词：“它们飞了一万年了，比教堂还老。”\n最打动我的并不是这些壮观的鸟群，而是悬崖上那些被海风腐蚀出的纹理。有些裂缝里嵌着化石——贝壳、鱼骨、甚至某种史前爬行动物的趾印。我用手抚摸那些冰冷的石头，能感觉到时间的颗粒感。在悬崖的最高处，有块被磨得光滑的岩石，上面刻着浅浅的凯尔特螺旋纹，据说那是圣大卫在六世纪时用来标记冥想点的。我坐在那块石头上，闭上眼睛，只听得见风、浪、鸟鸣，还有自己心跳的声音。那一刻，我忽然理解了为什么威尔士人把这种地方叫做“Wings Of Wales”——不是翅膀，而是灵魂振动的声音。"
+    "description": "我第一次站在威尔士之翼的悬崖边时，正是六月的一个清晨。海雾像一层薄纱轻轻挂在天际线上，太阳还没完全跃出海面，但光线已经把整片大西洋染成了柔和的奶白色。风是带着咸味的，迎面扑来，吹得我的冲锋衣啪啪作响，耳朵里全是风声和远处海浪拍打礁石的闷响。脚下的草地湿漉漉的，踩上去能感觉到露珠渗进鞋面，空气中混合着海藻、碎石和某种野花的甜腥味——后来当地人说那是海石竹开花了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lindisfarne-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林迪斯法恩城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lindisfarne Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/triangulation-point-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    三\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">三角测量观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Triangulation Point</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/holyrood-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣十字修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holyrood Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gypsy-wood-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉普赛森林公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gypsy Wood Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lindisfarne-castle",
-          "name": "林迪斯法恩城堡",
-          "englishName": "Lindisfarne Castle"
+          "slug": "holyrood-abbey",
+          "name": "圣十字修道院",
+          "englishName": "Holyrood Abbey"
         },
         {
-          "slug": "triangulation-point-wales",
-          "name": "三角测量观景点",
-          "englishName": "Triangulation Point"
+          "slug": "gypsy-wood-park",
+          "name": "吉普赛森林公园",
+          "englishName": "Gypsy Wood Park"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "cardiff-bay-barrage",
+          "name": "卡迪夫湾水闸",
+          "englishName": "Cardiff Bay Barrage"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "珀斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯昆宫",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "斯昆宫・Scone Palace・英国・珀斯",
-    "description": "第一次见到斯昆宫，是在一个湿漉漉的苏格兰清晨。车刚拐过那片古老橡树林，视野突然豁然开朗——一座奶油色与深红色交织的宫殿，像童话书里被施了咒的城堡，就那么安安静静地坐在泰河岸边的缓坡上。晨雾还没散尽，宫殿的尖顶和烟囱在薄纱似的雾气里若隐若现，两只红松鼠从路边的木栅栏上跳过去，尾巴甩出一道灵动的弧线。空气里飘着雨后泥土和苔藓的味道，混着远处花园里玫瑰的甜香，我把车窗摇下来，深深吸了一口，每一个细胞都跟着舒展开了。\n走上那条通往正门的砂石路，脚下传来细碎的咔嚓声——路面上铺满了被雨水冲刷干净的白色小石子。宫殿正面不是想象中那种对称的古典模样，而是一道不规则的轮廓，塔楼、山墙、凸窗错落有致，像一位老爵士随意披着多件不同颜色的斗篷。大门外站着一位穿着苏格兰裙的导览员，戴着一顶软呢帽，皮肤被风吹得红红的。他朝我眨眨眼：“欢迎来到斯昆，记住，这里每一块石头都在说话。”说完他推开了那扇沉重的橡木门，门轴发出低沉的咕哝声，像是宫殿在欢迎又一位访客。\n穿过门厅，我的眼睛需要几秒钟来适应室内的昏暗。空气中弥漫着旧木头、地板蜡、干花和一丝若有若无的雪茄味。脚下是厚厚的土耳其地毯，每走一步都像踩在云端。光线从彩色玻璃窗透进来，在走廊的墙上投下斑驳的红蓝光斑。旁边的壁炉里燃着真正的木材，噼啪作响，火星偶尔溅到铁栅栏上，瞬间熄灭。我摸了摸墙上的木镶板，表面光滑得像婴儿的皮肤，却带着一种温润的凉意——这是几百年来无数双手抚过留下的质感。\n真正让我心折的是二楼那间被称为“加冕厅”的长廊。一张可以容纳四十人的橡木长桌摆在中央，桌面上放着上一顿晚餐留下的银质烛台和一瓶快喝空的威士忌。头顶的穹顶上画满了苏格兰历代君主的纹章，画得很随意，甚至有些地方颜料已经剥落，露出灰泥的本色。但正是这种不完美，让这个空间有了家的温度，而不是冷冰冰的博物馆。我站在落地窗前，看着窗外那片修剪得一丝不苟的草坪，草坪尽头有一棵巨大的橡树，树冠像一把撑开的巨伞。我忽然理解了，为什么苏格兰人要把加冕石藏在这里这么多年——因为这座宫殿，就像一位沉默而忠诚的守护者，把所有秘密都吞进了肚子里，只留下温暖和安宁。"
+    "description": "第一次见到斯昆宫，是在一个湿漉漉的苏格兰清晨。车刚拐过那片古老橡树林，视野突然豁然开朗——一座奶油色与深红色交织的宫殿，像童话书里被施了咒的城堡，就那么安安静静地坐在泰河岸边的缓坡上。晨雾还没散尽，宫殿的尖顶和烟囱在薄纱似的雾气里若隐若现，两只红松鼠从路边的木栅栏上跳过去，尾巴甩出一道灵动的弧线。空气里飘着雨后泥土和苔藓的味道，混着远处花园里玫瑰的甜香，我把车窗摇下来，深深吸了一口，每一个细胞都跟着舒展开了。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gyrn-ddu\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉恩杜山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gyrn Ddu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/great-wedlock-farm-deer-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大韦德洛克农场与鹿园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Great Wedlock Farm & Deer Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/strata-florida-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特拉塔弗洛里达修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Strata Florida Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/leeds-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利兹城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leeds Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eryri-national-park-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃里里国家公园（斯诺登尼亚）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eryri National Park (Snowdonia)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gyrn-ddu",
-          "name": "吉恩杜山",
-          "englishName": "Gyrn Ddu"
+          "slug": "strata-florida-abbey",
+          "name": "斯特拉塔弗洛里达修道院",
+          "englishName": "Strata Florida Abbey"
         },
         {
-          "slug": "great-wedlock-farm-deer-park",
-          "name": "大韦德洛克农场与鹿园",
-          "englishName": "Great Wedlock Farm & Deer Park"
+          "slug": "leeds-castle",
+          "name": "利兹城堡",
+          "englishName": "Leeds Castle"
         },
         {
-          "slug": "llyn-brianne-viewpoint",
-          "name": "布莱恩湖观景台",
-          "englishName": "Llyn Brianne Viewpoint"
+          "slug": "eryri-national-park-snowdonia",
+          "name": "埃里里国家公园（斯诺登尼亚）",
+          "englishName": "Eryri National Park (Snowdonia)"
         }
       ]
     }

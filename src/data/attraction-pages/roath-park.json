@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "罗斯公园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "罗斯公园・Roath Park・英国・卡迪夫",
-    "description": "我第一次见到罗斯公园的时候，是深秋的一个早晨。雾气还没有完全散尽，湖面像一面蒙着薄纱的镜子，安静得让人不敢大声说话。远处那座白色的灯塔孤零零地立在水中央，塔尖刺破雾层，在晨曦里变成一道朦胧的剪影。我沿着湖岸慢慢走，脚踩在落叶上发出咔咔的声音，像是给这片宁静打着节拍。空气里有潮湿的泥土味，还混着一股淡淡的、快要凋零的玫瑰花香——就是那种甜得快要化不开、又带着点怅然的味道。几只天鹅从雾里滑出来，一点都不怕人，缓缓地游到岸边，歪着脑袋看我，好像在说“新来的吧？” 我没带面包，但旁边喂鸭子的老爷爷从口袋里掏了一把麦片塞到我手里，他笑了笑，脸上的皱纹像湖面的涟漪一样舒展开来。\n再往里走，玫瑰园就在湖边的那片坡地上。虽然秋天不是盛放季，但那些深红色的、橙黄色的残花还在枝头上倔强地挂着，像一场盛大的谢幕。一个穿着灰色风衣的姑娘蹲在一丛白玫瑰前，拿着手机对着花瓣上的露珠拍特写，她的男朋友站在后面，手里举着半杯热咖啡，嘴里碎碎念着“这朵和那朵有什么区别”之类的话。阳光终于从云层后面钻出来，一下子把整个湖面点亮了，水波闪成一片金色的碎光。灯塔的白色外墙反射着阳光，像一根点燃的蜡烛，站在那儿，美得不太真实。\n沿着湖走到北岸，空气换了一种味道，变成了烤香肠和黄油面包的香气。那里有一家小小的湖畔咖啡馆，门口排着队，小孩们举着甜筒，脸上沾着巧克力，大人们坐在长椅上，眯着眼睛晒太阳。咖啡馆的后面是一片老橡树林，树干粗得两个大人都抱不住。树荫下有白色的野餐桌，有些桌面刻满了名字和日期——1998年结婚的、2012年毕业的、或者只是某个周末无聊的涂鸦。有只橘色的胖猫躺在桌子中间打盹，谁也不打扰它。我能感觉到，这片公园不只是风景，它更像是卡迪夫人生活里自然而然的一部分，像一条流淌的河，把所有平凡的日子都沉甸甸地收进怀里。\n夜晚的罗斯公园是另一副面孔。夕阳落下后，灯塔会亮起一束微微的黄光，映在湖面上晃晃悠悠的，像一只温柔的眼睛。很多年轻人坐在湖边的石阶上喝酒聊天，声音不高不低，被风吹得稀稀落落的。湖对岸的树影黑成一片，偶尔有野鸭扑棱棱地飞起来。我坐在那儿想，为什么这样一个简单的城市公园，会让人有一种想哭的冲动呢？大概是它太真诚了。它没有炫耀什么，也没有故作姿态，就只是在那里，安安静静地，收留每一个路过的人。"
+    "description": "我第一次见到罗斯公园的时候，是深秋的一个早晨。雾气还没有完全散尽，湖面像一面蒙着薄纱的镜子，安静得让人不敢大声说话。远处那座白色的灯塔孤零零地立在水中央，塔尖刺破雾层，在晨曦里变成一道朦胧的剪影。我沿着湖岸慢慢走，脚踩在落叶上发出咔咔的声音，像是给这片宁静打着节拍。空气里有潮湿的泥土味，还混着一股淡淡的、快要凋零的玫瑰花香——就是那种甜得快要化不开、又带着点怅然的味道。几只天鹅从雾里滑出来，一点都不怕人，缓缓地游到岸边，歪着脑袋看我，好像在说“新来的吧？” 我没带面包，但旁边喂鸭子的老爷爷从口袋里掏了一把麦片塞到我手里，他笑了笑，脸上的皱纹像湖面的涟漪一样舒展开来。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pistyll-rhaeadr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮斯蒂尔·拉厄德尔瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pistyll Rhaeadr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/neptunes-staircase\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    海\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">海王星阶梯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neptune's Staircase</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/the-tenement-house-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    公\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">公寓博物馆（苏格兰国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Tenement House (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brynich-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇引水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-bay\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "charter-boat-wales",
-          "name": "威尔士包船游",
-          "englishName": "Charter Boat Wales"
+          "slug": "the-tenement-house-glasgow",
+          "name": "公寓博物馆（苏格兰国家信托）",
+          "englishName": "The Tenement House (National Trust for Scotland)"
         },
         {
-          "slug": "pistyll-rhaeadr",
-          "name": "皮斯蒂尔·拉厄德尔瀑布",
-          "englishName": "Pistyll Rhaeadr"
+          "slug": "brynich-aqueduct",
+          "name": "布里尼奇引水桥",
+          "englishName": "Brynich Aqueduct"
         },
         {
-          "slug": "neptunes-staircase",
-          "name": "海王星阶梯",
-          "englishName": "Neptune's Staircase"
+          "slug": "cardiff-bay",
+          "name": "卡迪夫湾",
+          "englishName": "Cardiff Bay"
         }
       ]
     }

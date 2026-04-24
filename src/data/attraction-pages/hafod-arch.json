@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯（Aberystwyth）附近，德维尔布里奇（Devil's Bridge）村",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "哈福德拱门",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "哈福德拱门・Hafod Arch・英国・阿伯里斯特威斯（Aberystwyth）附近，德维尔布里奇（Devil's Bridge）村",
-    "description": "第一次听说哈福德拱门，是在阿伯里斯特威斯的一家老书店里。老板是个留着白胡子的威尔士老头，他听说我要找“威尔士最不为人知的浪漫废墟”，眼睛一亮，从柜台后翻出一本发黄的地图册，指着德维尔布里奇山坳里的一个小点说：“去吧，那里有一扇通往18世纪的门。”\n我原本以为这只是一句夸张的比喻，直到我花了半天时间徒步穿越湿漉漉的橡树林，踩着被雨水浸泡得发软的落叶，终于在一片豁然开朗的山坡上看到了它——那座孤独地矗立在荒野中的石拱门。那一刻，除了风声和乌鸦的鸣叫，世界安静得像被抽走了声音。拱门不像我想象中那样宏伟，大约只有五六米高，但它的比例极其优雅：尖尖的门洞像一条拉长的泪滴，两侧的扶壁向上收束，像是祈祷时合拢的双手。最打动人的是它的颜色：深灰色的砂岩上布满了橘红色的苔藓，就像被时间撒上了一层铁锈色的细粉。阳光从云层缝隙中洒下时，那些苔藓会发出哑光的质感，整座拱门仿佛不是石砌的，而是从大地里长出来的。\n我走近去摸那些石块，表面因为百年风雨的冲刷而变得粗糙又光滑，指尖能感受到裂缝里渗出的湿气。门洞中央的光线穿过，投射在背后一片绵延的草坡和远处苍翠的山谷上，那种画面就像一幅被架在画框里的风景画——而画框本身就是这座拱门。我突然理解了为什么18世纪的那些浪漫主义贵族们喜欢造这种东西：他们不是在建一个门，他们是在为想象力开一扇窗。\n那天下午我坐在拱门边的一块石头上，闻着泥土和腐烂树皮的气味，听着远处河水的哗哗声，直到暮色把整座山谷染成蓝紫色。拱门在夕阳的逆光里变成了一座剪影，门洞里的天空像一块被点燃的琥珀。当时有只红尾鸲停在拱门的尖顶上，叫了两声，然后飞走了。那一刻我突然觉得，一座几百年前的废墟，其实和眼前这只鸟一样，都是这片风景里最自然的存在。"
+    "description": "第一次听说哈福德拱门，是在阿伯里斯特威斯的一家老书店里。老板是个留着白胡子的威尔士老头，他听说我要找“威尔士最不为人知的浪漫废墟”，眼睛一亮，从柜台后翻出一本发黄的地图册，指着德维尔布里奇山坳里的一个小点说：“去吧，那里有一扇通往18世纪的门。”"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/drum-castle-scotland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德鲁姆城堡（庄园与花园）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drum Castle, Garden & Estate</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kidwelly-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基德韦利城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kidwelly Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/west-blockhouse-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西堡垒堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">West Blockhouse Fort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tenby-pembrokeshire\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    滕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">滕比</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tenby</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "drum-castle-scotland",
-          "name": "德鲁姆城堡（庄园与花园）",
-          "englishName": "Drum Castle, Garden & Estate"
+          "slug": "kidwelly-castle",
+          "name": "基德韦利城堡",
+          "englishName": "Kidwelly Castle"
         },
         {
-          "slug": "cardiff-castle",
-          "name": "卡迪夫城堡",
-          "englishName": "Cardiff Castle"
+          "slug": "west-blockhouse-fort",
+          "name": "西堡垒堡",
+          "englishName": "West Blockhouse Fort"
         },
         {
-          "slug": "castell-dinefwr",
-          "name": "迪内弗尔城堡",
-          "englishName": "Castell Dinefwr"
+          "slug": "tenby-pembrokeshire",
+          "name": "滕比",
+          "englishName": "Tenby"
         }
       ]
     }

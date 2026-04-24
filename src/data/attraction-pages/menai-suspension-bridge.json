@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "班戈（Bangor）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "梅奈悬索桥",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "梅奈悬索桥・Menai Suspension Bridge・英国・班戈（Bangor）",
-    "description": "我第一次看到梅奈悬索桥，是在一个灰蒙蒙的威尔士早晨。我沿着班戈的海滨散步，海风裹着盐粒和湿润的草香扑面而来，远处那座石塔的轮廓在一片薄雾中若隐若现。走近时，头顶上方的铸铁链索像巨型蜘蛛网一样展开，每一根链条都由无数个工字型铸铁件铆接而成，表面覆盖着一层暗红色的锈迹，那是岁月和盐雾联手留下的勋章。桥面不宽，两车道加两侧窄窄的人行步道，走在上面能清晰感受到大型车辆经过时传来的轻微震颤，那种金属与石头之间的共振，像是桥在呼吸。\n站在桥中央，你忍不住往下看：碧绿的海峡水流湍急，潮汐在这里每天涨落两次，落差超过七米。桥墩的基石被冲刷得光滑如镜，上面粘着绿色的藻类和白色的藤壶。远处，安格尔西岛的山丘上散布着绵羊和石头农舍，偶尔有海鸥尖锐的叫声划过天际。比起那些被游客挤满的伦敦大桥，这里完全是另一种质感——没有纪念品商店，没有售票处，只有一座沉默的、忠实的铁桥，日复一日地承载着当地人的日常。我注意到一个老爷爷骑着自行车慢悠悠地过桥，车筐里装着刚从班戈超市买的面包和牛奶，一切自然得就像这座桥已经融进了土地的轮廓里。\n最打动我的是它的克制。十九世纪的工程师们没有刻意追求华丽，每一根链条、每一块花岗岩都只为了一个纯粹的目的——连接。桥塔顶端的拱形开口不是为了装饰，而是为了减轻风荷载；链索的倾斜度经过精密计算，让自重和活载完美平衡。但正是这种赤裸裸的功能主义，反而生出一种朴素的美感。尤其在黄昏，夕阳把桥塔的影子拉长在波光粼粼的海面上，你会觉得这不是钢铁和石头，而是某种凝固的时间河流。"
+    "description": "我第一次看到梅奈悬索桥，是在一个灰蒙蒙的威尔士早晨。我沿着班戈的海滨散步，海风裹着盐粒和湿润的草香扑面而来，远处那座石塔的轮廓在一片薄雾中若隐若现。走近时，头顶上方的铸铁链索像巨型蜘蛛网一样展开，每一根链条都由无数个工字型铸铁件铆接而成，表面覆盖着一层暗红色的锈迹，那是岁月和盐雾联手留下的勋章。桥面不宽，两车道加两侧窄窄的人行步道，走在上面能清晰感受到大型车辆经过时传来的轻微震颤，那种金属与石头之间的共振，像是桥在呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/folly-farm-adventure-park-and-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福利农场探险公园与动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Folly Farm Adventure Park and Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conwy-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康威瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conwy Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/corris-mine-explorers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科瑞斯矿井探险</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corris Mine Explorers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wales-coastal-path-aberystwyth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯里斯特威斯海岸步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path Aberystwyth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunnet-head-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓尼特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunnet Head Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/croeso-i-gymru-welcome-sign\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士欢迎标志牌</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Croeso i Gymru Welcome Sign</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "folly-farm-adventure-park-and-zoo",
-          "name": "福利农场探险公园与动物园",
-          "englishName": "Folly Farm Adventure Park and Zoo"
+          "slug": "wales-coastal-path-aberystwyth",
+          "name": "阿伯里斯特威斯海岸步道",
+          "englishName": "Wales Coastal Path Aberystwyth"
         },
         {
-          "slug": "conwy-falls",
-          "name": "康威瀑布",
-          "englishName": "Conwy Falls"
+          "slug": "dunnet-head-lighthouse",
+          "name": "邓尼特角灯塔",
+          "englishName": "Dunnet Head Lighthouse"
         },
         {
-          "slug": "corris-mine-explorers",
-          "name": "科瑞斯矿井探险",
-          "englishName": "Corris Mine Explorers"
+          "slug": "croeso-i-gymru-welcome-sign",
+          "name": "威尔士欢迎标志牌",
+          "englishName": "Croeso i Gymru Welcome Sign"
         }
       ]
     }

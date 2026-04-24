@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Staffin，天空岛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "安科兰海滩",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "安科兰海滩・An Corran Beach・英国・Staffin，天空岛",
-    "description": "第一次走向安科兰海滩的时候，苏格兰西海岸那种特有的、带着海藻腥味的风就扑面而来。你不是被导游赶鸭子般带到一个观景台，而是沿着一条窄窄的草地小径往下走，脚踩在湿漉漉的泥炭上，发出咯吱咯吱的声响。转过一个弯，整片灰白色的沙滩就那么毫无防备地展现在眼前，背后是陡峭的斯塔芬悬崖，像巨人用赭红色的砂岩雕刻出的屏风。潮水正在退去，留下一片湿漉漉的、泛着金属光泽的平面，远处一两块巨大的玄武岩礁石像沉睡的海兽，任由浪花拍打着它们的脊背。空气中混合着咸味、腐烂的海草味，还有一丝高地特有的泥炭烟味，那是从附近村庄的烟囱里飘来的。\n你低下头，在刚退潮的沙泥上走着，脚底触感很奇怪：有些地方是松软的细沙，有些地方是坚硬的、凹凸不平的岩石板。然后，你突然看到了它——一个比成人手掌还大一圈的凹陷，三条粗粗的脚趾印清晰得像刚刚踩上去的。你蹲下来，手指轻轻触摸那光滑的石面，指腹沿着凹槽划过，心里涌起一阵奇异的颤栗：这真的是一只1.7亿年前的恐龙留下的。它当时也许正慢悠悠地走过这片泥滩，去觅食，去喝水，或者只是漫无目的地闲逛。而今天，你站在同一个地方，隔着亿万年光阴，和它有了唯一的交集。海滩上到处散落着这样的脚印，大的小的，三趾的圆掌的，有些被苔藓覆盖，有些被海水冲刷得模糊，但总有一些清晰得让人头皮发麻。\n当地人似乎对这些脚印习以为常了。偶尔有牵着狗的老头走过，看也不看那些脚印一眼，径直到更远处的礁石区去挖紫菜。孩子们则喜欢在最大的脚印上跳来跳去，假装自己在恐龙的脚印里玩捉迷藏。这里不是那种摆着围栏、立着说明牌的景点，而是真正活着的、还在被潮汐重新雕刻的远古遗迹。如果你选在傍晚夕阳斜照的时刻来，金色的光线刚好打在砂岩表面，那些凹陷的脚印会拉出长长的阴影，整个海滩仿佛变成了一个巨大的恐龙脚印博物馆，而你是唯一的参观者。这种孤寂、原始、却又充满生命力的感觉，是任何博物馆里无法复制的。"
+    "description": "第一次走向安科兰海滩的时候，苏格兰西海岸那种特有的、带着海藻腥味的风就扑面而来。你不是被导游赶鸭子般带到一个观景台，而是沿着一条窄窄的草地小径往下走，脚踩在湿漉漉的泥炭上，发出咯吱咯吱的声响。转过一个弯，整片灰白色的沙滩就那么毫无防备地展现在眼前，背后是陡峭的斯塔芬悬崖，像巨人用赭红色的砂岩雕刻出的屏风。潮水正在退去，留下一片湿漉漉的、泛着金属光泽的平面，远处一两块巨大的玄武岩礁石像沉睡的海兽，任由浪花拍打着它们的脊背。空气中混合着咸味、腐烂的海草味，还有一丝高地特有的泥炭烟味，那是从附近村庄的烟囱里飘来的。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/abergwesyn-common\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯格韦斯温旷野</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/swansea-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Swansea Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lealt-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尔特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lealt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "abergwesyn-common",
-          "name": "阿伯格韦斯温旷野",
-          "englishName": "Abergwesyn Common"
+          "slug": "swansea-castle",
+          "name": "斯旺西城堡",
+          "englishName": "Swansea Castle"
         },
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "lealt-falls",
+          "name": "利尔特瀑布",
+          "englishName": "Lealt Falls"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "cawdor-castle-and-gardens",
+          "name": "考德城堡与花园",
+          "englishName": "Cawdor Castle and Gardens"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰戈伦 (Llangollen)",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士王子纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士王子纪念碑・Prince of Wales Monument・英国・兰戈伦 (Llangollen)",
-    "description": "那个下午我差点错过它。从兰戈伦镇中心的石桥走过去，沿着A542公路拐进山谷，路两边尽是绵羊和石墙。空气里飘着蕨草被太阳晒出的青涩味道，还有附近农场飘来的淡淡粪肥味——说实话，不太浪漫，但这就是威尔士乡村日常的气味。走了大概二十分钟，拐过一个弯，它就那么突然地从地表冒了出来。一座浅灰色的石造方尖碑，大约十米高，孤零零地立在一片被矮墙围起来的草坪上。碑身站在山坡上，背后是层层叠叠、像巨浪一样涌向天际的克卢伊德山脉。阳光正好打在碑面上，那些粗糙的凿痕在光线里显出温柔的阴影，像是石头在呼吸。\n走近了才能看清细节。底座四个角各有一个像小烛台似的尖墩，碑身正面嵌着一块白色大理石，上面刻着两种文字——威尔士语在上，英语在下。我踮着脚尖读发现它纪念的是1861年威尔士王子爱德华对北威尔士的访问。风吹过来，碑上那个镂空的铁十字架轻轻晃了晃，发出极细微的嘎吱声，像在跟风说话。我绕到碑的背面，发现草地上散落着几朵野花，大概是某个路过的人放的。那一刻我突然理解了为什么当地人把这座碑叫做“王子石”——它确实不像一座纪念碑，更像一块被时间打磨过的巨石，沉默地凝望着山谷里的岁月流过。\n夏天傍晚是它最美的时候。光线变成蜜糖色，把石碑的影子拉得很长，几乎延伸到山脚下。羊群在碑周围的草地上慢悠悠地吃草，偶尔抬头看看我，又低头继续。远处的兰戈伦镇升起炊烟，教堂钟声顺着山谷飘过来，被风揉碎了再传到我耳朵里。我坐在地上，背靠着温暖的石碑，看着云在碑顶十字架后面游走。你很难想象，一百六十年前，威尔士的农民们也是站在这里，仰望着同一个十字架，等待着王子的马车从山路的尽头出现。那种跨越时空的共鸣，比任何博物馆里的展品都更让人动容。\n周围没有游客，没有纪念品商店，甚至没有垃圾桶。只有一座碑，一片山，和风。这正是它最大的魅力——它不讨好任何人，只是安静地站在那儿，等着你偶然发现。如果你像我一样不喜欢人挤人的景点，只想要一段能听见自己心跳的下午时光，那么把它列入你的行程吧。也许你会在碑座的白石板上看到用铅笔写下的诗句，也许你会遇到某个牵着小狗的当地老人，指给你看碑上那道被闪电劈过的裂纹。这些故事，只有当你肯为它绕一段路，才能听见。"
+    "description": "那个下午我差点错过它。从兰戈伦镇中心的石桥走过去，沿着A542公路拐进山谷，路两边尽是绵羊和石墙。空气里飘着蕨草被太阳晒出的青涩味道，还有附近农场飘来的淡淡粪肥味——说实话，不太浪漫，但这就是威尔士乡村日常的气味。走了大概二十分钟，拐过一个弯，它就那么突然地从地表冒了出来。一座浅灰色的石造方尖碑，大约十米高，孤零零地立在一片被矮墙围起来的草坪上。碑身站在山坡上，背后是层层叠叠、像巨浪一样涌向天际的克卢伊德山脉。阳光正好打在碑面上，那些粗糙的凿痕在光线里显出温柔的阴影，像是石头在呼吸。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gypsy-wood-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉普赛森林公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gypsy Wood Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ogmore-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥格莫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ogmore Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llangollen-motor-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    朗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">朗戈伦汽车博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llangollen Motor Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandovery-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰多维利城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandovery Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bedd-arthur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝德·阿瑟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bedd Arthur</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gypsy-wood-park",
-          "name": "吉普赛森林公园",
-          "englishName": "Gypsy Wood Park"
+          "slug": "blenheim-palace",
+          "name": "布伦古堡",
+          "englishName": "Blenheim Palace"
         },
         {
-          "slug": "ogmore-castle",
-          "name": "奥格莫城堡",
-          "englishName": "Ogmore Castle"
+          "slug": "llandovery-castle",
+          "name": "兰多维利城堡",
+          "englishName": "Llandovery Castle"
         },
         {
-          "slug": "llangollen-motor-museum",
-          "name": "朗戈伦汽车博物馆",
-          "englishName": "Llangollen Motor Museum"
+          "slug": "bedd-arthur",
+          "name": "贝德·阿瑟",
+          "englishName": "Bedd Arthur"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "斯旺西",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "罗西里湾",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "罗西里湾・Rhossili Bay・英国・斯旺西",
-    "description": "我第一次站在Rhossili村的悬崖边上时，风差点把我吹成一个疯子。那是一种带着盐腥味和草香的劲风，直接从爱尔兰海扑过来，好像整个大西洋都挤进了这一道海湾里。我眯着眼往下看——那片沙滩，金黄色的，在午后阳光里亮得像撒了一层糖粉，绵延到视线的尽头，被海水温柔地啃着边。远处，Worm's Head那条巨龙般的岩石脊背正从退潮的海水里慢慢探出头来，潮水像退去的铠甲，一层一层地剥落，露出它黝黑的脊梁。\n沙滩上几乎没什么人。只有几个拎着冲浪板的身影，在浪花里起起伏伏，像海鸟一样自在。我沿着悬崖步道往前走，脚下是柔软的草甸，紫色和黄色的野花东一簇西一簇，风把它们吹得摇摇晃晃，发出细碎的沙沙声。偶尔有海鸥尖叫着从头顶滑过，那声音尖锐又空旷，和海浪的轰鸣混在一起，让人说不出是宁静还是喧嚣。空气中除了海水就是泥炭的味道，还有一点枯草燃烧后的焦香——大概是远处农舍的壁炉。\n最打动我的是那种彻底的、不被驯服的自然气息。在英国，很多海滩都被打理得整整齐齐，摆了垃圾桶和救生员瞭望台，罗西里湾不是。它粗糙、原始、危险又迷人。你走在沙滩上，脚底是坚实的沙子和偶尔露出的黑色岩石碎片，海水冰凉刺骨，浪退去时会把沙子里的气泡轰然抽走，留下一片湿润的镜面。你能闻到海藻腐烂的腥味，也能看到岸边的礁石上爬满了深绿色的海草。这里的美不讨好任何人，它就在那里，风大浪急也好，艳阳高照也罢，它自顾自地呼吸。\nWorm's Head的形状像一条沉睡的龙，或者说一条巨大的蠕虫——这名字来自维京人的老叫法。退潮时，你可以沿着一条露出水面的天然石桥走过去，但潮水涨起来的速度比想象中快得多，一不小心就会被困在岛上。当地人常说，如果你不尊重潮汐，它会让你付出代价。这种对自然的敬畏，反倒成了罗西里湾最让人心动的部分。"
+    "description": "我第一次站在Rhossili村的悬崖边上时，风差点把我吹成一个疯子。那是一种带着盐腥味和草香的劲风，直接从爱尔兰海扑过来，好像整个大西洋都挤进了这一道海湾里。我眯着眼往下看——那片沙滩，金黄色的，在午后阳光里亮得像撒了一层糖粉，绵延到视线的尽头，被海水温柔地啃着边。远处，Worm's Head那条巨龙般的岩石脊背正从退潮的海水里慢慢探出头来，潮水像退去的铠甲，一层一层地剥落，露出它黝黑的脊梁。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/paimpont-broceliande-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    潘\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">潘蓬（布罗塞利昂德森林）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Paimpont (Brocéliande)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/biogradska-gora-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比奥格勒山国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Biogradska Gora National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llangollen-motor-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    朗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">朗戈伦汽车博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llangollen Motor Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ponta-delgada-azores\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓬塔德尔gada（黑白玄武岩拼花人行道与古典建筑交织的火山岛之都）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ponta Delgada</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/logar-valley-slovenia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛加尔山谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Logar Valley</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/senedd-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    森\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">森内德（威尔士议会大厦）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Senedd</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "paimpont-broceliande-forest",
-          "name": "潘蓬（布罗塞利昂德森林）",
-          "englishName": "Paimpont (Brocéliande)"
+          "slug": "ponta-delgada-azores",
+          "name": "蓬塔德尔gada（黑白玄武岩拼花人行道与古典建筑交织的火山岛之都）",
+          "englishName": "Ponta Delgada"
         },
         {
-          "slug": "biogradska-gora-national-park",
-          "name": "比奥格勒山国家公园",
-          "englishName": "Biogradska Gora National Park"
+          "slug": "logar-valley-slovenia",
+          "name": "洛加尔山谷",
+          "englishName": "Logar Valley"
         },
         {
-          "slug": "llangollen-motor-museum",
-          "name": "朗戈伦汽车博物馆",
-          "englishName": "Llangollen Motor Museum"
+          "slug": "senedd-wales",
+          "name": "森内德（威尔士议会大厦）",
+          "englishName": "Senedd"
         }
       ]
     }

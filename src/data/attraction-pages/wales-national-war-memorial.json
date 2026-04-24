@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "卡迪夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士国家战争纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士国家战争纪念碑・Wales National War Memorial・英国・卡迪夫",
-    "description": "我第一次站到威尔士国家战争纪念碑面前，是在一个初秋的清晨。卡迪夫城堡刚开门不久，草坪上还挂着露水，空气里弥漫着湿润的草香和远处面包房飘来的黄油气息。我从城堡的主塔楼逛完下来，沿着铺满碎石的小径往西北角走，转过一个弯，巨大的花岗岩方尖碑突然闯入视野。阳光斜斜地洒在石头表面，把每一道刻痕都照得清晰无比，那些密密麻麻的姓名仿佛不是凿出来的，而是从石缝里长出来的。鸽子在基座前的台阶上踱步，翅膀划过空气时发出扑棱棱的声响，混着远处城堡警卫换岗的脚步声。有几个老人已经比我先到了，他们没说话，只是安静地站在碑前，手里攥着鲜红的罂粟花。\n走近了，我仰头看那尊青铜雕像。一个威尔士士兵站立在碑顶，钢盔下压着的脸看不清表情，但他的脊背挺得笔直，手里握着来复枪，枪口朝下——这是哀悼的姿态，而不是冲锋。那一刻，周围所有声音都落下去了，只剩下风吹过碑面棱角的呜咽声。你可以清楚看到花岗岩上每一块纹理都经过精心打磨，但又在岁月里被雨水侵蚀出浅浅的沟壑。基座四面刻着时间线：1914-1918，1939-1945，还有后来增加的福克兰群岛、波斯尼亚等冲突的年份。每一行数字背后，都是一个家庭失去掉儿子、丈夫、父亲的故事。\n最打动我的是纪念碑旁边的小小花园，那里种着一排低矮的迷迭香和薰衣草，花香混合着泥土的味道，柔和地包裹着整个空间。花园正中央有一块黑色的花岗岩石碑，上面用威尔士语和英语写着同一句话：“Ni a'u cofiaf hyd byth”——“我们将永远铭记”。我蹲下来，发现石缝里塞满了小小的心形石头，都是游客留下的。有一块石头上用白色油漆写着“Dad, I remember you”。没有署名，没有任何联系方式，就那样静静地躺在那里。这大概是威尔士人表达感情的方式，沉默却深沉，像这座纪念碑本身。\n对于卡迪夫人来说，这个纪念碑不是旅游景点，而是生活的一部分。每个周末都有家庭带着孩子来这里散步，小孩们在草坪上奔跑，而大人们会不自觉地放慢脚步，路过纪念碑时微微颔首。每年的11月11日，这里会变成一个巨大的花海，成千上万的人挤在城堡广场上，老兵的勋章在阳光下闪闪发亮，鼓乐队演奏着哀伤的乐曲，整个城市都为这一刻静止下来。我后来才知道，那尊青铜雕像的设计灵感来自一位名叫Gwilym的士兵，他在索姆河战役中失踪，他的名字就刻在基座的某个位置上。这些细节让冰冷的石头有了温度，也让到此一游的旅行者不由自主地重新思考战争与和平的意义。"
+    "description": "我第一次站到威尔士国家战争纪念碑面前，是在一个初秋的清晨。卡迪夫城堡刚开门不久，草坪上还挂着露水，空气里弥漫着湿润的草香和远处面包房飘来的黄油气息。我从城堡的主塔楼逛完下来，沿着铺满碎石的小径往西北角走，转过一个弯，巨大的花岗岩方尖碑突然闯入视野。阳光斜斜地洒在石头表面，把每一道刻痕都照得清晰无比，那些密密麻麻的姓名仿佛不是凿出来的，而是从石缝里长出来的。鸽子在基座前的台阶上踱步，翅膀划过空气时发出扑棱棱的声响，混着远处城堡警卫换岗的脚步声。有几个老人已经比我先到了，他们没说话，只是安静地站在碑前，手里攥着鲜红的罂粟花。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/princes-street-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    王\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">王子街花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Princes Street Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monument-to-the-scottish-parliament\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monument to the Scottish Parliament</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pierhead-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔海德大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pierhead Building</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tower-of-london\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伦敦塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tower of London</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "princes-street-gardens",
-          "name": "王子街花园",
-          "englishName": "Princes Street Gardens"
+          "slug": "tower-of-london",
+          "name": "伦敦塔",
+          "englishName": "Tower of London"
         },
         {
-          "slug": "monument-to-the-scottish-parliament",
-          "name": "苏格兰议会纪念碑",
-          "englishName": "Monument to the Scottish Parliament"
+          "slug": "dunrobin-castle",
+          "name": "邓罗宾城堡",
+          "englishName": "Dunrobin Castle"
         },
         {
-          "slug": "pierhead-building",
-          "name": "皮尔海德大楼",
-          "englishName": "Pierhead Building"
+          "slug": "colin-mcrae-cray-corner",
+          "name": "科林·麦克雷弯道",
+          "englishName": "Colin McRae's Cray Corner"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "加的夫",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "加的夫湾步道",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "加的夫湾步道・Cardiff Bay Trail Walk・英国・加的夫",
-    "description": "第一次站在Mermaid Quay的观景台时，我愣住了。海风裹着咸湿的水汽扑过来，夹杂着薯条摊的油香和远处咖啡机蒸汽的嘶嘶声。眼前是灰色的水湾，倒映着威尔士千禧中心那弯曲得像鲸鱼肚皮的玻璃幕墙，阳光在建筑表面的金属格栅上跳跃，碎成无数金色光斑。码头边停着几艘白色游艇，船桅在微风里轻轻摇晃，发出金属碰撞的叮当响。不远处，一对老夫妇坐在长椅上，手捧咖啡，安静地看着水面，偶尔有一只海鸥掠过，叼走漂浮的面包屑。我那一刻突然觉得，这个海湾不是死的，它像一只刚刚睁开眼睛的动物，缓慢呼吸着。\n沿着步道往西走，气味开始变化。潮湿的木材味从废弃的码头栈桥下渗出来，夹杂着铁锈和煤灰的余韵。地面上铺着红色砖石，有些地方嵌着铜质的煤炭运输轨道，踩上去能感觉到凸起的纹理。我蹲下来摸了摸，指腹沾上暗色的粉末，那是百年前矿工们用汗水浸透的煤屑。不远处，一个巨大的钢铁起重机的残骸被改造成了红色长椅，椅背上刻着一行小字：“纪念所有把黑色的能量送往世界的兄弟们。”我坐上去，触感冰凉，但心里有股暖意。这时候，一艘观光船缓缓驶过，船尾翻起白色浪花，水鸟们尖叫着追上去，像是迎接老朋友。\n走到挪威教堂前，一切安静下来。这座木结构小教堂藏在绿树丛后，尖顶上的风向标嗡嗡转动，发出细微的金属声。教堂外墙被漆成深红，门是深绿色，推开时吱呀作响，一股旧木和蜡烛混合的味道涌出来。里面很小，只有十排长椅，彩色玻璃窗上画着维京船和鲸鱼，阳光透过它们在地板上投下菱形光斑。我坐在最前排，听见自己的呼吸，还有外面海鸥的叫声，那声音穿过百年的时光，和如今叠加在一起。这个教堂曾是挪威海员在加的夫的庇护所，如今是一座小博物馆，展品里有一本发黄的圣经，翻开能看到铅笔写的船名和日期——那是水手们离家前留下的祈祷。\n傍晚时分，步道尽头是Barrage水闸，一个能调节海湾水位的水利工程。我站在堤坝上，面朝布里斯托尔海峡，巨大的潮汐落差让海面在几分钟内涨落数米，水声哗啦，像巨人打哈欠。背后的加的夫城在暮色中亮起灯火，千禧中心变成了橙色的发光方块，玻璃上映着最后一缕紫红色的云。有年轻人骑着共享单车飞驰过步道，铃铛叮铃铃响，惊起一群鸽子。这时候，一个当地大叔遛着狗经过，对我笑笑：“美吧？三十年前这里还是煤灰堆，现在连海豚都回来了。”我点点头，深吸一口气，空气里有盐、有草、有炸鱼薯条，还有工业时代消散了却依然萦绕的淡淡煤烟。"
+    "description": "第一次站在Mermaid Quay的观景台时，我愣住了。海风裹着咸湿的水汽扑过来，夹杂着薯条摊的油香和远处咖啡机蒸汽的嘶嘶声。眼前是灰色的水湾，倒映着威尔士千禧中心那弯曲得像鲸鱼肚皮的玻璃幕墙，阳光在建筑表面的金属格栅上跳跃，碎成无数金色光斑。码头边停着几艘白色游艇，船桅在微风里轻轻摇晃，发出金属碰撞的叮当响。不远处，一对老夫妇坐在长椅上，手捧咖啡，安静地看着水面，偶尔有一只海鸥掠过，叼走漂浮的面包屑。我那一刻突然觉得，这个海湾不是死的，它像一只刚刚睁开眼睛的动物，缓慢呼吸着。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brynich-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇引水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/invergarry-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因弗加里城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Invergarry Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/folly-farm-adventure-park-and-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福利农场探险公园与动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Folly Farm Adventure Park and Zoo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "invergarry-castle",
+          "name": "因弗加里城堡",
+          "englishName": "Invergarry Castle"
         },
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "aberpergum-mine",
+          "name": "阿伯珀古姆煤矿",
+          "englishName": "Aberpergum Mine"
         },
         {
-          "slug": "brynich-aqueduct",
-          "name": "布里尼奇引水桥",
-          "englishName": "Brynich Aqueduct"
+          "slug": "folly-farm-adventure-park-and-zoo",
+          "name": "福利农场探险公园与动物园",
+          "englishName": "Folly Farm Adventure Park and Zoo"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "巴特尔",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "巴特尔修道院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "巴特尔修道院・Battle Abbey・英国・巴特尔",
-    "description": "那天清晨我站在修道院废墟前的草地上，雾气像一层薄纱笼罩着整片缓坡。四周安静得能听见草叶被露水压弯的声音，偶尔有几只乌鸦从断壁间飞起，翅膀拍打空气的响动在空旷中回荡。其实这片草地并没有什么特别——除了脚下这片土地，在将近一千年前的某一天，曾有两支军队在这里拼死厮杀。我特意在日出前抵达，就是想避开游客，在一片宁静中想象那个血腥的黎明。风从英吉利海峡吹来，带着咸腥和青草混合的味道，恍惚间我似乎能听到战鼓声、马蹄声和兵器相撞的脆响。\n修道院的主体仅剩地基和几段残墙，但最完整的是那座巨大的门楼，它巍然屹立在进入修道院的入口处，三层高的诺曼式石砌结构历经风雨依然硬朗。从门楼拱门下穿过，你会被一种厚重的压迫感包围——石头的颜色是那种浸透了八百多年日晒雨淋的灰褐色，触摸上去凉凉的，表面粗糙得像砂纸。门楼上对称排列的小圆窗透着光，像中世纪修士的眼睛。走过门楼，视野豁然开朗，一大片草坪向远处延伸，草坪尽头是一排低矮的石基，那就是修道院教堂原址的轮廓。草坪上常有当地的英国人带着孩子野餐，孩子们在曾经的祭坛上跑来跑去，踩过当年教士们唱诗的地方。当地人早已习惯了这种与历史共存的平常心，对他们而言，这个修道院和镇上的酒吧一样，只是生活的一部分。\n最打动我的是主祭坛的位置——那里立着一块简单的石碑，上面写着“在这里，哈罗德·戈德温森，英格兰最后一位撒克逊国王，于1066年10月14日战死”。没有夸张的雕像，只有一块石头。我蹲下来，手指划过石碑边缘的青苔，上面还沾着晨露。站在这里环顾四周，你才能真正理解这场战役为何被称为决定英国命运的一战。修道院选址极为巧妙，它建在战场的高地上，当年威廉的诺曼军队从南方进攻，哈罗德的撒克逊军队占据山顶防守，但最终因为战术失误和疲惫而溃败。如今这里只剩风声、鸟鸣和远处教堂的钟声，你很难把和平的景象和当年数万人惨死的惨烈结合起来。但正是这种反差，让巴特尔修道院拥有了独特的魔力——它不靠宏大的建筑震慑你，而是用一块石碑、一片草地、一阵风，让你自己把历史从脑海里拉出来。\n镇上居民每天都会经过修道院门口去买面包或去邮局，他们不会特意多看它一眼。但如果你在一个傍晚坐在修道院西侧的矮墙上，看到夕阳把门楼的影子拉得长长的，投在草地上，那种橘红色的光线让每一块石头都像在燃烧，你会突然明白为什么征服者威廉要在这里建造修道院——他想用虔诚的祷文掩盖杀戮的罪孽，用永恒的祈祷消解战争的残酷。而一千多年后，这里成了人们散步、遛狗、发呆的地方。历史终于归于平静，而这本身就是最动人的事情。"
+    "description": "那天清晨我站在修道院废墟前的草地上，雾气像一层薄纱笼罩着整片缓坡。四周安静得能听见草叶被露水压弯的声音，偶尔有几只乌鸦从断壁间飞起，翅膀拍打空气的响动在空旷中回荡。其实这片草地并没有什么特别——除了脚下这片土地，在将近一千年前的某一天，曾有两支军队在这里拼死厮杀。我特意在日出前抵达，就是想避开游客，在一片宁静中想象那个血腥的黎明。风从英吉利海峡吹来，带着咸腥和青草混合的味道，恍惚间我似乎能听到战鼓声、马蹄声和兵器相撞的脆响。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/animal-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动物墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Animal Wall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pierhead-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔海德大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pierhead Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/inverness-castle-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因弗内斯城堡体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Inverness Castle Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lealt-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尔特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lealt Falls</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "pierhead-building",
+          "name": "皮尔海德大楼",
+          "englishName": "Pierhead Building"
         },
         {
-          "slug": "animal-wall",
-          "name": "动物墙",
-          "englishName": "Animal Wall"
+          "slug": "inverness-castle-experience",
+          "name": "因弗内斯城堡体验",
+          "englishName": "The Inverness Castle Experience"
         },
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "lealt-falls",
+          "name": "利尔特瀑布",
+          "englishName": "Lealt Falls"
         }
       ]
     }

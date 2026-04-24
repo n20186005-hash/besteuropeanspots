@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "无辜铁路隧道",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "无辜铁路隧道・Innocent Railway Tunnel・英国・爱丁堡",
-    "description": "我第一次听说“Innocent Railway Tunnel”这个名字时，差点以为它是个骗局。怎么可能？一个藏在爱丁堡南边的废弃隧道，居然叫“无辜”？后来才知道，这个名字其实来自它最初的运营商——Innocent Railway Company，而“Innocent”并非意指“天真”，而是指当时反对使用蒸汽机车的保守势力认为这条铁路“无害”。但站在这条隧道的入口，我感受到的是一种远比“无害”更加复杂的情绪。\n隧道的入口被茂密的灌木与野花半掩着，像一个被遗忘的洞穴之口。你走近时，能闻到苔藓和湿润泥土的味道，带着一丝工业历史特有的煤灰气息——虽然早就没有火车了，但那股残余的烟尘仿佛吸附在石头里。入口处的铁门早就不见了，只留下锈迹斑斑的门轴，藤蔓从缝隙里垂下，像挂帘一样在风中轻摇。走进洞口，光线立刻暗下来，仿佛一脚踏进了另一个世界。\n头顶是粗粝的岩石拱顶，巨大的石头块被时光的湿气侵蚀出深浅不一的纹路。空气变得清凉而安静，外界的车流声消失了，只剩下你自己的脚步在石板地上回响，偶尔有水滴从缝隙渗下，发出清脆的“滴答”。越往里走，光线越弱，直至完全被黑暗吞没。但隧道并不是全黑的——尽头有一点微弱的天光，像一个圆点，那是南端的出口。你像在一根长长的管子里，被那种幽闭却又不压抑的温柔包裹着。\n最动人的是隧道的“重生”。它曾是一条运营了不到50年的铁路隧道，1910年代被废弃后，几乎被遗忘。但近年来，爱丁堡人重新发现了它，将它改造成了步行和骑行道。你走在里面，能看见墙壁上有孩子画的粉笔画、情侣写的情书、还有本地跑者的脚印。洞壁上有一盏盏复古的煤气灯，虽然已不再点亮，却依然挂着，像是在轻轻地说：我们还记得曾经的光。隧道成了这座城市的一个秘密呼吸口，一头连接着热闹的Duddingston村，另一头通往Holyrood公园与亚瑟王座的山脚。"
+    "description": "我第一次听说“Innocent Railway Tunnel”这个名字时，差点以为它是个骗局。怎么可能？一个藏在爱丁堡南边的废弃隧道，居然叫“无辜”？后来才知道，这个名字其实来自它最初的运营商——Innocent Railway Company，而“Innocent”并非意指“天真”，而是指当时反对使用蒸汽机车的保守势力认为这条铁路“无害”。但站在这条隧道的入口，我感受到的是一种远比“无害”更加复杂的情绪。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blaenavon-ironworks\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱纳文铁厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaenavon Ironworks</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blue-lagoon-abereiddi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/portmeirion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波特梅里恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portmeirion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-stone\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Stone</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-peninsula\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利恩半岛（国家信托）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Llŷn Peninsula</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "portmeirion",
+          "name": "波特梅里恩",
+          "englishName": "Portmeirion"
         },
         {
-          "slug": "blaenavon-ironworks",
-          "name": "布莱纳文铁厂",
-          "englishName": "Blaenavon Ironworks"
+          "slug": "arthurs-stone",
+          "name": "亚瑟石",
+          "englishName": "Arthur's Stone"
         },
         {
-          "slug": "blue-lagoon-abereiddi",
-          "name": "蓝湖",
-          "englishName": "Blue Lagoon - Abereiddi"
+          "slug": "llyn-peninsula",
+          "name": "利恩半岛（国家信托）",
+          "englishName": "National Trust - Llŷn Peninsula"
         }
       ]
     }

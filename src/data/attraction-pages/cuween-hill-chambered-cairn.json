@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "芬斯镇（Finstown），奥克尼群岛（Orkney Islands）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "库温山墓室石堆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "库温山墓室石堆・Cuween Hill Chambered Cairn・英国・芬斯镇（Finstown），奥克尼群岛（Orkney Islands）",
-    "description": "你很难想象，这个从远处看就像一块普通草坡的小山包，竟然藏着5000年前人类对死亡的全部秘密。车子停在一条被羊群踩得光秃秃的乡间小路边，我关掉引擎，世界瞬间安静得只剩下风声和远处海浪拍打悬崖的闷响。脚下是一条蜿蜒向上的土路，两边是齐膝高的野草，被大西洋的风吹得东倒西歪。走到山坡顶端，那个石堆才真正显露出它的轮廓——一个直径约20米、高约3米的圆丘，像一只蹲伏的巨兽，浑身覆盖着绿色的苔藓和石楠花。入口是低矮的石门，仅有一米多高，你必须弯下腰、甚至蹲着才能钻进去。\n第一次探头时，一股混合着泥土、霉味和石头的凉气扑面而来，像是从地下深处呼出的呼吸。我掏出小手电，光束切开黑暗，照在两侧由巨大石板拼成的通道壁上。石板上布满了水珠，手摸上去冰冷光滑，仿佛还残留着5000年前建造者的体温。通道只有几米长，但每一步都踩在凹凸不平的地面上，能听见自己的心跳和脚步声在石壁间回荡。尽头豁然开朗，是一个大约三米宽、两米高的主墓室。手电的光在石壁上晃动，四角各有一个小小的侧室，像婴儿的摇篮一样凹陷进去。我坐下来，关掉手电，让黑暗彻底吞没自己。那种黑暗不是普通的黑，而是有重量的、像液体一样包裹住你的黑。几秒钟后，眼睛开始适应，头顶有一丝微弱的光从石缝里漏进来，那是唯一证明你还活在地面上的证据。\n对于当地人来说，这个石堆早就成了生活的一部分。Finstown的农夫们世代放羊，羊群常在这座古墓的顶上晒太阳。孩子们小时候会偷偷爬进去玩捉迷藏，然后被父母骂。游客很少，我待了整整两个小时，只遇到一对德国老夫妇，他们一言不发地在墓室里坐了很久，出来后跟我说：这种地方你没法用言语形容，得用屁股去感受。是的，坐在冰冷的石头上，闭上眼，你能感觉到时间在倒流。最打动我的不是它有多宏伟或者多神秘，而是那种原始得近乎赤裸的真诚——古人用最笨拙的方式，把他们对生命的困惑和敬畏留在了这块土地上。"
+    "description": "你很难想象，这个从远处看就像一块普通草坡的小山包，竟然藏着5000年前人类对死亡的全部秘密。车子停在一条被羊群踩得光秃秃的乡间小路边，我关掉引擎，世界瞬间安静得只剩下风声和远处海浪拍打悬崖的闷响。脚下是一条蜿蜒向上的土路，两边是齐膝高的野草，被大西洋的风吹得东倒西歪。走到山坡顶端，那个石堆才真正显露出它的轮廓——一个直径约20米、高约3米的圆丘，像一只蹲伏的巨兽，浑身覆盖着绿色的苔藓和石楠花。入口是低矮的石门，仅有一米多高，你必须弯下腰、甚至蹲着才能钻进去。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceannabeinne-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    喜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">喜纳本海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ceannabeinne Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ardvreck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德夫雷克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ardvreck Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lochindorb-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛钦多布城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lochindorb Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/heart-of-midlothian-mosaic\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    中\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">中洛锡安之心马赛克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heart of Midlothian Mosaic</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "lochindorb-castle",
+          "name": "洛钦多布城堡",
+          "englishName": "Lochindorb Castle"
         },
         {
-          "slug": "ceannabeinne-beach",
-          "name": "喜纳本海滩",
-          "englishName": "Ceannabeinne Beach"
+          "slug": "heart-of-midlothian-mosaic",
+          "name": "中洛锡安之心马赛克",
+          "englishName": "Heart of Midlothian Mosaic"
         },
         {
-          "slug": "ardvreck-castle",
-          "name": "阿德夫雷克城堡",
-          "englishName": "Ardvreck Castle"
+          "slug": "bannau-brycheiniog-national-park",
+          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
+          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
         }
       ]
     }

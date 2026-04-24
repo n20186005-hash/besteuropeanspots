@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "布里塔尼亚桥",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "布里塔尼亚桥・Britannia Bridge・英国・威尔士",
-    "description": "我到达的时候是大雾天，能见度低得像是整个梅奈海峡被泡在一杯浑浊的奶泡里。车还没开到桥前，海浪拍打礁石的哗哗声就穿过迷雾灌进车窗，带着咸湿的海草味。那一瞬间，我本能地期待看到一座优雅的哥特式拱桥，像旁边的梅奈悬索桥那样飘逸。但当雾气突然散开一条缝，布里塔尼亚桥的真身轰然闯入视野时，我被震得头皮发麻——那不是桥，那是一条趴在水面上的钢铁巨龙。两根巨大的矩形铁管被大块的石灰岩桥墩托举在半空中，桥墩下方是数座像古老城堡残骸一样的石拱门。整个结构毫无修饰，铆钉像密密麻麻的勋章一样钉在铁皮表面，每一颗都在诉说着“我生来就是为了扛起重担”。\n这种粗犷的工业美学在那个年代被称为“丑陋的怪兽”，但当我现在站在它脚下仰视时，却觉得它有一种坦荡到令人心酸的诚实。这座桥从不试图讨好你的眼睛，它就是一根纯粹的机械骨骼，暴露着每一处受力点、每一个接缝。我沿着桥下的自行车道走了一段，头顶火车轰鸣而过，钢铁箱梁发出低沉的共鸣，整个结构都在轻微地颤抖，像一个熟睡的巨人在缓慢呼吸。那一刻我理解了，为什么威尔士人会如此深爱这座曾被烧毁的桥——因为这赤裸的钢铁里，有一种不被击倒的倔强。\n当我走到桥的正下方，整个人被包裹在巨大的阴影里。阳光从箱梁之间的缝隙泄漏下来，像舞台上的追光，把灰尘和海水蒸发的水汽照得闪闪发亮。桥墩上那些粗砺的石灰岩表面布满青苔，摸上去潮湿而冰凉，石头缝里长出了紫色的野花。我抬头，能看到铆钉之间挂着几缕蜘蛛网，在风中轻轻晃动。这画面太反差了——一边是19世纪工业文明的霸道宣言，一边是小生物和植物在大钢铁间悄悄繁衍的生命力。这座桥像一个穿越时间的容器，把维多利亚时代的机械之梦和今天威尔士的田园诗意完美地焊接在了一起。\n夕阳西下的时候，我从桥下的礁石爬到正对安格尔西岛的一侧坐下。落日的余晖把巨大的铁管染成了琥珀色，整座桥像一只正在蜕皮的甲虫，外壳在光线下泛着温暖的金属光泽。远处，有人牵着狗在沙滩上散步，海鸥尖叫着掠过水面。那一刻，我甚至听不到汽车和火车的声浪，只剩下钢铁在海平面上划出的那道线条。这条线，就是19世纪和21世纪之间、古典和现代之间，以及威尔士和英格兰之间最沉默也最坚韧的注脚。"
+    "description": "我到达的时候是大雾天，能见度低得像是整个梅奈海峡被泡在一杯浑浊的奶泡里。车还没开到桥前，海浪拍打礁石的哗哗声就穿过迷雾灌进车窗，带着咸湿的海草味。那一瞬间，我本能地期待看到一座优雅的哥特式拱桥，像旁边的梅奈悬索桥那样飘逸。但当雾气突然散开一条缝，布里塔尼亚桥的真身轰然闯入视野时，我被震得头皮发麻——那不是桥，那是一条趴在水面上的钢铁巨龙。两根巨大的矩形铁管被大块的石灰岩桥墩托举在半空中，桥墩下方是数座像古老城堡残骸一样的石拱门。整个结构毫无修饰，铆钉像密密麻麻的勋章一样钉在铁皮表面，每一颗都在诉说着“我生来就是为了扛起重担”。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bikepark-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">BikePark Wales</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">BikePark Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/henrhyd-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亨利德瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Henrhyd Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/falconry-experience-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士猎鹰体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Falconry Experience Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kilt-rock-waterfall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰裙岩瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kilt Rock Waterfall - Creag An Fhèilidh</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "henrhyd-falls",
+          "name": "亨利德瀑布",
+          "englishName": "Henrhyd Falls"
         },
         {
-          "slug": "bikepark-wales",
-          "name": "BikePark Wales",
-          "englishName": "BikePark Wales"
+          "slug": "falconry-experience-wales",
+          "name": "威尔士猎鹰体验",
+          "englishName": "Falconry Experience Wales"
         },
         {
-          "slug": "berwick-upon-tweed-castle-and-ramparts",
-          "name": "伯立克-特威德城堡及城墙",
-          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
+          "slug": "kilt-rock-waterfall",
+          "name": "苏格兰裙岩瀑布",
+          "englishName": "Kilt Rock Waterfall - Creag An Fhèilidh"
         }
       ]
     }

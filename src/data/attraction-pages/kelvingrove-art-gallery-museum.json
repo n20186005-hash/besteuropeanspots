@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "格拉斯哥",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "凯尔文格罗夫美术馆和博物馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "凯尔文格罗夫美术馆和博物馆・Kelvingrove Art Gallery and Museum・英国・格拉斯哥",
-    "description": "我第一次站在凯尔文格罗夫美术馆正门外时，差点以为走错了地方——一栋红彤彤的西班牙式宫殿，阳光下红砂岩闪闪发亮，门廊下的雕塑像在朝我招手。推门进去的那一刹那，我感觉自己撞进了一个巨大的音乐盒。中央大厅挑高得离谱，一架巨大的管风琴几乎填满了整面墙，阳光透过彩绘玻璃洒在深色木头地板上，空气中飘着老家具和灰尘的温柔味道。有个穿苏格兰裙的老爷爷正在调试管风琴，琴声像瀑布一样从头顶倾泻下来，震得我后背发麻。孩子们绕着大厅中央的恐龙骨架疯跑，笑声和管风琴的低音混在一起，反倒成了最和谐的背景音。\n往里走两步，我开始明白这里为什么被格拉斯哥人当作公共客厅。它不像伦敦那些博物馆那么端着架子，反而像个爱显摆的苏格兰老绅士，把全世界最好的东西都搬到一起，随便你看。左边是苏格兰高地风景画，右边是来自非洲的部落面具，往前走几步又撞见一架二次大战的喷火战斗机悬挂在空中。你刚在达利的《十字圣约翰的基督》面前屏住呼吸，转身就能看到一头苏格兰高地牛的标本，那牛瞪着大眼睛，仿佛在说“嘿，伙计，看看我多威风”。这种混搭一点都不违和，反而让你觉得艺术和生活本来就该这么亲近。\n最让我上瘾的是那种从容的氛围。我看见一个满头银发的老太太坐在莫奈作品对面的长椅上，手里拿着一个三明治，一边吃一边盯着画看了整整二十分钟。旁边一群穿校服的中学生围着一个自然历史柜子，老师正指着柜里的猫头鹰标本讲生态链，孩子们竟然没有玩手机。还有妈妈推着婴儿车，小孩伸出胖乎乎的小手去够“触摸展品”区的矿石标本。在这里，没人催你，没人嫌你走得慢，你可以蹲在一件小小的日本瓷瓶面前发呆，也可以爬上二楼回廊俯瞰整个大厅的人来人往。\n但真正让我心里一动的是那架管风琴。有天下午正好赶上免费演奏，一个年轻女孩坐在琴凳上，弹了巴赫的d小调托卡塔。琴声像潮水一样涌过大厅的每个角落，震得窗户玻璃微微发颤。我站在二楼栏杆旁往下看，所有人都抬着头，包括那个还在吃三明治的老太太，大家都安静得像被施了魔法。那一刻我忽然觉得，凯尔文格罗夫美术馆最重要的不是那些价值连城的画作，而是它创造了一个让陌生人共享安静和美的空间。在格拉斯哥这种工业重镇，人们用红砂岩和管风琴为自己造了一座精神庇护所。"
+    "description": "我第一次站在凯尔文格罗夫美术馆正门外时，差点以为走错了地方——一栋红彤彤的西班牙式宫殿，阳光下红砂岩闪闪发亮，门廊下的雕塑像在朝我招手。推门进去的那一刹那，我感觉自己撞进了一个巨大的音乐盒。中央大厅挑高得离谱，一架巨大的管风琴几乎填满了整面墙，阳光透过彩绘玻璃洒在深色木头地板上，空气中飘着老家具和灰尘的温柔味道。有个穿苏格兰裙的老爷爷正在调试管风琴，琴声像瀑布一样从头顶倾泻下来，震得我后背发麻。孩子们绕着大厅中央的恐龙骨架疯跑，笑声和管风琴的低音混在一起，反倒成了最和谐的背景音。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/claerwen-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱文水坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Claerwen Dam</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/iona-abbey-and-nunnery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾奥娜修道院和修女院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Iona Abbey and Nunnery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dinorwic-slate-quarry\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪诺威奇板岩矿场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinorwic Slate Quarry</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/edinburgh-dungeon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡地牢</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Edinburgh Dungeon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-coastal-path-west-shore-sand-dunes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海岸步道（西岸沙丘）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path (West Shore Sand Dunes)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "claerwen-dam",
-          "name": "克莱文水坝",
-          "englishName": "Claerwen Dam"
+          "slug": "edinburgh-dungeon",
+          "name": "爱丁堡地牢",
+          "englishName": "The Edinburgh Dungeon"
         },
         {
-          "slug": "iona-abbey-and-nunnery",
-          "name": "艾奥娜修道院和修女院",
-          "englishName": "Iona Abbey and Nunnery"
+          "slug": "wales-coastal-path-west-shore-sand-dunes",
+          "name": "威尔士海岸步道（西岸沙丘）",
+          "englishName": "Wales Coastal Path (West Shore Sand Dunes)"
         },
         {
-          "slug": "dinorwic-slate-quarry",
-          "name": "迪诺威奇板岩矿场",
-          "englishName": "Dinorwic Slate Quarry"
+          "slug": "castell-dinefwr",
+          "name": "迪内弗尔城堡",
+          "englishName": "Castell Dinefwr"
         }
       ]
     }

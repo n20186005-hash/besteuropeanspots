@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "多尔盖莱（Dolgellau）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "赛默修道院",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "赛默修道院・Cymer Abbey・英国・多尔盖莱（Dolgellau）",
-    "description": "我第一次看见赛默修道院是在一个阴天的下午。车停在一条窄得几乎要刮到车身的乡间小道尽头，推开一扇吱呀作响的铁栅栏门，眼前突然一片开阔：黄绿色的牧场向远处起伏，牛群慢悠悠地抬头看你一眼，然后继续低头吃草。而就在牧场中央，几面灰色的石墙笔直地立着，像被时间削剩下的骨牌。没有游客，没有纪念品商店，甚至没有信息牌，只有风从拱窗的空洞里穿过来，发出低沉的呜咽声。我站在那片废墟前，突然觉得语言是多余的。\n走近了看，石墙上长满了青苔和地衣，手指摸上去，有微凉的潮湿感。那些高大的尖拱窗，原本应该镶嵌着彩色玻璃的吧，现在只剩下石质的窗棂，像骷髅的眼眶。阳光偶尔从云缝里漏下来，在残破的圣坛台阶上投下一道斜影，你能想象几百年前修士们就是在这里跪着祈祷的。空气里有泥土和湿草的味道，混着远处农场传来的牛粪味——这就是威尔士乡村最真实的气味。没有香火，没有蜡烛，只有纯粹的自然。\n这座修道院最打动我的，是它那毫无防备的暴露感。大多数我去过的修道院都有屋顶、有门、有保护，而赛默就像被脱去了所有遮蔽，雨水、阳光、寒风直接打在石头上。站在中殿的位置，抬头就能看到完整的天空，云朵在头顶移动，好像整个建筑都在缓慢地呼吸。我甚至能想象下雨时，雨水会顺着古老的排水口流下，在地面汇成小溪。这种与自然完全交融的状态，让废墟不再是死亡的建筑，而是变成了景观的一部分。\n当地人很少特意来参观，但这片草地是他们遛狗、散步、发呆的地方。我遇到一个牵着黑色拉布拉多的老人，他对我说，这里从他有记忆起就这样，什么都没变。他指了指一块掉落的石头说，那块石头在他小时候就已经躺在那儿了。我突然明白了，对于这个村子来说，赛默修道院不是景点，而是生活中理所当然的一员，就像那座老桥、那棵橡树一样。这种日常感，反而让废墟更有温度。"
+    "description": "我第一次看见赛默修道院是在一个阴天的下午。车停在一条窄得几乎要刮到车身的乡间小道尽头，推开一扇吱呀作响的铁栅栏门，眼前突然一片开阔：黄绿色的牧场向远处起伏，牛群慢悠悠地抬头看你一眼，然后继续低头吃草。而就在牧场中央，几面灰色的石墙笔直地立着，像被时间削剩下的骨牌。没有游客，没有纪念品商店，甚至没有信息牌，只有风从拱窗的空洞里穿过来，发出低沉的呜咽声。我站在那片废墟前，突然觉得语言是多余的。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blenheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blenheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-of-old-wick\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维克老城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Of Old Wick</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/britannia-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里塔尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chester-city-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    切\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">切斯特城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chester City Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llandudno-bandstand\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰迪德诺音乐台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llandudno Bandstand</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/machynlleth-town-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马钦莱斯镇钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Machynlleth Town Clock</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blenheim-palace",
-          "name": "布伦古堡",
-          "englishName": "Blenheim Palace"
+          "slug": "chester-city-walls",
+          "name": "切斯特城墙",
+          "englishName": "Chester City Walls"
         },
         {
-          "slug": "castle-of-old-wick",
-          "name": "维克老城堡",
-          "englishName": "Castle Of Old Wick"
+          "slug": "llandudno-bandstand",
+          "name": "兰迪德诺音乐台",
+          "englishName": "Llandudno Bandstand"
         },
         {
-          "slug": "britannia-bridge",
-          "name": "布里塔尼亚桥",
-          "englishName": "Britannia Bridge"
+          "slug": "machynlleth-town-clock",
+          "name": "马钦莱斯镇钟",
+          "englishName": "Machynlleth Town Clock"
         }
       ]
     }

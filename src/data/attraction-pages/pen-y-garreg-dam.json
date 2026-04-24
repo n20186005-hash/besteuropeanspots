@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "雷阿德（Rhayader）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "佩恩加雷格水坝",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "佩恩加雷格水坝・Pen y Garreg Dam・英国・雷阿德（Rhayader）",
-    "description": "我第一次见到佩恩加雷格水坝时，威尔士的秋天正把山谷染成一片湿漉漉的金黄。车停在一个几乎要被灌木吞没的弯道旁，推开车门的瞬间，一股带着泥炭和苔藓味道的冷风猛地灌进鼻腔。水声轰鸣却不刺耳，像大地深处传来的低沉喘息。沿着碎石小径走了不到三分钟，绕过一片扭结的落叶松林，它就那样突然地从雾气里浮现出来——一道优雅弯曲的混凝土弧线，横亘在两座长满紫色石楠的山丘之间，像一块被巨人随手搁置的灰白色骨头。\n让我愣在原地的，是那种寂静与力量的矛盾共存。水坝的弧面光滑而冷漠，上面覆盖着深绿色的地衣，如同穿了一件旧天鹅绒外套。顶部的八个溢洪道孔洞整齐排列，仿佛一排巨大的风琴管。当水流从这些孔洞中涌出时，会形成一道连续的、几乎透明的帘幕，水珠在阳光穿过云层的瞬间化成细碎的彩虹。而坝体另一侧，蓄满的水库平静得像一面锡箔——那种暗灰色、没有一丝涟漪的镜面，倒映着天空流动的云影。\n我蹲下来摸了摸坝体表面的混凝土，冰凉、粗糙，指尖能感受到微小气孔的凹陷和碎石颗粒的棱角。一百多年前修建它的工人们，大概也曾用同样布满老茧的手掌抚摸过刚刚浇筑的墙面吧。身边的草地上，绵羊们完全无视这座宏伟的人造物，低着头专心啃食石头缝里的短草，偶尔发出一两声抱怨似的咩叫，声音在空旷的山谷里回荡很久。\n当地人告诉我，佩恩加雷格不是最大也不是最高的水坝，但在他们心里是最特别的。因为它弧形的线条不只为了好看——那是一种为了对抗水流压力而进化出的姿态，就像弓背迎接风暴。它没有现代水坝那种冷冰冰的科技感，反而带着一种近乎生物的温顺，沉默地弯着腰，任由湖水在它怀里来回拍打。我坐在坝顶的石栏上，看着灰白的云快速从头顶掠过，水坝的影子在水面上慢慢旋转，突然理解了为什么有人愿意专程绕路几百公里来看它——它不是一个工程，而是一个时代的呼吸。"
+    "description": "我第一次见到佩恩加雷格水坝时，威尔士的秋天正把山谷染成一片湿漉漉的金黄。车停在一个几乎要被灌木吞没的弯道旁，推开车门的瞬间，一股带着泥炭和苔藓味道的冷风猛地灌进鼻腔。水声轰鸣却不刺耳，像大地深处传来的低沉喘息。沿着碎石小径走了不到三分钟，绕过一片扭结的落叶松林，它就那样突然地从雾气里浮现出来——一道优雅弯曲的混凝土弧线，横亘在两座长满紫色石楠的山丘之间，像一块被巨人随手搁置的灰白色骨头。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/loch-achtriochtan-glen-coe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦科峡谷中的阿赫特里奥赫坦湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Achtriochtan, Glen Coe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melincourt-falls-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅林科特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melincourt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱恩湖观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colinton-station-tunnel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林顿车站与隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colinton Station & Tunnel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hanging-hill-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    悬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">悬挂山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hanging Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/corris-mine-explorers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科瑞斯矿井探险</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corris Mine Explorers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "loch-achtriochtan-glen-coe",
-          "name": "格伦科峡谷中的阿赫特里奥赫坦湖",
-          "englishName": "Loch Achtriochtan, Glen Coe"
+          "slug": "colinton-station-tunnel",
+          "name": "科林顿车站与隧道",
+          "englishName": "Colinton Station & Tunnel"
         },
         {
-          "slug": "melincourt-falls-wales",
-          "name": "梅林科特瀑布",
-          "englishName": "Melincourt Falls"
+          "slug": "hanging-hill-wales",
+          "name": "悬挂山",
+          "englishName": "Hanging Hill"
         },
         {
-          "slug": "llyn-brianne-viewpoint",
-          "name": "布莱恩湖观景台",
-          "englishName": "Llyn Brianne Viewpoint"
+          "slug": "corris-mine-explorers",
+          "name": "科瑞斯矿井探险",
+          "englishName": "Corris Mine Explorers"
         }
       ]
     }

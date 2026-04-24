@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰国家肖像美术馆",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "苏格兰国家肖像美术馆・National Galleries Scotland: Portrait・英国・爱丁堡",
-    "description": "第一次走进苏格兰国家肖像美术馆，我被门口那块深红色的砂岩震撼了。爱丁堡的天总是灰蒙蒙的，但这座建筑像一块烧红的炭，在雾里发着温暖的光。推开厚重橡木门的一瞬间，一股混合着旧纸张、木地板蜡和淡淡壁炉烟尘的味道扑面而来，像是老图书馆和古老教堂的气味混合体。大厅中央的穹顶有十层楼高，阳光从四周的彩绘玻璃窗倾泻下来，在白色的石膏浮雕上投下斑驳的蓝紫色光斑，整个空间安静得像教堂，连脚步落在石地上的回音都格外清晰。\n二楼的主展厅里，光线柔和到几乎让人以为时间变慢了。墙上一排排苏格兰名人的面孔静静望着你：穿着格子裙的诗人罗伯特·彭斯眼神里藏着狡黠和忧伤，旁边是小说家沃尔特·司各特的忧郁侧面，再过去是科学家詹姆斯·克拉克·麦克斯韦的睿智目光。这些画都不是那种板着脸的正经肖像，很多画家捕捉了人物最真实的瞬间——女作家穆里尔·斯帕克正扭头望向窗外，嘴角带着一丝调皮的笑意。站在她面前，我忽然觉得她随时会转过头来跟我攀谈。\n最有意思的是三楼那个专门陈列革命者和罪犯的角落。一张18世纪走私者的肖像让我停下脚步。那个男人穿着粗糙的亚麻衬衫，眼神倔强又疲惫，仿佛还在为自己的命运争辩。旁边的说明牌写着他的名字和死因——绞刑。我在他想表达“我不服”的眼神前站了很久，忽然意识到，这座美术馆不仅是名人的殿堂，也是小人物的舞台。苏格兰的历史从来不是王公贵族专属，那些抗争、失败、默默无名的人也在这里留下了痕迹。\n绕到美术馆背后的圣安德鲁广场花园，隔着玻璃窗看到里面的人在展览厅里慢慢移动。晚上六点多，北方的暮色把天空染成淡紫色，美术馆里的灯光亮起来，温暖得像一个巨大的壁炉。当地人都说这是爱丁堡最像家的公众建筑——不是那种高冷的艺术圣殿，而是一个随时可以进去发呆、思考、和陌生人共享安静的客厅。每次路过这里，我总觉得那些画里的人也在看着窗外，看着这个不断变化的城市，他们的故事永远不会结束。"
+    "description": "第一次走进苏格兰国家肖像美术馆，我被门口那块深红色的砂岩震撼了。爱丁堡的天总是灰蒙蒙的，但这座建筑像一块烧红的炭，在雾里发着温暖的光。推开厚重橡木门的一瞬间，一股混合着旧纸张、木地板蜡和淡淡壁炉烟尘的味道扑面而来，像是老图书馆和古老教堂的气味混合体。大厅中央的穹顶有十层楼高，阳光从四周的彩绘玻璃窗倾泻下来，在白色的石膏浮雕上投下斑驳的蓝紫色光斑，整个空间安静得像教堂，连脚步落在石地上的回音都格外清晰。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/holyrood-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣十字修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holyrood Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aberpergum-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿伯珀古姆煤矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aberpergum Mine</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stirling-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特灵城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stirling Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-coch\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科奇城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Coch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/claerwen-dam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱文水坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Claerwen Dam</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "holyrood-abbey",
-          "name": "圣十字修道院",
-          "englishName": "Holyrood Abbey"
+          "slug": "stirling-castle",
+          "name": "斯特灵城堡",
+          "englishName": "Stirling Castle"
         },
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "castell-coch",
+          "name": "科奇城堡",
+          "englishName": "Castell Coch"
         },
         {
-          "slug": "aberpergum-mine",
-          "name": "阿伯珀古姆煤矿",
-          "englishName": "Aberpergum Mine"
+          "slug": "claerwen-dam",
+          "name": "克莱文水坝",
+          "englishName": "Claerwen Dam"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "Welshpool",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "波伊斯城堡与花园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "波伊斯城堡与花园・Powis Castle and Garden・英国・Welshpool",
-    "description": "第一次看见波伊斯城堡，你一定会被它那种低调却不容忽视的气势震住。它不像法国卢瓦尔河谷的城堡那样张扬地在平原上铺陈，而是从一个陡峭的悬崖顶上探出头来，用厚重的红色砂岩墙体镇守脚下的山谷。走近一些，你耳旁首先捕捉到的是花园深处传来的细碎鸟鸣，还有风穿过山顶花园松柏时发出的沙沙声；空气里混着泥土和修剪过的草坪的味道，偶尔飘来一股野生迷迭香的清苦——这种气息让我立刻想起威尔士边境阴雨连绵的午后。\n城堡内部的光线很特别，因为窗子窄小而深，阳光只能斜斜地射进来，在古老橡木地板上投下长长的金色光柱。站在大厅中央，你能闻到几百年累积下来的蜡和木材的味道，厚厚的波斯地毯吸收掉了脚步声，让整座城堡陷入一种肃穆的宁静。但最有意思的是，这里完全不像一座冷冰冰的博物馆——墙角摆着还散发着余温的壁炉，书桌上摊着一本翻开的历史书，甚至窗台上放着一杯喝了一半的茶。管家会轻声告诉你，这座城堡至今仍然是赫伯特家族（Herbert family）的起居之所，他们只在某些季节挪到侧翼居住，而把主楼开放给访客。\n最打动我的不是城堡本身，而是那座悬在悬崖边缘的巴洛克花园。你要沿着一条铺满鹅卵石的小径走下去，然后猛地一抬头，看见一排修剪成锥形的紫杉树像卫兵一样排列在陡峭的斜坡上，往下俯瞰时，整个花园像一幅被错位翻开的挂毯，在脚下的深谷里铺开。那些修剪得几乎像雕塑一般的黄杨篱笆、石雕喷泉和小型的柑橘园，完全不输给欧洲大陆那些知名的皇家花园，却又多了一种威尔士特有的野性——在某个角落你可能会撞上一丛疯长的野草莓，或是一棵倒在路中央开满紫花的树，仿佛大自然始终坚持着自己的节奏，不愿意被完全驯服。\n当地的威尔士人会把这座城堡叫作“Castell Powis”，他们在周末牵着狗、推着婴儿车沿着花园小径散步，像逛自家后院一样自在。最神奇的是，站在花园最高处的露台上，你几乎感觉不到自己是在一个“景点”，更像是闯进了一位老朋友的私家园林，他递给你一杯热茶，然后漫不经心地说：“你看，那些紫杉已经在这里站了三百年了，还活得比我们任何人都好。” 这句话一直留在我的脑海里，它提醒我：波伊斯城堡最迷人的地方，并不在于它有多少金银珠宝，而在于它如何用一种几乎不可察觉的方式，把历史和活生生的日常生活无缝衔接在了一起。"
+    "description": "第一次看见波伊斯城堡，你一定会被它那种低调却不容忽视的气势震住。它不像法国卢瓦尔河谷的城堡那样张扬地在平原上铺陈，而是从一个陡峭的悬崖顶上探出头来，用厚重的红色砂岩墙体镇守脚下的山谷。走近一些，你耳旁首先捕捉到的是花园深处传来的细碎鸟鸣，还有风穿过山顶花园松柏时发出的沙沙声；空气里混着泥土和修剪过的草坪的味道，偶尔飘来一股野生迷迭香的清苦——这种气息让我立刻想起威尔士边境阴雨连绵的午后。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/john-knox-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    约\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">约翰·诺克斯故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">John Knox House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mumbles-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西湾曼布尔斯灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mumbles Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-ness-view-point-fort-augustus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    尼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">尼斯湖观景点（奥古斯都堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Ness View Point Fort Augustus</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kytra-lock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯特拉水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kytra Lock</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lealt-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尔特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lealt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/craigievar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷吉瓦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigievar Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "john-knox-house",
-          "name": "约翰·诺克斯故居",
-          "englishName": "John Knox House"
+          "slug": "kytra-lock",
+          "name": "凯特拉水闸",
+          "englishName": "Kytra Lock"
         },
         {
-          "slug": "mumbles-lighthouse",
-          "name": "斯旺西湾曼布尔斯灯塔",
-          "englishName": "Mumbles Lighthouse"
+          "slug": "lealt-falls",
+          "name": "利尔特瀑布",
+          "englishName": "Lealt Falls"
         },
         {
-          "slug": "loch-ness-view-point-fort-augustus",
-          "name": "尼斯湖观景点（奥古斯都堡）",
-          "englishName": "Loch Ness View Point Fort Augustus"
+          "slug": "craigievar-castle",
+          "name": "克雷吉瓦城堡",
+          "englishName": "Craigievar Castle"
         }
       ]
     }

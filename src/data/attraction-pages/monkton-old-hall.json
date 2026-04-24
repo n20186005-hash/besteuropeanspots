@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭布罗克",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "蒙克顿老庄园",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "蒙克顿老庄园・Monkton Old Hall・英国・彭布罗克",
-    "description": "初见Monkton Old Hall的那个下午，我还是低估了它的低调。它静静窝在彭布罗克一条几乎被绿树吞没的乡村小路上，如果不是路边那块褪色的棕色旅游牌，我差点开车掠过。推开那扇吱呀作响的橡木门，瞬间被一股混合了古老木头、干草和微微尘土的味道包裹——那是时光独有的气息。阳光从窄小的窗棂斜射进来，在凹凸不平的石板地上投下一条条金色光柱，尘埃在其中缓慢飘浮，像凝固的琥珀。耳边只有自己的脚步声在空荡的房间里回响，偶尔有鸟儿从烟囱里扑棱翅膀，那声音在石壁间碰撞，仿佛在和几百年前的某位女主人打招呼。\n这庄园并不大，但每一寸都带着让人不敢高声说话的压迫感。矮矮的门楣让我不得不低头，厚重的石墙让房间里冬暖夏凉，那种恒定感像大地母亲的怀抱。接待我的是一位白发苍苍的本地老太太，她指着大厅壁炉旁那排已磨损得发亮的木椅说：我爷爷的爷爷就坐在这儿读《圣经》，每天午后雷打不动。她说这话时，眼神里没有炫耀，只有一种朴素的归属感。我突然明白，Monkton Old Hall的魅力不在宏伟，而在它和当地人生活之间的那种与生俱来的纠缠。它不是一个被圈起来的博物馆，而是彭布罗克乡村记忆的一部分。\n走出房子，后花园的苹果树正结着青青的果实，地上落满了被风吹下的花瓣。一只胖乎乎的橘猫躺在石阶上午睡，阳光在它身上镀了层金边。远处传来教堂钟声，是整点报道。我站在那里，觉得时间慢得几乎要停止。这就是Monkton Old Hall最打动人的地方——它不需要用金碧辉煌来证明自己，它的存在本身就在替威尔士的乡绅时代说话，用一种极其温柔且坚定的方式。"
+    "description": "初见Monkton Old Hall的那个下午，我还是低估了它的低调。它静静窝在彭布罗克一条几乎被绿树吞没的乡村小路上，如果不是路边那块褪色的棕色旅游牌，我差点开车掠过。推开那扇吱呀作响的橡木门，瞬间被一股混合了古老木头、干草和微微尘土的味道包裹——那是时光独有的气息。阳光从窄小的窗棂斜射进来，在凹凸不平的石板地上投下一条条金色光柱，尘埃在其中缓慢飘浮，像凝固的琥珀。耳边只有自己的脚步声在空荡的房间里回响，偶尔有鸟儿从烟囱里扑棱翅膀，那声音在石壁间碰撞，仿佛在和几百年前的某位女主人打招呼。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/heart-of-midlothian-mosaic\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    中\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">中洛锡安之心马赛克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heart of Midlothian Mosaic</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-seat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟王座</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Seat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dunvegan-castle-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓韦根城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunvegan Castle & Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/leeds-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利兹城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leeds Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "heart-of-midlothian-mosaic",
-          "name": "中洛锡安之心马赛克",
-          "englishName": "Heart of Midlothian Mosaic"
+          "slug": "dunvegan-castle-gardens",
+          "name": "邓韦根城堡与花园",
+          "englishName": "Dunvegan Castle & Gardens"
         },
         {
-          "slug": "arthurs-seat",
-          "name": "亚瑟王座",
-          "englishName": "Arthur's Seat"
+          "slug": "an-corran-beach",
+          "name": "安科兰海滩",
+          "englishName": "An Corran Beach"
         },
         {
-          "slug": "cardiff-castle",
-          "name": "卡迪夫城堡",
-          "englishName": "Cardiff Castle"
+          "slug": "leeds-castle",
+          "name": "利兹城堡",
+          "englishName": "Leeds Castle"
         }
       ]
     }

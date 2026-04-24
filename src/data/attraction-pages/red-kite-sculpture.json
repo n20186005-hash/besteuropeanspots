@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰迪德威·布雷菲（Llanddewi Brefi）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "红鸢雕塑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "红鸢雕塑・Red Kite Sculpture・英国・兰迪德威·布雷菲（Llanddewi Brefi）",
-    "description": "我第一次看到它是在一个阴天的早晨。威尔士的十月总是湿漉漉的，云雾像羊毛毯子一样裹着丘陵，草尖上挂着露珠。我沿着一条被牧羊人踩出来的土路走过，远远地，那座巨大的铁红色雕塑突然从山坡上冒了出来——它太逼真了，真到那一瞬间我心跳漏了一拍，以为是一只真的红鸢落在那里。走近了才发现，原来是一个焊接的庞然大物，每一根羽毛都是用旧犁铧、老门闩、碎铁皮拼成的。风吹过它的骨架时，会发出低沉的嗡鸣声，混合着远处羊群的咩叫，像是在讲述一个古老的故事。\n沙沙的气味从脚底飘上来，是湿泥土和青苔的腥味，混着铁锈的微甜。我站在雕塑的翅膀底下仰头看，它的眼睛是用两个旧车轮毂做的，空洞却似乎有光。那一刻我忽然明白，这座雕塑不是为了模仿一只鸟，而是为了代表所有曾经从这片土地上消失又回来的生灵。旁边的草地上，一只真正的红鸢正盘旋着，翅膀上端有鲜明的白色斑块，它滑翔的姿态和雕塑的造型几乎一模一样——艺术与自然在此刻重合了。\n当地人说，这座雕塑立在风口，是为了让风穿过它的骨架产生哨音，这样方圆几里的红鸢都能听到同伴的声音。我站在那里大约十分钟，就看到有三只红鸢低飞过来，在雕塑上空绕圈，好像在跟这位大号的“同胞”打招呼。我掏出手机想拍照，却发现自己根本不想透过镜头看，而是想用肉眼把那一刻镌刻在记忆里。雨水淋在雕塑上，形成一道道铁锈色的水痕，顺着翅膀尖端滴落，像眼泪一样。\n后来我坐在山坡上，背靠着雕塑的基座，打开保温杯喝了口热茶。远处是连绵起伏的绿色山丘，近处是忙着啃草的威尔士黑羊，头顶是真正的红鸢画出一个个完美的绳圈。我突然理解了为什么威尔士人要把红鸢放在国旗上——它们就是这片土地的灵魂，顽强、骄傲，而且永远在风里翱翔。"
+    "description": "我第一次看到它是在一个阴天的早晨。威尔士的十月总是湿漉漉的，云雾像羊毛毯子一样裹着丘陵，草尖上挂着露珠。我沿着一条被牧羊人踩出来的土路走过，远远地，那座巨大的铁红色雕塑突然从山坡上冒了出来——它太逼真了，真到那一瞬间我心跳漏了一拍，以为是一只真的红鸢落在那里。走近了才发现，原来是一个焊接的庞然大物，每一根羽毛都是用旧犁铧、老门闩、碎铁皮拼成的。风吹过它的骨架时，会发出低沉的嗡鸣声，混合着远处羊群的咩叫，像是在讲述一个古老的故事。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jedburgh-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杰德堡修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jedburgh Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/machynlleth-town-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马钦莱斯镇钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Machynlleth Town Clock</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-andrews-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣安德鲁斯大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St Andrews Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜阿尔特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duart Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "beauly-priory",
-          "name": "博利修道院",
-          "englishName": "Beauly Priory"
+          "slug": "st-andrews-cathedral",
+          "name": "圣安德鲁斯大教堂",
+          "englishName": "St Andrews Cathedral"
         },
         {
-          "slug": "jedburgh-abbey",
-          "name": "杰德堡修道院",
-          "englishName": "Jedburgh Abbey"
+          "slug": "colin-mcrae-cray-corner",
+          "name": "科林·麦克雷弯道",
+          "englishName": "Colin McRae's Cray Corner"
         },
         {
-          "slug": "machynlleth-town-clock",
-          "name": "马钦莱斯镇钟",
-          "englishName": "Machynlleth Town Clock"
+          "slug": "duart-castle",
+          "name": "杜阿尔特城堡",
+          "englishName": "Duart Castle"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "波特梅里恩村（Portmeirion），近波斯马多格（Porthmadog）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "波特梅里恩灯塔",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "波特梅里恩灯塔・Portmeirion Lighthouse・英国・波特梅里恩村（Portmeirion），近波斯马多格（Porthmadog）",
-    "description": "你绝对不会相信我第一次看见波特梅里恩灯塔时的感觉——它突然出现在一个转弯处，就像有人把一颗宝石从意大利的利古里亚海岸偷了过来，然后随意丢在了威尔士的灰色天空下。那是一个阴雨绵绵的下午，海风带着咸腥和潮湿的苔藓味，我沿着碎石坡道往下走，先是看到层层叠叠的彩色房子，粉色的、淡黄的、钴蓝色的，像儿童积木一样杂乱又有趣地堆在陡峭的山坡上。然后，就在海湾的最突出处，那座白色的灯塔猛地扎进视野——纯白的塔身顶着赭红色的穹顶，穹顶上的风向标像一只不锈钢的蝴蝶在微风中颤动。最让人哑然失笑甚至困惑的是，塔身底部居然贴满了白色的小贝壳，密密麻麻，像洒了一层糖霜。走近后，我能听到海浪拍打岩石的哗啦声，和村子高处教堂传来的钟声混在一起。\n它不是用来导航的，从来都不是。它的存在纯粹是为了让这个已经很不正经的村庄再多一分童话感。波特梅里恩原本就是建筑师克劳夫·威廉姆斯-埃利斯在20世纪20年代到70年代一点一点建造的“私人幻想国”，而这座灯塔是他最后的狂想之一。当地人告诉我，克劳夫年轻时在意大利旅行时被波托菲诺的灯塔迷住了，于是决定在自家后院里也立一个。当然，他没有按原样复制，而是加入了自己的幽默感：塔身只有12米高，比例故意弄得不那么匀称，穹顶夸张得像个小丑的帽子。站在它下面抬头看，你会发现塔顶的灯其实是一个巨大的镀金菠萝——在18世纪，菠萝是财富和款待的象征，克劳夫把它放在灯塔上大概是对自己好客本性的一种调皮的告示吧。\n最打动我的是灯塔周围的那些细节。潮涨的时候，海水几乎淹到塔基，浪花在贝壳墙面上留下白色的泡沫，像冰块融化后的水渍。退潮后，露出一大片暗红色的礁石，上面长着翡翠色的海藻，空气里弥漫着海带和盐的浓烈气息。你可以沿着蜿蜒的小径绕到灯塔侧面，那里有一座铸铁的弧形长椅，椅背装饰着卷曲的蕨类植物图案。我坐在那上面，正好看了一场日落。太阳从云层缝隙里洒下金色的光束，在灯塔的白墙上投出斑驳的影子。有个当地老头带着他的金毛犬走过来，很自然地坐在我旁边，说：“它总让我想起马焦雷湖，你懂吗？就是那种什么都不用做，只要看着水发呆就很幸福的感觉。”我点点头——那一刻，我确实完全忘了自己还在威尔士。"
+    "description": "你绝对不会相信我第一次看见波特梅里恩灯塔时的感觉——它突然出现在一个转弯处，就像有人把一颗宝石从意大利的利古里亚海岸偷了过来，然后随意丢在了威尔士的灰色天空下。那是一个阴雨绵绵的下午，海风带着咸腥和潮湿的苔藓味，我沿着碎石坡道往下走，先是看到层层叠叠的彩色房子，粉色的、淡黄的、钴蓝色的，像儿童积木一样杂乱又有趣地堆在陡峭的山坡上。然后，就在海湾的最突出处，那座白色的灯塔猛地扎进视野——纯白的塔身顶着赭红色的穹顶，穹顶上的风向标像一只不锈钢的蝴蝶在微风中颤动。最让人哑然失笑甚至困惑的是，塔身底部居然贴满了白色的小贝壳，密密麻麻，像洒了一层糖霜。走近后，我能听到海浪拍打岩石的哗啦声，和村子高处教堂传来的钟声混在一起。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gyrn-ddu\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉恩杜山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gyrn Ddu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llyn-brianne-dam-reservoir\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布赖恩湖水库与坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Dam & Reservoir</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafna-lead-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/plas-mawr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普拉斯摩尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Plas Mawr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-coastal-path-west-shore-sand-dunes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海岸步道（西岸沙丘）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path (West Shore Sand Dunes)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rhos-on-sea-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗斯滨海海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rhos-on-Sea Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gyrn-ddu",
-          "name": "吉恩杜山",
-          "englishName": "Gyrn Ddu"
+          "slug": "plas-mawr",
+          "name": "普拉斯摩尔",
+          "englishName": "Plas Mawr"
         },
         {
-          "slug": "llyn-brianne-dam-reservoir",
-          "name": "布赖恩湖水库与坝",
-          "englishName": "Llyn Brianne Dam & Reservoir"
+          "slug": "wales-coastal-path-west-shore-sand-dunes",
+          "name": "威尔士海岸步道（西岸沙丘）",
+          "englishName": "Wales Coastal Path (West Shore Sand Dunes)"
         },
         {
-          "slug": "hafna-lead-mine",
-          "name": "哈夫纳铅矿",
-          "englishName": "Hafna Lead Mine"
+          "slug": "rhos-on-sea-beach",
+          "name": "罗斯滨海海滩",
+          "englishName": "Rhos-on-Sea Beach"
         }
       ]
     }

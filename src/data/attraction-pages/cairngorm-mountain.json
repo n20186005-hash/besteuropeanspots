@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿维莫尔（Aviemore）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "凯恩戈姆山",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "凯恩戈姆山・Cairngorm Mountain・英国・阿维莫尔（Aviemore）",
-    "description": "清晨五点，我推开阿维莫尔小镇旅馆的窗户，冷冽得像薄荷刀片一样的空气瞬间刺进鼻腔，远处凯恩戈姆山的身影还裹在乳白色雾霭里，像一头沉睡的巨兽只露出脊背的轮廓。四周静得只剩下自己呼出的白气，偶尔一声红松鸡的啼叫从针叶林深处传来，尖锐又孤独。我背上登山靴和冲锋衣出发，面包房飘出的黄油香混着松脂味在晨风中打转，那是高地特有的早安问候。\n沿着B970公路缓缓驶向山脚，路两边的石楠丛在晨光中泛着紫棕色，露珠凝结在蛛网上像串串碎钻石。当车子转过最后一个弯，整座山毫无预兆地撞进视野——那是纯粹的、压迫性的宏大，花岗岩巨峰像被巨斧劈开，裸露的岩壁在朝阳下泛着铁锈红与灰蓝交织的光晕。我踩上那条通往缆车站的碎石路，脚下沙沙声被呼啸而来的山风吞没，身旁的欧洲赤松被吹得簌簌弯腰，空气中满是苔藓、泥土和远处雪线的冷腥味。\n缆车缓缓上升，森林一点点褪去，先是桦树矮化成了灌木，接着连灌木也消失了，只剩下贴着地皮生长的苔藓和地衣，像一块巨大的绿色天鹅绒毯。透过玻璃窗，我看见一只高山野兔警觉地竖起耳朵，然后蹦跳着消失在乱石堆里。高度计跳到一千米时，耳朵开始嗡鸣，同行的苏格兰老登山客递过来一瓶威士忌，笑着说：“来一口，这才是高地人的暖身礼。”辛辣的酒液滑过喉咙，身体里燃起一团火。\n站在Ptarmigan山顶观景台，世界突然变得纯粹起来。脚下是无穷无尽的石海与冰斗湖，远处莫尔湖像一面墨蓝色的镜子镶嵌在荒原中。风大得几乎要将人吹走，但那种空旷感让人内心奇异地平静下来。我听见自己的心跳和呼吸，成为天地间唯一的声音。那一刻我终于明白了为什么凯恩戈姆被称为“高地之魂”——他不需要任何人类建筑来证明自己的伟大，他的伟大就在于他那亘古不变的沉默。"
+    "description": "清晨五点，我推开阿维莫尔小镇旅馆的窗户，冷冽得像薄荷刀片一样的空气瞬间刺进鼻腔，远处凯恩戈姆山的身影还裹在乳白色雾霭里，像一头沉睡的巨兽只露出脊背的轮廓。四周静得只剩下自己呼出的白气，偶尔一声红松鸡的啼叫从针叶林深处传来，尖锐又孤独。我背上登山靴和冲锋衣出发，面包房飘出的黄油香混着松脂味在晨风中打转，那是高地特有的早安问候。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/betws-y-coed\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科伊德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-coed</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/biogradska-gora-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比奥格勒山国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Biogradska Gora National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lillafured\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利拉菲赖德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lillafüred</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/zug-old-town-lake-zug\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    楚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">楚格老城与楚格湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zug Old Town and Lake Zug</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafna-lead-mine\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kimolos-island\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基莫洛斯岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kimolos</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "betws-y-coed",
-          "name": "贝图斯-科伊德",
-          "englishName": "Betws-y-coed"
+          "slug": "zug-old-town-lake-zug",
+          "name": "楚格老城与楚格湖",
+          "englishName": "Zug Old Town and Lake Zug"
         },
         {
-          "slug": "biogradska-gora-national-park",
-          "name": "比奥格勒山国家公园",
-          "englishName": "Biogradska Gora National Park"
+          "slug": "hafna-lead-mine",
+          "name": "哈夫纳铅矿",
+          "englishName": "Hafna Lead Mine"
         },
         {
-          "slug": "lillafured",
-          "name": "利拉菲赖德",
-          "englishName": "Lillafüred"
+          "slug": "kimolos-island",
+          "name": "基莫洛斯岛",
+          "englishName": "Kimolos"
         }
       ]
     }

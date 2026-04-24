@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰高地（Highlands）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "克里格梅盖迪国家自然保护区",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "克里格梅盖迪国家自然保护区・Creag Meagaidh National Nature Reserve・英国・苏格兰高地（Highlands）",
-    "description": "第一次站在Creag Meagaidh的山脚下时，我怀疑自己闯进了某个被时间遗忘的洪荒世界。清晨的雾气像薄纱一样缠绕在山脊的褶皱里，空气冷冽得能割破喉咙，混合着泥炭、石楠和湿润苔藓的复杂气息直冲鼻腔。你听见的唯一声音是风声——它从谷底刮上来，在千米高的岩壁间回旋，最后化作一声悠长的叹息。地上铺满了金黄色和深褐色的地衣，踩上去像海绵一样柔软，每一步都带着水渍的挤压声。远处，一只红鹿站在石头上，歪着脑袋打量着我，然后慢悠悠地转身消失在雾中。那一刻，我意识到自己不是来游览的，而是来被这片土地审视的。\n沿着Lochan a' Choire的湖边小径往里走，湖水呈现出一种诡异的钢灰色，就像融化的铅液，平静得连一丝涟漪都没有。偶尔有几只黑喉潜鸟从水面掠过，留下一道细长的水痕。湖的对岸是陡峭的冰蚀U形谷，岩壁上刻满了冰川留下的刮痕，像是大地裸露的骨骼。阳光从云缝里漏下来，在岩壁上投下移动的光斑，整个场景像一幅不断变化的抽象画。你可能会觉得这里荒凉得令人不安，但恰恰是这种原始感让人着迷——没有游客的喧嚣，没有商业的干扰，只有你和几千万年地质力量的对话。\n这座保护区的灵魂不在山顶，而在那些被冰川啃噬过的细节里。你蹲下来就能发现：一块岩石上长满了橙色和绿色的苔藓，像微型森林；一条溪流从岩缝中渗出，发出清脆的叮咚声；一片沼泽地里，食虫植物捕虫堇正张开黏液陷阱等着无知的小虫。护林员告诉我，这里已经恢复了野生苏格兰松林的生态，红松鼠、雉鸡和游隼纷纷回归。我坐在一块巨石上，看着云雾从谷口涌进来又退出去，像地球在呼吸。当地人管这种体验叫“高地冥想”——你不需要做什么，只需坐着，让荒野的寂静洗刷掉心里的杂音。\n到了下午，光线变得柔和起来，整片山谷被染成琥珀色。我攀上一块突出的岩架，俯瞰整个保护区。远处Ben Nevis的雪顶在云层中时隐时现，脚下的Creag Meagaidh像一只沉睡的巨兽，脊背起伏，筋骨毕现。有几个穿着亮色冲锋衣的登山者正沿着山脊线移动，像蚂蚁一样渺小。我突然想到，这片土地在凯尔特神话里被视为神祇的住所，难怪古人会敬畏山峦——在这种尺度面前，人类的狂妄显得多么可笑。离开时，我回头看了一眼，夕阳把岩壁染成火焰般的红色，我记住了那一刻：荒野不需要赞美，它只需要你安静地在场。"
+    "description": "第一次站在Creag Meagaidh的山脚下时，我怀疑自己闯进了某个被时间遗忘的洪荒世界。清晨的雾气像薄纱一样缠绕在山脊的褶皱里，空气冷冽得能割破喉咙，混合着泥炭、石楠和湿润苔藓的复杂气息直冲鼻腔。你听见的唯一声音是风声——它从谷底刮上来，在千米高的岩壁间回旋，最后化作一声悠长的叹息。地上铺满了金黄色和深褐色的地衣，踩上去像海绵一样柔软，每一步都带着水渍的挤压声。远处，一只红鹿站在石头上，歪着脑袋打量着我，然后慢悠悠地转身消失在雾中。那一刻，我意识到自己不是来游览的，而是来被这片土地审视的。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cardiff-bay-barrage\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫湾水闸</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Bay Barrage</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/battle-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Battle Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/colin-mcrae-cray-corner\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科林·麦克雷弯道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Colin McRae's Cray Corner</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glasgow-science-centre-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥科学中心塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Science Centre Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-lomond\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛蒙德湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Lomond</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "cardiff-bay-barrage",
-          "name": "卡迪夫湾水闸",
-          "englishName": "Cardiff Bay Barrage"
+          "slug": "colin-mcrae-cray-corner",
+          "name": "科林·麦克雷弯道",
+          "englishName": "Colin McRae's Cray Corner"
         },
         {
-          "slug": "battle-abbey",
-          "name": "巴特尔修道院",
-          "englishName": "Battle Abbey"
+          "slug": "glasgow-science-centre-tower",
+          "name": "格拉斯哥科学中心塔",
+          "englishName": "Glasgow Science Centre Tower"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "loch-lomond",
+          "name": "洛蒙德湖",
+          "englishName": "Loch Lomond"
         }
       ]
     }

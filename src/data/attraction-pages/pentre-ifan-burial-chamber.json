@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "纽波特（彭布罗克郡）",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "彭特雷伊凡墓室",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "彭特雷伊凡墓室・Pentre Ifan Burial Chamber・英国・纽波特（彭布罗克郡）",
-    "description": "第一次看到彭特雷伊凡墓室，是在一个六月的傍晚。开车沿着A487公路缓缓拐进一条石头墙夹道的乡间小路，两侧的牧场一望无际，绿得几乎不真实。我在一个不起眼的拐角停下车，顺着一条土路走了不到三分钟，眼前突然豁然开朗——它就那么静静地立在坡顶，远远望去像一张被巨人支起的石桌。那一刻，风声、鸟鸣、远处羊群的叫声全部被一种奇异的寂静取代，我甚至能听见自己心跳的声音。\n走近了才感觉到它的尺寸有多惊人。那块倾斜的顶石几乎有小型货车那么大，表面布满了青苔和风化留下的沟壑，颜色在夕阳下呈现出铁锈般的赭石和灰绿交织的斑驳质感。三根直立石柱粗壮得像巨人的手臂，深深插进泥土里，边缘被千百年的雨水打磨得圆润光滑。站在它下面，你会有一种本能地想要后退的冲动——它太重了，重得让人喘不过气来，又偏偏只靠三点支撑，仿佛随时会轰然倒塌。但它已经这样站了五千多年。\n空气里混合着泥土、青草和羊粪的味道，那是威尔士乡间最真实的气息。我用手掌贴着一根石柱的侧面，触感冰凉、粗糙，像在触摸时间本身。头顶上，云朵快速移动，光影在巨石上流动，一会儿把顶石染成深蓝，一会儿又让阴影爬上墓室的内壁。几只绵羊好奇地凑过来，站在几米外呆呆地看着我，然后继续低头吃草，好像这堆石头和它们一样，只是田野里再普通不过的存在。\n但对我来说，这绝对不是普通的存在。彭特雷伊凡墓室最打动我的地方，是它那种沉默的力量。它不言语，不解释，只是一直站在那里，看着一代又一代人从它身边走过，看着田野里的庄稼一岁一枯荣，看着山坡上的羊群更替了无数轮。它既是大地的一部分，又像是从天上掉下来的。五千年在它身上刻下了痕迹，但它的灵魂从未改变。站在它面前，你会不自觉地压低声音，仿佛怕惊醒什么沉睡的东西。"
+    "description": "第一次看到彭特雷伊凡墓室，是在一个六月的傍晚。开车沿着A487公路缓缓拐进一条石头墙夹道的乡间小路，两侧的牧场一望无际，绿得几乎不真实。我在一个不起眼的拐角停下车，顺着一条土路走了不到三分钟，眼前突然豁然开朗——它就那么静静地立在坡顶，远远望去像一张被巨人支起的石桌。那一刻，风声、鸟鸣、远处羊群的叫声全部被一种奇异的寂静取代，我甚至能听见自己心跳的声音。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/jedburgh-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杰德堡修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jedburgh Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/glasgow-science-centre-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥科学中心塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Science Centre Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maen-du-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑石圣井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maen-Du Well</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/an-corran-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安科兰海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">An Corran Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bath-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bath Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calanais-standing-stones\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡兰尼什巨石阵</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calanais Standing Stones</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "jedburgh-abbey",
-          "name": "杰德堡修道院",
-          "englishName": "Jedburgh Abbey"
+          "slug": "an-corran-beach",
+          "name": "安科兰海滩",
+          "englishName": "An Corran Beach"
         },
         {
-          "slug": "glasgow-science-centre-tower",
-          "name": "格拉斯哥科学中心塔",
-          "englishName": "Glasgow Science Centre Tower"
+          "slug": "bath-tower",
+          "name": "巴斯塔",
+          "englishName": "Bath Tower"
         },
         {
-          "slug": "maen-du-well",
-          "name": "黑石圣井",
-          "englishName": "Maen-Du Well"
+          "slug": "calanais-standing-stones",
+          "name": "卡兰尼什巨石阵",
+          "englishName": "Calanais Standing Stones"
         }
       ]
     }

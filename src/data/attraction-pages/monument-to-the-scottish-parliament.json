@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "苏格兰议会纪念碑",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "苏格兰议会纪念碑・Monument to the Scottish Parliament・英国・爱丁堡",
-    "description": "第一次看到这座纪念碑是在一个阴沉的十一月下午。我刚从圣吉尔斯大教堂出来，准备绕到教堂背后的议会广场时，它就这么突兀又庄严地出现在眼前。三块巨大的青铜板像被无形的手折弯的纸张，竖立在灰白的石板地上，表面布满了密密麻麻的铭文和凹陷的图案。雨水打在上面，顺着那些凹槽流下，像是青铜在哭泣。空气中弥漫着湿冷石头的味道和远处烤栗子的焦甜香气，还有风从福斯湾吹来带着的海水咸腥。\n我走近些，发现那些铭文并不是随便刻的。左边那块板子上刻着1707年合并法案的关键条款，中间那块记录着1999年苏格兰议会重新开幕的投票结果，右边那块则留白——据说未来还会添加新的篇章。有个穿着格子呢裙的老人坐在旁边的长椅上，拿保温杯喝着茶，看到我好奇的样子，主动搭话说：“你知道这里曾经没有议会吗？三百多年，我们就像被遗忘了的孩子。”他指了指那留白的部分，“这空白就是希望啊。”\n那天的光线很奇特，云层裂开一道缝，阳光像聚光灯一样刚好打在其中一块板上，把那些凹痕拉出长长的影子。我突然理解了为什么纪念碑要设计成这种不对称的形状——它是在模仿辩论的场景，每一块板都像是一个正在发表观点的人，互相倾斜、对峙，却又被同一个底座牢牢连接。这比任何华丽的雕像都更真实地代表了政治的本质：冲突、妥协、以及永远在流动的权力。\n从那以后每次路过议会广场，我都会特意绕道来看一眼这块纪念碑。它不像旁边的圣吉尔斯大教堂和议会厅那样宏伟，却有一种安静的重量。早晨阳光斜射时，那些铭文会像被激活的密码一样清晰可读；深夜路灯亮起，青铜表面反射出昏黄的光晕，整座纪念碑就像一个沉默的守望者。最动人的时刻是每年五月的议会开幕日，人们会在这里放上一束束紫色的石楠花，那是苏格兰的象征，也是三百年民主记忆的具象化。"
+    "description": "第一次看到这座纪念碑是在一个阴沉的十一月下午。我刚从圣吉尔斯大教堂出来，准备绕到教堂背后的议会广场时，它就这么突兀又庄严地出现在眼前。三块巨大的青铜板像被无形的手折弯的纸张，竖立在灰白的石板地上，表面布满了密密麻麻的铭文和凹陷的图案。雨水打在上面，顺着那些凹槽流下，像是青铜在哭泣。空气中弥漫着湿冷石头的味道和远处烤栗子的焦甜香气，还有风从福斯湾吹来带着的海水咸腥。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castle-moil\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-varrich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦里克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Varrich</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/devils-staircase-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    恶\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">恶魔阶梯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Devil's Staircase</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cwm-rhaeadr-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    坎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">坎姆拉德森林瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cwm Rhaeadr Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunnet-head-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓尼特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunnet Head Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "castle-moil",
-          "name": "莫伊尔城堡",
-          "englishName": "Castle Moil"
+          "slug": "devils-staircase-wales",
+          "name": "恶魔阶梯",
+          "englishName": "Devil's Staircase"
         },
         {
-          "slug": "dunrobin-castle",
-          "name": "邓罗宾城堡",
-          "englishName": "Dunrobin Castle"
+          "slug": "cwm-rhaeadr-forest",
+          "name": "坎姆拉德森林瀑布",
+          "englishName": "Cwm Rhaeadr Forest"
         },
         {
-          "slug": "castle-varrich",
-          "name": "瓦里克城堡",
-          "englishName": "Castle Varrich"
+          "slug": "dunnet-head-lighthouse",
+          "name": "邓尼特角灯塔",
+          "englishName": "Dunnet Head Lighthouse"
         }
       ]
     }

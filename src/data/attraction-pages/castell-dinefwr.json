@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰代洛",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "迪内弗尔城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "迪内弗尔城堡・Castell Dinefwr・英国・兰代洛",
-    "description": "在威尔士西南部那片总是氤氲着仙气的塔菲河谷，迪内弗尔城堡并不像温莎或爱丁堡那样金碧辉煌，它更像一个沉睡的巨人，任由常春藤和野花在它残破的骨骼上肆意生长。我第一次遇见它是在一个雾气未散的清晨，车子刚拐过兰代洛古镇的弯道，那座矗立在翠绿山丘上的巨大石灰岩废墟就撞进了视线。没有售票处排起的长队，没有喧嚣的纪念品商店，只有风吹过千年石壁发出的低沉呜咽，和远处庄园里传来的几声牛叫。\n我沿着一条被羊群踩出来的土路往上爬，脚下的泥土混合着青草和潮湿石灰的气味。走近了，才真正感受到它的庞大。那些残破的塔楼和城墙，像是从山体里直接长出来的一样，毫无人工的造作感。你可以触摸到石头上粗粝的纹路，想象当年工匠凿刻时发出的叮当声。城堡内部早已没有了屋顶，天空就是它最华丽的天花板。阳光透过缺口洒下来，在绿草如茵的地面上投下斑驳的光影，那些古老的壁炉和石阶，在光影里若隐若现。\n最奇妙的是，城堡脚下就是一片被称作“鹿园”的巨大牧场，成群的威尔士黑牛和梅花鹿在里面悠然自得地吃草。你站在城堡废墟的高处往下看，牛羊像散落的珍珠一样点缀在如丝绒般的绿色坡地上，远处是蜿蜒的塔菲河和连绵起伏的坎布里安山脉。那一刻你会有种恍惚的感觉，时间在这里不是一条流动的河，而是一潭静止的深水。几百年来，除了战火和雨雪，这里的一切好像都没变过。\n当地人说，这里是整个威尔士“最有灵魂的废墟”。它不像有些被过度修复的古迹，失去了岁月的味道。这里每一块松动的石头，每一道深深的裂缝，都藏着故事。你能感受到一种无声的悲壮，那是一种属于失败英雄的挽歌。当你坐在那面最完整的城墙下，听着风声，看着远处的羊群，你会觉得，旅行不只有看人头和打卡，还有这种能与历史肌肤相亲的安静时刻。"
+    "description": "在威尔士西南部那片总是氤氲着仙气的塔菲河谷，迪内弗尔城堡并不像温莎或爱丁堡那样金碧辉煌，它更像一个沉睡的巨人，任由常春藤和野花在它残破的骨骼上肆意生长。我第一次遇见它是在一个雾气未散的清晨，车子刚拐过兰代洛古镇的弯道，那座矗立在翠绿山丘上的巨大石灰岩废墟就撞进了视线。没有售票处排起的长队，没有喧嚣的纪念品商店，只有风吹过千年石壁发出的低沉呜咽，和远处庄园里传来的几声牛叫。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/alton-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔顿塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alton Towers</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adventure-tour-snowdonia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雪墩山探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adventure Tour Snowdonia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cors-y-llyn-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科西林国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cors y Llyn National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prince-of-wales-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士亲王桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prince of Wales Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡迪夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "alton-towers",
-          "name": "奥尔顿塔",
-          "englishName": "Alton Towers"
+          "slug": "cors-y-llyn-national-nature-reserve",
+          "name": "科西林国家自然保护区",
+          "englishName": "Cors y Llyn National Nature Reserve"
         },
         {
-          "slug": "adventure-tour-snowdonia",
-          "name": "雪墩山探险之旅",
-          "englishName": "Adventure Tour Snowdonia"
+          "slug": "prince-of-wales-bridge",
+          "name": "威尔士亲王桥",
+          "englishName": "Prince of Wales Bridge"
         },
         {
-          "slug": "buckingham-palace",
-          "name": "白金汉宫",
-          "englishName": "Buckingham Palace"
+          "slug": "cardiff-castle",
+          "name": "卡迪夫城堡",
+          "englishName": "Cardiff Castle"
         }
       ]
     }

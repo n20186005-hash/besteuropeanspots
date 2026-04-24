@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰多维利",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "兰多维利城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "兰多维利城堡・Llandovery Castle・英国・兰多维利",
-    "description": "初见兰多维利城堡的那天下午，威尔士的天空像被水洗过一样透亮。我从镇上的小咖啡馆端着一杯冒着蒸汽的卡布奇诺，沿着鹅卵石铺就的斜坡慢慢往上走。说实话，在一堆自驾攻略里看到它的照片时，我以为这又是一座标准的英国废墟：残垣断壁，荒草萋萋。但当那座城堡真的出现在视野尽头时，我还是被小小地击中了。它并不算高大，也没有温莎城堡那种令人窒息的宏伟，但它就那么安静地蹲在小山丘的弧顶，像一头伏卧在绿色地毯上的古老巨兽，那种沉淀的力量感，比任何浮夸的装饰都更摄人心魄。\n顺着被青苔与泥泞涂抹得斑驳不清的石阶爬上去，你会先注意到城堡外围那道低矮的土墙——那是更古老的防御工事遗迹，几乎已经被草完全覆盖。走近主堡遗迹时，唯一保存相对完整的东侧塔楼像一柄竖立的巨斧，从地面劈向天空。砂岩的表面布满了岁月的纹路：风蚀出的沟壑、雨水冲刷出的凹痕，还有几处像是被箭矢撞击后留下的浅坑。阳光斜照在上面，把石头的颜色晒成了一种温暖的蜜色，光影在凹凸不平的表面缓慢游走。我伸手触碰那堵墙，指尖传来的是一种粗糙而冰冷的触感，你能清晰地意识到，这石头曾经承受过烈火、刀剑和漫长的遗忘。\n站在城堡的高处，你被整个兰多维利镇和碧绿的山谷包围。脚下，是小镇的红砖屋顶和教堂尖顶，颜色温和而日常；远处，布雷肯比肯斯的山脊线在轻雾中若隐若现，那种层叠的绿色仿佛永远没有尽头。没有蜂拥的游客，没有贩卖纪念品的摊位，只有远处牧场上偶尔传来的羊叫声，和风吹过草地时发出的沙沙声。那一刻，我几乎能想象出13世纪的士兵站在同样的位置，眺望前方的地平线，警惕地搜寻着敌人旗帜的剪影。那种宁静，不是空洞的寂静，而是一种被厚重历史包裹着的沉甸甸的静谧。\n最打动我的，其实是城堡的“不完美”。它不像那些经过精修复原的旅游景点那样光鲜，而是以一种坦然的姿态展示着自己的残缺。东侧塔楼的顶部已经坍塌，露出内部空洞的砖石结构；墙角处野生的常春藤肆意攀爬，几乎要把那面墙变成一块巨大的绿色挂毯。但也正是这种未加修饰的诚实，让每个到访者都能在废墟的缝隙里，真切地触摸到时间的质地——它没有在讨好谁，它只是在那里，忠实地记录了几百年的风霜雨雪。这种赤裸的历史感，比任何导游词都更有说服力。"
+    "description": "初见兰多维利城堡的那天下午，威尔士的天空像被水洗过一样透亮。我从镇上的小咖啡馆端着一杯冒着蒸汽的卡布奇诺，沿着鹅卵石铺就的斜坡慢慢往上走。说实话，在一堆自驾攻略里看到它的照片时，我以为这又是一座标准的英国废墟：残垣断壁，荒草萋萋。但当那座城堡真的出现在视野尽头时，我还是被小小地击中了。它并不算高大，也没有温莎城堡那种令人窒息的宏伟，但它就那么安静地蹲在小山丘的弧顶，像一头伏卧在绿色地毯上的古老巨兽，那种沉淀的力量感，比任何浮夸的装饰都更摄人心魄。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/charter-boat-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士包船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charter Boat Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-moil\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorm-mountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorm Mountain</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/berwick-upon-tweed-castle-and-ramparts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯立克-特威德城堡及城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berwick-upon-Tweed Castle and Ramparts</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/newcastles-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纽\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纽卡斯尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Newcastle's Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜阿尔特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duart Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "charter-boat-wales",
-          "name": "威尔士包船游",
-          "englishName": "Charter Boat Wales"
+          "slug": "berwick-upon-tweed-castle-and-ramparts",
+          "name": "伯立克-特威德城堡及城墙",
+          "englishName": "Berwick-upon-Tweed Castle and Ramparts"
         },
         {
-          "slug": "castle-moil",
-          "name": "莫伊尔城堡",
-          "englishName": "Castle Moil"
+          "slug": "newcastles-castle",
+          "name": "纽卡斯尔城堡",
+          "englishName": "Newcastle's Castle"
         },
         {
-          "slug": "cairngorm-mountain",
-          "name": "凯恩戈姆山",
-          "englishName": "Cairngorm Mountain"
+          "slug": "duart-castle",
+          "name": "杜阿尔特城堡",
+          "englishName": "Duart Castle"
         }
       ]
     }

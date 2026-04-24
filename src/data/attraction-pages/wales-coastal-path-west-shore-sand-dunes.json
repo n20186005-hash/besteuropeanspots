@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "阿伯里斯特威斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "威尔士海岸步道（西岸沙丘）",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "威尔士海岸步道（西岸沙丘）・Wales Coastal Path (West Shore Sand Dunes)・英国・阿伯里斯特威斯",
-    "description": "第一次站在西岸沙丘面前，我差点没认出这里是英国。没有修剪整齐的草坪，没有咖啡馆长的遮阳伞，只有一片比人还高的沙丘拔地而起，像沙漠里突然冒出来的沉默巨兽。风从爱尔兰海那边呼呼地刮过来，灌进你的耳朵、头发，甚至牙齿缝里，带着咸腥味和沙粒细碎的触感。脚下的沙子是浅金色的，踩上去软绵绵的，每一步都陷进去一点，让你不得不放慢节奏——这地方天生就不允许你匆忙。\n往沙丘深处走，世界忽然安静了几秒。风被草丘挡住了，只剩下自己的呼吸声，以及远处海浪那种永远不变的、像摇篮曲一样的节奏。偶尔会有一只红嘴鸥从头顶滑过，翅膀扇动的声音清晰得像就在耳边。你还能闻到沙丘间那些低矮植物的味道——有点像迷迭香，又混着一点薄荷的清凉，那是海薰衣草在太阳下蒸发出的精油香气。如果蹲下来，会看到沙面上有细小的脚印，可能是狐狸，也可能是獾，它们在夜里来过，留下一串密码。\n再爬上最高的那座沙丘，视野豁然开朗。左手是卡迪根湾碧蓝的海水，阳光在波浪上碎成千万颗钻石；右手是起伏不断的沙丘群，一直延伸到远处的山丘，像一片金色的海洋起了褶皱。阿伯里斯特威斯的小镇轮廓在东南边迷迷蒙蒙，红瓦白墙的房子像积木一样排列。往下看，沙丘的背风面长满了紫色的石楠和黄色的金雀花，蜜蜂嗡嗡地绕着它们打转。风太大，那些花都偏向一边，像是在集体朝着一个方向鞠躬。\n最打动我的是这里的人气。不是说很多人，而是几乎没有商业痕迹。没有纪念品摊，没有导览牌，甚至没有垃圾桶——只有“请把垃圾带走”的小木牌插在入口。你看不到游客的喧闹，只有几个遛狗的当地人，他们的狗在沙丘上撒欢，尾巴甩得飞快。一个老爷爷坐在折叠椅上，面朝大海，拿着一本旧书但没在翻，只是看着远处的海平线发呆。那一刻我突然懂了：这片沙丘从来不属于游客，它依然是当地人呼吸的一部分。"
+    "description": "第一次站在西岸沙丘面前，我差点没认出这里是英国。没有修剪整齐的草坪，没有咖啡馆长的遮阳伞，只有一片比人还高的沙丘拔地而起，像沙漠里突然冒出来的沉默巨兽。风从爱尔兰海那边呼呼地刮过来，灌进你的耳朵、头发，甚至牙齿缝里，带着咸腥味和沙粒细碎的触感。脚下的沙子是浅金色的，踩上去软绵绵的，每一步都陷进去一点，让你不得不放慢节奏——这地方天生就不允许你匆忙。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dunvegan-castle-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓韦根城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunvegan Castle & Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/urquhart-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    厄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">厄克特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Urquhart Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/great-wedlock-farm-deer-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大韦德洛克农场与鹿园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Great Wedlock Farm & Deer Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bikepark-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">BikePark Wales</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">BikePark Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pili-palas-nature-world\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮利帕拉斯自然世界</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pili Palas Nature World</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castell-dinefwr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪内弗尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castell Dinefwr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dunvegan-castle-gardens",
-          "name": "邓韦根城堡与花园",
-          "englishName": "Dunvegan Castle & Gardens"
+          "slug": "bikepark-wales",
+          "name": "BikePark Wales",
+          "englishName": "BikePark Wales"
         },
         {
-          "slug": "urquhart-castle",
-          "name": "厄克特城堡",
-          "englishName": "Urquhart Castle"
+          "slug": "pili-palas-nature-world",
+          "name": "皮利帕拉斯自然世界",
+          "englishName": "Pili Palas Nature World"
         },
         {
-          "slug": "great-wedlock-farm-deer-park",
-          "name": "大韦德洛克农场与鹿园",
-          "englishName": "Great Wedlock Farm & Deer Park"
+          "slug": "castell-dinefwr",
+          "name": "迪内弗尔城堡",
+          "englishName": "Castell Dinefwr"
         }
       ]
     }

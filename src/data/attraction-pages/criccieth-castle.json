@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "克里基厄斯",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "克里基厄斯城堡",
@@ -29,7 +29,7 @@
   ],
   "hero": {
     "title": "克里基厄斯城堡・Criccieth Castle・英国・克里基厄斯",
-    "description": "我第一次看见克里基厄斯城堡的时候，正好是下午三点多，威尔士西海岸的光线斜得厉害，从海面反射上来的金光把整个城堡染成了焦糖色。它就那么突兀地戳在半岛尽头的一块玄武岩上，像一只蹲在悬崖边上的巨兽，下巴抵着海，脊背弓起，每一块石头都被风吹得发亮。风是从爱尔兰海那边直接灌过来的，带着盐粒和藻类的腥气，砸在脸上有点疼，但也让人瞬间清醒过来。城堡脚下是克里基厄斯小镇，红瓦白墙的屋子像积木一样挤在坡上，烟囱里冒着柴火味，和海风混在一起，说不上好闻，但特别踏实。\n绕着城堡走了一圈才意识到，它根本不打算让你轻易靠近。东侧的城墙直接架上峭壁，底下是碎浪拍打礁石的声音，哗啦——哗啦——像古老的打铁声。西侧虽然有条缓坡，但被一道深壕沟切断，只留下一座窄窄的石桥。我站在桥上往里看，门洞黑黢黢的，上面两个圆塔像眼睛一样瞪着你，你能感觉到那种沉默的威慑力——几百年来，每个想攻进来的人都被这双眼睛盯得心里发毛。\n走进主庭院的时候，世界突然安静了。那些风声、浪声仿佛被厚实的石墙挡在外面，只剩下自己的脚步在碎石地上嘎吱作响。城堡内部比想象中要小，但那种被围合的感觉特别强烈——四面都是六七米高的残墙，墙缝里长着紫色的石楠和黄色的苔藓，阳光从射击口斜射进来，在地面上画出细长的一条条光带。有个角落堆着几块刻了十字架的墓碑，是18世纪从附近修道院移来的，当地人把城堡的一部分当成了墓地，这种生与死的边界模糊感，让整个空间多了一层温柔。\n最打动我的其实是城堡南侧那个小小的观景台。它在两段残墙的夹角处，刚好放得下一张长椅。坐在上面，整个卡迪根湾像幅画一样摊开在脚下：海水是那种极浅的蓝绿色，近处能看清海底的沙纹，远处模糊成一条银白的线；偶尔有海鸥滑过，翅膀几乎不动，就那么漂在空中；更远处是斯诺登尼亚群山的剪影，山尖上还挂着一点残雪。这时候你会觉得，城堡的建造者太会挑地方了——他们不是要一座普通的防御工事，而是要一座把风景都锁进石头里的诗。"
+    "description": "我第一次看见克里基厄斯城堡的时候，正好是下午三点多，威尔士西海岸的光线斜得厉害，从海面反射上来的金光把整个城堡染成了焦糖色。它就那么突兀地戳在半岛尽头的一块玄武岩上，像一只蹲在悬崖边上的巨兽，下巴抵着海，脊背弓起，每一块石头都被风吹得发亮。风是从爱尔兰海那边直接灌过来的，带着盐粒和藻类的腥气，砸在脸上有点疼，但也让人瞬间清醒过来。城堡脚下是克里基厄斯小镇，红瓦白墙的屋子像积木一样挤在坡上，烟囱里冒着柴火味，和海风混在一起，说不上好闻，但特别踏实。"
   },
   "sections": [
     {
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/big-ben\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arthurs-stone\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚瑟石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arthur's Stone</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/corris-mine-explorers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科瑞斯矿井探险</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corris Mine Explorers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wild-lakes-wales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士野湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wild Lakes Wales</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/holyrood-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣十字修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holyrood Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flodden-wall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗洛登城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flodden Wall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "big-ben",
-          "name": "大本钟",
-          "englishName": "Big Ben"
+          "slug": "wild-lakes-wales",
+          "name": "威尔士野湖",
+          "englishName": "Wild Lakes Wales"
         },
         {
-          "slug": "arthurs-stone",
-          "name": "亚瑟石",
-          "englishName": "Arthur's Stone"
+          "slug": "holyrood-abbey",
+          "name": "圣十字修道院",
+          "englishName": "Holyrood Abbey"
         },
         {
-          "slug": "corris-mine-explorers",
-          "name": "科瑞斯矿井探险",
-          "englishName": "Corris Mine Explorers"
+          "slug": "flodden-wall",
+          "name": "弗洛登城墙",
+          "englishName": "Flodden Wall"
         }
       ]
     }
