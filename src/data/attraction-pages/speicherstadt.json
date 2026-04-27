@@ -1,0 +1,85 @@
+{
+  "slug": "speicherstadt",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "仓库城 Speicherstadt｜红砖水城的百年仓储传奇 - 最佳欧洲景点",
+    "description": "我第一次撞见仓库城，是在一个初冬的黄昏。汉堡的雨刚停，运河水面还泛着湿润的光，那些红砖建筑像一座座沉默的堡垒矗立在水道两侧，倒影碎成涟漪，又被偶尔驶过的观光游船重新拼合。空气中弥漫着咖啡豆、茶叶和可可粉的混合香气——那是百年仓库最真实的体味。我站在Brooksbrücke桥上，看着夕阳把红砖染成暗金"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "德国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "汉堡",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "仓库城",
+      "href": "/attractions/speicherstadt"
+    }
+  ],
+  "hero": {
+    "title": "仓库城・Speicherstadt・德国・汉堡",
+    "description": "我第一次撞见仓库城，是在一个初冬的黄昏。汉堡的雨刚停，运河水面还泛着湿润的光，那些红砖建筑像一座座沉默的堡垒矗立在水道两侧，倒影碎成涟漪，又被偶尔驶过的观光游船重新拼合。空气中弥漫着咖啡豆、茶叶和可可粉的混合香气——那是百年仓库最真实的体味。我站在Brooksbrücke桥上，看着夕阳把红砖染成暗金色，花岗岩基座上的铸铁挂钩还挂着当年吊运货物的铁链，风吹过时发出清脆的叮当声。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">我第一次撞见仓库城，是在一个初冬的黄昏。汉堡的雨刚停，运河水面还泛着湿润的光，那些红砖建筑像一座座沉默的堡垒矗立在水道两侧，倒影碎成涟漪，又被偶尔驶过的观光游船重新拼合。空气中弥漫着咖啡豆、茶叶和可可粉的混合香气——那是百年仓库最真实的体味。我站在Brooksbrücke桥上，看着夕阳把红砖染成暗金色，花岗岩基座上的铸铁挂钩还挂着当年吊运货物的铁链，风吹过时发出清脆的叮当声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这里没有寻常景点的喧嚣，更多的是当地人慢跑的身影和游客举着相机轻声惊叹的细语。河面上偶尔有鸭子划水，翅膀扑棱的声音在狭窄水道间回荡。最打动我的，是那种时光凝固的错觉：转角处一扇铁门半掩，里面透出昏暗灯光和机械的震动声——那是汉堡微缩景观世界藏在仓库里的童话王国，而外面依然是1890年建成的原始结构与砖墙纹路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地人喜欢在傍晚沿着运河散步，手里端着一杯从附近咖啡店买的热巧克力，呼出的白气在红砖背景下缓缓上升。孩子们趴在栏杆上数经过的船只，老人坐在长椅上读报，偶尔抬头看鸽群飞过烟囱。仓库城早已褪去纯粹的商业功能，变成了汉堡人日常生活的一部分——周末的跳蚤市场、夏夜的露天电影、圣诞期间的灯光秀。它不急于向游客展示什么，而是让每个人用自己的节奏去发现它的美。那种从容，让所有匆忙的打卡都显得多余。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">仓库城</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Speicherstadt</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Speicherstadt</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">德国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">汉堡</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">世界上最大的连续仓库建筑群，也是联合国教科文组织世界文化遗产，见证了19世纪末汉堡作为全球贸易枢纽的辉煌。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">由红砖哥特复兴风格建筑组成，以运河网络为骨架，形成“水上城堡”般的壮观天际线。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">新哥特式红砖建筑，融合德意志砖砌手艺与功能主义仓储设计。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">不仅是一处历史港口遗址，更通过微缩景观世界、博物馆等现代文化植入，成为连接海运历史与当代城市生活的活态遗产。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">仓库城作为公共区域全天24小时开放，但内部博物馆和展馆有独立时间：汉堡微缩景观世界每天上午9点至晚上11点开放（周末和假日延长至午夜），仓库城博物馆周二至周日10:00-17:00开放（周一闭馆），香料博物馆每天10:00-18:00开放。圣诞市场和特殊活动期间（如12月）部分区域可能临时封闭，建议提前官网查询。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">仓库城本身免费进入，无需购票。汉堡微缩景观世界成人票19欧元（13岁以下儿童半价），仓库城博物馆成人票5欧元（学生3欧元），香料博物馆成人票5欧元（儿童3欧元）。汉堡城市通卡可享折扣，组合票（微缩景观+博物馆）有优惠。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Speicherstadt, 20457 Hamburg, Germany</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从汉堡中央火车站（Hauptbahnhof）出发：乘S-Bahn S1/S2/S3线至Stadtbrücke站（约5分钟），或U-Bahn U1线至Messberg站（步行3分钟），或乘公交X35路至Auf dem Sande站。从汉堡机场出发：乘S1线至Stadtbrücke站（约30分钟，每10分钟一班）。推荐购买汉堡日票（9.5欧元）不限次数搭乘。也可乘游船沿易北河到达，在水上欣赏仓库城全景。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1888年，汉堡刚加入德意志关税同盟，市政府决定在易北河畔的沼泽地上兴建一片全新的仓储区，以巩固城市作为欧洲最大转运港的地位。这片区域原本是贫民窟和制绳工坊聚集地，几千人被迫搬迁，古老的街道被填平，河床被加深。工程持续了三十多年，动用了超过两万名工人，在软质黏土地基上打入数万根橡木桩，再以花岗岩砌底座，上面垒起七层高的红砖墙体。你触摸那些砖墙时，会发现表面的颗粒感——那是用当地粘土烧制的硬砖，每层之间夹着厚重的铁制闸门、电动升降机轨道和密闭的防火隔层。设计者精打细算，把每一寸空间都用于存放从南美运来的咖啡、从亚洲来的香料和丝绸、从非洲来的可可豆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，仓库城遭到了猛烈的轰炸。1943年，盟军空袭汉堡，三百多枚炸弹落在运河区，约一半的仓库被毁或严重受损。你如果仔细看，会发现有些建筑的砖色并不一致——战后修复时，工人们从废墟中拣选可用的旧砖，与新建的淡灰色砖块混合砌筑，形成一种独特的“拼贴”质感。其中一座被完全炸毁的仓库没有被重建，而是改造成了纪念花园，至今保留着几段残墙，上面爬满常春藤。战后的几十年里，仓库城逐渐衰退——集装箱运输的兴起让传统仓储模式失去竞争力，这里变成了被遗忘的角落，老鼠在空荡的走廊里乱窜，墙面布满盐渍和裂缝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到1980年代，一批艺术家和手工艺人开始以极低租金搬进这些破败的仓库，设立画室、工作室和小型画廊。1990年代，微缩景观世界创始人弗雷德里克·布劳恩兄弟看中了这里的空间，租下一座废弃仓库，开始建造他们梦中的火车模型王国，如今已经扩张到两层楼，成为汉堡最火爆的景点之一。2000年后，政府启动大规模修复计划，修缮屋顶、加固地基、恢复铸铁门窗，同时引入博物馆、餐厅、办公室和高端公寓。2015年，仓库城与旁边的船坞城一起被联合国教科文组织列为世界遗产，理由是其“完整记录了19世纪末至20世纪初国际物流和贸易的建筑解决方案”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，你依然能看见装卸码头上的老式起重机，那是1920年代的“汉莎”型号，由电动机驱动，焊接钢架结构，至今还在使用——不是搬运行李，而是作为一种仪式性的表演，每天下午三点准时升降。仓库内部，有的被改造成了汉堡地方法院的办公室，窗台上摆着文件盒和盆栽；有的变成了设计公司的开放式办公区，设计师们在裸露的砖墙前用苹果笔记本画着3D模型。历史与当代就这样在同一片红砖里共存——旧时的称重间现在卖着手工巧克力，曾经的香料仓库底层开了一家精酿啤酒馆，墙上的菜单是用粉笔写在黑木板上的，而头顶的横梁仍挂着1910年的安全灯罩。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  最佳游览从清晨九点开始，先沿南侧运河走一遍，感受红砖倒影和水声的交响。建议预留至少半天，节奏要慢：先沿水道走一圈，再挑两三个室内展馆深入参观。下午光线柔和时乘船游览，从水上视角重新审视建筑群。最后在黄昏时分登上St. Nicholas纪念碑的观景台，俯瞰整个仓库城被金色和阴影勾勒的轮廓。这样一个循环，能让你从不同维度理解它：步行触摸细节，乘船感知空间，高处看见格局。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>周一大部分室内博物馆关闭，建议避开；运河边的网红咖啡馆上午十点后人流激增，建议错峰或外带；冬天路面湿滑，穿防滑鞋，且河岸风力极大，带好防风外套。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">清晨从Brooksbrücke桥出发沿南侧运河西行，阳光正好打在红砖正面，可以看清铸铁窗框和拱门的每一道细纹</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在桥头的香料博物馆（Spicarium）里，亲手碾磨一小撮胡椒，鼻子凑近能闻到几世纪前舶来的辛香</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">穿过德意志海关博物馆旁的拱廊，脚下是钉着铆钉的金属盖板，透过缝隙能看见下面浑浊的运河缓缓流动</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">到微缩景观世界排队，挤进门后会被瞬间拉入一个微缩的瑞士雪山、拉斯维加斯和汉堡港，上百列小火车在指尖穿梭</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">从微缩世界出来在河岸长椅上坐十分钟，听游船汽笛和水鸟扑翅交织的背景音，啃一个街边买的香草味华夫饼</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">沿着北侧小巷绕到A仓库背后的庭院，这里的砖墙上嵌着一块1891年的铸铜铭牌，上面刻着仓库最初的所有者名字</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 7 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在日落前一小时登上St. Nicholas纪念碑的螺旋楼梯，在观景台面朝西，看整个仓库城从橙红渐变成深紫</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 运河倒影机位</h4>\n                  <p class=\"text-sm text-gray-700\">站在Brooksbrücke桥正中央，清晨六点半在日出后不久，等水面完全平静，红砖建筑和天空的云彩同时倒映如镜像</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 微缩景观世界二层出口的悬空走廊</h4>\n                  <p class=\"text-sm text-gray-700\">下午三点阳光穿过玻璃天窗，照在微缩城市模型上，可以俯拍发光的街区和行进的火车</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. St. Nicholas纪念碑观景台</h4>\n                  <p class=\"text-sm text-gray-700\">黄昏时用长焦镜头压缩运河、仓库群和远处的易北河尖塔，让红砖和水面的蓝色形成冷暖对比</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 内部庭院天井</h4>\n                  <p class=\"text-sm text-gray-700\">在A仓库背面，午后一点光线从头顶直射，投下被铸铁楼梯分割的几何光影，适合拍人像剪影</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">5. 运河游船船尾</h4>\n                  <p class=\"text-sm text-gray-700\">下午四点光线斜照，船尾的白色浪花与红色砖墙共舞，用慢门将水流拉成丝状</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 仓库城内禁止使用无人机（靠近港口和海关区域）；微缩景观世界内部禁用闪光灯和三脚架但允许手持拍摄；拍摄运河建筑时留意反射光——正午水面反光过强，偏振镜是必备神器。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">老城区边缘的Generator Hostel，步行十五分钟到仓库城，顶楼酒吧能看见运河流光，床位每晚三十欧元起</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">仓库城内的The Suit Lofts，由旧仓库改造的设计公寓，水泥地面保留原装，贴着铸铁管道睡觉，三百欧元起步</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">易北河畔的The Fontenay，全玻璃立面现代建筑，顶楼spa可望仓库城天际线，一晚五百欧元起但早餐有现烤碱水面包</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">仓库城内没有平价酒店，只有高端公寓和设计旅馆，最实惠的住宿在St. Pauli或HafenCity区域；提前三个月预订才能蹲到The Suit Lofts的折扣房；周末和圣诞节期间价格翻倍，元旦后是淡季。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">离开仓库城那晚，我又走了一遍运河边。路灯刚亮，昏黄的光在红砖上晕开，变作一种近乎琥珀的暖色。运河尽头，易北河对岸的现代建筑群正在上演灯光秀，鲜艳的蓝色和绿色跳动着，像是一个世纪前这里不可能存在的未来。然而仓库城沉默地矗立着，红砖不言，水道静静，它们的存在本身就是一种宣言——不是所有的旧都该被摒弃，不是所有的慢都该被超越。当我在微缩世界里看见那个只比手指还小的搬运工模型，推着一只小得几乎看不见的咖啡袋时，我忽然明白了这座“仓库”的真正隐喻：它存放的从来不是实物，而是一段关于航运、贸易、毁灭与重生的记忆，以及人类对于秩序和美的集体执念。如果你也像我一样，厌倦了千篇一律的“必看清单”，那么请把仓库城放进你的行程里，不是为了拍照，而是为了找回那个愿意走慢一点、看久一点的自己。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/braubach-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳巴赫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Braubach Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gaststaette-burg-pappenheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕彭海姆城堡餐厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gaststätte Burg Pappenheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/platform-17-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    1\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">17号站台纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Platform 17 Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "braubach-castle",
+          "name": "布劳巴赫城堡",
+          "englishName": "Braubach Castle"
+        },
+        {
+          "slug": "gaststaette-burg-pappenheim",
+          "name": "帕彭海姆城堡餐厅",
+          "englishName": "Gaststätte Burg Pappenheim"
+        },
+        {
+          "slug": "platform-17-memorial",
+          "name": "17号站台纪念碑",
+          "englishName": "Platform 17 Memorial"
+        }
+      ]
+    }
+  ]
+}
