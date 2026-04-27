@@ -1,0 +1,85 @@
+{
+  "slug": "fyrkat-viking-museum",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "Fyrkat维京博物馆｜触摸千年前维京人的心跳与尘埃 - 最佳欧洲景点",
+    "description": "我第一次听说Fyrkat，是在奥尔堡的一家青年旅舍里。一个从挪威骑行下来的老大哥跟我说：“我见过很多维京遗址，但Fyrkat不一样。它不像一个旅游景点，而像是一个巨大的、静止的时钟。你站上去，风会说话。”就这么一句话，我第二天一早就骑着租来的单车离开了。 从霍布罗小镇骑出来，很快就能看到一大片开阔的"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "丹麦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "霍布罗",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "Fyrkat维京博物馆",
+      "href": "/attractions/fyrkat-viking-museum"
+    }
+  ],
+  "hero": {
+    "title": "Fyrkat维京博物馆・Fyrkat Viking Museum・丹麦・霍布罗",
+    "description": "我第一次听说Fyrkat，是在奥尔堡的一家青年旅舍里。一个从挪威骑行下来的老大哥跟我说：“我见过很多维京遗址，但Fyrkat不一样。它不像一个旅游景点，而像是一个巨大的、静止的时钟。你站上去，风会说话。”就这么一句话，我第二天一早就骑着租来的单车离开了。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">我第一次听说Fyrkat，是在奥尔堡的一家青年旅舍里。一个从挪威骑行下来的老大哥跟我说：“我见过很多维京遗址，但Fyrkat不一样。它不像一个旅游景点，而像是一个巨大的、静止的时钟。你站上去，风会说话。”就这么一句话，我第二天一早就骑着租来的单车离开了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从霍布罗小镇骑出来，很快就能看到一大片开阔的农田。丹麦北部的天空总是很低，云朵像扯散的棉絮一团一团挂在天上。远处，你会看到几座孤零零的土丘，它们不算高，但在平整的田野里显得特别突兀。这就是Fyrkat了。当时是下午两点，阳光变得柔和，把整个草坡染成了一种温暖的黄绿色。当我顺着草地走上那布满野花的环形土丘顶端那一刻，世界一下子静了。耳边只剩下风声——那种从一千多年前就吹来的风，从没有变过。我站在这里，脚下就是四条一模一样的土路，把圆形堡垒切成了四个完美的扇形。你能想象吗？没有GPS，没有太复杂的测量工具，维京人在一千多年前就用眼睛和手，把这个圆画得比硬币还准。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆本身是一座非常有现代感的建筑，低调地伏在旁边不远的一个斜坡里。它不想喧宾夺主，而是心甘情愿地把自己藏在土地里。但走进去之后，你会被惊艳到。里头的灯光幽暗得像傍晚，展柜里躺着锈迹斑斑的宝剑、挂满露珠的玻璃珠、还有几乎被泥土食尽的马具。有块展板上用简单线条画着这座堡垒的上空俯瞰图。你才突然反应过来，自己脚下这片草地，曾经是一整座运转精密的小城。有人在丁丁当当打铁，有小孩跑过泥路去河边抓鱼，有箭矢咻地擦过城墙外沿。Fyrkat不想让你觉得它很伟大，它只是想让你相信，那些故事是真实的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最打动我的，是博物馆里复原的那个维京长屋。他们有专门的工作人员穿着羊毛织的粗布衣，在炉火里烤薄饼。你走进去，鼻子就俘虏了——烟味、动物油脂味、烤焦谷物的那股子独特的香气，一下子把你拽到了公元980年。那种体验，任何漂亮的海报都给不了你。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">Fyrkat维京博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Fyrkat Viking Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Fyrkat Viking Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">丹麦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">霍布罗</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">这座环形堡垒是维京时代丹麦王国权力与军事智慧的绝对象征，被联合国教科文组织列为世界文化遗产的一部分。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">完美对称的圆形环状土丘加上四道正对东南西北城门的设计，内部被十字形道路平均划分为四个居住区，所有建筑都严格按照科学尺度建造。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">维京军事与民用综合建筑风格</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">它破除了维京人只是野蛮海盗的刻板印象，揭示了他们在城市规划、军事防御和行政管理上的高度文明。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">博物馆全年开放，但具体时间会在冬季和夏季调整。通常夏季（6月至8月）每天从10点开放到17点，春季和秋季则开放到16点，而冬季（11月至2月）一般只在周末和学校假期开放，且时间缩短至11点到15点。维京节期间（通常在7月底）会产生特殊时间变化。强烈建议出发前访问丹麦国家博物馆官网确认。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">成人票约120丹麦克朗，学生和65岁以上老人有折扣（约80克朗）。18岁以下青少年和儿童免费入场。但需额外注意，Fyrkat遗址本身是开放区域，如果你只是想在外面看看土丘和外围，是不需要买票的。博物馆内包含一处特别的维京人居住区演示和互动工坊，这部分的门票在旺季可能需要提前预订。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Fyrkatvej 97, 9500 Hobro, Denmark</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从奥尔堡（Aalborg）出发，乘坐火车到霍布罗（Hobro）火车站大约35分钟。出站后你可以在站前广场乘坐当地公交（线路通常为230）坐到Fyrkat站，车程约10分钟。如果还想更自由，我建议你直接在霍布罗火车站租一辆自行车，沿着路标穿过农田骑行15分钟就到，风里全是麦子和草的味道，特别舒服。自驾就更简单了，从E45公路的36号出口下，一直跟着棕色的维京文化路牌走就好。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Fyrkat的故事要从丹麦著名的国王——蓝牙哈拉尔说起。哈拉尔这个绰号挺有意思的，据说是吃了太多野生蓝莓把牙齿染蓝了。他统治丹麦的时间大约是公元958年到986年，那时候的北欧诸国正经历着一场剧烈的变革，旧神像在倒塌，新神的十字架正在被所有人悄悄接受。蓝牙哈拉尔统一了丹麦全境，还让臣民皈依了基督教。而这一切，都需要有一个强大的物理象征来加固他的王权和信仰，Fyrkat就是其中重要的一环。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时的维京人其实不只是海盗这么简单。他们在斯堪的纳维亚半岛上建立了一套非常发达的农业和商贸系统。Fyrkat这样的环形城堡不是孤例，在丹麦还有特雷勒堡、阿格斯堡和诺尼贝里。所有城堡的设计都遵循一套极其严苛的数学公式。比如，Fyrkat的外墙直径是120米，内部的四条主干道宽度完全一致，把城堡分成四个面积相等的区域。每个区域内都整齐排布着16座长屋，总共64间。这些东西不是乱建的，而是经过精密的测距和规划。这说明在公元10世纪，丹麦的中央政权已经拥有了强大的行政动员能力和一套超越时代的军事营城理念。蓝牙哈拉尔正是想通过这些通天的伟大工程，告诉全北欧和邻国的人——丹麦不是野蛮之地，它是一个组织严密、有法度、有神庇护的王国。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Fyrkat并没有辉煌太久。据考古学家推测，这座城堡大约只被使用了十几年到二十年，就突然被废弃了。为什么会这样？背后的谜团至今没有完全解开。有学者认为是因为蓝牙哈拉尔被他的儿子“八字胡”斯文（Sweyn Forkbeard）推翻，政治中心转移，这座城堡随之丧失了军事和行政职能。也有观点认为，当时的当地水源可能因为过度开发或地质变化而干涸，居民无法继续在这里生活。不过最有意思的一个说法是：哈拉尔王在这里储藏的财宝和战利品数量惊人，引来了敌对势力的洗劫，城堡在战火中化为废墟，人们四散奔逃，长屋的柱子被火焰烧焦，残留的灰烬和木炭一直埋在地下沉睡到今天。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了20世纪，人们对维京人的印象还多是停留在海盗、强盗和野蛮人上。但1952年，丹麦国家博物馆的考古学家在霍布罗附近进行航空拍摄时，发现这片田野上有一圈奇怪的光晕。于是在1953年，大规模的抢救性发掘开始了。让人惊掉下巴的一幕发生了，在草地之下不到半米的深处，出土了一整座环形堡的地基。士兵营房的柱洞清晰地排列着，炉灶的灰烬层、打铁熔渣、纺织用的纺轮、箭尖和断掉的陶罐。所有一切都还是当初它们被丢下的样子。那一刻，维京人不再是古书里几个简短的文字，而是一群有血有肉、会生火做饭、会打仗也会死亡的人。这处遗址让欧洲历史学家集体沉默了很久——他们错了，维京文化远比之前想象的精深和复杂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天的Fyrkat，草长了一茬又一茬，风依然在吹。博物馆的建造者非常聪明，他们没有傻傻复原一个假城堡，而是留下那些沉默的土丘让每个人自己去想象。夏天的维京节期间，会有很多穿着维京服饰的“原住民”到这里扎营，他们用自己的手打造陶器，烤制黑面包，在炉火边讲故事。孩子们开心地跑来跑去，大人则站在外围静静抽烟。时光在这里打了个盹，恍惚间，你仿佛看见蓝牙哈拉尔骑着战马跨过那扇正门，微微点头，对眼前这片忙碌的营地表示满意。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  如果你想真正读懂Fyrkat，最好把节奏慢下来。花两个小时就够了，但绝不能只是匆匆来，咔咔按几张照片然后掉头就走。建议你早上10点博物馆一开门就进去。先花40分钟在博物馆里把维京人的整体背景故事看一遍。等你心里有了蓝图，再走出来，站到土丘上，这时候你就能读懂每一块土地的语言了。整个游览你大概需要2.5小时。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>整个遗址都在开阔的草地上，遮阳的地方非常少。夏天正午的太阳异常毒辣，一定要戴帽子、擦防晒、带一大瓶水。另外，这里是文物保护单位，绝对禁止无人机私自飞行，想拍航拍图必须提前向博物馆提出书面申请。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">建议上午十点整到达，买完票后先一头扎进主展馆，花半小时仔细观看墙上那些从遗址里扫描复原出的三维图和出土文物的细节</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">从博物馆走出，在草地上端详那座巨大的环形土丘，闭上眼睛听风吹草的声音，想象长屋顶的灰烟袅袅升起时的画面</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">顺着西门的小路踏上环形城墙的顶部，逆时针绕行一圈，注意脚下的坡度变化，想象当年守卫在这里张望敌军的姿态</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">走入内部那片模拟的维京长屋村，闻着炉火里冒出的柴火味，和穿着粗羊毛衣的工作人员聊一聊打铁时需要注意的铁水温度</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">走到城堡南侧那条小河边蹲下来洗洗手，感受那些曾经给一整座城堡供水的溪流，现在依然安静地流淌着</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">回到博物馆地下一层的冥想空间，看那一面巨大的落地窗外平整的草地和远处低垂的云，不需要说话，也不需要拍照</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 从博物馆通往遗址边界的草坡上仰拍</h4>\n                  <p class=\"text-sm text-gray-700\">傍晚六点左右，太阳斜照过来，你蹲下来，让机位贴近草尖，能拍出环形土丘与天空的完美对峙感，人物走在上面就像走在一千年前的门槛上</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 站在环形堡垒的正中央拍摄四条主路</h4>\n                  <p class=\"text-sm text-gray-700\">这是Fyrkat最震撼的几何构图。中午12点前后光线最垂直，能把四条呈十字交叉的土路拍得清晰对称，像一张巨大的地图</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 在室外维京长屋西侧的泥巴墙边</h4>\n                  <p class=\"text-sm text-gray-700\">让模特靠在粗糙的墙面上，抬手抚摸那些模拟的干草夹层，侧脸有阳光时能拍出非常有质感的肖像照，仿佛真的是一个穿越千年的维京女人</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 博物馆玻璃幕墙内的逆光剪影</h4>\n                  <p class=\"text-sm text-gray-700\">博物馆的落地窗外是一大片荒野，你可以让模特站在玻璃前，摄影师从内部拍，形成“人在当代，心向远古”的意境</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 整个遗址地面非常松软，用三脚架的时候一定要注意，别把地踩坏了。遇上维京节期间，许多扮演者是自费来参加的，他们非常乐意让你拍照，但拍之前打个招呼，他们通常会摆出非常有感觉的姿势配合你。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">躺在霍布罗小镇码头边那间仅有三间客房的Hobro B&amp;B里，清晨推开木百叶窗能直接看到峡湾的水光，老板娘会端出自制的覆盆子果酱和热乎乎的黄油卷</h4>\n                  <p class=\"text-sm text-blue-800\">躺在霍布罗小镇码头边那间仅有三间客房的Hobro B&amp;B里，清晨推开木百叶窗能直接看到峡湾的水光，老板娘会端出自制的覆盆子果酱和热乎乎的黄油卷</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">想体验真正的丹麦慢生活，可以选择离Fyrkat仅2公里的Mariagerfjord农场住宅，房间里保留了粗糙的原木屋顶和壁炉，晚上听着壁炉里木头噼啪作响入睡</h4>\n                  <p class=\"text-sm text-green-800\">想体验真正的丹麦慢生活，可以选择离Fyrkat仅2公里的Mariagerfjord农场住宅，房间里保留了粗糙的原木屋顶和壁炉，晚上听着壁炉里木头噼啪作响入睡</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">预算充足可以订到位于古森堡森林里的Galsgaard Gods庄园酒店，窗外全是一座座起伏的古老橡树林，晨跑可以沿着维京人古道跑进森林深处</h4>\n                  <p class=\"text-sm text-yellow-800\">预算充足可以订到位于古森堡森林里的Galsgaard Gods庄园酒店，窗外全是一座座起伏的古老橡树林，晨跑可以沿着维京人古道跑进森林深处</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">霍布罗本地非常安全，治安极好，基本不用担心任何问题。但要特别注意，小镇上的餐厅关门时间非常早，很多八点之后厨房就关闭了，建议你提前在官网预订晚餐，或者自己在超市买好食材带回去做。夏季这里是丹麦人自己度假的热门地，建议至少提前两个月预订。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在Fyrkat的土丘上，你有没有想过，我们所有人的故事最终都会变成风？那些曾经在这里锻造、战斗、爱恋、哭泣的维京男人和女人，他们也许一辈子都没有看过现代的钢铁巨兽、刷过手机上的短视频，但他们和我们一样，被同样的风吹拂过脸庞。历史教会我们最深的秘密，不是王位的更迭、不是征服的荣耀，而是生活本身。你摸到的每一块苔藓，都是他们曾经生活过的证据。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这几年人们去欧洲，大多执迷于卢浮宫的金碧辉煌、巴黎铁塔下的喧嚣、普罗旺斯的花海。但Fyrkat这样的地方，才真正让人感到平静和辽阔。它不需要你说漂亮话，不需要你做攻略答卷。它只是安静地卧在那里，等你在某个下午带着好奇心走上前。然后风会替你翻开书页，你才明白，维京人的伟大不在于他们的战斧，而在于他们在一片荒芜里，先把圆画得那么规整。我强烈建议每个向往深度的人，把这里放进你的人生清单，因为这里藏着欧洲最沉默但是最有力的魂。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aalborg-historical-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔堡历史博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aalborg Historical Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/den-gamle-by\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔胡斯老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Den Gamle By</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/danmarks-jernbanemuseum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    丹\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">丹麦铁路博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Danmarks Jernbanemuseum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "aalborg-historical-museum",
+          "name": "奥尔堡历史博物馆",
+          "englishName": "Aalborg Historical Museum"
+        },
+        {
+          "slug": "den-gamle-by",
+          "name": "奥尔胡斯老城",
+          "englishName": "Den Gamle By"
+        },
+        {
+          "slug": "danmarks-jernbanemuseum",
+          "name": "丹麦铁路博物馆",
+          "englishName": "Danmarks Jernbanemuseum"
+        }
+      ]
+    }
+  ]
+}

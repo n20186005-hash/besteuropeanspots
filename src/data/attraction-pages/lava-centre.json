@@ -1,0 +1,85 @@
+{
+  "slug": "lava-centre",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "熔岩中心 LAVA Centre｜冰岛火山与地震的沉浸式科普殿堂 - 最佳欧洲景点",
+    "description": "当你沿着1号公路驶向Hveragerði小镇时，远远就会看见一座深灰色的建筑匍匐在冒着蒸汽的地热原野上，像一头沉睡的远古巨兽。走近后才发现，外墙那些看似粗糙的石块其实是用冰岛特有的橄榄玄武岩精心烧制后手工拼贴的，在阴天会泛出潮湿的铁锈色，而晴天时阳光能把每块岩石的纹理照得微微发烫——就像这片土地本身"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "冰岛",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "惠拉盖尔济",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "熔岩中心",
+      "href": "/attractions/lava-centre"
+    }
+  ],
+  "hero": {
+    "title": "熔岩中心・LAVA Centre・冰岛・惠拉盖尔济",
+    "description": "当你沿着1号公路驶向Hveragerði小镇时，远远就会看见一座深灰色的建筑匍匐在冒着蒸汽的地热原野上，像一头沉睡的远古巨兽。走近后才发现，外墙那些看似粗糙的石块其实是用冰岛特有的橄榄玄武岩精心烧制后手工拼贴的，在阴天会泛出潮湿的铁锈色，而晴天时阳光能把每块岩石的纹理照得微微发烫——就像这片土地本身一样，沉默却又暗藏能量。推开厚重的玻璃门，一股混合着硫磺、地暖和消毒水的气味扑面而来，那是冰岛独有的大地气息，和你在蓝湖闻到的几乎一模一样。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">当你沿着1号公路驶向Hveragerði小镇时，远远就会看见一座深灰色的建筑匍匐在冒着蒸汽的地热原野上，像一头沉睡的远古巨兽。走近后才发现，外墙那些看似粗糙的石块其实是用冰岛特有的橄榄玄武岩精心烧制后手工拼贴的，在阴天会泛出潮湿的铁锈色，而晴天时阳光能把每块岩石的纹理照得微微发烫——就像这片土地本身一样，沉默却又暗藏能量。推开厚重的玻璃门，一股混合着硫磺、地暖和消毒水的气味扑面而来，那是冰岛独有的大地气息，和你在蓝湖闻到的几乎一模一样。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">入口大厅的中央有一个巨大的地球仪，表面正投影着实时全球地震数据，红点像脉搏一样跳动着。旁边有一面由五块4K屏幕组成的环形银幕，正在循环播放冰岛最震撼的喷发画面：2010年埃亚菲亚德拉冰盖火山喷发时喷射出的火山灰柱，以及2021年法格拉达尔火山裂缝式喷发时橙红色的熔岩河流。所有的声音、震动甚至温度都被模拟出来——你脚下的地板会微微颤动，后背会感受到热浪的灼烧感，眼睛甚至会被粒子喷射器喷出的细小水雾所刺痛。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但LAVA Centre最打动人的不是那些炫酷的科技，而是它用一种近乎哲学的方式，让你重新审视脚下这个不断颤抖的星球。当你在黑暗的“地震体验舱”里站了30秒，感受从1级到6级的地震波依次通过你的脊柱时，你会突然理解为什么冰岛人会把火山称为“母亲”又同时称为“恶魔”——他们在这片破碎的板块边界上生活了千年，早已学会了与不稳定的土地和平共处。博物馆的尽头有一扇巨大的落地窗，窗外就是Hveragerði的地热山谷，白烟从裂缝中袅袅升起，像大地呼出的叹息。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">熔岩中心</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">LAVA Centre</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">LAVA Centre</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">冰岛</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">惠拉盖尔济</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">冰岛首家以火山、地震、地热为主题的互动科技博物馆，2017年开业，迅速成为了解冰岛地质的必访窗口。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">建筑本身形似一个卧倒的火山岩块，外立面由当地玄武岩碎片拼贴而成，屋顶覆盖厚层苔藓，与周边地热田完美融合。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">现代简约融合地景建筑，强调可持续与自然共生。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">通过声光电交互装置，将冰岛“火与冰”的极端自然力量转化为可感知的科普体验，深化公众对地球活动的敬畏与理解。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">全年开放，夏季（5月至9月）09:00-19:00，冬季（10月至4月）10:00-17:00。圣诞节、元旦等冰岛公共假日可能缩短营业时间或闭馆，建议提前查看官网公告。闭馆前最后一小时停止入场，留足至少两小时参观。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">成人票3000冰岛克朗（约合20欧元），6-17岁青少年1500克朗，6岁以下免费。家庭票（2成人+2儿童）7500克朗。持雷克雅未克城市卡可享10%折扣。博物馆通票（含黄金圈其他景点联票）可在售票处咨询。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Tryggvabraut 55, 840 Hveragerði, Iceland</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从雷克雅未克出发：沿1号环岛公路向南行驶约45公里，在Selfoss镇前转向Hveragerði出口，车程约45分钟。如无自驾，可乘坐从雷克雅未克BSI巴士总站发车的21路巴士（每日多班，约1小时一班），到Hveragerði站下车后步行5分钟即达。也可参加包含黄金圈行程的一日游团。从凯夫拉维克国际机场出发需先到雷克雅未克转车，全程约1.5小时。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">LAVA Centre诞生的故事，得从冰岛人如何学会“阅读大地”说起。维京人公元874年首次登陆冰岛时，面对的是一片几乎完全由火山活动塑造的荒原，没有任何树木、农田或可预测的河流，只有冒着蒸汽的地热田、深不可测的裂缝和每隔几年就喷发的火山。早期的定居者把那些嘶嘶作响的地热喷气孔视为“通往地狱的入口”，于是他们编造了许多传说：比如长着三个头的巨人在岩浆中洗澡，或者地下的恶龙翻了个身导致地震。这些故事代代相传，最终演变成了北欧神话中尘世巨蟒耶梦加得的传说——它盘绕着整个中庭，一旦松开尾巴世界就会毁灭。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但现实比神话更冷酷。1783年拉基火山裂缝式喷发持续了八个月，整个冰岛被有毒气体和火山灰覆盖，导致全国五分之一的人口以及超过一半的牲畜死亡。这次事件让冰岛人意识到，对抗自然毫无意义，唯一的出路是理解和顺应。从19世纪开始，冰岛科学家开始系统记录地震和火山活动，并在雷克雅未克成立了第一个地震观测站。2000年代，冰岛政府意识到需要让游客和国民更直观地了解地质知识，于是决定在“温泉小镇”Hveragerði建造一个世界级的教育中心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">选址Hveragerði完全是出于地理的巧合。小镇本身就坐落在一条活跃的地震带上，地热资源极其丰富——几乎每家的后院都冒着一缕白烟，居民用温泉取暖、用蒸汽烤面包，甚至直接在地热裂缝上搭建温室种植香蕉。这里也是冰岛唯一一个能同时看到海底裂谷和陆上火山的地方。建筑由冰岛本土事务所 Arkís 设计，他们花了三年时间研究如何让建筑本身成为一件展品。最终方案是一座完全嵌入山坡的体量，屋顶覆盖着冰岛本土苔藓和矮灌木，从高处俯瞰几乎无法分辨是人工建筑还是自然山丘。内部近2000平方米的展览空间没有一根柱子，所有承重都通过外部的玄武岩幕墙完成。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2017年开幕时，冰岛总统古德尼·约翰内松亲自剪彩，他在演讲中说：“LAVA Centre不是一座博物馆，它是一座通往地球内部的教堂。”开幕后的第一年，就有超过10万人参观，远超预期。2021年法格拉达尔火山喷发期间，这里甚至成了临时媒体中心，记者们坐在“地震体验舱”旁边，利用馆内的实时数据更新新闻。现在，LAVA Centre不仅是一个科普景点，更成为了解冰岛人如何在火与冰上生存的隐喻——它讲述的不仅是地质学，更是人类与不确定性共情的智慧。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  建议在上午10点前抵达，此时旅行团尚未大量涌入，展览区域相对安静。整个参观需预留2至2.5小时：先用30分钟在大厅观看环形银幕短片，建立视觉冲击；接着花1小时在六个互动展厅中逐一体验，特别推荐地震体验舱和岩浆流动模拟器；最后留30分钟在二楼的观景咖啡厅，一边喝咖啡一边俯瞰Hveragerði地热山谷。离馆前别忘了去纪念品商店买一块真实的橄榄玄武岩。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>地震体验舱高峰期可能需要排队申请号牌建议一进馆就去领取。穿运动鞋或厚底靴因为部分地面模拟了熔岩原的粗糙触感。馆内暖气很足冬季参观可以把外套寄存。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">推开大门后别急着往里走先站在地球仪前看一分钟实时地震数据感受地球的“呼吸”</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">径直走向环形银幕找一张靠后的座椅仰头看火山喷发短片让地板传来的震动贯穿你的脚底</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">拐进左侧的“板块构造”展厅双手触摸那些被加热的仿岩浆石块感受液体冷却成固态的过程</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在地震体验舱里脱掉鞋子光脚站上木质平台等待从1级到6级的震动从脚底传到头顶</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">转到“地热发电”互动区亲手摇动一个手摇发电机对比地热发电和化石燃料的碳排放图表</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">登上二楼螺旋楼梯从高处俯瞰整个展览大厅的剖面图模型理解冰岛位于美洲板块与欧亚板块之间的位置</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 7 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在观景咖啡厅找窗边的座位点一杯冰岛酸奶配蓝莓酱看窗外白烟从地热裂缝中缓缓升腾</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 8 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">离开前在纪念品柜台买一颗小瓶装的Hveragerði温泉水可以带回家泡茶或者浇花</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 入口外广场仰拍建筑全貌</h4>\n                  <p class=\"text-sm text-gray-700\">下午三点左右阳光斜照时外墙的玄武岩碎片会泛出灰蓝色的金属光泽配合地热蒸汽做背景非常出片</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 地球仪正上方俯拍</h4>\n                  <p class=\"text-sm text-gray-700\">站在二楼环形走廊把镜头垂直向下拍到人和地球仪上不停跳动的红点和蓝色光斑</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 地震体验舱内抓拍</h4>\n                  <p class=\"text-sm text-gray-700\">让朋友站在体验舱门口用广角镜头拍下你在地震时摇晃的连续动作背景是模拟的末日城市裂痕</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 观景咖啡厅窗边逆光</h4>\n                  <p class=\"text-sm text-gray-700\">日落前一小时阳光透过蒸汽散射出暖橙色光芒把冒着热气的咖啡杯和远处的白烟放在同一焦平面</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 馆内所有展品均允许非商业用途拍照但禁止使用闪光灯尤其不要对着全息投影屏幕拍会破坏成像。地震体验舱拍照时注意站稳别踩到其他游客的脚。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">小镇精品地热酒店</h4>\n                  <p class=\"text-sm text-blue-800\">Hveragerði的Hotel Örk紧邻地热公园每个房间都有私汤阳台晚上可以一边泡脚一边听远处地热喷气孔的低鸣</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">雷克雅未克便宜青旅</h4>\n                  <p class=\"text-sm text-green-800\">如果预算有限可以住在雷克雅未克的Kex Hostel这家由旧饼干工厂改造的青旅设计感十足早晨乘21路公交半小时就到</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">黄金圈农场民宿</h4>\n                  <p class=\"text-sm text-yellow-800\">选择Selfoss周边运营着家庭牧场的民宿主人会带你看他们的马群和地热温室还能体验现场挤羊奶</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Hveragerði小镇很小没有大型连锁酒店所有住宿均需至少提前一个月预订尤其是夏季。小镇治安极好但冬季天黑极早（下午四点）建议日落前返回住处。预订时可要求带地热浴缸的房间这是当地特色。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">离开LAVA Centre时，天已经暗下来了。我站在外面的停车场，看着那些从地热裂缝里升起的白烟在车灯下变成淡蓝色。风很大，带着硫化物的味道，脚下偶尔传来极轻微的震动——我下意识地踩得更稳了一些。在馆里待的两个小时里，我不仅学会了区分板块边界和热点火山，更重要的是，我从冰岛人身上学到了对待“不确定”的态度：他们不试图控制自然，而是用科技去理解它，用想象力去敬畏它，用幽默去接纳它。那个地震体验舱里模拟的6级震动其实只持续了十秒，但站在那上面的时候，我突然明白了为什么冰岛人的词汇表里有超过五十个描述“雪”的词——当你赖以生存的土地每时每刻都在颤抖时，你自然会用最细腻的语言去描述它。这大概就是LAVA Centre的终极意义：它不声称能解答所有问题，它只是把你带到地球的脉搏之上，让你安静地聆听几十亿年前就开始了的、持续至今的地质心跳。每一个热爱深度游的旅人都应该来这里——不是为了打卡拍照，而是为了在火山灰和蒸汽中，找到自己与这颗星球更深刻的联结。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/arnarker\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔纳克尔温泉谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arnarker</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arctic-adventures\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    北\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">北极探险之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arctic Adventures</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/grundarfoss\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦达瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Grundarfoss</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "arnarker",
+          "name": "阿尔纳克尔温泉谷",
+          "englishName": "Arnarker"
+        },
+        {
+          "slug": "arctic-adventures",
+          "name": "北极探险之旅",
+          "englishName": "Arctic Adventures"
+        },
+        {
+          "slug": "grundarfoss",
+          "name": "格伦达瀑布",
+          "englishName": "Grundarfoss"
+        }
+      ]
+    }
+  ]
+}

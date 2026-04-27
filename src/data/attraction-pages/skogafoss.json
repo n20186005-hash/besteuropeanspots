@@ -1,0 +1,85 @@
+{
+  "slug": "skogafoss",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "Skógafoss 斯科加瀑布｜冰岛南岸最壮丽的彩虹瀑布 - 最佳欧洲景点",
+    "description": "我到现在都记得第一次见到斯科加瀑布的那个下午。车停稳后，刚一开门，就听见一阵低沉的轰鸣声从远处传来，像是一头沉默的巨兽在喘气。走近几步，轰鸣声变成了实实在在的巨响，空气里全是细密的水雾，头发、脸颊瞬间被浸上一层薄薄的凉意。抬头看，一道白花花的水帘从六十米高的悬崖顶端直扑而下，带着冰川的冷冽和锐利，砸"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "冰岛",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯科加尔",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯科加瀑布",
+      "href": "/attractions/skogafoss"
+    }
+  ],
+  "hero": {
+    "title": "斯科加瀑布・Skógafoss・冰岛・斯科加尔",
+    "description": "我到现在都记得第一次见到斯科加瀑布的那个下午。车停稳后，刚一开门，就听见一阵低沉的轰鸣声从远处传来，像是一头沉默的巨兽在喘气。走近几步，轰鸣声变成了实实在在的巨响，空气里全是细密的水雾，头发、脸颊瞬间被浸上一层薄薄的凉意。抬头看，一道白花花的水帘从六十米高的悬崖顶端直扑而下，带着冰川的冷冽和锐利，砸进下面的深潭，激起漫天飞沫。那一刻，你什么都听不见，只有水声占满了整个世界，连自己的心跳都被它吞掉了。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">我到现在都记得第一次见到斯科加瀑布的那个下午。车停稳后，刚一开门，就听见一阵低沉的轰鸣声从远处传来，像是一头沉默的巨兽在喘气。走近几步，轰鸣声变成了实实在在的巨响，空气里全是细密的水雾，头发、脸颊瞬间被浸上一层薄薄的凉意。抬头看，一道白花花的水帘从六十米高的悬崖顶端直扑而下，带着冰川的冷冽和锐利，砸进下面的深潭，激起漫天飞沫。那一刻，你什么都听不见，只有水声占满了整个世界，连自己的心跳都被它吞掉了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最要命的是那道彩虹。只要有阳光，瀑布下方就永远挂着一道彩虹，有时甚至还叠着一条淡淡的双彩虹。水雾在阳光下像是一片会流动的钻石粉末，彩虹就悬浮在水帘前面，随着风吹雾散而微微颤动。我第一次盯着它看的时候，脑子里只有一个念头：这根本不是一座普通瀑布，这分明是北欧诸神遗落在人间的七彩披肩。站在瀑布脚下仰头望，水珠砸在脸上凉丝丝的，太阳把彩虹照得梦幻到不真实，我有整整十分钟说不出话，就傻傻地站在那里，看水，看彩虹，看变幻的光影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在当地人眼里，斯科加瀑布就像一位永远热忱的老邻居。斯科加尔村的居民不过二十来户，他们早就习惯每天经过瀑布时停下脚步，听听水声，看一眼彩虹。每个冰岛孩子小时候都在这里拍过全家福，每个人都能随口讲出关于瀑布的几个传说。它安静地站在那里，经历了火山爆发、冰川融化、千百年的风霜，却从来不骄傲，不做作，就那么淋漓尽致地把自己最美的样子呈现给每一个经过的人。我觉得，这种自然而然、不带任何雕琢痕迹的壮丽，才是斯科加瀑布真正能打动人心的魅力。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">斯科加瀑布</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Skógafoss</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Skógafoss</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">冰岛</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">斯科加尔</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">斯科加瀑布是冰岛南岸最具标志性的瀑布之一，以其磅礴的水量和几乎每天都能见到的绚烂彩虹而闻名于世，也是冰岛维京人古藏宝传说的重要发生地。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">作为自然创作壁垒，它宽约25米、落差高达60米，水流从远古悬崖倾泻而下，形成一道几乎完美的矩形水幕，落差巨大且水量丰沛，水雾在阳光下直接催生双层彩虹。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">冰川河流瀑布，由冰岛南部冰川融水汇聚而成的斯科加河经历万年侵蚀形成，是典型的冰岛南岸阶梯状悬崖瀑布。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">瀑布深深嵌入冰岛民族身份中，不仅是自然奇迹，更承载着维京时代藏宝箱的神秘传说，当地世世代代流传着第一个北欧定居者藏金于瀑布背后的故事，一直是冰岛人集体记忆的核心。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">斯科加瀑布是一个天然景点，全年每天24小时对公众开放，没有关门时间。不过冰岛南部冬季日照极短，11月至2月间日照时间可能仅有4到5小时，且路面常有积冰，建议您在上午9点至下午3点的黄金时段游览。夏季（6月至8月）则迎来午夜阳光，几乎全天明亮，可以从深夜一直拍到凌晨。景区游客中心通常于上午9点至下午6点营业（春秋两季缩短至下午5点），内部设有咖啡馆、纪念品商店和干净的卫生间，但即便游客中心关门，瀑布区的通行也不受限制。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">斯科加瀑布完全免费参观，不收门票费。唯一的开销是停车费，2024年小车约为700冰岛克朗（约合人民币35元左右），可以通过现场的自动缴费机或手机支付，停车场内设有清晰的英文指引。如果您选择参加从雷克雅未克出发的一日游团，费用已包含在团费内。旁边著名的斯科加民俗博物馆需要单独购票，成人约1800冰岛克朗，与瀑布的门票无捆绑关系。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Skógafoss, 861 Skógar, Iceland</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从冰岛首都雷克雅未克出发，沿一号环岛公路向东行驶，全程约两小时，约150公里。先经过雄伟的塞里雅兰瀑布，再继续开车25分钟即可抵达。斯科加瀑布就在主路边，停车场巨大且标识清晰，一眼就能望见。如果您不自驾，可以从雷克雅未克的BSI巴士总站搭乘开往维克镇（Vík）方向的斯特兰多巴士（Strætó），每天大约有4到5班，车程约两个半小时，在斯科加尔村下车后步行10分钟即到。从夏天到秋天，还有多日游的旅行团一站式串联瀑布、黑沙滩和冰川徒步，省心又省力。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">说起斯科加瀑布的故事，就绕不开一千年前那个叫斯拉西·索罗尔夫松（Þrasi Þórólfsson）的维京人。据说他是首批定居在冰岛南部的北欧勇士之一，骁勇善战，积攒了无数金银财宝。但后来他与邻居发生了激烈冲突，打了一场血战，战败之后，他不愿意让自己的毕生财富落入敌手，就趁着月黑风高，把一口沉重的橡木宝箱搬到了斯科加瀑布的顶端，然后连人带箱子纵身一跃，消失在轰鸣的水帘背后。从此，这口装满黄金的宝箱就永远沉在了瀑布之下的深潭里，再也没有人找到过。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来的几百年里，无数探险者被这个传说吸引而来。到了17世纪，一个年轻人宣称自己确实看到了那口宝箱，就嵌在瀑布背后的岩壁上。他激动地冲进水流，抓住宝箱的铁环，拼命往外拽，可惜铁环在拉扯中断裂，宝箱再次沉入深渊，只留下那只铁环被后人收藏。如今，这只铁环就陈列在斯科加民俗博物馆里，锈迹斑斑，却实实在在。你去看的时候，会忍不住伸手摸一摸它，好像能隔着几百年的时光，感受到那个年轻人在瀑布里挣扎的绝望和疯狂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">瀑布的真正历史其实更宏观。它是冰岛南部冰川带的杰作，全新世冰盖消退之后，冰川融水不断切割火山岩基底，形成了这一排阶梯状的悬崖。斯科加瀑布其实是冰岛南部一系列平行瀑布中的一个，南岸一号公路旁的塞里雅兰、科吕兹维克等瀑布和它同出一脉，都是冰川退却后大地留下的深刻伤痕。冰岛人把它们看作大地的呼吸孔，是土地在诉说生命的律动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">进入20世纪后，斯科加瀑布逐渐从当地人的私房景点变成了国际游客到冰岛必须打卡的地标。1970年代起，冰岛政府修建了通往瀑布的公路和停车设施，也让旁边的斯科加尔村有了民宿和餐厅。90年代旅游业大爆发尤其让这里备受关注，好莱坞电影《雷神》和《普罗米修斯》的取景让更远地方的人认识了这座瀑布。然而真正爱它的冰岛人对此是很矛盾的，一方面，他们渴望世界看到自己的土地有多美，另一方面，又害怕太多人造访会打破这份宁静。每次我去，都能看到冰岛导游用带着一点骄傲又一点担忧的语气告诉游客，“请不要离开栈道，请爱护我们的自然。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">现在的斯科加瀑布依然每天轰鸣着，用它一千年不变的方式。全球变暖导致冰岛冰川加速融化，斯科加河的流量在过去二十年里已经出现了变化，科学家们担忧，未来的瀑布可能会因冰川退缩而水量减少。这个事实让我每次站在它脚下都会有一种急迫感：有些美好是终究会改变的，所以现在看到的每一眼，都要好好珍惜。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  想要真正感受斯科加瀑布的全部魅力，建议早上一早出发，大约九点前抵达，这时游客最少，阳光刚越过山脊，光线柔和到极致。先在远处的小山坡上俯瞰全景，感受它嵌在绿色原野中的整体气势；然后走到瀑布正前方的平台，体验水雾扑面而来的刺激；接着挑战攀登瀑布右侧的五百级台阶，从顶端俯瞰河流奔向大海的壮阔；最后返程时不妨去旁边的斯科加民俗博物馆转转，看看那枚传说中的宝箱铁环。整体耗时约两到三小时，节奏不紧不慢，正好把它的壮美和故事都装进心里。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>冬季路面积冰严重，一定要穿防滑性能好的登山靴，瀑布正前方的栈道常因结冰变得极滑，务必抓稳栏杆。夏天水雾特别大，记得给相机镜头套上防水罩，手机也别放在口袋里太久。上午十点前和下午四点后是最佳拍摄时间，这时阳光角度低，最容易出现最浓最亮的彩虹。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">先在停车场外的小山坡上站定，从远处看到瀑布如同一道白色细线挂在碧绿的山谷间，周围是层叠的苔藓和野花，那种宏大与细腻的对比会直接击中你</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">沿着碎石路走到瀑布正前方的观景台，伸手就能接住水雾，感受冰凉的细密水珠砸在脸上，阳光在雾气里化出彩虹的每一个瞬间都会让你屏住呼吸</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">顺着瀑布右侧的阶梯一步步往上爬，虽说是五百级台阶，但每走二十级都可以停下来回望身后的山谷和海岸线，一边喘气一边觉得这景色值得所有辛苦</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">抵达瀑布顶端后走到水流边缘，看斯科加河从脚下平静地流向远方，最终汇入大西洋，你会发现瀑布的震撼并不只在坠落的那一刹那</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">原路下山后走到瀑布左侧的碎石滩，从侧面捕捉水流撞击岩石时溅开的浪花和水雾里的彩虹，再用长焦镜头压一张光斑和雾气交织的抽象画面</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">步出瀑布区域拐进旁边的斯科加民俗博物馆，在二楼的陈列柜前找到那枚锈迹斑斑的宝箱铁环，想象几百年前那个年轻人疯狂的触感</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 停车场外的小山坡上</h4>\n                  <p class=\"text-sm text-gray-700\">早上九点左右，从坡顶用广角镜头将瀑布、彩虹和远处的艾雅法拉冰盖一并收入画框，大地与冰川的史诗感瞬间拉满</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 瀑布正前方的岩石观景台</h4>\n                  <p class=\"text-sm text-gray-700\">适合竖构图，把镜头压低，让水花溅起的瞬间和彩虹完美重合，光圈开到F16左右让太阳星芒炸裂，秒杀所有手机壁纸</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 瀑布右侧半山腰的台阶突击点</h4>\n                  <p class=\"text-sm text-gray-700\">从台阶上往下拍，前景是一阶一阶的石梯，中景是被水雾笼罩的游客，远景是蔚蓝的大海，有种人在旅途的叙事感</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 瀑布顶端右侧边缘</h4>\n                  <p class=\"text-sm text-gray-700\">侧身站在崖边，让风吹起你的头发和外套，用中等焦距把人和瀑布同时框进去，人物虽小却占据视觉中心，非常有电影感</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">5. 瀑布左侧远处河滩</h4>\n                  <p class=\"text-sm text-gray-700\">黄昏时分，逆光拍摄，瀑布的整体轮廓变成一道深黑的剪影，而水雾被金色光线点燃，温柔又壮丽，像一幅超现实主义的画</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 冰岛风巨大，三脚架必须足够重或者挂上重物压稳。无人机是禁止在瀑布正上方飞行的，因为水雾会瞬间摧毁电机，而且冰岛国家公园对无人机管理严格，被查到会罚款。另外，有些人喜欢靠近瀑布让水雾淋脸，但水汽对镜头镀膜损害很大，拍完一定马上用擦镜布清洁。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">露营之选</h4>\n                  <p class=\"text-sm text-blue-800\">斯科加尔村口的露营地，背靠瀑布枕着水声入眠，清晨在鸟鸣中醒来，拉开帐篷拉链就能看见阳光把瀑布染成金色，一晚仅需约2000冰岛克朗</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">斯科加尔村内的老屋民宿，由百年木屋改建，客厅里点着壁炉，墙上是冰岛羊毛毯，房主会端来自制的鱼汤和黑麦面包，聊起维京传说时眼睛会发光</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高性价比</h4>\n                  <p class=\"text-sm text-yellow-800\">雷克雅未克方向的农场旅馆，距离瀑布十五分钟车程，窗外是一望无际的苔原和牧场，你可以在私人热水浴缸里一边泡汤一边看瀑布在暮色中模糊成一道剪影</p>\n                </div>\n                <div class=\"bg-purple-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-purple-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-purple-800\">维克镇附近的奢华玻璃屋酒店，以北欧极简设计融合冰岛荒野，躺在床上透过落地玻璃遥望斯科加瀑布的方向，配上一杯冰川热可可，比任何五星级都奢侈</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">夏季（6到8月）斯科加尔村的住宿非常紧张，最好提前三个月预订，否则只能住到二十公里外的维克镇。冬季（11月到2月）则人少很多，但路况不稳定，出发前一定查一下road.is上的实时路况和天气预警。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">离开斯科加瀑布的那一刻，我总觉得有什么东西留在了那里。不是钥匙，不是钱包，而是某种我说不清的东西，大概是一种沉静下来的力量。在这个什么都要求快速、即时、高效的时代，站在瀑布面前是最无效的一件事，你没办法加速它，没法快进，你只能听着同样的轰鸣声，看着同样的水花，等了很久才觉得舒服了，才终于找到了自己的节奏。那种不需要追赶什么的、完全投入当下的感觉，太珍贵了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">说实话，写这篇文章的时候，我又翻出当时拍的视频，配上瀑布的轰鸣声听了几遍。还是会在某个瞬间起鸡皮疙瘩，还是觉得无法用语言真正复现那种经验。如果你真的去了一趟冰岛，一定不要让斯科加瀑布只是你环岛行程中打卡的一个点，请允许自己花多一些时间站在那里，让水雾打湿你，让风吹透你，让彩虹暂时占据你的全部视线。我想你会明白我在说什么的，并且永远不会忘记它。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skeidara-bridge-monument\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯凯达拉尔桥纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skeida Bridge Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loftsalahellir-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛夫特萨拉赫利尔洞穴</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loftsalahellir Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hraunfossar-waterfall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赫伦瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hraunfossar Waterfall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "skeidara-bridge-monument",
+          "name": "斯凯达拉尔桥纪念碑",
+          "englishName": "Skeida Bridge Monument"
+        },
+        {
+          "slug": "loftsalahellir-cave",
+          "name": "洛夫特萨拉赫利尔洞穴",
+          "englishName": "Loftsalahellir Cave"
+        },
+        {
+          "slug": "hraunfossar-waterfall",
+          "name": "赫伦瀑布",
+          "englishName": "Hraunfossar Waterfall"
+        }
+      ]
+    }
+  ]
+}
