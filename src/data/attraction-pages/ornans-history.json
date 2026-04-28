@@ -1,0 +1,85 @@
+{
+  "slug": "ornans-history",
+  "template": "history",
+  "metadata": {
+    "title": "奥尔南历史溯源｜弗朗什-孔泰小威尼斯的悬崖传奇与库尔贝的故乡故事",
+    "description": "悬崖与卢河环绕的奥尔南，藏着800年盐路记忆与画家库尔贝的叛逆灵魂。走进这座“小威尼斯”，聆听古城中世纪回响与民间传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "杜省",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "奥尔南",
+      "href": "/attractions/ornans-history"
+    }
+  ],
+  "hero": {
+    "title": "奥尔南・Ornans・法国・杜省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在弗朗什-孔泰的群山褶皱里，卢河像一条银色的丝带，将奥尔南轻轻缠绕。这里的房屋一半悬在峭壁之上，一半浸在清澈的河水中，因此得名“小威尼斯”。但威尼斯的光鲜不属于这座小镇——它的灵魂属于悬崖的冷硬、盐路的沉重，以及一位用画笔挑战整个学院的叛逆者。抛开游玩攻略，走进奥尔南的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">奥尔南</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Ornans</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Ornans</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">杜省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥尔南的诞生，源于<strong>12世纪</strong>一次精明的选择。<strong>1140年</strong>左右，勃艮第公爵的附庸——奥尔南领主在此修建了一座城堡，控制着穿越汝拉山脉的<strong>盐路</strong>。盐是中世纪最珍贵的商品之一，被称为“白色黄金”。卢河正好提供了运输与动力，悬崖则提供了天然防御。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小镇的名字 <strong>“Ornans”</strong> 源自高卢语词根 <strong>“orn-”</strong> ，意为“急流”或“水流湍急处”。的确，当春天融雪从周围一千米高的悬崖倾泻而下时，卢河会暴涨数米，咆哮着穿过镇中心。早期居民沿着河岸北侧开凿岩石，建造了紧贴岩壁的木筋屋，底层留给作坊和船坞，上层住人——这种<strong>悬挑结构</strong>如今成了奥尔南最标志性的风景。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>13世纪</strong>，当地伯爵将盐税权卖给教会，小镇逐渐演变为宗教中心。圣洛朗教堂（Église Saint-Laurent）始建于<strong>13世纪末</strong>，其哥特式唱诗班席位保留着中世纪晚期的彩色壁画，画中盐工们背着沉重的盐袋走向远方——那是奥尔南最初的集体记忆。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">要说奥尔南最深刻的印记，非 <strong>“盐路战争”</strong> 莫属。<strong>1479年</strong>，勃艮第公爵大胆查理战死后，法国国王路易十一与哈布斯堡家族争夺弗朗什-孔泰地区。奥尔南作为盐路枢纽，被双方反复攻占。镇中心的<strong>钟楼</strong>（Tour de l'Horloge）至今留有炮火的痕迹——<strong>1493年</strong>，瑞士雇佣兵用火绳枪在塔身留下三个弹孔，当地人在修复时刻意保留了这些凹痕，作为“自由代价”的见证。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个关键转折是 <strong>1639年</strong> 的<strong>饥荒与瘟疫</strong>。三十年战争期间，瑞典军队劫掠了整个弗朗什-孔泰。奥尔南的居民躲进卢河上游的<strong>埃斯克里尼亚溶洞</strong>（Grotte d'Escrignolles）长达九个月。考古学家在洞内发现了上千件陶器碎片和骨骸，其中一只陶罐上刻着：“上帝保佑我们躲过瑞典人的铁蹄，却无法躲避饥饿的牙齿。” 这段经历让小镇性格中多了一份<strong>沉默的坚韧</strong>——如今在老城区的石板路上，依然可以看到刻有十字架的路标，那是当年居民标记避难路线的遗产。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最后是 <strong>19世纪中叶</strong> 的工业转型。随着铁路取代水运，奥尔南的盐路经济彻底凋敝。但聪明的居民转而在悬崖上开凿<strong>水力磨坊</strong>，生产面粉和木材。今天河边那些看似摇摇欲坠的旧磨坊，内部其实藏着完整的铸铁水轮系统——<strong>1854年</strong>建造的“博德雷磨坊”（Moulin Baudry）至今仍能运转，每年夏天会启动一次，向游客演示老式面粉研磨。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥尔南最响亮的名字，无疑是 <strong>古斯塔夫·库尔贝（Gustave Courbet, 1819-1877）</strong>。这位现实主义绘画的旗手，出生于镇中心 <strong>“圣洛朗路14号”</strong> 的一栋三层石楼里。他的父亲是当地富有的农场主，母亲是普通农妇——这个家庭背景后来成了库尔贝终身对抗“贵族艺术”的武器。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1849年</strong>，库尔贝回到奥尔南创作了惊世骇俗的 <strong>《奥尔南的葬礼》</strong> 。这幅宽6米、高3米的巨画，没有英雄，没有神话，只有六十多个其貌不扬的普通村民——戴着黑帽的镇长、哭丧的农妇、甚至牵着狗的流浪汉。巴黎沙龙评委震惊了：他们从未见过如此“丑陋”的画。库尔贝却冷冷回应：<strong>“我画的是我亲眼所见，不是你们脑中的粉饰。”</strong> 这幅画被骂作“乡下人的葬礼”，却成了现实主义艺术的开山之作。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">库尔贝在奥尔南留下的轶事极富戏剧性。<strong>1855年</strong>，他的作品被巴黎世博会拒之门外后，他愤怒地在会场对面搭起一个简陋的木棚，挂上 <strong>“现实主义：库尔贝先生40幅作品展”</strong> 的牌子。开幕式上，他请来奥尔南的老邻居——木匠、酿酒师和渔夫——让他们穿着日常服装参观，并让他们在观众留言簿上签名。其中一位渔夫写道：<strong>“古斯塔夫啊，你画的鱼比我见过的还真实。”</strong> 这个细节后来被艺术史家视为“平民艺术宣言”的起点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1873年</strong>，库尔贝因卷入巴黎公社运动被判处6个月监禁，并勒令支付巨额赔偿金。他被迫流亡瑞士，再也没能回到奥尔南。但他每年都会寄钱给镇上的贫困家庭，并叮嘱“用这些钱买颜料和面包——艺术和生存一样重要”。今天，库尔贝故居（Maison Natale de Gustave Courbet）内还保存着他的一封信，上面写着：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“当我画卢河的水波时，其实是在画奥尔南人的皱纹。水映出悬崖，也映出我们的倔强。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位与奥尔南结缘的名人是 <strong>埃马纽埃尔·德·维厄（Emmanuel de Vieu, 1824-1887）</strong>，一位不太知名的博物学家。他花费20年时间绘制了卢河及周边悬崖的完整地质图谱，并发现了一种以奥尔南命名的苔藓——<strong>“奥尔南角苔”（Ceratodon ornantica）</strong>。据说他每天清晨都沿着河岸徒步，记录水位变化和岩石风化，直到1883年双目失明。他的《卢河志》手稿现存于镇档案馆，其中一段写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“悬崖的裂缝像老人的手纹，每一条都藏着世纪的雨。我们只是过客，但石头记得所有秘密。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥尔南流传最广的传说是 <strong>“金驴之泉”</strong> （La Fontaine de l'Âne d'Or）。据说中世纪时，一位穷盐商赶着驴队穿过悬崖，驴子忽然停下，用蹄子猛刨一块岩石。盐商扒开碎石，发现一股泉水涌出，水中竟然夹着金砂。他立即连夜修坝围泉，却因为太着急，把驴子拴在了悬崖上。第二天早上，<strong>泉水干涸了，驴子变成了一尊金色的石像，嵌在岩壁里</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地人相信，每逢满月之夜，石驴会发出低沉的嘶鸣，指向真正的金脉。<strong>17世纪</strong>时，曾有德国探险队试图炸开悬崖取金，结果引发山体滑坡，砸死了七个人。至今镇上的老人还会告诫小孩：<strong>“别在满月时去卢河边玩，金驴会叫你走错路的。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个习俗源于中世纪盐工的祈祷方式。每年<strong>2月14日</strong>，圣瓦伦丁日，奥尔南的未婚青年会折一只纸船，放入卢河，纸船上要写一句“对悬崖的誓言”——比如 <strong>“我发誓像石头一样忠实”</strong> 或 <strong>“河水不干，我心不变”</strong> 。如果纸船漂过三座桥不沉，就代表找到真爱的承诺。今天这个习俗演变成当地旅游节的一部分，但最虔诚的参与者依然会用卢河河泥染色，让纸船更像“历史的颜色”。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走在奥尔南的石板路上，每一块石头都在说话。卢河的波光是中世纪盐袋摩擦的反射，悬崖上的弹孔是三十年战争的伤口，库尔贝的画笔沾满了小镇人的粗糙与真实。这里没有辉煌的宫殿和镀金的传说，但<strong>有一种更珍贵的东西：普通人如何在悬崖和河流之间活出了倔强的尊严</strong>。当你站在圣洛朗教堂塔楼俯瞰全镇，会突然明白——所谓“小威尼斯”，不过是对这里的温柔误读。奥尔南从来不是模仿者，它用自己的盐、自己的血、自己的石灰岩，雕刻出一部低调却沉重的小镇史诗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chateau-de-josselin-brittany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    若\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">若瑟兰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Josselin</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saint-emilion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣埃米利翁古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint-Émilion</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/carcassonne-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔卡松城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Carcassonne Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "chateau-de-josselin-brittany",
+          "name": "若瑟兰城堡",
+          "englishName": "Château de Josselin"
+        },
+        {
+          "slug": "saint-emilion",
+          "name": "圣埃米利翁古城",
+          "englishName": "Saint-Émilion"
+        },
+        {
+          "slug": "carcassonne-castle",
+          "name": "卡尔卡松城堡",
+          "englishName": "Carcassonne Castle"
+        }
+      ]
+    }
+  ]
+}

@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "共和广场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stolberg-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施托尔贝格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stolberg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/northeim-hanseatic-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺特海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Northeim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-eltz-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔茨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Eltz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burg-vischering\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    菲\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">菲舍林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Vischering</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/viktoriapark-berlin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维多利亚公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Viktoriapark</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gruene-zitadelle-magdeburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    绿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">绿色城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hundertwasser's Green Citadel of Magdeburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "stolberg-castle",
-          "name": "施托尔贝格城堡",
-          "englishName": "Stolberg Castle"
+          "slug": "burg-vischering",
+          "name": "菲舍林城堡",
+          "englishName": "Burg Vischering"
         },
         {
-          "slug": "northeim-hanseatic-old-town",
-          "name": "诺特海姆",
-          "englishName": "Northeim"
+          "slug": "viktoriapark-berlin",
+          "name": "维多利亚公园",
+          "englishName": "Viktoriapark"
         },
         {
-          "slug": "burg-eltz-history",
-          "name": "埃尔茨城堡",
-          "englishName": "Burg Eltz"
+          "slug": "gruene-zitadelle-magdeburg",
+          "name": "绿色城堡",
+          "englishName": "Hundertwasser's Green Citadel of Magdeburg"
         }
       ]
     }

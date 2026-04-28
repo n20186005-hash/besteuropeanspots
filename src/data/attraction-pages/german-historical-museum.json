@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "德国历史博物馆",
@@ -62,17 +62,17 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kronach-festung-rosenberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克罗纳赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kronach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/goslar-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈斯拉尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Goslar Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-stolberg-harz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施托尔贝格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stolberg Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/goethes-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    歌\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">歌德故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Goethe's House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/magdeburg-water-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马格德堡水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Magdeburg Water Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-stolberg-harz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施托尔贝格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stolberg Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kronach-festung-rosenberg",
-          "name": "克罗纳赫",
-          "englishName": "Kronach"
+          "slug": "goethes-house",
+          "name": "歌德故居",
+          "englishName": "Goethe's House"
         },
         {
-          "slug": "goslar-old-town",
-          "name": "戈斯拉尔老城",
-          "englishName": "Goslar Old Town"
+          "slug": "magdeburg-water-bridge",
+          "name": "马格德堡水桥",
+          "englishName": "Magdeburg Water Bridge"
         },
         {
           "slug": "schloss-stolberg-harz",

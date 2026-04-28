@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉诺威",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "海恩豪森花园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rheinstein-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱茵施泰因城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rheinstein Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ehrenbreitstein-fortress\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科布伦茨埃伦布赖特施泰因要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ehrenbreitstein Fortress</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/idar-oberstein-felsenkirche\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊德尔-奥伯施泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Idar-Oberstein</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/marburg-old-town-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马尔堡老城与伯爵城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marburg Old Town and Landgrave‘s Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/park-am-gleisdreieck\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    三\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">三角铁路公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Park am Gleisdreieck</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/externsteine-rock-formations-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃克斯施泰因岩层</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Externsteine</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "rheinstein-castle",
-          "name": "莱茵施泰因城堡",
-          "englishName": "Rheinstein Castle"
+          "slug": "marburg-old-town-castle",
+          "name": "马尔堡老城与伯爵城堡",
+          "englishName": "Marburg Old Town and Landgrave‘s Castle"
         },
         {
-          "slug": "ehrenbreitstein-fortress",
-          "name": "科布伦茨埃伦布赖特施泰因要塞",
-          "englishName": "Ehrenbreitstein Fortress"
+          "slug": "park-am-gleisdreieck",
+          "name": "三角铁路公园",
+          "englishName": "Park am Gleisdreieck"
         },
         {
-          "slug": "idar-oberstein-felsenkirche",
-          "name": "伊德尔-奥伯施泰因",
-          "englishName": "Idar-Oberstein"
+          "slug": "externsteine-rock-formations-history",
+          "name": "埃克斯施泰因岩层",
+          "englishName": "Externsteine"
         }
       ]
     }

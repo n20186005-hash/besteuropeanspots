@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "罗滕堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "老德国屋",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/externsteine-rock-formations-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃克斯施泰因岩层</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Externsteine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/braunfels-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳恩费尔斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Braunfels Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-eltz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔茨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Eltz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/feuchtwangen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福伊希特旺根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Feuchtwangen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/trinkhalle-baden-baden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    饮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">饮水厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Trinkhalle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/spalt-hopfenerlebnispfad\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施帕尔特啤酒花之乡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Spalt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "externsteine-rock-formations-history",
-          "name": "埃克斯施泰因岩层",
-          "englishName": "Externsteine"
+          "slug": "feuchtwangen",
+          "name": "福伊希特旺根",
+          "englishName": "Feuchtwangen"
         },
         {
-          "slug": "braunfels-castle",
-          "name": "布劳恩费尔斯城堡",
-          "englishName": "Braunfels Castle"
+          "slug": "trinkhalle-baden-baden",
+          "name": "饮水厅",
+          "englishName": "Trinkhalle"
         },
         {
-          "slug": "burg-eltz",
-          "name": "埃尔茨城堡",
-          "englishName": "Burg Eltz"
+          "slug": "spalt-hopfenerlebnispfad",
+          "name": "施帕尔特啤酒花之乡",
+          "englishName": "Spalt"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉诺威",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "埃伦里德城市森林",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/buchenwald-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布痕瓦尔德集中营纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buchenwald Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/idstein-witch-trial-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊德施泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Idstein</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buedingen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比丁根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Büdingen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/loewenbraeukeller-das-original\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    狮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">狮子啤酒馆 - 原厂店</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Löwenbräukeller - Das Original</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/reichsburg-cochem-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科赫姆帝国城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cochem Castle (Reichsburg Cochem)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/forchheim-franconian-medieval-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福希海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Forchheim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "buchenwald-memorial",
-          "name": "布痕瓦尔德集中营纪念馆",
-          "englishName": "Buchenwald Memorial"
+          "slug": "loewenbraeukeller-das-original",
+          "name": "狮子啤酒馆 - 原厂店",
+          "englishName": "Löwenbräukeller - Das Original"
         },
         {
-          "slug": "idstein-witch-trial-town",
-          "name": "伊德施泰因",
-          "englishName": "Idstein"
+          "slug": "reichsburg-cochem-history",
+          "name": "科赫姆帝国城堡",
+          "englishName": "Cochem Castle (Reichsburg Cochem)"
         },
         {
-          "slug": "buedingen",
-          "name": "比丁根",
-          "englishName": "Büdingen"
+          "slug": "forchheim-franconian-medieval-town",
+          "name": "福希海姆",
+          "englishName": "Forchheim"
         }
       ]
     }

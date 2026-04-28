@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "微缩景观世界",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schwaebisch-gmuend\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施韦比施格明德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwäbisch Gmünd</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tecklenburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特克伦堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tecklenburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-homburg-royal-spa-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特洪堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Homburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/new-palace-potsdam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burghausen-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博格豪森城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burghausen Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/goslar-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈斯拉尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Goslar Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "schwaebisch-gmuend",
-          "name": "施韦比施格明德",
-          "englishName": "Schwäbisch Gmünd"
+          "slug": "new-palace-potsdam",
+          "name": "新宫",
+          "englishName": "New Palace"
         },
         {
-          "slug": "tecklenburg",
-          "name": "特克伦堡",
-          "englishName": "Tecklenburg"
+          "slug": "burghausen-castle",
+          "name": "博格豪森城堡",
+          "englishName": "Burghausen Castle"
         },
         {
-          "slug": "bad-homburg-royal-spa-town",
-          "name": "巴特洪堡",
-          "englishName": "Bad Homburg"
+          "slug": "goslar-old-town",
+          "name": "戈斯拉尔老城",
+          "englishName": "Goslar Old Town"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "德累斯顿",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "茨温格宫",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/naumburg-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瑙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瑙姆堡大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Naumburg Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blutenburg-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布吕滕堡城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blutenburg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marburg-old-town-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马尔堡老城与伯爵城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marburg Old Town and Landgrafenschloss</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hal-over-bremer-fahrgastschifffahrt-gmbh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈尔奥弗游船</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hal över Bremer Fahrgastschifffahrt GmbH</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/esslingen-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃斯林根城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Esslingen Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berlin-welcomecard\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林欢迎卡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berlin WelcomeCard</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "naumburg-cathedral",
-          "name": "瑙姆堡大教堂",
-          "englishName": "Naumburg Cathedral"
+          "slug": "hal-over-bremer-fahrgastschifffahrt-gmbh",
+          "name": "哈尔奥弗游船",
+          "englishName": "Hal över Bremer Fahrgastschifffahrt GmbH"
         },
         {
-          "slug": "blutenburg-castle",
-          "name": "布吕滕堡城堡",
-          "englishName": "Blutenburg Castle"
+          "slug": "esslingen-castle",
+          "name": "埃斯林根城堡",
+          "englishName": "Esslingen Castle"
         },
         {
-          "slug": "marburg-old-town-castle-history",
-          "name": "马尔堡老城与伯爵城堡",
-          "englishName": "Marburg Old Town and Landgrafenschloss"
+          "slug": "berlin-welcomecard",
+          "name": "柏林欢迎卡",
+          "englishName": "Berlin WelcomeCard"
         }
       ]
     }

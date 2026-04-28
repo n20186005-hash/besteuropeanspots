@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "巴登-巴登",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "盖罗德绍尔瀑布",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/asamkirche\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿桑教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Asamkirche</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/friedberg-bavaria-romantic-road\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里德贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Friedberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sigtuna-sweden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    锡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">锡格蒂纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sigtuna</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cecilienhof-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞西琳霍夫宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cecilienhof Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bautzen-sorbian-culture-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    包\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">包岑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bautzen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dobinska-ice-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多布希纳冰洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dobšinská Ice Cave</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "asamkirche",
-          "name": "阿桑教堂",
-          "englishName": "Asamkirche"
+          "slug": "cecilienhof-palace",
+          "name": "塞西琳霍夫宫",
+          "englishName": "Cecilienhof Palace"
         },
         {
-          "slug": "friedberg-bavaria-romantic-road",
-          "name": "弗里德贝格",
-          "englishName": "Friedberg"
+          "slug": "bautzen-sorbian-culture-history",
+          "name": "包岑",
+          "englishName": "Bautzen"
         },
         {
-          "slug": "sigtuna-sweden",
-          "name": "锡格蒂纳",
-          "englishName": "Sigtuna"
+          "slug": "dobinska-ice-cave",
+          "name": "多布希纳冰洞",
+          "englishName": "Dobšinská Ice Cave"
         }
       ]
     }

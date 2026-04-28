@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑老市政厅",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/regensburg-stone-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雷根斯堡石桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Regensburg Stone Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flensburg-fjord-rum-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗伦斯堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flensburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schmalkalden-city-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施马尔卡尔登</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schmalkalden</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kaiser-wilhelm-denkmal\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威廉皇帝纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kaiser Wilhelm Denkmal</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gladbeck-hostage-memorial-stone\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉德贝克人质事件纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gedenkstein für die Opfer der Geiselnahme von Gladbeck</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/goethe-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    歌\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">歌德故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Goethe House</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "regensburg-stone-bridge",
-          "name": "雷根斯堡石桥",
-          "englishName": "Regensburg Stone Bridge"
+          "slug": "kaiser-wilhelm-denkmal",
+          "name": "威廉皇帝纪念碑",
+          "englishName": "Kaiser Wilhelm Denkmal"
         },
         {
-          "slug": "flensburg-fjord-rum-old-town",
-          "name": "弗伦斯堡",
-          "englishName": "Flensburg"
+          "slug": "gladbeck-hostage-memorial-stone",
+          "name": "格拉德贝克人质事件纪念碑",
+          "englishName": "Gedenkstein für die Opfer der Geiselnahme von Gladbeck"
         },
         {
-          "slug": "schmalkalden-city-guide",
-          "name": "施马尔卡尔登",
-          "englishName": "Schmalkalden"
+          "slug": "goethe-house",
+          "name": "歌德故居",
+          "englishName": "Goethe House"
         }
       ]
     }

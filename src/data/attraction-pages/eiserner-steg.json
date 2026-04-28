@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "法兰克福",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "铁桥（法兰克福铁桥）",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kamenz-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡门茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kamenz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saarburg-waterfall-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saarburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-wimpfen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特温普芬</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Wimpfen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gottorf-castle-schleswig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈托尔夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gottorf Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/trier-roman-monuments\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特里尔古罗马遗迹</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roman Monuments of Trier</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prora-nazi-beach-resort-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普罗拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prora</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kamenz-old-town",
-          "name": "卡门茨",
-          "englishName": "Kamenz"
+          "slug": "gottorf-castle-schleswig",
+          "name": "戈托尔夫城堡",
+          "englishName": "Gottorf Castle"
         },
         {
-          "slug": "saarburg-waterfall-town",
-          "name": "萨尔堡",
-          "englishName": "Saarburg"
+          "slug": "trier-roman-monuments",
+          "name": "特里尔古罗马遗迹",
+          "englishName": "Roman Monuments of Trier"
         },
         {
-          "slug": "bad-wimpfen",
-          "name": "巴特温普芬",
-          "englishName": "Bad Wimpfen"
+          "slug": "prora-nazi-beach-resort-ruins",
+          "name": "普罗拉",
+          "englishName": "Prora"
         }
       ]
     }

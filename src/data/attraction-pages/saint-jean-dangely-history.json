@@ -1,0 +1,85 @@
+{
+  "slug": "saint-jean-dangely-history",
+  "template": "history",
+  "metadata": {
+    "title": "圣让当热利历史溯源｜朝圣之路上的未竟双塔与王室修道院传奇",
+    "description": "探访法国滨海夏朗德省小镇圣让当热利，聆听中世纪朝圣驿站的尘封往事。宏大却未完工的双塔修道院废墟，诉说着权力、信仰与命运的沧桑。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "圣让当热利",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "圣让当热利",
+      "href": "/attractions/saint-jean-dangely-history"
+    }
+  ],
+  "hero": {
+    "title": "圣让当热利・Saint-Jean-d'Angély・法国・圣让当热利",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这是一座被时间凝结的小镇。在通往西班牙圣地亚哥的朝圣之路上，圣让当热利曾以宏伟的双塔修道院迎接无数旅人——但塔楼从未封顶，钟声也从未响起。抛开游玩攻略，走进圣让当热利的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">圣让当热利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Saint-Jean-d&#39;Angély</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Saint-Jean-d&#39;Angély</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">圣让当热利</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元9世纪，一位虔诚的本笃会修士在布尔河畔建立了修道院。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说他带来了施洗者圣约翰的圣物——一颗头颅骨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，这座原名“Angély”的村庄因圣物而改名，演变为“Saint-Jean-d'Angély”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“圣让”指向施洗者约翰，“昂热利”则来自克吕尼方言中的“天使之地”</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小镇真正崛起是在10世纪，当修道院被纳入克吕尼修会体系后，朝圣者络绎不绝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它成为法国西部通往西班牙圣地亚哥的四大朝圣路线之一——图尔之路上的重要驿站。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1121年，路易六世正式授予小镇特许状，修道院规模和财富与日俱增。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">围绕修道院兴起的手工业、客栈和市集，让圣让当热利成为阿基坦地区最富庶的宗教城镇之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>然而，正是这双塔——一座从未竣工的巨型哥特式建筑——注定了小镇未来的宿命</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一道印记：未竟的双塔</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">13世纪，修道院本笃会修士决定建造一座足以媲美克吕尼修道院的宏大殿堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">两座高达50米的西向塔楼被设计为正面入口，但大教堂未及封顶，百年战争便席卷而来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">英国军队占领了圣让当热利，工程被迫中断。战争结束后，小镇虽回归法国，但财力耗竭，双塔就此搁置。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二道印记：宗教战争的炼狱</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">16世纪，新教与天主教的对峙点燃了胡格诺战争。圣让当热利被新教军队攻陷，修道院遭劫掠，圣物被毁，修士四散。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1572年圣巴托罗缪大屠杀之后，这里一度成为新教要塞。路易十三亲自率兵围城，城墙被彻底拆除。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>双塔在炮火中受损，但奇迹般地没有倒塌——它们像沉默的哨兵，见证着信仰的血泪</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三道印记：法国大革命的最终一击</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪，修道院试图再次重建，但资金仅够修缮双塔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1789年革命爆发后，修道院被收归国有，修士被驱逐。建筑被当作采石场，石材被拆去修建民宅和道路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>唯有那两座未完工的塔楼，因过于庞大而无人问津，孤零零地刺向天空</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1840年，双塔被列为法国历史古迹，废墟从此定格为小镇的象征。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣路易与圣物遗骸</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1242年，路易九世——后世称为“圣路易”——在圣东日战役后亲临小镇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位以虔诚著称的国王跪在修道院祭坛前，向施洗者圣约翰的圣骸祈祷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据随行编年史家记载，国王在这里停留了三日，并慷慨捐赠了一笔年金，用于修缮教堂的唱诗班席位。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣路易离开时，曾在城门口对修士们说：“你们守护着先知的头颅，愿这座城也守护我的忠诚。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此后多年，修道院每年都举行纪念国王的弥撒，直至大革命降临。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>欧仁·弗罗芒坦：废墟中的画语</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪下半叶，法国作家兼画家欧仁·弗罗芒坦从拉罗谢尔出发，沿着朝圣之路旅行。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在圣让当热利住了整整两周，每日坐在双塔的阴影下写生。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这废墟之美，不是毁灭，而是停顿。仿佛上帝在建造中途打了个盹，留下两座石质叹息，永远悬浮在石匠的梦境里。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在散文集《夏朗德纪行》中这样描写。弗罗芒坦的画作《圣让当热利的修道院废墟》如今收藏于巴黎奥赛博物馆，<strong>是19世纪浪漫主义废墟崇拜的经典之作</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>无名匠人：双塔的守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地至今流传着一位盲匠人的故事。18世纪末，当修道院被拆毁时，一位双目失明的老石匠每晚走到塔下，用拐杖敲打墙体，劝退前来偷石料的村民。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他曾对众人说：“这两座塔，比我更知道法国的重量。”<strong>据说他死后，人们发现他就葬在塔基的碎石堆里，没有任何墓碑</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>永不完工的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在12世纪，修道院院长野心勃勃，宣称要建造“比克吕尼主教堂更高三英尺的双塔”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一位路过的朝圣者劝他谦卑，他却斩钉截铁：“上帝也会为我让路。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">次日清晨，工人们发现头天砌好的石墙全部倒塌。此后三次重建，三次倒塌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最后一次，院长跪地祈祷，天上传来声音：“你的骄傲，将永远留在半空。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>从此，双塔只建到一半，再无人敢触碰</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每逢暴风雨夜，当地老人仍说会听到石砖摩擦的声响——那是被诅咒的塔在悄悄生长，却永远无法完成。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣约翰之颅的踪迹</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">修道院的镇院之宝——施洗者圣约翰颅骨——在宗教战争中神秘失踪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说最后一位修士将它藏在塔基暗室，并用三把钥匙锁住入口。革命时，这位修士死于断头台，钥匙下落不明。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪60年代，考古学家在塔下发现了密道入口，但只掘出一具空石棺和一枚锈蚀的钥匙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>至今，圣物究竟在何处，仍是悬而未决的谜</strong>。小镇居民坚信，当双塔真正完工的那一天，圣约翰的头颅会自行现身。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣让当热利的魅力，不在于完成，而在于“未竟”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那两座哥特式塔楼，像断臂的维纳斯，因为残缺而拥有了史诗般的张力。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>读懂这座小镇，就是读懂中世纪欧洲信仰的兴衰——从克吕尼的辉煌到宗教战争的撕裂，再到革命时代的断壁残垣</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一步走在石阶上，都踩过修士的祷词、朝圣者的汗水和战争的灰烬。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/arles-amphitheatre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔勒古罗马竞技场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arles Amphitheatre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chateau-de-vitre-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维特雷城堡（布列塔尼边境极具童话色彩的带吊桥巨型三角堡垒）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Vitré</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eus-pyrenees-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    厄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">厄斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eus</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "arles-amphitheatre",
+          "name": "阿尔勒古罗马竞技场",
+          "englishName": "Arles Amphitheatre"
+        },
+        {
+          "slug": "chateau-de-vitre-history",
+          "name": "维特雷城堡（布列塔尼边境极具童话色彩的带吊桥巨型三角堡垒）",
+          "englishName": "Château de Vitré"
+        },
+        {
+          "slug": "eus-pyrenees-history",
+          "name": "厄斯",
+          "englishName": "Eus"
+        }
+      ]
+    }
+  ]
+}

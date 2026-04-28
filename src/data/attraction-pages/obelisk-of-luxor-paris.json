@@ -16,11 +16,11 @@
     },
     {
       "label": "法国",
-      "href": "/destinations/france"
+      "href": "/destinations/faguo"
     },
     {
       "label": "巴黎",
-      "href": "/destinations/france"
+      "href": "/destinations/faguo"
     },
     {
       "label": "巴黎协和广场方尖碑",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bergheim-alsace-france\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝尔盖姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bergheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/roussillon-ochre-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁西永（普罗旺斯赭石红土城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roussillon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chateau-de-meung-sur-loire\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马尔旺城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Meung-sur-L-Loire</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rocamadour-cliff-city-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗卡马杜尔悬崖城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rocamadour</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saint-benoit-du-sault\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣伯努瓦迪索</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint-Benoît-du-Sault</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/la-couvertorade-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉库韦尔图瓦拉德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">La Couvertoirade</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bergheim-alsace-france",
-          "name": "贝尔盖姆",
-          "englishName": "Bergheim"
+          "slug": "rocamadour-cliff-city-history",
+          "name": "罗卡马杜尔悬崖城",
+          "englishName": "Rocamadour"
         },
         {
-          "slug": "roussillon-ochre-village",
-          "name": "鲁西永（普罗旺斯赭石红土城）",
-          "englishName": "Roussillon"
+          "slug": "saint-benoit-du-sault",
+          "name": "圣伯努瓦迪索",
+          "englishName": "Saint-Benoît-du-Sault"
         },
         {
-          "slug": "chateau-de-meung-sur-loire",
-          "name": "马尔旺城堡",
-          "englishName": "Château de Meung-sur-L-Loire"
+          "slug": "la-couvertorade-history",
+          "name": "拉库韦尔图瓦拉德",
+          "englishName": "La Couvertoirade"
         }
       ]
     }

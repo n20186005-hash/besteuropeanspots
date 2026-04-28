@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "文化论坛",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bad-doberan-minster\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特多贝兰修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Doberan Minster</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/minden-water-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    明\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">明登</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Minden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kronach-festung-rosenberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克罗纳赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kronach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/fritzlar-medieval-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里茨拉尔中世纪古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fritzlar</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gengenbach-old-town-christmas\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    根\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">根根巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gengenbach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-weissenstein-pommersfelden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏森施泰因宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Weißenstein (Pommersfelden)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bad-doberan-minster",
-          "name": "巴特多贝兰修道院",
-          "englishName": "Bad Doberan Minster"
+          "slug": "fritzlar-medieval-old-town",
+          "name": "弗里茨拉尔中世纪古城",
+          "englishName": "Fritzlar"
         },
         {
-          "slug": "minden-water-bridge",
-          "name": "明登",
-          "englishName": "Minden"
+          "slug": "gengenbach-old-town-christmas",
+          "name": "根根巴赫",
+          "englishName": "Gengenbach"
         },
         {
-          "slug": "kronach-festung-rosenberg",
-          "name": "克罗纳赫",
-          "englishName": "Kronach"
+          "slug": "schloss-weissenstein-pommersfelden",
+          "name": "魏森施泰因宫",
+          "englishName": "Schloss Weißenstein (Pommersfelden)"
         }
       ]
     }

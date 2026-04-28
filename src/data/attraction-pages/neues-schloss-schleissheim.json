@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "新宫施莱斯海姆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/asamkirche\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿桑教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Asamkirche</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wustrow-fischland-baltic-sea-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    武\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">武斯特罗</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wustrow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/grimma-historic-town-mulde-river\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格里马</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Grimma</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/waren-mueritz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦（米里茨）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Waren (Müritz)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/main-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    美\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">美因塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Main Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sprengel-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯普伦格尔博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sprengel Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "asamkirche",
-          "name": "阿桑教堂",
-          "englishName": "Asamkirche"
+          "slug": "waren-mueritz",
+          "name": "瓦伦（米里茨）",
+          "englishName": "Waren (Müritz)"
         },
         {
-          "slug": "wustrow-fischland-baltic-sea-village",
-          "name": "武斯特罗",
-          "englishName": "Wustrow"
+          "slug": "main-tower",
+          "name": "美因塔",
+          "englishName": "Main Tower"
         },
         {
-          "slug": "grimma-historic-town-mulde-river",
-          "name": "格里马",
-          "englishName": "Grimma"
+          "slug": "sprengel-museum",
+          "name": "斯普伦格尔博物馆",
+          "englishName": "Sprengel Museum"
         }
       ]
     }

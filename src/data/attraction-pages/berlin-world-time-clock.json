@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林世界时钟",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/buerresheim-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比雷斯海姆城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bürresheim Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/speyer-cathedral-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tangermuende-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    唐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">唐格明德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tangermünde</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bautzen-sorbian-culture-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    包\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">包岑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bautzen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-bridge-heidelberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Bridge Heidelberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/landsberg-am-lech-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱希河畔兰茨贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landsberg am Lech</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "buerresheim-castle",
-          "name": "比雷斯海姆城堡",
-          "englishName": "Bürresheim Castle"
+          "slug": "bautzen-sorbian-culture-history",
+          "name": "包岑",
+          "englishName": "Bautzen"
         },
         {
-          "slug": "speyer-cathedral-history",
-          "name": "施派尔大教堂",
-          "englishName": "Speyer Cathedral"
+          "slug": "old-bridge-heidelberg",
+          "name": "老桥",
+          "englishName": "Old Bridge Heidelberg"
         },
         {
-          "slug": "tangermuende-history",
-          "name": "唐格明德",
-          "englishName": "Tangermünde"
+          "slug": "landsberg-am-lech-history",
+          "name": "莱希河畔兰茨贝格",
+          "englishName": "Landsberg am Lech"
         }
       ]
     }

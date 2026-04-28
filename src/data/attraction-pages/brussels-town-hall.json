@@ -16,11 +16,11 @@
     },
     {
       "label": "比利时",
-      "href": "/destinations/europe"
+      "href": "/destinations/bilishi"
     },
     {
       "label": "布鲁塞尔",
-      "href": "/destinations/europe"
+      "href": "/destinations/bilishi"
     },
     {
       "label": "布鲁塞尔市政厅",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/veves-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦沃城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle of Vêves</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/grand-beguinage-leuven\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁汶大贝居安会院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Grand Beguinage of Leuven</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/floreffe-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗洛雷夫修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Floreffe Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/leuven-university-town-hall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁汶大学城与市政厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leuven University Town & Town Hall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bree\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布雷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bree</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fort-of-huy-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    于\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">于伊要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fort of Huy</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "veves-castle",
-          "name": "韦沃城堡",
-          "englishName": "Castle of Vêves"
+          "slug": "leuven-university-town-hall",
+          "name": "鲁汶大学城与市政厅",
+          "englishName": "Leuven University Town & Town Hall"
         },
         {
-          "slug": "grand-beguinage-leuven",
-          "name": "鲁汶大贝居安会院",
-          "englishName": "Grand Beguinage of Leuven"
+          "slug": "bree",
+          "name": "布雷",
+          "englishName": "Bree"
         },
         {
-          "slug": "floreffe-abbey",
-          "name": "弗洛雷夫修道院",
-          "englishName": "Floreffe Abbey"
+          "slug": "fort-of-huy-history",
+          "name": "于伊要塞",
+          "englishName": "Fort of Huy"
         }
       ]
     }

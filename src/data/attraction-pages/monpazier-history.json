@@ -1,0 +1,85 @@
+{
+  "slug": "monpazier-history",
+  "template": "history",
+  "metadata": {
+    "title": "蒙帕齐耶历史溯源｜法国完美网格巴斯蒂德的中世纪传奇与名人轶事",
+    "description": "探索法国多尔多涅的蒙帕齐耶，一座1284年由英格兰国王爱德华一世建立的巴斯蒂德。百年战争、宗教冲突、Archambaud de Grailly的骑士生涯与Jean Secret的守护故事，带你走进这段被时光珍藏的网格城史。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "多尔多涅省",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "蒙帕齐耶",
+      "href": "/attractions/monpazier-history"
+    }
+  ],
+  "hero": {
+    "title": "蒙帕齐耶・Monpazier・法国・多尔多涅省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>蒙帕齐耶</strong>，法国保存最完美的中世纪正交网格巴斯蒂德，如同一块被时间遗忘的棋盘，静静躺在多尔多涅的丘陵间。1284年，英格兰国王爱德华一世下令在此建造一座防御型新城，以正南正北的街道和中央广场勾勒出权力与秩序的理想蓝图。七百年间，它历经战火、瘟疫、宗教分裂，却奇迹般保留了原始的城市肌理。抛开游玩攻略，走进蒙帕齐耶的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">蒙帕齐耶</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Monpazier</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Monpazier</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">多尔多涅省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1284年</strong>，阿基坦公爵、英格兰国王爱德华一世为巩固其在法国南部的统治，决定在多尔多涅的边境地带修建一座巴斯蒂德（bastide）。巴斯蒂德是中世纪欧洲的“新城市”，以笔直的街道和规整的网格规划为标志，旨在吸引移民、发展贸易并作为军事据点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">蒙帕齐耶的名字源于古法语“Mont Pazer”，意为“和平之山”——尽管它的诞生本身就是一种战争宣言。当时，英法两国王室在阿基坦的争夺已持续数十年，爱德华一世需要一座既能抵御法军进攻，又能迅速聚集人口的堡垒。他选择了这片位于贝尔热拉克和韦尔之间、视野开阔的丘陵，将土地划给了一位名为<strong>卢卡斯·德·奥尔良</strong>的领主，并授予其“特许状”以吸引农民、工匠和商人定居。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市的设计堪称中世纪城市规划的典范：一个巨大的长方形广场位于正中央，四周由木石拱廊环绕；广场一端是市政厅，另一端是带钟楼的教堂；街道以广场为原点，呈棋盘格状向四周延伸，每条路都严格正交，宽度相等。这种布局不仅便于防御（敌人进入后会被网格迷惑），也利于市场交易的公平与秩序。<strong>每块宅基地都被精确划分为等面积的长条</strong>，居民在缴纳租金后即可永久使用。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，这座“和平之山”从一开始就充满了紧张感。在1284年动工后的头几十年里，蒙帕齐耶就迎来了两次大火，居民们不得不用石头重建大部分建筑。但正是这种反复修缮的韧劲，让它在中世纪晚期成为该地区最繁荣的巴斯蒂德之一。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">蒙帕齐耶的历史印记，是由百年战争和宗教战争的刀剑刻下的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>百年战争（1337–1453）</strong>期间，这座英格兰人建造的城市自然成为英军的重要据点。1356年，在普瓦捷战役中俘获法国国王约翰二世的“黑王子”爱德华（爱德华三世之子），曾率军驻扎于此，并利用蒙帕齐耶的网格街道操练长弓手。当地传说，黑王子在广场的拱廊下召开过军事会议，<strong>那些石柱上至今还能隐约看到英格兰士兵刻下的十字弓标志</strong>。1370年代，法军反攻，蒙帕齐耶被围困数月，最终被查理五世的将领贝尔特朗·杜·盖克兰攻克。攻城战中，法军用投石机摧毁了教堂的钟楼顶部，后来又重建为更具哥特风格的模样。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1562年至1598年的法国宗教战争</strong>，则让蒙帕齐耶再次陷入血与火。这座巴斯蒂德的居民大多仍信奉天主教，但周边乡村的新教胡格诺派势力强大。1574年，胡格诺派军队突袭蒙帕齐耶，<strong>屠杀了近三百名天主教徒</strong>，并将教堂洗劫一空。此后的二十年里，城市反复易手，直到亨利四世颁布《南特敕令》才恢复平静。今天，走在蒙帕齐耶的街巷中，仍能看到许多房屋的墙壁上嵌有弹孔和被刀砍过的痕迹；教堂内的彩绘玻璃窗在宗教战争中被打碎，后来只装上了简单的透明玻璃，仿佛故意保留那段沉默的记忆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1789年法国大革命期间</strong>，蒙帕齐耶的市政厅成为当地革命委员会的所在地。广场上的“自由树”被种下，但从未生根——正如许多小城在国家变革中的犹疑。值得注意的是，蒙帕齐耶的监狱曾关押过一位名叫<strong>让-巴蒂斯特·卡里埃</strong>的雅各宾派特派员，他因在南特推行“共和国婚姻”（将囚犯捆绑后溺死）而臭名昭著，但在蒙帕齐耶的短暂关押期间，据传他写下了忏悔日记，后来遗失了。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 阿尚博·德·格拉伊：百年战争的影子领主</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿尚博·德·格拉伊（Archambaud de Grailly，约1330–1376）</strong>是蒙帕齐耶历史上最具戏剧性的领主。他出身于阿基坦的贵族世家，继承了“德·格拉伊”这个姓氏意味着他同时效忠于英格兰国王和法国国王——这是百年战争初期许多阿基坦领主的典型困境。1356年，他追随黑王子在普瓦捷战役中冲锋陷阵，亲手俘虏了一位法国伯爵，因此被爱德华三世授予蒙帕齐耶及其周边十余个村庄的统治权。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但阿尚博的野心不止于此。他拒绝向法国国王查理五世缴纳贡金，并在1370年公开宣布蒙帕齐耶为“英格兰自由城”。<strong>查理五世派兵围城时，阿尚博亲自率领三十名骑士从城墙的暗门冲出，奇袭法军营地</strong>，焚烧了敌人的攻城器械。这场以少胜多的战斗让他名声大噪，但最终法军仍以人数优势攻破城池。阿尚博被俘后，被押送到巴黎的夏特莱监狱，两年后死于狱中。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我生为蒙帕齐耶的领主，死亦为它的影子。当钟楼的钟声响起，我便能听见自己的马蹄声。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 据传为阿尚博·德·格拉伊在囚室中写下的最后一封信</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天，在蒙帕齐耶市政厅二楼的一间小博物馆里，展示着一副锈蚀的铁手套，据说是阿尚博在最后一战中所戴。当地老人说，每逢暴风雨夜，广场的拱廊下会响起铁靴的脚步声——那是阿尚博的幽灵仍在巡视他的城市。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 让·塞克雷：用笔杆子守护巴斯蒂德的学者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说阿尚博是蒙帕齐耶的军事守护者，那么<strong>让·塞克雷（Jean Secret，1914–2006）</strong>则是它的精神守护者。这位出生于佩里戈尔地区的法国历史学家，终其一生研究并保护多尔多涅的中世纪遗产，而蒙帕齐耶是他倾注心血最多的地方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪50年代，蒙帕齐耶的老城区正面临被现代规划摧毁的危险：当地政府打算拓宽街道以让汽车通行，拆除部分拱廊以建设停车场。<strong>正是让·塞克雷的愤怒发声扭转了局面</strong>。他在《南方报》上发表长篇檄文《不要阉割我们的巴斯蒂德》，用考古学证据指出拆毁拱廊等同于“砍断城市的长矛”。他联合法国艺术史学会、文化部，最终说服政府放弃改造计划，并将整个老城区列为历史保护区。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞克雷更重要的贡献是<strong>重新发掘了蒙帕齐耶的建筑档案</strong>。他在市政厅阁楼里翻出一堆发霉的羊皮纸，上面记录了13世纪末的土地契约、市场税收和房屋转让。通过这些文件，他复原了蒙帕齐耶最初的土地分配方案：每块宅基地长20米、宽10米，正对街道的前半部分必须建成带拱廊的商铺，后半部分则是住宅和庭院。这项研究让蒙帕齐耶成为欧洲中世纪城市规划的经典案例，被写入多部建筑史教材。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞克雷晚年住在蒙帕齐耶广场边的一栋石头房子里，他每天傍晚都会去拱廊下散步，跟游客聊城市的历史。<strong>2006年他去世时，整个蒙帕齐耶的居民自发为他送葬</strong>，灵柩绕广场三周后才抬往墓地——这是中世纪以来蒙帕齐耶为领主举行的最高规格葬礼。如今，广场上的一块铜牌刻着他的名字，上面写着：“他曾是我们的眼睛，去看清过去的脉络。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣路易的井与午夜的白衣女子</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">蒙帕齐耶广场西南角有一口古老的石井，刻着<strong>1284</strong>年的字样。传说，在百年战争期间，一名法国小骑士被英军俘虏，关在钟楼的地下室里。他每晚用铁链敲击墙壁，给躲在井底的情人——一位名叫艾米丽的本地姑娘——发送信号。艾米丽用绳索吊下面包和水，但始终救不出他。在围城结束的前一夜，英军决定处决所有囚犯。艾米丽从井中爬出，穿上祖父留下的白色锁子甲，混入英军军营，用匕首割断了十根火绳，让法军得以趁黑攻入。<strong>但她自己却中箭身亡，尸体沉入了那口井中。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此后，每到满月之夜，人们都看见一个穿白衣的女人从井边飘过，手里捧着一个干面包。如果她朝你微笑，就意味着城市的谷物将丰收；如果她哭泣，则预示旱灾或战争。当地人在井沿上常年摆放一束麦穗，以表敬意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个有趣的习俗是 <strong>“拱廊下的棋局”</strong> 。蒙帕齐耶的居民至今保留着一个传统：每周六下午，广场拱廊下会举行露天国际象棋比赛，棋盘由黑白相间的石块嵌入地面，棋子则用木头雕刻成中世纪骑士、教士和城堡的形状。据说，这是为了纪念当年在黑王子军营中下棋解闷的士兵们。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂蒙帕齐耶，就是读懂中世纪欧洲城市如何用完美的几何布局包裹住最混乱的人间烟火。它的每条街都笔直得近乎固执，仿佛在说：战争、瘟疫、革命，都无法让这座“和平之山”变歪一寸。而阿尚博的铁手套、让·塞克雷的旧眼镜、白衣女子的井——这些细碎的光点，让一座石城有了体温。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在广场中央，清晨的光从拱廊的缝隙中漏下来，像某种古老的日晷；你会明白，这不是一座被保护在玻璃罩里的标本，而是活着的记忆。每一位走在这里的旅人，都成了蒙帕齐耶新的叙事者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/musee-de-l-air-et-de-l-espace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    法\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">法国航空航天博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Musée de l’Air et de l’Espace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chateau-de-fougeres\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    富\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">富热尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Fougères</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rochefort-en-terre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗什福尔昂泰尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rochefort-en-Terre</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "musee-de-l-air-et-de-l-espace",
+          "name": "法国航空航天博物馆",
+          "englishName": "Musée de l’Air et de l’Espace"
+        },
+        {
+          "slug": "chateau-de-fougeres",
+          "name": "富热尔城堡",
+          "englishName": "Château de Fougères"
+        },
+        {
+          "slug": "rochefort-en-terre",
+          "name": "罗什福尔昂泰尔",
+          "englishName": "Rochefort-en-Terre"
+        }
+      ]
+    }
+  ]
+}

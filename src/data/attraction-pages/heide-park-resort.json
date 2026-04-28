@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "索尔陶（Soltau）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "海德公园度假村",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/eilenriede-city-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃伦里德城市森林</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eilenriede City Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/trier-roman-monuments\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特里尔古罗马遗迹</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roman Monuments of Trier</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wuerzburg-residence\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维尔茨堡主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Würzburg Residence</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lohr-am-main-snow-white\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    美\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">美因河畔洛尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lohr am Main</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/topography-of-terror\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    恐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">恐怖地形图</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Topography of Terror</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eilenriede-city-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃伦里德城市森林</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eilenriede City Forest</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
+        {
+          "slug": "lohr-am-main-snow-white",
+          "name": "美因河畔洛尔",
+          "englishName": "Lohr am Main"
+        },
+        {
+          "slug": "topography-of-terror",
+          "name": "恐怖地形图",
+          "englishName": "Topography of Terror"
+        },
         {
           "slug": "eilenriede-city-forest",
           "name": "埃伦里德城市森林",
           "englishName": "Eilenriede City Forest"
-        },
-        {
-          "slug": "trier-roman-monuments",
-          "name": "特里尔古罗马遗迹",
-          "englishName": "Roman Monuments of Trier"
-        },
-        {
-          "slug": "wuerzburg-residence",
-          "name": "维尔茨堡主教宫",
-          "englishName": "Würzburg Residence"
         }
       ]
     }

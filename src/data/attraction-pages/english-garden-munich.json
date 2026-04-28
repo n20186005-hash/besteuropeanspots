@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "英国花园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/herrenberg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    海\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">海伦堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Herrenberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eiserner-steg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    铁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">铁桥（法兰克福铁桥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eiserner Steg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stralsund-hanseatic-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施特拉尔松德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stralsund</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/new-town-hall-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新市政厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Town Hall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/externsteine-sandstone-formations\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃克斯施泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Externsteine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wertheim-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦尔特海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wertheim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "herrenberg-old-town",
-          "name": "海伦堡",
-          "englishName": "Herrenberg"
+          "slug": "new-town-hall-munich",
+          "name": "新市政厅",
+          "englishName": "New Town Hall"
         },
         {
-          "slug": "eiserner-steg",
-          "name": "铁桥（法兰克福铁桥）",
-          "englishName": "Eiserner Steg"
+          "slug": "externsteine-sandstone-formations",
+          "name": "埃克斯施泰因",
+          "englishName": "Externsteine"
         },
         {
-          "slug": "stralsund-hanseatic-history",
-          "name": "施特拉尔松德",
-          "englishName": "Stralsund"
+          "slug": "wertheim-history",
+          "name": "韦尔特海姆",
+          "englishName": "Wertheim"
         }
       ]
     }

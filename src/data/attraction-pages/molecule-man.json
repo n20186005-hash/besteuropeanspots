@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "分子人",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gotha\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哥达</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gotha</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kulturforum-berlin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    文\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">文化论坛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kulturforum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/all-saints-church-wittenberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维滕堡万圣教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">All Saints' Church, Wittenberg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gorlitz-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格尔利茨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Görlitz Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/babenhausen-medieval-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴本豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Babenhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flensburg-fjord-rum-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗伦斯堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flensburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gotha",
-          "name": "哥达",
-          "englishName": "Gotha"
+          "slug": "gorlitz-old-town",
+          "name": "格尔利茨老城",
+          "englishName": "Görlitz Old Town"
         },
         {
-          "slug": "kulturforum-berlin",
-          "name": "文化论坛",
-          "englishName": "Kulturforum"
+          "slug": "babenhausen-medieval-town",
+          "name": "巴本豪森",
+          "englishName": "Babenhausen"
         },
         {
-          "slug": "all-saints-church-wittenberg",
-          "name": "维滕堡万圣教堂",
-          "englishName": "All Saints' Church, Wittenberg"
+          "slug": "flensburg-fjord-rum-old-town",
+          "name": "弗伦斯堡",
+          "englishName": "Flensburg"
         }
       ]
     }

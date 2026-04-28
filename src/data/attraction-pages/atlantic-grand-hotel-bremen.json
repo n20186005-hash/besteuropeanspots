@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "大西洋格兰德不来梅酒店",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hirschhorn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希尔施霍恩（内卡河谷的珍珠）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hirschhorn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/altdeutsches-haus-1604\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老德国屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altdeutsches Haus (1604)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marburg-old-town-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马尔堡老城与伯爵城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marburg Old Town and Landgrafenschloss</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/odeonsplatz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    音\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">音乐厅广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Odeonsplatz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/orienburg-palace-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥拉宁堡宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Oranienburg Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-salem-abbey-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨勒姆修道院与王宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Salem</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hirschhorn",
-          "name": "希尔施霍恩（内卡河谷的珍珠）",
-          "englishName": "Hirschhorn"
+          "slug": "odeonsplatz",
+          "name": "音乐厅广场",
+          "englishName": "Odeonsplatz"
         },
         {
-          "slug": "altdeutsches-haus-1604",
-          "name": "老德国屋",
-          "englishName": "Altdeutsches Haus (1604)"
+          "slug": "orienburg-palace-gardens",
+          "name": "奥拉宁堡宫",
+          "englishName": "Oranienburg Palace"
         },
         {
-          "slug": "marburg-old-town-castle-history",
-          "name": "马尔堡老城与伯爵城堡",
-          "englishName": "Marburg Old Town and Landgrafenschloss"
+          "slug": "schloss-salem-abbey-palace",
+          "name": "萨勒姆修道院与王宫",
+          "englishName": "Schloss Salem"
         }
       ]
     }

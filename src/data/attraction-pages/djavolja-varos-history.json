@@ -1,0 +1,85 @@
+{
+  "slug": "djavolja-varos-history",
+  "template": "history",
+  "metadata": {
+    "title": "魔鬼城历史溯源｜塞尔维亚红色石柱群的前世今生与神秘传说",
+    "description": "塞尔维亚南部隐藏着一片诡异石林：202根头顶巨石的红色土柱，被当地人称为“魔鬼城”。追溯其地质形成、中世纪战争与奥斯曼记忆，揭开地球深处的古老密码。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "塞尔维亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "库尔舒姆利亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "魔鬼城",
+      "href": "/attractions/djavolja-varos-history"
+    }
+  ],
+  "hero": {
+    "title": "魔鬼城・Đavolja Varoš・塞尔维亚・库尔舒姆利亚",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在塞尔维亚南部托普利卡河谷深处，<strong>202根赤红色土柱</strong>从荒芜山坡拔地而起，每根顶端都顶着一块黑色巨石，犹如无数沉默的哨兵。当地塞尔维亚人称之为<strong>Đavolja Varoš</strong>——“魔鬼的城市”。这片石柱群并非人工雕刻，而是数百万年水土侵蚀的杰作，但从第一眼起，它们就承载了远超地质学意义的黑暗传说。抛开游玩攻略，走进魔鬼城的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">魔鬼城</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Đavolja Varoš</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Đavolja Varoš</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">塞尔维亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">库尔舒姆利亚</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魔鬼城所在的库尔舒姆利亚地区，是人类文明最古老的十字路口之一。<strong>公元前3世纪</strong>，伊利里亚部落便在此定居，留下简陋的石圈祭坛。<strong>公元1世纪</strong>罗马人征服此地，修建连接亚得里亚海与多瑙河的军事大道，至今在石柱群附近仍可找到罗马路基石。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而“魔鬼城”这个名字源于<strong>17世纪奥斯曼帝国</strong>统治时期。当时塞尔维亚语中“đavo”（魔鬼）与“varoš”（城镇）组合，因为牧民看到这些参差不齐的石柱在夕阳下投出狰狞影子，认定这是魔鬼建造的城池。<strong>地质学家更晚才给出科学解释</strong>：原本是火山灰与冲积土构成的松软岩层，在风雨侵蚀下，顶部较硬的安山岩保护了下部松土，形成今日的“蘑菇”状奇景。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1895年</strong>，塞尔维亚地理学家<strong>约万·茨维伊奇</strong>（Jovan Cvijić）首次将魔鬼城纳入欧洲岩溶地貌研究。他在笔记中写道：“这里的每一根石柱仿佛都是大地流出的泪滴，凝固成永恒。”但当地人坚称，在雷雨交加的夜晚，能听到石柱间传来低沉的号角声。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 中世纪塞尔维亚王国与奥斯曼鲜血</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">距魔鬼城不到15公里，坐落着<strong>圣尼古拉修道院</strong>（Manastir Sv. Nikole），建于<strong>1168年</strong>，是斯特凡·尼曼雅一世（Stefan Nemanja I）捐建的东正教圣地。<strong>1389年科索沃战役</strong>后，奥斯曼军队沿托普利卡河谷北上，修道院被焚毁，修士们逃入魔鬼城石林躲避屠杀。至今石柱根部可以找到被烟熏黑的痕迹，那是避难者生火的残留。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 18世纪奥地利-土耳其战争</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1717年</strong>，奥地利军队在萨伏伊亲王欧根指挥下短暂占领库尔舒姆利亚。士兵们被魔鬼城吓破胆，拒绝夜间行军。一位奥地利军官在日记中写道：<strong>“月光下那些石柱活像女巫的手指，指向天空诅咒入侵者。”</strong> 奥地利人撤退前，曾试图用火药炸毁几根石柱以破除“邪气”，但只留下几个浅坑——这便是如今石柱群旁那些不规则小洞的来历。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 二战游击队秘密据点</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1941-1944年</strong>，铁托领导的南斯拉夫游击队将魔鬼城作为隐蔽补给站。纵横交错的石林缝隙中藏匿了数千发子弹和医药包。德军虽多次扫荡，却不敢深入——传闻有士兵误入石林后失踪，三天后被发现吊在一根石柱的顶端巨石下，死因不明。当地居民至今称那些石柱为“警察柱”，因为游击队员曾利用它们监视山下公路。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. “地质诗人”约万·茨维伊奇（Jovan Cvijić）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约万·茨维伊奇（<strong>1865–1927</strong>）是塞尔维亚最伟大的地质学家，也是贝尔格莱德大学的奠基人之一。他对魔鬼城的痴迷贯穿其学术生涯。</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\"><strong>初遇</strong>：<strong>1893年</strong>，茨维伊奇为撰写博士论文首次来到魔鬼城。他骑马从库尔舒姆利亚出发，走了整整一天。在笔记中他写道：<strong>“这些土柱不像中国的喀斯特锥峰，也不像美国犹他州的石林——它们有生命，像一群匍匐在地的巨兽，头顶承载着千年的沉默。”</strong></li>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\"><strong>命名争议</strong>：茨维伊奇坚持使用“侵蚀土柱”（erosion pillars）这个科学术语，反对“魔鬼城”这个迷信称呼。他在<strong>《巴尔干半岛喀斯特现象》</strong>（1898年）中写道：<strong>“大地不是魔鬼的居所，而是水的雕刻作品——每一滴雨都是时间的刻刀。”</strong> 然而当地神父强烈反对，认为否定魔鬼的存在就是否定教会权威。茨维伊奇最终妥协，在专著中同时标注民间名称。</li>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\"><strong>轶事</strong>：<strong>1912年巴尔干战争</strong>期间，茨维伊奇已是塞尔维亚科学院院长。他亲自组织学生对魔鬼城进行三维测绘，绘制了当时欧洲最精细的侵蚀地貌图。战后他却将图纸锁进抽屉，从未发表。据说他担心外人掌握细节后会开发旅游，破坏那里的幽静与“原始神灵”。直到<strong>1927年他去世后</strong>，图纸才被学生发现，如今保存在塞尔维亚自然历史博物馆。</li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 流亡诗人米洛什·茨尔年斯基（Miloš Crnjanski）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞尔维亚现代主义诗人米洛什·茨尔年斯基（<strong>1893–1977</strong>）在<strong>《托普利卡组诗》</strong>中，将魔鬼城化作民族苦难的象征。</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\"><strong>流亡记忆</strong>：<strong>1941年纳粹入侵南斯拉夫后</strong>，茨尔年斯基流亡伦敦。夜深人静时，他反复梦见童年见过的石柱。在诗中他写道：<strong>“那些石柱是塞尔维亚的肋骨，每一根都指向天空，却没有一根能撑起塌陷的天穹。”</strong> 他将魔鬼城与<strong>科索沃战役</strong>的失败、<strong>奥斯曼五百年的奴役</strong>联系起来，认为这片土地流了太多血，连泥土的盐分都变成了殷红色。</li>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\"><strong>回响</strong>：<strong>1965年</strong>，茨尔年斯基回国后第一件事就是重返魔鬼城。据说他在最大的那根“皇帝柱”下站立了整整一个小时，一言不发，最后对陪同的作家说：<strong>“我看到了真理——不是上帝，也不是魔鬼，而是大地无声的忍耐。”</strong> 他的这段经历后来被收录在回忆录《星之尘埃》中，成为塞尔维亚文学史上著名的“石柱默想”场景。</li>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>“在魔鬼城过夜的人，会被石头吃掉影子。”</strong></blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——当地塞尔维亚牧羊人俗语</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说一：魔鬼的婚礼</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说很久以前，一位美丽的牧羊女被魔鬼选中为新娘。她拒绝后，魔鬼暴怒，用尾巴抽打大地，泥土便裂开成柱状；他又往每根土柱上扔了块巨石，想压碎所有反抗的灵魂。女孩逃进圣尼古拉修道院，修女们用圣水泼向石林，于是石柱永远停在了半成型状态——既没有合拢成山，也没有塌成平地。<strong>每年春分</strong>，牧羊人能看到石柱顶部渗出露珠，他们相信那是女孩的眼泪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说二：石柱审判</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在奥斯曼时代，土耳其官员曾在这里处决塞尔维亚起义者。传说被绞死的人会变成石柱，而那颗压顶的石块是他们的罪孽。如果一个善良的人靠近，石柱会微微摇晃，发出呜咽声；若是坏人走近，石柱则纹丝不动。<strong>直到今天</strong>，有些老人仍会在月圆之夜去魔鬼城“问卜”：他们面朝石柱，倒退着走三步，若听到风声突然变大，就代表好运将至。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说三：消失的井</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">石林中心曾经有一口深不见底的井。<strong>1790年</strong>，一名法国旅行者留下记录：他用绳子放下蜡烛，在20米深处看到井壁上有古斯拉夫文的祈祷词。<strong>1887年</strong>，一场地震后井口被塌方掩埋。但村民坚信，井底连接着地狱，那些石柱就是从井里长出来的“地狱烟囱”。每逢干旱，他们仍会到原址献上黑面包和葡萄酒，请魔鬼“收起怒火，放出雨水”。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魔鬼城不是一座城，却比任何城堡都更深刻地铭记着塞尔维亚南部的血色记忆。从罗马军靴到奥斯曼弯刀，从游击队藏身的石缝到诗人流亡的暗夜，<strong>每一根石柱都是一根钉入大地的历史支柱</strong>，支撑着这片土地无数被湮没的哭声与祈祷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的价值不在于壮美，而在于<strong>荒芜的诚实</strong>——没有宫殿、没有绘画、没有文字，只有红色土壤与黑石，用最沉默的方式说出最暴烈的故事。当你穿过那片石林，砂砾在脚下吱呀作响，那是两百万年风雨、五百年征服、一百年战争和无数个夜晚的传说在对话。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</strong></p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/studenica-monastery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯图代尼察修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Studenica Monastery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/soko-grad-fortress-sokobanja\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索科堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Soko Grad</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ram-fortress\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉姆要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ram Fortress</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "studenica-monastery",
+          "name": "斯图代尼察修道院",
+          "englishName": "Studenica Monastery"
+        },
+        {
+          "slug": "soko-grad-fortress-sokobanja",
+          "name": "索科堡",
+          "englishName": "Soko Grad"
+        },
+        {
+          "slug": "ram-fortress",
+          "name": "拉姆要塞",
+          "englishName": "Ram Fortress"
+        }
+      ]
+    }
+  ]
+}

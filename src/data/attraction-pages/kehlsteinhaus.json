@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "贝希特斯加登",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "鹰巢",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/berlin-world-time-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林世界时钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">World Time Clock (Weltzeituhr)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/annaberg-buchholz-ore-mountains-mining-woodcarving\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安纳贝格-布赫霍尔茨（厄尔士山脉的矿业与木雕中心）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Annaberg-Buchholz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-harzburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴德哈尔茨堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Harzburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/landshut-trausnitz-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰茨胡特（特劳斯尼茨城堡与砖砌哥特）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landshut (Trausnitz Castle and Brick Gothic)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bavarian-state-opera\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴伐利亚国家歌剧院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bavarian State Opera</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/esslingen-medieval-timber-frame-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃斯林根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Esslingen am Neckar</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "berlin-world-time-clock",
-          "name": "柏林世界时钟",
-          "englishName": "World Time Clock (Weltzeituhr)"
+          "slug": "landshut-trausnitz-castle-history",
+          "name": "兰茨胡特（特劳斯尼茨城堡与砖砌哥特）",
+          "englishName": "Landshut (Trausnitz Castle and Brick Gothic)"
         },
         {
-          "slug": "annaberg-buchholz-ore-mountains-mining-woodcarving",
-          "name": "安纳贝格-布赫霍尔茨（厄尔士山脉的矿业与木雕中心）",
-          "englishName": "Annaberg-Buchholz"
+          "slug": "bavarian-state-opera",
+          "name": "巴伐利亚国家歌剧院",
+          "englishName": "Bavarian State Opera"
         },
         {
-          "slug": "bad-harzburg",
-          "name": "巴德哈尔茨堡",
-          "englishName": "Bad Harzburg"
+          "slug": "esslingen-medieval-timber-frame-town",
+          "name": "埃斯林根",
+          "englishName": "Esslingen am Neckar"
         }
       ]
     }

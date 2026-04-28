@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "鱼喷泉",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ehrenbreitstein-fortress\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科布伦茨埃伦布赖特施泰因要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ehrenbreitstein Fortress</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorlitz-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格尔利茨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Görlitz Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/angel-of-peace-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    和\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">和平天使</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Angel of Peace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/speyer-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/main-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    美\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">美因塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Main Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kunsthalle-bremen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    不\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">不来梅美术馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kunsthalle Bremen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "ehrenbreitstein-fortress",
-          "name": "科布伦茨埃伦布赖特施泰因要塞",
-          "englishName": "Ehrenbreitstein Fortress"
+          "slug": "speyer-cathedral",
+          "name": "施派尔大教堂",
+          "englishName": "Speyer Cathedral"
         },
         {
-          "slug": "gorlitz-old-town",
-          "name": "格尔利茨老城",
-          "englishName": "Görlitz Old Town"
+          "slug": "main-tower",
+          "name": "美因塔",
+          "englishName": "Main Tower"
         },
         {
-          "slug": "angel-of-peace-munich",
-          "name": "和平天使",
-          "englishName": "Angel of Peace"
+          "slug": "kunsthalle-bremen",
+          "name": "不来梅美术馆",
+          "englishName": "Kunsthalle Bremen"
         }
       ]
     }

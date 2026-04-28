@@ -1,0 +1,85 @@
+{
+  "slug": "popeye-village-history",
+  "template": "history",
+  "metadata": {
+    "title": "大力水手村历史溯源｜马耳他电影小镇的前世今生与好莱坞传奇",
+    "description": "马耳他绝美海湾边，一座为1980年电影《大力水手》建造的实景木屋村，如今成为地中海最独特的电影文化遗产。走进Popeye Village的尘封往事，遇见好莱坞与马耳他的时光传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "马耳他",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "梅列哈",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "大力水手村",
+      "href": "/attractions/popeye-village-history"
+    }
+  ],
+  "hero": {
+    "title": "大力水手村・Popeye Village・马耳他・梅列哈",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>马耳他梅列哈海岸的锚湾</strong>，藏着一座色彩斑斓的木质童话镇——它并非百年古迹，而是1980年好莱坞为《大力水手》电影一砖一瓦搭建的实景布景。四十年风雨后，木屋依旧伫立，海浪依旧轻拍，那个吃菠菜的卡通水手在这里拥有了最真实的人间模样。抛开游玩攻略，走进大力水手村的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">大力水手村</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Popeye Village</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Popeye Village</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">马耳他</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">梅列哈</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">大力水手村的诞生，源于一场<strong>跨国电影冒险</strong>。1979年，派拉蒙影业决定将经典漫画《大力水手》搬上大银幕，导演罗伯特·奥特曼和制片人四处寻找一个<strong>与世隔绝、阳光充沛的海湾</strong>，用来建造水手村“甜菜湾”（Sweethaven）的实景。马耳他政府当时正渴望通过电影吸引国际投资，双方一拍即合。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>选址定在了梅列哈的锚湾</strong>（Anchor Bay）。这片海湾三面环崖，碧蓝海水如翡翠，原本只有几户渔民的简陋石屋。电影团队用<strong>八个月时间</strong>，从加拿大、瑞典和荷兰运来木材，在岸边搭建了19座色彩明快的木屋，搭配马耳他本土石灰岩地基。屋顶涂上红色、黄色、蓝色，窗户设计成圆形或弧形，完全复刻了漫画中的夸张风格。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>名字的由来</strong>颇为直白：电影上映后，当地人直接称之为“Popeye Village”。1980年电影杀青后，布景本应拆除，但马耳他政府发现这片彩色木屋意外成为游客趋之若鹜的打卡地，于是<strong>在1981年正式将其保留</strong>，并逐步修缮成主题公园。这里没有中世纪城堡的沧桑，却拥有一段属于<strong>电影工业与海岛风情的独特基因</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 一场票房失败的杰作</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1980年电影《大力水手》虽然耗资<strong>2000万美元</strong>（当时天价），但上映后票房惨淡，影评人也大多不买账。然而，<strong>大力水手村却意外成为电影遗产的幸存者</strong>。当时剧组留下的所有道具——水手波派的烟斗、奥利弗的连衣裙、温皮吃汉堡的模型——都被原封不动锁在木屋里。直到今天，游客还能走进“波派的小屋”，看到桌上放着一罐<strong>1980年产菠菜罐头</strong>（虽然是仿制品），仿佛时间凝固。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 飓风与重建</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1994年，一场罕见的<strong>地中海飓风</strong>袭击梅列哈，锚湾的几座木屋屋顶被掀翻，海浪冲垮了栈桥。马耳他政府一度考虑彻底关闭大力水手村，但在当地居民的联名请愿下，<strong>1996年启动全面修复</strong>。修复团队不仅加固了地基，还按照原设计图纸重新粉刷，甚至从挪威进口了更耐腐蚀的松木。这一次重建让大力水手村真正成为<strong>马耳他文化遗产的一部分</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 从布景到“活的博物馆”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2000年后，大力水手村转型为<strong>沉浸式电影体验地</strong>。每天上午十点半，演员们穿着戏服在村广场上演“奥利弗被绑架”的即兴喜剧，游客可以扔水球、举菠菜罐头。村庄后方的<strong>电影博物馆</strong>里，陈列着当时使用的拍摄脚本、摄像机模型和导演奥特曼的笔记。<strong>2018年</strong>，马耳他政府正式将大力水手村列为“国家级电影遗产保护单位”，与古城姆迪纳的罗马遗址并列为官方推荐历史景点。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 罗宾·威廉姆斯：告别好莱坞的治愈之地</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>罗宾·威廉姆斯</strong>在1980年扮演大力水手波派时，正处于事业转型期——此前他因《莫克与明迪》剧集成名，但电影界还只把他当“电视笑星”。导演奥特曼力排众议，坚持让威廉姆斯出演，并说：“<strong>他的眼睛里既有孩童的天真，又有成年人的疲惫</strong>。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拍摄期间，威廉姆斯住在梅列哈一家小旅馆，每天清晨步行到锚湾。他会在化妆间里即兴创作段子，把马耳他渔民的口头禅编成台词。当地一位老人回忆：“<strong>罗宾经常坐在海湾的石头上，对着海浪自言自语</strong>，我们都以为他疯了，其实他在背剧本。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>最广为流传的轶事</strong>是：杀青那天，威廉姆斯爬上村中最高的木屋屋顶，用马耳他语大喊了三声“<strong>菠菜！</strong>”，然后跳进海里，游到对面的小岛。剧组找了半天才发现他躺在岛上晒太阳。他说：“<strong>这座村庄让我重新相信，电影可以是玩具，不是枷锁。</strong>”多年后，威廉姆斯在自传中写道：“<strong>马耳他的蓝色，是我见过最温柔的监狱。</strong>”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 罗伯特·奥特曼：叛逆导演的“失败杰作”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">导演<strong>罗伯特·奥特曼</strong>是好莱坞出了名的“反类型”导演，他要把《大力水手》拍成一部<strong>带有西部片荒诞感的音乐喜剧</strong>。为此，他坚持不用特效，所有木屋必须手工搭建，并要求演员在马耳他本地学会撑船、捕捞和用马耳他语打招呼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>最疯狂的举动</strong>：奥特曼在拍摄期间禁止任何剧组人员打电话回美国，说“<strong>我们要活在水手的世界里</strong>”。他甚至招募了30多名马耳他渔民做群众演员，让他们穿着19世纪的粗布麻衣，在镜头前表演真切的捕鱼动作。这些渔民后来成了<strong>大力水手村的第一批“守护者”</strong>——电影拍完，他们自愿留下看守布景，直到政府接手。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，大力水手村的售票处墙上挂着奥特曼的签名海报，上面写着：“<strong>给甜菜湾的孩子们——你们教会我，盐比钞票更值钱。</strong>”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>锚湾的“幽灵水手”传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在梅列哈老渔民口中，锚湾在电影建成前就流传着一个故事：<strong>每个满月之夜，会有一位穿着油腻羊毛衫、叼着烟斗的巨人水手从海浪中站起</strong>，他朝天空大喊一声“<strong>菠菜！</strong>”，然后消失不见。当地人说，那是一位葬身海底的船长，生前最爱吃菠菜，死后仍想寻找最鲜美的菜叶。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">电影开拍时，不少马耳他工人坚称在工地上听到过烟斗的<strong>咕噜声</strong>。<strong>更有趣的是</strong>：影片中波派吃菠菜变身时的“大力光环”特效，拍摄时用了一种<strong>绿色磷光粉</strong>，结果拍摄结束后，木屋墙壁上残留的磷光在夜晚会发出幽幽绿光。渔民们惊恐地说：“<strong>巨人水手真的来了！</strong>”剧组只好连夜清洗墙壁。如今，大力水手村的导游还会半开玩笑地告诉游客：“<strong>晚上别在波派卧室过夜——他的菠菜罐头会自己打开。</strong>”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">大力水手村不是一座有千年沉淀的古城，但它用<strong>四十年的光阴</strong>证明：当电影工业的浪漫与地中海的蔚蓝相遇，人造的布景也可以长成有灵魂的村落。这里保存的不仅是1980年的胶卷记忆，更是马耳他<strong>从渔村向电影拍摄胜地转型的活化石</strong>。每一块被海风侵蚀的木板，每一罐锈迹斑斑的菠菜罐头，都在诉说着好莱坞黄金年代的一次冒险。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座村庄，就是读懂一种<strong>关于“坚持”的人文精神</strong>——它是罗宾·威廉姆斯告别抑郁的疗伤地，是奥特曼对抗商业规则的试验场，也是马耳他渔民守护梦想的家园。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/salt-pans-of-xwejni\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈佐岛盐田</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Salt Pans of Xwejni</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mqabba-limestone-heritage-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    姆\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">姆卡巴</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mqabba</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/birgu-vittoriosa\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比尔古/维托里奥萨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Birgu (Vittoriosa)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "salt-pans-of-xwejni",
+          "name": "戈佐岛盐田",
+          "englishName": "Salt Pans of Xwejni"
+        },
+        {
+          "slug": "mqabba-limestone-heritage-park",
+          "name": "姆卡巴",
+          "englishName": "Mqabba"
+        },
+        {
+          "slug": "birgu-vittoriosa",
+          "name": "比尔古/维托里奥萨",
+          "englishName": "Birgu (Vittoriosa)"
+        }
+      ]
+    }
+  ]
+}

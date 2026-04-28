@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "诺伊鲁平 (Neuruppin)",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "昆斯特斯普林动物园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/meersburg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔斯堡旧城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meersburg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/speyer-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-ludwigslust-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    路\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">路德维希斯卢斯特宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ludwigslust Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/speicherstadt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    仓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">仓库城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speicherstadt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/trier-roman-monuments\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特里尔古罗马遗迹</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roman Monuments of Trier</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/annaberg-buchholz-mining-woodcarving-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安纳贝格-布赫霍尔茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Annaberg-Buchholz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "meersburg-old-town",
-          "name": "梅尔斯堡旧城",
-          "englishName": "Meersburg Old Town"
+          "slug": "speicherstadt",
+          "name": "仓库城",
+          "englishName": "Speicherstadt"
         },
         {
-          "slug": "speyer-cathedral",
-          "name": "施派尔大教堂",
-          "englishName": "Speyer Cathedral"
+          "slug": "trier-roman-monuments",
+          "name": "特里尔古罗马遗迹",
+          "englishName": "Roman Monuments of Trier"
         },
         {
-          "slug": "schloss-ludwigslust-history",
-          "name": "路德维希斯卢斯特宫",
-          "englishName": "Ludwigslust Palace"
+          "slug": "annaberg-buchholz-mining-woodcarving-history",
+          "name": "安纳贝格-布赫霍尔茨",
+          "englishName": "Annaberg-Buchholz"
         }
       ]
     }

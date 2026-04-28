@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "统帅堂",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bad-ems-spa-town-germany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特埃姆斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Ems</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buedingen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比丁根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Büdingen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/idar-oberstein-felsenkirche\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊德尔-奥伯施泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Idar-Oberstein</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/veste-coburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科堡要塞（弗兰肯的王冠）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Veste Coburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/konigssee\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    国\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">国王湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Königssee</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schmalkalden-city-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施马尔卡尔登</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schmalkalden</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bad-ems-spa-town-germany",
-          "name": "巴特埃姆斯",
-          "englishName": "Bad Ems"
+          "slug": "veste-coburg",
+          "name": "科堡要塞（弗兰肯的王冠）",
+          "englishName": "Veste Coburg"
         },
         {
-          "slug": "buedingen",
-          "name": "比丁根",
-          "englishName": "Büdingen"
+          "slug": "konigssee",
+          "name": "国王湖",
+          "englishName": "Königssee"
         },
         {
-          "slug": "idar-oberstein-felsenkirche",
-          "name": "伊德尔-奥伯施泰因",
-          "englishName": "Idar-Oberstein"
+          "slug": "schmalkalden-city-guide",
+          "name": "施马尔卡尔登",
+          "englishName": "Schmalkalden"
         }
       ]
     }

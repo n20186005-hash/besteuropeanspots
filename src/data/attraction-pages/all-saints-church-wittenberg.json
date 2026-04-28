@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "维滕堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "维滕堡万圣教堂",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burghausen-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博格豪森城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burghausen Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lorsch-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛尔施隐修院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lorsch Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/goslar-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈斯拉尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Goslar Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bad-driburg-spa-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特德里堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Driburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/landshut-trausnitz-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰茨胡特（特劳斯尼茨城堡与砖砌哥特）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landshut (Trausnitz Castle and Brick Gothic)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/platform-17-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    1\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">17号站台纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Platform 17 Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burghausen-castle-history",
-          "name": "博格豪森城堡",
-          "englishName": "Burghausen Castle"
+          "slug": "bad-driburg-spa-town",
+          "name": "巴特德里堡",
+          "englishName": "Bad Driburg"
         },
         {
-          "slug": "lorsch-abbey",
-          "name": "洛尔施隐修院",
-          "englishName": "Lorsch Abbey"
+          "slug": "landshut-trausnitz-castle-history",
+          "name": "兰茨胡特（特劳斯尼茨城堡与砖砌哥特）",
+          "englishName": "Landshut (Trausnitz Castle and Brick Gothic)"
         },
         {
-          "slug": "goslar-old-town",
-          "name": "戈斯拉尔老城",
-          "englishName": "Goslar Old Town"
+          "slug": "platform-17-memorial",
+          "name": "17号站台纪念碑",
+          "englishName": "Platform 17 Memorial"
         }
       ]
     }

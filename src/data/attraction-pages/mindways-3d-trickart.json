@@ -16,11 +16,11 @@
     },
     {
       "label": "荷兰",
-      "href": "/destinations/europe"
+      "href": "/destinations/helan"
     },
     {
       "label": "阿姆斯特丹",
-      "href": "/destinations/europe"
+      "href": "/destinations/helan"
     },
     {
       "label": "迷幻路径3D错觉艺术馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/valkenburg-castle-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    法\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">法尔肯堡废墟城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Valkenburg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/s-hertogenbosch-historic-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯海尔托亨博斯（或简称登博斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">'s-Hertogenbosch</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hoensbroek-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洪斯布鲁克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hoensbroek Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/leiden-university-city-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱顿大学城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leiden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/makkum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马库姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Makkum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/warmond-water-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦尔蒙德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Warmond</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "valkenburg-castle-ruins",
-          "name": "法尔肯堡废墟城堡",
-          "englishName": "Valkenburg Castle"
+          "slug": "leiden-university-city-history",
+          "name": "莱顿大学城",
+          "englishName": "Leiden"
         },
         {
-          "slug": "s-hertogenbosch-historic-centre",
-          "name": "斯海尔托亨博斯（或简称登博斯）",
-          "englishName": "'s-Hertogenbosch"
+          "slug": "makkum",
+          "name": "马库姆",
+          "englishName": "Makkum"
         },
         {
-          "slug": "hoensbroek-castle",
-          "name": "洪斯布鲁克城堡",
-          "englishName": "Hoensbroek Castle"
+          "slug": "warmond-water-village",
+          "name": "瓦尔蒙德",
+          "englishName": "Warmond"
         }
       ]
     }

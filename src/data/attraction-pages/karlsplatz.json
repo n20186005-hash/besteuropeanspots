@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "维也纳",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "卡尔广场",
@@ -62,7 +62,7 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stift-zwettl-austria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    茨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">茨韦特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stift Zwettl</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/landeck-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰德克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landeck Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/admont-abbey-library-ice-age-encounter\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德蒙特修道院图书馆（与冰河世纪的相遇）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Admont Abbey Library (Encounter with the Ice Age)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stift-zwettl-austria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    茨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">茨韦特尔修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stift Zwettl</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/innsbruck-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因斯布鲁克老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Innsbruck Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melk-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔克修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melk Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
           "slug": "stift-zwettl-austria",
@@ -70,14 +70,14 @@
           "englishName": "Stift Zwettl"
         },
         {
-          "slug": "landeck-castle",
-          "name": "兰德克城堡",
-          "englishName": "Landeck Castle"
+          "slug": "innsbruck-old-town",
+          "name": "因斯布鲁克老城",
+          "englishName": "Innsbruck Old Town"
         },
         {
-          "slug": "admont-abbey-library-ice-age-encounter",
-          "name": "阿德蒙特修道院图书馆（与冰河世纪的相遇）",
-          "englishName": "Admont Abbey Library (Encounter with the Ice Age)"
+          "slug": "melk-abbey",
+          "name": "梅尔克修道院",
+          "englishName": "Melk Abbey"
         }
       ]
     }

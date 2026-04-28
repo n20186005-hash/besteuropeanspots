@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "巴伐利亚国家博物馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schloss-weissenstein-pommersfelden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏森施泰因宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Weißenstein (Pommersfelden)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/soest-green-sandstone-medieval-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索斯特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Soest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/waren-mueritz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦（米里茨）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Waren (Müritz)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/externsteine-sandstone-formations\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃克斯施泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Externsteine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/warendorf\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦多夫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Warendorf</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stralsund-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施特拉尔松德老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stralsund Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "schloss-weissenstein-pommersfelden",
-          "name": "魏森施泰因宫",
-          "englishName": "Schloss Weißenstein (Pommersfelden)"
+          "slug": "externsteine-sandstone-formations",
+          "name": "埃克斯施泰因",
+          "englishName": "Externsteine"
         },
         {
-          "slug": "soest-green-sandstone-medieval-town-history",
-          "name": "索斯特",
-          "englishName": "Soest"
+          "slug": "warendorf",
+          "name": "瓦伦多夫",
+          "englishName": "Warendorf"
         },
         {
-          "slug": "waren-mueritz",
-          "name": "瓦伦（米里茨）",
-          "englishName": "Waren (Müritz)"
+          "slug": "stralsund-old-town",
+          "name": "施特拉尔松德老城",
+          "englishName": "Stralsund Old Town"
         }
       ]
     }

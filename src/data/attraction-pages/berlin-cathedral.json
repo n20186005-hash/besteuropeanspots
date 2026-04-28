@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林大教堂",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burg-eltz-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔茨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Eltz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wismar-hanseatic-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维斯马汉萨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wismar Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/weimar-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏玛老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Weimar Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gemaeldegalerie-berlin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gemäldegalerie</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lichtentaler-allee\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利希滕塔勒林荫道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lichtentaler Allee</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bremen-market-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    不\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">不莱梅集市广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bremen Market Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burg-eltz-history",
-          "name": "埃尔茨城堡",
-          "englishName": "Burg Eltz"
+          "slug": "gemaeldegalerie-berlin",
+          "name": "柏林画廊",
+          "englishName": "Gemäldegalerie"
         },
         {
-          "slug": "wismar-hanseatic-old-town",
-          "name": "维斯马汉萨老城",
-          "englishName": "Wismar Old Town"
+          "slug": "lichtentaler-allee",
+          "name": "利希滕塔勒林荫道",
+          "englishName": "Lichtentaler Allee"
         },
         {
-          "slug": "weimar-old-town",
-          "name": "魏玛老城",
-          "englishName": "Weimar Old Town"
+          "slug": "bremen-market-square",
+          "name": "不莱梅集市广场",
+          "englishName": "Bremen Market Square"
         }
       ]
     }

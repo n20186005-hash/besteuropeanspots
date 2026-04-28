@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "博物馆岛",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/andernach-medieval-town-cold-water-geyser\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安德纳赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andernach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/straubing-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施特劳宾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Straubing</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fritzlar-medieval-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里茨拉尔中世纪古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fritzlar</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pirna-saxon-switzerland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pirna</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alpirsbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔皮斯巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alpirsbach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/free-walking-tour-leipzig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱比锡免费步行导览</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Free Walking Tour Leipzig</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "andernach-medieval-town-cold-water-geyser",
-          "name": "安德纳赫",
-          "englishName": "Andernach"
+          "slug": "pirna-saxon-switzerland",
+          "name": "皮尔纳",
+          "englishName": "Pirna"
         },
         {
-          "slug": "straubing-old-town",
-          "name": "施特劳宾",
-          "englishName": "Straubing"
+          "slug": "alpirsbach",
+          "name": "阿尔皮斯巴赫",
+          "englishName": "Alpirsbach"
         },
         {
-          "slug": "fritzlar-medieval-town-history",
-          "name": "弗里茨拉尔中世纪古城",
-          "englishName": "Fritzlar"
+          "slug": "free-walking-tour-leipzig",
+          "name": "莱比锡免费步行导览",
+          "englishName": "Free Walking Tour Leipzig"
         }
       ]
     }

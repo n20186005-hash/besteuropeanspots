@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "曼海姆",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "桥猴",
@@ -62,17 +62,17 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rheinstein-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱茵施泰因城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rheinstein Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/liberation-hall-kelheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯尔海姆解放纪念堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Liberation Hall Kelheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melsungen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔松根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melsungen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bavarian-state-opera\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴伐利亚国家歌剧院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bavarian State Opera</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/three-rivers-passau\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕绍（三河交汇之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Passau</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melsungen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔松根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melsungen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "rheinstein-castle",
-          "name": "莱茵施泰因城堡",
-          "englishName": "Rheinstein Castle"
+          "slug": "bavarian-state-opera",
+          "name": "巴伐利亚国家歌剧院",
+          "englishName": "Bavarian State Opera"
         },
         {
-          "slug": "liberation-hall-kelheim",
-          "name": "凯尔海姆解放纪念堂",
-          "englishName": "Liberation Hall Kelheim"
+          "slug": "three-rivers-passau",
+          "name": "帕绍（三河交汇之城）",
+          "englishName": "Passau"
         },
         {
           "slug": "melsungen",

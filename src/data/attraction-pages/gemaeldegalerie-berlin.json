@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林画廊",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/angel-of-peace-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    和\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">和平天使</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Angel of Peace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wartburg-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦尔特堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wartburg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gelnhausen-kaiserpfalz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    盖\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">盖尔恩豪森（巴巴罗萨行宫）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gelnhausen (Kaiserpfalz)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schnoor-bremen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施诺尔区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schnoor</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-homburg-royal-spa-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特洪堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Homburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/besigheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝西希海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Besigheim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "angel-of-peace-munich",
-          "name": "和平天使",
-          "englishName": "Angel of Peace"
+          "slug": "schnoor-bremen",
+          "name": "施诺尔区",
+          "englishName": "Schnoor"
         },
         {
-          "slug": "wartburg-castle",
-          "name": "瓦尔特堡",
-          "englishName": "Wartburg Castle"
+          "slug": "bad-homburg-royal-spa-town",
+          "name": "巴特洪堡",
+          "englishName": "Bad Homburg"
         },
         {
-          "slug": "gelnhausen-kaiserpfalz",
-          "name": "盖尔恩豪森（巴巴罗萨行宫）",
-          "englishName": "Gelnhausen (Kaiserpfalz)"
+          "slug": "besigheim",
+          "name": "贝西希海姆",
+          "englishName": "Besigheim"
         }
       ]
     }

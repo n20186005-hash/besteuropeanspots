@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "魏恩贝格人民公园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lueneburg-heath\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕讷堡石楠花原</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lüneburg Heath</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/herrenhaeuser-gaerten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    海\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">海恩豪森花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Herrenhäuser Gärten</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museum-at-the-kulturbrauerei\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    K\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Kulturbrauerei博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museum at the Kulturbrauerei</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/potsdamer-platz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波茨坦广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Potsdamer Platz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wuerzburg-residence-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维尔茨堡主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Würzburg Residence</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ratzeburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉策堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ratzeburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lueneburg-heath",
-          "name": "吕讷堡石楠花原",
-          "englishName": "Lüneburg Heath"
+          "slug": "potsdamer-platz",
+          "name": "波茨坦广场",
+          "englishName": "Potsdamer Platz"
         },
         {
-          "slug": "herrenhaeuser-gaerten",
-          "name": "海恩豪森花园",
-          "englishName": "Herrenhäuser Gärten"
+          "slug": "wuerzburg-residence-history",
+          "name": "维尔茨堡主教宫",
+          "englishName": "Würzburg Residence"
         },
         {
-          "slug": "museum-at-the-kulturbrauerei",
-          "name": "Kulturbrauerei博物馆",
-          "englishName": "Museum at the Kulturbrauerei"
+          "slug": "ratzeburg",
+          "name": "拉策堡",
+          "englishName": "Ratzeburg"
         }
       ]
     }

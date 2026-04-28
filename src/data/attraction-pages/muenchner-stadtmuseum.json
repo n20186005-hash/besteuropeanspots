@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑城市博物馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blankenburg-harz-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布兰肯堡 (哈茨山脉)</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blankenburg (Harz)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tecklenburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特克伦堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tecklenburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schwerin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什未林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwerin Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/german-historical-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德国历史博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">German Historical Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hessenpark-open-air-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑森公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hessenpark Open Air Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/heppenheim-medieval-town-starkenburg-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑彭海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heppenheim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blankenburg-harz-city",
-          "name": "布兰肯堡 (哈茨山脉)",
-          "englishName": "Blankenburg (Harz)"
+          "slug": "german-historical-museum",
+          "name": "德国历史博物馆",
+          "englishName": "German Historical Museum"
         },
         {
-          "slug": "tecklenburg",
-          "name": "特克伦堡",
-          "englishName": "Tecklenburg"
+          "slug": "hessenpark-open-air-museum",
+          "name": "黑森公园",
+          "englishName": "Hessenpark Open Air Museum"
         },
         {
-          "slug": "schwerin-castle",
-          "name": "什未林城堡",
-          "englishName": "Schwerin Castle"
+          "slug": "heppenheim-medieval-town-starkenburg-ruins",
+          "name": "黑彭海姆",
+          "englishName": "Heppenheim"
         }
       ]
     }

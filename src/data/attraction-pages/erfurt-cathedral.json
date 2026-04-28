@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "埃尔福特",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "埃尔福特大教堂",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/meersburg-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔斯堡旧堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meersburg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/braunfels-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳恩费尔斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Braunfels Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-town-donauwoerth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多瑙沃特古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Town of Donauwörth</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/sendlinger-tor\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    森\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">森德灵门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sendlinger Tor</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wolfenbuettel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔芬比特尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wolfenbüttel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hartenfels-castle-torgau-spiral-staircase\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈滕费尔斯城堡（绝美螺旋阶梯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hartenfels Castle (Torgau)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "meersburg-castle-history",
-          "name": "梅尔斯堡旧堡",
-          "englishName": "Meersburg Castle"
+          "slug": "sendlinger-tor",
+          "name": "森德灵门",
+          "englishName": "Sendlinger Tor"
         },
         {
-          "slug": "braunfels-castle",
-          "name": "布劳恩费尔斯城堡",
-          "englishName": "Braunfels Castle"
+          "slug": "wolfenbuettel",
+          "name": "沃尔芬比特尔",
+          "englishName": "Wolfenbüttel"
         },
         {
-          "slug": "old-town-donauwoerth",
-          "name": "多瑙沃特古城",
-          "englishName": "Old Town of Donauwörth"
+          "slug": "hartenfels-castle-torgau-spiral-staircase",
+          "name": "哈滕费尔斯城堡（绝美螺旋阶梯）",
+          "englishName": "Hartenfels Castle (Torgau)"
         }
       ]
     }

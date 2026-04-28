@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "圣米歇尔教堂（慕尼黑）",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/leipzig-museum-of-fine-arts\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱比锡美术博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leipzig Museum of Fine Arts</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/michelstadt-fachwerkhaus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米歇尔施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Michelstadt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blankenburg-harz-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布兰肯堡 (哈茨山脉)</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blankenburg (Harz)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lorsch-abbey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛尔施隐修院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lorsch Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/altenburg-playing-cards-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔滕堡（纸牌游戏发源地）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altenburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/quedlinburg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奎德林堡老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Quedlinburg Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "leipzig-museum-of-fine-arts",
-          "name": "莱比锡美术博物馆",
-          "englishName": "Leipzig Museum of Fine Arts"
+          "slug": "lorsch-abbey-history",
+          "name": "洛尔施隐修院",
+          "englishName": "Lorsch Abbey"
         },
         {
-          "slug": "michelstadt-fachwerkhaus",
-          "name": "米歇尔施塔特",
-          "englishName": "Michelstadt"
+          "slug": "altenburg-playing-cards-city",
+          "name": "阿尔滕堡（纸牌游戏发源地）",
+          "englishName": "Altenburg"
         },
         {
-          "slug": "blankenburg-harz-city",
-          "name": "布兰肯堡 (哈茨山脉)",
-          "englishName": "Blankenburg (Harz)"
+          "slug": "quedlinburg-old-town",
+          "name": "奎德林堡老城",
+          "englishName": "Quedlinburg Old Town"
         }
       ]
     }

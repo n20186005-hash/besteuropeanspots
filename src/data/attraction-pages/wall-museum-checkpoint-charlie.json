@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "查理检查站墙博物馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burg-vischering\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    菲\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">菲舍林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Vischering</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alter-kranen-lueneburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕讷堡港的古起重机</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Crane in the Lüneburg Harbor</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kamenz-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡门茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kamenz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/sponkenhog-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施彭肯霍格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Spönkenhog Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bremen-wallanlagen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    不\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">不来梅城墙公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bremen Wallanlagen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/checkpoint-charlie\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查理检查站</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Checkpoint Charlie</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burg-vischering",
-          "name": "菲舍林城堡",
-          "englishName": "Burg Vischering"
+          "slug": "sponkenhog-castle",
+          "name": "施彭肯霍格城堡",
+          "englishName": "Spönkenhog Castle"
         },
         {
-          "slug": "alter-kranen-lueneburg",
-          "name": "吕讷堡港的古起重机",
-          "englishName": "Old Crane in the Lüneburg Harbor"
+          "slug": "bremen-wallanlagen",
+          "name": "不来梅城墙公园",
+          "englishName": "Bremen Wallanlagen"
         },
         {
-          "slug": "kamenz-old-town",
-          "name": "卡门茨",
-          "englishName": "Kamenz"
+          "slug": "checkpoint-charlie",
+          "name": "查理检查站",
+          "englishName": "Checkpoint Charlie"
         }
       ]
     }

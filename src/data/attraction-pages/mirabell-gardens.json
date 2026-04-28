@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "萨尔茨堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "米拉贝尔花园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dornbirn-mountains-modernity\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多恩比恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dornbirn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rust-stork-wine-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁斯特（屋顶上筑满鹳鸟巢穴的甜酒之乡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rust</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/durnstein-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜恩施泰因城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dürnstein Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-anton-am-arlberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔贝格的圣安东</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St. Anton am Arlberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stift-goettweig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格特维克修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Göttweig Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hochosterwitz-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍赫奥斯特维茨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hochosterwitz Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dornbirn-mountains-modernity",
-          "name": "多恩比恩",
-          "englishName": "Dornbirn"
+          "slug": "st-anton-am-arlberg",
+          "name": "阿尔贝格的圣安东",
+          "englishName": "St. Anton am Arlberg"
         },
         {
-          "slug": "rust-stork-wine-town",
-          "name": "鲁斯特（屋顶上筑满鹳鸟巢穴的甜酒之乡）",
-          "englishName": "Rust"
+          "slug": "stift-goettweig",
+          "name": "格特维克修道院",
+          "englishName": "Göttweig Abbey"
         },
         {
-          "slug": "durnstein-castle",
-          "name": "杜恩施泰因城堡",
-          "englishName": "Dürnstein Castle"
+          "slug": "hochosterwitz-castle",
+          "name": "霍赫奥斯特维茨城堡",
+          "englishName": "Hochosterwitz Castle"
         }
       ]
     }

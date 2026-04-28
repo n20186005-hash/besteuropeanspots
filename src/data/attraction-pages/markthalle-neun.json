@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "第九市场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brandenburg-gate\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    勃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">勃兰登堡门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brandenburg Gate</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gemaeldegalerie-berlin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gemäldegalerie</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/german-panzer-museum-munster\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德国坦克博物馆（明斯特）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">German Panzer Museum Munster</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hartenfels-castle-torgau-spiral-staircase\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈滕费尔斯城堡（绝美螺旋阶梯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hartenfels Castle (Torgau)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/muehlhausen-thuringia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mühlhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hexentanzplatz-thale\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塔莱女巫舞池</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hexentanzplatz (Thale)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "brandenburg-gate",
-          "name": "勃兰登堡门",
-          "englishName": "Brandenburg Gate"
+          "slug": "hartenfels-castle-torgau-spiral-staircase",
+          "name": "哈滕费尔斯城堡（绝美螺旋阶梯）",
+          "englishName": "Hartenfels Castle (Torgau)"
         },
         {
-          "slug": "gemaeldegalerie-berlin",
-          "name": "柏林画廊",
-          "englishName": "Gemäldegalerie"
+          "slug": "muehlhausen-thuringia",
+          "name": "米尔豪森",
+          "englishName": "Mühlhausen"
         },
         {
-          "slug": "german-panzer-museum-munster",
-          "name": "德国坦克博物馆（明斯特）",
-          "englishName": "German Panzer Museum Munster"
+          "slug": "hexentanzplatz-thale",
+          "name": "塔莱女巫舞池",
+          "englishName": "Hexentanzplatz (Thale)"
         }
       ]
     }

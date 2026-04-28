@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "德累斯顿",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "圣母教堂（德累斯顿）",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/holstentor-lubeck\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕贝克霍尔斯滕门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holstentor</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lohr-am-main-snow-white\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    美\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">美因河畔洛尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lohr am Main</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/altenburg-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔滕堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altenburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wartburg-castle-eisenach-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦尔特堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wartburg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/markthalle-neun\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    第\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">第九市场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Markthalle Neun</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/luneburg-hanseatic-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕讷堡汉萨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lüneburg Hanseatic Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "holstentor-lubeck",
-          "name": "吕贝克霍尔斯滕门",
-          "englishName": "Holstentor"
+          "slug": "wartburg-castle-eisenach-history",
+          "name": "瓦尔特堡",
+          "englishName": "Wartburg Castle"
         },
         {
-          "slug": "lohr-am-main-snow-white",
-          "name": "美因河畔洛尔",
-          "englishName": "Lohr am Main"
+          "slug": "markthalle-neun",
+          "name": "第九市场",
+          "englishName": "Markthalle Neun"
         },
         {
-          "slug": "altenburg-history",
-          "name": "阿尔滕堡",
-          "englishName": "Altenburg"
+          "slug": "luneburg-hanseatic-old-town",
+          "name": "吕讷堡汉萨老城",
+          "englishName": "Lüneburg Hanseatic Old Town"
         }
       ]
     }

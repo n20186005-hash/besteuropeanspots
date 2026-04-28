@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "17号站台纪念碑",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/warendorf\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦多夫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Warendorf</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lorsch-abbey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛尔施隐修院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lorsch Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/miltenberg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔滕贝格（美因河畔的珍珠）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Miltenberg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/trinkhalle-baden-baden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    饮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">饮水厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Trinkhalle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ochsenhausen-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥森豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ochsenhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/waren-mueritz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦（米里茨）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Waren (Müritz)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "warendorf",
-          "name": "瓦伦多夫",
-          "englishName": "Warendorf"
+          "slug": "trinkhalle-baden-baden",
+          "name": "饮水厅",
+          "englishName": "Trinkhalle"
         },
         {
-          "slug": "lorsch-abbey-history",
-          "name": "洛尔施隐修院",
-          "englishName": "Lorsch Abbey"
+          "slug": "ochsenhausen-abbey",
+          "name": "奥森豪森",
+          "englishName": "Ochsenhausen"
         },
         {
-          "slug": "miltenberg-old-town",
-          "name": "米尔滕贝格（美因河畔的珍珠）",
-          "englishName": "Miltenberg"
+          "slug": "waren-mueritz",
+          "name": "瓦伦（米里茨）",
+          "englishName": "Waren (Müritz)"
         }
       ]
     }

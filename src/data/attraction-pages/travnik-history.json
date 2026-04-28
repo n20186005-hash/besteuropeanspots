@@ -1,0 +1,64 @@
+{
+  "slug": "travnik-history",
+  "template": "history",
+  "metadata": {
+    "title": "特拉夫尼克历史溯源｜维齐尔之城的前世今生：奥斯曼遗韵、彩色清真寺与诺贝尔文学奖得主伊沃·安德里奇的传奇羁绊",
+    "description": "波黑中部山城特拉夫尼克，曾是奥斯曼帝国维齐尔的权柄之地。彩色清真寺的蓝绿穹顶下，藏着帝国衰亡的倒影。诺贝尔文学奖得主伊沃·安德里奇在此写就《特拉夫尼克纪事》。走进这座小城，听石头与流水讲述的冷门史诗。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波斯尼亚和黑塞哥维那",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "特拉夫尼克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "特拉夫尼克",
+      "href": "/attractions/travnik-history"
+    }
+  ],
+  "hero": {
+    "title": "特拉夫尼克・Travnik・波斯尼亚和黑塞哥维那・特拉夫尼克",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>波黑中部</strong>，弗拉希奇山脚下，一条名为 <strong>拉什瓦</strong> 的小河穿城而过。河水声里，有一座比萨拉热窝更早沐浴奥斯曼荣光的城市——<strong>特拉夫尼克</strong>。它曾是波斯尼亚维齐尔的官邸所在地，是帝国边疆的“小伊斯坦布尔”。<strong>彩色清真寺</strong>的蓝绿色穹顶、山顶古堡的残垣断壁、以及那些随着岁月斑驳的宣礼塔，都让这座小城散发出一种沉静而厚重的气质。抛开游玩攻略，走进特拉夫尼克的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">特拉夫尼克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Travnik</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Travnik</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波斯尼亚和黑塞哥维那</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">特拉夫尼克</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">特拉夫尼克的名字，在斯拉夫语中意为“草地”或“牧场”。但这座城市的真正起点，要从 <strong>1463年</strong> 奥斯曼帝国征服波斯尼亚说起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在此之前，这里只是一处不起眼的定居点。奥斯曼人看中了它的战略位置——坐落在拉什瓦河谷，三面环山，易守难攻。更重要的是，它位于通往亚得里亚海与内陆的商路交汇处。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1686年</strong>，随着匈牙利战事吃紧，奥斯曼帝国决定将波斯尼亚省的首府从萨拉热窝迁至特拉夫尼克。原因很简单：萨拉热窝离哈布斯堡边境太近，而特拉夫尼克更靠内陆，相对安全。从此，这座小城摇身一变，成为 <strong>“维齐尔之城”</strong>（Vezirski Grad）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在之后的 <strong>130多年</strong> 里，共有 <strong>77位</strong> 奥斯曼维齐尔在此执掌权柄。他们修建了清真寺、钟楼、客栈和土耳其浴室，将浓厚的东方风情深植于这片土地。直到 <strong>1850年</strong> 首府迁回萨拉热窝，特拉夫尼克才逐渐退居幕后，但那股 <strong>苦艾酒与咖啡混合的气味</strong>，早已渗透进每一块石缝。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>彩色清真寺（Šarena džamija）</strong>是特拉夫尼克最醒目的历史印记。它建于 <strong>1816年</strong>，由时任维齐尔 <strong>Sulejman-paša Skopljak</strong> 下令建造。与通常素雅的清真寺不同，这座清真寺的外墙用 <strong>蓝、绿、白三色瓷砖</strong> 拼贴出繁复的几何图案，在阳光下如同一块镶嵌在河谷中的宝石。当地传说，设计师曾在大马士革学过彩陶工艺，将东方色彩带回了巴尔干。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>山顶古堡（Stari Grad）</strong>则更古老。它建于 <strong>15世纪</strong> 奥斯曼征服前夕，最初是波斯尼亚王国的一座要塞。奥斯曼人加固了它，使之成为维齐尔的军事指挥所。站在城堡的垛口，能俯瞰整个河谷——当年那些 <strong>驼铃与战马</strong> 的喧嚣，已经化作风声。城堡内部至今保留着粮仓和监狱遗址，一块 <strong>1768年</strong> 的奥斯曼铭文上，用阿拉伯文刻着：“这里是真主庇护的堡垒。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>苏丹艾哈迈德清真寺（Sultan Ahmedova džamija）</strong>是另一处重要遗迹。它建于 <strong>1700年</strong>，以伊斯坦布尔蓝色清真寺的微型翻版闻名。内部装饰有 <strong>17世纪</strong> 的阿拉伯书法，画师用牡蛎壳粉末调制的金粉，书写了整段《古兰经·雅辛章》。每天清晨，宣礼员的声音会穿过晨雾，唤醒沉睡的小城。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在特拉夫尼克的历史名人中，<strong>伊沃·安德里奇（Ivo Andrić）</strong> 是最闪亮的一颗星。这位 <strong>1961年诺贝尔文学奖</strong> 得主，虽然出生在特拉夫尼克附近的 <strong>多拉茨</strong>，但他在 <strong>1920年代</strong> 担任外交官期间，曾多次回到这座小城，并将它作为小说《特拉夫尼克纪事》（<em>Travnička hronika</em>）的舞台。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安德里奇笔下的特拉夫尼克，是 <strong>拿破仑战争时期</strong> 的边疆小城：法国领事、奥地利间谍、奥斯曼官员、犹太商人、东正教神父……各色人物在 <strong>1807年至1814年</strong> 的七年里，上演了一出关于权力、信仰与生存的戏剧。他在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这座城市就像一座舞台，维齐尔换了一任又一任，但幕布始终是同一面——拉什瓦河的水声，和宣礼塔上永不熄灭的月光。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安德里奇将特拉夫尼克定义为 <strong>“东西方碰撞的十字路口”</strong>。他花费八年时间研读领事馆档案、奥斯曼编年史，甚至亲自去城堡下的茶馆听老人讲述旧事。书中有一段著名的场景：法国领事达维尔先生站在山顶古堡上，望向远处奥斯曼军营的篝火，喃喃自语：“这里没有胜利者，只有幸存者。” 这句话后来成为巴尔干历史的一种隐喻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>另一位与城市紧密相关的人物是 Mehmed-paša Kukavica</strong>，一位以铁腕统治著称的维齐尔。他在 <strong>1757年</strong> 修建了特拉夫尼克著名的 <strong>钟楼</strong>（Sahat-kula），这座高约 <strong>20米</strong> 的钟楼，至今仍是城市天际线上的标志。传说钟楼的铜钟是由战死的奥斯曼士兵的盔甲熔铸而成，每遇月食，钟声会自动响起，警告恶魔降临。Kukavica还在城中修建了大型公共厨房（Imaret），每天免费供应给穷人 <strong>200份</strong> 浓汤和面包，这一传统持续了 <strong>150年</strong>，直到奥匈帝国占领后才中断。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在特拉夫尼克，流传着一个关于 <strong>“哭泣的清真寺”</strong> 的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，在 <strong>19世纪</strong> 初的一场瘟疫中，彩色清真寺的伊玛目发现，每当他在夜间祈祷时，都能听到宣礼塔里传来女人低低的啜泣声。他循声寻找，却只看到石墙上渗出的水珠。后来一位游方托钵僧告诉他，这是 <strong>“时间的泪滴”</strong> ——很久以前，一位维齐尔的女儿因为爱上基督徒青年而被囚禁在塔中，最终绝食而死。她的灵魂不愿离去，每逢斋月便会化作水汽，顺着塔身的裂纹流下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，当地人相信，那些塔身上 <strong>蓝绿色瓷砖</strong> 之所以永不褪色，正是因为沾满了这位小姐的眼泪。每年斋月的最后十天，都有妇女在清真寺门口放一碗牛奶，据说这样能抚慰哭泣的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个风俗与 <strong>“夜面包”</strong> 有关。在奥斯曼时期，维齐尔会命令面包房在凌晨两点烤制一种特殊的 <strong>肉馅面包</strong>，然后用羊皮纸包好，放在穷人家的门槛上。面包上会戳一个洞，里面塞一张纸条，写着一句《古兰经》经文。当地人称这种面包为 <strong>“安拉的信”</strong> ，认为吃了它的人会在梦中看到自己的未来。如今，虽然维齐尔早已消失，但特拉夫尼克一些老面包房在 <strong>斋月期间</strong> 仍会制作这种面包，只是纸条换成了祝福语。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂特拉夫尼克，等于读懂了波黑历史的 <strong>一条隐秘裂缝</strong>。它不是萨拉热窝那样的大舞台，却是一面更私人化的镜子——映照出奥斯曼帝国在巴尔干边缘的 <strong>最后荣光</strong>，以及东西方文明如何在这片山坳里彼此试探、摩擦与共生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">彩色的清真寺、沉默的古堡、安德里奇纸上的人物，都在提醒我们：这座小城的真正魅力不在于景点，而在于 <strong>时间堆积而成的质感</strong>。站在山顶古堡上，看着拉什瓦河缓缓流过，你会明白为什么安德里奇说：“这里的一切都是石头，但石头里住着故事。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    }
+  ]
+}

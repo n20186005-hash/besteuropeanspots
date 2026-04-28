@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林夏里特医院医学史博物馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ludwigslust-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    路\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">路德维希斯卢斯特宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ludwigslust Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wertheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦尔特海姆（美因河与陶伯河交汇的玻璃之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wertheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lindau-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林道老城区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lindau Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/coburg-fortress-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科堡要塞（弗兰肯的王冠）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Veste Coburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hexentanzplatz-thale\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塔莱女巫舞池</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hexentanzplatz (Thale)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/granitz-hunting-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉尼茨狩猎城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Granitz Hunting Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "ludwigslust-palace",
-          "name": "路德维希斯卢斯特宫",
-          "englishName": "Ludwigslust Palace"
+          "slug": "coburg-fortress-history",
+          "name": "科堡要塞（弗兰肯的王冠）",
+          "englishName": "Veste Coburg"
         },
         {
-          "slug": "wertheim",
-          "name": "韦尔特海姆（美因河与陶伯河交汇的玻璃之城）",
-          "englishName": "Wertheim"
+          "slug": "hexentanzplatz-thale",
+          "name": "塔莱女巫舞池",
+          "englishName": "Hexentanzplatz (Thale)"
         },
         {
-          "slug": "lindau-old-town",
-          "name": "林道老城区",
-          "englishName": "Lindau Old Town"
+          "slug": "granitz-hunting-castle",
+          "name": "格拉尼茨狩猎城堡",
+          "englishName": "Granitz Hunting Castle"
         }
       ]
     }

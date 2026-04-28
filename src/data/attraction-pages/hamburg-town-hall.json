@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉堡市政厅",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/marienburg-schloss\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛丽安堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Marienburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/checkpoint-charlie\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查理检查站</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Checkpoint Charlie</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/frauenkirche-dresden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣母教堂（德累斯顿）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Frauenkirche</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/muhlhausen-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mühlhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tangermuende-medieval-town-on-elbe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    唐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">唐格明德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tangermünde</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/detmold-teutoburg-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    代\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">代特莫尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Detmold</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "marienburg-schloss",
-          "name": "玛丽安堡",
-          "englishName": "Schloss Marienburg"
+          "slug": "muhlhausen-history",
+          "name": "米尔豪森",
+          "englishName": "Mühlhausen"
         },
         {
-          "slug": "checkpoint-charlie",
-          "name": "查理检查站",
-          "englishName": "Checkpoint Charlie"
+          "slug": "tangermuende-medieval-town-on-elbe",
+          "name": "唐格明德",
+          "englishName": "Tangermünde"
         },
         {
-          "slug": "frauenkirche-dresden",
-          "name": "圣母教堂（德累斯顿）",
-          "englishName": "Frauenkirche"
+          "slug": "detmold-teutoburg-forest",
+          "name": "代特莫尔德",
+          "englishName": "Detmold"
         }
       ]
     }

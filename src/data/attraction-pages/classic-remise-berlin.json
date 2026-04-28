@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "经典车库柏林",
@@ -58,22 +58,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bad-ems-spa-town-germany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特埃姆斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Ems</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/zittau-germany-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    齐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">齐陶</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zittau</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/worms-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔姆斯大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Worms Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/speicherstadt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    仓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">仓库城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speicherstadt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/friedberg-bavaria-romantic-road\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里德贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Friedberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kloster-woeltingerode\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔廷格罗德修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kloster Wöltingerode</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bad-ems-spa-town-germany",
-          "name": "巴特埃姆斯",
-          "englishName": "Bad Ems"
+          "slug": "speicherstadt",
+          "name": "仓库城",
+          "englishName": "Speicherstadt"
         },
         {
-          "slug": "zittau-germany-history",
-          "name": "齐陶",
-          "englishName": "Zittau"
+          "slug": "friedberg-bavaria-romantic-road",
+          "name": "弗里德贝格",
+          "englishName": "Friedberg"
         },
         {
-          "slug": "worms-cathedral",
-          "name": "沃尔姆斯大教堂",
-          "englishName": "Worms Cathedral"
+          "slug": "kloster-woeltingerode",
+          "name": "沃尔廷格罗德修道院",
+          "englishName": "Kloster Wöltingerode"
         }
       ]
     }

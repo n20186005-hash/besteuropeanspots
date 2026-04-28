@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "新岗哨",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/boppard-romantic-rhine-germany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博帕德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Boppard</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/heide-park-resort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    海\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">海德公园度假村</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heide Park Resort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kaiser-wilhelm-memorial-church\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威廉皇帝纪念教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kaiser Wilhelm Memorial Church</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kalkar\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔卡尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kalkar</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/krumme-strasse-2-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克鲁姆街2号塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Krumme Strasse 2 Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/regensburg-stone-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雷根斯堡石桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Regensburg Stone Bridge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "boppard-romantic-rhine-germany",
-          "name": "博帕德",
-          "englishName": "Boppard"
+          "slug": "kalkar",
+          "name": "卡尔卡尔",
+          "englishName": "Kalkar"
         },
         {
-          "slug": "heide-park-resort",
-          "name": "海德公园度假村",
-          "englishName": "Heide Park Resort"
+          "slug": "krumme-strasse-2-tower",
+          "name": "克鲁姆街2号塔楼",
+          "englishName": "Krumme Strasse 2 Tower"
         },
         {
-          "slug": "kaiser-wilhelm-memorial-church",
-          "name": "威廉皇帝纪念教堂",
-          "englishName": "Kaiser Wilhelm Memorial Church"
+          "slug": "regensburg-stone-bridge",
+          "name": "雷根斯堡石桥",
+          "englishName": "Regensburg Stone Bridge"
         }
       ]
     }

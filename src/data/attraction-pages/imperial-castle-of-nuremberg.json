@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "纽伦堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "纽伦堡皇帝堡",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/asamkirche\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿桑教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Asamkirche</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/waren-mueritz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦（米里茨）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Waren (Müritz)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/east-side-gallery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    东\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">东边画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">East Side Gallery</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/saalfelder-feengrotten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔费尔德仙女石窟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saalfelder Feengrotten</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stralsund-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施特拉尔松德老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stralsund Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burghausen-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博格豪森城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burghausen Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "asamkirche",
-          "name": "阿桑教堂",
-          "englishName": "Asamkirche"
+          "slug": "saalfelder-feengrotten",
+          "name": "萨尔费尔德仙女石窟",
+          "englishName": "Saalfelder Feengrotten"
         },
         {
-          "slug": "waren-mueritz",
-          "name": "瓦伦（米里茨）",
-          "englishName": "Waren (Müritz)"
+          "slug": "stralsund-old-town",
+          "name": "施特拉尔松德老城",
+          "englishName": "Stralsund Old Town"
         },
         {
-          "slug": "east-side-gallery",
-          "name": "东边画廊",
-          "englishName": "East Side Gallery"
+          "slug": "burghausen-castle-history",
+          "name": "博格豪森城堡",
+          "englishName": "Burghausen Castle"
         }
       ]
     }

@@ -1,0 +1,85 @@
+{
+  "slug": "kolossi-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "科洛西城堡历史溯源｜十字军骑士团的甜酒传奇与塞浦路斯中世纪时光",
+    "description": "探秘科洛西城堡，十字军圣约翰骑士团的防御塔楼与塞浦路斯甜酒发源地。从骑士铁骑到金色琼浆，一段被阳光与战火淬炼的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "塞浦路斯",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "利马索尔",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科洛西城堡",
+      "href": "/attractions/kolossi-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "科洛西城堡・Kolossi Castle・塞浦路斯・利马索尔",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在塞浦路斯南部的葡萄园深处，矗立着一座粗犷的方形石堡——科洛西城堡。它曾是圣约翰骑士团在地中海的最后堡垒，也是世界上最古老甜酒Commandaria的孕育之地。抛开游玩攻略，走进科洛西城堡的砖石与酒香，遇见属于骑士与葡萄的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">科洛西城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Kolossi Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Kolossi Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">塞浦路斯</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">利马索尔</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>科洛西城堡</strong> 的始建远比我们看到的更早。1210年，耶路撒冷王国的<strong>圣约翰骑士团</strong>（又称医院骑士团）被授予了这片肥沃的沿海土地。最初，这里是一座更简单的庄园宅邸，毁于1426年马穆鲁克人的入侵。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">我们今天看到的方形主塔楼，是 <strong>1454年</strong> 由骑士团大团长<strong>路易·德·马格纳克</strong>下令重建的。它并非一座宏大的城堡，而是一座 <strong>“糖堡”</strong> ——用厚重的石灰岩砌成，墙厚达1.3米，底层是巨大的储藏室，上层为指挥官起居室，顶层平坦的屋顶用于警戒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字“科洛西”源于希腊语 <strong>“Kolossos”</strong> ，意为“巨大的雕像”——因为附近曾有一座古代巨型雕像的遗迹。但城堡本身并不庞大，它的力量在于其扼守 <strong>利马索尔平原</strong> 的战略位置，庇护着骑士团最重要的财富：甘蔗种植与甜酒酿造。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在这片被太阳烘烤的土地上，修士和骑士们将甘蔗压榨成糖浆，再将当地的葡萄浓缩成一种金色的甘露。它被带回欧洲，在教皇的餐桌上绽放。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——15世纪旅行家手记</blockquote>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一记：骑士与糖的黄金时代</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">整个13至15世纪，科洛西是塞浦路斯最富有的领地。骑士团不仅是战士，更是精明的商人。他们从东方引进甘蔗，在城堡四周开辟 <strong>甘蔗园</strong>，用牛拉石磨榨汁，熬制成粗糖，再通过利马索尔港口销往威尼斯、热那亚。城堡地窖里，堆满了一桶桶 <strong>Commandaria甜酒</strong>——这种用晒干的Xynisteri葡萄酿造的琥珀色琼浆，被十字军带回欧洲后，成为教皇、国王们竞相追捧的圣酒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二记：1426年劫难与重建</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1426年，马穆鲁克苏丹的舰队入侵塞浦路斯。科洛西城堡的旧庄园被付之一炬，骑士团被迫撤退到海上。但他们很快回归，并在 <strong>1454年</strong> 建造了这座更坚固的方形塔楼。塔楼底层的门极高，需要梯子才能进入，二层才有真正的入口——这是典型的 <strong>“受困堡垒”</strong> 设计，即使底层失守，上层仍能坚守数月。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三记：威尼斯人与奥斯曼的交替</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1489年，塞浦路斯落入威尼斯人手中。骑士团被赶走，科洛西城堡成为威尼斯贵族的一处 <strong>糖业庄园</strong>。1570年奥斯曼帝国征服全岛后，这座塔楼被废弃，逐渐沦为 <strong>羊圈和仓库</strong>。直到20世纪50年代，塞浦路斯政府才将其修复为博物馆。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇一：糖酒与圣殿的守护者——路易·德·马格纳克</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>路易·德·马格纳克</strong>（Louis de Magnac）并非最出名的圣约翰骑士团大团长，但他却是科洛西城堡的“缔造之父”。1450年，他接任塞浦路斯领地的指挥官，面对一片残垣断壁。他没有选择建造豪华的宫殿，而是以 <strong>极致的实用主义</strong> 设计了一座既能防御又能享受生活的堡垒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马格纳克的 <strong>个人徽章</strong> 至今仍刻在城堡正门的石楣上——一枚盾形纹章，上有三朵百合花与一条斜带。他规定，塔楼二层的 <strong>大团长厅</strong> 必须有一扇巨大的哥特式窗户，让地中海阳光洒满整个房间，好让他一边品尝Commandaria，一边眺望平原上的甘蔗田。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，马格纳克晚年辞去职务后，并未返回欧洲，而是留在了科洛西。他亲手监督了 <strong>糖厂和酒窖</strong> 的改造，将甘蔗榨汁法改进为更高效的水力驱动。<strong>1492年</strong>，当他去世时，整个利马索尔平原的农民都为他点燃了送别的火把——因为他是第一个将“甜酒税”减半的领主。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇二：甜酒下的诅咒——卡塔琳娜·科纳罗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说马格纳克是城堡的守护者，那么 <strong>卡塔琳娜·科纳罗</strong>（Caterina Cornaro）就是它命运的最后一位主人。这位威尼斯贵族少女，在 <strong>1474年</strong> 成为塞浦路斯王国的女王。然而，她不过是一枚棋子——威尼斯共和国想通过她吞并塞浦路斯。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡塔琳娜曾多次到访科洛西城堡，在这里躲避宫廷的阴谋。她在日记里写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这座石堡没有王座的冰冷，只有葡萄藤的芬芳。骑士团长为我斟上一杯Commandaria，那颜色就像夕阳浸透的琥珀。他告诉我，这酒能让人忘记一切烦恼。可我知道，我唯一能忘记的，是回家的路。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1489年，威尼斯正式逼迫她退位，并将塞浦路斯纳入共和国版图。卡塔琳娜被送回意大利，被迫嫁给一位贵族。临行前，她将科洛西城堡的 <strong>一把钥匙</strong> 扔进了海港——传说，那钥匙永远不会生锈，因为上面浸透了甜酒和泪水。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地民间至今流传：只要科洛西城堡的石头还能嗅到酒香，卡塔琳娜的灵魂就仍在塔楼上眺望威尼斯。</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在利马索尔的农民口中，科洛西城堡藏着一位 <strong>“酒鬼骑士”</strong> 的幽灵。据说，1454年城堡重建期间，一名叫<strong>马可</strong>的年轻骑士，负责守卫地窖里的Commandaria酒桶。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每晚，他都会偷偷打开一桶，喝到酩酊大醉。终于有一天，马穆鲁克间谍趁他醉倒，潜入城堡纵火。马可被活活烧死在地窖里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，每当月圆之夜，人们便能在城堡塔顶看到 <strong>一个摇晃的蓝色火焰</strong>——那正是马可的灵魂，它一边飘荡一边喃喃：“我的酒……我的酒……”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">实际上，科学解释是：地窖中残留的 <strong>乙醇蒸汽</strong> 在特定湿度下会形成磷火。但岛民们宁可信其有——每年九月葡萄收获节，他们会在城堡脚下献上一杯Commandaria，高喊：“马可，喝你的酒，别烧我们的甘蔗！”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科洛西城堡的价值，不在于它的规模，而在于它 <strong>浓缩了十字军东征、地中海贸易与葡萄酒文化的三重文明</strong>。站在它粗粝的石墙前，你能听见铸铁盔甲的碰撞声、甘蔗磨盘的吱嘎声、以及教皇品酒时满意的咂舌声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它是一座被遗忘的 <strong>“甜蜜堡垒”</strong> ——甜蜜来自甘蔗和葡萄，坚硬来自石灰岩和信仰。读懂它，你就读懂了塞浦路斯这个十字路口之岛的灵魂：在刀光剑影中酿出旷世美酒，在征服与反抗中保留生活的仪式感。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/paphos-archaeological-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕福斯考古公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Paphos Archaeological Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ayia-napa-sea-caves-and-makronissos\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣纳帕</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ayia Napa</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-hilarion-castle-cyprus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣伊拉里城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St. Hilarion Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "paphos-archaeological-park",
+          "name": "帕福斯考古公园",
+          "englishName": "Paphos Archaeological Park"
+        },
+        {
+          "slug": "ayia-napa-sea-caves-and-makronissos",
+          "name": "圣纳帕",
+          "englishName": "Ayia Napa"
+        },
+        {
+          "slug": "st-hilarion-castle-cyprus",
+          "name": "圣伊拉里城堡",
+          "englishName": "St. Hilarion Castle"
+        }
+      ]
+    }
+  ]
+}

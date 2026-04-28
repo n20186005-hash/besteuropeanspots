@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不莱梅",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不莱梅市政厅",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/altenburg-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔滕堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altenburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bebenhausen-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝本豪森修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bebenhausen Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/limburg-an-der-lahn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林堡（兰河畔的中世纪彩绘大教堂小镇）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Limburg an der Lahn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/new-synagogue-berlin-centrum-judaicum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林新犹太会堂 - 犹太教中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Synagogue Berlin - Centrum Judaicum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/munich-residence\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    慕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">慕尼黑皇宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Munich Residence</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nymphenburg-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    宁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">宁芬堡宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nymphenburg Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "altenburg-history",
-          "name": "阿尔滕堡",
-          "englishName": "Altenburg"
+          "slug": "new-synagogue-berlin-centrum-judaicum",
+          "name": "柏林新犹太会堂 - 犹太教中心",
+          "englishName": "New Synagogue Berlin - Centrum Judaicum"
         },
         {
-          "slug": "bebenhausen-abbey",
-          "name": "贝本豪森修道院",
-          "englishName": "Bebenhausen Abbey"
+          "slug": "munich-residence",
+          "name": "慕尼黑皇宫",
+          "englishName": "Munich Residence"
         },
         {
-          "slug": "limburg-an-der-lahn",
-          "name": "林堡（兰河畔的中世纪彩绘大教堂小镇）",
-          "englishName": "Limburg an der Lahn"
+          "slug": "nymphenburg-palace",
+          "name": "宁芬堡宫",
+          "englishName": "Nymphenburg Palace"
         }
       ]
     }

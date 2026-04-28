@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "莱比锡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "莱比锡美术博物馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wustrow-fischland-baltic-sea-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    武\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">武斯特罗</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wustrow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kohlmarkt-braunschweig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔市场（布伦瑞克）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kohlmarkt Braunschweig</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berlin-world-time-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林世界时钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">World Time Clock (Weltzeituhr)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/friedberg-bavaria-romantic-road\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里德贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Friedberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/speicherstadt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    仓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">仓库城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speicherstadt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/muenster-altstadt-prinzipalmarkt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    明\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">明斯特老城与主广场（山形墙林立的汉萨商人街与和平之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Münster Old Town and Prinzipalmarkt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "wustrow-fischland-baltic-sea-village",
-          "name": "武斯特罗",
-          "englishName": "Wustrow"
+          "slug": "friedberg-bavaria-romantic-road",
+          "name": "弗里德贝格",
+          "englishName": "Friedberg"
         },
         {
-          "slug": "kohlmarkt-braunschweig",
-          "name": "科尔市场（布伦瑞克）",
-          "englishName": "Kohlmarkt Braunschweig"
+          "slug": "speicherstadt",
+          "name": "仓库城",
+          "englishName": "Speicherstadt"
         },
         {
-          "slug": "berlin-world-time-clock",
-          "name": "柏林世界时钟",
-          "englishName": "World Time Clock (Weltzeituhr)"
+          "slug": "muenster-altstadt-prinzipalmarkt",
+          "name": "明斯特老城与主广场（山形墙林立的汉萨商人街与和平之城）",
+          "englishName": "Münster Old Town and Prinzipalmarkt"
         }
       ]
     }

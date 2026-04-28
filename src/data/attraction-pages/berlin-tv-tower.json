@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林电视塔",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/baumkronenpfad-hoherodskopf\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍赫罗德科普夫树顶步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Baumkronenpfad Hoherodskopf</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kleve-schwanenburg-historic-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱沃</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kleve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ladenburg-germany-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉登堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ladenburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lohr-am-main-snow-white\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    美\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">美因河畔洛尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lohr am Main</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/landshut-trausnitz-castle-brick-gothic\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰茨胡特（特劳斯尼茨城堡与砖砌哥特）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landshut (Trausnitz Castle and Brick Gothic)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/soest-green-sandstone-medieval-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索斯特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Soest</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "baumkronenpfad-hoherodskopf",
-          "name": "霍赫罗德科普夫树顶步道",
-          "englishName": "Baumkronenpfad Hoherodskopf"
+          "slug": "lohr-am-main-snow-white",
+          "name": "美因河畔洛尔",
+          "englishName": "Lohr am Main"
         },
         {
-          "slug": "kleve-schwanenburg-historic-town",
-          "name": "克莱沃",
-          "englishName": "Kleve"
+          "slug": "landshut-trausnitz-castle-brick-gothic",
+          "name": "兰茨胡特（特劳斯尼茨城堡与砖砌哥特）",
+          "englishName": "Landshut (Trausnitz Castle and Brick Gothic)"
         },
         {
-          "slug": "ladenburg-germany-history",
-          "name": "拉登堡",
-          "englishName": "Ladenburg"
+          "slug": "soest-green-sandstone-medieval-town-history",
+          "name": "索斯特",
+          "englishName": "Soest"
         }
       ]
     }

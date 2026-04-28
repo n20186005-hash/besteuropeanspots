@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "新市政厅",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/marktkirche-hannover\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    汉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">汉诺威集市教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marktkirche Hannover</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berlin-tv-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林电视塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berlin TV Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jasmund-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雅斯蒙德国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jasmund National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schlitz-castle-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施利茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schlitz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/reichsburg-cochem-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科赫姆帝国城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cochem Castle (Reichsburg Cochem)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/greifswald\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格赖夫斯瓦尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greifswald</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "marktkirche-hannover",
-          "name": "汉诺威集市教堂",
-          "englishName": "Marktkirche Hannover"
+          "slug": "schlitz-castle-town",
+          "name": "施利茨",
+          "englishName": "Schlitz"
         },
         {
-          "slug": "berlin-tv-tower",
-          "name": "柏林电视塔",
-          "englishName": "Berlin TV Tower"
+          "slug": "reichsburg-cochem-history",
+          "name": "科赫姆帝国城堡",
+          "englishName": "Cochem Castle (Reichsburg Cochem)"
         },
         {
-          "slug": "jasmund-national-park",
-          "name": "雅斯蒙德国家公园",
-          "englishName": "Jasmund National Park"
+          "slug": "greifswald",
+          "name": "格赖夫斯瓦尔德",
+          "englishName": "Greifswald"
         }
       ]
     }

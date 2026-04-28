@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林墙全景-阿西西全景",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/miltenberg-main-pearl-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔滕贝格（美因河畔的“珍珠”）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Miltenberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eichstaett-baroque-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾希施泰特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eichstaett</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marienberg-fortress\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马林贝格要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marienberg Fortress</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/odeonsplatz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    音\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">音乐厅广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Odeonsplatz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/a-o-hostel-bremen-hauptbahnhof\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    a\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">a&o 不来梅主火车站青年旅舍</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">a&o Hostel Bremen Hauptbahnhof</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/allied-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    盟\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">盟军博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Allied Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "miltenberg-main-pearl-history",
-          "name": "米尔滕贝格（美因河畔的“珍珠”）",
-          "englishName": "Miltenberg"
+          "slug": "odeonsplatz",
+          "name": "音乐厅广场",
+          "englishName": "Odeonsplatz"
         },
         {
-          "slug": "eichstaett-baroque-town",
-          "name": "艾希施泰特",
-          "englishName": "Eichstaett"
+          "slug": "a-o-hostel-bremen-hauptbahnhof",
+          "name": "a&o 不来梅主火车站青年旅舍",
+          "englishName": "a&o Hostel Bremen Hauptbahnhof"
         },
         {
-          "slug": "marienberg-fortress",
-          "name": "马林贝格要塞",
-          "englishName": "Marienberg Fortress"
+          "slug": "allied-museum",
+          "name": "盟军博物馆",
+          "englishName": "Allied Museum"
         }
       ]
     }

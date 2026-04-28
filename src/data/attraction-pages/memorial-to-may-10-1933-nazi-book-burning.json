@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林1933年5月10日焚书纪念地",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kalkar\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔卡尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kalkar</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fritzlar-medieval-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里茨拉尔中世纪古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fritzlar</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/freudenberg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗罗伊登贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Freudenberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bamberg-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bamberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kamenz-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡门茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kamenz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buedingen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比丁根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Büdingen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kalkar",
-          "name": "卡尔卡尔",
-          "englishName": "Kalkar"
+          "slug": "bamberg-old-town-history",
+          "name": "班贝格老城",
+          "englishName": "Bamberg Old Town"
         },
         {
-          "slug": "fritzlar-medieval-old-town",
-          "name": "弗里茨拉尔中世纪古城",
-          "englishName": "Fritzlar"
+          "slug": "kamenz-old-town",
+          "name": "卡门茨",
+          "englishName": "Kamenz"
         },
         {
-          "slug": "freudenberg-old-town",
-          "name": "弗罗伊登贝格老城",
-          "englishName": "Freudenberg Old Town"
+          "slug": "buedingen",
+          "name": "比丁根",
+          "englishName": "Büdingen"
         }
       ]
     }

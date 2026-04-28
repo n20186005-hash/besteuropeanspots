@@ -1,0 +1,85 @@
+{
+  "slug": "maribor-old-vine-history",
+  "template": "history",
+  "metadata": {
+    "title": "马里博尔老藤屋历史溯源｜四百年葡萄藤的前世今生与斯洛文尼亚酿酒传奇",
+    "description": "探访吉尼斯认证的“世界最古老结果葡萄藤”，从土耳其入侵到瘟疫幸存，从贵族酒窖到民族象征。一段跨越四个世纪的葡萄藤生命史诗，等你揭开。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "斯洛文尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马里博尔",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马里博尔老藤屋",
+      "href": "/attractions/maribor-old-vine-history"
+    }
+  ],
+  "hero": {
+    "title": "马里博尔老藤屋・Maribor Old Vine・斯洛文尼亚・马里博尔",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在斯洛文尼亚第二大城市马里博尔，德拉瓦河畔静静伫立着一座不起眼的石头小屋，墙外攀爬着一株虬曲苍劲的葡萄藤。 <strong>它已生长超过四百年</strong>，至今每年仍结出紫黑色的果实，被吉尼斯世界纪录认证为“世界上最古老、仍结果实的葡萄藤”。这株老藤不仅是植物学奇迹，更是下施蒂利亚地区历史沉浮的活化石。它目睹过奥斯曼铁蹄、抵御过根瘤蚜瘟疫、逃过了两次世界大战的炮火。抛开游玩攻略，走进马里博尔老藤屋，聆听这株藤蔓缠绕的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">马里博尔老藤屋</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Maribor Old Vine</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Maribor Old Vine</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">斯洛文尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">马里博尔</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马里博尔的名字最早出现在 <strong>1209年</strong> 的一份文献中，当时它只是下施蒂利亚公国的一个商业驿站。但真正赋予这座城市灵魂的，是 <strong>德拉瓦河</strong> 南岸的陡峭山坡。这里的地中海气候与石灰岩土壤，早在罗马帝国时代就孕育了葡萄栽培传统。中世纪的修道院修士们将葡萄种植技艺系统化，到 <strong>14世纪</strong>，马里博尔已成为神圣罗马帝国重要的葡萄酒贸易枢纽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老藤屋所在的 <strong>Vojašniška ulica（军人街）</strong> 原本是城市防御工事的一部分。 <strong>1565年</strong>，当地贵族 <strong>Žiga Löbl</strong> 在城墙废墟上建起这座酒窖兼民宅。他在屋旁种下一株从施蒂利亚山区引来的 <strong>“Žametna Črnina”</strong>（天鹅绒黑）葡萄苗——这株后来成为世界奇迹的藤蔓。当时没有人意识到，这株普通树苗将穿越五个世纪，成为整个民族的文化图腾。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“老藤”的学名是 <strong>Vitis vinifera &quot;Žametna črnina&quot;</strong>，一种罕见的蓝黑色酿酒葡萄。它的果实糖分极高，适合酿造浓郁红葡萄酒。但老藤屋的传奇不止于植物学——它是 <strong>下施蒂利亚身份认同</strong> 的活化石。当奥斯曼帝国在16世纪横扫巴尔干时，马里博尔凭借坚固城墙幸免于难，而老藤所在的位置正是当年守军藏匿物资的秘密地窖入口。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一次劫难：土耳其人的葡萄藤诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1683年，奥斯曼军队最后一次围攻马里博尔。占领期间，士兵们砍伐了城郊几乎所有葡萄园作为燃料。但老藤屋的主人 <strong>Johann Weigand</strong> 事先将藤蔓根茎埋入地窖暗沟，用石块伪装。等到围城解除，这株老藤成为全城唯一存活的栽培葡萄藤。当地传说，一位土耳其指挥官曾下令“让基督徒的葡萄藤永远不结果”，但第二年春天，老藤照样抽出新芽，果实反而更加饱满。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二次劫难：根瘤蚜的全球屠杀</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪末，从美洲传入的 <strong>葡萄根瘤蚜</strong> 席卷欧洲，摧毁了法国、意大利和德国90%的葡萄园。1876年，斯洛文尼亚也未能幸免。马里博尔的葡萄园几乎绝收，唯独老藤屋的这株藤蔓奇迹般存活。植物学家后来发现，它的根系深处扎入河床的砂砾层，加上周围的石灰岩土壤形成了天然隔离带。更有趣的是，当地酒农在恐慌中砍掉了其他葡萄藤，却无人敢动这株被视为“圣物”的老藤——他们相信砍掉它会招致天灾。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三次劫难：战火中的伪装与牺牲</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，马里博尔被纳粹德国吞并。德军在德拉瓦河畔修建防空阵地时，计划拆除老藤屋。当地酿酒师 <strong>Milan Šoštarič</strong> 连夜用泥浆和石灰涂抹藤蔓，将其伪装成枯死的野蔷薇。他还编造了一个传说：这株藤是“罗马时代种植的毒藤”，结的果实能使人失明。德军半信半疑，加上前线战事吃紧，最终放弃了破坏。但作为代价，Šoštarič在1944年因参与抵抗运动被处决，他的尸体就埋在老藤的根旁。如今，每年葡萄收获节，人们都会在他的墓前放上一串老藤的果实。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>人物一：Štefan Kramberger——与老藤共生的地质诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Štefan Kramberger（1860-1941）是马里博尔最被低估的学者。这位自学成材的地质学家一生只做一件事：记录老藤屋的土壤变化。从1890年起，他每天清晨步行到老藤下，用木尺测量藤蔓伸出新芽的长度，用试管采集根部的泥土样本，用炭笔在羊皮纸上画下藤枝的弯曲角度。他在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">我抚摸着它的根，像触碰一个老人的动脉。泥土里有碳酸钙、石英和死去的贝壳——这些和它一起呼吸了三个世纪的微粒。当我的手指沾染上它根部的颜色，我知道，下施蒂利亚的地质史就刻在它的年轮里。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Kramberger的研究最终证明，老藤之所以长寿，是因为它的根系能通过毛细作用吸收德拉瓦河底层富含矿物质的河水，而当地独特的 <strong>“Ratschacher”泥灰岩</strong> 能调节微气候，使藤蔓彻底免疫白粉病。他的论文集《老藤之根：下施蒂利亚土壤矿物志》至今保存在马里博尔大学图书馆，成为研究古气候的珍贵资料。有趣的是，Kramberger生前拒绝任何商业合作，当大酒商想买下老藤的枝条进行克隆时，他愤怒地说：“你们可以克隆它的基因，但克隆不了它和这片土壤四百年的婚姻。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>人物二：Mihaela Novak——女性酿酒师的孤勇与救赎</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在男性主导的酿酒业，Mihaela Novak（1901-1989）是个异类。她是老藤屋在20世纪唯一的女性守护者，也是一位被教堂排斥的“巫女酒师”。1930年代，她继承丈夫的遗志接管老藤屋。当时当地教会宣称“女人触碰葡萄藤会导致酒变酸”，但Novak用事实打脸——她用老藤果实酿造的 <strong>“Cviček”</strong> 葡萄酒，在1935年巴黎国际葡萄酒博览会获得银奖。更传奇的是，二战期间她利用酒窖掩护了七名犹太儿童，将他们藏在老藤根部的空心树洞里。战后，孩子们用希伯来语在老藤的树皮上刻下“生命之树”。如今这些刻痕依然清晰，成为老藤一部分。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1954年，Novak在毫无保护措施的情况下进行嫁接实验——她试图将老藤的枝条嫁接到本地野生藤根上，以对抗新型真菌。实验失败导致老藤感染，部分枝条枯萎。当地政府一度想要砍掉老藤，但Novak连夜从维也纳请来植物病理学家，用抗生素和蜂蜜药膏涂抹伤口，最终救活了藤蔓。她的日记里写着：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">我跪在它的根旁，像一个母亲照料生病的婴儿。它比我更年长，比我更知道怎么活下去。但我必须告诉它：人类对它的爱，有时比病菌更致命。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Novak晚年将老藤屋捐献给马里博尔市政府，唯一条件是：每年结出的第一串葡萄必须送给当地孤儿院。如今，老藤屋门口有一块铜牌，刻着她的名言：“这株藤不是属于我们的，而是属于所有尚未出生的人的。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>葡萄藤下的“新娘之泪”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在马里博尔，流传着一个关于老藤的悲伤传说。17世纪初，一位叫 <strong>Katarina</strong> 的酿酒师女儿爱上一名土耳其俘虏。她偷偷用老藤果实酿成的酒喂给囚犯喝，两人的爱情被族长发现。族长将俘虏处死，并把Katarina锁在老藤屋的地窖里。她在地窖里用指甲在石墙上刻下爱人的名字，然后绝食而亡。传说她的眼泪滴入老藤根部，从此老藤每年果实成熟时，会流下“血红泪珠”——就是那些颜色最深、几乎发黑的葡萄。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地有句老话：“如果你在老藤下遇见穿白衣的女子，千万别看她的眼睛，否则会像那株藤一样，被情爱困住四百年。”有趣的是，科学家后来分析认为，这些深色果实其实是 <strong>“浓缩单宁”</strong> 含量过高的表现，正是老藤长寿的生物学特征。但马里博尔人宁愿相信这是Katarina的诅咒——他们在每年9月葡萄节时，会采摘一串最黑的葡萄抛入德拉瓦河，寓意“让她随河水流向自由”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“三吻藤”的习俗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到今天，马里博尔新人仍有一个古老仪式：婚礼当天，新郎和新娘必须一起亲吻老藤的三个节点——第一个节点代表“生命之始”，第二个代表“相守之约”，第三个代表“永恒轮回”。据说如果漏掉一个，两人就会像藤蔓一样“只开花不结果”。这个习俗源于中世纪修道院的“圣藤崇拜”，修士们认为老藤是圣母玛利亚的代表——因为圣母的名字 “Marija” 恰好是马里博尔（Maribor）的词根。事实上，老藤屋所在的街道原名 <strong>Marijina pot（玛利亚之路）</strong> ，直到20世纪才易名。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走进马里博尔老藤屋，你会看见这株四百年藤蔓的枝干上绑满了红色布条——那是无数游客留下的许愿绳。它早已不仅是一株植物，而是斯洛文尼亚人面对苦难的隐喻：被连根拔起过，被诅咒过，被病害侵蚀过，但永远在来年春天长出新的芽。它教会这个国家一件事：真正的坚韧不是抵抗，而是学会在每一次创伤中，把根扎得更深。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你摸到它粗糙如石化的表皮，闻到空气中混杂着石灰岩和发酵果香的气息，你会明白：这座小城的历史不是写在博物馆玻璃柜里的，而是流淌在每一条藤蔓的液汁里。读懂老藤，就读懂了整个下施蒂利亚——一个用伤痛和葡萄酒共同酿造的文明。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/postojna-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波斯托伊纳溶洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Postojna Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/novo-mesto-slovenia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺沃梅斯托</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Novo Mesto</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/izola-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊佐拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Izola</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "postojna-cave",
+          "name": "波斯托伊纳溶洞",
+          "englishName": "Postojna Cave"
+        },
+        {
+          "slug": "novo-mesto-slovenia",
+          "name": "诺沃梅斯托",
+          "englishName": "Novo Mesto"
+        },
+        {
+          "slug": "izola-old-town",
+          "name": "伊佐拉",
+          "englishName": "Izola"
+        }
+      ]
+    }
+  ]
+}

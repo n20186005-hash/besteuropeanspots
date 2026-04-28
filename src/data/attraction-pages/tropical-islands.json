@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "克劳斯尼克",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "热带岛屿",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/xanten-archaeological-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克桑滕古罗马考古公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Xanten Archaeological Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pegel-boppard\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博帕德水位观测站</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pegel Boppard</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/almbachklamm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔姆巴赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Almbachklamm</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aumeister\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥迈斯特啤酒花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aumeister</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amorbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿莫尔巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amorbach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/altenburg-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔滕堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altenburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "xanten-archaeological-park",
-          "name": "克桑滕古罗马考古公园",
-          "englishName": "Xanten Archaeological Park"
+          "slug": "aumeister",
+          "name": "奥迈斯特啤酒花园",
+          "englishName": "Aumeister"
         },
         {
-          "slug": "pegel-boppard",
-          "name": "博帕德水位观测站",
-          "englishName": "Pegel Boppard"
+          "slug": "amorbach",
+          "name": "阿莫尔巴赫",
+          "englishName": "Amorbach"
         },
         {
-          "slug": "almbachklamm",
-          "name": "阿尔姆巴赫峡谷",
-          "englishName": "Almbachklamm"
+          "slug": "altenburg-history",
+          "name": "阿尔滕堡",
+          "englishName": "Altenburg"
         }
       ]
     }

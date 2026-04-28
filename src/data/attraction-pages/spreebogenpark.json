@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "施普雷河弯公园",
@@ -62,7 +62,7 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/speyer-cathedral-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amorbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿莫尔巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amorbach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hann-muenden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    汉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">汉明登</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hann. Münden</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/speyer-cathedral-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/regensburg-stone-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雷根斯堡石桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Regensburg Stone Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fritzlar-medieval-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里茨拉尔中世纪古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fritzlar</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
           "slug": "speyer-cathedral-history",
@@ -70,14 +70,14 @@
           "englishName": "Speyer Cathedral"
         },
         {
-          "slug": "amorbach",
-          "name": "阿莫尔巴赫",
-          "englishName": "Amorbach"
+          "slug": "regensburg-stone-bridge",
+          "name": "雷根斯堡石桥",
+          "englishName": "Regensburg Stone Bridge"
         },
         {
-          "slug": "hann-muenden",
-          "name": "汉明登",
-          "englishName": "Hann. Münden"
+          "slug": "fritzlar-medieval-town-history",
+          "name": "弗里茨拉尔中世纪古城",
+          "englishName": "Fritzlar"
         }
       ]
     }

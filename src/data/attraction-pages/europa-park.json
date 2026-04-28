@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "鲁斯特（Rust）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "欧洲公园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/weilburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Weilburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-hohenzollern\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍亨索伦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hohenzollern Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wernigerode-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦尔尼格罗德城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wernigerode Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/potsdamer-platz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波茨坦广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Potsdamer Platz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marienburg-schloss\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛丽安堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Marienburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/drosselgasse-rudesheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕德斯海姆画眉鸟巷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drosselgasse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "weilburg",
-          "name": "威尔堡",
-          "englishName": "Weilburg"
+          "slug": "potsdamer-platz",
+          "name": "波茨坦广场",
+          "englishName": "Potsdamer Platz"
         },
         {
-          "slug": "burg-hohenzollern",
-          "name": "霍亨索伦城堡",
-          "englishName": "Hohenzollern Castle"
+          "slug": "marienburg-schloss",
+          "name": "玛丽安堡",
+          "englishName": "Schloss Marienburg"
         },
         {
-          "slug": "wernigerode-castle",
-          "name": "韦尔尼格罗德城堡",
-          "englishName": "Wernigerode Castle"
+          "slug": "drosselgasse-rudesheim",
+          "name": "吕德斯海姆画眉鸟巷",
+          "englishName": "Drosselgasse"
         }
       ]
     }

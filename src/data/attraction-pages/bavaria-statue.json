@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "巴伐利亚女神雕像",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burg-eltz-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔茨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Eltz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eberbach-abbey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃伯巴赫修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eberbach Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/seligenstadt-einhard-basilica-herb-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞利根施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Seligenstadt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/timeride-cologne\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    时\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">时光飞驰科隆体验馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">TimeRide Cologne</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kalkar\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔卡尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kalkar</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/michelstadt-hesse-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米歇尔施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Michelstadt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burg-eltz-history",
-          "name": "埃尔茨城堡",
-          "englishName": "Burg Eltz"
+          "slug": "timeride-cologne",
+          "name": "时光飞驰科隆体验馆",
+          "englishName": "TimeRide Cologne"
         },
         {
-          "slug": "eberbach-abbey-history",
-          "name": "埃伯巴赫修道院",
-          "englishName": "Eberbach Abbey"
+          "slug": "kalkar",
+          "name": "卡尔卡尔",
+          "englishName": "Kalkar"
         },
         {
-          "slug": "seligenstadt-einhard-basilica-herb-garden",
-          "name": "塞利根施塔特",
-          "englishName": "Seligenstadt"
+          "slug": "michelstadt-hesse-history",
+          "name": "米歇尔施塔特",
+          "englishName": "Michelstadt"
         }
       ]
     }

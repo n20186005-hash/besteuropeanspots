@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅美术馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kaufbeuren-travel-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考夫博伊伦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kaufbeuren</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kleiner-see-mit-karpfen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    有\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">有鲤鱼的小湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kleiner See mit Karpfen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buedingen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比丁根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Büdingen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/speyer-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lorsch-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛尔施隐修院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lorsch Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hartenfels-castle-torgau-spiral-staircase\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈滕费尔斯城堡（绝美螺旋阶梯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hartenfels Castle (Torgau)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kaufbeuren-travel-guide",
-          "name": "考夫博伊伦",
-          "englishName": "Kaufbeuren"
+          "slug": "speyer-cathedral",
+          "name": "施派尔大教堂",
+          "englishName": "Speyer Cathedral"
         },
         {
-          "slug": "kleiner-see-mit-karpfen",
-          "name": "有鲤鱼的小湖",
-          "englishName": "Kleiner See mit Karpfen"
+          "slug": "lorsch-abbey",
+          "name": "洛尔施隐修院",
+          "englishName": "Lorsch Abbey"
         },
         {
-          "slug": "buedingen",
-          "name": "比丁根",
-          "englishName": "Büdingen"
+          "slug": "hartenfels-castle-torgau-spiral-staircase",
+          "name": "哈滕费尔斯城堡（绝美螺旋阶梯）",
+          "englishName": "Hartenfels Castle (Torgau)"
         }
       ]
     }

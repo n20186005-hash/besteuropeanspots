@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "萨尔茨堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "莫扎特广场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gmund-in-caernten-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格明德（隐秘在国家公园旁的艺术家之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gmünd in Kärnten</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/riegersburg-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    里\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">里格斯堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Riegersburg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-ischl-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴德伊舍</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Ischl</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/annasaeule\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安娜柱</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Annasäule</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hohenems-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍恩埃姆斯宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hohenems Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duernstein-wachau\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜伦斯泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dürnstein</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gmund-in-caernten-history",
-          "name": "格明德（隐秘在国家公园旁的艺术家之城）",
-          "englishName": "Gmünd in Kärnten"
+          "slug": "annasaeule",
+          "name": "安娜柱",
+          "englishName": "Annasäule"
         },
         {
-          "slug": "riegersburg-castle-history",
-          "name": "里格斯堡",
-          "englishName": "Riegersburg Castle"
+          "slug": "hohenems-palace",
+          "name": "霍恩埃姆斯宫",
+          "englishName": "Hohenems Palace"
         },
         {
-          "slug": "bad-ischl-history",
-          "name": "巴德伊舍",
-          "englishName": "Bad Ischl"
+          "slug": "duernstein-wachau",
+          "name": "杜伦斯泰因",
+          "englishName": "Dürnstein"
         }
       ]
     }

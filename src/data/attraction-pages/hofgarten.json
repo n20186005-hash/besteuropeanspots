@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "宫廷花园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/der-pschorr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普绍尔啤酒馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Der Pschorr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/corvey-abbey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔维修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corvey Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/drosselgasse-rudesheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕德斯海姆画眉鸟巷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drosselgasse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/karstadt-bremen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔斯塔特不来梅百货</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Karstadt Bremen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/drosselgasse-rudesheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕德斯海姆画眉鸟巷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drosselgasse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/weinheim-double-castle-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏恩海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Weinheim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "der-pschorr",
-          "name": "普绍尔啤酒馆",
-          "englishName": "Der Pschorr"
-        },
-        {
-          "slug": "corvey-abbey-history",
-          "name": "科尔维修道院",
-          "englishName": "Corvey Abbey"
+          "slug": "karstadt-bremen",
+          "name": "卡尔斯塔特不来梅百货",
+          "englishName": "Karstadt Bremen"
         },
         {
           "slug": "drosselgasse-rudesheim",
           "name": "吕德斯海姆画眉鸟巷",
           "englishName": "Drosselgasse"
+        },
+        {
+          "slug": "weinheim-double-castle-city",
+          "name": "魏恩海姆",
+          "englishName": "Weinheim"
         }
       ]
     }

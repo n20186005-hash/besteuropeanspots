@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "奥伯斯多夫 (Oberstdorf)",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "布莱塔赫峡谷",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/celle-half-timbered-city-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    策\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">策勒（五百座木骨架房屋之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Celle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-hornberg-neckar-valley\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍恩贝格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Hornberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/danube-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多瑙沃特古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Danube Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/asisi-panorama-berlin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林墙全景-阿西西全景</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">DIE MAUER / THE WALL - asisi Panorama Berlin</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-doberan-minster\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特多贝兰修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Doberan Minster</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-harzburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴德哈尔茨堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Harzburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "celle-half-timbered-city-history",
-          "name": "策勒（五百座木骨架房屋之城）",
-          "englishName": "Celle"
+          "slug": "asisi-panorama-berlin",
+          "name": "柏林墙全景-阿西西全景",
+          "englishName": "DIE MAUER / THE WALL - asisi Panorama Berlin"
         },
         {
-          "slug": "burg-hornberg-neckar-valley",
-          "name": "霍恩贝格城堡",
-          "englishName": "Burg Hornberg"
+          "slug": "bad-doberan-minster",
+          "name": "巴特多贝兰修道院",
+          "englishName": "Bad Doberan Minster"
         },
         {
-          "slug": "danube-old-town",
-          "name": "多瑙沃特古城",
-          "englishName": "Danube Old Town"
+          "slug": "bad-harzburg",
+          "name": "巴德哈尔茨堡",
+          "englishName": "Bad Harzburg"
         }
       ]
     }

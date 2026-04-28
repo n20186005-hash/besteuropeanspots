@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "弗赖拉辛",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "弗赖拉辛机车世界",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hartenfels-castle-torgau-spiral-staircase\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈滕费尔斯城堡（绝美螺旋阶梯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hartenfels Castle (Torgau)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saarburg-waterfall-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saarburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/free-walking-tour-leipzig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱比锡免费步行导览</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Free Walking Tour Leipzig</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schloss-nordkirchen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺德基兴宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Nordkirchen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/red-city-hall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    红\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">红市政厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Red City Hall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/minden-water-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    明\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">明登</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Minden</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hartenfels-castle-torgau-spiral-staircase",
-          "name": "哈滕费尔斯城堡（绝美螺旋阶梯）",
-          "englishName": "Hartenfels Castle (Torgau)"
+          "slug": "schloss-nordkirchen",
+          "name": "诺德基兴宫",
+          "englishName": "Schloss Nordkirchen"
         },
         {
-          "slug": "saarburg-waterfall-town",
-          "name": "萨尔堡",
-          "englishName": "Saarburg"
+          "slug": "red-city-hall",
+          "name": "红市政厅",
+          "englishName": "Red City Hall"
         },
         {
-          "slug": "free-walking-tour-leipzig",
-          "name": "莱比锡免费步行导览",
-          "englishName": "Free Walking Tour Leipzig"
+          "slug": "minden-water-bridge",
+          "name": "明登",
+          "englishName": "Minden"
         }
       ]
     }

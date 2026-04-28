@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "波茨坦",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "新花园（波茨坦）",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/eiserner-steg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    铁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">铁桥（法兰克福铁桥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eiserner Steg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amorbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿莫尔巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amorbach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tuebingen-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    图\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">图宾根老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tübingen Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bremen-wallanlagen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    不\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">不来梅城墙公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bremen Wallanlagen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/krumme-strasse-2-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克鲁姆街2号塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Krumme Strasse 2 Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schlitz-castle-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施利茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schlitz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "eiserner-steg",
-          "name": "铁桥（法兰克福铁桥）",
-          "englishName": "Eiserner Steg"
+          "slug": "bremen-wallanlagen",
+          "name": "不来梅城墙公园",
+          "englishName": "Bremen Wallanlagen"
         },
         {
-          "slug": "amorbach",
-          "name": "阿莫尔巴赫",
-          "englishName": "Amorbach"
+          "slug": "krumme-strasse-2-tower",
+          "name": "克鲁姆街2号塔楼",
+          "englishName": "Krumme Strasse 2 Tower"
         },
         {
-          "slug": "tuebingen-old-town",
-          "name": "图宾根老城",
-          "englishName": "Tübingen Old Town"
+          "slug": "schlitz-castle-town",
+          "name": "施利茨",
+          "englishName": "Schlitz"
         }
       ]
     }

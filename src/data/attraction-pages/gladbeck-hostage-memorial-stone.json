@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "格拉德贝克（Gladbeck）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "格拉德贝克人质事件纪念碑",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/altes-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林老博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altes Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berlin-wall-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林墙纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berlin Wall Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/angel-of-peace-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    和\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">和平天使</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Angel of Peace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/almbachklamm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔姆巴赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Almbachklamm</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ehrenbreitstein-fortress\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科布伦茨埃伦布赖特施泰因要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ehrenbreitstein Fortress</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calw-hesse-black-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔夫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calw</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "altes-museum",
-          "name": "柏林老博物馆",
-          "englishName": "Altes Museum"
+          "slug": "almbachklamm",
+          "name": "阿尔姆巴赫峡谷",
+          "englishName": "Almbachklamm"
         },
         {
-          "slug": "berlin-wall-memorial",
-          "name": "柏林墙纪念馆",
-          "englishName": "Berlin Wall Memorial"
+          "slug": "ehrenbreitstein-fortress",
+          "name": "科布伦茨埃伦布赖特施泰因要塞",
+          "englishName": "Ehrenbreitstein Fortress"
         },
         {
-          "slug": "angel-of-peace-munich",
-          "name": "和平天使",
-          "englishName": "Angel of Peace"
+          "slug": "calw-hesse-black-forest",
+          "name": "卡尔夫",
+          "englishName": "Calw"
         }
       ]
     }

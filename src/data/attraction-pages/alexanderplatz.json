@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "亚历山大广场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/zittau-germany-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    齐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">齐陶</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zittau</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hirschhorn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希尔施霍恩（内卡河谷的珍珠）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hirschhorn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/quedlinburg-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奎德林堡老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Quedlinburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/trier-roman-monuments\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特里尔古罗马遗迹</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roman Monuments of Trier</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/anhalter-bahnhof\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林安哈尔特火车站遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Anhalter Bahnhof</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kaiser-wilhelm-denkmal\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威廉皇帝纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kaiser Wilhelm Denkmal</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "zittau-germany-history",
-          "name": "齐陶",
-          "englishName": "Zittau"
+          "slug": "trier-roman-monuments",
+          "name": "特里尔古罗马遗迹",
+          "englishName": "Roman Monuments of Trier"
         },
         {
-          "slug": "hirschhorn",
-          "name": "希尔施霍恩（内卡河谷的珍珠）",
-          "englishName": "Hirschhorn"
+          "slug": "anhalter-bahnhof",
+          "name": "柏林安哈尔特火车站遗址",
+          "englishName": "Anhalter Bahnhof"
         },
         {
-          "slug": "quedlinburg-old-town-history",
-          "name": "奎德林堡老城",
-          "englishName": "Quedlinburg"
+          "slug": "kaiser-wilhelm-denkmal",
+          "name": "威廉皇帝纪念碑",
+          "englishName": "Kaiser Wilhelm Denkmal"
         }
       ]
     }

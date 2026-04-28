@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "艾斯巴赫河浪",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wertheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦尔特海姆（美因河与陶伯河交汇的玻璃之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wertheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/erbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Erbach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/drosselgasse-rudesheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕德斯海姆画眉鸟巷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drosselgasse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/freiberg-silver-mining-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗赖贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Freiberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buerresheim-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比雷斯海姆城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bürresheim Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kaufbeuren-travel-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考夫博伊伦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kaufbeuren</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "wertheim",
-          "name": "韦尔特海姆（美因河与陶伯河交汇的玻璃之城）",
-          "englishName": "Wertheim"
+          "slug": "freiberg-silver-mining-town",
+          "name": "弗赖贝格",
+          "englishName": "Freiberg"
         },
         {
-          "slug": "erbach",
-          "name": "埃尔巴赫",
-          "englishName": "Erbach"
+          "slug": "buerresheim-castle",
+          "name": "比雷斯海姆城堡",
+          "englishName": "Bürresheim Castle"
         },
         {
-          "slug": "drosselgasse-rudesheim",
-          "name": "吕德斯海姆画眉鸟巷",
-          "englishName": "Drosselgasse"
+          "slug": "kaufbeuren-travel-guide",
+          "name": "考夫博伊伦",
+          "englishName": "Kaufbeuren"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林旧铸币厂",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stade-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施塔德老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stade Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stolzenfels-castle-koblenz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施托尔岑费尔斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stolzenfels Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burghausen-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博格豪森城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burghausen Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/deutsches-marinemuseum-wilhelmshaven\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德国海军博物馆（威廉港）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">German Naval Museum Wilhelmshaven</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/waren-mueritz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦（米里茨）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Waren (Müritz)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eberbach-abbey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃伯巴赫修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eberbach Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "stade-old-town",
-          "name": "施塔德老城",
-          "englishName": "Stade Old Town"
+          "slug": "deutsches-marinemuseum-wilhelmshaven",
+          "name": "德国海军博物馆（威廉港）",
+          "englishName": "German Naval Museum Wilhelmshaven"
         },
         {
-          "slug": "stolzenfels-castle-koblenz",
-          "name": "施托尔岑费尔斯城堡",
-          "englishName": "Stolzenfels Castle"
+          "slug": "waren-mueritz",
+          "name": "瓦伦（米里茨）",
+          "englishName": "Waren (Müritz)"
         },
         {
-          "slug": "burghausen-castle",
-          "name": "博格豪森城堡",
-          "englishName": "Burghausen Castle"
+          "slug": "eberbach-abbey-history",
+          "name": "埃伯巴赫修道院",
+          "englishName": "Eberbach Abbey"
         }
       ]
     }

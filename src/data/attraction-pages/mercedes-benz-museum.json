@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "斯图加特",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "奔驰博物馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/denkmal-cecilie-von-issendorf\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊森多夫的塞西莉纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Denkmal Cecilie von Issendorf</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aumeister\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥迈斯特啤酒花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aumeister</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/breitachklamm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布莱塔赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Breitachklamm</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/landsberg-am-lech\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱希河畔兰茨贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landsberg am Lech</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/muenchner-stadtmuseum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    慕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">慕尼黑城市博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Münchner Stadtmuseum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/all-saints-church-wittenberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维滕堡万圣教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">All Saints' Church, Wittenberg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "denkmal-cecilie-von-issendorf",
-          "name": "伊森多夫的塞西莉纪念碑",
-          "englishName": "Denkmal Cecilie von Issendorf"
+          "slug": "landsberg-am-lech",
+          "name": "莱希河畔兰茨贝格",
+          "englishName": "Landsberg am Lech"
         },
         {
-          "slug": "aumeister",
-          "name": "奥迈斯特啤酒花园",
-          "englishName": "Aumeister"
+          "slug": "muenchner-stadtmuseum",
+          "name": "慕尼黑城市博物馆",
+          "englishName": "Münchner Stadtmuseum"
         },
         {
-          "slug": "breitachklamm",
-          "name": "布莱塔赫峡谷",
-          "englishName": "Breitachklamm"
+          "slug": "all-saints-church-wittenberg",
+          "name": "维滕堡万圣教堂",
+          "englishName": "All Saints' Church, Wittenberg"
         }
       ]
     }

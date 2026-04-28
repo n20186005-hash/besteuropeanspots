@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "奥格斯堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "富格社区",
@@ -58,22 +58,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/goslar-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈斯拉尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Goslar Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/charlottenburg-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    夏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">夏洛滕堡宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Charlottenburg Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aegidien-church-war-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣埃吉迪恩教堂战争纪念地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aegidien Church War Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schwabisch-hall-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施瓦本哈尔古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwäbisch Hall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-stolberg-harz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施托尔贝格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stolberg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/handwerkerhof-nurnberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纽\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纽伦堡手工业坊巷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Handwerkerhof Nürnberg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "goslar-old-town-history",
-          "name": "戈斯拉尔老城",
-          "englishName": "Goslar Old Town"
+          "slug": "schwabisch-hall-old-town",
+          "name": "施瓦本哈尔古城",
+          "englishName": "Schwäbisch Hall"
         },
         {
-          "slug": "charlottenburg-palace",
-          "name": "夏洛滕堡宫",
-          "englishName": "Charlottenburg Palace"
+          "slug": "schloss-stolberg-harz",
+          "name": "施托尔贝格城堡",
+          "englishName": "Stolberg Castle"
         },
         {
-          "slug": "aegidien-church-war-memorial",
-          "name": "圣埃吉迪恩教堂战争纪念地",
-          "englishName": "Aegidien Church War Memorial"
+          "slug": "handwerkerhof-nurnberg",
+          "name": "纽伦堡手工业坊巷",
+          "englishName": "Handwerkerhof Nürnberg"
         }
       ]
     }

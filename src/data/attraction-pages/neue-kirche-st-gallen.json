@@ -16,11 +16,11 @@
     },
     {
       "label": "瑞士",
-      "href": "/destinations/europe"
+      "href": "/destinations/ruishi"
     },
     {
       "label": "圣加仑",
-      "href": "/destinations/europe"
+      "href": "/destinations/ruishi"
     },
     {
       "label": "新教堂（圣加仑）",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/biel-bienne-medieval-old-town-watchmaking\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比尔/比安</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Biel/Bienne</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/la-chaux-de-fonds-watchmaking-utopia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉绍德封</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">La Chaux-de-Fonds</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fribourg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里堡老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fribourg Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/einsiedeln-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾因西德伦修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Einsiedeln Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/morcote-swiss-lake-lugano-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫尔科特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Morcote</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brissago-islands-maggiore\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里萨戈群岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brissago Islands</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "biel-bienne-medieval-old-town-watchmaking",
-          "name": "比尔/比安",
-          "englishName": "Biel/Bienne"
+          "slug": "einsiedeln-abbey",
+          "name": "艾因西德伦修道院",
+          "englishName": "Einsiedeln Abbey"
         },
         {
-          "slug": "la-chaux-de-fonds-watchmaking-utopia",
-          "name": "拉绍德封",
-          "englishName": "La Chaux-de-Fonds"
+          "slug": "morcote-swiss-lake-lugano-history",
+          "name": "莫尔科特",
+          "englishName": "Morcote"
         },
         {
-          "slug": "fribourg-old-town",
-          "name": "弗里堡老城",
-          "englishName": "Fribourg Old Town"
+          "slug": "brissago-islands-maggiore",
+          "name": "布里萨戈群岛",
+          "englishName": "Brissago Islands"
         }
       ]
     }

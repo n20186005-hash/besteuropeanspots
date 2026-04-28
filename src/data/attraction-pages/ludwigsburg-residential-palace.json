@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "路德维希堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "路德维希堡宫殿",
@@ -58,22 +58,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/weimar-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏玛老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Weimar Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/meissen-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迈森大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meissen Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pyrmont-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔蒙特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pyrmont Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/muhlhausen-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mühlhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rakotzbr-cke-kromlau-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉科茨桥（魔鬼桥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rakotzbrücke (Devil‘s Bridge)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-harzburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴德哈尔茨堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Harzburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "weimar-old-town",
-          "name": "魏玛老城",
-          "englishName": "Weimar Old Town"
+          "slug": "muhlhausen-history",
+          "name": "米尔豪森",
+          "englishName": "Mühlhausen"
         },
         {
-          "slug": "meissen-cathedral",
-          "name": "迈森大教堂",
-          "englishName": "Meissen Cathedral"
+          "slug": "rakotzbr-cke-kromlau-park",
+          "name": "拉科茨桥（魔鬼桥）",
+          "englishName": "Rakotzbrücke (Devil‘s Bridge)"
         },
         {
-          "slug": "pyrmont-castle",
-          "name": "皮尔蒙特城堡",
-          "englishName": "Pyrmont Castle"
+          "slug": "bad-harzburg",
+          "name": "巴德哈尔茨堡",
+          "englishName": "Bad Harzburg"
         }
       ]
     }

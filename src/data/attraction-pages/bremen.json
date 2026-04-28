@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/detmold-teutoburg-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    代\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">代特莫尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Detmold</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/meiningen-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迈宁根老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meiningen Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/celle-half-timbered-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    策\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">策勒（五百座木骨架房屋之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Celle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blutenburg-castle-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blutenburg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/spreepark\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施普雷公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Spreepark</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/altstadt-amberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "detmold-teutoburg-forest",
-          "name": "代特莫尔德",
-          "englishName": "Detmold"
+          "slug": "blutenburg-castle-munich",
+          "name": "布伦古堡",
+          "englishName": "Blutenburg Castle"
         },
         {
-          "slug": "meiningen-old-town",
-          "name": "迈宁根老城",
-          "englishName": "Meiningen Old Town"
+          "slug": "spreepark",
+          "name": "施普雷公园",
+          "englishName": "Spreepark"
         },
         {
-          "slug": "celle-half-timbered-town",
-          "name": "策勒（五百座木骨架房屋之城）",
-          "englishName": "Celle"
+          "slug": "altstadt-amberg",
+          "name": "安贝格老城",
+          "englishName": "Amberg Old Town"
         }
       ]
     }

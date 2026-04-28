@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅哈芬",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅哈芬动物园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/franzoesischer-dom\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    法\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">法兰西大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Französischer Dom</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hirschhorn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希尔施霍恩（内卡河谷的珍珠）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hirschhorn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wasserburg-am-inn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因河畔瓦瑟堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wasserburg am Inn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bad-wimpfen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特温普芬</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Wimpfen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wuerzburg-residence-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维尔茨堡主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Würzburg Residence</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wiblingen-abbey-library\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维布林根修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wiblingen Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "franzoesischer-dom",
-          "name": "法兰西大教堂",
-          "englishName": "Französischer Dom"
+          "slug": "bad-wimpfen",
+          "name": "巴特温普芬",
+          "englishName": "Bad Wimpfen"
         },
         {
-          "slug": "hirschhorn",
-          "name": "希尔施霍恩（内卡河谷的珍珠）",
-          "englishName": "Hirschhorn"
+          "slug": "wuerzburg-residence-history",
+          "name": "维尔茨堡主教宫",
+          "englishName": "Würzburg Residence"
         },
         {
-          "slug": "wasserburg-am-inn",
-          "name": "因河畔瓦瑟堡",
-          "englishName": "Wasserburg am Inn"
+          "slug": "wiblingen-abbey-library",
+          "name": "维布林根修道院",
+          "englishName": "Wiblingen Abbey"
         }
       ]
     }

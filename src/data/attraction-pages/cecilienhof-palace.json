@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "波茨坦",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "塞西琳霍夫宫",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/baumkronenpfad-hoherodskopf\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍赫罗德科普夫树顶步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Baumkronenpfad Hoherodskopf</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lohr-am-main-snow-white\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    美\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">美因河畔洛尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lohr am Main</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ratzeburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉策堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ratzeburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bruehls-terrace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布吕尔平台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brühl's Terrace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/erfurt-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔福特大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Erfurt Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/asamkirche\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿桑教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Asamkirche</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "baumkronenpfad-hoherodskopf",
-          "name": "霍赫罗德科普夫树顶步道",
-          "englishName": "Baumkronenpfad Hoherodskopf"
+          "slug": "bruehls-terrace",
+          "name": "布吕尔平台",
+          "englishName": "Brühl's Terrace"
         },
         {
-          "slug": "lohr-am-main-snow-white",
-          "name": "美因河畔洛尔",
-          "englishName": "Lohr am Main"
+          "slug": "erfurt-cathedral",
+          "name": "埃尔福特大教堂",
+          "englishName": "Erfurt Cathedral"
         },
         {
-          "slug": "ratzeburg",
-          "name": "拉策堡",
-          "englishName": "Ratzeburg"
+          "slug": "asamkirche",
+          "name": "阿桑教堂",
+          "englishName": "Asamkirche"
         }
       ]
     }

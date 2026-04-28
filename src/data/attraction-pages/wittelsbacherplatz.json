@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "维特尔斯巴赫广场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lokwelt-freilassing\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗赖拉辛机车世界</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lokwelt Freilassing</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/detmold-teutoburg-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    代\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">代特莫尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Detmold</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/limburg-st-marys-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林堡圣母教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St. Mary‘s Church, Limburg an der Lahn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/baumkronenpfad-hoherodskopf\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍赫罗德科普夫树顶步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Baumkronenpfad Hoherodskopf</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/main-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    美\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">美因塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Main Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bremen-town-musicians\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    不\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">不莱梅城市乐手</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Town Musicians of Bremen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lokwelt-freilassing",
-          "name": "弗赖拉辛机车世界",
-          "englishName": "Lokwelt Freilassing"
+          "slug": "baumkronenpfad-hoherodskopf",
+          "name": "霍赫罗德科普夫树顶步道",
+          "englishName": "Baumkronenpfad Hoherodskopf"
         },
         {
-          "slug": "detmold-teutoburg-forest",
-          "name": "代特莫尔德",
-          "englishName": "Detmold"
+          "slug": "main-tower",
+          "name": "美因塔",
+          "englishName": "Main Tower"
         },
         {
-          "slug": "limburg-st-marys-cathedral",
-          "name": "林堡圣母教堂",
-          "englishName": "St. Mary‘s Church, Limburg an der Lahn"
+          "slug": "bremen-town-musicians",
+          "name": "不莱梅城市乐手",
+          "englishName": "Town Musicians of Bremen"
         }
       ]
     }

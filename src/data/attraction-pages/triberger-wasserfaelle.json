@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "特里贝格",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "特里贝格瀑布",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skyros-island\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯基罗斯岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skyros</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/staffa-national-nature-reserve-fingals-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    芬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">芬戈尔洞（斯塔法岛国家自然保护区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staffa National Nature Reserve - Fingal's Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ochtinska-aragonite-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥赫廷斯卡文石洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ochtinská Aragonite Cave</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/arribes-del-duero-natural-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿里贝斯·德尔·杜罗自然公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arribes del Duero Natural Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burghausen-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博格豪森城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burghausen Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/porthyn-hyfryd\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    珀\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">珀辛·海弗里德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Porthyn Hyfryd</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "skyros-island",
-          "name": "斯基罗斯岛",
-          "englishName": "Skyros"
+          "slug": "arribes-del-duero-natural-park",
+          "name": "阿里贝斯·德尔·杜罗自然公园",
+          "englishName": "Arribes del Duero Natural Park"
         },
         {
-          "slug": "staffa-national-nature-reserve-fingals-cave",
-          "name": "芬戈尔洞（斯塔法岛国家自然保护区）",
-          "englishName": "Staffa National Nature Reserve - Fingal's Cave"
+          "slug": "burghausen-castle-history",
+          "name": "博格豪森城堡",
+          "englishName": "Burghausen Castle"
         },
         {
-          "slug": "ochtinska-aragonite-cave",
-          "name": "奥赫廷斯卡文石洞",
-          "englishName": "Ochtinská Aragonite Cave"
+          "slug": "porthyn-hyfryd",
+          "name": "珀辛·海弗里德",
+          "englishName": "Porthyn Hyfryd"
         }
       ]
     }

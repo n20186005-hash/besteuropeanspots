@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "施泰因加登",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "维斯朝圣教堂",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/magdeburg-water-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马格德堡水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Magdeburg Water Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lichtentaler-allee\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利希滕塔勒林荫道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lichtentaler Allee</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bavarian-national-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴伐利亚国家博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bavarian National Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/altenburg-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔滕堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altenburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marienburg-schloss\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛丽安堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Marienburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schiltach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希尔塔赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schiltach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "magdeburg-water-bridge",
-          "name": "马格德堡水桥",
-          "englishName": "Magdeburg Water Bridge"
+          "slug": "altenburg-history",
+          "name": "阿尔滕堡",
+          "englishName": "Altenburg"
         },
         {
-          "slug": "lichtentaler-allee",
-          "name": "利希滕塔勒林荫道",
-          "englishName": "Lichtentaler Allee"
+          "slug": "marienburg-schloss",
+          "name": "玛丽安堡",
+          "englishName": "Schloss Marienburg"
         },
         {
-          "slug": "bavarian-national-museum",
-          "name": "巴伐利亚国家博物馆",
-          "englishName": "Bavarian National Museum"
+          "slug": "schiltach",
+          "name": "希尔塔赫",
+          "englishName": "Schiltach"
         }
       ]
     }

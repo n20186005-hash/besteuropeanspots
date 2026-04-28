@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "吉森",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "吉森植物园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/braubach-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳巴赫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Braubach Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/erfurt-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔福特老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Erfurt Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schwerin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什未林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwerin Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/konigssee\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    国\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">国王湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Königssee</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wasserburg-am-inn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因河畔瓦瑟堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wasserburg am Inn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-hornberg-neckar-valley\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍恩贝格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Hornberg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "braubach-castle",
-          "name": "布劳巴赫城堡",
-          "englishName": "Braubach Castle"
+          "slug": "konigssee",
+          "name": "国王湖",
+          "englishName": "Königssee"
         },
         {
-          "slug": "erfurt-old-town",
-          "name": "埃尔福特老城",
-          "englishName": "Erfurt Old Town"
+          "slug": "wasserburg-am-inn",
+          "name": "因河畔瓦瑟堡",
+          "englishName": "Wasserburg am Inn"
         },
         {
-          "slug": "schwerin-castle",
-          "name": "什未林城堡",
-          "englishName": "Schwerin Castle"
+          "slug": "burg-hornberg-neckar-valley",
+          "name": "霍恩贝格城堡",
+          "englishName": "Burg Hornberg"
         }
       ]
     }

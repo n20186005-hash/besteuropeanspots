@@ -1,0 +1,85 @@
+{
+  "slug": "guedelon-history",
+  "template": "history",
+  "metadata": {
+    "title": "盖德隆堡历史溯源｜中世纪工匠实验：从零复刻一座13世纪城堡的前世今生",
+    "description": "盖德隆堡不是古迹，而是一场疯狂的现代实验——几十名工匠仅用中世纪技术，在法国森林里从零建造一座城堡。走进这段用石头、汗水和痴迷写就的历史传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "约讷省",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "盖德隆堡",
+      "href": "/attractions/guedelon-history"
+    }
+  ],
+  "hero": {
+    "title": "盖德隆堡・Guédelon・法国・约讷省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在法国勃艮第的密林深处，有一座从未存在于任何历史地图上的城堡。它没有骑士的传说，没有战争的伤痕，却比任何一座真正的古迹都更加惊心动魄。因为<strong>盖德隆堡</strong>，是1997年才动工的项目——几十名石匠、木匠、铁匠，<strong>拒绝使用任何现代工具</strong>，只靠13世纪的技术和双手，试图在25年内建成一座完全真实的“中世纪城堡”。这不是怀旧，不是影视基地，而是一场关于时间的残酷实验。抛开游玩攻略，走进盖德隆堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">盖德隆堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Guédelon</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Guédelon</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">约讷省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">盖德隆堡的“起源”不在中世纪，而在1997年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那一年，法国历史学者兼城堡修复专家<strong>米歇尔·居约</strong>（Michel Guyot）做了一个近乎疯狂的决定：在勃艮第的森林里，用纯中世纪手段建造一座13世纪的城堡。他选中了<strong>约讷省特雷尼镇</strong>（Treigny）外的一片废弃采石场——这里的砂岩曾是建造古教堂的材料，如今将见证一个更大胆的梦想。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">项目最初被嘲讽为“富人的玩具”，但居约坚持把它变成一个<strong>开放性考古实验</strong>：所有工匠必须穿上中世纪服装，使用手斧、绞盘和木制脚手架；马匹代替卡车拖运石块；石灰砂浆由人工搅拌；铁器在露天锻造炉里敲打成型。<strong>甚至连测量工具都只准用绳索和铅垂线</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字“盖德隆”取自附近一条小溪的名字，但很快，它成为人类对抗遗忘的象征。<strong>2010年，法国文化部正式将盖德隆堡列为“历史遗产保护项目”</strong>，这不是因为建筑本身古老，而是因为它重现的古老技艺。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">盖德隆堡的“历史”是一连串被刻意复活的技艺——每一项都足以让现代人惊叹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一记指纹：石匠的算术</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在工地上，最震撼的不是城堡，而是工匠们的<strong>工作方式</strong>。主石匠<strong>弗洛朗</strong>（Florent）曾对《国家地理》说：“我们没有图纸——只有一张13世纪的城堡截面素描。”他们必须通过中世纪手稿中的几何比例、用绳索在地面放样，再重演一遍当年石匠如何计算拱顶应力。<strong>每一块石头都要手动切割</strong>，误差不得超过两厘米——否则整面墙会倾倒。2012年，一面南墙因为计算失误开裂，工匠们花了三个月拆除重建，没人抱怨，因为“13世纪的人也会犯这个错”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二记指纹：铁的尖叫</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">铁匠铺是整个工地的灵魂。<strong>中世纪铁匠</strong>不仅打造工具，还要锻造门栓、铰链和锁具。每把锁都需要手工锉出弹子结构，一个锁扣就要耗费一天。更惊人的是，堡主坚持<strong>所有钉子都用手工锻造</strong>——铸铁脆，必须用熟铁反复折叠锤打。2018年，一架重达200公斤的吊门铁栅栏在锻造过程中断裂，铁匠<strong>埃里克</strong>（Éric）说：“火候不对，就像13世纪的学徒初次上手。”他花了三周重新锻打，直到铁栅栏能平稳滑动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三记指纹：木匠的数学</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的屋顶是巨大的<strong>橡木框架</strong>，不使用任何金属连接件——所有榫接必须严丝合缝。木匠们从当地森林砍伐50年树龄的橡木，用长斧劈出梁柱，再用木楔固定。<strong>2016年主塔封顶时，没有一根钉子，没有一滴胶水</strong>。测量师用铅垂线检验垂直度，误差仅为三毫米——比许多现代建筑还精确。这让在场的结构工程师哑口无言。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">盖德隆堡的真正传奇人物，是那个“疯子和他的追随者”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>米歇尔·居约：用后半生赌一场古代实验</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">米歇尔·居约原本是葡萄酒庄园主，出身勃艮第贵族家庭。他在修复自家13世纪城堡“圣法尔若”时，被石匠的古老手艺深深震撼。<strong>1995年，他卖掉部分家族土地，抵押房产，筹集了300万欧元启动盖德隆项目</strong>。妻子说他“疯了”，朋友劝他“算了”。但他写了一封公开信：“如果我们要理解中世纪的成就，就必须用他们的工具、他们的汗水去建造。”最轰动的是，居约亲自参与<strong>砌石工作</strong>——60岁时，他爬上脚手架，用槌子敲打砂岩，手掌磨出血泡。他说：“我不是老板，我是学徒。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛丽·德·拉·维勒：从建筑师到考古学家</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">项目首席建筑师<strong>玛丽·德·拉·维勒</strong>（Marie de la Ville）是一位专攻中世纪建筑史的学者。她拒绝了所有计算机辅助设计，转而研究13世纪法国国王路易九世时期的城堡图纸。<strong>她发现，当时的建筑师根本不用蓝图</strong>——他们用羊皮纸上的草图、口头命令和现场示范。她在盖德隆堡的工地上复制了这一过程：每天早晨，她用粉笔在石板上画出当天要砌的墙体形状，然后石匠们照做。<strong>2014年，她因白内障导致视力下降，但拒绝做手术</strong>，理由是“13世纪没有眼科医生”——最后在同事强迫下才接受治疗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>工匠群体：沉默的朝圣者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">盖德隆堡的工匠并非演员，而是<strong>真正的职业匠人</strong>。木匠<strong>皮埃尔</strong>（Pierre）曾是巴黎的薪金丰厚的精装修木工，2010年辞职来到工地，年薪只有原先的三分之一。他说：“我每天下班后，可以看到自己亲手打造的那根梁。在巴黎，我看不见自己的工作。”<strong>石匠学徒</strong>艾米丽（Émilie）是考古系毕业生，在这里她学会了用鹤嘴锄开凿石材——她说：“学校的书里写着‘中世纪采石方法’，但只有当你手掌起泡、肩膀疼到睡不着时，才真正明白那不是抽象概念。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有一个细节至今被前来看望的学者津津乐道：<strong>2017年，英国历史学家乔纳森·芬奇</strong>（Jonathan Finch）访问盖德隆时，问一位年迈的铁匠：“您觉得这座城堡能建成吗？”铁匠擦着汗回答：“<strong>建不成也没关系。我们正在建的不是城堡，是我们自己的历史记忆</strong>。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在盖德隆堡工地，流传着几个古怪的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“石匠的诅咒”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，每当工地上有一块石头因为计算错误而碎裂，晚上就有一只猫头鹰在塔楼里叫。当地老人说，那是中世纪石匠的魂灵在嘲笑现代人的笨拙。<strong>2013年，主塔的南墙因地基下陷出现裂缝，连续三晚有猫头鹰飞进工地</strong>。工人们不为所动，只是笑着说：“那个老家伙又在挑毛病了。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“马背上的淑女”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">施工期间，有游客声称在清晨薄雾中看到一位穿中世纪长裙的女子骑马穿过工地。有人猜测那是<strong>阿德莱德·德·盖德隆</strong>的幽灵——村庄资料显示，13世纪确有该地区的小领主姓盖德隆，但没有任何历史记载表明当地曾有城堡。米歇尔·居约接受采访时调侃：“如果她真是幽灵，那她一定很惊讶——我们正在给她的祖先建房子。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“铁匠的梦”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每位新来的铁匠都会被前辈告知：如果后半夜梦到铁锤击打的节奏不对，第二天就必须重新锻打所有工具。这不是迷信——铁匠们发现，<strong>中世纪熟铁散热速度与现代钢不同</strong>，梦中的节奏其实是无意识中对冷却时间错误的感知。2019年，一位学徒忽视了这个梦，结果第二天锻造的锁扣在安装时突然开裂。从此，这个“民间传说”被写进了工地手册。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">盖德隆堡的价值，不在于它是一座“完美的古堡”，而在于它<strong>揭开了历史创造的真相</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当我们在博物馆里惊叹哥特式拱顶的柔韧、十字军城堡的坚固时，很少会去想：那些石块是怎样被运上四十米的高空？铁匠如何在一个简陋的炉子里制造出足以承受城门重量的合页？<strong>盖德隆堡没有记录历史，它重新演绎了历史</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它教会我们一个残酷的真理：<strong>中世纪建筑不是天才的即兴创作，而是成千上万无名工匠用经验、计算和鲜血换来的积累</strong>。今天，每年有30万游客来到这座“新城堡”前，他们看见的不是时光的褶皱，而是时光的断裂——现代人用最笨拙的方式，复刻了祖先最聪明的秘密。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你想亲眼看看那些石匠手上的老茧、铁匠额头上的汗水，听听斧头砍在橡木上沉闷的回响，<strong>👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</strong></p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tornac-village-and-castle-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    托\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">托尔纳克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tornac</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chateau-de-sully-sur-loire-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    叙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">叙利城堡（卢瓦尔河上如漂浮在水面般的宏伟水上护河城古堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Sully-sur-Loire</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chateau-de-vitre-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维特雷城堡（布列塔尼边境极具童话色彩的带吊桥巨型三角堡垒）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Vitré</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "tornac-village-and-castle-ruins",
+          "name": "托尔纳克",
+          "englishName": "Tornac"
+        },
+        {
+          "slug": "chateau-de-sully-sur-loire-history",
+          "name": "叙利城堡（卢瓦尔河上如漂浮在水面般的宏伟水上护河城古堡）",
+          "englishName": "Château de Sully-sur-Loire"
+        },
+        {
+          "slug": "chateau-de-vitre-history",
+          "name": "维特雷城堡（布列塔尼边境极具童话色彩的带吊桥巨型三角堡垒）",
+          "englishName": "Château de Vitré"
+        }
+      ]
+    }
+  ]
+}

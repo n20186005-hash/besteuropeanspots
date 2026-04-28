@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "加米施-帕滕基兴",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "万克缆车",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/industrial-forest-therapy-germany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德国工业巨石的绿色心跳：从鲁尔矿场到黑森林的疗愈之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Green Heartbeat of Germany‘s Industrial Giants: From Ruhr Mines to Black Forest Therapy</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/meiningen-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迈宁根老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meiningen Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stade-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施塔德老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stade Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/altdeutsches-haus-1604\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老德国屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altdeutsches Haus (1604)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/checkpoint-charlie\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查理检查站</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Checkpoint Charlie</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/asamkirche\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿桑教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Asamkirche</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "industrial-forest-therapy-germany",
-          "name": "德国工业巨石的绿色心跳：从鲁尔矿场到黑森林的疗愈之旅",
-          "englishName": "The Green Heartbeat of Germany‘s Industrial Giants: From Ruhr Mines to Black Forest Therapy"
+          "slug": "altdeutsches-haus-1604",
+          "name": "老德国屋",
+          "englishName": "Altdeutsches Haus (1604)"
         },
         {
-          "slug": "meiningen-old-town",
-          "name": "迈宁根老城",
-          "englishName": "Meiningen Old Town"
+          "slug": "checkpoint-charlie",
+          "name": "查理检查站",
+          "englishName": "Checkpoint Charlie"
         },
         {
-          "slug": "stade-old-town",
-          "name": "施塔德老城",
-          "englishName": "Stade Old Town"
+          "slug": "asamkirche",
+          "name": "阿桑教堂",
+          "englishName": "Asamkirche"
         }
       ]
     }

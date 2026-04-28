@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "于塞多夫（Jever）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "伊森多夫的塞西莉纪念碑",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tittmoning-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒂特莫宁城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tittmoning Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-wimpfen-im-tal\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特温普芬</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Wimpfen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alpirsbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔皮斯巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alpirsbach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/mauerpark\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫尔公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mauerpark</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maulbronn-monastery-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    毛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">毛尔布龙修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maulbronn Monastery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bautzen-sorbian-culture-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    包\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">包岑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bautzen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "tittmoning-castle",
-          "name": "蒂特莫宁城堡",
-          "englishName": "Tittmoning Castle"
+          "slug": "mauerpark",
+          "name": "莫尔公园",
+          "englishName": "Mauerpark"
         },
         {
-          "slug": "bad-wimpfen-im-tal",
-          "name": "巴特温普芬",
-          "englishName": "Bad Wimpfen"
+          "slug": "maulbronn-monastery-history",
+          "name": "毛尔布龙修道院",
+          "englishName": "Maulbronn Monastery"
         },
         {
-          "slug": "alpirsbach",
-          "name": "阿尔皮斯巴赫",
-          "englishName": "Alpirsbach"
+          "slug": "bautzen-sorbian-culture-history",
+          "name": "包岑",
+          "englishName": "Bautzen"
         }
       ]
     }

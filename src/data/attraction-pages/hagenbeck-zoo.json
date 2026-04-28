@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "哈根贝克动物园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/erlebnis-zoo-hannover\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    汉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">汉诺威冒险动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Erlebnis-Zoo Hannover</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/partnachklamm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕特纳赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Partnachklamm</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gelnhausen-kaiserpfalz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    盖\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">盖尔恩豪森（巴巴罗萨行宫）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gelnhausen (Kaiserpfalz)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/berlin-museum-of-medical-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林夏里特医院医学史博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berlin Museum of Medical History of the Charité</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marburg-old-town-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马尔堡老城与伯爵城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marburg Old Town and Landgrave‘s Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lindau\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林道老城区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lindau Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "erlebnis-zoo-hannover",
-          "name": "汉诺威冒险动物园",
-          "englishName": "Erlebnis-Zoo Hannover"
+          "slug": "berlin-museum-of-medical-history",
+          "name": "柏林夏里特医院医学史博物馆",
+          "englishName": "Berlin Museum of Medical History of the Charité"
         },
         {
-          "slug": "partnachklamm",
-          "name": "帕特纳赫峡谷",
-          "englishName": "Partnachklamm"
+          "slug": "marburg-old-town-castle",
+          "name": "马尔堡老城与伯爵城堡",
+          "englishName": "Marburg Old Town and Landgrave‘s Castle"
         },
         {
-          "slug": "gelnhausen-kaiserpfalz",
-          "name": "盖尔恩豪森（巴巴罗萨行宫）",
-          "englishName": "Gelnhausen (Kaiserpfalz)"
+          "slug": "lindau",
+          "name": "林道老城区",
+          "englishName": "Lindau Old Town"
         }
       ]
     }

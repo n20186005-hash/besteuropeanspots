@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "哈尔施塔特",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "哈尔施塔特全景观景台",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/herberstein-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    海\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">海尔贝施泰因城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Herberstein Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/krems-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷姆斯老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Krems Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kufstein-fortress\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库夫施泰因要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kufstein Fortress</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hallstatt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈尔施塔特镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hallstatt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-benedikt-pass-oberschwarzenbach-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣本尼迪克特山口与上施瓦岑巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sankt Benedikt Pass & Oberschwarzenbach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/traunkirchen-austria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特劳恩基兴</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Traunkirchen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "herberstein-castle",
-          "name": "海尔贝施泰因城堡",
-          "englishName": "Herberstein Castle"
+          "slug": "hallstatt",
+          "name": "哈尔施塔特镇",
+          "englishName": "Hallstatt"
         },
         {
-          "slug": "krems-old-town",
-          "name": "克雷姆斯老城",
-          "englishName": "Krems Old Town"
+          "slug": "st-benedikt-pass-oberschwarzenbach-history",
+          "name": "圣本尼迪克特山口与上施瓦岑巴赫",
+          "englishName": "Sankt Benedikt Pass & Oberschwarzenbach"
         },
         {
-          "slug": "kufstein-fortress",
-          "name": "库夫施泰因要塞",
-          "englishName": "Kufstein Fortress"
+          "slug": "traunkirchen-austria",
+          "name": "特劳恩基兴",
+          "englishName": "Traunkirchen"
         }
       ]
     }

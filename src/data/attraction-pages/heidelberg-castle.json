@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "海德堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "海德堡城堡",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/celle-half-timbered-city-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    策\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">策勒（五百座木骨架房屋之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Celle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/muehlhausen-thuringia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mühlhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wiblingen-abbey-library\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维布林根修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wiblingen Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/idar-oberstein-felsenkirche\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊德尔-奥伯施泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Idar-Oberstein</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maulbronn-monastery-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    毛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">毛尔布龙修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maulbronn Monastery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/michelstadt-fachwerkhaus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米歇尔施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Michelstadt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "celle-half-timbered-city-history",
-          "name": "策勒（五百座木骨架房屋之城）",
-          "englishName": "Celle"
+          "slug": "idar-oberstein-felsenkirche",
+          "name": "伊德尔-奥伯施泰因",
+          "englishName": "Idar-Oberstein"
         },
         {
-          "slug": "muehlhausen-thuringia",
-          "name": "米尔豪森",
-          "englishName": "Mühlhausen"
+          "slug": "maulbronn-monastery-history",
+          "name": "毛尔布龙修道院",
+          "englishName": "Maulbronn Monastery"
         },
         {
-          "slug": "wiblingen-abbey-library",
-          "name": "维布林根修道院",
-          "englishName": "Wiblingen Abbey"
+          "slug": "michelstadt-fachwerkhaus",
+          "name": "米歇尔施塔特",
+          "englishName": "Michelstadt"
         }
       ]
     }

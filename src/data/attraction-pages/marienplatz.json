@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "玛利亚广场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dinkelsbuehl-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    丁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">丁克尔斯比尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinkelsbühl</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/miltenberg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔滕贝格（美因河畔的珍珠）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Miltenberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/limburg-lahn-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林堡（兰河畔林堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Limburg an der Lahn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dachau-concentration-camp-memorial-site\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达豪集中营纪念遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dachau Concentration Camp Memorial Site</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pirna-saxon-switzerland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pirna</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/meersburg-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔斯堡旧堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meersburg Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "dinkelsbuehl-old-town",
-          "name": "丁克尔斯比尔老城",
-          "englishName": "Dinkelsbühl"
+          "slug": "dachau-concentration-camp-memorial-site",
+          "name": "达豪集中营纪念遗址",
+          "englishName": "Dachau Concentration Camp Memorial Site"
         },
         {
-          "slug": "miltenberg-old-town",
-          "name": "米尔滕贝格（美因河畔的珍珠）",
-          "englishName": "Miltenberg"
+          "slug": "pirna-saxon-switzerland",
+          "name": "皮尔纳",
+          "englishName": "Pirna"
         },
         {
-          "slug": "limburg-lahn-history",
-          "name": "林堡（兰河畔林堡）",
-          "englishName": "Limburg an der Lahn"
+          "slug": "meersburg-castle-history",
+          "name": "梅尔斯堡旧堡",
+          "englishName": "Meersburg Castle"
         }
       ]
     }

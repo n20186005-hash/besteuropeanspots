@@ -1,0 +1,85 @@
+{
+  "slug": "bergerac-history",
+  "template": "history",
+  "metadata": {
+    "title": "贝热拉克历史溯源｜法国多尔多涅河畔的中世纪酒乡与《大鼻子情圣》西哈诺传奇",
+    "description": "探秘多尔多涅河畔的贝热拉克：从百年葡萄酒贸易到西哈诺·德·贝热拉克的剑与笔。一段被遗忘的中世纪往事，一座藏在葡萄园里的文学秘境。点击深入。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "贝热拉克（多尔多涅省）",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "贝热拉克",
+      "href": "/attractions/bergerac-history"
+    }
+  ],
+  "hero": {
+    "title": "贝热拉克・Bergerac・法国・贝热拉克（多尔多涅省）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">贝热拉克（Bergerac），一座被多尔多涅河温柔环抱的中世纪小城，在法国西南部的葡萄园中沉睡了数百年。这里不仅是顶级蒙巴齐亚克（Monbazillac）甜酒的故乡，更因一位传奇剑客兼作家的名字而载入文学史——<strong>西哈诺·德·贝热拉克（Cyrano de Bergerac）</strong>。抛开游玩攻略，走进贝热拉克的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">贝热拉克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Bergerac</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Bergerac</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">贝热拉克（多尔多涅省）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝热拉克的诞生，写在多尔多涅河的水波与石灰岩之间。考古证据显示，早在<strong>高卢-罗马时期</strong>，这里就有一处名为“Vetus Locus”（老地方）的聚居点。但真正的城市雏形出现在<strong>12世纪</strong>，彼时阿基坦公国处于英法两国的权力拉锯中。当时的贝热拉克凭借河流运输，成为重要的<strong>盐和葡萄酒的集散地</strong>。地名“Bergerac”的来源众说纷纭，最可信的版本是源自拉丁语“Bergeracum”，意为“牧羊人之地”——山坡上的羊群曾见证了第一批葡萄藤的扎根。<strong>1246年</strong>，贝热拉克获得城市宪章，正式成为一座自由市。中世纪的城墙、狭窄的石巷、河边的码头——这些遗迹至今仍能触摸。贝热拉克的出生，不是为了战争，而是为了贸易，尤其是那桶桶顺着多尔多涅河运往波尔多、再销往北海的黄金液体：葡萄酒。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝热拉克的历史，是一部由河流、酒桶与火枪写成的编年史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>百年战争中的摇摆命运</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从<strong>1337年到1453年</strong>，英法之间的百年战争让贝热拉克反复易主。城市一度被英国控制，城墙上的弩箭眼和塔楼至今仍保留着<strong>14世纪</strong>的防御痕迹。当地贵族在英王与法王之间周旋，葡萄园却从未停止生长——战争期间，酒商们甚至用酒桶走私情报。<strong>1453年</strong>法军彻底收复阿基坦后，贝热拉克迎来了和平的复兴期。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>宗教战争的伤痕</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>16世纪</strong>的宗教改革将贝热拉克推入另一场风暴。这里成为新教（胡格诺派）的重要据点之一。<strong>1575年</strong>，贝热拉克曾短暂被新教军队占领，随后在<strong>1621年</strong>被法国国王路易十三的军队围攻。几场大火烧毁了部分木质建筑，但古老的石砌酒窖幸存下来。这些地下的拱形酒窖如今成为城市特殊的历史迷宫，一些深达<strong>6米</strong>，曾藏匿过逃难的教徒与违禁的葡萄酒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>19世纪的酒乡复兴</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">进入<strong>19世纪</strong>，葡萄根瘤蚜虫病害几乎摧毁了所有葡萄园，但贝热拉克人用美国砧木重新嫁接，顽强复活了这片土地。<strong>1900年代</strong>初，贝热拉克的葡萄酒正式获得AOC（原产地命名控制）认证。河边的老码头静静见证着：那些曾经装满“黑葡萄酒”（claret）的木桶，如今变成了蒙巴齐亚克的金色贵腐甜酒。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>西哈诺·德·贝热拉克（Cyrano de Bergerac，1619–1655）——剑与笔的巨人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的名字就是一座城市的名片，但你可知，真实的西哈诺并非戏剧中那个为心爱之人决斗的多情剑客，而是一位<strong>疯狂的哲学家、讽刺作家、科幻小说先驱</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">西哈诺·萨维尼安·德·贝热拉克（Cyrano Savinien de Bergerac）出生在贝热拉克附近的一处庄园。他的父亲是一位地方乡绅，家族在城内拥有房产。<strong>1630年代</strong>，年轻的西哈诺前往巴黎求学，进入著名的<strong>博韦学院</strong>，在那里他结交了莫里哀、拉封丹等未来之星。但他的性格狂放不羁，因屡次出言讽刺学院课程而遭退学。随后他加入军队，成为一名持剑的贵族士兵——他的那场著名的“鼻子决斗”多半是真事：他曾在剧院门口因一位演员嘲笑他的鼻子而拔剑斗殴。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我的鼻子是一头勇敢的巨兽，它先于我的脚步抵达战场。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——西哈诺·德·贝热拉克（据目击者回忆的幽默回击）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">西哈诺的文学成就远超他剑客的名声。他写下了两部令人惊叹的作品：<strong>《另一个世界：月球国家和帝国的滑稽故事》</strong>（1657年出版）和<strong>《太阳帝国》</strong>。在这些小说中，他想象出用火箭船飞上月球、见到居住着四腿人类的文明，甚至讽刺了地球上的宗教和君主制。这些创作比儒勒·凡尔纳早了近<strong>两百年</strong>，堪称科幻小说的鼻祖。<strong>1655年</strong>，西哈诺在巴黎被一块坠落的房梁砸成重伤，不治身亡，年仅36岁。他的遗体最初埋在巴黎，但在<strong>19世纪</strong>，贝热拉克的市民们为了纪念他，在城内的<strong>圣雅克教堂</strong>（Église Saint-Jacques）内立起一座石碑，上面铭刻着他的名字和他的名言：“我举起我的剑，就像我举起我的笔。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>勒内·卡松（René Cassin，1887–1976）——和平与法学的守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">若论贝热拉克另一颗明珠，那便是<strong>诺贝尔和平奖得主勒内·卡松</strong>。他出生于贝热拉克的<strong>圣马丁街</strong>（Rue Saint-Martin），父亲是当地一位商人。卡松后来成为国际法学家，不仅是<strong>1948年《世界人权宣言》</strong>的主要起草者之一，还在二战后领导了法国行政法院。他在贝热拉克度过了少年时光，经常在河畔散步，思考战争与公正的界限。<strong>1968年</strong>，他获得诺贝尔和平奖时，曾致信家乡市长：“我永远记得多尔多涅河的流水声，那是自由的声音。”如今，贝热拉克的<strong>卡松博物馆</strong>（Maison des Consuls）内保存着他的部分手稿与和平奖章。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“西哈诺的鼻子还闻得到葡萄酒”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在贝热拉克的老酒窖里，流传着一个有趣的传说：每当夜深人静，老码头旁的<strong>“剑客酒窖”</strong>（Cave du Cyrano）会飘出一阵浓郁的紫罗兰香。当地人相信，那是西哈诺的魂灵在巡视他的葡萄园。据说他生前最爱用鹅毛笔蘸着蒙巴齐亚克酒写诗，并戏称“我的鼻子不是为了闻别的，就是为了分辨好酒年份”。另一则传言称，1919年一位酿酒师在翻新酒窖时，挖出一枚锈迹斑斑的剑柄，上面刻着“C.S. de B.”——有人坚信那正是西哈诺的佩剑残骸。尽管没有实物证据，但每年的<strong>葡萄酒丰收节</strong>，人们仍会在广场上模仿他的决斗表演，将新酒洒向天空。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>神秘的“皇家桥”宝藏</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一则流传于多尔多涅河上的传说，与<strong>16世纪的宗教战争</strong>有关。当时新教军队撤退前，将一箱装满金币的铜箱子沉入河底，藏在“皇家桥”（Pont Royal）的老桥墩边。据说只有每年的<strong>夏至黄昏</strong>，当阳光恰好穿过桥洞，河水会泛起金光。许多寻宝者曾带着网兜下河，但至今无人找到。只有渔夫们偶尔捞起生锈的餐具，笑称那是上帝的玩笑。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝热拉克不只是一座酒乡。它是西哈诺剑与笔的交响，是百年战争与宗教暗涌的化石，更是法国西南部人文精神的微缩殿堂。当你站在多尔多涅河畔，看着夕阳将石灰岩城墙染成琥珀色，你会明白——那些被时间冲刷的故事，从未消退，只是沉睡在酒桶深处，等待一个愿意细品的人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/saint-jean-d-angely\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣让当热利</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saint-Jean-d'Angély</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sarlat-la-caneda-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔拉拉卡内达</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sarlat-la-Canéda</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chateau-d-ancy-le-franc\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    昂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">昂西勒弗朗城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château d'Ancy-le-Franc</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "saint-jean-d-angely",
+          "name": "圣让当热利",
+          "englishName": "Saint-Jean-d'Angély"
+        },
+        {
+          "slug": "sarlat-la-caneda-history",
+          "name": "萨尔拉拉卡内达",
+          "englishName": "Sarlat-la-Canéda"
+        },
+        {
+          "slug": "chateau-d-ancy-le-franc",
+          "name": "昂西勒弗朗城堡",
+          "englishName": "Château d'Ancy-le-Franc"
+        }
+      ]
+    }
+  ]
+}

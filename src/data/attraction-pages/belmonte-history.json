@@ -1,0 +1,85 @@
+{
+  "slug": "belmonte-history",
+  "template": "history",
+  "metadata": {
+    "title": "贝尔蒙特历史溯源｜葡萄牙隐秘犹太人的避难之城与巴西发现者卡布拉尔的故乡",
+    "description": "深入葡萄牙小镇贝尔蒙特，探寻发现巴西的航海家卡布拉尔的出生地，以及五百年间隐秘犹太人坚守信仰的传奇。一段关于信仰、流亡与重生的尘封故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "葡萄牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布朗库堡区",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "贝尔蒙特",
+      "href": "/attractions/belmonte-history"
+    }
+  ],
+  "hero": {
+    "title": "贝尔蒙特・Belmonte・葡萄牙・布朗库堡区",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在葡萄牙东部山区，有一座被时间遗忘的小城——贝尔蒙特。这里是<strong>发现巴西的航海家佩德罗·阿尔瓦雷斯·卡布拉尔</strong>的故乡，更是欧洲历史上最顽强的<strong>隐秘犹太人</strong>社群——贝尔蒙特犹太人——长达五个世纪的避难之城。当你走过鹅卵石街道，每一扇没有门牌的旧门后，都可能藏着一部家族的信仰逃亡史。抛开游玩攻略，走进贝尔蒙特的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">贝尔蒙特</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Belmonte</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Belmonte</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布朗库堡区</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝尔蒙特的名字源自拉丁语“贝尔蒙特”（Bellus Mons），意为“美丽的山”。它坐落于埃斯特雷拉山脉的支脉上，早在罗马时期就有人定居。但真正意义上的建城始于<strong>12世纪</strong>的葡萄牙王国收复失地运动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元<strong>1187年</strong>，葡萄牙国王桑乔一世将这片土地赐予了骑士团，并在此修建了<strong>贝尔蒙特城堡</strong>，用以防御南下的摩尔人。城堡坐落在山顶，俯瞰着泽泽雷河上游的河谷，成为中世纪边陲重镇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它最初的名字并非“Belmonte”，而是“蒙特贝洛”（Montebelo），源自当地一座小山的称谓。后来在<strong>13世纪</strong>的一份皇家档案中，它被正式记录为“贝尔蒙蒂”（Belmonte），意为“美丽的山丘”。这座小城从一开始就带着一种隐秘的气质——城堡的构造并非为了炫耀，而是为了隐蔽与守护。城墙之内，窄巷如迷宫般交织，为后来逃亡的犹太人提供了绝佳的藏身之所。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 犹太人的“黑暗时代”与“光明之约”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1496年</strong>，葡萄牙国王曼努埃尔一世为与西班牙达成联姻，下令驱逐所有犹太人。不愿改宗的犹太人必须离开，留下者只能强制皈依天主教。但在贝尔蒙特这个偏远山区，犹太人选择了第三条路：表面改宗，私下坚守犹太教。他们被称为“<strong>新基督徒</strong>”或“<strong>隐秘犹太人</strong>”（Crypto-Jews）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">接下来的<strong>三个世纪</strong>里，宗教裁判所的阴影笼罩伊比利亚半岛。贝尔蒙特的犹太人却在深夜的地下室里点亮烛台，用葡萄牙语夹杂希伯来语背诵祈祷文。他们在家中墙壁内挖出藏圣经的暗格，把犹太节日伪装成天主教节庆。最惊人的是，这份信仰竟然秘密传承了<strong>五百年</strong>，直到<strong>20世纪70年代</strong>才被外界发现。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们不是改宗者，我们是等待黎明的人。” —— 一位贝尔蒙特犹太老人对历史学家说</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1977年</strong>，以色列拉比访问贝尔蒙特，发现了这个完整的隐秘犹太社群。他们依然遵守安息日，依然在逾越节制作无酵饼，只是从未见过犹太教堂。那一年，一座名为“贝特·埃利雅胡”（Beit Eliahu）的犹太会堂正式建成，成为葡萄牙自宗教裁判所以来第一座新犹太教堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 卡布拉尔：从贝尔蒙特到巴西</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1467年</strong>，佩德罗·阿尔瓦雷斯·卡布拉尔出生在贝尔蒙特城堡旁的一座庄园里。他的家族是葡萄牙王室的重要臣属，父亲曾担任法官。卡布拉尔从小在城堡的阴影下长大，耳濡目染的是航海与帝国的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1500年3月9日</strong>，卡布拉尔率领13艘船队从里斯本出发，本意是绕过非洲好望角前往印度。但4月22日，他们意外在西南方看到一片陆地——这就是后来的巴西。卡布拉尔宣布这片土地归葡萄牙所有，并命名为“<strong>圣十字架之地</strong>”。尽管他的远航初衷是香料，但这次“偏航”改变了世界版图。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，卡布拉尔晚年并不顺利。他因印度航线的混乱而失宠，最终回到贝尔蒙特过着隐退生活。<strong>1520年</strong>，他在家乡去世，葬于当地圣方济各教堂内。至今，教堂内仍有一块简朴的墓碑，只写着“佩德罗·阿尔瓦雷斯·卡布拉尔在此安息”。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 佩德罗·阿尔瓦雷斯·卡布拉尔（Pedro Álvares Cabral）——被命运偏航的发现者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡布拉尔并非最出名的葡萄牙航海家，但他是最具戏剧性的一位。他的父亲是贝尔蒙特城堡的领主，母亲是贵族女眷。卡布拉尔年轻时曾在里斯本宫廷接受教育，精通数学和航海术。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1500年</strong>，曼努埃尔一世任命他率领二次印度远航舰队，其规模是当时葡萄牙最大的。但卡布拉尔的行事风格与船队中经验丰富的船长们（如迪亚士、科埃略）产生冲突。当舰队在大西洋上遇到暴风，四艘船失踪，其中包括迪亚士的船——那位发现好望角的传奇人物就此葬身海底。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡布拉尔没有返回求救，而是继续向西航行。事后有人怀疑他是否故意偏离航线，旨在寻找大西洋中未知的陆地。无论真相如何，巴西的发现让葡萄牙获得了巨大利益。但卡布拉尔在印度洋的糟糕指挥导致他回国后被冷落。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他晚年的生活极为低调。在贝尔蒙特，他修复了家族教堂，并在城堡里种下了一棵<strong>橄榄树</strong>——如今这棵古树依然在城堡院内生长，被认为是葡萄牙最古老的橄榄树之一。当地人传说，卡布拉尔在树下写下了最后一封给国王的信，信中写道：“我发现了陆地，却失去了朋友；我带回财富，却带不回平静。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 贝尔蒙特的拉比——摩西·埃斯波西托（Moisés Esquenazi）——隐秘信仰的守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说卡布拉尔是贝尔蒙特的太阳，那么<strong>摩西·埃斯波西托</strong>就是这座小城的暗夜烛火。他并非土生土长的贝尔蒙特人，而是<strong>20世纪初</strong>从摩洛哥移居葡萄牙的犹太学者。当他听说贝尔蒙特可能有隐秘犹太人时，便独自上山寻找。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在<strong>1929年</strong>的一个深夜，埃斯波西托敲开了一户人家的门。主人警惕地拒绝承认自己信仰犹太教。埃斯波西托用希伯来语吟诵了<strong>“听啊，以色列”</strong>（Sh'ma Yisrael）祈祷文，门内的老人听见后泪流满面——这是他们祖辈在暗室中才敢念诵的经文。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃斯波西托此后每年都悄悄来访，带来犹太历法和经文，逐渐重建了社群的联系。但他始终无法让他们公开身份，因为宗教裁判所的阴影直到<strong>1821年</strong>才正式终结，而民间迫害的记忆更持久。直到<strong>1970年代</strong>，他的工作才开花结果，最终促成了犹太会堂的建立。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，在贝尔蒙特犹太会堂的墙上，挂着一幅埃斯波西托的黑白照片。他的目光深邃，仿佛还在寻找下一个隐秘的犹太人。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 鱼与暗夜：逾越节的秘密信号</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝尔蒙特流传着这样一个故事：在宗教裁判所最严酷的16世纪，每个逾越节前夕，隐秘犹太人家中会秘密烘烤无酵饼。但为了不被邻居告发，他们发明了一种暗号——在自家窗台上放一条<strong>干鳕鱼</strong>。鳕鱼是葡萄牙最常见的食物，不会引起怀疑。只有社群内部知道：鱼头朝向街道，表示今晚有祈祷；鱼尾朝向窗户，表示有危险。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们的祖先教会了鱼沉默，鱼也教会了我们如何活下去。” —— 贝尔蒙特犹太人口述</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 城堡里的摩尔公主</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一则传说与贝尔蒙特城堡有关。据说在12世纪城堡初建时，一位摩尔公主被囚禁于此。她爱上了一名基督教骑士，但骑士为信仰战死。公主每晚爬到最高的塔楼，用阿拉伯语唱一首歌，歌声能让河水倒流。直到今天，在满月的夜晚，还能听到模糊的歌声从塔楼飘出，那是公主的灵魂在等待爱人归来。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝尔蒙特是一座用沉默写成的书。卡布拉尔的野心与遗憾，隐秘犹太人五百年的隐忍与重生，都刻在每一块城砖上。这里没有宏大广场，只有窄巷里藏着的一扇扇犹太暗门。当你站在那里，仿佛能听见16世纪的烛火噼啪作响，看见卡布拉尔在橄榄树下发呆，看见犹太人把摩西五经包进布里埋入花园。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂贝尔蒙特，就懂得了欧洲历史最隐秘的伤疤与最坚韧的信仰。它的价值不在于风景，而在于提醒我们：即使在最黑暗的角落，也有人以尊严守护着文化。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/guimaraes-historical-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉马良斯历史中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Guimarães Historical Centre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pink-street-lisbon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    粉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">粉红街</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pink Street</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ourem-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    欧\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">欧伦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle of Ourém</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "guimaraes-historical-centre",
+          "name": "吉马良斯历史中心",
+          "englishName": "Guimarães Historical Centre"
+        },
+        {
+          "slug": "pink-street-lisbon",
+          "name": "粉红街",
+          "englishName": "Pink Street"
+        },
+        {
+          "slug": "ourem-castle",
+          "name": "欧伦城堡",
+          "englishName": "Castle of Ourém"
+        }
+      ]
+    }
+  ]
+}

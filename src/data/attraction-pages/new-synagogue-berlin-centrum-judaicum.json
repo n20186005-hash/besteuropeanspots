@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林新犹太会堂 - 犹太教中心",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lune-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕讷修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lüne Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/esslingen-medieval-timber-frame-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃斯林根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Esslingen am Neckar</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/weimar-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏玛老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Weimar Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/allied-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    盟\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">盟军博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Allied Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/speyer-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/corvey-abbey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔维修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corvey Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lune-abbey",
-          "name": "吕讷修道院",
-          "englishName": "Lüne Abbey"
+          "slug": "allied-museum",
+          "name": "盟军博物馆",
+          "englishName": "Allied Museum"
         },
         {
-          "slug": "esslingen-medieval-timber-frame-town",
-          "name": "埃斯林根",
-          "englishName": "Esslingen am Neckar"
+          "slug": "speyer-cathedral",
+          "name": "施派尔大教堂",
+          "englishName": "Speyer Cathedral"
         },
         {
-          "slug": "weimar-old-town",
-          "name": "魏玛老城",
-          "englishName": "Weimar Old Town"
+          "slug": "corvey-abbey-history",
+          "name": "科尔维修道院",
+          "englishName": "Corvey Abbey"
         }
       ]
     }

@@ -1,0 +1,85 @@
+{
+  "slug": "todi-history",
+  "template": "history",
+  "metadata": {
+    "title": "托迪历史溯源｜意大利三重城墙下的时光断层，伊特鲁里亚到中世纪的传奇",
+    "description": "在翁布里亚山巅，一座城市拥有三圈城墙，横跨伊特鲁里亚、古罗马与中世纪。雅各布·达·托迪的苦难与诗篇在此流传。翻开托迪的尘封往事，见证山城的永恒守望。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "意大利",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "托迪",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "托迪",
+      "href": "/attractions/todi-history"
+    }
+  ],
+  "hero": {
+    "title": "托迪・Todi・意大利・托迪",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在意大利翁布里亚的群山之巅，有一座小城像是被时光遗忘的琥珀。它叫托迪，拥有<strong>三圈城墙</strong>，分别来自伊特鲁里亚人、古罗马人和中世纪居民。<strong>这并非简单的防御工事，而是一层层叠压的历史年轮</strong>。抛开游玩攻略，走进托迪的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">托迪</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Todi</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Todi</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">意大利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">托迪</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托迪的历史，从一片伊特鲁里亚人的墓地开始。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">大约在<strong>公元前6世纪</strong>，伊特鲁里亚人选择在此处建立定居点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他们称它为“Tutere”，意为“边界之城”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在伊特鲁里亚同盟的版图上，托迪是抵御翁布里亚部落的南端前哨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>城市的名字，本身就烙刻着边疆的血性与孤独</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，伊特鲁里亚文明并未在此长久繁荣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>公元前269年</strong>，罗马人征服了这片土地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拉丁人将“Tutere”改为“Tuder”，并在这里修筑了第一道坚固的城墙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">古罗马人看中了这里的战略价值：山顶易守难攻，俯瞰着台伯河谷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他们将城市规划得井井有条，修建了<strong>蓄水池、神庙和广场</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，在市政宫的底部，依然能看见那段深埋地下的罗马基石。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托迪的胚胎，便是在这种异族征服与文明嫁接中，血肉相连。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托迪的历史印记，是一本用石头写成的编年史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第一页，属于伊特鲁里亚人。他们在山巅设置祭祀场所，留下了神秘的墓穴与青铜雕像。著名的<strong>《托迪战神像》</strong>现藏于梵蒂冈博物馆，便是这座城市最早的灵魂铭文。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二页，属于古罗马人。随着罗马帝国的衰亡，托迪并未沦为废墟。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“公元410年，西哥特人洗劫罗马。但托迪，因其山势险峻，成为难民最后的避难所。城中古罗马人对入侵者说：‘我们的城墙，是在岩石上长出来的’。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>中世纪</strong>是托迪最辉煌的印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>13世纪</strong>，托迪成为独立的城邦共和国，富饶且好战。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市人民开始在罗马城墙之外，修筑第二道、第三道围墙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">三道城墙层层环绕，如同隔世的界碑，将托迪牢牢锁在历史的山巅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>康索拉蒂宫</strong>，也就是市政宫，就在这个时期拔地而起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它那巨大的哥特式窗户，如同山城注视着台伯河谷的眼睛。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每当夕阳西下，城墙的影子拉长，仿佛能听见骑士的马蹄声与商贩的叫卖声，在石阶上千年不绝。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托迪的名人，首推那位苦行的诗人：<strong>雅各布·达·托迪</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>雅各布·达·托迪（Jacopone da Todi，约1230-1306）</strong>，生于托迪的一个贵族家庭。他的前半生，是放纵的律师和乡绅。直到一场悲剧降临——他的妻子，在一次<strong>舞台意外中因地面塌陷而香消玉殒</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">痛失挚爱后，雅各布在妻子衣物下发现了刻有忏悔经文的苦衣。这让他幡然醒悟，从此走上苦修之路。他放弃财产，加入方济各会，成为激进派<strong>“属灵派”</strong>的领袖。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雅各布用翁布里亚方言写下了大量赞美诗。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“圣十字架的诗篇，流淌着最痛苦的光明。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“爱啊，我已被你钉在十字架上，死而复活；我所追求的，是你无尽的目光。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的诗歌充满强烈的忏悔与神性狂喜。<strong>他最著名的作品《圣母哀悼颂》（Stabat Mater Dolorosa）</strong>，至今仍是全球天主教仪式中传唱最广的诗歌之一。然而，他因为批评教皇卜尼法斯八世的腐败，被关押囚禁长达<strong>10年</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雅各布的一生，从富足到破碎，从破碎到圣洁。他的灵魂，就与托迪的三重城墙一样，层层包裹着痛苦与坚韧。如今，他的坟墓安放在<strong>圣福尔图纳托教堂</strong>中，成为这座小城永恒的守护者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">除了雅各布，还有一位不得不提的女性：<strong>马尔凯萨·巴尔迪（Marchesa Baldi）</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她是16世纪托迪的一位强权领主，曾凭借智谋与外交手腕，让托迪在教皇国与地方贵族的夹缝中保持独立。她的事迹，至今仍在巷陌间流传，成为托迪女性力量的象征。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在托迪的老城，流传着一个关于“铁门”的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在古时，城墙外住着一位善良的巫师。他善于治愈疾病，但也因为法术而遭到教会猜忌。一天，军队进城要抓捕他。巫师没有逃离，而是将自己的魔法注入一扇铸铁大门中。他告诉城里居民：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“当灾难降临，你们只需轻抚铁门的纹路，默念我的名字，大门会闭锁城门，让敌人永远迷失在城墙内的迷宫之中。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来，这扇门被称为 <strong>“铁之门”</strong> 。据说，要是深夜里，你在城门洞口走过，能听到铁门内侧传来轻微的摩擦声——那是巫师的灵魂仍在巡游。如今，这扇门仍矗立在通往山顶的某个街角，铁锈斑驳，沉默地守护着托迪最后的秘密。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托迪，就像一本用石头写成的书。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一道城墙，都是一页历史；每一座宫殿，都是一个故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊特鲁里亚的孤独，古罗马的硬朗，中世纪的虔诚与共和精神，都沉淀在它的石阶与广场上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>在托迪，你走的是路，读的是千年。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座城，你就读懂了翁布里亚的灵魂——时间在这里从不仓促，历史永远是过去与现在共存的当下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/etruscan-volterra-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔泰拉伊特鲁里亚遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Etruscan Volterra</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castellaro-lagusello\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯特拉罗-拉古塞洛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castellaro Lagusello</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/carloforte\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡罗福泰</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Carloforte</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "etruscan-volterra-history",
+          "name": "沃尔泰拉伊特鲁里亚遗址",
+          "englishName": "Etruscan Volterra"
+        },
+        {
+          "slug": "castellaro-lagusello",
+          "name": "卡斯特拉罗-拉古塞洛",
+          "englishName": "Castellaro Lagusello"
+        },
+        {
+          "slug": "carloforte",
+          "name": "卡罗福泰",
+          "englishName": "Carloforte"
+        }
+      ]
+    }
+  ]
+}

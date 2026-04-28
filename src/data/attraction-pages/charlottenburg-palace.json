@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "夏洛滕堡宫",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lorsch-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛尔施隐修院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lorsch Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bamberg-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bamberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/diez-castle-oranienstein-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Diez</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chiemsee-bahn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基姆湖窄轨蒸汽火车</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chiemsee-Bahn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/altdeutsches-haus-1604\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老德国屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altdeutsches Haus (1604)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kohlmarkt-braunschweig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔市场（布伦瑞克）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kohlmarkt Braunschweig</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lorsch-abbey",
-          "name": "洛尔施隐修院",
-          "englishName": "Lorsch Abbey"
+          "slug": "chiemsee-bahn",
+          "name": "基姆湖窄轨蒸汽火车",
+          "englishName": "Chiemsee-Bahn"
         },
         {
-          "slug": "bamberg-old-town-history",
-          "name": "班贝格老城",
-          "englishName": "Bamberg Old Town"
+          "slug": "altdeutsches-haus-1604",
+          "name": "老德国屋",
+          "englishName": "Altdeutsches Haus (1604)"
         },
         {
-          "slug": "diez-castle-oranienstein-palace",
-          "name": "迪茨",
-          "englishName": "Diez"
+          "slug": "kohlmarkt-braunschweig",
+          "name": "科尔市场（布伦瑞克）",
+          "englishName": "Kohlmarkt Braunschweig"
         }
       ]
     }

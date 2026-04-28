@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "吕讷堡（Lüneburg）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "吕讷修道院",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rakotzbr-cke-kromlau-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉科茨桥（魔鬼桥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rakotzbrücke (Devil‘s Bridge)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/miltenberg-main-pearl-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔滕贝格（美因河畔的“珍珠”）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Miltenberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gruene-zitadelle-magdeburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    绿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">绿色城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hundertwasser's Green Citadel of Magdeburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stolzenfels-castle-koblenz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施托尔岑费尔斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stolzenfels Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kaiser-wilhelm-memorial-church\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威廉皇帝纪念教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kaiser Wilhelm Memorial Church</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jagdschloss-gelbensande\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    盖\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">盖尔本桑德狩猎宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jagdschloss Gelbensande</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "rakotzbr-cke-kromlau-park",
-          "name": "拉科茨桥（魔鬼桥）",
-          "englishName": "Rakotzbrücke (Devil‘s Bridge)"
+          "slug": "stolzenfels-castle-koblenz",
+          "name": "施托尔岑费尔斯城堡",
+          "englishName": "Stolzenfels Castle"
         },
         {
-          "slug": "miltenberg-main-pearl-history",
-          "name": "米尔滕贝格（美因河畔的“珍珠”）",
-          "englishName": "Miltenberg"
+          "slug": "kaiser-wilhelm-memorial-church",
+          "name": "威廉皇帝纪念教堂",
+          "englishName": "Kaiser Wilhelm Memorial Church"
         },
         {
-          "slug": "gruene-zitadelle-magdeburg",
-          "name": "绿色城堡",
-          "englishName": "Hundertwasser's Green Citadel of Magdeburg"
+          "slug": "jagdschloss-gelbensande",
+          "name": "盖尔本桑德狩猎宫",
+          "englishName": "Jagdschloss Gelbensande"
         }
       ]
     }

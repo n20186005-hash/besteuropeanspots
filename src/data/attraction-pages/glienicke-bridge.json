@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "格利尼克桥",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wasserburg-anholt-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安霍尔特水上城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wasserburg Anholt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schwerin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什未林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwerin Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marienburg-schloss\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛丽安堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Marienburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wismar-hanseatic-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维斯马汉萨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wismar Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/straubing-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施特劳宾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Straubing</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kloster-woeltingerode\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔廷格罗德修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kloster Wöltingerode</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "wasserburg-anholt-guide",
-          "name": "安霍尔特水上城堡",
-          "englishName": "Wasserburg Anholt"
+          "slug": "wismar-hanseatic-old-town",
+          "name": "维斯马汉萨老城",
+          "englishName": "Wismar Old Town"
         },
         {
-          "slug": "schwerin-castle",
-          "name": "什未林城堡",
-          "englishName": "Schwerin Castle"
+          "slug": "straubing-old-town",
+          "name": "施特劳宾",
+          "englishName": "Straubing"
         },
         {
-          "slug": "marienburg-schloss",
-          "name": "玛丽安堡",
-          "englishName": "Schloss Marienburg"
+          "slug": "kloster-woeltingerode",
+          "name": "沃尔廷格罗德修道院",
+          "englishName": "Kloster Wöltingerode"
         }
       ]
     }

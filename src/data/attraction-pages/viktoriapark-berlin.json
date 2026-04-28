@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "维多利亚公园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bamberg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bamberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calw-hesse-black-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔夫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calw</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berlin-wall-memorial-visitor-center\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林墙纪念地访客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Visitor Center of the Berlin Wall Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tauberbischofsheim-old-town-fencing-capital\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    陶\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">陶伯比绍夫斯海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tauberbischofsheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/speyer-cathedral-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lohr-am-main-snow-white\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    美\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">美因河畔洛尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lohr am Main</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bamberg-old-town",
-          "name": "班贝格老城",
-          "englishName": "Bamberg Old Town"
+          "slug": "tauberbischofsheim-old-town-fencing-capital",
+          "name": "陶伯比绍夫斯海姆",
+          "englishName": "Tauberbischofsheim"
         },
         {
-          "slug": "calw-hesse-black-forest",
-          "name": "卡尔夫",
-          "englishName": "Calw"
+          "slug": "speyer-cathedral-history",
+          "name": "施派尔大教堂",
+          "englishName": "Speyer Cathedral"
         },
         {
-          "slug": "berlin-wall-memorial-visitor-center",
-          "name": "柏林墙纪念地访客中心",
-          "englishName": "Visitor Center of the Berlin Wall Memorial"
+          "slug": "lohr-am-main-snow-white",
+          "name": "美因河畔洛尔",
+          "englishName": "Lohr am Main"
         }
       ]
     }

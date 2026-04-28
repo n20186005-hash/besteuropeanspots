@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "盟军博物馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burg-hornberg-neckar-valley\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍恩贝格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Hornberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-wildbad-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特维尔德巴特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Wildbad</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wartburg-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦尔特堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wartburg Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/angel-of-peace-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    和\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">和平天使</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Angel of Peace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/soest-green-sandstone-medieval-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索斯特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Soest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/andernach-medieval-town-cold-water-geyser\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安德纳赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andernach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burg-hornberg-neckar-valley",
-          "name": "霍恩贝格城堡",
-          "englishName": "Burg Hornberg"
+          "slug": "angel-of-peace-munich",
+          "name": "和平天使",
+          "englishName": "Angel of Peace"
         },
         {
-          "slug": "bad-wildbad-guide",
-          "name": "巴特维尔德巴特",
-          "englishName": "Bad Wildbad"
+          "slug": "soest-green-sandstone-medieval-town-history",
+          "name": "索斯特",
+          "englishName": "Soest"
         },
         {
-          "slug": "wartburg-castle",
-          "name": "瓦尔特堡",
-          "englishName": "Wartburg Castle"
+          "slug": "andernach-medieval-town-cold-water-geyser",
+          "name": "安德纳赫",
+          "englishName": "Andernach"
         }
       ]
     }

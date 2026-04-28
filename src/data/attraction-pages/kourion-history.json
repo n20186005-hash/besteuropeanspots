@@ -1,0 +1,85 @@
+{
+  "slug": "kourion-history",
+  "template": "history",
+  "metadata": {
+    "title": "库里翁历史溯源｜塞浦路斯悬崖古城的地震悲歌与考古传奇",
+    "description": "探秘地中海悬崖上的古罗马剧场与精美马赛克，从迈锡尼殖民到毁灭性大地震，聆听考古学家与诗人的惊世发现。抛开攻略，走进库里翁的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "塞浦路斯",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "利马索尔区",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "库里翁",
+      "href": "/attractions/kourion-history"
+    }
+  ],
+  "hero": {
+    "title": "库里翁・Kourion・塞浦路斯・利马索尔区",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这座悬崖之巅的古城，曾见证塞浦路斯最辉煌的希腊化-罗马时代，也在一场深夜地震中瞬间湮灭，留下壮丽的剧场与不灭的马赛克，成为考古学家与诗人魂牵梦萦的秘境。抛开游玩攻略，走进库里翁的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">库里翁</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Kourion</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Kourion</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">塞浦路斯</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">利马索尔区</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>库里翁</strong>的故事，始于公元前13世纪迈锡尼人的远航。传说阿尔戈斯国王阿伽门农的孙子<strong>拉奥斯</strong>带领一群希腊殖民者，在塞浦路斯南岸一处陡峭的崖壁上扎下了根。他们被眼前碧蓝的地中海与天然屏障般的悬崖所震撼，决定在此建城。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城名“Kourion”源自希腊语“Κούριον”，与神话中的<strong>库瑞忒斯（Curetes）</strong> 紧密相连——他们是宙斯的守护者，以战舞和盾牌撞击声掩盖婴儿宙斯的啼哭。另一说是源于当地人崇拜的阿波罗·库瑞乌斯（Apollo Koureus）。无论哪种渊源，这个名字都带着神圣与守护的意味。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的库里翁是一座典型的迈锡尼要塞，城墙依崖而筑，控制着通往内陆的商道。公元前8世纪后，腓尼基人、亚述人和埃及人先后染指，但希腊文化始终是城市的底色。至<strong>公元前4世纪</strong>，库里翁成为塞浦路斯七大城邦之一，铸币上刻有阿波罗头像与三脚鼎，彰显其宗教与政治地位。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地理位置的绝妙</strong>，成就了库里翁的命运。南临大海，北倚特罗多斯山脉，既是天然港口，又是防御工事。但这份傲视海洋的壮美，也埋下了宿命的伏笔——悬崖下的断层带，注定它将在千百年后经受大地的怒吼。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、罗马人的黄金时代（公元前58年—公元365年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗马吞并塞浦路斯后，库里翁迎来了最繁华的世纪。城市被彻底重建：<strong>大理石的剧场</strong>依崖面海而建，可容纳3500人，每逢节日，海风送来演员的台词与观众的欢呼。<strong>浴场、神庙、市场</strong>相继落成，最奢华的是那些<strong>私人宅邸</strong>——地上铺满从希腊和北非运来的彩色马赛克，描绘着阿喀琉斯与忒提斯、阿波罗与达芙妮的神话故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、公元365年的灭顶之灾</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">历史最深刻的印记，往往刻在毁灭之上。<strong>公元365年7月21日凌晨</strong>，一场8级以上的地震将库里翁从地图上抹去。考古学家在后世发掘中发现：被压碎的陶罐里还存有橄榄核，床铺上散落着主人未能带走的珠宝，海神的马赛克被坍塌的屋顶砸出裂缝——一切都定格在那一瞬间。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“大地先是微微颤抖，随即如巨兽翻身般剧烈摇动。我听见山崖崩裂的巨响，海水倒涌，随后便是一片死寂。”——摘自当地一名幸存者刻在陶片上的遗言（现代复制品）。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地震后，幸存者放弃了这座被诅咒的城市，迁往内陆。库里翁就此沉睡1600年，直到19世纪才被考古铲惊醒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、19世纪的考古复兴</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1865年</strong>，美国领事<strong>路易吉·帕尔马·迪·切斯诺拉</strong>在库里翁的荆棘丛中发现了第一片马赛克。他雇佣上百名工人，挖掘出整座剧场、阿喀琉斯马赛克宅邸、以及大量金银器皿。这次发掘虽然野蛮（切斯诺拉甚至用炸药炸开神庙地基），但让世界重新认识了库里翁。今日矗立在悬崖边的白色剧场，是20世纪修复的成果，每年夏季依旧上演古希腊悲剧。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、盗宝者与博物馆之父——路易吉·帕尔马·迪·切斯诺拉（Luigi Palma di Cesnola, 1832–1904）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位意大利血统的美国内战骑兵，1865年被任命为美国驻塞浦路斯领事。他在岛上巡视时，被库里翁悬崖下裸露的马赛克碎片迷住了。没有考古学背景的他，凭着军人的果敢和商人的精明，开始了一场史无前例的挖掘。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>切斯诺拉独断专行</strong>，他禁止其他考古队进入库里翁，自己则像海盗一样翻遍每一寸土地。1867年，他发现了<strong>阿喀琉斯马赛克</strong>——一幅9米长的巨作，描绘阿喀琉斯被交给半人马喀戎教育的场景，色彩之鲜艳令当时欧洲震惊。他还挖出大量玻璃器、青铜像、银盘和金币，总计数万件。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但争议随之而来。英国考古学家指控他<strong>破坏遗址、走私文物</strong>。切斯诺拉的反击是：将所有宝藏运往纽约，<strong>以私人名义出售</strong>。最终，约翰·皮尔庞特·摩根等人出资收购，这批文物成为<strong>大都会艺术博物馆</strong>的奠基收藏之一。切斯诺拉因此被任命为博物馆第一任馆长（1879-1904）。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我听见地下的马蹄声……不是希腊骑兵的，而是我自己的——一个挖掘者的心跳。”——切斯诺拉在日记中写道，形容他在库里翁深夜独自巡视挖掘现场时的恍惚。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今的库里翁，因切斯诺拉的破坏与抢救而复杂地存在着。他留下的马赛克房屋，一半在博物馆，一半在遗址，<strong>他的故事本身就是库里翁的现代传奇</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、诺贝尔诗人的静默凝视——乔治·塞菲里斯（George Seferis, 1900–1971）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1960年，希腊诗人、诺贝尔文学奖得主<strong>乔治·塞菲里斯</strong>访问塞浦路斯。在库里翁的悬崖剧场，他长久驻足。面对大海与残垣，他写下著名诗作《库里翁》：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这海水已沉默，像一块被遗忘的石板/刻着我们祖先的符号/而剧场空无一人/只有风在念诵那些丢失的台词……”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞菲里斯在散文《塞浦路斯笔记》中深情回忆：<strong>“我在库里翁坐了一整个下午，试图听懂脚下石头的私语。夕阳将剧场的座位染成蜂蜜色，我突然理解了——这座城市的真正历史，不是地震杀死了它，而是它选择了在最辉煌的时刻被封存，成为献给海神的祭品。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位诗人与库里翁的羁绊，让这个遗址超越了考古学，成为现代希腊文化与塞浦路斯精神连接的象征。如今，每年夏季的库里翁戏剧节，都会朗诵塞菲里斯的这首诗。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>海妖的珍珠与地震的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老渔夫口中流传着一个故事：<strong>库里翁之所以建在险峻的悬崖上，是为了躲避海妖塞壬的歌声</strong>。但海妖并不甘心，她扮作美貌的少女，潜入城中诱惑了一位年轻祭司。祭司偷走了阿波罗神庙的黄金三脚鼎献给她，三脚鼎的移动触怒了海神波塞冬，于是他在深夜引发地震，将整座城市推入大海。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个版本则更浪漫：地震发生的前夜，<strong>一位渔夫看见海面上浮现出无数发光的珍珠</strong>，像是从月亮上坠落。他认为这是神的预兆，赶紧驾船逃离。次日清晨他返回，发现城池已化为废墟，只有悬崖边的一棵橄榄树屹立不倒——据说那棵树至今仍生长在剧场旁，枝叶年年新绿，从未被海水侵蚀。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“夜里别靠近古老的城墙，你会听见马赛克下面有人哭泣——那是旧城的魂灵在寻找他们被埋藏的黄金。”——利马索尔老渔民安德烈亚斯的警告。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些传说，为考古的理性蒙上一层神秘的面纱。每当月光照亮剧院空荡的座椅，似乎真能听见海涛中夹杂着两千年前的叹息。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂库里翁，不仅是在废墟间辨认罗马时代的轮廓。它的价值在于——<strong>一个文明的辉煌与崩塌，竟在同一片蓝色海景前凝固得如此完整</strong>。剧场、马赛克、银器、陶罐，都是时间写给未来的信。而切斯诺拉的野心与塞菲里斯的诗意，又为这封信加上了现代的注脚。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在悬崖上，你会明白：<strong>强盛不意味着永恒，但伟大的艺术能穿透毁灭</strong>。库里翁的每一片马赛克，都在告诉后来者：建筑会倒塌，文明会陨落，但爱与美的记忆，会在每一次考古铲的清脆声中重生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pano-lefkara\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕诺莱夫卡拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pano Lefkara</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lefkara-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱夫卡拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lefkara</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/church-of-saint-lazarus-larnaca\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉纳卡圣拉撒路教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Church of Saint Lazarus</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "pano-lefkara",
+          "name": "帕诺莱夫卡拉",
+          "englishName": "Pano Lefkara"
+        },
+        {
+          "slug": "lefkara-village",
+          "name": "莱夫卡拉",
+          "englishName": "Lefkara"
+        },
+        {
+          "slug": "church-of-saint-lazarus-larnaca",
+          "name": "拉纳卡圣拉撒路教堂",
+          "englishName": "Church of Saint Lazarus"
+        }
+      ]
+    }
+  ]
+}

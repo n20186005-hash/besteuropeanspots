@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "威廉港 (Wilhelmshaven)",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "德国海军博物馆（威廉港）",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lemgo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱姆戈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lemgo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/besigheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝西希海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Besigheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/celle-half-timbered-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    策\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">策勒（五百座木骨架房屋之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Celle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/landshut-trausnitz-castle-brick-gothic\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰茨胡特（特劳斯尼茨城堡与砖砌哥特）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landshut (Trausnitz Castle and Brick Gothic)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aschaffenburg-schloss-johannisburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿沙芬堡约翰尼斯堡宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Johannisburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/feuchtwangen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福伊希特旺根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Feuchtwangen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "lemgo",
-          "name": "莱姆戈",
-          "englishName": "Lemgo"
+          "slug": "landshut-trausnitz-castle-brick-gothic",
+          "name": "兰茨胡特（特劳斯尼茨城堡与砖砌哥特）",
+          "englishName": "Landshut (Trausnitz Castle and Brick Gothic)"
         },
         {
-          "slug": "besigheim",
-          "name": "贝西希海姆",
-          "englishName": "Besigheim"
+          "slug": "aschaffenburg-schloss-johannisburg",
+          "name": "阿沙芬堡约翰尼斯堡宫",
+          "englishName": "Schloss Johannisburg"
         },
         {
-          "slug": "celle-half-timbered-town",
-          "name": "策勒（五百座木骨架房屋之城）",
-          "englishName": "Celle"
+          "slug": "feuchtwangen",
+          "name": "福伊希特旺根",
+          "englishName": "Feuchtwangen"
         }
       ]
     }

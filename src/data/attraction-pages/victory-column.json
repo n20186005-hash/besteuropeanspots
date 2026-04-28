@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "胜利纪念柱",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/speyer-cathedral-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-vischering\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    菲\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">菲舍林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Vischering</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/coburg-fortress-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科堡要塞（弗兰肯的王冠）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Veste Coburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lindau-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林道老城区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lindau Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alte-nationalgalerie\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老国家艺术画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alte Nationalgalerie</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sachsenhausen-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨克森豪森纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sachsenhausen Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "speyer-cathedral-history",
-          "name": "施派尔大教堂",
-          "englishName": "Speyer Cathedral"
+          "slug": "lindau-old-town",
+          "name": "林道老城区",
+          "englishName": "Lindau Old Town"
         },
         {
-          "slug": "burg-vischering",
-          "name": "菲舍林城堡",
-          "englishName": "Burg Vischering"
+          "slug": "alte-nationalgalerie",
+          "name": "老国家艺术画廊",
+          "englishName": "Alte Nationalgalerie"
         },
         {
-          "slug": "coburg-fortress-history",
-          "name": "科堡要塞（弗兰肯的王冠）",
-          "englishName": "Veste Coburg"
+          "slug": "sachsenhausen-memorial",
+          "name": "萨克森豪森纪念馆",
+          "englishName": "Sachsenhausen Memorial"
         }
       ]
     }

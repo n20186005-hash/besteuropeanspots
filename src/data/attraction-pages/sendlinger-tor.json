@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "森德灵门",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bad-driburg-spa-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特德里堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Driburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/annaberg-buchholz-ore-mountains-mining-woodcarving\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安纳贝格-布赫霍尔茨（厄尔士山脉的矿业与木雕中心）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Annaberg-Buchholz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dinkelsbuehl-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    丁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">丁克尔斯比尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinkelsbühl</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schleissheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施莱斯海姆宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schleissheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gustrow-palace-renaissance-barlach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    居\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">居斯特罗</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Güstrow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/michelstadt-fachwerkhaus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米歇尔施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Michelstadt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bad-driburg-spa-town",
-          "name": "巴特德里堡",
-          "englishName": "Bad Driburg"
+          "slug": "schleissheim-palace",
+          "name": "施莱斯海姆宫",
+          "englishName": "Schleissheim Palace"
         },
         {
-          "slug": "annaberg-buchholz-ore-mountains-mining-woodcarving",
-          "name": "安纳贝格-布赫霍尔茨（厄尔士山脉的矿业与木雕中心）",
-          "englishName": "Annaberg-Buchholz"
+          "slug": "gustrow-palace-renaissance-barlach",
+          "name": "居斯特罗",
+          "englishName": "Güstrow"
         },
         {
-          "slug": "dinkelsbuehl-history",
-          "name": "丁克尔斯比尔",
-          "englishName": "Dinkelsbühl"
+          "slug": "michelstadt-fachwerkhaus",
+          "name": "米歇尔施塔特",
+          "englishName": "Michelstadt"
         }
       ]
     }

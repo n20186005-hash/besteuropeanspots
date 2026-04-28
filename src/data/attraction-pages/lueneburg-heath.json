@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉堡及周边地区（无明确核心城市，以阿姆特占霍夫镇为旅游枢纽）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "吕讷堡石楠花原",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bremen-roland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    不\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">不来梅罗兰雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bremen Roland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rspb-cymru-ynys-lawd\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    R\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">RSPB威尔士南栈自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">RSPB Cymru Ynys Lawd / South Stack Cliffs RSPB Reserve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/berlin-wall-memorial-visitor-center\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林墙纪念地访客中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Visitor Center of the Berlin Wall Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/parco-laghi-blu\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝色湖泊公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parco Laghi Blu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aero-island-aeroskobing\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾尔岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aero Island</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hallingskarvet-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈灵山国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hallingskarvet National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bremen-roland",
-          "name": "不来梅罗兰雕像",
-          "englishName": "Bremen Roland"
+          "slug": "parco-laghi-blu",
+          "name": "蓝色湖泊公园",
+          "englishName": "Parco Laghi Blu"
         },
         {
-          "slug": "rspb-cymru-ynys-lawd",
-          "name": "RSPB威尔士南栈自然保护区",
-          "englishName": "RSPB Cymru Ynys Lawd / South Stack Cliffs RSPB Reserve"
+          "slug": "aero-island-aeroskobing",
+          "name": "艾尔岛",
+          "englishName": "Aero Island"
         },
         {
-          "slug": "berlin-wall-memorial-visitor-center",
-          "name": "柏林墙纪念地访客中心",
-          "englishName": "Visitor Center of the Berlin Wall Memorial"
+          "slug": "hallingskarvet-national-park",
+          "name": "哈灵山国家公园",
+          "englishName": "Hallingskarvet National Park"
         }
       ]
     }

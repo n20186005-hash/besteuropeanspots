@@ -1,0 +1,85 @@
+{
+  "slug": "rovinj-history",
+  "template": "history",
+  "metadata": {
+    "title": "罗维尼历史溯源｜威尼斯色彩下的伊斯特拉明珠与传奇故事",
+    "description": "探索克罗地亚罗维尼的前世今生，从古罗马渔村到威尼斯共和国统治下的山城，钟塔与海港交织成亚得里亚海最浪漫的时空印记。遇见雕塑家梅什特罗维奇与画家席勒的足迹，聆听圣尤菲米亚的奇迹传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "克罗地亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "伊斯特拉县",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "罗维尼（伊斯特拉半岛最浪漫、充满威尼斯色彩的钟塔高地半岛老城）",
+      "href": "/attractions/rovinj-history"
+    }
+  ],
+  "hero": {
+    "title": "罗维尼（伊斯特拉半岛最浪漫、充满威尼斯色彩的钟塔高地半岛老城）・Rovinj・克罗地亚・伊斯特拉县",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">罗维尼，一座从古罗马渔村蜕变为威尼斯风格高地的山城，其钟塔仿佛从圣马可广场借来，倒映在碧蓝的亚得里亚海中。没有忙乱的游船码头，只有蜿蜒的石巷与斑驳的墙垣，记录着伊斯特拉半岛最深沉的历史回声。抛开游玩攻略，走进罗维尼的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">罗维尼（伊斯特拉半岛最浪漫、充满威尼斯色彩的钟塔高地半岛老城）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Rovinj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Rovinj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">克罗地亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">伊斯特拉县</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗维尼的历史远早于威尼斯人到来。早在公元前2世纪，<strong>伊利里亚人</strong>便在此建立定居点，依靠渔获与盐业维生。公元前129年，罗马帝国征服伊斯特拉，将此地命名为 <strong>“Arupsinum”</strong> ，并设立为殖民城市。考古学家在巴塔利巷（Batali）附近发现了罗马时期的马赛克地板与浴场遗址，证明这里曾是富庶的港口聚落。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>城市名字的由来</strong>至今仍存争议。一种说法认为源自凯尔特语的 <strong>“Ruvinium”</strong> ，意为“红色的土地”——这片半岛的土壤因富含铁元素而呈现赭红色。另一种更流行的解释是拉丁语 <strong>“Ruvinia”</strong> ，意为“粗糙之地”，指代礁石密布的海岸线。无论词源如何，罗维尼在公元7世纪斯拉夫人迁徙后经历了短暂的没落，直到13世纪威尼斯共和国将其纳入势力范围。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>真正的转折发生在1283年</strong>。威尼斯公爵授予罗维尼自治城市地位，但要求居民迁居到更易防守的半岛高地。于是原本散落在平原的渔民们，开始用伊斯特拉白色石灰岩在陡峭的山坡上层层搭建房屋，形成了今天看到的螺旋状老城布局。从那时起，罗维尼的名字便与威尼斯的狮旗紧密缠绕在一起。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">威尼斯统治的五个世纪（1283-1797）为罗维尼刻下了最深的纹路。<strong>最显著的标志是圣尤菲米亚教堂的钟塔</strong>——它于1675年竣工，高达62米，完全是威尼斯圣马可钟楼的“缩小版”。不同的是，塔顶矗立着一尊旋转的铜制圣尤菲米亚雕像，她用左手托着棕榈枝，右手握着风向标，俯瞰着整个海湾。当地人说，每当南风刮起，雕像会微微转动，仿佛在给归港的渔船指路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个历史印记藏在 <strong>格里西亚大街（Grisia）</strong> 的石阶上。这条连接老城与海港的蜿蜒小巷，是威尼斯时期贵族与商人的必经之路。每一块石头都被鞋底打磨得光滑如镜，两侧的房屋墙面剥落露出不同年代的涂料：最底层是罗马时期的灰泥，中间是拜占庭的红砖，最外层则是威尼斯人钟爱的赭石黄与珊瑚粉。这些色彩并非装饰，而是历史层积的物理剖面。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1797年威尼斯共和国的覆灭</strong>带来了剧变。罗维尼先后被拿破仑法国、奥地利帝国统治，1815年后成为奥匈帝国的一部分。此时，城市的外来文化与斯拉夫本土文化开始激烈碰撞。奥地利人在老城外修建了新古典主义的剧院和市政厅，试图抹去威尼斯的影子，但居民们固执地保留了伊斯特拉方言中的威尼斯词汇。直到1918年归属意大利、1947年划入南斯拉夫，罗维尼的身份标签始终混合着拉丁与斯拉夫的血脉。这种复杂的双面性，正是它区别于克罗地亚其他海岸城市的独特密码。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>埃贡·席勒：1912年的光影追逐者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1912年4月，奥地利表现主义画家 <strong>埃贡·席勒</strong> 从维也纳逃遁至亚得里亚海沿岸。彼时他刚因“伤风败俗”的裸体画作入狱24天，身心俱疲。在友人建议下，他乘火车抵达普拉，再转小舟来到罗维尼。这座小城尚未被旅游开发，只有渔民、盐工和懒洋洋的猫。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">席勒在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">这里的色调像腐烂的宝石——墙壁是生锈的赭石，海水是铜绿色的胆汁，天空则是一块被揉皱的亚麻布。我从未见过如此诚实的丑陋与美丽并存。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在罗维尼住了三周，画了至少十余幅水彩与速写。最著名的是《罗维尼的屋顶》（1912），画面中扭曲的瓦片与教堂尖顶仿佛在火焰中燃烧，毫无威尼斯风景画的甜腻。席勒刻意避开了钟塔与海港的明信片视角，转而刻画老城北侧贫民区的倾斜房屋——那些被咸风侵蚀的窗棂与晾晒的渔网，透出生活的粗粝与尊严。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>席勒的影响</strong>至今可见：2012年，罗维尼举办了纪念席勒逝世百年特展，并将他当年居住的“小天使客栈”旧址挂牌保护。游客可以沿着他画过的路线，在巴尔达萨雷小巷（Baldassare）找到他画过的红砖墙——虽然已涂上新的白漆，但墙根处仍留着当年他标记的铅笔字迹“E.S. 1912”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>伊万·梅什特罗维奇：石头的低语</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说席勒是罗维尼的过客，那么 <strong>伊万·梅什特罗维奇</strong> 则是此地精神的化身。这位克罗地亚最伟大的雕塑家（1883-1962）出生于德拉戈耶，但成年后频繁往来于罗维尼，因为这里出产伊斯特拉最优质的白色石灰岩。1907年，他在罗维尼东北部的<strong>圣安德烈岛</strong>开设了第一个工作室，专门为维也纳分离派创作巨幅石雕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">梅什特罗维奇曾向朋友解释为何选择此地：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">罗维尼的石头是活的。它们在黎明时发出灰蓝色的光，正午变成米黄色，黄昏时又像燃烧的纸灰。你不需要雕刻它们，只需聆听它们想成为什么形状。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他最著名的罗维尼作品是 <strong>《圣尤菲米亚的怀抱》</strong>（1914年），一座高4米的石雕群像，现藏于市区广场。雕塑中圣人张开双臂，裙褶间藏着一群惊恐的鱼——以此隐喻战争年代渔民的命运。二战期间，墨索里尼政权试图将这座雕像熔铸成炮弹，被当地渔民连夜沉入海底，直到1945年才打捞修复。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，梅什特罗维奇的痕迹几乎被遗忘。唯一能追寻的，是他在卡苏拉巷（Kasula）隐修院墙壁上留下的一幅涂鸦：用凿子刻出的简笔教堂轮廓，下方写着 <strong>“感谢石头”</strong> 。这块墙被玻璃罩保护，成为罗维尼最隐秘的朝圣点。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣尤菲米亚的石棺奇缘</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传公元3世纪，罗马皇帝戴克里先迫害基督徒，少女尤菲米亚因拒绝献祭而被投入竞技场喂狮。狮子却伏在她脚边温顺如猫，恼羞成怒的士兵用剑刺死了她。她的遗体被信徒埋在卡尔西登，但1000年后，一群阿拉伯海盗掘开了她的坟墓，将石棺扔进大海。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">石棺漂流了数月，最终被伊斯特拉海岸的渔夫打捞。渔民们试图将它拖回岸上，但石棺纹丝不动。一个声音从棺中传出：“我是尤菲米亚，我要去能看见钟塔的地方。”于是渔民们架起帆船，顺着风向绕行半岛。当石棺行至罗维尼老城下的礁石时，它突然变轻，漂浮至圣尤菲米亚教堂的断壁前停下。石棺至今安放在教堂祭坛下，每逢她的纪念日（9月16日），渔民们会用橄榄油擦拭它的边缘，相信这能保佑全年渔获丰收。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>钟塔下的叹息</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一则传说与威尼斯人有关。据说15世纪时，一位威尼斯贵族爱上了罗维尼渔民的女儿，但女孩被许配给本地船主。贵族为了赢得她的芳心，许诺用黄金覆盖钟塔。女孩的父亲提出了一个难题：“如果你能让钟塔的钟声永远不响，我就答应你。”贵族买通了敲钟人，连续三天让钟楼沉默。第四天，婚礼即将开始，女孩却跳海自尽——她不愿背叛承诺。从此，罗维尼的钟塔在午夜时分偶尔会自行鸣响，当地人称之为“叹息钟声”。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗维尼的魅力不在于宏伟的宫殿或惊艳的艺术杰作，而在于它是一本打开的历史抄本——每一层墙皮、每一段石阶、每一次钟声，都承载着伊利里亚人、罗马人、威尼斯人、奥地利人与克罗地亚人的记忆。读懂这座城，便是理解地中海文化如何在半岛的蜇孔中发酵：多元却不失完整，浪漫却暗藏悲怆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在钟塔顶端，俯瞰密密麻麻的红色屋顶与港口桅杆时，会想起席勒说的：“美是腐坏的装饰，而真实是斑驳的。” 这正是罗维尼馈赠给旅行者的礼物：在一座小城的皱纹里，触摸欧洲文明的经纬。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/vinkovci-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    温\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">温科夫齐</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vinkovci</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/zadar-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    扎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">扎达尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zadar Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/veliki-tabor-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦利基塔博尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Veliki Tabor Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "vinkovci-town",
+          "name": "温科夫齐",
+          "englishName": "Vinkovci"
+        },
+        {
+          "slug": "zadar-old-town",
+          "name": "扎达尔老城",
+          "englishName": "Zadar Old Town"
+        },
+        {
+          "slug": "veliki-tabor-castle",
+          "name": "韦利基塔博尔城堡",
+          "englishName": "Veliki Tabor Castle"
+        }
+      ]
+    }
+  ]
+}

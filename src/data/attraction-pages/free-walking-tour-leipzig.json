@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "莱比锡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "莱比锡免费步行导览",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stade-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施塔德老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stade Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/seligenstadt-einhard-basilica-herb-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞利根施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Seligenstadt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/erfurt-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔福特老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Erfurt Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/passau-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕绍</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Passau</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nordlingen-ries-crater-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    讷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">讷德林根（陨石坑小镇）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nördlingen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-ludwigslust-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    路\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">路德维希斯卢斯特宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ludwigslust Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "stade-old-town",
-          "name": "施塔德老城",
-          "englishName": "Stade Old Town"
+          "slug": "passau-history",
+          "name": "帕绍",
+          "englishName": "Passau"
         },
         {
-          "slug": "seligenstadt-einhard-basilica-herb-garden",
-          "name": "塞利根施塔特",
-          "englishName": "Seligenstadt"
+          "slug": "nordlingen-ries-crater-town",
+          "name": "讷德林根（陨石坑小镇）",
+          "englishName": "Nördlingen"
         },
         {
-          "slug": "erfurt-old-town",
-          "name": "埃尔福特老城",
-          "englishName": "Erfurt Old Town"
+          "slug": "schloss-ludwigslust-history",
+          "name": "路德维希斯卢斯特宫",
+          "englishName": "Ludwigslust Palace"
         }
       ]
     }

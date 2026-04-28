@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "吕讷堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "阿姆桑德广场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hessenpark-open-air-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑森公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hessenpark Open Air Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marienburg-schloss\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛丽安堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Marienburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eberbach-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃伯巴赫修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eberbach Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schleissheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施莱斯海姆宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schleissheim Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sebalduskirche-nuremberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣塞巴尔德教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St. Sebald - Sebalduskirche Nürnberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/haus-schwarzenberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑森贝格之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Haus Schwarzenberg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hessenpark-open-air-museum",
-          "name": "黑森公园",
-          "englishName": "Hessenpark Open Air Museum"
+          "slug": "schleissheim-palace",
+          "name": "施莱斯海姆宫",
+          "englishName": "Schleissheim Palace"
         },
         {
-          "slug": "marienburg-schloss",
-          "name": "玛丽安堡",
-          "englishName": "Schloss Marienburg"
+          "slug": "sebalduskirche-nuremberg",
+          "name": "圣塞巴尔德教堂",
+          "englishName": "St. Sebald - Sebalduskirche Nürnberg"
         },
         {
-          "slug": "eberbach-abbey",
-          "name": "埃伯巴赫修道院",
-          "englishName": "Eberbach Abbey"
+          "slug": "haus-schwarzenberg",
+          "name": "黑森贝格之家",
+          "englishName": "Haus Schwarzenberg"
         }
       ]
     }

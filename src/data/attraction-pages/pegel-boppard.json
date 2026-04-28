@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "博帕德 (Boppard)",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "博帕德水位观测站",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/der-pschorr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普绍尔啤酒馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Der Pschorr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/luneburg-hanseatic-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕讷堡汉萨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lüneburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buedingen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比丁根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Büdingen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/andernach-medieval-town-cold-water-geyser\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安德纳赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andernach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/herrenhaeuser-gaerten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    海\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">海恩豪森花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Herrenhäuser Gärten</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/halberstadt-organ-project-rebuilt-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈尔伯施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Halberstadt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "der-pschorr",
-          "name": "普绍尔啤酒馆",
-          "englishName": "Der Pschorr"
+          "slug": "andernach-medieval-town-cold-water-geyser",
+          "name": "安德纳赫",
+          "englishName": "Andernach"
         },
         {
-          "slug": "luneburg-hanseatic-old-town-history",
-          "name": "吕讷堡汉萨老城",
-          "englishName": "Lüneburg"
+          "slug": "herrenhaeuser-gaerten",
+          "name": "海恩豪森花园",
+          "englishName": "Herrenhäuser Gärten"
         },
         {
-          "slug": "buedingen",
-          "name": "比丁根",
-          "englishName": "Büdingen"
+          "slug": "halberstadt-organ-project-rebuilt-old-town",
+          "name": "哈尔伯施塔特",
+          "englishName": "Halberstadt"
         }
       ]
     }

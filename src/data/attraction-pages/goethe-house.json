@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "法兰克福",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "歌德故居",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/alte-nationalgalerie\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老国家艺术画廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alte Nationalgalerie</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amorbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿莫尔巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amorbach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/neuburg-an-der-donau\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多瑙河畔诺伊堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neuburg an der Donau</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bad-wimpfen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特温普芬</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Wimpfen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/victory-column\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    胜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">胜利纪念柱</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Victory Column</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/drosselgasse-rudesheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕德斯海姆画眉鸟巷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drosselgasse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "alte-nationalgalerie",
-          "name": "老国家艺术画廊",
-          "englishName": "Alte Nationalgalerie"
+          "slug": "bad-wimpfen",
+          "name": "巴特温普芬",
+          "englishName": "Bad Wimpfen"
         },
         {
-          "slug": "amorbach",
-          "name": "阿莫尔巴赫",
-          "englishName": "Amorbach"
+          "slug": "victory-column",
+          "name": "胜利纪念柱",
+          "englishName": "Victory Column"
         },
         {
-          "slug": "neuburg-an-der-donau",
-          "name": "多瑙河畔诺伊堡",
-          "englishName": "Neuburg an der Donau"
+          "slug": "drosselgasse-rudesheim",
+          "name": "吕德斯海姆画眉鸟巷",
+          "englishName": "Drosselgasse"
         }
       ]
     }

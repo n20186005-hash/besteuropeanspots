@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林欢迎卡",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/idar-oberstein-felsenkirche\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊德尔-奥伯施泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Idar-Oberstein</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/forchheim-franconian-medieval-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福希海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Forchheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kloster-woeltingerode\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔廷格罗德修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kloster Wöltingerode</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bad-homburg-royal-spa-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特洪堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Homburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/quedlinburg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奎德林堡老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Quedlinburg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eberbach-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃伯巴赫修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eberbach Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "idar-oberstein-felsenkirche",
-          "name": "伊德尔-奥伯施泰因",
-          "englishName": "Idar-Oberstein"
+          "slug": "bad-homburg-royal-spa-town",
+          "name": "巴特洪堡",
+          "englishName": "Bad Homburg"
         },
         {
-          "slug": "forchheim-franconian-medieval-town",
-          "name": "福希海姆",
-          "englishName": "Forchheim"
+          "slug": "quedlinburg-old-town",
+          "name": "奎德林堡老城",
+          "englishName": "Quedlinburg Old Town"
         },
         {
-          "slug": "kloster-woeltingerode",
-          "name": "沃尔廷格罗德修道院",
-          "englishName": "Kloster Wöltingerode"
+          "slug": "eberbach-abbey",
+          "name": "埃伯巴赫修道院",
+          "englishName": "Eberbach Abbey"
         }
       ]
     }

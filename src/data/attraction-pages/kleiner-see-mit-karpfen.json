@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "巴伐利亚州米滕瓦尔德",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "有鲤鱼的小湖",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rheinstein-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱茵施泰因城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rheinstein Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fort-sint-pieter-maastricht-caves\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣彼得堡要塞与地下洞穴</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fort Sint Pieter & Caves</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schengen-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    申\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">申根（缔造欧洲无国界公约的酿酒小村）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schengen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/trollstigen-foothill-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巨魔之梯山脚观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Trollstigen Foothill Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sveti-stefan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣斯特凡岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sveti Stefan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ancient-city-of-acheron\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿切伦扎古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ancient City of Acheron</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "rheinstein-castle",
-          "name": "莱茵施泰因城堡",
-          "englishName": "Rheinstein Castle"
+          "slug": "trollstigen-foothill-viewpoint",
+          "name": "巨魔之梯山脚观景台",
+          "englishName": "Trollstigen Foothill Viewpoint"
         },
         {
-          "slug": "fort-sint-pieter-maastricht-caves",
-          "name": "圣彼得堡要塞与地下洞穴",
-          "englishName": "Fort Sint Pieter & Caves"
+          "slug": "sveti-stefan",
+          "name": "圣斯特凡岛",
+          "englishName": "Sveti Stefan"
         },
         {
-          "slug": "schengen-village",
-          "name": "申根（缔造欧洲无国界公约的酿酒小村）",
-          "englishName": "Schengen"
+          "slug": "ancient-city-of-acheron",
+          "name": "阿切伦扎古城",
+          "englishName": "Ancient City of Acheron"
         }
       ]
     }

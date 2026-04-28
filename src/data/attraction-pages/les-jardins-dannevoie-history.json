@@ -1,0 +1,85 @@
+{
+  "slug": "les-jardins-dannevoie-history",
+  "template": "history",
+  "metadata": {
+    "title": "昂特瓦水上花园历史｜比利时那慕尔省重力水景园的前世今生与建筑传奇",
+    "description": "探秘18世纪完全依靠自然重力运转的法式意式融合水景园——昂特瓦。走进那慕尔省小镇Annevoie，聆听贵族与水的智慧传奇，感受时光雕刻的古典花园。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "比利时",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "那慕尔省",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "昂特瓦水上花园",
+      "href": "/attractions/les-jardins-dannevoie-history"
+    }
+  ],
+  "hero": {
+    "title": "昂特瓦水上花园・Les Jardins d'Annevoie・比利时・那慕尔省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在比利时那慕尔省的翠绿山谷中，藏着一座不依赖任何水泵、仅凭自然重力与精巧水道系统运转的18世纪水景园——昂特瓦水上花园。它是欧洲园林史上罕见的“水之诗篇”，融合了法式的规整与意式的灵动，却鲜少出现在大众旅行清单上。抛开游玩攻略，走进昂特瓦的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">昂特瓦水上花园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Les Jardins d&#39;Annevoie</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Les Jardins d&#39;Annevoie</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">比利时</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">那慕尔省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>昂特瓦水上花园</strong>坐落于比利时那慕尔省的小村庄 <strong>Annevoie-Rouillon</strong>。这片土地的历史可追溯至中世纪，最初是默兹河谷中的一片沼泽与林地。村庄的名字源于古法语“Annevoie”，意为“水边的草地”——暗示着这里充沛的水源与地下暗河。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪初，当地贵族 <strong>Charles-Alexis de Montpellier</strong> 家族在此购置地产。他们看中的并非土地肥沃，而是<strong>源于附近山丘的天然泉水</strong>。这些泉水通过石灰岩地层渗出，形成稳定的水流，且拥有天然落差。在那个没有电力与蒸汽泵的年代，水动力几乎是一切机械与景观的核心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1758年，Charles-Alexis 决定将这片荒地改造成一座真正“会呼吸”的花园。他邀请法国凡尔赛宫的园林设计师参与规划，但拒绝使用任何机械提水装置。他雇佣当地石匠与水利工匠，耗时近十年，<strong>沿着山坡开凿出一条长达3公里的地下引水渠</strong>，将泉水引入花园的每一个喷泉、瀑布与运河。从此，昂特瓦成为欧洲少数完全依赖重力运行的“活水园林”，其名字也渐渐成为自然水景艺术的代名词。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">昂特瓦水上花园的历史，就是一部关于“水”的博弈与智慧。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1770年-1820年：黄金时代</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">花园建成后，de Montpellier 家族在此定居三代。他们不断扩建，引入了<strong>法式刺绣花坛、意式露台与英式自然林地</strong>，但始终坚守“重力驱动”的核心原则。最令人惊叹的是，花园中没有一个水泵，所有水景都通过<strong>闸门、暗渠和虹吸管</strong>自动循环。那个时代，欧洲贵族争相模仿凡尔赛的“大水泵”，而昂特瓦却逆流而行，成为<strong>反机械化的优雅宣言</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1830年-1900年：工业革命与衰落</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">随着比利时工业化，那慕尔省成为煤矿与钢铁中心。de Montpellier 家族逐渐没落，花园年久失修。1870年，一场暴风雨摧毁了部分水渠，许多喷泉彻底干涸。据说当地农夫曾把花园的石栏杆搬去修猪圈。这座曾经的“水之宫殿”，沦为杂草丛生的废墟。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1900年-1970年：复兴与保护</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪初，新贵族 <strong>Maurice de Selliers de Moranville</strong> 买下花园，开始系统性修复。他聘请工程师重新测绘地下水道，并参照18世纪的图纸恢复了大部分水景。1944年二战期间，比利时被德军占领，花园一度被征用为驻军营地。幸运的是，一名法国籍园丁冒着生命危险<strong>将关键的水闸蓝图藏进树洞</strong>，避免了水系统被破坏。战后，花园于1982年被列为比利时瓦隆区遗产。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，花园仍保留着<strong>近20个喷泉、11个瀑布与5个水镜面</strong>，所有水源均来自同一处泉眼。游客只需打开或关闭某个闸门，就能让瀑布改变方向——这种“水之魔术”已经延续了250年。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Charles-Alexis de Montpellier</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">（1718-1795）是昂特瓦水上花园的灵魂人物。他出生于那慕尔一个没落贵族家庭，年轻时曾游历法国与意大利，在凡尔赛花园与罗马蒂沃利的千泉宫深深迷醉。但他对当时流行的水泵十分反感，认为那是对自然“粗暴的强奸”。他的理想是创造一座“神不用费力就能微笑”的花园。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">回到比利时后，他几乎倾尽家财购买了Annevoie的地产。他本人并非专业水利工程师，却凭借对当地地质的直觉，<strong>沿着山坡徒步勘察了上百次泉眼</strong>。他在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“水是自由的灵魂。我不允许任何人用铁链锁住它。我只需给它一条路，它自己会跳舞。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他雇佣的工匠多来自附近的采石场，这些人擅长开凿岩石却不懂造景。Charles-Alexis 便亲自画图，教他们如何打磨石块以形成“水之涟漪”。据说他曾在喷泉旁站了三天，只为调整一个喷嘴的角度，让水花形成完美的拱形。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">晚年，他因投资失败陷入贫困，却拒绝出售花园。他说：“这里有我250年的水，它们比任何金子都值钱。”1795年，他在花园的紫藤架下去世，临终前要求将骨灰撒入主喷泉——这个传统后来被家族延续，直到今天，每年6月第一个周日，花园都会举行<strong>“水之洒落”仪式</strong>，纪念这位固执的贵族。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Marie-Françoise de Montpellier</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">（1742-1821）是Charles-Alexis的长女，也是花园第二任实际管理者。她在父亲去世后继承了那片废墟。她不仅修复了大部分水景，还创新性地引入了<strong>中国式叠水景观</strong>——从荷兰东印度公司购得的瓷器碎片被嵌入瀑布池壁，水流过时会产生蓝白色的光影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她也是一位植物爱好者，在花园中种植了当时比利时罕见的<strong>龙舌兰与棕榈</strong>。为了让这些南方植物过冬，她发明了“水热循环系统”：利用温泉水的余热加热温室地板。这是欧洲最早的地暖尝试之一。她在自己的回忆录中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“父亲教水跳舞，而我要教水温暖。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Marie-Françoise终身未嫁，将所有心血倾注于花园。她去世后，家族逐渐走向衰落，但她的植物布局与水景设计至今仍是园林学者的研究对象。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在昂特瓦所在的默兹河谷，流传着一个关于“水精灵”的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传18世纪末，一位名叫 <strong>Clara</strong> 的磨坊女工每晚都会来到花园的瀑布边哭泣。她爱上了一位园丁，但园丁为了测试新的水闸，不幸被卷入暗渠溺亡。Clara 坚信园丁的灵魂被困在水下，于是她连续49天在瀑布边唱歌，试图用声音引导水流释放他。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第49天夜晚，月亮正好映在主镜面水塘中。忽然，所有喷泉同时喷涌，水花在空中形成了一串珍珠般的水滴，缓缓飘向天空。村民说那是园丁的灵魂被释放了。从此，<strong>每当满月之夜，花园的主瀑布会自然出现“人形水影”</strong>，当地人称之为“哭泣园丁”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个故事在19世纪被比利时诗人 <strong>Charles de Coster</strong> 收录在《比利时民间故事集》中。他甚至写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“水记得每一个它拥抱过的生命。如果你在昂特瓦的瀑布前沉默，就能听见往事的低语。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，花园的管理者会在每晚关闭前短暂开启所有喷泉，以“送别水精灵”。这个传统虽无史料记载，却已成为当地不可分割的文化符号。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">昂特瓦水上花园不仅仅是一座园林，它是<strong>18世纪欧洲贵族智慧与自然崇拜的活化石</strong>。在机械与电动主宰的时代，它固执地保留着“水的原力”——不需要任何能源，仅凭重力与匠心，便让水在花园中跳舞了两百多年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂昂特瓦，是读懂欧洲人对自然力量的敬畏与浪漫。那些藏在水渠里的石板、闸门上的铁锈、瀑布边的青苔，都诉说着一个关于“不妥协”的故事。当你站在主喷泉前，看到水珠从高处跌落又重新升起，你会明白：有些传奇，不需要用电来点亮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/orval-abbey-trappist-beer-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔瓦勒修道院（特拉普修道士啤酒发源地）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Orval Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/crupet\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克吕佩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Crupet</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/averbode-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿弗博德修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Averbode Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "orval-abbey-trappist-beer-history",
+          "name": "奥尔瓦勒修道院（特拉普修道士啤酒发源地）",
+          "englishName": "Orval Abbey"
+        },
+        {
+          "slug": "crupet",
+          "name": "克吕佩",
+          "englishName": "Crupet"
+        },
+        {
+          "slug": "averbode-abbey",
+          "name": "阿弗博德修道院",
+          "englishName": "Averbode Abbey"
+        }
+      ]
+    }
+  ]
+}

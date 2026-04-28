@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "宁芬堡宫",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gustrow-palace-renaissance-barlach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    居\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">居斯特罗</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Güstrow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/noerdlingen-crater-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    讷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">讷德林根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nördlingen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museum-at-the-kulturbrauerei\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    K\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Kulturbrauerei博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museum at the Kulturbrauerei</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bamberg-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bamberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/new-garden-potsdam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新花园（波茨坦）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Garden (Neuer Garten)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/zons\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    措\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">措恩斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zons</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gustrow-palace-renaissance-barlach",
-          "name": "居斯特罗",
-          "englishName": "Güstrow"
+          "slug": "bamberg-old-town-history",
+          "name": "班贝格老城",
+          "englishName": "Bamberg Old Town"
         },
         {
-          "slug": "noerdlingen-crater-town-history",
-          "name": "讷德林根",
-          "englishName": "Nördlingen"
+          "slug": "new-garden-potsdam",
+          "name": "新花园（波茨坦）",
+          "englishName": "New Garden (Neuer Garten)"
         },
         {
-          "slug": "museum-at-the-kulturbrauerei",
-          "name": "Kulturbrauerei博物馆",
-          "englishName": "Museum at the Kulturbrauerei"
+          "slug": "zons",
+          "name": "措恩斯",
+          "englishName": "Zons"
         }
       ]
     }

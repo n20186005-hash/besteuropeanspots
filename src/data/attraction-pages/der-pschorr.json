@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "普绍尔啤酒馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/spalt-hopfenerlebnispfad\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施帕尔特啤酒花之乡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Spalt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/meersburg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔斯堡旧城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meersburg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gottorf-castle-schleswig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈托尔夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gottorf Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/herborn-historic-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑尔博恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Herborn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hamburg-container-observation-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    汉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">汉堡集装箱观测塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hamburg Container Observation Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/trinkhalle-baden-baden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    饮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">饮水厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Trinkhalle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "spalt-hopfenerlebnispfad",
-          "name": "施帕尔特啤酒花之乡",
-          "englishName": "Spalt"
+          "slug": "herborn-historic-old-town",
+          "name": "黑尔博恩",
+          "englishName": "Herborn"
         },
         {
-          "slug": "meersburg-old-town",
-          "name": "梅尔斯堡旧城",
-          "englishName": "Meersburg Old Town"
+          "slug": "hamburg-container-observation-tower",
+          "name": "汉堡集装箱观测塔",
+          "englishName": "Hamburg Container Observation Tower"
         },
         {
-          "slug": "gottorf-castle-schleswig",
-          "name": "戈托尔夫城堡",
-          "englishName": "Gottorf Castle"
+          "slug": "trinkhalle-baden-baden",
+          "name": "饮水厅",
+          "englishName": "Trinkhalle"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "布伦瑞克（Braunschweig）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "科尔市场（布伦瑞克）",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/liebfrauenkirche-limburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林堡圣母教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Liebfrauenkirche Limburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tangermuende-medieval-town-on-elbe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    唐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">唐格明德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tangermünde</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/holstentor-lubeck\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕贝克霍尔斯滕门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holstentor</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/sigmaringen-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    锡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">锡格马林根城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sigmaringen Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wasserburg-am-inn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因河畔瓦瑟堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wasserburg am Inn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/altenburg-playing-cards-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔滕堡（纸牌游戏发源地）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Altenburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "liebfrauenkirche-limburg",
-          "name": "林堡圣母教堂",
-          "englishName": "Liebfrauenkirche Limburg"
+          "slug": "sigmaringen-castle-history",
+          "name": "锡格马林根城堡",
+          "englishName": "Sigmaringen Castle"
         },
         {
-          "slug": "tangermuende-medieval-town-on-elbe",
-          "name": "唐格明德",
-          "englishName": "Tangermünde"
+          "slug": "wasserburg-am-inn",
+          "name": "因河畔瓦瑟堡",
+          "englishName": "Wasserburg am Inn"
         },
         {
-          "slug": "holstentor-lubeck",
-          "name": "吕贝克霍尔斯滕门",
-          "englishName": "Holstentor"
+          "slug": "altenburg-playing-cards-city",
+          "name": "阿尔滕堡（纸牌游戏发源地）",
+          "englishName": "Altenburg"
         }
       ]
     }

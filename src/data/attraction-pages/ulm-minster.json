@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "乌尔姆",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "乌尔姆大教堂",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/english-garden-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    英\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">英国花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">English Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amberg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/annaberg-buchholz-mining-woodcarving-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安纳贝格-布赫霍尔茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Annaberg-Buchholz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/topography-of-terror\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    恐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">恐怖地形图</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Topography of Terror</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ludwigsburg-residential-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    路\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">路德维希堡宫殿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ludwigsburg Residential Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/new-town-hall-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新市政厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Town Hall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "english-garden-munich",
-          "name": "英国花园",
-          "englishName": "English Garden"
+          "slug": "topography-of-terror",
+          "name": "恐怖地形图",
+          "englishName": "Topography of Terror"
         },
         {
-          "slug": "amberg-old-town",
-          "name": "安贝格老城",
-          "englishName": "Amberg Old Town"
+          "slug": "ludwigsburg-residential-palace",
+          "name": "路德维希堡宫殿",
+          "englishName": "Ludwigsburg Residential Palace"
         },
         {
-          "slug": "annaberg-buchholz-mining-woodcarving-history",
-          "name": "安纳贝格-布赫霍尔茨",
-          "englishName": "Annaberg-Buchholz"
+          "slug": "new-town-hall-munich",
+          "name": "新市政厅",
+          "englishName": "New Town Hall"
         }
       ]
     }

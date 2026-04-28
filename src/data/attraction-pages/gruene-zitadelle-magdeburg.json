@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "马格德堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "绿色城堡",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bad-harzburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴德哈尔茨堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Harzburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/weinheim-double-castle-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏恩海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Weinheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schwerin-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什未林城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwerin Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wuerzburg-residence-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维尔茨堡主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Würzburg Residence</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/toy-museum-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    慕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">慕尼黑玩具博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Toy Museum Munich</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mindelheim-medieval-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    明\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">明德尔海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mindelheim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bad-harzburg",
-          "name": "巴德哈尔茨堡",
-          "englishName": "Bad Harzburg"
+          "slug": "wuerzburg-residence-history",
+          "name": "维尔茨堡主教宫",
+          "englishName": "Würzburg Residence"
         },
         {
-          "slug": "weinheim-double-castle-city",
-          "name": "魏恩海姆",
-          "englishName": "Weinheim"
+          "slug": "toy-museum-munich",
+          "name": "慕尼黑玩具博物馆",
+          "englishName": "Toy Museum Munich"
         },
         {
-          "slug": "schwerin-castle",
-          "name": "什未林城堡",
-          "englishName": "Schwerin Castle"
+          "slug": "mindelheim-medieval-town",
+          "name": "明德尔海姆",
+          "englishName": "Mindelheim"
         }
       ]
     }

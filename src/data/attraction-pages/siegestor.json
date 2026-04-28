@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑凯旋门",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/alte-muenze-berlin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林旧铸币厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alte Münze</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ludwigsburg-residential-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    路\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">路德维希堡宫殿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ludwigsburg Residential Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/northeim-hanseatic-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺特海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Northeim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blaubeuren-monastery-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳博伊伦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blaubeuren</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/braubach-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳巴赫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Braubach Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bamberg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bamberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "alte-muenze-berlin",
-          "name": "柏林旧铸币厂",
-          "englishName": "Alte Münze"
+          "slug": "blaubeuren-monastery-old-town",
+          "name": "布劳博伊伦",
+          "englishName": "Blaubeuren"
         },
         {
-          "slug": "ludwigsburg-residential-palace",
-          "name": "路德维希堡宫殿",
-          "englishName": "Ludwigsburg Residential Palace"
+          "slug": "braubach-castle",
+          "name": "布劳巴赫城堡",
+          "englishName": "Braubach Castle"
         },
         {
-          "slug": "northeim-hanseatic-old-town",
-          "name": "诺特海姆",
-          "englishName": "Northeim"
+          "slug": "bamberg-old-town",
+          "name": "班贝格老城",
+          "englishName": "Bamberg Old Town"
         }
       ]
     }

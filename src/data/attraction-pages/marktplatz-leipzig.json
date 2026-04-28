@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "莱比锡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "莱比锡市场广场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/worms-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔姆斯大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Worms Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/externsteine-rock-formations-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃克斯施泰因岩层</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Externsteine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/heppenheim-medieval-town-starkenburg-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑彭海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heppenheim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/besigheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝西希海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Besigheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/miltenberg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔滕贝格（美因河畔的珍珠）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Miltenberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/danube-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多瑙沃特古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Danube Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "worms-cathedral",
-          "name": "沃尔姆斯大教堂",
-          "englishName": "Worms Cathedral"
+          "slug": "besigheim",
+          "name": "贝西希海姆",
+          "englishName": "Besigheim"
         },
         {
-          "slug": "externsteine-rock-formations-history",
-          "name": "埃克斯施泰因岩层",
-          "englishName": "Externsteine"
+          "slug": "miltenberg-old-town",
+          "name": "米尔滕贝格（美因河畔的珍珠）",
+          "englishName": "Miltenberg"
         },
         {
-          "slug": "heppenheim-medieval-town-starkenburg-ruins",
-          "name": "黑彭海姆",
-          "englishName": "Heppenheim"
+          "slug": "danube-old-town",
+          "name": "多瑙沃特古城",
+          "englishName": "Danube Old Town"
         }
       ]
     }

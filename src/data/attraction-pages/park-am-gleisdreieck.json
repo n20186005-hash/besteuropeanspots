@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "三角铁路公园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bremen-roland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    不\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">不来梅罗兰雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bremen Roland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/danube-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多瑙沃特古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Danube Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stralsund-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施特拉尔松德老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stralsund Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rulantica\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁兰提卡水上乐园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rulantica</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buchenwald-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布痕瓦尔德集中营纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buchenwald Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nymphenburg-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    宁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">宁芬堡宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nymphenburg Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "bremen-roland",
-          "name": "不来梅罗兰雕像",
-          "englishName": "Bremen Roland"
+          "slug": "rulantica",
+          "name": "鲁兰提卡水上乐园",
+          "englishName": "Rulantica"
         },
         {
-          "slug": "danube-old-town",
-          "name": "多瑙沃特古城",
-          "englishName": "Danube Old Town"
+          "slug": "buchenwald-memorial",
+          "name": "布痕瓦尔德集中营纪念馆",
+          "englishName": "Buchenwald Memorial"
         },
         {
-          "slug": "stralsund-old-town",
-          "name": "施特拉尔松德老城",
-          "englishName": "Stralsund Old Town"
+          "slug": "nymphenburg-palace",
+          "name": "宁芬堡宫",
+          "englishName": "Nymphenburg Palace"
         }
       ]
     }

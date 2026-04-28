@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "巴特明斯特艾弗尔",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "施彭肯霍格城堡",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/marienburg-schloss\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛丽安堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Marienburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hamburg-town-hall\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    汉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">汉堡市政厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hamburg Town Hall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-mergentheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特梅根特海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Mergentheim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/erbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Erbach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ratzeburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉策堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ratzeburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/neuschwanstein-viewpoint\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新天鹅堡最佳观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neuschwanstein Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "marienburg-schloss",
-          "name": "玛丽安堡",
-          "englishName": "Schloss Marienburg"
+          "slug": "erbach",
+          "name": "埃尔巴赫",
+          "englishName": "Erbach"
         },
         {
-          "slug": "hamburg-town-hall",
-          "name": "汉堡市政厅",
-          "englishName": "Hamburg Town Hall"
+          "slug": "ratzeburg",
+          "name": "拉策堡",
+          "englishName": "Ratzeburg"
         },
         {
-          "slug": "bad-mergentheim",
-          "name": "巴特梅根特海姆",
-          "englishName": "Bad Mergentheim"
+          "slug": "neuschwanstein-viewpoint",
+          "name": "新天鹅堡最佳观景台",
+          "englishName": "Neuschwanstein Viewpoint"
         }
       ]
     }

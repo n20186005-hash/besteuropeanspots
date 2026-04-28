@@ -1,0 +1,85 @@
+{
+  "slug": "podebrady-history",
+  "template": "history",
+  "metadata": {
+    "title": "波杰布拉迪历史溯源｜捷克温泉小镇的前世今生与乔治国王传奇",
+    "description": "探访捷克中波希米亚的温泉秘境波杰布拉迪。这里是乔治·波杰布拉迪国王的故乡，一座承载胡斯战争记忆、温泉文化与欧洲和平梦想的小镇。走进尘封往事，遇见传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "波杰布拉迪",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "波杰布拉迪",
+      "href": "/attractions/podebrady-history"
+    }
+  ],
+  "hero": {
+    "title": "波杰布拉迪・Poděbrady・捷克・波杰布拉迪",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">波杰布拉迪，这座坐落在易北河畔的捷克温泉小镇，因一位国王的名字而永载史册。<strong>乔治·波杰布拉迪</strong>，这位胡斯派的君主，曾在此提出欧洲首个“和平联盟”构想，比欧盟早了五个世纪。这里没有喧嚣的游客潮，只有城堡的尖塔、泉水的氤氲，以及深埋于石板下的历史低语。抛开游玩攻略，走进波杰布拉迪的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">波杰布拉迪</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Poděbrady</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Poděbrady</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">波杰布拉迪</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波杰布拉迪的历史可追溯至13世纪中叶。最初，这里只是易北河畔的一个小型定居点，隶属于波希米亚王国的核心领地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>13世纪</strong>，波杰布拉迪城堡（Zámek Poděbrady）拔地而起，成为一座哥特式水堡，守护着周边的农田与渡口。城堡的建造者——<strong>波杰布拉迪贵族家族</strong>，正是后来乔治国王的先祖。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市名字“Poděbrady”源自斯拉夫语，意为“波德布拉德”——一种说法认为它与当地早期的领主“Poděbrad”有关，也有人将它解释为“胡子之地”。但无论词源如何，这个名字在15世纪因一位国王而响彻欧洲。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">温泉的发现要晚得多：<strong>1905年</strong>，一位名叫František Buben的农民在挖掘时发现了具有疗效的温泉，从此小镇转型为温泉疗养胜地。如今，城堡、温泉长廊和静谧的公园构成了小镇的核心。最初的水源点依然存在，成为历史与自然的交汇。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波杰布拉迪的历史印记，深深烙印着两件事：<strong>乔治国王的统治</strong>与<strong>温泉的发现</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1458年，波杰布拉迪的乔治被选为波希米亚国王，成为欧洲历史上唯一一位出身本土贵族而非皇室的君主。他执政期间，致力于调和天主教与胡斯派的矛盾，并在1464年提出一个惊人的计划——<strong>建立欧洲各国联盟</strong>，共同对抗奥斯曼帝国。这一设想虽未实现，却被后世视为欧洲一体化的先声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一印记是1905年的温泉钻探。当时当地农民在自家田地里打井，意外发现含二氧化碳的矿泉水，水温22°C，富含矿物质。此后，波杰布拉迪迅速成为捷克最受欢迎的温泉疗养地之一，吸引了众多文化名流前来休养。城堡本身也经历了变迁：从哥特式要塞改建为文艺复兴宫殿，如今内部设有博物馆和咖啡馆，乔治国王的雕像矗立在广场中央，俯瞰着往来游人。这里曾见证胡斯战争的尾声，也目睹了两次世界大战中捷克民族的坚韧。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波杰布拉迪的名人传奇，首推<strong>乔治·波杰布拉迪国王</strong>（Jiří z Poděbrad，1420-1471）。他出生于波杰布拉迪城堡，早年丧父，由胡斯派领袖抚养长大。1458年，他被选为波希米亚国王，成为胡斯派教徒的庇护者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乔治国王最伟大的遗产，是他在1464年提出的<strong>《欧洲和平条约》</strong>草案，旨在建立一个由各国君主组成的联盟，通过共同议会和军队确保和平。这一构想被称为“乔治国王的欧洲联盟”，比现代欧盟早生了500多年。他在信中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“如果基督教世界的君主们愿意联合起来，组成一个永久性的议会，那么战争将不再有理由存在。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">尽管这个计划因教皇的反对而流产，但乔治国王的远见至今仍令历史学家惊叹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此外，还有一位与小镇密切相关的名人：<strong>卡雷尔·恰佩克</strong>（Karel Čapek）。这位捷克著名作家曾多次来此疗养，并在作品中提及波杰布拉迪的温泉。恰佩克以创造“robot机器人”一词闻名，他在波杰布拉迪的宁静中写下了《万能机器人》等剧本的草稿。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位是<strong>安东尼·德沃夏克</strong>，他也曾造访这里的温泉，并在信中描述波杰布拉迪“有着治愈灵魂的空气”。但最传奇的还是乔治国王：他的雕像矗立在城堡前的广场，左手持剑，右手捧着和平条约，象征着这位“胡斯派之王”的和平梦想。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于波杰布拉迪温泉的发现，流传着一个动人的传说。据说在<strong>1905年</strong>之前，当地农民常看到一只受伤的野鹿在田边的泥沼中打滚，随后奇迹般痊愈。一个名叫František Buben的农夫心生好奇，决定在野鹿打滚的地方挖掘，果然发现了汩汩冒出的泉水。从此，这眼温泉被命名为“野鹿泉”（Jelení pramen）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说则与城堡的地下通道有关：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">相传波杰布拉迪城堡下有一条秘密地道，直通数公里外的另一座城堡，乔治国王曾通过这条地道躲避胡斯战争中的敌人。尽管从未被证实，但在当地老人口中，这条地道至今仍埋藏在古老的石板下，偶尔在月圆之夜传出低沉的马蹄声。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些传说为小镇增添了一层神秘色彩，也让温泉的疗愈力量显得更加神圣。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂波杰布拉迪，就是读懂一段跨越中世纪与近代的欧洲和平梦想。乔治国王的联盟构想虽未能实现，却在今天欧盟的旗帜上依稀可见。温泉的恩赐让这座小镇成为疗愈之地，历史与宁静在此交汇。当你漫步在城堡下的公园，呼吸着含铁的微温空气，耳边仿佛响起国王的誓词：愿欧洲永无战火。这正是波杰布拉迪留给世界的回响。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/podebrady-spa-town-czechia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波杰布拉迪</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Podebrady</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/policka-medieval-walled-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波利奇卡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Policka</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stramberk-czech-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什特兰贝克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Štramberk</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "podebrady-spa-town-czechia",
+          "name": "波杰布拉迪",
+          "englishName": "Podebrady"
+        },
+        {
+          "slug": "policka-medieval-walled-town",
+          "name": "波利奇卡",
+          "englishName": "Policka"
+        },
+        {
+          "slug": "stramberk-czech-history",
+          "name": "什特兰贝克",
+          "englishName": "Štramberk"
+        }
+      ]
+    }
+  ]
+}

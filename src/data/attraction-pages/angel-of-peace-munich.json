@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "和平天使",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hameln-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈默尔恩老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hameln Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alte-saline\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔特萨利纳盐矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alte Saline</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-hohenzollern\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍亨索伦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hohenzollern Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schiltach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希尔塔赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schiltach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/soest-medieval-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索斯特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Soest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schwabisch-hall-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施瓦本哈尔古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwäbisch Hall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hameln-old-town",
-          "name": "哈默尔恩老城",
-          "englishName": "Hameln Old Town"
+          "slug": "schiltach",
+          "name": "希尔塔赫",
+          "englishName": "Schiltach"
         },
         {
-          "slug": "alte-saline",
-          "name": "阿尔特萨利纳盐矿",
-          "englishName": "Alte Saline"
+          "slug": "soest-medieval-old-town",
+          "name": "索斯特",
+          "englishName": "Soest"
         },
         {
-          "slug": "burg-hohenzollern",
-          "name": "霍亨索伦城堡",
-          "englishName": "Hohenzollern Castle"
+          "slug": "schwabisch-hall-old-town",
+          "name": "施瓦本哈尔古城",
+          "englishName": "Schwäbisch Hall"
         }
       ]
     }

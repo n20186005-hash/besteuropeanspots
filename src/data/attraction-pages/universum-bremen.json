@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不莱梅",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不莱梅宇宙科学中心",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/marienberg-fortress\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马林贝格要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marienberg Fortress</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hexentanzplatz-thale\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塔莱女巫舞池</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hexentanzplatz (Thale)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stralsund-hanseatic-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施特拉尔松德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stralsund</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/boppard-romantic-rhine-germany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博帕德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Boppard</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ochsenhausen-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥森豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ochsenhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/luneburg-hanseatic-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕讷堡汉萨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lüneburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "marienberg-fortress",
-          "name": "马林贝格要塞",
-          "englishName": "Marienberg Fortress"
+          "slug": "boppard-romantic-rhine-germany",
+          "name": "博帕德",
+          "englishName": "Boppard"
         },
         {
-          "slug": "hexentanzplatz-thale",
-          "name": "塔莱女巫舞池",
-          "englishName": "Hexentanzplatz (Thale)"
+          "slug": "ochsenhausen-abbey",
+          "name": "奥森豪森",
+          "englishName": "Ochsenhausen"
         },
         {
-          "slug": "stralsund-hanseatic-history",
-          "name": "施特拉尔松德",
-          "englishName": "Stralsund"
+          "slug": "luneburg-hanseatic-old-town-history",
+          "name": "吕讷堡汉萨老城",
+          "englishName": "Lüneburg"
         }
       ]
     }

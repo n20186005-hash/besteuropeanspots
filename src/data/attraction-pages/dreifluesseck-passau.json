@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "帕绍 (Passau)",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "三河交汇处",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/corvey-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔维修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corvey Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-weissenstein-pommersfelden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏森施泰因宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Weißenstein (Pommersfelden)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schongau\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雄高</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schongau</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/limburg-lahn-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林堡（兰河畔林堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Limburg an der Lahn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flakturm-humboldthain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洪堡海因防空塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flakturm Humboldthain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/naumburg-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瑙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瑙姆堡大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Naumburg Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "corvey-abbey",
-          "name": "科尔维修道院",
-          "englishName": "Corvey Abbey"
+          "slug": "limburg-lahn-history",
+          "name": "林堡（兰河畔林堡）",
+          "englishName": "Limburg an der Lahn"
         },
         {
-          "slug": "schloss-weissenstein-pommersfelden",
-          "name": "魏森施泰因宫",
-          "englishName": "Schloss Weißenstein (Pommersfelden)"
+          "slug": "flakturm-humboldthain",
+          "name": "洪堡海因防空塔",
+          "englishName": "Flakturm Humboldthain"
         },
         {
-          "slug": "schongau",
-          "name": "雄高",
-          "englishName": "Schongau"
+          "slug": "naumburg-cathedral",
+          "name": "瑙姆堡大教堂",
+          "englishName": "Naumburg Cathedral"
         }
       ]
     }

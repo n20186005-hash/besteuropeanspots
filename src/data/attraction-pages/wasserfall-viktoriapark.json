@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "维多利亚公园瀑布",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/nordlingen-ries-crater-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    讷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">讷德林根（陨石坑小镇）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nördlingen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ploenlein\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普伦莱茵</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Plönlein</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wuerzburg-residence-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维尔茨堡主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Würzburg Residence</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/atlantic-grand-hotel-bremen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大西洋格兰德不来梅酒店</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">ATLANTIC Grand Hotel Bremen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stralsund-hanseatic-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施特拉尔松德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stralsund</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/andernach-medieval-town-cold-water-geyser\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安德纳赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andernach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "nordlingen-ries-crater-town",
-          "name": "讷德林根（陨石坑小镇）",
-          "englishName": "Nördlingen"
+          "slug": "atlantic-grand-hotel-bremen",
+          "name": "大西洋格兰德不来梅酒店",
+          "englishName": "ATLANTIC Grand Hotel Bremen"
         },
         {
-          "slug": "ploenlein",
-          "name": "普伦莱茵",
-          "englishName": "Plönlein"
+          "slug": "stralsund-hanseatic-history",
+          "name": "施特拉尔松德",
+          "englishName": "Stralsund"
         },
         {
-          "slug": "wuerzburg-residence-history",
-          "name": "维尔茨堡主教宫",
-          "englishName": "Würzburg Residence"
+          "slug": "andernach-medieval-town-cold-water-geyser",
+          "name": "安德纳赫",
+          "englishName": "Andernach"
         }
       ]
     }

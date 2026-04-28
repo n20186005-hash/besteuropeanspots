@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "哈尔奥弗游船",
@@ -62,7 +62,7 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dresden-zwinger\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    茨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">茨温格宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zwinger Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buchenwald-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布痕瓦尔德集中营纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buchenwald Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alte-pinakothek\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老绘画陈列馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alte Pinakothek</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dresden-zwinger\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    茨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">茨温格宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zwinger Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pirna-saxon-switzerland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮尔纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pirna</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/erfurt-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔福特老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Erfurt Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
           "slug": "dresden-zwinger",
@@ -70,14 +70,14 @@
           "englishName": "Zwinger Palace"
         },
         {
-          "slug": "buchenwald-memorial",
-          "name": "布痕瓦尔德集中营纪念馆",
-          "englishName": "Buchenwald Memorial"
+          "slug": "pirna-saxon-switzerland",
+          "name": "皮尔纳",
+          "englishName": "Pirna"
         },
         {
-          "slug": "alte-pinakothek",
-          "name": "老绘画陈列馆",
-          "englishName": "Alte Pinakothek"
+          "slug": "erfurt-old-town",
+          "name": "埃尔福特老城",
+          "englishName": "Erfurt Old Town"
         }
       ]
     }

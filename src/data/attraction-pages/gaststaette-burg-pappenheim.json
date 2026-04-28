@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "帕彭海姆 (Pappenheim)",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "帕彭海姆城堡餐厅",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/frauenkirche-dresden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣母教堂（德累斯顿）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Frauenkirche</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ludwigslust-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    路\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">路德维希斯卢斯特宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ludwigslust Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alpirsbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔皮斯巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alpirsbach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/mercedes-benz-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奔驰博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mercedes-Benz Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hirsau-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希尔绍修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hirsau Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/speyer-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施派尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Speyer Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "frauenkirche-dresden",
-          "name": "圣母教堂（德累斯顿）",
-          "englishName": "Frauenkirche"
+          "slug": "mercedes-benz-museum",
+          "name": "奔驰博物馆",
+          "englishName": "Mercedes-Benz Museum"
         },
         {
-          "slug": "ludwigslust-palace",
-          "name": "路德维希斯卢斯特宫",
-          "englishName": "Ludwigslust Palace"
+          "slug": "hirsau-abbey",
+          "name": "希尔绍修道院",
+          "englishName": "Hirsau Abbey"
         },
         {
-          "slug": "alpirsbach",
-          "name": "阿尔皮斯巴赫",
-          "englishName": "Alpirsbach"
+          "slug": "speyer-cathedral",
+          "name": "施派尔大教堂",
+          "englishName": "Speyer Cathedral"
         }
       ]
     }

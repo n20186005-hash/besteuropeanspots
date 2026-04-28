@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "普兰滕翁布洛门公园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gorlitz-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格尔利茨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Görlitz Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/baumkronenpfad-hoherodskopf\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍赫罗德科普夫树顶步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Baumkronenpfad Hoherodskopf</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/michelstadt-fachwerkhaus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米歇尔施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Michelstadt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gallows-gate-rothenburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    绞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">绞刑架门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gallows Gate</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/helmstedt-historic-border-crossing\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑尔姆施泰特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Helmstedt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/magdeburg-water-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马格德堡水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Magdeburg Water Bridge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gorlitz-old-town-history",
-          "name": "格尔利茨老城",
-          "englishName": "Görlitz Old Town"
+          "slug": "gallows-gate-rothenburg",
+          "name": "绞刑架门",
+          "englishName": "Gallows Gate"
         },
         {
-          "slug": "baumkronenpfad-hoherodskopf",
-          "name": "霍赫罗德科普夫树顶步道",
-          "englishName": "Baumkronenpfad Hoherodskopf"
+          "slug": "helmstedt-historic-border-crossing",
+          "name": "黑尔姆施泰特",
+          "englishName": "Helmstedt"
         },
         {
-          "slug": "michelstadt-fachwerkhaus",
-          "name": "米歇尔施塔特",
-          "englishName": "Michelstadt"
+          "slug": "magdeburg-water-bridge",
+          "name": "马格德堡水桥",
+          "englishName": "Magdeburg Water Bridge"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "海德堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "老桥",
@@ -62,7 +62,7 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chiemsee-bahn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基姆湖窄轨蒸汽火车</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chiemsee-Bahn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wustrow-fischland-baltic-sea-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    武\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">武斯特罗</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wustrow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/denkmal-cecilie-von-issendorf\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊森多夫的塞西莉纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Denkmal Cecilie von Issendorf</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chiemsee-bahn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基姆湖窄轨蒸汽火车</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chiemsee-Bahn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hartenfels-castle-torgau-spiral-staircase\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈滕费尔斯城堡（绝美螺旋阶梯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hartenfels Castle (Torgau)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fritzlar-medieval-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里茨拉尔中世纪古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fritzlar</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
           "slug": "chiemsee-bahn",
@@ -70,14 +70,14 @@
           "englishName": "Chiemsee-Bahn"
         },
         {
-          "slug": "wustrow-fischland-baltic-sea-village",
-          "name": "武斯特罗",
-          "englishName": "Wustrow"
+          "slug": "hartenfels-castle-torgau-spiral-staircase",
+          "name": "哈滕费尔斯城堡（绝美螺旋阶梯）",
+          "englishName": "Hartenfels Castle (Torgau)"
         },
         {
-          "slug": "denkmal-cecilie-von-issendorf",
-          "name": "伊森多夫的塞西莉纪念碑",
-          "englishName": "Denkmal Cecilie von Issendorf"
+          "slug": "fritzlar-medieval-old-town",
+          "name": "弗里茨拉尔中世纪古城",
+          "englishName": "Fritzlar"
         }
       ]
     }

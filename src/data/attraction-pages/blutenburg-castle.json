@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "布吕滕堡城堡",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prora-nazi-beach-resort-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普罗拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prora</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/michelstadt-hesse-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米歇尔施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Michelstadt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schwaebisch-gmuend\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施韦比施格明德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwäbisch Gmünd</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/partnachklamm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕特纳赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Partnachklamm</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nordlingen-ries-crater-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    讷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">讷德林根（陨石坑小镇）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nördlingen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gorlitz-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格尔利茨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Görlitz Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "prora-nazi-beach-resort-ruins",
-          "name": "普罗拉",
-          "englishName": "Prora"
+          "slug": "partnachklamm",
+          "name": "帕特纳赫峡谷",
+          "englishName": "Partnachklamm"
         },
         {
-          "slug": "michelstadt-hesse-history",
-          "name": "米歇尔施塔特",
-          "englishName": "Michelstadt"
+          "slug": "nordlingen-ries-crater-town",
+          "name": "讷德林根（陨石坑小镇）",
+          "englishName": "Nördlingen"
         },
         {
-          "slug": "schwaebisch-gmuend",
-          "name": "施韦比施格明德",
-          "englishName": "Schwäbisch Gmünd"
+          "slug": "gorlitz-old-town-history",
+          "name": "格尔利茨老城",
+          "englishName": "Görlitz Old Town"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅港",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "气候之家不来梅港 8°东",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/molln-travel-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫尔恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mölln</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jasmund-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雅斯蒙德国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jasmund National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-harzburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴德哈尔茨堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Harzburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/trinkhalle-baden-baden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    饮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">饮水厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Trinkhalle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wasserburg-am-inn-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因河畔瓦瑟堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wasserburg am Inn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/auerbach-castle-bensheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    本\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">本斯海姆-奥尔巴赫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Auerbach Castle (Bensheim)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "molln-travel-guide",
-          "name": "莫尔恩",
-          "englishName": "Mölln"
+          "slug": "trinkhalle-baden-baden",
+          "name": "饮水厅",
+          "englishName": "Trinkhalle"
         },
         {
-          "slug": "jasmund-national-park",
-          "name": "雅斯蒙德国家公园",
-          "englishName": "Jasmund National Park"
+          "slug": "wasserburg-am-inn-history",
+          "name": "因河畔瓦瑟堡",
+          "englishName": "Wasserburg am Inn"
         },
         {
-          "slug": "bad-harzburg",
-          "name": "巴德哈尔茨堡",
-          "englishName": "Bad Harzburg"
+          "slug": "auerbach-castle-bensheim",
+          "name": "本斯海姆-奥尔巴赫城堡",
+          "englishName": "Auerbach Castle (Bensheim)"
         }
       ]
     }

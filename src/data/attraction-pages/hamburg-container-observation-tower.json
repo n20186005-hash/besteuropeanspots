@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉堡集装箱观测塔",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schmalkalden-city-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施马尔卡尔登</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schmalkalden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/freiberg-silver-mining-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗赖贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Freiberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saalfelder-feengrotten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔费尔德仙女石窟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saalfelder Feengrotten</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/marienplatz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛利亚广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marienplatz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maulbronn-monastery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    毛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">毛尔布龙修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maulbronn Monastery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/waren-mueritz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦伦（米里茨）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Waren (Müritz)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "schmalkalden-city-guide",
-          "name": "施马尔卡尔登",
-          "englishName": "Schmalkalden"
+          "slug": "marienplatz",
+          "name": "玛利亚广场",
+          "englishName": "Marienplatz"
         },
         {
-          "slug": "freiberg-silver-mining-history",
-          "name": "弗赖贝格",
-          "englishName": "Freiberg"
+          "slug": "maulbronn-monastery",
+          "name": "毛尔布龙修道院",
+          "englishName": "Maulbronn Monastery"
         },
         {
-          "slug": "saalfelder-feengrotten",
-          "name": "萨尔费尔德仙女石窟",
-          "englishName": "Saalfelder Feengrotten"
+          "slug": "waren-mueritz",
+          "name": "瓦伦（米里茨）",
+          "englishName": "Waren (Müritz)"
         }
       ]
     }

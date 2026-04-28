@@ -16,11 +16,11 @@
     },
     {
       "label": "荷兰",
-      "href": "/destinations/europe"
+      "href": "/destinations/helan"
     },
     {
       "label": "莱顿",
-      "href": "/destinations/europe"
+      "href": "/destinations/helan"
     },
     {
       "label": "宁芙动物园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burcht-van-leiden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱顿古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burcht van Leiden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fort-bourtange-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔坦赫星形要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fort Bourtange</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/marken-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马肯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Marken</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/oudewater-witch-weighing-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥德瓦特女巫称重房</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Oudewater Witch Weighing House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stevensweert\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯蒂文斯维特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stevensweert</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/zierikzee-historic-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    济\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">济里克泽历史老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zierikzee</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burcht-van-leiden",
-          "name": "莱顿古堡",
-          "englishName": "Burcht van Leiden"
+          "slug": "oudewater-witch-weighing-house",
+          "name": "奥德瓦特女巫称重房",
+          "englishName": "Oudewater Witch Weighing House"
         },
         {
-          "slug": "fort-bourtange-history",
-          "name": "布尔坦赫星形要塞",
-          "englishName": "Fort Bourtange"
+          "slug": "stevensweert",
+          "name": "斯蒂文斯维特",
+          "englishName": "Stevensweert"
         },
         {
-          "slug": "marken-village",
-          "name": "马肯",
-          "englishName": "Marken"
+          "slug": "zierikzee-historic-town",
+          "name": "济里克泽历史老城",
+          "englishName": "Zierikzee"
         }
       ]
     }

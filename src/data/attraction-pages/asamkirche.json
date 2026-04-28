@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "阿桑教堂",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/heppenheim-medieval-town-starkenburg-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑彭海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heppenheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hirsau-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希尔绍修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hirsau Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eberbach-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃伯巴赫修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eberbach Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/greifswald\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格赖夫斯瓦尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Greifswald</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/konigsplatz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    国\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">国王广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Königsplatz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/aegidien-church-war-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣埃吉迪恩教堂战争纪念地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aegidien Church War Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "heppenheim-medieval-town-starkenburg-ruins",
-          "name": "黑彭海姆",
-          "englishName": "Heppenheim"
+          "slug": "greifswald",
+          "name": "格赖夫斯瓦尔德",
+          "englishName": "Greifswald"
         },
         {
-          "slug": "hirsau-abbey",
-          "name": "希尔绍修道院",
-          "englishName": "Hirsau Abbey"
+          "slug": "konigsplatz",
+          "name": "国王广场",
+          "englishName": "Königsplatz"
         },
         {
-          "slug": "eberbach-abbey",
-          "name": "埃伯巴赫修道院",
-          "englishName": "Eberbach Abbey"
+          "slug": "aegidien-church-war-memorial",
+          "name": "圣埃吉迪恩教堂战争纪念地",
+          "englishName": "Aegidien Church War Memorial"
         }
       ]
     }

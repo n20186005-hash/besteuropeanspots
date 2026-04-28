@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "巴伐利亚国家歌剧院",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schwabisch-hall-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施瓦本哈尔古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwäbisch Hall</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maulbronn-monastery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    毛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">毛尔布龙修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maulbronn Monastery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-eltz-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔茨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Eltz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lauenburg-an-der-elbe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    劳\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">劳恩堡（易北河畔）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lauenburg an der Elbe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/heide-park-resort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    海\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">海德公园度假村</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heide Park Resort</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monschau-half-timbered-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙绍</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monschau</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "schwabisch-hall-old-town",
-          "name": "施瓦本哈尔古城",
-          "englishName": "Schwäbisch Hall"
+          "slug": "lauenburg-an-der-elbe",
+          "name": "劳恩堡（易北河畔）",
+          "englishName": "Lauenburg an der Elbe"
         },
         {
-          "slug": "maulbronn-monastery",
-          "name": "毛尔布龙修道院",
-          "englishName": "Maulbronn Monastery"
+          "slug": "heide-park-resort",
+          "name": "海德公园度假村",
+          "englishName": "Heide Park Resort"
         },
         {
-          "slug": "burg-eltz-history",
-          "name": "埃尔茨城堡",
-          "englishName": "Burg Eltz"
+          "slug": "monschau-half-timbered-town",
+          "name": "蒙绍",
+          "englishName": "Monschau"
         }
       ]
     }

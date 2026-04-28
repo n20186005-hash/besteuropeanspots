@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "达豪",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "达豪集中营纪念遗址",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/minden-water-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    明\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">明登</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Minden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schlitz-castle-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施利茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schlitz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/asisi-panorama-berlin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林墙全景-阿西西全景</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">DIE MAUER / THE WALL - asisi Panorama Berlin</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/georgengarten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格奥尔根花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Georgengarten</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schongau\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    雄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">雄高</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schongau</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/flensburg-fjord-rum-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗伦斯堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flensburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "minden-water-bridge",
-          "name": "明登",
-          "englishName": "Minden"
+          "slug": "georgengarten",
+          "name": "格奥尔根花园",
+          "englishName": "Georgengarten"
         },
         {
-          "slug": "schlitz-castle-town",
-          "name": "施利茨",
-          "englishName": "Schlitz"
+          "slug": "schongau",
+          "name": "雄高",
+          "englishName": "Schongau"
         },
         {
-          "slug": "asisi-panorama-berlin",
-          "name": "柏林墙全景-阿西西全景",
-          "englishName": "DIE MAUER / THE WALL - asisi Panorama Berlin"
+          "slug": "flensburg-fjord-rum-old-town",
+          "name": "弗伦斯堡",
+          "englishName": "Flensburg"
         }
       ]
     }

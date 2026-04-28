@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林动物园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/torgau-hartenfels-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈滕费尔斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hartenfels Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/goslar-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈斯拉尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Goslar Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schiltach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希尔塔赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schiltach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-bartholomew-pilgrimage-church\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣巴托洛梅朝圣教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pilgrimage Church of St. Bartholomew</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/franzoesischer-dom\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    法\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">法兰西大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Französischer Dom</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nationalpark-saechsische-schweiz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨克森小瑞士国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nationalpark Sächsische Schweiz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "torgau-hartenfels-castle-history",
-          "name": "哈滕费尔斯城堡",
-          "englishName": "Hartenfels Castle"
+          "slug": "st-bartholomew-pilgrimage-church",
+          "name": "圣巴托洛梅朝圣教堂",
+          "englishName": "Pilgrimage Church of St. Bartholomew"
         },
         {
-          "slug": "goslar-old-town",
-          "name": "戈斯拉尔老城",
-          "englishName": "Goslar Old Town"
+          "slug": "franzoesischer-dom",
+          "name": "法兰西大教堂",
+          "englishName": "Französischer Dom"
         },
         {
-          "slug": "schiltach",
-          "name": "希尔塔赫",
-          "englishName": "Schiltach"
+          "slug": "nationalpark-saechsische-schweiz",
+          "name": "萨克森小瑞士国家公园",
+          "englishName": "Nationalpark Sächsische Schweiz"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "贝希特斯加登",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "贝希特斯加登国家公园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/llyn-brianne-dam-reservoir\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布赖恩湖水库与坝</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llyn Brianne Dam & Reservoir</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/volterra-monte-baldi-tuscany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔泰拉与巴尔迪山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Volterra and Monte Baldi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amorbach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿莫尔巴赫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amorbach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/balmoral-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔莫勒尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balmoral Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alcoutim-guardiana-river\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔科廷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alcoutim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bautzen-sorbian-bilingual-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    包\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">包岑（索布人的千年双语古城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bautzen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "llyn-brianne-dam-reservoir",
-          "name": "布赖恩湖水库与坝",
-          "englishName": "Llyn Brianne Dam & Reservoir"
+          "slug": "balmoral-castle",
+          "name": "巴尔莫勒尔城堡",
+          "englishName": "Balmoral Castle"
         },
         {
-          "slug": "volterra-monte-baldi-tuscany",
-          "name": "沃尔泰拉与巴尔迪山",
-          "englishName": "Volterra and Monte Baldi"
+          "slug": "alcoutim-guardiana-river",
+          "name": "阿尔科廷",
+          "englishName": "Alcoutim"
         },
         {
-          "slug": "amorbach",
-          "name": "阿莫尔巴赫",
-          "englishName": "Amorbach"
+          "slug": "bautzen-sorbian-bilingual-old-town",
+          "name": "包岑（索布人的千年双语古城）",
+          "englishName": "Bautzen"
         }
       ]
     }

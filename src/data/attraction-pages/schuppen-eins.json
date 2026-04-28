@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "汉堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "一号船棚",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/berlin-zoological-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berlin Zoological Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bruehls-terrace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布吕尔平台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brühl's Terrace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eisbachwelle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾斯巴赫河浪</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eisbachwelle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-nikolai-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣尼古拉纪念教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St. Nikolai Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fritzlar-medieval-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里茨拉尔中世纪古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fritzlar</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/trier-roman-monuments\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特里尔古罗马遗迹</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roman Monuments of Trier</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "berlin-zoological-garden",
-          "name": "柏林动物园",
-          "englishName": "Berlin Zoological Garden"
+          "slug": "st-nikolai-memorial",
+          "name": "圣尼古拉纪念教堂",
+          "englishName": "St. Nikolai Memorial"
         },
         {
-          "slug": "bruehls-terrace",
-          "name": "布吕尔平台",
-          "englishName": "Brühl's Terrace"
+          "slug": "fritzlar-medieval-old-town",
+          "name": "弗里茨拉尔中世纪古城",
+          "englishName": "Fritzlar"
         },
         {
-          "slug": "eisbachwelle",
-          "name": "艾斯巴赫河浪",
-          "englishName": "Eisbachwelle"
+          "slug": "trier-roman-monuments",
+          "name": "特里尔古罗马遗迹",
+          "englishName": "Roman Monuments of Trier"
         }
       ]
     }

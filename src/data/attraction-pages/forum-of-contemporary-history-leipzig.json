@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "莱比锡",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "当代历史论坛莱比锡",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/braubach-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳巴赫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Braubach Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dachau-concentration-camp-memorial-site\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达豪集中营纪念遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dachau Concentration Camp Memorial Site</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/naumburg-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瑙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瑙姆堡大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Naumburg Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/trinkhalle-baden-baden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    饮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">饮水厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Trinkhalle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/havelberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈弗尔贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Havelberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/magdeburg-water-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马格德堡水桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Magdeburg Water Bridge</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "braubach-castle",
-          "name": "布劳巴赫城堡",
-          "englishName": "Braubach Castle"
+          "slug": "trinkhalle-baden-baden",
+          "name": "饮水厅",
+          "englishName": "Trinkhalle"
         },
         {
-          "slug": "dachau-concentration-camp-memorial-site",
-          "name": "达豪集中营纪念遗址",
-          "englishName": "Dachau Concentration Camp Memorial Site"
+          "slug": "havelberg",
+          "name": "哈弗尔贝格",
+          "englishName": "Havelberg"
         },
         {
-          "slug": "naumburg-cathedral",
-          "name": "瑙姆堡大教堂",
-          "englishName": "Naumburg Cathedral"
+          "slug": "magdeburg-water-bridge",
+          "name": "马格德堡水桥",
+          "englishName": "Magdeburg Water Bridge"
         }
       ]
     }

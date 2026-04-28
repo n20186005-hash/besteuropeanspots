@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "萨尔茨堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "萨尔茨堡盐矿",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/watch-valley-ice-lakes-austria-switzerland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥地利·瑞士（制表名谷与冰碛湖泊）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Watch Valley & Glacial Lakes: Austria to Switzerland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/porcia-castle-spittal\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波尔恰城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Porcia Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/steyr-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施泰尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Steyr Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kefermarkt-gothic-altarpiece\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯费尔马克特祭坛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kefermarkt Altarpiece</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gmunden-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格蒙登城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gmunden Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gmunden-lake-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格蒙登湖城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gmunden Lake City</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "watch-valley-ice-lakes-austria-switzerland",
-          "name": "奥地利·瑞士（制表名谷与冰碛湖泊）",
-          "englishName": "Watch Valley & Glacial Lakes: Austria to Switzerland"
+          "slug": "kefermarkt-gothic-altarpiece",
+          "name": "凯费尔马克特祭坛",
+          "englishName": "Kefermarkt Altarpiece"
         },
         {
-          "slug": "porcia-castle-spittal",
-          "name": "波尔恰城堡",
-          "englishName": "Porcia Castle"
+          "slug": "gmunden-castle",
+          "name": "格蒙登城堡",
+          "englishName": "Gmunden Castle"
         },
         {
-          "slug": "steyr-old-town-history",
-          "name": "施泰尔老城",
-          "englishName": "Steyr Old Town"
+          "slug": "gmunden-lake-city",
+          "name": "格蒙登湖城",
+          "englishName": "Gmunden Lake City"
         }
       ]
     }

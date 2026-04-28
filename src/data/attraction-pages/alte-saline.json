@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "巴特赖兴哈尔",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "阿尔特萨利纳盐矿",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/muehlhausen-thuringia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mühlhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/corvey-abbey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔维修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corvey Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/freyburg-neuenburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗赖堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Freyburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kloster-woeltingerode\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔廷格罗德修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kloster Wöltingerode</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/soviet-war-memorial-tiergarten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒂尔加滕苏联战争纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Soviet War Memorial Tiergarten</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arnstadt-historic-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿恩施塔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arnstadt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "muehlhausen-thuringia",
-          "name": "米尔豪森",
-          "englishName": "Mühlhausen"
+          "slug": "kloster-woeltingerode",
+          "name": "沃尔廷格罗德修道院",
+          "englishName": "Kloster Wöltingerode"
         },
         {
-          "slug": "corvey-abbey-history",
-          "name": "科尔维修道院",
-          "englishName": "Corvey Abbey"
+          "slug": "soviet-war-memorial-tiergarten",
+          "name": "蒂尔加滕苏联战争纪念碑",
+          "englishName": "Soviet War Memorial Tiergarten"
         },
         {
-          "slug": "freyburg-neuenburg",
-          "name": "弗赖堡",
-          "englishName": "Freyburg"
+          "slug": "arnstadt-historic-town",
+          "name": "阿恩施塔特",
+          "englishName": "Arnstadt"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "哈尔施塔特（Hallstatt）附近，上特劳恩（Obertraun）湖畔",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "施拉姆浴场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hall-in-tirol-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hall in Tirol</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hardegg-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈德格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hardegg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melk-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔克修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melk Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/melk-abbey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔克修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melk Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lienz-austria-dolomites\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利恩茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lienz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/duernstein-wachau\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜伦斯泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dürnstein</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hall-in-tirol-history",
-          "name": "哈尔",
-          "englishName": "Hall in Tirol"
-        },
-        {
-          "slug": "hardegg-castle",
-          "name": "哈德格城堡",
-          "englishName": "Hardegg Castle"
-        },
-        {
-          "slug": "melk-abbey",
+          "slug": "melk-abbey-history",
           "name": "梅尔克修道院",
           "englishName": "Melk Abbey"
+        },
+        {
+          "slug": "lienz-austria-dolomites",
+          "name": "利恩茨",
+          "englishName": "Lienz"
+        },
+        {
+          "slug": "duernstein-wachau",
+          "name": "杜伦斯泰因",
+          "englishName": "Dürnstein"
         }
       ]
     }

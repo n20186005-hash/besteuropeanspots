@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "魔鬼山",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tittmoning-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒂特莫宁城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tittmoning Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/frauenkirche-dresden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣母教堂（德累斯顿）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Frauenkirche</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-weikersheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏克斯海姆宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Weikersheim</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/forum-of-contemporary-history-leipzig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    当\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">当代历史论坛莱比锡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Forum of Contemporary History Leipzig</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schwaebisch-gmuend\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施韦比施格明德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwäbisch Gmünd</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ladenburg-germany-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉登堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ladenburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "tittmoning-castle",
-          "name": "蒂特莫宁城堡",
-          "englishName": "Tittmoning Castle"
+          "slug": "forum-of-contemporary-history-leipzig",
+          "name": "当代历史论坛莱比锡",
+          "englishName": "Forum of Contemporary History Leipzig"
         },
         {
-          "slug": "frauenkirche-dresden",
-          "name": "圣母教堂（德累斯顿）",
-          "englishName": "Frauenkirche"
+          "slug": "schwaebisch-gmuend",
+          "name": "施韦比施格明德",
+          "englishName": "Schwäbisch Gmünd"
         },
         {
-          "slug": "schloss-weikersheim",
-          "name": "魏克斯海姆宫",
-          "englishName": "Schloss Weikersheim"
+          "slug": "ladenburg-germany-history",
+          "name": "拉登堡",
+          "englishName": "Ladenburg"
         }
       ]
     }

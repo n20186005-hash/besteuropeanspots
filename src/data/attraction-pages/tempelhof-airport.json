@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "滕珀尔霍夫机场",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burg-eltz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔茨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Eltz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/baumkronenpfad-hoherodskopf\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍赫罗德科普夫树顶步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Baumkronenpfad Hoherodskopf</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-bartholomew-pilgrimage-church\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣巴托洛梅朝圣教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pilgrimage Church of St. Bartholomew</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tauberbischofsheim-old-town-fencing-capital\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    陶\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">陶伯比绍夫斯海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tauberbischofsheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sigmaringen-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    锡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">锡格马林根城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sigmaringen Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/almbachklamm\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔姆巴赫峡谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Almbachklamm</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "burg-eltz",
-          "name": "埃尔茨城堡",
-          "englishName": "Burg Eltz"
+          "slug": "tauberbischofsheim-old-town-fencing-capital",
+          "name": "陶伯比绍夫斯海姆",
+          "englishName": "Tauberbischofsheim"
         },
         {
-          "slug": "baumkronenpfad-hoherodskopf",
-          "name": "霍赫罗德科普夫树顶步道",
-          "englishName": "Baumkronenpfad Hoherodskopf"
+          "slug": "sigmaringen-castle",
+          "name": "锡格马林根城堡",
+          "englishName": "Sigmaringen Castle"
         },
         {
-          "slug": "st-bartholomew-pilgrimage-church",
-          "name": "圣巴托洛梅朝圣教堂",
-          "englishName": "Pilgrimage Church of St. Bartholomew"
+          "slug": "almbachklamm",
+          "name": "阿尔姆巴赫峡谷",
+          "englishName": "Almbachklamm"
         }
       ]
     }

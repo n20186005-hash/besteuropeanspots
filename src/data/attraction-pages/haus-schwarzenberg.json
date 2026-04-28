@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "黑森贝格之家",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/giessen-botanical-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉森植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Giessen Botanical Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bautzen-sorbian-bilingual-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    包\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">包岑（索布人的千年双语古城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bautzen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/drosselgasse-rudesheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕德斯海姆画眉鸟巷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drosselgasse</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stade-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施塔德老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stade Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mindelheim-medieval-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    明\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">明德尔海姆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mindelheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/grimma-historic-town-mulde-river\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格里马</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Grimma</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "giessen-botanical-garden",
-          "name": "吉森植物园",
-          "englishName": "Giessen Botanical Garden"
+          "slug": "stade-old-town",
+          "name": "施塔德老城",
+          "englishName": "Stade Old Town"
         },
         {
-          "slug": "bautzen-sorbian-bilingual-old-town",
-          "name": "包岑（索布人的千年双语古城）",
-          "englishName": "Bautzen"
+          "slug": "mindelheim-medieval-town",
+          "name": "明德尔海姆",
+          "englishName": "Mindelheim"
         },
         {
-          "slug": "drosselgasse-rudesheim",
-          "name": "吕德斯海姆画眉鸟巷",
-          "englishName": "Drosselgasse"
+          "slug": "grimma-historic-town-mulde-river",
+          "name": "格里马",
+          "englishName": "Grimma"
         }
       ]
     }

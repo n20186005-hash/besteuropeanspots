@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "巴登-巴登",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "霍亨巴登老城堡遗址",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gottorf-castle-schleswig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈托尔夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gottorf Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/quedlinburg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奎德林堡老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Quedlinburg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hessenpark-open-air-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑森公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hessenpark Open Air Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stolzenfels-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施托尔岑费尔斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stolzenfels Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gaststaette-burg-pappenheim\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕彭海姆城堡餐厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gaststätte Burg Pappenheim</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buerresheim-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比雷斯海姆城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bürresheim Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "gottorf-castle-schleswig",
-          "name": "戈托尔夫城堡",
-          "englishName": "Gottorf Castle"
+          "slug": "stolzenfels-castle",
+          "name": "施托尔岑费尔斯城堡",
+          "englishName": "Stolzenfels Castle"
         },
         {
-          "slug": "quedlinburg-old-town",
-          "name": "奎德林堡老城",
-          "englishName": "Quedlinburg Old Town"
+          "slug": "gaststaette-burg-pappenheim",
+          "name": "帕彭海姆城堡餐厅",
+          "englishName": "Gaststätte Burg Pappenheim"
         },
         {
-          "slug": "hessenpark-open-air-museum",
-          "name": "黑森公园",
-          "englishName": "Hessenpark Open Air Museum"
+          "slug": "buerresheim-castle",
+          "name": "比雷斯海姆城堡",
+          "englishName": "Bürresheim Castle"
         }
       ]
     }

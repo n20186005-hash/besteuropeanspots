@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "老国家艺术画廊",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blutenburg-castle-munich\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布伦古堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blutenburg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/freiberg-silver-mining-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗赖贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Freiberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/corvey-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔维修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corvey Abbey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bremen-roland\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    不\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">不来梅罗兰雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bremen Roland</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/braubach-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳巴赫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Braubach Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hessenpark-open-air-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑森公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hessenpark Open Air Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "blutenburg-castle-munich",
-          "name": "布伦古堡",
-          "englishName": "Blutenburg Castle"
+          "slug": "bremen-roland",
+          "name": "不来梅罗兰雕像",
+          "englishName": "Bremen Roland"
         },
         {
-          "slug": "freiberg-silver-mining-town",
-          "name": "弗赖贝格",
-          "englishName": "Freiberg"
+          "slug": "braubach-castle",
+          "name": "布劳巴赫城堡",
+          "englishName": "Braubach Castle"
         },
         {
-          "slug": "corvey-abbey",
-          "name": "科尔维修道院",
-          "englishName": "Corvey Abbey"
+          "slug": "hessenpark-open-air-museum",
+          "name": "黑森公园",
+          "englishName": "Hessenpark Open Air Museum"
         }
       ]
     }

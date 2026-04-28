@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "戈绍 (Gosau)",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "前戈绍湖",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/maria-saal\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛丽亚萨尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maria Saal</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/heiligenkreuz-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    海\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">海利根克罗伊茨修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heiligenkreuz Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/durnstein-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜恩施泰因城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dürnstein Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/poellau-baroque-abbey-styria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    珀\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">珀劳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pöllau</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/traunkirchen-austria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特劳恩基兴</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Traunkirchen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rattenberg-tirol-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉滕贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rattenberg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "maria-saal",
-          "name": "玛丽亚萨尔",
-          "englishName": "Maria Saal"
+          "slug": "poellau-baroque-abbey-styria",
+          "name": "珀劳",
+          "englishName": "Pöllau"
         },
         {
-          "slug": "heiligenkreuz-abbey",
-          "name": "海利根克罗伊茨修道院",
-          "englishName": "Heiligenkreuz Abbey"
+          "slug": "traunkirchen-austria",
+          "name": "特劳恩基兴",
+          "englishName": "Traunkirchen"
         },
         {
-          "slug": "durnstein-castle",
-          "name": "杜恩施泰因城堡",
-          "englishName": "Dürnstein Castle"
+          "slug": "rattenberg-tirol-history",
+          "name": "拉滕贝格",
+          "englishName": "Rattenberg"
         }
       ]
     }

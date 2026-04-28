@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林地下世界",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hoexter-weser-renaissance-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赫克斯特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Höxter</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/meissen-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迈森大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meissen Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wasserburg-anholt-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安霍尔特水上城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wasserburg Anholt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/schloss-weissenstein-pommersfelden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魏森施泰因宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Weißenstein (Pommersfelden)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/detmold-teutoburg-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    代\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">代特莫尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Detmold</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/reichsburg-cochem\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科赫姆帝国城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Reichsburg Cochem</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "hoexter-weser-renaissance-old-town",
-          "name": "赫克斯特",
-          "englishName": "Höxter"
+          "slug": "schloss-weissenstein-pommersfelden",
+          "name": "魏森施泰因宫",
+          "englishName": "Schloss Weißenstein (Pommersfelden)"
         },
         {
-          "slug": "meissen-cathedral",
-          "name": "迈森大教堂",
-          "englishName": "Meissen Cathedral"
+          "slug": "detmold-teutoburg-forest",
+          "name": "代特莫尔德",
+          "englishName": "Detmold"
         },
         {
-          "slug": "wasserburg-anholt-guide",
-          "name": "安霍尔特水上城堡",
-          "englishName": "Wasserburg Anholt"
+          "slug": "reichsburg-cochem",
+          "name": "科赫姆帝国城堡",
+          "englishName": "Reichsburg Cochem"
         }
       ]
     }

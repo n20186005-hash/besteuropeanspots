@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "格奥尔根斯瓦尔德（靠近罗斯托克）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "盖尔本桑德狩猎宫",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/imperial-castle-of-nuremberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纽\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纽伦堡皇帝堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Imperial Castle of Nuremberg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kalkar\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔卡尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kalkar</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hameln-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈默尔恩老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hameln Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/berlin-brandenburg-airport\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林勃兰登堡机场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berlin Brandenburg Airport</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schuppen-eins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    一\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">一号船棚</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schuppen Eins</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gotha\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哥达</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gotha</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "imperial-castle-of-nuremberg",
-          "name": "纽伦堡皇帝堡",
-          "englishName": "Imperial Castle of Nuremberg"
+          "slug": "berlin-brandenburg-airport",
+          "name": "柏林勃兰登堡机场",
+          "englishName": "Berlin Brandenburg Airport"
         },
         {
-          "slug": "kalkar",
-          "name": "卡尔卡尔",
-          "englishName": "Kalkar"
+          "slug": "schuppen-eins",
+          "name": "一号船棚",
+          "englishName": "Schuppen Eins"
         },
         {
-          "slug": "hameln-old-town",
-          "name": "哈默尔恩老城",
-          "englishName": "Hameln Old Town"
+          "slug": "gotha",
+          "name": "哥达",
+          "englishName": "Gotha"
         }
       ]
     }

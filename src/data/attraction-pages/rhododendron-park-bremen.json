@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不莱梅",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不莱梅杜鹃花公园",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/goethes-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    歌\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">歌德故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Goethe's House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/moritzburg-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫里茨堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Moritzburg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/esslingen-am-neckar-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃斯林根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Esslingen am Neckar</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/nymphenburg-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    宁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">宁芬堡宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nymphenburg Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/braunfels-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳恩费尔斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Braunfels Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wewelsburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦韦尔斯堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wewelsburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "goethes-house",
-          "name": "歌德故居",
-          "englishName": "Goethe's House"
+          "slug": "nymphenburg-palace",
+          "name": "宁芬堡宫",
+          "englishName": "Nymphenburg Palace"
         },
         {
-          "slug": "moritzburg-castle",
-          "name": "莫里茨堡",
-          "englishName": "Schloss Moritzburg"
+          "slug": "braunfels-castle",
+          "name": "布劳恩费尔斯城堡",
+          "englishName": "Braunfels Castle"
         },
         {
-          "slug": "esslingen-am-neckar-history",
-          "name": "埃斯林根",
-          "englishName": "Esslingen am Neckar"
+          "slug": "wewelsburg",
+          "name": "韦韦尔斯堡",
+          "englishName": "Wewelsburg"
         }
       ]
     }

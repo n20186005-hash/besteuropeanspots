@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "卡尔斯塔特不来梅百货",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/asisi-panorama-berlin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林墙全景-阿西西全景</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">DIE MAUER / THE WALL - asisi Panorama Berlin</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schwaebisch-gmuend\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施韦比施格明德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schwäbisch Gmünd</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monschau-half-timbered-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙绍半木结构小镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monschau</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aegidien-church-war-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣埃吉迪恩教堂战争纪念地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aegidien Church War Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/meersburg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔斯堡旧城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meersburg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/freiberg-silver-mining-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗赖贝格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Freiberg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "asisi-panorama-berlin",
-          "name": "柏林墙全景-阿西西全景",
-          "englishName": "DIE MAUER / THE WALL - asisi Panorama Berlin"
+          "slug": "aegidien-church-war-memorial",
+          "name": "圣埃吉迪恩教堂战争纪念地",
+          "englishName": "Aegidien Church War Memorial"
         },
         {
-          "slug": "schwaebisch-gmuend",
-          "name": "施韦比施格明德",
-          "englishName": "Schwäbisch Gmünd"
+          "slug": "meersburg-old-town",
+          "name": "梅尔斯堡旧城",
+          "englishName": "Meersburg Old Town"
         },
         {
-          "slug": "monschau-half-timbered-town-history",
-          "name": "蒙绍半木结构小镇",
-          "englishName": "Monschau"
+          "slug": "freiberg-silver-mining-history",
+          "name": "弗赖贝格",
+          "englishName": "Freiberg"
         }
       ]
     }

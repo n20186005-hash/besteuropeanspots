@@ -1,0 +1,85 @@
+{
+  "slug": "koroni-history",
+  "template": "history",
+  "metadata": {
+    "title": "科罗尼历史溯源｜地中海海角边的威尼斯城堡与拜占庭记忆",
+    "description": "隐藏在伯罗奔尼撒半岛尽头，一座被威尼斯城堡与白墙蓝海统治的古老小城。从荷马时代到奥斯曼帝国，科罗尼的每一块石头都诉说着海防要塞的血火与浪漫。抛开游玩攻略，走进这座海角边的小镇，探索它的时空与传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "希腊",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科罗尼",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科罗尼",
+      "href": "/attractions/koroni-history"
+    }
+  ],
+  "hero": {
+    "title": "科罗尼・Koroni・希腊・科罗尼",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在伯罗奔尼撒半岛的最西南端，海风与橄榄树的低语始终环绕着一座被遗忘的堡垒小镇——<strong>科罗尼</strong>。这里曾是威尼斯共和国在地中海东岸最坚固的磐石，也是拜占庭帝国最后的叹息之地。<strong>它的白墙蓝窗依山而建，宛如爱琴海边的积木，更壮丽的是那座雄踞海角的威尼斯城堡</strong>，数百年来见证了十字军、奥斯曼帝国与希腊独立战争的滔天巨浪。抛开游玩攻略，走进科罗尼的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">科罗尼</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Koroni</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Koroni</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">希腊</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">科罗尼</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科罗尼的起源比它脚下的石头还要古老。<strong>早在公元前8世纪</strong>，这里便是迈锡尼文明与腓尼基人海上贸易的一个隐蔽锚点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，城市的真正诞生与得名，源于一个更宏大的背影：<strong>斯巴达</strong>。在伯罗奔尼撒战争时期，这里被称作“<strong>阿辛</strong>”，是斯巴达用来监视整个墨西尼亚湾的前哨站。因其扼守爱奥尼亚海与地中海交汇处的战略位置，它注定不会只是一座平静的渔村。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“科罗尼”这个名字则源自希腊语“Κορώνη”，意为“乌鸦”</strong>。一种说法是当年这里的黑色岩石像极了乌鸦群；另一种更传奇的说法，则将它指向拜占庭皇帝“乌鸦”莫里斯，他在这片海角修建了最早的防御工事。到了公元6世纪，拜占庭帝国正式将其作为重要的海事要塞进行升级。最初的城镇，其实就紧紧蜷缩在高地城堡的背后，面朝大海。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>科罗尼的城墙，是两本用石头写成的帝国史书。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第一本，属于<strong>13世纪的十字军与威尼斯人</strong>。1204年第四次十字军东征攻破君士坦丁堡后，科罗尼被作为战利品分割给了威尼斯共和国。威尼斯人一眼就看出这个海岬的价值：<strong>他们拆毁了旧拜占庭堡垒，用最先进的棱堡技术，在悬崖之上重建了那座如今震撼所有人的“波佐城堡”</strong>。城堡内至今保留着巨大的储水池和两个中世纪教堂，它们是威尼斯人对抗漫长围城战的智慧结晶。最奇特的是，<strong>城堡的护墙与居民的石板路，都是用火山岩与海蛎壳混合而成的“灰泥”浇筑</strong>，在海风中坚硬如铁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二本，属于<strong>奥斯曼帝国</strong>。1500年，奥斯曼人用铁血攻下了这座被认为是“不可征服”的堡垒。他们在城堡上加盖了清真寺与浴室，甚至把威尼斯贵族的宫殿改造成了奥斯曼帕夏的后宫。<strong>1685年，威尼斯人短暂夺回，但很快又被土耳其人收复。</strong>这种反复拉锯，让科罗尼的街巷充满了混搭的建筑风格：在一栋奥斯曼式木质阳台下，你能看到拜占庭的砖雕马赛克。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>最具故事性的，是1828年的希腊独立战争。</strong> 当时希腊起义军围困奥斯曼守军达数月之久。困在城内的土耳其人弹尽粮绝，最后在城堡的地牢里引爆了火药库，想与城外的希腊人同归于尽。<strong>一声巨响后，地牢坍塌，这座城堡反而成了独立的勋章。</strong></p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座海角小镇，因战略位置而诞生，也因囚禁与流放而生出异样的光芒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 波西米亚的星辰与铁链：科莱特</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪初，一位身世成谜的意大利冒险家——<strong>科莱特伯爵</strong>——被流放于此。这位伯爵曾是拿破仑麾下的军官，逃亡途中被奥斯曼海军捕获。因为他的身份特殊，奥斯曼人没有杀他，而是将他关押在科罗尼城堡的水牢中。<strong>他在潮湿的囚室里，用偷来的锐石在墙上刻了一幅星图，还有一句意大利文：“人如星辰，再远的距离也能照亮归途。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来他逃了出去，在希腊独立战争中成为一名雇佣兵首领。当地人至今会指着城堡塔楼上的一块裂痕说，那是科莱特当年用逃逸绳索磨出来的痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 现代希腊的播种者：约翰·卡波迪斯特里亚斯</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说科罗尼出了哪位影响整个国家的人物，那必须是希腊独立后的第一任总统——<strong>约翰·卡波迪斯特里亚斯</strong>。虽然他在科孚岛出生，但他的家族源自科罗尼。<strong>他在这里度过了少年时代的每一个夏日，在城堡下的橄榄园里理解了这个民族的韧性。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡波迪斯特里亚斯后来游历欧洲，成为沙皇俄国的外交大臣。但在1827年，这位在地中海和欧洲宫廷中饱读光华的智者，毅然放弃所有权力与地位，回到科罗尼海岬规划了现代希腊的第一份教育宪章。“<strong>每一个自由的希腊人，都要先学会认字，才能守住这片海。</strong>”他在科罗尼的海边石凳上，给欧洲友人写过很多的信。如今这些信都被收藏在雅典，但科罗尼的市政厅广场，依然保留着他亲自设计的第一所乡村学校——<strong>一座只有两间教室的白色平房</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>《三十门大炮与海妖之歌》</strong></blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">在科罗尼最老的渔民口中，城堡修成后，威尼斯人搬来了三十门黄铜大炮，日夜防着海盗。可奇怪的是，每当初一、十五的月明之夜，整个城堡都能听到若有若无的歌声。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">士兵们认为是海妖塞壬的诅咒，吓得不敢在夜间站岗。直到一位随军神父豁然开朗：他让人凿开城堡西侧的岩壁，发现那里居然有一个天然的海蚀洞，每当潮汐涌来，海水拍打钟乳石，发出的回响恰如一首哀歌。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">从此，威尼斯人每逢月圆之夜便不站在城墙上扬威，而是静静地坐在岩壁上听水声。<strong>他们称之为“海之琴”。</strong></blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在科罗尼，白墙之上不是毫无温度的蓝，那是希腊独立军的血与海水的调色。<strong>读懂这里，就懂了“要塞”两个字在漫漫历史中的重量——它不仅是军事的防御，更是文化自留地与勇气的代名词。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今的科罗尼，并没有被商业化淹没。那些裸露的火山岩巷子里，阳光打在斑驳的城墙上，每片鳞片都泛着13世纪威尼斯商队、17世纪奥斯曼隐士和19世纪独立勇士的身影。这是属于旅行者的顶级“人文幽静”：在无人知晓的角落里，听一阵风，就是一部地中海的编年史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kastoria-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯托里亚老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kastoria Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/galaxidi-traditional-sailing-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加拉西迪</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Galaxidi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mount-athos\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿索斯山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mount Athos</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "kastoria-old-town",
+          "name": "卡斯托里亚老城",
+          "englishName": "Kastoria Old Town"
+        },
+        {
+          "slug": "galaxidi-traditional-sailing-town",
+          "name": "加拉西迪",
+          "englishName": "Galaxidi"
+        },
+        {
+          "slug": "mount-athos",
+          "name": "阿索斯山",
+          "englishName": "Mount Athos"
+        }
+      ]
+    }
+  ]
+}

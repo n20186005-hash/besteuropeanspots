@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "萨尔茨堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "米拉贝尔宫",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/matrei-in-osttirol\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马特赖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Matrei in Osttirol</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melk-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔克修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melk Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dornbirn-mountains-modernity\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多恩比恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dornbirn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/leoben-historic-mining-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱奥本</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leoben</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hohenwerfen-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍亨维尔芬城堡（飞鹰堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hohenwerfen Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bregenz-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布雷根茨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bregenz Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "matrei-in-osttirol",
-          "name": "马特赖",
-          "englishName": "Matrei in Osttirol"
+          "slug": "leoben-historic-mining-town",
+          "name": "莱奥本",
+          "englishName": "Leoben"
         },
         {
-          "slug": "melk-abbey",
-          "name": "梅尔克修道院",
-          "englishName": "Melk Abbey"
+          "slug": "hohenwerfen-castle",
+          "name": "霍亨维尔芬城堡（飞鹰堡）",
+          "englishName": "Hohenwerfen Castle"
         },
         {
-          "slug": "dornbirn-mountains-modernity",
-          "name": "多恩比恩",
-          "englishName": "Dornbirn"
+          "slug": "bregenz-old-town",
+          "name": "布雷根茨老城",
+          "englishName": "Bregenz Old Town"
         }
       ]
     }

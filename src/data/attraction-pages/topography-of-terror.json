@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "恐怖地形图",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/nikolaiviertel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    尼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">尼古拉小区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nikolaiviertel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/reichsburg-cochem-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科赫姆帝国城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cochem Castle (Reichsburg Cochem)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schleswig-haithabu-viking\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    石\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">石勒苏益格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schleswig</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/meersburg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔斯堡旧城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meersburg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tuebingen-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    图\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">图宾根老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tübingen Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wankbahn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    万\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">万克缆车</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wankbahn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "nikolaiviertel",
-          "name": "尼古拉小区",
-          "englishName": "Nikolaiviertel"
+          "slug": "meersburg-old-town",
+          "name": "梅尔斯堡旧城",
+          "englishName": "Meersburg Old Town"
         },
         {
-          "slug": "reichsburg-cochem-history",
-          "name": "科赫姆帝国城堡",
-          "englishName": "Cochem Castle (Reichsburg Cochem)"
+          "slug": "tuebingen-old-town",
+          "name": "图宾根老城",
+          "englishName": "Tübingen Old Town"
         },
         {
-          "slug": "schleswig-haithabu-viking",
-          "name": "石勒苏益格",
-          "englishName": "Schleswig"
+          "slug": "wankbahn",
+          "name": "万克缆车",
+          "englishName": "Wankbahn"
         }
       ]
     }

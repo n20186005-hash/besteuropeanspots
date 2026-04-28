@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "柏林安哈尔特火车站遗址",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/altstadt-amberg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/reichsburg-cochem-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科赫姆帝国城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cochem Castle (Reichsburg Cochem)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/helmstedt-historic-border-crossing\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    黑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">黑尔姆施泰特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Helmstedt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/victory-column\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    胜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">胜利纪念柱</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Victory Column</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kohlmarkt-braunschweig\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔市场（布伦瑞克）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kohlmarkt Braunschweig</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rulantica\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁兰提卡水上乐园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rulantica</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "altstadt-amberg",
-          "name": "安贝格老城",
-          "englishName": "Amberg Old Town"
+          "slug": "victory-column",
+          "name": "胜利纪念柱",
+          "englishName": "Victory Column"
         },
         {
-          "slug": "reichsburg-cochem-history",
-          "name": "科赫姆帝国城堡",
-          "englishName": "Cochem Castle (Reichsburg Cochem)"
+          "slug": "kohlmarkt-braunschweig",
+          "name": "科尔市场（布伦瑞克）",
+          "englishName": "Kohlmarkt Braunschweig"
         },
         {
-          "slug": "helmstedt-historic-border-crossing",
-          "name": "黑尔姆施泰特",
-          "englishName": "Helmstedt"
+          "slug": "rulantica",
+          "name": "鲁兰提卡水上乐园",
+          "englishName": "Rulantica"
         }
       ]
     }

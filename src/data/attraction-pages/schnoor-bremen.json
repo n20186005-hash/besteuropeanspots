@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "不来梅",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "施诺尔区",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kleve-schwanenburg-historic-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克莱沃</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kleve</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ochsenhausen-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥森豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ochsenhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sigmaringen-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    锡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">锡格马林根城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sigmaringen Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/viktoriapark-berlin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维多利亚公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Viktoriapark</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/lohr-am-main-snow-white\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    美\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">美因河畔洛尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lohr am Main</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bad-wildbad-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴特维尔德巴特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bad Wildbad</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kleve-schwanenburg-historic-town",
-          "name": "克莱沃",
-          "englishName": "Kleve"
+          "slug": "viktoriapark-berlin",
+          "name": "维多利亚公园",
+          "englishName": "Viktoriapark"
         },
         {
-          "slug": "ochsenhausen-abbey",
-          "name": "奥森豪森",
-          "englishName": "Ochsenhausen"
+          "slug": "lohr-am-main-snow-white",
+          "name": "美因河畔洛尔",
+          "englishName": "Lohr am Main"
         },
         {
-          "slug": "sigmaringen-castle",
-          "name": "锡格马林根城堡",
-          "englishName": "Sigmaringen Castle"
+          "slug": "bad-wildbad-guide",
+          "name": "巴特维尔德巴特",
+          "englishName": "Bad Wildbad"
         }
       ]
     }

@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "以科斯维希（Coswig）和维滕堡（Wittenberg）为门户，覆盖多个小镇",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "弗莱明自然公园（萨克森-安哈尔特部分）",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/malerwinkl\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马勒温克尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Malerwinkl</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kemeri-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯梅里国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ķemeri National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-kriebstein\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里布斯蒂恩城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Kriebstein</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burg-hohenzollern\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍亨索伦城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hohenzollern Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/muenster-altstadt-prinzipalmarkt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    明\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">明斯特老城与主广场（山形墙林立的汉萨商人街与和平之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Münster Old Town and Prinzipalmarkt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/externsteine-sandstone-formations\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃克斯施泰因</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Externsteine</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "malerwinkl",
-          "name": "马勒温克尔",
-          "englishName": "Malerwinkl"
+          "slug": "burg-hohenzollern",
+          "name": "霍亨索伦城堡",
+          "englishName": "Hohenzollern Castle"
         },
         {
-          "slug": "kemeri-national-park",
-          "name": "凯梅里国家公园",
-          "englishName": "Ķemeri National Park"
+          "slug": "muenster-altstadt-prinzipalmarkt",
+          "name": "明斯特老城与主广场（山形墙林立的汉萨商人街与和平之城）",
+          "englishName": "Münster Old Town and Prinzipalmarkt"
         },
         {
-          "slug": "burg-kriebstein",
-          "name": "克里布斯蒂恩城堡",
-          "englishName": "Burg Kriebstein"
+          "slug": "externsteine-sandstone-formations",
+          "name": "埃克斯施泰因",
+          "englishName": "Externsteine"
         }
       ]
     }

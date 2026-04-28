@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "基茨比厄尔",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "马勒温克尔",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/duncansby-head-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓肯斯比角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Duncansby Head Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/industrial-forest-therapy-germany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德国工业巨石的绿色心跳：从鲁尔矿场到黑森林的疗愈之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Green Heartbeat of Germany‘s Industrial Giants: From Ruhr Mines to Black Forest Therapy</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/feldkirch-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    费\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">费尔德基希老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Feldkirch Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cuckoo-stone-observation-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布谷鸟石观景塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuckoo Stone Observation Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stigfossbrua\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯蒂戈斯瀑布桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stigfossbrua</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/grundarfoss\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格伦达瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Grundarfoss</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "duncansby-head-lighthouse",
-          "name": "邓肯斯比角灯塔",
-          "englishName": "Duncansby Head Lighthouse"
+          "slug": "cuckoo-stone-observation-tower",
+          "name": "布谷鸟石观景塔",
+          "englishName": "Cuckoo Stone Observation Tower"
         },
         {
-          "slug": "industrial-forest-therapy-germany",
-          "name": "德国工业巨石的绿色心跳：从鲁尔矿场到黑森林的疗愈之旅",
-          "englishName": "The Green Heartbeat of Germany‘s Industrial Giants: From Ruhr Mines to Black Forest Therapy"
+          "slug": "stigfossbrua",
+          "name": "斯蒂戈斯瀑布桥",
+          "englishName": "Stigfossbrua"
         },
         {
-          "slug": "feldkirch-old-town",
-          "name": "费尔德基希老城",
-          "englishName": "Feldkirch Old Town"
+          "slug": "grundarfoss",
+          "name": "格伦达瀑布",
+          "englishName": "Grundarfoss"
         }
       ]
     }

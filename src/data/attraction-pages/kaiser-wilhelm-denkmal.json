@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "科布伦茨",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "威廉皇帝纪念碑",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/meersburg-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔斯堡旧堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meersburg Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bremen-market-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    不\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">不莱梅集市广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bremen Market Square</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alter-kranen-lueneburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕讷堡港的古起重机</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Crane in the Lüneburg Harbor</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/erfurt-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔福特大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Erfurt Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/new-synagogue-berlin-centrum-judaicum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林新犹太会堂 - 犹太教中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Synagogue Berlin - Centrum Judaicum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/deutsches-marinemuseum-wilhelmshaven\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德国海军博物馆（威廉港）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">German Naval Museum Wilhelmshaven</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "meersburg-castle-history",
-          "name": "梅尔斯堡旧堡",
-          "englishName": "Meersburg Castle"
+          "slug": "erfurt-cathedral",
+          "name": "埃尔福特大教堂",
+          "englishName": "Erfurt Cathedral"
         },
         {
-          "slug": "bremen-market-square",
-          "name": "不莱梅集市广场",
-          "englishName": "Bremen Market Square"
+          "slug": "new-synagogue-berlin-centrum-judaicum",
+          "name": "柏林新犹太会堂 - 犹太教中心",
+          "englishName": "New Synagogue Berlin - Centrum Judaicum"
         },
         {
-          "slug": "alter-kranen-lueneburg",
-          "name": "吕讷堡港的古起重机",
-          "englishName": "Old Crane in the Lüneburg Harbor"
+          "slug": "deutsches-marinemuseum-wilhelmshaven",
+          "name": "德国海军博物馆（威廉港）",
+          "englishName": "German Naval Museum Wilhelmshaven"
         }
       ]
     }

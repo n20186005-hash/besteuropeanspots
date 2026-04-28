@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "哈茨山地区（最近城镇：韦尼格罗德）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "拉普博德大坝",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/luneburg-hanseatic-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕讷堡汉萨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lüneburg Hanseatic Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eberbach-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃伯巴赫修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eberbach Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wernigerode-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦尔尼格罗德城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wernigerode Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/sachsenhausen-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨克森豪森纪念馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sachsenhausen Memorial</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/landshut-trausnitz-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰茨胡特（特劳斯尼茨城堡与砖砌哥特）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landshut (Trausnitz Castle and Brick Gothic)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ladenburg-germany\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉登堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ladenburg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "luneburg-hanseatic-old-town",
-          "name": "吕讷堡汉萨老城",
-          "englishName": "Lüneburg Hanseatic Old Town"
+          "slug": "sachsenhausen-memorial",
+          "name": "萨克森豪森纪念馆",
+          "englishName": "Sachsenhausen Memorial"
         },
         {
-          "slug": "eberbach-abbey",
-          "name": "埃伯巴赫修道院",
-          "englishName": "Eberbach Abbey"
+          "slug": "landshut-trausnitz-castle-history",
+          "name": "兰茨胡特（特劳斯尼茨城堡与砖砌哥特）",
+          "englishName": "Landshut (Trausnitz Castle and Brick Gothic)"
         },
         {
-          "slug": "wernigerode-castle",
-          "name": "韦尔尼格罗德城堡",
-          "englishName": "Wernigerode Castle"
+          "slug": "ladenburg-germany",
+          "name": "拉登堡",
+          "englishName": "Ladenburg"
         }
       ]
     }

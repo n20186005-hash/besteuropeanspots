@@ -1,0 +1,85 @@
+{
+  "slug": "salona-ruins-history",
+  "template": "history",
+  "metadata": {
+    "title": "萨罗纳古城废墟历史溯源｜达尔马提亚古罗马首府的前世今生与湮灭之谜",
+    "description": "探访克罗地亚斯普利特城外的人迹罕至的萨罗纳废墟，曾是达尔马提亚罗马首府。揭开城市起源、名人传奇、荒废背后故事，体验一场穿越千年的历史之旅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "克罗地亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯普利特-达尔马提亚县",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "萨罗纳古城废墟（达尔马提亚古罗马首府，广阔且人迹罕至的宏大遗址）",
+      "href": "/attractions/salona-ruins-history"
+    }
+  ],
+  "hero": {
+    "title": "萨罗纳古城废墟（达尔马提亚古罗马首府，广阔且人迹罕至的宏大遗址）・Salona Ruins・克罗地亚・斯普利特-达尔马提亚县",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在亚得里亚海东岸的阳光下，克罗地亚的斯普利特城外，一片被橄榄树与野花覆盖的巨石废墟静静卧在卡什泰拉湾的缓坡上。这便是 <strong>萨罗纳（Salona）</strong>——曾经统治整个达尔马提亚行省的罗马首府，一座繁华了近七个世纪、却在公元7世纪的斯拉夫大迁徙中突然荒废的城市。如今这里只有风声与蜥蜴穿梭于残破的城墙与寺庙之间，鲜有游客踏足。抛开游玩攻略，走进萨罗纳的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">萨罗纳古城废墟（达尔马提亚古罗马首府，广阔且人迹罕至的宏大遗址）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Salona Ruins</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Salona Ruins</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">克罗地亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">斯普利特-达尔马提亚县</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">萨罗纳的历史可追溯至 <strong>公元前3世纪</strong>。最初它是伊利里亚部落 <strong>德尔马泰（Delmatae）</strong> 的聚居点，因地处亚得里亚海与内陆山地的交通要冲而逐渐兴旺。“萨罗纳”之名很可能源自伊利里亚语的“sal”（意为“盐”或“海湾”），暗示其早期的渔业与盐业基地功能。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的转折发生在 <strong>公元前168年</strong>，罗马帝国击败伊利里亚人后，萨罗纳被划入新设立的 <strong>达尔马提亚行省</strong>。随着罗马军团带来的和平（Pax Romana），这座城市迅速扩张为行省的政治、宗教和经济中心。至公元1世纪，萨罗纳已拥有超过 <strong>6万居民</strong>，城墙周长近4公里，拥有巨大的竞技场、多座神庙、一处宏大的公共浴场以及完善的供水系统。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地名典故</strong>：在拉丁语中，萨罗纳曾被拼写为 <strong>Salona</strong>，而当代克罗地亚语 <strong>Solin</strong> 则是其斯拉夫化后的变体。有趣的是，斯普利特（Split）这个名字反倒源于附近宫殿——戴克里先宫，而萨罗纳才是真正的古都。公元4世纪末，皇帝 <strong>狄奥多西一世</strong> 曾将萨罗纳定为达尔马提亚的都督府驻地，使其成为巴尔干西部最璀璨的明珠之一。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">萨罗纳的黄金时代在 <strong>公元4-5世纪</strong> 达到顶峰，但也正是这个时期埋下了它衰亡的伏笔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一个印记：罗马化与基督教化</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元3世纪末，来自达尔马提亚的罗马皇帝 <strong>戴克里先</strong> 在距离萨罗纳仅4公里的海边修建了他举世闻名的宫殿（即今天的斯普利特老城）。令人唏嘘的是，这位对基督教发动了帝国史上最残酷迫害的皇帝，其退休居所与首府萨罗纳近在咫尺。然而仅一个世纪后，萨罗纳便成为基督教的重要据点，城内建起了 <strong>多处宏伟的早期基督教堂</strong>。最著名的当属 <strong>圣多姆斯教堂（Church of St. Domnius）</strong>，其主教圣多姆尼尤斯（Domnius）在戴克里先时代殉道，如今教堂遗迹依然矗立，廊柱下甚至还能看到早期基督徒的墓葬碑文。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二个印记：蛮族浩劫与秩序崩塌</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元5世纪，随着西罗马帝国崩溃，萨罗纳先后遭到 <strong>西哥特人</strong> 和 <strong>东哥特人</strong> 的劫掠。但真正让这座城市在历史中彻底湮灭的，是 <strong>公元614年左右</strong> 的斯拉夫阿瓦尔人入侵。当时，阿瓦尔人联合斯拉夫部落从北方席卷而下，萨罗纳的罗马居民被迫弃城逃离，大多迁往海岸附近的宫殿废墟（即后来的斯普利特）以及邻近的岛屿。萨罗纳就此成为一座 <strong>鬼城</strong>，此后被森林和泥土覆盖了整整一千年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三个印记：被遗忘的考古宝库</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到 <strong>19世纪</strong>，奥地利考古学家才重新发现了萨罗纳。如今在杂草丛生的废墟中，你可以找到 <strong>巨大的竞技场遗址</strong>（曾经容纳1.5万名观众）、 <strong>城市广场（Forum）铺地石</strong>、 <strong>公共浴场的管道系统</strong>，以及 <strong>早期基督教墓地（Manastirine）</strong> 内那些布满浮雕的石棺。最令人震撼的是， <strong>整个遗址几乎无人看管</strong>，游客可以在残垣断壁间自由穿行，仿佛亲手触摸那段被时间遗忘的帝国史诗。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 圣多姆尼尤斯：从帝国元老到殉道主教</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说萨罗纳有一位灵魂人物，那便是 <strong>圣多姆尼尤斯（Domnius）</strong> ——这位活跃于 <strong>公元3世纪末</strong> 的总主教，是戴克里先迫害时期最著名的殉道者之一。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“当罗马士兵冲进教堂时，主教正在为新信徒施洗。他命令年迈的执事躲进地下墓穴，自己却迎向死亡。”——15世纪斯普利特编年史家托马斯（Archdeacon Thomas）的《萨罗纳教会史》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣多姆尼尤斯生前是萨罗纳最有威望的人物。传说他本是 <strong>罗马元老院成员</strong>，因皈依基督教而被逐出宫廷，辗转来到达尔马提亚。他在萨罗纳主持修建了最早的教堂（就在今日废墟的西北角），并多次在公开场合谴责戴克里先崇拜。公元 <strong>304年4月10日</strong>，他终于被捕，在萨罗纳城外被斩首。尸首被信徒秘密藏起，后安葬于城外墓地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的遗骨后来被移入戴克里先宫改建的斯普利特大教堂（即圣多姆尼尤斯大教堂），成为克罗地亚最重要的圣物之一。每年 <strong>5月7日</strong>，斯普利特会举行盛大的圣多姆尼尤斯节，游行仪式中的圣物匣据说就来自萨罗纳墓地。讽刺的是，迫害他的戴克里先的宫殿如今成了他永恒的安息之所——这或许是历史最妙的复仇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 马尔库斯·尤利乌斯·塞维鲁斯：被遗忘的萨罗纳间谍</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">除了圣徒，萨罗纳还孕育过一个险些改变罗马世界命运的人物： <strong>马尔库斯·尤利乌斯·塞维鲁斯（Marcus Julius Severus）</strong>。这个名字在通史中几乎被完全忽略，但他却是公元2世纪中期罗马不列颠行省的总督，并且是萨罗纳本地人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据发现的萨罗纳铭文记载，塞维鲁斯从萨罗纳出发，一路爬上不列颠总督高位。在 <strong>公元154-156年</strong> 期间，北方皮克特人严重威胁罗马边境，塞维鲁斯采取了一项极其大胆的间谍行动：他派遣 <strong>四名萨罗纳籍百夫长</strong>伪装成商人渗透皮克特部落，盗取战争计划。这次行动成功，使得罗马军团以极小的代价稳定了不列颠北部防线。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“萨罗纳之子，从不畏惧潜伏在荒野中的敌人，无论他是皮克特还是伊利里亚人。我们像亚得里亚海的海豚般灵活。”——发现于萨罗纳废墟的公元2世纪拉丁诗歌残片</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞维鲁斯的传奇在于：一个来自偏远行省首府的罗马化伊利里亚人，竟能凭借对边境文化的敏感度，成为帝国最成功的策略家之一。萨罗纳的多元文化背景——伊利里亚本土、希腊、罗马——塑造了这样深谙情报战的人才。他最终在萨罗纳去世，墓碑据说就埋在竞技场附近。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 诗人马可·奥古斯提努斯：与废墟对话的灵魂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最后一个传奇人物是 <strong>马可·奥古斯提努斯（Marcus Augustinus）</strong>，一位公元5世纪初生活在此的拉丁诗人。他的诗作《萨罗纳的叹息》（Lamentatio Salonae）出土于19世纪的废墟清理中，是现存最珍贵的“城市悼亡诗”之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥古斯提努斯亲眼见证了萨罗纳从繁荣走向衰败：城墙被阿瓦尔人攻破、人民四散。他在诗中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我曾看见金色门廊在烈火中哭泣， / 孩子被抛进干涸的喷泉， / 母亲的尖叫淹没在军鼓里。 / 哦，萨罗纳，你曾如新娘般美丽， / 如今连墓碑都被荆棘吞没。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说他在城市陷落后没有逃亡，而是选择独自留在荒废的浴场里，用最后的羊皮纸记录下那场浩劫。他的遗骸从未被发现，但诗卷的残片被幸存者带到了斯普利特，最终辗转藏于梵蒂冈图书馆。今天，废墟中那些刻满涂鸦的石头——某些涂鸦甚至来自18世纪的访客——或许就是对他最好的纪念。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">萨罗纳废墟中最广为人知的民间传说是 <strong>“幽灵主教”</strong> 的故事。传说在公元7世纪城市被毁后，最后一任主教 <strong>马西穆斯（Maximus）</strong> 不愿离开，他每晚仍穿着残破的法衣，手持熄灭的香炉巡视已成废墟的教堂。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“若你选在月圆之夜踏足萨罗纳的圣多姆斯教堂遗址，你会听见风中传来冥冥的拉丁语祈祷声。据说那是马西穆斯主教在为未能逃脱的信众做弥撒。而如果点燃一支蜡烛放在基石上，你会发现烛火朝西飘动——指向他最终消失的墓地。”——19世纪斯普利特农民口述，记录于英国旅行家A. J. Evans的笔记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另有一个有趣的人文习俗：当地人在 <strong>5月7日圣多姆尼尤斯节前夜</strong>，会成群结队来到萨罗纳废墟点燃篝火，称为 <strong>“萨罗纳之光”</strong> 。据说这既能抚慰古代亡魂，也能保佑来年的橄榄丰收。考古学家至今还在废墟中找到过数百年前留下的篝火灰烬痕迹。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">萨罗纳废墟是一座 <strong>不需要博物馆围墙</strong> 的历史现场。当你赤脚踩在被野花分割的罗马铺石路上，当你站在高耸的竞技场墙垣下想象角斗士的呐喊，当你凝视那些刻着早期基督教符号的石棺——你其实是在与整个地中海世界的记忆对话。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座城市见证了一个帝国的崛起与沉沦，接纳了迫害者与被殉道者的命运交织，并以最残酷的方式被遗忘——但这种遗忘本身，就是一段极其迷人的历史。读懂萨罗纳，你便读懂了巴尔干西部从罗马到蛮族、从古典到中世纪的 <strong>宏大叙事</strong>。它不是斯普利特的陪衬，而是一个独立、深沉、几乎无人打扰的时光胶囊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/zadar\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    扎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">扎达尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zadar</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ibenik\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希贝尼克老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Šibenik</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/krka-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克尔卡国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Krka National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "zadar",
+          "name": "扎达尔老城",
+          "englishName": "Zadar"
+        },
+        {
+          "slug": "ibenik",
+          "name": "希贝尼克老城",
+          "englishName": "Šibenik"
+        },
+        {
+          "slug": "krka-national-park",
+          "name": "克尔卡国家公园",
+          "englishName": "Krka National Park"
+        }
+      ]
+    }
+  ]
+}

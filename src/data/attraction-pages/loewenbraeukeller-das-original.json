@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "狮子啤酒馆 - 原厂店",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kloster-woeltingerode\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔廷格罗德修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kloster Wöltingerode</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calw-hesse-black-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔夫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calw</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schleissheim-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施莱斯海姆宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schleissheim Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/alter-kranen-lueneburg\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吕讷堡港的古起重机</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Crane in the Lüneburg Harbor</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/xanten-archaeological-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克桑滕古罗马考古公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Xanten Archaeological Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/soest-green-sandstone-medieval-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索斯特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Soest</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "kloster-woeltingerode",
-          "name": "沃尔廷格罗德修道院",
-          "englishName": "Kloster Wöltingerode"
+          "slug": "alter-kranen-lueneburg",
+          "name": "吕讷堡港的古起重机",
+          "englishName": "Old Crane in the Lüneburg Harbor"
         },
         {
-          "slug": "calw-hesse-black-forest",
-          "name": "卡尔夫",
-          "englishName": "Calw"
+          "slug": "xanten-archaeological-park",
+          "name": "克桑滕古罗马考古公园",
+          "englishName": "Xanten Archaeological Park"
         },
         {
-          "slug": "schleissheim-palace",
-          "name": "施莱斯海姆宫",
-          "englishName": "Schleissheim Palace"
+          "slug": "soest-green-sandstone-medieval-town-history",
+          "name": "索斯特",
+          "englishName": "Soest"
         }
       ]
     }

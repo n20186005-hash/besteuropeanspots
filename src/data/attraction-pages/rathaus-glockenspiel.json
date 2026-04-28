@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "慕尼黑新市政厅钟琴",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/berlin-underworld\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林地下世界</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berlin Underworld</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museum-berlin-karlshorst\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林-卡尔斯霍斯特博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museum Berlin-Karlshorst</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/atlantic-grand-hotel-bremen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大西洋格兰德不来梅酒店</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">ATLANTIC Grand Hotel Bremen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/giessen-botanical-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉森植物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Giessen Botanical Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/soest-medieval-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索斯特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Soest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/limburg-an-der-lahn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    林\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">林堡（兰河畔的中世纪彩绘大教堂小镇）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Limburg an der Lahn</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "berlin-underworld",
-          "name": "柏林地下世界",
-          "englishName": "Berlin Underworld"
+          "slug": "giessen-botanical-garden",
+          "name": "吉森植物园",
+          "englishName": "Giessen Botanical Garden"
         },
         {
-          "slug": "museum-berlin-karlshorst",
-          "name": "柏林-卡尔斯霍斯特博物馆",
-          "englishName": "Museum Berlin-Karlshorst"
+          "slug": "soest-medieval-old-town",
+          "name": "索斯特",
+          "englishName": "Soest"
         },
         {
-          "slug": "atlantic-grand-hotel-bremen",
-          "name": "大西洋格兰德不来梅酒店",
-          "englishName": "ATLANTIC Grand Hotel Bremen"
+          "slug": "limburg-an-der-lahn",
+          "name": "林堡（兰河畔的中世纪彩绘大教堂小镇）",
+          "englishName": "Limburg an der Lahn"
         }
       ]
     }

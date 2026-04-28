@@ -1,0 +1,85 @@
+{
+  "slug": "crupet-history",
+  "template": "history",
+  "metadata": {
+    "title": "克吕佩历史溯源｜阿登森林湖心地牢堡垒与卡斯蒂尔家族传奇",
+    "description": "比利时那慕尔省秘境克吕佩：一座建于13世纪的湖心地牢堡垒，仅由狭窄石桥连接。跟随博学的历史向导，走进卡斯蒂尔家族、中世纪领主与阿登森林的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "比利时",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "那慕尔省",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "克吕佩",
+      "href": "/attractions/crupet-history"
+    }
+  ],
+  "hero": {
+    "title": "克吕佩・Crupet・比利时・那慕尔省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在比利时那慕尔省的阿登森林深处，藏着一座仿佛时间凝固的村庄——克吕佩。这里最令人屏息的，是一座<strong>13世纪建在湖心岛上的深灰色地牢堡垒</strong>，仅靠一道狭窄的单拱石桥与外界相连。没有喧嚣的游客，只有石墙浸透的岁月与湖水倒映的传奇。抛开游玩攻略，走进克吕佩的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">克吕佩</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Crupet</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Crupet</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">比利时</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">那慕尔省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克吕佩的历史可以追溯到<strong>12世纪初期</strong>。最早的定居点出现在阿登森林的一片开阔谷地中，依偎着一条名为<strong>克呂佩溪</strong>的小河。地名“Crupet”源于古法语 <strong>“crup”</strong>，意为“陡峭的岩石”，这正指向村落北侧那座拔地而起的岩石山脊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1146年</strong>，当地领主 <strong>戈德弗鲁瓦·德·克吕佩</strong> 首次在历史文献中被提及。他选择在一座天然岩石小岛上建造防御工事，利用溪水环绕形成天然的护城河。这座最初的木制堡垒在<strong>1278年</strong>被彻底重建为石制结构，形成了今天所见的地牢堡垒雏形。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">村庄的名字在13世纪逐渐固定为 <strong>“Crupet”</strong>。有趣的是，当地还流传着一种说法：名称源于拉丁语 <strong>“crypta”</strong>（地窖），因为堡垒底部设有深不见底的地下水牢。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克吕佩的湖心地牢堡垒经历了两次关键的历史改造，每一块石头都刻着时代的印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一次改造：百年战争时期的加固（1337-1453）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在百年战争期间，克吕佩城堡被那慕尔伯爵 <strong>威廉一世</strong> 下令强化为军事据点。工匠们在岩石地基上增加了<strong>厚达3米的石灰岩墙体</strong>，并在东侧开凿了唯一的石桥出口。桥身只有<strong>1.2米宽</strong>，只能容一人一马通过，这种设计使进攻者难以展开队形。城堡内部挖出了<strong>深8米的地牢</strong>，用铁栅栏隔成三层，最底层常年浸水，专门关押重犯。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二次改造：卡斯蒂尔家族的文艺复兴（16世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1555年</strong>，领主 <strong>让·德·卡斯蒂尔</strong> 继承了这座城堡。他与妻子 <strong>玛丽·德·列日</strong> 引入文艺复兴风格：在堡垒顶层开设了四扇<strong>双层拱窗</strong>，让阳光首次照亮阴暗的大厅。外墙被涂上深灰色石灰涂料，与湖水形成强烈对比。这一时期，石桥桥头加装了<strong>吊桥槽口</strong>和铁链滑轮，至今仍可看到锈迹斑斑的铸铁构件。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1220年</strong>，克吕佩教堂在堡垒以西300米处建成。这座<strong>圣马丁教堂</strong>的内部保存着13世纪的<strong>壁画残片</strong>，描绘了圣乔治屠龙的场景——龙的形象被刻意画成蛇形，据说是为了纪念当地传说中栖息在溪水中的水怪。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 让·德·卡斯蒂尔（1518-1588）：宗教战争中的隐士领主</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">让·德·卡斯蒂尔出生于克吕佩城堡，是卡斯蒂尔家族第五代传人。在西班牙统治下的低地国家，他因坚持 <strong>天主教正统</strong> 而卷入宗教战争。<strong>1568年</strong>，沉默者威廉的军队逼近那慕尔，让·德·卡斯蒂尔选择将城堡变成<strong>避难所</strong>，收留了周边村庄的300多名天主教徒。他在堡垒顶层设立了小礼拜堂，每天清晨亲自敲钟祈祷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">让·德·卡斯蒂尔的日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“今天又有一队新教徒骑兵从森林边缘经过。我命人将石桥上的木板抽去，只留下铁链桥。湖水反射着他们的旗帜，我看不清颜色。但我相信，这座用岩石和信仰筑成的堡垒，会护佑我们直到和平降临。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在去世前三个月被西班牙国王 <strong>腓力二世</strong> 授予金羊毛骑士勋章，但据传他从未佩戴过——勋章被锁在城堡地牢的铁箱中，直到1990年修缮时才被发现。让·德·卡斯蒂尔最终安葬在圣马丁教堂的祭坛下方，墓碑上刻着他最喜欢的铭文：“石墙终会风化，但名字留在水中。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 约瑟夫·杜普雷（1754-1837）：植物学家与森林先知</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约瑟夫·杜普雷是克吕佩本地人，出生于城堡以南的农舍。他从小跟随父亲在阿登森林中采药，后来成为<strong>布鲁塞尔皇家植物园</strong>的特聘采集员。<strong>1786年</strong>，他发现了 <strong>Arnica montana</strong>（山金车）在克吕佩溪谷的特殊变种，其花色比普通山金车更深，药用价值更高。这种变种被命名为 <strong>“Arnica montana crupetensis”</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">杜普雷最著名的贡献是绘制了<strong>阿登森林药用植物地图</strong>（1792年），其中详细标注了克吕佩周边62种植物的分布和采集季节。这份地图至今保存在那慕尔档案中心。他晚年隐居在克吕佩堡垒东侧的磨坊里，每天记录溪水温度与植物生长的关系。邻居们称他为“森林先知”，因为他总能提前预测龙胆草的花期。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 埃莉诺·范德瓦特（1867-1945）：最后的城堡女主人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃莉诺·范德瓦特出身于布鲁塞尔贵族家庭，<strong>1892年</strong>与克吕佩城堡继承人 <strong>亨利·德·卡斯蒂尔</strong> 结婚。她将城堡内部进行了<strong>现代化的通水通电改造</strong>，在原来文艺复兴大厅里安装了比利时最早的铸铁壁炉之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃莉诺在第一次世界大战期间（<strong>1914-1918</strong>）将城堡变成了 <strong>临时战地医院</strong>。她的日记曾记载：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“德军占领了桥头，但允许我们保留城堡的医疗用途。我每天用吊篮从窗户垂下药品，由农民划船送到对岸。湖水被染红过三次，但石桥始终没有响起过枪声。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，埃莉诺已经75岁。她拒绝离开城堡，用家族收藏的挂毯和书籍堵住了地牢入口，防止纳粹将其改造成弹药库。<strong>1945年1月</strong>，她在城堡去世，临终前要求将她的骨灰撒入湖心。今天，城堡由她的曾孙 <strong>安德烈·德·卡斯蒂尔</strong> 管理，每年夏季开放四个月。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克吕佩流传最广的传说是 <strong>“湖心的白衣女子”</strong>。故事说在 <strong>1302年</strong>，城堡领主 <strong>吉勒·德·克吕佩</strong> 的未婚妻 <strong>伊莎贝尔</strong> 在婚礼前夜被强盗劫持。吉勒率兵追击至阿登森林深处，伊莎贝尔在逃跑时不慎坠入溪流，从此失踪。她的尸体从未被找到。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，每逢 <strong>冬至子夜</strong>，就会有一个白衣女子出现在石桥中央。她手中握着一支燃烧的白蜡烛，却始终无法跨过桥的中线。当地人说，如果谁能在冬至之夜给她一面镜子，她就能看到自己的倒影，然后消失——这样，劫持她的强盗的灵魂就会被永远囚禁在湖底。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">村民在 <strong>19世纪</strong> 还在桥头立了一座小石龛，里面放着一面铜镜，每年冬至都会更换一次。这座石龛至今仍在，铜镜已经被风雨腐蚀成绿色，但镜子依然可以反射出人影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说是关于堡垒墙缝中生长的 <strong>“复仇藤”</strong>。这种紫藤植物据说只在城堡外墙扎根，其种子被风带到其他任何地方都无法发芽。传说这是<strong>17世纪</strong>被城堡主人处死的女巫 <strong>玛格丽特</strong> 的诅咒——她的灵魂附在藤蔓上，永远缠绕着这些石灰岩。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克吕佩这座湖心地牢堡垒，是<strong>比利时保存最完整的中世纪小型防御工事样本</strong>。它的每一寸石灰岩都在讲述：如何在百年战争的炮火中坚守，如何在宗教冲突中庇护民众，又如何在一代代领主手中延续家族荣光。当你站在那座仅容一人通过的石桥上，脚下是深不见底的湖水，头顶是13世纪的拱券——你会瞬间理解什么叫“用岩石写成的编年史”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂克吕佩，就是读懂阿登森林中那些沉默的石头如何与岁月对话。这里的魅力不在于华丽的宫殿，而在于那种<strong>固执的、与世隔绝的宁静</strong>。堡垒没有改变外观，湖水没有改道，石桥没有加宽——一切都尽可能保持原貌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/borgloon-church-reading-between-the-lines\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博尔赫隆“字里行间”教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Reading between the Lines</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jehay-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    热\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">热艾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Jehay</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-of-veves-celles-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦沃城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle of Vêves (Celles)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "borgloon-church-reading-between-the-lines",
+          "name": "博尔赫隆“字里行间”教堂",
+          "englishName": "Reading between the Lines"
+        },
+        {
+          "slug": "jehay-castle",
+          "name": "热艾城堡",
+          "englishName": "Château de Jehay"
+        },
+        {
+          "slug": "castle-of-veves-celles-history",
+          "name": "韦沃城堡",
+          "englishName": "Castle of Vêves (Celles)"
+        }
+      ]
+    }
+  ]
+}

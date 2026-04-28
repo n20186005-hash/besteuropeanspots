@@ -16,11 +16,11 @@
     },
     {
       "label": "奥地利",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "哈尔施塔特 (Hallstatt)",
-      "href": "/destinations/europe"
+      "href": "/destinations/aodili"
     },
     {
       "label": "哈尔施塔特盐矿游客中心与商店",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/maria-saal\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛丽亚萨尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maria Saal</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wels-historic-center\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦尔斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wels</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/imst-schemenlaufen-rosengartenschlucht\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊姆斯特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Imst</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/feldkirch-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    费\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">费尔德基希老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Feldkirch Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hallstatt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈尔施塔特镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hallstatt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gmunden-lake-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格蒙登湖城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gmunden Lake City</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "maria-saal",
-          "name": "玛丽亚萨尔",
-          "englishName": "Maria Saal"
+          "slug": "feldkirch-old-town",
+          "name": "费尔德基希老城",
+          "englishName": "Feldkirch Old Town"
         },
         {
-          "slug": "wels-historic-center",
-          "name": "韦尔斯",
-          "englishName": "Wels"
+          "slug": "hallstatt",
+          "name": "哈尔施塔特镇",
+          "englishName": "Hallstatt"
         },
         {
-          "slug": "imst-schemenlaufen-rosengartenschlucht",
-          "name": "伊姆斯特",
-          "englishName": "Imst"
+          "slug": "gmunden-lake-city",
+          "name": "格蒙登湖城",
+          "englishName": "Gmunden Lake City"
         }
       ]
     }

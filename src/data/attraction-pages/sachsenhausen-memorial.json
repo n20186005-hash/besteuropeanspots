@@ -16,11 +16,11 @@
     },
     {
       "label": "德国",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "奥拉宁堡（Oranienburg）",
-      "href": "/destinations/europe"
+      "href": "/destinations/deguo"
     },
     {
       "label": "萨克森豪森纪念馆",
@@ -62,22 +62,22 @@
     },
     {
       "title": "猜你喜欢",
-      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/georgengarten\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格奥尔根花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Georgengarten</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sigmaringen-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    锡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">锡格马林根城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sigmaringen Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/muenster-altstadt-prinzipalmarkt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    明\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">明斯特老城与主广场（山形墙林立的汉萨商人街与和平之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Münster Old Town and Prinzipalmarkt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/landshut-trausnitz-castle-brick-gothic\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰茨胡特（特劳斯尼茨城堡与砖砌哥特）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landshut (Trausnitz Castle and Brick Gothic)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/new-garden-potsdam\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新花园（波茨坦）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">New Garden (Neuer Garten)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-rheinstein\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱茵施泰因城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Rheinstein</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
       "relatedItems": [
         {
-          "slug": "georgengarten",
-          "name": "格奥尔根花园",
-          "englishName": "Georgengarten"
+          "slug": "landshut-trausnitz-castle-brick-gothic",
+          "name": "兰茨胡特（特劳斯尼茨城堡与砖砌哥特）",
+          "englishName": "Landshut (Trausnitz Castle and Brick Gothic)"
         },
         {
-          "slug": "sigmaringen-castle",
-          "name": "锡格马林根城堡",
-          "englishName": "Sigmaringen Castle"
+          "slug": "new-garden-potsdam",
+          "name": "新花园（波茨坦）",
+          "englishName": "New Garden (Neuer Garten)"
         },
         {
-          "slug": "muenster-altstadt-prinzipalmarkt",
-          "name": "明斯特老城与主广场（山形墙林立的汉萨商人街与和平之城）",
-          "englishName": "Münster Old Town and Prinzipalmarkt"
+          "slug": "burg-rheinstein",
+          "name": "莱茵施泰因城堡",
+          "englishName": "Burg Rheinstein"
         }
       ]
     }
